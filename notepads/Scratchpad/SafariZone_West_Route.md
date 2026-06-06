@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 38 Planning & Execution (Turn 65654+)
-- **Current Status**: Standing at (17, 7) in Safari Zone East (Map 0_217) on Turn 65701. Remaining steps: 409 (Run 38 active).
+- **Current Status**: Standing at (17, 8) in Safari Zone East (Map 0_217) on Turn 65707. Remaining steps: 408 (Run 38 active).
 - **Inventory Status**: 15/20 items.
 
 ## Run 38 Core Hypothesis & Testing Plan (Warden's Gold Teeth & HM03 Surf)
@@ -67,4 +67,5 @@
 - Turn 65687: Walked Right 1 to (10, 10) [z=0], Up 2 to (10, 8) [z=0], Right 2 to (12, 8) [z=0], and Up 1 onto the northern stairs at (12, 7) [z=1/0] on Turn 65688 (6 actual steps used, 414 remaining). Ran 'safari_navigator_agent' on Turn 65690.
 - Turn 65691 - 65694: Standing at (12, 7) [z=1] preparing to cross the Northern Plateau East.
 - Turn 65694: Walked Up 1 to stand fully on the plateau at (12, 6) [z=1], Right 5 to (17, 6) [z=1], and Down 1 onto the eastern stairs at (17, 7) [z=1] on Turn 65695 (7 actual steps used, 409 remaining). Ran 'safari_navigator_agent' to synchronize coordinates and steps. Pressed 'Right' and bumped against (18, 7), remaining at (17, 7).
-- Turn 65695 - 65701: Standing at (17, 7) on the eastern plateau stairs.
+- Turn 65701: Walked Down 1 step to descend eastern plateau stairs onto ground level at (17, 8) [z=0] on Turn 65702 (1 actual step used, 408 remaining). Ran 'safari_navigator_agent' to synchronize coordinates and steps on Turn 65707.
+- Turn 65702 - 65707: Standing at (17, 8) [z=0] preparing to navigate the eastern bypass detour corridor.
