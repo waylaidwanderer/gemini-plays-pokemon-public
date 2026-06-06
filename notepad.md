@@ -5482,6 +5482,41 @@ If both ground corridor hypotheses are falsified, our exact step-by-step verifie
   - This route is completely grass-free, meaning there is 0% risk of wild encounters on this entire segment!
   - It does not cross any water bodies.
 
+---
+
+### Turn 64715 Socratic Answers
+#### Socratic Question 1: Mathematical Step-Cost and Encounter-Risk Comparison on Column 21 vs. Column 20
+- **Visually inspecting Column 21 from Row 8 to Row 3**:
+  - `(21, 8)` is open ground (`TYPE_3fe2`).
+  - `(21, 7)`, `(21, 6)`, `(21, 5)`, and `(21, 4)` are tall grass (`TYPE_fed7`).
+  - `(21, 3)` is open ground.
+- **Visually inspecting Column 20 from Row 8 to Row 3**:
+  - `(20, 8)`, `(20, 7)`, `(20, 5)`, and `(20, 3)` are open ground (`TYPE_3fe2`).
+  - `(20, 6)` and `(20, 4)` are tall grass (`TYPE_fed7`).
+- **Mathematical Comparison**:
+  - **Route A: Direct Column 21**:
+    - Path: `["Up", "Up", "Up", "Up", "Up"]` to stand at `(21, 3)`.
+    - Total steps = **5 steps**.
+    - Tall grass exposure = **4 steps** (`(21, 7)`, `(21, 6)`, `(21, 5)`, `(21, 4)`).
+  - **Route B: Column 20 Detour**:
+    - Path: `["Left", "Up", "Up", "Up", "Up", "Up", "Right"]` (Left to (20, 8), Up 5 to (20, 3), Right to (21, 3)).
+    - Total steps = **7 steps**.
+    - Tall grass exposure = **2 steps** (`(20, 6)`, `(20, 4)`).
+  - **Comparison & Strategic Choice**:
+    - Route B costs exactly **2 extra steps** from our massive, surplus-safe step budget.
+    - However, Route B reduces our tall grass exposure from 4 tiles to 2 tiles—a **50% reduction in wild encounter risk**!
+    - Minimizing wild encounters is highly valuable because fleeing battles consumes significant real-time and introduces operational overhead. Spending 2 extra steps to avoid 2 tall grass encounters is mathematically and strategically optimal. We will execute the Column 20 Detour!
+
+#### Socratic Question 2: Column 24 Blockage and the (24, 14) Ground-Level Gap in Safari Zone West
+- **Why Column 24 is Blocked on Rows 1-13**:
+  - Symmetrical vertical tree trunk barriers of `TYPE_2889` occupy Column 24 from Row 1 all the way down to Row 13. This acts as a continuous solid vertical wall.
+- **The (24, 14) Ground Gap**:
+  - `(24, 14)` is ground level `z=0`. It is the first coordinate where the solid Column 24 tree wall ends, forming an open ground-level gap on Row 14.
+- **Why it is the Only Passable Ground Corridor**:
+  - The eastern ground corridor is completely isolated from the west by tree walls at Column 24 on Rows 1-13.
+  - South of Row 14, the Eastern Plateau cliff walls block horizontal passage on Rows 15-16, and solid tree walls block Rows 17-23.
+  - Therefore, `(24, 14)` is the ONLY passable ground-level gap on Column 24 that allows us to transition from the eastern entry basin of Safari Zone West to the stairs at `(21, 17)`.
+
 <hr>
 
 <h1><code>Reflection/Turn61585_Reflection</code></h1>
