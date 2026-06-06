@@ -237,3 +237,16 @@ This mathematical proof demonstrates that our budget of 187 steps provides over 
 ### 1. Visual Difference of Ledge Patterns on Column 14
 Rows 12 and 13 on Column 14 feature the solid, diagonal checkered rock face tile pattern of `TYPE_2889`. This represents a permanent rock face/wall structure. 
 In contrast, on Rows 14 and 15, the boundary texture of Column 14 changes: it is represented as a vertical ledge texture facing West, which is specifically programmed to allow the player to jump West over the cliff edge. This clear visual change from solid rocky diagonal textures on Rows 12-13 to the vertical ridge texture on Rows 14-15 indicates that Row 14 or Row 15 is the true location of the West-facing jump-down ledge.
+
+---
+
+## Socratic Question & Verification (Turn 62496)
+### 1. Contradiction of testing Left on Row 6
+Walking Up to (11, 6) to test walking Left is a direct logical contradiction to our own documented physical mapping. On Turn 62435, we verified and recorded in Socratic Answer 1 that Column 10 Rows 6-8 consists of solid, checkered diagonal brown cliff corner tiles of `TYPE_2889`. These are permanent vertical cliff structures rather than jumpable ledges, meaning they are completely impassable in all directions. Attempting to walk Left from (11, 6) is a guaranteed bump that wastes a step.
+
+### 2. Systematic Tests to Perform Next on Eastern Plateau (Column 22 Rows 14-15)
+To find the East-facing jump-down ledge to the Eastern Grass Corridor:
+- We will traverse back across the plateau to the eastern side: walk Right 4 steps to (15, 6), Down 8 steps to (15, 14), and Right 7 steps to (22, 14) [z=1].
+- **Test 1 (Row 14)**: Standing at (22, 14) [z=1], we will press `Right` to test walking East into (23, 14). If we jump, we will land on (24, 14) [z=0] on ground level in the Eastern Grass Corridor. If we bump, we will remain at (22, 14).
+- **Test 2 (Row 15)**: If Row 14 bumps, we will walk Down 1 step to (22, 15) [z=1] and press `Right` to test walking East into (23, 15). If we jump, we will land on (24, 15) [z=0] on ground level. If we bump, we will remain at (22, 15).
+This systematic sequence will definitively locate the unblocked East-facing jump-down ledge on the eastern plateau!
