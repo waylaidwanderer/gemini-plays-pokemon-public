@@ -3587,10 +3587,6 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 64482: Ran 'safari_navigator_agent' to synchronize steps and coordinates.
 
 ## Run 36 Chronological Movement Log:
-- Turn 63656: Selected YES to pay ¥500 and start Safari Zone Run 36, transitioning from the Safari Zone Gatehouse at (4, 2) to Safari Zone Center at (15, 25) [500 steps starting].
-- Turn 63681: Transitioned from Safari Zone Center at (29, 11) to Safari Zone East at (0, 23) [32 steps used, 468 remaining].
-- Turn 63689: Walked Down 1 step and Right 18 steps from (0, 23) along Row 24 in Safari Zone East, interrupted by a wild Paras at (18, 24) [19 steps used, 449 remaining].
-- Turn 63694: Escaped the wild Paras battle at (18, 24) and returned to the overworld [0 steps used, 449 remaining].
 - Turn 63706: Walked Up 1, Right 2, and Up 2 steps to stand at (20, 21) on the Plateau Stairs UP [5 steps used, 444 remaining].
 - Turn 63710: Climbed the stairs in Safari Zone East at (20, 21), transitioning to the elevated plateau at (20, 20) [1 step used, 443 remaining].
 - Turn 63726: Walked Down 2 steps and Right 2 steps from (20, 20) along the plateau stairs and grass, interrupted by a wild Pinsir at (22, 22) [4 steps used, 439 remaining].
