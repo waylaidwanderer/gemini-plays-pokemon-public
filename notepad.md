@@ -3498,7 +3498,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration - Run 33 Planning & Execution (Turn 60121+)
-- **Current Status**: Standing at (21, 18) on ground level in Safari Zone West (Map 0_219) on Turn 61442 with 229 steps remaining. Ready to climb the eastern plateau stairs to (21, 16) and cross the plateau.
+- **Current Status**: Standing at (3, 14) on ground level in Safari Zone West (Map 0_219) on Turn 61473 with 199 steps remaining. Bypassed the plateau via western vertical corridor Column 3 and preparing to bypass the lake via Row 14.
 - **Inventory Status**: 15/20 items.
 - **Main Objectives**: Retrieve Warden's Gold Teeth at (19, 7) and HM03 Surf at (3, 3) in Safari Zone West.
 
@@ -3606,6 +3606,13 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 61438: Walked Down 10 steps along Column 25 to (25, 15) [10 steps used, 236 remaining].
 - Turn 61440: Walked Down 3 steps and Left 4 steps to stand on ground level at (21, 18) [7 steps used, 229 remaining].
 - Turn 61446: Walked Up 2 steps to climb the Eastern Plateau stairs to stand at (21, 16) on the plateau [2 steps used, 227 remaining] (arriving on Turn 61446).
+- Turn 61447: Walked Left 5 steps horizontally across the plateau to (16, 16) [5 steps used, 222 remaining].
+- Turn 61452: Walked Left 4 steps along Row 16 on the plateau to stand at (12, 16) [4 steps used, 218 remaining].
+- Turn 61457: Walked Left 6 steps along Row 16 to stand at (6, 16) [6 steps used, 212 remaining].
+- Turn 61460: Walked Down 3 steps to stand on the Western Descent Stairs at (6, 19) and Down 1 step to descend to (6, 20) on ground level, immediately triggering a wild Venonat encounter [4 steps used, 208 remaining].
+- Turn 61461: Successfully selected RUN to flee from the wild Venonat and returned to overworld at (6, 20) [0 steps used, 208 remaining].
+- Turn 61464: Walked Left 3 steps along ground level Row 20 to stand at (3, 20) [3 steps used, 205 remaining].
+- Turn 61470: Walked Up 6 steps along Column 3 on ground level to stand at (3, 14) [6 steps used, 199 remaining] (with 8-step chunk on Turn 61467, which was aborted after 6 steps due to encountering the lake boundary at Row 13).
 
 <hr>
 
