@@ -4823,6 +4823,33 @@ With 214 steps remaining:
 - **Headroom Margin**: 214 (current budget) - 44 = **170 surplus steps** remaining!
 This mathematical proof demonstrates that our budget of 214 steps offers over **480% safety headroom**, mathematically guaranteeing 100% success on the current run to obtain both Surf and the Gold Teeth.
 
+---
+
+## Socratic Question 1 (Plateau Vertical Ledge Blockages & Landing Tile Constraints)
+### 1. Explanation of Blocked Row 7 Jump-Left Ledge
+The Pokéball at (9, 7) represents the Warden's Gold Teeth. In Gen 1, jumping over a ledge is a physical movement that moves the player exactly two steps in that direction (from Column 11 to Column 9). This jump is only permitted if the target landing tile (9, 7) is completely clear and passable. Because (9, 7) is occupied by the solid item Pokéball sprite, the landing tile is treated as blocked and impassable, which physically prevents the ledge jump transition on Row 7 and causes the player to bump instead.
+### 2. Visual Identification of Solid Corner Cliff Walls (Rows 6-8)
+On the visual screen overlay, Column 10 on Rows 6-8 features the solid, diagonal, checkered brown mountain-rock cliff corner tile of `TYPE_2889`. These tiles represent a permanent vertical cliff wall structure rather than the horizontal/vertical ridge patterns of jumpable ledges. Because there is no ledge texture there, these tiles act as solid, impassable barriers in all directions.
+
+## Socratic Question 2 (Plateau Descent Systematic Search & Tool Update)
+### 1. Systematic Search Sequence and Move Plan
+To find the exact unblocked row where the vertical ledge allows descent, we will execute the following sequence:
+1. Walk Down 3 steps to (11, 9) [z=1] -> 3 steps.
+2. Test Row 9: Walk Left into (10, 9). If it jumps, we land at (9, 9) [z=0] on the ground (1 step). If it bumps, we remain at (11, 9) [z=1].
+3. Walk Down 1 step to (11, 10) [z=1] -> 1 step (if step 2 bumped).
+4. Test Row 10: Walk Left into (10, 10). If it jumps, we land at (9, 10) [z=0] on the ground (1 step). If it bumps, we remain at (11, 10) [z=1].
+5. Walk Down 1 step to (11, 11) [z=1] -> 1 step (if step 4 bumped).
+6. Test Row 11: Walk Left into (10, 11). If it jumps, we land at (9, 11) [z=0] on the ground (1 step). If it bumps, we remain at (11, 11) [z=1].
+7. Walk Down 1 step to (11, 12) [z=1] -> 1 step (if step 6 bumped).
+8. Test Row 12: Walk Left into (10, 12). If it jumps, we land at (9, 12) [z=0] on the ground (1 step). If it bumps, we remain at (11, 12) [z=1].
+9. Walk Down 1 step to (11, 13) [z=1] -> 1 step (if step 8 bumped).
+10. Test Row 13: Walk Left into (10, 13). If it jumps, we land at (9, 13) [z=0] on the ground (1 step). If it bumps, we remain at (11, 13) [z=1].
+
+### 2. Tool and Scratchpad Updates
+Once the exact functional transition row is verified on foot:
+- We will update the movement log in `Scratchpad/SafariZone_West_Route` with the exact successful transition turn, step cost, and coordinates.
+- We will redefine our custom `safari_pathfinder` tool using `define_tool` to update the West-facing ledge jump transition condition from `6 <= cy <= 13` to only include the precise verified row (e.g., `cy == 10` or `cy in [10, 11]`).
+
 <hr>
 
 <h1><code>Reflection/Turn61585_Reflection</code></h1>
