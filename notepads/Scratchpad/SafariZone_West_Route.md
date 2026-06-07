@@ -1,5 +1,5 @@
-# Safari Zone West Exploration - Run 43 (Turn 68761 - Active)
-- **Current Status**: Standing at (22, 26) in Fuchsia City on Turn 68761, preparing to pay the ¥500 fee to start a fresh, fully optimized Run 43.
+# Safari Zone West Exploration - Run 43 (Turn 68791 - Active)
+- **Current Status**: Standing at (18, 20) in Fuchsia City facing UP on Turn 68791, preparing to cut the first bush at (18, 19).
 - **Inventory Status**: 15/20 items.
 - **Run 43 Starting Steps**: 500 steps.
 - **Current Steps Remaining**: 500 steps (not yet entered).
