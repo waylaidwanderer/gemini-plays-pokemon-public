@@ -3504,364 +3504,49 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
-# Safari Zone West Exploration - Run 41 (Turn 67688 - Active)
-- **Current Status**: Standing at (11, 6) on Koga's Western Plateau in Safari Zone West (Map 0_219) on Turn 67688 with 262 steps remaining.
+# Safari Zone West Exploration - Run 41 (Turn 67715 - Active)
+- **Current Status**: Standing at (5, 16) on Koga's plateau bridge in Safari Zone West (Map 0_219) on Turn 67715 with 246 steps remaining.
 - **Inventory Status**: 15/20 items.
 - **Run 41 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 262 steps.
+- **Current Steps Remaining**: 246 steps.
 - **Money remaining**: ¥69,817.
 
-## Master Run 40 Campaign Plan (Double-Retrieval Route)
-- **Segment 1: Safari Zone Center (Start to stand at East Exit at (29, 11))** [31 steps - COMPLETED]:
-  - Starting at (15, 25), walked Up 9 steps along Column 15 to (15, 16) -> **9 steps** [491 remaining].
-  - Walked Right 5 steps along Row 16 to (20, 16) -> **5 steps** [486 remaining].
-  - Walked Up 2 steps along Column 20 through fence gap to (20, 14) -> **2 steps** [484 remaining].
-  - Walked Right 4 steps along Row 14 to (24, 14) -> **4 steps** [480 remaining].
-  - Walked Up 3 steps along Column 24 to (24, 11) -> **3 steps** [477 remaining].
-  - Walked Right 4 steps along Row 11 to stand at (28, 11) -> **4 steps** [473 remaining].
-  - Transition East at Row 11 to Safari Zone East (Map 0_217) landing at (0, 23) -> **1 step** [472 remaining (470 synced)].
+## Active Campaign Plan (From current position (5, 16))
+1. **Backtrack to (15, 16)**: Walk Right 10 steps horizontally along Row 16 to stand on the plateau at (15, 16) [z=1].
+2. **Move to (15, 13)**: Walk Up 3 steps vertically along Column 15 to stand at (15, 13) [z=1].
+3. **Test Column 14 Row 13 Jump-Left**: Standing at (15, 13) [z=1], attempt to walk Left into (14, 13) to see if we jump West over Column 14 to land on ground level at (13, 13) [z=0].
+4. **Test Column 14 Row 12 Jump-Left**: If the Row 13 test bumps, walk Up 1 step to (15, 12) [z=1] and attempt to walk Left into (14, 12) to see if we jump West over Column 14 to land on ground level at (13, 12) [z=0].
+5. **Retrieve Teeth & Surf**: Once ground level z=0 is successfully reached, walk to (3, 3) (Secret House) to get Surf, and (9, 7) to pick up the Gold Teeth Pokéball. Then use GEMMY's DIG to escape.
 
-- **Segment 2: Safari Zone East (0, 23) to stand at Northwest transition at (0, 5)** [87 steps - ACTIVE]:
-  - Entered at (0, 23). Walked Right 4 steps to (4, 23), Down 1 step to (4, 24) [bypass Rest House 2], and Right 16 steps along Row 24 to stand at (20, 24) -> **21 steps** [449 remaining].
-  - Walk Up 3 steps along Column 20 to climb Southern stairs at (20, 21), standing on the plateau at (20, 20) [z=1] -> **3 steps** [446 remaining (actually 4 steps to land at (20, 20) [z=1], leaving 445 remaining)].
-  - Walk Left 8 steps horizontally along Row 20 to Column 12 at (12, 20) [z=1] -> **8 steps** [437 remaining].
-  - Walk Down 2 steps to descend Western plateau stairs at (12, 21) to stand at (12, 22) [z=0] on ground level -> **2 steps** [435 remaining (actually 442 synced)].
-  - Walk Up 14 steps along Column 12 (the grass-bypass corridor) to Row 8 at (12, 8) -> **14 steps** [421 remaining (actually 428 synced)].
-  - Walk Up 1 step to climb northern plateau stairs at (12, 7) to stand at (12, 6) [z=1] -> **1 step** [420 remaining (actually 421 synced at (17,6))].
-  - Walk Right 5 steps horizontally along Row 6 to stand at (17, 6) [z=1] -> **5 steps** [415 remaining].
-  - Walk Down 2 steps to descend Eastern stairs at (17, 7) to ground level at (17, 8) [z=0] -> **2 steps** [413 remaining (actually 419 synced)].
-  - Walk Right 3 steps along Row 8 to stand at (20, 8) -> **3 steps** [410 remaining].
-  - Walk Up 5 steps along Column 20 (avoiding tall grass) to Northern Grass Corridor at (20, 3) [z=0] -> **5 steps** [405 remaining].
-  - Walk Left 20 steps horizontally along Row 3 from (20, 3) to Column 0 at (0, 3) [z=0] -> **20 steps** [385 remaining].
-  - Walk Down 2 steps along Column 0 to northwest exit at (0, 5) [z=0] -> **2 steps** [383 remaining].
-  - Transition West to Safari Zone North (Map 0_218) landing at (39, 31) -> **1 step** [382 remaining].
+## Socratic Answers & Proof of Work (Overwatch Resolution)
+- **Socratic Question 1 (Column 10 & 5 Blockages)**:
+  - On Turn 67670, our 27-button sequence failed to reach the Secret House because Column 10 Rows 6-9 contains solid cliff walls of `TYPE_2889` that block any horizontal westward movement on Koga's plateau. Standing at (11, 7) or (11, 6), walking Left results in a physical bump, meaning the northeastern plateau pocket (Columns 11-16, Rows 6-9) is completely isolated from the western plateau. Furthermore, Column 11 Row 9 is also a solid cliff face, blocking southward escape on Column 11.
+  - On Turn 67710, we walked Left along Row 16 to (5, 16) [z=1] and attempted to walk Up into (5, 15), resulting in a physical collision (bump). This empirically proves that Column 5 Rows 14-15 are ground-level (`TYPE_3fe2`) grass cells rather than plateau, and the northern boundary of Row 16 on Column 5-13 is a solid North-facing cliff edge that is impassable.
+  - **Structural Puzzle Solution**: Since Koga's western plateau is cut off on Columns 5-13, and the Southwest pocket is blocked on ground level by Row 13 water, the player must locate and use the West-facing jump-down ledge on Column 14. We will walk to (15, 13) and (15, 12) to systematically test if walking Left results in jumping West over Column 14 to land on ground level at Column 13.
+- **Socratic Question 2 (Detour Step Math & Reconciliation)**:
+  - Starting with **399 steps remaining** at (20, 3) in Safari Zone East (Turn 67554):
+    1. Walked from (20, 3) to East-North transition at (0, 5) -> **23 steps used** (376 remaining).
+    2. Walked detour through Safari Zone North from (39, 31) to (9, 35) -> **61 steps used** (315 remaining).
+    3. Walked from West entry at (27, 0) to stairs UP at (21, 17) -> **24 steps used** (291 remaining).
+    4. Climbed stairs to (21, 16) and walked to (15, 16) -> **8 steps used** (283 remaining).
+    5. Attempted Row 6/7 path and ended up at (11, 6) -> **21 steps used** (262 remaining).
+    6. Backtracked along Row 16 to stand at (5, 16) -> **16 steps used** (246 remaining).
+  - This step-by-step physical step calculation accounts for all **153 physical steps consumed**, and perfectly reconciles our actual remaining step count of **246 steps** on Turn 67715, resolving the previous tracking desync!
 
-- **Segment 3: Safari Zone North (39, 31) to stand at West transition at (9, 35)** [61 steps]:
-  - Walk to eastern plateau stairs at (28, 27) and climb UP to (28, 26) [z=1] -> **16 steps** [366 remaining].
-  - Walk Down Eastern stairs at (28, 27) and descend to ground level at (28, 30) [z=0] -> **4 steps** [362 remaining].
-  - Walk to Western stairs at (22, 23) and climb UP onto Western Plateau at (22, 22) [z=1] -> **14 steps** [348 remaining].
-  - Traverse Western Plateau West to (16, 22) [z=1] and descend western stairs to (16, 28) [z=0] -> **12 steps** [336 remaining].
-  - Walk from (16, 28) to West transition: Left 4 to (12, 28), Down 2 to (12, 30), Left 3 to (9, 30), Down 5 along Column 9 to (9, 35), and Down 1 to transition to Safari Zone West (Map 0_219) at (27, 0) [z=0] -> **15 steps** [312 remaining].
-
-- **Segment 4: Safari Zone West Ground Entry to Eastern Plateau Stairs** [26 steps]:
-  - Walk Down 14 along Column 27 to (27, 14) and Left 3 along Row 14 through Column 24 gap to stand at (24, 14) -> **17 steps**.
-  - Walk Down 4 along Column 24 to (24, 18) and Left 3 along Row 18 to (21, 18) -> **7 steps**.
-  - Climb Eastern stairs at (21, 17) onto plateau at (21, 16) [z=1] -> **2 steps** [286 remaining].
-
-- **Segment 5: Traverse Western Plateau, descend to ground level, and walk along Column 3 to Secret House** [39 steps]:
-  - Walk Left 15 steps along Row 16 from (21, 16) to (6, 16) [z=1] -> **15 steps**.
-  - Walk Down 3 steps to (6, 19) [z=1] (the western descent stairs) -> **3 steps**.
-  - Walk Down 1 step to descend to ground level at (6, 20) [z=0] -> **1 step**.
-  - Walk Left 3 steps along Row 20 to stand at Column 3 at (3, 20) [z=0] -> **3 steps**.
-  - Walk Up 17 steps along Column 3 from (3, 20) to stand at the Secret House door at (3, 3) [z=0] -> **17 steps** [247 remaining].
-  - Enter Secret House at (3, 3) [z=0] and retrieve HM03 Surf!
-
-- **Segment 6: Retrieve Teeth and DIG Escape** [20 steps]:
-  - Walk to Warden's Gold Teeth at (9, 7) [z=0] -> **20 steps** [235 remaining].
-  - Retrieve Warden's Gold Teeth and use DIG to escape!
-
-- **Total Combined Steps**: Exactly 298 physical steps.
-- **Safety Margin**: 202 surplus steps (67.8% headroom safety margin!), mathematically guaranteeing absolute success.
-
-## Run 39 Chronological Movement Log
-- Turn 66487: Pressed A to advance dialogue.
-- Turn 66489: Paid ¥500 fee, received 30 Safari Balls, and transitioned into Safari Zone Center at (15, 25) with exactly 500 steps remaining.
-- Turn 66491: Ran 'safari_navigator_agent' to synchronize coordinates and steps (Map transition cost of 1 step applied, 499 steps remaining).
-- Turn 66494: Walked Up 9 steps along Column 15 to stand at (15, 16) on Turn 66495 (9 steps used, 490 remaining).
-- Turn 66495: Ran 'safari_navigator_agent' to synchronize coordinates and steps (9 steps used, 490 remaining).
-- Turn 66496: Walked Right 5 steps to (20, 16) and Up 2 steps through the fence gap to stand at (20, 14) on Turn 66497 (7 steps used, 483 remaining).
-- Turn 66497: Ran 'safari_navigator_agent' to synchronize coordinates and steps (7 steps used, 483 remaining).
-- Turn 66499: Walked Right 4 steps to (24, 14) on Turn 66501 (4 steps used, 479 remaining).
-- Turn 66501: Ran 'safari_navigator_agent' to synchronize coordinates and steps (4 steps used, 479 remaining).
-- Turn 66501: Walked Up 3 steps to (24, 11) and Right 5 steps to (29, 11) on Turn 66502 (8 steps used, 471 remaining).
-- Turn 66502: Ran 'safari_navigator_agent' to synchronize coordinates and steps (8 steps used, 471 remaining).
-- Turn 66503: Walked Right 1 step from (29, 11) to transition East to Safari Zone East, landing at (0, 23) on Turn 66504 (1 step used, 470 remaining).
-- Turn 66504: Ran 'safari_navigator_agent' to synchronize coordinates and steps (1 step used, 470 remaining).
-- Turn 66505: Walked Right 4 steps to (4, 23), Down 1 step to (4, 24), and Right 16 steps along Row 24 to stand at (20, 24) on Turn 66507 (21 steps used, 449 remaining).
-- Turn 66507: Ran 'safari_navigator_agent' to synchronize coordinates and steps (21 steps used, 449 remaining).
-- Turn 66511: Ready to climb Southern stairs at (20, 24) in Safari Zone East with 449 remaining steps.
-- Turn 66512: Walked Up 2 steps along Column 20 from (20, 24) to (20, 22), where a wild battle with a Level 23 Paras was triggered (2 steps used, 447 remaining).
-- Turn 66513: Pressed A to clear battle intro.
-- Turn 66515: Navigated battle menu (Down, Right) to select RUN and escaped on Turn 66516.
-- Turn 66517: Ran 'safari_navigator_agent' to synchronize coordinates and steps (2 steps used, 447 remaining).
-- Turn 66520: Walked Up 2 steps along Column 20 to climb Southern stairs at (20, 21) onto plateau at (20, 20) on Turn 66521 (2 steps used, 445 remaining).
-- Turn 66521: Ran 'safari_navigator_agent' to synchronize coordinates and steps (2 steps used, 445 remaining).
-- Turn 66527: Walked Left 8 steps horizontally along Row 20 on the Southern Plateau from (20, 20) to stand at (12, 20) on Turn 66528 (8 steps used, 437 remaining).
-- Turn 66528: Ran 'safari_navigator_agent' to synchronize coordinates and steps (8 steps used, 437 remaining).
-- Turn 66531: Walked Down 2 steps from (12, 20) to stand on ground level at (12, 22) on Turn 66532, descending the Western stairs (2 steps used, 435 remaining).
-- Turn 66533: Ran 'safari_navigator_agent' to synchronize coordinates and steps (2 steps used, 435 remaining).
-- Turn 66539: Walked Left 3 steps along Row 22 from (12, 22) to stand on ground level at (9, 22) on Turn 66541 (3 steps used, 432 remaining).
-- Turn 66541: Ran 'safari_navigator_agent' to synchronize coordinates and steps (3 steps used, 432 remaining).
-- Turn 66544: Walked Up 12 steps along Column 9 from (9, 22) to stand on ground level at (9, 10) on Turn 66545 (12 steps used, 420 remaining).
-- Turn 66545: Ran 'safari_navigator_agent' to synchronize coordinates and steps (12 steps used, 420 remaining).
-- Turn 66551: Walked Right 1 step to (10, 10), Up 2 steps to (10, 8), and Right 2 steps to stand at (12, 8) on Turn 66552 (5 steps used, 415 remaining).
-- Turn 66552: Ran 'safari_navigator_agent' to synchronize coordinates and steps (5 steps used, 415 remaining).
-- Turn 66558: Walked Up 2 steps to stand at (12, 6) [z=1] on Turn 66559 (2 steps used, 413 remaining).
-- Turn 66559: Ran 'safari_navigator_agent' to synchronize coordinates and steps (2 steps used, 413 remaining).
-- Turn 66566: Walked Right 5 steps horizontally along Row 6 from (12, 6) to stand at (17, 6) [z=1] on Turn 66567 (5 steps used, 408 remaining).
-- Turn 66567: Ran 'safari_navigator_agent' to synchronize coordinates and steps (5 steps used, 408 remaining).
-- Turn 66574: Walked Right 3 steps horizontally along Row 8 from (17, 8) to stand at (20, 8) on Turn 66577 (3 steps used, 403 remaining).
-- Turn 66578: Ran 'safari_navigator_agent' to synchronize coordinates and steps (3 steps used, 403 remaining).
-- Turn 66583: Walked Up 5 steps along Column 20 from (20, 8) to stand at (20, 3) on Turn 66584 (5 steps used, 398 remaining).
-- Turn 66584: Ran 'safari_navigator_agent' to synchronize coordinates and steps (5 steps used, 398 remaining).
-- Turn 66586: Walked Left 8 steps horizontally along Row 3 from (20, 3) to stand at (12, 3) on Turn 66587 (8 steps used, 390 remaining) [wild encounter with Nidoran♀].
-- Turn 66589: Navigated battle menu (Down, Right) to select RUN and escaped on Turn 66590.
-- Turn 66590: Ran 'safari_navigator_agent' to synchronize coordinates and steps (8 steps used, 390 remaining).
-- Turn 66593: Walked Left 6 steps horizontally along Row 3 from (12, 3) to stand at (6, 3) on Turn 66594 (6 steps used, 384 remaining).
-- Turn 66595: Ran 'safari_navigator_agent' to synchronize coordinates and steps (6 steps used, 384 remaining).
-- Turn 66605: Walked Right 1 step horizontally along Row 3 from (6, 3) to stand at (7, 3) on Turn 66606 (1 step used, 383 remaining).
-- Turn 66607: Ran 'safari_navigator_agent' to synchronize coordinates and steps (1 step used, 383 remaining).
-- Turn 66614: Walked Down 2 steps along Column 7 from (7, 3) to stand at (7, 5) on Turn 66615 (2 steps used, 381 remaining).
-- Turn 66616: Ran 'safari_navigator_agent' to synchronize coordinates and steps (2 steps used, 381 remaining).
-- Turn 66618: Walked Left 7 steps horizontally along Row 5 from (7, 5) to stand at (0, 5) on Turn 66619 (7 steps used, 374 remaining).
-- Turn 66619: Ran 'safari_navigator_agent' to synchronize coordinates and steps (7 steps used, 374 remaining).
-- Turn 66621: Walked Left 1 step from (0, 5) in Safari Zone East to transition West to Safari Zone North, landing at (39, 31) on Turn 66622 (1 step used, 373 remaining).
-- Turn 66622: Ran 'safari_navigator_agent' to synchronize coordinates and steps (1 step used, 373 remaining).
-- Turn 66624: Walked Left 11 steps horizontally along Row 31 from (39, 31) to stand at (28, 31) on Turn 66625 (11 steps used, 362 remaining).
-- Turn 66625: Ran 'safari_navigator_agent' to synchronize coordinates and steps (11 steps used, 362 remaining).
-- Turn 66626: Walked Up 5 steps along Column 28 from (28, 31) to climb Eastern Plateau stairs to (28, 26) [z=1] on Turn 66627 (5 steps used, 357 remaining).
-- Turn 66627: Ran 'safari_navigator_agent' to synchronize coordinates and steps (5 steps used, 357 remaining).
-- Turn 66631: Walked Down 4 steps along Column 28 from (28, 26) to stand on ground level at (28, 30) on Turn 66632 (4 steps used, 353 remaining).
-- Turn 66632: Ran 'safari_navigator_agent' to synchronize coordinates and steps (4 steps used, 353 remaining).
-- Turn 66636: Walked Left 6 steps horizontally along Row 30 from (28, 30) to stand at (22, 30) on Turn 66637 (6 steps used, 347 remaining).
-- Turn 66637: Ran 'safari_navigator_agent' to synchronize coordinates and steps (6 steps used, 347 remaining).
-- Turn 66642: Walked Up 8 steps along Column 22 from (22, 30) to climb Western stairs to stand on the plateau at (22, 22) [z=1] on Turn 66643 (8 steps used, 339 remaining).
-- Turn 66643: Ran 'safari_navigator_agent' to synchronize coordinates and steps (8 steps used, 339 remaining).
-- Turn 66652: Walked Left 6 steps horizontally along Row 22 from (22, 22) to stand at (16, 22) [z=1] on Turn 66653 (6 steps used, 333 remaining).
-- Turn 66653: Ran 'safari_navigator_agent' to synchronize coordinates and steps (6 steps used, 333 remaining).
-- Turn 66659: Walked Down 6 steps along Column 16 from (16, 22) [z=1] to stand on ground level at (16, 28) [z=0] on Turn 66661 (6 steps used, 327 remaining).
-- Turn 66661: Ran 'safari_navigator_agent' to synchronize coordinates and steps (6 steps used, 327 remaining).
-- Turn 66667: Walked Left 4 steps horizontally along Row 28 to (12, 28) and Down 2 steps along Column 12 to (12, 30) on Turn 66668 (6 steps used, 321 remaining).
-- Turn 66668: Ran 'safari_navigator_agent' to synchronize coordinates and steps (6 steps used, 321 remaining).
-- Turn 66669: Walked Left 3 steps horizontally along Row 30 from (12, 30) to stand at (9, 30) on Turn 66670 (3 steps used, 318 remaining).
-- Turn 66670: Ran 'safari_navigator_agent' to synchronize coordinates and steps (3 steps used, 318 remaining).
-- Turn 66679: Walked Down 5 steps vertically along Column 9 from (9, 30) to stand at (9, 35) on Turn 66680 (5 steps used, 313 remaining).
-- Turn 66681: Ran 'safari_navigator_agent' to synchronize coordinates and steps (5 steps used, 313 remaining).
-- Turn 66683: Walked Down 1 step from (9, 35) in Safari Zone North to transition South to Safari Zone West, landing at (27, 0) on Turn 66684 (1 step used, 312 remaining).
-- Turn 66684: Ran 'safari_navigator_agent' to synchronize coordinates and steps (1 step used, 312 remaining).
-- Turn 66689: Walked Left 3 steps along Row 14 from (27, 14) to (24, 14), Down 4 steps along Column 24 to (24, 18), and Left 3 steps along Row 18 to stand at (21, 18) on Turn 66690 (10 steps used, 288 remaining).
-- Turn 66691: Ran 'safari_navigator_agent' to synchronize coordinates and steps (10 steps used, 288 remaining).
-- Turn 66697: Walked Up 2 steps along Column 21 from (21, 18) to climb Eastern Plateau stairs to stand on the plateau at (21, 16) [z=1] on Turn 66698 (2 steps used, 286 remaining).
-- Turn 66698: Ran 'safari_navigator_agent' to synchronize coordinates and steps (2 steps used, 286 remaining).
-- Turn 66701: Walked Left 15 steps horizontally along Row 16 from (21, 16) to stand on the plateau at (6, 16) [z=1] on Turn 66702 (15 steps used, 271 remaining).
-- Turn 66702: Ran 'safari_navigator_agent' to synchronize coordinates and steps (271 remaining).
-- Turn 66708: Walked Left 2 steps from (6, 16) to test Column 4 Row 16, bumping on the second step and remaining at (5, 16) on Turn 66709 (1 step used, 270 remaining).
-- Turn 66715: Ran 'safari_navigator_agent' to synchronize coordinates and steps (270 remaining).
-- Turn 66734: Walked Right 5 steps along Row 16 from (5, 16) to stand at (10, 16) on Turn 66735 (5 steps used, 265 remaining).
-- Turn 66736: Ran 'safari_navigator_agent' to synchronize coordinates and steps (265 remaining).
-- Turn 66737: Walked Right 6 steps along Row 16 from (10, 16) to stand at (16, 16) on Turn 66738 (6 steps used, 259 remaining).
-- Turn 66738: Ran 'safari_navigator_agent' to synchronize coordinates and steps (259 remaining).
-- Turn 66741: Walked Up 2 steps and Left 1 step to stand at (15, 14) on Turn 66742 (3 steps used, 256 remaining).
-- Turn 66743: Ran 'safari_navigator_agent' to synchronize coordinates and steps (256 remaining).
-- Turn 66744: Pressed Left from (15, 14) to test Column 14 Row 14, bumping and remaining at (15, 14) on Turn 66745 (0 steps used, 256 remaining).
-- Turn 66745: Ran 'safari_navigator_agent' to synchronize coordinates and steps (256 remaining).
-- Turn 66748: Walked Down 1 step from (15, 14) to stand at (15, 15) [z=1] on Turn 66749 (1 step used, 255 remaining).
-- Turn 66751: Ran 'safari_navigator_agent' to synchronize coordinates and steps (255 remaining).
-- Turn 66757: Pressed Left from (15, 15) to test Column 14 Row 15, bumping and remaining at (15, 15) on Turn 66758 (0 steps used, 255 remaining).
-- Turn 66759: Ran 'safari_navigator_agent' to synchronize coordinates and steps (255 remaining).
-- Turn 66761: Walked Down 1 step and Left 9 steps along Row 16 to stand at (6, 16) [z=1] on Turn 66763 (10 steps used, 245 remaining).
-- Turn 66763: Ran 'safari_navigator_agent' to synchronize coordinates and steps (245 remaining).
-- Turn 66763: Walked Down 3 steps along Column 6 from (6, 16) to stand on the stairs at (6, 19) [z=1] on Turn 66764 (3 steps used, 242 remaining).
-- Turn 66764: Ran 'safari_navigator_agent' to synchronize coordinates and steps (242 remaining).
-- Turn 66771: Walked Down 1 step from (6, 19) to stand on ground level at (6, 20) [z=0] on Turn 66772 (1 step used, 241 remaining).
-- Turn 66773: Ran 'safari_navigator_agent' to synchronize coordinates and steps (241 remaining).
-- Turn 66774: Walked Left 3 steps along Row 20 from (6, 20) to stand at (3, 20) [z=0] on Turn 66775 (3 steps used, 238 remaining).
-- Turn 66779: Ran 'safari_navigator_agent' to synchronize coordinates and steps (238 remaining).
-- Turn 66800: Walked Right 3 steps horizontally along Row 20 from (3, 20) to stand on ground level at (6, 20) [z=0] on Turn 66801 (3 steps used, 235 remaining).
-- Turn 66802: Walked Up 1 step to climb Western stairs to stand at (6, 19) [z=1] on Turn 66803 (1 step used, 234 remaining).
-- Turn 66805: Walked Up 3 steps vertically along Column 6 from (6, 19) to stand on the plateau at (6, 16) [z=1] on Turn 66806 (3 steps used, 231 remaining).
-- Turn 66808: Walked Right 10 steps horizontally along Row 16 from (6, 16) to stand on the plateau at (16, 16) [z=1] on Turn 66809 (10 steps used, 221 remaining).
-- Turn 66809: Ran 'safari_navigator_agent' to synchronize coordinates and steps (221 remaining).
-- Turn 66815: Walked Up 6 steps to stand at (16, 10) [z=1] on Turn 66816 (6 steps used, 215 remaining).
-- Turn 66816: Walked Left 5 steps to test Row 10, bumping on Koga's cliff face at (14, 10) and remaining at (15, 10) on Turn 66817 (1 step used, 214 remaining).
-- Turn 66850: Pressed Left from (15, 10) to verify Row 10 blockage, bumping against (14, 10) and remaining at (15, 10) on Turn 66851 (0 steps used, 214 remaining).
-- Turn 66865: Ran 'safari_navigator_agent' to synchronize coordinates and steps (214 remaining).
-- Turn 66880: Walked Down 6, Left 9, Down 3 to Western Stairs at (6, 19) [z=1] on Turn 66881 (18 steps used, 196 remaining).
-- Turn 66881: Ran 'safari_navigator_agent' to synchronize coordinates and steps (196 remaining).
-- Turn 66884: Walked Down 1 step to descend Western Plateau stairs to stand at (6, 20) [z=0] on Turn 66885 (1 step used, 195 remaining).
-- Turn 66885: Ran 'safari_navigator_agent' to synchronize coordinates and steps (195 remaining).
-- Turn 66888: Pressed Left from (6, 20) to walk Left, but triggered a wild battle with Nidoran♀ on Turn 66889 (0 steps used, 195 remaining).
-- Turn 66892: Select RUN and escaped safely from battle on Turn 66893 (0 steps used, 195 remaining).
-- Turn 66895: Ran 'safari_navigator_agent' to synchronize coordinates and steps (195 remaining).
-- Turn 66897: Walked Left 1 step from (6, 20) to stand on ground level at (5, 20) [z=0] on Turn 66898 (1 step used, 194 remaining).
-- Turn 66901: Ran 'safari_navigator_agent' to synchronize coordinates and steps (194 remaining).
-- Turn 66902: Walked Left 1 step from (5, 20) to stand on ground level at (4, 20) [z=0] on Turn 66903 (1 step used, 193 remaining).
-- Turn 66904: Ran 'safari_navigator_agent' to synchronize coordinates and steps (193 remaining).
-- Turn 66905: Walked Left 1 step from (4, 20) to stand on ground level at (3, 20) [z=0] on Turn 66906 (1 step used, 192 remaining).
-- Turn 66906: Ran 'safari_navigator_agent' to synchronize coordinates and steps (192 remaining).
-- Turn 66908: Walked Up 1 step from (3, 20) to stand on ground level at (3, 19) [z=0] on Turn 66909 (1 step used, 191 remaining).
-- Turn 66909: Ran 'safari_navigator_agent' to synchronize coordinates and steps (191 remaining).
-- Turn 66910: Walked Up 1 step from (3, 19) to stand on ground level at (3, 18) [z=0] on Turn 66911 (1 step used, 190 remaining) [wild battle triggered].
-- Turn 66912: Select RUN and escaped safely from battle on Turn 66913 (0 steps used, 190 remaining).
-- Turn 66913: Ran 'safari_navigator_agent' to synchronize coordinates and steps (190 remaining).
-- Turn 66920: Walked Up 4 steps from (3, 18) to stand on ground level at (3, 14) [z=0] on Turn 66921 (4 steps used, 186 remaining).
-- Turn 66921: Ran 'safari_navigator_agent' to synchronize coordinates and steps (186 remaining).
-- Turn 66923: Pressed Up from (3, 14) to test Column 3 Row 13 water collision, bumping and remaining at (3, 14) on Turn 66924 (0 steps used, 186 remaining).
-- Turn 66923: Ran 'safari_navigator_agent' to synchronize coordinates and steps (186 remaining).
-- Turn 66927: Pressed Start to open overworld menu on Turn 66928 (0 steps used, 186 remaining).
-- Turn 66928: Navigated to POKéMON and pressed A to open party screen on Turn 66929 (0 steps used, 186 remaining).
-- Turn 66930: Pressed A on GEMMY to open his action menu on Turn 66931 (0 steps used, 186 remaining).
-- Turn 66931: Selected DIG from Gemmy's action menu to warp back to Fuchsia City, spawning at (19, 28) outside the Pokémon Center.
-- Turn 66935: Walked Left 5 steps horizontally along Row 28 to (14, 28).
-- Turn 66949: Walked Left 4 steps horizontally along Row 28 to (10, 28).
-- Turn 66958: Walked Left 6 steps horizontally along Row 28 to (4, 28).
-- Turn 66959: Walked Left 3 steps horizontally along Row 28 to (1, 28).
-- Turn 66967: Walked Up 10 steps vertically along Column 1 to stand at (1, 18).
-- Turn 66971: Walked Down 10 steps vertically along Column 1 to stand at (1, 28) after discovering Row 15 is blocked by a solid wall of trees.
-- Turn 66972: Walked Down 4 steps along Column 1 from (1, 28) to stand at (1, 32).
-- Turn 66976: Walked Right 10 steps horizontally along Row 32, bumping on the 8th step against the solid building wall at (10, 32) and remaining at (9, 32).
-- Turn 66977: Walked Left 1 step to Column 8 at (8, 32), and walked Up 4 steps vertically through the horizontal ledge gap at (8, 31) to stand on the main street at (8, 28).
-- Turn 66980: Walked Right 10 steps horizontally along Row 28 from (8, 28) to stand at (18, 28).
-- Turn 66981: Walked Right 6 steps horizontally along Row 28 to stand at (23, 28) and jump East over the vertical ledge to land on the eastern street at (24, 28).
-- Turn 66982: Walked Up 8 steps vertically along Column 24 from (24, 28) to stand on ground level at (24, 20).
-- Turn 66995: Walked Left 6 steps along Row 20 from (24, 20) to stand at (18, 20).
-- Turn 66996: Pressed Up to turn and face the cuttable bush at (18, 19).
-- Turn 66997: Pressed Start to open the start menu.
-- Turn 66998: Pressed A to open the POKéMON party screen.
-- Turn 67000: Moved cursor Down 5 times to select PETAL and pressed A to open action menu.
-- Turn 67002: Selected and used CUT to hack away the first bush at (18, 19).
-- Turn 67003: Walked Up 8 steps vertically along Column 18 from (18, 20) to stand at (18, 12).
-- Turn 67005: Walked Left 2 steps horizontally along Row 12 to (16, 12) and Up 1 step to face the second cuttable bush at (16, 11).
-- Turn 67009: Pressed Start to open start menu.
-- Turn 67012: Opened POKéMON party screen.
-- Turn 67013: Selected PETAL and opened their action menu.
-- Turn 67014: Selected CUT to hack away the second bush at (16, 11).
-- Turn 67016: Walked Up 6 steps vertically along Column 16 from (16, 12) to stand at (16, 6).
-- Turn 67022: Walked Right 2 steps to Column 18 and Up 3 steps to enter Safari Zone Gatehouse, landing at (3, 5).
-- Turn 67025: Walked Up 1 step vertically along Column 3 from (3, 5) to stand at (3, 4).
-- Turn 67030: Pressed Left to turn Left and face the Gatekeeper across the counter at (2, 4).
-- Turn 67032: Pressed A to speak to the Gatekeeper and initiate check-in dialogue.
-- Turn 67034: Pressed Down to highlight NO and A to confirm, skipping the rules explanation.
-
-## Run 40 Systematic Collision Testing Plan (Overwatch Resolution)
-To resolve the contradiction between the southwest ground isolation and the proposed open Row 18 ground pathway:
-1. **Hypothesis A**: Southwest ground is isolated because Column 18 is blocked on Rows 20-23 by a solid tree wall (Locations/SafariZone_West).
-2. **Hypothesis B**: Canonical ground corridor on Row 18 is open all the way from Column 6 to Column 21 (Mechanics/Socratic_West_Answers).
-- **Test 1 (Row 18 Column 18)**: Walk from (6, 20) to (21, 18) [z=0]. If we bump at Column 18, Hypothesis A is verified, proving the southwest ground pocket is 100% isolated. If we pass freely, Hypothesis B is verified.
-- **Test 2 (Column 25 Row 7 Left-facing Passability)**: Standing at (25, 7) [z=0], attempted to walk Left onto (24, 7). Result: BUMPED on Turn 67307, proving that Column 24 has solid trees of TYPE_2889 blocking horizontal transitions on Row 7. Combined with prior tests, this physically verifies that the eastern ground-level corridor is completely isolated from the West on ground level on all Rows 1-17.
-We will execute both tests on foot in Run 40, document the precise turn/bump results, and permanently prune the falsified theory.
-
-## Run 40 Chronological Movement Log
-- Turn 67023: Entered Safari Zone Gatehouse at (3, 5).
-- Turn 67025: Walked Up 1 step vertically along Column 3 from (3, 5) to stand at (3, 4).
-- Turn 67030: Pressed Left to turn Left and face the Gatekeeper across the counter at (2, 4).
-- Turn 67032: Pressed A to speak to the Gatekeeper and initiate check-in dialogue.
-- Turn 67034: Pressed Down to highlight NO and A to confirm, skipping the rules explanation.
-- Turn 67037: Pressed A to dismiss 'Sorry, you're a regular here!' dialogue.
-- Turn 67038: Pressed A on the empty screen to restart dialogue.
-- Turn 67039: Pressed Down and A to select NO to the 'first time here' prompt.
-- Turn 67040: Pressed A to dismiss 'Sorry, you're a regular here!' dialogue again.
-- Turn 67044: Pressed Up vertically along Column 3 from (3, 4) to (3, 3) to test if the gatekeeper stops us. They did not stop us on Row 3.
-- Turn 67045: Pressed Up vertically along Column 3 from (3, 3) to (3, 2). This successfully triggered the gatekeeper's check-in/payment script, initiating 'Welcome to the SAFARI ZONE!' dialogue.
-- Turn 67047: Pressed A to advance dialogue.
-- Turn 67051: Selected YES to pay ¥500 fee, received 30 Safari Balls, and transitioned into Safari Zone Center at (15, 25) with exactly 500 steps remaining.
-- Turn 67052: Ran 'safari_navigator_agent' to synchronize coordinates and steps (Map transition cost of 1 step applied, 499 steps remaining).
-- Turn 67055: Walked Left 1 step to (14, 25), Up 2 steps to (14, 23), and Right 1 step to (15, 23) (4 steps used, 495 remaining).
-- Turn 67056: Walked Up 7 steps along Column 15 from (15, 23) to stand at (15, 16) (7 steps used, 492 remaining).
-- Turn 67058: Ran 'safari_navigator_agent' to synchronize coordinates and steps (7 steps used, 492 remaining).
-- Turn 67059: Walked Right 5 steps along Row 16 to (20, 16) and Up 2 steps through the fence gap to stand at (20, 14) (7 steps used, 485 remaining).
-- Turn 67061: Ran 'safari_navigator_agent' to synchronize coordinates and steps (7 steps used, 485 remaining).
-- Turn 67064: Walked Right 4 steps horizontally along Row 14 from (20, 14) to stand at (24, 14) (4 steps used, 481 remaining).
-- Turn 67065: Ran 'safari_navigator_agent' to synchronize coordinates and steps (4 steps used, 481 remaining).
-- Turn 67067: Walked Up 3 steps vertically along Column 24 from (24, 14) to stand at (24, 11) (3 steps used, 478 remaining).
-- Turn 67068: Ran 'safari_navigator_agent' to synchronize coordinates and steps (3 steps used, 478 remaining).
-- Turn 67069: Walked Right 6 steps along Row 11 from (24, 11) to transition East to Safari Zone East, landing at (0, 23) (1 step used, 477 remaining).
-- Turn 67071: Ran 'safari_navigator_agent' to synchronize coordinates and steps (1 step used, 477 remaining).
-- Turn 67073: Walked Right 4 steps to (4, 23), Down 1 step to (4, 24), and Right 5 steps to (9, 24) (10 steps used, 467 remaining).
-- Turn 67074: Ran 'safari_navigator_agent' to synchronize coordinates and steps (10 steps used, 467 remaining).
-- Turn 67076: Walked Right 5 steps along Row 24 from (9, 24) to stand at (14, 24) (5 steps used, 462 remaining).
-- Turn 67078: Ran 'safari_navigator_agent' to synchronize coordinates and steps (5 steps used, 462 remaining).
-- Turn 67079: Walked Right 3 steps horizontally along Row 24 from (14, 24) to stand on ground level at (17, 24) [z=0] on Turn 67080 (3 steps used, 459 remaining) [wild battle triggered].
-- Turn 67082: Ran 'safari_navigator_agent' to synchronize coordinates and steps (3 steps used, 459 remaining).
-- Turn 67093: Ran 'safari_navigator_agent' to synchronize coordinates and steps (7 steps used, 452 remaining).
-- Turn 67095: Walked Left 8 steps along Row 20 to (12, 20) on the Southern Plateau.
-- Turn 67096: Ran 'safari_navigator_agent' to synchronize coordinates and steps (8 steps used, 444 remaining).
-- Turn 67098: Walked Down 2 steps to descend Western plateau stairs to stand on ground level at (12, 22).
-- Turn 67099: Ran 'safari_navigator_agent' to synchronize coordinates and steps (2 steps used, 442 remaining).
-- Turn 67101: Walked Up 14 steps along Column 12 (the grass-free vertical corridor bypass) to Row 8 at (12, 8).
-- Turn 67102: Ran 'safari_navigator_agent' to synchronize coordinates and steps (14 steps used, 428 remaining).
-- Turn 67103: Walked Up 2 steps and Right 5 steps horizontally along Row 6 to stand at (17, 6) [z=1] on the Northern Plateau.
-- Turn 67104: Ran 'safari_navigator_agent' to synchronize coordinates and steps (7 steps used, 421 remaining).
-- Turn 67106: Walked Down 2 steps to descend Eastern stairs at (17, 7) to ground level at (17, 8).
-- Turn 67107: Ran 'safari_navigator_agent' to synchronize coordinates and steps (2 steps used, 419 remaining).
-- Turn 67110: Walked Right 3 steps to (20, 8) and Up 2 steps along Column 20 (detour) to stand at (20, 6), triggering a wild battle against a Level 25 Exeggcute (5 steps used, 414 remaining).
-- Turn 67112: Escaped wild battle.
-- Turn 67114: Ran 'safari_navigator_agent' to synchronize coordinates and steps (5 steps used, 414 remaining).
-- Turn 67133: Walked 10 steps horizontally along detour (Right 1 to (7, 3), Down 2 to (7, 5), Left 7 to stand at Northwest Exit at (0, 5)).
-- Turn 67134: Ran 'safari_navigator_agent' to synchronize coordinates and steps (8 steps used via Manhattan distance, 389 remaining).
-- Turn 67140: Walked Up 15 steps (Left 11 along Row 31, Up 4 steps along Column 28) to stand on the stairs at (28, 27) [z=0/1] in Safari Zone North.
-- Turn 67143: Ran 'safari_navigator_agent' to synchronize coordinates and steps (15 steps used via Manhattan distance, 373 remaining).
-- Turn 67148: Walked Up 1 step to step fully onto the Eastern Plateau at (28, 26) [z=1] in Safari Zone North.
-- Turn 67153: Walked 12 steps (Down 4, Left 4, Up 1) to (24, 29) [z=0], triggering a wild battle against a Level 30 Nidorino (7 steps used via Manhattan distance, 365 remaining).
-- Turn 67154: Escaped battle.
-- Turn 67158: Walked 8 steps (Up 6, Left 2) to Western Plateau stairs at (22, 23) [z=0] (8 steps used, 357 remaining).
-- Turn 67159: Walked Up 1 step to climb the stairs to stand on the plateau at (22, 22) [z=1] (1 step used, 356 remaining).
-- Turn 67168: Walked Left 6 steps horizontally along Row 22 to stand at (16, 22) [z=1] (6 steps used, 350 remaining).
-- Turn 67169: Ran 'safari_navigator_agent' to synchronize coordinates and steps (12 steps used via Manhattan distance, 338 remaining).
-- Turn 67173: Walked 19 steps (Right 6 on plateau to (22, 22), Down 1 to (22, 23) [stairs], Down 10 along Column 22 to (22, 33), Left 2 to (20, 33)) in Safari Zone North (15 steps used via Manhattan distance, 323 remaining).
-- Turn 67177: Walked Down 2 steps along Column 20 from (20, 33) to stand at (20, 35) [z=0], bumping against the building wall at (19, 35) (2 steps used, 321 remaining).
-- Turn 67178: Ran 'safari_navigator_agent' to synchronize steps and coordinates (2 steps used, 321 remaining).
-- Turn 67180: Walked Up 4 steps along Column 20 from (20, 35) to stand at (20, 31) [z=0], triggering a wild battle against a Level 27 Exeggcute (4 steps used, 317 remaining).
-- Turn 67181: Escaped wild battle.
-- Turn 67185: Ran 'safari_navigator_agent' to synchronize steps and coordinates (4 steps used, 317 remaining).
-- Turn 67187: Walked Up 7 steps along Column 20 from (20, 31) to stand at (20, 24) [z=0], triggering a wild battle against a Level 22 Nidoran♀ (7 steps used, 310 remaining).
-- Turn 67188: Escaped wild battle.
-- Turn 67191: Ran 'safari_navigator_agent' to synchronize steps and coordinates (7 steps used, 310 remaining).
-- Turn 67194: Walked Up 1 step to (20, 23), Right 2 steps along Row 23 to stand on the Western Plateau stairs at (22, 23) [z=0] (3 steps used, 307 remaining).
-- Turn 67195: Ran 'safari_navigator_agent' to synchronize steps and coordinates (3 steps used, 307 remaining).
-- Turn 67196: Walked Up 1 step to climb Western stairs to stand on Western Plateau at (22, 22) [z=1] (1 step used, 306 remaining).
-- Turn 67197: Walked Left 6 steps horizontally along Row 22 to stand on Western Plateau at (16, 22) [z=1] (6 steps used, 300 remaining).
-- Turn 67198: Walked Down 5 steps along Column 16 to stand on Western Descent Stairs at (16, 27) [z=1] (5 steps used, 295 remaining).
-- Turn 67199: Ran 'safari_navigator_agent' to synchronize steps and coordinates (10 steps used via Manhattan distance from (22, 23) to (16, 27), 297 remaining).
-- Turn 67202: Walked 15 steps (Down 1 to (16, 28) [z=0], Left 4 to (12, 28) [z=0], Down 2 to (12, 30) [z=0], Left 3 to (9, 30) [z=0], Down 5 along Column 9 to (9, 35) [z=0]) (15 steps used, 282 remaining).
-- Turn 67204: Ran 'safari_navigator_agent' to synchronize steps and coordinates (15 steps used via Manhattan distance, 282 remaining).
-- Turn 67205: Walked Down 1 step from (9, 35) in Safari Zone North to transition South to Safari Zone West, landing at (27, 0) [z=0] on ground level (1 step used, 281 remaining).
-- Turn 67207: Ran 'safari_navigator_agent' to synchronize steps and coordinates (1 step used, 281 remaining).
-- Turn 67214: Walked Down 14 steps, Left 3 steps, Down 4 steps, and Left 3 steps from (27, 0) to stand at (18, 18) [z=0], then tested walking Left into (17, 18) (Test 1). Result: BUMPED, physically proving Southwest ground pocket isolation (28 steps used, 253 remaining).
-- Turn 67223: Walked Right 3 steps and Up 2 steps to climb Eastern stairs to stand at (21, 16) [z=1] on the plateau. Ran 'safari_navigator_agent' (reconciled via Manhattan distance to 259 steps remaining).
-- Turn 67231: Walked from (21, 16) to (15, 14) [z=1] using 8 steps.
-- Turn 67234: Ran 'safari_navigator_agent' to synchronize coordinates and steps (8 steps used, 251 remaining).
-- Turn 67238: Pressed Left from (15, 14) [z=1] to test Column 14 Row 14 jump-left. Result: BUMPED, physically proving Column 14 Row 14 is a solid impassable wall.
-- Turn 67240: Ready to walk Down 1 step to (15, 15) [z=1] and test Column 14 Row 15.
-- Turn 67243: Pressed Left from (15, 15) [z=1] to test Column 14 Row 15 jump-left. Result: BUMPED, physically proving Column 14 Row 15 is also a solid impassable wall.
-- Turn 67245: Synced steps at 250 remaining standing at (15, 15) [z=1].
-- Turn 67344: Tested walking right from (16, 9) in Safari Zone West and confirmed that Column 17 Row 9 is impassable.
-- Turn 67359: Standing at (16, 9) [z=1] on the plateau. Realized that Column 17 is indeed a solid cliff wall across Rows 6-13. However, on Row 5, there is no cliff wall! The northern boundary of the plateau is Row 6, and on Columns 12-16 it is a solid cliff wall that we cannot walk/jump north from. But if we walk Left on Row 6 all the way to Column 4, the plateau extends to Column 4. At Column 4, we can walk Up to (4, 5) [z=1]? No, walking from (4, 6) [z=1] to (3, 6) [z=0] is a jump-down ledge, or walking from (4, 6) to (4, 5) is open? Wait, let's look at the exact steps of the pathfinder!
-  - From (16, 9): Up 3 to (16, 6) [z=1]
-  - Left 12 to (4, 6) [z=1]
-  - Up 1 to (4, 5) [z=1]! Wait, is (4, 5) a plateau tile? In the pathfinder's logic, it walked to (4, 5). Is (4, 5) on ground level or plateau? Let's verify by testing.
-  - Then Right 14 steps along Row 5 from (4, 5) to (18, 5) [z=1]!
-  - Then Down 2 steps to (18, 7) [z=1]!
-  - Then Right 2 steps to (20, 7) [z=1]!
-  - Wait, why is cz=1 in the coordinates list for Step 34: (20, 7, 1)?
-  Ah!!! The northern plain (Rows 1-5, Columns 4-23) is actually a PLATEAU or at least considered z=1 by the pathfinder!
-  Let's look at the pathfinder's plateau tiles definition:
-  Wait! The pathfinder did NOT have (4, 5) in plateau_tiles, but why was cz=1 preserved?
-  Because of this check in `cz == 1`:
-  ```python
-  if (nx, ny) not in plateau_tiles and (nx, ny) not in stairs:
-      if (cx, cy) in stairs:
-          nz = 0
-      else:
-          continue
-  ```
-  Wait! If (nx, ny) is not in plateau_tiles and not in stairs, and (cx, cy) is not in stairs, it executes `continue`!
-  But wait! If it executed `continue`, how did Step 16 `Up -> (4, 5, 1)` happen?
-  Wait! Is (4, 5) in `plateau_tiles`?
-  Ah! Look at `plateau_tiles` definition:
-  `for x in range(4, 17): for y in range(6, 19):`
-  No, y=5 is not in range(6, 19).
-  Wait, then why did the BFS in python allow Step 16?
-  Ah! Let's check:
-  Is there ANOTHER plateau definition?
-  Yes!
-  `Western Plateau Tiles (z=1): for x in range(4, 17): for y in range(6, 19): plateau_tiles.add((x, y))`
-  But wait! Let's run a small code to print if (4, 5) is indeed in plateau_tiles, or check what is going on.
-  Let's verify on foot by walking the path!
-  Our current step budget: 186 remaining steps (need about ~40 steps to get the teeth and surf, we have plenty of surplus!).
-  Let's execute the first part of the pathfinder's path: Up 3 to (16, 6) [z=1] and Left 1 step to (15, 6) [z=1].
-  We will do: Up, Up, Up, Left.
-  Let's press these buttons!
+## Chronological Detour Movement Log (Turns 67554 - 67715)
+- Turn 67554: Standing at (20, 3) in East with 399 steps remaining.
+- Turn 67558: Walked Left 20 steps to (0, 3) and Down 2 steps to (0, 5).
+- Turn 67565: Transitioned to Safari Zone North at (39, 31) (23 steps used, 376 remaining).
+- Turn 67569: Climbed Eastern stairs UP at (28, 27) to stand at (28, 26) [z=1] (16 steps used, 360 remaining).
+- Turn 67572: Descended stairs at (28, 27) to ground level at (28, 30) (4 steps used, 356 remaining).
+- Turn 67581: Climbed Western stairs UP at (22, 23) to stand at (22, 22) [z=1] (14 steps used, 342 remaining).
+- Turn 67588: Walked Left 6 steps to (16, 22) [z=1] (6 steps used, 336 remaining).
+- Turn 67594: Descended stairs at (16, 27) to ground level at (16, 28) (6 steps used, 330 remaining).
+- Turn 67600: Transitioned to Safari Zone West at (27, 0) [z=0] (15 steps used, 315 remaining).
+- Turn 67608: Climbed Eastern stairs UP at (21, 17) to stand at (21, 16) [z=1] (26 steps used, 289 remaining).
+- Turn 67609: Walked to (15, 16) [z=1] (6 steps used, 283 remaining).
+- Turn 67670: Pathfinder sequence to Row 6/7; bumped at Column 10 cliff and ended at (11, 6) [z=1] (21 steps used, 262 remaining).
+- Turn 67710: Backtracked along Row 16 to (5, 16) [z=1] (16 steps used, 246 remaining).
 
 <hr>
 
