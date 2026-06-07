@@ -1836,3 +1836,36 @@ This huge headroom is more than enough to absorb all wild encounters (which cost
   - The remaining campaign route from `(12, 6)` [z=1] to retrieve both items and DIG out requires only **182 physical steps**.
   - This leaves us with a massive **231 surplus steps** inside the Secret House (`413 - 182 = 231 surplus steps`), representing over **126.9% safety headroom margin**.
   - This mathematically guarantees 100% success on foot in Run 39!
+
+---
+
+## Turn 66603 Socratic Answers (Reconciled Northern Passage & Segment 3 Grass Exposure)
+
+### Socratic Question 1: Northern Grass Corridor Row 3 Route and Step-by-Step Math
+Standing at (6, 3) [z=0] with exactly 384 remaining steps on Turn 66603:
+- **Analysis of Row 3 Blockage**: 
+  Row 3 is blocked on the West by solid tree canopy of TYPE_2889 on Columns 2, 3, 4, and 5. This means we cannot walk Left directly along Row 3 to Column 0.
+- **The Column 7 Detour**: 
+  Since the tree wall on Row 3 extends horizontally from Column 2 to Column 5, we must utilize Column 7 to cross the Row 3 tree line to reach Row 5 (which is completely open ground TYPE_3fe2 to the West).
+  - From (6, 3) [z=0], the most optimal, grass-free route to reach the northwest transition at (0, 5) is:
+    1. Walk Right 1 step to (7, 3) [z=0] -> **1 step** [383 remaining]. (Open ground).
+    2. Walk Down 2 steps along Column 7 to stand on Row 5 at (7, 5) [z=0] -> **2 steps** [381 remaining]. (Open ground).
+    3. Walk Left 7 steps horizontally along Row 5 to stand at the Northwest Exit at (0, 5) [z=0] -> **7 steps** [374 remaining]. (Open ground).
+    4. Walk Left 1 step from (0, 5) to transition West to Safari Zone North (Map 0_218) landing at (39, 31) [z=0] -> **1 step** [373 remaining].
+- **Step Math Summary**:
+  - Total physical steps used: **11 steps**.
+  - Remaining steps upon entering Safari Zone North: **373 steps**.
+
+---
+
+### Socratic Question 2: Safari Zone North Grass Exposure & Step-Budget Control
+- **Grass-Free vs. Tall Grass Exposure in Segment 3**:
+  - Segment 3 from (39, 31) to (9, 35) is **NOT completely grass-free**.
+  - Specifically, walking along the southern ground-level corridor between the Eastern and Western plateaus exposes us to tall grass at Row 30 (Columns 25 and 26).
+  - Walk Left along Row 30 from (28, 30) to (22, 30) crosses Column 26 (tall grass TYPE_fed7) and Column 25 (tall grass TYPE_fed7).
+  - Row 33 also contains tall grass on Columns 25, 26, and 22, but we route along Row 30 to stand directly facing the Western stairs at (22, 23).
+- **Step-Budget Control & Handling Encounters**:
+  - If a wild battle is triggered on Row 30 Columns 25 or 26, the movement sequence will immediately abort.
+  - In battle, we must navigate the menu (Down, Right) to select RUN and flee immediately. Fleeing consumes exactly 0 steps, keeping our budget completely unaffected.
+  - To prevent step-budget drift, immediately upon exiting the battle, we MUST run 'safari_navigator_agent' to synchronize coordinates and steps.
+  - Simultaneously, we perform a 'notepad_edit' to update the chronological log and top status block of 'Scratchpad/SafariZone_West_Route' with the exact real-time coordinates and step deduction. This eliminates cumulative drift and guarantees absolute step accuracy.
