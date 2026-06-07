@@ -1,8 +1,8 @@
-# Safari Zone West Exploration - Run 41 (Turn 68039 - Active)
-- **Current Status**: Standing at (8, 35) [z=0] in Safari Zone North on Turn 68039.
+# Safari Zone West Exploration - Run 42 (Turn 68106 - Preparing)
+- **Current Status**: Paying the Gatekeeper in Safari Zone Gatehouse to start Run 42.
 - **Inventory Status**: 15/20 items.
-- **Run 41 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 105 steps (Reconciled).
+- **Run 42 Starting Steps**: 500 steps.
+- **Current Steps Remaining**: 500 steps.
 - **Money remaining**: ¥69,817.
 
 ## Active Campaign Plan (Run 42 Ground Bypass Victory Route)
