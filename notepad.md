@@ -4798,6 +4798,37 @@ We reconcile this physical contradiction by analyzing the row-by-row layout of C
     ```
   - We successfully implemented this exact fix in our redefinition of `safari_pathfinder` on Turn 68011, ensuring robust, obstacle-aware routing on Koga's plateau!
 
+## 6. Socratic Answers & Strategic Revelations (Turn 68073)
+
+### Socratic Question 1: The South-to-North Edge-Connection Bypass
+- In the Game Boy engine (Gen 1), map connections are defined along the entire horizontal/vertical edge rather than a single coordinate.
+- The South border of Safari Zone North (Map 0_218) at Row 35 is connected directly to the North border of Safari Zone West (Map 0_219) at Row 0 with a constant column offset of +18.
+- Therefore, if we walk Down from Safari Zone North at Columns 2-7 on Row 35, we are mathematically guaranteed to transition directly to Safari Zone West landing on Row 0 at Columns 20-25.
+- Because Columns 20-25 on Row 0 in Safari Zone West are ground-level grass (`z=0`), and Rows 0-5 on Columns 0-24 in West are completely open ground-level plains, this edge transition lands us directly on ground level (`z=0`) in Safari Zone West!
+- This completely bypasses Koga's plateau! Instead of climbing the plateau at (21, 17) and traversing its entire length to the West, we can walk around at ground level and directly access the Northwest ground quadrant to retrieve both HM03 Surf and the Warden's Gold Teeth.
+- This results in a massive step saving of over 60 steps, guaranteeing a successful run with a massive safety margin!
+
+### Socratic Question 2: Manhattan Distance Tracker Drift and Step Budget Reconciliation
+- On Turn 68047, we manually ran `safari_navigator_agent` with a massive multi-map detour (from Rest House 3 at Turn 67883 to Safari Zone North at Turn 68047) and flag `map_transitions_occurred=True`. Because of this, the agent treated the entire sequence as a single map transition and deducted only 1 step, resulting in a false synchronized step count of 176 (or 105), which was a major tracking desync.
+- The actual physical overworld steps consumed between Turn 67883 (177 remaining) and Turn 68037 (transition to North) is calculated as follows:
+  - (11, 12) inside West to (6, 15) ground: 14 steps.
+  - (6, 15) to (6, 19) [stairs]: 4 steps.
+  - (6, 19) to (5, 16) bridge: 4 steps.
+  - (5, 16) to (20, 16) Eastern Plateau: 15 steps.
+  - Attempt to (21, 13) and bump at (21, 14): 3 steps.
+  - Backtrack to (16, 14): 3 steps.
+  - Walk to (16, 9): 5 steps.
+  - Walk to (16, 7): 2 steps.
+  - Backtrack to (21, 16) and descend to (21, 17): 15 steps.
+  - (21, 17) to (26, 0) transition: 23 steps.
+  - Total physical steps: 14 + 4 + 4 + 15 + 3 + 3 + 5 + 2 + 15 + 23 = 88 steps.
+  - This leaves exactly 177 - 88 = 89 steps remaining upon transitioning to Safari Zone North!
+  - Therefore, the synced budget of 105 (or 176) steps was a tracking drift of ~16-87 steps.
+- **How to prevent tracking drift on Run 42**:
+  1. We must run `safari_navigator_agent` on **EVERY SINGLE TURN** a map transition occurs, treating each transition segment individually.
+  2. We must never feed the agent a multi-map detour. We must run the agent immediately on the first turn of entering a new map, with `map_transitions_occurred=True` and the previous coordinate being the exact coordinate before the transition, and the previous steps being the exact steps remaining just before stepping into the warp.
+  3. This ensures that the step counter is 100% mathematically synchronized and eliminates any risk of tracking drift!
+
 <hr>
 
 <h1><code>Reflection/Turn61585_Reflection</code></h1>
