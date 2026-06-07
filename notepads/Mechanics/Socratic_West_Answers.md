@@ -347,3 +347,41 @@
   - Walked Left 11 times, bumping 11 times against (1, 14) wall: uses 11 steps [remaining: 223].
   - Walked Left 11 times, bumping 11 times against (1, 14) wall: uses 11 steps [remaining: 212].
   - This perfectly reconciles with our current step count of **208 steps remaining** on Turn 69675 standing at (2, 14) facing Left! (The minor delta is due to overworld turn-count adjustments/bumps).
+
+# Socratic Answers - Column 17 Blockage & Detour Validation (Turn 69783)
+
+## 1. Socratic Question 1 (The Column 17 Vertical Ramp Blockage)
+- **Falsification of Column 17 Ramp Shortcut**: On Turn 69777, we stood at (17, 14) [z=1] facing Up and pressed Up, resulting in a direct collision (bump) against the checkered vertical ramp tile at (17, 13) (TYPE_2889).
+- **Physical Explanation**: In Generation 1, checkered vertical ramps on Rows 6-13 do not act as sloped ramps that can be climbed or descended vertically at any point. Instead, they act as solid vertical walls (cliffs) to any vertical movement unless entered from specific, designated transition points at their absolute north/south ends which are not present at (17, 14). Specifically, the checkered ramp at Column 17 acts as a solid, impassable wall blocking all vertical traversal on Rows 6-13 from both the south side (Row 14 [z=1]) and the north side.
+- **Conclusive Disproof & Impact**: This empirical test conclusively disproves the "vertical ramp shortcut" hypothesis which assumed we could walk directly Up Column 17 to ground level. Because this direct corridor is blocked, we cannot reach Row 5 from Row 14 via Column 17. Our navigation is forced to route away from Column 17 and utilize the main western ground corridor detour.
+
+## 2. Socratic Question 2 (Koga's Eastern Plateau Northern Boundary)
+- **Eastern Plateau Boundary at Row 14**: On Turn 69736, we stood at (21, 14) [z=1] facing Up and pressed Up against (21, 13) (TYPE_3fe2), resulting in consecutive bumps.
+- **Physical Explanation**: Even though (21, 13) is clear green grass on the map, it is at ground level (z=0) while (21, 14) is on the elevated Eastern Plateau (z=1). In Gen 1, this elevation difference acts as a solid north-facing horizontal cliff wall at Row 14, blocking all vertical traversal. Since there are no stairs at (21, 14) or (22, 14), we cannot step north off Koga's Eastern Plateau onto ground level.
+- **Traversability Restrictions**: This height mismatch completely blocks any northern progression from Koga's Eastern Plateau. It restricts our options on Koga's Eastern Plateau to: (a) walking West along the bridge at Row 16, or (b) descending the Eastern stairs back to the south ground level at (21, 18). Direct northern traversal on foot is completely impossible.
+
+## 3. Socratic Question 3 (The Only Unblocked Backtracking Detour)
+- **Mandatory Backtracking**: Since the ground-level Column 25 corridor is blocked to the north by solid tree walls, the Eastern Plateau is blocked to the north by Row 14 cliffs, and the Column 17 vertical ramp is blocked at Row 13, there is absolutely zero path to the northern quadrant from the east side of the map. Therefore, backtracking along Koga's bridge to the western side is mathematically and physically mandatory.
+- **Planned Detour Route**:
+  1. Walk Down 2 steps from (17, 14) to (17, 16) [z=1].
+  2. Walk Left 11 steps along Row 16 from (17, 16) to (6, 16) [z=1].
+  3. Walk Down 3 steps along Column 6 from (6, 16) to (6, 19) [z=1].
+  4. Walk Down 1 step to descend Koga's Western stairs to (6, 20) [z=0].
+  5. Walk Left 4 steps along Row 20 to (2, 20) [z=0] (avoiding grass).
+  6. Walk Up 6 steps along Column 2 to (2, 14) [z=0] (grass-free).
+  7. Walk Right 8 steps along Row 14 to (10, 14) [z=0] (grass-free).
+  8. Bypass Rest House 3: Walk Up 2 steps to (10, 12), Right 3 steps to (13, 12), Up 2 steps to (13, 10), Left 3 steps to (10, 10), and Up 1 step to (10, 9) [z=0].
+  9. Climb Koga's Western-West Plateau stairs at (10, 9) [z=0] to reach (10, 8) [z=1] (1 step).
+  10. Walk Left 6 steps on the plateau along Row 8 to (4, 8) [z=1] (6 steps).
+  11. Walk Left 1 step to jump West over the Column 4 ledge onto ground level at (3, 8) [z=0] (1 step).
+  12. Walk Up 1 step to (3, 7) (1 step), and Right 16 steps along Row 7 to stand on the Gold Teeth at (19, 7) [z=0] (16 steps).
+  13. Walk Left 16 steps along Row 7 back to (3, 7) [z=0] (16 steps).
+  14. Walk Up 4 steps along Column 3 to enter the Secret House at (3, 3) [z=0] (4 steps).
+- **Step-by-Step Step Counter Math**:
+  - Current steps remaining: **256 steps**.
+  - Segment 1 (Backtrack to stairs descent at (6, 20) [z=0]): 2 + 11 + 3 + 1 = 17 steps. Remaining: 256 - 17 = **239 steps**.
+  - Segment 2 (Reach ground-level (10, 14)): 4 + 6 + 8 = 18 steps. Remaining: 239 - 18 = **221 steps**.
+  - Segment 3 (Bypass Rest House 3 to (10, 9) stairs): 2 + 3 + 2 + 3 + 1 = 11 steps. Remaining: 221 - 11 = **210 steps**.
+  - Segment 4 (Climb plateau and jump ledge to (3, 8) [z=0]): 1 + 6 + 1 = 8 steps. Remaining: 210 - 8 = **202 steps**.
+  - Segment 5 (Retrieve teeth at (19, 7) and enter Secret House at (3, 3)): 1 + 16 + 16 + 4 = 37 steps. Remaining: 202 - 37 = **165 steps**.
+- **Feasibility Confirmation**: This detour consumes exactly **91 physical steps** in total. Since we have 256 steps remaining and only 91 steps are needed to reach the Secret House, the route is 100% mathematically feasible and we will have **165 steps remaining** inside the Secret House when we secure HM03 Surf! This leaves an extremely generous buffer of 165 steps for any tall grass wild encounters or minor deviations.
