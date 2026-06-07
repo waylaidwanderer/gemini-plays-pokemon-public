@@ -3573,6 +3573,22 @@ We are executing a fully optimized Run 43 ground-to-plateau dual retrieval.
 - Turn 68680: Tested the passability of (11, 7) by pressing Left, proving it is impassable. Collided with tree and stopped at (12, 7) [z=0] (remaining: 153).
 - Turn 68687: Walked Up 1, Right 6, Up 1, Right 2 to (19, 5). Collided with tree at (20, 5) and stopped at (19, 5) [z=0] (remaining: 143).
 - Turn 68727: Walked Left 3 steps along Row 3 from (5, 3) to (2, 3) [z=0], triggering a wild Paras encounter (remaining: 111).
+- Turn 68752: Used BLASTOISE's (GEMMY's) DIG from Map 0_218 (Safari Zone North) to warp to (19, 28) on Map 0_7 (Fuchsia City), resetting our step budget and starting prep for Run 43.
+- Turn 68758: Walked Right 3 steps to (22, 28) and Up 2 steps to (22, 26). Collided with building roof at (22, 25).
+- Turn 68763: Pressed Right twice starting from (22, 26). Stepped Right to (23, 26), which is a one-way ledge facing East, automatically jumping to (24, 26). The second Right press moved us to (25, 26).
+- Turn 68767: Walked Left 1 step to (24, 26) to align with Column 24's open vertical corridor.
+- Turn 68771: Walked Up 3 steps along Column 24 to (24, 23).
+- Turn 68773: Walked Up 3 steps along Column 24 to (24, 20).
+- Turn 68775: Walked Left 3 steps along Row 20 to (21, 20).
+- Turn 68777: Walked Left 3 steps along Row 20 to (18, 20), standing South of the first cuttable bush at (18, 19).
+- Turn 68783: Opened Start Menu and selected POKéMON -> PETAL -> CUT, but failed with "There isn't anything to CUT!" because we were facing RIGHT (East).
+- Turn 68787: Closed Start Menu with B.
+- Turn 68792: Pressed Up once to face UP (North) toward the cuttable bush at (18, 19) [remaining at (18, 20)].
+- Turn 68797: Opened Start Menu and successfully used PETAL's CUT, clearing the first bush at (18, 19).
+- Turn 68800: Walked Up 3 steps to (18, 17) on clear grass.
+- Turn 68805: Walked Up 3 steps to (18, 14) on clear grass.
+- Turn 68806: Walked Up 2 steps to (18, 12) and Left 1 step to (17, 12).
+- Turn 68807: Walked Left 1 step to (16, 12) directly South of the second cuttable bush at (16, 11).
 
 <hr>
 
