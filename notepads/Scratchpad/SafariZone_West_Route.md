@@ -5,15 +5,15 @@
 - **Current Steps Remaining**: 172 steps.
 - **Money remaining**: ¥69,817.
 
-## Active Campaign Plan (From current position (11, 8))
-1. **Backtrack to Eastern Plateau Corridor**: Walk Right 4 steps to stand at (15, 8) [z=1].
-2. **Move to Row 16 bridge**: Walk Down 8 steps vertically along Column 15 to stand on the bridge at (15, 16) [z=1].
-3. **Walk to Western Stairs**: Walk Left 9 steps along Row 16 to (6, 16) [z=1].
-4. **Descend to Ground Level**: Walk Down 3 steps to stand on stairs at (6, 19) [z=1], and Down 1 step to (6, 20) [z=0].
-5. **Walk to Column 3**: Walk Left 3 steps along Row 20 to stand at (3, 20) [z=0].
-6. **Traverse North Ground Corridor**: Walk Up 6 steps to (3, 14) [z=0], and Right 7 steps along Row 14 to stand at (10, 14) [z=0].
-7. **Ascend to Rest House Area**: Walk Up 2 steps along Column 10 to stand at (10, 12) [z=0].
-8. **Explore Rest House 3**: Enter Rest House 3 at (11, 12) [z=0] to confirm interior layout and test for any potential alternative exits.
+## Active Campaign Plan (Inside Rest House 3 and Ground Route to North)
+1. **Talk to NPCs**: Talk to the wanderer, youngster, and scientist inside Rest House 3 (Map 0_223) to confirm dialogue.
+2. **Exit Rest House 3**: Exit to (11, 12) [z=0] in Safari Zone West.
+3. **Traverse newly discovered Ground Corridor**:
+   - Walk to (10, 14) [z=0].
+   - Walk Right 3 steps to (13, 14) [z=0].
+   - Walk Up 7 steps along Column 13 to stand at (13, 7) [z=0] in the northern plains.
+4. **Retrieve Warden's Gold Teeth**: Walk East to (19, 7) [z=0] and retrieve Gold Teeth.
+5. **Retrieve HM03 Surf**: Walk West along the northern corridor to stand at (3, 3) [z=0], enter Secret House (Map 0_224), and obtain Surf!
 
 ## Socratic Answers & Proof of Work (Overwatch Resolution)
 - **Socratic Question 1 (Ledge Jump and Ledge Variables)**:
