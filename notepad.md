@@ -4944,6 +4944,20 @@ We analyzed why we bumped at Column 23 on Rows 14-15 and verified that symmetric
   - Segment 8 (Reach Secret House at (3, 3) [z=0]): 20 steps. Remaining: 109 - 20 = **89 steps**.
 - **Feasibility Confirmation**: This entire detour across Run 44 consumed exactly 184 - 89 = 95 overworld steps in Safari Zone West. Since we have a fresh 500-step budget on Run 45, we are 100% guaranteed to succeed with a massive surplus of over 300 steps!
 
+# Socratic Answers - Run 45 Eastern Ground-Level Corridor & Boundary Discoveries (Turn 70086)
+
+## 1. Socratic Question 1 (Column 20 Deep Water Boundary)
+- **Turn 70041 Discovery**: Column 20 Row 12-13 consists of deep water on ground level [z=0].
+- **Impact on Traversability**: This blocks Column 20 from being a continuous ground-level vertical corridor. It forces any ground-level vertical pathing to use Column 21 or higher on those rows.
+
+## 2. Socratic Question 2 (Row 21 Column 21-23 Rock Wall Boundary)
+- **Turn 70056 Discovery**: Row 21 on Columns 21, 22, and 23 consists of solid rock/cliff walls (TYPE_2889).
+- **Impact on Traversability**: This blocks Column 21, Column 22, and Column 23 from being continuous ground-level vertical corridors. They are completely impassable vertically at Row 21.
+
+## 3. Socratic Question 3 (The True Open Ground-Level Corridor)
+- **The Ground-Level Bypass Route**: Since Column 20 is blocked by water on Rows 12-13, and Columns 21-23 are blocked by rocks on Row 21, Column 24 is the only continuous ground-level vertical corridor on the East side of the map.
+- **The Path to Safari Zone North**: To traverse Safari Zone East completely on ground level [z=0], we must walk to (24, 22), proceed vertically Up along Column 24 to the northern grass corridor at Row 3, and then walk Left to the transition at (0, 3) or (0, 5). This path is 100% physically passable and avoids all plateau climbing/descents.
+
 <hr>
 
 <h1><code>Reflection/Turn61585_Reflection</code></h1>
