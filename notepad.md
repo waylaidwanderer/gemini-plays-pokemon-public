@@ -3561,6 +3561,9 @@ Our empirical testing on Turn 68472 conclusively falsified the ground-level bypa
 - Turn 68661: Walked Right 1, Up 6, Right 4 steps to (12, 14) [z=0] (remaining: 165).
 - Turn 68666: Walked Up 5 steps along Column 12 and Left 5 to (12, 9) [z=0], colliding with water at (11, 9) (remaining: 160).
 - Turn 68669: Walked Up 5 steps along Column 12 to (12, 5) [z=0], colliding with tree at (12, 4) (remaining: 156).
+- Turn 68679: Walked Down 2 steps to (12, 7) [z=0] (remaining: 154).
+- Turn 68680: Tested the passability of (11, 7) by pressing Left, proving it is impassable. Collided with tree and stopped at (12, 7) [z=0] (remaining: 153).
+- Turn 68687: Walked Up 1, Right 6, Up 1, Right 2 to (19, 5). Collided with tree at (20, 5) and stopped at (19, 5) [z=0] (remaining: 143).
 
 <hr>
 
