@@ -103,3 +103,4 @@ We are executing a fully optimized Run 43 ground-to-plateau dual retrieval.
 - Turn 68996: Walked Up 1 step to climb the stairs onto the plateau at (22, 22) [z=1] [remaining: 332].
 - Turn 68997: Walked Left 6 and Down 5 steps across the grass-free Western Plateau to reach the West Descent Stairs at (16, 27) [z=1] [remaining: 321].
 - Turn 69007: Walked Down 1 and Left 4 steps to (12, 28) [remaining: 316].
+- Turn 69014: Transitioned to Safari Zone West at (27, 0) and walked Down 10 steps to (27, 10) [remaining: 295].
