@@ -1,5 +1,5 @@
-# Safari Zone West Exploration - Run 43 (Turn 68791 - Active)
-- **Current Status**: Standing at (18, 20) in Fuchsia City facing UP on Turn 68791, preparing to cut the first bush at (18, 19).
+# Safari Zone West Exploration - Run 43 (Turn 68799 - Active)
+- **Current Status**: Standing at (18, 20) in Fuchsia City facing UP on Turn 68799, first bush at (18, 19) successfully CUT.
 - **Inventory Status**: 15/20 items.
 - **Run 43 Starting Steps**: 500 steps.
 - **Current Steps Remaining**: 500 steps (not yet entered).
