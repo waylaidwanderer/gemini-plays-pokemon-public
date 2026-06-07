@@ -1,5 +1,5 @@
-# Safari Zone West Exploration - Run 39 (Turn 66927 - Active)
-- **Current Status**: Standing on ground level at (3, 14) [z=0] in Safari Zone West (Map 0_219) on Turn 66927 with exactly 186 remaining steps. Physically tested Column 3 Row 13 by pressing Up and bumped, proving the water lake blocks Column 3. Initiating DIG escape protocol to start Run 40!
+# Safari Zone West Exploration - Run 39 (Turn 66944 - Active)
+- **Current Status**: Standing on ground level at (14, 28) [z=0] in Fuchsia City (Map 0_7) on Turn 66944 with exactly 186 remaining steps. We have successfully used DIG to escape the Safari Zone after physically confirming the Column 3 Row 13 water blockage. We are currently routing to Koga's horizontal street gap on Column 9/8 to bypass the buildings and reach the Gatehouse to begin Run 40!
 - **Inventory Status**: 15/20 items.
 - **Run 39 Starting Steps**: 500 steps.
 - **Current Steps Remaining**: 186 steps.
