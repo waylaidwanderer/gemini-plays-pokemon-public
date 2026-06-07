@@ -3503,11 +3503,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
-# Safari Zone West Exploration - Run 39 (Turn 66961 - Active)
-- **Current Status**: Standing on ground level at (1, 28) [z=0] in Fuchsia City (Map 0_7) on Turn 66961 with exactly 172 remaining steps. Ready to walk Up Column 1 and Right Row 3 to re-enter Safari Zone Gatehouse to start Run 40!
+# Fuchsia City Gatehouse Routing - Turn 66965 (Active)
+- **Current Status**: Standing on ground level at (1, 28) [z=0] in Fuchsia City (Map 0_7) on Turn 66965. Ready to walk Up Column 1 and Right Row 3 to re-enter Safari Zone Gatehouse to start Run 40!
 - **Inventory Status**: 15/20 items.
-- **Run 39 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 172 steps.
 - **Money remaining**: ¥70,817.
 
 ## Master Run 39 Campaign Plan (Double-Retrieval Route)
