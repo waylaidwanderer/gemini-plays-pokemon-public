@@ -1,8 +1,8 @@
-# Safari Zone West Exploration - Run 39 (Turn 66670 - Active)
-- **Current Status**: Standing on ground level at (9, 30) in Safari Zone North (Map 0_218) on Turn 66670. Preparing to walk Down 5 steps along Column 9 to stand at (9, 35) [z=0].
+# Safari Zone West Exploration - Run 39 (Turn 66681 - Active)
+- **Current Status**: Standing on ground level at (9, 35) in Safari Zone North (Map 0_218) on Turn 66681. Preparing to walk Down 1 step to transition South to Safari Zone West (Map 0_219) landing at (27, 0).
 - **Inventory Status**: 15/20 items.
 - **Run 39 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 318 steps.
+- **Current Steps Remaining**: 313 steps.
 - **Money remaining**: ¥70,817.
 
 ## Master Run 39 Campaign Plan (Double-Retrieval Route)
