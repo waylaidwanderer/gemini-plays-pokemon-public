@@ -1,8 +1,8 @@
-# Safari Zone West Exploration - Run 42 (Turn 68555 - Active)
-- **Current Status**: Standing at (8, 35) on ground level in Safari Zone North on Turn 68555.
+# Safari Zone West Exploration - Run 42 (Turn 68588 - Active)
+- **Current Status**: Standing at (8, 31) on ground level in Safari Zone North on Turn 68588.
 - **Inventory Status**: 15/20 items.
 - **Run 42 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 202 steps.
+- **Current Steps Remaining**: 198 steps.
 - **Money remaining**: ¥69,317 (paid ¥500 entry fee).
 
 ## Active Campaign Plan (Run 42 Victory Route)
@@ -43,3 +43,4 @@ Our empirical testing on Turn 68472 conclusively falsified the ground-level bypa
 - Turn 68533: Walked Up 4 steps along Column 25 to (25, 2) [z=0], bumping twice against the solid tree wall at (25, 1) (remaining: 206).
 - Turn 68540: Walked Right 1 step to (26, 2), Up 2 steps along Column 26 to (26, 0) [z=0] (remaining: 203).
 - Turn 68542: Walked Up 1 step to transition to Safari Zone North, landing at (8, 35) [z=0] (remaining: 202).
+- Turn 68557: Walked Up 4 steps along Column 8 to (8, 31) [z=0] (remaining: 198).
