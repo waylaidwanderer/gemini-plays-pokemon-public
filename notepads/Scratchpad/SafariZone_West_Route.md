@@ -1,5 +1,5 @@
-# Safari Zone West Exploration - Run 39 (Turn 66923 - Active)
-- **Current Status**: Standing on ground level at (3, 14) [z=0] in Safari Zone West (Map 0_219) on Turn 66923 with exactly 186 remaining steps. Ready to test Column 3 Row 13 ground-level passability by pressing Up!
+# Safari Zone West Exploration - Run 39 (Turn 66927 - Active)
+- **Current Status**: Standing on ground level at (3, 14) [z=0] in Safari Zone West (Map 0_219) on Turn 66927 with exactly 186 remaining steps. Physically tested Column 3 Row 13 by pressing Up and bumped, proving the water lake blocks Column 3. Initiating DIG escape protocol to start Run 40!
 - **Inventory Status**: 15/20 items.
 - **Run 39 Starting Steps**: 500 steps.
 - **Current Steps Remaining**: 186 steps.
