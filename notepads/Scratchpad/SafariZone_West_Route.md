@@ -1,8 +1,8 @@
-# Safari Zone West Exploration - Run 41 (Turn 68034 - Active)
-- **Current Status**: Standing at (27, 2) [z=0] in Safari Zone West on Turn 68034.
+# Safari Zone West Exploration - Run 41 (Turn 68039 - Active)
+- **Current Status**: Standing at (8, 35) [z=0] in Safari Zone North on Turn 68039.
 - **Inventory Status**: 15/20 items.
 - **Run 41 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 106 steps (Reconciled).
+- **Current Steps Remaining**: 105 steps (Reconciled).
 - **Money remaining**: ¥69,817.
 
 ## Active Campaign Plan (Refined Row 7 Ledge Jump Victory Route)
