@@ -37,3 +37,4 @@ We are navigating to Safari Zone West via the Eastern Ground Corridor of Safari 
 - **Turn 70001**: Paid ¥500 entry fee to Gatekeeper at (1, 4) from (3, 2) in Gatehouse and entered Safari Zone Center at (15, 25) [500 steps remaining].
 - **Turn 70018**: Transitioned from Safari Zone Center at (29, 11) to Safari Zone East at (0, 23) [483 steps remaining].
 - **Turn 70025**: Reconciled position at (0, 23) in East. Ready to begin Eastern Ground Corridor navigation.
+- **Turn 70041**: Navigated Row 24 corridor from (5, 22) to (20, 24) [18 steps used, 459 remaining]. Encountered a wild Nidoran♀ at (20, 24) on ground level. Preparing to RUN.
