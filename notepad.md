@@ -5728,7 +5728,7 @@ We are in a flawless tactical position!
 <h1><code>Scratchpad/SafariZone_Run45_Route</code></h1>
 
 # Safari Zone West Exploration - Run 45 (Turn 70001 - Active)
-- **Current Status**: Standing at (12, 9) in Safari Zone North on Turn 70315 on ground level [z=0], facing Up, with 108 steps remaining.
+- **Current Status**: Standing at (12, 6) in Safari Zone North on Turn 70321 on ground level [z=0], facing Down, with 105 steps remaining.
 - **Inventory Status**: 15/20 items, 29 Safari Balls.
 - **Run 45 Start Turn**: Turn 70001
 - **Run 45 Starting Steps**: 500 steps.
