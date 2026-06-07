@@ -99,3 +99,6 @@ We are executing a fully optimized Run 43 ground-to-plateau dual retrieval.
 - Turn 68975: Walked Left 6 steps to (22, 29) [remaining: 339].
 - Turn 68984: Walked Up 2 steps to (22, 27), triggering a wild Rhyhorn encounter [remaining: 337].
 - Turn 68991: Walked Up 2 steps to (22, 25) [remaining: 335].
+- Turn 68993: Walked Up 2 steps along Column 22 to (22, 23) [remaining: 333].
+- Turn 68996: Walked Up 1 step to climb the stairs onto the plateau at (22, 22) [z=1] [remaining: 332].
+- Turn 68997: Walked Left 6 and Down 5 steps across the grass-free Western Plateau to reach the West Descent Stairs at (16, 27) [z=1] [remaining: 321].
