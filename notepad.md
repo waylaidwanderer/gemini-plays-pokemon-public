@@ -5752,12 +5752,12 @@ We are in a flawless tactical position!
 
 <h1><code>Scratchpad/SafariZone_Run46_Route</code></h1>
 
-# Safari Zone West Exploration - Run 46 (Turn 70737 - Active)
-- Current Status: Standing at (20, 8) in Safari Zone East (Map 0_217) on Turn 70737 on ground level [z=0], facing RIGHT.
+# Safari Zone West Exploration - Run 46 (Turn 70754 - Active)
+- Current Status: Standing at (17, 3) in Safari Zone East (Map 0_217) on Turn 70754 on ground level [z=0], facing LEFT.
 - Inventory Status: 15/20 items, 29 Safari Balls.
 - Run 46 Start Turn: Turn 70531
 - Run 46 Starting Steps: 500 steps.
-- Remaining Steps: 345 steps.
+- Remaining Steps: 337 steps.
 - Money remaining: ¥67,317.
 
 ## Run 46 Campaign Plan
