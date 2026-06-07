@@ -1797,3 +1797,31 @@ This huge headroom is more than enough to absorb all wild encounters (which cost
   - Our fully verified campaign route on foot to retrieve both the Warden's Gold Teeth at (19, 7) and HM03 Surf at (3, 3) takes exactly **290 steps**.
   - Since a fresh Safari run provides a budget of **500 steps**, our surplus step budget is `500 - 290 = 210 surplus steps` (a **72.4% headroom safety margin**).
   - This massive headroom easily absorbs all wild encounters (which cost 0 steps when fleeing), minor navigation errors, and on-foot ledge testing, mathematically guaranteeing 100% success on foot in Run 39 without needing Surf!
+
+## Turn 66514 Socratic Answers
+
+### Socratic Question 1: upcoming route to (12, 22) [z=0] and step-budget math
+- **Current Position**: `(20, 24)` [z=0] with 449 remaining steps on Turn 66511.
+- **Path and step-by-step math**:
+  1. From `(20, 24)`, walk Up 4 steps along Column 20 to climb the Southern stairs at (20, 21) and stand on the plateau at `(20, 20)` [z=1]:
+     - Step 1: Up to `(20, 23)` [z=0] -> 1 step [448 remaining].
+     - Step 2: Up to `(20, 22)` [z=0] -> 1 step [447 remaining].
+     - Step 3: Up onto stairs at `(20, 21)` [z=1] -> 1 step [446 remaining].
+     - Step 4: Up onto plateau at `(20, 20)` [z=1] -> 1 step [445 remaining].
+  2. From `(20, 20)` [z=1], walk Left 8 steps horizontally along Row 20 to Column 12 at `(12, 20)` [z=1]:
+     - Left 8 steps -> 8 steps [437 remaining].
+  3. From `(12, 20)` [z=1], walk Down 1 step to stand on the Western stairs at `(12, 21)` [z=1]:
+     - Down 1 step -> 1 step [436 remaining].
+  4. From `(12, 21)` [z=1], walk Down 1 step to descend to ground level at `(12, 22)` [z=0]:
+     - Down 1 step -> 1 step [435 remaining].
+- **Total Traversal Steps**: `4 (climb) + 8 (traverse) + 1 (stairs) + 1 (descend) = 14 steps`.
+- **Remaining step budget**: Exactly **435 steps remaining** standing at `(12, 22)`.
+
+### Socratic Question 2: visual layout of Column 12 bypass corridor and its strategic value
+- **Visual Layout of vertical ground-bypass corridor**:
+  - Column 12 is a completely open, grass-free 1-tile-wide vertical strip of `TYPE_3fe2` (open ground) spanning vertically from Row 22 to Row 8.
+  - To the Left of Column 12 (Columns 11 and under) are solid checkered mountain-rock cliff faces of `TYPE_2889`.
+  - To the Right of Column 12 (Columns 13 and over) are a massive water lake of `TYPE_4e8c` or tall grass `TYPE_fed7`.
+  - Because this natural strip of open ground is only 1-tile wide and consists of `TYPE_3fe2`, there are NO tall grass tiles (`TYPE_fed7`) on Column 12 on these rows. This layout makes walking Up along Column 12 completely grass-free, providing a **0% risk of wild encounters**!
+- **Strategic Value**:
+  - Utilizing this corridor allows us to safely and quickly cover 14 vertical steps with zero risk of wild encounters, preserving our step-budget and conserving real-world and in-game time. It is the most direct, secure, and optimized pathway connecting the Southern and Northern sections of Safari Zone East.
