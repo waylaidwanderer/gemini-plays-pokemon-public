@@ -1,9 +1,9 @@
 # Safari Zone West Exploration - Run 43 (Turn 68838 - Active)
-- **Current Status**: Standing at (26, 0) in Safari Zone West on Turn 69274 on ground level.
+- **Current Status**: Standing at (17, 14) in Safari Zone West on Turn 69303 on Koga's bridge.
 - **Inventory Status**: 15/20 items.
 - **Run 43 Start Turn**: Turn 68838 (June 7, 2026, 6:24 AM)
 - **Run 43 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 163 steps.
+- **Current Steps Remaining**: 119 steps.
 - **Money remaining**: ¥68,817.
 
 ## Active Campaign Plan (Run 43 Victory Route)
