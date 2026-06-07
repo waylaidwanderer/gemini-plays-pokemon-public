@@ -444,16 +444,6 @@
   - Western-West Plateau cliff wall on the East (Column 15, Rows 6-13).
   As a result, there is absolutely no direct vertical ground-level passage past Row 4 along Column 12, 13, or 14 to reach the northern ground pocket.
 
-## 2. The True Unblocked Ground Detour (Bypassing the South-West Barriers)
-- **Specific Ground Barriers on the West**:
-  - The South-West lake (Columns 4-7, Rows 14-19) completely blocks Column 4, 5, 6, and 7 on Row 19.
-  - Column 5 is blocked by a solid tree wall of TYPE_2889 on Rows 20, 21, 22, and 23.
-- **The Correct Ground-Level Route**: To reach the Western side of Safari Zone North and the top-left Northwest transition to Safari Zone West, we must walk Down around the tree wall of Column 5 via Row 24, which is 100% open and passable.
-- **Detour Steps from Current Position (8, 19)**:
-  1. Walk Down 5 steps along Column 8 to (8, 24) [5 steps].
-  2. Walk Left 4 steps along Row 24 to (4, 24) [4 steps].
-  3. Walk Up 4 steps along Column 4 to (4, 20) [4 steps].
-  4. Walk Left 1 step to Column 3 at (3, 20) [1 step].
-  5. Walk Up 16 steps along Column 3 to reach the northern corridor at (3, 4) [16 steps].
-  6. Walk Left 2 steps to reach the transition at (1, 4) -> (0, 4) [2 steps].
-- **Step-Budget Analysis**: This ground-level detour consumes exactly 32 steps to transition, which is highly optimal and leaves exactly 56 steps remaining in our budget, guaranteeing successful retrieval of the Gold Teeth and HM03 Surf!
+## 2. The True Unblocked Ground Detour (Bypassing the South-West Barriers) - RETRACTED & DISPROVEN
+- **Verification on Turn 70392**: We physically tested this ground detour on foot and proved that Column 5 is completely blocked by solid tree barriers. This makes the Southwest ground-level pocket of Safari Zone North a completely closed, isolated dead end with NO ground-level connection to the western side.
+- **Mandatory Plateau Climb**: Therefore, the ground-level detour is physically impossible. Climbing the Western Plateau at (22, 23) [z=1] is strictly mandatory to cross over this barrier. We successfully used DIG on Turn 70403 to escape this dead end and reset our steps.
