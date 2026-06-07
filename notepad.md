@@ -4851,6 +4851,8 @@ We analyzed why we bumped at Column 23 on Rows 14-15 and verified that symmetric
   - Walk Left 1, Up 3 to stand at (5, 16) [z=1] [and bumped 1 time against (5, 15)] on Turn 69164: uses 4 steps [remaining: 221].
   - True remaining steps in RAM on Turn 69189: **221 remaining steps**.
   - Note on Navigator Agent Delta: The custom `safari_navigator_agent` computed 222 steps remaining because it utilizes Manhattan distance deltas which do not track the 1 step consumed by the bump at (5, 15). The true RAM value is 221.
+- **Turn 69195 Test**: Standing at (6, 16) [z=1] facing UP, attempted to walk Up into (6, 15). Result: BUMPED against the north-facing horizontal cliff of the bridge. This physically proves that Column 6 Row 15 is indeed ground level (z=0, TYPE_3fe2).
+- **Plateau Separation Confirmed**: Since both Column 5 Row 15 and Column 6 Row 15 have been empirically proven to be ground-level tiles, Koga's Western-West Plateau (Columns 4-10) is completely separated from Koga's bridge (Row 16 Columns 5-22). The elevated Western stairs at (6, 19) lead from (6, 18) [z=1] DOWN to (6, 20) [z=0] on the ground, allowing us to descend and use ground-level bypasses around the bridge to reach the Northwest quadrant.
 
 <hr>
 
