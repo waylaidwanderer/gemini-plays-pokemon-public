@@ -92,32 +92,32 @@ We reconcile this physical contradiction by analyzing the row-by-row layout of C
   - Now, we are standing at (25, 18) [z=0]. We will walk Up Column 25 to Row 7 to test if we can cross Westward to (19, 7) [Gold Teeth] or Row 5 on Column 24.
   - Let's walk Up 11 steps along Column 25 to (25, 7) [z=0] and test walking Left into (24, 7).
 
-## 5. Reconciling Koga's Eastern Plateau Column 21 Blockage & Refined Victory Route Math (Turn 68000)
+## 5. Reconciling Koga's Eastern Plateau Column 21 Blockage & Refined Victory Route Math (Turn 68016)
 
-### Socratic Question 1: The Column 21 Wall Contradiction Answer
+### Socratic Question 1: The Column 21 Wall Contradiction & Column 10 Row 7 Hypothesis Answer
 - **Why the Turn 67958 attempt bumped at (21, 14)**:
-  - We attempted to walk Up from (21, 14) [z=1] to (21, 13) [z=0] and immediately bumped.
-  - This is because Koga's Eastern Plateau on Columns 20-22 physically ends at Row 14. 
-  - The tiles at (21, 13) and (21, 12) are standard ground-level grass (`TYPE_3fe2`) at elevation z=0. Since there are no staircases or ledge transitions connecting (21, 14) [z=1] to (21, 13) [z=0], attempting to walk Up results in a standard height-mismatch physical collision (bump) against the cliff face.
-  - This physical collision conclusively falsifies our 'Plateau Background Overlay Illusion' theory because Koga's Eastern Plateau does NOT extend north of Row 14, and there is no "invisible" z=1 passage on Column 21 Rows 12-13.
-- **Refined Victory Route and Step-by-Step Math (Turn 68000)**:
-  - We are currently standing at (16, 9) [z=1] with exactly **133 remaining steps** (Turn 68000).
-  - Since Column 17 is a solid cliff face across all Rows 6-13, we walked Left 5 steps along Row 14 to stand at (16, 14) [z=1], and Up 5 steps along Column 16 to stand at (16, 9) [z=1].
-  - Our corrected 38-step victory route utilizing the Column 10 Row 7 jump-down ledge is:
-    1. Walk Up 2 steps to (16, 7) [z=1] -> 2 steps used (131 remaining).
-    2. Walk Left 5 steps along Row 7 to (11, 7) [z=1] -> 5 steps used (126 remaining).
-    3. Walk Left 1 step to jump down West over the Column 10 ledge, landing at (9, 7) [z=0] on the ground level -> 1 step used (125 remaining).
-    4. From (9, 7) [z=0], walk Left 6 steps along Row 7 to (3, 7) [z=0] -> 6 steps used (119 remaining).
-    5. Walk Up 4 steps along Column 3 to enter the Secret House at (3, 3) [z=0] -> 4 steps used (115 remaining).
-    6. Inside the Secret House, obtain HM03 Surf (0 steps on overworld).
-    7. Exit the Secret House at (3, 3) [z=0] and walk Down 4 steps to stand at (3, 7) [z=0] -> 4 steps used (111 remaining).
-    8. Walk Right 16 steps along Row 7 to retrieve Warden's Gold Teeth at (19, 7) [z=0] -> 16 steps used (95 remaining).
-  - **Victory Guarantee**: Entering the Secret House with 115 steps remaining is a massive surplus, mathematically guaranteeing a successful double-retrieval run on foot on this attempt!
+  - We attempted to walk Up from (21, 14) [z=1] to (21, 13) [z=0] and immediately bumped. This is because Koga's Eastern Plateau on Columns 20-22 physically ends at Row 14. The tiles at (21, 13) and (21, 12) are ground-level grass (`TYPE_3fe2`) at elevation z=0, which is a sheer cliff drop-off to the North of Row 14. Since there are no staircases or ledge transitions connecting (21, 14) [z=1] to (21, 13) [z=0], attempting to walk Up results in a standard height-mismatch physical collision (bump) against the cliff face. This physical collision conclusively falsifies our 'Plateau Background Overlay Illusion' theory because Koga's Eastern Plateau does NOT extend north of Row 14 on Column 21. It is not an invisible z=1 passage.
+- **Why we hypothesize that Row 7 Column 10 acts as a West-facing jump-down ledge**:
+  - We hypothesize this because Column 10 Row 7 has ground-level grass to its west at Column 9, and was previously theorized to be blocked only because the landing tile (9, 7) was occupied by the Gold Teeth. Since the Gold Teeth Pokéball is actually at (19, 7), the landing tile (9, 7) is completely clear.
+- **The Empirical Test Protocol at (11, 7)**:
+  - We will walk Left 5 steps along Row 7 to stand at (11, 7) [z=1] and test walking Left 1 step.
+  - **Outcome A (Ledge Jump)**: If Koga's Column 10 Row 7 is a valid West-facing ledge, we will jump Left, landing at (9, 7) [z=0] on ground level.
+  - **Outcome B (Bump)**: If Column 10 is a solid cliff face (`TYPE_2889`), we will collide and bump, remaining at (11, 7) [z=1]. We must immediately log this in our scratchpad and permanent records.
+- **Detour Route and Step-by-Step Math (Backtracking via Safari Zone North if blocked)**:
+  - If blocked at (11, 7) [z=1], we must backtrack to the Eastern stairs and use Safari Zone North to reach the Northwest ground quadrant of West:
+    1. Walk from (11, 7) [z=1] back to the Eastern stairs at (21, 16) [z=1] and descend to (21, 18) [z=0] -> Right 5, Down 7, Right 5, Down 3 = **21 steps**.
+    2. Walk from (21, 18) [z=0] through Koga's Eastern corridor to the Safari Zone North transition at (27, 0) [z=0] -> Right 4, Up 18, Right 2, Up 1 = **25 steps**.
+    3. Walk across Safari Zone North from (9, 35) [z=0] to the Western transition to Safari Zone West -> Up 20 to (9, 15), Right 3 to (12, 15), Up 5 to (12, 10), Left 4 to (8, 10), Left 8 to Column 0, and Left 1 step to transition -> **41 steps**.
+    Total steps to stand on ground level in Safari Zone West Northwest quadrant: 21 + 25 + 41 = **87 steps**.
+    Remaining steps upon entry: 131 - 87 = **44 steps remaining** inside the Northwest quadrant, which mathematically guarantees 100% success on foot on this run even if we detour!
 
-### Socratic Question 2: Eastern Stairs Descent Pathfinder Bug Answer
-- **Why a player at (21, 16) [z=1] attempting to walk Down onto (21, 17) [z=0] is treated as hitting an impassable boundary**:
-  - In our `safari_pathfinder` script, the cz == 1 block (plateau movement) evaluated any next tile not in the plateau set. If `(nx, ny)` was not in `plateau`, it required a specific transition clause to descend. Symmetrical climbing UP clauses were implemented, but we completely lacked a descending transition clause for Koga's eastern stairs on Map 0_219: `map_id == "0_219" and (cx, cy) == (21, 16) and (nx, ny) == (21, 17)`.
-  - Because of this omission, walking Down from (21, 16) [z=1] to (21, 17) was incorrectly rejected as a collision.
-  - To resolve this, we added the following line inside the `cz == 1` block on Turn 67983:
-    `elif map_id == "0_219" and (cx, cy) == (21, 16) and (nx, ny) == (21, 17): ncz = 0`
-  - Redefining the tool with this fix successfully restored complete descending pathfinding functionality!
+### Socratic Question 2: Custom 'safari_pathfinder' Plateau Collision Bug Answer
+- **Why a player at plateau level cz == 1 is able to walk straight through (10, 6) or (10, 8) in the BFS**:
+  - In our previous `safari_pathfinder` script (Turn 67983), under the `cz == 1` block (plateau movement), the BFS algorithm only verified that the next tile `(nx, ny)` was in the `plateau` set. It completely lacked any checks against a `blocked_plateau` set of obstacles. Because of this omission, even if a tile was a solid cliff wall on the plateau (such as Column 10 Row 6 or Row 8), the pathfinder treated it as passable and routed straight through it.
+- **The Corrective Conditional Block**:
+  - To fix this, we defined a `blocked_plateau` set containing (10, 6), (10, 8), (10, 7), and Column 14 on Rows 9-14, and added the following check inside the `cz == 1` branch:
+    ```python
+    if (nx, ny) in blocked_plateau:
+        continue
+    ```
+  - We successfully implemented this exact fix in our redefinition of `safari_pathfinder` on Turn 68011, ensuring robust, obstacle-aware routing on Koga's plateau!
