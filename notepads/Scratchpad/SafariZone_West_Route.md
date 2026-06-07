@@ -1,9 +1,9 @@
 # Safari Zone West Exploration - Run 43 (Turn 68838 - Active)
-- **Current Status**: Standing at (12, 28) in Safari Zone North on Turn 69008, heading to transition to Safari Zone West.
+- **Current Status**: Standing at (16, 9) in Safari Zone West on Turn 69045, heading toward Koga's bridge at (17, 16).
 - **Inventory Status**: 15/20 items.
 - **Run 43 Start Turn**: Turn 68838 (June 7, 2026, 6:24 AM)
 - **Run 43 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 316 steps.
+- **Current Steps Remaining**: 264 steps.
 - **Money remaining**: ¥68,817.
 
 ## Active Campaign Plan (Run 43 Victory Route)
@@ -16,11 +16,12 @@ We are executing a fully optimized Run 43 ground-to-plateau dual retrieval.
 6. **East Corridor Traversal**: Transition to East (Map 0_217) at (0, 23). Walk and climb Southern stairs at (20, 21), cross plateau, descend Western stairs at (12, 22), bypass tall grass (9, 9) via Column 9 corridor, climb northern stairs at (12, 7) onto high plateau at (12, 6), cross to East (21, 6), descend to ground, walk along Row 3 to the West, and transition to Safari Zone North at (39, 31) -> **40 steps**.
 7. **North Corridor Traversal**: Transition to North (Map 0_218) at (39, 31). Walk along Row 31 to (28, 31), climb Eastern stairs at (28, 27) [climbing from (28, 28)] onto plateau, descend Western stairs at (16, 27) [descending to (16, 28)], walk to Column 9 Row 30, and walk Down along Column 9 to transition to Safari Zone West at (26, 0) / (27, 0) -> **40 steps**.
 8. **West Quad Double-Retrieval**: 
-   - Transition to West (Map 0_219) at (26, 0) [z=0].
-   - Walk to Eastern stairs at (21, 17) [climbing from (21, 18)].
-   - Climb UP to Koga's Eastern Plateau at (21, 16) [z=1].
-   - Walk to (18, 9) [z=1] and step Right to jump down the ramp to (19, 9) [z=0] directly into the Northwest ground quadrant.
-   - Walk Up/Left to the Gold Teeth at (19, 7) and retrieve them!
+   - Transition to West (Map 0_219) at (27, 0) [z=0].
+   - Walk Down to (27, 18), Left 6 to (21, 18), and climb Eastern stairs UP to (21, 16) [z=1].
+   - Walk Left 5 to (16, 16) [z=1], Up 7 to (16, 9) [z=1].
+   - Walk Down 7 to (16, 16) [z=1], Right 1 to (17, 16) [z=1] on Koga's bridge.
+   - Walk Up 11 steps along the Column 17 checkered vertical ramp to reach (17, 5) [z=0] on the northern ground level.
+   - Walk Right 2 steps to (19, 5) [z=0], Down 2 steps to stand adjacent to the Warden's Gold Teeth at (19, 7) [z=0], and pick them up!
    - Walk West 16 steps along the Row 5 ground-level corridor, and walk Up to enter the Secret House at (3, 3) to get HM03 Surf!
    - Total steps used in West: ~35 steps. Total steps used across entire run: ~143 steps (out of 500), leaving a massive surplus of ~357 steps inside the Secret House!
 9. **Warp Home**: Use DIG to warp back to Fuchsia City!
@@ -105,3 +106,5 @@ We are executing a fully optimized Run 43 ground-to-plateau dual retrieval.
 - Turn 69007: Walked Down 1 and Left 4 steps to (12, 28) [remaining: 316].
 - Turn 69014: Transitioned to Safari Zone West at (27, 0) and walked Down 10 steps to (27, 10) [remaining: 295].
 - Turn 69019: Walked Down 8 and Left 6 to (21, 18), then Up 2 steps to climb Eastern stairs to (21, 16) [z=1] [remaining: 279].
+- Turn 69025: Walked Left 5 and Up 7 steps across the grass-free plateau to (16, 9) [z=1] [remaining: 267].
+- Turn 69030: Attempted to walk Right 3 times into (17, 9) on the plateau, resulting in solid cliff bumps [remaining: 264].
