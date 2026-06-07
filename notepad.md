@@ -3505,7 +3505,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration - Run 43 (Turn 68838 - Active)
-- **Current Status**: Standing at (17, 14) in Safari Zone West on Turn 69303 on Koga's bridge.
+- **Current Status**: Standing at (17, 14) in Safari Zone West on Turn 69309 on Koga's bridge.
 - **Inventory Status**: 15/20 items.
 - **Run 43 Start Turn**: Turn 68838 (June 7, 2026, 6:24 AM)
 - **Run 43 Starting Steps**: 500 steps.
