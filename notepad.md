@@ -3504,11 +3504,11 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
-# Safari Zone West Exploration - Run 42 (Turn 68462 - Active)
-- **Current Status**: Standing at (2, 20) on ground level in Safari Zone West on Turn 68462.
+# Safari Zone West Exploration - Run 42 (Turn 68495 - Active)
+- **Current Status**: Standing at (6, 20) on ground level in Safari Zone West on Turn 68495.
 - **Inventory Status**: 15/20 items.
 - **Run 42 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 335 steps.
+- **Current Steps Remaining**: 247 steps.
 - **Money remaining**: ¥69,317 (paid ¥500 entry fee).
 
 ## Active Campaign Plan (Run 42 Verification & Victory Route)
