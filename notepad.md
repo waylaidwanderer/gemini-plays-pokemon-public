@@ -3504,8 +3504,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
-# Safari Zone West Exploration - Run 43 (Turn 68799 - Active)
-- **Current Status**: Standing at (18, 20) in Fuchsia City facing UP on Turn 68799, first bush at (18, 19) successfully CUT.
+# Safari Zone West Exploration - Run 43 (Turn 68821 - Active)
+- **Current Status**: Standing at (16, 12) in Fuchsia City on Turn 68821, selected PETAL (slot 6) in POKéMON menu, preparing to CUT second bush at (16, 11).
 - **Inventory Status**: 15/20 items.
 - **Run 43 Starting Steps**: 500 steps.
 - **Current Steps Remaining**: 500 steps (not yet entered).
