@@ -1,9 +1,9 @@
-# Safari Zone West Exploration - Run 46 (Turn 70776 - Active)
-- Current Status: Standing at (22, 27) in Safari Zone North (Map 0_218) on Turn 70776 on ground level [z=0], facing UP.
+# Safari Zone West Exploration - Run 46 (Turn 70781 - Active)
+- Current Status: Standing at (16, 28) in Safari Zone North (Map 0_218) on Turn 70781 on ground level [z=0], facing DOWN.
 - Inventory Status: 15/20 items, 29 Safari Balls.
 - Run 46 Start Turn: Turn 70531
 - Run 46 Starting Steps: 500 steps.
-- Remaining Steps: 286 steps.
+- Remaining Steps: 269 steps.
 - Money remaining: ¥67,317.
 
 ## Run 46 Campaign Plan
