@@ -1,5 +1,5 @@
-# Safari Zone West Exploration - Run 39 (Turn 66921 - Active)
-- **Current Status**: Standing on ground level at (3, 14) [z=0] in Safari Zone West (Map 0_219) on Turn 66921 with exactly 186 remaining steps. Ready to walk Up Column 3 and test Column 3 Row 13 passability!
+# Safari Zone West Exploration - Run 39 (Turn 66923 - Active)
+- **Current Status**: Standing on ground level at (3, 14) [z=0] in Safari Zone West (Map 0_219) on Turn 66923 with exactly 186 remaining steps. Ready to test Column 3 Row 13 ground-level passability by pressing Up!
 - **Inventory Status**: 15/20 items.
 - **Run 39 Starting Steps**: 500 steps.
 - **Current Steps Remaining**: 186 steps.
