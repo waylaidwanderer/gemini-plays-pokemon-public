@@ -245,3 +245,5 @@ We will execute both tests on foot in Run 40, document the precise turn/bump res
 - Turn 67038: Pressed A on the empty screen to restart dialogue.
 - Turn 67039: Pressed Down and A to select NO to the 'first time here' prompt.
 - Turn 67040: Pressed A to dismiss 'Sorry, you're a regular here!' dialogue again.
+- Turn 67044: Pressed Up vertically along Column 3 from (3, 4) to (3, 3) to test if the gatekeeper stops us. They did not stop us on Row 3.
+- Turn 67045: Pressed Up vertically along Column 3 from (3, 3) to (3, 2). This successfully triggered the gatekeeper's check-in/payment script, initiating 'Welcome to the SAFARI ZONE!' dialogue.
