@@ -4736,26 +4736,27 @@ We reconcile this physical contradiction by analyzing the row-by-row layout of C
   - Now, we are standing at (25, 18) [z=0]. We will walk Up Column 25 to Row 7 to test if we can cross Westward to (19, 7) [Gold Teeth] or Row 5 on Column 24.
   - Let's walk Up 11 steps along Column 25 to (25, 7) [z=0] and test walking Left into (24, 7).
 
-## 5. Reconciling Koga's Eastern Plateau Column 21 Blockage & Refined Victory Route Math (Turn 67991)
+## 5. Reconciling Koga's Eastern Plateau Column 21 Blockage & Refined Victory Route Math (Turn 68000)
 
 ### Socratic Question 1: The Column 21 Wall Contradiction Answer
 - **Why the Turn 67958 attempt bumped at (21, 14)**:
   - We attempted to walk Up from (21, 14) [z=1] to (21, 13) [z=0] and immediately bumped.
   - This is because Koga's Eastern Plateau on Columns 20-22 physically ends at Row 14. 
-  - The tiles at (21, 13) and (21, 12) are ground-level grass (`TYPE_3fe2`) at elevation z=0. Since there are no staircases or ledge transitions connecting (21, 14) [z=1] to (21, 13) [z=0], attempting to walk Up results in a standard height-mismatch physical collision (bump) against the cliff face.
+  - The tiles at (21, 13) and (21, 12) are standard ground-level grass (`TYPE_3fe2`) at elevation z=0. Since there are no staircases or ledge transitions connecting (21, 14) [z=1] to (21, 13) [z=0], attempting to walk Up results in a standard height-mismatch physical collision (bump) against the cliff face.
   - This physical collision conclusively falsifies our 'Plateau Background Overlay Illusion' theory because Koga's Eastern Plateau does NOT extend north of Row 14, and there is no "invisible" z=1 passage on Column 21 Rows 12-13.
-- **Refined Victory Route and Step-by-Step Math (Turn 67991)**:
-  - We are currently standing at (16, 9) [z=1] with exactly **133 remaining steps**.
-  - Since Column 17 is a solid cliff face across all Rows 6-13, we walked Left 5 steps along Row 14 to stand at (16, 14) [z=1], and Up 5 steps along Column 16 to stand at our current position (16, 9) [z=1].
-  - Our refined 29-step victory route is:
-    1. Walk Up 1 step to (16, 8) [z=1] -> 1 step used (132 remaining).
-    2. Walk Left 12 steps along Row 8 to (4, 8) [z=1] -> 12 steps used (120 remaining).
-    3. Walk Left 1 step to jump down West over Column 4, landing at (3, 8) [z=0] on the ground level -> 1 step used (119 remaining).
-    4. From (3, 8) [z=0], walk Up 5 steps to enter the Secret House at (3, 3) [z=0] -> 5 steps used (114 remaining).
-    5. Inside the Secret House, obtain HM03 Surf (0 steps on overworld).
-    6. Exit the Secret House at (3, 3) [z=0] and walk Down 4 steps to stand at (3, 7) [z=0] -> 4 steps used (110 remaining).
-    7. Walk Right 6 steps along Row 7 to retrieve Warden's Gold Teeth at (9, 7) [z=0] -> 6 steps used (104 remaining).
-  - **Victory Guarantee**: Entering the Secret House with 114 steps remaining is a massive surplus, mathematically guaranteeing a successful double-retrieval run on foot on this attempt!
+- **Refined Victory Route and Step-by-Step Math (Turn 68000)**:
+  - We are currently standing at (16, 9) [z=1] with exactly **133 remaining steps** (Turn 68000).
+  - Since Column 17 is a solid cliff face across all Rows 6-13, we walked Left 5 steps along Row 14 to stand at (16, 14) [z=1], and Up 5 steps along Column 16 to stand at (16, 9) [z=1].
+  - Our corrected 38-step victory route utilizing the Column 10 Row 7 jump-down ledge is:
+    1. Walk Up 2 steps to (16, 7) [z=1] -> 2 steps used (131 remaining).
+    2. Walk Left 5 steps along Row 7 to (11, 7) [z=1] -> 5 steps used (126 remaining).
+    3. Walk Left 1 step to jump down West over the Column 10 ledge, landing at (9, 7) [z=0] on the ground level -> 1 step used (125 remaining).
+    4. From (9, 7) [z=0], walk Left 6 steps along Row 7 to (3, 7) [z=0] -> 6 steps used (119 remaining).
+    5. Walk Up 4 steps along Column 3 to enter the Secret House at (3, 3) [z=0] -> 4 steps used (115 remaining).
+    6. Inside the Secret House, obtain HM03 Surf (0 steps on overworld).
+    7. Exit the Secret House at (3, 3) [z=0] and walk Down 4 steps to stand at (3, 7) [z=0] -> 4 steps used (111 remaining).
+    8. Walk Right 16 steps along Row 7 to retrieve Warden's Gold Teeth at (19, 7) [z=0] -> 16 steps used (95 remaining).
+  - **Victory Guarantee**: Entering the Secret House with 115 steps remaining is a massive surplus, mathematically guaranteeing a successful double-retrieval run on foot on this attempt!
 
 ### Socratic Question 2: Eastern Stairs Descent Pathfinder Bug Answer
 - **Why a player at (21, 16) [z=1] attempting to walk Down onto (21, 17) [z=0] is treated as hitting an impassable boundary**:
