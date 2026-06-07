@@ -2029,26 +2029,9 @@ Standing on the Western Plateau at (16, 16) [z=1] on Turn 66814 with exactly 221
 ### Socratic Question 2: Branching Strategic Consequences of the Column 11 Row 10 Ledge Test
 This upcoming test of Column 11 Row 10 is Koga's absolute last hope of Run 39. We analyze the branching strategic consequences of this test:
 
-#### OUTCOME A: Column 11 Row 10 is PASSABLE (Victory Route)
-If walking Left from (11, 10) [z=1] successfully jumps West over Koga's vertical cliff edge onto ground level at Column 10 Row 10 at (10, 10) [z=0], we land safely in the Northwest ground quadrant, completely bypassing Koga's central partition walls! From (10, 10) [z=0], our exact remaining route to stand at the Secret House door at (3, 3) to retrieve Surf, walk to (19, 7) to retrieve Warden's Gold Teeth, and DIG out is:
-1. **Segment A: Jump West over Column 11 Ledge to Ground Level at (10, 10) [z=0]** [1 step]:
-   - Walk Left 1 step to jump West over the vertical cliff edge onto (10, 10) [z=0] -> **1 step** [205 actual remaining].
-2. **Segment B: Walk to Secret House door at (3, 3) [z=0] to Retrieve Surf** [14 steps]:
-   - Walk Left 7 steps horizontally along Row 10 from (10, 10) to Column 3 at (3, 10) [z=0] (completely bypassing the Column 3 Row 13 water lake) -> **7 steps** [198 actual remaining].
-   - Walk Up 7 steps vertically along Column 3 from (3, 10) to stand at the Secret House door at (3, 3) [z=0] -> **7 steps** [191 actual remaining].
-   - Enter the Secret House and retrieve **HM03 Surf** [0 steps, 191 remaining].
-3. **Segment C: Walk to Warden's Gold Teeth at (19, 7) [z=0]** [20 steps]:
-   - Walk Down 4 steps along Column 3 from (3, 3) to Row 7 at (3, 7) [z=0] -> **4 steps** [187 actual remaining].
-   - Walk Right 16 steps horizontally along Row 7 from (3, 7) to Column 19 at (19, 7) [z=0] to stand on Warden's Gold Teeth -> **16 steps** [171 actual remaining].
-   - Retrieve Warden's Gold Teeth (0 steps).
-4. **Segment D: Escape using DIG** [0 steps]:
-   - Select GEMMY (BLASTOISE) and use DIG to instantly escape to Fuchsia City Pokémon Center -> **0 steps** [171 actual remaining].
-
-- **Proof of Success & Safety Headroom under Outcome A**:
-  - Total steps to complete retrievals from (16, 16): 11 (reach (11, 10)) + 1 (jump) + 14 (Secret House) + 20 (Gold Teeth) = **46 physical steps**.
-  - Remaining steps upon campaign completion: **171 actual steps surplus**!
-  - Headroom margin ratio: `171 / 46 * 100% = 371.7%` surplus safety headroom margin (nearly 4x the required steps!).
-This rigorous mathematical proof demonstrates that our budget of 217 actual remaining steps easily absorbs all wild encounters (0 steps when fleeing), minor navigation errors, and menus, mathematically guaranteeing 100% success on foot on the current run under Outcome A.
+#### OUTCOME A: Horizontal Plateau Ledge Descent (MECHANICALLY DISPROVEN & IMPOSSIBLE)
+- **Mechanic Analysis**: In vanilla Gen 1 Pokémon, the game engine does not support horizontal (Left-facing or Right-facing) jump-down ledges. Symmetrical vertical cliff faces with checkered brown pattern (TYPE_2889) do not possess jump-down ledge attributes and act as completely solid walls from both directions, preventing any horizontal ledge jumps.
+- **Falsification**: On Turn 66850, we physically verified that walking Left from (15, 10) onto Column 14 Row 10 results in a solid collision bump, proving Column 14 is solid. Thus, there are exactly zero unblocked West-facing descent ledges on Koga's plateau. Re-routing back to the Western Descent Stairs at (6, 19) is strictly mandatory on foot to descend and re-test the ground-level pathway.
 
 #### OUTCOME B: Column 11 Row 10 is BLOCKED (Dead-End & Reset Route)
 If walking Left from (11, 10) [z=1] results in a solid collision bump, it physically and conclusively proves that Column 11 Row 10 is solid. In this case, this entire Run 39 is a definitive dead-end because:
