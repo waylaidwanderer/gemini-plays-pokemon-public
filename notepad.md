@@ -3504,11 +3504,11 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
-# Safari Zone West Exploration - Run 41 (Turn 67832 - Active)
-- **Current Status**: Standing at (5, 3) [z=0] inside Rest House 3 (Map 0_223) on Turn 67832.
+# Safari Zone West Exploration - Run 41 (Turn 67884 - Active)
+- **Current Status**: Standing at (11, 12) [z=0] outside Rest House 3 on Turn 67884.
 - **Inventory Status**: 15/20 items.
 - **Run 41 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 177 steps (Synced/Reconciled).
+- **Current Steps Remaining**: 177 steps (Reconciled).
 - **Money remaining**: ¥69,817.
 
 ## Active Campaign Plan (Inside Rest House 3 and Ground Route to North)
