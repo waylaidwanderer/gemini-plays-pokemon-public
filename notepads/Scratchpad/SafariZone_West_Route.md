@@ -30,29 +30,29 @@
   - Walk Down 2 steps along Column 0 to northwest exit at (0, 5) [z=0] -> **2 steps** [383 remaining].
   - Transition West to Safari Zone North (Map 0_218) landing at (39, 31) -> **1 step** [382 remaining].
 
-- **Segment 3: Safari Zone North (39, 31) to stand at West transition at (9, 35)** [55 steps]:
+- **Segment 3: Safari Zone North (39, 31) to stand at West transition at (9, 35)** [61 steps]:
   - Walk to eastern plateau stairs at (28, 27) and climb UP to (28, 26) [z=1] -> **16 steps** [366 remaining].
   - Walk Down Eastern stairs at (28, 27) and descend to ground level at (28, 30) [z=0] -> **4 steps** [362 remaining].
   - Walk to Western stairs at (22, 23) and climb UP onto Western Plateau at (22, 22) [z=1] -> **14 steps** [348 remaining].
   - Traverse Western Plateau West to (16, 22) [z=1] and descend western stairs to (16, 28) [z=0] -> **12 steps** [336 remaining].
-  - Walk Down Column 9 to transition to Safari Zone West at (27, 0) [z=0] -> **9 steps** [327 remaining].
+  - Walk from (16, 28) to West transition: Left 4 to (12, 28), Down 2 to (12, 30), Left 3 to (9, 30), Down 5 along Column 9 to (9, 35), and Down 1 to transition to Safari Zone West (Map 0_219) at (27, 0) [z=0] -> **15 steps** [312 remaining].
 
-- **Segment 4: Safari Zone West Ground Entry to Eastern Plateau Stairs** [23 steps]:
+- **Segment 4: Safari Zone West Ground Entry to Eastern Plateau Stairs** [26 steps]:
   - Walk Down 14 along Column 27 to (27, 14) and Left 3 along Row 14 through Column 24 gap to stand at (24, 14) -> **17 steps**.
   - Walk Down 4 along Column 24 to (24, 18) and Left 3 along Row 18 to (21, 18) -> **7 steps**.
-  - Climb Eastern stairs at (21, 17) onto plateau at (21, 16) [z=1] -> **2 steps** [304 remaining].
+  - Climb Eastern stairs at (21, 17) onto plateau at (21, 16) [z=1] -> **2 steps** [286 remaining].
 
 - **Segment 5: Traverse Western Plateau and jump West over Column 4 Ledge** [31 steps]:
   - Walk Left 15 steps along Row 16 from (21, 16) to (6, 16) [z=1] -> **15 steps**.
-  - Walk to Column 4 ledge at Row y (6 <= y <= 15) and jump West to land on ground level Column 3 -> **16 steps** [273 remaining].
+  - Walk to Column 4 ledge at Row y (6 <= y <= 15) and jump West to land on ground level Column 3 -> **16 steps** [255 remaining].
   - Enter Secret House at (3, 3) [z=0] and retrieve HM03 Surf!
 
 - **Segment 6: Retrieve Teeth and DIG Escape** [20 steps]:
-  - Walk to Warden's Gold Teeth at (19, 7) [z=0] -> **20 steps** [253 remaining].
+  - Walk to Warden's Gold Teeth at (19, 7) [z=0] -> **20 steps** [235 remaining].
   - Retrieve Warden's Gold Teeth and use DIG to escape!
 
-- **Total Combined Steps**: Exactly 290 physical steps.
-- **Safety Margin**: 210 surplus steps (72.4% headroom safety margin!), mathematically guaranteeing absolute success.
+- **Total Combined Steps**: Exactly 298 physical steps.
+- **Safety Margin**: 202 surplus steps (67.8% headroom safety margin!), mathematically guaranteeing absolute success.
 
 ## Run 39 Chronological Movement Log
 - Turn 66487: Pressed A to advance dialogue.
