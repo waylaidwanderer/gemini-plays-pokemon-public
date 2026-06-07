@@ -3504,24 +3504,31 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
-# Safari Zone West Exploration - Run 42 (Turn 68745 - Active)
-- **Current Status**: Standing at (1, 12) on ground level in Safari Zone North on Turn 68745.
+# Safari Zone West Exploration - Run 43 (Turn 68756 - Active)
+- **Current Status**: Standing at (19, 28) in Fuchsia City outside the Pokémon Center on Turn 68756, preparing to pay the ¥500 fee to start a fresh, fully optimized Run 43.
 - **Inventory Status**: 15/20 items.
-- **Run 42 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 100 steps.
-- **Money remaining**: ¥69,317 (paid ¥500 entry fee).
-- **Warp Pivot**: We have verified that there is no Northwest transition to West at (0, 12) due to a solid tree wall of TYPE_2889 on Column 0. The only transition to Safari Zone West is at the Southwest (9, 35) / (8, 35). Walking to (9, 35) takes 91 steps, which would leave us with only 9 steps in Safari Zone West. Therefore, we are executing a strategic DIG pivot to instantly return to Fuchsia City, where we will start a fresh, fully optimized Run 43 with 500 steps to secure both the Gold Teeth and Surf!
+- **Run 43 Starting Steps**: 500 steps.
+- **Current Steps Remaining**: 500 steps (not yet entered).
+- **Money remaining**: ¥69,317.
 
-## Active Campaign Plan (Run 42 Victory Route)
-We are currently executing the verified Safari Zone West Victory Route, which backtracks through Safari Zone North to access the Northwest ground quadrant on foot. 
-Our empirical testing on Turn 68472 conclusively falsified the ground-level bypass via Column 2/3 (water blockage at Column 2 Row 13). Because Koga's Western Plateau is physically split in the middle (impassable cliff wall at Column 10 Rows 6-8 and Column 14 Rows 9-14), it is impossible to traverse directly from West-to-East or East-to-West on the plateau level (z=1). Thus, backtracking via Safari Zone North is strictly required to reach the Secret House.
-
-### Step-by-Step Backtrack Victory Route:
-1. **West to North (Backtrack Entrance)**: Walked Up from (25, 12) to (25, 6) [6 steps], Up 4 to (25, 2) [collided with tree at (25, 1) and stopped at (25, 2)] [4 steps], Right 1 and Up 2 along Column 26 to (26, 0) [3 steps], and Up 1 to transition to Safari Zone North at (8, 35) [1 step] -> **14 steps total** (COMPLETED, Turn 68543).
-2. **North Corridor Traversal**: Walk across Safari Zone North from (8, 35) to the Northwest transition to West at (0, 31) -> **41 steps**.
-3. **North to West Transition**: Transition back to Safari Zone West ground level (z=0) Northwest plains at (3, 15) -> **1 step**.
-4. **Secret House & teeth Campaign**: Walk to Secret House door at (3, 3) and speak to resident to get HM03 Surf. Exit and walk to (19, 7) to retrieve Warden's Gold Teeth.
-5. **Warp Home**: Use DIG to warp back to Fuchsia City!
+## Active Campaign Plan (Run 43 Victory Route)
+We are executing a fully optimized Run 43 ground-to-plateau dual retrieval.
+1. **Walk to Gatehouse**: From (19, 28), walk to the first cuttable bush at (18, 19). Standing at (18, 20), use CUT to clear the bush.
+2. **First Corridor Traversal**: Walk Up to (16, 11). Standing at (16, 12), use CUT to clear the second bush.
+3. **Safari Entrance**: Walk to (18, 3) and enter the Safari Zone Gatehouse.
+4. **Register**: Pay ¥500, enter Safari Zone Center (Map 0_220) at (15, 25) with a full 500-step budget.
+5. **Center to East Transition**: Walk to the East transition at (29, 11) in Safari Zone Center -> **28 steps**.
+6. **East Corridor Traversal**: Transition to East (Map 0_217) at (0, 23). Walk and climb Southern stairs at (20, 21), cross plateau, descend Western stairs at (12, 22), bypass tall grass (9, 9) via Column 9 corridor, climb northern stairs at (12, 7) onto high plateau at (12, 6), cross to East (21, 6), descend to ground, walk along Row 3 to the West, and transition to Safari Zone North at (39, 31) -> **40 steps**.
+7. **North Corridor Traversal**: Transition to North (Map 0_218) at (39, 31). Walk along Row 31 to (28, 31), climb Eastern stairs at (28, 27) [climbing from (28, 28)] onto plateau, descend Western stairs at (16, 27) [descending to (16, 28)], walk to Column 9 Row 30, and walk Down along Column 9 to transition to Safari Zone West at (26, 0) / (27, 0) -> **40 steps**.
+8. **West Quad Double-Retrieval**: 
+   - Transition to West (Map 0_219) at (26, 0) [z=0].
+   - Walk to Eastern stairs at (21, 17) [climbing from (21, 18)].
+   - Climb UP to Koga's Eastern Plateau at (21, 16) [z=1].
+   - Walk to (18, 9) [z=1] and step Right to jump down the ramp to (19, 9) [z=0] directly into the Northwest ground quadrant.
+   - Walk Up/Left to the Gold Teeth at (19, 7) and retrieve them!
+   - Walk West 16 steps along the Row 5 ground-level corridor, and walk Up to enter the Secret House at (3, 3) to get HM03 Surf!
+   - Total steps used in West: ~35 steps. Total steps used across entire run: ~143 steps (out of 500), leaving a massive surplus of ~357 steps inside the Secret House!
+9. **Warp Home**: Use DIG to warp back to Fuchsia City!
 
 ## Chronological Movement Log (Run 42)
 - Turn 68118: Entered Safari Zone Center (Map 0_220) at (15, 25) with a starting budget of 500 steps.
