@@ -3505,11 +3505,11 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration - Run 44 (Turn 69624 - Active)
-- **Current Status**: Standing at (2, 20) in Safari Zone West on Turn 69624 on ground level [z=0], facing Left, in a wild battle against Exeggcute.
+- **Current Status**: Standing at (2, 14) in Safari Zone West on Turn 69659 on ground level [z=0], facing Left, with ~219 steps remaining.
 - **Inventory Status**: 15/20 items, 30 Safari Balls.
 - **Run 44 Start Turn**: Turn 69460 (June 7, 2026, 9:31 AM)
 - **Run 44 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 236 steps.
+- **Current Steps Remaining**: ~219 steps.
 - **Money remaining**: ¥68,317.
 
 ## Active Campaign Plan (Run 44 Detour Route)
@@ -3521,13 +3521,12 @@ We are executing a fully optimized Run 44 ground-to-plateau detour to retrieve t
 5. **Plateau Descent**: Complete! (Descended Koga's Western stairs to 16, 28, and walked Left to 12, 28).
 6. **Bypass Water Lakes**: Complete! (Walked to 9, 30, and Down to transition at 27, 0 in West with 290 steps remaining).
 7. **Retrieve Gold Teeth & Surf**:
-   - Climb Eastern Plateau Stairs at (21, 17) to reach (21, 16) [z=1]: Complete! (Standing on 21, 16 with 259 steps remaining).
-   - Traverse Koga's bridge (Current): Walk Left 15 steps along Row 16 from (21, 16) to (6, 16) [z=1], and Down 3 steps along Column 6 to Koga's Western stairs at (6, 19) [z=1].
-   - Plateau Descent: Walk Down 1 step to descend Koga's Western stairs to (6, 20) [z=0] on ground level.
-   - Walk the ground detour past Rest House 3: Walk Left 4 steps along Row 20 to (2, 20), Up 6 along Column 2 to (2, 14), Right 11 along Rows 14-12 to (13, 12), Up 2 to (13, 10), Left 3 to (10, 10), and Up 1 to stand at Koga's Western-West Plateau stairs at (10, 9) [z=0].
-   - Western-West Plateau & Ledge Jump: Climb stairs at (10, 9) [z=0] to reach (10, 8) [z=1], walk Left 6 steps on Row 8 to (4, 8) [z=1], and walk Left 1 step to jump West over the Column 4 ledge onto ground level at (3, 8) [z=0] in the Northwest quadrant.
-   - Retrieve Gold Teeth: Walk Up 1 to (3, 7) [z=0], walk Right 16 steps along Row 7 ground corridor to stand on the Gold Teeth at (19, 7) [z=0], and pick them up!
-   - Reach Secret House: Walk Left 16 steps back to (3, 7) [z=0], and walk Up 4 steps along Column 3 to enter the Secret House at (3, 3) [z=0] and obtain HM03 Surf!
+   - Backtrack to (6, 20) [z=0]: Walk Down 6 steps along Column 2 to (2, 20) [z=0], and Right 4 steps along Row 20 to Koga's Western stairs at (6, 20) [z=0] (completely grass-free).
+   - Climb Western Plateau Stairs UP: Walk Up 2 steps to climb Western stairs to (6, 18) [z=1], and Up 2 steps along Column 6 to (6, 16) [z=1].
+   - Traverse Koga's bridge: Walk Right 11 steps along Row 16 from (6, 16) to (17, 16) [z=1].
+   - Traverse checkered ramp: Walk Up 11 steps along Column 17 from (17, 16) [z=1] to transition to ground level at (17, 5) [z=0].
+   - Retrieve Gold Teeth: Walk Right 2 steps along Row 5 to (19, 5) [z=0], and Down 2 steps to pick up the Gold Teeth at (19, 7) [z=0].
+   - Reach Secret House: Walk Up 2 steps to (19, 5), Left 16 steps along Row 5 to (3, 5) [z=0], and Up 2 steps along Column 3 to enter the Secret House at (3, 3) and obtain HM03 Surf!
 8. **Warp Home**: Use DIG to warp back to Fuchsia City!
 
 ## Chronological Overworld Log (Run 44)
