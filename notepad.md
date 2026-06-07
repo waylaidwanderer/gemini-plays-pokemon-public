@@ -5790,5 +5790,9 @@ This route avoids almost all tall grass and has an extremely high success rate.
 
 ## Chronological Overworld Log (Run 46)
 - **Turn 70404**: Standing at (19, 28) in Fuchsia City. Warped from Safari Zone North using Blastoise's DIG on Turn 70403 to reset our steps. Ready to walk to the Safari Zone Gatehouse.
+## Eastern Corridor Hypothesis & Verification
+- **Hypothesis**: The far eastern corridor (Columns 34-39) of Fuchsia City is completely open and passable going North all the way to Row 13, allowing us to bypass the houses and fences on foot without CUT.
+- **Verification Method**: We will walk to Column 35 on Row 30 and walk North, documenting each tile's coordinates and passability to systematically prove or disprove this corridor.
+- **Turn 70482**: Currently standing at (24, 28) facing Down. Bounded by the one-way ledge on the West. Row 30 is completely clear to the right. We will walk to (35, 30) to test the hypothesis.
 
 <hr>
