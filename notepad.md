@@ -3503,8 +3503,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
-# Safari Zone West Exploration - Run 39 (Turn 66839 - Active)
-- **Current Status**: Standing on the Western Plateau at (15, 10) [z=1] in Safari Zone West (Map 0_219) on Turn 66839 with exactly 214 remaining steps. Walking to (11, 10) [z=1] to test Koga's final remaining untested West-facing ledge candidate!
+# Safari Zone West Exploration - Run 39 (Turn 66874 - Active)
+- **Current Status**: Standing on the Western Plateau at (15, 10) [z=1] in Safari Zone West (Map 0_219) on Turn 66874 with exactly 214 remaining steps. Backtracked to test Row 10 Column 14 and bumped, proving Row 10 is blocked. We are routing back to the Western Stairs at (6, 19) to descend and re-test Column 3 Row 13 ground-level passability!
 - **Inventory Status**: 15/20 items.
 - **Run 39 Starting Steps**: 500 steps.
 - **Current Steps Remaining**: 214 steps.
