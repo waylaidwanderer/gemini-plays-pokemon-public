@@ -3588,6 +3588,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 66533: Ran 'safari_navigator_agent' to synchronize coordinates and steps (2 steps used, 435 remaining).
 - Turn 66539: Walked Left 3 steps along Row 22 from (12, 22) to stand on ground level at (9, 22) on Turn 66541 (3 steps used, 432 remaining).
 - Turn 66541: Ran 'safari_navigator_agent' to synchronize coordinates and steps (3 steps used, 432 remaining).
+- Turn 66544: Walked Up 12 steps along Column 9 from (9, 22) to stand on ground level at (9, 10) on Turn 66545 (12 steps used, 420 remaining).
+- Turn 66545: Ran 'safari_navigator_agent' to synchronize coordinates and steps (12 steps used, 420 remaining).
 
 <hr>
 
