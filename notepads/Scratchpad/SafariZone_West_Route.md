@@ -193,3 +193,16 @@
 - Turn 66927: Pressed Start to open overworld menu on Turn 66928 (0 steps used, 186 remaining).
 - Turn 66928: Navigated to POKéMON and pressed A to open party screen on Turn 66929 (0 steps used, 186 remaining).
 - Turn 66930: Pressed A on GEMMY to open his action menu on Turn 66931 (0 steps used, 186 remaining).
+- Turn 66931: Selected DIG from Gemmy's action menu to warp back to Fuchsia City, spawning at (19, 28) outside the Pokémon Center.
+- Turn 66935: Walked Left 5 steps horizontally along Row 28 to (14, 28).
+- Turn 66949: Walked Left 4 steps horizontally along Row 28 to (10, 28).
+- Turn 66958: Walked Left 6 steps horizontally along Row 28 to (4, 28).
+- Turn 66959: Walked Left 3 steps horizontally along Row 28 to (1, 28).
+- Turn 66967: Walked Up 10 steps vertically along Column 1 to stand at (1, 18).
+- Turn 66971: Walked Down 10 steps vertically along Column 1 to stand at (1, 28) after discovering Row 15 is blocked by a solid wall of trees.
+- Turn 66972: Walked Down 4 steps along Column 1 from (1, 28) to stand at (1, 32).
+- Turn 66976: Walked Right 10 steps horizontally along Row 32, bumping on the 8th step against the solid building wall at (10, 32) and remaining at (9, 32).
+- Turn 66977: Walked Left 1 step to Column 8 at (8, 32), and walked Up 4 steps vertically through the horizontal ledge gap at (8, 31) to stand on the main street at (8, 28).
+- Turn 66980: Walked Right 10 steps horizontally along Row 28 from (8, 28) to stand at (18, 28).
+- Turn 66981: Walked Right 6 steps horizontally along Row 28 to stand at (23, 28) and jump East over the vertical ledge to land on the eastern street at (24, 28).
+- Turn 66982: Walked Up 8 steps vertically along Column 24 from (24, 28) to stand on ground level at (24, 20).
