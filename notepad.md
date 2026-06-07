@@ -5752,12 +5752,13 @@ We are navigating to Safari Zone West via the Eastern Ground Corridor of Safari 
    - Walk grass-free southwest corridor to transition to West at (27, 0) [z=0].
 
 3. **Traverse Safari Zone West**:
-   - Walk to (25, 18) [z=0], and Left-Up to Koga's Eastern stairs at (21, 18) [z=0].
-   - Climb UP Koga's Eastern stairs to (21, 16) [z=1].
-   - Traverse Koga's bridge along Row 16 to (16, 16) [z=1].
-   - Walk UP Column 16 to (16, 9) [z=1] and jump East (Right) over Column 17 vertical ramp to land at (18, 9) [z=0].
-   - Retrieve Warden's Gold Teeth at (19, 7) [z=0].
-   - Walk to Secret House at (3, 3) [z=0] and get HM03 Surf!
+   - Walk to (13, 12) [z=0] on ground level.
+   - Walk Up through Column 13 under the roof overhang at (13, 11) and (13, 10) to (13, 9) [z=0].
+   - Walk Left along Row 9 to (10, 9) [z=0].
+   - Climb Koga's Western-West Plateau stairs at (10, 9) to (10, 8) [z=1].
+   - Walk Left 6 steps along Row 8 to (4, 8) [z=1], and Left 1 step to jump over the Column 4 ledge onto (3, 8) [z=0].
+   - Walk Up 1 step to (3, 7) [z=0], and Right 16 steps along Row 7 to (19, 7) [z=0] to stand on the Warden's Gold Teeth and pick them up.
+   - Walk back to (3, 7) [z=0] and walk Up 4 steps along Column 3 to enter the Secret House at (3, 3) [z=0] to obtain HM03 Surf!
 
 ## Chronological Overworld Log (Run 45)
 - **Turn 70001**: Paid ¥500 entry fee to Gatekeeper at (1, 4) from (3, 2) in Gatehouse and entered Safari Zone Center at (15, 25) [500 steps remaining].
