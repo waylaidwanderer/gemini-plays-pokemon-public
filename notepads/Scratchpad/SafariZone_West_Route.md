@@ -1,8 +1,8 @@
-# Safari Zone West Exploration - Run 39 (Turn 66959 - Active)
-- **Current Status**: Standing on ground level at (4, 28) [z=0] in Fuchsia City (Map 0_7) on Turn 66959 with exactly 175 remaining steps. Ready to walk Left to Column 1 to walk Up around the Gym to reach the Gatehouse to begin Run 40!
+# Safari Zone West Exploration - Run 39 (Turn 66961 - Active)
+- **Current Status**: Standing on ground level at (1, 28) [z=0] in Fuchsia City (Map 0_7) on Turn 66961 with exactly 172 remaining steps. Ready to walk Up Column 1 and Right Row 3 to re-enter Safari Zone Gatehouse to start Run 40!
 - **Inventory Status**: 15/20 items.
 - **Run 39 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 175 steps.
+- **Current Steps Remaining**: 172 steps.
 - **Money remaining**: ¥70,817.
 
 ## Master Run 39 Campaign Plan (Double-Retrieval Route)
