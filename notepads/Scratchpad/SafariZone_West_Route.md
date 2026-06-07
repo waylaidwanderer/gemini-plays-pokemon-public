@@ -1,8 +1,8 @@
-# Safari Zone West Exploration - Run 39 (Turn 66920 - Active)
-- **Current Status**: Standing on ground level at (3, 18) [z=0] in Safari Zone West (Map 0_219) on Turn 66920 with exactly 190 remaining steps. Ready to walk Up Column 3 and test Column 3 Row 13 passability!
+# Safari Zone West Exploration - Run 39 (Turn 66921 - Active)
+- **Current Status**: Standing on ground level at (3, 14) [z=0] in Safari Zone West (Map 0_219) on Turn 66921 with exactly 186 remaining steps. Ready to walk Up Column 3 and test Column 3 Row 13 passability!
 - **Inventory Status**: 15/20 items.
 - **Run 39 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 190 steps.
+- **Current Steps Remaining**: 186 steps.
 - **Money remaining**: ¥70,817.
 
 ## Master Run 39 Campaign Plan (Double-Retrieval Route)
