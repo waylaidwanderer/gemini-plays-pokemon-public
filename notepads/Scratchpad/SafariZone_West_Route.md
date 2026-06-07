@@ -1,5 +1,5 @@
-# Fuchsia City Gatehouse Routing - Turn 66965 (Active)
-- **Current Status**: Standing on ground level at (1, 28) [z=0] in Fuchsia City (Map 0_7) on Turn 66965. Ready to walk Up Column 1 and Right Row 3 to re-enter Safari Zone Gatehouse to start Run 40!
+# Fuchsia City Gatehouse Routing - Turn 66991 (Active)
+- **Current Status**: Standing on ground level at (24, 20) [z=0] in Fuchsia City (Map 0_7) on Turn 66991. Ready to walk Left 6 steps on Row 20 to (18, 20) and CUT the bush at (18, 19).
 - **Inventory Status**: 15/20 items.
 - **Money remaining**: ¥70,817.
 
