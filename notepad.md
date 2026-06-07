@@ -4998,24 +4998,24 @@ We analyzed why we bumped at Column 23 on Rows 14-15 and verified that symmetric
 - **Physical Explanation**: Even though (21, 13) is clear green grass on the map, it is at ground level (z=0) while (21, 14) is on Koga's elevated Eastern Plateau (z=1). In Gen 1, this elevation difference acts as a solid north-facing horizontal cliff wall at Row 14, blocking all vertical traversal. Since there are no stairs or jump-down ledges on Columns 18-22 at Row 14, we cannot step north off Koga's Eastern Plateau onto ground level.
 - **Traversability Restrictions**: This height mismatch completely blocks any northern progression from Koga's Eastern Plateau. It restricts Koga's Eastern Plateau to a complete dead end at plateau level (z=1). Direct northern traversal on foot is completely impossible.
 
-## 3. Socratic Question 3 (Koga's Western-West Plateau Column 4 Access)
-- **Continuous Column 4 Plateau Access**: Since the ground detour past Rest House 3 is blocked by Column 13 Row 11 building walls, the Eastern Plateau is blocked to the north by Row 14 cliffs, and the Column 17 vertical ramp is vertically blocked at Row 13, Koga's Column 4 continuous plateau vertical strip (Rows 8-18) is the ONLY unblocked pathway to Koga's Western-West Plateau at z=1.
-- **Planned Detour Route**:
-  1. Walk Left 6 steps along Row 16 from Koga's bridge at (10, 16) [z=1] to (4, 16) [z=1].
-  2. Walk Up 8 steps along Column 4 from (4, 16) to (4, 8) [z=1].
-  3. Walk Left 1 step from (4, 8) [z=1] to jump West (Left) over the Column 4 ledge onto ground level at (3, 8) [z=0] in the Northwest quadrant.
-  4. Walk Up 1 step to (3, 7) [z=0].
-  5. Walk Right 16 steps along the Row 7 ground corridor to stand on the Warden's Gold Teeth at (19, 7) [z=0] and pick them up.
-  6. Walk Left 16 steps along Row 7 from (19, 7) [z=0] back to (3, 7) [z=0].
-  7. Walk Up 4 steps along Column 3 to enter the Secret House at (3, 3) [z=0] and obtain HM03 Surf!
+## 3. Socratic Question 3 (Koga's Western-West Plateau Ground Detour via Column 13)
+- **Verified Ground Detour**: Since our physical tests on Turns 69881 and 69886 proved Koga's Column 4 is a solid cliff wall at z=1, Koga's Western-West Plateau (Columns 4-10) is completely isolated from the Southern bridge at plateau level. Therefore, backtracking Down the western stairs to execute the ground detour past Rest House 3 via Column 13 is strictly mandatory.
+- **Unblocked Passage via Column 13**: Rest House 3 spans Columns 10-12 on Rows 10-12. Column 13 on Rows 10-11 is open, passable grass (TYPE_3fe2) on ground level z=0! This is the ONLY valid ground-level vertical corridor past the East side of Rest House 3.
+- **Detour Route from (5, 18) [z=1]**:
+  1. Descend Western Stairs to Ground: Right 1 to (6, 18), Down 2 to (6, 20) [z=0] [3 steps].
+  2. Walk Southwest Grass corridor: Left 4 to (2, 20), Up 6 to (2, 14), Right 8 to (10, 14) [18 steps].
+  3. Walk Column 13 Bypass around Rest House: Up 1 to (10, 13), Right 3 to (13, 13), Up 1 to (13, 12), Up 2 to (13, 10), Left 3 to (10, 10), Up 1 to climb Western-West stairs at (10, 9) to (10, 8) [z=1] [11 steps].
+  4. Cross Plateau and Jump Ledge: Left 6 along Row 8 on plateau to (4, 8) [z=1], Left 1 to jump West over Column 4 ledge onto ground at (3, 8) [z=0] [7 steps].
+  5. Retrieve Gold Teeth and HM03 Surf: Up 1 to (3, 7), Right 16 along Row 7 ground corridor to stand adjacent to Gold Teeth at (19, 7) [z=0] and pick them up [17 steps]. Left 16 along Row 7 ground corridor back to (3, 7), Up 4 along Column 3 to enter Secret House at (3, 3) [z=0] [20 steps].
 - **Step-by-Step Step Counter Math**:
-  - Current steps remaining standing at (10, 16) [z=1]: **184 steps**.
-  - Segment 1 (Walk to Column 4 at (4, 16) [z=1]): 6 steps. Remaining: 184 - 6 = **178 steps**.
-  - Segment 2 (Climb Column 4 to (4, 8) [z=1]): 8 steps. Remaining: 178 - 8 = **170 steps**.
-  - Segment 3 (Jump ledge to (3, 8) [z=0] and step to (3, 7)): 2 steps. Remaining: 170 - 2 = **168 steps**.
-  - Segment 4 (Retrieve teeth at (19, 7)): 16 steps. Remaining: 168 - 16 = **152 steps**.
-  - Segment 5 (Reach Secret House at (3, 3)): 16 + 4 = 20 steps. Remaining: 152 - 20 = **132 steps**.
-- **Feasibility Confirmation**: This detour consumes exactly **52 physical steps** in total. Since we have 184 steps remaining and only 52 steps are needed to reach the Secret House, the route is 100% mathematically feasible and we will have **132 steps remaining** inside the Secret House when we secure HM03 Surf! This leaves an extremely generous buffer of 132 steps for any tall grass wild encounters or minor deviations.
+  - Current steps remaining standing at (5, 18) [z=1]: **184 steps**.
+  - Segment 1 (Descend to (6, 20) [z=0]): 3 steps. Remaining: 184 - 3 = **181 steps**.
+  - Segment 2 (Walk to (10, 14) [z=0]): 18 steps. Remaining: 181 - 18 = **163 steps**.
+  - Segment 3 (Bypass Rest House to (10, 8) [z=1]): 11 steps. Remaining: 163 - 11 = **152 steps**.
+  - Segment 4 (Jump ledge to (3, 8) [z=0]): 7 steps. Remaining: 152 - 7 = **145 steps**.
+  - Segment 5 (Retrieve Teeth at (19, 7)): 17 steps. Remaining: 145 - 17 = **128 steps**.
+  - Segment 6 (Reach Secret House at (3, 3)): 20 steps. Remaining: 128 - 20 = **108 steps**.
+- **Feasibility Confirmation**: This ground detour consumes exactly **76 physical steps** in total. Since we have 184 steps remaining and only 76 steps are needed to reach the Secret House, the route is 100% mathematically feasible and we will have **108 steps remaining** inside the Secret House when we secure HM03 Surf! This leaves an extremely generous buffer of 108 steps for any tall grass wild encounters or minor deviations.
 
 <hr>
 
