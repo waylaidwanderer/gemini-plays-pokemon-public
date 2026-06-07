@@ -400,17 +400,23 @@
 # Socratic Answers - Run 45 Plateau Descent & True Northern Transition (Turn 70111)
 
 ## 1. Socratic Question 1 (Safari Zone East Column 22 Descent)
-- **Why walking Down past the Row 16 boundary transitions our elevation to z=0**: The eastern plateau's southern boundary on Column 22 ends at Row 16, which features a south-facing jump-down cliff face. In Gen 1, walking south over a south-facing cliff face transitions the player's elevation from the plateau level (z=1) to ground level (z=0) automatically.
-- **Current Position Verification**: Because we walked Down 4 steps from (22, 14) [z=1] to (22, 18), we crossed this cliff face and jumped down to ground level. We are now physically standing on ground level (z=0) at (22, 18) and cannot climb back onto the plateau without using a staircase.
+- **Descent Mechanics**: Standing at (22, 14) on the plateau level (elevation z=1), Column 22 is a continuous, unblocked vertical corridor of TYPE_2770 (plateau) extending South all the way to Row 20. There is no horizontal cliff face or south-facing ledge on Row 16 on Column 22. Walking Down 4 steps from (22, 14) successfully transitions us to (22, 18) entirely on the plateau level (z=1). No cliff face was jumped, and our elevation remained at plateau level (z=1) during this movement. This was empirically verified on Turn 70118 by successfully walking Left onto (21, 18) [z=1], which is a flat plateau tile.
+- **Elevation and Passability Verification**: Column 22 on Rows 14 to 20 consists entirely of elevated plateau tiles (z=1). We remain at elevation z=1 when standing at (22, 18).
 
 ## 2. Socratic Question 2 (The True Ground-Level Northern Transition)
-- **Path from Current Position (22, 18) [z=0] to Safari Zone North Transition**:
-  1. Walk Right 3 steps along Row 18 from (22, 18) to (25, 18) [z=0] [3 steps].
-  2. Walk Up 15 steps along Column 25 from (25, 18) to (25, 3) [z=0] [15 steps].
-  3. Walk Left 25 steps along Row 3 from (25, 3) to (0, 3) [z=0] to transition into Safari Zone North [25 steps].
+- **Path from Current Position (22, 18) [z=1] to Safari Zone North Transition**:
+  - Because Row 18 is a continuous plateau horizontal crossover below the central lake (spanning Columns 11-22), we can walk Left across the plateau to the western side:
+    1. Walk Left 10 steps along Row 18 from (22, 18) to reach the Western Plateau at (12, 18) [z=1] [10 steps].
+    2. Walk Down 3 steps along Column 12 to the stairs top at (12, 21) [z=1] [3 steps].
+    3. Walk Down 1 step to descend Koga's Western stairs, landing on ground level at (12, 22) [z=0] [1 step].
+    4. Walk Left 3 steps along Row 22 to reach Column 9 at (9, 22) [z=0] [3 steps].
+    5. Walk Up 19 steps vertically along Column 9 to (9, 3) [z=0] [19 steps].
+    6. Walk Left 9 steps along Row 3 to (0, 3) [z=0] [9 steps] to transition into Safari Zone North.
 - **Step-by-Step Step Counter Math**:
-  - Starting steps at (22, 18) [z=0]: **433 steps remaining**.
-  - Step 1 (Reach (25, 18)): 433 - 3 = **430 steps remaining**.
-  - Step 2 (Reach (25, 3)): 430 - 15 = **415 steps remaining**.
-  - Step 3 (Transition to North at (0, 3)): 415 - 25 = **390 steps remaining**.
-- **Feasibility & Grass-Free Status**: This path is completely open, unblocked, and 100% grass-free, meaning there is a **0% wild encounter risk** for the entire journey! We will transition to Safari Zone North with exactly **390 steps remaining**, guaranteeing a massive step surplus.
+  - Starting steps at (22, 18) [z=1]: **433 steps remaining**.
+  - Walk to (12, 18) [z=1]: 433 - 10 = **423 steps remaining** (note: we actually did 1 step Left to (21, 18) and then 9 steps Left to (12, 18) to verify elevation, consuming 10 steps).
+  - Walk to (12, 22) [z=0] (stairs base): 423 - 4 = **419 steps remaining** (note: we actually did Down 4 from (12, 18) to (12, 22)).
+  - Walk to (9, 22) [z=0] (Column 9): 419 - 3 = **416 steps remaining** (note: we actually did Left 3 to (9, 22)).
+  - Walk Up Column 9 to (9, 3) [z=0]: 416 - 19 = **397 steps remaining**.
+  - Walk Left to (0, 3) [z=0]: 397 - 9 = **388 steps remaining**.
+- **Grass-Free & Unblocked Status**: Row 18 of the plateau crossover, the Western stairs, and Row 22 are completely grass-free, assuring a **0% wild encounter risk** for this entire segment of the detour. Column 9 ground-level corridor has a tiny segment of tall grass (Rows 11-14) which is easily navigated. We will enter Safari Zone North with exactly **388 steps remaining**, ensuring a highly optimal and successful traverse.
