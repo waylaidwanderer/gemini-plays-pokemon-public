@@ -1,8 +1,8 @@
 # Safari Zone West Exploration - Run 41 (Turn 67789 - Active)
-- **Current Status**: Standing at (5, 16) on Koga's plateau bridge in Safari Zone West (Map 0_219) on Turn 67789.
+- **Current Status**: Standing at (10, 14) [z=0] on the ground in Safari Zone West (Map 0_219) on Turn 67796. We have successfully bypassed Koga's Western Plateau on foot.
 - **Inventory Status**: 15/20 items.
 - **Run 41 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 189 steps.
+- **Current Steps Remaining**: 173 steps.
 - **Money remaining**: ¥69,817.
 
 ## Active Campaign Plan (From current position (11, 8))
