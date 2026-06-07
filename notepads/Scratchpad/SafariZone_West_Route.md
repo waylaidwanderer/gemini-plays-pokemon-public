@@ -6,12 +6,7 @@
 - **Money remaining**: ¥69,817.
 
 ## Active Campaign Plan (Inside Rest House 3 and Ground Route to North)
-1. **Talk to NPCs**: Talk to the wanderer, youngster, and scientist inside Rest House 3 (Map 0_223) to confirm dialogue.
-2. **Exit Rest House 3**: Exit to (11, 12) [z=0] in Safari Zone West.
-3. **Traverse newly discovered Ground Corridor**:
-   - Walk to (10, 14) [z=0].
-   - Walk Right 3 steps to (13, 14) [z=0].
-   - Walk Up 7 steps along Column 13 to stand at (13, 7) [z=0] in the northern plains.
+3. **Exit Rest House 3**: Exit to (11, 12) [z=0] in Safari Zone West.
 4. **Retrieve Warden's Gold Teeth**: Walk East to (19, 7) [z=0] and retrieve Gold Teeth.
 5. **Retrieve HM03 Surf**: Walk West along the northern corridor to stand at (3, 3) [z=0], enter Secret House (Map 0_224), and obtain Surf!
 
