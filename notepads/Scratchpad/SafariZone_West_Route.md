@@ -1,8 +1,8 @@
-# Safari Zone West Exploration - Run 39 (Turn 66874 - Active)
-- **Current Status**: Standing on the Western Plateau at (15, 10) [z=1] in Safari Zone West (Map 0_219) on Turn 66874 with exactly 214 remaining steps. Backtracked to test Row 10 Column 14 and bumped, proving Row 10 is blocked. We are routing back to the Western Stairs at (6, 19) to descend and re-test Column 3 Row 13 ground-level passability!
+# Safari Zone West Exploration - Run 39 (Turn 66881 - Active)
+- **Current Status**: Standing on the Western Plateau stairs at (6, 19) [z=1] in Safari Zone West (Map 0_219) on Turn 66881 with exactly 196 remaining steps. Ready to descend to ground level and test Column 3 Row 13 passability!
 - **Inventory Status**: 15/20 items.
 - **Run 39 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 214 steps.
+- **Current Steps Remaining**: 196 steps.
 - **Money remaining**: ¥70,817.
 
 ## Master Run 39 Campaign Plan (Double-Retrieval Route)
