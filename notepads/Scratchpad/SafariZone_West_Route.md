@@ -170,3 +170,5 @@
 - Turn 66816: Walked Left 5 steps to test Row 10, bumping on Koga's cliff face at (14, 10) and remaining at (15, 10) on Turn 66817 (1 step used, 214 remaining).
 - Turn 66850: Pressed Left from (15, 10) to verify Row 10 blockage, bumping against (14, 10) and remaining at (15, 10) on Turn 66851 (0 steps used, 214 remaining).
 - Turn 66865: Ran 'safari_navigator_agent' to synchronize coordinates and steps (214 remaining).
+- Turn 66880: Walked Down 6, Left 9, Down 3 to Western Stairs at (6, 19) [z=1] on Turn 66881 (18 steps used, 196 remaining).
+- Turn 66881: Ran 'safari_navigator_agent' to synchronize coordinates and steps (196 remaining).
