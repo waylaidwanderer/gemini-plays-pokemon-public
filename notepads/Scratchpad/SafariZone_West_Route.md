@@ -1,9 +1,9 @@
 # Safari Zone West Exploration - Run 43 (Turn 68838 - Active)
-- **Current Status**: Standing at (28, 29) in Safari Zone North on Turn 68974, heading toward the Western Plateau stairs at (22, 23).
+- **Current Status**: Standing at (16, 27) in Safari Zone North on Turn 68999, heading toward the West Descent Stairs to transition to Safari Zone West.
 - **Inventory Status**: 15/20 items.
 - **Run 43 Start Turn**: Turn 68838 (June 7, 2026, 6:24 AM)
 - **Run 43 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 345 steps.
+- **Current Steps Remaining**: 321 steps.
 - **Money remaining**: ¥68,817.
 
 ## Active Campaign Plan (Run 43 Victory Route)
