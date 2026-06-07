@@ -9,14 +9,21 @@
 ## Run 45 Campaign Plan
 We are navigating to Safari Zone West via the Eastern Ground Corridor of Safari Zone East to retrieve the Gold Teeth and HM03 Surf.
 1. **Traverse Safari Zone East**:
-   - Walk from (0, 23) to (4, 23) [4 steps].
-   - Walk Down 1 step to (4, 24) [1 step].
-   - Walk Right 17 steps along Row 24 to reach (21, 24) [17 steps].
-   - Walk Up 21 steps along Column 21 to (21, 3) [21 steps].
-   - Walk Left 21 steps along Row 3 to (0, 3) [21 steps].
-   - Walk Left 1 step to transition into Safari Zone North at (39, 31) [1 step].
-   Total East steps = 4 + 1 + 17 + 21 + 21 + 1 = 65 steps.
-   Remaining steps at transition to North: 483 - 65 = 418 steps.
+   - Walk from (0, 23) to (20, 24) [18 steps].
+   - Walk to (21, 24) -> (21, 22) -> (22, 22) [encounter] -> (24, 22) [4 steps].
+   - Walk Up 5 steps along Column 24 to (24, 17) [5 steps].
+   - Climb stairs at (24, 15) to (24, 14) [z=1] [3 steps].
+   - Walk Left to (19, 14) [z=1] [5 steps, 2 bumps].
+   - Walk Right to (22, 14) [z=1] [3 steps].
+   - Walk Down to (22, 18) [z=1] [4 steps].
+   - Walk Left to (21, 18) [z=1] [1 step, 1 bump].
+   - Walk Left 9 steps to (12, 18) [z=1] [9 steps].
+   - Descend western stairs at (12, 21) to (12, 22) [z=0] [4 steps].
+   - Walk Left 3 steps to (9, 22) [z=0] [3 steps].
+   - Walk Up 19 steps to (9, 3) [z=0] [19 steps].
+   - Walk Left 9 steps along Row 3 to (0, 3) [z=0] to transition to Safari Zone North [9 steps].
+   Total East steps = 18 + 4 + 5 + 3 + 5 + 3 + 4 + 1 + 9 + 4 + 3 + 19 + 9 = 91 steps.
+   Remaining steps at transition to North: 483 - 91 = 392 steps.
 
 2. **Traverse Safari Zone North**:
    - From (39, 31), walk to Western Plateau stairs climb at (22, 23) [z=0].
