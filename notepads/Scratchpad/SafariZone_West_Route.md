@@ -206,6 +206,12 @@
 - Turn 66980: Walked Right 10 steps horizontally along Row 28 from (8, 28) to stand at (18, 28).
 - Turn 66981: Walked Right 6 steps horizontally along Row 28 to stand at (23, 28) and jump East over the vertical ledge to land on the eastern street at (24, 28).
 - Turn 66982: Walked Up 8 steps vertically along Column 24 from (24, 28) to stand on ground level at (24, 20).
+- Turn 66995: Walked Left 6 steps along Row 20 from (24, 20) to stand at (18, 20).
+- Turn 66996: Pressed Up to turn and face the cuttable bush at (18, 19).
+- Turn 66997: Pressed Start to open the start menu.
+- Turn 66998: Pressed A to open the POKéMON party screen.
+- Turn 67000: Moved cursor Down 5 times to select PETAL and pressed A to open action menu.
+- Turn 67002: Selected and used CUT to hack away the first bush at (18, 19).
 
 ## Run 40 Systematic Collision Testing Plan (Overwatch Resolution)
 To resolve the contradiction between the southwest ground isolation and the proposed open Row 18 ground pathway:
