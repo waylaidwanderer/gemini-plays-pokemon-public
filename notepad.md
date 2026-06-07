@@ -4793,6 +4793,33 @@ We analyzed why we bumped at Column 23 on Rows 14-15 and verified that symmetric
   - Walked Left 5 steps to (16, 16), Up 7 steps to (16, 9) [and bumped 3 times against (17, 9)]: uses 15 steps [remaining: 264].
   - This perfectly reconciles with our current step budget of **264 steps remaining** on Turn 69064.
 
+# Socratic Answers - Koga's Bridge & Plateau Traversability (Turn 69120)
+
+## 1. Socratic Question 1 (The Bridge North Cliff and Column 18 Elevation)
+- **Physical Configuration of Koga's Bridge (Rows 14-16, Columns 18-22)**: Koga's bridge extends horizontally on Rows 14, 15, and 16 across Columns 18-22 at plateau level z=1 (TYPE_2770). It acts as an elevated eastern finger of the plateau.
+- **Why Column 18 Rows 9-13 is Ground Level (z=0)**: Column 18 on Rows 9-13 consists of flat green grass (TYPE_3fe2) on ground level, which is lower than the elevated plateau finger.
+- **Why height mismatch prevents vertical walk Up**: Because we are standing on the elevated plateau level (z=1) at (18, 14), and Column 18 Row 13 is ground level (z=0), there is a solid north-facing horizontal cliff face separating the two elevations. In Gen 1, players cannot walk or jump up/down north-facing cliffs without stairs, resulting in a physical collision (bump) when attempting to walk Up from (18, 14) to (18, 13). This height mismatch completely blocks vertical progress along Column 18, meaning we cannot reach (18, 9) [z=1] from the south.
+
+## 2. Socratic Question 2 (Plateau Discontinuity & Traversability)
+- **Western Plateau Discontinuity**: Koga's Western Plateau is physically split in half on Rows 6-13. The Eastern section is Columns 11-16, and the Western section is Columns 4-10. These two halves are separated by a solid vertical cliff wall (TYPE_2889) at Column 11 and Column 14 on Rows 9-13, and a solid wall on Column 10 Rows 6-9, preventing direct horizontal traversal between them.
+- **Why Row 16 Bridge is the Only Connector**: Row 16 is Koga's horizontal bridge (z=1) extending from Column 5 to 22. It spans below the vertical cliff partition and provides the only continuous horizontal pathway connecting the Eastern and Western halves of the plateau.
+- **Planned Path from Current Position (6, 16) [z=1] to Northwest Ground Level (z=0)**:
+  1. Walk Down 2 to the Western Plateau stairs approach at (6, 18) [z=1].
+  2. Walk Down 1 to descend the stairs at (6, 19) to ground level at (6, 20) [z=0].
+  3. From (6, 20) [z=0], walk Left 4 to (2, 20) [z=0].
+  4. From (2, 20) [z=0], walk Up 6 to (2, 14) [z=0].
+  5. Wait, we must test if there is any other way past the lake, or if we can bypass it on Column 2/3. Since Column 2 Row 13 is blocked by water, we will walk Right 8 steps to Column 10 to check if we can walk Up past Column 10/11 on Row 13, which is green grass (TYPE_3fe2).
+  Let's walk down the stairs first to (6, 20) [z=0] and explore.
+
+## 3. Socratic Question 3 (Chronological Step-Budget Reconciliation)
+- **Turn 69120 Step-by-Step Reconciliation**:
+  - Turn 69072 starting steps at (17, 14): **254 steps remaining**.
+  - Walk Right 1 step to (18, 14) [Turn 69083]: uses 1 step [remaining: 253].
+  - Attempt to walk Up into (18, 13) [Turn 69075]: result: bumped [remaining: 253].
+  - Walk Down 2, Left 12 along Koga's bridge to (6, 16) [Turn 69119]: uses 14 steps [remaining: 239].
+  - Corrected remaining steps on Turn 69120: **239 steps remaining** in RAM.
+- **Movement History updated**: Missing chronological logs have been appended to 'Scratchpad/SafariZone_West_Route' to ensure perfect tracking accuracy.
+
 <hr>
 
 <h1><code>Reflection/Turn61585_Reflection</code></h1>
