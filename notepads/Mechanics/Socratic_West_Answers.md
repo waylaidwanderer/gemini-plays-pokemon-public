@@ -186,28 +186,50 @@
     - Step 6 (Retrieve Teeth at (19, 7) and enter Secret House at (3, 3)): 65 - 37 = **28 steps remaining**.
   - **Feasibility Confirmation**: Yes! 91 steps are mathematically required to execute this entire master route, which is less than our remaining 119 steps. We will have exactly **28 steps remaining** inside the Secret House when we secure HM03 Surf! This confirms that the route is 100% mathematically feasible.
 
-## Socratic Question 1 (Koga's Western-West Plateau Staircase Climb)
-- **Staircase Climb**: Koga's Western-West Plateau (Columns 4-10, Rows 6-13) is climbed on foot on the East side using the wooden staircase at (10, 9). Walking Up from (10, 9) [z=0] to (10, 8) [z=1] climbs onto the plateau.
-- **Ledge Jumps**: There is a West-facing jump-down ledge at Column 4 (Rows 6-13) that allows jumping Left from (4, y) [z=1] to (3, y) [z=0] on ground level in the Northwest quadrant.
-- **Why modeling transitions is vital**: Without modeling the stairs at (10, 9) and the Column 4 West-facing ledge jumps, the pathfinder thinks Koga's Western-West Plateau is isolated and unreachable, which completely cuts off the Northwest ground quadrant because Columns 11-14 are blocked by cliff walls on Rows 9-14 at ground level. Modeling these transitions allows the pathfinder to calculate the true 38-step path to the Northwest quadrant.
+## Socratic Question 1 (The Column 1 and Column 24 Ground Blockages)
+- **Physical Impossibility**: Walking Left across Column 24 on Row 0 and Up Column 1 on Rows 14 and 15 on ground level is physically impossible in the real game.
+- **Specific Obstacles**:
+  - Column 24 Row 0 is blocked by a solid tree wall of TYPE_2889 (part of the map's outer northern border of solid trees).
+  - Column 1 Rows 14 and 15 are solid, impassable tree walls of TYPE_2889 (empirically proven on Turn 46877/46882).
+  - Column 0 (all rows) is completely occupied by the map's western outer border (solid trees/cliffs of TYPE_2889) and is 100% impassable on foot.
+- **Pathfinder Failure**: Because these blockages were completely missing from our custom 'safari_pathfinder' database, the tool assumed Column 24 Row 0, Column 1 Rows 14-15, and Column 0 were completely open, passable clear grass. It thus generated a completely invalid 38-step path suggestion that immediately crashed into solid trees at Column 24 Row 0 or Column 1 Row 14/15.
 
-## Socratic Question 2 (Koga's Western-West Plateau Bridge Descent Ledge)
-- **Configuration**: The horizontal boundary between Koga's Western-West Plateau (Row 13 Columns 4-10) and the ground-level grass channel (Rows 14-15) is configured as a south-facing jump-down ledge.
-- **Traversability**: A player standing on the plateau at (5, 13) [z=1] CAN walk Down onto (5, 14) [z=0] by jumping down off the ledge. However, they CANNOT walk from (5, 13) [z=1] to (5, 16) [z=1] via Koga's bridge one-way because Row 14 and Row 15 are at ground level (z=0), causing a height mismatch that blocks vertical progress at plateau level.
+## Socratic Question 2 (The True Ground Bypass Route past Rest House 3)
+- **planned Path**: From our current position (10, 14) [z=0], Koga's bridge (Row 16 Columns 5-22) is elevated z=1 and behaves as a solid vertical wall at ground level z=0, blocking vertical movement. To walk around Koga's bridge and Rest House 3, we must take the following ground path:
+  1. Walk Right 3 steps along Row 14 to (13, 14) [z=0].
+  2. Walk Up 2 steps along Column 13 to (13, 12) [z=0] (this walks past the right side of the signpost at (12, 12) and Rest House door at (11, 12) on clear grass).
+  3. Walk Up 2 steps along Column 13 to (13, 10) [z=0] (this walks on Column 13 past Row 11, which provides the only valid ground-level passage past the Rest House).
+  4. Walk Left 3 steps along Row 10 to (10, 10) [z=0].
+  5. Walk Up 1 step to climb Koga's Western-West Plateau stairs at (10, 9).
+- **Configuration of Column 12 and 13**: Rest House 3 spans Columns 10-13 on Rows 10-12. Its door is at (11, 12) and signpost is at (12, 12) (TYPE_2889). Column 12 Row 11 is blocked by building wall. Column 13 is clear grass at Rows 12 and 13, and its building wall on Row 11 is passable or open on Column 13, making Column 13 the only valid ground-level vertical corridor past the East side of Rest House 3 since Column 14 is blocked by solid cliff walls.
 
 ## Socratic Question 3 (Chronological Step-Budget Reconciliation)
-- **Turn 69270 Step Reconciliation**:
-  - Turn 69150 starting steps at (2, 20) [z=0]: **231 steps remaining**.
-  - Walk Right 4 to (6, 20) [z=0] -> 227 remaining.
-  - Climb stairs to (6, 18) [z=1] -> 225 remaining.
-  - Walk Left 1, Up 3 to stand at (5, 16) [z=1] on Turn 69164 -> 221 remaining.
-  - Right 1, Up 1 (bumping) to (6, 16) [z=1] on Turn 69194 -> 219 remaining.
-  - Down 4 to (6, 20) [z=0] on Turn 69203 -> 215 remaining.
-  - Left 2 along Row 20 to (4, 20) on Turn 69209 -> 213 remaining.
-  - Right 2 to (6, 20) on Turn 69229 -> 211 remaining.
-  - Climb stairs to (6, 18) [z=1] on Turn 69230 -> 209 remaining.
-  - Up 2, Right 15 to (21, 16) [z=1] and Down 2 to (21, 18) [z=0] on Turn 69235 -> 190 remaining.
-  - Right 3, Up 4, Right 1, Up 12, Right 1, Up 1 to (26, 1) [and bumped twice against (25, 1)] on Turn 69236 -> 166 remaining.
-  - Up 2 steps to transition to Safari Zone North, landing at (8, 35) on Turn 69239 -> 164 remaining.
-  - Down 1 step to transition back to Safari Zone West, landing at (26, 0) on Turn 69270 -> 163 remaining.
-  - This confirms that we have exactly **163 steps remaining** on Turn 69270. Our chronological overworld logs are perfectly synchronized.
+- **Turn 69360 Step Reconciliation**:
+  - Turn 69191 starting steps at (5, 16) [z=1]: **222 steps remaining**.
+  - Walk Right 1, Up 1 (bumping against (6, 15) cliff) -> 220 remaining.
+  - Down 4 to descend stairs to (6, 20) [z=0] -> 216 remaining.
+  - Left 2 steps along Row 20 to (4, 20) [z=0] -> 214 remaining.
+  - Right 2 steps to (6, 20) [z=0] -> 212 remaining.
+  - Up 2 steps to climb Western stairs to (6, 18) [z=1] -> 210 remaining.
+  - Up 2, Right 15 along Koga's bridge to (21, 16) [z=1] and Down 2 to (21, 18) [z=0] -> 191 remaining.
+  - Right 3, Up 4, Right 1, Up 12, Right 1, Up 1 to (26, 1) [and bumped twice against (25, 1)] -> 167 remaining.
+  - Up 2 steps to transition to Safari Zone North, landing at (8, 35) [z=0] -> 165 remaining.
+  - Down 1 step to transition back to Safari Zone West, landing at (26, 0) [z=0] -> 164 remaining.
+  - Down 3, Left 1, Down 2 to bypass signpost, landing at (25, 5) [z=0] -> 158 remaining.
+  - Down 6 steps to (25, 11) [z=0] -> 152 remaining.
+  - Down 7 steps to (25, 18) [z=0] -> 145 remaining.
+  - Left 4, Up 2 to climb Eastern stairs onto (21, 16) [z=1] -> 139 remaining.
+  - Up 2, Left 3 to (18, 14) [z=1] -> 134 remaining.
+  - Attempted to walk Up 5 times against Row 13 cliff, remaining at (18, 14) [z=1] -> 129 remaining.
+  - Down 2, Left 1, Up 1 to stand on vertical ramp at (17, 15) [z=1] -> 125 remaining.
+  - Attempted to walk Up 5 times against Row 13 cliff, remaining at (17, 14) [z=1] -> 120 remaining.
+  - Down 2, Left 3 to (14, 16) [z=1] -> 115 remaining.
+  - Left 4 to (10, 16) [z=1] -> 111 remaining.
+  - Left 4, Down 4 to descend Koga's Western stairs to (6, 20) [z=0] -> 103 remaining.
+  - Fled wild Doduo -> 103 remaining.
+  - Left 4 steps along Row 20 to (2, 20) [z=0] -> 99 remaining.
+  - Up 2 steps to (2, 18) [z=0] -> 97 remaining.
+  - Up 4 steps to (2, 14) [z=0] -> 93 remaining.
+  - Right 8 steps along Row 14 to (10, 14) [z=0] -> 85 remaining!
+  - This confirms that we have exactly **85 remaining steps** in RAM on Turn 69360.
+- **Log Update Plan**: We will append all missing chronological overworld logs from Turn 69194 to Turn 69339 to our scratchpad log to maintain 100% tracking accuracy.
