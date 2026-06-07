@@ -119,3 +119,11 @@ This route completely avoids Koga's plateau in Safari Zone West and uses fewer s
   5. If open, walk Down 1 step at Column 2/3/4/5/6/7 to trigger the transition.
   6. Verify if we land in Safari Zone West at Column 20-25 on Row 0 on ground level (`z=0`), and verify if we can walk freely to Column 3 (Secret House) on ground level.
   7. If Columns 2-7 Row 35 are blocked, we must proceed with our standard transition at Column 9 Row 35 to (27, 0) and traverse Koga's plateau.
+
+## Chronological Movement Log (Run 42)
+- Turn 68118: Entered Safari Zone Center (Map 0_220) at (15, 25) with a starting budget of 500 steps. Runs safari_navigator_agent to synchronize to 499 steps.
+- Turn 68122: Walked Left 1 step, Up 2 steps, Right 1 step, and Up 6 steps to stand at (15, 17) on clear ground (10 steps used, 489 remaining).
+- Turn 68123: Walked Right 3 steps to (18, 17), Up 1 step to (18, 16), and Right 4 steps to (22, 16), bumping twice on Column 18 Row 15 tree wall (8 steps used, 481 remaining).
+- Turn 68124: Walked Up 3 steps and Right 6 steps to stand at (28, 13) (9 steps used, 472 remaining).
+- Turn 68125: Walked Up 1 step to (28, 12), and bumped Right against (29, 12) tree wall (1 step used, 471 remaining).
+- Turn 68129: Walked Up 1 step to (28, 11), and Right 1 step to stand at (29, 11) on the Eastern edge of Safari Zone Center (2 steps used, 469 remaining).
