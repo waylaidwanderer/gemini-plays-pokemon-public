@@ -3505,11 +3505,11 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration - Run 43 (Turn 68838 - Active)
-- **Current Status**: Standing at (0, 5) in Safari Zone East on Turn 68958, transitioning to Safari Zone North at (39, 31).
+- **Current Status**: Standing at (33, 31) in Safari Zone North on Turn 68962, heading toward the Eastern Plateau stairs at (28, 27).
 - **Inventory Status**: 15/20 items.
 - **Run 43 Start Turn**: Turn 68838 (June 7, 2026, 6:24 AM)
 - **Run 43 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 362 steps.
+- **Current Steps Remaining**: 356 steps.
 - **Money remaining**: ¥68,817.
 
 ## Active Campaign Plan (Run 43 Victory Route)
