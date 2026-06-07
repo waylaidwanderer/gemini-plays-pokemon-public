@@ -3617,6 +3617,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 66625: Ran 'safari_navigator_agent' to synchronize coordinates and steps (11 steps used, 362 remaining).
 - Turn 66626: Walked Up 5 steps along Column 28 from (28, 31) to climb Eastern Plateau stairs to (28, 26) [z=1] on Turn 66627 (5 steps used, 357 remaining).
 - Turn 66627: Ran 'safari_navigator_agent' to synchronize coordinates and steps (5 steps used, 357 remaining).
+- Turn 66631: Walked Down 4 steps along Column 28 from (28, 26) to stand on ground level at (28, 30) on Turn 66632 (4 steps used, 353 remaining).
+- Turn 66632: Ran 'safari_navigator_agent' to synchronize coordinates and steps (4 steps used, 353 remaining).
 
 <hr>
 
