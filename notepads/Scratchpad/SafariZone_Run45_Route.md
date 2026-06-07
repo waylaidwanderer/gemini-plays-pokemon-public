@@ -38,3 +38,10 @@ We are navigating to Safari Zone West via the Eastern Ground Corridor of Safari 
 - **Turn 70018**: Transitioned from Safari Zone Center at (29, 11) to Safari Zone East at (0, 23) [483 steps remaining].
 - **Turn 70025**: Reconciled position at (0, 23) in East. Ready to begin Eastern Ground Corridor navigation.
 - **Turn 70041**: Navigated Row 24 corridor from (5, 22) to (20, 24) [18 steps used, 459 remaining]. Encountered a wild Nidoran♀ at (20, 24) on ground level. Preparing to RUN.
+- **Turn 70043**: Escaped wild Nidoran♀ battle safely and returned to overworld at (20, 24) [459 remaining].
+- **Turn 70054**: Walked Right 1 step to (21, 24) [1 step used, 458 remaining].
+- **Turn 70056**: Walked Up 2 steps along Column 21 to (21, 22) [2 steps used, 456 remaining].
+- **Turn 70064**: Walked Right 1 step to (22, 22) [1 step used, 455 remaining]. Encountered a wild Nidorina. Preparing to RUN.
+- **Turn 70066**: Escaped wild Nidorina battle safely and returned to overworld at (22, 22) [455 remaining].
+- **Turn 70067**: Walked Right 2 steps along Row 22 to (24, 22) [2 steps used, 453 remaining] to complete our horizontal bypass around the solid rock barrier.
+- **Turn 70082**: Synchronized logs and updated pathfinder with the verified rock wall and water collisions. Ready to proceed vertically Up along Column 24 to the northern corridor.
