@@ -234,3 +234,14 @@ To resolve the contradiction between the southwest ground isolation and the prop
 - **Test 1 (Row 18 Column 18)**: Walk from (6, 20) to (21, 18) [z=0]. If we bump at Column 18, Hypothesis A is verified, proving the southwest ground pocket is 100% isolated. If we pass freely, Hypothesis B is verified.
 - **Test 2 (Column 3 Row 13)**: Standing at (3, 14) [z=0], attempt to walk Up onto (3, 13) [z=0]. If we bump, water collision is verified.
 We will execute both tests on foot in Run 40, document the precise turn/bump results, and permanently prune the falsified theory.
+
+## Run 40 Chronological Movement Log
+- Turn 67023: Entered Safari Zone Gatehouse at (3, 5).
+- Turn 67025: Walked Up 1 step vertically along Column 3 from (3, 5) to stand at (3, 4).
+- Turn 67030: Pressed Left to turn Left and face the Gatekeeper across the counter at (2, 4).
+- Turn 67032: Pressed A to speak to the Gatekeeper and initiate check-in dialogue.
+- Turn 67034: Pressed Down to highlight NO and A to confirm, skipping the rules explanation.
+- Turn 67037: Pressed A to dismiss 'Sorry, you're a regular here!' dialogue.
+- Turn 67038: Pressed A on the empty screen to restart dialogue.
+- Turn 67039: Pressed Down and A to select NO to the 'first time here' prompt.
+- Turn 67040: Pressed A to dismiss 'Sorry, you're a regular here!' dialogue again.
