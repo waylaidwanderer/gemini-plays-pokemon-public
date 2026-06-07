@@ -292,3 +292,22 @@ We will execute both tests on foot in Run 40, document the precise turn/bump res
 - Turn 67159: Walked Up 1 step to climb the stairs to stand on the plateau at (22, 22) [z=1] (1 step used, 356 remaining).
 - Turn 67168: Walked Left 6 steps horizontally along Row 22 to stand at (16, 22) [z=1] (6 steps used, 350 remaining).
 - Turn 67169: Ran 'safari_navigator_agent' to synchronize coordinates and steps (12 steps used via Manhattan distance, 338 remaining).
+- Turn 67173: Walked 19 steps (Right 6 on plateau to (22, 22), Down 1 to (22, 23) [stairs], Down 10 along Column 22 to (22, 33), Left 2 to (20, 33)) in Safari Zone North (15 steps used via Manhattan distance, 323 remaining).
+- Turn 67177: Walked Down 2 steps along Column 20 from (20, 33) to stand at (20, 35) [z=0], bumping against the building wall at (19, 35) (2 steps used, 321 remaining).
+- Turn 67178: Ran 'safari_navigator_agent' to synchronize steps and coordinates (2 steps used, 321 remaining).
+- Turn 67180: Walked Up 4 steps along Column 20 from (20, 35) to stand at (20, 31) [z=0], triggering a wild battle against a Level 27 Exeggcute (4 steps used, 317 remaining).
+- Turn 67181: Escaped wild battle.
+- Turn 67185: Ran 'safari_navigator_agent' to synchronize steps and coordinates (4 steps used, 317 remaining).
+- Turn 67187: Walked Up 7 steps along Column 20 from (20, 31) to stand at (20, 24) [z=0], triggering a wild battle against a Level 22 Nidoran♀ (7 steps used, 310 remaining).
+- Turn 67188: Escaped wild battle.
+- Turn 67191: Ran 'safari_navigator_agent' to synchronize steps and coordinates (7 steps used, 310 remaining).
+- Turn 67194: Walked Up 1 step to (20, 23), Right 2 steps along Row 23 to stand on the Western Plateau stairs at (22, 23) [z=0] (3 steps used, 307 remaining).
+- Turn 67195: Ran 'safari_navigator_agent' to synchronize steps and coordinates (3 steps used, 307 remaining).
+- Turn 67196: Walked Up 1 step to climb Western stairs to stand on Western Plateau at (22, 22) [z=1] (1 step used, 306 remaining).
+- Turn 67197: Walked Left 6 steps horizontally along Row 22 to stand on Western Plateau at (16, 22) [z=1] (6 steps used, 300 remaining).
+- Turn 67198: Walked Down 5 steps along Column 16 to stand on Western Descent Stairs at (16, 27) [z=1] (5 steps used, 295 remaining).
+- Turn 67199: Ran 'safari_navigator_agent' to synchronize steps and coordinates (10 steps used via Manhattan distance from (22, 23) to (16, 27), 297 remaining).
+- Turn 67202: Walked 15 steps (Down 1 to (16, 28) [z=0], Left 4 to (12, 28) [z=0], Down 2 to (12, 30) [z=0], Left 3 to (9, 30) [z=0], Down 5 along Column 9 to (9, 35) [z=0]) (15 steps used, 282 remaining).
+- Turn 67204: Ran 'safari_navigator_agent' to synchronize steps and coordinates (15 steps used via Manhattan distance, 282 remaining).
+- Turn 67205: Walked Down 1 step from (9, 35) in Safari Zone North to transition South to Safari Zone West, landing at (27, 0) [z=0] on ground level (1 step used, 281 remaining).
+- Turn 67207: Ran 'safari_navigator_agent' to synchronize steps and coordinates (1 step used, 281 remaining).
