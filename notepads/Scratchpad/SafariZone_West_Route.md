@@ -6,7 +6,7 @@
 - **Money remaining**: ¥70,817.
 
 ## Master Run 40 Campaign Plan (Double-Retrieval Route)
-- **Segment 1: Safari Zone Center (Start to stand at East Exit at (29, 11))** [27 steps]:
+- **Segment 1: Safari Zone Center (Start to stand at East Exit at (29, 11))** [31 steps - COMPLETED]:
   - Starting at (15, 25), walked Up 9 steps along Column 15 to (15, 16) -> **9 steps** [491 remaining].
   - Walked Right 5 steps along Row 16 to (20, 16) -> **5 steps** [486 remaining].
   - Walked Up 2 steps along Column 20 through fence gap to (20, 14) -> **2 steps** [484 remaining].
@@ -15,15 +15,15 @@
   - Walked Right 4 steps along Row 11 to stand at (28, 11) -> **4 steps** [473 remaining].
   - Transition East at Row 11 to Safari Zone East (Map 0_217) landing at (0, 23) -> **1 step** [472 remaining (470 synced)].
 
-- **Segment 2: Safari Zone East (0, 23) to stand at Northwest transition at (0, 5)** [133 steps - ACTIVE]:
+- **Segment 2: Safari Zone East (0, 23) to stand at Northwest transition at (0, 5)** [87 steps - ACTIVE]:
   - Entered at (0, 23). Walked Right 4 steps to (4, 23), Down 1 step to (4, 24) [bypass Rest House 2], and Right 16 steps along Row 24 to stand at (20, 24) -> **21 steps** [449 remaining].
   - Walk Up 3 steps along Column 20 to climb Southern stairs at (20, 21), standing on the plateau at (20, 20) [z=1] -> **3 steps** [446 remaining (actually 4 steps to land at (20, 20) [z=1], leaving 445 remaining)].
   - Walk Left 8 steps horizontally along Row 20 to Column 12 at (12, 20) [z=1] -> **8 steps** [437 remaining].
   - Walk Down 2 steps to descend Western plateau stairs at (12, 21) to stand at (12, 22) [z=0] on ground level -> **2 steps** [435 remaining (actually 442 synced)].
-  - Walk Up 14 steps along Column 12 (the grass-bypass corridor) to Row 8 at (12, 8) -> **14 steps** [421 remaining].
-  - Walk Up 1 step to climb northern plateau stairs at (12, 7) to stand at (12, 6) [z=1] -> **1 step** [420 remaining].
+  - Walk Up 14 steps along Column 12 (the grass-bypass corridor) to Row 8 at (12, 8) -> **14 steps** [421 remaining (actually 428 synced)].
+  - Walk Up 1 step to climb northern plateau stairs at (12, 7) to stand at (12, 6) [z=1] -> **1 step** [420 remaining (actually 421 synced at (17,6))].
   - Walk Right 5 steps horizontally along Row 6 to stand at (17, 6) [z=1] -> **5 steps** [415 remaining].
-  - Walk Down 2 steps to descend Eastern stairs at (17, 7) to ground level at (17, 8) [z=0] -> **2 steps** [413 remaining].
+  - Walk Down 2 steps to descend Eastern stairs at (17, 7) to ground level at (17, 8) [z=0] -> **2 steps** [413 remaining (actually 419 synced)].
   - Walk Right 3 steps along Row 8 to stand at (20, 8) -> **3 steps** [410 remaining].
   - Walk Up 5 steps along Column 20 (avoiding tall grass) to Northern Grass Corridor at (20, 3) [z=0] -> **5 steps** [405 remaining].
   - Walk Left 20 steps horizontally along Row 3 from (20, 3) to Column 0 at (0, 3) [z=0] -> **20 steps** [385 remaining].
