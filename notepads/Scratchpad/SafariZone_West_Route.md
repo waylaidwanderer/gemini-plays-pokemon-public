@@ -267,3 +267,17 @@ We will execute both tests on foot in Run 40, document the precise turn/bump res
 - Turn 67078: Ran 'safari_navigator_agent' to synchronize coordinates and steps (5 steps used, 462 remaining).
 - Turn 67079: Walked Right 3 steps horizontally along Row 24 from (14, 24) to stand on ground level at (17, 24) [z=0] on Turn 67080 (3 steps used, 459 remaining) [wild battle triggered].
 - Turn 67082: Ran 'safari_navigator_agent' to synchronize coordinates and steps (3 steps used, 459 remaining).
+- Turn 67093: Ran 'safari_navigator_agent' to synchronize coordinates and steps (7 steps used, 452 remaining).
+- Turn 67095: Walked Left 8 steps along Row 20 to (12, 20) on the Southern Plateau.
+- Turn 67096: Ran 'safari_navigator_agent' to synchronize coordinates and steps (8 steps used, 444 remaining).
+- Turn 67098: Walked Down 2 steps to descend Western plateau stairs to stand on ground level at (12, 22).
+- Turn 67099: Ran 'safari_navigator_agent' to synchronize coordinates and steps (2 steps used, 442 remaining).
+- Turn 67101: Walked Up 14 steps along Column 12 (the grass-free vertical corridor bypass) to Row 8 at (12, 8).
+- Turn 67102: Ran 'safari_navigator_agent' to synchronize coordinates and steps (14 steps used, 428 remaining).
+- Turn 67103: Walked Up 2 steps and Right 5 steps horizontally along Row 6 to stand at (17, 6) [z=1] on the Northern Plateau.
+- Turn 67104: Ran 'safari_navigator_agent' to synchronize coordinates and steps (7 steps used, 421 remaining).
+- Turn 67106: Walked Down 2 steps to descend Eastern stairs at (17, 7) to ground level at (17, 8).
+- Turn 67107: Ran 'safari_navigator_agent' to synchronize coordinates and steps (2 steps used, 419 remaining).
+- Turn 67110: Walked Right 3 steps to (20, 8) and Up 2 steps along Column 20 (detour) to stand at (20, 6), triggering a wild battle against a Level 25 Exeggcute (5 steps used, 414 remaining).
+- Turn 67112: Escaped wild battle.
+- Turn 67114: Ran 'safari_navigator_agent' to synchronize coordinates and steps (5 steps used, 414 remaining).
