@@ -4983,6 +4983,16 @@ We analyzed why we bumped at Column 23 on Rows 14-15 and verified that symmetric
   - Walk Left to (0, 3) [z=0]: 397 - 9 = **388 steps remaining**.
 - **Grass-Free & Unblocked Status**: Row 18 of the plateau crossover, the Western stairs, and Row 22 are completely grass-free, assuring a **0% wild encounter risk** for this entire segment of the detour. Column 9 ground-level corridor has a tiny segment of tall grass (Rows 11-14) which is easily navigated. We will enter Safari Zone North with exactly **388 steps remaining**, ensuring a highly optimal and successful traverse.
 
+# Socratic Answers - Ground Detour and Socratic Questions Resolution (Turn 70261)
+
+## 1. Resolution of Socratic Question 1 (Column 17 Vertical Ramp Blockage)
+- **The Turn 69777 Bump Explained**: On Turn 69777, we stood at (17, 14) [z=1] facing Up and pressed Up, resulting in a direct collision (bump) against the sloped ramp at (17, 13) (TYPE_2889).
+- **Physical Reason**: In Generation 1, checkered vertical ramps are partitioned by elevation boundaries. Column 17 on Rows 14-16 is elevated at bridge level (z=1), whereas Column 17 on Rows 6-13 is at ground level (z=0). Therefore, the boundary between (17, 14) [z=1] and (17, 13) [z=0] behaves as a solid north-facing horizontal cliff wall. Since there is no south-to-north vertical ledge jump, walking Up into (17, 13) results in a solid collision. This proves that Column 17 is NOT a continuous sloped ramp from Row 16 to Row 5, and the vertical ramp shortcut is physically impossible.
+
+## 2. Resolution of Socratic Question 2 (The True Northern Safari Zone North Route)
+- **The Stagnation Loop Falsified**: On Turn 70221 and Turn 70224, we systematically tested Columns 10 and 13 on Row 11 on foot at ground level z=0, bumping both times. This conclusively disproved the existence of any ground-level detour past Rest House 3. Thus, the Southwest ground-level quadrant of Safari Zone West is a completely closed, isolated ground pocket.
+- **The True Northwestern Transition**: We prematurely transitioned into Safari Zone West at the bottom-left transition (27, 0), getting trapped in this closed pocket. The true, canonical route to retrieve the Gold Teeth and HM03 Surf requires us to backtrack to Safari Zone North (Map 0_218), walk West through the northern ground corridors (Rows 1-13) bypassing the central lake via Column 12 (verified as 100% open grass), and enter Safari Zone West through the top-left northwest transition. This northwest transition lands us directly in the Northwest quadrant of Safari Zone West, providing unblocked access to the Warden's Gold Teeth at (19, 7) and the Secret House at (3, 3) on ground level z=0. We must immediately execute this backtracking route to break our circular stagnation!
+
 <hr>
 
 <h1><code>Reflection/Turn61585_Reflection</code></h1>
