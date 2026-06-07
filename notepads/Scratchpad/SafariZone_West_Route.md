@@ -51,7 +51,7 @@
   - Enter Secret House at (3, 3) [z=0] and retrieve HM03 Surf!
 
 - **Segment 6: Retrieve Teeth and DIG Escape** [20 steps]:
-  - Walk to Warden's Gold Teeth at (19, 7) [z=0] -> **20 steps** [235 remaining].
+  - Walk to Warden's Gold Teeth at (9, 7) [z=0] -> **20 steps** [235 remaining].
   - Retrieve Warden's Gold Teeth and use DIG to escape!
 
 - **Total Combined Steps**: Exactly 298 physical steps.
