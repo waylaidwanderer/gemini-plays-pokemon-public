@@ -52,3 +52,7 @@ We are navigating to Safari Zone West via the Eastern Ground Corridor of Safari 
 - **Turn 70066**: Escaped wild Nidorina battle safely and returned to overworld at (22, 22) [455 remaining].
 - **Turn 70067**: Walked Right 2 steps along Row 22 to (24, 22) [2 steps used, 453 remaining] to complete our horizontal bypass around the solid rock barrier.
 - **Turn 70082**: Synchronized logs and updated pathfinder with the verified rock wall and water collisions. Ready to proceed vertically Up along Column 24 to the northern corridor.
+- Turn 70094: Climbed plateau stairs at (24, 15), placing us on plateau at (24, 14) [z=1].
+- Turn 70118: Walked across Row 14, then Down along Column 22 to stand at (22, 18) [z=1].
+- Turn 70130: Walked Left along Row 18, and descended Koga's Western stairs at (12, 21) to land on ground level at (12, 22) [z=0].
+- Turn 70141: Walked Left 3 steps to (9, 22) and Up 9 steps along Column 9 to stand at (9, 13) [z=0] facing Up.
