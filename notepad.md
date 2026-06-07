@@ -5743,10 +5743,10 @@ We are in a flawless tactical position!
 
 <h1><code>Scratchpad/SafariZone_Run46_Route</code></h1>
 
-# Safari Zone West Exploration - Run 46 (Turn 70404 - Active)
-- **Current Status**: Standing at (19, 28) in Fuchsia City on Turn 70404 on ground level [z=0], facing Down, with 500 steps remaining (when run starts).
+# Safari Zone West Exploration - Run 46 (Turn 70481 - Active)
+- **Current Status**: Standing at (24, 28) in Fuchsia City on Turn 70481 on ground level [z=0], facing Down.
 - **Inventory Status**: 15/20 items, 29 Safari Balls.
-- **Run 46 Start Turn**: Turn 70404 (Upcoming)
+- **Run 46 Start Turn**: Turn 70481 (Upcoming)
 - **Run 46 Starting Steps**: 500 steps.
 - **Money remaining**: ¥67,817.
 
