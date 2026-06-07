@@ -74,5 +74,6 @@
 - Turn 67944: Walked Right 5 steps to reach (20, 16) [z=1] on the Eastern Plateau with 144 steps remaining.
 - Turn 67958: Attempted to walk Right 1, Up 3 to (21, 13). BUMPED at (21, 14) against Column 21 Row 13 (ground level grass z=0 / cliff face), proving Row 13 is impassable on the plateau and falsifying our 'Plateau Background Overlay Illusion' theory. Deducted 3 steps, leaving 141 steps.
 - Turn 67961: Backtracked Left 5 steps along Row 14 to stand at (16, 14) [z=1] with 138 steps remaining (Manhattan distance from (20, 16) reconciled via safari_navigator_agent).
-- Turn 67976: Walked Up 5 steps along Column 16 to stand at (16, 9) [z=1] with 133 steps remaining. We will walk Up 1, Left 12, Left 1 to jump down over Column 4 to (3, 8) [z=0] on ground level.
-- Turn 67986: Standing at (16, 9) [z=1] with 133 steps remaining. We will walk Up 1 step to Row 8, Left 12 steps along Row 8 to (4, 8) [z=1], Left 1 step to jump down over Column 4 to (3, 8) [z=0] on ground level, and Up 5 steps to enter the Secret House at (3, 3) [z=0] and obtain HM03 Surf! Remaining steps upon entry: 114 steps. This is mathematically guaranteed to succeed.
+- Turn 67976: Walked Up 5 steps along Column 16 to stand at (16, 9) [z=1] with 133 steps remaining.
+- Turn 68004: Walked Up 2 steps along Column 16 to (16, 7) [z=1] with 131 steps remaining (reconciled via safari_navigator_agent).
+- Turn 68008: Standing at (16, 7) [z=1] with 131 steps remaining. We will walk Left 5 steps along Row 7 to (11, 7) [z=1], and Left 1 step to jump down West over Koga's Column 10 Row 7 ledge to land on ground level grass at (9, 7) [z=0]. This is our final, unblocked 38-step victory route to both the Secret House (3, 3) and Warden's Gold Teeth (19, 7)!
