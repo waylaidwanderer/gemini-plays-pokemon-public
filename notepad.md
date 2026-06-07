@@ -3505,11 +3505,11 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration - Run 43 (Turn 68838 - Active)
-- **Current Status**: Standing at (17, 16) on Koga's bridge in Safari Zone West on Turn 69070, ready to walk Up the Column 17 vertical ramp to reach the ground.
+- **Current Status**: Standing at (17, 14) in Safari Zone West on Turn 69072, ready to cross to Column 18 and walk Up to (18, 9) to jump down.
 - **Inventory Status**: 15/20 items.
 - **Run 43 Start Turn**: Turn 68838 (June 7, 2026, 6:24 AM)
 - **Run 43 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 256 steps.
+- **Current Steps Remaining**: 254 steps.
 - **Money remaining**: ¥68,817.
 
 ## Active Campaign Plan (Run 43 Victory Route)
@@ -3526,8 +3526,9 @@ We are executing a fully optimized Run 43 ground-to-plateau dual retrieval.
    - Walk Down to (27, 18), Left 6 to (21, 18), and climb Eastern stairs UP to (21, 16) [z=1].
    - Walk Left 5 to (16, 16) [z=1], Up 7 to (16, 9) [z=1].
    - Walk Down 7 to (16, 16) [z=1], Right 1 to (17, 16) [z=1] on Koga's bridge.
-   - Walk Up 11 steps along the Column 17 checkered vertical ramp to reach (17, 5) [z=0] on the northern ground level.
-   - Walk Right 2 steps to (19, 5) [z=0], Down 2 steps to stand adjacent to the Warden's Gold Teeth at (19, 7) [z=0], and pick them up!
+   - Walk Up 2 to (17, 14), Right 1 to (18, 14) [z=1].
+   - Walk Up 5 along Column 18 to (18, 9) [z=1], and Right 1 to jump down onto (19, 9) [z=0] on the ground.
+   - Walk Up 2 steps to stand adjacent to the Warden's Gold Teeth at (19, 7) [z=0], and pick them up!
    - Walk West 16 steps along the Row 5 ground-level corridor, and walk Up to enter the Secret House at (3, 3) to get HM03 Surf!
    - Total steps used in West: ~35 steps. Total steps used across entire run: ~143 steps (out of 500), leaving a massive surplus of ~357 steps inside the Secret House!
 9. **Warp Home**: Use DIG to warp back to Fuchsia City!
@@ -3615,6 +3616,7 @@ We are executing a fully optimized Run 43 ground-to-plateau dual retrieval.
 - Turn 69025: Walked Left 5 and Up 7 steps across the grass-free plateau to (16, 9) [z=1] [remaining: 267].
 - Turn 69030: Attempted to walk Right 3 times into (17, 9) on the plateau, resulting in solid cliff bumps [remaining: 264].
 - Turn 69068: Walked Down 7 steps along Column 16 to (16, 16) [z=1] and Right 1 step to (17, 16) [z=1] [remaining: 256].
+- Turn 69071: Walked Up 2 steps along Column 17 to (17, 14), bumping against the solid vertical ramp at (17, 13) [z=1] [remaining: 254].
 
 <hr>
 
