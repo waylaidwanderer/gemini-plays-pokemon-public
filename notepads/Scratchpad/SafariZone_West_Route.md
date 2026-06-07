@@ -1,8 +1,8 @@
-# Safari Zone West Exploration - Run 39 (Turn 66647 - Active)
-- **Current Status**: Standing on the Western Plateau at (22, 22) [z=1] in Safari Zone North (Map 0_218) on Turn 66647. Preparing to walk Left 6 steps horizontally along Row 22 to stand at (16, 22) [z=1].
+# Safari Zone West Exploration - Run 39 (Turn 66653 - Active)
+- **Current Status**: Standing on the Western Plateau at (16, 22) [z=1] in Safari Zone North (Map 0_218) on Turn 66653. Preparing to walk Down 6 steps along Column 16 to stand on stairs at (16, 27) and descend to ground level at (16, 28) [z=0].
 - **Inventory Status**: 15/20 items.
 - **Run 39 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 339 steps.
+- **Current Steps Remaining**: 333 steps.
 - **Money remaining**: ¥70,817.
 
 ## Master Run 39 Campaign Plan (Double-Retrieval Route)
