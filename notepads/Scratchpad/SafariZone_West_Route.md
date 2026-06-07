@@ -74,3 +74,4 @@
 - Turn 67883: Exited Rest House 3 to Safari Zone West (Map 0_219) at (11, 12) [z=0] (0 steps used, 177 remaining).
 - Turn 67893: Standing at (11, 12) outside Rest House 3 (0 steps used, 177 remaining).
 - Turn 67915: Standing at (6, 15) [z=0] with 163 steps remaining. We took 14 steps in Turn 67914 (3 Down, 9 Left, 2 Right), bumping 5 times against the cliff wall at (4, 16) due to an incomplete pathfinder model. Reconciled steps: 163 remaining. We must walk Left 3 to (3, 15), Down 5 to (3, 20), Right 3 to (6, 20), and Up 1 to (6, 19) [z=1] to climb back onto the Western Plateau.
+- Turn 67922: Successfully climbed the western stairs to stand at (6, 19) [z=1] with 163 steps remaining. We will walk Up 3, Left 1 to stand at (5, 16) [z=1] on the bridge.
