@@ -283,3 +283,6 @@ We will execute both tests on foot in Run 40, document the precise turn/bump res
 - Turn 67114: Ran 'safari_navigator_agent' to synchronize coordinates and steps (5 steps used, 414 remaining).
 - Turn 67133: Walked 10 steps horizontally along detour (Right 1 to (7, 3), Down 2 to (7, 5), Left 7 to stand at Northwest Exit at (0, 5)).
 - Turn 67134: Ran 'safari_navigator_agent' to synchronize coordinates and steps (8 steps used via Manhattan distance, 389 remaining).
+- Turn 67140: Walked Up 15 steps (Left 11 along Row 31, Up 4 steps along Column 28) to stand on the stairs at (28, 27) [z=0/1] in Safari Zone North.
+- Turn 67143: Ran 'safari_navigator_agent' to synchronize coordinates and steps (15 steps used via Manhattan distance, 373 remaining).
+- Turn 67148: Walked Up 1 step to step fully onto the Eastern Plateau at (28, 26) [z=1] in Safari Zone North.
