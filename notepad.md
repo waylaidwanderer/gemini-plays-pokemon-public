@@ -6694,13 +6694,13 @@ Standing at (5, 16) [z=1] in Safari Zone West on Turn 66720 with exactly 270 syn
    - Walk Left 1 step along Row 14 to stand at (15, 14) [z=1] -> **1 step** [252 remaining].
    - Walk Left 1 step to jump West over the vertical ledge at Column 14 Row 14, landing on ground level at (13, 14) [z=0] -> **1 step** [251 remaining].
    - *Alternative Test*: If Row 14 is blocked, we walk Down 1 to (15, 15) and jump West over Row 15 to (13, 15) [z=0] (consuming 3 steps instead of 2).
-3. **Segment C: Walk to Secret House to Retrieve Surf** [11 steps, 240 actual remaining]:
-   - Walk Left 10 steps horizontally along Row 14 from (13, 14) to Column 3 at (3, 14) [z=0] -> **10 steps** [241 remaining].
-   - Walk Up 11 steps along Column 3 to stand at the Secret House door at (3, 3) [z=0] -> **11 steps** [230 remaining]. (Wait, let's verify: distance from (13, 14) to (3, 3) is Left 10, Up 11 = 21 steps! Yes! 21 steps).
-   - Let's trace steps:
-     - Left 10 from (13, 14) to (3, 14) -> 10 steps.
-     - Up 11 from (3, 14) to stand at (3, 3) -> 11 steps.
-     - Total: **21 steps**.
+3. **Segment C: Walk to Secret House to Retrieve Surf** [21 steps, 230 actual remaining]:
+   - From our landing tile at (13, 14) [z=0], Column 3 Row 13 is blocked by a water lake of `TYPE_4e8c`. To bypass this lake, we utilize the verified Column 12 ground corridor:
+     - Walk Left 1 step along Row 14 to stand at Column 12 at (12, 14) [z=0] -> **1 step** [250 remaining].
+     - Walk Up 4 steps vertically along Column 12 to stand at Row 10 at (12, 10) [z=0] -> **4 steps** [246 remaining].
+     - Walk Left 9 steps horizontally along Row 10 to stand at Column 3 at (3, 10) [z=0] -> **9 steps** [237 remaining].
+     - Walk Up 7 steps vertically along Column 3 from (3, 10) to stand at the Secret House door at (3, 3) [z=0] -> **7 steps** [230 remaining].
+   - This physical ground detour around the lake takes exactly **21 steps** (1 + 4 + 9 + 7 = 21 steps), which perfectly matches the Manhattan distance calculation of 21 steps (|13 - 3| + |14 - 3| = 21) while being 100% physically open and unblocked!
    - Retrieve **HM03 Surf** [0 steps, 230 remaining].
 4. **Segment D: Walk to Warden's Gold Teeth at (19, 7) [z=0]** [20 steps, 210 actual remaining]:
    - Walk Down 4 steps along Column 3 from (3, 3) to Row 7 at (3, 7) [z=0] -> **4 steps** [226 remaining].
