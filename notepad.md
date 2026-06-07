@@ -3622,6 +3622,7 @@ We are executing a fully optimized Run 43 ground-to-plateau dual retrieval.
 - Turn 69108: Ran a python simulation which showed that staying on the plateau level (z=1), we can walk Down 7 to the bridge at (16, 16), Left 11 along the bridge to (5, 16), and Up 7 to the western part of the plateau at (5, 9).
 - Turn 69119: Walked Down 7 steps to (16, 16) and Left 10 steps to (6, 16) on Koga's bridge [z=1] [remaining: 239].
 - Turn 69135: Redefined safari_pathfinder. Walked Down 4 steps from (6, 16), down the stairs at (6, 19), to (6, 20) on ground level [z=0], triggering a wild Nidorina encounter [remaining: 235].
+- Turn 69138: Selected RUN and successfully escaped the wild Nidorina encounter [remaining: 235].
 
 <hr>
 
