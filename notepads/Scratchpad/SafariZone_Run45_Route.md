@@ -86,3 +86,7 @@ We are navigating to Safari Zone West via the Eastern Ground Corridor of Safari 
 - Turn 70314: Walked Up 4 steps to (12, 13) [z=0], triggered wild Exeggcute encounter on the 4th step [4 steps used, 112 remaining]. Escaped safely.
 - Turn 70317: Walked Up 4 steps along Column 12 to (12, 9) [z=0] [4 steps used, 108 remaining].
 - Turn 70321: Walked Up 3 steps along Column 12 to (12, 6) [z=0] [3 steps used, 105 remaining].
+- Turn 70336: Walked Down 5 steps along Column 12 to (12, 11) [z=0] [5 steps used, 100 remaining].
+- Turn 70339: Walked Down 2 steps to (12, 13), triggered wild Rhyhorn encounter on the 2nd step [2 steps used, 98 remaining]. Escaped safely.
+- Turn 70343: Walked Down 4 steps along Column 12 to (12, 17) [z=0] [4 steps used, 94 remaining].
+- Turn 70351: Walked Down 2 steps to (12, 19) and Left 4 steps to (8, 19) [z=0] [6 steps used, 88 remaining].
