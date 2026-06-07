@@ -1,8 +1,8 @@
-# Safari Zone West Exploration - Run 39 (Turn 66786 - Active)
-- **Current Status**: Standing on the ground level at (3, 20) [z=0] in Safari Zone West (Map 0_219) on Turn 66786 with exactly 238 synced remaining steps (234 actual remaining steps). Realized that the southwest ground pocket is a completely isolated dead end. Backtracking UP onto the Western Plateau via the stairs at (6, 19) to traverse to Column 11 Row 10 to test the final remaining West-facing jump-down ledge candidate!
+# Safari Zone West Exploration - Run 39 (Turn 66812 - Active)
+- **Current Status**: Standing on the Western Plateau at (16, 16) [z=1] in Safari Zone West (Map 0_219) on Turn 66812 with exactly 221 synced remaining steps (217 actual remaining steps). Backtracked and walked to (16, 16) [z=1] to prepare to walk to (11, 10) [z=1] to test Koga's final remaining untested West-facing ledge candidate!
 - **Inventory Status**: 15/20 items.
 - **Run 39 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 234 steps.
+- **Current Steps Remaining**: 217 steps.
 - **Money remaining**: ¥70,817.
 
 ## Master Run 39 Campaign Plan (Double-Retrieval Route)
