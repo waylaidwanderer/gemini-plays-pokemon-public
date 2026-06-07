@@ -33,6 +33,6 @@
   - Walked Up 4 steps to (25, 2) on Turn 68533 (collided with tree at (25, 1) and stopped at (25, 2)) -> 4 steps. (Remaining: 206)
   - Walked Right 1, Up 2 steps to (26, 0) on Turn 68541 -> 3 steps. (Remaining: 203)
   - Walked Up 1 step to transition on Turn 68542 -> 1 step. (Remaining: 202)
-  - **Total Steps Consumed**: 6 + 4 + 3 + 1 = **14 steps**.
-  - **Reconciled Remaining Steps**: 216 - 14 = **202 steps remaining** on Turn 68553 (standing at 8, 35 in Safari Zone North).
+  - **Total Steps Consumed**: 6 + 4 + 3 + 1 + 4 = **18 steps**.
+  - **Reconciled Remaining Steps**: 216 - 18 = **198 steps remaining** on Turn 68580 (standing at 8, 31 in Safari Zone North).
   - This perfectly matches the RAM's step counter, ensuring 100% accurate, drift-free step-keeping!
