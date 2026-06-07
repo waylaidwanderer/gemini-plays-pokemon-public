@@ -3583,6 +3583,16 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 67976: Walked Up 5 steps along Column 16 to stand at (16, 9) [z=1] with 133 steps remaining.
 - Turn 68004: Walked Up 2 steps along Column 16 to (16, 7) [z=1] with 131 steps remaining (reconciled via safari_navigator_agent).
 - Turn 68008: Standing at (16, 7) [z=1] with 131 steps remaining. We will walk Left 5 steps along Row 7 to (11, 7) [z=1], and Left 1 step to jump down West over Koga's Column 10 Row 7 ledge to land on ground level grass at (9, 7) [z=0]. This is our final, unblocked 38-step victory route to both the Secret House (3, 3) and Warden's Gold Teeth (19, 7)!
+- Turn 68047: Recalculated our steps. We have exactly 94 steps remaining in our Safari Zone budget at (8, 35) [z=0] in Safari Zone North.
+- Route to Northwest ground quadrant of Safari Zone West:
+  1. Walk Up 16 steps along Column 8 to (8, 19).
+  2. Walk Left 5 steps along Row 19 to (3, 19).
+  3. Walk Up 9 steps along Column 3 to (3, 10).
+  4. Walk Left 3 steps along Row 10 to (0, 10).
+  5. Walk Left 1 step to transition to Safari Zone West.
+  Total steps to transition: 34 steps.
+  Remaining steps upon entering Safari Zone West: 94 - 34 = 60 steps remaining.
+  This is plenty of steps to reach both the Secret House and Warden's Gold Teeth in the Northwest quadrant!
 
 <hr>
 
