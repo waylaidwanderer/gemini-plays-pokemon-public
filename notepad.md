@@ -3822,6 +3822,9 @@ We will execute both tests on foot in Run 40, document the precise turn/bump res
 - Turn 67234: Ran 'safari_navigator_agent' to synchronize coordinates and steps (8 steps used, 251 remaining).
 - Turn 67238: Pressed Left from (15, 14) [z=1] to test Column 14 Row 14 jump-left. Result: BUMPED, physically proving Column 14 Row 14 is a solid impassable wall.
 - Turn 67240: Ready to walk Down 1 step to (15, 15) [z=1] and test Column 14 Row 15.
+- Turn 67243: Pressed Left from (15, 15) [z=1] to test Column 14 Row 15 jump-left. Result: BUMPED, physically proving Column 14 Row 15 is also a solid impassable wall.
+- Turn 67245: Synced steps at 250 remaining standing at (15, 15) [z=1].
+- Turn 67249: Ready to walk to (18, 9) [z=1] on the plateau to execute the Eastern descent jump onto (19, 9) [z=0].
 
 <hr>
 
