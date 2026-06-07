@@ -1,8 +1,8 @@
-# Safari Zone West Exploration - Run 41 (Turn 67554 - Active)
-- **Current Status**: Standing in the Northern Grass Corridor at (20, 3) in Safari Zone East (Map 0_217) on Turn 67554 with 399 steps remaining.
+# Safari Zone West Exploration - Run 41 (Turn 67688 - Active)
+- **Current Status**: Standing at (11, 6) on Koga's Western Plateau in Safari Zone West (Map 0_219) on Turn 67688 with 262 steps remaining.
 - **Inventory Status**: 15/20 items.
 - **Run 41 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 399 steps.
+- **Current Steps Remaining**: 262 steps.
 - **Money remaining**: ¥69,817.
 
 ## Master Run 40 Campaign Plan (Double-Retrieval Route)
