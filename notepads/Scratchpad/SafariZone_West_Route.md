@@ -1,9 +1,9 @@
-# Safari Zone West Exploration - Run 44 (Turn 69593 - Active)
-- **Current Status**: Standing at (27, 0) in Safari Zone West on Turn 69593 on ground level [z=0], facing Down.
+# Safari Zone West Exploration - Run 44 (Turn 69607 - Active)
+- **Current Status**: Standing at (21, 16) in Safari Zone West on Turn 69607 on plateau level [z=1], facing Down.
 - **Inventory Status**: 15/20 items, 30 Safari Balls.
 - **Run 44 Start Turn**: Turn 69460 (June 7, 2026, 9:31 AM)
 - **Run 44 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 290 steps.
+- **Current Steps Remaining**: 259 steps.
 - **Money remaining**: ¥68,317.
 
 ## Active Campaign Plan (Run 44 Detour Route)
