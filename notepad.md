@@ -3504,12 +3504,13 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
-# Safari Zone West Exploration - Run 42 (Turn 68740 - Active)
-- **Current Status**: Standing at (2, 8) on ground level in Safari Zone North on Turn 68740.
+# Safari Zone West Exploration - Run 42 (Turn 68745 - Active)
+- **Current Status**: Standing at (1, 12) on ground level in Safari Zone North on Turn 68745.
 - **Inventory Status**: 15/20 items.
 - **Run 42 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 106 steps.
+- **Current Steps Remaining**: 100 steps.
 - **Money remaining**: ¥69,317 (paid ¥500 entry fee).
+- **Warp Pivot**: We have verified that there is no Northwest transition to West at (0, 12) due to a solid tree wall of TYPE_2889 on Column 0. The only transition to Safari Zone West is at the Southwest (9, 35) / (8, 35). Walking to (9, 35) takes 91 steps, which would leave us with only 9 steps in Safari Zone West. Therefore, we are executing a strategic DIG pivot to instantly return to Fuchsia City, where we will start a fresh, fully optimized Run 43 with 500 steps to secure both the Gold Teeth and Surf!
 
 ## Active Campaign Plan (Run 42 Victory Route)
 We are currently executing the verified Safari Zone West Victory Route, which backtracks through Safari Zone North to access the Northwest ground quadrant on foot. 
