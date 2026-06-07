@@ -3620,6 +3620,8 @@ We are executing a fully optimized Run 43 ground-to-plateau dual retrieval.
 - Turn 69108: Successfully navigated to (16, 9) on Koga's Western Plateau on the east side of the vertical wall. Verified that Koga's Western Plateau (Columns 11-16) is separated from Koga's Western Plateau (Columns 4-10) by a solid vertical cliff face at Column 14 (Rows 9-14).
 - Turn 69108: Visually verified the Gold Teeth item is at (19, 7) on the ground level. We need to reach the ground level on the east side of the cliff (Column 18) or reach the west side of Koga's Western Plateau.
 - Turn 69108: Ran a python simulation which showed that staying on the plateau level (z=1), we can walk Down 7 to the bridge at (16, 16), Left 11 along the bridge to (5, 16), and Up 7 to the western part of the plateau at (5, 9).
+- Turn 69119: Walked Down 7 steps to (16, 16) and Left 10 steps to (6, 16) on Koga's bridge [z=1] [remaining: 239].
+- Turn 69135: Redefined safari_pathfinder. Walked Down 4 steps from (6, 16), down the stairs at (6, 19), to (6, 20) on ground level [z=0], triggering a wild Nidorina encounter [remaining: 235].
 
 <hr>
 
