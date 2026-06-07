@@ -3551,6 +3551,12 @@ Our empirical testing on Turn 68472 conclusively falsified the ground-level bypa
 - Turn 68542: Walked Up 1 step to transition to Safari Zone North, landing at (8, 35) [z=0] (remaining: 202).
 - Turn 68557: Walked Up 4 steps along Column 8 to (8, 31) [z=0] (remaining: 198).
 
+## 50-Turn Reflection (Turn 68614)
+1. **Current Position & Map ID**: Standing at (8, 31) [z=0] on Map 0_218 (Safari Zone North).
+2. **Custom Tool Usage**: Redefined safari_pathfinder on Turn 68590 to incorporate Map 0_218 correct water lake and tree walls, fixing the database gap.
+3. **Notepads & Objectives Update**: Updated Scratchpad/SafariZone_West_Route and Mechanics/Socratic_West_Answers to reflect 198 steps remaining and corrected the chronological steps-taken math.
+4. **50-Turn Plan**: Walk across the North Corridor using the verified ground-level path `['Up', 'Left', 'Up', 'Up', 'Up', 'Up', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left']` to reach the Northwest transition to Safari Zone West ground level Northwest plains (where the Secret House and teeth are located). Walk to the Secret House and obtain HM03 Surf!
+
 <hr>
 
 <h1><code>Locations/SafariZone_North</code></h1>
