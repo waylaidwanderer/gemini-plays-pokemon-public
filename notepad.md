@@ -3505,11 +3505,11 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration - Run 43 (Turn 68838 - Active)
-- **Current Status**: Standing at (33, 31) in Safari Zone North on Turn 68962, heading toward the Eastern Plateau stairs at (28, 27).
+- **Current Status**: Standing at (28, 29) in Safari Zone North on Turn 68974, heading toward the Western Plateau stairs at (22, 23).
 - **Inventory Status**: 15/20 items.
 - **Run 43 Start Turn**: Turn 68838 (June 7, 2026, 6:24 AM)
 - **Run 43 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 356 steps.
+- **Current Steps Remaining**: 345 steps.
 - **Money remaining**: ¥68,817.
 
 ## Active Campaign Plan (Run 43 Victory Route)
@@ -3539,7 +3539,7 @@ We are executing a fully optimized Run 43 ground-to-plateau dual retrieval.
 - Turn 68364: Climbed Eastern Plateau stairs at (21, 17) [climbing from (21, 18)].
 - Turn 68388: Traversed Koga's Eastern Plateau and descended Western Plateau stairs at (6, 19) to (6, 20).
 - Turn 68425: Escaped a wild battle at (6, 20).
-- Turn 68430: Ran safari_navigator_agent to synchronize steps to 339 remaining.
+- Turn 68430: Run safari_navigator_agent to synchronize steps to 339 remaining.
 - Turn 68458: Walked Left 4 steps from (6, 20) to (2, 20) (remaining: 335).
 - Turn 68469: Walked Up 6 steps along Column 2 to (2, 14) (remaining: 329).
 - Turn 68472: Empirically verified water blockage at Column 2 Row 13 (TYPE_4e8c).
@@ -3594,6 +3594,14 @@ We are executing a fully optimized Run 43 ground-to-plateau dual retrieval.
 - Turn 68905: Walked Down 1 to stairs (12, 21) and Up 7 to (12, 18) [remaining: 427].
 - Turn 68909: Walked Down 3 steps to descend the stairs to (12, 21) on ground level [remaining: 424].
 - Turn 68913: Walked Down 1, Left 3, and Up 12 to stand at (9, 10) on ground level [remaining: 408].
+- Turn 68922: Bypassed a tall grass patch in Safari Zone East by navigating through (10, 10) and (10, 8) to reach (9, 8) [remaining: 404].
+- Turn 68935: Climbed northern stairs in Safari Zone East at (12, 7) to (12, 6) [z=1] and descended eastern stairs at (17, 7) to (17, 8) [z=0] [remaining: 392].
+- Turn 68947: Traversed ground level in Safari Zone East to (20, 3) and then walked to (9, 5) [remaining: 371].
+- Turn 68956: Walked Left 9 steps to (0, 5) and transitioned to Safari Zone North at (39, 31) [remaining: 362].
+- Turn 68962: Walked Left 6 steps along Row 31 to (33, 31) [remaining: 356].
+- Turn 68964: Walked Left 5 steps along Row 31 to (28, 31) [remaining: 351].
+- Turn 68968: Walked Up 4 steps along Column 28 to climb Eastern stairs at (28, 27) [remaining: 347].
+- Turn 68970: Walked Down 2 steps to descend Eastern stairs to (28, 29) [remaining: 345].
 
 <hr>
 
