@@ -3503,11 +3503,11 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
-# Safari Zone West Exploration - Run 39 (Turn 66949 - Active)
-- **Current Status**: Standing on ground level at (14, 28) [z=0] in Fuchsia City (Map 0_7) on Turn 66949 with exactly 185 remaining steps. We have successfully used DIG to escape the Safari Zone after physically confirming the Column 3 Row 13 water blockage. We are currently routing to Koga's horizontal street gap on Column 9/8 to bypass the buildings and reach the Gatehouse to begin Run 40!
+# Safari Zone West Exploration - Run 39 (Turn 66958 - Active)
+- **Current Status**: Standing on ground level at (10, 28) [z=0] in Fuchsia City (Map 0_7) on Turn 66958 with exactly 181 remaining steps. We are currently walking Left to Column 4 to bypass Koga's Gym to reach the Gatehouse to begin Run 40!
 - **Inventory Status**: 15/20 items.
 - **Run 39 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 185 steps.
+- **Current Steps Remaining**: 181 steps.
 - **Money remaining**: ¥70,817.
 
 ## Master Run 39 Campaign Plan (Double-Retrieval Route)
