@@ -3503,11 +3503,11 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
-# Safari Zone West Exploration - Run 39 (Turn 66619 - Active)
-- **Current Status**: Standing on ground level at the Northwest Exit at (0, 5) in Safari Zone East (Map 0_217) on Turn 66619. Preparing to transition West to Safari Zone North (Map 0_218).
+# Safari Zone West Exploration - Run 39 (Turn 66622 - Active)
+- **Current Status**: Standing on ground level at (39, 31) in Safari Zone North (Map 0_218) on Turn 66622. Preparing to walk Left 11 steps along Row 31 to stand at (28, 31).
 - **Inventory Status**: 15/20 items.
 - **Run 39 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 374 steps.
+- **Current Steps Remaining**: 373 steps.
 - **Money remaining**: ¥70,817.
 
 ## Master Run 39 Campaign Plan (Double-Retrieval Route)
