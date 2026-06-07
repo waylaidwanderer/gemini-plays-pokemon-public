@@ -26,8 +26,8 @@
   - **The Intended Path**:
     1. Enter Map 0_217 at (0, 22). Walk East along Row 22 to Column 5, bypass the Rest House via Row 24, and walk East to Column 20.
     2. Walk UP the wooden stairs at (20, 21) (TYPE_4b8d) onto the high plateau.
-    3. Walk across the plateau to the West side.
-    4. Walk DOWN the western stairs at (11, 20) (TYPE_2770) to land on the ground level of the isolated central corridor.
-    5. Walk East on Row 8 from (9, 8) to (12, 8), climb the northern stairs at (12, 7) onto the high plateau at (12, 6).
-    6. To transition to Safari Zone North (Area 2): Walk East to the eastern ground level (Columns 20-22), walk North along Column 21 to the northern grass corridor (Rows 1-3), and walk West along Row 2/3 all the way to the northwest transition at Column 0 to exit into Safari Zone North (Area 2).
+    3. Walk across the plateau crossover Row 18 horizontally to the West side at (12, 18).
+    4. Walk DOWN Koga's Western stairs at (12, 21) to land on ground level at (12, 22).
+    5. Walk Left to (9, 22), and walk UP Column 9 directly to reach the northern grass corridor at Row 3.
+    6. Walk Left along Row 3 all the way to the northwest transition at Column 0 to exit into Safari Zone North (Area 2).
 - **Tall Grass (9, 9) Bypass Corridor**: The central vertical corridor from (9, 12) to (9, 8) is fully verified as 100% passable. The tall grass patch at (9, 9) can be completely bypassed with zero grass exposure and 0% wild encounters by walking: Up to (9, 10), Right to (10, 10), Up, Up to (10, 8), and Left to (9, 8). (Verified on Turn 44398)
