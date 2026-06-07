@@ -96,3 +96,13 @@ We will bypass Koga's plateau entirely on Run 42 by using the edge-to-edge trans
 - Turn 68187: Syncing step budget via safari_navigator_agent (0 steps used, 399 remaining).
 - Turn 68214: Walked Left 5 steps from (21, 3) to stand at (16, 3) (5 steps used, 390 remaining).
 - Turn 68219: Walked Left 6 steps from (16, 3) to stand at (10, 3) (6 steps used, 384 remaining).
+- Turn 68232: Walked Left 1, Down 2, Left 3 to stand at (6, 5) on Row 5 (6 steps used, 378 remaining).
+- Turn 68234: Walked Left 6 steps along Row 5 to stand at (0, 5) (6 steps used, 372 remaining).
+- Turn 68236: Walked Left 1 step to transition into Safari Zone North, landing at (39, 31) (1 step used, 371 remaining).
+- Turn 68245: Walked Left 5 steps along Row 31 from (39, 31) to stand at (34, 31) (5 steps used, 366 remaining).
+- Turn 68247: Walked Left 5 steps along Row 31 from (34, 31) to stand at (29, 31) (5 steps used, 361 remaining).
+- Turn 68252: Walked Left 1 and Up 4 steps from (29, 31) to stand on the stairs at (28, 27) (5 steps used, 356 remaining).
+- Turn 68263: Walked Up 1 step from (28, 27) to stand on the Eastern Plateau at (28, 26) (1 step used, 355 remaining).
+- Turn 68267: Walked Down 2 steps to descend the Eastern Plateau stairs to ground level at (28, 28) (2 steps used, 353 remaining).
+- Turn 68272: Walked Down 1 step and Left 6 steps to stand at (22, 29) (7 steps used, 346 remaining).
+- Turn 68291: Walked Up 6 steps along Column 22 to stand on the Western Plateau stairs at (22, 23) (6 steps used, 340 remaining).
