@@ -3576,6 +3576,9 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 67798: Walked Up 2, Right 1, Up 1 to enter Rest House 3 at (11, 11) [z=0] (4 steps used, 177 remaining).
 - Turn 67803: Map transition to Map 0_223 (Rest House 3 interior) (0 steps used, 177 remaining).
 - Turn 67832: Standing at (5, 3) inside Rest House 3 (0 steps used, 177 remaining).
+- Turn 67881: Walked to exit door at (2, 8) inside Rest House 3.
+- Turn 67883: Exited Rest House 3 to Safari Zone West (Map 0_219) at (11, 12) [z=0] (0 steps used, 177 remaining).
+- Turn 67893: Standing at (11, 12) outside Rest House 3 (0 steps used, 177 remaining).
 
 <hr>
 
