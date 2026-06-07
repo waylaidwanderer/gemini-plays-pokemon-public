@@ -1,10 +1,12 @@
-# Fuchsia City Gatehouse Routing - Turn 66991 (Active)
-- **Current Status**: Standing on ground level at (24, 20) [z=0] in Fuchsia City (Map 0_7) on Turn 66991. Ready to walk Left 6 steps on Row 20 to (18, 20) and CUT the bush at (18, 19).
+# Safari Zone West Exploration - Run 40 (Turn 67024 - Active)
+- **Current Status**: Inside Safari Zone Gatehouse (Map 0_156) at (3, 5) on Turn 67024. Ready to register for Run 40!
 - **Inventory Status**: 15/20 items.
+- **Run 40 Starting Steps**: 500 steps.
+- **Current Steps Remaining**: 500 steps.
 - **Money remaining**: ¥70,817.
 
-## Master Run 39 Campaign Plan (Double-Retrieval Route)
-- **Segment 1: Safari Zone Center (Start to stand at East Exit at (29, 11))** [27 steps - COMPLETED]:
+## Master Run 40 Campaign Plan (Double-Retrieval Route)
+- **Segment 1: Safari Zone Center (Start to stand at East Exit at (29, 11))** [27 steps]:
   - Starting at (15, 25), walked Up 9 steps along Column 15 to (15, 16) -> **9 steps** [491 remaining].
   - Walked Right 5 steps along Row 16 to (20, 16) -> **5 steps** [486 remaining].
   - Walked Up 2 steps along Column 20 through fence gap to (20, 14) -> **2 steps** [484 remaining].
