@@ -56,3 +56,9 @@ We are navigating to Safari Zone West via the Eastern Ground Corridor of Safari 
 - Turn 70118: Walked across Row 14, then Down along Column 22 to stand at (22, 18) [z=1].
 - Turn 70130: Walked Left along Row 18, and descended Koga's Western stairs at (12, 21) to land on ground level at (12, 22) [z=0].
 - Turn 70141: Walked Left 3 steps to (9, 22) and Up 9 steps along Column 9 to stand at (9, 13) [z=0] facing Up.
+- Turn 70151: Bypassed the tall grass at (9, 9) by walking Up to (9, 10), Right to (10, 10), Up to (10, 8), and Left to (9, 8) [z=0] [7 steps used, 404 remaining].
+- Turn 70152: Attempted plateau crossover sequence, walked to (12, 8) [z=0] and stepped onto (12, 7) [z=0] [4 steps used, 400 remaining].
+- Turn 70162: Stepped Up from (12, 8) to (12, 7) [z=0] to align facing direction [1 step used, 399 remaining].
+- Turn 70166: Walked Left 2 steps, and Down 4 steps from (14, 4) to descend Northern stairs to (12, 8) [z=0] [6 steps used, 393 remaining].
+- Turn 70167: Executed a 20-step grass-free crossover sequence: climbed stairs at (12, 7) to (12, 6) [z=1], crossed East to (17, 6), descended at (17, 7) to (17, 8) [z=0], walked around lake via Column 20 to (20, 3) [z=0], and Left to (17, 3) [z=0] [20 steps used, 373 remaining].
+- Turn 70172: Verified our position at (17, 3) [z=0] facing Left, ready to traverse the northern grass corridor [368 steps remaining].
