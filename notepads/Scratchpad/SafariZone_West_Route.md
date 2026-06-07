@@ -1,8 +1,8 @@
-# Safari Zone West Exploration - Run 41 (Turn 67805 - Active)
-- **Current Status**: Standing at (2, 7) [z=0] inside Rest House 3 (Map 0_223) on Turn 67805.
+# Safari Zone West Exploration - Run 41 (Turn 67832 - Active)
+- **Current Status**: Standing at (5, 3) [z=0] inside Rest House 3 (Map 0_223) on Turn 67832.
 - **Inventory Status**: 15/20 items.
 - **Run 41 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 172 steps.
+- **Current Steps Remaining**: 177 steps (Synced/Reconciled).
 - **Money remaining**: ¥69,817.
 
 ## Active Campaign Plan (Inside Rest House 3 and Ground Route to North)
@@ -19,21 +19,28 @@
 - **Socratic Question 1 (Ledge Jump and Ledge Variables)**:
   - We stood at (11, 8) [z=1] and physically tested walking Left on Turn 67745. Result: BUMPED, physically proving that Column 10 Row 8 is a solid cliff face of TYPE_2889 and NOT a West-facing jump-down ledge. We also previously tested walking Left from Column 15 on Rows 11-15, all resulting in bumps.
   - This proves that Koga's Western Plateau (Columns 4-9 on Rows 6-13) is completely isolated from the East on Koga's plateau. Furthermore, the Southwest ground pocket is blocked on the North by Row 13 water, meaning we cannot directly walk North to the Northwest quadrant.
-  - **Verified Path to Northwest Quadrant**: Since both the Western Plateau and ground-level Southwest pocket appear blocked, we must rigorously investigate the Rest House 3 area at (11, 12) [z=0] and the unvisited ground corridor around it to locate the true route to Koga's northern plains.
+  - **Ground-Level Corridor Discovery**: There is a completely unblocked, 1-tile wide ground-level vertical corridor running along **Column 13, Rows 3-14**. Rest House 3 occupies Columns 10-12, Rows 9-11, and Koga's Western Plateau starts at Column 14. This creates a vertical ground-level gap at Column 13 which bypasses Koga's plateau entirely!
+  - Therefore, the Southwest ground pocket is **NOT** isolated on foot. From (10, 14) [z=0], we can walk Right to Column 13 and walk vertically Up along Column 13 directly onto the northern plains (Row 5/3) without any plateau climb or ledge jump!
 - **Socratic Question 2 (Detour Step Math & Reconciliation)**:
   - Starting with **399 steps remaining** at (20, 3) in Safari Zone East (Turn 67554):
-    1. Walked from (20, 3) to East-North transition at (0, 5) -> **23 steps used** (376 remaining).
-    2. Walked detour through Safari Zone North from (39, 31) to (9, 35) -> **61 steps used** (315 remaining).
-    3. Walked from West entry at (27, 0) to stairs UP at (21, 17) -> **24 steps used** (291 remaining).
-    4. Climbed stairs to (21, 16) and walked to (15, 16) -> **8 steps used** (283 remaining).
-    5. Attempted Row 6/7 path and ended up at (11, 6) -> **21 steps used** (262 remaining).
-    6. Backtracked along Row 16 to stand at (5, 16) -> **16 steps used** (246 remaining).
-    7. Backtracked along Row 16 and Column 15 to stand at (15, 13) -> **13 steps used** (233 remaining).
+    1. Walked to transition (0, 5) -> **23 steps used** (376 remaining).
+    2. Walked detour to (9, 35) in Safari Zone North -> **61 steps used** (315 remaining).
+    3. Walked to stairs UP at (21, 17) -> **24 steps used** (291 remaining).
+    4. Walked to (15, 16) -> **8 steps used** (283 remaining).
+    5. Went to (11, 6) -> **21 steps used** (262 remaining).
+    6. Walked back to (5, 16) -> **16 steps used** (246 remaining).
+    7. Backtracked to (15, 13) -> **13 steps used** (233 remaining).
     8. Walked Up to (15, 12) and (15, 11) -> **2 steps used** (231 remaining).
     9. Walked Up to (15, 8) and Left to (11, 8) -> **7 steps used** (224 remaining).
-  - This perfectly accounts for all **175 physical steps consumed** since Turn 67554, reconciling our actual remaining step count of exactly **224 steps** on Turn 67751 and resolving the desync.
+    10. Walked from (11, 8) back to (5, 16) -> **22 steps used** (202 remaining).
+    11. Descended stairs to (6, 20) -> **5 steps used** (197 remaining).
+    12. Walked Left to (3, 20) -> **3 steps used** (194 remaining).
+    13. Walked Up to (3, 14) -> **6 steps used** (188 remaining).
+    14. Walked Right to (10, 14) -> **7 steps used** (181 remaining).
+    15. Walked to Rest House 3 door (11, 11) and entered -> **4 steps used** (177 remaining).
+  - This perfectly accounts for all **222 physical overworld steps consumed** since Turn 67554, reconciling our actual remaining step count of exactly **177 steps** on Turn 67832. Internal steps inside Rest House 3 do not decrement our budget in Gen 1.
 
-## Chronological Detour Movement Log (Turns 67554 - 67751)
+## Chronological Detour Movement Log (Turns 67554 - 67832)
 - Turn 67554: Standing at (20, 3) in East with 399 steps remaining.
 - Turn 67558: Walked Left 20, Down 2 to East-North transition at (0, 5) [z=0].
 - Turn 67565: Transitioned to Safari Zone North at (39, 31) (23 steps used, 376 remaining).
@@ -54,3 +61,11 @@
 - Turn 67736: Pressed Left and bumped against Column 14 Row 11 (0 steps used).
 - Turn 67738: Walked Up 3 to (15, 8) and Left 4 to stand at (11, 8) [z=1] (7 steps used, 224 remaining).
 - Turn 67745: Pressed Left and bumped against Column 10 Row 8 (0 steps used, 224 remaining).
+- Turn 67791: Walked from (11, 8) back to (5, 16) [z=1] (22 steps used, 202 remaining).
+- Turn 67792: Descended western stairs to (6, 20) [z=0] (5 steps used, 197 remaining).
+- Turn 67793: Walked Left to (3, 20) [z=0] (3 steps used, 194 remaining).
+- Turn 67794: Walked Up to (3, 14) [z=0] (6 steps used, 188 remaining).
+- Turn 67795: Walked Right to (10, 14) [z=0] (7 steps used, 181 remaining).
+- Turn 67798: Walked Up 2, Right 1, Up 1 to enter Rest House 3 at (11, 11) [z=0] (4 steps used, 177 remaining).
+- Turn 67803: Map transition to Map 0_223 (Rest House 3 interior) (0 steps used, 177 remaining).
+- Turn 67832: Standing at (5, 3) inside Rest House 3 (0 steps used, 177 remaining).
