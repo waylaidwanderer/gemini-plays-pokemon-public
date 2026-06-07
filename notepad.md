@@ -3762,6 +3762,16 @@ We will execute both tests on foot in Run 40, document the precise turn/bump res
 - Turn 67061: Ran 'safari_navigator_agent' to synchronize coordinates and steps (7 steps used, 485 remaining).
 - Turn 67064: Walked Right 4 steps horizontally along Row 14 from (20, 14) to stand at (24, 14) (4 steps used, 481 remaining).
 - Turn 67065: Ran 'safari_navigator_agent' to synchronize coordinates and steps (4 steps used, 481 remaining).
+- Turn 67067: Walked Up 3 steps vertically along Column 24 from (24, 14) to stand at (24, 11) (3 steps used, 478 remaining).
+- Turn 67068: Ran 'safari_navigator_agent' to synchronize coordinates and steps (3 steps used, 478 remaining).
+- Turn 67069: Walked Right 6 steps along Row 11 from (24, 11) to transition East to Safari Zone East, landing at (0, 23) (1 step used, 477 remaining).
+- Turn 67071: Ran 'safari_navigator_agent' to synchronize coordinates and steps (1 step used, 477 remaining).
+- Turn 67073: Walked Right 4 steps to (4, 23), Down 1 step to (4, 24), and Right 5 steps to (9, 24) (10 steps used, 467 remaining).
+- Turn 67074: Ran 'safari_navigator_agent' to synchronize coordinates and steps (10 steps used, 467 remaining).
+- Turn 67076: Walked Right 5 steps along Row 24 from (9, 24) to stand at (14, 24) (5 steps used, 462 remaining).
+- Turn 67078: Ran 'safari_navigator_agent' to synchronize coordinates and steps (5 steps used, 462 remaining).
+- Turn 67079: Walked Right 3 steps horizontally along Row 24 from (14, 24) to stand on ground level at (17, 24) [z=0] on Turn 67080 (3 steps used, 459 remaining) [wild battle triggered].
+- Turn 67082: Ran 'safari_navigator_agent' to synchronize coordinates and steps (3 steps used, 459 remaining).
 
 <hr>
 
