@@ -3677,6 +3677,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 66865: Ran 'safari_navigator_agent' to synchronize coordinates and steps (214 remaining).
 - Turn 66880: Walked Down 6, Left 9, Down 3 to Western Stairs at (6, 19) [z=1] on Turn 66881 (18 steps used, 196 remaining).
 - Turn 66881: Ran 'safari_navigator_agent' to synchronize coordinates and steps (196 remaining).
+- Turn 66884: Walked Down 1 step to descend Western Plateau stairs to stand at (6, 20) [z=0] on Turn 66885 (1 step used, 195 remaining).
+- Turn 66885: Ran 'safari_navigator_agent' to synchronize coordinates and steps (195 remaining).
 
 <hr>
 
