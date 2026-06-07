@@ -4748,6 +4748,45 @@ We analyzed why we bumped at Column 23 on Rows 14-15 and verified that symmetric
   - Once we transition to (16, 28) [z=0], we must immediately proceed Left along Row 28 to (12, 28) to move away from the staircase coordinate, ensuring we do not walk back Up onto (16, 27).
   - Row 28 has a solid tree wall of TYPE_2889 at (17, 28), which prevents us from walking East on the ground. Row 29 and Row 30 also have tree walls at (17, 29) and (17, 30), so we are naturally routed to the West along Columns 12-16.
 
+# Socratic Answers - Plateau Descent and Safari Zone West Transition (Turn 69060)
+
+## 1. Socratic Question 1 (Plateau Ramp Jump-Down Mechanics)
+- **Koga's Plateau Bridge and Column 17 Ramp Configuration**: 
+  - Koga's Western Plateau is an elevated section at z=1 (Columns 4-16, Rows 6-13).
+  - Row 16 is a narrow 1-tile wide elevated bridge (z=1) extending horizontally from Column 5 to Column 22.
+  - Column 17 is a continuous checkered vertical ramp (TYPE_2889) from Row 6 down to Row 16.
+  - In Gen 1, checkered vertical ramps act as solid, impassable horizontal walls from the West (Column 16) and East (Column 18) on Rows 6-15, which is why we bumped when attempting to walk Right from (16, 9) into (17, 9) on Turn 69025.
+  - However, Row 16 Column 17 (17, 16) is a flat bridge crossover tile at plateau level (z=1) and is passable horizontally.
+- **Descent Plan to Northwest Ground Level**:
+  - From our current position (16, 9) [z=1], we will walk Down 7 steps to (16, 16) [z=1] and Right 1 step to (17, 16) [z=1] on Koga's bridge.
+  - Standing at (17, 16) [z=1], we can step UP (North) onto (17, 15) to enter the vertical checkered ramp from its south end. 
+  - Because the checkered ramp is a bidirectional slope, continuing vertically UP along Column 17 all the way to Row 5 transitions our elevation to z=0, landing on ground level at (17, 5) [z=0].
+  - From (17, 5) [z=0], we can walk Right 2 steps to (19, 5) and Down 2 steps to (19, 7) [z=0] to reach the Warden's Gold Teeth.
+
+## 2. Socratic Question 2 (Plateau and Bridge Ground Layout)
+- **Layout around Column 18 Row 15**:
+  - Row 15 Column 18 is ground-level tall grass (z=0, TYPE_fed7).
+  - Row 16 Column 18 is part of the elevated bridge (z=1, TYPE_2770).
+  - Row 17 Column 18 is ground-level grass (z=0, TYPE_3fe2).
+- **Horizontal Crossover Bypass**:
+  - Because Koga's bridge runs continuously on Row 16 at z=1, walking across Row 16 allows us to bypass the impassable Column 17 vertical cliff face.
+  - At ground level (z=0), the bridge at Row 16 behaves as a solid vertical wall. This prevents any vertical ground-level traversal underneath the bridge (e.g. from Row 17 [z=0] to Row 15 [z=0] on Column 18 is completely blocked by the bridge structure).
+  - Consequently, climbing onto Koga's Eastern Plateau at (21, 17) to cross Koga's bridge at z=1 is mathematically and physically mandatory to transition to the North side of the bridge (Rows 6-15) where the teeth are.
+- **Superiority of the Plateau Corridor**:
+  - The plateau level (z=1) contains zero tall grass (0% wild encounter rate) and has no obstacles, guaranteeing 100% safe, fast horizontal traversal. Walking on ground level would require crossing extensive tall grass fields on the East, only to be blocked by the impassable cliff at Column 17.
+
+## 3. Socratic Question 3 (Chronological Step-Budget Reconciliation)
+- **Turn 69060 Step Reconciliation**:
+  - Turn 68997 starting steps at (22, 22) in North: **332 steps remaining**.
+  - Walk Left 6, Down 5 across Western Plateau to stairs at (16, 27): uses 11 steps [remaining: 321].
+  - Down 1 to (16, 28) [descend stairs], Left 4 steps to (12, 28) in North: uses 5 steps [remaining: 316].
+  - Down 2 to (12, 30), Left 3 to (9, 30), Down 5 to (9, 35), Down 1 to transition to West: uses 11 steps [remaining: 305].
+  - Transitioned to Safari Zone West at (27, 0). Walked Down 10 steps to (27, 10): uses 10 steps [remaining: 295].
+  - Walked Down 8 steps to (27, 18), Left 6 steps to (21, 18): uses 14 steps [remaining: 281].
+  - Walked Up 2 steps to climb Eastern stairs from (21, 18) to (21, 16) [z=1]: uses 2 steps [remaining: 279].
+  - Walked Left 5 steps to (16, 16), Up 7 steps to (16, 9) [and bumped 3 times against (17, 9)]: uses 15 steps [remaining: 264].
+  - This perfectly reconciles with our current step budget of **264 steps remaining** on Turn 69064.
+
 <hr>
 
 <h1><code>Reflection/Turn61585_Reflection</code></h1>
