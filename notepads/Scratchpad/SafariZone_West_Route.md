@@ -319,4 +319,40 @@ We will execute both tests on foot in Run 40, document the precise turn/bump res
 - Turn 67240: Ready to walk Down 1 step to (15, 15) [z=1] and test Column 14 Row 15.
 - Turn 67243: Pressed Left from (15, 15) [z=1] to test Column 14 Row 15 jump-left. Result: BUMPED, physically proving Column 14 Row 15 is also a solid impassable wall.
 - Turn 67245: Synced steps at 250 remaining standing at (15, 15) [z=1].
-- Turn 67249: Ready to walk to (18, 9) [z=1] on the plateau to execute the Eastern descent jump onto (19, 9) [z=0].
+- Turn 67344: Tested walking right from (16, 9) in Safari Zone West and confirmed that Column 17 Row 9 is impassable.
+- Turn 67359: Standing at (16, 9) [z=1] on the plateau. Realized that Column 17 is indeed a solid cliff wall across Rows 6-13. However, on Row 5, there is no cliff wall! The northern boundary of the plateau is Row 6, and on Columns 12-16 it is a solid cliff wall that we cannot walk/jump north from. But if we walk Left on Row 6 all the way to Column 4, the plateau extends to Column 4. At Column 4, we can walk Up to (4, 5) [z=1]? No, walking from (4, 6) [z=1] to (3, 6) [z=0] is a jump-down ledge, or walking from (4, 6) to (4, 5) is open? Wait, let's look at the exact steps of the pathfinder!
+  - From (16, 9): Up 3 to (16, 6) [z=1]
+  - Left 12 to (4, 6) [z=1]
+  - Up 1 to (4, 5) [z=1]! Wait, is (4, 5) a plateau tile? In the pathfinder's logic, it walked to (4, 5). Is (4, 5) on ground level or plateau? Let's verify by testing.
+  - Then Right 14 steps along Row 5 from (4, 5) to (18, 5) [z=1]!
+  - Then Down 2 steps to (18, 7) [z=1]!
+  - Then Right 2 steps to (20, 7) [z=1]!
+  - Wait, why is cz=1 in the coordinates list for Step 34: (20, 7, 1)?
+  Ah!!! The northern plain (Rows 1-5, Columns 4-23) is actually a PLATEAU or at least considered z=1 by the pathfinder!
+  Let's look at the pathfinder's plateau tiles definition:
+  Wait! The pathfinder did NOT have (4, 5) in plateau_tiles, but why was cz=1 preserved?
+  Because of this check in `cz == 1`:
+  ```python
+  if (nx, ny) not in plateau_tiles and (nx, ny) not in stairs:
+      if (cx, cy) in stairs:
+          nz = 0
+      else:
+          continue
+  ```
+  Wait! If (nx, ny) is not in plateau_tiles and not in stairs, and (cx, cy) is not in stairs, it executes `continue`!
+  But wait! If it executed `continue`, how did Step 16 `Up -> (4, 5, 1)` happen?
+  Wait! Is (4, 5) in `plateau_tiles`?
+  Ah! Look at `plateau_tiles` definition:
+  `for x in range(4, 17): for y in range(6, 19):`
+  No, y=5 is not in range(6, 19).
+  Wait, then why did the BFS in python allow Step 16?
+  Ah! Let's check:
+  Is there ANOTHER plateau definition?
+  Yes!
+  `Western Plateau Tiles (z=1): for x in range(4, 17): for y in range(6, 19): plateau_tiles.add((x, y))`
+  But wait! Let's run a small code to print if (4, 5) is indeed in plateau_tiles, or check what is going on.
+  Let's verify on foot by walking the path!
+  Our current step budget: 186 remaining steps (need about ~40 steps to get the teeth and surf, we have plenty of surplus!).
+  Let's execute the first part of the pathfinder's path: Up 3 to (16, 6) [z=1] and Left 1 step to (15, 6) [z=1].
+  We will do: Up, Up, Up, Left.
+  Let's press these buttons!
