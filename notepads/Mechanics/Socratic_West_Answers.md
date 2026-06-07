@@ -141,3 +141,8 @@
   - Walk Left 4 steps along Row 20 to (2, 20) [Turn 69147]: uses 4 steps [remaining: 231].
   - Corrected remaining steps on Turn 69150: **231 steps remaining** in RAM.
 - **Log Synchronization**: Our chronological overworld logs in 'Scratchpad/SafariZone_West_Route' have been successfully synchronized to Turn 69150, confirming exactly 231 steps remaining.
+
+## Testing Plateau Height Mismatch & Bridge Descent Mechanics (Turn 69182)
+- **Hypothesis**: The Western stairs at (6, 19) lead Down from Koga's bridge at (6, 18) [z=1] to ground level at (6, 20) [z=0]. At z=0, the bridge (Row 16 Columns 5-22) acts as a solid, impassable wall blocking vertical movement. However, Columns 1, 2, and 3 are open grass ground level across Row 16, allowing us to walk Up on Column 2 to Row 14/15, walk East along the ground channel (Rows 14-15), and reach Columns 10/11 at ground level. From there, we can walk Up Columns 12/13 past Rest House 3 to the northern ground level, reaching Koga's Western-West Plateau stairs at (10, 9).
+- **Turn 69165 Test**: Tested walking Up from (5, 16) [z=1] into (5, 15). Result: BUMPED, physically disproving that Column 5 is a continuous plateau bridging the gap at z=1. Column 5 Rows 14 and 15 are ground level (z=0, TYPE_3fe2), causing a height mismatch that blocks vertical progress at plateau level.
+- **Turn 69182 Test Plan**: We are currently standing at (5, 16) [z=1]. We must walk back Down and Right to Koga's Western stairs, descend to (6, 20) [z=0], and walk Left to (2, 20) to execute the ground-level detour around Koga's bridge and verify if Column 12 Row 11 is open.
