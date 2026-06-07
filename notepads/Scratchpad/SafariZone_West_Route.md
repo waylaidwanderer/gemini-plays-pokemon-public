@@ -1,10 +1,10 @@
-# Safari Zone West Exploration - Run 43 (Turn 68838 - Active)
-- **Current Status**: Standing at (17, 14) in Safari Zone West on Turn 69422 on plateau level z=1.
-- **Inventory Status**: 15/20 items.
-- **Run 43 Start Turn**: Turn 68838 (June 7, 2026, 6:24 AM)
-- **Run 43 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 115 steps.
-- **Money remaining**: ¥68,817.
+# Safari Zone West Exploration - Run 44 (Turn 69460 - Active)
+- **Current Status**: Standing at (15, 25) in Safari Zone Center on Turn 69460 on ground level.
+- **Inventory Status**: 15/20 items, 30 Safari Balls.
+- **Run 44 Start Turn**: Turn 69460 (June 7, 2026, 9:31 AM)
+- **Run 44 Starting Steps**: 500 steps.
+- **Current Steps Remaining**: 500 steps.
+- **Money remaining**: ¥68,317.
 
 ## Active Campaign Plan (Run 43 Victory Route)
 We are executing a fully optimized Run 43 ground-to-plateau dual retrieval.
