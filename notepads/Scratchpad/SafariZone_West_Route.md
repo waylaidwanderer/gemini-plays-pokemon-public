@@ -214,3 +214,10 @@ With 247 steps remaining standing at (6, 20):
 - Turn 66475: Walked Right 2 steps to (18, 6) and Up 3 steps to enter the Safari Zone Gatehouse, landing at (3, 5) on Turn 66476.
 - Turn 66479: Walked Up 3 steps to stand on (3, 2) to trigger the Gatekeeper check-in dialogue on Turn 66480.
 - Turn 66483: Active in dialogue at (3, 2). Preparing to pay ¥500 and start Run 39.
+- Turn 66487: Pressed A to advance "Welcome to the SAFARI ZONE!" text. Text auto-advanced and choice appeared.
+- Turn 66489: Pressed A on "YES" choice, paid ¥500 fee, received 30 Safari Balls, and transitioned into Safari Zone Center at starting coordinates (15, 25) with exactly 500 steps remaining.
+- Turn 66491: Ran 'safari_navigator_agent' to synchronize coordinates and steps (Map transition cost of 1 step applied, 499 steps remaining).
+- Turn 66494: Walked Up 9 steps along Column 15 to stand at (15, 16) on Turn 66495 (9 steps used, 490 remaining).
+- Turn 66495: Ran 'safari_navigator_agent' to synchronize coordinates and steps (9 steps used, 490 remaining).
+- Turn 66496: Walked Right 5 steps to (20, 16) and Up 2 steps through the fence gap to stand at (20, 14) on Turn 66497 (7 steps used, 483 remaining).
+- Turn 66497: Ran 'safari_navigator_agent' to synchronize coordinates and steps (7 steps used, 483 remaining).
