@@ -1907,3 +1907,58 @@ Standing at (16, 28) [z=0] in Safari Zone North (Map 0_218) on Turn 66663 with 3
   Adding these sub-segments: `17 + 7 + 2 = 26 steps`.
 - **Resolution**:
   The individual sub-segments are 100% physically and geographically accurate on the overworld. The "[23 steps]" label in the title was a simple arithmetic typo where the 3-step climb stairs was omitted. The true step total for Segment 4 is **26 steps**, which we have verified and updated in our scratchpad to maintain perfect mathematical consistency.
+
+---
+
+## Turn 66696 Socratic Answers (Reconciled Upcoming West Plateau Route & Invariance Algebraic Proof)
+
+### Socratic Question 1: Upcoming Route and Step-by-Step Math from (21, 18) [z=0]
+Standing at (21, 18) [z=0] in Safari Zone West (Map 0_219) on Turn 66696 with exactly 288 synced remaining steps:
+- **Segment 4b: Climb Eastern Stairs UP onto Plateau** [2 steps, 286 remaining]:
+  - Walk Up 1 step to stand on stairs at (21, 17) [z=1/0] -> **1 step** [287 remaining].
+  - Walk Up 1 step to stand fully on Eastern Plateau at (21, 16) [z=1] -> **1 step** [286 remaining].
+- **Segment 5: Traverse Western Plateau and jump West over Column 4 Ledge to stand at (3, 3) [z=0]** [31 steps, 255 remaining]:
+  - Walk Left 15 steps horizontally along Row 16 from (21, 16) to (6, 16) [z=1] -> **15 steps** [271 remaining].
+  - Walk vertically along Column 6 from (6, 16) to Column 6 Row y on the plateau [z=1] -> **|16 - y| = 16 - y steps** (since y <= 15).
+  - Walk Left 2 steps horizontally from (6, y) to stand on Column 4 ledge at (4, y) [z=1] -> **2 steps**.
+  - Walk Left 1 step to jump West over the vertical ledge from (4, y, 1) onto ground level Column 3 at (3, y) [z=0] -> **1 step**.
+  - Walk vertically along Column 3 from (3, y) to stand at the Secret House door at (3, 3) [z=0] -> **|y - 3| = y - 3 steps** (since y >= 6).
+  - *Symmetry Sum*: (16 - y) + 2 + 1 + (y - 3) = **16 steps** to walk from (6, 16) to (3, 3).
+  - Combined with the 15-step plateau traverse: 15 + 16 = **31 steps**.
+  - Remaining steps at the Secret House door (3, 3): 286 - 31 = **255 remaining steps**.
+  - Retrieve **HM03 Surf** [0 steps, 255 remaining].
+- **Segment 6: Retrieve Teeth and Escape using DIG** [20 steps, 235 remaining]:
+  - From (3, 3) [z=0], walk Down 4 steps along Column 3 to stand at (3, 7) [z=0] -> **4 steps** [251 remaining].
+  - Walk Right 16 steps horizontally along Row 7 from (3, 7) to Column 19 at (19, 7) [z=0] to stand on and retrieve Warden's Gold Teeth -> **16 steps** [235 remaining].
+  - Retrieve Warden's Gold Teeth (0 steps).
+  - Use DIG to instantly warp back to Fuchsia City -> **0 steps** [235 remaining].
+- **Headroom Margin Proof**:
+  - Total physical steps required to complete campaign from (21, 18): **53 steps**.
+  - Remaining step budget at (21, 18): **288 steps**.
+  - Surplus margin at completion: **235 steps remaining**.
+  - Margin ratio: `235 / 53 * 100% = 443.4%` surplus safety headroom margin!
+This mathematically proves that our remaining budget of 288 steps provides over **440% safety headroom**, mathematically guaranteeing absolute campaign success on foot in Run 39 without any risk of running out of steps.
+
+---
+
+### Socratic Question 2: Algebraic Proof of y-Coordinate Cancellation
+To mathematically prove why the total steps required to traverse from (6, 16) [z=1] to stand at the Secret House door at (3, 3) [z=0] via a West-facing jump-down ledge at Column 4 Row y (where 6 <= y <= 15) is ALWAYS exactly **16 steps** regardless of which row y is unblocked, we analyze the individual sub-segments:
+- Let `S_plat_v` be the vertical steps walked along Column 6 on the plateau from Row 16 to Row y:
+  `S_plat_v = |16 - y| = 16 - y` (since y <= 15).
+- Let `S_plat_h` be the horizontal steps walked Left along Row y from Column 6 to Column 4:
+  `S_plat_h = 2` steps.
+- Let `S_jump` be the transition step Left from Column 4 to Column 3 over the ledge:
+  `S_jump = 1` step.
+- Let `S_grnd_v` be the vertical steps walked along Column 3 from Row y to the door at Row 3:
+  `S_grnd_v = |y - 3| = y - 3` (since y >= 6, y > 3).
+
+We sum these sub-segments to calculate the total path length `S_total`:
+```
+S_total = S_plat_v + S_plat_h + S_jump + S_grnd_v
+S_total = (16 - y) + 2 + 1 + (y - 3)
+S_total = 16 - y + 2 + 1 + y - 3
+S_total = (16 + 2 + 1 - 3) + (y - y)
+S_total = 16 + 0
+S_total = 16 steps!
+```
+Because the positive vertical distance change on the plateau is exactly offset by the negative vertical distance change on the ground level, the variable `y` cancels out of the algebraic sum completely! This elegant cancellation proves that the total path length is completely invariant of the jump row `y` on the Column 4 Western edge.
