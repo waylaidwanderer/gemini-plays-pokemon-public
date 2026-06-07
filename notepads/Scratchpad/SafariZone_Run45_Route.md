@@ -63,3 +63,10 @@ We are navigating to Safari Zone West via the Eastern Ground Corridor of Safari 
 - Turn 70166: Walked Left 2 steps, and Down 4 steps from (14, 4) to descend Northern stairs to (12, 8) [z=0] [6 steps used, 393 remaining].
 - Turn 70167: Executed a 20-step grass-free crossover sequence: climbed stairs at (12, 7) to (12, 6) [z=1], crossed East to (17, 6), descended at (17, 7) to (17, 8) [z=0], walked around lake via Column 20 to (20, 3) [z=0], and Left to (17, 3) [z=0] [20 steps used, 373 remaining].
 - Turn 70172: Verified our position at (17, 3) [z=0] facing Left, ready to traverse the northern grass corridor [368 steps remaining].
+- Turn 70206: Walked Left 4, Up 6, and Right 8 steps from (6, 20) to stand at (10, 14) [z=0] [18 steps used, 213 remaining].
+- Turn 70211: Walked Right 1, Up 2 steps to stand at (11, 12) [z=0] directly in front of Rest House 3 door [3 steps used, 210 remaining].
+- Turn 70214: Walked Up 1 step into (11, 11) to enter Rest House 3 (Map 0_223) at (2, 7) [1 step used, 209 remaining].
+- Turn 70218: Walked Left 1, Down 4 steps to exit Rest House 3 and return to (11, 12) [z=0] outside [5 steps used, 204 remaining].
+- Turn 70221: Walked Down 1, Right 2, Up 1 to reach (13, 12) and test Column 13 Row 11 by walking Up. Resulted in a bump, indicating a temporary block by a wandering NPC [5 steps used, 199 remaining].
+- Turn 70223: Walked Down 1, Left 3, Up 1 to reach (10, 12) and test Column 10 Row 11 by walking Up. Resulted in a bump, confirming Column 10 is blocked by a static house wall [6 steps used, 193 remaining].
+- Turn 70241: Standing at (10, 12) [z=0] facing Up with 193 steps remaining. Redefined safari_pathfinder and ready to execute the Column 13 ground detour.
