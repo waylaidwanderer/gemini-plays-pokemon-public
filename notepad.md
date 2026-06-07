@@ -3598,6 +3598,11 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 66567: Ran 'safari_navigator_agent' to synchronize coordinates and steps (5 steps used, 408 remaining).
 - Turn 66574: Walked Right 3 steps horizontally along Row 8 from (17, 8) to stand at (20, 8) on Turn 66577 (3 steps used, 403 remaining).
 - Turn 66578: Ran 'safari_navigator_agent' to synchronize coordinates and steps (3 steps used, 403 remaining).
+- Turn 66583: Walked Up 5 steps along Column 20 from (20, 8) to stand at (20, 3) on Turn 66584 (5 steps used, 398 remaining).
+- Turn 66584: Ran 'safari_navigator_agent' to synchronize coordinates and steps (5 steps used, 398 remaining).
+- Turn 66586: Walked Left 8 steps horizontally along Row 3 from (20, 3) to stand at (12, 3) on Turn 66587 (8 steps used, 390 remaining) [wild encounter with Nidoran♀].
+- Turn 66589: Navigated battle menu (Down, Right) to select RUN and escaped on Turn 66590.
+- Turn 66590: Ran 'safari_navigator_agent' to synchronize coordinates and steps (8 steps used, 390 remaining).
 
 <hr>
 
