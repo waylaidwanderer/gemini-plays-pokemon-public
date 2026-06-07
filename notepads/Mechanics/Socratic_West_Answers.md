@@ -68,19 +68,19 @@ We reconcile this physical contradiction by analyzing the row-by-row layout of C
               - This explains why pressing Right at (16, 9) bumped! There is no plateau on Column 17 Row 9!
 
 ## 3. Systematic Testing Protocol and Definitive Path
-- **Conclusive Ground-Level Corridor (VERIFIED on Turn 67832)**:
-  - Through extensive coordinate tracing, we have successfully solved Koga's regional layout puzzle: the Southwest ground-level pocket is **NOT** mathematically isolated!
-  - There is a completely unblocked, 1-tile wide ground-level corridor running vertically on **Column 13, Rows 3-14** [z=0].
-  - **Layout Details**:
-    - Rest House 3 occupies Columns 10-12, Rows 9-11 [z=0].
-    - Koga's Western Plateau occupies Column 14 on Rows 12-15 [z=1] and Columns 14-16 on Rows 6-13 [z=1].
-    - Row 14 is open ground level (`TYPE_3fe2`) from Column 3 all the way to Column 13.
-    - This leaves **Column 13** on ground level completely unblocked from Row 14 up to Row 3, providing a direct vertical pathway onto the northern plains!
-  - **Definitive No-Plateau Path to Northern Plains**:
-    1. Descend western stairs at (6, 19) [z=1] to (6, 20) [z=0].
-    2. Walk Left 3 to (3, 20) [z=0], Up 6 to (3, 14) [z=0], and Right 10 to (13, 14) [z=0].
-    3. Walk Up 7 steps along Column 13 to stand at (13, 7) [z=0] on the northern plains!
-    - This elegant path costs exactly **31 physical overworld steps** from the stairs at (6, 19) to the northern plains at (13, 7), completely bypassing Koga's plateau and any ledge jumps! This is the canonical ground route!
+- **Falsification of the Column 13 Corridor Hypothesis (Conclusive Proof on Turn 67902)**:
+  - On Turn 67832, we hypothesized that Column 13 provides an unblocked, 1-tile wide ground-level corridor on Rows 3-14 bypassing Koga's plateau.
+  - **Empirical Test Protocol (Turn 67898-67902)**:
+    - We walked to (13, 13) [z=0] and attempted to walk Up 2 steps along Column 13 to stand at (13, 11).
+    - **Test Results**:
+      - Step 1 (Turn 67898): Walked Down 1 to (11, 13) [z=0]. Passable.
+      - Step 2 (Turn 67899): Walked Right 2 to (13, 13) [z=0]. Passable.
+      - Step 3 (Turn 67901): Pressed Up, Up to walk to (13, 11).
+        - **First Up (Turn 67902)**: Arrived at (13, 12) [z=0]. Passable (`TYPE_3fe2`).
+        - **Second Up (Turn 67902)**: Hit a solid collision barrier and BUMPED against Column 13, Row 11 (`TYPE_2889`). Visited 1 tile for 2 movement presses.
+    - **Empirical Conclusion**: Column 13 on Row 11 is completely blocked by the solid building wall of Rest House 3 (`TYPE_2889`).
+    - **Regional Layout Solution**: Since Column 13 Row 11 is solid wall, and Column 14 is solid cliff, there is **zero** ground-level bypass. The Southwest ground pocket is indeed **100% mathematically and physically isolated** from the northern plains on foot.
+    - Backtracking UP onto the Western Plateau via the stairs at (6, 19) is **strictly mandatory** to reach the northern plains and retrieve Warden's Gold Teeth and Surf!
 
 ## 4. Run 40 Physical Test Results
 - **Test 1 (Row 18 Column 24 Passability)**:
