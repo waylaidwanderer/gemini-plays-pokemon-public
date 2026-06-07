@@ -3504,12 +3504,12 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
-# Safari Zone West Exploration - Run 42 (Turn 68106 - Preparing)
-- **Current Status**: Paying the Gatekeeper in Safari Zone Gatehouse to start Run 42.
+# Safari Zone West Exploration - Run 42 (Turn 68131 - Active)
+- **Current Status**: Standing at (29, 11) on the Eastern edge of Safari Zone Center, preparing to transition to Safari Zone East on Turn 68131.
 - **Inventory Status**: 15/20 items.
 - **Run 42 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 500 steps.
-- **Money remaining**: ¥69,817.
+- **Current Steps Remaining**: 469 steps.
+- **Money remaining**: ¥69,317 (paid ¥500 entry fee).
 
 ## Active Campaign Plan (Run 42 Ground Bypass Victory Route)
 We will bypass Koga's plateau entirely on Run 42 by using the edge-to-edge transition on the western ground level of Safari Zone North (Row 35, Columns 2-7), which mathematically transitions us directly onto the open ground-level plains of Safari Zone West (Row 0, Columns 20-25) with zero plateaus to climb!
