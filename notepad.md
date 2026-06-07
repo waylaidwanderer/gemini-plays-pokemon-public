@@ -3559,6 +3559,11 @@ We are executing a fully optimized Run 44 ground-to-plateau detour to retrieve t
 - **Turn 69744**: Traversed Koga's bridge horizontally, walking Left along Row 16 to (17, 16) [z=1] with 237 steps remaining.
 - **Turn 69776**: Walked Up 2 steps along Column 17 from (17, 16) to (17, 14) [z=1].
 - **Turn 69777**: Tested walking Up from (17, 14) into (17, 13) (the checkered vertical ramp TYPE_2889). Bumped, physically proving the checkered vertical ramp is completely impassable from Row 14.
+- **Turn 69793**: Backtracked Down 2 steps along Column 17 from (17, 14) to (17, 16) [z=1] with 254 steps remaining.
+- **Turn 69797**: Backtracked Left 6 steps along Row 16 from (17, 16) to (11, 16) [z=1] with 248 steps remaining.
+- **Turn 69798**: Backtracked Left 5 steps along Row 16 from (11, 16) to (6, 16) [z=1] with 243 steps remaining.
+- **Turn 69799**: Walked Down 3 steps from (6, 16) to (6, 19) [z=1] with 240 steps remaining, standing on the top of Koga's Western stairs.
+- **Turn 69801**: Walked Down 1 step from (6, 19) to descend Koga's Western stairs to ground level at (6, 20) [z=0] with 239 steps remaining.
 
 <hr>
 
