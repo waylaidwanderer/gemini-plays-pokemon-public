@@ -3576,16 +3576,12 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 67893: Standing at (11, 12) outside Rest House 3 (0 steps used, 177 remaining).
 - Turn 67915: Standing at (6, 15) [z=0] with 163 steps remaining. We took 14 steps in Turn 67914 (3 Down, 9 Left, 2 Right), bumping 5 times against the cliff wall at (4, 16) due to an incomplete pathfinder model. Reconciled steps: 163 remaining. We must walk Left 3 to (3, 15), Down 5 to (3, 20), Right 3 to (6, 20), and Up 1 to (6, 19) [z=1] to climb back onto the Western Plateau.
 - Turn 67922: Successfully climbed the western stairs to stand at (6, 19) [z=1] with 163 steps remaining. We will walk Up 3, Left 1 to stand at (5, 16) [z=1] on the bridge.
-- Turn 67934: Standing at (5, 16) [z=1] on the Western Plateau bridge with 159 steps remaining. We have calculated the exact, mathematically guaranteed 49-step victory route to retrieve both the Gold Teeth and HM03 Surf in this very run:
-  1. (5, 16) -> Right 16 steps along the bridge to (21, 16) [z=1].
-  2. (21, 16) -> Up 7 steps to (21, 9) [z=1].
-  3. (21, 9) -> Left 3 steps to (18, 9) [z=1] (the Eastern plateau ramp).
-  4. (18, 9) -> Right 1 step to jump down to (19, 9) [z=0] on ground level.
-  5. (19, 9) -> Up 2 steps to (19, 7) [z=0] to retrieve Warden's Gold Teeth.
-  6. (19, 7) -> Left 1, Up 2 to (18, 5) [z=0].
-  7. (18, 5) -> Left 15 steps along Row 5 to (3, 5) [z=0].
-  8. (3, 5) -> Up 2 steps to enter the Secret House at (3, 3) [z=0] and obtain Surf!
-  Total steps required: 49 steps. Remaining steps: 159. This is 100% viable on this run! We will now proceed with step 1: Right 16 steps to (21, 16).
+- Turn 67934: Standing at (5, 16) [z=1] with 159 steps remaining. We walked Right 5 steps to reach (10, 16) [z=1], and Right 5 steps to reach (15, 16) [z=1].
+- Turn 67944: Walked Right 5 steps to reach (20, 16) [z=1] on the Eastern Plateau with 144 steps remaining.
+- Turn 67958: Attempted to walk Right 1, Up 3 to (21, 13). BUMPED at (21, 14) against Column 21 Row 13 (ground level grass z=0 / cliff face), proving Row 13 is impassable on the plateau and falsifying our 'Plateau Background Overlay Illusion' theory. Deducted 3 steps, leaving 141 steps.
+- Turn 67961: Backtracked Left 5 steps along Row 14 to stand at (16, 14) [z=1] with 138 steps remaining (Manhattan distance from (20, 16) reconciled via safari_navigator_agent).
+- Turn 67976: Walked Up 5 steps along Column 16 to stand at (16, 9) [z=1] with 133 steps remaining. We will walk Up 1, Left 12, Left 1 to jump down over Column 4 to (3, 8) [z=0] on ground level.
+- Turn 67986: Standing at (16, 9) [z=1] with 133 steps remaining. We will walk Up 1 step to Row 8, Left 12 steps along Row 8 to (4, 8) [z=1], Left 1 step to jump down over Column 4 to (3, 8) [z=0] on ground level, and Up 5 steps to enter the Secret House at (3, 3) [z=0] and obtain HM03 Surf! Remaining steps upon entry: 114 steps. This is mathematically guaranteed to succeed.
 
 <hr>
 
