@@ -3505,11 +3505,11 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
 # Safari Zone West Exploration - Run 43 (Turn 68838 - Active)
-- **Current Status**: Standing at (16, 27) in Safari Zone North on Turn 68999, heading toward the West Descent Stairs to transition to Safari Zone West.
+- **Current Status**: Standing at (12, 28) in Safari Zone North on Turn 69008, heading to transition to Safari Zone West.
 - **Inventory Status**: 15/20 items.
 - **Run 43 Start Turn**: Turn 68838 (June 7, 2026, 6:24 AM)
 - **Run 43 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 321 steps.
+- **Current Steps Remaining**: 316 steps.
 - **Money remaining**: ¥68,817.
 
 ## Active Campaign Plan (Run 43 Victory Route)
@@ -3608,6 +3608,7 @@ We are executing a fully optimized Run 43 ground-to-plateau dual retrieval.
 - Turn 68993: Walked Up 2 steps along Column 22 to (22, 23) [remaining: 333].
 - Turn 68996: Walked Up 1 step to climb the stairs onto the plateau at (22, 22) [z=1] [remaining: 332].
 - Turn 68997: Walked Left 6 and Down 5 steps across the grass-free Western Plateau to reach the West Descent Stairs at (16, 27) [z=1] [remaining: 321].
+- Turn 69007: Walked Down 1 and Left 4 steps to (12, 28) [remaining: 316].
 
 <hr>
 
