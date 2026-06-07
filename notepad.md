@@ -3503,9 +3503,11 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
-# Safari Zone West Exploration - Run 38 Completed (Turn 65654 - 66428)
-- **Current Status**: Standing at (18, 20) in Fuchsia City (Map 0_7) on Turn 66449. Facing UP toward the cuttable bush at (18, 19). Preparing to cut and head to the Safari Gatehouse to start Run 39.
+# Safari Zone West Exploration - Run 39 (Turn 66483 - Active)
+- **Current Status**: Standing at (3, 2) in the Safari Gatehouse (Map 0_156) on Turn 66483. Dialogue triggered. Preparing to pay ¥500 and start Run 39.
 - **Inventory Status**: 15/20 items.
+- **Run 39 Starting Steps**: 500 steps.
+- **Money remaining after entry**: ¥70,817.
 
 ## Run 38 Core Hypothesis & Testing Plan (Warden's Gold Teeth & HM03 Surf)
 - **The Core Hypothesis**: Column 14 Row 12 and Row 13 on the plateau level (z=1) contain an unblocked, passable West-facing jump-down ledge. Socratic Answer Turn 65204 proved that all prior records of bumps on these rows were hallucinated, and they have never actually been tested on foot.
