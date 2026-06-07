@@ -1,8 +1,8 @@
-# Safari Zone West Exploration - Run 42 (Turn 68161 - Active)
-- **Current Status**: Standing at (12, 22) on ground level in Safari Zone East on Turn 68161.
+# Safari Zone West Exploration - Run 42 (Turn 68164 - Active)
+- **Current Status**: Standing at (9, 18) on ground level in Safari Zone East on Turn 68164.
 - **Inventory Status**: 15/20 items.
 - **Run 42 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 433 steps.
+- **Current Steps Remaining**: 426 steps.
 - **Money remaining**: ¥69,317 (paid ¥500 entry fee).
 
 ## Active Campaign Plan (Run 42 Ground Bypass Victory Route)
