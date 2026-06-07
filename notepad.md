@@ -3504,12 +3504,12 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
-# Safari Zone West Exploration - Run 44 (Turn 69816 - Active)
-- **Current Status**: Standing at (4, 20) in Safari Zone West on Turn 69816 on ground level [z=0], facing Left, with exactly 237 steps remaining.
+# Safari Zone West Exploration - Run 44 (Turn 69824 - Active)
+- **Current Status**: Standing at (2, 20) in Safari Zone West on Turn 69824 on ground level [z=0], facing Left, with exactly 235 steps remaining.
 - **Inventory Status**: 15/20 items, 30 Safari Balls.
 - **Run 44 Start Turn**: Turn 69456 (June 7, 2026, 11:11 AM)
 - **Run 44 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 237 steps.
+- **Current Steps Remaining**: 235 steps.
 - **Money remaining**: ¥68,317.
 
 ## Active Campaign Plan (Run 44 Detour Route)
@@ -3523,8 +3523,11 @@ We are executing a fully optimized Run 44 ground-to-plateau detour to retrieve t
 7. **Retrieve Gold Teeth & Surf**:
    - Climb Koga's Eastern Stairs UP: Walked to (21, 18), climbed stairs at (21, 17) to reach (21, 16) [z=1]. [COMPLETE!]
    - Traverse Koga's bridge & Test Column 17: Walked Left to (17, 16) [z=1], Up to (17, 14) [z=1], tested walking Up into (17, 13) [z=1] and bumped. [COMPLETE!]
-   - Backtrack to Southwest Ground Level: Walk Down 2 steps to (17, 16) [z=1], walk Left 11 steps along Row 16 to (6, 16) [z=1], walk Down 3 steps to (6, 19) [z=1], and Down 1 step to descend the Western stairs to (6, 20) [z=0].
-   - Walk Ground Detour past Rest House 3: Walk Left 4 steps along Row 20 to (2, 20) [z=0], Up 6 steps along Column 2 to (2, 14) [z=0], and Right 8 steps along Row 14 to (10, 14) [z=0]. Bypassing Rest House 3 requires: Up 2 steps along Column 10 to (10, 12), Right 3 steps to (13, 12), Up 2 steps to (13, 10), Left 3 steps to (10, 10), and Up 1 step to (10, 9) [z=0] (climbing Koga's Western-West Plateau stairs UP).
+   - Backtrack to Southwest Ground Level: Walk Down 2 steps to (17, 16) [z=1], walk Left 11 steps along Row 16 to (6, 16) [z=1], walk Down 3 steps to (6, 19) [z=1], and Down 1 step to descend the Western stairs to (6, 20) [z=0]. [COMPLETE!]
+   - Walk Ground Detour past Rest House 3: Walk Left 4 steps along Row 20 to (2, 20) [z=0] (avoiding grass). [COMPLETE!]
+   - Walk Up ground corridor along Column 2: Walk Up 6 steps along Column 2 to (2, 14) [z=0] (completely grass-free).
+   - Walk ground detour Row 14: Walk Right 8 steps along Row 14 to (10, 14) [z=0] (completely grass-free).
+   - Bypass Rest House 3: Walk Up 2 steps along Column 10 to (10, 12), Right 3 steps to (13, 12), Up 2 steps to (13, 10), Left 3 steps to (10, 10), and Up 1 step to (10, 9) [z=0] (climbing Koga's Western-West Plateau stairs UP).
    - Western-West Plateau Ledge Jump: From the top of Koga's Western-West Plateau stairs at (10, 8) [z=1], walk Left 6 steps along Row 8 to (4, 8) [z=1], and walk Left 1 step to jump West over the Column 4 ledge onto ground level at (3, 8) [z=0] in the Northwest quadrant.
    - Retrieve Gold Teeth: From (3, 8) [z=0], walk Up 1 step to (3, 7) [z=0], and Right 16 steps along the Row 7 ground corridor to stand on the Warden's Gold Teeth at (19, 7) [z=0] and pick them up.
    - Reach Secret House: Walk Left 16 steps along Row 7 from (19, 7) [z=0] back to (3, 7) [z=0], and walk Up 4 steps along Column 3 to enter the Secret House at (3, 3) [z=0] and obtain HM03 Surf!
@@ -3564,6 +3567,8 @@ We are executing a fully optimized Run 44 ground-to-plateau detour to retrieve t
 - **Turn 69798**: Backtracked Left 5 steps along Row 16 from (11, 16) to (6, 16) [z=1] with 243 steps remaining.
 - **Turn 69799**: Walked Down 3 steps from (6, 16) to (6, 19) [z=1] with 240 steps remaining, standing on the top of Koga's Western stairs.
 - **Turn 69801**: Walked Down 1 step from (6, 19) to descend Koga's Western stairs to ground level at (6, 20) [z=0] with 239 steps remaining.
+- **Turn 69815**: Walked Left 2 steps from (6, 20) to (4, 20) [z=0] with 237 steps remaining, and encountered a wild Doduo. (Fled safely).
+- **Turn 69820**: Walked Left 2 steps from (4, 20) to (2, 20) [z=0] with 235 steps remaining.
 
 <hr>
 
