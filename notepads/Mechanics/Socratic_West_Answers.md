@@ -98,3 +98,13 @@ Wait, let's look at the systematic testing of Column 25 Row 18 and Column 3 Row 
   Path: `["Right", "Right", "Right", "Right"]` from (21, 18).
   This will land us at (25, 18).
   We will then walk Up to verify if we can reach Row 5 and Row 7 to retrieve the Warden's Gold Teeth!
+
+## 4. Run 40 Physical Test Results
+- **Test 1 (Row 18 Column 24 Passability)**:
+  - On Turn 67267, standing at (21, 18) [z=0], we walked Right 4 steps to stand at (25, 18) [z=0].
+  - **Result**: 100% PASSABLE! We moved freely from (21, 18) to (25, 18) with zero collisions or bumps.
+  - **Conclusive Physical Proof**: Column 23 Row 18 and Column 24 Row 18 are completely open and passable ground-level grass tiles (`TYPE_3fe2`). This physically proves that Koga's Southern ground-level corridor connects the base of the Eastern stairs directly to the Eastern ground corridor (Column 25) at ground level!
+  - Therefore, we do NOT need to stand on the plateau level (z=1) or climb any stairs to reach Column 25; we can walk around Koga's plateau entirely at ground level via Row 18!
+- **Test 2 (Column 25 Row 1-13 Westward Passability)**:
+  - Now, we are standing at (25, 18) [z=0]. We will walk Up Column 25 to Row 7 to test if we can cross Westward to (19, 7) [Gold Teeth] or Row 5 on Column 24.
+  - Let's walk Up 11 steps along Column 25 to (25, 7) [z=0] and test walking Left into (24, 7).
