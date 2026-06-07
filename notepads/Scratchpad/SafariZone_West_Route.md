@@ -1,9 +1,9 @@
-# Safari Zone West Exploration - Run 44 (Turn 69482 - Active)
-- **Current Status**: Standing at (16, 24) in Safari Zone East on Turn 69482 on ground level.
+# Safari Zone West Exploration - Run 44 (Turn 69498 - Active)
+- **Current Status**: Standing at (9, 22) in Safari Zone East on Turn 69498 on ground level.
 - **Inventory Status**: 15/20 items, 30 Safari Balls.
 - **Run 44 Start Turn**: Turn 69460 (June 7, 2026, 9:31 AM)
 - **Run 44 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 429 steps.
+- **Current Steps Remaining**: 381 steps.
 - **Money remaining**: ¥68,317.
 
 ## Active Campaign Plan (Run 43 Victory Route)
