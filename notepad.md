@@ -5743,12 +5743,12 @@ We are in a flawless tactical position!
 
 <h1><code>Scratchpad/SafariZone_Run46_Route</code></h1>
 
-# Safari Zone West Exploration - Run 46 (Turn 70531 - Active)
-- **Current Status**: Standing at (36, 18) in Fuchsia City on Turn 70531 on ground level [z=0], on the Fly map.
-- **Inventory Status**: 15/20 items, 29 Safari Balls.
-- **Run 46 Start Turn**: Turn 70531 (Upcoming)
-- **Run 46 Starting Steps**: 500 steps.
-- **Money remaining**: ¥67,817.
+# Safari Zone West Exploration - Run 46 (Turn 70561 - Active)
+- Current Status: Standing at (18, 20) in Fuchsia City on Turn 70561 on ground level [z=0], facing UP toward the cuttable tree at (18, 19).
+- Inventory Status: 15/20 items, 29 Safari Balls.
+- Run 46 Start Turn: Turn 70531 (Upcoming)
+- Run 46 Starting Steps: 500 steps.
+- Money remaining: ¥67,817.
 
 ## Run 46 Campaign Plan
 We are navigating to Safari Zone West using the ground-level Eastern Corridor on Safari Zone East and Koga's Western Plateau on Safari Zone North.
@@ -5812,5 +5812,12 @@ This route avoids almost all tall grass and has an extremely high success rate.
 - **Turn 70527**: Pressed Down to Pallet Town.
 - **Turn 70529**: Pressed Down to Saffron City.
 - **Turn 70532**: Pressed Down 3 times to Fuchsia City and executed FLY!
+- **Turn 70549**: Successfully executed FLY to Fuchsia City, landing at (19, 28).
+- **Turn 70552**: Walked Right 3 steps to (22, 28).
+- **Turn 70553**: Walked Up 2 steps to (22, 26).
+- **Turn 70555**: Jumped East over the one-way ledge at (23, 26), landing at (25, 26).
+- **Turn 70556**: Walked Left 1 step to (24, 26) and Up 6 steps to (24, 20).
+- **Turn 70558**: Walked Left 6 steps along Row 20 to stand at (18, 20).
+- **Turn 70561**: Pressed UP to face the cuttable tree at (18, 19).
 
 <hr>
