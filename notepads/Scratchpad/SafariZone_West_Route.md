@@ -1,8 +1,8 @@
-# Safari Zone West Exploration - Run 39 (Turn 66511 - Active)
-- **Current Status**: Standing at (20, 24) in Safari Zone East (Map 0_217) on Turn 66511. Preparing to climb Southern stairs at (20, 21) onto plateau.
+# Safari Zone West Exploration - Run 39 (Turn 66518 - Active)
+- **Current Status**: Standing at (20, 22) in Safari Zone East (Map 0_217) on Turn 66518. Escaped wild Paras. Preparing to climb Southern stairs at (20, 21) onto plateau.
 - **Inventory Status**: 15/20 items.
 - **Run 39 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 449 steps.
+- **Current Steps Remaining**: 447 steps.
 - **Money remaining**: ¥70,817.
 
 ## Master Run 39 Campaign Plan (Double-Retrieval Route)
