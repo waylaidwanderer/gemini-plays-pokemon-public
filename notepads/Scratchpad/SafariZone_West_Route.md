@@ -1,8 +1,8 @@
-# Safari Zone West Exploration - Run 41 (Turn 68014 - Active)
-- **Current Status**: Standing at (16, 7) [z=1] on Koga's Western Plateau on Turn 68014.
+# Safari Zone West Exploration - Run 41 (Turn 68034 - Active)
+- **Current Status**: Standing at (27, 2) [z=0] in Safari Zone West on Turn 68034.
 - **Inventory Status**: 15/20 items.
 - **Run 41 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 131 steps (Reconciled).
+- **Current Steps Remaining**: 106 steps (Reconciled).
 - **Money remaining**: ¥69,817.
 
 ## Active Campaign Plan (Refined Row 7 Ledge Jump Victory Route)
