@@ -221,6 +221,11 @@
 - Turn 67013: Selected PETAL and opened their action menu.
 - Turn 67014: Selected CUT to hack away the second bush at (16, 11).
 - Turn 67016: Walked Up 6 steps vertically along Column 16 from (16, 12) to stand at (16, 6).
+- Turn 67022: Walked Right 2 steps to Column 18 and Up 3 steps to enter Safari Zone Gatehouse, landing at (3, 5).
+- Turn 67025: Walked Up 1 step vertically along Column 3 from (3, 5) to stand at (3, 4).
+- Turn 67030: Pressed Left to turn Left and face the Gatekeeper across the counter at (2, 4).
+- Turn 67032: Pressed A to speak to the Gatekeeper and initiate check-in dialogue.
+- Turn 67034: Pressed Down to highlight NO and A to confirm, skipping the rules explanation.
 
 ## Run 40 Systematic Collision Testing Plan (Overwatch Resolution)
 To resolve the contradiction between the southwest ground isolation and the proposed open Row 18 ground pathway:
