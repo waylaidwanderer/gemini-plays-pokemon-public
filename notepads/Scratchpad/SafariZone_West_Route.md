@@ -118,3 +118,12 @@ We are executing a fully optimized Run 43 ground-to-plateau dual retrieval.
 - Turn 69135: Redefined safari_pathfinder. Walked Down 4 steps from (6, 16), down the stairs at (6, 19), to (6, 20) on ground level [z=0], triggering a wild Nidorina encounter [remaining: 235].
 - Turn 69138: Selected RUN and successfully escaped the wild Nidorina encounter [remaining: 235].
 - Turn 69227: Verified that the Southwest ground pocket is 100% closed, meaning we must backtrack over Koga's bridge to transition back to Safari Zone North, and then cross to the Northwest quadrant of Safari Zone West to reach the Gold Teeth at (19, 7) and Secret House at (3, 3). Initiating backtrack over Koga's bridge.
+
+## 50-Turn Reflection (Turn 69228)
+1. **Immediate Execution**: I analyzed our position and confirmed that the Southwest ground pocket is physically closed on foot, making a backtrack over Koga's bridge mandatory.
+2. **Notepad Hygiene**: Recorded the closure of the Southwest ground pocket on foot in `Locations/SafariZone_West` and added a clean transition backtrack log.
+3. **Map Hygiene**: Map markers are accurate and up to date. I will use the established markers for routing.
+4. **Custom Tools**: `safari_pathfinder` was extremely useful for determining the multi-map route.
+5. **Tool Maintenance**: Kept the pathfinder updated to model the correct 3D elevation transitions.
+6. **Goal Clarity**: Our primary goal remains retrieving the Gold Teeth and Surf from Safari Zone West, and the method is traversing back over Koga's bridge to Safari Zone North, then descending into the Northwest quadrant of Safari Zone West.
+7. **Error Analysis**: By verifying our assumptions about the Southwest ground pocket, we avoided spending more steps trying to force a route through a closed area.
