@@ -1,8 +1,8 @@
-# Safari Zone West Exploration - Run 40 (Turn 67195 - Active)
-- **Current Status**: Standing on the stairs at (22, 23) in Safari Zone North (Map 0_218) on Turn 67195 with 307 steps remaining.
+# Safari Zone West Exploration - Run 40 (Turn 67201 - Active)
+- **Current Status**: Standing on the West Descent Stairs at (16, 27) in Safari Zone North (Map 0_218) on Turn 67201 with 297 steps remaining.
 - **Inventory Status**: 15/20 items.
 - **Run 40 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 307 steps.
+- **Current Steps Remaining**: 297 steps.
 - **Money remaining**: ¥70,317.
 
 ## Master Run 40 Campaign Plan (Double-Retrieval Route)
