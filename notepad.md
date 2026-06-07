@@ -3504,8 +3504,8 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
-# Safari Zone West Exploration - Run 43 (Turn 68756 - Active)
-- **Current Status**: Standing at (19, 28) in Fuchsia City outside the Pokémon Center on Turn 68756, preparing to pay the ¥500 fee to start a fresh, fully optimized Run 43.
+# Safari Zone West Exploration - Run 43 (Turn 68761 - Active)
+- **Current Status**: Standing at (22, 26) in Fuchsia City on Turn 68761, preparing to pay the ¥500 fee to start a fresh, fully optimized Run 43.
 - **Inventory Status**: 15/20 items.
 - **Run 43 Starting Steps**: 500 steps.
 - **Current Steps Remaining**: 500 steps (not yet entered).
