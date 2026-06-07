@@ -5786,14 +5786,17 @@ This route avoids almost all tall grass and has an extremely high success rate.
    - Walk Down 18 to (27, 18) [18 steps].
    - Walk Left 6 along Row 18 to (21, 18) [6 steps].
    - Climb Eastern Plateau stairs to (21, 16) [z=1] [2 steps].
-   - Walk Left to Column 16 at (16, 16) [z=1] [5 steps].
-   - Walk Up Column 16 to (16, 9) [z=1] [7 steps].
-   - Walk Right 1 step to jump East over Column 17 ramp onto (18, 9) [z=0] [1 step].
-   - Walk Right 1 and Up 2 to retrieve Warden's Gold Teeth at (19, 7) [z=0] [3 steps].
-   - Walk Up 2 to Row 5, Left 16 to (3, 5) [z=0] [18 steps].
-   - Walk Up 2 steps to enter the Secret House at (3, 3) [z=0] and get HM03 Surf [20 steps].
+   - Walk Left to Column 6 at (6, 16) [z=1] [15 steps].
+   - Walk Down 2 to the Western Plateau stairs at (6, 18) [z=1] [2 steps].
+   - Walk Down 2 to descend stairs to (6, 20) [z=0] [2 steps].
+   - Walk Left 4 to Column 2 at (2, 20) [z=0] [4 steps].
+   - Walk Up 6 along Column 2 to (2, 14) [z=0] [6 steps].
+   - Walk Right 1 step to Column 3 at (3, 14) [z=0] [1 step].
+   - Walk Up 11 steps along Column 3 to (3, 3) [z=0] to enter the Secret House and get HM03 Surf!
+   - From (3, 3), walk Down 4 to Row 7 at (3, 7) [z=0] [4 steps].
+   - Walk Right 16 steps along Row 7 to (19, 7) [z=0] to retrieve Warden's Gold Teeth!
 
-**Total Estimated Steps**: 217 steps.
+**Total Estimated Steps**: 230 steps.
 **Remaining Step Budget inside Secret House**: 283 steps remaining!
 
 ## Chronological Overworld Log (Run 46)
