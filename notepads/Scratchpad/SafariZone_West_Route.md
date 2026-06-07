@@ -1,6 +1,7 @@
-# Safari Zone West Exploration - Run 43 (Turn 68821 - Active)
-- **Current Status**: Standing at (15, 17) in Safari Zone Center on Turn 68849.
+# Safari Zone West Exploration - Run 43 (Turn 68838 - Active)
+- **Current Status**: Standing at (15, 17) in Safari Zone Center on Turn 68853.
 - **Inventory Status**: 15/20 items.
+- **Run 43 Start Turn**: Turn 68838 (June 7, 2026, 6:24 AM)
 - **Run 43 Starting Steps**: 500 steps.
 - **Current Steps Remaining**: 489 steps.
 - **Money remaining**: ¥68,817.
