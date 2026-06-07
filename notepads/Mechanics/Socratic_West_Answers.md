@@ -168,3 +168,29 @@
   - Note on Navigator Agent Delta: The custom `safari_navigator_agent` computed 222 steps remaining because it utilizes Manhattan distance deltas which do not track the 1 step consumed by the bump at (5, 15). The true RAM value is 221.
 - **Turn 69195 Test**: Standing at (6, 16) [z=1] facing UP, attempted to walk Up into (6, 15). Result: BUMPED against the north-facing horizontal cliff of the bridge. This physically proves that Column 6 Row 15 is indeed ground level (z=0, TYPE_3fe2).
 - **Plateau Separation Confirmed**: Since both Column 5 Row 15 and Column 6 Row 15 have been empirically proven to be ground-level tiles, Koga's Western-West Plateau (Columns 4-10) is completely separated from Koga's bridge (Row 16 Columns 5-22). The elevated Western stairs at (6, 19) lead from (6, 18) [z=1] DOWN to (6, 20) [z=0] on the ground, allowing us to descend and use ground-level bypasses around the bridge to reach the Northwest quadrant.
+
+## Socratic Question 1 (Koga's Western-West Plateau Staircase Climb)
+- **Staircase Climb**: Koga's Western-West Plateau (Columns 4-10, Rows 6-13) is climbed on foot on the East side using the wooden staircase at (10, 9). Walking Up from (10, 9) [z=0] to (10, 8) [z=1] climbs onto the plateau.
+- **Ledge Jumps**: There is a West-facing jump-down ledge at Column 4 (Rows 6-13) that allows jumping Left from (4, y) [z=1] to (3, y) [z=0] on ground level in the Northwest quadrant.
+- **Why modeling transitions is vital**: Without modeling the stairs at (10, 9) and the Column 4 West-facing ledge jumps, the pathfinder thinks Koga's Western-West Plateau is isolated and unreachable, which completely cuts off the Northwest ground quadrant because Columns 11-14 are blocked by cliff walls on Rows 9-14 at ground level. Modeling these transitions allows the pathfinder to calculate the true 38-step path to the Northwest quadrant.
+
+## Socratic Question 2 (Koga's Western-West Plateau Bridge Descent Ledge)
+- **Configuration**: The horizontal boundary between Koga's Western-West Plateau (Row 13 Columns 4-10) and the ground-level grass channel (Rows 14-15) is configured as a south-facing jump-down ledge.
+- **Traversability**: A player standing on the plateau at (5, 13) [z=1] CAN walk Down onto (5, 14) [z=0] by jumping down off the ledge. However, they CANNOT walk from (5, 13) [z=1] to (5, 16) [z=1] via Koga's bridge one-way because Row 14 and Row 15 are at ground level (z=0), causing a height mismatch that blocks vertical progress at plateau level.
+
+## Socratic Question 3 (Chronological Step-Budget Reconciliation)
+- **Turn 69270 Step Reconciliation**:
+  - Turn 69150 starting steps at (2, 20) [z=0]: **231 steps remaining**.
+  - Walk Right 4 to (6, 20) [z=0] -> 227 remaining.
+  - Climb stairs to (6, 18) [z=1] -> 225 remaining.
+  - Walk Left 1, Up 3 to stand at (5, 16) [z=1] on Turn 69164 -> 221 remaining.
+  - Right 1, Up 1 (bumping) to (6, 16) [z=1] on Turn 69194 -> 219 remaining.
+  - Down 4 to (6, 20) [z=0] on Turn 69203 -> 215 remaining.
+  - Left 2 along Row 20 to (4, 20) on Turn 69209 -> 213 remaining.
+  - Right 2 to (6, 20) on Turn 69229 -> 211 remaining.
+  - Climb stairs to (6, 18) [z=1] on Turn 69230 -> 209 remaining.
+  - Up 2, Right 15 to (21, 16) [z=1] and Down 2 to (21, 18) [z=0] on Turn 69235 -> 190 remaining.
+  - Right 3, Up 4, Right 1, Up 12, Right 1, Up 1 to (26, 1) [and bumped twice against (25, 1)] on Turn 69236 -> 166 remaining.
+  - Up 2 steps to transition to Safari Zone North, landing at (8, 35) on Turn 69239 -> 164 remaining.
+  - Down 1 step to transition back to Safari Zone West, landing at (26, 0) on Turn 69270 -> 163 remaining.
+  - This confirms that we have exactly **163 steps remaining** on Turn 69270. Our chronological overworld logs are perfectly synchronized.
