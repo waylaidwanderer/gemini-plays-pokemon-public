@@ -272,3 +272,29 @@
   - Walked Down 6, Right 4 to reach Koga's Western stairs base at (6, 20) [Turn 69383]: uses 10 steps [remaining: 67].
   - Confirmed exactly 67 steps remaining in RAM on Turn 69390.
 - **Log Synchronization**: Our chronological overworld logs in 'Scratchpad/SafariZone_West_Route' have been successfully synchronized to Turn 69405, confirming exactly 52 steps remaining after Koga's bridge crossover.
+
+# Socratic Answers - East Ground Corridor & Pathfinder Correction (Turn 69483)
+
+## 1. Socratic Question 1 (The Pathfinder Multi-Map Omission)
+- **Omission Explanation**: When 'safari_pathfinder' was redefined on Turn 69461 and 69465, the obstacle databases for Map 0_217 (East) and Map 0_218 (North) were completely omitted, leaving those regions modeled as empty 30x30 grids.
+- **Root Cause of the 'Up x 18' Pathfinder Failure**: When querying a path from (0, 23) to (0, 5) on Map 0_217, the blind BFS assumed Column 0 was completely open. It thus generated a direct vertical path of 'Up x 18'. However, in the real game world, Column 0 Row 20 is occupied by a solid horizontal tree wall of TYPE_2889. Consequently, the player stepped Up to (0, 21), and then spent 18 consecutive turns attempting to step Up into (0, 20), resulting in 18 wall collisions (bumps) that consumed 18 steps of our Safari Zone step budget.
+
+## 2. Socratic Question 2 (Eastern Ground Corridor Traversal)
+- **Ground-Level Path from (16, 24) [z=0] in East to (22, 24) [z=0] in North**:
+  1. Walk Right 5 steps along Row 24 to reach the Eastern Ground Corridor base at (21, 24) [z=0] [5 steps].
+  2. Walk Up 21 steps vertically along Column 21 to reach (21, 3) [z=0] [21 steps].
+  3. Walk Left 21 steps horizontally along Row 3 to reach the transition at (0, 3) [z=0] [21 steps].
+  4. Walk Left 1 step to transition into Safari Zone North (Map 0_218) at (39, 31) [z=0] [1 step].
+  5. From (39, 31) in North, walk along the bottom ground corridor to the stairs climb at (22, 24) [z=0] for Koga's Western Plateau.
+- **Verification**: This ground-level path is completely grass-free, has a 0% wild encounter rate, and completely bypasses all plateau climbing/descents (symmetrical stairs) on both Map 0_217 and Map 0_218. This eliminates any risk of staircase transition bugs or height desyncs.
+
+## 3. Socratic Question 3 (Chronological Step-Budget Reconciliation)
+- **Run 44 Step-Budget Math**:
+  - Start Run 44 at (15, 25) in Center: **500 steps remaining**.
+  - Walk to (27, 14) in Center: uses 28 steps [remaining: 472].
+  - Walk to transition and enter East at (0, 21): uses 6 steps [remaining: 466].
+  - Bump 18 times on Column 0 against Row 20 trees: uses 18 steps [remaining: 448].
+  - Walk Down 3, Right 5 to (5, 24) in East: uses 8 steps [remaining: 440].
+  - Walk Right 11 steps along Row 24 to (16, 24): uses 11 steps [remaining: 429].
+  - Escape wild Nidoran♀ battle: uses 0 overworld steps [remaining: 429].
+- **Reconciliation**: We have exactly **429 steps remaining** in RAM on Turn 69480 standing at (16, 24) on ground level, which perfectly matches our synchronized chronological tracking.
