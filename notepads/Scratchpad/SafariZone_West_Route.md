@@ -127,3 +127,11 @@ This route completely avoids Koga's plateau in Safari Zone West and uses fewer s
 - Turn 68124: Walked Up 3 steps and Right 6 steps to stand at (28, 13) (9 steps used, 472 remaining).
 - Turn 68125: Walked Up 1 step to (28, 12), and bumped Right against (29, 12) tree wall (1 step used, 471 remaining).
 - Turn 68129: Walked Up 1 step to (28, 11), and Right 1 step to stand at (29, 11) on the Eastern edge of Safari Zone Center (2 steps used, 469 remaining).
+- Turn 68134: Transitioned to Safari Zone East (Map 0_217) at (0, 23). Runs safari_navigator_agent to synchronize to 468 steps (1 step used, 468 remaining).
+- Turn 68137: Walked Right 1 step, Down 1 step, and Right 4 steps to stand at (5, 24) on Row 24 (6 steps used, 462 remaining).
+- Turn 68138: Walked Right 10 steps along Row 24 to stand at (15, 24) (10 steps used, 452 remaining).
+- Turn 68141: Walked Right 4 steps to (19, 24) and encountered a wild Paras in the tall grass (4 steps used, 448 remaining).
+- Turn 68142: Successfully selected RUN and escaped the wild Paras, returning to the overworld at (19, 24).
+- Turn 68145: Walked Right 1 step along Row 24 to stand at (20, 24) (1 step used, 447 remaining).
+- Turn 68146: Walked Up 4 steps from (20, 24) to (20, 20), climbing onto the eastern plateau (4 steps used, 443 remaining).
+- Turn 68151: Walked Left 8 steps along Row 20 to stand at (12, 20) on the plateau (8 steps used, 435 remaining).
