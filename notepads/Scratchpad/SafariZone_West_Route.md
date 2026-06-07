@@ -5,10 +5,10 @@
 - **Current Steps Remaining**: 177 steps (Reconciled).
 - **Money remaining**: ¥69,817.
 
-## Active Campaign Plan (Inside Rest House 3 and Ground Route to North)
-3. **Exit Rest House 3**: Exit to (11, 12) [z=0] in Safari Zone West.
-4. **Retrieve Warden's Gold Teeth**: Walk East to (19, 7) [z=0] and retrieve Gold Teeth.
-5. **Retrieve HM03 Surf**: Walk West along the northern corridor to stand at (3, 3) [z=0], enter Secret House (Map 0_224), and obtain Surf!
+## Active Campaign Plan (Refined Row 7 Ledge Jump Victory Route)
+1. **Ledge Jump to Ground**: Walk Left 5 steps along Row 7 to stand at (11, 7) [z=1], and Left 1 step to jump West over the Column 10 ledge to land at (9, 7) [z=0] on ground level.
+2. **Retrieve HM03 Surf**: Walk Left 6 steps along Row 7 to (3, 7) [z=0], walk Up 4 steps to enter the Secret House at (3, 3) [z=0], and obtain Surf.
+3. **Retrieve Warden's Gold Teeth**: Exit the Secret House at (3, 3) [z=0], walk Down 4 steps to (3, 7) [z=0], and walk Right 16 steps along Row 7 to retrieve the Gold Teeth at (19, 7) [z=0].
 
 ## Socratic Answers & Proof of Work (Overwatch Resolution)
 - **Socratic Question 1 (Ledge Jump and Ledge Variables)**:
