@@ -15,11 +15,12 @@ We are executing a fully optimized Run 44 ground-to-plateau detour to retrieve t
 5. **Plateau Descent**: Complete! (Descended Koga's Western stairs to 16, 28, and walked Left to 12, 28).
 6. **Bypass Water Lakes**: Complete! (Walked to 9, 30, and Down to transition at 27, 0 in West with 290 steps remaining).
 7. **Retrieve Gold Teeth & Surf**:
-   - Backtrack to (6, 20) [z=0]: Walk Down 6 steps along Column 2 to (2, 20) [z=0], and Right 4 steps along Row 20 to Koga's Western stairs at (6, 20) [z=0] (completely grass-free).
-   - Climb Western Plateau Stairs UP: Walk Up 2 steps to climb Western stairs to (6, 18) [z=1], and Up 2 steps along Column 6 to (6, 16) [z=1].
-   - Traverse Koga's bridge: Walk Right 11 steps along Row 16 from (6, 16) to (17, 16) [z=1].
-   - Traverse checkered ramp: Walk Up 11 steps along Column 17 from (17, 16) [z=1] to transition to ground level at (17, 5) [z=0].
-   - Retrieve Gold Teeth: Walk Right 2 steps along Row 5 to (19, 5) [z=0], and Down 2 steps to pick up the Gold Teeth at (19, 7) [z=0].
+   - Backtrack to (6, 20) [z=0]: Walk Down 6 steps along Column 2 to (2, 20) [z=0], and Right 4 steps along Row 20 to Koga's Western stairs at (6, 20) [z=0] (completely grass-free). [COMPLETE!]
+   - Climb Western Plateau Stairs UP: Walk Up 2 steps to climb Western stairs to (6, 18) [z=1], and Up 2 steps along Column 6 to (6, 16) [z=1]. [COMPLETE!]
+   - Traverse Koga's bridge: Walk Right 15 steps along Row 16 from (6, 16) to (21, 16) [z=1] to reach Koga's Eastern Plateau.
+   - Traverse Eastern Plateau: Walk Up 7 steps along Column 21 from (21, 16) [z=1] to (21, 9) [z=1], and Left 3 steps along Row 9 to (18, 9) [z=1].
+   - Eastern Plateau Jump-Down: Walk Right 1 step to jump East over the Column 18 ledge from (18, 9) [z=1] onto (19, 9) [z=0] on the ground.
+   - Retrieve Gold Teeth: Walk Up 2 steps along Column 19 from (19, 9) [z=0] to stand at (19, 7) [z=0] and pick up the Warden's Gold Teeth.
    - Reach Secret House: Walk Up 2 steps to (19, 5), Left 16 steps along Row 5 to (3, 5) [z=0], and Up 2 steps along Column 3 to enter the Secret House at (3, 3) and obtain HM03 Surf!
 8. **Warp Home**: Use DIG to warp back to Fuchsia City!
 
