@@ -3737,7 +3737,7 @@ To resolve the contradiction between the southwest ground isolation and the prop
 1. **Hypothesis A**: Southwest ground is isolated because Column 18 is blocked on Rows 20-23 by a solid tree wall (Locations/SafariZone_West).
 2. **Hypothesis B**: Canonical ground corridor on Row 18 is open all the way from Column 6 to Column 21 (Mechanics/Socratic_West_Answers).
 - **Test 1 (Row 18 Column 18)**: Walk from (6, 20) to (21, 18) [z=0]. If we bump at Column 18, Hypothesis A is verified, proving the southwest ground pocket is 100% isolated. If we pass freely, Hypothesis B is verified.
-- **Test 2 (Column 3 Row 13)**: Standing at (3, 14) [z=0], attempt to walk Up onto (3, 13) [z=0]. If we bump, water collision is verified.
+- **Test 2 (Column 25 Row 7 Left-facing Passability)**: Standing at (25, 7) [z=0], attempted to walk Left onto (24, 7). Result: BUMPED on Turn 67307, proving that Column 24 has solid trees of TYPE_2889 blocking horizontal transitions on Row 7. Combined with prior tests, this physically verifies that the eastern ground-level corridor is completely isolated from the West on ground level on all Rows 1-17.
 We will execute both tests on foot in Run 40, document the precise turn/bump results, and permanently prune the falsified theory.
 
 ## Run 40 Chronological Movement Log
