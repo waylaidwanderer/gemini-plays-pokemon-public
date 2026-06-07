@@ -4680,6 +4680,26 @@ We analyzed why we bumped at Column 23 on Rows 14-15 and verified that symmetric
 - **Reconciled Remaining Steps**: 424 - 16 - 4 - 3 - 9 = **392 steps remaining** on Turn 68940. This perfectly matches the RAM's step counter, ensuring 100% accurate, drift-free step-keeping.
 - **Chronological Log Update**: The completed overworld logs from Turn 68900 to Turn 68913 have been successfully appended to the log at the bottom of 'Scratchpad/SafariZone_West_Route' to ensure perfect tracking accuracy.
 
+# Socratic Answers - Safari Zone North Traversal (Turn 68973)
+
+## 1. Socratic Question 1 (The Western Plateau of Safari Zone North)
+- **Why we must climb the Western Plateau**: Ground-level passage to the West is completely blocked by a solid vertical tree wall (TYPE_2889) at Column 17 on Rows 29-34, and a solid building roof structure (TYPE_2889) at Column 19 Row 33. This isolates the Eastern ground basin from the Western side. Climbing the Western Plateau stairs at (22, 23) is strictly mandatory to cross over this barrier.
+
+## 2. Socratic Question 2 (Sequential Overworld Traversal Tracking)
+- **Step consumption math since Turn 68962**:
+  - Starting steps at (33, 31): 356 remaining.
+  - Walk Left 5 steps to (28, 31) -> 351 remaining.
+  - Walk Up 4 steps along Column 28 to climb Eastern stairs at (28, 27) -> 347 remaining.
+  - Walk Down 2 steps to descend Eastern stairs to (28, 29) -> 345 remaining.
+  - Total physical overworld steps consumed: 11 steps.
+  - Corrected remaining steps on Turn 68970: 345 remaining in RAM.
+- **Movement history updated**: Missing chronological logs from Turn 68913 to Turn 68969 have been appended to 'Scratchpad/SafariZone_West_Route' to ensure perfect tracking accuracy.
+
+## 3. Socratic Question 3 (Plateau Crossing vs. Ledge Boundaries)
+- **Plateau traversal route**: Walk Left 6 steps and Down 5 steps from (22, 22) [z=1] to (16, 27) [z=1].
+- **Coordinates of the Western Plateau**: Rows 20-22, Columns 15-23.
+- **No risk of falling off**: In Gen 1, plateau boundaries (cliff edges) are treated as solid, impassable walls on the plateau level (elevation z=1). The player cannot walk off the edge, so there is zero risk of falling off.
+
 <hr>
 
 <h1><code>Reflection/Turn61585_Reflection</code></h1>
