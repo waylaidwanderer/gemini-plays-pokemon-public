@@ -3698,6 +3698,27 @@ With 247 steps remaining standing at (6, 20):
 - Turn 66377: Walked Right 5 steps horizontally along Row 16 from (11, 16) to stand at (16, 16) [z=1] on Turn 66378 (5 actual steps used, 49 remaining).
 - Turn 66381: Walked Right 5 steps horizontally along Row 16 from (16, 16) to stand at (21, 16) [z=1] on Turn 66384 (5 actual steps used, 44 remaining).
 - Turn 66389: Walked Down 2 steps to descend Eastern stairs from (21, 16) to stand at (21, 18) [z=0] on Turn 66390 (2 actual steps used, 42 remaining).
+- Turn 66403: Walked to (25, 18) [z=0] (4 steps used, 38 remaining).
+- Turn 66407: Walked to (25, 10) [z=0] (8 steps used, 30 remaining).
+- Turn 66411: Walked to (25, 5) [z=0] (5 steps used, 25 remaining).
+- Turn 66416: Walked to (25, 13) [z=0] (8 steps used, 17 remaining).
+- Turn 66428: Used DIG to escape Safari Zone West, teleporting to Fuchsia City outside the Pokémon Center at (19, 28) on Turn 66429.
+- Turn 66433: Walked Left 1 and Up 8 steps to stand at (18, 20) on Turn 66434.
+- Turn 66435: Walked Left 5 steps to stand at (13, 28) on Turn 66436.
+- Turn 66441: Walked Right 5 steps to stand at (18, 28) on Turn 66442.
+- Turn 66443: Walked Right 5 steps and jumped over the ledge to stand at (24, 28) on Turn 66444.
+- Turn 66446: Walked Up 4 steps along Column 24 to reach (24, 24) on Turn 66447.
+- Turn 66447: Walked Up 4 steps and Left 6 steps to stand at (18, 20) on Turn 66448.
+- Turn 66454: Opened menu and used CUT on PETAL (Bellsprout), which failed because we were facing Left.
+- Turn 66457: Walked Up 1 step to bump against the first bush at (18, 19), turning UP to face the bush on Turn 66458.
+- Turn 66463: Opened menu and used CUT on PETAL (Bellsprout) to successfully cut the first bush at (18, 19) on Turn 66464.
+- Turn 66466: Walked Up 8 steps along Column 18 to stand at (18, 12) on Turn 66467.
+- Turn 66468: Walked Left 2 steps to (16, 12) and Up 1 step to bump against the second bush at (16, 11), turning UP to face the bush on Turn 66469.
+- Turn 66472: Opened menu and used CUT on PETAL (Bellsprout) to successfully cut the second bush at (16, 11) on Turn 66473.
+- Turn 66474: Walked Up 6 steps along Column 16 to stand at (16, 6) on Turn 66475.
+- Turn 66475: Walked Right 2 steps to (18, 6) and Up 3 steps to enter the Safari Zone Gatehouse, landing at (3, 5) on Turn 66476.
+- Turn 66479: Walked Up 3 steps to stand on (3, 2) to trigger the Gatekeeper check-in dialogue on Turn 66480.
+- Turn 66483: Active in dialogue at (3, 2). Preparing to pay ¥500 and start Run 39.
 
 <hr>
 
