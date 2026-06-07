@@ -193,3 +193,4 @@
 - Turn 66923: Pressed Up from (3, 14) to test Column 3 Row 13 water collision, bumping and remaining at (3, 14) on Turn 66924 (0 steps used, 186 remaining).
 - Turn 66923: Ran 'safari_navigator_agent' to synchronize coordinates and steps (186 remaining).
 - Turn 66927: Pressed Start to open overworld menu on Turn 66928 (0 steps used, 186 remaining).
+- Turn 66928: Navigated to POKéMON and pressed A to open party screen on Turn 66929 (0 steps used, 186 remaining).
