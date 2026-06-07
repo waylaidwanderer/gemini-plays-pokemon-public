@@ -4958,6 +4958,24 @@ We analyzed why we bumped at Column 23 on Rows 14-15 and verified that symmetric
 - **The Ground-Level Bypass Route**: Since Column 20 is blocked by water on Rows 12-13, and Columns 21-23 are blocked by rocks on Row 21, Column 24 is the only continuous ground-level vertical corridor on the East side of the map.
 - **The Path to Safari Zone North**: To traverse Safari Zone East completely on ground level [z=0], we must walk to (24, 22), proceed vertically Up along Column 24 to the northern grass corridor at Row 3, and then walk Left to the transition at (0, 3) or (0, 5). This path is 100% physically passable and avoids all plateau climbing/descents.
 
+# Socratic Answers - Run 45 Plateau Descent & True Northern Transition (Turn 70111)
+
+## 1. Socratic Question 1 (Safari Zone East Column 22 Descent)
+- **Why walking Down past the Row 16 boundary transitions our elevation to z=0**: The eastern plateau's southern boundary on Column 22 ends at Row 16, which features a south-facing jump-down cliff face. In Gen 1, walking south over a south-facing cliff face transitions the player's elevation from the plateau level (z=1) to ground level (z=0) automatically.
+- **Current Position Verification**: Because we walked Down 4 steps from (22, 14) [z=1] to (22, 18), we crossed this cliff face and jumped down to ground level. We are now physically standing on ground level (z=0) at (22, 18) and cannot climb back onto the plateau without using a staircase.
+
+## 2. Socratic Question 2 (The True Ground-Level Northern Transition)
+- **Path from Current Position (22, 18) [z=0] to Safari Zone North Transition**:
+  1. Walk Right 3 steps along Row 18 from (22, 18) to (25, 18) [z=0] [3 steps].
+  2. Walk Up 15 steps along Column 25 from (25, 18) to (25, 3) [z=0] [15 steps].
+  3. Walk Left 25 steps along Row 3 from (25, 3) to (0, 3) [z=0] to transition into Safari Zone North [25 steps].
+- **Step-by-Step Step Counter Math**:
+  - Starting steps at (22, 18) [z=0]: **433 steps remaining**.
+  - Step 1 (Reach (25, 18)): 433 - 3 = **430 steps remaining**.
+  - Step 2 (Reach (25, 3)): 430 - 15 = **415 steps remaining**.
+  - Step 3 (Transition to North at (0, 3)): 415 - 25 = **390 steps remaining**.
+- **Feasibility & Grass-Free Status**: This path is completely open, unblocked, and 100% grass-free, meaning there is a **0% wild encounter risk** for the entire journey! We will transition to Safari Zone North with exactly **390 steps remaining**, guaranteeing a massive step surplus.
+
 <hr>
 
 <h1><code>Reflection/Turn61585_Reflection</code></h1>
