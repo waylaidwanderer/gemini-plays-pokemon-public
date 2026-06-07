@@ -43,3 +43,31 @@
 - **Plateau traversal route**: Walk Left 6 steps and Down 5 steps from (22, 22) [z=1] to (16, 27) [z=1].
 - **Coordinates of the Western Plateau**: Rows 20-22, Columns 15-23.
 - **No risk of falling off**: In Gen 1, plateau boundaries (cliff edges) are treated as solid, impassable walls on the plateau level (elevation z=1). The player cannot walk off the edge, so there is zero risk of falling off.
+
+# Socratic Answers - Western Plateau Descent & Safari Zone West Transition (Turn 69006)
+
+## 1. Socratic Question 1 (Remaining Grass-Free Segment to West)
+- **Path from (16, 27) [z=1] to Safari Zone West Transition**:
+  - Down 1 to (16, 28) (descend Western Plateau stairs to ground level z=0) [1 step]
+  - Left 4 to (12, 28) [4 steps]
+  - Down 2 to (12, 30) [2 steps]
+  - Left 3 to (9, 30) [3 steps]
+  - Down 5 to (9, 35) [5 steps]
+  - Down 1 to transition to Safari Zone West (Map 0_219) at (27, 0) [1 step]
+  - **Total overworld steps consumed**: 1 + 4 + 2 + 3 + 5 + 1 = **16 steps**.
+- **Verified Grass-Free Tiles**:
+  - (16, 28) is TYPE_3fe2 (clear ground).
+  - (15, 28) to (12, 28) are TYPE_3fe2 (clear ground).
+  - (12, 28) to (12, 30) are TYPE_3fe2 (clear ground).
+  - (12, 30) to (9, 30) are TYPE_3fe2 (clear ground).
+  - (9, 30) to (9, 35) are TYPE_3fe2 (clear ground).
+  This path contains absolutely ZERO tall grass tiles, meaning we have a **0% wild encounter risk** all the way to the Safari Zone West map transition.
+
+## 2. Socratic Question 2 (Plateau Descent Verification)
+- **Elevation Transition Mechanics**:
+  - Stepping Down from the staircase tile at (16, 27) [z=1] onto the ground level tile at (16, 28) [z=0] decreases our elevation from plateau level to ground level.
+  - The wooden staircase at (16, 27) is represented in 'safari_pathfinder''s descent handler for Map 0_218 (Safari Zone North):
+    `elif map_id == "0_218" and (cx, cy) == (16, 27) and (nx, ny) == (16, 28): ncz = 0`
+- **Plan to Avoid Accidental Re-climbing/Boundary Collisions**:
+  - Once we transition to (16, 28) [z=0], we must immediately proceed Left along Row 28 to (12, 28) to move away from the staircase coordinate, ensuring we do not walk back Up onto (16, 27).
+  - Row 28 has a solid tree wall of TYPE_2889 at (17, 28), which prevents us from walking East on the ground. Row 29 and Row 30 also have tree walls at (17, 29) and (17, 30), so we are naturally routed to the West along Columns 12-16.
