@@ -1,9 +1,9 @@
 # Safari Zone West Exploration - Run 43 (Turn 68838 - Active)
-- **Current Status**: Standing at (16, 9) in Safari Zone West on Turn 69045, heading toward Koga's bridge at (17, 16).
+- **Current Status**: Standing at (17, 16) on Koga's bridge in Safari Zone West on Turn 69070, ready to walk Up the Column 17 vertical ramp to reach the ground.
 - **Inventory Status**: 15/20 items.
 - **Run 43 Start Turn**: Turn 68838 (June 7, 2026, 6:24 AM)
 - **Run 43 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 264 steps.
+- **Current Steps Remaining**: 256 steps.
 - **Money remaining**: ¥68,817.
 
 ## Active Campaign Plan (Run 43 Victory Route)
@@ -108,3 +108,4 @@ We are executing a fully optimized Run 43 ground-to-plateau dual retrieval.
 - Turn 69019: Walked Down 8 and Left 6 to (21, 18), then Up 2 steps to climb Eastern stairs to (21, 16) [z=1] [remaining: 279].
 - Turn 69025: Walked Left 5 and Up 7 steps across the grass-free plateau to (16, 9) [z=1] [remaining: 267].
 - Turn 69030: Attempted to walk Right 3 times into (17, 9) on the plateau, resulting in solid cliff bumps [remaining: 264].
+- Turn 69068: Walked Down 7 steps along Column 16 to (16, 16) [z=1] and Right 1 step to (17, 16) [z=1] [remaining: 256].
