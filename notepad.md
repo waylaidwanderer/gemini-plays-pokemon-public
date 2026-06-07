@@ -3613,6 +3613,10 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 66619: Ran 'safari_navigator_agent' to synchronize coordinates and steps (7 steps used, 374 remaining).
 - Turn 66621: Walked Left 1 step from (0, 5) in Safari Zone East to transition West to Safari Zone North, landing at (39, 31) on Turn 66622 (1 step used, 373 remaining).
 - Turn 66622: Ran 'safari_navigator_agent' to synchronize coordinates and steps (1 step used, 373 remaining).
+- Turn 66624: Walked Left 11 steps horizontally along Row 31 from (39, 31) to stand at (28, 31) on Turn 66625 (11 steps used, 362 remaining).
+- Turn 66625: Ran 'safari_navigator_agent' to synchronize coordinates and steps (11 steps used, 362 remaining).
+- Turn 66626: Walked Up 5 steps along Column 28 from (28, 31) to climb Eastern Plateau stairs to (28, 26) [z=1] on Turn 66627 (5 steps used, 357 remaining).
+- Turn 66627: Ran 'safari_navigator_agent' to synchronize coordinates and steps (5 steps used, 357 remaining).
 
 <hr>
 
