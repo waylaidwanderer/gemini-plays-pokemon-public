@@ -3504,12 +3504,12 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
-# Safari Zone West Exploration - Run 44 (Turn 69724 - Active)
-- **Current Status**: Standing at (25, 18) in Safari Zone West on Turn 69724 on ground level [z=0], facing Right, with exactly 173 steps remaining.
+# Safari Zone West Exploration - Run 44 (Turn 69781 - Active)
+- **Current Status**: Standing at (17, 14) in Safari Zone West on Turn 69781 on plateau level [z=1], facing Up, with exactly 256 steps remaining.
 - **Inventory Status**: 15/20 items, 30 Safari Balls.
-- **Run 44 Start Turn**: Turn 69460 (June 7, 2026, 9:31 AM)
+- **Run 44 Start Turn**: Turn 69456 (June 7, 2026, 11:11 AM)
 - **Run 44 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 173 steps.
+- **Current Steps Remaining**: 256 steps.
 - **Money remaining**: ¥68,317.
 
 ## Active Campaign Plan (Run 44 Detour Route)
@@ -3521,10 +3521,9 @@ We are executing a fully optimized Run 44 ground-to-plateau detour to retrieve t
 5. **Plateau Descent**: Complete! (Descended Koga's Western stairs to 16, 28, and walked Left to 12, 28).
 6. **Bypass Water Lakes**: Complete! (Walked to 9, 30, and Down to transition at 27, 0 in West with 290 steps remaining).
 7. **Retrieve Gold Teeth & Surf**:
-   - Backtrack to (6, 20) [z=0]: Walk Down 6 steps along Column 2 to (2, 20) [z=0], and Right 4 steps along Row 20 to Koga's Western stairs at (6, 20) [z=0] (completely grass-free). [COMPLETE!]
-   - Climb Western Plateau Stairs UP: Walk Up 2 steps to climb Western stairs to (6, 18) [z=1], and Up 2 steps along Column 6 to (6, 16) [z=1]. [COMPLETE!]
-   - Traverse Koga's bridge: Walk Right 11 steps along Row 16 from (6, 16) to (17, 16) [z=1]. [COMPLETE!]
-   - Backtrack to Southwest Ground Level: Walk Left 11 steps along Row 16 from (17, 16) to (6, 16) [z=1], walk Down 3 steps to (6, 19) [z=1], and Down 1 step to descend the Western stairs to (6, 20) [z=0].
+   - Climb Koga's Eastern Stairs UP: Walked to (21, 18), climbed stairs at (21, 17) to reach (21, 16) [z=1]. [COMPLETE!]
+   - Traverse Koga's bridge & Test Column 17: Walked Left to (17, 16) [z=1], Up to (17, 14) [z=1], tested walking Up into (17, 13) [z=1] and bumped. [COMPLETE!]
+   - Backtrack to Southwest Ground Level: Walk Down 2 steps to (17, 16) [z=1], walk Left 11 steps along Row 16 to (6, 16) [z=1], walk Down 3 steps to (6, 19) [z=1], and Down 1 step to descend the Western stairs to (6, 20) [z=0].
    - Walk Ground Detour past Rest House 3: Walk Left 4 steps along Row 20 to (2, 20) [z=0], Up 6 steps along Column 2 to (2, 14) [z=0], and Right 8 steps along Row 14 to (10, 14) [z=0]. Bypassing Rest House 3 requires: Up 2 steps along Column 10 to (10, 12), Right 3 steps to (13, 12), Up 2 steps to (13, 10), Left 3 steps to (10, 10), and Up 1 step to (10, 9) [z=0] (climbing Koga's Western-West Plateau stairs UP).
    - Western-West Plateau Ledge Jump: From the top of Koga's Western-West Plateau stairs at (10, 8) [z=1], walk Left 6 steps along Row 8 to (4, 8) [z=1], and walk Left 1 step to jump West over the Column 4 ledge onto ground level at (3, 8) [z=0] in the Northwest quadrant.
    - Retrieve Gold Teeth: From (3, 8) [z=0], walk Up 1 step to (3, 7) [z=0], and Right 16 steps along the Row 7 ground corridor to stand on the Warden's Gold Teeth at (19, 7) [z=0] and pick them up.
@@ -3553,6 +3552,13 @@ We are executing a fully optimized Run 44 ground-to-plateau detour to retrieve t
 - **Turn 69594**: Walked Down 17 along Column 27 and Left 3 along Row 17 to (24, 17), Up 1 to stand at (24, 16) [266 steps remaining]. Bumps occurred due to cliff blockage on Column 23 Row 17.
 - **Turn 69597**: Detoured Down twice to (24, 18), Left three times along Row 18 to (21, 18), and Up twice to climb Koga's Eastern stairs at (21, 17) and reach the plateau at (21, 16) [259 steps remaining].
 - **Turn 69615**: Reconciled exactly 259 remaining steps standing at (21, 16) [z=1].
+- **Turn 69727**: Traversed Column 25 on ground level to test the north-east passage, reaching (25, 18) [z=0] with 247 steps remaining.
+- **Turn 69732**: Backtracked to Koga's Eastern stairs after realizing Column 25 was blocked by tree walls to the north.
+- **Turn 69733**: Climbed Koga's Eastern stairs to plateau level, reaching (21, 16) [z=1] with 241 steps remaining.
+- **Turn 69736**: Walked to (21, 14) [z=1] and tested walking Up into Column 21 Row 13. Bumped, physically proving Koga's Eastern Plateau horizontal boundary at Row 14 behaves as a solid cliff wall on Columns 21-22.
+- **Turn 69744**: Traversed Koga's bridge horizontally, walking Left along Row 16 to (17, 16) [z=1] with 237 steps remaining.
+- **Turn 69776**: Walked Up 2 steps along Column 17 from (17, 16) to (17, 14) [z=1].
+- **Turn 69777**: Tested walking Up from (17, 14) into (17, 13) (the checkered vertical ramp TYPE_2889). Bumped, physically proving the checkered vertical ramp is completely impassable from Row 14.
 
 <hr>
 
