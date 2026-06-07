@@ -281,3 +281,5 @@ We will execute both tests on foot in Run 40, document the precise turn/bump res
 - Turn 67110: Walked Right 3 steps to (20, 8) and Up 2 steps along Column 20 (detour) to stand at (20, 6), triggering a wild battle against a Level 25 Exeggcute (5 steps used, 414 remaining).
 - Turn 67112: Escaped wild battle.
 - Turn 67114: Ran 'safari_navigator_agent' to synchronize coordinates and steps (5 steps used, 414 remaining).
+- Turn 67133: Walked 10 steps horizontally along detour (Right 1 to (7, 3), Down 2 to (7, 5), Left 7 to stand at Northwest Exit at (0, 5)).
+- Turn 67134: Ran 'safari_navigator_agent' to synchronize coordinates and steps (8 steps used via Manhattan distance, 389 remaining).
