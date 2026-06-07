@@ -1,9 +1,9 @@
-# Safari Zone West Exploration - Run 46 (Turn 70626 - Active)
-- Current Status: Standing at (28, 11) in Safari Zone Center (Map 0_220) on Turn 70626 on ground level [z=0], facing RIGHT.
+# Safari Zone West Exploration - Run 46 (Turn 70642 - Active)
+- Current Status: Standing at (5, 21) in Safari Zone East (Map 0_217) on Turn 70642 on ground level [z=0], facing RIGHT.
 - Inventory Status: 15/20 items, 29 Safari Balls.
 - Run 46 Start Turn: Turn 70531
 - Run 46 Starting Steps: 500 steps.
-- Remaining Steps: 467 steps.
+- Remaining Steps: 457 steps.
 - Money remaining: ¥67,317.
 
 ## Run 46 Campaign Plan
@@ -85,3 +85,6 @@ This route avoids almost all tall grass and has an extremely high success rate.
 - **Turn 70613**: Paid ¥500 and entered Safari Zone Center (Map 0_220) at (15, 25).
 - **Turn 70614**: Used safari_pathfinder but bumped at (15, 24) tree, landing at (28, 16) with 472 steps remaining.
 - **Turn 70619**: Walked Up 5 steps to (28, 11) with 467 steps remaining, facing RIGHT.
+- **Turn 70632**: Walked Right 1 step to (29, 11) in Safari Zone Center.
+- **Turn 70633**: Walked Right 1 step to transition, landing at (0, 23) in Safari Zone East with 465 steps remaining.
+- **Turn 70638**: Walked Up 2, Right 6 to stand at (5, 21) on Map 0_217, with 457 steps remaining (bumped against tree wall at (6, 21)).
