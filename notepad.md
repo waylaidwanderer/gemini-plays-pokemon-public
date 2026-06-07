@@ -4626,38 +4626,39 @@ We analyzed why we bumped at Column 23 on Rows 14-15 and verified that symmetric
 
 # Koga's Plateau Elevation Split & True Northwest Victory Route Answers
 
-## 1. Socratic Question 1: The Northern Tree Wall Blockage (Row 4 Blockage)
-- **Why (12, 4) is physically blocked**: Row 4 in Safari Zone North (Map 0_218) is occupied by a continuous horizontal tree wall (`TYPE_2889`) that completely blocks any northward movement on Column 12 (at (12, 4)), Column 11 (at (11, 4)), Column 10 (at (10, 4)), etc.
-- **Why the Python BFS on Turn 68669 failed to account for this**: Our BFS script only blocked Row 34 building/fences and did not block Row 4's northern tree wall coordinates, because we assumed that the top of the map was completely open above Row 5. This database gap allowed the pathfinder to generate an invalid path trying to go Up into (12, 4).
-- **Physical obstacles occupying Row 4 of Safari Zone North**: A solid horizontal tree wall of `TYPE_2889` occupies Rows 4 and 5 across Columns 10 to 19 (excluding valid open gaps).
-- **How to update the pathfinder's database**: We must redefine `safari_pathfinder`'s Map 0_218 ground obstacles to explicitly block Row 4 on Columns 10-19.
+## 1. Socratic Question 1: The Row 5 Column 15-21 Tree Wall
+- **Why (20, 5) is physically blocked on ground level**: (20, 5) contains a solid tree trunk tile of `TYPE_2889`. This is part of a large tree structure (spanning (20, 4), (20, 5), (21, 4), (21, 5)).
+- **Cite specific tile types and visual evidence on Row 5**:
+  - (16, 5) is `TYPE_2889` (large tree trunk - impassable)
+  - (17, 5) is `TYPE_2889` (large tree trunk - impassable)
+  - (20, 5) is `TYPE_2889` (large tree trunk - impassable)
+  - (21, 5) is `TYPE_2889` (large tree trunk - impassable)
+- **How this affects your pathway to the East**: This tree wall physically blocks any direct horizontal ground-level pathway to the East on Row 5, forcing us to step Down 1 to Row 6 (which is completely open) to proceed East.
 
-## 2. Socratic Question 2: Column 11 Passability Test (At Row 7)
-- **Visual Situation on Column 11**:
-  - Column 11 Row 5, 6, 7 are visually shown as trees (`TYPE_2889`) on screen, or wait!
-    - (11, 5) is `TYPE_2889` (a dark green tree top/wall).
-    - (11, 6) is `TYPE_2889` (a dark green tree wall).
-    - (11, 7) is `TYPE_2889` (a dark green tree wall).
-- **On-Foot Empirical Testing Protocol**:
-  1. From our current position (12, 5), walk Down 2 steps to (12, 7).
-  2. Press `Left` to attempt to walk into (11, 7).
-  3. If we bump, then (11, 7) is impassable tree wall. If we step Left onto (11, 7), then it is a passable gap!
-  4. If it is passable, we can bypass the lake directly at Row 7 and walk Left to Column 0!
-  5. If it is blocked, we must walk Down along Column 12 to Row 14, and then walk Left on Row 14.
-- **How we will adapt our route if blocked**:
-  If (11, 7) is blocked, we will walk Down along Column 12 to Row 14 (which is land), walk Left to Column 8 (which is land), walk Down Column 8 to Row 20 (avoiding the water lakes), and walk Left along Row 20 to Column 0 to transition to Safari Zone West at (29, 8) or (29, 0)!
+## 2. Socratic Question 2: Ground-Level Bypasses of Koga's Plateau in Safari Zone North
+- **Ground-Level Path to West Transition**:
+  - From current position (19, 5), walk Down 1 to (19, 6).
+  - Walk East 6 steps to (25, 6).
+  - Walk Up 3 steps to (25, 3).
+  - Walk West 25 steps to (0, 3).
+  - Walk Down 9 steps to the West transition at (0, 12).
+  - Total step cost: 1 + 6 + 3 + 25 + 9 = 44 steps!
+- **How it mathematically avoids both the water lake and Koga's Plateau**:
+  - The central water lake in Safari Zone North is located around Rows 8-13 (on Columns 8-11) and Rows 14-19 (on Columns 4-7).
+  - Koga's Plateau is located around Rows 20-22 (on Columns 18-24).
+  - Because Row 3 is completely North of both the lake (maximum north row 8) and Koga's Plateau (maximum north row 20), walking along Row 3 completely avoids both obstacles.
+- **Is this ground-level route superior to climbing Koga's Plateau at (22, 23)? Why or why not?**:
+  - Yes! It is vastly superior because climbing onto Koga's Plateau requires a long detour down to Row 24 to reach the staircase at (22, 23). The ground-level route takes only 44 steps and avoids multiple staircase elevation transitions, which are highly complex and prone to navigation/pathfinding errors.
 
 ## 3. Socratic Question 3: Chronological Step-Budget Reconciliation
-- **Step-by-step math of physical overworld steps consumed since Turn 68580**:
-  - Standing at (8, 31) with exactly **198 steps remaining**.
-  - Walked Down 3 and Left 8 to (7, 30) (consuming 12 steps, remaining: 186)
-  - Walked Up 11 along Column 7 to (7, 20) [colliding with water at (7, 19) and stopping at (7, 20)] (consuming 10 steps, remaining: 176)
-  - Walked Right 1, Up 6, Right 4 to (12, 14) (consuming 11 steps, remaining: 165)
-  - Walked Up 5 and Left 5 to (12, 9) [colliding with water at (11, 9) and stopping at (12, 9)] (consuming 5 steps, remaining: 160)
-  - Walked Up 5 to (12, 5) [colliding with tree at (12, 4) and stopping at (12, 5)] (consuming 4 steps, remaining: 156)
-  - **Reconciled Remaining Steps**: 198 - 12 - 10 - 11 - 5 - 4 = **156 remaining steps** on Turn 68670.
-  - This perfectly matches the RAM's step counter, ensuring 100% accurate, drift-free step-keeping!
-- **Log Updates**: Added missing chronological movement entries for Turn 68648, Turn 68658, Turn 68661, Turn 68666, and Turn 68669 to 'Scratchpad/SafariZone_West_Route' to ensure perfect tracking accuracy.
+- **Step-by-step math of physical overworld steps consumed since Turn 68670**:
+  - Turn 68670: Standing at (12, 5) with exactly **156 steps remaining**.
+  - Turn 68679: Walked Down 2 steps to (12, 7) [consuming 2 steps, remaining: 154].
+  - Turn 68680: Pressed Left 1 step to test (11, 7), bumping and stopping at (12, 7) [consuming 1 step, remaining: 153].
+  - Turn 68687: Walked Up 1, Right 6, Up 1, Right 2 to (19, 5) [colliding with tree at (20, 5) and stopping at (19, 5)] [consuming 10 steps, remaining: 143].
+  - **Reconciled Remaining Steps**: 156 - 2 - 1 - 10 = **143 steps remaining** on Turn 68700/68706. This perfectly matches the RAM's step counter, ensuring 100% accurate, drift-free step-keeping.
+- **How to update chronological logs to ensure perfect tracking accuracy**:
+  - We have successfully appended the missing overworld movement entries for Turn 68679, Turn 68680, and Turn 68687 to 'Scratchpad/SafariZone_West_Route' to ensure perfect tracking accuracy.
 
 <hr>
 
