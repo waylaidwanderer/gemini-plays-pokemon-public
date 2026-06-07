@@ -5743,12 +5743,12 @@ We are in a flawless tactical position!
 
 <h1><code>Scratchpad/SafariZone_Run46_Route</code></h1>
 
-# Safari Zone West Exploration - Run 46 (Turn 70642 - Active)
-- Current Status: Standing at (5, 21) in Safari Zone East (Map 0_217) on Turn 70642 on ground level [z=0], facing RIGHT.
+# Safari Zone West Exploration - Run 46 (Turn 70651 - Active)
+- Current Status: Standing at (24, 24) in Safari Zone East (Map 0_217) on Turn 70651 on ground level [z=0], facing RIGHT.
 - Inventory Status: 15/20 items, 29 Safari Balls.
 - Run 46 Start Turn: Turn 70531
 - Run 46 Starting Steps: 500 steps.
-- Remaining Steps: 457 steps.
+- Remaining Steps: 433 steps.
 - Money remaining: ¥67,317.
 
 ## Run 46 Campaign Plan
@@ -5833,5 +5833,8 @@ This route avoids almost all tall grass and has an extremely high success rate.
 - **Turn 70632**: Walked Right 1 step to (29, 11) in Safari Zone Center.
 - **Turn 70633**: Walked Right 1 step to transition, landing at (0, 23) in Safari Zone East with 465 steps remaining.
 - **Turn 70638**: Walked Up 2, Right 6 to stand at (5, 21) on Map 0_217, with 457 steps remaining (bumped against tree wall at (6, 21)).
+- **Turn 70643**: Walked Left 1, Down 3, Right 6 to stand at (10, 24) on Row 24 clear ground with 447 steps remaining.
+- **Turn 70645**: Walked Right 8 steps to (18, 24) where we encountered a wild Nidorina; escaped immediately on Turn 70647 with 439 steps remaining.
+- **Turn 70649**: Walked Right 6 steps to stand at (24, 24) with exactly 433 steps remaining, facing RIGHT.
 
 <hr>
