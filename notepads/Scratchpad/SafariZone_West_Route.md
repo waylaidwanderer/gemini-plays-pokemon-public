@@ -1,9 +1,9 @@
-# Safari Zone West Exploration - Run 40 (Turn 67024 - Active)
-- **Current Status**: Inside Safari Zone Gatehouse (Map 0_156) at (3, 5) on Turn 67024. Ready to register for Run 40!
+# Safari Zone West Exploration - Run 40 (Turn 67146 - Active)
+- **Current Status**: Standing on the stairs at (28, 27) in Safari Zone North (Map 0_218) on Turn 67146 with 373 steps remaining.
 - **Inventory Status**: 15/20 items.
 - **Run 40 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 500 steps.
-- **Money remaining**: ¥70,817.
+- **Current Steps Remaining**: 373 steps.
+- **Money remaining**: ¥70,317.
 
 ## Master Run 40 Campaign Plan (Double-Retrieval Route)
 - **Segment 1: Safari Zone Center (Start to stand at East Exit at (29, 11))** [31 steps - COMPLETED]:
