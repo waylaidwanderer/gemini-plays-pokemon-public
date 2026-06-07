@@ -286,3 +286,9 @@ We will execute both tests on foot in Run 40, document the precise turn/bump res
 - Turn 67140: Walked Up 15 steps (Left 11 along Row 31, Up 4 steps along Column 28) to stand on the stairs at (28, 27) [z=0/1] in Safari Zone North.
 - Turn 67143: Ran 'safari_navigator_agent' to synchronize coordinates and steps (15 steps used via Manhattan distance, 373 remaining).
 - Turn 67148: Walked Up 1 step to step fully onto the Eastern Plateau at (28, 26) [z=1] in Safari Zone North.
+- Turn 67153: Walked 12 steps (Down 4, Left 4, Up 1) to (24, 29) [z=0], triggering a wild battle against a Level 30 Nidorino (7 steps used via Manhattan distance, 365 remaining).
+- Turn 67154: Escaped battle.
+- Turn 67158: Walked 8 steps (Up 6, Left 2) to Western Plateau stairs at (22, 23) [z=0] (8 steps used, 357 remaining).
+- Turn 67159: Walked Up 1 step to climb the stairs to stand on the plateau at (22, 22) [z=1] (1 step used, 356 remaining).
+- Turn 67168: Walked Left 6 steps horizontally along Row 22 to stand at (16, 22) [z=1] (6 steps used, 350 remaining).
+- Turn 67169: Ran 'safari_navigator_agent' to synchronize coordinates and steps (12 steps used via Manhattan distance, 338 remaining).
