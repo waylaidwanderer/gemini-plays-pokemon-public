@@ -1,5 +1,5 @@
 # Safari Zone West Exploration - Run 45 (Turn 70001 - Active)
-- **Current Status**: Standing at (21, 18) in Safari Zone West on Turn 70276 on ground level [z=0], facing Down, with 162 steps remaining.
+- **Current Status**: Standing at (9, 30) in Safari Zone North on Turn 70291 on ground level [z=0], facing Up, with 132 steps remaining.
 - **Inventory Status**: 15/20 items, 29 Safari Balls.
 - **Run 45 Start Turn**: Turn 70001
 - **Run 45 Starting Steps**: 500 steps.
