@@ -1,8 +1,8 @@
-# Safari Zone West Exploration - Run 40 (Turn 67235 - Active)
-- **Current Status**: Standing on the plateau at (15, 14) in Safari Zone West (Map 0_219) on Turn 67235 with 251 steps remaining.
+# Safari Zone West Exploration - Run 40 (Turn 67264 - Active)
+- **Current Status**: Standing at ground level at (21, 18) in Safari Zone West (Map 0_219) on Turn 67264 with 229 steps remaining.
 - **Inventory Status**: 15/20 items.
 - **Run 40 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 251 steps.
+- **Current Steps Remaining**: 229 steps.
 - **Money remaining**: ¥70,317.
 
 ## Master Run 40 Campaign Plan (Double-Retrieval Route)
