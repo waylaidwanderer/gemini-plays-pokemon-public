@@ -67,3 +67,10 @@ We are navigating to Safari Zone West via the Eastern Ground Corridor of Safari 
 - Turn 70221: Walked Down 1, Right 2, Up 1 to reach (13, 12) and test Column 13 Row 11 by walking Up. Resulted in a bump, indicating a temporary block by a wandering NPC [5 steps used, 199 remaining].
 - Turn 70223: Walked Down 1, Left 3, Up 1 to reach (10, 12) and test Column 10 Row 11 by walking Up. Resulted in a bump, confirming Column 10 is blocked by a static house wall [6 steps used, 193 remaining].
 - Turn 70241: Standing at (10, 12) [z=0] facing Up with 193 steps remaining. Redefined safari_pathfinder and ready to execute the Column 13 ground detour.
+- Turn 70245: Executed 36-step sequence to detour around Rest House 3, but bumped against (13, 11) because Koga's Western Plateau cliff or the building wall is solid. Visited (10, 12) -> (10, 13) -> (11, 13) -> (12, 13) -> (13, 13) -> (13, 12) and remained at (13, 12) [z=0] facing Up [5 steps used, 188 remaining].
+- Turn 70252: Pressed B 3 times to wait for the Scientist NPC to move, remaining at (13, 12) [0 steps used, 188 remaining].
+- Turn 70253: Attempted 23-step backtrack around Rest House 3 and lake to reach Koga's Western stairs. Aborted at step 18 because we triggered a wild Kangaskhan battle on (2, 19) [z=0] [18 steps used, 170 remaining].
+- Turn 70255: Threw a Safari Ball at wild Kangaskhan, but it broke free and ran away [0 steps used, 170 remaining].
+- Turn 70257: Updated top status block and synchronized overworld logs. Ready to proceed to (6, 20) [z=0].
+- Turn 70263: Attempted 5-step path to reach (6, 20). Aborted at step 3 because of wild Doduo battle at (4, 20) [3 steps used, 167 remaining].
+- Turn 70267: Escaped wild Doduo, standing at (4, 20) on ground level [z=0] facing Right with 167 steps remaining.
