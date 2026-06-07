@@ -3503,11 +3503,11 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
-# Safari Zone West Exploration - Run 39 (Turn 66653 - Active)
-- **Current Status**: Standing on the Western Plateau at (16, 22) [z=1] in Safari Zone North (Map 0_218) on Turn 66653. Preparing to walk Down 6 steps along Column 16 to stand on stairs at (16, 27) and descend to ground level at (16, 28) [z=0].
+# Safari Zone West Exploration - Run 39 (Turn 66661 - Active)
+- **Current Status**: Standing on ground level at (16, 28) in Safari Zone North (Map 0_218) on Turn 66661. Preparing to walk to Safari Zone West transition at (9, 35) [z=0].
 - **Inventory Status**: 15/20 items.
 - **Run 39 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 333 steps.
+- **Current Steps Remaining**: 327 steps.
 - **Money remaining**: ¥70,817.
 
 ## Master Run 39 Campaign Plan (Double-Retrieval Route)
