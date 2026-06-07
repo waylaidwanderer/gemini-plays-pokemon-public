@@ -45,12 +45,25 @@ This route avoids almost all tall grass and has an extremely high success rate.
 
 ## Chronological Overworld Log (Run 46)
 - **Turn 70404**: Standing at (19, 28) in Fuchsia City. Warped from Safari Zone North using Blastoise's DIG on Turn 70403 to reset our steps. Ready to walk to the Safari Zone Gatehouse.
-## Eastern Corridor Hypothesis & Verification
-- **Hypothesis**: The far eastern corridor (Columns 34-39) of Fuchsia City is completely open and passable going North all the way to Row 13, allowing us to bypass the houses and fences on foot without CUT.
-- **Verification Method**: We will walk to Column 35 on Row 30 and walk North, documenting each tile's coordinates and passability to systematically prove or disprove this corridor.
-- **Turn 70482**: Currently standing at (24, 28) facing Down. Bounded by the one-way ledge on the West. Row 30 is completely clear to the right. We will walk to (35, 30) to test the hypothesis.
-- **Turn 70504 Verification**: Standing at (36, 18) [z=0] facing Up. Looking at `<CurrentScreen turn="70504">`, we can visually confirm that:
-  - Row 15 has solid trees (TYPE_2889) on Column 36, 37, 38, and 39.
-  - Row 16 has solid trees (TYPE_2889) on Column 32, 33, 34, and 35.
-  This forms a continuous, interlocking tree barrier across Columns 32-39 with absolutely no vertical gap, proving that the Eastern Corridor is indeed completely impassable going North on foot.
-- **Warp-Reset Plan**: Because we are currently trapped on the East side of Fuchsia City by the one-way jump-down ledge at Column 23 and the solid tree barriers on the North, we will use BLASTOISE (GEMMY)'s DIG to warp-reset back to the Fuchsia City Pokémon Center at (19, 28) on the West side. Because we are in Fuchsia City (outside of the Safari Zone), using DIG operates as a standard overworld teleportation warp and does not consume any of our Safari Zone steps. From the Pokémon Center, we can easily access the wide-open Western street at Column 9, walk Up to Row 19, and walk East behind the residential houses to stand at (18, 20) facing Up at the first cut bush at (18, 19).
+- **Turn 70420**: Walked Left 5 steps from (19, 28) to (14, 28).
+- **Turn 70443**: Walked Right 8 steps, Up 8 steps, reaching (22, 26) but blocked by the fence at (22, 25).
+- **Turn 70449**: Walked Right 2 steps to Column 24 (crossing the one-way ledge), Up to (24, 25), facing the Kangaskhan at (24, 24).
+- **Turn 70453**: Walked Down 5 steps to (24, 30).
+- **Turn 70460**: Tried walking around the houses via Column 30, but (30, 25) was blocked by the roof. Ended up at (26, 28).
+- **Turn 70462**: Walked Right 4 steps, Down 2 steps to (30, 30).
+- **Turn 70464**: Walked Left 21 steps along Row 30 but bumped into the one-way ledge at Column 23, landing at (24, 30).
+- **Turn 70467**: Walked Up 4, Left 2, Down 2, ending up at (24, 28) facing Down.
+- **Turn 70484**: Walked Down 2 steps to (24, 30) and Right 11 steps to (35, 30).
+- **Turn 70492**: Walked Right 1 step to Column 36 at (36, 30) and Up 4 steps along Column 36 to (36, 26).
+- **Turn 70495**: Walked Up 8 steps along Column 36 to (36, 18) facing Up.
+- **Turn 70504**: Conclusively disproved the Eastern corridor hypothesis on foot by verifying the interlocking tree blockage on Rows 15 and 16.
+- **Turn 70508**: Opened Start menu.
+- **Turn 70510**: Selected POKéMON.
+- **Turn 70514**: Opened POKéMON menu again.
+- **Turn 70515**: Selected BIRBIE (PIDGEOTTO).
+- **Turn 70516**: Selected FLY.
+- **Turn 70517**: Opened the overworld Fly map.
+- **Turn 70520**: Pressed Up to Viridian City.
+- **Turn 70527**: Pressed Down to Pallet Town.
+- **Turn 70529**: Pressed Down to Saffron City.
+- **Turn 70532**: Pressed Down 3 times to Fuchsia City and executed FLY!
