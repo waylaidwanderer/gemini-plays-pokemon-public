@@ -5743,8 +5743,8 @@ We are in a flawless tactical position!
 
 <h1><code>Scratchpad/SafariZone_Run46_Route</code></h1>
 
-# Safari Zone West Exploration - Run 46 (Turn 70590 - Active)
-- Current Status: Standing at (3, 5) inside the Safari Zone Gatehouse (Map 0_156) on Turn 70590 on ground level [z=0], facing UP toward the Gatekeeper.
+# Safari Zone West Exploration - Run 46 (Turn 70610 - Active)
+- Current Status: Standing at (3, 2) inside the Safari Zone Gatehouse (Map 0_156) on Turn 70610 on ground level [z=0], facing UP with dialogue open.
 - Inventory Status: 15/20 items, 29 Safari Balls.
 - Run 46 Start Turn: Turn 70531 (Upcoming)
 - Run 46 Starting Steps: 500 steps.
