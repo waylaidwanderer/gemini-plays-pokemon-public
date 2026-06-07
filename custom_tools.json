@@ -938,12 +938,17 @@
         "buttons"
       ]
     },
-    "python_script": "import json\nimport sys\n\n# The tool takes a list of buttons to press sequentially to handle dialogue\ninput_data = json.loads(sys.argv[1])\nbuttons = input_data.get('buttons', [])\n\n# Print the JSON array of buttons so the harness executes them\nprint(json.dumps(buttons))\n",
+    "python_script": "import json\n\n# Read the buttons array directly from the pre-defined global 'input_data' dictionary\nbuttons = input_data.get('buttons', [])\n\n# Print the JSON array of buttons so the harness executes them\nprint(json.dumps(buttons))\n",
     "history": [
       {
         "commit_message": "Define gatehouse_dialog_helper to handle the gatehouse dialogue and enter Safari Zone without triggering the auto-advance.",
         "timestamp": "2026-06-07T09:54:48.281Z",
         "action_counter": 68101
+      },
+      {
+        "commit_message": "Fix gatehouse_dialog_helper by using the pre-defined global input_data dictionary instead of sys.argv.",
+        "timestamp": "2026-06-07T09:57:11.832Z",
+        "action_counter": 68109
       }
     ]
   }
