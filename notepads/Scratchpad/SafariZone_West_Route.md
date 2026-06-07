@@ -50,3 +50,8 @@ Our empirical testing on Turn 68472 conclusively falsified the ground-level bypa
 2. **Custom Tool Usage**: Redefined safari_pathfinder on Turn 68590 to incorporate Map 0_218 correct water lake and tree walls, fixing the database gap.
 3. **Notepads & Objectives Update**: Updated Scratchpad/SafariZone_West_Route and Mechanics/Socratic_West_Answers to reflect 198 steps remaining and corrected the chronological steps-taken math.
 4. **50-Turn Plan**: Walk across the North Corridor using the verified ground-level path `['Up', 'Left', 'Up', 'Up', 'Up', 'Up', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left']` to reach the Northwest transition to Safari Zone West ground level Northwest plains (where the Secret House and teeth are located). Walk to the Secret House and obtain HM03 Surf!
+- Turn 68648: Walked Down 3 and Left 8 steps to (7, 30) [z=0] (remaining: 186).
+- Turn 68658: Walked Up 10 steps along Column 7 to (7, 20) [z=0], colliding with water at (7, 19) (remaining: 176).
+- Turn 68661: Walked Right 1, Up 6, Right 4 steps to (12, 14) [z=0] (remaining: 165).
+- Turn 68666: Walked Up 5 steps along Column 12 and Left 5 to (12, 9) [z=0], colliding with water at (11, 9) (remaining: 160).
+- Turn 68669: Walked Up 5 steps along Column 12 to (12, 5) [z=0], colliding with tree at (12, 4) (remaining: 156).
