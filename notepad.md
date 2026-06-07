@@ -3511,10 +3511,31 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - **Current Steps Remaining**: 105 steps (Reconciled).
 - **Money remaining**: ¥69,817.
 
-## Active Campaign Plan (Refined Row 7 Ledge Jump Victory Route)
-1. **Ledge Jump to Ground**: Walk Left 5 steps along Row 7 to stand at (11, 7) [z=1], and Left 1 step to jump West over the Column 10 ledge to land at (9, 7) [z=0] on ground level.
-2. **Retrieve HM03 Surf**: Walk Left 6 steps along Row 7 to (3, 7) [z=0], walk Up 4 steps to enter the Secret House at (3, 3) [z=0], and obtain Surf.
-3. **Retrieve Warden's Gold Teeth**: Exit the Secret House at (3, 3) [z=0], walk Down 4 steps to (3, 7) [z=0], and walk Right 16 steps along Row 7 to retrieve the Gold Teeth at (19, 7) [z=0].
+## Active Campaign Plan (Run 42 Ground Bypass Victory Route)
+We will bypass Koga's plateau entirely on Run 42 by using the edge-to-edge transition on the western ground level of Safari Zone North (Row 35, Columns 2-7), which mathematically transitions us directly onto the open ground-level plains of Safari Zone West (Row 0, Columns 20-25) with zero plateaus to climb!
+
+### Step-by-Step Step-Efficient Route (Run 42):
+1. **Gatehouse to Center Transition**: Walk Up to transition into Safari Zone Center at (15, 25).
+2. **Center to East**: Walk to (29, 11) and transition to Safari Zone East at (0, 23).
+3. **East to North**: Climb Eastern Plateau stairs, walk across to Western stairs, descend to ground corridor, climb northern stairs, walk to northern corridor, and transition to Safari Zone North at (39, 31).
+4. **North to West via Southern Edge-Bypass**:
+   - Walk Left along Row 31 to (28, 31).
+   - Climb Eastern Plateau stairs to (28, 26).
+   - Descend Eastern Plateau stairs to ground level at (28, 30).
+   - Walk Left along Row 29 to (22, 29).
+   - Climb Western Plateau stairs to (22, 22).
+   - Traverse Western Plateau Left 6 steps to (16, 22).
+   - Descend Western Plateau stairs to ground level at (16, 28).
+   - Walk Down 2 steps to Row 30, and Left to Column 2/3/4/5/6/7.
+   - Walk Down to Row 35 and walk Down to transition directly to Safari Zone West (landing at Columns 20-25 on Row 0 [z=0]).
+5. **Safari Zone West Ground-Level Victory**:
+   - Land on ground level (z=0) at Column 20-25 Row 0.
+   - Walk Left to Column 3 Row 0.
+   - Walk Down 3 steps to (3, 3) to enter Secret House and retrieve HM03 Surf.
+   - Exit Secret House, walk to (19, 7) on ground level to retrieve Warden's Gold Teeth.
+   - Use DIG to warp back to Fuchsia City!
+
+This route completely avoids Koga's plateau in Safari Zone West and uses fewer steps, guaranteeing victory!
 
 ## Socratic Answers & Proof of Work (Overwatch Resolution)
 - **Socratic Question 1 (Ledge Jump and Ledge Variables)**:
