@@ -1,9 +1,9 @@
 # Safari Zone West Exploration - Run 45 (Turn 70001 - Active)
-- **Current Status**: Standing at (12, 22) in Safari Zone East on Turn 70131 on ground level [z=0], facing Down, with 418 steps remaining.
+- **Current Status**: Standing at (9, 22) in Safari Zone East on Turn 70133 on ground level [z=0], facing Down, with 415 steps remaining.
 - **Inventory Status**: 15/20 items, 30 Safari Balls.
 - **Run 45 Start Turn**: Turn 70001
 - **Run 45 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 418 steps.
+- **Current Steps Remaining**: 415 steps.
 - **Money remaining**: ¥67,817.
 
 ## Run 45 Campaign Plan
