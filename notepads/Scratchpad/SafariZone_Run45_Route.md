@@ -32,11 +32,15 @@ We are navigating to Safari Zone West via the Eastern Ground Corridor of Safari 
    - Descend Western Plateau stairs to (16, 28) [z=0].
    - Walk grass-free southwest corridor to transition to West at (27, 0) [z=0].
 
-3. **Backtrack to Safari Zone North and Explore Northern Route**:
-   - Backtrack to (27, 0) [z=0] in Safari Zone West and transition back to Safari Zone North at (9, 35) [z=0].
-   - From (9, 35) in Safari Zone North, walk East and Up along Column 12 to Row 6 (unexplored northern pocket).
-   - Walk West through the northern ground corridor to find the true, northwestern transition into Safari Zone West.
-   - Enter Safari Zone West via the top-left northwestern transition, landing directly in the Northwest quadrant to retrieve the Gold Teeth at (19, 7) and HM03 Surf at (3, 3) on ground level [z=0]!
+3. **Traverse Safari Zone North via Row 24 Detour**:
+   - From (12, 18) [z=0] in Safari Zone North, walk Down 6 steps along Column 12 to (12, 24) [z=0] [6 steps].
+   - Walk Left 8 steps along Row 24 to (4, 24) [z=0] [8 steps].
+   - Walk Up 4 steps along Column 4 to (4, 20) [z=0] [4 steps].
+   - Walk Left 1 step along Row 20 to (3, 20) [z=0] [1 step].
+   - Walk Up 16 steps along Column 3 to reach the northern corridor at (3, 4) [z=0] [16 steps].
+   - Walk Left 2 steps along Row 4 to transition into Safari Zone West Northwest quadrant at (29, 3) [z=0] [2 steps].
+   - From (29, 3) [z=0] in West, walk Left to Column 19, and Down 4 steps to (19, 7) [z=0] to retrieve the Warden's Gold Teeth [14 steps].
+   - Walk Up 2 steps to Row 5, Left 16 steps along Row 5 to Column 3, and Up 2 steps to enter the Secret House at (3, 3) [z=0] to get HM03 Surf [20 steps].
 
 ## Chronological Overworld Log (Run 45)
 - **Turn 70001**: Paid ¥500 entry fee to Gatekeeper at (1, 4) from (3, 2) in Gatehouse and entered Safari Zone Center at (15, 25) [500 steps remaining].
