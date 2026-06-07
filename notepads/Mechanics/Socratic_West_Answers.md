@@ -167,7 +167,24 @@
   - True remaining steps in RAM on Turn 69189: **221 remaining steps**.
   - Note on Navigator Agent Delta: The custom `safari_navigator_agent` computed 222 steps remaining because it utilizes Manhattan distance deltas which do not track the 1 step consumed by the bump at (5, 15). The true RAM value is 221.
 - **Turn 69195 Test**: Standing at (6, 16) [z=1] facing UP, attempted to walk Up into (6, 15). Result: BUMPED against the north-facing horizontal cliff of the bridge. This physically proves that Column 6 Row 15 is indeed ground level (z=0, TYPE_3fe2).
-- **Plateau Separation Confirmed**: Since both Column 5 Row 15 and Column 6 Row 15 have been empirically proven to be ground-level tiles, Koga's Western-West Plateau (Columns 4-10) is completely separated from Koga's bridge (Row 16 Columns 5-22). The elevated Western stairs at (6, 19) lead from (6, 18) [z=1] DOWN to (6, 20) [z=0] on the ground, allowing us to descend and use ground-level bypasses around the bridge to reach the Northwest quadrant.
+## Socratic Question 3 (The Only Functional Ledge-Jump Route)
+- **Navigation Plan to Northwest Ground Level**:
+  1. Walk back Down and Right to descend Koga's Western stairs to ground level at (6, 20) [z=0].
+     - From our current position (17, 14) [z=1], walk Down 2 steps to (17, 16) [z=1], Left 11 steps along Koga's bridge to (6, 16) [z=1], Down 3 steps to (6, 19) [z=1], and Down 1 step to descend the stairs to (6, 20) [z=0]. (Step Cost: 17 steps).
+  2. Walk Left 4 steps along Row 20 to (2, 20) [z=0] and Up 6 steps along Column 2 to (2, 14) [z=0]. (Step Cost: 10 steps).
+  3. Walk Right 8 steps along Row 14 to (10, 14) [z=0]. (Step Cost: 8 steps).
+  4. Walk Up 2 steps to (10, 12), Right 3 steps to (13, 12), Up 2 steps to (13, 10), Left 3 steps to (10, 10), and Up 1 step to (10, 9). This cleanly bypasses Rest House 3's solid building wall at Columns 11-13 Row 11. (Step Cost: 11 steps).
+  5. Climb UP Koga's Western-West Plateau stairs from (10, 9) [z=0] to (10, 8) [z=1] (1 step). Walk Left 6 steps on the plateau along Row 8 to (4, 8) [z=1] (6 steps). Walk Left 1 step to jump West over the Column 4 ledge onto (3, 8) [z=0] on the ground in the Northwest quadrant (1 step). (Step Cost: 8 steps).
+  6. Walk Up 1 step to (3, 7) (1 step), walk Right 16 steps along the Row 7 ground corridor to stand on the Warden's Gold Teeth at (19, 7) [z=0] and pick them up (16 steps). Walk Left 16 steps back to (3, 7) [z=0] (16 steps). Walk Up 4 steps along Column 3 to enter the Secret House at (3, 3) [z=0] and obtain HM03 Surf (4 steps). (Step Cost: 37 steps).
+  - **Step-by-Step Step Counter Math**:
+    - Current Steps Remaining: **119 steps** (on Turn 69313 standing at (17, 14)).
+    - Step 1 (Descend Koga's Western stairs): 119 - 17 = 102 steps remaining.
+    - Step 2 (Reach (2, 14)): 102 - 10 = 92 steps remaining.
+    - Step 3 (Reach (10, 14)): 92 - 8 = 84 steps remaining.
+    - Step 4 (Reach (10, 9) stairs): 84 - 11 = 73 steps remaining.
+    - Step 5 (Climb Western-West Plateau and jump ledge to (3, 8)): 73 - 8 = 65 steps remaining.
+    - Step 6 (Retrieve Teeth at (19, 7) and enter Secret House at (3, 3)): 65 - 37 = **28 steps remaining**.
+  - **Feasibility Confirmation**: Yes! 91 steps are mathematically required to execute this entire master route, which is less than our remaining 119 steps. We will have exactly **28 steps remaining** inside the Secret House when we secure HM03 Surf! This confirms that the route is 100% mathematically feasible.
 
 ## Socratic Question 1 (Koga's Western-West Plateau Staircase Climb)
 - **Staircase Climb**: Koga's Western-West Plateau (Columns 4-10, Rows 6-13) is climbed on foot on the East side using the wooden staircase at (10, 9). Walking Up from (10, 9) [z=0] to (10, 8) [z=1] climbs onto the plateau.
