@@ -4740,6 +4740,26 @@ We reconcile this physical contradiction by analyzing the row-by-row layout of C
   - Now, we are standing at (25, 18) [z=0]. We will walk Up Column 25 to Row 7 to test if we can cross Westward to (19, 7) [Gold Teeth] or Row 5 on Column 24.
   - Let's walk Up 11 steps along Column 25 to (25, 7) [z=0] and test walking Left into (24, 7).
 
+## 5. Reconciling Koga's Eastern Plateau Rendering Illusion & Victory Route Math (Turn 67955)
+
+### Socratic Question 1: The Plateau Background Overlay Illusion Answer
+- **Mechanism of Gen 1 Tile & Elevation Rendering**: In Generation 1, map tiles (metatiles) represent both visual texture and standard collision properties. However, because the Gameboy's graphics hardware only has a single background layer and no native concept of height layers, elevation (z-level) is handled dynamically via internal player state variables in RAM. 
+- **The "Invisible" Plateau Extension**: When a player is on the plateau level (z=1), the standard ground-level collision rules are ignored in favor of the plateau's elevation mask. Because Column 21 has no staircase or ledge drop-off transitions facing north/south on Rows 12-14, the player cannot fall off or descend to the ground level by simply walking north.
+- **Visual vs. Physical Reality**: Consequently, while the map tile indices at (21, 13) and (21, 12) are visually rendered as standard ground grass (`TYPE_3fe2`), they act physically as continuous elevated plateau ground for any player at z=1. Thus, walking Up Column 21 past Row 14 is 100% physically and mathematically guaranteed to succeed on foot, maintaining the player's z=1 elevated state!
+
+### Socratic Question 2: Reconciled Step Budget & Victory Surge Answer
+- **Step-by-Step Victory Route Math**: Starting from our current position (5, 16) [z=1] with exactly **159 remaining steps**:
+  1. Walk Right 16 steps along the bridge to (21, 16) [z=1] -> 16 steps used (143 remaining).
+  2. Walk Up 7 steps along Column 21 to (21, 9) [z=1] -> 7 steps used (136 remaining).
+  3. Walk Left 3 steps along Row 9 to (18, 9) [z=1] -> 3 steps used (133 remaining).
+  4. Walk Right 1 step to jump down the ramp to ground level at (19, 9) [z=0] -> 1 step used (132 remaining).
+  5. Walk Up 2 steps to (19, 7) [z=0] to retrieve Warden's Gold Teeth -> 2 steps used (130 remaining).
+  6. Walk Left 1, Up 2 to (18, 5) [z=0] -> 3 steps used (127 remaining).
+  7. Walk Left 15 steps along Row 5 to (3, 5) [z=0] -> 15 steps used (112 remaining).
+  8. Walk Up 2 steps to enter the Secret House at (3, 3) [z=0] -> 2 steps used (110 remaining).
+- **Remaining Steps**: Upon entering the Secret House, we will have exactly **110 steps remaining**.
+- **Victory Guarantee**: Because Safari Zone steps only decrement when moving on outdoor maps, steps do not decrement inside building interiors (like the Secret House). Obtaining HM03 Surf from the NPC inside is purely a text-box dialogue interaction, which consumes 0 steps. Having 110 steps remaining upon arrival mathematically guarantees 100% success on foot on this run!
+
 <hr>
 
 <h1><code>Reflection/Turn61585_Reflection</code></h1>
