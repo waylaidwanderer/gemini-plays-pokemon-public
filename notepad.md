@@ -3699,6 +3699,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 66923: Ran 'safari_navigator_agent' to synchronize coordinates and steps (186 remaining).
 - Turn 66927: Pressed Start to open overworld menu on Turn 66928 (0 steps used, 186 remaining).
 - Turn 66928: Navigated to POKéMON and pressed A to open party screen on Turn 66929 (0 steps used, 186 remaining).
+- Turn 66930: Pressed A on GEMMY to open his action menu on Turn 66931 (0 steps used, 186 remaining).
 
 <hr>
 
