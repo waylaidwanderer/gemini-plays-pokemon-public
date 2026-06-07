@@ -5009,6 +5009,15 @@ We analyzed why we bumped at Column 23 on Rows 14-15 and verified that symmetric
 - **Verification on Turn 70392**: We physically tested this ground detour on foot and proved that Column 5 is completely blocked by solid tree barriers. This makes the Southwest ground-level pocket of Safari Zone North a completely closed, isolated dead end with NO ground-level connection to the western side.
 - **Mandatory Plateau Climb**: Therefore, the ground-level detour is physically impossible. Climbing the Western Plateau at (22, 23) [z=1] is strictly mandatory to cross over this barrier. We successfully used DIG on Turn 70403 to escape this dead end and reset our steps.
 
+## Socratic Question 1 (Column 24 Northern Transition Disproof)
+- **Hypothesis**: Column 24 on Safari Zone East provides a continuous ground-level [z=0] bypass route to the North, allowing us to traverse the eastern side of the map without climbing/descending Koga's plateau.
+- **Turn 70693 Empirical Test**: 
+  - On Turn 70692, we stood on the northern edge of Koga's Eastern Plateau at (24, 12) [z=1] facing UP, directly adjacent to the ground-level grass tile at (24, 11) [z=0].
+  - On Turn 70693, we pressed UP to attempt to walk vertically from (24, 12) [z=1] to (24, 11) [z=0].
+  - Result: BUMPED against a solid wall, remaining at (24, 12) [z=1].
+- **Physical Proof**: This height mismatch confirms that the elevation difference between Row 12 (plateau level, z=1) and Row 11 (ground level, z=0) behaves as a solid, impassable horizontal wall across Column 24 as well. It is physically impossible to step or jump north off the plateau here.
+- **Conclusive Disproof & Impact**: This empirical test conclusively disproves the ground-level Column 24 bypass hypothesis. Because Column 24 is blocked by the plateau at Rows 12-14 on ground level [z=0], and we cannot step north off the plateau on Column 24, Column 24 is NOT a ground-level vertical corridor. Consequently, traversing Koga's plateau crossover (climbing onto the plateau at (20, 21) or (24, 15) [z=1], walking across Koga's bridge/crossover, and descending the Western/Northern stairs) is strictly mandatory to navigate between the southern and northern halves of Safari Zone East on foot.
+
 <hr>
 
 <h1><code>Reflection/Turn61585_Reflection</code></h1>
