@@ -74,3 +74,15 @@ We are navigating to Safari Zone West via the Eastern Ground Corridor of Safari 
 - Turn 70257: Updated top status block and synchronized overworld logs. Ready to proceed to (6, 20) [z=0].
 - Turn 70263: Attempted 5-step path to reach (6, 20). Aborted at step 3 because of wild Doduo battle at (4, 20) [3 steps used, 167 remaining].
 - Turn 70267: Escaped wild Doduo, standing at (4, 20) on ground level [z=0] facing Right with 167 steps remaining.
+- Turn 70273: Took stairs at (6, 20) in Safari Zone West to (6, 16) [z=1], crossed plateau to (21, 16) [z=1] and descended stairs to (21, 18) [z=0] [5 steps used, 162 remaining].
+- Turn 70282: Walked from (21, 18) to (27, 17) in Safari Zone West [6 steps used, 156 remaining].
+- Turn 70283: Walked Up 10 steps to (27, 7) in Safari Zone West [10 steps used, 146 remaining].
+- Turn 70289: Walked Up 8 steps to transition to Safari Zone North at (9, 35) [z=0] [8 steps used, 138 remaining].
+- Turn 70292: Walked Up 5 steps, bumped water at (9, 29) 5 times, landing at (9, 30) [10 steps used, 132 remaining].
+- Turn 70293: Walked Right 3 steps to Column 12 at (12, 30) [3 steps used, 129 remaining].
+- Turn 70296: Walked Up 5 steps along Column 12 to (12, 25) [5 steps used, 124 remaining].
+- Turn 70303: Walked Up 4 steps along Column 12 to (12, 21) [4 steps used, 120 remaining].
+- Turn 70308: Walked Up 4 steps along Column 12 to (12, 17) [4 steps used, 116 remaining].
+- Turn 70314: Walked Up 4 steps to (12, 13) [z=0], triggered wild Exeggcute encounter on the 4th step [4 steps used, 112 remaining]. Escaped safely.
+- Turn 70317: Walked Up 4 steps along Column 12 to (12, 9) [z=0] [4 steps used, 108 remaining].
+- Turn 70321: Walked Up 3 steps along Column 12 to (12, 6) [z=0] [3 steps used, 105 remaining].
