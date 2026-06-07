@@ -3816,6 +3816,10 @@ We will execute both tests on foot in Run 40, document the precise turn/bump res
 - Turn 67204: Ran 'safari_navigator_agent' to synchronize steps and coordinates (15 steps used via Manhattan distance, 282 remaining).
 - Turn 67205: Walked Down 1 step from (9, 35) in Safari Zone North to transition South to Safari Zone West, landing at (27, 0) [z=0] on ground level (1 step used, 281 remaining).
 - Turn 67207: Ran 'safari_navigator_agent' to synchronize steps and coordinates (1 step used, 281 remaining).
+- Turn 67214: Walked Down 14 steps, Left 3 steps, Down 4 steps, and Left 3 steps from (27, 0) to stand at (18, 18) [z=0], then tested walking Left into (17, 18) (Test 1). Result: BUMPED, physically proving Southwest ground pocket isolation (28 steps used, 253 remaining).
+- Turn 67223: Walked Right 3 steps and Up 2 steps to climb Eastern stairs to stand at (21, 16) [z=1] on the plateau. Ran 'safari_navigator_agent' (reconciled via Manhattan distance to 259 steps remaining).
+- Turn 67231: Walked from (21, 16) to (15, 14) [z=1] using 8 steps.
+- Turn 67234: Ran 'safari_navigator_agent' to synchronize coordinates and steps (8 steps used, 251 remaining).
 
 <hr>
 
