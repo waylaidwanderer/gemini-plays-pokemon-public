@@ -3615,6 +3615,17 @@ This route completely avoids Koga's plateau in Safari Zone West and uses fewer s
   Remaining steps upon entering Safari Zone West: 94 - 34 = 60 steps remaining.
   This is plenty of steps to reach both the Secret House and Warden's Gold Teeth in the Northwest quadrant!
 
+## Southern Edge-Connection Bypass Testing Protocol (Unverified Hypothesis)
+- **Hypothesis**: Columns 2-7 on Row 35 of Safari Zone North are completely open and can be transitioned Down into Safari Zone West Row 0 ground level (Columns 20-25 [z=0]), bypassing Koga's plateau entirely.
+- **Testing Protocol on foot (to be executed when arriving at ground level in Safari Zone North on Run 42)**:
+  1. Once we descend the Western Plateau in Safari Zone North and reach (16, 28) on ground level, walk Down 2, Left 4 along Rows 28-30 to (12, 30).
+  2. Walk Down 5 steps along Column 12 to (12, 35) (the southern edge).
+  3. Walk Left to Column 2/3/4/5/6/7 on Row 35.
+  4. Visually inspect if Columns 2-7 on Row 35 are open or blocked by solid trees/fences (`TYPE_2889`).
+  5. If open, walk Down 1 step at Column 2/3/4/5/6/7 to trigger the transition.
+  6. Verify if we land in Safari Zone West at Column 20-25 on Row 0 on ground level (`z=0`), and verify if we can walk freely to Column 3 (Secret House) on ground level.
+  7. If Columns 2-7 Row 35 are blocked, we must proceed with our standard transition at Column 9 Row 35 to (27, 0) and traverse Koga's plateau.
+
 <hr>
 
 <h1><code>Locations/SafariZone_North</code></h1>
