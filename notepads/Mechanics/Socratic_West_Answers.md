@@ -113,27 +113,31 @@
 
 # Socratic Answers - Koga's Bridge & Plateau Traversability (Turn 69120)
 
-## 1. Socratic Question 1 (The Bridge North Cliff and Column 18 Elevation)
-- **Physical Configuration of Koga's Bridge (Rows 14-16, Columns 18-22)**: Koga's bridge extends horizontally on Rows 14, 15, and 16 across Columns 18-22 at plateau level z=1 (TYPE_2770). It acts as an elevated eastern finger of the plateau.
-- **Why Column 18 Rows 9-13 is Ground Level (z=0)**: Column 18 on Rows 9-13 consists of flat green grass (TYPE_3fe2) on ground level, which is lower than the elevated plateau finger.
-- **Why height mismatch prevents vertical walk Up**: Because we are standing on the elevated plateau level (z=1) at (18, 14), and Column 18 Row 13 is ground level (z=0), there is a solid north-facing horizontal cliff face separating the two elevations. In Gen 1, players cannot walk or jump up/down north-facing cliffs without stairs, resulting in a physical collision (bump) when attempting to walk Up from (18, 14) to (18, 13). This height mismatch completely blocks vertical progress along Column 18, meaning we cannot reach (18, 9) [z=1] from the south.
+## 1. Socratic Question 1 (The Column 2 Blockage Fact vs. Hypothesis)
+- **Why we must not waste steps on Column 2**: We are currently standing at (2, 20) [z=0] on ground level. Walking Up Column 2 to (2, 14) to "test" Column 1/2 passability is a waste of steps because our own permanent verified records in `Locations/SafariZone_West` have already established that:
+  - Column 1 Rows 14 and 15 are solid, impassable tree walls.
+  - Column 2 Row 13 is blocked by water (TYPE_4e8c).
+- **The Logical Gap of Doubting Verified Records**: Doubting our own verified records without any new empirical evidence would lead us to waste precious steps in Safari Zone's strict step budget. We must trust our permanent records and pursue the canonical, verified route of climbing onto the plateau.
 
-## 2. Socratic Question 2 (Plateau Discontinuity & Traversability)
-- **Western Plateau Discontinuity**: Koga's Western Plateau is physically split in half on Rows 6-13. The Eastern section is Columns 11-16, and the Western section is Columns 4-10. These two halves are separated by a solid vertical cliff wall (TYPE_2889) at Column 11 and Column 14 on Rows 9-13, and a solid wall on Column 10 Rows 6-9, preventing direct horizontal traversal between them.
-- **Why Row 16 Bridge is the Only Connector**: Row 16 is Koga's horizontal bridge (z=1) extending from Column 5 to 22. It spans below the vertical cliff partition and provides the only continuous horizontal pathway connecting the Eastern and Western halves of the plateau.
-- **Planned Path from Current Position (6, 16) [z=1] to Northwest Ground Level (z=0)**:
-  1. Walk Down 2 to the Western Plateau stairs approach at (6, 18) [z=1].
-  2. Walk Down 1 to descend the stairs at (6, 19) to ground level at (6, 20) [z=0].
-  3. From (6, 20) [z=0], walk Left 4 to (2, 20) [z=0].
-  4. From (2, 20) [z=0], walk Up 6 to (2, 14) [z=0].
-  5. Wait, we must test if there is any other way past the lake, or if we can bypass it on Column 2/3. Since Column 2 Row 13 is blocked by water, we will walk Right 8 steps to Column 10 to check if we can walk Up past Column 10/11 on Row 13, which is green grass (TYPE_3fe2).
-  Let's walk down the stairs first to (6, 20) [z=0] and explore.
+## 2. Socratic Question 2 (Koga's Western-West Plateau Access)
+- **Layout of Koga's Western-West Plateau (Columns 4-10)**: Koga's Western-West Plateau is an elevated section at z=1 spanning Columns 4-10 and Rows 6-14.
+- **Connection to Koga's Bridge (Row 16)**: Koga's bridge runs horizontally along Row 16 at z=1. It is separated from Koga's Western-West Plateau on Columns 6-13 by a ground-level grass gap on Rows 14 and 15.
+- **How the Western Stairs at (6, 19) Bridge This Gap**:
+  - The Western stairs at (6, 19) lead up from ground level at (6, 20) [z=0] to the plateau level at (6, 18) [z=1].
+  - Although Columns 6-13 are ground-level grass on Rows 14 and 15 (separating the bridge from the plateau), Column 5 is elevated at plateau level (z=1) across Rows 14 and 15!
+  - Therefore, we can walk Left from the stairs at (6, 18) [z=1] to Column 5 at (5, 18) [z=1], and walk Up along Column 5 directly across Rows 14-15 to reach Koga's Western-West Plateau at (5, 13) [z=1]! This is how the Western stairs and Column 5 bridge the ground-level gap at Rows 14-15.
+- **Planned Path from Current Position (2, 20) to Northwest Ground Level (z=0)**:
+  1. Walk Right 4 steps to (6, 20) [z=0].
+  2. Walk Up 2 steps to climb Western stairs to (6, 18) [z=1].
+  3. Walk Left 1 step to Column 5 at (5, 18) [z=1].
+  4. Walk Up 8 steps along Column 5 to (5, 10) [z=1] (on Koga's Western-West Plateau).
+  5. Walk Left 1 step to Column 4 at (4, 10) [z=1] (standing on the ledge).
+  6. Walk Left 1 step to jump West (Left) over the ledge onto (3, 10) [z=0] on ground level in the Northwest quadrant!
 
 ## 3. Socratic Question 3 (Chronological Step-Budget Reconciliation)
-- **Turn 69120 Step-by-Step Reconciliation**:
-  - Turn 69072 starting steps at (17, 14): **254 steps remaining**.
-  - Walk Right 1 step to (18, 14) [Turn 69083]: uses 1 step [remaining: 253].
-  - Attempt to walk Up into (18, 13) [Turn 69075]: result: bumped [remaining: 253].
-  - Walk Down 2, Left 12 along Koga's bridge to (6, 16) [Turn 69119]: uses 14 steps [remaining: 239].
-  - Corrected remaining steps on Turn 69120: **239 steps remaining** in RAM.
-- **Movement History updated**: Missing chronological logs have been appended to 'Scratchpad/SafariZone_West_Route' to ensure perfect tracking accuracy.
+- **Turn 69150 Step-by-Step Reconciliation**:
+  - Turn 69120 starting steps at (6, 16) on Koga's bridge: **239 steps remaining**.
+  - Walk Down 4 steps down the stairs to (6, 20) [Turn 69135]: uses 4 steps [remaining: 235].
+  - Walk Left 4 steps along Row 20 to (2, 20) [Turn 69147]: uses 4 steps [remaining: 231].
+  - Corrected remaining steps on Turn 69150: **231 steps remaining** in RAM.
+- **Log Synchronization**: Our chronological overworld logs in 'Scratchpad/SafariZone_West_Route' have been successfully synchronized to Turn 69150, confirming exactly 231 steps remaining.
