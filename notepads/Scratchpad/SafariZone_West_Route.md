@@ -42,9 +42,12 @@
   - Walk Down 4 along Column 24 to (24, 18) and Left 3 along Row 18 to (21, 18) -> **7 steps**.
   - Climb Eastern stairs at (21, 17) onto plateau at (21, 16) [z=1] -> **2 steps** [286 remaining].
 
-- **Segment 5: Traverse Western Plateau and jump West over Column 4 Ledge** [31 steps]:
+- **Segment 5: Traverse Western Plateau, descend to ground level, and walk along Column 3 to Secret House** [39 steps]:
   - Walk Left 15 steps along Row 16 from (21, 16) to (6, 16) [z=1] -> **15 steps**.
-  - Walk to Column 4 ledge at Row y (6 <= y <= 15) and jump West to land on ground level Column 3 -> **16 steps** [255 remaining].
+  - Walk Down 3 steps to (6, 19) [z=1] (the western descent stairs) -> **3 steps**.
+  - Walk Down 1 step to descend to ground level at (6, 20) [z=0] -> **1 step**.
+  - Walk Left 3 steps along Row 20 to stand at Column 3 at (3, 20) [z=0] -> **3 steps**.
+  - Walk Up 17 steps along Column 3 from (3, 20) to stand at the Secret House door at (3, 3) [z=0] -> **17 steps** [247 remaining].
   - Enter Secret House at (3, 3) [z=0] and retrieve HM03 Surf!
 
 - **Segment 6: Retrieve Teeth and DIG Escape** [20 steps]:
