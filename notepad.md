@@ -3531,6 +3531,10 @@ We are currently testing the Column 2 ground-level pathway to see if it allows u
 - Turn 68425: Escaped a wild battle at (6, 20).
 - Turn 68430: Ran safari_navigator_agent to synchronize steps to 339 remaining.
 - Turn 68458: Walked Left 4 steps from (6, 20) to (2, 20) (4 steps consumed, 335 remaining).
+### Empirical Proof of Blockage (Turn 68472):
+- Standing at (2, 14) facing Up, we visually and physically verified that Column 2 Row 13 is water (TYPE_4e8c), and Column 1 Row 14 & 15 are solid trees (TYPE_2889).
+- This conclusively proves that the Southwest ground pocket is 100% closed on foot and we cannot walk around the lake at ground level.
+- Backtracking UP onto the Western Plateau via the stairs at (6, 19) is 100% mandatory.
 
 <hr>
 
