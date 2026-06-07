@@ -3504,11 +3504,11 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
-# Safari Zone West Exploration - Run 41 (Turn 67884 - Active)
-- **Current Status**: Standing at (11, 12) [z=0] outside Rest House 3 on Turn 67884.
+# Safari Zone West Exploration - Run 41 (Turn 68014 - Active)
+- **Current Status**: Standing at (16, 7) [z=1] on Koga's Western Plateau on Turn 68014.
 - **Inventory Status**: 15/20 items.
 - **Run 41 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 177 steps (Reconciled).
+- **Current Steps Remaining**: 131 steps (Reconciled).
 - **Money remaining**: ¥69,817.
 
 ## Active Campaign Plan (Refined Row 7 Ledge Jump Victory Route)
