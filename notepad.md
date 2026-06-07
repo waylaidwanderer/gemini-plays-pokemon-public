@@ -3503,11 +3503,11 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
-# Safari Zone West Exploration - Run 39 (Turn 66766 - Active)
-- **Current Status**: Standing on the Western Plateau stairs at (6, 19) [z=1] in Safari Zone West (Map 0_219) on Turn 66766 with exactly 242 actual remaining steps (242 synced remaining steps). Executing mathematically verified fallback route via western descent stairs at (6, 19) to reach the ground level and proceed to the Secret House.
+# Safari Zone West Exploration - Run 39 (Turn 66786 - Active)
+- **Current Status**: Standing on the ground level at (3, 20) [z=0] in Safari Zone West (Map 0_219) on Turn 66786 with exactly 238 synced remaining steps (234 actual remaining steps). Realized that the southwest ground pocket is a completely isolated dead end. Backtracking UP onto the Western Plateau via the stairs at (6, 19) to traverse to Column 11 Row 10 to test the final remaining West-facing jump-down ledge candidate!
 - **Inventory Status**: 15/20 items.
 - **Run 39 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 242 steps.
+- **Current Steps Remaining**: 234 steps.
 - **Money remaining**: ¥70,817.
 
 ## Master Run 39 Campaign Plan (Double-Retrieval Route)
