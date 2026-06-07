@@ -3752,6 +3752,16 @@ We will execute both tests on foot in Run 40, document the precise turn/bump res
 - Turn 67040: Pressed A to dismiss 'Sorry, you're a regular here!' dialogue again.
 - Turn 67044: Pressed Up vertically along Column 3 from (3, 4) to (3, 3) to test if the gatekeeper stops us. They did not stop us on Row 3.
 - Turn 67045: Pressed Up vertically along Column 3 from (3, 3) to (3, 2). This successfully triggered the gatekeeper's check-in/payment script, initiating 'Welcome to the SAFARI ZONE!' dialogue.
+- Turn 67047: Pressed A to advance dialogue.
+- Turn 67051: Selected YES to pay ¥500 fee, received 30 Safari Balls, and transitioned into Safari Zone Center at (15, 25) with exactly 500 steps remaining.
+- Turn 67052: Ran 'safari_navigator_agent' to synchronize coordinates and steps (Map transition cost of 1 step applied, 499 steps remaining).
+- Turn 67055: Walked Left 1 step to (14, 25), Up 2 steps to (14, 23), and Right 1 step to (15, 23) (4 steps used, 495 remaining).
+- Turn 67056: Walked Up 7 steps along Column 15 from (15, 23) to stand at (15, 16) (7 steps used, 492 remaining).
+- Turn 67058: Ran 'safari_navigator_agent' to synchronize coordinates and steps (7 steps used, 492 remaining).
+- Turn 67059: Walked Right 5 steps along Row 16 to (20, 16) and Up 2 steps through the fence gap to stand at (20, 14) (7 steps used, 485 remaining).
+- Turn 67061: Ran 'safari_navigator_agent' to synchronize coordinates and steps (7 steps used, 485 remaining).
+- Turn 67064: Walked Right 4 steps horizontally along Row 14 from (20, 14) to stand at (24, 14) (4 steps used, 481 remaining).
+- Turn 67065: Ran 'safari_navigator_agent' to synchronize coordinates and steps (4 steps used, 481 remaining).
 
 <hr>
 
