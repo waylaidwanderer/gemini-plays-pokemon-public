@@ -17,11 +17,12 @@ We are executing a fully optimized Run 44 ground-to-plateau detour to retrieve t
 7. **Retrieve Gold Teeth & Surf**:
    - Backtrack to (6, 20) [z=0]: Walk Down 6 steps along Column 2 to (2, 20) [z=0], and Right 4 steps along Row 20 to Koga's Western stairs at (6, 20) [z=0] (completely grass-free). [COMPLETE!]
    - Climb Western Plateau Stairs UP: Walk Up 2 steps to climb Western stairs to (6, 18) [z=1], and Up 2 steps along Column 6 to (6, 16) [z=1]. [COMPLETE!]
-   - Traverse Koga's bridge: Walk Right 15 steps along Row 16 from (6, 16) to (21, 16) [z=1] to reach Koga's Eastern Plateau. [COMPLETE!]
-   - Descend Eastern Plateau stairs: Walk Down 2 steps from (21, 16) [z=1] onto ground level at (21, 18) [z=0]. [COMPLETE!]
-   - Traverse ground level via Column 25: Walk Right 4 steps to (25, 18) [z=0] [COMPLETE!], Up 13 steps along Column 25 to (25, 5) [z=0], and Left 6 steps along Row 5 to (19, 5) [z=0] (completely grass-free).
-   - Retrieve Gold Teeth: Walk Down 2 steps along Column 19 from (19, 5) [z=0] to stand on the Warden's Gold Teeth at (19, 7) [z=0] and pick them up.
-   - Reach Secret House: Walk Up 2 steps to (19, 5) [z=0], Left 16 steps along Row 5 to (3, 5) [z=0], and Up 2 steps along Column 3 to enter the Secret House at (3, 3) and obtain HM03 Surf!
+   - Traverse Koga's bridge: Walk Right 11 steps along Row 16 from (6, 16) to (17, 16) [z=1]. [COMPLETE!]
+   - Backtrack to Southwest Ground Level: Walk Left 11 steps along Row 16 from (17, 16) to (6, 16) [z=1], walk Down 3 steps to (6, 19) [z=1], and Down 1 step to descend the Western stairs to (6, 20) [z=0].
+   - Walk Ground Detour past Rest House 3: Walk Left 4 steps along Row 20 to (2, 20) [z=0], Up 6 steps along Column 2 to (2, 14) [z=0], and Right 8 steps along Row 14 to (10, 14) [z=0]. Bypassing Rest House 3 requires: Up 2 steps along Column 10 to (10, 12), Right 3 steps to (13, 12), Up 2 steps to (13, 10), Left 3 steps to (10, 10), and Up 1 step to (10, 9) [z=0] (climbing Koga's Western-West Plateau stairs UP).
+   - Western-West Plateau Ledge Jump: From the top of Koga's Western-West Plateau stairs at (10, 8) [z=1], walk Left 6 steps along Row 8 to (4, 8) [z=1], and walk Left 1 step to jump West over the Column 4 ledge onto ground level at (3, 8) [z=0] in the Northwest quadrant.
+   - Retrieve Gold Teeth: From (3, 8) [z=0], walk Up 1 step to (3, 7) [z=0], and Right 16 steps along the Row 7 ground corridor to stand on the Warden's Gold Teeth at (19, 7) [z=0] and pick them up.
+   - Reach Secret House: Walk Left 16 steps along Row 7 from (19, 7) [z=0] back to (3, 7) [z=0], and walk Up 4 steps along Column 3 to enter the Secret House at (3, 3) [z=0] and obtain HM03 Surf!
 8. **Warp Home**: Use DIG to warp back to Fuchsia City!
 
 ## Chronological Overworld Log (Run 44)
