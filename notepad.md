@@ -3642,6 +3642,12 @@ This route completely avoids Koga's plateau in Safari Zone West and uses fewer s
 - Turn 68146: Walked Up 4 steps from (20, 24) to (20, 20), climbing onto the eastern plateau (4 steps used, 443 remaining).
 - Turn 68151: Walked Left 8 steps along Row 20 to stand at (12, 20) on the plateau (8 steps used, 435 remaining).
 - Turn 68157: Walked Down 2 steps to descend the western plateau stairs from (12, 20) to ground-level grass at (12, 22) (2 steps used, 433 remaining).
+- Turn 68163: Walked Left 3, Up 4 to stand at (9, 18) [z=0] (7 steps used, 426 remaining).
+- Turn 68165: Walked Up 8 to stand at (9, 10) [z=0] (8 steps used, 418 remaining).
+- Turn 68168: Walked Right 1, Up 2, Right 2, Up 2 to climb northern stairs to stand at (12, 6) [z=1] (7 steps used, 411 remaining).
+- Turn 68173: Walked Right 5, Down 2 to descend stairs to stand at (17, 8) [z=0] (7 steps used, 404 remaining).
+- Turn 68180: Walked Right 4, Up 1 to stand at (21, 7) [z=0] (5 steps used, 399 remaining).
+- Turn 68187: Syncing step budget via safari_navigator_agent (0 steps used, 399 remaining).
 
 <hr>
 
