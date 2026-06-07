@@ -7136,6 +7136,20 @@ Standing at ground entry (27, 0) [z=0] in Safari Zone West (Map 0_219) on Turn 6
   - **Case 3: Test 2 is PASSABLE (Column 3 corridor is open)**:
     - If Column 3 is open, we can walk directly Up from (3, 20) to (3, 3) to retrieve Surf, and then walk Right along Row 7 to retrieve the Gold Teeth at (19, 7), then use DIG to escape safely.
 
+---
+
+### Turn 67214 Empirical Test 1 Verification Results (Row 18 Passability)
+- **Hypothesis tested**: Koga's Row 18 ground corridor is open horizontally across Column 18.
+- **Physical Test Procedure (Turn 67214)**:
+  - Walked from (27, 0) via ground-level eastern corridor to stand at the base of the stairs at (21, 18) [z=0].
+  - Walked Left horizontally along Row 18 to stand at (18, 18) [z=0] -> **3 steps**.
+  - Standing at (18, 18) [z=0] facing Left, pressed Left once to attempt walking onto Column 17 Row 18 (visually TYPE_2889 rock cliff).
+- **Empirical Results (Turn 67215)**:
+  - **Result**: Immediate collision bump and zero movement (0 tiles visited), remaining standing at (18, 18) [z=0] facing Left.
+  - **Collision coordinate**: (17, 18) is physically impassable.
+- **Conclusion**: Column 17 Row 18 contains a solid checkered cliff face of TYPE_2889. This physically and empirically disproves the open horizontal Row 18 ground-corridor hypothesis, and definitively verifies **Hypothesis A**: Koga's Southwest ground pocket is 100% isolated on the East by the Column 18 tree wall and Koga's plateau cliff boundaries.
+- **Strategic Verdict**: Because the Southwest ground pocket is isolated on ground level, climbing Koga's Eastern Plateau at (21, 17) to traverse the elevated bridge at (21, 16) [z=1] to the Western descent stairs is 100% mandatory. We will proceed to backtrack and climb the plateau!
+
 <hr>
 
 <h1><code>Reflection/Turn61585_Reflection</code></h1>
