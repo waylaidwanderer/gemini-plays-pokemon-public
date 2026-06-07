@@ -206,3 +206,11 @@
 - Turn 66980: Walked Right 10 steps horizontally along Row 28 from (8, 28) to stand at (18, 28).
 - Turn 66981: Walked Right 6 steps horizontally along Row 28 to stand at (23, 28) and jump East over the vertical ledge to land on the eastern street at (24, 28).
 - Turn 66982: Walked Up 8 steps vertically along Column 24 from (24, 28) to stand on ground level at (24, 20).
+
+## Run 40 Systematic Collision Testing Plan (Overwatch Resolution)
+To resolve the contradiction between the southwest ground isolation and the proposed open Row 18 ground pathway:
+1. **Hypothesis A**: Southwest ground is isolated because Column 18 is blocked on Rows 20-23 by a solid tree wall (Locations/SafariZone_West).
+2. **Hypothesis B**: Canonical ground corridor on Row 18 is open all the way from Column 6 to Column 21 (Mechanics/Socratic_West_Answers).
+- **Test 1 (Row 18 Column 18)**: Walk from (6, 20) to (21, 18) [z=0]. If we bump at Column 18, Hypothesis A is verified, proving the southwest ground pocket is 100% isolated. If we pass freely, Hypothesis B is verified.
+- **Test 2 (Column 3 Row 13)**: Standing at (3, 14) [z=0], attempt to walk Up onto (3, 13) [z=0]. If we bump, water collision is verified.
+We will execute both tests on foot in Run 40, document the precise turn/bump results, and permanently prune the falsified theory.
