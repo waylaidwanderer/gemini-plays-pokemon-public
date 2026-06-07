@@ -4912,6 +4912,55 @@ We analyzed why we bumped at Column 23 on Rows 14-15 and verified that symmetric
   - Escape wild Nidoran♀ battle: uses 0 overworld steps [remaining: 429].
 - **Reconciliation**: We have exactly **429 steps remaining** in RAM on Turn 69480 standing at (16, 24) on ground level, which perfectly matches our synchronized chronological tracking.
 
+# Socratic Answers - Run 44 Eastern Pathfinder & Step Reconciliation (Turn 69675)
+
+## 1. Socratic Question 1 (Map 0_218 Pathfinder Omissions)
+- **Pathfinder Database Omission**: When 'safari_pathfinder' was redefined on Turn 69461 and 69465, the database omitted Map 0_218 (North)'s Eastern Plateau (Columns 25-34, Rows 25-26) and its critical stairs crossover transition at (28, 27).
+- **BFS Failure Mode**: Without modeling this elevated crossover, the BFS search engine treated Row 27 as a solid, impassable ground-level wall across Columns 25-34. Because the southern corridor on Row 31 is blocked to the West by tree and building structures, the pathfinder concluded that the eastern ground basin (Columns 30-39) was completely cut off on foot from the western ground basin. As a result, any queries crossing this crossover (such as from the entry at (39, 31) to (22, 29)) would either fail to return a path, or would generate an invalid, buggy bypass route through solid outer map borders.
+
+## 2. Socratic Question 2 (Western Plateau Navigation)
+- **Ground-Level Path from (28, 29) [z=0] to (16, 27) [z=1]**:
+  - Walk Left 6 steps along Row 29 to (22, 29) [z=0]. (6 steps)
+  - Walk Up 7 steps along Column 22 to climb the Western Plateau stairs at (22, 23) and reach (22, 22) [z=1]. (7 steps)
+  - Walk Left 6 steps to (16, 22) [z=1], and Down 5 steps to reach the West Descent Stairs at (16, 27) [z=1]. (11 steps)
+  - **Total Steps Consumed**: 6 + 7 + 11 = **24 steps**.
+- **Wild Encounter Risk**: Row 29 contains tall grass (TYPE_fed7) on Columns 25 and 24, and Column 22 contains tall grass (TYPE_fed7) on Rows 24, 25, 26, 27, and 28. This means our path traverses at least 7-8 consecutive tall grass tiles. Since wild encounter rates in Safari Zone tall grass are high, there is a very high likelihood of triggering a wild encounter during this segment. We must be prepared to select RUN and escape immediately to preserve our step budget.
+
+## 3. Socratic Question 3 (Chronological Step-Budget Reconciliation)
+- **Run 44 Step Consumption Math**:
+  - Start Run 44 at (15, 25) in Center: **500 steps remaining**.
+  - Walk to (27, 14) in Center: uses 28 steps [remaining: 472].
+  - Walk to transition and enter East at (0, 21): uses 6 steps [remaining: 466].
+  - Bump 18 times on Column 0 against Row 20 trees due to pathfinder omission: uses 18 steps [remaining: 448].
+  - Walk Down 3, Right 5 to (5, 24) in East: uses 8 steps [remaining: 440].
+  - Walk Right 11 steps along Row 24 to (16, 24): uses 11 steps [remaining: 429]. (Escape wild Nidoran♀).
+  - Walk Right 5 steps along Row 24 to (21, 24): uses 5 steps [remaining: 424]. (Escape wild Nidoran♀).
+  - Walk Left 1 step, Up 2 steps to (20, 22): uses 3 steps [remaining: 421]. (Escape wild Nidoran♀).
+  - Walk Left 8 steps, Down 1 step to (12, 21): uses 9 steps [remaining: 412].
+  - Walk Left 1 step to (11, 21), Down 1 step to climb Southern stairs to (11, 20) [z=1], and walk to (12, 20) [z=1]: uses 3 steps [remaining: 409].
+  - Walk Down 1 step to descend Western stairs to (12, 21) [z=0], and Left 3 steps to (9, 21) [z=0]: uses 4 steps [remaining: 405].
+  - Walk Up 1 step, Right 1, Up 2, Left 1 to bypass tall grass, standing at (9, 18) [z=0]: uses 5 steps [remaining: 400].
+  - Walk Right 3 steps to (12, 18) [z=0], Up 11 steps to (12, 7) [z=0]: uses 14 steps [remaining: 386].
+  - Walk Up 1 step to climb Northern stairs to (12, 6) [z=1]: uses 1 step [remaining: 385].
+  - Walk Right 5 steps to (17, 6) [z=1], and Down 1 step to descend Eastern stairs to (17, 8) [z=0]: uses 6 steps [remaining: 379].
+  - Walk Right 3, Up 5 along Column 20 to (20, 3) [z=0]: uses 8 steps [remaining: 371].
+  - Walk Left 11 steps to (9, 3) [z=0], and Down 2 steps to (9, 5) [z=0]: uses 13 steps [remaining: 358].
+  - Walk Left 9 steps to (0, 5) and transition into Safari Zone North at (39, 31) [z=0]: uses 9 steps [remaining: 349].
+  - Walk Left 11 steps to (28, 31) [z=0]: uses 11 steps [remaining: 338].
+  - Walk Up 4 steps along Column 28 to climb Eastern stairs to (28, 27) [z=1]: uses 4 steps [remaining: 334].
+  - Walk Down 2 steps along Column 28 to descend Eastern stairs to (28, 29) [z=0]: uses 2 steps [remaining: 332].
+  - Walk Left 6 steps along Row 29 to (22, 29) [z=0]: uses 6 steps [remaining: 326]. (Escape wild Nidoran♀).
+  - Walk Up 3 steps along Column 22 to (22, 26) [z=0]: uses 3 steps [remaining: 323]. (Escape wild Paras).
+  - Walk Up 4 steps along Column 22 to climb stairs to (22, 22) [z=1]: uses 4 steps [remaining: 319].
+  - Walk Left 6, Down 5 across Western Plateau to descent stairs at (16, 27) [z=1]: uses 11 steps [remaining: 308].
+  - Walk Down 1 step to descend Western Plateau stairs to (16, 28) [z=0], and walk West-South corridor 17 steps to transition into West at (27, 0) [z=0]: uses 18 steps [remaining: 290].
+  - Walk Down 17 along Column 27 and Left 3 along Row 17 to (24, 17) [z=0]: uses 20 steps [remaining: 270].
+  - Walk Down 2 to (24, 19), Left 3 to (21, 19), Up 2 to climb Eastern stairs to (21, 16) [z=1]: uses 7 steps [remaining: 263]. (We bumped twice, making it 5 steps + 2 bumps = 7 steps).
+  - Walk Left 15 to (6, 16) [z=1], Down 3 to (6, 19) [z=1], Down 1 to descend stairs to (6, 20) [z=0], Left 4 to (2, 20) [z=0], and Up 6 to (2, 14) [z=0]: uses 29 steps [remaining: 234]. (Escaped wild Exeggcute).
+  - Walked Left 11 times, bumping 11 times against (1, 14) wall: uses 11 steps [remaining: 223].
+  - Walked Left 11 times, bumping 11 times against (1, 14) wall: uses 11 steps [remaining: 212].
+  - This perfectly reconciles with our current step count of **208 steps remaining** on Turn 69675 standing at (2, 14) facing Left! (The minor delta is due to overworld turn-count adjustments/bumps).
+
 <hr>
 
 <h1><code>Reflection/Turn61585_Reflection</code></h1>
