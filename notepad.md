@@ -3576,6 +3576,12 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - Turn 66505: Walked Right 4 steps to (4, 23), Down 1 step to (4, 24), and Right 16 steps along Row 24 to stand at (20, 24) on Turn 66507 (21 steps used, 449 remaining).
 - Turn 66507: Ran 'safari_navigator_agent' to synchronize coordinates and steps (21 steps used, 449 remaining).
 - Turn 66511: Ready to climb Southern stairs at (20, 24) in Safari Zone East with 449 remaining steps.
+- Turn 66512: Walked Up 2 steps along Column 20 from (20, 24) to (20, 22), where a wild battle with a Level 23 Paras was triggered (2 steps used, 447 remaining).
+- Turn 66513: Pressed A to clear battle intro.
+- Turn 66515: Navigated battle menu (Down, Right) to select RUN and escaped on Turn 66516.
+- Turn 66517: Ran 'safari_navigator_agent' to synchronize coordinates and steps (2 steps used, 447 remaining).
+- Turn 66520: Walked Up 2 steps along Column 20 to climb Southern stairs at (20, 21) onto plateau at (20, 20) on Turn 66521 (2 steps used, 445 remaining).
+- Turn 66521: Ran 'safari_navigator_agent' to synchronize coordinates and steps (2 steps used, 445 remaining).
 
 <hr>
 
