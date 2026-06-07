@@ -3504,12 +3504,12 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 <h1><code>Scratchpad/SafariZone_West_Route</code></h1>
 
-# Safari Zone West Exploration - Run 44 (Turn 69615 - Active)
-- **Current Status**: Standing at (21, 16) in Safari Zone West on Turn 69615 on plateau level [z=1], facing Down.
+# Safari Zone West Exploration - Run 44 (Turn 69619 - Active)
+- **Current Status**: Standing at (2, 20) in Safari Zone West on Turn 69619 on ground level [z=0], facing Left.
 - **Inventory Status**: 15/20 items, 30 Safari Balls.
 - **Run 44 Start Turn**: Turn 69460 (June 7, 2026, 9:31 AM)
 - **Run 44 Starting Steps**: 500 steps.
-- **Current Steps Remaining**: 259 steps.
+- **Current Steps Remaining**: 236 steps.
 - **Money remaining**: ¥68,317.
 
 ## Active Campaign Plan (Run 44 Detour Route)
