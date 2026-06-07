@@ -921,5 +921,30 @@
         "action_counter": 68011
       }
     ]
+  },
+  "gatehouse_dialog_helper": {
+    "description": "A reusable custom tool to execute a sequence of button presses to handle the Gatekeeper dialogue in the Safari Zone Gatehouse and enter the Safari Zone without triggering the auto-advance mechanism.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "buttons": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "buttons"
+      ]
+    },
+    "python_script": "import json\nimport sys\n\n# The tool takes a list of buttons to press sequentially to handle dialogue\ninput_data = json.loads(sys.argv[1])\nbuttons = input_data.get('buttons', [])\n\n# Print the JSON array of buttons so the harness executes them\nprint(json.dumps(buttons))\n",
+    "history": [
+      {
+        "commit_message": "Define gatehouse_dialog_helper to handle the gatehouse dialogue and enter Safari Zone without triggering the auto-advance.",
+        "timestamp": "2026-06-07T09:54:48.281Z",
+        "action_counter": 68101
+      }
+    ]
   }
 }
