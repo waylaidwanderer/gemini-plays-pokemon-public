@@ -6782,6 +6782,45 @@ If walking Left from (11, 10) [z=1] results in a solid collision bump, it physic
 4. **Conclusion**: Since both ground and plateau pathways are completely closed, there is mathematically no remaining path on foot to reach the Northwest quadrant from the starting gatehouse.
 5. **Escape and Reset Protocol**: If we bump at (11, 10), we will open our menu, select GEMMY (BLASTOISE), and use DIG to instantly teleport out of the Safari Zone, landing in Fuchsia City outside the Pokémon Center. Since this run is a definitive dead end, we will terminate the run and reset. But we will first execute the test of Column 11 Row 10 to establish absolute physical proof of Koga's western plateau boundaries!
 
+## Turn 66901 Socratic Answers (Column 3 Ground Passability & Southwest Pocket Isolation)
+
+### Socratic Question 1: Open Column 3 Ground Passage Route & Step Math
+Standing at (5, 20) [z=0] on Turn 66901 with exactly 194 actual remaining steps, under the assumption that Column 3 Row 13 ground corridor is unblocked and passable:
+1. **Segment A: Walk Left 2 steps along Row 20 to Column 3 at (3, 20) [z=0]** [2 steps]:
+   - Walk Left 2 steps from (5, 20) to stand on Column 3 at (3, 20) -> **2 steps** [192 remaining].
+2. **Segment B: Walk Up 17 steps along Column 3 to Secret House door at (3, 3) [z=0]** [17 steps]:
+   - Walk Up 17 steps along Column 3 to stand at (3, 3) -> **17 steps** [175 remaining].
+   - *Verification check*: This includes walking through the re-test coordinate at (3, 13) to verify ground passability.
+   - Enter the Secret House and retrieve **HM03 Surf** [0 steps used, 175 remaining].
+3. **Segment C: Walk from (3, 3) [z=0] to Warden's Gold Teeth at (19, 7) [z=0]** [20 steps]:
+   - From (3, 3), walk Down 4 steps along Column 3 to (3, 7) -> **4 steps** [171 remaining].
+   - Walk Right 16 steps horizontally along Row 7 to Column 19 at (19, 7) [z=0] to stand on and retrieve Warden's Gold Teeth -> **16 steps** [155 remaining].
+   - Retrieve Warden's Gold Teeth (0 steps).
+4. **Segment D: Escape using DIG** [0 steps]:
+   - Open menu, select GEMMY (BLASTOISE), and use DIG to instantly escape to Fuchsia City outside the Pokémon Center -> **0 steps** [155 remaining].
+
+- **Summary of Steps Used**:
+  - Segment A (Walk to Column 3): 2 steps.
+  - Segment B (Walk to Secret House): 17 steps.
+  - Segment C (Walk to Gold Teeth): 20 steps.
+  - Total physical steps required: **39 steps**.
+  - Remaining steps upon completion: **155 remaining steps**!
+  - This provides over a **397% safety headroom margin**, mathematically guaranteeing absolute campaign success on foot on the current Run 39.
+
+### Socratic Question 2: Falsification of Ground Passage & Escape/Reset Protocol
+If our upcoming physical test at Column 3 Row 13 results in a collision bump, it will definitively prove that Column 3 Row 13 is blocked by water. Since we have already systematically disproven and falsified all other ground-level and plateau-level transitions:
+1. **The Falsification Coordinates**:
+   - Column 2 Row 13 is blocked by water (verified Turn 46701).
+   - Columns 4-8 on Row 13 are blocked by water (verified Turns 47346-47365).
+   - Column 9 is blocked by water (verified Turn 50608).
+   - Column 10 is blocked by Rest House 3 (verified Turn 53177).
+   - Column 24 is blocked by solid tree walls (verified Turn 47113).
+   - Column 1 Rows 14-15 and Column 0 Row 16 are blocked by tree walls and western border (verified Turns 46877-46882).
+   - Column 18 and Row 19 are blocked by solid tree walls (verified Turns 58966 & 58990), isolating the southwest ground pocket from the eastern stairs at ground level.
+2. **Plateau Descent Ledges Falsified**: All horizontal ledge jump theories are disproven as Gen 1 does not support horizontal ledge jumps, and all candidate rows on Columns 4, 11, and 14 resulted in bumps.
+3. **Conclusion**: This confirms that the Southwest ground pocket is a 100% physically isolated, closed pocket on foot.
+4. **Escape and Reset Protocol**: If we bump at (3, 13) [z=0], we will immediately open our menu, select GEMMY (BLASTOISE), and use DIG to instantly warp back to Fuchsia City outside the Pokémon Center. Since this run is a definitive dead end, we will terminate the run and start a fresh Run 40.
+
 <hr>
 
 <h1><code>Reflection/Turn61585_Reflection</code></h1>
