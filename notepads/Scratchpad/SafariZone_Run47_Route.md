@@ -37,12 +37,11 @@
    - Walk Right 3 along Row 32 to Column 9 at (9, 32) [3 steps].
    - Walk Down 4 along Column 9 to transition to Safari Zone West (Map 0_219) at (27, 0) [4 steps].
 
-4. **Retrieve Gold Teeth and Surf in Safari Zone West (Map 0_219)** [59 steps from (21, 18)]:
-   - We are currently at (21, 18) [z=0].
-   - Walk Right 6 steps to Column 27 at (27, 18) [z=0] [6 steps].
-   - Walk Up 18 steps along Column 27 to (27, 0) [z=0] [18 steps].
-   - Walk Left 4 steps to (23, 0) [z=0] [4 steps].
-   - Walk Down 7 steps to (23, 7) [z=0] [7 steps].
+4. **Retrieve Gold Teeth and Surf in Safari Zone West (Map 0_219)** [40 steps from (25, 7)]:
+   - We are currently at (25, 7) [z=0].
+   - Walk Down 7 steps to (25, 14) [z=0] [7 steps].
+   - Walk Left 2 steps to (23, 14) [z=0] [2 steps].
+   - Walk Up 7 steps to (23, 7) [z=0] [7 steps].
    - Walk Left 4 steps to stand on Warden's Gold Teeth at (19, 7) [z=0] [4 steps], and press 'A' to retrieve them!
    - Walk Up 4 steps along Column 19 to Row 3 at (19, 3) [z=0] [4 steps].
    - Walk Left 16 steps along Row 3 to Column 3 at (3, 3) [z=0] [16 steps] to enter the Secret House and get HM03 Surf!
