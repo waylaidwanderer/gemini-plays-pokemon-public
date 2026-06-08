@@ -29,17 +29,18 @@
     2. Walk Up 10 steps along Column 12 to Row 9: (12, 19) -> (12, 9) [z=0] [10 steps].
     3. Test horizontal passability by walking Left along Row 9 towards Column 3.
   - *Result*: FALSIFIED on Turn 72749. Column 11 Row 9 (11, 9) consists of deep water of TYPE_4e8c, which behaves as a solid block on the ground. Walking Left horizontally from Column 12 Row 9 (12, 9) is physically blocked. There is absolutely no ground-level bypass here. Koga's Western Plateau crossover is 100% mandatory.
-- **Route to Northwest transition if Row 9 is unblocked**:
-  1. Walk Right 4 steps to (12, 19) [z=0] -> **4 steps**.
-     - Remaining steps: 144 - 4 = **140 remaining steps**.
-  2. Walk Up 10 steps along Column 12 to Row 9 at (12, 9) [z=0] -> **10 steps**.
-     - Remaining steps: 140 - 10 = **130 remaining steps**.
-  3. Walk Left 9 steps along Row 9 to Column 3 at (3, 9) [z=0] -> **9 steps**.
-     - Remaining steps: 130 - 9 = **121 remaining steps**.
-  4. Walk Down 26 steps along Column 3 to Row 35 at (3, 35) [z=0] -> **26 steps**.
-     - Remaining steps: 121 - 26 = **95 remaining steps**.
-  5. Walk Down 1 step to transition to West's Northwest quadrant at (3, 0) [z=0] -> **1 step**.
-     - Remaining steps upon entry to West's Northwest quadrant: **94 remaining steps** (leaving 51 steps inside the Secret House!).
+- **Unblocked Row 3 Ground-Level Bypass Corridor**:
+  - Since Column 5's tree wall blocks Rows 20-33 on the ground, Rows 14-19 are blocked by water, and Rows 8-13 are blocked by water on Columns 8-11 (including Column 11 Row 9 which was proven blocked on Turn 72749), ground-level East-West traversal is completely blocked south of Row 4.
+  - Therefore, Row 3 at ground level (z=0) is the only completely open horizontal ground corridor connecting the East and West halves of Safari Zone North on foot.
+  - From (12, 10) [z=0], the exact sequence to reach Safari Zone West is:
+    1. Walk Up 7 steps to (12, 3) [z=0] -> **7 steps**.
+       - Remaining steps: 116 - 7 = **109 remaining steps**.
+    2. Walk Left 9 steps along Row 3 to (3, 3) [z=0] -> **9 steps**.
+       - Remaining steps: 109 - 9 = **100 remaining steps**.
+    3. Walk Down 32 steps along Column 3 to Row 35 at (3, 35) [z=0] -> **32 steps**.
+       - Remaining steps: 100 - 32 = **68 remaining steps**.
+    4. Walk Down 1 step to transition to Safari Zone West's Northwest quadrant at (3, 0) [z=0] -> **1 step**.
+       - Remaining steps upon entry to West's Northwest quadrant: **67 remaining steps**.
 
 ### 5. Retrieve Warden's Gold Teeth & HM03 Surf in Northwest [43 steps]
 - From (3, 0) [z=0] in Safari Zone West:
