@@ -6302,6 +6302,15 @@ We have successfully completed our victory run and obtained BOTH critical progre
   - **Tactical Decision**: We will rely strictly on GEMMY's (Level 59 BLASTOISE) neutral physical **BITE** to sweep Erika's entire team. GEMMY's massive level advantage renders type-disadvantage negligible, and BITE's high physical damage is the safest and most reliable strategy.
 - **Gym Navigation & Obstacles**: Celadon Gym is located in the south of Celadon City. The path to the gym is blocked by a cuttable tree. PETAL (BELLSPROUT) is in our active party and knows **CUT**, allowing us to clear the tree and enter the Gym immediately.
 
+## Scientific Strength Persistence & Boulder Mechanics Test Protocol (Turn 74245)
+- **Objective**: Verify and document the exact overworld mechanics of STRENGTH in Gen 1, including activation, push behavior, and map transition persistence/reset rules.
+- **Hypothesis**:
+  1. Without STRENGTH active, the boulder at (8, 4) is completely impassable and cannot be pushed.
+  2. Activating STRENGTH from the party menu (ROCKY) enables overworld boulder pushing. Walking directly into the boulder at (8, 4) from (7, 4) will push it to (9, 4).
+  3. Map transition (exiting the Warden's House and re-entering) will reset the boulder to its starting position (8, 4) and deactivate the overworld STRENGTH state.
+- **Step-by-step Log**:
+  - **Turn 74245**: Standing at (4, 7). Walk to (7, 4) and face Right.
+
 <hr>
 
 <h1><code>Locations/CeladonGym</code></h1>
