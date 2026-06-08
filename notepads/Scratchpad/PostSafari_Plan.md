@@ -73,3 +73,7 @@
   - RARE CANDY (Turn 74876)
 - **Active Hypothesis**: HM03 SURF can still be executed from the Pokémon menu even if the physical HM03 item is in the PC.
 - **Verification Plan**: Exit the Pokémon Center, walk to the water, and attempt to SURF using GEMMY (BLASTOISE) to verify if the move can be executed.
+- **Turn 74893**: Verified SURF works in the overworld even if the physical HM03 (SURF) item is stored inside the PC. Standing at (11, 13) facing Down towards water, we successfully selected GEMMY (BLASTOISE) from the party menu and executed SURF. Entered water at (11, 14). This proves overworld HM moves can be executed without the physical HM item in our Bag.
+- **Turn 74921**: Moved west along Row 13 to (6, 13) to explore the western side of Cinnabar Island. Opened the Start menu to initiate SURF onto the western vertical water channel at Column 5.
+- **Turn 74922**: Discovered that the Pokémon Lab building on the south-west of the island has its entrance door at (6, 9), replacing our previous assumption of (3, 11) which is water.
+- **Hypothesis**: The western vertical water channel (Columns 1-3) can be surfed Northwards to directly bypass the central buildings and reach the northern side of Cinnabar Island where Cinnabar Mansion and Cinnabar Gym are.
