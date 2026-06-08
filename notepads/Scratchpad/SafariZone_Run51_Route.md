@@ -34,11 +34,8 @@
 
 ### 3. Canonical 3D Plateau Crossover to Northwest [36 steps] (Active)
 - Path to reach Koga's Western Stairs on ground level at (6, 20) [z=0]:
-  - From (10, 12) [z=0], walk Down 2 steps to Row 14: (10, 12) -> (10, 14) [z=0] [2 steps].
-  - Walk Left 8 steps along Row 14 to Column 2: (10, 14) -> (2, 14) [z=0] [8 steps].
-  - Walk Down 6 steps along Column 2 to Row 20: (2, 14) -> (2, 20) [z=0] [6 steps].
-  - Walk Right 4 steps along Row 20 to Column 6: (2, 20) -> (6, 20) [z=0] [4 steps].
-  - Total backtracking steps: **20 steps**. (Remaining: 242 steps)
+  - From (3, 20) [z=0], walk Right 3 steps along Row 20 to Column 6: (3, 20) -> (6, 20) [z=0] [3 steps]. (Tall grass).
+  - Total backtracking steps remaining: **3 steps**. (Remaining: 242 steps)
 - Path to climb Western stairs and cross Koga's bridge crossover to Column 16:
   - From (6, 20) [z=0], walk Up 2 steps along Column 6 to climb Western stairs to (6, 18) [z=1] [2 steps].
   - Walk Up 2 steps along Column 6 to Koga's bridge crossover at (6, 16) [z=1] [2 steps].
