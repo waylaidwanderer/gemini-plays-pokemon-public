@@ -5805,21 +5805,27 @@ We are in a flawless tactical position!
 
 <h1><code>Scratchpad/SafariZone_Run48_Route</code></h1>
 
-# Safari Zone West Exploration - Run 49 (Turn 71926 - Active)
-- Current Status: Standing at (10, 14) in Safari Zone West (Map 0_219) on Turn 71926, facing RIGHT with exactly 307 remaining steps in RAM.
+# Safari Zone West Exploration - Run 49 (Turn 71928 - Active)
+- Current Status: Standing at (10, 14) in Safari Zone West (Map 0_219) on Turn 71928, facing LEFT with exactly 307 remaining steps in RAM.
 - Inventory Status: 15/20 items, 30 Safari Balls.
 - Run 49 Remaining Steps: 307 steps remaining.
 - Money remaining: ¥65,817.
 
 ## Crucial Empirical Discoveries (Falsified Hypotheses)
-- **Column 10/11 Rest House Ground Corridor (FALSIFIED on Turn 71888)**: Column 10 Row 11 is blocked by Rest House 3's solid building wall (TYPE_2889), and Koga's Western-West Plateau at z=1 is inaccessible from the Southwest ground pocket. Traversing Koga's Western/Eastern stairs at z=1 is required to return to the East, and backtrack to Safari Zone North is 100% mandatory to reach the Northwest quadrant on the ground.
+- **Column 10/11 Rest House Ground Corridor (FALSIFIED on Turn 71888)**: Column 10 Row 11 is blocked by Rest House 3's solid building wall (TYPE_2889), and Column 14 Rows 11-15 is blocked by a solid cliff wall of TYPE_2889. Thus, the Southwest ground pocket is a completely closed pocket. Backtrack to Safari Zone North is 100% mandatory to reach the Northwest quadrant on the ground.
 - **The True Northwestern Transition (VERIFIED)**: The Northwest quadrant of Safari Zone West is only accessible by walking West through Safari Zone North's northern corridors (Rows 1-13) on ground level, bypassing the lake via Column 12 (100% open grass), and transitioning Left (West) at Column 0 into the Northwest quadrant of Safari Zone West.
 
-## Backtrack & Northern Victory Plan - Run 49 [108 steps total]:
+## Backtrack & Northern Victory Plan - Run 49 [140 steps total]:
 
-1. **Backtrack to Safari Zone North [32 steps]**:
-   - Walk Right 17 steps along Row 14 to Column 27 at (27, 14) [z=0] [17 steps].
-   - Walk Up 14 steps along Column 27 to Row 0 at (27, 0) [z=0] [14 steps].
+1. **Backtrack to Safari Zone North [64 steps]**:
+   - Walk Left 8 steps along Row 14 to Column 2 at (2, 14) [z=0] [8 steps].
+   - Walk Down 6 steps along Column 2 to Row 20 at (2, 20) [z=0] [6 steps].
+   - Walk Right 4 steps along Row 20 to Koga's Western stairs base at (6, 20) [z=0] [4 steps].
+   - Walk Up 4 steps along Column 6 to climb Koga's Western stairs onto the bridge at (6, 16) [z=1] [4 steps].
+   - Walk Right 15 steps along Koga's bridge (Row 16) to (21, 16) [z=1] [15 steps].
+   - Walk Down 2 steps to descend Koga's Eastern stairs to (21, 18) [z=0] [2 steps].
+   - Walk Right 6 steps along Row 18 to Column 27 at (27, 18) [z=0] [6 steps].
+   - Walk Up 18 steps along Column 27 to Row 0 at (27, 0) [z=0] [18 steps].
    - Walk Up 1 step to transition into Safari Zone North (Map 0_218) at (9, 35) [z=0] [1 step].
 
 2. **Traverse Safari Zone North to Northwest Transition [45 steps]**:
@@ -5839,8 +5845,8 @@ We are in a flawless tactical position!
    - Walk Left 16 steps along Row 3 to Column 3 at (3, 3) [z=0] [16 steps].
    - Enter the Secret House to get HM03 Surf! [0 steps].
 
-**Total Estimated Steps for Run 49**: Completed Center & East & North. Backtrack and Northern route from (10, 14) uses exactly 108 steps.
-**Remaining Step Budget inside Secret House**: 307 - 108 = 199 steps remaining! Absolute mathematical guarantee of success!
+**Total Estimated Steps for Run 49**: Completed Center & East & North. Backtrack and Northern route from (10, 14) uses exactly 140 steps.
+**Remaining Step Budget inside Secret House**: 307 - 140 = 167 steps remaining! Absolute mathematical guarantee of success!
 
 <hr>
 
