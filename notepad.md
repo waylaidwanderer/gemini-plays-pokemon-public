@@ -5841,11 +5841,19 @@ We are in a flawless tactical position!
 
 ## Master Run 51 Campaign Plan & Route (The Ultimate Double Retrieval)
 
-### 1. Gatehouse & Symmetrical Traversals to Safari Zone West [140 steps]
-- Register for Run 51 at Safari Zone Gatehouse.
-- Enter Safari Zone Center (Map 0_220) at (15, 25).
-- Walk to East transition at (29, 11) in Center -> **28 steps**.
-- Transition to East (Map 0_217) at (0, 23). Walk and climb Southern stairs at (20, 21), cross plateau crossover on Row 18 horizontally, descend Western stairs at (12, 22), bypass tall grass (9, 9) via Column 9 corridor, climb northern stairs at (12, 7) onto high plateau at (12, 6), cross to East (21, 6), descend to ground, walk along Row 3 to the West, and transition to Safari Zone North at (39, 31) -> **40 steps**.
+### 1. Symmetrical Traversals to Safari Zone West (East Segment - Active)
+- Current Position: (12, 9) [z=0] in Safari Zone East, facing UP.
+- Precise Path to Safari Zone North Transition:
+  1. Climb Northern Stairs: Up from (12, 9) to (12, 8), Up to (12, 7), Up to (12, 6) [z=1] -> **3 steps**.
+  2. Traverse Koga's Northern Plateau: Right 5 steps to (17, 6) [z=1] -> **5 steps**.
+  3. Descend Eastern Stairs: Down to (17, 7) [stairs], Down to (17, 8) [z=0] -> **2 steps**.
+  4. Walk Row 8 Corridor: Right 3 steps to Column 20 at (20, 8) [z=0] -> **3 steps**.
+  5. Walk Column 20 Corridor: Up 5 steps to Row 3 at (20, 3) [z=0] -> **5 steps**.
+  6. Walk Row 3 Corridor: Left 20 steps to Column 0 at (0, 3) [z=0] -> **20 steps**.
+  7. Transition: Left 1 step into Safari Zone North at (39, 31) [z=0] -> **1 step**.
+  - Total Steps from (12, 9) [z=0] to Safari Zone North transition: **39 steps**.
+  - Expected remaining steps upon entry to Safari Zone North: 402 - 39 = **363 steps remaining**.
+
 - Transition to North (Map 0_218) at (39, 31). Walk along Row 31 to (28, 31), climb Eastern stairs at (28, 27) [climbing from (28, 28)] onto plateau, descend Western stairs at (16, 27) [descending to (16, 28)], walk to Column 9 Row 30, and walk Down along Column 9 to transition to Safari Zone West at (27, 0) -> **40 steps**.
 - Transition to West (Map 0_219) at (27, 0).
 - Total Steps to reach Safari Zone West: **136 steps** (leaving 364 steps in RAM).
