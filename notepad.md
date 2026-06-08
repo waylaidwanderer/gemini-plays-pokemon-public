@@ -5834,8 +5834,8 @@ We are in a flawless tactical position!
 
 <h1><code>Scratchpad/SafariZone_Run51_Route</code></h1>
 
-# Safari Zone Exploration - Run 51 (Turn 72451 - Active)
-- Current Status: Standing at (6, 3) [z=0] inside Safari Zone East (Map 0_217) on Turn 72451, facing DOWN with exactly 359 remaining steps.
+# Safari Zone Exploration - Run 51 (Turn 72461 - Active)
+- Current Status: Standing at (28, 31) [z=0] inside Safari Zone North (Map 0_218) on Turn 72461, facing DOWN with exactly 344 remaining steps.
 - Inventory Status: 15/20 items, 30 Safari Balls.
 - Money remaining: ¥64,817.
 
