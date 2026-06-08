@@ -31,3 +31,5 @@
   3. Map transition (exiting the Warden's House and re-entering) will reset the boulder to its starting position (8, 4) and deactivate the overworld STRENGTH state.
 - **Step-by-step Log**:
   - **Turn 74245**: Standing at (4, 7). Walk to (7, 4) and face Right.
+  - **Turn 74247**: Baseline Test. Standing at (7, 4) facing Right, we pressed Right to walk into the boulder at (8, 4) without Strength active.
+    - *Result*: Movement blocked (visited 0 tiles), player remained at (7, 4). This proves that the boulder is solid and impassable by default. Baseline established!
