@@ -1,5 +1,5 @@
-# Safari Zone Exploration - Run 52 (Turn 73253 - Completed)
-- Current Status: Standing at (29, 26) [z=1] inside Safari Zone North (Map 0_218) on Turn 73253, facing LEFT with exactly 0 remaining steps in RAM.
+# Safari Zone Exploration - Run 52 (Turn 73261 - Completed)
+- Current Status: Standing at (31, 26) [z=1] inside Safari Zone North (Map 0_218) on Turn 73261, facing RIGHT with exactly 0 remaining steps in RAM.
 - Inventory Status: 15/20 items, 30 Safari Balls.
 
 ## Master Run 52 Campaign Plan & Route (The Ultimate Double Retrieval)
@@ -13,16 +13,14 @@
 - This proves that ground-level vertical passage past Row 4 is completely blocked, making the ground-level pocket a closed dead end.
 - Backtracking Down Column 12 to (12, 28) [z=0], walking Right to (16, 28) [z=0], and climbing onto Koga's Western Plateau at (16, 26) [z=1] is strictly mandatory to cross over Koga's partition.
 
-### 5. Backtrack to Western Stairs [In Progress]
-- Walk Down 12 steps along Column 12 to (12, 28) -> **12 steps** (4 steps taken, currently at 12, 16).
-- Walk Right 4 steps along Row 28 to (16, 28) -> **4 steps**.
-- Walk Up 2 steps to climb Western stairs to (16, 26) [z=1] -> **2 steps**.
-- Total steps to stand on Koga's Western Plateau: **18 steps**.
-- Remaining steps upon reaching Koga's Western Plateau: **27 remaining steps**.
-- Cross Koga's Western Plateau to the East: walk Right 6 steps to (22, 22) [z=1] and descend stairs to (22, 29) [z=0] -> **13 steps**. (Remaining steps will expire here on Row 29).
+### 5. Backtrack to Western Stairs [Completed]
+- Climbed onto Koga's Western Plateau, crossed Koga's Western Plateau to the East, and descended to Koga's Eastern stairs crossover at (22, 29) [z=0].
+- Walked Right to (28, 29) [z=0] and climbed onto Koga's Eastern Plateau at (31, 26) [z=1], where we spent our last remaining steps.
 
 ## Master Run 53 Victory Campaign Plan (The Ultimate Single-Run Guarantee)
 Once our steps expire on Run 52, we will start a fresh **Run 53** with 500 steps, which is guaranteed to complete the double retrieval in under 230 steps!
+- **Fund Verification**: We currently have **¥64,317** in our wallet, which is extremely plenty of funds to purchase as many Safari tickets as needed.
+- **Victory Margin**: We will have exactly **274 steps of safety margin** inside the Secret House when Surf is obtained on Run 53!
 
 ### Step-by-Step Step-Budget Math:
 1. **Gatehouse to Safari Zone East**: Transition from (15, 25) in Center to (0, 23) in East -> **36 steps**.
@@ -37,7 +35,7 @@ Once our steps expire on Run 52, we will start a fresh **Run 53** with 500 steps
 ## Master Run 52-to-53 Step-Budget Expiration & Gatehouse Dialog Purchase Protocol
 
 ### 1. Step Budget Expiration (PA: Ding-dong!)
-- Stand at (30, 26) [z=1] facing LEFT.
+- Stand at (31, 26) [z=1] facing RIGHT.
 - Press **Right** once. Since steps = 0, this checks the Safari Zone step counter and immediately triggers the "PA: Ding-dong! Time's up!" message box.
 - Press **A** once to clear the text. The player will automatically warp back to the Safari Zone Gatehouse.
 - Upon spawning in the Gatehouse, the Gatekeeper at (2, 4) will stop the player and say: "Did you get a good haul? Come again, please!".
