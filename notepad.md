@@ -5859,9 +5859,9 @@ We are in a flawless tactical position!
 
 <h1><code>Scratchpad/SafariZone_Run48_Route</code></h1>
 
-# Safari Zone West Exploration - Run 48 (Turn 71553 - Active)
-- Current Status: Standing at (4, 0) in Safari Zone Gatehouse (Map 0_156) on Turn 71553, facing DOWN.
-- Starting Turn: Run 48 starting soon.
+# Safari Zone West Exploration - Run 48 (Turn 71563 - Active)
+- Current Status: Standing at (15, 25) in Safari Zone Center (Map 0_220) on Turn 71563, facing UP.
+- Starting Turn: Run 48 started on Turn 71563.
 - Inventory Status: 15/20 items, 30 Safari Balls.
 - Run 48 Remaining Steps: 500 steps.
 - Money remaining: ¥66,817.
