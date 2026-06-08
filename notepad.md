@@ -6320,5 +6320,13 @@ We have successfully completed our victory run and obtained BOTH critical progre
   - **Defeated Lass (3, 11)**: Turn 74093 (GEMMY grew to Level 59!)
   - **Trainer at (7, 10) Bypass**: Bypassed successfully on Turn 74101-74104 by walking East along Row 11 to Column 8, then North.
   - **Cut Inner Hedge (7, 5)**: Turn 74110 using PETAL's CUT.
+- **Inner Circle NPCs & Layout (Verified Turn 74179)**:
+  - Erika: (4, 3) (Blue kimono sprite).
+  - Lass: (3, 3) (Brown hair).
+  - Cooltrainer♀ (Defeated): (5, 4) (Orange hair).
+  - Lass (Defeated): (6, 4) (Green hair/cap).
+  - Inner Gym Hedges form a 6x6 square from Column 2 to 7, Row 2 to 7.
+  - Cuttable Bushes are located at (2, 4) and (5, 7).
+  - Inner hedge cut at (7, 5) allows free passage.
 
 <hr>
