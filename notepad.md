@@ -6315,6 +6315,10 @@ We have successfully completed our victory run and obtained BOTH critical progre
   - **Turn 74258**: Standing at (8, 4) facing Up, we pressed A.
     - *Result*: Successfully picked up the overworld Poké Ball at (8, 3), which was a **RARE CANDY**.
   - **Turn 74261**: Initiating Map Transition Test to verify boulder coordinates and Strength state deactivation. Walked Left 4 times and Down 4 times to exit the Warden's House to Fuchsia City.
+  - **Turn 74263**: Stepped Up 1 step to re-enter the Warden's House.
+    - *Result*: The boulder was observed to have reset back to its starting coordinates at (8, 4).
+  - **Turn 74267**: Deactivation Test. Standing at (7, 4) facing Right, we pressed Right to walk into the boulder.
+    - *Result*: Movement blocked (visited 0 tiles), player remained at (7, 4), and the boulder did not move. This definitively proves Hypothesis 3: map transitions reset the boulder's coordinates to their default starting position and deactivate the active overworld STRENGTH state.
 
 <hr>
 
