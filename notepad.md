@@ -2047,6 +2047,17 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
 ### Elevator Cabin (Map 0_127)
 - **Warp Connection**: Standing at (3, 1) facing Up and pressing A on the control panel at (3, 0) opens the floor selector. Exiting Down from row 3 warps back to the chosen floor's elevator landing at (1, 1).
 
+## Celadon Gym Southern Pathway Navigation (Turn 74030)
+- **Southern Hedge Barrier**: A continuous horizontal green hedge (TYPE_2889) runs along Row 32, blocking access from the pavement on Row 31 to the southern garden containing Erika's Gym.
+- **Gym Cuttable Bush (Empirically Verified)**: 
+  - **Location**: Located at **(35, 32)** on Map 0_6.
+  - **Verification**: The tile at (35, 32) is **TYPE_5519**, which matches the exact tile ID of cuttable bushes in Fuchsia City.
+- **How to Access Celadon Gym**:
+  1. Stand at **(35, 31)** facing Down.
+  2. Use **CUT** (e.g., from PETAL) to clear the tree at (35, 32).
+  3. Walk Down through the cleared tile into the southern garden on Row 33.
+  4. Walk West along the southern grass path (Rows 33-34) all the way back to Column 12 to reach Celadon Gym's front entrance.
+
 <hr>
 
 <h1><code>Locations/SaffronCity</code></h1>
