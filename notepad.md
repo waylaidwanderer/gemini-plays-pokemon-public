@@ -635,6 +635,24 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 ## Cut Bush Respawning Mechanic (Verified Turn 45601)
 - **Verified Fact**: In Generation 1, cuttable bushes (TYPE_5519) are not permanently cleared. Whenever the player transitions maps, warps, uses DIG/FLY, or reloads the game, all cut bushes in the overworld respawn and must be cut again using the CUT move to be passable. This was verified on Turn 45601 when returning to Fuchsia City and finding the (18, 19) bush respawned.
 
+## Gym Badge Mechanics (Verified Records)
+- **Cascade Badge**: Obtained from Misty (Cerulean City).
+  - **Overworld Ability**: Unlocks the use of **HM01 CUT** outside of battle.
+  - **Obedience Level**: Traded Pokémon up to **Level 30** will obey the player.
+- **Thunder Badge**: Obtained from Lt. Surge (Vermilion City).
+  - **Overworld Ability**: Unlocks the use of **HM02 FLY** outside of battle.
+  - **Stat Boost**: Increases Pokémon's Speed in battle.
+- **Rainbow Badge**: Obtained from Erika (Celadon City).
+  - **Overworld Ability**: Unlocks the use of **HM04 STRENGTH** outside of battle (to be verified immediately upon receipt in Warden's House).
+  - **Obedience Level**: Traded Pokémon up to **Level 50** will obey the player.
+- **Soul Badge**: Obtained from Koga (Fuchsia City).
+  - **Overworld Ability**: Unlocks the use of **HM03 SURF** outside of battle.
+  - **Stat Boost**: Increases Pokémon's Defense in battle.
+- **Marsh Badge**: Obtained from Sabrina (Saffron City).
+  - **Obedience Level**: Traded Pokémon up to **Level 70** will obey the player.
+- **Earth Badge**: Obtained from Giovanni (Viridian City).
+  - **Obedience Level**: All traded Pokémon will obey the player regardless of level.
+
 <hr>
 
 <h1><code>Locations/Route2_North</code></h1>
