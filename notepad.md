@@ -5859,11 +5859,11 @@ We are in a flawless tactical position!
 
 <h1><code>Scratchpad/SafariZone_Run48_Route</code></h1>
 
-# Safari Zone West Exploration - Run 48 (Turn 71641 - Active)
-- Current Status: Standing at (6, 20) in Safari Zone West (Map 0_219) on Turn 71641, facing DOWN.
-- Starting Turn: Run 48 started on Turn 71563.
+# Safari Zone West Exploration - Run 49 (Turn 71674 - Active)
+- Current Status: Standing at (20, 17) in Fuchsia City (Map 0_7) on Turn 71674, facing LEFT.
+- Starting Turn: Run 49 starting.
 - Inventory Status: 15/20 items, 30 Safari Balls.
-- Run 48 Remaining Steps: 198 steps.
+- Run 49 Remaining Steps: 500 steps (once inside).
 - Money remaining: ¥66,317.
 
 ## Crucial Empirical Discoveries (Falsified Hypotheses)
