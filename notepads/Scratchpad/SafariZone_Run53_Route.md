@@ -1,5 +1,5 @@
-# Safari Zone Exploration - Run 53 (Turn 73365 - Active)
-- Current Status: Standing at (12, 22) [z=0] inside Safari Zone East (Map 0_217) on Turn 73365, facing DOWN with exactly 414 remaining steps in RAM.
+# Safari Zone Exploration - Run 53 (Turn 73367 - Active)
+- Current Status: Standing at (9, 22) [z=0] inside Safari Zone East (Map 0_217) on Turn 73367, facing LEFT with exactly 411 remaining steps in RAM.
 - Inventory Status: 15/20 items, 30 Safari Balls.
 
 ## Master Run 53 Victory Campaign Plan (The Ultimate Single-Run Guarantee)
