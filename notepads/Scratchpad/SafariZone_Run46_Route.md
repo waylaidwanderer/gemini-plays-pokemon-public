@@ -1,7 +1,7 @@
-# Safari Zone West Exploration - Run 47 (Turn 71086 - Active)
-- Current Status: Standing at (16, 24) in Safari Zone East (Map 0_217) on Turn 71086, in battle with wild Nidoran♂.
+# Safari Zone West Exploration - Run 47 (Turn 71098 - Active)
+- Current Status: Standing at (17, 22) in Safari Zone East (Map 0_217) on Turn 71098, facing UP.
 - Inventory Status: 15/20 items, 30 Safari Balls.
-- Run 47 Remaining Steps: 459 steps.
+- Run 47 Remaining Steps: 456 steps.
 - Money remaining: ¥66,817.
 
 ## Crucial Empirical Discoveries (Falsified Hypotheses)
