@@ -591,3 +591,51 @@
   - "The high plateau is on Columns 11-19, which is completely West of Column 21."
   - "Row 21 on Columns 21, 22, and 23 consists of solid rock/cliff walls (TYPE_2889)."
   - "The eastern ground corridor on Column 21 is fully verified as 100% open and passable to the North. Note that Column 20 is blocked by deep water on Rows 12-13, and Column 22 is blocked by cliff/trees on Row 21."
+
+# Socratic Answers - Safari Zone North Eastern Plateau Traverse (Turn 72966)
+
+## 1. Socratic Question 1: Koga's Column 17 Tree Wall & Mandatory Crossover
+- **Why horizontal ground-level progress on Row 31 is blocked**:
+  - The eastern ground-level basin (where we enter at (39, 31)) is physically separated from the western side of the map by a massive vertical partition of solid trees of TYPE_2889 on Column 17 spanning Rows 29-34.
+  - Additionally, Column 19 Row 33 is blocked by a solid building roof structure of TYPE_2889, and Row 34 is blocked by building/fence structures of TYPE_2889.
+  - This continuous line of barriers (Column 17 tree wall, Column 19 building, and Row 34 building) completely blocks all horizontal ground-level movement on Row 31, 32, 33, and 34.
+  - Thus, the eastern basin on ground level z=0 is a completely closed pocket with no ground-level exit to the West.
+- **Mandatory Plateau Crossover Path**:
+  - To cross to the West, we must climb onto Koga's Eastern Plateau at (28, 27) [z=1], walk across Koga's plateau, and descend via the Western stairs of the crossover to land on ground level at Column 12 on the West side of the partition.
+- **Step-by-Step Math of the Crossover Segment (45 overworld steps total)**:
+  1. Walk LEFT 11 steps along Row 31 from (39, 31) [z=0] to reach the base of Koga's Eastern stairs at (28, 31) [z=0] -> **11 steps**.
+     - (39, 31) -> (28, 31) (All clear grass TYPE_3fe2, 0% encounter risk).
+     - Steps remaining: 349 - 11 = **338 remaining steps**.
+  2. Walk UP 5 steps along Column 28 to climb Koga's Eastern stairs to (28, 26) [z=1] -> **5 steps**.
+     - (28, 31) -> (28, 30) -> (28, 29) -> (28, 28) -> (28, 27) [stairs] -> (28, 26) [plateau level z=1, TYPE_2770].
+     - Steps remaining: 338 - 5 = **333 remaining steps**.
+  3. Walk DOWN 3 steps along Column 28 to descend Koga's Eastern stairs crossover to (28, 29) [z=0] on the other side -> **3 steps**.
+     - (28, 26) [z=1] -> (28, 27) [stairs] -> (28, 28) -> (28, 29) [z=0, clear grass].
+     - Steps remaining: 333 - 3 = **330 remaining steps**.
+  4. Walk LEFT 16 steps along Row 29 to reach Column 12 at (12, 29) [z=0] -> **16 steps**.
+     - (28, 29) -> (12, 29) (All clear grass with some tall grass segments).
+     - Steps remaining: 330 - 16 = **314 remaining steps**.
+  5. Walk DOWN 1 step along Column 12 to Row 30: (12, 29) -> (12, 30) [z=0] -> **1 step**.
+     - Steps remaining: 314 - 1 = **313 remaining steps**.
+  6. Walk LEFT 3 steps along Row 30 to reach Column 9 at (9, 30) [z=0] -> **3 steps**.
+     - (12, 30) -> (9, 30) (All clear grass).
+     - Steps remaining: 313 - 3 = **310 remaining steps**.
+  7. Walk DOWN 5 steps along Column 9 to Row 35: (9, 30) -> (9, 35) [z=0] -> **5 steps**.
+     - (9, 30) -> (9, 35) (All clear grass).
+     - Steps remaining: 310 - 5 = **305 remaining steps**.
+  8. Walk DOWN 1 step from (9, 35) [z=0] to transition to Safari Zone West at (27, 0) [z=0] -> **1 step**.
+     - Steps remaining: 305 - 1 = **304 remaining steps** inside Safari Zone West!
+
+## 2. Socratic Question 2: Elevation Transition & Plateau Safety
+- **Staircase Transition Mechanics at (28, 27)**:
+  - Stepping UP onto Koga's Eastern wooden staircase at (28, 27) (TYPE_4b8d) increases our elevation level from ground level (z=0) to plateau level (z=1).
+  - This is symmetrically supported in the pathfinder tool transitions list:
+    - `transitions.append((28, 29, 0, "Up", 28, 27, 0))`
+    - `transitions.append((28, 27, 0, "Up", 28, 26, 1))`
+- **Plateau Safety & Encounter Risk**:
+  - The elevated plateau level (z=1) at Rows 15-26, Columns 27-35 consists entirely of rock/wood plateau crossover tiles (TYPE_2770).
+  - These tiles are 100% physically safe and do not trigger wild battles, guaranteeing a **0% wild encounter rate** on the elevated crossover!
+- **Citations from 'Locations/SafariZone_North'**:
+  - "The southern ground-corridor along Row 31 is completely open and grass-free from the eastern basin entry at (39, 31) to Column 28."
+  - "climbing the plateau at (28, 27) is strictly mandatory to go West."
+  - "Eastern Basin / Plateau Area: ... To go West, one must backtrack via the eastern plateau to the southern ground level."
