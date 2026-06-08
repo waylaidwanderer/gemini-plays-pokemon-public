@@ -60,3 +60,6 @@
   - Purchase 2-3 **Escape Ropes** (for instant exit after finding the Secret Key).
   - Purchase 5-10 **Full Heals** (to cure status effects from wild Koffing/Weezing/Grimmer).
   - Purchase **Ultra Balls** (for high-level wild encounters).
+
+## HM Verification Test Live Log
+- **Turn 74855**: Reached Cinnabar PC. Initiating deposit of HM03 (SURF) and HM04 (STRENGTH) to perform the verification protocol.
