@@ -1,5 +1,5 @@
-# Safari Zone Exploration - Run 52 (Turn 73097 - Active)
-- Current Status: Standing at (2, 20) [z=0] inside Safari Zone West (Map 0_219) on Turn 73097, facing LEFT with exactly 164 remaining steps in RAM.
+# Safari Zone Exploration - Run 52 (Turn 73099 - Active)
+- Current Status: Standing at (2, 17) [z=0] inside Safari Zone West (Map 0_219) on Turn 73099, facing UP with exactly 161 remaining steps in RAM.
 - Inventory Status: 15/20 items, 30 Safari Balls.
 
 ## Master Run 52 Campaign Plan & Route (The Ultimate Double Retrieval)
