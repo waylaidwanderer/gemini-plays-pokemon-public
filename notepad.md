@@ -4646,38 +4646,18 @@ We analyzed why we bumped at Column 23 on Rows 14-15 and verified that symmetric
 - **Koga's Plateau Bridge and Column 17 Ramp Configuration**: 
   - Koga's Western Plateau is an elevated section at z=1 (Columns 4-16, Rows 6-13).
   - Row 16 is a narrow 1-tile wide elevated bridge (z=1) extending horizontally from Column 5 to Column 22.
-  - Column 17 is a continuous checkered vertical ramp (TYPE_2889) from Row 6 down to Row 16.
-  - In Gen 1, checkered vertical ramps act as solid, impassable horizontal walls from the West (Column 16) and East (Column 18) on Rows 6-15, which is why we bumped when attempting to walk Right from (16, 9) into (17, 9) on Turn 69025.
-  - However, Row 16 Column 17 (17, 16) is a flat bridge crossover tile at plateau level (z=1) and is passable horizontally.
-- **Descent Plan to Northwest Ground Level**:
-  - From our current position (16, 9) [z=1], we will walk Down 7 steps to (16, 16) [z=1] and Right 1 step to (17, 16) [z=1] on Koga's bridge.
-  - Standing at (17, 16) [z=1], we can step UP (North) onto (17, 15) to enter the vertical checkered ramp from its south end. 
-  - Because the checkered ramp is a bidirectional slope, continuing vertically UP along Column 17 all the way to Row 5 transitions our elevation to z=0, landing on ground level at (17, 5) [z=0].
-  - From (17, 5) [z=0], we can walk Right 2 steps to (19, 5) and Down 2 steps to (19, 7) [z=0] to reach the Warden's Gold Teeth.
-
-## 2. Socratic Question 2 (Plateau and Bridge Ground Layout)
-- **Layout around Column 18 Row 15**:
-  - Row 15 Column 18 is ground-level tall grass (z=0, TYPE_fed7).
-  - Row 16 Column 18 is part of the elevated bridge (z=1, TYPE_2770).
-  - Row 17 Column 18 is ground-level grass (z=0, TYPE_3fe2).
-- **Horizontal Crossover Bypass**:
-  - Because Koga's bridge runs continuously on Row 16 at z=1, walking across Row 16 allows us to bypass the impassable Column 17 vertical cliff face.
-  - At ground level (z=0), the bridge at Row 16 behaves as a solid vertical wall. This prevents any vertical ground-level traversal underneath the bridge (e.g. from Row 17 [z=0] to Row 15 [z=0] on Column 18 is completely blocked by the bridge structure).
-  - Consequently, climbing onto Koga's Eastern Plateau at (21, 17) to cross Koga's bridge at z=1 is mathematically and physically mandatory to transition to the North side of the bridge (Rows 6-15) where the teeth are.
-- **Superiority of the Plateau Corridor**:
-  - The plateau level (z=1) contains zero tall grass (0% wild encounter rate) and has no obstacles, guaranteeing 100% safe, fast horizontal traversal. Walking on ground level would require crossing extensive tall grass fields on the East, only to be blocked by the impassable cliff at Column 17.
-
-## 3. Socratic Question 3 (Chronological Step-Budget Reconciliation)
-- **Turn 69060 Step Reconciliation**:
-  - Turn 68997 starting steps at (22, 22) in North: **332 steps remaining**.
-  - Walk Left 6, Down 5 across Western Plateau to stairs at (16, 27): uses 11 steps [remaining: 321].
-  - Down 1 to (16, 28) [descend stairs], Left 4 steps to (12, 28) in North: uses 5 steps [remaining: 316].
-  - Down 2 to (12, 30), Left 3 to (9, 30), Down 5 to (9, 35), Down 1 to transition to West: uses 11 steps [remaining: 305].
-  - Transitioned to Safari Zone West at (27, 0). Walked Down 10 steps to (27, 10): uses 10 steps [remaining: 295].
-  - Walked Down 8 steps to (27, 18), Left 6 steps to (21, 18): uses 14 steps [remaining: 281].
-  - Walked Up 2 steps to climb Eastern stairs from (21, 18) to (21, 16) [z=1]: uses 2 steps [remaining: 279].
-  - Walked Left 5 steps to (16, 16), Up 7 steps to (16, 9) [and bumped 3 times against (17, 9)]: uses 15 steps [remaining: 264].
-  - This perfectly reconciles with our current step budget of **264 steps remaining** on Turn 69064.
+  - Column 17 is a checkered vertical ramp (TYPE_2889) extending from Row 6 to Row 16. However, it is NOT vertically continuous at a single elevation level. Column 17 on Rows 14-16 is elevated at bridge level (z=1), whereas Column 17 on Rows 6-13 is at ground level (z=0). Therefore, the boundary between (17, 14) [z=1] and (17, 13) [z=0] behaves as a solid, impassable north-facing horizontal cliff face. This was empirically proven on Turn 73072, where we attempted to walk Up and collided (bumped) 9 consecutive times against the cliff face at (17, 13). Koga's vertical checkered ramp is physically impassable vertically across the Row 13/14 height boundary.
+  - Symmetrical vertical checkered ramps act as solid, impassable horizontal walls from the West (Column 16) and East (Column 18) on Rows 6-15. This was verified on Turn 73065, where attempting to jump East from (16, 9) [z=1] onto (18, 9) [z=0] resulted in a bump, confirming that sideways ledge-jumping over Column 17 is physically impossible. Koga's Western Plateau at z=1 is completely isolated on its eastern edge and behaves as a dead end.
+  - Therefore, traversing Koga's bridge via the Western stairs at (6, 19) [stairs DOWN] to land on ground level (6, 20) [z=0] is the only functional descent path.
+- **The Southwest Ground Pocket Dead-End**:
+  - Descending to (6, 20) [z=0] places the player in the Southwest ground pocket, which is completely isolated on foot from the northern ground areas (including the Secret House and teeth).
+  - Row 16 (Columns 5-22) behaves as a solid vertical wall at ground level z=0, blocking all vertical movement. Column 9 (Rows 10-13) is blocked by deep water. Column 10 Row 11, Column 11 Row 11, Column 12 Row 11, and Column 13 Row 11 consist of solid brick building walls of Rest House 3 (TYPE_2889), which is 100% solid and impassable on foot (verified on Turn 67902 and visually confirmed on Turn 73113).
+  - Since ground-level East-West and North-South movement is completely blocked past the Rest House, the Southwest ground pocket is a dead end. Walking to (10, 14) on ground level represents a waste of steps and a logical trap.
+- **The Canonical Northwest Transition Route**:
+  - Since Koga's bridge has no horizontal jump descent, and the Southwest pocket has no ground-level exit to the North, the player cannot reach the northern plains of Safari Zone West on foot from the East entrance.
+  - To reach the Northwest quadrant of Safari Zone West (Warden's Gold Teeth and Secret House), we must backtrack to Safari Zone North (Map 0_218) by walking to the Eastern stairs crossover, descending, and exiting through Safari Zone North's unblocked ground corridor.
+  - From Safari Zone North (Map 0_218), we must walk West through the northern ground corridor (bypassing the lake via Column 12), and enter Safari Zone West through the top-left northwest transition. This northwest transition lands us directly in the Northwest quadrant of Safari Zone West at (3, 0) [z=0], providing completely open, unblocked access to the Warden's Gold Teeth at (19, 7) and the Secret House at (3, 3) on ground level.
+  - We must immediately backtrack to the Eastern stairs to exit Safari Zone West and correct our route.
 
 # Socratic Answers - Koga's Bridge & Plateau Traversability (Turn 69120)
 
