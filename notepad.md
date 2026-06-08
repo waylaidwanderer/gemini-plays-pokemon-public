@@ -3532,6 +3532,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 - **Water Lake Columns 4-7 (Rows 14-18)**: Visually verified that Columns 4, 5, 6, and 7 are blocked by water on Rows 14-18. (Verified on Turn 54146)
 - **North-South Corridor Column 12**: Column 12 is completely passable of grass (TYPE_fed7) from Row 10 to Row 14, serving as the sole ground connection bypassing the lake between the northern pocket (Row 6) and the southern corridor (Row 14-18). (Verified on Turns 54139-54145)
 - **Horizontal Row 14 Connection**: Row 14 is completely open and passable from Column 12 (tall grass) to Column 8 (clear ground), allowing direct access to the western ground level from Column 12. (Verified on Turn 54146)
+- **Koga's Northern Plateau Southern Cliff Wall (Row 11)**: Visually and physically verified on Turn 71368 that Columns 18 to 23 are completely blocked on Row 11 by a solid horizontal cliff wall of TYPE_2889, preventing direct vertical ground-level transition between Row 10 and Row 12 on these columns. To bypass this cliff, one must walk Up to Row 9, walk Left to Column 15 (which is completely open vertically), and walk Down Column 15 to reach the southern corridor.
 
 <hr>
 
