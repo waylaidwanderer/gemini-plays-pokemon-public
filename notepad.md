@@ -6475,6 +6475,9 @@ We have successfully completed our victory run and obtained BOTH critical progre
   - West side: Green grass fields (Columns 1-2) with a solid rocky cliff barrier (Column 3, TYPE_2889).
   - East side: Tall grass patches (Columns 8-10, TYPE_fed7) where wild land Pokémon can be encountered.
 
+## Landmarks & Trainer Locations
+- **Swimmer (4, 24)**: Defeated on Turn 74575. Uses two Level 28 Seakings and one Level 28 Goldeen. Stands on the northern wooden pier structure. Marked with a ☠️ map marker.
+
 <hr>
 
 <h1><code>Locations/CinnabarIsland</code></h1>
