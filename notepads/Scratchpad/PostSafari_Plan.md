@@ -13,3 +13,7 @@
 3. Enter Warden's House (Map 0_157).
 4. Talk to the Warden (the real Warden!) to deliver his Gold Teeth and receive HM04 Strength.
 5. Teach Strength to ROCKY (GEODUDE).
+
+## Socratic Verification Plan (Turn 73867):
+- **Finding the Real Warden's House**: We will walk Down along Column 24 to find the fence opening, walk Right, and then stand at (27, 29) to read the overworld signpost. The signpost should confirm it is the Warden's House.
+- **Resolving the Map 0_157 Gym vs. House Conflict**: Once we enter the Warden's House, we will immediately look at the `<Location><Map>` game state field to verify its true map ID and correct any discrepancies in our permanent regional notepads.
