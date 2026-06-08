@@ -18,9 +18,9 @@
   - A wandering NPC is present around (28, 17).
 - **Fuchsia Meeting Room (Map 0_158)**:
   - Entered on Turn 43345 from (22, 13) in Fuchsia City. Featuring a lobby layout and several staff members. This has often been misidentified as the Warden's House historically.
+  - Inside features a counter desk layout on Row 5 with openings at Columns 2-4, leading to Row 4 in front of another counter on Row 3.
 - **Warden's House (Map 0_155/156/157 - Verification Pending)**:
   - Located in south-eastern Fuchsia City with its door at (27, 27) and a signpost outside at (27, 29). We are currently verifying and pathing to it.
-  - Inside features a counter desk layout on Row 5 with openings at Columns 2-4, leading to Row 4 in front of another counter on Row 3.
 - **Western Ledge Barrier Exploration (Turn 43371)**:
   - The vertical ledge on Column 2 (Rows 26-30) is a one-way ledge facing West (impassable from West to East).
   - The horizontal ledge on Row 31 is a one-way ledge facing South.
