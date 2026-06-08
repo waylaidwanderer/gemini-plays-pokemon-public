@@ -5805,10 +5805,10 @@ We are in a flawless tactical position!
 
 <h1><code>Scratchpad/SafariZone_Run48_Route</code></h1>
 
-# Safari Zone West Exploration - Run 49 (Turn 71913 - Active)
-- Current Status: Standing at (18, 18) in Safari Zone West (Map 0_219) on Turn 71913, facing LEFT with exactly 341 remaining steps in RAM.
+# Safari Zone West Exploration - Run 49 (Turn 71916 - Active)
+- Current Status: Standing at (21, 16) on Koga's bridge in Safari Zone West (Map 0_219) on Turn 71916, facing UP with exactly 336 remaining steps in RAM.
 - Inventory Status: 15/20 items, 30 Safari Balls.
-- Run 49 Remaining Steps: 341 steps remaining.
+- Run 49 Remaining Steps: 336 steps remaining.
 - Money remaining: ¥65,817.
 
 ## Crucial Empirical Discoveries (Falsified Hypotheses)
