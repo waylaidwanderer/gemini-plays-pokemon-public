@@ -5859,11 +5859,11 @@ We are in a flawless tactical position!
 
 <h1><code>Scratchpad/SafariZone_Run48_Route</code></h1>
 
-# Safari Zone West Exploration - Run 48 (Turn 71612 - Active)
-- Current Status: Standing at (22, 29) in Safari Zone North (Map 0_218) on Turn 71612, facing UP.
+# Safari Zone West Exploration - Run 48 (Turn 71641 - Active)
+- Current Status: Standing at (6, 20) in Safari Zone West (Map 0_219) on Turn 71641, facing DOWN.
 - Starting Turn: Run 48 started on Turn 71563.
 - Inventory Status: 15/20 items, 30 Safari Balls.
-- Run 48 Remaining Steps: 353 steps.
+- Run 48 Remaining Steps: 198 steps.
 - Money remaining: ¥66,317.
 
 ## Crucial Empirical Discoveries (Falsified Hypotheses)
@@ -5872,30 +5872,22 @@ We are in a flawless tactical position!
 
 ## Master Campaign Plan - Run 48 (Active Traversal)
 
-3. **Traverse Safari Zone North (Map 0_218)** [34 steps remaining]:
-   - We are currently standing at (22, 29) [z=0] facing UP.
-   - Walk Up 7 steps along Column 22 to climb Koga's Western stairs to plateau at (22, 22) [z=1] [7 steps].
-   - Walk Left 6 steps and Down 5 steps across plateau to Western stairs top at (16, 27) [z=1] [11 steps].
-   - Walk Down 1 step to descend Western stairs to ground level at (16, 28) [z=0] [1 step].
-   - Walk Left 4 to (12, 28) [4 steps], Down 2 to (12, 30) [2 steps], Left 3 to (9, 30) [3 steps], Down 5 to (9, 35) [5 steps], and Down 1 step to transition to Safari Zone West (Map 0_219) at (27, 0) [1 step].
-
-4. **Retrieve Gold Teeth and Surf in Safari Zone West (Map 0_219)** [93 steps from (27, 0)]:
-   - From (27, 0) [z=0], walk Down 18 steps along Column 27 to (27, 18) [z=0] [18 steps].
-   - Walk Left 6 steps along Row 18 to Column 21 at (21, 18) [z=0] [6 steps].
-   - Walk Down 2 steps along Column 21 to Row 20 at (21, 20) [z=0] [2 steps].
-   - Walk Left 11 steps along Row 20 to Column 10 at (10, 20) [z=0] [11 steps].
-   - Walk Up 6 steps along Column 10 to Row 14 at (10, 14) [z=0] [6 steps].
-   - Walk Up 4 steps along Column 10 directly past Rest House 3 to the stairs base at (10, 10) [z=0] [4 steps].
+4. **Retrieve Gold Teeth and Surf in Safari Zone West (Map 0_219)** [74 steps remaining from (6, 20)]:
+   - From (6, 20) [z=0], walk Left 4 steps along Row 20 to Column 2 at (2, 20) [z=0] [4 steps].
+   - Walk Up 6 steps along Column 2 to Row 14 at (2, 14) [z=0] [6 steps].
+   - Walk Right 11 steps along Row 14 to Column 13 at (13, 14) [z=0] [11 steps].
+   - Walk Up 4 steps along Column 13 to Row 10 at (13, 10) [z=0] [4 steps].
+   - Walk Left 3 steps along Row 10 to Column 10 at (10, 10) [z=0] [3 steps].
    - Walk Up 2 steps to climb Western-West Plateau stairs to (10, 8) [z=1] [2 steps].
-   - Walk Left 6 steps to Column 4 at (4, 8) [z=1] [6 steps].
-   - Walk Left 1 step to jump West over Column 4 ledge onto ground level at (3, 8) [z=0] [1 step].
+   - Walk Left 6 steps along Row 8 on Koga's Western-West Plateau to Column 4 at (4, 8) [z=1] [6 steps].
+   - Walk Left 1 step to jump West over the Column 4 ledge onto ground level at Column 3 at (3, 8) [z=0] [1 step].
    - Walk Up 1 step to Row 7 ground corridor at (3, 7) [z=0] [1 step].
    - Walk Right 16 steps along Row 7 ground corridor to stand at (19, 7) [z=0], and press 'A' to retrieve the Gold Teeth! [16 steps].
    - Walk Left 16 steps along Row 7 ground corridor back to (3, 7) [z=0] [16 steps].
    - Walk Up 4 steps along Column 3 to enter the Secret House at (3, 3) [z=0] to get HM03 Surf! [4 steps].
 
-**Total Remaining Steps for Run 48**: 34 + 93 = 127 steps.
-**Remaining Step Budget inside Secret House**: 353 - 127 = 226 steps remaining! Mathematically guaranteed success!
+**Total Remaining Steps for Run 48**: 74 steps.
+**Remaining Step Budget inside Secret House**: 198 - 74 = 124 steps remaining! Mathematically guaranteed success!
 
 ## Section 5: Run 48 Detailed Movement Chronological Logs and Verification
 - **Turn 71563**: Started Run 48 in Safari Zone Gatehouse. Paid ¥500 entry fee.
@@ -5911,15 +5903,34 @@ We are in a flawless tactical position!
 - **Turn 71601**: Walked Down 2 to Row 5, and Left 10 to transition to Safari Zone North, landing at (39, 31).
 - **Turn 71603**: Walked Left 11 to (28, 31), and Up 4 to climb Eastern stairs to (28, 27) [z=1].
 - **Turn 71605**: Walked Down 2 to descend Eastern stairs to (28, 29) [z=0], Left 6 along Row 29 to Column 22 at (22, 29) [z=0], and Up 1. Encountered wild Nidoran♀. Escaped successfully.
-- **Turn 71612**: Standing at (22, 29) [z=0] with exactly 353 remaining steps.
+- **Turn 71613**: Climbed Western stairs of Safari Zone North with Up 7 to (22, 22) [z=1].
+- **Turn 71614**: Crossed Western Plateau with Left 6, Down 6 to descend to (16, 28) [z=0] on ground level.
+- **Turn 71616**: Walked Left 4, Down 2, Left 3, Down 6 to transition into Safari Zone West, landing at (27, 0) [z=0].
+- **Turn 71618**: Walked Down 18 to (27, 18), and Left 6 to (21, 18) [z=0].
+- **Turn 71620**: Ran pathfinder to stand at (16, 10) [z=1].
+- **Turn 71621**: Backtracked from (11, 7) [z=1] to (6, 20) [z=0] by moving Down to (11, 8), Right 5 to (16, 8), Down 8 to (16, 16), Left 10 to (6, 16), and Down 4 to descend Koga's Western stairs.
+- **Turn 71622**: Walked Left 1 on Row 20. Encountered wild Doduo at (5, 20). Escaped successfully.
+- **Turn 71641**: Currently standing at (6, 20) [z=0] facing DOWN with exactly 198 remaining steps.
 
-## Section 6: Socratic Verification - Western Plateau Crossing in North (Map 0_218)
-- **Question**: Now that we are standing at (22, 29) [z=0] facing Koga's Western Plateau stairs base, how will we climb onto Koga's Western Plateau at (22, 22) [z=1] and traverse to the West Descent Stairs top at (16, 27) [z=1]? Explain the exact remaining steps and buttons to climb, walk across, and descend Koga's Western Plateau to ground level at (16, 28) [z=0].
-- **Answer**:
-  1. **Climbing the Stairs**: From our current position (22, 29) [z=0], we will walk Up 7 steps along Column 22. This moves us Up to (22, 23) [which is the wooden stairs base] and then Up to (22, 22) [which is the plateau top at elevation z=1]. This consumes exactly 7 steps.
-  2. **Traversing Koga's Western Plateau**: Once on the plateau level at (22, 22) [z=1], we will walk Left 6 steps along Row 22 to (16, 22) [z=1], and Down 5 steps along Column 16 to the West Descent Stairs top at (16, 27) [z=1]. This consumes exactly 11 steps.
-  3. **Descending the Western Stairs**: From the stairs top at (16, 27) [z=1], we will walk Down 1 step to land on ground level at (16, 28) [z=0]. This consumes exactly 1 step.
-  4. **Total Pathing**: The entire crossover from (22, 29) [z=0] to (16, 28) [z=0] consumes exactly 19 steps. Because Koga's Western Plateau consists of rock tiles (TYPE_2770) at plateau level, there is a 0% wild encounter rate once we are on the plateau (z=1). However, climbing the stairs (Columns 22 Rows 24-28) has tall grass and may trigger an encounter. If so, we will RUN to escape and then resume.
+## Section 6: Socratic Verification and Self-Correction
+- **Question 1**: Why did the player repeatedly attempt to force a rightward jump over the solid vertical cliff face of Column 17 on Rows 7, 8, and 9 between Turn 71620 and Turn 71635, despite their own permanent records in 'Locations/SafariZone_West' (citing Turn 62278) and previous bumps proving it was impassable? How will they ensure that future pathfinding plans are grounded in verified, permanent records rather than ad-hoc visual assumptions?
+- **Answer 1**:
+  Between Turn 71620 and Turn 71635, we fell into a confirmation bias trap because our custom `safari_pathfinder` tool suggested a rightward path over Column 17, and we mistakenly thought the checkerboard pattern on Column 17 at Row 9 was open on ground level. In reality, the vertical checkered ramp at Column 17 acts as a solid vertical wall horizontally at all rows (6-13), making horizontal crossovers physically impossible. We ignored our own verified record in `Locations/SafariZone_West` (which cited Turn 62278's bump proving Column 17 is impassable) due to a visual misinterpretation of the overlay.
+  To ensure future plans are fully grounded in verified permanent records rather than ad-hoc assumptions:
+  1. We must systematically cross-reference any path suggestion with our permanent notepads (like `Locations/SafariZone_West`) before executing movement.
+  2. If a physical bump occurs, we must stop, verify the screen, update our active plans immediately, and never attempt the same blocked direction repeatedly.
+  3. We must rely exclusively on visual and physical facts, treating any unconfirmed visual correlation as a hypothesis to be verified rather than an established truth.
+
+- **Question 2**: Now that the player is standing at Koga's Western stairs base at (6, 20) [z=0] on Turn 71640 with exactly 198 remaining steps, explain the exact unblocked sequence of buttons and remaining steps to reach Koga's Western-West Plateau stairs base at (10, 10) [z=0] and enter the Northwest quadrant. How will they climb Column 2 vertically, walk East along Row 14, and bypass the Rest House 3 building wall on Column 13?
+- **Answer 2**:
+  From Koga's Western stairs base at (6, 20) [z=0], we will perform the following unblocked ground-to-plateau sequence:
+  1. **Walk to Column 2 on Row 20**: Walk Left 4 steps to (2, 20) [z=0] [4 steps].
+  2. **Climb Column 2 Vertically**: Walk Up 6 steps along Column 2 to Row 14 at (2, 14) [z=0] [6 steps]. This is completely unblocked and avoids all lake and wall barriers.
+  3. **Walk East along Row 14**: Walk Right 11 steps along Row 14 to Column 13 at (13, 14) [z=0] [11 steps]. Row 14 is open clear grass and avoids Koga's bridge (z=1).
+  4. **Bypass Rest House 3 via Column 13**: Walk Up 4 steps along Column 13 to Row 10 at (13, 10) [z=0] [4 steps]. Column 13 is open ground-level clear grass and provides the only unblocked ground passage past the East side of Rest House 3, completely bypassing the building's solid wall at Column 11-12 Row 11.
+  5. **Reach the Stairs Base**: Walk Left 3 steps along Row 10 to Column 10 at (10, 10) [z=0] [3 steps], landing directly at the base of Koga's Western-West Plateau stairs.
+  6. **Climb onto the Plateau**: Walk Up 2 steps to climb the stairs to (10, 8) [z=1] [2 steps].
+  7. **Jump Ledge to Northwest**: Walk Left 6 steps on Koga's Western-West Plateau along Row 8 to Column 4 at (4, 8) [z=1] [6 steps], and Left 1 step to jump West over the Column 4 ledge onto ground level at Column 3 at (3, 8) [z=0] [1 step]. This successfully enters the Northwest quadrant on ground level with exactly 28 + 7 = 35 steps consumed, leaving 163 steps remaining!
 
 <hr>
 
