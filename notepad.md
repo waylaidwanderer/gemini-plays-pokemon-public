@@ -6563,7 +6563,7 @@ We have successfully completed our victory run and obtained BOTH critical progre
 - **Switches & Gates**:
   - Statue 1: (TBD, TBD) | State: [ ] Default
 - **Items**:
-  - Item A: (TBD, TBD) | State: [ ] Uncollected
+  - Escape Rope: (14, 3) | State: [x] Collected (Turn 74964)
 - **Trainers**:
   - Trainer 1: (TBD, TBD) | State: [ ] Undefeated
 
