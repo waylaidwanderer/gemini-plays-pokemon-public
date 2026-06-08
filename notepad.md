@@ -3528,6 +3528,7 @@ Verified connectivity between Safari Zone areas in Pokémon Blue:
 
 ### Run 20 Ground Level Basin Discoveries (Turns 54112-54146)
 - **Water Lake Columns 8-11 (Rows 8-13)**: Physically verified that Columns 8, 9, 10, and 11 are blocked by water on Rows 10-13, preventing direct northward ground traversal from Column 8-10. (Verified on Turns 54131-54146)
+- **Southern Lake Columns 8-11 (Rows 24-29)**: Empirically verified via screen analysis on Turn 71305 that Columns 8, 9, 10, and 11 are blocked by deep water of TYPE_4e8c on Rows 24 to 29, meaning the southern corridor is blocked horizontally here on the ground.
 - **Water Lake Columns 4-7 (Rows 14-18)**: Visually verified that Columns 4, 5, 6, and 7 are blocked by water on Rows 14-18. (Verified on Turn 54146)
 - **North-South Corridor Column 12**: Column 12 is completely passable of grass (TYPE_fed7) from Row 10 to Row 14, serving as the sole ground connection bypassing the lake between the northern pocket (Row 6) and the southern corridor (Row 14-18). (Verified on Turns 54139-54145)
 - **Horizontal Row 14 Connection**: Row 14 is completely open and passable from Column 12 (tall grass) to Column 8 (clear ground), allowing direct access to the western ground level from Column 12. (Verified on Turn 54146)
