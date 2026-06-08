@@ -532,3 +532,32 @@
     - Remaining steps: 11 - 2 = **9 remaining steps** inside the Secret House when Surf is obtained!
 - **Victory Margin**:
   - We have exactly **9 steps of margin** inside the Secret House when securing HM03 Surf, guaranteeing a flawless victory in Run 51!
+
+# Socratic Answers - Safari Zone East Plateau Climb & Southern Passage (Turn 72906)
+
+## 1. Socratic Question 1: Southern Passage Plateau Climb Sequence & Step Math
+- **Starting State (Turn 72900)**: Standing at (17, 24) [z=0] facing DOWN with exactly 429 steps remaining in RAM.
+- **Path to climb Koga's Eastern stairs to (20, 20) [z=1]**:
+  1. Walk UP 2 steps from (17, 24) [z=0] to (17, 22) [z=0] -> **2 steps**.
+     - (17, 24) -> (17, 23) -> (17, 22) (All clear grass TYPE_3fe2).
+     - Steps remaining: 429 - 2 = **427 remaining steps**.
+  2. Walk RIGHT 3 steps along Row 22 from (17, 22) [z=0] to (20, 22) [z=0] -> **3 steps**.
+     - (17, 22) -> (18, 22) -> (19, 22) -> (20, 22) (Tall grass TYPE_fed7).
+     - Steps remaining: 427 - 3 = **424 remaining steps**.
+  3. Walk UP 2 steps from (20, 22) [z=0] to climb Koga's Eastern stairs to (20, 20) [z=1] -> **2 steps**.
+     - (20, 22) [z=0] -> (20, 21) [wooden stairs TYPE_4b8d] -> (20, 20) [plateau level z=1, TYPE_2770].
+     - Steps remaining: 424 - 2 = **422 remaining steps**.
+- **Mathematical Feasibility**: This segment takes exactly 7 overworld steps, ending at (20, 20) [z=1] with exactly 422 remaining steps in RAM. This has been empirically executed and verified on Turn 72906.
+
+## 2. Socratic Question 2: Koga's Southern Passage & Row 22 Bypass Corridor
+- **Why (17, 23) is the only vertical ground-level opening**:
+  - In Safari Zone East, Row 23 is occupied by a solid horizontal tree wall of TYPE_2889 spanning Columns 8 to 16.
+  - Additionally, Column 6 is completely blocked by solid tree barriers on Rows 18-23, isolating the far-western ground corridor from the central ground area.
+  - However, Column 17 Row 23 is open clear grass (TYPE_3fe2) and Column 17 Row 22 is open clear grass (TYPE_3fe2). This provides the *only* functional, unblocked vertical gap in the entire Row 23 tree barrier to cross from the southern grass corridor (Row 24) to the Row 22 bypass channel.
+- **Row 22 bypass mechanics**:
+  - Although Row 22 Column 16 is blocked by solid trees of TYPE_2889 (preventing horizontal traversal from the West), the opening at (17, 22) allows us to enter Row 22 East of Column 16.
+  - Once on Column 17, Row 22 is completely open and passable horizontally to the East, enabling a direct horizontal pathway to Column 20 (the base of Koga's Eastern stairs at (20, 21)).
+  - This horizontal bypass corridor avoids having to make a massive ground detour all the way around Column 9, saving over 15 steps of our limited Safari Zone step budget.
+- **Citations from 'Locations/SafariZone_East'**:
+  - "Solid tree walls Row 23/22 discovered on Col 8-16 are blocked."
+  - "Column 17 Southern Passage Discovery: Column 17 Row 23 is open clear grass (TYPE_3fe2), and Column 17 Row 22 is open clear grass (TYPE_3fe2), creating a vertical ground-level opening. Row 22 Column 16 is a solid tree wall (TYPE_2889), which prevents horizontal traversal on Row 22 on the West side of Column 17."
