@@ -111,3 +111,12 @@
   - **Obedience Level**: Traded Pokémon up to **Level 70** will obey the player.
 - **Earth Badge**: Obtained from Giovanni (Viridian City).
   - **Obedience Level**: All traded Pokémon will obey the player regardless of level.
+
+## Permanent Strength & Boulder Mechanics (Verified Turns 74245-74267)
+- **Activating STRENGTH**: Can be selected from the POKéMON party options for a Pokémon that knows STRENGTH (e.g., ROCKY/GEODUDE).
+  - *Confirming Textbox*: The game displays: `[Name] used STRENGTH.` followed by `[Name] can move boulders.`
+- **Pushing Boulders**: Once STRENGTH is active, the player can push boulders (e.g., at (8, 4)) by walking directly into them from an adjacent tile (e.g., standing at (7, 4) facing Right and pressing Right).
+  - *Movement*: The boulder slides exactly 1 tile in the direction pushed.
+- **Deactivation & Reset Rules**:
+  - *Map Transition Reset*: Exiting and re-entering the map (e.g., leaving the Warden's House to Fuchsia City and immediately re-entering) **fully resets** all boulders to their default starting coordinates (e.g., back to (8, 4)).
+  - *Strength State Reset*: Map transition **fully deactivates** the overworld STRENGTH state. If the player re-enters the map, they must manually reactivate STRENGTH from the POKéMON menu to push any boulders again, even if they have already activated it during that play session.
