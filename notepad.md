@@ -6367,6 +6367,10 @@ We have successfully completed our victory run and obtained BOTH critical progre
 - **Inventory Cleanup Protocol**: Before entering Cinnabar Mansion, we must free up inventory space to accommodate the Secret Key and various TMs/items inside.
   - *Current bag slots*: 19/20 filled.
   - *Deposit Plan (at Cinnabar PC)*: Deposit HM03, HM04, TM06, TM21, TM40, CARBOS, RARE CANDY, and TOWN MAP. This will reduce our filled slots from 19 to 11, leaving 9 open slots for mansion items.
+  - *HM Overworld Move Verification Protocol (Turn 74802)*: Before fully committing to depositing HM03/HM04, we must empirically verify whether overworld HM moves (specifically SURF) can still be executed if the physical HM item is stored in the PC.
+    - **Step 1**: Reach Cinnabar Pokémon Center, access the PC, and deposit HM03 (SURF) and HM04 (STRENGTH).
+    - **Step 2**: Exit the Pokémon Center, walk to the shoreline, and attempt to use BLASTOISE's SURF move from the POKéMON party menu.
+    - **Step 3**: If SURF executes successfully and we can move onto water, the hypothesis is confirmed. We can safely keep the HMs in the PC to maximize our bag slots. If not, we must withdraw HM03/HM04 immediately. This prevents any risk of softlocks or being unable to leave the island.
 - **PP & HP Management**:
   - Heal the party fully at the Cinnabar Pokémon Center to restore all HP and PP.
   - Keep 7 Hyper Potions and 1 Full Restore in our bag for mid-exploration healing.
