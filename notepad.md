@@ -5807,7 +5807,9 @@ Since we only have 125 steps remaining on Run 46, we will DIG out immediately on
    - Walk Down 1 step to descend East stairs at (17, 7) to ground level at (17, 8) [z=0] [1 step].
    - Walk Right 3 steps to Column 20 at (20, 8) [3 steps].
    - Walk Up 5 steps along Column 20 to (20, 3) [5 steps].
-   - Walk Left 20 steps along Row 3 to (0, 3) and transition to Safari Zone North [20 steps].
+   - Walk Left 11 steps to (9, 3) [11 steps].
+   - Walk Down 2 steps to (9, 5) [2 steps].
+   - Walk Left 9 steps along Row 5 to (0, 5) and transition to Safari Zone North [9 steps].
 
 3. **Traverse Safari Zone North (Map 0_218)** [84 steps]:
    - Enter at (39, 31). Walk along Row 31 to (28, 31) [11 steps].
