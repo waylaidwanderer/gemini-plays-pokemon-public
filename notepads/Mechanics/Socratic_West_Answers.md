@@ -502,3 +502,33 @@
 - **How to reach the Northwest Quadrant**: Backtracking from the East side to the West side is mandatory. From our current position (24, 14), we must walk back to Row 18, walk Left to (21, 18), climb Koga's Eastern stairs to (21, 16) [z=1], and traverse Koga's bridge at z=1. Once on Koga's bridge, we can walk Up along Column 16 on the plateau. Wait! Since we cannot jump East over Column 17, is the Northwest quadrant accessible on foot?
   - Yes! We must enter Safari Zone West from Safari Zone North at Columns 0-4 on Row 35, which transitions us directly into the Northwest quadrant of Safari Zone West at (18-22, 0) [z=0], completely on the West side of the Column 24 tree partition wall.
   - In Safari Zone North, the bottom-left ground-level corridor at Columns 0-3 on Row 35 is accessible via climbing onto Koga's Western Plateau, crossing horizontally, and descending Koga's Western stairs. This is the canonical path!
+
+# Socratic Answers - Koga's East Ledge-Jump & Run 51 Victory Path (Turn 72815)
+
+## 1. Socratic Question 1: Checkered Ramp Ledge-Jump Mechanics
+- **How Koga's vertical ramp behaves as an East-facing ledge**:
+  - The checkered vertical ramp at Column 17 Row 9 (17, 9) connects Koga's Western Plateau (elevation z=1, Column 16) to the lower ground level (elevation z=0, Column 18).
+  - In Generation 1, this checkered ramp behaves symmetrically to a standard overworld ledge but is oriented horizontally (East-facing).
+  - Walking Right (East) from (16, 9) [z=1] onto (17, 9) triggers a horizontal "ledge jump" downward, automatically passing over the ramp tile (17, 9) and landing safely on ground-level grass at (18, 9) [z=0].
+  - This horizontal descent consumes exactly 1 step and is completely unblocked.
+
+## 2. Socratic Question 2: Exact Button Sequence and Step-by-Step Math
+- **Segment 1: Reach Warden's Gold Teeth at (19, 7)**:
+  - From (16, 9) [z=1], walk Right 1 step to jump East over Column 17 to (18, 9) [z=0] -> **1 step**.
+    - Remaining steps: 33 - 1 = **32 remaining steps**.
+  - Walk Right 1 step: (18, 9) -> (19, 9) [z=0] -> **1 step**.
+    - Remaining steps: 32 - 1 = **31 remaining steps**.
+  - Walk Up 1 step: (19, 9) -> (19, 8) [z=0] (facing UP, directly adjacent to the teeth Pokéball at 19, 7) -> **1 step**.
+    - Remaining steps: 31 - 1 = **30 remaining steps**.
+  - Press 'A' to collect Warden's Gold Teeth. (0 steps).
+- **Segment 2: Reach Secret House at (3, 3)**:
+  - Walk Up 1 step: (19, 8) -> (19, 7) [z=0] (passable ground now that item is collected) -> **1 step**.
+    - Remaining steps: 30 - 1 = **29 remaining steps**.
+  - Walk Up 2 steps: (19, 7) -> (19, 5) [z=0] -> **2 steps**.
+    - Remaining steps: 29 - 2 = **27 remaining steps**.
+  - Walk Left 16 steps along the Row 5 corridor: (19, 5) -> (3, 5) [z=0] -> **16 steps**.
+    - Remaining steps: 27 - 16 = **11 remaining steps**.
+  - Walk Up 2 steps along Column 3 to enter the Secret House: (3, 5) -> (3, 3) [z=0] -> **2 steps**.
+    - Remaining steps: 11 - 2 = **9 remaining steps** inside the Secret House when Surf is obtained!
+- **Victory Margin**:
+  - We have exactly **9 steps of margin** inside the Secret House when securing HM03 Surf, guaranteeing a flawless victory in Run 51!
