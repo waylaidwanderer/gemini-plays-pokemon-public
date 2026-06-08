@@ -1,11 +1,11 @@
-# Safari Zone Exploration - Run 52 (Turn 73024 - Active)
-- Current Status: Standing at (16, 22) [z=1] inside Safari Zone North (Map 0_218) on Turn 73024, facing LEFT with exactly 260 remaining steps in RAM.
+# Safari Zone Exploration - Run 52 (Turn 73032 - Active)
+- Current Status: Standing at (16, 27) [z=1] inside Safari Zone North (Map 0_218) on Turn 73032, facing DOWN with exactly 255 remaining steps in RAM.
 - Inventory Status: 15/20 items, 30 Safari Balls.
 
 ## Master Run 52 Campaign Plan & Route (The Ultimate Double Retrieval)
 
 ### 3. Safari Zone North Traversal [45 steps] (In Progress)
-- Walk across plateau: Down 5 steps along Column 16 to reach the West Descent Stairs at (16, 27) [z=1] -> 5 steps.
+- Walk across plateau: Down 5 steps along Column 16 to reach the West Descent Stairs at (16, 27) [z=1] -> 5 steps (Completed, Turn 73032).
 - Descend Western Plateau stairs: Down 1 step to (16, 28) [z=0] -> 1 step.
 - Walk to transition: Left 4 to (12, 28) [z=0], Down 2 to (12, 30) [z=0], Left 3 to (9, 30) [z=0], Down 5 to (9, 35) [z=0] -> 14 steps.
 - Transition to Safari Zone West: Down 1 from (9, 35) -> 1 step.
