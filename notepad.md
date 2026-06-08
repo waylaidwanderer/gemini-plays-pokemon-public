@@ -6352,8 +6352,6 @@ We have successfully completed our victory run and obtained BOTH critical progre
     1. **Coordinate Directory**: List the default coordinates of all pushable boulders and pits on each floor.
     2. **Active State Logs**: For each boulder, record its current position and whether it has been successfully pushed into a pit.
     3. **Reset Monitoring**: Note that leaving the Seafoam Islands map or fainting resets all boulders to their starting coordinates. We must strictly avoid leaving the cave once we begin a multi-floor boulder puzzle until it is completed.
-- **Turn 74482**: Tested collision on Row 53 buoy barrier by pressing 'Down' from (17, 52). Walk failed (visited 0 tiles, position remained at (17, 52)). This confirms that the buoy wall on Row 53 is completely solid and impassable across Route 19.
-- **Strategic Pivot**: Since Route 19 is blocked to the South, we will pivot to Route 21. We will use FLY to travel to Pallet Town, then use SURF on the water at the southern edge of Pallet Town to proceed south to Cinnabar Island.
 
 ## Cinnabar Gym Blaine Matchup Preparation Strategy
 - **Opponent Profile**: Gym Leader Blaine utilizes a Fire-type lineup (typically Growlithe, Ponyta, Rapidash, Arcanine, all around Level 42-47).
@@ -6366,7 +6364,6 @@ We have successfully completed our victory run and obtained BOTH critical progre
     - *Utility*: While even more powerful (effective base power 360), its 80% accuracy introduces unnecessary miss risk. We will only use this if SURF PP is fully depleted.
   - **Priority Move 3: DIG** (Ground, Physical, Power 100, 100% Accuracy).
     - *Utility*: Ground is also 2x super-effective against Fire, but in Gen 1 DIG is a 2-turn move, giving opponents a turn to act or use status moves. SURF is infinitely more efficient.
-- **Turn 74578**: Decided to perform a quick FLY healing run to Fuchsia City. SPARKY's Thunderbolt is at 0 PP and he is at 32/65 HP. Healing at Fuchsia Pokémon Center (lands at 19, 28, center door is 19, 27) and then FLY back to Pallet Town (lands at 5, 6) to resume Route 21 South traversal with a fully healthy SPARKY to sweep swimmers.
 
 <hr>
 
