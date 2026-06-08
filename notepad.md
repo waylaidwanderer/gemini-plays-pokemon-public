@@ -5791,11 +5791,11 @@ We are in a flawless tactical position!
 
 <h1><code>Scratchpad/SafariZone_Run47_Route</code></h1>
 
-# Safari Zone West Exploration - Run 47 (Turn 71509 - Active)
-- Current Status: Standing at (27, 1) in Safari Zone West (Map 0_219) on Turn 71509, facing DOWN.
+# Safari Zone West Exploration - Run 47 (Turn 71513 - Active)
+- Current Status: Standing at (25, 7) in Safari Zone West (Map 0_219) on Turn 71513, facing LEFT.
 - Starting Turn: Run 47 started on Turn 71029.
 - Inventory Status: 15/20 items, 30 Safari Balls.
-- Run 47 Remaining Steps: 86 steps.
+- Run 47 Remaining Steps: 66 steps.
 - Money remaining: ¥66,817.
 
 ## Crucial Empirical Discoveries (Falsified Hypotheses)
