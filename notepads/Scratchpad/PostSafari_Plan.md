@@ -16,3 +16,20 @@
 2. **Use SURF**: Interact with the water on Route 19 using GEMMY (L59 BLASTOISE) to begin sea travel.
 3. **Navigate to Seafoam Islands & Cinnabar Island**: Swim South along Route 19, then West along Route 20. Navigate through Seafoam Islands (Route 20) and continue West to Cinnabar Island.
 4. **Defeat Blaine**: Secure our 7th badge (Volcano Badge) at Cinnabar Gym.
+
+## Water Routes & Seafoam Islands Strategic Plans (Turn 74313)
+- **Water Combat Tactical Plan**:
+  - *GEMMY (Level 59 BLASTOISE)*:
+    - **BITE**: Physical Normal-type in Gen 1. Deals neutral, extremely high damage against Water-types. This is our primary, reliable "brute-force" sweeping move.
+    - **DIG**: Physical Ground-type in Gen 1. Deals 2x super-effective damage against Poison/Water dual-types (e.g., Tentacool, Tentacruel), which are extremely common on these routes!
+  - *SPARKY (Level 25 PIKACHU)*:
+    - **THUNDERBOLT**: Electric-type special move. Deals 2x super-effective damage against all Water-types.
+    - **THUNDER WAVE**: Useful for paralyzing faster or high-level wild Pokémon/trainers.
+    - *Training Strategy*: Since water routes are packed with Swimmers and Water-types, this is the perfect opportunity to level up SPARKY. We can switch-train SPARKY or lead with him against trainers to net massive super-effective EXP, using GEMMY's physical BITE/DIG as a robust safety net.
+
+- **Seafoam Islands Systematic Puzzle Tracking Pattern**:
+  - We will create a dedicated notepad `Locations/SeafoamIslands` upon entry.
+  - To prevent getting lost, disoriented, or accidentally resetting solved puzzle rooms, we will systematically track our state floor-by-floor (1F, B1F, B2F, B3F, B4F):
+    1. **Coordinate Directory**: List the default coordinates of all pushable boulders and pits on each floor.
+    2. **Active State Logs**: For each boulder, record its current position and whether it has been successfully pushed into a pit.
+    3. **Reset Monitoring**: Note that leaving the Seafoam Islands map or fainting resets all boulders to their starting coordinates. We must strictly avoid leaving the cave once we begin a multi-floor boulder puzzle until it is completed.
