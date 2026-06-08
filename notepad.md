@@ -2057,6 +2057,14 @@ TM28 Dig is a 100 power Ground-type physical move in Generation 1.
   2. Use **CUT** (e.g., from PETAL) to clear the tree at (35, 32).
   3. Walk Down through the cleared tile into the southern garden on Row 33.
   4. Walk West along the southern grass path (Rows 33-34) all the way back to Column 12 to reach Celadon Gym's front entrance.
+- **Gym Entrance Passage (Verified Turn 74058)**:
+  - **Hedge Barrier details**: Row 31 contains an impassable fence (TYPE_44f6) across Columns 6 to 17. Attempting to walk north through (12, 31) on Turn 74052 failed due to collision.
+  - **Bypass Opening**: An opening is located at **(5, 31)**, which is walkable grass (**TYPE_3fe2**).
+  - **Gym Access Steps**:
+    1. From the southern grass field, navigate to **(5, 32)**.
+    2. Walk North through the opening at **(5, 31)** to reach **(5, 30)**.
+    3. Walk East along Row 30 to Column 12.
+    4. Walk North up Column 12 through Row 29 and Row 28 to reach the Gym Entrance warp at **(12, 27)**.
 
 <hr>
 
