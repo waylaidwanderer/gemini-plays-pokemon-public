@@ -6024,7 +6024,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 <h1><code>Scratchpad/SafariZone_Run53_Route</code></h1>
 
 # Safari Zone Exploration - Run 53 (Turn 73387 - Active)
-- Current Status: Standing at (12, 3) [z=0] inside Safari Zone East (Map 0_217) on Turn 73452, facing LEFT with exactly 369 remaining steps in RAM.
+- Current Status: Standing at (8, 3) [z=0] inside Safari Zone East (Map 0_217) on Turn 73457, facing LEFT with exactly 365 remaining steps in RAM.
 - Inventory Status: 15/20 items, 30 Safari Balls.
 
 ## Master Run 53 Victory Campaign Plan (The Ultimate Single-Run Guarantee)
