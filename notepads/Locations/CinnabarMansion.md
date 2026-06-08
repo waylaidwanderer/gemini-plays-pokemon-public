@@ -39,11 +39,11 @@
 
 ## 3F: Third Floor Exploration State
 - **Stairs**:
-  - Down to 2F: (TBD, TBD)
+  - Down to 2F: Located at (7, 10) (Verified Turn 75056)
 - **Switches & Gates**:
   - Statue 3: (TBD, TBD) | State: [ ] Default
 - **Falls/Pits**:
-  - Pit A (The Secret Fall): (TBD, TBD) -> Drops directly to B1F!
+  - Pit A (The Secret Fall): (11, 12) | State: Static Pit (Verified Turn 75091)
 
 ---
 
