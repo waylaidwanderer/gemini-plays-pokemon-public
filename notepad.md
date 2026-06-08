@@ -5813,16 +5813,10 @@ We are in a flawless tactical position!
    - Walk Down 2 steps to (9, 5) [2 steps].
    - Walk Left 9 steps along Row 5 to (0, 5) and transition to Safari Zone North [9 steps].
 
-3. **Traverse Safari Zone North (Map 0_218)** [71 steps from (18, 10)]:
-   - We are currently at (13, 27) [z=0].
-   - Walk Down 3 to (13, 30) [3 steps].
-   - Walk Left 1 to (12, 30) [1 step].
-   - Walk Down 2 to (12, 32) [2 steps].
-   - Walk Left 8 along Row 32 to (4, 32) [8 steps].
-   - Walk Up 6 along Column 4 to (4, 26) [6 steps].
-   - Walk Left 1 to (3, 26) [1 step].
-   - Walk Up 23 along Column 3 to (3, 3) [23 steps].
-   - Walk Left 3 to (0, 3) and transition to Safari Zone West [3 steps].
+3. **Traverse Safari Zone North (Map 0_218)** [7 steps from (6, 32)]:
+   - We are currently at (6, 32) [z=0].
+   - Walk Right 3 along Row 32 to Column 9 at (9, 32) [3 steps].
+   - Walk Down 4 along Column 9 to transition to Safari Zone West (Map 0_219) at (27, 0) [4 steps].
 
 4. **Retrieve Gold Teeth and Surf in Safari Zone West (Map 0_219)** [34 steps]:
    - Enter West at (29, 3) [z=0].
