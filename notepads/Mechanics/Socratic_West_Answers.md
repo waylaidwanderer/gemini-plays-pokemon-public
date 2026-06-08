@@ -488,3 +488,17 @@
 ## 2. Socratic Question 2 (Safari Zone North Column 5 Ground Barrier)
 - **Why we bumped on Turn 71393**: On Turn 71393, we attempted to walk Left from (6, 32) and bumped against a solid tree wall of TYPE_2889 at (5, 32).
 - **Physical Proof**: This collision, combined with verified tree wall obstacles on Column 5 (Rows 20-31) and solid building/shack walls at Columns 4-7 (Rows 34-35), proves that Column 5 forms a continuous, impassable vertical barrier on ground level z=0 across Rows 20-33. This completely isolates the Eastern ground basin from the Western ground corridor on foot, making climbing the plateau at (22, 23) strictly mandatory to traverse between them.
+
+## 3. Socratic Question 3 (Column 24 Ground Detour Failure & True Map Traversability)
+- **Why we bumped on Turn 71511 and 71516**: 
+  - On Turn 71511, standing at (25, 13) [z=0], we bumped when attempting to walk Left horizontally into (24, 13) (TYPE_2889).
+  - On Turn 71516, standing at (24, 14) [z=0] facing Left, we bumped when attempting to walk Left horizontally into (23, 14) (TYPE_2889).
+- **Physical Explanation**:
+  - Column 24 on Rows 0-13 is completely blocked by a solid, continuous tree wall of TYPE_2889.
+  - Column 23 on Rows 14-17 is occupied by Koga's Eastern Plateau, whose elevated eastern cliff boundary acts as a solid, impassable wall at ground level z=0.
+  - Consequently, ground level z=0 on Map 0_219 is completely divided into two physically isolated halves (North and South) by Koga's plateau, bridge, water bodies, building walls, and the Column 24 tree partition wall. Bypassing Koga's bridge vertically on ground level is completely impossible.
+- **The Only Open Ground-Level Crossing**: The only continuous, open ground-level horizontal pathway crossing Column 24 lies on Row 18.
+- **The Mandatory Plateau Crossover**: Because crossing on Row 18 places the player on the South side of Koga's bridge, and there is no ground-level vertical path to the North side, the player *must* climb the Eastern stairs at (21, 17) [stairs] onto Koga's Eastern Plateau at (21, 16) [z=1] and traverse Koga's bridge at plateau level (elevation z=1) to navigate between the South and North halves of Safari Zone West on foot.
+- **How to reach the Northwest Quadrant**: Backtracking from the East side to the West side is mandatory. From our current position (24, 14), we must walk back to Row 18, walk Left to (21, 18), climb Koga's Eastern stairs to (21, 16) [z=1], and traverse Koga's bridge at z=1. Once on Koga's bridge, we can walk Up along Column 16 on the plateau. Wait! Since we cannot jump East over Column 17, is the Northwest quadrant accessible on foot?
+  - Yes! We must enter Safari Zone West from Safari Zone North at Columns 0-4 on Row 35, which transitions us directly into the Northwest quadrant of Safari Zone West at (18-22, 0) [z=0], completely on the West side of the Column 24 tree partition wall.
+  - In Safari Zone North, the bottom-left ground-level corridor at Columns 0-3 on Row 35 is accessible via climbing onto Koga's Western Plateau, crossing horizontally, and descending Koga's Western stairs. This is the canonical path!
