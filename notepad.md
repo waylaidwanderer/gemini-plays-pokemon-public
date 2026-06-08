@@ -5805,12 +5805,12 @@ We are in a flawless tactical position!
 
 <h1><code>Scratchpad/SafariZone_Run48_Route</code></h1>
 
-# Safari Zone West Exploration - Run 49 (Turn 71770 - Active)
-- Current Status: Standing at (3, 2) in Safari Zone Gatehouse (Map 0_156) on Turn 71770, facing UP with the Gatekeeper dialogue on screen.
+# Safari Zone West Exploration - Run 49 (Turn 71823 - Active)
+- Current Status: Standing at (9, 22) in Safari Zone East (Map 0_217) on Turn 71823, facing LEFT with exactly 409 remaining steps in RAM.
 - Starting Turn: Run 49 starting.
 - Inventory Status: 15/20 items, 30 Safari Balls.
-- Run 49 Remaining Steps: 500 steps (once inside).
-- Money remaining: ¥66,317.
+- Run 49 Remaining Steps: 409 steps remaining.
+- Money remaining: ¥65,817.
 
 ## Crucial Empirical Discoveries (Falsified Hypotheses)
 - **Column 17 Ledge Jump (FALSIFIED)**: On Turn 70949, we stood at (16, 12) [z=1] facing Up and pressed Right twice. Result: Direct collision (bump), remaining at (16, 12). This physically proves that checkered vertical ramps (Column 17) act as solid vertical walls horizontally in Gen 1, and no sideways/horizontal ledge jumps exist.
@@ -5819,14 +5819,17 @@ We are in a flawless tactical position!
 
 ## Master Campaign Plan - Run 49 (500 steps)
 
-1. **Traverse Safari Zone Center (Map 0_220)** [28 steps]:
-   - From (15, 25), walk to (29, 11) and transition to Safari Zone East.
+1. **Traverse Safari Zone Center (Map 0_220)** [Completed in 29 steps]
 
-2. **Traverse Safari Zone East (Map 0_217)** [71 steps]:
-   - From (0, 23), walk East along Row 24 to Column 17 at (17, 24) [17 steps].
-   - Walk Up 2 steps to (17, 22) [2 steps], and East on Row 22 to Column 24 at (24, 22) [7 steps]. (Bypasses Koga's plateau cliff wall at Column 21 Row 21).
-   - Walk Up 19 steps vertically along Column 24 to Row 3 at (24, 3) [19 steps].
-   - Walk Left 24 steps horizontally along Row 3 to Column 0 at (0, 3) [24 steps] and transition to Safari Zone North [1 step].
+2. **Traverse Safari Zone East (Map 0_217)** [46 steps remaining from (9, 22)]:
+   - Currently standing at (9, 22) [z=0].
+   - Walk Up 12 steps along Column 9 to Row 10 at (9, 10) [z=0] [12 steps].
+   - Walk Right 1 step to (10, 10) [z=0] [1 step].
+   - Walk Up 2 steps along Column 10 to (10, 8) [z=0] [2 steps].
+   - Walk Left 1 step to (9, 8) [z=0] [1 step]. (This detour completely bypasses the tall grass at (9, 9) for a 0% wild encounter rate!).
+   - Walk Up 5 steps along Column 9 to Row 3 at (9, 3) [z=0] [5 steps].
+   - Walk Left 24 steps horizontally along Row 3 to Column 0 at (0, 3) [24 steps] and transition Left 1 step to Safari Zone North [1 step].
+   - **Total Remaining Steps for Safari Zone East**: 12 + 1 + 2 + 1 + 5 + 24 + 1 = 46 steps (reaches North with 363 steps remaining).
 
 3. **Traverse Safari Zone North (Map 0_218)** [57 steps]:
    - From (39, 31), walk Left along Row 31 to Column 28 at (28, 31) [11 steps].
@@ -5857,30 +5860,22 @@ We are in a flawless tactical position!
    - Walk Left 16 steps along Row 7 ground corridor back to (3, 7) [z=0] [16 steps].
    - Walk Up 4 steps along Column 3 to enter the Secret House at (3, 3) [z=0] to get HM03 Surf! [4 steps].
 
-**Total Estimated Steps for Run 49**: 28 + 64 + 57 + 113 = 262 steps.
-**Remaining Step Budget inside Secret House**: 238 steps remaining! Mathematically guaranteed success!
+**Total Estimated Steps for Run 49**: 29 + 71 + 57 + 113 = 270 steps.
+**Remaining Step Budget inside Secret House**: 230 steps remaining! Mathematically guaranteed success!
 
 ## Section 5: Run 49 Socratic Resolution & Detailed Verification
-- **Socratic Question**: Now that the player has empirically and undeniably proven that Row 11 is completely blocked across all Columns 9-14 on ground level, and Row 20 is completely blocked at Column 18 on ground level, explain the exact unblocked sequence of buttons and steps to reach the Warden's Gold Teeth at (19, 7) [z=0] and the Secret House at (3, 3) [z=0] starting from the Safari Zone West entrance at (27, 0) [z=0].
+- **Socratic Question**: Now that the player is standing at (9, 22) [z=0] on ground level facing LEFT, explain the exact unblocked sequence of buttons and remaining steps to reach the transition to Safari Zone North at (0, 5) [z=0]. How will they walk Up Column 9 to Row 3, bypass any tall grass or obstacles, and transition to Safari Zone North?
 - **Socratic Answer**:
-  Because Column 18 blocks ground-level passage along Row 20, and Column 13 Row 11 blocks passage along Row 11 on ground level, we must utilize Koga's bridge at plateau level (z=1) to traverse from the eastern side of the map to the southwest, and then use the ground-level loop to bypass Koga's bridge on the West to climb the Western-West Plateau.
-  The exact, unblocked 3D path is:
-  1. Descend from (27, 0) to (27, 18) [18 steps].
-  2. Walk Left to (21, 18) [6 steps].
-  3. Climb Koga's Eastern stairs to (21, 16) [z=1] [2 steps].
-  4. Cross Koga's bridge Left to (6, 16) [15 steps].
-  5. Move Down to (6, 19) [z=1] [3 steps] and descend Koga's Western stairs to (6, 20) [z=0] [1 step].
-  6. Walk Left to Column 2 at (2, 20) [4 steps].
-  7. Climb Column 2 Up to (2, 14) [6 steps].
-  8. Walk Right along Row 14 to Column 10 at (10, 14) [8 steps] (This optimized ground corridor is 100% open and saves 6 steps!).
-  9. Climb Column 10 Up past Rest House 3 to (10, 10) [4 steps].
-  10. Climb Western-West Plateau stairs to (10, 8) [z=1] [2 steps].
-  11. Walk Left to Column 4 at (4, 8) [6 steps].
-  12. Jump West over the ledge to (3, 8) [z=0] [1 step].
-  13. Move Up to Row 7 at (3, 7) [1 step].
-  14. Walk Right along the Row 7 corridor to the Gold Teeth at (19, 7) [16 steps].
-  15. Walk Left back to (3, 7) [16 steps] and Up 4 to enter the Secret House at (3, 3) [4 steps] to secure Surf!
-  This consumes exactly 113 overworld steps, ensuring 100% physically unblocked 3D pathing, saving 6 steps, and guaranteeing success.
+  From our current position at (9, 22) [z=0] facing LEFT, we have exactly 409 remaining steps in RAM.
+  To reach the Northwest exit at (0, 3) [z=0] while completely bypassing the tall grass wild encounter risk at (9, 9), we will execute the following unblocked ground-level sequence:
+  1. Walk Up 12 steps vertically along Column 9 to (9, 10) [z=0] [12 steps].
+  2. Walk Right 1 step to Column 10 at (10, 10) [z=0] [1 step].
+  3. Walk Up 2 steps vertically along Column 10 to Row 8 at (10, 8) [z=0] [2 steps].
+  4. Walk Left 1 step to Column 9 at (9, 8) [z=0] [1 step]. (This detour completely avoids the tall grass tile at (9, 9) on Column 9, preserving a 0% wild encounter rate).
+  5. Walk Up 5 steps vertically along Column 9 to Row 3 at (9, 3) [z=0] [5 steps].
+  6. Walk Left 24 steps horizontally along Row 3 from (9, 3) to Column 0 at (0, 3) [z=0] [24 steps].
+  7. Walk Left 1 step to step onto the map transition and warp into Safari Zone North [1 step].
+  This ground-level corridor path is completely unblocked and consumes exactly 46 overworld steps, leaving us with exactly 363 steps remaining as we transition to Safari Zone North!
 
 <hr>
 
