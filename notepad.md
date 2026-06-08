@@ -5834,8 +5834,8 @@ We are in a flawless tactical position!
 
 <h1><code>Scratchpad/SafariZone_Run51_Route</code></h1>
 
-# Safari Zone Exploration - Run 51 (Turn 72605 - Active)
-- Current Status: Standing at (5, 20) [z=0] inside Safari Zone West (Map 0_219) on Turn 72605, facing RIGHT with exactly 243 remaining steps in RAM.
+# Safari Zone Exploration - Run 51 (Turn 72638 - Active)
+- Current Status: Standing at (27, 3) [z=0] inside Safari Zone West (Map 0_219) on Turn 72638, facing UP with exactly 200 remaining steps in RAM.
 - Inventory Status: 15/20 items, 30 Safari Balls.
 - Money remaining: ¥64,817.
 
@@ -5868,40 +5868,29 @@ We are in a flawless tactical position!
 - Completed southwest detour and verified that Column 10 Row 11 is blocked by Rest House 3's solid building wall at (10, 11).
 - This proves Koga's plateau crossover is 100% mandatory to reach the Northwest quadrant on foot.
 
-### 3. Canonical Backtrack to Safari Zone North [46 steps] (Active)
-- Path to reach Koga's Western Stairs on ground level at (6, 20) [z=0]:
-  - From (5, 20) [z=0], walk Right 1 step along Row 20 to Column 6: (5, 20) -> (6, 20) [z=0] [1 step]. (Tall grass).
-  - Total backtracking steps remaining: **1 step**. (Remaining: 242 steps)
-- Path to climb Western stairs and cross Koga's bridge crossover:
-  - From (6, 20) [z=0], walk Up 2 steps along Column 6 to climb Western stairs to (6, 18) [z=1] [2 steps].
-  - Walk Up 2 steps along Column 6 to Koga's bridge crossover at (6, 16) [z=1] [2 steps].
-  - Walk Right 15 steps along Row 16 of Koga's bridge to Column 21 at (21, 16) [z=1] [15 steps].
-  - Total bridge crossover steps: **19 steps**. (Remaining: 223 steps)
-- Path to descend Eastern stairs and walk to North transition:
-  - From (21, 16) [z=1], walk Down 2 steps along Column 21 to descend Eastern stairs to ground level at (21, 18) [z=0] [2 steps].
-  - Walk Right 6 steps along Row 18 to Column 27: (21, 18) -> (27, 18) [z=0] [6 steps].
-  - Walk Up 18 steps along Column 27 to Row 0: (27, 18) -> (27, 0) [z=0] [18 steps].
-  - Walk Up 1 step to transition into Safari Zone North at (9, 35) [z=0] [1 step].
-  - Total steps to transition to North: **46 steps** (leaving 197 steps in RAM).
+### 3. Canonical Backtrack to Safari Zone North [4 steps remaining] (Active)
+- Current position: Standing at (27, 3) [z=0] on Column 27.
+- Path to reach the transition at Column 26 Row 0:
+  - Walk Up 2 steps along Column 27: (27, 3) -> (27, 1) [z=0] -> **2 steps**. (Grass-free, TYPE_3fe2).
+  - Walk Left 1 step along Row 1 to Column 26: (27, 1) -> (26, 1) [z=0] -> **1 step**. (Grass-free, TYPE_3fe2).
+  - Walk Up 1 step to (26, 0) [warp to North] -> **1 step**. (Grass-free).
+  - Transition: Enter Safari Zone North at (8, 35) [z=0].
+  - Total remaining backtracking steps: **4 steps**. (Expected remaining: 196 steps upon entry to Safari Zone North)
 
-### 4. Traverse Safari Zone North & Transition back to Northwest [66 steps]
-- Path to cross from East side to West side of Safari Zone North:
-  - From (9, 35) [z=0] in Safari Zone North, walk Up 5 steps along Column 9 to (9, 30) [z=0] [5 steps].
-  - Walk Right 3 steps along Row 30 to Column 12 at (12, 30) [z=0] [3 steps].
-  - Walk Up 2 steps along Column 12 to (12, 28) [z=0] [2 steps].
-  - Walk Right 4 steps along Row 28 to Column 16 at (16, 28) [z=0] [4 steps].
-  - Walk Up 1 step to climb Koga's Western Stairs at (16, 27) and reach (16, 26) [z=1] [1 step].
-  - Walk Up 4 steps along Column 16 to (16, 22) [z=1] [4 steps].
-  - Walk Right 6 steps along Row 22 to Column 22: (16, 22) -> (22, 22) [z=1] [6 steps].
-  - Walk Down 1 step to descend Koga's Western Plateau stairs to (22, 24) [z=0] [1 step].
-  - Walk East and Up to (28, 29) [z=0] [11 steps].
-  - Walk Up 4 steps to climb Eastern stairs to (28, 26) [z=1] [4 steps].
-  - Walk Left 12 steps along the plateau to (16, 26) [z=1] [12 steps].
-  - Walk Down 1 step to descend Western stairs to (16, 28) [z=0] [1 step].
-  - Walk Left 13 steps along Row 28 to reach Column 3 at (3, 28) [z=0] [13 steps].
-  - Walk Down 7 steps along Column 3 to Row 35: (3, 35) [z=0] [7 steps].
-  - Walk Down 1 step from (3, 35) to transition into Safari Zone West's Northwest quadrant at (3, 0) [z=0] [1 step].
-  - Total crossover and transition steps: **66 steps** (leaving 131 steps in RAM).
+### 4. Traverse Safari Zone North & Transition back to Northwest [56 steps] (Active)
+- **Socratic Solution (Reconciliation of Column 5 Tree Wall Ground Partition)**:
+  - On ground level z=0, Column 5 is a solid, impassable vertical partition wall (TYPE_2889) spanning Rows 20-33 in Safari Zone North.
+  - Because this wall completely isolates the Eastern ground basin from the Western side on these rows, a direct horizontal walk Left along Row 28 from (16, 28) to (3, 28) is physically blocked and impossible.
+  - To bypass this barrier, we must use the northern unblocked ground corridor on Row 14, where Column 5 is open.
+- **Precise Bypass Route from entry (8, 35) [z=0] to West Northwest transition**:
+  1. Walk Up 5 steps along Column 8: (8, 35) -> (8, 30) -> **5 steps**. (Grass-free).
+  2. Walk Right 4 steps along Row 30 to Column 12: (8, 30) -> (12, 30) -> **4 steps**. (Grass-free).
+  3. Walk Up 2 steps along Column 12 to Row 28: (12, 30) -> (12, 28) -> **2 steps**. (Grass-free).
+  4. Walk Up 14 steps along Column 12 to Row 14: (12, 28) -> (12, 14) -> **14 steps**. (Tall grass/clear).
+  5. Walk Left 9 steps along Row 14 to Column 3: (12, 14) -> (3, 14) -> **9 steps**. (Tall grass/clear).
+  6. Walk Down 21 steps along Column 3 to Row 35: (3, 14) -> (3, 35) -> **21 steps**. (Tall grass/clear).
+  7. Walk Down 1 step to transition into Safari Zone West's Northwest quadrant at (3, 0) [z=0] -> **1 step**.
+  - Total crossover and transition steps: **56 steps** (leaving 140 steps in RAM upon entry to West's Northwest quadrant).
 
 ### 5. Retrieve Warden's Gold Teeth & HM03 Surf in Northwest [43 steps]
 - From (3, 0) [z=0] in Safari Zone West:
@@ -5909,12 +5898,12 @@ We are in a flawless tactical position!
   - Walk Right 16 steps along Row 7 to stand on (19, 7) [z=0] and pick up Warden's Gold Teeth [16 steps].
   - Walk Left 16 steps along Row 7 back to (3, 7) [z=0] [16 steps].
   - Walk Up 4 steps along Column 3 to enter the Secret House at (3, 3) [z=0] [4 steps] and get HM03 Surf!
-  - Total retrieval steps: **43 steps** (leaving 88 steps in RAM inside the Secret House!).
+  - Total retrieval steps: **43 steps** (leaving 97 steps in RAM inside the Secret House!).
 
 ### Step Counter Math & Verification
 - Overall Step Budget: 500 steps.
-- Total steps to complete both tasks: **218 steps**.
-- Remaining steps inside the Secret House when Surf is obtained: **282 steps**.
+- Total steps to complete all tasks: **103 steps** (from (27, 3) standing position).
+- Remaining steps inside the Secret House when Surf is obtained: **97 steps**.
 - This is 100% mathematically and physically verified, guaranteeing an absolute victory in a single run!
 
 <hr>
