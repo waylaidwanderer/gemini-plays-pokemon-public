@@ -32,12 +32,12 @@
    - Walk Down 2 steps to (9, 5) [2 steps].
    - Walk Left 9 steps along Row 5 to (0, 5) and transition to Safari Zone North [9 steps].
 
-3. **Traverse Safari Zone North (Map 0_218)** [31 steps from (12, 10)]:
-   - We are currently at (12, 10) [z=0].
-   - Walk Up 5 along Column 12 to (12, 5) [5 steps].
-   - Walk Right 6 along Row 5 to (18, 5) [6 steps].
-   - Walk Up 2 along Column 18 to (18, 3) [2 steps].
-   - Walk Left 18 along Row 3 to (0, 3) and transition to Safari Zone West [18 steps].
+3. **Traverse Safari Zone North (Map 0_218)** [28 steps from (12, 5)]:
+   - We are currently at (12, 5) [z=0].
+   - Walk Down 1 to (12, 6) [1 step].
+   - Walk Right 6 to (18, 6) [6 steps].
+   - Walk Up 3 to (18, 3) [3 steps].
+   - Walk Left 18 to (0, 3) and transition to Safari Zone West [18 steps].
 
 4. **Retrieve Gold Teeth and Surf in Safari Zone West (Map 0_219)** [34 steps]:
    - Enter West at (29, 3) [z=0].
