@@ -5820,12 +5820,18 @@ We are in a flawless tactical position!
    - Walk Right 3 along Row 32 to Column 9 at (9, 32) [3 steps].
    - Walk Down 4 along Column 9 to transition to Safari Zone West (Map 0_219) at (27, 0) [4 steps].
 
-4. **Retrieve Gold Teeth and Surf in Safari Zone West (Map 0_219)** [34 steps]:
-   - Enter West at (29, 3) [z=0].
-   - Walk Left 10 to (19, 3) [10 steps].
-   - Walk Down 4 along Column 19 to stand on (19, 7) and pick up the Warden's Gold Teeth [4 steps].
-   - Walk Up 4 to Row 3 at (19, 3) [4 steps].
-   - Walk Left 16 along Row 3 to (3, 3) and enter the Secret House to get HM03 Surf! [16 steps].
+4. **Retrieve Gold Teeth and Surf in Safari Zone West (Map 0_219)** [58 steps from (27, 0)]:
+   - We are currently at (27, 0) [z=0].
+   - Walk Down 18 steps along Column 27 to (27, 18) [18 steps].
+   - Walk Left 6 steps along Row 18 to (21, 18) [6 steps].
+   - Walk Up 2 steps to climb Koga's Eastern stairs at (21, 17), landing on Koga's Eastern Plateau at (21, 16) [z=1] [2 steps].
+   - Walk Left 5 steps horizontally on the plateau to Column 16 at (16, 16) [z=1] [5 steps].
+   - Walk Up 7 steps along Column 16 to (16, 9) [z=1] [7 steps].
+   - Walk Right 1 step to jump East over the sloped ramp onto (19, 9) [z=0] on the ground [1 step].
+   - Walk Up 2 steps along Column 19 to (19, 7) [z=0] to stand on the Warden's Gold Teeth and pick them up! [2 steps].
+   - Walk Up 2 steps to Row 5 ground corridor at (19, 5) [z=0] [2 steps].
+   - Walk Left 16 steps along Row 5 ground-level corridor to (3, 5) [z=0] [16 steps].
+   - Walk Up 2 steps along Column 3 to enter the Secret House at (3, 3) [z=0] to get HM03 Surf! [2 steps].
 
 **Total Estimated Steps**: 215 steps.
 **Remaining Step Budget inside Secret House**: 285 steps remaining! Mathematically guaranteed success!
