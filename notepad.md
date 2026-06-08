@@ -6479,6 +6479,7 @@ We have successfully completed our victory run and obtained BOTH critical progre
 - **Swimmer (4, 24)**: Defeated on Turn 74575. Uses two Level 28 Seakings and one Level 28 Goldeen. Stands on the northern wooden pier structure. Marked with a ☠️ map marker.
 - **Fisherman (6, 25)**: Defeated on Turn 74690. Uses six Level 27 Magikarps. Stands on the northern wooden pier structure. Marked with a ☠️ map marker.
 - **Surfing South (Turn 74708)**: Surfing south along the west water channel (Columns 1-3) on Route 21. Verified that at Rows 21-29, Columns 1-3 are open water (TYPE_4e8c) and Column 0 is the solid cliff barrier (TYPE_2889).
+- **Wild Encounter (Turn 74728)**: Encountered a wild Level 10 Tentacool at (3, 66). Safely ran away using SPARKY to conserve THUNDERBOLT PP for trainer battles.
 
 <hr>
 
