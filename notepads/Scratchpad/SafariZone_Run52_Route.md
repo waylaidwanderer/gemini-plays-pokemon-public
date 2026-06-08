@@ -1,5 +1,5 @@
-# Safari Zone Exploration - Run 52 (Turn 73048 - Active)
-- Current Status: Standing at (27, 18) [z=0] inside Safari Zone West (Map 0_219) on Turn 73048, facing DOWN with exactly 221 remaining steps in RAM.
+# Safari Zone Exploration - Run 52 (Turn 73052 - Active)
+- Current Status: Standing at (21, 18) [z=0] inside Safari Zone West (Map 0_219) on Turn 73052, facing UP with exactly 215 remaining steps in RAM.
 - Inventory Status: 15/20 items, 30 Safari Balls.
 
 ## Master Run 52 Campaign Plan & Route (The Ultimate Double Retrieval)
@@ -9,7 +9,7 @@
 
 ### 4. Safari Zone West Traversal [41 steps] (In Progress)
 - Walk Down 18 to (27, 18) -> 18 steps (Completed, Turn 73048).
-- Walk Left 6 to (21, 18) -> 6 steps.
+- Walk Left 6 to (21, 18) -> 6 steps (Completed, Turn 73052).
 - Climb Eastern stairs: Up 2 to (21, 16) [z=1] -> 2 steps.
 - Traverse bridge to (16, 16): Left 5 [z=1] -> 5 steps.
 - Climb Column 16 to (16, 9): Up 7 [z=1] -> 7 steps.
