@@ -56,3 +56,13 @@
   - The large eastern room of 1F is bounded on the left by a solid wall (TYPE_2889) at Column 9.
   - Rubble (TYPE_2889) blocks columns 8 to 11 on Rows 8 and 9.
   - A passable corridor on Column 12 (open floor TYPE_3fe2) starts at Row 7 and goes South to Row 11, connecting the eastern room to the southern corridor.
+
+### 3F Exploration Details (Turn 75122)
+- **Trainers**:
+  - Burglar: Standing at (4, 11). Defeated on Turn 75104. Uses a Level 38 Ninetales. Marked with a ☠️ map marker.
+- **Switches & Gates**:
+  - Mewtwo Statue (Switch): Located at (6, 12).
+  - Column 11 Gate: Currently CLOSED (solid wall of TYPE_2889 on Column 11 from Row 8 to 15).
+  - Gate status on 3F is currently CLOSED, blocking access to the right side of 3F (including the pit chute at (11, 12)).
+- **Left Side of 3F**:
+  - Accessible via Row 13: (1, 13), (2, 13), (3, 13), (4, 13), (5, 13).
