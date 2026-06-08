@@ -10,12 +10,9 @@
   - *Conclusion*: We cannot push the boulder at (8, 4) yet. We must obtain the Rainbow Badge first.
 
 ## New Progression Route: Celadon City Gym
-1. **Exit Warden's House**: Return to Fuchsia City overworld.
-2. **Fly to Celadon City**: Use BIRBIE's FLY move to travel to Celadon City.
-3. **Navigate to Celadon Gym**: Locate Erika's Gym in Celadon City.
-4. **Defeat Erika**: Defeat Erika to obtain the **Rainbow Badge** (and TM21 Mega Drain).
-5. **Return to Fuchsia City**: Fly back to Fuchsia City.
-6. **Obtain Warden's House Item**: Enter Warden's House (Map 0_155), activate Strength, push the boulder at (8, 4), and retrieve the item at (8, 3).
+1. **Defeat Erika**: Defeat Erika to obtain the **Rainbow Badge** (and TM21 Mega Drain).
+2. **Return to Fuchsia City**: Fly back to Fuchsia City.
+3. **Obtain Warden's House Item**: Enter Warden's House (Map 0_155), activate Strength, push the boulder at (8, 4), and retrieve the item at (8, 3).
 
 ## Combat Preparation & Navigation Plan
 - **Gym Leader Erika's Lineup**: Victreebel (L29), Tangela (L24), Vileplume (L29).
