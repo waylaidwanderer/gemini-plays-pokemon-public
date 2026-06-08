@@ -5805,21 +5805,21 @@ We are in a flawless tactical position!
 
 <h1><code>Scratchpad/SafariZone_Run48_Route</code></h1>
 
-# Safari Zone West Exploration - Run 50 (Turn 72031 - Active)
-- Current Status: Standing at (20, 3) in Safari Zone East (Map 0_217) on Turn 72031, facing UP with exactly 394 remaining steps in RAM.
+# Safari Zone West Exploration - Run 50 (Turn 72040 - Active)
+- Current Status: Standing at (6, 3) in Safari Zone East (Map 0_217) on Turn 72040, facing LEFT with exactly 386 remaining steps in RAM.
 - Inventory Status: 15/20 items, 30 Safari Balls.
-- Run 50 Remaining Steps: 394 steps remaining.
+- Run 50 Remaining Steps: 386 steps remaining.
 - Money remaining: ¥65,317.
 
 ## Active Run 50 Master Campaign Plan
 
-### 1. Traverse Safari Zone East to Safari Zone North [23 steps remaining from (20, 3)]
-- Currently standing at (20, 3) [z=0].
-- Walk Left 14 steps along Row 3 to Column 6 at (6, 3) [z=0] [14 steps] (crosses tall grass at Columns 9-16).
-- Walk Down 2 steps along Column 6 to (6, 5) [z=0] [2 steps] (detours around Column 5 tree blockage).
-- Walk Left 6 steps along Row 5 to (0, 5) [z=0] [6 steps].
+### 1. Traverse Safari Zone East to Safari Zone North [11 steps remaining from (6, 3)]
+- Currently standing at (6, 3) [z=0].
+- Walk Right 1 step to (7, 3) [z=0] [1 step].
+- Walk Down 2 steps along Column 7 to (7, 5) [z=0] [2 steps] (detours around Column 6 Row 4 checkered structure).
+- Walk Left 7 steps along Row 5 to (0, 5) [z=0] [7 steps].
 - Walk Left 1 step to transition into Safari Zone North (Map 0_218) at (39, 31) [z=0] [1 step].
-- Remaining steps expected in North: 394 - 23 = 371 steps.
+- Remaining steps expected in North: 386 - 11 = 375 steps.
 
 ### 2. Traverse Safari Zone North [59 steps total]
 - Lands at (39, 31) [z=0] in Safari Zone North.
@@ -5832,7 +5832,7 @@ We are in a flawless tactical position!
 - Walk Down 1 step to descend Western stairs to (16, 28) [z=0] [1 step].
 - Walk West-South corridor: Left 4 to (12, 28) [4 steps], Down 2 to (12, 30) [2 steps], Left 3 to (9, 30) [3 steps], Down 6 along Column 9 to transition to Safari Zone West (Map 0_219) at (27, 0) [z=0] [6 steps].
 - Total North segment cost: 59 steps.
-- Remaining steps expected in West: 371 - 59 = 312 steps.
+- Remaining steps expected in West: 375 - 59 = 316 steps.
 
 ### 3. Traverse Safari Zone West [109 steps total]
 - Lands at (27, 0) [z=0] in Safari Zone West.
