@@ -6491,6 +6491,7 @@ We have successfully completed our victory run and obtained BOTH critical progre
 ## Landmarks & Trainer Locations
 - **Swimmer (4, 24)**: Defeated on Turn 74575. Uses two Level 28 Seakings and one Level 28 Goldeen. Stands on the northern wooden pier structure. Marked with a ☠️ map marker.
 - **Fisherman (6, 25)**: Defeated on Turn 74690. Uses six Level 27 Magikarps. Stands on the northern wooden pier structure. Marked with a ☠️ map marker.
+- **Swimmer (5, 71)**: Defeated on Turn 74758. Uses Level 33 Staryu and Level 33 Wartortle. Marked with a ☠️ map marker.
 
 <hr>
 
