@@ -456,3 +456,25 @@
   - Result: BUMPED against a solid wall, remaining at (24, 12) [z=1].
 - **Physical Proof**: This height mismatch confirms that the elevation difference between Row 12 (plateau level, z=1) and Row 11 (ground level, z=0) behaves as a solid, impassable horizontal wall across Column 24 as well. It is physically impossible to step or jump north off the plateau here.
 - **Conclusive Disproof & Impact**: This empirical test conclusively disproves the ground-level Column 24 bypass hypothesis. Because Column 24 is blocked by the plateau at Rows 12-14 on ground level [z=0], and we cannot step north off the plateau on Column 24, Column 24 is NOT a ground-level vertical corridor. Consequently, traversing Koga's plateau crossover (climbing onto the plateau at (20, 21) or (24, 15) [z=1], walking across Koga's bridge/crossover, and descending the Western/Northern stairs) is strictly mandatory to navigate between the southern and northern halves of Safari Zone East on foot.
+
+# Socratic Answers - Safari Zone East Northern Plateau Crossover (Turn 71187)
+
+## 1. Crossing Koga's Northern Plateau [z=1]
+- **Path**: From (12, 6) [z=1], walk Right 5 steps horizontally along Row 6 to reach the top of Koga's East stairs at (17, 6) [z=1].
+- **Wild Encounter Risk**: 0% wild encounter rate because Koga's Northern Plateau consists entirely of rock plateau tiles (TYPE_2770) which do not trigger wild battles.
+
+## 2. Descending Eastern Stairs [z=0]
+- **Path**: From (17, 6) [z=1], walk Down 1 step to (17, 7) [stairs transition] and Down 1 step to land on the ground level at (17, 8) [z=0].
+- **Wild Encounter Risk**: 0% wild encounter rate as the wooden stairs (TYPE_4b8d) are completely safe.
+
+## 3. Reaching Column 20 & Row 3 Ground corridor [z=0]
+- **Path**: 
+  - From (17, 8) [z=0], walk Right 3 steps along the Row 8 ground-level corridor to reach Column 20 at (20, 8) [z=0].
+  - Walk Up 5 steps vertically along Column 20 from (20, 8) to reach Row 3 at (20, 3) [z=0].
+- **Wild Encounter Risk**:
+  - Row 8 between Columns 17 and 20 consists entirely of clear grass (TYPE_3fe2), which has a 0% wild encounter rate.
+  - Column 20 has tall grass (TYPE_fed7) on Rows 6 and 4. This poses a minor encounter risk when walking Vertically. If an encounter occurs, we immediately RUN to escape.
+
+## 4. Transitioning to Safari Zone North [z=0]
+- **Path**: Walk Left 20 steps horizontally along Row 3 from (20, 3) to the map warp at Column 0 (0, 3).
+- **Wild Encounter Risk**: Row 3 has tall grass (TYPE_fed7) on Columns 9 to 16, which is our primary wild encounter risk on this detour. If a battle starts, we select RUN to escape instantly, preserving our step budget.
