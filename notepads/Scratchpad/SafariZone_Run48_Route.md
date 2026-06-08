@@ -1,46 +1,34 @@
-# Safari Zone West Exploration - Run 50 (Turn 72053 - Active)
-- Current Status: Standing at (22, 22) in Safari Zone North (Map 0_218) on Turn 72053, facing UP with exactly 368 remaining steps in RAM.
+# Safari Zone West Exploration - Run 50 (Turn 72061 - Active)
+- Current Status: Standing at (27, 0) in Safari Zone West (Map 0_219) on Turn 72061, facing DOWN with exactly 341 remaining steps in RAM.
 - Inventory Status: 15/20 items, 30 Safari Balls.
-- Run 50 Remaining Steps: 368 steps remaining.
+- Run 50 Remaining Steps: 341 steps remaining.
 - Money remaining: ¥65,317.
 
 ## Active Run 50 Master Campaign Plan
 
-### 1. Traverse Safari Zone North to Safari Zone West [28 steps remaining from (22, 22)]
-- Currently standing at (22, 22) [z=1].
-- Walk Left 6 steps along Row 22 to Column 16 at (16, 22) [z=1] [6 steps].
-- Walk Down 5 steps along Column 16 to Koga's Western descent stairs at (16, 27) [z=1] [5 steps].
-- Walk Down 1 step to descend Western stairs to (16, 28) [z=0] [1 step].
-- Walk Left 4 steps along Row 28 to Column 12 at (12, 28) [z=0] [4 steps].
-- Walk Down 2 steps along Column 12 to (12, 30) [z=0] [2 steps].
-- Walk Left 3 steps along Row 30 to Column 9 at (9, 30) [z=0] [3 steps].
-- Walk Down 6 steps along Column 9 to transition into Safari Zone West (Map 0_219) at (27, 0) [z=0] [6 steps] (lands at (9, 35) then transitions).
-- Remaining steps expected in West: 368 - 28 = 340 steps.
-
-### 2. Traverse Safari Zone West [109 steps total]
-- Lands at (27, 0) [z=0] in Safari Zone West.
-- From (27, 0) [z=0], walk Down 18 steps along Column 27 to (27, 18) [z=0] [18 steps].
+### 1. Traverse Safari Zone West [109 steps total]
+- Currently standing at (27, 0) [z=0] on ground level.
+- Walk Down 18 steps along Column 27 to (27, 18) [z=0] [18 steps].
 - Walk Left 6 steps along Row 18 to (21, 18) [z=0] [6 steps].
-- Walk Up 2 steps along Column 21 to climb Eastern stairs to (21, 16) [z=1] [2 steps].
-- Walk Left 10 steps along Row 16 to (11, 16) [z=1] [10 steps].
+- Walk Up 2 steps along Column 21 to climb Eastern stairs to Koga's bridge at (21, 16) [z=1] [2 steps].
+- Walk Left 10 steps along Row 16 Koga's bridge to (11, 16) [z=1] [10 steps].
 - Walk Down 2 steps along Column 11 to (11, 18) [z=1] [2 steps].
 - Walk Left 5 steps along Row 18 to (6, 18) [z=1] [5 steps].
-- Walk Down 2 steps along Column 6 to descend Western stairs to (6, 20) [z=0] [2 steps].
+- Walk Down 2 steps along Column 6 to descend Western stairs to ground level at (6, 20) [z=0] [2 steps].
 - Walk Left 4 steps along Row 20 to (2, 20) [z=0] [4 steps].
 - Walk Up 6 steps along Column 2 to (2, 14) [z=0] [6 steps].
 - Walk Right 8 steps along Row 14 to (10, 14) [z=0] [8 steps].
 - **Bypass Rest House 3**:
   - Walk Up 1 step along Column 10 to (10, 13) [z=0] [1 step].
   - Walk Right 3 steps along Row 13 to (13, 13) [z=0] [3 steps].
-  - Walk Up 2 steps along Column 13 to (13, 11) [z=0] [2 steps].
-  - Walk Up 1 step to (13, 10) [z=0] [1 step].
+  - Walk Up 3 steps along Column 13 to (13, 10) [z=0] [3 steps].
   - Walk Left 3 steps along Row 10 to (10, 10) [z=0] [3 steps].
   - Walk Up 2 steps to climb Western-West Plateau stairs at (10, 9) -> lands on plateau at (10, 8) [z=1] [2 steps].
 - Walk Left 6 steps along Row 8 on the plateau to (4, 8) [z=1] [6 steps].
-- Walk Left 1 step to jump West over the ledge to (3, 8) [z=0] [1 step].
+- Walk Left 1 step to jump West over the Column 4 ledge onto (3, 8) [z=0] on ground level [1 step].
 - **Retrieve Warden's Gold Teeth at (19, 7)**:
   - Walk Up 1 step to Row 7 at (3, 7) [z=0] [1 step].
-  - Walk Right 16 steps along Row 7 to (19, 7) [z=0] [16 steps].
+  - Walk Right 16 steps along Row 7 to stand on the Warden's Gold Teeth at (19, 7) [z=0] [16 steps].
   - Press 'A' to retrieve the Gold Teeth!
 - **Enter Secret House at (3, 3) to get HM03 Surf**:
   - Walk Left 16 steps along Row 7 to (3, 7) [z=0] [16 steps].
