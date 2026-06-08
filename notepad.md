@@ -6048,8 +6048,8 @@ We are in a flawless tactical position!
 
 <h1><code>Scratchpad/SafariZone_Run52_Route</code></h1>
 
-# Safari Zone Exploration - Run 52 (Turn 73171 - Active)
-- Current Status: Standing at (16, 28) [z=0] inside Safari Zone North (Map 0_218) on Turn 73171, facing UP with exactly 69 remaining steps in RAM.
+# Safari Zone Exploration - Run 52 (Turn 73201 - Active)
+- Current Status: Standing at (12, 16) [z=0] inside Safari Zone North (Map 0_218) on Turn 73201, facing UP with exactly 45 remaining steps in RAM.
 - Inventory Status: 15/20 items, 30 Safari Balls.
 
 ## Master Run 52 Campaign Plan & Route (The Ultimate Double Retrieval)
@@ -6058,14 +6058,18 @@ We are in a flawless tactical position!
 - Successfully backtracked from Safari Zone West's Southwest dead-end, crossed Koga's bridge crossover on plateau z=1, descended the Eastern stairs, and walked to (27, 0).
 - Transitioned into Safari Zone North at (8, 35) on Turn 73145 with exactly 84 remaining steps in RAM.
 - Walked the 15-step ground-level corridor to Koga's Western stairs base at (16, 28) [z=0], landing on Turn 73155 with exactly 69 remaining steps in RAM.
+- Attempted ground-level northern bypass: walked Left 4 steps to (12, 28) and Up to (12, 7) [z=0] on ground level.
+- Visually and physically verified that Row 4 Column 11-17 is blocked by a solid tree wall of TYPE_2889 and Column 11 is blocked by a vertical tree wall of TYPE_2889 across Rows 4-7.
+- This proves that ground-level vertical passage past Row 4 is completely blocked, making the ground-level pocket a closed dead end.
+- Backtracking Down Column 12 to (12, 28) [z=0], walking Right to (16, 28) [z=0], and climbing onto Koga's Western Plateau at (16, 26) [z=1] is strictly mandatory to cross over Koga's partition.
 
-### 5. Launchpad Route to Northwest Transition [In Progress]
-- Walk Left 4 steps along Row 28 to Column 12 at (12, 28) -> **4 steps**.
-- Walk Up 25 steps vertically along Column 12 to Row 3 at (12, 3) -> **25 steps**.
-- Walk Left 9 steps along Row 3 to Column 3 at (3, 3) -> **9 steps**.
-- Walk Down 32 steps along Column 3 to Row 35 at (3, 35) -> **32 steps** (remaining steps will expire during this walk around Row 33).
-- Transition Down 1 step to Safari Zone West's Northwest quadrant at (3, 0) [z=0] -> **1 step**.
-- Total steps to transition: **71 steps**.
+### 5. Backtrack to Western Stairs [In Progress]
+- Walk Down 12 steps along Column 12 to (12, 28) -> **12 steps** (4 steps taken, currently at 12, 16).
+- Walk Right 4 steps along Row 28 to (16, 28) -> **4 steps**.
+- Walk Up 2 steps to climb Western stairs to (16, 26) [z=1] -> **2 steps**.
+- Total steps to stand on Koga's Western Plateau: **18 steps**.
+- Remaining steps upon reaching Koga's Western Plateau: **27 remaining steps**.
+- Cross Koga's Western Plateau to the East: walk Right 6 steps to (22, 22) [z=1] and descend stairs to (22, 29) [z=0] -> **13 steps**. (Remaining steps will expire here on Row 29).
 
 ## Master Run 53 Victory Campaign Plan (The Ultimate Single-Run Guarantee)
 Once our steps expire on Run 52, we will start a fresh **Run 53** with 500 steps, which is guaranteed to complete the double retrieval in under 230 steps!
