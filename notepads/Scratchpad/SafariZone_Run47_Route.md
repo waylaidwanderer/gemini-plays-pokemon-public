@@ -1,55 +1,49 @@
-# Safari Zone West Exploration - Run 47 (Turn 71546 - Active)
-- Current Status: Standing at (2, 14) in Safari Zone West (Map 0_219) on Turn 71546, facing UP.
+# Safari Zone West Exploration - Run 47 (Turn 71552 - Steps Expired)
+- Current Status: Standing at (10, 12) in Safari Zone West (Map 0_219) on Turn 71552, facing UP. Steps expired ("PA: Ding-dong!").
 - Starting Turn: Run 47 started on Turn 71029.
 - Inventory Status: 15/20 items, 30 Safari Balls.
-- Run 47 Remaining Steps: 18 steps.
+- Run 47 Remaining Steps: 0 steps.
 - Money remaining: ¥66,817.
 
 ## Crucial Empirical Discoveries (Falsified Hypotheses)
 - **Column 17 Ledge Jump (FALSIFIED)**: On Turn 70949, we stood at (16, 12) [z=1] facing Up and pressed Right twice. Result: Direct collision (bump), remaining at (16, 12). This physically proves that checkered vertical ramps (Column 17) act as solid vertical walls horizontally in Gen 1, and no sideways/horizontal ledge jumps exist.
-- **Southwest Ground Level (CLOSED POCKET)**: The Southwest ground-level quadrant of Safari Zone West is 100% closed on foot due to water at Column 2/3 Row 13 and building wall at Column 10/13 Row 11.
-- **Plateau Isolation**: Koga's Western-West Plateau is physically isolated from the main plateau at z=1.
-- **The True Route**: To reach the Northwest quadrant of Safari Zone West, we must enter via the Northwest transition of Safari Zone North (Map 0_218) on ground level [z=0], which lands us directly in the Northwest plains of West.
+- **Southwest Ground Level (OPEN TO THE NORTH)**: The Southwest ground-level quadrant of Safari Zone West is NOT a closed pocket! We physically verified on Turn 71552 that Column 10 on Rows 11-13 consists of open, clear grass (TYPE_3fe2) with no building wall. The Rest House 3 building starts on Column 11, meaning Column 10 forms a completely open, 1-tile wide vertical ground corridor past the West side of the building. This provides direct ground-level access to the base of Koga's Western-West Plateau stairs at (10, 10) [z=0], making the Direct Ground-Plateau Route 100% open and unblocked!
 
-## Fresh Campaign Plan - Run 47 (500 steps)
+## Master Campaign Plan - Run 48 (500 steps)
 
 1. **Traverse Safari Zone Center (Map 0_220)** [28 steps]:
    - From (15, 25), walk to (29, 11) and transition to Safari Zone East.
 
-2. **Traverse Safari Zone East (Map 0_217)** [47 steps]:
-   - From (0, 23), walk Right 4 to (4, 23) [4 steps], Down 1 to (4, 24) [1 step], Right 13 to (17, 24) [13 steps].
-   - Walk Up 2 steps to (17, 22) [2 steps], Right 3 steps to (20, 22) [3 steps].
-   - Walk Up 1 step to climb stairs at (20, 21) onto plateau at (20, 20) [z=1] [1 step].
-   - Walk Left 8 steps across plateau crossover to (12, 20) [z=1] [8 steps].
-   - Walk Down 1 step to descend West Plateau stairs at (12, 21) to ground level at (12, 22) [z=0] [1 step].
-   - Walk Left 3 steps to Column 9 at (9, 22) [3 steps].
-   - Walk Up 2 steps to (9, 8) [2 steps], Right 3 steps to (12, 8) [3 steps], Up 2 steps to climb stairs at (12, 7) onto plateau at (12, 6) [z=1] [2 steps].
-   - Walk Right 5 steps across plateau crossover to (17, 6) [z=1] [5 steps].
-   - Walk Down 1 step to descend East stairs at (17, 7) to ground level at (17, 8) [z=0] [1 step].
-   - Walk Right 3 steps to Column 20 at (20, 8) [3 steps].
-   - Walk Up 5 steps along Column 20 to (20, 3) [5 steps].
-   - Walk Left 11 steps to (9, 3) [11 steps].
-   - Walk Down 2 steps to (9, 5) [2 steps].
-   - Walk Left 9 steps along Row 5 to (0, 5) and transition to Safari Zone North [9 steps].
+2. **Traverse Safari Zone East (Map 0_217)** [64 steps]:
+   - From (0, 23), walk East along Row 24 to Column 17 at (17, 24) [17 steps].
+   - Walk Up 2 steps to (17, 22) [2 steps], and East on Row 22 to Column 21 at (21, 22) [4 steps].
+   - Walk Up 19 steps vertically along Column 21 to Row 3 at (21, 3) [19 steps].
+   - Walk Left 21 steps horizontally along Row 3 to Column 0 at (0, 3) [21 steps] and transition to Safari Zone North [1 step].
 
-3. **Traverse Safari Zone North (Map 0_218)** [7 steps from (6, 32)]:
-   - We are currently at (6, 32) [z=0].
-   - Walk Right 3 along Row 32 to Column 9 at (9, 32) [3 steps].
-   - Walk Down 4 along Column 9 to transition to Safari Zone West (Map 0_219) at (27, 0) [4 steps].
+3. **Traverse Safari Zone North (Map 0_218)** [57 steps]:
+   - From (39, 31), walk Left along Row 31 to Column 28 at (28, 31) [11 steps].
+   - Walk Up 4 steps to climb Eastern stairs to plateau at (28, 26) [z=1] [4 steps].
+   - Walk Down 2 steps to descend Eastern stairs to ground level at (28, 29) [z=0] [2 steps].
+   - Walk Left 6 steps along Row 29 to Column 22 at (22, 29) [z=0] [6 steps].
+   - Walk Up 7 steps along Column 22 to climb Western stairs to plateau at (22, 22) [z=1] [7 steps].
+   - Walk Left 6 steps and Down 5 steps across plateau to Western stairs top at (16, 27) [z=1] [11 steps].
+   - Walk Down 1 step to descend Western stairs to ground level at (16, 28) [z=0] [1 step].
+   - Walk Left 4 to (12, 28) [4 steps], Down 2 to (12, 30) [2 steps], Left 3 to (9, 30) [3 steps], Down 5 to (9, 35) [5 steps], and Down 1 step to transition to Safari Zone West (Map 0_219) at (27, 0) [1 step].
 
-4. **Retrieve Gold Teeth and Surf in Safari Zone West (Map 0_219)** [49 steps from (21, 18)]:
-   - We are currently at (21, 18) [z=0].
-   - Walk Up 2 steps to climb Koga's Eastern stairs to (21, 16) [z=1] [2 steps].
-   - Walk Left 15 steps along Koga's bridge (Row 16) from (21, 16) to (6, 16) [z=1] [15 steps].
-   - Walk Down 4 steps to descend Koga's Western stairs to ground level at (6, 20) [z=0] [4 steps].
-   - Walk Left 4 to Column 2 at (2, 20) [4 steps].
-   - Walk Up 6 to Row 14 at (2, 14) [6 steps].
-   - Walk Right 8 to Column 10 at (10, 14) [8 steps].
-   - Walk Up 4 along Column 10 to stand at (10, 10) to verify if Column 10 is unblocked on ground level [4 steps].
-   - Walk Up 2 steps to climb Koga's Western-West Plateau stairs to (10, 8) [z=1] [2 steps].
+4. **Retrieve Gold Teeth and Surf in Safari Zone West (Map 0_219)** [93 steps from (27, 0)]:
+   - From (27, 0) [z=0], walk Down 18 steps along Column 27 to (27, 18) [z=0] [18 steps].
+   - Walk Left 6 steps along Row 18 to Column 21 at (21, 18) [z=0] [6 steps].
+   - Walk Down 2 steps along Column 21 to Row 20 at (21, 20) [z=0] [2 steps].
+   - Walk Left 11 steps along Row 20 to Column 10 at (10, 20) [z=0] [11 steps].
+   - Walk Up 6 steps along Column 10 to Row 14 at (10, 14) [z=0] [6 steps].
+   - Walk Up 4 steps along Column 10 directly past Rest House 3 to the stairs base at (10, 10) [z=0] [4 steps].
+   - Walk Up 2 steps to climb Western-West Plateau stairs to (10, 8) [z=1] [2 steps].
    - Walk Left 6 steps to Column 4 at (4, 8) [z=1] [6 steps].
-   - Walk Left 1 step to jump West over Koga's Column 4 ledge onto ground level at (3, 8) [z=0] [1 step].
-   - Walk Up 5 steps along Column 3 to enter the Secret House at (3, 3) [z=0] to get HM03 Surf! [5 steps].
+   - Walk Left 1 step to jump West over Column 4 ledge onto ground level at (3, 8) [z=0] [1 step].
+   - Walk Up 1 step to Row 7 ground corridor at (3, 7) [z=0] [1 step].
+   - Walk Right 16 steps along Row 7 ground corridor to stand at (19, 7) [z=0], and press 'A' to retrieve the Gold Teeth! [16 steps].
+   - Walk Left 16 steps along Row 7 ground corridor back to (3, 7) [z=0] [16 steps].
+   - Walk Up 4 steps along Column 3 to enter the Secret House at (3, 3) [z=0] to get HM03 Surf! [4 steps].
 
-**Total Estimated Steps**: 215 steps.
-**Remaining Step Budget inside Secret House**: 285 steps remaining! Mathematically guaranteed success!
+**Total Estimated Steps for Run 48**: 28 + 64 + 57 + 93 = 242 steps.
+**Remaining Step Budget inside Secret House**: 258 steps remaining! Mathematically guaranteed success!
