@@ -6292,4 +6292,11 @@ Let's execute the 4 steps Right first.
   3. Press A to talk to him, hand over the Gold Teeth, and receive HM04 Strength.
 Let's dismiss the text first.
 
+- Turn 73823: Tested pressing A, but the text box "Crammed full of POKeMON books!" appeared again. This confirms we were still facing UP at (1, 2) rather than LEFT, meaning we did not turn LEFT before pressing A. 
+- To fix this:
+  1. We will press B to dismiss the bookshelf text box.
+  2. We will press LEFT once to turn to face the Warden at (0, 2).
+  3. We will verify the player is facing LEFT before pressing A.
+Let's press B to dismiss the text.
+
 <hr>
