@@ -5047,6 +5047,16 @@ We analyzed why we bumped at Column 23 on Rows 14-15 and verified that symmetric
 - **Path**: Walk Left 20 steps horizontally along Row 3 from (20, 3) to the map warp at Column 0 (0, 3).
 - **Wild Encounter Risk**: Row 3 has tall grass (TYPE_fed7) on Columns 9 to 16, which is our primary wild encounter risk on this detour. If a battle starts, we select RUN to escape instantly, preserving our step budget.
 
+# Socratic Answers - Safari Zone West Run 47 Ground Detour (Turn 71492)
+
+## 1. Socratic Question 1 (The Column 17 Row 9 Eastward Horizontal Ledge Jump)
+- **Why we bumped on Turn 70199**: On Turn 70199, we navigated to (16, 9) [z=1] facing Up and pressed Right to jump East over Column 17. Result: Direct collision (bump), remaining at (16, 9) [z=1].
+- **Physical Reason**: In Generation 1, vertical checkered ramps (like Column 17) act as solid vertical walls horizontally. No sideways/horizontal ledge jumps exist in Gen 1, making Koga's Western Plateau completely isolated on its eastern edge at z=1.
+
+## 2. Socratic Question 2 (Safari Zone North Column 5 Ground Barrier)
+- **Why we bumped on Turn 71393**: On Turn 71393, we attempted to walk Left from (6, 32) and bumped against a solid tree wall of TYPE_2889 at (5, 32).
+- **Physical Proof**: This collision, combined with verified tree wall obstacles on Column 5 (Rows 20-31) and solid building/shack walls at Columns 4-7 (Rows 34-35), proves that Column 5 forms a continuous, impassable vertical barrier on ground level z=0 across Rows 20-33. This completely isolates the Eastern ground basin from the Western ground corridor on foot, making climbing the plateau at (22, 23) strictly mandatory to traverse between them.
+
 <hr>
 
 <h1><code>Reflection/Turn61585_Reflection</code></h1>
