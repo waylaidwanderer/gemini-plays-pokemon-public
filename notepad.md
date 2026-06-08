@@ -6297,5 +6297,10 @@ We have successfully completed our victory run and obtained BOTH critical progre
   - Two Gym Statues are located at:
     - Left Statue: (3, 14)-(3, 15)
     - Right Statue: (6, 14)-(6, 15)
+- **Gym Raid Log (Turn 74114 Reflection)**:
+  - **Start Turn**: Turn 74079
+  - **Defeated Lass (3, 11)**: Turn 74093 (GEMMY grew to Level 59!)
+  - **Trainer at (7, 10) Bypass**: Bypassed successfully on Turn 74101-74104 by walking East along Row 11 to Column 8, then North.
+  - **Cut Inner Hedge (7, 5)**: Turn 74110 using PETAL's CUT.
 
 <hr>
