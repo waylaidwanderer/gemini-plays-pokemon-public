@@ -1,7 +1,7 @@
-# Safari Zone West Exploration - Run 47 (Turn 71246 - Active)
-- Current Status: Standing at (22, 27) in Safari Zone North (Map 0_218) on Turn 71246, facing UP.
+# Safari Zone West Exploration - Run 47 (Turn 71251 - Active)
+- Current Status: Standing at (22, 24) in Safari Zone North (Map 0_218) on Turn 71251, facing UP.
 - Inventory Status: 15/20 items, 30 Safari Balls.
-- Run 47 Remaining Steps: 356 steps.
+- Run 47 Remaining Steps: 353 steps.
 - Money remaining: ¥66,817.
 
 ## Crucial Empirical Discoveries (Falsified Hypotheses)
@@ -11,7 +11,6 @@
 - **The True Route**: To reach the Northwest quadrant of Safari Zone West, we must enter via the Northwest transition of Safari Zone North (Map 0_218) on ground level [z=0], which lands us directly in the Northwest plains of West.
 
 ## Fresh Campaign Plan - Run 47 (500 steps)
-Since we only have 125 steps remaining on Run 46, we will DIG out immediately on Turn 70954, saving time and steps, and start a fresh, optimized Run 47 from the gatehouse.
 
 1. **Traverse Safari Zone Center (Map 0_220)** [28 steps]:
    - From (15, 25), walk to (29, 11) and transition to Safari Zone East.
