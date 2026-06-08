@@ -6406,6 +6406,7 @@ We have successfully completed our victory run and obtained BOTH critical progre
 - **Turn 74428**: Selected YES to change Pokémon and switch SPARKY back in against Goldeen.
 - **Turn 74436**: SPARKY (Pikachu) reached Level 26. Decided to forget GROWL to learn SWIFT.
 - **Turn 74444**: Bypassing the defeated swimmer at (8, 43) by surfing Left to Column 7, then South to row 46.
+- **Turn 74448**: Standing at (7, 47) on Route 19. SPARKY is Level 26, HP 25/61, THUNDERBOLT PP 5. GEMMY is Level 59, HP 192/194. Surfing south.
 
 <hr>
 
