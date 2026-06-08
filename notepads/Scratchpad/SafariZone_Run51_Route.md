@@ -15,7 +15,15 @@
   - Total Steps to Safari Zone North transition: **11 steps**.
   - Expected remaining steps upon entry to Safari Zone North: 359 - 11 = **348 steps remaining**.
 
-- Transition to North (Map 0_218) at (39, 31). Walk along Row 31 to (28, 31), climb Eastern stairs at (28, 27) [climbing from (28, 28)] onto plateau, descend Western stairs at (16, 27) [descending to (16, 28)], walk to Column 9 Row 30, and walk Down along Column 9 to transition to Safari Zone West at (27, 0) -> **40 steps**.
+- Transition to North (Map 0_218) at (39, 31). From our current position (28, 27) on the Eastern stairs:
+  1. Descend Eastern stairs to Row 31: Down 1 to (28, 28), Down 3 to (28, 31) [z=0] -> **4 steps**.
+  2. Walk Left along Row 31: Left 6 steps to Column 22 at (22, 31) [z=0] -> **6 steps**. (Tall grass).
+  3. Walk Up Column 22: Up 8 steps to stairs at (22, 23), Up 1 step to climb onto (22, 22) [z=1] -> **9 steps**. (Tall grass).
+  4. Traverse Western Plateau: Left 6 steps to (16, 22) [z=1], Down 5 steps along Column 16 to (16, 27) [z=1] -> **11 steps**. (Grass-free).
+  5. Descend Western Stairs & Walk to West Transition: Down 1 to descend stairs to (16, 28) [z=0], Left 4 to (12, 28), Down 2 to (12, 30), Left 3 to (9, 30), Down 5 to (9, 35), Down 1 to transition -> **16 steps**. (Grass-free).
+  - Total Steps in Safari Zone North from (28, 27): **46 steps**.
+  - Expected remaining steps upon entry to Safari Zone West: 348 - 46 = **302 steps remaining**.
+
 - Transition to West (Map 0_219) at (27, 0).
 - Total Steps to reach Safari Zone West: **136 steps** (leaving 364 steps in RAM).
 
