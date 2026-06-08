@@ -561,3 +561,33 @@
 - **Citations from 'Locations/SafariZone_East'**:
   - "Solid tree walls Row 23/22 discovered on Col 8-16 are blocked."
   - "Column 17 Southern Passage Discovery: Column 17 Row 23 is open clear grass (TYPE_3fe2), and Column 17 Row 22 is open clear grass (TYPE_3fe2), creating a vertical ground-level opening. Row 22 Column 16 is a solid tree wall (TYPE_2889), which prevents horizontal traversal on Row 22 on the West side of Column 17."
+
+## 3. Socratic Question 1: Northern East Plateau Descent & Pathway to Safari Zone North
+- **Starting State (Turn 72930)**: Standing at (17, 6) [z=1] facing LEFT with exactly 385 steps remaining in RAM.
+- **Path to Safari Zone North Transition at (0, 5) [z=0]**:
+  1. Walk DOWN 2 steps from (17, 6) [z=1] to descend Koga's Northern East stairs to (17, 8) [z=0] -> **2 steps**.
+     - (17, 6) [z=1] -> (17, 7) [wooden stairs TYPE_4b8d] -> (17, 8) [z=0, clear grass TYPE_3fe2].
+     - Steps remaining: 385 - 2 = **383 remaining steps**.
+  2. Walk RIGHT 3 steps along Row 8 from (17, 8) [z=0] to (20, 8) [z=0] -> **3 steps**.
+     - (17, 8) -> (18, 8) -> (19, 8) -> (20, 8) (All clear grass TYPE_3fe2).
+     - Steps remaining: 383 - 3 = **380 remaining steps**.
+  3. Walk UP 5 steps along Column 20 from (20, 8) [z=0] to (20, 3) [z=0] -> **5 steps**.
+     - (20, 8) -> (20, 7) -> (20, 6) -> (20, 5) -> (20, 4) -> (20, 3).
+     - Bounded by Koga's Northern Plateau on the West.
+     - Steps remaining: 380 - 5 = **375 remaining steps**.
+  4. Walk LEFT 20 steps along Row 3 from (20, 3) [z=0] to the map boundary transition at (0, 3) or (0, 5) -> **21 steps**.
+     - (20, 3) -> (0, 3) [z=0] -> (0, 5) [z=0] transition.
+     - Steps remaining: 375 - 21 = **354 remaining steps** upon entering Safari Zone North (Map 0_218) at (39, 31).
+- **Mathematical Feasibility**: This segment takes exactly 31 overworld steps, ending at (39, 31) inside Safari Zone North with exactly 354 remaining steps in RAM.
+
+## 4. Socratic Question 2: Column 21 Open Ground Corridor vs Row 21 Blockages
+- **Why Column 21 is completely open from Row 8 to Row 3**:
+  - The high plateau (z=1) on Map 0_217 only spans Columns 11-19, meaning Column 20 and Column 21 on Rows 4-6 are at ground level (z=0).
+  - Therefore, Column 21 is not blocked by any plateau height boundaries or cliffs on Rows 3 to 8, providing a continuous open vertical corridor at ground level (z=0).
+- **Why Columns 21, 22, and 23 are blocked at Row 21**:
+  - Row 21 on Columns 21, 22, and 23 consists of solid rock/cliff walls (TYPE_2889), which act as a solid physical barrier at ground level (z=0).
+  - This prevents vertical ground-level traversal along Column 21 past Row 21, making Koga's Eastern stairs climb at (20, 21) onto Koga's plateau mandatory to cross between the southern and northern ground areas on the East side of the map.
+- **Citations from 'Locations/SafariZone_East'**:
+  - "The high plateau is on Columns 11-19, which is completely West of Column 21."
+  - "Row 21 on Columns 21, 22, and 23 consists of solid rock/cliff walls (TYPE_2889)."
+  - "The eastern ground corridor on Column 21 is fully verified as 100% open and passable to the North. Note that Column 20 is blocked by deep water on Rows 12-13, and Column 22 is blocked by cliff/trees on Row 21."
