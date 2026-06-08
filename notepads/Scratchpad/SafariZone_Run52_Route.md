@@ -1,5 +1,5 @@
-# Safari Zone Exploration - Run 52 (Turn 72856 - Active)
-- Current Status: Standing at (0, 23) [z=0] inside Safari Zone East (Map 0_217) on Turn 72856, facing RIGHT with exactly 471 remaining steps in RAM.
+# Safari Zone Exploration - Run 52 (Turn 72859 - Active)
+- Current Status: Standing at (0, 23) [z=0] inside Safari Zone East (Map 0_217) on Turn 72859, facing RIGHT with exactly 471 remaining steps in RAM.
 - Inventory Status: 15/20 items, 30 Safari Balls.
 - Money remaining: ¥64,317.
 
