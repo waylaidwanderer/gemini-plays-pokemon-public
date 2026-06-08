@@ -1,5 +1,5 @@
-# Safari Zone Exploration - Run 53 (Turn 73387 - Active)
-- Current Status: Standing at (16, 27) [z=1] inside Safari Zone North (Map 0_218) on Turn 73522, facing DOWN with exactly 310 remaining steps in RAM.
+# Safari Zone Exploration - Run 53 (Turn 73562 - Active)
+- Current Status: Standing at (12, 23) [z=0] inside Safari Zone North (Map 0_218) on Turn 73562, facing UP with exactly 230 remaining steps in RAM.
 - Inventory Status: 15/20 items, 30 Safari Balls.
 
 ## Master Run 53 Victory Campaign Plan (The Ultimate Single-Run Guarantee)
@@ -10,8 +10,8 @@ We are on Run 53 with 500 steps, which is guaranteed to complete the double retr
 ### Step-by-Step Step-Budget Math:
 1. **Gatehouse to Safari Zone East**: Transition from (15, 25) in Center to (0, 23) in East -> **36 steps** (Completed, Turn 73285).
 2. **Safari Zone East Ground Traversal**: Walk to Eastern stairs, climb to (20, 20) [z=1], cross plateau to (12, 18), descend western stairs to (12, 22), bypass grass via Column 9 to (9, 3), and transition into Safari Zone North at (39, 31) -> **31 steps** (Completed, Turn 73462).
-3. **Safari Zone North Crossover**: Walk to (28, 31), climb Eastern stairs to (28, 26) [z=1], descend crossover to (28, 29) [z=0], and walk to (16, 28) -> **45 steps** (In Progress, currently at (22, 24) [z=0] approaching Koga's Western Plateau).
-4. **Northern Corridor Bypass**: Walk Left to Column 12, Up to Row 3, Left along Row 3 to Column 3, and Down Column 3 to transition into West's Northwest quadrant at (3, 0) [z=0] -> **71 steps**.
+3. **Safari Zone North Crossover**: Walk to (28, 31), climb Eastern stairs to (28, 26) [z=1], descend crossover to (28, 29) [z=0], and walk to (16, 28) -> **45 steps** (Completed, Turn 73515).
+4. **Northern Corridor Bypass**: Walk Up 20 steps along Column 12 to Row 3 at (12, 3) [z=0], walk Left 9 steps along Row 3 to Column 3 at (3, 3) [z=0], and walk Down 32 steps along Column 3 to the transition at (3, 35) [z=0]. (In Progress, currently at (12, 23) [z=0] with 230 remaining steps).
 5. **Retrieve Gold Teeth & Surf**: From (3, 0) in West, walk to Gold Teeth at (19, 7) [z=0], retrieve them, walk back to (3, 7), and enter the Secret House at (3, 3) to get Surf -> **43 steps**.
 - **Total Combined Run 53 Step Cost**: **226 steps**!
 - **Surplus Steps Inside Secret House**: **274 steps**!
