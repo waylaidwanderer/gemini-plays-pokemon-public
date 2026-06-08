@@ -17,3 +17,5 @@
 ## Socratic Verification Plan (Turn 73867):
 - **Finding the Real Warden's House**: We will walk Down along Column 24 to find the fence opening, walk Right, and then stand at (27, 29) to read the overworld signpost. The signpost should confirm it is the Warden's House.
 - **Resolving the Map 0_157 Gym vs. House Conflict**: Once we enter the Warden's House, we will immediately look at the `<Location><Map>` game state field to verify its true map ID and correct any discrepancies in our permanent regional notepads.
+
+- Turn 73899: Signpost at (27, 29) successfully read. It says "SAFARI ZONE WARDEN'S HOME"! This empirically proves that the left building with the door at (27, 27) is indeed the real Warden's House. We will now dismiss the text box, step UP into the building, and identify its map ID to resolve our regional map conflict.
