@@ -5820,16 +5820,18 @@ We are in a flawless tactical position!
    - Walk Right 3 along Row 32 to Column 9 at (9, 32) [3 steps].
    - Walk Down 4 along Column 9 to transition to Safari Zone West (Map 0_219) at (27, 0) [4 steps].
 
-4. **Retrieve Gold Teeth and Surf in Safari Zone West (Map 0_219)** [101 steps from (16, 8)]:
-   - We are currently at (16, 8) [z=1].
-   - Walk Down 8 along Column 16 to Koga's bridge at (16, 16) [z=1] [8 steps].
-   - Walk Left 10 to (11, 16) [z=1], Down 2 to (11, 18) [z=1], Left 5 to (6, 18) [z=1], and Down 2 to descend stairs to (6, 20) [z=0] [19 steps].
-   - Walk Left 4 to Column 2 at (2, 20), Up 6 to (2, 14), and Right 8 to Column 10 at (10, 14) [18 steps].
-   - Walk Up 2 to (10, 12), Right 3 to (13, 12), Up 2 to (13, 10), Left 3 to (10, 10), and Up 1 to (10, 9) [z=0] to bypass Rest House 3 [11 steps].
-   - Walk Up 1 step to climb Koga's Western-West Plateau stairs, landing on the plateau at (10, 8) [z=1] [1 step].
+4. **Retrieve Gold Teeth and Surf in Safari Zone West (Map 0_219)** [76 steps from (6, 18)]:
+   - We are currently at (6, 18) [z=1].
+   - Walk Down 2 steps to descend Koga's Western stairs to ground level at (6, 20) [z=0] [2 steps].
+   - Walk Left 4 to Column 2 at (2, 20) [4 steps].
+   - Walk Up 6 to Row 14 at (2, 14) [6 steps].
+   - Walk Right 11 to Column 13 at (13, 14) [11 steps].
+   - Walk Up 4 along Column 13 to (13, 10) [z=0] to bypass Rest House 3 [4 steps].
+   - Walk Left 3 along Row 10 to (10, 10) [3 steps].
+   - Walk Up 2 steps to climb Koga's Western-West Plateau stairs to (10, 8) [z=1] [2 steps].
    - Walk Left 6 steps to Column 4 at (4, 8) [z=1] [6 steps].
    - Walk Left 1 step to jump West over Koga's Column 4 ledge onto ground level at (3, 8) [z=0] [1 step].
-   - Walk Up 1 step to Row 7 ground-level corridor at (3, 7) [1 step].
+   - Walk Up 1 step to Row 7 ground corridor at (3, 7) [1 step].
    - Walk Right 16 steps along Row 7 ground corridor to stand at (19, 7) [z=0], and press 'A' to retrieve the Gold Teeth! [16 steps].
    - Walk Left 16 steps along Row 7 ground corridor back to (3, 7) [z=0] [16 steps].
    - Walk Up 4 steps along Column 3 to enter the Secret House at (3, 3) [z=0] to get HM03 Surf! [4 steps].
