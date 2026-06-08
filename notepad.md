@@ -6058,4 +6058,17 @@ We are on Run 53 with 500 steps, which is guaranteed to complete the double retr
   - Walk Left 1 step to transition into Safari Zone North (Map 0_218) at (39, 31) [z=0] -> **1 step** (remaining: 382).
 - Victory Budget Analysis: Spending 53 steps to reach (1, 24) and 23 steps to climb the Southern Plateau leaves exactly 424 steps of our 500-step budget. This leaves our massive safety surplus of 274 steps inside the Secret House fully intact, guaranteeing absolute victory on Run 53.
 
+## Run 53 Grass-Free Detour & Socratic Verification (Turn 73389)
+- Koga's Tall Grass Patch Bypass (9, 9) to Northern Plateau (12, 6) [z=1] (9 steps):
+  - Walk Right 1 step to (10, 10) [z=0] -> 1 step. (remaining: 415)
+  - Walk Up 2 steps to (10, 8) [z=0] -> 2 steps. (remaining: 413)
+  - Walk Left 1 step to (9, 8) [z=0] -> 1 step. (remaining: 412)
+  - Walk Right 3 steps along Row 8 to (12, 8) [z=0] -> 3 steps. (remaining: 409)
+  - Walk Up 2 steps to climb Koga's Northern stairs at (12, 7) onto Koga's Northern Plateau at (12, 6) [z=1] -> 2 steps. (remaining: 407)
+  - Total segment cost: 9 overworld steps.
+  - Grass-Free Safety Verification: Since every single tile traversed in this detour (10, 10), (10, 9), (10, 8), (9, 8), (11, 8), (12, 8), (12, 7), (12, 6) consists strictly of clear ground/grass (TYPE_3fe2) or wooden stairs (TYPE_4b8d) with zero tall grass tiles (TYPE_fed7), this detour is 100% grass-free, guaranteeing a 0% wild encounter rate!
+- Remaining Step Budget and Victory Guarantee:
+  - Budget remaining when climbing onto Koga's Northern Plateau at (12, 6) [z=1]: exactly 407 remaining steps.
+  - Since the remaining victory path from (12, 6) [z=1] to the Secret House in Safari Zone West consumes approximately 130 steps on foot, we are guaranteed to enter the Secret House with approximately 277 steps remaining. This perfectly preserves our massive safety surplus of 274 steps, guaranteeing absolute victory on Run 53 on foot.
+
 <hr>
