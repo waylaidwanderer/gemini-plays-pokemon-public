@@ -11,8 +11,10 @@
 
 ## Master Campaign Plan - Run 48 (500 steps)
 
-1. **Traverse Safari Zone Center (Map 0_220)** [28 steps]:
-   - From (15, 25), walk to (29, 11) and transition to Safari Zone East.
+1. **Traverse Safari Zone Center (Map 0_220)** [30 steps]:
+   - From (15, 25), walk Left 1 to (14, 25), Up 2 to (14, 23), and Right 1 to (15, 23) [4 steps].
+   - Walk Up 12 steps along Column 15 to (15, 11) [12 steps].
+   - Walk Right 14 steps along Row 11 to (29, 11) and transition to Safari Zone East [14 steps].
 
 2. **Traverse Safari Zone East (Map 0_217)** [64 steps]:
    - From (0, 23), walk East along Row 24 to Column 17 at (17, 24) [17 steps].
