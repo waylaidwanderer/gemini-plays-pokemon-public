@@ -19,3 +19,10 @@
 - **Resolving the Map 0_157 Gym vs. House Conflict**: Once we enter the Warden's House, we will immediately look at the `<Location><Map>` game state field to verify its true map ID and correct any discrepancies in our permanent regional notepads.
 
 - Turn 73899: Signpost at (27, 29) successfully read. It says "SAFARI ZONE WARDEN'S HOME"! This empirically proves that the left building with the door at (27, 27) is indeed the real Warden's House. We will now dismiss the text box, step UP into the building, and identify its map ID to resolve our regional map conflict.
+
+- Turn 73915: Entered the real Warden's House (Map 0_155). The overworld game state and screenshot confirm we are at (4, 7). The Warden is standing at (2, 3). The pushable boulder is visible at (8, 4) blocking an item at (8, 3). 
+- Verification complete: Map 0_157 is indeed Fuchsia Gym, and Map 0_155 is the Warden's House! 
+- Plan to reach Warden:
+  1. Walk Left 2 steps, Up 3 steps to stand at (2, 4) facing UP.
+  2. Press A to talk to the Warden and hand over his Gold Teeth to receive HM04 Strength.
+Let's execute the movement to (2, 4).
