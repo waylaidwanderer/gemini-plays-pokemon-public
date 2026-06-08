@@ -5805,10 +5805,10 @@ We are in a flawless tactical position!
 
 <h1><code>Scratchpad/SafariZone_Run48_Route</code></h1>
 
-# Safari Zone West Exploration - Run 50 (Turn 72159 - Active)
-- Current Status: Standing at (24, 14) in Safari Zone West (Map 0_219) on Turn 72159, facing DOWN with exactly 274 remaining steps in RAM.
+# Safari Zone West Exploration - Run 50 (Turn 72164 - Active)
+- Current Status: Standing at (26, 0) in Safari Zone West (Map 0_219) on Turn 72164, facing UP with exactly 269 remaining steps in RAM.
 - Inventory Status: 15/20 items, 30 Safari Balls.
-- Run 50 Remaining Steps: 274 steps remaining.
+- Run 50 Remaining Steps: 269 steps remaining.
 - Money remaining: ¥65,317.
 
 ## Active Run 50 Master Campaign Plan
