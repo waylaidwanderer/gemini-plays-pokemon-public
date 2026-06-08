@@ -1,5 +1,5 @@
 # Safari Zone Exploration - Run 52 (Turn 73262 - Completed)
-- Current Status: Standing at (31, 26) [z=1] inside Safari Zone North (Map 0_218) on Turn 73262, facing LEFT with exactly 0 remaining steps in RAM.
+- Current Status: Standing at (32, 26) [z=1] inside Safari Zone North (Map 0_218) on Turn 73265, facing DOWN with very few/0 remaining steps in RAM.
 - Inventory Status: 15/20 items, 30 Safari Balls.
 
 ## Master Run 52 Campaign Plan & Route (The Ultimate Double Retrieval)
