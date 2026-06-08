@@ -680,6 +680,19 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
      - Repeat multiple times to eliminate coin-flip variance (if $S = O$, turn order is 50/50).
      - If SPARKY consistently moves first (100% over $\ge 10$ trials), the boosted speed $S_{boosted} > O$ is active, confirming the 12.5% Thunder Badge boost is functioning.
      - If turn order is randomized or the opponent consistently moves first, the boost is inactive.
+- **Defense Boost (Soul Badge) Audit Methodology**:
+  1. **Identify Defender's Defense**: View our active Pokémon's Defense stat $D$ (e.g., ROCKY's Defense is 36).
+  2. **Calculate Boosted Defense**: The boosted Defense should be $D_{boosted} = \lfloor 1.125 \times D \rfloor$ (e.g., $\lfloor 1.125 \times 36 \rfloor = 40$).
+  3. **Establish Attacker's Stats & Move**: Select a wild Pokémon (e.g., a Level 20 Rattata) whose Level $L$ and Attack stat $A$ are known, and that uses a physical move (like Tackle, base power 35) with no stat modifiers.
+  4. **Calculate Damage Ranges**:
+     - Compute the expected damage range received with unboosted Defense $D$:
+       $Damage = \lfloor \frac{\lfloor \frac{2 \times L}{5} + 2 \rfloor \times Power \times \frac{A}{D}}{50} \rfloor + 2 \times \text{Random Factor}$
+     - Compute the expected damage range received with boosted Defense $D_{boosted}$.
+     - Find a scenario where the two ranges have distinct, non-overlapping minimums (e.g., unboosted range is 12-14, boosted range is 10-12).
+  5. **Perform Battle Tests**:
+     - Let the wild Pokémon hit us with the physical move.
+     - Record the exact HP lost.
+     - If we record damage values that are only possible under the boosted Defense calculation (such as 10 or 11 damage in the above example), we empirically prove that Koga's 12.5% Soul Badge Defense boost is active and functioning.
 
 <hr>
 
@@ -6341,6 +6354,18 @@ We have successfully completed our victory run and obtained BOTH critical progre
     3. **Reset Monitoring**: Note that leaving the Seafoam Islands map or fainting resets all boulders to their starting coordinates. We must strictly avoid leaving the cave once we begin a multi-floor boulder puzzle until it is completed.
 - **Turn 74482**: Tested collision on Row 53 buoy barrier by pressing 'Down' from (17, 52). Walk failed (visited 0 tiles, position remained at (17, 52)). This confirms that the buoy wall on Row 53 is completely solid and impassable across Route 19.
 - **Strategic Pivot**: Since Route 19 is blocked to the South, we will pivot to Route 21. We will use FLY to travel to Pallet Town, then use SURF on the water at the southern edge of Pallet Town to proceed south to Cinnabar Island.
+
+## Cinnabar Gym Blaine Matchup Preparation Strategy
+- **Opponent Profile**: Gym Leader Blaine utilizes a Fire-type lineup (typically Growlithe, Ponyta, Rapidash, Arcanine, all around Level 42-47).
+- **Type Effectiveness**: Fire is weak to Water, Ground, and Rock (taking 2x damage).
+- **GEMMY (Level 59 BLASTOISE) Offensive Plan**:
+  - **Priority Move 1: SURF** (Water, Special, Power 95, 100% Accuracy).
+    - *Calculation*: Benefitting from same-type attack bonus (STAB), base power becomes 142.5. Against Blaine's Fire-types, it deals 2x super-effective damage, yielding an effective base power of **285** with 100% accuracy.
+    - *Utility*: This is our ultimate sweeping move. At Level 59, GEMMY's Special stat will guarantee a one-shot KO on every single member of Blaine's team, entirely eliminating combat RNG.
+  - **Priority Move 2: HYDRO PUMP** (Water, Special, Power 120, 80% Accuracy).
+    - *Utility*: While even more powerful (effective base power 360), its 80% accuracy introduces unnecessary miss risk. We will only use this if SURF PP is fully depleted.
+  - **Priority Move 3: DIG** (Ground, Physical, Power 100, 100% Accuracy).
+    - *Utility*: Ground is also 2x super-effective against Fire, but in Gen 1 DIG is a 2-turn move, giving opponents a turn to act or use status moves. SURF is infinitely more efficient.
 
 <hr>
 

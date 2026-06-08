@@ -135,3 +135,16 @@
      - Repeat multiple times to eliminate coin-flip variance (if $S = O$, turn order is 50/50).
      - If SPARKY consistently moves first (100% over $\ge 10$ trials), the boosted speed $S_{boosted} > O$ is active, confirming the 12.5% Thunder Badge boost is functioning.
      - If turn order is randomized or the opponent consistently moves first, the boost is inactive.
+- **Defense Boost (Soul Badge) Audit Methodology**:
+  1. **Identify Defender's Defense**: View our active Pokémon's Defense stat $D$ (e.g., ROCKY's Defense is 36).
+  2. **Calculate Boosted Defense**: The boosted Defense should be $D_{boosted} = \lfloor 1.125 \times D \rfloor$ (e.g., $\lfloor 1.125 \times 36 \rfloor = 40$).
+  3. **Establish Attacker's Stats & Move**: Select a wild Pokémon (e.g., a Level 20 Rattata) whose Level $L$ and Attack stat $A$ are known, and that uses a physical move (like Tackle, base power 35) with no stat modifiers.
+  4. **Calculate Damage Ranges**:
+     - Compute the expected damage range received with unboosted Defense $D$:
+       $Damage = \lfloor \frac{\lfloor \frac{2 \times L}{5} + 2 \rfloor \times Power \times \frac{A}{D}}{50} \rfloor + 2 \times \text{Random Factor}$
+     - Compute the expected damage range received with boosted Defense $D_{boosted}$.
+     - Find a scenario where the two ranges have distinct, non-overlapping minimums (e.g., unboosted range is 12-14, boosted range is 10-12).
+  5. **Perform Battle Tests**:
+     - Let the wild Pokémon hit us with the physical move.
+     - Record the exact HP lost.
+     - If we record damage values that are only possible under the boosted Defense calculation (such as 10 or 11 damage in the above example), we empirically prove that Koga's 12.5% Soul Badge Defense boost is active and functioning.
