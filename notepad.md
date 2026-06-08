@@ -5787,16 +5787,13 @@ This route avoids almost all tall grass and has an extremely high success rate.
    - Walk Left 6 along Row 18 to (21, 18) [6 steps].
    - Climb Eastern Plateau stairs to (21, 16) [z=1] [2 steps].
    - Walk Left 5 to Column 16 at (16, 16) [z=1] [5 steps].
-   - Walk Left 10 steps along Row 16 (Koga's bridge) to Column 6 at (6, 16) [z=1] [10 steps].
-   - Walk Down 2 steps to (6, 18) [z=1] [2 steps].
-   - Walk Left 1 step to Column 5 at (5, 18) [z=1] [1 step].
-   - Walk Up 10 steps along Column 5 (fully passable horizontally at z=1 across Rows 14 and 15) to reach Koga's Western-West Plateau at (5, 8) [z=1] [10 steps].
-   - Walk Left 1 step to Column 4 at (4, 8) [z=1] [1 step].
-   - Walk Left 1 step to jump West (Left) over the Column 4 ledge onto ground level at (3, 8) [z=0] in the Northwest quadrant [1 step].
-   - Walk Up 1 step to Row 7 at (3, 7) [z=0] [1 step].
-   - Walk Right 16 steps along Row 7 to retrieve Warden's Gold Teeth at (19, 7) [z=0] [16 steps].
-   - Walk Left 16 steps back to (3, 7) [z=0] [16 steps].
-   - Walk Up 4 steps along Column 3 to enter the Secret House at (3, 3) [z=0] to get HM03 Surf [4 steps].
+   - Walk Right 11 steps along Row 16 (Koga's bridge) to Column 16 at (16, 16) [z=1]. Since we are currently at (5, 16) facing Down, we will use 'Right' to face Right, and subsequent 'Right's to walk all the way across Koga's bridge.
+   - Walk Up 7 steps along Column 16 from (16, 16) to (16, 9) [z=1] [7 steps].
+   - Face Right and press Right to jump East over the Column 17 checkered vertical ramp (which acts as a jump-down ledge in Gen 1) onto ground-level grass at (18, 9) [z=0] [1 step].
+   - Walk Right 1 to Column 19 at (19, 9) [z=0] [1 step].
+   - Walk Up 2 along Column 19 to stand on (19, 7) [z=0] and pick up the Warden's Gold Teeth [2 steps].
+   - Walk Up 2 steps to (19, 5) [z=0], Left 16 along Row 5 ground corridor to (3, 5) [z=0] [18 steps].
+   - Walk Up 2 steps along Column 3 to enter the Secret House at (3, 3) [z=0] and get Surf [2 steps].
 
 **Total Estimated Steps**: 232 steps.
 **Remaining Step Budget inside Secret House**: 268 steps remaining! This is well within our 500-step budget and mathematically guarantees success on foot!
