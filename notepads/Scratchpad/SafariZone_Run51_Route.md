@@ -1,5 +1,5 @@
-# Safari Zone Exploration - Run 51 (Turn 72700 - Active)
-- Current Status: Standing at (12, 30) [z=0] inside Safari Zone North (Map 0_218) on Turn 72700, facing DOWN with exactly 159 remaining steps in RAM.
+# Safari Zone Exploration - Run 51 (Turn 72705 - Active)
+- Current Status: Standing at (12, 25) [z=0] inside Safari Zone North (Map 0_218) on Turn 72705, facing UP with exactly 154 remaining steps in RAM. Currently in a wild battle with Nidoran♀.
 - Inventory Status: 15/20 items, 30 Safari Balls.
 - Money remaining: ¥64,817.
 
