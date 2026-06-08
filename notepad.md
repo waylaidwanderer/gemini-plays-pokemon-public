@@ -5750,11 +5750,11 @@ We are in a flawless tactical position!
 
 <h1><code>Scratchpad/SafariZone_Run46_Route</code></h1>
 
-# Safari Zone West Exploration - Run 46 (Turn 70999 - Active)
-- Current Status: Standing at (16, 12) in Fuchsia City (Map 0_7) on Turn 70999, facing UP. Ready to CUT the tree at (16, 11).
-- Inventory Status: 15/20 items, 29 Safari Balls.
-- Run 46 Remaining Steps: N/A (Escaped via DIG on Turn 70960 to reset steps).
-- Money remaining: ¥67,317.
+# Safari Zone West Exploration - Run 47 (Turn 71041 - Active)
+- Current Status: Standing at (20, 20) in Safari Zone Center (Map 0_220) on Turn 71041, facing DOWN.
+- Inventory Status: 15/20 items, 30 Safari Balls.
+- Run 47 Remaining Steps: 488 steps.
+- Money remaining: ¥66,817.
 
 ## Crucial Empirical Discoveries (Falsified Hypotheses)
 - **Column 17 Ledge Jump (FALSIFIED)**: On Turn 70949, we stood at (16, 12) [z=1] facing Up and pressed Right twice. Result: Direct collision (bump), remaining at (16, 12). This physically proves that checkered vertical ramps (Column 17) act as solid vertical walls horizontally in Gen 1, and no sideways/horizontal ledge jumps exist.
