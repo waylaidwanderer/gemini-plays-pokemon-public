@@ -12,8 +12,6 @@
 - **Turns 74245-74267**: Successfully tested and documented Strength overworld boulder mechanics inside the Warden's House. Collected the blocked item at (8, 3), which was a **RARE CANDY**. Verified map transitions reset boulder positions and deactivate Strength.
 
 ## Next Target: Route 19, Route 20, and Cinnabar Island
-- [x] **Locate Route 19 Entrance** (Completed Turn 74300)
-- [x] **Use SURF on Route 19** (Completed Turn 74330)
 - [ ] **Navigate to Seafoam Islands & Cinnabar Island**: Swim South along Route 19, then West along Route 20. Navigate through Seafoam Islands (Route 20) and continue West to Cinnabar Island.
 - [ ] **Defeat Blaine**: Secure our 7th badge (Volcano Badge) at Cinnabar Gym.
 
