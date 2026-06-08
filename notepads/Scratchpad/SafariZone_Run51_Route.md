@@ -28,6 +28,7 @@
     1. Backtrack Right 4 steps to Column 12 along Row 19: (8, 19) -> (12, 19) [z=0] [4 steps].
     2. Walk Up 10 steps along Column 12 to Row 9: (12, 19) -> (12, 9) [z=0] [10 steps].
     3. Test horizontal passability by walking Left along Row 9 towards Column 3.
+  - *Result*: FALSIFIED on Turn 72749. Column 11 Row 9 (11, 9) consists of deep water of TYPE_4e8c, which behaves as a solid block on the ground. Walking Left horizontally from Column 12 Row 9 (12, 9) is physically blocked. There is absolutely no ground-level bypass here. Koga's Western Plateau crossover is 100% mandatory.
 - **Route to Northwest transition if Row 9 is unblocked**:
   1. Walk Right 4 steps to (12, 19) [z=0] -> **4 steps**.
      - Remaining steps: 144 - 4 = **140 remaining steps**.
