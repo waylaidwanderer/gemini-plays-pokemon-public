@@ -5992,8 +5992,8 @@ We are in a flawless tactical position!
 
 <h1><code>Scratchpad/SafariZone_Run52_Route</code></h1>
 
-# Safari Zone Exploration - Run 52 (Turn 72903 - Active)
-- Current Status: Standing at (17, 24) [z=0] inside Safari Zone East (Map 0_217) on Turn 72903, facing UP with exactly 429 remaining steps in RAM.
+# Safari Zone Exploration - Run 52 (Turn 72933 - Active)
+- Current Status: Standing at (17, 6) [z=1] inside Safari Zone East (Map 0_217) on Turn 72933, facing LEFT with exactly 385 remaining steps in RAM.
 - Inventory Status: 15/20 items, 30 Safari Balls.
 - Money remaining: ¥64,317.
 
@@ -6001,14 +6001,12 @@ We are in a flawless tactical position!
 
 ### 2. Safari Zone East Traversal [84 steps] (In Progress)
 - Enter at (0, 23).
-- Walk to (4, 21) [z=0]: Down 1 to (0, 24), Right 4 to (4, 24), Up 3 to (4, 21) -> **8 steps** (Completed, Turn 72888).
-- Walk to (17, 24) [z=0]: Down 3 to (4, 24), Right 13 to (17, 24) -> **16 steps** (Completed, Turn 72895).
-- Climb Koga's Eastern stairs to (20, 20) [z=1]: Up 2 to (17, 22), Right 3 to (20, 22), Up 2 to climb stairs to (20, 20) [z=1] -> **7 steps** (In Progress).
-- Cross plateau horizontally: Left 8 to (12, 20) [z=1] -> **8 steps**.
-- Descend Koga's Western stairs: Down 2 to (12, 22) [z=0] -> **2 steps**.
-- Walk Up Column 9 to (12, 6): Left 3 to (9, 22), Up 12 to (9, 10), Right 1 to (10, 10), Up 2 to (10, 8), Right 2 to (12, 8), Up 2 to (12, 6) -> **22 steps** [z=1].
-- Cross Koga's Northern plateau horizontally: Right 5 to (17, 6) [z=1] -> **5 steps**.
-- Descend Koga's Eastern stairs: Down 2 to (17, 8) [z=0] -> **2 steps**.
+- Climb Koga's Eastern stairs to (20, 20) [z=1] -> **7 steps** (Completed, Turn 72908).
+- Cross plateau horizontally: Left 8 to (12, 20) [z=1] -> **8 steps** (Completed, Turn 72914).
+- Descend Koga's Western stairs: Down 2 to (12, 22) [z=0] -> **2 steps** (Completed, Turn 72915).
+- Walk Up Column 9 to (12, 6): Left 3 to (9, 22), Up 12 to (9, 10), Right 1 to (10, 10), Up 2 to (10, 8), Right 2 to (12, 8), Up 2 to (12, 6) -> **22 steps** [z=1] (Completed, Turn 72924).
+- Cross Koga's Northern plateau horizontally: Right 5 to (17, 6) [z=1] -> **5 steps** (Completed, Turn 72928).
+- Descend Koga's Eastern stairs: Down 2 to (17, 8) [z=0] -> **2 steps** (In Progress).
 - Walk to transition at (0, 3)/(0, 5) to Safari Zone North: Right 4 to (21, 8), Up 5 to (21, 3), Left 21 to (0, 3), Left 1 to transition -> **31 steps**.
 - Remaining steps upon transition to North: 472 - 84 = **388 remaining steps**.
 
