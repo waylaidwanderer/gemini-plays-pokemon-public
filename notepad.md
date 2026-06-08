@@ -6258,4 +6258,9 @@ We have successfully completed our victory run and obtained BOTH critical progre
 5. **Return to Fuchsia City**: Fly back to Fuchsia City.
 6. **Obtain Warden's House Item**: Enter Warden's House (Map 0_155), activate Strength, push the boulder at (8, 4), and retrieve the item at (8, 3).
 
+## Combat Preparation & Navigation Plan
+- **Gym Leader Erika's Lineup**: Victreebel (L29), Tangela (L24), Vileplume (L29).
+- **Combat Strategy**: While Erika uses Grass-type Pokémon, GEMMY (Level 58 BLASTOISE) has a massive level advantage. GEMMY can easily sweep using **BITE** (high physical damage, neutral effectiveness) and **DIG** (ground-type). There is no need for excessive grinding or switching.
+- **Gym Navigation & Obstacles**: Celadon Gym is located in the south of Celadon City. The path to the gym is blocked by a cuttable tree. PETAL (BELLSPROUT) is in our active party and knows **CUT**, allowing us to clear the tree and enter the Gym immediately.
+
 <hr>
