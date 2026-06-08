@@ -6595,9 +6595,9 @@ We have successfully completed our victory run and obtained BOTH critical progre
   - Statue 4: (TBD, TBD) | State: [ ] Default
 - **Secret Key**:
   - Coordinates: (TBD, TBD) | State: [ ] Uncollected
-- Turn 74979: Explored the eastern room's western side on 1F. Found that the room ends at Column 9 on the left (solid wall TYPE_2889).
-  - Row 8 has a path starting at Column 12 (12, 8 is open floor TYPE_3fe2).
-  - Rubble (TYPE_2889) blocks Columns 8-11 on Rows 8-9.
-  - Let's proceed South down this column 12 corridor.
+- **Eastern Room & Western Corridor**:
+  - The large eastern room of 1F is bounded on the left by a solid wall (TYPE_2889) at Column 9.
+  - Rubble (TYPE_2889) blocks columns 8 to 11 on Rows 8 and 9.
+  - A passable corridor on Column 12 (open floor TYPE_3fe2) starts at Row 7 and goes South to Row 11, connecting the eastern room to the southern corridor.
 
 <hr>
