@@ -5805,17 +5805,17 @@ We are in a flawless tactical position!
 
 <h1><code>Scratchpad/SafariZone_Run48_Route</code></h1>
 
-# Safari Zone West Exploration - Run 50 (Turn 72061 - Active)
-- Current Status: Standing at (27, 0) in Safari Zone West (Map 0_219) on Turn 72061, facing DOWN with exactly 341 remaining steps in RAM.
+# Safari Zone West Exploration - Run 50 (Turn 72066 - Active)
+- Current Status: Standing at (27, 10) in Safari Zone West (Map 0_219) on Turn 72066, facing DOWN with exactly 331 remaining steps in RAM.
 - Inventory Status: 15/20 items, 30 Safari Balls.
-- Run 50 Remaining Steps: 341 steps remaining.
+- Run 50 Remaining Steps: 331 steps remaining.
 - Money remaining: ¥65,317.
 
 ## Active Run 50 Master Campaign Plan
 
-### 1. Traverse Safari Zone West [109 steps total]
-- Currently standing at (27, 0) [z=0] on ground level.
-- Walk Down 18 steps along Column 27 to (27, 18) [z=0] [18 steps].
+### 1. Traverse Safari Zone West [99 steps remaining]
+- Currently standing at (27, 10) [z=0] on ground level.
+- Walk Down 8 steps along Column 27 to (27, 18) [z=0] [8 steps].
 - Walk Left 6 steps along Row 18 to (21, 18) [z=0] [6 steps].
 - Walk Up 2 steps along Column 21 to climb Eastern stairs to Koga's bridge at (21, 16) [z=1] [2 steps].
 - Walk Left 10 steps along Row 16 Koga's bridge to (11, 16) [z=1] [10 steps].
@@ -5840,7 +5840,7 @@ We are in a flawless tactical position!
 - **Enter Secret House at (3, 3) to get HM03 Surf**:
   - Walk Left 16 steps along Row 7 to (3, 7) [z=0] [16 steps].
   - Walk Up 4 steps along Column 3 to enter the Secret House at (3, 3) [z=0] [4 steps].
-- Total West segment cost: 109 steps.
+- Total West segment cost: 99 steps from (27, 10).
 
 **Total Estimated Steps for Run 50**: 28 (Center) + 120 (East) + 59 (North) + 109 (West) = 316 steps.
 **Remaining Step Budget inside Secret House**: 500 - 316 = 184 steps remaining! Absolute mathematical guarantee of success!
