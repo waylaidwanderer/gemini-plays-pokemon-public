@@ -47,3 +47,4 @@
     - *Utility*: While even more powerful (effective base power 360), its 80% accuracy introduces unnecessary miss risk. We will only use this if SURF PP is fully depleted.
   - **Priority Move 3: DIG** (Ground, Physical, Power 100, 100% Accuracy).
     - *Utility*: Ground is also 2x super-effective against Fire, but in Gen 1 DIG is a 2-turn move, giving opponents a turn to act or use status moves. SURF is infinitely more efficient.
+- **Turn 74578**: Decided to perform a quick FLY healing run to Fuchsia City. SPARKY's Thunderbolt is at 0 PP and he is at 32/65 HP. Healing at Fuchsia Pokémon Center (lands at 19, 28, center door is 19, 27) and then FLY back to Pallet Town (lands at 5, 6) to resume Route 21 South traversal with a fully healthy SPARKY to sweep swimmers.
