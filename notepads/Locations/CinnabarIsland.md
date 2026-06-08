@@ -30,3 +30,8 @@
   - Surf down Columns 1 or 2 to Row 4, which is the southern shoreline.
   - Walk East onto the grass tiles on Row 4 (Columns 4-7 are passable grass) to step on solid land.
   - Once on land, navigate the island to locate the Pokémon Center.
+
+## Landmarks & Building Coordinates (Turn 74825)
+- **Pokémon Gym**: Located at the top-right of the island. Locked entrance door is at (18, 3). Stepping on Row 4 Column 18 triggers the locked door text and pushes the player south to (18, 5).
+- **Pokémon Center**: Entrance door is at (11, 11) (Map 0_8).
+- **Pokémon Mart**: Located east of the Pokémon Center. Entrance door is at (15, 11) (Map 0_8).
