@@ -28,9 +28,15 @@ We are on Run 53 with 500 steps, which is guaranteed to complete the double retr
   - Walk Left 4 steps along Row 20 to reach Column 12 at (12, 20) [z=1] -> **4 steps** (In Progress, currently at (16, 20) [z=1], 420 remaining).
   - Walk Down 2 steps to descend Koga's Western stairs to ground level at (12, 22) [z=0] -> **2 steps** (remaining: 414).
   - Walk Left 3 steps along Row 22 to Column 9 at (9, 22) [z=0] -> **3 steps** (remaining: 411).
-  - Walk Up 19 steps vertically along Column 9 to Row 3 at (9, 3) [z=0] -> **19 steps** (remaining: 392).
-  - Walk Left 9 steps along Row 3 to Column 0 at (0, 3) [z=0] -> **9 steps** (remaining: 383).
-  - Walk Left 1 step to transition into Safari Zone North (Map 0_218) at (39, 31) [z=0] -> **1 step** (remaining: 382).
+  - Walk Up 14 steps vertically along Column 9 to Row 8 at (9, 8) [z=0] -> **14 steps**.
+  - Walk Right 1 step to Column 10 at (10, 8) [z=0] -> **1 step**.
+  - Walk Up 2 steps to climb Northern stairs to (12, 6) [z=1] -> **2 steps**.
+  - Walk Right 5 steps across Northern Plateau to (17, 6) [z=1] -> **5 steps**.
+  - Walk Down 2 steps to descend Eastern stairs to (17, 8) [z=0] -> **2 steps**.
+  - Walk Right 3 steps to (20, 8) [z=0] -> **3 steps**.
+  - Walk Up 3 steps to reach Row 5 at (20, 5) [z=0] -> **3 steps**.
+  - Walk Left 12 steps along Row 5 to Column 8 at (8, 5) [z=0] -> **12 steps**.
+  - Walk Left 8 steps along Row 5 to transition into Safari Zone North (Map 0_218) at (39, 31) [z=0] -> **8 steps** (remaining: 355).
 - Victory Budget Analysis: Spending 53 steps to reach (1, 24) and 23 steps to climb the Southern Plateau leaves exactly 424 steps of our 500-step budget. This leaves our massive safety surplus of 274 steps inside the Secret House fully intact, guaranteeing absolute victory on Run 53.
 
 ## Run 53 Grass-Free Detour & Socratic Verification (Turn 73414)
