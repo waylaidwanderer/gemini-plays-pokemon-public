@@ -12,10 +12,10 @@
 - **Turns 74245-74267**: Successfully tested and documented Strength overworld boulder mechanics inside the Warden's House. Collected the blocked item at (8, 3), which was a **RARE CANDY**. Verified map transitions reset boulder positions and deactivate Strength.
 
 ## Next Target: Route 19, Route 20, and Cinnabar Island
-1. **Locate Route 19 Entrance**: From our current location (19, 28) on the West side of the Fuchsia City ledge, navigate South to the beach on the southern boundary of the city.
-2. **Use SURF**: Interact with the water on Route 19 using GEMMY (L59 BLASTOISE) to begin sea travel.
-3. **Navigate to Seafoam Islands & Cinnabar Island**: Swim South along Route 19, then West along Route 20. Navigate through Seafoam Islands (Route 20) and continue West to Cinnabar Island.
-4. **Defeat Blaine**: Secure our 7th badge (Volcano Badge) at Cinnabar Gym.
+- [x] **Locate Route 19 Entrance** (Completed Turn 74300)
+- [x] **Use SURF on Route 19** (Completed Turn 74330)
+- [ ] **Navigate to Seafoam Islands & Cinnabar Island**: Swim South along Route 19, then West along Route 20. Navigate through Seafoam Islands (Route 20) and continue West to Cinnabar Island.
+- [ ] **Defeat Blaine**: Secure our 7th badge (Volcano Badge) at Cinnabar Gym.
 
 ## Water Routes & Seafoam Islands Strategic Plans (Turn 74313)
 - **Water Combat Tactical Plan**:
