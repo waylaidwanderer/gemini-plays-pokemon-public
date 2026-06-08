@@ -33,3 +33,6 @@
   - **Turn 74245**: Standing at (4, 7). Walk to (7, 4) and face Right.
   - **Turn 74247**: Baseline Test. Standing at (7, 4) facing Right, we pressed Right to walk into the boulder at (8, 4) without Strength active.
     - *Result*: Movement blocked (visited 0 tiles), player remained at (7, 4). This proves that the boulder is solid and impassable by default. Baseline established!
+  - **Turn 74258**: Standing at (8, 4) facing Up, we pressed A.
+    - *Result*: Successfully picked up the overworld Poké Ball at (8, 3), which was a **RARE CANDY**.
+  - **Turn 74261**: Initiating Map Transition Test to verify boulder coordinates and Strength state deactivation. Walked Left 4 times and Down 4 times to exit the Warden's House to Fuchsia City.
