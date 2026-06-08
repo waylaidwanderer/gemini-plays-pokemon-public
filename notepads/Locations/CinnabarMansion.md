@@ -16,7 +16,7 @@
 
 ## 1F: Ground Floor Exploration State
 - **Stairs**:
-  - Up to 2F: Located at (TBD, TBD)
+  - Up to 2F: Located at (5, 10) (Verified Turn 74945)
 - **Switches & Gates**:
   - Statue 1: (TBD, TBD) | State: [ ] Default
 - **Items**:
