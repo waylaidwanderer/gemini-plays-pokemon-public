@@ -5773,16 +5773,14 @@ Since we only have 125 steps remaining on Run 46, we will DIG out immediately on
 1. **Traverse Safari Zone Center (Map 0_220)** [28 steps]:
    - From (15, 25), walk to (29, 11) and transition to Safari Zone East.
 
-2. **Traverse Safari Zone East (Map 0_217)** [56 steps]:
-   - From (0, 23), walk Right 4 to (4, 23) [4 steps], Down 1 to (4, 24) [1 step], Right 5 to (9, 24) [5 steps], Up 2 to (9, 22) [2 steps], Right 11 to (20, 22) [11 steps].
+2. **Traverse Safari Zone East (Map 0_217)** [47 steps]:
+   - From (0, 23), walk Right 4 to (4, 23) [4 steps], Down 1 to (4, 24) [1 step], Right 13 to (17, 24) [13 steps].
+   - Walk Up 2 steps to (17, 22) [2 steps], Right 3 steps to (20, 22) [3 steps].
    - Walk Up 1 step to climb stairs at (20, 21) onto plateau at (20, 20) [z=1] [1 step].
    - Walk Left 8 steps across plateau crossover to (12, 20) [z=1] [8 steps].
    - Walk Down 1 step to descend West Plateau stairs at (12, 21) to ground level at (12, 22) [z=0] [1 step].
    - Walk Left 3 steps to Column 9 at (9, 22) [3 steps].
-   - Walk Up 12 steps along Column 9 to (9, 10) [12 steps].
-   - Bypass tall grass: Right 1 to (10, 10) [1 step], Up 2 to (10, 8) [2 steps], Left 1 to (9, 8) [1 step].
-   - Walk Up 5 steps along Column 9 to (9, 3) [5 steps].
-   - Walk Left 9 steps along Row 3 to (0, 3) and transition to Safari Zone North [9 steps].
+   - Walk Up 11 steps directly along Column 9 to (9, 11) [11 steps]. (This provides the most direct, optimal grass-free ground corridor to transition to Safari Zone North).
 
 3. **Traverse Safari Zone North (Map 0_218)** [84 steps]:
    - Enter at (39, 31). Walk along Row 31 to (28, 31) [11 steps].
