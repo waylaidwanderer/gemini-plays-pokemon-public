@@ -6239,33 +6239,23 @@ We have successfully completed our victory run and obtained BOTH critical progre
 
 <h1><code>Scratchpad/PostSafari_Plan</code></h1>
 
-# Post-Safari Zone Route & Progression Plan (Turn 73831)
+# Post-Safari Zone Route & Progression Plan
 
-## Location Correction:
-- Map 0_158 is the Fuchsia Meeting Room (Safari Zone Bureau), NOT the Warden's House!
-- The NPC at (10, 1) is a staff member.
-- The NPC at (0, 2) is the Warden's pet Slowpoke.
-- The NPC at (4, 1) is the youngster/Slowpoke.
-- The real Warden's House is Map 0_157, located in the south-eastern part of Fuchsia City.
+## Historical Progress & Verification
+- **Turn 73908**: Entered the real Warden's House (Map 0_155) at Fuchsia City (27, 27). Inside, the Warden is at (2, 3), and a pushable boulder is at (8, 4) blocking an item at (8, 3).
+- **Turn 73918**: Talked to the Warden and delivered his Gold Teeth. Received **HM04 Strength**.
+- **Turn 73929**: Taught HM04 Strength to ROCKY (GEODUDE) in our party.
+- **Turn 73938**: Attempted to use ROCKY's STRENGTH field move from the Pokémon party menu while standing at (7, 4) in front of the boulder.
+  - *Result*: The game displayed the text: "No! A new BADGE is required."
+  - *Verification*: We currently possess 5 badges (Thunder Badge, Cascade Badge, Marsh Badge, Soul Badge, and Boulder Badge) but lack the Rainbow Badge. In Generation 1, the Rainbow Badge (obtained from Erika in Celadon City) is required to use Strength in the overworld.
+  - *Conclusion*: We cannot push the boulder at (8, 4) yet. We must obtain the Rainbow Badge first.
 
-## Plan:
-1. Exit Fuchsia Meeting Room (Map 0_158) from (4, 7).
-2. Walk to the south-eastern houses in Fuchsia City to find Map 0_157 (Warden's House).
-3. Enter Warden's House (Map 0_157).
-4. Talk to the Warden (the real Warden!) to deliver his Gold Teeth and receive HM04 Strength.
-5. Teach Strength to ROCKY (GEODUDE).
-
-## Socratic Verification Plan (Turn 73867):
-- **Finding the Real Warden's House**: We will walk Down along Column 24 to find the fence opening, walk Right, and then stand at (27, 29) to read the overworld signpost. The signpost should confirm it is the Warden's House.
-- **Resolving the Map 0_157 Gym vs. House Conflict**: Once we enter the Warden's House, we will immediately look at the `<Location><Map>` game state field to verify its true map ID and correct any discrepancies in our permanent regional notepads.
-
-- Turn 73899: Signpost at (27, 29) successfully read. It says "SAFARI ZONE WARDEN'S HOME"! This empirically proves that the left building with the door at (27, 27) is indeed the real Warden's House. We will now dismiss the text box, step UP into the building, and identify its map ID to resolve our regional map conflict.
-
-- Turn 73915: Entered the real Warden's House (Map 0_155). The overworld game state and screenshot confirm we are at (4, 7). The Warden is standing at (2, 3). The pushable boulder is visible at (8, 4) blocking an item at (8, 3). 
-- Verification complete: Map 0_157 is indeed Fuchsia Gym, and Map 0_155 is the Warden's House! 
-- Plan to reach Warden:
-  1. Walk Left 2 steps, Up 3 steps to stand at (2, 4) facing UP.
-  2. Press A to talk to the Warden and hand over his Gold Teeth to receive HM04 Strength.
-Let's execute the movement to (2, 4).
+## New Progression Route: Celadon City Gym
+1. **Exit Warden's House**: Return to Fuchsia City overworld.
+2. **Fly to Celadon City**: Use BIRBIE's FLY move to travel to Celadon City.
+3. **Navigate to Celadon Gym**: Locate Erika's Gym in Celadon City.
+4. **Defeat Erika**: Defeat Erika to obtain the **Rainbow Badge** (and TM21 Mega Drain).
+5. **Return to Fuchsia City**: Fly back to Fuchsia City.
+6. **Obtain Warden's House Item**: Enter Warden's House (Map 0_155), activate Strength, push the boulder at (8, 4), and retrieve the item at (8, 3).
 
 <hr>
