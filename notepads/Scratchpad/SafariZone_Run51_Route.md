@@ -1,17 +1,19 @@
-# Safari Zone Exploration - Run 51 (Turn 72437 - Active)
-- Current Status: Standing at (20, 3) [z=0] inside Safari Zone East (Map 0_217) on Turn 72437, facing UP with exactly 380 remaining steps.
+# Safari Zone Exploration - Run 51 (Turn 72451 - Active)
+- Current Status: Standing at (6, 3) [z=0] inside Safari Zone East (Map 0_217) on Turn 72451, facing DOWN with exactly 359 remaining steps.
 - Inventory Status: 15/20 items, 30 Safari Balls.
 - Money remaining: ¥64,817.
 
 ## Master Run 51 Campaign Plan & Route (The Ultimate Double Retrieval)
 
 ### 1. Symmetrical Traversals to Safari Zone West (East Segment - Active)
-- Current Position: (20, 3) [z=0] in Safari Zone East, facing UP.
+- Current Position: (6, 3) [z=0] in Safari Zone East, facing DOWN.
 - Precise Path to Safari Zone North Transition:
-  1. Walk Row 3 Corridor: Left 20 steps to Column 0 at (0, 3) [z=0] -> **20 steps**.
-  2. Transition: Left 1 step into Safari Zone North at (39, 31) [z=0] -> **1 step**.
-  - Total Steps to Safari Zone North transition: **21 steps**.
-  - Expected remaining steps upon entry to Safari Zone North: 380 - 21 = **359 steps remaining**.
+  1. Walk Right 1 step to (7, 3) [z=0] -> **1 step**.
+  2. Walk Down 2 steps along Column 7 to (7, 5) [z=0] -> **2 steps**.
+  3. Walk Left 7 steps along Row 5 to Column 0 at (0, 5) [z=0] -> **7 steps**.
+  4. Transition: Left 1 step into Safari Zone North at (39, 31) [z=0] -> **1 step**.
+  - Total Steps to Safari Zone North transition: **11 steps**.
+  - Expected remaining steps upon entry to Safari Zone North: 359 - 11 = **348 steps remaining**.
 
 - Transition to North (Map 0_218) at (39, 31). Walk along Row 31 to (28, 31), climb Eastern stairs at (28, 27) [climbing from (28, 28)] onto plateau, descend Western stairs at (16, 27) [descending to (16, 28)], walk to Column 9 Row 30, and walk Down along Column 9 to transition to Safari Zone West at (27, 0) -> **40 steps**.
 - Transition to West (Map 0_219) at (27, 0).
