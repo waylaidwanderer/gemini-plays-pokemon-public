@@ -3429,6 +3429,7 @@ else:
   - However, Column 17 Row 23 is open clear grass (TYPE_3fe2), and Column 17 Row 22 is open clear grass (TYPE_3fe2), creating a vertical ground-level opening.
   - Row 22 Column 16 is a solid tree wall (TYPE_2889), which prevents horizontal traversal on Row 22 on the West side of Column 17.
   - Therefore, the optimal path from the West entry (0, 23) to the East plateau stairs at (20, 21) is: walk East on Row 24 to Column 17, step Up vertically to Row 22, and then continue East on Row 22. This completely avoids the longer detour to Column 9 on ground level. (Tested and verified on Turn 71081)
+- **Koga's Plateau Western Cliff Wall (Column 10, Rows 4-7)**: Visually and physically verified on Turn 72950 that Column 10 consists of solid cliff walls of TYPE_2889 on Rows 4-7 at ground level (z=0). Walking Down from (10, 3) or Right from Column 9 into Column 10 on these rows results in a physical collision (bump). This blocks ground-level traversal and requires routing via Column 9.
 
 <hr>
 
