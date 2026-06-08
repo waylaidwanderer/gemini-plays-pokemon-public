@@ -6491,6 +6491,7 @@ We have successfully completed our victory run and obtained BOTH critical progre
 - **Fisherman (6, 25)**: Defeated on Turn 74690. Uses six Level 27 Magikarps. Stands on the northern wooden pier structure. Marked with a ☠️ map marker.
 - **Swimmer (5, 71)**: Defeated on Turn 74758. Uses Level 33 Staryu and Level 33 Wartortle. Marked with a ☠️ map marker.
 - **Surfing Progress (Turn 74767)**: Continuing south along the central water channel on Route 21. Reached Row 74.
+- **Cinnabar Boundary Topography (Turn 74776)**: At the southern terminus of Route 21 (Row 86+), a building roof (Cinnabar Gym/Lab) starts at (4, 90) extending East. The western channel at Columns 1-2 is open water (TYPE_4e8c) providing a safe bypass into Cinnabar Island, while the cliff wall is at Column 0 (TYPE_2889).
 
 <hr>
 
