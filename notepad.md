@@ -5863,38 +5863,36 @@ We are in a flawless tactical position!
 - Transition to West (Map 0_219) at (27, 0).
 - Total Steps to reach Safari Zone West: **136 steps** (leaving 364 steps in RAM).
 
-### 2. Southwest Ground-Level Detour in Safari Zone West [32 steps] (Active)
-- Standing at (27, 0) [z=0].
-- Walk Down 18 steps along Column 27 to Row 18: (27, 0) -> (27, 18) [z=0] [18 steps].
-- Walk Left 6 steps along Row 18 to Column 21: (27, 18) -> (21, 18) [z=0] [6 steps].
-- Walk Up 2 steps along Column 21 to climb Koga's East stairs to Koga's bridge at (21, 16) [z=1] [2 steps].
-- Walk Left 15 steps along Koga's bridge (Row 16) to Column 6 at (6, 16) [z=1] [15 steps].
-- Walk Down 3 steps to Koga's Western stairs at (6, 19) [z=1] [3 steps].
-- Walk Down 1 step to descend Koga's Western stairs to ground level at (6, 20) [z=0] [1 step].
-- Walk Left 1 step to (5, 20) [z=0] (tall grass) [1 step].
-- Walk Left 1 step to (4, 20) [z=0] (tall grass) [1 step].
-- Walk Left 1 step to (3, 20) [z=0] (tall grass) [1 step].
-- Walk Left 1 step to (2, 20) [z=0] (tall grass) [1 step].
-- Walk Up 6 steps along Column 2 to Row 14 at (2, 14) [z=0] [6 steps].
-- Walk Right 8 steps along Row 14 to Column 10 at (10, 14) [z=0] [8 steps].
-- Total Steps to reach (10, 14) [z=0]: **63 steps** (leaving 265 steps in RAM).
+### 2. Southwest Ground-Level Detour in Safari Zone West (Completed Test & Backtrack)
+- Standing at (10, 12) [z=0] on Turn 72551 with exactly 262 remaining steps.
+- Completed southwest detour and verified that Column 10 Row 11 is blocked by Rest House 3's solid building wall at (10, 11).
+- This proves Koga's plateau crossover is 100% mandatory to reach the Northwest quadrant on foot.
 
-### 3. Systematic Foot-Testing of Column 10 Row 11-13 [4 steps]
-- From (10, 14) [z=0], walk Up 1 step to (10, 13) [z=0] [1 step].
-- Walk Up 1 step to (10, 12) [z=0] [1 step].
-- Walk Up 1 step to (10, 11) [z=0] [1 step].
-- Walk Up 1 step to (10, 10) [z=0] [1 step].
-- This test systematically isolates turn-in-place frames and dynamic NPCs to prove Column 10 passability.
-- If successful, walk Up 3 steps to Row 7 at (10, 7) [z=0] [3 steps].
-- Walk Left 1 step to stand adjacent to the Warden's Gold Teeth at (9, 7) [z=0] [1 step].
-- Press 'A' to retrieve the Warden's Gold Teeth! [0 steps].
-- Total Steps to retrieve Gold Teeth: **72 steps** (leaving 292 steps in RAM).
+### 3. Canonical 3D Plateau Crossover to Northwest [36 steps] (Active)
+- Path to reach Koga's Western Stairs on ground level at (6, 20) [z=0]:
+  - From (10, 12) [z=0], walk Down 2 steps to Row 14: (10, 12) -> (10, 14) [z=0] [2 steps].
+  - Walk Left 8 steps along Row 14 to Column 2: (10, 14) -> (2, 14) [z=0] [8 steps].
+  - Walk Down 6 steps along Column 2 to Row 20: (2, 14) -> (2, 20) [z=0] [6 steps].
+  - Walk Right 4 steps along Row 20 to Column 6: (2, 20) -> (6, 20) [z=0] [4 steps].
+  - Total backtracking steps: **20 steps**. (Remaining: 242 steps)
+- Path to climb Western stairs and cross Koga's bridge crossover to Column 16:
+  - From (6, 20) [z=0], walk Up 2 steps along Column 6 to climb Western stairs to (6, 18) [z=1] [2 steps].
+  - Walk Up 2 steps along Column 6 to Koga's bridge crossover at (6, 16) [z=1] [2 steps].
+  - Walk Right 11 steps along Row 16 of Koga's bridge to Column 17 at (17, 16) [z=1] [11 steps].
+  - Total bridge crossover steps: **15 steps**. (Remaining: 227 steps)
+- Path to transition from plateau to ground level (z=0) on North side:
+  - From (17, 16) [z=1], walk Up 11 steps vertically along Column 17 to land on ground level at (17, 5) [z=0] across the sloped checkered ramp [11 steps].
+  - Total ramp descent steps: **11 steps**. (Remaining: 216 steps)
+  - Total steps to transition to North side: **46 steps** (leaving 216 steps in RAM).
 
-### 4. Reach Secret House and Retrieve HM03 Surf [10 steps]
-- From the Warden's Gold Teeth at (9, 7) [z=0], walk Up 2 steps to Row 5 corridor at (9, 5) [z=0] [2 steps].
-- Walk Left 6 steps along Row 5 ground corridor to Column 3 at (3, 5) [z=0] [6 steps].
-- Walk Up 2 steps along Column 3 to enter the Secret House at (3, 3) [z=0] [2 steps] and get HM03 Surf!
-- Total Steps to retrieve Surf: **82 steps** (leaving 282 steps in RAM).
+### 4. Retrieve Warden's Gold Teeth & HM03 Surf [24 steps]
+- From (17, 5) [z=0], walk Right 2 steps along Row 5 to Column 19: (19, 5) [z=0] [2 steps].
+  - Walk Down 2 steps along Column 19 to stand on (19, 7) [z=0] [2 steps] and pick up Warden's Gold Teeth.
+  - Total Gold Teeth steps: **4 steps** (leaving 212 steps in RAM).
+- From Warden's Gold Teeth at (19, 7) [z=0], walk Up 2 steps to Row 5 ground corridor at (19, 5) [2 steps].
+  - Walk Left 16 steps along Row 5 ground corridor to Column 3 at (3, 5) [z=0] [16 steps].
+  - Walk Up 2 steps along Column 3 to enter the Secret House at (3, 3) [z=0] [2 steps] and get HM03 Surf!
+  - Total Secret House steps: **20 steps** (leaving 192 steps in RAM).
 
 ### Step Counter Math & Verification
 - Overall Step Budget: 500 steps.
