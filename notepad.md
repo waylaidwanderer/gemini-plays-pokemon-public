@@ -5814,11 +5814,11 @@ We are in a flawless tactical position!
    - Walk Left 9 steps along Row 5 to (0, 5) and transition to Safari Zone North [9 steps].
 
 3. **Traverse Safari Zone North (Map 0_218)** [71 steps from (18, 10)]:
-   - We are currently at (18, 10) [z=0].
-   - Walk Up 1 to (18, 9) [1 step].
-   - Walk Left 3 to (15, 9) [3 steps].
-   - Walk Down 23 to (15, 32) [23 steps].
-   - Walk Left 11 along Row 32 to (4, 32) [11 steps].
+   - We are currently at (13, 27) [z=0].
+   - Walk Down 3 to (13, 30) [3 steps].
+   - Walk Left 1 to (12, 30) [1 step].
+   - Walk Down 2 to (12, 32) [2 steps].
+   - Walk Left 8 along Row 32 to (4, 32) [8 steps].
    - Walk Up 6 along Column 4 to (4, 26) [6 steps].
    - Walk Left 1 to (3, 26) [1 step].
    - Walk Up 23 along Column 3 to (3, 3) [23 steps].
