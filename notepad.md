@@ -5788,10 +5788,15 @@ This route avoids almost all tall grass and has an extremely high success rate.
    - Climb Eastern Plateau stairs to (21, 16) [z=1] [2 steps].
    - Walk Left 5 to Column 16 at (16, 16) [z=1] [5 steps].
    - Walk Up 8 steps along Column 16 to Row 8 at (16, 8) [z=1] [8 steps].
-   - Walk Left 6 steps along Row 8 to (10, 8) [z=1] [6 steps].
-   - Walk Down 1 step to descend the Western-West Plateau stairs to (10, 9) [z=0] on ground level in the northern quadrant [1 step].
-   - Walk Left 7 steps to (3, 9) [z=0] [7 steps].
-   - Walk Up 2 steps to Row 7 at (3, 7) [z=0] [2 steps].
+   - Walk Left 2 steps along Row 8 to Column 14 at (14, 8) [z=1] [2 steps].
+   - Walk Down 4 steps along Column 14 (descending the stairs) to (14, 12) [z=0] [4 steps].
+   - Walk Left 1 step to (13, 12) [z=0] [1 step].
+   - Walk Up 2 steps along Column 13 to (13, 10) [z=0] [2 steps].
+   - Walk Left 3 steps along Row 10 to (10, 10) [z=0] [3 steps].
+   - Walk Up 1 step to climb Koga's Western-West Plateau stairs at (10, 9) [z=0] to land at (10, 8) [z=1] on the plateau [1 step].
+   - Walk Left 6 steps along Row 8 to Column 4 at (4, 8) [z=1] [6 steps].
+   - Walk Left 1 step to jump West (Left) over the Column 4 ledge onto (3, 8) [z=0] in the Northwest quadrant [1 step].
+   - Walk Up 1 step to Row 7 at (3, 7) [z=0] [1 step].
    - Walk Right 16 steps along Row 7 to retrieve Warden's Gold Teeth at (19, 7) [z=0] [16 steps].
    - Walk Left 16 steps back to (3, 7) [z=0] [16 steps].
    - Walk Up 4 steps along Column 3 to enter the Secret House at (3, 3) [z=0] to get HM03 Surf [4 steps].
