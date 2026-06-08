@@ -5805,24 +5805,23 @@ We are in a flawless tactical position!
 
 <h1><code>Scratchpad/SafariZone_Run48_Route</code></h1>
 
-# Safari Zone West Exploration - Run 50 (Turn 72129 - Active)
-- Current Status: Standing at (6, 20) in Safari Zone West (Map 0_219) on Turn 72129, facing UP with approximately 300 remaining steps in RAM.
+# Safari Zone West Exploration - Run 50 (Turn 72151 - Active)
+- Current Status: Standing at (21, 18) in Safari Zone West (Map 0_219) on Turn 72151, facing DOWN with exactly 281 remaining steps in RAM.
 - Inventory Status: 15/20 items, 30 Safari Balls.
-- Run 50 Remaining Steps: ~300 steps remaining.
+- Run 50 Remaining Steps: 281 steps remaining.
 - Money remaining: ¥65,317.
 
 ## Active Run 50 Master Campaign Plan
 
-### 1. Backtrack to Safari Zone North [~40 steps remaining]
-- Currently standing at (6, 20) [z=0] on ground level.
-- Walk Up 2 steps to climb Koga's Western stairs:
-  - Step Up onto stairs at (6, 19) [z=0/transition].
-  - Step Up onto Koga's bridge at (6, 18) [z=1].
-- Walk Up 2 steps along Column 6 to (6, 16) [z=1] [2 steps].
-- Walk Right 15 steps along Koga's bridge (Row 16) to reach the East stairs at (21, 16) [z=1] [15 steps].
-- Walk Down 2 steps to descend Koga's East stairs to ground level at (21, 18) [z=0] [2 steps].
-- Walk Right 6 steps along Row 18 to (27, 18) [z=0] [6 steps].
-- Walk Up 18 steps along Column 27 to transition out of Safari Zone West into Safari Zone North at (9, 35) [18 steps].
+### 1. Backtrack to Safari Zone North [~24 steps remaining]
+- Currently standing at (21, 18) [z=0] on ground level.
+- Walk Right 3 steps to Column 24:
+  - (21, 18) -> (22, 18) -> (23, 18) -> (24, 18) [z=0] [3 steps].
+- Walk Up 4 steps along Column 24 to Row 14:
+  - (24, 18) -> (24, 17) -> (24, 16) -> (24, 15) -> (24, 14) [z=0] [4 steps].
+- Walk Right 3 steps along Row 14 to Column 27:
+  - (24, 14) -> (25, 14) -> (26, 14) -> (27, 14) [z=0] [3 steps].
+- Walk Up 14 steps along Column 27 to transition out of Safari Zone West into Safari Zone North at (9, 35) [14 steps].
 
 ### 2. Traverse Safari Zone North Ground Corridor to Northwest Quadrant
 - Transition into Safari Zone North at (9, 35) on ground level.
