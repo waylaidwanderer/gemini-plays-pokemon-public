@@ -5822,11 +5822,11 @@ We are in a flawless tactical position!
 1. **Traverse Safari Zone Center (Map 0_220)** [28 steps]:
    - From (15, 25), walk to (29, 11) and transition to Safari Zone East.
 
-2. **Traverse Safari Zone East (Map 0_217)** [64 steps]:
+2. **Traverse Safari Zone East (Map 0_217)** [71 steps]:
    - From (0, 23), walk East along Row 24 to Column 17 at (17, 24) [17 steps].
-   - Walk Up 2 steps to (17, 22) [2 steps], and East on Row 22 to Column 21 at (21, 22) [4 steps].
-   - Walk Up 19 steps vertically along Column 21 to Row 3 at (21, 3) [19 steps].
-   - Walk Left 21 steps horizontally along Row 3 to Column 0 at (0, 3) [21 steps] and transition to Safari Zone North [1 step].
+   - Walk Up 2 steps to (17, 22) [2 steps], and East on Row 22 to Column 24 at (24, 22) [7 steps]. (Bypasses Koga's plateau cliff wall at Column 21 Row 21).
+   - Walk Up 19 steps vertically along Column 24 to Row 3 at (24, 3) [19 steps].
+   - Walk Left 24 steps horizontally along Row 3 to Column 0 at (0, 3) [24 steps] and transition to Safari Zone North [1 step].
 
 3. **Traverse Safari Zone North (Map 0_218)** [57 steps]:
    - From (39, 31), walk Left along Row 31 to Column 28 at (28, 31) [11 steps].
