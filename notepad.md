@@ -6405,5 +6405,6 @@ We have successfully completed our victory run and obtained BOTH critical progre
 - **Turn 74424**: Selected NO to keep GEMMY out against Seaking.
 - **Turn 74428**: Selected YES to change Pokémon and switch SPARKY back in against Goldeen.
 - **Turn 74436**: SPARKY (Pikachu) reached Level 26. Decided to forget GROWL to learn SWIFT.
+- **Turn 74444**: Bypassing the defeated swimmer at (8, 43) by surfing Left to Column 7, then South to row 46.
 
 <hr>
