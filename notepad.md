@@ -6084,6 +6084,31 @@ Once our steps expire on Run 52, we will start a fresh **Run 53** with 500 steps
 - **Surplus Steps Inside Secret House**: **274 steps**!
 - This is a 100% mathematically verified, bulletproof campaign plan for absolute victory!
 
+## Master Run 52-to-53 Step-Budget Expiration & Gatehouse Dialog Purchase Protocol
+
+### 1. Step Budget Expiration (PA: Ding-dong!)
+- Stand at (30, 26) [z=1] facing LEFT.
+- Press **Right** once. Since steps = 0, this checks the Safari Zone step counter and immediately triggers the "PA: Ding-dong! Time's up!" message box.
+- Press **A** once to clear the text. The player will automatically warp back to the Safari Zone Gatehouse.
+- Upon spawning in the Gatehouse, the Gatekeeper at (2, 4) will stop the player and say: "Did you get a good haul? Come again, please!".
+- Press **A** once to clear this text and return to the overworld.
+
+### 2. Exit to Fuchsia City & Re-entry
+- From the spawn position inside the Gatehouse (approx. Column 3 Row 2), walk **Down** 3 steps to exit the Gatehouse and step into Fuchsia City (landing at Column 18 Row 3).
+- Walk **Up** 1 step to step back into the Gatehouse at (3, 5).
+- Walk **Up** 3 steps along Column 3 to reach (3, 2). This vertical movement past the counter will automatically trigger the Gatekeeper at (2, 4) to step out, stop us, and open the ticket purchase dialogue.
+
+### 3. Ticket Purchase Dialog Sequence (¥500 Fee & 30 Safari Balls)
+- Once the Gatekeeper stops us, he will ask: "Would you like to join the hunt? (YES/NO)".
+- We must call `gatehouse_dialog_helper` with `buttons=["A", "A", "A", "A", "A", "A"]` and `autopress_buttons=True` to safely purchase the ticket:
+  - Button 1: Press 'A' to select 'YES'.
+  - Button 2: Press 'A' to clear "That'll be ¥500 please!".
+  - Button 3: Press 'A' to clear "GEMMY received 30 SAFARI BALLs!".
+  - Button 4: Press 'A' to clear "We'll call you by a PA chime...".
+  - Button 5: Press 'A' to clear "OK! Please go on in!".
+  - Button 6: Press 'A' to transition onto the map.
+- This will spawn us inside Safari Zone Center at (15, 25) with exactly 500 steps remaining, launching **Run 53** perfectly!
+
 <hr>
 
 <h1><code>Reflection/Turn73229_Reflection</code></h1>
