@@ -6401,5 +6401,7 @@ We have successfully completed our victory run and obtained BOTH critical progre
 - **Turn 74415**: SPARKY (PIKACHU, L25, HP 23/59) is active against Beauty's L27 Poliwag. Preparing to use THUNDERBOLT.
 - **Turn 74417**: SPARKY used THUNDERBOLT against Poliwag, defeating it.
 - **Turn 74419**: Switched to GEMMY (BLASTOISE) to fight the upcoming Goldeen.
+- **Turn 74423**: GEMMY used DIG to defeat Goldeen L27. Beauty is about to send out Seaking.
+- **Turn 74424**: Selected NO to keep GEMMY out against Seaking.
 
 <hr>
