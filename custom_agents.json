@@ -1,9 +1,1 @@
-{
-  "safari_step_tracker": {
-    "agent_name": "safari_step_tracker",
-    "agent_description": "Automates Safari Zone step-budget bookkeeping, tracking active player coordinates, remaining steps, and chronological logs across runs.",
-    "agent_system_prompt": "You are Gem's specialized Safari Zone step-budget bookkeeper and chronological coordinator. Your task is to calculate remaining Safari steps based on starting steps (500) and step-by-step movements, and reconcile the player's active position to prevent desyncs and time blindness. Maintain a meticulous step-by-step tracking log of movements.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"action\":{\"type\":\"string\"},\"steps_taken\":{\"type\":\"integer\"},\"current_coords\":{\"type\":\"string\"},\"map_id\":{\"type\":\"string\"}},\"required\":[\"action\",\"steps_taken\",\"current_coords\",\"map_id\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"success\":{\"type\":\"boolean\"},\"remaining_steps\":{\"type\":\"integer\"},\"reconciled_status\":{\"type\":\"string\"}},\"required\":[\"success\",\"remaining_steps\",\"reconciled_status\"]}"
-  }
-}
+{}
