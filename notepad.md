@@ -5750,10 +5750,10 @@ We are in a flawless tactical position!
 
 <h1><code>Scratchpad/SafariZone_Run46_Route</code></h1>
 
-# Safari Zone West Exploration - Run 46 (Turn 70953 - Active)
-- Current Status: Standing at (16, 12) in Safari Zone West (Map 0_219) on Turn 70953 on Koga's Western Plateau [z=1], facing UP.
+# Safari Zone West Exploration - Run 46 (Turn 70999 - Active)
+- Current Status: Standing at (16, 12) in Fuchsia City (Map 0_7) on Turn 70999, facing UP. Ready to CUT the tree at (16, 11).
 - Inventory Status: 15/20 items, 29 Safari Balls.
-- Run 46 Remaining Steps: 125 steps.
+- Run 46 Remaining Steps: N/A (Escaped via DIG on Turn 70960 to reset steps).
 - Money remaining: ¥67,317.
 
 ## Crucial Empirical Discoveries (Falsified Hypotheses)
