@@ -1,7 +1,7 @@
-# Safari Zone West Exploration - Run 50 (Turn 72151 - Active)
-- Current Status: Standing at (21, 18) in Safari Zone West (Map 0_219) on Turn 72151, facing DOWN with exactly 281 remaining steps in RAM.
+# Safari Zone West Exploration - Run 50 (Turn 72159 - Active)
+- Current Status: Standing at (24, 14) in Safari Zone West (Map 0_219) on Turn 72159, facing DOWN with exactly 274 remaining steps in RAM.
 - Inventory Status: 15/20 items, 30 Safari Balls.
-- Run 50 Remaining Steps: 281 steps remaining.
+- Run 50 Remaining Steps: 274 steps remaining.
 - Money remaining: ¥65,317.
 
 ## Active Run 50 Master Campaign Plan
