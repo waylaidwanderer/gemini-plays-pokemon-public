@@ -12,7 +12,7 @@
 - Climb Koga's Eastern stairs to (20, 20) [z=1]: Up 2 to (17, 22), Right 3 to (20, 22), Up 2 to climb stairs to (20, 20) [z=1] -> **7 steps** (In Progress).
 - Cross plateau horizontally: Left 8 to (12, 20) [z=1] -> **8 steps**.
 - Descend Koga's Western stairs: Down 2 to (12, 22) [z=0] -> **2 steps**.
-- Walk Up Column 9 to (12, 6): Up 4 to (9, 10), Right 1 to (10, 10), Up 2 to (10, 8), Right 2 to (12, 8), Up 2 to (12, 6) -> **11 steps** [z=1].
+- Walk Up Column 9 to (12, 6): Left 3 to (9, 22), Up 12 to (9, 10), Right 1 to (10, 10), Up 2 to (10, 8), Right 2 to (12, 8), Up 2 to (12, 6) -> **22 steps** [z=1].
 - Cross Koga's Northern plateau horizontally: Right 5 to (17, 6) [z=1] -> **5 steps**.
 - Descend Koga's Eastern stairs: Down 2 to (17, 8) [z=0] -> **2 steps**.
 - Walk to transition at (0, 3)/(0, 5) to Safari Zone North: Right 4 to (21, 8), Up 5 to (21, 3), Left 21 to (0, 3), Left 1 to transition -> **31 steps**.
