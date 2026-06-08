@@ -6044,18 +6044,6 @@ We are in a flawless tactical position!
 - Walk Down 1 step to transition to Safari Zone West -> **1 step**.
 - Remaining steps upon transition to West: 349 - 45 = **304 remaining steps**.
 
-### 3. Safari Zone North Traversal [45 steps]
-- Enter at (39, 31).
-- Walk horizontally to Column 28: Left 11 to (28, 31) -> **11 steps**.
-- Climb Koga's Eastern stairs: Up 5 to (28, 26) [z=1] -> **5 steps**.
-- Descend crossover: Down 3 to (28, 29) [z=0] -> **3 steps**.
-- Walk Left to Column 12: Left 16 to (12, 29) -> **16 steps**.
-- Walk Down along Column 12 to Row 30: Down 1 to (12, 30) -> **1 step**.
-- Walk Left along Row 30 to Column 9: Left 3 to (9, 30) -> **3 steps**.
-- Walk Down along Column 9 to Row 35: Down 5 to (9, 35) -> **5 steps**.
-- Walk Down 1 step to transition to Safari Zone West -> **1 step**.
-- Remaining steps upon transition to West: 388 - 45 = **343 remaining steps**.
-
 ### 4. Safari Zone West Traversal [41 steps]
 - Enter at (27, 0).
 - Walk Down 18 to (27, 18) -> **18 steps**.
