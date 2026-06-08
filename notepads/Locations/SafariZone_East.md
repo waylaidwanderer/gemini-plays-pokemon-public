@@ -31,3 +31,8 @@
     5. Walk Left to (9, 22), and walk UP Column 9 directly to reach the northern grass corridor at Row 3.
     6. Walk Left along Row 3 all the way to the northwest transition at Column 0 to exit into Safari Zone North (Area 2).
 - **Tall Grass (9, 9) Bypass Corridor**: The central vertical corridor from (9, 12) to (9, 8) is fully verified as 100% passable. The tall grass patch at (9, 9) can be completely bypassed with zero grass exposure and 0% wild encounters by walking: Up to (9, 10), Right to (10, 10), Up, Up to (10, 8), and Left to (9, 8). (Verified on Turn 44398)
+- **Column 17 Southern Passage Discovery (Turn 71081)**:
+  - On the southern ground level (Rows 21-24), Row 23 is blocked by a solid tree wall (TYPE_2889) on Columns 8-16.
+  - However, Column 17 Row 23 is open clear grass (TYPE_3fe2), and Column 17 Row 22 is open clear grass (TYPE_3fe2), creating a vertical ground-level opening.
+  - Row 22 Column 16 is a solid tree wall (TYPE_2889), which prevents horizontal traversal on Row 22 on the West side of Column 17.
+  - Therefore, the optimal path from the West entry (0, 23) to the East plateau stairs at (20, 21) is: walk East on Row 24 to Column 17, step Up vertically to Row 22, and then continue East on Row 22. This completely avoids the longer detour to Column 9 on ground level. (Tested and verified on Turn 71081)
