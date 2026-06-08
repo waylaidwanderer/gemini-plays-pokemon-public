@@ -20,3 +20,4 @@
 
 ## Active Progression Plan
 - **Koga Defeated!** We obtained the Soul Badge.
+- **Erika Defeated!** We obtained the Rainbow Badge on Turn 74198.
