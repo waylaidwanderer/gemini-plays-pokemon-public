@@ -666,6 +666,21 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - *Map Transition Reset*: Exiting and re-entering the map (e.g., leaving the Warden's House to Fuchsia City and immediately re-entering) **fully resets** all boulders to their default starting coordinates (e.g., back to (8, 4)).
   - *Strength State Reset*: Map transition **fully deactivates** the overworld STRENGTH state. If the player re-enters the map, they must manually reactivate STRENGTH from the POKéMON menu to push any boulders again, even if they have already activated it during that play session.
 
+## Badge-Boost Multiplier Empirical Audit Protocol
+- **Objective**: Audit whether the 12.5% speed boost from the Thunder Badge (and 12.5% defense boost from the Soul Badge) is active and functioning in this ROM's combat engine.
+- **Speed Boost (Thunder Badge) Audit Methodology**:
+  1. **Identify SPARKY's Stat Speed**: View SPARKY's Speed stat $S$ in the Pokémon Stats menu (e.g., $S = 54$).
+  2. **Calculate Boosted Speed**: The boosted speed should be $S_{boosted} = \lfloor 1.125 \times S \rfloor$ (e.g., $\lfloor 1.125 \times 54 \rfloor = 60$).
+  3. **Target Opponent selection**: Find a wild Pokémon or trainer Pokémon whose Speed $O$ lies in the critical window: $S \le O < S_{boosted}$.
+     - Example: If $S = 54$ and $S_{boosted} = 60$, we find an opponent with Speed $O = 57$.
+  4. **Perform Battle Tests**:
+     - Engage in battle with the target opponent.
+     - Avoid using priority moves (like Quick Attack) and avoid status conditions that affect speed (like Paralysis, which reduces Speed by 75% in Gen 1).
+     - Observe who moves first on Turn 1.
+     - Repeat multiple times to eliminate coin-flip variance (if $S = O$, turn order is 50/50).
+     - If SPARKY consistently moves first (100% over $\ge 10$ trials), the boosted speed $S_{boosted} > O$ is active, confirming the 12.5% Thunder Badge boost is functioning.
+     - If turn order is randomized or the opponent consistently moves first, the boost is inactive.
+
 <hr>
 
 <h1><code>Locations/Route2_North</code></h1>
