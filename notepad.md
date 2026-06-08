@@ -694,6 +694,11 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
      - Record the exact HP lost.
      - If we record damage values that are only possible under the boosted Defense calculation (such as 10 or 11 damage in the above example), we empirically prove that Koga's 12.5% Soul Badge Defense boost is active and functioning.
 
+## Overworld HM Execution without Bag Items (Verified Turn 74893)
+- **Verified Fact**: HM moves (specifically HM03 SURF and HM04 STRENGTH) can be executed in the overworld from the Pokémon party menu even if the physical HM item is stored in the PC, provided a Pokémon in the party knows the move.
+- **Proof of Work**: On Turn 74872, we deposited HM03 and HM04 in GEM's PC. On Turn 74893, standing at (11, 13) facing Down towards water, we successfully selected GEMMY (BLASTOISE) from the party menu and executed SURF.
+- **Conclusion**: Carrying physical HM items in the Bag is completely unnecessary once taught, freeing up vital inventory slots.
+
 <hr>
 
 <h1><code>Locations/Route2_North</code></h1>
