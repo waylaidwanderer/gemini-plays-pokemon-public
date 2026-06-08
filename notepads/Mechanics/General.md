@@ -100,7 +100,7 @@
   - **Obedience Level**: Traded Pokémon up to **Level 30** will obey the player.
 - **Thunder Badge**: Obtained from Lt. Surge (Vermilion City).
   - **Overworld Ability**: Unlocks the use of **HM02 FLY** outside of battle.
-  - **Stat Boost**: Increases Pokémon's Speed in battle.
+  - **Stat Boost**: Increases Pokémon's Speed in battle. (Vanilla Theory - Pending ROM-specific empirical stat audit)
 - **Rainbow Badge**: Obtained from Erika (Celadon City).
   - **Overworld Ability**: Unlocks the use of **HM04 STRENGTH** outside of battle (to be verified immediately upon receipt in Warden's House).
   - **Obedience Level**: Traded Pokémon up to **Level 50** will obey the player.
