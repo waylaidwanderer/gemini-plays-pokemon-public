@@ -22,3 +22,4 @@
 - **Turn 74419**: Switched to GEMMY (BLASTOISE) to fight the upcoming Goldeen.
 - **Turn 74423**: GEMMY used DIG to defeat Goldeen L27. Beauty is about to send out Seaking.
 - **Turn 74424**: Selected NO to keep GEMMY out against Seaking.
+- **Turn 74428**: Selected YES to change Pokémon and switch SPARKY back in against Goldeen.
