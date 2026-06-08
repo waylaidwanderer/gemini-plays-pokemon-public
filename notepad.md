@@ -5780,7 +5780,12 @@ Since we only have 125 steps remaining on Run 46, we will DIG out immediately on
    - Walk Left 8 steps across plateau crossover to (12, 20) [z=1] [8 steps].
    - Walk Down 1 step to descend West Plateau stairs at (12, 21) to ground level at (12, 22) [z=0] [1 step].
    - Walk Left 3 steps to Column 9 at (9, 22) [3 steps].
-   - Walk Up 11 steps directly along Column 9 to (9, 11) [11 steps]. (This provides the most direct, optimal grass-free ground corridor to transition to Safari Zone North).
+   - Walk Up 2 steps to (9, 8) [2 steps], Right 3 steps to (12, 8) [3 steps], Up 2 steps to climb stairs at (12, 7) onto plateau at (12, 6) [z=1] [2 steps].
+   - Walk Right 5 steps across plateau crossover to (17, 6) [z=1] [5 steps].
+   - Walk Down 1 step to descend East stairs at (17, 7) to ground level at (17, 8) [z=0] [1 step].
+   - Walk Right 3 steps to Column 20 at (20, 8) [3 steps].
+   - Walk Up 5 steps along Column 20 to (20, 3) [5 steps].
+   - Walk Left 20 steps along Row 3 to (0, 3) and transition to Safari Zone North [20 steps].
 
 3. **Traverse Safari Zone North (Map 0_218)** [84 steps]:
    - Enter at (39, 31). Walk along Row 31 to (28, 31) [11 steps].
