@@ -5812,19 +5812,13 @@ We are in a flawless tactical position!
    - Walk Down 2 steps to (9, 5) [2 steps].
    - Walk Left 9 steps along Row 5 to (0, 5) and transition to Safari Zone North [9 steps].
 
-3. **Traverse Safari Zone North (Map 0_218)** [84 steps]:
-   - Enter at (39, 31). Walk along Row 31 to (28, 31) [11 steps].
-   - Walk Down 2 to (28, 33) [2 steps].
-   - Walk Left 6 to (22, 33) [6 steps].
-   - Walk Up 9 to Koga's Western Plateau stairs base at (22, 24) [9 steps].
-   - Climb stairs to (22, 22) [z=1] [2 steps].
-   - Walk Left 6 to (16, 22) [z=1] and Down 5 steps to (16, 27) [11 steps].
-   - Descend stairs to (16, 28) [z=0] [1 step].
-   - Walk Left 4 to Column 12 at (12, 28) [4 steps].
-   - Walk Up Column 12 to Row 14 at (12, 14) [14 steps].
-   - Walk Left 4 to Column 8 at (8, 14) [4 steps].
-   - Walk Up to Row 3 at (8, 3) [11 steps].
-   - Walk Left 8 to (0, 3) and transition to Safari Zone West [9 steps].
+3. **Traverse Safari Zone North (Map 0_218)** [37 steps]:
+   - We are currently at (8, 22) [z=0].
+   - Walk Down 1 to (8, 23), Left 1 to (7, 23), Down 4 to (7, 27) [6 steps].
+   - Walk Left 3 to (4, 27) [3 steps].
+   - Walk Up 1 to (4, 26), Left 1 to (3, 26) [2 steps].
+   - Walk Up 23 to (3, 3) [23 steps].
+   - Walk Left 3 to (0, 3) and transition to Safari Zone West [3 steps].
 
 4. **Retrieve Gold Teeth and Surf in Safari Zone West (Map 0_219)** [34 steps]:
    - Enter West at (29, 3) [z=0].
