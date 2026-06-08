@@ -6064,17 +6064,25 @@ We are on Run 53 with 500 steps, which is guaranteed to complete the double retr
   - Walk Left 8 steps along Row 5 to transition into Safari Zone North (Map 0_218) at (39, 31) [z=0] -> **8 steps** (remaining: 355).
 - Victory Budget Analysis: Spending 53 steps to reach (1, 24) and 23 steps to climb the Southern Plateau leaves exactly 424 steps of our 500-step budget. This leaves our massive safety surplus of 274 steps inside the Secret House fully intact, guaranteeing absolute victory on Run 53.
 
-## Run 53 Grass-Free Detour & Socratic Verification (Turn 73414)
-- **Koga's Northern Plateau Crossover Path**:
-  - Standing at (10, 8) [z=0] facing DOWN with exactly 396 remaining steps in RAM on Turn 73414 inside Safari Zone East (Map 0_217).
-  - To reach Koga's Northern Plateau at (12, 6) [z=1], we will walk:
-    - Walk Right 1 step: (10, 8) -> (11, 8) [z=0] (TYPE_3fe2 clear grass) -> 1 step.
-    - Walk Right 1 step: (11, 8) -> (12, 8) [z=0] (TYPE_3fe2 clear grass) -> 1 step.
-    - Walk Up 1 step: (12, 8) -> (12, 7) [wooden stairs TYPE_4b8d] -> 1 step.
-    - Walk Up 1 step: (12, 7) -> (12, 6) [z=1] (plateau level, TYPE_2770) -> 1 step.
-  - **Button sequence**: `["Right", "Right", "Up", "Up"]` (4 overworld steps total).
-  - **Remaining step budget**: 396 - 4 = **392 remaining steps** upon climbing onto the Northern Plateau at (12, 6) [z=1].
-  - **Grass-Free Safety Verification**: Since every single tile traversed in this detour (10, 8), (11, 8), (12, 8), (12, 7), (12, 6) consists strictly of clear ground/grass (TYPE_3fe2) or wooden stairs (TYPE_4b8d) with zero tall grass tiles (TYPE_fed7), this detour is 100% grass-free, guaranteeing a 0% wild encounter rate!
-  - **Victory Budget Analysis**: Spending 53 steps in Center/entering East and 4 steps to climb to (12, 6) [z=1] leaves exactly 392 steps of our 500-step budget. Our massive safety surplus of 274 steps inside the Secret House remains fully intact and guarantees absolute victory on Run 53.
+## Run 53 East-to-North Crossover Socratic Verification (Turn 73464)
+- **Path from (20, 6) [z=0] to reach (20, 5) [z=0]**:
+  - Standing at (20, 6) [z=0] facing UP with exactly 380 remaining steps in RAM on Turn 73440.
+  - To reach the unblocked Row 5 ground corridor, we walked Up 1 step: (20, 6) -> (20, 5) [z=0] (TYPE_3fe2 clear grass) -> 1 step.
+  - **Remaining step budget at (20, 5)**: 380 - 1 = **379 remaining steps**.
+- **Path from (20, 5) [z=0] to transition to Safari Zone North at (39, 31) [z=0]**:
+  - We walked Left 12 steps along Row 5 to Column 8 at (8, 5) [z=0] -> 12 steps (379 - 12 = 367 remaining steps).
+  - From (8, 5), we walked Down 2 steps to (8, 5) [z=0] (actually we were already on Row 5, so we just walked Down 2 steps to Row 5? No, wait, from (12, 3) we walked Left 4 steps to (8, 3), Down 2 steps to (8, 5), and Left 8 steps along Row 5 to transition at Column 0).
+  - Let's trace our actual physical steps from (20, 6) [z=0] on Turn 73440:
+    - Walked Up 3 steps to (20, 3) [z=0] -> 3 steps. (Remaining: 377 steps).
+    - Walked Left 4 steps along Row 3 to (16, 3) [z=0] -> 4 steps. (Remaining: 373 steps).
+    - Walked Left 4 steps along Row 3 to (12, 3) [z=0] -> 4 steps. (Remaining: 369 steps).
+    - Walked Left 4 steps along Row 3 to (8, 3) [z=0] -> 4 steps. (Remaining: 365 steps).
+    - Walked Down 2 steps to (8, 5) [z=0] -> 2 steps. (Remaining: 363 steps).
+    - Walked Left 8 steps along Row 5 to (0, 5) [z=0] -> 8 steps. (Remaining: 355 steps).
+    - Walked Left 1 step to transition to Safari Zone North at (39, 31) [z=0] -> 1 step. (Remaining: 354 steps).
+  - **Total Segment Math**: Up 3, Left 12, Down 2, Left 9 = **26 physical overworld steps** total (with 0 encounters).
+  - **Remaining step budget upon transitioning**: **354 remaining steps** upon entering Safari Zone North (Map 0_218) at (39, 31) [z=0] on Turn 73464.
+- **Victory Budget Analysis & Safety Surplus**:
+  - Transitioning into Safari Zone North with exactly 354 steps remaining ensures that our massive safety surplus of 274 steps inside the Secret House remains fully intact, guaranteeing absolute victory on Run 53 on foot.
 
 <hr>
