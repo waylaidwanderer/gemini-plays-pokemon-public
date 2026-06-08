@@ -27,7 +27,7 @@
 - Transition to West (Map 0_219) at (27, 0).
 - Total Steps to reach Safari Zone West: **136 steps** (leaving 364 steps in RAM).
 
-### 2. Southwest Ground-Level Detour in Safari Zone West [32 steps]
+### 2. Southwest Ground-Level Detour in Safari Zone West [32 steps] (Active)
 - Standing at (27, 0) [z=0].
 - Walk Down 18 steps along Column 27 to Row 18: (27, 0) -> (27, 18) [z=0] [18 steps].
 - Walk Left 6 steps along Row 18 to Column 21: (27, 18) -> (21, 18) [z=0] [6 steps].
@@ -35,10 +35,13 @@
 - Walk Left 15 steps along Koga's bridge (Row 16) to Column 6 at (6, 16) [z=1] [15 steps].
 - Walk Down 3 steps to Koga's Western stairs at (6, 19) [z=1] [3 steps].
 - Walk Down 1 step to descend Koga's Western stairs to ground level at (6, 20) [z=0] [1 step].
-- Walk Left 4 steps along Row 20 to Column 2 at (2, 20) [z=0] [4 steps].
+- Walk Left 1 step to (5, 20) [z=0] (tall grass) [1 step].
+- Walk Left 1 step to (4, 20) [z=0] (tall grass) [1 step].
+- Walk Left 1 step to (3, 20) [z=0] (tall grass) [1 step].
+- Walk Left 1 step to (2, 20) [z=0] (tall grass) [1 step].
 - Walk Up 6 steps along Column 2 to Row 14 at (2, 14) [z=0] [6 steps].
 - Walk Right 8 steps along Row 14 to Column 10 at (10, 14) [z=0] [8 steps].
-- Total Steps to reach (10, 14) [z=0]: **63 steps** (leaving 301 steps in RAM).
+- Total Steps to reach (10, 14) [z=0]: **63 steps** (leaving 265 steps in RAM).
 
 ### 3. Systematic Foot-Testing of Column 10 Row 11-13 [4 steps]
 - From (10, 14) [z=0], walk Up 1 step to (10, 13) [z=0] [1 step].
