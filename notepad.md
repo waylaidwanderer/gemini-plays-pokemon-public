@@ -5750,8 +5750,8 @@ We are in a flawless tactical position!
 
 <h1><code>Scratchpad/SafariZone_Run46_Route</code></h1>
 
-# Safari Zone West Exploration - Run 46 (Turn 70891 - Active)
-- Current Status: Standing at (15, 12) in Safari Zone West (Map 0_219) on Turn 70891 on plateau level [z=1], facing DOWN.
+# Safari Zone West Exploration - Run 46 (Turn 70921 - Active)
+- Current Status: Standing at (16, 16) in Safari Zone West (Map 0_219) on Turn 70921 on Koga's bridge [z=1], facing DOWN.
 - Inventory Status: 15/20 items, 29 Safari Balls.
 - Run 46 Start Turn: Turn 70531
 - Run 46 Starting Steps: 500 steps.
