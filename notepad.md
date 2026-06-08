@@ -6347,6 +6347,8 @@ We have successfully completed our victory run and obtained BOTH critical progre
     1. **Coordinate Directory**: List the default coordinates of all pushable boulders and pits on each floor.
     2. **Active State Logs**: For each boulder, record its current position and whether it has been successfully pushed into a pit.
     3. **Reset Monitoring**: Note that leaving the Seafoam Islands map or fainting resets all boulders to their starting coordinates. We must strictly avoid leaving the cave once we begin a multi-floor boulder puzzle until it is completed.
+- **Turn 74482**: Tested collision on Row 53 buoy barrier by pressing 'Down' from (17, 52). Walk failed (visited 0 tiles, position remained at (17, 52)). This confirms that the buoy wall on Row 53 is completely solid and impassable across Route 19.
+- **Strategic Pivot**: Since Route 19 is blocked to the South, we will pivot to Route 21. We will use FLY to travel to Pallet Town, then use SURF on the water at the southern edge of Pallet Town to proceed south to Cinnabar Island.
 
 <hr>
 
