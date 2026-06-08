@@ -1,7 +1,7 @@
-# Safari Zone Exploration - Run 51 (Turn 72332 - Active)
-- Current Status: Standing at (4, 2) inside Safari Zone Gatehouse (Map 0_156) on Turn 72332, facing UP with exactly 500 remaining steps.
+# Safari Zone Exploration - Run 51 (Turn 72392 - Active)
+- Current Status: Standing at (12, 8) [z=0] inside Safari Zone East (Map 0_217) on Turn 72392, facing UP with exactly 402 remaining steps.
 - Inventory Status: 15/20 items, 30 Safari Balls.
-- Money remaining: ¥65,317 (after registration, we will have ¥64,817).
+- Money remaining: ¥64,817.
 
 ## Master Run 51 Campaign Plan & Route (The Ultimate Double Retrieval)
 
