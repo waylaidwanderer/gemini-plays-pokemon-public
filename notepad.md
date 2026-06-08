@@ -5834,8 +5834,8 @@ We are in a flawless tactical position!
 
 <h1><code>Scratchpad/SafariZone_Run50_Route</code></h1>
 
-# Safari Zone West Exploration - Run 50 (Turn 72280 - Active)
-- Current Status: Standing at (16, 7) [z=1] on Koga's Western Plateau in Safari Zone West (Map 0_219) on Turn 72280, facing RIGHT with exactly 110 remaining steps in RAM.
+# Safari Zone West Exploration - Run 50 (Turn 72306 - Active)
+- Current Status: Standing at (2, 14) [z=0] on ground level in Safari Zone West (Map 0_219) on Turn 72306, facing UP with exactly 77 remaining steps in RAM.
 - Inventory Status: 15/20 items, 30 Safari Balls.
 - Money remaining: ¥65,317.
 
