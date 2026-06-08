@@ -674,7 +674,7 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - **Obedience Level**: Traded Pokémon up to **Level 50** will obey the player.
 - **Soul Badge**: Obtained from Koga (Fuchsia City).
   - **Overworld Ability**: Unlocks the use of **HM03 SURF** outside of battle.
-  - **Stat Boost**: Increases Pokémon's Defense in battle.
+  - **Stat Boost**: Increases Pokémon's Defense in battle. (Vanilla Theory - Pending ROM-specific empirical stat audit)
 - **Marsh Badge**: Obtained from Sabrina (Saffron City).
   - **Obedience Level**: Traded Pokémon up to **Level 70** will obey the player.
 - **Earth Badge**: Obtained from Giovanni (Viridian City).
