@@ -6424,3 +6424,17 @@ We have successfully completed our victory run and obtained BOTH critical progre
 - **Water Access**: Once both boulders are successfully blocking the current, surfing is safe on B4F, unlocking access to the northwest exit warp to Route 20 (West) and the central platform containing Articuno.
 
 <hr>
+
+<h1><code>Locations/Route21</code></h1>
+
+# Route 21 Location Records (Map 0_32)
+
+## Connections & Bounding Layout
+- **Northern Connection**: Pallet Town southern boundary connects at Row 0. Specifically, Route 21 at Column 5 connects to Pallet Town at (5, 14).
+- **Water Entry**: Seamlessly transitions from Pallet Town's southern water line.
+- **Topography**:
+  - Central water channel spans Columns 4 to 7.
+  - West side: Green grass fields (Columns 1-2) with a solid rocky cliff barrier (Column 3, TYPE_2889).
+  - East side: Tall grass patches (Columns 8-10, TYPE_fed7) where wild land Pokémon can be encountered.
+
+<hr>
