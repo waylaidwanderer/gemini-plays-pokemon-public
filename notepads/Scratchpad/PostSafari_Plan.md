@@ -41,3 +41,14 @@
   2. Verify we are at (9, 1) facing RIGHT.
   3. Press A to talk to the Warden, hand over the Gold Teeth, and get HM04.
 Let's execute the 4 steps Right first.
+
+- Turn 73818: Visual breakthrough! The Warden's sprite in Gen 1 is actually the bald man (safari outfit with green pants) who is standing at (0, 2) on the far left side of the room.
+- The NPC at (10, 1) is the Warden's grandson (youngster), which is why he spoke in normal English about his grandpa having a speech problem!
+- The NPC at (4, 1) is actually the Warden's pet Slowpoke, which is why interacting with him displayed the Slowpoke text!
+- Therefore, the real Warden is at (0, 2).
+- Currently, we are at (1, 2) facing UP, with a textbox open saying "Crammed full of POKeMON books!".
+- Plan:
+  1. Press B to dismiss the bookshelf text.
+  2. Press Left to face the Warden at (0, 2).
+  3. Press A to talk to him, hand over the Gold Teeth, and receive HM04 Strength.
+Let's dismiss the text first.
