@@ -1,7 +1,7 @@
-# Safari Zone West Exploration - Run 47 (Turn 71041 - Active)
-- Current Status: Standing at (20, 20) in Safari Zone Center (Map 0_220) on Turn 71041, facing DOWN.
+# Safari Zone West Exploration - Run 47 (Turn 71049 - Active)
+- Current Status: Standing at (20, 14) in Safari Zone Center (Map 0_220) on Turn 71049, facing UP.
 - Inventory Status: 15/20 items, 30 Safari Balls.
-- Run 47 Remaining Steps: 488 steps.
+- Run 47 Remaining Steps: 479 steps.
 - Money remaining: ¥66,817.
 
 ## Crucial Empirical Discoveries (Falsified Hypotheses)
