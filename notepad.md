@@ -6072,8 +6072,8 @@ We are in a flawless tactical position!
 
 <h1><code>Scratchpad/SafariZone_Run52_Route</code></h1>
 
-# Safari Zone Exploration - Run 52 (Turn 72991 - Active)
-- Current Status: Standing at (28, 26) [z=1] inside Safari Zone North (Map 0_218) on Turn 72991, facing UP with exactly 289 remaining steps in RAM.
+# Safari Zone Exploration - Run 52 (Turn 72996 - Active)
+- Current Status: Standing at (28, 29) [z=0] inside Safari Zone North (Map 0_218) on Turn 72996, facing DOWN with exactly 289 remaining steps in RAM.
 - Inventory Status: 15/20 items, 30 Safari Balls.
 - Money remaining: ¥64,317.
 
@@ -6084,15 +6084,12 @@ We are in a flawless tactical position!
 
 ### 3. Safari Zone North Traversal [45 steps] (In Progress)
 - Enter at (39, 31).
-- Walk horizontally to Column 28: Left 11 to (28, 31) -> **11 steps**.
-- Climb Koga's Eastern stairs: Up 5 to (28, 26) [z=1] -> **5 steps**.
-- Descend crossover: Down 3 to (28, 29) [z=0] -> **3 steps**.
-- Walk Left to Column 12: Left 16 to (12, 29) -> **16 steps**.
-- Walk Down along Column 12 to Row 30: Down 1 to (12, 30) -> **1 step**.
-- Walk Left along Row 30 to Column 9: Left 3 to (9, 30) -> **3 steps**.
-- Walk Down along Column 9 to Row 35: Down 5 to (9, 35) -> **5 steps**.
+- Walk horizontally to Column 28: Left 11 to (28, 31) -> **11 steps** (Completed, Turn 72968).
+- Walk to Row 26 ground-level bypass: Left 8 to (20, 29) [z=0], Up 3 to (20, 26) [z=0] -> **11 steps** (In Progress).
+- Traverse Row 26 bypass: Left 5 to (15, 26) [z=0] -> **5 steps**.
+- Navigate to transition on Column 9: Down 7 to (15, 33) [z=0], Left 6 to (9, 33) [z=0], Down 2 to (9, 35) [z=0] -> **15 steps**.
 - Walk Down 1 step to transition to Safari Zone West -> **1 step**.
-- Remaining steps upon transition to West: 349 - 45 = **304 remaining steps**.
+- Remaining steps upon transition to West: 289 - 32 = **257 remaining steps**.
 
 ### 4. Safari Zone West Traversal [41 steps]
 - Enter at (27, 0).
