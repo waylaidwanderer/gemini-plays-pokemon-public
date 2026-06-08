@@ -33,3 +33,11 @@
   6. Confirm and dismiss the dialog.
 
 - Turn 73790: Currently standing at (5, 1) facing LEFT inside Warden's House. We are directly adjacent to the Warden at (4, 1). We will press A to talk to him. Hypothesis: Since we have the GOLD TEETH in our inventory and are facing him, he will recognize the teeth, thank us, take them, and then reward us with HM04 Strength. Let's execute.
+
+- Turn 73796: Visual analysis of the screen reveals that the old man sprite (the WARDEN) is actually standing at (10, 1) on the right side of the room, while the sprite at (4, 1) is a Youngster. That explains why talking to (4, 1) yielded the youngster's line about the Warden looking vacant!
+- To talk to the Warden, we need to stand at (9, 1) facing RIGHT.
+- Plan:
+  1. Walk Right 4 steps from our current position at (5, 1) to (9, 1).
+  2. Verify we are at (9, 1) facing RIGHT.
+  3. Press A to talk to the Warden, hand over the Gold Teeth, and get HM04.
+Let's execute the 4 steps Right first.
