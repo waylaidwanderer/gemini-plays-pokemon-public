@@ -6276,7 +6276,12 @@ We have successfully completed our victory run and obtained BOTH critical progre
 
 ## Combat Preparation & Navigation Plan
 - **Gym Leader Erika's Lineup**: Victreebel (L29), Tangela (L24), Vileplume (L29).
-- **Combat Strategy**: While Erika uses Grass-type Pokémon, GEMMY (Level 58 BLASTOISE) has a massive level advantage. GEMMY can easily sweep using **BITE** (high physical damage, neutral effectiveness) and **DIG** (ground-type). There is no need for excessive grinding or switching.
+- **Combat Strategy (Verified Turn 74102)**:
+  - **Type Effectiveness Analysis**: Erika's team consists of Victreebel (Grass/Poison), Tangela (Grass), and Vileplume (Grass/Poison).
+    - **DIG (Ground-type)**: Neutral (1x) against Grass/Poison (super-effective on Poison, resisted by Grass). However, it is resisted (0.5x) by pure Grass-type Tangela.
+    - **BITE (Normal-type in Gen 1)**: Deals physical neutral (1x) damage against all of Erika's team.
+    - **FLY (Flying-type, BIRBIE)**: Deals 2x super-effective damage against Grass-type, but BIRBIE (Level 18) is too low-level (vs Erika's Level 24-29) and fragile to survive.
+  - **Tactical Decision**: We will rely strictly on GEMMY's (Level 59 BLASTOISE) neutral physical **BITE** to sweep Erika's entire team. GEMMY's massive level advantage renders type-disadvantage negligible, and BITE's high physical damage is the safest and most reliable strategy.
 - **Gym Navigation & Obstacles**: Celadon Gym is located in the south of Celadon City. The path to the gym is blocked by a cuttable tree. PETAL (BELLSPROUT) is in our active party and knows **CUT**, allowing us to clear the tree and enter the Gym immediately.
 
 <hr>
