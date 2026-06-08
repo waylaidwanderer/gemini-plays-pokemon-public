@@ -6048,8 +6048,8 @@ We are in a flawless tactical position!
 
 <h1><code>Scratchpad/SafariZone_Run52_Route</code></h1>
 
-# Safari Zone Exploration - Run 52 (Turn 73117 - Active)
-- Current Status: Standing at (10, 14) [z=0] inside Safari Zone West (Map 0_219) on Turn 73117, facing RIGHT with exactly 150 remaining steps in RAM.
+# Safari Zone Exploration - Run 52 (Turn 73128 - Active)
+- Current Status: Standing at (2, 20) [z=0] inside Safari Zone West (Map 0_219) on Turn 73128, facing DOWN with exactly 136 remaining steps in RAM.
 - Inventory Status: 15/20 items, 30 Safari Balls.
 
 ## Master Run 52 Campaign Plan & Route (The Ultimate Double Retrieval)
