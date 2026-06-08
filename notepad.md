@@ -6072,21 +6072,14 @@ We are in a flawless tactical position!
 
 <h1><code>Scratchpad/SafariZone_Run52_Route</code></h1>
 
-# Safari Zone Exploration - Run 52 (Turn 73010 - Active)
-- Current Status: Standing at (20, 29) [z=0] inside Safari Zone North (Map 0_218) on Turn 73010, facing DOWN with exactly 275 remaining steps in RAM.
+# Safari Zone Exploration - Run 52 (Turn 73024 - Active)
+- Current Status: Standing at (16, 22) [z=1] inside Safari Zone North (Map 0_218) on Turn 73024, facing LEFT with exactly 260 remaining steps in RAM.
 - Inventory Status: 15/20 items, 30 Safari Balls.
 
 ## Master Run 52 Campaign Plan & Route (The Ultimate Double Retrieval)
 
 ### 3. Safari Zone North Traversal [45 steps] (In Progress)
-- Enter at (39, 31).
-- Walk horizontally to Column 28: Left 11 to (28, 31) [z=0] -> 11 steps (Completed, Turn 72968).
-- Climb Eastern stairs: Up 4 along Column 28 to (28, 27) [z=1] -> 4 steps (Completed, Turn 72971).
-- Descend Western stairs crossover: Down 2 to (28, 29) [z=0] -> 2 steps (Completed, Turn 72974).
-- Walk horizontally to Column 20: Left 8 to (20, 29) [z=0] -> 8 steps (Completed, Turn 73003).
-- Walk horizontally to Column 22: Right 2 to (22, 29) [z=0] -> 2 steps.
-- Climb Western Plateau: Up 7 steps along Column 22 to climb stairs at (22, 23) and reach (22, 22) [z=1] -> 7 steps.
-- Walk across plateau: Left 6 to (16, 22) [z=1], and Down 5 steps to reach the West Descent Stairs at (16, 27) [z=1] -> 11 steps.
+- Walk across plateau: Down 5 steps along Column 16 to reach the West Descent Stairs at (16, 27) [z=1] -> 5 steps.
 - Descend Western Plateau stairs: Down 1 step to (16, 28) [z=0] -> 1 step.
 - Walk to transition: Left 4 to (12, 28) [z=0], Down 2 to (12, 30) [z=0], Left 3 to (9, 30) [z=0], Down 5 to (9, 35) [z=0] -> 14 steps.
 - Transition to Safari Zone West: Down 1 from (9, 35) -> 1 step.
