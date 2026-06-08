@@ -5880,11 +5880,14 @@ We are in a flawless tactical position!
    - Walk Up 3 steps along Column 22 to Row 11 at (22, 11) [3 steps].
    - Walk Right 7 steps along Row 11 to (29, 11) and transition to Safari Zone East [7 steps].
 
-2. **Traverse Safari Zone East (Map 0_217)** [64 steps]:
-   - From (0, 23), walk East along Row 24 to Column 17 at (17, 24) [17 steps].
-   - Walk Up 2 steps to (17, 22) [2 steps], and East on Row 22 to Column 21 at (21, 22) [4 steps].
-   - Walk Up 19 steps vertically along Column 21 to Row 3 at (21, 3) [19 steps].
-   - Walk Left 21 steps horizontally along Row 3 to Column 0 at (0, 3) [21 steps] and transition to Safari Zone North [1 step].
+2. **Traverse Safari Zone East (Map 0_217)** [94 steps]:
+   - Walk Down to Row 24, East to Column 17 at (17, 24) [18 steps].
+   - Walk Up 2 to (17, 22), Right 3 to (20, 22), Up 2 to climb Southern Plateau to (20, 20) [z=1] [7 steps].
+   - Walk Left 8 to (12, 20), Down 2 to descend to (12, 22) [z=0] [10 steps].
+   - Walk Left 3 to (9, 22), Up 14 along Column 9 to (9, 8) [z=0] [17 steps].
+   - Walk Right 3 to (12, 8), Up 2 to climb Northern Plateau to (12, 6) [z=1], Right 5 to (17, 6) [z=1], Down 2 to descend to (17, 8) [z=0] [12 steps].
+   - Walk Right 3 to (20, 8), Up 5 along Column 20 to (20, 3), Left 11 to (9, 3) [19 steps].
+   - Walk Down 2 to (9, 5), Left 9 to transition to Safari Zone North at (0, 5) [11 steps].
 
 3. **Traverse Safari Zone North (Map 0_218)** [57 steps]:
    - From (39, 31), walk Left along Row 31 to Column 28 at (28, 31) [11 steps].
