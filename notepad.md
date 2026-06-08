@@ -6392,5 +6392,7 @@ We have successfully completed our victory run and obtained BOTH critical progre
 - **Turn 74343**: Swapped SPARKY (PIKACHU, L25) to Slot 1 and GEMMY to Slot 5.
 - **Turn 74345**: Interacted with Swimmer at (9, 11). Initiated trainer battle.
 - **Turn 74349**: SPARKY used THUNDERBOLT against Horsea L30. Left Horsea with a tiny red sliver of HP. Smokescreen lowered SPARKY's accuracy.
+- **Turn 74366**: Defeated Swimmer L30 Horsea x2. Gained ¥150. SPARKY (PIKACHU) is at 23/59 HP. GEMMY (BLASTOISE) is at 192/194 HP.
+- **Turn 74367**: Resumed surfing South. Swimmer remains at (9, 11) as an impassable sprite, so we must navigate around him (e.g. via Column 8 or Column 10).
 
 <hr>
