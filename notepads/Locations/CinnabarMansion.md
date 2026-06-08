@@ -31,7 +31,7 @@
   - Down to 1F: (TBD, TBD)
   - Up to 3F: (TBD, TBD)
 - **Switches & Gates**:
-  - Statue 2: (TBD, TBD) | State: [ ] Default
+  - Statue 2: (2, 11) | State: [x] Toggled (Turn 75027)
 - **Falls/Pits**:
   - Fall Spot 1: (TBD, TBD) -> Drops to (TBD, TBD) on 1F
 
