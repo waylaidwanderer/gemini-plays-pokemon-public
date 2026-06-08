@@ -18,3 +18,5 @@
 - **Turn 74395**: Resumed surfing South from (8, 27). The defeated swimmer remains at (7, 27).
 - **Turn 74411**: Interacted with Swimmer/Beauty at (8, 43). Initiated trainer battle.
 - **Turn 74415**: SPARKY (PIKACHU, L25, HP 23/59) is active against Beauty's L27 Poliwag. Preparing to use THUNDERBOLT.
+- **Turn 74417**: SPARKY used THUNDERBOLT against Poliwag, defeating it.
+- **Turn 74419**: Switched to GEMMY (BLASTOISE) to fight the upcoming Goldeen.
