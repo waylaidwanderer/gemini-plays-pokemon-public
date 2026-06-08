@@ -62,4 +62,14 @@
   - Purchase **Ultra Balls** (for high-level wild encounters).
 
 ## HM Verification Test Live Log
-- **Turn 74855**: Reached Cinnabar PC. Initiating deposit of HM03 (SURF) and HM04 (STRENGTH) to perform the verification protocol.
+- **Turns 74853-74876**: Reached Cinnabar PC and successfully deposited:
+  - TOWN MAP (Turn 74857)
+  - TM06 Toxic (Turn 74862)
+  - CARBOS (Turn 74864)
+  - HM04 STRENGTH (Turn 74867)
+  - TM40 Rage (Turn 74870)
+  - HM03 SURF (Turn 74872)
+  - TM21 Mega Drain (Turn 74874)
+  - RARE CANDY (Turn 74876)
+- **Active Hypothesis**: HM03 SURF can still be executed from the Pokémon menu even if the physical HM03 item is in the PC.
+- **Verification Plan**: Exit the Pokémon Center, walk to the water, and attempt to SURF using GEMMY (BLASTOISE) to verify if the move can be executed.
