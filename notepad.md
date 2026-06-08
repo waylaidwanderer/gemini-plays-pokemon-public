@@ -5750,17 +5750,20 @@ We are in a flawless tactical position!
 
 <h1><code>Scratchpad/SafariZone_Run46_Route</code></h1>
 
-# Safari Zone West Exploration - Run 46 (Turn 70921 - Active)
-- Current Status: Standing at (16, 16) in Safari Zone West (Map 0_219) on Turn 70921 on Koga's bridge [z=1], facing DOWN.
+# Safari Zone West Exploration - Run 46 (Turn 70953 - Active)
+- Current Status: Standing at (16, 12) in Safari Zone West (Map 0_219) on Turn 70953 on Koga's Western Plateau [z=1], facing UP.
 - Inventory Status: 15/20 items, 29 Safari Balls.
-- Run 46 Start Turn: Turn 70531
-- Run 46 Starting Steps: 500 steps.
-- Remaining Steps: 142 steps.
+- Run 46 Remaining Steps: 125 steps.
 - Money remaining: ¥67,317.
 
-## Run 46 Campaign Plan
-We are navigating to Safari Zone West using the ground-level Eastern Corridor on Safari Zone East and Koga's Western Plateau on Safari Zone North.
-This route avoids almost all tall grass and has an extremely high success rate.
+## Crucial Empirical Discoveries (Falsified Hypotheses)
+- **Column 17 Ledge Jump (FALSIFIED)**: On Turn 70949, we stood at (16, 12) [z=1] facing Up and pressed Right twice. Result: Direct collision (bump), remaining at (16, 12). This physically proves that checkered vertical ramps (Column 17) act as solid vertical walls horizontally in Gen 1, and no sideways/horizontal ledge jumps exist.
+- **Southwest Ground Level (CLOSED POCKET)**: The Southwest ground-level quadrant of Safari Zone West is 100% closed on foot due to water at Column 2/3 Row 13 and building wall at Column 10/13 Row 11.
+- **Plateau Isolation**: Koga's Western-West Plateau is physically isolated from the main plateau at z=1.
+- **The True Route**: To reach the Northwest quadrant of Safari Zone West, we must enter via the Northwest transition of Safari Zone North (Map 0_218) on ground level [z=0], which lands us directly in the Northwest plains of West.
+
+## Fresh Campaign Plan - Run 47 (500 steps)
+Since we only have 125 steps remaining on Run 46, we will DIG out immediately on Turn 70954, saving time and steps, and start a fresh, optimized Run 47 from the gatehouse.
 
 1. **Traverse Safari Zone Center (Map 0_220)** [28 steps]:
    - From (15, 25), walk to (29, 11) and transition to Safari Zone East.
@@ -5768,82 +5771,30 @@ This route avoids almost all tall grass and has an extremely high success rate.
 2. **Traverse Safari Zone East (Map 0_217)** [69 steps]:
    - Enter at (0, 23). Walk Right to (24, 23) [24 steps].
    - Walk Up Column 24 to (24, 3) [20 steps].
-   - Walk Left along Row 3 to (1, 3) [23 steps].
-   - Walk Down 1 step to (1, 4), and Left 1 step to (0, 4) to transition to Safari Zone North [2 steps].
+   - Walk Left along Row 3 to (0, 3) [24 steps] and transition to Safari Zone North [1 step].
 
-3. **Traverse Safari Zone North (Map 0_218)** [57 steps]:
+3. **Traverse Safari Zone North (Map 0_218)** [84 steps]:
    - Enter at (39, 31). Walk along Row 31 to (28, 31) [11 steps].
    - Walk Down 2 to (28, 33) [2 steps].
    - Walk Left 6 to (22, 33) [6 steps].
    - Walk Up 9 to Koga's Western Plateau stairs base at (22, 24) [9 steps].
    - Climb stairs to (22, 22) [z=1] [2 steps].
-   - Walk Left 6 to (16, 22) [z=1] and Down 5 steps along Column 16 to (16, 27) [z=1] [11 steps].
+   - Walk Left 6 to (16, 22) [z=1] and Down 5 steps to (16, 27) [11 steps].
    - Descend stairs to (16, 28) [z=0] [1 step].
-   - Walk to (9, 35) [z=0] [15 steps].
-   - Transition to Safari Zone West [1 step].
+   - Walk Left 4 to Column 12 at (12, 28) [4 steps].
+   - Walk Up Column 12 to Row 14 at (12, 14) [14 steps].
+   - Walk Left 4 to Column 8 at (8, 14) [4 steps].
+   - Walk Up to Row 3 at (8, 3) [11 steps].
+   - Walk Left 8 to (0, 3) and transition to Safari Zone West [9 steps].
 
-4. **Retrieve Gold Teeth and Surf in Safari Zone West (Map 0_219)** [62 steps]:
-   - Walk Down 18 to (27, 18) [18 steps].
-   - Walk Left 6 along Row 18 to (21, 18) [6 steps].
-   - Climb Eastern Plateau stairs to (21, 16) [z=1] [2 steps].
-   - Walk Left 5 to Column 16 at (16, 16) [z=1] [5 steps].
-   - Walk Right 11 steps along Row 16 (Koga's bridge) to Column 16 at (16, 16) [z=1]. Since we are currently at (5, 16) facing Down, we will use 'Right' to face Right, and subsequent 'Right's to walk all the way across Koga's bridge.
-   - Walk Up 7 steps along Column 16 from (16, 16) to (16, 9) [z=1] [7 steps].
-   - Face Right and press Right to jump East over the Column 17 checkered vertical ramp (which acts as a jump-down ledge in Gen 1) onto ground-level grass at (18, 9) [z=0] [1 step].
-   - Walk Right 1 to Column 19 at (19, 9) [z=0] [1 step].
-   - Walk Up 2 along Column 19 to stand on (19, 7) [z=0] and pick up the Warden's Gold Teeth [2 steps].
-   - Walk Up 2 steps to (19, 5) [z=0], Left 16 along Row 5 ground corridor to (3, 5) [z=0] [18 steps].
-   - Walk Up 2 steps along Column 3 to enter the Secret House at (3, 3) [z=0] and get Surf [2 steps].
+4. **Retrieve Gold Teeth and Surf in Safari Zone West (Map 0_219)** [34 steps]:
+   - Enter West at (29, 3) [z=0].
+   - Walk Left 10 to (19, 3) [10 steps].
+   - Walk Down 4 along Column 19 to stand on (19, 7) and pick up the Warden's Gold Teeth [4 steps].
+   - Walk Up 4 to Row 3 at (19, 3) [4 steps].
+   - Walk Left 16 along Row 3 to (3, 3) and enter the Secret House to get HM03 Surf! [16 steps].
 
-**Total Estimated Steps**: 232 steps.
-**Remaining Step Budget inside Secret House**: 268 steps remaining! This is well within our 500-step budget and mathematically guarantees success on foot!
-
-## Chronological Overworld Log (Run 46)
-- **Turn 70404**: Standing at (19, 28) in Fuchsia City. Warped from Safari Zone North using Blastoise's DIG on Turn 70403 to reset our steps. Ready to walk to the Safari Zone Gatehouse.
-- **Turn 70420**: Walked Left 5 steps from (19, 28) to (14, 28).
-- **Turn 70443**: Walked Right 8 steps, Up 8 steps, reaching (22, 26) but blocked by the fence at (22, 25).
-- **Turn 70449**: Walked Right 2 steps to Column 24 (crossing the one-way ledge), Up to (24, 25), facing the Kangaskhan at (24, 24).
-- **Turn 70453**: Walked Down 5 steps to (24, 30).
-- **Turn 70460**: Tried walking around the houses via Column 30, but (30, 25) was blocked by the roof. Ended up at (26, 28).
-- **Turn 70462**: Walked Right 4 steps, Down 2 steps to (30, 30).
-- **Turn 70464**: Walked Left 21 steps along Row 30 but bumped into the one-way ledge at Column 23, landing at (24, 30).
-- **Turn 70467**: Walked Up 4, Left 2, Down 2, ending up at (24, 28) facing Down.
-- **Turn 70484**: Walked Down 2 steps to (24, 30) and Right 11 steps to (35, 30).
-- **Turn 70492**: Walked Right 1 step to Column 36 at (36, 30) and Up 4 steps along Column 36 to (36, 26).
-- **Turn 70495**: Walked Up 8 steps along Column 36 to (36, 18) facing Up.
-- **Turn 70504**: Conclusively disproved the Eastern corridor hypothesis on foot by verifying the interlocking tree blockage on Rows 15 and 16.
-- **Turn 70508**: Opened Start menu.
-- **Turn 70510**: Selected POKéMON.
-- **Turn 70514**: Opened POKéMON menu again.
-- **Turn 70515**: Selected BIRBIE (PIDGEOTTO).
-- **Turn 70516**: Selected FLY.
-- **Turn 70517**: Opened the overworld Fly map.
-- **Turn 70520**: Pressed Up to Viridian City.
-- **Turn 70527**: Pressed Down to Pallet Town.
-- **Turn 70529**: Pressed Down to Saffron City.
-- **Turn 70532**: Pressed Down 3 times to Fuchsia City and executed FLY!
-- **Turn 70549**: Successfully executed FLY to Fuchsia City, landing at (19, 28).
-- **Turn 70552**: Walked Right 3 steps to (22, 28).
-- **Turn 70553**: Walked Up 2 steps to (22, 26).
-- **Turn 70555**: Jumped East over the one-way ledge at (23, 26), landing at (25, 26).
-- **Turn 70556**: Walked Left 1 step to (24, 26) and Up 6 steps to (24, 20).
-- **Turn 70558**: Walked Left 6 steps along Row 20 to stand at (18, 20).
-- **Turn 70561**: Pressed UP to face the cuttable tree at (18, 19).
-- **Turn 70567**: Used PETAL's CUT to clear (18, 19).
-- **Turn 70568**: Walked Up 8, Left 2 to (16, 12) facing Left.
-- **Turn 70578**: Pressed Up once to face (16, 11).
-- **Turn 70585**: Used PETAL's CUT to clear (16, 11).
-- **Turn 70587**: Walked Up 6 to (16, 6) facing Up.
-- **Turn 70589**: Walked Right 2, Up 3 to enter Gatehouse, landing at (3, 5).
-- **Turn 70609**: Walked Up 2 to stand at (3, 2).
-- **Turn 70613**: Paid ¥500 and entered Safari Zone Center (Map 0_220) at (15, 25).
-- **Turn 70614**: Used safari_pathfinder but bumped at (15, 24) tree, landing at (28, 16) with 472 steps remaining.
-- **Turn 70619**: Walked Up 5 steps to (28, 11) with 467 steps remaining, facing RIGHT.
-- **Turn 70632**: Walked Right 1 step to (29, 11) in Safari Zone Center.
-- **Turn 70633**: Walked Right 1 step to transition, landing at (0, 23) in Safari Zone East with 465 steps remaining.
-- **Turn 70638**: Walked Up 2, Right 6 to stand at (5, 21) on Map 0_217, with 457 steps remaining (bumped against tree wall at (6, 21)).
-- **Turn 70643**: Walked Left 1, Down 3, Right 6 to stand at (10, 24) on Row 24 clear ground with 447 steps remaining.
-- **Turn 70645**: Walked Right 8 steps to (18, 24) where we encountered a wild Nidorina; escaped immediately on Turn 70647 with 439 steps remaining.
-- **Turn 70649**: Walked Right 6 steps to stand at (24, 24) with exactly 433 steps remaining, facing RIGHT.
+**Total Estimated Steps**: 215 steps.
+**Remaining Step Budget inside Secret House**: 285 steps remaining! Mathematically guaranteed success!
 
 <hr>
