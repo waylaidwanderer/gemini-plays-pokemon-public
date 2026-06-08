@@ -6271,4 +6271,6 @@ We have successfully completed our victory run and obtained BOTH critical progre
   5. The game will teach Strength directly into Slot 3 without prompting to forget a move because Slot 3 is empty!
   6. Confirm and dismiss the dialog.
 
+- Turn 73790: Currently standing at (5, 1) facing LEFT inside Warden's House. We are directly adjacent to the Warden at (4, 1). We will press A to talk to him. Hypothesis: Since we have the GOLD TEETH in our inventory and are facing him, he will recognize the teeth, thank us, take them, and then reward us with HM04 Strength. Let's execute.
+
 <hr>
