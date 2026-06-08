@@ -1,5 +1,5 @@
-# Safari Zone Exploration - Run 52 (Turn 73059 - Active)
-- Current Status: Standing at (16, 16) [z=1] inside Safari Zone West (Map 0_219) on Turn 73059, facing LEFT with exactly 208 remaining steps in RAM.
+# Safari Zone Exploration - Run 52 (Turn 73062 - Active)
+- Current Status: Standing at (16, 9) [z=1] inside Safari Zone West (Map 0_219) on Turn 73062, facing UP with exactly 201 remaining steps in RAM.
 - Inventory Status: 15/20 items, 30 Safari Balls.
 
 ## Master Run 52 Campaign Plan & Route (The Ultimate Double Retrieval)
@@ -12,7 +12,7 @@
 - Walk Left 6 to (21, 18) -> 6 steps (Completed, Turn 73052).
 - Climb Eastern stairs: Up 2 to (21, 16) [z=1] -> 2 steps (Completed, Turn 73059).
 - Traverse bridge to (16, 16): Left 5 [z=1] -> 5 steps (Completed, Turn 73059).
-- Climb Column 16 to (16, 9): Up 7 [z=1] -> 7 steps.
+- Climb Column 16 to (16, 9): Up 7 [z=1] -> 7 steps (Completed, Turn 73062).
 - Jump East over Column 17 vertical ramp to (18, 9): Right 1 [z=0] -> 1 step.
 - Walk to stand adjacent to Warden's Gold Teeth at (19, 8): Right 1, Up 1 [z=0, facing UP] -> 2 steps.
 
