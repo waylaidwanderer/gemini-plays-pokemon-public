@@ -1,8 +1,7 @@
-# Safari Zone West Exploration - Run 49 (Turn 71823 - Active)
-- Current Status: Standing at (9, 22) in Safari Zone East (Map 0_217) on Turn 71823, facing LEFT with exactly 409 remaining steps in RAM.
-- Starting Turn: Run 49 starting.
+# Safari Zone West Exploration - Run 49 (Turn 71851 - Active)
+- Current Status: Standing at (28, 31) in Safari Zone North (Map 0_218) on Turn 71851, facing LEFT with exactly 392 remaining steps in RAM.
 - Inventory Status: 15/20 items, 30 Safari Balls.
-- Run 49 Remaining Steps: 409 steps remaining.
+- Run 49 Remaining Steps: 392 steps remaining.
 - Money remaining: ¥65,817.
 
 ## Crucial Empirical Discoveries (Falsified Hypotheses)
@@ -13,26 +12,18 @@
 ## Master Campaign Plan - Run 49 (500 steps)
 
 1. **Traverse Safari Zone Center (Map 0_220)** [Completed in 29 steps]
+2. **Traverse Safari Zone East (Map 0_217)** [Completed in 79 steps]
 
-2. **Traverse Safari Zone East (Map 0_217)** [46 steps remaining from (9, 22)]:
-   - Currently standing at (9, 22) [z=0].
-   - Walk Up 12 steps along Column 9 to Row 10 at (9, 10) [z=0] [12 steps].
-   - Walk Right 1 step to (10, 10) [z=0] [1 step].
-   - Walk Up 2 steps along Column 10 to (10, 8) [z=0] [2 steps].
-   - Walk Left 1 step to (9, 8) [z=0] [1 step]. (This detour completely bypasses the tall grass at (9, 9) for a 0% wild encounter rate!).
-   - Walk Up 5 steps along Column 9 to Row 3 at (9, 3) [z=0] [5 steps].
-   - Walk Left 24 steps horizontally along Row 3 to Column 0 at (0, 3) [24 steps] and transition Left 1 step to Safari Zone North [1 step].
-   - **Total Remaining Steps for Safari Zone East**: 12 + 1 + 2 + 1 + 5 + 24 + 1 = 46 steps (reaches North with 363 steps remaining).
-
-3. **Traverse Safari Zone North (Map 0_218)** [57 steps]:
-   - From (39, 31), walk Left along Row 31 to Column 28 at (28, 31) [11 steps].
-   - Walk Up 4 steps to climb Eastern stairs to plateau at (28, 26) [z=1] [4 steps].
-   - Walk Down 2 steps to descend Eastern stairs to ground level at (28, 29) [z=0] [2 steps].
+3. **Traverse Safari Zone North (Map 0_218)** [51 steps remaining from (28, 31)]:
+   - Currently standing at (28, 31) [z=0], facing LEFT with 392 steps remaining.
+   - Walk Up 4 steps along Column 28 to climb Eastern stairs to plateau at (28, 27) [z=1] [4 steps].
+   - Walk Down 2 steps along Column 28 to descend Eastern stairs to ground level at (28, 29) [z=0] [2 steps].
    - Walk Left 6 steps along Row 29 to Column 22 at (22, 29) [z=0] [6 steps].
    - Walk Up 7 steps along Column 22 to climb Western stairs to plateau at (22, 22) [z=1] [7 steps].
    - Walk Left 6 steps and Down 5 steps across plateau to Western stairs top at (16, 27) [z=1] [11 steps].
    - Walk Down 1 step to descend Western stairs to ground level at (16, 28) [z=0] [1 step].
    - Walk Left 4 to (12, 28) [4 steps], Down 2 to (12, 30) [2 steps], Left 3 to (9, 30) [3 steps], Down 5 to (9, 35) [5 steps], and Down 1 step to transition to Safari Zone West (Map 0_219) at (27, 0) [1 step].
+   - **Total Remaining Steps for Safari Zone North**: 4 + 2 + 6 + 7 + 11 + 1 + 4 + 2 + 3 + 5 + 1 = 46 steps (reaches West with 346 steps remaining).
 
 4. **Retrieve Gold Teeth and Surf in Safari Zone West (Map 0_219)** [113 steps from (27, 0)]:
    - From (27, 0) [z=0], walk Down 18 steps along Column 27 to (27, 18) [z=0] [18 steps].
@@ -53,19 +44,5 @@
    - Walk Left 16 steps along Row 7 ground corridor back to (3, 7) [z=0] [16 steps].
    - Walk Up 4 steps along Column 3 to enter the Secret House at (3, 3) [z=0] to get HM03 Surf! [4 steps].
 
-**Total Estimated Steps for Run 49**: 29 + 71 + 57 + 113 = 270 steps.
-**Remaining Step Budget inside Secret House**: 230 steps remaining! Mathematically guaranteed success!
-
-## Section 5: Run 49 Socratic Resolution & Detailed Verification
-- **Socratic Question**: Now that the player is standing at (9, 22) [z=0] on ground level facing LEFT, explain the exact unblocked sequence of buttons and remaining steps to reach the transition to Safari Zone North at (0, 5) [z=0]. How will they walk Up Column 9 to Row 3, bypass any tall grass or obstacles, and transition to Safari Zone North?
-- **Socratic Answer**:
-  From our current position at (9, 22) [z=0] facing LEFT, we have exactly 409 remaining steps in RAM.
-  To reach the Northwest exit at (0, 3) [z=0] while completely bypassing the tall grass wild encounter risk at (9, 9), we will execute the following unblocked ground-level sequence:
-  1. Walk Up 12 steps vertically along Column 9 to (9, 10) [z=0] [12 steps].
-  2. Walk Right 1 step to Column 10 at (10, 10) [z=0] [1 step].
-  3. Walk Up 2 steps vertically along Column 10 to Row 8 at (10, 8) [z=0] [2 steps].
-  4. Walk Left 1 step to Column 9 at (9, 8) [z=0] [1 step]. (This detour completely avoids the tall grass tile at (9, 9) on Column 9, preserving a 0% wild encounter rate).
-  5. Walk Up 5 steps vertically along Column 9 to Row 3 at (9, 3) [z=0] [5 steps].
-  6. Walk Left 24 steps horizontally along Row 3 from (9, 3) to Column 0 at (0, 3) [z=0] [24 steps].
-  7. Walk Left 1 step to step onto the map transition and warp into Safari Zone North [1 step].
-  This ground-level corridor path is completely unblocked and consumes exactly 46 overworld steps, leaving us with exactly 363 steps remaining as we transition to Safari Zone North!
+**Total Estimated Steps for Run 49**: 29 + 79 + 46 + 113 = 267 steps.
+**Remaining Step Budget inside Secret House**: 233 steps remaining! Mathematically guaranteed success!
