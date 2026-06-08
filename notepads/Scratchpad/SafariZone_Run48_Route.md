@@ -13,9 +13,9 @@
 
 1. **Traverse Safari Zone Center (Map 0_220)** [30 steps]:
    - We are currently at (15, 17) [z=0].
-   - Walk Right 3 steps along Row 17 to Column 18 at (18, 17) [3 steps].
-   - Walk Up 3 steps along Column 18 to Row 14 at (18, 14) [3 steps].
-   - Walk Right 4 steps along Row 14 to Column 22 at (22, 14) [4 steps].
+   - Walk Right 5 steps along Row 17 to Column 20 at (20, 17) [5 steps].
+   - Walk Up 3 steps along Column 20 to Row 14 at (20, 14) [3 steps].
+   - Walk Right 2 steps along Row 14 to Column 22 at (22, 14) [2 steps].
    - Walk Up 3 steps along Column 22 to Row 11 at (22, 11) [3 steps].
    - Walk Right 7 steps along Row 11 to (29, 11) and transition to Safari Zone East [7 steps].
 
