@@ -5791,13 +5791,22 @@ This route avoids almost all tall grass and has an extremely high success rate.
    - Walk Down 2 to descend stairs to (6, 20) [z=0] [2 steps].
    - Walk Left 4 to Column 2 at (2, 20) [z=0] [4 steps].
    - Walk Up 6 along Column 2 to (2, 14) [z=0] [6 steps].
-   - Walk Right 1 step to Column 3 at (3, 14) [z=0] [1 step].
-   - Walk Up 11 steps along Column 3 to (3, 3) [z=0] to enter the Secret House and get HM03 Surf!
-   - From (3, 3), walk Down 4 to Row 7 at (3, 7) [z=0] [4 steps].
-   - Walk Right 16 steps along Row 7 to (19, 7) [z=0] to retrieve Warden's Gold Teeth!
+   - Walk Right 8 steps along Row 14 to (10, 14) [z=0] [8 steps].
+   - Walk Up 2 steps along Column 10 to (10, 12) [z=0] [2 steps].
+   - Walk Right 3 steps along Row 12 to (13, 12) [z=0] [3 steps].
+   - Walk Up 2 steps along Column 13 to (13, 10) [z=0] [2 steps].
+   - Walk Left 3 steps along Row 10 to (10, 10) [z=0] [3 steps].
+   - Walk Up 1 step to (10, 9) [z=0] [1 step].
+   - Climb Koga's Western-West Plateau stairs UP to (10, 8) [z=1] [1 step].
+   - Walk Left 6 steps on the plateau along Row 8 to Column 4 at (4, 8) [z=1] [6 steps].
+   - Walk Left 1 step to jump West (Left) over the Column 4 ledge onto (3, 8) [z=0] in the Northwest quadrant [1 step].
+   - Walk Up 1 step to Row 7 at (3, 7) [z=0] [1 step].
+   - Walk Right 16 steps along Row 7 to retrieve Warden's Gold Teeth at (19, 7) [z=0] [16 steps].
+   - Walk Left 16 steps back to (3, 7) [z=0] [16 steps].
+   - Walk Up 4 steps along Column 3 to enter the Secret House at (3, 3) [z=0] to get HM03 Surf [4 steps].
 
-**Total Estimated Steps**: 230 steps.
-**Remaining Step Budget inside Secret House**: 283 steps remaining!
+**Total Estimated Steps**: 252 steps.
+**Remaining Step Budget inside Secret House**: 248 steps remaining! This is well within our 500-step budget and mathematically guarantees success on foot!
 
 ## Chronological Overworld Log (Run 46)
 - **Turn 70404**: Standing at (19, 28) in Fuchsia City. Warped from Safari Zone North using Blastoise's DIG on Turn 70403 to reset our steps. Ready to walk to the Safari Zone Gatehouse.
