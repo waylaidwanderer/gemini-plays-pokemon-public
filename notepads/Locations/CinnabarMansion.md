@@ -81,9 +81,17 @@
   - **Column 1 Row 9 Blockage**: Empirically proven to be a solid wall of TYPE_2889 on Turn 76873 by attempting to step Up from (1, 10) and colliding.
   - **Northern Half Isolation**: Rows 6 and 7 are entirely blocked by solid wall/rubble of TYPE_2889 across all columns on 3F West, meaning the northern half of 3F West (Rows 1-5) is completely isolated and unreachable on foot from the southern half under both states.
   - **Balcony Ledge Testing**: Systematically testing Row 17 on Columns 1-5 on 3F West to find a balcony jump-down spot.
-    - Column 5: Tested on Turn 76905 by pressing Down from (5, 16) and bumped, proving (5, 17) is a solid railing.
-    - Column 4: Tested on Turn 76919 by pressing Down from (4, 16) and bumped, proving (4, 17) is a solid railing.
-    - Column 3: Tested on Turn 76924 by pressing Down from (3, 16) and bumped, proving (3, 17) is a solid railing.
+    - Column 5: Tested on Turn 76905 by pressing Down from (5, 16) and bumped, proving (5, 17) is a solid railing under State B.
+    - Column 4: Tested on Turn 76919 by pressing Down from (4, 16) and bumped, proving (4, 17) is a solid railing under State B.
+    - Column 3: Tested on Turn 76924 by pressing Down from (3, 16) and bumped, proving (3, 17) is a solid railing under State B.
+    - Column 2: Tested on Turn 76931 by pressing Down from (2, 16) and bumped, proving (2, 17) is a solid railing under State B.
+    - Column 1: Tested on Turn 76933 by pressing Down from (1, 16) and bumped, proving (1, 17) is a solid railing under State B.
+  - **State A (Statue 2 Default) SW Balcony Ledge Testing**:
+    - Column 5: Testing planned...
+    - Column 4: Testing planned...
+    - Column 3: Testing planned...
+    - Column 2: Testing planned...
+    - Column 1: Testing planned...
 - **Trainers**:
   - Burglar: Standing at (4, 11). Defeated on Turn 75104. Uses a Level 38 Ninetales. Marked with a ☠️ map marker.
 
