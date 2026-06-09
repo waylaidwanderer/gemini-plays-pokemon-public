@@ -1,19 +1,4 @@
 {
-  "heal_pokemon_helper": {
-    "description": "Talks to Nurse Joy and heals the player's Pokemon party, bypassing the auto-advance mechanism. Standing at (3,3) facing Up is required.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\nbuttons = [\n    'A', 'sleep 1500',\n    'A', 'sleep 1500',\n    'A', 'sleep 1500',\n    'A', 'sleep 6000',\n    'A', 'sleep 1500',\n    'A', 'sleep 1500',\n    'A'\n]\nprint(json.dumps(buttons))\n",
-    "history": [
-      {
-        "commit_message": "Create a custom tool to heal Pokemon at Pokemon Centers without triggering auto-advance.",
-        "timestamp": "2026-06-08T21:42:10.763Z",
-        "action_counter": 74602
-      }
-    ]
-  },
   "flee_battle": {
     "description": "Generates the button press sequence to select the RUN option from the default battle fight menu (Down, Right, A).",
     "input_schema": {
@@ -26,6 +11,21 @@
         "commit_message": "Define a simple custom tool to automate navigating to the RUN option in battle.",
         "timestamp": "2026-06-09T05:07:55.519Z",
         "action_counter": 75876
+      }
+    ]
+  },
+  "heal_pokemon_helper": {
+    "description": "Talks to Nurse Joy and heals the player's Pokemon party, bypassing the auto-advance mechanism. Standing at (3,3) facing Up is required.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\nbuttons = [\n    'A', 'sleep 1500',\n    'A', 'sleep 1500',\n    'A', 'sleep 1500',\n    'A', 'sleep 6000',\n    'A', 'sleep 1500',\n    'A', 'sleep 1500',\n    'A'\n]\nprint(json.dumps(buttons))\n",
+    "history": [
+      {
+        "commit_message": "Create a custom tool to heal Pokemon at Pokemon Centers without triggering auto-advance.",
+        "timestamp": "2026-06-08T21:42:10.763Z",
+        "action_counter": 74602
       }
     ]
   }
