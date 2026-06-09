@@ -6545,3 +6545,13 @@ Active State: **State B (Statue 2 Toggled)** (Toggled on Turn 77084)
 - Custom tools are currently healthy and fully functional. No broken tools need debugging.
 
 <hr>
+
+<h1><code>Scratchpad/Mansion_3F_Crossover_Tests</code></h1>
+
+# 3F West-East Southern Balcony Crossover Passability Tests
+- **Objective**: Systematically test and document whether the southern balcony on Rows 16 and 17 provides a continuous, walkable horizontal crossover that connects 3F West to 3F East on foot.
+
+## Test Log (Started Turn 77524)
+- *TBD*
+
+<hr>
