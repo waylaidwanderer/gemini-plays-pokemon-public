@@ -6417,7 +6417,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
     - Column 4: Tested on Turn 77946 by pressing Down from (4, 16) facing Down. Result: **Bump** against (4, 17). Confirmed 100% solid, impassable railing.
     - Column 3: Tested on Turn 77953 by pressing Down from (3, 16) facing Down. Result: **Bump** against (3, 17). Confirmed 100% solid, impassable railing.
     - Column 2: Tested on Turn 77960 by pressing Down from (2, 16) facing Down. Result: **Bump** against (2, 17). Confirmed 100% solid, impassable railing.
-    - Column 1: Testing planned...
+    - Column 1: Tested on Turn 77964 by pressing Down from (1, 16) facing Down. Result: TBD.
 - **Trainers**:
   - Burglar: Standing at (4, 11). Defeated on Turn 75104. Uses a Level 38 Ninetales. Marked with a ☠️ map marker.
 
