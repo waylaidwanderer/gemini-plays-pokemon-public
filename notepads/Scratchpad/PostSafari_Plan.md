@@ -104,36 +104,3 @@
     2. Toggle Statue 2 to State B.
     3. Ascend to 3F West and walk East past Column 11 along Row 12 or Row 13 (which will be OPEN under State B).
     4. Access 3F East, find the Secret Pit at (11, 12), and drop down directly to B1F.
-## 2F East Southeast Stairs Hypothesis & Verification (Turn 76508)
-- **Hypothesis (Socratic Question 1)**: The southeast staircase at (25, 14) exists on 2F East and connects 2F East South directly to 3F East. Since State A (Default) is active, Gate 3 at (18, 8)-(19, 8) is OPEN, which allows us to walk directly onto 2F East South on foot, locate the stairs at (25, 14), and ascend directly to 3F East (bypassing the closed Gate 2 on 3F West).
-- **Testing Protocol**:
-  1. From (4, 11) on 2F West, walk East along Row 11 to Column 10.
-  2. Walk North along Column 10 to Row 7.
-  3. Walk East along Row 7 to Column 18/19.
-  4. Walk South through the open Gate 3 at (18, 8) to Row 11.
-  5. Walk East from Column 18 to Column 25 on Row 11/12/13/14.
-  6. Search the far-southeast corner of 2F East (specifically (25, 14)) for the staircase.
-  7. Step onto the staircase to verify if it connects to 3F East.
-- **Turn 76550 Progress**:
-  - Found that Row 3 Column 19 is blocked by a wall, but Row 4 Columns 20-21 are open, and Row 3 Columns 20-24 are open floor of TYPE_3fe2.
-  - Planned route to cross into the eastern wing on 2F under State A: From (19, 4) face Right and walk to (21, 4), then Up to (21, 3), and then East along Row 3 to (24, 3) and further east. This will allow us to see if we can reach the Southeast room and the stairs at (25, 14) on 2F.
-- **Turn 76592 Verification & Progress**:
-  - We have systematically tested 2F East under State A. We proved that Row 8 is a solid partition wall from Column 22 to 28 (all TYPE_2889), and Row 6-7 Column 28 is blocked/solid as well.
-  - *Conclusion*: 2F East South (containing the stairs at (25, 14)) is completely isolated on foot under State A. The stairs at (25, 14) are unreachable on foot.
-  - Thus, we are backtracking to 3F West to test Gate 2 at Column 11 under State A.
-  - Currently standing at (18, 7) facing UP. We will execute the 11-step movement sequence to reach (11, 11) now.
-## Gate 2 (3F Column 11) State A Testing Protocol (Turn 76598)
-- **Objective**: Determine if Gate 2 on 3F Column 11 is OPEN or CLOSED under State A (Default).
-- **Previous Discovery**: Column 11 Row 11 is a permanent wall, meaning any potential passage must exist on Row 12 or Row 13.
-- **Testing Route**:
-  1. Ascend from 2F West stairs (7, 10) to 3F West (7, 11).
-  2. Walk Down 1 step to (7, 12).
-  3. Walk East along Row 12 to (11, 12).
-     - **If we bump at Column 11 (standing at (10, 12) facing Right and pressing Right results in a bump)**: This proves the Gate 2 barrier on Row 12 is CLOSED under State A.
-     - **If we walk into (11, 12) and fall down the pit to B1F**: This proves Gate 2 on Row 12 is OPEN under State A.
-  4. If we bumped on Row 12, walk Down 1 step to (7, 13).
-  5. Walk East along Row 13 to (11, 13).
-     - **If we bump**: This proves Gate 2 on Row 13 is CLOSED under State A.
-     - **If we successfully walk past Column 11 along Row 13 into 3F East**: This proves Gate 2 on Row 13 is OPEN under State A.
-- **Documentation**:
-  - Once tested, we will update `Scratchpad/Mansion_Gate_Matrix` by filling in the Gate 2 State A cell with the empirical results and turn numbers.
