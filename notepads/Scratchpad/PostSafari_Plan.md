@@ -103,3 +103,8 @@
   - *Proof of Failure (Turn 76102)*: Walked to Gate 3 at (18, 8) and bumped into it, proving it remained CLOSED and confirming we were still in State B.
   - *Correction Plan (Turn 76111)*: Backtracked to (3, 11) facing Left. We will press 'A' once to trigger the switch text prompt, wait for the YES/NO menu to appear, and press 'A' again to confirm 'YES'. This will successfully change the Mansion to State A.
   - *Post-Toggle Verification Plan*: Once State A is active, we will walk East along Row 11 to Column 10, walk North to Row 3, and walk West to (8, 3) across Column 9 to verify that Row 3 is indeed open and passable under State A (Socratic Question 2). Then we will cross East along Row 3 to 2F East and walk through the newly-opened Gate 3 at (18, 8) to reach the South-East room.
+- **Row 3 Column 9 (9, 3) Socratic Verification (Turn 76133)**:
+  - *Socratic Question 2 Test*: Stood at (10, 3) and visually analyzed (9, 3).
+  - *Result*: (9, 3) is a solid black partition wall tile of TYPE_2889 under State A. It is CLOSED and impassable.
+  - *Conclusion*: Row 3 is NOT an open crossing corridor across Column 9. Under State A, Column 9 is completely blocked on Rows 3-9 (since Gate 6 at (9, 4)-(9, 5) is closed and the rest are solid partition walls).
+  - *Bypass Method (Row 11)*: Row 11 is a universal, open corridor across Column 9 (9, 11 is open floor TYPE_3fe2 under both State A and B). We successfully crossed Column 9 along Row 11, and then walked North along Column 10 to reach (10, 3).
