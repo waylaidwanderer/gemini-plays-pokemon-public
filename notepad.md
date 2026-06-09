@@ -6543,7 +6543,7 @@ We have successfully completed our victory run and obtained BOTH critical progre
   - Status check: There are two types of gates: **Open Gates** and **Closed Gates**.
   - Statues toggle these states: when one type opens, the other type closes.
 - **Floors**:
-  - **1F**: Entry floor. Contains stairs to 2F. Note: map transition (stairs) RESETS the electronic gates to their default states in Pokémon Mansion! Toggling a switch on an upper floor will NOT keep a 1F gate open if we must use the stairs to return.
+  - **1F**: Entry floor. Contains stairs to 2F.
   - **2F**: Second floor. Contains stairs to 1F, stairs to 3F, and several balconies/falls.
   - **3F**: Third floor. Contains stairs to 2F, and specific fall-down spots (pits/ledges) that drop the player to lower floors (including B1F!).
   - **B1F**: Basement floor. This is where the **Secret Key** is hidden.
