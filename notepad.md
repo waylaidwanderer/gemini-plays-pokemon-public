@@ -6264,6 +6264,16 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Visually and physically verified that Row 7 is a completely open, clear horizontal crossing corridor on Columns 10-16 of TYPE_3fe2.
   - Path from (11, 11) to Gate 3: Walk Up 4 steps to (11, 7), walk Right 7 steps to (18, 7), and walk Down 1 step to (18, 8) to cross Gate 3 into 2F East South.
 
+- **Mansion B1F Access & Gate 2 Falsification (Turn 76402)**:
+  - *Observation*: Tested (15, 11) on 2F East South on Turn 76394 and found it is a solid decorative table/cabinet of TYPE_2889, NOT a staircase.
+  - *Breakthrough*: In vanilla Pokémon Mansion, there is no southeast staircase on 1F or 2F. The only way to reach 3F East is via walking past Gate 2 on 3F Column 11 when it is OPEN under State B.
+  - *Falsification of Gate 2 Closed State*: We previously assumed Gate 2 was CLOSED in State B because Column 11 Row 11 is solid. However, Row 11 is a permanent wall on Column 11; the actual open hallway with the gate is on Row 12 or Row 13, which is OPEN under State B!
+  - *New Master Plan*:
+    1. Backtrack to Statue 2 at (2, 11) on 2F West.
+    2. Toggle Statue 2 to State B.
+    3. Ascend to 3F West and walk East past Column 11 along Row 12 or Row 13 (which will be OPEN under State B).
+    4. Access 3F East, find the Secret Pit at (11, 12), and drop down directly to B1F.
+
 <hr>
 
 <h1><code>Locations/CeladonGym</code></h1>
