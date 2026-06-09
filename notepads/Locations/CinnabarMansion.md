@@ -42,9 +42,13 @@
   - Down to 1F: (TBD, TBD)
   - Up to 3F: (TBD, TBD)
 - **Switches & Gates**:
-  - Statue 2: (2, 11) | State: [x] State B (Toggled) (Toggled back to State B on Turn 76255 by standing at (2, 12) facing UP and selecting YES)
+  - Statue 2: (2, 11) | State: [x] State A (Default) (Toggled on Turn 76111)
   - Gate 6: (9, 4)-(9, 5) | State: CLOSED under State A, OPEN under State B (Verified CLOSED on Turn 75868)
   - Gate 3: (18, 8)-(19, 8) | State: OPEN under State A, CLOSED under State B (Verified OPEN on Turn 75880 and Turn 76143)
+- **Physical Blockages & Routing Constraints (Empirically Verified)**:
+  - **Column 22 Blockage**: Bounded by solid rubble (TYPE_2889) on Rows 8-15 under both State A and B, separating Column 21 from Column 23 on these rows (Verified Turn 76533).
+  - **Row 8 Blockage**: Row 8 is a solid partition wall of TYPE_2889 from Column 22 to 28, blocking vertical crossing from the Northeast room to the Southeast room under both State A and B (Verified Turn 76559).
+  - **Southeast Room Isolation**: Due to the Column 22 and Row 8 blockages, the Southeast room (and the stairs at (25, 14)) are completely isolated and unreachable on foot from 2F East North and 2F West under State A (Verified Turn 76559).
 - **Falls/Pits**:
   - Fall Spot 1: (TBD, TBD) -> Drops to (TBD, TBD) on 1F
 - **Items**:
