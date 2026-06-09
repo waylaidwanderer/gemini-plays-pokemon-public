@@ -6441,6 +6441,8 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
     - The south-east pocket (Columns 25-28, Rows 18-26) is explored and verified empty. Column 24 acts as a solid vertical partition wall from Row 19 to Row 27.
     - Crossing left/west into the south-west pocket is possible along Rows 14, 15, and 16.
 - Column 2: Tested on Turn 76931 by pressing Down from (2, 16) and bumped, proving (2, 17) is a solid railing.
+- Column 1: Tested on Turn 76933 by pressing Down from (1, 16) and bumped, proving (1, 17) is a solid railing.
+- SW Balcony Ledge Exploration Complete: All five columns (1 to 5) on Row 17 of 3F West have been systematically tested and are confirmed 100% solid, impassable railings under State B. There is no jump-down ledge or balcony exit in this southwest quadrant.
 
 <hr>
 
