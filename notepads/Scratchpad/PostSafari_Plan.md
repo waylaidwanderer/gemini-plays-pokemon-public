@@ -34,11 +34,6 @@
     - We can then walk through Gate 4 to the West corridor to exit the southern section, meaning we will **never get trapped**!
 - **State Matrix Update**: We will record these findings in `Scratchpad/Mansion_Gate_Matrix` by updating the State A column once verified.
 
-## KILN (Magmar L34) Team Integration & Grinding Plan (Turn 75752)
-- **Combat Profile**: KILN has high Special and knows Ember. While fire is extremely useful against Grass/Ice/Bug types, GEMMY (BLASTOISE) is already Level 60 and completely outclasses all encounters.
-- **Integration Decision**: We will keep KILN in Box 1 as a valuable Fire-type reserve. We do not need to actively switch-train or grind him because BLASTOISE sweeps the Cinnabar Gym with 100% consistency using SURF.
-- **Grinding Analysis**: If we ever decide to train KILN, the most optimal overworld area is Cinnabar Island's western water channel or grass fields on Route 21. However, since GEMMY's Surf easily handles Blaine, no grinding is required.
-
 ## Cinnabar Mansion Deep B1F Routing & Switch Matrix (Turn 75675)
 - **Active Exploration Mission**: Locate and retrieve the Secret Key.
 - **Switch Matrix (State A vs. State B)**:
