@@ -81,7 +81,6 @@
   - Columns 26, 27, 28 are bounded by solid walls and rubble (26, 13 is solid, 27, 10-11 and 28, 8-11 are rubble).
   - A large wooden table occupies (24, 8)-(25, 9) (TYPE_2889), surrounded by passable floor of TYPE_3fe2.
   - The electronic gate at (25, 13) was tested on Turn 75301 and found to be CLOSED and impassable. This blocks access to the southern section of the eastern room on 1F (Rows 14-16, Columns 22-27).
-  - Wild Muk: Caught at (3, 11) | State: [x] Captured (Turn 75484). Named SLUDGY (Level 39), stored in PC Box 1.
   - Under State B (Statue 2 Toggled):
     - Gate 1 at (25, 13) is OPEN and passable (Verified Turn 75550).
     - Gate 4 at (21, 17) is CLOSED (Verified Turn 75551).
