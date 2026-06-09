@@ -108,3 +108,4 @@
     - Gate 5 at (26, 27) / (27, 27) is CLOSED (Verified Turn 75568).
     - The south-east pocket (Columns 25-28, Rows 18-26) is explored and verified empty. Column 24 acts as a solid vertical partition wall from Row 19 to Row 27.
     - Crossing left/west into the south-west pocket is possible along Rows 14, 15, and 16.
+- Column 2: Tested on Turn 76931 by pressing Down from (2, 16) and bumped, proving (2, 17) is a solid railing.
