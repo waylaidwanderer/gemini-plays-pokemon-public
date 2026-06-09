@@ -119,3 +119,6 @@
   5. Walk East from Column 18 to Column 25 on Row 11/12/13/14.
   6. Search the far-southeast corner of 2F East (specifically (25, 14)) for the staircase.
   7. Step onto the staircase to verify if it connects to 3F East.
+- **Turn 76550 Progress**:
+  - Found that Row 3 Column 19 is blocked by a wall, but Row 4 Columns 20-21 are open, and Row 3 Columns 20-24 are open floor of TYPE_3fe2.
+  - Planned route to cross into the eastern wing on 2F under State A: From (19, 4) face Right and walk to (21, 4), then Up to (21, 3), and then East along Row 3 to (24, 3) and further east. This will allow us to see if we can reach the Southeast room and the stairs at (25, 14) on 2F.
