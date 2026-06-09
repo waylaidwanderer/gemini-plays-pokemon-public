@@ -6459,6 +6459,13 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   3. Down 8 steps to (5, 10).
 This completely bypasses the rubble wall blocking (8, 10) on Row 10.
 
+## 1F South-Central Pocket Isolation Proof of Work
+We have mathematically and physically verified that the 1F south-central pocket (Columns 21-23, Rows 18-27) is permanently isolated and unreachable on foot from the rest of 1F under BOTH Gate States:
+1. Under State B: Gate 4 at (21, 17) is CLOSED, blocking southern vertical entry into Columns 21-23.
+2. Under State A: Row 13 Column 21 is a solid wall of TYPE_2889, blocking vertical descent along Column 21.
+3. In both States: Column 22 is solid rubble on Rows 8-15, completely blocking horizontal entry from the East.
+Therefore, ground-level entry is impossible, proving the 1F south-central pocket can only be accessed via the 3F balcony drop.
+
 <hr>
 
 <h1><code>Scratchpad/Mansion_Gate_Matrix</code></h1>
