@@ -74,3 +74,15 @@
     - *Utility*: While even more powerful (effective base power 360), its 80% accuracy introduces unnecessary miss risk. We will only use this if SURF PP is fully depleted.
   - **Priority Move 3: DIG** (Ground, Physical, Power 100, 100% Accuracy).
     - *Utility*: Ground is also 2x super-effective against Fire, but in Gen 1 DIG is a 2-turn move, giving opponents a turn to act or use status moves. SURF is infinitely more efficient.
+## 2F East & Row 3 Crossing Corridor Verification (Turn 75910)
+- **Socratic Answer**: Crossing horizontally from West to East on Row 7 or 8 is blocked by solid rubble (Columns 23-25, Row 7) and wall (Row 8).
+- **The Corridor**: Row 3 (specifically Columns 21-28, Row 3) is the single, continuous horizontal corridor that connects the western and eastern halves of 2F.
+- **Routing Effect**:
+  - Under State A: We can cross to the Northeast room (Columns 25-28, Rows 3-7) via Row 3, but the Southeast room (containing the stairs at 25, 14) is blocked by the closed gate/wall on Row 8.
+  - Under State B: Gate 6 at (9, 4)-(9, 5) is OPEN, allowing us to cross Column 9. We then walk East along Row 3, cross Column 22/23, and since the eastern gate on Row 8 is OPEN under State B, we can walk South to reach the stairs at (25, 14).
+- **Live Strategy**: 
+  1. Walk back to the 2F stairs at (5, 10) and go down to 1F.
+  2. Verify if Gate 4 at (21, 17) and Gate 5 at (26, 27) are OPEN under State A.
+  3. Explore 1F South and East under State A.
+  4. Return to 2F, go to (2, 11), and toggle Statue 2 to State B.
+  5. Go through Gate 6, cross Row 3, walk South to (25, 14), and explore B1F to retrieve the Secret Key.
