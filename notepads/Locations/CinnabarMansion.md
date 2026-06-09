@@ -66,3 +66,11 @@
   - Statue 4: (TBD, TBD) | State: [ ] Default
 - **Secret Key**:
   - Coordinates: (TBD, TBD) | State: [ ] Uncollected
+## 1F: Ground Floor Eastern Room Audit (Turns 75245-75258)
+- Standing at (12, 11).
+- Visually, the right side of 1F (Columns 12 to 17) has been inspected.
+- At Column 16: (16, 10) and (16, 11) is a green pillar (TYPE_2889).
+- Row 13 has a solid block of walls/rubble starting at (11, 13) and extending East to (17, 13) (all are TYPE_2889 except (13, 13) which is TYPE_3fe2).
+- Let's check (13, 13): it says TYPE_3fe2 (passable) on the overlay but wait, is (13, 13) actually open or is it visually a wall? Let's check if we can walk there or if it's blocked by surrounding walls (12, 13) and (14, 13).
+- To the east of Column 17 is off-screen. We can walk up to Row 7 on Column 12 to explore the northern part of this room.
+- Let's verify if there is any item or statue in the northeast of 1F (above Row 10, Columns 12-17).
