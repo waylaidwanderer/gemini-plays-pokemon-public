@@ -29,6 +29,21 @@
       }
     ]
   },
+  "heal_pokemon_helper": {
+    "description": "Talks to Nurse Joy and heals the player's Pokemon party, bypassing the auto-advance mechanism. Standing at (3,3) facing Up is required.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\nbuttons = [\n    'A', 'sleep 1500',\n    'A', 'sleep 1500',\n    'A', 'sleep 1500',\n    'A', 'sleep 6000',\n    'A', 'sleep 1500',\n    'A', 'sleep 1500',\n    'A'\n]\nprint(json.dumps(buttons))\n",
+    "history": [
+      {
+        "commit_message": "Create a custom tool to heal Pokemon at Pokemon Centers without triggering auto-advance.",
+        "timestamp": "2026-06-08T21:42:10.763Z",
+        "action_counter": 74602
+      }
+    ]
+  },
   "safari_pathfinder": {
     "description": "Calculates the shortest valid overworld path (sequence of buttons) between two coordinates in any Safari Zone map, taking into account verified obstacles, plateaus, lake boundaries, and elevation stairs/ledge transitions. Supports Map 0_220 (Center), Map 0_217 (East), Map 0_218 (North), and Map 0_219 (West).",
     "input_schema": {
@@ -1245,21 +1260,6 @@
         "commit_message": "Fix Column 24 tree wall database gap in Map 0_219 (West) obstacle list.",
         "timestamp": "2026-06-08T16:21:20.821Z",
         "action_counter": 73565
-      }
-    ]
-  },
-  "heal_pokemon_helper": {
-    "description": "Talks to Nurse Joy and heals the player's Pokemon party, bypassing the auto-advance mechanism. Standing at (3,3) facing Up is required.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\nbuttons = [\n    'A', 'sleep 1500',\n    'A', 'sleep 1500',\n    'A', 'sleep 1500',\n    'A', 'sleep 6000',\n    'A', 'sleep 1500',\n    'A', 'sleep 1500',\n    'A'\n]\nprint(json.dumps(buttons))\n",
-    "history": [
-      {
-        "commit_message": "Create a custom tool to heal Pokemon at Pokemon Centers without triggering auto-advance.",
-        "timestamp": "2026-06-08T21:42:10.763Z",
-        "action_counter": 74602
       }
     ]
   }
