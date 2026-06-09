@@ -6160,6 +6160,15 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - **Plan**: We must backtrack to 2F West (2, 11) and toggle Statue 2 back to State A (Default) to open Gate 4 at (21, 17) and explore the south-central pocket (Columns 21-23, Rows 18-27) on 1F East.
 
 ## Cinnabar Gym Blaine Matchup Preparation Strategy
+- **South-Central 1F Pocket Inaccessibility (Turn 77316)**: Under State A, the south-central pocket of 1F (Rows 18-27, Columns 21-23) is completely inaccessible on foot from the rest of 1F due to Column 11 and Row 13 walls being solid TYPE_2889.
+- **The B1F Balcony Drop Plan**:
+  1. Ascend to 2F West via the stairs at (5, 10).
+  2. Toggle Statue 2 to State B to open Gate 6 at (9, 4)-(9, 5) on 2F.
+  3. Ascend to 3F West via the northwest stairs on 2F (which are open under State B).
+  4. Cross over to 3F East.
+  5. Toggle the 3F Mewtwo Statue to State A (Default) to ensure Gate 4 on 1F is open.
+  6. Jump down the 3F East eastern balcony / pit drop to land directly inside the isolated 1F East south-central pocket!
+  7. Retrieve the Secret Key from B1F!
 
 <hr>
 
