@@ -6592,6 +6592,7 @@ For each reachable column on Rows 16 and 17 on 2F West, we will perform the foll
 ## State B Ledge Testing (Statue 2 Toggled)
 - **Column 4**: Tested on Turn 77776 by pressing Down from (4, 17) facing Down. Result: **Bump** against (4, 18). Confirmed 100% solid, impassable railing.
 - **Column 3**: Tested on Turn 77778 by pressing Down from (3, 17) facing Down. Result: **Bump** against (3, 18). Confirmed 100% solid, impassable railing.
-- **Column 2**: Testing in progress...
+- **Column 2**: Tested on Turn 77796 by pressing Down from (2, 17) facing Down. Result: **Bump** against (2, 18). Confirmed 100% solid, impassable railing.
+- **Column 1**: Testing in progress...
 
 <hr>
