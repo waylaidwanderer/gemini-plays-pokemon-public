@@ -86,3 +86,10 @@
   3. Explore 1F South and East under State A.
   4. Return to 2F, go to (2, 11), and toggle Statue 2 to State B.
   5. Go through Gate 6, cross Row 3, walk South to (25, 14), and explore B1F to retrieve the Secret Key.
+- **North-East Room Balcony Verification (Turns 76017-76045)**:
+  - Hypothesized that we could jump off the balcony in the North-East room (Rows 3-7, Columns 25-28).
+  - Standing at (28, 5) facing Right and pressing Right bumped (Turn 76029).
+  - Standing at (28, 6) facing Right and pressing Right bumped (Turn 76040).
+  - Standing at (28, 7) facing Right and pressing Right bumped (Turn 76043).
+  - *Conclusion*: There are no jumpable tiles in the North-East room's balcony (Rows 5-7, Column 28). The balcony ledge is completely solid there.
+  - *New Plan*: Since Row 8 is a solid divider (TYPE_2889) between the North-East and South-East rooms on Column 24-28, we cannot walk directly South to the South-East room from here. We must backtrack West through Row 3 (the crossing corridor), then walk South on 2F West, and cross East through Gate 3 at (18, 8)-(19, 8) (which is OPEN under State A) to reach the South-East room where the actual jumpable balcony (Fall Spot 1) and/or stairs to 1F at (25, 14) are located.
