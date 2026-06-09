@@ -6243,6 +6243,10 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - *Result*: (9, 3) is a solid black partition wall tile of TYPE_2889 under State A. It is CLOSED and impassable.
   - *Conclusion*: Row 3 is NOT an open crossing corridor across Column 9. Under State A, Column 9 is completely blocked on Rows 3-9 (since Gate 6 at (9, 4)-(9, 5) is closed and the rest are solid partition walls).
   - *Bypass Method (Row 11)*: Row 11 is a universal, open corridor across Column 9 (9, 11 is open floor TYPE_3fe2 under both State A and B). We successfully crossed Column 9 along Row 11, and then walked North along Column 10 to reach (10, 3).
+- **1F East Stairs Falsification (Turn 76306)**:
+  - Hypothesized that there is a staircase at (25, 14) on 1F East South that leads UP to 2F East South.
+  - Standing on (25, 14) on Turn 76296-76306 proved that it is a normal floor tile of TYPE_3fe2 with no warp or stairs.
+  - Conclusion: There is NO staircase on 1F East. The southeastern staircase only connects 2F East and 3F East. 1F East is only accessed from 2F East via dropping down a balcony/pit, or on foot via Gate 1 under State B. To return to 2F, we must walk back to the southwest stairs at (5, 10) on 1F West.
 
 <hr>
 
