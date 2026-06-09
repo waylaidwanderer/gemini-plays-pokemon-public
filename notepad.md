@@ -6151,17 +6151,6 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 
 # Post-Safari Zone Route & Progression Plan
 
-## Historical Progress & Verification
-- **Turn 73908**: Entered the real Warden's House (Map 0_155) at Fuchsia City (27, 27). Inside, the Warden is at (2, 3), and a pushable boulder is at (8, 4) blocking an item at (8, 3).
-- **Turn 73918**: Talked to the Warden and delivered his Gold Teeth. Received **HM04 Strength**.
-- **Turn 73929**: Taught HM04 Strength to ROCKY (GEODUDE) in our party.
-- **Turn 73938**: Attempted to use ROCKY's STRENGTH field move from the Pokémon party menu while standing at (7, 4) in front of the boulder.
-  - *Result*: The game displayed the text: "No! A new BADGE is required."
-  - *Verification*: We currently possess 5 badges (Thunder Badge, Cascade Badge, Marsh Badge, Soul Badge, and Boulder Badge) but lack the Rainbow Badge. In Generation 1, the Rainbow Badge (obtained from Erika in Celadon City) is required to use Strength in the overworld.
-  - *Conclusion*: We cannot push the boulder at (8, 4) yet. We must obtain the Rainbow Badge first.
-- **Turns 74185-74198**: Challenged and defeated Erika at Celadon Gym, obtaining the **Rainbow Badge** and TM21 (Mega Drain).
-- **Turns 74245-74267**: Successfully tested and documented Strength overworld boulder mechanics inside the Warden's House. Collected the blocked item at (8, 3), which was a **RARE CANDY**. Verified map transitions reset boulder positions and deactivate Strength.
-
 ## Cinnabar Mansion 2F Systematic Search Strategy (Turn 75700)
 - **Objective**: Fully explore 2F East and identify any balconies/falls or hidden switches.
 - **State Matrix Analysis**:
@@ -6181,6 +6170,25 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   2. Press the directional button to jump off/fall down the pit.
   3. Immediately upon landing, log the 1F overworld coordinates.
   4. Explore the landing zone on 1F and verify if any switches/statues are present.
+
+## Cinnabar Mansion State A Systematic Verification & Safety Protocol (Turn 75752)
+- **Objective**: Verify Gate 1, 4, 5, and 2 states under State A (Default) without getting trapped on 1F.
+- **Safety Analysis**:
+  - In State A (Default), Gate 1 (1F, (25, 13)) is CLOSED. This blocks access to the southern section of 1F's eastern room from the northern entrance.
+  - However, Gate 4 (1F, (21, 17)) and Gate 5 (1F, (26, 27)) are hypothesized to be OPEN under State A.
+  - If we toggle Statue 2 back to State A on 2F, then walk to 1F:
+    - We cannot reach the southern section of 1F's eastern room from the North because Gate 1 is CLOSED.
+    - Thus, to verify Gate 4/5 under State A, we must use the **Balcony Fall Spot 1** on 2F East!
+    - Under State A, the 2F Gate at (18, 8)-(19, 8) is OPEN. This allows us to walk to 2F East, go through that gate, reach Fall Spot 1, and jump down to 1F.
+    - This drops us directly in the southern section of 1F's eastern room, completely bypassing the closed Gate 1!
+    - Once we land on 1F, since State A is active, Gate 4 at (21, 17) and Gate 5 at (26, 27) will be OPEN and passable, allowing us to safely explore and verify them on foot!
+    - We can then walk through Gate 4 to the West corridor to exit the southern section, meaning we will **never get trapped**!
+- **State Matrix Update**: We will record these findings in `Scratchpad/Mansion_Gate_Matrix` by updating the State A column once verified.
+
+## KILN (Magmar L34) Team Integration & Grinding Plan (Turn 75752)
+- **Combat Profile**: KILN has high Special and knows Ember. While fire is extremely useful against Grass/Ice/Bug types, GEMMY (BLASTOISE) is already Level 60 and completely outclasses all encounters.
+- **Integration Decision**: We will keep KILN in Box 1 as a valuable Fire-type reserve. We do not need to actively switch-train or grind him because BLASTOISE sweeps the Cinnabar Gym with 100% consistency using SURF.
+- **Grinding Analysis**: If we ever decide to train KILN, the most optimal overworld area is Cinnabar Island's western water channel or grass fields on Route 21. However, since GEMMY's Surf easily handles Blaine, no grinding is required.
 
 ## Cinnabar Mansion Deep B1F Routing & Switch Matrix (Turn 75675)
 - **Active Exploration Mission**: Locate and retrieve the Secret Key.
