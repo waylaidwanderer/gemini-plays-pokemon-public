@@ -6273,6 +6273,21 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - *Conclusion*: 2F East South (containing the stairs at (25, 14)) is completely isolated on foot under State A. The stairs at (25, 14) are unreachable on foot.
   - Thus, we are backtracking to 3F West to test Gate 2 at Column 11 under State A.
   - Currently standing at (18, 7) facing UP. We will execute the 11-step movement sequence to reach (11, 11) now.
+## Gate 2 (3F Column 11) State A Testing Protocol (Turn 76598)
+- **Objective**: Determine if Gate 2 on 3F Column 11 is OPEN or CLOSED under State A (Default).
+- **Previous Discovery**: Column 11 Row 11 is a permanent wall, meaning any potential passage must exist on Row 12 or Row 13.
+- **Testing Route**:
+  1. Ascend from 2F West stairs (7, 10) to 3F West (7, 11).
+  2. Walk Down 1 step to (7, 12).
+  3. Walk East along Row 12 to (11, 12).
+     - **If we bump at Column 11 (standing at (10, 12) facing Right and pressing Right results in a bump)**: This proves the Gate 2 barrier on Row 12 is CLOSED under State A.
+     - **If we walk into (11, 12) and fall down the pit to B1F**: This proves Gate 2 on Row 12 is OPEN under State A.
+  4. If we bumped on Row 12, walk Down 1 step to (7, 13).
+  5. Walk East along Row 13 to (11, 13).
+     - **If we bump**: This proves Gate 2 on Row 13 is CLOSED under State A.
+     - **If we successfully walk past Column 11 along Row 13 into 3F East**: This proves Gate 2 on Row 13 is OPEN under State A.
+- **Documentation**:
+  - Once tested, we will update `Scratchpad/Mansion_Gate_Matrix` by filling in the Gate 2 State A cell with the empirical results and turn numbers.
 
 <hr>
 
