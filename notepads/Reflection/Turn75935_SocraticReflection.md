@@ -17,15 +17,22 @@
 ## 3. Socratic Question 2: 1F East Systematic Mapping Protocol
 - **Question**: If you decide to return to State B to explore 1F East, what is your protocol for systematically mapping the Northeast and Southeast pockets on 1F East to locate any undiscovered staircases or drop spots?
 - **Protocol**:
-  1. Toggle Statue 2 to State B.
-  2. Take the stairs down at (5, 10) to 1F West.
-  3. Walk North and cross to 1F East via the northern open corridors at (11, 4) or (13, 4).
-  4. Walk to the Northeast room of 1F East. Verify every single tile for hidden passages or features.
-  5. Walk South through Gate 1 at (25, 13) (which is open under State B) into the Southeast pocket.
-  6. Meticulously map the Southeast pocket on 1F East, testing every column (24 to 28) and row (14 to 27) for stairs, ladder, or drop spots.
-  7. If we find any staircase or transition, map its destination.
+  1. Toggle Statue 2 to State B (Completed on Turn 77084).
+  2. Take the stairs down to 1F West (Completed on Turn 77091).
+  3. Walk UP Column 12 to the northern crossings (Row 6) to cross into 1F East Northeast room.
+  4. Why? Column 13 is a solid wall on Rows 7-13, and Row 13 Column 12 is blocked by solid rubble (TYPE_2889), preventing direct southern or eastern passage from our current position (12, 11).
+  5. Explore the 1F East Northeast room systematically.
+  6. Walk South through Gate 1 at (25, 13) (which is open under State B) to reach the 1F East Southeast room.
+  7. Meticulously map the Southeast room and its western extension (Columns 12-28, Rows 14-27) for stairs, ladder, or B1F drop spots.
 
-## 4. Map Hygiene & Custom Tools
+## 4. Socratic Question 3: B1F Exit Strategy
+- **Question**: You have documented that you have 2 Escape Ropes. Since the overworld exit is far away and requires navigating back through several doors/gates, how will you systematically plan your exit strategy once you retrieve the Secret Key on B1F?
+- **Exit Plan**:
+  - Once we obtain the Secret Key on B1F, we will NOT backtrack on foot. 
+  - Instead, we will immediately open the Bag menu and use one of our 2 Escape Ropes (which stack in a single inventory slot).
+  - This will instantly warp us back to the Cinnabar Mansion entrance on Cinnabar Island, completely bypassing the entire multi-floor maze, avoiding any wild encounters, and saving dozens of turns.
+
+## 5. Map Hygiene & Custom Tools
 - Map markers are highly accurate and track critical stairs and blockages.
 - We will add a marker at (25, 13) on 1F once we pass through Gate 1.
 - Custom tools are currently healthy and fully functional. No broken tools need debugging.
