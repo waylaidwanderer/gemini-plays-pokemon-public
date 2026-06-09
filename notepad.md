@@ -6591,6 +6591,8 @@ We have successfully completed our victory run and obtained BOTH critical progre
   - Pit A (The Secret Fall): (11, 12) | State: Static Pit (Verified Turn 75091)
 - **Mansion Diaries**:
   - Table with Diary: (6, 12) (Verified Turn 75127). Read text: 'Diary: Feb. 6 MEW gave birth. We named the newborn MEWTWO.'
+- **Items**:
+  - Max Potion: (1, 16) | State: [x] Collected (Turn 75157)
 - **Left Side of 3F**:
   - Accessible via Row 13: (1, 13), (2, 13), (3, 13), (4, 13), (5, 13).
 - **Trainers**:
