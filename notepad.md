@@ -6432,6 +6432,8 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Wild Magmar: Caught at (9, 10) | State: [x] Captured (Turn 75664). Nicknamed KILN (Level 34), stored in PC Box 1.
 - **Left Side of 3F**:
   - Accessible via Row 13: (1, 13), (2, 13), (3, 13), (4, 13), (5, 13). (Verified passable on foot on Turn 76810).
+  - **Column 1 Row 9 Blockage**: Empirically proven to be a solid wall of TYPE_2889 on Turn 76873 by attempting to step Up from (1, 10) and colliding.
+  - **Northern Half Isolation**: Rows 6 and 7 are entirely blocked by solid wall/rubble of TYPE_2889 across all columns on 3F West, meaning the northern half of 3F West (Rows 1-5) is completely isolated and unreachable on foot from the southern half under both states.
 - **Trainers**:
   - Burglar: Standing at (4, 11). Defeated on Turn 75104. Uses a Level 38 Ninetales. Marked with a ☠️ map marker.
 
