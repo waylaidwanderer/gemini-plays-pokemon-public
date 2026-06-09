@@ -124,3 +124,9 @@
   - Turn 77043: Standing at (9, 11) under State A, attempted to walk Right into (10, 11). Result: Collided, proving (10, 11) is solid rubble of TYPE_2889 under State A.
   - Turn 77051: Standing at (9, 12) under State A, attempted to walk Right into (10, 12). Result: Collided, proving (10, 12) is solid rubble of TYPE_2889 under State A.
   - This empirically proves that 3F West is completely blocked from 3F East at Columns 9/10 on Rows 11 and 12 under BOTH State A and State B.
+- **Row 2 Crossing Verification (Turn 77237)**: Under State B, Row 2 is fully passable on foot across Column 9. Coordinates: (10, 2), (9, 2), (8, 2), (7, 2), (6, 2) are all TYPE_3fe2. Column 9 Row 3 at (9, 3) is a solid, impassable wall (TYPE_2889).
+- **Route to Stairs to 2F at (5, 10)**: From (10, 6) in 1F West, we can walk:
+  1. Up 4 steps to (10, 2).
+  2. Left 5 steps to (5, 2).
+  3. Down 8 steps to (5, 10).
+This completely bypasses the rubble wall blocking (8, 10) on Row 10.
