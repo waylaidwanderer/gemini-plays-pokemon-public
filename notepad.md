@@ -6575,7 +6575,7 @@ We have successfully completed our victory run and obtained BOTH critical progre
   - Down to 1F: (TBD, TBD)
   - Up to 3F: (TBD, TBD)
 - **Switches & Gates**:
-  - Statue 2: (2, 11) | State: [x] Toggled (Toggled on Turn 75336)
+  - Statue 2: (2, 11) | State: [x] Toggled (Successfully toggled on Turn 75468. Failed attempt on Turn 75336 due to facing Down instead of Left)
 - **Falls/Pits**:
   - Fall Spot 1: (TBD, TBD) -> Drops to (TBD, TBD) on 1F
 
