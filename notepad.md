@@ -6589,7 +6589,7 @@ For each reachable column on Rows 16 and 17 on 2F West, we will perform the foll
    - **Fall**: If the player jumps south over the railing and triggers a map transition/fall screen, document the landing coordinates and map.
 
 ## Live Testing Progress
-- **Turn 77766**: Initializing testing protocol. Currently on 3F West, backtracking down to 2F West. Once we are on 2F West, we will proceed to the southwest balcony area to begin systematic testing under State B first, then toggle to State A and repeat the tests.
+- Active Testing.
 
 ## State B Ledge Testing (Statue 2 Toggled)
 - **Column 4**: Tested on Turn 77776 by pressing Down from (4, 17) facing Down. Result: **Bump** against (4, 18). Confirmed 100% solid, impassable railing.
