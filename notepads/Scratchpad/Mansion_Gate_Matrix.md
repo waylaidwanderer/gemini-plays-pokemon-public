@@ -3,7 +3,7 @@
 ## State Table
 | Gate ID & Location | State A (Statue 2 Default) | State B (Statue 2 Toggled) | Verification & Proof of Work |
 | :--- | :--- | :--- | :--- |
-| **Gate 1** (1F, (25, 13)) | **CLOSED** (Impassable) | *TBD* (Hypothesized OPEN) | State A: Verified on Turn 75301 (bumped into panel at (25, 13) from (25, 12)). |
+| **Gate 1** (1F, (25, 13)) | **CLOSED** (Impassable) | **CLOSED** (Impassable) | State A: Verified on Turn 75301. State B: Verified CLOSED on Turn 75361 (bumped into panel from (25, 12)). |
 | **Gate 2** (3F, Col 11) | **CLOSED** (Impassable) | *TBD* (Hypothesized OPEN) | State A: Verified CLOSED (solid wall of TYPE_2889) on Turn 75091. |
 | **Gate 3** (2F, Col 11)? | *TBD* | *TBD* | To be explored and verified. |
 
