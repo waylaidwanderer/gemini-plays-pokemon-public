@@ -6422,6 +6422,8 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Statue 2: (2, 11) | State: [x] Toggled (Successfully toggled on Turn 75468. Failed attempt on Turn 75336 due to facing Down instead of Left)
 - **Falls/Pits**:
   - Fall Spot 1: (TBD, TBD) -> Drops to (TBD, TBD) on 1F
+- **Items**:
+  - Calcium: (28, 7) | State: [x] Collected (Turn 75736)
 - **Wild Encounters**:
   - Wild Muk: Caught at (3, 11) | State: [x] Captured (Turn 75484). Named SLUDGY (Level 39), stored in PC Box 1.
 
