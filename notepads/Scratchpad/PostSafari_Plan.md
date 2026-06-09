@@ -11,9 +11,25 @@
 - **Turns 74185-74198**: Challenged and defeated Erika at Celadon Gym, obtaining the **Rainbow Badge** and TM21 (Mega Drain).
 - **Turns 74245-74267**: Successfully tested and documented Strength overworld boulder mechanics inside the Warden's House. Collected the blocked item at (8, 3), which was a **RARE CANDY**. Verified map transitions reset boulder positions and deactivate Strength.
 
-## Next Target: Route 19, Route 20, and Cinnabar Island
-- [ ] **Navigate to Seafoam Islands & Cinnabar Island**: Swim South along Route 19, then West along Route 20. Navigate through Seafoam Islands (Route 20) and continue West to Cinnabar Island.
-- [ ] **Defeat Blaine**: Secure our 7th badge (Volcano Badge) at Cinnabar Gym.
+## Cinnabar Mansion 2F Systematic Search Strategy (Turn 75700)
+- **Objective**: Fully explore 2F East and identify any balconies/falls or hidden switches.
+- **State Matrix Analysis**:
+  - We currently have Statue 2 (2F, (2, 11)) in State B (Toggled).
+  - Let's check 2F East under State B. If we find any gates on 2F, we must document them.
+  - After mapping 2F East under State B, we will return to (2, 11) on 2F and toggle Statue 2 back to State A (Default).
+  - Then we will re-explore 2F East and 1F South under State A to find the switch that actually controls Gate 2 on 3F!
+- **Systematic Search Areas**:
+  - We will walk every single walkable tile of 2F East on Columns 12-28, Rows 2-27.
+  - We will locate the exact coordinate of "Fall Spot 1" on 2F.
+  - We will verify where "Fall Spot 1" drops us on 1F (hypothesized to be the blocked southern section of 1F's eastern room).
+
+## Balcony Fall Spot 1 Empirical Verification Plan (Turn 75700)
+- **Hypothesis**: Jumping off the balcony/fall spot on 2F East drops the player to the blocked southern section of 1F East (behind Gate 1/4/5), bypassing closed gate barriers.
+- **Verification Protocol**:
+  1. Stand on 2F adjacent to the balcony ledge (Fall Spot 1).
+  2. Press the directional button to jump off/fall down the pit.
+  3. Immediately upon landing, log the 1F overworld coordinates.
+  4. Explore the landing zone on 1F and verify if any switches/statues are present.
 
 ## Cinnabar Mansion Deep B1F Routing & Switch Matrix (Turn 75675)
 - **Active Exploration Mission**: Locate and retrieve the Secret Key.
@@ -25,8 +41,8 @@
   - Wait! To open Gate 2 on 3F, we need to find Statue 3 on 3F Left!
   - We are currently on 3F. We must systematically search 3F Left (southwest and northwest chambers) to find Statue 3 and toggle it.
 
-## Empirical Badge Boost Audit PC Navigation Protocol (Turn 75675)
-- **Objective**: Safely deposit BUGGY (Butterfree) and withdraw SLUDGY (Muk, Level 39) to conduct the Badge-Boost Multiplier Empirical Audit.
+## Empirical Badge Boost Audit PC Navigation Protocol (Turn 75700)
+- **Objective**: Safely deposit BUGGY (Butterfree) and withdraw SLUDGY (Muk, Level 39) or KILN (Magmar, Level 34) to conduct the Badge-Boost Multiplier Empirical Audit.
 - **PC Navigation Sequence (Cinnabar PC, standing at (4, 3) facing Up)**:
   1. Press 'A' to boot up GEM's PC.
   2. Select `BILL'S PC` (cursor starts on it, press 'A').
@@ -36,9 +52,9 @@
      - **CRITICAL**: Confirm the cursor is pointing at BUGGY and NOT GEMMY (index 5).
      - Press 'A' to deposit BUGGY.
   5. Select `WITHDRAW PKMN` (press Up once from Deposit PKMN, or press 'A' on Withdraw PKMN).
-  6. In Box 1, locate SLUDGY (Muk, Level 39) at index 1:
-     - The cursor starts on index 1 (SLUDGY).
-     - Press 'A' to withdraw SLUDGY.
+  6. In Box 1, locate SLUDGY (Muk, Level 39) at index 2 or KILN (Magmar, Level 34) at index 1:
+     - To withdraw KILN: The cursor starts on index 1 (KILN). Press 'A'.
+     - To withdraw SLUDGY: The cursor starts on index 1 (KILN). Press Down once to reach index 2 (SLUDGY). Press 'A'.
   7. Select `SEE YA!` to log off and exit the PC.
 
 ## Cinnabar Gym Blaine Matchup Preparation Strategy
@@ -52,14 +68,3 @@
     - *Utility*: While even more powerful (effective base power 360), its 80% accuracy introduces unnecessary miss risk. We will only use this if SURF PP is fully depleted.
   - **Priority Move 3: DIG** (Ground, Physical, Power 100, 100% Accuracy).
     - *Utility*: Ground is also 2x super-effective against Fire, but in Gen 1 DIG is a 2-turn move, giving opponents a turn to act or use status moves. SURF is infinitely more efficient.
-
-## Cinnabar Island & Pokémon Mansion Prep Strategy (Turn 74754)
-
-- **PP & HP Management**:
-  - Heal the party fully at the Cinnabar Pokémon Center to restore all HP and PP.
-  - Keep 7 Hyper Potions and 1 Full Restore in our bag for mid-exploration healing.
-  - Retain the ELIXER to restore GEMMY's PP if needed during the deep exploration.
-- **Cinnabar Mart Purchase Priorities**:
-  - Purchase 2-3 **Escape Ropes** (for instant exit after finding the Secret Key).
-  - Purchase 5-10 **Full Heals** (to cure status effects from wild Koffing/Weezing/Grimmer).
-  - Purchase **Ultra Balls** (for high-level wild encounters).
