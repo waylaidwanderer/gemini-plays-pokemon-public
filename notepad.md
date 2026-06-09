@@ -6193,8 +6193,8 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 ## Cinnabar Mansion Deep B1F Routing & Switch Matrix (Turn 75675)
 - **Active Exploration Mission**: Locate and retrieve the Secret Key.
 - **Switch Matrix (State A vs. State B)**:
-  - We currently have Statue 2 (2F, (2, 11)) in **State A** (Default).
-  - This has closed Gate 1 (1F, (25, 13)) but opened Gate 4 (1F, (21, 17)) and Gate 5 (1F, (26, 27)).
+  - We currently have Statue 2 (2F, (2, 11)) in **State B** (Toggled) on Turn 76255.
+  - This has opened Gate 1 (1F, (25, 13)) but closed Gate 4 (1F, (21, 17)) and Gate 5 (1F, (26, 27)).
   - To reach the basement (B1F), we must find the correct path. Historically, B1F is accessed via a pit on 3F.
   - The Secret Pit is at (11, 12) on 3F. This pit is currently blocked by Gate 2 (Col 11) being CLOSED.
 
