@@ -17,3 +17,6 @@
   - [ ] Step 4: On 3F East, toggle the Mewtwo Statue to **State A** (Default) to ensure Gate 4 on 1F is open.
   - [ ] Step 5: Jump down the 3F East eastern balcony / pit drop to land inside the 1F East south-central pocket.
   - [ ] Step 6: Enter the basement (B1F) and retrieve the Secret Key!
+
+## Live Progress Notes
+- **Turn 77712**: Completed the physical foot-test at 1F (25, 14) under State B. It is indeed a normal floor tile, confirming the Southeast room is isolated on foot on both floors. Now backtracking to 1F West stairs (5, 10) to ascend to 2F. We are currently at (16, 6).
