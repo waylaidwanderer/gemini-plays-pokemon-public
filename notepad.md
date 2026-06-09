@@ -6255,6 +6255,29 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
     2. Toggle Statue 2 to State B.
     3. Ascend to 3F West and walk East past Column 11 along Row 12 or Row 13 (which will be OPEN under State B).
     4. Access 3F East, find the Secret Pit at (11, 12), and drop down directly to B1F.
+## State B Navigation Plan to 3F East & B1F Access (Turn 76644)
+- **Status**: We are standing at (2, 12) facing UP in front of Mewtwo Statue 2. We are about to toggle the switch to State B.
+- **Detailed Step-by-Step Execution Plan once State B is active**:
+  1. **Interact with Statue 2**: Press 'A', then select 'YES' to change the gate network to State B.
+  2. **Walk to the 2F West Stairs (7, 10)**:
+     - Walk Right to (3, 12).
+     - Walk Up to (3, 11).
+     - Walk Right 4 steps to (7, 11).
+     - Walk Up 1 step to (7, 10) to ascend the stairs to 3F West.
+  3. **Navigate to Gate 6 on 3F West**:
+     - The stairs land us at (7, 11) on 3F West.
+     - Walk Up 6 steps to (7, 5) (Column 7 is verified 100% open on Rows 5-11).
+     - Walk Right 2 steps to (9, 5) (cross Column 9 through Gate 6, which is OPEN under State B).
+  4. **Cross Column 11 into 3F East**:
+     - Continue Right 3 steps to (12, 5) (Column 11 is open on Row 5, allowing us to cross into the East wing!).
+  5. **Drop down the Secret Pit to B1F**:
+     - Walk Down 7 steps along Column 12 to (12, 12).
+     - Walk Left 1 step to (11, 12) (the Secret Pit).
+     - The player will immediately fall down the pit to B1F!
+- **Wild Encounter Strategy**:
+  - We will use GEMMY (BLASTOISE L60) to sweep or escape any wild encounters using `flee_battle` to keep our team completely healthy.
+- **Inventory Check**:
+  - We have 11 out of 20 inventory slots filled, leaving 9 empty slots. This is more than enough space for the Secret Key (1 slot) and any other B1F loot. No inventory management is necessary.
 
 <hr>
 
