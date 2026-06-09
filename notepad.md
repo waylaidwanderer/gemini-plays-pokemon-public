@@ -6166,7 +6166,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - [x] Step 1: Systematically test the 2F West southwest balcony railings (Rows 16 and 17) for active jump-down ledges under State B.
   - [x] Step 2: If State B yields only bumps, backtrack to 2F West (2, 11) and toggle Mewtwo Statue 2 back to **State A** (Default).
   - [x] Step 3: Systematically test the 2F West southwest balcony railings under **State A** to find any active jump-down ledges. (Result: All 4 columns are solid).
-  - [ ] Step 4: Systematically test the 3F West southwest balcony railings (Row 17, Columns 1 to 5) under **State A** to find any active jump-down ledges!
+  - [x] Step 4: Systematically test the 3F West southwest balcony railings (Row 17, Columns 1 to 5) under **State A** to find any active jump-down ledges! (Result: All 5 columns are 100% solid, impassable railings).
 
 <hr>
 
