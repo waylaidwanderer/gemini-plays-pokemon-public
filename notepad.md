@@ -6249,6 +6249,11 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Successfully moved to (9, 4) on Turn 76081/76086 (TYPE_3fe2 open floor).
   - This verifies that Gate 6's physical collision barrier is OPEN under State B, permitting horizontal crossing of Column 9 along Row 4.
   - Socratic Verification of Gate 6: Since (9, 4) is passable, and Gate 3 is closed (as verified by the bump at (18, 7)), this confirms the active overworld state is **State B**.
+- **State A Toggled Verification (Turn 76094-76095)**:
+  - Stood at (3, 11) facing Left and pressed 'A' to toggle Statue 2 back to State A (Default).
+  - This closed Gate 6 on 2F and opened Gate 3 on 2F East, as well as opening Gate 4 and Gate 5 on 1F.
+  - Now, we will walk back to Column 10, walk North to Row 4, cross through Gate 6 (which should be CLOSED now, so we must cross using Row 3), and enter 2F East North.
+  - From 2F East North, we will walk through Gate 3 (now OPEN) to reach the Southeast room, find Fall Spot 1, and fall to 1F East!
 
 <hr>
 
