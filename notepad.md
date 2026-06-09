@@ -6604,4 +6604,15 @@ All four reachable columns (1, 2, 3, and 4) on the southwest balcony of 2F West 
 - **Column 2**: Testing planned...
 - **Column 1**: Testing planned...
 
+## Socratic Strategy & Methodology Answers (Turn 77806)
+### Socratic Question 1: The Role of the Switch State
+- **Hypothesis**: The switch state (State A vs. State B) is unlikely to change the physical passability of the 2F West balcony railings themselves, as they are represented by static tiles (`TYPE_2889`). However, it determines the status of Gate 4 on 1F East:
+  - Under **State B**, Gate 4 at (21, 17) is CLOSED. If we drop into the 1F East south-central pocket, we would be permanently trapped.
+  - Under **State A**, Gate 4 is OPEN, allowing us to exit the pocket and navigate to the B1F stairs.
+  - Thus, even if a fall existed under State B, dropping down would be a dead end. We MUST find a fall that operates under State A, or toggle the switch to State A prior to falling.
+  - Furthermore, we must systematically test the 2F West southwest balcony railings under State A to rule out any state-dependent collision changes.
+
+### Socratic Question 2: Separation of Records
+- To prevent any ambiguity, we have separated our tests into two clear, isolated sections: `## State B Ledge Testing (Statue 2 Toggled)` and `## State A Ledge Testing (Statue 2 Default)`. This provides indisputable proof of work to our future self and the overwatch agent.
+
 <hr>
