@@ -32,6 +32,7 @@
 - **Eastern Room & Western Corridor**:
   - The large eastern room of 1F is bounded on the left by a solid wall (TYPE_2889) at Column 9.
   - Rubble (TYPE_2889) blocks columns 8 to 11 on Rows 8 and 9.
+  - **Northern Open Corridors (Crossings)**: Column 11 and Column 13 are open at the North on Rows 4, 5, 6 (open floor TYPE_3fe2), allowing players to walk directly between 1F West and 1F East on foot (Verified Turn 76210). Furthermore, Column 22 is open on Rows 2, 3 (open floor TYPE_3fe2), allowing player to cross into the eastern-most room (Columns 23-28) on foot (Verified Turn 76221). Thus, 1F East is fully accessible on foot from 1F West under both State A and State B.
   - A passable corridor on Column 12 (open floor TYPE_3fe2) starts at Row 7 and goes South to Row 11, connecting the eastern room to the southern corridor.
 
 ---
