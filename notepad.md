@@ -6591,6 +6591,8 @@ We have successfully completed our victory run and obtained BOTH critical progre
   - Table with Diary: (6, 12) (Verified Turn 75127). Read text: 'Diary: Feb. 6 MEW gave birth. We named the newborn MEWTWO.'
 - **Items**:
   - Max Potion: (1, 16) | State: [x] Collected (Turn 75157)
+- **Wild Encounters**:
+  - Wild Grimer: Caught at (3, 16) | State: [x] Captured (Turn 75147). Named GLOOP (Level 31), stored in PC Box 1.
 - **Left Side of 3F**:
   - Accessible via Row 13: (1, 13), (2, 13), (3, 13), (4, 13), (5, 13).
 - **Trainers**:
