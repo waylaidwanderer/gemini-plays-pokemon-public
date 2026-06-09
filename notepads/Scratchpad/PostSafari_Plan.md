@@ -10,23 +10,18 @@
 
 ## Cinnabar Gym Blaine Matchup Preparation Strategy
 - **South-Central 1F Pocket Inaccessibility (Turn 77316)**: Under State A, the south-central pocket of 1F (Rows 18-27, Columns 21-23) is completely inaccessible on foot from the rest of 1F due to Column 11 and Row 13 walls being solid TYPE_2889.
-- **The B1F Balcony Drop Plan**:
-  1. Ascend to 2F West via the stairs at (5, 10).
-  2. Toggle Statue 2 to State B to open Gate 6 at (9, 4)-(9, 5) on 2F.
-  3. Ascend to 3F West via the northwest stairs on 2F (which are open under State B).
-  4. Cross over to 3F East.
-  5. Toggle the 3F Mewtwo Statue to State A (Default) to ensure Gate 4 on 1F is open.
-  6. Jump down the 3F East eastern balcony / pit drop to land directly inside the isolated 1F East south-central pocket!
-  7. Retrieve the Secret Key from B1F!
+- **The B1F Balcony Drop Plan Checklist**:
+  - [ ] Step 1: Backtrack to 1F West stairs and ascend to 2F West at (5, 10).
+  - [ ] Step 2: Toggle Mewtwo Statue 2 at (2, 11) on 2F West to **State B** (to open 2F Gate 6).
+  - [ ] Step 3: Walk to the northwest stairs on 2F West and ascend to 3F West.
+  - [ ] Step 4: Walk through the open Gate 6 on 2F East and climb the stairs to 3F East.
+  - [ ] Step 5: On 3F East, toggle the Mewtwo Statue to **State A** (Default) to ensure Gate 4 on 1F is open.
+  - [ ] Step 6: Jump down the 3F East eastern balcony / pit drop to land inside the 1F East south-central pocket.
+  - [ ] Step 7: Enter the basement (B1F) and retrieve the Secret Key!
 
 ## Active Route: Backtracking to 2F West stairs
-We are currently at (17, 10) on 1F East. We are backtracking to 1F West stairs at (5, 10) to ascend to 2F West.
+We are currently at (12, 7) on 1F West. We are backtracking to 1F West stairs at (5, 10) to ascend to 2F West.
 Steps:
-1. Up 4 steps to (17, 6).
-2. Left 5 steps to (12, 6).
-3. Down 5 steps to (12, 11).
-4. Left 2 steps to (10, 11) (cross to 1F West).
-5. Up 9 steps to (10, 2).
-6. Left 5 steps to (5, 2).
-7. Down 8 steps to (5, 10).
-8. Enter stairs to 2F West.
+1. Down 4 steps along Column 12 to Row 11: from (12, 7) to (12, 11).
+2. Left 7 steps along Row 11 to reach (5, 11).
+3. Up 1 step to enter the stairs at (5, 10) and ascend to 2F West.
