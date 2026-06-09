@@ -6154,12 +6154,10 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 ## Cinnabar Mansion Deep B1F Routing & Switch Matrix (Turn 75675)
 - **Active Exploration Mission**: Locate and retrieve the Secret Key.
 - **Switch Matrix (State A vs. State B)**:
-  - We currently have Statue 2 (2F, (2, 11)) in **State A** (Default) toggled on Turn 77038.
-  - State A: Gate 3 (2F, (18, 8)-(19, 8)) is OPEN. Gate 6 (2F, (9, 4)-(9, 5)) is CLOSED.
-  - We tested 3F West Column 10 Row 11-13 under State A on Turn 77043 and 77050, finding solid blockages (TYPE_2889).
-  - Since 3F West is blocked and 2F Southeast room is isolated on foot under State A, we must explore 1F East wing under State B.
-  - To do this, we must toggle Statue 2 back to State B (Toggled) on 2F West. We will walk left to (2, 12), face Up, and toggle the statue.
-  - Under State B, Gate 1 on 1F (25, 13) is OPEN. This allows us to walk directly into the Southeast room on 1F East, explore it systematically, and check for any stairs or drop spots.
+  - We currently have Statue 2 (2F, (2, 11)) in **State B** (Toggled) on Turn 77084.
+  - State B: Gate 1 on 1F (25, 13) is OPEN. This allowed us to walk directly into the Southeast room on 1F East on Turn 77134.
+  - **Verification Result (Turns 77135-77178)**: Systematically mapped and explored the entire Southeast room (Columns 25-28, Rows 14-26) under State B. Confirmed 100% empty of any staircases, ladders, or drop spots leading to B1F. Row 27 is blocked by closed Gate 5.
+  - **Plan**: We must backtrack to 2F West (2, 11) and toggle Statue 2 back to State A (Default) to open Gate 4 at (21, 17) and explore the south-central pocket (Columns 21-23, Rows 18-27) on 1F East.
 
 ## Cinnabar Gym Blaine Matchup Preparation Strategy
 
