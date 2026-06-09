@@ -26,13 +26,16 @@
      - From (3, 13), walk Right 2 to (5, 13).
      - Walk Up 3 to (5, 10).
      - Walk Right 2 to (7, 10) and take the stairs down to 2F West (arriving at 7, 10).
-  2. **Cross to 2F East via Gate 6**:
-     - From (7, 10) on 2F West, walk Left 4 to (3, 10).
-     - Walk Up 5 to (3, 5).
-     - Walk Right 6 to (9, 5) and pass through Gate 6 (which is OPEN under State B).
+  2. **Cross to 2F East via Column 10**:
+     - From (7, 10) on 2F West, walk Left 2 to (5, 10) (do not step on (5, 10) as it is the stairs to 1F). Actually, walk to (5, 11) or (10, 11) on Row 11.
+     - Specifically, from (7, 10), step Down 1 to (7, 11).
+     - Walk Right 3 to (10, 11).
+     - Walk Up 6 along Column 10 to (10, 5).
+     - Walk Right along Rows 1-5 to Column 14.
   3. **Reach southeast stairs at (25, 14) on 2F East**:
-     - Continue Right along Row 5/Row 3 to the Northeast room (Column 25+).
-     - Walk South through open Gate E to the Southeast room.
+     - Cross Column 15 on Row 6: walk Down to (14, 6), Right to (15, 6) (test if passable), and Right to (17, 6).
+     - Walk East/North to the Northeast room.
+     - Test if Column 25 Row 8 ("Gate E") is open under State B. If open, walk South to the Southeast room.
      - Take the stairs at (25, 14) up to 3F East.
   4. **Drop down the Secret Pit on 3F East to B1F**:
      - On 3F East, walk to Column 12 Row 12: (12, 12).
