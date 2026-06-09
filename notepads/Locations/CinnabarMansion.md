@@ -114,3 +114,8 @@
 - Northeast Room Gate Audit (Turn 76971): Systematically verified on foot that Row 8 (Columns 24 to 28) consists of solid closed gates of TYPE_2889 under State B. There is no open gate or passage in this section, meaning the 2F Southeast room is completely isolated and unreachable on foot from 2F East North under State B. Combined with prior testing, the Southeast room (Columns 23-28, Rows 9-15) is 100% isolated on foot on 2F under BOTH State A and State B.
 - Hypothesis Verification: Since the Southeast room is completely isolated on foot on 2F, the staircase at (25, 14) can ONLY be accessed by dropping down from 3F East.
 - Critical Path to B1F: To reach B1F, we must locate and use the secret pit/fall on 3F. We know Pit A is at (11, 12) on 3F, but it is blocked by Gate 2 (Col 11) being CLOSED. We must investigate how to open Gate 2 on 3F. Let's find any remaining un-toggled statues or paths. We must return to 2F West to toggle Statue 2 back to State A to see if Gate 2 on 3F opens under State A, or search 1F for Statue 1!
+- 3F West Column 10/11 Empirical Verification under State B (Turn 77004): 
+  - Stand at (9, 11) facing Right, and press Right. Result: Collided with (10, 11) (visited 0 tiles, stayed at (9, 11)), proving (10, 11) is indeed a solid rock wall/rubble of TYPE_2889.
+  - Since (10, 11), (10, 12), and (9, 12) are all solid rubble (TYPE_2889), we cannot physically reach Column 11 on foot from the West. 
+  - This definitively proves that there is no walkable connection between 3F West and 3F East under State B.
+  - Therefore, we must return to 1F and explore the 1F East wing under State B (since Gate 1 at (25, 13) is open under State B!).
