@@ -6366,8 +6366,8 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 
 ## 2F: Second Floor Exploration State
 - **Stairs**:
-  - Down to 1F: (TBD, TBD)
-  - Up to 3F: (TBD, TBD)
+  - Down to 1F: (5, 10) (Verified Turn 77411)
+  - Up to 3F: (7, 10) (Verified Turn 75056)
 - **Switches & Gates**:
   - Statue 2: (2, 11) | State: [x] State B (Toggled on Turn 76662)
   - Gate 6: (9, 4)-(9, 5) | State: CLOSED under State A, OPEN under State B (Verified CLOSED on Turn 75868)
