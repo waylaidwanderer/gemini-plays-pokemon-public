@@ -6603,7 +6603,7 @@ All four reachable columns (1, 2, 3, and 4) on the southwest balcony of 2F West 
 ## State A Ledge Testing (Statue 2 Default)
 - **Column 4**: Tested on Turn 77841 by pressing Down from (4, 17) facing Down. Result: **Bump** against (4, 18). Confirmed 100% solid, impassable railing.
 - **Column 3**: Tested on Turn 77848 by pressing Down from (3, 17) facing Down. Result: **Bump** against (3, 18). Confirmed 100% solid, impassable railing.
-- **Column 2**: Testing planned...
+- **Column 2**: Tested on Turn 77858 by pressing Down from (2, 17) facing Down. Result: TBD.
 - **Column 1**: Testing planned...
 
 ## Socratic Strategy & Methodology Answers (Turn 77806)
