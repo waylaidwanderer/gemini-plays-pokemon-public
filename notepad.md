@@ -6625,7 +6625,7 @@ We have successfully completed our victory run and obtained BOTH critical progre
 | Gate ID & Location | State A (Statue 2 Default) | State B (Statue 2 Toggled) | Verification & Proof of Work |
 | :--- | :--- | :--- | :--- |
 | **Gate 1** (1F, (25, 13)) | **CLOSED** (Impassable) | *TBD* (Hypothesized OPEN) | State A: Verified on Turn 75301 (bumped into panel at (25, 13) from (25, 12)). |
-| **Gate 2** (3F, Col 11) | **OPEN** | *TBD* (Hypothesized CLOSED) | State A: Verified open floor on Column 11 during initial 3F entry. |
+| **Gate 2** (3F, Col 11) | **CLOSED** (Impassable) | *TBD* (Hypothesized OPEN) | State A: Verified CLOSED (solid wall of TYPE_2889) on Turn 75091. |
 | **Gate 3** (2F, Col 11)? | *TBD* | *TBD* | To be explored and verified. |
 
 ## Methodology for State B Verification
