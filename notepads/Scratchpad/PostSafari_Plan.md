@@ -83,10 +83,8 @@
   - This verifies that Gate 6's physical collision barrier is OPEN under State B, permitting horizontal crossing of Column 9 along Row 4.
   - Socratic Verification of Gate 6: Since (9, 4) is passable, and Gate 3 is closed (as verified by the bump at (18, 7)), this confirms the active overworld state is **State B**.
 - **State A Toggled Verification (Turns 76094-76111)**:
-  - *Failed Toggle Attempt (Turn 76094)*: Stood at (3, 11) facing Left and pressed 'A' once. We incorrectly assumed this toggled the switch. However, in Gen 1, Mewtwo statues display a dialogue prompt: "A secret switch! Who wouldn't press it? ▶YES / NO". Pressing 'A' once only opened the textbox; because we walked away without pressing 'A' again to select 'YES', the prompt closed without toggling the switch. The Mansion remained in State B.
-  - *Proof of Failure (Turn 76102)*: Walked to Gate 3 at (18, 8) and bumped into it, proving it remained CLOSED and confirming we were still in State B.
-  - *Correction Plan (Turn 76111)*: Backtracked to (3, 11) facing Left. We will press 'A' once to trigger the switch text prompt, wait for the YES/NO menu to appear, and press 'A' again to confirm 'YES'. This will successfully change the Mansion to State A.
-  - *Post-Toggle Verification Plan*: Once State A is active, we will walk East along Row 11 to Column 10, walk North to Row 3, and walk West to (8, 3) across Column 9 to verify that Row 3 is indeed open and passable under State A (Socratic Question 2). Then we will cross East along Row 3 to 2F East and walk through the newly-opened Gate 3 at (18, 8) to reach the South-East room.
+  - *Correction & Toggling (Turn 76111)*: Backtracked to (3, 11) facing Left. We pressed 'A' once to trigger the switch text prompt, selected 'YES' on the prompt, and confirmed. This successfully changed the Mansion's gate network to State A.
+  - *Post-Toggle Verification (Turn 76133)*: Once State A was active, we walked East along Row 11 to Column 10, walked North to Row 3, and verified that Row 3 Column 9 at (9, 3) is a solid, impassable wall under State A, meaning Row 11 is the only universal corridor across Column 9.
 - **Row 3 Column 9 (9, 3) Socratic Verification (Turn 76133)**:
   - *Socratic Question 2 Test*: Stood at (10, 3) and visually analyzed (9, 3).
   - *Result*: (9, 3) is a solid black partition wall tile of TYPE_2889 under State A. It is CLOSED and impassable.
