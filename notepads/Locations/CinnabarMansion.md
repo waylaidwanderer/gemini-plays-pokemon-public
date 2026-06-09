@@ -128,8 +128,10 @@
 - **Route to Stairs to 2F at (5, 10)**: From (10, 6) in 1F West, we can walk:
   1. Up 4 steps to (10, 2).
   2. Left 5 steps to (5, 2).
-  3. Down 8 steps to (5, 10).
-This completely bypasses the rubble wall blocking (8, 10) on Row 10.
+  3. Walk Down Column 10 to Row 11: From (5, 2), walk Right 5 steps to (10, 2), then walk Down 9 steps to (10, 11).
+  4. From (10, 11), walk Left 5 steps to (5, 11).
+  5. Step Up 1 step to (5, 10) to enter the stairs.
+This is because Row 9 Column 5 is a solid, impassable wall of TYPE_2889, blocking direct vertical passage down Column 5 (Verified Turn 77387).
 
 ## 1F South-Central Pocket Isolation Proof of Work
 We have mathematically and physically verified that the 1F south-central pocket (Columns 21-23, Rows 18-27) is permanently isolated and unreachable on foot from the rest of 1F under BOTH Gate States:
