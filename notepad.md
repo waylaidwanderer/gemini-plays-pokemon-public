@@ -6437,6 +6437,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Max Potion: (1, 16) | State: [x] Collected (Turn 75157)
 - **Wild Encounters**:
   - Wild Grimer: Caught at (3, 16) | State: [x] Captured (Turn 75147). Named GLOOP (Level 31), stored in PC Box 1.
+  - Wild Magmar: Caught at (9, 10) | State: [x] Captured (Turn 75664). Nicknamed KILN (Level 34), stored in PC Box 1.
 - **Left Side of 3F**:
   - Accessible via Row 13: (1, 13), (2, 13), (3, 13), (4, 13), (5, 13).
 - **Trainers**:
