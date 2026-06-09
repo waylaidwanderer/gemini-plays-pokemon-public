@@ -6260,6 +6260,16 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
     2. Toggle Statue 2 to State B.
     3. Ascend to 3F West and walk East past Column 11 along Row 12 or Row 13 (which will be OPEN under State B).
     4. Access 3F East, find the Secret Pit at (11, 12), and drop down directly to B1F.
+## 2F East Southeast Stairs Hypothesis & Verification (Turn 76508)
+- **Hypothesis (Socratic Question 1)**: The southeast staircase at (25, 14) exists on 2F East and connects 2F East South directly to 3F East. Since State A (Default) is active, Gate 3 at (18, 8)-(19, 8) is OPEN, which allows us to walk directly onto 2F East South on foot, locate the stairs at (25, 14), and ascend directly to 3F East (bypassing the closed Gate 2 on 3F West).
+- **Testing Protocol**:
+  1. From (4, 11) on 2F West, walk East along Row 11 to Column 10.
+  2. Walk North along Column 10 to Row 7.
+  3. Walk East along Row 7 to Column 18/19.
+  4. Walk South through the open Gate 3 at (18, 8) to Row 11.
+  5. Walk East from Column 18 to Column 25 on Row 11/12/13/14.
+  6. Search the far-southeast corner of 2F East (specifically (25, 14)) for the staircase.
+  7. Step onto the staircase to verify if it connects to 3F East.
 
 <hr>
 
