@@ -6593,6 +6593,15 @@ For each reachable column on Rows 16 and 17 on 2F West, we will perform the foll
 - **Column 4**: Tested on Turn 77776 by pressing Down from (4, 17) facing Down. Result: **Bump** against (4, 18). Confirmed 100% solid, impassable railing.
 - **Column 3**: Tested on Turn 77778 by pressing Down from (3, 17) facing Down. Result: **Bump** against (3, 18). Confirmed 100% solid, impassable railing.
 - **Column 2**: Tested on Turn 77796 by pressing Down from (2, 17) facing Down. Result: **Bump** against (2, 18). Confirmed 100% solid, impassable railing.
-- **Column 1**: Testing in progress...
+- **Column 1**: Tested on Turn 77801 by pressing Down from (1, 17) facing Down. Result: **Bump** against (1, 18). Confirmed 100% solid, impassable railing.
+
+## State B Ledge Testing Summary
+All four reachable columns (1, 2, 3, and 4) on the southwest balcony of 2F West under State B are confirmed 100% solid, impassable railings. There is no active jump-down ledge or balcony exit in this area under State B.
+
+## State A Ledge Testing (Statue 2 Default)
+- **Column 4**: Testing planned...
+- **Column 3**: Testing planned...
+- **Column 2**: Testing planned...
+- **Column 1**: Testing planned...
 
 <hr>
