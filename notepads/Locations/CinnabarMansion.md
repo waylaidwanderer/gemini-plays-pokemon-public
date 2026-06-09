@@ -108,6 +108,7 @@
     - Gate 5 at (26, 27) / (27, 27) is CLOSED (Verified Turn 75568).
     - The south-east pocket (Columns 25-28, Rows 18-26) is explored and verified empty. Column 24 acts as a solid vertical partition wall from Row 19 to Row 27.
     - Crossing left/west into the south-west pocket is possible along Rows 14, 15, and 16.
+- Column 11 on 1F consists of solid vertical wall (TYPE_2889) on Rows 13-27, but on Row 11, Column 11 is completely open, passable floor (TYPE_3fe2). This provides an open horizontal crossover between 1F West (Column 10) and 1F East (Column 12) on Row 11 on foot under both states (Verified Turn 77099).
 - Column 2: Tested on Turn 76931 by pressing Down from (2, 16) and bumped, proving (2, 17) is a solid railing.
 - Column 1: Tested on Turn 76933 by pressing Down from (1, 16) and bumped, proving (1, 17) is a solid railing.
 - SW Balcony Ledge Exploration Complete: All five columns (1 to 5) on Row 17 of 3F West have been systematically tested and are confirmed 100% solid, impassable railings under State B. There is no jump-down ledge or balcony exit in this southwest quadrant.
