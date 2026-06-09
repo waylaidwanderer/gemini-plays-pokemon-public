@@ -15,22 +15,31 @@
 - [ ] **Navigate to Seafoam Islands & Cinnabar Island**: Swim South along Route 19, then West along Route 20. Navigate through Seafoam Islands (Route 20) and continue West to Cinnabar Island.
 - [ ] **Defeat Blaine**: Secure our 7th badge (Volcano Badge) at Cinnabar Gym.
 
-## Water Routes & Seafoam Islands Strategic Plans (Turn 74313)
-- **Water Combat Tactical Plan**:
-  - *GEMMY (Level 59 BLASTOISE)*:
-    - **BITE**: Physical Normal-type in Gen 1. Deals neutral, extremely high damage against Water-types. This is our primary, reliable "brute-force" sweeping move.
-    - **DIG**: Physical Ground-type in Gen 1. Deals 2x super-effective damage against Poison/Water dual-types (e.g., Tentacool, Tentacruel), which are extremely common on these routes!
-  - *SPARKY (Level 25 PIKACHU)*:
-    - **THUNDERBOLT**: Electric-type special move. Deals 2x super-effective damage against all Water-types.
-    - **THUNDER WAVE**: Useful for paralyzing faster or high-level wild Pokémon/trainers.
-    - *Training Strategy*: Since water routes are packed with Swimmers and Water-types, this is the perfect opportunity to level up SPARKY. We can switch-train SPARKY or lead with him against trainers to net massive super-effective EXP, using GEMMY's physical BITE/DIG as a robust safety net.
+## Cinnabar Mansion Deep B1F Routing & Switch Matrix (Turn 75675)
+- **Active Exploration Mission**: Locate and retrieve the Secret Key.
+- **Switch Matrix (State A vs. State B)**:
+  - We currently have Statue 2 (2F, (2, 11)) in **State B** (Toggled).
+  - This has opened Gate 1 (1F, (25, 13)) but closed Gate 4 (1F, (21, 17)) and Gate 5 (1F, (26, 27)).
+  - To reach the basement (B1F), we must find the correct path. Historically, B1F is accessed via a pit on 3F.
+  - The Secret Pit is at (11, 12) on 3F. This pit is currently blocked by Gate 2 (Col 11) being CLOSED.
+  - Wait! To open Gate 2 on 3F, we need to find Statue 3 on 3F Left!
+  - We are currently on 3F. We must systematically search 3F Left (southwest and northwest chambers) to find Statue 3 and toggle it.
 
-- **Seafoam Islands Systematic Puzzle Tracking Pattern**:
-  - We will create a dedicated notepad `Locations/SeafoamIslands` upon entry.
-  - To prevent getting lost, disoriented, or accidentally resetting solved puzzle rooms, we will systematically track our state floor-by-floor (1F, B1F, B2F, B3F, B4F):
-    1. **Coordinate Directory**: List the default coordinates of all pushable boulders and pits on each floor.
-    2. **Active State Logs**: For each boulder, record its current position and whether it has been successfully pushed into a pit.
-    3. **Reset Monitoring**: Note that leaving the Seafoam Islands map or fainting resets all boulders to their starting coordinates. We must strictly avoid leaving the cave once we begin a multi-floor boulder puzzle until it is completed.
+## Empirical Badge Boost Audit PC Navigation Protocol (Turn 75675)
+- **Objective**: Safely deposit BUGGY (Butterfree) and withdraw SLUDGY (Muk, Level 39) to conduct the Badge-Boost Multiplier Empirical Audit.
+- **PC Navigation Sequence (Cinnabar PC, standing at (4, 3) facing Up)**:
+  1. Press 'A' to boot up GEM's PC.
+  2. Select `BILL'S PC` (cursor starts on it, press 'A').
+  3. Select `DEPOSIT PKMN` (press Down once, then 'A').
+  4. In the party list, navigate to BUGGY (index 4):
+     - Press Down 3 times (moves from SPARKY -> ROCKY -> BIRBIE -> BUGGY).
+     - **CRITICAL**: Confirm the cursor is pointing at BUGGY and NOT GEMMY (index 5).
+     - Press 'A' to deposit BUGGY.
+  5. Select `WITHDRAW PKMN` (press Up once from Deposit PKMN, or press 'A' on Withdraw PKMN).
+  6. In Box 1, locate SLUDGY (Muk, Level 39) at index 1:
+     - The cursor starts on index 1 (SLUDGY).
+     - Press 'A' to withdraw SLUDGY.
+  7. Select `SEE YA!` to log off and exit the PC.
 
 ## Cinnabar Gym Blaine Matchup Preparation Strategy
 - **Opponent Profile**: Gym Leader Blaine utilizes a Fire-type lineup (typically Growlithe, Ponyta, Rapidash, Arcanine, all around Level 42-47).
