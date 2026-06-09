@@ -39,3 +39,10 @@ All four reachable columns (1, 2, 3, and 4) on the southwest balcony of 2F West 
 
 ### Socratic Question 2: Separation of Records
 - To prevent any ambiguity, we have separated our tests into two clear, isolated sections: `## State B Ledge Testing (Statue 2 Toggled)` and `## State A Ledge Testing (Statue 2 Default)`. This provides indisputable proof of work to our future self and the overwatch agent.
+- **3F West southwest balcony under State A**:
+    - Column 5: Tested on Turn 77948 by pressing Down from (5, 16) facing Down. Result: **Bump** against (5, 17). Confirmed 100% solid, impassable railing.
+    - Column 4: Tested on Turn 77946 by pressing Down from (4, 16) facing Down. Result: **Bump** against (4, 17). Confirmed 100% solid, impassable railing.
+    - Column 3: Tested on Turn 77953 by pressing Down from (3, 16) facing Down. Result: **Bump** against (3, 17). Confirmed 100% solid, impassable railing.
+    - Column 2: Tested on Turn 77960 by pressing Down from (2, 16) facing Down. Result: **Bump** against (2, 17). Confirmed 100% solid, impassable railing.
+    - Column 1: Tested on Turn 77964 and Turn 77972 by pressing Down from (1, 16) facing Down. Result: **Bump** against (1, 17). Confirmed 100% solid, impassable railing.
+- **Definitive Balcony Conclusion**: All reachable columns (1 to 5) on Row 17 of 3F West under BOTH State A and State B are 100% solid, impassable railings with no drop-off.
