@@ -6197,8 +6197,6 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - This has opened Gate 1 (1F, (25, 13)) but closed Gate 4 (1F, (21, 17)) and Gate 5 (1F, (26, 27)).
   - To reach the basement (B1F), we must find the correct path. Historically, B1F is accessed via a pit on 3F.
   - The Secret Pit is at (11, 12) on 3F. This pit is currently blocked by Gate 2 (Col 11) being CLOSED.
-  - Wait! To open Gate 2 on 3F, we need to find Statue 3 on 3F Left!
-  - We are currently on 3F. We must systematically search 3F Left (southwest and northwest chambers) to find Statue 3 and toggle it.
 
 ## Empirical Badge Boost Audit PC Navigation Protocol (Turn 75700)
 - **Objective**: Safely deposit BUGGY (Butterfree) and withdraw SLUDGY (Muk, Level 39) or KILN (Magmar, Level 34) to conduct the Badge-Boost Multiplier Empirical Audit.
