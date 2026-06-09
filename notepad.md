@@ -6453,6 +6453,10 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Since (10, 11), (10, 12), and (9, 12) are all solid rubble (TYPE_2889), we cannot physically reach Column 11 on foot from the West. 
   - This definitively proves that there is no walkable connection between 3F West and 3F East under State B.
   - Therefore, we must return to 1F and explore the 1F East wing under State B (since Gate 1 at (25, 13) is open under State B!).
+- 3F West Column 10/11 Empirical Verification under State A (Turns 77043-77051):
+  - Turn 77043: Standing at (9, 11) under State A, attempted to walk Right into (10, 11). Result: Collided, proving (10, 11) is solid rubble of TYPE_2889 under State A.
+  - Turn 77051: Standing at (9, 12) under State A, attempted to walk Right into (10, 12). Result: Collided, proving (10, 12) is solid rubble of TYPE_2889 under State A.
+  - This empirically proves that 3F West is completely blocked from 3F East at Columns 9/10 on Rows 11 and 12 under BOTH State A and State B.
 
 <hr>
 
