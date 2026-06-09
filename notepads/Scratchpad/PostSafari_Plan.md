@@ -1,39 +1,5 @@
 # Post-Safari Zone Route & Progression Plan
 
-## Cinnabar Mansion 2F Systematic Search Strategy (Turn 75700)
-- **Objective**: Fully explore 2F East and identify any balconies/falls or hidden switches.
-- **State Matrix Analysis**:
-  - We currently have Statue 2 (2F, (2, 11)) in State B (Toggled).
-  - Let's check 2F East under State B. If we find any gates on 2F, we must document them.
-  - After mapping 2F East under State B, we will return to (2, 11) on 2F and toggle Statue 2 back to State A (Default).
-  - Then we will re-explore 2F East and 1F South under State A to find the switch that actually controls Gate 2 on 3F!
-- **Systematic Search Areas**:
-  - We will walk every single walkable tile of 2F East on Columns 12-28, Rows 2-27.
-  - We will locate the exact coordinate of "Fall Spot 1" on 2F.
-  - We will verify where "Fall Spot 1" drops us on 1F (hypothesized to be the blocked southern section of 1F's eastern room).
-
-## Balcony Fall Spot 1 Empirical Verification Plan (Turn 75700)
-- **Hypothesis**: Jumping off the balcony/fall spot on 2F East drops the player to the blocked southern section of 1F East (behind Gate 1/4/5), bypassing closed gate barriers.
-- **Verification Protocol**:
-  1. Stand on 2F adjacent to the balcony ledge (Fall Spot 1).
-  2. Press the directional button to jump off/fall down the pit.
-  3. Immediately upon landing, log the 1F overworld coordinates.
-  4. Explore the landing zone on 1F and verify if any switches/statues are present.
-
-## Cinnabar Mansion State A Systematic Verification & Safety Protocol (Turn 75752)
-- **Objective**: Verify Gate 1, 4, 5, and 2 states under State A (Default) without getting trapped on 1F.
-- **Safety Analysis**:
-  - In State A (Default), Gate 1 (1F, (25, 13)) is CLOSED. This blocks access to the southern section of 1F's eastern room from the northern entrance.
-  - However, Gate 4 (1F, (21, 17)) and Gate 5 (1F, (26, 27)) are hypothesized to be OPEN under State A.
-  - If we toggle Statue 2 back to State A on 2F, then walk to 1F:
-    - We cannot reach the southern section of 1F's eastern room from the North because Gate 1 is CLOSED.
-    - Thus, to verify Gate 4/5 under State A, we must use the **Balcony Fall Spot 1** on 2F East!
-    - Under State A, the 2F Gate at (18, 8)-(19, 8) is OPEN. This allows us to walk to 2F East, go through that gate, reach Fall Spot 1, and jump down to 1F.
-    - This drops us directly in the southern section of 1F's eastern room, completely bypassing the closed Gate 1!
-    - Once we land on 1F, since State A is active, Gate 4 at (21, 17) and Gate 5 at (26, 27) will be OPEN and passable, allowing us to safely explore and verify them on foot!
-    - We can then walk through Gate 4 to the West corridor to exit the southern section, meaning we will **never get trapped**!
-- **State Matrix Update**: We will record these findings in `Scratchpad/Mansion_Gate_Matrix` by updating the State A column once verified.
-
 ## Cinnabar Mansion Deep B1F Routing & Switch Matrix (Turn 75675)
 - **Active Exploration Mission**: Locate and retrieve the Secret Key.
 - **Switch Matrix (State A vs. State B)**:
