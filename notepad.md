@@ -6495,7 +6495,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 
 <h1><code>Scratchpad/Mansion_Gate_Matrix</code></h1>
 
-# Pokémon Mansion Gate State Matrix (Turn 75335)
+# Pokémon Mansion Gate State Matrix (Turn 75980)
 
 ## State Table
 | Gate ID & Location | State A (Statue 2 Default) | State B (Statue 2 Toggled) | Verification & Proof of Work |
@@ -6505,6 +6505,13 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 | **Gate 2** (3F, Col 11) | **CLOSED** (Impassable) | **CLOSED** (Impassable) | State A: Verified CLOSED (solid wall of TYPE_2889) on Turn 75091. State B: Verified CLOSED (solid wall of TYPE_2889) on Turn 75612. |
 | **Gate 3** (2F, (18, 8)-(19, 8)) | **OPEN** (Passable) | **CLOSED** (Impassable) | State A: Verified OPEN (has open floor of TYPE_3fe2, visually clear) on Turn 75880. State B: Verified CLOSED (has orange/yellow horizontal bars) on Turn 75760. |
 | **Gate 6** (2F, (9, 4)-(9, 5)) | **CLOSED** (Impassable) | **OPEN** (Passable) | State A: Verified CLOSED (has orange/yellow vertical bars of TYPE_a83b) on Turn 75868. State B: Verified OPEN (passable floor) when walking to West wing. |
+
+## B1F Basement Gate Matrix (Added Turn 75980)
+- This table tracks the circuitry state of the Basement (B1F) of Pokémon Mansion once we enter and locate statues/gates there.
+
+| Gate ID & Location | State A (Statue 2 Default) | State B (Statue 2 Toggled) | Verification & Proof of Work |
+| :--- | :--- | :--- | :--- |
+| *TBD* | *TBD* | *TBD* | *TBD* |
 
 <hr>
 
