@@ -6443,8 +6443,9 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Down to 1F: (TBD, TBD)
   - Up to 3F: (TBD, TBD)
 - **Switches & Gates**:
-  - Statue 2: (2, 11) | State: [ ] Default (Toggled back to State A/Default on Turn 75850 by standing at (2, 12) facing UP)
+  - Statue 2: (2, 11) | State: [x] State A (Default) (Toggled back to State A on Turn 76121 by standing at (2, 12) facing UP and selecting YES)
   - Gate 6: (9, 4)-(9, 5) | State: CLOSED under State A, OPEN under State B (Verified CLOSED on Turn 75868)
+  - Gate 3: (18, 8)-(19, 8) | State: OPEN under State A, CLOSED under State B (Verified OPEN on Turn 75880 and Turn 76143)
 - **Falls/Pits**:
   - Fall Spot 1: (TBD, TBD) -> Drops to (TBD, TBD) on 1F
 - **Items**:
