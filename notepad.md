@@ -6154,10 +6154,12 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 ## Cinnabar Mansion Deep B1F Routing & Switch Matrix (Turn 75675)
 - **Active Exploration Mission**: Locate and retrieve the Secret Key.
 - **Switch Matrix (State A vs. State B)**:
-  - We currently have Statue 2 (2F, (2, 11)) in **State B** (Toggled) on Turn 76255.
-  - This has opened Gate 1 (1F, (25, 13)) but closed Gate 4 (1F, (21, 17)) and Gate 5 (1F, (26, 27)).
-  - To reach the basement (B1F), we must find the correct path. Historically, B1F is accessed via a pit on 3F.
-  - The Secret Pit is at (11, 12) on 3F. This pit is currently blocked by Gate 2 (Col 11) being CLOSED.
+  - We currently have Statue 2 (2F, (2, 11)) in **State A** (Default) toggled on Turn 77038.
+  - State A: Gate 3 (2F, (18, 8)-(19, 8)) is OPEN. Gate 6 (2F, (9, 4)-(9, 5)) is CLOSED.
+  - We tested 3F West Column 10 Row 11-13 under State A on Turn 77043 and 77050, finding solid blockages (TYPE_2889).
+  - Since 3F West is blocked and 2F Southeast room is isolated on foot under State A, we must explore 1F East wing under State B.
+  - To do this, we must toggle Statue 2 back to State B (Toggled) on 2F West. We will walk left to (2, 12), face Up, and toggle the statue.
+  - Under State B, Gate 1 on 1F (25, 13) is OPEN. This allows us to walk directly into the Southeast room on 1F East, explore it systematically, and check for any stairs or drop spots.
 
 ## Cinnabar Gym Blaine Matchup Preparation Strategy
 - **Opponent Profile**: Gym Leader Blaine utilizes a Fire-type lineup (typically Growlithe, Ponyta, Rapidash, Arcanine, all around Level 42-47).
