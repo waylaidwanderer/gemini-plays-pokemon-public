@@ -98,8 +98,8 @@
   - Successfully moved to (9, 4) on Turn 76081/76086 (TYPE_3fe2 open floor).
   - This verifies that Gate 6's physical collision barrier is OPEN under State B, permitting horizontal crossing of Column 9 along Row 4.
   - Socratic Verification of Gate 6: Since (9, 4) is passable, and Gate 3 is closed (as verified by the bump at (18, 7)), this confirms the active overworld state is **State B**.
-- **State A Toggled Verification (Turn 76094-76095)**:
-  - Stood at (3, 11) facing Left and pressed 'A' to toggle Statue 2 back to State A (Default).
-  - This closed Gate 6 on 2F and opened Gate 3 on 2F East, as well as opening Gate 4 and Gate 5 on 1F.
-  - Now, we will walk back to Column 10, walk North to Row 4, cross through Gate 6 (which should be CLOSED now, so we must cross using Row 3), and enter 2F East North.
-  - From 2F East North, we will walk through Gate 3 (now OPEN) to reach the Southeast room, find Fall Spot 1, and fall to 1F East!
+- **State A Toggled Verification (Turns 76094-76111)**:
+  - *Failed Toggle Attempt (Turn 76094)*: Stood at (3, 11) facing Left and pressed 'A' once. We incorrectly assumed this toggled the switch. However, in Gen 1, Mewtwo statues display a dialogue prompt: "A secret switch! Who wouldn't press it? ▶YES / NO". Pressing 'A' once only opened the textbox; because we walked away without pressing 'A' again to select 'YES', the prompt closed without toggling the switch. The Mansion remained in State B.
+  - *Proof of Failure (Turn 76102)*: Walked to Gate 3 at (18, 8) and bumped into it, proving it remained CLOSED and confirming we were still in State B.
+  - *Correction Plan (Turn 76111)*: Backtracked to (3, 11) facing Left. We will press 'A' once to trigger the switch text prompt, wait for the YES/NO menu to appear, and press 'A' again to confirm 'YES'. This will successfully change the Mansion to State A.
+  - *Post-Toggle Verification Plan*: Once State A is active, we will walk East along Row 11 to Column 10, walk North to Row 3, and walk West to (8, 3) across Column 9 to verify that Row 3 is indeed open and passable under State A (Socratic Question 2). Then we will cross East along Row 3 to 2F East and walk through the newly-opened Gate 3 at (18, 8) to reach the South-East room.
