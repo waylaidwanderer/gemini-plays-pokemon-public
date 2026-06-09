@@ -108,3 +108,7 @@
   4. **Fallback Plan**: If we land on 1F East South, we will:
      - Check if Gate 4 at (21, 17) or Gate 5 at (26, 27) is OPEN and passable.
      - Walk West through Gate 4 to 1F West to exit, meaning we are completely safe from being trapped.
+- **2F East Row 11 Blockage and Row 7 Bypass (Turn 76383)**:
+  - Discovered that Row 11 is blocked on the East at Column 13 by solid walls of TYPE_2889 under State A.
+  - Visually and physically verified that Row 7 is a completely open, clear horizontal crossing corridor on Columns 10-16 of TYPE_3fe2.
+  - Path from (11, 11) to Gate 3: Walk Up 4 steps to (11, 7), walk Right 7 steps to (18, 7), and walk Down 1 step to (18, 8) to cross Gate 3 into 2F East South.
