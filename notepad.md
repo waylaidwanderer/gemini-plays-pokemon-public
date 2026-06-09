@@ -6560,6 +6560,8 @@ We have successfully completed our victory run and obtained BOTH critical progre
   - Escape Rope: (14, 3) | State: [x] Collected (Turn 74964)
 - **Trainers**:
   - Trainer 1: (TBD, TBD) | State: [ ] Undefeated
+- **Wild Encounters**:
+  - Wild Ponyta: Caught at (25, 5) | State: [x] Captured (Turn 75405). Named EPONA (Level 28), stored in PC Box 1.
 - **Eastern Room & Western Corridor**:
   - The large eastern room of 1F is bounded on the left by a solid wall (TYPE_2889) at Column 9.
   - Rubble (TYPE_2889) blocks columns 8 to 11 on Rows 8 and 9.
