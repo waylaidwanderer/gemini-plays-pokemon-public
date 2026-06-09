@@ -6246,6 +6246,20 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Standing on (25, 14) on Turn 76296-76306 proved that it is a normal floor tile of TYPE_3fe2 with no warp or stairs.
   - Conclusion: There is NO staircase on 1F East. The southeastern staircase only connects 2F East and 3F East. 1F East is only accessed from 2F East via dropping down a balcony/pit, or on foot via Gate 1 under State B. To return to 2F, we must walk back to the southwest stairs at (5, 10) on 1F West.
 
+## 2F East Southeast Staircase Empirical Testing Protocol (Turn 76374)
+- **Objective**: Determine if the southeast staircase on 2F East South leads UP to 3F East or DOWN to 1F East South.
+- **Hypothesis**: The stairs lead UP to 3F East, providing access to the Secret Pit.
+- **Testing Protocol**:
+  1. Once we cross through Gate 3 on 2F West to 2F East South under State A, we will locate the southeast stairs.
+  2. Step onto the staircase and trigger the map transition.
+  3. **Observation & Logging**:
+     - Check the resulting Map ID:
+       - If Map ID is `0_215` (3F), the hypothesis is PROVEN. The stairs lead UP to 3F East. We will log: "Turn [X]: Verified southeast stairs lead UP to 3F East."
+       - If Map ID is `0_165` (1F), the hypothesis is DISPROVEN. The stairs lead DOWN to 1F East South. We will log: "Turn [X]: Southeast stairs lead DOWN to 1F East South at [X, Y]."
+  4. **Fallback Plan**: If we land on 1F East South, we will:
+     - Check if Gate 4 at (21, 17) or Gate 5 at (26, 27) is OPEN and passable.
+     - Walk West through Gate 4 to 1F West to exit, meaning we are completely safe from being trapped.
+
 <hr>
 
 <h1><code>Locations/CeladonGym</code></h1>
