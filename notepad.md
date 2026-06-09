@@ -6400,6 +6400,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Gate 6: (9, 4)-(9, 5) | State: CLOSED under State A, OPEN under State B (Verified CLOSED on Turn 75868)
   - Gate 3: (18, 8)-(19, 8) | State: OPEN under State A, CLOSED under State B (Verified OPEN on Turn 75880 and Turn 76143)
 - **Physical Blockages & Routing Constraints (Empirically Verified)**:
+  - **Column 15 Partition Wall**: Column 15 is a solid vertical wall of TYPE_2889 on Rows 1-5 (Verified Turn 76704 by bumping into (15, 2) from (14, 2)). However, Row 6 and Row 7 on Column 15 appear visually open.
   - **Column 22 Blockage**: Bounded by solid rubble (TYPE_2889) on Rows 8-15 under both State A and B, separating Column 21 from Column 23 on these rows (Verified Turn 76533).
   - **Row 8 Blockage**: Row 8 is a solid partition wall of TYPE_2889 from Column 22 to 28, blocking vertical crossing from the Northeast room to the Southeast room under both State A and B (Verified Turn 76559).
   - **Southeast Room Isolation**: Due to the Column 22 and Row 8 blockages, the Southeast room (and the stairs at (25, 14)) are completely isolated and unreachable on foot from 2F East North and 2F West under State A (Verified Turn 76559).
