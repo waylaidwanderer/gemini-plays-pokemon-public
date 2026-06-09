@@ -25,6 +25,7 @@
   - Trainer 1: (TBD, TBD) | State: [ ] Undefeated
 - **Wild Encounters**:
   - Wild Ponyta: Caught at (25, 5) | State: [x] Captured (Turn 75405). Named EPONA (Level 28), stored in PC Box 1.
+  - Wild Vulpix: Sighted at (24, 3) | State: [ ] Uncaught (Turn 75416, fled using Roar).
 - **Eastern Room & Western Corridor**:
   - The large eastern room of 1F is bounded on the left by a solid wall (TYPE_2889) at Column 9.
   - Rubble (TYPE_2889) blocks columns 8 to 11 on Rows 8 and 9.
