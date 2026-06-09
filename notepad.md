@@ -6178,11 +6178,11 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
      - Walk Up to (3, 11).
      - Walk Right 4 steps to (7, 11).
      - Walk Up 1 step to (7, 10) to ascend the stairs to 3F West.
-  2. **Navigate to Gate 6 on 3F West (Corrected Detour)**:
+  2. **Navigate to Row 13 on 3F West**:
      - The stairs land us at (7, 11) on 3F West.
-     - Walk Left 5 steps along Row 11 to Column 2: (7, 11) -> (2, 11) (bypassing the solid (7, 7) wall and avoiding the Burglar NPC).
-     - Walk North 6 steps along Column 2 to Row 5: (2, 11) -> (2, 5).
-     - Walk Right 7 steps along Row 5 to Gate 6: (2, 5) -> (9, 5) (Gate 6 is OPEN under State B).
+     - Row 11 is blocked at Column 3 by a solid wall. We must use Row 13 to reach the far west side.
+     - Walk Left to (5, 11), then Down to (5, 13) (bypassing the Burglar NPC at (4, 11)).
+     - Walk Left along Row 13 to Column 2: (5, 13) -> (2, 13).
   3. **Cross Column 11 into 3F East**:
      - Continue Right 3 steps along Row 5 to (12, 5) (Column 11 is open on Row 5, allowing us to cross into the East wing!).
   4. **Drop down the Secret Pit to B1F**:
