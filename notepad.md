@@ -6415,7 +6415,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 - **State A (Statue 2 Default) SW Balcony Ledge Testing**:
     - Column 5: Tested on Turn 77948 by pressing Down from (5, 16) facing Down. Result: **Bump** against (5, 17). Confirmed 100% solid, impassable railing.
     - Column 4: Tested on Turn 77946 by pressing Down from (4, 16) facing Down. Result: **Bump** against (4, 17). Confirmed 100% solid, impassable railing.
-    - Column 3: Tested on Turn 77951 by pressing Down from (3, 16) facing Down. Result: TBD.
+    - Column 3: Tested on Turn 77952 by pressing Down from (3, 16) facing Down. Result: TBD.
     - Column 2: Testing planned...
     - Column 1: Testing planned...
 - **Trainers**:
