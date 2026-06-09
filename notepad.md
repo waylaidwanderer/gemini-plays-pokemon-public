@@ -6170,6 +6170,18 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   6. Jump down the 3F East eastern balcony / pit drop to land directly inside the isolated 1F East south-central pocket!
   7. Retrieve the Secret Key from B1F!
 
+## Active Route: Backtracking to 2F West stairs
+We are currently at (17, 10) on 1F East. We are backtracking to 1F West stairs at (5, 10) to ascend to 2F West.
+Steps:
+1. Up 4 steps to (17, 6).
+2. Left 5 steps to (12, 6).
+3. Down 5 steps to (12, 11).
+4. Left 2 steps to (10, 11) (cross to 1F West).
+5. Up 9 steps to (10, 2).
+6. Left 5 steps to (5, 2).
+7. Down 8 steps to (5, 10).
+8. Enter stairs to 2F West.
+
 <hr>
 
 <h1><code>Locations/CeladonGym</code></h1>
