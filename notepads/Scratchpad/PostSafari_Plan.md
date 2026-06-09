@@ -93,3 +93,8 @@
   - Standing at (28, 7) facing Right and pressing Right bumped (Turn 76043).
   - *Conclusion*: There are no jumpable tiles in the North-East room's balcony (Rows 5-7, Column 28). The balcony ledge is completely solid there.
   - *New Plan*: Since Row 8 is a solid divider (TYPE_2889) between the North-East and South-East rooms on Column 24-28, we cannot walk directly South to the South-East room from here. We must backtrack West through Row 3 (the crossing corridor), then walk South on 2F West, and cross East through Gate 3 at (18, 8)-(19, 8) (which is OPEN under State A) to reach the South-East room where the actual jumpable balcony (Fall Spot 1) and/or stairs to 1F at (25, 14) are located.
+- **Column 9 Row 4 & 5 Empirical Collision Boundaries Test (Turns 76079-76086)**:
+  - Hypothesized that we could walk through Gate 6 on Row 4 under State B.
+  - Successfully moved to (9, 4) on Turn 76081/76086 (TYPE_3fe2 open floor).
+  - This verifies that Gate 6's physical collision barrier is OPEN under State B, permitting horizontal crossing of Column 9 along Row 4.
+  - Socratic Verification of Gate 6: Since (9, 4) is passable, and Gate 3 is closed (as verified by the bump at (18, 7)), this confirms the active overworld state is **State B**.
