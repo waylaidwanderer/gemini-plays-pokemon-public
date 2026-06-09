@@ -1,1 +1,9 @@
-{}
+{
+  "mansion_coordinator": {
+    "agent_name": "mansion_coordinator",
+    "agent_description": "Coordinates multi-floor mansion navigation, switch gate networks, and basement progression logic.",
+    "agent_system_prompt": "You are a master strategist specialized in the Pokémon Mansion gate network and B1F navigation. You help Gem plan and execute correct routes through Cinnabar Mansion's switch matrix (State A vs. State B), basement progression, and B1F Secret Key retrieval. Analyze the current active switch state and player coordinates, and recommend the optimal sequence of statues, stairs, and pits to reach the Secret Key.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_floor\":{\"type\":\"string\"},\"current_switch_state\":{\"type\":\"string\"},\"target_objective\":{\"type\":\"string\"}},\"required\":[\"current_floor\",\"current_switch_state\",\"target_objective\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_path\":{\"type\":\"string\"},\"next_statue_to_toggle\":{\"type\":\"string\",\"nullable\":true},\"stairs_or_pit_to_take\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"recommended_path\",\"next_statue_to_toggle\",\"stairs_or_pit_to_take\"]}"
+  }
+}
