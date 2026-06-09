@@ -10,7 +10,7 @@
   - **2F**: Second floor. Contains stairs to 1F, stairs to 3F, and several balconies/falls.
   - **3F**: Third floor. Contains stairs to 2F, and specific fall-down spots (pits/ledges) that drop the player to lower floors (including B1F!).
   - **B1F**: Basement floor. This is where the **Secret Key** is hidden.
-- **Escape Strategy**: Once we find the Secret Key, we can use an **Escape Rope** from our bag to immediately warp out of the Mansion. We currently have 1 Escape Rope in our bag.
+- **Escape Strategy**: Once we find the Secret Key, we can use an **Escape Rope** from our bag to immediately warp out of the Mansion. We currently have 2 Escape Ropes in our bag.
 
 ---
 
@@ -23,6 +23,10 @@
   - Escape Rope: (14, 3) | State: [x] Collected (Turn 74964)
 - **Trainers**:
   - Trainer 1: (TBD, TBD) | State: [ ] Undefeated
+- **Eastern Room & Western Corridor**:
+  - The large eastern room of 1F is bounded on the left by a solid wall (TYPE_2889) at Column 9.
+  - Rubble (TYPE_2889) blocks columns 8 to 11 on Rows 8 and 9.
+  - A passable corridor on Column 12 (open floor TYPE_3fe2) starts at Row 7 and goes South to Row 11, connecting the eastern room to the southern corridor.
 
 ---
 
@@ -42,8 +46,16 @@
   - Down to 2F: Located at (7, 10) (Verified Turn 75056)
 - **Switches & Gates**:
   - Statue 3: (TBD, TBD) | State: [ ] Default
+  - Column 11 Gate: Currently CLOSED (solid wall of TYPE_2889 on Column 11 from Row 8 to 15).
+  - Gate status on 3F is currently CLOSED, blocking access to the right side of 3F (including the pit chute at (11, 12)).
 - **Falls/Pits**:
   - Pit A (The Secret Fall): (11, 12) | State: Static Pit (Verified Turn 75091)
+- **Mansion Diaries**:
+  - Table with Diary: (6, 12) (Verified Turn 75127). Read text: 'Diary: Feb. 6 MEW gave birth. We named the newborn MEWTWO.'
+- **Left Side of 3F**:
+  - Accessible via Row 13: (1, 13), (2, 13), (3, 13), (4, 13), (5, 13).
+- **Trainers**:
+  - Burglar: Standing at (4, 11). Defeated on Turn 75104. Uses a Level 38 Ninetales. Marked with a ☠️ map marker.
 
 ---
 
@@ -52,17 +64,3 @@
   - Statue 4: (TBD, TBD) | State: [ ] Default
 - **Secret Key**:
   - Coordinates: (TBD, TBD) | State: [ ] Uncollected
-- **Eastern Room & Western Corridor**:
-  - The large eastern room of 1F is bounded on the left by a solid wall (TYPE_2889) at Column 9.
-  - Rubble (TYPE_2889) blocks columns 8 to 11 on Rows 8 and 9.
-  - A passable corridor on Column 12 (open floor TYPE_3fe2) starts at Row 7 and goes South to Row 11, connecting the eastern room to the southern corridor.
-
-### 3F Exploration Details (Turn 75122)
-- **Trainers**:
-  - Burglar: Standing at (4, 11). Defeated on Turn 75104. Uses a Level 38 Ninetales. Marked with a ☠️ map marker.
-- **Switches & Gates**:
-  - Mewtwo Statue (Switch): Located at (6, 12).
-  - Column 11 Gate: Currently CLOSED (solid wall of TYPE_2889 on Column 11 from Row 8 to 15).
-  - Gate status on 3F is currently CLOSED, blocking access to the right side of 3F (including the pit chute at (11, 12)).
-- **Left Side of 3F**:
-  - Accessible via Row 13: (1, 13), (2, 13), (3, 13), (4, 13), (5, 13).
