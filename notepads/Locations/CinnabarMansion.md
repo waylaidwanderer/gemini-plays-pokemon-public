@@ -73,5 +73,10 @@
 - At Column 16: (16, 10) and (16, 11) is a green pillar (TYPE_2889).
 - Row 13 has a solid block of walls/rubble starting at (11, 13) and extending East to (17, 13) (all are TYPE_2889 except (13, 13) which is TYPE_3fe2).
 - Let's check (13, 13): it says TYPE_3fe2 (passable) on the overlay but wait, is (13, 13) actually open or is it visually a wall? Let's check if we can walk there or if it's blocked by surrounding walls (12, 13) and (14, 13).
-- To the east of Column 17 is off-screen. We can walk up to Row 7 on Column 12 to explore the northern part of this room.
-- Let's verify if there is any item or statue in the northeast of 1F (above Row 10, Columns 12-17).
+- To the east of Column 17, the rest of the room has been explored up to Column 28.
+- Physical layout:
+  - Row 13 has a solid block of walls/rubble starting at (11, 13) and extending East to (22, 13) (all are TYPE_2889).
+  - An electronic gate panel is located on Row 13 at (24, 13) and (25, 13) (TYPE_a83b).
+  - Columns 26, 27, 28 are bounded by solid walls and rubble (26, 13 is solid, 27, 10-11 and 28, 8-11 are rubble).
+  - A large wooden table occupies (24, 8)-(25, 9) (TYPE_2889), surrounded by passable floor of TYPE_3fe2.
+  - The electronic gate at (25, 13) was tested on Turn 75301 and found to be CLOSED and impassable. This blocks access to the southern section of the eastern room on 1F (Rows 14-16, Columns 22-27).
