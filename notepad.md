@@ -6198,22 +6198,6 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - To reach the basement (B1F), we must find the correct path. Historically, B1F is accessed via a pit on 3F.
   - The Secret Pit is at (11, 12) on 3F. This pit is currently blocked by Gate 2 (Col 11) being CLOSED.
 
-## Empirical Badge Boost Audit PC Navigation Protocol (Turn 75700)
-- **Objective**: Safely deposit BUGGY (Butterfree) and withdraw SLUDGY (Muk, Level 39) or KILN (Magmar, Level 34) to conduct the Badge-Boost Multiplier Empirical Audit.
-- **PC Navigation Sequence (Cinnabar PC, standing at (4, 3) facing Up)**:
-  1. Press 'A' to boot up GEM's PC.
-  2. Select `BILL'S PC` (cursor starts on it, press 'A').
-  3. Select `DEPOSIT PKMN` (press Down once, then 'A').
-  4. In the party list, navigate to BUGGY (index 4):
-     - Press Down 3 times (moves from SPARKY -> ROCKY -> BIRBIE -> BUGGY).
-     - **CRITICAL**: Confirm the cursor is pointing at BUGGY and NOT GEMMY (index 5).
-     - Press 'A' to deposit BUGGY.
-  5. Select `WITHDRAW PKMN` (press Up once from Deposit PKMN, or press 'A' on Withdraw PKMN).
-  6. In Box 1, locate SLUDGY (Muk, Level 39) at index 2 or KILN (Magmar, Level 34) at index 1:
-     - To withdraw KILN: The cursor starts on index 1 (KILN). Press 'A'.
-     - To withdraw SLUDGY: The cursor starts on index 1 (KILN). Press Down once to reach index 2 (SLUDGY). Press 'A'.
-  7. Select `SEE YA!` to log off and exit the PC.
-
 ## Cinnabar Gym Blaine Matchup Preparation Strategy
 - **Opponent Profile**: Gym Leader Blaine utilizes a Fire-type lineup (typically Growlithe, Ponyta, Rapidash, Arcanine, all around Level 42-47).
 - **Type Effectiveness**: Fire is weak to Water, Ground, and Rock (taking 2x damage).
