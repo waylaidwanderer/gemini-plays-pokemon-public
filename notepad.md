@@ -6570,5 +6570,6 @@ Active State: **State B (Statue 2 Toggled)** (Toggled on Turn 77084)
   5. Observe:
      - **Result A**: If we warp to 2F East South at (25, 14), then the staircase is bidirectionally active and verified. We will immediately update `Locations/CinnabarMansion` to reflect this.
      - **Result B**: If we stand on (25, 14) on 1F and nothing happens, we will attempt to interact facing in all directions. If still nothing, then (25, 14) is indeed a one-way warp from 2F or not a warp at all, proving the hypothesis false.
+- **Turn 77733**: Currently on 3F West at (7, 11). Systematic verification of Rows 16 and 17 is planned to fulfill the overwatch audit and permanently prove/disprove the southern balcony crossover hypothesis. First, we must walk down to the southern-most reachable coordinates of 3F West. We will walk Left 2 steps to (5, 11) and then Down 4 steps to (5, 15).
 
 <hr>
