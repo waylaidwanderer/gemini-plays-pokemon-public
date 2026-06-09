@@ -16,14 +16,15 @@
 
 ## 3. Socratic Question 2: 1F East Systematic Mapping Protocol
 - **Question**: If you decide to return to State B to explore 1F East, what is your protocol for systematically mapping the Northeast and Southeast pockets on 1F East to locate any undiscovered staircases or drop spots?
-- **Protocol**:
-  1. Toggle Statue 2 to State B (Completed on Turn 77084).
-  2. Take the stairs down to 1F West (Completed on Turn 77091).
-  3. Walk UP Column 12 to the northern crossings (Row 6) to cross into 1F East Northeast room.
-  4. Why? Column 13 is a solid wall on Rows 7-13, and Row 13 Column 12 is blocked by solid rubble (TYPE_2889), preventing direct southern or eastern passage from our current position (12, 11).
-  5. Explore the 1F East Northeast room systematically.
-  6. Walk South through Gate 1 at (25, 13) (which is open under State B) to reach the 1F East Southeast room.
-  7. Meticulously map the Southeast room and its western extension (Columns 12-28, Rows 14-27) for stairs, ladder, or B1F drop spots.
+- **Protocol & Corridor Analysis**:
+  - **Column 12 & Southern Corridor Connection**:
+    - The Column 12 vertical corridor (at Row 11) is blocked to the South by solid rubble at (12, 13). However, we can bypass this by walking Left to Column 10, walking Down past Row 13, and entering the southern corridor (Rows 14-16).
+    - Once in the southern corridor, Column 13 is open on Rows 14-16, allowing us to walk directly East from Column 12 into the 1F Southeast room.
+    - Because Gate 1 at (25, 13) is open under State B, we can walk North through Gate 1 to access the Northeast room.
+    - Thus, we have two valid mapping entry pathways under State B:
+      - **Pathway A (Northern Crossover)**: From (12, 11), walk Up to Row 6, East through the northern crossing to the Northeast room, and South through Gate 1 to the Southeast room.
+      - **Pathway B (Southern Crossover)**: From (12, 11), walk Left to Column 10, Down to Row 14, East along the southern corridor into the Southeast room, and North through Gate 1 to the Northeast room.
+    - **Active Decision**: Since we have already walked Up Column 12 to (12, 6) on Turn 77113, we will execute **Pathway A**. We will walk Right 2 steps to cross into 1F East Northeast room, map it, and then proceed South through Gate 1 to map the Southeast room.
 
 ## 4. Socratic Question 3: B1F Exit Strategy
 - **Question**: You have documented that you have 2 Escape Ropes. Since the overworld exit is far away and requires navigating back through several doors/gates, how will you systematically plan your exit strategy once you retrieve the Secret Key on B1F?
