@@ -6498,7 +6498,17 @@ Active State: **State B (Statue 2 Toggled)** (Toggled on Turn 77084)
     - Thus, we have two valid mapping entry pathways under State B:
       - **Pathway A (Northern Crossover)**: From (12, 11), walk Up to Row 6, East through the northern crossing to the Northeast room, and South through Gate 1 to the Southeast room.
       - **Pathway B (Southern Crossover)**: From (12, 11), walk Left to Column 10, Down to Row 14, East along the southern corridor into the Southeast room, and North through Gate 1 to the Northeast room.
-    - **Active Decision**: Since we have already walked Up Column 12 to (12, 6) on Turn 77113, we will execute **Pathway A**. We will walk Right 2 steps to cross into 1F East Northeast room, map it, and then proceed South through Gate 1 to map the Southeast room.
+    - **Active Decision**: Since we have already walked Up Column 12 to (12, 6) on Turn 77113, we executed **Pathway A** and walked Right 5 steps to (17, 6), crossed Column 22 on Row 3, walked down Column 26 and through Gate 1 to (25, 14), and walked down Column 25/26 to map the Southeast room.
+  - **Systematic Exploration Results & Fallback Plan**:
+    - On Turn 77178, we reached the bottom-right corner of the Southeast room at (28, 25). Visually and physically verified that Columns 26, 27, and 28 on Rows 24, 25, and 26 contain NO staircases or B1F transitions. Row 27 is blocked by closed Gate 5.
+    - Therefore, the Southeast room is completely empty of B1F access.
+    - **Fallback Plan**:
+      1. We must backtrack to 2F West (2, 11) and toggle Mewtwo Statue 2 back to State A (Default).
+      2. Descend the stairs to 1F West (5, 10).
+      3. Walk to Row 6 (Column 12).
+      4. Walk East along Row 6 to Column 21 (which is open under State A).
+      5. Walk South along Column 21 directly through Gate 4 at (21, 17) (which is OPEN under State A) into the South-central pocket of 1F East (Columns 21-23, Rows 18-27).
+      6. Systematically explore the South-central pocket for staircases or drop spots leading to B1F.
 
 ## 4. Socratic Question 3: B1F Exit Strategy
 - **Question**: You have documented that you have 2 Escape Ropes. Since the overworld exit is far away and requires navigating back through several doors/gates, how will you systematically plan your exit strategy once you retrieve the Secret Key on B1F?
