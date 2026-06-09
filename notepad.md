@@ -6589,7 +6589,6 @@ For each reachable column on Rows 16 and 17 on 2F West, we will perform the foll
    - **Fall**: If the player jumps south over the railing and triggers a map transition/fall screen, document the landing coordinates and map.
 
 ## Live Testing Progress
-- Active Testing.
 
 ## State B Ledge Testing (Statue 2 Toggled)
 - **Column 4**: Tested on Turn 77776 by pressing Down from (4, 17) facing Down. Result: **Bump** against (4, 18). Confirmed 100% solid, impassable railing.
