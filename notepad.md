@@ -6603,7 +6603,7 @@ All four reachable columns (1, 2, 3, and 4) on the southwest balcony of 2F West 
 - **Column 4**: Tested on Turn 77841 by pressing Down from (4, 17) facing Down. Result: **Bump** against (4, 18). Confirmed 100% solid, impassable railing.
 - **Column 3**: Tested on Turn 77848 by pressing Down from (3, 17) facing Down. Result: **Bump** against (3, 18). Confirmed 100% solid, impassable railing.
 - **Column 2**: Tested on Turn 77872 by pressing Down from (2, 17) facing Down. Result: **Bump** against (2, 18). Confirmed 100% solid, impassable railing.
-- **Column 1**: Tested on Turn 77887 by pressing Down from (1, 17) facing Down. Result: TBD.
+- **Column 1**: Tested on Turn 77890 by pressing Down from (1, 17) facing Down. Result: **Bump** against (1, 18). Confirmed 100% solid, impassable railing.
 
 ## Socratic Strategy & Methodology Answers (Turn 77806)
 ### Socratic Question 1: The Role of the Switch State
