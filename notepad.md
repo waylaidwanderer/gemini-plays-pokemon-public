@@ -6461,6 +6461,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 <h1><code>Scratchpad/Mansion_Gate_Matrix</code></h1>
 
 # Pokémon Mansion Gate State Matrix (Turn 75980)
+Active State: **State B** (Toggled on Turn 76662)
 
 ## State Table
 | Gate ID & Location | State A (Statue 2 Default) | State B (Statue 2 Toggled) | Verification & Proof of Work |
