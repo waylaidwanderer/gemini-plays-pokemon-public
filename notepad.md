@@ -6369,9 +6369,7 @@ We have successfully completed our victory run and obtained BOTH critical progre
     - *Utility*: Ground is also 2x super-effective against Fire, but in Gen 1 DIG is a 2-turn move, giving opponents a turn to act or use status moves. SURF is infinitely more efficient.
 
 ## Cinnabar Island & Pokémon Mansion Prep Strategy (Turn 74754)
-- **Inventory Cleanup Protocol**: Before entering Cinnabar Mansion, we must free up inventory space to accommodate the Secret Key and various TMs/items inside.
-  - *Current bag slots*: 19/20 filled.
-  - *Deposit Plan (at Cinnabar PC)*: Deposit HM03, HM04, TM06, TM21, TM40, CARBOS, RARE CANDY, and TOWN MAP. This will reduce our filled slots from 19 to 11, leaving 9 open slots for mansion items.
+
 - **PP & HP Management**:
   - Heal the party fully at the Cinnabar Pokémon Center to restore all HP and PP.
   - Keep 7 Hyper Potions and 1 Full Restore in our bag for mid-exploration healing.
