@@ -19,25 +19,24 @@
     - *Utility*: While even more powerful (effective base power 360), its 80% accuracy introduces unnecessary miss risk. We will only use this if SURF PP is fully depleted.
   - **Priority Move 3: DIG** (Ground, Physical, Power 100, 100% Accuracy).
     - *Utility*: Ground is also 2x super-effective against Fire, but in Gen 1 DIG is a 2-turn move, giving opponents a turn to act or use status moves. SURF is infinitely more efficient.
-## State B Navigation Plan to 3F East & B1F Access (Turn 76644)
-- **Status**: State B (Toggled) is now active.
+## State B Navigation Plan to 3F East & B1F Access (Turn 76684)
+- **Status**: State B (Toggled) is active. We verified on 3F West that Row 7 and Column 2 are blocked by solid bookcase walls, making 3F East unreachable via 3F West. We must use the 2F East detour.
 - **Detailed Step-by-Step Execution Plan**:
-  1. **Walk to the 2F West Stairs (7, 10)**:
-     - Walk Right to (3, 12).
-     - Walk Up to (3, 11).
-     - Walk Right 4 steps to (7, 11).
-     - Walk Up 1 step to (7, 10) to ascend the stairs to 3F West.
-  2. **Navigate to Row 13 on 3F West**:
-     - The stairs land us at (7, 11) on 3F West.
-     - Row 11 is blocked at Column 3 by a solid wall. We must use Row 13 to reach the far west side.
-     - Walk Left to (5, 11), then Down to (5, 13) (bypassing the Burglar NPC at (4, 11)).
-     - Walk Left along Row 13 to Column 2: (5, 13) -> (2, 13).
-  3. **Cross Column 11 into 3F East**:
-     - Continue Right 3 steps along Row 5 to (12, 5) (Column 11 is open on Row 5, allowing us to cross into the East wing!).
-  4. **Drop down the Secret Pit to B1F**:
-     - Walk Down 7 steps along Column 12 to (12, 12).
-     - Walk Left 1 step to (11, 12) (the Secret Pit).
-     - The player will immediately fall down the pit to B1F!
+  1. **Descend back to 2F West**:
+     - From (3, 13), walk Right 2 to (5, 13).
+     - Walk Up 3 to (5, 10).
+     - Walk Right 2 to (7, 10) and take the stairs down to 2F West (arriving at 7, 10).
+  2. **Cross to 2F East via Gate 6**:
+     - From (7, 10) on 2F West, walk Left 4 to (3, 10).
+     - Walk Up 5 to (3, 5).
+     - Walk Right 6 to (9, 5) and pass through Gate 6 (which is OPEN under State B).
+  3. **Reach southeast stairs at (25, 14) on 2F East**:
+     - Continue Right along Row 5/Row 3 to the Northeast room (Column 25+).
+     - Walk South through open Gate E to the Southeast room.
+     - Take the stairs at (25, 14) up to 3F East.
+  4. **Drop down the Secret Pit on 3F East to B1F**:
+     - On 3F East, walk to Column 12 Row 12: (12, 12).
+     - Step Left 1 to (11, 12) (the Secret Pit) to drop down to B1F!
 - **Wild Encounter Strategy**:
   - We will use GEMMY (BLASTOISE L60) to sweep or escape any wild encounters using `flee_battle` to keep our team completely healthy.
 - **Inventory Check**:
