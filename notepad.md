@@ -6642,6 +6642,22 @@ Active State: **State B (Statue 1 Toggled)** (Toggled on Turn 78020)
 - **Turn 79330 State A Gate 2 Test**: Walked Up from (9, 9) and bumped against (9, 8) on Turn 79330. This physically proves that Gate 2 is CLOSED under State A. Since it was also verified CLOSED under State B, 3F West has no on-foot crossover to 3F East under any state.
 - **New Path Plan (Column 22 State B Corridor Test)**: We are backtracking to 2F West to toggle Statue 2 back to State B. Then we will walk to 2F East South and test the passability of Column 22 under State B to see if it opens access to the isolated Southeast room (and thus the stairs up to 3F East).
 
+## 2F East Column 22 State B Passability Test Protocol
+- **Objective**: Systematically test the passability of Column 22 on Rows 9-15 under State B on 2F East to find an open gate/passage.
+- **Route to Test Zone**:
+  1. Warp back up to 2F West at (5, 10).
+  2. Walk Up Column 5 to Row 4: (5, 10) -> (5, 4) [6 steps].
+  3. Walk Right through Gate 6 (open under State B) to (14, 4): (5, 4) -> (14, 4) [9 steps].
+  4. Walk Down 2 steps to Row 6: (14, 4) -> (14, 6) [2 steps] (to bypass the Column 15 solid wall on Rows 1-5).
+  5. Walk Right through Column 15 to Column 21 on Row 6: (14, 6) -> (21, 6) [7 steps].
+  6. Walk Down Column 21 to the test starting position at (21, 9): (21, 6) -> (21, 9) [3 steps].
+- **Systematic Test Protocol for Column 22**:
+  - For each Row Y from 9 to 15:
+    1. Stand at (21, Y) facing Right.
+    2. Press Right.
+    3. If we step onto (22, Y), Column 22 is OPEN on Row Y under State B! We will immediately document this open gate, walk into the Southeast room (Columns 23-28), and climb the stairs at (25, 14) up to 3F East.
+    4. If we bump, Column 22 is CLOSED on Row Y under State B. We will log the bump (including Turn number), walk Down to (21, Y+1), and repeat.
+
 <hr>
 
 <h1><code>Scratchpad/Mansion_Fall_Tests</code></h1>
