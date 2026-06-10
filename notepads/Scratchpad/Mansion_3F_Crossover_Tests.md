@@ -33,3 +33,4 @@
 - **Hypothesis**: Under State B, the horizontal gate on Row 8 at (8, 8)-(11, 8) is CLOSED and impassable.
 - **Methodology**: Walk Up from (9, 11) to (9, 9), then attempt to step Up onto (9, 8) to see if we bump.
 - **Turn 79282 Test**: Walked Up 3 times from (9, 11) to test (9, 8).
+- **Turn 79310 State A Gate 2 Test Preparation**: Backtracked to 2F West at (2, 12) facing Up to toggle Statue 2 back to State A. After toggling, we will climb the stairs at (7, 10) back to 3F, stand at (9, 9) facing Up, and attempt to walk Up onto (9, 8) to see if Gate 2 is open under State A.
