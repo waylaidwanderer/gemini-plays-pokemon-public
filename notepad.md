@@ -6197,8 +6197,9 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
     - Only after verifying the exact pit coordinates and correlating them with the 1F landing zones will we execute the drop to land in the target 1F south-central pocket.
 
 ## Cinnabar Mansion Breakthrough Exploration Phase (Turn 79491)
-- **Verified Fact**: 2F East South Column 22 is completely solid/rubble under State B across all rows 9-15 (Verified systematically Turn 79446). This means 2F Southeast room (containing the stairs to 3F East) is completely isolated on foot on 2F under BOTH State A and State B.
-- **Critical Path Hypothesis**: Row 12 Column 10 on 3F West is the ONLY remaining untested boundary tile on Column 10 under State B. In vanilla Red/Blue, the door to 3F East is at Column 11 Row 12, and Row 12 Column 10 is open floor. Since State B is active, this gate is hypothesized to be OPEN, allowing us to walk from 3F West to 3F East.
+- **Verified Fact**: 2F East South Column 22 is completely solid/rubble under both State A and State B across rows 8-15. This separates Column 21 from Column 23 on these rows.
+- **The State A Walkthrough Breakthrough**: Under State A (Default), Gate 3 at (18, 8)-(19, 8) is OPEN, and the Row 8 gates (Columns 24-28) in the Northeast room are also OPEN! While Column 22 blocks horizontal crossing on Rows 8-15, Row 3 Column 22 is completely OPEN floor. Therefore, under State A, we can walk from 2F West to 2F East via the Row 10 crossover, walk north to Row 3, cross into the Northeast room, and walk south through the open Row 8 gates directly into the Southeast room! This gives us foot access to the (25, 14) stairs to 3F East under State A!
+- **State A Pit Drop Strategy**: Once on 3F East under State A, we drop down the pit to 1F East south-central pocket. Under State A, Gate 4 at (21, 17) is OPEN, allowing us to easily access the B1F stairs without being trapped!
 - **Protocol for 3F East Mapping**:
   1. Once we walk through (10, 12) onto (11, 12), we will halt and visually scan the East wing.
   2. We will map all pits on 3F East (such as the giant central pit) tile-by-tile.
