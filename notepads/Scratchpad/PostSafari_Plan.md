@@ -18,16 +18,6 @@
 ## Cinnabar Mansion B1F Progression Status (Turn 78573)
 - SW Balcony Drop: Under both State A and State B, all reachable columns (1 to 5) on the southwest balcony of 3F West are 100% solid, impassable railings with no drop-off. Therefore, the southwest balcony of 3F West is NOT a balcony drop.
 
-## Answers to Socratic Questions (Turn 79233)
-
-### Socratic Question 1: 3F East Pit Landing Scenarios & Gate 4 Impact
-- **Pit Drop Landing Scenarios**:
-  - **Scenario A (2F Southeast Room Landing)**: If we drop down and land in the isolated 2F Southeast room, we will find ourselves adjacent to the stairs down at (25, 14) on 2F. We will immediately descend these stairs to land in the 1F East south-central pocket (Columns 21-23, Rows 18-27) near the B1F stairs.
-  - **Scenario B (1F South-Central Pocket Direct Landing)**: If we drop down and land directly in the 1F East south-central pocket on ground level (z=0), we are already next to the B1F stairs.
-- **State B Gate Status & Escape Strategy**:
-  - Under State B, Gate 4 at (21, 17) on 1F East is CLOSED. Since the 1F south-central pocket is completely bounded by Gate 4 (CLOSED), Column 11 solid wall, Column 22 solid rubble, and Row 13 solid walls, we are **100% physically trapped and isolated on foot** once we land in this pocket.
-  - However, this does not soft-lock us. Our planned escape strategy is to descend the stairs to B1F, retrieve the Secret Key, and then immediately use one of our **2 Escape Ropes** to safely warp out of the Mansion. This bypasses the need to open Gate 4.
-
 ### Socratic Question 2: B1F Systematic Mapping & Statue 4 Evaluation
 - **B1F Systematic Mapping Plan**:
   - Once we descend to B1F, we will treat it as unmapped territory.
