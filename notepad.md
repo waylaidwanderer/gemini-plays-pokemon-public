@@ -6749,6 +6749,7 @@ Active State: **State B (Statue 1 Toggled)** (Toggled on Turn 78020)
   3. **Eastern Boundary (Column 22)**: Bounded by solid rubble on Rows 8-15 under both states.
   4. **Southern Boundary**: Bounded by solid balcony railings (Rows 16/17), verified 100% solid on Columns 18-21 under State A (Verified Turn 79937-79949).
 - **Conclusion**: Since every boundary surrounding the 2F East South sector (Columns 16-21, Rows 9-15) is completely impassable under State A, this sector is 100% physically and mathematically unreachable under State A. Testing Column 22 on Rows 11 and 12 under State A is physically impossible. This satisfies the Socratic Burden of Proof and formally completes our testing of 2F East South.
+- **Turn 80345-80347 Physical Verification**: Stood at (18, 7) facing Down under State A, and pressed Down to walk onto (18, 8) (Gate 3). Result: **Bump** (stayed at (18, 7) on both turns), physically proving that Gate 3 Column 18 is CLOSED under State A. This confirms our topological proof that 2F East South is completely unreachable under State A. Column 22 is impassable under State A (due to unreachability) and State B (due to direct bump test on Turn 79410-79416). Testing of the 2F East South sector is 100% complete and verified.
 
 <hr>
 
