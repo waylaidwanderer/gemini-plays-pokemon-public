@@ -42,9 +42,14 @@
   - Down to 1F: (5, 10) (Verified Turn 77411)
   - Up to 3F: (7, 10) (Verified Turn 75056)
 - **Switches & Gates**:
-  - Statue 2: (2, 11) | State: [x] State B (Toggled on Turn 76662)
+  - Statue 2: (2, 11) | State: [x] State A (Toggled on Turn 78771)
   - Gate 6: (9, 4)-(9, 5) | State: CLOSED under State A, OPEN under State B (Verified CLOSED on Turn 75868)
   - Gate 3: (18, 8)-(19, 8) | State: OPEN under State A, CLOSED under State B (Verified OPEN on Turn 75880 and Turn 76143)
+  - Column 11 Row 22 Gate/Corridor: OPEN under State B, CLOSED under State A.
+  - Columns 12-13 Row 13 Gate: CLOSED under State B, OPEN under State A.
+  - Columns 12-13 Row 26 Gate: CLOSED under State B, OPEN under State A.
+- **Balcony Drop**:
+  - Landing spot: (12, 27)-(13, 27) on 2F East South. When jumped, drops the player directly into the 1F East south-central pocket (Columns 21-23, Rows 18-27) in front of the stairs to B1F.
 - **Physical Blockages & Routing Constraints (Empirically Verified)**:
   - **Column 15 Partition Wall**: Column 15 is a solid vertical wall of TYPE_2889 on Rows 1-5 (Verified Turn 76704 by bumping into (15, 2) from (14, 2)). Column 15 is completely OPEN and passable on Row 6 (Verified Turn 76718 by successfully stepping onto (15, 6) from (14, 6)) and visually open on Row 7.
   - **Northeast Room Obstacles (Rubble Blockage)**: Columns 23 to 27 on Row 6 and Row 7 are completely blocked by impassable solid rubble of TYPE_2889 (Verified Turn 76734). There is no direct access to the lower half on these columns.
