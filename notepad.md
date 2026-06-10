@@ -6649,6 +6649,11 @@ All four reachable columns (1, 2, 3, and 4) on the southwest balcony of 2F West 
     - Column 1: Tested on Turn 77964 and Turn 77972 by pressing Down from (1, 16) facing Down. Result: **Bump** against (1, 17). Confirmed 100% solid, impassable railing.
 - **Definitive Balcony Conclusion**: All reachable columns (1 to 5) on Row 17 of 3F West under BOTH State A and State B are 100% solid, impassable railings with no drop-off.
 - **Column 10**: Tested on Turn 78684 under State B by walking Down to (10, 19) and attempting to walk Down onto Row 20.
+## 3F West Mewtwo Statue Test (Turn 78784)
+- **Hypothesis**: The Mewtwo Statue on 3F West at (10, 9) contains an active, functional switch that toggles the gate state of the mansion.
+- **Methodology**: Stood at (9, 9) facing Right, and pressed 'A' to interact with the statue at (10, 9) under State A.
+- **Results**: No textbox appeared and no interaction took place.
+- **Conclusion**: The Mewtwo Statue at (10, 9) on 3F West is purely decorative, exactly like the statue at (13, 9) on 2F East. There is no active switch on the third floor of Pokémon Mansion. This definitively disproves the 3F West switch hypothesis and satisfies the Socratic Burden of Proof.
 
 <hr>
 
