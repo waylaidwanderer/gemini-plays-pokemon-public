@@ -6425,8 +6425,10 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Down to 2F: Located at (7, 10) (Verified Turn 75056)
 - **Switches & Gates**:
   - Statue 3: (10, 9) on 3F West | State: Purely Decorative (No Switch) (Verified Turn 78784)
-  - Column 11 Gate: Currently CLOSED (solid wall of TYPE_2889 on Column 11 from Row 8 to 15).
-  - Gate status on 3F is currently CLOSED, blocking access to the right side of 3F (including the pit chute at (11, 12)).
+  - Gate 2 (3F, Row 8 at (8, 8)-(11, 8)): CLOSED and impassable under BOTH State A and State B.
+    - State B Proof of Work: Tested on Turn 79283 by standing at (9, 9) facing Up and pressing Up against (9, 8), resulting in a direct collision.
+    - State A Proof of Work: Tested on Turn 79330 by standing at (9, 9) facing Up and pressing Up against (9, 8), resulting in a direct collision.
+    - Conclusion: The 3F West-East on-foot connection is permanently blocked under both states. 3F East cannot be reached on foot from 3F West.
 - **Falls/Pits**:
   - Pit A (The Secret Fall): (11, 12) | State: Static Pit (Verified Turn 75091)
 - **Mansion Diaries**:
