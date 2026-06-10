@@ -69,16 +69,17 @@
   3. We will NEVER step blindly onto any tile that has not been confirmed to be a standard floor tile (such as TYPE_3fe2).
   4. We will systematically map the coordinates of all walls, balconies, and pit boundaries from a safe distance before choosing which pit to fall into.
 
-### Cinnabar Mansion State Debugging & Correction (Turn 79526)
-- **The Misinterpretation**: On Turn 79485, we attempted to walk Left 5 steps through Gate 6 under State B, but visited 0 tiles. We erroneously assumed we bumped against a closed Gate 6, which led us to believe the mansion was in State A. In reality, the movement was aborted because a wild Grimer battle triggered on the very first step!
-- **The Mistake**: Believing we were in State A, we backtracked to Statue 2 and toggled it on Turn 79516. This actually toggled the mansion from State B *back to State A*, closing Gate 6 on 2F and the gate on 3F!
-- **The Proof**: Currently on Turn 79526, we are on 3F West under State A, and we can visually see that Column 10 and 11 on 3F are completely solid/closed. 
+### Cinnabar Mansion State Debugging & Correction (Turn 79591)
+- **The Core Flaw**: On Turn 78784, we concluded that the Mewtwo Statue at (10, 9) on 3F West was "purely decorative" because we attempted to interact with it from the side (standing at (9, 9) facing Right). In Gen 1, Mewtwo Statues only respond to front-facing interactions (standing directly below them at Y+1 and facing UP).
+- **The Rubble Collision**: Under State B, Column 10 is completely impassable on foot because (10, 10), (10, 11), and (10, 12) are blocked under State B.
+- **The State A Hypothesis**: Under State A, the tile directly below the statue, (10, 10), is hypothesized to be open and passable floor. This will allow us to stand at (10, 10) facing UP and interact with the 3F Mewtwo Statue to toggle the switch.
 - **The Correction Plan**:
-  1. Go down the stairs at (7, 10) to 2F West.
+  1. Walk Left 2 steps from (9, 10) to (7, 10) and take the stairs down to 2F West.
   2. Walk to Statue 2 at (2, 11) (standing at (2, 12) facing Up).
-  3. Toggle the switch back to **State B** (Toggled).
+  3. Toggle the switch to **State A** (Default).
   4. Return to 3F West via the (7, 10) stairs.
-  5. Verify that the 3F gate is now OPEN, allowing us to cross to 3F East!
+  5. Stand on (10, 10) (which should now be open floor under State A), face UP, and press A to interact with the 3F Mewtwo Statue at (10, 9).
+  6. Verify if this toggles a local gate circuit that opens the crossover to 3F East!
 
 ## Socratic Socratic Answers (Turn 79575)
 ### Socratic Question 1: 3F East Pit Landing & Escape Protocol
