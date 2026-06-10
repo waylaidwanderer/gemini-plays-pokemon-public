@@ -27,6 +27,4 @@
   - **Turn 78144-78145 Row 7/6/5 physical and visual verification under State A**:
   - Stood at (7, 8). Directly above us at (7, 7) is TYPE_2889 (solid wall/rubble).
   - Visually confirmed on the screen that Rows 6 and 7 are blocked by TYPE_2889 rubble from Column 3 all the way to Column 9.
-  - Therefore, Row 7/6 cannot be used to cross from 3F West to 3F East on foot.
-  - Combined with our other tests, **3F West and 3F East are completely isolated on foot in both State A and State B.**
 - **No Remaining Hypotheses**: All possible physical on-foot crossover paths on 3F between West and East have been systematically tested and are confirmed 100% blocked under both State A and State B. There is no walkthrough connection on 3F.
