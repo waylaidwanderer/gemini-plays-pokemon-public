@@ -71,3 +71,13 @@ All four reachable columns (1, 2, 3, and 4) on the southwest balcony of 2F West 
   - Step Up 11 steps to (10, 11).
   - Step Left 5 steps to (5, 11).
   - Step Up 1 step to (5, 10) to warp to 3F West.
+## 2F East North Exploration & Northeast Room Access under State A (Turn 79122)
+- **Verified Fact**: Under State A, Column 10 and Column 11 are completely OPEN and passable floor of TYPE_3fe2 on Rows 9, 10, 11, and 12.
+- **Access to Northeast Room**: We entered 2F East North by walking Right through Row 10 to (12, 10), then walking Left 2, Up 3, and Right 5 to reach (15, 7) and then (20, 6).
+- **Maze Layout & Blockages**:
+  - Columns 20 and 21 are blocked at Row 5 by solid walls of TYPE_2889.
+  - Columns 18 and 19 are blocked at Row 3 by solid walls of TYPE_2889.
+  - Column 15 is blocked at Row 5 by solid wall of TYPE_2889.
+  - Row 4 is completely open across Columns 16 to 21 (TYPE_3fe2).
+  - Row 3 is open on Columns 21 to 25 (TYPE_3fe2).
+  - Therefore, the unblocked path to cross Column 22 into the Northeast room is: Column 17 (open) -> Row 4 (open) -> Column 21 (open) -> Row 3 crossover at (22, 3) (open) -> Northeast room.
