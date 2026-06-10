@@ -81,3 +81,4 @@ All four reachable columns (1, 2, 3, and 4) on the southwest balcony of 2F West 
   - Row 4 is completely open across Columns 16 to 21 (TYPE_3fe2).
   - Row 3 is open on Columns 21 to 25 (TYPE_3fe2).
   - Therefore, the unblocked path to cross Column 22 into the Northeast room is: Column 17 (open) -> Row 4 (open) -> Column 21 (open) -> Row 3 crossover at (22, 3) (open) -> Northeast room.
+- Turn 79159: Started backtracking from 2F Northeast room at (17, 4) under State A to 2F West at (2, 11) to toggle Statue 2 back to State B. This is because we verified that the Northeast room contains no staircases or transitions, and we need State B to clear the landing tile (Gate 1 at (25, 13) on 1F East being OPEN) for the 3F balcony drop. We will stand at (2, 10) facing Down to toggle the switch.
