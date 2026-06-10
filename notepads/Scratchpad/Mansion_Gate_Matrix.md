@@ -15,7 +15,6 @@ Active State: **State B (Statue 1 Toggled)** (Toggled on Turn 78020)
 
 | Gate ID & Location | State A (Statue 2 Default) | State B (Statue 2 Toggled) | Verification & Proof of Work |
 | :--- | :--- | :--- | :--- |
-| *TBD* | *TBD* | *TBD* | *TBD* |
 
 ## 2F East Mewtwo Statue 3 Discovery (Turn 78407)
 - **Coordinates**: Mewtwo Statue 3 is located at (13, 9) on 2F East (Map 0_214).
