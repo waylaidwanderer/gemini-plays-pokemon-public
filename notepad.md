@@ -6703,6 +6703,7 @@ Active State: **State B (Statue 1 Toggled)** (Toggled on Turn 78020)
 - **Definitive Column 22 State B Conclusion**: All rows from Row 9 to Row 15 on Column 22 have been systematically and physically foot-tested under State B, resulting in 100% collisions. Column 22 is completely blocked under State B. Access to the Southeast room on 2F on foot is impossible in both State A and State B.
 - Turn 79684: Under State A, walked Down to (9, 11) and attempted to walk Down to (9, 12). Result: Collided with (9, 12), remaining at (9, 11). This empirically proves that (9, 12) is 100% solid and impassable under State A.
 - To test if (9, 12) is passable under State B, we must descend to 2F West, walk to Statue 2 at (2, 11), stand at (2, 12) facing Up, and press A to toggle the Mansion to State B. Then, we return to 3F West and test (9, 12) again on foot.
+- Turn 79736: Testing passability of (9, 12) under State B by walking 'Right', 'Right', 'Down' from (7, 11). This will establish physical proof if (9, 12) is passable under State B.
 
 <hr>
 
