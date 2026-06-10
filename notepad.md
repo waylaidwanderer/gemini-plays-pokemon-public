@@ -6226,7 +6226,6 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 
 ## Strategic Notes from Overwatch Audit (Turn 80167)
 - **1F West Switch Statue 1 Plan**: If we need to find and toggle Statue 1 on 1F West in the future, we must explore the westernmost room (Columns 1-4, typically around (2, 5)), as the statue at (10, 8) has been proven decorative.
-- **3F West (9, 12) State B Re-Verification Plan**: If we ever re-test the passability of (9, 12) under State B, we must visually verify that the Scientist NPC (SPRITE_cdfc) is elsewhere (e.g. at (4, 11)) and not standing on (9, 12) or (9, 13) to prevent a false-positive collision.
 
 ## Socratic Strategy & Coordinate Verification (Turn 80913 Audit)
 - **Analysis of Southeast Room Rows**:
