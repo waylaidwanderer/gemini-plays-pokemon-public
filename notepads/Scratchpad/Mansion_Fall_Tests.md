@@ -54,3 +54,12 @@ All four reachable columns (1, 2, 3, and 4) on the southwest balcony of 2F West 
 - **Methodology**: Stood at (7, 10) on 2F West under State A, and walked Right 3 steps horizontally to (10, 10).
 - **Results**: Traversal was 100% successful with zero collisions, landing exactly on (10, 10) (Verified in GameState on Turn 78826).
 - **Conclusion**: The Row 10 crossover is completely open and passable under State A, providing foot access to the eastern side of the mansion. This satisfies Socratic Question 1's Burden of Proof.
+## 2F Column 12 Gate Passability Test Protocol under State A (Turn 78849)
+- **Objective**: Systematically test and document whether the gates on Column 12 at Row 13 and Row 26 are open and passable under State A, and execute the balcony drop at (12, 27).
+- **Hypothesis**: Under State A, the gates at (12, 13) and (12, 26) are OPEN, and the balcony drop at (12, 27) is unblocked.
+- **Protocol**:
+  1. Walk vertically Down Column 12 from (12, 7) to (12, 11) to inspect (12, 13) visually.
+  2. Attempt to walk Down through the gate tile at (12, 13) to reach (12, 14). If successful (zero collisions), Gate 13 is verified open.
+  3. Walk further Down Column 12 to (12, 25) to inspect Gate 26 visually.
+  4. Attempt to walk Down through the gate tile at (12, 26) to reach the balcony drop tile at (12, 27). If successful, Gate 26 is verified open.
+  5. Step Down once more from (12, 27) to execute the balcony drop and drop to 1F.
