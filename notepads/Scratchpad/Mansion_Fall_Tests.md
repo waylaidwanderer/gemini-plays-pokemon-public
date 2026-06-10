@@ -103,21 +103,17 @@ All four reachable columns (1, 2, 3, and 4) on the southwest balcony of 2F West 
        Let's look at the screen: Row 16 has (1, 16), (2, 16), (3, 16), (4, 16) as open.
        Row 17 has: (1, 17) open? Let's check `Scratchpad/Mansion_Fall_Tests` under State B:
        - 'Column 4: Tested on Turn 77776 by pressing Down from (4, 17) facing Down. Result: Bump.'
-       Wait! That means we can stand at (4, 17)!
-       Let's check if we can walk Down to (4, 17).
-       And from (4, 17), can we walk to Column 10 or 11 Row 22?
-       Wait, let's look at the map of 2F West. We know there is a walkway or corridor on the left.
-       Wait, let's think: is there a southern area on 2F West?
-       Let's check where we met the Burglar at (1, 17) on 2F West on Turn 78305.
-       Yes! "I met and defeated a Burglar trainer at (1, 17) on 2F West."
-       Let's walk down to Row 17:
+       Wait! That means we can stand at (4, 17)? Yes. We can walk Down to (4, 17).
+       We walk Down to (4, 17).
+       We can go to Column 10 or 11 Row 22.
+       We walk down to Row 17:
        1. Down to (2, 13).
        2. Right to (5, 13).
        3. Down to (5, 15).
        4. Left to (4, 15).
        5. Down to (4, 16).
        6. Down to (4, 17).
-       Let's execute this first!
+       We executed this.
 
 # Reflection Turn 78899 - Self-Assessment
 
