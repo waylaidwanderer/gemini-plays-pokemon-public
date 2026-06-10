@@ -67,3 +67,14 @@ All four reachable columns (1, 2, 3, and 4) on the southwest balcony of 2F West 
   - Row 3 is open on Columns 21 to 25 (TYPE_3fe2).
   - Therefore, the unblocked path to cross Column 22 into the Northeast room is: Column 17 (open) -> Row 4 (open) -> Column 21 (open) -> Row 3 crossover at (22, 3) (open) -> Northeast room.
 - Turn 79159: Started backtracking from 2F Northeast room at (17, 4) under State A to 2F West at (2, 11) to toggle Statue 2 back to State B. This is because we verified that the Northeast room contains no staircases or transitions, and we need State B to clear the landing tile (Gate 1 at (25, 13) on 1F East being OPEN) for the 3F balcony drop. We will stand at (2, 10) facing Down to toggle the switch.
+
+## 1F East Row 13 Passability Test Protocol under State A (Turn 79188)
+- **Objective**: Systematically test and document whether Column 23 and Column 24 on Row 13 on 1F East are passable on foot under State A (Default).
+- **Hypothesis**: Under State A, Row 13 on Column 23 and Column 24 (Gate 1) is completely closed and impassable, physically blocking all southern entry on foot from the Northeast room.
+- **Protocol**:
+  1. From 2F West at (3, 11), walk Right to (5, 11) and Up to (5, 10) to descend the stairs to 1F West (5, 11).
+  2. From 1F West (5, 11), walk Right 7 steps to (12, 11), then walk Up 5 steps along Column 12 to Row 6 at (12, 6).
+  3. Walk Right 11 steps along Row 6 to (23, 6), and walk Down 6 steps along Column 23 to (23, 12).
+  4. Attempt to walk Down into (23, 13). If collision occurs, (23, 13) is verified solid wall under State A.
+  5. Walk Right to (24, 12) and attempt to walk Down into (24, 13). If collision occurs, (24, 13) is verified closed Gate 1.
+  6. Walk Right to (25, 12) and attempt to walk Down into (25, 13). If collision occurs, (25, 13) is verified closed Gate 1.
