@@ -6376,7 +6376,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Columns 12-13 Row 13 Gate: CLOSED under State B, OPEN under State A.
   - Columns 12-13 Row 26 Gate: CLOSED under State B, OPEN under State A.
 - **Balcony Drop**:
-  - Landing spot: (12, 27)-(13, 27) on 2F East South. When jumped, drops the player directly into the 1F East south-central pocket (Columns 21-23, Rows 18-27) in front of the stairs to B1F.
+  - Location: (12, 27)-(13, 27) on 2F East South (Hypothesized to drop to 1F East south-central pocket. Untested as of Turn 78871).
 - **Physical Blockages & Routing Constraints (Empirically Verified)**:
   - **Column 15 Partition Wall**: Column 15 is a solid vertical wall of TYPE_2889 on Rows 1-5 (Verified Turn 76704 by bumping into (15, 2) from (14, 2)). Column 15 is completely OPEN and passable on Row 6 (Verified Turn 76718 by successfully stepping onto (15, 6) from (14, 6)) and visually open on Row 7.
   - **Northeast Room Obstacles (Rubble Blockage)**: Columns 23 to 27 on Row 6 and Row 7 are completely blocked by impassable solid rubble of TYPE_2889 (Verified Turn 76734). There is no direct access to the lower half on these columns.
