@@ -154,17 +154,9 @@ Let's begin!
 - **Current Position**: (10, 11) facing Right.
 - **Next Plan**: Walk Down Column 10 to Row 22, then cross Right to Column 12 to test Gate 26 under State B.
 
-## State B Gate 26 Physical Passability Test (Turn 78978)
-- **Objective**: Mathematically and physically verify if the Row 26 Gate at (12, 26)-(13, 26) is open or closed under State B.
-- **Current Setup**: Stood at (12, 25) facing Down on 2F East South. The screen shows golden horizontal bars at (12, 26) and (13, 26), which visually indicates a closed gate of TYPE_2889.
-- **Methodology**:
-  1. From (12, 25) facing Down, press Down exactly 1 time to attempt to walk onto the gate tile at (12, 26).
-  2. Next turn, check the GameState Position:
-     - If Position is (12, 26), the gate is **OPEN** under State B.
-     - If Position is (12, 25), we collided/bumped, proving the gate is **CLOSED** under State B.
-- **Execution Turn**: 78978
-- **Test Result (Turn 78980)**: Stood at (12, 25) facing Down under State B and pressed Down. Result: Visited 0 tiles (stayed at (12, 25)), which is a direct collision/bump against (12, 26).
-- **Definitive Proof**: The Row 26 Gate at (12, 26)-(13, 26) is **CLOSED and impassable under State B**.
+## State B Gate 26 Physical Passability Test Results (Turn 78980 Verified)
+- Stood at (12, 25) under State B and pressed Down. Result: Collision/bump, remained at (12, 25).
+- Conclusion: The Row 26 Gate at (12, 26)-(13, 26) is CLOSED and impassable under State B.
 - **Implications**:
   - We cannot access the balcony drop at (12, 27) under State B because the closed Gate 26 blocks us.
   - Under State A, Gate 13 at (12, 13) is CLOSED, blocking us from reaching the southern area.
