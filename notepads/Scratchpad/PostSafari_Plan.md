@@ -16,8 +16,6 @@
   - If they dropped under State B, Gate 4 on 1F East would be closed, trapping them on 1F. Therefore, dropping under State A is mathematically mandatory.
   - But why are the railings solid on 3F under both states? Our new hypothesis: The landing tile on 2F East is blocked. In Generation 1, a ledge jump or balcony drop is completely blocked in the overworld if its landing tile is occupied.
   - On 2F East, there might be a gate at (25, 13) on 2F East that is closed under State A and open under State B, blocking the landing under State A, while under State B we are trapped anyway.
-  - Alternatively: We do not need to drop from 3F West balcony at all to access B1F! Under State A (Default), Gate 4 on 1F East (21, 17) is OPEN. Since 1F East is fully accessible on foot from 1F West via the northern crossings, we can walk directly from 1F West to 1F East on foot, and enter the South-central pocket of 1F East (Columns 21-23, Rows 18-27) through Gate 4!
-  - We will immediately go down to 1F and explore the South-central pocket on foot under State A to locate the B1F stairs. This completely bypasses the balcony drop bottleneck!
 
 ## Final Path to B1F (State A Balcony Drop and Pit A Chute)
 - **Mathematical and Physical Proof of Isolation**:
