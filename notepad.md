@@ -6589,6 +6589,11 @@ Active State: **State B (Statue 1 Toggled)** (Toggled on Turn 78020)
   - Result: Collision, stayed at (8, 9).
   - Conclusion: Gate 2 on 3F at (8, 8)-(11, 8) is CLOSED/impassable under State A as well.
   - **Remaining Hypotheses**: Only Row 8 of the crossover gate has been disproven under State A. We must physically test Column 10 on Rows 13, 14, and 15 under State A to see if an open passage exists there.
+- **Turn 78144-78145 Row 7/6/5 physical and visual verification under State A**:
+  - Stood at (7, 8). Directly above us at (7, 7) is TYPE_2889 (solid wall/rubble).
+  - Visually confirmed on the screen that Rows 6 and 7 are blocked by TYPE_2889 rubble from Column 3 all the way to Column 9.
+  - Therefore, Row 7/6 cannot be used to cross from 3F West to 3F East on foot.
+  - Combined with our other tests, **3F West and 3F East are completely isolated on foot in both State A and State B.**
 
 <hr>
 
