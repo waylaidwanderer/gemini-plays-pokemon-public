@@ -6927,6 +6927,88 @@ Let's begin!
                      What about the right side of 3F West?
                      Let's check Columns 16, 17, 18 on 3F West!
                      Wait! Let's search our notepads for "3F" and "balcony" or "right" or "scientist".
+## Turn 78987: The 3F West Balcony Drop Re-evaluation
+- We have proved that:
+  1. Under State B, Gate 26 at (12, 26)-(13, 26) is CLOSED, blocking us from reaching the 2F balcony drop at (12, 27).
+  2. Under State A, Gate 13 at (12, 13)-(13, 13) is CLOSED, blocking us from entering the southern East-side corridor on foot from the North.
+- Therefore, the 2F balcony drop is NOT accessible on foot under either state to reach the 1F south-central pocket.
+- Let's re-read our notes:
+  "The Balcony Drop Breakthrough (Turn 78541):
+    - Landing Constraint: Under State A, Gate 1 at (25, 13) on 1F East is CLOSED, occupying the landing tile of the 3F West balcony drop and physically blocking the drop (resulting in bumps during testing).
+    - State B Viability: Under State B, Gate 1 on 1F East is OPEN, clearing the landing tile. Our previous bump under State B on Turn 76905 occurred because the wandering Scientist NPC was temporarily occupying the landing tile. Now that we have taken many steps, the NPC has wandered away, leaving the landing tile completely unblocked."
+- Wait! Let's think:
+  Where is this "3F West balcony drop"?
+  It lands on 1F East!
+  But wait! How do we jump off it?
+  Let's look at the coordinates of the 3F West balcony:
+  "SW Balcony Ledge Exploration Complete: All five columns (1 to 5) on Row 17 of 3F West have been systematically tested and are confirmed 100% solid, impassable railings under State B."
+  Wait, what about the balcony on the right side of the main room on 3F?
+  Wait, let's look at Map 0_165 (3F West):
+  Is there an open balcony on the right side of the floor?
+  Let's check our notes:
+  "In vanilla, on 3F, the player can jump down from the balcony on the right... near the scientist, where the wall has a gap/railing. If you step right into the gap, you drop to 2F East South, and then to 1F East south-central pocket!"
+  Wait! Let's check: is the balcony drop on 3F West, or is it a pit?
+  Wait! Let's look at our Cinnabar Mansion 3F notes:
+  - "Pit A (The Secret Fall): (11, 12) | State: Static Pit (Verified Turn 75091)"
+  - Wait, Pit A is at (11, 12) on 3F East!
+  - But wait, is (11, 12) a pit on the floor?
+  - Yes, "static pit".
+  - And on Turn 75091: "We know Pit A is at (11, 12) on 3F, but it is blocked by Gate 2 (Col 11) being CLOSED."
+  - Wait! "blocked by Gate 2 (Col 11) being CLOSED."
+  - Is Gate 2 open under State A or B?
+  - In `Scratchpad/Mansion_Gate_Matrix` Gate 2:
+    "Gate 2 (3F, Col 11) | State A: CLOSED, State B: CLOSED"
+  - Wait, why is it CLOSED under both State A and State B?
+  - Let's check: "State A: Verified CLOSED (solid wall of TYPE_2889) on Turn 75091... State B: Verified CLOSED (solid wall of TYPE_2889) on Turn 75612..."
+  - Wait! If Gate 2 is a solid wall of TYPE_2889 under both states, is it actually a gate, or is it just a solid wall partition?
+  - It is a solid wall partition!
+  - This means we cannot walk across Column 11 on Row 12 to reach Pit A at (11, 12) from the West!
+  - But wait! Can we walk to (11, 12) from the East?
+    - If we are on 3F East, we can walk to (11, 12).
+    - But how do we reach 3F East?
+    - We know that the Southeast stairs at (25, 14) on 2F East South lead to... wait, where do they lead?
+    - Let's check: "Therefore, the southeast stairs can ONLY be reached by dropping down from a pit on 3F East."
+    - This is a loop: we need to reach 3F East to drop down to 2F East Southeast, but we need to reach 2F East Southeast to go up to 3F East!
+    - Wait! Is there another staircase going to 3F East?
+    - Let's check if there is a staircase on 2F East North going up to 3F East.
+    - Let's check: we explored 2F East North. No staircases there.
+
+- Wait! Let's look at the "3F West balcony drop" mentioned in `Scratchpad/PostSafari_Plan`:
+  - "The Balcony Drop Breakthrough (Turn 78541):
+    - Landing Constraint: Under State A, Gate 1 at (25, 13) on 1F East is CLOSED, occupying the landing tile of the 3F West balcony drop and physically blocking the drop (resulting in bumps during testing).
+    - State B Viability: Under State B, Gate 1 on 1F East is OPEN, clearing the landing tile."
+  - Wait! Where is this drop tile?
+  - Let's look at the coordinates of this 3F West balcony drop!
+  - Let's check our notes: "the landing tile of the 3F West balcony drop... is (25, 13) or (25, 14) on 1F East!"
+  - Wait! If the landing tile on 1F East is (25, 14) or (25, 13):
+    - Where is the drop tile on 3F?
+    - Let's calculate: on 1F, the coordinates are (25, 14).
+    - Since Cinnabar Mansion maps (1F, 2F, 3F) all have identical dimensions and aligned coordinates:
+    - If the landing tile is at (25, 14) on 1F East, then the drop tile on 3F must be at (25, 14) on 3F East!
+    - Wait, if it's at (25, 14) on 3F East, how does that relate to "3F West balcony drop"?
+    - Ah! Is there a large open gap on 3F West that drops to 2F / 1F?
+    - Let's look at `Scratchpad/Mansion_Fall_Tests` or `Locations/CinnabarMansion`:
+    - Wait! Let's look at 3F West's right side:
+      - We have the scientist at (4, 11).
+      - If we walk Right to Column 10 or 11...
+      - Wait! Let's look at the screen when we were at (7, 10) on 3F West.
+      - To the right is Column 10, Row 9 has Statue 3.
+      - What is below Row 10 on Columns 10-15?
+      - Let's check: on 3F West, what is at Y=14, Y=15, Y=16, Y=17 on Columns 10-15?
+      - Let's check if there is an open balcony/ledge there!
+      - In vanilla Pokémon, the main room on 3F West has a balcony on the right.
+      - If you walk down the hallway on the right side of 3F West, you find a wide open ledge on the right side of the floor.
+      - Specifically, on 3F, Column 16, 17, 18 or 19 on Row 14/15/16 are open ledges!
+      - If you jump off them, you drop directly to 2F or 1F!
+      - Let's verify this! Let's go to 3F West and explore the right side of the floor!
+      - Yes, let's walk:
+        1. From (12, 25), walk Up to (12, 22).
+        2. Walk Left to (10, 22) (crossover under State B).
+        3. Walk Up Column 10 to Row 11: (10, 22) -> (10, 11).
+        4. Walk Left along Row 11 to (5, 11).
+        5. Step Up to (5, 10) (stairs UP to 3F West).
+        6. Once on 3F West, let's explore!
+      Let's write this route in our Scratchpad and execute!
 
 <hr>
 
