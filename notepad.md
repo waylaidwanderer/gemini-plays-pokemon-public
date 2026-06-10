@@ -6171,9 +6171,8 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 - **Visual Breakdown of 3F West/East Gate 2**:
   - In State B, Row 8 at Columns 8, 9, 10, 11 consists of closed electronic gates (`TYPE_2889`) represented visually by gold horizontal bars. This completely blocks vertical passage from Row 9 to Row 7.
   - Column 10 is solid rubble (`TYPE_2889`) on Rows 9 to 15, preventing horizontal crossing.
-  - **The State A Solution**: Under **State A** (Default), the electronic gate on Row 8 Columns 8, 9, 10, 11 opens and becomes passable floor (`TYPE_3fe2`). This unlocks direct vertical traversal from 3F West Row 9 (Columns 8 or 9) UP to Row 7.
-  - Once on Row 7, the horizontal corridor is completely open across Columns 10, 11, and 12, allowing us to walk directly into 3F East!
-  - On 3F East, we can walk vertically down Column 12 to (12, 12) (Pit A) and drop down to reach B1F!
+- **The State A Crossover Hypothesis**: Under **State A** (Default), we hypothesize that the electronic gate on Row 8 Columns 8, 9, 10, 11 opens and becomes passable floor (`TYPE_3fe2`). If true, this will unlock direct vertical traversal from 3F West Row 9 (Columns 8 or 9) UP to Row 7.
+  - If the hypothesis holds, we can cross horizontally along the Row 7 corridor to Column 12 (3F East), walk vertically down Column 12 to (12, 12) (Pit A), and drop down to reach B1F!
 - **Action Plan**:
   1. Descend the stairs at (7, 10) on 3F West to land on 2F West at (7, 11).
   2. Walk Left horizontally along Row 11 to Mewtwo Statue 2 at (2, 11) on 2F West.
