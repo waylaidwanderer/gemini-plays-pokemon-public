@@ -47,13 +47,6 @@
 
 ## Cinnabar Mansion Breakthrough Exploration Phase (Turn 79491)
 - **Verified Fact**: 2F East South Column 22 is completely solid/rubble under both State A and State B across rows 8-15. This separates Column 21 from Column 23 on these rows.
-- **The State A Walkthrough Breakthrough**: Under State A (Default), Gate 3 at (18, 8)-(19, 8) is OPEN, and the Row 8 gates (Columns 24-28) in the Northeast room are also OPEN! While Column 22 blocks horizontal crossing on Rows 8-15, Row 3 Column 22 is completely OPEN floor. Therefore, under State A, we can walk from 2F West to 2F East via the Row 10 crossover, walk north to Row 3, cross into the Northeast room, and walk south through the open Row 8 gates directly into the Southeast room! This gives us foot access to the (25, 14) stairs to 3F East under State A!
-- **State A Pit Drop Strategy**: Once on 3F East under State A, we drop down the pit to 1F East south-central pocket. Under State A, Gate 4 at (21, 17) is OPEN, allowing us to easily access the B1F stairs without being trapped!
-- **Protocol for 3F East Mapping**:
-  1. Once we walk through (10, 12) onto (11, 12), we will halt and visually scan the East wing.
-  2. We will map all pits on 3F East (such as the giant central pit) tile-by-tile.
-  3. We will locate the break in the southern balcony railing on 3F East.
-  4. Only after documenting all coordinates will we walk into the central pit to drop down.
 - **Trapped Pocket & Escape Plan**:
   - Falling through the 3F East pit lands us in the 1F south-central pocket (near the stairs to B1F).
   - Under State B, Gate 4 at (21, 17) is closed, meaning we are 100% trapped on foot in this 1F pocket.
