@@ -6590,6 +6590,11 @@ Active State: **State B (Statue 1 Toggled)** (Toggled on Turn 78020)
 - **Turns 77748-77749**: Bypassed the wandering Burglar NPC using Row 10, then successfully walked down Column 4 to Row 15, and stepped Right to (5, 15).
 - **Turns 77752-77753**: Stood at (5, 15) and pressed Down to reach (5, 16) (passable floor TYPE_3fe2). From (5, 16), pressed Down again and collided/bumped against (5, 17) (solid balcony railing TYPE_2889). Visually confirmed that Columns 1 to 5 on Row 17 are solid black/white railings of TYPE_2889, and Columns 6 to 10 on Row 16 and 17 are solid rubble of TYPE_2889.
 - **Definitive Conclusion**: The southern balcony crossover hypothesis is mathematically and physically DISPROVEN. There is no horizontal walkthrough or drop-down crossover between 3F West and 3F East on Rows 16 and 17. The southwest quadrant is completely dead-ended. We must backtrack to 2F West (2, 11) to toggle Statue 2 back to State A (Default) to execute the Fallback Plan.
+- **Turn 78113-78114 State A Gate 2 physical test**:
+  - Stand at (8, 9) facing Up. Press Up.
+  - Result: Collision, stayed at (8, 9).
+  - Conclusion: Gate 2 on 3F at (8, 8)-(11, 8) is CLOSED/impassable under State A as well.
+  - **Overall Crossover Hypothesis is DISPROVEN**: 3F West has no physical crossover to 3F East under State A or State B. Gate 2 remains closed/impassable.
 
 <hr>
 
