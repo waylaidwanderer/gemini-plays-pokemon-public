@@ -6597,6 +6597,12 @@ Active State: **State B (Statue 1 Toggled)** (Toggled on Turn 78020)
   - **Result**: No textbox appeared and no toggle occurred. This empirically proves that (13, 9) is a purely decorative statue of TYPE_2889 and has NO active switch in unmodded Gen 1.
   - **Conclusion**: There is no third Mewtwo Statue on 2F East. Our matrix model is simplified back to Statue 1 (1F West) and Statue 2 (2F West). We can safely navigate 2F East without worrying about a third state.
 
+## 1F West Mewtwo Statue Test (Turn 80082)
+- **Coordinates**: Mewtwo Statue is located at (10, 8) on 1F West (Map 0_165).
+- **Methodology**: Stood at (10, 9) facing Up, and pressed 'A' to interact with the statue at (10, 8) under State A.
+- **Results**: No textbox appeared and no interaction took place.
+- **Conclusion**: The Mewtwo Statue at (10, 8) on 1F West is purely decorative. There is no active switch at this location.
+
 <hr>
 
 <h1><code>Reflection/Turn75935_SocraticReflection</code></h1>
