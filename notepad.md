@@ -6228,17 +6228,6 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 - **1F West Switch Statue 1 Plan**: If we need to find and toggle Statue 1 on 1F West in the future, we must explore the westernmost room (Columns 1-4, typically around (2, 5)), as the statue at (10, 8) has been proven decorative.
 - **3F West (9, 12) State B Re-Verification Plan**: If we ever re-test the passability of (9, 12) under State B, we must visually verify that the Scientist NPC (SPRITE_cdfc) is elsewhere (e.g. at (4, 11)) and not standing on (9, 12) or (9, 13) to prevent a false-positive collision.
 
-## The Definitive Progression Hypothesis (Turn 80836)
-- **Problem**: 3F West-East crossover is 100% blocked under both states. 1F East South is blocked from 1F West under State A, and 1F south-central pocket (B1F stairs) is isolated on foot under State B.
-- **The Breakthrough Solution**:
-  1. Return to 1F West, go up to 2F West, and toggle Statue 2 back to **State A (Default)**.
-  2. Under State A, the 2F Row 11 corridor is open and passable to 2F East South.
-  3. Walk onto 2F East South under State A.
-  4. Walk to Row 22 of 2F East South and investigate if we can cross Column 22 on Row 22 under State A, or check if there is an alternative open crossover on Row 22 to access the 2F Southeast room. Note: The Southeast room is verified to only span Rows 9-15. If Rows 16-27 on Columns 23-28 is black space or solid wall, (23, 22) will be impassable. We will systematically inspect and map the layout of Y=22 to Y=26 on 2F East South under State A.
-  5. If an open path exists, go to the 2F Southeast room and climb the stairs up to 3F East at (25, 14).
-  6. On 3F East, walk to the balcony pit and jump down to B1F!
-- **Verification Plan**: We will backtrack to 2F West, toggle State A, and physically test the pathing in 2F East South under State A. This satisfies the scientific Burden of Proof!
-
 ## Socratic Strategy & Coordinate Verification (Turn 80913 Audit)
 - **Analysis of Southeast Room Rows**:
   - The Southeast room is documented to span Rows 9-15.
