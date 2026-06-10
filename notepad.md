@@ -6714,6 +6714,12 @@ Active State: **State B (Statue 1 Toggled)** (Toggled on Turn 78020)
 - Turn 79760: Attempted to walk Up from (5, 8) into (5, 7). Result: Collided, proving (5, 7) is solid/impassable under State B.
 - Turn 79764: Attempted to walk Up from (7, 8) into (7, 7). Result: Collided, proving (7, 7) is solid/impassable under State B.
 
+## 3F West Mewtwo Statue Front-Tile (10, 10) Test under State A (Turn 80140)
+- **Hypothesis**: Under State A, the tile (10, 10) directly below the Mewtwo Statue at (10, 9) is open, allowing front-interaction with the statue.
+- **Methodology**: Stood at (9, 10) on Map 0_215 (3F) facing Right. Pressed 'Right' to attempt to step onto (10, 10) under State A.
+- **Results**: Visited 0 tiles. Collided/bumped with (10, 10), remaining at (9, 10) facing Right.
+- **Conclusion**: The front tile (10, 10) is 100% solid rubble/wall (`TYPE_2889`) under State A. Front-interaction with the Mewtwo Statue at (10, 9) is physically impossible under State A.
+
 <hr>
 
 <h1><code>Scratchpad/Mansion_Fall_Tests</code></h1>
