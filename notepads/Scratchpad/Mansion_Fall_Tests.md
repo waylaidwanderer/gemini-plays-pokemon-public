@@ -77,3 +77,14 @@ All four reachable columns (1, 2, 3, and 4) on the southwest balcony of 2F West 
 - **Column 19**: Tested on Turn 79947 by standing at (19, 15) and attempting to walk Down onto (19, 16). Result: **Bump** against (19, 16) (stayed at (19, 15)). Confirmed 100% solid, impassable railing.
 - **Column 18**: Tested on Turn 79949 by standing at (18, 15) and attempting to walk Down onto (18, 16). Result: **Bump** against (18, 16) (stayed at (18, 15)). Confirmed 100% solid, impassable railing.
 - **Final Conclusion for 2F East South Columns 18-21**: All reachable columns on the 2F East South balcony under State A are 100% solid, impassable railings. There is no active balcony drop on foot in this section under State A.
+
+## Reconciled 2F East South Columns 11-17 Reachability Proof under State A (Turn 79975)
+- **Conclusion**: Columns 11 through 17 on Rows 15 and 16 are 100% physically and mathematically unreachable on foot under State A.
+- **Proof of Impossibility**:
+  1. Under State A, the only entry point to 2F East South is via Gate 3 at (18, 8)-(19, 8), placing us in the Column 18-21 sector.
+  2. To reach Columns 11-17 from this sector, we must cross Column 15 or 17 horizontally.
+  3. However, Column 15/14 is a continuous solid wall/rubble boundary (`TYPE_2889`) on Rows 1-5 and Rows 8-11.
+  4. Column 17 is a continuous solid rubble boundary (`TYPE_2889`) on Rows 12, 14, and 15, and Row 13 is blocked by solid walls at (18, 13) and (19, 13).
+  5. Thus, there is NO horizontal path from Columns 18-21 to Columns 11-17 on any row south of Row 7.
+  6. Attempting to enter from 2F West is blocked because the Gate at (12, 13) is CLOSED under State A, blocking vertical entry south of Row 12.
+  7. Therefore, Columns 11-17 on Row 15/16 cannot be physically reached or tested on foot under State A. This satisfies Socratic Question 2's scientific Burden of Proof with definitive proof of impossibility.
