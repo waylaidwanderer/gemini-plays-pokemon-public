@@ -6728,6 +6728,10 @@ Active State: **State B (Statue 1 Toggled)** (Toggled on Turn 78020)
   - Row 14 Column 8: CLOSED (Bumped on Turn 80447)
   - Row 15 Column 8: CLOSED (Bumped on Turn 80446)
   - Conclusion: The West-East crossover on 3F under State B is 100% closed and impassable. There is absolutely no walkthrough passage on 3F.
+- **Turn 80781 State B Balcony Crossover Test**:
+  - Standing at (5, 16) facing Right under State B. Pressed Right to attempt to walk onto (6, 16) (`TYPE_2889`).
+  - Result: Collision, stayed at (5, 16).
+  - Conclusion: Row 16 Column 6 is indeed 100% solid and impassable under State B. This officially disproves the hypothesis that the Row 16 balcony floor runs horizontally underneath the vertical wall of Column 10 to provide a walkthrough passage to 3F East. Row 16 is completely blocked at Column 6.
 
 <hr>
 
