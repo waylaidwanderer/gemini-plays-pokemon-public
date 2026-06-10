@@ -6660,6 +6660,7 @@ Active State: **State B (Statue 1 Toggled)** (Toggled on Turn 78020)
 - **Turn 79398 Systematic Test Row 9**: From (21, 9) facing Right, pressed Right against (22, 9) (`TYPE_2889`). Result was a BUMP, physically proving Column 22 is CLOSED/solid on Row 9 under State B.
 - **Turn 79410 Systematic Test Row 11**: From (21, 11) facing Right, pressed Right against (22, 11) (`TYPE_2889`). Result was a BUMP, physically proving Column 22 is CLOSED/solid on Row 11 under State B.
 - **Turn 79416 Systematic Test Row 12**: From (21, 12) facing Right, pressed Right against (22, 12) (`TYPE_2889`). Result was a BUMP, physically proving Column 22 is CLOSED/solid on Row 12 under State B.
+- **Turn 79429 Systematic Test Row 13**: From (21, 13) facing Right, pressed Right against (22, 13) (`TYPE_3fe2`). Result was a BUMP, physically proving Column 22 is CLOSED/solid on Row 13 under State B, despite its grid label being `TYPE_3fe2`. This confirms the tile overlay type can be misleading because it represents underlying terrain rather than dynamic blockage sprites or state-dependent collision data.
 
 <hr>
 
