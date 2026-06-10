@@ -55,8 +55,6 @@ All four reachable columns (1, 2, 3, and 4) on the southwest balcony of 2F West 
 - **Results**: Traversal was 100% successful with zero collisions, landing exactly on (10, 10) (Verified in GameState on Turn 78826).
 - **Conclusion**: The Row 10 crossover is completely open and passable under State A, providing foot access to the eastern side of the mansion. This satisfies Socratic Question 1's Burden of Proof.
 
-- **Backtracking Route to 3F West (Executed started Turn 78994)**:
-
 ### Empirical Results of 1F East Row 13 Passability Test under State A (Turns 79215-79227)
 - **Turn 79215**: Tested Column 23 by standing at (23, 11) facing Down and pressing Down. Result: **Bump** against (23, 12) (`TYPE_2889`). This physically proves that Column 23 is blocked at Row 12 under State A by a solid stone pillar/statue, preventing all southern traversal along Column 23.
 - **Turn 79220**: Tested Column 24 by standing at (24, 12) facing Down and pressing Down. Result: **Bump** against (24, 13) (`TYPE_a83b`). This physically proves that Gate 1 is CLOSED and impassable on Column 24 under State A.
