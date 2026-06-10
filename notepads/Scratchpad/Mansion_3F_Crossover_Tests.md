@@ -48,3 +48,5 @@
 - Turn 79684: Under State A, walked Down to (9, 11) and attempted to walk Down to (9, 12). Result: Collided with (9, 12), remaining at (9, 11). This empirically proves that (9, 12) is 100% solid and impassable under State A.
 
 - Turn 79736: Testing passability of (9, 12) under State B by walking 'Right', 'Right', 'Down' from (7, 11). This will establish physical proof if (9, 12) is passable under State B.
+- Turn 79751: Attempted to walk Up from (6, 8) into (6, 7). Result: Collided, proving (6, 7) is solid/impassable under State B.
+- Turn 79752: Testing passability of (5, 7) by walking Left to (5, 8) and attempting to walk Up into (5, 7). This will establish physical proof if (5, 7) is passable under State B.
