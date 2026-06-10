@@ -6396,7 +6396,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 - **Stairs**:
   - Down to 2F: Located at (7, 10) (Verified Turn 75056)
 - **Switches & Gates**:
-  - Statue 3: (TBD, TBD) | State: [ ] Default
+  - Statue 3: (10, 9) on 3F West | State: Purely Decorative (No Switch) (Verified Turn 78784)
   - Column 11 Gate: Currently CLOSED (solid wall of TYPE_2889 on Column 11 from Row 8 to 15).
   - Gate status on 3F is currently CLOSED, blocking access to the right side of 3F (including the pit chute at (11, 12)).
 - **Falls/Pits**:
