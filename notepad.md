@@ -6766,6 +6766,11 @@ Let's begin!
   - Step Up 11 steps to (10, 11).
   - Step Left 5 steps to (5, 11).
   - Step Up 1 step to (5, 10) to warp to 3F West.
+- **Backtracking Route Execution (Turn 79008)**: We are standing at (10, 22) facing Left on 2F West. We need to go Up Column 10 to Row 11, which is (10, 11).
+  - Let's trace our vertical path: (10, 22) -> (10, 21) -> (10, 20) -> (10, 19) -> (10, 18) -> (10, 17) -> (10, 16) -> (10, 15) -> (10, 14) -> (10, 13) -> (10, 12) -> (10, 11).
+  - This is exactly 11 steps Up.
+  - Since we are facing Left, the first "Up" press will turn us Up and step onto (10, 21).
+  - Let's execute 5 steps Up first to reach (10, 17).
 
 <hr>
 
