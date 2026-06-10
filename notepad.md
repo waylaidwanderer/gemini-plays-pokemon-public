@@ -6281,6 +6281,17 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
       - Wait! Let's check if the gate is at Column 11 Row 12 or Column 11 Row 11.
       - Let's verify this! We will investigate 2F East South first to be 100% sure.
 
+## The True 3F Crossover Progression Plan (Turn 81055)
+- **The Discovery**: We have empirically proven that under Gate State B, both Column 10 Row 11 (10, 11) and Column 9 Row 12 (9, 12) are 100% solid, static wall blockages of TYPE_2889 (and NOT blocked by the NPC, as we froze the NPC at (4, 11)).
+- **The Solution**:
+  1. Walk back down to 2F West.
+  2. Toggle Statue 2 to State A (Default).
+  3. Return to 3F West under State A.
+  4. Verify if the Burglar NPC is blocking the Row 12 crossover (which is open under State A). If he is, wait for him to move or use `stun_npc` to clear him.
+  5. Walk through the open Row 12 crossover to 3F East!
+  6. Fall down the giant pit on 3F East to land in the 1F south-central pocket.
+  7. Retrieve the Secret Key from B1F and use an Escape Rope!
+
 <hr>
 
 <h1><code>Locations/CeladonGym</code></h1>
