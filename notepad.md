@@ -6514,11 +6514,9 @@ Active State: **State B (Statue 1 Toggled)** (Toggled on Turn 78020)
 - **Coordinates**: Mewtwo Statue 3 is located at (13, 9) on 2F East (Map 0_214).
 - **Accessibility**: Reached on foot from the west by walking across the Column 9 wall on Row 10 at (9, 10). (9, 10) is a standard open floor tile (TYPE_3fe2) and is completely passable under State B.
 - **Circuit Matrix Hypotheses to Test**:
-  - We are standing adjacent to Statue 3 at (12, 7). We will walk Down to (12, 9), face Right (towards (13, 9)), and toggle the switch.
-  - We must determine:
-    1. Does toggling Statue 3 switch the global state back to State A? Or does it operate on a different local/independent circuit?
-    2. If it toggles the global state, then Gate 6 at (9, 5) should close. We will verify if our return corridor on Row 10 remains open under State A. Since (9, 10) is a normal tile (TYPE_3fe2), we expect it to stay passable under State A, meaning we will NOT be softlocked on 2F East.
-    3. We will verify if toggling this statue changes the status of gates on 1F, 2F, and 3F.
+  - We stood adjacent to Statue 3 at (12, 9) on Turn 78425. We faced Right (towards (13, 9)) and pressed A to toggle the switch.
+  - **Result**: No textbox appeared and no toggle occurred. This empirically proves that (13, 9) is a purely decorative statue of TYPE_2889 and has NO active switch in unmodded Gen 1.
+  - **Conclusion**: There is no third Mewtwo Statue on 2F East. Our matrix model is simplified back to Statue 1 (1F West) and Statue 2 (2F West). We can safely navigate 2F East without worrying about a third state.
 
 <hr>
 
