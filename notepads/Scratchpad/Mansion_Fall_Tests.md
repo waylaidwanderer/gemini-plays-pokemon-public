@@ -174,3 +174,151 @@ Let's begin!
      - If Position is (12, 26), the gate is **OPEN** under State B.
      - If Position is (12, 25), we collided/bumped, proving the gate is **CLOSED** under State B.
 - **Execution Turn**: 78978
+- **Test Result (Turn 78980)**: Stood at (12, 25) facing Down under State B and pressed Down. Result: Visited 0 tiles (stayed at (12, 25)), which is a direct collision/bump against (12, 26).
+- **Definitive Proof**: The Row 26 Gate at (12, 26)-(13, 26) is **CLOSED and impassable under State B**.
+- **Implications**:
+  - We cannot access the balcony drop at (12, 27) under State B because the closed Gate 26 blocks us.
+  - Under State A, Gate 13 at (12, 13) is CLOSED, blocking us from reaching the southern area.
+  - This is a classic gate-inversion puzzle. To bypass this, we must have Gate 26 OPEN (State A) but be positioned south of Gate 13.
+  - Wait, how can we be south of Gate 13 under State A?
+    - If we are south of Gate 13, and the switch is toggled to State A:
+    - But we have to toggle the switch ourselves, and the switch is at (2, 11) on 2F West.
+    - If we walk to (12, 22) under State B, and then... wait!
+    - Can we toggle a switch on B1F or 1F?
+    - Let's check: on 1F West, there is Statue 1 at (2, 5).
+    - Can we reach 1F East from 1F West? Yes!
+    - Under State B, Gate 1 on 1F at (25, 13) is OPEN.
+    - Wait! Under State B, can we walk into the south-central pocket of 1F East?
+      - Let's check: Gate 4 on 1F East at (21, 17) is CLOSED under State B!
+      - So we cannot enter the south-central pocket of 1F East from the rest of 1F under State B.
+      - What about under State A?
+        - Under State A, Gate 4 at (21, 17) is OPEN!
+        - So under State A, we can enter the south-central pocket of 1F East from... wait!
+        - To reach (21, 17) on 1F, we must be on the East side of 1F.
+        - Under State A, can we walk from 1F West to 1F East?
+        - Yes! "1F East is accessible on foot from 1F West under State A via open northern corridor crossings (Verified Turn 76210)."
+        - Under State A, is Gate 1 at (25, 13) CLOSED?
+          - Yes, Gate 1 is CLOSED under State A.
+        - But wait! Do we need Gate 1 to be open to reach (21, 17)?
+          - Let's check the map of 1F East.
+          - Where is (21, 17) located?
+          - Is (21, 17) on Column 21?
+          - Yes, (21, 17) is Gate 4.
+          - Can we walk from 1F East (which is accessible via northern crossings) to (21, 17) under State A?
+          - Let's check: "1F East is fully accessible on foot from 1F West under both State A and State B."
+          - And: "Under State A: Gate 4 on 1F East (21, 17) is OPEN (Verified Turn 78160)."
+          - Wait! If Gate 4 at (21, 17) is OPEN under State A, can we walk directly through Gate 4 into the south-central pocket of 1F East on foot?!
+          - Let's check our notes!
+          - "Under State A: Row 13 Column 21 is a solid wall of TYPE_2889, blocking vertical descent along Column 21."
+          - Wait! If Row 13 Column 21 is a solid wall, does that block us from reaching Gate 4 at (21, 17)?
+          - Gate 4 is at (21, 17).
+          - To reach (21, 17), we must walk down Column 21.
+          - If Row 13 Column 21 is a solid wall, we cannot walk down Column 21.
+          - But can we walk down Column 22 or Column 23, and then walk horizontally to Column 21?
+          - Let's check:
+            - "In both States: Column 22 is solid rubble on Rows 8-15, completely blocking horizontal entry from the East."
+            - So we cannot cross from Column 23 to Column 21/22 on Rows 8-15.
+            - What about Row 16 or 17?
+            - If we walk down Column 23 to Row 16, can we walk Left to Column 21?
+            - Let's check!
+            - If we can do that under State A, then we can reach Gate 4 at (21, 17) on foot under State A!
+            - Let's look at our 1F East South-Central Pocket Isolation Proof of Work:
+              "We have mathematically and physically verified that the 1F south-central pocket (Columns 21-23, Rows 18-27) is permanently isolated and unreachable on foot from the rest of 1F under BOTH Gate States:
+              1. Under State B: Gate 4 at (21, 17) is CLOSED, blocking southern vertical entry into Columns 21-23.
+              2. Under State A: Row 13 Column 21 is a solid wall of TYPE_2889, blocking vertical descent along Column 21.
+              3. In both States: Column 22 is solid rubble on Rows 8-15, completely blocking horizontal entry from the East.
+              Therefore, ground-level entry is impossible, proving the 1F south-central pocket can only be accessed via the 3F balcony drop."
+          - Wait! If 1F pocket can ONLY be accessed via the 3F balcony drop, then let's think about the 3F balcony drop!
+          - Where is the 3F balcony drop?
+            - Is it on 3F West?
+            - We tested all columns on 3F West southwest balcony and they are solid railings.
+            - What about 3F East?
+            - "Pit A (The Secret Fall): (11, 12) | State: Static Pit (Verified Turn 75091)"
+            - Wait! Pit A is at (11, 12) on 3F East!
+            - But Pit A was blocked by Gate 2 (Col 11) being CLOSED.
+            - Under State A, is Gate 2 on 3F open?
+              - Let's check: "Gate 2 (3F, Col 11) | State A: CLOSED, State B: CLOSED"
+            - Wait, let's think! Is there another drop on 3F West?
+              - "In vanilla Pokémon, the player jumps off the 3F West balcony (the southwest balcony on the left side of the third floor) to drop into the isolated 2F East Southeast room, where the stairs down to 1F East (and subsequently to B1F) are located."
+              - Wait! "jumps off the 3F West balcony... to drop into 2F East Southeast room"
+              - Wait! Let's check the coordinates of 3F West balcony!
+              - On 3F West, there is a balcony on the right or left?
+              - Left side of 3F is West.
+              - Is there a balcony on the left?
+              - Yes, Rows 16 and 17 on 3F West.
+              - But we tested Columns 1 to 5 on Row 17 on 3F West and they were all solid railings!
+              - Wait, what about Columns 10, 11, 12, 13 on 3F?
+              - Or what about 3F West, Column 16, 17, 18?
+              - Wait! On 3F, where are we?
+              - Let's think: is there a balcony drop on 3F West that we missed?
+              - Let's check vanilla Cinnabar Mansion map!
+              - In vanilla, on 3F, there is a balcony drop on the right side of the main room on 3F.
+              - The main room on 3F is 3F West (the room with the scientist, the table with the diary, etc.).
+              - On the right side of this room, there is a balcony or landing.
+              - Wait! Let's look at Column 16/17 on 3F West?
+              - No, let's look at the East-West partition of 3F.
+              - In vanilla, on 3F, there is a large gap/ledge on the right side of the floor.
+              - Specifically, on 3F, the player can jump down from the balcony on the right!
+              - Let's check the coordinates of this balcony drop on 3F!
+              - Where on 3F is the balcony?
+              - Is it on the right side of 3F West (Column 16, 17, 18)?
+              - Let's check if there is a balcony on Column 16/17 of 3F West.
+              - Wait, let's look at the Map Markers on 2F:
+                - (12, 27): "Balcony Drop to B1F Stairs (Row 27)"
+                Wait! Let's look at the map marker on 2F at (12, 27):
+                "🕳️ Balcony Drop to B1F Stairs (Row 27)"
+                Wait, why is there a marker "Balcony Drop to B1F Stairs (Row 27)" at (12, 27) on 2F?
+                Ah! Is that because in this ROM, or in vanilla, the balcony drop is on 2F East South?
+                Yes, on 2F East South, the balcony drop is at (12, 27)-(13, 27)!
+                But wait! If the balcony drop is on 2F, and Gate 26 is closed under State B, then we must be in State A to use it!
+                Wait! If we are in State A, how can we stand south of Gate 13?
+                Let's think:
+                Is there a switch on 3F? No.
+                Is there a switch on 2F East? No.
+                Is there a switch on 1F East? No.
+                Wait! What if we toggle the switch on 1F West to State B, walk to 1F East, and then... wait!
+                If we are on 1F East, can we go to 2F East?
+                "The Southeast room (Columns 23-28, Rows 9-15) is 100% isolated on foot on 2F under BOTH State A and State B... Therefore, the southeast stairs can ONLY be reached by dropping down from a pit on 3F East."
+                Wait! If 2F East Southeast room is 100% isolated, what about 2F East North?
+                Is 2F East North accessible on foot under State A?
+                Yes! "The Row 10 crossover is completely open and passable under State A, providing foot access to the eastern side of the mansion." (Turn 78826)
+                So under State A, we can walk from 2F West to 2F East North!
+                Once we are on 2F East North under State A:
+                Can we walk down Column 12?
+                - Gate 13 is CLOSED under State A. So we cannot walk down Column 12 past Row 13!
+                Wait, what about Column 13?
+                - Gate 13 blocks both Column 12 and Column 13.
+                What about Column 14?
+                - Column 14 is a solid wall.
+                What about Column 11?
+                - Column 11 is a solid wall.
+                So yes, under State A, we cannot get past Row 13 on 2F East.
+
+              - Let's think: is there a way to walk down Column 12/13 under State B (which we can, and we did!), and then toggle the switch to State A?
+                - But how can we toggle the switch if the only switch is on the West side?
+                - Wait! Can we jump down from 3F?
+                - Let's check where the 3F balcony drop is!
+                - On 3F, where is the balcony drop?
+                - Is it on 3F West (the west side of 3F)?
+                - Let's check our notes on 3F West:
+                  - "pit chute at (11, 12)" is Pit A on 3F East.
+                  - "pit/fall on 3F. We know Pit A is at (11, 12) on 3F, but it is blocked by Gate 2 (Col 11) being CLOSED."
+                  Wait! Is there another pit on 3F?
+                  Let's check vanilla Cinnabar Mansion 3F map.
+                  In vanilla, there are TWO drop spots on 3F:
+                  1. A standard pit on the floor (the one in the room on 3F East, which drops to 2F East).
+                  2. A large balcony on the right side of 3F West. It is a wide open balcony on the right side of the main room of 3F West!
+                     Wait, on 3F West, the right wall of the room has a huge balcony railing that you can jump over!
+                     Specifically, the balcony is on Columns 16-17 or 18?
+                     Let's check: in vanilla, there is a balcony railing on 3F West, and if you jump off it, you drop directly to the isolated 1F pocket!
+                     Wait! Is that true?
+                     Let's check: in vanilla, the balcony drop is on the right side of 3F, near the scientist, where the wall has a gap/railing. If you step right into the gap, you drop to 2F East South, and then to 1F East south-central pocket!
+                     Let's verify if there is a balcony drop on 3F West!
+                     Wait! Let's look at 3F West on the right side (Columns 16-17).
+                     Is there a balcony railing there?
+                     Let's check our notes on 3F West:
+                     "We systematically tested all reachable columns (1 to 5) on the southwest balcony of 3F West..."
+                     Wait, columns 1 to 5! That is the southwest balcony on the left side of the floor.
+                     What about the right side of 3F West?
+                     Let's check Columns 16, 17, 18 on 3F West!
+                     Wait! Let's search our notepads for "3F" and "balcony" or "right" or "scientist".
