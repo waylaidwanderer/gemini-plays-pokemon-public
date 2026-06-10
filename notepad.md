@@ -6229,13 +6229,12 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 - **Problem**: 3F West-East crossover is 100% blocked under both states. 1F East South is blocked from 1F West under State A, and 1F south-central pocket (B1F stairs) is isolated on foot under State B.
 - **The Breakthrough Solution**:
   1. Return to 1F West, go up to 2F West, and toggle Statue 2 back to **State A (Default)**.
-  2. Under State A, the 2F Row 22 crossover at Column 11 is OPEN (verified on Turn 80595).
-  3. Walk onto (12, 22) on 2F East South under State A.
-  4. Walk Right across Column 22 onto (23, 22). *Hypothesis: Column 22 is open under State A (whereas it was blocked under State B).*
-  5. This enters the 2F Southeast room, which contains the stairs up to 3F East at (25, 14).
-  6. Go up the stairs to 3F East.
-  7. On 3F East, walk to the balcony pit and jump down to B1F!
-- **Verification Plan**: We will backtrack to 2F West, toggle State A, and physically test if Column 22 is open under State A on Row 22. This satisfies the scientific Burden of Proof!
+  2. Under State A, the 2F Row 11 corridor is open and passable to 2F East South.
+  3. Walk onto 2F East South under State A.
+  4. Walk to Row 22 of 2F East South and investigate if we can cross Column 22 on Row 22 under State A, or check if there is an alternative open crossover on Row 22 to access the 2F Southeast room. Note: The Southeast room is verified to only span Rows 9-15. If Rows 16-27 on Columns 23-28 is black space or solid wall, (23, 22) will be impassable. We will systematically inspect and map the layout of Y=22 to Y=26 on 2F East South under State A.
+  5. If an open path exists, go to the 2F Southeast room and climb the stairs up to 3F East at (25, 14).
+  6. On 3F East, walk to the balcony pit and jump down to B1F!
+- **Verification Plan**: We will backtrack to 2F West, toggle State A, and physically test the pathing in 2F East South under State A. This satisfies the scientific Burden of Proof!
 
 <hr>
 
