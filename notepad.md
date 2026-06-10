@@ -6252,16 +6252,6 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 - **1F West Switch Statue 1 Plan**: If we need to find and toggle Statue 1 on 1F West in the future, we must explore the westernmost room (Columns 1-4, typically around (2, 5)), as the statue at (10, 8) has been proven decorative.
 - **3F West (9, 12) State B Re-Verification Plan**: If we ever re-test the passability of (9, 12) under State B, we must visually verify that the Scientist NPC (SPRITE_cdfc) is elsewhere (e.g. at (4, 11)) and not standing on (9, 12) or (9, 13) to prevent a false-positive collision.
 
-### Detailed 2F East Walkthrough Routing (Turn 80176)
-- **Path from (12, 3) to 3F East Southeast Room**:
-  1. From (12, 3), walk Down 4 steps to (12, 7) to clear the solid Column 15 wall on Rows 1-5.
-  2. Walk Right 4 steps to (16, 7), crossing Column 15 at Row 7 (passable floor TYPE_3fe2).
-  3. Walk Up 4 steps to (16, 3) to return to Row 3.
-  4. Walk Right 6 steps to (22, 3) along Row 3, which is open and passable under State A.
-  5. Walk Right 1 step into the Northeast room at (23, 3).
-  6. Walk Down 6 steps through the open Row 8 gate at (23, 8) into the Southeast room at (23, 9).
-  7. From (23, 9), walk Right 2 steps to (25, 9), then Down 5 steps to the 3F East stairs at (25, 14).
-
 <hr>
 
 <h1><code>Locations/CeladonGym</code></h1>
