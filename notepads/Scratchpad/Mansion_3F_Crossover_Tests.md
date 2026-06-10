@@ -91,3 +91,4 @@
   - **Turn 81052 (Row 11 Column 10)**: Stood at (9, 11) facing Right and pressed Right against (10, 11). Result: Bump, physically proving (10, 11) is solid and CLOSED under State B.
   - **Turn 81045 (Row 12 Column 9)**: Stood at (8, 12) facing Right and pressed Right against (9, 12). Result: Bump, physically proving (9, 12) is solid and CLOSED under State B.
   - **Turn 81097 (Row 13 Column 9)**: Stood at (8, 13) facing Right and pressed Right against (9, 13). Result: Bump, physically proving (9, 13) is solid and CLOSED under State B.
+  - **Turn 81101 (Row 14 Column 8)**: Stood at (8, 13) facing Down and pressed Down against (8, 14). Result: Bump, physically proving (8, 14) is solid and CLOSED under State B. This completely rules out any southern bypass on Column 8 under State B.
