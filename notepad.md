@@ -6552,7 +6552,7 @@ Our testing has systematically verified that:
 2. Under State B: Gate 3 is OPEN and passable. (Verified Turn 79932).
 3. Under both states, the Southeast room (Columns 23-28, Rows 9-15) on 2F is 100% isolated and cannot be reached on foot.
 Therefore, the only walkthrough connection to 3F East is on 3F West: under State B, Gate 2 on 3F (Column 11 Row 12) is OPEN, and the Row 11 path from Column 9 to Column 12 is completely unblocked on foot when the Scientist NPC is not blocking it. This allows direct walkthrough from 3F West to 3F East to reach the B1F pit fall.
-- Critical Path to B1F: To reach B1F, we must locate and use the secret pit/fall on 3F. We know Pit A is at (11, 12) on 3F, but it is blocked by Gate 2 (Col 11) being CLOSED. We must investigate how to open Gate 2 on 3F. Let's find any remaining un-toggled statues or paths. We are actively investigating if Column 22 on 2F East is open under State A, which would grant foot access to the Southeast room and the stairs up to 3F East.
+- Critical Path to B1F: To reach B1F, we must locate and use the secret pit/fall on 3F. We know Pit A is at (11, 12) on 3F, but it is blocked by Gate 2 (Col 11) being CLOSED. We must investigate how to open Gate 2 on 3F. Let's find any remaining un-toggled statues or paths.
 - 3F West Column 10/11 Empirical Verification under State B (Turn 77004): 
   - Stand at (9, 11) facing Right, and press Right. Result: Collided with (10, 11) (visited 0 tiles, stayed at (9, 11)), proving (10, 11) is indeed a solid rock wall/rubble of TYPE_2889.
   - Since (10, 11), (10, 12), and (9, 12) are all solid rubble (TYPE_2889), we cannot physically reach Column 11 on foot from the West. 
