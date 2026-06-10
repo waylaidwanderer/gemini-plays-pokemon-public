@@ -92,3 +92,10 @@
   - **Turn 81045 (Row 12 Column 9)**: Stood at (8, 12) facing Right and pressed Right against (9, 12). Result: Bump, physically proving (9, 12) is solid and CLOSED under State B.
   - **Turn 81097 (Row 13 Column 9)**: Stood at (8, 13) facing Right and pressed Right against (9, 13). Result: Bump, physically proving (9, 13) is solid and CLOSED under State B.
   - **Turn 81101 (Row 14 Column 8)**: Stood at (8, 13) facing Down and pressed Down against (8, 14). Result: Bump, physically proving (8, 14) is solid and CLOSED under State B. This completely rules out any southern bypass on Column 8 under State B.
+
+## State A Crossover Systematic Audit (Turns 81148-81156)
+- **Status of 3F West crossover under State A (Statue 2 Default)**:
+  - **Turn 81148**: Player stood at (9, 11) facing Right and pressed Right. Result: **Bump** against (10, 11) (`TYPE_2889`), remaining at (9, 11). Visually, Column 10 on Row 11 is solid rubble of TYPE_2889.
+  - **Turn 81149**: Player stood at (9, 11) facing Down and pressed Down. Result: **Bump** against (9, 12) (`TYPE_2889`), remaining at (9, 11). Visually, Column 9 on Row 12 is solid rubble of TYPE_2889.
+  - **NPC Confounding Variable Check**: During both turns, the wandering Scientist NPC (`SPRITE_cdfc`) was at (8, 11) (right behind the player), meaning there was absolutely no NPC blockage in front of the player. These are clean, definitive physical tests.
+  - **Conclusion**: The crossover at Rows 11 and 12 is 100% closed and impassable on foot under State A as well. This officially disproves any on-foot walkthrough crossover hypothesis for 3F.
