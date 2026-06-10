@@ -47,7 +47,7 @@
   - Gate 3: (18, 8)-(19, 8) | State: CLOSED under State A (Verified CLOSED on Turn 80229), OPEN under State B (Verified OPEN on Turn 79932)
   - Column 11 Row 22 Gate/Corridor: OPEN under State B, CLOSED under State A.
   - Columns 12-13 Row 13 Gate: CLOSED under State A (Verified Turn 78855), and CLOSED under State B (Verified Turn 79849 by bumping into (12, 13) from (12, 12)). This gate is 100% closed under both states, meaning 2F East South cannot be accessed via Column 12-13 on Row 13.
-  - Columns 12-13 Row 26 Gate: CLOSED under State B (Verified Turn 78980), hypothesized OPEN under State A.
+  - Columns 12-13 Row 26 Gate: CLOSED under BOTH State A and State B (Verified CLOSED on Turn 80627 under State A by bumping from (12, 25)). This gate is 100% closed under both states, meaning there is no foot access to Row 27.
 - **Balcony Drop**:
   - Location: (12, 27)-(13, 27) on 2F East South (Hypothesized to drop to 1F East south-central pocket. Untested as of Turn 78871).
 - **Row 10 Crossover**: (9, 10) consists of standard open floor (TYPE_3fe2) and is completely OPEN and passable under State A (Verified Turn 78826).
