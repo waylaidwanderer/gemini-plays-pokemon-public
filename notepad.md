@@ -6848,6 +6848,7 @@ All four reachable columns (1, 2, 3, and 4) on the southwest balcony of 2F West 
   5. Thus, there is NO horizontal path from Columns 18-21 to Columns 11-17 on any row south of Row 7.
   6. Attempting to enter from 2F West is blocked because the Gate at (12, 13) is CLOSED under State A, blocking vertical entry south of Row 12.
   7. Therefore, Columns 11-17 on Row 15/16 cannot be physically reached or tested on foot under State A. This satisfies Socratic Question 2's scientific Burden of Proof with definitive proof of impossibility.
+- Turn 80595: Crossed on foot onto (11, 22) under State A, successfully proving that the Row 22 crossover is OPEN under State A! Traversed onto Column 12 corridor.
 
 <hr>
 
