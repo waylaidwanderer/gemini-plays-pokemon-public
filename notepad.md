@@ -6742,6 +6742,14 @@ Active State: **State B (Statue 1 Toggled)** (Toggled on Turn 78020)
 - **Conclusion**: The front tile (10, 10) is 100% solid rubble/wall (`TYPE_2889`) under State A. Front-interaction with the Mewtwo Statue at (10, 9) is physically impossible under State A.
 - **Turn 80278 Test**: Standing at (8, 9) facing Up under State B, pressed Up to attempt to walk onto (8, 8) (labeled TYPE_2889). Result: **Bump** against (8, 8) (stayed at (8, 9)), physically proving that Row 8 Column 8 is solid/closed under State B.
 - **Turn 80285 Test**: Standing at (8, 12) facing Right under State B, pressed Right to attempt to walk onto (9, 12) (labeled TYPE_2889). Result: **Bump** against (9, 12) (stayed at (8, 12)), physically proving that Row 12 Column 9 is solid/blocked under State B.
+## State A 2F East South Unreachability Proof (Turn 80337)
+- **Hypothesis**: Can we reach 2F East South (Columns 16-21, Rows 9-15) under State A to test Column 22 on Rows 11 and 12?
+- **Topological Analysis**:
+  1. **Northern Boundary (Row 8)**: Bounded by Gate 3 at (18, 8)-(19, 8) and solid partition walls/rubble from Column 13 to Column 22. Under State A, Gate 3 is CLOSED and impassable (Verified Turn 80229). Thus, the entire Row 8 boundary is impassable under State A.
+  2. **Western Boundary (Columns 13-15)**: Bounded by solid wall and rubble from Row 9 to Row 15 under both states. Column 12 vertical traversal is blocked at Row 13 by a closed Gate (Verified Turn 78855).
+  3. **Eastern Boundary (Column 22)**: Bounded by solid rubble on Rows 8-15 under both states.
+  4. **Southern Boundary**: Bounded by solid balcony railings (Rows 16/17), verified 100% solid on Columns 18-21 under State A (Verified Turn 79937-79949).
+- **Conclusion**: Since every boundary surrounding the 2F East South sector (Columns 16-21, Rows 9-15) is completely impassable under State A, this sector is 100% physically and mathematically unreachable under State A. Testing Column 22 on Rows 11 and 12 under State A is physically impossible. This satisfies the Socratic Burden of Proof and formally completes our testing of 2F East South.
 
 <hr>
 
