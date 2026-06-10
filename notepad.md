@@ -6786,6 +6786,8 @@ All four reachable columns (1, 2, 3, and 4) on the southwest balcony of 2F West 
 ## 2F East South Balcony Ledge Testing under State A (Turn 79937)
 - **Column 20**: Tested on Turn 79937 by standing at (20, 15) and attempting to walk Down onto (20, 16). Result: **Bump** against (20, 16) (stayed at (20, 15)). Confirmed 100% solid, impassable railing.
 - **Testing Protocol**: I will walk to each adjacent column on Row 15 (Column 21, Column 19, Column 18) and attempt to step Down onto Row 16 to verify if any column is a jumpable balcony drop.
+- **Column 21**: Tested on Turn 79942 by standing at (21, 15) and attempting to walk Down onto (21, 16). Result: **Bump** against (21, 16) (stayed at (21, 15)). Confirmed 100% solid, impassable railing.
+- **Testing Protocol**: I will walk to Column 19 on Row 15 next and attempt to step Down.
 
 <hr>
 
