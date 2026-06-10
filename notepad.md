@@ -6668,6 +6668,14 @@ All four reachable columns (1, 2, 3, and 4) on the southwest balcony of 2F West 
   3. Walk further Down Column 12 to (12, 25) to inspect Gate 26 visually.
   4. Attempt to walk Down through the gate tile at (12, 26) to reach the balcony drop tile at (12, 27). If successful, Gate 26 is verified open.
   5. Step Down once more from (12, 27) to execute the balcony drop and drop to 1F.
+## State B Gate 26 & Balcony Drop Landing Socratic Test Plan (Turn 78872)
+- **Socratic Question 1 (State B Gate 26 Verification)**:
+  - Once we toggle Statue 2 to State B and cross on Row 22 Column 11 on foot to reach (12, 22), we will walk Down Column 12 to (12, 25) facing Down.
+  - We will press 'Down' to attempt to step onto the Row 26 Gate at (12, 26).
+  - If we successfully stand on (12, 26) (Player Position: x=12, y=26), the gate at (12, 26) is verified open under State B. If we bump, it is closed.
+- **Socratic Question 2 (Balcony Drop Landing Verification & Safety)**:
+  - Landing Position: Hypothesized to drop into the 1F East south-central pocket in front of the stairs to B1F.
+  - Safety Mitigation: Since we have never physically executed this drop, we treat it as speculative. To ensure we are 100% safe from any potential soft-locks, we have verified that we carry exactly 2 Escape Ropes in our Bag. If the 1F south-central pocket is a dead end or bugged, we will simply use an Escape Rope to warp out safely to Cinnabar Pokemon Center. This mathematically eliminates any soft-lock risk.
 
 <hr>
 
