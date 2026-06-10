@@ -52,3 +52,4 @@
     2. Press Right.
     3. If we step onto (22, Y), Column 22 is OPEN on Row Y under State B! We will immediately document this open gate, walk into the Southeast room (Columns 23-28), and climb the stairs at (25, 14) up to 3F East.
     4. If we bump, Column 22 is CLOSED on Row Y under State B. We will log the bump (including Turn number), walk Down to (21, Y+1), and repeat.
+- **Turn 79398 Systematic Test Row 9**: From (21, 9) facing Right, pressed Right against (22, 9) (`TYPE_2889`). Result was a BUMP, physically proving Column 22 is CLOSED/solid on Row 9 under State B.
