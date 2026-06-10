@@ -116,6 +116,11 @@
   - Columns 26, 27, 28 are bounded by solid walls and rubble (26, 13 is solid, 27, 10-11 and 28, 8-11 are rubble).
   - A large wooden table occupies (24, 8)-(25, 9) (TYPE_2889), surrounded by passable floor of TYPE_3fe2.
   - The electronic gate at (25, 13) was tested on Turn 75301 and found to be CLOSED and impassable. This blocks access to the southern section of the eastern room on 1F (Rows 14-16, Columns 22-27).
+  - **State A Row 13 Passability Verification (Turns 79215-79227)**:
+    - Column 23 Row 12 (stone pillar/statue TYPE_2889): Verified 100% solid on Turn 79215 by attempting to walk Down from (23, 11) and bumping. This blocks Column 23 vertical traversal before reaching Row 13.
+    - Column 24 Row 13 (Gate 1 TYPE_a83b): Verified CLOSED on Turn 79220 by attempting to walk Down from (24, 12) and bumping.
+    - Column 25 Row 13 (Gate 1 TYPE_a83b): Verified CLOSED on Turn 79227 by attempting to walk Down from (25, 12) and bumping.
+    - This conclusively proves Row 13 is 100% closed on foot under State A, isolating the 1F East south-central pocket.
   - Under State B (Statue 2 Toggled):
     - Gate 1 at (25, 13) is OPEN and passable (Verified Turn 75550).
     - Gate 4 at (21, 17) is CLOSED (Verified Turn 75551).
