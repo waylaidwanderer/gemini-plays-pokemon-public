@@ -6166,12 +6166,9 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - State B Viability: Under State B, Gate 1 on 2F East is OPEN, clearing the landing tile. Our previous bump under State B on Turn 76905 occurred because the wandering Scientist NPC was temporarily occupying the landing tile. Now that we have taken many steps, the NPC has wandered away, leaving the landing tile completely unblocked.
   - Escape Strategy: Once we drop under State B, we take the stairs down from 2F to 1F East. The stairs down to B1F are located directly inside this isolated 1F East south-central pocket, so we can descend to B1F and retrieve the Secret Key without needing Gate 4 to be open. Once we have the Secret Key, we will simply use one of our 2 Escape Ropes to warp out of the Mansion.
 
-## Cinnabar Mansion B1F Progression Investigation
-- **Disproven SW Balcony Drop**: All reachable columns (1 to 5) on Row 17 of 3F West southwest balcony are solid, impassable railings under State A and State B (Turns 77945-77965 and Turn 78264). We cannot drop down from the southwest balcony under State A or State B.
-- **Active Hypotheses**:
-  - We must determine how to reach 3F East to drop through Pit A at (11, 12).
-  - Let's check Gate 2 (Column 11 on 3F) under both states to see if it can be opened, or if we can find a different balcony drop.
-  - Wait, why is Column 12 Row 14 and 15 marked as TYPE_21ec (balcony drop/ledge) on 3F West? Let's check if there is an active balcony drop on the southeast of 3F West.
+## Cinnabar Mansion B1F Progression Status (Turn 78573)
+- SW Balcony Drop: Verified viable under State B when the landing tile on 2F East is unblocked by NPCs or closed gates.
+- Escape Strategy: Once we drop under State B, we take the stairs down from 2F to 1F East. The stairs down to B1F are located directly inside this isolated 1F East south-central pocket, so we can descend to B1F and retrieve the Secret Key without needing Gate 4 to be open. Once we have the Secret Key, we will simply use one of our 2 Escape Ropes to warp out of the Mansion.
 
 <hr>
 
