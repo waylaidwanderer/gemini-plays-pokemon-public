@@ -6706,6 +6706,7 @@ Active State: **State B (Statue 1 Toggled)** (Toggled on Turn 78020)
 - Turn 79736: Testing passability of (9, 12) under State B by walking 'Right', 'Right', 'Down' from (7, 11). This will establish physical proof if (9, 12) is passable under State B.
 - Turn 79751: Attempted to walk Up from (6, 8) into (6, 7). Result: Collided, proving (6, 7) is solid/impassable under State B.
 - Turn 79752: Testing passability of (5, 7) by walking Left to (5, 8) and attempting to walk Up into (5, 7). This will establish physical proof if (5, 7) is passable under State B.
+- Turn 79761: Testing passability of (7, 7) by walking Right to (7, 8) and attempting to walk Up into (7, 7). This will complete our physical testing of all possible Row 7 tiles under State B.
 
 <hr>
 
