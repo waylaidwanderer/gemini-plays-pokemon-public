@@ -49,3 +49,8 @@ All four reachable columns (1, 2, 3, and 4) on the southwest balcony of 2F West 
 - **Methodology**: Stood at (9, 9) facing Right, and pressed 'A' to interact with the statue at (10, 9) under State A.
 - **Results**: No textbox appeared and no interaction took place.
 - **Conclusion**: The Mewtwo Statue at (10, 9) on 3F West is purely decorative, exactly like the statue at (13, 9) on 2F East. There is no active switch on the third floor of Pokémon Mansion. This definitively disproves the 3F West switch hypothesis and satisfies the Socratic Burden of Proof.
+## 2F Row 10 Crossover Test under State A (Turn 78826)
+- **Hypothesis**: The horizontal crossover on Row 10 at (9, 10) consisting of TYPE_3fe2 floor tiles remains open and passable under State A, despite Gate 6 being closed.
+- **Methodology**: Stood at (7, 10) on 2F West under State A, and walked Right 3 steps horizontally to (10, 10).
+- **Results**: Traversal was 100% successful with zero collisions, landing exactly on (10, 10) (Verified in GameState on Turn 78826).
+- **Conclusion**: The Row 10 crossover is completely open and passable under State A, providing foot access to the eastern side of the mansion. This satisfies Socratic Question 1's Burden of Proof.
