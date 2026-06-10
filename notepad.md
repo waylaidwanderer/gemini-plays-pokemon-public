@@ -6790,6 +6790,9 @@ Active State: **State B (Statue 1 Toggled)** (Toggled on Turn 78020)
   - Standing at (5, 16) facing Right under State B. Pressed Right to attempt to walk onto (6, 16) (`TYPE_2889`).
   - Result: Collision, stayed at (5, 16).
   - Conclusion: Row 16 Column 6 is indeed 100% solid and impassable under State B. This officially disproves the hypothesis that the Row 16 balcony floor runs horizontally underneath the vertical wall of Column 10 to provide a walkthrough passage to 3F East. Row 16 is completely blocked at Column 6.
+- **Turn 81047 Test Plan (Row 11 Column 10 passability under State B)**:
+  - NPC (SPRITE_cdfc) is frozen/stunned at (4, 11), guaranteeing zero NPC blockage in the crossover area.
+  - We will walk from (8, 12) to (8, 11) to (9, 11), and then press Right to attempt to step onto (10, 11) under State B. This will definitively prove whether the crossover is passable under State B when the NPC is elsewhere.
 
 <hr>
 
