@@ -6204,16 +6204,6 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   3. We will NEVER step blindly onto any tile that has not been confirmed to be a standard floor tile (such as TYPE_3fe2).
   4. We will systematically map the coordinates of all walls, balconies, and pit boundaries from a safe distance before choosing which pit to fall into.
 
-### Cinnabar Mansion State Debugging & Correction (Turn 79652)
-- **The Core Flaw**: On Turn 78784, we concluded that the Mewtwo Statue at (10, 9) on 3F West was "purely decorative" because we attempted to interact with it from (9, 9) facing Right under State A, and got no response.
-- **Overwatch Breakthrough Hypothesis**: Under State B, the side interaction from (9, 9) facing Right is hypothesized to be active! Interacting with the statue at (10, 9) under State B will toggle a third local gate circuit that opens the crossover to 3F East!
-- **The Correction Plan**:
-  1. Walk Down 1 step to (9, 10), then Left 2 steps to (7, 10) and take the stairs down to 2F West.
-  2. Walk to Statue 2 at (2, 11) (standing at (2, 12) facing Up) and toggle the switch to **State B** (Toggled).
-  3. Return to 3F West via the (7, 10) stairs.
-  4. Walk to (9, 9) facing Right, and press A to interact with the 3F Mewtwo Statue at (10, 9) under State B.
-  5. Verify if this toggles a secret switch/local gate circuit that clears the rubble at Column 10 and opens the crossover to 3F East!
-
 ## Socratic Socratic Answers (Turn 79575)
 ### Socratic Question 1: 3F East Pit Landing & Escape Protocol
 - **Systematic Protocol**: Once we cross into the Eastern wing of 3F East under State B, we will limit all movements to **1-tile chunks** (single step inputs) to avoid accidental falls. We will visually map the pit coordinates (`TYPE_21ec`) from adjacent safe floor tiles (`TYPE_3fe2`).
