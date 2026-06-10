@@ -6743,6 +6743,7 @@ Active State: **State B (Statue 1 Toggled)** (Toggled on Turn 78020)
 - **Turn 80408 Physical Verification**: Stood at (9, 11) facing Right under State B (Statue 2 Toggled), and pressed Right to step onto (10, 11). Result: **Bump** (stayed at (9, 11)), physically proving that Column 10 Row 11 (Gate 2) is CLOSED and impassable under State B.
 - **Definitive 3F Crossover Conclusion**: Since Column 10 is solid rubble/wall on all Rows (8-15) and Column 9 Row 12 is blocked, the 3F West-East on-foot crossover is 100% closed and impassable under BOTH State A and State B. This officially disproves any on-foot walkthrough crossover hypothesis for 3F. Our previous empirical findings on Turn 77004 were indeed correct, and we have fully ruled out any false-positive NPC blockage.
 - **Turn 80446 Physical Verification (Row 15)**: Stood at (7, 15) facing Right under State B (Statue 2 Toggled), and pressed Right to step onto (8, 15). Result: **Bump** (stayed at (7, 15)), physically proving that Column 8 Row 15 is CLOSED and impassable under State B.
+- Turn 80472: Standing at (8, 13) under State B (Statue 2 Toggled), attempted to walk Right into (9, 13) (labeled TYPE_2889). Result: Bumped against (9, 13), remaining at (8, 13). Visually, Column 9 on Row 13 consists of solid rock rubble of TYPE_2889. This physically proves that Column 9 Row 13 is impassable and CLOSED.
 
 <hr>
 
