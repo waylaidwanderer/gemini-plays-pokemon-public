@@ -6659,6 +6659,7 @@ Active State: **State B (Statue 1 Toggled)** (Toggled on Turn 78020)
     4. If we bump, Column 22 is CLOSED on Row Y under State B. We will log the bump (including Turn number), walk Down to (21, Y+1), and repeat.
 - **Turn 79398 Systematic Test Row 9**: From (21, 9) facing Right, pressed Right against (22, 9) (`TYPE_2889`). Result was a BUMP, physically proving Column 22 is CLOSED/solid on Row 9 under State B.
 - **Turn 79410 Systematic Test Row 11**: From (21, 11) facing Right, pressed Right against (22, 11) (`TYPE_2889`). Result was a BUMP, physically proving Column 22 is CLOSED/solid on Row 11 under State B.
+- **Turn 79416 Systematic Test Row 12**: From (21, 12) facing Right, pressed Right against (22, 12) (`TYPE_2889`). Result was a BUMP, physically proving Column 22 is CLOSED/solid on Row 12 under State B.
 
 <hr>
 
