@@ -6600,6 +6600,7 @@ Active State: **State B (Statue 1 Toggled)** (Toggled on Turn 78020)
 - **Conclusion**: The Mewtwo Statue at (10, 8) on 1F West is purely decorative. There is no active switch at this location.
 | **Gate 26** (2F, (12, 26)-(13, 26)) | **CLOSED** (Impassable) | **CLOSED** (Impassable) | State A: Verified CLOSED on Turn 80627 by standing at (12, 25) facing Down and pressing Down, resulting in a bump. State B: Verified CLOSED on Turn 78980. This gate is 100% closed under both states, blocking foot access to Row 27. |
 | **Gate 13** (2F, (12, 13)-(13, 13)) | **CLOSED** (Impassable) | **CLOSED** (Impassable) | State A: Verified CLOSED on Turn 78855. State B: Verified CLOSED on Turn 79849 by bumping into (12, 13) from (12, 12). This gate is 100% closed under both states, meaning 2F East South cannot be accessed via Column 12-13 on Row 13. |
+- Turn 80849: Stood at (21, 16) facing Down and pressed Down. Resulted in a direct BUMP against (21, 17) (Gate 4), physically proving that Gate 4 at (21, 17) is CLOSED and impassable under Gate State B. This confirms that the 1F south-central pocket is completely unreachable on foot from the north.
 
 <hr>
 
