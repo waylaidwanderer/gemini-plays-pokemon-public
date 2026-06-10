@@ -34,3 +34,5 @@
 - **Methodology**: Walk Up from (9, 11) to (9, 9), then attempt to step Up onto (9, 8) to see if we bump.
 - **Turn 79282 Test**: Walked Up 3 times from (9, 11) to test (9, 8).
 - **Turn 79310 State A Gate 2 Test Preparation**: Backtracked to 2F West at (2, 12) facing Up to toggle Statue 2 back to State A. After toggling, we will climb the stairs at (7, 10) back to 3F, stand at (9, 9) facing Up, and attempt to walk Up onto (9, 8) to see if Gate 2 is open under State A.
+- **Turn 79330 State A Gate 2 Test**: Walked Up from (9, 9) and bumped against (9, 8) on Turn 79330. This physically proves that Gate 2 is CLOSED under State A. Since it was also verified CLOSED under State B, 3F West has no on-foot crossover to 3F East under any state.
+- **New Path Plan (Column 22 State B Corridor Test)**: We are backtracking to 2F West to toggle Statue 2 back to State B. Then we will walk to 2F East South and test the passability of Column 22 under State B to see if it opens access to the isolated Southeast room (and thus the stairs up to 3F East).
