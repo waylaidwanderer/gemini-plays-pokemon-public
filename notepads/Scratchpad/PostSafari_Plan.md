@@ -44,3 +44,19 @@
     - Identify any staircases, walls, and gates.
     - Systematically test the boundary tiles.
     - Only after verifying the exact pit coordinates and correlating them with the 1F landing zones will we execute the drop to land in the target 1F south-central pocket.
+
+## Cinnabar Mansion Breakthrough Exploration Phase (Turn 79491)
+- **Verified Fact**: 2F East South Column 22 is completely solid/rubble under State B across all rows 9-15 (Verified systematically Turn 79446). This means 2F Southeast room (containing the stairs to 3F East) is completely isolated on foot on 2F under BOTH State A and State B.
+- **Critical Path Hypothesis**: Row 12 Column 10 on 3F West is the ONLY remaining untested boundary tile on Column 10 under State B. In vanilla Red/Blue, the door to 3F East is at Column 11 Row 12, and Row 12 Column 10 is open floor. Since State B is active, this gate is hypothesized to be OPEN, allowing us to walk from 3F West to 3F East.
+- **Protocol for 3F East Mapping**:
+  1. Once we walk through (10, 12) onto (11, 12), we will halt and visually scan the East wing.
+  2. We will map all pits on 3F East (such as the giant central pit) tile-by-tile.
+  3. We will locate the break in the southern balcony railing on 3F East.
+  4. Only after documenting all coordinates will we walk into the central pit to drop down.
+- **Trapped Pocket & Escape Plan**:
+  - Falling through the 3F East pit lands us in the 1F south-central pocket (near the stairs to B1F).
+  - Under State B, Gate 4 at (21, 17) is closed, meaning we are 100% trapped on foot in this 1F pocket.
+  - This is fine! We will immediately go down the stairs to B1F, find the Secret Key, and use one of our **2 Escape Ropes** to escape. No Gate 4 bypass is necessary.
+- **B1F Mapping Protocol**:
+  - Once in B1F, we will walk along every passable tile, logging items, statues, and gates.
+  - We will record all B1F gates and switch dependencies in `Scratchpad/Mansion_Gate_Matrix` using our structured circuit matrix format.
