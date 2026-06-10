@@ -60,3 +60,11 @@
 - **B1F Mapping Protocol**:
   - Once in B1F, we will walk along every passable tile, logging items, statues, and gates.
   - We will record all B1F gates and switch dependencies in `Scratchpad/Mansion_Gate_Matrix` using our structured circuit matrix format.
+
+### 3F East Pit-Mapping Spatial Safety Protocol (Added Turn 79515)
+- **The Risk**: Overworld pit tiles (such as TYPE_21ec, visually dark voids) trigger immediate, irreversible map transitions/falls upon step contact. Rushing can result in an accidental fall before mapping is complete.
+- **Safety Protocol**:
+  1. Once we cross into the eastern wing on 3F East under State B, we will limit all movements near boundaries or unfamiliar areas to **1-tile chunks** (pressing only one directional button at a time).
+  2. We will verify the screen and tile labels after every single step.
+  3. We will NEVER step blindly onto any tile that has not been confirmed to be a standard floor tile (such as TYPE_3fe2).
+  4. We will systematically map the coordinates of all walls, balconies, and pit boundaries from a safe distance before choosing which pit to fall into.
