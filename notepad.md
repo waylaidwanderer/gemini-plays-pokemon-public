@@ -6225,6 +6225,18 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 - **1F West Switch Statue 1 Plan**: If we need to find and toggle Statue 1 on 1F West in the future, we must explore the westernmost room (Columns 1-4, typically around (2, 5)), as the statue at (10, 8) has been proven decorative.
 - **3F West (9, 12) State B Re-Verification Plan**: If we ever re-test the passability of (9, 12) under State B, we must visually verify that the Scientist NPC (SPRITE_cdfc) is elsewhere (e.g. at (4, 11)) and not standing on (9, 12) or (9, 13) to prevent a false-positive collision.
 
+## The Definitive Progression Hypothesis (Turn 80836)
+- **Problem**: 3F West-East crossover is 100% blocked under both states. 1F East South is blocked from 1F West under State A, and 1F south-central pocket (B1F stairs) is isolated on foot under State B.
+- **The Breakthrough Solution**:
+  1. Return to 1F West, go up to 2F West, and toggle Statue 2 back to **State A (Default)**.
+  2. Under State A, the 2F Row 22 crossover at Column 11 is OPEN (verified on Turn 80595).
+  3. Walk onto (12, 22) on 2F East South under State A.
+  4. Walk Right across Column 22 onto (23, 22). *Hypothesis: Column 22 is open under State A (whereas it was blocked under State B).*
+  5. This enters the 2F Southeast room, which contains the stairs up to 3F East at (25, 14).
+  6. Go up the stairs to 3F East.
+  7. On 3F East, walk to the balcony pit and jump down to B1F!
+- **Verification Plan**: We will backtrack to 2F West, toggle State A, and physically test if Column 22 is open under State A on Row 22. This satisfies the scientific Burden of Proof!
+
 <hr>
 
 <h1><code>Locations/CeladonGym</code></h1>
