@@ -6492,7 +6492,7 @@ Therefore, ground-level entry is impossible, proving the 1F south-central pocket
 <h1><code>Scratchpad/Mansion_Gate_Matrix</code></h1>
 
 # Pokémon Mansion Gate State Matrix (Turn 75980)
-Active State: **State A (Statue 2 Default)** (Toggled back on Turn 77818)
+Active State: **State B (Statue 1 Toggled)** (Toggled on Turn 78020)
 
 ## State Table
 | Gate ID & Location | State A (Statue 2 Default) | State B (Statue 2 Toggled) | Verification & Proof of Work |
