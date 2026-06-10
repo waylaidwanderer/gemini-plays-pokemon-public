@@ -56,3 +56,4 @@
 - **Methodology**: Stood at (9, 10) on Map 0_215 (3F) facing Right. Pressed 'Right' to attempt to step onto (10, 10) under State A.
 - **Results**: Visited 0 tiles. Collided/bumped with (10, 10), remaining at (9, 10) facing Right.
 - **Conclusion**: The front tile (10, 10) is 100% solid rubble/wall (`TYPE_2889`) under State A. Front-interaction with the Mewtwo Statue at (10, 9) is physically impossible under State A.
+- **Turn 80278 Test**: Standing at (8, 9) facing Up under State B, pressed Up to attempt to walk onto (8, 8) (labeled TYPE_2889). Result: **Bump** against (8, 8) (stayed at (8, 9)), physically proving that Row 8 Column 8 is solid/closed under State B.
