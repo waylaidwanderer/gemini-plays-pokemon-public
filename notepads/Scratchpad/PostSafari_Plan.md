@@ -16,3 +16,17 @@
   - [x] Step 2: If State B yields only bumps, backtrack to 2F West (2, 11) and toggle Mewtwo Statue 2 back to **State A** (Default).
   - [x] Step 3: Systematically test the 2F West southwest balcony railings under **State A** to find any active jump-down ledges. (Result: All 4 columns are solid).
   - [x] Step 4: Systematically test the 3F West southwest balcony railings (Row 17, Columns 1 to 5) under **State A** to find any active jump-down ledges! (Result: All 5 columns are 100% solid, impassable railings).
+## State A 3F Gate 2 Crossover Analysis & Final Pit A Discovery (Turn 78058)
+- **Visual Breakdown of 3F West/East Gate 2**:
+  - In State B, Row 8 at Columns 8, 9, 10, 11 consists of closed electronic gates (`TYPE_2889`) represented visually by gold horizontal bars. This completely blocks vertical passage from Row 9 to Row 7.
+  - Column 10 is solid rubble (`TYPE_2889`) on Rows 9 to 15, preventing horizontal crossing.
+  - **The State A Solution**: Under **State A** (Default), the electronic gate on Row 8 Columns 8, 9, 10, 11 opens and becomes passable floor (`TYPE_3fe2`). This unlocks direct vertical traversal from 3F West Row 9 (Columns 8 or 9) UP to Row 7.
+  - Once on Row 7, the horizontal corridor is completely open across Columns 10, 11, and 12, allowing us to walk directly into 3F East!
+  - On 3F East, we can walk vertically down Column 12 to (12, 12) (Pit A) and drop down to reach B1F!
+- **Action Plan**:
+  1. Descend the stairs at (7, 10) on 3F West to land on 2F West at (7, 11).
+  2. Walk Left horizontally along Row 11 to Mewtwo Statue 2 at (2, 11) on 2F West.
+  3. Toggle Statue 2 back to **State A** (Default).
+  4. Walk Right horizontally along Row 11 back to (7, 11) and climb UP the stairs at (7, 10) to land on 3F West at (7, 11).
+  5. On 3F West (now under State A), walk to Column 8 or 9 on Row 9, walk UP onto Row 8 (gate is open!), and cross horizontally along Row 7 to Column 12 (3F East).
+  6. Walk Down Column 12 to (12, 12) and fall down Pit A to land on B1F!
