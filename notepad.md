@@ -6220,6 +6220,17 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   3. We will NEVER step blindly onto any tile that has not been confirmed to be a standard floor tile (such as TYPE_3fe2).
   4. We will systematically map the coordinates of all walls, balconies, and pit boundaries from a safe distance before choosing which pit to fall into.
 
+### Cinnabar Mansion State Debugging & Correction (Turn 79526)
+- **The Misinterpretation**: On Turn 79485, we attempted to walk Left 5 steps through Gate 6 under State B, but visited 0 tiles. We erroneously assumed we bumped against a closed Gate 6, which led us to believe the mansion was in State A. In reality, the movement was aborted because a wild Grimer battle triggered on the very first step!
+- **The Mistake**: Believing we were in State A, we backtracked to Statue 2 and toggled it on Turn 79516. This actually toggled the mansion from State B *back to State A*, closing Gate 6 on 2F and the gate on 3F!
+- **The Proof**: Currently on Turn 79526, we are on 3F West under State A, and we can visually see that Column 10 and 11 on 3F are completely solid/closed. 
+- **The Correction Plan**:
+  1. Go down the stairs at (7, 10) to 2F West.
+  2. Walk to Statue 2 at (2, 11) (standing at (2, 12) facing Up).
+  3. Toggle the switch back to **State B** (Toggled).
+  4. Return to 3F West via the (7, 10) stairs.
+  5. Verify that the 3F gate is now OPEN, allowing us to cross to 3F East!
+
 <hr>
 
 <h1><code>Locations/CeladonGym</code></h1>
