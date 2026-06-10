@@ -159,3 +159,8 @@ We can step Right to (3, 12).
 From (3, 12), we walk Up 2 steps to (3, 10).
 From (3, 10), we walk Right 7 steps to (10, 10).
 Let's begin!
+## Turn 78940 Row 11 Bypass Verification
+- **Verified Fact**: Stood at (5, 11) on 2F West under State B, walked Right 5 steps horizontally to (10, 11) on Row 11.
+- **Results**: Traversal was 100% successful with zero collisions or warp events. We bypassed both staircase warps on Row 10 (at (5, 10) and (7, 10)) completely!
+- **Current Position**: (10, 11) facing Right.
+- **Next Plan**: Walk Down Column 10 to Row 22, then cross Right to Column 12 to test Gate 26 under State B.
