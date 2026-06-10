@@ -6644,6 +6644,7 @@ All four reachable columns (1, 2, 3, and 4) on the southwest balcony of 2F West 
     - Column 2: Tested on Turn 77960 by pressing Down from (2, 16) facing Down. Result: **Bump** against (2, 17). Confirmed 100% solid, impassable railing.
     - Column 1: Tested on Turn 77964 and Turn 77972 by pressing Down from (1, 16) facing Down. Result: **Bump** against (1, 17). Confirmed 100% solid, impassable railing.
 - **Definitive Balcony Conclusion**: All reachable columns (1 to 5) on Row 17 of 3F West under BOTH State A and State B are 100% solid, impassable railings with no drop-off.
+- **Column 10**: Tested on Turn 78684 under State B by walking Down to (10, 19) and attempting to walk Down onto Row 20.
 
 <hr>
 
