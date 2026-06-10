@@ -6632,6 +6632,11 @@ Active State: **State B (Statue 1 Toggled)** (Toggled on Turn 78020)
   - Visually confirmed on the screen that Rows 6 and 7 are blocked by TYPE_2889 rubble from Column 3 all the way to Column 9.
 - **No Remaining Hypotheses**: All possible physical on-foot crossover paths on 3F between West and East have been systematically tested and are confirmed 100% blocked under both State A and State B. There is no walkthrough connection on 3F.
 
+## 3F Row 8 Gate (Gate 2) Test under State B (Turn 79282)
+- **Hypothesis**: Under State B, the horizontal gate on Row 8 at (8, 8)-(11, 8) is CLOSED and impassable.
+- **Methodology**: Walk Up from (9, 11) to (9, 9), then attempt to step Up onto (9, 8) to see if we bump.
+- **Turn 79282 Test**: Walked Up 3 times from (9, 11) to test (9, 8).
+
 <hr>
 
 <h1><code>Scratchpad/Mansion_Fall_Tests</code></h1>
