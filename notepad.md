@@ -6426,7 +6426,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Rubble (TYPE_2889) blocks columns 8 to 11 on Rows 8 and 9.
   - **Northern Open Corridors (Crossings)**: Column 11 and Column 13 are open at the North on Rows 4, 5, 6 (open floor TYPE_3fe2), allowing players to walk directly between 1F West and 1F East on foot (Verified Turn 76210). Furthermore, Column 22 is open on Rows 2, 3 (open floor TYPE_3fe2), allowing player to cross into the eastern-most room (Columns 23-28) on foot (Verified Turn 76221). Thus, 1F East is fully accessible on foot from 1F West under both State A and State B.
   - A passable corridor on Column 12 (open floor TYPE_3fe2) starts at Row 7 and goes South to Row 11, connecting the eastern room to the southern corridor.
-  - **Column 24 Partition Wall & South-Central Pocket Isolation (Hypothesized)**: We previously documented that Column 24 has a solid wall of TYPE_2889 on Rows 14-27 under State B. However, in vanilla Pokémon, there is no such wall dividing the eastern side of 1F East, meaning Column 24 is completely open and passable. We will descend to 1F and physically test the horizontal passability of Column 24 under State B to satisfy the Burden of Proof. If Column 24 is passable, we can reach the B1F stairs directly on foot from 1F West.
+  - **Column 24 Passability (Verified Turn 83182)**: Column 24 Row 14 is completely open and passable on foot under State B. This allows us to walk directly into the Southeast room of 1F East from Gate 1.
 
 ---
 
