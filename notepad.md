@@ -6244,11 +6244,6 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 - **Turn 81471-81472 State A Row 25 Column 14 passability test**:
   - Stand at (13, 25) under State A, pressed Right to attempt to step onto (14, 25) (TYPE_2889).
   - Result: **Bump**, remaining at (13, 25) (Turn 81472).
-  - **Conclusion**: Column 14 Row 25 is completely solid/impassable under State A. This disproves the hypothesis that we can bypass Gate 26 on foot by walking east onto Column 14.
-- **Turn 81479 State A Row 26 Column 11 passability test**:
-  - Stand at (10, 26) under State A, pressed Right to attempt to step onto (11, 26) (TYPE_2889).
-  - Result: **Bump**, remaining at (10, 26) (Turn 81479).
-  - **Conclusion**: Column 11 Row 26 is completely solid/impassable under State A. This disproves the hypothesis that we can bypass Gate 26 on foot by walking west onto Column 11.
 
 ## State A Column 12 Row 13 Physical Passability Test (Turn 81812 Verification)
 - **Physical Test Result**: Standing at (12, 12) under State A on Turn 81812, we attempted to walk Down onto (12, 13). Result: **Bump** (stayed at (12, 12)), physically and empirically proving that Column 12 Row 13 is CLOSED and solid/impassable under State A. This confirms our original layout model that Column 12 is blocked at Row 13 on 1F under State A.
