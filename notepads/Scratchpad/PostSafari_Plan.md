@@ -131,3 +131,7 @@
     - (2, 6) -> (3, 6) -> (3, 2) -> (10, 2) -> (25, 2) (Crossing Column 22 on Row 2/3).
     - From (25, 2), we will enter the Northeast room (Columns 23-28, Rows 2-13) and systematically foot-test all staircase-like coordinates on foot.
   - This systematic test will locate the active staircase warp that grants us access to 2F Southeast and 3F East, allowing us to drop down the pit to B1F!
+### Live Exploration Log (Turns 81886-81899)
+- **Turn 81886**: Standing at (27, 9) in the Northeast room of 1F under State B. Visually verified that (27, 10) and (27, 11) are solid rubble.
+- **Turn 81893**: Walked from (27, 9) to (23, 11) via (26, 9) -> (26, 10) -> (26, 11) -> (25, 11) -> (24, 11) -> (23, 11). No warp triggered on any of these tiles.
+- **Turn 81899**: standing at (23, 11). We will now walk Right to (28, 12) via (26, 11) and (26, 12) to test (27, 12) and (28, 12).
