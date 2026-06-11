@@ -108,3 +108,17 @@ All four reachable columns (1, 2, 3, and 4) on the southwest balcony of 2F West 
       - Step 7: Walk Down to (5, 14). (Tile: TYPE_3fe2)
       - Step 8: Walk Down to (5, 15). (Tile: TYPE_3fe2, the balcony floor)
     - Let's execute this 8-step sequence first, and verify our position is exactly at (5, 15) facing Down.
+- **Turn 82972 State A (Default) 3F West Balcony Edge Drop Test Results**:
+  - We have successfully returned to 3F West. We are at (7, 11) facing Down (adjacent to the stairs at (7, 10)).
+  - The Scientist NPC is at (4, 11) (facing Down).
+  - Let's trace our route from (7, 11) to the balcony floor at (5, 15):
+    - (7, 11) is open.
+    - We cannot walk through (4, 11) because of the Scientist. But Column 5 is completely clear.
+    - Path to (5, 15) via Column 5:
+      - Step 1: Walk Left to (6, 11). (Tile: TYPE_3fe2)
+      - Step 2: Walk Left to (5, 11). (Tile: TYPE_3fe2)
+      - Step 3: Walk Down to (5, 12). (Tile: TYPE_3fe2)
+      - Step 4: Walk Down to (5, 13). (Tile: TYPE_3fe2)
+      - Step 5: Walk Down to (5, 14). (Tile: TYPE_3fe2)
+      - Step 6: Walk Down to (5, 15). (Tile: TYPE_3fe2)
+    - Let's execute this 6-step movement sequence.
