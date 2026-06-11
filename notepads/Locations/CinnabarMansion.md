@@ -5,10 +5,10 @@
   - Interacting with a statue toggles the state of gates (doors with iron bars) throughout the floor or building.
   - Status check: There are two types of gates: **Open Gates** and **Closed Gates**.
   - Statues toggle these states: when one type opens, the other type closes.
-  - **Global Switch Reset on Floor Transition (Verified Turn 83434)**:
-    - **Verified Gen 1 Mechanic**: The state of the Cinnabar Mansion gates is **not persistent across floor transitions**. Whenever the player changes floors (takes a staircase or falls through a pit), the map initialization script executes and resets the gate state back to the default **State A**.
-    - **Correction of Previous Assumption**: On Turn 83091, we found Gate 1 closed not because of a manual toggle, but because taking the staircase from 2F to 1F on Turn 83045 reset the gates back to State A.
-    - **Strategic Rule**: Since switches reset upon map transition, we must toggle the switch on the *same floor* we want to navigate. For example, to pass Gate 1 on 1F, we must toggle Statue 1 on 1F West.
+  - **Local Switch Mechanics (Verified Turn 83440)**:
+    - **Verified Gen 1 Mechanic**: The gate switches in Cinnabar Mansion are **local to each floor**. Toggling the statue on a specific floor only opens or closes the gates on that floor, and has absolutely zero effect on other floors. Each floor's gate state persists independently.
+    - **Correction of Previous Assumption**: On Turn 83091, we found Gate 1 closed because we had only toggled Statue 2 on 2F West (on Turn 82998), which did not affect 1F. Gate 1 on 1F East remained closed until we toggled Statue 1 on 1F West (on Turn 83125).
+    - **Strategic Rule**: To navigate gates on any floor, we must interact with the switch statue located on that specific floor.
 - **Floors**:
   - **1F**: Entry floor. Contains stairs to 2F.
   - **2F**: Second floor. Contains stairs to 1F, stairs to 3F, and several balconies/falls.
