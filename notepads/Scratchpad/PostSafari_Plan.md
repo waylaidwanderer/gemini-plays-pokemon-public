@@ -48,8 +48,7 @@
 
 ## Cinnabar Mansion Breakthrough Exploration Phase (Turn 79491)
 - **Verified Fact**: 2F East South Column 22 is completely solid/rubble under both State A and State B across rows 8-15. This separates Column 21 from Column 23 on these rows.
-- **Trapped Pocket & Escape Plan**:
-  - Falling through the 3F East pit lands us in the 1F south-central pocket (near the stairs to B1F).
+
 - **B1F Mapping Protocol**:
   - Once in B1F, we will walk along every passable tile, logging items, statues, and gates.
   - We will record all B1F gates and switch dependencies in `Scratchpad/Mansion_Gate_Matrix` using our structured circuit matrix format.
