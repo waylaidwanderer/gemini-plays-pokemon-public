@@ -6849,6 +6849,18 @@ Active State: **State B (Statue 1 Toggled)** (Toggled on Turn 78020)
   - Let's search all our notepads for "stairs up to 3F" or "3F East" to see how 3F East is reached.
   - This is a critical logical dependency! We must find how 3F East is accessed!
 
+## Overworld Audit Re-evaluation Plan: 3F West-East Crossover under State B
+- **Acknowledge the Blind Spot**: We previously assumed that because Column 8 and Column 9 on Row 8 are solid under State B, the entire 3F crossover is blocked. This was a premature rejection.
+- **Socratic Challenge**: In vanilla Pokémon, Columns 8 and 9 on Row 8 are permanent solid walls in the tileset. The actual gate is located further east on Column 10 or Column 11!
+- **Testing Protocol**: We must toggle to State B and physically test Column 10 Row 8 and Column 11 Row 8 under State B. If either is open, we can walk from Row 9 Column 10/11 up to Row 7 Column 10/11 (the northern room) and walk over to Column 11 to jump down the pit!
+- **Step-by-Step Path**:
+  1. Walk from our current position (6, 8) to the stairs down at (7, 10) on 3F.
+  2. Take the stairs down to 2F West.
+  3. Walk to Mewtwo Statue 2 at (2, 11) on 2F West.
+  4. Toggle Mewtwo Statue 2 to State B.
+  5. Return to 3F West via the stairs at (7, 10).
+  6. Walk to (10, 9) or (11, 9) and test passability of Row 8 Column 10 and 11.
+
 <hr>
 
 <h1><code>Scratchpad/Mansion_Fall_Tests</code></h1>
