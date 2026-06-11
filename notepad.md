@@ -6530,6 +6530,13 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
     - Column 3: Tested on Turn 77953 by pressing Down from (3, 16) facing Down. Result: **Bump** against (3, 17). Confirmed 100% solid, impassable railing.
     - Column 2: Tested on Turn 77960 by pressing Down from (2, 16) facing Down. Result: **Bump** against (2, 17). Confirmed 100% solid, impassable railing.
     - Column 1: Tested on Turn 77964 by pressing Down from (1, 16) facing Down. Result: **Bump** against (1, 17). Confirmed 100% solid, impassable railing.
+- **State A (Statue 2 Default) Balcony East-Edge Drop Tests**:
+    - Column 5 (Row 16): Tested on Turn 82976 by standing at (5, 16) facing Right and pressing Right. Result: **Bump** against (6, 16). Confirmed 100% solid, impassable under State A.
+    - Column 6 (Row 15): Tested on Turn 82978 by standing at (6, 15) facing Down and pressing Down. Result: **Bump** against (6, 16). Confirmed 100% solid, impassable under State A.
+    - Column 7 (Row 15): Tested on Turn 82979 by standing at (7, 15) facing Down and pressing Down. Result: **Bump** against (7, 16). Confirmed 100% solid, impassable under State A.
+    - **Conclusion**: There is absolutely no walkthrough or drop-off connection on 3F West under State A (Default). All tested balcony and crossover directions are completely blocked.
+- **State A (Default) Column 10 Row 11 Passability Test**:
+    - Tested on Turn 82928 by standing at (9, 11) facing Right and pressing Right. Result: **Bump** against (10, 11) (stayed at (9, 11)). Confirmed 100% solid, impassable wall/closed gate under State A. This officially disproves any on-foot crossover under State A.
 - **Trainers**:
   - Burglar: Standing at (4, 11). Defeated on Turn 75104. Uses a Level 38 Ninetales. Marked with a ☠️ map marker.
 
