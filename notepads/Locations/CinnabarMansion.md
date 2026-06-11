@@ -5,6 +5,10 @@
   - Interacting with a statue toggles the state of gates (doors with iron bars) throughout the floor or building.
   - Status check: There are two types of gates: **Open Gates** and **Closed Gates**.
   - Statues toggle these states: when one type opens, the other type closes.
+- **Floor-Transition Switch Reset (Verified Turn 83107)**:
+  - **Verified Gen 1 Mechanic**: Whenever the player transitions between floors (taking a staircase or warp), the global mansion gate state **resets back to State A (Default)**.
+  - **Socratic Proof**: Toggling Statue 2 on 2F West to State B on Turn 82998 did not keep Gate 1 on 1F open after descending. On Turn 83091, we physically reached Gate 1 at (25, 13) on 1F and bumped, confirming it was CLOSED.
+  - **Strategic Rule**: Toggling switches on one floor has no persistent effect on other floors after a transition. We must utilize local switches (such as Statue 1 at (2, 5) on 1F West) to open local gates (such as Gate 1 at (25, 13) on 1F East) on the same floor without changing floors.
 - **Floors**:
   - **1F**: Entry floor. Contains stairs to 2F.
   - **2F**: Second floor. Contains stairs to 1F, stairs to 3F, and several balconies/falls.
