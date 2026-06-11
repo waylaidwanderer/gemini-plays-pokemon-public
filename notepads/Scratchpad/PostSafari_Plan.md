@@ -100,3 +100,11 @@
   3. Toggle Mewtwo Statue 2 at (2, 11) back to State A (Default).
   4. Climb the stairs at (7, 10) to 3F West.
   5. Go to Row 8 Column 10/11 on 3F West under State A, walk Up through the open gate, and explore the northern room of 3F West.
+
+## State B Column 24 Passability Testing Protocol (Turn 83089 Plan)
+- **Objective**: Physically test the horizontal passability of Column 24 (specifically Row 14) on 1F East under State B, verifying if the eastern Southeast room is connected on foot to the south-central pocket.
+- **Methodology**:
+  1. Walk to (26, 12), then Left to (25, 12), and Down through Gate 1 at (25, 13) to reach (25, 14).
+  2. Stand at (25, 14) facing Left (West).
+  3. Attempt to walk Left onto (24, 14) and check if we successfully step onto Column 24, or if we collide (bump).
+  4. Record the exact turn numbers, coordinates, and physical results.
