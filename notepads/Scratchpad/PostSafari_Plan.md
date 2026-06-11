@@ -100,6 +100,16 @@
 - **The Hypothesis**: In unmodded Pokémon Red/Blue, the southern balcony on the second floor (2F East South) is a completely continuous and open walkway spanning horizontally across Column 22 on Rows 16 and 17, or Row 26 provides a walkthrough bypass to Row 27 (the southern balcony).
 - **The Strategy Results**: This strategy has been **fully executed and 100% disproven**. We have systematically and physically tested Column 22 on Rows 9-15 under both State A and State B, and Row 26 on Column 11 and Column 14 under State A. All resulted in physical collisions (bumps), proving that 2F East South is completely isolated and has no walkable connection or bypass to Row 27 under State A.
 
+## 2F East South Row 26 Alternate Column Exploration Plan (Turn 81554)
+- **Background**: We have physically verified that 3F West-East crossover is 100% blocked under both states, 3F West balcony has solid railings, and 2F Southeast room is isolated under both states. 
+- **The Hypothesis**: To reach the southern balcony on Row 26/27, we can utilize our on-foot access to 2F East South under State A (Default). While Gate 26 at (12, 26)-(13, 26) is CLOSED, and Column 11 Row 26 / Column 14 Row 25 are CLOSED, there are alternate columns on Row 26 (specifically Columns 15, 16, 17, 18, 19) that may be open and provide the walkthrough to the southern balcony (Row 27).
+- **The Plan**:
+  1. Descend from 3F West (9, 11) using the stairs at (7, 10) to reach 2F West.
+  2. Walk Left to (2, 12) and toggle the Mewtwo Statue 2 back to State A (Default) to open Gate 3.
+  3. Walk East through the open Gate 3 into 2F East South (Columns 18-21).
+  4. Attempt to walk Left/West on Rows 18-24 to bypass the Column 14/15 vertical dividing wall. We will test if we can reach Columns 11-17 on these rows and systematically find an open passageway to the southern balcony (Row 26/27).
+  5. If any column is open, we will step onto the balcony (Row 27) and test for the balcony drop to 1F.
+
 ## State A Column 22 Balcony Passability Test Logs (Turn 81341)
 - **Turn 81341 (Row 15)**: Stood at (21, 15) under State A and pressed Right to attempt to step onto (22, 15) (TYPE_2889). Result: **Bump**, remaining at (21, 15). This physically and empirically proves that Column 22 is CLOSED and solid/impassable on Row 15 under State A.
 - **Turn 81347 (Row 14)**: Stood at (21, 14) under State A and pressed Right to attempt to step onto (22, 14) (TYPE_2889). Result: **Bump**, remaining at (21, 14). This physically and empirically proves that Column 22 is CLOSED and solid/impassable on Row 14 under State A.
