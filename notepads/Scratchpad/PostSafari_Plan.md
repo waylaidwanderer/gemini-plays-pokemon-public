@@ -67,10 +67,14 @@
   - On Turn 81538, we tested walking Right from the open tile (9, 11) onto (10, 11) under State B (Statue 2 Toggled). Result: **Bump**, remaining at (9, 11). This empirically proves that (10, 11) is indeed 100% solid and impassable under State B.
   - Since Column 10 is completely solid rubble/walls on Rows 8-15, and Row 12 Column 9 is solid rubble/wall under State B, the 3F West-East crossover is 100% physically blocked and impassable on foot under BOTH State A and State B. There is no walkthrough connection on 3F.
 
-## State B Column 24 Passability Testing Protocol (Turn 83089 Plan)
+## State B Column 24 Passability Testing Protocol (Turn 83089 Plan) - RESOLVED (Turn 83182)
 - **Objective**: Physically test the horizontal passability of Column 24 (specifically Row 14) on 1F East under State B, verifying if the eastern Southeast room is connected on foot to the south-central pocket.
-- **Methodology**:
-  1. Walk to (26, 12), then Left to (25, 12), and Down through Gate 1 at (25, 13) to reach (25, 14).
-  2. Stand at (25, 14) facing Left (West).
-  3. Attempt to walk Left onto (24, 14) and check if we successfully step onto Column 24, or if we collide (bump).
-  4. Record the exact turn numbers, coordinates, and physical results.
+- **Methodology & Results**:
+  1. Walked to (26, 12), then Left to (25, 12), and Down through Gate 1 at (25, 13) to reach (25, 14). (Completed)
+  2. Stood at (25, 14) facing Left (West). (Completed)
+  3. Attempted to walk Left onto (24, 14). (Completed)
+  4. Result: Traversal was 100% successful! Stood on (24, 14) with zero collisions on Turn 83182, proving that Column 24 Row 14 is open and passable under State B.
+- **Conclusive Separation Analysis (Turn 83201)**:
+  - While Column 24 is open on Row 14 under State B, Column 24 is a solid wall of TYPE_2889 on Rows 19 to 24, and Columns 22-23 on Rows 17-18 are blocked by solid rubble.
+  - Row 16 is open horizontally, but Gate 4 at (21, 17) is CLOSED under State B.
+  - This mathematically proves that the B1F stairs at (21, 23) cannot be reached on foot from the entrance of 1F under State B. We must drop down from the 3F East pit to access them.
