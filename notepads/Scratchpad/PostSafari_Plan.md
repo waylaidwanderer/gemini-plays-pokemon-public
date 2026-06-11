@@ -89,17 +89,14 @@
   - The Southeast room is documented to span Rows 9-15 on 2F East (Map 0_214).
   - Physical testing on Turn 76552-76760 has proven that the Southeast room is 100% isolated and cannot be reached on foot on 2F under both State A and State B because Column 22 is completely blocked by solid rubble/walls on Rows 8-15.
   - Socratic Question 1 is fully resolved: the 2F Southeast room is completely unreachable on foot.
-- **Definitive 3F Crossover Passability Audit (Updated Turn 81515)**:
+- **Definitive 3F Crossover Passability Audit (Updated Turn 81543)**:
   - We have previously concluded that 3F West is completely blocked from 3F East under both State A and State B.
   - However, our previous testing under State B (Turn 81045) was flawed because we stood on a solid wall tile (8, 12) and tried to walk Right onto (9, 12), resulting in a bump. In Gen 1, attempting to walk from an already solid tile always results in a collision.
-  - The correct way to test this crossover is from the open tile (9, 11) on 3F. We must walk from (9, 11) Down to (9, 12), then Right to (10, 12), and verify if we can cross into 3F East under State B.
-  - Therefore, we will:
-    1. Walk Left to (2, 11) on 2F West and toggle the switch to State B.
-    2. Climb the stairs at (7, 10) to 3F West.
-    3. Navigate to (9, 11) on 3F.
-    4. Walk Down to (9, 12), and Right to (10, 12) to test if this corridor is open.
-    5. If open, we will cross to 3F East, identify the secret pit at (11, 12) or other pit locations, and fall down to B1F.
-- **2F East South Column 22 Balcony Passability Plan (Turn 81307) - Completed & Disproven**
+  - On Turn 81534, we tested walking Down from the open tile (9, 11) onto (9, 12) under State B (Statue 2 Toggled). Result: **Bump**, remaining at (9, 11). This empirically proves that (9, 12) is indeed 100% solid and impassable under State B.
+  - On Turn 81538, we tested walking Right from the open tile (9, 11) onto (10, 11) under State B (Statue 2 Toggled). Result: **Bump**, remaining at (9, 11). This empirically proves that (10, 11) is indeed 100% solid and impassable under State B.
+  - Since Column 10 is completely solid rubble/walls on Rows 8-15, and Row 12 Column 9 is solid rubble/wall under State B, the 3F West-East crossover is 100% physically blocked and impassable on foot under BOTH State A and State B. There is no walkthrough connection on 3F.
+
+## 2F East South Column 22 Balcony Passability Plan (Turn 81307) - Completed & Disproven
 - **The Hypothesis**: In unmodded Pokémon Red/Blue, the southern balcony on the second floor (2F East South) is a completely continuous and open walkway spanning horizontally across Column 22 on Rows 16 and 17, or Row 26 provides a walkthrough bypass to Row 27 (the southern balcony).
 - **The Strategy Results**: This strategy has been **fully executed and 100% disproven**. We have systematically and physically tested Column 22 on Rows 9-15 under both State A and State B, and Row 26 on Column 11 and Column 14 under State A. All resulted in physical collisions (bumps), proving that 2F East South is completely isolated and has no walkable connection or bypass to Row 27 under State A.
 
