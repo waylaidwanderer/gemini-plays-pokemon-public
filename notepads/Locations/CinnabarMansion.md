@@ -185,3 +185,20 @@ Therefore, ground-level entry is impossible, proving the 1F south-central pocket
     - Rows 22-24: (28, 22), (28, 23), (28, 24). Result: No warp.
     - Row 25: (26, 25), (27, 25), (28, 25). Result: No warp.
   - **Conclusion**: None of these walkable tiles trigger any map warp under State B. This physically disproves the existence of any active staircase warp in the 1F East Southeast room under State B, confirming that the 2F Southeast room is completely isolated on foot on both floors under State B.
+### Definitive Northeast Room Passability Audit (Turns 81886-81957)
+- **Objective**: Systematically and physically test every single walkable coordinate in the 1F East Northeast room (Columns 23-28, Rows 2-13) under State B to search for any active staircase warp.
+- **Verification Results**:
+  - We stood directly on and tested the following coordinates on foot under State B:
+    - Row 2: (24, 2), (25, 2), (26, 2), (27, 2). Result: No warp.
+    - Row 3: (24, 3), (25, 3), (26, 3), (27, 3). Result: No warp.
+    - Row 4: (26, 4), (27, 4). Result: No warp.
+    - Row 5: (23, 5), (24, 5), (25, 5), (26, 5), (27, 5). Result: No warp.
+    - Row 6: (23, 6), (24, 6), (25, 6), (26, 6), (27, 6), (28, 6). Result: No warp.
+    - Row 7: (23, 7), (24, 7), (25, 7), (26, 7), (27, 7), (28, 7). Result: No warp.
+    - Row 8: (23, 8), (26, 8), (27, 8). Result: No warp.
+    - Row 9: (23, 9), (26, 9), (27, 9). Result: No warp.
+    - Row 10: (23, 10), (24, 10), (25, 10), (26, 10). Result: No warp.
+    - Row 11: (23, 11), (24, 11), (25, 11), (26, 11). Result: No warp.
+    - Row 12: (24, 12), (25, 12), (26, 12), (27, 12), (28, 12). Result: No warp.
+    - Row 13: (24, 13), (25, 13). Result: No warp.
+  - **Definitive Conclusion**: Absolutely none of the passable coordinates in the 1F East Northeast room trigger any warp or staircase transition. This physically and empirically disproves the existence of any active staircase warp on 1F East under State B, confirming that B1F cannot be accessed from 1F East under State B.
