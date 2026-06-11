@@ -6172,10 +6172,10 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Gate 13 on 2F (12, 13)-(13, 13) is CLOSED.
 
 ## Cinnabar Gym Blaine Matchup Preparation Strategy
-- **The Balcony Drop Breakthrough (Turn 78541)**:
-  - Landing Constraint: Under State A, Gate 1 at (25, 13) on 1F East is CLOSED, occupying the landing tile of the 3F West balcony drop and physically blocking the drop (resulting in bumps during testing).
-  - State B Viability: Under State B, Gate 1 on 1F East is OPEN, clearing the landing tile. Our previous bump under State B on Turn 76905 occurred because the wandering Scientist NPC was temporarily occupying the landing tile. Now that we have taken many steps, the NPC has wandered away, leaving the landing tile completely unblocked.
-  - Escape Strategy: Once we drop under State B, we take the stairs down from 2F to 1F East. The stairs down to B1F are located directly inside this isolated 1F East south-central pocket, so we can descend to B1F and retrieve the Secret Key without needing Gate 4 to be open. Once we have the Secret Key, we will simply use one of our 2 Escape Ropes to warp out of the Mansion.
+- **The Balcony Drop Breakthrough (Turn 78541) - Disproven**:
+  - We have verified that all five columns on the 3F West southwest balcony are 100% solid, impassable railings under both State A and State B (Verified Turn 77948-77972 and Turn 81256).
+  - We have also verified that the 3F West-East crossover is 100% blocked under both states.
+  - Therefore, the 3F West balcony drop and 3F East pit drop under State B are not reachable or passable, and this hypothesis is fully disproven.
 
 ## Cinnabar Mansion B1F Progression Status (Turn 78573)
 - SW Balcony Drop: Under both State A and State B, all reachable columns (1 to 5) on the southwest balcony of 3F West are 100% solid, impassable railings with no drop-off. Therefore, the southwest balcony of 3F West is NOT a balcony drop. This was explicitly verified on Turn 81256 under State B, where standing at (5, 16) facing Down and pressing Down resulted in a direct collision/bump against (5, 17) (TYPE_2889).
