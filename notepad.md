@@ -6869,6 +6869,11 @@ Active State: **State B (Statue 1 Toggled)** (Toggled on Turn 78020)
   - This physically proves that Column 9 Row 12 is solid and impassable under State B (Toggled).
   - Now, let's perform Test 2 (Horizontal): Stand at (9, 11) facing Right, and press Right to test if (10, 11) is passable.
   - Since we are currently facing Right, pressing Right once will execute the movement check. Let's do it.
+- **Turn 82187 State B Crossover Test Result (Horizontal)**:
+  - Stood at (9, 11) facing Right and pressed Right.
+  - Result: **Bump** against (10, 11) (`TYPE_2889`), remaining at (9, 11).
+  - This physically and empirically proves that Column 10 Row 11 is solid and impassable under State B.
+  - **Definitive 3F Crossover Conclusion**: Both vertical and horizontal crossover tests on 3F under State B have resulted in solid collisions. 3F West has absolutely no on-foot crossover to 3F East under either State A or State B. We have achieved 100% scientific verification of 3F crossover blocking under all possible states. Our next mission is to re-evaluate how to access the isolated areas to descend to B1F.
 
 <hr>
 
