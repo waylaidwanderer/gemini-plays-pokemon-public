@@ -6228,7 +6228,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 - **Conclusive Separation Analysis (Turn 83201)**:
   - While Column 24 is open on Row 14 under State B, Column 24 is a solid wall of TYPE_2889 on Rows 19 to 24, and Columns 22-23 on Rows 17-18 are blocked by solid rubble.
   - Row 16 is open horizontally, but Gate 4 at (21, 17) is CLOSED under State B.
-  - This mathematically proves that the B1F stairs at (21, 23) cannot be reached on foot from the entrance of 1F under State B. We must drop down from the 3F East pit to access them.
+  - This mathematically proves that the B1F stairs at (21, 23) cannot be reached on foot from the entrance of 1F under State B. We must either drop down from the 3F West pit (which leads to the 2F Southeast room, and then down to the 1F Southeast room) or toggle the switch to State A and find if there is an open foot crossing on Row 13.
 
 <hr>
 
