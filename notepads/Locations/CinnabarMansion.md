@@ -168,3 +168,6 @@ We have mathematically and physically verified that the 1F south-central pocket 
 2. Under State A: Row 13 Column 21 is a solid wall of TYPE_2889, blocking vertical descent along Column 21.
 3. In both States: Column 22 is solid rubble on Rows 8-15, completely blocking horizontal entry from the East.
 Therefore, ground-level entry is impossible, proving the 1F south-central pocket can only be accessed via the 3F balcony drop.
+- **Mewtwo Switch Interaction Rule (Verified Turn 81523)**:
+  - Mewtwo switch statues can ONLY be interacted with from the front (facing Up from the southern tile, e.g., (2, 12)).
+  - Standing at (3, 11) facing Left and pressing 'A' does NOT trigger the switch, proving that side interactions are disabled.
