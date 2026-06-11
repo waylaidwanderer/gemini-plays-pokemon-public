@@ -6280,6 +6280,49 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Result: **Bump**, remaining at (10, 26) (Turn 81479).
   - **Conclusion**: Column 11 Row 26 is completely solid/impassable under State A. This disproves the hypothesis that we can bypass Gate 26 on foot by walking west onto Column 11.
 
+# Reflection and Self-Assessment on Turn 81654
+
+## 1. Immediate Execution
+- Over the last 50 turns, we navigated from B1F back up to 2F, toggled the switches, navigated 2F East South, mapped out its western corridor (which proved to be a dead-end on foot), and went back up to 3F West to visually inspect Column 10.
+- Now, we are standing on 2F West at (7, 10). Our intention is to walk to the Mewtwo Statue 2 at (2, 11) by standing at (2, 12) facing Up and pressing 'A' to toggle the switch to State B (Toggled).
+- Once in State B, we will return to 3F West and see if the crossover at Column 10 Row 11 or 12 opens up, or if there is another path.
+- Let's check:
+  - If we toggle to State B:
+    - On 2F, Gate 6 at (9, 4)-(9, 5) opens.
+    - Gate 3 at (18, 8)-(19, 8) opens? No, wait! Under State B, Gate 3 is CLOSED.
+    - Gate 1 at 1F (25, 13) opens.
+    - Let's toggle and return to 3F West to look at the screen!
+
+## 2. Notepad Hygiene
+- The notepads are well-organized, with a clean directory in Main.
+- We will keep the temporary notes in Scratchpad/Mansion_3F_Crossover_Tests and migrate them once we find the final unblocked path to B1F.
+
+## 3. Map Hygiene
+- Map markers are highly accurate, showing stairs down to 1F at (5, 10), stairs up to 3F at (7, 10), and Statue 2 at (2, 11).
+- We will add more markers once we enter B1F.
+
+## 4. Custom Tools & Specialized Agents Planning
+- We can think of 5 highly specialized custom tools/agents to implement:
+  1. `mansion_switch_predictor`: Evaluates the current global switch state and predicts which gates are open/closed.
+  2. `flee_battle_v2`: Standard flee utility (already exists and works flawlessly).
+  3. `b1f_routing_optimizer`: Finds paths around B1F's specific gate layout once mapped.
+  4. `escape_rope_warp_helper`: Automates bag navigation to use Escape Rope.
+  5. `fossil_revive_planner`: Strategizes which fossils to revive at the Cinnabar Lab.
+
+## 5. Tool Maintenance
+- Our flee_battle tool works perfectly and has been extremely helpful in saving us time and preserving Blastoise's health.
+
+## 6. Goal Clarity
+- **Primary Goal**: Retrieve Secret Key from Cinnabar Mansion B1F.
+- **Secondary Goal**: Walk to (2, 12), face Up, and toggle Mewtwo Statue 2 to State B (Toggled).
+- **Navigation Goal**: Mewtwo Statue 2 at (2, 11) from (2, 12).
+
+## 7. Error Analysis & Hypothesis Review
+- **The Core Conflict**:
+  - If 3F East is unreachable from 3F West under both states, and 2F Southeast room is unreachable on foot under both states, and 1F East south-central pocket is unreachable on foot under both states, then there MUST be an open path we haven't fully verified.
+  - Let's verify what happens under State B on 3F West. We will walk up to 3F West under State B and look at the screen!
+  - Let's go to (2, 12) on 2F West first and toggle the switch.
+
 <hr>
 
 <h1><code>Locations/CeladonGym</code></h1>
