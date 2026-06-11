@@ -5,10 +5,10 @@
   - Interacting with a statue toggles the state of gates (doors with iron bars) throughout the floor or building.
   - Status check: There are two types of gates: **Open Gates** and **Closed Gates**.
   - Statues toggle these states: when one type opens, the other type closes.
-  - **Global Switch Reset on Floor Transition (Verified Turn 83404)**:
-    - **Verified Gen 1 Mechanic**: The state of the Cinnabar Mansion gates is **not persistent across floor transitions**. Whenever the player changes floors (takes a staircase or falls through a pit), the map initialization script executes and resets the gate state back to the default **State A**.
-    - **Correction of Previous Assumption**: On Turn 83091, we found Gate 1 closed not because of a manual toggle, but because taking the staircase from 2F to 1F on Turn 83045 reset the gates back to State A.
-    - **Strategic Rule**: Since switches reset upon map transition, we must toggle the switch on the *same floor* we want to navigate. For example, to pass Gate 1 on 1F, we must toggle Statue 1 on 1F West.
+  - **Global Switch Persistence (Verified Turn 83281)**:
+    - **Verified Gen 1 Mechanic**: The state of the Cinnabar Mansion gates is global and **persists across all floors and map transitions**. There is no "floor-transition reset" mechanic in vanilla Pokémon.
+    - **Correction of Previous Assumption**: On Turn 83091, we found Gate 1 closed because we had manually toggled Statue 2 on 2F West back to State A on Turn 80533 and overlooked it. Floor transitions do not reset the switches.
+    - **Strategic Rule**: Toggling a Mewtwo Statue on any floor sets the global gate state (State A vs. State B) for the entire mansion. This state remains active across all floors until another statue is toggled.
 - **Floors**:
   - **1F**: Entry floor. Contains stairs to 2F.
   - **2F**: Second floor. Contains stairs to 1F, stairs to 3F, and several balconies/falls.
