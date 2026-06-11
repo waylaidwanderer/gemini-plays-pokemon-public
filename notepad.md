@@ -6285,6 +6285,13 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   4. Climb the stairs at (7, 10) to 3F West.
   5. Go to Row 8 Column 10/11 on 3F West under State A, walk Up through the open gate, and explore the northern room of 3F West.
 
+## State A Column 5 Row 8 Northern Gate Passability Test (Turn 82081 Plan)
+- **Hypothesis**: In unmodded Pokémon Red/Blue, the gate on 3F West at Column 5 Row 6/7 is OPEN under State A and CLOSED under State B. By walking Up along Column 5 under State A, we can pass through Row 8/7/6 and enter the northern room on foot.
+- **Testing Methodology**:
+  - From our current position at (7, 9) on 3F West, walk Left to (5, 9).
+  - Walk Up along Column 5: (5, 9) -> (5, 8) -> (5, 7) -> (5, 6) -> (5, 5).
+  - If successful, we will land in the northern room at (5, 5).
+
 <hr>
 
 <h1><code>Locations/CeladonGym</code></h1>
