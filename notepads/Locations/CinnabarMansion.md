@@ -111,97 +111,39 @@
   - Statue 4: (TBD, TBD) | State: [ ] Default
 - **Secret Key**:
   - Coordinates: (TBD, TBD) | State: [ ] Uncollected
-## 1F: Ground Floor Eastern Room Audit (Turns 75245-75258)
-- To the east of Column 17, the rest of the room has been explored up to Column 28.
-- Physical layout:
-  - Row 13 has a solid block of walls/rubble starting at (11, 13) and extending East to (22, 13) (all are TYPE_2889).
-  - An electronic gate panel is located on Row 13 at (24, 13) and (25, 13) (TYPE_a83b).
-  - Columns 26, 27, 28 are bounded by solid walls and rubble (26, 13 is solid, 27, 10-11 and 28, 8-11 are rubble).
-  - A large wooden table occupies (24, 8)-(25, 9) (TYPE_2889), surrounded by passable floor of TYPE_3fe2.
-  - The electronic gate at (25, 13) was tested on Turn 75301 and found to be CLOSED and impassable. This blocks access to the southern section of the eastern room on 1F (Rows 14-16, Columns 22-27).
-  - **State A Row 13 Passability Verification (Turns 79215-79227)**:
-    - Column 23 Row 12 (stone pillar/statue TYPE_2889): Verified 100% solid on Turn 79215 by attempting to walk Down from (23, 11) and bumping. This blocks Column 23 vertical traversal before reaching Row 13.
-    - Column 24 Row 13 (Gate 1 TYPE_a83b): Verified CLOSED on Turn 79220 by attempting to walk Down from (24, 12) and bumping.
-    - Column 25 Row 13 (Gate 1 TYPE_a83b): Verified CLOSED on Turn 79227 by attempting to walk Down from (25, 12) and bumping.
-    - This conclusively proves Row 13 is 100% closed on foot under State A, isolating the 1F East south-central pocket.
-  - Under State B (Statue 2 Toggled):
-    - Gate 1 at (25, 13) is OPEN and passable (Verified Turn 75550).
-    - Gate 4 at (21, 17) is CLOSED (Verified Turn 75551).
-    - Gate 5 at (26, 27) / (27, 27) is CLOSED (Verified Turn 75568).
-    - The south-east pocket (Columns 25-28, Rows 18-26) is explored and verified empty. Column 24 acts as a solid vertical partition wall from Row 19 to Row 27.
-    - Crossing left/west into the south-west pocket is possible along Rows 14, 15, and 16.
-- Column 11 on 1F consists of solid vertical wall (TYPE_2889) on Rows 13-27, but on Row 11, Column 11 is completely open, passable floor (TYPE_3fe2). This provides an open horizontal crossover between 1F West (Column 10) and 1F East (Column 12) on Row 11 on foot under both states (Verified Turn 77099).
-- Column 2: Tested on Turn 76931 by pressing Down from (2, 16) and bumped, proving (2, 17) is a solid railing.
-- Column 1: Tested on Turn 76933 by pressing Down from (1, 16) and bumped, proving (1, 17) is a solid railing.
-- SW Balcony Ledge Exploration Complete: All five columns (1 to 5) on Row 17 of 3F West have been systematically tested and are confirmed 100% solid, impassable railings under State B. There is no jump-down ledge or balcony exit in this southwest quadrant.
-- Northeast Room Gate Audit (Turn 76971 & 80197): Systematically verified on foot that Row 8 (Columns 24 to 28) consists of solid closed gates of TYPE_2889 under BOTH State A and State B. There is no open gate or passage in this section, meaning the 2F Southeast room is completely isolated and unreachable on foot on 2F under both states. Combined with prior testing, the Southeast room (Columns 23-28, Rows 9-15) is 100% isolated on foot on 2F under BOTH State A and State B.
-- Hypothesis Verification: Since the Southeast room is completely isolated on foot on 2F, the staircase at (25, 14) can ONLY be accessed by dropping down from 3F East. Our previous "State A Walkthrough Breakthrough" hypothesis is formally disproven. Row 8 gates are closed in both states.
+- **1F West Switch Statue 1 Plan**: If we need to find and toggle Statue 1 on 1F West in the future, we must explore the westernmost room (Columns 1-4, typically around (2, 5)), as the statue at (10, 8) has been proven decorative.
 
-## Disproven 2F East walkthrough (State A vs State B)
-Our testing has systematically verified that:
-1. Under State A: Gate 3 is CLOSED and impassable across BOTH tiles (18, 8) and (19, 8). (Verified by bump on Turn 80229).
-2. Under State B: Gate 3 is OPEN and passable. (Verified Turn 79932).
-3. Under both states, the Southeast room (Columns 23-28, Rows 9-15) on 2F is 100% isolated and cannot be reached on foot.
-Therefore, the only walkthrough connection to 3F East is on 3F West: under State B, Gate 2 on 3F (Column 11 Row 12) is OPEN, and the Row 11 path from Column 9 to Column 12 is completely unblocked on foot when the Scientist NPC is not blocking it. This allows direct walkthrough from 3F West to 3F East to reach the B1F pit fall.
-- Critical Path to B1F: To reach B1F, we must locate and use the secret pit/fall on 3F. We know Pit A is at (11, 12) on 3F, but it is blocked by Gate 2 (Col 11) being CLOSED. We must investigate how to open Gate 2 on 3F. Let's find any remaining un-toggled statues or paths.
-- 3F West Column 10/11 Empirical Verification under State B (Turn 77004): 
-  - Stand at (9, 11) facing Right, and press Right. Result: Collided with (10, 11) (visited 0 tiles, stayed at (9, 11)), proving (10, 11) is indeed a solid rock wall/rubble of TYPE_2889.
-  - Since (10, 11), (10, 12), and (9, 12) are all solid rubble (TYPE_2889), we cannot physically reach Column 11 on foot from the West. 
-  - This definitively proves that there is no walkable connection between 3F West and 3F East under State B.
-  - Therefore, we must return to 1F and explore the 1F East wing under State B (since Gate 1 at (25, 13) is open under State B!).
-- 3F West Column 10/11 Empirical Verification under State A (Turns 77043-77051):
-  - Turn 77043: Standing at (9, 11) under State A, attempted to walk Right into (10, 11). Result: Collided, proving (10, 11) is solid rubble of TYPE_2889 under State A.
-  - Turn 77051: Standing at (9, 12) under State A, attempted to walk Right into (10, 12). Result: Collided, proving (10, 12) is solid rubble of TYPE_2889 under State A.
-  - This empirically proves that 3F West is completely blocked from 3F East at Columns 9/10 on Rows 11 and 12 under BOTH State A and State B.
-- **Row 2 Crossing Verification (Turn 77237)**: Under State B, Row 2 is fully passable on foot across Column 9. Coordinates: (10, 2), (9, 2), (8, 2), (7, 2), (6, 2) are all TYPE_3fe2. Column 9 Row 3 at (9, 3) is a solid, impassable wall (TYPE_2889).
-- **Route to Stairs to 2F at (5, 10)**: From (10, 6) in 1F West, we can walk:
-  1. Up 4 steps to (10, 2).
-  2. Left 5 steps to (5, 2).
-  3. Walk Down Column 10 to Row 11: From (5, 2), walk Right 5 steps to (10, 2), then walk Down 9 steps to (10, 11).
-  4. From (10, 11), walk Left 5 steps to (5, 11).
-  5. Step Up 1 step to (5, 10) to enter the stairs.
-This is because Row 9 Column 5 is a solid, impassable wall of TYPE_2889, blocking direct vertical passage down Column 5 (Verified Turn 77387).
+## Socratic Strategy & Coordinate Verification (Turn 80913 Audit) - Verified & Updated
+- **Analysis of Southeast Room Rows**:
+  - The Southeast room is documented to span Rows 9-15 on 2F East (Map 0_214).
+  - Physical testing on Turn 76552-76760 has proven that the Southeast room is 100% isolated and cannot be reached on foot on 2F under both State A and State B because Column 22 is completely blocked by solid rubble/walls on Rows 8-15.
+  - Socratic Question 1 is fully resolved: the 2F Southeast room is completely unreachable on foot.
+- **Definitive 3F Crossover Passability Audit (Updated Turn 81543)**:
+  - We have previously concluded that 3F West is completely blocked from 3F East under both State A and State B.
+  - However, our previous testing under State B (Turn 81045) was flawed because we stood on a solid wall tile (8, 12) and tried to walk Right onto (9, 12), resulting in a bump. In Gen 1, attempting to walk from an already solid tile always results in a collision.
+  - On Turn 81534, we tested walking Down from the open tile (9, 11) onto (9, 12) under State B (Statue 2 Toggled). Result: **Bump**, remaining at (9, 11). This empirically proves that (9, 12) is indeed 100% solid and impassable under State B.
+  - On Turn 81538, we tested walking Right from the open tile (9, 11) onto (10, 11) under State B (Statue 2 Toggled). Result: **Bump**, remaining at (9, 11). This empirically proves that (10, 11) is indeed 100% solid and impassable under State B.
+  - Since Column 10 is completely solid rubble/walls on Rows 8-15, and Row 12 Column 9 is solid rubble/wall under State B, the 3F West-East crossover is 100% physically blocked and impassable on foot under BOTH State A and State B. There is no walkthrough connection on 3F.
 
-## 1F South-Central Pocket Isolation Proof of Work
-We have mathematically and physically verified that the 1F south-central pocket (Columns 21-23, Rows 18-27) is permanently isolated and unreachable on foot from the rest of 1F under BOTH Gate States:
-1. Under State B: Gate 4 at (21, 17) is CLOSED, blocking southern vertical entry into Columns 21-23.
-2. Under State A: Row 13 Column 21 is a solid wall of TYPE_2889, blocking vertical descent along Column 21.
-3. In both States: Column 22 is solid rubble on Rows 8-15, completely blocking horizontal entry from the East.
-Therefore, ground-level entry is impossible, proving the 1F south-central pocket can only be accessed via the 3F balcony drop.
-- **Mewtwo Switch Interaction Rule (Verified Turn 81523)**:
-  - Mewtwo switch statues can ONLY be interacted with from the front (facing Up from the southern tile, e.g., (2, 12)).
-  - Standing at (3, 11) facing Left and pressing 'A' does NOT trigger the switch, proving that side interactions are disabled.
+## 2F East South Column 22 Balcony Passability Plan (Turn 81307) - Completed & Disproven
+- **The Hypothesis**: In unmodded Pokémon Red/Blue, the southern balcony on the second floor (2F East South) is a completely continuous and open walkway spanning horizontally across Column 22 on Rows 16 and 17, or Row 26 provides a walkthrough bypass to Row 27 (the southern balcony).
+- **The Strategy Results**: This strategy has been **fully executed and 100% disproven**. We have systematically and physically tested Column 22 on Rows 9-15 under both State A and State B, and Row 26 on Column 11 and Column 14 under State A. All resulted in physical collisions (bumps), proving that 2F East South is completely isolated and has no walkable connection or bypass to Row 27 under State A.
 
-## 1F Southeast Room Systematic Passability Audit (Turns 81703-81732)
-- **Objective**: Systematically and physically test every walkable tile on 1F East Southeast room under State B on foot to find any staircase warp.
-- **Verified Facts (Turns 81703-81732)**:
-  - We stood directly on and tested the following coordinates on foot under State B:
-    - Row 12: (24, 12), (25, 12), (26, 12), (27, 12), (28, 12). Result: No warp.
-    - Row 13: (24, 13) (Gate 1). Result: No warp.
-    - Row 14: (22, 14), (23, 14), (24, 14), (25, 14), (26, 14), (27, 14). Result: No warp.
-    - Row 15: (22, 15). Result: No warp.
-    - Row 16: (22, 16), (28, 16). Result: No warp.
-    - Row 21: (25, 21), (26, 21), (27, 21), (28, 21). Result: No warp.
-    - Rows 22-24: (28, 22), (28, 23), (28, 24). Result: No warp.
-    - Row 25: (26, 25), (27, 25), (28, 25). Result: No warp.
-  - **Conclusion**: None of these walkable tiles trigger any map warp under State B. This physically disproves the existence of any active staircase warp in the 1F East Southeast room under State B, confirming that the 2F Southeast room is completely isolated on foot on both floors under State B.
-### Definitive Northeast Room Passability Audit (Turns 81886-81957)
-- **Objective**: Systematically and physically test every single walkable coordinate in the 1F East Northeast room (Columns 23-28, Rows 2-13) under State B to search for any active staircase warp.
-- **Verification Results**:
-  - We stood directly on and tested the following coordinates on foot under State B:
-    - Row 2: (24, 2), (25, 2), (26, 2), (27, 2). Result: No warp.
-    - Row 3: (24, 3), (25, 3), (26, 3), (27, 3). Result: No warp.
-    - Row 4: (26, 4), (27, 4). Result: No warp.
-    - Row 5: (23, 5), (24, 5), (25, 5), (26, 5), (27, 5). Result: No warp.
-    - Row 6: (23, 6), (24, 6), (25, 6), (26, 6), (27, 6), (28, 6). Result: No warp.
-    - Row 7: (23, 7), (24, 7), (25, 7), (26, 7), (27, 7), (28, 7). Result: No warp.
-    - Row 8: (23, 8), (26, 8), (27, 8). Result: No warp.
-    - Row 9: (23, 9), (26, 9), (27, 9). Result: No warp.
-    - Row 10: (23, 10), (24, 10), (25, 10), (26, 10). Result: No warp.
-    - Row 11: (23, 11), (24, 11), (25, 11), (26, 11). Result: No warp.
-    - Row 12: (24, 12), (25, 12), (26, 12), (27, 12), (28, 12). Result: No warp.
-    - Row 13: (24, 13), (25, 13). Result: No warp.
-  - **Definitive Conclusion**: Absolutely none of the passable coordinates in the 1F East Northeast room trigger any warp or staircase transition. This physically and empirically disproves the existence of any active staircase warp on 1F East under State B, confirming that B1F cannot be accessed from 1F East under State B.
-
-- **State A Column 5 Gate Test (Turns 82127-82138)**: Standing at (5, 8) facing Up under State A, we systematically tested walking Up onto (5, 7) across 5 consecutive trials. The wandering Scientist NPC was verified far away at Column 5/6 Row 11 throughout all trials, ensuring zero NPC blockage.
-  - Results: Visited 0 tiles on all 5 trials (100% bumps), physically proving that Column 5 Row 7 is a solid, impassable wall under State A. This disproves the hypothesis that Column 5 Row 7 is an open gate under State A.
+## State A Column 22 Balcony Passability Test Logs (Turn 81341)
+- **Turn 81341 (Row 15)**: Stood at (21, 15) under State A and pressed Right to attempt to step onto (22, 15) (TYPE_2889). Result: **Bump**, remaining at (21, 15). This physically and empirically proves that Column 22 is CLOSED and solid/impassable on Row 15 under State A.
+- **Turn 81347 (Row 14)**: Stood at (21, 14) under State A and pressed Right to attempt to step onto (22, 14) (TYPE_2889). Result: **Bump**, remaining at (21, 14). This physically and empirically proves that Column 22 is CLOSED and solid/impassable on Row 14 under State A.
+- **Turn 81358 (Row 13)**: Stood at (21, 13) under State A and pressed Right to attempt to step onto (22, 13) (TYPE_2889). Result: **Bump**, remaining at (21, 13). This physically and empirically proves that Column 22 is CLOSED and solid/impassable on Row 13 under State A.
+- **Turns 81365-81371 State A Column 22 passability tests**:
+  - Stand at (21, 12) under State A, pressed Right. Result: **Bump** against (22, 12) (Turn 81365).
+  - Stand at (21, 11) under State A, pressed Right. Result: **Bump** against (22, 11) (Turn 81367).
+  - Stand at (21, 10) under State A, pressed Right. Result: **Bump** against (22, 10) (Turn 81369).
+  - Stand at (21, 9) under State A, pressed Right. Result: **Bump** against (22, 9) (Turn 81371).
+  - **Conclusion**: Column 22 is completely blocked by solid/impassable rubble across all Rows from 9 to 15 under BOTH State A and State B. This confirms that 2F East South and the isolated 2F Southeast room are 100% separated on foot on this floor.
+- **Turn 81471-81472 State A Row 25 Column 14 passability test**:
+  - Stand at (13, 25) under State A, pressed Right to attempt to step onto (14, 25) (TYPE_2889).
+  - Result: **Bump**, remaining at (13, 25) (Turn 81472).
+  - **Conclusion**: Column 14 Row 25 is completely solid/impassable under State A. This disproves the hypothesis that we can bypass Gate 26 on foot by walking east onto Column 14.
+- **Turn 81479 State A Row 26 Column 11 passability test**:
+  - Stand at (10, 26) under State A, pressed Right to attempt to step onto (11, 26) (TYPE_2889).
+  - Result: **Bump**, remaining at (10, 26) (Turn 81479).
+  - **Conclusion**: Column 11 Row 26 is completely solid/impassable under State A. This disproves the hypothesis that we can bypass Gate 26 on foot by walking west onto Column 11.
