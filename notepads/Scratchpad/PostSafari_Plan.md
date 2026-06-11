@@ -109,26 +109,3 @@
   3. Toggle Mewtwo Statue 2 at (2, 11) back to State A (Default).
   4. Climb the stairs at (7, 10) to 3F West.
   5. Go to Row 8 Column 10/11 on 3F West under State A, walk Up through the open gate, and explore the northern room of 3F West.
-
-## 3F West Northern Gate Systematic Multi-Trial Testing Protocol (Turn 82114)
-- **Problem**: In unmodded Pokémon Red/Blue, the gate leading to the northern room on 3F West is at Column 5 Row 6 or Row 7. It is open under State A and closed under State B.
-- **Confounding Variable**: The wandering Scientist NPC and/or Burglar NPC on 3F West can randomly walk onto the gate tiles at Column 5 Row 7, Column 5 Row 6, Column 6 Row 7, or Column 6 Row 6, causing a false-positive wall collision (bump) that mimics a solid wall.
-- **Systematic Test Protocol**:
-  1. Return to 3F West via the stairs at (7, 10).
-  2. Stand at (5, 8) facing Up.
-  3. Attempt to walk Up onto (5, 7) multiple times (at least 5 consecutive turns).
-  4. If a bump occurs, check the screen text / NPC Tracker to see if an NPC is occupying (5, 7) or (5, 6).
-  5. If an NPC is blocking, stand still or walk back and forth on Row 8 to force the NPC to wander away, then re-test.
-  6. If we consistently bump for 10+ turns with zero NPC blockage, we will repeat this multi-trial test on Column 6 Row 7: stand at (6, 8) facing Up and attempt to walk Up onto (6, 7) 5+ times.
-  7. If both are blocked and we can verify zero NPC presence, we will proceed to check Column 10 Row 11 under State B.
-
-## 3F West to East Crossover Systematic Multi-Trial Testing Protocol (Turn 82142)
-- **Problem**: In unmodded Cinnabar Mansion 3F, the crossover from 3F West to 3F East is via the gate at Column 11 Row 11 or 12. It is open under State B and closed under State A.
-- **Confounding Variable**: The wandering Scientist NPC and Burglar NPC on 3F West can randomly walk onto the gate/crossover tiles at Column 10 Row 11, Column 10 Row 12, or Column 9 Row 12, causing false-positive wall collisions (bumps).
-- **Systematic Test Protocol under State B**:
-  1. Go to 2F West (2, 11) and toggle Statue 2 to State B.
-  2. Return to 3F West via the stairs at (7, 10).
-  3. Walk to (9, 11) on 3F West.
-  4. Test 1 (Vertical Crossover): Standing at (9, 11) facing Down, attempt to walk Down onto (9, 12) multiple times (at least 5 consecutive turns). If successful, we can reach (9, 12) and then test walking Right onto (10, 12) under State B.
-  5. Test 2 (Horizontal Crossover): Standing at (9, 11) facing Right, attempt to walk Right onto (10, 11) multiple times (at least 5 consecutive turns) to check if we can pass through under State B.
-  6. If a bump occurs in any of these tests, check the screen and NPC tracker to see if any NPC is occupying the target tile. If so, stand still to let them wander away and then re-test.
