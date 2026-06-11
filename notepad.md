@@ -6279,6 +6279,16 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 - **Turn 81954**: Walked from (26, 8) to (27, 2) via (26, 7) -> (26, 6) -> (26, 5) -> (26, 4) -> (26, 3) -> (26, 2) -> (27, 2). No warp triggered on (26, 4), (26, 2), or (27, 2).
 - **Turn 81955**: Standing at (27, 2). We will walk Left to (24, 2) and Down to (24, 3) to complete the test of all passable tiles in the Northeast room of 1F East under State B.
 
+## State A 3F West Northern Room & Balcony Drop Campaign Plan (Turn 82031 Plan)
+- **Active Exploration Mission**: Toggle Mewtwo Statue 2 back to State A (Default) to reach 3F West's northern room.
+- **Why**: 3F West's northern half contains the true open gate on Row 8 under State A. We can walk through Row 8 (Column 10 or 11) to reach the northern room under State A, find the active Mewtwo Statue there, and find the balcony drop to 2F East South.
+- **Step-by-Step Path**:
+  1. Walk to the 1F West stairs to 2F West at (5, 10).
+  2. Take the stairs to 2F West.
+  3. Toggle Mewtwo Statue 2 at (2, 11) back to State A (Default).
+  4. Climb the stairs at (7, 10) to 3F West.
+  5. Go to Row 8 Column 10/11 on 3F West under State A, walk Up through the open gate, and explore the northern room of 3F West.
+
 <hr>
 
 <h1><code>Locations/CeladonGym</code></h1>
