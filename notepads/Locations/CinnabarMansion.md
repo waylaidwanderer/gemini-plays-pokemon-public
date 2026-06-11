@@ -5,10 +5,10 @@
   - Interacting with a statue toggles the state of gates (doors with iron bars) throughout the floor or building.
   - Status check: There are two types of gates: **Open Gates** and **Closed Gates**.
   - Statues toggle these states: when one type opens, the other type closes.
-  - **Local Switch Mechanics (Verified Turn 83440)**:
-    - **Verified Gen 1 Mechanic**: The gate switches in Cinnabar Mansion are **local to each floor**. Toggling the statue on a specific floor only opens or closes the gates on that floor, and has absolutely zero effect on other floors. Each floor's gate state persists independently.
-    - **Correction of Previous Assumption**: On Turn 83091, we found Gate 1 closed because we had only toggled Statue 2 on 2F West (on Turn 82998), which did not affect 1F. Gate 1 on 1F East remained closed until we toggled Statue 1 on 1F West (on Turn 83125).
-    - **Strategic Rule**: To navigate gates on any floor, we must interact with the switch statue located on that specific floor.
+  - **Global Switch Mechanics**:
+    - **Verified Gen 1 Mechanic**: The gate switches in Cinnabar Mansion are **global**. Toggling a statue on any floor changes the gate configuration (State A vs. State B) for all floors simultaneously.
+    - **Correction of Previous Assumption**: The gate state is global. If a gate on another floor is found closed, it is because the global state was toggled (either by us or by another interaction) to the opposite state. We must plan our route around the single active global gate state.
+    - **Strategic Rule**: Toggling any active Mewtwo statue will change the global gate state across all floors of the mansion.
 - **Floors**:
   - **1F**: Entry floor. Contains stairs to 2F.
   - **2F**: Second floor. Contains stairs to 1F, stairs to 3F, and several balconies/falls.
