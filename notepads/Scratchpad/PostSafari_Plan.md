@@ -2,12 +2,23 @@
 
 ## Cinnabar Mansion Deep B1F Routing & Switch Matrix (Turn 78160)
 - **Active Exploration Mission**: Locate and retrieve the Secret Key on B1F.
-- **Switch Matrix (State A vs. State B)**:
-  - We have toggled Statue 2 (2F, (2, 11)) back to **State A** (Default) on Turn 77818.
-  - State A: Gate 1 on 1F (25, 13) is CLOSED, blocking foot access to the Southeast room.
-  - State A: Gate 3 on 2F (18, 8)-(19, 8) is OPEN.
-  - State A: Gate 4 on 1F East (21, 17) is OPEN.
-  - State A: Gate 6 on 2F (9, 4)-(9, 5) is CLOSED.
+- **State A (Statue 2 Default)**:
+  - Gate 1 on 1F (25, 13) is CLOSED, blocking foot access to the Southeast room.
+  - Gate 3 on 2F (18, 8)-(19, 8) is OPEN.
+  - Gate 4 on 1F East (21, 17) is OPEN.
+  - Gate 6 on 2F (9, 4)-(9, 5) is CLOSED.
+  - Gate 18 on 2F (2, 18) is CLOSED.
+  - Gate 26 on 2F (12, 26)-(13, 26) is CLOSED.
+  - Gate 13 on 2F (12, 13)-(13, 13) is CLOSED.
+
+- **State B (Statue 2 Toggled)**:
+  - Gate 1 on 1F (25, 13) is OPEN, allowing foot access to the Southeast room.
+  - Gate 3 on 2F (18, 8)-(19, 8) is CLOSED.
+  - Gate 4 on 1F East (21, 17) is CLOSED.
+  - Gate 6 on 2F (9, 4)-(9, 5) is OPEN.
+  - Gate 18 on 2F (2, 18) is CLOSED?
+  - Gate 26 on 2F (12, 26)-(13, 26) is CLOSED.
+  - Gate 13 on 2F (12, 13)-(13, 13) is CLOSED.
 
 ## Cinnabar Gym Blaine Matchup Preparation Strategy
 - **The Balcony Drop Breakthrough (Turn 78541)**:
