@@ -93,3 +93,18 @@ All four reachable columns (1, 2, 3, and 4) on the southwest balcony of 2F West 
   - In standard Gen 1 Cinnabar Mansion, the balcony drop that lands you in the isolated 2F Southeast room is executed by walking **Right (East) off the eastern edge of the 3F West balcony** (stepping off Column 5 onto Column 6), not by jumping south over the railing!
   - We have successfully returned to 3F West at (7, 11) (facing Up/Down) under State A (Default).
   - Let's walk to the balcony edge at (5, 15) or (5, 16) and test walking Right (East) off the edge to satisfy the Burden of Proof for State A!
+- **Turn 82965 State A (Default) 3F West Balcony Edge Drop Test**:
+  - We have successfully returned to 3F West at (7, 11) under State A (Default).
+  - The Scientist NPC is currently at (6, 11).
+  - Since we are at (7, 11) facing Down or Up, we will walk to (5, 15) to perform our test.
+  - Let's trace our route carefully:
+    - From (7, 11):
+      - Step 1: Walk Up to (7, 10). (Tile: TYPE_3fe2)
+      - Step 2: Walk Left to (6, 10). (Tile: TYPE_3fe2, bypassing Scientist at (6, 11) from above)
+      - Step 3: Walk Left to (5, 10). (Tile: TYPE_3fe2)
+      - Step 4: Walk Down to (5, 11). (Tile: TYPE_3fe2)
+      - Step 5: Walk Down to (5, 12). (Tile: TYPE_3fe2)
+      - Step 6: Walk Down to (5, 13). (Tile: TYPE_3fe2)
+      - Step 7: Walk Down to (5, 14). (Tile: TYPE_3fe2)
+      - Step 8: Walk Down to (5, 15). (Tile: TYPE_3fe2, the balcony floor)
+    - Let's execute this 8-step sequence first, and verify our position is exactly at (5, 15) facing Down.
