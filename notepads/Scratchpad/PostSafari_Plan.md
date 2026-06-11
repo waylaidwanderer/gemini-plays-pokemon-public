@@ -50,8 +50,6 @@
 - **Verified Fact**: 2F East South Column 22 is completely solid/rubble under both State A and State B across rows 8-15. This separates Column 21 from Column 23 on these rows.
 - **Trapped Pocket & Escape Plan**:
   - Falling through the 3F East pit lands us in the 1F south-central pocket (near the stairs to B1F).
-  - Under State B, Gate 4 at (21, 17) is closed, meaning we are 100% trapped on foot in this 1F pocket.
-  - This is fine! We will immediately go down the stairs to B1F, find the Secret Key, and use one of our **2 Escape Ropes** to escape. No Gate 4 bypass is necessary.
 - **B1F Mapping Protocol**:
   - Once in B1F, we will walk along every passable tile, logging items, statues, and gates.
   - We will record all B1F gates and switch dependencies in `Scratchpad/Mansion_Gate_Matrix` using our structured circuit matrix format.
