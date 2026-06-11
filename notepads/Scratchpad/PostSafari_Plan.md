@@ -67,22 +67,6 @@
   - On Turn 81538, we tested walking Right from the open tile (9, 11) onto (10, 11) under State B (Statue 2 Toggled). Result: **Bump**, remaining at (9, 11). This empirically proves that (10, 11) is indeed 100% solid and impassable under State B.
   - Since Column 10 is completely solid rubble/walls on Rows 8-15, and Row 12 Column 9 is solid rubble/wall under State B, the 3F West-East crossover is 100% physically blocked and impassable on foot under BOTH State A and State B. There is no walkthrough connection on 3F.
 
-## State A Column 12 Row 13 Physical Passability Test (Turn 81812 Verification)
-- **Physical Test Result**: Standing at (12, 12) under State A on Turn 81812, we attempted to walk Down onto (12, 13). Result: **Bump** (stayed at (12, 12)), physically and empirically proving that Column 12 Row 13 is CLOSED and solid/impassable under State A. This confirms our original layout model that Column 12 is blocked at Row 13 on 1F under State A.
-
-## State A Column 16 Row 7 Physical Passability Test (Turn 81823 Verification)
-- **Physical Test Result**: Standing at (16, 6) under State A on Turn 81823, we attempted to walk Down onto (16, 7). Result: **Bump** (stayed at (16, 6)), physically and empirically proving that Column 16 Row 7 is CLOSED and solid/impassable under State A. This confirms that the southern half of 1F East is completely cut off from the northern half of 1F East under State A.
-
-## State A 3F West Northern Room & Balcony Drop Campaign Plan (Turn 82031 Plan)
-- **Active Exploration Mission**: Toggle Mewtwo Statue 2 back to State A (Default) to reach 3F West's northern room.
-- **Why**: 3F West's northern half contains the true open gate on Row 8 under State A. We can walk through Row 8 (Column 10 or 11) to reach the northern room under State A, find the active Mewtwo Statue there, and find the balcony drop to 2F East South.
-- **Step-by-Step Path**:
-  1. Walk to the 1F West stairs to 2F West at (5, 10).
-  2. Take the stairs to 2F West.
-  3. Toggle Mewtwo Statue 2 at (2, 11) back to State A (Default).
-  4. Climb the stairs at (7, 10) to 3F West.
-  5. Go to Row 8 Column 10/11 on 3F West under State A, walk Up through the open gate, and explore the northern room of 3F West.
-
 ## State B Column 24 Passability Testing Protocol (Turn 83089 Plan)
 - **Objective**: Physically test the horizontal passability of Column 24 (specifically Row 14) on 1F East under State B, verifying if the eastern Southeast room is connected on foot to the south-central pocket.
 - **Methodology**:
