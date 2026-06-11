@@ -125,3 +125,6 @@
   5. Attempt to walk Right across Column 22 on Row 16 (or Row 17) to reach Column 23 in the isolated Southeast room.
   6. Document the exact coordinates, turn numbers, and collision outcomes of these physical test steps.
   7. If Column 22 is open on either of these rows, it will unlock access to the isolated Southeast room and the stairs up to 3F East, allowing us to reach 3F East, drop down the pit, and descend to B1F to retrieve the Secret Key!
+
+## State A Column 22 Balcony Passability Test Logs (Turn 81341)
+- **Turn 81341 (Row 15)**: Stood at (21, 15) under State A and pressed Right to attempt to step onto (22, 15) (TYPE_2889). Result: **Bump**, remaining at (21, 15). This physically and empirically proves that Column 22 is CLOSED and solid/impassable on Row 15 under State A.
