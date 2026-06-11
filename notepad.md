@@ -6255,16 +6255,16 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Once we drop, we will land in the 1F south-central pocket directly adjacent to the stairs down to B1F.
   - From there, we go down to B1F, retrieve the Secret Key, and use an Escape Rope to warp out!
 
-## The True 3F Crossover Progression Plan (Turn 81055)
-- **The Discovery**: We have empirically proven that under Gate State B, both Column 10 Row 11 (10, 11) and Column 9 Row 12 (9, 12) are 100% solid, static wall blockages of TYPE_2889 (and NOT blocked by the NPC, as we froze the NPC at (4, 11)).
-- **The Solution**:
-  1. Walk back down to 2F West.
-  2. Toggle Statue 2 to State A (Default).
-  3. Return to 3F West under State A.
-  4. Verify if the Burglar NPC is blocking the Row 12 crossover (which is open under State A). If he is, wait for him to move or use `stun_npc` to clear him.
-  5. Walk through the open Row 12 crossover to 3F East!
-  6. Fall down the giant pit on 3F East to land in the 1F south-central pocket.
-  7. Retrieve the Secret Key from B1F and use an Escape Rope!
+## 2F East South Column 22 Balcony Passability Plan (Turn 81271)
+- **The Hypothesis**: In unmodded Pokémon Red/Blue, the southern balcony on the second floor (2F East South) is a completely continuous and open walkway spanning horizontally across Column 22 on Rows 16 and 17.
+- **The Strategy**:
+  1. We are currently standing at (7, 10) on 2F West (Map 0_214) under State B (Toggled).
+  2. Under State B, Gate 3 at (18, 8)-(19, 8) is OPEN and passable.
+  3. Walk from 2F West to 2F East South via the open Gate 3.
+  4. Navigate south to the balcony area (specifically standing at (21, 15) or (21, 16)).
+  5. Attempt to walk Right across Column 22 on Row 16 (or Row 17) to reach Column 23 in the isolated Southeast room.
+  6. Document the exact coordinates, turn numbers, and collision outcomes of these physical test steps.
+  7. If Column 22 is open on either of these rows, it will unlock access to the isolated Southeast room and the stairs up to 3F East, allowing us to reach 3F East, drop down the pit, and descend to B1F to retrieve the Secret Key!
 
 <hr>
 
