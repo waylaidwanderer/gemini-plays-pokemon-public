@@ -168,3 +168,13 @@
   - If 3F East is unreachable from 3F West under both states, and 2F Southeast room is unreachable on foot under both states, and 1F East south-central pocket is unreachable on foot under both states, then there MUST be an open path we haven't fully verified.
   - Let's verify what happens under State B on 3F West. We will walk up to 3F West under State B and look at the screen!
   - Let's go to (2, 12) on 2F West first and toggle the switch.
+## Route to B1F Stairs from 1F West (Turn 81757 Plan)
+- **Starting Position**: (7, 11) on 1F West
+- **Active Gate State**: State B (Statue 2 Toggled, Gate 1 at (25, 13) is open)
+- **Detailed Step-by-Step Path**:
+  1. Walk Right 4 steps to (11, 11) (Row 11 crossover is open).
+  2. Walk Up 8 steps to (11, 3) (Column 11 corridor is open at North).
+  3. Walk Right 14 steps to (25, 3) (Column 22 crossover on Row 3 is open).
+  4. Walk Down 10 steps to (25, 13) (Passes through open Gate 1).
+  5. Walk Down 8 steps to (25, 21) (Stairs down to B1F).
+- **Total Steps**: 44 steps. No obstacles or permanent blocks exist on this route under State B.
