@@ -1,4 +1,4 @@
-# Post-Safari Zone Route & Progression Plan
+# Post-Safari Zone Route & Progression Plan (Cinnabar Mansion)
 
 ## Cinnabar Mansion Deep B1F Routing & Switch Matrix (Turn 78160)
 - **Active Exploration Mission**: Locate and retrieve the Secret Key on B1F.
@@ -39,8 +39,7 @@
 
 ### Socratic Question 3: 3F East Systematic Mapping Protocol
 - **Mapping 3F East before the Leap**:
-  - Once we cross the Column 11 Row 12 Gate on 3F under State B to enter the Eastern wing, we will NOT blindly run and jump.
-  - We will carefully map the entire eastern wing of 3F:
+  - Once we cross into 3F East, we will map the entire eastern wing of 3F:
     - Identify all pits/chutes and log their exact coordinates (X, Y).
     - Identify any staircases, walls, and gates.
     - Systematically test the boundary tiles.
@@ -56,14 +55,14 @@
 ### 3F East Pit-Mapping Spatial Safety Protocol (Added Turn 79515)
 - **The Risk**: Overworld pit tiles (such as TYPE_21ec, visually dark voids) trigger immediate, irreversible map transitions/falls upon step contact. Rushing can result in an accidental fall before mapping is complete.
 - **Safety Protocol**:
-  1. Once we cross into the eastern wing on 3F East under State B, we will limit all movements near boundaries or unfamiliar areas to **1-tile chunks** (pressing only one directional button at a time).
+  1. Once we cross into the eastern wing on 3F East, we will limit all movements near boundaries or unfamiliar areas to **1-tile chunks** (pressing only one directional button at a time).
   2. We will verify the screen and tile labels after every single step.
   3. We will NEVER step blindly onto any tile that has not been confirmed to be a standard floor tile (such as TYPE_3fe2).
   4. We will systematically map the coordinates of all walls, balconies, and pit boundaries from a safe distance before choosing which pit to fall into.
 
 ## Socratic Socratic Answers (Turn 79575)
 ### Socratic Question 1: 3F East Pit Landing & Escape Protocol
-- **Systematic Protocol**: Once we cross into the Eastern wing of 3F East under State B, we will limit all movements to **1-tile chunks** (single step inputs) to avoid accidental falls. We will visually map the pit coordinates (`TYPE_21ec`) from adjacent safe floor tiles (`TYPE_3fe2`).
+- **Systematic Protocol**: Once we cross into the Eastern wing of 3F East, we will limit all movements to **1-tile chunks** (single step inputs) to avoid accidental falls. We will visually map the pit coordinates (`TYPE_21ec`) from adjacent safe floor tiles (`TYPE_3fe2`).
 - **Landing and Routing**:
   - **Landing in 2F Southeast Room**: If we land in the 2F Southeast room (Columns 23-28, Rows 9-15), we will walk directly to the Southeast staircase at (25, 14) and descend to 1F East. This lands us directly inside the 1F East south-central pocket adjacent to the B1F stairs.
   - **Landing in 1F South-Central Pocket**: If we land directly on 1F East in the south-central pocket (Columns 21-23, Rows 18-27), we are already next to the B1F stairs.
@@ -97,25 +96,6 @@
 - **The Hypothesis**: In unmodded Pokémon Red/Blue, the southern balcony on the second floor (2F East South) is a completely continuous and open walkway spanning horizontally across Column 22 on Rows 16 and 17, or Row 26 provides a walkthrough bypass to Row 27 (the southern balcony).
 - **The Strategy Results**: This strategy has been **fully executed and 100% disproven**. We have systematically and physically tested Column 22 on Rows 9-15 under both State A and State B, and Row 26 on Column 11 and Column 14 under State A. All resulted in physical collisions (bumps), proving that 2F East South is completely isolated and has no walkable connection or bypass to Row 27 under State A.
 
-## Active State A Gate 13 & Staircase Progression Plan (Turn 81811)
-- **Active Exploration Mission**: Access the 1F Southeast stairs at (25, 14) under State A, warp up to 2F Southeast, climb to 3F East, and drop down to reach B1F.
-- **The Physics of (12, 13) on 1F East**:
-  - Although the tile (12, 13) is visually rendered with a gate sprite and labeled `TYPE_2889` (solid wall), in vanilla Pokémon Red/Blue, this gate is dynamically OPEN and passable under State A (Default).
-  - We are currently standing at (12, 12) under State A on Turn 81811. We are physically testing this tile immediately by pressing Down to walk onto (12, 13).
-  - This physical collision test will definitively prove if Column 12 is passable down to Row 17 under State A.
-- **The Active State A Route to (25, 14)**:
-  - Once we confirm Column 12 Row 13 is passable, our precise on-foot route to the Southeast staircase is:
-    1. Stand at (12, 12). Walk Down 5 steps to (12, 17) (completely open corridor under State A).
-    2. Walk East through the open Gate 4 at (21, 17) to land at (21, 18). (Gate 4 is dynamically open under State A!).
-    3. Walk East along the open Row 18 horizontally to Column 25, landing at (25, 18).
-    4. Walk North 4 steps along Column 25 to (25, 14).
-    5. Step on (25, 14) to activate the active warp and ascend to the 2F Southeast room!
-- **The 3F East Pit Drop & B1F Descent Plan**:
-  - Once we warp up to the 2F Southeast room at (25, 14), we will take the stairs up to 3F East.
-  - On 3F East, we will locate the pit chute that drops us down into the 1F East south-central pocket.
-  - Landing in the south-central pocket puts us directly next to the B1F stairs at (21, 23).
-  - We will descend the stairs to B1F, navigate to the Secret Key, collect it, and immediately use an Escape Rope to warp out of the Cinnabar Mansion safely!
-
 ## State A Column 22 Balcony Passability Test Logs (Turn 81341)
 - **Turn 81341 (Row 15)**: Stood at (21, 15) under State A and pressed Right to attempt to step onto (22, 15) (TYPE_2889). Result: **Bump**, remaining at (21, 15). This physically and empirically proves that Column 22 is CLOSED and solid/impassable on Row 15 under State A.
 - **Turn 81347 (Row 14)**: Stood at (21, 14) under State A and pressed Right to attempt to step onto (22, 14) (TYPE_2889). Result: **Bump**, remaining at (21, 14). This physically and empirically proves that Column 22 is CLOSED and solid/impassable on Row 14 under State A.
@@ -135,79 +115,19 @@
   - Result: **Bump**, remaining at (10, 26) (Turn 81479).
   - **Conclusion**: Column 11 Row 26 is completely solid/impassable under State A. This disproves the hypothesis that we can bypass Gate 26 on foot by walking west onto Column 11.
 
-# Reflection and Self-Assessment on Turn 81654
-
-## 1. Immediate Execution
-- Over the last 50 turns, we navigated from B1F back up to 2F, toggled the switches, navigated 2F East South, mapped out its western corridor (which proved to be a dead-end on foot), and went back up to 3F West to visually inspect Column 10.
-- Now, we are standing on 2F West at (7, 10). Our intention is to walk to the Mewtwo Statue 2 at (2, 11) by standing at (2, 12) facing Up and pressing 'A' to toggle the switch to State B (Toggled).
-- Once in State B, we will return to 3F West and see if the crossover at Column 10 Row 11 or 12 opens up, or if there is another path.
-- Let's check:
-  - If we toggle to State B:
-    - On 2F, Gate 6 at (9, 4)-(9, 5) opens.
-    - Gate 3 at (18, 8)-(19, 8) opens? No, wait! Under State B, Gate 3 is CLOSED.
-    - Gate 1 at 1F (25, 13) opens.
-    - Let's toggle and return to 3F West to look at the screen!
-
-## 2. Notepad Hygiene
-- The notepads are well-organized, with a clean directory in Main.
-- We will keep the temporary notes in Scratchpad/Mansion_3F_Crossover_Tests and migrate them once we find the final unblocked path to B1F.
-
-## 3. Map Hygiene
-- Map markers are highly accurate, showing stairs down to 1F at (5, 10), stairs up to 3F at (7, 10), and Statue 2 at (2, 11).
-- We will add more markers once we enter B1F.
-
-## 4. Custom Tools & Specialized Agents Planning
-- We can think of 5 highly specialized custom tools/agents to implement:
-  1. `mansion_switch_predictor`: Evaluates the current global switch state and predicts which gates are open/closed.
-  2. `flee_battle_v2`: Standard flee utility (already exists and works flawlessly).
-  3. `b1f_routing_optimizer`: Finds paths around B1F's specific gate layout once mapped.
-  4. `escape_rope_warp_helper`: Automates bag navigation to use Escape Rope.
-  5. `fossil_revive_planner`: Strategizes which fossils to revive at the Cinnabar Lab.
-
-## 5. Tool Maintenance
-- Our flee_battle tool works perfectly and has been extremely helpful in saving us time and preserving Blastoise's health.
-
-## 6. Goal Clarity
-- **Primary Goal**: Retrieve Secret Key from Cinnabar Mansion B1F.
-- **Secondary Goal**: Walk to (2, 12), face Up, and toggle Mewtwo Statue 2 to State B (Toggled).
-- **Navigation Goal**: Mewtwo Statue 2 at (2, 11) from (2, 12).
-
-## 7. Error Analysis & Hypothesis Review
-- **The Core Conflict**:
-  - If 3F East is unreachable from 3F West under both states, and 2F Southeast room is unreachable on foot under both states, and 1F East south-central pocket is unreachable on foot under both states, then there MUST be an open path we haven't fully verified.
-  - Let's verify what happens under State B on 3F West. We will walk up to 3F West under State B and look at the screen!
-  - Let's go to (2, 12) on 2F West first and toggle the switch.
 ## State A Column 12 Row 13 Physical Passability Test (Turn 81812 Verification)
 - **Physical Test Result**: Standing at (12, 12) under State A on Turn 81812, we attempted to walk Down onto (12, 13). Result: **Bump** (stayed at (12, 12)), physically and empirically proving that Column 12 Row 13 is CLOSED and solid/impassable under State A. This confirms our original layout model that Column 12 is blocked at Row 13 on 1F under State A.
-- **Hypothesis to Test (Column 14)**:
-  - While Column 12 Row 13 is blocked, Column 14 is a potential alternative vertical route to the southern half of 1F East. Column 13 Row 13 is open floor (`TYPE_3fe2`), and we need to test if Column 14 Row 13 is also passable under State A.
-  - To test this, we will execute the following route:
-    1. Walk Up 9 steps along Column 12 to Row 3 (which is completely open).
-    2. Walk Right 2 steps along Row 3 to Column 14 (crossing Column 13 on Row 3).
-    3. Walk Down 9 steps along Column 14 to land at (14, 12).
-    4. Press Down to physically test the passability of (14, 13).
-  - This systematic test will definitively map the passability of the eastern channels under State A.
-## The 1F Southeast Stairs & State A Breakthrough (Turn 81781 Audit)
-- **The Discovery**:
-  - The 1F Southeast staircase at (25, 14) is bidirectionally active in vanilla Pokémon Blue, but when we tested it under State B on Turn 77674, it did not trigger a warp.
-  - **The Reason**: In Gen 1, if a warp's target tile on the destination map is blocked by a closed gate, the warp is completely deactivated and behaves as a normal floor tile. Under State B, the gates on 2F Southeast are closed, deactivating the (25, 14) warp.
-  - Under **State A**, the gates in 2F Southeast are open, meaning the warp at (25, 14) is ACTIVE!
-  - Under State A, Gate 4 at (21, 17) is also open, allowing us to walk south through it, cross to Column 25, and step on (25, 14) to warp up to the 2F Southeast room!
-  - Once on 2F Southeast, we can climb the stairs to 3F East, drop through the pit, and land directly next to the B1F stairs at (21, 23)!
 
-- **Execution Plan**:
-  1. Walk back to 1F West stairs at (5, 10):
-     - Walk Left 7 steps to (10, 3).
-     - Walk Down 8 steps to (10, 11).
-     - Walk Left 5 steps to (5, 11).
-     - Walk Up 1 step to (5, 10) and go UP to 2F.
-  2. Toggle Mewtwo Statue 2 at (2, 11) on 2F West back to State A (Default).
-  3. Go back down to 1F West at (5, 10) under State A.
-  4. Walk to the active warp at (25, 14) under State A:
-     - From (5, 11), walk Right 7 steps to (12, 11).
-     - Walk Down 6 steps to (12, 17).
-     - Walk East through open Gate 4 at (21, 17) to (21, 18).
-     - Walk East along Row 18 to (25, 18).
-     - Walk North 4 steps to (25, 14) and warp UP to 2F Southeast!
-  5. Go UP to 3F East.
-  6. Map 3F East pit and drop down to land next to B1F stairs.
+## State A Column 16 Row 7 Physical Passability Test (Turn 81823 Verification)
+- **Physical Test Result**: Standing at (16, 6) under State A on Turn 81823, we attempted to walk Down onto (16, 7). Result: **Bump** (stayed at (16, 6)), physically and empirically proving that Column 16 Row 7 is CLOSED and solid/impassable under State A. This confirms that the southern half of 1F East is completely cut off from the northern half of 1F East under State A.
+
+## State B 1F East Northeast Room Staircase Search Protocol (Turn 81848 Plan)
+- **Active Exploration Mission**: Access the 1F Northeast Room under State B (Mewtwo Statue 1 Toggled), which is open and passable via the northern crossings on Rows 2 and 3.
+- **The Hypothesis**:
+  - In vanilla Pokémon Red/Blue, there is an active staircase warp in the 1F East Northeast room (such as (27, 11) or surrounding tiles) that warps the player up to 2F Southeast (or 3F East).
+  - Under State B, we can reach 1F East on foot.
+  - We will walk to Cinnabar Mansion 1F West Statue 1 at (2, 5), stand at (2, 6) facing Up, and toggle it to State B.
+  - Then we will walk to the Northeast room on 1F East:
+    - (2, 6) -> (3, 6) -> (3, 2) -> (10, 2) -> (25, 2) (Crossing Column 22 on Row 2/3).
+    - From (25, 2), we will enter the Northeast room (Columns 23-28, Rows 2-13) and systematically foot-test all staircase-like coordinates on foot.
+  - This systematic test will locate the active staircase warp that grants us access to 2F Southeast and 3F East, allowing us to drop down the pit to B1F!
