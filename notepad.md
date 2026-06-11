@@ -6863,6 +6863,12 @@ Active State: **State B (Statue 1 Toggled)** (Toggled on Turn 78020)
   - Standing at (9, 11) facing Up/Left/Down/Right (currently facing Right/Down?). Let's check our sprite. On the current screen, we are facing Right.
   - First, let's test the vertical crossover: stand at (9, 11), face Down, and walk Down onto (9, 12).
   - Let's execute the vertical test first.
+- **Turn 82185 State B Crossover Test Result (Vertical)**:
+  - Stood at (9, 11) facing Down and pressed Down.
+  - Result: **Bump**, remaining at (9, 11).
+  - This physically proves that Column 9 Row 12 is solid and impassable under State B (Toggled).
+  - Now, let's perform Test 2 (Horizontal): Stand at (9, 11) facing Right, and press Right to test if (10, 11) is passable.
+  - Since we are currently facing Right, pressing Right once will execute the movement check. Let's do it.
 
 <hr>
 
