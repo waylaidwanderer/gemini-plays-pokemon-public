@@ -119,3 +119,8 @@
 - **Turn 81886**: Standing at (27, 9) in the Northeast room of 1F under State B. Visually verified that (27, 10) and (27, 11) are solid rubble.
 - **Turn 81893**: Walked from (27, 9) to (23, 11) via (26, 9) -> (26, 10) -> (26, 11) -> (25, 11) -> (24, 11) -> (23, 11). No warp triggered on any of these tiles.
 - **Turn 81899**: standing at (23, 11). We will now walk Right to (28, 12) via (26, 11) and (26, 12) to test (27, 12) and (28, 12).
+- **Turn 81911**: Walked from (23, 11) to (28, 12) via (24, 11) -> (25, 11) -> (26, 11) -> (26, 12) -> (27, 12) -> (28, 12). No warp triggered on (27, 12) or (28, 12).
+- **Turn 81922**: Walked from (28, 12) to (25, 13) (Gate 1) via (27, 12) -> (26, 12) -> (25, 12) -> (24, 12) -> (24, 13) -> (25, 13). No warp triggered on (24, 12), (25, 12), (26, 12), (24, 13), or (25, 13).
+- **Turn 81927**: Walked from (25, 13) to (23, 7) via (25, 12) -> (25, 11) -> (25, 10) -> (24, 10) -> (23, 10) -> (23, 9) -> (23, 8) -> (23, 7). No warp triggered on any of these tiles.
+- **Turn 81932**: Walked from (23, 7) to (28, 6) via (24, 7) -> (25, 7) -> (26, 7) -> (27, 7) -> (28, 7) -> (28, 6). No warp triggered on (24, 7), (25, 7), (26, 7), (27, 7), (28, 7), or (28, 6).
+- **Turn 81934**: Standing at (28, 6). We will walk Left to (23, 6), Up to (23, 5), and Right to (27, 5) to test the remaining Row 6 and Row 5 floor tiles.
