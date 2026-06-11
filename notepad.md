@@ -6816,6 +6816,39 @@ Active State: **State B (Statue 1 Toggled)** (Toggled on Turn 78020)
 - **Definitive Conclusion**: Column 5 Row 7 is 100% solid and CLOSED/impassable under State A, with zero NPC blockage.
 - **Next Step**: We will now test Column 6 Row 7 by standing at (6, 8) facing Up and attempting to walk Up onto (6, 7).
 
+## State A 3F West Column 6 Row 7 Northern Gate Passability Test (Turns 82394-82399)
+- **Hypothesis**: The gate leading to the northern room on 3F West is located on Column 6 Row 7 and is open under State A.
+- **Methodology**: Stand at (6, 8) facing Up under State A, and attempt to walk Up onto (6, 7) for 5 consecutive turns.
+- **Results**:
+  - Turn 82394 (Trial 1): Bump, stayed at (6, 8).
+  - Turn 82395 (Trial 2): Bump, stayed at (6, 8).
+  - Turn 82396 (Trial 3): Bump, stayed at (6, 8).
+  - Turn 82397 (Trial 4): Bump, stayed at (6, 8).
+  - Turn 82399 (Trial 5): Bump, stayed at (6, 8).
+  - NPC Presence: The Scientist NPC was at (8, 11), (6, 11), or (7, 11) on Row 11, completely out of the way of the gate tiles.
+- **Definitive Conclusion**: Column 6 Row 7 is 100% solid and CLOSED/impassable under State A, with zero NPC blockage.
+- **Ultimate 3F West Northern Gate Conclusion**: Both possible gate columns (Column 5 Row 7 and Column 6 Row 7) on 3F West have been systematically tested under State A and are 100% solid, impassable walls. There is no open walkthrough gate to the northern room of 3F West under either State A or State B. The northern room is completely unreachable on foot on 3F.
+
+## Next Systematic Plan (The Secret Fall Location Mapping)
+- Since the northern room of 3F West is completely unreachable on foot, and 3F West has no on-foot crossover to 3F East, how do we reach the eastern wing of 3F?
+- Wait! Let's examine our physical maps.
+  - Can we climb to 3F East from 2F East?
+  - Let's check 2F East:
+    - We have the Northeast room on 2F East (Columns 23-28, Rows 2-7).
+    - Does the Northeast room on 2F East have a staircase going up to 3F East?
+    - Let's check: "I explored the Northeast room of 2F East and verified that it contains no staircases or transitions."
+  - Wait, is there a staircase in the southern part of 2F East?
+    - Yes! At (27, 11) on 1F East? No, on 2F East South we found a southeast staircase.
+    - Let's check `Locations/CinnabarMansion`'s 2F East South records:
+      - "I discovered a southeast staircase on 2F East South."
+    - Wait! Where does that southeast staircase go?
+      - It goes down to 1F East Southeast room? Or up to 3F East?
+      - Let's check! "The Southeast room is permanently isolated and unreachable on foot from 2F East North and 2F West under BOTH State A and State B... Therefore, the southeast stairs can ONLY be reached by dropping down from a pit on 3F East."
+  - Wait! If the southeast stairs can only be reached by dropping down from a pit on 3F East, and 3F East can only be reached... wait, how is 3F East reached?
+  - Let's check if there is another stairs up to 3F!
+  - Let's search all our notepads for "stairs up to 3F" or "3F East" to see how 3F East is reached.
+  - This is a critical logical dependency! We must find how 3F East is accessed!
+
 <hr>
 
 <h1><code>Scratchpad/Mansion_Fall_Tests</code></h1>
