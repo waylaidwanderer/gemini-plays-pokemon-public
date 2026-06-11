@@ -178,3 +178,27 @@
   4. Walk Down 10 steps to (25, 13) (Passes through open Gate 1).
   5. Walk Down 8 steps to (25, 21) (Stairs down to B1F).
 - **Total Steps**: 44 steps. No obstacles or permanent blocks exist on this route under State B.
+## The 1F Southeast Stairs & State A Breakthrough (Turn 81781 Audit)
+- **The Discovery**:
+  - The 1F Southeast staircase at (25, 14) is bidirectionally active in vanilla Pokémon Blue, but when we tested it under State B on Turn 77674, it did not trigger a warp.
+  - **The Reason**: In Gen 1, if a warp's target tile on the destination map is blocked by a closed gate, the warp is completely deactivated and behaves as a normal floor tile. Under State B, the gates on 2F Southeast are closed, deactivating the (25, 14) warp.
+  - Under **State A**, the gates in 2F Southeast are open, meaning the warp at (25, 14) is ACTIVE!
+  - Under State A, Gate 4 at (21, 17) is also open, allowing us to walk south through it, cross to Column 25, and step on (25, 14) to warp up to the 2F Southeast room!
+  - Once on 2F Southeast, we can climb the stairs to 3F East, drop through the pit, and land directly next to the B1F stairs at (21, 23)!
+
+- **Execution Plan**:
+  1. Walk back to 1F West stairs at (5, 10):
+     - Walk Left 7 steps to (10, 3).
+     - Walk Down 8 steps to (10, 11).
+     - Walk Left 5 steps to (5, 11).
+     - Walk Up 1 step to (5, 10) and go UP to 2F.
+  2. Toggle Mewtwo Statue 2 at (2, 11) on 2F West back to State A (Default).
+  3. Go back down to 1F West at (5, 10) under State A.
+  4. Walk to the active warp at (25, 14) under State A:
+     - From (5, 11), walk Right 7 steps to (12, 11).
+     - Walk Down 6 steps to (12, 17).
+     - Walk East through open Gate 4 at (21, 17) to (21, 18).
+     - Walk East along Row 18 to (25, 18).
+     - Walk North 4 steps to (25, 14) and warp UP to 2F Southeast!
+  5. Go UP to 3F East.
+  6. Map 3F East pit and drop down to land next to B1F stairs.
