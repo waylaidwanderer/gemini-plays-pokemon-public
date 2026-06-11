@@ -124,3 +124,6 @@
 - **Turn 81927**: Walked from (25, 13) to (23, 7) via (25, 12) -> (25, 11) -> (25, 10) -> (24, 10) -> (23, 10) -> (23, 9) -> (23, 8) -> (23, 7). No warp triggered on any of these tiles.
 - **Turn 81932**: Walked from (23, 7) to (28, 6) via (24, 7) -> (25, 7) -> (26, 7) -> (27, 7) -> (28, 7) -> (28, 6). No warp triggered on (24, 7), (25, 7), (26, 7), (27, 7), (28, 7), or (28, 6).
 - **Turn 81934**: Standing at (28, 6). We will walk Left to (23, 6), Up to (23, 5), and Right to (27, 5) to test the remaining Row 6 and Row 5 floor tiles.
+- **Turn 81947**: Walked from (27, 5) to (26, 8) via (27, 6) -> (27, 7) -> (27, 8) -> (26, 8). No warp triggered on (26, 8).
+- **Turn 81954**: Walked from (26, 8) to (27, 2) via (26, 7) -> (26, 6) -> (26, 5) -> (26, 4) -> (26, 3) -> (26, 2) -> (27, 2). No warp triggered on (26, 4), (26, 2), or (27, 2).
+- **Turn 81955**: Standing at (27, 2). We will walk Left to (24, 2) and Down to (24, 3) to complete the test of all passable tiles in the Northeast room of 1F East under State B.
