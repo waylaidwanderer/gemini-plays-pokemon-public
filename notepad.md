@@ -6240,30 +6240,17 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - The Southeast room is documented to span Rows 9-15 on 2F East (Map 0_214).
   - Physical testing on Turn 76552-76760 has proven that the Southeast room is 100% isolated and cannot be reached on foot on 2F under both State A and State B because Column 22 is completely blocked by solid rubble/walls on Rows 8-15.
   - Socratic Question 1 is fully resolved: the 2F Southeast room is completely unreachable on foot.
-- **Definitive 3F Crossover Passability Audit**:
-  - Socratic Question 2 is fully resolved: we have completed a complete, systematic, and physically verified passability audit of ALL potential walkthrough crossover rows on 3F West (Map 0_215) under both State A and State B with the Scientist NPC out of the way or frozen.
-  - Under State B (Toggled):
-    - Row 10 Column 10 (10, 10): CLOSED (Bumped on Turn 80478 and Turn 81093).
-    - Row 11 Column 10 (10, 11): CLOSED (Bumped on Turn 80408 and Turn 81052).
-    - Row 12 Column 9 (9, 12): CLOSED (Bumped on Turn 80285 and Turn 81045).
-    - Row 13 Column 9 (9, 13): CLOSED (Bumped on Turn 80472 and Turn 81097).
-    - Row 14 Column 8 (8, 14): CLOSED (Bumped on Turn 80447 and Turn 81101).
-    - Row 15 Column 8 (8, 15): CLOSED (Bumped on Turn 80446).
-  - Under State A (Default):
-    - Row 10 Column 10 (10, 10): CLOSED (Bumped on Turn 81171).
-    - Row 11 Column 10 (10, 11): CLOSED (Bumped on Turn 81148).
-    - Row 12 Column 9 (9, 12): CLOSED (Bumped on Turn 81149).
-    - Row 13 Column 9 (9, 13): CLOSED (Bumped on Turn 81189).
-  - This mathematically and physically proves that the 3F West-East crossover is 100% blocked on foot in BOTH states.
-- **The B1F Descent Breakthrough (Reevaluated Turn 81455)**:
-  - We have verified that the 3F West balcony drop at (5, 16) under State B is NOT possible (bumped on Turn 81256).
-  - The true breakthrough path lies in testing Row 26 on foot under State A (Default) to bypass the closed Gate 26 at Columns 12-13.
-  - Specifically, we will navigate to the Column 12 corridor of 2F East South under State A via the open Row 22 crossover.
-  - From (12, 25), we will systematically test if Column 11 Row 26 or Columns 14-19 Row 26 is passable.
-  - If any of these are passable, we can walk south onto the southern balcony (Row 27) and test for a jump-down ledge that drops us directly into the 1F East south-central pocket.
-  - This pocket contains the B1F stairs, allowing us to reach B1F, retrieve the Secret Key, and Escape Rope out!
-
-## 2F East South Column 22 Balcony Passability Plan (Turn 81307) - Completed & Disproven
+- **Definitive 3F Crossover Passability Audit (Updated Turn 81515)**:
+  - We have previously concluded that 3F West is completely blocked from 3F East under both State A and State B.
+  - However, our previous testing under State B (Turn 81045) was flawed because we stood on a solid wall tile (8, 12) and tried to walk Right onto (9, 12), resulting in a bump. In Gen 1, attempting to walk from an already solid tile always results in a collision.
+  - The correct way to test this crossover is from the open tile (9, 11) on 3F. We must walk from (9, 11) Down to (9, 12), then Right to (10, 12), and verify if we can cross into 3F East under State B.
+  - Therefore, we will:
+    1. Walk Left to (2, 11) on 2F West and toggle the switch to State B.
+    2. Climb the stairs at (7, 10) to 3F West.
+    3. Navigate to (9, 11) on 3F.
+    4. Walk Down to (9, 12), and Right to (10, 12) to test if this corridor is open.
+    5. If open, we will cross to 3F East, identify the secret pit at (11, 12) or other pit locations, and fall down to B1F.
+- **2F East South Column 22 Balcony Passability Plan (Turn 81307) - Completed & Disproven**
 - **The Hypothesis**: In unmodded Pokémon Red/Blue, the southern balcony on the second floor (2F East South) is a completely continuous and open walkway spanning horizontally across Column 22 on Rows 16 and 17, or Row 26 provides a walkthrough bypass to Row 27 (the southern balcony).
 - **The Strategy Results**: This strategy has been **fully executed and 100% disproven**. We have systematically and physically tested Column 22 on Rows 9-15 under both State A and State B, and Row 26 on Column 11 and Column 14 under State A. All resulted in physical collisions (bumps), proving that 2F East South is completely isolated and has no walkable connection or bypass to Row 27 under State A.
 
