@@ -104,13 +104,13 @@
     - Row 12 Column 9 (9, 12): CLOSED (Bumped on Turn 81149).
     - Row 13 Column 9 (9, 13): CLOSED (Bumped on Turn 81189).
   - This mathematically and physically proves that the 3F West-East crossover is 100% blocked on foot in BOTH states.
-- **The B1F Descent Breakthrough**:
-  - Since the 2F Southeast room is isolated on foot and 3F East cannot be reached from 3F West, there is no on-foot crossover to B1F.
-  - The ONLY way to reach B1F is the Balcony Drop Route under State B!
-  - Under State B, stand at (5, 16) on 3F West and press Down to jump over the balcony railing at (5, 17).
-  - Why State B? Under State B, Gate 1 on 1F East at (25, 13) is OPEN, which clears the landing tile. Under State A, Gate 1 is CLOSED and blocks the landing tile (causing bumps).
-  - Once we drop, we will land in the 1F south-central pocket directly adjacent to the stairs down to B1F.
-  - From there, we go down to B1F, retrieve the Secret Key, and use an Escape Rope to warp out!
+- **The B1F Descent Breakthrough (Reevaluated Turn 81455)**:
+  - We have verified that the 3F West balcony drop at (5, 16) under State B is NOT possible (bumped on Turn 81256).
+  - The true breakthrough path lies in testing Row 26 on foot under State A (Default) to bypass the closed Gate 26 at Columns 12-13.
+  - Specifically, we will navigate to the Column 12 corridor of 2F East South under State A via the open Row 22 crossover.
+  - From (12, 25), we will systematically test if Column 11 Row 26 or Columns 14-19 Row 26 is passable.
+  - If any of these are passable, we can walk south onto the southern balcony (Row 27) and test for a jump-down ledge that drops us directly into the 1F East south-central pocket.
+  - This pocket contains the B1F stairs, allowing us to reach B1F, retrieve the Secret Key, and Escape Rope out!
 
 ## 2F East South Column 22 Balcony Passability Plan (Turn 81307)
 - **The Hypothesis**: In unmodded Pokémon Red/Blue, the southern balcony on the second floor (2F East South) is a completely continuous and open walkway spanning horizontally across Column 22 on Rows 16 and 17.
