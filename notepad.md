@@ -6650,6 +6650,20 @@ Therefore, ground-level entry is impossible, proving the 1F south-central pocket
   - Mewtwo switch statues can ONLY be interacted with from the front (facing Up from the southern tile, e.g., (2, 12)).
   - Standing at (3, 11) facing Left and pressing 'A' does NOT trigger the switch, proving that side interactions are disabled.
 
+## 1F Southeast Room Systematic Passability Audit (Turns 81703-81732)
+- **Objective**: Systematically and physically test every walkable tile on 1F East Southeast room under State B on foot to find any staircase warp.
+- **Verified Facts (Turns 81703-81732)**:
+  - We stood directly on and tested the following coordinates on foot under State B:
+    - Row 12: (24, 12), (25, 12), (26, 12), (27, 12), (28, 12). Result: No warp.
+    - Row 13: (24, 13) (Gate 1). Result: No warp.
+    - Row 14: (22, 14), (23, 14), (24, 14), (25, 14), (26, 14), (27, 14). Result: No warp.
+    - Row 15: (22, 15). Result: No warp.
+    - Row 16: (22, 16), (28, 16). Result: No warp.
+    - Row 21: (25, 21), (26, 21), (27, 21), (28, 21). Result: No warp.
+    - Rows 22-24: (28, 22), (28, 23), (28, 24). Result: No warp.
+    - Row 25: (26, 25), (27, 25), (28, 25). Result: No warp.
+  - **Conclusion**: None of these walkable tiles trigger any map warp under State B. This physically disproves the existence of any active staircase warp in the 1F East Southeast room under State B, confirming that the 2F Southeast room is completely isolated on foot on both floors under State B.
+
 <hr>
 
 <h1><code>Scratchpad/Mansion_Gate_Matrix</code></h1>
