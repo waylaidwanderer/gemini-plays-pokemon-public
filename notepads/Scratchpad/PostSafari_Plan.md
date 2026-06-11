@@ -109,3 +109,13 @@
   3. Toggle Mewtwo Statue 2 at (2, 11) back to State A (Default).
   4. Climb the stairs at (7, 10) to 3F West.
   5. Go to Row 8 Column 10/11 on 3F West under State A, walk Up through the open gate, and explore the northern room of 3F West.
+
+## State B Row 8 Gate Discovery & Crossover Breakthrough (Turn 82602)
+- **Breakthrough Fact**: We have successfully toggled Mewtwo Statue 2 on 2F West to State B on Turn 82588, and verified on 3F West that the gate spanning Columns 8, 9, 10, and 11 on Row 8 is indeed OPEN under State B!
+- **Proof of Work**: Visual inspection of 3F West at Turn 82599 clearly shows the checkered pink floor pattern (TYPE_3fe2) extending through Row 8 Columns 8-10, with the iron bars completely removed.
+- **Routing Plan to B1F**:
+  1. From (7, 11) on 3F West, walk Right 2 to (9, 11).
+  2. Walk Up 3 steps on Column 9 to stand on (9, 8) (the open gate).
+  3. Walk Right 2 steps to (11, 8) (open gate).
+  4. Walk Down 1 step onto (11, 9) (the pit void).
+  5. Fall down the pit to land in the isolated 2F Southeast room or B1F directly!
