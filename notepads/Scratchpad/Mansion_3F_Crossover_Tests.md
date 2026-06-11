@@ -95,3 +95,5 @@
 
 - Turn 82159-82162: Stood at (2, 12) on 2F West (Map 0_214) facing Up and successfully interacted with Mewtwo Statue 2 at (2, 11), toggling the mansion's gate configuration to State B (Toggled).
 - Map Marker Update (Turn 82174): Map 0_214 and Map 0_165 markers have been updated to reflect active State B gates (Gate 3 open, Gate 1 open, Gate 4 closed). We deleted the closed Gate 1 marker from Map 0_165. Now, let's also update the rest of the State B map markers.
+- Map Marker Update (Turn 82179): Successfully deleted the open Gate 4 marker at (21, 17) on Map 0_165, and replaced it with a closed Gate 4 marker. All map markers on 1F and 2F are now fully synchronized with State B gates!
+- Walk to 3F West crossover testing starting position (Turn 82179): Walked from (7, 11) Right 2 steps to reach the target testing position at (9, 11).
