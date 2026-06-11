@@ -6285,6 +6285,17 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   6. If we consistently bump for 10+ turns with zero NPC blockage, we will repeat this multi-trial test on Column 6 Row 7: stand at (6, 8) facing Up and attempt to walk Up onto (6, 7) 5+ times.
   7. If both are blocked and we can verify zero NPC presence, we will proceed to check Column 10 Row 11 under State B.
 
+## 3F West to East Crossover Systematic Multi-Trial Testing Protocol (Turn 82142)
+- **Problem**: In unmodded Cinnabar Mansion 3F, the crossover from 3F West to 3F East is via the gate at Column 11 Row 11 or 12. It is open under State B and closed under State A.
+- **Confounding Variable**: The wandering Scientist NPC and Burglar NPC on 3F West can randomly walk onto the gate/crossover tiles at Column 10 Row 11, Column 10 Row 12, or Column 9 Row 12, causing false-positive wall collisions (bumps).
+- **Systematic Test Protocol under State B**:
+  1. Go to 2F West (2, 11) and toggle Statue 2 to State B.
+  2. Return to 3F West via the stairs at (7, 10).
+  3. Walk to (9, 11) on 3F West.
+  4. Test 1 (Vertical Crossover): Standing at (9, 11) facing Down, attempt to walk Down onto (9, 12) multiple times (at least 5 consecutive turns). If successful, we can reach (9, 12) and then test walking Right onto (10, 12) under State B.
+  5. Test 2 (Horizontal Crossover): Standing at (9, 11) facing Right, attempt to walk Right onto (10, 11) multiple times (at least 5 consecutive turns) to check if we can pass through under State B.
+  6. If a bump occurs in any of these tests, check the screen and NPC tracker to see if any NPC is occupying the target tile. If so, stand still to let them wander away and then re-test.
+
 <hr>
 
 <h1><code>Locations/CeladonGym</code></h1>
