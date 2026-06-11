@@ -6328,16 +6328,16 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - If 3F East is unreachable from 3F West under both states, and 2F Southeast room is unreachable on foot under both states, and 1F East south-central pocket is unreachable on foot under both states, then there MUST be an open path we haven't fully verified.
   - Let's verify what happens under State B on 3F West. We will walk up to 3F West under State B and look at the screen!
   - Let's go to (2, 12) on 2F West first and toggle the switch.
-## Route to B1F Stairs from 1F West (Turn 81757 Plan)
-- **Starting Position**: (7, 11) on 1F West
-- **Active Gate State**: State B (Statue 2 Toggled, Gate 1 at (25, 13) is open)
-- **Detailed Step-by-Step Path**:
-  1. Walk Right 4 steps to (11, 11) (Row 11 crossover is open).
-  2. Walk Up 8 steps to (11, 3) (Column 11 corridor is open at North).
-  3. Walk Right 14 steps to (25, 3) (Column 22 crossover on Row 3 is open).
-  4. Walk Down 10 steps to (25, 13) (Passes through open Gate 1).
-  5. Walk Down 8 steps to (25, 21) (Stairs down to B1F).
-- **Total Steps**: 44 steps. No obstacles or permanent blocks exist on this route under State B.
+## State A Column 12 Row 13 Physical Passability Test (Turn 81812 Verification)
+- **Physical Test Result**: Standing at (12, 12) under State A on Turn 81812, we attempted to walk Down onto (12, 13). Result: **Bump** (stayed at (12, 12)), physically and empirically proving that Column 12 Row 13 is CLOSED and solid/impassable under State A. This confirms our original layout model that Column 12 is blocked at Row 13 on 1F under State A.
+- **Hypothesis to Test (Column 14)**:
+  - While Column 12 Row 13 is blocked, Column 14 is a potential alternative vertical route to the southern half of 1F East. Column 13 Row 13 is open floor (`TYPE_3fe2`), and we need to test if Column 14 Row 13 is also passable under State A.
+  - To test this, we will execute the following route:
+    1. Walk Up 9 steps along Column 12 to Row 3 (which is completely open).
+    2. Walk Right 2 steps along Row 3 to Column 14 (crossing Column 13 on Row 3).
+    3. Walk Down 9 steps along Column 14 to land at (14, 12).
+    4. Press Down to physically test the passability of (14, 13).
+  - This systematic test will definitively map the passability of the eastern channels under State A.
 ## The 1F Southeast Stairs & State A Breakthrough (Turn 81781 Audit)
 - **The Discovery**:
   - The 1F Southeast staircase at (25, 14) is bidirectionally active in vanilla Pokémon Blue, but when we tested it under State B on Turn 77674, it did not trigger a warp.
