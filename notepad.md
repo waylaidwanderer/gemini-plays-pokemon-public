@@ -6273,6 +6273,18 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Walk Up along Column 5: (5, 9) -> (5, 8) -> (5, 7) -> (5, 6) -> (5, 5).
   - If successful, we will land in the northern room at (5, 5).
 
+## 3F West Northern Gate Systematic Multi-Trial Testing Protocol (Turn 82114)
+- **Problem**: In unmodded Pokémon Red/Blue, the gate leading to the northern room on 3F West is at Column 5 Row 6 or Row 7. It is open under State A and closed under State B.
+- **Confounding Variable**: The wandering Scientist NPC and/or Burglar NPC on 3F West can randomly walk onto the gate tiles at Column 5 Row 7, Column 5 Row 6, Column 6 Row 7, or Column 6 Row 6, causing a false-positive wall collision (bump) that mimics a solid wall.
+- **Systematic Test Protocol**:
+  1. Return to 3F West via the stairs at (7, 10).
+  2. Stand at (5, 8) facing Up.
+  3. Attempt to walk Up onto (5, 7) multiple times (at least 5 consecutive turns).
+  4. If a bump occurs, check the screen text / NPC Tracker to see if an NPC is occupying (5, 7) or (5, 6).
+  5. If an NPC is blocking, stand still or walk back and forth on Row 8 to force the NPC to wander away, then re-test.
+  6. If we consistently bump for 10+ turns with zero NPC blockage, we will repeat this multi-trial test on Column 6 Row 7: stand at (6, 8) facing Up and attempt to walk Up onto (6, 7) 5+ times.
+  7. If both are blocked and we can verify zero NPC presence, we will proceed to check Column 10 Row 11 under State B.
+
 <hr>
 
 <h1><code>Locations/CeladonGym</code></h1>
