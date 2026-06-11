@@ -112,3 +112,16 @@
   *Conclusion*: All 5 horizontal trials of (10, 11) under State B resulted in a bump, with zero NPC blockage. (10, 11) is 100% solid wall.
 
 - **Ultimate Crossover Conclusion**: Both vertical (9, 12) and horizontal (10, 11) crossover paths on 3F under State B are 100% closed and impassable. 3F West has absolutely no on-foot crossover to 3F East under any state. Our testing is 100% scientifically complete and validated. No NPC was present in the crossover area during any of the 10 trials.
+
+## State A 3F West Column 5 Row 7 Northern Gate Passability Test (Turns 82386-82390)
+- **Hypothesis**: The gate leading to the northern room on 3F West is located on Column 5 Row 7 and is open under State A.
+- **Methodology**: Stand at (5, 8) facing Up under State A, and attempt to walk Up onto (5, 7) for 5 consecutive turns.
+- **Results**:
+  - Turn 82386 (Trial 1): Bump, stayed at (5, 8).
+  - Turn 82387 (Trial 2): Bump, stayed at (5, 8).
+  - Turn 82388 (Trial 3): Bump, stayed at (5, 8).
+  - Turn 82389 (Trial 4): Bump, stayed at (5, 8).
+  - Turn 82390 (Trial 5): Bump, stayed at (5, 8).
+  - NPC Presence: The Scientist NPC was at (5, 11) or (8, 11) on Row 11, completely out of the way.
+- **Definitive Conclusion**: Column 5 Row 7 is 100% solid and CLOSED/impassable under State A, with zero NPC blockage.
+- **Next Step**: We will now test Column 6 Row 7 by standing at (6, 8) facing Up and attempting to walk Up onto (6, 7).
