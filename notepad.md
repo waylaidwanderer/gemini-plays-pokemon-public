@@ -6961,6 +6961,10 @@ All four reachable columns (1, 2, 3, and 4) on the southwest balcony of 2F West 
   6. Attempting to enter from 2F West is blocked because the Gate at (12, 13) is CLOSED under State A, blocking vertical entry south of Row 12.
   7. Therefore, Columns 11-17 on Row 15/16 cannot be physically reached or tested on foot under State A. This satisfies Socratic Question 2's scientific Burden of Proof with definitive proof of impossibility.
 - Turn 80595: Crossed on foot onto (11, 22) under State A, successfully proving that the Row 22 crossover is OPEN under State A! Traversed onto Column 12 corridor.
+- **Turn 82962 State A (Default) 3F West Balcony Drop Crossover Test Plan**:
+  - In standard Gen 1 Cinnabar Mansion, the balcony drop that lands you in the isolated 2F Southeast room is executed by walking **Right (East) off the eastern edge of the 3F West balcony** (stepping off Column 5 onto Column 6), not by jumping south over the railing!
+  - We have successfully returned to 3F West at (7, 11) (facing Up/Down) under State A (Default).
+  - Let's walk to the balcony edge at (5, 15) or (5, 16) and test walking Right (East) off the edge to satisfy the Burden of Proof for State A!
 
 <hr>
 
