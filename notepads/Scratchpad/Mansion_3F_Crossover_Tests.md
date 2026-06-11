@@ -183,3 +183,9 @@
   2. Navigate to Mewtwo Statue 2 at (2, 11) on 2F West and toggle the switch to State A (Default).
   3. Return to 3F West via the stairs at (7, 10).
   4. Walk to (9, 11) and attempt to walk Right onto (10, 11) under State A to verify if the gate is open.
+- **Turn 82928 State A (Default) 3F West Column 10 Row 11 passability test**:
+  - Stand at (9, 11) facing Right under State A, pressed Right.
+  - Result: **Bump**, remaining at (9, 11) (Turn 82928).
+  - NPC Presence: The Scientist NPC is at (6, 11), completely out of the way.
+  - **Conclusion**: Column 10 Row 11 (Gate 2) is 100% solid and CLOSED under State A as well.
+  - This definitively proves that there is NO walkthrough crossover from 3F West to 3F East under EITHER State A or State B. Column 10 Row 11 is closed under both states, and the northern gate has been proven closed under both states. The eastern wing of 3F is completely unreachable on foot.
