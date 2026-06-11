@@ -93,19 +93,5 @@
   - **Turn 81097 (Row 13 Column 9)**: Stood at (8, 13) facing Right and pressed Right against (9, 13). Result: Bump, physically proving (9, 13) is solid and CLOSED under State B.
   - **Turn 81101 (Row 14 Column 8)**: Stood at (8, 13) facing Down and pressed Down against (8, 14). Result: Bump, physically proving (8, 14) is solid and CLOSED under State B. This completely rules out any southern bypass on Column 8 under State B.
 
-## State A Crossover Systematic Audit (Turns 81148-81156)
-- **Status of 3F West crossover under State A (Statue 2 Default)**:
-  - **Turn 81148**: Player stood at (9, 11) facing Right and pressed Right. Result: **Bump** against (10, 11) (`TYPE_2889`), remaining at (9, 11). Visually, Column 10 on Row 11 is solid rubble of TYPE_2889.
-  - **Turn 81149**: Player stood at (9, 11) facing Down and pressed Down. Result: **Bump** against (9, 12) (`TYPE_2889`), remaining at (9, 11). Visually, Column 9 on Row 12 is solid rubble of TYPE_2889.
-  - **NPC Confounding Variable Check**: During both turns, the wandering Scientist NPC (`SPRITE_cdfc`) was at (8, 11) (right behind the player), meaning there was absolutely no NPC blockage in front of the player. These are clean, definitive physical tests.
-  - **Conclusion**: The crossover at Rows 11 and 12 is 100% closed and impassable on foot under State A as well. This officially disproves any on-foot walkthrough crossover hypothesis for 3F.
-  - **Turn 81189 (Row 13 Column 9)**: Stood at (8, 13) facing Right under State A and pressed Right against (9, 13). Result: **Bump** against (9, 13) (`TYPE_2889`), remaining at (8, 13). Visually, Column 9 on Row 13 is solid rubble of TYPE_2889. The Scientist NPC was at (5, 11), ensuring zero NPC blockage.
-  - **Final Audit Conclusion under State A**: All potential crossover rows (Rows 10, 11, 12, 13) have been systematically and physically foot-tested under State A, resulting in 100% collisions. Therefore, the 3F West-East crossover on foot is 100% closed and impassable under BOTH State A and State B. This officially and permanently disproves any on-foot crossover hypothesis for 3F.
-- **Turn 81534 State B Row 12 Column 9 passability test**:
-  - Stand at (9, 11) under State B (Statue 2 Toggled), pressed Down to attempt to step onto (9, 12).
-  - Result: **Bump**, remaining at (9, 11).
-  - Conclusion: Column 9 Row 12 is completely solid/impassable under State B.
-- **Turn 81538 State B Row 11 Column 10 passability test**:
-  - Stand at (9, 11) under State B (Statue 2 Toggled), pressed Right to attempt to step onto (10, 11).
-  - Result: **Bump**, remaining at (9, 11).
-  - Conclusion: Column 10 Row 11 is completely solid/impassable under State B.
+- Turn 82159-82162: Stood at (2, 12) on 2F West (Map 0_214) facing Up and successfully interacted with Mewtwo Statue 2 at (2, 11), toggling the mansion's gate configuration to State B (Toggled).
+- Map Marker Update (Turn 82174): Map 0_214 and Map 0_165 markers have been updated to reflect active State B gates (Gate 3 open, Gate 1 open, Gate 4 closed). We deleted the closed Gate 1 marker from Map 0_165. Now, let's also update the rest of the State B map markers.
