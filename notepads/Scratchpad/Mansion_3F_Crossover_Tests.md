@@ -97,3 +97,10 @@
 - Map Marker Update (Turn 82174): Map 0_214 and Map 0_165 markers have been updated to reflect active State B gates (Gate 3 open, Gate 1 open, Gate 4 closed). We deleted the closed Gate 1 marker from Map 0_165. Now, let's also update the rest of the State B map markers.
 - Map Marker Update (Turn 82179): Successfully deleted the open Gate 4 marker at (21, 17) on Map 0_165, and replaced it with a closed Gate 4 marker. All map markers on 1F and 2F are now fully synchronized with State B gates!
 - Walk to 3F West crossover testing starting position (Turn 82179): Walked from (7, 11) Right 2 steps to reach the target testing position at (9, 11).
+- **Turn 82183 State B Crossover Test Campaign**:
+  - We have arrived at (9, 11) on 3F West.
+  - The Scientist NPC is far away.
+  - Let's begin systematic passability testing under State B (Toggled).
+  - Standing at (9, 11) facing Up/Left/Down/Right (currently facing Right/Down?). Let's check our sprite. On the current screen, we are facing Right.
+  - First, let's test the vertical crossover: stand at (9, 11), face Down, and walk Down onto (9, 12).
+  - Let's execute the vertical test first.
