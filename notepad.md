@@ -6180,22 +6180,6 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 ## Cinnabar Mansion B1F Progression Status (Turn 78573)
 - SW Balcony Drop: Under both State A and State B, all reachable columns (1 to 5) on the southwest balcony of 3F West are 100% solid, impassable railings with no drop-off. Therefore, the southwest balcony of 3F West is NOT a balcony drop. This was explicitly verified on Turn 81256 under State B, where standing at (5, 16) facing Down and pressing Down resulted in a direct collision/bump against (5, 17) (TYPE_2889).
 
-### Socratic Question 2: B1F Systematic Mapping & Statue 4 Evaluation
-- **B1F Systematic Mapping Plan**:
-  - Once we descend to B1F, we will treat it as unmapped territory.
-  - We will walk along every passable row and column, logging all obstacles, item locations, Mewtwo statues (such as the hypothesized Statue 4), and gates.
-  - We will construct and update a dedicated basement gate matrix in `Scratchpad/Mansion_Gate_Matrix` using the following structure:
-    - `| Gate ID & Location | State A | State B | Verification & Proof of Work |`
-  - If we locate Statue 4, we will systematically test it by interacting with it, logging the exact turn and the corresponding open/closed status changes of all gates in B1F and higher floors.
-
-### Socratic Question 3: 3F East Systematic Mapping Protocol
-- **Mapping 3F East before the Leap**:
-  - Once we cross into 3F East, we will map the entire eastern wing of 3F:
-    - Identify all pits/chutes and log their exact coordinates (X, Y).
-    - Identify any staircases, walls, and gates.
-    - Systematically test the boundary tiles.
-    - Only after verifying the exact pit coordinates and correlating them with the 1F landing zones will we execute the drop to land in the target 1F south-central pocket.
-
 ## Cinnabar Mansion Breakthrough Exploration Phase (Turn 79491)
 - **Verified Fact**: 2F East South Column 22 is completely solid/rubble under both State A and State B across rows 8-15. This separates Column 21 from Column 23 on these rows.
 
