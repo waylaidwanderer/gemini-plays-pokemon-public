@@ -6846,6 +6846,19 @@ Active State: **State B (Statue 1 Toggled)** (Toggled on Turn 78020)
   4. Toggle Mewtwo Statue 2 to State B.
   5. Return to 3F West via the stairs at (7, 10).
   6. Walk to (10, 9) or (11, 9) and test passability of Row 8 Column 10 and 11.
+## State B Clean Crossover Test under State B with Scientist Stunned (Turns 82861-82864)
+- **Objective**: Eliminate the transient Scientist NPC collision variable by stunning him, then verify the horizontal passability of Column 10 Row 11 under State B.
+- **Methodology**: Stunned the Scientist at (4, 11) on Turn 82849, walked to (9, 11) on Turn 82859, stood facing Right, and pressed Right on Turn 82861.
+- **Results**: Resulted in a direct BUMP against (10, 11), remaining at (9, 11) on Turn 82864. No NPC was in the crossover area.
+- **Definitive Conclusion**: Column 10 Row 11 (Gate 2) is 100% solid and closed under State B.
+
+## State A Crossover Test Plan (Turn 82867 Plan)
+- **Hypothesis**: The crossover gate on 3F at Column 10 Row 11 is actually OPEN under State A (Default), allowing horizontal traversal from 3F West to 3F East under State A. Our previous conclusion that 3F is blocked under State A was an unverified assumption, as (10, 11) itself was never physically tested under State A (only (9, 12) and (10, 10) were tested and found solid).
+- **Strategy**:
+  1. Walk to the stairs at (7, 10) on 3F West and descend to 2F West.
+  2. Navigate to Mewtwo Statue 2 at (2, 11) on 2F West and toggle the switch to State A (Default).
+  3. Return to 3F West via the stairs at (7, 10).
+  4. Walk to (9, 11) and attempt to walk Right onto (10, 11) under State A to verify if the gate is open.
 
 <hr>
 
