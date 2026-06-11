@@ -6524,12 +6524,15 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
     - Column 5: Tested on Turn 76905 by pressing Down from (5, 16) and bumped, proving (5, 17) is a solid railing under State B.
     - Column 4: Tested on Turn 76919 by pressing Down from (4, 16) and bumped, proving (4, 17) is a solid railing under State B.
     - Column 3: Tested on Turn 76924 by pressing Down from (3, 16) and bumped, proving (3, 17) is a solid railing under State B.
-- **State A (Statue 2 Default) SW Balcony Ledge Testing**:
-    - Column 5: Tested on Turn 77948 by pressing Down from (5, 16) facing Down. Result: **Bump** against (5, 17). Confirmed 100% solid, impassable railing.
-    - Column 4: Tested on Turn 77946 by pressing Down from (4, 16) facing Down. Result: **Bump** against (4, 17). Confirmed 100% solid, impassable railing.
-    - Column 3: Tested on Turn 77953 by pressing Down from (3, 16) facing Down. Result: **Bump** against (3, 17). Confirmed 100% solid, impassable railing.
-    - Column 2: Tested on Turn 77960 by pressing Down from (2, 16) facing Down. Result: **Bump** against (2, 17). Confirmed 100% solid, impassable railing.
-    - Column 1: Tested on Turn 77964 by pressing Down from (1, 16) facing Down. Result: **Bump** against (1, 17). Confirmed 100% solid, impassable railing.
+- **State B (Statue 2 Toggled) Balcony East-Edge Drop Tests**:
+    - Column 5 (Row 16): Tested on Turn 80781 by standing at (5, 16) facing Right and pressing Right. Result: **Bump** against (6, 16). Confirmed 100% solid, impassable under State B.
+    - Column 6 (Row 15): Tested on Turn 83021 by standing at (6, 15) facing Down and pressing Down. Result: **Bump** against (6, 16). Confirmed 100% solid, impassable under State B.
+    - Column 7 (Row 15): Tested on Turn 83026 by standing at (7, 15) facing Down and pressing Down. Result: **Bump** against (7, 16). Confirmed 100% solid, impassable under State B.
+    - Column 1 (Row 16): Tested on Turn 83032 by standing at (1, 16) facing Down and pressing Down. Result: **Bump** against (1, 17). Confirmed 100% solid, impassable under State B.
+    - Column 2 (Row 16): Tested on Turn 83034 by standing at (2, 16) facing Down and pressing Down. Result: **Bump** against (2, 17). Confirmed 100% solid, impassable under State B.
+    - **Conclusion**: There is absolutely no walkthrough or drop-off connection on 3F West under State B either. All tested balcony and crossover directions are completely blocked under both State A and State B.
+- **State B Column 10 Row 11 Passability Test**:
+    - Tested on Turn 82861 by standing at (9, 11) facing Right and pressing Right. Result: **Bump** against (10, 11) (stayed at (9, 11)). Confirmed 100% solid, impassable wall/closed gate under State B. This officially disproves any on-foot crossover under State B.
 - **State A (Statue 2 Default) Balcony East-Edge Drop Tests**:
     - Column 5 (Row 16): Tested on Turn 82976 by standing at (5, 16) facing Right and pressing Right. Result: **Bump** against (6, 16). Confirmed 100% solid, impassable under State A.
     - Column 6 (Row 15): Tested on Turn 82978 by standing at (6, 15) facing Down and pressing Down. Result: **Bump** against (6, 16). Confirmed 100% solid, impassable under State A.
