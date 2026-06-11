@@ -6853,6 +6853,14 @@ Active State: **State B (Statue 1 Toggled)** (Toggled on Turn 78020)
   - **Conclusion**: The crossover at Rows 11 and 12 is 100% closed and impassable on foot under State A as well. This officially disproves any on-foot walkthrough crossover hypothesis for 3F.
   - **Turn 81189 (Row 13 Column 9)**: Stood at (8, 13) facing Right under State A and pressed Right against (9, 13). Result: **Bump** against (9, 13) (`TYPE_2889`), remaining at (8, 13). Visually, Column 9 on Row 13 is solid rubble of TYPE_2889. The Scientist NPC was at (5, 11), ensuring zero NPC blockage.
   - **Final Audit Conclusion under State A**: All potential crossover rows (Rows 10, 11, 12, 13) have been systematically and physically foot-tested under State A, resulting in 100% collisions. Therefore, the 3F West-East crossover on foot is 100% closed and impassable under BOTH State A and State B. This officially and permanently disproves any on-foot crossover hypothesis for 3F.
+- **Turn 81534 State B Row 12 Column 9 passability test**:
+  - Stand at (9, 11) under State B (Statue 2 Toggled), pressed Down to attempt to step onto (9, 12).
+  - Result: **Bump**, remaining at (9, 11).
+  - Conclusion: Column 9 Row 12 is completely solid/impassable under State B.
+- **Turn 81538 State B Row 11 Column 10 passability test**:
+  - Stand at (9, 11) under State B (Statue 2 Toggled), pressed Right to attempt to step onto (10, 11).
+  - Result: **Bump**, remaining at (9, 11).
+  - Conclusion: Column 10 Row 11 is completely solid/impassable under State B.
 
 <hr>
 
