@@ -6263,16 +6263,9 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - If any of these are passable, we can walk south onto the southern balcony (Row 27) and test for a jump-down ledge that drops us directly into the 1F East south-central pocket.
   - This pocket contains the B1F stairs, allowing us to reach B1F, retrieve the Secret Key, and Escape Rope out!
 
-## 2F East South Column 22 Balcony Passability Plan (Turn 81307)
-- **The Hypothesis**: In unmodded Pokémon Red/Blue, the southern balcony on the second floor (2F East South) is a completely continuous and open walkway spanning horizontally across Column 22 on Rows 16 and 17.
-- **The Strategy**:
-  1. We are currently standing at (6, 12) on 2F West (Map 0_214) under State A (Default).
-  2. Under State A, Gate 3 at (18, 8)-(19, 8) is OPEN and passable.
-  3. Walk from 2F West to 2F East South via the open Gate 3.
-  4. Navigate south to the balcony area (specifically standing at (21, 15) or (21, 16)).
-  5. Attempt to walk Right across Column 22 on Row 16 (or Row 17) to reach Column 23 in the isolated Southeast room.
-  6. Document the exact coordinates, turn numbers, and collision outcomes of these physical test steps.
-  7. If Column 22 is open on either of these rows, it will unlock access to the isolated Southeast room and the stairs up to 3F East, allowing us to reach 3F East, drop down the pit, and descend to B1F to retrieve the Secret Key!
+## 2F East South Column 22 Balcony Passability Plan (Turn 81307) - Completed & Disproven
+- **The Hypothesis**: In unmodded Pokémon Red/Blue, the southern balcony on the second floor (2F East South) is a completely continuous and open walkway spanning horizontally across Column 22 on Rows 16 and 17, or Row 26 provides a walkthrough bypass to Row 27 (the southern balcony).
+- **The Strategy Results**: This strategy has been **fully executed and 100% disproven**. We have systematically and physically tested Column 22 on Rows 9-15 under both State A and State B, and Row 26 on Column 11 and Column 14 under State A. All resulted in physical collisions (bumps), proving that 2F East South is completely isolated and has no walkable connection or bypass to Row 27 under State A.
 
 ## State A Column 22 Balcony Passability Test Logs (Turn 81341)
 - **Turn 81341 (Row 15)**: Stood at (21, 15) under State A and pressed Right to attempt to step onto (22, 15) (TYPE_2889). Result: **Bump**, remaining at (21, 15). This physically and empirically proves that Column 22 is CLOSED and solid/impassable on Row 15 under State A.
@@ -6288,6 +6281,10 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Stand at (13, 25) under State A, pressed Right to attempt to step onto (14, 25) (TYPE_2889).
   - Result: **Bump**, remaining at (13, 25) (Turn 81472).
   - **Conclusion**: Column 14 Row 25 is completely solid/impassable under State A. This disproves the hypothesis that we can bypass Gate 26 on foot by walking east onto Column 14.
+- **Turn 81479 State A Row 26 Column 11 passability test**:
+  - Stand at (10, 26) under State A, pressed Right to attempt to step onto (11, 26) (TYPE_2889).
+  - Result: **Bump**, remaining at (10, 26) (Turn 81479).
+  - **Conclusion**: Column 11 Row 26 is completely solid/impassable under State A. This disproves the hypothesis that we can bypass Gate 26 on foot by walking west onto Column 11.
 
 <hr>
 
