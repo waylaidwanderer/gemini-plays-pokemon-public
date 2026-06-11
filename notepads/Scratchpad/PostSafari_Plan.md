@@ -115,13 +115,6 @@
   4. Climb the stairs at (7, 10) to 3F West.
   5. Go to Row 8 Column 10/11 on 3F West under State A, walk Up through the open gate, and explore the northern room of 3F West.
 
-## State A Column 5 Row 8 Northern Gate Passability Test (Turn 82081 Plan)
-- **Hypothesis**: In unmodded Pokémon Red/Blue, the gate on 3F West at Column 5 Row 6/7 is OPEN under State A and CLOSED under State B. By walking Up along Column 5 under State A, we can pass through Row 8/7/6 and enter the northern room on foot.
-- **Testing Methodology**:
-  - From our current position at (7, 9) on 3F West, walk Left to (5, 9).
-  - Walk Up along Column 5: (5, 9) -> (5, 8) -> (5, 7) -> (5, 6) -> (5, 5).
-  - If successful, we will land in the northern room at (5, 5).
-
 ## 3F West Northern Gate Systematic Multi-Trial Testing Protocol (Turn 82114)
 - **Problem**: In unmodded Pokémon Red/Blue, the gate leading to the northern room on 3F West is at Column 5 Row 6 or Row 7. It is open under State A and closed under State B.
 - **Confounding Variable**: The wandering Scientist NPC and/or Burglar NPC on 3F West can randomly walk onto the gate tiles at Column 5 Row 7, Column 5 Row 6, Column 6 Row 7, or Column 6 Row 6, causing a false-positive wall collision (bump) that mimics a solid wall.
