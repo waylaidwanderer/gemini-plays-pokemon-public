@@ -16,7 +16,7 @@
   - Escape Strategy: Once we drop under State B, we take the stairs down from 2F to 1F East. The stairs down to B1F are located directly inside this isolated 1F East south-central pocket, so we can descend to B1F and retrieve the Secret Key without needing Gate 4 to be open. Once we have the Secret Key, we will simply use one of our 2 Escape Ropes to warp out of the Mansion.
 
 ## Cinnabar Mansion B1F Progression Status (Turn 78573)
-- SW Balcony Drop: Under both State A and State B, all reachable columns (1 to 5) on the southwest balcony of 3F West are 100% solid, impassable railings with no drop-off. Therefore, the southwest balcony of 3F West is NOT a balcony drop.
+- SW Balcony Drop: Under both State A and State B, all reachable columns (1 to 5) on the southwest balcony of 3F West are 100% solid, impassable railings with no drop-off. Therefore, the southwest balcony of 3F West is NOT a balcony drop. This was explicitly verified on Turn 81256 under State B, where standing at (5, 16) facing Down and pressing Down resulted in a direct collision/bump against (5, 17) (TYPE_2889).
 
 ### Socratic Question 2: B1F Systematic Mapping & Statue 4 Evaluation
 - **B1F Systematic Mapping Plan**:
