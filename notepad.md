@@ -6284,6 +6284,10 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Stand at (21, 10) under State A, pressed Right. Result: **Bump** against (22, 10) (Turn 81369).
   - Stand at (21, 9) under State A, pressed Right. Result: **Bump** against (22, 9) (Turn 81371).
   - **Conclusion**: Column 22 is completely blocked by solid/impassable rubble across all Rows from 9 to 15 under BOTH State A and State B. This confirms that 2F East South and the isolated 2F Southeast room are 100% separated on foot on this floor.
+- **Turn 81471-81472 State A Row 25 Column 14 passability test**:
+  - Stand at (13, 25) under State A, pressed Right to attempt to step onto (14, 25) (TYPE_2889).
+  - Result: **Bump**, remaining at (13, 25) (Turn 81472).
+  - **Conclusion**: Column 14 Row 25 is completely solid/impassable under State A. This disproves the hypothesis that we can bypass Gate 26 on foot by walking east onto Column 14.
 
 <hr>
 
