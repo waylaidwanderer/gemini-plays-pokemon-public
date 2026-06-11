@@ -6278,6 +6278,12 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 - **Turn 81341 (Row 15)**: Stood at (21, 15) under State A and pressed Right to attempt to step onto (22, 15) (TYPE_2889). Result: **Bump**, remaining at (21, 15). This physically and empirically proves that Column 22 is CLOSED and solid/impassable on Row 15 under State A.
 - **Turn 81347 (Row 14)**: Stood at (21, 14) under State A and pressed Right to attempt to step onto (22, 14) (TYPE_2889). Result: **Bump**, remaining at (21, 14). This physically and empirically proves that Column 22 is CLOSED and solid/impassable on Row 14 under State A.
 - **Turn 81358 (Row 13)**: Stood at (21, 13) under State A and pressed Right to attempt to step onto (22, 13) (TYPE_2889). Result: **Bump**, remaining at (21, 13). This physically and empirically proves that Column 22 is CLOSED and solid/impassable on Row 13 under State A.
+- **Turns 81365-81371 State A Column 22 passability tests**:
+  - Stand at (21, 12) under State A, pressed Right. Result: **Bump** against (22, 12) (Turn 81365).
+  - Stand at (21, 11) under State A, pressed Right. Result: **Bump** against (22, 11) (Turn 81367).
+  - Stand at (21, 10) under State A, pressed Right. Result: **Bump** against (22, 10) (Turn 81369).
+  - Stand at (21, 9) under State A, pressed Right. Result: **Bump** against (22, 9) (Turn 81371).
+  - **Conclusion**: Column 22 is completely blocked by solid/impassable rubble across all Rows from 9 to 15 under BOTH State A and State B. This confirms that 2F East South and the isolated 2F Southeast room are 100% separated on foot on this floor.
 
 <hr>
 
