@@ -6261,15 +6261,15 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   4. Climb the stairs at (7, 10) to 3F West.
   5. Go to Row 8 Column 10/11 on 3F West under State A, walk Up through the open gate, and explore the northern room of 3F West.
 
-## State B Row 8 Gate Discovery & Crossover Breakthrough (Turn 82602)
-- **Breakthrough Fact**: We have successfully toggled Mewtwo Statue 2 on 2F West to State B on Turn 82588, and verified on 3F West that the gate spanning Columns 8, 9, 10, and 11 on Row 8 is indeed OPEN under State B!
-- **Proof of Work**: Visual inspection of 3F West at Turn 82599 clearly shows the checkered pink floor pattern (TYPE_3fe2) extending through Row 8 Columns 8-10, with the iron bars completely removed.
-- **Routing Plan to B1F**:
-  1. From (7, 11) on 3F West, walk Right 2 to (9, 11).
-  2. Walk Up 3 steps on Column 9 to stand on (9, 8) (the open gate).
-  3. Walk Right 2 steps to (11, 8) (open gate).
-  4. Walk Down 1 step onto (11, 9) (the pit void).
-  5. Fall down the pit to land in the isolated 2F Southeast room or B1F directly!
+## State B Column 10 Passability Audit & Testing Protocol (Turn 82641 Plan)
+- **Objective**: Systematically and rigorously test the vertical passability of Column 10 (specifically Rows 10, 11, and 12) on 3F West under State B, ensuring we eliminate any contamination from the wandering Scientist NPC (SPRITE_cdfc).
+- **The Protocol**:
+  1. Ascend the stairs at (7, 10) on 2F West to reach 3F West under State B.
+  2. Locate the Scientist NPC (SPRITE_cdfc) and immediately use the `stun_npc` tool on his EXACT current coordinates to freeze him out of the way of the crossover area.
+  3. Walk to (9, 11). Press Right to test the passability of (10, 11).
+  4. If (10, 11) is blocked, walk to (9, 10). Press Right to test the passability of (10, 10).
+  5. If (10, 10) is blocked, stand at (9, 11) and press Down to test the passability of (9, 12). If we can step onto (9, 12), walk Right to test (10, 12).
+  6. Document all results with exact turn numbers and coordinates to definitively prove the crossover's passability under State B.
 
 <hr>
 
