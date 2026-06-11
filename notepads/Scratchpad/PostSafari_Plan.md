@@ -115,11 +115,11 @@
   - Once we drop, we will land in the 1F south-central pocket directly adjacent to the stairs down to B1F.
   - From there, we go down to B1F, retrieve the Secret Key, and use an Escape Rope to warp out!
 
-## 2F East South Column 22 Balcony Passability Plan (Turn 81271)
+## 2F East South Column 22 Balcony Passability Plan (Turn 81307)
 - **The Hypothesis**: In unmodded Pokémon Red/Blue, the southern balcony on the second floor (2F East South) is a completely continuous and open walkway spanning horizontally across Column 22 on Rows 16 and 17.
 - **The Strategy**:
-  1. We are currently standing at (7, 10) on 2F West (Map 0_214) under State B (Toggled).
-  2. Under State B, Gate 3 at (18, 8)-(19, 8) is OPEN and passable.
+  1. We are currently standing at (6, 12) on 2F West (Map 0_214) under State A (Default).
+  2. Under State A, Gate 3 at (18, 8)-(19, 8) is OPEN and passable.
   3. Walk from 2F West to 2F East South via the open Gate 3.
   4. Navigate south to the balcony area (specifically standing at (21, 15) or (21, 16)).
   5. Attempt to walk Right across Column 22 on Row 16 (or Row 17) to reach Column 23 in the isolated Southeast room.
