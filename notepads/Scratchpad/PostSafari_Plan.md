@@ -20,15 +20,6 @@
   - Gate 26 on 2F (12, 26)-(13, 26) is CLOSED.
   - Gate 13 on 2F (12, 13)-(13, 13) is CLOSED.
 
-## Cinnabar Gym Blaine Matchup Preparation Strategy
-- **The Balcony Drop Breakthrough (Turn 78541) - Disproven**:
-  - We have verified that all five columns on the 3F West southwest balcony are 100% solid, impassable railings under both State A and State B (Verified Turn 77948-77972 and Turn 81256).
-  - We have also verified that the 3F West-East crossover is 100% blocked under both states.
-  - Therefore, the 3F West balcony drop and 3F East pit drop under State B are not reachable or passable, and this hypothesis is fully disproven.
-
-## Cinnabar Mansion B1F Progression Status (Turn 78573)
-- SW Balcony Drop: Under both State A and State B, all reachable columns (1 to 5) on the southwest balcony of 3F West are 100% solid, impassable railings with no drop-off. Therefore, the southwest balcony of 3F West is NOT a balcony drop. This was explicitly verified on Turn 81256 under State B, where standing at (5, 16) facing Down and pressing Down resulted in a direct collision/bump against (5, 17) (TYPE_2889).
-
 ## Cinnabar Mansion Breakthrough Exploration Phase (Turn 79491)
 - **Verified Fact**: 2F East South Column 22 is completely solid/rubble under both State A and State B across rows 8-15. This separates Column 21 from Column 23 on these rows.
 
