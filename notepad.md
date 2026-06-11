@@ -6646,6 +6646,9 @@ Therefore, ground-level entry is impossible, proving the 1F south-central pocket
     - Row 13: (24, 13), (25, 13). Result: No warp.
   - **Definitive Conclusion**: Absolutely none of the passable coordinates in the 1F East Northeast room trigger any warp or staircase transition. This physically and empirically disproves the existence of any active staircase warp on 1F East under State B, confirming that B1F cannot be accessed from 1F East under State B.
 
+- **State A Column 5 Gate Test (Turns 82127-82138)**: Standing at (5, 8) facing Up under State A, we systematically tested walking Up onto (5, 7) across 5 consecutive trials. The wandering Scientist NPC was verified far away at Column 5/6 Row 11 throughout all trials, ensuring zero NPC blockage.
+  - Results: Visited 0 tiles on all 5 trials (100% bumps), physically proving that Column 5 Row 7 is a solid, impassable wall under State A. This disproves the hypothesis that Column 5 Row 7 is an open gate under State A.
+
 <hr>
 
 <h1><code>Scratchpad/Mansion_Gate_Matrix</code></h1>
