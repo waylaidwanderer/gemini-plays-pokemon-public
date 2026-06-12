@@ -6849,6 +6849,14 @@ Active State: **State B (Statue 1 Toggled)** (Toggled on Turn 78020)
 - **Turn 84231 Test (Column 5 Row 7, State B)**: Standing at (5, 8) facing Up under State B, pressed Up 5 times against (5, 7). Result: **Bump**, remaining at (5, 8). This physically proves that Column 5 Row 7 is CLOSED and solid/impassable under State B.
 - **Turn 84233 Test (Column 6 Row 7, State B)**: Standing at (6, 8) facing Up under State B, pressed Up 5 times against (6, 7). Result: **Bump**, remaining at (6, 8). This physically proves that Column 6 Row 7 is CLOSED and solid/impassable under State B.
 - **Conclusive 3F West Northern Gate Summary**: Both possible gate columns (Column 5 Row 7 and Column 6 Row 7) have been systematically tested under BOTH State A and State B. All trials resulted in direct physical collisions, with zero NPC blockages. The northern gate is 100% solid, impassable wall under all states, proving the northern room of 3F West is completely isolated on foot.
+## 3F West Balcony Edge Drop Exploration Hypothesis & Test Protocol (Turn 84255 Plan)
+- **Background**: We have definitively proved that there is NO walkthrough crossover from 3F West to 3F East on foot, and the northern gate (Row 7 Column 5/6) is completely closed/solid under both states. However, in standard Gen 1 Cinnabar Mansion, the balcony drop that lands you in the isolated 2F Southeast room is executed by walking **Right (East) off the eastern edge of the 3F West balcony (Column 5)**. 
+- **The Gap**: We previously tested walking Right off Column 5 ONLY on Row 16 under both State A and State B, resulting in bumps. We have NEVER tested walking Right off Column 5 on Rows 11, 12, 13, 14, or 15!
+- **Active Testing Hypothesis**: There is an unblocked gap in the balcony railing on Column 5 at Row 14 or Row 15. Under State B (which is currently active), walking Right (East) off Column 5 on the correct row will trigger a horizontal ledge drop, falling onto the open air of Column 6 and landing safely in the isolated 2F Southeast room.
+- **Immediate Path to Test Area**:
+  1. We are currently at (7, 11) on 3F West.
+  2. Walk Left to (5, 11) (2 steps Left).
+  3. We will then walk Down along Column 5, testing walking Right off Column 5 at Row 11, 12, 13, 14, and 15 one by one!
 
 <hr>
 
