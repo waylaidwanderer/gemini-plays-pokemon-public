@@ -53,8 +53,13 @@
   - Column 11 Row 22 Gate/Corridor: OPEN under both State A and State B (Verified OPEN on Turn 84642 under State B and on Turn 84697 under State A).
   - Columns 12-13 Row 13 Gate: CLOSED under State A (Verified Turn 78855), and CLOSED under State B (Verified Turn 79849 by bumping into (12, 13) from (12, 12)). This gate is 100% closed under both states, meaning 2F East South cannot be accessed via Column 12-13 on Row 13.
   - Columns 12-13 Row 26 Gate: CLOSED under BOTH State A and State B (Verified CLOSED on Turn 80627 under State A by bumping from (12, 25)). This gate is 100% closed under both states, meaning there is no foot access to Row 27.
-- **Balcony Drop**:
-  - Location: (12, 27)-(13, 27) on 2F East South (Hypothesized to drop to 1F East south-central pocket. Untested as of Turn 78871).
+- **Balcony Drop (DEFINITIVELY DISPROVEN)**:
+  - We systematically and exhaustively tested the 2F East South balcony area under the true State A (Default) (Turns 84804-84838) and proved it is completely closed with no active drop:
+    - Column 11 Row 16: BUMPED (Turn 84748)
+    - Column 12 Row 15: BUMPED (Turn 84737)
+    - Column 13 Row 15: BUMPED (Turn 84742)
+    - Column 14 (Railing): BUMPED on all Rows 16 to 25 under State A, proving Column 14 is a continuous, solid, impassable wall that completely separates Column 13 from the open atrium on Columns 15-17.
+  - Thus, there is NO active balcony drop under State A on 2F East South. B1F cannot be accessed via any 2F balcony drops. We must utilize the State B 3F West balcony drop strategy.
 - **Row 10 Crossover**: (9, 10) consists of standard open floor (TYPE_3fe2) and is completely OPEN and passable under State A (Verified Turn 78826).
 - **Physical Blockages & Routing Constraints (Empirically Verified)**:
   - **Column 15 Partition Wall**: Column 15 is a solid vertical wall of TYPE_2889 on Rows 1-5 (Verified Turn 76704 by bumping into (15, 2) from (14, 2)). Column 15 is completely OPEN and passable on Row 6 (Verified Turn 76718 by successfully stepping onto (15, 6) from (14, 6)) and visually open on Row 7.
