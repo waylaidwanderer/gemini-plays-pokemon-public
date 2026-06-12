@@ -6,7 +6,7 @@
 
 ## Test Log (Rows 11-15 on Column 5)
 - Row 11: Tested on Turn 84865 -> Stepped Right onto (6, 11) (Normal floor, no drop)
-- Row 12: [ ] Untested
+- Row 12: Tested on Turn 84927 -> Stepped Right onto (6, 12) (Bump, solid table, no drop)
 - Row 13: Tested on Turn 84917 -> Stepped Right onto (6, 13) (Bump, solid table, no drop)
 - Row 14: Tested on Turn 84900 -> Stepped Right onto (6, 14) (Normal floor, no drop)
 - Row 15: Tested on Turn 84896 -> Stepped Right onto (6, 15) (Normal floor, no drop)
