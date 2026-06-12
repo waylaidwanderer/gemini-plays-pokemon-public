@@ -6217,8 +6217,6 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 ## State B Column 24 Passability Testing Protocol (Turn 83089 Plan) - RESOLVED (Turn 83182)
 - **Objective**: Physically test the horizontal passability of Column 24 (specifically Row 14) on 1F East under State B, verifying if the eastern Southeast room is connected on foot to the south-central pocket.
 - **Methodology & Results**:
-  1. Walked to (26, 12), then Left to (25, 12), and Down through Gate 1 at (25, 13) to reach (25, 14). (Completed)
-  2. Stood at (25, 14) facing Left (West). (Completed)
   3. Attempted to walk Left onto (24, 14). (Completed)
   4. Result: Traversal was 100% successful! Stood on (24, 14) with zero collisions on Turn 83182, proving that Column 24 Row 14 is open and passable under State B.
 - **Conclusive Separation Analysis (Turn 83201)**:
