@@ -162,3 +162,8 @@
   - Stand at (10, 26) under State A, pressed Right to attempt to step onto (11, 26) (TYPE_2889).
   - Result: **Bump**, remaining at (10, 26) (Turn 81479).
   - **Conclusion**: Column 11 Row 26 is completely solid/impassable under State A. This disproves the hypothesis that we can bypass Gate 26 on foot by walking west onto Column 11.
+- **Systematic Column 14 and 2F East South Passability Audit (Completed Turn 83895)**:
+  - **Turn 83870 Test**: Stood at (13, 22) facing Right and pressed Right under State B. Result: **Bump** against (14, 22) (solid wall of TYPE_2889).
+  - **Turn 83892 Verification**: Visually and physically confirmed that Column 13 is blocked north of Row 16 by solid wall/rubble of TYPE_2889 at (13, 15), (12, 15), and (14, 15).
+  - **Column 14 Continuity**: Visually verified that Column 14 is a continuous vertical wall of TYPE_2889 on Rows 16-26.
+  - **Final Conclusion**: The 2F East South sector (Columns 12-13, Rows 16-25) is a completely closed pocket with absolutely zero on-foot connection to the 2F Southeast room.
