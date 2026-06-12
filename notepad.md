@@ -6857,19 +6857,6 @@ Active State: **State B (Statue 1 Toggled)** (Toggled on Turn 78020)
 - **Background**: We have definitively proved that there is NO walkthrough crossover from 3F West to 3F East on foot, and the northern gate (Row 7 Column 5/6) is completely closed/solid under both states. However, in standard Gen 1 Cinnabar Mansion, the balcony drop that lands you in the isolated 2F Southeast room is executed by walking **Right (East) off the eastern edge of the 3F West balcony (Column 5)**. 
 - **The Gap**: We previously tested walking Right off Column 5 ONLY on Row 16 under both State A and State B, resulting in bumps. We have NEVER tested walking Right off Column 5 on Rows 11, 12, 13, 14, or 15!
 - **Active Testing Hypothesis**: There is an unblocked gap in the balcony railing on Column 5 at Row 14 or Row 15. Under State B (which is currently active), walking Right (East) off Column 5 on the correct row will trigger a horizontal ledge drop, falling onto the open air of Column 6 and landing safely in the isolated 2F Southeast room.
-- **Immediate Path to Test Area**:
-  1. We are currently at (7, 11) on 3F West.
-  2. Walk Left to (5, 11) (2 steps Left).
-  3. We will then walk Down along Column 5, testing walking Right off Column 5 at Row 11, 12, 13, 14, and 15 one by one!
-## State B Detour to Stairs on 2F West (Turn 85038)
-- Current position: (7, 8) under State B.
-- Physical layout obstacles: Row 9 Columns 3-9 are blocked by solid wall/railing of TYPE_2889. Row 9 Column 10 (10, 9) is open (TYPE_3fe2).
-- Route around Row 9 to reach (7, 10):
-  - Step 1: Up 3 steps to Row 5: (7, 8) -> (7, 7) -> (7, 6) -> (7, 5).
-  - Step 2: Right 3 steps to Column 10: (7, 5) -> (8, 5) -> (9, 5) [Gate 6 open] -> (10, 5).
-  - Step 3: Down 5 steps to Row 10: (10, 5) -> (10, 6) -> (10, 7) -> (10, 8) -> (10, 9) -> (10, 10).
-  - Step 4: Left 3 steps to Stairs: (10, 10) -> (9, 10) -> (8, 10) -> (7, 10).
-- We will execute Step 1 & 2 now to arrive at (10, 5) under State B.
 
 <hr>
 
