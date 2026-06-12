@@ -11,6 +11,7 @@ Systematically walk onto and test walking Up (North) off every column from Colum
 - Column 11: [ ] Untested
 - Column 12: Tested on Turn 84737 under true State A -> BUMPED (Row 15 is solid wall)
 - Column 13: Tested on Turn 84742 under true State A -> BUMPED (Row 15 is solid wall)
+- Column 14: Tested Row 16 (Turn 84744) -> BUMPED; Tested Row 17 (Turn 84751) -> BUMPED. Completely solid, blocking access to Columns 15-17 on these rows.
 - Column 15: [ ] Untested
 - Column 16: [ ] Untested
 - Column 17: [ ] Untested
