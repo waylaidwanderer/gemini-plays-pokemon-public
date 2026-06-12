@@ -26,7 +26,7 @@
   - Column 24 has a solid wall of TYPE_2889 extending vertically on Rows 19-23.
   - Column 24 and 25 have solid rubble of TYPE_2889 at (24, 24), (25, 24), and (25, 25).
   - Therefore, there is no horizontal pathway connecting Column 25 and Column 21 on the south side.
-- **Definitive Conclusion**: The Southeast room of 1F East is indeed completely isolated on foot from the rest of 1F. We cannot reach B1F stairs under State B from this room. We must explore the room to find a staircase or transition under State B.
+- **Definitive Conclusion**: The Southeast room of 1F East is indeed completely isolated on foot from the rest of 1F. We must backtrack and toggle the switch to State B to cross to 3F East on foot.
 
 ## State B Southeast Room Search Verification (Turn 85901 Completed)
 - **Definitive Conclusion**: On Turn 85901, we completed 100% of our systematic floor coverage of the entire Southeast room of 1F East under State B (tested Rows 14-26, Columns 24-28). None of the tiles triggered a staircase transition or warp. This empirically and definitively proves that there is no staircase in the Southeast room of 1F East under State B.
