@@ -7224,7 +7224,7 @@ We identify 5 specialized custom tools/agents to implement once we reach B1F:
   - Gate 4 on 1F East (21, 17) is OPEN.
   - The stairs to B1F are located at (21, 23) on 1F East.
   - To reach these stairs under State A on foot, we must find an open vertical pathway from 1F West through 1F East that bypasses the Row 13 wall barrier.
-  - *Proposed Pathway to Test*: We can cross from 1F West to 1F East along Row 11 on foot. Let's systematically test Row 13 Column 26, 27, and 28 in the Northeast room of 1F East under State A to see if any of these columns are open and passable, allowing us to walk south to the southern half of 1F East, then walk west to Gate 4, and south to the B1F stairs.
+  - *Proposed Pathway to Test (DISPROVEN)*: We crossed from 1F West to 1F East along Row 11 on foot. Systematic tests on Turns 84175-84186 of Row 13 Columns 26, 27, and 28 under State A proved they are 100% solid and impassable, meaning there is no on-foot pathway to the southern half of 1F East from the northern half.
 
 ## Disproven Path Models:
 - **Disproven Model (State B Pit Drop Route)**:
