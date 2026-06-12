@@ -6186,20 +6186,11 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - **Result**: Direct collision bump against (27, 11), remaining at (27, 12) on Turn 85926.
   - **Definitive Conclusion**: The Northeast staircase at (27, 11) / (27, 10) remains completely solid, blocked, and impassable under State A as well. There is no staircase on 1F East under any state.
 
-## B1F Access Plan (State A Balcony Drop Route)
+## B1F Access Plan (State B Gate 2 Crossover Route)
 - **The Strategy**:
-  - Since there is no walkthrough crossover on 3F on foot, and no staircase on 1F East under any state, the only way to reach the isolated 2F Southeast room is via the 3F West balcony drop under State A!
-  - We have verified that Koga's Thunder Badge (TB) boost and Soul Badge (SB) Defense boost are active.
-  - Under State A, we must climb to 3F West and systematically test walking Right (East) off Column 5 on Rows 11, 12, 13, 14, and 15 (the balcony floor) to find the unblocked gap that triggers the horizontal drop to 2F Southeast.
-  - Once we land in 2F Southeast, we will take the stairs down at (25, 14) to 1F Southeast.
-  - Under State A, Gate 4 at (21, 17) is OPEN! We can walk Left from 1F Southeast through the open Gate 4 straight to the B1F stairs at (21, 23).
-  - Go down to B1F and retrieve the Secret Key!
-
-- **Current Progress**:
-  - We are standing at (27, 12) on 1F East under State A. We are backtracking to 1F West to take the stairs to 2F.
-- **Immediate Next Steps**:
-  - Walk to the stairs at (5, 10) on 1F West and ascend to 2F West.
-  - Ascend to 3F West and navigate to the balcony at Column 5.
+  - Since there are no staircases on 1F East and no active balcony drops on 3F West, the only way to reach B1F is by walking across 3F East under State B!
+  - We must return to 2F West and toggle Mewtwo Statue 2 to State B. This will open Gate 2 (Row 8 Column 8-11) on 3F West.
+  - Climb to 3F West, walk horizontally across the open Gate 2 onto 3F East, and drop down the large central pit to land directly in B1F!
 
 ## Cinnabar Mansion Breakthrough Exploration Phase (Turn 79491)
 - **Verified Fact**: 2F East South Column 22 is completely solid/rubble under both State A and State B across rows 8-15. This separates Column 21 from Column 23 on these rows.
