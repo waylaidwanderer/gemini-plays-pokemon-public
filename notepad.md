@@ -6155,7 +6155,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 - **Active Exploration Mission**: Locate and retrieve the Secret Key on B1F.
 - **State A (Statue 2 Default)**:
   - Gate 1 on 1F (25, 13) is CLOSED, blocking foot access to the Southeast room.
-  - Gate 3 on 2F (18, 8)-(19, 8) is CLOSED (Verified CLOSED on Turn 80229).
+  - Gate 3 on 2F (18, 8)-(19, 8) is OPEN (Verified OPEN on Turn 78836).
   - Gate 4 on 1F East (21, 17) is OPEN.
   - Gate 6 on 2F (9, 4)-(9, 5) is CLOSED.
   - Gate 18 on 2F (2, 18) is CLOSED.
@@ -6164,7 +6164,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 
 - **State B (Statue 2 Toggled)**:
   - Gate 1 on 1F (25, 13) is OPEN, allowing foot access to the Southeast room.
-  - Gate 3 on 2F (18, 8)-(19, 8) is OPEN (Verified OPEN on Turn 79932).
+  - Gate 3 on 2F (18, 8)-(19, 8) is CLOSED (Verified CLOSED on Turn 84976).
   - Gate 4 on 1F East (21, 17) is CLOSED.
   - Gate 6 on 2F (9, 4)-(9, 5) is OPEN.
   - Gate 18 on 2F (2, 18) is CLOSED?
