@@ -179,3 +179,9 @@
 ## 1F West Row 9 Blockage Physical Verification (Turn 85744)
 - **Methodology**: Stood at (2, 10) on 1F West under State A, and pressed Up to attempt to step onto (2, 9).
 - **Result**: Bump, remaining at (2, 10) on Turn 85744. This physically and empirically proves that Column 2 Row 9 is solid and impassable on 1F West. Row 9 acts as a solid horizontal partition wall that completely separates the southern half of 1F West from the northern half. Thus, direct vertical traversal on 1F West is blocked. We must use the 1F East vertical corridor on Column 12 to reach the northern half of the floor.
+## State B Statue Interaction Investigation (Turn 86089)
+- **Hypothesis**: The Mewtwo Statue/rubble at (10, 9) on 3F is interactive under State B.
+- **Methodology**: Stood at (9, 9) on Turn 86089, pressed Right to face (10, 9), and pressed A.
+- **Result**: No textbox appeared and no interaction took place.
+- **Conclusion**: The Mewtwo Statue/rubble at (10, 9) remains completely non-interactive and purely decorative under State B.
+- **Proof of Work**: Action executed and verified on Turn 86089/86093.
