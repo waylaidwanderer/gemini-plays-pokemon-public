@@ -7286,20 +7286,3 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 3. `b1f_item_tracker` (Custom Tool): A script to parse our overworld screen coordinates and log all uncollected floor items on B1F to our locations notepad.
 
 <hr>
-
-<h1><code>Scratchpad/Mansion_3F_West_Balcony_Drop_Tests</code></h1>
-
-# 3F West Column 5 Balcony Edge Drop Testing (Turn 84844 Campaign)
-- **Start Turn**: 84844
-- **Start Timestamp**: Friday, June 12, 2026 at 8:24 AM PDT
-- **Active State**: State B (Statue 2 Toggled)
-- **Primary Hypothesis**: Under State B, walking Right (East) off Column 5 on Row 14 or Row 15 on 3F West will trigger a balcony drop, landing us in the isolated 2F East Southeast room. From there, we take the stairs down to 1F East, walk through open Gate 1 (since we are under State B), toggle Statue 1 on 1F West to State A (Default), then cross back to 1F East, walk through open Gate 4, and descend to B1F!
-
-## Test Log (Rows 11-15 on Column 5)
-- Row 11: Tested on Turn 84865 -> Stepped Right onto (6, 11) (Normal floor, no drop)
-- Row 12: Tested on Turn 84927 -> Stepped Right onto (6, 12) (Bump, solid table, no drop)
-- Row 13: Tested on Turn 84917 -> Stepped Right onto (6, 13) (Bump, solid table, no drop)
-- Row 14: Tested on Turn 84900 -> Stepped Right onto (6, 14) (Normal floor, no drop)
-- Row 15: Tested on Turn 84896 -> Stepped Right onto (6, 15) (Normal floor, no drop)
-
-<hr>
