@@ -6186,11 +6186,11 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - **Result**: Direct collision bump against (27, 11), remaining at (27, 12) on Turn 85926.
   - **Definitive Conclusion**: The Northeast staircase at (27, 11) / (27, 10) remains completely solid, blocked, and impassable under State A as well. There is no staircase on 1F East under any state.
 
-## B1F Access Plan (State B Gate 2 Crossover Route)
+## B1F Access Plan (1F East Northeast Staircase Route under State B)
 - **The Strategy**:
-  - Since there are no staircases on 1F East and no active balcony drops on 3F West, the only way to reach B1F is by walking across 3F East under State B!
-  - We must return to 2F West and toggle Mewtwo Statue 2 to State B. This will open Gate 2 (Row 8 Column 8-11) on 3F West.
-  - Climb to 3F West, walk horizontally across the open Gate 2 onto 3F East, and drop down the large central pit to land directly in B1F!
+  - Since 3F West-East crossover is completely solid under both states, and the 2F Southeast room (with stairs up to 3F East) is isolated, there must be a way to climb from 1F Southeast/Northeast to 2F Southeast.
+  - We will systematically explore the Northeast room of 1F East (Columns 23-28, Rows 2-11) under State B to locate the active staircase going UP to 2F East Northeast/Southeast!
+  - Once we climb to 2F East, we can climb the stairs UP to 3F East, walk to the right, and drop down the giant pit to B1F!
 
 ## Cinnabar Mansion Breakthrough Exploration Phase (Turn 79491)
 - **Verified Fact**: 2F East South Column 22 is completely solid/rubble under both State A and State B across rows 8-15. This separates Column 21 from Column 23 on these rows.
