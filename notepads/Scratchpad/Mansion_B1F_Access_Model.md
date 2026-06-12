@@ -44,3 +44,4 @@
   3. Walk East along Row 11 of 2F West, crossing Column 11 Row 22 on foot under State A to reach (12, 22).
   4. Walk North along Column 12 to Row 15/16.
   5. Systematically test walking Up (North) off Columns 11-17 on Rows 15/16 to find the active balcony drop!
+- **Turn 84295-84296 Physical Test (Column 24 Southern Passability, State B)**: Stood at (24, 14) under State B and walked Down along Column 24. Result: **Bump** against (24, 19) (`TYPE_2889`), remaining at (24, 18). This physically and empirically proves that Column 24 is a solid, impassable wall on Rows 19-24 under State B on 1F East. Combined with the solid rubble on Rows 17-18, the 1F Southeast room is completely isolated on foot from the south-central B1F stairs pocket under State B. This definitively disproves the State B on-foot pathway, satisfying the overwatch Socratic challenge and proving that we must seek an alternate elevation route or gate toggle sequence.
