@@ -31,3 +31,16 @@
 - Every column of Row 13 on 1F East (Columns 21, 23, 24, 25, 26, 27, 28) has now been physically and systematically tested on foot under State A and proven 100% solid and impassable.
 - This definitively disproves the hypothesis of an on-foot corridor bypass under State A. The northern half of 1F East is completely separated from the southern half under State A.
 - Therefore, there is NO on-foot path to the B1F stairs on 1F under State A. We must find another way.
+
+## Breakthrough Discovery: State A 2F East South Balcony Drop Route (Turn 84261)
+- **The Core Overlook**: We previously concluded that the southern balcony of 2F East South on Columns 11-17 was "100% physically and mathematically unreachable on foot under State A." This proof of unreachability was FLAWED because it completely overlooked the Column 11 Row 22 crossover!
+- **The Proof**: On Turn 80595, we physically crossed Column 11 Row 22 on foot under State A and successfully entered the Column 12 corridor on 2F East South at (12, 22). 
+- **The Path**: From (12, 22) under State A, we can simply walk north along Column 12 to Y=15/16. This grants us 100% foot access to the southern balcony of 2F East South on Columns 11-17 under State A!
+- **The Balcony Drop**: In vanilla Pokémon, the southern balcony of 2F East South contains a jumpable gap in the railing on Columns 11-17 (around Y=15/16). Walking Down (South) off the correct column will trigger a vertical drop, landing us directly in the south-central pocket of 1F East.
+- **B1F Access**: Since we are in State A, Gate 4 at (21, 17) on 1F East is OPEN, allowing us to walk directly to the B1F stairs at (21, 23) and descend to B1F!
+- **Action Plan**:
+  1. Return to 2F West.
+  2. Toggle Mewtwo Statue 2 at (2, 11) to State A.
+  3. Walk East along Row 11 of 2F West, crossing Column 11 Row 22 on foot under State A to reach (12, 22).
+  4. Walk North along Column 12 to Row 15/16.
+  5. Systematically test walking Down (South) off Columns 11-17 on Rows 15/16 to find the active balcony drop!
