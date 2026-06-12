@@ -6224,7 +6224,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 - **Starting position**: (21, 10) on 2F East under State A (Default).
 - **Step 1**: Walk Left 14 steps along Row 10 to (7, 10) on 2F West.
 - **Step 2**: Climb the stairs at (7, 10) UP to 3F West.
-- **Step 3**: On 3F West, walk past the Mewtwo Statue at (10, 9) to enter 3F East under State A.
+- **Step 3**: On 3F West, walk past the Mewtwo Statue at (10, 9) to enter 3F East under State A. We do this by going to (10, 7) or (11, 7) or (12, 7) on Row 7, which are open tiles under State A!
 - **Step 4**: Systematically map 3F East, locate the large central-east pit drop to B1F, and avoid the smaller pit at (21, 10) that drops to 2F.
 
 <hr>
