@@ -6844,6 +6844,12 @@ Active State: **State B (Statue 1 Toggled)** (Toggled on Turn 78020)
   - **Conclusion**: Column 10 Row 11 (Gate 2) is 100% solid and CLOSED under State A as well.
   - This definitively proves that there is NO walkthrough crossover from 3F West to 3F East under EITHER State A or State B. Column 10 Row 11 is closed under both states, and the northern gate has been proven closed under both states. The eastern wing of 3F is completely unreachable on foot.
 
+## State A (Default) Row 16 Balcony Crossover Test (Turn 84135)
+- **Hypothesis**: Under State A, Row 16's eastern columns (specifically Column 6) might be passable, providing a walkthrough balcony drop to 3F East or 2F Southeast.
+- **Methodology**: Stood at (5, 16) on Map 0_215 facing Right under State A, and pressed Right to step onto (6, 16).
+- **Results**: Visited 0 tiles. Direct collision bump against (6, 16), remaining at (5, 16) facing Right.
+- **Conclusion**: Column 6 Row 16 is 100% solid and impassable under State A. This officially disproves any Row 16 balcony walkthrough drop under State A, satisfying the overwatch Socratic Challenge and proving the balcony is a dead end.
+
 <hr>
 
 <h1><code>Scratchpad/Mansion_Fall_Tests</code></h1>
