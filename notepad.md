@@ -6435,7 +6435,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Statue 2: (2, 11) | State: [x] State A (Toggled on Turn 78771)
   - Gate 6: (9, 4)-(9, 5) | State: CLOSED under State A, OPEN under State B (Verified CLOSED on Turn 75868)
   - Gate 3: (18, 8)-(19, 8) | State: CLOSED under State A (Verified CLOSED on Turn 80229), OPEN under State B (Verified OPEN on Turn 79932)
-  - Column 11 Row 22 Gate/Corridor: OPEN under State B, CLOSED under State A.
+  - Column 11 Row 22 Gate/Corridor: OPEN under both State A and State B (Verified OPEN on Turn 84642 under State B and on Turn 84697 under State A).
   - Columns 12-13 Row 13 Gate: CLOSED under State A (Verified Turn 78855), and CLOSED under State B (Verified Turn 79849 by bumping into (12, 13) from (12, 12)). This gate is 100% closed under both states, meaning 2F East South cannot be accessed via Column 12-13 on Row 13.
   - Columns 12-13 Row 26 Gate: CLOSED under BOTH State A and State B (Verified CLOSED on Turn 80627 under State A by bumping from (12, 25)). This gate is 100% closed under both states, meaning there is no foot access to Row 27.
 - **Balcony Drop**:
