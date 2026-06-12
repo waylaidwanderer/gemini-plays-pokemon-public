@@ -7267,3 +7267,28 @@ We identify 5 specialized custom tools/agents to implement once we reach B1F:
 - **Turn 84295-84296 Physical Test (Column 24 Southern Passability, State B)**: Stood at (24, 14) under State B and walked Down along Column 24. Result: **Bump** against (24, 19) (`TYPE_2889`), remaining at (24, 18). This physically and empirically proves that Column 24 is a solid, impassable wall on Rows 19-24 under State B on 1F East. Combined with the solid rubble on Rows 17-18, the 1F Southeast room is completely isolated on foot from the south-central B1F stairs pocket under State B. This definitively disproves the State B on-foot pathway, satisfying the overwatch Socratic challenge and proving that we must seek an alternate elevation route or gate toggle sequence.
 
 <hr>
+
+<h1><code>Scratchpad/Mansion_2F_Balcony_Drop_Tests</code></h1>
+
+# 2F East South Balcony Drop Systematic Testing Protocol (State A)
+
+## Objective
+Systematically walk onto and test walking Up (North) off every column from Column 11 to Column 17 on Row 15/16 under State A to find if any of them is an active balcony drop-down spot that lands the player in the 1F south-central pocket.
+
+## Target Coordinates to Test
+- Column 11: Stand at (11, 16) and attempt to walk Up (North).
+- Column 12: Stand at (12, 16) and attempt to walk Up (North). (Bumped at (12, 15) on Turn 84356 under State B, but must test under State A).
+- Column 13: Stand at (13, 16) and attempt to walk Up (North).
+- Column 15: Stand at (15, 16) and attempt to walk Up (North).
+- Column 16: Stand at (16, 16) and attempt to walk Up (North).
+- Column 17: Stand at (17, 16) and attempt to walk Up (North).
+
+## Test Results
+- Column 11: [ ] Untested
+- Column 12: [ ] Untested (Bumped at (12, 15) on Turn 84356 under State B, need to test under State A)
+- Column 13: [ ] Untested
+- Column 15: [ ] Untested
+- Column 16: [ ] Untested
+- Column 17: [ ] Untested
+
+<hr>
