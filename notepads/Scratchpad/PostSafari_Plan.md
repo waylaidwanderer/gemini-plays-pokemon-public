@@ -76,7 +76,11 @@
 
 ## State B Northeast Room Complete Sweep Disproof (Turn 86172 Completed)
 - **Definitive Conclusion**: On Turn 86172, we completed 100% of our systematic floor coverage of the entire Northeast room of 1F East under State B (tested Rows 1-11, Columns 23-28 on all walkable tiles). Absolutely none of the tiles triggered a staircase transition or warp, and (27, 11) is a solid, closed rubble wall when approached from the proper southern direction at (27, 12). This empirically and definitively disproves the existence of any active staircase or warp in the Northeast room of 1F East under State B.
-- **Active State A Northeast Room Hypothesis**: Since 3F West-East crossover is completely solid under both states, and the 2F Southeast room (with stairs up to 3F East) is isolated, and 1F East Northeast room has no stairs under State B, the active staircase to 2F East Southeast/Northeast must be active and accessible under State A!
+## Active State A Northeast Room Hypothesis (Started Turn 86221)
+- **The Hypothesis**: Since 3F West-East crossover is completely solid under both states, and the 2F Southeast room (with stairs up to 3F East) is isolated, and 1F East Northeast room has no stairs under State B, the active staircase to 2F East Southeast/Northeast must be active and accessible under State A!
   - Under State A, we can enter the Northeast room of 1F East on foot via the northern crossover on Column 22 Row 3 (which is open under State A).
-  - We will walk back to 1F West, stand at (2, 6) facing Up, and press A to toggle Mewtwo Statue 1 to State A (Default).
-  - Then we will return to 1F East Northeast room via Row 11 crossover, Row 12 vertical corridor, and Row 3 crossover, and systematically test all tiles under State A!
+  - We successfully toggled Mewtwo Statue 1 to State A (Default) on Turn 86214.
+  - We will now systematically test all tiles in the Northeast room on foot under State A and log every coordinate-specific outcome below.
+
+## State A Northeast Room Systematic Exploration Logs
+- Turn 86234: Successfully entered the Northeast room of 1F East at (23, 3) under State A.
