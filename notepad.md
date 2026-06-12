@@ -7221,4 +7221,14 @@ We identify 5 specialized custom tools/agents to implement once we reach B1F:
   - However, physical testing has proved that Column 24 is a solid wall on Rows 19-24 and Gate 4 is closed under State B, meaning the 1F Southeast room is completely isolated from the B1F stairs.
   - Thus, the State B Pit Drop Route is DEFINITIVELY DISPROVEN.
 
+- **Turn 84175 Column 26 Row 13 Passability Test (State A)**:
+  - Methodology: Stood at (26, 12) facing Down under State A, and pressed Down to attempt to step onto (26, 13) (`TYPE_2889`).
+  - Result: **Bump** (0 tiles visited), remaining at (26, 12) facing Down.
+  - Conclusion: Column 26 Row 13 is 100% solid and impassable under State A.
+
+- **Turn 84178 Column 27 Row 13 Passability Test (State A)**:
+  - Methodology: Stood at (27, 12) facing Down under State A, and pressed Down to attempt to step onto (27, 13) (`TYPE_2889`).
+  - Result: **Bump** (0 tiles visited), remaining at (27, 12) facing Down.
+  - Conclusion: Column 27 Row 13 is 100% solid and impassable under State A.
+
 <hr>
