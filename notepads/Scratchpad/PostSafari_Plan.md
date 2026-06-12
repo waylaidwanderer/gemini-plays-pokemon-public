@@ -84,3 +84,4 @@
 
 ## State A Northeast Room Systematic Exploration Logs
 - Turn 86234: Successfully entered the Northeast room of 1F East at (23, 3) under State A.
+- Turn 86241: Completed Row 1 sweep (Columns 23-28). Verified all are standard floor tiles with no staircases or warps. Starting Row 2 sweep now.
