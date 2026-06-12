@@ -20,17 +20,26 @@
   - Gate 26 on 2F (12, 26)-(13, 26) is CLOSED.
   - Gate 13 on 2F (12, 13)-(13, 13) is CLOSED.
 
-## B1F Access Plan (Turn 85719)
+## State B Southeast Room Isolation Verification (Turn 85829 Verification)
+- **Hypothesis**: The Southeast room (Columns 25-28) of 1F East is completely isolated on foot from the B1F stairs at (21, 23) under State B.
+- **Methodology**: Stood at (25, 21) on Turn 85829 and visually analyzed the surrounding tile map:
+  - Column 24 has a solid wall of TYPE_2889 extending vertically on Rows 19-23.
+  - Column 24 and 25 have solid rubble of TYPE_2889 at (24, 24), (25, 24), and (25, 25).
+  - Therefore, there is no horizontal pathway connecting Column 25 and Column 21 on the south side.
+- **Definitive Conclusion**: The Southeast room of 1F East is indeed completely isolated on foot from the rest of 1F. We cannot reach B1F stairs under State B from this room. We must toggle back to State A to use the standard, canonical route.
+
+## B1F Access Plan (Turn 85829)
 - **Goal**: Reach B1F and retrieve the Secret Key.
-- **Route to B1F (State B)**:
-  1. Toggle global gate state to State B by interacting with Mewtwo Statue 2 on 2F West at (2, 11).
-  2. Travel to 1F West via the stairs at (5, 10) on 2F West.
-  3. Walk from 1F West to 1F East and go through the open Gate 1 at (25, 13).
-  4. Access the Southeast room of 1F East on foot.
-  5. Locate and climb the staircase at (27, 11) on 1F East up to 2F Southeast (27, 11).
-  6. Walk to (25, 14) on 2F Southeast and climb the stairs up to 3F East (25, 14).
-  7. On 3F East, walk to the large pit and jump down to drop directly into B1F!
-  8. Explore B1F to retrieve the Secret Key.
+- **Route to B1F (State A Standard Route)**:
+  1. Walk back to 1F West via Row 11 crossover.
+  2. Toggle global gate state to State A by interacting with Mewtwo Statue 1 on 1F West at (2, 5).
+  3. Travel to 2F West via the stairs at (5, 10) on 1F West.
+  4. Travel to 3F West via the stairs at (7, 10) on 2F West.
+  5. Under State A, walk past Mewtwo Statue 3 on 3F at (10, 9) and navigate to 3F East (which is connected to 3F West under State A).
+  6. Locate the large pit on 3F East and drop down the right side of the pit to land in the isolated 2F Southeast room.
+  7. Take the stairs down from 2F Southeast at (25, 14) to 1F East Southeast.
+  8. Under State A, Gate 4 at (21, 17) is OPEN! Walk left from 1F Southeast through the open Gate 4 to the B1F stairs at (21, 23).
+  9. Go down to B1F and retrieve the Secret Key!
 
 ## Cinnabar Mansion Breakthrough Exploration Phase (Turn 79491)
 - **Verified Fact**: 2F East South Column 22 is completely solid/rubble under both State A and State B across rows 8-15. This separates Column 21 from Column 23 on these rows.
