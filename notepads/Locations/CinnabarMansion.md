@@ -88,7 +88,7 @@
 - **Switches & Gates**:
   - Statue 3: (10, 8) on 3F West | State: Purely Decorative (No Switch) (Verified Turn 78784). Front tile (10, 9) and surroundings are solid wall/rubble (TYPE_2889).
   - Gate 2 (3F, Row 8 at (8, 8)-(11, 8)): CLOSED and impassable under BOTH State A and State B.
-    - State B Proof of Work: Tested on Turn 79283 by standing at (9, 9) facing Up and pressing Up against (9, 8), resulting in a direct collision.
+    - State B Proof of Work: Tested on Turn 79283 by standing at (9, 9) facing Up and pressing Up against (9, 8), resulting in a direct collision. Re-verified on Turn 86063 by standing at (9, 9) facing Up and pressing Up, resulting in a bump and 0 tiles visited.
     - State A Proof of Work: Tested on Turn 79330 by standing at (9, 9) facing Up and pressing Up against (9, 8), resulting in a direct collision.
     - Conclusion: The 3F West-East on-foot connection is permanently blocked under both states. 3F East cannot be reached on foot from 3F West.
 - **Falls/Pits**:
