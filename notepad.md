@@ -6413,7 +6413,9 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 - **Stairs**:
   - Up to 2F: Located at (5, 10) (Verified Turn 74945)
 - **Switches & Gates**:
-  - Statue 1: (TBD, TBD) | State: [ ] Default
+  - Statue 1: (2, 5) on 1F West | State: State A (Toggled on Turn 83692)
+  - Gate 1: (25, 13) | State: CLOSED under State A (Verified Turn 82243), OPEN under State B.
+  - Gate 4: (21, 17) | State: OPEN under State A, CLOSED under State B (Verified Turn 80849).
 - **Items**:
   - Escape Rope: (14, 3) | State: [x] Collected (Turn 74964)
 - **Trainers**:
