@@ -6904,7 +6904,7 @@ All four reachable columns (1, 2, 3, and 4) on the southwest balcony of 2F West 
 - **Turn 79215**: Tested Column 23 by standing at (23, 11) facing Down and pressing Down. Result: **Bump** against (23, 12) (`TYPE_2889`). This physically proves that Column 23 is blocked at Row 12 under State A by a solid stone pillar/statue, preventing all southern traversal along South Column 23.
 - **Turn 79220**: Tested Column 24 by standing at (24, 12) facing Down and pressing Down. Result: **Bump** against (24, 13) (`TYPE_a83b`). This physically proves that Gate 1 is CLOSED and impassable on Column 24 under State A.
 - **Turn 79227**: Tested Column 25 by standing at (25, 12) facing Down and pressing Down. Result: **Bump** against (25, 13) (`TYPE_a83b`). This physically proves that Gate 1 is CLOSED and impassable on Column 25 under State A.
-- **Final Conclusion**: Row 13 is 100% impassable on foot across all possible columns under State A, making the southern 1F East south-central pocket completely unreachable on foot from the north under State A. This definitively confirms that the B1F stairs can only be reached via the 3F East pit drop.
+- **Final Conclusion**: Columns 23, 24, and 25 on Row 13 are 100% impassable on foot under State A. However, Columns 21 and 22 on Row 13 under State A remain physically untested and unverified. To satisfy the Burden of Proof, we must toggle the switches to State A and physically test Column 21 and Column 22 on Row 13 to verify if there is an open foot-crossing leading directly to the B1F stairs.
 
 ## 2F East South Balcony Drop Mapping Protocol (Added Turn 79841)
 - **Objective**: Systematically map and test the hypothesized southern balcony drop on 2F East South (specifically around Rows 26 and 27 on Columns 11-19).
