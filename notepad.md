@@ -6225,7 +6225,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 - **Conclusive Separation Analysis (Turn 83201)**:
   - While Column 24 is open on Row 14 under State B, Column 24's passability on Rows 19 to 24 under State B has NOT been physically tested on foot. We previously made an unverified assumption that it was blocked by solid wall of TYPE_2889 on these rows based on visual interpretation, but standard vanilla layout has this room open on the south. If Column 24 is actually open under State B, then walking to the B1F stairs on foot from Gate 1 is 100% functional, rendering all complex balcony drops completely unnecessary. We must physically test this immediately.
   - Row 16 is open horizontally, but Gate 4 at (21, 17) is CLOSED under State B.
-  - This means if Column 24 is blocked on Y=19-24, the B1F stairs at (21, 23) cannot be reached on foot from the entrance of 1F under State B. We would then need to explore alternate options.
+  - This means since Column 24 is indeed physically blocked on Y=19-24 under State B (verified Turn 84296), the B1F stairs at (21, 23) cannot be reached on foot from the entrance of 1F under State B. We must utilize the newly discovered State A 2F East South Balcony Drop Route to access the southern pocket of 1F East, as detailed in 'Scratchpad/Mansion_B1F_Access_Model'.
 
 <hr>
 
