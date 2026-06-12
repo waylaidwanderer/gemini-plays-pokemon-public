@@ -20,6 +20,18 @@
   - Gate 26 on 2F (12, 26)-(13, 26) is CLOSED.
   - Gate 13 on 2F (12, 13)-(13, 13) is CLOSED.
 
+## B1F Access Plan (Turn 85719)
+- **Goal**: Reach B1F and retrieve the Secret Key.
+- **Route to B1F (State B)**:
+  1. Toggle global gate state to State B by interacting with Mewtwo Statue 2 on 2F West at (2, 11).
+  2. Travel to 1F West via the stairs at (5, 10) on 2F West.
+  3. Walk from 1F West to 1F East and go through the open Gate 1 at (25, 13).
+  4. Access the Southeast room of 1F East on foot.
+  5. Locate and climb the staircase at (27, 11) on 1F East up to 2F Southeast (27, 11).
+  6. Walk to (25, 14) on 2F Southeast and climb the stairs up to 3F East (25, 14).
+  7. On 3F East, walk to the large pit and jump down to drop directly into B1F!
+  8. Explore B1F to retrieve the Secret Key.
+
 ## Cinnabar Mansion Breakthrough Exploration Phase (Turn 79491)
 - **Verified Fact**: 2F East South Column 22 is completely solid/rubble under both State A and State B across rows 8-15. This separates Column 21 from Column 23 on these rows.
 
