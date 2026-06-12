@@ -7256,11 +7256,6 @@ We identify 5 specialized custom tools/agents to implement once we reach B1F:
 - This definitively disproves the hypothesis of an on-foot corridor bypass under State A. The northern half of 1F East is completely separated from the southern half under State A.
 - Therefore, there is NO on-foot path to the B1F stairs on 1F under State A. We must find another way.
 
-## Breakthrough Discovery: State A 2F East South Balcony Drop Route (DISPROVEN)
-- **The Attempt**: On Turn 84261, we hypothesized that the southern balcony of 2F East South on Columns 11-17 could be accessed under State A via the Column 11 Row 22 crossover, which would let us execute a balcony drop into the open 1F East pocket.
-- **The Disproof**: Exhaustive physical testing of the 2F East South balcony area under the true State A (Default) (Turns 84804-84838) disproved this route. We verified that Column 11 Row 16, Column 12 Row 15, and Column 13 Row 15 are all solid rubble (bumps), and Column 14 is a continuous, solid vertical wall on all Rows 16 to 25. Since Columns 15-17 are completely unreachable under State A, and all other directions are solid, there is no active balcony drop. Thus, B1F cannot be accessed via any 2F balcony drops under State A. We must return to the State B 3F West balcony drop strategy.
-- **Turn 84295-84296 Physical Test (Column 24 Southern Passability, State B)**: Stood at (24, 14) under State B and walked Down along Column 24. Result: **Bump** against (24, 19) (`TYPE_2889`), remaining at (24, 18). This physically and empirically proves that Column 24 is a solid, impassable wall on Rows 19-24 under State B on 1F East. Combined with the solid rubble on Rows 17-18, the 1F Southeast room is completely isolated on foot from the south-central B1F stairs pocket under State B. This definitively disproves the State B on-foot pathway, satisfying the overwatch Socratic challenge and proving that we must seek an alternate elevation route or gate toggle sequence.
-
 <hr>
 
 <h1><code>Reflection/Turn84620_Reflection</code></h1>
