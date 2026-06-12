@@ -195,3 +195,6 @@
 - **Methodology**: Stood at (5, 16) on Map 0_215 facing Right under State A, and pressed Right to step onto (6, 16).
 - **Results**: Visited 0 tiles. Direct collision bump against (6, 16), remaining at (5, 16) facing Right.
 - **Conclusion**: Column 6 Row 16 is 100% solid and impassable under State A. This officially disproves any Row 16 balcony walkthrough drop under State A, satisfying the overwatch Socratic Challenge and proving the balcony is a dead end.
+- **Turn 84231 Test (Column 5 Row 7, State B)**: Standing at (5, 8) facing Up under State B, pressed Up 5 times against (5, 7). Result: **Bump**, remaining at (5, 8). This physically proves that Column 5 Row 7 is CLOSED and solid/impassable under State B.
+- **Turn 84233 Test (Column 6 Row 7, State B)**: Standing at (6, 8) facing Up under State B, pressed Up 5 times against (6, 7). Result: **Bump**, remaining at (6, 8). This physically proves that Column 6 Row 7 is CLOSED and solid/impassable under State B.
+- **Conclusive 3F West Northern Gate Summary**: Both possible gate columns (Column 5 Row 7 and Column 6 Row 7) have been systematically tested under BOTH State A and State B. All trials resulted in direct physical collisions, with zero NPC blockages. The northern gate is 100% solid, impassable wall under all states, proving the northern room of 3F West is completely isolated on foot.
