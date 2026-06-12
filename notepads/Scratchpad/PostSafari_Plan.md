@@ -68,3 +68,10 @@
   - While Column 24 is open on Row 14 under State B, Column 24's passability on Rows 19 to 24 under State B was physically tested on foot on Turn 84296 and found blocked by a solid wall of TYPE_2889.
   - Row 16 is open horizontally, but Gate 4 at (21, 17) is CLOSED under State B.
   - This means since Column 24 is indeed physically blocked on Y=19-24 under State B (verified Turn 84296), the B1F stairs at (21, 23) cannot be reached on foot from the entrance of 1F under State B. We must utilize the newly discovered State A 2F East South Balcony Drop Route to access the southern pocket of 1F East, as detailed in 'Scratchpad/Mansion_B1F_Access_Model'.
+
+## Backtracking to 3F East & B1F Pit Search (Turn 85374)
+- **Starting position**: (21, 10) on 2F East under State A (Default).
+- **Step 1**: Walk Left 14 steps along Row 10 to (7, 10) on 2F West.
+- **Step 2**: Climb the stairs at (7, 10) UP to 3F West.
+- **Step 3**: On 3F West, walk past the Mewtwo Statue at (10, 9) to enter 3F East under State A.
+- **Step 4**: Systematically map 3F East, locate the large central-east pit drop to B1F, and avoid the smaller pit at (21, 10) that drops to 2F.
