@@ -7285,7 +7285,7 @@ Systematically walk onto and test walking Up (North) off every column from Colum
 
 ## Test Results
 - Column 11: [ ] Untested
-- Column 12: [x] Blocked (Bumped at (12, 15) on Turn 84479 under State A)
+- Column 12: [ ] Untested (Tested on Turn 84479 under State B, need to test under State A)
 - Column 13: [ ] Untested
 - Column 15: [ ] Untested
 - Column 16: [ ] Untested
