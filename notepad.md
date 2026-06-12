@@ -7228,4 +7228,17 @@ We identify 5 specialized custom tools/agents to implement once we reach B1F:
   4. Step into Pit A at (11, 12) on 3F West.
   5. Land on 2F East South and verify the path to the southeast stairs.
 
+## Optimized Row 22 On-Foot bypass Route (No Pit Drops Required!):
+- **Discovered Turn 83861**:
+  - We do not need to go to 3F West or fall down any pits!
+  - Under State B, Column 11 Row 22 is open.
+  - We can walk directly on 2F from our current position (5, 15) to (12, 22) on foot by walking Up to Row 11, across to Column 10, Down to Row 22, and Right to (12, 22).
+  - From (12, 22), we will test walking East across Column 22 Row 22 to reach the Southeast room on foot!
+- **Detailed Step-by-Step Path**:
+  1. From (5, 15): Walk Up 4 steps along Column 5 to (5, 11).
+  2. Walk Right 5 steps along Row 11 to (10, 11).
+  3. Walk Down 11 steps along Column 10 to (10, 22).
+  4. Walk Right 2 steps to (12, 22) (cross Column 11 Row 22).
+  5. Test walking Right (East) onto (22, 22).
+
 <hr>
