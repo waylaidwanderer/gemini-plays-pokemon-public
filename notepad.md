@@ -6495,10 +6495,9 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
     - Column 1 (Row 16): Tested on Turn 83032 by standing at (1, 16) facing Down and pressing Down. Result: **Bump** against (1, 17). Confirmed 100% solid, impassable under State B.
     - Column 2 (Row 16): Tested on Turn 83034 by standing at (2, 16) facing Down and pressing Down. Result: **Bump** against (2, 17). Confirmed 100% solid, impassable under State B.
     - **Conclusion**: There is absolutely no walkthrough or drop-off connection on 3F West under State B either. All tested balcony and crossover directions are completely blocked under both State A and State B.
-- **State B Column 10 Row 11 Passability Test (CORRECTED)**:
-    - On Turn 82861, we believed we tested this under State B and bumped, concluding the crossover was permanently blocked. However, an overwatch audit of our global switch history revealed that we were actually in State A during that test! We have never tested Column 10 Row 11 under the true active State B.
-- **The State B 3F West-East Crossover Test**:
-    - Let's walk directly to (9, 11) and try to walk Right into (10, 11) under State B (active) to verify if the gate is actually open. If it is open, we can access 3F East!
+- **State B Column 10 Row 11 Passability Test (CORRECTED & VERIFIED)**:
+    - On Turn 84939, we stood at (9, 11) under the mathematically and visually verified State B (Mewtwo Statue 2 toggled to State B, Gate 6 open on 2F West) and pressed Right to step onto (10, 11). Result: **Bump** against (10, 11), remaining at (9, 11).
+    - **Definitive Conclusion**: Column 10 Row 11 is 100% solid, closed, and impassable under the true State B. This confirms that there is absolutely no walkthrough crossover on 3F between the West and East sides of the floor under either state.
 - **State A (Statue 2 Default) Balcony East-Edge Drop Tests**:
     - Column 5 (Row 16): Tested on Turn 82976 by standing at (5, 16) facing Right and pressing Right. Result: **Bump** against (6, 16). Confirmed 100% solid, impassable under State A.
     - Column 6 (Row 15): Tested on Turn 82978 by standing at (6, 15) facing Down and pressing Down. Result: **Bump** against (6, 16). Confirmed 100% solid, impassable under State A.
