@@ -124,10 +124,17 @@
     - On Turn 84939, we stood at (9, 11) under the mathematically and visually verified State B (Mewtwo Statue 2 toggled to State B, Gate 6 open on 2F West) and pressed Right to step onto (10, 11). Result: **Bump** against (10, 11), remaining at (9, 11).
     - **Definitive Conclusion**: Column 10 Row 11 is 100% solid, closed, and impassable under the true State B. This confirms that there is absolutely no walkthrough crossover on 3F between the West and East sides of the floor under either state.
 - **State A (Statue 2 Default) Balcony East-Edge Drop Tests**:
-    - Column 5 (Row 16): Tested on Turn 82976 by standing at (5, 16) facing Right and pressing Right. Result: **Bump** against (6, 16). Confirmed 100% solid, impassable under State A.
+    - Column 5 (Row 11): Tested on Turn 85956 -> Stepped Right onto (6, 11) (Normal floor, no drop).
+    - Column 5 (Row 12): Tested on Turn 85959 -> Pressed Right against (6, 12) (Bump against solid table, no drop).
+    - Column 5 (Row 13): Tested on Turn 85963 -> Pressed Right against (6, 13) (Bump against solid table, no drop).
+    - Column 5 (Row 14): Tested on Turn 85964 -> Stepped Right onto (6, 14) (Normal floor, no drop).
+    - Column 5 (Row 15): Tested on Turn 85967 -> Stepped Right onto (6, 15) (Normal floor, no drop).
+    - Column 5 (Row 16): Tested on Turn 85970 by standing at (5, 16) facing Down and pressing Down. Result: **Bump** against (5, 17) (no drop).
+    - Column 4 (Row 16): Tested on Turn 85976 by standing at (4, 16) facing Down and pressing Down. Result: **Bump** against (4, 17) (no drop).
+    - Column 3 (Row 16): Tested on Turn 85977 by standing at (3, 16) facing Down and pressing Down. Result: **Bump** against (3, 17) (no drop).
+    - Column 5 (Row 16 East): Tested on Turn 82976 by standing at (5, 16) facing Right and pressing Right. Result: **Bump** against (6, 16). Confirmed 100% solid, impassable under State A.
     - Column 6 (Row 15): Tested on Turn 82978 by standing at (6, 15) facing Down and pressing Down. Result: **Bump** against (6, 16). Confirmed 100% solid, impassable under State A.
     - Column 7 (Row 15): Tested on Turn 82979 by standing at (7, 15) facing Down and pressing Down. Result: **Bump** against (7, 16). Confirmed 100% solid, impassable under State A.
-    - **Conclusion**: There is absolutely no walkthrough or drop-off connection on 3F West under State A (Default). All tested balcony and crossover directions are completely blocked.
 - **State A (Default) Column 10 Row 11 Passability Test**:
     - Tested on Turn 82928 by standing at (9, 11) facing Right and pressing Right. Result: **Bump** against (10, 11) (stayed at (9, 11)). Confirmed 100% solid, impassable wall/closed gate under State A. This officially disproves any on-foot crossover under State A.
 - **Trainers**:
