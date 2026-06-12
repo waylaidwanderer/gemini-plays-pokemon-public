@@ -7299,7 +7299,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Row 11: Tested on Turn 84865 -> Stepped Right onto (6, 11) (Normal floor, no drop)
 - Row 12: [ ] Untested
 - Row 13: [ ] Untested
-- Row 14: [ ] Untested
+- Row 14: Tested on Turn 84900 -> Stepped Right onto (6, 14) (Normal floor, no drop)
 - Row 15: Tested on Turn 84896 -> Stepped Right onto (6, 15) (Normal floor, no drop)
 
 <hr>
