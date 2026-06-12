@@ -9,8 +9,8 @@ Systematically walk onto and test walking Up (North) off every column from Colum
 
 ## True State A (Default) Balcony Drop Tests
 - Column 11: [ ] Untested
-- Column 12: [ ] Untested
-- Column 13: [ ] Untested
+- Column 12: Tested on Turn 84737 under true State A -> BUMPED (Row 15 is solid wall)
+- Column 13: Tested on Turn 84742 under true State A -> BUMPED (Row 15 is solid wall)
 - Column 15: [ ] Untested
 - Column 16: [ ] Untested
 - Column 17: [ ] Untested
