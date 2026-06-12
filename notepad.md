@@ -6179,22 +6179,27 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Therefore, there is no horizontal pathway connecting Column 25 and Column 21 on the south side.
 - **Definitive Conclusion**: The Southeast room of 1F East is indeed completely isolated on foot from the rest of 1F. We cannot reach B1F stairs under State B from this room. We must explore the room to find a staircase or transition under State B.
 
-## B1F Access Plan (State B Staircase Route)
-- **Socratic Progress**:
-  - We have verified that the 3F West-East crossover is completely solid/blocked under both State A and State B, and the 2F Southeast room is isolated. Thus, there must be a way to climb directly from 1F Southeast to 2F Southeast.
-  - Under State B, Gate 1 at (25, 13) is open, granting full access to the Southeast room on 1F East.
-  - We are systematically searching every passable tile in the Southeast room of 1F East (Columns 25-28, Rows 14-25) under State B to locate this active staircase.
-  - Once located, we will climb to 2F Southeast, ascend the stairs at (25, 14) to 3F East, and drop down the correct side of the pit to B1F.
-- **Current Coverage Progress**:
-  - Row 21: (25, 21), (26, 21), (27, 21), (28, 21) [Fully Tested - Solid floor]
-  - Row 22: (25, 22), (26, 22), (27, 22), (28, 22) [Fully Tested - Solid floor]
-  - Row 23: (25, 23), (26, 23), (27, 23), (28, 23) [Fully Tested - Solid floor]
-  - Row 26: (26, 26), (27, 26) [Fully Tested - Solid floor]
-  - Row 25: (26, 25), (27, 25), (28, 25) [We just stood on (27, 25) and (28, 25) - Solid floor]
-  - Row 24: (28, 24) [We just stood on (28, 24) - Solid floor]
+## State B Southeast Room Search Verification (Turn 85901 Completed)
+- **Definitive Conclusion**: On Turn 85901, we completed 100% of our systematic floor coverage of the entire Southeast room of 1F East under State B (tested Rows 14-26, Columns 24-28). None of the tiles triggered a staircase transition or warp. This empirically and definitively proves that there is no staircase in the Southeast room of 1F East under State B.
+- **State A Northeast Staircase Verification (Turn 85926 Completed)**:
+  - We toggled Statue 1 back to State A (Default) on Turn 85913, navigated back to 1F East Northeast room, and tested walking Up onto (27, 11) from (27, 12).
+  - **Result**: Direct collision bump against (27, 11), remaining at (27, 12) on Turn 85926.
+  - **Definitive Conclusion**: The Northeast staircase at (27, 11) / (27, 10) remains completely solid, blocked, and impassable under State A as well. There is no staircase on 1F East under any state.
+
+## B1F Access Plan (State A Balcony Drop Route)
+- **The Strategy**:
+  - Since there is no walkthrough crossover on 3F on foot, and no staircase on 1F East under any state, the only way to reach the isolated 2F Southeast room is via the 3F West balcony drop under State A!
+  - We have verified that Koga's Thunder Badge (TB) boost and Soul Badge (SB) Defense boost are active.
+  - Under State A, we must climb to 3F West and systematically test walking Right (East) off Column 5 on Rows 11, 12, 13, 14, and 15 (the balcony floor) to find the unblocked gap that triggers the horizontal drop to 2F Southeast.
+  - Once we land in 2F Southeast, we will take the stairs down at (25, 14) to 1F Southeast.
+  - Under State A, Gate 4 at (21, 17) is OPEN! We can walk Left from 1F Southeast through the open Gate 4 straight to the B1F stairs at (21, 23).
+  - Go down to B1F and retrieve the Secret Key!
+
+- **Current Progress**:
+  - We are standing at (27, 12) on 1F East under State A. We are backtracking to 1F West to take the stairs to 2F.
 - **Immediate Next Steps**:
-  - Stand on (27, 24) and (26, 24) to complete Row 24 and Row 25 coverage on the southern half.
-  - Move north to systematically cover Rows 14-20 on Column 25, 26, 27, 28.
+  - Walk to the stairs at (5, 10) on 1F West and ascend to 2F West.
+  - Ascend to 3F West and navigate to the balcony at Column 5.
 
 ## Cinnabar Mansion Breakthrough Exploration Phase (Turn 79491)
 - **Verified Fact**: 2F East South Column 22 is completely solid/rubble under both State A and State B across rows 8-15. This separates Column 21 from Column 23 on these rows.
