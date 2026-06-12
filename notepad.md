@@ -6865,6 +6865,15 @@ Active State: **State B (Statue 1 Toggled)** (Toggled on Turn 78020)
   1. We are currently at (7, 11) on 3F West.
   2. Walk Left to (5, 11) (2 steps Left).
   3. We will then walk Down along Column 5, testing walking Right off Column 5 at Row 11, 12, 13, 14, and 15 one by one!
+## State B Detour to Stairs on 2F West (Turn 85038)
+- Current position: (7, 8) under State B.
+- Physical layout obstacles: Row 9 Columns 3-9 are blocked by solid wall/railing of TYPE_2889. Row 9 Column 10 (10, 9) is open (TYPE_3fe2).
+- Route around Row 9 to reach (7, 10):
+  - Step 1: Up 3 steps to Row 5: (7, 8) -> (7, 7) -> (7, 6) -> (7, 5).
+  - Step 2: Right 3 steps to Column 10: (7, 5) -> (8, 5) -> (9, 5) [Gate 6 open] -> (10, 5).
+  - Step 3: Down 5 steps to Row 10: (10, 5) -> (10, 6) -> (10, 7) -> (10, 8) -> (10, 9) -> (10, 10).
+  - Step 4: Left 3 steps to Stairs: (10, 10) -> (9, 10) -> (8, 10) -> (7, 10).
+- We will execute Step 1 & 2 now to arrive at (10, 5) under State B.
 
 <hr>
 
