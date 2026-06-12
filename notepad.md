@@ -6189,7 +6189,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 ## Socratic Socratic Answers (Turn 79575)
 ### Socratic Question 1: 3F East Pit Landing & Escape Protocol
 - **Historical Note (State B)**: Under State B, we previously analyzed dropping to the 1F south-central pocket. However, physical testing has proved that Column 24 is a solid wall on Rows 19-24 and Gate 4 is closed under State B, meaning the 1F Southeast room is completely isolated on foot from the B1F stairs. Therefore, the State B Pit Drop Route is disproven.
-- **Active State A Strategy**: Under State A, Gate 4 at (21, 17) is OPEN and Gate 1 at (25, 13) is CLOSED. Since Row 13 is fully impassable on foot on all columns (proven on Turns 84175-84186), we must utilize the newly discovered State A 2F East South Balcony Drop Route to access the southern pocket of 1F East. This route is fully described in 'Scratchpad/Mansion_B1F_Access_Model'.
+- **Active State A Strategy**: Under State A, Gate 4 at (21, 17) is OPEN and Gate 1 at (25, 13) is CLOSED. Since Row 13 is fully impassable on foot on all columns (proven on Turns 84175-84186), we must utilize the newly discovered State A 2F East South Balcony Drop Route to access the southern pocket of 1F East. This route is fully described in 'Scratchpad/Mansion_B1F_Access_Model'. We previously hypothesized walking directly south from the Northeast room of 1F East under State A, but this was disproven on Turns 84175-84186.
 
 ### Socratic Question 2: Systematic 3F East Mapping
 - We will document all tile coordinates of 3F East in a new temporary notepad `Scratchpad/Mansion_3F_East_Layout`. We will test all boundaries and check for pits.
