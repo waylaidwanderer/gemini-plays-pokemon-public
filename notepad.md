@@ -6244,7 +6244,9 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 - Turn 86259: Completed Row 7 sweep (Columns 23-28). Verified all are standard floor tiles with no staircases or warps.
 - Turn 86263: Completed Row 8 sweep (Columns 23, 26, 27). Verified all are standard floor tiles with no staircases or warps.
 - Turn 86273: Completed Row 9 sweep (Columns 23, 26, 27). Verified all are standard floor tiles with no staircases or warps.
-- Turn 86282: Completed Row 10 sweep (Columns 23-26). Verified all are standard floor tiles with no staircases or warps. Starting Row 11 sweep now.
+- Turn 86282: Completed Row 10 sweep (Columns 23-26). Verified all are standard floor tiles with no staircases or warps.
+- Turn 86286: Completed Row 11 sweep (Columns 23-26). Verified all are standard floor tiles with no staircases or warps.
+- **Definitive 1F East Northeast Room Complete Sweep Disproof**: We have now systematically and physically walked over every single passable floor tile in the Northeast room of 1F East under both State A (Default) and State B. Absolutely none of the tiles triggered a staircase transition or warp. This empirically and definitively disproves the existence of any active staircase or warp in the Northeast room. Combined with the complete sweep disproof of the Southeast room of 1F East, we can definitively state that **1F East is completely staircase-less**. The staircase to 2F East South/Southeast must be accessed by some other means.
 
 <hr>
 
