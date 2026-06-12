@@ -7280,7 +7280,7 @@ Systematically walk onto and test walking Up (North) off every column from Colum
 - Column 13: Tested on Turn 84650 under State B -> BUMPED (Row 15 is solid wall)
 
 ## True State A (Default) Balcony Drop Tests
-- Column 11: [ ] Untested
+- Column 11: Tested on Turn 84748 under true State A -> BUMPED (Row 16 is solid wall)
 - Column 12: Tested on Turn 84737 under true State A -> BUMPED (Row 15 is solid wall)
 - Column 13: Tested on Turn 84742 under true State A -> BUMPED (Row 15 is solid wall)
 - Column 14: Tested Row 16 (Turn 84744) -> BUMPED; Tested Row 17 (Turn 84751) -> BUMPED. Completely solid, blocking access to Columns 15-17 on these rows.
