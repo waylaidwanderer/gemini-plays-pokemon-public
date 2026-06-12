@@ -6177,20 +6177,24 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Column 24 has a solid wall of TYPE_2889 extending vertically on Rows 19-23.
   - Column 24 and 25 have solid rubble of TYPE_2889 at (24, 24), (25, 24), and (25, 25).
   - Therefore, there is no horizontal pathway connecting Column 25 and Column 21 on the south side.
-- **Definitive Conclusion**: The Southeast room of 1F East is indeed completely isolated on foot from the rest of 1F. We cannot reach B1F stairs under State B from this room. We must toggle back to State A to use the standard, canonical route.
+- **Definitive Conclusion**: The Southeast room of 1F East is indeed completely isolated on foot from the rest of 1F. We cannot reach B1F stairs under State B from this room. We must explore the room to find a staircase or transition under State B.
 
-## B1F Access Plan (Turn 85829)
-- **Goal**: Reach B1F and retrieve the Secret Key.
-- **Route to B1F (State A Standard Route)**:
-  1. Walk back to 1F West via Row 11 crossover.
-  2. Toggle global gate state to State A by interacting with Mewtwo Statue 1 on 1F West at (2, 5).
-  3. Travel to 2F West via the stairs at (5, 10) on 1F West.
-  4. Travel to 3F West via the stairs at (7, 10) on 2F West.
-  5. Under State A, walk past Mewtwo Statue 3 on 3F at (10, 9) and navigate to 3F East (which is connected to 3F West under State A).
-  6. Locate the large pit on 3F East and drop down the right side of the pit to land in the isolated 2F Southeast room.
-  7. Take the stairs down from 2F Southeast at (25, 14) to 1F East Southeast.
-  8. Under State A, Gate 4 at (21, 17) is OPEN! Walk left from 1F Southeast through the open Gate 4 to the B1F stairs at (21, 23).
-  9. Go down to B1F and retrieve the Secret Key!
+## B1F Access Plan (State B Staircase Route)
+- **Socratic Progress**:
+  - We have verified that the 3F West-East crossover is completely solid/blocked under both State A and State B, and the 2F Southeast room is isolated. Thus, there must be a way to climb directly from 1F Southeast to 2F Southeast.
+  - Under State B, Gate 1 at (25, 13) is open, granting full access to the Southeast room on 1F East.
+  - We are systematically searching every passable tile in the Southeast room of 1F East (Columns 25-28, Rows 14-25) under State B to locate this active staircase.
+  - Once located, we will climb to 2F Southeast, ascend the stairs at (25, 14) to 3F East, and drop down the correct side of the pit to B1F.
+- **Current Coverage Progress**:
+  - Row 21: (25, 21), (26, 21), (27, 21), (28, 21) [Fully Tested - Solid floor]
+  - Row 22: (25, 22), (26, 22), (27, 22), (28, 22) [Fully Tested - Solid floor]
+  - Row 23: (25, 23), (26, 23), (27, 23), (28, 23) [Fully Tested - Solid floor]
+  - Row 26: (26, 26), (27, 26) [Fully Tested - Solid floor]
+  - Row 25: (26, 25), (27, 25), (28, 25) [We just stood on (27, 25) and (28, 25) - Solid floor]
+  - Row 24: (28, 24) [We just stood on (28, 24) - Solid floor]
+- **Immediate Next Steps**:
+  - Stand on (27, 24) and (26, 24) to complete Row 24 and Row 25 coverage on the southern half.
+  - Move north to systematically cover Rows 14-20 on Column 25, 26, 27, 28.
 
 ## Cinnabar Mansion Breakthrough Exploration Phase (Turn 79491)
 - **Verified Fact**: 2F East South Column 22 is completely solid/rubble under both State A and State B across rows 8-15. This separates Column 21 from Column 23 on these rows.
