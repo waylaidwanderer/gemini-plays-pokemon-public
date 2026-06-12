@@ -6466,7 +6466,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 - **Stairs**:
   - Down to 2F: Located at (7, 10) (Verified Turn 75056)
 - **Switches & Gates**:
-  - Statue 3: (10, 8) on 3F West | State: Active Switch. Accessible by standing at (10, 9) facing Up (Turn 84053 discovery).
+  - Statue 3: (10, 8) on 3F West | State: Purely Decorative (No Switch) (Verified Turn 78784). Front tile (10, 9) and surroundings are solid wall/rubble (TYPE_2889).
   - Gate 2 (3F, Row 8 at (8, 8)-(11, 8)): CLOSED and impassable under BOTH State A and State B.
     - State B Proof of Work: Tested on Turn 79283 by standing at (9, 9) facing Up and pressing Up against (9, 8), resulting in a direct collision.
     - State A Proof of Work: Tested on Turn 79330 by standing at (9, 9) facing Up and pressing Up against (9, 8), resulting in a direct collision.
