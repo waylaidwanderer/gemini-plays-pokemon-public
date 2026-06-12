@@ -9,8 +9,7 @@
   - **1F**: Entry floor. Contains stairs to 2F.
   - **2F**: Second floor. Contains stairs to 1F, stairs to 3F, and several balconies/falls.
   - **3F**: Third floor. Contains stairs to 2F, and specific fall-down spots (pits/ledges) that drop the player to lower floors (including B1F!).
-  - Under State B (Statue 2 Toggled):
-    - Gate 2 on 3F Column 11 is CLOSED (Verified Turn 75612).
+  - Under State A (Statue 2 Default):
     - Left side of 3F is accessible from the stairs landing (7, 11). We can bypass the scientist NPC at (4, 11) by walking around his position.
 - **B1F**: Basement floor. This is where the **Secret Key** is hidden.
 - **Escape Strategy**: Once we find the Secret Key, we can use an **Escape Rope** from our bag to immediately warp out of the Mansion. We currently have 2 Escape Ropes in our bag.
