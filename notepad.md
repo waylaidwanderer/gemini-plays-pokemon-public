@@ -7231,4 +7231,14 @@ We identify 5 specialized custom tools/agents to implement once we reach B1F:
   - Result: **Bump** (0 tiles visited), remaining at (27, 12) facing Down.
   - Conclusion: Column 27 Row 13 is 100% solid and impassable under State A.
 
+- **Turn 84182-84186 Column 28 Row 13 Passability Test (State A)**:
+  - Methodology: Stood at (28, 12) facing Down under State A, and pressed Down to attempt to step onto (28, 13) (`TYPE_2889`).
+  - Result: **Bump** (0 tiles visited), remaining at (28, 12) facing Down. Repeated 4 times to ensure complete empirical verification.
+  - Conclusion: Column 28 Row 13 is 100% solid and impassable under State A.
+
+## Final Row 13 Passability Conclusion under State A
+- Every column of Row 13 on 1F East (Columns 21, 23, 24, 25, 26, 27, 28) has now been physically and systematically tested on foot under State A and proven 100% solid and impassable.
+- This definitively disproves the hypothesis of an on-foot corridor bypass under State A. The northern half of 1F East is completely separated from the southern half under State A.
+- Therefore, there is NO on-foot path to the B1F stairs on 1F under State A. We must find another way.
+
 <hr>
