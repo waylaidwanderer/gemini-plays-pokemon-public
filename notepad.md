@@ -6416,6 +6416,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Statue 1: (2, 5) on 1F West | State: State A (Toggled on Turn 83692)
   - Gate 1: (25, 13) | State: CLOSED under State A (Verified Turn 82243), OPEN under State B.
   - Gate 4: (21, 17) | State: OPEN under State A, CLOSED under State B (Verified Turn 80849).
+  - Column 21 Row 13 Passability: CLOSED under State A (Verified Turn 83750 by standing at (21, 12) facing Down and pressing Down, resulting in a bump). The entire Row 13 across Columns 13 to 22 is completely blocked by solid/impassable partition walls (TYPE_2889) under State A, meaning there is no foot crossing to the southern half on 1F East under State A.
 - **Global Switch Mechanics**:
   - **Verified Gen 1 Mechanic**: The gate switches in Cinnabar Mansion are **global and persistent**. Toggling a statue on any floor changes the gate configuration (State A vs. State B) for all floors simultaneously. Switches do NOT reset upon floor transitions (such as taking stairs or falling down pits). If a gate is found closed, it is because we previously toggled a statue back to its opposite state (e.g., toggling Statue 2 to State A on Turn 83035 before arriving on 1F East on Turn 83091). We must always align our active route with the single global switch state.
 - **Items**:
