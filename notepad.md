@@ -7221,6 +7221,12 @@ We identify 5 specialized custom tools/agents to implement once we reach B1F:
 - **Result**: No textbox appeared and no interaction took place.
 - **Conclusion**: The Mewtwo Statue/rubble at (10, 9) remains completely non-interactive and purely decorative under State B.
 - **Proof of Work**: Action executed and verified on Turn 86089/86093.
+## State B Northeast Staircase Entrance Proof (Turn 86134)
+- **Hypothesis**: The Northeast staircase at (27, 11) or (27, 10) on 1F East can be climbed under State B when approached from the South.
+- **Methodology**: Stood at (27, 12) under State B on Turn 86133 facing Up. Pressed Up to attempt to step onto (27, 11).
+- **Result**: Direct collision bump against (27, 11) on Turn 86134. Visited 0 tiles.
+- **Conclusion**: The Northeast staircase at (27, 11) is 100% solid, closed, and impassable under State B, even when approached from the proper southern direction.
+- **Systematic Search Progress**: Stood on (26, 11) on Turn 86135, and walked Left to (23, 11) on Turn 86136. No transitions were triggered on (26, 11), (25, 11), (24, 11), or (23, 11), proving these are standard floor tiles and not warps.
 
 <hr>
 
