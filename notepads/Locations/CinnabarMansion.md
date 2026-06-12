@@ -59,7 +59,7 @@
     - Column 12 Row 15: BUMPED (Turn 84737)
     - Column 13 Row 15: BUMPED (Turn 84742)
     - Column 14 (Railing): BUMPED on all Rows 16 to 25 under State A, proving Column 14 is a continuous, solid, impassable wall that completely separates Column 13 from the open atrium on Columns 15-17.
-  - Thus, there is NO active balcony drop under State A on 2F East South. B1F cannot be accessed via any 2F balcony drops. We must utilize the State B 3F West balcony drop strategy.
+  - Thus, there is NO active balcony drop under State A on 2F East South. B1F cannot be accessed via any 2F balcony drops. We must utilize the State B 1F East Northeast staircase route to reach 3F East, and drop down the pit to B1F.
 - **Row 10 Crossover**: (9, 10) consists of standard open floor (TYPE_3fe2) and is completely OPEN and passable under State A (Verified Turn 78826).
 - **Physical Blockages & Routing Constraints (Empirically Verified)**:
   - **Column 15 Partition Wall**: Column 15 is a solid vertical wall of TYPE_2889 on Rows 1-5 (Verified Turn 76704 by bumping into (15, 2) from (14, 2)). Column 15 is completely OPEN and passable on Row 6 (Verified Turn 76718 by successfully stepping onto (15, 6) from (14, 6)) and visually open on Row 7.
