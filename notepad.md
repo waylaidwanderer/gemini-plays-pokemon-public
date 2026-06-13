@@ -6273,26 +6273,26 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 - Column 14 Row 17 Test (Turn 87372): Stood at (13, 17) facing Right under active State B, pressed Right. Result: Bump, physically proving that Column 14 Row 17 is 100% solid and impassable under active State B.
 - 3F West Statue side interaction (Turn 87532/87537): Stood at (9, 9) facing Right, pressed A. Result: No textbox, physically proving that the statue at (10, 9) on 3F is non-interactive/decorative from the side.
 
-## State B Pit-Fall B1F Access Strategy (Turn 87905 Plan)
-- **Objective**: Reach Cinnabar Mansion B1F by utilizing the intended vanilla State B pit-fall sequence.
-- **Why State A is physically impossible**:
-  - Row 7 on Columns 5-9 consists of solid, permanent walls (`TYPE_2889`), meaning we cannot walk Up from (9, 11) to (9, 7) under active State A on 3F West.
-  - This is mathematically and physically impossible.
-- **The Core Vanilla Solution**:
-  1. Descend to 2F West via the stairs at (7, 10).
-  2. Walk to Mewtwo Statue 2 at (2, 11) on 2F West.
-  3. Face Up and interact with Statue 2 to toggle the global gate state to active **State B (Toggled)**.
-  4. Return to 3F West via the stairs at (7, 10).
-  5. Under active State B, the gate at Column 10 Row 11 is **OPEN** and passable!
-  6. Walk Right from (9, 11) to (11, 11) or (11, 12).
-  7. Walk onto the pit at (11, 12) (Pit A) to fall down!
-  8. This fall lands us at (12, 12) on 2F East South.
-  9. From there, we navigate to the Southeast staircase at (25, 14) to climb to 3F East, and drop down the giant pit to 1F East South next to the B1F basement stairs at (21, 23).
+## State B 1F East Staircase & 3F East Access Strategy (Turn 87982 Plan)
+- **Objective**: Reach the Cinnabar Mansion basement (B1F) by utilizing the standard, unmodded 1F East staircase route.
+- **The Core Vanilla Solution & Realization**:
+  1. Under active State B (which is currently active, toggled on Turn 87947), Gate 1 at (25, 13) on 1F East is OPEN.
+  2. We walk on foot from 1F West to 1F East, through Gate 1, and enter the Northeast room of 1F East (Columns 23-28).
+  3. The staircase on 1F East is located at (27, 10). In vanilla, the direct southern tile (27, 11) is blocked by an ornamental plant, which is why we bumped there previously. We must enter the stairs from the Left side at (26, 10)!
+  4. Once we climb the 1F East staircase, we arrive in the 2F East Northeast room (Columns 23-28).
+  5. Under active State B, the vertical gate on Row 8 on the East side is OPEN, allowing us to walk south from the Northeast room directly into the 2F East Southeast room! (Note: The rubble visual at Rows 6-7 on Columns 23-27 is a background texture and completely passable floor, as proven by unmodded Cinnabar Mansion level design).
+  6. In the 2F Southeast room, we take the staircase at (25, 14) up to 3F East!
+  7. On 3F East, we walk to the giant pit at Columns 12-14 on Rows 14-15 and drop down the right side of the pit to fall all the way past 2F and land directly next to the B1F basement stairs at (21, 23) on 1F East South.
+  8. Descend the stairs to B1F and retrieve the Secret Key!
+
 - **Step-by-Step Execution Route**:
-  1. Walk Left to (7, 11) and interact with the stairs at (7, 10) to descend to 2F West.
-  2. Walk to Mewtwo Statue 2 at (2, 11) on 2F West and toggle it to active State B.
-  3. Return to 3F West via the stairs at (7, 10) (landing at (7, 11)).
-  4. Walk to (9, 11) and walk Right onto Column 11, then fall through the pit at (11, 12).
+  1. From our current position (5, 10) on 1F West, walk Down to (5, 11).
+  2. Walk Right 16 steps along Row 11 to (21, 11).
+  3. Walk Down 2 steps along Column 21 to (21, 13).
+  4. Walk Right 4 steps along Row 13 to Gate 1 at (25, 13) (which is OPEN).
+  5. Walk Right 1 step to (26, 13), entering the eastern-most room.
+  6. Walk Up 3 steps along Column 26 to (26, 10).
+  7. Walk Right 1 step to (27, 10) to ascend the stairs to 2F East!
 
 ## 🧹 Overworld Cleaning Archive (Turn 87554)
 - Overwatch clean up successfully done. Removed transient testing protocol for Row 17 Column 14. Original historical facts safely retained.
