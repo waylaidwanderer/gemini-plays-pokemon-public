@@ -6277,14 +6277,18 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 
 ## State B Crossover Corridor (9, 12) and (10, 12) Passability Testing Protocol
 - **Objective**: Determine if Column 9 Row 12 (9, 12) is completely passable under State B when the Scientist NPC is not blocking it.
-- **Methodology**:
-  1. Toggle Statue 2 on 2F West to State B.
-  2. Return to 3F West via the stairs at (7, 10).
-  3. Stun the Scientist NPC (SPRITE_cdfc) at (4, 11) to completely eliminate NPC blockage, OR ensure he is positioned far away from the Column 9 and Column 10 corridors.
-  4. Walk to (9, 11) facing Down.
-  5. Press Down to attempt to step onto (9, 12) under State B, recording the exact turn and before/after coordinates to verify passability.
-  6. If (9, 12) is passable, press Right to step onto (10, 12) (the State B gate tile) and verify if it is completely open and passable.
-  7. If passable, continue Right onto Column 11 and Column 12 to 3F East, proceed to the far-right pit at (11, 12) or the bottom-right balcony, and drop to B1F.
+- **Methodology & Outcome (Turn 86575-86582)**:
+  - Toggled Statue 2 on 2F West to State B on Turn 86561.
+  - Returned to 3F West via the stairs at (7, 10) on Turn 86564.
+  - Attempted to cross Row 12 under State B: from (9, 11) pressed Down, Right, Right, Down, Right, Right, Right, Down, Down.
+  - **Results**: Stepping onto Column 11 Row 12 (11, 12) on 3F immediately triggered a fall through Pit A (The Secret Fall), landing us on 2F (Map 0_214) at (12, 12).
+  - **Conclusion**: Row 12 on 3F under State B is passable on Columns 9 and 10, but Column 11 Row 12 (11, 12) is Pit A. This fall is fully passable, dropping us directly to the isolated 2F East South room at (12, 12). We are now positioned at 2F (12, 12).
+- **Systematic Exploration Plan (2F East South Landing)**:
+  - Since we landed at (12, 12) on 2F East South under State B, we must investigate this isolated pocket.
+  - Socratic Question: Does this pocket contain the stairs going down to 1F East Southeast?
+  - Socratic Question 2: In unmodded Gen 1, the stairs down from this isolated 2F room are located at (25, 14) on 2F East. Can we navigate to the Southeast room on 2F from this landing pocket (X=12, Y=12)?
+  - Let's analyze Column 13 to Column 21 passability on foot under State B. If Column 22 blocks rows 8-15, we must determine if there is a vertical passage.
+  - Let's proceed carefully, mapping every tile in 2F East South on foot in 1-tile chunks.
 
 <hr>
 
