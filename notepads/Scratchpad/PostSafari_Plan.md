@@ -104,18 +104,19 @@
   - Turn 86910: Stood at (24, 10) facing Up, pressed Up against (24, 9). Result: BUMP.
 - **Conclusion**: The Northeast staircase at (24, 8)-(25, 9) is 100% solid, closed, and impassable from all directions under active State B as well as State A.
 
-## Active State B 2F East North Crossover Strategy (Started Turn 87081)
-- **Concept**: Since 3F West-East crossover is completely solid and blocked on foot under both states, and the 1F East Northeast staircase is completely blocked under both states, we must explore a new crossover method on 2F East under active State B.
-- **Detailed Step-by-Step Execution Plan**:
-  1. From our current position (7, 10) on 2F West under State B, walk Right horizontally along Row 10: (7, 10) -> (8, 10) -> (9, 10) -> (10, 10).
-  2. Walk vertically Up along Column 10: (10, 10) -> (10, 9) -> (10, 8) -> (10, 7) -> (10, 6) -> (10, 5) -> (10, 4) -> (10, 3).
-  3. Row 3 Column 22 is open under State B. Walk Right to (23, 3) to enter the Northeast room of 2F East.
-  4. Under active State B, there is a vertical gate on Row 8 (specifically Column 24) on the East side that should be OPEN. Walk south through this gate to enter the isolated Southeast room of 2F East.
-  5. In the Southeast room of 2F East, walk to the stairs at (25, 14) and climb UP to 3F East.
-  6. On 3F East, navigate to the rightmost balcony pit and fall down. This drops us past 2F and lands us on 1F next to the B1F basement stairs!
-  7. Enter B1F to map the basement floor and find the Secret Key.
+## Active State A 2F Southeast Room Balcony Strategy (Started Turn 87402)
+- **Concept**: Our previous State B Balcony Crossover and State B 1F Northeast Staircase strategies are completely disproven. We discovered that the 2F East South balcony (Column 14) is CLOSED under State B but OPEN under State A!
+- **Step-by-Step Execution Plan**:
+  1. From our current position (10, 18) on 2F West under State B, walk to Statue 2 at (2, 11) on 2F West.
+  2. Toggle Statue 2 to active State A (Default).
+  3. Under active State A, Gate 3 at (18, 8)-(19, 8) on 2F East is OPEN. Walk through Gate 3 onto 2F East South.
+  4. Walk South to the 2F East South southern balcony (Row 16).
+  5. Under active State A, the balcony gate at Column 14 Row 16 is OPEN. Walk East through Column 14 into the isolated 2F Southeast room (Columns 23-28)!
+  6. In the Southeast room of 2F East, walk to the stairs at (25, 14) and climb UP to 3F East.
+  7. On 3F East, walk to the rightmost balcony pit and fall down to B1F.
+  8. Enter B1F to find the Secret Key.
 
-- Active Exploration Phase Start: Turn 86550. Currently on Turn 87361.
+- Active Exploration Phase Start: Turn 86550. Currently on Turn 87402.
 - Column 14 Row 16 Test (Turn 87351): Stood at (13, 16) facing Right under active State B, pressed Right. Result: Bump, physically proving that Column 14 Row 16 is 100% solid and impassable under active State B.
 - Gate 26 Test (Turn 87357): Stood at (13, 25) facing Down under active State B, pressed Down. Result: Bump, physically proving that Gate 26 at (13, 26) is CLOSED and impassable under active State B.
 
