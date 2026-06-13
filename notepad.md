@@ -6284,7 +6284,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Turn 86910: Stood at (24, 10) facing Up under active State B, pressed Up against (24, 9). Result: BUMP.
   - Conclusion: The 1F East Northeast staircase at (24, 8)-(25, 9) is completely solid and blocked under active State B as well as active State A. It is completely impassable.
 
-- Active Phase Start: Turn 86550. Currently on Turn 87029.
+- Active Phase Start: Turn 86550. Currently on Turn 87043.
 
 <hr>
 
