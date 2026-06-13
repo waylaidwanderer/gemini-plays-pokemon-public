@@ -60,6 +60,26 @@
     - Column 13 Row 15: BUMPED (Turn 84742)
     - Column 14 (Railing): BUMPED on all Rows 16 to 25 under State A, proving Column 14 is a continuous, solid, impassable wall that completely separates Column 13 from the open atrium on Columns 15-17.
   - Thus, there is NO active balcony drop under State A on 2F East South. B1F cannot be accessed via any 2F balcony drops. We must utilize the State B 1F East Northeast staircase route to reach 3F East, and drop down the pit to B1F.
+
+- **State B (Statue 2 Toggled) 2F East South Balcony Railings Campaign**:
+  - We systematically and physically tested the 2F East South balcony boundaries on foot under active State B to search for hidden drops:
+    - Column 14 (Atrium Railing): Tested on all Rows 16 to 25. All resulted in physical collisions (bumps), proving Column 14 is completely solid/impassable on all these rows under active State B:
+      - Row 16: Bumped (Turn 87351)
+      - Row 17: Bumped (Turn 87372)
+      - Row 18: Bumped (Turn 89293)
+      - Row 19: Bumped (Turn 89299)
+      - Row 20: Bumped (Turn 89306)
+      - Row 21: Bumped (Turn 89315)
+      - Row 22: Bumped (Turn 89321)
+      - Row 23: Bumped (Turn 89324)
+      - Row 24: Bumped (Turn 89330)
+      - Row 25: Bumped (Turn 89333)
+    - Column 11 (Western Railing): Tested on Rows 16-26. All tested rows resulted in physical collisions (bumps), proving Column 11 is solid/impassable on these rows under active State B:
+      - Row 20: Bumped (Turn 89376)
+      - Row 21: Bumped (Turn 89365)
+      - Row 23: Bumped (Turn 89357)
+      - Row 24: Bumped (Turn 89350)
+      - Row 25: Bumped (Turn 89345)
 - **Row 10 Crossover**: (9, 10) consists of standard open floor (TYPE_3fe2) and is completely OPEN and passable under State A (Verified Turn 78826).
 - **Physical Blockages & Routing Constraints (Empirically Verified)**:
   - **Column 15 Partition Wall**: Column 15 is a solid vertical wall of TYPE_2889 on Rows 1-5 (Verified Turn 76704 by bumping into (15, 2) from (14, 2)). Column 15 is completely OPEN and passable on Row 6 (Verified Turn 76718 by successfully stepping onto (15, 6) from (14, 6)) and visually open on Row 7.
