@@ -122,4 +122,15 @@
   - We have never pressed 'A' facing the Mewtwo Statue at (10, 9) under State A (we only bumped into it on Turn 85112).
   - We will walk to (9, 9) facing Right under State A, and press 'A' to test if the statue's switch is interactive under State A!
 - **Definitive 3F West Balcony Drop Disproof (State B)**: All five columns (1 to 5) on Row 16 under State B are 100% solid, impassable railings. There is absolutely no active balcony drop-off on 3F West under either State A or State B. This satisfies the overwatch critique and completes the Socratic Burden of Proof.
-- Active Phase Start: Turn 86331. Currently on Turn 86443. We must re-evaluate how to access B1F or crossover.
+- Active Phase Start: Turn 86331. Currently on Turn 86550. We must re-evaluate how to access B1F or crossover.
+
+## State B Crossover Corridor (9, 12) and (10, 12) Passability Testing Protocol
+- **Objective**: Determine if Column 9 Row 12 (9, 12) is completely passable under State B when the Scientist NPC is not blocking it.
+- **Methodology**:
+  1. Toggle Statue 2 on 2F West to State B.
+  2. Return to 3F West via the stairs at (7, 10).
+  3. Stun the Scientist NPC (SPRITE_cdfc) at (4, 11) to completely eliminate NPC blockage, OR ensure he is positioned far away from the Column 9 and Column 10 corridors.
+  4. Walk to (9, 11) facing Down.
+  5. Press Down to attempt to step onto (9, 12) under State B, recording the exact turn and before/after coordinates to verify passability.
+  6. If (9, 12) is passable, press Right to step onto (10, 12) (the State B gate tile) and verify if it is completely open and passable.
+  7. If passable, continue Right onto Column 11 and Column 12 to 3F East, proceed to the far-right pit at (11, 12) or the bottom-right balcony, and drop to B1F.
