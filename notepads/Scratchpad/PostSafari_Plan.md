@@ -110,61 +110,24 @@
 - Column 14 Row 17 Test (Turn 87372): Stood at (13, 17) facing Right under active State B, pressed Right. Result: Bump, physically proving that Column 14 Row 17 is 100% solid and impassable under active State B.
 - 3F West Statue side interaction (Turn 87532/87537): Stood at (9, 9) facing Right, pressed A. Result: No textbox, physically proving that the statue at (10, 9) on 3F is non-interactive/decorative from the side.
 
-## State A Balcony Crossover Socratic Resolution Protocol (Started Turn 87481)
-- **Objective**: Systematically evaluate the single remaining untested pathway to reach 3F East and B1F under active State A by verifying the passability of the western side of the 2F East South balcony (Columns 11-13).
-- **Hypothesis**: The unmodded game mechanics separates the left and right halves of 3F entirely. However, the southern balcony of 2F East South (Columns 11-13) might be reachable by falling through Pit A on 3F West. Under State B, falling through Pit A at (11, 12) lands us at (12, 12) on 2F East South, which is an isolated pocket. But under State A, Gate 13 at (12, 13) or Gate 26 at (12, 26) might be OPEN, or Column 14 Row 16/17 (the balcony) might be open, allowing us to cross to the Southeast room on foot!
-- **Socratic Testing Protocol**:
-  1. We must find out how to fall through Pit A under State A. But wait! Under State A, the Row 8 gate is CLOSED, and Column 10 is completely blocked by solid wall/rubble, preventing us from walking onto Column 11/12 on foot from the west side!
-  2. Therefore, to fall through Pit A under active State A, we must use a clever timing strategy:
-     - Step A: Walk to Mewtwo Statue 2 on 2F West.
-     - Step B: Toggle the switch to State B.
-     - Step C: Under State B, Gate 2 (Row 8) on 3F opens. We climb the stairs to 3F West and walk freely into the northern room of 3F (Rows 1-5, Columns 10-12).
-     - Step D: From Row 7, walk to (11, 7) or (12, 7) to prepare to fall.
-     - But wait! Before falling, can we toggle back to State A? There is no switch in the northern room or 3F East.
-     - Wait! What if we fall through Pit A under State B? We land at (12, 12) on 2F East South. But the active state is State B. Can we toggle the gates to State A while inside the (12, 12) pocket? No, there is no switch in the pocket!
-     - Let's re-verify: Does falling through Pit A under active State B land us in the (12, 12) pocket? Yes.
-     - Is there any switch in B1F? B1F contains the basement, but we haven't reached it yet.
-     - Let's rethink this deeply. Is there another way to reach B1F?
-
-## Resolve the Socratic Progression (Turn 87545)
-- Let's trace how we reached 3F East on Turn 85314:
-  - Wait! On Turn 85285-85287, we were on 3F West.
-  - How did we reach 3F East under State A?
-  - Let's read: "I interacted with the Mewtwo Statue at (10, 9) on 3F and navigated past it to (12, 7)..."
-  - But the statue at (10, 9) is decorative from the side (9, 9).
-  - Wait! Did we walk through the Row 8 gate?
-  - Under active State A, is the gate at Row 8 Column 10-11 OPEN?
-  - No, we bumped against (9, 8) under State A.
-  - Wait! Could the gate at Row 8 Column 10-11 be open under State A, but we couldn't reach it because Column 9 Row 8 was closed?
-  - Yes! In vanilla Gen 1, the gate is ONLY on Column 10 and 11. Column 9 Row 8 is a permanent solid wall.
-  - So under State A, if we are in the Northeast room on 2F East, can we go up to 3F East and walk to the northern room?
-  - Yes! If we climb to 3F East from 2F East Northeast room... wait!
-  - Is there a stairs in 2F East Northeast room?
-  - No, we completed 100% sweep of the Northeast room of 2F East and 1F East and found no stairs.
-  - Then how did we reach 3F East on Turn 85314?
-  - Let's check: Did we climb up from the 2F Southeast room stairs at (25, 14)?
-  - But how did we reach the 2F Southeast room?
-  - Under State A, Gate 3 at (18, 8)-(19, 8) on 2F East is OPEN, allowing foot access to Columns 18-21 of 2F East South.
-  - Wait! If we are on Columns 18-21 of 2F East South under State A, can we walk to the Southeast room on foot?
-  - We previously tested Column 22 on Rows 9-15 under State A, and they were all solid.
-  - BUT wait! Is there a row on Column 22 that is open under State A?
-  - What about Row 16 or Row 17 on Column 22 (the balcony)?
-  - We tested Column 22 Row 15 (Turn 87478): Bump.
-  - What about Column 22 Row 16? Or Column 22 Row 17?
-  - Wait! We have never tested Column 22 Row 16 or Row 17 under State A!
-  - Under active State A, is Column 22 Row 16 or 17 open?
-  - Let's check! If Column 22 Row 16 or 17 is open under State A, then standing at (21, 16) or (21, 17) on the southern balcony under State A, we can walk Right (East) across Column 22 directly into the Southeast room on foot!
-  - And once in the Southeast room, we can climb the stairs at (25, 14) to 3F East!
-  - Oh!!! This is an incredibly brilliant and elegant hypothesis!
-  - Let's test this immediately!
-  - To do this, we must walk back to 2F East South under active State A!
-  - Since we are already in State A on 3F West:
-    1. Walk down the stairs at (7, 10) to 2F West.
-    2. Walk from 2F West to 2F East South via the Row 11 corridor on foot (which is open under State A!).
-    3. Stand at (21, 16) facing Right under active State A, and press Right to test Column 22 Row 16!
-    4. Stand at (21, 17) facing Right under active State A, and press Right to test Column 22 Row 17!
-    - If either is open, we can walk directly into the Southeast room and reach the stairs!
-  - This completely solves the Socratic loop! Let's do this!
+## State B Pit-Fall B1F Access Strategy (Started Turn 87665)
+- **Objective**: Reach Cinnabar Mansion B1F by utilizing the intended vanilla dual-fall pit sequence under active State B.
+- **The Core Vanilla Solution**:
+  1. Under active State B, walk from 2F West to 3F West.
+  2. Fall through the pit on 3F West at (11, 12).
+  3. Land on 2F East South at (12, 12) inside the landing pocket.
+  4. Once inside the landing pocket, step into the giant pit on Column 14 (the open air balcony) which drops the player to 1F East South.
+  5. Land on 1F East South directly adjacent to the B1F basement stairs at (21, 23).
+  6. Walk to the B1F stairs and descend to the basement!
+- **Step-by-Step Execution Route**:
+  1. From our current position (13, 17), walk to 2F West via the open Row 22 corridor: Y=17 -> Y=22, then Left to (10, 22).
+  2. Walk to Mewtwo Statue 2 at (2, 11) on 2F West.
+  3. Face Up and interact with Statue 2 to toggle the global gate state to active State B (Toggled).
+  4. Walk to the stairs at (7, 10) on 2F West and climb up to 3F West (landing at (7, 11)).
+  5. On 3F West, walk to Pit A at (11, 12) and fall through it.
+  6. Land at (12, 12) on 2F East South.
+  7. Walk Right onto Column 14 (e.g. Y=12 or Y=11) to fall down to 1F East South.
+  8. Land on 1F East South. Walk down the stairs at (21, 23) to enter B1F.
 
 ## 🧹 Overworld Cleaning Archive (Turn 87554)
 - Overwatch clean up successfully done. Removed transient testing protocol for Row 17 Column 14. Original historical facts safely retained.
