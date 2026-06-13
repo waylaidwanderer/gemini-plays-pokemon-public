@@ -118,3 +118,14 @@
 - Active Exploration Phase Start: Turn 86550. Currently on Turn 87314.
 - 2F East Crossover Disproof: On Turn 87157, we backtracked to the 2F East Northeast room at (28, 7) facing Down and attempted to walk Down into (28, 8) under active State B. This resulted in a solid physical collision, empirically and definitively proving that Row 8 Column 28 is completely solid under State B, thereby permanently disproving the 2F East State B crossover route.
 - 3F Gate 2 Strategy: Since the 2F East crossover and 1F East Northeast staircase are blocked under State B, and 3F West-East is blocked under State B, we must toggle the mansion back to State A (default). On Turn 87214, we stood at (2, 12) facing Up and toggled Statue 2 back to State A (Default). Gate 2 on 3F is now open. We are currently navigating on 2F West to climb back up to 3F West. Wait! Socratic challenge re-evaluation: Socratic Question 2 proves that under active State B, Gate 2 on Column 11 Row 12 is OPEN! The reason we collided previously was due to trying to cross at blocked columns. The true path under State B is: walk to 2F West, toggle Mewtwo Statue 2 to State B, ascend back to 3F, walk to (9, 12) -> (10, 12) -> (11, 12) to cross into 3F East, navigate to the eastern balcony, and drop down the rightmost pit to B1F!
+
+## State B Column 22 Row 16/17 Passability Testing Protocol (Started Turn 87342)
+- **Objective**: Empirically verify if Column 22 on Row 16 or Row 17 is open and passable under State B, allowing horizontal transition from Column 12 to Column 25.
+- **Methodology**:
+  1. We are currently standing at (10, 19) facing Down on 2F.
+  2. Walk Down to Row 22: (10, 19) -> (10, 20) -> (10, 21) -> (10, 22).
+  3. Walk Right across the open Column 11 Row 22 crossover (TYPE_3fe2) to Column 12: (10, 22) -> (11, 22) -> (12, 22).
+  4. Walk Up Column 12 to Row 16: (12, 22) -> (12, 21) -> (12, 20) -> (12, 19) -> (12, 18) -> (12, 17) -> (12, 16).
+  5. From (12, 16), walk Right horizontally towards Column 25, checking for physical collisions on each tile. Specifically test if Column 22 Row 16 (22, 16) is passable or solid under State B.
+  6. If Row 16 is blocked, walk Down to Row 17 at (12, 17) and walk Right horizontally towards Column 25, specifically testing Column 22 Row 17 (22, 17) under State B.
+  7. Log the exact turn numbers, coordinates, and physical collision outcomes (pass vs. bump) for both tests.
