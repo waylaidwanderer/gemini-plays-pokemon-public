@@ -6673,6 +6673,11 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - **Result**: Direct collision bump (0 tiles visited), remaining at (24, 3).
   - **Definitive Conclusion**: (24, 4) is indeed a real, solid collision block of TYPE_2889, NOT a background texture. This definitively disproves the State B Northeast-Southeast walkthrough hypothesis. The Northeast room is a complete dead-end under State B.
 
+- **Turn 88103 Column 22 State A Passability Test & Breakthrough**:
+  - **Hypothesis**: The gate on Column 22 on 2F East is OPEN under active State A (Default) and closed under State B (Toggled) on Row 12, contrary to our Turn 81365 false-positive bump (which was likely caused by an NPC or incorrect state).
+  - **Visual Verification (Turn 88103)**: Visually analyzed `<CurrentScreen turn="88103">` and confirmed that (22, 12) is completely open, pink-patterned floor labeled TYPE_3fe2 with zero rubble, while (22, 9), (22, 10), and (22, 11) are blocked by solid rubble (TYPE_2889).
+  - **Methodology**: Walk Down 2 steps to (21, 12), face Right, and walk Right onto (22, 12).
+
 <hr>
 
 <h1><code>Scratchpad/Mansion_Gate_Matrix</code></h1>
