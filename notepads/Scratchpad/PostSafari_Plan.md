@@ -122,7 +122,7 @@
 - 3F West Statue side interaction (Turn 87532/87537): Stood at (9, 9) facing Right, pressed A. Result: No textbox, physically proving that the statue at (10, 9) on 3F is non-interactive/decorative from the side.
 
 ## State B 2F East South Gate 13 Pit Drop Route (Turn 88242 Plan)
-- Active Exploration Phase: Turn 88290.
+- Active Exploration Phase: Turn 88323.
 - **Objective**: Reach Cinnabar Mansion B1F by utilizing the intended vanilla State B route via the 2F East South Pit.
 - **The Turn 79849 False-Positive Analysis**:
   - Our previous log states: "Gate 13 (12, 13) is closed under both State A and State B (Verified CLOSED on Turn 79849 under State B)."
