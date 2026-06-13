@@ -34,13 +34,17 @@
      - Row 23 Column 14: Completed Turn 89324. Bumped (solid).
      - Row 24 Column 14: Completed Turn 89330. Bumped (solid).
      - Row 25 Column 14: Completed Turn 89333. Bumped (solid).
-  2. **Column 11 Western Railing (Rows 16-21)**:
+  2. **Column 11 Western Railing (Rows 16-26)**:
      - Row 16 Column 11: [ ] Pending test.
      - Row 17 Column 11: [ ] Pending test.
      - Row 18 Column 11: [ ] Pending test.
      - Row 19 Column 11: [ ] Pending test.
      - Row 20 Column 11: [ ] Pending test.
      - Row 21 Column 11: [ ] Pending test.
+     - Row 23 Column 11: [ ] Pending test.
+     - Row 24 Column 11: Completed Turn 89350. Bumped (solid).
+     - Row 25 Column 11: Completed Turn 89345. Bumped (solid).
+     - Row 26 Column 11: [ ] Pending test.
   3. **Row 15 Northern Wall (Columns 12-13)**:
      - Row 15 Column 12: [ ] Pending test.
      - Row 15 Column 13: [ ] Pending test.
