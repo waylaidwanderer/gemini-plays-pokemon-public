@@ -6268,17 +6268,18 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Turn 86910: Stood at (24, 10) facing Up, pressed Up against (24, 9). Result: BUMP.
 - **Conclusion**: The Northeast staircase at (24, 8)-(25, 9) is 100% solid, closed, and impassable from all directions under active State B as well as State A.
 
-## Active Fallback State B Pit-Drop Route (Started Turn 86912)
-- **Concept**: Since there is no functional on-foot staircase from 1F East to 2F East, we must use the 3F West Pit Drop to reach B1F.
+## Active State A 3F Crossover & B1F Descent Route (Started Turn 86979)
+- **Concept**: To reach B1F, we must access 3F East, walk to the eastern balcony, and drop down the rightmost pit. 3F East is only accessible on foot from 3F West under State A (Default), where the gate on Column 11/12 is open.
 - **Detailed Step-by-Step Execution Plan**:
-  1. Backtrack from 1F East Northeast room to 1F West stairs at (5, 10).
-  2. Take the stairs to 2F West. We are currently in State B.
-  3. Walk to the stairs at (7, 10) on 2F West and take them to 3F West.
-  4. On 3F West, walk to Row 12 Column 11.
-  5. Under State B, Row 12 Column 11 (11, 12) is NOT a pit! It is a safe passable tile (Gate 2 is open) that allows walking straight East to the eastern balcony (3F East).
-  6. On 3F East, walk to the eastern balcony and drop down the rightmost pit to land in B1F and retrieve the Secret Key.
+  1. From our current position (9, 11) on 3F West under State B, walk to the stairs at (7, 10).
+  2. Take the stairs down to 2F West.
+  3. Walk to Mewtwo Statue 2 at (2, 11) on 2F West.
+  4. Interact with Statue 2 to toggle the mansion gates back to State A (Default).
+  5. Climb the stairs at (7, 10) back up to 3F West.
+  6. On 3F West under State A, walk to the northern passage on Row 7: (7, 11) -> (7, 10) -> (7, 9) -> (7, 8) -> (7, 7) (Wait, (7, 7) is solid? Let's check: (10, 7) and (11, 7) are open. We can walk along Row 7 past Column 10 to Column 12 to enter 3F East).
+  7. On 3F East, navigate to the rightmost balcony pit and fall down directly into B1F!
 
-- Active Phase Start: Turn 86550. Currently on Turn 86948.
+- Active Phase Start: Turn 86550. Currently on Turn 86979.
 
 <hr>
 
