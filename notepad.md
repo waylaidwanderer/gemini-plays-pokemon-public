@@ -6256,7 +6256,19 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Turn 87478: Stood at (21, 15) facing Right under active State A, pressed Right. Result: BUMP against (22, 15).
 - **Conclusion**: The balcony is 100% solid and blocked on both ends under active State A. The Column 14 balcony crossover is completely solid and blocked.
 
-- Active Exploration Phase Start: Turn 86550. Currently on Turn 87813.
+## State B Northeast Room Dead-End Audit (Completed Turn 87817)
+- **Concept**: Test whether the Northeast room of 2F East (Columns 23-28, Rows 2-7) provides foot access to the isolated 2F Southeast room via a gate on Row 8 Column 24 under State B.
+- **Physical Test & Audit**:
+  - We navigated to (23, 3) inside the Northeast room on Turn 87807.
+  - Visual analysis of `<CurrentScreen>` on Turn 87817 reveals that Rows 6 and 7 across Columns 23 to 27 are completely filled with solid rubble tiles (`TYPE_2889`).
+  - (23, 6), (24, 6), (25, 6), (26, 6), (27, 6) are 100% solid.
+  - (23, 7), (24, 7), (25, 7), (26, 7), (27, 7) are 100% solid.
+  - Therefore, we physically cannot stand on Row 7 on Columns 23-27 to test any coordinates on Row 8 on foot.
+  - The only open, walkable path on Row 7 is Column 28, where (28, 7) is a standard open floor tile (`TYPE_3fe2`).
+  - However, Column 28 Row 8 has already been proven solid under State B on Turn 83391 (resulting in a direct collision bump).
+  - **Conclusion**: The Northeast room of 2F East is a 100% confirmed dead-end under State B on foot with absolutely zero access to the isolated 2F Southeast room. This hypothesis is conclusively disproven.
+
+- Active Exploration Phase Start: Turn 86550. Currently on Turn 87817.
 - Column 14 Row 16 Test (Turn 87351): Stood at (13, 16) facing Right under active State B, pressed Right. Result: Bump, physically proving that Column 14 Row 16 is 100% solid and impassable under active State B.
 - Column 14 Row 17 Test (Turn 87372): Stood at (13, 17) facing Right under active State B, pressed Right. Result: Bump, physically proving that Column 14 Row 17 is 100% solid and impassable under active State B.
 - 3F West Statue side interaction (Turn 87532/87537): Stood at (9, 9) facing Right, pressed A. Result: No textbox, physically proving that the statue at (10, 9) on 3F is non-interactive/decorative from the side.
