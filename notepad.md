@@ -6684,6 +6684,10 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
     - Row 14: Stood at (21, 14) and pressed Right on Turn 88212. Result: **Bump** (0 tiles visited).
     - Row 15: Stood at (21, 15) and pressed Right on Turn 88214. Result: **Bump** (0 tiles visited).
   - **Definitive Conclusion**: Column 22 is 100% solid, closed, and blocked on Rows 11 to 15 under active State A on foot. This officially proves that the isolated Southeast room on 2F East is completely inaccessible on foot under active State A. Column 22 is impassable under both State A and State B.
+- **Turn 88285 Physical Passability Test (State B)**:
+  - We stood at (12, 12) facing Down under active State B and pressed Down against (12, 13) (Gate 13, labeled TYPE_2889).
+  - **Result**: Direct collision bump (0 tiles visited), remaining at (12, 12).
+  - **Conclusion**: Gate 13 at (12, 13) is 100% CLOSED and impassable under active State B. Along with Turn 78855 (CLOSED under State A), this proves Gate 13 is closed under both states on foot.
 
 <hr>
 
