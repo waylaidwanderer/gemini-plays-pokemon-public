@@ -6670,12 +6670,15 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - **Result**: Direct collision bump (0 tiles visited), remaining at (24, 3).
   - **Definitive Conclusion**: (24, 4) is indeed a real, solid collision block of TYPE_2889, NOT a background texture. This definitively disproves the State B Northeast-Southeast walkthrough hypothesis. The Northeast room is a complete dead-end under State B.
 
-- **Turn 88109 Column 22 State A Passability Test**:
-  - **Hypothesis**: Test if Column 22 Row 12 is open under active State A.
-  - **Methodology & Execution**: Stood at (21, 10) on Turn 88109 facing Down, and pressed Down, Down, Right, Right, Right, Right, Down, Down.
-  - **Result**: We ended up at (21, 14) instead of the staircase!
-  - **Detour Analysis**: The Down, Down inputs successfully moved us to (21, 12). However, the subsequent Right inputs resulted in consecutive bumps against Column 22 Row 12, remaining at (21, 12) facing Right. The final Down, Down inputs then walked us Down along Column 21 to (21, 13) and (21, 14).
-  - **Definitive Conclusion**: Column 22 Row 12 is 100% CLOSED, solid, and impassable under active State A. This physically disproves our visual-only "breakthrough" hypothesis from Turn 88103, proving that the pink-patterned background tile at (22, 12) is a solid obstacle and impassable. The isolated Southeast room on 2F East is completely inaccessible on foot under active State A.
+- **Turn 88207-88214 Column 22 State A Passability Audit**:
+  - **Hypothesis**: Test if Column 22 is open on any Row from 11 to 15 under active State A on foot.
+  - **Methodology & Execution**: Standing at Column 21 under active State A on foot, we systematically attempted to step Right onto Column 22 on all key rows:
+    - Row 11: Stood at (21, 11) and pressed Right on Turn 88207. Result: **Bump** (0 tiles visited).
+    - Row 12: Stood at (21, 12) and pressed Right on Turn 88109. Result: **Bump** (0 tiles visited).
+    - Row 13: Stood at (21, 13) and pressed Right on Turn 88210. Result: **Bump** (0 tiles visited).
+    - Row 14: Stood at (21, 14) and pressed Right on Turn 88212. Result: **Bump** (0 tiles visited).
+    - Row 15: Stood at (21, 15) and pressed Right on Turn 88214. Result: **Bump** (0 tiles visited).
+  - **Definitive Conclusion**: Column 22 is 100% solid, closed, and blocked on Rows 11 to 15 under active State A on foot. This officially proves that the isolated Southeast room on 2F East is completely inaccessible on foot under active State A. Column 22 is impassable under both State A and State B.
 
 <hr>
 
