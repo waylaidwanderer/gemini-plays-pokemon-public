@@ -115,7 +115,7 @@
   - **Result**: Direct collision bump (0 tiles visited), remaining at (24, 3).
   - **Definitive Conclusion**: (24, 4) is indeed a real, solid collision block of TYPE_2889, NOT a background texture. This definitively disproves the State B Northeast-Southeast walkthrough hypothesis. The Northeast room is a complete dead-end under State B.
 
-## State B 3F West Southern Balcony Columns 11-14 Drop Campaign (Started Turn 88831)
+## State B 3F West Southern Balcony Columns 11-14 Drop Campaign (Active Turn 88842)
 - **Concept & Hypothesis**: In standard Pokémon Red/Blue, the unblocked balcony drop that lands you next to the B1F basement stairs is executed by walking off the eastern edge of the southern balcony of 3F West, which is located on Columns 11-14, facing the central atrium (Columns 14-21). Our previous tests on Column 5 were too far west (middle of the room), so we were bumping into solid walls. Under active State B, we will walk along Rows 14, 15, or 16 on Columns 11-14 on 3F West to locate the true open drop-off tile!
 - **Step-by-Step Path**:
   1. Backtrack from our current position (20, 7) to 2F West.
