@@ -128,4 +128,4 @@
   6. On 3F East, navigate to the rightmost balcony pit and fall down. This drops us past 2F and lands us on 1F next to the B1F basement stairs!
   7. Enter B1F to map the basement floor and find the Secret Key.
 
-- Active Phase Start: Turn 86550. Currently on Turn 87100.
+- Active Phase Start: Turn 86550. Currently on Turn 87105.
