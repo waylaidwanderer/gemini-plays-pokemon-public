@@ -6266,16 +6266,19 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - **Result**: Direct collision bump (0 tiles visited), remaining at (24, 3).
   - **Definitive Conclusion**: (24, 4) is indeed a real, solid collision block of TYPE_2889, NOT a background texture. This definitively disproves the State B Northeast-Southeast walkthrough hypothesis. The Northeast room is a complete dead-end under State B.
 
-## State B 2F East Column 22 Row 6/7 Passability Audit & B1F Access Plan (Updated Turn 88715)
-- **Concept**: To bypass the solid rubble on Columns 24-27 in the Northeast room, we hypothesize that Column 22 is open on Row 6 or Row 7 under active State B on 2F East. If open, this allows us to walk from Column 21 directly into Column 22, and subsequently access the isolated Southeast room on foot!
-- **Physical Testing Protocol (Turn 88681)**:
-  1. We are currently standing at (15, 7) under active State B (Statue 2 Toggled).
-  2. Walk Right 6 steps to (21, 7).
-  3. Turn Right to face (22, 7) and attempt to walk Right. Document the result.
-  4. Walk Up 1 step to (21, 6).
-  5. Turn Right to face (22, 6) and attempt to walk Right. Document the result.
-  6. If one of these is open, we will walk through to enter the eastern side, walk south to the Southeast room, and take the staircase at (25, 14) up to 3F East!
-  7. On 3F East, walk to the wide eastern pit and drop down to B1F!
+## State B 3F West Balcony Edge Drop Exploration (Turn 88741 Plan)
+- **Concept**: Since Column 22 Row 8 was proven 100% solid on Turn 88730 under State B, we must now systematically test the southern balcony on 3F West. In vanilla Red/Blue, the balcony drop is executed by walking Right (East) off the eastern edge of the southern balcony of 3F West on Columns 11-14 on Row 15 or Row 16 under active State B. If open, this allows us to fall down to the isolated Southeast room of 2F East, where we can access the stairs to B1F!
+- **Step-by-Step Path**:
+  1. Walk Left to (10, 7) (4 steps Left):
+     - (14, 7) -> (13, 7) -> (12, 7) -> (11, 7) -> (10, 7)
+  2. Walk Up to (10, 5) (2 steps Up):
+     - (10, 7) -> (10, 6) -> (10, 5)
+  3. Walk Left to (7, 5) (3 steps Left):
+     - (10, 5) -> (9, 5) (open Gate 6) -> (8, 5) -> (7, 5)
+  4. Walk Down to (7, 10) (5 steps Down):
+     - (7, 5) -> (7, 6) -> (7, 7) -> (7, 8) -> (7, 9) -> (7, 10)
+  5. Stand on the stairs at (7, 10) to warp to 3F West.
+  6. On 3F West, walk to the southern balcony (Columns 11-14) and systematically test walking Right off the eastern edge of the balcony on Rows 15 and 16.
 
 <hr>
 
