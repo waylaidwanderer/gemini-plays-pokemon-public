@@ -6270,7 +6270,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   4. Once on 2F East Southeast, take the stairs up to 3F East.
   5. On 3F East, jump down the rightmost pit to reach the B1F stairs.
 
-- Active Phase Start: Turn 86550. Currently on Turn 86851.
+- Active Phase Start: Turn 86550. Currently on Turn 86886.
 
 <hr>
 
