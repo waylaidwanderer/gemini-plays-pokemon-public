@@ -6170,16 +6170,15 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Gate 26 on 2F (12, 26)-(13, 26) is CLOSED.
   - Gate 13 on 2F (12, 13)-(13, 13) is CLOSED.
 
-## State B 2F East South Balcony Railings Campaign (Active Turn 89464)
+## State B 2F East South Balcony Railings Campaign (Active Turn 89491)
 - **Objective**: Systematically and physically test the passability of the 2F East South balcony boundaries (Columns 11-14, Rows 15-26) on foot under active State B to find any potential jump-down drop or passage. This campaign is successfully completed.
 - **Conclusive Proof of Isolation**: Every single coordinate has been tested on foot and found 100% solid. No drops, gaps, or passages exist on the 2F East South balcony under State B.
-- **Roadmap to B1F**: Since both State A and State B balcony/crossover pathways on 2F and 3F are completely proven solid, B1F can ONLY be accessed by falling through the 3F West balcony pit (Pit A at (11, 12)) under active State B.
-  1. Walk to the stairs at (7, 10) on 2F West.
-  2. Take the stairs up to 3F West.
-  3. Walk to the pit at (11, 12) on 3F West and drop down.
-  4. Land at (12, 12) on 2F East South (within the isolated landing pocket).
-  5. Locate the staircase or other pathway in this landing pocket to proceed to B1F.
-- **Current Position**: Standing at (10, 26) facing Right on 2F East South under active State B.
+- **Roadmap to B1F**: Since both State A and State B balcony/crossover pathways on 2F and 3F are completely proven solid, B1F can ONLY be accessed by falling through the 3F West balcony pit under active State B.
+  1. Walk to Column 5 (balcony floor) on Row 14 or Row 15 on 3F West.
+  2. Step Right (East) off the edge into the atrium to trigger the fall.
+  3. Land at (12, 12) on 2F East South (within the isolated landing pocket).
+  4. Locate the staircase or other pathway in this landing pocket to proceed to B1F.
+- **Current Position**: Standing at (7, 11) facing Up on 3F West under active State B.
 - **Audit Schedule & Status Tracker**:
   1. **Column 14 Atrium Railing (Rows 16-25)**:
      - Row 16 Column 14: Completed Turn 87351. Bumped (solid).
