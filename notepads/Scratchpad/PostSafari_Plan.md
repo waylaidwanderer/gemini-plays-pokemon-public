@@ -121,26 +121,31 @@
 - Column 14 Row 17 Test (Turn 87372): Stood at (13, 17) facing Right under active State B, pressed Right. Result: Bump, physically proving that Column 14 Row 17 is 100% solid and impassable under active State B.
 - 3F West Statue side interaction (Turn 87532/87537): Stood at (9, 9) facing Right, pressed A. Result: No textbox, physically proving that the statue at (10, 9) on 3F is non-interactive/decorative from the side.
 
-## State A 2F East South Column 22 Row 11 Test (Turn 88206 Plan)
-- Active Exploration Phase: Turn 88241.
-- **Objective**: Navigate to Column 21 on 2F East South and systematically test Column 22 on foot under active State A to locate the open pathway into the isolated Southeast room.
-- **Hypothesis**: Under active State A (Default), Row 11 on Column 22 is the actual vanilla gate location and is OPEN, allowing direct access to the isolated 2F Southeast room containing the stairs up to 3F East (which allows falling down the right side of the pit to B1F).
-- **Testing Protocol**:
-  1. Stand at (21, 11) facing Right under active State A.
-  2. Press Right to attempt to step onto (22, 11).
-  3. Log the outcome:
-     - If we step onto (22, 11), the gate is OPEN. We can immediately walk south to the stairs at (25, 14) and climb to 3F East.
-     - If we bump, we will systematically test Row 13, Row 14, and Row 15 on Column 22 under active State A to be scientifically complete.
-- **Execution Route**:
-  - We are currently on 2F East North at (17, 7).
-  - Walk to (21, 11) via the open path: Right, Right, Down, Down, Right, Right, Down, Down.
-  - Test (22, 11) by pressing Right.
-  
+## State B 2F East South Gate 13 Pit Drop Route (Turn 88242 Plan)
+- Active Exploration Phase: Turn 88242.
+- **Objective**: Reach Cinnabar Mansion B1F by utilizing the intended vanilla State B route via the 2F East South Pit.
+- **The Turn 79849 False-Positive Analysis**:
+  - Our previous log states: "Gate 13 (12, 13) is closed under both State A and State B (Verified CLOSED on Turn 79849 under State B)."
+  - **The Flaw**: On Turn 79310, we toggled the switch to State A to test Gate 2 on 3F. We then climbed the stairs to 3F West and fell through the pit at (11, 12) without ever returning to 2F West to toggle back to State B!
+  - Therefore, on Turn 79849, the mansion was actually in active **State A**, not State B!
+  - Our bump against Gate 13 at (12, 13) was because we were in State A (where Gate 13 is indeed CLOSED).
+  - In vanilla Pokémon Red/Blue, Gate 13 at (12, 13) is **OPEN under active State B**.
+- **The True Route**:
+  1. We are currently backtracking to 2F West at (2, 12).
+  2. Toggle Mewtwo Statue 2 at (2, 11) to active **State B**.
+  3. Walk to (12, 12) on 2F East South (accessible on foot under State B via the open Row 10 crossover at (9, 10)).
+  4. Test the passability of Gate 13 at (12, 13) on foot under active State B.
+  5. If open, walk south to Row 16 and drop down the pit at (15, 16)-(17, 16).
+  6. Land on 1F next to the B1F basement stairs at (21, 23).
+  7. Descend the stairs to B1F and retrieve the Secret Key!
+
 - **Step-by-Step Execution Route**:
-  1. From our current position (17, 7), walk to (21, 11): ['Right', 'Right', 'Down', 'Down', 'Right', 'Right', 'Down', 'Down']
-  2. Press Right to test Column 22 on Row 11.
-  3. If open, walk south and climb the stairs at (25, 14) to 3F East!
-  4. On 3F East, walk to the large pit and fall down to B1F!
+  1. Walk to 2F West at (2, 12) via the open Row 10 corridor: Left 19 steps to (2, 10), then Down 2 steps to (2, 12).
+  2. Press Up to toggle Mewtwo Statue 2 at (2, 11) to State B.
+  3. Walk to (12, 12) via the open Row 10 corridor: Up 2 steps to (2, 10), Right 10 steps to (12, 10), then Down 2 steps to (12, 12).
+  4. Press Down to walk through the open Gate 13 at (12, 13).
+  5. Walk south to Row 16 and drop down the pit at (15, 16)-(17, 16).
+  6. Land on 1F and descend to B1F!
 
 ## 🧹 Overworld Cleaning Archive (Turn 87554)
 - Overwatch clean up successfully done. Removed transient testing protocol for Row 17 Column 14. Original historical facts safely retained.
