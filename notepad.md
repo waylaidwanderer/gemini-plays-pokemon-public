@@ -6599,6 +6599,8 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - On Turn 88730, we pressed Down to turn Down and attempt to walk Down onto (22, 8).
   - **Result**: Direct collision bump (0 tiles visited), remaining at (22, 7) on Turn 88731 facing Down.
 - **Definitive Conclusion**: Column 22 Row 8 is 100% solid and blocked by physical rubble of TYPE_2889 under active State B. No vertical bypass exists here. This definitively disproves the hypothesis that we can walk south past Row 8 on Column 22 on foot. The logical deadlock is resolved: the Southeast room is completely isolated on foot on 2F, and B1F can only be accessed via the 3F West balcony drop onto Columns 11-14.
+- **Turn 89065 Test (State A - Gate 3)**: Stood at (18, 7) facing Down and pressed Down. Result: Bumped against closed Gate 3 at (18, 8). This physically proves Gate 3 is CLOSED and impassable under active State A on 2F East.
+- **Turn 89090 Test (State B - Column 11)**: Stood at (11, 12) facing Down and pressed Down. Result: Bumped against solid wall/railing at (11, 13). This physically proves Column 11 Row 13 is CLOSED/solid and impassable under active State B on 2F East.
 
 <hr>
 
