@@ -6273,7 +6273,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 - 3F West Statue side interaction (Turn 87532/87537): Stood at (9, 9) facing Right, pressed A. Result: No textbox, physically proving that the statue at (10, 9) on 3F is non-interactive/decorative from the side.
 
 ## State A 2F East South Column 22 Row 11 Test (Turn 88206 Plan)
-- Active Exploration Phase: Turn 88206.
+- Active Exploration Phase: Turn 88228.
 - **Objective**: Navigate to Column 21 on 2F East South and systematically test Column 22 on foot under active State A to locate the open pathway into the isolated Southeast room.
 - **Hypothesis**: Under active State A (Default), Row 11 on Column 22 is the actual vanilla gate location and is OPEN, allowing direct access to the isolated 2F Southeast room containing the stairs up to 3F East (which allows falling down the right side of the pit to B1F).
 - **Testing Protocol**:
