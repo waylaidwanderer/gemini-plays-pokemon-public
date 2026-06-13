@@ -6266,7 +6266,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - **Result**: Direct collision bump (0 tiles visited), remaining at (24, 3).
   - **Definitive Conclusion**: (24, 4) is indeed a real, solid collision block of TYPE_2889, NOT a background texture. This definitively disproves the State B Northeast-Southeast walkthrough hypothesis. The Northeast room is a complete dead-end under State B.
 
-## State B 2F East Column 22 Row 6/7 Passability Audit & B1F Access Plan (Updated Turn 88681)
+## State B 2F East Column 22 Row 6/7 Passability Audit & B1F Access Plan (Updated Turn 88715)
 - **Concept**: To bypass the solid rubble on Columns 24-27 in the Northeast room, we hypothesize that Column 22 is open on Row 6 or Row 7 under active State B on 2F East. If open, this allows us to walk from Column 21 directly into Column 22, and subsequently access the isolated Southeast room on foot!
 - **Physical Testing Protocol (Turn 88681)**:
   1. We are currently standing at (15, 7) under active State B (Statue 2 Toggled).
