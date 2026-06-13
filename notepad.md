@@ -6627,6 +6627,8 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - **Turn 83870 Test**: Stood at (13, 22) facing Right and pressed Right under State B. Result: **Bump** against (14, 22) (solid wall of TYPE_2889).
   - **Turn 83892 Verification**: Visually and physically confirmed that Column 13 is blocked north of Row 16 by solid wall/rubble of TYPE_2889 at (13, 15), (12, 15), and (14, 15).
   - **Column 14 Continuity**: Visually verified that Column 14 is a continuous vertical wall of TYPE_2889 on Rows 16-26.
+  - **Turn 87351 Test**: Stood at (13, 16) facing Right under active State B and pressed Right. Result: **Bump** against (14, 16), physically proving Column 14 Row 16 is solid and impassable under State B.
+  - **Turn 87372 Test**: Stood at (13, 17) facing Right under active State B and pressed Right. Result: **Bump** against (14, 17), physically proving Column 14 Row 17 is solid and impassable under State B.
   - **Final Conclusion**: The 2F East South sector (Columns 12-13, Rows 16-25) is a completely closed pocket with absolutely zero on-foot connection to the 2F Southeast room.
 - On Turn 85112, we stood at (9, 9) facing Right under State A and pressed Right. Result: Bump against (10, 9), physically proving Column 10 Row 9 is solid and impassable on 3F West under State A.
 - On Turn 85119, we stood at (7, 8) facing Up under State A and pressed Up. Result: Bump against (7, 7), physically proving Column 7 Row 7 is solid and impassable on 3F West under State A.
