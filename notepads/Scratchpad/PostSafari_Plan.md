@@ -131,3 +131,14 @@
   - We stood at (24, 3) facing Down under active State B and pressed Down against (24, 4) (labeled TYPE_2889).
   - **Result**: Direct collision bump (0 tiles visited), remaining at (24, 3).
   - **Definitive Conclusion**: (24, 4) is indeed a real, solid collision block of TYPE_2889, NOT a background texture. This definitively disproves the State B Northeast-Southeast walkthrough hypothesis. The Northeast room is a complete dead-end under State B.
+
+## State B 2F East Row 8 Passability Audit & B1F Access Plan (Turn 88647)
+- **Concept**: Hypothesize that on 2F East, there is an open vertical gate/crossover on Row 8 across Columns 23-27 under active State B. If open, this allows vertical traversal from the Northeast room (Columns 23-28, Rows 2-7) to the Southeast room (Columns 23-28, Rows 9-15), which contains the stairs up to 3F East at (25, 14).
+- **Physical Testing Protocol**:
+  1. We have successfully toggled Statue 2 to State B on Turn 88646.
+  2. Walk from (2, 12) on 2F West to 2F East North via the open Gate 6 at (9, 5).
+  3. Walk to the Northeast room of 2F East by crossing Column 22 on Row 3 at (22, 3) (open under both states!).
+  4. Once inside the Northeast room, walk to Row 7.
+  5. Systematically test the vertical passability of Row 8 across Columns 23, 24, 25, 26, 27 by attempting to walk Down onto Row 8 from Row 7 on each of these columns under active State B.
+  6. If one of these columns is open, walk Down to the Southeast room, walk to the staircase at (25, 14), and climb UP to 3F East!
+  7. On 3F East, walk to the wide eastern pit and drop down to B1F!
