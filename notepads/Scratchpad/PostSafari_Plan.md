@@ -250,22 +250,22 @@
   - We have systematically tested Column 10 Row 11 (Turn 88452), Column 9 Row 12 (Turn 88455), Column 9 Row 12 from (8, 12) (Turn 88465), and Column 9 Row 13 from (8, 13) (Turn 88473) on foot under active State B. All tests resulted in solid bumps.
   - **Definitive Conclusion**: The 3F West-East crossover is 100% physically blocked and impassable on foot under active State B. There is no walkthrough connection on 3F under State B.
 
-## State A 1F East Direct On-Foot Route (Turn 88481 Plan)
-- Active Exploration Phase Start: Turn 88481.
+## State A 1F East Direct On-Foot Route (Turn 88531 Plan)
+- Active Exploration Phase Start: Turn 88531.
 - **Objective**: Access the B1F basement by testing the direct on-foot route under active State A on 1F East.
 - **Topological Hypothesis**:
   - Under active State A, Gate 4 at (21, 17) is OPEN.
-  - The Row 11 horizontal crossover on 1F is open, allowing foot crossing from 1F West to 1F East.
-  - If we walk horizontally from 1F West to Column 21 Row 11 on 1F East, can we walk Down Column 21 through the open Gate 4 at (21, 17) and reach the B1F stairs at (21, 23) directly on foot?
+  - The northern horizontal crossover on Row 6 is open on 1F, allowing foot crossing from 1F West to 1F East.
+  - We walk horizontally from 1F West to Column 21 Row 6 on 1F East, and walk Down Column 21.
+  - Can we walk through Row 13 on foot under active State A? We will systematically test the passability of Column 21 Row 13, and if closed, test adjacent columns on Row 13 (e.g. Columns 11-20) to locate any open vertical corridor.
+  - If we can cross Row 13 on foot, we walk to (21, 17) (Gate 4) and descend to the B1F stairs at (21, 23) directly on foot!
 - **Step-by-Step Execution Route**:
-  1. We are currently at (8, 13) on 3F West under State B.
-  2. Walk to the stairs at (7, 10) on 3F West and descend to 2F West.
-  3. Walk to Mewtwo Statue 2 at (2, 11) on 2F West and toggle it back to **State A**.
-  4. Walk to the stairs at (5, 10) on 2F West and descend to 1F West.
-  5. From the 1F West stairs landing at (5, 10), walk East on Row 11 to 1F East on Row 11.
-  6. Walk to Column 21 Row 11.
-  7. Walk Down Column 21, verifying if Row 13 Column 21 is passable or if there is an alternate passable corridor (e.g., Column 12 or 13 Row 13) that lets us reach the southern side of 1F East on foot under active State A.
-  8. If we can reach (21, 17) (Gate 4), walk Down through the open Gate 4 to the B1F stairs at (21, 23) and descend to B1F!
+  1. We are currently at (17, 6) on 1F East under State A.
+  2. Walk Right 4 steps to Column 21 Row 6: (17, 6) -> (21, 6).
+  3. Walk Down Column 21 to Row 11: (21, 6) -> (21, 11).
+  4. Systematically test the passability of Row 13 Column 21 on foot.
+  5. If Row 13 Column 21 is blocked, walk West and test adjacent columns on Row 13 (Columns 11-20) to find any open corridor leading to the southern half.
+  6. Once in the southern half, walk to (21, 17) (Gate 4, which is OPEN under State A) and walk Down to the B1F stairs at (21, 23) to descend to B1F!
 
 ## 🧹 Overworld Cleaning Archive (Turn 87554)
 - Overwatch clean up successfully done. Removed transient testing protocol for Row 17 Column 14. Original historical facts safely retained.
@@ -273,6 +273,3 @@
   - We stood at (24, 3) facing Down under active State B and pressed Down against (24, 4) (labeled TYPE_2889).
   - **Result**: Direct collision bump (0 tiles visited), remaining at (24, 3).
   - **Definitive Conclusion**: (24, 4) is indeed a real, solid collision block of TYPE_2889, NOT a background texture. This definitively disproves the State B Northeast-Southeast walkthrough hypothesis. The Northeast room is a complete dead-end under State B.
-  - **Active Plan Change (Turn 88038)**:
-    - We must return the mansion to **State A** (Default) by toggling Mewtwo Statue 2 at (2, 11) on 2F West.
-    - Under State A, we can climb the stairs to 3F West, walk east past the Mewtwo Statue at (10, 9) to 3F East (which is connected on foot under State A), and fall down the right side of the 3F East pit to land next to the B1F basement stairs on 1F East South.
