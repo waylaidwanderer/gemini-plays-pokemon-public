@@ -121,23 +121,21 @@
 - Column 14 Row 17 Test (Turn 87372): Stood at (13, 17) facing Right under active State B, pressed Right. Result: Bump, physically proving that Column 14 Row 17 is 100% solid and impassable under active State B.
 - 3F West Statue side interaction (Turn 87532/87537): Stood at (9, 9) facing Right, pressed A. Result: No textbox, physically proving that the statue at (10, 9) on 3F is non-interactive/decorative from the side.
 
-## State B 2F East South Gate 13 Pit Drop Route (Turn 88242 Plan)
-- Active Exploration Phase: Turn 88326.
-- **Objective**: Reach Cinnabar Mansion B1F by utilizing the intended vanilla State B route via the 2F East South Pit.
-- **The Turn 79849 False-Positive Analysis**:
-  - Our previous log states: "Gate 13 (12, 13) is closed under both State A and State B (Verified CLOSED on Turn 79849 under State B)."
-  - **The Flaw**: On Turn 79310, we toggled the switch to State A to test Gate 2 on 3F. We then climbed the stairs to 3F West and fell through the pit at (11, 12) without ever returning to 2F West to toggle back to State B!
-  - Therefore, on Turn 79849, the mansion was actually in active **State A**, not State B!
-  - Our bump against Gate 13 at (12, 13) was because we were in State A (where Gate 13 is indeed CLOSED).
-  - In vanilla Pokémon Red/Blue, Gate 13 at (12, 13) is **OPEN under active State B**.
+## State B 2F East Northeast Room Rubble Passability Test (Turn 88350 Plan)
+- Active Exploration Phase: Turn 88351.
+- **Objective**: Reach Cinnabar Mansion B1F by utilizing the State B 2F East Northeast Room Rubble Passability Route.
+- **The Rubble Passability Analysis**:
+  - Our previous log states: "The Northeast room of 2F East is a 100% confirmed dead-end under State B on foot."
+  - **The Flaw**: We saw rubble on Rows 6-7 on Columns 23-27 and assumed it was solid wall. However, in vanilla Pokémon Red/Blue, the Northeast room is completely open, and the rubble is just a background visual texture with no collision!
+  - Under active State B, the gate at Row 8 Column 24 is OPEN!
+  - If the rubble is passable, we can walk from the Northeast room directly south through Rows 6-7 to the open gate at Row 8 Column 24 and enter the isolated Southeast room!
 - **The True Route**:
-  1. We are currently backtracking to 2F West at (2, 12).
-  2. Toggle Mewtwo Statue 2 at (2, 11) to active **State B**.
-  3. Walk to (12, 12) on 2F East South (accessible on foot under State B via the open Row 10 crossover at (9, 10)).
-  4. Test the passability of Gate 13 at (12, 13) on foot under active State B.
-  5. If open, walk south to Row 16 and drop down the pit at (15, 16)-(17, 16).
-  6. Land on 1F next to the B1F basement stairs at (21, 23).
-  7. Descend the stairs to B1F and retrieve the Secret Key!
+  1. We are currently inside the Northeast room of 2F East at (24, 3) under active State B.
+  2. Walk to (25, 5) facing Down.
+  3. Step Down onto (25, 6) to physically test if the rubble is passable.
+  4. If passable, walk Down through Row 6 and Row 7 to Row 8, and walk south into the Southeast room.
+  5. Take the stairs at (25, 14) up to 3F East.
+  6. Land on 3F East, walk to the eastern balcony, and drop down the rightmost pit to fall to B1F!
 
 - **Step-by-Step Execution Route**:
   1. Walk to 2F West at (2, 12) via the open Row 10 corridor: Left 19 steps to (2, 10), then Down 2 steps to (2, 12).
