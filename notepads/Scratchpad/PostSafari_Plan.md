@@ -110,13 +110,27 @@
   - Turn 86844: Stood at (26, 9) facing Left, pressed Left against (25, 9). Result: BUMP.
 - **Conclusion**: The Northeast staircase at (24, 8)-(25, 9) is 100% solid, closed, and impassable from all directions under active State A.
 
-## Active State B 1F Northeast Staircase Strategy (Started Turn 86851)
-- **Hypothesis**: The Northeast staircase is open and passable under active State B.
-- **Methodology**:
-  1. Backtrack to 2F West to toggle Statue 2 to State B (Toggled).
-  2. Return to 1F West and walk to 1F East Northeast room.
-  3. Walk to (25, 10) or (24, 10) and step Up onto (25, 9) or (24, 9) to trigger the staircase warp!
-  4. Once on 2F East Southeast, take the stairs up to 3F East.
-  5. On 3F East, jump down the rightmost pit to reach the B1F stairs.
+## Disproven State B 1F Northeast Staircase Strategy (Completed Turn 86912)
+- **Result**: Tested and disproven on Turns 86902 and 86910.
+- **Verification Logs**:
+  - Turn 86902: Stood at (25, 10) facing Up, pressed Up against (25, 9). Result: BUMP.
+  - Turn 86910: Stood at (24, 10) facing Up, pressed Up against (24, 9). Result: BUMP.
+- **Conclusion**: The Northeast staircase at (24, 8)-(25, 9) is 100% solid, closed, and impassable from all directions under active State B as well as State A.
 
-- Active Phase Start: Turn 86550. Currently on Turn 86886.
+## Active Fallback State B Pit-Drop Route (Started Turn 86912)
+- **Concept**: Since there is no functional on-foot staircase from 1F East to 2F East, we must use the 3F West Pit Drop to reach B1F.
+- **Detailed Step-by-Step Execution Plan**:
+  1. Backtrack from 1F East Northeast room to 1F West stairs at (5, 10).
+  2. Take the stairs to 2F West. We are currently in State B.
+  3. Walk to the stairs at (7, 10) on 2F West and take them to 3F West.
+  4. On 3F West, walk to Pit A at (11, 12).
+  5. Fall through Pit A at (11, 12) to land at (12, 12) on 2F East South.
+  6. From (12, 12) on 2F East South under State B, we must navigate through the open 2F East North corridor to test the Row 8 gate/reach the B1F stairs.
+  - **Socratic Progression Check**: How can we navigate from (12, 12) to 2F East North corridor on State B?
+    - From (12, 12), walk South and use Column 11 Row 22 (which is open under State B) to reach the Column 10 corridor.
+    - Walk North along Column 10 to Row 3 (bypassing Row 9 blockage via Columns 10/11/12).
+    - Walk East to Column 21 or 22 on Row 3/6.
+    - Test the Row 8 gates or crossovers to find the unblocked route to the 2F Southeast room at (25, 14), which has the stairs to 3F East!
+    - On 3F East, fall through the rightmost pit to land on B1F and retrieve the Secret Key.
+
+- Active Phase Start: Turn 86550. Currently on Turn 86912.
