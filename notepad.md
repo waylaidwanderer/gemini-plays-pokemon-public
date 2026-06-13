@@ -6668,6 +6668,11 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Turn 87640: Stood at (13, 17) facing Right under active State A, pressed Right. Result: **Bump** against (14, 17).
   - **Conclusion**: Column 14 Row 16 and Row 17 are 100% solid and blocked under active State A, confirming the western side of the 2F East South balcony (Columns 11-13) has absolutely no on-foot horizontal connection to Column 14+ or the Southeast room under State A. The pocket is completely closed.
 
+- **Turn 88033 Physical Passability Test**:
+  - We stood at (24, 3) facing Down under active State B and pressed Down against (24, 4) (labeled TYPE_2889).
+  - **Result**: Direct collision bump (0 tiles visited), remaining at (24, 3).
+  - **Definitive Conclusion**: (24, 4) is indeed a real, solid collision block of TYPE_2889, NOT a background texture. This definitively disproves the State B Northeast-Southeast walkthrough hypothesis. The Northeast room is a complete dead-end under State B.
+
 <hr>
 
 <h1><code>Scratchpad/Mansion_Gate_Matrix</code></h1>
