@@ -21,9 +21,9 @@
 
 🧱 Overwatch Cleanup: Large obsolete/duplicate planning blocks from Turns 85829-86326 removed successfully to keep context focused and clean.
 
-## State B 2F East Column 11 Systematic Passability Campaign (Active Turn 89084)
-- **Topological Breakthrough Hypothesis**: In State B, Gate 6 is open, allowing access to 2F East North. We hypothesize that Column 11 is completely open on Rows 8-15 under active State B, providing a direct vertical overworld passage from 2F East North to 2F East South and the southern balcony on foot!
+## State B 2F East Column 10 Systematic Passability Campaign (Active Turn 89100)
+- **Topological Breakthrough Hypothesis**: Column 11 is blocked at Row 13 under State B (Verified Turn 89090). However, Column 10 and Column 9 are open on Rows 11-15. We hypothesize that Column 10 is open all the way down to Row 19+ under State B, allowing foot access to the southern balcony!
 - **Step-by-Step Path**:
-  1. We are standing at (12, 7) on 2F East under active State B.
-  2. Walk Left to Column 11 and walk Down to Row 15 to test Column 11's passability.
-  3. If Column 11 is open, we can access the southern balcony on foot under active State B!
+  1. We are standing at (10, 15) on 2F East under active State B.
+  2. Walk Down Column 10 to Row 19 to test its passability.
+  3. Verify if Column 10 connects to the southern balcony.
