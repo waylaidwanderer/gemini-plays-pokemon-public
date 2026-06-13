@@ -21,12 +21,9 @@
 
 🧱 Overwatch Cleanup: Large obsolete/duplicate planning blocks from Turns 85829-86326 removed successfully to keep context focused and clean.
 
-## State A 2F East South Column 17 Balcony Crossover Campaign (Active Turn 89071)
-- **Topological Breakthrough Hypothesis**: If walkthrough connections on 3F and 1F are blocked, B1F must be reached via an unvisited path under State A. The southern balcony of 2F East South is continuous in standard Red/Blue. We will systematically test the horizontal passability of Column 17 on Rows 11-15 on 2F East South on foot under active State A (where Gate 3 is OPEN) to walk onto Columns 11-17 on the southern balcony and access the jump-down ledge!
+## State B 2F East Column 11 Systematic Passability Campaign (Active Turn 89084)
+- **Topological Breakthrough Hypothesis**: In State B, Gate 6 is open, allowing access to 2F East North. We hypothesize that Column 11 is completely open on Rows 8-15 under active State B, providing a direct vertical overworld passage from 2F East North to 2F East South and the southern balcony on foot!
 - **Step-by-Step Path**:
-  1. We are standing at (7, 11) on 3F West under active State A.
-  2. Walk Up to (7, 10) and descend the stairs to 2F West.
-  3. Walk Right across the open Row 10 crossover from (7, 10) to (18, 10) on foot under State A.
-  4. Walk Down Column 18 to Row 14/15.
-  5. Systematically test walking Left from Column 18 onto Column 17 on Rows 11, 12, 13, 14, and 15 on foot under active State A.
-  6. If Column 17 is open, walk onto the southern balcony of 2F East South (Columns 11-17, Row 15/16/17) and walk Down to locate the jump-down spot that lands us next to B1F basement stairs!
+  1. We are standing at (12, 7) on 2F East under active State B.
+  2. Walk Left to Column 11 and walk Down to Row 15 to test Column 11's passability.
+  3. If Column 11 is open, we can access the southern balcony on foot under active State B!
