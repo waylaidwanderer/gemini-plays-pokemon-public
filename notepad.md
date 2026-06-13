@@ -6266,15 +6266,14 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - **Result**: Direct collision bump (0 tiles visited), remaining at (24, 3).
   - **Definitive Conclusion**: (24, 4) is indeed a real, solid collision block of TYPE_2889, NOT a background texture. This definitively disproves the State B Northeast-Southeast walkthrough hypothesis. The Northeast room is a complete dead-end under State B.
 
-## State A 2F East Column 22 Row 8 Passability Audit Results (Completed Turn 88806)
-- **Objective**: Physically test if Column 22 Row 8 is open under active State A on foot to access the isolated Southeast room.
-- **Methodology & Execution**:
-  - Turn 88800: We toggled the switch to State A and walked onto 2F East South via open Gate 3 at (18, 8)-(19, 8).
-  - Turn 88802: Walked to (22, 7) facing Right.
-  - Turn 88804: Pressed Down to turn Down and step Down onto (22, 8).
-  - **Result**: Direct collision bump (0 tiles visited), remaining at (22, 7) on Turn 88806 facing Down.
-  - **Definitive Conclusion**: Column 22 Row 8 is 100% solid and blocked by physical rubble under active State A on foot.
-  - **Final Direct On-Foot Route Disproof (State A & State B)**: The isolated 2F Southeast room (and thus the stairs up to 3F East) is 100% physically isolated and completely unreachable on foot on 2F East under both State A and State B due to solid Column 22/28 rubble walls. This officially and conclusively disproves the walkthrough hypothesis. No walkthrough path to the Southeast room exists on 2F.
+## State B 3F West Southern Balcony Columns 11-14 Drop Campaign (Started Turn 88831)
+- **Concept & Hypothesis**: In standard Pokémon Red/Blue, the unblocked balcony drop that lands you next to the B1F basement stairs is executed by walking off the eastern edge of the southern balcony of 3F West, which is located on Columns 11-14, facing the central atrium (Columns 14-21). Our previous tests on Column 5 were too far west (middle of the room), so we were bumping into solid walls. Under active State B, we will walk along Rows 14, 15, or 16 on Columns 11-14 on 3F West to locate the true open drop-off tile!
+- **Step-by-Step Path**:
+  1. Backtrack from our current position (20, 7) to 2F West.
+  2. Walk to Mewtwo Statue 2 at (2, 11) on 2F West and toggle the switch to State B.
+  3. Ascend to 3F West via the stairs at (7, 10).
+  4. Navigate to the southern balcony area (Rows 14-16) of 3F West.
+  5. Systematically test walking Right/Down off Columns 11-14 on Rows 14, 15, and 16 under active State B to find the open balcony drop!
 
 <hr>
 
