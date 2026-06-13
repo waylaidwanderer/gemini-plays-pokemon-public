@@ -6172,13 +6172,34 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 
 🧱 Overwatch Cleanup: Large obsolete/duplicate planning blocks from Turns 85829-86326 removed successfully to keep context focused and clean.
 
-## State B 2F East South Balcony Railings Campaign (Active Turn 89277)
-- **Objective**: Backtrack to 2F West, toggle Mewtwo Statue 2 to State B, navigate back to the 2F East South balcony (Rows 16-25, Columns 11-17) using open Gate 6 and Column 10, and systematically test the balcony railings on Columns 11-17 on foot.
-- **Route to Statue 2**:
-  - From (13, 16) on 2F East South, walk Left to Column 10: (13, 16) -> (12, 16) -> (11, 16) -> (10, 16) (3 steps Left).
-  - Walk Up Column 10 to Row 10: (10, 16) -> (10, 10) (6 steps Up).
-  - Walk Left across crossover to 2F West: (10, 10) -> (9, 10) -> (8, 10) (2 steps Left).
-  - From (8, 10), walk to Mewtwo Statue 2 at (2, 11) to toggle State B.
+## State B 2F East South Balcony Railings Campaign (Active Turn 89281)
+- **Objective**: Systematically and physically test the passability of the 2F East South balcony boundaries (Columns 11-14, Rows 15-26) on foot under active State B to find any potential jump-down drop or passage.
+- **Current Position**: Standing at (10, 16) facing Down on 2F East South under active State B.
+- **Audit Schedule & Status Tracker**:
+  1. **Column 14 Atrium Railing (Rows 16-25)**:
+     - Row 16 Column 14: Completed Turn 87351. Bumped (solid).
+     - Row 17 Column 14: Completed Turn 87372. Bumped (solid).
+     - Row 18 Column 14: [ ] Pending test.
+     - Row 19 Column 14: [ ] Pending test.
+     - Row 20 Column 14: [ ] Pending test.
+     - Row 21 Column 14: [ ] Pending test.
+     - Row 22 Column 14: [ ] Pending test.
+     - Row 23 Column 14: [ ] Pending test.
+     - Row 24 Column 14: [ ] Pending test.
+     - Row 25 Column 14: [ ] Pending test.
+  2. **Column 11 Western Railing (Rows 16-21)**:
+     - Row 16 Column 11: [ ] Pending test.
+     - Row 17 Column 11: [ ] Pending test.
+     - Row 18 Column 11: [ ] Pending test.
+     - Row 19 Column 11: [ ] Pending test.
+     - Row 20 Column 11: [ ] Pending test.
+     - Row 21 Column 11: [ ] Pending test.
+  3. **Row 15 Northern Wall (Columns 12-13)**:
+     - Row 15 Column 12: [ ] Pending test.
+     - Row 15 Column 13: [ ] Pending test.
+  4. **Row 26 Southern Wall/Gate (Columns 12-13)**:
+     - Row 26 Column 12 (Gate 26): [ ] Pending test.
+     - Row 26 Column 13 (Gate 26): [ ] Pending test.
 
 <hr>
 
