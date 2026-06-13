@@ -116,19 +116,17 @@
   7. On 3F East, walk to the rightmost balcony pit and fall down to B1F.
   8. Enter B1F to find the Secret Key.
 
-- Active Exploration Phase Start: Turn 86550. Currently on Turn 87402.
+- Active Exploration Phase Start: Turn 86550. Currently on Turn 87424.
 - Column 14 Row 16 Test (Turn 87351): Stood at (13, 16) facing Right under active State B, pressed Right. Result: Bump, physically proving that Column 14 Row 16 is 100% solid and impassable under active State B.
+- Column 14 Row 17 Test (Turn 87372): Stood at (13, 17) facing Right under active State B, pressed Right. Result: Bump, physically proving that Column 14 Row 17 is 100% solid and impassable under active State B.
 - Gate 26 Test (Turn 87357): Stood at (13, 25) facing Down under active State B, pressed Down. Result: Bump, physically proving that Gate 26 at (13, 26) is CLOSED and impassable under active State B.
 
-## State B Column 14 Row 17 Passability Testing Protocol (Started Turn 87361)
-- **Objective**: Empirically verify if Column 14 Row 17 is open and passable under State B, or if it is a pit tile (TYPE_21ec) that triggers a fall to 1F.
+## State A Column 22 Row 16/17 Passability Testing Protocol (Started Turn 87424)
+- **Objective**: Verify if the southern balcony on Row 16 or Row 17 is open across Column 22 under active State A, allowing horizontal crossover from Column 21 to Column 23 on foot.
 - **Methodology**:
-  1. We are currently standing at (13, 25) on 2F East South.
-  2. Walk Up Column 13 to Row 17: (13, 25) -> (13, 24) -> (13, 23) -> (13, 22) -> (13, 21) -> (13, 20) -> (13, 19) -> (13, 18) -> (13, 17).
-  3. Stand at (13, 17) facing Right.
-  4. Attempt to walk Right onto (14, 17) (labeled as TYPE_21ec on the screen).
-  5. Log the outcome:
-     - **Bump**: Row 17 Column 14 is solid/impassable under State B.
-     - **Pass & Fall**: Jumps right onto (14, 17) and immediately triggers a fall to 1F East. Record the exact landing coordinates on 1F East and verify if it places us in the southern half next to the B1F stairs.
-  6. Log the turn number and outcome.
-- **Turn 87372 Test**: Stood at (13, 17) facing Right under State B and pressed Right to step onto (14, 17). Result: Bump, physically proving that Column 14 Row 17 is 100% solid and impassable under State B.
+  1. Set global switch to State A (Default) at Statue 2.
+  2. Walk to 2F East South via the open Gate 3 at (18, 8)-(19, 8).
+  3. Walk to (21, 16) on the southern balcony.
+  4. Attempt to walk Right onto (22, 16). Log result (Bump vs Pass).
+  5. If Row 16 is blocked, walk to (21, 17) and attempt to walk Right onto (22, 17). Log result (Bump vs Pass).
+  6. If either is open, walk East to Column 23 to access the isolated 2F Southeast room.
