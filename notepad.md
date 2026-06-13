@@ -6266,14 +6266,15 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - **Result**: Direct collision bump (0 tiles visited), remaining at (24, 3).
   - **Definitive Conclusion**: (24, 4) is indeed a real, solid collision block of TYPE_2889, NOT a background texture. This definitively disproves the State B Northeast-Southeast walkthrough hypothesis. The Northeast room is a complete dead-end under State B.
 
-## State B 3F West Southern Balcony Columns 11-14 Drop Campaign (Active Turn 88921)
-- **Concept & Hypothesis**: In standard Pokémon Red/Blue, the unblocked balcony drop that lands you next to the B1F basement stairs is executed by walking off the eastern edge of the southern balcony of 3F West, which is located on Columns 11-14, facing the central atrium (Columns 14-21). Our previous tests on Column 5 were too far west (middle of the room), so we were bumping into solid walls. Under active State B, we will walk along Rows 14, 15, or 16 on Columns 11-14 on 3F West to locate the true open drop-off tile!
+## State B 3F West Column 10 Crossover Campaign (Active Turn 88962)
+- **The Redesign**: We have identified a severe physical contradiction in our previous plan: Columns 11-14 on 3F are in the eastern wing (3F East), but the vertical dividing wall at Column 10 is solid on Rows 8-15, making Columns 11-14 completely unreachable from 3F West on foot if Column 10 is closed on all rows.
+- **Topological Breakthrough Hypothesis**: To resolve this deadlock and reach B1F, we must systematically test whether we can bypass or cross Column 10 on Row 6 or Row 7 on 3F West under active State B (Statue 2 Toggled). If we can walk around the partition on Row 6 or Row 7 on 3F West under active State B, we will immediately unlock access to the eastern wing of 3F (Columns 11-30), where the static Pit Chute at (11, 12) is located, which drops us down to the basement (B1F) to retrieve the Secret Key!
 - **Step-by-Step Path**:
-  1. Backtrack from our current position (20, 7) to 2F West.
-  2. Walk to Mewtwo Statue 2 at (2, 11) on 2F West and toggle the switch to State B.
-  3. Ascend to 3F West via the stairs at (7, 10).
-  4. Navigate to the southern balcony area (Rows 14-16) of 3F West.
-  5. Systematically test walking Right/Down off Columns 11-14 on Rows 14, 15, and 16 under active State B to find the open balcony drop!
+  1. We are currently standing at (2, 12) on 2F West facing Up towards Mewtwo Statue 2 at (2, 11).
+  2. Interact with Mewtwo Statue 2 to toggle the global gate state to active State B.
+  3. Walk to the stairs at (7, 10) on 2F West and ascend to 3F West.
+  4. Walk to Row 8 Column 9 / Column 10 and systematically test walking Right/Up/Down on Row 6 and Row 7 to locate any open bypass around the Column 10 wall on 3F under State B!
+  5. If we find an open bypass, walk to 3F East and drop down the pit to B1F!
 
 <hr>
 
