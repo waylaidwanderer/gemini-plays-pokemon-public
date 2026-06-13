@@ -6267,15 +6267,15 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   7. On 3F East, walk to the rightmost balcony pit and fall down to B1F.
   8. Enter B1F to find the Secret Key.
 
-- Active Exploration Phase Start: Turn 86550. Currently on Turn 87424.
+- Active Exploration Phase Start: Turn 86550. Currently on Turn 87451.
 - Column 14 Row 16 Test (Turn 87351): Stood at (13, 16) facing Right under active State B, pressed Right. Result: Bump, physically proving that Column 14 Row 16 is 100% solid and impassable under active State B.
 - Column 14 Row 17 Test (Turn 87372): Stood at (13, 17) facing Right under active State B, pressed Right. Result: Bump, physically proving that Column 14 Row 17 is 100% solid and impassable under active State B.
 - Gate 26 Test (Turn 87357): Stood at (13, 25) facing Down under active State B, pressed Down. Result: Bump, physically proving that Gate 26 at (13, 26) is CLOSED and impassable under active State B.
 
-## State A Column 22 Row 16/17 Passability Testing Protocol (Started Turn 87424)
+## State A Column 22 Row 16/17 Passability Testing Protocol (Started Turn 87451)
 - **Objective**: Verify if the southern balcony on Row 16 or Row 17 is open across Column 22 under active State A, allowing horizontal crossover from Column 21 to Column 23 on foot.
 - **Methodology**:
-  1. Set global switch to State A (Default) at Statue 2.
+  1. Set global switch to State A (Default) at Statue 2. (Completed Turn 87448)
   2. Walk to 2F East South via the open Gate 3 at (18, 8)-(19, 8).
   3. Walk to (21, 16) on the southern balcony.
   4. Attempt to walk Right onto (22, 16). Log result (Bump vs Pass).
