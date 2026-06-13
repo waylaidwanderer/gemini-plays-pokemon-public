@@ -15,12 +15,12 @@
     ]
   },
   "activate_mansion_switch": {
-    "description": "Interacts with Mewtwo Statue 2 at (2, 11) from (2, 12) facing UP to successfully toggle the gate state to State B. It prints a sequence of 'A' presses and sleeps to bypass auto-advance.",
+    "description": "Interacts with Mewtwo Statue 2 at (2, 11) on 2F West from (2, 12) facing UP to successfully toggle the gate state to State B. It outputs a sequence of 'A' presses and sleeps to bypass auto-advance dialogue without silently selecting NO.",
     "input_schema": {
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\n\n# Correct button sequence:\n# 1. A (interact)\n# 2. A (advance to YES/NO)\n# 3. Up (move cursor to YES)\n# 4. A (select YES)\n# 5. A (close confirmation text)\nsequence = [\n    \"A\",\n    \"sleep 1500\",\n    \"A\",\n    \"sleep 1500\",\n    \"Up\",\n    \"sleep 1500\",\n    \"A\",\n    \"sleep 1500\",\n    \"A\"\n]\n\nprint(json.dumps(sequence))\n",
+    "python_script": "# Let's output a sequence of 'A' presses with pauses to toggle Mewtwo Statue 2.\n# Default cursor is YES, so we just press A.\nimport json\n\n# Output the sequence\nprint(json.dumps([\"A\", \"sleep 1500\", \"A\", \"sleep 1500\", \"A\", \"sleep 1500\", \"A\"]))\n",
     "history": [
       {
         "commit_message": "Define activate_mansion_switch tool to toggle Mewtwo Statue 2 switch under State B without triggering harness auto-advance.",
@@ -31,6 +31,11 @@
         "commit_message": "Update activate_mansion_switch to press Up before selecting YES to correctly toggle Statue 2 to State B.",
         "timestamp": "2026-06-13T22:31:44.587Z",
         "action_counter": 89810
+      },
+      {
+        "commit_message": "Redefine activate_mansion_switch to remove the faulty Up button press, ensuring we correctly select YES to toggle the switch.",
+        "timestamp": "2026-06-13T23:22:10.386Z",
+        "action_counter": 90005
       }
     ]
   }
