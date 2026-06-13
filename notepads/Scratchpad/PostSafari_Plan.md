@@ -113,18 +113,8 @@ Therefore, the correct plan is:
 5. On 3F East balcony, jump down the rightmost pit to land on 1F East near B1F stairs.
 6. Retrieve the Secret Key from B1F!
 
-## Active State B 2F East South Balcony Drop Strategy (Turn 86671 Plan)
-- Turn 86662: Tested the balcony railing at Column 12 Row 17 under active State B by walking Down from (12, 17) onto (12, 18). Result: Walked normally with no balcony drop animation, proving Column 12 Row 17 is a normal passable floor tile and NOT an active jump-down ledge under State B.
-- **Next Exploration Steps (Turn 86671)**:
-  - We are currently standing at (12, 22) in Corridor 2 on Map 0_214 under State B.
-  - To be systematically thorough, we must now test Column 13's balcony railing on Row 17 under active State B.
-  - To do this:
-    1. Walk Up Corridor 2 to Row 16: walk Up from (12, 22) to (12, 16).
-    2. Step Right onto (13, 16) [TYPE_3fe2].
-    3. Walk Down (South) from (13, 16) onto (13, 17) to test if we jump down over the balcony railing at (13, 17) under active State B.
-  - Socratic Progression:
-    - If Column 13 Row 17 balcony drop is open, we fall into the 1F East south-central pocket, allowing us to descend the stairs to B1F.
-    - If Column 13 Row 17 balcony drop is also solid, we can confidently conclude that the entire 2F East South balcony has no active drop-offs under State B. We will then walk back to 2F West on foot via the Row 10/12 crossovers, return to 2F West, toggle back to State A, and execute our State A northern crossover bypass route on 3F!
+## Disproven State B 2F East South Balcony Drop Strategy (Completed)
+- **Result**: Exhaustively tested and disproven on Turns 86660-86689. All tested balcony drops are solid and blocked. Backtracked out of the room successfully on Turn 86700.
 
 ## State B Crossover Corridor (9, 12) and (10, 12) Passability Testing Protocol
 - **Objective**: Determine if Column 9 Row 12 (9, 12) is completely passable under State B when the Scientist NPC is not blocking it.
