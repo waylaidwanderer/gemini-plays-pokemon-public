@@ -13,5 +13,20 @@
         "action_counter": 75876
       }
     ]
+  },
+  "activate_mansion_switch": {
+    "description": "Interacts with Mewtwo Statue 2 at (2, 11) from (2, 12) facing UP to successfully toggle the gate state to State B. It prints a sequence of 'A' presses and sleeps to bypass auto-advance.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\n\n# Output the precise button sequence to interact, advance, select YES, and clear the switch textbox.\nsequence = [\n    \"A\",\n    \"sleep 1500\",\n    \"A\",\n    \"sleep 1500\",\n    \"A\",\n    \"sleep 1500\",\n    \"A\"\n]\n\nprint(json.dumps(sequence))\n",
+    "history": [
+      {
+        "commit_message": "Define activate_mansion_switch tool to toggle Mewtwo Statue 2 switch under State B without triggering harness auto-advance.",
+        "timestamp": "2026-06-13T22:31:09.509Z",
+        "action_counter": 89809
+      }
+    ]
   }
 }
