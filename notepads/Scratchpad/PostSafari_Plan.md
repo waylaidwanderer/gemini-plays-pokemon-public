@@ -245,7 +245,6 @@
 - 3F West Statue side interaction (Turn 87532/87537): Stood at (9, 9) facing Right, pressed A. Result: No textbox, physically proving that the statue at (10, 9) on 3F is non-interactive/decorative from the side.
 
 ## State B 3F West Column 10 Row 12/13 Crossover Test (Completed Turn 88481)
-- Active Exploration Phase Start: Turn 88481.
 - **Objective**: Reach Cinnabar Mansion B1F by utilizing the State B 3F West crossover path.
 - **Results**:
   - We have systematically tested Column 10 Row 11 (Turn 88452), Column 9 Row 12 (Turn 88455), Column 9 Row 12 from (8, 12) (Turn 88465), and Column 9 Row 13 from (8, 13) (Turn 88473) on foot under active State B. All tests resulted in solid bumps.
