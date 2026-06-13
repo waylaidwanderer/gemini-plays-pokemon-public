@@ -130,3 +130,4 @@
      - **Bump**: Row 17 Column 14 is solid/impassable under State B.
      - **Pass & Fall**: Jumps right onto (14, 17) and immediately triggers a fall to 1F East. Record the exact landing coordinates on 1F East and verify if it places us in the southern half next to the B1F stairs.
   6. Log the turn number and outcome.
+- **Turn 87372 Test**: Stood at (13, 17) facing Right under State B and pressed Right to step onto (14, 17). Result: Bump, physically proving that Column 14 Row 17 is 100% solid and impassable under State B.
