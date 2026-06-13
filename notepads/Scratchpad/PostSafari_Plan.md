@@ -55,7 +55,6 @@
   - We will backtrack to 2F West, take the stairs to 3F West, and drop down the pit at (11, 12) under active State B.
   - This lands us at (12, 12) on 2F East South, inside the "previously inaccessible room".
   - We will systematically explore that room to find the path down to B1F!
-  
 
 ## State B 2F East South Balcony Railings Campaign (Active Turn 89522)
 - **Objective**: Systematically and physically test the passability of the 2F East South balcony boundaries (Columns 11-14, Rows 15-26) on foot under active State B to find any potential jump-down drop or passage. This campaign is successfully completed.
