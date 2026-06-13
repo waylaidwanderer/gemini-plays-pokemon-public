@@ -19,7 +19,7 @@
   - Gate 26 on 2F (12, 26)-(13, 26) is CLOSED.
   - Gate 13 on 2F (12, 13)-(13, 13) is CLOSED.
 
-## State B 1F East Staircase & B1F Access Model (Active Turn 89881)
+## State B 1F East Staircase & B1F Access Model (Active Turn 89911)
 - **Objective**: Determine how to access the basement floor (B1F) of Pokémon Mansion.
 - **Topological Reality Check**:
   - The eastern shaft is a strictly one-way descending path: 3F East (pit) -> 2F East Southeast (stairs down) -> 1F East Southeast (stairs down) -> B1F (stairs down).
@@ -28,6 +28,8 @@
   - Gate 2 on 3F (10, 11) is OPEN under active State B.
   - Our previous bump at (10, 11) on Turn 89666 under State B was due to the wandering Scientist NPC blocking the gate.
 - **Current Action Plan**:
+  - Walk to (2, 12) on 2F West and manually toggle Mewtwo Statue 2 to State B.
+  - Ascend the stairs at (7, 10) to 3F West.
   - Walk horizontally Right from (7, 11) through the open Gate 2 at (10, 11) to reach 3F East.
   - Locate and fall down the giant pit on 3F East to land on 1F East, right next to the stairs to B1F.
 ## State B 2F East South Balcony Railings Campaign (Active Turn 89522)
