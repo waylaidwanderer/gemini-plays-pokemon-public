@@ -101,17 +101,7 @@
 - **Turn 86323 Balcony (2, 16) Test**: Stood at (2, 16) facing Down under State A and pressed Down. Result: BUMP against (2, 17), proving Column 2 Row 17 is solid and impassable under State A.
 - **Turn 86325 Balcony (1, 16) Test**: Stood at (1, 16) facing Down under State A and pressed Down. Result: BUMP against (1, 17), proving Column 1 Row 17 is solid and impassable under State A.
 - **Definitive 3F West Balcony Disproof**: All balcony drop directions on 3F West are 100% solid and blocked under both State A and State B. There is no drop-off to 2F East South from the 3F West balcony. We must find another crossover method.
-- Active Phase Start: Turn 86550. Currently on Turn 86739.
-
-## breakthrough discovery: 3F Row 12 corridor under State B
-On Turn 86575, we fell through Pit A under State B by executing a path that took us South of Row 12 (specifically to Row 14/15, where we fell through the pit). However, Row 12 on 3F East is a completely solid, safe corridor leading to the eastern balcony (3F East)!
-Therefore, the correct plan is:
-1. Walk Up onto the stairs at (7, 10) on 3F West to descend to 2F West.
-2. Go to Mewtwo Statue 2 at (2, 11) on 2F West and toggle to State B.
-3. Return to 3F West via the stairs.
-4. Walk to (9, 11), step Down to (9, 12), and walk straight East (Right) along Row 12 to 3F East (the balcony): (10, 12) -> (11, 12) -> (12, 12) -> (13, 12) -> (14, 12) -> and keep going right!
-5. On 3F East balcony, jump down the rightmost pit to land on 1F East near B1F stairs.
-6. Retrieve the Secret Key from B1F!
+- Active Phase Start: Turn 86550. Currently on Turn 86802.
 
 ## Disproven State B 2F East South Balcony Drop Strategy (Completed)
 - **Result**: Exhaustively tested and disproven on Turns 86660-86689. All tested balcony drops are solid and blocked. Backtracked out of the room successfully on Turn 86700.
