@@ -6678,6 +6678,11 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
     - **(27, 7) Rubble Test**: Stood at (28, 7) facing Left under active State B and pressed Left on Turn 88367. Result: **Bump** (0 tiles visited).
   - **Definitive Conclusion**: The visual rubble on Rows 5-7 Columns 24-27 has 100% solid physical collision under active State B. The Northeast room is indeed a complete, physical dead-end with no foot access to the Southeast room or the gate at Row 8 Column 24 under State B.
 
+- **Turn 88574 Physical Passability Test (State A)**:
+  - We stood at (14, 12) facing Down and pressed Left to attempt to step Left onto (13, 12) (labeled TYPE_2889).
+  - **Result**: Direct collision bump (0 tiles visited), remaining at (14, 12).
+  - **Definitive Conclusion**: (13, 12) is indeed a real, solid collision block of TYPE_2889, NOT a background texture. This physically and empirically proves that Column 13 acts as a continuous solid vertical partition on Rows 8-13, preventing direct horizontal on-foot crossing to the west from the 1F East northern half under active State A.
+
 <hr>
 
 <h1><code>Scratchpad/Mansion_Gate_Matrix</code></h1>
