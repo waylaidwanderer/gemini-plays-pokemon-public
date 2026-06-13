@@ -6436,6 +6436,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
       - Row 24: Bumped (Turn 89330)
       - Row 25: Bumped (Turn 89333)
     - Column 11 (Western Railing): Tested on Rows 16-26. All tested rows resulted in physical collisions (bumps), proving Column 11 is solid/impassable on these rows under active State B:
+      - Row 18: Bumped (Turn 89403)
       - Row 19: Bumped (Turn 89393)
       - Row 20: Bumped (Turn 89376)
       - Row 21: Bumped (Turn 89365)
