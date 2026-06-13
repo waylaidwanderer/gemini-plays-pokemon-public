@@ -6252,11 +6252,25 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 - **Turn 86323 Balcony (2, 16) Test**: Stood at (2, 16) facing Down under State A and pressed Down. Result: BUMP against (2, 17), proving Column 2 Row 17 is solid and impassable under State A.
 - **Turn 86325 Balcony (1, 16) Test**: Stood at (1, 16) facing Down under State A and pressed Down. Result: BUMP against (1, 17), proving Column 1 Row 17 is solid and impassable under State A.
 - **Definitive 3F West Balcony Disproof**: All balcony drop directions on 3F West are 100% solid and blocked under both State A and State B. There is no drop-off to 2F East South from the 3F West balcony. We must find another crossover method.
-## State B Crossover Corridor (9, 12) and (10, 12) Passability Testing Protocol
-- **Objective**: Determine if Column 9 Row 12 (9, 12) is completely passable under State B when the Scientist NPC is not blocking it.
-- **Methodology & Outcome**: Tested and disproven. Row 12 is blocked under State B. All horizontal 3F crossover attempts are completely blocked.
+## Disproven State A 1F Northeast Staircase Strategy (Completed Turn 86844)
+- **Result**: Tested and disproven on Turns 86841-86843.
+- **Verification Logs**:
+  - Turn 86841: Stood at (25, 10) facing Up, pressed Up against (25, 9). Result: BUMP.
+  - Turn 86842: Stood at (24, 10) facing Up, pressed Up against (24, 9). Result: BUMP.
+  - Turn 86843: Stood at (23, 9) facing Right, pressed Right against (24, 9). Result: BUMP.
+  - Turn 86844: Stood at (26, 9) facing Left, pressed Left against (25, 9). Result: BUMP.
+- **Conclusion**: The Northeast staircase at (24, 8)-(25, 9) is 100% solid, closed, and impassable from all directions under active State A.
 
-- Active Phase Start: Turn 86550. Currently on Turn 86822.
+## Active State B 1F Northeast Staircase Strategy (Started Turn 86851)
+- **Hypothesis**: The Northeast staircase is open and passable under active State B.
+- **Methodology**:
+  1. Backtrack to 2F West to toggle Statue 2 to State B (Toggled).
+  2. Return to 1F West and walk to 1F East Northeast room.
+  3. Walk to (25, 10) or (24, 10) and step Up onto (25, 9) or (24, 9) to trigger the staircase warp!
+  4. Once on 2F East Southeast, take the stairs up to 3F East.
+  5. On 3F East, jump down the rightmost pit to reach the B1F stairs.
+
+- Active Phase Start: Turn 86550. Currently on Turn 86851.
 
 <hr>
 
