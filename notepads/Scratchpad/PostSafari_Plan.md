@@ -40,8 +40,8 @@
      - Row 18 Column 11: [ ] Pending test.
      - Row 19 Column 11: [ ] Pending test.
      - Row 20 Column 11: [ ] Pending test.
-     - Row 21 Column 11: [ ] Pending test.
-     - Row 23 Column 11: [ ] Pending test.
+     - Row 21 Column 11: Completed Turn 89365. Bumped (solid).
+     - Row 23 Column 11: Completed Turn 89357. Bumped (solid).
      - Row 24 Column 11: Completed Turn 89350. Bumped (solid).
      - Row 25 Column 11: Completed Turn 89345. Bumped (solid).
      - Row 26 Column 11: [ ] Pending test.
