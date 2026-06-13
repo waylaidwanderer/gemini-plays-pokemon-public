@@ -115,6 +115,21 @@ Therefore, the correct plan is:
 
 ## Disproven State B 2F East South Balcony Drop Strategy (Completed)
 - **Result**: Exhaustively tested and disproven on Turns 86660-86689. All tested balcony drops are solid and blocked. Backtracked out of the room successfully on Turn 86700.
+- Turn 86688 Test: Walking Down from (13, 16) onto (13, 17) under active State B does NOT trigger any balcony drop animation, proving Column 13 Row 17 is a normal passable floor tile under State B. This exhaustively disproves the existence of any active balcony drops under State B.
+
+## Active State A 1F Northeast Staircase Walkthrough Strategy (Started Turn 86790)
+- **Objective**: Reach B1F by utilizing the State A 1F East Northeast staircase.
+- **Topological Plan**:
+  1. Toggle Statue 2 to State A on 2F West (Completed Turn 86780).
+  2. Descend to 1F West (Completed Turn 86783).
+  3. Walk from 1F West to 1F East on foot (Completed Turn 86785).
+  4. Navigate to Column 22 Row 3 on 1F East under State A.
+  5. Cross Column 22 Row 3 East into the Northeast room of 1F East.
+  6. Walk South to Row 12, and step onto the (26, 12) Northeast staircase to go up to 2F East.
+  7. On 2F East, walk South through the open Row 8 gate to the 2F East Southeast room.
+  8. Climb the stairs at (25, 14) up to 3F East.
+  9. On 3F East, walk onto the balcony and drop down the rightmost pit to land in the isolated 1F East south-central pocket where the B1F stairs are located.
+  10. Descend to B1F!
 
 ## State B Crossover Corridor (9, 12) and (10, 12) Passability Testing Protocol
 - **Objective**: Determine if Column 9 Row 12 (9, 12) is completely passable under State B when the Scientist NPC is not blocking it.
