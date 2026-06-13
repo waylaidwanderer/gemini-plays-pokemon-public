@@ -110,7 +110,7 @@
 - Column 14 Row 17 Test (Turn 87372): Stood at (13, 17) facing Right under active State B, pressed Right. Result: Bump, physically proving that Column 14 Row 17 is 100% solid and impassable under active State B.
 - 3F West Statue side interaction (Turn 87532/87537): Stood at (9, 9) facing Right, pressed A. Result: No textbox, physically proving that the statue at (10, 9) on 3F is non-interactive/decorative from the side.
 
-## State B Pit-Fall B1F Access Strategy (Started Turn 87665, Progress: Turn 87801)
+## State B Pit-Fall B1F Access Strategy (Started Turn 87665, Progress: Turn 87814)
 - **Objective**: Reach Cinnabar Mansion B1F by utilizing the intended vanilla dual-fall pit sequence under active State B.
 - **The Core Vanilla Solution**:
   1. Under active State B, walk from 2F West to 3F West.
