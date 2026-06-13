@@ -32,4 +32,12 @@
   2. Test Row 19 Column 14: Completed Turn 89165, bumped (solid).
   3. Walk Up 1 step to (13, 18) and press Right to test Row 18 Column 14: Completed Turn 89182, bumped (solid).
   4. Walk Up 1 step to (13, 17) and press Right to test Row 17 Column 14: Completed Turn 89191, bumped (solid).
-  5. Walk Up 1 step to (13, 16) and press Right to test Row 16 Column 14.
+  5. Walk Up 1 step to (13, 16) and press Right to test Row 16 Column 14: Completed Turn 89213, bumped (solid).
+
+## State B 2F East South Balcony Railings Campaign (Active Turn 89221)
+- **Objective**: Backtrack to 2F West, toggle Mewtwo Statue 2 to State B, navigate back to the 2F East South balcony (Rows 16-25, Columns 11-17) using open Gate 6 and Column 10, and systematically test the balcony railings on Columns 11-17 on foot.
+- **Route to Statue 2**:
+  - From (13, 16) on 2F East South, walk Left to Column 10: (13, 16) -> (12, 16) -> (11, 16) -> (10, 16) (3 steps Left).
+  - Walk Up Column 10 to Row 10: (10, 16) -> (10, 10) (6 steps Up).
+  - Walk Left across crossover to 2F West: (10, 10) -> (9, 10) -> (8, 10) (2 steps Left).
+  - From (8, 10), walk to Mewtwo Statue 2 at (2, 11) to toggle State B.
