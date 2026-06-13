@@ -20,12 +20,17 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\n\n# Output the precise button sequence to interact, advance, select YES, and clear the switch textbox.\nsequence = [\n    \"A\",\n    \"sleep 1500\",\n    \"A\",\n    \"sleep 1500\",\n    \"A\",\n    \"sleep 1500\",\n    \"A\"\n]\n\nprint(json.dumps(sequence))\n",
+    "python_script": "import json\n\n# Correct button sequence:\n# 1. A (interact)\n# 2. A (advance to YES/NO)\n# 3. Up (move cursor to YES)\n# 4. A (select YES)\n# 5. A (close confirmation text)\nsequence = [\n    \"A\",\n    \"sleep 1500\",\n    \"A\",\n    \"sleep 1500\",\n    \"Up\",\n    \"sleep 1500\",\n    \"A\",\n    \"sleep 1500\",\n    \"A\"\n]\n\nprint(json.dumps(sequence))\n",
     "history": [
       {
         "commit_message": "Define activate_mansion_switch tool to toggle Mewtwo Statue 2 switch under State B without triggering harness auto-advance.",
         "timestamp": "2026-06-13T22:31:09.509Z",
         "action_counter": 89809
+      },
+      {
+        "commit_message": "Update activate_mansion_switch to press Up before selecting YES to correctly toggle Statue 2 to State B.",
+        "timestamp": "2026-06-13T22:31:44.587Z",
+        "action_counter": 89810
       }
     ]
   }
