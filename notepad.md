@@ -6279,10 +6279,11 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   6. On 3F East, navigate to the rightmost balcony pit and fall down. This drops us past 2F and lands us on 1F next to the B1F basement stairs!
   7. Enter B1F to map the basement floor and find the Secret Key.
 
-- Active Phase Start: Turn 86550. Currently on Turn 87157.
+- Active Phase Start: Turn 86550. Currently on Turn 87190.
 - Turn 87116: Reached (10, 6) facing Up under active State B. Preparing to navigate horizontally on Row 6 to reach the eastern half of the floor by bypassing the Column 15 solid wall at (15, 6). Path plan is: Right to (16, 6) across Column 15, then walk Up to Row 3, and walk Right.
 - Turn 87127: Self-assessment and reflection turn. Found that the Burglar at (21, 5) is solid and blocks straight vertical movement along Column 21. Pressing A did not trigger dialogue or battle, meaning we must bypass him. Discovered an elegant 9-step ground-level detour to enter the Northeast room: Left 2 to (19, 6), Up 2 to (19, 4), Right 2 to (21, 4), Up 1 to (21, 3), and Right 2 to (23, 3). No obstacles exist on these tiles. Preparing to execute this path.
 - Turn 87157: Backtracked all the way into the Northeast room at (28, 7) facing Down to re-verify the Row 8 partition wall. Attempted to step Down into (28, 8) and confirmed a solid physical collision, proving once and for all that the Northeast room of 2F East is a total dead end under State B. The 2F East State B crossover route is completely and permanently disproven. We are immediately backtracking to 2F West (7, 10) to ascend to 3F West.
+- Turn 87190: Successfully backtracked out of the Northeast room, crossed Column 15 on Row 6 to bypass the Row 5 wall blockages, and reached (8, 10) facing Left on 2F West. Preparing to take 1 step Left to warp up to 3F West.
 
 <hr>
 
