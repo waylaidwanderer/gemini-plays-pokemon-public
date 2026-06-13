@@ -6528,6 +6528,10 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
     - Under State A, Gate 3 at (18, 8)-(19, 8) is OPEN and the Row 10 crossover at (9, 10) is OPEN. This allows us to walk on foot from 2F West directly to the central-east corridor on 2F East South (Columns 16-21). However, there is no staircase at (21, 10) as previously misidentified. The tile (21, 10) is a standard open floor tile (TYPE_3fe2).
     - Note: The staircase graphic at (25, 14) inside the Southeast room is the actual staircase on this half of the floor, but it is located in the Southeast room which is isolated under both State A and State B due to the Column 22 blockages and closed gates on 1F. The staircase/doorway inside the Southeast room can only be accessed by climbing to 3F East (or falling from 3F East). Since there is no walkthrough crossover from 3F West to 3F East, let's re-verify how to access B1F or the rest of the mansion.
   - **Northeast Room Staircase Hypothesis (DISPROVEN Turn 83409)**: We systematically and physically walked over every single passable floor tile in the Northeast room of 2F East (Columns 23-28, Rows 1-7) under State B (Turns 83379-83409). None of the tiles triggered a warp or staircase transition. This empirically and definitively disproves the existence of any staircase in the Northeast room.
+  - **Northeast Room State B Dead-End Audit (Completed Turn 87817)**:
+    - We navigated to (23, 3) inside the Northeast room on Turn 87807 under active State B. Rows 6 and 7 across Columns 23 to 27 are completely filled with solid, impassable rubble tiles (TYPE_2889).
+    - The only open, walkable path on Row 7 is Column 28, where (28, 7) is a standard open floor tile (TYPE_3fe2). However, Column 28 Row 8 is solid (bumped on Turn 83391).
+    - Therefore, the Northeast room of 2F East is a 100% confirmed dead-end under State B on foot with absolutely zero access to the isolated 2F Southeast room. This hypothesis is conclusively disproven.
 - **Falls/Pits**:
   - Fall Spot 1: (TBD, TBD) -> Drops to (TBD, TBD) on 1F
 - **Items**:
