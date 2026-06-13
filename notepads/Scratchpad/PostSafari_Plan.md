@@ -108,3 +108,10 @@
 - We also realized we never tested Column 1 or 2 of the 3F West balcony under State B.
 - Hypothesis: Under State B, walking Down from (1, 16) or (2, 16) on 3F West will successfully drop us down to 2F West balcony, allowing us to proceed to B1F.
 - Plan: Backtrack to stairs at (7, 10), go down to 2F West, toggle Statue 2 to State B, return to 3F West, and test Column 1 and 2 balcony drop under State B.
+- Turns 86431-86442: Completed systematic physical verification of all remaining columns on the 3F West southwest balcony under State B.
+  - Column 3 Row 16: Stood at (3, 16) facing Down on Turn 86439 and pressed Down. Result: BUMP against (3, 17) (`TYPE_2889`).
+  - Column 4 Row 16: Stood at (4, 16) facing Down on Turn 86441 and pressed Down. Result: BUMP against (4, 17) (`TYPE_2889`).
+  - Column 5 Row 16: Stood at (5, 16) facing Down on Turn 86442 and pressed Down. Result: BUMP against (5, 17) (`TYPE_2889`).
+  - Column 1 Row 16 (from Turn 86418) and Column 2 Row 16 (from Turn 86415) were also verified as solid bumps under State B.
+- **Definitive 3F West Balcony Drop Disproof (State B)**: All five columns (1 to 5) on Row 16 under State B are 100% solid, impassable railings. There is absolutely no active balcony drop-off on 3F West under either State A or State B. This satisfies the overwatch critique and completes the Socratic Burden of Proof.
+- Active Phase Start: Turn 86331. Currently on Turn 86443. We must re-evaluate how to access B1F or crossover.
