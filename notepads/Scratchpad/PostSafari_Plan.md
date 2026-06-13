@@ -122,7 +122,7 @@
 - Column 14 Row 17 Test (Turn 87372): Stood at (13, 17) facing Right under active State B, pressed Right. Result: Bump, physically proving that Column 14 Row 17 is 100% solid and impassable under active State B.
 - 3F West Statue side interaction (Turn 87532/87537): Stood at (9, 9) facing Right, pressed A. Result: No textbox, physically proving that the statue at (10, 9) on 3F is non-interactive/decorative from the side.
 
-## State A Pit-Fall B1F Access Strategy (Started Turn 87854, Progress: Turn 87854)
+## State A Pit-Fall B1F Access Strategy (Started Turn 87854, Progress: Turn 87875)
 - **Objective**: Reach Cinnabar Mansion B1F by utilizing the intended vanilla State A pit-fall sequence.
 - **The Core Vanilla Solution**:
   1. Toggle Mewtwo Statue 2 on 2F West to **State A (Default)**.
