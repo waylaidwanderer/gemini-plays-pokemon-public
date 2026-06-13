@@ -129,3 +129,4 @@
   7. Enter B1F to map the basement floor and find the Secret Key.
 
 - Active Phase Start: Turn 86550. Currently on Turn 87105.
+- Turn 87116: Reached (10, 6) facing Up under active State B. Preparing to navigate horizontally on Row 6 to reach the eastern half of the floor by bypassing the Column 15 solid wall at (15, 6). Path plan is: Right to (16, 6) across Column 15, then walk Up to Row 3, and walk Right.
