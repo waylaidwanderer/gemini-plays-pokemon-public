@@ -121,8 +121,8 @@
 - Column 14 Row 17 Test (Turn 87372): Stood at (13, 17) facing Right under active State B, pressed Right. Result: Bump, physically proving that Column 14 Row 17 is 100% solid and impassable under active State B.
 - 3F West Statue side interaction (Turn 87532/87537): Stood at (9, 9) facing Right, pressed A. Result: No textbox, physically proving that the statue at (10, 9) on 3F is non-interactive/decorative from the side.
 
-## State B 2F East Route to 3F East (Turn 88080 Plan)
-- Active Exploration Phase: Turn 88080.
+## State B 2F East Route to 3F East (Turn 88093 Plan)
+- Active Exploration Phase: Turn 88093.
 - **Objective**: Reach Cinnabar Mansion B1F by utilizing the intended vanilla State B route via 2F East.
 - **Why 1F East Staircase is impossible**:
   - We physically tested (27, 10) on 1F East on Turn 88003 and confirmed it is solid rubble (`TYPE_2889`). In vanilla Pokémon Red/Blue, there is NO staircase on 1F East.
