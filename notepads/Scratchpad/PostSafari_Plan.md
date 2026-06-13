@@ -117,20 +117,15 @@
   - Turn 86910: Stood at (24, 10) facing Up, pressed Up against (24, 9). Result: BUMP.
 - **Conclusion**: The Northeast staircase at (24, 8)-(25, 9) is 100% solid, closed, and impassable from all directions under active State B as well as State A.
 
-## Active State A 3F Crossover & B1F Descent Route (Started Turn 86979)
-- **Concept**: To reach B1F, we must access 3F East, walk to the eastern balcony, and drop down the rightmost pit. 3F East is only accessible on foot from 3F West under State A (Default), where the gate on Column 11/12 is open.
+## Active State B 2F East North Crossover Strategy (Started Turn 87081)
+- **Concept**: Since 3F West-East crossover is completely solid and blocked on foot under both states, and the 1F East Northeast staircase is completely blocked under both states, we must explore a new crossover method on 2F East under active State B.
 - **Detailed Step-by-Step Execution Plan**:
-  1. From our current position (9, 11) on 3F West under State B, walk to the stairs at (7, 10).
-  2. Take the stairs down to 2F West.
-  3. Walk to Mewtwo Statue 2 at (2, 11) on 2F West.
-  4. Interact with Statue 2 to toggle the mansion gates back to State A (Default).
-  5. Climb the stairs at (7, 10) back up to 3F West.
-  6. On 3F West under State A, walk to the northern passage on Row 7: (7, 11) -> (7, 10) -> (7, 9) -> (7, 8) -> (7, 7) (Wait, (7, 7) is solid? Let's check: (10, 7) and (11, 7) are open. We can walk along Row 7 past Column 10 to Column 12 to enter 3F East).
-  7. On 3F East, navigate to the rightmost balcony pit and fall down directly into B1F!
+  1. From our current position (7, 10) on 2F West under State B, walk Right horizontally along Row 10: (7, 10) -> (8, 10) -> (9, 10) -> (10, 10).
+  2. Walk vertically Up along Column 10: (10, 10) -> (10, 9) -> (10, 8) -> (10, 7) -> (10, 6) -> (10, 5) -> (10, 4) -> (10, 3).
+  3. Row 3 Column 22 is open under State B. Walk Right to (23, 3) to enter the Northeast room of 2F East.
+  4. Under active State B, there is a vertical gate on Row 8 (specifically Column 24) on the East side that should be OPEN. Walk south through this gate to enter the isolated Southeast room of 2F East.
+  5. In the Southeast room of 2F East, walk to the stairs at (25, 14) and climb UP to 3F East.
+  6. On 3F East, navigate to the rightmost balcony pit and fall down. This drops us past 2F and lands us on 1F next to the B1F basement stairs!
+  7. Enter B1F to map the basement floor and find the Secret Key.
 
-- **Northeast Staircase Test Logs**:
-  - Turn 86902: Stood at (25, 10) facing Up under active State B, pressed Up against (25, 9). Result: BUMP.
-  - Turn 86910: Stood at (24, 10) facing Up under active State B, pressed Up against (24, 9). Result: BUMP.
-  - Conclusion: The 1F East Northeast staircase at (24, 8)-(25, 9) is completely solid and blocked under active State B as well as active State A. It is completely impassable.
-
-- Active Phase Start: Turn 86550. Currently on Turn 87045.
+- Active Phase Start: Turn 86550. Currently on Turn 87081.
