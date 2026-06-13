@@ -126,6 +126,11 @@
     - **Conclusion**: There is absolutely no walkthrough or drop-off connection on 3F West under State B either. All tested balcony and crossover directions are completely blocked under both State A and State B.
 - **State B Column 10 Row 11 Passability Test (CORRECTED & VERIFIED)**:
     - On Turn 84939, we stood at (9, 11) under the mathematically and visually verified State B (Mewtwo Statue 2 toggled to State B, Gate 6 open on 2F West) and pressed Right to step onto (10, 11). Result: **Bump** against (10, 11), remaining at (9, 11).
+    - On Turn 88452, we stood at (9, 11) facing Right under active State B and pressed Right. Result: **Bump** against (10, 11), remaining at (9, 11).
+    - On Turn 88455, we stood at (9, 11) facing Down under active State B and pressed Down. Result: **Bump** against (9, 12), remaining at (9, 11).
+    - On Turn 88465, we stood at (8, 12) facing Right under active State B and pressed Right. Result: **Bump** against (9, 12), remaining at (8, 12).
+    - On Turn 88473, we stood at (8, 13) facing Right under active State B and pressed Right. Result: **Bump** against (9, 13), remaining at (8, 13).
+    - **Definitive Conclusion**: Row 11 Column 10 (10, 11), Row 12 Column 9 (9, 12), and Row 13 Column 9 (9, 13) are 100% solid, closed, and impassable under active State B. This confirms that there is absolutely no walkthrough crossover on 3F between the West and East sides of the floor under active State B.
     - **Definitive Conclusion**: Column 10 Row 11 is 100% solid, closed, and impassable under the true State B. This confirms that there is absolutely no walkthrough crossover on 3F between the West and East sides of the floor under either state.
 - **State A (Statue 2 Default) Balcony East-Edge Drop Tests**:
     - Column 5 (Row 11): Tested on Turn 85956 -> Stepped Right onto (6, 11) (Normal floor, no drop).
