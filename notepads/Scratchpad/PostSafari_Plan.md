@@ -28,7 +28,7 @@
   1. **Column 14 Atrium Railing (Rows 16-25)**:
      - Row 16 Column 14: Completed Turn 87351. Bumped (solid).
      - Row 17 Column 14: Completed Turn 87372. Bumped (solid).
-     - Row 18 Column 14: [ ] Pending test.
+     - Row 18 Column 14: Completed Turn 89293. Bumped (solid).
      - Row 19 Column 14: [ ] Pending test.
      - Row 20 Column 14: [ ] Pending test.
      - Row 21 Column 14: [ ] Pending test.
