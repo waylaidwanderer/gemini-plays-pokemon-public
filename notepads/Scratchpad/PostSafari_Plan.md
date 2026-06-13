@@ -115,5 +115,11 @@
   - Walk Right to (8, 11) -> Up to (8, 10) -> Up to (8, 9) (bypassing stairs warp at (7, 10)).
   - Walk Left to (5, 9) -> Down to (5, 13) -> Left to (2, 13).
   - From (2, 13), explore Columns 1 and 2, specifically testing passability of Column 2 Row 9.
+- Turn 86529: Stood at (1, 10) facing Right under State A, pressed Right. Result: Bump against (2, 10). This physically and empirically proves Column 2 Row 10 is CLOSED and impassable under State A.
+- Turn 86515: Tested Column 5 Row 7 under State A, resulting in a bump against (5, 7).
+- Turn 86518: Tested Column 6 Row 7 under State A, resulting in a bump against (6, 7).
+- **Active Statue 3 State A Interaction Plan (Started Turn 86534)**:
+  - We have never pressed 'A' facing the Mewtwo Statue at (10, 9) under State A (we only bumped into it on Turn 85112).
+  - We will walk to (9, 9) facing Right under State A, and press 'A' to test if the statue's switch is interactive under State A!
 - **Definitive 3F West Balcony Drop Disproof (State B)**: All five columns (1 to 5) on Row 16 under State B are 100% solid, impassable railings. There is absolutely no active balcony drop-off on 3F West under either State A or State B. This satisfies the overwatch critique and completes the Socratic Burden of Proof.
 - Active Phase Start: Turn 86331. Currently on Turn 86443. We must re-evaluate how to access B1F or crossover.
