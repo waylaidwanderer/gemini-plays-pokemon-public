@@ -6198,8 +6198,8 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
      - Row 15 Column 12: [ ] Pending test.
      - Row 15 Column 13: [ ] Pending test.
   4. **Row 26 Southern Wall/Gate (Columns 12-13)**:
-     - Row 26 Column 12 (Gate 26): [ ] Pending test.
-     - Row 26 Column 13 (Gate 26): [ ] Pending test.
+     - Row 26 Column 12 (Gate 26): Completed Turn 80627. Bumped (solid).
+     - Row 26 Column 13 (Gate 26): Completed Turn 87357. Bumped (solid).
 
 <hr>
 
