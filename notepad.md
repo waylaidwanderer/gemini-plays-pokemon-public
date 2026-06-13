@@ -6252,40 +6252,11 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 - **Turn 86323 Balcony (2, 16) Test**: Stood at (2, 16) facing Down under State A and pressed Down. Result: BUMP against (2, 17), proving Column 2 Row 17 is solid and impassable under State A.
 - **Turn 86325 Balcony (1, 16) Test**: Stood at (1, 16) facing Down under State A and pressed Down. Result: BUMP against (1, 17), proving Column 1 Row 17 is solid and impassable under State A.
 - **Definitive 3F West Balcony Disproof**: All balcony drop directions on 3F West are 100% solid and blocked under both State A and State B. There is no drop-off to 2F East South from the 3F West balcony. We must find another crossover method.
-- Active Phase Start: Turn 86550. Currently on Turn 86802.
-
-## Disproven State B 2F East South Balcony Drop Strategy (Completed)
-- **Result**: Exhaustively tested and disproven on Turns 86660-86689. All tested balcony drops are solid and blocked. Backtracked out of the room successfully on Turn 86700.
-- Turn 86688 Test: Walking Down from (13, 16) onto (13, 17) under active State B does NOT trigger any balcony drop animation, proving Column 13 Row 17 is a normal passable floor tile under State B. This exhaustively disproves the existence of any active balcony drops under State B.
-
-## Active State A 1F Northeast Staircase Walkthrough Strategy (Started Turn 86790)
-- **Objective**: Reach B1F by utilizing the State A 1F East Northeast staircase.
-- **Topological Plan**:
-  1. Toggle Statue 2 to State A on 2F West (Completed Turn 86780).
-  2. Descend to 1F West (Completed Turn 86783).
-  3. Walk from 1F West to 1F East on foot (Completed Turn 86785).
-  4. Navigate to Column 22 Row 3 on 1F East under State A.
-  5. Cross Column 22 Row 3 East into the Northeast room of 1F East.
-  6. Walk South to Row 12, and step onto the (26, 12) Northeast staircase to go up to 2F East.
-  7. On 2F East, walk South through the open Row 8 gate to the 2F East Southeast room.
-  8. Climb the stairs at (25, 14) up to 3F East.
-  9. On 3F East, walk onto the balcony and drop down the rightmost pit to land in the isolated 1F East south-central pocket where the B1F stairs are located.
-  10. Descend to B1F!
-
 ## State B Crossover Corridor (9, 12) and (10, 12) Passability Testing Protocol
 - **Objective**: Determine if Column 9 Row 12 (9, 12) is completely passable under State B when the Scientist NPC is not blocking it.
-- **Methodology & Outcome (Turn 86575-86582)**:
-  - Toggled Statue 2 on 2F West to State B on Turn 86561.
-  - Returned to 3F West via the stairs at (7, 10) on Turn 86564.
-  - Attempted to cross Row 12 under State B: from (9, 11) pressed Down, Right, Right, Down, Right, Right, Right, Down, Down.
-  - **Results**: Stepping onto Column 11 Row 12 (11, 12) on 3F immediately triggered a fall through Pit A (The Secret Fall), landing us on 2F (Map 0_214) at (12, 12).
-  - **Conclusion**: Row 12 on 3F under State B is passable on Columns 9 and 10, but Column 11 Row 12 (11, 12) is Pit A. This fall is fully passable, dropping us directly to the isolated 2F East South room at (12, 12). We are now positioned at 2F (12, 12).
-- **Systematic Exploration Plan (2F East South Landing)**:
-  - Since we landed at (12, 12) on 2F East South under State B, we must investigate this isolated pocket.
-  - Socratic Question: Does this pocket contain the stairs going down to 1F East Southeast?
-  - Socratic Question 2: In unmodded Gen 1, the stairs down from this isolated 2F room are located at (25, 14) on 2F East. Can we navigate to the Southeast room on 2F from this landing pocket (X=12, Y=12)?
-  - Let's analyze Column 13 to Column 21 passability on foot under State B. If Column 22 blocks rows 8-15, we must determine if there is a vertical passage.
-  - Let's proceed carefully, mapping every tile in 2F East South on foot in 1-tile chunks.
+- **Methodology & Outcome**: Tested and disproven. Row 12 is blocked under State B. All horizontal 3F crossover attempts are completely blocked.
+
+- Active Phase Start: Turn 86550. Currently on Turn 86822.
 
 <hr>
 
