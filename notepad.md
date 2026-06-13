@@ -6259,9 +6259,6 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - We have systematically tested Column 10 Row 11 (Turn 88452), Column 9 Row 12 (Turn 88455), Column 9 Row 12 from (8, 12) (Turn 88465), and Column 9 Row 13 from (8, 13) (Turn 88473) on foot under active State B. All tests resulted in solid bumps.
   - **Definitive Conclusion**: The 3F West-East crossover is 100% physically blocked and impassable on foot under active State B. There is no walkthrough connection on 3F under State B.
 
-## Disproven State A 1F East Direct On-Foot Route (Turn 88611 Completed)
-- **Conclusion**: Completely disproven. On Turns 88574, 88603, and 88611, we physically tested the vertical passability of Row 13 on Columns 11 and 12, and the horizontal passability of Column 13 Row 12. All tests resulted in solid bumps, proving that Row 13 is a continuous, solid, impassable wall on 1F, completely isolating the B1F stairs.
-
 ## 🧹 Overworld Cleaning Archive (Turn 87554)
 - Overwatch clean up successfully done. Removed transient testing protocol for Row 17 Column 14. Original historical facts safely retained.
 - **Turn 88033 Physical Passability Test**:
