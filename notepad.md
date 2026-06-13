@@ -6266,11 +6266,6 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Walk Right to (8, 11) -> Up to (8, 10) -> Up to (8, 9) (bypassing stairs warp at (7, 10)).
   - Walk Left to (5, 9) -> Down to (5, 13) -> Left to (2, 13).
   - From (2, 13), explore Columns 1 and 2, specifically testing passability of Column 2 Row 9.
-- Turns 86431-86442: Completed systematic physical verification of all remaining columns on the 3F West southwest balcony under State B.
-  - Column 3 Row 16: Stood at (3, 16) facing Down on Turn 86439 and pressed Down. Result: BUMP against (3, 17) (`TYPE_2889`).
-  - Column 4 Row 16: Stood at (4, 16) facing Down on Turn 86441 and pressed Down. Result: BUMP against (4, 17) (`TYPE_2889`).
-  - Column 5 Row 16: Stood at (5, 16) facing Down on Turn 86442 and pressed Down. Result: BUMP against (5, 17) (`TYPE_2889`).
-  - Column 1 Row 16 (from Turn 86418) and Column 2 Row 16 (from Turn 86415) were also verified as solid bumps under State B.
 - **Definitive 3F West Balcony Drop Disproof (State B)**: All five columns (1 to 5) on Row 16 under State B are 100% solid, impassable railings. There is absolutely no active balcony drop-off on 3F West under either State A or State B. This satisfies the overwatch critique and completes the Socratic Burden of Proof.
 - Active Phase Start: Turn 86331. Currently on Turn 86443. We must re-evaluate how to access B1F or crossover.
 
