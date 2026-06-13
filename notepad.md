@@ -6252,15 +6252,20 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 - **Turn 86323 Balcony (2, 16) Test**: Stood at (2, 16) facing Down under State A and pressed Down. Result: BUMP against (2, 17), proving Column 2 Row 17 is solid and impassable under State A.
 - **Turn 86325 Balcony (1, 16) Test**: Stood at (1, 16) facing Down under State A and pressed Down. Result: BUMP against (1, 17), proving Column 1 Row 17 is solid and impassable under State A.
 - **Definitive 3F West Balcony Disproof**: All balcony drop directions on 3F West are 100% solid and blocked under both State A and State B. There is no drop-off to 2F East South from the 3F West balcony. We must find another crossover method.
-- **Active State A 3F Crossover Plan (Started Turn 86327)**: Since 1F East is completely staircase-less, and 3F West balcony has no drops, we will revisit the 3F West-East crossover under State A. Historically on Turn 85285-85287, we successfully interacted with the Mewtwo Statue at (10, 9) on 3F and navigated past it to (12, 7) under State A, connecting 3F West to 3F East on foot! We will now walk to (9, 9) on 3F West to verify this connection.
-- Turn 86345: Standing at (9, 9) on 3F West facing Right under State A. Visually, (10, 9) is TYPE_2889 (rubble wall). We will test walking Right onto (10, 9) to see if we bump or pass. If we bump, it's impassable. If we pass, we can walk past it. Let's execute this test.
-- Active Phase Start: Turn 86550. Currently on Turn 86649.
+- Active Phase Start: Turn 86550. Currently on Turn 86671.
 
-## Active State B 2F East South Balcony Drop Strategy (Turn 86649 Plan)
-- We are at (10, 21) in the isolated 2F East South room under State B.
-- We will cross into Corridor 2 (Columns 12-13) by walking Down to (10, 22), then Right to (11, 22) and (12, 22).
-- Then we will walk Up Corridor 2 to Row 16 (Columns 12 & 13) and test jumping Down (South) over the balcony railing at Row 17 under active State B.
-- Socratic Hypothesis: If the balcony drop on Columns 12 & 13 Row 17 is open under State B, jumping south will land us in the 1F East south-central pocket. This pocket has the B1F stairs at (21, 23), granting us immediate access to B1F!
+## Active State B 2F East South Balcony Drop Strategy (Turn 86671 Plan)
+- Turn 86662: Tested the balcony railing at Column 12 Row 17 under active State B by walking Down from (12, 17) onto (12, 18). Result: Walked normally with no balcony drop animation, proving Column 12 Row 17 is a normal passable floor tile and NOT an active jump-down ledge under State B.
+- **Next Exploration Steps (Turn 86671)**:
+  - We are currently standing at (12, 22) in Corridor 2 on Map 0_214 under State B.
+  - To be systematically thorough, we must now test Column 13's balcony railing on Row 17 under active State B.
+  - To do this:
+    1. Walk Up Corridor 2 to Row 16: walk Up from (12, 22) to (12, 16).
+    2. Step Right onto (13, 16) [TYPE_3fe2].
+    3. Walk Down (South) from (13, 16) onto (13, 17) to test if we jump down over the balcony railing at (13, 17) under active State B.
+  - Socratic Progression:
+    - If Column 13 Row 17 balcony drop is open, we fall into the 1F East south-central pocket, allowing us to descend the stairs to B1F.
+    - If Column 13 Row 17 balcony drop is also solid, we can confidently conclude that the entire 2F East South balcony has no active drop-offs under State B. We will then walk back to 2F West on foot via the Row 10/12 crossovers, return to 2F West, toggle back to State A, and execute our State A northern crossover bypass route on 3F!
 
 ## State B Crossover Corridor (9, 12) and (10, 12) Passability Testing Protocol
 - **Objective**: Determine if Column 9 Row 12 (9, 12) is completely passable under State B when the Scientist NPC is not blocking it.
