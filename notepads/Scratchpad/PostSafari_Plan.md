@@ -21,7 +21,7 @@
 
 🧱 Overwatch Cleanup: Large obsolete/duplicate planning blocks from Turns 85829-86326 removed successfully to keep context focused and clean.
 
-## State A 2F East South Column 17 Balcony Crossover Campaign (Active Turn 89041)
+## State A 2F East South Column 17 Balcony Crossover Campaign (Active Turn 89071)
 - **Topological Breakthrough Hypothesis**: If walkthrough connections on 3F and 1F are blocked, B1F must be reached via an unvisited path under State A. The southern balcony of 2F East South is continuous in standard Red/Blue. We will systematically test the horizontal passability of Column 17 on Rows 11-15 on 2F East South on foot under active State A (where Gate 3 is OPEN) to walk onto Columns 11-17 on the southern balcony and access the jump-down ledge!
 - **Step-by-Step Path**:
   1. We are standing at (7, 11) on 3F West under active State A.
