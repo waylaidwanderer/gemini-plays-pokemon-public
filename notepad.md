@@ -6515,8 +6515,8 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
     - Column 5 (Row 11): Tested on Turn 84865 -> Stepped Right onto (6, 11) (Normal floor, no drop).
     - Column 5 (Row 12): Tested on Turn 84927 -> Stepped Right onto (6, 12) (Bump against solid table, no drop).
     - Column 5 (Row 13): Tested on Turn 84917 -> Stepped Right onto (6, 13) (Bump against solid table, no drop).
-    - Column 5 (Row 14): Tested on Turn 84900 -> Stepped Right onto (6, 14) (Normal floor, no drop).
-    - Column 5 (Row 15): Tested on Turn 84896 -> Stepped Right onto (6, 15) (Normal floor, no drop).
+    - Column 5 (Row 14): Tested on Turn 84900 -> Stepped Right onto (6, 14) (Normal floor, no drop). Verified on Turn 89509 (normal floor with no drop).
+    - Column 5 (Row 15): Tested on Turn 84896 -> Stepped Right onto (6, 15) (Normal floor, no drop). Verified on Turn 89525 (normal floor with no drop).
     - Column 5 (Row 16): Tested on Turn 80781 by standing at (5, 16) facing Right and pressing Right. Result: **Bump** against (6, 16). Confirmed 100% solid, impassable under State B.
     - Column 6 (Row 15): Tested on Turn 83021 by standing at (6, 15) facing Down and pressing Down. Result: **Bump** against (6, 16). Confirmed 100% solid, impassable under State B.
     - Column 7 (Row 15): Tested on Turn 83026 by standing at (7, 15) facing Down and pressing Down. Result: **Bump** against (7, 16). Confirmed 100% solid, impassable under State B.
