@@ -6204,7 +6204,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - **Result**: Direct collision bump (0 tiles visited), remaining at (24, 3).
   - **Definitive Conclusion**: (24, 4) is indeed a real, solid collision block of TYPE_2889, NOT a background texture. This definitively disproves the State B Northeast-Southeast walkthrough hypothesis. The Northeast room is a complete dead-end under State B.
 
-## State B 3F West Column 10 Crossover Campaign (Active Turn 88987)
+## State B 3F West Column 10 Crossover Campaign (Active Turn 89024)
 - **The Redesign**: We have identified a severe physical contradiction in our previous plan: Columns 11-14 on 3F are in the eastern wing (3F East), but the vertical dividing wall at Column 10 is solid on Rows 8-15, making Columns 11-14 completely unreachable from 3F West on foot if Column 10 is closed on all rows.
 - **Topological Breakthrough Hypothesis**: To resolve this deadlock and reach B1F, we must systematically test whether we can bypass or cross Column 10 on Row 6 or Row 7 on 3F West under active State B (Statue 2 Toggled). If we can walk around the partition on Row 6 or Row 7 on 3F West under active State B, we will immediately unlock access to the eastern wing of 3F (Columns 11-30), where the static Pit Chute at (11, 12) is located, which drops us down to the basement (B1F) to retrieve the Secret Key!
 - **Left-Side Corridor Test Plan**: 
