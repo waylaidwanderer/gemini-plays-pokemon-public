@@ -6446,7 +6446,9 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Wild Magmar: Caught at (9, 10) | State: [x] Captured (Turn 75664). Nicknamed KILN (Level 34), stored in PC Box 1.
 - **Left Side of 3F**:
   - Accessible via Row 13: (1, 13), (2, 13), (3, 13), (4, 13), (5, 13). (Verified passable on foot on Turn 76810).
-  - **Column 1 Row 9 Blockage**: Empirically proven to be a solid wall of TYPE_2889 on Turn 76873 by attempting to step Up from (1, 10) and colliding.
+  - **Column 1 Row 9 Blockage (State B)**: Empirically proven to be a solid wall of TYPE_2889 on Turn 76873 and Turn 89001 by attempting to step Up from (1, 10) and colliding.
+  - **Column 4 Row 8 Blockage (State B)**: Tested on Turn 88934 by attempting to walk Left from (5, 8) and colliding with (4, 8) (solid wall of TYPE_2889 under State B).
+  - **Column 2 Row 10 Blockage (State B)**: Tested on Turn 89003 by attempting to walk Right from (1, 10) and colliding with (2, 10) (solid wall of TYPE_2889 under State B).
   - **Northern Half Isolation**: Rows 6 and 7 are entirely blocked by solid wall/rubble of TYPE_2889 across all columns on 3F West, meaning the northern half of 3F West (Rows 1-5) is completely isolated and unreachable on foot from the southern half under both states.
   - **Balcony Ledge Testing**: Systematically testing Row 17 on Columns 1-5 on 3F West to find a balcony jump-down spot.
     - Column 5: Tested on Turn 76905 by pressing Down from (5, 16) and bumped, proving (5, 17) is a solid railing under State B.
