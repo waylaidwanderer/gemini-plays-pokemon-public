@@ -36,7 +36,7 @@
     4. On 3F East, walk to the rightmost balcony pit. Falling through the right side of this pit drops us past 2F and directly onto 1F next to the B1F stairs!
 - **Current Action Plan**:
   - Walk to the 1F East Southeast room (by walking Right past Column 9, through Gate 1 at (25, 13)), and take the staircase UP to 2F East.
-  - **Empirical Progress (Turn 89575)**: Currently standing at (12, 6) facing Up. We have navigated successfully around the Column 13 solid wall partition and are poised to cross Row 6 horizontally to 1F East.
+  
 
 ## State B 2F East South Balcony Railings Campaign (Active Turn 89522)
 - **Objective**: Systematically and physically test the passability of the 2F East South balcony boundaries (Columns 11-14, Rows 15-26) on foot under active State B to find any potential jump-down drop or passage. This campaign is successfully completed.
