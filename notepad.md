@@ -6226,14 +6226,6 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 
 ## State B Northeast Room Complete Sweep Disproof (Turn 86172 Completed)
 - **Definitive Conclusion**: On Turn 86172, we completed 100% of our systematic floor coverage of the entire Northeast room of 1F East under State B (tested Rows 1-11, Columns 23-28 on all walkable tiles). Absolutely none of the tiles triggered a staircase transition or warp, and (27, 11) is a solid, closed rubble wall when approached from the proper southern direction at (27, 12). This empirically and definitively disproves the existence of any active staircase or warp in the Northeast room of 1F East under State B.
-## Active State A Northeast Room Hypothesis (Started Turn 86221)
-- **The Hypothesis**: Since 3F West-East crossover is completely solid under both states, and the 2F Southeast room (with stairs up to 3F East) is isolated, and 1F East Northeast room has no stairs under State B, the active staircase to 2F East Southeast/Northeast must be active and accessible under State A!
-  - Under State A, we can enter the Northeast room of 1F East on foot via the northern crossover on Column 22 Row 3 (which is open under State A).
-  - We successfully toggled Mewtwo Statue 1 to State A (Default) on Turn 86214.
-  - We will now systematically test all tiles in the Northeast room on foot under State A and log every coordinate-specific outcome below.
-
-- **Definitive 1F East Northeast Room Complete Sweep Disproof**: We systematically and physically walked over every single passable floor tile in the Northeast room of 1F East under both State A (Default) and State B (Turns 86234-86286). Absolutely none of the tiles triggered a staircase transition or warp. This empirically and definitively disproves the existence of any active staircase or warp in the Northeast room. Combined with the complete sweep disproof of the Southeast room of 1F East, we can definitively state that **1F East is completely staircase-less**. The staircase to 2F East South/Southeast must be accessed by some other means.
-
 ## 3F West Gate & Balcony Complete Audit (Turn 86326)
 - **Turn 86316 Gate (8, 8) Test**: Stood at (8, 9) facing Up under State A and pressed Up. Result: BUMP against (8, 8), proving the gate is CLOSED and impassable under State A.
 - **Turn 86323 Balcony (2, 16) Test**: Stood at (2, 16) facing Down under State A and pressed Down. Result: BUMP against (2, 17), proving Column 2 Row 17 is solid and impassable under State A.
