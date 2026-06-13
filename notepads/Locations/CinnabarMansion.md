@@ -209,7 +209,9 @@
   - **Result**: Direct collision bump (0 tiles visited), remaining at (24, 3).
   - **Definitive Conclusion**: (24, 4) is indeed a real, solid collision block of TYPE_2889, NOT a background texture. This definitively disproves the State B Northeast-Southeast walkthrough hypothesis. The Northeast room is a complete dead-end under State B.
 
-- **Turn 88103 Column 22 State A Passability Test & Breakthrough**:
-  - **Hypothesis**: The gate on Column 22 on 2F East is OPEN under active State A (Default) and closed under State B (Toggled) on Row 12, contrary to our Turn 81365 false-positive bump (which was likely caused by an NPC or incorrect state).
-  - **Visual Verification (Turn 88103)**: Visually analyzed `<CurrentScreen turn="88103">` and confirmed that (22, 12) is completely open, pink-patterned floor labeled TYPE_3fe2 with zero rubble, while (22, 9), (22, 10), and (22, 11) are blocked by solid rubble (TYPE_2889).
-  - **Methodology**: Walk Down 2 steps to (21, 12), face Right, and walk Right onto (22, 12).
+- **Turn 88109 Column 22 State A Passability Test**:
+  - **Hypothesis**: Test if Column 22 Row 12 is open under active State A.
+  - **Methodology & Execution**: Stood at (21, 10) on Turn 88109 facing Down, and pressed Down, Down, Right, Right, Right, Right, Down, Down.
+  - **Result**: We ended up at (21, 14) instead of the staircase!
+  - **Detour Analysis**: The Down, Down inputs successfully moved us to (21, 12). However, the subsequent Right inputs resulted in consecutive bumps against Column 22 Row 12, remaining at (21, 12) facing Right. The final Down, Down inputs then walked us Down along Column 21 to (21, 13) and (21, 14).
+  - **Definitive Conclusion**: Column 22 Row 12 is 100% CLOSED, solid, and impassable under active State A. This physically disproves our visual-only "breakthrough" hypothesis from Turn 88103, proving that the pink-patterned background tile at (22, 12) is a solid obstacle and impassable. The isolated Southeast room on 2F East is completely inaccessible on foot under active State A.
