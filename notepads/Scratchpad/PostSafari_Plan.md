@@ -108,22 +108,25 @@
   7. On 3F East, walk to the rightmost balcony pit and fall down to B1F.
   8. Enter B1F to find the Secret Key.
 
-- Active Exploration Phase Start: Turn 86550. Currently on Turn 87481.
+- Active Exploration Phase Start: Turn 86550. Currently on Turn 87543.
 - Column 14 Row 16 Test (Turn 87351): Stood at (13, 16) facing Right under active State B, pressed Right. Result: Bump, physically proving that Column 14 Row 16 is 100% solid and impassable under active State B.
 - Column 14 Row 17 Test (Turn 87372): Stood at (13, 17) facing Right under active State B, pressed Right. Result: Bump, physically proving that Column 14 Row 17 is 100% solid and impassable under active State B.
-- Gate 26 Test (Turn 87357): Stood at (13, 25) facing Down under active State B, pressed Down. Result: Bump, physically proving that Gate 26 at (13, 26) is CLOSED and impassable under active State B.
 - Column 21 Row 16 Test (Turn 87475): Stood at (21, 15) facing Down under active State A, pressed Down. Result: Bump against (21, 16), physically proving the balcony railing at (21, 16) is 100% solid and impassable under active State A.
 - Column 22 Row 15 Test (Turn 87478): Stood at (21, 15) facing Right under active State A, pressed Right. Result: Bump against (22, 15), physically proving Column 22 Row 15 is 100% solid and impassable under active State A.
+- 3F West Statue side interaction (Turn 87532/87537): Stood at (9, 9) facing Right, pressed A. Result: No textbox, physically proving that the statue at (10, 9) on 3F is non-interactive/decorative from the side.
 
 ## State A Balcony Crossover Socratic Resolution Protocol (Started Turn 87481)
 - **Objective**: Systematically evaluate the single remaining untested pathway to reach 3F East and B1F under active State A by verifying the passability of the western side of the 2F East South balcony (Columns 11-13).
-- **Step-by-Step Testing Plan**:
-  1. Walk back to the stairs at (7, 10) on 2F West.
-  2. Take the stairs up to 3F West (Map 0_215).
-  3. Under active State A, fall through Pit A at (11, 12).
-  4. Log the landing coordinate on 2F East South.
-  5. Test Gate 13 and Gate 26 passability under active State A:
-     - Stand at (12, 12) facing Down and press Down to attempt to walk onto (12, 13) (Gate 13).
-     - If Gate 13 is open, walk south and test if Column 14 is open on Row 16/17 (the southern balcony) under active State A, which would allow us to cross directly to the Southeast room on foot!
-     - If Gate 13 is blocked, test Gate 26 at (12, 26) under active State A.
-  6. If we can reach the Southeast room, climb the stairs at (25, 14) up to 3F East and fall down the rightmost pit to B1F.
+- **Hypothesis**: The unmodded game mechanics separates the left and right halves of 3F entirely. However, the southern balcony of 2F East South (Columns 11-13) might be reachable by falling through Pit A on 3F West. Under State B, falling through Pit A at (11, 12) lands us at (12, 12) on 2F East South, which is an isolated pocket. But under State A, Gate 13 at (12, 13) or Gate 26 at (12, 26) might be OPEN, or Column 14 Row 16/17 (the balcony) might be open, allowing us to cross to the Southeast room on foot!
+- **Socratic Testing Protocol**:
+  1. We must find out how to fall through Pit A under State A. But wait! Under State A, the Row 8 gate is CLOSED, and Column 10 is completely blocked by solid wall/rubble, preventing us from walking onto Column 11/12 on foot from the west side!
+  2. Therefore, to fall through Pit A under active State A, we must use a clever timing strategy:
+     - Step A: Walk to Mewtwo Statue 2 on 2F West.
+     - Step B: Toggle the switch to State B.
+     - Step C: Under State B, Gate 2 (Row 8) on 3F opens. We climb the stairs to 3F West and walk freely into the northern room of 3F (Rows 1-5, Columns 10-12).
+     - Step D: From Row 7, walk to (11, 7) or (12, 7) to prepare to fall.
+     - But wait! Before falling, can we toggle back to State A? There is no switch in the northern room or 3F East.
+     - Wait! What if we fall through Pit A under State B? We land at (12, 12) on 2F East South. But the active state is State B. Can we toggle the gates to State A while inside the (12, 12) pocket? No, there is no switch in the pocket!
+     - Let's re-verify: Does falling through Pit A under active State B land us in the (12, 12) pocket? Yes.
+     - Is there any switch in B1F? B1F contains the basement, but we haven't reached it yet.
+     - Let's rethink this deeply. Is there another way to reach B1F?
