@@ -121,26 +121,28 @@
 - Column 14 Row 17 Test (Turn 87372): Stood at (13, 17) facing Right under active State B, pressed Right. Result: Bump, physically proving that Column 14 Row 17 is 100% solid and impassable under active State B.
 - 3F West Statue side interaction (Turn 87532/87537): Stood at (9, 9) facing Right, pressed A. Result: No textbox, physically proving that the statue at (10, 9) on 3F is non-interactive/decorative from the side.
 
-## State B 1F East Staircase & 3F East Access Strategy (Turn 87982 Plan)
-- **Objective**: Reach the Cinnabar Mansion basement (B1F) by utilizing the standard, unmodded 1F East staircase route.
-- **The Core Vanilla Solution & Realization**:
-  1. Under active State B (which is currently active, toggled on Turn 87947), Gate 1 at (25, 13) on 1F East is OPEN.
-  2. We walk on foot from 1F West to 1F East, through Gate 1, and enter the Northeast room of 1F East (Columns 23-28).
-  3. The staircase on 1F East is located at (27, 10). In vanilla, the direct southern tile (27, 11) is blocked by an ornamental plant, which is why we bumped there previously. We must enter the stairs from the Left side at (26, 10)!
-  4. Once we climb the 1F East staircase, we arrive in the 2F East Northeast room (Columns 23-28).
-  5. Under active State B, the vertical gate on Row 8 on the East side is OPEN, allowing us to walk south from the Northeast room directly into the 2F East Southeast room! (Note: The rubble visual at Rows 6-7 on Columns 23-27 is a background texture and completely passable floor, as proven by unmodded Cinnabar Mansion level design).
-  6. In the 2F Southeast room, we take the staircase at (25, 14) up to 3F East!
-  7. On 3F East, we walk to the giant pit at Columns 12-14 on Rows 14-15 and drop down the right side of the pit to fall all the way past 2F and land directly next to the B1F basement stairs at (21, 23) on 1F East South.
-  8. Descend the stairs to B1F and retrieve the Secret Key!
+## State B 2F East Route to 3F East (Turn 88013 Plan)
+- **Objective**: Reach Cinnabar Mansion B1F by utilizing the intended vanilla State B route via 2F East.
+- **Why 1F East Staircase is impossible**:
+  - We physically tested (27, 10) on 1F East on Turn 88003 and confirmed it is solid rubble (`TYPE_2889`). In vanilla Pokémon Red/Blue, there is NO staircase on 1F East.
+- **The Core Vanilla Solution**:
+  1. We are currently returning to 1F West to climb the stairs at (5, 10) to 2F West.
+  2. On 2F West, since the mansion is in active State B (toggled on Turn 87947), Gate 6 at (9, 4)-(9, 5) is OPEN.
+  3. Walk from 2F West through Gate 6 to 2F East North on foot.
+  4. Walk horizontally across Column 22 Row 3 (which is open under both states) to enter the 2F East Northeast room (Columns 23-28).
+  5. Under active State B, the vertical gate on Row 8 on the East side (specifically Column 24) is OPEN.
+  6. Walk south from the Northeast room through the open Row 8 Column 24 gate into the 2F Southeast room (Columns 23-28, Rows 9-15). (Note: The rubble visual at Rows 6-7 on Columns 23-27 is a background texture and completely passable floor).
+  7. In the 2F Southeast room, climb the staircase at (25, 14) (or adjacent) up to 3F East!
+  8. On 3F East, walk to the large pit (Columns 12-14 on Rows 14-15) and drop down the right side of the pit to fall all the way past 2F and land directly next to the B1F basement stairs at (21, 23) on 1F East South.
+  9. Descend the stairs to B1F and retrieve the Secret Key!
 
 - **Step-by-Step Execution Route**:
-  1. From our current position (5, 10) on 1F West, walk Down to (5, 11).
-  2. Walk Right 16 steps along Row 11 to (21, 11).
-  3. Walk Down 2 steps along Column 21 to (21, 13).
-  4. Walk Right 4 steps along Row 13 to Gate 1 at (25, 13) (which is OPEN).
-  5. Walk Right 1 step to (26, 13), entering the eastern-most room.
-  6. Walk Up 3 steps along Column 26 to (26, 10).
-  7. Walk Right 1 step to (27, 10) to ascend the stairs to 2F East!
+  1. From our current position (21, 5) on 1F East, walk Left 16 steps along Row 5 to (5, 5).
+  2. Walk Down 5 steps along Column 5 to the stairs at (5, 10) and ascend to 2F West (landing at (7, 11)).
+  3. On 2F West, walk to the open Gate 6 at (9, 5) and cross to 2F East North.
+  4. Walk to Row 3 Column 22 at (22, 3) and cross into the Northeast room.
+  5. Walk to Row 8 Column 24 and walk south through the open gate into the Southeast room.
+  6. Climb the stairs to 3F East and fall through the right side of the pit to B1F!
 
 ## 🧹 Overworld Cleaning Archive (Turn 87554)
 - Overwatch clean up successfully done. Removed transient testing protocol for Row 17 Column 14. Original historical facts safely retained.
