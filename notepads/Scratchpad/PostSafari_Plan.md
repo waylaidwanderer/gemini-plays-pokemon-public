@@ -115,16 +115,11 @@
   - **Result**: Direct collision bump (0 tiles visited), remaining at (24, 3).
   - **Definitive Conclusion**: (24, 4) is indeed a real, solid collision block of TYPE_2889, NOT a background texture. This definitively disproves the State B Northeast-Southeast walkthrough hypothesis. The Northeast room is a complete dead-end under State B.
 
-## State B 3F West Balcony Edge Drop Exploration (Turn 88741 Plan)
-- **Concept**: Since Column 22 Row 8 was proven 100% solid on Turn 88730 under State B, we must now systematically test the southern balcony on 3F West. In vanilla Red/Blue, the balcony drop is executed by walking Right (East) off the eastern edge of the southern balcony of 3F West on Columns 11-14 on Row 15 or Row 16 under active State B. If open, this allows us to fall down to the isolated Southeast room of 2F East, where we can access the stairs to B1F!
+## State A 2F East Column 22 Row 8 Passability Audit & B1F Access Plan (Turn 88758)
+- **Concept**: Since Column 22 Row 8 was proven 100% solid on Turn 88730 under State B, and the southern balcony of 3F West is completely blocked on Columns 8-9, we hypothesize that Column 22 Row 8 is OPEN under active State A! Under State A, Gate 3 at (18, 8)-(19, 8) is OPEN, allowing us to walk onto 2F East South on foot, reach (21, 8), and walk Right onto (22, 8) to enter the Southeast room!
 - **Step-by-Step Path**:
-  1. Walk Left to (10, 7) (4 steps Left):
-     - (14, 7) -> (13, 7) -> (12, 7) -> (11, 7) -> (10, 7)
-  2. Walk Up to (10, 5) (2 steps Up):
-     - (10, 7) -> (10, 6) -> (10, 5)
-  3. Walk Left to (7, 5) (3 steps Left):
-     - (10, 5) -> (9, 5) (open Gate 6) -> (8, 5) -> (7, 5)
-  4. Walk Down to (7, 10) (5 steps Down):
-     - (7, 5) -> (7, 6) -> (7, 7) -> (7, 8) -> (7, 9) -> (7, 10)
-  5. Stand on the stairs at (7, 10) to warp to 3F West.
-  6. On 3F West, walk to the southern balcony (Columns 11-14) and systematically test walking Right off the eastern edge of the balcony on Rows 15 and 16.
+  1. Walk to the stairs at (7, 10) on 3F West and descend to 2F West.
+  2. Walk to Mewtwo Statue 2 at (2, 11) on 2F West and toggle the switch to State A.
+  3. Walk to 2F East South via the open Gate 3 at (18, 8)-(19, 8).
+  4. Navigate to (21, 8) and attempt to walk Right onto (22, 8).
+  5. If open, walk into the Southeast room, take the stairs at (25, 14) up to 3F East, and drop down the pit to B1F!
