@@ -122,23 +122,26 @@
 - Column 14 Row 17 Test (Turn 87372): Stood at (13, 17) facing Right under active State B, pressed Right. Result: Bump, physically proving that Column 14 Row 17 is 100% solid and impassable under active State B.
 - 3F West Statue side interaction (Turn 87532/87537): Stood at (9, 9) facing Right, pressed A. Result: No textbox, physically proving that the statue at (10, 9) on 3F is non-interactive/decorative from the side.
 
-## State A Pit-Fall B1F Access Strategy (Started Turn 87854, Progress: Turn 87875)
-- **Objective**: Reach Cinnabar Mansion B1F by utilizing the intended vanilla State A pit-fall sequence.
+## State B Pit-Fall B1F Access Strategy (Turn 87905 Plan)
+- **Objective**: Reach Cinnabar Mansion B1F by utilizing the intended vanilla State B pit-fall sequence.
+- **Why State A is physically impossible**:
+  - Row 7 on Columns 5-9 consists of solid, permanent walls (`TYPE_2889`), meaning we cannot walk Up from (9, 11) to (9, 7) under active State A on 3F West.
+  - This is mathematically and physically impossible.
 - **The Core Vanilla Solution**:
-  1. Toggle Mewtwo Statue 2 on 2F West to **State A (Default)**.
-  2. Under active State A, the dividing wall/gate on Row 7 on 3F is completely OPEN and passable!
-  3. Walk from 3F West to 3F East on Row 7 on foot: (9, 11) -> Up to (9, 7) -> Right to (12, 7).
-  4. On 3F East, walk to the rightmost part of the giant pit on Column 14 (Rows 14-15) and fall through it.
-  5. By falling through the right side of the pit, we bypass 2F entirely and land directly on 1F East South next to the B1F basement stairs at (21, 23).
-  6. Walk to the B1F stairs and descend to the basement!
-- **Step-by-Step Execution Route**:
-  1. From our current position (9, 11) on 3F West, walk Left, Left to the stairs at (7, 10) and descend to 2F West.
+  1. Descend to 2F West via the stairs at (7, 10).
   2. Walk to Mewtwo Statue 2 at (2, 11) on 2F West.
-  3. Face Up and interact with Statue 2 to toggle the global gate state to active State A (Default).
-  4. Return to the stairs at (7, 10) on 2F West and climb up to 3F West (landing at (7, 11)).
-  5. On 3F West, walk Up to Row 7, then Right to 3F East at (12, 7).
-  6. Walk to the right part of the giant pit on Column 14 and fall through.
-  7. Land on 1F East South and descend the stairs to B1F!
+  3. Face Up and interact with Statue 2 to toggle the global gate state to active **State B (Toggled)**.
+  4. Return to 3F West via the stairs at (7, 10).
+  5. Under active State B, the gate at Column 10 Row 11 is **OPEN** and passable!
+  6. Walk Right from (9, 11) to (11, 11) or (11, 12).
+  7. Walk onto the pit at (11, 12) (Pit A) to fall down!
+  8. This fall lands us at (12, 12) on 2F East South.
+  9. From there, we navigate to the Southeast staircase at (25, 14) to climb to 3F East, and drop down the giant pit to 1F East South next to the B1F basement stairs at (21, 23).
+- **Step-by-Step Execution Route**:
+  1. Walk Left to (7, 11) and interact with the stairs at (7, 10) to descend to 2F West.
+  2. Walk to Mewtwo Statue 2 at (2, 11) on 2F West and toggle it to active State B.
+  3. Return to 3F West via the stairs at (7, 10) (landing at (7, 11)).
+  4. Walk to (9, 11) and walk Right onto Column 11, then fall through the pit at (11, 12).
 
 ## 🧹 Overworld Cleaning Archive (Turn 87554)
 - Overwatch clean up successfully done. Removed transient testing protocol for Row 17 Column 14. Original historical facts safely retained.
