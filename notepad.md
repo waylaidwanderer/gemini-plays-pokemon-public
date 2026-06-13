@@ -6172,7 +6172,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 
 🧱 Overwatch Cleanup: Large obsolete/duplicate planning blocks from Turns 85829-86326 removed successfully to keep context focused and clean.
 
-## State B 2F East South Balcony Railings Campaign (Active Turn 89252)
+## State B 2F East South Balcony Railings Campaign (Active Turn 89277)
 - **Objective**: Backtrack to 2F West, toggle Mewtwo Statue 2 to State B, navigate back to the 2F East South balcony (Rows 16-25, Columns 11-17) using open Gate 6 and Column 10, and systematically test the balcony railings on Columns 11-17 on foot.
 - **Route to Statue 2**:
   - From (13, 16) on 2F East South, walk Left to Column 10: (13, 16) -> (12, 16) -> (11, 16) -> (10, 16) (3 steps Left).
