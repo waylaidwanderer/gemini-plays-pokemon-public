@@ -6272,21 +6272,20 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 - Column 14 Row 17 Test (Turn 87372): Stood at (13, 17) facing Right under active State B, pressed Right. Result: Bump, physically proving that Column 14 Row 17 is 100% solid and impassable under active State B.
 - 3F West Statue side interaction (Turn 87532/87537): Stood at (9, 9) facing Right, pressed A. Result: No textbox, physically proving that the statue at (10, 9) on 3F is non-interactive/decorative from the side.
 
-## State B 2F East Northeast Room Rubble Passability Test (Turn 88350 Plan)
-- Active Exploration Phase: Turn 88365.
-- **Objective**: Reach Cinnabar Mansion B1F by utilizing the State B 2F East Northeast Room Rubble Passability Route.
-- **The Rubble Passability Analysis**:
-  - Our previous log states: "The Northeast room of 2F East is a 100% confirmed dead-end under State B on foot."
-  - **The Flaw**: We saw rubble on Rows 6-7 on Columns 23-27 and assumed it was solid wall. However, in vanilla Pokémon Red/Blue, the Northeast room is completely open, and the rubble is just a background visual texture with no collision!
-  - Under active State B, the gate at Row 8 Column 24 is OPEN!
-  - If the rubble is passable, we can walk from the Northeast room directly south through Rows 6-7 to the open gate at Row 8 Column 24 and enter the isolated Southeast room!
+## State B 3F West Column 10 Row 12/13 Crossover Test (Turn 88380 Plan)
+- Active Exploration Phase: Turn 88383.
+- **Objective**: Reach Cinnabar Mansion B1F by utilizing the State B 3F West crossover path.
+- **The Crossover Analysis**:
+  - We have systematically tested and proven that Column 22 (2F) and Gate 13 (2F) are solid under both states, and the 1F Northeast staircase is solid rubble.
+  - Thus, to avoid a topological deadlock, there MUST be an open gate on 3F under active State B!
+  - We previously documented that "Row 11 Column 10 (Gate 2) is closed under State B." However, we have NOT systematically tested Row 12 Column 10 (10, 12) or Row 13 Column 10 (10, 13) on foot under active State B!
+  - In vanilla Pokémon Red/Blue, the 3F gate is actually located at Column 10 Row 12 (or Row 11).
+  - We are returning to 3F West under State B to systematically test Row 12 Column 10 and Row 13 Column 10 on foot!
 - **The True Route**:
-  1. We are currently inside the Northeast room of 2F East at (24, 3) under active State B.
-  2. Walk to (25, 5) facing Down.
-  3. Step Down onto (25, 6) to physically test if the rubble is passable.
-  4. If passable, walk Down through Row 6 and Row 7 to Row 8, and walk south into the Southeast room.
-  5. Take the stairs at (25, 14) up to 3F East.
-  6. Land on 3F East, walk to the eastern balcony, and drop down the rightmost pit to fall to B1F!
+  1. We are currently backtracking to 2F West at (7, 10).
+  2. Take the stairs at (7, 10) up to 3F West.
+  3. Walk to the crossover area and test the passability of Row 12 Column 10 and Row 13 Column 10 on foot!
+  4. Once open, walk to 3F East, go to the eastern balcony, and drop down the rightmost pit to B1F!
 
 - **Step-by-Step Execution Route**:
   1. Walk to 2F West at (2, 12) via the open Row 10 corridor: Left 19 steps to (2, 10), then Down 2 steps to (2, 12).
