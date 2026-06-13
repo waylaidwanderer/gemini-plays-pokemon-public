@@ -115,12 +115,16 @@
   - **Result**: Direct collision bump (0 tiles visited), remaining at (24, 3).
   - **Definitive Conclusion**: (24, 4) is indeed a real, solid collision block of TYPE_2889, NOT a background texture. This definitively disproves the State B Northeast-Southeast walkthrough hypothesis. The Northeast room is a complete dead-end under State B.
 
-## State B 3F West Column 10 Crossover Campaign (Active Turn 88962)
+## State B 3F West Column 10 Crossover Campaign (Active Turn 88981)
 - **The Redesign**: We have identified a severe physical contradiction in our previous plan: Columns 11-14 on 3F are in the eastern wing (3F East), but the vertical dividing wall at Column 10 is solid on Rows 8-15, making Columns 11-14 completely unreachable from 3F West on foot if Column 10 is closed on all rows.
 - **Topological Breakthrough Hypothesis**: To resolve this deadlock and reach B1F, we must systematically test whether we can bypass or cross Column 10 on Row 6 or Row 7 on 3F West under active State B (Statue 2 Toggled). If we can walk around the partition on Row 6 or Row 7 on 3F West under active State B, we will immediately unlock access to the eastern wing of 3F (Columns 11-30), where the static Pit Chute at (11, 12) is located, which drops us down to the basement (B1F) to retrieve the Secret Key!
+- **Left-Side Corridor Test Plan**: 
+  - To enter the northern room of 3F West (Rows 1-5), we must find an opening in the Row 7 horizontal barrier. Columns 5, 6, and 7 on Row 7 are solid under both states. However, Columns 1, 2, 3, and 4 on Row 7 have NEVER been systematically tested on foot.
+  - We will walk to the far-left side of 3F West (Columns 1-4) and test walking Up onto Row 7 to locate an open corridor.
+  - If Columns 1, 2, 3, or 4 on Row 7 are open, we can enter the northern room, walk east along Row 5, and cross Column 10 on Row 6 or Row 7 into 3F East!
 - **Step-by-Step Path**:
-  1. We are currently standing at (2, 12) on 2F West facing Up towards Mewtwo Statue 2 at (2, 11).
-  2. Interact with Mewtwo Statue 2 to toggle the global gate state to active State B.
-  3. Walk to the stairs at (7, 10) on 2F West and ascend to 3F West.
-  4. Walk to Row 8 Column 9 / Column 10 and systematically test walking Right/Up/Down on Row 6 and Row 7 to locate any open bypass around the Column 10 wall on 3F under State B!
-  5. If we find an open bypass, walk to 3F East and drop down the pit to B1F!
+  1. We are currently standing at (9, 9) on 3F West under active State B.
+  2. Walk south to Row 11, then west to Column 4 and Column 1.
+  3. Attempt to walk Up along Column 4 and Column 1 to Row 8.
+  4. From Row 8, test walking Up onto Row 7 on Columns 1, 2, 3, and 4.
+  5. If an opening is found, enter the northern room, walk to (10, 6) or (10, 7), and cross to 3F East to fall down the pit!
