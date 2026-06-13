@@ -222,3 +222,12 @@
   - We stood at (12, 12) facing Down under active State B and pressed Down against (12, 13) (Gate 13, labeled TYPE_2889).
   - **Result**: Direct collision bump (0 tiles visited), remaining at (12, 12).
   - **Conclusion**: Gate 13 at (12, 13) is 100% CLOSED and impassable under active State B. Along with Turn 78855 (CLOSED under State A), this proves Gate 13 is closed under both states on foot.
+- **Northeast Room Active State B Passability Sweep (Turns 88351-88368)**:
+  - We systematically navigated to the Northeast room of 2F East under active State B and physically tested the passability of the rubble on Rows 5-7 to check if it was a passable background texture.
+  - **Test Logs**:
+    - **(25, 6) Rubble Test**: Stood at (25, 5) facing Down under active State B and pressed Down on Turn 88354. Result: **Bump** (0 tiles visited).
+    - **(26, 6) Rubble Test**: Stood at (26, 5) facing Down under active State B and pressed Down on Turn 88357. Result: **Bump** (0 tiles visited).
+    - **(27, 6) Rubble Test**: Stood at (27, 5) facing Down under active State B and pressed Down on Turn 88359. Result: **Bump** (0 tiles visited).
+    - **(24, 5) Rubble Test**: Stood at (25, 5) facing Left under active State B and pressed Left on Turn 88361. Result: **Bump** (0 tiles visited).
+    - **(27, 7) Rubble Test**: Stood at (28, 7) facing Left under active State B and pressed Left on Turn 88367. Result: **Bump** (0 tiles visited).
+  - **Definitive Conclusion**: The visual rubble on Rows 5-7 Columns 24-27 has 100% solid physical collision under active State B. The Northeast room is indeed a complete, physical dead-end with no foot access to the Southeast room or the gate at Row 8 Column 24 under State B.
