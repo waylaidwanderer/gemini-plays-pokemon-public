@@ -21,20 +21,7 @@
 
 🧱 Overwatch Cleanup: Large obsolete/duplicate planning blocks from Turns 85829-86326 removed successfully to keep context focused and clean.
 
-## State A 2F East Column 10 Systematic Passability Campaign (Active Turn 89178)
-- **Topological Breakthrough Hypothesis**: Column 11 is blocked at Row 13 under State A (Verified Turn 89090). However, Column 10 is completely open on Rows 11-26, allowing us to traverse south to the southern balcony on foot under active State A!
-- **Socratic Analysis**: We are currently in active State A (Default) because Statue 2 was toggled to State A on Turn 89018 and has not been toggled since.
-  If Column 10 is open down to Row 26, we can walk down Column 10 and test the balcony railings under State A.
-  We have systematically tested Column 14 (railings bordering the atrium) on Rows 20, 21, 23, 24, and 25 under State A, and all are solid.
-  Our immediate campaign is to test Rows 16-19 on Column 14 to see if there is an open drop-off into the atrium under State A, or if we must find another way.
-- **Step-by-Step Path**:
-  1. We are standing at (13, 19) on 2F East under active State A, facing Right.
-  2. Test Row 19 Column 14: Completed Turn 89165, bumped (solid).
-  3. Walk Up 1 step to (13, 18) and press Right to test Row 18 Column 14: Completed Turn 89182, bumped (solid).
-  4. Walk Up 1 step to (13, 17) and press Right to test Row 17 Column 14: Completed Turn 89191, bumped (solid).
-  5. Walk Up 1 step to (13, 16) and press Right to test Row 16 Column 14: Completed Turn 89213, bumped (solid).
-
-## State B 2F East South Balcony Railings Campaign (Active Turn 89221)
+## State B 2F East South Balcony Railings Campaign (Active Turn 89252)
 - **Objective**: Backtrack to 2F West, toggle Mewtwo Statue 2 to State B, navigate back to the 2F East South balcony (Rows 16-25, Columns 11-17) using open Gate 6 and Column 10, and systematically test the balcony railings on Columns 11-17 on foot.
 - **Route to Statue 2**:
   - From (13, 16) on 2F East South, walk Left to Column 10: (13, 16) -> (12, 16) -> (11, 16) -> (10, 16) (3 steps Left).
