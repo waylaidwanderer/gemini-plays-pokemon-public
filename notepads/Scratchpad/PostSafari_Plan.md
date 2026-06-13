@@ -115,7 +115,7 @@
   - **Result**: Direct collision bump (0 tiles visited), remaining at (24, 3).
   - **Definitive Conclusion**: (24, 4) is indeed a real, solid collision block of TYPE_2889, NOT a background texture. This definitively disproves the State B Northeast-Southeast walkthrough hypothesis. The Northeast room is a complete dead-end under State B.
 
-## State A 2F East Column 22 Row 8 Passability Audit & B1F Access Plan (Turn 88758)
+## State A 2F East Column 22 Row 8 Passability Audit & B1F Access Plan (Turn 88772)
 - **Concept**: Since Column 22 Row 8 was proven 100% solid on Turn 88730 under State B, and the southern balcony of 3F West is completely blocked on Columns 8-9, we hypothesize that Column 22 Row 8 is OPEN under active State A! Under State A, Gate 3 at (18, 8)-(19, 8) is OPEN, allowing us to walk onto 2F East South on foot, reach (21, 8), and walk Right onto (22, 8) to enter the Southeast room!
 - **Step-by-Step Path**:
   1. Walk to the stairs at (7, 10) on 3F West and descend to 2F West.
