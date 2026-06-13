@@ -19,7 +19,7 @@
   - Gate 26 on 2F (12, 26)-(13, 26) is CLOSED.
   - Gate 13 on 2F (12, 13)-(13, 13) is CLOSED.
 
-## State B 2F East South Balcony Railings Campaign (Active Turn 89428)
+## State B 2F East South Balcony Railings Campaign (Active Turn 89438)
 - **Objective**: Systematically and physically test the passability of the 2F East South balcony boundaries (Columns 11-14, Rows 15-26) on foot under active State B to find any potential jump-down drop or passage.
 - **Current Position**: Standing at (13, 22) facing Down on 2F East South under active State B.
 - **Audit Schedule & Status Tracker**:
@@ -47,7 +47,7 @@
      - Row 26 Column 11: [ ] Pending test.
   3. **Row 15 Northern Wall (Columns 12-13)**:
      - Row 15 Column 12: Completed Turn 89429. Bumped (solid).
-     - Row 15 Column 13: [ ] Pending test.
+     - Row 15 Column 13: Completed Turn 89434. Bumped (solid).
   4. **Row 26 Southern Wall/Gate (Columns 12-13)**:
      - Row 26 Column 12 (Gate 26): Completed Turn 80627. Bumped (solid).
      - Row 26 Column 13 (Gate 26): Completed Turn 87357. Bumped (solid).
