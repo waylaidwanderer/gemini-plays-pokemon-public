@@ -193,3 +193,8 @@
 - **Systematic Search Progress**: Stood on (26, 11) on Turn 86135, and walked Left to (23, 11) on Turn 86136. No transitions were triggered on (26, 11), (25, 11), (24, 11), or (23, 11), proving these are standard floor tiles and not warps.
 - **Turn 86142**: Walked to (28, 7) on foot. It is a standard open floor tile with no warp.
 - **Turn 86145**: Walked to (28, 6) on foot. It is a standard open floor tile with no warp.
+## State B 3F West Column 10 Row 9 Passability Test (Turn 89539)
+- **Objective**: Test if we can walk Right from (9, 9) onto (10, 9) under active State B.
+- **Methodology**: Stood at (9, 9) facing Right under active State B and pressed Right on Turn 89539.
+- **Result**: Bump against (10, 9) (stayed at (9, 9)), physically proving that Column 10 Row 9 is 100% solid, closed, and impassable under active State B.
+- **Definitive Conclusion**: Column 10 Row 9 is closed under both State A and State B. 3F West has absolutely no walkthrough connection to 3F East under any state.
