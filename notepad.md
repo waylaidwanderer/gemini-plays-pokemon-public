@@ -6269,15 +6269,15 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - **Result**: Direct collision bump (0 tiles visited), remaining at (24, 3).
   - **Definitive Conclusion**: (24, 4) is indeed a real, solid collision block of TYPE_2889, NOT a background texture. This definitively disproves the State B Northeast-Southeast walkthrough hypothesis. The Northeast room is a complete dead-end under State B.
 
-## State B 2F East Row 8 Passability Audit & B1F Access Plan (Turn 88647)
-- **Concept**: Hypothesize that on 2F East, there is an open vertical gate/crossover on Row 8 across Columns 23-27 under active State B. If open, this allows vertical traversal from the Northeast room (Columns 23-28, Rows 2-7) to the Southeast room (Columns 23-28, Rows 9-15), which contains the stairs up to 3F East at (25, 14).
-- **Physical Testing Protocol**:
-  1. We have successfully toggled Statue 2 to State B on Turn 88646.
-  2. Walk from (2, 12) on 2F West to 2F East North via the open Gate 6 at (9, 5).
-  3. Walk to the Northeast room of 2F East by crossing Column 22 on Row 3 at (22, 3) (open under both states!).
-  4. Once inside the Northeast room, walk to Row 7.
-  5. Systematically test the vertical passability of Row 8 across Columns 23, 24, 25, 26, 27 by attempting to walk Down onto Row 8 from Row 7 on each of these columns under active State B.
-  6. If one of these columns is open, walk Down to the Southeast room, walk to the staircase at (25, 14), and climb UP to 3F East!
+## State B 2F East Column 22 Row 6/7 Passability Audit & B1F Access Plan (Updated Turn 88681)
+- **Concept**: To bypass the solid rubble on Columns 24-27 in the Northeast room, we hypothesize that Column 22 is open on Row 6 or Row 7 under active State B on 2F East. If open, this allows us to walk from Column 21 directly into Column 22, and subsequently access the isolated Southeast room on foot!
+- **Physical Testing Protocol (Turn 88681)**:
+  1. We are currently standing at (15, 7) under active State B (Statue 2 Toggled).
+  2. Walk Right 6 steps to (21, 7).
+  3. Turn Right to face (22, 7) and attempt to walk Right. Document the result.
+  4. Walk Up 1 step to (21, 6).
+  5. Turn Right to face (22, 6) and attempt to walk Right. Document the result.
+  6. If one of these is open, we will walk through to enter the eastern side, walk south to the Southeast room, and take the staircase at (25, 14) up to 3F East!
   7. On 3F East, walk to the wide eastern pit and drop down to B1F!
 
 <hr>
