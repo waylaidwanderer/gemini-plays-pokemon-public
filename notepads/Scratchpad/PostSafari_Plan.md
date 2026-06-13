@@ -244,28 +244,29 @@
 - Column 14 Row 17 Test (Turn 87372): Stood at (13, 17) facing Right under active State B, pressed Right. Result: Bump, physically proving that Column 14 Row 17 is 100% solid and impassable under active State B.
 - 3F West Statue side interaction (Turn 87532/87537): Stood at (9, 9) facing Right, pressed A. Result: No textbox, physically proving that the statue at (10, 9) on 3F is non-interactive/decorative from the side.
 
-## State B 3F West Column 10 Row 12/13 Crossover Test (Turn 88443 Update)
-- Active Exploration Phase Start: Turn 88443.
+## State B 3F West Column 10 Row 12/13 Crossover Test (Completed Turn 88481)
+- Active Exploration Phase Start: Turn 88481.
 - **Objective**: Reach Cinnabar Mansion B1F by utilizing the State B 3F West crossover path.
-- **The Crossover Analysis**:
-  - We have systematically tested and proven that Column 22 (2F) and Gate 13 (2F) are solid under both states, and the 1F Northeast staircase is solid rubble.
-  - Thus, to avoid a topological deadlock, there MUST be an open gate on 3F under active State B!
-  - We previously documented that "Row 11 Column 10 (Gate 2) is closed under State B." However, we have NOT systematically tested Row 12 Column 10 (10, 12) or Row 13 Column 10 (10, 13) on foot under active State B!
-  - In vanilla Pokémon Red/Blue, the 3F gate is actually located at Column 10 Row 12 (or Row 11).
-  - We are on 3F West under active State B to systematically test Row 12 Column 10 and Row 13 Column 10 on foot!
-- **The True Route**:
-  1. We are currently at (7, 11) on 3F West under State B.
-  2. Walk East to (9, 11).
-  3. Systematically test Row 12 Column 10 and Row 13 Column 10 on foot to find the open crossover path!
-  4. Once open, walk to 3F East, go to the eastern balcony, and drop down the rightmost pit to B1F!
+- **Results**:
+  - We have systematically tested Column 10 Row 11 (Turn 88452), Column 9 Row 12 (Turn 88455), Column 9 Row 12 from (8, 12) (Turn 88465), and Column 9 Row 13 from (8, 13) (Turn 88473) on foot under active State B. All tests resulted in solid bumps.
+  - **Definitive Conclusion**: The 3F West-East crossover is 100% physically blocked and impassable on foot under active State B. There is no walkthrough connection on 3F under State B.
 
+## State A 1F East Direct On-Foot Route (Turn 88481 Plan)
+- Active Exploration Phase Start: Turn 88481.
+- **Objective**: Access the B1F basement by testing the direct on-foot route under active State A on 1F East.
+- **Topological Hypothesis**:
+  - Under active State A, Gate 4 at (21, 17) is OPEN.
+  - The Row 11 horizontal crossover on 1F is open, allowing foot crossing from 1F West to 1F East.
+  - If we walk horizontally from 1F West to Column 21 Row 11 on 1F East, can we walk Down Column 21 through the open Gate 4 at (21, 17) and reach the B1F stairs at (21, 23) directly on foot?
 - **Step-by-Step Execution Route**:
-  1. Walk to 2F West at (2, 12) via the open Row 10 corridor: Left 19 steps to (2, 10), then Down 2 steps to (2, 12).
-  2. Press Up to toggle Mewtwo Statue 2 at (2, 11) to State B.
-  3. Walk to (12, 12) via the open Row 10 corridor: Up 2 steps to (2, 10), Right 10 steps to (12, 10), then Down 2 steps to (12, 12).
-  4. Press Down to walk through the open Gate 13 at (12, 13).
-  5. Walk south to Row 16 and drop down the pit at (15, 16)-(17, 16).
-  6. Land on 1F and descend to B1F!
+  1. We are currently at (8, 13) on 3F West under State B.
+  2. Walk to the stairs at (7, 10) on 3F West and descend to 2F West.
+  3. Walk to Mewtwo Statue 2 at (2, 11) on 2F West and toggle it back to **State A**.
+  4. Walk to the stairs at (5, 10) on 2F West and descend to 1F West.
+  5. From the 1F West stairs landing at (5, 10), walk East on Row 11 to 1F East on Row 11.
+  6. Walk to Column 21 Row 11.
+  7. Walk Down Column 21, verifying if Row 13 Column 21 is passable or if there is an alternate passable corridor (e.g., Column 12 or 13 Row 13) that lets us reach the southern side of 1F East on foot under active State A.
+  8. If we can reach (21, 17) (Gate 4), walk Down through the open Gate 4 to the B1F stairs at (21, 23) and descend to B1F!
 
 ## 🧹 Overworld Cleaning Archive (Turn 87554)
 - Overwatch clean up successfully done. Removed transient testing protocol for Row 17 Column 14. Original historical facts safely retained.
