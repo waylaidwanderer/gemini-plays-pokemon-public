@@ -6260,7 +6260,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - **Definitive Conclusion**: The 3F West-East crossover is 100% physically blocked and impassable on foot under active State B. There is no walkthrough connection on 3F under State B.
 
 ## State A 1F East Direct On-Foot Route (Turn 88560 Plan)
-- Active Exploration Phase Start: Turn 88593.
+- Active Exploration Phase Start: Turn 88620.
 - **Objective**: Access the B1F basement by testing the direct on-foot route under active State A on 1F East.
 - **Topological Hypothesis**:
   - Under active State A, Gate 4 at (21, 17) is OPEN.
