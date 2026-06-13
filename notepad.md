@@ -6247,23 +6247,18 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Turn 86910: Stood at (24, 10) facing Up, pressed Up against (24, 9). Result: BUMP.
 - **Conclusion**: The Northeast staircase at (24, 8)-(25, 9) is 100% solid, closed, and impassable from all directions under active State B as well as State A.
 
-## Active State A 2F Southeast Room Balcony Strategy (Started Turn 87402)
-- **Concept**: Our previous State B Balcony Crossover and State B 1F Northeast Staircase strategies are completely disproven. We discovered that the 2F East South balcony (Column 14) is CLOSED under State B but OPEN under State A!
-- **Step-by-Step Execution Plan**:
-  1. From our current position (10, 18) on 2F West under State B, walk to Statue 2 at (2, 11) on 2F West.
-  2. Toggle Statue 2 to active State A (Default).
-  3. Under active State A, Gate 3 at (18, 8)-(19, 8) on 2F East is OPEN. Walk through Gate 3 onto 2F East South.
-  4. Walk South to the 2F East South southern balcony (Row 16).
-  5. Under active State A, the balcony gate at Column 14 Row 16 is OPEN. Walk East through Column 14 into the isolated 2F Southeast room (Columns 23-28)!
-  6. In the Southeast room of 2F East, walk to the stairs at (25, 14) and climb UP to 3F East.
-  7. On 3F East, walk to the rightmost balcony pit and fall down to B1F.
-  8. Enter B1F to find the Secret Key.
+## Disproven State A 2F Southeast Room Balcony Strategy (Completed Turn 87662)
+- **Concept**: Hypothesized that under active State A, Column 14 Row 16 or 17 is open, allowing us to cross from 2F East South balcony to the isolated 2F Southeast room.
+- **Physical Test Results (State A)**:
+  - Turn 87632: Stood at (13, 16) facing Right under active State A, pressed Right. Result: BUMP against (14, 16).
+  - Turn 87640: Stood at (13, 17) facing Right under active State A, pressed Right. Result: BUMP against (14, 17).
+  - Turn 87475: Stood at (21, 15) facing Down under active State A, pressed Down. Result: BUMP against (21, 16).
+  - Turn 87478: Stood at (21, 15) facing Right under active State A, pressed Right. Result: BUMP against (22, 15).
+- **Conclusion**: The balcony is 100% solid and blocked on both ends under active State A. The Column 14 balcony crossover is completely solid and blocked.
 
-- Active Exploration Phase Start: Turn 86550. Currently on Turn 87602.
+- Active Exploration Phase Start: Turn 86550. Currently on Turn 87662.
 - Column 14 Row 16 Test (Turn 87351): Stood at (13, 16) facing Right under active State B, pressed Right. Result: Bump, physically proving that Column 14 Row 16 is 100% solid and impassable under active State B.
 - Column 14 Row 17 Test (Turn 87372): Stood at (13, 17) facing Right under active State B, pressed Right. Result: Bump, physically proving that Column 14 Row 17 is 100% solid and impassable under active State B.
-- Column 21 Row 16 Test (Turn 87475): Stood at (21, 15) facing Down under active State A, pressed Down. Result: Bump against (21, 16), physically proving the balcony railing at (21, 16) is 100% solid and impassable under active State A.
-- Column 22 Row 15 Test (Turn 87478): Stood at (21, 15) facing Right under active State A, pressed Right. Result: Bump against (22, 15), physically proving Column 22 Row 15 is 100% solid and impassable under active State A.
 - 3F West Statue side interaction (Turn 87532/87537): Stood at (9, 9) facing Right, pressed A. Result: No textbox, physically proving that the statue at (10, 9) on 3F is non-interactive/decorative from the side.
 
 ## State A Balcony Crossover Socratic Resolution Protocol (Started Turn 87481)
