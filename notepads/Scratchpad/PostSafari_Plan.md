@@ -117,7 +117,7 @@
   - However, Column 28 Row 8 has already been proven solid under State B on Turn 83391 (resulting in a direct collision bump).
   - **Conclusion**: The Northeast room of 2F East is a 100% confirmed dead-end under State B on foot with absolutely zero access to the isolated 2F Southeast room. This hypothesis is conclusively disproven.
 
-- Active Exploration Phase Start: Turn 86550. Currently on Turn 87911.
+- Active Exploration Phase Start: Turn 86550. Currently on Turn 87937.
 - Column 14 Row 16 Test (Turn 87351): Stood at (13, 16) facing Right under active State B, pressed Right. Result: Bump, physically proving that Column 14 Row 16 is 100% solid and impassable under active State B.
 - Column 14 Row 17 Test (Turn 87372): Stood at (13, 17) facing Right under active State B, pressed Right. Result: Bump, physically proving that Column 14 Row 17 is 100% solid and impassable under active State B.
 - 3F West Statue side interaction (Turn 87532/87537): Stood at (9, 9) facing Right, pressed A. Result: No textbox, physically proving that the statue at (10, 9) on 3F is non-interactive/decorative from the side.
