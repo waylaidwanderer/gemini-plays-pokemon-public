@@ -19,17 +19,27 @@
   - Gate 26 on 2F (12, 26)-(13, 26) is CLOSED.
   - Gate 13 on 2F (12, 13)-(13, 13) is CLOSED.
 
+## State B 1F East Staircase & B1F Access Model (Active Turn 89557)
+- **Objective**: Determine how to access the basement floor (B1F) of Pokémon Mansion.
+- **Topological Reality Check**:
+  - The B1F stairs are located on 1F East at (21, 23).
+  - Under active State B, Gate 4 at (21, 17) is CLOSED, completely blocking on-foot access to Column 21 Rows 18-27 from the north.
+  - Column 22 is blocked by solid rubble/walls on Rows 14-27, separating Column 21 from Columns 23-28 (the Southeast room) horizontally.
+  - Column 11 is blocked by solid walls, separating Column 21 from the west side.
+  - Under active State A, Gate 4 is OPEN, but Row 13 on 1F East is completely blocked across all Columns, preventing on-foot access to the southern half.
+  - Therefore, the B1F stairs are completely isolated on foot on 1F under both states! They can only be reached by dropping from above (specifically, falling from the 3F East balcony pit).
+- **Correct Cinnabar Mansion Progression Model**:
+  - **State B is required**:
+    1. Gate 1 at (25, 13) on 1F East is OPEN under active State B, allowing foot access to the Southeast room on 1F East (Columns 23-28).
+    2. In the 1F East Southeast room, there is a staircase going UP to 2F East Southeast room.
+    3. In the 2F East Southeast room, there is a staircase going UP to 3F East.
+    4. On 3F East, walk to the rightmost balcony pit. Falling through the right side of this pit drops us past 2F and directly onto 1F next to the B1F stairs!
+- **Current Action Plan**:
+  - Walk to the 1F East Southeast room (by walking Right past Column 9, through Gate 1 at (25, 13)), and take the staircase UP to 2F East.
+
 ## State B 2F East South Balcony Railings Campaign (Active Turn 89522)
 - **Objective**: Systematically and physically test the passability of the 2F East South balcony boundaries (Columns 11-14, Rows 15-26) on foot under active State B to find any potential jump-down drop or passage. This campaign is successfully completed.
 - **Conclusive Proof of Isolation**: Every single coordinate has been tested on foot and found 100% solid. No drops, gaps, or passages exist on the 2F East South balcony under State B.
-- **Roadmap to B1F**: Since both State A and State B balcony/crossover pathways on 2F and 3F are completely proven solid, B1F can ONLY be accessed by falling through the 3F West balcony pit under active State B.
-  - **Empirical Discovery (Turn 89509)**: Walking Right from (5, 14) onto (6, 14) is normal floor and NOT a fall warp.
-  - **Empirical Discovery (Turn 89525)**: Walking Down from (6, 14) onto (6, 15) is normal floor and NOT a fall warp.
-  - **Testing Roadmap**:
-    1. Determine how to get to Column 11's pit void, or check if State A is required to walk past the 3F West crossover.
-    2. Once the drop is triggered, land at (12, 12) on 2F East South (within the isolated landing pocket).
-    3. Locate the staircase or other pathway in this landing pocket to proceed to B1F.
-- **Current Position**: Standing at (6, 15) facing Down on 3F West under active State B.
 - **Audit Schedule & Status Tracker**:
   1. **Column 14 Atrium Railing (Rows 16-25)**:
      - Row 16 Column 14: Completed Turn 87351. Bumped (solid).
