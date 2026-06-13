@@ -6172,7 +6172,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 
 🧱 Overwatch Cleanup: Large obsolete/duplicate planning blocks from Turns 85829-86326 removed successfully to keep context focused and clean.
 
-## State B 2F East Column 10 Systematic Passability Campaign (Active Turn 89100)
+## State B 2F East Column 10 Systematic Passability Campaign (Active Turn 89131)
 - **Topological Breakthrough Hypothesis**: Column 11 is blocked at Row 13 under State B (Verified Turn 89090). However, Column 10 and Column 9 are open on Rows 11-15. We hypothesize that Column 10 is open all the way down to Row 19+ under State B, allowing foot access to the southern balcony!
 - **Step-by-Step Path**:
   1. We are standing at (10, 15) on 2F East under active State B.
