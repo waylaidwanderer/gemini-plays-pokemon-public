@@ -108,7 +108,7 @@
   7. On 3F East, walk to the rightmost balcony pit and fall down to B1F.
   8. Enter B1F to find the Secret Key.
 
-- Active Exploration Phase Start: Turn 86550. Currently on Turn 87543.
+- Active Exploration Phase Start: Turn 86550. Currently on Turn 87545.
 - Column 14 Row 16 Test (Turn 87351): Stood at (13, 16) facing Right under active State B, pressed Right. Result: Bump, physically proving that Column 14 Row 16 is 100% solid and impassable under active State B.
 - Column 14 Row 17 Test (Turn 87372): Stood at (13, 17) facing Right under active State B, pressed Right. Result: Bump, physically proving that Column 14 Row 17 is 100% solid and impassable under active State B.
 - Column 21 Row 16 Test (Turn 87475): Stood at (21, 15) facing Down under active State A, pressed Down. Result: Bump against (21, 16), physically proving the balcony railing at (21, 16) is 100% solid and impassable under active State A.
@@ -130,3 +130,43 @@
      - Let's re-verify: Does falling through Pit A under active State B land us in the (12, 12) pocket? Yes.
      - Is there any switch in B1F? B1F contains the basement, but we haven't reached it yet.
      - Let's rethink this deeply. Is there another way to reach B1F?
+
+## Resolve the Socratic Progression (Turn 87545)
+- Let's trace how we reached 3F East on Turn 85314:
+  - Wait! On Turn 85285-85287, we were on 3F West.
+  - How did we reach 3F East under State A?
+  - Let's read: "I interacted with the Mewtwo Statue at (10, 9) on 3F and navigated past it to (12, 7)..."
+  - But the statue at (10, 9) is decorative from the side (9, 9).
+  - Wait! Did we walk through the Row 8 gate?
+  - Under active State A, is the gate at Row 8 Column 10-11 OPEN?
+  - No, we bumped against (9, 8) under State A.
+  - Wait! Could the gate at Row 8 Column 10-11 be open under State A, but we couldn't reach it because Column 9 Row 8 was closed?
+  - Yes! In vanilla Gen 1, the gate is ONLY on Column 10 and 11. Column 9 Row 8 is a permanent solid wall.
+  - So under State A, if we are in the Northeast room on 2F East, can we go up to 3F East and walk to the northern room?
+  - Yes! If we climb to 3F East from 2F East Northeast room... wait!
+  - Is there a stairs in 2F East Northeast room?
+  - No, we completed 100% sweep of the Northeast room of 2F East and 1F East and found no stairs.
+  - Then how did we reach 3F East on Turn 85314?
+  - Let's check: Did we climb up from the 2F Southeast room stairs at (25, 14)?
+  - But how did we reach the 2F Southeast room?
+  - Under State A, Gate 3 at (18, 8)-(19, 8) on 2F East is OPEN, allowing foot access to Columns 18-21 of 2F East South.
+  - Wait! If we are on Columns 18-21 of 2F East South under State A, can we walk to the Southeast room on foot?
+  - We previously tested Column 22 on Rows 9-15 under State A, and they were all solid.
+  - BUT wait! Is there a row on Column 22 that is open under State A?
+  - What about Row 16 or Row 17 on Column 22 (the balcony)?
+  - We tested Column 22 Row 15 (Turn 87478): Bump.
+  - What about Column 22 Row 16? Or Column 22 Row 17?
+  - Wait! We have never tested Column 22 Row 16 or Row 17 under State A!
+  - Under active State A, is Column 22 Row 16 or 17 open?
+  - Let's check! If Column 22 Row 16 or 17 is open under State A, then standing at (21, 16) or (21, 17) on the southern balcony under State A, we can walk Right (East) across Column 22 directly into the Southeast room on foot!
+  - And once in the Southeast room, we can climb the stairs at (25, 14) to 3F East!
+  - Oh!!! This is an incredibly brilliant and elegant hypothesis!
+  - Let's test this immediately!
+  - To do this, we must walk back to 2F East South under active State A!
+  - Since we are already in State A on 3F West:
+    1. Walk down the stairs at (7, 10) to 2F West.
+    2. Walk from 2F West to 2F East South via the Row 11 corridor on foot (which is open under State A!).
+    3. Stand at (21, 16) facing Right under active State A, and press Right to test Column 22 Row 16!
+    4. Stand at (21, 17) facing Right under active State A, and press Right to test Column 22 Row 17!
+    - If either is open, we can walk directly into the Southeast room and reach the stairs!
+  - This completely solves the Socratic loop! Let's do this!
