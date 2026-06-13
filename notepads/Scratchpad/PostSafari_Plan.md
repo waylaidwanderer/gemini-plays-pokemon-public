@@ -115,11 +115,12 @@
   - **Result**: Direct collision bump (0 tiles visited), remaining at (24, 3).
   - **Definitive Conclusion**: (24, 4) is indeed a real, solid collision block of TYPE_2889, NOT a background texture. This definitively disproves the State B Northeast-Southeast walkthrough hypothesis. The Northeast room is a complete dead-end under State B.
 
-## State A 2F East Column 22 Row 8 Passability Audit & B1F Access Plan (Turn 88772)
-- **Concept**: Since Column 22 Row 8 was proven 100% solid on Turn 88730 under State B, and the southern balcony of 3F West is completely blocked on Columns 8-9, we hypothesize that Column 22 Row 8 is OPEN under active State A! Under State A, Gate 3 at (18, 8)-(19, 8) is OPEN, allowing us to walk onto 2F East South on foot, reach (21, 8), and walk Right onto (22, 8) to enter the Southeast room!
-- **Step-by-Step Path**:
-  1. Walk to the stairs at (7, 10) on 3F West and descend to 2F West.
-  2. Walk to Mewtwo Statue 2 at (2, 11) on 2F West and toggle the switch to State A.
-  3. Walk to 2F East South via the open Gate 3 at (18, 8)-(19, 8).
-  4. Navigate to (21, 8) and attempt to walk Right onto (22, 8).
-  5. If open, walk into the Southeast room, take the stairs at (25, 14) up to 3F East, and drop down the pit to B1F!
+## State A 2F East Column 22 Row 8 Passability Audit Results (Completed Turn 88806)
+- **Objective**: Physically test if Column 22 Row 8 is open under active State A on foot to access the isolated Southeast room.
+- **Methodology & Execution**:
+  - Turn 88800: We toggled the switch to State A and walked onto 2F East South via open Gate 3 at (18, 8)-(19, 8).
+  - Turn 88802: Walked to (22, 7) facing Right.
+  - Turn 88804: Pressed Down to turn Down and step Down onto (22, 8).
+  - **Result**: Direct collision bump (0 tiles visited), remaining at (22, 7) on Turn 88806 facing Down.
+  - **Definitive Conclusion**: Column 22 Row 8 is 100% solid and blocked by physical rubble under active State A on foot.
+  - **Final Direct On-Foot Route Disproof (State A & State B)**: The isolated 2F Southeast room (and thus the stairs up to 3F East) is 100% physically isolated and completely unreachable on foot on 2F East under both State A and State B due to solid Column 22/28 rubble walls. This officially and conclusively disproves the walkthrough hypothesis. No walkthrough path to the Southeast room exists on 2F.
