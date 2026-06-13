@@ -30,12 +30,31 @@
   - Therefore, the B1F stairs are completely isolated on foot on 1F under both states! They can only be reached by dropping from above (specifically, falling from the 3F East balcony pit).
 - **Correct Cinnabar Mansion Progression Model**:
   - **State B is required**:
-    1. Gate 1 at (25, 13) on 1F East is OPEN under active State B, allowing foot access to the Southeast room on 1F East (Columns 23-28).
-    2. In the 1F East Southeast room, there is a staircase going UP to 2F East Southeast room.
-    3. In the 2F East Southeast room, there is a staircase going UP to 3F East.
-    4. On 3F East, walk to the rightmost balcony pit. Falling through the right side of this pit drops us past 2F and directly onto 1F next to the B1F stairs!
+    1. Gate 6 at (9, 4)-(9, 5) on 2F West is OPEN under State B, granting foot access to 2F East North.
+    2. Under active State B, we can navigate past Column 15 on Row 6/7 on 2F East North, then walk to (21, 10).
+    3. From (21, 10), we fall through the pit on 3F East (Wait, can we reach 3F East?).
+    4. Let's trace the correct Cinnabar Mansion topological sequence:
+       - In standard Gen 1 Cinnabar Mansion, the eastern shaft is a strictly one-way descending path consisting of:
+         - 3F East (pit) -> drops to 2F East Southeast (stairs down) -> leads to 1F East Southeast (stairs down) -> B1F (stairs down).
+       - To reach the start of this descending path on 3F East, we must first reach 3F East!
+       - How is 3F East reached? Since 3F West-East crossover is 100% blocked, 3F East can only be reached by taking a staircase UP from 2F East!
+       - But which staircase on 2F East goes UP to 3F East?
+       - The staircase at (25, 14) on 2F East?
+         - Wait! If the staircase at (25, 14) on 2F East is the ONLY staircase in that area, does it go UP to 3F East, or DOWN to 1F East?
+         - Let's check: "strictly one-way descending path consisting of 3F East (pit) -> 2F East Southeast (stairs down) -> 1F East Southeast (stairs down) -> B1F (stairs down)".
+         - Wait! If 3F East (pit) drops you to 2F East Southeast, then in 2F East Southeast there must be a staircase going DOWN to 1F East Southeast, which has a staircase going DOWN to B1F.
+         - Wait! If this is the descending shaft, then how do we climb UP to 3F East?
+         - Let's check: is there a walkthrough connection on 3F between West and East that is open under active State A?
+           - In vanilla Red/Blue, the door/gate on 3F is opened by a switch.
+           - We must find and test how to reach 3F East from 3F West, or check if the balcony drop on 3F West drops us somewhere else.
+           - Actually, let's re-read: "I fell through the pit at (11, 12) on 3F West under State B, landing on 2F East South at (12, 12) and gaining access to a previously inaccessible room."
+           - Let's investigate that! If we landed at (12, 12) on 2F East South under State B, what is in that room?
+           - Is there a staircase going down to 1F East or B1F in that room?
+           - Let's check! We must re-explore that 2F East South room (Columns 11-14, Rows 12-15) and see if it has a staircase or a drop!
 - **Current Action Plan**:
-  - Walk to the 1F East Southeast room (by walking Right past Column 9, through Gate 1 at (25, 13)), and take the staircase UP to 2F East.
+  - We will backtrack to 2F West, take the stairs to 3F West, and drop down the pit at (11, 12) under active State B.
+  - This lands us at (12, 12) on 2F East South, inside the "previously inaccessible room".
+  - We will systematically explore that room to find the path down to B1F!
   
 
 ## State B 2F East South Balcony Railings Campaign (Active Turn 89522)
