@@ -1,7 +1,6 @@
 # Post-Safari Zone Route & Progression Plan (Cinnabar Mansion)
 
 ## Cinnabar Mansion Deep B1F Routing & Switch Matrix (Turn 78160)
-- **Active Exploration Mission**: Locate and retrieve the Secret Key on B1F.
 - **State A (Statue 2 Default)**:
   - Gate 1 on 1F (25, 13) is CLOSED, blocking foot access to the Southeast room.
   - Gate 3 on 2F (18, 8)-(19, 8) is OPEN (Verified OPEN on Turn 78836).
