@@ -6170,7 +6170,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Gate 26 on 2F (12, 26)-(13, 26) is CLOSED.
   - Gate 13 on 2F (12, 13)-(13, 13) is CLOSED.
 
-## State B 1F East Staircase & B1F Access Model (Active Turn 89575)
+## State B 1F East Staircase & B1F Access Model (Active Turn 89671)
 - **Objective**: Determine how to access the basement floor (B1F) of Pokémon Mansion.
 - **Topological Reality Check**:
   - The B1F stairs are located on 1F East at (21, 23).
