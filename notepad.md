@@ -6177,11 +6177,13 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 - **Socratic Analysis**: We are currently in active State A (Default) because Statue 2 was toggled to State A on Turn 89018 and has not been toggled since.
   If Column 10 is open down to Row 26, we can walk down Column 10 and test the balcony railings under State A.
   We have systematically tested Column 14 (railings bordering the atrium) on Rows 20, 21, 23, 24, and 25 under State A, and all are solid.
-  Our immediate campaign is to test Row 19 (tested Turn 89165, solid) and Row 18 on Column 14 to see if there is an open drop-off into the atrium under State A, or if we must find another way.
+  Our immediate campaign is to test Rows 16-19 on Column 14 to see if there is an open drop-off into the atrium under State A, or if we must find another way.
 - **Step-by-Step Path**:
   1. We are standing at (13, 19) on 2F East under active State A, facing Right.
   2. Test Row 19 Column 14: Completed Turn 89165, bumped (solid).
-  3. Walk Up 1 step to (13, 18) and press Right to test Row 18 Column 14.
+  3. Walk Up 1 step to (13, 18) and press Right to test Row 18 Column 14: Completed Turn 89182, bumped (solid).
+  4. Walk Up 1 step to (13, 17) and press Right to test Row 17 Column 14: Completed Turn 89191, bumped (solid).
+  5. Walk Up 1 step to (13, 16) and press Right to test Row 16 Column 14.
 
 <hr>
 
