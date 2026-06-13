@@ -6636,6 +6636,10 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 - On Turn 85112, we stood at (9, 9) facing Right under State A and pressed Right. Result: Bump against (10, 9), physically proving Column 10 Row 9 is solid and impassable on 3F West under State A.
 - On Turn 85119, we stood at (7, 8) facing Up under State A and pressed Up. Result: Bump against (7, 7), physically proving Column 7 Row 7 is solid and impassable on 3F West under State A.
 - On Turn 84976, we stood at (18, 7) facing Down under State B and pressed Down. Result: Bump against (18, 8), physically proving Gate 3 at (18, 8)-(19, 8) is CLOSED and impassable under State B.
+- **Turns 87632-87640 State A Column 14 Balcony Tests**:
+  - Turn 87632: Stood at (13, 16) facing Right under active State A, pressed Right. Result: **Bump** against (14, 16).
+  - Turn 87640: Stood at (13, 17) facing Right under active State A, pressed Right. Result: **Bump** against (14, 17).
+  - **Conclusion**: Column 14 Row 16 and Row 17 are 100% solid and blocked under active State A, confirming the western side of the 2F East South balcony (Columns 11-13) has absolutely no on-foot horizontal connection to Column 14+ or the Southeast room under State A. The pocket is completely closed.
 
 <hr>
 
