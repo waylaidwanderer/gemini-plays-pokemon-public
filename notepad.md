@@ -6445,6 +6445,8 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
       - Row 23: Bumped (Turn 89357)
       - Row 24: Bumped (Turn 89350)
       - Row 25: Bumped (Turn 89345)
+    - Row 15 Northern Wall (Columns 12-13): Tested on foot under active State B:
+      - Row 15 Column 12: Bumped (Turn 89429)
 - **Row 10 Crossover**: (9, 10) consists of standard open floor (TYPE_3fe2) and is completely OPEN and passable under State A (Verified Turn 78826).
 - **Physical Blockages & Routing Constraints (Empirically Verified)**:
   - **Column 15 Partition Wall**: Column 15 is a solid vertical wall of TYPE_2889 on Rows 1-5 (Verified Turn 76704 by bumping into (15, 2) from (14, 2)). Column 15 is completely OPEN and passable on Row 6 (Verified Turn 76718 by successfully stepping onto (15, 6) from (14, 6)) and visually open on Row 7.
