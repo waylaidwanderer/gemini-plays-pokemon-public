@@ -19,42 +19,20 @@
   - Gate 26 on 2F (12, 26)-(13, 26) is CLOSED.
   - Gate 13 on 2F (12, 13)-(13, 13) is CLOSED.
 
-## State B 1F East Staircase & B1F Access Model (Active Turn 89671)
+## State B 1F East Staircase & B1F Access Model (Active Turn 89703)
 - **Objective**: Determine how to access the basement floor (B1F) of Pokémon Mansion.
 - **Topological Reality Check**:
-  - The B1F stairs are located on 1F East at (21, 23).
-  - Under active State B, Gate 4 at (21, 17) is CLOSED, completely blocking on-foot access to Column 21 Rows 18-27 from the north.
-  - Column 22 is blocked by solid rubble/walls on Rows 14-27, separating Column 21 from Columns 23-28 (the Southeast room) horizontally.
-  - Column 11 is blocked by solid walls, separating Column 21 from the west side.
-  - Under active State A, Gate 4 is OPEN, but Row 13 on 1F East is completely blocked across all Columns, preventing on-foot access to the southern half.
-  - Therefore, the B1F stairs are completely isolated on foot on 1F under both states! They can only be reached by dropping from above (specifically, falling from the 3F East balcony pit).
-- **Correct Cinnabar Mansion Progression Model**:
-  - **State B is required**:
-    1. Gate 6 at (9, 4)-(9, 5) on 2F West is OPEN under State B, granting foot access to 2F East North.
-    2. Under active State B, we can navigate past Column 15 on Row 6/7 on 2F East North, then walk to (21, 10).
-    3. From (21, 10), we fall through the pit on 3F East (Wait, can we reach 3F East?).
-    4. Let's trace the correct Cinnabar Mansion topological sequence:
-       - In standard Gen 1 Cinnabar Mansion, the eastern shaft is a strictly one-way descending path consisting of:
-         - 3F East (pit) -> drops to 2F East Southeast (stairs down) -> leads to 1F East Southeast (stairs down) -> B1F (stairs down).
-       - To reach the start of this descending path on 3F East, we must first reach 3F East!
-       - How is 3F East reached? Since 3F West-East crossover is 100% blocked, 3F East can only be reached by taking a staircase UP from 2F East!
-       - But which staircase on 2F East goes UP to 3F East?
-       - The staircase at (25, 14) on 2F East?
-         - Wait! If the staircase at (25, 14) on 2F East is the ONLY staircase in that area, does it go UP to 3F East, or DOWN to 1F East?
-         - Let's check: "strictly one-way descending path consisting of 3F East (pit) -> 2F East Southeast (stairs down) -> 1F East Southeast (stairs down) -> B1F (stairs down)".
-         - Wait! If 3F East (pit) drops you to 2F East Southeast, then in 2F East Southeast there must be a staircase going DOWN to 1F East Southeast, which has a staircase going DOWN to B1F.
-         - Wait! If this is the descending shaft, then how do we climb UP to 3F East?
-         - Let's check: is there a walkthrough connection on 3F between West and East that is open under active State A?
-           - In vanilla Red/Blue, the door/gate on 3F is opened by a switch.
-           - We must find and test how to reach 3F East from 3F West, or check if the balcony drop on 3F West drops us somewhere else.
-           - Actually, let's re-read: "I fell through the pit at (11, 12) on 3F West under State B, landing on 2F East South at (12, 12) and gaining access to a previously inaccessible room."
-           - Let's investigate that! If we landed at (12, 12) on 2F East South under State B, what is in that room?
-           - Is there a staircase going down to 1F East or B1F in that room?
-           - Let's check! We must re-explore that 2F East South room (Columns 11-14, Rows 12-15) and see if it has a staircase or a drop!
+  - The eastern shaft is a strictly one-way descending path: 3F East (pit) -> 2F East Southeast (stairs down) -> 1F East Southeast (stairs down) -> B1F (stairs down).
+  - Therefore, we cannot climb up the eastern side of the mansion.
+  - To reach the start of this descending path on 3F East, we must cross from 3F West via the crossover gate at Column 10 Row 11.
+  - Gate 2 on 3F (10, 11) is OPEN under active State B.
+  - Our previous bump at (10, 11) on Turn 89666 under State B was due to the wandering Scientist NPC blocking the gate.
 - **Current Action Plan**:
-  - We will backtrack to 2F West, take the stairs to 3F West, and drop down the pit at (11, 12) under active State B.
-  - This lands us at (12, 12) on 2F East South, inside the "previously inaccessible room".
-  - We will systematically explore that room to find the path down to B1F!
+  - We will backtrack to 2F West, stand at (2, 12) facing Up, and toggle Mewtwo Statue 2 to State B.
+  - Walk back up the stairs to 3F West.
+  - Locate the Scientist NPC and freeze/stun him using `stun_npc` so he cannot block us.
+  - Walk horizontally Right through the open gate at (10, 11) onto 3F East.
+  - Walk to the eastern balcony pit and fall down to B1F!
 
 ## State B 2F East South Balcony Railings Campaign (Active Turn 89522)
 - **Objective**: Systematically and physically test the passability of the 2F East South balcony boundaries (Columns 11-14, Rows 15-26) on foot under active State B to find any potential jump-down drop or passage. This campaign is successfully completed.
