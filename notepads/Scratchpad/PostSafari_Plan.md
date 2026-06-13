@@ -108,22 +108,8 @@
   - We have systematically tested Column 10 Row 11 (Turn 88452), Column 9 Row 12 (Turn 88455), Column 9 Row 12 from (8, 12) (Turn 88465), and Column 9 Row 13 from (8, 13) (Turn 88473) on foot under active State B. All tests resulted in solid bumps.
   - **Definitive Conclusion**: The 3F West-East crossover is 100% physically blocked and impassable on foot under active State B. There is no walkthrough connection on 3F under State B.
 
-## State A 1F East Direct On-Foot Route (Turn 88560 Plan)
-- Active Exploration Phase Start: Turn 88620.
-- **Objective**: Access the B1F basement by testing the direct on-foot route under active State A on 1F East.
-- **Topological Hypothesis**:
-  - Under active State A, Gate 4 at (21, 17) is OPEN.
-  - The northern horizontal crossover on Row 6 is open on 1F, allowing foot crossing from 1F West to 1F East.
-  - We walk horizontally from 1F West to Column 21 Row 6 on 1F East, and walk Down Column 21.
-  - Since Row 13 has been proven completely solid across Columns 13 to 22 (Turn 83750, 79215-79227), we will restrict our passability testing strictly to Column 11 and Column 12 on Row 13 to verify if any vertical on-foot pathway to the southern half exists under active State A.
-  - If we find an opening on Column 11 or Column 12 Row 13, we will navigate through it to the southern half, walk to (21, 17) (Gate 4, which is OPEN under State A), and descend the B1F stairs at (21, 23).
-  - If Columns 11 and 12 are both blocked, then B1F is 100% unreachable on foot under active State A, and we must utilize the 3F West balcony drop under State B.
-- **Step-by-Step Execution Route**:
-  1. We are currently at (17, 10) on 1F East under State A.
-  2. Walk Down 2 steps to (17, 12).
-  3. Walk Left 3 steps to (14, 12).
-  4. Physically test the passability of Column 13 Row 12, Column 13 Row 11, and Column 13 Row 10 to see if we can get past Column 13 to reach Column 12.
-  5. If we cannot cross Column 13, walk back to Row 6 and transition to 1F West, then walk down Column 12/11 from 1F West to test Column 11 and 12 Row 13.
+## Disproven State A 1F East Direct On-Foot Route (Turn 88611 Completed)
+- **Conclusion**: Completely disproven. On Turns 88574, 88603, and 88611, we physically tested the vertical passability of Row 13 on Columns 11 and 12, and the horizontal passability of Column 13 Row 12. All tests resulted in solid bumps, proving that Row 13 is a continuous, solid, impassable wall on 1F, completely isolating the B1F stairs.
 
 ## 🧹 Overworld Cleaning Archive (Turn 87554)
 - Overwatch clean up successfully done. Removed transient testing protocol for Row 17 Column 14. Original historical facts safely retained.
