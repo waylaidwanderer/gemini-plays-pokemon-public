@@ -6259,7 +6259,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   7. On 3F East, walk to the rightmost balcony pit and fall down to B1F.
   8. Enter B1F to find the Secret Key.
 
-- Active Exploration Phase Start: Turn 86550. Currently on Turn 87545.
+- Active Exploration Phase Start: Turn 86550. Currently on Turn 87602.
 - Column 14 Row 16 Test (Turn 87351): Stood at (13, 16) facing Right under active State B, pressed Right. Result: Bump, physically proving that Column 14 Row 16 is 100% solid and impassable under active State B.
 - Column 14 Row 17 Test (Turn 87372): Stood at (13, 17) facing Right under active State B, pressed Right. Result: Bump, physically proving that Column 14 Row 17 is 100% solid and impassable under active State B.
 - Column 21 Row 16 Test (Turn 87475): Stood at (21, 15) facing Down under active State A, pressed Down. Result: Bump against (21, 16), physically proving the balcony railing at (21, 16) is 100% solid and impassable under active State A.
