@@ -128,4 +128,4 @@
   6. On 3F West under State A, walk to the northern passage on Row 7: (7, 11) -> (7, 10) -> (7, 9) -> (7, 8) -> (7, 7) (Wait, (7, 7) is solid? Let's check: (10, 7) and (11, 7) are open. We can walk along Row 7 past Column 10 to Column 12 to enter 3F East).
   7. On 3F East, navigate to the rightmost balcony pit and fall down directly into B1F!
 
-- Active Phase Start: Turn 86550. Currently on Turn 86979.
+- Active Phase Start: Turn 86550. Currently on Turn 87020.
