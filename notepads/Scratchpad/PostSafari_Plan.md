@@ -21,7 +21,7 @@
 
 🧱 Overwatch Cleanup: Large obsolete/duplicate planning blocks from Turns 85829-86326 removed successfully to keep context focused and clean.
 
-## State B 2F East South Balcony Railings Campaign (Active Turn 89318)
+## State B 2F East South Balcony Railings Campaign (Active Turn 89341)
 - **Objective**: Systematically and physically test the passability of the 2F East South balcony boundaries (Columns 11-14, Rows 15-26) on foot under active State B to find any potential jump-down drop or passage.
 - **Current Position**: Standing at (13, 22) facing Down on 2F East South under active State B.
 - **Audit Schedule & Status Tracker**:
