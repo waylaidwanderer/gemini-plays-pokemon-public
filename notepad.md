@@ -6273,7 +6273,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 - 3F West Statue side interaction (Turn 87532/87537): Stood at (9, 9) facing Right, pressed A. Result: No textbox, physically proving that the statue at (10, 9) on 3F is non-interactive/decorative from the side.
 
 ## State B 2F East Northeast Room Rubble Passability Test (Turn 88350 Plan)
-- Active Exploration Phase: Turn 88351.
+- Active Exploration Phase: Turn 88365.
 - **Objective**: Reach Cinnabar Mansion B1F by utilizing the State B 2F East Northeast Room Rubble Passability Route.
 - **The Rubble Passability Analysis**:
   - Our previous log states: "The Northeast room of 2F East is a 100% confirmed dead-end under State B on foot."
