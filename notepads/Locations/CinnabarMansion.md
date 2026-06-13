@@ -252,3 +252,11 @@
   - **Result**: Direct collision bump (0 tiles visited), remaining at (11, 12).
   - **Definitive Conclusion**: (11, 13) is indeed a real, solid collision block of TYPE_2889.
   - **Final Direct On-Foot Route Disproof (State A)**: Since Column 11, Column 12 (Gate 13), Column 13, and Columns 21, 23, 24, 25 on Row 13 are all 100% solid and impassable under active State A on 1F, there is absolutely zero walkthrough connection from the northern half to the southern half of 1F East under active State A. Direct on-foot basement access under State A is officially and conclusively disproven.
+## State B 2F East Column 22 Row 6/7 Passability Audit Results (Turn 88703)
+- **Objective**: Physically test passability of Column 22 Row 6 and Row 7, as well as Column 23 Row 6 and Row 7 on foot under active State B.
+- **Methodology & Execution**:
+  - Turn 88689: Walked from (21, 7) Right to (22, 7) under active State B. Traversal was **100% successful with zero collisions**, landing exactly on (22, 7). This proves Column 22 Row 7 is completely passable floor under active State B.
+  - Turn 88691: Walked from (22, 7) Up to (22, 6) under active State B. Traversal was **100% successful with zero collisions**, landing exactly on (22, 6). This proves Column 22 Row 6 is completely passable floor under active State B.
+  - Turn 88692: Attempted to walk Right from (22, 6) onto (23, 6). Result: **Bump** against (23, 6), visited 0 tiles. This physically and empirically proves that (23, 6) is solid rubble of TYPE_2889 under active State B.
+  - Turn 88694: Attempted to walk Right from (22, 7) onto (23, 7). Result: **Bump** against (23, 7), visited 0 tiles. This physically and empirically proves that (23, 7) is solid rubble of TYPE_2889 under active State B.
+- **Definitive Conclusion**: While Column 22 is open on Rows 6 and 7 under State B, Column 23 Row 6 and Row 7 are completely blocked by solid rubble. Therefore, Column 22 Row 6/7 does NOT provide a horizontal bypass to the eastern half of the floor under active State B. The Southeast room remains completely isolated on foot on 2F under both State A and State B. Our testing of 2F East is 100% complete and verified. No soft-locks exist; we must find the correct path elsewhere.
