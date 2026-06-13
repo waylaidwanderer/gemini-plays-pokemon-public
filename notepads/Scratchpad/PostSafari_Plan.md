@@ -103,26 +103,7 @@
 - **Definitive 3F West Balcony Disproof**: All balcony drop directions on 3F West are 100% solid and blocked under both State A and State B. There is no drop-off to 2F East South from the 3F West balcony. We must find another crossover method.
 - **Active State A 3F Crossover Plan (Started Turn 86327)**: Since 1F East is completely staircase-less, and 3F West balcony has no drops, we will revisit the 3F West-East crossover under State A. Historically on Turn 85285-85287, we successfully interacted with the Mewtwo Statue at (10, 9) on 3F and navigated past it to (12, 7) under State A, connecting 3F West to 3F East on foot! We will now walk to (9, 9) on 3F West to verify this connection.
 - Turn 86345: Standing at (9, 9) on 3F West facing Right under State A. Visually, (10, 9) is TYPE_2889 (rubble wall). We will test walking Right onto (10, 9) to see if we bump or pass. If we bump, it's impassable. If we pass, we can walk past it. Let's execute this test.
-- Turn 86459: Toggled Statue 2 to State A.
-
-## Active State A 3F Crossover Exploration (Turn 86494 Plan)
-- Since the 3F West-East crossover is blocked at Rows 8-15, and 3F West balcony has been disproven, we must investigate the unmodded 3F vertical corridor on Columns 1 and 2.
-- **Topological Hypothesis (Bypassing the Crossover)**:
-  - If Column 2 Row 9 is open, we can walk Left to Columns 1-2, walk UP to Row 2 or 1 (the northern corridor), walk East across Columns 9-10 on Row 2, and walk Down Column 12 to 3F East to fall through the pit at (11, 12) or (12, 14) / (12, 15).
-  - Under State A, we must test the passability of the Row 8 gate at (10, 8) and (11, 8). If it is open, we can navigate directly to the pit at (11, 12).
-- **Route to Left Corridor**:
-  - Stand at (7, 11).
-  - Walk Right to (8, 11) -> Up to (8, 10) -> Up to (8, 9) (bypassing stairs warp at (7, 10)).
-  - Walk Left to (5, 9) -> Down to (5, 13) -> Left to (2, 13).
-  - From (2, 13), explore Columns 1 and 2, specifically testing passability of Column 2 Row 9.
-- Turn 86529: Stood at (1, 10) facing Right under State A, pressed Right. Result: Bump against (2, 10). This physically and empirically proves Column 2 Row 10 is CLOSED and impassable under State A.
-- Turn 86515: Tested Column 5 Row 7 under State A, resulting in a bump against (5, 7).
-- Turn 86518: Tested Column 6 Row 7 under State A, resulting in a bump against (6, 7).
-- **Active Statue 3 State A Interaction Plan (Started Turn 86534)**:
-  - We have never pressed 'A' facing the Mewtwo Statue at (10, 9) under State A (we only bumped into it on Turn 85112).
-  - We will walk to (9, 9) facing Right under State A, and press 'A' to test if the statue's switch is interactive under State A!
-- **Definitive 3F West Balcony Drop Disproof (State B)**: All five columns (1 to 5) on Row 16 under State B are 100% solid, impassable railings. There is absolutely no active balcony drop-off on 3F West under either State A or State B. This satisfies the overwatch critique and completes the Socratic Burden of Proof.
-- Active Phase Start: Turn 86331. Currently on Turn 86550. We must re-evaluate how to access B1F or crossover.
+- Active Phase Start: Turn 86550. Currently on Turn 86612.
 
 ## State B Crossover Corridor (9, 12) and (10, 12) Passability Testing Protocol
 - **Objective**: Determine if Column 9 Row 12 (9, 12) is completely passable under State B when the Scientist NPC is not blocking it.
