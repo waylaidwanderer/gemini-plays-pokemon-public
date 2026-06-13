@@ -6445,6 +6445,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
       - Row 23: Bumped (Turn 89357)
       - Row 24: Bumped (Turn 89350)
       - Row 25: Bumped (Turn 89345)
+      - Row 26: Bumped (Turn 89452)
     - Row 15 Northern Wall (Columns 12-13): Tested on foot under active State B:
       - Row 15 Column 12: Bumped (Turn 89429)
       - Row 15 Column 13: Bumped (Turn 89434)
