@@ -6175,12 +6175,12 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 - **Conclusive Proof of Isolation**: Every single coordinate has been tested on foot and found 100% solid. No drops, gaps, or passages exist on the 2F East South balcony under State B.
 - **Roadmap to B1F**: Since both State A and State B balcony/crossover pathways on 2F and 3F are completely proven solid, B1F can ONLY be accessed by falling through the 3F West balcony pit under active State B.
   - **Empirical Discovery (Turn 89509)**: Walking Right from (5, 14) onto (6, 14) is normal floor and NOT a fall warp.
+  - **Empirical Discovery (Turn 89525)**: Walking Down from (6, 14) onto (6, 15) is normal floor and NOT a fall warp.
   - **Testing Roadmap**:
-    1. From current position (6, 14), step Down to (6, 15) to verify if Row 15 Column 6 is the true unblocked balcony drop.
-    2. If (6, 15) is also a standard floor tile and does not trigger a fall, we will systematically test other rows or explore 3F East further under State A.
-    3. Once the drop is triggered, land at (12, 12) on 2F East South (within the isolated landing pocket).
-    4. Locate the staircase or other pathway in this landing pocket to proceed to B1F.
-- **Current Position**: Standing at (6, 14) facing Up on 3F West under active State B.
+    1. Determine how to get to Column 11's pit void, or check if State A is required to walk past the 3F West crossover.
+    2. Once the drop is triggered, land at (12, 12) on 2F East South (within the isolated landing pocket).
+    3. Locate the staircase or other pathway in this landing pocket to proceed to B1F.
+- **Current Position**: Standing at (6, 15) facing Down on 3F West under active State B.
 - **Audit Schedule & Status Tracker**:
   1. **Column 14 Atrium Railing (Rows 16-25)**:
      - Row 16 Column 14: Completed Turn 87351. Bumped (solid).
