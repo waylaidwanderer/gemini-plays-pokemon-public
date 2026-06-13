@@ -176,6 +176,7 @@
     - Column 7 (Row 15): Tested on Turn 82979 by standing at (7, 15) facing Down and pressing Down. Result: **Bump** against (7, 16). Confirmed 100% solid, impassable under State A.
 - **State A (Default) Column 10 Row 11 Passability Test**:
     - Tested on Turn 82928 by standing at (9, 11) facing Right and pressing Right. Result: **Bump** against (10, 11) (stayed at (9, 11)). Confirmed 100% solid, impassable wall/closed gate under State A. This officially disproves any on-foot crossover under State A.
+    - Re-verified on Turn 89695 by standing at (9, 11) facing Right under active State A and pressing Right. Result: **Bump** against (10, 11) (stayed at (9, 11)), confirming Gate 2 is CLOSED under State A.
 - **Trainers**:
   - Burglar: Standing at (4, 11). Defeated on Turn 75104. Uses a Level 38 Ninetales. Marked with a ☠️ map marker.
 
