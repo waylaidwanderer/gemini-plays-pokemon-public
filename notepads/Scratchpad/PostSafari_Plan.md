@@ -103,11 +103,18 @@
 - **Definitive 3F West Balcony Disproof**: All balcony drop directions on 3F West are 100% solid and blocked under both State A and State B. There is no drop-off to 2F East South from the 3F West balcony. We must find another crossover method.
 - **Active State A 3F Crossover Plan (Started Turn 86327)**: Since 1F East is completely staircase-less, and 3F West balcony has no drops, we will revisit the 3F West-East crossover under State A. Historically on Turn 85285-85287, we successfully interacted with the Mewtwo Statue at (10, 9) on 3F and navigated past it to (12, 7) under State A, connecting 3F West to 3F East on foot! We will now walk to (9, 9) on 3F West to verify this connection.
 - Turn 86345: Standing at (9, 9) on 3F West facing Right under State A. Visually, (10, 9) is TYPE_2889 (rubble wall). We will test walking Right onto (10, 9) to see if we bump or pass. If we bump, it's impassable. If we pass, we can walk past it. Let's execute this test.
-- Turn 86349 Test (State A 3F Crossover): Stood at (9, 9) facing Right. Pressed Right to step onto (10, 9). Result was a BUMP, remaining at (9, 9). This physically and empirically proves that under State A, the tile (10, 9) (the Mewtwo Statue) is 100% solid and impassable. The walkthrough crossover on 3F remains completely closed under State A.
-- Turn 86383: Re-evaluated Cinnabar Mansion B1F access pathways. We realized that our previous balcony tests on 3F West southwest balcony (Columns 1-4, Row 16) were all performed under State A, resulting in bumps against (1-4, 17). Socratic mechanics indicate that under State A, Gate 18 on 2F West at (2, 18) is closed, completely blocking/occupying the landing space of the balcony drop. Under State B, Gate 18 is open, clearing the landing and potentially enabling the ledge jump from Column 1 or 2!
-- We also realized we never tested Column 1 or 2 of the 3F West balcony under State B.
-- Hypothesis: Under State B, walking Down from (1, 16) or (2, 16) on 3F West will successfully drop us down to 2F West balcony, allowing us to proceed to B1F.
-- Plan: Backtrack to stairs at (7, 10), go down to 2F West, toggle Statue 2 to State B, return to 3F West, and test Column 1 and 2 balcony drop under State B.
+- Turn 86459: Toggled Statue 2 to State A.
+
+## Active State A 3F Crossover Exploration (Turn 86494 Plan)
+- Since the 3F West-East crossover is blocked at Rows 8-15, and 3F West balcony has been disproven, we must investigate the unmodded 3F vertical corridor on Columns 1 and 2.
+- **Topological Hypothesis (Bypassing the Crossover)**:
+  - If Column 2 Row 9 is open, we can walk Left to Columns 1-2, walk UP to Row 2 or 1 (the northern corridor), walk East across Columns 9-10 on Row 2, and walk Down Column 12 to 3F East to fall through the pit at (11, 12) or (12, 14) / (12, 15).
+  - Under State A, we must test the passability of the Row 8 gate at (10, 8) and (11, 8). If it is open, we can navigate directly to the pit at (11, 12).
+- **Route to Left Corridor**:
+  - Stand at (7, 11).
+  - Walk Right to (8, 11) -> Up to (8, 10) -> Up to (8, 9) (bypassing stairs warp at (7, 10)).
+  - Walk Left to (5, 9) -> Down to (5, 13) -> Left to (2, 13).
+  - From (2, 13), explore Columns 1 and 2, specifically testing passability of Column 2 Row 9.
 - Turns 86431-86442: Completed systematic physical verification of all remaining columns on the 3F West southwest balcony under State B.
   - Column 3 Row 16: Stood at (3, 16) facing Down on Turn 86439 and pressed Down. Result: BUMP against (3, 17) (`TYPE_2889`).
   - Column 4 Row 16: Stood at (4, 16) facing Down on Turn 86441 and pressed Down. Result: BUMP against (4, 17) (`TYPE_2889`).
