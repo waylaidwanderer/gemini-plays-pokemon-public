@@ -6183,10 +6183,10 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
      - Row 19 Column 14: Completed Turn 89299. Bumped (solid).
      - Row 20 Column 14: Completed Turn 89306. Bumped (solid).
      - Row 21 Column 14: Completed Turn 89315. Bumped (solid).
-     - Row 22 Column 14: [ ] Pending test.
-     - Row 23 Column 14: [ ] Pending test.
+     - Row 22 Column 14: Completed Turn 89321. Bumped (solid).
+     - Row 23 Column 14: Completed Turn 89324. Bumped (solid).
      - Row 24 Column 14: Completed Turn 89330. Bumped (solid).
-     - Row 25 Column 14: [ ] Pending test.
+     - Row 25 Column 14: Completed Turn 89333. Bumped (solid).
   2. **Column 11 Western Railing (Rows 16-21)**:
      - Row 16 Column 11: [ ] Pending test.
      - Row 17 Column 11: [ ] Pending test.
