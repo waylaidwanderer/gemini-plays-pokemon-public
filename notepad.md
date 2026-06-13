@@ -6170,7 +6170,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Gate 26 on 2F (12, 26)-(13, 26) is CLOSED.
   - Gate 13 on 2F (12, 13)-(13, 13) is CLOSED.
 
-## State B 1F East Staircase & B1F Access Model (Active Turn 89792)
+## State B 1F East Staircase & B1F Access Model (Active Turn 89881)
 - **Objective**: Determine how to access the basement floor (B1F) of Pokémon Mansion.
 - **Topological Reality Check**:
   - The eastern shaft is a strictly one-way descending path: 3F East (pit) -> 2F East Southeast (stairs down) -> 1F East Southeast (stairs down) -> B1F (stairs down).
@@ -6179,12 +6179,8 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Gate 2 on 3F (10, 11) is OPEN under active State B.
   - Our previous bump at (10, 11) on Turn 89666 under State B was due to the wandering Scientist NPC blocking the gate.
 - **Current Action Plan**:
-  - We will backtrack to 2F West, stand at (2, 12) facing Up, and toggle Mewtwo Statue 2 to State B.
-  - Walk back up the stairs to 3F West.
-  - Locate the Scientist NPC and freeze/stun him using `stun_npc` so he cannot block us.
-  - Walk horizontally Right through the open gate at (10, 11) onto 3F East.
-  - Walk to the eastern balcony pit and fall down to B1F!
-
+  - Walk horizontally Right from (7, 11) through the open Gate 2 at (10, 11) to reach 3F East.
+  - Locate and fall down the giant pit on 3F East to land on 1F East, right next to the stairs to B1F.
 ## State B 2F East South Balcony Railings Campaign (Active Turn 89522)
 - **Objective**: Systematically and physically test the passability of the 2F East South balcony boundaries (Columns 11-14, Rows 15-26) on foot under active State B to find any potential jump-down drop or passage. This campaign is successfully completed.
 - **Conclusive Proof of Isolation**: Every single coordinate has been tested on foot and found 100% solid. No drops, gaps, or passages exist on the 2F East South balcony under State B.
