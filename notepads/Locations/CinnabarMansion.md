@@ -241,3 +241,14 @@
   - We stood at (14, 12) facing Down and pressed Left to attempt to step Left onto (13, 12) (labeled TYPE_2889).
   - **Result**: Direct collision bump (0 tiles visited), remaining at (14, 12).
   - **Definitive Conclusion**: (13, 12) is indeed a real, solid collision block of TYPE_2889, NOT a background texture. This physically and empirically proves that Column 13 acts as a continuous solid vertical partition on Rows 8-13, preventing direct horizontal on-foot crossing to the west from the 1F East northern half under active State A.
+
+- **Turn 88603 Physical Passability Test (State A - Gate 13)**:
+  - We stood at (12, 12) facing Down and pressed Down to attempt to step Down onto (12, 13) (Gate 13, labeled TYPE_2889).
+  - **Result**: Direct collision bump (0 tiles visited), remaining at (12, 12).
+  - **Definitive Conclusion**: Gate 13 at (12, 13) is CLOSED and impassable under active State A.
+
+- **Turn 88611 Physical Passability Test (State A - Column 11 Row 13)**:
+  - We stood at (11, 12) facing Down and pressed Down to attempt to step Down onto (11, 13) (labeled TYPE_2889).
+  - **Result**: Direct collision bump (0 tiles visited), remaining at (11, 12).
+  - **Definitive Conclusion**: (11, 13) is indeed a real, solid collision block of TYPE_2889.
+  - **Final Direct On-Foot Route Disproof (State A)**: Since Column 11, Column 12 (Gate 13), Column 13, and Columns 21, 23, 24, 25 on Row 13 are all 100% solid and impassable under active State A on 1F, there is absolutely zero walkthrough connection from the northern half to the southern half of 1F East under active State A. Direct on-foot basement access under State A is officially and conclusively disproven.
