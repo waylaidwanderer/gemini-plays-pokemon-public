@@ -6298,6 +6298,13 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 
 ## 🧹 Overworld Cleaning Archive (Turn 87554)
 - Overwatch clean up successfully done. Removed transient testing protocol for Row 17 Column 14. Original historical facts safely retained.
+- **Turn 88033 Physical Passability Test**:
+  - We stood at (24, 3) facing Down under active State B and pressed Down against (24, 4) (labeled TYPE_2889).
+  - **Result**: Direct collision bump (0 tiles visited), remaining at (24, 3).
+  - **Definitive Conclusion**: (24, 4) is indeed a real, solid collision block of TYPE_2889, NOT a background texture. This definitively disproves the State B Northeast-Southeast walkthrough hypothesis. The Northeast room is a complete dead-end under State B.
+  - **Active Plan Change (Turn 88038)**:
+    - We must return the mansion to **State A** (Default) by toggling Mewtwo Statue 2 at (2, 11) on 2F West.
+    - Under State A, we can climb the stairs to 3F West, walk east past the Mewtwo Statue at (10, 9) to 3F East (which is connected on foot under State A), and fall down the right side of the 3F East pit to land next to the B1F basement stairs on 1F East South.
 
 <hr>
 
