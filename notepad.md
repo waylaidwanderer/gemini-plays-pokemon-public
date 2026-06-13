@@ -6248,6 +6248,13 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 - Turn 86286: Completed Row 11 sweep (Columns 23-26). Verified all are standard floor tiles with no staircases or warps.
 - **Definitive 1F East Northeast Room Complete Sweep Disproof**: We have now systematically and physically walked over every single passable floor tile in the Northeast room of 1F East under both State A (Default) and State B. Absolutely none of the tiles triggered a staircase transition or warp. This empirically and definitively disproves the existence of any active staircase or warp in the Northeast room. Combined with the complete sweep disproof of the Southeast room of 1F East, we can definitively state that **1F East is completely staircase-less**. The staircase to 2F East South/Southeast must be accessed by some other means.
 
+## 3F West Gate & Balcony Complete Audit (Turn 86326)
+- **Turn 86316 Gate (8, 8) Test**: Stood at (8, 9) facing Up under State A and pressed Up. Result: BUMP against (8, 8), proving the gate is CLOSED and impassable under State A.
+- **Turn 86323 Balcony (2, 16) Test**: Stood at (2, 16) facing Down under State A and pressed Down. Result: BUMP against (2, 17), proving Column 2 Row 17 is solid and impassable under State A.
+- **Turn 86325 Balcony (1, 16) Test**: Stood at (1, 16) facing Down under State A and pressed Down. Result: BUMP against (1, 17), proving Column 1 Row 17 is solid and impassable under State A.
+- **Definitive 3F West Balcony Disproof**: All balcony drop directions on 3F West are 100% solid and blocked under both State A and State B. There is no drop-off to 2F East South from the 3F West balcony. We must find another crossover method.
+- **Active State A 3F Crossover Plan (Started Turn 86327)**: Since 1F East is completely staircase-less, and 3F West balcony has no drops, we will revisit the 3F West-East crossover under State A. Historically on Turn 85285-85287, we successfully interacted with the Mewtwo Statue at (10, 9) on 3F and navigated past it to (12, 7) under State A, connecting 3F West to 3F East on foot! We will now walk to (9, 9) on 3F West to verify this connection.
+
 <hr>
 
 <h1><code>Locations/CeladonGym</code></h1>
