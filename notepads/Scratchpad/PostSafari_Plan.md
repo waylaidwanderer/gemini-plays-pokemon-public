@@ -121,29 +121,26 @@
 - Column 14 Row 17 Test (Turn 87372): Stood at (13, 17) facing Right under active State B, pressed Right. Result: Bump, physically proving that Column 14 Row 17 is 100% solid and impassable under active State B.
 - 3F West Statue side interaction (Turn 87532/87537): Stood at (9, 9) facing Right, pressed A. Result: No textbox, physically proving that the statue at (10, 9) on 3F is non-interactive/decorative from the side.
 
-## State B 2F East Route to 3F East (Turn 88145 Plan)
-- Active Exploration Phase: Turn 88178.
-- **Objective**: Reach Cinnabar Mansion B1F by utilizing the intended vanilla State B route via 2F East.
-- **Why 1F East Staircase is impossible**:
-  - We physically tested (27, 10) on 1F East on Turn 88003 and confirmed it is solid rubble (`TYPE_2889`). In vanilla Pokémon Red/Blue, there is NO staircase on 1F East.
-- **The Core Vanilla Solution**:
-  1. We are currently returning to 1F West to climb the stairs at (5, 10) to 2F West.
-  2. On 2F West, since the mansion is in active State B (toggled on Turn 87947), Gate 6 at (9, 4)-(9, 5) is OPEN.
-  3. Walk from 2F West through Gate 6 to 2F East North on foot.
-  4. Walk horizontally across Column 22 Row 3 (which is open under both states) to enter the 2F East Northeast room (Columns 23-28).
-  5. Under active State B, the vertical gate on Row 8 on the East side (specifically Column 24) is OPEN.
-  6. Walk south from the Northeast room through the open Row 8 Column 24 gate into the 2F Southeast room (Columns 23-28, Rows 9-15). (Note: The rubble visual at Rows 6-7 on Columns 23-27 is a background texture and completely passable floor).
-  7. In the 2F Southeast room, climb the staircase at (25, 14) (or adjacent) up to 3F East!
-  8. On 3F East, walk to the large pit (Columns 12-14 on Rows 14-15) and drop down the right side of the pit to fall all the way past 2F and land directly next to the B1F basement stairs at (21, 23) on 1F East South.
-  9. Descend the stairs to B1F and retrieve the Secret Key!
-
+## State A 2F East South Column 22 Row 11 Test (Turn 88206 Plan)
+- Active Exploration Phase: Turn 88206.
+- **Objective**: Navigate to Column 21 on 2F East South and systematically test Column 22 on foot under active State A to locate the open pathway into the isolated Southeast room.
+- **Hypothesis**: Under active State A (Default), Row 11 on Column 22 is the actual vanilla gate location and is OPEN, allowing direct access to the isolated 2F Southeast room containing the stairs up to 3F East (which allows falling down the right side of the pit to B1F).
+- **Testing Protocol**:
+  1. Stand at (21, 11) facing Right under active State A.
+  2. Press Right to attempt to step onto (22, 11).
+  3. Log the outcome:
+     - If we step onto (22, 11), the gate is OPEN. We can immediately walk south to the stairs at (25, 14) and climb to 3F East.
+     - If we bump, we will systematically test Row 13, Row 14, and Row 15 on Column 22 under active State A to be scientifically complete.
+- **Execution Route**:
+  - We are currently on 2F East North at (17, 7).
+  - Walk to (21, 11) via the open path: Right, Right, Down, Down, Right, Right, Down, Down.
+  - Test (22, 11) by pressing Right.
+  
 - **Step-by-Step Execution Route**:
-  1. From our current position (21, 5) on 1F East, walk Left 16 steps along Row 5 to (5, 5).
-  2. Walk Down 5 steps along Column 5 to the stairs at (5, 10) and ascend to 2F West (landing at (7, 11)).
-  3. On 2F West, walk to the open Gate 6 at (9, 5) and cross to 2F East North.
-  4. Walk to Row 3 Column 22 at (22, 3) and cross into the Northeast room.
-  5. Walk to Row 8 Column 24 and walk south through the open gate into the Southeast room.
-  6. Climb the stairs to 3F East and fall through the right side of the pit to B1F!
+  1. From our current position (17, 7), walk to (21, 11): ['Right', 'Right', 'Down', 'Down', 'Right', 'Right', 'Down', 'Down']
+  2. Press Right to test Column 22 on Row 11.
+  3. If open, walk south and climb the stairs at (25, 14) to 3F East!
+  4. On 3F East, walk to the large pit and fall down to B1F!
 
 ## 🧹 Overworld Cleaning Archive (Turn 87554)
 - Overwatch clean up successfully done. Removed transient testing protocol for Row 17 Column 14. Original historical facts safely retained.
