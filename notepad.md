@@ -6274,17 +6274,11 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   1. Backtrack from 1F East Northeast room to 1F West stairs at (5, 10).
   2. Take the stairs to 2F West. We are currently in State B.
   3. Walk to the stairs at (7, 10) on 2F West and take them to 3F West.
-  4. On 3F West, walk to Pit A at (11, 12).
-  5. Fall through Pit A at (11, 12) to land at (12, 12) on 2F East South.
-  6. From (12, 12) on 2F East South under State B, we must navigate through the open 2F East North corridor to test the Row 8 gate/reach the B1F stairs.
-  - **Socratic Progression Check**: How can we navigate from (12, 12) to 2F East North corridor on State B?
-    - From (12, 12), walk South and use Column 11 Row 22 (which is open under State B) to reach the Column 10 corridor.
-    - Walk North along Column 10 to Row 3 (bypassing Row 9 blockage via Columns 10/11/12).
-    - Walk East to Column 21 or 22 on Row 3/6.
-    - Test the Row 8 gates or crossovers to find the unblocked route to the 2F Southeast room at (25, 14), which has the stairs to 3F East!
-    - On 3F East, fall through the rightmost pit to land on B1F and retrieve the Secret Key.
+  4. On 3F West, walk to Row 12 Column 11.
+  5. Under State B, Row 12 Column 11 (11, 12) is NOT a pit! It is a safe passable tile (Gate 2 is open) that allows walking straight East to the eastern balcony (3F East).
+  6. On 3F East, walk to the eastern balcony and drop down the rightmost pit to land in B1F and retrieve the Secret Key.
 
-- Active Phase Start: Turn 86550. Currently on Turn 86912.
+- Active Phase Start: Turn 86550. Currently on Turn 86948.
 
 <hr>
 
