@@ -6317,6 +6317,10 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 - **Definitive Conclusion**: Gate 15 is 100% CLOSED and impassable under both State A (Default) and State B (Toggled). 
 - **Proof of Work**: This confirms that we can never pass Gate 15 at Column 15 on 3F East, which blocks access to the eastern pit.
 
+## Turn 91722 Discovery of Column 15 Wall Gap
+- **Fact**: The partition wall at Column 15 on 3F has a massive, open 2-tile gap on Rows 4 and 5 (open floor TYPE_3fe2).
+- **Proof of Work**: Stood at (14, 6) on Turn 91714, walked Up 1 to (14, 5), Right 2 to (16, 5) on Turn 91716, successfully crossing into 3F East under active State B without any gate blockages! This completely bypasses Gate 15 and renders all prior Gate 15 gate-state toggling campaigns obsolete. We are currently at (16, 8) on 3F East.
+
 <hr>
 
 <h1><code>Locations/CeladonGym</code></h1>
