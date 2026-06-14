@@ -241,3 +241,11 @@
 - **Conclusion**: The balcony railing at (16, 9) is 100% solid and impassable. It is not a jumpable ledge.
 - **Analysis**: Since Row 9 is completely impassable across all columns on 3F East, the southern wing (containing the Scientist and the pit) is completely unreachable on foot from the upper wing. Access must be obtained from the West side. Since Gate 15 at Column 15 is 100% CLOSED under both states, there is no direct walkthrough path on the 3rd floor to the southern section of 3F East. 
 - **Next Hypothesis to Test**: How do we reach the basement? Let's re-verify the unmodded walkthrough. In unmodded Pokémon Red/Blue, the player falls from the 3F West balcony (the wide open balcony where the Scientist is) to reach the 2F Southeast room (or directly to the 1F Southeast area). Wait! Let's check where the player landed when falling from (11, 12) (Pit A): they landed on 2F East South at (12, 12) under active State B. Is there a pit at (12, 12) or another falling spot in that pocket? Let's check!
+## State A Northeast Staircase 1F East (27, 11) Testing Campaign (Turn 92034 Plan)
+- **Hypothesis**: The Northeast staircase at (27, 11) on 1F East is OPEN and passable under active State A (Default). Taking this staircase will warp us to (27, 11) in the 2F East Southeast room, granting us access to the stairs at (25, 14) on 2F East that lead up to 3F East (southern part), allowing us to reach the giant pit to B1F.
+- **Route to Test**:
+  1. From (20, 7) on 3F East, backtrack to 3F West North via (15, 5) gap, walk to (6, 1) stairs, and descend to 2F West.
+  2. Walk to Mewtwo Statue 2 at (2, 11) on 2F West, and toggle it to State A (Default).
+  3. Walk to 2F West NW stairs at (5, 10), and descend to 1F West.
+  4. On 1F, walk horizontally along Row 11 from (5, 11) all the way to (27, 11) on 1F East.
+  5. Attempt to step onto the staircase at (27, 11) under active State A and document if warp triggers.
