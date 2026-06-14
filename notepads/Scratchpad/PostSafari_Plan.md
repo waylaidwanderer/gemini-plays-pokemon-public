@@ -106,3 +106,7 @@
   3. Return to 3F East via the northwest stairs at (6, 1) on 2F West.
   4. Walk to (14, 11) and cross Gate 15 (which will be open under State A) to reach the pit!
 - Turn 90932: Began backtracking to 2F West from (13, 6) under State B.
+## Turn 91012 State A 3F East Gate 15 Passability Test
+- **Objective**: Verify if Gate 15 at Column 15 Row 10 (15, 10) is open under active State A on 3F East.
+- **Methodology**: Walk Down 4 steps from (13, 6) to (13, 10), Right 1 step to (14, 10), and then Right 1 step to (15, 10) to test passability.
+- **Hypothesis**: Under active State A, Gate 15 is OPEN, and we should be able to step onto (15, 10).
