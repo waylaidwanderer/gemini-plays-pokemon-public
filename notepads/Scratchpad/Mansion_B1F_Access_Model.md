@@ -209,3 +209,8 @@
   - Entering 1F East via Gate 1 under State B provides NO walkable path to the B1F stairs at (21, 23).
   - Therefore, the correct path to B1F MUST be to fall from 3F East (or 2F East South) onto the Left Half of 1F East Southeast.
   - To reach the stairs, we must return to 2F West, climb to 3F West, navigate to (11, 12) (Pit A), fall down to 2F East South, and descend the stairs to 1F East South (Left Half).
+## 3F East Mewtwo Statue at (10, 5) Test (Turn 91157)
+- **Hypothesis**: The Mewtwo Statue at (10, 5) on 3F East (Map 0_215) has an active switch to toggle the gates.
+- **Methodology**: Walked to (11, 5) on Row 5, facing Left towards (10, 5) on Turn 91157, and pressed 'A' to interact with the statue.
+- **Result**: No textbox appeared and no interaction occurred. This proves empirically that the statue at (10, 5) is 100% purely decorative and has no switch.
+- **Proof of Work**: Completed on Turn 91157.
