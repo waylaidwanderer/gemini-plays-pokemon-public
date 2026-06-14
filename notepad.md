@@ -6254,6 +6254,17 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Walk Right to (11, 2), then Down along Column 11 to Row 6 (11, 6) and continue Down to locate the pit at (11, 12).
   - Let's test walking Down to (11, 6) first and see what is further south!
 
+## Turn 90924 State B 3F East Gate 15 Passability Test Results
+- **Objective**: Verify if Gate 15 at Column 15 Rows 10 and 11 is open or closed under active State B on 3F East.
+- **Methodology**: Stood at (14, 11) facing Right under active State B on Turn 90921, and pressed Right to step onto (15, 11) on Turn 90922.
+- **Result**: Bump against (15, 11) (stayed at (14, 11)), physically proving that Gate 15 at (15, 11) is CLOSED and impassable under active State B on 3F East.
+- **Conclusion**: Gate 15 is closed under State B. In vanilla Pokémon Red/Blue, this gate is open under State A and closed under State B.
+- **Active Plan**:
+  1. Backtrack to 2F West: Walk Left to (13, 11) -> Up to (13, 10) -> Up to (13, 6) -> Left to (11, 6) -> Up to (11, 2) -> Left to (6, 2) -> Up to (6, 1) (the stairs down to 2F West).
+  2. Toggle Mewtwo Statue 2 at (2, 11) on 2F West to State A.
+  3. Return to 3F East via the northwest stairs at (6, 1) on 2F West.
+  4. Walk to (14, 11) and cross Gate 15 (which will be open under State A) to reach the pit!
+
 <hr>
 
 <h1><code>Locations/CeladonGym</code></h1>
