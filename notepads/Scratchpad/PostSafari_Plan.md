@@ -161,3 +161,30 @@
 ## Turn 91722 Discovery of Column 15 Wall Gap
 - **Fact**: The partition wall at Column 15 on 3F has a massive, open 2-tile gap on Rows 4 and 5 (open floor TYPE_3fe2).
 - **Proof of Work**: Stood at (14, 6) on Turn 91714, walked Up 1 to (14, 5), Right 2 to (16, 5) on Turn 91716, successfully crossing into 3F East under active State B without any gate blockages! This completely bypasses Gate 15 and renders all prior Gate 15 gate-state toggling campaigns obsolete. We are currently at (16, 8) on 3F East.
+## Turn 91746 - 3F East Exploration
+- Successfully fled from the wild Weezing. Standing at (20, 6) facing Up (as shown on current screen).
+- Observed the floor layout:
+  - There is indeed an item ball at (25, 5).
+  - Let's trace a route to get the item ball at (25, 5) and explore the area to find where the 3F East pit is.
+  - Let's trace tiles from (20, 6):
+    - Up to (20, 5)
+    - Right to (21, 5)
+    - Right to (22, 5)
+    - Right to (23, 5)
+    - Right to (24, 5)
+    - Stand at (24, 5) and interact with (25, 5) (the item ball) by facing Right and pressing A.
+  - Let's verify if this path is clear:
+    - (20, 5) is TYPE_3fe2 (passable)
+    - (21, 5) is TYPE_3fe2 (passable)
+    - (22, 5) is TYPE_3fe2 (passable)
+    - (23, 5) is TYPE_3fe2 (passable)
+    - (24, 5) is TYPE_3fe2 (passable)
+    - (25, 5) is the item ball.
+  - This path is completely open!
+  - Let's list the inputs to go from (20, 6) to (24, 5):
+    - Up (reaches (20, 5))
+    - Right (reaches (21, 5))
+    - Right (reaches (22, 5))
+    - Right (reaches (23, 5))
+    - Right (reaches (24, 5))
+  - Let's execute this movement!
