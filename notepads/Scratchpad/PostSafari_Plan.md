@@ -143,3 +143,4 @@
 - Turn 91405: Arrived at (8, 11) on 2F West. Executing the path to standing at (2, 12) facing UP to prepare for Statue 2 toggle.
 - Turn 91413: Successfully stood at (2, 12) facing UP. Ready to call activate_mansion_switch to toggle Mewtwo Statue 2 to State B.
 - Turn 91420: Realized we are in State A because Gate 6 is closed. The toggle on Turn 91415 failed or toggled back. We ended up at (10, 1). Detouring back to (2, 12) on 2F West on foot to manually and carefully toggle Statue 2 to State B.
+- Turn 91432: Encountered a wild VULPIX at (7, 11) on 2F West while walking back to the northwestern stairs. Planning to flee.
