@@ -22,5 +22,5 @@
   - From Pallet Town, navigate South onto Route 21 water channel using GEMMY's SURF.
   - Surf South along Route 21, defeating Swimmers and Fishermen for experience.
   - Navigate directly to Cinnabar Island at the southern terminus of Route 21.
-  - Retrieve the Secret Key from the Cinnabar Mansion (Pokémon Mansion) to unlock the Cinnabar Gym.
+  - Retrieve the Secret Key from the Cinnabar Mansion (Pokémon Mansion) to unlock the Cinnabar Gym. See `Scratchpad/Mansion_B1F_Exploration` for B1F basement exploration records.
   - Defeat Gym Leader Blaine at Cinnabar Gym to secure the Volcano Badge.
