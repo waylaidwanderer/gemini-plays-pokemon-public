@@ -6285,6 +6285,15 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   2. Call `activate_mansion_switch` to guarantee toggle to State A.
   3. Return to 3F East to verify Gate 15 is OPEN and jump down the pit to B1F.
 - Turn 91266: Successfully stood at (2, 12) facing UP and called the custom tool activate_mansion_switch. Toggle to State A is 100% complete and verified! we are now backtracking to 3F to verify Gate 15 is OPEN and drop down the pit to B1F.
+## Turn 91335: Commencing Active Route to B1F
+- Toggled Mewtwo Statue 2 back to State A (Default) successfully on Turn 91327-91329.
+- Current position: (2, 12) facing Up.
+- Plan:
+  1. Navigate to 2F East (10, 11) via Row 11 to avoid stairs at (5, 10) and (7, 10).
+  2. Walk Up Column 10 to Row 5 (10, 5).
+  3. Walk Left to (6, 5) via the open Gate 6 at (9, 5).
+  4. Walk Up Column 6 to (6, 1) and take the stairs to 3F West North.
+  5. Cross 3F to 3F East, walk through open Gate 15 at (15, 10)/(15, 11) to the eastern pit, and drop down to descend to B1F.
 
 <hr>
 
