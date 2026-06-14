@@ -6310,6 +6310,12 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Primary: Retrieve Secret Key from Cinnabar Mansion B1F
   - Secondary: Toggle Statue 2 to State B
   - Tertiary: Walk through Gate 15 (15, 10) on 3F East and fall to B1F descending path
+## Turn 91682 State B 3F East Gate 15 Passability Test Results
+- **Objective**: Verify if Gate 15 at Column 15 Row 10 is open or closed under active State B on 3F East.
+- **Methodology**: Stood at (14, 10) facing Right under active State B, and pressed Right on Turn 91681 to step onto (15, 10) on Turn 91682.
+- **Result**: Direct collision bump (stayed at (14, 10)), physically proving that Gate 15 at (15, 10) is CLOSED and impassable under active State B on 3F East.
+- **Definitive Conclusion**: Gate 15 is 100% CLOSED and impassable under both State A (Default) and State B (Toggled). 
+- **Proof of Work**: This confirms that we can never pass Gate 15 at Column 15 on 3F East, which blocks access to the eastern pit.
 
 <hr>
 
