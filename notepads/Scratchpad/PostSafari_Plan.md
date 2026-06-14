@@ -19,7 +19,7 @@
   - Gate 26 on 2F (12, 26)-(13, 26) is CLOSED.
   - Gate 13 on 2F (12, 13)-(13, 13) is CLOSED.
 
-## State B 1F East Staircase & B1F Access Model (Active Turn 90121)
+## State B 1F East Staircase & B1F Access Model (Active Turn 90151)
 - **Objective**: Determine how to access the basement floor (B1F) of Pokémon Mansion.
 - **Topological Reality Check**:
   - The eastern shaft is a strictly one-way descending path: 3F East (pit) -> 2F East Southeast (stairs down) -> 1F East Southeast (stairs down) -> B1F (stairs down).
@@ -27,11 +27,11 @@
   - To reach the start of this descending path on 3F East, we must cross from 3F West via the crossover gate at Column 10 Row 11.
   - Gate 2 on 3F (10, 11) is OPEN under active State B.
   - *Correction / Empirical Proof (Turn 89994/90003)*: We verified that Gate 2 at (10, 11) is CLOSED and solid under active State A AND active State B. Wait, why? The overwatch alert identified that our custom tool `activate_mansion_switch` contained a critical design flaw (pressing UP inside the YES/NO choice box, which shifted the cursor from YES to NO and cancelled the switch activation). Thus, Mewtwo Statue 2 at (2, 11) was NEVER successfully toggled to State B! We have been in active State A (Default) this whole time, which is why Gate 2 remained closed.
-- **Current Action Plan (Updated Turn 90121)**:
-  - Take the stairs up to 3F West at (7, 10).
-  - Immediately upon entering 3F West, stun the Scientist NPC at (6, 11) to prevent him from wandering and blocking the path.
-  - Walk to (9, 11) and cross into 3F East via Gate 2 at (10, 11) (which is open under active State B).
-  - Walk to 3F East and fall down the giant balcony drop pit (Pit B) to land on 1F East next to the B1F basement stairs!
+- **Current Action Plan (Updated Turn 90151)**:
+  - We stand at (9, 11) on 3F West.
+  - Since (10, 11) Gate 2 is 100% solid and impassable under active State B, we must test alternative horizontal crossover points.
+  - Walk South along Column 5/6/7 to the wide southern balcony floor at Rows 14 and 15.
+  - Systematically test if we can walk horizontally Right (East) past Column 10 on Row 14 and Row 15 to bypass the blocked corridor and reach the giant pit on 3F East!
 ## State B 2F East South Balcony Railings Campaign (Active Turn 89522)
 - **Objective**: Systematically and physically test the passability of the 2F East South balcony boundaries (Columns 11-14, Rows 15-26) on foot under active State B to find any potential jump-down drop or passage. This campaign is successfully completed.
 - **Conclusive Proof of Isolation**: Every single coordinate has been tested on foot and found 100% solid. No drops, gaps, or passages exist on the 2F East South balcony under State B.
