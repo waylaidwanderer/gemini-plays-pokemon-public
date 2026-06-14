@@ -19,7 +19,7 @@
   - Gate 26 on 2F (12, 26)-(13, 26) is CLOSED.
   - Gate 13 on 2F (12, 13)-(13, 13) is CLOSED.
 
-## State B 1F East Staircase & B1F Access Model (Active Turn 90186)
+## State B 1F East Staircase & B1F Access Model (Active Turn 90211)
 - **Objective**: Determine how to access the basement floor (B1F) of Pokémon Mansion.
 - **Topological Reality Check**:
   - The eastern shaft is a strictly one-way descending path: 3F East (pit) -> 2F East Southeast (stairs down) -> 1F East Southeast (stairs down) -> B1F (stairs down).
@@ -27,10 +27,10 @@
   - To reach the start of this descending path on 3F East, we must cross from 3F West via the crossover gate at Column 10 Row 11.
   - Gate 2 on 3F (10, 11) is OPEN under active State B.
   - *Correction / Empirical Proof (Turn 89994/90003)*: We verified that Gate 2 at (10, 11) is CLOSED and solid under active State A AND active State B. Wait, why? The overwatch alert identified that our custom tool `activate_mansion_switch` contained a critical design flaw (pressing UP inside the YES/NO choice box, which shifted the cursor from YES to NO and cancelled the switch activation). Thus, Mewtwo Statue 2 at (2, 11) was NEVER successfully toggled to State B! We have been in active State A (Default) this whole time, which is why Gate 2 remained closed.
-- **Current Action Plan (Updated Turn 90186)**:
-  - Walk Left along Row 10 to Column 3 to bypass the Scientist NPC.
-  - Walk Down Column 3 to Row 15 to reach the southern balcony area.
-  - Walk Right along the balcony on Row 15 to (5, 15).
+- **Current Action Plan (Updated Turn 90211)**:
+  - Stun the Scientist NPC at (4, 11) to freeze him.
+  - Walk Left along Row 11 to Column 5 (at (5, 11)).
+  - Walk Down Column 5 to Row 15 to reach the southern balcony area at (5, 15).
   - Test walking Right (East) off the balcony edge at (5, 15) onto Column 6/7/8 to find the jump-down balcony drop point!
 ## State B 2F East South Balcony Railings Campaign (Active Turn 89522)
 - **Objective**: Systematically and physically test the passability of the 2F East South balcony boundaries (Columns 11-14, Rows 15-26) on foot under active State B to find any potential jump-down drop or passage. This campaign is successfully completed.
