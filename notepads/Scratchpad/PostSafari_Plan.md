@@ -135,3 +135,8 @@
   3. Walk Left to (6, 5) via the open Gate 6 at (9, 5).
   4. Walk Up Column 6 to (6, 1) and take the stairs to 3F West North.
   5. Cross 3F to 3F East, walk through open Gate 15 at (15, 10)/(15, 11) to the eastern pit, and drop down to descend to B1F.
+## State A (Default) Gate 15 Definitively Closed Proof
+- **Turn 91364**: Tested (15, 11) under active State A and bumped.
+- **Turn 91369**: Tested (15, 10) under active State A and bumped.
+- **Deduction**: Both tiles of Gate 15 are 100% CLOSED and impassable under active State A. In vanilla Gen 1 Pokémon, this gate is OPEN under active State B and CLOSED under active State A. Our previous Turn 90922 test under State B bumped only because we tested (15, 11), which is a permanent solid wall/gate trim, whereas (15, 10) is the actual openable gate tile under State B!
+- **Revised Plan**: We must return to 2F West, toggle the Mewtwo Statue 2 back to State B (toggled), climb back to 3F East, walk to (14, 10), and step Right onto (15, 10) to cross Gate 15, reach the 3F East balcony at (16, 13) or (17, 13), and drop down the pit to descend to B1F!
