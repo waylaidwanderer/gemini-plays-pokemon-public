@@ -7349,6 +7349,17 @@ We identify 5 specialized custom tools/agents to implement once we reach B1F:
 - **Methodology**: Stood at (9, 9) facing Right under active State B and pressed Right on Turn 89539.
 - **Result**: Bump against (10, 9) (stayed at (9, 9)), physically proving that Column 10 Row 9 is 100% solid, closed, and impassable under active State B.
 - **Definitive Conclusion**: Column 10 Row 9 is closed under both State A and State B. 3F West has absolutely no walkthrough connection to 3F East under any state.
+- **Turn 90539 Proof of Isolation (Southeast Room State B)**:
+  - We stood at (25, 21) under active State B on 1F East.
+  - Symmetrical visual confirmation on the current screen overlay:
+    - Column 24 has a solid black wall of TYPE_2889 running down from Row 19 all the way to Row 23, and solid rubble of TYPE_2889 on Row 24 and Row 25.
+    - Rows 17 and 18 have solid rubble of TYPE_2889 on Columns 22 and 23.
+    - Row 17 Column 21 has Gate 4 (TYPE_a83b) closed with solid orange horizontal bars.
+    - Row 16 has open floor of TYPE_3fe2 from Column 21 to Column 25.
+  - This structure forms an absolute physical barrier under active State B between the right half (accessed via Gate 1) and the left half (containing the B1F stairs at (21, 23)).
+  - Entering 1F East via Gate 1 under State B provides NO walkable path to the B1F stairs at (21, 23).
+  - Therefore, the correct path to B1F MUST be to fall from 3F East (or 2F East South) onto the Left Half of 1F East Southeast.
+  - To reach the stairs, we must return to 2F West, climb to 3F West, navigate to (11, 12) (Pit A), fall down to 2F East South, and descend the stairs to 1F East South (Left Half).
 
 <hr>
 
