@@ -239,9 +239,7 @@
 - **Turn 91910 Test**: Stood at (24, 8) facing Down under State B and pressed Down. Result: Bumped against (24, 9) (0 tiles visited), remaining at (24, 8). This physically and empirically proves that Column 24 Row 9 is solid and impassable under active State B.
 - **Next Plan**: Walk Right to (25, 8) and test the railing at (25, 9) by walking Down.
 - **Turn 91929 Test**: Stood at (25, 8) facing Down under State B and pressed Down. Result: Bumped against (25, 9) (0 tiles visited), remaining at (25, 8). This physically and empirically proves that Column 25 Row 9 is solid and impassable under active State B.
-- **Turn 91944**: Walked Right to (26, 8) under State B. Ready to test the railing at (26, 9) by walking Down.
-- **Turn 91945 Test**: Stood at (26, 8) facing Down under State B and pressed Down. Result: Bumped against (26, 9) (0 tiles visited), remaining at (26, 8). This physically and empirically proves that Column 26 Row 9 is solid and impassable under active State B.
-- **Turn 91946**: Standing at (26, 8) facing Down under State B. Ready to walk Right to (27, 8) and test (27, 9) by walking Down.
+
 ## The 3rd Floor Mewtwo Statue Switch Solution (Turn 92675 Discovery)
 - **Fact**: There is indeed a functional gate switch on Cinnabar Mansion 3F West! It is located inside the Mewtwo Statue at (10, 5) on 3F West.
 - **Front Interaction Rule**: In Gen 1, Mewtwo Statues can ONLY be interacted with from the front (standing on the tile directly below the statue facing UP). On Turn 91157, we tested (10, 5) from the side (standing at (11, 5) facing Left), which is why no textbox appeared and we falsely assumed it was decorative.
