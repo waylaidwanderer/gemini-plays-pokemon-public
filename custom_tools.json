@@ -15,12 +15,12 @@
     ]
   },
   "activate_mansion_switch": {
-    "description": "Interacts with Mewtwo Statue 2 at (2, 11) on 2F West from (2, 12) facing UP to successfully toggle the gate state to State B. It outputs a sequence of 'A' presses and sleeps to bypass auto-advance dialogue without silently selecting NO.",
+    "description": "Interacts with the Mewtwo Statue directly above the player to successfully toggle the global gate state. It first presses UP to face the statue, then presses A three times with 1.5s pauses in between to open the prompt, select YES, and close the dialogue box without re-interacting or double-toggling.",
     "input_schema": {
       "type": "object",
       "properties": {}
     },
-    "python_script": "# Let's output a sequence of 'A' presses with pauses to toggle Mewtwo Statue 2.\n# Default cursor is YES, so we just press A.\nimport json\n\n# Output the sequence\nprint(json.dumps([\"A\", \"sleep 1500\", \"A\", \"sleep 1500\", \"A\", \"sleep 1500\", \"A\"]))\n",
+    "python_script": "import json\n\n# This tool outputs a sequence of buttons to orient UP and toggle the Mewtwo Statue switch exactly once.\n# It presses 'Up' to ensure the player is facing the statue directly above,\n# then 'A' to open the prompt, 'A' to select YES, and 'A' to close the final dialogue.\n# This prevents double-toggles or active dialogue menu trapping.\n\nsequence = ['Up', 'A', 'sleep 1500', 'A', 'sleep 1500', 'A']\nprint(json.dumps(sequence))\n",
     "history": [
       {
         "commit_message": "Define activate_mansion_switch tool to toggle Mewtwo Statue 2 switch under State B without triggering harness auto-advance.",
@@ -36,6 +36,11 @@
         "commit_message": "Redefine activate_mansion_switch to remove the faulty Up button press, ensuring we correctly select YES to toggle the switch.",
         "timestamp": "2026-06-13T23:22:10.386Z",
         "action_counter": 90005
+      },
+      {
+        "commit_message": "Redefined activate_mansion_switch to ensure correct player orientation and exact three A presses to prevent double-toggle and silent NO failures.",
+        "timestamp": "2026-06-14T23:11:31.167Z",
+        "action_counter": 92851
       }
     ]
   }
