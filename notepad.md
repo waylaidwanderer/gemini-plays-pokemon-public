@@ -6470,6 +6470,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   3. Now that State A is active, the southern path on 3F East opens up!
   4. Walk south to the giant pit on 3F East South, and fall down to B1F!
 - **Testing Protocol (Turn 92757)**: Walk to (22, 4) facing UP and press 'A' to interact with the switch.
+- **Turn 92762**: Reached (22, 4) on 3F East directly below the Mewtwo Statue at (22, 3). Ready to press 'A' to interact and toggle the gates to State A.
 
 <hr>
 
