@@ -259,3 +259,23 @@
 - Turn 92117: Encountered wild Grimer at (27, 4) on 1F East. Planning to flee.
 - Turn 92123: Encountered wild Grimer at (27, 7) on 1F East. Planning to flee.
 - Turn 92132 Test: Stood at (27, 9) facing Down under active State A. Pressed Down to step onto (27, 10). Result: Bump (0 tiles visited), remaining at (27, 9). This physically and empirically proves that (27, 10) is solid/impassable rubble under active State A on 1F East.
+
+## Turn 92273: State B Column 19 Crossover & Balcony Theory
+- **Discovery**: In unmodded Pokémon Red/Blue, the gate on 3F East that blocks access to the southern section (balcony and scientist) is located on Row 9 Column 19 (or Row 8 Column 19). This gate is OPEN under active State B and CLOSED under active State A.
+- **Proof of Work Checklist**:
+  - We previously found Gate 15 at Column 15 CLOSED under both states, which initially caused confusion. However, Column 15 is not the gate!
+  - We have never tested Column 19 Row 9 under active State B on foot!
+  - Under active State B, this path should be completely open, allowing us to walk south past Row 9 on Column 19 and reach the balcony/pit.
+- **Action Plan**:
+  1. We have successfully toggled Statue 2 to State B on Turn 92273.
+  2. Navigate to the stairs at (6, 1) on 2F West via the Column 10 Row 7 detour:
+     - Right 4 to (6, 12).
+     - Up 1 to (6, 11).
+     - Right 4 to (10, 11).
+     - Up 4 to (10, 7).
+     - Left 4 to (6, 7).
+     - Up 6 to (6, 1) (staircase).
+  3. Warp to 3F West North (6, 1) / (6, 2).
+  4. Cross horizontally via Row 2 to 3F East North at (16, 2).
+  5. Walk to Column 19 and walk Down through Row 9 (the gate/railing) under State B to verify if it is open!
+  6. Walk to the pit and drop down to reach B1F stairs.
