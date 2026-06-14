@@ -703,6 +703,10 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Verified Fact**: Standard Python filesystem utilities (such as `os.walk`, `os.path`, and the standard `open()` command) executed within the `run_code` tool are completely blind to the game's virtual pseudo-filesystem. 
 - **Rule**: The virtual persistent notepads (including `Main`, `Locations/*`, `Scratchpad/*`, etc.) are managed in a separate sandboxed datastore. To search, read, or list notepads programmatically, you MUST exclusively use the built-in `search_notepads`, `read_notepad`, and `load_notepads` tools. Standard OS commands will return empty results.
 
+## Virtual Notepad Datastore Search Rule (Turn 90781 Verification)
+- **Verified Fact**: Standard Python filesystem utilities (such as `os.walk`, `os.path`, and the standard `open()` command) executed within the `run_code` tool are completely blind to the game's virtual pseudo-filesystem. 
+- **Rule**: The virtual persistent notepads (including `Main`, `Locations/*`, `Scratchpad/*`, etc.) are managed in a separate sandboxed datastore. To search, read, or list notepads programmatically, you MUST exclusively use the built-in `search_notepads`, `read_notepad`, and `load_notepads` tools. Standard OS commands will return empty results. This ensures no compute or time is wasted on blind filesystem searches.
+
 <hr>
 
 <h1><code>Locations/Route2_North</code></h1>
