@@ -6878,6 +6878,9 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 - **Turn 89156 Test (State A - Column 14 Row 20)**: Stood at (13, 20) facing Right and pressed Right under active State A. Result: Bumped against solid wall/railing at (14, 20). This physically proves Column 14 Row 20 is CLOSED/solid and impassable under active State A on 2F East.
 - **Turn 89165 Test (State A - Column 14 Row 19)**: Stood at (13, 20) facing Down and pressed ["Up", "Right"] to walk to (13, 19) and press Right under active State A. Result: Bumped against solid wall/railing at (14, 19). This physically proves Column 14 Row 19 is CLOSED/solid and impassable under active State A on 2F East.
 - **Turn 89183 Test (State A - Column 14 Row 18)**: Stood at (13, 18) facing Right and pressed Right under active State A. Result: Bumped against solid wall/railing at (14, 18). This physically proves Column 14 Row 18 is CLOSED/solid and impassable under active State A on 2F East.
+- **Turn 92230 Verification of (16, 10)**:
+  - We have verified that the object at (16, 10)-(16, 11) is a specimen tank (solid decorative tile of TYPE_2889) and NOT a staircase. This is identical in visual design and collision type to the specimen tanks at (8, 10), (8, 12), and (8, 14).
+  - The previous assumption that (16, 10) is a staircase was a false positive due to confirmation bias.
 
 <hr>
 
