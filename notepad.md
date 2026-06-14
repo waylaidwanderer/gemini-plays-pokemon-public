@@ -7589,6 +7589,10 @@ We identify 5 specialized custom tools/agents to implement once we reach B1F:
   3. Walk to 2F West NW stairs at (5, 10), and descend to 1F West.
   4. On 1F, walk horizontally along Row 11 from (5, 11) all the way to (27, 11) on 1F East.
   5. Attempt to step onto the staircase at (27, 11) under active State A and document if warp triggers.
+- **Empirical Results (Turns 92132 and 92164)**:
+  - On Turn 92132, stood at (27, 9) facing Down under active State A, and pressed Down against (27, 10). Result: BUMP (0 tiles visited), remaining at (27, 9). This physically and empirically proves that (27, 10) is solid/impassable rubble under active State A on 1F East.
+  - On Turn 92164, stood at (26, 11) facing Right under active State A, and pressed Right against (27, 11). Result: BUMP (0 tiles visited), remaining at (26, 11). This physically and empirically proves that (27, 11) is solid/impassable rubble under active State A on 1F East.
+  - **Definitive Conclusion**: The Northeast staircase at (27, 11) is CLOSED and impassable under BOTH State A and State B. No active staircase warp exists at this location on 1F East. The Northeast-Southeast room on 1F East is a dead end.
 
 <hr>
 
