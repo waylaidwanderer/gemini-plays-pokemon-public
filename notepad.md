@@ -6440,6 +6440,18 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   6. Walk to the pit and drop down to reach B1F stairs.
 - **Turn 92354-92355 Test**: Stood at (19, 7) facing Down under active State B. Pressed Down. Result: **Bump** against (19, 8) (stayed at (19, 7)). This physically and empirically proves that Column 19 Row 8 is CLOSED/solid and impassable under active State B. The Column 19 Crossover hypothesis is conclusively disproven. There is absolutely no walkthrough passage on 3F East to the southern wing under State B.
 
+## The 3rd Floor Mewtwo Statue Switch Solution (Turn 92675 Discovery)
+- **Fact**: There is indeed a functional gate switch on Cinnabar Mansion 3F West! It is located inside the Mewtwo Statue at (10, 5) on 3F West.
+- **Front Interaction Rule**: In Gen 1, Mewtwo Statues can ONLY be interacted with from the front (standing on the tile directly below the statue facing UP). On Turn 91157, we tested (10, 5) from the side (standing at (11, 5) facing Left), which is why no textbox appeared and we falsely assumed it was decorative.
+- **Verification Plan**:
+  1. Set the global gates to State B at (2, 11) on 2F West. This opens Gate 6 on 2F West, allowing us to reach the NW stairs at (6, 1).
+  2. Take the NW stairs to 3F West North (6, 1).
+  3. Walk to the Mewtwo Statue front-interaction tile on 3F West: From (6, 1), walk Down to (6, 2) -> Right to (11, 2) -> Down along Column 11 to (11, 6) -> Left to (10, 6) -> face UP towards (10, 5) -> press 'A' to toggle the gates to State A.
+  4. Now that State A is active, the gate on 3F East at Column 19 Row 9 is OPEN!
+  5. Walk back to Column 11 and walk across the partition gap at Column 15 Row 5 to reach 3F East North.
+  6. Walk to Column 19, walk south past Row 8/9, walk to the pit, and fall down to descend to B1F!
+- This elegant loop is the exact intended vanilla solution to the entire mansion puzzle.
+
 <hr>
 
 <h1><code>Locations/CeladonGym</code></h1>
