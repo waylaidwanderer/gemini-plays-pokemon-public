@@ -7592,5 +7592,14 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 ## 7. Error Analysis & Hypothesis Review
 - Our previous testing of the western balcony drop at Column 6 was premature because Columns 5 and 6 are part of the balcony floor; the actual drop-off edge of the balcony railing is on Column 7.
+## Reflection Turn 91098
+- **Immediate Execution**: Successfully navigated back to 3F West North (Map 0_215) and arrived at (11, 2) on Turn 91096. No wild battles on the way.
+- **Notepad Hygiene**: Kept notes updated with our toggle of Statue 2 on Turn 91077 back to State A. We are now testing Gate 15's passability under active State A.
+- **Map Hygiene**: Added and verified key stairs and pit map markers.
+- **Goal Clarity**:
+  - Primary: Retrieve Secret Key from Cinnabar Mansion B1F
+  - Secondary: Cross Gate 15 on 3F East under State A to reach the pit
+  - Tertiary: Drop down the pit to reach the isolated stairs descending to B1F
+- **Error Analysis**: We now know that manual statue toggles can silently fail by selecting 'NO' unless we are very careful with our timing/position or use the `activate_mansion_switch` tool. We've toggled State A, so we're testing the gate now to confirm State A is indeed active.
 
 <hr>
