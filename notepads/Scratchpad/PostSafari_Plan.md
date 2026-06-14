@@ -258,3 +258,4 @@
 - Turn 92111: Encountered wild Vulpix at (24, 3) on 1F East. Planning to flee.
 - Turn 92117: Encountered wild Grimer at (27, 4) on 1F East. Planning to flee.
 - Turn 92123: Encountered wild Grimer at (27, 7) on 1F East. Planning to flee.
+- Turn 92132 Test: Stood at (27, 9) facing Down under active State A. Pressed Down to step onto (27, 10). Result: Bump (0 tiles visited), remaining at (27, 9). This physically and empirically proves that (27, 10) is solid/impassable rubble under active State A on 1F East.
