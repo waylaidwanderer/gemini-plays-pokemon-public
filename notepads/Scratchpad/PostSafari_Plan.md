@@ -15,7 +15,7 @@
   - Gate 3 on 2F (18, 8)-(19, 8) is CLOSED (Verified CLOSED on Turn 84976).
   - Gate 4 on 1F East (21, 17) is CLOSED.
   - Gate 6 on 2F (9, 4)-(9, 5) is OPEN.
-  - Gate 18 on 2F (2, 18) is OPEN (Verified on Turn 86403 by toggling Statue 2 to State B).
+  - Gate 18 on 2F (2, 9) is OPEN (Verified on Turn 86403 by toggling Statue 2 to State B).
   - Gate 26 on 2F (12, 26)-(13, 26) is CLOSED.
   - Gate 13 on 2F (12, 13)-(13, 13) is CLOSED.
 
