@@ -6461,6 +6461,16 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   3. Walk Right to Column 21, and attempt to walk Down (South) onto (21, 9) to see if we can pass.
   4. If Column 21 Row 9 is open, we can reach the 3F East pit and fall down to B1F!
 
+## The Real 3F East Mewtwo Statue Switch Discovery (Turn 92757)
+- **Fact**: There is a real Mewtwo Statue located at (22, 3) on 3F East (Map 0_215).
+- **Accessibility**: The tile directly below the statue is (22, 4), which is standard open floor (`TYPE_3fe2`). We can stand there and face UP to interact with the statue from the front.
+- **The True Intended Solution**:
+  1. Cross to 3F East North under active State B (when Gate 15 is open).
+  2. Walk to (22, 4) facing UP and toggle the Mewtwo Statue at (22, 3) to active State A.
+  3. Now that State A is active, the southern path on 3F East opens up!
+  4. Walk south to the giant pit on 3F East South, and fall down to B1F!
+- **Testing Protocol (Turn 92757)**: Walk to (22, 4) facing UP and press 'A' to interact with the switch.
+
 <hr>
 
 <h1><code>Locations/CeladonGym</code></h1>
