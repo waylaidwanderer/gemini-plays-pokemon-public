@@ -6178,14 +6178,14 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Gate 26 on 2F (12, 26)-(13, 26) is CLOSED.
   - Gate 13 on 2F (12, 13)-(13, 13) is CLOSED.
 
-## State B 1F East Staircase & B1F Access Model (Active Turn 90755)
+## State B 1F East Staircase & B1F Access Model (Active Turn 90784)
 - **Objective**: Determine how to access the basement floor (B1F) of Pokémon Mansion.
 - **Topological Reality Check**:
   - The eastern shaft is a strictly one-way descending path: 3F East (pit) -> 2F East Southeast (stairs down) -> 1F East Southeast (stairs down) -> B1F (stairs down).
   - Therefore, we cannot climb up the eastern side of the mansion.
   - Gate 2 on 3F (10, 11) is CLOSED and solid under both State A and State B (Empirically verified Turn 90748).
   - The correct path to reach the descending path is to execute the western balcony drop from the 3F West balcony (Column 7 Row 14/15) under active State B.
-- **Current Action Plan (Updated Turn 90755)**:
+- **Current Action Plan (Updated Turn 90784)**:
   - Stand at (2, 12) on 2F West, explicitly face UP, and successfully toggle Mewtwo Statue 2 to State B (using the activate_mansion_switch tool).
   - Return to 3F West via the stairs at (7, 10).
   - Walk to the right edge of the balcony: Column 7 Row 14 or 15.
