@@ -142,3 +142,4 @@
 - **Revised Plan**: We must return to 2F West, toggle the Mewtwo Statue 2 back to State B (toggled), climb back to 3F East, walk to (14, 10), and step Right onto (15, 10) to cross Gate 15, reach the 3F East balcony at (16, 13) or (17, 13), and drop down the pit to descend to B1F!
 - Turn 91405: Arrived at (8, 11) on 2F West. Executing the path to standing at (2, 12) facing UP to prepare for Statue 2 toggle.
 - Turn 91413: Successfully stood at (2, 12) facing UP. Ready to call activate_mansion_switch to toggle Mewtwo Statue 2 to State B.
+- Turn 91420: Realized we are in State A because Gate 6 is closed. The toggle on Turn 91415 failed or toggled back. We ended up at (10, 1). Detouring back to (2, 12) on 2F West on foot to manually and carefully toggle Statue 2 to State B.
