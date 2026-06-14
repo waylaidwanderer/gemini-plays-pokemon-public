@@ -256,3 +256,4 @@
   5. Attempt to walk onto (27, 11) (or adjacent) and see if warp triggers.
 - This will empirically prove if the Northeast stairs at (27, 11) are accessible under State A!
 - Turn 92111: Encountered wild Vulpix at (24, 3) on 1F East. Planning to flee.
+- Turn 92117: Encountered wild Grimer at (27, 4) on 1F East. Planning to flee.
