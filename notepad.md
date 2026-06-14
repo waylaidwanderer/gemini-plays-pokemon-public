@@ -6453,6 +6453,14 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 - This elegant loop is the exact intended vanilla solution to the entire mansion puzzle.
 - Turn 92733: Successfully interacted with the Mewtwo Statue at (10, 5) on 3F West from (10, 6) facing UP, opening the 'Press it?' YES/NO prompt. Selecting YES to toggle the global gates to State A.
 
+## Breakthrough: State B 3F East Column 21/22 Gate Hypothesis (Turn 92748)
+- **The Core Flaw in Prior Reasoning**: On Turn 92354-92355, we stood at (19, 7) and pressed Down under active State B, bumped against (19, 8), and concluded that 3F East has no walkthrough crossover to the southern wing under State B. This was a premature rejection! Column 19 is a permanent solid wall/rubble in the vanilla tileset. The actual gate that opens under active State B is located on Column 21 (or Column 22) Row 9.
+- **Testing Protocol**:
+  1. Walk back to (10, 6) facing UP and toggle the Mewtwo Statue back to active State B.
+  2. Walk to 3F East North via Column 15 Row 4/5 (which is OPEN under State B).
+  3. Walk Right to Column 21, and attempt to walk Down (South) onto (21, 9) to see if we can pass.
+  4. If Column 21 Row 9 is open, we can reach the 3F East pit and fall down to B1F!
+
 <hr>
 
 <h1><code>Locations/CeladonGym</code></h1>
