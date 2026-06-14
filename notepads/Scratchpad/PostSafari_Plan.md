@@ -240,3 +240,5 @@
 - **Hypothesis**: The balcony railing at (24, 9) or (25, 9) is jumpable/passable on foot and drops us to B1F.
 - **Turn 91910 Test**: Stood at (24, 8) facing Down under State B and pressed Down. Result: Bumped against (24, 9) (0 tiles visited), remaining at (24, 8). This physically and empirically proves that Column 24 Row 9 is solid and impassable under active State B.
 - **Next Plan**: Walk Right to (25, 8) and test the railing at (25, 9) by walking Down.
+- **Turn 91929 Test**: Stood at (25, 8) facing Down under State B and pressed Down. Result: Bumped against (25, 9) (0 tiles visited), remaining at (25, 8). This physically and empirically proves that Column 25 Row 9 is solid and impassable under active State B.
+- **Turn 91944**: Walked Right to (26, 8) under State B. Ready to test the railing at (26, 9) by walking Down.
