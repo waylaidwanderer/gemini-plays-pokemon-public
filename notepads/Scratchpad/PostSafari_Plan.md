@@ -270,18 +270,3 @@
   3. Now that State A is active, the southern path on 3F East opens up!
   4. Walk south to the giant pit on 3F East South, and fall down to B1F!
 - **Testing Protocol (Turn 92757)**: Walk to (22, 4) facing UP and press 'A' to interact with the switch.
-- **Turn 92762**: Reached (22, 4) on 3F East directly below the Mewtwo Statue at (22, 3). Ready to press 'A' to interact and toggle the gates to State A.
-
-- **The Crossover Hypothesis under State A (Turn 92772 Plan)**:
-  - We proved that the Mewtwo Statue at (22, 3) on 3F East is decorative.
-  - Thus, we must toggle to State A on 3F West at (10, 5) to open the gate at Column 19 Row 9.
-  - To reach 3F East under State A, we must test if Column 15 Row 6 or Row 7 is a permanent open gap (or open under State A).
-  - **Backtracking Route to 3F West (10, 6)**:
-    - From (22, 4), walk Left 1 to (21, 4).
-    - Walk Up 1 to (21, 3).
-    - Walk Left 5 to (16, 3).
-    - Walk Down 2 to (16, 5).
-    - Walk Left 2 through the gap to (14, 5).
-    - Walk Down 1 to (14, 6).
-    - Walk Left 4 to (10, 6) (front of Mewtwo Statue).
-  - We will execute this movement sequence now.
