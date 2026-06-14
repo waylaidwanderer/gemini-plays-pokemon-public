@@ -228,3 +228,9 @@
   3. Walk to Mewtwo Statue 2 at (2, 11) on 2F West and use the `activate_mansion_switch` custom tool to guarantee a successful toggle to State A.
   4. Return to 3F East via the northwest stairs at (6, 1) on 2F West.
   5. Walk to (14, 11) and cross the now open Gate 15 to Column 16, and drop down the pit to reach B1F!
+## Turn 91780-91782 3F East Balcony Passability Test
+- **Objective**: Test if the balcony railing at (17, 9) on 3F East is jumpable under State B.
+- **Methodology**: Stood at (17, 8) on Turn 91777-91778, faced Down, and pressed Down on Turn 91779.
+- **Result**: Direct collision bump (0 tiles visited), staying at (17, 8) on Turn 91782.
+- **Proof of Work**: Completed on Turn 91779-91782.
+- **Conclusion**: The balcony railing at (17, 9) is 100% solid and impassable. It is not a jumpable ledge.
