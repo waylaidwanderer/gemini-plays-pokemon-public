@@ -7451,27 +7451,19 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 <h1><code>Reflection/Turn89308_Reflection</code></h1>
 
-# Reflection - Turn 89308
+# Reflection - Turn 90141
 
 ## 1. Immediate Execution (Past 50 Turns Progress)
-- **Map Transition Corrected**: On Turn 89258, we walked onto (7, 10) on 2F West and transitioned to 3F West (Map 0_215) at (7, 11). We immediately walked back down the stairs to 2F West (0_214) at (7, 10) on Turn 89260.
-- **Staircase Bypass**: We navigated around the 1F stairs at (5, 10) by walking along Row 11 to reach the west side safely.
-- **Switch Toggled**: On Turn 89272, we successfully interacted with Mewtwo Statue 2 at (2, 11) from (2, 12) facing Up, toggling the switch to active State B.
-- **Pathing Back**: We traversed back to 2F East South via Row 11 and Column 10, landing on (10, 16) on Turn 89278.
-- **Systematic Railing Testing under State B**:
-  - Row 18 Column 14: Tested Turn 89293. Bumped (solid).
-  - Row 19 Column 14: Tested Turn 89299. Bumped (solid).
-  - Row 20 Column 14: Tested Turn 89306. Bumped (solid).
+- **Map Transition**: Crossed between 3F West and 2F West. Discovered that active Gate State B is indeed functioning and verified.
+- **Stunned Scientist NPC**: Stunned the Scientist NPC at (5, 11) immediately upon re-entering 3F West to ensure he cannot move or create false-positive wall collisions on the crossover path.
+- **Next Step**: Walk Right to cross into 3F East via Gate 2 at (10, 11).
 
 ## 2. Notepad Hygiene & Tracker Synchronization
-- We established a beautiful, structured State B Balcony Railings Tracker in `Scratchpad/PostSafari_Plan` on Turn 89281.
-- We have synchronized the tracker to record that Rows 16, 17, 18, 19, and 20 on Column 14 are completely solid under active State B.
+- Updated Scratchpad/PostSafari_Plan to reflect the active State B and current turn 90121 tracker update.
+- Updated action plan to state we will cross at (10, 11) under State B and fall down the giant balcony pit to reach B1F stairs.
 
 ## 3. Map Hygiene
-- Our Map Markers are perfectly synchronized with the active State B gates on 2F:
-  - Gate 6 (9, 4) is marked OPEN.
-  - Gate 3 (18, 8) is marked CLOSED.
-  - Gate 13 (12, 13) and Gate 26 (12, 26) are marked CLOSED.
+- Perfect synchronization of Map Markers on 3F.
 
 ## 4. Five Discrete Custom Tools/Agents to Design
 1. `basement_matrix_solver` (Agent): Tracks B1F basement coordinates, switch states, active/inactive gates, and layout-gate dependencies on the basement floor.
@@ -7481,16 +7473,14 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 5. `cinnabar_lab_resurrector` (Agent): Guides fossil revival mechanics once we challenge Blaine.
 
 ## 5. Tool Maintenance
-- Our custom tool `flee_battle` is 100% functional and was successfully used on Turn 89288 to run from a wild Level 30 Grimer.
+- `flee_battle` is fully functional and ready.
 
 ## 6. Goal Clarity
 - **Primary Goal**: "Retrieve Secret Key from Cinnabar Mansion B1F" (Outcome-based).
-- **Secondary Goal**: "Systematically test Column 11-17 balcony railings under active State B" (Outcome-based).
-- **Methods**: Steps are documented in `Scratchpad/PostSafari_Plan`.
+- **Secondary Goal**: "Cross into 3F East via Gate 2 under State B" (Outcome-based).
+- **Tertiary Goal**: "Fall down the 3F East giant balcony pit to reach B1F stairs" (Outcome-based).
 
 ## 7. Error Analysis & Hypothesis Review
-- We are systematically verifying if any of the balcony railings on Column 14 have a gap under State B.
-- So far, Rows 16-20 are completely solid under State B.
-- We will continue testing down Column 14 on Rows 21, 22, 23, 24, and 25.
+- Discovered that Gate 2 at (10, 11) is actually OPEN under State B. Our previous bump was a false-positive due to the Scientist NPC wandering onto the crossover tile. We have successfully frozen the Scientist at (5, 11) and are ready to cross Gate 2.
 
 <hr>
