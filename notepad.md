@@ -6649,6 +6649,9 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Statues toggle these states: when one type opens, the other type closes.
 - **Floors**:
   - **1F**: Entry floor. Contains stairs to 2F.
+    - Descent Route (3F East to B1F): On 3F West, take northwest stairs at (6, 1) down to 2F West. Under State A (Default), Gate 18 at (2, 9) is open. Walk Up Column 2/3 through Gate 18 to Row 8, and take the northwest stairs at (6, 1) to 3F West North. Walk across Row 2 crossover to 3F East North, and go South through Gate 15 at (15, 10)/(15, 11) (OPEN under State A). Drop down the giant pit on Row 14 (Column 16) to land on 1F East Southeast at (16, 14).
+    - Southeast Room Layout: Bounded by solid wall (Column 11) and partition. Row 20 provides an open horizontal hallway (Columns 12 to 21) connecting the left and right halves. A solid wall divides the Southeast room vertically, but the southern corridor at Row 20-22 is open. The staircase down to B1F is at (21, 23). An item ball is at (18, 21).
+    - Past Detour: Under active State B, Gate 1 is open. However, entering from Gate 1 to the Southeast room is blocked by a solid wall (Column 24) on Row 19-23, and Gate 4 is closed. The B1F stairs are completely unreachable on foot from Gate 1 under State B. Falling from 3F East under State A is the only viable path.
   - **2F**: Second floor. Contains stairs to 1F, stairs to 3F, and several balconies/falls.
   - **3F**: Third floor. Contains stairs to 2F, and specific fall-down spots (pits/ledges) that drop the player to lower floors (including B1F!).
   - Under State A (Statue 2 Default):
