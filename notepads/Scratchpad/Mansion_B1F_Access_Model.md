@@ -214,3 +214,17 @@
 - **Methodology**: Walked to (11, 5) on Row 5, facing Left towards (10, 5) on Turn 91157, and pressed 'A' to interact with the statue.
 - **Result**: No textbox appeared and no interaction occurred. This proves empirically that the statue at (10, 5) is 100% purely decorative and has no switch.
 - **Proof of Work**: Completed on Turn 91157.
+
+## 3F East Pit & Gate 15 Observations (Turn 91187-91195)
+- **Visual Verification**: Standing at (13, 11) on Turn 91187, we verified that Gate 15 at Column 15 Rows 10 and 11 is CLOSED (showing yellow/orange bars) under active State B.
+- **Topological Obstruction**: 
+  - Column 16 and Column 17 on Rows 9 and 10 consist of solid rubble (`TYPE_2889`), blocking access from the northern crossover area (Row 5/6).
+  - Gate 15 at (15, 10)-(15, 11) is closed, blocking horizontal access from Column 14.
+  - Railings on Column 12 and Column 13 on Row 13 are solid railings (`TYPE_2889`), preventing us from walking Down into the pit from Row 12.
+- **Conclusion**: Under active State B, the open drop-off edges of the 3F East pit (Column 16 and 17 on Row 13) are completely unreachable on foot. We MUST toggle the global gate state to State A to open Gate 15.
+- **Plan**:
+  1. Backtrack on foot from (13, 11) to the staircase at (6, 1) on 3F.
+  2. Take the stairs down to 2F West.
+  3. Walk to Mewtwo Statue 2 at (2, 11) on 2F West and use the `activate_mansion_switch` custom tool to guarantee a successful toggle to State A.
+  4. Return to 3F East via the northwest stairs at (6, 1) on 2F West.
+  5. Walk to (14, 11) and cross the now open Gate 15 to Column 16, and drop down the pit to reach B1F!
