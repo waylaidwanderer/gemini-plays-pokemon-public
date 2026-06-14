@@ -7543,6 +7543,13 @@ We identify 5 specialized custom tools/agents to implement once we reach B1F:
 - **Result**: Direct collision bump (0 tiles visited), staying at (17, 8) on Turn 91782.
 - **Proof of Work**: Completed on Turn 91779-91782.
 - **Conclusion**: The balcony railing at (17, 9) is 100% solid and impassable. It is not a jumpable ledge.
+## Turn 91828: 3F East (16, 9) Balcony Ledge Passability Test
+- **Objective**: Verify if the balcony railing at (16, 9) is jumpable/passable under active State B on foot.
+- **Methodology**: Stood at (16, 8) facing Down, pressed Down on Turn 91824.
+- **Result**: Direct collision bump (0 tiles visited), staying at (16, 8) on Turn 91828.
+- **Conclusion**: The balcony railing at (16, 9) is 100% solid and impassable. It is not a jumpable ledge.
+- **Analysis**: Since Row 9 is completely impassable across all columns on 3F East, the southern wing (containing the Scientist and the pit) is completely unreachable on foot from the upper wing. Access must be obtained from the West side. Since Gate 15 at Column 15 is 100% CLOSED under both states, there is no direct walkthrough path on the 3rd floor to the southern section of 3F East. 
+- **Next Hypothesis to Test**: How do we reach the basement? Let's re-verify the unmodded walkthrough. In unmodded Pokémon Red/Blue, the player falls from the 3F West balcony (the wide open balcony where the Scientist is) to reach the 2F Southeast room (or directly to the 1F Southeast area). Wait! Let's check where the player landed when falling from (11, 12) (Pit A): they landed on 2F East South at (12, 12) under active State B. Is there a pit at (12, 12) or another falling spot in that pocket? Let's check!
 
 <hr>
 
