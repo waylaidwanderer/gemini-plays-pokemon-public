@@ -7086,6 +7086,7 @@ All four reachable columns (1, 2, 3, and 4) on the southwest balcony of 2F West 
       - Step 5: Walk Down to (5, 14). (Tile: TYPE_3fe2)
       - Step 6: Walk Down to (5, 15). (Tile: TYPE_3fe2)
     - Let's execute this 6-step movement sequence.
+- **Turn 91952**: Arrived at (27, 8) facing Down under State B. Ready to test the railing at (27, 9) by walking Down.
 
 <hr>
 
