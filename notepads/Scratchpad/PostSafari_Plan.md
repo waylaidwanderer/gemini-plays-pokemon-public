@@ -25,12 +25,13 @@
   - The eastern shaft is a strictly one-way descending path: 3F East (pit) -> 2F East Southeast (stairs down) -> 1F East Southeast (stairs down) -> B1F (stairs down).
   - Therefore, we cannot climb up the eastern side of the mansion.
   - Gate 2 on 3F (10, 11) is CLOSED and solid under both State A and State B (Empirically verified Turn 90748).
-  - The correct path to reach the descending path is to execute the western balcony drop from the 3F West balcony (Column 7 Row 14/15) under active State B.
-- **Current Action Plan (Updated Turn 90784)**:
-  - Stand at (2, 12) on 2F West, explicitly face UP, and successfully toggle Mewtwo Statue 2 to State B (using the activate_mansion_switch tool).
-  - Return to 3F West via the stairs at (7, 10).
-  - Walk to the right edge of the balcony: Column 7 Row 14 or 15.
-  - Test walking Right (East) onto Column 8 to execute the balcony drop.
+  - The correct path to reach the descending path is to execute the western balcony drop from the 3F West balcony under active State B.
+- **Current Action Plan (Updated Turn 90877)**:
+  - We have verified Gate 6 on 2F is open, confirming State B is active.
+  - We have physically tested the Column 7 balcony drop-off (7, 14) and (7, 15) on 3F West under State B, and both are solid wall/rubble.
+  - Let's check other possible rows or columns on the 3F balcony. Specifically, we should test Column 6 Row 15 or 14 by walking Down, or investigate if there is another pit/chute on 3F East or if there is another way to reach 3F East.
+  - Let's test walking Down from (6, 15) onto (6, 16) or from (7, 15) onto (7, 16) to see if we drop down. Or investigate (11, 12) (Pit A) accessibility. Let's trace how to reach (11, 12) on 3F. We know (12, 12) is open floor, and it is located on the East side of the 3F wall. If there is indeed no crossover on 3F, we must find how to get to 3F East from 2F East.
+  - Let's re-verify 2F East to see if there is any other way to 3F East. We know there is a staircase at (25, 14) on 2F East Southeast. How do we reach 2F East Southeast? We can reach it by falling from 3F East. But how do we reach 3F East in the first place? Is there a staircase on 2F East North? Yes, let's explore 2F East North (Columns 10-14, Rows 1-8) and see if there are any staircases there! We have Gate 6 OPEN now, so 2F East North is fully accessible from 2F West! Let's explore 2F East North!
 ## State B 2F East South Balcony Railings Campaign (Active Turn 89522)
 - **Objective**: Systematically and physically test the passability of the 2F East South balcony boundaries (Columns 11-14, Rows 15-26) on foot under active State B to find any potential jump-down drop or passage. This campaign is successfully completed.
 - **Conclusive Proof of Isolation**: Every single coordinate has been tested on foot and found 100% solid. No drops, gaps, or passages exist on the 2F East South balcony under State B.
