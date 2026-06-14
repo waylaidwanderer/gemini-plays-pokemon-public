@@ -127,3 +127,5 @@ All four reachable columns (1, 2, 3, and 4) on the southwest balcony of 2F West 
 - **Turn 91958 Test**: Stood at (27, 8) facing Down under State B and pressed Down. Result: Bumped against (27, 9) (0 tiles visited), remaining at (27, 8). This physically and empirically proves that Column 27 Row 9 is solid and impassable under active State B.
 - **Turn 91959**: Standing at (27, 8) facing Down under State B. Ready to walk Right to (28, 8) and test the railing at (28, 9) by walking Down.
 - **Turn 91962**: Arrived at (28, 8) facing Right under State B. Ready to test the railing at (28, 9) by walking Down.
+- **Turn 91964 Test**: Stood at (28, 8) facing Right under State B and pressed Down. Result: Bumped against (28, 9) (0 tiles visited), remaining at (28, 8). This physically and empirically proves that Column 28 Row 9 is solid and impassable under active State B.
+- **Definitive 3F East Balcony Ledge Testing Campaign Conclusion**: Every single coordinate from Column 24 to Column 28 on Row 9 has been tested on foot and found 100% solid. No drop or passage exists on this balcony railing under State B.
