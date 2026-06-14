@@ -6229,6 +6229,11 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   2. Walk Right to (10, 11) on 3F West and cross Gate 2 (open under State B) to reach 3F East.
   3. On 3F East, walk to the giant pit and fall down to reach B1F stairs.
   4. Collect the Secret Key from B1F!
+## 1F West to 1F East Northern Crossing Layout (Verified Turn 90445)
+- Column 12 is a completely open, passable vertical walkway (TYPE_3fe2) from Row 12 to Row 7, providing the vertical path to bypass the horizontal partition wall at Row 9 in 1F West.
+- Path from (10, 11) to northern crossing:
+  - Right 2 to (12, 11)
+  - Up 4 to (12, 7)
 
 <hr>
 
