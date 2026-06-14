@@ -6164,7 +6164,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Gate 1 on 1F (25, 13) is CLOSED, blocking foot access to the Southeast room.
   - Gate 3 on 2F (18, 8)-(19, 8) is OPEN (Verified OPEN on Turn 78836).
   - Gate 4 on 1F East (21, 17) is OPEN.
-  - Gate 6 on 2F (9, 4)-(9, 5) is OPEN (Verified OPEN on Turn 90986).
+  - Gate 6 on 2F (9, 4)-(9, 5) is CLOSED (Verified CLOSED on Turn 91446).
   - Gate 18 on 2F (2, 18) is CLOSED.
   - Gate 26 on 2F (12, 26)-(13, 26) is CLOSED.
   - Gate 13 on 2F (12, 13)-(13, 13) is CLOSED.
