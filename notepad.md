@@ -6229,7 +6229,6 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 - Path from (10, 11) to northern crossing:
   - Right 2 to (12, 11)
   - Up 4 to (12, 7)
-- **Turn 90465**: Reached (26, 3) on 1F East. Column 22 wall partition has been successfully bypassed via Row 3! Now making our way down Column 26 to reach Gate 1 at (25, 13).
 ## Turn 90734 Gate 2 Verification Campaign
 - Objective: Verify if Gate 2 at (10, 11) is OPEN under active State B on 3F.
 - Path to test:
