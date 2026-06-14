@@ -105,3 +105,4 @@
   2. Toggle Mewtwo Statue 2 at (2, 11) on 2F West to State A.
   3. Return to 3F East via the northwest stairs at (6, 1) on 2F West.
   4. Walk to (14, 11) and cross Gate 15 (which will be open under State A) to reach the pit!
+- Turn 90932: Began backtracking to 2F West from (13, 6) under State B.
