@@ -77,3 +77,8 @@
   - Walk Right along Row 9 to Column 9 (9, 9).
   - Walk Down to (9, 11).
   - Walk Right to attempt to cross Gate 2 at (10, 11).
+## Turn 90789 Western Balcony Drop State B Verification Results
+- **Turn 90786 Test (Row 15)**: Stood at (7, 15) facing Right and pressed Right. Result: **Bump** against (8, 15) (stayed at (7, 15)). Confirmed 100% solid, impassable under active State B.
+- **Turn 90788 Test (Row 14)**: Stood at (7, 14) facing Right and pressed Right. Result: **Bump** against (8, 14) (stayed at (7, 14)). Confirmed 100% solid, impassable under active State B.
+- **Conclusion**: There is absolutely no western balcony drop on Column 7 under active State B. 
+- **Active Plan**: Since Statue 2 on 2F West is now successfully toggled to active State B (using activate_mansion_switch), Gate 2 at (10, 11) on 3F should now be OPEN! We will navigate to (9, 11) on 3F West and cross Gate 2 to reach 3F East, where the actual eastern balcony drop is located.
