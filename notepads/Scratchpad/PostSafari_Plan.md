@@ -118,3 +118,10 @@
 - **Deduction**: Combined with our Turn 90921 test (which showed Gate 15 is closed under active State B), this shows that we did not successfully toggle the global gate state to State A on Turn 90965! Our manual toggle must have silently selected "NO" or failed. We are actually still in active State B.
 - **Immediate Action Plan**: Since we are in State B and Gate 15 is closed under State B, we must return to 2F West at (2, 12), and use our custom tool `activate_mansion_switch` to guarantee a successful toggle to State A!
 - **Current Position (Turn 91063)**: We successfully backtracked and descended the stairs to 2F West. We are standing at (6, 1) on 2F West.
+## Update Turn 91219: Backtracking to 2F West Statue 2 to Toggle to State A
+- Successfully returned to 2F West via the northwestern stairs at (6, 1).
+- Current Position: (6, 1) facing Down.
+- Plan:
+  1. Walk to Mewtwo Statue 2 standing at (2, 12) facing UP.
+  2. Call `activate_mansion_switch` to guarantee toggle to State A.
+  3. Return to 3F East to verify Gate 15 is OPEN and jump down the pit to B1F.
