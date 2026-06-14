@@ -279,3 +279,4 @@
   4. Cross horizontally via Row 2 to 3F East North at (16, 2).
   5. Walk to Column 19 and walk Down through Row 9 (the gate/railing) under State B to verify if it is open!
   6. Walk to the pit and drop down to reach B1F stairs.
+- **Turn 92354-92355 Test**: Stood at (19, 7) facing Down under active State B. Pressed Down. Result: **Bump** against (19, 8) (stayed at (19, 7)). This physically and empirically proves that Column 19 Row 8 is CLOSED/solid and impassable under active State B. The Column 19 Crossover hypothesis is conclusively disproven. There is absolutely no walkthrough passage on 3F East to the southern wing under State B.
