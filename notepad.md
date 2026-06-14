@@ -6393,6 +6393,10 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
       - No, (16, 9) and (17, 9) are TYPE_2889 (railing).
       - Wait, is there a different way to reach the pit?
       - Let's walk to (16, 3) first and see what is further down, and if we can find any gap.
+## Turn 91897: 3F East Eastern Ledge testing campaign
+- **Objective**: Explore the far eastern side of 3F East (Columns 24-25) to test the passability of the balcony railings on Row 9.
+- **Route**: From (20, 5) walk Right to Column 24, then Down to Row 8 at (24, 8).
+- **Hypothesis**: The balcony railing at (24, 9) or (25, 9) is jumpable/passable on foot and drops us to B1F.
 
 <hr>
 
