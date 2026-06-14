@@ -33,3 +33,9 @@
   - There is a bottom horizontal hallway on Row 18:
     - (14, 18) to (19, 18) are TYPE_3fe2
   - Let's walk Left along Row 14 to explore the western edge of B1F first.
+- **Turn 93016**: Reached the southwest corner of B1F at (1, 26).
+  - Row 27 is completely solid wall (TYPE_2889) across Columns 0-6.
+  - Column 0 is solid vertical wall (TYPE_2889) from Row 22 to 26.
+  - The southwest section is a large rectangular room with clear, passable floor (TYPE_3fe2) spanning Columns 1 to 7 and Rows 18 to 26.
+  - No items or switch statues are present in this southwest quadrant.
+  - The overworld item at (1, 22) (originally visually appearing as a Pokéball) was interacted with on Turn 92998 by pressing A while standing at (2, 22) facing Left. The sprite vanished, confirming the interaction registered. However, our inventory remained completely unchanged at 13 items with identical quantities. Since unmodded Red/Blue has no overworld item ball at this location, this is confirmed as a decorative/unloaded sprite or visual artifact rather than a true item drop.
