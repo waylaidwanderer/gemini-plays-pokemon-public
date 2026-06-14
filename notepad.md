@@ -6242,6 +6242,18 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 - **Conclusion**: There is absolutely no western balcony drop on Column 7 under active State B. 
 - **Active Plan**: Since Statue 2 on 2F West is now successfully toggled to active State B (using activate_mansion_switch), Gate 2 at (10, 11) on 3F should now be OPEN! We will navigate to (9, 11) on 3F West and cross Gate 2 to reach 3F East, where the actual eastern balcony drop is located.
 
+## 3F West North Discovery & Path to B1F (Turn 90904)
+- **Staircase Discovery**: A previously unknown staircase is located at (6, 1) on 2F West, which warps the player to 3F West North at (6, 1).
+- **Layout of 3F West North**:
+  - The northern half of 3F West/East (Rows 1-6) is highly open and accessible!
+  - We can walk from (6, 1) horizontally along Row 2 to (11, 2) without obstacles.
+  - Column 11 and Column 14 are open vertical corridors leading South.
+  - Specifically, Row 4 Columns 11-14 is completely open.
+- **Active Path to B1F**:
+  - We are at (10, 2).
+  - Walk Right to (11, 2), then Down along Column 11 to Row 6 (11, 6) and continue Down to locate the pit at (11, 12).
+  - Let's test walking Down to (11, 6) first and see what is further south!
+
 <hr>
 
 <h1><code>Locations/CeladonGym</code></h1>
