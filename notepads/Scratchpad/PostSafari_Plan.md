@@ -244,3 +244,14 @@
 - **Turn 91944**: Walked Right to (26, 8) under State B. Ready to test the railing at (26, 9) by walking Down.
 - **Turn 91945 Test**: Stood at (26, 8) facing Down under State B and pressed Down. Result: Bumped against (26, 9) (0 tiles visited), remaining at (26, 8). This physically and empirically proves that Column 26 Row 9 is solid and impassable under active State B.
 - **Turn 91946**: Standing at (26, 8) facing Down under State B. Ready to walk Right to (27, 8) and test (27, 9) by walking Down.
+## Turn 92102: Proceeding with State A Northeast Staircase Testing Campaign
+- Current Position: (12, 6) on 1F.
+- Gate State: State A (Default) active.
+- Target: (27, 11) on 1F East.
+- Route:
+  1. Walk Right 9 steps to (21, 6).
+  2. Walk Up 3 steps to (21, 3).
+  3. Walk Right 6 steps to (27, 3).
+  4. Walk Down 8 steps to (27, 11).
+  5. Attempt to walk onto (27, 11) (or adjacent) and see if warp triggers.
+- This will empirically prove if the Northeast stairs at (27, 11) are accessible under State A!
