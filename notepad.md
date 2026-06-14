@@ -7587,9 +7587,9 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Exploration Log**:
   - **Turn 92928**: Arrived on B1F at (23, 22) from the 1F Southeast stairs.
   - **Turn 92936**: Walked Right to (28, 22) to inspect the eastern boundary.
-  - **Turn 92944**: Verified Column 29 is solid wall. Let's walk to the bottom of Column 28 at (28, 26) to see if the path goes left or is a dead end.
+  - **Turn 92944**: Verified Column 29 is solid wall.
 ## Exploration log (continued)
-- **Turn 92951**: Starting systematic exploration of B1F from (28, 26). Plan to walk Left along Row 26 to discover the western layout and check the state of gates.
+- **Turn 92951**: Starting systematic exploration of B1F from (28, 26).
 - **Turn 92964**: Arrived at (17, 14) facing Left. From here, we see that the floor to the left is open.
   - (16, 14): TYPE_3fe2
   - (15, 14): TYPE_3fe2
@@ -7608,7 +7608,6 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
     - (17, 16), (17, 17) are TYPE_3fe2
   - There is a bottom horizontal hallway on Row 18:
     - (14, 18) to (19, 18) are TYPE_3fe2
-  - Let's walk Left along Row 14 to explore the western edge of B1F first.
 - **Turn 93016**: Reached the southwest corner of B1F at (1, 26).
   - Row 27 is completely solid wall (TYPE_2889) across Columns 0-6.
   - Column 0 is solid vertical wall (TYPE_2889) from Row 22 to 26.
