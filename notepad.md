@@ -7087,6 +7087,8 @@ All four reachable columns (1, 2, 3, and 4) on the southwest balcony of 2F West 
       - Step 6: Walk Down to (5, 15). (Tile: TYPE_3fe2)
     - Let's execute this 6-step movement sequence.
 - **Turn 91952**: Arrived at (27, 8) facing Down under State B. Ready to test the railing at (27, 9) by walking Down.
+- **Turn 91958 Test**: Stood at (27, 8) facing Down under State B and pressed Down. Result: Bumped against (27, 9) (0 tiles visited), remaining at (27, 8). This physically and empirically proves that Column 27 Row 9 is solid and impassable under active State B.
+- **Turn 91959**: Standing at (27, 8) facing Down under State B. Ready to walk Right to (28, 8) and test the railing at (28, 9) by walking Down.
 
 <hr>
 
