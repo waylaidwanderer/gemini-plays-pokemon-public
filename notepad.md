@@ -6220,15 +6220,15 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   4. **Row 26 Southern Wall/Gate (Columns 12-13)**:
      - Row 26 Column 12 (Gate 26): Completed Turn 80627. Bumped (solid).
      - Row 26 Column 13 (Gate 26): Completed Turn 87357. Bumped (solid).
-## Turn 90297 Switch Activation & Crossover Plan
-- **Current Position**: Standing at (2, 12) on 2F West facing UP, directly below Mewtwo Statue 2.
-- **Verification Plan**:
-  1. Turn 90297: Press 'A' to interact with Statue 2.
-  2. Turn 90298: Verify that the YES/NO choice box appears with the cursor defaulting to YES. Press 'A' to confirm selection of YES.
-  3. Turn 90299: Verify that the dialogue advances, stating that the switch was pressed, and the gate state toggles.
-  4. Turn 90300: Climb back to 3F West via the stairs at (7, 10).
-  5. Turn 90305: Navigate to (9, 11) and attempt to walk Right onto (10, 11) to cross the Gate 2 under the true State B!
-  6. Turn 90310: Once on 3F East, walk to the giant pit on 3F East and fall down to B1F.
+## Turn 90305 Execution & B1F Descent Plan
+- **Current Position**: standing at (2, 12) on 2F West. Mewtwo Statue 2 has been successfully toggled to State B!
+- **Completed Steps**:
+  - Turns 90298-90299: Interacted with Statue 2 and toggled gates to State B.
+- **Next Steps**:
+  1. Turn 90305: Walk to the stairs at (7, 10) on 2F West and climb to 3F West.
+  2. Walk Right to (10, 11) on 3F West and cross Gate 2 (open under State B) to reach 3F East.
+  3. On 3F East, walk to the giant pit and fall down to reach B1F stairs.
+  4. Collect the Secret Key from B1F!
 
 <hr>
 
