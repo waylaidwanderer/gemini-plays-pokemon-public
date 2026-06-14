@@ -110,3 +110,11 @@
 - **Objective**: Verify if Gate 15 at Column 15 Row 10 (15, 10) is open under active State A on 3F East.
 - **Methodology**: Walk Down 4 steps from (13, 6) to (13, 10), Right 1 step to (14, 10), and then Right 1 step to (15, 10) to test passability.
 - **Hypothesis**: Under active State A, Gate 15 is OPEN, and we should be able to step onto (15, 10).
+## Turn 91054-91055 Gate 15 Passability Test (Active State A - Statue 2 Default)
+- **Objective**: Verify if Gate 15 at Column 15 Row 10 is open under active State A on 3F East.
+- **Methodology**: Stood at (14, 10) facing Right on Turn 91053, and pressed Right on Turn 91054.
+- **Result**: Bump against (15, 10) (0 tiles visited), staying at (14, 10) on Turn 91055.
+- **Conclusion**: Gate 15 at (15, 10) is CLOSED and impassable under active State A.
+- **Deduction**: Combined with our Turn 90921 test (which showed Gate 15 is closed under active State B), this shows that we did not successfully toggle the global gate state to State A on Turn 90965! Our manual toggle must have silently selected "NO" or failed. We are actually still in active State B.
+- **Immediate Action Plan**: Since we are in State B and Gate 15 is closed under State B, we must return to 2F West at (2, 12), and use our custom tool `activate_mansion_switch` to guarantee a successful toggle to State A!
+- **Current Position (Turn 91063)**: We successfully backtracked and descended the stairs to 2F West. We are standing at (6, 1) on 2F West.
