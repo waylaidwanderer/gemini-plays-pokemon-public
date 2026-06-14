@@ -1,19 +1,4 @@
 {
-  "flee_battle": {
-    "description": "Generates the button press sequence to select the RUN option from the default battle fight menu (Down, Right, A).",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\nprint(json.dumps([\"Down\", \"Right\", \"A\"]))\n",
-    "history": [
-      {
-        "commit_message": "Define a simple custom tool to automate navigating to the RUN option in battle.",
-        "timestamp": "2026-06-09T05:07:55.519Z",
-        "action_counter": 75876
-      }
-    ]
-  },
   "activate_mansion_switch": {
     "description": "Interacts with the Mewtwo Statue directly above the player to successfully toggle the global gate state. It first presses UP to face the statue, then presses A three times with 1.5s pauses in between to open the prompt, select YES, and close the dialogue box without re-interacting or double-toggling.",
     "input_schema": {
@@ -41,6 +26,21 @@
         "commit_message": "Redefined activate_mansion_switch to ensure correct player orientation and exact three A presses to prevent double-toggle and silent NO failures.",
         "timestamp": "2026-06-14T23:11:31.167Z",
         "action_counter": 92851
+      }
+    ]
+  },
+  "flee_battle": {
+    "description": "Generates the button press sequence to select the RUN option from the default battle fight menu (Down, Right, A).",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\nprint(json.dumps([\"Down\", \"Right\", \"A\"]))\n",
+    "history": [
+      {
+        "commit_message": "Define a simple custom tool to automate navigating to the RUN option in battle.",
+        "timestamp": "2026-06-09T05:07:55.519Z",
+        "action_counter": 75876
       }
     ]
   }
