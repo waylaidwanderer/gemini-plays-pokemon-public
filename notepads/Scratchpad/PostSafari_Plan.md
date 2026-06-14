@@ -19,7 +19,7 @@
   - Gate 26 on 2F (12, 26)-(13, 26) is CLOSED.
   - Gate 13 on 2F (12, 13)-(13, 13) is CLOSED.
 
-## State B 1F East Staircase & B1F Access Model (Active Turn 90784)
+## State B 1F East Staircase & B1F Access Model (Active Turn 90874)
 - **Objective**: Determine how to access the basement floor (B1F) of Pokémon Mansion.
 - **Topological Reality Check**:
   - The eastern shaft is a strictly one-way descending path: 3F East (pit) -> 2F East Southeast (stairs down) -> 1F East Southeast (stairs down) -> B1F (stairs down).
