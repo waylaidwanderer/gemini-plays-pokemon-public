@@ -153,3 +153,7 @@
 - **Verified Fact**: HM moves (specifically HM03 SURF and HM04 STRENGTH) can be executed in the overworld from the Pokémon party menu even if the physical HM item is stored in the PC, provided a Pokémon in the party knows the move.
 - **Proof of Work**: On Turn 74872, we deposited HM03 and HM04 in GEM's PC. On Turn 74893, standing at (11, 13) facing Down towards water, we successfully selected GEMMY (BLASTOISE) from the party menu and executed SURF.
 - **Conclusion**: Carrying physical HM items in the Bag is completely unnecessary once taught, freeing up vital inventory slots.
+
+## Virtual Notepad Datastore Search Rule (Turn 90152 Verification)
+- **Verified Fact**: Standard Python filesystem utilities (such as `os.walk`, `os.path`, and the standard `open()` command) executed within the `run_code` tool are completely blind to the game's virtual pseudo-filesystem. 
+- **Rule**: The virtual persistent notepads (including `Main`, `Locations/*`, `Scratchpad/*`, etc.) are managed in a separate sandboxed datastore. To search, read, or list notepads programmatically, you MUST exclusively use the built-in `search_notepads`, `read_notepad`, and `load_notepads` tools. Standard OS commands will return empty results.
