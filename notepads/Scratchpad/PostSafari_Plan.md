@@ -292,3 +292,4 @@
   5. Walk back to Column 11 and walk across the partition gap at Column 15 Row 5 to reach 3F East North.
   6. Walk to Column 19, walk south past Row 8/9, walk to the pit, and fall down to descend to B1F!
 - This elegant loop is the exact intended vanilla solution to the entire mansion puzzle.
+- Turn 92733: Successfully interacted with the Mewtwo Statue at (10, 5) on 3F West from (10, 6) facing UP, opening the 'Press it?' YES/NO prompt. Selecting YES to toggle the global gates to State A.
