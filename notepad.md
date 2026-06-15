@@ -7611,23 +7611,23 @@ No complex toggles on 2F/3F are required. We operate strictly by entering Cinnab
    - Use an Escape Rope from the Bag to exit the Mansion instantly.
 
 This plan is 100% mathematically, layout-wise, and conceptually verified against vanilla Generation 1! It completely bypasses all the complex 2F/3F parallel gate puzzles and backtracking loops.
-- Turn 94380-94396: Exited Cinnabar Lab, walked south of the Lab to (6, 12), navigated east south of the Pokemon Center to (16, 12), walked east to Column 18, and then north along Column 19 to bypass the Team Rocket NPC at (18, 7), reaching Row 4 Column 19 (19, 4) near the locked Cinnabar Gym.
-- Next Step: Walk west along Row 4 to Column 6 (6, 4), and enter Cinnabar Mansion at (6, 3).
-- Turn 94416: Successfully navigated Row 5 to (12, 5). Met a wandering NPC (cooltrainer/lass) at (10, 5).
-- Plan: Stun the NPC at (10, 5), then walk Left 1 to (11, 5), Up 1 to (11, 4), Left 5 to (6, 4), and Up 1 to (6, 3) to warp into Cinnabar Mansion 1F.
-- Turn 94464-94466: Backtracked down to 2F West, currently standing at (7, 10).
-- Next Step: Walk to Mewtwo Statue 2 at (2, 11) via (2, 12), and toggle global state to State B.
-- Turn 94477: Successfully toggled global switch to State B at Mewtwo Statue 2 on 2F West. Currently dismissing the "Who wouldn't?" textbox.
-- Turn 94492: Standing at (7, 11) on 3F West South, facing UP. Ready to press Up to take the stairs down to 2F West at (7, 10).
-- **Turn 94528 (Self-Reflection Turn)**:
-  - **Immediate Execution Reflection**: We just successfully fled from a wild Grimer at (5, 11) on 2F West. We are on 2F West at (5, 11).
-  - **Goal Clarity**: Our immediate goal is to walk to (2, 12) on 2F West, face UP towards Mewtwo Statue 2 at (2, 11), and use the switch to toggle to State B. Let's trace our path from (5, 11) to (2, 12):
-    - From (5, 11):
-      - Left to (4, 11) (1 step Left).
-      - Left to (3, 11) (1 step Left).
-      - Down to (3, 12) (1 step Down).
-      - Left to (2, 12) (1 step Left).
-    - Total steps: Left, Left, Down, Left (4 buttons).
-  - **Map Markers & Custom Tools**: Map markers are accurate and the custom tools are healthy. No tools need fixing.
+- **Active Navigation Progress**:
+  - Turn 94541: Standing at (11, 11) on 2F West under active State B. Preparing to walk Up Column 11 to Row 5, Left to Column 6, and Up to (6, 1) NW stairs to warp up to 3F West North.
+  - Next Steps:
+    1. Warp up to 3F West North at (6, 1).
+    2. Walk East to (10, 6) directly below the Mewtwo Statue at (10, 5).
+    3. Toggle the Mewtwo Statue switch at (10, 5) from (10, 6) to State A (this opens Gate 15 at (15, 10)-(15, 11) on 3F East).
+    4. Walk through the newly open partition gap at (15, 5) to 3F East North.
+    5. Walk South on 3F East to Column 16 Row 14 (16, 14) and drop down the giant pit!
+    6. Land on 1F East Southeast at (16, 14).
+    7. Walk Down 6 steps along Column 16 to (16, 20), Right 5 steps along Row 20 to (21, 20), and Down 3 steps along Column 21 to (21, 23) to descend to B1F.
+- **Basement (B1F) Detailed Verification Protocol**:
+  - Land on B1F near (23, 22) under State A.
+  - Walk Down 3 steps to (23, 25), then Left 5 steps to (18, 25) (standing at (18, 26) facing UP).
+  - Interact with Mewtwo Statue at (18, 25) to toggle global switch to State B (opens B1F-Center Gate at (13, 22)-(13, 23)).
+  - Walk Left through open B1F-Center Gate to B1F West.
+  - Walk Left to Column 5 and Walk North through the open Row 17 West Gate into the Northwest Room.
+  - Collect the Secret Key from the table!
+  - Use Escape Rope to exit instantly.
 
 <hr>
