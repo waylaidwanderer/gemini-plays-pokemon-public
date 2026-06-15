@@ -6373,7 +6373,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
     - Column 12 Row 15: BUMPED (Turn 84737)
     - Column 13 Row 15: BUMPED (Turn 84742)
     - Column 14 (Railing): BUMPED on all Rows 16 to 25 under State A, proving Column 14 is a continuous, solid, impassable wall that completely separates Column 13 from the open atrium on Columns 15-17.
-  - Thus, there is NO active balcony drop under State A on 2F East South. B1F cannot be accessed via any 2F balcony drops. We must utilize the State B 1F East Northeast staircase route to reach 3F East, and drop down the pit to B1F.
+  - Thus, there is NO active balcony drop under State A on 2F East South. B1F cannot be accessed via any 2F balcony drops. We must utilize the State A 3F West South route, crossing Gate 15 and dropping down the 3F East giant pit to reach the B1F stairs.
 
 - **State B (Statue 2 Toggled) 2F East South Balcony Railings Campaign**:
   - We systematically and physically tested the 2F East South balcony boundaries on foot under active State B to search for hidden drops:
