@@ -29,21 +29,6 @@
       }
     ]
   },
-  "flee_battle": {
-    "description": "Generates the button press sequence to select the RUN option from the default battle fight menu (Down, Right, A).",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\nprint(json.dumps([\"Down\", \"Right\", \"A\"]))\n",
-    "history": [
-      {
-        "commit_message": "Define a simple custom tool to automate navigating to the RUN option in battle.",
-        "timestamp": "2026-06-09T05:07:55.519Z",
-        "action_counter": 75876
-      }
-    ]
-  },
   "b1f_matrix_solver": {
     "description": "Tracks and displays the gate matrix states and passability map for Pokémon Mansion B1F basement.",
     "input_schema": {
@@ -74,6 +59,21 @@
         "commit_message": "Fix logic bug in b1f_matrix_solver that caused active_state parameter to be ignored when sys.argv[1] was empty",
         "timestamp": "2026-06-15T13:29:38.091Z",
         "action_counter": 93633
+      }
+    ]
+  },
+  "flee_battle": {
+    "description": "Generates the button press sequence to select the RUN option from the default battle fight menu (Down, Right, A).",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\nprint(json.dumps([\"Down\", \"Right\", \"A\"]))\n",
+    "history": [
+      {
+        "commit_message": "Define a simple custom tool to automate navigating to the RUN option in battle.",
+        "timestamp": "2026-06-09T05:07:55.519Z",
+        "action_counter": 75876
       }
     ]
   }
