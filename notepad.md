@@ -7619,10 +7619,10 @@ This plan is 100% mathematically, layout-wise, and conceptually verified against
   - The direct State A walkthrough has been executed successfully. We dropped down from 3F East giant pit on Turn 94686, landed on 1F East Southeast at (16, 14), and descended the stairs to B1F. We are currently exploring B1F to toggle the switch to State B and collect the Secret Key.
 - **Basement (B1F) Detailed Verification Protocol**:
   - Land on B1F near (23, 22) under State A.
-  - Walk Down 3 steps to (23, 25), then Left 5 steps to (18, 25) (standing at (18, 26) facing UP).
+  - Walk Up 3 steps to Row 15, then walk Left past Column 20 (crossover at (20, 15) is open and passable!) to Column 19 Row 15, and Down to (18, 26).
   - Interact with Mewtwo Statue at (18, 25) to toggle global switch to State B (opens B1F-Center Gate at (13, 22)-(13, 23)).
   - Walk Left through open B1F-Center Gate to B1F West.
-  - Walk Left to Column 5 and Walk North through the open Row 17 West Gate into the Northwest Room.
+  - Walk Left to Column 5 (or Column 9-12) and Walk North to the Northwest Room.
   - Collect the Secret Key from the table!
   - Use Escape Rope to exit instantly.
 
