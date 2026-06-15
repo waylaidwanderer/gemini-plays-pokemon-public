@@ -7718,5 +7718,13 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
      - Record the Turn Number, target coordinate, and result: **OPEN** (successfully stepped onto Row 17) or **CLOSED** (direct collision bump).
      - If CLOSED, step Right/Left to the next column and repeat the test.
      - If OPEN, proceed north into the Northwest Room and retrieve the Secret Key!
+## Column 9 Row 7 State A Passability Test Plan (Turn 93739)
+- **Objective**: Determine if Column 9 Row 7 is the Northwest Gate that opens under State A, granting access to the Northwest Room (Secret Key room).
+- **Hypothesis**: In vanilla Gen 1, the Northwest Gate is closed under State B (tested at (9, 7) on Turn 93462) but open under State A. Since State A is currently active, we expect the gate to be open!
+- **Path to Test**:
+  1. From (6, 18), walk Right 4 steps to (10, 18) then Up 11 steps to (10, 7).
+  2. Stand at (10, 7) facing Left.
+  3. Press Left to attempt to walk onto (9, 7).
+- **Turn 93739 Execution**: Walk to (10, 14) first by executing `["Right", "Right", "Right", "Right", "Up", "Up", "Up", "Up"]`.
 
 <hr>
