@@ -135,6 +135,3 @@
   11. Now that State A is active, the Northwest Gate at (9, 7) is OPEN.
   12. Walk west along Row 7, pass through (9, 7) into the Northwest Room, and retrieve the Secret Key!
   13. Use an Escape Rope to exit the Mansion instantly.
-
-## Current Execution of State B Path:
-- **Turn 93845 Execution**: Walk Left 1 step to (17, 26) and Up 4 steps along Column 17 to reach (17, 22). Sequence: `["Left", "Up", "Up", "Up", "Up"]`
