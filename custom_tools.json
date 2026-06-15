@@ -43,7 +43,7 @@
         "active_state"
       ]
     },
-    "python_script": "import json\n\n# Define the basement gates with their states\n# Gate States under active State A and active State B\n# True Northwest Gate is at (9, 7) instead of (1, 17)\ngates = {\n    \"Gate B1F-Center\": {\n        \"location\": \"(13, 22)-(13, 23)\",\n        \"state_A\": \"CLOSED\",\n        \"state_B\": \"OPEN\"\n    },\n    \"Gate B1F-East\": {\n        \"location\": \"(26, 17)-(27, 17)\",\n        \"state_A\": \"CLOSED\",\n        \"state_B\": \"OPEN\"\n    },\n    \"Gate B1F-Northwest\": {\n        \"location\": \"(9, 7)\",\n        \"state_A\": \"OPEN\",\n        \"state_B\": \"CLOSED\"\n    }\n}\n\n# Print the gate state matrix based on active_state\nactive_state = input_data.get(\"active_state\", \"A\").upper()\n\nprint(f\"=== Cinnabar Mansion B1F Gate State Matrix (Active State: {active_state}) ===\")\nprint(f\"{'Gate Name':<20} | {'Location':<20} | {'Current State':<15}\")\nprint(\"-\" * 62)\nfor name, data in gates.items():\n    cur_state = data[\"state_A\"] if active_state == \"A\" else data[\"state_B\"]\n    print(f\"{name:<20} | {data['location']:<20} | {cur_state:<15}\")\n\n# Output empty array of buttons as requested by the harness for automated overworld tool behavior\nprint(json.dumps([]))\n",
+    "python_script": "import json\n\n# Define the basement gates with their correct states matching empirical overworld testing\ngates = {\n    \"Gate B1F-Center\": {\n        \"location\": \"(13, 22)-(13, 23)\",\n        \"state_A\": \"CLOSED\",\n        \"state_B\": \"OPEN\"\n    },\n    \"Gate B1F-East\": {\n        \"location\": \"(26, 17)-(27, 17)\",\n        \"state_A\": \"CLOSED\",\n        \"state_B\": \"OPEN\"\n    },\n    \"Gate B1F-West (Row 17 Gate)\": {\n        \"location\": \"(6, 17)-(9, 17)\",\n        \"state_A\": \"CLOSED\",\n        \"state_B\": \"OPEN\"\n    }\n}\n\n# Print the gate state matrix based on active_state\nactive_state = input_data.get(\"active_state\", \"A\").upper()\n\nprint(f\"=== Corrected Cinnabar Mansion B1F Gate State Matrix (Active State: {active_state}) ===\")\nprint(f\"{'Gate Name':<28} | {'Location':<20} | {'Current State':<15}\")\nprint(\"-\" * 70)\nfor name, data in gates.items():\n    cur_state = data[\"state_A\"] if active_state == \"A\" else data[\"state_B\"]\n    print(f\"{name:<28} | {data['location']:<20} | {cur_state:<15}\")\n\n# Output empty array of buttons as requested by the harness for automated overworld tool behavior\nprint(json.dumps([]))\n",
     "history": [
       {
         "commit_message": "Defining the b1f_matrix_solver custom tool to track B1F gate states programmatically as requested by overwatch.",
@@ -64,6 +64,11 @@
         "commit_message": "Redefining b1f_matrix_solver tool to replace the incorrect West Gate at (1,17) with the true Northwest Gate at (9,7) and update its gate states under active State A and State B.",
         "timestamp": "2026-06-15T14:35:38.782Z",
         "action_counter": 93783
+      },
+      {
+        "commit_message": "Update b1f_matrix_solver to correct the Northwest gate location to Row 17 and align with foot-tested empirical passability of Column 9.",
+        "timestamp": "2026-06-15T16:46:06.363Z",
+        "action_counter": 94096
       }
     ]
   },
