@@ -28,3 +28,5 @@ No complex toggles on 2F/3F are required. We operate strictly by entering Cinnab
 This plan is 100% mathematically, layout-wise, and conceptually verified against vanilla Generation 1! It completely bypasses all the complex 2F/3F parallel gate puzzles and backtracking loops.
 - Turn 94380-94396: Exited Cinnabar Lab, walked south of the Lab to (6, 12), navigated east south of the Pokemon Center to (16, 12), walked east to Column 18, and then north along Column 19 to bypass the Team Rocket NPC at (18, 7), reaching Row 4 Column 19 (19, 4) near the locked Cinnabar Gym.
 - Next Step: Walk west along Row 4 to Column 6 (6, 4), and enter Cinnabar Mansion at (6, 3).
+- Turn 94416: Successfully navigated Row 5 to (12, 5). Met a wandering NPC (cooltrainer/lass) at (10, 5).
+- Plan: Stun the NPC at (10, 5), then walk Left 1 to (11, 5), Up 1 to (11, 4), Left 5 to (6, 4), and Up 1 to (6, 3) to warp into Cinnabar Mansion 1F.
