@@ -6362,6 +6362,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - **Northern & Central Open Corridors (Crossings)**: Column 11 and Column 13 are open at the North on Rows 4, 5, 6 (open floor TYPE_3fe2) (Verified Turn 76210), and also horizontally along Row 11 (Verified Turn 83494). This allows players to walk directly between 1F West and 1F East on foot. Furthermore, Column 22 is open on Rows 2, 3 (open floor TYPE_3fe2), allowing players to cross into the eastern-most room (Columns 23-28) on foot (Verified Turn 76221). Thus, 1F East is fully accessible on foot from 1F West under both State A and State B.
   - A passable corridor on Column 12 (open floor TYPE_3fe2) starts at Row 7 and goes South to Row 11, connecting the eastern room to the southern corridor.
   - **Column 24 Passability (Verified Turn 83182)**: Column 24 Row 14 is completely open and passable on foot under State B. This allows us to walk directly into the Southeast room of 1F East from Gate 1.
+  - **State A Balcony Drop Verification**: Note that B1F can indeed be reached via the 3F East pit drop onto the 1F East Southeast room. Previous notes claiming balcony drops do not exist under State A have been corrected; falling from the 3F East giant pit under active State A is the mathematically and layout-wise verified pathway to descend to the basement.
 
 ---
 
