@@ -116,7 +116,7 @@
   3. Move Left 1 step to (17, 18) (aligning with the open walkway on Column 17).
   4. Move Up 4 steps to (17, 14) (Row 14 is open).
   5. Move Left to reach B1F West. From (17, 14), we can walk Left to Column 8 or 10, then Down to Row 18.
-  6. Walk all the way Left to Column 1, then Up to the open West Gate at (1, 17).
+  6. Test the true B1F-Northwest Gate at Column 9 Row 7 (open under State A).
 
 ## Systematic testing protocol of B1F West Wall Columns under active State A (Turn 93674)
 - **Objective**: Rigorously test the vertical passability of Row 17 on Columns 1 to 7 under active State A on foot to find any open gate leading into the Northwest Room.
