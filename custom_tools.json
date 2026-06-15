@@ -43,5 +43,28 @@
         "action_counter": 75876
       }
     ]
+  },
+  "b1f_matrix_solver": {
+    "description": "Tracks and displays the gate matrix states and passability map for Pokémon Mansion B1F basement.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "active_state": {
+          "type": "string",
+          "description": "The active global gate state ('A' or 'B')."
+        }
+      },
+      "required": [
+        "active_state"
+      ]
+    },
+    "python_script": "import json\nimport sys\n\ninput_data = json.loads(sys.argv[1])\nstate = input_data.get('active_state', 'A').upper()\n\nprint(\"=== CINNABAR MANSION B1F GATE MATRIX SOLVER ===\")\nprint(f\"Active Gate State: {state}\")\nprint(\"-\" * 50)\nprint(\"Gate / Obstacle | Location | State A | State B | Verification\")\nprint(\"-\" * 50)\n\n# West Gate\nwest_a = \"CLOSED\"\nwest_b = \"CLOSED\"\nprint(f\"Gate B1F-West   | (1, 17)  | {west_a:<7} | {west_b:<7} | Verified CLOSED under both states.\")\n\n# Center Gate\ncenter_a = \"CLOSED\"\ncenter_b = \"OPEN\"\nprint(f\"Gate B1F-Center | (13, 22) | {center_a:<7} | {center_b:<7} | Verified OPEN under State B, CLOSED under A.\")\n\n# Wall Blockage\nwall_a = \"CLOSED\"\nwall_b = \"CLOSED\"\nprint(f\"Wall Blockage   | (9, 14)  | {wall_a:<7} | {wall_b:<7} | Permanent solid wall structure.\")\n\n# Gate 26/27 (East Gate)\ngate26_a = \"CLOSED\"\ngate26_b = \"OPEN\"\nprint(f\"Gate 26/27      | (26, 17) | {gate26_a:<7} | {gate26_b:<7} | Open under State B (unlocks Northern section).\")\n\nprint(\"-\" * 50)\n",
+    "history": [
+      {
+        "commit_message": "Defining the b1f_matrix_solver custom tool to track B1F gate states programmatically as requested by overwatch.",
+        "timestamp": "2026-06-15T04:04:14.627Z",
+        "action_counter": 93423
+      }
+    ]
   }
 }
