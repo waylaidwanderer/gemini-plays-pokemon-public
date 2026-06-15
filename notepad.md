@@ -7625,14 +7625,14 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 ## Precise Walkthrough Path to Secret Key (Turn 93147 Audit)
 - **Starting Position**: (8, 18) facing Down.
 - **Active State**: State A (Default).
-- **Target Item Ball (Secret Key)**: (19, 25).
+- **Item Ball (TM14 - Blizzard)**: (19, 25).
 - **Walkable Route Proof of Work**:
   1. Stand at (8, 18) facing Down. Walk Right 2 steps to (10, 18) (all tiles are TYPE_3fe2).
   2. Walk Up 4 steps to (10, 14) (all tiles are TYPE_3fe2).
   3. Walk Right 6 steps to (16, 14) (this bypasses the solid Column 13 partition wall at Row 14, where (13, 14) is open floor of TYPE_3fe2).
   4. Walk Down 4 steps to (16, 18) (this travels through the open vertical walkway on Column 16, which is completely open of TYPE_3fe2 between the solid specimen tanks).
   5. Walk Right 3 steps to (19, 18) (all tiles are open floor of TYPE_3fe2).
-  6. Walk Down 7 steps to (19, 25) (Column 19 contains no closed gates, walls, or obstacles between Row 18 and Row 25 under State A, making this path completely open on foot).
+  6. Walk Down 7 steps to (19, 25) (Column 19 contains no closed gates, walls, or obstacles between Row 18 and Row 25 under State A, making this path completely open on foot to retrieve the TM14 - Blizzard item ball).
 
 - **Turn 93181**: Currently standing at (14, 22) facing Down. Toggling State B closed the gate at (16, 16)-(17, 16). We are executing a foot detour: walking Left 2 steps to cross Column 13 at Row 22 (13, 22) (which is open of TYPE_3fe2), then walking Up 8 steps to reach the western hallway at (12, 14).
 
