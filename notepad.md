@@ -7617,6 +7617,6 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 ## Active Hypotheses & Strategic Notes:
 - **Northwest Room Access**: The northwest room (Columns 1-8, Rows 10-17) is currently blocked under active State A. However, we hypothesize that the 'solid wall' at Column 9 (Rows 14-16) contains a closed gate of TYPE_2889 that will open and become passable of TYPE_3fe2 when the global gate switch is toggled to State B. We must find a Mewtwo Statue on B1F (or use one on an upper floor if reachable, though B1F is preferred) to toggle to State B and test this hypothesis.
-- **Turn 93081**: Located at (22, 10) facing Up. We see a Burglar NPC sprite at (27, 11) on the eastern side. We plan to walk Down to Row 15, then Right to Column 27, and then Up to interact with the Burglar and explore the eastern pocket.
+- **Turn 93081**: Located at (22, 10) facing Up. We see a Burglar NPC sprite at (27, 11) on the eastern side.
 
 <hr>
