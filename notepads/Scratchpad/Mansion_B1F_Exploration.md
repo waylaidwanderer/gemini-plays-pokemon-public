@@ -57,3 +57,10 @@
   6. Walk Down 7 steps to (19, 25) (Column 19 contains no closed gates, walls, or obstacles between Row 18 and Row 25 under State A, making this path completely open on foot).
 
 - **Turn 93181**: Currently standing at (14, 22) facing Down. Toggling State B closed the gate at (16, 16)-(17, 16). We are executing a foot detour: walking Left 2 steps to cross Column 13 at Row 22 (13, 22) (which is open of TYPE_3fe2), then walking Up 8 steps to reach the western hallway at (12, 14).
+
+## Systematic Passability Audit of Column 9 Gate under State B (Turn 93207)
+- **Objective**: Systematically test and document the physical passability of Column 9 Rows 14, 15, and 16 under active State B.
+- **Test 1 (Row 14)**:
+  - **Turn 93206**: Stood at (10, 14) facing Left under active State B. Pressed Left to attempt to step onto (9, 14).
+  - **Result**: Direct collision bump (0 tiles visited), remaining at (10, 14) on Turn 93207 facing Left.
+  - **Conclusion**: Column 9 Row 14 is 100% solid and CLOSED/impassable under active State B.
