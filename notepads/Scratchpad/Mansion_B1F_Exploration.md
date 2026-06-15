@@ -92,4 +92,7 @@
   3. Reach the central corridor (Column 10/11) on Rows 11-13.
   4. Walk to Column 10 and face Left.
   5. Attempt to step Left onto Column 9 for each of the three candidate rows (11, 12, 13) and document if we bump (CLOSED) or walk through (OPEN).
-- **Turn 93461**: Currently standing at (10, 7) facing Left under active **State B**. Directly to our left at (9, 7) is the vertical gate of TYPE_a83b. We will press Left to face and test the passability of (9, 7) under active State B.
+- **Turn 93385**: Verified that the Column 13 gate at (13, 22) is OPEN under active State B by walking left through it.
+- **Turn 93446**: Verified that the B1F-East gate at (26, 17)-(27, 17) is OPEN under active State B by walking up through it.
+- **Turn 93461**: Currently standing at (10, 7) facing Left under active **State B**. Directly to our left at (9, 7) is the vertical gate of TYPE_a83b.
+- **Turn 93462**: Pressed Left to test the gate at (9, 7) under active State B. Result: Bump, remaining at (10, 7). This physically proves that (9, 7) is CLOSED/impassable under active State B.
