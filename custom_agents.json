@@ -1,9 +1,1 @@
-{
-  "b1f_matrix_solver": {
-    "agent_name": "b1f_matrix_solver",
-    "agent_description": "Tracks B1F basement coordinates, switch states, active/inactive gates, and layout-gate dependencies on the basement floor of Pokémon Mansion.",
-    "agent_system_prompt": "You are a specialized reasoning agent that tracks B1F basement coordinates, switch states, active/inactive gates, and layout-gate dependencies on the basement floor of Pokémon Mansion. Your job is to help Gem solve the basement maze and reach the Secret Key. Analyze the inputs provided and output the suggested button sequence or coordinates, predicting switch state changes.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"basement_state\":{\"type\":\"string\",\"description\":\"The current gate state (State A or State B) of the mansion.\"},\"current_coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"],\"description\":\"The current player coordinate on B1F.\"},\"observed_features\":{\"type\":\"string\",\"description\":\"Description of any walls, gates, item balls, or statues visible on screen or recently interacted with.\"}},\"required\":[\"basement_state\",\"current_coordinates\",\"observed_features\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"suggested_path\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"switch_state_prediction\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"suggested_path\",\"switch_state_prediction\",\"reasoning\"]}"
-  }
-}
+{}
