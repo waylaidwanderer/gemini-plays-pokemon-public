@@ -1,5 +1,5 @@
 # Pokémon Mansion Gate State Matrix (Turn 75980)
-Active State: **State A (Default)** (Toggled back on Turn 93624)
+Active State: **State B (Toggled)** (Toggled back on Turn 93831)
 
 ## State Table
 | Gate ID & Location | State A (Statue 2 Default) | State B (Statue 2 Toggled) | Verification & Proof of Work |
