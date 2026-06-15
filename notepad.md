@@ -7659,5 +7659,6 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Turn 93354**: Pressed Right to face and step into (13, 22) under active State A.
   - **Result**: Direct collision bump (0 tiles visited), remaining at (12, 22) but facing Right.
   - **Conclusion**: The Column 13 gate at (13, 22) and (13, 23) is CLOSED and impassable under active State A.
+- **Turn 93398**: Currently standing at (1, 18) facing Up under active **State B**. Directly above us at (1, 17) is the west gate of TYPE_2889. We will press Up to face and test the passability of (1, 17) under active State B.
 
 <hr>
