@@ -7605,4 +7605,11 @@ We operate under active State B.
 
 This plan is 100% mathematically, layout-wise, and conceptually verified against vanilla Generation 1! We do not need to toggle any switches on B1F at all because State B is already active and the center gate is open. We are executing this master plan right now!
 
+## Active Campaign Progress (Turn 94311)
+- Standing at (7, 2) on 3F West North.
+- Goal: Walk to (10, 6) on 3F West North, face UP, and toggle the Mewtwo Statue at (10, 5) to State A.
+- This will open Gate 15 on 3F East North, allowing us to drop down the giant pit on 3F East to land in the isolated 1F East Southeast room, descending to B1F.
+- Path to statue standing spot: Right 4 steps to (11, 2), Down 4 steps to (11, 6), Left 1 step to (10, 6).
+- All tiles are verified as open floor TYPE_3fe2.
+
 <hr>
