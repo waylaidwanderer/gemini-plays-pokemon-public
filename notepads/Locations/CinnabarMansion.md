@@ -188,6 +188,8 @@
 ## B1F: Basement Floor Exploration State
 - **Switches & Gates**:
   - Statue 4: (TBD, TBD) | State: [ ] Default
+- **Items**:
+  - TM14 (Blizzard): (19, 25) | State: [x] Collected (Turn 93157)
 - **Secret Key**:
   - Coordinates: (TBD, TBD) | State: [ ] Uncollected
 - **1F West Switch Statue 1 Plan**: If we need to find and toggle Statue 1 on 1F West in the future, we must explore the westernmost room (Columns 1-4, typically around (2, 5)), as the statue at (10, 8) has been proven decorative.
