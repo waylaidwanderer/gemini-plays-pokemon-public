@@ -7660,5 +7660,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - **Result**: Direct collision bump (0 tiles visited), remaining at (12, 22) but facing Right.
   - **Conclusion**: The Column 13 gate at (13, 22) and (13, 23) is CLOSED and impassable under active State A.
 - **Turn 93398**: Currently standing at (1, 18) facing Up under active **State B**. Directly above us at (1, 17) is the west gate of TYPE_2889. We will press Up to face and test the passability of (1, 17) under active State B.
+- **Turn 93399**: Pressed Up to face and step into (1, 17) under active State B.
+  - **Result**: Direct collision bump, remaining at (1, 18) facing Up.
+  - **Conclusion**: The west gate at (1, 17) is 100% CLOSED and impassable under active State B. Along with Turn 93341 (CLOSED under State A), this proves the Row 17 West Gate is closed under BOTH global states on foot.
 
 <hr>
