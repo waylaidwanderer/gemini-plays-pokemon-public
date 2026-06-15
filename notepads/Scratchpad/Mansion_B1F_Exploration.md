@@ -42,3 +42,4 @@
 ## Active Hypotheses & Strategic Notes:
 - **Northwest Room Access**: The northwest room (Columns 1-8, Rows 10-17) is currently blocked under active State A. However, we hypothesize that the 'solid wall' at Column 9 (Rows 14-16) contains a closed gate of TYPE_2889 that will open and become passable of TYPE_3fe2 when the global gate switch is toggled to State B. We must find a Mewtwo Statue on B1F (or use one on an upper floor if reachable, though B1F is preferred) to toggle to State B and test this hypothesis.
 - **Turn 93081**: Located at (22, 10) facing Up. We see a Burglar NPC sprite at (27, 11) on the eastern side.
+- **Turn 93132**: Currently at (10, 14). We plan to walk Right 6 steps to (16, 14) on Row 14 to bypass the Column 13 wall and continue east to the central corridor.
