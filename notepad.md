@@ -7609,7 +7609,7 @@ No complex toggles on 2F/3F are required. We operate strictly by entering Cinnab
 
 2. Toggle to State B on B1F & Retrieve Secret Key:
    - Arrive on B1F near (23, 22) under State A.
-   - Walk Down 3 steps to (23, 25), then Left 5 steps to (18, 25) (standing at (18, 26) facing UP).
+   - Walk Up 3 steps to Row 15, then walk Left past Column 20 (crossover at (20, 15) is open and passable!) to Column 19 Row 15, and Down to (18, 26).
    - Use the Mewtwo Statue switch at (18, 25) to toggle global state to State B (opens B1F-Center Gate at (13, 22)-(13, 23)).
    - Walk to (13, 22) and walk Left through the now open B1F-Center Gate to B1F West.
    - Walk Left to Column 5 (or 2-7) and walk north through the open Row 17 West Gate into the Northwest Room.
