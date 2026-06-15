@@ -7617,5 +7617,6 @@ This plan is 100% mathematically, layout-wise, and conceptually verified against
 - Turn 94464-94466: Backtracked down to 2F West, currently standing at (7, 10).
 - Next Step: Walk to Mewtwo Statue 2 at (2, 11) via (2, 12), and toggle global state to State B.
 - Turn 94477: Successfully toggled global switch to State B at Mewtwo Statue 2 on 2F West. Currently dismissing the "Who wouldn't?" textbox.
+- Turn 94492: Standing at (7, 11) on 3F West South, facing UP. Ready to press Up to take the stairs down to 2F West at (7, 10).
 
 <hr>
