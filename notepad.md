@@ -7683,10 +7683,6 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Turn 93519**: Arrived at (10, 12) facing Up under active State B.
 - **Turn 93522**: Pressed Left to test (9, 12) under active State B. Result: Bump, remaining at (10, 12) facing Left. This physically proves Column 9 Row 12 is CLOSED/impassable under active State B.
 - **Turn 93524**: Pressed Left to test (9, 11) under active State B. Result: Bump, remaining at (10, 11) facing Left (subsequently turned Down on Turn 93527). This physically proves Column 9 Row 11 is CLOSED/impassable under active State B. All candidate rows (11, 12, 13) on Column 9 are confirmed CLOSED under active State B on foot.
-## State A Switch Toggle Route from B1F (12, 18) (Turn 93602) - Historical Summary
-- **Turn 93602**: Toggled functional Mewtwo Statue back to active State A.
-- **Route taken**: Walked from (12, 18) down to Row 22, crossed through the open Center Gate to Column 18, and walked down to stand at (18, 26) facing UP. Successfully interacted with the statue at (18, 25) on Turn 93624 to toggle the global gate state to State A.
-
 ## Route back to West B1F under Active State A (Turn 93634)
 - **Objective**: Navigate back to B1F West to access the newly opened West Gate at (1, 17) and retrieve the Secret Key.
 - **Current Position**: (17, 22), facing Up.
@@ -7703,9 +7699,6 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   4. Move Up 4 steps to (17, 14) (Row 14 is open).
   5. Move Left to reach B1F West. From (17, 14), we can walk Left to Column 8 or 10, then Down to Row 18.
   6. Walk all the way Left to Column 1, then Up to the open West Gate at (1, 17).
-- **Step-by-step Execution Log**:
-  - **Turn 93634**: Ready at (17, 22) facing Up. Executed Chunk 1 (Right 1, Up 4) to detour around the table and successfully reached (18, 18).
-  - **Turn 93655**: Walked from (18, 18) Left 1 and Up 4 to reach (17, 14).
 
 ## Systematic testing protocol of B1F West Wall Columns under active State A (Turn 93674)
 - **Objective**: Rigorously test the vertical passability of Row 17 on Columns 1 to 7 under active State A on foot to find any open gate leading into the Northwest Room.
