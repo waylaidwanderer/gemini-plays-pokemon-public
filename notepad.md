@@ -7640,5 +7640,6 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - **Turn 93206**: Stood at (10, 14) facing Left under active State B. Pressed Left to attempt to step onto (9, 14).
   - **Result**: Direct collision bump (0 tiles visited), remaining at (10, 14) on Turn 93207 facing Left.
   - **Conclusion**: Column 9 Row 14 is 100% solid and CLOSED/impassable under active State B.
+- **Turn 93210**: Confirmed Column 9 Row 14 is solid wall under State B. We are now heading south to Row 18, then west to Column 2, and going north to explore the west corridors and gates under active State B.
 
 <hr>
