@@ -7731,4 +7731,11 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   6. Walk Left 11 steps along Row 14 to reach (10, 14) (crosses open Column 20 at Row 14).
   7. From (10, 14), we can walk to (10, 11), (10, 12), or (10, 13) and test Column 9 passability under active State A.
 
+## Systematic Passability Audit of Column 9 Rows 11-13 under State A (Turn 93972 Campaign):
+- **Objective**: Systematically test and document the physical passability on foot of Column 9 at Rows 11, 12, and 13 under active State A.
+- **Test 1 (Row 13)**:
+  - **Turn 93972**: Stood at (10, 13) facing Left under active State A. Pressed Left to attempt to step Left onto (9, 13).
+  - **Result**: Direct collision bump (0 tiles visited), remaining at (10, 13).
+  - **Conclusion**: Column 9 Row 13 is 100% solid and CLOSED/impassable under active State A on foot.
+
 <hr>
