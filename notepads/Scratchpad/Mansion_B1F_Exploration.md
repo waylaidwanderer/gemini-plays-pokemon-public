@@ -26,3 +26,5 @@ No complex toggles on 2F/3F are required. We operate strictly by entering Cinnab
    - Use an Escape Rope from the Bag to exit the Mansion instantly.
 
 This plan is 100% mathematically, layout-wise, and conceptually verified against vanilla Generation 1! It completely bypasses all the complex 2F/3F parallel gate puzzles and backtracking loops.
+- Turn 94380-94396: Exited Cinnabar Lab, walked south of the Lab to (6, 12), navigated east south of the Pokemon Center to (16, 12), walked east to Column 18, and then north along Column 19 to bypass the Team Rocket NPC at (18, 7), reaching Row 4 Column 19 (19, 4) near the locked Cinnabar Gym.
+- Next Step: Walk west along Row 4 to Column 6 (6, 4), and enter Cinnabar Mansion at (6, 3).
