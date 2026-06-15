@@ -24,3 +24,4 @@
   - Navigate directly to Cinnabar Island at the southern terminus of Route 21.
   - Retrieve the Secret Key from the Cinnabar Mansion (Pokémon Mansion) to unlock the Cinnabar Gym. See `Scratchpad/Mansion_B1F_Exploration` for B1F basement exploration records.
   - Defeat Gym Leader Blaine at Cinnabar Gym to secure the Volcano Badge.
+  - Note: To reach B1F, we do NOT use Pit A at (11, 12) on 3F West as that drops us into an isolated pocket on 2F East South. Instead, we must use the 3F West North statue switch to toggle State A, walk through the open partition gap at (15, 5) to 3F East North, walk south to (16, 14), and fall through the giant pit there to land directly on 1F East Southeast at (16, 14), which has on-foot stairs down to B1F.
