@@ -7721,4 +7721,23 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   3. Press Left to attempt to walk onto (9, 7).
 - **Turn 93739 Execution**: Walk to (10, 14) first by executing `["Right", "Right", "Right", "Right", "Up", "Up", "Up", "Up"]`.
 
+## B1F Basement Master Walkthrough Plan (Turn 93791)
+- **Problem**: Under active State A, the northern half of B1F (Row 7 and above) is completely isolated on foot from the southern half on the west, center, and east-center sections due to solid partition walls on Row 8 and Column 25. The East Gate at (26, 17) is also closed, blocking on-foot vertical passage to the northern half on B1F East.
+- **Solution**:
+  1. Backtrack to the functional Mewtwo Statue at (18, 25) and toggle to active State B.
+  2. Walk through the open B1F-East Gate at (26, 17)-(27, 17) to reach B1F East North.
+  3. Walk north to Row 7, then west to the northeast room.
+  4. Locate the Mewtwo Statue in the northeast room (B1F East North) and toggle it to active State A.
+  5. Now that State A is active, the Northwest Gate at (9, 7) is OPEN.
+  6. Walk west along Row 7, pass through (9, 7) into the Northwest Room, and retrieve the Secret Key!
+  7. Use an Escape Rope to exit the Mansion instantly.
+
+## Current Backtracking Path to Mewtwo Statue (18, 25) on foot under State A:
+- **From (24, 13)**:
+  1. Walk Left 7 steps to (17, 13): `["Left", "Left", "Left", "Left", "Left", "Left", "Left"]`
+  2. Walk Down 5 steps along Column 17 to (17, 18): `["Down", "Down", "Down", "Down", "Down"]`
+  3. Walk Right 1 step to (18, 18): `["Right"]`
+  4. Walk Down 8 steps along Column 18 to stand at (18, 26) facing UP: `["Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down"]`
+- **Execution (Turn 93791)**: Execute Step 1 (Left 7 steps to (17, 13)).
+
 <hr>
