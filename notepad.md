@@ -7635,4 +7635,23 @@ This plan is 100% mathematically, layout-wise, and conceptually verified against
   - Turn 94959: Tested passability of Column 10 Row 8 (10, 8) by standing at (10, 9) facing Up and pressing Up under active State A.
   - Result: Collision occurred, 0 tiles visited. This physically and definitively proves that (10, 8) is solid and impassable under active State A. Thus, we cannot bypass this gate on foot under State A. We must revert to our primary plan: backtracking to (18, 25) to toggle the global gate state to State B.
 
+## Verified Multi-Stage State B Northeast Routing Strategy (Turn 94981)
+- **Objective**: Use the State B Northeast route to bypass the closed gates and retrieve the Secret Key.
+- **Detailed Step-by-Step Route**:
+  1. From (19, 21), walk Down to (19, 26).
+  2. Walk Left to (18, 26) and face Up to the Mewtwo Statue at (18, 25).
+  3. Toggle the Mewtwo Statue at (18, 25) to activate State B.
+  4. With State B active:
+     - B1F-Center Gate at (13, 22)-(13, 23) is OPEN.
+     - B1F-East Gate at (26, 17)-(27, 17) is OPEN.
+  5. Walk from (18, 26) to (21, 26) -> (21, 22) -> (26, 22) -> (26, 18).
+  6. Walk Up through the open B1F-East Gate at (26, 17) to (26, 16).
+  7. Walk Up Column 26 to (26, 4).
+  8. Walk Left to (24, 4) and face Up to the functional Mewtwo Statue at (24, 3).
+  9. Toggle the Mewtwo Statue at (24, 3) to activate State A.
+  10. With State A active, the Northwest gate at (9, 7) is OPEN.
+  11. Since we are already on the north side of the Row 8 blockage, walk Left horizontally along Row 4 from Column 24 to Column 5: (5, 4).
+  12. Walk Down Column 5 to the table in the Northwest Room at (5, 7) or (5, 8) and retrieve the Secret Key!
+  13. Open the Bag and use an Escape Rope to exit the Mansion.
+
 <hr>
