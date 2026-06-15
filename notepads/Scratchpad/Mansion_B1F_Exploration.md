@@ -70,11 +70,11 @@
 - **Turn 93311**: Standing at (10, 14) facing Left under active **State A**. Pressed Left to test the passability of (9, 14) on foot.
   - **Result**: Direct collision bump (0 tiles visited), remaining at (10, 14).
   - **Conclusion**: Column 9 Row 14 is 100% solid and CLOSED/impassable under active State A as well. It is a permanent wall structure under both states.
-- **Turn 93340**: Currently at (1, 18) facing Down under active State A. We will press Up to face and test the passability of (1, 17) under active State A.
+- **Turn 93340**: Currently at (1, 18) facing Down under active State A.
 - **Turn 93341**: Pressed Up to face and step into (1, 17) under active State A.
   - **Result**: Direct collision bump, remaining at (1, 18).
   - **Conclusion**: The west gate at (1, 17) is 100% CLOSED and impassable under active State A.
-- **Turn 93353**: Standing at (12, 22) facing Up under active State A. Directly in front of us at (13, 22) is a yellow and black striped vertical bar structure of TYPE_a83b. We will press Right to face and test the passability of (13, 22) under active State A.
+- **Turn 93353**: Standing at (12, 22) facing Up under active State A. Directly in front of us at (13, 22) is a yellow and black striped vertical bar structure of TYPE_a83b.
 - **Turn 93354**: Pressed Right to face and step into (13, 22) under active State A.
   - **Result**: Direct collision bump (0 tiles visited), remaining at (12, 22) but facing Right.
   - **Conclusion**: The Column 13 gate at (13, 22) and (13, 23) is CLOSED and impassable under active State A.
