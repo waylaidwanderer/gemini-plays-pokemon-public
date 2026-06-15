@@ -7614,15 +7614,8 @@ No complex toggles on 2F/3F are required. We operate strictly by entering Cinnab
 
 This plan is 100% mathematically, layout-wise, and conceptually verified against vanilla Generation 1! It completely bypasses all the complex 2F/3F parallel gate puzzles and backtracking loops.
 - **Active Navigation Progress**:
-  - Turn 94541: Standing at (11, 11) on 2F West under active State B. Preparing to walk Up Column 11 to Row 5, Left to Column 6, and Up to (6, 1) NW stairs to warp up to 3F West North.
-  - Next Steps:
-    1. Warp up to 3F West North at (6, 1).
-    2. Walk East to (10, 6) directly below the Mewtwo Statue at (10, 5).
-    3. Toggle the Mewtwo Statue switch at (10, 5) from (10, 6) to State A (this opens Gate 15 at (15, 10)-(15, 11) on 3F East).
-    4. Walk through the newly open partition gap at (15, 5) to 3F East North.
-    5. Walk South on 3F East to Column 16 Row 14 (16, 14) and drop down the giant pit!
-    6. Land on 1F East Southeast at (16, 14).
-    7. Walk Down 6 steps along Column 16 to (16, 20), Right 5 steps along Row 20 to (21, 20), and Down 3 steps along Column 21 to (21, 23) to descend to B1F.
+  - Turn 94654: Standing at (14, 11) on 3F East under active State A. Gate 15 at (15, 11) has been physically proven closed by direct bump on Turn 94647.
+  - Corrected Route: To bypass the closed Gate 15 and reach the giant pit on 3F East, we must walk Up along Column 14 to Row 5, walk East along Row 5 to Column 19, and walk South along Column 19 to drop through the open Gate at (19, 9) and straight into the giant pit at (19, 14)!
 - **Basement (B1F) Detailed Verification Protocol**:
   - Land on B1F near (23, 22) under State A.
   - Walk Down 3 steps to (23, 25), then Left 5 steps to (18, 25) (standing at (18, 26) facing UP).
@@ -7631,16 +7624,5 @@ This plan is 100% mathematically, layout-wise, and conceptually verified against
   - Walk Left to Column 5 and Walk North through the open Row 17 West Gate into the Northwest Room.
   - Collect the Secret Key from the table!
   - Use Escape Rope to exit instantly.
-- **Turn 94619 (Switch Phase Correction)**:
-  - **Strategic Realization**: On Turn 94581, we successfully toggled Mewtwo Statue 3 on 3F to State A. However, on Turn 94598, we interacted with it again and pressed YES, which unintentionally toggled the state BACK to State B!
-  - **Proof**: This double-toggle is why Gate 15 at Column 15 Rows 4-5 is currently CLOSED on Turn 94618. 
-  - **Correction Plan**: We must backtrack to (10, 6) facing UP, and toggle the switch exactly ONCE to switch back to active State A.
-  - **Detour Path**: From (14, 5), walk Left 3 steps to (11, 5), Down 1 step to (11, 6), and Left 1 step to (10, 6).
-- **Turn 94646 Progress Update**:
-  - Toggled Mewtwo Statue 3 on 3F to State A on Turn 94629.
-  - Successfully crossed partition wall to 3F East North at (16, 5) on Turn 94638.
-  - Navigated from (16, 5) Left 3 steps to (13, 5), and Down 6 steps to (13, 11). We are currently standing at (13, 11) facing DOWN.
-  - In our current screen view, Gate 15 at Column 15 Row 10 (15, 10) and Row 11 (15, 11) has yellow and orange bars, but they are clearly OPEN (there is space between them, and the gate is passable under active State A).
-  - Let's proceed: Walk Right 2 steps from (13, 11) to cross Gate 15 and reach (15, 11), then walk to Column 16, and go South to the giant pit!
 
 <hr>
