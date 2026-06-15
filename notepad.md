@@ -7701,17 +7701,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   5. Move Left to reach B1F West. From (17, 14), we can walk Left to Column 8 or 10, then Down to Row 18.
   6. Test the true B1F-Northwest Gate at Column 9 Row 7 (open under State A).
 
-## Systematic testing protocol of B1F West Wall Columns under active State A (Turn 93674)
-- **Objective**: Rigorously test the vertical passability of Row 17 on Columns 1 to 7 under active State A on foot to find any open gate leading into the Northwest Room.
-- **Hypothesis**: The gate partition separating the southwest compartment from the northwest compartment lies on Row 17. While (1, 17) is closed under active State B, and was previously bumped under State A, other columns may be open under State A. We must test Columns 1, 2, 3, 4, 5, 6, and 7 on Row 17 systematically.
-- **Methodology**:
-  1. Walk to the West side: from (16, 14), go Left to (10, 14), Down to (10, 18), and Left to the Southwest Room (Columns 1-7, Rows 18-26).
-  2. For each column $X \in \{1, 2, 3, 4, 5, 6, 7\}$:
-     - Stand at $(X, 18)$ facing Up.
-     - Press Up to attempt to step onto $(X, 17)$.
-     - Record the Turn Number, target coordinate, and result: **OPEN** (successfully stepped onto Row 17) or **CLOSED** (direct collision bump).
-     - If CLOSED, step Right/Left to the next column and repeat the test.
-     - If OPEN, proceed north into the Northwest Room and retrieve the Secret Key!
+- **Systematic West Wall State A Test (Turn 93674)**: Completed. All columns (1-7) on Row 17 are 100% impassable under active State A on foot.
 ## B1F Basement Master Walkthrough Plan (Turn 93791) - Corrected for State B
 - **Problem**: Under active State B, the gate at (16, 16)-(17, 16) is CLOSED, blocking Column 17. The Northwest Gate at (9, 7) is CLOSED.
 - **Solution Route to B1F East North under active State B**:
