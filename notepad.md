@@ -6646,9 +6646,9 @@ Active State: **State B (Toggled)** (Toggled back on Turn 93831)
 | Gate ID & Location | State A (Statue 2 Default) | State B (Statue 2 Toggled) | Verification & Proof of Work |
 | :--- | :--- | :--- | :--- |
 | **Gate B1F-West (Row 17 Gate)** (B1F, (6, 17)-(9, 17)) | **CLOSED** (Impassable) | **CLOSED** (Impassable) | State A: Verified CLOSED on Turn 94855 by standing at (8, 18) facing Up and pressing Up, resulting in a bump. State B: Verified CLOSED on Turn 94777 by standing at (8, 18) facing Up and pressing Up, resulting in a bump. |
-| **Gate B1F-Northwest** (B1F, (9, 7)) | **CLOSED** (Impassable) | **CLOSED** (Impassable) | State A: Verified CLOSED on Turn 93934 (bump). State B: Verified CLOSED on Turn 93462 (bump). This is the true Northwest Gate to the Secret Key room! |
+| **Gate B1F-Northwest** (B1F, (9, 7)) | **CLOSED** (Impassable) | **OPEN** (Passable) | State A: Visually OPEN (Verified on Turn 93167). State B: Verified CLOSED on Turn 93462 (bump) and Turn 95180 (bump). This is the true Northwest Gate to the Secret Key room! |
 | **Gate B1F-Center** (B1F, (13, 22)-(13, 23)) | **CLOSED** (Impassable) | **OPEN** (Passable) | State A: Verified CLOSED on Turn 93354 by standing at (12, 22) facing Right and pressing Right (bump). State B: Verified OPEN on Turn 93385 by walking Left 2 steps from (14, 22) through (13, 22) to (12, 22). |
-| **Gate B1F-East** (B1F, (26, 17)-(27, 17)) | **CLOSED** (Impassable) | **OPEN** (Passable) | State A: Visually CLOSED (TYPE_2889). State B: Verified OPEN on Turn 93446 by walking Up through it from (26, 18) to (26, 17). |
+| **Gate B1F-East** (B1F, (26, 17)-(27, 17)) | **CLOSED** (Impassable) | **OPEN** (Passable) | State A: Visually CLOSED (TYPE_2889). State B: Verified OPEN on Turn 93446 by walking Up through it from (26, 18) to (26, 17), and re-verified OPEN on Turn 95200. |
 | **Wall/Blockage** (B1F, (9, 14)) | **CLOSED** (Impassable) | **CLOSED** (Impassable) | State A: Verified CLOSED on Turn 93311 (bump). State B: Verified CLOSED on Turn 93206 (bump). Permanent wall structure under both states. |
 
 ## 2F East Mewtwo Statue 3 Discovery (Turn 78407)
@@ -6664,6 +6664,13 @@ Active State: **State B (Toggled)** (Toggled back on Turn 93831)
 - **Methodology**: Stood at (10, 9) facing Up, and pressed 'A' to interact with the statue at (10, 8) under State A.
 - **Results**: No textbox appeared and no interaction took place.
 - **Conclusion**: The Mewtwo Statue at (10, 8) on 1F West is purely decorative. There is no active switch at this location.
+
+## B1F Mewtwo Statue at (24, 3) Test (Turn 95204)
+- **Coordinates**: Mewtwo Statue is located at (24, 3) on B1F East North (Map 0_216).
+- **Methodology**: Stood at (24, 4) facing Up and pressed 'A' on Turn 95204.
+- **Results**: No textbox appeared and no interaction took place.
+- **Conclusion**: The Mewtwo Statue at (24, 3) is 100% purely decorative with no switch. The only functional switch on B1F is at (18, 25).
+
 | **Gate 18** (2F, (2, 9)) | **CLOSED** (Impassable) | **OPEN** (Passable) | State A: Verified CLOSED (has orange/yellow horizontal bars) on Turn 94231. State B: Verified OPEN on Turn 94236 by walking through it. |
 | **Gate 26** (2F, (12, 26)-(13, 26)) | **CLOSED** (Impassable) | **CLOSED** (Impassable) | State A: Verified CLOSED on Turn 80627 by standing at (12, 25) facing Down and pressing Down, resulting in a bump. State B: Verified CLOSED on Turn 78980. This gate is 100% closed under both states, blocking foot access to Row 27. |
 | **Gate 13** (2F, (12, 13)-(13, 13)) | **CLOSED** (Impassable) | **CLOSED** (Impassable) | State A: Verified CLOSED on Turn 78855. State B: Verified CLOSED on Turn 79849 by bumping into (12, 13) from (12, 12). This gate is 100% closed under both states, meaning 2F East South cannot be accessed via Column 12-13 on Row 13. |
