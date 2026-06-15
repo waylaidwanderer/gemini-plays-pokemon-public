@@ -6645,8 +6645,10 @@ Active State: **State B (Toggled)** (Toggled back on Turn 93831)
 
 | Gate ID & Location | State A (Statue 2 Default) | State B (Statue 2 Toggled) | Verification & Proof of Work |
 | :--- | :--- | :--- | :--- |
-| **Gate B1F-West** (B1F, (1, 17)) | **CLOSED/UNDER AUDIT** (Impassable) | **CLOSED/UNDER AUDIT** (Impassable) | State A: Verified CLOSED on Turn 93341 (bump) and Turn 93705 (systematic sweep of Row 17). State B: Verified CLOSED on Turn 93399 (bump). This tile (1, 17) is a permanent solid wall of TYPE_2889 under both States, NOT a gate. |
-| **Gate B1F-Northwest** (B1F, (9, 7)) | **CLOSED** (Impassable) | **CLOSED** (Impassable) | State A: Verified CLOSED on Turn 93934 (bump). State B: Verified CLOSED on Turn 93462 (bump). This is the true Northwest Gate to the Secret Key room! |
+- **Gate B1F-West (Row 17 Gate)** (B1F, (6, 17)-(9, 17)):
+  * State A: OPEN? To be tested.
+  * State B: CLOSED (Impassable) (Verified CLOSED on Turn 94777 by standing at (8, 18) facing Up and pressing Up, resulting in a bump). Previously misidentified as open under State B.
+- **Gate B1F-Northwest** (B1F, (9, 7)) | State A: CLOSED | State B: CLOSED | State A: Verified CLOSED on Turn 93934 (bump). State B: Verified CLOSED on Turn 93462 (bump). This is the true Northwest Gate to the Secret Key room!
 | **Gate B1F-Center** (B1F, (13, 22)-(13, 23)) | **CLOSED** (Impassable) | **OPEN** (Passable) | State A: Verified CLOSED on Turn 93354 by standing at (12, 22) facing Right and pressing Right (bump). State B: Verified OPEN on Turn 93385 by walking Left 2 steps from (14, 22) through (13, 22) to (12, 22). |
 | **Gate B1F-East** (B1F, (26, 17)-(27, 17)) | **CLOSED** (Impassable) | **OPEN** (Passable) | State A: Visually CLOSED (TYPE_2889). State B: Verified OPEN on Turn 93446 by walking Up through it from (26, 18) to (26, 17). |
 | **Wall/Blockage** (B1F, (9, 14)) | **CLOSED** (Impassable) | **CLOSED** (Impassable) | State A: Verified CLOSED on Turn 93311 (bump). State B: Verified CLOSED on Turn 93206 (bump). Permanent wall structure under both states. |
