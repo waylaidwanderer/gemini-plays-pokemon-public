@@ -43,3 +43,16 @@
 - **Northwest Room Access**: The northwest room (Columns 1-8, Rows 10-17) is currently blocked under active State A. However, we hypothesize that the 'solid wall' at Column 9 (Rows 14-16) contains a closed gate of TYPE_2889 that will open and become passable of TYPE_3fe2 when the global gate switch is toggled to State B. We must find a Mewtwo Statue on B1F (or use one on an upper floor if reachable, though B1F is preferred) to toggle to State B and test this hypothesis.
 - **Turn 93081**: Located at (22, 10) facing Up. We see a Burglar NPC sprite at (27, 11) on the eastern side.
 - **Turn 93132**: Currently at (10, 14). We plan to walk Right 6 steps to (16, 14) on Row 14 to bypass the Column 13 wall and continue east to the central corridor.
+
+## Precise Walkthrough Path to Secret Key (Turn 93147 Audit)
+- **Starting Position**: (8, 18) facing Down.
+- **Active State**: State A (Default).
+- **Target Item Ball (Secret Key)**: (19, 25).
+- **Walkable Route Proof of Work**:
+  1. Stand at (8, 18) facing Down. Walk Right 2 steps to (10, 18) (all tiles are TYPE_3fe2).
+  2. Walk Up 4 steps to (10, 14) (all tiles are TYPE_3fe2).
+  3. Walk Right 6 steps to (16, 14) (this bypasses the solid Column 13 partition wall at Row 14, where (13, 14) is open floor of TYPE_3fe2).
+  4. Walk Down 4 steps to (16, 18) (this travels through the open vertical walkway on Column 16, which is completely open of TYPE_3fe2 between the solid specimen tanks).
+  5. Walk Right 3 steps to (19, 18) (all tiles are open floor of TYPE_3fe2).
+  6. Walk Down 7 steps to (19, 25) (Column 19 contains no closed gates, walls, or obstacles between Row 18 and Row 25 under State A, making this path completely open on foot).
+- **Current Position**: Currently standing at (19, 18) facing Down, with the path to (19, 25) verified completely clear down to Row 22. We are executing the final Downward stretch on Column 19.
