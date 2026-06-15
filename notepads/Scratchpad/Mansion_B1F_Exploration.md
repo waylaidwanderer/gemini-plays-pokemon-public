@@ -36,16 +36,6 @@ This plan is 100% mathematically, layout-wise, and conceptually verified against
 - **Testing Method**: Walk to (23, 15), walk Left horizontally through (22, 15) and (21, 15), and attempt to step onto (20, 15). If successful, we will cross to the western side of the partition wall and arrive at (19, 15).
 - **Result**: [x] Verified Passable (Turn 94718). Stood at (21, 15) facing Left and successfully stepped Left onto (20, 15) without colliding, reaching (20, 15) in 1 step. This physically and empirically proves that the B1F central partition wall does not block Row 15, providing a fully passable on-foot crossover to the western half of the basement floor under State A.
 
-## State A Socratic Campaign (Turn 94933 Plan)
-- **Hypothesis**: Under active State A, Column 10 on B1F is open and passable on foot from Row 15 up to Row 8. Furthermore, the Northwest gate at (9, 7) is OPEN under active State A. If this is true, we can walk from our current position (17, 19) directly to the Northwest room and retrieve the Secret Key on foot under State A, without needing to toggle State B or use the complex Northeast route!
-- **Testing Route**:
-  1. From (17, 19) under active State A, walk Up 4 steps to Row 15 Column 17: (17, 15).
-  2. Walk Left 7 steps horizontally along Row 15 to Column 10: (10, 15).
-  3. Walk Up along Column 10 to check if we can reach (10, 8) or (10, 7) on foot.
-  4. If we reach (10, 7), walk Left to test if the gate at (9, 7) is open.
-- **Proof of Work & Logs**:
-  - Turn 94959: Tested passability of Column 10 Row 8 (10, 8) by standing at (10, 9) facing Up and pressing Up under active State A. Result: Collision occurred, 0 tiles visited. This physically and definitively proves that (10, 8) is solid and impassable under active State A. Thus, we cannot bypass this gate on foot under State A. We must revert to our primary plan: backtracking to (18, 25) to toggle the global gate state to State B.
-
 ## Verified Multi-Stage State B Northeast Routing Strategy (Turn 94981)
 - **Objective**: Use the State B Northeast route to bypass the closed gates and retrieve the Secret Key.
 - **Detailed Step-by-Step Route**:
