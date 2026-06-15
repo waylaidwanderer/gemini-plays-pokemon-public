@@ -7680,7 +7680,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Turn 93462**: Pressed Left to test the gate at (9, 7) under active State B. Result: Bump, remaining at (10, 7). This physically proves that (9, 7) is CLOSED/impassable under active State B.
 - **Turn 93514**: Arrived at (10, 13) facing Up under active State B.
 - **Turn 93516**: Pressed Left to test (9, 13) under active State B. Result: Bump, remaining at (10, 13). This physically proves Column 9 Row 13 is CLOSED/impassable under active State B. Preparing to test (9, 12) by walking Up to (10, 12).
-- **Turn 93519**: Arrived at (10, 12) facing Up under active State B. Preparing to test the passability of (9, 12) by walking Left from (10, 12).
+- **Turn 93519**: Arrived at (10, 12) facing Up under active State B.
 - **Turn 93522**: Pressed Left to test (9, 12) under active State B. Result: Bump, remaining at (10, 12) facing Left. This physically proves Column 9 Row 12 is CLOSED/impassable under active State B. Preparing to test (9, 11) by walking Up to (10, 11).
 - **Turn 93524**: Pressed Left to test (9, 11) under active State B. Result: Bump, remaining at (10, 11) facing Left (subsequently turned Down on Turn 93527). This physically proves Column 9 Row 11 is CLOSED/impassable under active State B. All candidate rows (11, 12, 13) on Column 9 are confirmed CLOSED under active State B on foot.
 
