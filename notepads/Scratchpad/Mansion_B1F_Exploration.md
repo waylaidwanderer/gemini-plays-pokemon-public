@@ -83,3 +83,12 @@
   - **Result**: Direct collision bump, remaining at (1, 18) facing Up.
   - **Conclusion**: The west gate at (1, 17) is 100% CLOSED and impassable under active State B. Along with Turn 93341 (CLOSED under State A), this proves the Row 17 West Gate is closed under BOTH global states on foot.
 - **Turn 93428**: Standing at (10, 22) facing Down under active State B. Our target is the eastern room's open Gate 26/27 at (26, 17)-(27, 17).
+
+## Systematic Passability Protocol of Column 9 on Rows 11, 12, 13 under active State B
+- **Objective**: Determine if there is an open gate/passable tile on Column 9 at Rows 11, 12, or 13 under active State B, which would grant access to the northwest compartment containing the Secret Key.
+- **Methodology**:
+  1. Navigate north along Column 26 to check the northern compartments of B1F East.
+  2. Find the horizontal crossover that allows us to walk west across Column 25 and Column 20 in the northern section (Rows 1-9).
+  3. Reach the central corridor (Column 10/11) on Rows 11-13.
+  4. Walk to Column 10 and face Left.
+  5. Attempt to step Left onto Column 9 for each of the three candidate rows (11, 12, 13) and document if we bump (CLOSED) or walk through (OPEN).
