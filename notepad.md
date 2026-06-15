@@ -7631,9 +7631,7 @@ This plan is 100% mathematically, layout-wise, and conceptually verified against
   3. Walk Up along Column 10 to check if we can reach (10, 8) or (10, 7) on foot.
   4. If we reach (10, 7), walk Left to test if the gate at (9, 7) is open.
 - **Proof of Work & Logs**:
-  - Turn 94933: Commenced the State A Socratic Campaign.
-  - Turn 94959: Tested passability of Column 10 Row 8 (10, 8) by standing at (10, 9) facing Up and pressing Up under active State A.
-  - Result: Collision occurred, 0 tiles visited. This physically and definitively proves that (10, 8) is solid and impassable under active State A. Thus, we cannot bypass this gate on foot under State A. We must revert to our primary plan: backtracking to (18, 25) to toggle the global gate state to State B.
+  - Turn 94959: Tested passability of Column 10 Row 8 (10, 8) by standing at (10, 9) facing Up and pressing Up under active State A. Result: Collision occurred, 0 tiles visited. This physically and definitively proves that (10, 8) is solid and impassable under active State A. Thus, we cannot bypass this gate on foot under State A. We must revert to our primary plan: backtracking to (18, 25) to toggle the global gate state to State B.
 
 ## Verified Multi-Stage State B Northeast Routing Strategy (Turn 94981)
 - **Objective**: Use the State B Northeast route to bypass the closed gates and retrieve the Secret Key.
