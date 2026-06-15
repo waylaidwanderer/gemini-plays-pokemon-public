@@ -7594,15 +7594,16 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 We have fully solved the Cinnabar Mansion!
 No complex toggles on 2F/3F are required. We operate strictly by entering Cinnabar Mansion under default State A.
 
-1. Reach B1F under State A:
-   - Warp out of the mansion using DIG to ensure active state is State A (Default) and we reset to the 1F entrance.
+1. Reach B1F (Verified True Walkthrough):
    - Enter Cinnabar Mansion 1F. We are on 1F West (Map 0_165) at (5, 27).
-   - Walk straight UP Column 5 for 17 steps to (5, 10). Take the stairs to 2F.
+   - Walk straight UP Column 5 to (5, 10) and take the stairs to 2F West.
    - Land on 2F West (Map 0_214) at (5, 11).
-   - Walk Right 2 steps to (7, 11), then Up 1 step to (7, 10). Take the stairs to 3F.
-   - Land on 3F West South (Map 0_215) at (7, 11).
-   - Walk Right 8 steps along Row 11 to cross through the open Gate 15 at (15, 11) to reach (16, 11) on 3F East South.
-   - Walk Down 3 steps along Column 16 to (16, 14), and drop down the giant pit!
+   - Walk to Mewtwo Statue 2 at (2, 11) and toggle the switch to State B (opens Gate 6 at (9, 4)-(9, 5) on 2F West).
+   - Walk to (9, 4) or (9, 5) on 2F West and cross through the open Gate 6 to the northwest stairs at (6, 1). Take the stairs up to 3F West North.
+   - Land on 3F West North (Map 0_215) at (6, 1).
+   - Walk to the Mewtwo Statue at (10, 5) (standing at (10, 6)) and toggle the switch to State A (opens the partition gap at (15, 5)).
+   - Walk through the open gap at (15, 5) to 3F East North.
+   - Walk South on 3F East to Column 16 Row 14 (16, 14) and drop down the giant pit!
    - Land on 1F East Southeast at (16, 14).
    - Walk Down 6 steps along Column 16 to (16, 20), Right 5 steps along Row 20 to (21, 20), and Down 3 steps along Column 21 to (21, 23). Take the stairs down to B1F.
 
