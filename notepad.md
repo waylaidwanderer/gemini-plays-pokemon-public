@@ -7649,5 +7649,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - **Result**: Direct collision bump (0 tiles visited), remaining at (10, 14).
   - **Conclusion**: Column 9 Row 14 is 100% solid and CLOSED/impassable under active State A as well. It is a permanent wall structure under both states.
 - **Turn 93340**: Currently at (1, 18) facing Down under active State A. We will press Up to face and test the passability of (1, 17) under active State A.
+- **Turn 93341**: Pressed Up to face and step into (1, 17) under active State A.
+  - **Result**: Direct collision bump, remaining at (1, 18).
+  - **Conclusion**: The west gate at (1, 17) is 100% CLOSED and impassable under active State A.
 
 <hr>
