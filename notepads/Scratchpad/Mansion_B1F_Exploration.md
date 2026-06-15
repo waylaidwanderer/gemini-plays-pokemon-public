@@ -42,4 +42,4 @@ This plan is 100% mathematically, layout-wise, and conceptually verified against
 ## B1F Partition Wall Row 15 Column 20 Crossover Test under State A
 - **Hypothesis**: The vertical partition wall on B1F at Column 20 has an open, passable gap at Row 15 (20, 15) under active State A.
 - **Testing Method**: Walk to (23, 15), walk Left horizontally through (22, 15) and (21, 15), and attempt to step onto (20, 15). If successful, we will cross to the western side of the partition wall and arrive at (19, 15).
-- **Result**: [ ] Untested (to be verified upon foot exploration).
+- **Result**: [x] Verified Passable (Turn 94718). Stood at (21, 15) facing Left and successfully stepped Left onto (20, 15) without colliding, reaching (20, 15) in 1 step. This physically and empirically proves that the B1F central partition wall does not block Row 15, providing a fully passable on-foot crossover to the western half of the basement floor under State A.
