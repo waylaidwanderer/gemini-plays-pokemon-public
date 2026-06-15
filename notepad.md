@@ -7678,7 +7678,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Turn 93446**: Verified that the B1F-East gate at (26, 17)-(27, 17) is OPEN under active State B by walking up through it.
 - **Turn 93461**: Currently standing at (10, 7) facing Left under active **State B**. Directly to our left at (9, 7) is the vertical gate of TYPE_a83b.
 - **Turn 93462**: Pressed Left to test the gate at (9, 7) under active State B. Result: Bump, remaining at (10, 7). This physically proves that (9, 7) is CLOSED/impassable under active State B.
-- **Turn 93514**: Arrived at (10, 13) facing Up under active State B. Preparing to test the passability of (9, 13) by walking Left from (10, 13).
+- **Turn 93514**: Arrived at (10, 13) facing Up under active State B.
 - **Turn 93516**: Pressed Left to test (9, 13) under active State B. Result: Bump, remaining at (10, 13). This physically proves Column 9 Row 13 is CLOSED/impassable under active State B. Preparing to test (9, 12) by walking Up to (10, 12).
 - **Turn 93519**: Arrived at (10, 12) facing Up under active State B. Preparing to test the passability of (9, 12) by walking Left from (10, 12).
 - **Turn 93522**: Pressed Left to test (9, 12) under active State B. Result: Bump, remaining at (10, 12) facing Left. This physically proves Column 9 Row 12 is CLOSED/impassable under active State B. Preparing to test (9, 11) by walking Up to (10, 11).
