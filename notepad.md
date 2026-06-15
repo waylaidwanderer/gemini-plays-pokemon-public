@@ -7616,5 +7616,6 @@ This plan is 100% mathematically, layout-wise, and conceptually verified against
 - Plan: Stun the NPC at (10, 5), then walk Left 1 to (11, 5), Up 1 to (11, 4), Left 5 to (6, 4), and Up 1 to (6, 3) to warp into Cinnabar Mansion 1F.
 - Turn 94464-94466: Backtracked down to 2F West, currently standing at (7, 10).
 - Next Step: Walk to Mewtwo Statue 2 at (2, 11) via (2, 12), and toggle global state to State B.
+- Turn 94477: Successfully toggled global switch to State B at Mewtwo Statue 2 on 2F West. Currently dismissing the "Who wouldn't?" textbox.
 
 <hr>
