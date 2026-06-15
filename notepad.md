@@ -6373,13 +6373,6 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Column 11 Row 22 Gate/Corridor: OPEN under both State A and State B (Verified OPEN on Turn 84642 under State B and on Turn 84697 under State A).
   - Columns 12-13 Row 13 Gate: CLOSED under State A (Verified Turn 78855), and CLOSED under State B (Verified Turn 79849 by bumping into (12, 13) from (12, 12)). This gate is 100% closed under both states, meaning 2F East South cannot be accessed via Column 12-13 on Row 13.
   - Columns 12-13 Row 26 Gate: CLOSED under BOTH State A and State B (Verified CLOSED on Turn 80627 under State A by bumping from (12, 25)). This gate is 100% closed under both states, meaning there is no foot access to Row 27.
-- **Balcony Drop (DEFINITIVELY DISPROVEN)**:
-  - We systematically and exhaustively tested the 2F East South balcony area under the true State A (Default) (Turns 84804-84838) and proved it is completely closed with no active drop:
-    - Column 11 Row 16: BUMPED (Turn 84748)
-    - Column 12 Row 15: BUMPED (Turn 84737)
-    - Column 13 Row 15: BUMPED (Turn 84742)
-    - Column 14 (Railing): BUMPED on all Rows 16 to 25 under State A, proving Column 14 is a continuous, solid, impassable wall that completely separates Column 13 from the open atrium on Columns 15-17.
-  - Thus, there is NO active balcony drop under State A on 2F East South. B1F cannot be accessed via any 2F balcony drops. We must utilize the State A 3F West South route, crossing Gate 15 and dropping down the 3F East giant pit to reach the B1F stairs.
 
 - **State B (Statue 2 Toggled) 2F East South Balcony Railings Campaign**:
   - We systematically and physically tested the 2F East South balcony boundaries on foot under active State B to search for hidden drops:
