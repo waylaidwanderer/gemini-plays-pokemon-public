@@ -92,3 +92,4 @@
   3. Reach the central corridor (Column 10/11) on Rows 11-13.
   4. Walk to Column 10 and face Left.
   5. Attempt to step Left onto Column 9 for each of the three candidate rows (11, 12, 13) and document if we bump (CLOSED) or walk through (OPEN).
+- **Turn 93461**: Currently standing at (10, 7) facing Left under active **State B**. Directly to our left at (9, 7) is the vertical gate of TYPE_a83b. We will press Left to face and test the passability of (9, 7) under active State B.
