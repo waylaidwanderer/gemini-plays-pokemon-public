@@ -7712,31 +7712,24 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
      - Record the Turn Number, target coordinate, and result: **OPEN** (successfully stepped onto Row 17) or **CLOSED** (direct collision bump).
      - If CLOSED, step Right/Left to the next column and repeat the test.
      - If OPEN, proceed north into the Northwest Room and retrieve the Secret Key!
-## Column 9 Row 7 State A Passability Test Plan (Turn 93739)
-- **Objective**: Determine if Column 9 Row 7 is the Northwest Gate that opens under State A, granting access to the Northwest Room (Secret Key room).
-- **Hypothesis**: In vanilla Gen 1, the Northwest Gate is closed under State B (tested at (9, 7) on Turn 93462) but open under State A. Since State A is currently active, we expect the gate to be open!
-- **Path to Test**:
-  1. From (6, 18), walk Right 4 steps to (10, 18) then Up 11 steps to (10, 7).
-  2. Stand at (10, 7) facing Left.
-  3. Press Left to attempt to walk onto (9, 7).
+## B1F Basement Master Walkthrough Plan (Turn 93791) - Corrected for State B
+- **Problem**: Under active State B, the gate at (16, 16)-(17, 16) is CLOSED, blocking Column 17. The Northwest Gate at (9, 7) is CLOSED.
+- **Solution Route to B1F East North under active State B**:
+  1. From (18, 26), walk Left 1 to (17, 26) and Up 4 to (17, 22).
+  2. Walk Left 5 along Row 22 to (12, 22) (crosses open B1F-Center Gate at (13, 22)-(13, 23)).
+  3. Walk Up 8 along Column 12 to (12, 14).
+  4. Walk Right 9 along Row 14 to (21, 14) (crosses the Column 20 opening at (20, 14)).
+  5. Walk Down 8 along Column 21 to (21, 22) (east side of Column 20).
+  6. Walk Right 5 along Row 22 to (26, 22) (reaches B1F East South).
+  7. Walk Up 5 along Column 26 to (26, 17) (inside open B1F-East Gate at (26, 17)-(27, 17)).
+  8. Walk Up through B1F-East Gate to (26, 7) (reaches B1F East North!).
+  9. Walk north to Row 7, then west to the northeast room.
+  10. Locate the Mewtwo Statue in the northeast room (B1F East North) and toggle it to active State A.
+  11. Now that State A is active, the Northwest Gate at (9, 7) is OPEN.
+  12. Walk west along Row 7, pass through (9, 7) into the Northwest Room, and retrieve the Secret Key!
+  13. Use an Escape Rope to exit the Mansion instantly.
 
-## B1F Basement Master Walkthrough Plan (Turn 93791)
-- **Problem**: Under active State A, the northern half of B1F (Row 7 and above) is completely isolated on foot from the southern half on the west, center, and east-center sections due to solid partition walls on Row 8 and Column 25. The East Gate at (26, 17) is also closed, blocking on-foot vertical passage to the northern half on B1F East.
-- **Solution**:
-  1. Backtrack to the functional Mewtwo Statue at (18, 25) and toggle to active State B.
-  2. Walk through the open B1F-East Gate at (26, 17)-(27, 17) to reach B1F East North.
-  3. Walk north to Row 7, then west to the northeast room.
-  4. Locate the Mewtwo Statue in the northeast room (B1F East North) and toggle it to active State A.
-  5. Now that State A is active, the Northwest Gate at (9, 7) is OPEN.
-  6. Walk west along Row 7, pass through (9, 7) into the Northwest Room, and retrieve the Secret Key!
-  7. Use an Escape Rope to exit the Mansion instantly.
-
-## Current Backtracking Path to Mewtwo Statue (18, 25) on foot under State A:
-- **From (24, 13)**:
-  1. Walk Left 7 steps to (17, 13): `["Left", "Left", "Left", "Left", "Left", "Left", "Left"]` (COMPLETED on Turn 93794)
-  2. Walk Down 5 steps along Column 17 to (17, 18): `["Down", "Down", "Down", "Down", "Down"]` (COMPLETED on Turn 93809)
-  3. Walk Right 1 step to (18, 18): `["Right"]`
-  4. Walk Down 8 steps along Column 18 to stand at (18, 26) facing UP: `["Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down"]`
-- **Current Execution (Turn 93811)**: Execute Steps 3 & 4 (Right 1, Down 8).
+## Current Execution of State B Path:
+- **Turn 93845 Execution**: Walk Left 1 step to (17, 26) and Up 4 steps along Column 17 to reach (17, 22). Sequence: `["Left", "Up", "Up", "Up", "Up"]`
 
 <hr>
