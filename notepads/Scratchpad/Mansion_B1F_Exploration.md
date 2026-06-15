@@ -45,3 +45,8 @@ This plan is 100% mathematically, layout-wise, and conceptually verified against
   - Walk Left to Column 5 and Walk North through the open Row 17 West Gate into the Northwest Room.
   - Collect the Secret Key from the table!
   - Use Escape Rope to exit instantly.
+- **Turn 94619 (Switch Phase Correction)**:
+  - **Strategic Realization**: On Turn 94581, we successfully toggled Mewtwo Statue 3 on 3F to State A. However, on Turn 94598, we interacted with it again and pressed YES, which unintentionally toggled the state BACK to State B!
+  - **Proof**: This double-toggle is why Gate 15 at Column 15 Rows 4-5 is currently CLOSED on Turn 94618. 
+  - **Correction Plan**: We must backtrack to (10, 6) facing UP, and toggle the switch exactly ONCE to switch back to active State A.
+  - **Detour Path**: From (14, 5), walk Left 3 steps to (11, 5), Down 1 step to (11, 6), and Left 1 step to (10, 6).
