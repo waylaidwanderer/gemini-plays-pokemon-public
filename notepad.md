@@ -7648,5 +7648,6 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Turn 93311**: Standing at (10, 14) facing Left under active **State A**. Pressed Left to test the passability of (9, 14) on foot.
   - **Result**: Direct collision bump (0 tiles visited), remaining at (10, 14).
   - **Conclusion**: Column 9 Row 14 is 100% solid and CLOSED/impassable under active State A as well. It is a permanent wall structure under both states.
+- **Turn 93340**: Currently at (1, 18) facing Down under active State A. We will press Up to face and test the passability of (1, 17) under active State A.
 
 <hr>
