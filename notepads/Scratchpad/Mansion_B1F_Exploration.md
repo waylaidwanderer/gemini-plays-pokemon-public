@@ -65,3 +65,5 @@
   - **Result**: Direct collision bump (0 tiles visited), remaining at (10, 14) on Turn 93207 facing Left.
   - **Conclusion**: Column 9 Row 14 is 100% solid and CLOSED/impassable under active State B.
 - **Turn 93210**: Confirmed Column 9 Row 14 is solid wall under State B. We are now heading south to Row 18, then west to Column 2, and going north to explore the west corridors and gates under active State B.
+- **Turn 93253**: Successfully interacted with the Mewtwo Statue at (18, 25) to toggle the global gate state back to **State A**.
+- **Turn 93263**: Moved Left to (17, 26) to bypass the NPC at (16, 23) and begin walking north to the west side to test the Row 17 gate at (1, 17) under State A.
