@@ -154,3 +154,7 @@
   - **Turn 93972**: Stood at (10, 13) facing Left under active State A. Pressed Left to attempt to step Left onto (9, 13).
   - **Result**: Direct collision bump (0 tiles visited), remaining at (10, 13).
   - **Conclusion**: Column 9 Row 13 is 100% solid and CLOSED/impassable under active State A on foot.
+- **Test 2 (Row 12)**:
+  - **Turn 93975**: Stood at (10, 12) facing Left under active State A. Pressed Left to attempt to step Left onto (9, 12).
+  - **Result**: Direct collision bump (0 tiles visited), remaining at (10, 12).
+  - **Conclusion**: Column 9 Row 12 is 100% solid and CLOSED/impassable under active State A on foot.
