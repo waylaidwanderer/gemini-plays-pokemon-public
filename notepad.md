@@ -7582,7 +7582,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Observed Landmarks**:
   - Column 20: Thick solid vertical partition wall of TYPE_2889 extending from Row 18 to at least Row 26.
   - Column 29: Thick solid vertical partition wall of TYPE_2889 on Rows 18-26.
-  - Left Side (Column 19): Contains an item ball at (19, 25).
+  - Left Side (Column 19): Contains an item ball (TM14 - Blizzard) at (19, 25) [Collected on Turn 93157].
   - Column 28 Corridor: Completely open and passable floor of TYPE_3fe2 from Row 18 to Row 26.
 - **Exploration Log**:
   - **Turn 92928**: Arrived on B1F at (23, 22) from the 1F Southeast stairs.
