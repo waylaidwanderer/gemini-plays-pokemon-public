@@ -15,7 +15,7 @@ Active State: **State B (Statue 1 Toggled)** (Toggled on Turn 78020)
 
 | Gate ID & Location | State A (Statue 2 Default) | State B (Statue 2 Toggled) | Verification & Proof of Work |
 | :--- | :--- | :--- | :--- |
-| **Gate B1F-West** (B1F, (1, 17)) | **CLOSED** (Impassable) | *Testing* | State A: Verified CLOSED on Turn 93341 by standing at (1, 18) facing Up and pressing Up (bump). |
+| **Gate B1F-West** (B1F, (1, 17)) | **CLOSED** (Impassable) | **CLOSED** (Impassable) | State A: Verified CLOSED on Turn 93341 (bump). State B: Verified CLOSED on Turn 93399 (bump). |
 | **Gate B1F-Center** (B1F, (13, 22)-(13, 23)) | **CLOSED** (Impassable) | **OPEN** (Passable) | State A: Verified CLOSED on Turn 93354 by standing at (12, 22) facing Right and pressing Right (bump). State B: Verified OPEN on Turn 93385 by walking Left 2 steps from (14, 22) through (13, 22) to (12, 22). |
 | **Wall/Blockage** (B1F, (9, 14)) | **CLOSED** (Impassable) | **CLOSED** (Impassable) | State A: Verified CLOSED on Turn 93311 (bump). State B: Verified CLOSED on Turn 93206 (bump). Permanent wall structure under both states. |
 
