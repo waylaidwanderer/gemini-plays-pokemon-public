@@ -30,14 +30,6 @@ No complex toggles on 2F/3F are required. We operate strictly by entering Cinnab
 This plan is 100% mathematically, layout-wise, and conceptually verified against vanilla Generation 1! It completely bypasses all the complex 2F/3F parallel gate puzzles and backtracking loops.
 - **Active Navigation Progress**:
   - The direct State A walkthrough has been executed successfully. We dropped down from 3F East giant pit on Turn 94686, landed on 1F East Southeast at (16, 14), and descended the stairs to B1F. We are currently exploring B1F to toggle the switch to State B and collect the Secret Key.
-- **Basement (B1F) Detailed Verification Protocol**:
-  - Land on B1F near (23, 22) under State A.
-  - Walk Up 3 steps to Row 15, then walk Left past Column 20 (crossover at (20, 15) is open and passable!) to Column 19 Row 15, and Down to (18, 26).
-  - Interact with Mewtwo Statue at (18, 25) to toggle global switch to State B (opens B1F-Center Gate at (13, 22)-(13, 23)).
-  - Walk Left through open B1F-Center Gate to B1F West.
-  - Walk Left to Column 5 (or Column 9-12) and Walk North to the Northwest Room.
-  - Collect the Secret Key from the table!
-  - Use Escape Rope to exit instantly.
 
 ## B1F Partition Wall Row 15 Column 20 Crossover Test under State A
 - **Hypothesis**: The vertical partition wall on B1F at Column 20 has an open, passable gap at Row 15 (20, 15) under active State A.
