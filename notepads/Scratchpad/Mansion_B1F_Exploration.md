@@ -136,7 +136,6 @@
   1. From (6, 18), walk Right 4 steps to (10, 18) then Up 11 steps to (10, 7).
   2. Stand at (10, 7) facing Left.
   3. Press Left to attempt to walk onto (9, 7).
-- **Turn 93739 Execution**: Walk to (10, 14) first by executing `["Right", "Right", "Right", "Right", "Up", "Up", "Up", "Up"]`.
 
 ## B1F Basement Master Walkthrough Plan (Turn 93791)
 - **Problem**: Under active State A, the northern half of B1F (Row 7 and above) is completely isolated on foot from the southern half on the west, center, and east-center sections due to solid partition walls on Row 8 and Column 25. The East Gate at (26, 17) is also closed, blocking on-foot vertical passage to the northern half on B1F East.
@@ -151,8 +150,8 @@
 
 ## Current Backtracking Path to Mewtwo Statue (18, 25) on foot under State A:
 - **From (24, 13)**:
-  1. Walk Left 7 steps to (17, 13): `["Left", "Left", "Left", "Left", "Left", "Left", "Left"]`
-  2. Walk Down 5 steps along Column 17 to (17, 18): `["Down", "Down", "Down", "Down", "Down"]`
+  1. Walk Left 7 steps to (17, 13): `["Left", "Left", "Left", "Left", "Left", "Left", "Left"]` (COMPLETED on Turn 93794)
+  2. Walk Down 5 steps along Column 17 to (17, 18): `["Down", "Down", "Down", "Down", "Down"]` (COMPLETED on Turn 93809)
   3. Walk Right 1 step to (18, 18): `["Right"]`
   4. Walk Down 8 steps along Column 18 to stand at (18, 26) facing UP: `["Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down"]`
-- **Execution (Turn 93791)**: Execute Step 1 (Left 7 steps to (17, 13)).
+- **Current Execution (Turn 93811)**: Execute Steps 3 & 4 (Right 1, Down 8).
