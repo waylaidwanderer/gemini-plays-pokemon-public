@@ -101,36 +101,9 @@
 - **Turn 93519**: Arrived at (10, 12) facing Up under active State B.
 - **Turn 93522**: Pressed Left to test (9, 12) under active State B. Result: Bump, remaining at (10, 12) facing Left. This physically proves Column 9 Row 12 is CLOSED/impassable under active State B.
 - **Turn 93524**: Pressed Left to test (9, 11) under active State B. Result: Bump, remaining at (10, 11) facing Left (subsequently turned Down on Turn 93527). This physically proves Column 9 Row 11 is CLOSED/impassable under active State B. All candidate rows (11, 12, 13) on Column 9 are confirmed CLOSED under active State B on foot.
-## State A Switch Toggle Route from B1F (12, 18) (Turn 93602)
-- **Objective**: Get to Mewtwo Statue at (18, 25) to toggle State A.
-- **Current Position**: (12, 18).
-- **Current Gate State**: State B.
-- **Route to Statue (18, 25) under active State B**:
-  1. We are at (12, 18). Under State B, Center Gate at (13, 22)-(13, 23) is OPEN.
-  2. Walk Down to Row 22: Move Down 4 steps from (12, 18) to (12, 22).
-  3. Walk Right through the Center Gate at (13, 22): Move Right 6 steps from (12, 22) to (18, 22). Let's verify each tile on Row 22.
-     - (13, 22) is open under State B (TYPE_3fe2).
-     - (14, 22), (15, 22), (16, 22), (17, 22), (18, 22) are all open floor (TYPE_3fe2).
-  4. Walk Down 3 steps to (18, 25) to stand adjacent to the Mewtwo Statue (18, 25). Wait, can we stand adjacent? The statue is at (18, 25).
-     - Let's check what coordinates we can stand at to interact with it.
-     - The statue is at (18, 25). We can interact from (17, 25) facing Right, or (18, 24) facing Down, or (19, 25) facing Left.
-     - Let's trace carefully: (18, 25) is the statue itself. On Turn 93253 we interacted with it. Where did we stand?
-     - Let's read: "Turn 93253: Successfully interacted with the Mewtwo Statue at (18, 25) to toggle the global gate state back to State A."
-     - Let's check the map marker: "- (18, 25): 🗿 Functional Mewtwo Statue (State B Active)".
-     - Let's plan to stand at (17, 25) or (18, 24). Since we are walking south from Row 22 down Column 18, we can walk down to (18, 24) and face Down to interact with (18, 25).
-     - Let's trace steps to (18, 24): From (18, 22), move Down 2 steps to (18, 24).
-     - Then press UP then A (or just face Down and press A) to toggle it.
-     - Wait, let's use the activate_mansion_switch custom tool once we are in front of it! Let's check the activate_mansion_switch parameters:
-       - description: "Interacts with the Mewtwo Statue directly above the player to successfully toggle the global gate state. It first presses UP to face the statue, then presses A three times..."
-       - Ah! "Interacts with the Mewtwo Statue directly above the player". This means we must stand at (18, 26) facing UP to use the tool!
-       - Can we reach (18, 26)?
-       - Let's check: (18, 26) is on Row 26. Is Row 26 passable?
-       - Yes, (18, 26) is a passable tile (TYPE_3fe2).
-       - Let's trace to (18, 26): From (18, 22), walk Down 4 steps to (18, 26).
-       - Then run activate_mansion_switch!
-       - Let's execute the movement: Down 4, Right 6, Down 4.
-       - Buttons: Down, Down, Down, Down, Right, Right, Right, Right, Right, Right, Down, Down, Down, Down.
-       - Let's chunk this movement carefully! We don't want to overshoot or bump.
+## State A Switch Toggle Route from B1F (12, 18) (Turn 93602) - Historical Summary
+- **Turn 93602**: Toggled functional Mewtwo Statue back to active State A.
+- **Route taken**: Walked from (12, 18) down to Row 22, crossed through the open Center Gate to Column 18, and walked down to stand at (18, 26) facing UP. Successfully interacted with the statue at (18, 25) on Turn 93624 to toggle the global gate state to State A.
 
 ## Route back to West B1F under Active State A (Turn 93634)
 - **Objective**: Navigate back to B1F West to access the newly opened West Gate at (1, 17) and retrieve the Secret Key.
