@@ -43,7 +43,7 @@
         "active_state"
       ]
     },
-    "python_script": "import sys\nimport json\n\ndef main():\n    active_state = 'A'\n    \n    # 1. Check command line arguments first\n    if len(sys.argv) > 1:\n        try:\n            input_data = json.loads(sys.argv[1])\n            active_state = input_data.get('active_state', 'A').upper()\n        except Exception:\n            pass\n    else:\n        # 2. Check stdin if no command line argument is provided\n        try:\n            stdin_data = sys.stdin.read().strip()\n            if stdin_data:\n                input_data = json.loads(stdin_data)\n                active_state = input_data.get('active_state', 'A').upper()\n        except Exception:\n            pass\n\n    if active_state not in ['A', 'B']:\n        active_state = 'A'\n\n    print(f\"=== B1F Gate Circuit Solver (Active State: {active_state}) ===\")\n    \n    # Gate definitions\n    gates = {\n        'B1F-Center': {'coords': '(13, 22)-(13, 23)', 'A': 'CLOSED', 'B': 'OPEN'},\n        'B1F-East': {'coords': '(26, 17)-(27, 17)', 'A': 'CLOSED', 'B': 'OPEN'},\n        'B1F-West': {'coords': '(1, 17)', 'A': 'OPEN', 'B': 'CLOSED'},\n        'Wall/Blockage': {'coords': '(9, 14)', 'A': 'CLOSED', 'B': 'CLOSED'}\n    }\n\n    for name, info in gates.items():\n        state = info[active_state]\n        print(f\"- Gate {name} at {info['coords']} is {state}\")\n\n    print(\"\\nPassable Map Connectivity Details:\")\n    if active_state == 'B':\n        print(\"1. Center Gate (13, 22) is OPEN. East Gate (26, 17) is OPEN. West Gate (1, 17) is CLOSED.\")\n        print(\"2. Path to Mewtwo Statue (18, 25): Column 12 to Row 22, cross Center Gate to Column 14 Row 22, east to Column 18, and south.\")\n    else:\n        print(\"1. Center Gate (13, 22) is CLOSED. East Gate (26, 17) is CLOSED. West Gate (1, 17) is OPEN.\")\n        print(\"2. Path to Secret Key: Row 18 is open. Walk left to Column 1, go north through open West Gate (1, 17) directly to Northwest Room!\")\n\nif __name__ == '__main__':\n    main()",
+    "python_script": "import json\n\n# Define the basement gates with their states\n# Gate States under active State A and active State B\n# True Northwest Gate is at (9, 7) instead of (1, 17)\ngates = {\n    \"Gate B1F-Center\": {\n        \"location\": \"(13, 22)-(13, 23)\",\n        \"state_A\": \"CLOSED\",\n        \"state_B\": \"OPEN\"\n    },\n    \"Gate B1F-East\": {\n        \"location\": \"(26, 17)-(27, 17)\",\n        \"state_A\": \"CLOSED\",\n        \"state_B\": \"OPEN\"\n    },\n    \"Gate B1F-Northwest\": {\n        \"location\": \"(9, 7)\",\n        \"state_A\": \"OPEN\",\n        \"state_B\": \"CLOSED\"\n    }\n}\n\n# Print the gate state matrix based on active_state\nactive_state = input_data.get(\"active_state\", \"A\").upper()\n\nprint(f\"=== Cinnabar Mansion B1F Gate State Matrix (Active State: {active_state}) ===\")\nprint(f\"{'Gate Name':<20} | {'Location':<20} | {'Current State':<15}\")\nprint(\"-\" * 62)\nfor name, data in gates.items():\n    cur_state = data[\"state_A\"] if active_state == \"A\" else data[\"state_B\"]\n    print(f\"{name:<20} | {data['location']:<20} | {cur_state:<15}\")\n\n# Output empty array of buttons as requested by the harness for automated overworld tool behavior\nprint(json.dumps([]))\n",
     "history": [
       {
         "commit_message": "Defining the b1f_matrix_solver custom tool to track B1F gate states programmatically as requested by overwatch.",
@@ -59,6 +59,11 @@
         "commit_message": "Fix logic bug in b1f_matrix_solver that caused active_state parameter to be ignored when sys.argv[1] was empty",
         "timestamp": "2026-06-15T13:29:38.091Z",
         "action_counter": 93633
+      },
+      {
+        "commit_message": "Redefining b1f_matrix_solver tool to replace the incorrect West Gate at (1,17) with the true Northwest Gate at (9,7) and update its gate states under active State A and State B.",
+        "timestamp": "2026-06-15T14:35:38.782Z",
+        "action_counter": 93783
       }
     ]
   },
