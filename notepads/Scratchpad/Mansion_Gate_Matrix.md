@@ -17,6 +17,7 @@ Active State: **State B (Statue 1 Toggled)** (Toggled on Turn 78020)
 | :--- | :--- | :--- | :--- |
 | **Gate B1F-West** (B1F, (1, 17)) | **CLOSED** (Impassable) | **CLOSED** (Impassable) | State A: Verified CLOSED on Turn 93341 (bump). State B: Verified CLOSED on Turn 93399 (bump). |
 | **Gate B1F-Center** (B1F, (13, 22)-(13, 23)) | **CLOSED** (Impassable) | **OPEN** (Passable) | State A: Verified CLOSED on Turn 93354 by standing at (12, 22) facing Right and pressing Right (bump). State B: Verified OPEN on Turn 93385 by walking Left 2 steps from (14, 22) through (13, 22) to (12, 22). |
+| **Gate B1F-East** (B1F, (26, 17)-(27, 17)) | **CLOSED** (Impassable) | **OPEN** (Passable) | State A: Visually CLOSED (TYPE_2889). State B: Verified OPEN on Turn 93446 by walking Up through it from (26, 18) to (26, 17). |
 | **Wall/Blockage** (B1F, (9, 14)) | **CLOSED** (Impassable) | **CLOSED** (Impassable) | State A: Verified CLOSED on Turn 93311 (bump). State B: Verified CLOSED on Turn 93206 (bump). Permanent wall structure under both states. |
 
 ## 2F East Mewtwo Statue 3 Discovery (Turn 78407)
