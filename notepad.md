@@ -7625,7 +7625,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Turn 93081**: Located at (22, 10) facing Up. We see a Burglar NPC sprite at (27, 11) on the eastern side.
 - **Turn 93132**: Walked from (10, 14) Right 6 steps to (16, 14) on Row 14 to bypass the Column 13 wall.
 
-## Precise Walkthrough Path to Secret Key (Turn 93147 Audit)
+## Precise Walkthrough Path to TM14 Blizzard (Turn 93147 Audit)
 - **Starting Position**: (8, 18) facing Down.
 - **Active State**: State A (Default).
 - **Item Ball (TM14 - Blizzard)**: (19, 25).
