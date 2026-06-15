@@ -7,13 +7,14 @@
   - Statues toggle these states: when one type opens, the other type closes.
 - **Floors**:
   - **1F**: Entry floor. Contains stairs to 2F.
-    - Descent Route (1F West to B1F via 3F Pit under State A):
+    - Descent Route (1F West to B1F via 3F Pit - Verified True Walkthrough):
       - Step 1: Enter Cinnabar Mansion 1F. We are on 1F West at (5, 27).
-      - Step 2: Walk straight UP Column 5 to (5, 10) and take the stairs to 2F.
-      - Step 3: Land on 2F West at (5, 11). Walk Right to (7, 11), Up to (7, 10), and take the stairs to 3F.
-      - Step 4: Land on 3F West South at (7, 11). Walk Right 8 steps along Row 11 to cross through the open Gate 15 at (15, 11) to reach (16, 11) on 3F East South.
-      - Step 5: Walk Down 3 steps along Column 16 to (16, 14) and drop down the giant pit!
-      - Step 6: Land on 1F East Southeast at (16, 14). Walk Down 6 steps along Column 16 to (16, 20), Right 5 steps along Row 20 to (21, 20), and Down 3 steps along Column 21 to (21, 23). Take the stairs down to B1F.
+      - Step 2: Walk straight UP Column 5 to (5, 10) and take the stairs to 2F West.
+      - Step 3: Land on 2F West at (5, 11). Walk to Mewtwo Statue 2 at (2, 11) and toggle the switch to State B (opens Gate 6 at (9, 4)-(9, 5) on 2F West).
+      - Step 4: Walk to (9, 4) or (9, 5) on 2F West and cross through the open Gate 6 to the northwest stairs at (6, 1). Take the stairs up to 3F West North.
+      - Step 5: Land on 3F West North at (6, 1). Walk to the Mewtwo Statue at (10, 5) (standing at (10, 6)) and toggle the switch to State A (opens the partition gap at (15, 5)).
+      - Step 6: Walk through the open gap at (15, 5) to 3F East North. Walk South on 3F East to Column 16 Row 14 (16, 14) and drop down the giant pit!
+      - Step 7: Land on 1F East Southeast at (16, 14). Walk Down 6 steps along Column 16 to (16, 20), Right 5 steps along Row 20 to (21, 20), and Down 3 steps along Column 21 to (21, 23). Take the stairs down to B1F.
     - Southeast Room Layout: Bounded by solid wall (Column 11) and partition. Row 20 provides an open horizontal hallway (Columns 12 to 21) connecting the left and right halves. A solid wall divides the Southeast room vertically, but the southern corridor at Row 20-22 is open. The staircase down to B1F is at (21, 23). An item ball is at (18, 21).
     - Past Detour: Under active State B, Gate 1 is open. However, entering from Gate 1 to the Southeast room is blocked by a solid wall (Column 24) on Row 19-23, and Gate 4 is closed. The B1F stairs are completely unreachable on foot from Gate 1 under State B. Falling from 3F East under State A is the only viable path.
   - **2F**: Second floor. Contains stairs to 1F, stairs to 3F, and several balconies/falls.
