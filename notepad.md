@@ -7713,6 +7713,24 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
        - Let's execute the movement: Down 4, Right 6, Down 4.
        - Buttons: Down, Down, Down, Down, Right, Right, Right, Right, Right, Right, Down, Down, Down, Down.
        - Let's chunk this movement carefully! We don't want to overshoot or bump.
-       - Let's first walk Down 4 steps to (12, 22) and see what's there.
+
+## Route back to West B1F under Active State A (Turn 93634)
+- **Objective**: Navigate back to B1F West to access the newly opened West Gate at (1, 17) and retrieve the Secret Key.
+- **Current Position**: (17, 22), facing Up.
+- **Active State**: State A.
+- **Routing Constraints & Obstacles**:
+  - Center Gate at (13, 22)-(13, 23) is now CLOSED under State A. We cannot walk Left through Row 22.
+  - The table at (16, 20)-(17, 21) is solid rubble of TYPE_2889 and blocks Column 16 and Column 17 on Rows 20 and 21. We must detour around it to go north.
+  - Specimen tanks of TYPE_2889 block Columns 14, 15, 18, 19 on Rows 16 and 17.
+  - The walkway at Columns 16 and 17 on Rows 16 and 17 is completely open.
+- **Detoured Zig-Zag Path**:
+  1. We are at (17, 22). Move Right 1 step to (18, 22) to bypass the table.
+  2. Move Up 4 steps to (18, 18) (Row 18 is open all the way).
+  3. Move Left 1 step to (17, 18) (aligning with the open walkway on Column 17).
+  4. Move Up 4 steps to (17, 14) (Row 14 is open).
+  5. Move Left to reach B1F West. From (17, 14), we can walk Left to Column 8 or 10, then Down to Row 18.
+  6. Walk all the way Left to Column 1, then Up to the open West Gate at (1, 17).
+- **Step-by-step Execution Log**:
+  - **Turn 93634**: Ready at (17, 22) facing Up. We will execute Chunk 1 (Right 1, Up 4) to reach (18, 18).
 
 <hr>
