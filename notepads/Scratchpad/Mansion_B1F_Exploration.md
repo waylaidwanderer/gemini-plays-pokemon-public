@@ -31,3 +31,5 @@ This plan is 100% mathematically, layout-wise, and conceptually verified against
 - Next Step: Walk west along Row 4 to Column 6 (6, 4), and enter Cinnabar Mansion at (6, 3).
 - Turn 94416: Successfully navigated Row 5 to (12, 5). Met a wandering NPC (cooltrainer/lass) at (10, 5).
 - Plan: Stun the NPC at (10, 5), then walk Left 1 to (11, 5), Up 1 to (11, 4), Left 5 to (6, 4), and Up 1 to (6, 3) to warp into Cinnabar Mansion 1F.
+- Turn 94464-94466: Backtracked down to 2F West, currently standing at (7, 10).
+- Next Step: Walk to Mewtwo Statue 2 at (2, 11) via (2, 12), and toggle global state to State B.
