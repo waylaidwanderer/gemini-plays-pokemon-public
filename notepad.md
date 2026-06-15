@@ -7645,5 +7645,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Turn 93210**: Confirmed Column 9 Row 14 is solid wall under State B. Navigated south to Row 18, then west to Column 1 to test the west gate at (1, 17) under active State B, proving it is closed.
 - **Turn 93253**: Successfully interacted with the Mewtwo Statue at (18, 25) to toggle the global gate state back to **State A**.
 - **Turn 93263**: Moved Left to (17, 26) to bypass the NPC at (16, 23) and begin walking north to the west side to test the Row 17 gate at (1, 17) under State A.
+- **Turn 93311**: Standing at (10, 14) facing Left under active **State A**. Pressed Left to test the passability of (9, 14) on foot.
+  - **Result**: Direct collision bump (0 tiles visited), remaining at (10, 14).
+  - **Conclusion**: Column 9 Row 14 is 100% solid and CLOSED/impassable under active State A as well. It is a permanent wall structure under both states.
 
 <hr>
