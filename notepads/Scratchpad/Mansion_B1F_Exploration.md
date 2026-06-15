@@ -135,3 +135,12 @@
   11. Now that State A is active, the Northwest Gate at (9, 7) is OPEN.
   12. Walk west along Row 7, pass through (9, 7) into the Northwest Room, and retrieve the Secret Key!
   13. Use an Escape Rope to exit the Mansion instantly.
+
+## On-Foot Pathway to Central Hallway to test Column 9 Rows 11-13 under State A:
+- **Starting Position**: (10, 7) facing Left under active State A.
+- **Goal**: Navigate to the central hallway at Columns 10-12, Rows 11-13, to test Column 9 passability on foot under active State A.
+- **Step-by-Step Path**:
+  1. Walk Right 16 steps along Row 7 to reach (26, 7).
+  2. Walk Down 7 steps along Column 26 to reach (26, 14).
+  3. Walk Left 16 steps along Row 14 to reach (10, 14) (bypassing the closed East Gate (26, 17) and solid Row 8 walls).
+  4. From (10, 14), we can walk to (10, 11), (10, 12), or (10, 13) and test Column 9 passability under active State A.
