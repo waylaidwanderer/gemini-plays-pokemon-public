@@ -11,11 +11,12 @@ No complex toggles on 2F/3F are required. We operate strictly by entering Cinnab
    - Walk to Mewtwo Statue 2 at (2, 11) and toggle the switch to State B (opens Gate 6 at (9, 4)-(9, 5) on 2F West).
    - Walk to (9, 4) or (9, 5) on 2F West and cross through the open Gate 6 to the northwest stairs at (6, 1). Take the stairs up to 3F West North.
    - Land on 3F West North (Map 0_215) at (6, 1).
-   - Walk to the Mewtwo Statue at (10, 5) (standing at (10, 6)) and toggle the switch to State A (opens the partition gap at (15, 5) and Gate 19 at (19, 9) on 3F East).
-   - Walk through the open gap at (15, 5) to 3F East North.
-   - Walk East to Column 19 Row 5 (19, 5), then walk South along Column 19 through the open Gate at (19, 9) and straight into the giant pit at (19, 14)!
-   - Land on 1F East Southeast at (19, 14).
-   - Walk Down 6 steps along Column 19 (or navigate) to Row 20, then walk to (21, 23) and descend to B1F.
+   - Walk to the Mewtwo Statue at (10, 5) (standing at (10, 6)) and toggle the switch to State A (closes the partition gap at (15, 5) but opens Gate 15 at Column 15 Row 10/11).
+   - Walk East to Column 14 Row 6 (14, 6), then walk South along Column 14 to (14, 11).
+   - Walk East through the open Gate 15 at (15, 11) to Column 16 Row 11 (16, 11).
+   - Walk South along Column 16 straight into the giant pit at (16, 14) and fall down to 1F East Southeast!
+   - Land on 1F East Southeast at (16, 14).
+   - Walk Down 6 steps along Column 16 (or navigate) to Row 20, then walk to (21, 23) and descend to B1F.
 
 2. Toggle to State B on B1F & Retrieve Secret Key:
    - Arrive on B1F near (23, 22) under State A.
