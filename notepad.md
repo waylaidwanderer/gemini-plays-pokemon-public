@@ -7725,7 +7725,10 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Step-by-Step Path**:
   1. Walk Right 16 steps along Row 7 to reach (26, 7).
   2. Walk Down 7 steps along Column 26 to reach (26, 14).
-  3. Walk Left 16 steps along Row 14 to reach (10, 14) (bypassing the closed East Gate (26, 17) and solid Row 8 walls).
-  4. From (10, 14), we can walk to (10, 11), (10, 12), or (10, 13) and test Column 9 passability under active State A.
+  3. Walk Down 4 steps along Column 26 to reach (26, 18).
+  4. Walk Left 5 steps along Row 18 to reach (21, 18) (crosses open Column 25 at Row 18).
+  5. Walk Up 4 steps along Column 21 to reach (21, 14).
+  6. Walk Left 11 steps along Row 14 to reach (10, 14) (crosses open Column 20 at Row 14).
+  7. From (10, 14), we can walk to (10, 11), (10, 12), or (10, 13) and test Column 9 passability under active State A.
 
 <hr>
