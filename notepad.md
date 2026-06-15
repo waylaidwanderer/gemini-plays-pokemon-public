@@ -7604,7 +7604,7 @@ No complex toggles on 2F/3F are required. We operate strictly by entering Cinnab
 - Walk East to Column 14 Row 6 (14, 6), then walk South along Column 14 to (14, 11).
    - Walk East through Gate 15 at (15, 11) to Column 16 Row 11 (16, 11). Note: Gate 15 was assumed closed on Turn 94647 due to an aborted movement sequence from a wild encounter, but was actually open all along.
    - Walk South along Column 16 straight into the giant pit at (16, 14) and fall down to 1F East Southeast!
-   - Land on 1F East Southeast (hypothesized landing coordinates: (16, 14), to be verified upon falling).
+   - Land on 1F East Southeast at (16, 14) (physically verified on Turn 94686).
    - Walk Down 6 steps along Column 16 (or navigate) to Row 20, then walk to (21, 23) and descend to B1F.
 
 2. Toggle to State B on B1F & Retrieve Secret Key:
