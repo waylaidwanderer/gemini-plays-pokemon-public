@@ -1,7 +1,7 @@
 # Pokémon Mansion B1F Basement Exploration Records
 
 ## Switch & Gate States (Under active State A)
-- **Active State**: State A (Default) is active.
+- **Active State**: State A (Default) is active. Toggled functional Mewtwo Statue back to active State A on Turn 93624, opening West Gate (1, 17) and closing Center Gate (13, 22).
 - **Starting Coordinates**: (23, 22) - landing tile from 1F Southeast stairs.
 - **Observed Landmarks**:
   - Column 20: Thick solid vertical partition wall of TYPE_2889 extending from Row 18 to at least Row 26.
