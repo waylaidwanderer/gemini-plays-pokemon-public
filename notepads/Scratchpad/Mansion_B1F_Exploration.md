@@ -38,3 +38,8 @@ This plan is 100% mathematically, layout-wise, and conceptually verified against
   - Walk Left to Column 5 and Walk North through the open Row 17 West Gate into the Northwest Room.
   - Collect the Secret Key from the table!
   - Use Escape Rope to exit instantly.
+
+## B1F Partition Wall Row 15 Column 20 Crossover Test under State A
+- **Hypothesis**: The vertical partition wall on B1F at Column 20 has an open, passable gap at Row 15 (20, 15) under active State A.
+- **Testing Method**: Walk to (23, 15), walk Left horizontally through (22, 15) and (21, 15), and attempt to step onto (20, 15). If successful, we will cross to the western side of the partition wall and arrive at (19, 15).
+- **Result**: [ ] Untested (to be verified upon foot exploration).
