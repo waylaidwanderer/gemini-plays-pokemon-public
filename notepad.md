@@ -7741,5 +7741,14 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - **Turn 93975**: Stood at (10, 12) facing Left under active State A. Pressed Left to attempt to step Left onto (9, 12).
   - **Result**: Direct collision bump (0 tiles visited), remaining at (10, 12).
   - **Conclusion**: Column 9 Row 12 is 100% solid and CLOSED/impassable under active State A on foot.
+- **Test 3 (Row 11)**:
+  - **Turn 93977**: Stood at (10, 11) facing Left under active State A. Pressed Left to attempt to step Left onto (9, 11).
+  - **Result**: Direct collision bump (0 tiles visited), remaining at (10, 11).
+  - **Conclusion**: Column 9 Row 11 is 100% solid and CLOSED/impassable under active State A on foot.
+
+## Final Conclusion of Column 9 Passability Audit:
+- All tested rows along Column 9 (Rows 7, 11, 12, 13, 14) are 100% solid and CLOSED/impassable under BOTH active State A and active State B on foot.
+- This means Column 9 is a permanent, impenetrable wall separating B1F West North from the central corridor.
+- The ONLY possible way to enter the Northwest Room from the southwest room must be through Row 17 under active State B! We have already systematically proven that Rows 1-7 on Columns 1-7 on Row 17 are 100% closed under State A. Therefore, we must toggle to active State B at (18, 25), navigate to the southwest room, and systematically test Row 17 Columns 2-7 to find the open gate under active State B!
 
 <hr>
