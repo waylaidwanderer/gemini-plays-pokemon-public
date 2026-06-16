@@ -7253,7 +7253,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - Traveled West on Row 10 to (20, 10), then North on Column 18 to (18, 4).
   - Traveled East on Row 4 to (24, 4).
   - Traveled North to Row 2, then East along Row 2 to (29, 2), then to (34, 2) (all passable tiles of TYPE_3fe2).
-  - Standing at (34, 2). Investigating Column 34 down-traversal to see if we can go past the Gym and access (32, 8).
+  - Walked South along Column 34 to Row 8, then West along Row 8, and entered the Gym at (32, 7) facing Up.
 
 ## Gym Re-Entry & Conveyor Loop (Turns 96329-96361)
 - **Turn 96329**: In Viridian City, jumped south over the ledge at (32, 9).
