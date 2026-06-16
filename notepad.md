@@ -7201,8 +7201,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Current Position: (19, 12) on Map 0_1.
 - Target: Viridian Gym in the Northeast corner of the city.
 - Path Strategy:
-  - Step 1: Move Right 2 steps to (21, 12) to align with the building door at (21, 9).
-  - Step 2: Move Up 2 steps to (21, 10) to stand directly in front of the building entrance at (21, 9).
-  - Step 3: Enter the building at (21, 9) to see if it is the Gym!
+  - Step 1: Walk Right 12 steps along Row 12 to reach Column 31 (31, 12).
+  - Step 2: Investigate the northeastern corner around Columns 28-35 and Rows 0-10.
 
 <hr>
