@@ -7233,5 +7233,17 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - A trainer (Tamer/Cooltrainer sprite) is located at (13, 5) facing Up.
 - Solid walls of TYPE_2889 block vertical traversal at (11, 3), (12, 3), (13, 3), (14, 3), (15, 3).
 - (11, 2) has a Down-pointing conveyor / arrow tile of TYPE_64a2.
+## Spinner/Conveyor Test Campaign (Turn 96085)
+- **Objective**: Identify the direction and exact behavior of conveyor tiles near the northeast.
+- **Current Layout Observation**:
+  - Stand: (18, 1) | Normal floor.
+  - Right: (19, 1) | TYPE_55d0. Red tile with red/orange arrows pointing LEFT. (Confirmed in historical logs to slide player LEFT to column 11).
+  - Down: (18, 2) | TYPE_55cd. Red tile with red/orange arrows pointing DOWN.
+  - Down-Left: (17, 2) | TYPE_55d4. Red tile with orange solid squares.
+  - Down-Right: (19, 2) | TYPE_55d4. Red tile with orange solid squares.
+  - Below (18, 2): (18, 3) | TYPE_3fe2. Normal floor.
+  - Below (19, 2): (19, 3) | TYPE_3fe2. Normal floor.
+- **Action Plan**:
+  - Test the Down conveyor at (18, 2) by stepping DOWN from (18, 1). This should slide us DOWN to (18, 3) or (18, 4) and grant access to the southern room.
 
 <hr>
