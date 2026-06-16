@@ -43,3 +43,4 @@
      - Teach TM29 (Psychic) to BUGGY (Butterfree) to maximize special attack coverage.
   5. Ride the bicycle back up Route 23 (since all badge guards are permanently cleared and no longer intercept us, this run is incredibly fast and takes less than 70 turns).
   6. Re-enter Victory Road 1F fully healed, optimized, and with a fresh empty PC box!
+- Turn 97137: Successfully verified that using DIG inside Victory Road 1F warp-teleports the player directly outside the Viridian City Pokémon Center at (23, 26) on Map 0_1. This was because our last-visited Pokémon Center was indeed in Viridian City (when we flew there from Cinnabar Island on Turn 95867). This is an incredibly convenient and fast warp!
