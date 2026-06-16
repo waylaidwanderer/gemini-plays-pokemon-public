@@ -20,3 +20,9 @@
 - Plan: Press Up, Up, Up, Up.
 - Turn 96921: Surfing at (10, 88). Marsh Badge guard is visible at (8, 85) on the water. We will move Up 3 steps on Column 10 to (10, 85) to approach the checkpoint and trigger the badge check.
 - Plan: Press Up, Up, Up.
+- Turn 96926: Standing at (10, 85). Marsh Badge check passed successfully.
+- Path forward: Surf North and navigate around the wall structure at Rows 81-83, Columns 8-14 (TYPE_2889).
+  - Step 1: Up 1 to (10, 84).
+  - Step 2: Left 4 to (6, 84) (bypassing the guard at 8, 85).
+  - Step 3: Up 3 on Column 6 to (6, 81).
+- Plan: Press Up, Left, Left, Left, Left, Up, Up, Up.
