@@ -95,6 +95,9 @@
 - **Verified Fact**: In Generation 1, cuttable bushes (TYPE_5519) are not permanently cleared. Whenever the player transitions maps, warps, uses DIG/FLY, or reloads the game, all cut bushes in the overworld respawn and must be cut again using the CUT move to be passable. This was verified on Turn 45601 when returning to Fuchsia City and finding the (18, 19) bush respawned.
 
 ## Gym Badge Mechanics (Verified Records)
+- **Boulder Badge**: Obtained from Brock (Pewter City).
+  - **Overworld Ability**: Unlocks the use of **HM05 FLASH** outside of battle.
+  - **Stat Boost**: Increases Pokémon's Attack in battle.
 - **Cascade Badge**: Obtained from Misty (Cerulean City).
   - **Overworld Ability**: Unlocks the use of **HM01 CUT** outside of battle.
   - **Obedience Level**: Traded Pokémon up to **Level 30** will obey the player.
