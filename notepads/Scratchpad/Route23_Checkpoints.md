@@ -17,3 +17,5 @@
 - Turn 96932: Reached (6, 81) facing Up. The path north on Column 6 is completely open water. Cleaning up the scratchpad.
 - Turn 96935: Standing at (6, 81) facing Up on the water. The path north on Columns 2-7 is open water of TYPE_4e8c. Moving 8 steps Up on Column 6 to reach (6, 73).
 - Plan: Press Up, Up, Up, Up, Up, Up, Up, Up.
+- Turn 96940: We are surfing at (6, 73). The path to land on the grass bank is: Up to (6, 72), Right 2 to (8, 72), and Up to (8, 71) (which lands us on the green grass of TYPE_3fe2).
+- Plan: Press Up, Right, Right, Up.
