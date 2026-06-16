@@ -7272,5 +7272,6 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - Column 10 is a clear vertical corridor from Row 1 to Row 5 (all TYPE_3fe2).
   - Row 2 Column 6-10 is a clear, open horizontal corridor (all TYPE_3fe2) connecting the eastern and western halves of the Gym.
 - **Gym Leader Giovanni**: Standing at (2, 1) in the NW room (Columns 1-4, Rows 1-4). Challenged him from (2, 2) facing Up on Turn 96417.
+- **Turn 96445**: Giovanni has disbanded Team Rocket and vanished from the Gym! (2, 1) is now empty.
 
 <hr>
