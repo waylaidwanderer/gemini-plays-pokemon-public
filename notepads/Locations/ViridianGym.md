@@ -33,3 +33,7 @@
   - Below (19, 2): (19, 3) | TYPE_3fe2. Normal floor.
 - **Action Plan**:
   - Test the Down conveyor at (18, 2) by stepping DOWN from (18, 1). This should slide us DOWN to (18, 3) or (18, 4) and grant access to the southern room.
+- **Results & Empirical Findings (Turn 96086)**:
+  - **Action**: Stepped Down from (18, 1) onto (18, 2).
+  - **Result**: The player slid continuously DOWN from (18, 2) all the way to (18, 11).
+  - **Conclusion**: The initial hypothesis of landing at (18, 3) or (18, 4) is DISPROVEN. The (18, 2) conveyor tile is a continuous vertical slide that forces traversal through the entire column all the way to (18, 11).
