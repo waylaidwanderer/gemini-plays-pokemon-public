@@ -481,12 +481,6 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - A central table/counter is located at (3,3)-(4,4).
 - A young green-shirt trainer is at (1, 2) and a red bird (Pidgey sprite) walks around the room.
 
-## Viridian Gym Access & Leader Status
-- **Turn 95868**: Arrived in Viridian City to challenge the Viridian Gym.
-- **Turn 95997**: Spoke to the old man NPC standing at (30, 8) outside the Gym entrance.
-  - Dialogue: "VIRIDIAN GYM's LEADER returned!"
-  - This confirms that Gym Leader Giovanni has returned, and the real Gym door at (32, 7) is now unlocked.
-
 <hr>
 
 <h1><code>Locations/Route3</code></h1>
