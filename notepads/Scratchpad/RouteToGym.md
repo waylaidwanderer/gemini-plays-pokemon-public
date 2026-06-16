@@ -1,9 +1,6 @@
 # Live Tracking: Route to Viridian City Gym
-- Current Position: (26, 14) on Map 0_1.
+- Current Position: (26, 20) on Map 0_1.
 - Target: Viridian Gym in the Northeast corner of the city.
 - Path Strategy:
-  - Step 1: Moved Right 3 steps to (26, 26).
-  - Step 2: Moved Up 4 steps to (26, 22).
-  - Step 3: Moved Up 4 steps to (26, 18).
-  - Step 4: Moved Up 4 steps to (26, 14).
-  - Step 5: Move Right 5 steps to (31, 14) to investigate the northeast corner.
+  - Step 1: Walk Left 6 steps to (20, 20) to reach the main central road of Viridian City.
+  - Step 2: From (20, 20), check the road going north and trace it to the gym area.
