@@ -7163,5 +7163,9 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - Question: "CATERPIE evolves into BUTTERFREE?"
   - Answer: YES (Correct)
   - Result: Opened the gate at (16, 6) on Turn 95671.
+- **Quiz 2**: at (10, 1) (interacted from (10, 2) facing Up)
+  - Question: "There are 9 certified POKéMON LEAGUE BADGEs?"
+  - Answer: NO (Correct)
+  - Result: Opened the gate at (12, 6)-(13, 6) on Turn 95703.
 
 <hr>
