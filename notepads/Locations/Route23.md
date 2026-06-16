@@ -14,3 +14,4 @@
 - A horizontal wall/fence structure of TYPE_2889 blocks vertical movement on Row 131, but has an open grassy gap of TYPE_3fe2 on Columns 14-15.
 - Walked Right to Column 14, North past Row 131 to Row 124, and then Left back to Column 8 to bypass the Row 131 barrier.
 - Columns 8 and 9 are open to walk North up to the Thunder Badge guard.
+- Row 43 is a solid, impassable horizontal wall of TYPE_2889 spanning Columns 12 to 19, and the eastern edge (Column 20+) is blocked by dense trees, making the eastern side of Row 44 a complete dead end. Verified on Turns 97004-97022.
