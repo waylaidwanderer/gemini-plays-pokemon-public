@@ -10,3 +10,4 @@
 - Vertical corridor on Columns 6, 7, 8, 9 is passable from Row 139 to Row 132.
 - A horizontal wall/fence structure of TYPE_2889 blocks vertical movement on Row 131. This structure features Pokémon statues at (4, 129)-(4, 131) and (9, 129)-(9, 131).
 - We must find a way past the Row 131 barrier.
+- Turn 96850: Observed that the Row 131 barrier is open on Columns 14 and 15 (grassy path of TYPE_3fe2). Proceeding to walk Right and then North through this gap to see if a badge check or guard is present.
