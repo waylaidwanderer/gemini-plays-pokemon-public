@@ -26,3 +26,5 @@
 - Plan: Press Right, Right, Up, Up, Up, Up.
 - Turn 96946: Standing at (10, 67) on the bicycle facing Up. Column 10 is completely open grass up to Row 63. Moving 4 steps Up to reach (10, 63).
 - Plan: Press Up, Up, Up, Up.
+- Turn 96950: Standing at (10, 63) facing Up on the bicycle. Preparing to walk 4 steps Up on Column 10 to reach (10, 59), going through the tall grass at Rows 60 and 61.
+- Plan: Press Up, Up, Up, Up.
