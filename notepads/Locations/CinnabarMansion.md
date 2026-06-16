@@ -191,7 +191,7 @@
 - **Switches & Gates**:
   - Mewtwo Statue (Southwest): (18, 25) | State: State A/B functional toggle.
   - Mewtwo Statue (Northeast): (20, 3) | State: State A/B functional toggle. Toggling to State A opens Gate (9, 7).
-  - Mewtwo Statue (Northwest): (24, 3) | State: State A/B functional toggle.
+  - Specimen Tank (Northeast): (24, 3) | State: Purely Decorative Specimen Tank (No Switch) (Verified Turn 95204).
   - Gate B1F-Center: (13, 22)-(13, 23) | State: CLOSED under State A, OPEN under State B.
   - Gate B1F-East: (26, 17)-(27, 17) | State: CLOSED under State A, OPEN under State B.
   - Gate B1F-Northwest: (9, 7) | State: OPEN under State A, CLOSED under State B. This is the entrance gate to the Secret Key room.
