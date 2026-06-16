@@ -1,7 +1,7 @@
 # Live Tracking: Route to Viridian City Gym
-- Current Position: (20, 20) on Map 0_1.
+- Current Position: (19, 12) on Map 0_1.
 - Target: Viridian Gym in the Northeast corner of the city.
 - Path Strategy:
-  - Step 1: Walk Left 1 step to (19, 20) to align with the open northbound Column 19.
-  - Step 2: Move Up 4 steps along Column 19 to (19, 16) to head north.
-  - Step 3: From (19, 16), assess the northern street layout to locate the Gym entrance.
+  - Step 1: Move Right 2 steps to (21, 12) to align with the building door at (21, 9).
+  - Step 2: Move Up 2 steps to (21, 10) to stand directly in front of the building entrance at (21, 9).
+  - Step 3: Enter the building at (21, 9) to see if it is the Gym!
