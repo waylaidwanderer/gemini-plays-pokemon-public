@@ -7444,5 +7444,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Plan: Press Up, Up, Up, Up.
 - Turn 96885: Standing at (10, 107) facing Up on the Bicycle. The water is visible at Row 103. There is an NPC at (12, 105). We will walk 3 steps Up on Column 10 to reach (10, 104) on the water's edge.
 - Plan: Press Up, Up, Up.
+- Turn 96891: Standing at (10, 105) facing Up. The guard at (12, 105) checked and approved our Rainbow Badge. Moving Up 1 step to (10, 104) to reach the water's edge at (10, 103).
+- Plan: Press Up.
 
 <hr>
