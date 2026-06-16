@@ -7424,7 +7424,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 ## Key Checkpoints & Badge Guards:
 - **Boulder Badge Check (Map 0_193 - Gatehouse)**: Passed on Turn 96822. Checked by youngster NPC at (6, 2).
 - **Cascade Badge Check (Map 0_34 - Route 23)**: Passed on Turn 96830. Checked by Hiker NPC at (8, 135). Map marker placed at (8, 135).
-- **Thunder Badge Check**: Active at Y=119. Checked by guard NPC at (8, 119) (visual sprite center).
+- **Thunder Badge Check**: Active at Y=119. Checked by guard NPC at (8, 119) (visual sprite center). Map marker placed at (8, 118).
+- **Rainbow Badge Check**: Passed on Turn 96889. Checked by guard NPC at (12, 105). Map marker placed at (12, 105).
 
 ## Pathing & Layout Details:
 - Vertical corridor on Columns 6, 7, 8, 9 is passable from Row 139 to Row 132.
