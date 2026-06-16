@@ -7444,5 +7444,7 @@ All checkpoints on Route 22 have been successfully completed and verified. See L
   - Step 2: Right to (10, 71)
   - Step 3: Up 4 steps on Column 10 to (10, 67)
 - Plan: Press Right, Right, Up, Up, Up, Up.
+- Turn 96946: Standing at (10, 67) on the bicycle facing Up. Column 10 is completely open grass up to Row 63. Moving 4 steps Up to reach (10, 63).
+- Plan: Press Up, Up, Up, Up.
 
 <hr>
