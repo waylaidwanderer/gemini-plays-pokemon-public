@@ -7420,47 +7420,23 @@ All checkpoints on Route 22 have been successfully completed and verified. See L
 
 <h1><code>Scratchpad/Route23_Checkpoints</code></h1>
 
-- Turn 96909: Arrived at (10, 96). The Soul Badge guard at (11, 96) intercepted us on the water. Textbox displayed: "You can pass here only if you have". Pressing A to advance the text.
-- Turn 96915: Soul Badge check successfully passed. Standing at (10, 96) on the water. The guard is at (11, 96).
-- Path forward: Surf North on Column 10.
-  - (10, 96) -> (10, 95) -> (10, 94) -> (10, 93) -> (10, 92)
-- Plan: Press Up, Up, Up, Up.
-- Verification: Observe the new map tiles revealed north of Row 92 to identify the landing shore and the next badge checkpoint.
-- Turn 96919: Mid-point self-assessment and reflection completed. No errors detected. Grassy island on Columns 8-9 bypassed as water is completely open north on Column 10. Moving 4 steps Up to (10, 88).
-- Plan: Press Up, Up, Up, Up.
-- Turn 96921: Surfing at (10, 88). Marsh Badge guard is visible at (8, 85) on the water. We will move Up 3 steps on Column 10 to (10, 85) to approach the checkpoint and trigger the badge check.
-- Plan: Press Up, Up, Up.
-- Turn 96926: Standing at (10, 85). Marsh Badge check passed successfully.
-- Path forward: Surf North and navigate around the wall structure at Rows 81-83, Columns 8-14 (TYPE_2889).
-  - Step 1: Up 1 to (10, 84).
-  - Step 2: Left 4 to (6, 84) (bypassing the guard at 8, 85).
-  - Step 3: Up 3 on Column 6 to (6, 81).
-- Plan: Press Up, Left, Left, Left, Left, Up, Up, Up.
-- Turn 96932: Reached (6, 81) facing Up. The path north on Column 6 is completely open water. Cleaning up the scratchpad.
-- Turn 96935: Standing at (6, 81) facing Up on the water. The path north on Columns 2-7 is open water of TYPE_4e8c. Moving 8 steps Up on Column 6 to reach (6, 73).
-- Plan: Press Up, Up, Up, Up, Up, Up, Up, Up.
-- Turn 96940: We are surfing at (6, 73). The path to land on the grass bank is: Up to (6, 72), Right 2 to (8, 72), and Up to (8, 71) (which lands us on the green grass of TYPE_3fe2).
-- Plan: Press Up, Right, Right, Up.
-- Turn 96943: Standing on land at (8, 71) facing Up. The path north contains tall grass of TYPE_fed7 at (8, 67) and (9, 67). To bypass this tall grass, we will walk Right to Column 10 (which contains standard short grass of TYPE_3fe2) and then walk North.
-  - Step 1: Right to (9, 71)
-  - Step 2: Right to (10, 71)
-  - Step 3: Up 4 steps on Column 10 to (10, 67)
-- Plan: Press Right, Right, Up, Up, Up, Up.
-- Turn 96946: Standing at (10, 67) on the bicycle facing Up. Column 10 is completely open grass up to Row 63. Moving 4 steps Up to reach (10, 63).
-- Plan: Press Up, Up, Up, Up.
-- Turn 96950: Standing at (10, 63) facing Up on the bicycle. Preparing to walk 4 steps Up on Column 10 to reach (10, 59), going through the tall grass at Rows 60 and 61.
-- Plan: Press Up, Up, Up, Up.
-- Turn 96953: Standing at (10, 59) facing Up on the bicycle. The guard for the Volcano Badge check is standing at (10, 56) facing Down. To trigger his check, we will walk Up 2 steps to reach (10, 57).
-- Plan: Press Up, Up.
-- Turn 96956: Standing at (10, 57) facing Up on the bicycle. The guard is at (10, 56) directly above us. Pressing A to talk to the guard to trigger the Volcano Badge check.
-- Plan: Press A.
-- Turn 96964: Volcano Badge check successfully verified and completed on Turn 96957. Standing at (10, 57). Bypassing the guard by moving Right to Column 12 and then heading North.
-  - Path: Right to (11, 57), Right to (12, 57), Up 4 steps on Column 12 to (12, 53).
-- Plan: Press Right, Right, Up, Up, Up, Up.
-- Turn 96967: Standing at (12, 53) facing Up. Creating Victory Road navigation scratchpad as suggested. Moving North on Column 12 to (12, 49) to see what is further ahead.
-- Plan: Press Up, Up, Up, Up.
-- Turn 96974: Standing at (12, 49) facing Up on the bicycle. The final guard (Earth Badge) is at (11, 50). Moving north 4 steps on Column 12 to reach (12, 45).
-- Plan: Press Up, Up, Up, Up.
+# Route 23 Checkpoints
+## Chronological Investigation Log
+
+### The Eastern Dead-End Discovery
+- **Hypothesis**: Walking east along Row 44 from (12, 44) will bypass the central rock barrier and reveal a pathway north.
+- **Methodology & Test (Turns 97003-97019)**:
+  - Walked east 5 steps from (12, 44) to (17, 44).
+  - Observed the tiles in Columns 13 to 19.
+  - **Results**: Row 43 is a solid rock wall of TYPE_2889 extending across all Columns (13 to 19). The eastern edge (Column 20+) is blocked by dense forest trees. There is no pathway north on the east side of Row 44.
+  - **Conclusion**: The eastern side is a complete dead end. We must backtrack to the western side of the map.
+  - **Backtracking**: Returned to (12, 48) on Turn 97022 by moving Left 5, Down 4.
+
+### The Western Pathway Investigation
+- **Hypothesis**: The western side of the map (Columns 0 to 9) near Row 48 contains the shoreline to a body of water that can be surfed north to bypass the Row 43 rock wall.
+- **Methodology (Active)**:
+  - Walk West along Row 48 from (12, 48) to check the left side of the map and find the shoreline.
+  - **Turn 97026**: Initiating movement. Row 48 is verified passable (TYPE_3fe2) from Column 12 down to Column 8.
 
 <hr>
 
