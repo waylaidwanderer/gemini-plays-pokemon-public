@@ -7413,18 +7413,6 @@ All checkpoints on Route 22 have been successfully completed and verified. See L
 
 <h1><code>Scratchpad/Route23_Checkpoints</code></h1>
 
-- Turn 96876: Standing at (8, 120) facing Up. The guard at (8, 118) is checked and let us through. Since (8, 118) is occupied by the guard, we will route: Up to (8, 119), Right to (9, 119), and then North on Column 9 to Y=115.
-- Plan: Press Up, Right, Up, Up, Up, Up.
-- Turn 96878: Standing at (9, 116) facing Up on the Bicycle. The path north on Column 9 is blocked by a giant pillar structure starting at Y=115. But Columns 10 and 11 are open grass lanes leading to a water shore at Y=112. We will walk Right to (10, 116) and then North to (10, 112).
-- Plan: Press Right, Up, Up, Up, Up.
-- Turn 96883: Successfully stepped Up to (10, 111). Verified Y=111 is dry land and not water. The path continues north on Columns 10 and 11, with grass tiles of TYPE_3fe2. No guard is currently visible. Walking 4 steps Up to (10, 107).
-- Plan: Press Up, Up, Up, Up.
-- Turn 96885: Standing at (10, 107) facing Up on the Bicycle. The water is visible at Row 103. There is an NPC at (12, 105). We will walk 3 steps Up on Column 10 to reach (10, 104) on the water's edge.
-- Plan: Press Up, Up, Up.
-- Turn 96891: Standing at (10, 105) facing Up. The guard at (12, 105) checked and approved our Rainbow Badge. Moving Up 1 step to (10, 104) to reach the water's edge at (10, 103).
-- Plan: Press Up.
-- Turn 96907: Surfing north on Column 10 at (10, 99). The Soul Badge guard is visible at (11, 96). We will move Up 3 steps to (10, 96) to approach the guard and trigger the check.
-- Plan: Press Up, Up, Up.
 - Turn 96909: Arrived at (10, 96). The Soul Badge guard at (11, 96) intercepted us on the water. Textbox displayed: "You can pass here only if you have". Pressing A to advance the text.
 - Turn 96915: Soul Badge check successfully passed. Standing at (10, 96) on the water. The guard is at (11, 96).
 - Path forward: Surf North on Column 10.
@@ -7441,5 +7429,6 @@ All checkpoints on Route 22 have been successfully completed and verified. See L
   - Step 2: Left 4 to (6, 84) (bypassing the guard at 8, 85).
   - Step 3: Up 3 on Column 6 to (6, 81).
 - Plan: Press Up, Left, Left, Left, Left, Up, Up, Up.
+- Turn 96932: Reached (6, 81) facing Up. The path north on Column 6 is completely open water. Cleaning up the scratchpad.
 
 <hr>
