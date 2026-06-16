@@ -27,3 +27,16 @@
     - Route 1 Exit/Entrance: (20, 35) and (21, 35).
     - Route 2 Exit/Entrance: (18, 0).
     - Route 22 Exit/Entrance: (0, 18) and (0, 19).
+
+## Viridian Nickname House (Map 0_44)
+- Located on Columns X=20 to X=23, rows Y=8 to Y=9, with its entrance door at (21, 9).
+- Inside, the floor is checkered with decorative red-and-pink striped carpet at (2, 7) and (3, 7). These are standard passable floor tiles.
+- A man in a blue shirt at (5, 3) talks about naming Pokémon.
+- A central table/counter is located at (3,3)-(4,4).
+- A young green-shirt trainer is at (1, 2) and a red bird (Pidgey sprite) walks around the room.
+
+## Viridian Gym Access & Leader Status
+- **Turn 95868**: Arrived in Viridian City to challenge the Viridian Gym.
+- **Turn 95997**: Spoke to the old man NPC standing at (30, 8) outside the Gym entrance.
+  - Dialogue: "VIRIDIAN GYM's LEADER returned!"
+  - This confirms that Gym Leader Giovanni has returned, and the real Gym door at (32, 7) is now unlocked.
