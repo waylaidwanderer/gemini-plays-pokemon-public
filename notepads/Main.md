@@ -22,6 +22,6 @@
 - **Giovanni Defeated!** Obtained the Earth Badge on Turn 96440. All 8 Gym Badges have been successfully secured!
 - **Road to the Pokémon League**:
   - Exit Viridian Gym and travel West to Route 22.
-  - Pass through the 8 Gym Badge checkpoints on Route 22.
+  - Pass through the 8 Gym Badge checkpoints on Route 23.
   - Enter and navigate Victory Road (Map 0_183 and others) to reach Indigo Plateau.
   - Challenge the Elite Four and Rival Blue to become the Pokémon Champion!
