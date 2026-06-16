@@ -30,3 +30,7 @@
   - Question: "POKéMON of the same kind and level are not identical?"
   - Answer: YES (Correct)
   - Result: Opened the gate at (4, 12)-(5, 12) on Turn 95778.
+- **Quiz 6**: at (1, 7) (interacted from (1, 8) facing Up)
+  - Question: "TM28 contains TOMBSTONER?"
+  - Answer: NO (Correct)
+  - Result: Opened the gate at (4, 6)-(5, 6) on Turn 95805.
