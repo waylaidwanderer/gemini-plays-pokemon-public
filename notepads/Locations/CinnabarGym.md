@@ -15,3 +15,7 @@
   - Question: "There are 9 certified POKéMON LEAGUE BADGEs?"
   - Answer: NO (Correct)
   - Result: Opened the gate at (12, 6)-(13, 6) on Turn 95703.
+- **Quiz 3**: at (9, 7) (interacted from (9, 8) facing Up)
+  - Question: "POLIWAG evolves 3 times?"
+  - Answer: NO (Correct)
+  - Result: Opened the gate at (12, 12)-(13, 12) on Turn 95736.
