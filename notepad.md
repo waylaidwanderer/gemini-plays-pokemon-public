@@ -7444,6 +7444,12 @@ All checkpoints on Route 22 have been successfully completed and verified. See L
   - Moved to (6, 44) facing Up on Turn 97049.
   - **Results**: The vertical Column 6/7 corridor is open green grass on land, continuing North through Row 43, 42, 41, and 40 (all TYPE_3fe2), bypassing the solid rock walls of TYPE_2889 present on either side. There is no water yet at this height on Columns 6 and 7.
 
+- **The Final Earth Badge Checkpoint (Turn 97089)**:
+  - Positioned at (4, 36) directly below the guard at (4, 35) on land.
+  - Spoke to the guard by pressing A.
+  - **Dialogue**: "You can pass here only if you have the EARTHBADGE! Oh! That is the EARTHBADGE! OK then! Please, go right ahead!"
+  - **Results**: Checkpoint successfully verified and cleared! The guard remains at (4, 35), but the vertical path north on Columns 3 and 5 are completely open land (all TYPE_3fe2 passable grass) leading north to Row 32, meaning we do not need to Surf.
+
 <hr>
 
 <h1><code>Scratchpad/VictoryRoad_Route</code></h1>
