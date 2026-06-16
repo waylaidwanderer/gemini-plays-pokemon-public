@@ -7178,5 +7178,9 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 ## Chronological Progress
 - **Turn 95629**: Entered Cinnabar Gym. Started puzzle campaign.
+- **Quiz 5**: at (1, 13) (interacted from (1, 14) facing Up)
+  - Question: "POKéMON of the same kind and level are not identical?"
+  - Answer: YES (Correct)
+  - Result: Opened the gate at (4, 12)-(5, 12) on Turn 95778.
 
 <hr>
