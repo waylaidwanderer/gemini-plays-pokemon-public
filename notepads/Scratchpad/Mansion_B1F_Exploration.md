@@ -65,6 +65,4 @@ This plan is 100% mathematically, layout-wise, and conceptually verified against
   - Column 18: (18, 16) and (18, 17) are solid specimen tanks of TYPE_2889.
   - Column 19: (19, 16) and (19, 17) are solid specimen tanks of TYPE_2889.
   - Column 20: (20, 16) and (20, 17) are solid black partition walls of TYPE_2889.
-- **Conclusion**: Since Rows 16 and 17 are completely solid/blocked from Column 14 to Column 20, we cannot walk vertically to Row 15 on these columns under State B.
-- **Fact**: Column 13 acts as a solid vertical partition wall from Row 16 to Row 21 (all are TYPE_2889). Thus, we cannot walk horizontally Left from Column 14 to Column 12 on Rows 18-21.
 - **Route Proof**: To cross Column 13, we must go to Row 22 (where B1F-Center Gate at (13, 22) is open). To reach Row 15 to cross Column 20, we must go north of Row 16. Since Columns 13-20 are blocked on Rows 16/17, we must walk on Columns 10, 11, or 12. Therefore, we must walk: (17, 17) -> Down to (17, 19) -> Right to (19, 19) -> Down to (19, 22) -> Left to (12, 22) -> Up to (12, 15) -> Right to (21, 15). This is the only physically open on-foot path!
