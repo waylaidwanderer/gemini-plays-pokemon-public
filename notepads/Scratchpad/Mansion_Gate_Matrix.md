@@ -35,11 +35,12 @@ Active State: **State B (Toggled)** (Toggled back on Turn 93831)
 - **Results**: No textbox appeared and no interaction took place.
 - **Conclusion**: The Mewtwo Statue at (10, 8) on 1F West is purely decorative. There is no active switch at this location.
 
-## B1F Mewtwo Statue at (24, 3) Test (Turn 95204)
-- **Coordinates**: Mewtwo Statue is located at (24, 3) on B1F East North (Map 0_216).
-- **Methodology**: Stood at (24, 4) facing Up and pressed 'A' on Turn 95204.
-- **Results**: No textbox appeared and no interaction took place.
-- **Conclusion**: The Mewtwo Statue at (24, 3) is 100% purely decorative with no switch. The only functional switch on B1F is at (18, 25).
+## B1F Mewtwo Statue Switch Locations
+- **Statue at (18, 25)**: Functional Mewtwo Statue Switch (Toggled on Turn 94998 to active State B).
+- **Statue at (20, 3)**: Functional Mewtwo Statue Switch on B1F East North (Toggles gates between State A and State B).
+- **Statue at (24, 3)**: Purely decorative capsule/specimen tank rather than a Mewtwo Statue.
+
+## B1F Basement Gate Matrix (Added Turn 75980)
 
 | **Gate 18** (2F, (2, 9)) | **CLOSED** (Impassable) | **OPEN** (Passable) | State A: Verified CLOSED (has orange/yellow horizontal bars) on Turn 94231. State B: Verified OPEN on Turn 94236 by walking through it. |
 | **Gate 26** (2F, (12, 26)-(13, 26)) | **CLOSED** (Impassable) | **CLOSED** (Impassable) | State A: Verified CLOSED on Turn 80627 by standing at (12, 25) facing Down and pressing Down, resulting in a bump. State B: Verified CLOSED on Turn 78980. This gate is 100% closed under both states, blocking foot access to Row 27. |
