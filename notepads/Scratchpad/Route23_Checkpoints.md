@@ -35,3 +35,5 @@
 - Turn 96964: Volcano Badge check successfully verified and completed on Turn 96957. Standing at (10, 57). Bypassing the guard by moving Right to Column 12 and then heading North.
   - Path: Right to (11, 57), Right to (12, 57), Up 4 steps on Column 12 to (12, 53).
 - Plan: Press Right, Right, Up, Up, Up, Up.
+- Turn 96967: Standing at (12, 53) facing Up. Creating Victory Road navigation scratchpad as suggested. Moving North on Column 12 to (12, 49) to see what is further ahead.
+- Plan: Press Up, Up, Up, Up.
