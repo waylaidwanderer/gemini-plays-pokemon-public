@@ -11,3 +11,8 @@
 - Turn 96907: Surfing north on Column 10 at (10, 99). The Soul Badge guard is visible at (11, 96). We will move Up 3 steps to (10, 96) to approach the guard and trigger the check.
 - Plan: Press Up, Up, Up.
 - Turn 96909: Arrived at (10, 96). The Soul Badge guard at (11, 96) intercepted us on the water. Textbox displayed: "You can pass here only if you have". Pressing A to advance the text.
+- Turn 96915: Soul Badge check successfully passed. Standing at (10, 96) on the water. The guard is at (11, 96).
+- Path forward: Surf North on Column 10.
+  - (10, 96) -> (10, 95) -> (10, 94) -> (10, 93) -> (10, 92)
+- Plan: Press Up, Up, Up, Up.
+- Verification: Observe the new map tiles revealed north of Row 92 to identify the landing shore and the next badge checkpoint.
