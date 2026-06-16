@@ -7300,6 +7300,9 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Turn 96768**: Standing at (16, 10) facing Left. Preparing to press 'A' to interact with the grey dome structure at (15, 10) to test if it acts as an interactive badge check guard or checkpoint.
 - **Turn 96769**: Pressed 'A' facing Left at (15, 10). Result: No dialogue or textbox opened. This empirically proves that the grey dome structures (TYPE_2889) are completely non-interactive solid barriers rather than active badge checkpoint NPCs or gates. Therefore, the vertical dome barrier on Column 14/15 is a solid physical wall.
 - **Plan**: Bypass the barrier by walking South to Row 12, then Left into the western section of the map.
+- **Turn 96813**: Entered the Pokémon League Gatehouse (Map 0_193) at (4, 7).
+- **Turn 96822**: Walked Up to (4, 2). The youngster at (6, 2) stopped us to check our Boulder Badge, saying: "Oh! That is the BOULDERBADGE! Go right ahead!"
+- **Turn 96824**: Dialogue cleared. We are standing at (4, 2) facing Up, ready to exit to Route 23.
 
 <hr>
 
