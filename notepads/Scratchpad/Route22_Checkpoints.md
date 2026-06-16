@@ -24,3 +24,5 @@
 - **Turn 96813**: Entered the Pokémon League Gatehouse (Map 0_193) at (4, 7).
 - **Turn 96822**: Walked Up to (4, 2). The youngster at (6, 2) stopped us to check our Boulder Badge, saying: "Oh! That is the BOULDERBADGE! Go right ahead!"
 - **Turn 96824**: Dialogue cleared. We are standing at (4, 2) facing Up, ready to exit to Route 23.
+- **Turn 96830**: Walked Up to (7, 136). The Hiker guard at (8, 135) stopped us to check our Cascade Badge, saying: "You can pass here only if you have the CASCADEBADGE! Oh! That is the CASCADEBADGE! Go right ahead!"
+- **Turn 96833**: Dialogue cleared. We are standing at (7, 136) facing Up, preparing to walk North along Route 23 to find the next badge checkpoint.
