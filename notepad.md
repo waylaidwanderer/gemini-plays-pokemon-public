@@ -7439,5 +7439,10 @@ All checkpoints on Route 22 have been successfully completed and verified. See L
 - Plan: Press Up, Up, Up, Up, Up, Up, Up, Up.
 - Turn 96940: We are surfing at (6, 73). The path to land on the grass bank is: Up to (6, 72), Right 2 to (8, 72), and Up to (8, 71) (which lands us on the green grass of TYPE_3fe2).
 - Plan: Press Up, Right, Right, Up.
+- Turn 96943: Standing on land at (8, 71) facing Up. The path north contains tall grass of TYPE_fed7 at (8, 67) and (9, 67). To bypass this tall grass, we will walk Right to Column 10 (which contains standard short grass of TYPE_3fe2) and then walk North.
+  - Step 1: Right to (9, 71)
+  - Step 2: Right to (10, 71)
+  - Step 3: Up 4 steps on Column 10 to (10, 67)
+- Plan: Press Right, Right, Up, Up, Up, Up.
 
 <hr>
