@@ -7399,7 +7399,6 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Locations/Route23</code></h1>
 
 # Route 23 Verified Location Records (Map 0_34)
-- Goal: Pass all 8 Gym Badge checkpoints on Route 23 to reach Victory Road.
 
 ## Key Checkpoints & Badge Guards:
 - **Boulder Badge Check (Map 0_193 - Gatehouse)**: Passed on Turn 96822. Checked by youngster NPC at (6, 2).
