@@ -15,6 +15,6 @@
 - **Route 22 Pathing Strategy (Verified Turn 96700)**:
   - The Southern paved path (Row 14/15) is a dead end on the West side, blocked by a cliff wall.
   - Jumping the southern ledge at (31, 13) or similar is a trap; it leaves you stuck on the lower level and requires backtracking to the (33, 13) gap to climb back up.
-  - The correct, unblocked route to the Pokémon League Gatehouse is the Northern paved road (Row 5) accessed via the Row 7 ledge gap at (31, 7).
+  - The correct, unblocked route to the Pokémon League Gatehouse is the Northern paved road (Row 5) accessed via the Row 7 ledge gap at (31, 7). (Note: The northern path is blocked by a physical barrier at Column 14/15, but this wall can be bypassed by walking south to Row 12, heading left, and returning north on the west side).
 - **Turn 96721**: Tested walking Left from (16, 4) to (15, 4). Movement failed, confirming (15, 4) (TYPE_2889 wall tile with statue) is solid and impassable.
 - **Turn 96723**: Walked Down from (16, 4) to (15, 4)... wait, to (16, 5) successfully. Currently at (16, 5).
