@@ -27,3 +27,19 @@
   - Spoke to the guard by pressing A.
   - **Dialogue**: "You can pass here only if you have the EARTHBADGE! Oh! That is the EARTHBADGE! OK then! Please, go right ahead!"
   - **Results**: Checkpoint successfully verified and cleared! The guard remains at (4, 35), but the vertical path north on Columns 3 and 5 are completely open land (all TYPE_3fe2 passable grass) leading north to Row 32, meaning we do not need to Surf.
+
+### Victory Road Preparation and PC Box Action Plan
+- **Current Box Status**: Box 1 is currently at 18/20. To prevent a soft-lock where we cannot catch any new wild Pokémon in Victory Road or beyond, we must swap boxes before proceeding with any captures.
+- **Current Bag Optimization**: Teaching TM14 (Blizzard) to GEMMY (Blastoise) to replace BITE. This is in progress on Turn 97117.
+- **Action Plan**:
+  1. Complete teaching TM14 Blizzard to Blastoise.
+  2. Navigate north to Row 31 and take the warp at (4, 31) to enter Victory Road 1F.
+  3. Once Victory Road 1F is successfully entered (marking the checkpoint), use DIG to immediately warp back to the Viridian City Pokémon Center.
+  4. At the Viridian Pokémon Center:
+     - Heal the party at Nurse Joy's counter (restoring fainted BIRBIE and GEMMY's HP/PP).
+     - Access Bill's PC to change the active box from Box 1 (18/20) to Box 2 (0/20).
+     - Withdraw TM26 (Earthquake) and TM29 (Psychic) from PC Storage.
+     - Teach TM26 (Earthquake) to GEMMY (Blastoise) in place of DIG for ultimate endgame ground STAB/coverage.
+     - Teach TM29 (Psychic) to BUGGY (Butterfree) to maximize special attack coverage.
+  5. Ride the bicycle back up Route 23 (since all badge guards are permanently cleared and no longer intercept us, this run is incredibly fast and takes less than 70 turns).
+  6. Re-enter Victory Road 1F fully healed, optimized, and with a fresh empty PC box!
