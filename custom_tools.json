@@ -31,12 +31,17 @@
         "buttons_list"
       ]
     },
-    "python_script": "import json\nimport sys\ntry:\n    input_data = json.loads(sys.argv[1])\n    buttons = input_data.get(\"buttons_list\", [])\n    print(json.dumps(buttons))\nexcept Exception as e:\n    print(json.dumps([]))\n",
+    "python_script": "import json\ntry:\n    buttons = input_data.get(\"buttons_list\", [])\n    print(json.dumps(buttons))\nexcept Exception as e:\n    print(json.dumps([]))\n",
     "history": [
       {
         "commit_message": "Define a custom tool to press buttons without triggering the automatic dialogue advance.",
         "timestamp": "2026-06-16T19:53:12.201Z",
         "action_counter": 96272
+      },
+      {
+        "commit_message": "Fix press_custom_buttons script to retrieve arguments from the globally injected 'input_data' dictionary instead of sys.argv[1].",
+        "timestamp": "2026-06-16T19:54:22.598Z",
+        "action_counter": 96276
       }
     ]
   }
