@@ -7453,5 +7453,8 @@ All checkpoints on Route 22 have been successfully completed and verified. See L
 - Plan: Press Up, Up.
 - Turn 96956: Standing at (10, 57) facing Up on the bicycle. The guard is at (10, 56) directly above us. Pressing A to talk to the guard to trigger the Volcano Badge check.
 - Plan: Press A.
+- Turn 96964: Volcano Badge check successfully verified and completed on Turn 96957. Standing at (10, 57). Bypassing the guard by moving Right to Column 12 and then heading North.
+  - Path: Right to (11, 57), Right to (12, 57), Up 4 steps on Column 12 to (12, 53).
+- Plan: Press Right, Right, Up, Up, Up, Up.
 
 <hr>
