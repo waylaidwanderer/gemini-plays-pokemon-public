@@ -7421,5 +7421,7 @@ All checkpoints on Route 22 have been successfully completed and verified. See L
 - Plan: Press Up, Up, Up.
 - Turn 96891: Standing at (10, 105) facing Up. The guard at (12, 105) checked and approved our Rainbow Badge. Moving Up 1 step to (10, 104) to reach the water's edge at (10, 103).
 - Plan: Press Up.
+- Turn 96907: Surfing north on Column 10 at (10, 99). The Soul Badge guard is visible at (11, 96). We will move Up 3 steps to (10, 96) to approach the guard and trigger the check.
+- Plan: Press Up, Up, Up.
 
 <hr>
