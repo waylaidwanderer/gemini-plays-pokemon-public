@@ -7661,4 +7661,14 @@ This plan is 100% mathematically, layout-wise, and conceptually verified against
   - Column 20: (20, 16) and (20, 17) are solid black partition walls of TYPE_2889.
 - **Route Proof**: To cross Column 13, we must go to Row 22 (where B1F-Center Gate at (13, 22) is open). To reach Row 15 to cross Column 20, we must go north of Row 16. Since Columns 13-20 are blocked on Rows 16/17, we must walk on Columns 10, 11, or 12. Therefore, we must walk: (17, 17) -> Down to (17, 19) -> Right to (19, 19) -> Down to (19, 22) -> Left to (12, 22) -> Up to (12, 15) -> Right to (21, 15). This is the only physically open on-foot path!
 
+## State A Routing to Northwest Room (Turn 95316)
+- **Bypassing the Row 8 solid wall:** Row 8 is a solid partition wall from Column 2 to Column 20, blocking all vertical traversal across these columns on Row 8 under State A.
+- **Open Vertical Path:** Column 21 is completely open vertically on Row 8, serving as a continuous vertical corridor. 
+- **Methodology & Test Plan (Turn 95316):**
+  - Walk Right along Row 9 from (10, 9) to Column 21: (21, 9).
+  - Walk Up along Column 21 to Row 7: (21, 7).
+  - Walk Left along Row 7 all the way through the open Northwest Gate at (9, 7) into the Northwest Room: (5, 7).
+  - Walk Down to (5, 8) to collect the Secret Key from the table!
+  - State A Route Proof: Verified in Python BFS simulation on Turn 95316. This provides a clean, 100% obstruction-free pathway on foot.
+
 <hr>
