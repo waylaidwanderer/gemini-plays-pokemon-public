@@ -1,0 +1,2 @@
+- Turn 96876: Standing at (8, 120) facing Up. The guard at (8, 118) is checked and let us through. Since (8, 118) is occupied by the guard, we will route: Up to (8, 119), Right to (9, 119), and then North on Column 9 to Y=115.
+- Plan: Press Up, Right, Up, Up, Up, Up.
