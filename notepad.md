@@ -7373,4 +7373,20 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
    - Teach TM29 (Psychic) to a compatible team member.
 3. **PC Box Cleanup**: Ensure we have open slots in Box 1 to avoid catching blockages (currently 18/20, very close to full!). We should change box or release some duplicates in a PC.
 
+## TM Compatibility & Optimization Table:
+- **GEMMY (BLASTOISE)**:
+  - Compatible with: **TM14 Blizzard** (Recommended: Replace Bite or Hydro Pump. Crucial for Lorelei's flying types and Lance's Dragon/Flying types), **TM26 Earthquake** (Recommended: Replace Dig. Immediate high-damage physical ground move), **TM08 Body Slam** (Solid normal coverage).
+- **SPARKY (PIKACHU)**:
+  - Compatible with: **TM08 Body Slam** (Good backup physical move).
+- **BUGGY (BUTTERFREE)**:
+  - Compatible with: **TM29 Psychic** (Excellent special attack coverage in Gen 1).
+- **ROCKY (GEODUDE)**:
+  - Compatible with: **TM26 Earthquake** (Strong STAB ground coverage).
+
+## Target Levels & Stat Thresholds for Elite Four:
+- **GEMMY (BLASTOISE)**: Target Level 65+ (Main Sweeper).
+  - *Key Stat Targets*: Special 130+, Attack 130+, Speed 120+.
+- **SPARKY (PIKACHU)**: Target Level 45+ (Lorelei/Water Coverage backup).
+  - *Key Stat Targets*: Special 80+, Speed 90+.
+
 <hr>
