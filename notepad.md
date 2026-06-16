@@ -7255,4 +7255,13 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - Traveled North to Row 2, then East along Row 2 to (29, 2), then to (34, 2) (all passable tiles of TYPE_3fe2).
   - Standing at (34, 2). Investigating Column 34 down-traversal to see if we can go past the Gym and access (32, 8).
 
+## Gym Re-Entry & Conveyor Loop (Turns 96329-96361)
+- **Turn 96329**: In Viridian City, jumped south over the ledge at (32, 9).
+- **Turn 96345**: Mapped a routing path to bypass the Old Man blocking at (30, 8). Walked East along Row 2 to (34, 2), then walked South along Column 34 to Row 8, and West to (32, 8) to enter the Gym at (32, 7).
+- **Turn 96352**: Re-entered Viridian Gym, landing at (16, 17).
+- **Turn 96354**: Walked to (19, 11), stepping on the UP conveyor which carried us automatically to (19, 2).
+- **Turn 96358**: Stepped UP from (19, 2) onto (19, 1) (LEFT conveyor), sliding all the way to (11, 1).
+- **Turn 96359**: Stepped DOWN from (11, 1) onto (11, 2) (DOWN conveyor). This triggered a multi-step slide loop through the gym maze, depositing us at (17, 2) facing Down.
+- **Turn 96361**: Currently at (17, 2). Mapped Row 2 and Row 4 horizontal corridor access. Row 3 is a solid wall of TYPE_2889.
+
 <hr>
