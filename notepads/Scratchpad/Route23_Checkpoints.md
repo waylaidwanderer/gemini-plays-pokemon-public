@@ -37,3 +37,5 @@
 - Plan: Press Right, Right, Up, Up, Up, Up.
 - Turn 96967: Standing at (12, 53) facing Up. Creating Victory Road navigation scratchpad as suggested. Moving North on Column 12 to (12, 49) to see what is further ahead.
 - Plan: Press Up, Up, Up, Up.
+- Turn 96974: Standing at (12, 49) facing Up on the bicycle. The final guard (Earth Badge) is at (11, 50). Moving north 4 steps on Column 12 to reach (12, 45).
+- Plan: Press Up, Up, Up, Up.
