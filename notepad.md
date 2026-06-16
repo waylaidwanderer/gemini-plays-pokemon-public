@@ -7247,4 +7247,12 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - **Result**: The player slid continuously DOWN from (18, 2) all the way to (18, 11).
   - **Conclusion**: The initial hypothesis of landing at (18, 3) or (18, 4) is DISPROVEN. The (18, 2) conveyor tile is a continuous vertical slide that forces traversal through the entire column all the way to (18, 11).
 
+## Pathing Around Old Man to Gym (Turn 96348)
+- **Objective**: Bypass the Old Man at (30, 8) to reach the Gym Entrance at (32, 7) from the east.
+- **Route Tested**:
+  - Traveled West on Row 10 to (20, 10), then North on Column 18 to (18, 4).
+  - Traveled East on Row 4 to (24, 4).
+  - Traveled North to Row 2, then East along Row 2 to (29, 2), then to (34, 2) (all passable tiles of TYPE_3fe2).
+  - Standing at (34, 2). Investigating Column 34 down-traversal to see if we can go past the Gym and access (32, 8).
+
 <hr>
