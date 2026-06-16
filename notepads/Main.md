@@ -18,11 +18,10 @@
 ## Active Progression Plan
 - **Koga Defeated!** Obtained the Soul Badge. Overworld SURF is unlocked!
 - **Erika Defeated!** Obtained the Rainbow Badge on Turn 74198. Overworld STRENGTH is unlocked!
-- **Cinnabar Island Journey (Starts Turn 74291)**:
-  - From Pallet Town, navigate South onto Route 21 water channel using GEMMY's SURF.
-  - Surf South along Route 21, defeating Swimmers and Fishermen for experience.
-  - Navigate directly to Cinnabar Island at the southern terminus of Route 21.
-  - Retrieve the Secret Key from the Cinnabar Mansion (Pokémon Mansion) to unlock the Cinnabar Gym. Retrieved on Turn 95581. See `Locations/CinnabarMansion` for permanent records.
-  - Defeat Gym Leader Blaine at Cinnabar Gym to secure the Volcano Badge.
-  - Note: To reach B1F, we do NOT use Pit A at (11, 12) on 3F West as that drops us into an isolated pocket on 2F East South. Instead, we must use the 3F West North statue switch to toggle State A, walk through the open partition gap at (15, 5) to 3F East North, walk south to (16, 14), and fall through the giant pit there to land directly on 1F East Southeast at (16, 14), which has on-foot stairs down to B1F. Also note that on 3F West, Row 11 is permanently solid/impassable at Column 10 (Gate 2) under both State A and State B (Verified Turns 82928 & 89695), so we must navigate via the 3F West North upper corridor (Row 5/6) and the partition gap at (15, 5) to cross between the west and east sides. Also, note that on 1F East, the Northeast staircase at (27, 11) is permanently closed and impassable under both State A and State B (Verified Turns 92132 and 92164).
-  - Note on 3F East Gate 15: Under active State A, Gate 15 at Column 15 Rows 10 and 11 is open, allowing foot navigation on the east side of the partition wall south to the giant pit at (16, 14). Row 11 Column 10 is closed under State A, meaning we cannot cross from 3F West to 3F East on Row 11; we must cross via the (15, 5) gap.
+- **Blaine Defeated!** Obtained the Volcano Badge on Turn 95844.
+- **Giovanni Defeated!** Obtained the Earth Badge on Turn 96440. All 8 Gym Badges have been successfully secured!
+- **Road to the Pokémon League**:
+  - Exit Viridian Gym and travel West to Route 22.
+  - Pass through the 8 Gym Badge checkpoints on Route 22.
+  - Enter and navigate Victory Road (Map 0_183 and others) to reach Indigo Plateau.
+  - Challenge the Elite Four and Rival Blue to become the Pokémon Champion!
