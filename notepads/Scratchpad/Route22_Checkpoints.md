@@ -6,13 +6,15 @@
 - **Turn 96460**: Jumped South over the ledge at (32, 9) to reach (32, 10) on the lower level of Viridian City.
 - **Turn 96476**: Confirmed player is at (32, 10) facing Down. Ready to head West along Row 10 towards Column 0.
 
-## Planned Route:
-1. Walk West on Row 10 to Column 20: (32, 10) -> (20, 10) (12 steps West).
-2. Continue West and South to find the exit to Route 22 at (0, 18)/(0, 19).
-3. Document any obstacles, buildings, or wild encounters.
-- **Turn 96490**: Navigated from (17, 14) to (13, 17) via ["Down", "Down", "Left", "Down", "Left", "Left", "Left"]. Bypassed the central stone fence!
-- **Turn 96539**: Walked Left 5 steps from (15, 14) to (10, 14) via ["Left", "Left", "Left", "Left", "Left"]. No wild encounters.
-- **Next Plan**: Walk West along Row 14 to see where the path leads and find the entrance to the Pokémon League Gatehouse.
 - **Turn 96580**: Triggered wild Rattata at (31, 8). Successfully escaped on Turn 96583.
 - **Turn 96605**: Reached the paved road at (31, 5).
-- **Next Plan**: Head West along the paved road (Row 5) to the Pokémon League Gatehouse.
+- **Turn 96608**: Engaged in the pre-Elite Four Rival Blue battle at (28, 5) on the paved road.
+  - **Rival Blue's Team**:
+    1. Pidgeot (Lv. 47) - Defeated with SURF.
+    2. Rhyhorn (Lv. 45) - Defeated with SURF.
+    3. Gyarados (Lv. 45) - Defeated with BITE.
+    4. Growlithe (Lv. 47) - Defeated with SURF.
+    5. Alakazam (Lv. 50) - Defeated with DIG and SURF. (Reflect was active)
+    6. Venusaur (Lv. 53) - Defeated with DIG. (Killed Birbie with Razor Leaf, Gemmy fainted once but was revived using a Revive and finished with DIG)
+  - **Outcome**: Defeated Rival Blue on Turn 96692! Gemmy grew to Level 63.
+- **Next Plan**: Head West along the paved road (Row 5) to locate the Pokémon League Gatehouse.
