@@ -57,3 +57,9 @@
 - **Turn 96358**: Stepped UP from (19, 2) onto (19, 1) (LEFT conveyor), sliding all the way to (11, 1).
 - **Turn 96359**: Stepped DOWN from (11, 1) onto (11, 2) (DOWN conveyor). This triggered a multi-step slide loop through the gym maze, depositing us at (17, 2) facing Down.
 - **Turn 96361**: Currently at (17, 2). Mapped Row 2 and Row 4 horizontal corridor access. Row 3 is a solid wall of TYPE_2889.
+
+## Gym Trainer Defeated & Western Access Routing (Turns 96385-96398)
+- **Turn 96385**: While standing at (16, 5), the Gym Trainer (Cooltrainer♂, Tamer sprite) originally at (13, 5) moved East to (15, 5), triggering battle.
+- **Turn 96392**: Defeated Cooltrainer♂'s Level 43 Rhyhorn with GEMMY's SURF for ¥1505.
+- **Turn 96398**: Currently standing at (16, 5). The defeated trainer is solid and blocks (15, 5). Initiating bypass route via Row 4:
+  - Walk Up to (16, 4), West along Row 4 to (12, 4), South to (12, 5), West to (10, 5), North up Column 10 to (10, 2), and West to (9, 2) to explore the western portion of the Gym (Columns 0-9).
