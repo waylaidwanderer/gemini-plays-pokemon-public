@@ -7296,8 +7296,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Current Position**: Standing at (10, 14) facing Left.
 - **Next Plan**: Walk West along Row 14 to see where the path leads and find the entrance to the Pokémon League Gatehouse.
 - **Turn 96580**: Triggered wild Rattata at (31, 8). Successfully escaped on Turn 96583.
-- **Current Position**: Standing at (31, 8) facing Right.
-- **Next Plan**: Walk Up 3 steps to reach the paved road on Row 5 at (31, 5).
+- **Turn 96605**: Reached the paved road at (31, 5).
+- **Next Plan**: Head West along the paved road (Row 5) to the Pokémon League Gatehouse.
 
 <hr>
 
