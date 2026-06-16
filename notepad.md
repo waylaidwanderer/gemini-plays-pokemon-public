@@ -7187,4 +7187,10 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - Answer: NO (Correct)
   - Result: Opened the gate at (4, 6)-(5, 6) on Turn 95805.
 
+## Gym Leader Battle
+- **Gym Leader Blaine**: Standing at (3, 3).
+  - Defeated on Turn 95844!
+  - Rewards: Volcano Badge (seventh badge) and TM38 (Fire Blast).
+  - GEMMY (BLASTOISE) soloed the battle at Level 60 using SURF.
+
 <hr>
