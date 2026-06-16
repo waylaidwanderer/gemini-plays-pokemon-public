@@ -7147,3 +7147,21 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - The correct and intended way to B1F is to use the 2F West NW stairs under State A, cross 3F North, walk south through the open Row 9 gate on 3F East, and fall through the pit. This is our active strategy.
 
 <hr>
+
+<h1><code>Locations/CinnabarGym</code></h1>
+
+# Cinnabar Gym (Volcano Gym) Records
+
+## Gym Mechanics
+- The Gym consists of a series of rooms, each containing a Gym Trainer and a Quiz Machine.
+- Interacting with the Quiz Machine and answering the question correctly opens the gate (door) to the next room, allowing us to bypass the trainer and avoid battle.
+- If we fail the quiz or choose not to do it, we can fight the trainer to open the gate.
+- Gate status is opened by correct quiz answers.
+
+## Quiz Log
+- **Quiz 1**: at (15, 7) (interacted from (15, 8) facing Up)
+  - Question: "CATERPIE evolves into BUTTERFREE?"
+  - Answer: YES (Correct)
+  - Result: Opened the gate at (16, 6) on Turn 95671.
+
+<hr>
