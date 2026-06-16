@@ -6335,7 +6335,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
   - Under State A (Statue 2 Default):
     - Left side of 3F is accessible from the stairs landing (7, 11). We can bypass the scientist NPC at (4, 11) by walking around his position.
 - **B1F**: Basement floor. This is where the **Secret Key** is hidden.
-- **Escape Strategy**: Once we find the Secret Key, we can use an **Escape Rope** from our bag to immediately warp out of the Mansion. We currently have 2 Escape Ropes in our bag.
+- **Escape Strategy**: Once we find the Secret Key, we can use an **Escape Rope** from our bag to immediately warp out of the Mansion. We currently have 1 Escape Rope in our bag (used 1 on Turn 95600).
 
 ---
 
@@ -6434,6 +6434,7 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 ## 3F: Third Floor Exploration State
 - **Stairs**:
   - Down to 2F: Located at (7, 10) (Verified Turn 75056)
+  - Up to 3F: (7, 10) (Verified Turn 75056)
 - **Switches & Gates**:
   - Statue 3: (10, 8) on 3F West | State: Purely Decorative (No Switch) (Verified Turn 78784). Front tile (10, 9) and surroundings are solid wall/rubble (TYPE_2889).
   - Gate 2 (3F, Row 8 at (8, 8)-(11, 8)): CLOSED and impassable under BOTH State A and State B.
@@ -6501,12 +6502,18 @@ Date: Monday, June 8, 2026 at 8:03 AM PDT
 
 ## B1F: Basement Floor Exploration State
 - **Switches & Gates**:
-  - Statue 4: (TBD, TBD) | State: [ ] Default
+  - Mewtwo Statue (Southwest): (18, 25) | State: State A/B functional toggle.
+  - Mewtwo Statue (Northeast): (20, 3) | State: State A/B functional toggle. Toggling to State A opens Gate (9, 7).
+  - Mewtwo Statue (Northwest): (24, 3) | State: State A/B functional toggle.
+  - Gate B1F-Center: (13, 22)-(13, 23) | State: CLOSED under State A, OPEN under State B.
+  - Gate B1F-East: (26, 17)-(27, 17) | State: CLOSED under State A, OPEN under State B.
+  - Gate B1F-Northwest: (9, 7) | State: OPEN under State A, CLOSED under State B. This is the entrance gate to the Secret Key room.
+  - Gate B1F-West (Row 17 Gate): (6, 17)-(9, 17) | State: CLOSED under BOTH State A and State B (permanently impassable on foot).
 - **Items**:
   - TM14 (Blizzard): (19, 25) | State: [x] Collected (Turn 93157)
+  - TM22 (SolarBeam): (5, 4) | State: [x] Collected (Turn 95574) from top-left table.
 - **Secret Key**:
-  - Coordinates: (TBD, TBD) | State: [ ] Uncollected
-- **1F West Switch Statue 1 Plan**: If we need to find and toggle Statue 1 on 1F West in the future, we must explore the westernmost room (Columns 1-4, typically around (2, 5)), as the statue at (10, 8) has been proven decorative.
+  - Coordinates: (5, 13) | State: [x] Collected on Turn 95581 from southern table in the Northwest Room.
 
 ## Socratic Strategy & Coordinate Verification (Turn 80913 Audit) - Verified & Updated
 - **Analysis of Southeast Room Rows**:
