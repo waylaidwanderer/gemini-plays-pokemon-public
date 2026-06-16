@@ -7433,5 +7433,7 @@ All checkpoints on Route 22 have been successfully completed and verified. See L
   - Step 3: Up 3 on Column 6 to (6, 81).
 - Plan: Press Up, Left, Left, Left, Left, Up, Up, Up.
 - Turn 96932: Reached (6, 81) facing Up. The path north on Column 6 is completely open water. Cleaning up the scratchpad.
+- Turn 96935: Standing at (6, 81) facing Up on the water. The path north on Columns 2-7 is open water of TYPE_4e8c. Moving 8 steps Up on Column 6 to reach (6, 73).
+- Plan: Press Up, Up, Up, Up, Up, Up, Up, Up.
 
 <hr>
