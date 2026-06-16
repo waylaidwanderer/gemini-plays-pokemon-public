@@ -7415,6 +7415,11 @@ All checkpoints on Route 22 have been successfully completed and verified. See L
 - Walked Right to Column 14, North past Row 131 to Row 124, and then Left back to Column 8 to bypass the Row 131 barrier.
 - Columns 8 and 9 are open to walk North up to the Thunder Badge guard.
 - Row 43 is a solid, impassable horizontal wall of TYPE_2889 spanning Columns 12 to 19, and the eastern edge (Column 20+) is blocked by dense trees, making the eastern side of Row 44 a complete dead end. Verified on Turns 97004-97022.
+- **The Final Earth Badge Checkpoint (Turn 97089)**:
+  - Positioned at (4, 36) directly below the Earth Badge guard at (4, 35) on land.
+  - Spoke to the guard by pressing A to trigger the check.
+  - **Dialogue**: "You can pass here only if you have the EARTHBADGE! Oh! That is the EARTHBADGE! OK then! Please, go right ahead!"
+  - **Results**: Final check successfully verified and cleared! The path is completely open on foot. Columns 0 to 7 continue as unblocked, continuous land all the way north to Row 32, meaning no Surf is required to reach the Victory Road entrance at (4, 31).
 
 <hr>
 
