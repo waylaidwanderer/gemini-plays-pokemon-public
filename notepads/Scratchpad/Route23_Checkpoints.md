@@ -1,2 +1,4 @@
 - Turn 96876: Standing at (8, 120) facing Up. The guard at (8, 118) is checked and let us through. Since (8, 118) is occupied by the guard, we will route: Up to (8, 119), Right to (9, 119), and then North on Column 9 to Y=115.
 - Plan: Press Up, Right, Up, Up, Up, Up.
+- Turn 96878: Standing at (9, 116) facing Up on the Bicycle. The path north on Column 9 is blocked by a giant pillar structure starting at Y=115. But Columns 10 and 11 are open grass lanes leading to a water shore at Y=112. We will walk Right to (10, 116) and then North to (10, 112).
+- Plan: Press Right, Up, Up, Up, Up.
