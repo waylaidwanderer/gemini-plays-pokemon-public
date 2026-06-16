@@ -76,7 +76,9 @@ This plan is 100% mathematically, layout-wise, and conceptually verified against
 - **The Correct State B Solution:**
   - Walk to the Mewtwo Statue at (18, 25) (standing on (18, 26) facing UP) and toggle to State B.
   - Under State B, B1F-East Gate at (26, 17) is OPEN.
-  - Walk from (18, 26) Right and Up to (21, 18).
+  - Walk from (18, 26) Right 1 step to (19, 26).
+  - Walk Up Column 19 to Row 18: (19, 18).
+  - Walk Right along Row 18 to Column 21: (21, 18).
   - Walk Right along Row 18 through (25, 18) (open floor) to Column 26: (26, 18).
   - Walk Up Column 26 through the open gate at (26, 17) to Row 4: (26, 4).
   - Walk Left along the unobstructed Row 4 to Column 5: (5, 4).
