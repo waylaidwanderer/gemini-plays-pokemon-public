@@ -30,3 +30,5 @@
 - Plan: Press Up, Up, Up, Up.
 - Turn 96953: Standing at (10, 59) facing Up on the bicycle. The guard for the Volcano Badge check is standing at (10, 56) facing Down. To trigger his check, we will walk Up 2 steps to reach (10, 57).
 - Plan: Press Up, Up.
+- Turn 96956: Standing at (10, 57) facing Up on the bicycle. The guard is at (10, 56) directly above us. Pressing A to talk to the guard to trigger the Volcano Badge check.
+- Plan: Press A.
