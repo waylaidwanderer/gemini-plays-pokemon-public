@@ -4,3 +4,5 @@
 - Plan: Press Right, Up, Up, Up, Up.
 - Turn 96883: Successfully stepped Up to (10, 111). Verified Y=111 is dry land and not water. The path continues north on Columns 10 and 11, with grass tiles of TYPE_3fe2. No guard is currently visible. Walking 4 steps Up to (10, 107).
 - Plan: Press Up, Up, Up, Up.
+- Turn 96885: Standing at (10, 107) facing Up on the Bicycle. The water is visible at Row 103. There is an NPC at (12, 105). We will walk 3 steps Up on Column 10 to reach (10, 104) on the water's edge.
+- Plan: Press Up, Up, Up.
