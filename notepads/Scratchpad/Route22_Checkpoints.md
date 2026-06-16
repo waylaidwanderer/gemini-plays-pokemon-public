@@ -18,3 +18,4 @@
     6. Venusaur (Lv. 53) - Defeated with DIG. (Killed Birbie with Razor Leaf, Gemmy fainted once but was revived using a Revive and finished with DIG)
   - **Outcome**: Defeated Rival Blue on Turn 96692! Gemmy grew to Level 63.
 - **Next Plan**: Head West along the paved road (Row 5) to locate the Pokémon League Gatehouse.
+- **Turn 96768**: Standing at (16, 10) facing Left. Preparing to press 'A' to interact with the grey dome structure at (15, 10) to test if it acts as an interactive badge check guard or checkpoint.
