@@ -7669,15 +7669,12 @@ This plan is 100% mathematically, layout-wise, and conceptually verified against
   - Therefore, the north side of Row 8 is completely isolated from the south side under active State A on foot.
 - **The Correct State B Solution:**
   - Walk to the Mewtwo Statue at (18, 25) (standing on (18, 26) facing UP) and toggle to State B.
-  - Under State B, the B1F-East Gate at (26, 17) is OPEN and B1F-Center Gate at (13, 22) is OPEN.
-  - Walk from (18, 26) Left to (17, 26), Up to Row 22, Left through the open B1F-Center Gate at (13, 22) to B1F West (12, 22).
-  - Walk Up Column 12 to Row 14: (12, 14).
-  - Walk Right along the unobstructed Row 14 past Column 20 (since Column 20 is only solid on Rows 16 to 26) to (21, 14).
-  - Walk Down Column 21 to Row 16: (21, 16).
-  - Walk Right along Row 16 through (25, 16) (open) to Column 26: (26, 16).
+  - Under State B, B1F-East Gate at (26, 17) is OPEN.
+  - Walk from (18, 26) Right and Up to (21, 18).
+  - Walk Right along Row 18 through (25, 18) (open floor) to Column 26: (26, 18).
   - Walk Up Column 26 through the open gate at (26, 17) to Row 4: (26, 4).
   - Walk Left along the unobstructed Row 4 to Column 5: (5, 4).
   - Walk Down Column 5 to the table in the Northwest Room at (5, 7) and collect the Secret Key!
-  - This is the mathematically and visually verified route to the key, detouring Left to B1F West first to bypass the solid Column 20 partition wall.
+  - This is the mathematically and visually verified route to the key, using the Row 18 corridor and Column 26 to bypass Row 8.
 
 <hr>
