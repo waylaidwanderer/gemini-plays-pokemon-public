@@ -7431,5 +7431,7 @@ All checkpoints on Route 22 have been successfully completed and verified. See L
 - Verification: Observe the new map tiles revealed north of Row 92 to identify the landing shore and the next badge checkpoint.
 - Turn 96919: Mid-point self-assessment and reflection completed. No errors detected. Grassy island on Columns 8-9 bypassed as water is completely open north on Column 10. Moving 4 steps Up to (10, 88).
 - Plan: Press Up, Up, Up, Up.
+- Turn 96921: Surfing at (10, 88). Marsh Badge guard is visible at (8, 85) on the water. We will move Up 3 steps on Column 10 to (10, 85) to approach the checkpoint and trigger the badge check.
+- Plan: Press Up, Up, Up.
 
 <hr>
