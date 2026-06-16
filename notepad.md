@@ -665,6 +665,8 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - **Stat Boost**: Increases Pokémon's Defense in battle. (Vanilla Theory - Pending ROM-specific empirical stat audit)
 - **Marsh Badge**: Obtained from Sabrina (Saffron City).
   - **Obedience Level**: Traded Pokémon up to **Level 70** will obey the player.
+- **Volcano Badge**: Obtained from Blaine (Cinnabar Island).
+  - **Stat Boost**: Increases Pokémon's Special in battle.
 - **Earth Badge**: Obtained from Giovanni (Viridian City).
   - **Obedience Level**: All traded Pokémon will obey the player regardless of level.
 
