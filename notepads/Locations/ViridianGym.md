@@ -14,3 +14,10 @@
 - Left-pointing arrow / conveyor tiles are located at (13, 16) and (13, 17) (TYPE_550d).
 - Red-and-orange square / conveyor tiles are located at (13, 13) and (13, 14) (TYPE_55d4).
 - A desk structure is visible on the far left at (12, 15)-(13, 15).
+
+### NW Area (Rows 0-6, Columns 9-15)
+- Toggling the conveyor on Column 19 Row 1 slid us all the way to (11, 1).
+- A Blackbelt trainer is standing at (10, 1) facing Down.
+- A trainer (Tamer/Cooltrainer sprite) is located at (13, 5) facing Up.
+- Solid walls of TYPE_2889 block vertical traversal at (11, 3), (12, 3), (13, 3), (14, 3), (15, 3).
+- (11, 2) has a Down-pointing conveyor / arrow tile of TYPE_64a2.
