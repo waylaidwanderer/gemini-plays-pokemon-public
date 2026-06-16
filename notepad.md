@@ -7198,10 +7198,11 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/RouteToGym</code></h1>
 
 # Live Tracking: Route to Viridian City Gym
-- Current Position: (26, 20) on Map 0_1.
+- Current Position: (20, 20) on Map 0_1.
 - Target: Viridian Gym in the Northeast corner of the city.
 - Path Strategy:
-  - Step 1: Walk Left 6 steps to (20, 20) to reach the main central road of Viridian City.
-  - Step 2: From (20, 20), check the road going north and trace it to the gym area.
+  - Step 1: Walk Left 1 step to (19, 20) to align with the open northbound Column 19.
+  - Step 2: Move Up 4 steps along Column 19 to (19, 16) to head north.
+  - Step 3: From (19, 16), assess the northern street layout to locate the Gym entrance.
 
 <hr>
