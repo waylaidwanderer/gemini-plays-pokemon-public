@@ -7393,6 +7393,28 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **SPARKY (PIKACHU)**: Target Level 45+ (Lorelei/Water Coverage backup).
   - *Key Stat Targets*: Special 80+, Speed 90+.
 
+## Elite Four & Champion Typing & Weakness Analysis:
+- **Lorelei (Ice/Water Specialist)**:
+  - *Team Profile*: Dewgong (Water/Ice), Cloyster (Water/Ice), Slowbro (Water/Psychic), Jynx (Ice/Psychic), Lapras (Water/Ice).
+  - *Key Weaknesses*: Electric (Thunderbolt) is highly effective against Dewgong, Cloyster, and Lapras. Grass (SolarBeam/Mega Drain) is effective against Dewgong, Cloyster, Lapras, and Slowbro. Rock/Fire are effective against Jynx (Ice type).
+  - *Strategic Response*: Level up Sparky (Pikachu) to at least Level 45+ to sweep Dewgong, Cloyster, and Lapras. Teach TM14 Blizzard to Gemmy (Blastoise) to deal neutral high damage or check Jynx if needed.
+- **Bruno (Fighting/Rock Specialist)**:
+  - *Team Profile*: Onix (Rock/Ground) x2, Hitmonchan (Fighting), Hitmonlee (Fighting), Machamp (Fighting).
+  - *Key Weaknesses*: Water (Surf/Hydro Pump) and Grass (SolarBeam) completely obliterate Onix. Psychic (Psychic) is highly effective against the Fighting-types. Flying (Fly) is effective against the Fighting-types.
+  - *Strategic Response*: Gemmy (Blastoise) sweeps Onix easily with Surf. Buggy (Butterfree) with TM29 Psychic can deal with the Fighting-types, or Birbie (Pidgeotto) with Fly.
+- **Agatha (Ghost/Poison Specialist)**:
+  - *Team Profile*: Gengar (Ghost/Poison) x2, Golbat (Poison/Flying), Haunter (Ghost/Poison), Arbok (Poison).
+  - *Key Weaknesses*: Ground (Earthquake/Dig) is super effective against Gengar, Haunter, and Arbok. Psychic (Psychic) is super effective against Golbat, Gengar, Haunter, and Arbok.
+  - *Strategic Response*: Gemmy (Blastoise) sweeps with DIG (or TM26 Earthquake if taught). Buggy (Butterfree) with TM29 Psychic can sweep Golbat and other Poison types.
+- **Lance (Dragon Specialist)**:
+  - *Team Profile*: Gyarados (Water/Flying), Dragonair (Dragon) x2, Aerodactyl (Rock/Flying), Dragonite (Dragon/Flying).
+  - *Key Weaknesses*: Ice (Blizzard) is 4x super effective against Dragonite and 2x super effective against Dragonair and Aerodactyl. Electric (Thunderbolt) is 4x super effective against Gyarados and 2x against Aerodactyl. Rock is super effective against Gyarados, Aerodactyl, and Dragonite.
+  - *Strategic Response*: Teaching TM14 Blizzard to Gemmy (Blastoise) is absolutely critical to sweep the Dragonairs and Dragonite. Sparky (Pikachu) deals with Gyarados and Aerodactyl.
+- **Champion Blue (Balanced Team)**:
+  - *Team Profile*: Pidgeot (Normal/Flying), Alakazam (Psychic), Rhydon (Ground/Rock), Gyarados (Water/Flying), Arcanine (Fire), Venusaur (Grass/Poison).
+  - *Key Weaknesses*: Ice (Blizzard) beats Pidgeot, Rhydon, Venusaur. Water (Surf) beats Rhydon, Arcanine. Electric (Thunderbolt) beats Pidgeot, Gyarados. Ground (Dig/Earthquake) beats Alakazam, Rhydon, Arcanine.
+  - *Strategic Response*: Highly optimized moveset on Gemmy (Surf, Blizzard, Dig/Earthquake) can cover almost the entire team. Sparky (Pikachu) handles Pidgeot and Gyarados. Buggy (Butterfree) with Psychic can cover Venusaur.
+
 <hr>
 
 <h1><code>Locations/Route23</code></h1>
