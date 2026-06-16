@@ -7407,6 +7407,7 @@ All checkpoints on Route 22 have been successfully completed and verified. See L
 - **Rainbow Badge Check**: Passed on Turn 96889. Checked by guard NPC at (12, 105). Map marker placed at (12, 105).
 - **Soul Badge Check**: Passed on Turn 96909. Checked by guard NPC at (11, 96). Map marker placed at (11, 96).
 - **Marsh Badge Check**: Passed on Turn 96923. Checked by guard NPC at (8, 85). Map marker placed at (8, 85).
+- **Volcano Badge Check**: Passed on Turn 96959. Checked by guard NPC at (10, 56). Map marker placed at (10, 56).
 
 ## Pathing & Layout Details:
 - Vertical corridor on Columns 6, 7, 8, 9 is passable from Row 139 to Row 132.
