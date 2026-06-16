@@ -13,5 +13,31 @@
         "action_counter": 75876
       }
     ]
+  },
+  "press_custom_buttons": {
+    "description": "Presses a list of buttons and sleeps, avoiding the automatic dialogue advance.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "buttons_list": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "An array of buttons (e.g., 'A', 'B', 'Up', 'Down', 'sleep 1000') to press."
+        }
+      },
+      "required": [
+        "buttons_list"
+      ]
+    },
+    "python_script": "import json\nimport sys\ntry:\n    input_data = json.loads(sys.argv[1])\n    buttons = input_data.get(\"buttons_list\", [])\n    print(json.dumps(buttons))\nexcept Exception as e:\n    print(json.dumps([]))\n",
+    "history": [
+      {
+        "commit_message": "Define a custom tool to press buttons without triggering the automatic dialogue advance.",
+        "timestamp": "2026-06-16T19:53:12.201Z",
+        "action_counter": 96272
+      }
+    ]
   }
 }
