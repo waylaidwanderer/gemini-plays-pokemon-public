@@ -7438,6 +7438,12 @@ All checkpoints on Route 22 have been successfully completed and verified. See L
   - Walk West along Row 48 from (12, 48) to check the left side of the map and find the shoreline.
   - **Turn 97026**: Initiating movement. Row 48 is verified passable (TYPE_3fe2) from Column 12 down to Column 8.
 
+- **Bypassing the Row 43 Barrier (Turns 97031-97049)**:
+  - Backtracked West along Row 48 to (2, 48).
+  - Discovered that Columns 6 and 7 form a completely unblocked, 2-tile wide grassy vertical corridor (TYPE_3fe2) running from Row 48 to Row 44.
+  - Moved to (6, 44) facing Up on Turn 97049.
+  - **Results**: The vertical Column 6/7 corridor is open green grass on land, continuing North through Row 43, 42, 41, and 40 (all TYPE_3fe2), bypassing the solid rock walls of TYPE_2889 present on either side. There is no water yet at this height on Columns 6 and 7.
+
 <hr>
 
 <h1><code>Scratchpad/VictoryRoad_Route</code></h1>
