@@ -7553,4 +7553,15 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   - Currently standing at (21, 15) on the stairs facing Down.
   - Active Plan: Step Down to (21, 16) and walk West across the central plateau along Row 16 to (15, 16), then go Up onto (15, 15) to descend to the western ground floor.
 
+- **Turn 100468 Partition Bypass Analysis**:
+  - We analyzed the current screen Turn 100468 and mapped out the exact rock wall boundaries on 2F:
+    - Column 14 has rock walls (TYPE_2889) at Rows 6-7.
+    - Column 15 has rock walls (TYPE_2889) at Rows 8-11.
+    - Row 12 is unblocked cavern floor (TYPE_2770) from Column 13 to Column 18.
+    - Column 16 is unblocked checkerboard floor (TYPE_3fe2) from Row 11 to Row 6.
+  - This establishes a direct ground-level bypass from the western ground floor to the eastern/northeastern ground floor!
+  - **Verification Method**: Step Down to (13, 12), walk Right to (16, 12), step Up to (16, 11), and walk Up along Column 16 to Row 7.
+  - **Path**: ['Down', 'Down', 'Right', 'Right', 'Right', 'Up', 'Up', 'Up', 'Up', 'Up', 'Right', 'Right']
+  - We will execute this sequence to reach (18, 7) on the northeast ground level.
+
 <hr>
