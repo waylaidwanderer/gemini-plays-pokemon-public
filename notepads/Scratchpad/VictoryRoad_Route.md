@@ -22,15 +22,15 @@
 
 ### Victory Road 2F Map (Map 0_194):
 - **Active State**: In Progress
-  - **Current Position**: (14, 16) facing Left (Turn 100231)
+  - **Current Position**: (11, 16) facing Left (Turn 100239)
 - **Strength Status**: Active: [x] True
 - **Boulders Database**:
   - Boulder B1: Initial (5, 5) | Current (5, 5) | Status: Unmoved
   - Boulder B2: Initial (4, 14) | Current (1, 16) | Status: [x] Pushed onto Switch B1
-  - Dropped Boulder (from 3F): Initial (23, 16) | Current (12, 16) | Status: Pushed Left along Row 16 towards Switch B2
+  - Dropped Boulder (from 3F): Initial (23, 16) | Current (9, 16) | Status: [x] Pushed onto Switch B2 (Turn 100239)
 - **Floor Switches**:
   - Switch B1: Coordinate (1, 16) | State: [x] Pressed (secured with Boulder B2)
-  - Switch B2: Coordinate (9, 16) | State: [ ] Unpressed (requires Dropped Boulder)
+  - Switch B2: Coordinate (9, 16) | State: [x] Pressed (secured with Dropped Boulder)
 
 ### Victory Road 3F (Map 0_198):
 - **Active State**: Historical (Turn 100156)
