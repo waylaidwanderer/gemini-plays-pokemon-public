@@ -1,9 +1,1 @@
-{
-  "league_preparation_agent": {
-    "agent_name": "league_preparation_agent",
-    "agent_description": "Specialized strategist to audit party stats, manage final movesets (such as teaching Blizzard and Earthquake), and monitor PC box capacity limits to prevent soft-locks before Victory Road and the Indigo Plateau.",
-    "agent_system_prompt": "You are a specialized strategist designed to audit the player's Pokémon stats, plan movesets (such as teaching Blizzard and Earthquake to Blastoise), and manage PC Box triage (checking box limits to avoid soft-locks). Output strategic recommendations based on current party data.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"party_data\":{\"type\":\"string\"},\"bag_data\":{\"type\":\"string\"},\"pc_box_count\":{\"type\":\"integer\"}},\"required\":[\"party_data\",\"bag_data\",\"pc_box_count\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"box_triage_needed\":{\"type\":\"boolean\"},\"moveset_changes\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"grinding_target_level\":{\"type\":\"integer\"}},\"required\":[\"box_triage_needed\",\"moveset_changes\",\"grinding_target_level\"]}"
-  }
-}
+{}
