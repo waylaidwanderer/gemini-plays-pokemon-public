@@ -21,9 +21,9 @@
   - Boulder A2: Initial (14, 2) | Current (10, 2) | Target (10, 2) | Status: [ ] Active
 
 ### Victory Road 2F Map (Map 0_194):
-- **Active State**: Historical (Returned to 3F)
-  - **Current Position**: (18, 7) facing Left (Turn 100711)
-- **Strength Status**: Active: [x] True
+- **Active State**: In Progress
+  - **Current Position**: (23, 7) facing Down (Turn 100801)
+- **Strength Status**: Active: [ ] False
 
 ### Victory Road 2F Boulders & Switches:
 - **Boulders Database**:
@@ -35,8 +35,8 @@
   - Switch B2: Coordinate (9, 16) | State: [x] Pressed (secured with Dropped Boulder)
 
 ### Victory Road 3F Map (Map 0_198):
-- **Active State**: In Progress
-  - **Current Position**: (23, 7) facing Down (Turn 100732)
+- **Active State**: Completed
+  - **Current Position**: (23, 7) facing Down (Turn 100787)
 - **Boulders Database**:
   - Boulders are reset back to default starting positions (boulder C2 at (24, 10), boulder C4 at (13, 12)).
 - **Floor Switches & Holes**:
