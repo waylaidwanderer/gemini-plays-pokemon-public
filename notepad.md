@@ -7529,32 +7529,31 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 ## Victory Road 2F Exploration Phase (Started Turn 98165)
 - Floor: Victory Road 2F (Map 0_194) | Strength Active: [x] True (Activated on Turn 98245)
 - Initial Position: (0, 8) facing Right.
-- Current Position: (7, 7) facing Down (Turn 98317)
+- Current Position: (5, 10) facing Up (Turn 98371)
 - Explored Pathway:
   - Traversed from (0, 8) to (5, 7) (Row 7, Columns 0-5).
   - Traversed Row 7 Left from (5, 7) to (1, 7).
   - Bypassed solid rock at (1, 8) by moving Right to (2, 7) -> Down to (2, 8) -> Down to (2, 9).
-  - Explored southwest Western Chamber down to (1, 16).
-  - Mapped (1, 16) as a passable Switch plate (Switch B1) rather than a pitfall hole.
-  - Returned to (3, 9) on Turn 98240 and successfully activated overworld Strength.
-  - Moved from (3, 11) up to (3, 7) then east along Row 7 to (7, 7). Triggered a wild Graveler battle on (7, 7) which was successfully fled from on Turn 98305.
+  - Explored southwest Western Chamber down to (1, 16). Confirmed Switch B1 exists at (1, 16) and is passable.
+  - Returned to (5, 7) and successfully activated overworld Strength.
+  - Moved from (7, 7) Left to (3, 7) -> Down to (3, 11) -> Right to (5, 11) -> Up onto the stairs at (5, 10).
 - Boulders Logged:
   - Boulder B1: Verified at (5, 5) | Status: Unmoved | Strength Active: [x] True
   - Boulder B2: Verified at (4, 14) | Status: Unmoved | Strength Active: [x] True
 - Floor Switches Logged:
   - Switch B1: Coordinate (1, 16) | State: [ ] Pressed (requires Boulder B2)
   - Switch B2: Coordinate (9, 16) (Visual duplicate of Switch B1, to be verified)
-- Socratic 2F Western Chamber Mapping Plan:
-  - Objective: Systematically map the boundaries and accessible tiles of the western chamber (Columns 0-3, Rows 9-11) on foot to identify hidden switch plates or passages, and verify if 2F features a custom multi-boulder puzzle.
-  - Coordinate-by-Coordinate Verification Path:
-    1. From (2, 9), step Left to (1, 9), then Left to (0, 9) to test passability of the western-most column. (Completed: Turn 98212. Verified passable.)
-    2. Backtrack to (1, 9), step Down to (1, 10), then Down to (1, 11). (Completed: Turn 98215. Verified passable.)
-    3. From (1, 11), step Left to (0, 11) to check if the corner is passable or if there is a switch. (Updated: (0, 11) is solid rock TYPE_2889. Skipped.)
-    4. From (1, 11), step Right to (2, 11), then Right to (3, 11) to inspect the bottom right of the western chamber. (Completed: Turn 98221.)
-    5. From (3, 11), step Up to (3, 10) and then Up to (3, 9). (Completed: Turn 98240.)
-    6. Log the status of every tile to confirm whether a switch plate exists in this western pocket. (Completed: Confirmed Switch B1 exists at (1, 16) and is passable, not a hole.)
-    7. Once mapped, if no switch exists here, we will return to (5, 7) to activate Strength and proceed with pushing Boulder B1 at (5, 5). (Completed: Returned and activated Strength.)
-  - New Observation (Turn 98215): Detected a circular orange-brown object at (4, 14). We will route to (4, 13) to inspect this object from adjacent tiles. (Completed: Confirmed as Boulder B2.)
+
+## Eastern Plateau & Lower Floor Systematic Verification Protocol (Turn 98371 Plan):
+- **Objective**: Systematically map, test, and log the coordinates of the eastern plateau and ground floor (Columns 6-20) to find Switch B2 and check interaction rules before making physical pushes.
+- **Protocol Steps**:
+  1. **Plateau Climb & Col 7 Stairs Test**: Move Up onto (5, 9) (plateau) -> Right to (6, 9) -> Right to (6, 8) -> Right to (7, 8) (top of Column 7 stairs). Test if we can walk South down the stairs to (7, 7) (ground level) and back up. This proves the stairs' physical properties.
+  2. **Eastern Plateau Boundary Mapping**: Walk East on Row 8 from (8, 8) to (12, 8), staying above the Juggler/Super Nerd trainer at (12, 9) (who faces Left) to map the elevated boundaries.
+  3. **Trainer Engagement**: Defeat the trainers at (11, 5) (Cooltrainer♀ facing Down) and (12, 9) (Juggler/Super Nerd facing Left) to secure the central and eastern chambers.
+  4. **Item Retrieval**: Collect the floor item at (9, 11) and log its identity.
+  5. **Switch B2 Search & Verification**: Locate and physically step onto the coordinates of Switch B2 (likely at Y=16 on the east side) to confirm its passability and exact tile properties.
+  6. **Boulder Push Planning**: Only after all boundaries and switches are verified, formulate precise push vectors for Boulder B1 at (5, 5) and Boulder B2 at (4, 14).
+
 - **Socratic 2F Central/Eastern Verification Plan (Turn 98271)**:
   - Objective: Systematically explore and verify the central and eastern sections of Victory Road 2F (Columns 4-20) to find Switch B2 and check for additional puzzle elements.
   - Coordinate-by-Coordinate Verification Path:
