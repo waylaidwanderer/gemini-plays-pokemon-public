@@ -7499,6 +7499,6 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   - We are on foot at (6, 32) on Route 23.
   - We are positioned right next to the cave entrance at (4, 31).
   - GEMMY is fully healed. We are ready to step inside!
-- **Floor: Victory Road 1F | Turn: 97593 | Strength Active: [ ] False (Needs Reactivation)**
+- **Floor: Victory Road 1F | Turn: 97593 | Strength Active: [x] True**
 
 <hr>
