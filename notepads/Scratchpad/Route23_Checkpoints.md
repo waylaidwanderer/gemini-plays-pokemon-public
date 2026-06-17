@@ -29,11 +29,13 @@
   - **Results**: Checkpoint successfully verified and cleared! The guard remains at (4, 35), but the vertical path north on Columns 3 and 5 are completely open land (all TYPE_3fe2 passable grass) leading north to Row 32, meaning we do not need to Surf.
 
 ### Victory Road Preparation and PC Box Action Plan
-- **Current Box Status**: Box 1 is currently at 18/20. To prevent a soft-lock where we cannot catch any new wild Pokémon in Victory Road or beyond, we must swap boxes before proceeding with any captures.
-- **Current Bag Optimization**: Teaching TM14 (Blizzard) to GEMMY (Blastoise) to replace BITE. This is in progress on Turn 97117.
+- **Current Box Status**: Box 2 is currently active and empty (0/20) as of Turn 97157, completely eliminating any box full / catch soft-locks!
+- **Current Bag Optimization**: TM14 (Blizzard) has been successfully taught to GEMMY (Blastoise) in place of BITE.
 - **Action Plan**:
-  1. Complete teaching TM14 Blizzard to Blastoise.
-  2. Navigate north to Row 31 and take the warp at (4, 31) to enter Victory Road 1F.
+  1. Teach TM29 (Psychic) to BUGGY (Butterfree). [In progress]
+  2. Teach TM26 (Earthquake) to GEMMY (Blastoise) in place of DIG. [Pending]
+  3. Exit the Pokémon Center, use the Bicycle, and ride north up Route 23 to re-enter Victory Road 1F.
+  4. Track and solve the boulder and switch puzzles inside Victory Road.
   3. Once Victory Road 1F is successfully entered (marking the checkpoint), use DIG to immediately warp back to the Viridian City Pokémon Center.
   4. At the Viridian Pokémon Center:
      - Heal the party at Nurse Joy's counter (restoring fainted BIRBIE and GEMMY's HP/PP).
