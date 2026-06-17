@@ -48,13 +48,7 @@
 - **Conclusion**: Switch C1 at (3, 5) does NOT open the Column 7 gates. Its function is elsewhere, likely lowering a barrier on the East or Northeast side of 3F.
 - **Active Strategy**: Pivot immediately to Contingency A. Walk East along the Row 1 corridor to investigate if any eastern or northeast barrier was lowered, or if there is another switch/trigger on the East side.
 ## Socratic Verification of Item (18, 9) Collection:
-- **Hypothesis**: The player stood at (18, 10) facing Up on Turn 98639 and pressed 'A' to collect the item at (18, 9). Since our inventory was at 20/20 and no stackable quantities changed, we must verify if the item was successfully collected or if it remained on the floor due to a full bag.
-- **Empirical Test Protocol**:
-  - We will transition floors (e.g., take the ladder at (27, 7) to 3F and re-enter 2F) to trigger a map/sprite reset.
-  - We will walk back to (18, 10) and check if the Poké Ball sprite at (18, 9) is visible.
-  - If the Poké Ball is visible, our collection failed due to a full bag. We must free a slot (e.g., use a Calcium, Carbos, or Iron on a Pokémon, or use an Elixir, or toss a fainted Pidgeotto's Great Ball if allowed? No, we can just use Calcium/Carbos/Iron on Gemmy to instantly free a slot!) and re-collect it.
-  - If the Poké Ball is gone, the collection was successful.
-- **Status**: Pending floor transition.
+- **Result**: Checked on Turn 100801: item (18, 9) has been successfully collected.
 
 ## Archive: Completed Pushing Logs & Discoveries
 - **TM05 Collection**: Collected TM05 at (9, 11) on Turn 98542.
