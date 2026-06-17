@@ -60,9 +60,8 @@
   - Earthquake: 4/10 PP
   - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
 
-## Active Progress & Current Plan (Turn 100817):
-- **Current Task**: Navigate Victory Road 2F. We are in the isolated northeast section at (23, 7). To reach the west side and exit Victory Road via the ladder at (0, 8), we must walk south to the plateau stairs at (21, 15) on the East side, climb up and cross the plateau crossover to the west stairs at (15, 15), descend to the west side, and proceed to (0, 8).
-- **Step-by-Step Path from (23, 7) to (21, 15)**:
-  1. Walk Down 4 steps along Column 23 to (23, 11).
-  2. Walk Left 2 steps along Row 11 to (21, 11).
-  3. Walk Down 4 steps along Column 21 to reach (21, 15) and stand on the Eastern Plateau Stairs.
+## Active Progress & Current Plan (Turn 100892):
+- **Current Task**: Navigate Victory Road 2F. We are at (16, 11) on the upper checkerboard level. We must find a way to descend to the lower cavern level (Row 12-14) to reach the Western Plateau Stairs at (15, 15) or Eastern Plateau Stairs at (21, 15) on the East side.
+- **Step-by-Step Detour Path**:
+  - Test if we can step Down from (16, 11) to (16, 12).
+  - Walk to (15, 15) or (21, 15) once descended.
