@@ -7473,7 +7473,7 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 
 ### Victory Road 3F (Map 0_198):
 - **Active State**: In Progress (Moving to Ground Floor)
-- **Current Position**: (3, 4) on overworld (Turn 99157)
+- **Current Position**: (4, 4) in battle (Turn 99172)
 - **Strength Status**: Active [x]
 - **Landing Position**: (23, 7)
 - **Warp Translation**: Ladder at (27, 7) on 2F (Map 0_194) connects to landing spot at (23, 7) on 3F (Map 0_198).
