@@ -7524,11 +7524,12 @@ We successfully pushed Boulder A onto Switch A! All obsolete multi-line plans fo
   - Walk the perimeter of the immediate accessible ground to map the boundaries before taking plateaus or long paths.
   - Avoid pushing any boulder into corners, walls, or 1-tile bottlenecks until the entire floor layout, the active switch, and the optimal push vectors have been verified.
 - **Backtrack/Reset Rule**: If any boulder becomes irreversibly stuck (e.g. against a corner or solid wall where it cannot be pushed), use the ladder/stairs to transition back to 1F and return to 2F to fully reset the boulder coordinates.
+
 ## Victory Road 1F Warp Test Log:
 - We are currently standing at (17, 2).
-- The ladder graphic is on (18, 2) and (19, 2) (which are TYPE_2889 solid rock wall tiles).
-- This indicates the ladder is on the wall. To interact with it, we must stand in front of it at (18, 3) facing UP, and walk UP into (18, 2).
-- Let's execute this path: Down to (17, 3), Right to (18, 3), Up to (18, 2).
-- If successful, this should warp us to Victory Road 2F.
+- Tested stand-in-front and face UP on (18, 3) facing (18, 2) on Turn 97915. Result: BUMPED, (18, 2) acts as a solid rock wall and is impassable.
+- Tested stepping onto (17, 2) on Turn 97914. Result: Did not warp.
+- The northeast corner does not contain an active warp or accessible ladder under the current state.
+- Proceeding to bypass the (14, 2) boulder to explore the western ground floor and retrieve the item ball at (11, 0).
 
 <hr>
