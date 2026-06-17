@@ -65,9 +65,6 @@
   - **Validation**: Formulate a step-by-step push planning sequence before applying any force.
 
 ## Active Exploration Route & Plan:
-- **Core Realization (Turn 99377) & Empirical Disproof (Turn 99678)**:
-  - *Initial Hypothesis*: We hypothesized that the switch at (3, 5) opens the Column 7 gates.
-  - *Empirical Disproof (Turn 99678)*: Even with Boulder C1 resting on Switch C1 at (3, 5), the gate at (7, 8) and (7, 9) remained CLOSED and Boulder C3 at (7, 7) could not be pushed. Thus, Switch C1 at (3, 5) does NOT open the Column 7 gates. Its actual function is either to open a barrier on the east side, or there is another switch/puzzle element we need to trigger.
 - **Active Exploration Strategy**:
   - We are currently exploring the East wing of 3F to inspect the southeastern and northeastern areas, locate Boulder C2 at (24, 10) and Boulder C4 at (13, 12), and search for any other active switches or paths that lead to solving the floor.
 
