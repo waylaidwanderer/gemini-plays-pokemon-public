@@ -89,7 +89,7 @@
 ## Victory Road 2F Exploration Phase (Started Turn 98165)
 - Floor: Victory Road 2F (Map 0_194) | Strength Active: [x] True (Activated on Turn 98245)
 - Initial Position: (0, 8) facing Right.
-- Current Position: (5, 15) facing Left (Turn 98398)
+- Current Position: (3, 14) facing Down (Turn 98401)
 - Explored Pathway:
   - Traversed from (0, 8) to (5, 7) (Row 7, Columns 0-5).
   - Traversed Row 7 Left from (5, 7) to (1, 7).
@@ -100,6 +100,8 @@
   - Climbed onto the plateau at (5, 9), walked to (6, 8) and verified that the Column 7 stairs (7, 8) / (7, 9) are closed barrier gates (TYPE_de37) that block horizontal passage when active.
   - Returned down the stairs at (5, 10) to (5, 11) and walked to (4, 13) adjacent to Boulder B2 at (4, 14).
   - Executed Push 1 of the puzzle on Turn 98392, pushing Boulder B2 south to (4, 15).
+  - Navigated to (5, 15) and executed Push 2 of the puzzle on Turn 98397, pushing Boulder B2 west to (3, 15).
+  - Navigated to (3, 14) on Turn 98399 to set up for Push 3.
 - Boulders Logged:
   - Boulder B1: Verified at (5, 5) | Status: Unmoved | Strength Active: [x] True
   - Boulder B2: Verified at (4, 15) | Status: Pushed Down once | Strength Active: [x] True
