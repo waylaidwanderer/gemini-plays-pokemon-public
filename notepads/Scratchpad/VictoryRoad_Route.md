@@ -22,7 +22,7 @@
 
 ### Victory Road 2F Map (Map 0_194):
 - **Active State**: In Progress
-  - **Current Position**: (20, 11) facing Down (Turn 100874)
+  - **Current Position**: (16, 11) facing Left (Turn 100887)
 - **Strength Status**: Active: [ ] False
 
 ### Victory Road 2F Boulders & Switches:
