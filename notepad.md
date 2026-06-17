@@ -87,6 +87,12 @@
   - Enter and navigate Victory Road (Map 0_183 and others) to reach Indigo Plateau.
   - Challenge the Elite Four and Rival Blue to become the Pokémon Champion!
 
+## Completed Optimization Tasks:
+- Changed active box to empty Box 2 (0/20) on Turn 97157.
+- Taught TM29 (Psychic) to BUGGY (Butterfree) on Turn 97174.
+- Taught TM26 (Earthquake) to GEMMY (Blastoise) on Turn 97182, replacing DIG.
+- Fully healed team at Viridian Pokémon Center.
+
 <hr>
 
 <h1><code>Archive/Route2_GrindingHistory</code></h1>
