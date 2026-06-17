@@ -83,3 +83,11 @@ We successfully pushed Boulder A onto the main Row 14 corridor!
   1. Once Boulder A is safely resting on Switch A at (17, 13), we will navigate West/Northwest around the plateaus to find stairs up.
   2. We will trace coordinates and verify tile types on every step. We must avoid stepping onto any one-way ledge drop-off tiles (TYPE_44f6) that descend from plateaus to lower floors, as jumping down would force us to backtrack and exit the map, resetting the boulder.
   3. We will explore the eastern region's plateaus and staircase entries, recording each elevation level as we climb, and safely navigate to the 2F stairs on the northeast plateau. No blind jumps or movements.
+Turn 97750: Floor: Victory Road 1F | Strength Active: [x] True.
+Standing at (13, 14) directly to the Left of Boulder A at (14, 14).
+Plan:
+1. Press Right to push Boulder A from (14, 14) to (15, 14). Player remains at (13, 14).
+2. Move Right to (14, 14).
+3. Press Right to push Boulder A from (15, 14) to (16, 14). Player remains at (14, 14).
+4. Move Down to (14, 15), Right to (15, 15), Right to (16, 15) to stand directly below the boulder.
+This is fully mapped and unblocked. No blind pushes. Checking coordinates on every turn.
