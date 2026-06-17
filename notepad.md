@@ -7306,6 +7306,11 @@ All checkpoints on Route 22 have been successfully completed and verified. See L
     2. Walk Up 2 steps past the fence opening at (5, 11) to Row 10 -> (5, 10).
     3. Walk Right 6 steps on Row 10 to Column 11 -> (11, 10).
     4. Walk Up 2 steps through the ledge gap at (11, 9) to Row 8 -> (11, 8).
+- **Turn 97366**: Reached (4, 12) facing Left. Corrected plan to use Column 4 instead of Column 5, as we are already at Column 4 and it is completely open to the north.
+- **Updated Plan**:
+  1. Walk Up 2 steps on Column 4 to Row 10 -> (4, 10).
+  2. Walk Right 7 steps on Row 10 to Column 11 -> (11, 10).
+  3. Walk Up 2 steps through the ledge gap at (11, 9) to Row 8 -> (11, 8).
 
 <hr>
 
