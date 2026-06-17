@@ -39,6 +39,14 @@
 - **Boulder B1 Pushing Strategy & Path (The "Northeast Switch" Plan)**:
   - Boulder B1 starting coordinate: **(5, 5)**.
   - Switch B2 coordinate: **(9, 16)**.
+  - **Bottleneck Resolution at (9, 9)**:
+    - We must first inspect and verify the physical position of the defeated Black Belt on Column 9.
+    - If the Black Belt is standing at (9, 9) and is solid, he blocks Column 9.
+    - In this case, we cannot push the boulder directly down Column 9.
+    - Socratic Mitigation Hypothesis:
+      - We must verify if the Black Belt is actually standing at (9, 9), or if he engaged us from a different tile (e.g. 9, 8 or 9, 10), leaving Column 9 passable at (9, 9).
+      - If he blocks Column 9, we will investigate if the boulder can be pushed through an adjacent column (like Column 10 or 8), or if we can manipulate his position by resetting the floor, or if there is another puzzle route.
+      - We will proceed to walk Left along Row 11 to (18, 11) first to collect the TM/Poke Ball and visually inspect the bottleneck at Column 9.
   - Let's map the path from (5, 5) to (9, 16):
     - Wait! We need to walk to (5, 5) first.
     - We are currently at (19, 12).
