@@ -127,3 +127,12 @@
   - Push 3: Pushed Down from (3, 15) to (3, 16) [Turn 98402]
   - Push 4: Pushed Left from (3, 16) to (2, 16) [Turn 98411]
   - Push 5: Pushed Left from (2, 16) onto Switch B1 at (1, 16) [Turn 98419]
+
+## Empirical Boulder C3 (7, 7) Exploration and Testing Plan:
+- **The Challenge**: The overwatch agent notes a potential contradiction: Boulder C3 is at (7, 7). If we push it south towards the pit at (7, 10), are (7, 8) and (7, 9) solid rock walls of TYPE_2889 or temporary barrier gates?
+- **Our Plan**:
+  1. Stand at (7, 6) facing Down.
+  2. Visually inspect the screen to check the tile type of (7, 7) (Boulder), (6, 7), (8, 7), and (7, 8).
+  3. If (7, 8) is a solid rock wall, we cannot push the boulder south.
+  4. Test if (7, 8) is a barrier gate that can be lowered. Since 2F has barrier gates lowered by floor switches, check if there is a floor switch on 3F that lowers it (such as the one at (3, 5)), or if (7, 8) is already open floor/barrier on 3F!
+  5. We will document the exact tile types and push results at each step.
