@@ -33,7 +33,7 @@
 
 ### Victory Road 3F (Map 0_198):
 - **Active State**: In Progress (Moving to Ground Floor)
-- **Current Position**: (20, 6) facing Up (Turn 98943)
+- **Current Position**: (3, 5) facing Down (Turn 99006)
 - **Strength Status**: Active [x]
 - **Landing Position**: (23, 7)
 - **Warp Translation**: Ladder at (27, 7) on 2F (Map 0_194) connects to landing spot at (23, 7) on 3F (Map 0_198).
@@ -44,6 +44,7 @@
   - Boulder C4 (East Lower): Initial (13, 12) | Current (13, 12) | Status: Unmoved (on ground floor Column 13)
 - **Floor Switches & Holes**:
   - Pit Hole: Coordinate (7, 10) | State: Open [x] (verified on Turn 98869)
+  - Switch C1: Coordinate (3, 5) | State: Pressed [x] (Verified Turn 99000: Standing on the switch at (3, 5) does NOT change the tile type of (7, 8) or any other visible tiles on the west side. It likely controls a barrier on the east or northeast side of 3F).
 
 ## Socratic Verification Protocol for Victory Road 3F:
 - **Objective 1**: Discover and verify the location of all floor switches and holes on 3F.
