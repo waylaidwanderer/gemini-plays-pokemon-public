@@ -7540,10 +7540,13 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   - Earthquake: 4/10 PP
   - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
 
-- **Turn 100501 Progress**:
-  - **Empirical Test Results**:
-    - Turn 100485: Walking Up from (16, 12) (cavern floor) to (16, 11) (checkerboard) resulted in a BUMP. Cliff face blocks crossover on Column 16.
-    - Turn 100499: Walking Up from (24, 12) (cavern floor) to (24, 11) (checkerboard) resulted in a BUMP. Cliff face blocks crossover on Column 24.
-  - **Active Plan**: Walk Right to (25, 12) and try to walk Up to (25, 11). If blocked, try (26, 12) -> (26, 11). If any are passable, walk West along Row 11 to Column 23, and walk North along Column 23 to (23, 7).
+- **Turn 100511 Progress**:
+  - **Empirical Test Results (All Blocked)**:
+    - Turn 100485: Walking Up from (16, 12) to (16, 11) resulted in a BUMP.
+    - Turn 100499: Walking Up from (24, 12) to (24, 11) resulted in a BUMP.
+    - Turn 100504: Walking Up from (25, 12) to (25, 11) resulted in a BUMP.
+    - Turn 100506: Walking Up from (26, 12) to (26, 11) resulted in a BUMP.
+    - **Conclusion**: The entire Row 11-12 boundary across Columns 16-26 is an impassable vertical cliff face. The northeast ground-floor area on 2F is completely isolated on foot.
+  - **Active Plan**: Walk to (25, 14) and take the ladder warp to 3F. From 3F (27, 15), we will walk to the (23, 15) hole, drop down to 2F (22, 16), and push the reset dropped boulder (at (23, 16)) onto Switch B2 at (9, 16) to lower the 2F northeast barrier. Once lower, we will walk to the 2F northeast ladder (27, 7) via 3F (23, 7) and take the final exit.
 
 <hr>
