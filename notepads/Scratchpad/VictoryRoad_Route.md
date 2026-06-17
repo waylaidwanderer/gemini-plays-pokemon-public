@@ -51,12 +51,7 @@
 - **Result**: Checked on Turn 100801: item (18, 9) has been successfully collected.
 
 ## Archive: Completed Pushing Logs & Discoveries
-- **Boulder B2 Pushing Log (Switch B1 at 1, 16) [Turn 98419]**:
-  - Push 1: Pushed Down from (4, 14) to (4, 15) [Turn 98392]
-  - Push 2: Pushed Left from (4, 15) to (3, 15) [Turn 98397]
-  - Push 3: Pushed Down from (3, 15) to (3, 16) [Turn 98402]
-  - Push 4: Pushed Left from (3, 16) to (2, 16) [Turn 98411]
-  - Push 5: Pushed Left from (2, 16) onto Switch B1 at (1, 16) [Turn 98419]
+- **Boulder B2 Pushing Log (Switch B1 at 1, 16) [Turn 98419]**: Already completed.
 
 ## Gen 1 Boulder Pushing Animation/Timing Note:
 - When pushing a boulder, the movement animation takes some frames. Sending consecutive movement presses too quickly (e.g., standard 500ms overworld presses) can cause the engine to ignore subsequent pushes because the boulder is still moving.
