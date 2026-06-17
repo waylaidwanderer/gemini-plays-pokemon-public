@@ -32,9 +32,9 @@
   - Switch B2: Coordinate (9, 16) | State: [ ] Unpressed (requires Boulder B1)
 
 ### Victory Road 3F (Map 0_198):
-- **Active State**: In Progress (Explored Southwest Plateau)
-- **Current Position**: (10, 10) facing Down (Turn 98887)
-- **Strength Status**: Deactivated
+- **Active State**: In Progress (Moving to Ground Floor)
+- **Current Position**: (17, 4) facing Right (Turn 98914)
+- **Strength Status**: Active [x]
 - **Landing Position**: (23, 7)
 - **Warp Translation**: Ladder at (27, 7) on 2F (Map 0_194) connects to landing spot at (23, 7) on 3F (Map 0_198).
 - **Boulders Database**:
@@ -71,6 +71,17 @@
 - **Candidate Boulder**: Boulder C3 at (7, 7) on 3F.
   - Since Boulder C3 is at (7, 7) in the vertical Column 7 corridor, we can push it south: (7, 7) -> (7, 8) -> (7, 9) -> (7, 10), dropping it straight into the 3F Pit Hole at (7, 10).
   - Note: Before pushing, we must reactivate overworld STRENGTH.
+
+### Ground Floor Pathway Route to Boulder C3 (Turn 98914):
+- **Landing Coordinate**: (17, 6) [ground floor level]
+- **Pathway to Column 7**:
+  - Walk Right along Row 6 to (20, 6): (17, 6) -> (18, 6) -> (19, 6) -> (20, 6) (all TYPE_3fe2).
+  - Walk North along Column 20 to Row 1: (20, 6) -> (20, 5) -> (20, 4) -> (20, 3) -> (20, 2) -> (20, 1) (all TYPE_3fe2).
+  - Walk West along Row 1 to Column 7: (20, 1) -> (19, 1) -> (18, 1) -> (17, 1) -> (16, 1) -> (15, 1) -> (14, 1) -> (13, 1) -> (12, 1) -> (11, 1) -> (10, 1) -> (9, 1) -> (8, 1) -> (7, 1) (all TYPE_3fe2).
+  - Walk South along Column 7 to (7, 6): (7, 1) -> (7, 2) -> (7, 3) -> (7, 4) -> (7, 5) -> (7, 6) (all TYPE_3fe2).
+  - Stand at (7, 6) facing Down towards Boulder C3 at (7, 7).
+- **Obstacle Check**:
+  - Rows 1-7, Column 7 to 20 contains no solid rock walls (TYPE_2889) or barriers on the specified pathway. The pathway consists entirely of standard passable ground floor floor tiles of TYPE_3fe2. It is completely clear.
 
 ## Active Exploration Route & Plan:
 - **Goal**: Navigate and solve 3F puzzle.
