@@ -7492,4 +7492,15 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   - Push 4: Pushed Left from (3, 16) to (2, 16) [Turn 98411]
   - Push 5: Pushed Left from (2, 16) onto Switch B1 at (1, 16) [Turn 98419]
 
+## Socratic 2F Second Barrier & Switch B2 Hypothesis:
+- **Observation**: A second closed barrier gate of TYPE_de37 is located at (23, 14), directly blocking the ladder/stairs at (23, 15) in the southeast corner.
+- **Hypothesis**: The gate at (23, 14) is controlled by a second floor switch (Switch B2) on the eastern side. Boulder B1, located at (5, 5) on the ground level, must be pushed onto Switch B2 to lower this gate and unlock access to the exit ladder at (23, 15), which likely leads to 3F.
+- **Verification Plan**:
+  1. Complete the battle with Juggler at (21, 13).
+  2. Locate the stairs/ladder leading down from the plateau on the east side (potentially at (15, 15) or (21, 15)).
+  3. Walk down to the eastern ground floor (lower level, TYPE_3fe2) and systematically explore Columns 13 to 23 on Rows 11 to 16.
+  4. Search for Switch B2 (empty plate, likely TYPE_eb90) and record its exact coordinates.
+  5. Search for the items at (9, 11) and (18, 9).
+  6. Return to Boulder B1 at (5, 5) and plan a safe, non-blocking push vector to navigate it to Switch B2.
+
 <hr>
