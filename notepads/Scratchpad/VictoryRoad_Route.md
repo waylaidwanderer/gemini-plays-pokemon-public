@@ -95,15 +95,7 @@ We have disproven the previous Column 7 gate and (7, 10) pit hole hypotheses. Ou
   - Walked left along Row 10 from (9, 10) to (5, 10) on Turn 100022.
   - Currently at (5, 10) on the elevated plateau.
   - Plan: Clean up obsolete Southwest Access Test notes, then walk North to (5, 7) to reveal the western portion of 3F.
-- **Western Ground Floor Exploration Log (Turns 100035-100041)**:
-  - Discovered that the "ladder" at (1, 9) is actually a set of stairs connecting the elevated plateau to the western ground floor of 3F.
-  - Walked Down onto the ground floor at (1, 10) on Turn 100035.
-  - Walked to (3, 13) on Turn 100041.
-  - Visually mapped the southwest ground floor:
-    - Moltres (legendary bird sprite) is standing at (6, 14).
-    - An undefeated trainer is standing at (7, 13) facing Left.
-    - Columns 1-6 on Rows 12-16 are completely open ground floor (TYPE_3fe2).
-  - Active Strategy: Walk East along the safe Row 12 corridor to bypass the trainer's line of sight and explore the southern/eastern ground floor of 3F to locate the real pit hole and boulders.
+
 - **Discovery (Turn 100130)**: Located the real pit hole on Victory Road 3F at (23, 15).
 - **Discovery (Turn 100130)**: Located a boulder on the ground level at (22, 15) directly adjacent to the pit hole at (23, 15).
 - **Discovery (Turn 100130)**: Located another boulder on the ground level at (24, 10).
