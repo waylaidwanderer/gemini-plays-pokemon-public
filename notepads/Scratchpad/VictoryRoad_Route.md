@@ -99,9 +99,6 @@
   - Earthquake: 4/10 PP
   - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
 
-## Active Progress & Current Plan (Turn 100571):
-- **Current Task**: Push the dropped boulder Left all the way to Switch B2 at (9, 16) to lower the 2F northeast barrier.
-- **Next Steps**:
-  1. Once Switch B2 is pressed, backtrack and go back up to 3F.
-  2. Walk to (23, 7) on 3F and take the ladder to 2F's northeast isolated pocket at (27, 7).
-  3. Walk to the final exit of Victory Road.
+## Active Progress & Current Plan (Turn 100641):
+- **Current Task**: Take the ladder warp at (27, 7) back to 3F. Walk to (23, 7) on 3F, take that ladder warp down to 2F's northwest isolated pocket, and then walk to the final exit of Victory Road.
+- **Verification Proof of Work**: Tested walking Up from (27, 7) to (27, 6) on Turn 100621 and bumped against solid rock wall TYPE_2889. Tested walking Up from (28, 7) to (28, 6) on Turn 100639 and bumped against solid rock wall TYPE_2889. This physically and empirically proves that the East half of the northeast pocket on 2F is completely isolated from the West half on foot, confirming backtracking to 3F is strictly mandatory.
