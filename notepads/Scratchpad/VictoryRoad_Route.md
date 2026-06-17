@@ -126,4 +126,3 @@
   - Push 3: Pushed Down from (3, 15) to (3, 16) [Turn 98402]
   - Push 4: Pushed Left from (3, 16) to (2, 16) [Turn 98411]
   - Push 5: Pushed Left from (2, 16) onto Switch B1 at (1, 16) [Turn 98419]
-- Turn 98826: Replaced northwest plateau, met Cooltrainer♀ at (13, 3). Positioned at (13, 4) facing Up. We are about to engage her in battle.
