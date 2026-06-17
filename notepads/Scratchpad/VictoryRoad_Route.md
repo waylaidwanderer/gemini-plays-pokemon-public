@@ -154,3 +154,7 @@ Once Boulder C3 (7, 7) is successfully dropped into the 3F Pit Hole at (7, 10), 
 ## Gen 1 Boulder Pushing Animation/Timing Note:
 - When pushing a boulder, the movement animation takes some frames. Sending consecutive movement presses too quickly (e.g., standard 500ms overworld presses) can cause the engine to ignore subsequent pushes because the boulder is still moving.
 - Solution: Chunk presses into single steps or insert generous sleeps (e.g., 'sleep 1000') between consecutive pushes.
+### Southwest Plateau Access Test (Turn 99771):
+- **Hypothesis**: The player stood at (1, 6) facing Down and attempted to walk south onto (1, 7) (TYPE_2770) to see if it acts as a stairs tile to climb the southwest plateau.
+- **Result**: The player bumped against (1, 7), remaining at (1, 6). Visually, (1, 7) has a solid cliff face block rather than stairs.
+- **Conclusion**: The southwest plateau is impassable from the north at (1, 6).
