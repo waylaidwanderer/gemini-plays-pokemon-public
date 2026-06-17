@@ -7505,10 +7505,7 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 - When pushing a boulder, the movement animation takes some frames. Sending consecutive movement presses too quickly (e.g., standard 500ms overworld presses) can cause the engine to ignore subsequent pushes because the boulder is still moving.
 - Solution: Chunk presses into single steps or insert generous sleeps (e.g., 'sleep 1000') between consecutive pushes.
 
-- **Discovery (Turn 100130)**: Located the real pit hole on Victory Road 3F at (23, 15).
-- **Discovery (Turn 100130)**: Located a boulder on the ground level at (22, 15) directly adjacent to the pit hole at (23, 15).
-- **Discovery (Turn 100130)**: Located another boulder on the ground level at (24, 10).
-- **Physical Blockages on 3F**: Column 21 Rows 10, 11, and 12 are blocked by rock walls (TYPE_2889), dividing the eastern side of Row 11 from the western side of the ground floor. 
+- **Discovery (Turn 100130)**: Located 3F pit hole at (23, 15) and boulders at (22, 15) and (24, 10). Column 21 Row 11 has blockages. 
 
 ## Elite Four & Champion Preparation Plan (Blizzard PP Strategic Response - Turn 100193):
 - **Observation**: GEMMY (BLASTOISE) has 0 PP remaining on Blizzard, which is our prime move for sweeping dragons.
