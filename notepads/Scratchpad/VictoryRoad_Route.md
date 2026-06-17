@@ -18,7 +18,7 @@
 ### Victory Road 1F (Map 0_108):
 - **Active State**: Unexplored / Initial
 - **Boulders Database**:
-  - Boulder A: Initial (TBD, TBD) | Current (TBD, TBD) | Target (TBD, TBD) | Status: [ ] Active
+  - Boulder A: Initial (5, 15) | Current (5, 15) | Target (TBD, TBD) | Status: [ ] Active
 - **Floor Switches**:
   - Switch A: Coordinate (TBD, TBD) | State: [ ] Pressed (requires Boulder A)
 - **Sliding Log / Push Vectors**:
