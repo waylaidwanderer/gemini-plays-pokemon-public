@@ -33,7 +33,7 @@
 
 ### Victory Road 3F (Map 0_198):
 - **Active State**: In Progress (Moving to Ground Floor)
-- **Current Position**: (13, 1) facing Left (Turn 99553)
+- **Current Position**: (12, 1) facing Left (Turn 99558)
 - **Campaign Start (Victory Road 3F)**: Turn 98794 (Time: Wednesday, June 17, 2026 at 7:57 AM PDT)
 - **Strength Status**: Active [x]
 - **Landing Position**: (23, 7)
