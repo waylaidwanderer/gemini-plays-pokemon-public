@@ -7508,5 +7508,10 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 Turn 97649: Standing at (15, 14). Plan to walk to (17, 13) to verify if it is indeed the active plate for Switch A, testing its collision and state. Path: Left, Up, Up, Right, Right, Right, Down to (17, 13).
 Turn 97653: Standing at (17, 13). Visually verified that (17, 13) is a pressure plate switch (TYPE_eb90). Standing on it is passable and does not trigger any direct dialogue. No barriers are immediately visible on the current screen segment, but we need to push Boulder A here to keep the switch pressed permanently. Let's trace back and find the path for Boulder A.
 Turn 97673: Floor: Victory Road 1F | Strength Active: [x] True. Boulder A has been reset to starting position (5, 15). Standing at (8, 17). Path to (5, 14) is: Left, Left, Up, Left, Left, Up, Up, Right. From (5, 14), we will push Boulder A Down to (5, 16).
+Turn 97682: Prepared to push Boulder A.
+- Push Vector: Push DOWN from (5, 14) to (5, 16) while standing at (5, 14) facing Down.
+- Transition Plan to Position Left of Boulder A: Once Boulder A is at (5, 16), the player is at (5, 14). We will stand at (4, 16) to push it Right. Path: Left to (4, 14), Down to (4, 15), Down to (4, 16) facing Right.
+- Guided Coordinates: Boulder A will pass through (6, 16), (7, 16), (8, 16), (9, 16), (10, 16), (11, 16)? Wait, (11, 16) is a wall (TYPE_2889). So we will push it to (10, 16), and from there we must navigate carefully near the rock wall at (10, 15) to see how we transition columns. We will analyze the layout around (10, 15) and column 10 as we push.
+- Corner Prevention: We will ensure we do not push the boulder flush against a corner where we cannot get behind it to push it in the next required direction. No blind pushes. We will check collision on every single step.
 
 <hr>
