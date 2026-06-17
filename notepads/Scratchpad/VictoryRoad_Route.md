@@ -25,6 +25,27 @@
 - **Verified Switch A Pushing Route**:
   - Successfully guided Boulder A via Rows 16, 17, 14, and 12, culminating in a downward push from (17, 11) onto (17, 13).
 
+### Victory Road 2F Map Entry & Mapping Protocol:
+- **Strength Deactivation Tracker**:
+  - Floor transitions (stairs/warps) completely deactivate overworld STRENGTH.
+  - Upon entering 2F, we will immediately log the coordinate state:
+    `Floor: Victory Road 2F | Turn: [Turn Number] | Strength Active: [ ] False (Needs Reactivation)`.
+- **Systematic Boundary & Object Mapping (No-Touch Rule)**:
+  - Do NOT touch or walk adjacent to any boulders until overworld Strength is activated.
+  - Walk the perimeter of the immediately accessible ground to map boundaries, passages, and solid rock divisions.
+  - Identify and log all physical boulders: assign IDs (e.g. Boulder B1, Boulder B2) and note their starting coordinates.
+  - Identify and log all floor switch plates (empty or occupied): assign IDs (e.g. Switch B1, Switch B2) and note their coordinates.
+  - Socratic Verification: We will test the passability of all critical bottleneck tiles on foot to see if there are any active barriers or custom blockages that may require a multi-boulder solution.
+- **Strength Activation Protocol**:
+  - Only after mapping the initial layout and defining the puzzle elements will we open the POKéMON menu, select ROCKY (Geodude), and select STRENGTH.
+  - We will verify the exact text indicators: "ROCKY used STRENGTH!" and "ROCKY can move boulders."
+  - Log: `Strength Active: [x] True`.
+- **Pre-Push Vector formulation**:
+  - Never push any boulder without first formulating and validating a clear step-by-step vector path to a switch.
+  - Ensure we do not push any boulder into a corner, wall, or 1-tile bottleneck where it becomes irreversibly stuck.
+- **Backtrack & Reset Rule**:
+  - If any boulder becomes irreversibly stuck, immediately take the stairs back to 1F and return to 2F to fully reset all boulder coordinates and room states.
+
 ### Victory Road 2F:
 - **Active State**: Unexplored / Initial
 - **Boulders Database**:
