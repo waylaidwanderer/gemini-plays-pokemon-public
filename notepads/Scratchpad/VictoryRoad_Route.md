@@ -98,3 +98,6 @@
 5. **Tool Maintenance**: No broken custom tools currently.
 6. **Goal Clarity**: Goals are clean. Method logs are detailed in `Scratchpad/VictoryRoad_Route`.
 7. **Error Analysis**: We corrected our pathing model: Column 6/7 Row 14 is solid rock. Row 16 is completely open from Column 5 to 9. We successfully adjusted our pathing.
+- **Turn 98142**: Discovered that the sprite at (3, 2) is Cooltrainer♂, who initiated a trainer battle! Also discovered that the true 2F exit ladder is located at (1, 1) in the northwest corner of Victory Road 1F. This explains why (17, 2) is inactive—the layout of the map has been modified, relocating the ladder to (1, 1).
+- **Northwest Ground Exploration Details**: We systematically mapped the pathway and confirmed that (1, 1) has the vertical ladder graphic, and (2, 2) allows interaction with (3, 2).
+- **Battle Log**: Engaged Cooltrainer♂ at (3, 2). Opponent has 4 Pokémon. GEMMY (Blastoise Lv 63) is lead.
