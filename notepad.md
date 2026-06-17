@@ -7505,14 +7505,20 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 - **Turn 97616**: Pushed Boulder A Up from (5, 15) to (5, 14) while standing at (5, 16) facing Up. Corrected chronological logging (Turn 97614 was a premature pre-log before execution, actual movement executed on Turn 97616).
 
 ## Victory Road 1F Exploration & Mapping Protocol:
-- **Search Goal**: Systematically explore Victory Road 1F to locate Switch A.
+- **Search Goal**: Systematically explore Victory Road 1F to locate Switch A. (Completed: Turn 97771 - Switch A is located at (17, 13) and has Boulder A on it.)
 Turn 97771: Floor: Victory Road 1F | Strength Active: [x] True.
 We successfully pushed Boulder A onto Switch A! All obsolete multi-line plans for Turn 97756, 97753, and 97750 have been removed to maintain notepad hygiene. Proceeding to find the opened gate and the 2F stairs.
 ### Victory Road 1F Map Exploration (Continued):
 - Turn 97779: Boulder A is successfully on Switch A at (17, 13).
-- Turn 97806: Planning to collect the Item Ball at (2, 10) before leaving 1F.
-- Current coordinates: (5, 12) (on plateau).
-- Target coordinates: (2, 11) (standing below the item ball at (2, 10)).
-- Path: Down to (5, 13) -> Down to (5, 14) -> Down to (5, 15) -> Left 4 times to (1, 15) -> Up 3 times to (1, 12) -> Right to (2, 12) -> Up to (2, 11) -> Stand facing Up and press A.
+- Turn 97834: Discovered that the object at (2, 10) on the isolated western plateau is a physical Boulder, not an Item Ball.
+- Current coordinates: (2, 11) (standing below the boulder at (2, 10)).
+- Defensive Pushing Analysis for Boulder at (2, 10):
+  - If we push this boulder Up from (2, 11), it moves to (2, 9).
+  - Standing at (2, 10), the boulder at (2, 9) cannot be pushed further Up because (2, 8) is a wall (TYPE_2889). It cannot be pushed Left or Right because (1, 9) and (3, 9) are walls.
+  - Pushing this boulder is unnecessary because the area behind it (Rows 7, 8, 9) is already fully accessible via the wide-open ground path on Row 8 (Columns 3-7).
+  - Defensive Rule: Do NOT push the boulder at (2, 10). It is a decorative blocker that does not need to be moved to access any area. Leave it at (2, 10).
+- Path to return to the plateau at (5, 12):
+  - Down to (2, 12) -> Left to (1, 12) -> Down to (1, 15) -> Right to (5, 15) -> Up to (5, 13) (stairs) -> Up to (5, 12).
+- Plan: Backtrack along this route to return to the plateau and head East to find the 2F ladder.
 
 <hr>
