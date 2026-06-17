@@ -23,7 +23,7 @@
 ### Victory Road 2F Map (Map 0_194):
 - **Active State**: In Progress
 - **Strength Status**: Active: [x] True
-- **Current Position**: (9, 14) facing Down (Turn 98551)
+- **Current Position**: (19, 12) facing Down (Turn 98584)
 - **Boulders Database**:
   - Boulder B1: Initial (5, 5) | Current (5, 5) | Status: Unmoved
   - Boulder B2: Initial (4, 14) | Current (1, 16) | Status: [x] Pushed onto Switch B1
@@ -41,72 +41,27 @@
   - Switch B2 coordinate: **(9, 16)**.
   - Let's map the path from (5, 5) to (9, 16):
     - Wait! We need to walk to (5, 5) first.
-    - We are currently at (9, 14).
+    - We are currently at (19, 12).
     - Path to (5, 5):
-      1. From (9, 14), go Down to (9, 15).
-      2. Move Left on Row 15: (9, 15) -> (8, 15) -> (7, 15) -> (6, 15) -> (5, 15).
-      3. Move North on Column 5: (5, 15) -> (5, 14) -> (5, 13) -> (5, 12) -> (5, 11) -> (5, 10).
-      4. Wait, let's verify if Column 5 Row 10 is passable. (5, 10) has the stairs. If we go Up, we climb onto the plateau.
-      5. Wait! Is there a ground-level path on the west side leading to (5, 5)?
-         - Yes! In our western exploration, we walked from (0, 8) to (5, 7) on the ground floor.
-         - So (5, 7) is on the ground floor.
-         - Is (5, 6) passable? Yes, TYPE_3fe2.
-         - And Boulder B1 is at (5, 5).
-         - Let's verify how to push Boulder B1 from (5, 5) to Switch B2 at (9, 16).
-         - Socratic Push Plan:
-           - Since Boulder B1 is at (5, 5), let's inspect the surrounding walls of (5, 5):
-             - (5, 4) is a wall? Or is it passable?
-             - In standard VR 2F, Boulder B1 starts at (5, 5).
-             - We want to push Boulder B1 to the right (East) towards Column 9.
-             - Let's check: can we push Boulder B1 Right from (5, 5)?
-               - To push Right, we must stand at (4, 5) facing Right, and press Right.
-               - This moves Boulder B1 to (6, 5).
-               - Then stand at (5, 5) facing Right, and press Right.
-               - This moves Boulder B1 to (7, 5).
-               - Then stand at (6, 5) facing Right, and press Right.
-               - This moves Boulder B1 to (8, 5).
-               - Wait, can we push it to (9, 5)?
-                 - To push Right to (9, 5), stand at (7, 5) facing Right, and press Right.
-                 - This moves Boulder B1 to (9, 5).
-               - Let's check if the path on Row 5 is clear:
-                 - Yes, Row 5 from Column 5 to Column 9 is completely open ground level!
-               - Once Boulder B1 is at (9, 5):
-                 - We want to push it Down along Column 9 to Switch B2 at (9, 16)!
-                 - To push Down, we stand at (9, 4) facing Down, and press Down.
-                 - This moves Boulder B1 to (9, 6).
-                 - Then we stand at (9, 5) facing Down, and press Down.
-                 - This moves Boulder B1 to (9, 7).
-                 - And so on, pushing it Down along Column 9:
-                   - (9, 8) -> (9, 9) -> (9, 10) -> (9, 11) -> (9, 12) -> (9, 13) -> (9, 14) -> (9, 15) -> onto Switch B2 at (9, 16)!
-                 - Wait! Let's check if there are any obstacles on Column 9 between Row 5 and Row 16:
-                   - (9, 9) has the defeated Black Belt. Defeated trainers are solid but can we push a boulder through or past them?
-                   - In Gen 1, you CANNOT push a boulder onto a tile occupied by an NPC. Defeated trainers are solid!
-                   - So we CANNOT push the boulder through (9, 9) if the Black Belt is standing there!
-                   - Oh! Let's check: is the Black Belt at (9, 9)?
-                     - Yes! The defeated Black Belt is at (9, 9).
-                   - Wait, can we push the boulder around him?
-                     - Let's look at the surrounding tiles of (9, 9):
-                       - (8, 9) is TYPE_2770 (elevated plateau). The boulder cannot go up onto the plateau.
-                       - (10, 9) is TYPE_2770 (elevated plateau).
-                       - So Column 9 is a 1-tile wide ground-level bottleneck on Rows 8 and 9!
-                       - Oh! This means we CANNOT push Boulder B1 past (9, 9) along Column 9!
-                       - Wait, let's verify this carefully. Is the Black Belt really at (9, 9)?
-                         - Yes, the map marker says "Black Belt defeated at (9, 9)".
-                         - But wait, is he standing at (9, 9) or is he at (11, 5) or somewhere else?
-                         - Let's check our notes: we defeated the Black Belt at (9, 9) on Turn 98453.
-                         - Wait, in Turn 98453: "I defeated a Black Belt at (9, 9) in Victory Road".
-                         - Let's check if he is actually standing at (9, 9). Yes, in Gen 1, trainers remain standing at their spot forever once defeated.
-                         - Wait, let's think: is there a different way to get the boulder to Switch B2?
-                         - Let's check if there are other ground-level corridors.
-                         - What about Column 13?
-                           - We can walk Column 13 from Row 8 to Row 13. But is Column 13 passable for a boulder?
-                           - Column 13 is on the plateau (Row 8-12 are TYPE_2770). Boulders cannot be pushed onto plateaus!
-                         - Wait, let's check: does the boulder need to go onto Switch B2?
-                           - Yes, Switch B2 is at (9, 16).
-                           - If we cannot push Boulder B1 past (9, 9) because of the trainer, then how do we solve the puzzle?
-                           - Wait! Let's check if the trainer at (9, 9) is actually at (9, 9).
-                           - Let's walk back and check where the Black Belt is standing.
-                           - Let's verify this on the screen when we walk up!
+      1. From (19, 12), walk down the stairs at (21, 15) to descend.
+      2. Explore the eastern ground floor.
+      3. Grab the item Pokéball at (18, 9).
+      4. Walk up to the northern area of 2F where Boulder B1 is.
+      5. Push Boulder B1 to the right (East) towards Column 9.
+         - Push Right 4 times: (5, 5) -> (6, 5) -> (7, 5) -> (8, 5) -> (9, 5).
+         - Wait, we need to stand at (4, 5) to push first.
+         - Then stand at (5, 5) to push.
+         - Then stand at (6, 5) to push.
+         - Then stand at (7, 5) to push.
+         - Once the boulder is at (9, 5), stand at (9, 4) and push Down.
+         - Push Down: (9, 5) -> (9, 6) -> (9, 7) -> (9, 8) -> (9, 9) -> (9, 10) -> (9, 11) -> (9, 12) -> (9, 13) -> (9, 14) -> (9, 15) -> (9, 16).
+         - Let's analyze if the defeated Black Belt at (9, 9) blocks the path:
+           - Wait! The Black Belt was defeated at (9, 9). But is he standing at (9, 9)?
+           - Let's verify if we can push a boulder past (9, 9).
+           - Socratic verification: If the Black Belt at (9, 9) is solid, we cannot push the boulder onto (9, 9).
+           - If we cannot push the boulder onto (9, 9), we can't slide it down Column 9.
+           - Wait, let's look at the map: is there another way to get to the switch at (9, 16) or does the Black Belt not block?
+           - Let's walk to the ground floor first to examine the layout and the trainer's position.
 
 ## Archive: Completed Pushing Logs & Discoveries
 - **TM05 Collection**: Collected TM05 at (9, 11) on Turn 98542.
