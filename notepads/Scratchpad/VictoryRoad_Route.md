@@ -51,11 +51,8 @@
     - Wait! We need to walk to (5, 5) first.
     - We are currently at (19, 12).
     - Path to (5, 5):
-      1. From (19, 12), walk down the stairs at (21, 15) to descend.
-      2. Explore the eastern ground floor.
-      3. Grab the item Pokéball at (18, 9).
-      4. Walk up to the northern area of 2F where Boulder B1 is.
-      5. Push Boulder B1 to the right (East) towards Column 9.
+      1. Walk up to the northern area of 2F where Boulder B1 is.
+      2. Push Boulder B1 to the right (East) towards Column 9.
          - Push Right 4 times: (5, 5) -> (6, 5) -> (7, 5) -> (8, 5) -> (9, 5).
          - Wait, we need to stand at (4, 5) to push first.
          - Then stand at (5, 5) to push.
@@ -70,6 +67,15 @@
            - If we cannot push the boulder onto (9, 9), we can't slide it down Column 9.
            - Wait, let's look at the map: is there another way to get to the switch at (9, 16) or does the Black Belt not block?
            - Let's walk to the ground floor first to examine the layout and the trainer's position.
+
+## Socratic Verification of Item (18, 9) Collection:
+- **Hypothesis**: The player stood at (18, 10) facing Up on Turn 98639 and pressed 'A' to collect the item at (18, 9). Since our inventory was at 20/20 and no stackable quantities changed, we must verify if the item was successfully collected or if it remained on the floor due to a full bag.
+- **Empirical Test Protocol**:
+  - We will transition floors (e.g., take the ladder at (23, 7) to 3F and re-enter 2F) to trigger a map/sprite reset.
+  - We will walk back to (18, 10) and check if the Poké Ball sprite at (18, 9) is visible.
+  - If the Poké Ball is visible, our collection failed due to a full bag. We must free a slot (e.g., use a Calcium, Carbos, or Iron on a Pokémon, or use an Elixir, or toss a fainted Pidgeotto's Great Ball if allowed? No, we can just use Calcium/Carbos/Iron on Gemmy to instantly free a slot!) and re-collect it.
+  - If the Poké Ball is gone, the collection was successful.
+- **Status**: Pending floor transition.
 
 ## Archive: Completed Pushing Logs & Discoveries
 - **TM05 Collection**: Collected TM05 at (9, 11) on Turn 98542.
