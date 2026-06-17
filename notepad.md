@@ -7463,7 +7463,7 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 
 ### Victory Road 2F Map (Map 0_194):
 - **Active State**: Completed (Backtracked to 3F)
-  - **Current Position**: (16, 11) facing Down (Turn 100937)
+  - **Current Position**: (23, 7) facing Down (Turn 100986)
 - **Strength Status**: Active: [ ] False
 
 ### Victory Road 2F Boulders & Switches:
