@@ -31,8 +31,26 @@
   - Switch B1: Coordinate (1, 16) | State: [x] Pressed (secured with Boulder B2)
   - Switch B2: Coordinate (9, 16) | State: [ ] Unpressed (requires Boulder B1)
 
-### Victory Road 3F (Map 0_195):
-- **Active State**: Unexplored / Initial
+### Victory Road 3F (Map 0_198):
+- **Active State**: In Progress (Turn 98767)
+- **Strength Status**: Deactivated (requires manual menu activation)
+- **Current Position**: (23, 7) facing Down
+- **Boulders Database**:
+  - Boulder C1 (Northeast North): Initial (22, 3) | Current (22, 3) | Status: Unmoved
+  - Boulder C2 (Northeast South): Initial (24, 10) | Current (24, 10) | Status: Unmoved
+- **Floor Switches & Holes**:
+  - To be discovered and verified systematically.
+
+## Socratic Verification Protocol for Victory Road 3F:
+- **Objective 1**: Discover and verify the location of all floor switches and holes on 3F.
+  - **Methodology**: Walk systematically across all accessible pathways of 3F. Locate any floor plate tiles of type `TYPE_eb90` (switches) or `TYPE_de37` (holes).
+  - **Validation**: Place unique map markers at discovered switches (🔘) and holes (🕳️).
+- **Objective 2**: Identify which boulder must be pushed into the hole to fall to 2F.
+  - **Methodology**: Once the hole's coordinates (X_hole, Y_hole) are verified:
+    1. Cross-reference (X_hole, Y_hole) on 2F's map layout.
+    2. Verify that (X_hole, Y_hole) on 2F is on the ground floor and has a clear, passable route to the 2F Switch B2 at (9, 16).
+    3. Identify which 3F boulder can be pushed into (X_hole, Y_hole) based on grid collision and pathing.
+  - **Validation**: Formulate a step-by-step push planning sequence before applying any force.
 
 ## Active Exploration Route & Plan:
 - **Goal**: Navigate to 3F (Map 0_195) to find the boulder that falls to 2F.
