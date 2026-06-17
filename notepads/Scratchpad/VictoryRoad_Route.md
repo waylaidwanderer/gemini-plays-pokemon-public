@@ -22,7 +22,7 @@
 
 ### Victory Road 2F Map (Map 0_194):
 - **Active State**: In Progress
-  - **Current Position**: (21, 16) facing Up (Turn 100246)
+  - **Current Position**: (25, 10) on 3F (Turn 100296)
 - **Strength Status**: Active: [x] True
 - **Boulders Database**:
   - Boulder B1: Initial (5, 5) | Current (5, 5) | Status: Unmoved
@@ -33,8 +33,8 @@
   - Switch B2: Coordinate (9, 16) | State: [x] Pressed (secured with Dropped Boulder)
 
 ### Victory Road 3F (Map 0_198):
-- **Active State**: Historical (Turn 100156)
-  - **Current Position**: Historical (Turn 100156)
+- **Active State**: In Progress
+  - **Current Position**: (25, 10) facing Left (Turn 100296)
   - **East-Wing & Plateau Pivot Start**: Turn 99693
 - **Campaign Start (Victory Road 3F)**: Turn 98794 (Time: Wednesday, June 17, 2026 at 7:57 AM PDT)
 - **Strength Status**: Active [x]
@@ -44,7 +44,7 @@
   - Boulder C1 (Northeast North): Initial (22, 3) | Current (3, 5) | Status: Pushed onto Switch C1
   - Boulder C2 (Northeast South): Initial (24, 10) | Current (24, 10) | Status: Unmoved
   - Boulder C3 (West Upper): Initial (7, 7) | Current (7, 7) | Status: Blocked (tested on Turn 99678, gates at 7,8/7,9 remain solid)
-  - Boulder C4 (East Lower): Initial (13, 12) | Current (13, 6) | Status: Pushed North out of the way (Turn 100105)
+  - Boulder C4 (East Lower): Initial (13, 12) | Current (13, 6) | Status: Pushed North to (13, 6) (Turn 100105)
 - **Floor Switches & Holes**:
   - Pit Hole: Coordinate (23, 15) | State: Open [x] (verified on Turn 100130, boulder dropped through)
   - Switch C1: Coordinate (3, 5) | State: Pressed [x]
