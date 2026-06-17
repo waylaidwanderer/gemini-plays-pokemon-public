@@ -7531,7 +7531,6 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 - Tested stand-in-front and face UP on (18, 3) facing (18, 2) on Turn 97915. Result: BUMPED, (18, 2) acts as a solid rock wall and is impassable.
 - Tested stepping onto (17, 2) on Turn 97914. Result: Did not warp.
 - The northeast corner does not contain an active warp or accessible ladder under the current state.
-- Proceeding to bypass the (14, 2) boulder to explore the western ground floor and retrieve the item ball at (11, 0).
 - Turn 98003: Currently standing at (9, 6) on the central plateau of Victory Road 1F. We picked up TM43 (Sky Attack) from (11, 0) and pushed Boulder A2 to (10, 2). Proceeding Left to Column 7 to battle the Cooltrainer♀ at (7, 5) and descend to the western ground floor via the stairs at (7, 7).
 
 ### Western Ground Floor Mapping & Multiple Boulders Verification Protocol (Turn 98021 Plan):
