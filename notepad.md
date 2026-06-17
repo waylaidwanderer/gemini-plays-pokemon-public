@@ -7497,4 +7497,9 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 - **Floor: Victory Road 1F | Turn: 97593 | Strength Active: [x] True**
 - **Turn 97616**: Pushed Boulder A Up from (5, 15) to (5, 14) while standing at (5, 16) facing Up. Corrected chronological logging (Turn 97614 was a premature pre-log before execution, actual movement executed on Turn 97616).
 
+## Victory Road 1F Exploration & Mapping Protocol:
+- **Search Goal**: Systematically explore Victory Road 1F to locate Switch A.
+- **Safety Rule**: Do NOT perform any further pushes on Boulder A (currently at (5, 14)) until Switch A has been found and its coordinates are verified and logged. Keeping Boulder A in its current position allows us to move around it without blocking any paths or pushing it into an unrecoverable state.
+- **Verification Rule**: Any candidates for Switch A must be stood on, interacted with, and verified to check if they are the correct active plate switch.
+
 <hr>
