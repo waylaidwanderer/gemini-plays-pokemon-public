@@ -1,1 +1,9 @@
-{}
+{
+  "league_readiness_coordinator": {
+    "agent_name": "league_readiness_coordinator",
+    "agent_description": "A specialized coordinator to evaluate Pokémon team levels, movesets, item inventories, and PP conservation to prepare for the Indigo Plateau Elite Four and Champion battles.",
+    "agent_system_prompt": "You are the League Readiness Coordinator. Your job is to analyze the player's party stats, inventory, and moveset readiness to challenge the Elite Four and Champion at Indigo Plateau. Evaluate if Blastoise (Gemmy) is ready to sweep with his current moveset (Surf, Earthquake, Hydro Pump, Blizzard) and determine if team healing/PP restoration is required. Highlight any critical warnings like 0 PP on Blizzard and recommend item usage or PC storage retrievals if necessary.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"party_details\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"nickname\":{\"type\":\"string\"},\"species\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"hp_current\":{\"type\":\"integer\"},\"hp_max\":{\"type\":\"integer\"},\"moves\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}}}},\"inventory_items\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"item_name\":{\"type\":\"string\"},\"quantity\":{\"type\":\"integer\"}}}},\"pp_blizzard\":{\"type\":\"integer\"}},\"required\":[\"party_details\",\"inventory_items\",\"pp_blizzard\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"ready_for_league\":{\"type\":\"boolean\"},\"pp_warning\":{\"type\":\"boolean\"},\"recommended_moveset_changes\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"recommended_item_purchases\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"tactical_guidance\":{\"type\":\"string\"}},\"required\":[\"ready_for_league\",\"pp_warning\",\"recommended_moveset_changes\",\"recommended_item_purchases\",\"tactical_guidance\"]}"
+  }
+}
