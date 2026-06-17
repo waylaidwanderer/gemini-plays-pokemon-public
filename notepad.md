@@ -7512,16 +7512,16 @@ Turn 97682: Prepared to push Boulder A.
 - Corner Prevention: We will ensure we do not push the boulder flush against a corner where we cannot get behind it to push it in the next required direction. No blind pushes. We will check collision on every single step.
 Turn 97719: Floor: Victory Road 1F | Strength Active: [x] True.
 We successfully pushed Boulder A onto the main Row 14 corridor!
-- Current Boulder position: (9, 14) (the big orange sphere).
-- Current Player position: (9, 16) facing Up.
-- Next Objective: Reposition player to the Left of the boulder at (8, 14) to push it Eastward.
-- Plan:
-  1. Move Left to (8, 16).
-  2. Move Up to (8, 15).
-  3. Move Up to (8, 14) facing Up.
+- Current Boulder position: (13, 14).
+- Current Player position: (11, 14) facing Right.
+- Next Objective: Push Boulder A Right along Row 14 to (17, 14).
 - Socratic Verification (Strategic Planning):
   Once Boulder A is on Switch A at (17, 13), how do we verify the path is open?
   - Verification: We will walk north to the northeast plateau to verify that the rock wall/stone barrier blocking the stairs to 2F has retracted.
   - Location of 2F Stairs: The stairs are located on the northeast plateau, around (14, 1) or (15, 1) which is currently blocked by a barrier. We will navigate there after securing the boulder on the switch without leaving the floor. Leaving the floor would reset all boulder progress!
+- Systematic Elevation & Traversal Plan to Northeast Plateau (Corner/Ledge Safety):
+  1. Once Boulder A is safely resting on Switch A at (17, 13), we will navigate West/Northwest around the plateaus to find stairs up.
+  2. We will trace coordinates and verify tile types on every step. We must avoid stepping onto any one-way ledge drop-off tiles (TYPE_44f6) that descend from plateaus to lower floors, as jumping down would force us to backtrack and exit the map, resetting the boulder.
+  3. We will explore the eastern region's plateaus and staircase entries, recording each elevation level as we climb, and safely navigate to the 2F stairs on the northeast plateau. No blind jumps or movements.
 
 <hr>
