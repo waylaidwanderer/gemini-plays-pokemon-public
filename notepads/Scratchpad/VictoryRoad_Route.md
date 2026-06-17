@@ -63,3 +63,4 @@ To solve the Victory Road puzzle progression, some boulders must be pushed down 
   - **State Lock Rule**: Do not exit the floor or leave Victory Road entirely until the target switch is finalized, as backtracking resets the boulder positions!
 - **Turn 97449**: Bypassed the Row 131 wall structure. Currently at (7, 124) facing Left on the bicycle. Heading East to Column 8 to begin our northward journey toward the Thunder Badge checkpoint at Y=119.
 - **Turn 97475**: Reached the water boundary at (11, 104) facing Up. The tiles starting at Row 103 are TYPE_4e8c (water). We must use SURF on GEMMY to cross this body of water and head toward the Soul Badge guard at Y=96.
+- **Turn 97482**: Successfully initiated SURF on water at (11, 103) facing Up. Surfing North along Column 11 toward the Soul Badge checkpoint at Y=96.
