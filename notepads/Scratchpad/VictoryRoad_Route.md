@@ -35,38 +35,19 @@
 - **Active State**: Unexplored / Initial
 
 ## Active Exploration Route & Plan:
-- **Goal**: Navigate Boulder B1 from (5, 5) to Switch B2 at (9, 16) to lower the southeast barrier gate.
-- **Boulder B1 Pushing Strategy & Path (The "Northeast Switch" Plan)**:
-  - Boulder B1 starting coordinate: **(5, 5)**.
-  - Switch B2 coordinate: **(9, 16)**.
-  - **Bottleneck Resolution at (9, 9)**:
-    - We must first inspect and verify the physical position of the defeated Black Belt on Column 9.
-    - If the Black Belt is standing at (9, 9) and is solid, he blocks Column 9.
-    - In this case, we cannot push the boulder directly down Column 9.
-    - Socratic Mitigation Hypothesis:
-      - We must verify if the Black Belt is actually standing at (9, 9), or if he engaged us from a different tile (e.g. 9, 8 or 9, 10), leaving Column 9 passable at (9, 9).
-      - If he blocks Column 9, we will investigate if the boulder can be pushed through an adjacent column (like Column 10 or 8), or if we can manipulate his position by resetting the floor, or if there is another puzzle route.
-      - We will proceed to walk Left along Row 11 to (18, 11) first to collect the TM/Poke Ball and visually inspect the bottleneck at Column 9.
-  - Let's map the path from (5, 5) to (9, 16):
-    - Wait! We need to walk to (5, 5) first.
-    - We are currently at (19, 12).
-    - Path to (5, 5):
-      1. Walk up to the northern area of 2F where Boulder B1 is.
-      2. Push Boulder B1 to the right (East) towards Column 9.
-         - Push Right 4 times: (5, 5) -> (6, 5) -> (7, 5) -> (8, 5) -> (9, 5).
-         - Wait, we need to stand at (4, 5) to push first.
-         - Then stand at (5, 5) to push.
-         - Then stand at (6, 5) to push.
-         - Then stand at (7, 5) to push.
-         - Once the boulder is at (9, 5), stand at (9, 4) and push Down.
-         - Push Down: (9, 5) -> (9, 6) -> (9, 7) -> (9, 8) -> (9, 9) -> (9, 10) -> (9, 11) -> (9, 12) -> (9, 13) -> (9, 14) -> (9, 15) -> (9, 16).
-         - Let's analyze if the defeated Black Belt at (9, 9) blocks the path:
-           - Wait! The Black Belt was defeated at (9, 9). But is he standing at (9, 9)?
-           - Let's verify if we can push a boulder past (9, 9).
-           - Socratic verification: If the Black Belt at (9, 9) is solid, we cannot push the boulder onto (9, 9).
-           - If we cannot push the boulder onto (9, 9), we can't slide it down Column 9.
-           - Wait, let's look at the map: is there another way to get to the switch at (9, 16) or does the Black Belt not block?
-           - Let's walk to the ground floor first to examine the layout and the trainer's position.
+- **Goal**: Navigate to 3F (Map 0_195) to find the boulder that falls to 2F.
+- **Empirical Breakthrough (Turn 98709)**:
+  - We have visually inspected Column 9 from (9, 12) on the ground floor.
+  - **Findings**:
+    1. Row 10 is a solid rock wall of TYPE_2889 spanning Columns 6 to 12.
+    2. The Black Belt is at (9, 9) on the plateau level (TYPE_2770).
+    3. The ground floor at Column 9 ends at Row 11 and does not connect to the plateau.
+    4. Therefore, it is physically impossible to push Boulder B1 (at (5, 5) on the plateau) down Column 9 to Switch B2 (at (9, 16) on the ground floor).
+    5. **New Puzzle Solution Hypothesis**: The boulder that goes on Switch B2 (9, 16) must fall from the ceiling of 2F (which is a hole on 3F). Once it lands on the ground floor of 2F, it can be pushed west along Row 16 to (9, 16).
+- **Next Action Steps**:
+  1. Climb onto the plateau via the stairs at (15, 15) or (21, 15).
+  2. Walk to the ladder at (23, 7) to enter Victory Road 3F.
+  3. Explore 3F to locate the boulder and hole to drop it to 2F.
 
 ## Socratic Verification of Item (18, 9) Collection:
 - **Hypothesis**: The player stood at (18, 10) facing Up on Turn 98639 and pressed 'A' to collect the item at (18, 9). Since our inventory was at 20/20 and no stackable quantities changed, we must verify if the item was successfully collected or if it remained on the floor due to a full bag.
