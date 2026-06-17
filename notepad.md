@@ -7569,10 +7569,12 @@ Once Boulder C3 (7, 7) is successfully dropped into the 3F Pit Hole at (7, 10), 
 - **Hypothesis**: The player stood at (1, 6) facing Down and attempted to walk south onto (1, 7) (TYPE_2770) to see if it acts as a stairs tile to climb the southwest plateau.
 - **Result**: The player bumped against (1, 7), remaining at (1, 6). Visually, (1, 7) has a solid cliff face block rather than stairs.
 - **Conclusion**: The southwest plateau is impassable from the north at (1, 6).
-- **Plateau Exploration Log (Turns 99994-100002)**:
+- **Plateau Exploration Log (Turns 99994-100024)**:
   - Walked West along Row 4 from (13, 4) to (9, 4).
   - Attempted to walk South along Column 9 to explore the southern boundary of the plateau.
   - Encountered a wild ONIX at (9, 7) on Turn 100002.
-  - Plan: Flee the battle and continue exploring the southern/western edges of the central plateau.
+  - Walked left along Row 10 from (9, 10) to (5, 10) on Turn 100022.
+  - Currently at (5, 10) on the elevated plateau.
+  - Plan: Clean up obsolete Southwest Access Test notes, then walk North to (5, 7) to reveal the western portion of 3F.
 
 <hr>
