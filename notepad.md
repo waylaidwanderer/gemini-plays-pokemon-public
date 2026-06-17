@@ -7492,7 +7492,7 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 ## Live Progression & Route Logs:
 - **Turn 97389**: Re-entered Pokemon League Gatehouse (Map 0_193) at (4, 7). Heading North to exit onto Route 23 to make our way back to Victory Road.
 - **Party Status check**: GEMMY is healed (105/207 HP - wait, healed? Ah, GEMMY is at 105 HP, not fully healed? Wait, did we heal at Viridian Center? Turn 97143 healed party, but did we take some damage or was GEMMY already at 105 HP because of something else? Ah, GEMMY fought Rival Blue or wild Spearow or we did some training? Let's check: on Turn 97310-97312 we encountered a wild Spearow and fled, maybe took some damage, or maybe GEMMY took damage in some other fight. It's fine, GEMMY has 105/207 HP, which is plenty for now, and we have many Hyper Potions and Max Potions in our inventory if needed.)
-- **Bicycle status**: Currently on foot (indoors).
+- **Bicycle status**: Riding the Bicycle (outdoors).
 
 ## Cross-Floor Vertical Boulder Transitions Database
 To solve the Victory Road puzzle progression, some boulders must be pushed down holes/pits on higher floors to activate switches below.
