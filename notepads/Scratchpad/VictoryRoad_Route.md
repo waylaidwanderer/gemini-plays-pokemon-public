@@ -47,18 +47,6 @@
 - **Verification of Failure**: On Turn 99678, with Boulder C1 resting on Switch C1 at (3, 5), the player attempted to push Boulder C3 at (7, 7) southwards from (7, 6). The push failed due to a solid collision bump, and tiles (7, 8) and (7, 9) remain TYPE_2889 rock walls.
 - **Conclusion**: Switch C1 at (3, 5) does NOT open the Column 7 gates. Its function is elsewhere, likely lowering a barrier on the East or Northeast side of 3F.
 - **Active Strategy**: Pivot immediately to Contingency A. Walk East along the Row 1 corridor to investigate if any eastern or northeast barrier was lowered, or if there is another switch/trigger on the East side.
-## Socratic Verification of Item (18, 9) Collection:
-- **Result**: Checked on Turn 100801: item (18, 9) has been successfully collected.
-
-## Archive: Completed Pushing Logs & Discoveries
-- **Boulder B2 Pushing Log (Switch B1 at 1, 16) [Turn 98419]**: Already completed.
-
-## Gen 1 Boulder Pushing Animation/Timing Note:
-- When pushing a boulder, the movement animation takes some frames. Sending consecutive movement presses too quickly (e.g., standard 500ms overworld presses) can cause the engine to ignore subsequent pushes because the boulder is still moving.
-- Solution: Chunk presses into single steps or insert generous sleeps (e.g., 'sleep 1000') between consecutive pushes.
-
-- **Discovery (Turn 100130)**: Located 3F pit hole at (23, 15) and boulders at (22, 15) and (24, 10). Column 21 Row 11 has blockages. 
-
 ## Elite Four & Champion Preparation Plan (Blizzard PP Strategic Response - Turn 100193):
 - **Observation**: GEMMY (BLASTOISE) has 0 PP remaining on Blizzard, which is our prime move for sweeping dragons.
 - **Strategic Constraint**: DIG/FLY/Escape Rope to heal at a Pokémon Center or retrieve MAX ETHER from the PC will completely reset all solved boulder puzzles on 1F, 2F, and 3F, forcing us to redo them.
