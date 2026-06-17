@@ -19,6 +19,7 @@
 - **Active State**: Completed (Boulder on Switch)
 - **Boulders Database**:
   - Boulder A: Initial (5, 15) | Current (17, 13) | Target (17, 13) | Status: [x] Active
+  - Boulder A2: Initial (14, 2) | Current (11, 2) | Target (10, 2) | Status: [ ] Active
 - **Floor Switches**:
   - Switch A: Coordinate (17, 13) | State: [x] Pressed (secured with Boulder A)
 - **Verified Switch A Pushing Route**:
