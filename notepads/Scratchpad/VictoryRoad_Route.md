@@ -49,3 +49,7 @@
   - To prevent being trapped or making irreversible incorrect pushes, every single push will be logged before moving further:
     - *Format*: `Turn [N]: Pushed [Boulder ID] [Direction] from (X, Y) to (X_new, Y_new) while standing at (X_player, Y_player) facing [Facing]`.
   - If a puzzle becomes unsolvable or we get stuck, we will immediately use a stairs transition to reset all boulder coordinates and STRENGTH state, updating our logs accordingly.
+## Live Progression & Route Logs:
+- **Turn 97389**: Re-entered Pokemon League Gatehouse (Map 0_193) at (4, 7). Heading North to exit onto Route 23 to make our way back to Victory Road.
+- **Party Status check**: GEMMY is healed (105/207 HP - wait, healed? Ah, GEMMY is at 105 HP, not fully healed? Wait, did we heal at Viridian Center? Turn 97143 healed party, but did we take some damage or was GEMMY already at 105 HP because of something else? Ah, GEMMY fought Rival Blue or wild Spearow or we did some training? Let's check: on Turn 97310-97312 we encountered a wild Spearow and fled, maybe took some damage, or maybe GEMMY took damage in some other fight. It's fine, GEMMY has 105/207 HP, which is plenty for now, and we have many Hyper Potions and Max Potions in our inventory if needed.)
+- **Bicycle status**: Currently on foot (indoors).
