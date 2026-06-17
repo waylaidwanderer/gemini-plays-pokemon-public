@@ -7529,8 +7529,11 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   - Earthquake: 4/10 PP
   - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
 
-## Active Progress & Current Plan (Turn 100677):
-- **Current Task**: Push Boulder C4 at (13, 12) north along Column 13 to Row 7. Walk to (23, 7) on 3F, take that ladder warp down to 2F's northwest isolated pocket, and then walk to the final exit of Victory Road.
-- **Verification Proof of Work**: Backtracked to 3F East at (26, 8) on Turn 100646. Toggled Strength on on Turn 100651. Pushed Boulder C2 to (22, 10) on Turn 100658. Bypassed the solid Column 21 rock wall by walking down to Row 13 on Turn 100663. Walked left to Column 13 on Turn 100668. Currently pushing Boulder C4 Up Column 13 to clear the path to Row 7.
+## Active Progress & Current Plan (Turn 100806):
+- **Current Task**: Navigate Victory Road 2F. We are in the isolated northeast section at (23, 7). To reach the west side and exit Victory Road via the ladder at (0, 8), we must walk south to the plateau stairs at (21, 15) on the East side, climb up and cross the plateau crossover to the west stairs at (15, 15), descend to the west side, and proceed to (0, 8).
+- **Step-by-Step Path from (23, 7) to (21, 15)**:
+  1. Walk Down 4 steps along Column 23 to (23, 11).
+  2. Walk Left 2 steps along Row 11 to (21, 11).
+  3. Walk Down 4 steps along Column 21 to reach (21, 15) and stand on the Eastern Plateau Stairs.
 
 <hr>
