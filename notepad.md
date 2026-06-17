@@ -7501,5 +7501,6 @@ To solve the Victory Road puzzle progression, some boulders must be pushed down 
   - **Landed State**: Lands on [Target Floor] at coordinate [X_target, Y_target].
   - **Target Interaction**: Standing at [X_player, Y_player] facing [Direction], pushing the landed boulder to switch at [X_switch, Y_switch].
   - **State Lock Rule**: Do not exit the floor or leave Victory Road entirely until the target switch is finalized, as backtracking resets the boulder positions!
+- **Turn 97449**: Bypassed the Row 131 wall structure. Currently at (7, 124) facing Left on the bicycle. Heading East to Column 8 to begin our northward journey toward the Thunder Badge checkpoint at Y=119.
 
 <hr>
