@@ -7565,28 +7565,33 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 
 - **Turn 98156 Socratic Challenge Response**: We have successfully mapped the northwest corner of the ground floor and found the visual ladder graphic at (1, 1). This disproves any remaining need to search for additional hidden switch plates on 1F, as the exit warp was simply relocated to (1, 1) rather than disabled. Once we defeat Cooltrainer♂, we will step onto (1, 1) to transition to 2F.
 
-## Victory Road 2F Live Log (Turn 98199):
-- Floor: Victory Road 2F (Map 0_194) | Turn: 98199 | Strength Active: [ ] False (Needs Reactivation)
+## Victory Road 2F Live Log (Turn 98249):
+- Floor: Victory Road 2F (Map 0_194) | Turn: 98249 | Strength Active: [x] True (Activated on Turn 98245)
 - Initial Position: (0, 8) facing Right.
-- Current Position: (2, 9) facing Down (Engaged in wild battle with Machoke Lv 41)
+- Current Position: (3, 9) facing Down
 - Explored Pathway:
   - Traversed from (0, 8) to (5, 7) (Row 7, Columns 0-5).
   - Traversed Row 7 Left from (5, 7) to (1, 7).
   - Bypassed solid rock at (1, 8) by moving Right to (2, 7) -> Down to (2, 8) -> Down to (2, 9).
+  - Explored southwest Western Chamber down to (1, 16).
+  - Mapped (1, 16) as a passable Switch plate (Switch B1) rather than a pitfall hole.
+  - Returned to (3, 9) on Turn 98240 and successfully activated overworld Strength.
 - Boulders Logged:
-  - Boulder B1: Verified at (5, 5) | Status: Unmoved | Strength Active: [ ] False
+  - Boulder B1: Verified at (5, 5) | Status: Unmoved | Strength Active: [x] True
+  - Boulder B2: Verified at (4, 14) | Status: Unmoved | Strength Active: [x] True
 - Floor Switches Logged:
-  - Switch B: (TBD)
+  - Switch B1: Coordinate (1, 16) | State: [ ] Pressed (requires Boulder B2)
+  - Switch B2: Coordinate (9, 16) (Visual duplicate of Switch B1, to be verified)
 - Socratic 2F Western Chamber Mapping Plan:
   - Objective: Systematically map the boundaries and accessible tiles of the western chamber (Columns 0-3, Rows 9-11) on foot to identify hidden switch plates or passages, and verify if 2F features a custom multi-boulder puzzle.
   - Coordinate-by-Coordinate Verification Path:
     1. From (2, 9), step Left to (1, 9), then Left to (0, 9) to test passability of the western-most column. (Completed: Turn 98212. Verified passable.)
     2. Backtrack to (1, 9), step Down to (1, 10), then Down to (1, 11). (Completed: Turn 98215. Verified passable.)
     3. From (1, 11), step Left to (0, 11) to check if the corner is passable or if there is a switch. (Updated: (0, 11) is solid rock TYPE_2889. Skipped.)
-    4. From (1, 11), step Right to (2, 11), then Right to (3, 11) to inspect the bottom right of the western chamber.
-    5. From (3, 11), step Up to (3, 10) and then Up to (3, 9).
-    6. Log the status of every tile to confirm whether a switch plate exists in this western pocket.
-    7. Once mapped, if no switch exists here, we will return to (5, 7) to activate Strength and proceed with pushing Boulder B1 at (5, 5).
-  - New Observation (Turn 98215): Detected a circular orange-brown object at (4, 14). We will route to (4, 13) to inspect this object from adjacent tiles.
+    4. From (1, 11), step Right to (2, 11), then Right to (3, 11) to inspect the bottom right of the western chamber. (Completed: Turn 98221.)
+    5. From (3, 11), step Up to (3, 10) and then Up to (3, 9). (Completed: Turn 98240.)
+    6. Log the status of every tile to confirm whether a switch plate exists in this western pocket. (Completed: Confirmed Switch B1 exists at (1, 16) and is passable, not a hole.)
+    7. Once mapped, if no switch exists here, we will return to (5, 7) to activate Strength and proceed with pushing Boulder B1 at (5, 5). (Completed: Returned and activated Strength.)
+  - New Observation (Turn 98215): Detected a circular orange-brown object at (4, 14). We will route to (4, 13) to inspect this object from adjacent tiles. (Completed: Confirmed as Boulder B2.)
 
 <hr>
