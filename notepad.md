@@ -7567,14 +7567,19 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   - Push 4: Pushed Left from (3, 16) to (2, 16) [Turn 98411]
   - Push 5: Pushed Left from (2, 16) onto Switch B1 at (1, 16) [Turn 98419]
 
-## Empirical Boulder C3 (7, 7) Exploration and Testing Plan:
-- **The Challenge**: The overwatch agent notes a potential contradiction: Boulder C3 is at (7, 7). If we push it south towards the pit at (7, 10), are (7, 8) and (7, 9) solid rock walls of TYPE_2889 or temporary barrier gates?
-- **Our Plan**:
-  1. Stand at (7, 6) facing Down.
-  2. Visually inspect the screen to check the tile type of (7, 7) (Boulder), (6, 7), (8, 7), and (7, 8).
-  3. If (7, 8) is a solid rock wall, we cannot push the boulder south.
-  4. Test if (7, 8) is a barrier gate that can be lowered. Since 2F has barrier gates lowered by floor switches, check if there is a floor switch on 3F that lowers it (such as the one at (3, 5)), or if (7, 8) is already open floor/barrier on 3F!
-  5. We will document the exact tile types and push results at each step.
+## Empirical Boulder C3 (7, 7) Exploration and Socratic Testing Plan:
+- **The Challenge**: On Turn 99164, we noted that standing on Switch C1 at (3, 5) does NOT change the tile type of (7, 8) or (7, 9) (they remain TYPE_2889 solid rock walls). If they are solid walls, we cannot push Boulder C3 south into the pit at (7, 10).
+- **Core Hypotheses**:
+  1. **Hypothesis A (Copy-Paste / Layout Confusion)**: Column 7 Rows 8 and 9 on 3F are actually open, passable floor (TYPE_3fe2). Our previous note on Turn 99164 was a copy-paste error or a layout confusion with 2F's barrier gates (which are also at (7, 8) and (7, 9) on 2F).
+  2. **Hypothesis B (Active Switch Dependency)**: They are indeed temporary barrier gates of TYPE_2889 on 3F and are controlled by Switch C1 at (3, 5), but we must keep Switch C1 pressed using a boulder (not just the player standing on it), or there is another undiscovered switch.
+  3. **Hypothesis C (Alternative Puzzle Structure)**: Column 7 Row 8/9 are permanent rock walls on 3F, meaning Boulder C3 is not the boulder meant to go down the pit, or we must drop a different boulder into the pit.
+- **Rigorously Structured Testing Protocol**:
+  1. **Walk to (7, 6)**: Traverse from our current position (13, 11) up to Row 1, west along Row 1, and down Column 7 to stand at (7, 6) facing Down.
+  2. **Visual Overlay Audit**: Check the visual representation and the tile type labels of (7, 7) (Boulder), (7, 8), and (7, 9) directly on the screen.
+  3. **The Collision Test**: Press Down to attempt to push Boulder C3 south from (7, 7) onto (7, 8).
+     - *If the boulder slides south*: Hypothesis A is proven. (7, 8) and (7, 9) are open floor on 3F, and the previous note was a 2F/3F confusion error. We will continue pushing the boulder into the pit at (7, 10).
+     - *If we bump/collide without movement*: Hypothesis B/C is suspected. We will walk to Switch C1 at (3, 5), stand on it, and inspect if (7, 8) or (7, 9) change from TYPE_2889 to TYPE_3fe2. If they change, we must push another boulder onto Switch C1 first.
+  4. **Document Results**: Record the exact turn number, visual observations, and physical collision results.
 
 ## Socratic Switch Contingency & Exploration Plan (Turn 99159):
 - **Empirical Switch C1 (3, 5) Test Results (Turn 99164)**:
