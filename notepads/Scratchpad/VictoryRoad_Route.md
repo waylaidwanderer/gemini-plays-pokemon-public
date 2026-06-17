@@ -87,39 +87,12 @@
   - Push 4: Pushed Left from (3, 16) to (2, 16) [Turn 98411]
   - Push 5: Pushed Left from (2, 16) onto Switch B1 at (1, 16) [Turn 98419]
 
-## Socratic Victory Road 2F Boulder Recovery & Pushing Strategy (Turn 99303):
-Once Boulder C3 (7, 7) is successfully dropped into the 3F Pit Hole at (7, 10), it lands on the 2F ground floor at (7, 10). Here is our rigorous step-by-step recovery and pushing plan:
-
-### Part 1: Floor Transition to 2F
-1. Walk back to the northeastern ladder on 3F at (23, 7).
-2. Take the ladder down to land on 2F at (27, 7).
-
-### Part 2: Traversing 2F to the Fallen Boulder
-1. From (27, 7) on 2F (the elevated plateau), walk to the stairs at (21, 15).
-2. Descend the stairs onto the ground level at (21, 16).
-3. Walk West along the ground-level Row 16 corridor: (21, 16) -> (20, 16) -> (19, 16) -> ... -> (7, 16).
-4. Walk North along the unblocked Column 7 corridor (the barriers at (7, 8) and (7, 9) were already permanently lowered on Turn 98419): (7, 16) -> (7, 15) -> (7, 14) -> (7, 13) -> (7, 12) -> (7, 11) -> (7, 10).
-5. Stand at (7, 9) facing Down, directly above the fallen boulder at (7, 10).
-
-### Part 3: Pushing the Boulder onto Switch B2 (9, 16)
-1. **Push South along Column 7**:
-   - Stand at (7, 9) facing Down, push Down: Boulder moves to (7, 11), Player is at (7, 10).
-   - Push Down: Boulder moves to (7, 12), Player is at (7, 11).
-   - Push Down: Boulder moves to (7, 13), Player is at (7, 12).
-   - Push Down: Boulder moves to (7, 14), Player is at (7, 13).
-   - Push Down: Boulder moves to (7, 15), Player is at (7, 14).
-   - Push Down: Boulder moves to (7, 16), Player is at (7, 15).
-2. **Reposition to the Left**:
-   - Step Left to (6, 15).
-   - Step Down to (6, 16).
-   - Now we are at (6, 16) facing Right, with the boulder at (7, 16).
-3. **Push East along Row 16**:
-   - Press Right to push Right: Boulder moves to (8, 16), Player is at (7, 16).
-   - Press Right to push Right: Boulder moves to (9, 16) (Switch B2!), Player is at (8, 16).
-4. **Conclusion**:
-   - Boulder is secured on Switch B2 at (9, 16).
-   - The barrier gate blocking the northeast exit on 2F is lowered.
-   - Walk back to the northeast, climb the ladder to 3F at (26, 8) (which is now accessible), and exit Victory Road!
+## Southern Corridor & Boulder C4 Investigation Strategy (Turn 100051):
+We have disproven the previous Column 7 gate and (7, 10) pit hole hypotheses. Our active workspace is now focused on the southern ground-level corridor.
+1. Walk South from (8, 12) along Column 8 to (8, 16).
+2. Walk East along the safe Row 16 corridor to Column 13: (8, 16) -> (13, 16).
+3. Walk North along Column 13 to investigate Boulder C4 at (13, 12) and the real pit hole on 3F.
+4. Identify and log the exact coordinates of the real 3F pit hole and formulate a rigorous pushing strategy once verified.
 
 ## Gen 1 Boulder Pushing Animation/Timing Note:
 - When pushing a boulder, the movement animation takes some frames. Sending consecutive movement presses too quickly (e.g., standard 500ms overworld presses) can cause the engine to ignore subsequent pushes because the boulder is still moving.
