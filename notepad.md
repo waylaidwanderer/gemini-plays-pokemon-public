@@ -7490,16 +7490,11 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
     - *Format*: `Turn [N]: Pushed [Boulder ID] [Direction] from (X, Y) to (X_new, Y_new) while standing at (X_player, Y_player) facing [Facing]`.
   - If a puzzle becomes unsolvable or we get stuck, we will immediately use a stairs transition to reset all boulder coordinates and STRENGTH state, updating our logs accordingly.
 ## Live Progression & Route Logs:
-- **Turn 97482**: Successfully initiated SURF on water at (11, 103) facing Up. Surfing North along Column 11 toward the Soul Badge checkpoint at Y=96.
 - **Turn 97563 Resource Management Audit**:
   - Blastoise (GEMMY) is currently at 105/207 HP.
   - To prevent entering Victory Road in a vulnerable state, we will open our Bag item menu and use 1 Hyper Potion (currently 7 in inventory) to heal GEMMY to full (207/207 HP).
   - This keeps our primary sweeper healthy and ready for the 1F trainer battles without wasting Max Potions.
-- **Turn 97591 Overworld Status**:
-  - We are on foot at (6, 32) on Route 23.
-  - We are positioned right next to the cave entrance at (4, 31).
-  - GEMMY is fully healed. We are ready to step inside!
 - **Floor: Victory Road 1F | Turn: 97593 | Strength Active: [x] True**
-- **Turn 97614**: Pushed Boulder A Up from (5, 15) to (5, 14) while standing at (5, 16) facing Up.
+- **Turn 97616**: Pushed Boulder A Up from (5, 15) to (5, 14) while standing at (5, 16) facing Up. Corrected chronological logging (Turn 97614 was a premature pre-log before execution, actual movement executed on Turn 97616).
 
 <hr>
