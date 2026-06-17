@@ -21,8 +21,8 @@
   - Boulder A2: Initial (14, 2) | Current (10, 2) | Target (10, 2) | Status: [ ] Active
 
 ### Victory Road 2F Map (Map 0_194):
-- **Active State**: Historical (Returned to 3F)
-  - **Current Position**: Historical (Returned to 3F)
+- **Active State**: In Progress
+  - **Current Position**: (21, 15) facing Down (Turn 100441)
 - **Strength Status**: Active: [x] True
 - **Boulders Database**:
   - Boulder B1: Initial (5, 5) | Current (5, 5) | Status: Unmoved
@@ -33,8 +33,8 @@
   - Switch B2: Coordinate (9, 16) | State: [x] Pressed (secured with Dropped Boulder)
 
 ### Victory Road 3F (Map 0_198):
-- **Active State**: In Progress
-  - **Current Position**: (22, 13) facing Down (Turn 100381)
+- **Active State**: Historical (Returned to 2F)
+  - **Current Position**: Historical (Returned to 2F)
   - **East-Wing & Plateau Pivot Start**: Turn 99693
 - **Campaign Start (Victory Road 3F)**: Turn 98794 (Time: Wednesday, June 17, 2026 at 7:57 AM PDT)
 - **Strength Status**: Active [x]
