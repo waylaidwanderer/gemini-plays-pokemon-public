@@ -7488,8 +7488,9 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 
 ### Victory Road 2F:
 - **Active State**: Unexplored / Initial
+- **Strength Status**: Floor: Victory Road 2F | Turn: 98171 | Strength Active: [ ] False (Needs Reactivation)
 - **Boulders Database**:
-  - Boulder B: Initial (TBD, TBD) | Current (TBD, TBD) | Target (TBD, TBD) | Status: [ ] Active
+  - Boulder B1: Initial (5, 4) | Current (5, 4) | Target (TBD, TBD) | Status: [ ] Active
 - **Floor Switches**:
   - Switch B: Coordinate (TBD, TBD) | State: [ ] Pressed (requires Boulder B)
 - **Socratic 2F Strategy Plan**:
