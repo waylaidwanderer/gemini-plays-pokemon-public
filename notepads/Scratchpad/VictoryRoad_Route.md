@@ -60,12 +60,11 @@
   - Earthquake: 4/10 PP
   - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
 
-## Active Progress & Current Plan (Turn 100951):
+## Active Progress & Current Plan (Turn 100987):
 - **Current Task**: Drop down the open pit hole at (23, 15) on 3F, land on 2F's ground floor, and walk West to the exit ladder at (0, 8).
 - **Step-by-Step Plan**:
-  - Walk Left to bypass (23, 9) wall.
-  - Walk Down along Column 20 to Row 15.
-  - Walk Right to Column 23 to reach the pit hole.
+  - Step Down to (23, 8) and back Up to (23, 7) to trigger warp to 3F.
+  - On 3F, navigate to the open pit hole at (23, 15).
   - Drop down to 2F.
   - Walk West to (0, 8).
-  - Session Start Turn: 100951 | Timestamp: Wednesday June 17, 2026 4:34 PM PDT (Time-blindness protection active)
+  - Session Start Turn: 100951 | Resumed: Turn 100987 | Timestamp: Wednesday June 17, 2026 4:45 PM PDT (Time-blindness protection active)
