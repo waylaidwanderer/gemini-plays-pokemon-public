@@ -7565,7 +7565,7 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 ## Victory Road 2F Live Log (Turn 98249):
 - Floor: Victory Road 2F (Map 0_194) | Turn: 98249 | Strength Active: [x] True (Activated on Turn 98245)
 - Initial Position: (0, 8) facing Right.
-- Current Position: (3, 9) facing Down
+- Current Position: (7, 7) facing Down (Turn 98317)
 - Explored Pathway:
   - Traversed from (0, 8) to (5, 7) (Row 7, Columns 0-5).
   - Traversed Row 7 Left from (5, 7) to (1, 7).
@@ -7573,6 +7573,7 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   - Explored southwest Western Chamber down to (1, 16).
   - Mapped (1, 16) as a passable Switch plate (Switch B1) rather than a pitfall hole.
   - Returned to (3, 9) on Turn 98240 and successfully activated overworld Strength.
+  - Moved from (3, 11) up to (3, 7) then east along Row 7 to (7, 7). Triggered a wild Graveler battle on (7, 7) which was successfully fled from on Turn 98305.
 - Boulders Logged:
   - Boulder B1: Verified at (5, 5) | Status: Unmoved | Strength Active: [x] True
   - Boulder B2: Verified at (4, 14) | Status: Unmoved | Strength Active: [x] True
