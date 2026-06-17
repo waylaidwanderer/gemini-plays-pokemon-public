@@ -65,11 +65,14 @@
 - **Search Goal**: Systematically explore Victory Road 1F to locate Switch A.
 - **Safety Rule**: Do NOT perform any further pushes on Boulder A (currently at (5, 14)) until Switch A has been found and its coordinates are verified and logged. Keeping Boulder A in its current position allows us to move around it without blocking any paths or pushing it into an unrecoverable state.
 - **Verification Rule**: Any candidates for Switch A must be stood on, interacted with, and verified to check if they are the correct active plate switch.
-Turn 97682: Prepared to push Boulder A.
-- Push Vector: Push DOWN from (5, 14) to (5, 16) while standing at (5, 14) facing Down.
-- Transition Plan to Position Left of Boulder A: Once Boulder A is at (5, 16), the player is at (5, 14). We will stand at (4, 16) to push it Right. Path: Left to (4, 14), Down to (4, 15), Down to (4, 16) facing Right.
-- Guided Coordinates: Boulder A will pass through (6, 16), (7, 16), (8, 16), (9, 16), (10, 16), (11, 16)? Wait, (11, 16) is a wall (TYPE_2889). So we will push it to (10, 16), and from there we must navigate carefully near the rock wall at (10, 15) to see how we transition columns. We will analyze the layout around (10, 15) and column 10 as we push.
-- Corner Prevention: We will ensure we do not push the boulder flush against a corner where we cannot get behind it to push it in the next required direction. No blind pushes. We will check collision on every single step.
+Turn 97756: Floor: Victory Road 1F | Strength Active: [x] True.
+We successfully positioned ourselves at (16, 15), directly below Boulder A at (16, 14).
+Plan:
+1. Press Up, Up to push Boulder A from (16, 14) to (16, 13), then step Up onto (16, 14) and push it to (16, 12).
+2. Move Left to (15, 14), Left to (14, 14), Up to (14, 13), Up to (14, 12), Right to (15, 12) facing Right.
+3. Push Boulder A from (16, 12) to (17, 12).
+4. Move Up to (15, 11), Right to (16, 11), Right to (17, 11) facing Down.
+5. Push Boulder A from (17, 12) to (17, 13) (Switch A!).
 Turn 97753: Floor: Victory Road 1F | Strength Active: [x] True.
 We successfully pushed Boulder A further Eastward!
 - Current Boulder position: (16, 14) (directly to our Right).
