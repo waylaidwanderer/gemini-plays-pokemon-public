@@ -137,16 +137,7 @@
   5. We will document the exact tile types and push results at each step.
 
 ## Socratic Switch Contingency & Exploration Plan (Turn 99159):
-- **Contingency A (Switch (3, 5) Lowers (7, 8))**:
-  - If we stand on (3, 5) and (7, 8) changes to a passable floor/barrier tile, it confirms (3, 5) is the trigger.
-  - Since it's a floor plate, it will likely reset when we step off. This means we must push another boulder (such as Boulder C1 at (22, 3), Boulder C2 at (24, 10), or Boulder C4 at (13, 12)) onto the switch at (3, 5) to keep the barrier permanently open.
-  - Once the switch is held down, we can return to (7, 6) and push Boulder C3 south through (7, 8) and (7, 9) into the pit at (7, 10).
-- **Contingency B (Switch (3, 5) does NOT Lower (7, 8))**:
-  - If (7, 8) remains a wall when we stand on (3, 5), it means either:
-    1. The switch at (3, 5) triggers a different barrier on 3F (such as one on the east side).
-    2. There is a different trigger (like a hidden switch, another plate, or a 2F switch) that controls (7, 8).
-    3. We must systematically locate and test other triggers. We will walk the entire 3F floor to find any other plates of TYPE_eb90.
-    4. We will also inspect if any other wall tile adjacent to Boulder C3 (like (6, 7) or (8, 7)) is the barrier.
-- **Contingency C (Alternate trajectories for Boulder C3)**:
-  - If (7, 8) is a permanent rock wall, we cannot push Boulder C3 south.
-  - We would have to check if (6, 7) or (8, 7) can be lowered, allowing us to stand at (7, 6) and push it south, then stand at a side tile to push it horizontally. But since it's in a 1-tile wide vertical slot, pushing it south first is mandatory. Thus, (7, 8) MUST be the gate. We will proceed with the active test.
+- **Empirical Switch C1 (3, 5) Test Results (Turn 99164)**:
+  - Standing on the floor switch at (3, 5) does NOT change the tile type of (7, 8) or (7, 9) (they remain TYPE_2889 solid rock walls).
+  - Therefore, Switch C1 at (3, 5) does NOT lower the barrier around Boulder C3 at (7, 7). Its actual function is likely elsewhere, possibly on the east side of 3F.
+- **Socratic Switch Contingency & Exploration Plan (Turn 99159)**:
