@@ -70,13 +70,18 @@ Turn 97771: Floor: Victory Road 1F | Strength Active: [x] True.
 We successfully pushed Boulder A onto Switch A! All obsolete multi-line plans for Turn 97756, 97753, and 97750 have been removed to maintain notepad hygiene. Proceeding to find the opened gate and the 2F stairs.
 ### Victory Road 1F Map Exploration (Continued):
 - Turn 97779: Boulder A is successfully on Switch A at (17, 13).
-- Turn 97834: Discovered that the object at (2, 10) on the isolated western plateau is a physical Boulder, not an Item Ball.
-- Current coordinates: (2, 11) (standing below the boulder at (2, 10)).
-- Defensive Pushing Analysis for Boulder at (2, 10):
-  - If we push this boulder Up from (2, 11), it moves to (2, 9).
-  - Standing at (2, 10), the boulder at (2, 9) cannot be pushed further Up because (2, 8) is a wall (TYPE_2889). It cannot be pushed Left or Right because (1, 9) and (3, 9) are walls.
-  - Pushing this boulder is unnecessary because the area behind it (Rows 7, 8, 9) is already fully accessible via the wide-open ground path on Row 8 (Columns 3-7).
-  - Defensive Rule: Do NOT push the boulder at (2, 10). It is a decorative blocker that does not need to be moved to access any area. Leave it at (2, 10).
-- Path to return to the plateau at (5, 12):
-  - Down to (2, 12) -> Left to (1, 12) -> Down to (1, 15) -> Right to (5, 15) -> Up to (5, 13) (stairs) -> Up to (5, 12).
-- Plan: Backtrack along this route to return to the plateau and head East to find the 2F ladder.
+- Turn 97834: Discovered that the object at (2, 10) on the isolated western plateau is a physical Boulder, not an Item Ball. Left unmodified to preserve puzzle integrity.
+- Turn 97861: Proceeding to Victory Road 2F ladder at (15, 7).
+
+### Victory Road 2F Map Entry & Mapping Protocol:
+- **Immediate Action**: Upon arriving on 2F, immediately log the coordinate state:
+  `Floor: Victory Road 2F | Turn: [Turn Number] | Strength Active: [ ] False (Needs Reactivation)`
+- **Strength Protocol**: Do not touch or walk adjacent to any boulders until overworld Strength is activated.
+  - Open POKéMON menu, select ROCKY (Geodude), select STRENGTH.
+  - Verify exact text: "ROCKY used STRENGTH!" and "ROCKY can move boulders."
+  - Log: `Strength Active: [x] True`
+- **Terrain Passability & Mapping Check**:
+  - Visually inspect the entrance area for boulders, switches, and path divisions.
+  - Walk the perimeter of the immediate accessible ground to map the boundaries before taking plateaus or long paths.
+  - Avoid pushing any boulder into corners, walls, or 1-tile bottlenecks until the entire floor layout, the active switch, and the optimal push vectors have been verified.
+- **Backtrack/Reset Rule**: If any boulder becomes irreversibly stuck (e.g. against a corner or solid wall where it cannot be pushed), use the ladder/stairs to transition back to 1F and return to 2F to fully reset the boulder coordinates.
