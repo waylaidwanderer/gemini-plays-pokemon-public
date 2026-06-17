@@ -7568,5 +7568,6 @@ We have disproven the previous Column 7 gate and (7, 10) pit hole hypotheses. Ou
   - The menus are completely closed, and the overworld is 100% clear.
   - We are standing at (25, 10) facing Left (West). Boulder C2 is at (24, 10). STRENGTH is active.
   - **Proposed Path**: Push Boulder C2 Left to (23, 10), step Left onto (24, 10), push Boulder C2 Left to (22, 10), step Left onto (23, 10), and step Down onto (23, 11) to cross the partition wall and reach the western side of 3F. From there, we will take the ladder at (23, 7) to 2F.
+- **Turn 100374 Combat Log**: Triggered a wild Geodude encounter at (22, 13) while traversing Left. GEMMY (BLASTOISE) is leading. We will run away to conserve our limited PP resources.
 
 <hr>
