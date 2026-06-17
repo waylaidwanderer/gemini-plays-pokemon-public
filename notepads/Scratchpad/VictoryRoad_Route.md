@@ -89,7 +89,7 @@
 ## Victory Road 2F Exploration Phase (Started Turn 98165)
 - Floor: Victory Road 2F (Map 0_194) | Strength Active: [x] True (Activated on Turn 98245)
 - Initial Position: (0, 8) facing Right.
-- Current Position: (4, 16) facing Down (Turn 98414)
+- Current Position: (3, 16) facing Left (Turn 98417)
 - Explored Pathway:
   - Traversed from (0, 8) to (5, 7) (Row 7, Columns 0-5).
   - Traversed Row 7 Left from (5, 7) to (1, 7).
@@ -103,9 +103,53 @@
   - Navigated to (5, 15) and executed Push 2 of the puzzle on Turn 98397, pushing Boulder B2 west to (3, 15).
   - Navigated to (3, 14) on Turn 98399 and executed Push 3 of the puzzle on Turn 98402, pushing Boulder B2 south to (3, 16).
   - Navigated to (4, 16) on Turn 98404 and executed Push 4 of the puzzle on Turn 98411, pushing Boulder B2 west to (2, 16).
+  - Navigated to (3, 16) on Turn 98416 to set up for Push 5.
 - Boulders Logged:
   - Boulder B1: Verified at (5, 5) | Status: Unmoved | Strength Active: [x] True
   - Boulder B2: Verified at (2, 16) | Status: Pushed Down twice, Left twice | Strength Active: [x] True
+- Floor Switches Logged:
+  - Switch B1: Coordinate (1, 16) | State: [ ] Pressed (requires Boulder B2)
+  - Switch B2: Coordinate (9, 16) (Visual duplicate of Switch B1, to be verified)
+
+## Eastern Plateau & Lower Floor Systematic Verification Protocol (Turn 98371 Plan):
+- **Objective**: Systematically map, test, and log the coordinates of the eastern plateau and ground floor (Columns 6-20) to find Switch B2 and check interaction rules before making physical pushes.
+- **Protocol Steps**:
+  1. **Plateau Climb & Col 7 Stairs Test**: Move Up onto (5, 9) (plateau) -> Right to (6, 9) -> Right to (6, 8) -> Right to (7, 8) (top of Column 7 stairs). Test if we can walk South down the stairs to (7, 7) (ground level) and back up. This proves the stairs' physical properties. (Update: Column 7 has active barrier gates TYPE_de37 that block traversal; must solve the puzzle to lower them.)
+  2. **Eastern Plateau Boundary Mapping**: Walk East on Row 8 from (8, 8) to (12, 8), staying above the Juggler/Super Nerd trainer at (12, 9) (who faces Left) to map the elevated boundaries.
+  3. **Trainer Engagement**: Defeat the trainers at (11, 5) (Cooltrainer♀ facing Down) and (12, 9) (Juggler/Super Nerd facing Left) to secure the central and eastern chambers.
+  4. **Item Retrieval**: Collect the floor item at (9, 11) and log its identity.
+  5. **Switch B2 Search & Verification**: Locate and physically step onto the coordinates of Switch B2 (likely at Y=16 on the east side) to confirm its passability and exact tile properties.
+  6. **Boulder Push Planning**: Only after all boundaries and switches are verified, formulate precise push vectors for Boulder B1 at (5, 5) and Boulder B2 at (4, 14).
+
+- **Socratic 2F Central/Eastern Verification Plan (Turn 98271)**:
+  - Objective: Systematically explore and verify the central and eastern sections of Victory Road 2F (Columns 4-20) to find Switch B2 and check for additional puzzle elements.
+  - Coordinate-by-Coordinate Verification Path:
+    1. From current position (3, 9), move Up to (3, 8), then Up to (3, 7).
+    2. Move Right to (7, 7) via (4, 7) -> (5, 7) -> (6, 7) -> (7, 7).
+    3. Step South onto the plateau stairs at (7, 8) (TYPE_de37).
+    4. Step Right onto the plateau at (8, 8) (TYPE_2770).
+    5. Head East on the plateau past Column 8 to map the eastern elevated section and find the exit or further switches.
+    6. Locate and verify the coordinates of Switch B2 (visually a duplicate of Switch B1, likely at Y=16 on the east side).
+    7. Once verified, map precise push vectors for both Boulder B1 at (5, 5) and Boulder B2 at (4, 14) to solve the multi-boulder puzzle.
+
+## Master-Class Boulder B2 Pushing Log (Switch B1 at 1, 16):
+- Starting Position: Boulder B2 at (4, 14) | Player at (4, 13) facing Down.
+- Target Position: Switch B1 at (1, 16) (TYPE_eb90).
+- Push 1 Plan: Push Down from (4, 14) to (4, 15).
+  - Stand at (4, 13) facing Down, press Down.
+  - Resulting Position: Boulder B2 at (4, 15) | Player at (4, 13) facing Down. (Executed on Turn 98392)
+- Push 2 Plan: Push Left from (4, 15) to (3, 15).
+  - Stand at (5, 15) facing Left, press Left.
+  - Resulting Position: Boulder B2 at (3, 15) | Player at (5, 15) facing Left. (Executed on Turn 98397)
+- Push 3 Plan: Push Down from (3, 15) to (3, 16).
+  - Stand at (3, 14) facing Down, press Down.
+  - Resulting Position: Boulder B2 at (3, 16) | Player at (3, 14) facing Down. (Executed on Turn 98402)
+- Push 4 Plan: Push Left from (3, 16) to (2, 16).
+  - Stand at (4, 16) facing Left, press Left.
+  - Resulting Position: Boulder B2 at (2, 16) | Player at (4, 16) facing Left. (Executed on Turn 98411)
+- Push 5 Plan: Push Left from (2, 16) onto (1, 16) (Switch B1).
+  - Stand at (3, 16) facing Left, press Left.
+  - Resulting Position: Boulder B2 at (1, 16) (Switch B1) | Player at (3, 16) facing Left.
 - Floor Switches Logged:
   - Switch B1: Coordinate (1, 16) | State: [ ] Pressed (requires Boulder B2)
   - Switch B2: Coordinate (9, 16) (Visual duplicate of Switch B1, to be verified)
