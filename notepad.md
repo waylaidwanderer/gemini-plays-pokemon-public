@@ -7518,13 +7518,6 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   - Push 4: Pushed Left from (3, 16) to (2, 16) [Turn 98411]
   - Push 5: Pushed Left from (2, 16) onto Switch B1 at (1, 16) [Turn 98419]
 
-## Southern Corridor & Boulder C4 Investigation Strategy (Turn 100051):
-We have disproven the previous Column 7 gate and (7, 10) pit hole hypotheses. Our active workspace is now focused on the southern ground-level corridor.
-1. Walk South from (8, 12) along Column 8 to (8, 16).
-2. Walk East along the safe Row 16 corridor to Column 13: (8, 16) -> (13, 16).
-3. Walk North along Column 13 to investigate Boulder C4 at (13, 12) and the real pit hole on 3F.
-4. Identify and log the exact coordinates of the real 3F pit hole and formulate a rigorous pushing strategy once verified.
-
 ## Gen 1 Boulder Pushing Animation/Timing Note:
 - When pushing a boulder, the movement animation takes some frames. Sending consecutive movement presses too quickly (e.g., standard 500ms overworld presses) can cause the engine to ignore subsequent pushes because the boulder is still moving.
 - Solution: Chunk presses into single steps or insert generous sleeps (e.g., 'sleep 1000') between consecutive pushes.
