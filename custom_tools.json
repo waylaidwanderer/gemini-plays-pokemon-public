@@ -44,5 +44,20 @@
         "action_counter": 96276
       }
     ]
+  },
+  "activate_strength": {
+    "description": "Automates the overworld activation of the STRENGTH move from the party menu by navigating to the second party member (ROCKY/GEODUDE) and selecting the STRENGTH option.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\n\n# Standard button sequence to activate STRENGTH in overworld:\n# 1. Start (opens menu)\n# 2. Down (points to POKeMON if cursor starts at top, or we can press B first to reset)\n# 3. A (selects POKeMON)\n# 4. Down (points to ROCKY/GEODUDE in slot 2)\n# 5. A (selects ROCKY)\n# 6. A (selects STRENGTH, which is the first option)\n# 7. sleep 1500 (waits for dialog)\n# 8. A (advances dialog)\n\nbuttons = [\n    \"Start\",\n    \"sleep 1000\",\n    \"Down\",\n    \"sleep 500\",\n    \"A\",\n    \"sleep 1000\",\n    \"Down\",\n    \"sleep 500\",\n    \"A\",\n    \"sleep 1000\",\n    \"A\",\n    \"sleep 1500\",\n    \"A\"\n]\n\nprint(json.dumps(buttons))\n",
+    "history": [
+      {
+        "commit_message": "Define activate_strength tool to automate the STRENGTH overworld activation from the party menu.",
+        "timestamp": "2026-06-17T10:53:54.544Z",
+        "action_counter": 98634
+      }
+    ]
   }
 }
