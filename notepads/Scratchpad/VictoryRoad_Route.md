@@ -114,3 +114,11 @@ We have disproven the previous Column 7 gate and (7, 10) pit hole hypotheses. Ou
     - An undefeated trainer is standing at (7, 13) facing Left.
     - Columns 1-6 on Rows 12-16 are completely open ground floor (TYPE_3fe2).
   - Active Strategy: Walk East along the safe Row 12 corridor to bypass the trainer's line of sight and explore the southern/eastern ground floor of 3F to locate the real pit hole and boulders.
+- **Discovery (Turn 100130)**: Located the real pit hole on Victory Road 3F at (23, 15).
+- **Discovery (Turn 100130)**: Located a boulder on the ground level at (22, 15) directly adjacent to the pit hole at (23, 15).
+- **Discovery (Turn 100130)**: Located another boulder on the ground level at (24, 10).
+- **Physical Blockages on 3F**: Column 21 Rows 10, 11, and 12 are blocked by rock walls (TYPE_2889), dividing the eastern side of Row 11 from the western side of the ground floor. 
+- **Traversal Strategy to Southeastern Section**:
+  1. From (20, 11), walk Left to Column 13: (20, 11) -> (13, 11).
+  2. Walk Down along Column 13 to the southern corridor at Row 13: (13, 11) -> (13, 13).
+  3. Walk East along Row 13 to Column 21: (13, 13) -> (21, 13) to access the southeastern area.
