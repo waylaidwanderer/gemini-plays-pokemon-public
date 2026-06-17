@@ -7523,7 +7523,7 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 
 ## Victory Road 1F Exploration & Mapping Protocol:
 - **Search Goal**: Systematically explore Victory Road 1F to locate Switch A. (Completed: Turn 97771 - Switch A is located at (17, 13) and has Boulder A on it.)
-- **Puzzle Status Verification**: The map layout is modified, requiring a multi-boulder puzzle solution. The standard 2F ladder warp at (17, 2) is verified to be inactive under our current configuration. We must determine if we need to solve the full three-boulder puzzle to activate the warp, or if there is another unexplored route.
+- **Puzzle Status Verification**: The map layout is modified, requiring a multi-boulder puzzle solution. The standard 2F ladder warp at (17, 2) is verified to be inactive under our current configuration.
 - **Unexplored Areas Check**: Systematically explore the western ground floor's northern sections (Columns 1-4, Rows 0-7) to check for alternative paths or switches before resetting the puzzle.
 - **Starting turn / timestamp**: Victory Road 1F exploration phase started on Turn 97131 to track time and prevent Time Blindness.
 ## Victory Road 1F Warp Test Log:
