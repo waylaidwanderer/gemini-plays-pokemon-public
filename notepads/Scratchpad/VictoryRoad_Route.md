@@ -21,7 +21,7 @@
   - Boulder A2: Initial (14, 2) | Current (10, 2) | Target (10, 2) | Status: [ ] Active
 
 ### Victory Road 2F Map (Map 0_194):
-- **Active State**: In Progress
+- **Active State**: Completed (Backtracked to 3F)
   - **Current Position**: (16, 11) facing Down (Turn 100937)
 - **Strength Status**: Active: [ ] False
 
@@ -35,8 +35,8 @@
   - Switch B2: Coordinate (9, 16) | State: [x] Pressed (secured with Dropped Boulder)
 
 ### Victory Road 3F Map (Map 0_198):
-- **Active State**: Completed
-  - **Current Position**: (23, 7) facing Down (Turn 100787)
+- **Active State**: In Progress
+  - **Current Position**: (23, 7) facing Down (Turn 100951)
 - **Boulders Database**:
   - Boulders are reset back to default starting positions (boulder C2 at (24, 10), boulder C4 at (13, 12)).
 - **Floor Switches & Holes**:
@@ -60,8 +60,12 @@
   - Earthquake: 4/10 PP
   - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
 
-## Active Progress & Current Plan (Turn 100892):
-- **Current Task**: Navigate Victory Road 2F. We are at (16, 11) on the upper checkerboard level. We must find a way to descend to the lower cavern level (Row 12-14) to reach the Western Plateau Stairs at (15, 15) or Eastern Plateau Stairs at (21, 15) on the East side.
-- **Step-by-Step Detour Path**:
-  - Test if we can step Down from (16, 11) to (16, 12).
-  - Walk to (15, 15) or (21, 15) once descended.
+## Active Progress & Current Plan (Turn 100951):
+- **Current Task**: Drop down the open pit hole at (23, 15) on 3F, land on 2F's ground floor, and walk West to the exit ladder at (0, 8).
+- **Step-by-Step Plan**:
+  - Walk Left to bypass (23, 9) wall.
+  - Walk Down along Column 20 to Row 15.
+  - Walk Right to Column 23 to reach the pit hole.
+  - Drop down to 2F.
+  - Walk West to (0, 8).
+  - Session Start Turn: 100951 | Timestamp: Wednesday June 17, 2026 4:34 PM PDT (Time-blindness protection active)
