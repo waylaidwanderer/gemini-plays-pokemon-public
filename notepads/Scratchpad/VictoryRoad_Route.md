@@ -1,6 +1,5 @@
 # Scratchpad: Victory Road Route & Puzzle States
 - Started: Turn 96968 (pre-entry routing)
-- Goal: Navigate Victory Road, solve boulder puzzles, and reach Indigo Plateau.
 
 ## Party Overworld HM Dependencies & Readiness:
 - **SURF (HM03)**: Known by GEMMY (BLASTOISE) (Slot 1, Level 63). Fully functional.
