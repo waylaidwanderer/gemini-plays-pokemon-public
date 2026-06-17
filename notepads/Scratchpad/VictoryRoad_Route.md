@@ -86,11 +86,9 @@
 - **Unexplored Areas Check**: Systematically explore the western ground floor's northern sections (Columns 1-4, Rows 0-7) to check for alternative paths or switches before resetting the puzzle.
 - **Starting turn / timestamp**: Victory Road 1F exploration phase started on Turn 97131 to track time and prevent Time Blindness.
 ## Victory Road 1F Warp Test Log:
-- We are currently standing at (17, 2).
 - Tested stand-in-front and face UP on (18, 3) facing (18, 2) on Turn 97915. Result: BUMPED, (18, 2) acts as a solid rock wall and is impassable.
 - Tested stepping onto (17, 2) on Turn 97914. Result: Did not warp.
 - The northeast corner does not contain an active warp or accessible ladder under the current state.
-- Turn 98003: Currently standing at (9, 6) on the central plateau of Victory Road 1F. We picked up TM43 (Sky Attack) from (11, 0) and pushed Boulder A2 to (10, 2). Proceeding Left to Column 7 to battle the Cooltrainer♀ at (7, 5) and descend to the western ground floor via the stairs at (7, 7).
 
 ### Western Ground Floor Mapping & Multiple Boulders Verification Protocol (Turn 98021 Plan):
 - **Hypothesis**: The standard 2F ladder warp at (17, 2) is disabled because this ROM features a custom three-boulder layout on 1F, requiring a multi-boulder puzzle to be solved first.
