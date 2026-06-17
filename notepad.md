@@ -7459,7 +7459,7 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 - **Active State**: Completed (Boulder on Switch)
 - **Boulders Database**:
   - Boulder A: Initial (5, 15) | Current (17, 13) | Target (17, 13) | Status: [x] Active
-  - Boulder A2: Initial (14, 2) | Current (11, 2) | Target (10, 2) | Status: [ ] Active
+  - Boulder A2: Initial (14, 2) | Current (10, 2) | Target (10, 2) | Status: [ ] Active
 - **Floor Switches**:
   - Switch A: Coordinate (17, 13) | State: [x] Pressed (secured with Boulder A)
 - **Verified Switch A Pushing Route**:
