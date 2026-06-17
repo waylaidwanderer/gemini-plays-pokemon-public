@@ -7495,17 +7495,6 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 - **Conclusion**: Switch C1 at (3, 5) does NOT open the Column 7 gates. Its function is elsewhere, likely lowering a barrier on the East or Northeast side of 3F.
 - **Active Strategy**: Pivot immediately to Contingency A. Walk East along the Row 1 corridor to investigate if any eastern or northeast barrier was lowered, or if there is another switch/trigger on the East side.
 
-## Socratic Verification Protocol for Victory Road 3F:
-- **Objective 1**: Discover and verify the location of all floor switches and holes on 3F.
-  - **Methodology**: Walk systematically across all accessible pathways of 3F. Locate any floor plate tiles of type `TYPE_eb90` (switches) or `TYPE_de37` (holes).
-  - **Validation**: Place unique map markers at discovered switches (🔘) and holes (🕳️).
-- **Objective 2**: Identify which boulder must be pushed into the hole to fall to 2F.
-  - **Methodology**: Once the hole's coordinates (X_hole, Y_hole) are verified:
-    1. Cross-reference (X_hole, Y_hole) on 2F's map layout.
-    2. Verify that (X_hole, Y_hole) on 2F is on the ground floor and has a clear, passable route to the 2F Switch B2 at (9, 16).
-    3. Identify which 3F boulder can be pushed into (X_hole, Y_hole) based on grid collision and pathing.
-  - **Validation**: Formulate a step-by-step push planning sequence before applying any force.
-
 ## Active Exploration Route & Plan:
 - **Active Exploration Strategy**:
   - We are currently exploring the East wing of 3F to inspect the southeastern and northeastern areas, locate Boulder C2 at (24, 10) and Boulder C4 at (13, 12), and search for any other active switches or paths that lead to solving the floor.
