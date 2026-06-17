@@ -7492,8 +7492,6 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 - **Result**: Checked on Turn 100801: item (18, 9) has been successfully collected.
 
 ## Archive: Completed Pushing Logs & Discoveries
-- **TM05 Collection**: Collected TM05 at (9, 11) on Turn 98542.
-- **Item at (26, 5) Collected**: Successfully retrieved Max Revive on Turn 99083.
 - **Boulder B2 Pushing Log (Switch B1 at 1, 16) [Turn 98419]**:
   - Push 1: Pushed Down from (4, 14) to (4, 15) [Turn 98392]
   - Push 2: Pushed Left from (4, 15) to (3, 15) [Turn 98397]
