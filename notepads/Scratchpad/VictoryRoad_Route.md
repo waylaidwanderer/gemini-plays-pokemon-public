@@ -92,21 +92,11 @@
 
 ## Active Exploration Route & Plan:
 - **Goal**: Navigate and solve 3F puzzle by dropping Boulder C3 (7, 7) into the pit at (7, 10).
-- **Core Realization (Turn 99377)**:
-  - We HAVE solved the mystery! The switch at (3, 5) DOES open the Column 7 gates at (7, 8) and (7, 9) on 3F!
-  - **Why did we think it didn't work?** Because of Gen 1's local viewport update and switch deactivation mechanics:
-    1. When the player stands on Switch C1 at (3, 5), the gate opens. But since the gate at (7, 8) is off-screen, we cannot see it open.
-    2. The moment the player steps off the switch to walk over and check, the gate instantly closes!
-    3. Therefore, when we arrive at Column 7, the gate is closed again, leading to the false conclusion that the switch did not work.
-  - **The Solution**: We MUST push a boulder onto Switch C1 at (3, 5) so it stays pressed!
-  - **The Puzzle Path**:
-    1. Go to the eastern section of 3F.
-    2. Locate Boulder C1 at (22, 3) and push it all the way West along the Row 1 corridor to the west side.
-    3. Push Boulder C1 onto Switch C1 at (3, 5).
-    4. This permanently lowers the gate at (7, 8) and (7, 9) on 3F.
-    5. Come back to Column 7, and push Boulder C3 at (7, 7) Down into the hole at (7, 10).
-    6. Go to 2F, push the fallen boulder onto Switch B2 at (9, 16), and escape Victory Road!
-  - Therefore, our next active objective is to navigate to the northeast section of 3F and push Boulder C1 (22, 3) to the west!
+- **Core Realization (Turn 99377) & Empirical Disproof (Turn 99678)**:
+  - *Initial Hypothesis*: We hypothesized that the switch at (3, 5) opens the Column 7 gates.
+  - *Empirical Disproof (Turn 99678)*: Even with Boulder C1 resting on Switch C1 at (3, 5), the gate at (7, 8) and (7, 9) remained CLOSED and Boulder C3 at (7, 7) could not be pushed. Thus, Switch C1 at (3, 5) does NOT open the Column 7 gates. Its actual function is either to open a barrier on the east side, or there is another switch/puzzle element we need to trigger.
+- **Active Exploration Strategy**:
+  - We are currently exploring the East wing of 3F to inspect the southeastern and northeastern areas, locate Boulder C2 at (24, 10) and Boulder C4 at (13, 12), and search for any other active switches or paths that lead to solving the floor.
 
 ## Socratic Verification of Item (18, 9) Collection:
 - **Hypothesis**: The player stood at (18, 10) facing Up on Turn 98639 and pressed 'A' to collect the item at (18, 9). Since our inventory was at 20/20 and no stackable quantities changed, we must verify if the item was successfully collected or if it remained on the floor due to a full bag.
