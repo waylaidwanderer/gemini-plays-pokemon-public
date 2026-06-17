@@ -62,3 +62,11 @@
   4. Search for Switch B2 (empty plate, likely TYPE_eb90) and record its exact coordinates.
   5. Search for the items at (9, 11) and (18, 9).
   6. Return to Boulder B1 at (5, 5) and plan a safe, non-blocking push vector to navigate it to Switch B2.
+
+## Eastern Ground Floor Exploration & Switch B2 Discovery:
+- **Turn 98524**: Definitively located and verified Switch B2 at **(9, 16)** (TYPE_eb90, empty plate on ground level).
+- **Plateau Stairs**: Verified stairs connecting the plateau and eastern ground floor at **(21, 15)** (TYPE_4b8d) and **(15, 15)** (TYPE_4b8d).
+- **Ground Floor Passages**: Ground floor has continuous tall grass on Rows 16 & 17, and a vertical passage running North-South on Columns 9, 10, 11 (Rows 11-15 are all TYPE_3fe2).
+- **Defeated Trainers**:
+  - Defeated Juggler at **(21, 13)** (Turn 98497). Defined map marker.
+  - Defeated Black Belt at **(9, 9)** (Turn 98453). Defined map marker.
