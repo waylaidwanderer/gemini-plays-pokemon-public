@@ -7557,15 +7557,16 @@ We have disproven the previous Column 7 gate and (7, 10) pit hole hypotheses. Ou
   1. Complete the 2F boulder puzzle and Victory Road to reach Indigo Plateau without leaving.
   2. Avoid fighting wild encounters by running (flee_battle) to conserve remaining Surf (8 PP), Hydro Pump (5 PP), and Earthquake (4 PP).
   3. Once we reach Indigo Plateau, heal the entire team at the Pokémon Center, restoring all HP and PP (including Blizzard) to full, and retrieve any needed items from the PC before entering the Elite Four lobby.
-- **Turn 100254 Progress**: Successfully solved 2F boulder puzzle, passed through the gate, and went up the ladder at (25, 14) on 2F to reach (27, 15) on 3F.
-- **Active Goal**: Explore this new area on 3F (columns 25-28, going north) to find the exit of Victory Road!
-- **Turn 100275 Analysis**:
-  - We analyzed the eastern wing of 2F (Columns 25-29, Rows 7-9).
-  - Row 6 is completely impassable (TYPE_2889) at (25,6), (26,6), (27,6), (28,6).
-  - Row 10 is completely impassable (TYPE_2889) at (25,10), (26,10), (27,10), (28,10).
-  - Column 24 is completely impassable (TYPE_2889) at Rows 7, 8, 9, 10.
-  - This mathematically proves that the area (Columns 25-29, Rows 7-9) is an isolated 4x3 pocket on 2F on foot, meaning we cannot bypass the barriers to reach the northern area on 2F directly from this side.
-  - **Proposed Path**: Go back up the (27, 7) ladder to 3F. On 3F, we will use Boulder C2 at (24, 10) to cross Column 24 to the west side, walk to the ladder at (23, 7) on 3F, go down to 2F on the west side, and then use the open corridors to access the northern part of 2F.
-  - Let's return to 3F now by walking Right to (27, 8) and Up to (27, 7).
+- **Gemmy's Remaining PP Limits (Turn 100329)**:
+  - Surf: 8/15 PP
+  - Hydro Pump: 5/5 PP
+  - Earthquake: 4/10 PP
+  - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
+
+- **Turn 100329 Progress**:
+  - Successfully aligned the menu cursor on POKeMON and selected STRENGTH on ROCKY (GEODUDE) on Turn 100318.
+  - The menus are completely closed, and the overworld is 100% clear.
+  - We are standing at (25, 10) facing Left (West). Boulder C2 is at (24, 10). STRENGTH is active.
+  - **Proposed Path**: Push Boulder C2 Left to (23, 10), step Left onto (24, 10), push Boulder C2 Left to (22, 10), step Left onto (23, 10), and step Down onto (23, 11) to cross the partition wall and reach the western side of 3F. From there, we will take the ladder at (23, 7) to 2F.
 
 <hr>
