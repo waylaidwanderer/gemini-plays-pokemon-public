@@ -122,3 +122,11 @@ We have disproven the previous Column 7 gate and (7, 10) pit hole hypotheses. Ou
   1. From (20, 11), walk Left to Column 13: (20, 11) -> (13, 11).
   2. Walk Down along Column 13 to the southern corridor at Row 13: (13, 11) -> (13, 13).
   3. Walk East along Row 13 to Column 21: (13, 13) -> (21, 13) to access the southeastern area.
+
+## Elite Four & Champion Preparation Plan (Blizzard PP Strategic Response - Turn 100193):
+- **Observation**: GEMMY (BLASTOISE) has 0 PP remaining on Blizzard, which is our prime move for sweeping dragons.
+- **Strategic Constraint**: DIG/FLY/Escape Rope to heal at a Pokémon Center or retrieve MAX ETHER from the PC will completely reset all solved boulder puzzles on 1F, 2F, and 3F, forcing us to redo them.
+- **Strategic Plan**:
+  1. Complete the 2F boulder puzzle and Victory Road to reach Indigo Plateau without leaving.
+  2. Avoid fighting wild encounters by running (flee_battle) to conserve remaining Surf (8 PP), Hydro Pump (5 PP), and Earthquake (4 PP).
+  3. Once we reach Indigo Plateau, heal the entire team at the Pokémon Center, restoring all HP and PP (including Blizzard) to full, and retrieve any needed items from the PC before entering the Elite Four lobby.
