@@ -60,3 +60,4 @@
   - We are positioned right next to the cave entrance at (4, 31).
   - GEMMY is fully healed. We are ready to step inside!
 - **Floor: Victory Road 1F | Turn: 97593 | Strength Active: [x] True**
+- **Turn 97614**: Pushed Boulder A Up from (5, 15) to (5, 14) while standing at (5, 16) facing Up.
