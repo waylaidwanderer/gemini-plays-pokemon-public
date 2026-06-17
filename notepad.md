@@ -7565,4 +7565,11 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
     6. Locate and verify the coordinates of Switch B2 (visually a duplicate of Switch B1, likely at Y=16 on the east side).
     7. Once verified, map precise push vectors for both Boulder B1 at (5, 5) and Boulder B2 at (4, 14) to solve the multi-boulder puzzle.
 
+## Master-Class Boulder B2 Pushing Log (Switch B1 at 1, 16):
+- Starting Position: Boulder B2 at (4, 14) | Player at (4, 13) facing Down.
+- Target Position: Switch B1 at (1, 16) (TYPE_eb90).
+- Push 1 Plan: Push Down from (4, 14) to (4, 15).
+  - Stand at (4, 13) facing Down, press Down.
+  - Resulting Position: Boulder B2 at (4, 15) | Player at (4, 14) facing Down.
+
 <hr>
