@@ -7540,21 +7540,11 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   - Earthquake: 4/10 PP
   - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
 
-- **Turn 100511 Progress**:
-  - **Empirical Test Results (All Blocked)**:
-    - Turn 100485: Walking Up from (16, 12) to (16, 11) resulted in a BUMP.
-    - Turn 100499: Walking Up from (24, 12) to (24, 11) resulted in a BUMP.
-    - Turn 100504: Walking Up from (25, 12) to (25, 11) resulted in a BUMP.
-    - Turn 100506: Walking Up from (26, 12) to (26, 11) resulted in a BUMP.
-    - **Conclusion**: The entire Row 11-12 boundary across Columns 16-26 is an impassable vertical cliff face. The northeast ground-floor area on 2F is completely isolated on foot.
-  - **Active Plan**: Walk to (25, 14) and take the ladder warp to 3F. From 3F (27, 15), we will walk to the (23, 15) hole, drop down to 2F (22, 16), and push the reset dropped boulder (at (23, 16)) onto Switch B2 at (9, 16) to lower the 2F northeast barrier. Once lower, we will walk to the 2F northeast ladder (27, 7) via 3F (23, 7) and take the final exit.
-
-## Turn 100557 Reflection:
-- **Progress Audit**: Over the last 50 turns, we successfully navigated from 2F to 3F, cleared the Northeast South boulder obstacle (C2), dropped through the (23, 15) pit hole, landing at (22, 16) on 2F.
-- **Hypothesis Verified**: The 3F dropped boulder is persistent and did not reset back to 3F. It is at (23, 16) on 2F.
-- **Immediate Task**: Get behind the boulder at (24, 16) and push it Left all the way to Switch B2 at (9, 16).
-- **Tool Maintenance**: `activate_strength` was successful, but we must handle menus carefully due to wrapping.
-- **Goal Clarity**: Primary goal is still Victory Road completion. Methods (specifically step-by-step boulder pushing) are detailed in this notepad.
-- **Database Synchronization**: Fully updated active states. 3F is In Progress, 2F is Active. Current position is (22, 17) facing Left.
+## Active Progress & Current Plan (Turn 100571):
+- **Current Task**: Push the dropped boulder Left all the way to Switch B2 at (9, 16) to lower the 2F northeast barrier.
+- **Next Steps**:
+  1. Once Switch B2 is pressed, backtrack and go back up to 3F.
+  2. Walk to (23, 7) on 3F and take the ladder to 2F's northeast isolated pocket at (27, 7).
+  3. Walk to the final exit of Victory Road.
 
 <hr>
