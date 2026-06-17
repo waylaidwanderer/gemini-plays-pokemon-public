@@ -32,14 +32,14 @@
   - Switch B2: Coordinate (9, 16) | State: [ ] Unpressed (requires Boulder B1)
 
 ### Victory Road 3F (Map 0_198):
-- **Active State**: In Progress (Moving to Ground Floor)
-- **Current Position**: (6, 0) facing Down (Turn 99591)
+- **Active State**: In Progress (Moving Boulder C1 to Switch C1)
+- **Current Position**: (6, 2) facing Left (Turn 99625)
 - **Campaign Start (Victory Road 3F)**: Turn 98794 (Time: Wednesday, June 17, 2026 at 7:57 AM PDT)
 - **Strength Status**: Active [x]
 - **Landing Position**: (23, 7)
 - **Warp Translation**: Ladder at (27, 7) on 2F (Map 0_194) connects to landing spot at (23, 7) on 3F (Map 0_198).
 - **Boulders Database**:
-  - Boulder C1 (Northeast North): Initial (22, 3) | Current (22, 1) | Status: Pushed to Row 1 corridor
+  - Boulder C1 (Northeast North): Initial (22, 3) | Current (5, 2) | Status: Pushed West along Row 2 to (5, 2)
   - Boulder C2 (Northeast South): Initial (24, 10) | Current (24, 10) | Status: Unmoved
   - Boulder C3 (West Upper): Initial (7, 7) | Current (7, 7) | Status: Unmoved (on ground floor Column 7)
   - Boulder C4 (East Lower): Initial (13, 12) | Current (13, 12) | Status: Unmoved (on ground floor Column 13)
