@@ -7489,13 +7489,19 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   - Switch C1: Coordinate (3, 5) | State: Pressed [x] (Verified Turn 99000: Standing on the switch at (3, 5) does NOT change the tile type of (7, 8) or any other visible tiles on the west side. It likely controls a barrier on the east or northeast side of 3F).
 
 ### Switch C1 (3, 5) and Eastern Barrier Testing Plan:
-- **Hypothesis**: Switch C1 (3, 5) controls an eastern/northeast barrier on 3F. Pushing Boulder C1 (22, 3) onto it is required to permanently open this barrier.
+- **Hypothesis**: Switch C1 (3, 5) controls the Column 7 gates at (7, 8) and (7, 9) on 3F. Pushing Boulder C1 onto it is required to permanently open this barrier.
+- **Rigorously Documented Logical Gap & Alternative Contingencies (Turn 99541)**:
+  - *Logical Gap*: On Turn 99162, while standing ON Switch C1 at (3, 5), the tile types of (7, 8) and (7, 9) remained labeled as `TYPE_2889` (solid rock walls) on screen. Under normal engine behavior, if the player stands on a switch, the map tiles should change to the open gate state. There is a possibility that:
+    1. The tile type labels do not update dynamically on the overlay until a map reload or specific script completion occurs.
+    2. Pushing a boulder onto the switch triggers a different script execution than the player standing on it.
+    3. The gate controlled by Switch C1 is NOT at Column 7 Rows 8-9, but is located somewhere else (e.g. on the east side).
+  - *Alternative Contingencies*:
+    - **Contingency A (Eastern Barrier)**: If pushing Boulder C1 onto (3, 5) does not open Column 7, inspect if any eastern or northeast barrier was lowered instead.
+    - **Contingency B (Column 7 is Permanent)**: If Column 7 remains permanently blocked, then Boulder C3 at (7, 7) is decorative, and we must find another way to solve the floor or verify if another path leads to the 3F pit.
 - **Protocol**:
-  1. Visually identify any closed barrier gates or blocks on the east side.
-  2. Engage and defeat the trainer at (28, 5) to clear the path.
-  3. Collect the overworld item at (26, 5) to secure the floor loot.
-  4. Program and execute the pushing path for Boulder C1 (22, 3) to the switch at (3, 5).
-  5. Confirm if the eastern barrier lowers once the boulder is placed.
+  1. Push Boulder C1 onto Switch C1 at (3, 5).
+  2. Walk back to Column 7 and test if Boulder C3 can be pushed south.
+  3. Document the outcome.
 
 ## Socratic Verification Protocol for Victory Road 3F:
 - **Objective 1**: Discover and verify the location of all floor switches and holes on 3F.
