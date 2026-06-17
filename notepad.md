@@ -7535,19 +7535,19 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   - Rows 1-7, Column 7 to 20 contains no solid rock walls (TYPE_2889) or barriers on the specified pathway. The pathway consists entirely of standard passable ground floor floor tiles of TYPE_3fe2. It is completely clear.
 
 ## Active Exploration Route & Plan:
-- **Goal**: Navigate and solve 3F puzzle.
-- **Empirical Breakthrough (Turn 98709)**:
-  - We have visually inspected Column 9 from (9, 12) on the ground floor.
-  - **Findings**:
-    1. Row 10 is a solid rock wall of TYPE_2889 spanning Columns 6 to 12.
-    2. The Black Belt is at (9, 9) on the plateau level (TYPE_2770).
-    3. The ground floor at Column 9 ends at Row 11 and does not connect to the plateau.
-    4. Therefore, it is physically impossible to push Boulder B1 (at (5, 5) on the plateau) down Column 9 to Switch B2 (at (9, 16) on the ground floor).
-    5. **New Puzzle Solution Hypothesis**: The boulder that goes on Switch B2 (9, 16) must fall from the ceiling of 2F (which is a hole on 3F). Once it lands on the ground floor of 2F, it can be pushed west along Row 16 to (9, 16).
-- **Next Action Steps**:
-  1. Explore 3F to locate the boulder and hole to drop it to 2F.
-  2. Coordinate the movements of the visible boulders to solve the 3F puzzle.
-  3. Document exploration coordinate-by-coordinate in Scratchpad/VictoryRoad_Route.
+- **Goal**: Navigate and solve 3F puzzle by dropping Boulder C3 (7, 7) into the pit at (7, 10).
+- **Core Realization (Turn 99340)**:
+  - We do NOT need to push Boulder C4 at (13, 12) or cross the Row 12 wall on 3F. 
+  - The exit of Victory Road is reached by:
+    1. Dropping Boulder C3 (7, 7) into the 3F pit at (7, 10).
+    2. Climbing down the NE ladder (23, 7) to 2F.
+    3. Pushing the fallen boulder on 2F ground level along Column 7 and Row 16 onto Switch B2 at (9, 16).
+    4. This lowers the barrier next to the NE exit ladder on 2F.
+    5. Climb that NE exit ladder up to 3F (landing at 26, 8), which leads directly to the exit!
+  - Therefore, we only need to drop Boulder C3 at (7, 7) on 3F.
+- **Immediate Testing Protocol**:
+  - We are walking to (7, 6) facing Down.
+  - We will physically test pushing Boulder C3 Down. If (7, 8) or (7, 9) are solid on 3F, we will inspect why and look for solutions. If they are open, we will push it straight into the pit at (7, 10).
 
 ## Socratic Verification of Item (18, 9) Collection:
 - **Hypothesis**: The player stood at (18, 10) facing Up on Turn 98639 and pressed 'A' to collect the item at (18, 9). Since our inventory was at 20/20 and no stackable quantities changed, we must verify if the item was successfully collected or if it remained on the floor due to a full bag.
