@@ -7513,6 +7513,7 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 
 ## Archive: Completed Pushing Logs & Discoveries
 - **TM05 Collection**: Collected TM05 at (9, 11) on Turn 98542.
+- **Item at (18, 9) Collected**: Successfully retrieved the Poké Ball item at (18, 9) on Turn 98639.
 - **Boulder B2 Pushing Log (Switch B1 at 1, 16) [Turn 98419]**:
   - Push 1: Pushed Down from (4, 14) to (4, 15) [Turn 98392]
   - Push 2: Pushed Left from (4, 15) to (3, 15) [Turn 98397]
