@@ -7,3 +7,12 @@ All checkpoints on Route 22 have been successfully completed and verified. See L
   1. Travel West from (39, 9) to the ledge gap at (31, 7) or bypass path.
   2. Proceed to the Gatehouse.
 - **Turn 97329**: Reached (27, 4) on Route 22, riding the Bicycle and facing Left. Bypassed the ledge gap successfully.
+- **Turn 97364**: Positioned at (7, 12) facing Down. Verified the western Route 22 layout visually on `<CurrentScreen turn="97364">`:
+  - Ledge gap: Located at (11, 9).
+  - Fence barrier: Extends along Row 11, with the only western opening at Columns 3, 4, 5 (all TYPE_3fe2 paved road).
+  - Row 12: Completely open grass (TYPE_3fe2) from (3, 12) to (12, 12).
+  - Route Plan to reach (11, 8):
+    1. Walk Left 2 steps on Row 12 to Column 5 -> (5, 12).
+    2. Walk Up 2 steps past the fence opening at (5, 11) to Row 10 -> (5, 10).
+    3. Walk Right 6 steps on Row 10 to Column 11 -> (11, 10).
+    4. Walk Up 2 steps through the ledge gap at (11, 9) to Row 8 -> (11, 8).
