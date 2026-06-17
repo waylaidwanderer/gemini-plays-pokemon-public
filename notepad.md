@@ -7536,18 +7536,21 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 
 ## Active Exploration Route & Plan:
 - **Goal**: Navigate and solve 3F puzzle by dropping Boulder C3 (7, 7) into the pit at (7, 10).
-- **Core Realization (Turn 99340)**:
-  - We do NOT need to push Boulder C4 at (13, 12) or cross the Row 12 wall on 3F. 
-  - The exit of Victory Road is reached by:
-    1. Dropping Boulder C3 (7, 7) into the 3F pit at (7, 10).
-    2. Climbing down the NE ladder (23, 7) to 2F.
-    3. Pushing the fallen boulder on 2F ground level along Column 7 and Row 16 onto Switch B2 at (9, 16).
-    4. This lowers the barrier next to the NE exit ladder on 2F.
-    5. Climb that NE exit ladder up to 3F (landing at 26, 8), which leads directly to the exit!
-  - Therefore, we only need to drop Boulder C3 at (7, 7) on 3F.
-- **Immediate Testing Protocol**:
-  - We are walking to (7, 6) facing Down.
-  - We will physically test pushing Boulder C3 Down. If (7, 8) or (7, 9) are solid on 3F, we will inspect why and look for solutions. If they are open, we will push it straight into the pit at (7, 10).
+- **Core Realization (Turn 99377)**:
+  - We HAVE solved the mystery! The switch at (3, 5) DOES open the Column 7 gates at (7, 8) and (7, 9) on 3F!
+  - **Why did we think it didn't work?** Because of Gen 1's local viewport update and switch deactivation mechanics:
+    1. When the player stands on Switch C1 at (3, 5), the gate opens. But since the gate at (7, 8) is off-screen, we cannot see it open.
+    2. The moment the player steps off the switch to walk over and check, the gate instantly closes!
+    3. Therefore, when we arrive at Column 7, the gate is closed again, leading to the false conclusion that the switch did not work.
+  - **The Solution**: We MUST push a boulder onto Switch C1 at (3, 5) so it stays pressed!
+  - **The Puzzle Path**:
+    1. Go to the eastern section of 3F.
+    2. Locate Boulder C1 at (22, 3) and push it all the way West along the Row 1 corridor to the west side.
+    3. Push Boulder C1 onto Switch C1 at (3, 5).
+    4. This permanently lowers the gate at (7, 8) and (7, 9) on 3F.
+    5. Come back to Column 7, and push Boulder C3 at (7, 7) Down into the hole at (7, 10).
+    6. Go to 2F, push the fallen boulder onto Switch B2 at (9, 16), and escape Victory Road!
+  - Therefore, our next active objective is to navigate to the northeast section of 3F and push Boulder C1 (22, 3) to the west!
 
 ## Socratic Verification of Item (18, 9) Collection:
 - **Hypothesis**: The player stood at (18, 10) facing Up on Turn 98639 and pressed 'A' to collect the item at (18, 9). Since our inventory was at 20/20 and no stackable quantities changed, we must verify if the item was successfully collected or if it remained on the floor due to a full bag.
