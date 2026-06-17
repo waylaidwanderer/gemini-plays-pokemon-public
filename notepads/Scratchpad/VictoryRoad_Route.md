@@ -66,12 +66,11 @@
 
 ## Victory Road 1F Exploration & Mapping Protocol:
 - **Search Goal**: Systematically explore Victory Road 1F to locate Switch A.
-- **Safety Rule**: Do NOT perform any further pushes on Boulder A (currently at (17, 13)) until Switch A has been found and its coordinates are verified and logged. Keeping Boulder A in its current position allows us to move around it without blocking any paths or pushing it into an unrecoverable state.
-- **Verification Rule**: Any candidates for Switch A must be stood on, interacted with, and verified to check if they are the correct active plate switch.
 Turn 97771: Floor: Victory Road 1F | Strength Active: [x] True.
 We successfully pushed Boulder A onto Switch A! All obsolete multi-line plans for Turn 97756, 97753, and 97750 have been removed to maintain notepad hygiene. Proceeding to find the opened gate and the 2F stairs.
 ### Victory Road 1F Map Exploration (Continued):
 - Turn 97779: Boulder A is successfully on Switch A at (17, 13).
-- Now starting systematic exploration of the rest of the floor to locate the opened path/gate and the ladder to 2F.
-- Current coordinates: (12, 14).
-- Plan: Walk East along Row 14, then explore North.
+- Turn 97806: Planning to collect the Item Ball at (2, 10) before leaving 1F.
+- Current coordinates: (5, 12) (on plateau).
+- Target coordinates: (2, 11) (standing below the item ball at (2, 10)).
+- Path: Down to (5, 13) -> Down to (5, 14) -> Down to (5, 15) -> Left 4 times to (1, 15) -> Up 3 times to (1, 12) -> Right to (2, 12) -> Up to (2, 11) -> Stand facing Up and press A.
