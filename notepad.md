@@ -7506,7 +7506,7 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 
 ## Victory Road 1F Exploration & Mapping Protocol:
 - **Search Goal**: Systematically explore Victory Road 1F to locate Switch A.
-- **Safety Rule**: Do NOT perform any further pushes on Boulder A (currently at (5, 14)) until Switch A has been found and its coordinates are verified and logged. Keeping Boulder A in its current position allows us to move around it without blocking any paths or pushing it into an unrecoverable state.
+- **Safety Rule**: Do NOT perform any further pushes on Boulder A (currently at (17, 13)) until Switch A has been found and its coordinates are verified and logged. Keeping Boulder A in its current position allows us to move around it without blocking any paths or pushing it into an unrecoverable state.
 - **Verification Rule**: Any candidates for Switch A must be stood on, interacted with, and verified to check if they are the correct active plate switch.
 Turn 97771: Floor: Victory Road 1F | Strength Active: [x] True.
 We successfully pushed Boulder A onto Switch A! All obsolete multi-line plans for Turn 97756, 97753, and 97750 have been removed to maintain notepad hygiene. Proceeding to find the opened gate and the 2F stairs.
