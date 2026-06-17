@@ -7580,6 +7580,14 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 - **Empirical Switch C1 (3, 5) Test Results (Turn 99164)**:
   - Standing on the floor switch at (3, 5) does NOT change the tile type of (7, 8) or (7, 9) (they remain TYPE_2889 solid rock walls).
   - Therefore, Switch C1 at (3, 5) does NOT lower the barrier around Boulder C3 at (7, 7). Its actual function is likely elsewhere, possibly on the east side of 3F.
-- **Socratic Switch Contingency & Exploration Plan (Turn 99159)**:
+- **Socratic Switch Contingency & Exploration Plan (Turn 99165)**:
+  - **A. Systematic Location of Other Triggers**:
+    - If (7, 8) is a temporary barrier gate and not a permanent wall, we must search the rest of 3F for other floor switches (TYPE_eb90) or test if a 2F switch (like B1 at 1, 16 or B2 at 9, 16) has a cross-floor influence.
+    - We will systematically explore the east and southeast sections of 3F to find all active switches.
+  - **B. Alternative Trajectories for Boulder C3**:
+    - If (7, 8) is a permanent rock wall, then Boulder C3 at (7, 7) is a decorative/impassable block and cannot be dropped into (7, 10).
+    - In this case, the pit hole at (7, 10) must be fed by a different boulder, or (7, 10) is not the correct pit hole for dropping a boulder.
+    - We must verify if there is another pit hole (e.g., in the center or east side of 3F) and another boulder that can be pushed into it. We will search the east/southeast areas of 3F to find any other pit holes (TYPE_de37) or boulders.
+    - We will document any new holes or boulders we find on the east side.
 
 <hr>
