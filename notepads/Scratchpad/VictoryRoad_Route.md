@@ -33,7 +33,7 @@
 
 ### Victory Road 3F (Map 0_198):
 - **Active State**: In Progress (Moving to Ground Floor)
-- **Current Position**: (15, 4) on overworld (Turn 99322)
+- **Current Position**: (20, 6) on overworld (Turn 99329)
 - **Strength Status**: Active [x]
 - **Landing Position**: (23, 7)
 - **Warp Translation**: Ladder at (27, 7) on 2F (Map 0_194) connects to landing spot at (23, 7) on 3F (Map 0_198).
