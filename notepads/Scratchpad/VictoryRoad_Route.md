@@ -32,8 +32,8 @@
   - Switch B2: Coordinate (9, 16) | State: [ ] Unpressed (requires Boulder B1)
 
 ### Victory Road 3F (Map 0_198):
-- **Active State**: In Progress (Moving Boulder C1 to Switch C1)
-- **Current Position**: (7, 2) facing Right (Turn 99672)
+- **Active State**: In Progress (Testing Boulder C3)
+- **Current Position**: (7, 6) facing Down (Turn 99675)
 - **Campaign Start (Victory Road 3F)**: Turn 98794 (Time: Wednesday, June 17, 2026 at 7:57 AM PDT)
 - **Strength Status**: Active [x]
 - **Landing Position**: (23, 7)
