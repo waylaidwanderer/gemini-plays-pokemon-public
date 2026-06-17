@@ -7456,11 +7456,15 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 ## Puzzle State Log:
 
 ### Victory Road 1F (Map 0_108):
-- **Active State**: Unexplored / Initial
+- **Active State**: Mapping/Exploration
 - **Boulders Database**:
-  - Boulder A: Initial (5, 15) | Current (5, 15) | Target (TBD, TBD) | Status: [ ] Active
+  - Boulder A: Initial (5, 15) | Current (5, 14) | Target (17, 13) | Status: [ ] Active
 - **Floor Switches**:
-  - Switch A: Coordinate (TBD, TBD) | State: [ ] Pressed (requires Boulder A)
+  - Switch A: Coordinate (17, 13) | State: [ ] Pressed (requires Boulder A)
+- **Verified Switch A Pushing Route**:
+  1. Boulder A must be guided to (16, 12).
+  2. Stand at (15, 12) and push Boulder A Right to (17, 12).
+  3. Stand at (17, 11) and push Boulder A Down to (17, 13) (the switch).
 - **Sliding Log / Push Vectors**:
   - *Format*: Push [Direction] from (X, Y) to (X_new, Y_new) on Turn [N].
 
