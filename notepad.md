@@ -7510,8 +7510,7 @@ Turn 97771: Floor: Victory Road 1F | Strength Active: [x] True.
 We successfully pushed Boulder A onto Switch A! All obsolete multi-line plans for Turn 97756, 97753, and 97750 have been removed to maintain notepad hygiene. Proceeding to find the opened gate and the 2F stairs.
 ### Victory Road 1F Map Exploration (Continued):
 - Turn 97779: Boulder A is successfully on Switch A at (17, 13).
-- Turn 97834: Discovered that the object at (2, 10) on the isolated western plateau is a physical Boulder, not an Item Ball. Left unmodified to preserve puzzle integrity.
-- Turn 97861: Proceeding to Victory Road 2F ladder at (15, 7).
+- Turn 97892: Proceeding to the true 2F ladder warp at (17, 2).
 
 ### Victory Road 2F Map Entry & Mapping Protocol:
 - **Immediate Action**: Upon arriving on 2F, immediately log the coordinate state:
