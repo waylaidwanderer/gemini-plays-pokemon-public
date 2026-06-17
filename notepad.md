@@ -7534,4 +7534,14 @@ We successfully pushed Boulder A onto Switch A! All obsolete multi-line plans fo
 - Proceeding to bypass the (14, 2) boulder to explore the western ground floor and retrieve the item ball at (11, 0).
 - Turn 98003: Currently standing at (9, 6) on the central plateau of Victory Road 1F. We picked up TM43 (Sky Attack) from (11, 0) and pushed Boulder A2 to (10, 2). Proceeding Left to Column 7 to battle the Cooltrainer♀ at (7, 5) and descend to the western ground floor via the stairs at (7, 7).
 
+### Western Ground Floor Mapping & Multiple Boulders Verification Protocol (Turn 98021 Plan):
+- **Hypothesis**: The standard 2F ladder warp at (17, 2) is disabled because this ROM features a custom three-boulder layout on 1F, requiring a multi-boulder puzzle to be solved first.
+- **Protocol Details**:
+  1. We must systematically descend the western stairs at (7, 7) to reach the western ground floor.
+  2. Map the entire western ground floor (Columns X=1 to X=10) on foot.
+  3. Locate any undiscovered floor switch plates (plates similar to Switch A).
+  4. Find the Plateau Boulder at (2, 10). Determine its starting environment and check if a switch exists beneath or adjacent to it.
+  5. Formulate push vectors for both the Plateau Boulder at (2, 10) and Boulder A2 at (10, 2) to their respective target switches (once located) to fully activate the 2F warp at (17, 2).
+  6. Document all results with exact coordinates and turn numbers to maintain a rigorous proof of work.
+
 <hr>
