@@ -7510,11 +7510,15 @@ Turn 97682: Prepared to push Boulder A.
 - Transition Plan to Position Left of Boulder A: Once Boulder A is at (5, 16), the player is at (5, 14). We will stand at (4, 16) to push it Right. Path: Left to (4, 14), Down to (4, 15), Down to (4, 16) facing Right.
 - Guided Coordinates: Boulder A will pass through (6, 16), (7, 16), (8, 16), (9, 16), (10, 16), (11, 16)? Wait, (11, 16) is a wall (TYPE_2889). So we will push it to (10, 16), and from there we must navigate carefully near the rock wall at (10, 15) to see how we transition columns. We will analyze the layout around (10, 15) and column 10 as we push.
 - Corner Prevention: We will ensure we do not push the boulder flush against a corner where we cannot get behind it to push it in the next required direction. No blind pushes. We will check collision on every single step.
-Turn 97719: Floor: Victory Road 1F | Strength Active: [x] True.
-We successfully pushed Boulder A onto the main Row 14 corridor!
-- Current Boulder position: (13, 14).
-- Current Player position: (11, 14) facing Right.
-- Next Objective: Push Boulder A Right along Row 14 to (17, 14).
+Turn 97753: Floor: Victory Road 1F | Strength Active: [x] True.
+We successfully pushed Boulder A further Eastward!
+- Current Boulder position: (16, 14) (directly to our Right).
+- Current Player position: (15, 14) facing Right.
+- Next Objective: Reposition player to stand directly below the boulder at (16, 15) to push it Northward.
+- Plan:
+  1. Walk Down to (15, 15) (open floor, TYPE_3fe2).
+  2. Walk Right to (16, 15) (open floor, TYPE_3fe2) facing Right.
+  3. Press Up to turn North and push Boulder A from (16, 14) to (16, 13).
 - Socratic Verification (Strategic Planning):
   Once Boulder A is on Switch A at (17, 13), how do we verify the path is open?
   - Verification: We will walk north to the northeast plateau to verify that the rock wall/stone barrier blocking the stairs to 2F has retracted.
