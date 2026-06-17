@@ -32,17 +32,8 @@
 - **Current Box Status**: Box 2 is currently active and empty (0/20) as of Turn 97157, completely eliminating any box full / catch soft-locks!
 - **Current Bag Optimization**: TM14 (Blizzard) has been successfully taught to GEMMY (Blastoise) in place of BITE.
 - **Action Plan**:
-  1. Teach TM29 (Psychic) to BUGGY (Butterfree). [In progress]
-  2. Teach TM26 (Earthquake) to GEMMY (Blastoise) in place of DIG. [Pending]
+  1. Teach TM29 (Psychic) to BUGGY (Butterfree). [COMPLETED on Turn 97174]
+  2. Teach TM26 (Earthquake) to GEMMY (Blastoise) in place of DIG. [COMPLETED on Turn 97182]
   3. Exit the Pokémon Center, use the Bicycle, and ride north up Route 23 to re-enter Victory Road 1F.
   4. Track and solve the boulder and switch puzzles inside Victory Road.
-  3. Once Victory Road 1F is successfully entered (marking the checkpoint), use DIG to immediately warp back to the Viridian City Pokémon Center.
-  4. At the Viridian Pokémon Center:
-     - Heal the party at Nurse Joy's counter (restoring fainted BIRBIE and GEMMY's HP/PP).
-     - Access Bill's PC to change the active box from Box 1 (18/20) to Box 2 (0/20).
-     - Withdraw TM26 (Earthquake) and TM29 (Psychic) from PC Storage.
-     - Teach TM26 (Earthquake) to GEMMY (Blastoise) in place of DIG for ultimate endgame ground STAB/coverage.
-     - Teach TM29 (Psychic) to BUGGY (Butterfree) to maximize special attack coverage.
-  5. Ride the bicycle back up Route 23 (since all badge guards are permanently cleared and no longer intercept us, this run is incredibly fast and takes less than 70 turns).
-  6. Re-enter Victory Road 1F fully healed, optimized, and with a fresh empty PC box!
 - Turn 97137: Successfully verified that using DIG inside Victory Road 1F warp-teleports the player directly outside the Viridian City Pokémon Center at (23, 26) on Map 0_1. This was because our last-visited Pokémon Center was indeed in Viridian City (when we flew there from Cinnabar Island on Turn 95867). This is an incredibly convenient and fast warp!
