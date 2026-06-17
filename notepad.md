@@ -7294,8 +7294,7 @@ All checkpoints on Route 22 have been successfully completed and verified. See L
 - **Status**: Transitioned from Viridian City (0, 17) to Route 22 (39, 9) facing Left, on Bicycle.
 - **Objective**: Navigate West across Route 22 to the Pokemon League Gatehouse.
 - **Pathing Plan**:
-  1. Travel West from (39, 9) to the ledge gap at (31, 7) or bypass path.
-  2. Proceed to the Gatehouse.
+  (See updated routes below)
 - **Turn 97329**: Reached (27, 4) on Route 22, riding the Bicycle and facing Left. Bypassed the ledge gap successfully.
 - **Turn 97364**: Positioned at (7, 12) facing Down. Verified the western Route 22 layout visually on `<CurrentScreen turn="97364">`:
   - Ledge gap: Located at (11, 9).
