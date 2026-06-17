@@ -7521,49 +7521,13 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 ## Live Progression & Route Logs:
 
 ## Victory Road 1F Exploration & Mapping Protocol:
-- **Search Goal**: Located Switch A at (17, 13) (Completed Turn 97771).
-- **Puzzle Status Verification**: The map layout is modified, requiring a multi-boulder puzzle solution. The standard 2F ladder warp at (17, 2) is verified to be inactive under our current configuration.
-- **Unexplored Areas Check**: Systematically explore the western ground floor's northern sections (Columns 1-4, Rows 0-7) to check for alternative paths or switches before resetting the puzzle.
-- **Starting turn / timestamp**: Victory Road 1F exploration phase started on Turn 97131 to track time and prevent Time Blindness.
+- Status: Completed (Boulder A on Switch A at 17, 13 on Turn 97771, which lowered the barrier on the eastern plateau).
+
 ## Victory Road 1F Warp Test Log:
-- Tested stand-in-front and face UP on (18, 3) facing (18, 2) on Turn 97915. Result: BUMPED, (18, 2) acts as a solid rock wall and is impassable.
-- Tested stepping onto (17, 2) on Turn 97914. Result: Did not warp.
-- The northeast corner does not contain an active warp or accessible ladder under the current state.
+- Status: Resolved. The northwest ladder warp is located at (1, 1). This warp is fully active and was taken on Turn 98164 to transition to 2F.
 
-### Western Ground Floor Mapping & Multiple Boulders Verification Protocol (Turn 98021 Plan):
-- **Hypothesis**: The standard 2F ladder warp at (17, 2) is disabled because this ROM features a custom three-boulder layout on 1F, requiring a multi-boulder puzzle to be solved first.
-- **Protocol Details**:
-  1. We must systematically descend the western stairs at (7, 7) to reach the western ground floor.
-  2. Map the entire western ground floor (Columns X=1 to X=10) on foot.
-  3. Locate any undiscovered floor switch plates (plates similar to Switch A).
-  4. Find the Plateau Boulder at (2, 10). Determine its starting environment and check if a switch exists beneath or adjacent to it.
-  5. Formulate push vectors for both the Plateau Boulder at (2, 10) and Boulder A2 at (10, 2) to their respective target switches (once located) to fully activate the 2F warp at (17, 2).
-  6. Document all results with exact coordinates and turn numbers to maintain a rigorous proof of work.
-- **Turn 98036**: Pushed the Plateau Boulder from (2, 10) to (2, 13) via (2, 11) and (2, 12). This cleared the bottleneck at (2, 10) and opened access to the southwest corner.
-- **Plateau Boulder Database Entry**: Plateau Boulder | Initial (2, 10) | Current (2, 13) | Target (TBD) | Status: [ ] Active
-- **Turn 98044**: Exploring the southwestern and southern ground floor (Columns X=1 to X=6). Standing at (1, 15), heading East toward Column 6 to check passage viability.
-- **Victory Road Exploration Start Turn**: 97131 (Time tracking to prevent Time Blindness)
-
-## Reflection at Turn 98063
-1. **Immediate Execution**: We successfully navigated from (17, 11) to (5, 13) on the plateau stairs via Row 16, which bypassed the Row 14 solid blockages at Columns 6 and 7. We are currently on the plateau at (5, 9).
-2. **Notepad Hygiene**: Our records of Victory Road 1F are updated with the correct routing vectors. We disproved the "three-boulder puzzle on 1F" hypothesis because this ROM is mechanically vanilla. The northeast ladder (17, 2) didn't work on Turn 97914 because we were likely standing on (17, 2) but the actual ladder warp tile is at (17, 1) or we were blocked/unable to step onto it correctly from (17, 2). Wait, in vanilla, is (17, 2) the ladder warp, or is it on the plateau? We will test this as soon as we reach the northeast.
-3. **Map Hygiene**: The map markers are mostly clean, tracking the active switch and boulders.
-4. **Custom Tools**: Proposed custom tools:
-   - `grind_battle_flee`: Automatic running script. Already have `flee_battle` which does exactly this.
-   - `menu_navigation_agent`: Custom agent for navigating PC boxes.
-   - `overworld_strength_activator`: Automatically opens party menu, selects Geodude, and uses Strength.
-   - `route_planner_victory_road`: Coordinates-based movement generator (we can do this ourselves via code execution or manually).
-5. **Tool Maintenance**: No broken custom tools currently.
-6. **Goal Clarity**: Goals are clean. Method logs are detailed in `Scratchpad/VictoryRoad_Route`.
-7. **Error Analysis**: We corrected our pathing model: Column 6/7 Row 14 is solid rock. Row 16 is completely open from Column 5 to 9. We successfully adjusted our pathing.
-- **Turn 98142**: Discovered that the sprite at (3, 2) is Cooltrainer♂, who initiated a trainer battle! Also discovered that the true 2F exit ladder is located at (1, 1) in the northwest corner of Victory Road 1F. This explains why (17, 2) is inactive—the layout of the map has been modified, relocating the ladder to (1, 1).
-- **Northwest Ground Exploration Details**: We systematically mapped the pathway and confirmed that (1, 1) has the vertical ladder graphic, and (2, 2) allows interaction with (3, 2).
-- **Battle Log**: Engaged Cooltrainer♂ at (3, 2). Opponent has 4 Pokémon. GEMMY (Blastoise Lv 63) is lead.
-
-- **Turn 98156 Socratic Challenge Response**: We have successfully mapped the northwest corner of the ground floor and found the visual ladder graphic at (1, 1). This disproves any remaining need to search for additional hidden switch plates on 1F, as the exit warp was simply relocated to (1, 1) rather than disabled. Once we defeat Cooltrainer♂, we will step onto (1, 1) to transition to 2F.
-
-## Victory Road 2F Live Log (Turn 98249):
-- Floor: Victory Road 2F (Map 0_194) | Turn: 98249 | Strength Active: [x] True (Activated on Turn 98245)
+## Victory Road 2F Exploration Phase (Started Turn 98165)
+- Floor: Victory Road 2F (Map 0_194) | Strength Active: [x] True (Activated on Turn 98245)
 - Initial Position: (0, 8) facing Right.
 - Current Position: (7, 7) facing Down (Turn 98317)
 - Explored Pathway:
