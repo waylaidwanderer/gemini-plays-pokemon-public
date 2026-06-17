@@ -7472,7 +7472,8 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   - Switch B2: Coordinate (9, 16) | State: [ ] Unpressed (requires Boulder B1)
 
 ### Victory Road 3F (Map 0_198):
-- **Active State**: Unexplored / Initial
+- **Active State**: In Progress (Explored Northwest Plateau)
+- **Current Position**: (10, 4) facing Left (Turn 98856)
 - **Strength Status**: Deactivated
 - **Landing Position**: (23, 7)
 - **Warp Translation**: Ladder at (27, 7) on 2F (Map 0_194) connects to landing spot at (23, 7) on 3F (Map 0_198).
@@ -7494,7 +7495,7 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   - **Validation**: Formulate a step-by-step push planning sequence before applying any force.
 
 ## Active Exploration Route & Plan:
-- **Goal**: Navigate to 3F (Map 0_198) via the northeast ladder at (27, 7).
+- **Goal**: Navigate and solve 3F puzzle.
 - **Empirical Breakthrough (Turn 98709)**:
   - We have visually inspected Column 9 from (9, 12) on the ground floor.
   - **Findings**:
@@ -7504,9 +7505,9 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
     4. Therefore, it is physically impossible to push Boulder B1 (at (5, 5) on the plateau) down Column 9 to Switch B2 (at (9, 16) on the ground floor).
     5. **New Puzzle Solution Hypothesis**: The boulder that goes on Switch B2 (9, 16) must fall from the ceiling of 2F (which is a hole on 3F). Once it lands on the ground floor of 2F, it can be pushed west along Row 16 to (9, 16).
 - **Next Action Steps**:
-  1. Walk Down, Right, and Up to bypass the Column 24 wall on 2F and climb the real ladder at (27, 7).
-  2. Enter 3F at (23, 7).
-  3. Explore 3F to locate the boulder and hole to drop it to 2F.
+  1. Explore 3F to locate the boulder and hole to drop it to 2F.
+  2. Coordinate the movements of the visible boulders to solve the 3F puzzle.
+  3. Document exploration coordinate-by-coordinate in Scratchpad/VictoryRoad_Route.
 
 ## Socratic Verification of Item (18, 9) Collection:
 - **Hypothesis**: The player stood at (18, 10) facing Up on Turn 98639 and pressed 'A' to collect the item at (18, 9). Since our inventory was at 20/20 and no stackable quantities changed, we must verify if the item was successfully collected or if it remained on the floor due to a full bag.
