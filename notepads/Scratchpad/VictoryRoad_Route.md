@@ -125,12 +125,25 @@
 
 - **Turn 98156 Socratic Challenge Response**: We have successfully mapped the northwest corner of the ground floor and found the visual ladder graphic at (1, 1). This disproves any remaining need to search for additional hidden switch plates on 1F, as the exit warp was simply relocated to (1, 1) rather than disabled. Once we defeat Cooltrainer♂, we will step onto (1, 1) to transition to 2F.
 
-## Victory Road 2F Live Log (Turn 98166):
-- Floor: Victory Road 2F (Map 0_194) | Turn: 98166 | Strength Active: [ ] False (Needs Reactivation)
+## Victory Road 2F Live Log (Turn 98199):
+- Floor: Victory Road 2F (Map 0_194) | Turn: 98199 | Strength Active: [ ] False (Needs Reactivation)
 - Initial Position: (0, 8) facing Right.
-- Adjacent tiles:
-  - North: (0, 7) TYPE_3fe2 (Passable floor)
-  - South: (0, 9) TYPE_3fe2 (Passable floor)
-  - East: (1, 8) TYPE_2889 (Solid rock)
-  - West: Solid wall boundary of the map.
-- Mapping strategy: We will walk the immediately accessible areas before activating Strength or pushing any boulders. We must locate all boulders and switch plates systematically.
+- Current Position: (2, 9) facing Down (Engaged in wild battle with Machoke Lv 41)
+- Explored Pathway:
+  - Traversed from (0, 8) to (5, 7) (Row 7, Columns 0-5).
+  - Traversed Row 7 Left from (5, 7) to (1, 7).
+  - Bypassed solid rock at (1, 8) by moving Right to (2, 7) -> Down to (2, 8) -> Down to (2, 9).
+- Boulders Logged:
+  - Boulder B1: Verified at (5, 5) | Status: Unmoved | Strength Active: [ ] False
+- Floor Switches Logged:
+  - Switch B: (TBD)
+- Socratic 2F Western Chamber Mapping Plan:
+  - Objective: Systematically map the boundaries and accessible tiles of the western chamber (Columns 0-3, Rows 9-11) on foot to identify hidden switch plates or passages, and verify if 2F features a custom multi-boulder puzzle.
+  - Coordinate-by-Coordinate Verification Path:
+    1. From (2, 9), step Left to (1, 9), then Left to (0, 9) to test passability of the western-most column.
+    2. Backtrack to (1, 9), step Down to (1, 10), then Down to (1, 11).
+    3. From (1, 11), step Left to (0, 11) to check if the corner is passable or if there is a switch.
+    4. From (1, 11), step Right to (2, 11), then Right to (3, 11) to inspect the bottom right of the western chamber.
+    5. From (3, 11), step Up to (3, 10) and then Up to (3, 9).
+    6. Log the status of every tile to confirm whether a switch plate exists in this western pocket.
+    7. Once mapped, if no switch exists here, we will return to (5, 7) to activate Strength and proceed with pushing Boulder B1 at (5, 5).
