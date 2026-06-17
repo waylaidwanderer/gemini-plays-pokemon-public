@@ -7549,10 +7549,6 @@ We have disproven the previous Column 7 gate and (7, 10) pit hole hypotheses. Ou
 - **Discovery (Turn 100130)**: Located a boulder on the ground level at (22, 15) directly adjacent to the pit hole at (23, 15).
 - **Discovery (Turn 100130)**: Located another boulder on the ground level at (24, 10).
 - **Physical Blockages on 3F**: Column 21 Rows 10, 11, and 12 are blocked by rock walls (TYPE_2889), dividing the eastern side of Row 11 from the western side of the ground floor. 
-- **Traversal Strategy to Southeastern Section**:
-  1. From (20, 11), walk Left to Column 13: (20, 11) -> (13, 11).
-  2. Walk Down along Column 13 to the southern corridor at Row 13: (13, 11) -> (13, 13).
-  3. Walk East along Row 13 to Column 21: (13, 13) -> (21, 13) to access the southeastern area.
 
 ## Elite Four & Champion Preparation Plan (Blizzard PP Strategic Response - Turn 100193):
 - **Observation**: GEMMY (BLASTOISE) has 0 PP remaining on Blizzard, which is our prime move for sweeping dragons.
