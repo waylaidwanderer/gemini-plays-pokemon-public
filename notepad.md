@@ -7484,9 +7484,9 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   - Boulder C1 (Northeast North): Initial (22, 3) | Current (3, 5) | Status: Pushed onto Switch C1
   - Boulder C2 (Northeast South): Initial (24, 10) | Current (24, 10) | Status: Unmoved
   - Boulder C3 (West Upper): Initial (7, 7) | Current (7, 7) | Status: Blocked (tested on Turn 99678, gates at 7,8/7,9 remain solid)
-  - Boulder C4 (East Lower): Initial (13, 12) | Current (13, 12) | Status: Unmoved (on ground floor Column 13)
+  - Boulder C4 (East Lower): Initial (13, 12) | Current (13, 6) | Status: Pushed North out of the way (Turn 100105)
 - **Floor Switches & Holes**:
-  - Pit Hole: Coordinate (7, 10) | State: Open [x] (verified on Turn 98869)
+  - Pit Hole: Coordinate (23, 15) | State: Open [x] (verified on Turn 100130, boulder dropped through)
   - Switch C1: Coordinate (3, 5) | State: Pressed [x]
 
 ### Empirical Push Test Failure & Pivot Log (Turn 99693):
