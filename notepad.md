@@ -7522,14 +7522,6 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 - When pushing a boulder, the movement animation takes some frames. Sending consecutive movement presses too quickly (e.g., standard 500ms overworld presses) can cause the engine to ignore subsequent pushes because the boulder is still moving.
 - Solution: Chunk presses into single steps or insert generous sleeps (e.g., 'sleep 1000') between consecutive pushes.
 
-- **Plateau Exploration Log (Turns 99994-100024)**:
-  - Walked West along Row 4 from (13, 4) to (9, 4).
-  - Attempted to walk South along Column 9 to explore the southern boundary of the plateau.
-  - Encountered a wild ONIX at (9, 7) on Turn 100002.
-  - Walked left along Row 10 from (9, 10) to (5, 10) on Turn 100022.
-  - Currently at (5, 10) on the elevated plateau.
-  - Plan: Clean up obsolete Southwest Access Test notes, then walk North to (5, 7) to reveal the western portion of 3F.
-
 - **Discovery (Turn 100130)**: Located the real pit hole on Victory Road 3F at (23, 15).
 - **Discovery (Turn 100130)**: Located a boulder on the ground level at (22, 15) directly adjacent to the pit hole at (23, 15).
 - **Discovery (Turn 100130)**: Located another boulder on the ground level at (24, 10).
