@@ -7311,6 +7311,10 @@ All checkpoints on Route 22 have been successfully completed and verified. See L
   1. Walk Up 2 steps on Column 4 to Row 10 -> (4, 10).
   2. Walk Right 7 steps on Row 10 to Column 11 -> (11, 10).
   3. Walk Up 2 steps through the ledge gap at (11, 9) to Row 8 -> (11, 8).
+- **Turn 97375**: Reached (11, 10) on Route 22, riding the Bicycle and facing Right.
+- **Route Plan**:
+  1. Walk Up 2 steps through the ledge gap at (11, 9) to Row 8 -> (11, 8).
+  2. Proceed North and West to the Gatehouse.
 
 <hr>
 
