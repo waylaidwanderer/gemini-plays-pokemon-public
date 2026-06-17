@@ -164,9 +164,7 @@
     - In this case, the pit hole at (7, 10) must be fed by a different boulder, or (7, 10) is not the correct pit hole for dropping a boulder.
     - We must verify if there is another pit hole (e.g., in the center or east side of 3F) and another boulder that can be pushed into it. We will search the east/southeast areas of 3F to find any other pit holes (TYPE_de37) or boulders.
     - We will document any new holes or boulders we find on the east side.
-## Western Boulder C4 (13, 12) Pushing Log & Bypass (Turn 99238):
-- **Objective**: Push Boulder C4 at (13, 12) out of the way to reach the southern Row 13 corridor.
-- **Status**: Disproven / Dead End. Pushing Boulder C4 Down to (13, 13) traps it in a corner since Column 12 Y=12-15 is solid wall and Column 13 Y=14 is solid wall. We cannot walk around to push it Left or Right. This path is completely impassable.
+- **Boulder C4 (13, 12)**: Proven dead-end. Pushing it traps it in a corner; path is completely impassable.
 
 ## Socratic Victory Road 2F Boulder Recovery & Pushing Strategy (Turn 99303):
 Once Boulder C3 (7, 7) is successfully dropped into the 3F Pit Hole at (7, 10), it lands on the 2F ground floor at (7, 10). Here is our rigorous step-by-step recovery and pushing plan:
