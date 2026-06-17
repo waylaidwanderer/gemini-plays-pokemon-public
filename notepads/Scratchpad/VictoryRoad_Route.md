@@ -32,8 +32,8 @@
   - Switch B2: Coordinate (9, 16) | State: [ ] Unpressed (requires Boulder B1)
 
 ### Victory Road 3F (Map 0_198):
-- **Active State**: In Progress (Testing Boulder C3)
-- **Current Position**: (7, 6) facing Down (Turn 99675)
+- **Active State**: In Progress (Pivoting to Contingency A: Exploring East Side)
+- **Current Position**: (7, 6) facing Down (Turn 99693)
 - **Campaign Start (Victory Road 3F)**: Turn 98794 (Time: Wednesday, June 17, 2026 at 7:57 AM PDT)
 - **Strength Status**: Active [x]
 - **Landing Position**: (23, 7)
@@ -41,11 +41,16 @@
 - **Boulders Database**:
   - Boulder C1 (Northeast North): Initial (22, 3) | Current (3, 5) | Status: Pushed onto Switch C1
   - Boulder C2 (Northeast South): Initial (24, 10) | Current (24, 10) | Status: Unmoved
-  - Boulder C3 (West Upper): Initial (7, 7) | Current (7, 7) | Status: Unmoved (on ground floor Column 7)
+  - Boulder C3 (West Upper): Initial (7, 7) | Current (7, 7) | Status: Blocked (tested on Turn 99678, gates at 7,8/7,9 remain solid)
   - Boulder C4 (East Lower): Initial (13, 12) | Current (13, 12) | Status: Unmoved (on ground floor Column 13)
 - **Floor Switches & Holes**:
   - Pit Hole: Coordinate (7, 10) | State: Open [x] (verified on Turn 98869)
-  - Switch C1: Coordinate (3, 5) | State: Pressed [x] (Verified Turn 99000: Standing on the switch at (3, 5) does NOT change the tile type of (7, 8) or any other visible tiles on the west side. It likely controls a barrier on the east or northeast side of 3F).
+  - Switch C1: Coordinate (3, 5) | State: Pressed [x]
+
+### Empirical Push Test Failure & Pivot Log (Turn 99693):
+- **Verification of Failure**: On Turn 99678, with Boulder C1 resting on Switch C1 at (3, 5), the player attempted to push Boulder C3 at (7, 7) southwards from (7, 6). The push failed due to a solid collision bump, and tiles (7, 8) and (7, 9) remain TYPE_2889 rock walls.
+- **Conclusion**: Switch C1 at (3, 5) does NOT open the Column 7 gates. Its function is elsewhere, likely lowering a barrier on the East or Northeast side of 3F.
+- **Active Strategy**: Pivot immediately to Contingency A. Walk East along the Row 1 corridor to investigate if any eastern or northeast barrier was lowered, or if there is another switch/trigger on the East side.
 
 ### Switch C1 (3, 5) and Eastern Barrier Testing Plan:
 - **Hypothesis**: Switch C1 (3, 5) controls the Column 7 gates at (7, 8) and (7, 9) on 3F. Pushing Boulder C1 onto it is required to permanently open this barrier.
