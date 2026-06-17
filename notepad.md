@@ -7463,12 +7463,12 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 
 ### Victory Road 2F Map (Map 0_194):
 - **Active State**: In Progress
-  - **Current Position**: (12, 16) facing Left (Turn 100578)
+  - **Current Position**: (15, 16) facing Right (Turn 100591)
 - **Strength Status**: Active: [x] True
 - **Boulders Database**:
   - Boulder B1: Initial (5, 5) | Current (5, 5) | Status: Unmoved
   - Boulder B2: Initial (4, 14) | Current (1, 16) | Status: [x] Pushed onto Switch B1
-  - Dropped Boulder (from 3F): Initial (23, 16) | Current (9, 16) | Status: [x] Pushed onto Switch B2 (Turn 100239)
+  - Dropped Boulder (from 3F): Initial (23, 16) | Current (9, 16) | Status: [x] Pushed onto Switch B2 again (Turn 100581) after floor transition reset
 - **Floor Switches**:
   - Switch B1: Coordinate (1, 16) | State: [x] Pressed (secured with Boulder B2)
   - Switch B2: Coordinate (9, 16) | State: [x] Pressed (secured with Dropped Boulder)
@@ -7483,7 +7483,7 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 - **Warp Translation**: Ladder at (27, 7) on 2F (Map 0_194) connects to landing spot at (23, 7) on 3F (Map 0_198).
 - **Boulders Database**:
   - Boulder C1 (Northeast North): Initial (22, 3) | Current (3, 5) | Status: Pushed onto Switch C1
-  - Boulder C2 (Northeast South): Initial (24, 10) | Current (24, 10) | Status: Unmoved
+  - Boulder C2 (Northeast South): Initial (24, 10) | Current (22, 10) | Status: Double Pushed Left to (22, 10) (Turn 100539)
   - Boulder C3 (West Upper): Initial (7, 7) | Current (7, 7) | Status: Blocked (tested on Turn 99678, gates at 7,8/7,9 remain solid)
   - Boulder C4 (East Lower): Initial (13, 12) | Current (13, 6) | Status: Pushed North to (13, 6) (Turn 100105)
 - **Floor Switches & Holes**:
