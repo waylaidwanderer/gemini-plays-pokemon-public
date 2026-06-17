@@ -33,8 +33,8 @@
   - Switch B2: Coordinate (9, 16) | State: [x] Pressed (secured with Dropped Boulder)
 
 ### Victory Road 3F (Map 0_198):
-- **Active State**: Historical (Returned to 2F)
-  - **Current Position**: Historical (Returned to 2F)
+- **Active State**: In Progress
+  - **Current Position**: (25, 10) facing Left (Turn 100533)
   - **East-Wing & Plateau Pivot Start**: Turn 99693
 - **Campaign Start (Victory Road 3F)**: Turn 98794 (Time: Wednesday, June 17, 2026 at 7:57 AM PDT)
 - **Strength Status**: Active [x]
