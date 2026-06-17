@@ -7495,5 +7495,9 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   - Blastoise (GEMMY) is currently at 105/207 HP.
   - To prevent entering Victory Road in a vulnerable state, we will open our Bag item menu and use 1 Hyper Potion (currently 7 in inventory) to heal GEMMY to full (207/207 HP).
   - This keeps our primary sweeper healthy and ready for the 1F trainer battles without wasting Max Potions.
+- **Turn 97591 Overworld Status**:
+  - We are on foot at (6, 32) on Route 23.
+  - We are positioned right next to the cave entrance at (4, 31).
+  - GEMMY is fully healed. We are ready to step inside!
 
 <hr>
