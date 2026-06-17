@@ -1,19 +1,4 @@
 {
-  "flee_battle": {
-    "description": "Generates the button press sequence to select the RUN option from the default battle fight menu (Down, Right, A).",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\nprint(json.dumps([\"Down\", \"Right\", \"A\"]))\n",
-    "history": [
-      {
-        "commit_message": "Define a simple custom tool to automate navigating to the RUN option in battle.",
-        "timestamp": "2026-06-09T05:07:55.519Z",
-        "action_counter": 75876
-      }
-    ]
-  },
   "activate_strength": {
     "description": "Automates the overworld activation of the STRENGTH move from the party menu by navigating to the second party member (ROCKY/GEODUDE) and selecting the STRENGTH option.",
     "input_schema": {
@@ -26,6 +11,21 @@
         "commit_message": "Define activate_strength tool to automate the STRENGTH overworld activation from the party menu.",
         "timestamp": "2026-06-17T10:53:54.544Z",
         "action_counter": 98634
+      }
+    ]
+  },
+  "flee_battle": {
+    "description": "Generates the button press sequence to select the RUN option from the default battle fight menu (Down, Right, A).",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\nprint(json.dumps([\"Down\", \"Right\", \"A\"]))\n",
+    "history": [
+      {
+        "commit_message": "Define a simple custom tool to automate navigating to the RUN option in battle.",
+        "timestamp": "2026-06-09T05:07:55.519Z",
+        "action_counter": 75876
       }
     ]
   }
