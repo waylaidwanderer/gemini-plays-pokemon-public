@@ -65,3 +65,4 @@
 - **Search Goal**: Systematically explore Victory Road 1F to locate Switch A.
 - **Safety Rule**: Do NOT perform any further pushes on Boulder A (currently at (5, 14)) until Switch A has been found and its coordinates are verified and logged. Keeping Boulder A in its current position allows us to move around it without blocking any paths or pushing it into an unrecoverable state.
 - **Verification Rule**: Any candidates for Switch A must be stood on, interacted with, and verified to check if they are the correct active plate switch.
+Turn 97649: Standing at (15, 14). Plan to walk to (17, 13) to verify if it is indeed the active plate for Switch A, testing its collision and state. Path: Left, Up, Up, Right, Right, Right, Down to (17, 13).
