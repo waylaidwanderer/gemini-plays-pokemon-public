@@ -61,8 +61,9 @@
 
 ## Victory Road 1F Exploration & Mapping Protocol:
 - **Search Goal**: Systematically explore Victory Road 1F to locate Switch A. (Completed: Turn 97771 - Switch A is located at (17, 13) and has Boulder A on it.)
-Turn 97771: Floor: Victory Road 1F | Strength Active: [x] True.
-We successfully pushed Boulder A onto Switch A! All obsolete multi-line plans for Turn 97756, 97753, and 97750 have been removed to maintain notepad hygiene. Proceeding to find the opened gate and the 2F stairs.
+- **Puzzle Status Verification**: The map layout is modified, requiring a multi-boulder puzzle solution. The standard 2F ladder warp at (17, 2) is verified to be inactive under our current configuration. We must determine if we need to solve the full three-boulder puzzle to activate the warp, or if there is another unexplored route.
+- **Unexplored Areas Check**: Systematically explore the western ground floor's northern sections (Columns 1-4, Rows 0-7) to check for alternative paths or switches before resetting the puzzle.
+- **Starting turn / timestamp**: Victory Road 1F exploration phase started on Turn 97131 to track time and prevent Time Blindness.
 ### Victory Road 1F Map Exploration (Continued):
 - Turn 97779: Boulder A is successfully on Switch A at (17, 13).
 - Turn 97892: Proceeding to the true 2F ladder warp at (17, 2).
