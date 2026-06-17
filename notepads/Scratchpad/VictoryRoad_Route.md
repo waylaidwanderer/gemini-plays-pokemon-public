@@ -16,17 +16,13 @@
 ## Puzzle State Log:
 
 ### Victory Road 1F (Map 0_108):
-- **Active State**: Mapping/Exploration
+- **Active State**: Completed (Boulder on Switch)
 - **Boulders Database**:
-  - Boulder A: Initial (5, 15) | Current (5, 14) | Target (17, 13) | Status: [ ] Active
+  - Boulder A: Initial (5, 15) | Current (17, 13) | Target (17, 13) | Status: [x] Active
 - **Floor Switches**:
-  - Switch A: Coordinate (17, 13) | State: [ ] Pressed (requires Boulder A)
+  - Switch A: Coordinate (17, 13) | State: [x] Pressed (secured with Boulder A)
 - **Verified Switch A Pushing Route**:
-  1. Boulder A must be guided to (16, 12).
-  2. Stand at (15, 12) and push Boulder A Right to (17, 12).
-  3. Stand at (17, 11) and push Boulder A Down to (17, 13) (the switch).
-- **Sliding Log / Push Vectors**:
-  - *Format*: Push [Direction] from (X, Y) to (X_new, Y_new) on Turn [N].
+  - Successfully guided Boulder A via Rows 16, 17, 14, and 12, culminating in a downward push from (17, 11) onto (17, 13).
 
 ### Victory Road 2F:
 - **Active State**: Unexplored / Initial
@@ -34,6 +30,12 @@
   - Boulder B: Initial (TBD, TBD) | Current (TBD, TBD) | Target (TBD, TBD) | Status: [ ] Active
 - **Floor Switches**:
   - Switch B: Coordinate (TBD, TBD) | State: [ ] Pressed (requires Boulder B)
+- **Socratic 2F Strategy Plan**:
+  - Upon entering 2F, overworld Strength is automatically deactivated. We must:
+    1. Activate STRENGTH from POKéMON menu using ROCKY (Geodude).
+    2. Confirm exact text: "ROCKY used STRENGTH!" and "ROCKY can move boulders." before touching any boulders.
+    3. Log entry: "Floor: Victory Road 2F | Strength Active: [x] True".
+    4. Explore systematically, identify Boulder B starting coordinates, Switch B coordinates, and map out safe push vectors without creating irreversible corners or dead-locks.
 
 ### Victory Road 3F:
 - **Active State**: Unexplored / Initial
@@ -53,6 +55,7 @@
   - To prevent being trapped or making irreversible incorrect pushes, every single push will be logged before moving further:
     - *Format*: `Turn [N]: Pushed [Boulder ID] [Direction] from (X, Y) to (X_new, Y_new) while standing at (X_player, Y_player) facing [Facing]`.
   - If a puzzle becomes unsolvable or we get stuck, we will immediately use a stairs transition to reset all boulder coordinates and STRENGTH state, updating our logs accordingly.
+
 ## Live Progression & Route Logs:
 - **Turn 97563 Resource Management Audit**:
   - Blastoise (GEMMY) is currently at 105/207 HP.
@@ -65,36 +68,5 @@
 - **Search Goal**: Systematically explore Victory Road 1F to locate Switch A.
 - **Safety Rule**: Do NOT perform any further pushes on Boulder A (currently at (5, 14)) until Switch A has been found and its coordinates are verified and logged. Keeping Boulder A in its current position allows us to move around it without blocking any paths or pushing it into an unrecoverable state.
 - **Verification Rule**: Any candidates for Switch A must be stood on, interacted with, and verified to check if they are the correct active plate switch.
-Turn 97756: Floor: Victory Road 1F | Strength Active: [x] True.
-We successfully positioned ourselves at (16, 15), directly below Boulder A at (16, 14).
-Plan:
-1. Press Up, Up to push Boulder A from (16, 14) to (16, 13), then step Up onto (16, 14) and push it to (16, 12).
-2. Move Left to (15, 14), Left to (14, 14), Up to (14, 13), Up to (14, 12), Right to (15, 12) facing Right.
-3. Push Boulder A from (16, 12) to (17, 12).
-4. Move Up to (15, 11), Right to (16, 11), Right to (17, 11) facing Down.
-5. Push Boulder A from (17, 12) to (17, 13) (Switch A!).
-Turn 97753: Floor: Victory Road 1F | Strength Active: [x] True.
-We successfully pushed Boulder A further Eastward!
-- Current Boulder position: (16, 14) (directly to our Right).
-- Current Player position: (15, 14) facing Right.
-- Next Objective: Reposition player to stand directly below the boulder at (16, 15) to push it Northward.
-- Plan:
-  1. Walk Down to (15, 15) (open floor, TYPE_3fe2).
-  2. Walk Right to (16, 15) (open floor, TYPE_3fe2) facing Right.
-  3. Press Up to turn North and push Boulder A from (16, 14) to (16, 13).
-- Socratic Verification (Strategic Planning):
-  Once Boulder A is on Switch A at (17, 13), how do we verify the path is open?
-  - Verification: We will walk north to the northeast plateau to verify that the rock wall/stone barrier blocking the stairs to 2F has retracted.
-  - Location of 2F Stairs: The stairs are located on the northeast plateau, around (14, 1) or (15, 1) which is currently blocked by a barrier. We will navigate there after securing the boulder on the switch without leaving the floor. Leaving the floor would reset all boulder progress!
-- Systematic Elevation & Traversal Plan to Northeast Plateau (Corner/Ledge Safety):
-  1. Once Boulder A is safely resting on Switch A at (17, 13), we will navigate West/Northwest around the plateaus to find stairs up.
-  2. We will trace coordinates and verify tile types on every step. We must avoid stepping onto any one-way ledge drop-off tiles (TYPE_44f6) that descend from plateaus to lower floors, as jumping down would force us to backtrack and exit the map, resetting the boulder.
-  3. We will explore the eastern region's plateaus and staircase entries, recording each elevation level as we climb, and safely navigate to the 2F stairs on the northeast plateau. No blind jumps or movements.
-Turn 97750: Floor: Victory Road 1F | Strength Active: [x] True.
-Standing at (13, 14) directly to the Left of Boulder A at (14, 14).
-Plan:
-1. Press Right to push Boulder A from (14, 14) to (15, 14). Player remains at (13, 14).
-2. Move Right to (14, 14).
-3. Press Right to push Boulder A from (15, 14) to (16, 14). Player remains at (14, 14).
-4. Move Down to (14, 15), Right to (15, 15), Right to (16, 15) to stand directly below the boulder.
-This is fully mapped and unblocked. No blind pushes. Checking coordinates on every turn.
+Turn 97771: Floor: Victory Road 1F | Strength Active: [x] True.
+We successfully pushed Boulder A onto Switch A! All obsolete multi-line plans for Turn 97756, 97753, and 97750 have been removed to maintain notepad hygiene. Proceeding to find the opened gate and the 2F stairs.
