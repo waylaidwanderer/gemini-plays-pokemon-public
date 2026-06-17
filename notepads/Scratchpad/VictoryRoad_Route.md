@@ -51,3 +51,7 @@
   - If a puzzle becomes unsolvable or we get stuck, we will immediately use a stairs transition to reset all boulder coordinates and STRENGTH state, updating our logs accordingly.
 ## Live Progression & Route Logs:
 - **Turn 97482**: Successfully initiated SURF on water at (11, 103) facing Up. Surfing North along Column 11 toward the Soul Badge checkpoint at Y=96.
+- **Turn 97563 Resource Management Audit**:
+  - Blastoise (GEMMY) is currently at 105/207 HP.
+  - To prevent entering Victory Road in a vulnerable state, we will open our Bag item menu and use 1 Hyper Potion (currently 7 in inventory) to heal GEMMY to full (207/207 HP).
+  - This keeps our primary sweeper healthy and ready for the 1F trainer battles without wasting Max Potions.
