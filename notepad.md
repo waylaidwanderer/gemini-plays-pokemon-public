@@ -7462,8 +7462,8 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   - Boulder A2: Initial (14, 2) | Current (10, 2) | Target (10, 2) | Status: [ ] Active
 
 ### Victory Road 2F Map (Map 0_194):
-- **Active State**: Historical
-  - **Current Position**: Historical (Returned to 3F)
+- **Active State**: In Progress
+  - **Current Position**: (24, 16) facing Left (Turn 100561)
 - **Strength Status**: Active: [x] True
 - **Boulders Database**:
   - Boulder B1: Initial (5, 5) | Current (5, 5) | Status: Unmoved
@@ -7474,8 +7474,8 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   - Switch B2: Coordinate (9, 16) | State: [x] Pressed (secured with Dropped Boulder)
 
 ### Victory Road 3F (Map 0_198):
-- **Active State**: In Progress
-  - **Current Position**: (25, 10) facing Left (Turn 100533)
+- **Active State**: Historical (Returned to 2F)
+  - **Current Position**: Historical (Returned to 2F)
   - **East-Wing & Plateau Pivot Start**: Turn 99693
 - **Campaign Start (Victory Road 3F)**: Turn 98794 (Time: Wednesday, June 17, 2026 at 7:57 AM PDT)
 - **Strength Status**: Active [x]
