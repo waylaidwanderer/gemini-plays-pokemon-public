@@ -65,9 +65,6 @@
 - **Search Goal**: Systematically explore Victory Road 1F to locate Switch A.
 - **Safety Rule**: Do NOT perform any further pushes on Boulder A (currently at (5, 14)) until Switch A has been found and its coordinates are verified and logged. Keeping Boulder A in its current position allows us to move around it without blocking any paths or pushing it into an unrecoverable state.
 - **Verification Rule**: Any candidates for Switch A must be stood on, interacted with, and verified to check if they are the correct active plate switch.
-Turn 97649: Standing at (15, 14). Plan to walk to (17, 13) to verify if it is indeed the active plate for Switch A, testing its collision and state. Path: Left, Up, Up, Right, Right, Right, Down to (17, 13).
-Turn 97653: Standing at (17, 13). Visually verified that (17, 13) is a pressure plate switch (TYPE_eb90). Standing on it is passable and does not trigger any direct dialogue. No barriers are immediately visible on the current screen segment, but we need to push Boulder A here to keep the switch pressed permanently. Let's trace back and find the path for Boulder A.
-Turn 97673: Floor: Victory Road 1F | Strength Active: [x] True. Boulder A has been reset to starting position (5, 15). Standing at (8, 17). Path to (5, 14) is: Left, Left, Up, Left, Left, Up, Up, Right. From (5, 14), we will push Boulder A Down to (5, 16).
 Turn 97682: Prepared to push Boulder A.
 - Push Vector: Push DOWN from (5, 14) to (5, 16) while standing at (5, 14) facing Down.
 - Transition Plan to Position Left of Boulder A: Once Boulder A is at (5, 16), the player is at (5, 14). We will stand at (4, 16) to push it Right. Path: Left to (4, 14), Down to (4, 15), Down to (4, 16) facing Right.
