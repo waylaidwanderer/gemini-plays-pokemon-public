@@ -7463,7 +7463,7 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 ### Victory Road 2F Map (Map 0_194):
 - **Active State**: In Progress
 - **Strength Status**: Active: [x] True
-- **Current Position**: (23, 7) facing Down (Turn 98763)
+- **Current Position**: (23, 8) facing Down (Turn 98792)
 - **Boulders Database**:
   - Boulder B1: Initial (5, 5) | Current (5, 5) | Status: Unmoved
   - Boulder B2: Initial (4, 14) | Current (1, 16) | Status: [x] Pushed onto Switch B1
@@ -7472,9 +7472,10 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   - Switch B2: Coordinate (9, 16) | State: [ ] Unpressed (requires Boulder B1)
 
 ### Victory Road 3F (Map 0_198):
-- **Active State**: In Progress (Turn 98767)
-- **Strength Status**: Deactivated (requires manual menu activation)
-- **Current Position**: (23, 7) facing Down
+- **Active State**: Unexplored / Initial
+- **Strength Status**: Deactivated
+- **Landing Position**: (23, 7)
+- **Warp Translation**: Ladder at (27, 7) on 2F (Map 0_194) connects to landing spot at (23, 7) on 3F (Map 0_198).
 - **Boulders Database**:
   - Boulder C1 (Northeast North): Initial (22, 3) | Current (22, 3) | Status: Unmoved
   - Boulder C2 (Northeast South): Initial (24, 10) | Current (24, 10) | Status: Unmoved
@@ -7493,7 +7494,7 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   - **Validation**: Formulate a step-by-step push planning sequence before applying any force.
 
 ## Active Exploration Route & Plan:
-- **Goal**: Navigate to 3F (Map 0_195) to find the boulder that falls to 2F.
+- **Goal**: Navigate to 3F (Map 0_198) via the northeast ladder at (27, 7).
 - **Empirical Breakthrough (Turn 98709)**:
   - We have visually inspected Column 9 from (9, 12) on the ground floor.
   - **Findings**:
@@ -7503,14 +7504,14 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
     4. Therefore, it is physically impossible to push Boulder B1 (at (5, 5) on the plateau) down Column 9 to Switch B2 (at (9, 16) on the ground floor).
     5. **New Puzzle Solution Hypothesis**: The boulder that goes on Switch B2 (9, 16) must fall from the ceiling of 2F (which is a hole on 3F). Once it lands on the ground floor of 2F, it can be pushed west along Row 16 to (9, 16).
 - **Next Action Steps**:
-  1. Climb onto the plateau via the stairs at (15, 15) or (21, 15).
-  2. Walk to the ladder at (23, 7) to enter Victory Road 3F.
+  1. Walk Down, Right, and Up to bypass the Column 24 wall on 2F and climb the real ladder at (27, 7).
+  2. Enter 3F at (23, 7).
   3. Explore 3F to locate the boulder and hole to drop it to 2F.
 
 ## Socratic Verification of Item (18, 9) Collection:
 - **Hypothesis**: The player stood at (18, 10) facing Up on Turn 98639 and pressed 'A' to collect the item at (18, 9). Since our inventory was at 20/20 and no stackable quantities changed, we must verify if the item was successfully collected or if it remained on the floor due to a full bag.
 - **Empirical Test Protocol**:
-  - We will transition floors (e.g., take the ladder at (23, 7) to 3F and re-enter 2F) to trigger a map/sprite reset.
+  - We will transition floors (e.g., take the ladder at (27, 7) to 3F and re-enter 2F) to trigger a map/sprite reset.
   - We will walk back to (18, 10) and check if the Poké Ball sprite at (18, 9) is visible.
   - If the Poké Ball is visible, our collection failed due to a full bag. We must free a slot (e.g., use a Calcium, Carbos, or Iron on a Pokémon, or use an Elixir, or toss a fainted Pidgeotto's Great Ball if allowed? No, we can just use Calcium/Carbos/Iron on Gemmy to instantly free a slot!) and re-collect it.
   - If the Poké Ball is gone, the collection was successful.
