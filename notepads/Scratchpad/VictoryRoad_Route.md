@@ -535,11 +535,6 @@
                                                            - Down 5 steps: (7, 2), (7, 3), (7, 4), (7, 5), (7, 6).
                                                          - Stand at (7, 6) facing Down.
                                                          - Press Down to push the boulder at (7, 7) Down.
-                                                         - Let's check if this path is completely open.
-                                                         - Yes, Row 1 is completely open, and Column 7 is completely open down to (7, 6)!
-                                                         - Let's execute this movement!
-                                                         - Wait, first let's edit our Scratchpad to note that we are abandoning the push of C4 at (13, 12) because it leads to a dead end and isn't the correct puzzle path, and we are going to physically test the C3 push at (7, 7).
-                                                         - Let's do that!
 
 ## Socratic Victory Road 2F Boulder Recovery & Pushing Strategy (Turn 99303):
 Once Boulder C3 (7, 7) is successfully dropped into the 3F Pit Hole at (7, 10), it lands on the 2F ground floor at (7, 10). Here is our rigorous step-by-step recovery and pushing plan:
