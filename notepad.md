@@ -7576,4 +7576,19 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   4. Test if (7, 8) is a barrier gate that can be lowered. Since 2F has barrier gates lowered by floor switches, check if there is a floor switch on 3F that lowers it (such as the one at (3, 5)), or if (7, 8) is already open floor/barrier on 3F!
   5. We will document the exact tile types and push results at each step.
 
+## Socratic Switch Contingency & Exploration Plan (Turn 99159):
+- **Contingency A (Switch (3, 5) Lowers (7, 8))**:
+  - If we stand on (3, 5) and (7, 8) changes to a passable floor/barrier tile, it confirms (3, 5) is the trigger.
+  - Since it's a floor plate, it will likely reset when we step off. This means we must push another boulder (such as Boulder C1 at (22, 3), Boulder C2 at (24, 10), or Boulder C4 at (13, 12)) onto the switch at (3, 5) to keep the barrier permanently open.
+  - Once the switch is held down, we can return to (7, 6) and push Boulder C3 south through (7, 8) and (7, 9) into the pit at (7, 10).
+- **Contingency B (Switch (3, 5) does NOT Lower (7, 8))**:
+  - If (7, 8) remains a wall when we stand on (3, 5), it means either:
+    1. The switch at (3, 5) triggers a different barrier on 3F (such as one on the east side).
+    2. There is a different trigger (like a hidden switch, another plate, or a 2F switch) that controls (7, 8).
+    3. We must systematically locate and test other triggers. We will walk the entire 3F floor to find any other plates of TYPE_eb90.
+    4. We will also inspect if any other wall tile adjacent to Boulder C3 (like (6, 7) or (8, 7)) is the barrier.
+- **Contingency C (Alternate trajectories for Boulder C3)**:
+  - If (7, 8) is a permanent rock wall, we cannot push Boulder C3 south.
+  - We would have to check if (6, 7) or (8, 7) can be lowered, allowing us to stand at (7, 6) and push it south, then stand at a side tile to push it horizontally. But since it's in a 1-tile wide vertical slot, pushing it south first is mandatory. Thus, (7, 8) MUST be the gate. We will proceed with the active test.
+
 <hr>
