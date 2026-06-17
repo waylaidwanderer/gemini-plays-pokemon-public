@@ -25,30 +25,20 @@
   - **Current Position**: (18, 7) facing Left (Turn 100711)
 - **Strength Status**: Active: [x] True
 
-### Victory Road 3F (Map 0_198):
-- **Active State**: Completed (Backtracked to 2F)
-  - **Current Position**: Completed (Turn 100702)
+### Victory Road 2F Boulders & Switches:
 - **Boulders Database**:
   - Boulder B1: Initial (5, 5) | Current (5, 5) | Status: Unmoved
   - Boulder B2: Initial (4, 14) | Current (1, 16) | Status: [x] Pushed onto Switch B1
-  - Dropped Boulder (from 3F): Initial (23, 16) | Current (9, 16) | Status: [x] Pushed onto Switch B2 again (Turn 100581) after floor transition reset
+  - Dropped Boulder: Initial (23, 16) | Current (9, 16) | Status: [x] Pushed onto Switch B2 again (Turn 100581) after floor transition reset
 - **Floor Switches**:
   - Switch B1: Coordinate (1, 16) | State: [x] Pressed (secured with Boulder B2)
   - Switch B2: Coordinate (9, 16) | State: [x] Pressed (secured with Dropped Boulder)
 
-### Victory Road 3F (Map 0_198):
-- **Active State**: Historical (Returned to 2F)
-  - **Current Position**: Historical (Returned to 2F)
-  - **East-Wing & Plateau Pivot Start**: Turn 99693
-- **Campaign Start (Victory Road 3F)**: Turn 98794 (Time: Wednesday, June 17, 2026 at 7:57 AM PDT)
-- **Strength Status**: Active [x]
-- **Landing Position**: (23, 7)
-- **Warp Translation**: Ladder at (27, 7) on 2F (Map 0_194) connects to landing spot at (23, 7) on 3F (Map 0_198).
+### Victory Road 3F Map (Map 0_198):
+- **Active State**: In Progress
+  - **Current Position**: (23, 7) facing Down (Turn 100732)
 - **Boulders Database**:
-  - Boulder C1 (Northeast North): Initial (22, 3) | Current (3, 5) | Status: Pushed onto Switch C1
-  - Boulder C2 (Northeast South): Initial (24, 10) | Current (22, 10) | Status: Double Pushed Left to (22, 10) (Turn 100539)
-  - Boulder C3 (West Upper): Initial (7, 7) | Current (7, 7) | Status: Blocked (tested on Turn 99678, gates at 7,8/7,9 remain solid)
-  - Boulder C4 (East Lower): Initial (13, 12) | Current (13, 6) | Status: Pushed North to (13, 6) (Turn 100105)
+  - Boulders are reset back to default starting positions (boulder C2 at (24, 10), boulder C4 at (13, 12)).
 - **Floor Switches & Holes**:
   - Pit Hole: Coordinate (23, 15) | State: Open [x] (verified on Turn 100130, boulder dropped through)
   - Switch C1: Coordinate (3, 5) | State: Pressed [x]
