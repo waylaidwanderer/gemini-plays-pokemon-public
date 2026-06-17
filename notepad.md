@@ -7636,4 +7636,8 @@ Once Boulder C3 (7, 7) is successfully dropped into the 3F Pit Hole at (7, 10), 
    - The barrier gate blocking the northeast exit on 2F is lowered.
    - Walk back to the northeast, climb the ladder to 3F at (26, 8) (which is now accessible), and exit Victory Road!
 
+## Gen 1 Boulder Pushing Animation/Timing Note:
+- When pushing a boulder, the movement animation takes some frames. Sending consecutive movement presses too quickly (e.g., standard 500ms overworld presses) can cause the engine to ignore subsequent pushes because the boulder is still moving.
+- Solution: Chunk presses into single steps or insert generous sleeps (e.g., 'sleep 1000') between consecutive pushes.
+
 <hr>
