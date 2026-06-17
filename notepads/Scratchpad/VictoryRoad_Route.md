@@ -58,12 +58,6 @@
   - If a puzzle becomes unsolvable or we get stuck, we will immediately use a stairs transition to reset all boulder coordinates and STRENGTH state, updating our logs accordingly.
 
 ## Live Progression & Route Logs:
-- **Turn 97563 Resource Management Audit**:
-  - Blastoise (GEMMY) is currently at 105/207 HP.
-  - To prevent entering Victory Road in a vulnerable state, we will open our Bag item menu and use 1 Hyper Potion (currently 7 in inventory) to heal GEMMY to full (207/207 HP).
-  - This keeps our primary sweeper healthy and ready for the 1F trainer battles without wasting Max Potions.
-- **Floor: Victory Road 1F | Turn: 97593 | Strength Active: [x] True**
-- **Turn 97616**: Pushed Boulder A Up from (5, 15) to (5, 14) while standing at (5, 16) facing Up. Corrected chronological logging (Turn 97614 was a premature pre-log before execution, actual movement executed on Turn 97616).
 
 ## Victory Road 1F Exploration & Mapping Protocol:
 - **Search Goal**: Systematically explore Victory Road 1F to locate Switch A. (Completed: Turn 97771 - Switch A is located at (17, 13) and has Boulder A on it.)
