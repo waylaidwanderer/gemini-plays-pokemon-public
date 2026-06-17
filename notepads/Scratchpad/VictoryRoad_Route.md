@@ -37,3 +37,15 @@
   - Boulder C: Initial (TBD, TBD) | Current (TBD, TBD) | Target (TBD, TBD) | Status: [ ] Active
 - **Floor Switches**:
   - Switch C: Coordinate (TBD, TBD) | State: [ ] Pressed (requires Boulder C)
+
+## Socratic Challenge: Strength & Puzzle Management Protocol
+- **Strength Deactivation Tracker**:
+  - Floor transitions (stairs/warps) completely deactivate overworld STRENGTH.
+  - Upon entering any floor, we will log: `Floor: [Floor Name] | Turn: [Turn Number] | Strength Active: [ ] False (Needs Reactivation)`.
+  - We will activate STRENGTH from the POKéMON menu using ROCKY (Geodude).
+  - We will verify the exact text indicators: `ROCKY used STRENGTH!` and `ROCKY can move boulders.`.
+  - Only after confirming this text will we log: `Strength Active: [x] True`.
+- **Boulder Push Vector Meticulous Logging**:
+  - To prevent being trapped or making irreversible incorrect pushes, every single push will be logged before moving further:
+    - *Format*: `Turn [N]: Pushed [Boulder ID] [Direction] from (X, Y) to (X_new, Y_new) while standing at (X_player, Y_player) facing [Facing]`.
+  - If a puzzle becomes unsolvable or we get stuck, we will immediately use a stairs transition to reset all boulder coordinates and STRENGTH state, updating our logs accordingly.
