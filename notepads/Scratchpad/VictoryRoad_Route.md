@@ -99,6 +99,6 @@
   - Earthquake: 4/10 PP
   - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
 
-## Active Progress & Current Plan (Turn 100641):
-- **Current Task**: Take the ladder warp at (27, 7) back to 3F. Walk to (23, 7) on 3F, take that ladder warp down to 2F's northwest isolated pocket, and then walk to the final exit of Victory Road.
-- **Verification Proof of Work**: Tested walking Up from (27, 7) to (27, 6) on Turn 100621 and bumped against solid rock wall TYPE_2889. Tested walking Up from (28, 7) to (28, 6) on Turn 100639 and bumped against solid rock wall TYPE_2889. This physically and empirically proves that the East half of the northeast pocket on 2F is completely isolated from the West half on foot, confirming backtracking to 3F is strictly mandatory.
+## Active Progress & Current Plan (Turn 100677):
+- **Current Task**: Push Boulder C4 at (13, 12) north along Column 13 to Row 7. Walk to (23, 7) on 3F, take that ladder warp down to 2F's northwest isolated pocket, and then walk to the final exit of Victory Road.
+- **Verification Proof of Work**: Backtracked to 3F East at (26, 8) on Turn 100646. Toggled Strength on on Turn 100651. Pushed Boulder C2 to (22, 10) on Turn 100658. Bypassed the solid Column 21 rock wall by walking down to Row 13 on Turn 100663. Walked left to Column 13 on Turn 100668. Currently pushing Boulder C4 Up Column 13 to clear the path to Row 7.
