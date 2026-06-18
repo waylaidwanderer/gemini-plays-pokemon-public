@@ -68,3 +68,4 @@
   - Drop down to 2F.
   - Walk West to (0, 8).
   - Session Start Turn: 100951 | Resumed: Turn 100987 | Timestamp: Wednesday June 17, 2026 4:45 PM PDT (Time-blindness protection active)
+- Turn 101063: Tested walking Down from (21, 11) [z=1] to (21, 12) [z=0]. Result: Bumped (0 tiles visited), remaining at (21, 11). This empirically proves that the transition from Row 11 (red checkered) to Row 12 (purple) is a solid height mismatch barrier on Column 21 as well, and we cannot descend directly to the purple floor on the east side on foot. We must walk West on the red checkered floor (Row 11) to find the correct descent path.
