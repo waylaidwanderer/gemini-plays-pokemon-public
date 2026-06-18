@@ -7540,6 +7540,5 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 - **Result**: Direct collision bump (0 tiles visited), remaining at (28, 2) on Turn 101402.
 - **Conclusion**: The hypothesis is definitively DISPROVEN. Column 29 is a solid border wall of TYPE_2889. There is no off-screen bypass on Column 29. We must solve the puzzles using the canonical 2F/3F pathways.
 - **Active Push Session**: Started at Turn 101468. Pushing first boulder from (6, 2) Left along Row 2.
-- Turn 101553: Starting to push Boulder C1 from (22, 1) West along Row 1. Player is at (23, 1) facing Left. Plans to use 4-step button chunks to push and follow.
 
 <hr>
