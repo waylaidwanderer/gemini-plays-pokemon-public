@@ -76,7 +76,6 @@
   8. Push the dropped boulder West along Row 16 to Switch B2 at (9, 16) to open the northeast barrier on 2F.
   9. Climb the eastern stairs at (21, 15) UP to Row 14, walk to Column 27 on the plateau, and walk Up through the opened northeast barrier to the ladder at (27, 7).
   10. Climb the ladder to 3F East (26, 8) and walk to the exit at the top right of 3F to reach Indigo Plateau!
-- **Session Start Turn**: 101370 | Timestamp: Wednesday June 17, 2026 7:35 PM PDT (Time-blindness protection active)
 
 ### Active Column 13 Passability Test Session
 - **Session Start Turn**: 101100 | Timestamp: Wednesday June 17, 2026 5:17 PM PDT
