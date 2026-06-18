@@ -38,7 +38,7 @@
 - **Active State**: In Progress
   - **Current Position**: (23, 1) facing Left (Turn 101551)
 - **Boulders Database**:
-  - Boulder C1: Initial (22, 3) | Current (22, 1) | Target (3, 5) (Switch C1) | Status: [ ] In Progress (Recovery)
+  - Boulder C1: Initial (22, 3) | Current (9, 1) | Target (3, 5) (Switch C1) | Status: [ ] In Progress (Recovery)
   - Boulder C2: Initial (24, 10) | Current (24, 10) | Target (23, 15) (Pit Hole)
   - Boulder C4: Initial (13, 12) | Current (13, 12) | Target (N/A, static/bypass)
 - **Floor Switches & Holes**:
