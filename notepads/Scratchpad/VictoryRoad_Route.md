@@ -75,3 +75,9 @@
   13. On 2F West, activate STRENGTH and push Boulder B1 at (5, 5) onto Switch B1 at (1, 16) to permanently lower the Row 8 gate at (24, 8) on 2F East. [/] (In progress, boulder pushed to (5, 7))
   14. On 2F East, walk from (23, 7) to (27, 7) through the opened gate at (24, 8) and climb UP to the exit pocket on 3F East. [ ]
   15. Walk to the exit of Victory Road to emerge onto Route 23 / Indigo Plateau! [ ]
+
+### Turn 103889 Detour Log:
+- **Turn 103870-103877**: Navigated to (5, 4) on 2F West and reactivated STRENGTH.
+- **Turn 103879-103880**: Pushed Boulder B1 Down along Column 5 from (5, 5) to (5, 7). Standing at (5, 5) facing Down.
+- **Turn 103882-103887**: Escaped a wild Machop at (5, 5) and navigated around the boulder to (6, 7) facing Left.
+- **Goal**: Push Boulder B1 Left from (5, 7) to (3, 7), then push it Down Columns 2/3 past Row 8 to reach the Switch at (1, 16).
