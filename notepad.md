@@ -7494,18 +7494,17 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   - Earthquake: 3/10 PP
   - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
 
-## Active Progress & Current Plan (Turn 102603):
-- **Current Task**: Walk Koga's elevated plateau (z=1) to the 3F West ladder at (1, 9) and descend to 2F West to traverse to the East exit.
+## Active Progress & Current Plan (Turn 102642):
+- **Current Task**: Climb back onto the plateau (z=1) via the Western Plateau Stairs at (1, 9) and navigate back to the East/Northeast side of 3F East.
 - **Session Start Turn**: 102517 | State: Active
 - **Step-by-Step Plan**:
-  1. Climb up the (23, 7) ladder on 2F East to 3F East (23, 7). [x] Completed (Turn 102525)
-  2. Walk along Row 2 ground-level bypass corridor past Column 24 to Column 6/7. [x] Completed (Turn 102548)
-  3. Walk Up Koga's Northern Plateau stairs at (17, 5) onto the plateau (z=1). [x] Completed (Turn 102584)
-  4. Walk West along Koga's plateau (z=1) on Row 8 to Koga's Western Plateau Column 1 at (1, 8). [In Progress]
-  5. Walk Down 1 step to Koga's western ladder at (1, 9) and descend to 2F West (0, 8). [ ]
-  6. Walk across Koga's open plateau on 2F East to (26, 14) and climb the ladder to 3F East (27, 15). [ ]
-  7. Walk to the ladder at (26, 8) on 3F East and descend to 2F East (27, 7) [the exit pocket]. [ ]
-  8. Take the final exit ladder from (27, 7) to emerge onto Route 23/Indigo Plateau. [ ]
+  1. Climb up the Western Plateau Stairs at (1, 9) onto the plateau at (1, 8). [In Progress]
+  2. Walk East along the plateau corridor on Row 8 to Column 17. [ ]
+  3. Walk Up to (17, 5) and descend the plateau stairs to the ground floor of 3F East at (17, 6). [ ]
+  4. Walk to the ladder at (23, 7) or (27, 15) to descend to 2F East. [ ]
+  5. On 2F East, walk across the open plateau (since Switch B2's barrier is lowered) to (26, 14) and climb the ladder to 3F East (27, 15). [ ]
+  6. Walk to the exit ladder at (26, 8) on 3F East and descend to 2F East (27, 7) [the exit pocket]. [ ]
+  7. Take the final exit ladder from (27, 7) to emerge onto Route 23/Indigo Plateau. [ ]
 
 ## Empirical Bypass Test Session (Turn 101402):
 - **Objective**: Test the overwatch agent's hypothesis that Column 29 is a passable bypass corridor on Row 6 connecting Row 2 directly to Row 10 on 3F East.
