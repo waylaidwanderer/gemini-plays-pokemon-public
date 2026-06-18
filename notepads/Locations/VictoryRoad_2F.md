@@ -15,3 +15,12 @@
   - The plateau corridor goes South down Columns 13 and 14 (Rows 9-13 are TYPE_2770, passable).
   - Column 12 (Rows 10-13) and Column 15 (Rows 8-11) are solid rock walls (TYPE_2889).
   - At Row 12 and 13, the plateau corridor turns East across Columns 15 to 18 (TYPE_2770, passable).
+
+## 2F East Ground Level & Switch B2 Corridor (Verified Turn 102039)
+- **Stairs Descent**:
+  - The plateau stairs at (21, 15) lead directly down to the eastern ground level.
+  - (21, 15) is TYPE_4b8d (passable stair/ladder tile).
+- **Row 16 Horizontal Pathway**:
+  - Row 16 is a completely passable horizontal corridor (TYPE_3fe2) extending West from Column 25 all the way to Column 9.
+  - This pathway contains the dropped boulder at (23, 16) (initially) and Switch B2 at (9, 16).
+  - Pushing the boulder West along Row 16 is required to press Switch B2.
