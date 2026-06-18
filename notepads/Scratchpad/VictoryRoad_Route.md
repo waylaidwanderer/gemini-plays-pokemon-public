@@ -33,7 +33,7 @@
 
 ### Victory Road 2F Map (Map 0_194):
 - **Active State**: Completed (Boulder on Switch B2)
-  - **Current Position**: (4, 15) facing Down (Turn 103970)
+  - **Current Position**: (4, 16) facing Down (Turn 103972)
 - **Strength Status**: Active: [x] True
 - **Boulders Database**:
   - Switch B2: Coordinate (9, 16) | State: Pressed [x] (Solved on Turn 103671)
