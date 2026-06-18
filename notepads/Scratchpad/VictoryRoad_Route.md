@@ -75,3 +75,12 @@
 - **Objective**: Walk Down Column 13 from Row 7 to Row 15 on 3F, systematically testing and documenting the passability of every single row to verify if it connects directly to Row 15 corridor on foot.
 - **Passability Database (3F Column 13)**:
   - (13, 7): [x] Passable (Starting Point)
+  - (13, 8): [x] Passable (Turn 101107)
+  - (13, 9): [x] Passable (Turn 101109)
+  - (13, 10): [x] Passable (Turn 101109)
+  - (13, 11): [x] Passable (Turn 101110)
+  - (13, 12): [ ] Occupied by Boulder C4 (Default position)
+  - (13, 13): [x] Passable floor (Visually verified)
+  - (13, 14): [ ] IMPASSABLE - Solid rock wall (TYPE_2889, Visually verified on Turn 101114)
+  - (13, 15): [ ] IMPASSABLE - Solid rock wall (TYPE_2889, Visually verified on Turn 101114)
+- **Conclusion**: Column 13 is a 100% verified dead end below Row 13. Horizontal bypass on Row 12 is blocked by walls on both sides ((12, 12) and (14, 12) are TYPE_2889). We cannot go south on foot from 3F West without solving the 2F puzzle to open the northeast barrier. We must backtrack to 2F immediately.
