@@ -62,11 +62,12 @@
   - Earthquake: 4/10 PP
   - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
 
-## Active Progress & Current Plan (Turn 101493):
-- **Current Task**: Return East to the second boulder C2 at (24, 10) to solve the double-push puzzle.
+## Active Progress & Current Plan (Turn 101526):
+- **Current Task**: Push the reset first boulder C1 back onto Switch C1 at (3, 5).
+- **Session Start Turn**: 101520 | Timestamp: Wednesday June 17, 2026 8:23 PM PDT (Recovery Session 2)
 - **Step-by-Step Plan**:
-  1. Push the first boulder from (22, 3) to Switch C1 at (3, 5). [x] Completed (Turn 101476)
-  2. Walk back to (23, 7) on 3F East plateau. [x] Completed (Turn 101493)
+  1. Push the first boulder from (22, 3) to Switch C1 at (3, 5). [ ] In Progress (Recovery)
+  2. Walk back to (23, 7) on 3F East plateau. [ ]
   3. Stand to the right of the second boulder at (24, 10), and push it Left to (22, 10).
   4. Stand at (22, 9) and push the second boulder Down along Column 22 to (22, 15) (which falls off the plateau's southern edge).
   5. Walk to (21, 14) on the plateau, and walk Down to jump South over the cliff edge onto (21, 15) on the ground level.
