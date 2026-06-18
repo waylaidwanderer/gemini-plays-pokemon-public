@@ -62,7 +62,7 @@
   - Earthquake: 4/10 PP
   - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
 
-## Active Progress & Current Plan (Turn 101853):
+## Active Progress & Current Plan (Turn 101885):
 - **Current Task**: Push Boulder B1.
 - **Session Start Turn**: 101520 | State: Active
 - **Step-by-Step Plan**:
@@ -70,27 +70,7 @@
   2. Walk to (5, 4) (1 step Right, 1 step Down), standing directly above Boulder B1 at (5, 5). [x] Completed (Turn 101844)
   3. Manually activate STRENGTH from the POKéMON party menu using ROCKY (GEODUDE). [In Progress]
   4. Push Boulder B1 at (5, 5) DOWN along Column 5 to (5, 6) to open the path south.
-  3. Manually activate STRENGTH from the POKéMON party menu using ROCKY (GEODUDE).
-  4. Push Boulder B1 at (5, 5) DOWN along Column 5 to (5, 6) to open the path south.
-  5. Walk onto (5, 5) and walk south to the ladder to 3F West at (0, 8) or nearby.
-  6. Climb the ladder UP to 3F West (lands us on the southern plateau of 3F West).
-  7. Walk to the stairs at (1, 9) on 3F West and descend to the southern ground level of 3F West at (1, 10).
-  8. Walk to the south side of Boulder C4 at (13, 13).
-  9. Push Boulder C4 UP from (13, 12) to (13, 6) to clear Column 13.
-  10. Walk to the pit hole at (23, 15) and step in to jump down to 2F East ground floor (23, 16).
-  11. Climb the eastern stairs on 2F East from (21, 15) UP to Row 14, walk to Column 27 on the plateau, and walk Up to the ladder at (27, 7).
-  12. Climb the ladder at (27, 7) to warp up to 3F East at (26, 8) (the southeastern pocket!).
-  13. Walk to (25, 10), standing right of the second boulder at (24, 10).
-  14. Push the second boulder Left to (22, 10).
-  15. Stand at (22, 9) and push the second boulder Down along Column 22 to (22, 15) (where it falls off the plateau's southern edge).
-  16. Walk to (21, 14) on the plateau, and walk Down to jump South over the cliff edge onto (21, 15) on the ground level.
-  17. Stand at (21, 15) and push the boulder Right into the pit hole at (23, 15).
-  18. Walk into the pit hole at (23, 15) to land on 2F's ground floor at (23, 16).
-  19. Push the dropped boulder West along Row 16 to Switch B2 at (9, 16) to open the northeast barrier on 2F.
-  20. Climb the eastern stairs at (21, 15) UP to Row 14 on 2F, walk to Column 27 on the plateau, and walk Up through the opened northeast barrier to the ladder at (27, 7).
-  21. Climb the ladder to 3F East (26, 8).
-  22. Walk to 3F West and push the first boulder C1 from (22, 3) onto Switch C1 at (3, 5).
-  23. Walk to the exit at the top right of 3F East to reach Indigo Plateau!
+  5. Backtrack up the ladder at (1, 1) on 1F West to (0, 8) on 2F West. (The ladder at (0, 8) was verified on Turn 101865 to lead down to 1F West, resetting all boulders. We must re-solve 2F).
 
 ## Empirical Bypass Test Session (Turn 101402):
 - **Objective**: Test the overwatch agent's hypothesis that Column 29 is a passable bypass corridor on Row 6 connecting Row 2 directly to Row 10 on 3F East.
