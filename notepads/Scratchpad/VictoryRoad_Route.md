@@ -73,11 +73,15 @@
 - **Methodology**: Stood at (28, 2) on 3F East (Map 0_198) and pressed Right on Turn 101401 to attempt to step onto (29, 2) (TYPE_2889).
 - **Result**: Direct collision bump (0 tiles visited), remaining at (28, 2) on Turn 101402.
 - **Conclusion**: The hypothesis is definitively DISPROVEN. Column 29 is a solid border wall of TYPE_2889. There is no off-screen bypass on Column 29. We must solve the puzzles using the canonical 2F/3F pathways.
-## Empirical Passability Hypothesis & Test Protocol (Turn 103509):
-- **Hypothesis**: The northern detour to reach the East side of 3F East (Column 25 and above) on foot relies on Column 28 being a passable vertical corridor. Specifically, Column 28 Row 6 (28, 6) must be passable, despite Column 27 Row 6 being a solid rock wall (TYPE_2889) and Column 29 being a solid border wall.
-- **Testing Protocol**:
-  1. Navigate to 3F East at (23, 7).
-  2. Walk North to Row 2, then walk East along Row 2 to (28, 2).
-  3. Walk Down along Column 28 from (28, 2) and observe if we bump at (28, 6) or if we successfully step onto (28, 6) and (28, 7).
-  4. Log exact turn numbers, inputs, and coordinates of the test.
-  5. If (28, 6) is impassable, we will immediately pivot to falling through the (23, 15) pit hole to reach 2F East, then climb up via the (26, 14) ladder to 3F East (27, 15) to access the eastern side.
+## Empirical Passability Hypothesis & Test Protocol (Turn 103531):
+- **Hypothesis**: The northern detour to reach the East side of 3F East (Column 25 and above) on foot relies on Column 28 being a passable vertical corridor.
+- **Testing Method**: Walked along Row 1/2 to Column 28, then down to (28, 3).
+- **Result**: On Turn 103531, visually confirmed on screen that Row 6 is completely blocked by solid rock walls of TYPE_2889 across Columns 24-29. Specifically:
+  - (24, 6): TYPE_2889
+  - (25, 6): TYPE_2889
+  - (26, 6): TYPE_2889
+  - (27, 6): TYPE_2889
+  - (28, 6): TYPE_2889
+  - (29, 6): TYPE_2889
+- **Conclusion**: The hypothesis is definitively DISPROVEN. There is no foot passage from the northern Row 1/2 corridor to the southern half on the eastern side.
+- **Active Strategy**: Pivot to falling through the (23, 15) pit hole. We must check if Column 22 or any other path can lead us south past Row 9 on the west-center side of 3F East.
