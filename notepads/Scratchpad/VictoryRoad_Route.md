@@ -77,3 +77,12 @@
 - **Turn 103381**: Tested the passability of the Row 8 gate at (24, 8) by standing at (22, 8) and pressing Right, Right.
 - **Result**: Player moved to (23, 8) on the first press, and bumped against (24, 8) on the second press (Game State on Turn 103386 shows player at (23, 8) facing Right).
 - **Conclusion**: The Row 8 gate at (24, 8) is definitively CLOSED and impassable. Bypassing it via the Row 2/3 northern corridor and Column 28 is strictly mandatory to reach the C2 boulder on the East side.
+## Boulder Reset & Realignment (Turn 103405):
+- Visually verified that taking the ladder at (27, 7) on 2F East transitions back to (23, 7) on 3F East (Map 0_198).
+- This map transition has completely reset all boulders on 3F East:
+  - Boulder C1 has returned to (22, 3).
+  - Boulder C2 has returned to (24, 10).
+- Since we are standing at (23, 7) on 3F East, we can walk directly west and go back to 3F West.
+- We must re-solve the 3F West Boulder C1 Puzzle by pushing the boulder at (22, 3) onto Switch C1 at (3, 5).
+- After re-solving the C1 puzzle, we can walk back east to 3F East, proceed to the east side via the northern Row 2 corridor, and execute the Boulder C2 puzzle.
+- Current location: (23, 7). Path to (22, 4) is ['Left', 'Up', 'Up', 'Up']. Let's execute these steps to align south of Boulder C1.
