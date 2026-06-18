@@ -62,11 +62,11 @@
   - Earthquake: 4/10 PP
   - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
 
-## Active Progress & Current Plan (Turn 101283):
-- **Current Task**: Push the first boulder (currently at 6, 2) West along Row 2 to (2, 2), then Down along Column 2 to (2, 4), and then Right onto Switch C1 at (3, 5) to open the northeast barrier.
+## Active Progress & Current Plan (Turn 101320):
+- **Current Task**: Return East to the second boulder C2 at (24, 10) to solve the double-push puzzle.
 - **Step-by-Step Plan**:
-  1. Push the first boulder from (6, 2) West to (2, 2), then Down to (2, 4), then Right to (3, 4), then Down onto Switch C1 at (3, 5). [ ] In Progress (Currently at 6, 0)
-  2. Walk back to (23, 7) on 3F East plateau.
+  1. Push the first boulder from (22, 3) to Switch C1 at (3, 5). [x] Completed (Turn 101301)
+  2. Walk back to (23, 7) on 3F East plateau. [ ] In Progress (Currently at 17, 1, session start Turn 101315)
   3. Stand to the right of the second boulder at (24, 10), and push it Left to (22, 10).
   4. Stand at (22, 9) and push the second boulder Down along Column 22 to (22, 15) (which falls off the plateau's southern edge).
   5. Walk to (21, 14) on the plateau, and walk Down to jump South over the cliff edge onto (21, 15) on the ground level.
@@ -75,7 +75,7 @@
   8. Push the dropped boulder West along Row 16 to Switch B2 at (9, 16) to open the northeast barrier on 2F.
   9. Climb the eastern stairs at (21, 15) UP to Row 14, walk to Column 27 on the plateau, and walk Up through the opened northeast barrier to the ladder at (27, 7).
   10. Climb the ladder to 3F East (26, 8) and walk to the exit at the top right of 3F to reach Indigo Plateau!
-- **Session Start Turn**: 101190 | Point of Breakthrough: Turn 101208 | Timestamp: Wednesday June 17, 2026 5:50 PM PDT (Time-blindness protection active)
+- **Session Start Turn**: 101315 | Timestamp: Wednesday June 17, 2026 6:45 PM PDT (Time-blindness protection active)
 - Turn 101063: Tested walking Down from (21, 11) [z=1] to (21, 12) [z=0]. Result: Bumped (0 tiles visited), remaining at (21, 11). This empirically proves that the transition from Row 11 (red checkered) to Row 12 (purple) is a solid height mismatch barrier on Column 21 as well, and we cannot descend directly to the purple floor on the east side on foot. We must walk West on the red checkered floor (Row 11) to find the correct descent path.
 
 ### Active Column 13 Passability Test Session
@@ -92,7 +92,3 @@
   - (13, 14): [ ] IMPASSABLE - Solid rock wall (TYPE_2889, Visually verified on Turn 101114)
   - (13, 15): [ ] IMPASSABLE - Solid rock wall (TYPE_2889, Visually verified on Turn 101114)
 - **Conclusion**: Column 13 is a 100% verified dead end below Row 13. Horizontal bypass on Row 12 is blocked by walls on both sides ((12, 12) and (14, 12) are TYPE_2889). We cannot go south on foot from 3F West without solving the 2F puzzle to open the northeast barrier. We must backtrack to 2F immediately.
-- Turn 101167: Discovered that Row 2 is the northern boundary of the elevated plateau, so walking Up to Row 1 is blocked by a solid cliff face.
-- Turn 101194: Navigated Down to Row 10 and walked Left to (5, 10), discovering that Column 4 is blocked on Row 10 by a solid rock wall.
-- Turn 101197: Backtracked Up along Column 5 to Row 7 at (5, 7). Row 7 runs horizontally across to Column 1!
-- Turn 101199: Mapped and walked the open Row 7 corridor West to (1, 7) on the far western edge.
