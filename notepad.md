@@ -7503,14 +7503,16 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   - Earthquake: 4/10 PP
   - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
 
-## Active Progress & Current Plan (Turn 101885):
-- **Current Task**: Push Boulder B1.
+## Active Progress & Current Plan (Turn 101971):
+- **Current Task**: Navigate the 2F West plateau to 2F East and descend.
 - **Session Start Turn**: 101520 | State: Active
 - **Step-by-Step Plan**:
   1. Defeat the trainer at (4, 2) on 2F West. [x] Completed (Turn 101816)
   2. Walk to (5, 4) (1 step Right, 1 step Down), standing directly above Boulder B1 at (5, 5). [x] Completed (Turn 101844)
-  3. Manually activate STRENGTH from the POKéMON party menu using ROCKY (GEODUDE). [In Progress]
-  4. Push Boulder B1 at (5, 5) DOWN along Column 5 to (5, 6) to open the path south.
+  3. Manually activate STRENGTH from the POKéMON party menu using ROCKY (GEODUDE). [x] Completed (Turn 101850)
+  4. Push Boulder B1 at (5, 5) DOWN along Column 5 to (5, 6) to open the path south. [x] Completed (Turn 101860)
+  5. Climb stairs at (5, 10) to access the 2F West plateau. [x] Completed (Turn 101908)
+  6. Walk along the plateau Eastward to the eastern stairs at (21, 15). [In Progress]
 
 ## Empirical Bypass Test Session (Turn 101402):
 - **Objective**: Test the overwatch agent's hypothesis that Column 29 is a passable bypass corridor on Row 6 connecting Row 2 directly to Row 10 on 3F East.
