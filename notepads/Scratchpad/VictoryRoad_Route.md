@@ -36,7 +36,7 @@
 
 ### Victory Road 3F Map (Map 0_198):
 - **Active State**: In Progress
-  - **Current Position**: (11, 16) facing Left (Turn 102188)
+  - **Current Position**: (1, 9) facing Up (Turn 102199)
 - **Boulders Database**:
   - Boulder C1: Initial (22, 3) | Current (22, 3) | Target (3, 5) (Switch C1) | Status: [ ] Reset to default starting coordinates
   - Boulder C2: Initial (24, 10) | Current (22, 10) | Target (22, 10) (bypasses Column 24 wall) | Status: [x] Pushed (Turn 102158)
@@ -62,8 +62,8 @@
   - Earthquake: 3/10 PP
   - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
 
-## Active Progress & Current Plan (Turn 102188):
-- **Current Task**: Solve the 3F East double-push boulder puzzle to bypass the Column 24 vertical wall.
+## Active Progress & Current Plan (Turn 102199):
+- **Current Task**: Navigate to (22, 3) on 3F East and push Boulder C1 onto Switch C1 at (3, 5).
 - **Session Start Turn**: 101520 | State: Active
 - **Step-by-Step Plan**:
   1. Solve 2F West & East boulder puzzles to access the eastern plateau. [x] Completed (Turn 102089)
@@ -73,8 +73,9 @@
   5. Manually activate STRENGTH from the POKéMON menu using ROCKY (GEODUDE). [x] Completed (Turn 102152)
   6. Push the boulder at (24, 10) Left twice to (22, 10), opening Column 23. [x] Completed (Turn 102158)
   7. Walk West on Row 13 to (15, 13) and detour South to Row 16. [x] Completed (Turn 102186)
-  8. Walk West to (11, 16) and walk North along Column 11 to (11, 12). [In Progress]
-  9. Walk West from Column 11 to reach the main western area of 3F and proceed to the exit.
+  8. Walk West to (11, 16) and walk North along Column 11 to (11, 12). [x] Completed (Turn 102191)
+  9. Walk West on Row 12 to (1, 12), and climb the stairs at (1, 9) onto the western plateau. [In Progress]
+10. Navigate the western plateau to reach the northern bypass on Row 2, walk East to Column 22, and push Boulder C1 to Switch C1 at (3, 5).
 
 ## Empirical Bypass Test Session (Turn 101402):
 - **Objective**: Test the overwatch agent's hypothesis that Column 29 is a passable bypass corridor on Row 6 connecting Row 2 directly to Row 10 on 3F East.
