@@ -7462,8 +7462,8 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   - Boulder A2: Initial (14, 2) | Current (10, 2) | Target (10, 2) | Status: [ ] Active
 
 ### Victory Road 2F Map (Map 0_194):
-- **Active State**: Completed (Backtracked to 3F)
-  - **Current Position**: (17, 7) facing Down (Turn 101155)
+- **Active State**: In Progress
+  - **Current Position**: (23, 7) facing Down (Turn 101380)
 - **Strength Status**: Active: [ ] False
 
 ### Victory Road 2F Boulders & Switches:
