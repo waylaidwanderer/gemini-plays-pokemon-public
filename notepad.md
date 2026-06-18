@@ -7494,17 +7494,18 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   - Earthquake: 3/10 PP
   - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
 
-## Active Progress & Current Plan (Turn 102541):
-- **Current Task**: Walk Left along Row 1 corridor to the 3F West ladder at (1, 9) and descend to 2F West to traverse to the East exit.
+## Active Progress & Current Plan (Turn 102603):
+- **Current Task**: Walk Koga's elevated plateau (z=1) to the 3F West ladder at (1, 9) and descend to 2F West to traverse to the East exit.
 - **Session Start Turn**: 102517 | State: Active
 - **Step-by-Step Plan**:
   1. Climb up the (23, 7) ladder on 2F East to 3F East (23, 7). [x] Completed (Turn 102525)
-  2. Walk along the unblocked Row 1 corridor on 3F East to 3F West (1, 1). [In Progress]
-  3. Walk Down Column 1 from (1, 1) to the ladder at (1, 9). [ ]
-  4. Descend the (1, 9) ladder to 2F West (0, 8). [ ]
-  5. Walk across Koga's open plateau on 2F East to (26, 14) and climb the ladder to 3F East (27, 15). [ ]
-  6. Walk to the ladder at (26, 8) on 3F East and descend to 2F East (27, 7) [the exit pocket]. [ ]
-  7. Take the final exit ladder from (27, 7) to emerge onto Route 23/Indigo Plateau. [ ]
+  2. Walk along Row 2 ground-level bypass corridor past Column 24 to Column 6/7. [x] Completed (Turn 102548)
+  3. Walk Up Koga's Northern Plateau stairs at (17, 5) onto the plateau (z=1). [x] Completed (Turn 102584)
+  4. Walk West along Koga's plateau (z=1) on Row 8 to Koga's Western Plateau Column 1 at (1, 8). [In Progress]
+  5. Walk Down 1 step to Koga's western ladder at (1, 9) and descend to 2F West (0, 8). [ ]
+  6. Walk across Koga's open plateau on 2F East to (26, 14) and climb the ladder to 3F East (27, 15). [ ]
+  7. Walk to the ladder at (26, 8) on 3F East and descend to 2F East (27, 7) [the exit pocket]. [ ]
+  8. Take the final exit ladder from (27, 7) to emerge onto Route 23/Indigo Plateau. [ ]
 
 ## Empirical Bypass Test Session (Turn 101402):
 - **Objective**: Test the overwatch agent's hypothesis that Column 29 is a passable bypass corridor on Row 6 connecting Row 2 directly to Row 10 on 3F East.
