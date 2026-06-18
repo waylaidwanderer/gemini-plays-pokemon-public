@@ -7554,4 +7554,13 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   - Taking this ladder resets all boulders on 2F and 3F because of the map transition.
   - The pocket on 1F West contains a single trainer, Cooltrainer♀, located at (3, 2). There is no other ladder or exit in that pocket, making it a dead end.
 
+## Plateau Layout & Advisor NPC (Verified Turn 101963)
+- **Advisory NPC**:
+  - Located at (12, 9) on the plateau.
+  - Non-hostile citizen NPC. Says: "If you get stuck, try moving some boulders around!"
+- **Plateau Corridor**:
+  - The plateau corridor goes South down Columns 13 and 14 (Rows 9-13 are TYPE_2770, passable).
+  - Column 12 (Rows 10-13) and Column 15 (Rows 8-11) are solid rock walls (TYPE_2889).
+  - At Row 12 and 13, the plateau corridor turns East across Columns 15 to 18 (TYPE_2770, passable).
+
 <hr>
