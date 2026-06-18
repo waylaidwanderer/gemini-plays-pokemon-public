@@ -36,7 +36,7 @@
 
 ### Victory Road 3F Map (Map 0_198):
 - **Active State**: In Progress
-  - **Current Position**: (23, 7) facing Down (Turn 101735)
+  - **Current Position**: (20, 7) facing Up (Turn 101757)
 - **Boulders Database**:
   - Boulder C1: Initial (22, 3) | Current (22, 3) | Target (3, 5) (Switch C1) | Status: [ ] Reset (Turn 101726 warp transition)
   - Boulder C2: Initial (24, 10) | Current (24, 10) | Target (23, 15) (Pit Hole)
