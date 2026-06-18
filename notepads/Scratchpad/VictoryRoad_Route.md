@@ -62,21 +62,17 @@
   - Earthquake: 3/10 PP
   - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
 
-## Active Progress & Current Plan (Turn 102003):
-- **Current Task**: Activate Strength and push the boulder West along Row 16.
+## Active Progress & Current Plan (Turn 102151):
+- **Current Task**: Solve the 3F East double-push boulder puzzle to bypass the Column 24 vertical wall.
 - **Session Start Turn**: 101520 | State: Active
 - **Step-by-Step Plan**:
-  1. Defeat the trainer at (4, 2) on 2F West. [x] Completed (Turn 101816)
-  2. Walk to (5, 4) (1 step Right, 1 step Down), standing directly above Boulder B1 at (5, 5). [x] Completed (Turn 101844)
-  3. Manually activate STRENGTH from the POKéMON party menu using ROCKY (GEODUDE). [x] Completed (Turn 101850)
-  4. Push Boulder B1 at (5, 5) DOWN along Column 5 to (5, 6) to open the path south. [x] Completed (Turn 101860)
-  5. Climb stairs at (5, 10) to access the 2F West plateau. [x] Completed (Turn 101908)
-  6. Walk along the plateau Eastward to the eastern stairs at (21, 15). [x] Completed (Turn 101977)
-  7. Descend stairs at (21, 15) to 2F East ground area. [x] Completed (Turn 101978)
-  8. Walk around the boulder to stand at (24, 16). [x] Completed (Turn 101989)
-  9. Activate STRENGTH and push the boulder at (23, 16) West along Row 16 to Switch B2 at (9, 16). [x] Completed (Turn 102089)
-10. Walk East to (21, 16) and climb onto the plateau at (21, 15). [x] Completed (Turn 102108)
-11. Climb onto the plateau and walk East to (25, 14), pass through the lowered gate, and take the ladder at (27, 7) to 3F. [In Progress]
+  1. Solve 2F West & East boulder puzzles to access the eastern plateau. [x] Completed (Turn 102089)
+  2. Transition to 3F East at (27, 15). [x] Completed (Turn 102114)
+  3. Walk North along Column 27 to Row 8, and take the ladder at (26, 8). [x] Completed (Turn 102134)
+  4. Climb back up to 3F East at (26, 8) and position at (25, 10) facing Left. [x] Completed (Turn 102145)
+  5. Manually activate STRENGTH from the POKéMON menu using ROCKY (GEODUDE). [In Progress]
+  6. Push the boulder at (24, 10) Left twice to (22, 10), opening Column 23.
+  7. Walk North along Column 23 and take the ladder at (23, 7) to proceed.
 
 ## Empirical Bypass Test Session (Turn 101402):
 - **Objective**: Test the overwatch agent's hypothesis that Column 29 is a passable bypass corridor on Row 6 connecting Row 2 directly to Row 10 on 3F East.
