@@ -22,7 +22,7 @@
 
 ### Victory Road 3F Map (Map 0_198):
 - **Active State**: In Progress (Re-solving Boulder C1)
-  - **Current Position**: (2, 3) facing Down (Turn 103486)
+  - **Current Position**: (1, 5) facing Down (Turn 103488)
 - **Boulders Database**:
   - Boulder C1: Initial (22, 3) | Current (2, 5) | Target (3, 5) (Switch C1) | Status: [ ] In Progress (pushed Down along Column 2)
   - Boulder C2: Initial (24, 10) | Current (24, 10) | Target (22, 10) (bypasses Column 24 wall) | Status: [ ] Reset
