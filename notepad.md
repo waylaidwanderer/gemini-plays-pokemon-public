@@ -7511,7 +7511,6 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   2. Walk to (5, 4) (1 step Right, 1 step Down), standing directly above Boulder B1 at (5, 5). [x] Completed (Turn 101844)
   3. Manually activate STRENGTH from the POKéMON party menu using ROCKY (GEODUDE). [In Progress]
   4. Push Boulder B1 at (5, 5) DOWN along Column 5 to (5, 6) to open the path south.
-  5. Backtrack up the ladder at (1, 1) on 1F West to (0, 8) on 2F West. (The ladder at (0, 8) was verified on Turn 101865 to lead down to 1F West, resetting all boulders. We must re-solve 2F).
 
 ## Empirical Bypass Test Session (Turn 101402):
 - **Objective**: Test the overwatch agent's hypothesis that Column 29 is a passable bypass corridor on Row 6 connecting Row 2 directly to Row 10 on 3F East.
