@@ -53,17 +53,14 @@
   - Earthquake: 3/10 PP
   - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
 
-## Active Progress & Current Plan (Turn 102339):
-- **Current Task**: Move from (1, 4) to (2, 3) to stand above Boulder C1 and push it Down to (2, 5).
+## Active Progress & Current Plan (Turn 102430):
+- **Current Task**: Walk to the ladder at (26, 8) on 3F East and descend it to land inside the isolated exit pocket on 2F East at (27, 7).
 - **Session Start Turn**: 101520 | State: Active
 - **Step-by-Step Plan**:
-  1-8. Solved 2F/3F East boulder puzzles, bypassed Column 24 vertical wall via Row 16 detour, and climbed 3F West plateau stairs. [x] Completed (Turn 102198)
-  9. Walked along the Row 2 northern bypass to Column 17, and descended the stairs at (17, 5) to the ground floor at (17, 6). [x] Completed (Turn 102258)
-  10. Stand south of Boulder C1 at (22, 4), activate STRENGTH, and push Boulder C1 Up to (22, 1). [x] Completed (Turn 102278)
-  11. Pushed Boulder C1 Left along Row 1, bypassed Column 5 rock wall by pushing it Down to Row 2 at (6, 2), and pushed it Left to (2, 2). [x] Completed (Turn 102327)
-  12. Pushed Boulder C1 Down Column 2 to (2, 4). [x] Completed (Turn 102336)
-  13. Walk from (1, 4) to stand directly above the boulder at (2, 3), and push it Down to (2, 5). [x] Completed (Turn 102342)
-  14. Walk to (1, 5) and push the boulder Right from (2, 5) onto Switch C1 at (3, 5). [x] Completed (Turn 102347)
+  1-14. Solved all 1F, 2F, and 3F boulder puzzles, pressed Switch C1 at (3, 5), and bypassed the Column 24 wall horizontally on 3F West. [x] Completed (Turn 102347)
+  15. Returned to 3F East via the 2F East (23, 7) ladder to bypass the 2F Column 24 wall. [x] Completed (Turn 102429)
+  16. Walk to (26, 8) on 3F East and descend to 2F East (27, 7). [In Progress]
+  17. Take the final exit ladder from 2F East (27, 7) to emerge onto Route 23/Indigo Plateau. [ ]
 
 ## Empirical Bypass Test Session (Turn 101402):
 - **Objective**: Test the overwatch agent's hypothesis that Column 29 is a passable bypass corridor on Row 6 connecting Row 2 directly to Row 10 on 3F East.
