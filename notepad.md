@@ -7496,17 +7496,15 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   - Earthquake: 3/10 PP
   - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
 
-## Active Progress & Current Plan (Turn 102642):
-- **Current Task**: Climb back onto the plateau (z=1) via the Western Plateau Stairs at (1, 9) and navigate back to the East/Northeast side of 3F East.
-- **Session Start Turn**: 102517 | State: Active
+## Active Progress & Current Plan (Turn 102901):
+- **Current Task**: Re-solved Boulder C1 puzzle (Switch C1 pressed at (3, 5) on Turn 102891). Now returning to the east side of 3F via the northern Row 2 path to descend the ladder at (23, 7).
+- **Session Start Turn**: 102872 | State: Active
 - **Step-by-Step Plan**:
-  1. Climb up the Western Plateau Stairs at (1, 9) onto the plateau at (1, 8). [In Progress]
-  2. Walk East along the plateau corridor on Row 8 to Column 17. [ ]
-  3. Walk Up to (17, 5) and descend the plateau stairs to the ground floor of 3F East at (17, 6). [ ]
-  4. Walk to the ladder at (23, 7) or (27, 15) to descend to 2F East. [ ]
-  5. On 2F East, walk across the open plateau (since Switch B2's barrier is lowered) to (26, 14) and climb the ladder to 3F East (27, 15). [ ]
-  6. Walk to the exit ladder at (26, 8) on 3F East and descend to 2F East (27, 7) [the exit pocket]. [ ]
-  7. Take the final exit ladder from (27, 7) to emerge onto Route 23/Indigo Plateau. [ ]
+  1. Walk Up from (2, 4) to (2, 2) via (2, 3). [In Progress]
+  2. Walk Right along Row 2 to (17, 2). [ ]
+  3. Walk to the ladder at (23, 7) or (27, 15) to descend to 2F East. [ ]
+  4. On 2F East, walk across the open plateau (since Switch B2's barrier is lowered) to (26, 14) and climb the ladder to 3F East (27, 15). [ ]
+  5. Once on 2F East (27, 7) from the 3F East (26, 8) ladder, walk South to the exit cave doorway to emerge onto Route 23/Indigo Plateau. [ ]
 
 ## Empirical Bypass Test Session (Turn 101402):
 - **Objective**: Test the overwatch agent's hypothesis that Column 29 is a passable bypass corridor on Row 6 connecting Row 2 directly to Row 10 on 3F East.
