@@ -7568,6 +7568,7 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 ## Geographic Wall Obstacles (Verified Turn 102747 & 102227)
 - **Column 8 Solid Rock Wall (Rows 2-9)**: Column 8 features an impassable vertical cliff/rock wall that completely blocks horizontal passage between the left and right halves of 3F East ground floor across Rows 2-9.
 - **Column 11 Solid Vertical Wall (Rows 6-11)**: Column 11 consists of a continuous, impassable vertical rock wall of TYPE_2889 across Rows 6-11, completely blocking any horizontal transition on the central plateau.
+- Turn 103173: Discovered (23, 9) is indeed a solid rock wall of TYPE_2889. Column 23 is blocked vertically at Row 9. We must bypass this wall by going North, crossing over to the East side via Row 2, then going South and pushing Boulder C2 at (24, 10) to the Left to clear Column 23's Row 10 passage.
 
 <hr>
 
