@@ -7496,18 +7496,15 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   - Earthquake: 3/10 PP
   - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
 
-## Active Progress & Current Plan (Turn 103416):
-- **Current Task**: Re-solving the 3F West Boulder C1 Puzzle to lower the 3F East barrier.
+## Active Progress & Current Plan (Turn 103578):
+- **Current Task**: Reaching the eastern side of 3F East using the 2F-3F crossover route.
 - **Session Start Turn**: 103416 | State: Active
 - **Step-by-Step Plan**:
-  1. Activate STRENGTH and push Boulder C1 at (22, 3) onto Switch C1 at (3, 5). [ ]
-  2. Walk back east to 3F East, bypass the gate via the Row 2/3 northern corridor, and walk to (25, 10). [ ]
-  3. Stand at (25, 10) and push Boulder C2 Left to (22, 10) to clear Column 23 on Row 10. [ ]
-  4. Walk Down Column 23 and step into the open pit hole at (23, 15) to fall down to 2F East. [ ]
-  5. On 2F East (ground floor), walk to (23, 16) and push the dropped boulder all the way West along Row 16 to Switch B2 at (9, 16) to permanently lower all barriers. [ ]
-  6. Walk East to the plateau stairs at (21, 15), climb up, and take the ladder at (26, 14) back up to 3F East (27, 15). [ ]
-  7. On 3F East, walk to (26, 8) and descend the ladder to 2F East (27, 7). [ ]
-  8. From 2F East (27, 7), walk South to the exit cave doorway to emerge onto Route 23/Indigo Plateau. [ ]
+  1. Activate STRENGTH and push Boulder C1 at (22, 3) onto Switch C1 at (3, 5). [x] (Completed on Turn 103493)
+  2. Navigate 3F East to the (23, 7) ladder and descend to 2F East. [x] (Completed on Turn 103572)
+  3. Walk West on 2F East to check if the plateau gated barriers are open or closed. [ ]
+  4. If open, access the ladder at (26, 14) on the plateau level to climb to 3F East (27, 15) and reach the eastern half. [ ]
+  5. If closed, we must find another way, but let's verify the gate status first! [ ]
 
 ## Empirical Bypass Test Session (Turn 101402):
 - **Objective**: Test the overwatch agent's hypothesis that Column 29 is a passable bypass corridor on Row 6 connecting Row 2 directly to Row 10 on 3F East.
