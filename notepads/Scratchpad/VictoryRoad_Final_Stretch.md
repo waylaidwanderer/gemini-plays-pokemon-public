@@ -38,3 +38,14 @@
 - Turn 104312: Stood at (5, 10). Plotted path across plateau to (21, 15).
 - Path: Up 2 to (5, 8) -> Right 8 to (13, 8) -> Down 4 to (13, 12) -> Right 8 to (21, 12) -> Down 3 to (21, 15) -> descend.
 - Turn 104332: Arrived on 3F East at (27, 15). Plotted path to the (23, 7) ladder: Up 13 to (27, 2) -> Left 4 to (23, 2) -> Down 5 to (23, 7) -> descend.
+## Turn 104394 Discovery:
+- Verified that Victory Road 3F East (Map 0_198) has only 4 warps, all leading to Victory Road 2F (Map 0_194).
+- Verified that the exit of Victory Road to Route 23/Indigo Plateau is located at (29, 1) on Victory Road 2F East (Map 0_194, Warp 5).
+- Verified that taking the ladder at (26, 8) on 3F East transitions the player down to 2F East at (27, 7).
+- Since we have successfully solved the 2F West boulder puzzle, the gate on 2F East at (24, 8) is permanently open. This allows us to descend the ladder at (26, 8) on 3F East to (27, 7) on 2F East, and then walk directly to the (29, 1) exit warp on 2F East without any barriers!
+- Our path from current position (24, 10) to the ladder at (26, 8) on 3F East is:
+  1. Right to (25, 10)
+  2. Up to (25, 9)
+  3. Right to (26, 9)
+  4. Up to (26, 8) (this activates the ladder)
+- Let's execute this sequence now.
