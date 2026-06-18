@@ -55,13 +55,13 @@
   - Earthquake: 3/10 PP
   - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
 
-## Active Progress & Current Plan (Turn 103111):
-- **Current Task**: Traversing 3F East toward the open pit hole at (23, 15) after re-solving the 3F West boulder puzzle.
+## Active Progress & Current Plan (Turn 103172):
+- **Current Task**: Traversing 3F East to execute the C2 Boulder Puzzle and fall through the pit hole at (23, 15).
 - **Session Start Turn**: 102872 | State: Active
 - **Step-by-Step Plan**:
-  1. On 3F West, push Boulder C1 onto Switch C1 at (3, 5) to open the eastern gate. [In Progress (Reset)]
-  2. Walk East via Row 2 to 3F East (ground level), walk to Column 23, and descend Column 23 to Row 15. [ ]
-  3. Step into the open pit hole at (23, 15) to fall down to the ground floor of 2F East. [ ]
+  1. Walk East via Row 2 to 3F East (ground level) and walk Down to standing at (25, 10). [ ]
+  2. Stand at (25, 10) and push Boulder C2 Left to (22, 10) to clear Column 23 on Row 10. [ ]
+  3. Walk Down Column 23 and step into the open pit hole at (23, 15) to fall down to 2F East. [ ]
   4. On 2F East (ground floor), walk to (23, 16) and push the dropped boulder all the way West along Row 16 to Switch B2 at (9, 16) to permanently lower all barriers. [ ]
   5. Walk East to the plateau stairs at (21, 15), climb up, and take the ladder at (26, 14) back up to 3F East (27, 15). [ ]
   6. On 3F East, walk to (26, 8) and descend the ladder to 2F East (27, 7). [ ]
