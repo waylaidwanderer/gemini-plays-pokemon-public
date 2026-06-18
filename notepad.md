@@ -7470,7 +7470,7 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 - **Boulders Database**:
   - Boulder B1: Initial (5, 5) | Current (5, 5) | Status: Unmoved
   - Boulder B2: Initial (4, 14) | Current (4, 14) | Status: Unmoved
-  - Dropped Boulder: Initial (23, 16) | Current (23, 16) | Status: [ ] Reset back to landing coordinates (Default position)
+  - Dropped Boulder: Initial (23, 16) | Current (20, 16) | Status: [ ] Reset back to landing coordinates (Default position)
 - **Floor Switches**:
   - Switch B1: Coordinate (1, 16) | State: Unpressed [ ]
   - Switch B2: Coordinate (9, 16) | State: [ ] Unpressed (boulder reset)
