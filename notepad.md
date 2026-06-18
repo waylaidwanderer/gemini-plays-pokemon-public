@@ -7593,4 +7593,12 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 ## 2F East to 3F East Transition (Turn 102427)
 - **Verified Connection**: Taking the ladder at (23, 7) on Victory Road 2F East (Map 0_194) transitions the player UP to Victory Road 3F East (Map 0_198) at (23, 7) [Verified on Turn 102387 and 102427].
 
+## 2F East Isolated Northern Ground Pocket (Verified Turn 102524)
+- **Geography**: The northern ground floor of 2F East (Columns 19-27, Rows 7-11) is a completely closed, isolated pocket on ground level (z=0).
+- **Verification**:
+  - Column 23 Row 12 is blocked by the elevated plateau cliff of Koga's plateau.
+  - Column 15 is occupied by continuous solid rock walls of TYPE_2889 across Rows 8-11, completely blocking western ground-level access.
+  - The entire width from Column 19 to Column 27 on Rows 12-14 is elevated plateau (z=1), blocking southern ground-level traversal.
+  - The only way to enter or exit this pocket is via the ladder at (23, 7), which connects Bidirectionally to 3F East (23, 7). Taking this ladder DOWN to 2F East leads to a dead end with no other paths.
+
 <hr>
