@@ -7514,12 +7514,6 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   12. On 2F East, walk from (23, 7) to (27, 7) (Right 4) through the lowered barrier and take the ladder UP to 3F. [ ]
   13. Walk to the exit of Victory Road to emerge onto Route 23 / Indigo Plateau! [ ]
 
-## Empirical Bypass Test Session (Turn 101402):
-- **Objective**: Test the overwatch agent's hypothesis that Column 29 is a passable bypass corridor on Row 6 connecting Row 2 directly to Row 10 on 3F East.
-- **Methodology**: Stood at (28, 2) on 3F East (Map 0_198) and pressed Right on Turn 101401 to attempt to step onto (29, 2) (TYPE_2889).
-- **Result**: Direct collision bump (0 tiles visited), remaining at (28, 2) on Turn 101402.
-- **Conclusion**: The hypothesis is definitively DISPROVEN. Column 29 is a solid border wall of TYPE_2889. There is no off-screen bypass on Column 29. We must solve the puzzles using the canonical 2F/3F pathways.
-
 <hr>
 
 <h1><code>Locations/VictoryRoad_3F</code></h1>
