@@ -71,3 +71,5 @@
 - **Result**: Direct collision bump (0 tiles visited), remaining at (28, 2) on Turn 101402.
 - **Conclusion**: The hypothesis is definitively DISPROVEN. Column 29 is a solid border wall of TYPE_2889. There is no off-screen bypass on Column 29. We must solve the puzzles using the canonical 2F/3F pathways.
 - Turn 102482: Verified that pushing Boulder C4 to (13, 13) confirms Column 13 is a dead end below Row 13 due to solid walls at (13, 14) and (13, 15). Backtracking north via Column 13 to Row 1, and heading East to the exit ladder at (26, 8).
+- Turn 102695: Standing at (17, 5) on the plateau stairs of Victory Road 3F. We are facing Down. Let's take a step Down to (17, 6) to descend to the ground level of 3F East.
+- Verified plan: Descend to (17, 6) and begin our journey to (27, 15) to transition down to 2F East, then walk across the lowered barrier to exit to Route 23/Indigo Plateau.
