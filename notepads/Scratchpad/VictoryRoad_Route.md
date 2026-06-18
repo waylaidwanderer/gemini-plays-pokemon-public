@@ -74,7 +74,9 @@
   6. Walk along the plateau Eastward to the eastern stairs at (21, 15). [x] Completed (Turn 101977)
   7. Descend stairs at (21, 15) to 2F East ground area. [x] Completed (Turn 101978)
   8. Walk around the boulder to stand at (24, 16). [x] Completed (Turn 101989)
-  9. Activate STRENGTH and push the boulder at (23, 16) West along Row 16 to Switch B2 at (9, 16). [In Progress]
+  9. Activate STRENGTH and push the boulder at (23, 16) West along Row 16 to Switch B2 at (9, 16). [x] Completed (Turn 102089)
+10. Walk East to (21, 16) and climb onto the plateau at (21, 15). [x] Completed (Turn 102108)
+11. Climb onto the plateau and walk East to (25, 14), pass through the lowered gate, and take the ladder at (27, 7) to 3F. [In Progress]
 
 ## Empirical Bypass Test Session (Turn 101402):
 - **Objective**: Test the overwatch agent's hypothesis that Column 29 is a passable bypass corridor on Row 6 connecting Row 2 directly to Row 10 on 3F East.
