@@ -54,7 +54,7 @@
   - Earthquake: 3/10 PP
   - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
 
-## Active Progress & Current Plan (Turn 103703):
+## Active Progress & Current Plan (Turn 103744):
 - **Current Task**: Navigating to 3F East to Access the 2F Northeast Ground Pocket.
 - **Session Start Turn**: 103416 | State: Active
 - **Step-by-Step Plan**:
@@ -67,7 +67,7 @@
   7. Standing at (22, 16) on 2F East, walk around the boulder via Row 17 to (24, 16). [x] (Completed on Turn 103659)
   8. Activate STRENGTH and push the boulder West all the way onto Switch B2 at (9, 16). [x] (Completed on Turn 103671)
   9. Walk East along Row 16 back to Column 21 and climb onto the plateau at (21, 14). [x] (Completed on Turn 103700)
-  10. Walk Right 1 step to take the (25, 14) ladder UP to 3F East at (27, 15). [ ]
-  11. On 3F East, walk from (27, 15) to (23, 7) (Up 8, Left 4) and take the ladder DOWN to 2F East. [ ]
+  10. Walk Right 1 step to take the (25, 14) ladder UP to 3F East at (27, 15). [x] (Completed on Turn 103703)
+  11. On 3F East, walk from (27, 15) to (23, 7) via Row 13 / Column 20 (bypassing the Row 9 wall and Column 24 boulder) and take the ladder DOWN to 2F East. [ ]
   12. On 2F East, walk from (23, 7) to (27, 7) (Right 4) through the lowered barrier and take the ladder UP to 3F. [ ]
   13. Walk to the exit of Victory Road to emerge onto Route 23 / Indigo Plateau! [ ]
