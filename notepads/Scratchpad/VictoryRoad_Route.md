@@ -81,3 +81,7 @@
 - **Turn 103879-103880**: Pushed Boulder B1 Down along Column 5 from (5, 5) to (5, 7). Standing at (5, 5) facing Down.
 - **Turn 103882-103887**: Escaped a wild Machop at (5, 5) and navigated around the boulder to (6, 7) facing Left.
 - **Goal**: Push Boulder B1 Left from (5, 7) to (3, 7), then push it Down Columns 2/3 past Row 8 to reach the Switch at (1, 16).
+### Turn 104093 Traversal of 3F:
+- Climbed back UP to 3F East at (23, 7) on Turn 104075.
+- Walked UP 6 steps to (23, 1) on Turn 104093.
+- Initiating 10 Left moves towards (13, 1) to cross to 3F West.
