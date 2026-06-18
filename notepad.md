@@ -7576,6 +7576,9 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   6. Push the boulder Down Column 2 to (2, 5).
   7. Walk to (1, 5) and push the boulder Right onto Switch C1 at (3, 5) (Solved on Turn 102347).
   8. This successfully lowers the central/eastern barrier on 3F East, opening access to the ladder at (23, 7).
+## Geographic Wall Obstacles (Verified Turn 102747 & 102227)
+- **Column 8 Solid Rock Wall (Rows 2-9)**: Column 8 features an impassable vertical cliff/rock wall that completely blocks horizontal passage between the left and right halves of 3F East ground floor across Rows 2-9.
+- **Column 11 Solid Vertical Wall (Rows 6-11)**: Column 11 consists of a continuous, impassable vertical rock wall of TYPE_2889 across Rows 6-11, completely blocking any horizontal transition on the central plateau.
 
 <hr>
 
