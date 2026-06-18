@@ -36,6 +36,7 @@
 - **Strength Status**: Active: [x] True
 - **Boulders Database**:
   - Switch B2: Coordinate (9, 16) | State: Pressed [x] (Solved on Turn 103671)
+  - Switch B1: Coordinate (1, 16) | State: Released [ ] (Reset! Must push Boulder B1 on 2F West to open (24, 8) gate!)
 
 ### Empirical Push Test Failure & Pivot Log (Turn 99693):
 - **Verification of Failure**: On Turn 99678, with Boulder C1 resting on Switch C1 at (3, 5), the player attempted to push Boulder C3 at (7, 7) southwards from (7, 6). The push failed due to a solid collision bump, and tiles (7, 8) and (7, 9) remain TYPE_2889 rock walls.
