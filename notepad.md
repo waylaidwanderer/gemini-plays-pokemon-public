@@ -7503,14 +7503,14 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   - Earthquake: 4/10 PP
   - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
 
-## Active Progress & Current Plan (Turn 101691):
-- **Current Task**: Navigate to the eastern ground level of Victory Road 3F to solve the second boulder puzzle.
+## Active Progress & Current Plan (Turn 101721):
+- **Current Task**: Bypass the rock wall on 2F East and return to 3F East via the eastern ladder.
 - **Session Start Turn**: 101520 | Timestamp: Wednesday June 17, 2026 8:23 PM PDT (Recovery Session 2)
 - **Step-by-Step Plan**:
-  1. Walk Left from (23, 1) on the plateau to (17, 1) (6 steps Left).
-  2. Walk Down from (17, 1) to (17, 4) (3 steps Down).
-  3. Walk Down from (17, 4) to (17, 5) (1 step Down onto the stairs) to warp to the ground level at (17, 6).
-  4. Walk to (25, 10), standing to the right of the second boulder at (24, 10).
+  1. Walk Down from (23, 7) to (23, 8) on 2F East.
+  2. Walk Right from (23, 8) to (27, 8) to bypass the rock wall at (24, 7).
+  3. Walk Up from (27, 8) to the ladder at (27, 7) to warp back to 3F East at (26, 8).
+  4. Walk to (25, 10) on 3F East (right of the second boulder at 24, 10).
   5. Push the second boulder Left to (22, 10).
   6. Stand at (22, 9) and push the second boulder Down along Column 22 to (22, 15) (where it falls off the plateau's southern edge).
   7. Walk to (21, 14) on the plateau, and walk Down to jump South over the cliff edge onto (21, 15) on the ground level.
