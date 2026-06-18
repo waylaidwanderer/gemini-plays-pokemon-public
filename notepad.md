@@ -7514,6 +7514,8 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 - Turn 102482: Verified that pushing Boulder C4 to (13, 13) confirms Column 13 is a dead end below Row 13 due to solid walls at (13, 14) and (13, 15). Backtracking north via Column 13 to Row 1, and heading East to the exit ladder at (26, 8).
 - Turn 102695: Standing at (17, 5) on the plateau stairs of Victory Road 3F. We are facing Down. Let's take a step Down to (17, 6) to descend to the ground level of 3F East.
 - Verified plan: Descend to (17, 6) and begin our journey to (27, 15) to transition down to 2F East, then walk across the lowered barrier to exit to Route 23/Indigo Plateau.
+- Turn 102785: Tested Row 8 passage from (23, 8) to (24, 8) by pressing 'Right'. Hit a solid collision bump and remained at (23, 8). This confirms that the eastern gate on 3F East is closed. The gate is closed because transitioning floors to 2F East on Turn 102767 reset all overworld puzzles, including Switch C1 on 3F West and Switch B2 on 2F East.
+- Turn 102790: Updated plan to return to 3F West to solve the 3F West boulder puzzle (Switch C1) again. Then we will proceed with the route.
 
 <hr>
 
