@@ -1,34 +1,4 @@
 {
-  "activate_strength": {
-    "description": "Automates the overworld activation of the STRENGTH move from the party menu by navigating to the second party member (ROCKY/GEODUDE), selecting STRENGTH, and completely closing all menus back to the overworld. Uses robust cursor positioning to handle any persistent menu state.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "autopress_buttons": {
-          "type": "boolean",
-          "description": "If true, the generated sequence of buttons will be pressed automatically."
-        }
-      }
-    },
-    "python_script": "import json\n\n# Generate the robust button sequence using Up-mashing to guarantee cursor alignment\nbutton_sequence = [\n    \"Start\", \"sleep 1000\",\n    \"Up\", \"sleep 200\", \"Up\", \"sleep 200\", \"Up\", \"sleep 200\", \"Up\", \"sleep 200\", \"Up\", \"sleep 200\", \"Up\", \"sleep 200\", \"Up\", \"sleep 200\",\n    \"Down\", \"sleep 500\",\n    \"A\", \"sleep 1000\",\n    \"Up\", \"sleep 200\", \"Up\", \"sleep 200\", \"Up\", \"sleep 200\", \"Up\", \"sleep 200\", \"Up\", \"sleep 200\", \"Up\", \"sleep 200\",\n    \"Down\", \"sleep 500\",\n    \"A\", \"sleep 1000\",\n    \"A\", \"sleep 1000\",\n    \"A\", \"sleep 1500\",\n    \"A\", \"sleep 1500\",\n    \"B\", \"sleep 500\", \"B\", \"sleep 500\", \"B\"\n]\n\nprint(json.dumps(button_sequence))\n",
-    "history": [
-      {
-        "commit_message": "Define activate_strength tool to automate the STRENGTH overworld activation from the party menu.",
-        "timestamp": "2026-06-17T10:53:54.544Z",
-        "action_counter": 98634
-      },
-      {
-        "commit_message": "Added B button presses at the end of the Strength activation sequence to completely close all menus and return cleanly to the overworld.",
-        "timestamp": "2026-06-17T20:29:28.387Z",
-        "action_counter": 100291
-      },
-      {
-        "commit_message": "Redefined activate_strength using up-mashing to bypass Gen 1 persistent menu cursor memory and fully close all menus back to the overworld.",
-        "timestamp": "2026-06-17T20:33:36.135Z",
-        "action_counter": 100310
-      }
-    ]
-  },
   "flee_battle": {
     "description": "Generates the button press sequence to select the RUN option from the default battle fight menu (Down, Right, A).",
     "input_schema": {
