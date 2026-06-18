@@ -7679,5 +7679,10 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
    - Walk through the open gate at (24, 8) to (27, 7).
    - Take the ladder UP at (27, 7) to 3F East (27, 15).
    - Walk to the exit!
+## Live Execution Logs (2F West Boulder B1 Push):
+- Turn 104258: Arrived at (3, 8) facing Down. STRENGTH was inactive due to map transition.
+- Turn 104262: Activated STRENGTH from the Pokémon party menu using ROCKY (Geodude).
+- Turn 104267: Pressed Down, Down. Pushed Boulder B1 from (3, 9) to (3, 10). Player stepped to (3, 9).
+- Turn 104274: Pressed Down, Down, Down, Down. Pushed Boulder B1 from (3, 10) to (3, 12). Player stepped to (3, 11).
 
 <hr>
