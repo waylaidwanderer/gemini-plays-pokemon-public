@@ -72,3 +72,8 @@
 - **Methodology**: Stood at (28, 2) on 3F East (Map 0_198) and pressed Right on Turn 101401 to attempt to step onto (29, 2) (TYPE_2889).
 - **Result**: Direct collision bump (0 tiles visited), remaining at (28, 2) on Turn 101402.
 - **Conclusion**: The hypothesis is definitively DISPROVEN. Column 29 is a solid border wall of TYPE_2889. There is no off-screen bypass on Column 29. We must solve the puzzles using the canonical 2F/3F pathways.
+
+## Empirical Gate Test Log:
+- **Turn 103381**: Tested the passability of the Row 8 gate at (24, 8) by standing at (22, 8) and pressing Right, Right.
+- **Result**: Player moved to (23, 8) on the first press, and bumped against (24, 8) on the second press (Game State on Turn 103386 shows player at (23, 8) facing Right).
+- **Conclusion**: The Row 8 gate at (24, 8) is definitively CLOSED and impassable. Bypassing it via the Row 2/3 northern corridor and Column 28 is strictly mandatory to reach the C2 boulder on the East side.
