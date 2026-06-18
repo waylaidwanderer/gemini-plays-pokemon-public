@@ -62,14 +62,14 @@
   - Earthquake: 4/10 PP
   - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
 
-## Active Progress & Current Plan (Turn 101721):
-- **Current Task**: Bypass the rock wall on 2F East and return to 3F East via the eastern ladder.
+## Active Progress & Current Plan (Turn 101761):
+- **Current Task**: Reach the right side of the second boulder on 3F East via the northern plateau route.
 - **Session Start Turn**: 101520 | Timestamp: Wednesday June 17, 2026 8:23 PM PDT (Recovery Session 2)
 - **Step-by-Step Plan**:
-  1. Walk Down from (23, 7) to (23, 8) on 2F East.
-  2. Walk Right from (23, 8) to (27, 8) to bypass the rock wall at (24, 7).
-  3. Walk Up from (27, 8) to the ladder at (27, 7) to warp back to 3F East at (26, 8).
-  4. Walk to (25, 10) on 3F East (right of the second boulder at 24, 10).
+  1. Walk Up Column 20 from (20, 7) to (20, 2) (5 steps Up).
+  2. Walk Right along Row 2 to Column 28: (20, 2) -> (28, 2) (8 steps Right).
+  3. Walk Down Column 28 to Row 10: (28, 2) -> (28, 10) (8 steps Down).
+  4. Walk Left along Row 10 to Column 25: (28, 10) -> (25, 10) (3 steps Left), standing right of the second boulder at (24, 10).
   5. Push the second boulder Left to (22, 10).
   6. Stand at (22, 9) and push the second boulder Down along Column 22 to (22, 15) (where it falls off the plateau's southern edge).
   7. Walk to (21, 14) on the plateau, and walk Down to jump South over the cliff edge onto (21, 15) on the ground level.
