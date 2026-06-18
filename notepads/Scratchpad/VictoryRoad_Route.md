@@ -62,8 +62,8 @@
   - Earthquake: 4/10 PP
   - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
 
-## Active Progress & Current Plan (Turn 101971):
-- **Current Task**: Navigate the 2F West plateau to 2F East and descend.
+## Active Progress & Current Plan (Turn 102003):
+- **Current Task**: Activate Strength and push the boulder West along Row 16.
 - **Session Start Turn**: 101520 | State: Active
 - **Step-by-Step Plan**:
   1. Defeat the trainer at (4, 2) on 2F West. [x] Completed (Turn 101816)
@@ -71,7 +71,10 @@
   3. Manually activate STRENGTH from the POKéMON party menu using ROCKY (GEODUDE). [x] Completed (Turn 101850)
   4. Push Boulder B1 at (5, 5) DOWN along Column 5 to (5, 6) to open the path south. [x] Completed (Turn 101860)
   5. Climb stairs at (5, 10) to access the 2F West plateau. [x] Completed (Turn 101908)
-  6. Walk along the plateau Eastward to the eastern stairs at (21, 15). [In Progress]
+  6. Walk along the plateau Eastward to the eastern stairs at (21, 15). [x] Completed (Turn 101977)
+  7. Descend stairs at (21, 15) to 2F East ground area. [x] Completed (Turn 101978)
+  8. Walk around the boulder to stand at (24, 16). [x] Completed (Turn 101989)
+  9. Activate STRENGTH and push the boulder at (23, 16) West along Row 16 to Switch B2 at (9, 16). [In Progress]
 
 ## Empirical Bypass Test Session (Turn 101402):
 - **Objective**: Test the overwatch agent's hypothesis that Column 29 is a passable bypass corridor on Row 6 connecting Row 2 directly to Row 10 on 3F East.
