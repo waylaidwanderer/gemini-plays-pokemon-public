@@ -63,10 +63,10 @@
 ## Active Progress & Current Plan (Turn 101208):
 - **Current Task**: Walk back to (23, 7) on the plateau, push the boulder at (24, 10) to (22, 10), push it Down to (22, 15), jump Down at Column 21 Row 14 onto the ground level at (21, 15), and push the boulder Right into the pit at (23, 15).
 - **Step-by-Step Plan**:
-  1. Walk back to the western stairs: Walk Left along Row 15 to (1, 15), then Up to (1, 10).
-  2. Climb the stairs at (1, 9) UP to (1, 7) on the plateau.
-  3. Walk East along Row 7 to (23, 7) on the eastern plateau.
-  4. Walk to (25, 10), stand to the right of the boulder at (24, 10), and push it Left to (22, 10).
+  1. Walk back to the western stairs: Walk Left along Row 15 to (1, 15), then Up to (1, 10). [x] Completed (Turn 101210)
+  2. Climb the stairs at (1, 9) UP to (1, 7) on the plateau. [x] Completed (Turn 101212)
+  3. Walk East along Row 7/10/4 to (17, 4) on the plateau. [x] In Progress (Currently at 15, 4)
+  4. Descend the stairs at (17, 5) onto the ground level at (17, 6).
   5. Stand at (22, 9) and push the boulder Down along Column 22 to (22, 15) (which falls off the plateau's southern edge).
   6. Walk to (21, 14) on the plateau, and walk Down to jump South over the cliff edge onto (21, 15) on the ground level.
   7. Stand at (21, 15) and push the boulder Right into the pit hole at (23, 15).
