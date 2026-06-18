@@ -36,14 +36,14 @@
 
 ### Victory Road 3F Map (Map 0_198):
 - **Active State**: In Progress
-  - **Current Position**: (17, 1) facing Down (Turn 101701)
+  - **Current Position**: (23, 7) facing Down (Turn 101735)
 - **Boulders Database**:
-  - Boulder C1: Initial (22, 3) | Current (3, 5) | Target (3, 5) (Switch C1) | Status: [x] Completed (Turn 101650)
+  - Boulder C1: Initial (22, 3) | Current (22, 3) | Target (3, 5) (Switch C1) | Status: [ ] Reset (Turn 101726 warp transition)
   - Boulder C2: Initial (24, 10) | Current (24, 10) | Target (23, 15) (Pit Hole)
   - Boulder C4: Initial (13, 12) | Current (13, 12) | Target (N/A, static/bypass)
 - **Floor Switches & Holes**:
   - Pit Hole: Coordinate (23, 15) | State: Open [x] (verified on Turn 100130, boulder dropped through)
-  - Switch C1: Coordinate (3, 5) | State: Pressed [x]
+  - Switch C1: Coordinate (3, 5) | State: Unpressed [ ]
 
 ### Empirical Push Test Failure & Pivot Log (Turn 99693):
 - **Verification of Failure**: On Turn 99678, with Boulder C1 resting on Switch C1 at (3, 5), the player attempted to push Boulder C3 at (7, 7) southwards from (7, 6). The push failed due to a solid collision bump, and tiles (7, 8) and (7, 9) remain TYPE_2889 rock walls.
