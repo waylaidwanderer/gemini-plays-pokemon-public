@@ -21,8 +21,8 @@
   - Boulder A2: Initial (14, 2) | Current (10, 2) | Target (10, 2) | Status: [ ] Active
 
 ### Victory Road 3F Map (Map 0_198):
-- **Active State**: Completed
-  - **Current Position**: (23, 7) facing Down on 2F East (Turn 102396)
+- **Active State**: In Progress
+  - **Current Position**: (23, 7) facing Down (Turn 102429)
 - **Boulders Database**:
   - Boulder C1: Initial (22, 3) | Current (3, 5) | Target (3, 5) (Switch C1) | Status: [x] Active (Switch Pressed)
   - Boulder C2: Initial (24, 10) | Current (22, 10) | Target (22, 10) (bypasses Column 24 wall) | Status: [x] Pushed (Turn 102158)
