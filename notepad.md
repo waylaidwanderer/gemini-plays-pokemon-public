@@ -7530,5 +7530,6 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   - (13, 14): [ ] IMPASSABLE - Solid rock wall (TYPE_2889, Visually verified on Turn 101114)
   - (13, 15): [ ] IMPASSABLE - Solid rock wall (TYPE_2889, Visually verified on Turn 101114)
 - **Conclusion**: Column 13 is a 100% verified dead end below Row 13. Horizontal bypass on Row 12 is blocked by walls on both sides ((12, 12) and (14, 12) are TYPE_2889). We cannot go south on foot from 3F West without solving the 2F puzzle to open the northeast barrier. We must backtrack to 2F immediately.
+- Turn 101134: Resumed Row 11 traversal. Encountered wild Onix at (23, 11), fled successfully on Turn 101136. Resuming Left traversal along Row 11 to (15, 11).
 
 <hr>
