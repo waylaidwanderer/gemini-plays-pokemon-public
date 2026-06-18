@@ -7558,6 +7558,18 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 ## Central Plateau Blockage and Geography (Verified Turn 102227)
 - **Column 11 Solid Vertical Wall (Rows 6-11)**: Column 11 is occupied by a continuous, impassable vertical rock wall of TYPE_2889 across all Rows from 6 to 11. Testing on Turn 102227 confirmed that walking Right (East) from (10, 10) results in a solid collision bump, proving that Column 11 is not a jump-down ramp or slope and the eastern edge of this central plateau (Column 10) is completely blocked horizontally.
 
+## 3F West Boulder C1 Puzzle (Solved Turn 102347)
+- **Problem**: Lowering the barrier blocking the ladder to 2F East at (23, 7).
+- **Solution**:
+  1. Climb to the western plateau, cross it, and descend the plateau stairs at (17, 5) to the ground floor of 3F West at (17, 6).
+  2. Stand south of Boulder C1 (initially at (22, 3)), activate STRENGTH, and push Boulder C1 Up to (22, 1).
+  3. Push Boulder C1 Left along the Row 1 corridor to Column 6.
+  4. Bypass the Column 5 rock wall by pushing the boulder Down to Row 2 at (6, 2).
+  5. Push the boulder Left along Row 2 to Column 2 at (2, 2).
+  6. Push the boulder Down Column 2 to (2, 5).
+  7. Walk to (1, 5) and push the boulder Right onto Switch C1 at (3, 5) (Solved on Turn 102347).
+  8. This successfully lowers the central/eastern barrier on 3F East, opening access to the ladder at (23, 7).
+
 <hr>
 
 <h1><code>Locations/VictoryRoad_2F</code></h1>
