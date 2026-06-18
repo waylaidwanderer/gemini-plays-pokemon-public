@@ -7496,8 +7496,8 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   - Earthquake: 3/10 PP
   - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
 
-## Active Progress & Current Plan (Turn 103655):
-- **Current Task**: Falling through 3F East Pit Hole to Solve 2F Switch B2 Puzzle.
+## Active Progress & Current Plan (Turn 103687):
+- **Current Task**: Navigating to the Northeast Exit of Victory Road 2F East.
 - **Session Start Turn**: 103416 | State: Active
 - **Step-by-Step Plan**:
   1. Activate STRENGTH and push Boulder C1 at (22, 3) onto Switch C1 at (3, 5). [x] (Completed on Turn 103493)
@@ -7508,7 +7508,8 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   6. Walk to (23, 15) and fall through the pit hole to 2F East (the boulder was already dropped in a previous attempt). [x] (Completed on Turn 103656)
   7. Standing at (22, 16) on 2F East, walk around the boulder via Row 17 to (24, 16). [x] (Completed on Turn 103659)
   8. Activate STRENGTH and push the boulder West all the way onto Switch B2 at (9, 16). [x] (Completed on Turn 103671)
-  9. Traverse to the northeast area of 2F East to find and enter the exit ladder. [ ]
+  9. Walk East along Row 16 back to Column 21. [ ]
+  10. Climb the eastern stairs at (21, 15) and walk to the northeastern exit ladder. [ ]
 
 ## Empirical Bypass Test Session (Turn 101402):
 - **Objective**: Test the overwatch agent's hypothesis that Column 29 is a passable bypass corridor on Row 6 connecting Row 2 directly to Row 10 on 3F East.
