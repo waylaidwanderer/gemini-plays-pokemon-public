@@ -7477,7 +7477,7 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 
 ### Victory Road 3F Map (Map 0_198):
 - **Active State**: In Progress
-  - **Current Position**: (15, 16) facing Down (Turn 102186)
+  - **Current Position**: (11, 16) facing Left (Turn 102188)
 - **Boulders Database**:
   - Boulder C1: Initial (22, 3) | Current (22, 3) | Target (3, 5) (Switch C1) | Status: [ ] Reset to default starting coordinates
   - Boulder C2: Initial (24, 10) | Current (22, 10) | Target (22, 10) (bypasses Column 24 wall) | Status: [x] Pushed (Turn 102158)
@@ -7503,7 +7503,7 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   - Earthquake: 3/10 PP
   - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
 
-## Active Progress & Current Plan (Turn 102151):
+## Active Progress & Current Plan (Turn 102188):
 - **Current Task**: Solve the 3F East double-push boulder puzzle to bypass the Column 24 vertical wall.
 - **Session Start Turn**: 101520 | State: Active
 - **Step-by-Step Plan**:
@@ -7511,9 +7511,11 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   2. Transition to 3F East at (27, 15). [x] Completed (Turn 102114)
   3. Walk North along Column 27 to Row 8, and take the ladder at (26, 8). [x] Completed (Turn 102134)
   4. Climb back up to 3F East at (26, 8) and position at (25, 10) facing Left. [x] Completed (Turn 102145)
-  5. Manually activate STRENGTH from the POKéMON menu using ROCKY (GEODUDE). [In Progress]
-  6. Push the boulder at (24, 10) Left twice to (22, 10), opening Column 23.
-  7. Walk North along Column 23 and take the ladder at (23, 7) to proceed.
+  5. Manually activate STRENGTH from the POKéMON menu using ROCKY (GEODUDE). [x] Completed (Turn 102152)
+  6. Push the boulder at (24, 10) Left twice to (22, 10), opening Column 23. [x] Completed (Turn 102158)
+  7. Walk West on Row 13 to (15, 13) and detour South to Row 16. [x] Completed (Turn 102186)
+  8. Walk West to (11, 16) and walk North along Column 11 to (11, 12). [In Progress]
+  9. Walk West from Column 11 to reach the main western area of 3F and proceed to the exit.
 
 ## Empirical Bypass Test Session (Turn 101402):
 - **Objective**: Test the overwatch agent's hypothesis that Column 29 is a passable bypass corridor on Row 6 connecting Row 2 directly to Row 10 on 3F East.
