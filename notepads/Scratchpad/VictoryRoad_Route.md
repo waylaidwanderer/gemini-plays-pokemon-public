@@ -21,8 +21,8 @@
   - Boulder A2: Initial (14, 2) | Current (10, 2) | Target (10, 2) | Status: [ ] Active
 
 ### Victory Road 2F Map (Map 0_194):
-- **Active State**: In Progress
-  - **Current Position**: (21, 11) facing Left (Turn 101077)
+- **Active State**: Completed (Backtracked to 3F)
+  - **Current Position**: (23, 8) facing Down (Turn 101089)
 - **Strength Status**: Active: [ ] False
 
 ### Victory Road 2F Boulders & Switches:
