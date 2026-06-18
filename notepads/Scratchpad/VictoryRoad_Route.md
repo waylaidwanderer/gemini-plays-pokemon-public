@@ -60,19 +60,17 @@
   - Earthquake: 4/10 PP
   - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
 
-## Active Progress & Current Plan (Turn 101150):
-- **Current Task**: Walk back to (23, 7) on 2F, go up to 3F West, navigate to the far west of 3F, walk Down to Row 15, and walk East along Row 15 to push the boulder into the pit hole at (23, 15) and jump down.
+## Active Progress & Current Plan (Turn 101190):
+- **Current Task**: Navigate to the far west of 3F, walk Down to Row 15, and walk East along Row 15 to push the boulder into the pit hole at (23, 15) and jump down.
 - **Step-by-Step Plan**:
-  1. Walk back to (23, 7) on 2F: Walk East to Column 23 on Row 11, then Up to Row 7.
-  2. Take the ladder at (23, 7) on 2F UP to 3F West.
-  3. On 3F West, walk Left to the far west side (Columns 1-3).
-  4. Walk Down on the West side of 3F to the southern corridor (Row 15).
-  5. Walk East along Row 15 to (22, 15), and push the boulder Right into the pit hole at (23, 15).
-  6. Jump down the pit hole at (23, 15) to land on 2F's ground floor at (23, 16).
-  7. Push the dropped boulder West along Row 16 to Switch B2 at (9, 16) to open the northeast barrier on 2F.
-  8. Climb the eastern stairs at (21, 15) UP to Row 14, walk to Column 27 on the plateau, and walk Up through the opened northeast barrier to the ladder at (27, 7).
-  9. Climb the ladder to 3F East (26, 8) and walk to the exit at the top right of 3F to reach Indigo Plateau!
-- **Session Start Turn**: 101125 | Timestamp: Wednesday June 17, 2026 5:22 PM PDT (Time-blindness protection active)
+  1. On 3F West, walk Left to the far west side (Columns 1-3).
+  2. Walk Down on the West side of 3F to the southern corridor (Row 15).
+  3. Walk East along Row 15 to (22, 15), and push the boulder Right into the pit hole at (23, 15).
+  4. Jump down the pit hole at (23, 15) to land on 2F's ground floor at (23, 16).
+  5. Push the dropped boulder West along Row 16 to Switch B2 at (9, 16) to open the northeast barrier on 2F.
+  6. Climb the eastern stairs at (21, 15) UP to Row 14, walk to Column 27 on the plateau, and walk Up through the opened northeast barrier to the ladder at (27, 7).
+  7. Climb the ladder to 3F East (26, 8) and walk to the exit at the top right of 3F to reach Indigo Plateau!
+- **Session Start Turn**: 101190 | Timestamp: Wednesday June 17, 2026 5:44 PM PDT (Time-blindness protection active)
 - Turn 101063: Tested walking Down from (21, 11) [z=1] to (21, 12) [z=0]. Result: Bumped (0 tiles visited), remaining at (21, 11). This empirically proves that the transition from Row 11 (red checkered) to Row 12 (purple) is a solid height mismatch barrier on Column 21 as well, and we cannot descend directly to the purple floor on the east side on foot. We must walk West on the red checkered floor (Row 11) to find the correct descent path.
 
 ### Active Column 13 Passability Test Session
