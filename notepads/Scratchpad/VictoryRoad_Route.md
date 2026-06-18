@@ -92,3 +92,9 @@
   - (13, 14): [ ] IMPASSABLE - Solid rock wall (TYPE_2889, Visually verified on Turn 101114)
   - (13, 15): [ ] IMPASSABLE - Solid rock wall (TYPE_2889, Visually verified on Turn 101114)
 - **Conclusion**: Column 13 is a 100% verified dead end below Row 13. Horizontal bypass on Row 12 is blocked by walls on both sides ((12, 12) and (14, 12) are TYPE_2889). We cannot go south on foot from 3F West without solving the 2F puzzle to open the northeast barrier. We must backtrack to 2F immediately.
+
+## Empirical Bypass Test Session (Turn 101402):
+- **Objective**: Test the overwatch agent's hypothesis that Column 29 is a passable bypass corridor on Row 6 connecting Row 2 directly to Row 10 on 3F East.
+- **Methodology**: Stood at (28, 2) on 3F East (Map 0_198) and pressed Right on Turn 101401 to attempt to step onto (29, 2) (TYPE_2889).
+- **Result**: Direct collision bump (0 tiles visited), remaining at (28, 2) on Turn 101402.
+- **Conclusion**: The hypothesis is definitively DISPROVEN. Column 29 is a solid border wall of TYPE_2889. There is no off-screen bypass on Column 29. We must solve the puzzles using the canonical 2F/3F pathways.
