@@ -34,3 +34,6 @@
 - Turn 104262: Activated STRENGTH from the Pokémon party menu using ROCKY (Geodude).
 - Turn 104267: Pressed Down, Down. Pushed Boulder B1 from (3, 9) to (3, 10). Player stepped to (3, 9).
 - Turn 104274: Pressed Down, Down, Down, Down. Pushed Boulder B1 from (3, 10) to (3, 12). Player stepped to (3, 11).
+## Live Execution Logs (2F West Boulder B1 Solved and Walking East):
+- Turn 104312: Stood at (5, 10). Plotted path across plateau to (21, 15).
+- Path: Up 2 to (5, 8) -> Right 8 to (13, 8) -> Down 4 to (13, 12) -> Right 8 to (21, 12) -> Down 3 to (21, 15) -> descend.
