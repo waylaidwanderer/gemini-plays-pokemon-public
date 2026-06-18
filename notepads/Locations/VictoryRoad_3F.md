@@ -12,3 +12,7 @@
   - (13, 13): [x] Passable floor
   - (13, 14): [ ] IMPASSABLE - Solid rock wall (TYPE_2889)
   - (13, 15): [ ] IMPASSABLE - Solid rock wall (TYPE_2889)
+
+## 3F East Geographic Boundaries and Obstacles (Verified Turn 101739)
+- **Row 12 Solid Horizontal Wall (Columns 16-21)**: Row 12 is occupied by a continuous, impassable horizontal rock wall of TYPE_2889 across all Columns from 16 to 21. Standing at (20, 11) or (21, 11) and attempting to walk Down results in a physical collision against this solid rock wall, preventing direct vertical progression to the southern ground area (Rows 13-15).
+- **Column 24 Solid Vertical Wall (Rows 11-15)**: Column 24 is occupied by a continuous, impassable vertical rock wall of TYPE_2889 across all Rows from 11 to 15. This completely isolates the left side of 3F East (Column 23 and below) from the right side of 3F East (Column 25 and above) on ground level, making the northern bypass via Row 2 strictly mandatory to cross between them on foot on 3F East.
