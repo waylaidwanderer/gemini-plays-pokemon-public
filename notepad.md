@@ -7503,12 +7503,14 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   - Earthquake: 4/10 PP
   - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
 
-## Active Progress & Current Plan (Turn 101821):
-- **Current Task**: Defeat the trainer at (4, 2) on 2F West and push Boulder B1.
+## Active Progress & Current Plan (Turn 101853):
+- **Current Task**: Push Boulder B1.
 - **Session Start Turn**: 101520 | State: Active
 - **Step-by-Step Plan**:
-  1. Defeat the trainer at (4, 2) on 2F West. [In Progress]
-  2. Walk to (5, 4) (1 step Right, 1 step Down), standing directly above Boulder B1 at (5, 5).
+  1. Defeat the trainer at (4, 2) on 2F West. [x] Completed (Turn 101816)
+  2. Walk to (5, 4) (1 step Right, 1 step Down), standing directly above Boulder B1 at (5, 5). [x] Completed (Turn 101844)
+  3. Manually activate STRENGTH from the POKéMON party menu using ROCKY (GEODUDE). [In Progress]
+  4. Push Boulder B1 at (5, 5) DOWN along Column 5 to (5, 6) to open the path south.
   3. Manually activate STRENGTH from the POKéMON party menu using ROCKY (GEODUDE).
   4. Push Boulder B1 at (5, 5) DOWN along Column 5 to (5, 6) to open the path south.
   5. Walk onto (5, 5) and walk south to the ladder to 3F West at (0, 8) or nearby.
