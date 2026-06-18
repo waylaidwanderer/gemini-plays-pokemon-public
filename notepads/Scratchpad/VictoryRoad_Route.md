@@ -33,7 +33,7 @@
 
 ### Victory Road 2F Map (Map 0_194):
 - **Active State**: In Progress
-  - **Current Position**: (23, 8) facing Right (Turn 102425)
+  - **Current Position**: (23, 7) facing Up (Turn 102517)
 - **Strength Status**: Active: [ ] False (Deactivated due to floor transition)
 
 ### Empirical Push Test Failure & Pivot Log (Turn 99693):
