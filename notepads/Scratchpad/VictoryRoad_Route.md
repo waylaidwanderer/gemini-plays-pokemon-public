@@ -98,3 +98,4 @@
 - **Methodology**: Stood at (28, 2) on 3F East (Map 0_198) and pressed Right on Turn 101401 to attempt to step onto (29, 2) (TYPE_2889).
 - **Result**: Direct collision bump (0 tiles visited), remaining at (28, 2) on Turn 101402.
 - **Conclusion**: The hypothesis is definitively DISPROVEN. Column 29 is a solid border wall of TYPE_2889. There is no off-screen bypass on Column 29. We must solve the puzzles using the canonical 2F/3F pathways.
+- **Active Push Session**: Started at Turn 101468. Pushing first boulder from (6, 2) Left along Row 2.
