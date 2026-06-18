@@ -7462,8 +7462,8 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   - Boulder A2: Initial (14, 2) | Current (10, 2) | Target (10, 2) | Status: [ ] Active
 
 ### Victory Road 2F Map (Map 0_194):
-- **Active State**: In Progress
-  - **Current Position**: (23, 11) facing Down (Turn 101131)
+- **Active State**: Completed (Backtracked to 3F)
+  - **Current Position**: (17, 7) facing Down (Turn 101155)
 - **Strength Status**: Active: [ ] False
 
 ### Victory Road 2F Boulders & Switches:
@@ -7476,8 +7476,8 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   - Switch B2: Coordinate (9, 16) | State: [ ] Unpressed (boulder reset)
 
 ### Victory Road 3F Map (Map 0_198):
-- **Active State**: Completed (Backtracked to 2F)
-  - **Current Position**: (13, 11) facing Down (Turn 101114)
+- **Active State**: In Progress
+  - **Current Position**: (10, 4) facing Left (Turn 101161)
 - **Boulders Database**:
   - Boulders are reset back to default starting positions (boulder C2 at (24, 10), boulder C4 at (13, 12)).
 - **Floor Switches & Holes**:
