@@ -7514,6 +7514,8 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 - **Result**: Direct collision bump (0 tiles visited), remaining at (28, 2) on Turn 101402.
 - **Conclusion**: The hypothesis is definitively DISPROVEN. Column 29 is a solid border wall of TYPE_2889. There is no off-screen bypass on Column 29. We must solve the puzzles using the canonical 2F/3F pathways.
 - Turn 103137: Pushed Boulder C1 Down from (6,1) to (6,2) successfully.
+- Turn 103152: Successfully pushed Boulder C1 onto Switch C1 at (3, 5). The 3F West boulder puzzle is fully solved!
+- Active Plan: Walk back to 3F East via Row 1, and fall down the open pit hole at (23, 15).
 
 <hr>
 
