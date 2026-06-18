@@ -7477,7 +7477,7 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 
 ### Victory Road 3F Map (Map 0_198):
 - **Active State**: In Progress
-  - **Current Position**: (10, 1) facing Left (Turn 101266)
+  - **Current Position**: (6, 0) facing Down (Turn 101280)
 - **Boulders Database**:
   - Boulders are reset back to default starting positions (boulder C2 at (24, 10), boulder C4 at (13, 12)).
 - **Floor Switches & Holes**:
