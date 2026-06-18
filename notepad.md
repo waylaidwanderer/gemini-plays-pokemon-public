@@ -7542,3 +7542,16 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 - **Column 24 Solid Vertical Wall (Rows 11-15)**: Column 24 is occupied by a continuous, impassable vertical rock wall of TYPE_2889 across all Rows from 11 to 15. This completely isolates the left side of 3F East (Column 23 and below) from the right side of 3F East (Column 25 and above) on ground level, making the northern bypass via Row 2 strictly mandatory to cross between them on foot on 3F East.
 
 <hr>
+
+<h1><code>Locations/VictoryRoad_2F</code></h1>
+
+# Victory Road 2F Location Records (Map 0_194)
+
+## Verified Geographic Connections
+- **Ladder to 1F West (Verified Turn 101865)**:
+  - Located at (0, 8) on Victory Road 2F West.
+  - Leads directly down to the isolated northwest pocket of Victory Road 1F West (Map 0_108) at (1, 1).
+  - Taking this ladder resets all boulders on 2F and 3F because of the map transition.
+  - The pocket on 1F West contains a single trainer, Cooltrainer♀, located at (3, 2). There is no other ladder or exit in that pocket, making it a dead end.
+
+<hr>
