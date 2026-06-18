@@ -3,14 +3,26 @@
     "description": "Generates the button press sequence to select the RUN option from the default battle fight menu (Down, Right, A).",
     "input_schema": {
       "type": "object",
-      "properties": {}
+      "properties": {
+        "autopress_buttons": {
+          "type": "boolean",
+          "description": "If true, the generated buttons will be pressed automatically.",
+          "default": false
+        }
+      },
+      "required": []
     },
-    "python_script": "import json\nprint(json.dumps([\"Down\", \"Right\", \"A\"]))\n",
+    "python_script": "import json\n# Fleeing from battle in Gen 1 is simple: we are on the main battle menu,\n# and we need to navigate to the bottom-right option 'RUN'.\n# The main battle menu is:\n# [FIGHT]  [PKMN ]\n# [ITEM ]  [RUN  ]\n# To get to 'RUN' from the top-left 'FIGHT' (default cursor position),\n# we must press 'Down' once (moves to ITEM) then 'Right' once (moves to RUN), or vice versa.\n# Then press 'A' to execute the run command.\n# Let's print the buttons as a JSON array.\nbuttons = [\"Down\", \"Right\", \"A\"]\nprint(json.dumps(buttons))\n",
     "history": [
       {
         "commit_message": "Define a simple custom tool to automate navigating to the RUN option in battle.",
         "timestamp": "2026-06-09T05:07:55.519Z",
         "action_counter": 75876
+      },
+      {
+        "commit_message": "Define flee_battle tool to automatically flee wild encounters in a clean and standard manner by selecting RUN.",
+        "timestamp": "2026-06-18T20:30:26.028Z",
+        "action_counter": 103799
       }
     ]
   }
