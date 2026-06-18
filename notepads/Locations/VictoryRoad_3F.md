@@ -21,3 +21,10 @@
 - **Ladder to 2F East**: Located at (27, 15) on 3F East.
   - Leads directly down to 2F East (Map 0_194) at (26, 14) on the plateau level behind the gated barrier.
   - Note: Taking this ladder transitions maps, resetting all overworld boulders on all maps.
+
+## 3F East Boulder C2 Double-Push Puzzle (Verified Turn 102158)
+- **Problem**: The Column 24 vertical rock wall completely divides 3F East, and Boulder C2 at (24, 10) blocks the only ground-level path past it on the east side of Row 10.
+- **Solution**:
+  1. Stand at (25, 10) facing Left and activate STRENGTH from the POKéMON party menu.
+  2. Push the boulder Left once to (23, 10), step forward to (24, 10), and push it Left again to (22, 10).
+  3. This clears Column 23, opening a bidirectional path around the Column 24 vertical wall via the southern Row 13 ground corridor.
