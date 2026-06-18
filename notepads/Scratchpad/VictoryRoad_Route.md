@@ -69,3 +69,9 @@
   - Walk West to (0, 8).
   - Session Start Turn: 100951 | Resumed: Turn 100987 | Timestamp: Wednesday June 17, 2026 4:45 PM PDT (Time-blindness protection active)
 - Turn 101063: Tested walking Down from (21, 11) [z=1] to (21, 12) [z=0]. Result: Bumped (0 tiles visited), remaining at (21, 11). This empirically proves that the transition from Row 11 (red checkered) to Row 12 (purple) is a solid height mismatch barrier on Column 21 as well, and we cannot descend directly to the purple floor on the east side on foot. We must walk West on the red checkered floor (Row 11) to find the correct descent path.
+
+### Active Column 13 Passability Test Session
+- **Session Start Turn**: 101100 | Timestamp: Wednesday June 17, 2026 5:17 PM PDT
+- **Objective**: Walk Down Column 13 from Row 7 to Row 15 on 3F, systematically testing and documenting the passability of every single row to verify if it connects directly to Row 15 corridor on foot.
+- **Passability Database (3F Column 13)**:
+  - (13, 7): [x] Passable (Starting Point)
