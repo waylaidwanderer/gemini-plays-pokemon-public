@@ -22,14 +22,14 @@
 
 ### Victory Road 2F Map (Map 0_194):
 - **Active State**: In Progress
-  - **Current Position**: (22, 16) facing Left (Turn 102024)
+  - **Current Position**: (21, 16) facing Left (Turn 102040)
 - **Strength Status**: Active: [x] True (Activated Turn 102004)
 
 ### Victory Road 2F Boulders & Switches:
 - **Boulders Database**:
   - Boulder B1: Initial (5, 5) | Current (5, 5) | Status: Unmoved
   - Boulder B2: Initial (4, 14) | Current (4, 14) | Status: Unmoved
-  - Dropped Boulder: Initial (23, 16) | Current (20, 16) | Status: [ ] Reset back to landing coordinates (Default position)
+  - Dropped Boulder: Initial (23, 16) | Current (19, 16) | Status: [ ] Reset back to landing coordinates (Default position)
 - **Floor Switches**:
   - Switch B1: Coordinate (1, 16) | State: Unpressed [ ]
   - Switch B2: Coordinate (9, 16) | State: [ ] Unpressed (boulder reset)
