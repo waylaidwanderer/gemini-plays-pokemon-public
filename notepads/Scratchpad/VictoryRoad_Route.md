@@ -71,8 +71,8 @@
   10. Stand south of Boulder C1 at (22, 4), activate STRENGTH, and push Boulder C1 Up to (22, 1). [x] Completed (Turn 102278)
   11. Pushed Boulder C1 Left along Row 1, bypassed Column 5 rock wall by pushing it Down to Row 2 at (6, 2), and pushed it Left to (2, 2). [x] Completed (Turn 102327)
   12. Pushed Boulder C1 Down Column 2 to (2, 4). [x] Completed (Turn 102336)
-  13. Walk from (1, 4) to stand directly above the boulder at (2, 3), and push it Down to (2, 5). [In Progress]
-  14. Walk to (1, 5) and push the boulder Right from (2, 5) onto Switch C1 at (3, 5). [ ]
+  13. Walk from (1, 4) to stand directly above the boulder at (2, 3), and push it Down to (2, 5). [x] Completed (Turn 102342)
+  14. Walk to (1, 5) and push the boulder Right from (2, 5) onto Switch C1 at (3, 5). [x] Completed (Turn 102347)
 
 ## Empirical Bypass Test Session (Turn 101402):
 - **Objective**: Test the overwatch agent's hypothesis that Column 29 is a passable bypass corridor on Row 6 connecting Row 2 directly to Row 10 on 3F East.
