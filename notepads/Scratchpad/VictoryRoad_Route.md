@@ -59,7 +59,7 @@
 - **Current Task**: Re-solved Boulder C1 puzzle (Switch C1 pressed at (3, 5) on Turn 102891). Now walking East along Row 2 to reach Column 27 to descend the ladder at (27, 15) to 2F East.
 - **Session Start Turn**: 102872 | State: Active
 - **Step-by-Step Plan**:
-  1. On 3F East, walk from (20, 2) Right to (27, 2), then Down to (27, 15) to descend to 2F East. [In Progress]
+  1. On 3F East, walk from (17, 5) along the plateau (z=1) via Row 4 West to Column 13, South down Column 13 to Row 13, then East along Row 13 across the plateau to Column 27 to reach the ladder at (27, 15) and descend to 2F East. [In Progress]
   2. On 2F East, walk to (23, 16), push the dropped boulder to (9, 16) to activate Switch B2, opening the exit barrier on 3F East. Then return to (26, 14) and climb back up to 3F East (27, 15). [ ]
   3. Once on 3F East, walk to (26, 8) and descend to 2F East (27, 7). [ ]
   4. From 2F East (27, 7), walk South to the exit cave doorway to emerge onto Route 23/Indigo Plateau. [ ]
