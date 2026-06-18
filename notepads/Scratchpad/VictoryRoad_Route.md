@@ -91,9 +91,7 @@
   - (13, 14): [ ] IMPASSABLE - Solid rock wall (TYPE_2889, Visually verified on Turn 101114)
   - (13, 15): [ ] IMPASSABLE - Solid rock wall (TYPE_2889, Visually verified on Turn 101114)
 - **Conclusion**: Column 13 is a 100% verified dead end below Row 13. Horizontal bypass on Row 12 is blocked by walls on both sides ((12, 12) and (14, 12) are TYPE_2889). We cannot go south on foot from 3F West without solving the 2F puzzle to open the northeast barrier. We must backtrack to 2F immediately.
-- Turn 101134: Resumed Row 11 traversal. Encountered wild Onix at (23, 11), fled successfully on Turn 101136. Resuming Left traversal along Row 11 to (15, 11).
 - Turn 101167: Discovered that Row 2 is the northern boundary of the elevated plateau, so walking Up to Row 1 is blocked by a solid cliff face.
 - Turn 101194: Navigated Down to Row 10 and walked Left to (5, 10), discovering that Column 4 is blocked on Row 10 by a solid rock wall.
 - Turn 101197: Backtracked Up along Column 5 to Row 7 at (5, 7). Row 7 runs horizontally across to Column 1!
 - Turn 101199: Mapped and walked the open Row 7 corridor West to (1, 7) on the far western edge.
-- Turn 101202: Walked Down Column 1. Encountered a wild Machop at (1, 8).
