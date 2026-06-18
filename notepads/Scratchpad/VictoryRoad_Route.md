@@ -21,22 +21,22 @@
   - Boulder A2: Initial (14, 2) | Current (10, 2) | Target (10, 2) | Status: [ ] Active
 
 ### Victory Road 2F Map (Map 0_194):
-- **Active State**: Completed (Backtracked to 3F)
-  - **Current Position**: (23, 8) facing Down (Turn 101089)
+- **Active State**: In Progress
+  - **Current Position**: (23, 11) facing Down (Turn 101131)
 - **Strength Status**: Active: [ ] False
 
 ### Victory Road 2F Boulders & Switches:
 - **Boulders Database**:
   - Boulder B1: Initial (5, 5) | Current (5, 5) | Status: Unmoved
   - Boulder B2: Initial (4, 14) | Current (1, 16) | Status: [x] Pushed onto Switch B1
-  - Dropped Boulder: Initial (23, 16) | Current (9, 16) | Status: [x] Pushed onto Switch B2 again (Turn 100581) after floor transition reset
+  - Dropped Boulder: Initial (23, 16) | Current (23, 16) | Status: [ ] Reset back to landing coordinates (Default position)
 - **Floor Switches**:
   - Switch B1: Coordinate (1, 16) | State: [x] Pressed (secured with Boulder B2)
-  - Switch B2: Coordinate (9, 16) | State: [x] Pressed (secured with Dropped Boulder)
+  - Switch B2: Coordinate (9, 16) | State: [ ] Unpressed (boulder reset)
 
 ### Victory Road 3F Map (Map 0_198):
-- **Active State**: In Progress
-  - **Current Position**: (13, 7) facing Left (Turn 101104)
+- **Active State**: Completed (Backtracked to 2F)
+  - **Current Position**: (13, 11) facing Down (Turn 101114)
 - **Boulders Database**:
   - Boulders are reset back to default starting positions (boulder C2 at (24, 10), boulder C4 at (13, 12)).
 - **Floor Switches & Holes**:
