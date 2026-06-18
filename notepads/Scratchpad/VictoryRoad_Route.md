@@ -55,12 +55,12 @@
   - Earthquake: 3/10 PP
   - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
 
-## Active Progress & Current Plan (Turn 102981):
-- **Current Task**: Re-solved Boulder C1 puzzle (Switch C1 pressed at (3, 5) on Turn 102891). Currently navigating along the western plateau corridor at (9, 10) to reach the southern plateau edge and transition to 2F East.
+## Active Progress & Current Plan (Turn 102992):
+- **Current Task**: Re-solved Boulder C1 puzzle (Switch C1 pressed at (3, 5) on Turn 102891). Currently traversing the plateau on Row 4 East to reach Column 17, descend to ground level at (17, 6), and walk to the ladder at (27, 15).
 - **Session Start Turn**: 102872 | State: Active
 - **Step-by-Step Plan**:
-  1. On 3F East, walk from (9, 10) South to (9, 13) to reach the southern plateau Row 13. [In Progress]
-  2. On 3F East, walk East along Row 13 to (27, 13) (via Columns 10 to 27) and descend the ladder at (27, 15) to 2F East. [ ]
+  1. On 3F East, walk from (16, 4) to (17, 5) and descend the plateau stairs to (17, 6) (ground level). [In Progress]
+  2. On 3F East (ground level), walk East along Row 6 to Column 23, Down Column 23 to Row 15, then East to (27, 15) and descend to 2F East. [ ]
   3. On 2F East, walk to (23, 16), push the dropped boulder to (9, 16) to activate Switch B2, opening the exit barrier on 3F East. Then return to (26, 14) and climb back up to 3F East (27, 15). [ ]
   4. Once on 3F East, walk to (26, 8) and descend to 2F East (27, 7). [ ]
   5. From 2F East (27, 7), walk South to the exit cave doorway to emerge onto Route 23/Indigo Plateau. [ ]
