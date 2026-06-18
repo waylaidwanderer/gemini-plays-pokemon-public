@@ -75,3 +75,14 @@
 - Verified plan: Descend to (17, 6) and begin our journey to (27, 15) to transition down to 2F East, then walk across the lowered barrier to exit to Route 23/Indigo Plateau.
 - Turn 102785: Tested Row 8 passage from (23, 8) to (24, 8) by pressing 'Right'. Hit a solid collision bump and remained at (23, 8). This confirms that the eastern gate on 3F East is closed. The gate is closed because transitioning floors to 2F East on Turn 102767 reset all overworld puzzles, including Switch C1 on 3F West and Switch B2 on 2F East.
 - Turn 102790: Updated plan to return to 3F West to solve the 3F West boulder puzzle (Switch C1) again. Then we will proceed with the route.
+## Re-solving 3F West Boulder Puzzle (Turn 102872)
+- Start Turn: 102872
+- Current Position: (5, 2) facing Left
+- Boulder C1 Current Position: (4, 2)
+- Step-by-Step Execution Plan:
+  1. Press Left, Left -> Boulder to (3, 2), Player to (4, 2).
+  2. Press Left -> Boulder to (2, 2), Player remains at (4, 2).
+  3. Press Left, Up, Left -> Player walks to (2, 1) via (3, 2) and (3, 1).
+  4. Press Down, Down, Down, Down, Down -> Boulder to (2, 5), Player to (2, 3).
+  5. Press Down, Left, Down -> Player walks to (1, 5) via (2, 4) and (1, 4).
+  6. Press Right -> Pushes boulder onto Switch C1 at (3, 5).
