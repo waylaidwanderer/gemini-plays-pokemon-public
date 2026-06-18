@@ -21,15 +21,15 @@
   - Boulder A2: Initial (14, 2) | Current (10, 2) | Target (10, 2) | Status: [ ] Active
 
 ### Victory Road 3F Map (Map 0_198):
-- **Active State**: In Progress
-  - **Current Position**: (4, 2) facing Left (Turn 103309)
+- **Active State**: Completed (Boulder C1 on Switch)
+  - **Current Position**: (1, 5) facing Right (Turn 103321)
 - **Boulders Database**:
-  - Boulder C1: Initial (22, 3) | Current (2, 2) | Target (3, 5) (Switch C1) | Status: [ ] In Progress (pushed Left to Column 2)
+  - Boulder C1: Initial (22, 3) | Current (3, 5) | Target (3, 5) (Switch C1) | Status: [x] Active (secured with Switch C1)
   - Boulder C2: Initial (24, 10) | Current (24, 10) | Target (22, 10) (bypasses Column 24 wall) | Status: [ ] Reset to default starting coordinates
   - Boulder C4: Initial (13, 12) | Current (13, 12) | Target (N/A, static/bypass) | Status: [ ] Reset to default starting coordinates
 - **Floor Switches & Holes**:
   - Pit Hole: Coordinate (23, 15) | State: Open [x] (verified on Turn 100130, boulder dropped through)
-  - Switch C1: Coordinate (3, 5) | State: Unpressed [ ]
+  - Switch C1: Coordinate (3, 5) | State: Pressed [x]
 
 ### Victory Road 2F Map (Map 0_194):
 - **Active State**: In Progress
