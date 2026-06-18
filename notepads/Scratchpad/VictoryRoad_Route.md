@@ -55,11 +55,11 @@
   - Earthquake: 3/10 PP
   - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
 
-## Active Progress & Current Plan (Turn 103051):
-- **Current Task**: Actively solving Boulder C1 puzzle on 3F West. Pushing Boulder C1 onto Switch C1 at (3, 5).
+## Active Progress & Current Plan (Turn 103111):
+- **Current Task**: Traversing 3F East toward the open pit hole at (23, 15) after re-solving the 3F West boulder puzzle.
 - **Session Start Turn**: 102872 | State: Active
 - **Step-by-Step Plan**:
-  1. On 3F West, push Boulder C1 onto Switch C1 at (3, 5) to open the eastern gate. [In Progress]
+  1. On 3F West, push Boulder C1 onto Switch C1 at (3, 5) to open the eastern gate. [In Progress (Reset)]
   2. Walk East via Row 2 to 3F East (ground level), walk to Column 23, and descend Column 23 to Row 15. [ ]
   3. Step into the open pit hole at (23, 15) to fall down to the ground floor of 2F East. [ ]
   4. On 2F East (ground floor), walk to (23, 16) and push the dropped boulder all the way West along Row 16 to Switch B2 at (9, 16) to permanently lower all barriers. [ ]
@@ -72,15 +72,3 @@
 - **Methodology**: Stood at (28, 2) on 3F East (Map 0_198) and pressed Right on Turn 101401 to attempt to step onto (29, 2) (TYPE_2889).
 - **Result**: Direct collision bump (0 tiles visited), remaining at (28, 2) on Turn 101402.
 - **Conclusion**: The hypothesis is definitively DISPROVEN. Column 29 is a solid border wall of TYPE_2889. There is no off-screen bypass on Column 29. We must solve the puzzles using the canonical 2F/3F pathways.
-
-## Re-solving 3F West Boulder Puzzle (Turn 102872)
-- Start Turn: 102872
-- Current Position: (5, 2) facing Left
-- Boulder C1 Current Position: (4, 2)
-- Step-by-Step Execution Plan:
-  1. Press Left, Left -> Boulder to (3, 2), Player to (4, 2).
-  2. Press Left -> Boulder to (2, 2), Player remains at (4, 2).
-  3. Press Left, Up, Left -> Player walks to (2, 1) via (3, 2) and (3, 1).
-  4. Press Down, Down, Down, Down, Down -> Boulder to (2, 5), Player to (2, 3).
-  5. Press Down, Left, Down -> Player walks to (1, 5) via (2, 4) and (1, 4).
-  6. Press Right -> Pushes boulder onto Switch C1 at (3, 5).
