@@ -7548,6 +7548,11 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 - **Row 12 Solid Horizontal Wall (Columns 16-21)**: Row 12 is occupied by a continuous, impassable horizontal rock wall of TYPE_2889 across all Columns from 16 to 21. Standing at (20, 11) or (21, 11) and attempting to walk Down results in a physical collision against this solid rock wall, preventing direct vertical progression to the southern ground area (Rows 13-15).
 - **Column 24 Solid Vertical Wall (Rows 11-15)**: Column 24 is occupied by a continuous, impassable vertical rock wall of TYPE_2889 across all Rows from 11 to 15. This completely isolates the left side of 3F East (Column 23 and below) from the right side of 3F East (Column 25 and above) on ground level, making the northern bypass via Row 2 strictly mandatory to cross between them on foot on 3F East.
 
+## 3F East Geography Connections (Verified Turn 102114)
+- **Ladder to 2F East**: Located at (27, 15) on 3F East.
+  - Leads directly down to 2F East (Map 0_194) at (26, 14) on the plateau level behind the gated barrier.
+  - Note: Taking this ladder transitions maps, resetting all overworld boulders on all maps.
+
 <hr>
 
 <h1><code>Locations/VictoryRoad_2F</code></h1>
