@@ -7551,6 +7551,8 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   1. Stand at (25, 10) facing Left and activate STRENGTH from the POKéMON party menu.
   2. Push the boulder Left once to (23, 10), step forward to (24, 10), and push it Left again to (22, 10).
   3. This clears Column 23, opening a bidirectional path around the Column 24 vertical wall via the southern Row 13 ground corridor.
+## Central Plateau Blockage and Geography (Verified Turn 102227)
+- **Column 11 Solid Vertical Wall (Rows 6-11)**: Column 11 is occupied by a continuous, impassable vertical rock wall of TYPE_2889 across all Rows from 6 to 11. Testing on Turn 102227 confirmed that walking Right (East) from (10, 10) results in a solid collision bump, proving that Column 11 is not a jump-down ramp or slope and the eastern edge of this central plateau (Column 10) is completely blocked horizontally.
 
 <hr>
 
