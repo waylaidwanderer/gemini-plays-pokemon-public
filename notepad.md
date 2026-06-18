@@ -7700,5 +7700,22 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   3. Right to (26, 9)
   4. Up to (26, 8) (this activates the ladder)
 - Let's execute this sequence now.
+## Turn 104407 Analysis:
+- Position: (25, 8) on Victory Road 2F (Map 0_194).
+- Situation: The gate at (24, 8) is closed (shows TYPE_2889) because our transition from 2F -> 3F -> 2F reset all overworld boulders. We are on the East side of the gate, so we cannot walk Left to the rest of the map.
+- Exit Strategy:
+  1. Walk to (27, 7) (Up 1, Right 2).
+  2. Take the ladder UP to 3F East (lands us at (26, 8) on 3F East).
+  3. Walk from 3F East to 3F West.
+  4. Descend the ladder at (2, 0) on 3F West to 2F West.
+  5. Solve the 2F West boulder puzzle again (pushing Boulder B1 onto Switch B1).
+  6. Walk across 2F from 2F West to 2F East WITHOUT taking any ladders.
+  7. On 2F East, walk through the open gate at (24, 8) to (27, 7).
+  8. Take the ladder UP at (27, 7) to 3F East (26, 8).
+  9. Walk from (26, 8) to the exit of Victory Road (Route 23/Indigo Plateau).
+- Let's begin by walking to the ladder at (27, 7) on 2F East.
+  - From (25, 8), the ladder at (27, 7) is at (27, 7).
+  - Path: Up to (25, 7) [1 step], Right to (26, 7) [1 step], Right to (27, 7) [1 step] -> this steps onto the ladder.
+  - Total steps: 3. Button sequence: ["Up", "Right", "Right"]
 
 <hr>
