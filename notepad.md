@@ -7495,12 +7495,12 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 - **Strategic Constraint**: DIG/FLY/Escape Rope to heal at a Pokémon Center or retrieve MAX ETHER from the PC will completely reset all solved boulder puzzles on 1F, 2F, and 3F, forcing us to redo them.
 - **Strategic Plan**:
   1. Complete the 2F boulder puzzle and Victory Road to reach Indigo Plateau without leaving.
-  2. Avoid fighting wild encounters by running (flee_battle) to conserve remaining Surf (8 PP), Hydro Pump (5 PP), and Earthquake (4 PP).
+  2. Avoid fighting wild encounters by running (flee_battle) to conserve remaining Surf (5 PP), Hydro Pump (5 PP), and Earthquake (3 PP).
   3. Once we reach Indigo Plateau, heal the entire team at the Pokémon Center, restoring all HP and PP (including Blizzard) to full, and retrieve any needed items from the PC before entering the Elite Four lobby.
-- **Gemmy's Remaining PP Limits (Turn 100329)**:
-  - Surf: 8/15 PP
+- **Gemmy's Remaining PP Limits (Turn 102031)**:
+  - Surf: 5/15 PP
   - Hydro Pump: 5/5 PP
-  - Earthquake: 4/10 PP
+  - Earthquake: 3/10 PP
   - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
 
 ## Active Progress & Current Plan (Turn 102003):
