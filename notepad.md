@@ -7496,13 +7496,13 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   - Earthquake: 3/10 PP
   - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
 
-## Active Progress & Current Plan (Turn 102901):
-- **Current Task**: Re-solved Boulder C1 puzzle (Switch C1 pressed at (3, 5) on Turn 102891). Now returning to the east side of 3F via the northern Row 2 path to descend the ladder at (23, 7).
+## Active Progress & Current Plan (Turn 102932):
+- **Current Task**: Re-solved Boulder C1 puzzle (Switch C1 pressed at (3, 5) on Turn 102891). Now descending the ladder at (23, 7) to 2F East.
 - **Session Start Turn**: 102872 | State: Active
 - **Step-by-Step Plan**:
-  1. Walk Up from (2, 4) to (2, 2) via (2, 3). [In Progress]
-  2. Walk Right along Row 2 to (17, 2). [ ]
-  3. Walk to the ladder at (23, 7) or (27, 15) to descend to 2F East. [ ]
+  1. Walk Up from (2, 4) to (2, 2) via (2, 3). [x] Completed Turn 102910
+  2. Walk Right along Row 2 to (17, 2) and Row 1 to (22, 1). [x] Completed Turn 102920
+  3. Walk to the ladder at (23, 7) and descend to 2F East. [In Progress]
   4. On 2F East, walk across the open plateau (since Switch B2's barrier is lowered) to (26, 14) and climb the ladder to 3F East (27, 15). [ ]
   5. Once on 2F East (27, 7) from the 3F East (26, 8) ladder, walk South to the exit cave doorway to emerge onto Route 23/Indigo Plateau. [ ]
 
