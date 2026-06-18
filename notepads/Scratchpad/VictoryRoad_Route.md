@@ -55,14 +55,15 @@
   - Earthquake: 3/10 PP
   - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
 
-## Active Progress & Current Plan (Turn 102961):
-- **Current Task**: Re-solved Boulder C1 puzzle (Switch C1 pressed at (3, 5) on Turn 102891). Now walking East along Row 2 to reach Column 27 to descend the ladder at (27, 15) to 2F East.
+## Active Progress & Current Plan (Turn 102981):
+- **Current Task**: Re-solved Boulder C1 puzzle (Switch C1 pressed at (3, 5) on Turn 102891). Currently navigating along the western plateau corridor at (9, 10) to reach the southern plateau edge and transition to 2F East.
 - **Session Start Turn**: 102872 | State: Active
 - **Step-by-Step Plan**:
-  1. On 3F East, walk from (17, 5) along the plateau (z=1) via Row 4 West to Column 13, South down Column 13 to Row 13, then East along Row 13 across the plateau to Column 27 to reach the ladder at (27, 15) and descend to 2F East. [In Progress]
-  2. On 2F East, walk to (23, 16), push the dropped boulder to (9, 16) to activate Switch B2, opening the exit barrier on 3F East. Then return to (26, 14) and climb back up to 3F East (27, 15). [ ]
-  3. Once on 3F East, walk to (26, 8) and descend to 2F East (27, 7). [ ]
-  4. From 2F East (27, 7), walk South to the exit cave doorway to emerge onto Route 23/Indigo Plateau. [ ]
+  1. On 3F East, walk from (9, 10) South to (9, 13) to reach the southern plateau Row 13. [In Progress]
+  2. On 3F East, walk East along Row 13 to (27, 13) (via Columns 10 to 27) and descend the ladder at (27, 15) to 2F East. [ ]
+  3. On 2F East, walk to (23, 16), push the dropped boulder to (9, 16) to activate Switch B2, opening the exit barrier on 3F East. Then return to (26, 14) and climb back up to 3F East (27, 15). [ ]
+  4. Once on 3F East, walk to (26, 8) and descend to 2F East (27, 7). [ ]
+  5. From 2F East (27, 7), walk South to the exit cave doorway to emerge onto Route 23/Indigo Plateau. [ ]
 
 ## Empirical Bypass Test Session (Turn 101402):
 - **Objective**: Test the overwatch agent's hypothesis that Column 29 is a passable bypass corridor on Row 6 connecting Row 2 directly to Row 10 on 3F East.
