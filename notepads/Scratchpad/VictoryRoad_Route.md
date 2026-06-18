@@ -55,14 +55,16 @@
   - Earthquake: 3/10 PP
   - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
 
-## Active Progress & Current Plan (Turn 103623):
-- **Current Task**: Reaching the eastern side of 3F East using the 2F-3F crossover route.
+## Active Progress & Current Plan (Turn 103643):
+- **Current Task**: Solving the 3F East Boulder C2 Double-Push Puzzle.
 - **Session Start Turn**: 103416 | State: Active
 - **Step-by-Step Plan**:
   1. Activate STRENGTH and push Boulder C1 at (22, 3) onto Switch C1 at (3, 5). [x] (Completed on Turn 103493)
   2. Navigate 3F East to the (23, 7) ladder and descend to 2F East. [x] (Completed on Turn 103572)
-  3. Walk around the (23, 16) boulder via Row 17 to reach the East stairs at (21, 15). [ ]
-  4. Climb UP onto the plateau and check if the gated barriers are open or closed. [ ]
+  3. Walk around the (23, 16) boulder via Row 17 to reach the East stairs at (21, 15). [x] (Completed on Turn 103625)
+  4. Climb UP onto the plateau and take the (25, 14) ladder to 3F East (27, 15). [x] (Completed on Turn 103630)
+  5. Stand at (25, 10), activate STRENGTH, and push Boulder C2 Left to (22, 10). [ ]
+  6. Walk Down Column 23 to Row 15, and push the boulder at (22, 15) into the pit hole at (23, 15). [ ]
 
 ## Empirical Bypass Test Session (Turn 101402):
 - **Objective**: Test the overwatch agent's hypothesis that Column 29 is a passable bypass corridor on Row 6 connecting Row 2 directly to Row 10 on 3F East.
