@@ -64,7 +64,10 @@
   3. Walk around the (23, 16) boulder via Row 17 to reach the East stairs at (21, 15). [x] (Completed on Turn 103625)
   4. Climb UP onto the plateau and take the (25, 14) ladder to 3F East (27, 15). [x] (Completed on Turn 103630)
   5. Stand at (25, 10), activate STRENGTH, and push Boulder C2 Left to (22, 10). [x] (Completed on Turn 103645)
-  6. Walk to (23, 15) and fall through the pit hole to 2F East (the boulder was already dropped in a previous attempt). [ ]
+  6. Walk to (23, 15) and fall through the pit hole to 2F East (the boulder was already dropped in a previous attempt). [x] (Completed on Turn 103656)
+  7. Standing at (22, 16) on 2F East, walk around the boulder via Row 17 to (24, 16). [x] (Completed on Turn 103659)
+  8. Activate STRENGTH and push the boulder West all the way onto Switch B2 at (9, 16). [x] (Completed on Turn 103671)
+  9. Traverse to the northeast area of 2F East to find and enter the exit ladder. [ ]
 
 ## Empirical Bypass Test Session (Turn 101402):
 - **Objective**: Test the overwatch agent's hypothesis that Column 29 is a passable bypass corridor on Row 6 connecting Row 2 directly to Row 10 on 3F East.
