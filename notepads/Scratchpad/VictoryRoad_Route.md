@@ -20,23 +20,9 @@
   - Boulder A: Initial (5, 15) | Current (17, 13) | Target (17, 13) | Status: [x] Active (secured with Switch A)
   - Boulder A2: Initial (14, 2) | Current (10, 2) | Target (10, 2) | Status: [ ] Active
 
-### Victory Road 2F Map (Map 0_194):
-- **Active State**: Completed
-  - **Current Position**: (27, 15) facing Down on 3F East (Turn 102123)
-- **Strength Status**: Active: [ ] False (Deactivated due to floor transition)
-
-### Victory Road 2F Boulders & Switches:
-- **Boulders Database**:
-  - Boulder B1: Initial (5, 5) | Current (5, 5) | Status: [ ] Reset to default starting coordinates
-  - Boulder B2: Initial (4, 14) | Current (4, 14) | Status: [ ] Reset to default starting coordinates
-  - Dropped Boulder: Initial (23, 16) | Current (23, 16) | Status: [ ] Reset back to landing coordinates (Default position)
-- **Floor Switches**:
-  - Switch B1: Coordinate (1, 16) | State: Unpressed [ ]
-  - Switch B2: Coordinate (9, 16) | State: [ ] Unpressed (boulder reset)
-
 ### Victory Road 3F Map (Map 0_198):
-- **Active State**: In Progress
-  - **Current Position**: (14, 1) facing Right (Turn 102380)
+- **Active State**: Completed
+  - **Current Position**: (23, 7) facing Down on 2F East (Turn 102396)
 - **Boulders Database**:
   - Boulder C1: Initial (22, 3) | Current (3, 5) | Target (3, 5) (Switch C1) | Status: [x] Active (Switch Pressed)
   - Boulder C2: Initial (24, 10) | Current (22, 10) | Target (22, 10) (bypasses Column 24 wall) | Status: [x] Pushed (Turn 102158)
@@ -44,6 +30,11 @@
 - **Floor Switches & Holes**:
   - Pit Hole: Coordinate (23, 15) | State: Open [x] (verified on Turn 100130, boulder dropped through)
   - Switch C1: Coordinate (3, 5) | State: Pressed [x]
+
+### Victory Road 2F Map (Map 0_194):
+- **Active State**: In Progress
+  - **Current Position**: (23, 7) facing Down (Turn 102396)
+- **Strength Status**: Active: [ ] False (Deactivated due to floor transition)
 
 ### Empirical Push Test Failure & Pivot Log (Turn 99693):
 - **Verification of Failure**: On Turn 99678, with Boulder C1 resting on Switch C1 at (3, 5), the player attempted to push Boulder C3 at (7, 7) southwards from (7, 6). The push failed due to a solid collision bump, and tiles (7, 8) and (7, 9) remain TYPE_2889 rock walls.
