@@ -61,7 +61,7 @@
 - **Step-by-Step Plan**:
   1. Walk Up from (2, 4) to (2, 2) via (2, 3). [x] Completed Turn 102910
   2. Walk Right along Row 2 to (17, 2) and Row 1 to (22, 1). [x] Completed Turn 102920
-  3. Walk to the ladder at (23, 7) and descend to 2F East. [In Progress]
+  3. On 3F East, walk from (23, 7) Down to (23, 8), Right to (27, 8), and Down to (27, 15) to descend to 2F East. [In Progress]
   4. On 2F East, walk across the open plateau (since Switch B2's barrier is lowered) to (26, 14) and climb the ladder to 3F East (27, 15). [ ]
   5. Once on 2F East (27, 7) from the 3F East (26, 8) ladder, walk South to the exit cave doorway to emerge onto Route 23/Indigo Plateau. [ ]
 
