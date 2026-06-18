@@ -55,15 +55,14 @@
   - Earthquake: 3/10 PP
   - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
 
-## Active Progress & Current Plan (Turn 102932):
-- **Current Task**: Re-solved Boulder C1 puzzle (Switch C1 pressed at (3, 5) on Turn 102891). Now descending the ladder at (23, 7) to 2F East.
+## Active Progress & Current Plan (Turn 102961):
+- **Current Task**: Re-solved Boulder C1 puzzle (Switch C1 pressed at (3, 5) on Turn 102891). Now walking East along Row 2 to reach Column 27 to descend the ladder at (27, 15) to 2F East.
 - **Session Start Turn**: 102872 | State: Active
 - **Step-by-Step Plan**:
-  1. Walk Up from (2, 4) to (2, 2) via (2, 3). [x] Completed Turn 102910
-  2. Walk Right along Row 2 to (17, 2) and Row 1 to (22, 1). [x] Completed Turn 102920
-  3. On 3F East, walk from (23, 7) Down to (23, 8), Right to (27, 8), and Down to (27, 15) to descend to 2F East. [In Progress]
-  4. On 2F East, walk across the open plateau (since Switch B2's barrier is lowered) to (26, 14) and climb the ladder to 3F East (27, 15). [ ]
-  5. Once on 2F East (27, 7) from the 3F East (26, 8) ladder, walk South to the exit cave doorway to emerge onto Route 23/Indigo Plateau. [ ]
+  1. On 3F East, walk from (20, 2) Right to (27, 2), then Down to (27, 15) to descend to 2F East. [In Progress]
+  2. On 2F East, walk to (23, 16), push the dropped boulder to (9, 16) to activate Switch B2, opening the exit barrier on 3F East. Then return to (26, 14) and climb back up to 3F East (27, 15). [ ]
+  3. Once on 3F East, walk to (26, 8) and descend to 2F East (27, 7). [ ]
+  4. From 2F East (27, 7), walk South to the exit cave doorway to emerge onto Route 23/Indigo Plateau. [ ]
 
 ## Empirical Bypass Test Session (Turn 101402):
 - **Objective**: Test the overwatch agent's hypothesis that Column 29 is a passable bypass corridor on Row 6 connecting Row 2 directly to Row 10 on 3F East.
