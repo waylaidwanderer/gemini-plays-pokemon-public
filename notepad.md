@@ -7513,7 +7513,7 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   10. Walk Right 1 step to take the (25, 14) ladder UP to 3F East at (27, 15). [x] (Completed on Turn 103703)
   11. On 3F East, walk from (27, 15) to (23, 7) via Row 13 / Column 20 (bypassing the Row 9 wall and Column 24 boulder) and take the ladder DOWN to 2F East. [x] (Completed on Turn 103766)
   12. Detour to 2F West: Climb back UP to 3F East via (23, 7), walk West along Row 1, bypass Columns 4-5 via Row 2, and descend the top-left ladder at (2, 0) to 2F West. [x] (Completed on Turn 103868)
-  13. On 2F West, activate STRENGTH and push Boulder B1 at (5, 5) onto Switch B1 at (1, 16) to permanently lower the Row 8 gate at (24, 8) on 2F East. [/] (In progress, boulder pushed to (3, 13))
+  13. On 2F West, activate STRENGTH and push Boulder B1 at (5, 5) onto Switch B1 at (1, 16) to permanently lower the Row 8 gate at (24, 8) on 2F East. [/] (In progress, boulder pushed to (3, 15))
   14. On 2F East, walk from (23, 7) to (27, 7) through the opened gate at (24, 8) and climb UP to the exit pocket on 3F East. [ ]
   15. Walk to the exit of Victory Road to emerge onto Route 23 / Indigo Plateau! [ ]
 
