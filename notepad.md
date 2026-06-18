@@ -7592,4 +7592,7 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   - This pathway contains the dropped boulder at (23, 16) (initially) and Switch B2 at (9, 16).
   - Pushing the boulder West along Row 16 is required to press Switch B2.
 
+## 2F East to 3F East Transition (Turn 102427)
+- **Verified Connection**: Taking the ladder at (23, 7) on Victory Road 2F East (Map 0_194) transitions the player UP to Victory Road 3F East (Map 0_198) at (23, 7) [Verified on Turn 102387 and 102427].
+
 <hr>
