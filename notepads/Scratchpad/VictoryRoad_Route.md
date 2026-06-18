@@ -22,17 +22,17 @@
 
 ### Victory Road 3F Map (Map 0_198):
 - **Active State**: Completed (Boulder C1 on Switch)
-  - **Current Position**: (14, 7) facing Right (Turn 103759)
 - **Boulders Database**:
   - Boulder C1: Initial (22, 3) | Current (3, 5) | Target (3, 5) (Switch C1) | Status: [x] Active (secured with Switch C1)
   - Boulder C2: Initial (24, 10) | Current (22, 10) | Target (22, 10) (bypasses Column 24 wall) | Status: [x] Active (cleared Column 23)
-  - Boulder C4: Initial (13, 12) | Current (13, 12) | Target (N/A, static/bypass) | Status: [ ] Reset
+  - Boulder C4: Initial (13, 12) | Current (13, 10) | Target (N/A, static/bypass) | Status: [ ] Reset
 - **Floor Switches & Holes**:
   - Pit Hole: Coordinate (23, 15) | State: Open [x] (verified on Turn 100130, boulder dropped through)
   - Switch C1: Coordinate (3, 5) | State: Pressed [x]
 
 ### Victory Road 2F Map (Map 0_194):
 - **Active State**: Completed (Boulder on Switch B2)
+  - **Current Position**: (23, 8) facing Right (Turn 103771)
 - **Strength Status**: Active: [x] True
 - **Boulders Database**:
   - Switch B2: Coordinate (9, 16) | State: Pressed [x] (Solved on Turn 103671)
@@ -54,8 +54,8 @@
   - Earthquake: 3/10 PP
   - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
 
-## Active Progress & Current Plan (Turn 103744):
-- **Current Task**: Navigating to 3F East to Access the 2F Northeast Ground Pocket.
+## Active Progress & Current Plan (Turn 103771):
+- **Current Task**: Navigating 2F East Northeast Pocket through Lowered Barrier.
 - **Session Start Turn**: 103416 | State: Active
 - **Step-by-Step Plan**:
   1. Activate STRENGTH and push Boulder C1 at (22, 3) onto Switch C1 at (3, 5). [x] (Completed on Turn 103493)
@@ -68,6 +68,6 @@
   8. Activate STRENGTH and push the boulder West all the way onto Switch B2 at (9, 16). [x] (Completed on Turn 103671)
   9. Walk East along Row 16 back to Column 21 and climb onto the plateau at (21, 14). [x] (Completed on Turn 103700)
   10. Walk Right 1 step to take the (25, 14) ladder UP to 3F East at (27, 15). [x] (Completed on Turn 103703)
-  11. On 3F East, walk from (27, 15) to (23, 7) via Row 13 / Column 20 (bypassing the Row 9 wall and Column 24 boulder) and take the ladder DOWN to 2F East. [ ]
-  12. On 2F East, walk from (23, 7) to (27, 7) (Right 4) through the lowered barrier and take the ladder UP to 3F. [ ]
+  11. On 3F East, walk from (27, 15) to (23, 7) via Row 13 / Column 20 (bypassing the Row 9 wall and Column 24 boulder) and take the ladder DOWN to 2F East. [x] (Completed on Turn 103766)
+  12. On 2F East, walk from (23, 7) to (27, 7) through the lowered barrier at (24, 8) (Down 2, Right 4, Up 2) and take the ladder UP to 3F. [ ]
   13. Walk to the exit of Victory Road to emerge onto Route 23 / Indigo Plateau! [ ]
