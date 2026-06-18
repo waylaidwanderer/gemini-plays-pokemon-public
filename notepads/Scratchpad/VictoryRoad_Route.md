@@ -62,20 +62,13 @@
   - Earthquake: 3/10 PP
   - Blizzard: 0/5 PP (Strategic reserve: will heal at Indigo Plateau PC)
 
-## Active Progress & Current Plan (Turn 102199):
+## Active Progress & Current Plan (Turn 102211):
 - **Current Task**: Navigate to (22, 3) on 3F East and push Boulder C1 onto Switch C1 at (3, 5).
 - **Session Start Turn**: 101520 | State: Active
 - **Step-by-Step Plan**:
-  1. Solve 2F West & East boulder puzzles to access the eastern plateau. [x] Completed (Turn 102089)
-  2. Transition to 3F East at (27, 15). [x] Completed (Turn 102114)
-  3. Walk North along Column 27 to Row 8, and take the ladder at (26, 8). [x] Completed (Turn 102134)
-  4. Climb back up to 3F East at (26, 8) and position at (25, 10) facing Left. [x] Completed (Turn 102145)
-  5. Manually activate STRENGTH from the POKéMON menu using ROCKY (GEODUDE). [x] Completed (Turn 102152)
-  6. Push the boulder at (24, 10) Left twice to (22, 10), opening Column 23. [x] Completed (Turn 102158)
-  7. Walk West on Row 13 to (15, 13) and detour South to Row 16. [x] Completed (Turn 102186)
-  8. Walk West to (11, 16) and walk North along Column 11 to (11, 12). [x] Completed (Turn 102191)
-  9. Walk West on Row 12 to (1, 12), and climb the stairs at (1, 9) onto the western plateau. [In Progress]
-10. Navigate the western plateau to reach the northern bypass on Row 2, walk East to Column 22, and push Boulder C1 to Switch C1 at (3, 5).
+  1-8. Solved 2F/3F East boulder puzzles, bypassed Column 24 vertical wall via Row 16 detour, and climbed 3F West plateau stairs. [x] Completed (Turn 102198)
+  9. Walk East along Row 7 to (5, 7), head South to (5, 10), and step East onto (6, 10) to descend the ramp. [In Progress]
+  10. Walk North to the Row 2 northern bypass, walk East to Column 22, and push Boulder C1 to Switch C1 at (3, 5).
 
 ## Empirical Bypass Test Session (Turn 101402):
 - **Objective**: Test the overwatch agent's hypothesis that Column 29 is a passable bypass corridor on Row 6 connecting Row 2 directly to Row 10 on 3F East.
