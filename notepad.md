@@ -7986,5 +7986,12 @@ Let's trace the path from (21, 16) to (29, 1):
   "Pokered disassembly analysis confirms Victory Road 2F (Map 194) has a 5th warp at (29, 1) leading to Route 23."
   But wait, let's search our notepads for "exit" or "3F East" to see where the actual exit is.
   Let's use `search_notepads` with query "exit" to find all exit-related notes.
+- Turn 104536: Arrived on 3F East at (27, 15) by taking the ladder. Tested and confirmed that the barrier on Row 10 on the right side of 3F East is currently closed (shows TYPE_2889 solid wall at (25, 10), (26, 10), etc.) because the map transition reset Boulder C1 on 3F West off of Switch C1 (3, 5). 
+- Thus, we cannot reach the exit ladder at (26, 8) from here on foot without opening that barrier first.
+- To open the barrier, we must go to 3F West and push Boulder C1 onto Switch C1 (3, 5).
+- To get to 3F West, we must take the ladder back down to 2F East, walk across the 2F plateau to 2F West, and climb the top-left ladder at (2, 0) up to 3F West.
+- Once on 3F West, we push Boulder C1 onto Switch C1 (3, 5). Then, we walk on foot from 3F West to 3F East entirely on 3F (no ladders!), keeping the switch pressed so the barrier stays open!
+- Then we walk through the open barrier to the (26, 8) ladder, descend to the 2F East exit pocket at (27, 7), and walk to the (29, 1) exit warp!
+- First step: Walk Left to (26, 15) to step off the ladder, then walk Right to (27, 15) to transition back down to 2F East.
 
 <hr>
