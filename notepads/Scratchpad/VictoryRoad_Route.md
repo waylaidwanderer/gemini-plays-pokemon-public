@@ -1,6 +1,6 @@
 # Scratchpad: Victory Road Route & Puzzle States
-- Current Turn: 104731
-- Current Position: (20, 13) on Map 0_198 (Victory Road 3F East)
+- Current Turn: 104765
+- Current Position: (23, 3) on Map 0_194 (Victory Road 2F East)
 
 ## Flawless Victory Exit Plan (No Ladders/Detours needed on 2F West!)
 - **Insight**: We do not need the gate at (24, 8) on 2F East to be open to reach the exit warp at (29, 1)!
