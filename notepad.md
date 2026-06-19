@@ -7440,34 +7440,26 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 <h1><code>Scratchpad/VictoryRoad_Route</code></h1>
 
 # Scratchpad: Victory Road Route & Puzzle States
-- Turn 107251: Standing at (23, 6) on Map 0_198 (Victory Road 3F East)
+- Turn 107273: Standing at (27, 5) on Map 0_198 (Victory Road 3F East)
 
 ## Goal
 Exit Victory Road to Route 23 North / Indigo Plateau!
 
 ## Reconciled Physical Exit Location:
-- **True Exit Warp**: Located on the **1st Floor (1F) at (17, 2)** (Map 0_108).
-- **Access Route**: Reached via the **(0, 8) ladder on 2F West**, which drops us down to 1F West at (1, 1). From (1, 1) on 1F, we walk directly East along the northern corridor to the exit warp at (17, 2) to Route 23 North!
+- **True Exit Warp**: Located on the **2nd Floor (2F) East at (28, 1)** (Map 0_194).
+- **Access Route**: Reached via the **(26, 8) ladder on 3F East**, which drops us down to 2F East at the isolated ground-level pocket at (27, 7). From (27, 7) on 2F East, we walk directly North along the easternmost corridor to the exit warp at (28, 1) to Route 23 North / Indigo Plateau!
 
-## Step-by-Step Path from 3F East (23, 8) to Victory Road Exit:
-1. Push Boulder C2 on 3F East to open the Southern Corridor:
-   - From current position (23, 8) on 3F East, walk Down to (23, 10).
-   - Activate STRENGTH and push Boulder C2 at (24, 10) Right to (25, 10).
-   - Stand at (24, 10) and push the boulder Right again to (26, 10).
-2. Walk to the southeastern ladder at (27, 15) on 3F East:
-   - Walk from (25, 10) -> (27, 10) -> Down to (27, 15).
-   - Take the ladder at (27, 15) DOWN to 2F East (lands at (26, 14) on the plateau).
-3. Cross 2F East to 2F West:
-   - From (26, 14) on the 2F plateau, walk Left to (21, 14), Down to (21, 15), and descend the stairs to ground level at (21, 16).
-   - Walk Left along Row 16 ground corridor to (9, 16) -> (9, 11) -> (0, 11) -> Up to the (0, 8) ladder.
-   - Take the ladder at (0, 8) DOWN to 1F West (lands at (1, 1)).
-4. Escape to Route 23 North:
-   - From (1, 1) on 1F West, walk to the exit warp at (17, 2) to exit Victory Road!
-
-## Column 28 Row 12 Collision Test (Turn 107226):
-- **Hypothesis**: Column 28 Row 12 is blocked by Koga's plateau wall, making ground-level vertical traversal down Column 28 impossible.
-- **Methodology**: Walk Right 5 steps from (23, 11) to (28, 11), then walk Down 1 step to try to step on (28, 12). Check for physical collision.
-- **Backtrack Route if Blocked**: Walk Left 5 steps to (23, 11), Up 4 steps to (23, 7) ladder to 3F East, and use Column 27 on 3F East to reach the (27, 15) ladder.
+## Step-by-Step Path from 3F East (27, 5) to Victory Road Exit:
+1. Walk to the ladder at (23, 7) on 3F East:
+   - Walk: Up 3, Left 2, Down 1, Left 2, Down 4 to reach (23, 7).
+2. Bypass the Column 24 vertical wall using the southern corridor on 3F East:
+   - From (23, 7), walk: Down 1 to (23, 8), Left 1 to (22, 8), Down 2 to (22, 10).
+   - Walk: Left 1, Down 1, Left 1, Down 2 to bypass the boulder at (22, 10), and walk back Right to (25, 10).
+   - Walk: Up 1 to (25, 9), Right 1 to (26, 9), and Up 1 to reach the (26, 8) ladder.
+3. Take the ladder at (26, 8) DOWN to 2F East:
+   - Lands us at (27, 7) on 2F East.
+4. Walk North to the exit at (28, 1) on 2F East:
+   - From (27, 7), walk North to (28, 1) to exit Victory Road!
 
 <hr>
 
