@@ -7459,19 +7459,14 @@ We must locate the exact exit warp tile by systematically investigating the 2F E
 - **Refutation of 3F East (28, 1) Exit**: Systematic testing of Row 0 and Row 1 on 3F East confirmed all are solid rock walls or non-warping floor, completely disproving Hypothesis 1.
 
 ## Current Pathing Instructions:
-- We are currently standing on 3F East at (26, 2) facing Left.
+- We are currently standing on 3F East at (23, 8) facing Up.
 - Detour progress: Successfully disproved that we can walk South on Column 27/28 from Row 2, as Row 6 is occupied by a solid rock wall across Columns 24-29.
 - Backtracking Route to cross over via 2F East:
-  1. From (26, 2), walk Left 3 steps to (23, 2), then Down 5 steps to the ladder at (23, 7).
-  2. Take the ladder at (23, 7) DOWN to 2F East.
-  3. On 2F East, walk Down Column 23 to Row 11: (23, 7) -> (23, 8) -> (23, 9) -> (23, 10) -> (23, 11).
-  4. Walk Right along Row 11 to Column 27: (23, 11) -> (27, 11).
-  5. Walk Up Column 27 to Row 7: (27, 11) -> (27, 7).
-  6. Take the ladder at (27, 7) UP to 3F East (lands at (26, 8) on 3F East).
-  7. From (26, 8) on 3F East, walk Down to (27, 15) ladder and take it DOWN to 2F East plateau.
-  8. From (26, 14) on 2F East plateau, walk Left to (25, 14) and descend to 1F East.
-  9. Exit Victory Road!
-- Let's execute the first step of this backtracking route: walk Left 3 steps to (23, 2) and Down 5 steps to (23, 7).
+  1. Stand at (23, 8).
+  2. Walk Left 3 steps to (20, 8), then Up 6 steps to Row 2: (20, 8) -> (20, 2).
+  3. Walk Right along Row 2 to cross the Column 24 wall to Column 27.
+  4. Walk Down Column 27 to (27, 7) or (27, 15).
+  Wait, let's test if Row 2 actually connects Column 23 to Column 25. Let's do that!
 
 <hr>
 
