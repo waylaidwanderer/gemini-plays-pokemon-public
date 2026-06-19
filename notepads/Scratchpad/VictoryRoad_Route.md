@@ -50,3 +50,18 @@
 4. On 3F East, walk to (26, 8) via the cleared Row 10 passage (Boulder C2 is already pushed).
 5. Take the ladder at (26, 8) DOWN to 2F East (lands at (27, 7) inside the isolated pocket).
 6. Walk north to the exit at (28, 1)!
+
+## COMPLETE MACRO ROUTE TO VICTORY ROAD EXIT (Turn 105441):
+1. Walk from (21, 11) to (23, 7) on 2F East and go UP to 3F East.
+2. From (23, 7) on 3F East, walk West to 3F West.
+3. On 3F West, take the stairs down to 2F West.
+4. On 2F West, walk East to the main area of 2F East.
+5. On 2F East, walk to (21, 16) and walk Up onto the plateau stairs at (21, 15).
+6. Walk East along the plateau through the open gate to the ladder at (25, 14) and go UP to 3F East (lands at (27, 15)).
+7. On 3F East, walk to the ladder at (26, 8) via:
+   - Walk West along Row 13 to Column 23.
+   - Walk North along Column 23 to Row 10 (passable since Boulder C2 was pushed to (22, 10)).
+   - Walk East to Column 26.
+   - Walk North to (26, 8).
+8. Take the ladder at (26, 8) DOWN to 2F East (lands at (27, 7) inside the isolated northern pocket).
+9. Walk north to the exit at (28, 1)!
