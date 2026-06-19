@@ -1,5 +1,5 @@
 # Scratchpad: Victory Road Route & Puzzle States
-- Turn 107347: Standing at (27, 15) on Map 0_198 (Victory Road 3F East)
+- Turn 107374: Standing at (25, 10) on Map 0_198 (Victory Road 3F East)
 - Route Started: Turn 107326 | Timestamp: Friday, June 19, 2026 at 12:25 PM PDT
 
 ## Goal
