@@ -1,5 +1,5 @@
 # Scratchpad: Victory Road Route & Puzzle States
-- Current Turn: 106501
+- Current Turn: 106502
 - Current Position: (21, 0) on Map 0_198 (Victory Road 3F East)
 - Started Victory Road Navigation: Turn 97592
 - Real-World Timestamp: Friday, June 19, 2026 at 8:21 AM PDT
@@ -8,11 +8,12 @@
 Exit Victory Road via the direct northern exit on 3F East!
 
 ## Active Route to True Exit (Direct UP-Warp Testing Protocol):
-1. From our current position (27, 0) on 3F East, walk Down 2 steps to (27, 2) to stand on ground level:
+1. From our current position (21, 0) on 3F East, walk Right 6 steps to (27, 0) to stand on Column 27.
+2. From (27, 0), walk Down 2 steps to (27, 2) to stand on ground level:
    - Down 2 steps to (27, 2)
-2. Walk Up 1 step to (27, 1) to test if walking UP triggers the exit warp to Route 23 North:
+3. Walk Up 1 step to (27, 1) to test if walking UP triggers the exit warp to Route 23 North:
    - Up 1 step to (27, 1)
-3. If Column 27 does not trigger the exit, walk Right 1 step to (28, 2), then walk Up 1 step to (28, 1) to test the Column 28 exit warp:
+4. If Column 27 does not trigger the exit, walk Right 1 step to (28, 2), then walk Up 1 step to (28, 1) to test the Column 28 exit warp:
    - Right 1 step to (28, 2)
    - Up 1 step to (28, 1)
 
