@@ -1,37 +1,36 @@
 # Scratchpad: Victory Road Route & Puzzle States
 - Route Started: Turn 107326 | Timestamp: Friday, June 19, 2026 at 12:25 PM PDT
-- Current Position: (27, 8) on Victory Road 3F East (Map 0_198) | Turn: 107463
+- Current Position: (13, 12) on Victory Road 3F East (Map 0_198) | Turn: 107492
 
 ## Scientific Testing Plan for Victory Road Exit
-We must locate the exact exit warp tile by systematically investigating each possible floor hypothesis.
+We must locate the exact exit warp tile by systematically investigating the 3F East northeast corner.
 
-### Hypothesis 1: 3F East Northeast Corner
+### Hypothesis 1: 3F East Northeast Corner (Active)
 - **Hypothesis**: The true exit of Victory Road is on the 3rd Floor (3F) East in the northeast corner (Columns 27-28, Rows 0-2).
 - **Testing Method**:
-  1. Push Boulder C2 at (24, 10) Left to (22, 10).
-  2. Walk Left along Row 11 to 3F West.
-  3. Walk Up Column 13 to Row 2.
-  4. Walk Right along Row 2 to (27, 2).
-  5. Systematically step on (27, 2), (28, 2), (27, 1), (28, 1), (27, 0), and (28, 0).
-  6. Observe if Map ID transitions to Route 23 North (Map 0_34) in the Game State.
-- **Status**: Preparing to execute Step 1.
+  1. Push Boulder C2 at (24, 10) Left to (22, 10). (Completed!)
+  2. Walk Left along Row 13 to (13, 13) and bypass central walls. (Completed!)
+  3. Push Boulder C4 at (13, 12) Up to (13, 11) to clear Column 13. (In progress...)
+  4. Walk Up Column 13 to Row 2.
+  5. Walk Right along Row 2 to (27, 2).
+  6. Systematically step on (27, 2), (28, 2), (27, 1), (28, 1), (27, 0), and (28, 0) and check for transition to Route 23 North (Map 0_34).
+- **Status**: Executing Step 3.
 
-### Hypothesis 2: 2F East Northeast Corner
-- **Hypothesis**: The true exit is on 2F East at (28, 1) or (27, 1).
-- **Testing Method**:
-  1. Once Row 2 of 3F is reached, we can also test if there is an exit warp or ladder.
-  2. Note: We previously stood on (28, 1) on 2F East on Turn 106857 and did not exit the cave. This suggests 2F East is NOT the true exit floor.
-- **Status**: On hold pending Hypothesis 1.
+### Hypothesis 2: 2F East Northeast Corner (Disproven)
+- **Disproven**: Standing on (28, 1) and (27, 1) on 2F East on Turns 107006 and 107010 did not warp. Furthermore, Row 6 is a solid rock wall across Columns 24-28, completely blocking access to Row 1.
+- **Status**: Disproven.
 
-### Hypothesis 3: 1F East Northeast Corner
+### Hypothesis 3: 1F East Northeast Corner (On Hold)
 - **Hypothesis**: The true exit is on 1F East.
-- **Testing Method**:
-  1. If 3F East does not contain the exit warp, look for a ladder leading to 1F East on 2F East.
-- **Status**: On hold.
+- **Status**: On hold pending results of Hypothesis 1.
 
 ## Current Pathing Instructions:
-- Stand at (25, 10) facing Left to push Boulder C2.
-- Path from (27, 8):
-  1. Down to (27, 9)
-  2. Left 2 steps to (25, 9) (via (26, 9))
-  3. Down to (25, 10) (Facing Left)
+- We are at (13, 12) facing Up.
+- Pushing Boulder C4:
+  1. Press Up to push the boulder to (13, 10).
+  2. Press Up to step onto (13, 11).
+  3. Walk Right to Column 14 at (14, 11).
+  4. Walk Up to (14, 10) and (14, 9) and (14, 8) and (14, 7).
+  5. Walk Left to Column 13 at (13, 7).
+  6. Walk Up Column 13 to (13, 2).
+  7. Walk Right along Row 2 to (27, 2).
