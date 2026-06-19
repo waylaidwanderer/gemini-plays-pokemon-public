@@ -7493,6 +7493,7 @@ We must locate the exact exit warp tile by systematically investigating the 2F E
 - Step 4: Walk North on Column 9 on 2F West to Row 3, testing the vertical passability past Koga's plateau.
 - Step 5: Walk East on Row 3 from Column 9 to Column 27/28 on 2F East.
 - Step 6: Walk North on Column 28 to Row 1 to reach and test the exit warp at (28, 1) on 2F East!
+- Turn 107863: Tested the 2F East pocket on foot. We descended to 2F East at (23, 7) on Turn 107845, and empirically verified that (24, 7) is a solid rock wall of TYPE_2889. This proves the ground-level pocket on 2F East is split into two isolated halves by Column 24, and we cannot walk between the (23, 7) ladder and the (27, 7) ladder on ground level on 2F East. This disproves the 2F East pocket bypass. We successfully backtracked to 3F East at (23, 7) on Turn 107854.
 
 <hr>
 
