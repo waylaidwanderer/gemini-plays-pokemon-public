@@ -47,3 +47,17 @@ Let's trace how the map flows.
    Wait, what about 2F East?
    Let's check if there is another ladder/warp on 3F East or 2F East.
    Let's use `search_notepads` to find all ladder and warp locations in Victory Road.
+## Solving Victory Road Exit (3F East northern bypass)
+- Current Turn: 104961
+- Current Position: (23, 7) on Victory Road 3F East (Map 0_198)
+
+- **Verification of Route**:
+  - We are currently at (23, 7) on 3F East.
+  - To bypass the Column 24 vertical wall (which blocks Rows 11-15), we must go around via Row 2/3.
+  - Boulder C1 (initially at (22, 3)) has reset because of our map transition (2F -> 3F).
+  - It is currently sitting at (22, 3), blocking Row 3.
+  - Let's walk to (21, 3) and push it Right to (23, 3) and then bypass it.
+  - **Steps to (21, 3)**:
+    - From (23, 7), walk Left 3 steps to (20, 7).
+    - Walk Up 4 steps to (20, 3).
+    - Walk Right 1 step to (21, 3).
