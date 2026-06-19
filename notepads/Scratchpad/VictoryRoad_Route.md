@@ -30,7 +30,15 @@ We must locate the exact exit warp tile by systematically investigating the 2F E
   - If we land at (27, 7) on 2F East, we cannot walk north to Row 1/Row 2 due to the Row 6 solid rock wall across Columns 24-28.
   - Therefore, to access the true northern part of 2F East on ground level, we must utilize the southern ground corridor at Row 16 to cross from 2F East to 2F West, and bypass the plateau.
   - Let's construct a complete unblocked pathing hypothesis via 2F West to reach the northern half of 2F East on ground level.
-- **Status**: Active. Backtracking to 3F East via (23, 7) ladder to cross over to the west side.
+- **Unblocked 2F West Ground-Bypass Hypothesis**:
+  1. We are currently at (9, 2) on 3F East. We must walk to (27, 15) on 3F East and take the ladder DOWN to 2F East (lands at (26, 14) on 2F East plateau level).
+  2. From (26, 14), we walk West along the 2F plateau corridor to 2F West (around Column 13/14, Row 12/13).
+  3. We descend from the 2F plateau to the southern ground floor at Row 16.
+  4. On Row 16, we walk West to Column 9 (near Switch B2 at (9, 16)).
+  5. We walk North along Column 9 (which serves as our unblocked vertical passage on the West side) to bypass Koga's plateau and reach the northern ground area at Row 3.
+  6. We walk East along Row 3 from Column 9 all the way to Column 27/28 on 2F East.
+  7. From Column 27/28, we walk North to Row 1 to reach and test the exit warp at (28, 1) on 2F East!
+- **Status**: Active. Navigating back to (27, 15) ladder on 3F East.
 
 ### Hypothesis 3: 1F East Northeast Corner (On Hold)
 - **Hypothesis**: The true exit is on 1F East.
