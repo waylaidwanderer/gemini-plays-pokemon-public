@@ -7476,6 +7476,7 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 - Walk Right 4 to (27, 9).
 - Walk Up 2 to (27, 7) (ladder).
 - Turn 105277: Stepped Down to (23, 8) and triggered a wild Machop encounter. Preparing to flee.
+- Turn 105362: Arrived at (22, 4) on 3F East adjacent to the reset boulder at (22, 3). Preparing to activate STRENGTH on ROCKY and push the boulder Up 1 tile to (22, 2) to open the Row 3/Row 2 pathway.
 
 <hr>
 
