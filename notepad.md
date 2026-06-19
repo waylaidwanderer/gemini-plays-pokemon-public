@@ -7440,8 +7440,8 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 <h1><code>Scratchpad/VictoryRoad_Route</code></h1>
 
 # Scratchpad: Victory Road Route & Puzzle States
-- Turn 106844: Standing at (23, 7) on Map 0_194 (Victory Road 2F East)
-- Real-World Timestamp: Friday, June 19, 2026 at 10:10 AM PDT
+- Turn 106862: Standing at (28, 0) on Map 0_194 (Victory Road 2F East)
+- Real-World Timestamp: Friday, June 19, 2026 at 10:15 AM PDT
 
 ## Goal
 Exit Victory Road via 2F East to Route 23 North!
