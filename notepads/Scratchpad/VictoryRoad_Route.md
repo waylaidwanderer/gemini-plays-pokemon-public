@@ -1,32 +1,21 @@
 # Scratchpad: Victory Road Route & Puzzle States
-- Turn 107083: Standing at (28, 0) on Map 0_198 (Victory Road 3F East)
+- Turn 107163: Standing at (26, 5) on Map 0_198 (Victory Road 3F East)
 
 ## Goal
-Exit Victory Road to Route 23 North!
+Exit Victory Road to Route 23 North / Indigo Plateau!
 
 ## Physical Verification of Exit Location:
-- **Test 1 (Turn 107010)**: Stepped on (27, 1) and (27, 0) on 2F East. No exit warp triggered. This falsified the assumption that (27, 1) on 2F East is the exit warp tile.
-- **Test 2 (Turn 107045)**: Bumped when trying to step Down from (28, 5) to (28, 6) on 2F East. (28, 6) is a solid wall.
-- **Test 3 (Turn 107069)**: Stepped on (27, 1) and (27, 0) on 3F East (Map 0_198). No exit warp triggered either! This means neither (27, 1) nor (27, 0) on 3F East is the exit warp.
+- **Exit Warp Coordinates**: (27, 1) on Victory Road 2F East (Map 0_194).
+- **Access Route**: The exit warp is on the north side of the Row 6 wall on 2F East. It can be reached on foot by climbing down the ladder at (23, 7) from 3F East, walking North to Row 0, then East to Column 25, South to Row 1, and East to (27, 1).
 
-## New Hypothesis & Verification Plan:
-- The northern pocket of 2F East (Rows 0-5) is a completely closed dead-end pocket.
-- The actual exit of Victory Road is in the *southern pocket* of 2F East (Row 7 and below, on Column 29).
-- To reach the southern pocket of 2F East, we must take the ladder at (26, 8) on 3F East DOWN to 2F East (which lands at (27, 7) on 2F East).
-- From (27, 7) on 2F East, we walk Right to Column 29 and Down to exit!
-
-## Step-by-Step Path on 3F East:
-1. Walk from (28, 0) to (26, 8) on 3F East:
-   - Down 3 to (28, 3)
-   - Left 1 to (27, 3)
-   - Down 5 to (27, 8)
-   - Left 1 to (26, 8) (this is the ladder!)
-2. Take the ladder DOWN to 2F East at (27, 7).
-3. From (27, 7) on 2F East, walk Right to Column 29 and Down to exit.
-Turn 107148: Arrived on 3F East, walked to (25, 3). Path to (26, 8) is open via Row 2 northern bypass. No boulder pushes required.
-Path sequence: (25, 3) -> Up to (25, 2) -> Right 2 to (27, 2) -> Down 3 to (27, 5) -> Left to (26, 5) -> Down 3 to (26, 8) ladder.
-Turn 107153: Discovered that Row 6 is blocked by a solid wall from Column 24 to 29. The northern bypass to (26, 8) is blocked.
-We must instead take the southern ground-level corridor by:
-1. Walk back to Column 23 on 3F East: (26, 5) -> Right to (27, 5) -> Up to (27, 2) -> Left to (23, 2) -> Down to (23, 10).
-2. Activate STRENGTH and push Boulder C2 at (24, 10) East to (26, 10).
-3. Walk past it to (26, 8) ladder.
+## Step-by-Step Path from 3F East (26, 5) to Victory Road Exit:
+1. Walk from current position (26, 5) to ladder at (23, 7) on 3F East:
+   - Right 1 to (27, 5)
+   - Up 3 to (27, 2)
+   - Left 4 to (23, 2)
+   - Down 5 to (23, 7) (take ladder DOWN to 2F East)
+2. Land on 2F East at (23, 7), walk to the exit warp at (27, 1):
+   - Up 7 to (23, 0)
+   - Right 2 to (25, 0)
+   - Down 1 to (25, 1)
+   - Right 2 to (27, 1) (step onto the exit warp tile!)
