@@ -1,6 +1,6 @@
 # Scratchpad: Victory Road Route & Puzzle States
-- Current Turn: 106112
-- Current Position: (10, 9) on Map 0_194 (Victory Road 2F West)
+- Current Turn: 106142
+- Current Position: (21, 14) on Map 0_194 (Victory Road 2F West)
 
 ## Goal
 Navigate to the exit of Victory Road (Route 23 North / Indigo Plateau) via the northeastern ladder of 3F East.
