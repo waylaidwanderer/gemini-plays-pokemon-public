@@ -7475,6 +7475,7 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 - From (23, 8), walk Down 1 to (23, 9).
 - Walk Right 4 to (27, 9).
 - Walk Up 2 to (27, 7) (ladder).
+- Turn 105277: Stepped Down to (23, 8) and triggered a wild Machop encounter. Preparing to flee.
 
 <hr>
 
