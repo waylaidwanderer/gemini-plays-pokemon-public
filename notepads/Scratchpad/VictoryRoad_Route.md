@@ -1,6 +1,6 @@
 # Scratchpad: Victory Road Route & Puzzle States
 - Route Started: Turn 107326 | Timestamp: Friday, June 19, 2026 at 12:25 PM PDT
-- Current Position: (13, 12) on Victory Road 3F East (Map 0_198) | Turn: 107492
+- Current Position: (14, 6) on Victory Road 3F East (Map 0_198) | Turn: 107503
 
 ## Scientific Testing Plan for Victory Road Exit
 We must locate the exact exit warp tile by systematically investigating the 3F East northeast corner.
