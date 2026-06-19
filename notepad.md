@@ -7477,6 +7477,12 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 - Walk Up 2 to (27, 7) (ladder).
 - Turn 105277: Stepped Down to (23, 8) and triggered a wild Machop encounter. Preparing to flee.
 - Turn 105362: Arrived at (22, 4) on 3F East adjacent to the reset boulder at (22, 3). Preparing to activate STRENGTH on ROCKY and push the boulder Up 1 tile to (22, 2) to open the Row 3/Row 2 pathway.
+- Turn 105394: Position (23, 2) on 3F East. Boulder successfully pushed to (22, 2). Next, we will cross to the east side of 3F East by walking Right to (27, 2). From there, we will walk Down to the ladder at (26, 8) to descend into the northern isolated ground pocket of 2F East.
+- Step-by-step route to (26, 8):
+  1. Walk Right 4 steps to (27, 2).
+  2. Walk Down 6 steps to (27, 8).
+  3. Walk Left 1 step to (26, 8).
+  4. Interact with the ladder at (26, 8) to go down to 2F East.
 
 <hr>
 
