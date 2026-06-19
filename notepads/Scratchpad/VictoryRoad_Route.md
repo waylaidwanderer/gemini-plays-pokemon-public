@@ -1,21 +1,46 @@
 # Scratchpad: Victory Road Route & Puzzle States
-- Current Turn: 106195
-- Current Position: (27, 7) on Map 0_198 (Victory Road 3F East)
+- Current Turn: 106257
+- Current Position: (25, 10) on Map 0_198 (Victory Road 3F East)
 
 ## Goal
-Exit Victory Road via the direct Column 27 northern exit warp on 3F East!
+Exit Victory Road via the direct Column 28 northern exit warp on 3F East!
 
 ## Active Route to True Exit:
-1. Walk Right 1 step to (27, 8) (Right 1).
-2. Walk Up 7 steps along Column 27 to stand on Row 1 at (27, 1) (Up 7) to trigger the exit warp!
+1. Stand at (25, 10) on 3F East facing Left, with STRENGTH active.
+2. Push the boulder at (24, 10) Left twice to (22, 10) [3 Left button presses: Left (pushes to 23, 10), Left (walks to 24, 10), Left (pushes to 22, 10)].
+3. Walk South along Column 23 to Row 13:
+   - Down to (23, 11)
+   - Down to (23, 12)
+   - Down to (23, 13)
+4. Walk West along Row 13 to Column 13:
+   - Left to (22, 13)
+   - Left to (21, 13)
+   - Left to (20, 13)
+   - Left to (19, 13)
+   - Left to (18, 13)
+   - Left to (17, 13)
+   - Left to (16, 13)
+   - Left to (15, 13)
+   - Left to (14, 13)
+   - Left to (13, 13)
+5. Walk North along Column 13 to Row 8:
+   - Up to (13, 12)
+   - Up to (13, 11)
+   - Up to (13, 10)
+   - Up to (13, 9)
+   - Up to (13, 8)
+6. Walk West to Column 9:
+   - Left 4 steps to (9, 8)
+7. Walk North along Column 9 to Row 3:
+   - Up 5 steps to (9, 3)
+8. Walk East along Row 3 to Column 23:
+   - Right 14 steps to (23, 3)
+9. Walk North along Column 23 to Row 0:
+   - Up 3 steps to (23, 0)
+10. Walk Right to Column 28:
+    - Right 5 steps to (28, 0) to trigger the exit warp!
 
 ## Physical Verifications & Proof of Work:
-- Turn 105998: Tested (27, 6) on 2F East. Result: BUMP (physically impassable rock wall).
-- Turn 105982: Tested (28, 6) on 2F East. Result: BUMP (physically impassable rock wall).
-- Turn 105884: Tested (24, 8) on 3F East. Result: BUMP (physically impassable rock wall).
-- Turn 103173: Tested (23, 9) on 3F East. Result: BUMP (physically impassable rock wall).
-- Conclusion: Row 6 on 2F East is indeed completely blocked by solid rock wall across Columns 24-29. The only way to reach the exit room is via the northeast ladder on 3F East.
-
-## Navigation Log:
-- Started Victory Road Navigation: Turn 97592
-- Real-World Timestamp: Friday, June 19, 2026 at 5:50 AM PDT
+- Verified that Row 10 on 2F East is blocked, so direct crossover on 2F East is impossible.
+- Verified that 3F East has a bypass route via Row 13 and the western plateau.
+- STRENGTH successfully activated on Turn 106252.
