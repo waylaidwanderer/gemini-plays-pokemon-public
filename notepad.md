@@ -7464,6 +7464,8 @@ Exit Victory Road to Route 23 North!
    - Left 1 to (26, 8) (this is the ladder!)
 2. Take the ladder DOWN to 2F East at (27, 7).
 3. From (27, 7) on 2F East, walk Right to Column 29 and Down to exit.
+Turn 107148: Arrived on 3F East, walked to (25, 3). Path to (26, 8) is open via Row 2 northern bypass. No boulder pushes required.
+Path sequence: (25, 3) -> Up to (25, 2) -> Right 2 to (27, 2) -> Down 3 to (27, 5) -> Left to (26, 5) -> Down 3 to (26, 8) ladder.
 
 <hr>
 
