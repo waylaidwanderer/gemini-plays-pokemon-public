@@ -5,16 +5,23 @@
 ## Goal
 Exit Victory Road via 2F East to Route 23 North!
 
-## Active Route to Exit (True Bypass Protocol):
-1. Traverse 3F East to the southern ladder at (27, 15) via Western Bypass:
-   - From (23, 2), walk Up 1 step to Row 1, and walk Left to Column 14 (9 steps Left).
-   - Walk Down Column 14 to Row 13 (12 steps Down).
-   - Walk Right along Row 13 to Column 26 (12 steps Right).
-   - Walk Down Column 26/27 to the ladder at (27, 15) (2 steps Down) and take the ladder DOWN to 2F East.
-2. On 2F East plateau (z=1), walk to 2F West ground level:
-   - Land at (26, 14) [z=1]. Walk Left along Row 14/13/12 on the plateau to Column 14.
-   - Walk Up Column 14 to Row 1 (13 steps Up).
-   - Walk Right along Row 1 to Column 28 (13 steps Right) to reach the exit at (28, 1) on 2F East.
+## Active Route to Exit (True 2F East Plateau Bypass):
+1. Return to 2F East via the (23, 7) ladder:
+   - Walk Up Column 14 to Row 6: (14, 10) -> (14, 6) [4 steps Up].
+   - Walk Right along Row 6 to Column 23: (14, 6) -> (23, 6) [9 steps Right].
+   - Walk Down Column 23 to the ladder at (23, 7): (23, 6) -> (23, 7) [1 step Down].
+   - Take the ladder DOWN to 2F East.
+2. On 2F East, navigate to the plateau via the southeastern stairs:
+   - Land at (23, 7) [z=0]. Walk Down Column 23 to Row 11: (23, 7) -> (23, 11) [4 steps Down].
+   - Walk Right along Row 11 through the open gate at (24, 11) to Column 25: (23, 11) -> (25, 11) [2 steps Right].
+   - Walk Down Column 25 to Row 16: (25, 11) -> (25, 16) [5 steps Down].
+   - Walk Left along Row 16 to Column 21: (25, 16) -> (21, 16) [4 steps Left].
+   - Walk Up Column 21 to the stairs at (21, 15): (21, 16) -> (21, 15) [1 step Up] (climbs onto plateau z=1).
+3. On the 2F East plateau, walk to the exit:
+   - From (21, 15) [z=1], walk Up to Row 13: (21, 15) -> (21, 13) [2 steps Up].
+   - Walk Left along Row 13 on the plateau to Column 14: (21, 13) -> (14, 13) [7 steps Left].
+   - Walk Up Column 14 to Row 1: (14, 13) -> (14, 1) [12 steps Up].
+   - Walk Right along Row 1 to the exit at (28, 1) on 2F East: (14, 1) -> (28, 1) [14 steps Right].
 
 ## Physical Verifications & Proof of Work:
 - Turn 106311: Stood at (28, 0) on 3F East, faced UP, and pressed UP. Result: solid collision bump, proving Row 0 Column 28 is impassable.
