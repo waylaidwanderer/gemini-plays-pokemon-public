@@ -1,17 +1,13 @@
 # Scratchpad: Victory Road Route & Puzzle States
-- Current Turn: 106175
+- Current Turn: 106178
 - Current Position: (26, 8) on Map 0_198 (Victory Road 3F East)
 
 ## Goal
-Exit Victory Road via the ladder at (23, 7) on 2F East to 3F East, then walk north along Column 23 to the exit at (23, 0).
+Exit Victory Road via the direct Column 27 northern exit warp on 3F East!
 
 ## Active Route to True Exit:
-1. From (27, 7) on ground level, walk Down 4 steps along Column 27 to (27, 11) (Down 4).
-2. Walk Left 4 steps along Row 11 to (23, 11) (Left 4).
-3. Walk Up 4 steps along Column 23 to stand on the ladder at (23, 7) (Up 4).
-4. Take the ladder UP to 3F East (lands at (23, 7) on 3F East).
-5. On 3F East, walk Up 7 steps along Column 23 to (23, 0) (Up 7).
-6. Face UP and press UP to exit Victory Road to Route 23 North!
+1. Walk Right 1 step to (27, 8) (Right 1).
+2. Walk Up 7 steps along Column 27 to stand on Row 1 at (27, 1) (Up 7) to trigger the exit warp!
 
 ## Physical Verifications & Proof of Work:
 - Turn 105998: Tested (27, 6) on 2F East. Result: BUMP (physically impassable rock wall).
