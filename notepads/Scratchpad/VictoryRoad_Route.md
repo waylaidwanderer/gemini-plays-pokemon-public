@@ -25,8 +25,12 @@
 - Turn 105202: Walked to (25, 2) after fleeing a wild Zubat.
 - Turn 105207: Preparing to walk back to the ladder at (23, 7) on 3F East to go down to 2F East.
 - Turn 105235: Standing at (23, 7) on 2F East. Ready to head to (27, 7) via the open gate at (24, 8).
+- Turn 105237: Took the ladder at (23, 7) UP to 3F East (lands at (23, 7) on 3F East).
+- Turn 105244: Standing at (23, 8) on 3F East. Discovered that (24, 8) is a rock wall (TYPE_2889), so Row 8 on 3F East does not connect Column 23 to Column 25.
+- Turn 105257: Walked back Up to the ladder at (23, 7) and went DOWN to 2F East.
+- Turn 105264: Standing at (23, 8) on 2F East. Preparing to walk to the other ladder at (27, 7) on 2F East via Row 9.
 
 ## Path to Ladder (27, 7) on 2F East:
-- From (23, 7), walk Down 1 to (23, 8).
-- Walk Right 4 to (27, 8) (passing through open gate at (24, 8)).
-- Walk Up 1 to (27, 7) (ladder).
+- From (23, 8), walk Down 1 to (23, 9).
+- Walk Right 4 to (27, 9).
+- Walk Up 2 to (27, 7) (ladder).
