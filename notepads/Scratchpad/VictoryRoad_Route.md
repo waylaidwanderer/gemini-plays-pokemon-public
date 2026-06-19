@@ -114,3 +114,4 @@ We must locate the exact exit warp tile by systematically investigating the 2F E
             - Wait, let's search our notepads or think if there's any other route.
             - Let's search for "Boulder C4" in our notepads.
             - Ah! Let's do that in a code snippet or search. But first, let's write down the active 3F East routing in our notepad.
+- Turn 107895: Empirically tested pushing the boulder at (13, 13) Down onto (13, 14) on Turn 107888. Result: Bump, confirming (13, 14) is a solid rock wall of TYPE_2889. This disproves any ground-level crossover of Column 13, proving it is a complete dead end. Ground-level vertical traversal on 3F East is 100% blocked, and we must backtrack to the central plateau stairs at (17, 5) to cross via 2F West.
