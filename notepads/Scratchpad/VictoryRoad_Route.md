@@ -1,6 +1,6 @@
 # Scratchpad: Victory Road Route & Puzzle States
-- Current Turn: 105488
-- Current Position: (23, 7) on Map 0_198 (Victory Road 3F East)
+- Current Turn: 105992
+- Current Position: (26, 8) on Map 0_198 (Victory Road 3F East)
 
 ## Goal
 Cross to the east side of 3F East via the northern Row 2/3 bypass and navigate to the ladder at (27, 7) (which is located at (26, 8) on 3F East) to descend into the isolated northern pocket of 2F East and reach the exit.
