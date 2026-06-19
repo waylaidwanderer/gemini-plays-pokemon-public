@@ -1,5 +1,6 @@
 # Scratchpad: Victory Road Route & Puzzle States
-- Turn 107306: Standing at (23, 7) on Map 0_194 (Victory Road 2F East)
+- Turn 107326: Standing at (28, 15) on Map 0_194 (Victory Road 2F East)
+- Route Started: Turn 107326 | Timestamp: Friday, June 19, 2026 at 12:25 PM PDT
 
 ## Goal
 Exit Victory Road to Route 23 North / Indigo Plateau!
