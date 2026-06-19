@@ -1,5 +1,5 @@
 # Scratchpad: Victory Road Route & Puzzle States
-- Turn 107224: Standing at (23, 11) on Map 0_194 (Victory Road 2F East)
+- Turn 107242: Standing at (23, 6) on Map 0_198 (Victory Road 3F East)
 
 ## Goal
 Exit Victory Road to Route 23 North / Indigo Plateau!
