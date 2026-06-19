@@ -356,3 +356,8 @@ Let's trace the path from (21, 16) to (29, 1):
 - Turn 104552: Standing at (2, 5) on 2F West. Realized we are on the south side of the Row 4 blockage, and the boulder at (5, 5) blocks the only passage at (5, 4). We cannot reach the (1, 1) ladder.
 - Turn 104564: Attempted to walk Down Column 5 to reach the stairs, but bumped against the solid cliff edge at (5, 8).
 - Turn 104567: Standing at (5, 7) facing Down. Plotting path to walk around the cliff using Column 3 ground corridor: Left x2 to Column 3, Down x4 to Row 11, Right x2 to Column 5 (5, 11), and Up x1 to take the stairs back to 2F East.
+- Turn 104622: Currently at (5, 8) on Victory Road 2F West. We fled from a wild Onix at (5, 8). We are facing Right. We need to walk across the plateau corridor to 2F East.
+- Step 1: Walk to the right edge of the screen at (10, 8).
+  - From (5, 8), (10, 8) is 5 steps to the Right.
+  - Button sequence: ['Right', 'Right', 'Right', 'Right', 'Right']
+  - Let's execute this to reach (10, 8).
