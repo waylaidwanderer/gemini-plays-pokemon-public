@@ -7636,6 +7636,9 @@ Cross to the east side of 3F East via the northern Row 2/3 bypass and navigate t
 10. Walk Left 1 step to (26, 8) (ladder).
 11. Take the ladder at (26, 8) DOWN to 2F East (lands at (27, 7) inside the exit pocket).
 12. Walk north to (28, 1) and exit Victory Road!
+- Turn 105998: Physically stood at (27, 7) on 2F East (Map 0_194) and pressed UP to test the passability of (27, 6). The press resulted in a collision bump, and we remained at (27, 7), verifying with absolute certainty that (27, 6) is physically impassable rock wall.
+- Turn 105982: Physically stood at (28, 7) on 2F East (Map 0_194) and pressed UP to test the passability of (28, 6). The press resulted in a collision bump, and we remained at (28, 7), verifying with absolute certainty that (28, 6) is physically impassable rock wall.
+- Conclusion: Row 6 on 2F East (Map 0_194) is completely blocked and impassable. The northeast pocket on 2F East is indeed a dead end on ground level.
 
 <hr>
 
