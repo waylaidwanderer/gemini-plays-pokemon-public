@@ -181,3 +181,17 @@ Cross to the east side of 3F East via the northern Row 2/3 bypass and navigate t
 - Turn 105886: Successfully took the ladder at (23, 7) from 3F East down to 2F East (Map 0_194). Now standing at (23, 7) on 2F East.
 - Turn 105929: We arrived at (23, 7) on 3F East (Map 0_198). Realized that Row 6 on 3F East completely blocks horizontal and vertical crossing on the east side because of a solid wall of TYPE_2889 from Column 24 to 28. Therefore, the northern bypass is impassable on 3F East for reaching the exit. We must return DOWN to 2F East (Map 0_194), walk to Koga's plateau stairs at (21, 15), push the boulder at (23, 16) Left 1 step to (22, 16) to clear Column 23, climb onto Koga's plateau at (21, 15), cross to the ladder at (25, 14), go UP to 3F East (lands at (27, 15)), and walk to (26, 8) to descend to the exit pocket on 2F East.
 - Step 1: Step Down to (23, 8), then Up to (23, 7) to trigger the warp DOWN to 2F East.
+
+## Active Route from (23, 7) on 2F East to Exit Pocket:
+1. Stand at (23, 7) on 2F East.
+2. Walk Down 4 steps to (23, 11).
+3. Walk Right 5 steps along Row 11 (passing through the open gate at (24, 11)) to (28, 11).
+4. Walk Down 6 steps along Column 28 to (28, 17).
+5. Walk Left 7 steps along Row 17 to (21, 17).
+6. Walk Up 2 steps to (21, 15) (Plateau Stairs East).
+7. Walk Right 5 steps on Koga's plateau to (26, 15).
+8. Walk Up 1 step to (26, 14) (ladder) to warp to 3F East (lands at (27, 15)).
+9. On 3F East, walk Up 7 steps to (27, 8).
+10. Walk Left 1 step to (26, 8) (ladder).
+11. Take the ladder at (26, 8) DOWN to 2F East (lands at (27, 7) inside the exit pocket).
+12. Walk north to (28, 1) and exit Victory Road!
