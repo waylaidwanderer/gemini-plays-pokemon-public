@@ -140,3 +140,10 @@ Cross to the east side of 3F East via the northern Row 2/3 bypass and navigate t
   - Let's first return to 3F East by stepping off the ladder and back onto it.
   - Path: Down to (27, 8), Up to (27, 7) to transition back to 3F East.
 - Turn 105679: Standing at (24, 10) facing Left, with the boulder now pushed Left once to (23, 10). To push it a second time to (22, 10), we must press Left again from our current position to push it. Let's verify that (22, 10) is open and then execute the push.
+## B1F and 1F/2F/3F Exit Geometry Investigation (Turn 105707)
+- Hypothesized on Turn 105707: The exit of Victory Road is actually located on 1F (the first floor), consistent with vanilla mechanics. 
+- To confirm, we must reach the eastern side of 3F East, take the ladder at (26, 8) down to 2F, and find if we can access the 1F ladder there. Let's make our way there.
+- Path from current position (13, 12) to Column 22 on Row 13:
+  - Down to (13, 13)
+  - Right 9 steps to (22, 13)
+- Let's execute this movement and verify coordinate updates at each step.
