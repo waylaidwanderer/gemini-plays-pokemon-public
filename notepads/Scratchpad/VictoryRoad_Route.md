@@ -1,6 +1,6 @@
 # Scratchpad: Victory Road Route & Puzzle States
-- Current Turn: 106163
-- Current Position: (27, 11) on Map 0_198 (Victory Road 3F East)
+- Current Turn: 106165
+- Current Position: (27, 7) on Map 0_194 (Victory Road 2F West)
 
 ## Goal
 Exit Victory Road via the eastern ladder crossover (25, 14) on 2F East to 3F East, then to the exit on 2F East (28, 1).
