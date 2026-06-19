@@ -22,3 +22,8 @@ Exit Victory Road to Route 23 North / Indigo Plateau!
    - Take the ladder at (0, 8) DOWN to 1F West (lands at (1, 1)).
 4. Escape to Route 23 North:
    - From (1, 1) on 1F West, walk to the exit warp at (17, 2) to exit Victory Road!
+
+## Column 28 Row 12 Collision Test (Turn 107226):
+- **Hypothesis**: Column 28 Row 12 is blocked by Koga's plateau wall, making ground-level vertical traversal down Column 28 impossible.
+- **Methodology**: Walk Right 5 steps from (23, 11) to (28, 11), then walk Down 1 step to try to step on (28, 12). Check for physical collision.
+- **Backtrack Route if Blocked**: Walk Left 5 steps to (23, 11), Up 4 steps to (23, 7) ladder to 3F East, and use Column 27 on 3F East to reach the (27, 15) ladder.
