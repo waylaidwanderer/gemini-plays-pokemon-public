@@ -7440,8 +7440,8 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 <h1><code>Scratchpad/VictoryRoad_Route</code></h1>
 
 # Scratchpad: Victory Road Route & Puzzle States
-- Current Turn: 106181
-- Current Position: (26, 8) on Map 0_198 (Victory Road 3F East)
+- Current Turn: 106191
+- Current Position: (27, 7) on Map 0_198 (Victory Road 3F East)
 
 ## Goal
 Exit Victory Road via the direct Column 27 northern exit warp on 3F East!
