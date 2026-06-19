@@ -17,10 +17,10 @@
   - Walk East along Row 7 to the ladder at (23, 7).
   - Descend the ladder to 2F East at (23, 7).
 - **Final Exit Segment (2F East)**:
-  - From 3F East (26, 8), take the ladder DOWN to 2F East (27, 7).
-  - From (27, 7), walk Right 1 step to (28, 7).
-  - Walk Up Column 28 to Row 1 (6 steps).
-  - Walk Right to (29, 1) or (28, 1) to exit to Route 23/Indigo Plateau!
+  - From (23, 7) on 2F East, walk Up 2 steps to (23, 5).
+  - Walk Right 3 steps to (26, 5) to bypass the Row 4 solid wall on the west.
+  - Walk Up 4 steps along Column 26 to Row 1 at (26, 1).
+  - Walk Right 2 steps to (28, 1) or (29, 1) to exit to Route 23/Indigo Plateau!
 
 ## Live Execution Logs (Run 53):
 - Turn 104711: Warped back UP from 2F East to 3F East, landing at (26, 8).
@@ -30,6 +30,10 @@
 - Turn 104726: Walked to (20, 13) through the cleared corridor. Fled wild Machop.
 - Turn 104835: Successfully transitioned back down to Victory Road 2F East. Current Position is (23, 7). Preparing to walk to (25, 3) via Row 5 and Column 22.
 - Turn 105110: Confirmed position at (23, 7) on 2F East. Preparing to walk to the ladder at (27, 7) to transition back up to 3F East and navigate to the northern section.
+- Turn 105185: Walked from (23, 7) to (21, 3) on 3F East.
+- Turn 105194: Activated STRENGTH and pushed the boulder at (22, 3) Right 1 step to (23, 3).
+- Turn 105202: Walked to (25, 2) after fleeing a wild Zubat.
+- Turn 105207: Preparing to walk back to the ladder at (23, 7) on 3F East to go down to 2F East.
 
 ## Passability Test: Column 22 Row 4 (Turn 104879-104884)
 - **Hypothesis**: The Scratchpad route says "bypass barriers via Column 22 to Row 3". However, (22, 4) is labeled TYPE_2889 (solid rock wall) on screen. We hypothesize that Column 22 on Row 4 is impassable and we cannot walk Up past Row 4 to Row 3 on the west side.
