@@ -7440,51 +7440,35 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 <h1><code>Scratchpad/VictoryRoad_Route</code></h1>
 
 # Scratchpad: Victory Road Route & Puzzle States
-- Current Turn: 106257
-- Current Position: (25, 10) on Map 0_198 (Victory Road 3F East)
+- Current Turn: 106291
+- Current Position: (22, 7) on Map 0_198 (Victory Road 3F East)
+- Started Victory Road Navigation: Turn 97592
+- Real-World Timestamp: Friday, June 19, 2026 at 5:50 AM PDT
 
 ## Goal
 Exit Victory Road via the direct Column 28 northern exit warp on 3F East!
 
-## Active Route to True Exit:
-1. Stand at (25, 10) on 3F East facing Left, with STRENGTH active.
-2. Push the boulder at (24, 10) Left twice to (22, 10) [3 Left button presses: Left (pushes to 23, 10), Left (walks to 24, 10), Left (pushes to 22, 10)].
-3. Walk South along Column 23 to Row 13:
-   - Down to (23, 11)
-   - Down to (23, 12)
-   - Down to (23, 13)
-4. Walk West along Row 13 to Column 13:
-   - Left to (22, 13)
-   - Left to (21, 13)
-   - Left to (20, 13)
-   - Left to (19, 13)
-   - Left to (18, 13)
-   - Left to (17, 13)
-   - Left to (16, 13)
-   - Left to (15, 13)
-   - Left to (14, 13)
-   - Left to (13, 13)
-5. Walk North along Column 13 to Row 8:
-   - Up to (13, 12)
-   - Up to (13, 11)
-   - Up to (13, 10)
-   - Up to (13, 9)
-   - Up to (13, 8)
-6. Walk West to Column 9:
-   - Left 4 steps to (9, 8)
-7. Walk North along Column 9 to Row 3:
-   - Up 5 steps to (9, 3)
-8. Walk East along Row 3 to Column 23:
-   - Right 14 steps to (23, 3)
-9. Walk North along Column 23 to Row 0:
-   - Up 3 steps to (23, 0)
-10. Walk Right to Column 28:
-    - Right 5 steps to (28, 0) to trigger the exit warp!
+## Active Route to True Exit (Direct Ground Route):
+1. Stand at (22, 7) on 3F East (current position).
+2. Walk Up 3 steps along Column 22 to stand at (22, 4) facing Up:
+   - Up to (22, 6)
+   - Up to (22, 5)
+   - Up to (22, 4)
+3. Push the reset boulder at (22, 3) Up once to (22, 2) using STRENGTH (press Up once).
+4. Step Up 1 step onto (22, 3) (press Up).
+5. Step Right 1 step to (23, 3) (press Right).
+6. Walk Up 3 steps along Column 23 to Row 0:
+   - Up to (23, 2)
+   - Up to (23, 1)
+   - Up to (23, 0)
+7. Walk Right 5 steps along Row 0 to Column 28:
+   - Right 5 steps to (28, 0) to trigger the exit warp!
 
 ## Physical Verifications & Proof of Work:
 - Verified that Row 10 on 2F East is blocked, so direct crossover on 2F East is impossible.
 - Verified that 3F East has a bypass route via Row 13 and the western plateau.
 - STRENGTH successfully activated on Turn 106252.
+- Verified that we do NOT need to take any ladders to exit; we can walk directly along Row 7 and Column 22 on ground level!
 
 <hr>
 
