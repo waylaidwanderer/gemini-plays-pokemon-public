@@ -7467,6 +7467,8 @@ Exit Victory Road via the direct northern exit on 3F East!
 - Turn 106368: Verified that Row 6 is completely blocked on 3F East, making direct northern-to-southern traversal in the northeastern section impossible on foot. The Double-Ladders Bypass Protocol is required.
 - Turn 105998: We physically tested (27, 6) on 2F East and confirmed it was a BUMP (solid rock wall).
 - Turn 106411: Standing at (27, 0) on 3F East, preparing to test if the exit warp is direction-sensitive and must be walked UP into from Row 2.
+- Turn 106514: Pressed Up at (27, 0) facing Up. Result: solid collision bump (0 tiles visited), proving that (27, 0) has no northern boundary exit warp.
+- Turn 106516: Initiating test of Column 28 warp: walk Down to (27, 2), Right to (28, 2), and Up to (28, 1).
 
 <hr>
 
