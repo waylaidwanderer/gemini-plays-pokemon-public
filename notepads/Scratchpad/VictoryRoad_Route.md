@@ -27,7 +27,23 @@
 - Turn 104726: Walked to (20, 13) through the cleared corridor. Fled wild Machop.
 - Turn 104835: Successfully transitioned back down to Victory Road 2F East. Current Position is (23, 7). Preparing to walk to (25, 3) via Row 5 and Column 22.
 
-## Passability Test: Column 22 Row 4 (Turn 104879)
+## Passability Test: Column 22 Row 4 (Turn 104879-104884)
 - **Hypothesis**: The Scratchpad route says "bypass barriers via Column 22 to Row 3". However, (22, 4) is labeled TYPE_2889 (solid rock wall) on screen. We hypothesize that Column 22 on Row 4 is impassable and we cannot walk Up past Row 4 to Row 3 on the west side.
 - **Testing Plan**: From (23, 8), walk Left to (22, 8), Up 3 steps to (22, 5), and attempt to walk Up to (22, 4). We will observe if we bump or step forward.
-- **Turn 104879**: Started test. Walking Left to (22, 8).
+- **Turn 104884**: Visually inspected screen. Row 4 is indeed a continuous line of TYPE_2889 (solid rock wall) from (19, 4) to (24, 4), and Column 24 is a solid rock wall from (24, 4) to (24, 10). Row 6 is a solid rock wall from (24, 6) to (28, 6).
+- **Result**: Row 4 on the west side is indeed completely impassable! The old route of "bypass barriers via Column 22 to Row 3" on 2F East is confirmed physically impossible without going to another floor.
+
+## Real Route Analysis: How do we reach the exit (28, 1)?
+Let's trace how the map flows.
+1. The exit is at (28, 1) on 2F East.
+2. The area around (28, 1) (Rows 1-5, Columns 25-28) is bounded on the south by Row 6 (which is a solid rock wall at Columns 24-28).
+3. Wait, is there a ladder in that northern section (Rows 1-5)? Let's check!
+   Is there any ladder there?
+   The map markers do not list any ladder in Rows 1-5 on 2F East.
+   Wait, let's verify if there is a ladder on 3F East that goes DOWN to the northern section of 2F East.
+   Wait, where are the ladders on 3F East (Map 0_198)?
+   - (23, 7) goes to 2F East (23, 7) [inside the west side, below the Row 4 wall].
+   - (27, 7) goes to 3F East (26, 8). Wait! (27, 7) on 2F is below the Row 6 wall.
+   Wait, what about 2F East?
+   Let's check if there is another ladder/warp on 3F East or 2F East.
+   Let's use `search_notepads` to find all ladder and warp locations in Victory Road.
