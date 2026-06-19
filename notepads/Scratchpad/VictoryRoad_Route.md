@@ -125,3 +125,7 @@ Cross to the east side of 3F East via the northern Row 2/3 bypass and navigate t
    - Walk Left 1 step to (26, 8) (ladder).
 7. Take the ladder at (26, 8) DOWN to 2F East (lands at (27, 7) inside the isolated pocket).
 8. Walk north to the exit at (28, 1)!
+- Turn 105515: Verified that on 3F East, Row 6 is completely blocked by a solid rock wall of TYPE_2889 from Column 24 to Column 28, preventing any southern traversal on the east side from Row 2. Therefore, the northern bypass on 3F East is impassable for crossing to the southeastern exit.
+- Strategy: We must use the 2F East plateau route instead.
+  1. Step off the ladder at (23, 7) to (23, 8) (Down), then step back on to (23, 7) (Up) to transition back to 2F East.
+  2. Walk to the plateau stairs on 2F East.
