@@ -7440,7 +7440,7 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 <h1><code>Scratchpad/VictoryRoad_Route</code></h1>
 
 # Scratchpad: Victory Road Route & Puzzle States
-- Turn 107076: Standing at (27, 0) on Map 0_198 (Victory Road 3F East)
+- Turn 107083: Standing at (28, 0) on Map 0_198 (Victory Road 3F East)
 
 ## Goal
 Exit Victory Road to Route 23 North!
@@ -7451,13 +7451,19 @@ Exit Victory Road to Route 23 North!
 - **Test 3 (Turn 107069)**: Stepped on (27, 1) and (27, 0) on 3F East (Map 0_198). No exit warp triggered either! This means neither (27, 1) nor (27, 0) on 3F East is the exit warp.
 
 ## New Hypothesis & Verification Plan:
-The exit of Victory Road MUST be in the northeast corner of 2F East, but we must have the warp located at either (28, 5) or some other Column 28 coordinate, or we need to look closer.
-Wait, let's look at (28, 0) on 3F East. Walking onto (28, 0) on 3F East warps us to (28, 1) on 2F East.
-Let's warp down to 2F East, and systematically test Column 28 and Column 27 on 2F East to find the exit warp.
-- To do this:
-  1. Walk Right from (27, 0) on 3F East to (28, 0). This triggers the warp to (28, 1) on 2F East.
-  2. From (28, 1) on 2F East, walk Left to (27, 1), Up to (27, 0), then Down to (27, 1) to test if direction of entry matters for (27, 1).
-  3. If that fails, test (28, 5) by walking Down Column 28 and testing if (28, 5) is indeed an exit warp from a different angle or if there's any other exit.
+- The northern pocket of 2F East (Rows 0-5) is a completely closed dead-end pocket.
+- The actual exit of Victory Road is in the *southern pocket* of 2F East (Row 7 and below, on Column 29).
+- To reach the southern pocket of 2F East, we must take the ladder at (26, 8) on 3F East DOWN to 2F East (which lands at (27, 7) on 2F East).
+- From (27, 7) on 2F East, we walk Right to Column 29 and Down to exit!
+
+## Step-by-Step Path on 3F East:
+1. Walk from (28, 0) to (26, 8) on 3F East:
+   - Down 3 to (28, 3)
+   - Left 1 to (27, 3)
+   - Down 5 to (27, 8)
+   - Left 1 to (26, 8) (this is the ladder!)
+2. Take the ladder DOWN to 2F East at (27, 7).
+3. From (27, 7) on 2F East, walk Right to Column 29 and Down to exit.
 
 <hr>
 
