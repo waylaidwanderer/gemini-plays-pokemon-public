@@ -7580,12 +7580,23 @@ Cross to the east side of 3F East via the northern Row 2/3 bypass and navigate t
   - Wait, let's test if there is an exit on 3F East or 2F East.
   - Let's first return to 3F East by stepping off the ladder and back onto it.
   - Path: Down to (27, 8), Up to (27, 7) to transition back to 3F East.
-- Turn 105726: Standing at (26, 9) on 2F East, verified that Row 10 is indeed blocked completely on ground level by TYPE_2889 walls at (26, 10), preventing southern ground-level traversal to Row 11. To proceed, we must backtrack to the ladder at (27, 7) on 2F East and ascend to 3F East, then use the 3F East northern bypass to access Column 23, descend to 2F East via (23, 7), and cross to the plateau stairs.
-- Path from (26, 9) to (27, 7):
-  1. Walk UP 1 step to (26, 8) (Up)
-  2. Walk RIGHT 1 step to (27, 8) (Right)
-  3. Walk UP 1 step to (27, 7) (Up) to transition to 3F East.
-- Let's execute this movement.
+- Turn 105731: Verified that the exit of Victory Road is indeed on 3F East in the northeast corner at (28, 1).
+- Because Row 6 is blocked on the east side of both 2F and 3F, and Column 23 Row 4 is blocked on 2F East, the ONLY open path to the northern area (Rows 1-5) is to walk UP Column 23 on 3F East from (23, 7) to Row 2, then walk Right on Row 2 to Column 28, and walk Up to (28, 1) to exit.
+- Since we are currently at (26, 8) on the isolated south-east side of 3F East, we must cross over to the south-west side via 2F East's plateau crossover, then ascend via (23, 7).
+- Step-by-Step Route to Victory Road Exit:
+  1. From (26, 8) on 3F East, walk Right to (27, 8) (Right) and Down to (27, 15) (Down 7).
+  2. Take the ladder at (27, 15) DOWN to 2F East (lands on the plateau at (26, 14)).
+  3. Walk Left 5 steps to (21, 14), and Down 1 step to descend the plateau stairs to ground level at (21, 15).
+  4. Walk Left 2 steps to (19, 15), Up 4 steps to (19, 11), and Right 4 steps to (23, 11).
+  5. Walk Up 4 steps to the ladder at (23, 7).
+  6. Take the ladder at (23, 7) UP to 3F East (lands at (23, 7)).
+  7. Walk Up 5 steps to Row 2 at (23, 2).
+  8. Walk Right 5 steps to Column 28 at (28, 2).
+  9. Walk Up 1 step to (28, 1) to exit Victory Road!
+- Let's begin executing step 1: Walk from (26, 8) to (27, 15) on 3F East.
+  - Path: Right to (27, 8), Down 7 steps to (27, 15).
+  - Total: Right, Down, Down, Down, Down, Down, Down, Down.
+  - Let's chunk this into: Right, Down, Down, Down, Down.
 
 <hr>
 
