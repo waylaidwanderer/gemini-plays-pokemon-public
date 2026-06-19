@@ -7484,6 +7484,14 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   3. Walk Left 1 step to (26, 8).
   4. Interact with the ladder at (26, 8) to go down to 2F East.
 
+## Verified True Route to Victory Road Exit (Turn 105427):
+1. Walk from current position (27, 2) on 3F East to the ladder at (23, 7) and go DOWN to 2F East.
+2. Walk on 2F East to the plateau stairs, climb up, and walk east through the open gate to the ladder at (26, 14).
+3. Take the ladder at (26, 14) UP to 3F East (lands at (27, 15)).
+4. On 3F East, walk to (26, 8) via the cleared Row 10 passage (Boulder C2 is already pushed).
+5. Take the ladder at (26, 8) DOWN to 2F East (lands at (27, 7) inside the isolated pocket).
+6. Walk north to the exit at (28, 1)!
+
 <hr>
 
 <h1><code>Locations/VictoryRoad_3F</code></h1>
