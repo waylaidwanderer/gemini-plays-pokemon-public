@@ -7440,7 +7440,7 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 <h1><code>Scratchpad/VictoryRoad_Route</code></h1>
 
 # Scratchpad: Victory Road Route & Puzzle States
-- Turn 107242: Standing at (23, 6) on Map 0_198 (Victory Road 3F East)
+- Turn 107251: Standing at (23, 6) on Map 0_198 (Victory Road 3F East)
 
 ## Goal
 Exit Victory Road to Route 23 North / Indigo Plateau!
