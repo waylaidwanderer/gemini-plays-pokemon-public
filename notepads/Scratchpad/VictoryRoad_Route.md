@@ -1,6 +1,6 @@
 # Scratchpad: Victory Road Route & Puzzle States
-- Turn 106801: Standing at (25, 10) on Map 0_198 (Victory Road 3F East)
-- Real-World Timestamp: Friday, June 19, 2026 at 9:45 AM PDT
+- Turn 106805: Standing at (24, 10) on Map 0_198 (Victory Road 3F East)
+- Real-World Timestamp: Friday, June 19, 2026 at 9:47 AM PDT
 
 ## Goal
 Exit Victory Road via 2F East to Route 23 North!
