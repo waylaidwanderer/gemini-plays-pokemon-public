@@ -59,6 +59,5 @@ Let's trace how the map flows.
   - It is currently sitting at (22, 3), blocking Row 3.
   - Let's walk to (21, 3) and push it Right to (23, 3) and then bypass it.
   - **Steps to (21, 3)**:
-    - From (23, 7), walk Left 3 steps to (20, 7).
-    - Walk Up 4 steps to (20, 3).
-    - Walk Right 1 step to (21, 3).
+    - From (23, 7), walk Left 2 steps to (21, 7).
+    - Walk Up 4 steps to (21, 3).
