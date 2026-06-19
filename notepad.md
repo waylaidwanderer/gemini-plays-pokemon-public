@@ -7440,27 +7440,29 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 <h1><code>Scratchpad/VictoryRoad_Route</code></h1>
 
 # Scratchpad: Victory Road Route & Puzzle States
-- Turn 106959: Standing at (15, 11) on Map 0_198 (Victory Road 3F East)
-- Real-World Timestamp: Friday, June 19, 2026 at 10:30 AM PDT
+- Turn 106966: Standing at (20, 10) on Map 0_198 (Victory Road 3F East)
+- Real-World Timestamp: Friday, June 19, 2026 at 10:32 AM PDT
 
 ## Goal
 Exit Victory Road via 2F East to Route 23 North!
 
-## Correct Routing to Victory Road Exit (Bypassing Row 12 wall via 3F West):
-1. Currently at (15, 11) on 3F East (Map 0_198).
-2. Walk Up to Row 2: (15, 11) -> (15, 2).
-3. Walk Left along Row 2 to 3F West: (15, 2) -> (10, 2) (bypassing Column 11 vertical wall which ends at Row 6).
-4. Walk Down on 3F West to Row 13: (10, 2) -> (10, 13).
-5. Walk Right along Row 13 back to 3F East: (10, 13) -> (25, 13) (completely open and bypasses the Row 12 wall).
-6. Walk Up 5 steps along Column 25 to (25, 8).
-7. Walk Right 1 step to the ladder at (26, 8).
-8. Take the ladder at (26, 8) DOWN to 2F East (lands at (27, 7) on 2F East).
-9. On 2F East, walk north to (28, 0) and press UP to exit Victory Road to Route 23 North!
+## Correct Routing to Victory Road Exit (Direct 2F East Map Connection):
+1. Currently at (20, 10) on 3F East (Map 0_198).
+2. Walk to the ladder at (23, 7) on 3F East:
+   - Walk Up 3 steps to (20, 7).
+   - Walk Right 3 steps to (23, 7) (the ladder).
+   - Step onto (23, 7) to transition DOWN to 2F East (lands at (23, 7) on 2F East, Map 0_194).
+3. On 2F East (Map 0_194), walk to the final exit at (28, 0):
+   - Walk Left 6 steps to Column 17: (23, 7) -> (17, 7).
+   - Walk Up 5 steps along Column 17 to Row 2: (17, 7) -> (17, 2) (bypassing the Row 4 wall).
+   - Walk Right 11 steps along Row 2 to Column 28: (17, 2) -> (28, 2) (bypassing the NPC at (26, 3)).
+   - Walk Up 2 steps to Row 0: (28, 2) -> (28, 0).
+   - Press UP from (28, 0) to walk off the northern edge of the map and exit Victory Road!
 
 ## Verification of Alternate Paths (Falsified):
-- Tried to walk Down on Column 14/15. Result: Blocked by the continuous Row 12 wall at (14, 12)-(15, 12).
-- Tried to walk Right on Row 11 from (20, 11). Result: Blocked by the Column 21 vertical wall at (21, 11).
-- Confirmed that Column 11 is a solid wall from Row 6 to Row 11, making the northern Row 2 bypass strictly mandatory to cross to 3F West.
+- Confirmed that Row 10 on 3F East is blocked at Column 21 by a solid rock wall, preventing direct horizontal traversal.
+- Confirmed that Row 12 on 3F East is blocked on Columns 14-21 by a solid rock wall, preventing direct vertical traversal.
+- Bypassed all boulder puzzles completely by using the fully verified Column 17 / Row 2 corridor on 2F East.
 
 ## League Preparation Protocol:
 - Once we successfully emerge onto Route 23 North and enter the Indigo Plateau Pokémon Center, we must immediately:
