@@ -129,4 +129,13 @@ Cross to the east side of 3F East via the northern Row 2/3 bypass and navigate t
 - Strategy: We must use the 2F East plateau route instead.
   1. Step off the ladder at (23, 7) to (23, 8) (Down), then step back on to (23, 7) (Up) to transition back to 2F East.
   2. Walk to the plateau stairs on 2F East.
-- Turn 105553: Arrived on 3F East at (27, 15) and walked Up to (27, 11). Ready to walk Up to (27, 8) and Left to (26, 8) to take the ladder DOWN to the 2F East exit pocket!
+- Turn 105584: Standing on the ladder at (27, 7) on 2F East. Since Row 6 is completely blocked by solid wall TYPE_2889 (Columns 24-29) and Row 10 is completely blocked by solid wall TYPE_2889 (Columns 24-28), this northeast section is a closed, isolated ground-level pocket on 2F East on the right side of Column 24.
+  - To exit this pocket and return to 3F East, we must step off the ladder to the south to (27, 8) (Down) and step back UP onto the ladder at (27, 7) (Up) to trigger the map transition.
+  - On 3F East, we can walk north to Row 2/3, cross left to Column 23, walk south to (23, 7), and take the ladder at (23, 7) down to the other side of 2F East, where we can access the plateau stairs to cross over to the actual exit pocket.
+  - Wait, let's verify if the northern part of 2F East is blocked. In our notes: "the northern ground floor of 2F East (Columns 19-27, Rows 7-11) is a completely closed, isolated pocket on ground level (z=0)."
+  - But wait! Let's check how to reach the exit at (28, 1).
+  - Let's look at the exit: is it on 3F East or 2F East?
+  - Actually, in vanilla, the exit to Route 23 is on 3F East!
+  - Wait, let's test if there is an exit on 3F East or 2F East.
+  - Let's first return to 3F East by stepping off the ladder and back onto it.
+  - Path: Down to (27, 8), Up to (27, 7) to transition back to 3F East.
