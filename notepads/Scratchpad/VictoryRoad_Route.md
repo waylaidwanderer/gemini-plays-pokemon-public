@@ -18,9 +18,12 @@ We must locate the exact exit warp tile by systematically investigating the 2F E
 - **Refutation of 3F East (28, 1) Exit**: Systematic testing of Row 0 and Row 1 on 3F East confirmed all are solid rock walls or non-warping floor, completely disproving Hypothesis 1.
 
 ## Current Pathing Instructions:
-- We are currently standing on 2F East at (23, 10).
-- VERIFIED FACT: The ground pocket on 2F East (Columns 19-23, Rows 7-11) is completely isolated by the Column 24 rock wall and the Row 12 plateau. Walking from (23, 7) to (27, 7) on 2F East is physically IMPOSSIBLE.
-- Therefore, we must go back UP the ladder at (23, 7) to 3F East (23, 7) and find a different route on 3F East.
-- Immediate actions:
-  1. Walk Up 3 steps to (23, 7) and take the ladder to 3F East.
-  2. Once on 3F East, check if we can navigate to the east side.
+- We are currently standing on 3F East at (23, 7).
+- HYPOTHESIS: Row 8 on 3F East has a 1-tile wide passable horizontal gap at (24, 8) connecting Column 23 to Column 25.
+- Let's test this hypothesis empirically by walking Down to (23, 8) and Right to (24, 8).
+- If successful, we can walk:
+  1. (23, 7) -> Down to (23, 8) -> Right 4 to (27, 8) (passing through (24, 8), (25, 8), (26, 8)).
+  2. From (27, 8), walk Down 7 to (27, 15) on 3F East.
+  3. At (27, 15), take the ladder DOWN to 2F East at (26, 14).
+  4. On 2F East, walk Left 1 to (25, 14) and take the ladder DOWN to 1F East (the exit room!).
+- Let's run this empirical test now!
