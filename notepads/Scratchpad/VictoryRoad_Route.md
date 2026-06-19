@@ -1,5 +1,5 @@
 # Scratchpad: Victory Road Route & Puzzle States
-- Current Turn: 106178
+- Current Turn: 106181
 - Current Position: (26, 8) on Map 0_198 (Victory Road 3F East)
 
 ## Goal
