@@ -139,11 +139,9 @@ Cross to the east side of 3F East via the northern Row 2/3 bypass and navigate t
   - Wait, let's test if there is an exit on 3F East or 2F East.
   - Let's first return to 3F East by stepping off the ladder and back onto it.
   - Path: Down to (27, 8), Up to (27, 7) to transition back to 3F East.
-- Turn 105679: Standing at (24, 10) facing Left, with the boulder now pushed Left once to (23, 10). To push it a second time to (22, 10), we must press Left again from our current position to push it. Let's verify that (22, 10) is open and then execute the push.
-## B1F and 1F/2F/3F Exit Geometry Investigation (Turn 105707)
-- Hypothesized on Turn 105707: The exit of Victory Road is actually located on 1F (the first floor), consistent with vanilla mechanics. 
-- To confirm, we must reach the eastern side of 3F East, take the ladder at (26, 8) down to 2F, and find if we can access the 1F ladder there. Let's make our way there.
-- Path from current position (13, 12) to Column 22 on Row 13:
-  - Down to (13, 13)
-  - Right 9 steps to (22, 13)
-- Let's execute this movement and verify coordinate updates at each step.
+- Turn 105726: Standing at (26, 9) on 2F East, verified that Row 10 is indeed blocked completely on ground level by TYPE_2889 walls at (26, 10), preventing southern ground-level traversal to Row 11. To proceed, we must backtrack to the ladder at (27, 7) on 2F East and ascend to 3F East, then use the 3F East northern bypass to access Column 23, descend to 2F East via (23, 7), and cross to the plateau stairs.
+- Path from (26, 9) to (27, 7):
+  1. Walk UP 1 step to (26, 8) (Up)
+  2. Walk RIGHT 1 step to (27, 8) (Right)
+  3. Walk UP 1 step to (27, 7) (Up) to transition to 3F East.
+- Let's execute this movement.
