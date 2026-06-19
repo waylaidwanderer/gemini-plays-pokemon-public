@@ -8035,5 +8035,6 @@ Let's trace the path from (21, 16) to (29, 1):
   5. Walk through the open Row 10 barrier to the ladder at (26, 8) on 3F East.
   6. Take the ladder DOWN to (27, 7) on 2F East.
   7. Walk to (29, 1) on 2F East and exit Victory Road!
+Turn 104699: Empirically verified on screen that Column 27 is completely open and passable. We can walk Up 3 steps to (27, 8) and Left 1 step to (26, 8) to descend the ladder to 2F East at (27, 7). From there, the exit is at (29, 1). This is our final stretch!
 
 <hr>
