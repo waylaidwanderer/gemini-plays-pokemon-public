@@ -1,22 +1,24 @@
 # Scratchpad: Victory Road Route & Puzzle States
-- Turn 106862: Standing at (28, 0) on Map 0_194 (Victory Road 2F East)
-- Real-World Timestamp: Friday, June 19, 2026 at 10:15 AM PDT
+- Turn 106892: Standing at (27, 3) on Map 0_194 (Victory Road 2F East)
+- Real-World Timestamp: Friday, June 19, 2026 at 10:20 AM PDT
 
 ## Goal
-Exit Victory Road via 2F East to Route 23 North!
+Exit Victory Road via 3F East to Route 23 North!
 
-## Active Route to Exit (True 3F East to 2F East Northern Bypass):
-1. On 3F East, walk from (14, 6) along Row 6 to the central ladder at (23, 7):
-   - Walk Right along Row 6 to Column 23: (14, 6) -> (23, 6) [9 steps Right]. (Done!)
-   - Walk Down Column 23 to the central ladder at (23, 7): (23, 6) -> (23, 7) [1 step Down]. (Done!)
-   - Take the ladder DOWN to 2F East. (Done!)
-2. On 2F East (ground level), walk from the (23, 7) landing to the exit at (28, 1):
-   - Walk Left along Row 7 to Column 19: (23, 7) -> (19, 7) [4 steps Left].
-   - Walk Up Column 19 to the top Row 3 corridor: (19, 7) -> (19, 3) [4 steps Up].
-   - Walk Right along Row 3 to Column 28: (19, 3) -> (25, 3) -> (25, 4) -> (28, 4) -> (28, 3) [Detour around the duplicate sprite bug at (26, 3) if solid].
-   - Walk Up Column 28 to the exit at (28, 1): (28, 3) -> (28, 1) [2 steps Up].
-   - Walk UP to exit Victory Road to Route 23 North!
+## Correct Routing to Victory Road Exit:
+1. Currently in the northeastern pocket of 2F East.
+2. Collect the item at (27, 5) by standing at (27, 4) and pressing 'A'. This clears the vertical path down Column 27.
+3. Walk Down Column 27 to the ladder at (27, 7).
+4. Take the ladder at (27, 7) UP to 3F East (lands at (26, 8) on 3F East).
+5. On 3F East, walk to the cave exit located in the northeast corner of 3F East to transition to Route 23 North.
+6. This route is fully open and avoids all remaining boulder puzzles on 2F/3F.
 
-## Physical Verifications & Proof of Work:
-- Turn 106844: Standing at (23, 7) on 2F East ground floor. Confirmed that Row 4 is completely blocked horizontally on Columns 19-24 by solid rock walls of TYPE_2889. Row 3 is completely open, but Row 4 separates Row 5 from Row 3 on those columns. Column 19 Row 4 is a rock wall, but Column 19 Row 3 is open ground (TYPE_3fe2). Let's verify Column 19's passability going north!
-- Conclusion: The exit is reached by transitioning from 3F East (26, 8) -> (23, 7) ladder -> 2F East (23, 7) ground level -> Column 19 -> Row 3 -> Column 28 -> Exit at (28, 1). This is completely open, safe, and avoids all boulder puzzles!
+## Verification of Alternate Paths (Falsified):
+- Tried to exit from (28, 1) / (28, 0) on 2F East. Result: Solid collision bumps (bumps at (28, 0) on Turn 106859 and Turn 106863), confirming no exit warp exists on 2F East.
+- Confirmed that the northeastern corner of 2F East (Rows 7-9, Columns 25-28) is a closed pocket separated from the southern Row 11 ground level by the solid wall at Row 10.
+- Re-verified that the ladder at (27, 7) on 2F East goes UP to 3F East. Since the final cave exit doorway to Route 23 North is located on 3F East, climbing this ladder is the mandatory path to exit the cave!
+
+## League Preparation Protocol:
+- Once we successfully emerge onto Route 23 North and enter the Indigo Plateau Pokémon Center, we must immediately:
+  1. Call the custom agent `league_readiness_coordinator` to conduct a comprehensive final audit of our party levels, movesets, item inventories, and remaining PP counts before challenging the Elite Four.
+  2. Create and load a new permanent regional notepad named `Locations/IndigoPlateau_PointsOfInterest` to systematically catalog the final exit transitions, Poké Mart inventories, and Pokémon Center coordinates to prevent context loss.
