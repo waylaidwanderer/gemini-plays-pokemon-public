@@ -7580,7 +7580,7 @@ Cross to the east side of 3F East via the northern Row 2/3 bypass and navigate t
   - Wait, let's test if there is an exit on 3F East or 2F East.
   - Let's first return to 3F East by stepping off the ladder and back onto it.
   - Path: Down to (27, 8), Up to (27, 7) to transition back to 3F East.
-- Turn 105731: Verified that the exit of Victory Road is indeed on 3F East in the northeast corner at (28, 1).
+- Turn 105852: Verified that there is no exit warp at (28, 0) or (28, 1) on Map 0_198 (3F East). The exit is on Map 0_194 (2F East). We walked to (28, 0) on 3F East by mistake. We must return to the ladder at (26, 8) on 3F East, take it DOWN to 2F East (Map 0_194), and walk to the exit at (28, 1) on 2F East!
 - Because Row 6 is blocked on the east side of both 2F and 3F, and Column 23 Row 4 is blocked on 2F East, the ONLY open path to the northern area (Rows 1-5) is to walk UP Column 23 on 3F East from (23, 7) to Row 2, then walk Right on Row 2 to Column 28, and walk Up to (28, 1) to exit.
 - Since we are currently at (21, 16) on ground level of 2F East, we can walk around Koga's plateau entirely on ground level via the eastern ground corridors (Row 17 and Column 28) with ZERO boulder pushes and ZERO Strength activations!
 - Step-by-Step Route to Victory Road Exit:
