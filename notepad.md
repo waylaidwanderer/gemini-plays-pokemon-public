@@ -7689,6 +7689,21 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 - Turn 104312: Stood at (5, 10). Plotted path across plateau to (21, 15).
 - Path: Up 2 to (5, 8) -> Right 8 to (13, 8) -> Down 4 to (13, 12) -> Right 8 to (21, 12) -> Down 3 to (21, 15) -> descend.
 - Turn 104332: Arrived on 3F East at (27, 15). Plotted path to the (23, 7) ladder: Up 13 to (27, 2) -> Left 4 to (23, 2) -> Down 5 to (23, 7) -> descend.
+## Turn 104450 Current Reality:
+- We are at (5, 11) on 2F West. The orange boulder has reset to (4, 14).
+- The correct path to push it to Switch B1 at (1, 16):
+  1. Walk Down 3 steps to (5, 14).
+  2. Activate STRENGTH using Geodude (ROCKY).
+  3. Push Boulder Left to (3, 14). Player stands at (5, 14) facing Left.
+  4. Walk to (3, 13) via (4, 14) and (4, 13) (the boulder at (3, 14) is now blocking direct Left).
+  5. Push Boulder Down to (3, 15).
+  6. Walk Down to (3, 14) and push Boulder Down to (3, 16).
+  7. Walk to (4, 16) via (3, 15) and (4, 15).
+  8. Stand at (4, 16) facing Left, push Boulder Left to (2, 16).
+  9. Walk Left to (3, 16), push Boulder Left to (1, 16) (Switch B1).
+  10. Switch B1 is permanently pressed!
+  11. Walk across 2F to 2F East without taking any ladders.
+- Let's begin by walking Down to (5, 14).
 ## Turn 104394 Discovery:
 - Verified that Victory Road 3F East (Map 0_198) has only 4 warps, all leading to Victory Road 2F (Map 0_194).
 - Verified that the exit of Victory Road to Route 23/Indigo Plateau is located at (29, 1) on Victory Road 2F East (Map 0_194, Warp 5).
