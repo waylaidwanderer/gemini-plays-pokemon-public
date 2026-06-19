@@ -1,23 +1,17 @@
 # Scratchpad: Victory Road Route & Puzzle States
-- Current Turn: 106142
-- Current Position: (21, 14) on Map 0_194 (Victory Road 2F West)
+- Current Turn: 106148
+- Current Position: (21, 16) on Map 0_194 (Victory Road 2F West)
 
 ## Goal
-Navigate to the exit of Victory Road (Route 23 North / Indigo Plateau) via the northeastern ladder of 3F East.
+Exit Victory Road via the eastern ladder crossover (25, 14) on 2F East to 3F East, then to the exit on 2F East (28, 1).
 
-## Active Route to True Exit on 3F East (Map 0_198):
-1. Stand at (5, 6) on 2F West (Map 0_194).
-2. Walk Left 3 steps along Row 6 to Column 2 at (2, 6) (Left 3).
-3. Walk Down 5 steps along Column 2 to Row 11 at (2, 11) (Down 5).
-4. Walk Right 3 steps along Row 11 to (5, 11) (Right 3).
-5. Walk Up 2 steps to climb the stairs at (5, 10) onto the plateau at (5, 9) (Up 2).
-6. Walk Right 6 steps along Row 9 on the plateau to Column 11 at (11, 9) (Right 6).
-7. Walk Up 8 steps along Column 11 (which descends to the ground floor and walks Up to Row 1) to (11, 1) (Up 8).
-8. Take the ladder at (11, 1) UP to 3F West (lands at (11, 1) on 3F West).
-9. On 3F West, walk Down 6 steps along Column 11 to (11, 7).
-10. Walk Right 12 steps along Row 7 to Column 23 at (23, 7).
-11. Walk Up 7 steps along Column 23 to (23, 0) (or adjacent Row 0 tile).
-12. Face UP and press UP to exit Victory Road to Route 23 North!
+## Active Route to True Exit:
+1. From (21, 16) on ground level, walk Up 2 steps to climb the stairs at (21, 15) onto the plateau at (21, 14) (Up 2).
+2. Walk Right 4 steps along Row 14 on the plateau to (25, 14) (Right 4).
+3. Take the ladder at (25, 14) UP to 3F East (lands at (27, 15) on 3F East).
+4. On 3F East, walk Up 8 steps along Column 27 to (27, 7) (Up 8).
+5. Take the ladder at (27, 7) DOWN to 2F East (lands at (27, 7) on 2F East).
+6. On 2F East, walk north to (28, 1) to exit Victory Road!
 
 ## Physical Verifications & Proof of Work:
 - Turn 105998: Tested (27, 6) on 2F East. Result: BUMP (physically impassable rock wall).
