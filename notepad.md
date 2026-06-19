@@ -7993,5 +7993,8 @@ Let's trace the path from (21, 16) to (29, 1):
 - Once on 3F West, we push Boulder C1 onto Switch C1 (3, 5). Then, we walk on foot from 3F West to 3F East entirely on 3F (no ladders!), keeping the switch pressed so the barrier stays open!
 - Then we walk through the open barrier to the (26, 8) ladder, descend to the 2F East exit pocket at (27, 7), and walk to the (29, 1) exit warp!
 - First step: Walk Left to (26, 15) to step off the ladder, then walk Right to (27, 15) to transition back down to 2F East.
+- Turn 104552: Standing at (2, 5) on 2F West. Realized we are on the south side of the Row 4 blockage, and the boulder at (5, 5) blocks the only passage at (5, 4). We cannot reach the (1, 1) ladder.
+- Turn 104564: Attempted to walk Down Column 5 to reach the stairs, but bumped against the solid cliff edge at (5, 8).
+- Turn 104567: Standing at (5, 7) facing Down. Plotting path to walk around the cliff using Column 3 ground corridor: Left x2 to Column 3, Down x4 to Row 11, Right x2 to Column 5 (5, 11), and Up x1 to take the stairs back to 2F East.
 
 <hr>
