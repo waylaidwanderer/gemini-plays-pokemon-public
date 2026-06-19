@@ -1,21 +1,22 @@
 # Scratchpad: Victory Road Route & Puzzle States
 - Route Started: Turn 107326 | Timestamp: Friday, June 19, 2026 at 12:25 PM PDT
-- Current Position: (10, 4) on Victory Road 3F East (Map 0_198)
+- Current Position: (26, 5) on Victory Road 3F East (Map 0_198)
 
-## Correct Victory Road Exit Route
-To exit Victory Road and reach Indigo Plateau:
-1. Walk East from our current position along the central plateau to the stairs at (17, 5) and descend to ground level at (17, 6).
-2. Walk to the northeast section of 3F East by going around the central plateau to Column 20, going North to Row 2, going East to Column 26, and walking Down Column 26 to the ladder at (26, 8).
-3. Take the ladder at (26, 8) DOWN to 2F East (lands at (27, 7) on 2F East).
-4. From (27, 7) on 2F East, walk North to the exit doorway at (28, 1) and exit onto Route 23 North / Indigo Plateau!
+## Analysis of 3F East Path to Exit
+- **Observed Constraints on 3F East (Map 0_198)**:
+  - Row 6 is completely impassable on the Right Channel (Columns 24-29) due to solid rock walls (TYPE_2889) at (26, 6), (27, 6), (28, 6), blocking vertical movement to the (26, 8) ladder.
+  - Column 24 is a solid vertical rock wall on Rows 4-8, separating the Left and Right channels south of Row 3.
+  - Row 9 is completely blocked on Columns 22, 23, and 24 by solid rock walls (TYPE_2889) at (22, 9), (23, 9), and (24, 9).
+  - Therefore, the northern area (Rows 0-8 of Left Channel, Rows 0-5 of Right Channel) is completely cut off on foot from the southern area (Row 10+).
+- **The True Descent Pathway**:
+  - Since the Right Channel's Row 6 blocks access to (26, 8) on 3F East from the north, we must take the **(23, 7) ladder** DOWN instead.
+  - The ladder at (23, 7) on 3F East is on the Left Channel, which is accessible from (26, 5) via the Row 2 crossover.
+  - Symmetrically, the (23, 7) ladder DOWN to 2F East lands at (23, 7) on 2F East.
+  - On 2F East, (23, 7) and (27, 7) both reside within the northern ground pocket (Columns 19-27, Rows 7-11) and connect directly to the exit at (28, 1). Thus, taking the (23, 7) ladder DOWN is the correct, unblocked way to reach the exit on 2F East.
 
-## Detailed Steps from (10, 4) to (17, 5) stairs:
-1. From (10, 4) facing Left, walk Right 7 steps along Row 4 to (17, 4).
-2. Walk Down 2 steps to descend the stairs at (17, 5) and reach ground level at (17, 6).
-
-## Detailed Steps from (17, 6) to (26, 8) ladder:
-1. From (17, 6), walk Down 1 step to (17, 7).
-2. Walk Right 3 steps to (20, 7).
-3. Walk Up 5 steps along Column 20 to (20, 2).
-4. Walk Right 6 steps along Row 2 to (26, 2).
-5. Walk Down 6 steps along Column 26 to (26, 8) and take the ladder.
+## Path from (26, 5) to (23, 7) Ladder:
+1. Stand at (26, 5). Walk Right to (27, 5) [1 step]
+2. Walk Up 3 steps along Column 27 to Row 2 at (27, 2) [3 steps]
+3. Walk Left 4 steps along Row 2 to Column 23 at (23, 2) [4 steps]
+4. Walk Down 5 steps along Column 23 to reach the (23, 7) ladder [5 steps]
+5. Interact with the ladder to descend to 2F East.
