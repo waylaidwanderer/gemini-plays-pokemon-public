@@ -7466,6 +7466,11 @@ Exit Victory Road to Route 23 North!
 3. From (27, 7) on 2F East, walk Right to Column 29 and Down to exit.
 Turn 107148: Arrived on 3F East, walked to (25, 3). Path to (26, 8) is open via Row 2 northern bypass. No boulder pushes required.
 Path sequence: (25, 3) -> Up to (25, 2) -> Right 2 to (27, 2) -> Down 3 to (27, 5) -> Left to (26, 5) -> Down 3 to (26, 8) ladder.
+Turn 107153: Discovered that Row 6 is blocked by a solid wall from Column 24 to 29. The northern bypass to (26, 8) is blocked.
+We must instead take the southern ground-level corridor by:
+1. Walk back to Column 23 on 3F East: (26, 5) -> Right to (27, 5) -> Up to (27, 2) -> Left to (23, 2) -> Down to (23, 10).
+2. Activate STRENGTH and push Boulder C2 at (24, 10) East to (26, 10).
+3. Walk past it to (26, 8) ladder.
 
 <hr>
 
