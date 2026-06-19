@@ -7440,20 +7440,16 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 <h1><code>Scratchpad/VictoryRoad_Route</code></h1>
 
 # Scratchpad: Victory Road Route & Puzzle States
-- Turn 106807: Standing at (24, 10) on Map 0_198 (Victory Road 3F East)
-- Real-World Timestamp: Friday, June 19, 2026 at 9:55 AM PDT
+- Turn 106831: Standing at (14, 6) on Map 0_198 (Victory Road 3F East)
+- Real-World Timestamp: Friday, June 19, 2026 at 10:00 AM PDT
 
 ## Goal
 Exit Victory Road via 2F East to Route 23 North!
 
 ## Active Route to Exit (True 3F East to 2F East Northern Bypass):
-1. On 3F East, standing at (24, 10) facing Left, walk the long loop to the (23, 7) ladder:
-   - Step Left onto (23, 10) [1 step Left].
-   - Walk Down Column 23 to Row 13: (23, 10) -> (23, 13) [3 steps Down].
-   - Walk Left along Row 13 to the Western corridor Column 14: (23, 13) -> (14, 13) [9 steps Left].
-   - Walk Up Column 14 to Row 3: (14, 13) -> (14, 3) [10 steps Up].
-   - Walk Right along Row 3 to Column 23: (14, 3) -> (23, 3) [9 steps Right].
-   - Walk Down Column 23 to the central ladder at (23, 7): (23, 3) -> (23, 7) [4 steps Down].
+1. On 3F East, walk from (14, 6) along Row 6 to the central ladder at (23, 7):
+   - Walk Right along Row 6 to Column 23: (14, 6) -> (23, 6) [9 steps Right].
+   - Walk Down Column 23 to the central ladder at (23, 7): (23, 6) -> (23, 7) [1 step Down].
    - Take the ladder DOWN to 2F East.
 2. On 2F East (ground level), walk from the (23, 7) landing to the exit at (28, 1):
    - Walk Left to Column 22: (23, 7) -> (22, 7) [1 step Left].
