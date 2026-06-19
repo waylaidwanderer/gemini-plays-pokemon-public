@@ -7486,9 +7486,13 @@ We must locate the exact exit warp tile by systematically investigating the 2F E
 - **Status**: On hold pending results of Hypothesis 2.
 
 ## Current Pathing Instructions:
-- We are at (23, 7) on 2F East. We must climb back up to 3F East using the ladder at (23, 7) to start navigating towards the west side of 2F/3F.
-- Turn 107800: We are currently navigating 3F East starting from (16, 7). Our plan is to walk East along Row 7 to Column 20, then walk North along Column 20/21 (which are open vertical corridors of TYPE_3fe2) to reach Row 3 on the eastern side. From Row 3, we can bypass the central walls to reach the ladder at (27, 15).
-- Turn 107800: We encountered a wild Onix on Row 7 and successfully ran away. Let's resume movement right.
+- Turn 107823: We are currently at (27, 2) on 3F East.
+- Step 1: Walk Down 3 times to (27, 5), Left to (26, 5), and Down 2 times to (26, 7) to bypass the Row 6 walls.
+- Step 2: From (26, 7), walk South along Column 26 to (26, 14), then Right to (27, 14) and Down to (27, 15) to take the ladder DOWN to 2F East.
+- Step 3: From 2F East plateau (26, 14), walk West to 2F West plateau (around Column 13/14, Row 12/13), descend stairs to Row 16, and walk West on Row 16 to Column 9 (near Switch B2 at (9, 16)).
+- Step 4: Walk North on Column 9 on 2F West to Row 3, testing the vertical passability past Koga's plateau.
+- Step 5: Walk East on Row 3 from Column 9 to Column 27/28 on 2F East.
+- Step 6: Walk North on Column 28 to Row 1 to reach and test the exit warp at (28, 1) on 2F East!
 
 <hr>
 
