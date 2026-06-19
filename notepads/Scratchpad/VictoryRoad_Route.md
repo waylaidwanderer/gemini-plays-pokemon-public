@@ -12,8 +12,8 @@ Exit Victory Road via 2F East to Route 23 North!
    - Walk Right along Row 13 to Column 26 (12 steps Right).
    - Walk Down Column 26/27 to the ladder at (27, 15) (2 steps Down) and take the ladder DOWN to 2F East.
 2. On 2F East plateau (z=1), walk to 2F West ground level:
-   - Land at (26, 14) [z=1]. Walk Left along Row 14 on the plateau to Column 15 (11 steps Left).
-   - Walk Up Column 15 to Row 1 (13 steps Up).
+   - Land at (26, 14) [z=1]. Walk Left along Row 14/13/12 on the plateau to Column 14.
+   - Walk Up Column 14 to Row 1 (13 steps Up).
    - Walk Right along Row 1 to Column 28 (13 steps Right) to reach the exit at (28, 1) on 2F East.
 
 ## Physical Verifications & Proof of Work:
