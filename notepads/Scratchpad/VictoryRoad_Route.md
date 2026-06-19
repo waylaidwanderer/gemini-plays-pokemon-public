@@ -23,10 +23,12 @@ Because Row 10 and Row 6 on 2F East are solid horizontal barriers, the northeast
 2. Walk Down 1 step to Row 15 at (26, 15) [1 step]
 3. Walk Left 5 steps along Row 15 to the plateau stairs at (21, 15) [5 steps]
 4. Walk Down 1 step to descend to ground level at (21, 16) [1 step]
-5. Walk Up 5 steps along Column 21 to Row 11 at (21, 11) [5 steps]
-6. Walk Left 2 steps along Row 11 to Column 23 at (23, 11) [2 steps]
-7. Walk Up 4 steps along Column 23 to (23, 7) [4 steps]
-8. Take the ladder at (23, 7) UP to 3F East.
+5. Walk Down 1 step along Column 21 to Row 17 at (21, 17) [1 step]
+6. Walk Right 6 steps along Row 17 to Column 27 at (27, 17) [6 steps]
+7. Walk Up 6 steps along Column 27 to Row 11 at (27, 11) [6 steps]
+8. Walk Left 4 steps along Row 11 to Column 23 at (23, 11) [4 steps]
+9. Walk Up 4 steps along Column 23 to (23, 7) [4 steps]
+10. Take the ladder at (23, 7) UP to 3F East.
 
 #### Phase 4: Walk to (28, 0) and Exit!
 1. Land at (23, 7) on 3F East.
