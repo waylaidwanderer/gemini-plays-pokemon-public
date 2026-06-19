@@ -7468,6 +7468,11 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 - Turn 104726: Walked to (20, 13) through the cleared corridor. Fled wild Machop.
 - Turn 104835: Successfully transitioned back down to Victory Road 2F East. Current Position is (23, 7). Preparing to walk to (25, 3) via Row 5 and Column 22.
 
+## Passability Test: Column 22 Row 4 (Turn 104879)
+- **Hypothesis**: The Scratchpad route says "bypass barriers via Column 22 to Row 3". However, (22, 4) is labeled TYPE_2889 (solid rock wall) on screen. We hypothesize that Column 22 on Row 4 is impassable and we cannot walk Up past Row 4 to Row 3 on the west side.
+- **Testing Plan**: From (23, 8), walk Left to (22, 8), Up 3 steps to (22, 5), and attempt to walk Up to (22, 4). We will observe if we bump or step forward.
+- **Turn 104879**: Started test. Walking Left to (22, 8).
+
 <hr>
 
 <h1><code>Locations/VictoryRoad_3F</code></h1>
