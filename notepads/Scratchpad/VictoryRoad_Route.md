@@ -17,7 +17,10 @@
   - Walk East along Row 7 to the ladder at (23, 7).
   - Descend the ladder to 2F East at (23, 7).
 - **Final Exit Segment (2F East)**:
-  - From (23, 7), walk Up to Row 5, bypass barriers via Column 22 to Row 3, walk East along Row 3 to Column 28, walk Up to Row 1, and walk Right to (29, 1) to exit to Route 23/Indigo Plateau!
+  - From 3F East (26, 8), take the ladder DOWN to 2F East (27, 7).
+  - From (27, 7), walk Right 1 step to (28, 7).
+  - Walk Up Column 28 to Row 1 (6 steps).
+  - Walk Right to (29, 1) or (28, 1) to exit to Route 23/Indigo Plateau!
 
 ## Live Execution Logs (Run 53):
 - Turn 104711: Warped back UP from 2F East to 3F East, landing at (26, 8).
