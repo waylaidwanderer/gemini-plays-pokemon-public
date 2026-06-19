@@ -7570,6 +7570,7 @@ Cross to the east side of 3F East via the northern Row 2/3 bypass and navigate t
 - Strategy: We must use the 2F East plateau route instead.
   1. Step off the ladder at (23, 7) to (23, 8) (Down), then step back on to (23, 7) (Up) to transition back to 2F East.
   2. Walk to the plateau stairs on 2F East.
+- Turn 105553: Arrived on 3F East at (27, 15) and walked Up to (27, 11). Ready to walk Up to (27, 8) and Left to (26, 8) to take the ladder DOWN to the 2F East exit pocket!
 
 <hr>
 
