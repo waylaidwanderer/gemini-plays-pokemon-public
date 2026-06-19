@@ -177,3 +177,5 @@ Cross to the east side of 3F East via the northern Row 2/3 bypass and navigate t
 - **5. Tool Maintenance:** Custom tools are clean and operational.
 - **6. Goal Clarity:** Objective is clear: Exit Victory Road to the north and reach Indigo Plateau.
 - **7. Error Analysis:** We were standing at (23, 0) facing Down. Pressing Up rotated us to face Up, but did not transition yet. We need to step Up one more time to transition maps! Let's do that.
+- Turn 105884: Tested the passability of (24, 8) on 3F East (Map 0_198) by trying to step Right from (23, 8). Result was a solid bump, confirming that (24, 8) is physically impassable (rock wall). This proves that Row 8 on 3F East is blocked and does not connect Column 23 to Column 25, confirming the validity of the original note.
+- Turn 105886: Successfully took the ladder at (23, 7) from 3F East down to 2F East (Map 0_194). Now standing at (23, 7) on 2F East.
