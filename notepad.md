@@ -7454,10 +7454,12 @@ Exit Victory Road via 2F East to Route 23 North!
    - Take the ladder DOWN to 2F East.
 2. On 2F East, navigate to the plateau via the southeastern stairs:
    - Land at (23, 7) [z=0]. Walk Down Column 23 to Row 11: (23, 7) -> (23, 11) [4 steps Down].
-   - Walk Right along Row 11 through the open gate at (24, 11) to Column 25: (23, 11) -> (25, 11) [2 steps Right].
-   - Walk Down Column 25 to Row 16: (25, 11) -> (25, 16) [5 steps Down].
-   - Walk Left along Row 16 to Column 21: (25, 16) -> (21, 16) [4 steps Left].
-   - Walk Up Column 21 to the stairs at (21, 15): (21, 16) -> (21, 15) [1 step Up] (climbs onto plateau z=1).
+   - Walk Right along Row 11 through the open gate at (24, 11) to Column 28: (23, 11) -> (28, 11) [5 steps Right].
+   - Walk Down Column 28 to Row 16: (28, 11) -> (28, 16) [5 steps Down].
+   - Walk Left along Row 16 to Column 24: (28, 16) -> (24, 16) [4 steps Left].
+   - Walk Down to Row 17 to bypass the boulder at (23, 16): (24, 16) -> (24, 17) [1 step Down].
+   - Walk Left along Row 17 to Column 21: (24, 17) -> (21, 17) [3 steps Left].
+   - Walk Up Column 21 to the stairs at (21, 15): (21, 17) -> (21, 15) [2 steps Up] (climbs onto plateau z=1).
 3. On the 2F East plateau, walk to the exit:
    - From (21, 15) [z=1], walk Up to Row 13: (21, 15) -> (21, 13) [2 steps Up].
    - Walk Left along Row 13 on the plateau to Column 14: (21, 13) -> (14, 13) [7 steps Left].
