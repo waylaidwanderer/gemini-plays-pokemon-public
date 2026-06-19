@@ -26,6 +26,7 @@
 - Turn 104717: Fled wild Machop.
 - Turn 104726: Walked to (20, 13) through the cleared corridor. Fled wild Machop.
 - Turn 104835: Successfully transitioned back down to Victory Road 2F East. Current Position is (23, 7). Preparing to walk to (25, 3) via Row 5 and Column 22.
+- Turn 105110: Confirmed position at (23, 7) on 2F East. Preparing to walk to the ladder at (27, 7) to transition back up to 3F East and navigate to the northern section.
 
 ## Passability Test: Column 22 Row 4 (Turn 104879-104884)
 - **Hypothesis**: The Scratchpad route says "bypass barriers via Column 22 to Row 3". However, (22, 4) is labeled TYPE_2889 (solid rock wall) on screen. We hypothesize that Column 22 on Row 4 is impassable and we cannot walk Up past Row 4 to Row 3 on the west side.
