@@ -7487,6 +7487,8 @@ We must locate the exact exit warp tile by systematically investigating the 2F E
 
 ## Current Pathing Instructions:
 - We are at (23, 7) on 2F East. We must climb back up to 3F East using the ladder at (23, 7) to start navigating towards the west side of 2F/3F.
+- Turn 107800: We are currently navigating 3F East starting from (16, 7). Our plan is to walk East along Row 7 to Column 20, then walk North along Column 20/21 (which are open vertical corridors of TYPE_3fe2) to reach Row 3 on the eastern side. From Row 3, we can bypass the central walls to reach the ladder at (27, 15).
+- Turn 107800: We encountered a wild Onix on Row 7 and successfully ran away. Let's resume movement right.
 
 <hr>
 
