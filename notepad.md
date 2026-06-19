@@ -7466,7 +7466,15 @@ We must locate the exact exit warp tile by systematically investigating the 3F E
 
 ### Hypothesis 2: 2F East Northeast Corner (Active)
 - **Hypothesis**: The exit is at (28, 1) on 2F East, reached by taking the ladder at (26, 8) on 3F East down to (27, 7) on 2F East.
-- **Status**: Active. We must backtrack to the (26, 8) ladder to descend.
+- **Routing Strategy**:
+  - We cannot reach the (26, 8) ladder directly on 3F East because the (Columns 26-28, Rows 7-9) pocket is completely isolated on 3F East.
+  - Instead, we must:
+    1. Walk from (27, 5) -> Up 3 to (27, 2) -> Left 4 to (23, 2) -> Down 5 to (23, 7) on 3F East.
+    2. Take the (23, 7) ladder DOWN to 2F East (lands at (23, 7) on 2F East).
+    3. On 2F East, walk from (23, 7) to the ladder at (27, 7).
+    4. Take the (27, 7) ladder UP to 3F East (lands at (26, 8) on 3F East).
+    5. Take the (26, 8) ladder DOWN to 2F East (lands at (27, 7) on 2F East). Wait, why? Ah! Because taking the (26, 8) ladder down from 3F East lets us test if there's any other way or if the exit is there.
+- **Status**: Active. Backtracking to (23, 7) ladder on 3F East.
 
 ### Hypothesis 3: 1F East Northeast Corner (On Hold)
 - **Hypothesis**: The true exit is on 1F East.
