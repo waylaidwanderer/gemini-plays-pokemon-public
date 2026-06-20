@@ -8302,10 +8302,10 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 ## Topological Connectivity and Progression Path to Mewtwo:
 - **B1F Access**: The stairs down to B1F are located in the isolated northwestern quadrant of 1F.
 - **Northwest Quadrant of 1F**: This isolated quadrant can ONLY be accessed by descending from 2F via a specific ladder located in the northwestern portion of 2F.
-- **Western Portion of 2F**: Whether the western section of 2F is completely isolated from the eastern section of 2F on foot is currently under active audit.
-- **Accessing Western 2F**: If 2F is indeed connected on foot, we can simply walk west on 2F. If 2F is isolated, we must climb up a specific ladder from the western/southern portion of 1F.
-- **Western/Southern Portion of 1F**: We are auditing if there is a separate western landmass accessible on foot or if the 2F-transit is the only pathway.
-- **Water Canal**: The water canal runs horizontally across the north on Rows 4-5 and goes south on Columns 8-9 down to Row 15. We must determine if there is an alternative branch of this canal or an overworld land path we missed.
+- **Western Portion of 2F**: Physically isolated from the eastern section on foot. To access it, the player must climb up a specific ladder from the western/southern portion of 1F.
+- **Accessing Western 2F**: The eastern section of 2F is completely isolated from the western section of 2F on foot. This has been empirically proven by the rock wall blockages at (16, 13) and (13, 11). Thus, we must climb up a different ladder from 1F.
+- **Western/Southern Portion of 1F**: Accessible via the water canals. We are currently surfing west and south along the main water canal to locate a western/southern ladder leading to 2F West.
+- **Water Canal**: The water canal runs horizontally across the north on Rows 4-5, turns south along Columns 8-9 down to Row 15, and connects to different sections of 1F. We are using this canal to navigate to the western/southern reaches of 1F.
 
 ## Cerulean Cave 2F Connectivity Audit (Turn 112311):
 - **Hypothesis**: The "empirical proof" of Turn 112168 stating that 2F East and West are completely isolated on foot was an artifact of an incomplete pathfinder grid (treating off-screen/unexplored tiles as solid walls). In standard Pokémon Red/Blue, Cerulean Cave 2F (Map 226) is a single, fully connected floor.
