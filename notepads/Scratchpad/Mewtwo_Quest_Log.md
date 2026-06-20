@@ -17,11 +17,5 @@
 - Turn 111595: Stood at (21, 11) on TYPE_4b8d (ladder) and confirmed that it does not auto-warp the player. Tested pressing 'A' on the ladder, which also did not warp or initiate any text. We conclude that this specific ladder tile (21, 11) is likely a one-way dropdown ladder or inactive in 1F, so we cannot ascend through it.
 - Turn 111610: Successfully ascended to Cerulean Cave 2F. We discovered that stepping onto (23, 7) on 1F (0_228) immediately warped us to 2F (0_226) at (23, 7). Stood at (22, 6) and found our way south along Column 23, but we hit a rock wall at (20, 12).
 - Turn 111633: Currently standing at (20, 11). We verified that Column 19 is blocked by solid rock walls on Rows 8, 10, and 12, making it impossible to directly go Left to the ladder at (19, 7) from our upper entrance. We are now exploring the western serpentine corridor on Row 11 toward Column 17 to check for a bypass.
-- Turn 111667: Currently standing at (26, 10) on 2F (0_226). We identified a hidden serpentine bypass that connects Column 26 to the northeast section:
-  1. Go Up to (26, 9) [TYPE_3fe2]
-  2. Go Left to (25, 9) [TYPE_3fe2]
-  3. Go Up 2 steps to (25, 7) [TYPE_3fe2]
-  4. Go Right 2 steps to (27, 7) [TYPE_3fe2]
-  5. Go Up to (27, 6) [TYPE_3fe2]
-  This route is fully open and allows us to reach Row 6 and Columns 27-29. Let's execute this movement.
+- Turn 111667: Successfully bypassed the Column 26 barrier using a hidden serpentine passage on Column 25, Row 9, and reached the northeast upper section at (27, 6). We verified that Column 24 Row 7 is solid rock, which separates the western and eastern upper sections on Row 7. We then navigated to (29, 3) where we found that the actual Ladder 2 is located at (29, 1). We defined map markers for both Ladder 2 at (29, 1) and the Item at (29, 9) on Map 0_226.
 - Turn 111689: Reached (29, 3) on Cerulean Cave 2F (0_226). Verified that the actual Ladder 2 is located at (29, 1) (labeled with the ladder symbol [=]), rather than (29, 3). The path to reach (29, 1) from (29, 3) goes Left to (28, 3), Up 2 steps to (28, 1), and Right to (29, 1). We will descend through this ladder to explore 1F.
