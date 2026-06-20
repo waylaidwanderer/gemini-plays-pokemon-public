@@ -8240,5 +8240,11 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 111545: Arrived at (16, 4) in Cerulean City's water. Discovered that the water is blocked on Row 6 by a solid cliff barrier (TYPE_2889). The water channel flows West on Rows 4 and 5. We will surf Left 4 steps to (12, 4) to navigate west.
 - Turn 111550: Verified the water channel layout around the Cerulean Cave island in Cerulean City. Column 7 on Rows 6-8 consists of solid cliff walls (TYPE_2889), preventing direct landing from the west at those rows. We will surf Left to (6, 4) and then South to (6, 8) to check if the Column 7 cliff wall ends further south, allowing us to land on the island.
 - Turn 111567: Reached (22, 13) inside Cerulean Cave 1F after fleeing a wild Ditto battle. Located a ladder (TYPE_4b8d) at (21, 11). We will navigate Left 1 step to (21, 13), then Up 2 steps to (21, 11) to ascend to Cerulean Cave 2F.
+- Turn 111595: Stood at (21, 11) on TYPE_4b8d (ladder) and confirmed that it does not auto-warp the player. Tested pressing 'A' on the ladder, which also did not warp or initiate any text. We conclude that this specific ladder tile (21, 11) is likely a one-way dropdown ladder or inactive in 1F, so we cannot ascend through it.
+- Route to Next Ladder: We identified another ladder (TYPE_4b8d) at (25, 9). The path to (25, 9) from our current position (21, 11) is fully open and passable:
+  - From (21, 11), head Up 4 steps to (21, 7).
+  - From (21, 7), head Right 4 steps to (25, 7).
+  - From (25, 7), head Down 2 steps to (25, 9).
+  - Standing on (25, 9) should let us ascend to 2F. Let's execute this path.
 
 <hr>
