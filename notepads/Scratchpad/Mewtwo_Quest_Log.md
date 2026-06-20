@@ -6,3 +6,4 @@
 - Turn 111398: Opened menu to use FLY on Birbie (Pidgeotto).
 - Current status: Menu open, cursor on POKéDEX. Planning to move cursor to POKéMON and press A.
 - Party Status: Blastoise (GEMMY) is out of PP and low on HP. Must heal at Cerulean Pokémon Center.
+- Turn 111401: Successfully opened POKéMON menu. Cursor is currently at GEMMY. Moving cursor down to BIRBIE (Pidgeotto) to access FLY.
