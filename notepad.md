@@ -8145,8 +8145,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - **Key Lesson**: Bruno's Hitmonchan knows Counter. Do not use physical physical moves like Submission when Hitmonchan is healthy or can survive to Counter back. Use special moves (like Blizzard/Surf/Hydro Pump) or ensure we can survive.
 
 ## Agatha (Ghost/Poison) Battle Strategy:
-- **Gengar (Lvl 56 & 60)**, **Haunter (Lvl 55)**, **Arbok (Lvl 58)**: Weak to Ground/Psychic.
-- **Golbat (Lvl 56)**: Poison/Flying. Immune to Ground. Weak to Ice/Electric/Psychic.
+- **Gengar (Lvl 56 & 60)**, **Haunter (Lvl 55)**, **Arbok (Lvl 58)**: Ground is no longer available since TM26 (Earthquake) is permanently lost. Use GEMMY's Surf (STAB) as our main offensive option for high neutral damage.
+- **Golbat (Lvl 56)**: Poison/Flying. Weak to Ice/Electric. Use GEMMY's Blizzard or SPARKY's Thunderbolt.
 
 ## Lance (Dragon) Battle Strategy:
 - **Gyarados (Lvl 58)**: Water/Flying. 4x weak to Electric.
