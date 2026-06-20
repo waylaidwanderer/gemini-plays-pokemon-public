@@ -8256,6 +8256,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - *New Correct Hypothesis*: There must be a different ladder in the southwest/western area of 1F that leads to the main connected portion of 2F West, allowing us to walk to (1, 3) on 2F.
   - *Testing Plan*: Surf west/south along the 1F water canal, locate the southwest land platforms, find the ladder (Ladder 1), ascend it, and check if it lands us on 2F West with an unblocked path to (1, 3).
 
+- Turn 112986: Discovered that Row 5 contains water across Columns 21-25, blocking on-foot horizontal crossover from Water Ramp 3 at (25, 9) to Ladder 2 at (27, 1) directly. To access Ladder 2 (which sits on the northern landmass at Rows 0-2), we must use Water Ramp 1 at (23, 3) because it lands directly on Row 3/2, which connects horizontally to Column 27 on Rows 0-2!
+
 <hr>
 
 <h1><code>Locations/CeruleanCave</code></h1>
