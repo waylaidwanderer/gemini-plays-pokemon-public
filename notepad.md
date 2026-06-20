@@ -8050,8 +8050,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - **Cable Club Receptionist**: Located at (13, 6) facing DOWN in the counter gap.
   - PC terminal located on desk at (15, 7).
 - **Elite Four Entrance**:
-  - Located at the top center of the room.
-  - Entrance guarded by a bearded man NPC standing at (5, 1).
+  - Located at (8, 0) via a completely unguarded warp doorway (checkerboard carpet tile).
+  - There is a bearded man NPC standing at (5, 1), but he does not block or guard the actual entrance warp at (8, 0).
 
 ## Healing Failure Records:
 - Verified Turn 109717: Tested standing at (6, 7) facing UP (counter in front of healing machine right half). Pressed A, no interaction or healing.
