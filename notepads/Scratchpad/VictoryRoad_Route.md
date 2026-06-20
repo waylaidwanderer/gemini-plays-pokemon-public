@@ -36,3 +36,10 @@ Because Row 10 and Row 6 on 2F East are solid horizontal barriers, the northeast
 3. Walk Right 5 steps along Row 2 to Column 28 at (28, 2) [5 steps]
 4. Walk Up 2 steps along Column 28 to (28, 0) [2 steps]
 5. Exit Victory Road!
+
+## Warp Trigger Mechanics (Test Protocol Turn 108307)
+- **Hypothesis**: In Generation 1, standing directly on an exit warp tile (such as (28, 0) on Victory Road 3F East) and pressing the exit direction (Up) results in a collision bump because (28, -1) is an impassable boundary, and warps are only triggered by the action of stepping *onto* the warp tile.
+- **Test Protocol**:
+  1. Stand at (28, 0). Press Down to step off the warp onto (28, 1).
+  2. From (28, 1), press Up to step onto (28, 0), which should trigger the map transition to Route 23 North / Indigo Plateau.
+- **Results**: (Pending execution)
