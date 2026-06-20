@@ -8099,54 +8099,13 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - Rocky (Geodude) - Fainted on Turn 109906 by Lapras's Blizzard.
   - Birbie (Pidgeotto) - Fainted on Turn 109931 by Lapras's Blizzard.
 - **Run 1 Battle Timeline Log (Blacked out to Bruno)**:
-  - Turn 109816: Entered Lorelei's Room.
-  - Turn 109822: Initiated battle with Lorelei.
-  - Turn 109825: Defeated Dewgong with Gemmy's Earthquake. (Earthquake: 1 PP left)
-  - Turn 109829: Defeated Dewgong (with 2nd Earthquake). (Earthquake: 0 PP left)
-  - Turn 109835: Lorelei sent out Cloyster.
-  - Turn 109837: Used Surf on Cloyster. (Surf: 4 PP left)
-  - Turn 109839: Defeated Cloyster with Surf. (Surf: 3 PP left)
-  - Turn 109842: Lorelei sent out Slowbro.
-  - Turn 109843: Used Surf on Slowbro (resisted, minor damage). (Surf: 2 PP left)
-  - Turn 109850: Switched to Sparky (Pikachu) to preserve Gemmy's PP.
-  - Turn 109854: Paralyzed Slowbro with Thunder Wave. (Thunder Wave: 19 PP left)
-  - Turn 109858: Used Thunderbolt on Slowbro. (Thunderbolt: 14 PP left)
-  - Turn 109861: Defeated Slowbro with critical hit Thunderbolt! (Thunderbolt: 13 PP left)
-  - Turn 109865: Switched back to Gemmy (Blastoise) against Jynx.
-  - Turn 109874: Healed Gemmy to full HP with Hyper Potion. (Hyper Potions: 5 left)
-  - Turn 109880: Used Surf on Jynx. (Surf: 1 PP left)
-  - Turn 109884: Defeated Jynx with Surf. (Surf: 0 PP left)
-  - Turn 109888: Switched back to Sparky (Pikachu) against Lapras.
-  - Turn 109894: Sparky fainted from Lapras's Hydro Pump.
-  - Turn 109896: Sent Rocky (Geodude) out as fodder.
-  - Turn 109905: Used Max Revive on Sparky. (Max Revives: 1 left) Rocky fainted from Lapras's Blizzard.
-  - Turn 109908: Sent Sparky (Pikachu) back in.
-  - Turn 109912: Sparky became confused from Lapras's Confuse Ray, but successfully executed Thunder Wave and paralyzed Lapras! Sparky is at 69/69 HP. Lapras is paralyzed.
-  - Turn 109916: Used Thunderbolt on Lapras. (Thunderbolt: 12 PP left) Lapras was fully paralyzed.
-  - Turn 109918: Sparky hurt itself in confusion and fainted from Lapras's Hydro Pump.
-  - Turn 109923: Switched Birbie (Pidgeotto) in as fodder.
-  - Turn 109931: Used our last Max Revive on Sparky (Pikachu). (Max Revives: 0 left) Birbie fainted from Lapras's Blizzard.
-  - Turn 109934: Sent Sparky back in.
-  - Turn 109938: Used Thunderbolt on Lapras. (Thunderbolt: 10 PP left) Lapras used Body Slam and Sparky fainted.
-  - Turn 109940: Sent Gemmy (Blastoise) back in.
-  - Turn 109944: Used Hydro Pump. (Hydro Pump: 4 PP left)
-  - Turn 109948: Defeated Lapras with Hydro Pump! (Hydro Pump: 3 PP left)
+  - Run 1 Lorelei Battle: Initiated on Turn 109822. Won on Turn 109948 using GEMMY and SPARKY. Casualty count was high: SPARKY, ROCKY, BIRBIE fainted.
+  - Run 1 Bruno Battle: Initiated on Turn 109990. Defeated first Onix, but fainted to Hitmonchan's Counter on Turn 109998. Team blacked out.
 
 - **Run 2 Battle Timeline Log (Active)**:
-  - Turn 110175: Entered Lorelei's Room.
-  - Turn 110180: Initiated battle with Lorelei.
-  - Defeated Dewgong, Cloyster, Slowbro, Jynx, and Lapras.
-  - GEMMY grew to Lvl 67, ending battle with 191/221 HP. Remaining PP: Body Slam 3/15, Hydro Pump 5/5, Blizzard 5/5, Surf 13/15.
-  - Turn 110243: Fully healed GEMMY to 221/221 HP with a Hyper Potion. (Hyper Potions: 4 left)
-  - Turn 110248: Initiated battle with Bruno.
-  - Turn 110255: Defeated Onix (L53) with Surf. (Surf PP: 12 remaining)
-  - Turn 110259: Defeated Hitmonchan (L55) with Surf. (Surf PP: 11 remaining)
-  - Turn 110263: Defeated Hitmonlee (L55) with Surf. (Surf PP: 10 remaining)
-  - Turn 110267: Defeated Onix (L56) with Surf. (Surf PP: 9 remaining)
-  - Turn 110270: Used Surf on Machamp (L58) for 90% damage. (Surf PP: 8 remaining)
-  - Turn 110272: Defeated Machamp with Surf! (Surf PP: 7 remaining)
-  - GEMMY grew to Lvl 68 with 224/224 HP. Battle won! No casualties.
-  - Turn 110278: Arrived in Agatha's Room.
+  - Run 2 Lorelei Battle: Initiated on Turn 110180. Won with GEMMY at Lvl 67 (191/221 HP). No casualties.
+  - Run 2 Bruno Battle: Initiated on Turn 110248. Won with GEMMY at Lvl 68 (224/224 HP) using Surf. No casualties.
+  - Run 2 Agatha Battle: Arrived on Turn 110278. Battle active.
 
 ## Bruno (Fighting/Rock) Battle Strategy:
 - **Onix (Lvl 53 & 56)**: Water is 4x effective. OHKO with Surf/Hydro Pump.
