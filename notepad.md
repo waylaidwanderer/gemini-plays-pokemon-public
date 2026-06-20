@@ -8236,4 +8236,13 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   2. Observe the screen text in the next turn.
   3. Manually press A to advance until the HEAL/CANCEL menu is displayed, then select HEAL (default) by pressing A.
 
+## Step 3: PC Healing Protocol (Turn 111436)
+- Hypothesis: Nurse Joy's heal menu is cancelled by the harness's automatic B-button text advance. Depositing GEMMY (Blastoise) into the PC and then withdrawing her will completely restore her HP and move PP, bypassing Nurse Joy entirely.
+- Plan:
+  1. Walk to the PC terminal at (8, 3) by moving Down, Right, Right, Right, Right, Right, Up.
+  2. Access GEM's PC.
+  3. Deposit GEMMY into Box 2.
+  4. Withdraw GEMMY from Box 2.
+  5. Verify that GEMMY's HP is 231/231 and move PP is fully restored.
+
 <hr>
