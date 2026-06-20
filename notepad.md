@@ -8134,7 +8134,12 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - Turn 109908: Sent Sparky (Pikachu) back in.
   - Turn 109912: Sparky became confused from Lapras's Confuse Ray, but successfully executed Thunder Wave and paralyzed Lapras! Sparky is at 69/69 HP. Lapras is paralyzed.
   - Turn 109916: Used Thunderbolt on Lapras. (Thunderbolt: 12 PP left) Lapras was fully paralyzed.
-  - Turn 109918: Sparky hurt itself in confusion and fainted from Lapras's Hydro Pump. Current Turn: 109919. We are preparing to send in Birbie as fodder to use our last Max Revive on Sparky.
+  - Turn 109918: Sparky hurt itself in confusion and fainted from Lapras's Hydro Pump.
+  - Turn 109923: Switched Birbie (Pidgeotto) in as fodder.
+  - Turn 109931: Used our last Max Revive on Sparky (Pikachu). (Max Revives: 0 left) Birbie fainted from Lapras's Blizzard.
+  - Turn 109934: Sent Sparky back in.
+  - Turn 109938: Used Thunderbolt on Lapras. (Thunderbolt: 10 PP left) Lapras used Body Slam and Sparky fainted.
+  - Turn 109940: Sent Gemmy (Blastoise) back in. Current Turn: 109943. We are preparing to use Hydro Pump.
 
 ## Bruno (Fighting/Rock) Battle Strategy:
 - **Onix (Lvl 53 & 56)**: Water is 4x effective. OHKO with Surf.
