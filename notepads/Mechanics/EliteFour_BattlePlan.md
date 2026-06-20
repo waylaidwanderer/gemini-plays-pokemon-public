@@ -7,7 +7,7 @@
   - BODY SLAM: 1/15 PP
   - HYDRO PUMP: 5/5 PP
   - BLIZZARD: 1/5 PP
-  - SURF: 6/15 PP
+  - SURF: 3/15 PP
 - **SPARKY (PIKACHU) - Level 30**:
   - THUNDERBOLT: 15/15 PP
   - SWIFT: 20/20 PP
