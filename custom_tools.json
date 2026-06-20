@@ -23,5 +23,42 @@
         "action_counter": 109447
       }
     ]
+  },
+  "press_buttons_no_advance": {
+    "description": "Executes a sequence of button presses without triggering the automated dialogue advance of the harness.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "buttons": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "A",
+              "B",
+              "Select",
+              "Start",
+              "Right",
+              "Left",
+              "Up",
+              "Down",
+              "R",
+              "L"
+            ]
+          }
+        }
+      },
+      "required": [
+        "buttons"
+      ]
+    },
+    "python_script": "import json\nimport sys\ninput_data = json.loads(sys.argv[1])\nbuttons = input_data.get('buttons', [])\nprint(json.dumps(buttons))\n",
+    "history": [
+      {
+        "commit_message": "Create custom tool press_buttons_no_advance to prevent the harness from auto-advancing text when we interact with Chansey, so that we can manually select YES to heal.",
+        "timestamp": "2026-06-20T08:04:56.243Z",
+        "action_counter": 109687
+      }
+    ]
   }
 }
