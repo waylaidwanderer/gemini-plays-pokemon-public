@@ -7497,6 +7497,10 @@ To bypass this wall, we must go Left via Column 17:
 3. Walk Right 6 steps to (23, 5) via (18, 5), (19, 5), (20, 5), (21, 5), and (22, 5).
 4. Walk Down 2 steps to (23, 7) via (23, 6) to take the ladder UP to 3F East.
 5. On 3F East, walk Up to the exit at (23, 1).
+- Turn 108576: Arrived on Victory Road 3F East at (23, 7). The exit warp is located at (23, 1) on this floor.
+- Path to exit at (23, 1):
+  - Walk Up 6 steps along Column 23: (23, 7) -> (23, 6) -> (23, 5) -> (23, 4) -> (23, 3) -> (23, 2) -> (23, 1).
+  - Row 1 has the cave exit warp. Stepping onto (23, 1) should trigger the transition to Route 23 North / Indigo Plateau.
 
 <hr>
 
