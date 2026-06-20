@@ -7422,13 +7422,6 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 <hr>
 
-<h1><code>Scratchpad/Route23_Checkpoints</code></h1>
-
-# Route 23 Checkpoints - Archived
-All badge checkpoints on Route 23 have been cleared and verified. Permanent records are located in Locations/Route23.
-
-<hr>
-
 <h1><code>Scratchpad/VictoryRoad_Route</code></h1>
 
 # Scratchpad: Victory Road Route & Exit Plan
