@@ -24,3 +24,4 @@
   4. Go Right 2 steps to (27, 7) [TYPE_3fe2]
   5. Go Up to (27, 6) [TYPE_3fe2]
   This route is fully open and allows us to reach Row 6 and Columns 27-29. Let's execute this movement.
+- Turn 111689: Reached (29, 3) on Cerulean Cave 2F (0_226). Verified that the actual Ladder 2 is located at (29, 1) (labeled with the ladder symbol [=]), rather than (29, 3). The path to reach (29, 1) from (29, 3) goes Left to (28, 3), Up 2 steps to (28, 1), and Right to (29, 1). We will descend through this ladder to explore 1F.
