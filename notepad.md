@@ -7449,7 +7449,7 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 - Walk East along the plateau corridor to Koga's Eastern stairs at (21, 15).
 - Descend the stairs to the eastern ground level (z=0).
 - Walk past the lowered gate at (24, 11) to reach the exit ladder at (25, 14).
-- Take the (25, 14) ladder down to 1F East and exit to Route 23 North!
+- Take the (25, 14) ladder to explicitly test where it leads, resolving the contradiction between 1F East and 3F East, then exit to Route 23 North!
 
 ## Post-Exit Priorities:
 - Go straight to the Indigo Plateau Pokémon Center counter and heal to fully restore GEMMY's PP and HP!
