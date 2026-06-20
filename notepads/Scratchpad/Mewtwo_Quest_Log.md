@@ -13,3 +13,4 @@
   3. We have the MASTER BALL. It has a 100% success rate on Turn 1 of battle without requiring any damage, HP, or PP from our team.
   4. HM moves (SURF, STRENGTH) do not consume PP in the overworld and can be executed even at 0 PP.
 - Conclusion: We will immediately bypass the healing step and navigate directly to the Cerulean Cave entrance.
+- Turn 111509: Navigated from the Pokémon Center through the western ledge bypass at Column 8, Row 14, then East along Row 13, and now heading North along the tree-lined corridor on Column 20 toward Nugget Bridge (Route 24). All paths are completely clear.
