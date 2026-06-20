@@ -24,9 +24,9 @@
 - **Cloyster (Lvl 53)**: Defeated! (Used 2 Surf PP)
 - **Slowbro (Lvl 54)**: Defeated! (Used 1 Thunder Wave PP, 2 Thunderbolt PP on Sparky)
 - **Jynx (Lvl 56)**: Defeated! (Used 2 Surf PP, Gemmy healed to full with Hyper Potion)
-- **Lapras (Lvl 56)**: Water/Ice. Currently active. Sparky (Pikachu) fainted on Turn 109894 by Hydro Pump. Sent in Rocky (Geodude) as fodder to use Max Revive on Sparky (Turn 109905). Rocky fainted on Turn 109906. Sent Sparky back in on Turn 109908.
+- **Lapras (Lvl 56)**: Water/Ice. Currently active. Sparky (Pikachu) fainted on Turn 109894 by Hydro Pump. Sent in Rocky (Geodude) as fodder to use Max Revive on Sparky (Turn 109905). Rocky fainted on Turn 109906. Sent Sparky back in on Turn 109908. Sparky fainted again on Turn 109918 after hitting yourself in confusion and taking a Hydro Pump. Paralyzed Lapras remains active.
 - **Fainted Team Members Log**:
-  - Sparky (Pikachu) - Fainted on Turn 109894 by Lapras's Hydro Pump. Revived on Turn 109905.
+  - Sparky (Pikachu) - Fainted on Turn 109894 by Lapras's Hydro Pump. Revived on Turn 109905. Fainted again on Turn 109918 by Lapras's Hydro Pump.
   - Rocky (Geodude) - Fainted on Turn 109906 by Lapras's Blizzard.
 - **Battle Timeline Log**:
   - Turn 109816: Entered Lorelei's Room.
@@ -51,7 +51,9 @@
   - Turn 109896: Sent Rocky (Geodude) out as fodder.
   - Turn 109905: Used Max Revive on Sparky. (Max Revives: 1 left) Rocky fainted from Lapras's Blizzard.
   - Turn 109908: Sent Sparky (Pikachu) back in.
-  - Turn 109912: Sparky became confused from Lapras's Confuse Ray, but successfully executed Thunder Wave and paralyzed Lapras! Sparky is at 69/69 HP. Lapras is paralyzed. Current Turn: 109913.
+  - Turn 109912: Sparky became confused from Lapras's Confuse Ray, but successfully executed Thunder Wave and paralyzed Lapras! Sparky is at 69/69 HP. Lapras is paralyzed.
+  - Turn 109916: Used Thunderbolt on Lapras. (Thunderbolt: 12 PP left) Lapras was fully paralyzed.
+  - Turn 109918: Sparky hurt itself in confusion and fainted from Lapras's Hydro Pump. Current Turn: 109919. We are preparing to send in Birbie as fodder to use our last Max Revive on Sparky.
 
 ## Bruno (Fighting/Rock) Battle Strategy:
 - **Onix (Lvl 53 & 56)**: Water is 4x effective. OHKO with Surf.
