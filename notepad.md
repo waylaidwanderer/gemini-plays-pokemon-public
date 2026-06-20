@@ -8244,5 +8244,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   3. Deposit GEMMY into Box 2.
   4. Withdraw GEMMY from Box 2.
   5. Verify that GEMMY's HP is 231/231 and move PP is fully restored.
+- Turn 111454: Noticed that pressing Right while at (12, 3) facing Left did not turn us Right. This may be because the engine requires a clean, non-blocked step to reliably change facing direction under certain harness conditions.
+- Methodology: We will walk Down to (12, 4) (which is open) to force a direction change to South. Then walk Up to (12, 3) (open) to force a direction change to North. From there, we will test turning Right.
 
 <hr>
