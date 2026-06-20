@@ -24,10 +24,10 @@
   - Press Left to push to (23, 10)
   - Press Left to step onto (24, 10)
   - Press Left to push to (22, 10)
-- Step 4: Stand at (23, 10). Walk Down to (23, 11).
-- Step 5: Walk Left to (22, 11) and Left to (21, 11).
-- Step 6: Walk Up to (21, 10), (21, 9), and (21, 8).
-- Step 7: Walk Right to (22, 8) and (23, 8).
+- Step 4: Stand at (23, 10). Walk Down to (23, 13).
+- Step 5: Walk Left to (15, 13) via (22, 13), (21, 13), (20, 13), (19, 13), (18, 13), (17, 13), (16, 13).
+- Step 6: Walk Up to (15, 7) via Column 15.
+- Step 7: Walk Right to (23, 7) via Row 7.
 - Step 8: Walk Up along Column 23 past the lowered barrier at (23, 7) directly to (23, 1) to exit Victory Road!
 
 ## Post-Exit Priorities:
