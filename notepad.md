@@ -8247,6 +8247,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - This is our definitive, multi-floor route to Mewtwo! We will execute this step-by-step.
 - Turn 112227: Exploring water canal.
 - Turn 112471: Resuming exploration of 1F water canal. Verified that Column 19 blocks Row 17 on foot, meaning we must use Water Ramp 4 at (15, 3) to reach the western landmass and southwest ladder at (3, 11).
+- Turn 112489: Reached (10, 6) in the western water canal on 1F. We are currently surfing. Let's trace our path further west and south.
 
 <hr>
 
