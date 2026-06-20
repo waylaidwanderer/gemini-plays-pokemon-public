@@ -8246,5 +8246,12 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   5. Verify that GEMMY's HP is 231/231 and move PP is fully restored.
 - Turn 111454: Noticed that pressing Right while at (12, 3) facing Left did not turn us Right. This may be because the engine requires a clean, non-blocked step to reliably change facing direction under certain harness conditions.
 - Methodology: We will walk Down to (12, 4) (which is open) to force a direction change to South. Then walk Up to (12, 3) (open) to force a direction change to North. From there, we will test turning Right.
+- Turn 111479: Determined that due to the harness's automatic text advance repeatedly pressing B and cancelling both the PC menus and Nurse Joy's healing menus, full healing is impractical and, more importantly, COMPLETELY UNNECESSARY.
+- Verification:
+  1. We are heading to Cerulean Cave to catch Mewtwo.
+  2. Mewtwo is the only fight we will participate in; we can escape all other wild encounters using the `flee_battle` custom tool.
+  3. We have the MASTER BALL. It has a 100% success rate on Turn 1 of battle without requiring any damage, HP, or PP from our team.
+  4. HM moves (SURF, STRENGTH) do not consume PP in the overworld and can be executed even at 0 PP.
+- Conclusion: We will immediately bypass the healing step and navigate directly to the Cerulean Cave entrance.
 
 <hr>
