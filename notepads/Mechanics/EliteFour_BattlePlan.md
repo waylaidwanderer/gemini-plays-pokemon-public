@@ -2,12 +2,12 @@
 
 - Preparation Started: Turn 109627 | Timestamp: Saturday, June 20, 2026 at 12:46 AM PDT
 
-## Remaining PP Tracker:
-- **GEMMY (BLASTOISE) - Level 66**:
-  - BODY SLAM: 15/15 PP
+## Remaining PP Tracker (Run 2 - Active):
+- **GEMMY (BLASTOISE) - Level 67**:
+  - BODY SLAM: 12/15 PP
   - HYDRO PUMP: 5/5 PP
   - BLIZZARD: 5/5 PP
-  - SURF: 15/15 PP
+  - SURF: 13/15 PP
 - **SPARKY (PIKACHU) - Level 30**:
   - THUNDERBOLT: 15/15 PP
   - SWIFT: 20/20 PP
