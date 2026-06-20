@@ -8225,8 +8225,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Goal: Enter Cerulean Cave and catch Mewtwo.
 
 ## Current status & Progression
-- We are currently on Cerulean Cave 1F (0_228) standing on the water ramp at (25, 9), preparing to Surf along the water canal to find the western and southern ladders that lead to the western corridors of 2F.
-- Turn 112201: Initiating Surf at (25, 9) on 1F.
+- Navigating the 1F water canal to locate a western landmass and access 2F West.
 
 ## 2F Exploration Discoveries & Pathing Notes
 - Row 11 forms a completely open, unblocked horizontal corridor from Column 18 to Column 24, allowing horizontal travel.
