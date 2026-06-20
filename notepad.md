@@ -8066,34 +8066,37 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 # Mechanics: Elite Four & Champion Battle Plan
 
+- Preparation Started: Turn 109627 | Timestamp: Saturday, June 20, 2026 at 12:46 AM PDT
+
 ## Remaining PP Tracker:
 - **GEMMY (BLASTOISE) - Level 66**:
-  - EARTHQUAKE: 0/10 PP
+  - SUBMISSION: 25/25 PP
   - HYDRO PUMP: 5/5 PP
-  - BLIZZARD: 0/5 PP
-  - SURF: 0/15 PP
+  - BLIZZARD: 5/5 PP
+  - SURF: 15/15 PP
 - **SPARKY (PIKACHU) - Level 30**:
-  - THUNDERBOLT: 13/15 PP
+  - THUNDERBOLT: 15/15 PP
   - SWIFT: 20/20 PP
-  - THUNDER WAVE: 19/20 PP
+  - THUNDER WAVE: 20/20 PP
   - QUICK ATTACK: 30/30 PP
 
 ## Inventory Recovery Items:
 - FULL HEAL: 1
 - FULL RESTORE: 2
-- HYPER POTION: 6
+- HYPER POTION: 5
 - MAX POTION: 3
-- MAX REVIVE: 2
+- MAX REVIVE: 0
 
 ## Lorelei (Ice/Water) Battle Strategy:
 - **Dewgong (Lvl 54)**: Defeated! (Used 2 Earthquake PP)
 - **Cloyster (Lvl 53)**: Defeated! (Used 2 Surf PP)
 - **Slowbro (Lvl 54)**: Defeated! (Used 1 Thunder Wave PP, 2 Thunderbolt PP on Sparky)
 - **Jynx (Lvl 56)**: Defeated! (Used 2 Surf PP, Gemmy healed to full with Hyper Potion)
-- **Lapras (Lvl 56)**: Water/Ice. Currently active. Sparky (Pikachu) fainted on Turn 109894 by Hydro Pump. Sent in Rocky (Geodude) as fodder to use Max Revive on Sparky (Turn 109905). Rocky fainted on Turn 109906. Sent Sparky back in on Turn 109908. Sparky fainted again on Turn 109918 after hitting yourself in confusion and taking a Hydro Pump. Paralyzed Lapras remains active.
+- **Lapras (Lvl 56)**: Defeated on Turn 109948 using GEMMY's Hydro Pump! (Hydro Pump: 3 PP left)
 - **Fainted Team Members Log**:
   - Sparky (Pikachu) - Fainted on Turn 109894 by Lapras's Hydro Pump. Revived on Turn 109905. Fainted again on Turn 109918 by Lapras's Hydro Pump.
   - Rocky (Geodude) - Fainted on Turn 109906 by Lapras's Blizzard.
+  - Birbie (Pidgeotto) - Fainted on Turn 109931 by Lapras's Blizzard.
 - **Battle Timeline Log**:
   - Turn 109816: Entered Lorelei's Room.
   - Turn 109822: Initiated battle with Lorelei.
@@ -8124,13 +8127,22 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - Turn 109931: Used our last Max Revive on Sparky (Pikachu). (Max Revives: 0 left) Birbie fainted from Lapras's Blizzard.
   - Turn 109934: Sent Sparky back in.
   - Turn 109938: Used Thunderbolt on Lapras. (Thunderbolt: 10 PP left) Lapras used Body Slam and Sparky fainted.
-  - Turn 109940: Sent Gemmy (Blastoise) back in. Current Turn: 109943. We are preparing to use Hydro Pump.
+  - Turn 109940: Sent Gemmy (Blastoise) back in.
+  - Turn 109944: Used Hydro Pump. (Hydro Pump: 4 PP left)
+  - Turn 109948: Defeated Lapras with Hydro Pump! (Hydro Pump: 3 PP left)
 
 ## Bruno (Fighting/Rock) Battle Strategy:
-- **Onix (Lvl 53 & 56)**: Water is 4x effective. OHKO with Surf.
-- **Hitmonchan (Lvl 55)**: Fighting. Weak to Psychic/Flying.
-- **Hitmonlee (Lvl 55)**: Fighting. Weak to Psychic/Flying.
+- **Onix (Lvl 53 & 56)**: Water is 4x effective. OHKO with Surf/Hydro Pump.
+- **Hitmonchan (Lvl 55)**: Fighting. Neutral to Fighting (Submission). Uses Counter! Avoid using high-damage physical moves (Submission) unless sure of OHKO, or use special attacks / recover frequently.
+- **Hitmonlee (Lvl 55)**: Fighting. Neutral to Fighting.
 - **Machamp (Lvl 58)**: Fighting. Very bulky.
+- **First Battle Failure Log**:
+  - Turn 109990: Initiated battle with Bruno.
+  - Turn 109993: Defeated Onix (L53) with Hydro Pump. (Hydro Pump: 2 PP left)
+  - Turn 109998: Used Submission on Hitmonchan (critical hit!). Hitmonchan survived with a tiny sliver of HP and used COUNTER, dealing double damage back and fainting GEMMY.
+  - Turn 110004: Sent out BUGGY (Butterfree). Hitmonchan used ThunderPunch and fainted BUGGY.
+  - Turn 110008: Sent out PETAL (Bellsprout). Hitmonchan used ThunderPunch and fainted PETAL. Team blacked out and returned to Viridian City.
+  - **Key Lesson**: Bruno's Hitmonchan knows Counter. Do not use physical physical moves like Submission when Hitmonchan is healthy or can survive to Counter back. Use special moves (like Blizzard/Surf/Hydro Pump) or ensure we can survive.
 
 ## Agatha (Ghost/Poison) Battle Strategy:
 - **Gengar (Lvl 56 & 60)**, **Haunter (Lvl 55)**, **Arbok (Lvl 58)**: Weak to Ground/Psychic.
@@ -8143,7 +8155,5 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 ## Champion Blue Battle Strategy:
 - Balanced team. Adapt using Gemmy's remaining PP.
-- Turn 109971: Taught TM17 (Submission) to GEMMY (Blastoise) over EARTHQUAKE, granting 25 PP of physical Fighting-type coverage.
-- Turn 109975: Closed the start menu and returned to the overworld at (5, 3) facing Up towards Lorelei. We are ready to navigate to the open door at (4, 0) to enter Bruno's Room.
 
 <hr>
