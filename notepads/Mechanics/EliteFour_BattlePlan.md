@@ -50,7 +50,8 @@
   - Turn 109894: Sparky fainted from Lapras's Hydro Pump.
   - Turn 109896: Sent Rocky (Geodude) out as fodder.
   - Turn 109905: Used Max Revive on Sparky. (Max Revives: 1 left) Rocky fainted from Lapras's Blizzard.
-  - Turn 109908: Sent Sparky (Pikachu) back in. Current Turn: 109909. (Pikachu HP: 69/69, full).
+  - Turn 109908: Sent Sparky (Pikachu) back in.
+  - Turn 109912: Sparky became confused from Lapras's Confuse Ray, but successfully executed Thunder Wave and paralyzed Lapras! Sparky is at 69/69 HP. Lapras is paralyzed. Current Turn: 109913.
 
 ## Bruno (Fighting/Rock) Battle Strategy:
 - **Onix (Lvl 53 & 56)**: Water is 4x effective. OHKO with Surf.
