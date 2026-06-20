@@ -17,7 +17,7 @@
 ## Inventory Recovery Items:
 - FULL HEAL: 1
 - FULL RESTORE: 11
-- HYPER POTION: 4
+- HYPER POTION: 3
 - MAX POTION: 3
 - REVIVE: 20
 - MAX ETHER: 0
