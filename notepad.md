@@ -7286,13 +7286,6 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 <hr>
 
-<h1><code>Scratchpad/Route22_Checkpoints</code></h1>
-
-# Route 22 Checkpoints - Archived
-All checkpoints on Route 22 have been successfully completed and verified. See Locations/Route22 for permanent records.
-
-<hr>
-
 <h1><code>Locations/Route22</code></h1>
 
 # Route 22 Verified Location Records (Map 0_33)
