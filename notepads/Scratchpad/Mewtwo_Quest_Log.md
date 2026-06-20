@@ -3,7 +3,7 @@
 - Goal: Enter Cerulean Cave and catch Mewtwo.
 
 ## Current status & Progression
-- Backtracked to 1F and prepared to test the passability of Row 17 Column 19 on foot.
+- Flying to Cerulean Pokémon Center to heal and restore PP.
 
 ## 2F Exploration Discoveries & Pathing Notes
 - Row 11 forms a completely open, unblocked horizontal corridor from Column 18 to Column 24, allowing horizontal travel.
