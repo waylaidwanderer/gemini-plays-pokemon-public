@@ -43,6 +43,6 @@
 - **Accessing Western 2F**: The eastern section of 2F is completely isolated from the western section of 2F on foot. This has been empirically proven by the rock wall blockages at (16, 13) and (13, 11). Thus, we must climb up a different ladder from 1F.
 - **Water Canal**: The water canal runs horizontally across the north on Rows 4-5, turns south along Columns 8-9 down to Row 15, and connects to different sections of 1F. We are using this canal to navigate to the western/southern reaches of 1F.
 
-- **Ladder 5**:
-  - Located on 1F at (7, 1) (labeled TYPE_3fe2). Ascending this ladder warps the player to 2F at (9, 1).
-  - Located on 2F at (9, 1) (labeled [=], TYPE_3fe2). Descending this ladder warps the player to 1F at (7, 1).
+- **Ladder 6**:
+  - Located on 1F at (1, 3) (labeled TYPE_3fe2). Ascending this ladder warps the player to 2F at (1, 3).
+  - Located on 2F at (1, 3) (labeled [=], TYPE_3fe2). Descending this ladder warps the player to 1F at (1, 3). This is the critical gateway to the northwest isolated quadrant of 1F and the B1F stairs.
