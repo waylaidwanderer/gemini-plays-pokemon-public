@@ -8225,7 +8225,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Goal: Enter Cerulean Cave and catch Mewtwo.
 
 ## Current status & Progression
-- Flying to Cerulean Pokémon Center to heal and restore PP.
+- Navigating up Nugget Bridge on Route 24.
 
 ## 2F Exploration Discoveries & Pathing Notes
 - Row 11 forms a completely open, unblocked horizontal corridor from Column 18 to Column 24, allowing horizontal travel.
