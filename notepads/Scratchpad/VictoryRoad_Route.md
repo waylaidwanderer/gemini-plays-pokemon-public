@@ -15,10 +15,11 @@
      - Walk Right to (23, 5)
      - Walk Down to the ladder at (23, 7)
   2. Take the ladder at (23, 7) UP to 3F East (Map 0_198).
-  3. On 3F East, walk to the ladder at (26, 8) via the open northern bypass (Row 2):
-     - Walk Up from (23, 7) to (23, 2)
-     - Walk Right along Row 2 to (26, 2)
-     - Walk Down Column 26 to (26, 8)
+  3. On 3F East, walk to the ladder at (26, 8) via Row 2 and Column 27:
+     - Walk Up from (23, 8) to (23, 2)
+     - Walk Right along Row 2 to (27, 2)
+     - Walk Down Column 27 to (27, 8)
+     - Walk Left 1 step to the ladder at (26, 8)
   4. Take the ladder at (26, 8) on 3F East DOWN to 2F East (Map 0_194). This lands us directly on (27, 7) on the south side of the Row 6 barrier!
   5. From (27, 7), walk Right 2 steps to (29, 7) (via (28, 7)), which is the functional exit warp leading to Route 23 North!
 
