@@ -14,3 +14,4 @@
   4. HM moves (SURF, STRENGTH) do not consume PP in the overworld and can be executed even at 0 PP.
 - Conclusion: We will immediately bypass the healing step and navigate directly to the Cerulean Cave entrance.
 - Turn 111509: Navigated from the Pokémon Center through the western ledge bypass at Column 8, Row 14, then East along Row 13, and now heading North along the tree-lined corridor on Column 20 toward Nugget Bridge (Route 24). All paths are completely clear.
+- Turn 111521: Reached (10, 19). Identified that Nugget Bridge's western boundary pillars on Column 9 end at Row 15. We will walk Up to (10, 15), then Left to (6, 15). From (6, 15) facing Down, we can directly SURF onto the water at (6, 16).
