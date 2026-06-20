@@ -7485,6 +7485,7 @@ Because Row 10 and Row 6 on 2F East are solid horizontal barriers, the northeast
   1. Stand at (28, 0). Press Down to step off the warp onto (28, 1).
   2. From (28, 1), press Up to step onto (28, 0), which should trigger the map transition to Route 23 North / Indigo Plateau.
 - **Results**: (Pending execution)
+- Turn 108395: Testing Warp Trigger Mechanics at (28, 0). Standing at (28, 0) facing Up, let's step Down to (28, 1) and then step Up to (28, 0) to verify if stepping onto (28, 0) triggers the transition to Route 23 North / Indigo Plateau.
 
 <hr>
 
