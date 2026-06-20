@@ -8098,7 +8098,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - Sparky (Pikachu) - Fainted on Turn 109894 by Lapras's Hydro Pump. Revived on Turn 109905. Fainted again on Turn 109918 by Lapras's Hydro Pump.
   - Rocky (Geodude) - Fainted on Turn 109906 by Lapras's Blizzard.
   - Birbie (Pidgeotto) - Fainted on Turn 109931 by Lapras's Blizzard.
-- **Battle Timeline Log**:
+- **Run 1 Battle Timeline Log (Blacked out to Bruno)**:
   - Turn 109816: Entered Lorelei's Room.
   - Turn 109822: Initiated battle with Lorelei.
   - Turn 109825: Defeated Dewgong with Gemmy's Earthquake. (Earthquake: 1 PP left)
@@ -8131,6 +8131,22 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - Turn 109940: Sent Gemmy (Blastoise) back in.
   - Turn 109944: Used Hydro Pump. (Hydro Pump: 4 PP left)
   - Turn 109948: Defeated Lapras with Hydro Pump! (Hydro Pump: 3 PP left)
+
+- **Run 2 Battle Timeline Log (Active)**:
+  - Turn 110175: Entered Lorelei's Room.
+  - Turn 110180: Initiated battle with Lorelei.
+  - Defeated Dewgong, Cloyster, Slowbro, Jynx, and Lapras.
+  - GEMMY grew to Lvl 67, ending battle with 191/221 HP. Remaining PP: Body Slam 3/15, Hydro Pump 5/5, Blizzard 5/5, Surf 13/15.
+  - Turn 110243: Fully healed GEMMY to 221/221 HP with a Hyper Potion. (Hyper Potions: 4 left)
+  - Turn 110248: Initiated battle with Bruno.
+  - Turn 110255: Defeated Onix (L53) with Surf. (Surf PP: 12 remaining)
+  - Turn 110259: Defeated Hitmonchan (L55) with Surf. (Surf PP: 11 remaining)
+  - Turn 110263: Defeated Hitmonlee (L55) with Surf. (Surf PP: 10 remaining)
+  - Turn 110267: Defeated Onix (L56) with Surf. (Surf PP: 9 remaining)
+  - Turn 110270: Used Surf on Machamp (L58) for 90% damage. (Surf PP: 8 remaining)
+  - Turn 110272: Defeated Machamp with Surf! (Surf PP: 7 remaining)
+  - GEMMY grew to Lvl 68 with 224/224 HP. Battle won! No casualties.
+  - Turn 110278: Arrived in Agatha's Room.
 
 ## Bruno (Fighting/Rock) Battle Strategy:
 - **Onix (Lvl 53 & 56)**: Water is 4x effective. OHKO with Surf/Hydro Pump.
