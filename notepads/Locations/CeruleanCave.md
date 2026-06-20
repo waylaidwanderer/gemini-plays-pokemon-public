@@ -39,9 +39,8 @@
 ## Topological Connectivity and Progression Path to Mewtwo:
 - **B1F Access**: The stairs down to B1F are located in the isolated northwestern quadrant of 1F.
 - **Northwest Quadrant of 1F**: This isolated quadrant can ONLY be accessed by descending from 2F via a specific ladder located in the northwestern portion of 2F.
-- **Western Portion of 2F**: Physically isolated from the eastern section on foot. To access it, the player must climb up a specific ladder from the western/southern portion of 1F.
+- **Western/Southern Portion of 1F**: Impassable via the western water canal. Our empirical testing on Turns 112211-112224 and 112487-112495 proved that the western vertical canal (Columns 8-9) is a dead end on Row 16 with no connected dismount points. To access the western/southern portion of 1F, we must investigate other potential pathways, such as verifying the passability of Row 17 at Column 19 on foot.
 - **Accessing Western 2F**: The eastern section of 2F is completely isolated from the western section of 2F on foot. This has been empirically proven by the rock wall blockages at (16, 13) and (13, 11). Thus, we must climb up a different ladder from 1F.
-- **Western/Southern Portion of 1F**: Accessible via the water canals. We are currently surfing west and south along the main water canal to locate a western/southern ladder leading to 2F West.
 - **Water Canal**: The water canal runs horizontally across the north on Rows 4-5, turns south along Columns 8-9 down to Row 15, and connects to different sections of 1F. We are using this canal to navigate to the western/southern reaches of 1F.
 
 - **Ladder 5**:
