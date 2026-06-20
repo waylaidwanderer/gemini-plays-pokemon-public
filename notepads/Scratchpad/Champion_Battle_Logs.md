@@ -38,4 +38,11 @@
 
 ## Battle Progression Log:
 - Turn 110398: Battle initiated.
-- Turn 110401: Active GEMMY L69 vs Pidgeot L61. Choosing move.
+- Turn 110401: Active GEMMY L69 vs Pidgeot L61. Used Surf.
+- Turn 110408: Pidgeot in red HP. Used Surf to KO Pidgeot.
+- Turn 110409: Blue sending out Alakazam L59. Kept GEMMY active.
+- Turn 110414: Used Body Slam on Alakazam. Alakazam paralyzed, used Psychic (critical hit, GEMMY at 91/228 HP).
+- Turn 110417: Used Body Slam to KO Alakazam (Gemmy outsped due to paralysis speed drop).
+- Turn 110418: Blue sending out Rhydon L61. Kept GEMMY active.
+- Turn 110422: Used Surf to OHKO Rhydon.
+- Turn 110425: Blue sending out Gyarados L61. Kept GEMMY active (to heal Gemmy to full on Turn 1).
