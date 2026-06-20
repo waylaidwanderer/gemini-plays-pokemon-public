@@ -8159,10 +8159,10 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 6. Venusaur (L65) - Grass/Poison
 
 ## GEMMY's Moves & PP:
-- BODY SLAM: 3/15 PP
+- BODY SLAM: 1/15 PP
 - HYDRO PUMP: 5/5 PP
 - BLIZZARD: 1/5 PP
-- SURF: 12/15 PP
+- SURF: 9/15 PP
 
 ## SPARKY's Moves & PP:
 - THUNDERBOLT: 15/15 PP
