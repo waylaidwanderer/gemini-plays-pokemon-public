@@ -23,8 +23,10 @@
 - **Dewgong (Lvl 54)**: Defeated! (Used 2 Earthquake PP)
 - **Cloyster (Lvl 53)**: Defeated! (Used 2 Surf PP)
 - **Slowbro (Lvl 54)**: Defeated! (Used 1 Thunder Wave PP, 2 Thunderbolt PP on Sparky)
-- **Jynx (Lvl 56)**: Ice/Psychic. Currently active. Healing Gemmy with a Hyper Potion on Turn 109871.
-- **Lapras (Lvl 56)**: Water/Ice. High HP and bulky. Use Surf or Hydro Pump.
+- **Jynx (Lvl 56)**: Defeated! (Used 2 Surf PP, Gemmy healed to full with Hyper Potion)
+- **Lapras (Lvl 56)**: Water/Ice. Currently active. Sparky (Pikachu) was sent in, but was outsped and fainted on Turn 109894 by Lapras's Hydro Pump.
+- **Fainted Team Members Log**:
+  - Sparky (Pikachu) - Fainted on Turn 109894 by Lapras's Hydro Pump.
 
 ## Bruno (Fighting/Rock) Battle Strategy:
 - **Onix (Lvl 53 & 56)**: Water is 4x effective. OHKO with Surf.
