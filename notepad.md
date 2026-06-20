@@ -728,6 +728,9 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
 - **Verified Fact**: Standard Python filesystem utilities (such as `os.walk`, `os.path`, and the standard `open()` command) executed within the `run_code` tool are completely blind to the game's virtual pseudo-filesystem. 
 - **Rule**: The virtual persistent notepads (including `Main`, `Locations/*`, `Scratchpad/*`, etc.) are managed in a separate sandboxed datastore. To search, read, or list notepads programmatically, you MUST exclusively use the built-in `search_notepads`, `read_notepad`, and `load_notepads` tools. Standard OS commands will return empty results. This ensures no compute or time is wasted on blind filesystem searches.
 
+## Fly Map Navigation (Verified Turn 111416)
+- On the FLY map, pressing Left or Right is a no-op. The map locations are scrolled linearly as a list strictly using UP and DOWN, as indicated by the ▲ and ▼ icons on the top-right of the screen.
+
 <hr>
 
 <h1><code>Locations/Route2_North</code></h1>
