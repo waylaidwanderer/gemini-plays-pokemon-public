@@ -8203,5 +8203,12 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 110455: Used Hyper Potion on GEMMY (healed to 228/228 HP).
 - Turn 110457: Gyarados used Hyper Beam (Critical hit! Dealt 116 damage, GEMMY at 112/228 HP). This proved healing was a run-saving play! Gyarados must recharge.
 - Turn 110458: GEMMY at 112/228 HP. Opening FIGHT menu to attack while Gyarados recharges.
+- Turn 110461: Used Surf (Gyarados in red HP, must recharge).
+- Turn 110464: Defeated Gyarados with Surf. GEMMY leveled up to L70 (HP 115/231). Surf PP: 3.
+- Turn 110465: Blue sending out Arcanine L61. Kept GEMMY active.
+- Turn 110471: Used Surf to OHKO Arcanine. Surf PP: 2.
+- Turn 110472: Blue sending out Venusaur L65. Kept GEMMY active.
+- Turn 110477: Used Hyper Potion on GEMMY (healed to 231/231 HP).
+- Turn 110479: Venusaur used Razor Leaf.
 
 <hr>
