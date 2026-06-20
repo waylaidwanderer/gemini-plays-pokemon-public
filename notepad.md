@@ -7449,22 +7449,6 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 - 3F East: Row 6 is blocked by a continuous, impassable solid rock wall of TYPE_2889 across all eastern columns (Columns 24-29). (27, 6) is solid rock, completely isolating Koga's northern bypass (Row 2) from Koga's southern corridor (Rows 8-15) on 3F East.
 - Therefore, we MUST backtrack to 2F West, traverse East along Koga's Row 16 ground corridor to climb the plateau from the south at (21, 15). To reach 2F West from 3F East, we must cross Koga's western plateau by climbing the stairs at (17, 5).
 
-## Complete Backtracking & Exit Route:
-1. Walk from our current position (13, 6) on 3F East Right 4 steps along Row 6 to (17, 6).
-2. Walk Up 1 step to climb Koga's western plateau stairs at (17, 5) onto the plateau [elevation z=1].
-3. Cross Koga's western plateau West to 3F West and descend the stairs to reach the ground floor of 3F West.
-4. Walk to the (2, 0) ladder on 3F West.
-5. Take the (2, 0) ladder DOWN to 2F West (lands at (2, 0) on 2F West).
-6. On 2F West, walk Down to Row 16, then East along Koga's Row 16 ground corridor to Column 21 at (21, 16).
-7. Walk Up 1 step onto Koga's plateau stairs at (21, 15) to climb onto the plateau at (21, 14) [elevation z=1].
-8. Walk along Koga's plateau to the (25, 14) ladder.
-9. Take the (25, 14) ladder UP to 3F East (lands at (27, 15) on 3F East).
-10. Walk Up Column 27 to (27, 8).
-11. Walk Left 1 step to stand on the (26, 8) ladder.
-12. Take the (26, 8) ladder DOWN to 2F East (lands at (27, 7) on 2F East inside the northeast pocket).
-13. Walk Right 2 steps to (29, 7) on 2F East to EXIT Victory Road!
-- Turn 109582: Successfully returned to 2F East via the 3F East pit drop at (23, 15), then climbed the plateau to (21, 14) and took the ladder back UP to 3F East.
-
 ## Master Ground-Level Exit Route (NO PLATEAU CROSSINGS NEEDED!)
 - From (14, 16) on 3F East/West, walk Right 9 steps to Column 23 at (23, 16).
 - Walk Up 10 steps along Column 23 to Row 6 at (23, 6).
