@@ -8289,9 +8289,9 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 ## Topological Connectivity and Progression Path to Mewtwo:
 - **B1F Access**: The stairs down to B1F are located in the isolated northwestern quadrant of 1F.
 - **Northwest Quadrant of 1F**: This isolated quadrant can ONLY be accessed by descending from 2F via a specific ladder located in the northwestern portion of 2F.
-- **Western Portion of 2F**: The western section of 2F is completely isolated from the eastern section of 2F on foot. Direct horizontal travel between East 2F and West 2F is blocked.
-- **Accessing Western 2F**: To reach the western portion of 2F, we must climb up a specific ladder from the western/southern portion of 1F.
-- **Western/Southern Portion of 1F**: We must discover how to access the western/southern portion of 1F. This is our immediate progression bottleneck. We must find the path that connects the eastern side (where we enter) to the western/southern side of 1F.
+- **Western Portion of 2F**: Whether the western section of 2F is completely isolated from the eastern section of 2F on foot is currently under active audit.
+- **Accessing Western 2F**: If 2F is indeed connected on foot, we can simply walk west on 2F. If 2F is isolated, we must climb up a specific ladder from the western/southern portion of 1F.
+- **Western/Southern Portion of 1F**: We are auditing if there is a separate western landmass accessible on foot or if the 2F-transit is the only pathway.
 - **Water Canal**: The water canal runs horizontally across the north on Rows 4-5 and goes south on Columns 8-9 down to Row 15. We must determine if there is an alternative branch of this canal or an overworld land path we missed.
 
 ## Cerulean Cave 2F Connectivity Audit (Turn 112311):
