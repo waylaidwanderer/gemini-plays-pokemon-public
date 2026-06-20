@@ -16,10 +16,11 @@
 
 ## Inventory Recovery Items:
 - FULL HEAL: 1
-- FULL RESTORE: 2
+- FULL RESTORE: 11
 - HYPER POTION: 5
 - MAX POTION: 3
-- MAX REVIVE: 0
+- REVIVE: 20
+- MAX ETHER: 1
 
 ## Lorelei (Ice/Water) Battle Strategy:
 - **Dewgong (Lvl 54)**: Defeated! (Used 2 Earthquake PP)
