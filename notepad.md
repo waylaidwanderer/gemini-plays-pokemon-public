@@ -8158,5 +8158,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 ## Champion Blue Battle Strategy:
 - Balanced team. Adapt using Gemmy's remaining PP.
+- Turn 109971: Taught TM17 (Submission) to GEMMY (Blastoise) over EARTHQUAKE, granting 25 PP of physical Fighting-type coverage.
+- Turn 109975: Closed the start menu and returned to the overworld at (5, 3) facing Up towards Lorelei. We are ready to navigate to the open door at (4, 0) to enter Bruno's Room.
 
 <hr>
