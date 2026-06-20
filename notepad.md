@@ -8231,6 +8231,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Active Plan: Use SURF at (23, 3) facing DOWN, surf East to Column 28 on Row 4, South to Row 9, and West to (25, 9) (Water Ramp 3) to dismount. Then walk to (23, 7) (Ladder 4) and go UP to western 2F.
 - Turn 112049: Successfully backtracked to 1F at (27, 1) and walked to (23, 3) (Water Ramp 1) on foot using our verified shortcut. Preparing to Surf south.
 - Turn 112012: Empirically verified that there is NO solid rock barrier on Column 26 on Row 2 of 1F! We successfully walked from (23, 3) directly to (27, 2) on 1F on foot, meaning the 1F northeast section is NOT isolated from the rest of the northern landmass on 1F! This is a major shortcut that completely avoids needing to use the 2F serpentine path to reach (27, 1) from the western 1F. We are now standing at (27, 2) facing UP towards Ladder 2 at (27, 1). Testing if Ladder 2 is symmetric and warps us to 2F at (29, 1).
+- Turn 112075: Reached 2F at (22, 6) via Ladder 4. Discovered that Row 9 is blocked at (22, 9) and (24, 9) by rock walls, meaning Row 9 is NOT a continuous horizontal passage. However, empirical analysis of the screen shows that Row 11 forms a completely open, unblocked horizontal passage from Column 18 to Column 24. Active Plan: Walk Down to Row 11 and West to Column 18 to explore the western corridors. Path: Down x2, Left x5. First chunk: Down x2, Left x2 to (21, 11).
 
 <hr>
 
