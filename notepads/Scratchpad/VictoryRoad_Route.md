@@ -30,12 +30,13 @@ Because Row 10 and Row 6 on 2F East are solid horizontal barriers, the northeast
 9. Walk Up 4 steps along Column 23 to (23, 7) [4 steps]
 10. Take the ladder at (23, 7) UP to 3F East.
 
-#### Phase 4: Walk to (28, 0) and Exit!
-1. Land at (23, 7) on 3F East.
-2. Walk Up 5 steps along Column 23 to Row 2 at (23, 2) [5 steps]
-3. Walk Right 5 steps along Row 2 to Column 28 at (28, 2) [5 steps]
-4. Walk Up 2 steps along Column 28 to (28, 0) [2 steps]
-5. Exit Victory Road!
+#### Phase 4: Walk to (23, 7) Ladder and Exit via 2F East
+1. Stand at (28, 0) on 3F East.
+2. Walk Down 2 steps to (28, 2) [2 steps]
+3. Walk Left 5 steps to (23, 2) [5 steps]
+4. Walk Down 5 steps to (23, 7) [5 steps]
+5. Take the ladder at (23, 7) DOWN to 2F East.
+6. On 2F East, walk Right 5 steps to (28, 7) and then North to (28, 1) to Exit!
 
 ## Warp Trigger Mechanics (Test Protocol Turn 108307)
 - **Hypothesis**: In Generation 1, standing directly on an exit warp tile (such as (28, 0) on Victory Road 3F East) and pressing the exit direction (Up) results in a collision bump because (28, -1) is an impassable boundary, and warps are only triggered by the action of stepping *onto* the warp tile.
