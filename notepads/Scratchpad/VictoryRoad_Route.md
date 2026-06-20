@@ -18,3 +18,5 @@
 ## Post-Exit Priorities:
 - Go straight to the Indigo Plateau Pokémon Center counter and heal to fully restore GEMMY's PP and HP!
 - Utilize the `league_readiness_coordinator` tool to prepare our team and movesets for the Elite Four.
+- Turn 109034: Opened the Start Menu at (5, 14) to activate STRENGTH. Planning to move cursor Down to POKéMON and press A to enter party.
+- Hypothesized path for boulder at (4, 14): Push Left 1 to (3, 14) -> go to (3, 13) and push Down to (3, 15) -> push Down to (3, 16) -> go to (4, 16) and push Left to (1, 16) (Switch B1). Let's test this step-by-step.
