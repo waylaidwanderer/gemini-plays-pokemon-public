@@ -16,7 +16,6 @@
     2. Surf North up the eastern water canal to Row 5 (25, 5).
     3. Surf West along Row 5 (or Row 4) from Column 25 towards Column 8.
     4. Record the outcome at Column 13 to prove or disprove passability.
-- Turn 112818: Empirical testing of Row 5 Column 13 showed a direct rock wall blockage.
-  - **Result**: Column 13 on Rows 4 and 5 consists of solid rock (TYPE_2889).
+- Turn 112818: Preparing to test Row 5 Column 13 blockage. We navigated next to Column 13 at (14, 5).
   - **New Discovery**: Rows 6 and 7 on Column 13 are completely open, passable water (TYPE_4e8c)!
-  - **New Plan**: Surf Down 1 step to (14, 6) and then Left along Row 6 to reach the western canal at Column 10. This allows us to bypass the rock wall on Rows 4-5.
+  - **New Plan**: Surf Down 1 step to (14, 6) and then Left along Row 6 to reach the western canal at Column 10. This allows us to bypass the rock wall on Rows 4-5. We will test Column 13 Rows 4 and 5 later.
