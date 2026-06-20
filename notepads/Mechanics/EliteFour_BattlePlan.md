@@ -7,9 +7,9 @@
   - BLIZZARD: 0/5 PP
   - SURF: 0/15 PP
 - **SPARKY (PIKACHU) - Level 30**:
-  - THUNDERBOLT: 15/15 PP
+  - THUNDERBOLT: 13/15 PP
   - SWIFT: 20/20 PP
-  - THUNDER WAVE: 20/20 PP
+  - THUNDER WAVE: 19/20 PP
   - QUICK ATTACK: 30/30 PP
 
 ## Inventory Recovery Items:
