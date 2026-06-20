@@ -4,7 +4,7 @@
 
 ## Remaining PP Tracker:
 - **GEMMY (BLASTOISE) - Level 66**:
-  - SUBMISSION: 25/25 PP
+  - BODY SLAM: 15/15 PP
   - HYDRO PUMP: 5/5 PP
   - BLIZZARD: 5/5 PP
   - SURF: 15/15 PP
