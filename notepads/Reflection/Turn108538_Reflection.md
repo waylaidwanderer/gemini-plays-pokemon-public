@@ -1,4 +1,7 @@
-# Reflection - Turn 108538 (Start Turn: 108538 | Timestamp: Saturday, June 20, 2026 at 2:25 PM PDT)
+# Reflection - Turn 108538
+
+**Starting Turn**: 108538
+**Timestamp**: Saturday, June 20, 2026 at 2:25 PM PDT
 
 ## 1. Immediate Execution & Breakthrough Discovery
 - **The Core Problem**: We assumed the exit of Victory Road was on 2F East at (28, 1) / (28, 0). However, testing (28, 0) on 2F East resulted in a collision bump. Standing on (28, 1) on 2F East also did not trigger a warp.
