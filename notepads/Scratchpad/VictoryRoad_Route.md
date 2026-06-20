@@ -48,3 +48,11 @@ Because Row 10 and Row 6 on 2F East are solid horizontal barriers, the northeast
 - Turn 108428: Tested stepping Up at (28, 0) on 3F East, which resulted in a collision bump. This confirms (28, 0) on 3F East is NOT a functional exit warp.
 - Turn 108537 Breakthrough: Queried map specifications and discovered that the actual exit of Victory Road to Route 23 North / Indigo Plateau is a cave warp located on the 3rd Floor (3F East) at coordinates (23, 1). 
 - Active Plan: Backtrack via the ladder at (23, 7) on 2F East UP to 3F East, then walk north along Column 23 directly to (23, 1) to exit Victory Road!
+## Breakthrough Path to (23, 7) Ladder (Turn 108551)
+We are at (23, 3) on 2F East. (23, 4) is blocked by a wall of TYPE_2889.
+To bypass this wall, we must go Left via Column 17:
+1. Walk Left 6 steps to (17, 3) via (22, 3), (21, 3), (20, 3), (19, 3), and (18, 3).
+2. Walk Down 2 steps to (17, 5) via (17, 4).
+3. Walk Right 6 steps to (23, 5) via (18, 5), (19, 5), (20, 5), (21, 5), and (22, 5).
+4. Walk Down 2 steps to (23, 7) via (23, 6) to take the ladder UP to 3F East.
+5. On 3F East, walk Up to the exit at (23, 1).
