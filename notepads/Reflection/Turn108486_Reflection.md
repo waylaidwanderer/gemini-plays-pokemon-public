@@ -1,4 +1,7 @@
-# Reflection - Turn 108486 (Start Turn: 108486 | Timestamp: Saturday, June 20, 2026 at 2:05 PM PDT)
+# Reflection - Turn 108486
+
+**Starting Turn**: 108486
+**Timestamp**: Saturday, June 20, 2026 at 2:05 PM PDT
 
 ## 1. Immediate Execution
 - We have successfully backtracked from 3F East (proving (28, 0) on 3F was not a functional exit) back down to 2F East.
