@@ -3,8 +3,8 @@
 - Goal: Enter Cerulean Cave and catch Mewtwo.
 
 ## Current status & Progression
-- We are currently on Cerulean Cave 2F (0_226) exploring the corridors to find the ladder that descends into the isolated northwest section of 1F (where the B1F stairs are located).
-- Turn 112183: Reached (23, 7) on 2F.
+- We are currently on Cerulean Cave 1F (0_228) standing on the water ramp at (25, 9), preparing to Surf along the water canal to find the western and southern ladders that lead to the western corridors of 2F.
+- Turn 112201: Initiating Surf at (25, 9) on 1F.
 
 ## 2F Exploration Discoveries & Pathing Notes
 - Row 11 forms a completely open, unblocked horizontal corridor from Column 18 to Column 24, allowing horizontal travel.
@@ -13,9 +13,13 @@
 - (15, 13) is a solid rock blockage, preventing horizontal passage between Column 14 and Column 15.
 - Our goal is to explore the western corridors of 2F.
 
-## Pathing Plans
-- We are currently at (23, 7). Let's see if we can find a northern horizontal path leading west.
-- From (23, 7), we can go:
-  - Left to (22, 7)
-  - Up to (22, 6) (Ladder 4)
-  - Let's check if the northern rows (0 to 6) allow going west!
+## 1F Water Canal Exploration Strategy
+- The 1F water canal runs horizontally across Rows 4 and 5 on 1F.
+- By Surfing west from (25, 10), we can bypass the central walls and access the western landmass on 1F.
+- There are several ladders in the western/southern sections of 1F:
+  - Southwest 1F ladder: Likely located in the southwest corner of 1F (leads up to 2F southwest).
+  - Center-South 1F ladder: Likely located in the center-south of 1F (leads up to 2F center-south).
+- By ascending one of these western/southern ladders, we will arrive on the western corridors of 2F.
+- Once on the western side of 2F, we can find the northwest ladder at (3, 3) on 2F, which descends into the isolated northwest quadrant of 1F.
+- The northwest quadrant of 1F contains the stairs down to B1F (where Mewtwo is).
+- This is our definitive, multi-floor route to Mewtwo! We will execute this step-by-step.
