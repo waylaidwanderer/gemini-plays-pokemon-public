@@ -32,7 +32,7 @@
 - **Pidgeot (L61)**: Use **SURF**. Conserves Blizzard and Hydro Pump/Body Slam PP. High neutral Special STAB.
 - **Alakazam (L57)**: Use **BODY SLAM** (physical, targets Alakazam's paper-thin 15 Base Defense) or **SURF**. Conserves other moves.
 - **Rhydon (L59)**: Use **SURF** (4x super-effective, instant OHKO, no need for Hydro Pump).
-- **Gyarados (L61)**: SWITCH to **SPARKY (PIKACHU)** and use **THUNDERBOLT** (4x super-effective, instant OHKO).
+- **Gyarados (L61)**: Healed GEMMY to full on Turn 1 with Hyper Potion. GEMMY stays active to tank hits and attack with **SURF** (resisted but safe) or **HYDRO PUMP** (high damage) to wear down Gyarados. Do not switch to Sparky, as Sparky (L30) is outsped and OHKO'd by Gyarados L61.
 - **Arcanine (L61)**: Use **SURF** (2x super-effective, high damage/OHKO).
 - **Venusaur (L65)**: Use **BLIZZARD** (2x super-effective on Grass/Poison, save our single PP exclusively for this).
 
