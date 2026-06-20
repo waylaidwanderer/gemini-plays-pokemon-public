@@ -27,3 +27,10 @@
 - **Elite Four Entrance**:
   - Located at the top center of the room.
   - Entrance guarded by a bearded man NPC standing at (5, 1).
+
+## Healing Failure Records:
+- Verified Turn 109717: Tested standing at (6, 7) facing UP (counter in front of healing machine right half). Pressed A, no interaction or healing.
+- Verified Turn 109719: Tested standing at (5, 7) facing UP (counter in front of healing machine left half). Pressed A, no interaction or healing.
+- Verified Turn 109763: Tested standing at (11, 7) facing UP (counter in front of right-side machine right half). Pressed A, no interaction or healing.
+- Verified Turn 109767: Tested standing at (10, 7) facing UP (counter in front of right-side machine left half). Pressed A, no interaction or healing.
+- Verified Turn 109708: Spoke to Chansey behind the counter at (7, 5) from (7, 7) facing UP. Dialogue was triggered but no healing animation played, and party stats (HP/PP) remained completely unchanged.
