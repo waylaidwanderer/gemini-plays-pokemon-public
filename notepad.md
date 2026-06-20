@@ -8299,5 +8299,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - Row 9 is blocked by rock walls at (22, 9) and (24, 9), so it is not a continuous horizontal corridor.
 - **Topological Goal**:
   - To access the basement (B1F) where Mewtwo is, the player must locate the northwest ladder on 2F. This ladder descends into the isolated northwestern quadrant of 1F, which contains the stairs leading to B1F.
+- **(15, 13) Rock Wall Blockage**:
+  - Visually appearing as a rock wall but labeled TYPE_3fe2 in some overlays, (15, 13) is an impassable rock wall blocking any direct horizontal transition between Column 14 and Column 15 on Row 13.
 
 <hr>
