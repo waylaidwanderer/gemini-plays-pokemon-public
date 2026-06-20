@@ -8162,7 +8162,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - BODY SLAM: 1/15 PP
 - HYDRO PUMP: 5/5 PP
 - BLIZZARD: 1/5 PP
-- SURF: 7/15 PP
+- SURF: 6/15 PP
 
 ## SPARKY's Moves & PP:
 - THUNDERBOLT: 15/15 PP
