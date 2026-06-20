@@ -31,6 +31,10 @@
   - To access the basement (B1F) where Mewtwo is, the player must locate the northwest ladder on 2F. This ladder descends into the isolated northwestern quadrant of 1F, which contains the stairs leading to B1F.
 - **(15, 13) Rock Wall Blockage**:
   - Visually appearing as a rock wall but labeled TYPE_3fe2 in some overlays, (15, 13) is an impassable rock wall blocking any direct horizontal transition between Column 14 and Column 15 on Row 13.
+- **(16, 13) Rock Wall Blockage (Verified Turns 112374, 112378)**:
+  - While labeled as TYPE_3fe2 (open ground) in the visual overlay, (16, 13) is physically a solid, impassable rock wall.
+  - Verification: On Turn 112374 and Turn 112378, standing at (17, 13), attempting to walk Left to (16, 13) resulted in zero coordinate change, proving that (16, 13) is impassable.
+  - This definitively proves that the eastern section of 2F is blocked from navigating westwards at Row 13, and since Row 11 is blocked at (13, 11) and Row 16 is a solid horizontal wall, 2F East is physically disconnected from 2F West on foot. Our connectivity hypothesis is falsified. We must use the 1F water canal and find a western/southern ladder to access 2F West.
 
 ## Topological Connectivity and Progression Path to Mewtwo:
 - **B1F Access**: The stairs down to B1F are located in the isolated northwestern quadrant of 1F.
