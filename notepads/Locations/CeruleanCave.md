@@ -39,3 +39,9 @@
 - **Accessing Western 2F**: To reach the western portion of 2F, we must climb up a specific ladder from the western/southern portion of 1F.
 - **Western/Southern Portion of 1F**: We must discover how to access the western/southern portion of 1F. This is our immediate progression bottleneck. We must find the path that connects the eastern side (where we enter) to the western/southern side of 1F.
 - **Water Canal**: The water canal runs horizontally across the north on Rows 4-5 and goes south on Columns 8-9 down to Row 15. We must determine if there is an alternative branch of this canal or an overworld land path we missed.
+
+## Cerulean Cave 2F Connectivity Audit (Turn 112311):
+- **Hypothesis**: The "empirical proof" of Turn 112168 stating that 2F East and West are completely isolated on foot was an artifact of an incomplete pathfinder grid (treating off-screen/unexplored tiles as solid walls). In standard Pokémon Red/Blue, Cerulean Cave 2F (Map 226) is a single, fully connected floor.
+- **Verification Methodology**: We will climb up Ladder 4 at (23, 7) on foot, which is easily accessible from our current position (21, 13) via Row 8. Once on 2F at (22, 6), we will walk west and attempt to navigate to the western portion of 2F to find the northwest ladder at (3, 3).
+- **Proof of Work Logs**:
+  - Turn 112311: Standing at (21, 13) on foot. We will move Up 5 steps to reach Row 8 at (21, 8), then Right 2 steps to (23, 8), then Up 1 step to (23, 7) to take Ladder 4.
