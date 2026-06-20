@@ -8247,6 +8247,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - This is our definitive, multi-floor route to Mewtwo! We will execute this step-by-step.
 - Turn 112227: Exploring water canal.
 - Turn 112311: Commenced 2F connectivity audit. Standing at (21, 13) on foot. We will walk north to Row 8, then East to Ladder 4 at (23, 7) to check if 2F connects East and West.
+- Turn 112369: Reached (17, 12) on foot on Cerulean Cave 2F.
+- Verification test plan for (15, 13) rock wall blockage: We will walk Down to (17, 13), West to (16, 13), and then attempt to walk West to (15, 13) to see if we collide (proving it is impassable) or if we can pass. This is crucial for our connectivity audit.
 
 <hr>
 
