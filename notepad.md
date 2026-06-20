@@ -8245,6 +8245,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Once on the western side of 2F, we can find the northwest ladder at (3, 3) on 2F, which descends into the isolated northwest quadrant of 1F.
 - The northwest quadrant of 1F contains the stairs down to B1F (where Mewtwo is).
 - This is our definitive, multi-floor route to Mewtwo! We will execute this step-by-step.
+- Turn 112227: Currently at (8, 13) on the water. Gemmy has only 1 PP left for Surf and 1 PP left for Body Slam. We must avoid dismounting from the water unless we are sure of our path, to avoid wasting our last Surf PP. If we do dismount, we can use Max Elixer or find another way. We will explore the water canal going North first.
 
 <hr>
 
