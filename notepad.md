@@ -7440,7 +7440,7 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 
 # Scratchpad: Victory Road Route & Exit Plan
 - Route Started: Turn 107326 | Timestamp: Friday, June 19, 2026 at 12:25 PM PDT
-- Current Position: (19, 16) on Victory Road 3F East/West (Map 0_198)
+- Current Position: (20, 16) on Victory Road 3F East/West (Map 0_198)
 
 ## Physical Blockages & Height Boundaries Verified:
 - 2F East: (25, 12) is on Koga's elevated plateau (z=1), which is physically blocked from the ground level (z=0) at (25, 11).
