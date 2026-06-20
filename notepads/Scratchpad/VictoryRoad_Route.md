@@ -1,6 +1,6 @@
 # Scratchpad: Victory Road Route & Exit Plan
 - Route Started: Turn 107326 | Timestamp: Friday, June 19, 2026 at 12:25 PM PDT
-- Current Position: (20, 2) on Victory Road 3F East (Map 0_198)
+- Current Position: (23, 8) on Victory Road 3F East (Map 0_198)
 
 ## Physical Blockages Verified:
 - 2F East: Column 24 Row 8 is a solid rock wall (physically tested and confirmed on Turn 109242).
