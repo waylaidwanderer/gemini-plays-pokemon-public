@@ -8243,6 +8243,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 111689: Reached (29, 3) on Cerulean Cave 2F (0_226). Verified that the actual Ladder 2 is located at (29, 1) (labeled with the ladder symbol [=]), rather than (29, 3). The path to reach (29, 1) from (29, 3) goes Left to (28, 3), Up 2 steps to (28, 1), and Right to (29, 1). We will descend through this ladder to explore 1F.
 - Turn 111707: Arrived at (23, 2) on 1F (0_228). We see a ladder at (23, 3) (TYPE_4b8d) and water at Rows 4-5. Tested walking onto (23, 3) and found it is a ramp. We stood on (23, 3) and successfully used SURF to get onto the water at (23, 4).
 - Turn 111754: Surfed south along the Column 8 vertical canal. Currently standing at (8, 14). We see a water ramp at (11, 13) leading onto the land platform on the right. We will navigate to (11, 14) and go Up onto the ramp at (11, 13) to explore this land platform.
+- Turn 111775: Successfully warped from 1F (18, 9) to 2F (19, 7). This connects the newly-reached 1F eastern land platform directly to the central/western part of 2F. We will update our verified records and clean up our scratchpad.
 
 <hr>
 
