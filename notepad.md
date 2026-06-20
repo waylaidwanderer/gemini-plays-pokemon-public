@@ -8279,7 +8279,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Northwest Quadrant of 1F**: This isolated quadrant can ONLY be accessed by descending from 2F via a specific ladder located in the northwestern portion of 2F.
 - **Western/Southern Portion of 1F**: Impassable via the western water canal. Our empirical testing on Turns 112211-112224 and 112487-112495 proved that the western vertical canal (Columns 8-9) is a dead end on Row 16 with no connected dismount points. We empirically verified on Turn 112601 that Column 19 on Row 15 is physically impassable on foot, which definitively proves that the eastern entrance platform of 1F is completely physically isolated on foot from the western/southern portion of 1F. Thus, the only way to reach the western/southern portions of 1F is by climbing up to 2F, crossing over, and descending elsewhere, or via the horizontal water canals.
 - **Accessing Western 2F**: The eastern section of 2F is completely isolated from the western section of 2F on foot. This has been empirically proven by the rock wall blockages at (16, 13) and (13, 11). Thus, we must climb up a different ladder from 1F.
-- **Water Canal**: The water canal runs horizontally across the north on Rows 4-5, turns south along Columns 8-9 down to Row 15, and connects to different sections of 1F. We are using this canal to navigate to the western/southern reaches of 1F.
+- **Water Canal**: Rows 4 and 5 on 1F contain water, but passability at Column 13 is currently unverified. We need to test if we can surf horizontally across the northern canal past Column 13.
 
 - **Ladder 6**:
   - Located on 1F at (1, 3) (labeled TYPE_3fe2). Ascending this ladder warps the player to 2F at (1, 3).
