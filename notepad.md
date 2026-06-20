@@ -8198,5 +8198,10 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 110433: Healed GEMMY to 228/228 HP with Hyper Potion. Gyarados used Hyper Beam (GEMMY at 170/228 HP, must recharge).
 - Turn 110438: Used Surf (critical hit! Gyarados at ~45% HP). Gyarados recharging.
 - Turn 110440: Choosing Surf to attack Gyarados.
+- Turn 110444: Used Surf (Gyarados at ~80% HP). Gyarados used Hyper Beam (GEMMY at 110/228 HP).
+- Turn 110453: Decided to heal to eliminate critical hit risk. Cancelled move menu.
+- Turn 110455: Used Hyper Potion on GEMMY (healed to 228/228 HP).
+- Turn 110457: Gyarados used Hyper Beam (Critical hit! Dealt 116 damage, GEMMY at 112/228 HP). This proved healing was a run-saving play! Gyarados must recharge.
+- Turn 110458: GEMMY at 112/228 HP. Opening FIGHT menu to attack while Gyarados recharges.
 
 <hr>
