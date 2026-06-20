@@ -21,8 +21,8 @@
 
 ## Lorelei (Ice/Water) Battle Strategy:
 - **Dewgong (Lvl 54)**: Defeated! (Used 2 Earthquake PP)
-- **Cloyster (Lvl 53)**: Water/Ice. Extremely high physical Defense, weak Special. Use Surf/Hydro Pump or switch to Sparky if safe.
-- **Slowbro (Lvl 54)**: Water/Psychic. Resists Water. Neutral to Ground. Use Surf/Hydro Pump to wear down, or physical attacks.
+- **Cloyster (Lvl 53)**: Defeated! (Used 2 Surf PP)
+- **Slowbro (Lvl 54)**: Water/Psychic. Paralyzed on Turn 109854 by Sparky's Thunder Wave! We will attack with Thunderbolt.
 - **Jynx (Lvl 56)**: Ice/Psychic. Weak to Fire/Rock. Can use Surf/Hydro Pump.
 - **Lapras (Lvl 56)**: Water/Ice. High HP and bulky. Use Surf or Hydro Pump.
 
