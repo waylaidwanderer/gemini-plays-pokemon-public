@@ -39,7 +39,9 @@
 - **Run 2 Battle Timeline Log (Active)**:
   - Run 2 Lorelei Battle: Initiated on Turn 110180. Won with GEMMY at Lvl 67 (191/221 HP). No casualties.
   - Run 2 Bruno Battle: Initiated on Turn 110248. Won with GEMMY at Lvl 68 (224/224 HP) using Surf. No casualties.
-  - Run 2 Agatha Battle: Arrived on Turn 110278. Battle active.
+  - Run 2 Agatha Battle: Initiated on Turn 110287. Won on Turn 110317 using GEMMY with Surf and Blizzard. No casualties. GEMMY remains at Lvl 68 with 224/224 HP.
+  - Turn 110327: Used Max Ether on GEMMY's Surf move. (Max Ethers: 0 left)
+  - Turn 110334: Arrived in Lance's Room.
 
 ## Bruno (Fighting/Rock) Battle Strategy:
 - **Onix (Lvl 53 & 56)**: Water is 4x effective. OHKO with Surf/Hydro Pump.
