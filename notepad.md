@@ -84,7 +84,6 @@
 - **Road to the Pokémon League**:
   - Exit Viridian Gym and travel West to Route 22.
   - Pass through the 8 Gym Badge checkpoints on Route 23.
-  - Navigation: Backtracking on 3F East to 3F West.
   - Challenge the Elite Four and Rival Blue to become the Pokémon Champion!
 
 ## Completed Optimization Tasks:
