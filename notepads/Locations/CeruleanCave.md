@@ -50,3 +50,5 @@
 - **Ladder 6**:
   - Located on 1F at (1, 3) (labeled TYPE_3fe2). Ascending this ladder warps the player to 2F at (1, 3).
   - Located on 2F at (1, 3) (labeled [=], TYPE_3fe2). Descending this ladder warps the player to 1F at (1, 3). This is the critical gateway to the northwest isolated quadrant of 1F and the B1F stairs.
+- Turn 112893: Verified on 2F West that Column 2 is a solid rock wall (TYPE_2889) across Rows 0-4. This blocks horizontal on-foot crossover between Column 3 and Column 1 on the upper half of the map. Proved during systematic movement attempts from (3,3).
+- Turn 112893: Verified that Column 8 is blocked by an impassable rock wall (TYPE_2889) at (8, 5), and that Row 6 is blocked by rock walls across Columns 9-12 (TYPE_2889). Therefore, the upper-central corridor (Columns 9-14, Rows 1-5) of 2F West is physically isolated on foot from Row 7 (which contains the open path to the northwest ladder). Climbing up from 1F at Ladder 5 (7,1) leads to this isolated pocket. We must descend Ladder 5, return to 1F, and find another way.
