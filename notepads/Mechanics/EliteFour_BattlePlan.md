@@ -6,8 +6,8 @@
 - **GEMMY (BLASTOISE) - Level 68**:
   - BODY SLAM: 3/15 PP
   - HYDRO PUMP: 5/5 PP
-  - BLIZZARD: 5/5 PP
-  - SURF: 7/15 PP
+  - BLIZZARD: 4/5 PP
+  - SURF: 1/15 PP
 - **SPARKY (PIKACHU) - Level 30**:
   - THUNDERBOLT: 15/15 PP
   - SWIFT: 20/20 PP
