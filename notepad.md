@@ -8134,7 +8134,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 ## Bruno (Fighting/Rock) Battle Strategy:
 - **Onix (Lvl 53 & 56)**: Water is 4x effective. OHKO with Surf/Hydro Pump.
-- **Hitmonchan (Lvl 55)**: Fighting. Neutral to Fighting (Submission). Uses Counter! Avoid using high-damage physical moves (Submission) unless sure of OHKO, or use special attacks / recover frequently.
+- **Hitmonchan (Lvl 55)**: Fighting. Uses Counter! Body Slam is a physical Normal-type move and is FULLY VULNERABLE to Counter in Gen 1! To safely bypass Counter and prevent a blackout, EXPLICITLY MANDATE using special attacks (Surf, Hydro Pump, or Blizzard) against Hitmonchan. Special attacks cannot be countered.
 - **Hitmonlee (Lvl 55)**: Fighting. Neutral to Fighting.
 - **Machamp (Lvl 58)**: Fighting. Very bulky.
 - **First Battle Failure Log**:
