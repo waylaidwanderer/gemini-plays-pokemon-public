@@ -7458,12 +7458,10 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   2. Take the ladder at (23, 7) UP to 3F East (Map 0_198).
   3. On 3F East, walk to the ladder at (26, 8) via Row 2, Column 20, and Row 11:
      - Walk Left from (23, 2) to (20, 2)
-     - Walk Down Column 20 to (20, 11)
-     - Walk Right along Row 11 to (23, 11)
-     - Walk Up to (23, 10)
-     - Walk Right to (27, 10)
-     - Walk Up to (27, 8)
-     - Walk Left to the ladder at (26, 8)
+     - Walk Down Column 20 to (20, 11).
+     - Wait! The passage East along Row 11 is blocked by a wall at (21, 11). We cannot walk from (20, 11) to (21, 11).
+     - Instead, we must walk back UP to (20, 2), then walk Right along Row 2 to Column 25 or 27, and head Down the East side of 3F East!
+     - Let's test if Row 2 is passable all the way to Column 25 or 27 on 3F East.
   4. Take the ladder at (26, 8) on 3F East DOWN to 2F East (Map 0_194). This lands us directly on (27, 7) on the south side of the Row 6 barrier!
   5. From (27, 7), walk Right 2 steps to (29, 7) (via (28, 7)), which is the functional exit warp leading to Route 23 North!
 
