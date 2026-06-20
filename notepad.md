@@ -8100,7 +8100,7 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   - EARTHQUAKE: 0/10 PP
   - HYDRO PUMP: 5/5 PP
   - BLIZZARD: 0/5 PP
-  - SURF: 5/15 PP
+  - SURF: 2/15 PP
 - **SPARKY (PIKACHU) - Level 30**:
   - THUNDERBOLT: 15/15 PP
   - SWIFT: 20/20 PP
