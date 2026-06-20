@@ -8224,14 +8224,45 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Started: Turn 111394
 - Goal: Enter Cerulean Cave and catch Mewtwo.
 
-## Current Status & Progress
-- Turn 111923: Discovered that the 2F serpentine path leads to a dead end pocket at (27, 4). However, our previous records show that we successfully used the serpentine bypass on Turn 111667 to bypass the rock barrier and reach the eastern section. This means 2F is NOT blocked and can be used to reach the northeast platform of 1F via Ladder 2 at (29, 1) on 2F.
-- Turn 111935: Backtracked from 2F along the serpentine path and took Ladder 3 to descend to 1F at (18, 9).
-- Turn 111976: Navigated water canal on 1F and dismounted at (15, 3) (Water Ramp 4). Discovered that water ramps only allow vertical exit/entry, meaning (15, 3) is a dead end due to solid wall at (15, 2) and blocked horizontal tiles. Backtracking by surfing south is required.
-- Active Plan: Find the path to the B1F stairs on the western 2F by exploring the corridors from (17, 11).
-- Turn 112049: Successfully backtracked to 1F at (27, 1) and walked to (23, 3) (Water Ramp 1) on foot using our verified shortcut. Preparing to Surf south.
-- Turn 112012: Empirically verified that there is NO solid rock barrier on Column 26 on Row 2 of 1F! We successfully walked from (23, 3) directly to (27, 2) on 1F on foot, meaning the 1F northeast section is NOT isolated from the rest of the northern landmass on 1F! This is a major shortcut that completely avoids needing to use the 2F serpentine path to reach (27, 1) from the western 1F. We are now standing at (27, 2) facing UP towards Ladder 2 at (27, 1). Testing if Ladder 2 is symmetric and warps us to 2F at (29, 1).
-- Turn 112075: Reached 2F at (22, 6) via Ladder 4. Discovered that Row 9 is blocked at (22, 9) and (24, 9) by rock walls, meaning Row 9 is NOT a continuous horizontal passage. However, empirical analysis of the screen shows that Row 11 forms a completely open, unblocked horizontal passage from Column 18 to Column 24. Active Plan: Walk Down to Row 11 and West to Column 18 to explore the western corridors. Path: Down x2, Left x5. First chunk: Down x2, Left x2 to (21, 11).
+## Current status & Progression
+- We are currently on Cerulean Cave 2F (0_226) exploring the corridors to find the ladder that descends into the isolated northwest section of 1F (where the B1F stairs are located).
+- Turn 112111: Reached (18, 11) on 2F.
+
+## 2F Exploration Discoveries & Pathing Notes
+- Row 11 forms a completely open, unblocked horizontal corridor from Column 18 to Column 24, allowing horizontal travel.
+- Row 16 is a solid horizontal rock wall from Column 14 to Column 20, which completely blocks direct downward access from Row 15 to Row 17 in the central section.
+- Row 9 is blocked at (22, 9) and (24, 9) by rock walls, so it is not a continuous horizontal passage.
+- Our goal is to explore the western corridors of 2F. To do this, we should follow the open corridors west from our current position (18, 11).
+
+## Pathing Plans
+- From (18, 11), let's explore further west. Row 11 goes west through:
+  - (18, 11) -> (17, 11) -> (16, 11) -> (15, 11) -> (14, 11).
+  - From (14, 11), we can go down to (14, 12) -> (14, 13).
+  - Wait, can we go further west on Row 11? (13, 11) is a wall.
+  - Let's look at (12, 11): it is TYPE_3fe2 (passable).
+  - How do we reach Column 12?
+  - Column 12 has a vertical passage from Row 9 to Row 15:
+    - (12, 9), (12, 10), (12, 11), (12, 12), (12, 13), (12, 14), (12, 15) are all passable.
+    - So if we can get to Column 12, we can travel vertically!
+    - How do we get to Column 12?
+    - Let's check Row 9: (12, 9), (13, 9) are passable. Is there any way to go from the east of Column 14 to the west on Row 9?
+    - (14, 9) is TYPE_2889 (wall).
+    - Wait, is (14, 8) passable? (14, 8) is TYPE_3fe2 (passable)! And (15, 8) is TYPE_3fe2 (passable)!
+    - Let's look at Row 8:
+      - (14, 8) TYPE_3fe2
+      - (15, 8) TYPE_3fe2
+      - (16, 8) TYPE_2889 (wall)
+      - (17, 8) TYPE_2889 (wall)
+      - (18, 8) TYPE_2889 (wall)
+    - So Row 8 is blocked on the east.
+    - Let's look at Row 7:
+      - (16, 7) is TYPE_3fe2.
+      - (18, 7) is TYPE_3fe2.
+      - (19, 7) is TYPE_3fe2 (Ladder 3).
+      - (22, 7) is TYPE_3fe2.
+      - (23, 7) is TYPE_3fe2.
+      - Wait, is Row 7 connected?
+      - Let's explore the western corridors systematically!
 
 <hr>
 
