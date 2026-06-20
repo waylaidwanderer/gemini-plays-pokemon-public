@@ -20,7 +20,7 @@
 - HYPER POTION: 4
 - MAX POTION: 3
 - REVIVE: 20
-- MAX ETHER: 1
+- MAX ETHER: 0
 
 ## Lorelei (Ice/Water) Battle Strategy:
 - **Dewgong (Lvl 54)**: Defeated! (Used 2 Earthquake PP)
