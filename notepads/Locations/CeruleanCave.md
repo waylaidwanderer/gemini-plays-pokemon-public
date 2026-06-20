@@ -4,11 +4,10 @@
 ## 1F (0_228) Verified Layout:
 - **Ladder (24, 17)**: Leads out of Cerulean Cave to Cerulean City.
 - **Ladder (21, 11)**: Labeled TYPE_4b8d. One-way dropdown ladder; cannot be used to ascend from 1F.
-- **Ladder (23, 7)**: Labeled TYPE_3fe2. Interacting with or stepping onto this tile immediately warps the player to 2F at (23, 7).
-- **Ladder (27, 1)**: Labeled TYPE_3fe2. The landing tile when descending Ladder 2 from 2F (which is at 29, 1 on 2F).
-- **Ladder (18, 9)**: Labeled TYPE_3fe2. Labeled Ladder 3. Walking onto this tile warps the player to 2F at (19, 7).
+- **Ladder (23, 7)**: Labeled TYPE_3fe2. Interacting with or stepping onto this tile immediately warps the player to 2F at (22, 6).
+- **Ladder (22, 6) [2F]**: Connects back down to 1F at (23, 7).
 - **Ramps to Water**:
-  - Located at (23, 3), (15, 3), and (11, 13) (TYPE_4b8d).
+  - Located at (23, 3), (15, 3), (11, 13), and (25, 9) (TYPE_4b8d).
   - Standing on any of these ramps facing the water and selecting SURF from the party menu successfully mounts the water.
 - **Water Canal**:
   - Rows 4 and 5 on 1F are water (TYPE_4e8c) and can be surfed upon.
