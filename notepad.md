@@ -81,10 +81,7 @@
 - **Erika Defeated!** Obtained the Rainbow Badge on Turn 74198. Overworld STRENGTH is unlocked!
 - **Blaine Defeated!** Obtained the Volcano Badge on Turn 95844.
 - **Giovanni Defeated!** Obtained the Earth Badge on Turn 96440. All 8 Gym Badges have been successfully secured!
-- **Road to the Pokémon League**:
-  - Exit Viridian Gym and travel West to Route 22.
-  - Pass through the 8 Gym Badge checkpoints on Route 23.
-  - Challenge the Elite Four and Rival Blue to become the Pokémon Champion!
+- **CHAMPION DEFEATED!** Defeated Champion Blue on Turn 110487. Entered the HALL OF FAME with BLASTOISE (GEMMY) and PIKACHU (SPARKY) on Turn 110489! Playthrough complete!
 
 ## Completed Optimization Tasks:
 - Changed active box to empty Box 2 (0/20) on Turn 97157.
