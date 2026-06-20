@@ -23,5 +23,5 @@
 - Once on the western side of 2F, we can find the northwest ladder at (3, 3) on 2F, which descends into the isolated northwest quadrant of 1F.
 - The northwest quadrant of 1F contains the stairs down to B1F (where Mewtwo is).
 - This is our definitive, multi-floor route to Mewtwo! We will execute this step-by-step.
-- Turn 112227: Currently at (8, 13) on the water. Gemmy has only 1 PP left for Surf and 1 PP left for Body Slam. We must avoid dismounting from the water unless we are sure of our path, to avoid wasting our last Surf PP. If we do dismount, we can use Max Elixer or find another way. We will explore the water canal going North first.
-- Turn 112300: Successfully navigated the eastern vertical canal using cave_pathfinder. Currently at (28, 10) on the water. We will now move Left 3 steps to (25, 10) and Up 1 step to (25, 9) to dismount onto Water Ramp 3 on the eastern landmass. From there, we will walk south to (24, 17) and west along the bottom row 17 to reach the southwestern platforms.
+- Turn 112227: Exploring water canal.
+- Turn 112311: Commenced 2F connectivity audit. Standing at (21, 13) on foot. We will walk north to Row 8, then East to Ladder 4 at (23, 7) to check if 2F connects East and West.
