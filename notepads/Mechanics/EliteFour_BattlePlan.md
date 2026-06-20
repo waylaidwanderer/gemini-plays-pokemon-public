@@ -22,8 +22,8 @@
 ## Lorelei (Ice/Water) Battle Strategy:
 - **Dewgong (Lvl 54)**: Defeated! (Used 2 Earthquake PP)
 - **Cloyster (Lvl 53)**: Defeated! (Used 2 Surf PP)
-- **Slowbro (Lvl 54)**: Water/Psychic. Paralyzed on Turn 109854 by Sparky's Thunder Wave! We will attack with Thunderbolt.
-- **Jynx (Lvl 56)**: Ice/Psychic. Weak to Fire/Rock. Can use Surf/Hydro Pump.
+- **Slowbro (Lvl 54)**: Defeated! (Used 1 Thunder Wave PP, 2 Thunderbolt PP on Sparky)
+- **Jynx (Lvl 56)**: Ice/Psychic. Currently active. Healing Gemmy with a Hyper Potion on Turn 109871.
 - **Lapras (Lvl 56)**: Water/Ice. High HP and bulky. Use Surf or Hydro Pump.
 
 ## Bruno (Fighting/Rock) Battle Strategy:
