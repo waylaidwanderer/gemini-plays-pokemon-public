@@ -4,7 +4,7 @@
 
 ## Remaining PP Tracker (Run 2 - Active):
 - **GEMMY (BLASTOISE) - Level 67**:
-  - BODY SLAM: 12/15 PP
+  - BODY SLAM: 3/15 PP
   - HYDRO PUMP: 5/5 PP
   - BLIZZARD: 5/5 PP
   - SURF: 13/15 PP
