@@ -104,5 +104,20 @@
         "action_counter": 112147
       }
     ]
+  },
+  "heal_at_center": {
+    "description": "Automates the conversation with Nurse Joy at the Pokémon Center counter to successfully heal the party and restore PP, using sleep commands to bypass the automatic B-button text advance.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\n# Sequence:\n# 1. Press A to talk.\n# 2. Sleep 1500ms to allow 'Welcome to...' to render.\n# 3. Press A to advance.\n# 4. Sleep 1500ms to allow 'We heal...' to render.\n# 5. Press A to advance to 'Shall we heal...' prompt.\n# 6. Sleep 1500ms to allow YES/NO menu to appear.\n# 7. Press A to select YES (HEAL).\n# 8. Sleep 4500ms to wait out the healing machine animation.\n# 9. Press A to advance to 'Thank you for waiting!'.\n# 10. Sleep 1500ms.\n# 11. Press A to advance to 'We hope to see you again!'.\n# 12. Sleep 1500ms.\n# 13. Press A to close dialogue.\nsequence = [\n    \"A\",\n    \"sleep 1500\",\n    \"A\",\n    \"sleep 1500\",\n    \"A\",\n    \"sleep 1500\",\n    \"A\",\n    \"sleep 4500\",\n    \"A\",\n    \"sleep 1500\",\n    \"A\",\n    \"sleep 1500\",\n    \"A\"\n]\nprint(json.dumps(sequence))",
+    "history": [
+      {
+        "commit_message": "Initial definition of heal_at_center custom tool",
+        "timestamp": "2026-06-20T22:22:43.748Z",
+        "action_counter": 112668
+      }
+    ]
   }
 }
