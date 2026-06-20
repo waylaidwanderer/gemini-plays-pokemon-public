@@ -8177,7 +8177,16 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - MAX POTION: 3
 - REVIVE: 20
 
+## Opponent-by-Opponent Move Allocation Plan:
+- **Pidgeot (L61)**: Use **SURF**. Conserves Blizzard and Hydro Pump/Body Slam PP. High neutral Special STAB.
+- **Alakazam (L57)**: Use **BODY SLAM** (physical, targets Alakazam's paper-thin 15 Base Defense) or **SURF**. Conserves other moves.
+- **Rhydon (L59)**: Use **SURF** (4x super-effective, instant OHKO, no need for Hydro Pump).
+- **Gyarados (L61)**: SWITCH to **SPARKY (PIKACHU)** and use **THUNDERBOLT** (4x super-effective, instant OHKO).
+- **Arcanine (L61)**: Use **SURF** (2x super-effective, high damage/OHKO).
+- **Venusaur (L65)**: Use **BLIZZARD** (2x super-effective on Grass/Poison, save our single PP exclusively for this).
+
 ## Battle Progression Log:
-- Turn 110398: Battle initiated. Preparing to send out GEMMY against Blue's first Pokémon.
+- Turn 110398: Battle initiated.
+- Turn 110401: Active GEMMY L69 vs Pidgeot L61. Choosing move.
 
 <hr>
