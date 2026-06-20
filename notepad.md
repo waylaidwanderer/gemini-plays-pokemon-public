@@ -7467,6 +7467,11 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
   - Walk Up 2 steps to (17, 3)
   - Walk Right 10 steps along Row 3 to (27, 3)
   - Walk Up 2 steps along Column 27 to the exit warp at (27, 1)! (27, 2) -> (27, 1).
+## Live Test of Exit Coordinates (Turn 108695)
+- Hypothesis: (27, 1) is the warp exit.
+- Test: Stepped to (27, 1). Result: No warp.
+- Next Hypothesis: (28, 1) is the warp exit (as noted in Turn 105117 reflection).
+- Action: Step Right to (28, 1) and test.
 
 <hr>
 
