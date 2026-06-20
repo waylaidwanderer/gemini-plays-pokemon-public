@@ -19,3 +19,4 @@
 - Turn 112818: Preparing to test Row 5 Column 13 blockage. We navigated next to Column 13 at (14, 5).
   - **New Discovery**: Rows 6 and 7 on Column 13 are completely open, passable water (TYPE_4e8c)!
   - **New Plan**: Surf Down 1 step to (14, 6) and then Left along Row 6 to reach the western canal at Column 10. This allows us to bypass the rock wall on Rows 4-5. We will test Column 13 Rows 4 and 5 later.
+- Turn 112835: Standing on foot at (11, 11) on the central-western land platform. Let's see how far north we can walk on this platform.
