@@ -8284,4 +8284,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Western/Southern Portion of 1F**: Accessible via the water canals. We are currently surfing west and south along the main water canal to locate a western/southern ladder leading to 2F West.
 - **Water Canal**: The water canal runs horizontally across the north on Rows 4-5, turns south along Columns 8-9 down to Row 15, and connects to different sections of 1F. We are using this canal to navigate to the western/southern reaches of 1F.
 
+- **Ladder 5**:
+  - Located on 1F at (7, 1) (labeled TYPE_3fe2). Ascending this ladder warps the player to 2F at (9, 1).
+  - Located on 2F at (9, 1) (labeled [=], TYPE_3fe2). Descending this ladder warps the player to 1F at (7, 1).
+
 <hr>
