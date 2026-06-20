@@ -8241,5 +8241,6 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 111633: Currently standing at (20, 11). We verified that Column 19 is blocked by solid rock walls on Rows 8, 10, and 12, making it impossible to directly go Left to the ladder at (19, 7) from our upper entrance. We are now exploring the western serpentine corridor on Row 11 toward Column 17 to check for a bypass.
 - Turn 111667: Successfully bypassed the Column 26 barrier using a hidden serpentine passage on Column 25, Row 9, and reached the northeast upper section at (27, 6). We verified that Column 24 Row 7 is solid rock, which separates the western and eastern upper sections on Row 7. We then navigated to (29, 3) where we found that the actual Ladder 2 is located at (29, 1). We defined map markers for both Ladder 2 at (29, 1) and the Item at (29, 9) on Map 0_226.
 - Turn 111689: Reached (29, 3) on Cerulean Cave 2F (0_226). Verified that the actual Ladder 2 is located at (29, 1) (labeled with the ladder symbol [=]), rather than (29, 3). The path to reach (29, 1) from (29, 3) goes Left to (28, 3), Up 2 steps to (28, 1), and Right to (29, 1). We will descend through this ladder to explore 1F.
+- Turn 111707: Arrived at (23, 2) on 1F (0_228). We see a ladder at (23, 3) (TYPE_4b8d) and water at Rows 4-5. Let's test walking onto the ladder at (23, 3).
 
 <hr>
