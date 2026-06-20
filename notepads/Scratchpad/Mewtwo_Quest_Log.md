@@ -3,7 +3,7 @@
 - Goal: Enter Cerulean Cave and catch Mewtwo.
 
 ## Current status & Progression
-- Navigating up Nugget Bridge on Route 24.
+- Exiting Nugget Bridge at Row 12 to Surf south along the water canal on Column 8.
 
 ## 2F Exploration Discoveries & Pathing Notes
 - Row 11 forms a completely open, unblocked horizontal corridor from Column 18 to Column 24, allowing horizontal travel.
