@@ -1,18 +1,11 @@
 {
   "flee_battle": {
-    "description": "Generates the button press sequence to select the RUN option from the default battle fight menu (Down, Right, A).",
+    "description": "Automatically escapes from a wild Pokémon battle by skipping the introductory screens and choosing the RUN option.",
     "input_schema": {
       "type": "object",
-      "properties": {
-        "autopress_buttons": {
-          "type": "boolean",
-          "description": "If true, the generated buttons will be pressed automatically.",
-          "default": false
-        }
-      },
-      "required": []
+      "properties": {}
     },
-    "python_script": "import json\n# Fleeing from battle in Gen 1 is simple: we are on the main battle menu,\n# and we need to navigate to the bottom-right option 'RUN'.\n# The main battle menu is:\n# [FIGHT]  [PKMN ]\n# [ITEM ]  [RUN  ]\n# To get to 'RUN' from the top-left 'FIGHT' (default cursor position),\n# we must press 'Down' once (moves to ITEM) then 'Right' once (moves to RUN), or vice versa.\n# Then press 'A' to execute the run command.\n# Let's print the buttons as a JSON array.\nbuttons = [\"Down\", \"Right\", \"A\"]\nprint(json.dumps(buttons))\n",
+    "python_script": "import json\n\n# Programmatically generate button presses with sleep commands to bypass introductory screens and escape\nsequence = [\n    \"B\",\n    \"sleep 1500\",\n    \"B\",\n    \"sleep 1500\",\n    \"Down\",\n    \"Right\",\n    \"A\"\n]\n\nprint(json.dumps(sequence))\n",
     "history": [
       {
         "commit_message": "Define a simple custom tool to automate navigating to the RUN option in battle.",
@@ -23,6 +16,11 @@
         "commit_message": "Define flee_battle tool to automatically flee wild encounters in a clean and standard manner by selecting RUN.",
         "timestamp": "2026-06-18T20:30:26.028Z",
         "action_counter": 103799
+      },
+      {
+        "commit_message": "Refining flee_battle to programmatically handle wild battle introductory text and escape in a single turn.",
+        "timestamp": "2026-06-20T06:50:44.994Z",
+        "action_counter": 109447
       }
     ]
   }
