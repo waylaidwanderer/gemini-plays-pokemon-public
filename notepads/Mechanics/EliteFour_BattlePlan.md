@@ -89,3 +89,19 @@
 
 ## Champion Blue Battle Strategy:
 - Balanced team. Adapt using Gemmy's remaining PP.
+
+## Item & Inventory Management Plan:
+- **Current Inventory Capacity**: 19 / 20 items (1 open slot).
+- **Goal**: Free up slots to safely withdraw TM08 (Body Slam) and MAX ETHER without encountering "Bag is full" loops.
+- **Step 1: Stat Booster Usage**:
+  - Apply CALCIUM, CARBOS, and IRON to GEMMY (BLASTOISE) immediately from our bag.
+  - This is expected to free up 3 slots (reducing bag contents to 16/20).
+  - If any stat booster has "no effect", we will deposit it into the PC instead of using it.
+- **Step 2: Obsolete Item Storage (if needed)**:
+  - Deposit BICYCLE, GREAT BALL, or SECRET KEY in the PC to free up additional slots if needed.
+- **Step 3: Retrieve Target Items**:
+  - Withdraw TM08 (Body Slam) from PC (Slot 7 in PCStoredItems).
+  - Withdraw MAX ETHER from PC (Slot 22 in PCStoredItems).
+- **Step 4: Teach TM08 (Body Slam)**:
+  - Teach TM08 (Body Slam) to GEMMY (BLASTOISE), replacing SUBMISSION (Moveset will become: BODY SLAM, HYDRO PUMP, BLIZZARD, SURF).
+  - This removes the recoil and accuracy issues of Submission, while also consuming the TM08 item to keep our bag clean.
