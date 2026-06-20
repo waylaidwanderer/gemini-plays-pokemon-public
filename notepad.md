@@ -8072,8 +8072,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **GEMMY (BLASTOISE) - Level 69**:
   - BODY SLAM: 3/15 PP
   - HYDRO PUMP: 5/5 PP
-  - BLIZZARD: 2/5 PP
-  - SURF: 13/15 PP
+  - BLIZZARD: 1/5 PP
+  - SURF: 12/15 PP
 - **SPARKY (PIKACHU) - Level 30**:
   - THUNDERBOLT: 15/15 PP
   - SWIFT: 20/20 PP
