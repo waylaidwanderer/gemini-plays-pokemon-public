@@ -8069,11 +8069,11 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Preparation Started: Turn 109627 | Timestamp: Saturday, June 20, 2026 at 12:46 AM PDT
 
 ## Remaining PP Tracker (Run 2 - Active):
-- **GEMMY (BLASTOISE) - Level 68**:
+- **GEMMY (BLASTOISE) - Level 69**:
   - BODY SLAM: 3/15 PP
   - HYDRO PUMP: 5/5 PP
-  - BLIZZARD: 4/5 PP
-  - SURF: 1/15 PP
+  - BLIZZARD: 2/5 PP
+  - SURF: 13/15 PP
 - **SPARKY (PIKACHU) - Level 30**:
   - THUNDERBOLT: 15/15 PP
   - SWIFT: 20/20 PP
