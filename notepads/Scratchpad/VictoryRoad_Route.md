@@ -1,6 +1,6 @@
 # Scratchpad: Victory Road Route & Exit Plan
 - Route Started: Turn 107326 | Timestamp: Friday, June 19, 2026 at 12:25 PM PDT
-- Current Position: (9, 12) on Indigo Plateau Exterior (Map 0_9)
+- Current Position: (9, 7) on Indigo Plateau Exterior (Map 0_9)
 
 ## Physical Blockages & Height Boundaries Verified:
 - 2F East: (25, 12) is on Koga's elevated plateau (z=1), which is physically blocked from the ground level (z=0) at (25, 11).
