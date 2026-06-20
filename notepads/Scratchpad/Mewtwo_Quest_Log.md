@@ -3,7 +3,7 @@
 - Goal: Enter Cerulean Cave and catch Mewtwo.
 
 ## Current status & Progression
-- Navigating the 1F water canal to locate a western landmass and access 2F West.
+- Navigating the 2F Northwest section to find the ladder descending into the northwest 1F quadrant (Mewtwo's path).
 
 ## 2F Exploration Discoveries & Pathing Notes
 - Row 11 forms a completely open, unblocked horizontal corridor from Column 18 to Column 24, allowing horizontal travel.
