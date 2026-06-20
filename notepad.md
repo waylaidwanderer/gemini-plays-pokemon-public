@@ -7463,11 +7463,7 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 11. Walk Left 1 step to stand on the (26, 8) ladder.
 12. Take the (26, 8) ladder DOWN to 2F East (lands at (27, 7) on 2F East inside the northeast pocket).
 13. Walk Right 2 steps to (29, 7) on 2F East to EXIT Victory Road!
-- Turn 109582: Successfully returned to 2F East via the 3F East pit drop at (23, 15).
-- The ladder DOWN to 2F West is located at (2, 0) according to our notes, but wait! There is a ladder tile at (1, 9) on the screen. Let's verify where the ladder is on the screen and if there is a ladder at (2, 0) as well.
-- Looking at the current screen at Turn 109557, (1, 9) is TYPE_4b8d (ladder/staircase tile).
-- (2, 9) is TYPE_2889 (solid rock wall).
-- Let's walk Down to (2, 9) and face Left to see if we can step on (1, 9), or check where we need to go.
+- Turn 109582: Successfully returned to 2F East via the 3F East pit drop at (23, 15), then climbed the plateau to (21, 14) and took the ladder back UP to 3F East.
 
 ## Master Ground-Level Exit Route (NO PLATEAU CROSSINGS NEEDED!)
 - From (14, 16) on 3F East/West, walk Right 9 steps to Column 23 at (23, 16).
