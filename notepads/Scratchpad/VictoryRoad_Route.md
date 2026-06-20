@@ -1,6 +1,6 @@
 # Scratchpad: Victory Road Route & Exit Plan
 - Route Started: Turn 107326 | Timestamp: Friday, June 19, 2026 at 12:25 PM PDT
-- Current Position: (18, 27) on Route 23 North (Map 0_34)
+- Current Position: (18, 23) on Route 23 North (Map 0_34)
 
 ## Physical Blockages & Height Boundaries Verified:
 - 2F East: (25, 12) is on Koga's elevated plateau (z=1), which is physically blocked from the ground level (z=0) at (25, 11).
