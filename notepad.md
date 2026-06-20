@@ -7440,20 +7440,16 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 
 # Scratchpad: Victory Road Route & Puzzle States
 - Route Started: Turn 107326 | Timestamp: Friday, June 19, 2026 at 12:25 PM PDT
-- Current Position: (4, 16) on Victory Road 2F West (Map 0_194)
+- Current Position: (3, 16) on Victory Road 2F West (Map 0_194)
 
-## THE REAL BACKTRACKING ROUTE TO EXIT
-- Currently we are on 3F East (Map 0_198) at (3, 2).
-- We must walk Left along Row 1 all the way to 3F West to reach the western ladder to 2F West.
-- Once on 2F West, we will walk East along the ground corridor (Y=16) past the lowered barrier to 2F East South.
-- On 2F East South, we will walk to the true exit ladder at **(25, 14)** (which leads down to 1F East).
-- Take the ladder at (25, 14) DOWN to 1F East, then exit to Route 23 North / Indigo Plateau!
-
-## Path to 3F West:
-- Stand at (16, 1) facing Left.
-- Walk Left along Row 1 to (1, 1).
-- From (1, 1), walk Down to the western ladder at (1, 9).
-- Take the ladder DOWN to 2F West.
+## Backtrack & Exit Strategy
+- We have successfully solved the 2F West boulder puzzle by pushing the boulder to Switch B1 at (1, 16).
+- Now we must backtrack to the plateau stairs at (5, 10).
+- Climb up the stairs onto Koga's plateau (z=1).
+- Walk East along the plateau corridor to Koga's Eastern stairs at (21, 15).
+- Descend the stairs to the eastern ground level (z=0).
+- Walk past the lowered gate at (24, 11) to reach the exit ladder at (25, 14).
+- Take the (25, 14) ladder down to 1F East and exit to Route 23 North!
 
 ## Post-Exit Priorities:
 - Go straight to the Indigo Plateau Pokémon Center counter and heal to fully restore GEMMY's PP and HP!
