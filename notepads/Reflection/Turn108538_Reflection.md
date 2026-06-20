@@ -3,7 +3,12 @@
 ## 1. Immediate Execution & Breakthrough Discovery
 - **The Core Problem**: We assumed the exit of Victory Road was on 2F East at (28, 1) / (28, 0). However, testing (28, 0) on 2F East resulted in a collision bump. Standing on (28, 1) on 2F East also did not trigger a warp.
 - **The Solution**: We queried the vanilla Pokémon Red/Blue map specifications using Python and discovered that the actual exit warp to Route 23 North / Indigo Plateau is Warp 4 on the 3rd Floor (3F East, Map 0_198) located at coordinates (23, 1). 
-- **The Backtracking Route**: We are currently standing at (28, 0) on 2F East. We will walk back to the ladder at (23, 7) on 2F East, climb to 3F East, and walk directly to (23, 1) to exit Victory Road!
+- **The Backtracking Route**: We are currently standing at (25, 3) on 3F East (Map 0_198).
+  - Walk Left to 3F West.
+  - Find the ladder down to 2F West.
+  - From 2F West, walk East along Row 16 on the ground floor to reach the true exit ladder at (25, 14) on 2F East South.
+  - Take the (25, 14) ladder down to 1F East (the isolated 1F southeast room where the Route 23 North exit is).
+  - Walk to the Route 23 North exit.
 
 ## 2. Walkthrough Path to (23, 7) Ladder on 2F East
 - Current: (28, 0)
