@@ -7441,27 +7441,34 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 
 # Scratchpad: Victory Road Route & Puzzle States
 - Route Started: Turn 107326 | Timestamp: Friday, June 19, 2026 at 12:25 PM PDT
-- Current Position: (27, 3) on Victory Road 2F East (Map 0_194)
+- Current Position: (28, 3) on Victory Road 2F East (Map 0_194)
 
-## BREAKTHROUGH DISCOVERY (Turn 108821)
-- We verified that the exit of Victory Road is a cave mouth warp on Victory Road 2F East!
-- The exact coordinate of the exit is **(29, 7)** on Victory Road 2F East (Map 0_194), which leads to Route 23 North (warp index 4).
-- The ladder at (27, 7) leads to 3F East (warp index 2).
-- The ladder at (23, 7) leads to 3F East (warp index 3).
-
-## Spatial Traversal Plan to Exit:
-- From our current position (27, 3):
-  1. Walk Right to (28, 3) (Right)
-  2. Walk Down 4 steps along Column 28 to (28, 7) (Down, Down, Down, Down)
-  3. Walk Right 1 step to (29, 7) (Right) to enter the cave exit warp and arrive on Route 23 North!
-
-- Note: We must NOT walk Down Column 27 because stepping onto (27, 7) will trigger the ladder warp to 3F East. Bypassing it via Column 28 is the perfect route!
+## BREAKTHROUGH DISCOVERY (Turn 108834)
+- The path down Column 28 from Row 3 to Row 7 is completely blocked by solid rock wall at **(28, 6)** (TYPE_2889).
+- Row 6 is impassable across Columns 24-29 (TYPE_2889), which prevents foot travel from Row 3 to Row 7 in this eastern pocket.
+- **The Correct Routing to Exit**:
+  1. Backtrack on foot from (28, 3) to the ladder at (23, 7) on 2F East:
+     - Walk Up to (28, 2)
+     - Walk Left around the (26, 3) youngster NPC via Row 2 to (25, 2)
+     - Walk Down to (25, 3)
+     - Walk Left to (17, 3) (or 19, 3) to bypass the partition walls
+     - Walk Down to (17, 5) (or 19, 5)
+     - Walk Right to (23, 5)
+     - Walk Down to the ladder at (23, 7)
+  2. Take the ladder at (23, 7) UP to 3F East (Map 0_198).
+  3. On 3F East, walk to the ladder at (26, 8) via the open northern bypass (Row 2):
+     - Walk Up from (23, 7) to (23, 2)
+     - Walk Right along Row 2 to (26, 2)
+     - Walk Down Column 26 to (26, 8)
+  4. Take the ladder at (26, 8) on 3F East DOWN to 2F East (Map 0_194). This lands us directly on (27, 7) on the south side of the Row 6 barrier!
+  5. From (27, 7), walk Right 2 steps to (29, 7) (via (28, 7)), which is the functional exit warp leading to Route 23 North!
 
 ## Verification Checkpoints:
-- Current tile: (27, 3), TYPE_3fe2.
-- Step 1: Right to (28, 3).
-- Step 2: Down to (28, 4), then (28, 5), (28, 6), (28, 7). All of these are TYPE_3fe2.
-- Step 3: Right to (29, 7). This is TYPE_3fe2 and is a warp tile leading to Route 23.
+- Current tile: (28, 3), TYPE_3fe2.
+- Step 1: Up to (28, 2) (passable floor).
+- Step 2: Left 3 steps along Row 2 to (25, 2) (bypassing the youngster at (26, 3)).
+- Step 3: Down 1 step to (25, 3) (passable floor).
+- Step 4: Left 8 steps along Row 3 to (17, 3).
 
 <hr>
 
