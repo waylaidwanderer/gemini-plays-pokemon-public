@@ -8119,9 +8119,33 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 - **Cloyster (Lvl 53)**: Defeated! (Used 2 Surf PP)
 - **Slowbro (Lvl 54)**: Defeated! (Used 1 Thunder Wave PP, 2 Thunderbolt PP on Sparky)
 - **Jynx (Lvl 56)**: Defeated! (Used 2 Surf PP, Gemmy healed to full with Hyper Potion)
-- **Lapras (Lvl 56)**: Water/Ice. Currently active. Sparky (Pikachu) was sent in, but was outsped and fainted on Turn 109894 by Lapras's Hydro Pump.
+- **Lapras (Lvl 56)**: Water/Ice. Currently active. Sparky (Pikachu) fainted on Turn 109894 by Hydro Pump. Sent in Rocky (Geodude) as fodder to use Max Revive on Sparky (Turn 109905). Rocky fainted on Turn 109906. Sent Sparky back in on Turn 109908.
 - **Fainted Team Members Log**:
-  - Sparky (Pikachu) - Fainted on Turn 109894 by Lapras's Hydro Pump.
+  - Sparky (Pikachu) - Fainted on Turn 109894 by Lapras's Hydro Pump. Revived on Turn 109905.
+  - Rocky (Geodude) - Fainted on Turn 109906 by Lapras's Blizzard.
+- **Battle Timeline Log**:
+  - Turn 109816: Entered Lorelei's Room.
+  - Turn 109822: Initiated battle with Lorelei.
+  - Turn 109825: Defeated Dewgong with Gemmy's Earthquake. (Earthquake: 1 PP left)
+  - Turn 109829: Defeated Dewgong (with 2nd Earthquake). (Earthquake: 0 PP left)
+  - Turn 109835: Lorelei sent out Cloyster.
+  - Turn 109837: Used Surf on Cloyster. (Surf: 4 PP left)
+  - Turn 109839: Defeated Cloyster with Surf. (Surf: 3 PP left)
+  - Turn 109842: Lorelei sent out Slowbro.
+  - Turn 109843: Used Surf on Slowbro (resisted, minor damage). (Surf: 2 PP left)
+  - Turn 109850: Switched to Sparky (Pikachu) to preserve Gemmy's PP.
+  - Turn 109854: Paralyzed Slowbro with Thunder Wave. (Thunder Wave: 19 PP left)
+  - Turn 109858: Used Thunderbolt on Slowbro. (Thunderbolt: 14 PP left)
+  - Turn 109861: Defeated Slowbro with critical hit Thunderbolt! (Thunderbolt: 13 PP left)
+  - Turn 109865: Switched back to Gemmy (Blastoise) against Jynx.
+  - Turn 109874: Healed Gemmy to full HP with Hyper Potion. (Hyper Potions: 5 left)
+  - Turn 109880: Used Surf on Jynx. (Surf: 1 PP left)
+  - Turn 109884: Defeated Jynx with Surf. (Surf: 0 PP left)
+  - Turn 109888: Switched back to Sparky (Pikachu) against Lapras.
+  - Turn 109894: Sparky fainted from Lapras's Hydro Pump.
+  - Turn 109896: Sent Rocky (Geodude) out as fodder.
+  - Turn 109905: Used Max Revive on Sparky. (Max Revives: 1 left) Rocky fainted from Lapras's Blizzard.
+  - Turn 109908: Sent Sparky (Pikachu) back in. Current Turn: 109909. (Pikachu HP: 69/69, full).
 
 ## Bruno (Fighting/Rock) Battle Strategy:
 - **Onix (Lvl 53 & 56)**: Water is 4x effective. OHKO with Surf.
