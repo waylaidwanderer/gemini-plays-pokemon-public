@@ -28,3 +28,13 @@
 - Looking at the current screen at Turn 109557, (1, 9) is TYPE_4b8d (ladder/staircase tile).
 - (2, 9) is TYPE_2889 (solid rock wall).
 - Let's walk Down to (2, 9) and face Left to see if we can step on (1, 9), or check where we need to go.
+
+## Master Ground-Level Exit Route (NO PLATEAU CROSSINGS NEEDED!)
+- From (14, 16) on 3F East/West, walk Right 9 steps to Column 23 at (23, 16).
+- Walk Up 10 steps along Column 23 to Row 6 at (23, 6).
+- Walk Left 6 steps along Row 6 to Column 17 at (17, 6).
+- Walk Up 4 steps along Column 17 to Row 2 at (17, 2).
+- Walk Left 15 steps along Row 2 to Column 2 at (2, 2).
+- Walk Up 2 steps along Column 2 to the (2, 0) ladder.
+- Take the (2, 0) ladder DOWN to 2F West.
+This route is 100% on ground level (z=0) and bypasses Koga's plateau entirely, saving steps and avoiding any height desyncs!
