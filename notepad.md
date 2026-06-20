@@ -7521,6 +7521,8 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 - **Column 8 Solid Rock Wall (Rows 2-9)**: Column 8 features an impassable vertical cliff/rock wall that completely blocks horizontal passage between the left and right halves of 3F East ground floor across Rows 2-9.
 - **Column 11 Solid Vertical Wall (Rows 6-11)**: Column 11 consists of a continuous, impassable vertical rock wall of TYPE_2889 across Rows 6-11, completely blocking any horizontal transition on the central plateau.
 - Turn 103173: Discovered (23, 9) is indeed a solid rock wall of TYPE_2889. Column 23 is blocked vertically at Row 9. We must bypass this wall by going North, crossing over to the East side via Row 2, then going South and pushing Boulder C2 at (24, 10) to the Left to clear Column 23's Row 10 passage.
+## Western Plateau North Height Boundary (Verified Turn 109559)
+- **Verified Fact**: On Turn 109559, standing at (1, 7) [plateau level z=1] facing Up, attempted to walk Up onto (1, 6) [ground level z=0]. Result: Collision bump, remaining at (1, 7). This physically and mathematically proves that Koga's western plateau has a solid horizontal cliff face across Rows 6-7 on Columns 1-5, preventing direct vertical traversal between the plateau and the Northern ground floor on foot. The stairs at (1, 9) are the only functional transition to the Southern ground floor on the West.
 
 <hr>
 
