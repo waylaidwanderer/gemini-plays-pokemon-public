@@ -6,6 +6,7 @@
 - **Ladder (21, 11)**: Labeled TYPE_4b8d. One-way dropdown ladder; cannot be used to ascend from 1F.
 - **Ladder (23, 7)**: Labeled TYPE_3fe2. Interacting with or stepping onto this tile immediately warps the player to 2F at (23, 7).
 - **Ladder (27, 1)**: Labeled TYPE_3fe2. The landing tile when descending Ladder 2 from 2F (which is at 29, 1 on 2F).
+- **Ladder (18, 9)**: Labeled TYPE_3fe2. Labeled Ladder 3. Walking onto this tile warps the player to 2F at (19, 7).
 - **Ramps to Water**:
   - Located at (23, 3) and (15, 3) (TYPE_4b8d).
   - Standing on the ramp facing the water (e.g., at (23, 3) facing Down to (23, 4)) and selecting SURF from the party menu successfully mounts the water.
