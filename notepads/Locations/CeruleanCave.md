@@ -21,3 +21,11 @@
 - **Ladder 2**:
   - Located at (29, 1) (labeled [=], TYPE_3fe2).
   - To reach it from (29, 3): walk Left to (28, 3), Up 2 steps to (28, 1), and Right to (29, 1). Descending this ladder lands on 1F at (27, 1).
+- **Row 11 Passage**:
+  - Row 11 forms a completely open, unblocked horizontal passage from Column 18 to Column 24.
+- **Row 16 Blockage**:
+  - Row 16 contains a solid horizontal rock wall from Column 14 to Column 20, blocking direct downward access from Row 15 to Row 17.
+- **Row 9 Blockage**:
+  - Row 9 is blocked by rock walls at (22, 9) and (24, 9), so it is not a continuous horizontal corridor.
+- **Topological Goal**:
+  - To access the basement (B1F) where Mewtwo is, the player must locate the northwest ladder on 2F. This ladder descends into the isolated northwestern quadrant of 1F, which contains the stairs leading to B1F.
