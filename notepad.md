@@ -8248,6 +8248,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - Standing on any of these ramps facing the water and selecting SURF from the party menu successfully mounts the water.
 - **Water Canal**:
   - Rows 4 and 5 on 1F are water (TYPE_4e8c) and can be surfed upon.
+- **Northern Landmass Layout (Row 0-2 ground-level shortcut)**:
+  - Rows 0, 1, and 2 form an unblocked, completely walkable ground-level connection on foot from Column 23 (Water Ramp 1) all the way east to Column 28 (Ladder 2 landing at 27,1). There is NO solid rock barrier on Column 26 on 1F, allowing the player to bypass the 2F serpentine path entirely when navigating from the western water canal to the northeast section of 1F. Verified on Turns 112008-112012.
 - **Visual Artifact Note**: Red flower tiles (TYPE_3fe2) (such as at 19, 3) visually resemble red-and-white Poké Balls in the Crystal palette swap but are passable ground tiles with no physical items.
 
 ## 2F (0_226) Verified Layout:
