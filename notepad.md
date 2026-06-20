@@ -7459,6 +7459,10 @@ All badge checkpoints on Route 23 have been cleared and verified. Permanent reco
 - Take the (2, 0) ladder DOWN to 2F West.
 This route is 100% on ground level (z=0) and bypasses Koga's plateau entirely, saving steps and avoiding any height desyncs!
 
+# Phase: Indigo Plateau Entrance and Elite Four Prep
+- Preparation Started: Turn 109627 | Timestamp: Saturday, June 20, 2026 at 12:46 AM PDT
+- Goal: Enter the Indigo Plateau building, heal at the Pokemon Center counter, perform party audit, and prepare movesets and items for the final battles.
+
 <hr>
 
 <h1><code>Locations/VictoryRoad_3F</code></h1>
