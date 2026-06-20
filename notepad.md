@@ -8194,6 +8194,9 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 110417: Used Body Slam to KO Alakazam (Gemmy outsped due to paralysis speed drop).
 - Turn 110418: Blue sending out Rhydon L61. Kept GEMMY active.
 - Turn 110422: Used Surf to OHKO Rhydon.
-- Turn 110425: Blue sending out Gyarados L61. Kept GEMMY active (to heal Gemmy to full on Turn 1).
+- Turn 110425: Blue sending out Gyarados L61. Kept GEMMY active.
+- Turn 110433: Healed GEMMY to 228/228 HP with Hyper Potion. Gyarados used Hyper Beam (GEMMY at 170/228 HP, must recharge).
+- Turn 110438: Used Surf (critical hit! Gyarados at ~45% HP). Gyarados recharging.
+- Turn 110440: Choosing Surf to attack Gyarados.
 
 <hr>
