@@ -80,7 +80,7 @@
   - **Key Lesson**: Bruno's Hitmonchan knows Counter. Do not use physical physical moves like Submission when Hitmonchan is healthy or can survive to Counter back. Use special moves (like Blizzard/Surf/Hydro Pump) or ensure we can survive.
 
 ## Agatha (Ghost/Poison) Battle Strategy:
-- **Gengar (Lvl 56 & 60)**, **Haunter (Lvl 55)**, **Arbok (Lvl 58)**: Ground is no longer available since TM26 (Earthquake) is permanently lost. Use GEMMY's Surf (STAB) as our main offensive option for high neutral damage.
+- **Gengar (Lvl 56 & 60)**, **Haunter (Lvl 55)**, **Arbok (Lvl 58)**: Ground is no longer available since TM26 (Earthquake) is permanently lost. Use GEMMY's Surf (STAB) as our main offensive option for high neutral damage. Note that Ghost-type Pokémon (Gengars/Haunter) are completely immune to Normal-type physical attacks in Generation 1. Therefore, Body Slam will have absolutely zero effect against them—do not use it!
 - **Golbat (Lvl 56)**: Poison/Flying. Weak to Ice/Electric. Use GEMMY's Blizzard or SPARKY's Thunderbolt.
 
 ## Lance (Dragon) Battle Strategy:
@@ -90,3 +90,12 @@
 
 ## Champion Blue Battle Strategy:
 - Balanced team. Adapt using Gemmy's remaining PP.
+
+## Max Ether Strategy & Decision Matrix
+- We possess only 1 Max Ether, which restores all PP of a single move.
+- Blastoise's low PP moves are Body Slam (max 15), Blizzard (max 5), and Hydro Pump (max 5).
+- Priority Matrix:
+  1. **Blizzard (First Priority)**: This is our only Ice-type move, crucial for Dragonite, Dragonair, and Golbat. Restoring Blizzard ensures we have high-power Ice coverage for Lance.
+  2. **Hydro Pump (Second Priority)**: Secondary high-damage special STAB.
+  3. **Body Slam (Lowest Priority)**: Highly efficient physical move, but useless against Ghosts and not critical for late-game type-effectiveness.
+- **Rule**: Save the Max Ether for Lance or Champion Blue, or if Blizzard drops to 0 PP before reaching Lance. Do not use it during Bruno's battle.
