@@ -39,3 +39,4 @@
 5. From (6, 1), walk Down to (6, 5), Left along Row 5 to (1, 5), and Up to Northwest Ladder at (1, 3).
 6. Descend Northwest Ladder to land on the isolated B1F access sector of 1F. Walk to B1F stairs and proceed.
 - Turn 114033: Standing at (17, 14) on the central platform facing Up. Stepping Left 1 step to (16, 14).
+- Turn 114036: Standing at (16, 14) facing Left. Stepping Left 1 step to (15, 14).
