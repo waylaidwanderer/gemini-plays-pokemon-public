@@ -53,12 +53,15 @@
     - Let's do a search for "2F West" in our notepads to find any other details.
 - Turn 113322: Standing at (16, 17) in the southern horizontal corridor on Row 17. Planning to walk Left along Row 17 to reach the southwest plateau staircase. Row 17 is fully passable from Column 16 to at least Column 12 on foot.
 
-## Master Routing Solution to Mewtwo (B1F) via Ladder 3 (18, 9)
-- Analysis on Turn 113337: 2F West (3, 11) is indeed a closed 5-tile pocket, and Ladder 5 (7, 1) Northwest is in the northwest isolated quadrant of 1F (which can only be reached by descending from 2F).
-- Therefore, the correct canonical path to reach the northwestern quadrant of 2F and descend the Northwest Ladder at (1, 3) is:
-  1. Stand on 1F central platform and climb UP Ladder 3 at (18, 9) to land on 2F at (19, 7).
-  2. On 2F, walk West (Left) along Row 7 directly to Column 1 (Row 7 is open horizontally from Column 19 all the way west to Column 1).
-  3. Walk Up along Column 1 to reach the Northwest Ladder at (1, 3) on 2F.
-  4. Descend the Northwest Ladder to land on 1F northwest isolated quadrant at (1, 3).
-  5. On 1F northwest quadrant, walk to the stairs leading down to B1F!
-- Active execution is in progress to return to the 1F central platform and climb Ladder 3 at (18, 9).
+## Master Routing Solution to Mewtwo (B1F) via Ladder 3 (18, 9) - AUDITED & CORRECTED
+- Turn 113364 Empirical Passability Test (Crossover Proof of Work):
+  - Hypothesis: Row 7 on 2F is completely open horizontally from Column 19 to Column 1.
+  - Test: Stood at (18, 7) facing Left and pressed Left to step onto (17, 7).
+  - Result: Encountered direct overworld collision (bump warning) with zero coordinate change, player remained at (18, 7).
+  - Conclusion: (17, 7) is a 100% solid, impassable rock wall. The "Row 7 Horizontal Open Crossover" hypothesis is officially and conclusively disproven.
+- Corrected 2F Crossover Topology:
+  - 2F East (Columns 18-29) is completely physically disconnected on foot from 2F West (Columns 1-13). There are no passable horizontal crossover pathways on Rows 3-15 because Column 17 is a solid rock wall across Rows 3-8, and other prospective crossover points (Row 9, Row 11) lead into dead-end pockets bounded by solid rock walls.
+- New Progression Strategy:
+  - Since 2F East and 2F West are disconnected on foot, the Northwest Ladder at (1, 3) (which is the gateway to B1F) must be accessed via 2F West.
+  - To reach 2F West, we must climb Ladder 6 at (3, 11) on 1F Southwest, or we must investigate if there is an open water path on 1F that allows us to surf directly to the northwestern quadrant of 1F (where the B1F stairs are located).
+  - Active execution: Returning to 1F and exploring the 1F water canal's western connection.
