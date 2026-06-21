@@ -3,7 +3,7 @@
 - Goal: Enter Cerulean Cave and catch Mewtwo.
 
 ## Current Status & Progression
-- Currently on 2F West at (3, 11). Just confirmed that the Southwest pocket is isolated. Returning to 1F.
+- Currently backtracking on 1F to climb Southwest Ladder 6 at (3, 11) and test Column 9 Row 8 on 2F West.
 
 ## 2F Exploration Discoveries & Pathing Notes
 - Socratic Test Hypothesis: Column 9 and Column 13 on 2F West might be vertically passable. Once we climbed Ladder 5 to 2F West, we tested their vertical passability on foot.
@@ -11,19 +11,20 @@
   - Turn 113626: From (9, 5), pressed Down to test (9, 6) (TYPE_2889). Result: BUMPED, remaining at (9, 5). This empirically proves that (9, 6) is a solid, impassable wall.
   - Turn 113646: From (13, 6), pressed Down to test (13, 7) (TYPE_2889). Result: BUMPED, remaining at (13, 6). This empirically proves that (13, 7) is a solid, impassable wall.
   - Turn 113711: Confirmed that Column 3 is blocked at (3, 8) and Column 2 is blocked at (2, 8) by solid rock walls (TYPE_2889). Row 10 and 11 are also blocked at Column 1 (1, 10 and 1, 11 are TYPE_2889).
-  - Definitive Conclusion: The Southwest pocket on 2F West (containing Southwest Ladder 6 at (3, 11)) is 100% physically isolated on foot from the northern corridors of 2F West. It is impossible to walk from (3, 11) to the Northwest Ladder at (1, 3) on 2F West. 
+  - Hypothesis (Untested): Is Column 9 vertically passable across Row 8 on foot? We must stand at (9, 9) on 2F West and press Up to test if (9, 8) connects to Row 7. If yes, the Southwest pocket connects directly to the Northwest Ladder on foot!
 
-## Master Routing Solution to Mewtwo (B1F) - THE DEFINITIVE VERIFIED ROUTE
-- Layout Architecture:
-  - 2F West is physically divided into two isolated sections: the Northern corridors (accessed via Ladder 5 at (7, 1) on 1F) and the Southwest pocket (accessed via Ladder 6 at (3, 11) on 1F).
-  - The Northwest Ladder at (1, 3) on 2F West descends directly into the isolated northwestern quadrant of 1F (where the B1F stairs are).
-  - The Northwest Ladder is ONLY accessible from the Northern corridors of 2F West (via Ladder 5 at (7, 1)).
-  - Therefore, we must climb Ladder 5 at (7, 1) on 1F to reach 2F West at (9, 1), and then walk to the Northwest Ladder at (1, 3) to reach B1F!
+## Active Campaign: Testing Column 9 Row 8 on 2F West
+- Step-by-Step Path to Test Spot:
+  1. Walk on foot to Southwest Ladder 6 at (3, 11) on 1F.
+  2. Climb Southwest Ladder 6 to reach 2F West at (3, 11).
+  3. Walk to (9, 9) on 2F West.
+  4. Face Up and press Up to test passability of (9, 8).
 
-- Step-by-Step Execution Plan:
-  1. Descend Southwest Ladder 6 at (3, 11) from 2F West to reach 1F Southwest. (Current task)
-  2. Walk on foot from (3, 11) to Water Ramp 2 at (11, 13) on 1F (via Row 17).
-  3. Surf from Water Ramp 2 at (11, 13) to Water Ramp 4 at (15, 3) on 1F.
+## Backup Backtracking Plan (If Column 9 Row 8 is Blocked)
+- If Column 9 is indeed blocked, the Southwest pocket is isolated and we must use the backtracking route:
+  1. Descend Southwest Ladder 6 back to 1F.
+  2. Walk on foot from (3, 11) to Water Ramp 2 at (11, 13) on 1F.
+  3. Surf from Water Ramp 2 to Water Ramp 4 at (15, 3) on 1F.
   4. Walk on foot from (15, 3) to Ladder 5 at (7, 1) on 1F.
   5. Climb Ladder 5 at (7, 1) to reach 2F West at (9, 1).
   6. Walk on foot from (9, 1) to Northwest Ladder at (1, 3) on 2F West.
