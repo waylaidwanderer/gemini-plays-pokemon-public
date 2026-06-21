@@ -3,7 +3,7 @@
 - Goal: Enter Cerulean Cave and catch Mewtwo.
 
 ## Current Status & Progression
-- Currently standing on 2F West at (8, 9) on foot.
+- Currently standing on 2F West at (2, 10) on foot.
 
 ## Active Hypothesis on 2F West Topology
 - Hypothesized Blockages on 2F West:
