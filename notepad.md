@@ -8275,18 +8275,21 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
     - Let's do a search for "2F West" in our notepads to find any other details.
 - Turn 113322: Standing at (16, 17) in the southern horizontal corridor on Row 17. Planning to walk Left along Row 17 to reach the southwest plateau staircase. Row 17 is fully passable from Column 16 to at least Column 12 on foot.
 
-## Master Routing Solution to Mewtwo (B1F) via Ladder 3 (18, 9) - AUDITED & CORRECTED
-- Turn 113364 Empirical Passability Test (Crossover Proof of Work):
-  - Hypothesis: Row 7 on 2F is completely open horizontally from Column 19 to Column 1.
-  - Test: Stood at (18, 7) facing Left and pressed Left to step onto (17, 7).
-  - Result: Encountered direct overworld collision (bump warning) with zero coordinate change, player remained at (18, 7).
-  - Conclusion: (17, 7) is a 100% solid, impassable rock wall. The "Row 7 Horizontal Open Crossover" hypothesis is officially and conclusively disproven.
-- Corrected 2F Crossover Topology:
-  - 2F East (Columns 18-29) is completely physically disconnected on foot from 2F West (Columns 1-13). There are no passable horizontal crossover pathways on Rows 3-15 because Column 17 is a solid rock wall across Rows 3-8, and other prospective crossover points (Row 9, Row 11) lead into dead-end pockets bounded by solid rock walls.
-- New Progression Strategy:
-  - Since 2F East and 2F West are disconnected on foot, the Northwest Ladder at (1, 3) (which is the gateway to B1F) must be accessed via 2F West.
-  - To reach 2F West, we must climb Ladder 6 at (3, 11) on 1F Southwest, or we must investigate if there is an open water path on 1F that allows us to surf directly to the northwestern quadrant of 1F (where the B1F stairs are located).
-  - Active execution: Returning to 1F and exploring the 1F water canal's western connection.
+## Master Routing Solution to Mewtwo (B1F) via Ladder 5 (7, 1) - THE DEFINITIVE ROUTE
+- Turn 113372 Analysis & Socratic Breakthrough:
+  - We historically assumed that the northwestern quadrant of 1F was completely isolated from the water canal, and that Ladder 5 at (7, 1) on 1F was unreachable.
+  - However, the northern water canal on 1F (Rows 4-5) extends horizontally all the way to the west, allowing us to surf directly to Column 7 on Row 4 or 5 and dismount onto the northwestern landmass of 1F!
+  - Therefore, we can access Ladder 5 at (7, 1) directly from 1F by surfing and dismounting in the northwest!
+  - Once we climb Ladder 5 to 2F West at (6, 1), we can bypass the Column 2 Row 0-4 wall by walking to Column 3, detouring south to Row 5 (since Column 2 is only blocked on Rows 0-4), crossing Column 2 at (2, 5) to reach Column 1, and walking back north along Column 1 to the Northwest Ladder at (1, 3).
+  - Descending the Northwest Ladder at (1, 3) lands us back in the isolated northwestern quadrant of 1F, which contains the stairs leading directly to B1F (Mewtwo's chamber).
+
+- Step-by-Step Execution Plan:
+  1. Return to 1F by descending Ladder 3 at (19, 7).
+  2. Walk to Water Ramp 2 at (11, 13) on 1F, mount the water, and surf north and west along the horizontal water canals to reach Column 7 Row 4 or 5.
+  3. Dismount onto the northwestern landmass, walk to (7, 1) on 1F, and climb UP Ladder 5.
+  4. On 2F West, walk: (6, 1) -> Left 3 steps to (3, 1) -> Down 4 steps to (3, 5) -> Left 2 steps to (1, 5) -> Up 2 steps to (1, 3) (Northwest Ladder).
+  5. Take the Northwest Ladder at (1, 3) DOWN to 1F.
+  6. On 1F, walk to the stairs and descend to B1F!
 
 <hr>
 
