@@ -8302,17 +8302,34 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - Verification: Player is on foot on (15, 17) (TYPE_3fe2). Row 17 is completely open to the west.
 - Turn 114312: Confirmed player position is at (3, 11) on 2F West (Map 0_226). We verified that Row 8 forms a continuous solid rock wall across Columns 2 to 8, which isolates the southern half of 2F West (containing the (3, 11) ladder) from the northern half. Furthermore, Row 12 is completely blocked from Column 2 to Column 8 by solid rock walls of TYPE_2889, preventing on-foot access to the southern portion (Rows 13-15) where the Poké Ball item resides at (4, 15) from our current starting component.
 - Conclusion: We must backtrack to 1F Southwest to reach our primary goal. We will descend Southwest Ladder 6 at (3, 11).
-- Breakthrough Turn 114317: We discovered a completely unblocked, open path connecting Ladder 5 at (9, 1) to the Northwest Ladder at (1, 3) on 2F West!
-  - The path is: from (9, 1) on 2F West, walk Left 5 steps along Row 1 (all TYPE_3fe2) to Column 4 at (4, 1). Walk Down 4 steps along Column 4 (all TYPE_3fe2) to Row 5 at (4, 5). Walk Left 3 steps along Row 5 (all TYPE_3fe2) to Column 1 at (1, 5). Walk Up 2 steps along Column 1 to reach the Northwest Ladder at (1, 3).
-  - This path completely avoids the Row 8 blockage and Column 2 Row 0-4 blockage, proving that the northern corridors are fully connected to the Northwest Ladder!
-- New Execution Plan:
-  1. From our current position (3, 11) on 1F Southwest plateau, walk Left 2, Down 2 to (1, 13) and descend the stairs to ground level z=0.
-  2. Walk Down to Row 17 and Right 13 steps along Row 17 to the central platform stairs at (17, 16).
-  3. Climb to the central platform at (17, 14) and walk to Water Ramp 2 at (11, 13).
-  4. Surf to Water Ramp 4 at (15, 3) and dismount to the northwest landmass.
-  5. Walk to Ladder 5 at (7, 1) and climb to 2F West at (9, 1).
-  6. From (9, 1) on 2F West, walk Left 5 to (4, 1), Down 4 to (4, 5), Left 3 to (1, 5), and Up 2 to the Northwest Ladder at (1, 3).
-  7. Descend the Northwest Ladder to 1F Northwest at (1, 3) and take the stairs directly down to B1F!
+- Breakthrough Turn 114317: We proposed an unblocked path from Ladder 5 at (9, 1) to the Northwest Ladder at (1, 3) on 2F West. Let's analyze and test this.
+- Physical Layout Analysis (Turn 114376):
+  - Row 1: Open from Column 3 to 9. We are currently at (5, 1).
+  - Column 4:
+    - (4, 1) is TYPE_3fe2 (open ground).
+    - (4, 2) is TYPE_2889 (solid rock wall).
+    - This means Column 4 is BLOCKED at Row 2. We cannot walk Down from (4, 1) along Column 4!
+  - Let's check Column 3:
+    - (3, 1) is TYPE_3fe2.
+    - (3, 2) is TYPE_3fe2.
+    - (3, 3) is TYPE_3fe2.
+    - (3, 4) is TYPE_2889 (solid rock wall).
+    - This means Column 3 is BLOCKED at Row 4. We cannot walk Down from (3, 3) along Column 3!
+  - Let's check Column 1:
+    - (1, 5) is TYPE_3fe2.
+    - (1, 4) is TYPE_2889 (solid rock wall).
+    - (1, 3) is the Northwest Ladder (TYPE_3fe2).
+    - (1, 2) is TYPE_3fe2.
+    - (1, 1) is TYPE_2889 (solid rock wall).
+    - This means Column 1 is BLOCKED at Row 4 and Row 1.
+  - Let's check Column 2:
+    - (2, 1), (2, 2), (2, 3), (2, 4) are all TYPE_2889 (solid rock walls).
+    - This means Column 2 forms a solid vertical wall dividing Column 1 from Column 3 across Rows 1 to 4!
+  - Therefore, the Northwest Ladder at (1, 3) and its adjacent tile (1, 2) are completely isolated on 2F West. It is mathematically impossible to walk to (1, 3) on foot from any other tile on 2F West!
+- Verified Conclusion:
+  - The "Breakthrough Turn 114317" hypothesis is 100% DISPROVEN. There is no walkthrough path connecting Ladder 5 to the Northwest Ladder on 2F West.
+  - The Northwest Ladder at (1, 3) on 2F West is completely isolated.
+  - We must explore how the Northwest isolated quadrant on 1F is reached. Wait! Let's check: could there be an open water path on 1F that leads to B1F? Let's check the northwest corner of 1F. We must backtrack to 1F first!
 
 <hr>
 
