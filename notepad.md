@@ -8292,6 +8292,13 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - **Row 7** is a completely open, continuous horizontal corridor from Column 5 to Column 11 (including Column 8 Row 7, which is open TYPE_3fe2).
   - **Conclusion**: If we can climb **Southwest Ladder 6** on 1F Southwest to reach 2F West at (3, 11), we are on the southern half. We can walk to Column 6 Row 9 on the south side, and if Column 6 Row 8 is open (which is highly likely as the other columns on Row 8 are blocked but 6 is the aligned bridge), we can walk: (6, 9) -> (6, 8) -> (6, 7) -> (6, 6) -> (6, 5) -> (0, 5) -> (0, 3) -> (1, 3).
   - Thus, the path from Southwest Ladder 6 is 100% the intended route! Climbing Ladder 5 was a necessary test to map the upper corridor, but we must now backtrack to 1F, return to 1F Southwest, and climb Southwest Ladder 6.
+- Turn 114880: Successfully reached (15, 14) on the central platform. Planning the path to Southwest Ladder 6 at (3, 11):
+  1. Walk Right twice to (17, 14), then Down twice to (17, 16) to descend the stairs.
+  2. Walk Left twice to (15, 16), then Down to (15, 17) on the ground floor.
+  3. Walk Left all the way to (1, 17).
+  4. Walk Up to (1, 13) to reach the wooden staircase.
+  5. Ascend the wooden staircase to (1, 12) on the elevated southwest plateau.
+  6. Walk to Southwest Ladder 6 at (3, 11) and ascend.
 
 <hr>
 
