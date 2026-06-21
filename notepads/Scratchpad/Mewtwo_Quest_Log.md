@@ -39,7 +39,6 @@
 - Next: Walk to (11, 9) and test Column 11 Row 8.
 - Turn 113959: Standing at (11, 9) facing Up. Commencing empirical test of Column 11 Row 8 (labeled TYPE_2889) by pressing Up.
 - Turn 113960: Empirically tested Column 11 Row 8 by attempting to walk Up from (11, 9). Result: BUMPED, player remained at (11, 9). This physically and mathematically proves that (11, 8) is a solid, impassable rock wall of TYPE_2889.
-- Next: Walk to (12, 9) and test Column 12 Row 8.
 - Turn 113963: Standing at (12, 9) facing Up. Commencing empirical test of Column 12 Row 8 (labeled TYPE_2889) by pressing Up.
 - Turn 113964: Empirically tested Column 12 Row 8 by attempting to walk Up from (12, 9). Result: BUMPED, player remained at (12, 9). This physically and mathematically proves that (12, 8) is a solid, impassable rock wall of TYPE_2889.
 - Turn 113967: Checked Column 14's vertical alignment. (14, 9) is TYPE_2889 (solid rock wall) and (14, 7) is TYPE_2889 (solid rock wall). This means Column 14 is completely blocked vertically from both the north and south, making a direct vertical test of (14, 8) unnecessary for vertical traversal.
