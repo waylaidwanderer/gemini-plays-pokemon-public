@@ -8225,7 +8225,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Goal: Enter Cerulean Cave and catch Mewtwo.
 
 ## Current Status & Progression
-- Currently at (15, 13) on 1F, walking to the central platform stairs at (17, 15) to descend to Row 17 on the ground floor. We will then walk to Southwest Ladder 6.
+- Currently at (7, 9) on 2F West, walking east along Row 9 to Column 10 to begin testing Columns 10, 11, 12, and 14 across Row 8 on foot from the south.
 
 ## 2F Exploration Discoveries & Pathing Notes
 - Socratic Test Hypothesis: Column 9 and Column 13 on 2F West might be vertically passable. Once we climbed Ladder 5 to 2F West, we tested their vertical passability on foot.
@@ -8244,11 +8244,11 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - **Testing Plan (Turn 113882)**: Climb Southwest Ladder 6 at (3, 11), walk to Row 9, and systematically test the vertical passability of Columns 10, 11, 12, and 14 across Row 8 on foot.
 
 - Step-by-Step Execution Plan:
-  1. Walk to Ladder 5 at (9, 1) and descend to 1F. (Current task)
-  2. Surf from Water Ramp 4 at (15, 3) to Water Ramp 2 at (11, 13) on 1F.
-  3. Walk from (11, 13) to Southwest Ladder 6 at (3, 11) on 1F.
-  4. Climb Southwest Ladder 6 to reach 2F West at (3, 11).
-  5. Test Columns 10, 11, 12, and 14 across Row 8 on foot from the south.
+  1. Walk to Ladder 5 at (9, 1) and descend to 1F. (Completed)
+  2. Surf from Water Ramp 4 at (15, 3) to Water Ramp 2 at (11, 13) on 1F. (Completed)
+  3. Walk from (11, 13) to Southwest Ladder 6 at (3, 11) on 1F. (Completed)
+  4. Climb Southwest Ladder 6 to reach 2F West at (3, 11). (Completed)
+  5. Test Columns 10, 11, 12, and 14 across Row 8 on foot from the south. (Current task)
   6. Locate the unblocked vertical corridor and proceed to the Northwest Ladder at (1, 3).
   7. Descend Northwest Ladder at (1, 3) to reach the isolated northwest of 1F.
   8. Walk to the stairs and descend to B1F to reach Mewtwo!
