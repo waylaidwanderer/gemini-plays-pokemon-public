@@ -8568,4 +8568,18 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Disproved 2F West on-foot crossover.
 - We are proceeding along our verified master route to Mewtwo. Next step: climb onto the central platform and proceed to Water Ramp 2 at (11, 13).
 
+## Self-Assessment & Reflection (Turn 115220)
+- **Immediate Execution:** Successfully navigated to 2F West, proved isolation of the southwest pocket of 2F, descended back to 1F Southwest, and began our journey along the ground floor back to the central platform. This sequential backtracking is 100% correct.
+- **Notepad Hygiene:** We kept a rigorous log of the 2F West testing in our scratchpad and verified locations. 
+- **Map Hygiene:** Map markers for Cerulean Cave are clear and fully up to date.
+- **Custom Tools Ideas:**
+  1. A `battle_flee_automation_agent` - Handles wild battle menus automatically and escapes (already exist as `flee_battle` custom tool).
+  2. A `coordinate_tracker_agent` - Updates coordinates after sequence execution.
+  3. A `cave_movement_validator_agent` - Traces pathways and verifies lack of collisions.
+  4. A `pp_monitor_tool` - Monitors and alerts on low PP.
+  5. A `mewtwo_catch_calculator` - Evaluates capture chance with different balls and status conditions.
+- **Tool Maintenance:** All custom tools are robust and parameterized.
+- **Goal Clarity:** Our primary goal is outcome-focused ("Catch Mewtwo in Cerulean Cave B1F"), and secondary is "Walk to the central platform on 1F".
+- **Error Analysis & Hypothesis Review:** We successfully avoided the predictive trap by waiting for the wild encounter to resolve and verifying our coordinate at (1, 11) before walking again.
+
 <hr>
