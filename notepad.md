@@ -8275,6 +8275,13 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 114074: Standing at (12, 12) facing Left. Stepping Left 1 step to (11, 12).
 - Turn 114080: Arrived at (11, 12) on the central platform facing Down. The water ramp is directly below us at (11, 13), and the water canal is at (11, 14).
 - Plan: Step Down onto (11, 13), then use SURF from the party menu to mount the water at (11, 14).
+- Turn 114113: Dismounted successfully onto Water Ramp 4 at (15, 3) on the northwest landmass!
+- Plan: Navigate on foot to Ladder 5 located at (7, 1).
+  - Let's check coordinates between (15, 3) and (7, 1):
+    - To move Left, we can walk on Row 2: (15, 2), (14, 2), (13, 2), (12, 2), (11, 2), (10, 2), (9, 2), (8, 2), (7, 2).
+    - Let's check (15, 3) -> (15, 2) is open (TYPE_2770).
+    - Rows 0, 1, 2 on Columns 7-16 are passable ground (TYPE_2770).
+    - Let's verify our immediate step Up to (15, 2).
 
 <hr>
 
