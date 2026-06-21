@@ -26,3 +26,7 @@
     3. Once on 2F West at (3, 11) (the southern half), we will walk to Row 7/8 and systematically test the passability of Columns 1, 2, 4, 5, 6, 7, and 8 on Row 8 on foot!
     4. If any column on Row 8 is open (for example, Column 6 Row 8), we can walk directly between the southwest ladder and the northwest ladder on foot! This is a critical topological connection to test.
     5. If all are blocked, we will proceed with the fallback route to B1F.
+- Turn 115295: Tested passability of Column 8 Row 1 (8, 1) on 2F West on foot. Standing at (9, 1), pressed Left. Result: Successfully walked Left onto (8, 1)! This physically proves that Column 8 Row 1 is completely open and passable!
+- This disproves our previous unverified assumption that the upper-central corridor (Columns 9-14, Rows 1-5) is completely isolated from the western/northern section (Columns 1-8, Rows 1-5).
+- We are currently standing at (8, 1) facing Left.
+- We will systematically walk Left along Row 1 to find how far it extends and verify if we can reach (1, 3) directly on foot!
