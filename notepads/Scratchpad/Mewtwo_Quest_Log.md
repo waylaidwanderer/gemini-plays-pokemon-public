@@ -59,15 +59,15 @@
 - Current position: (9, 16) facing Down.
 - Objective: Navigate back to (3, 11) on 2F West.
 - Plan: Use the verified corridor path via Row 16 and Row 17, and then the southwest corridor to reach Southwest Ladder 6.
-- Step-by-Step Path:
-  - (9, 16) -> Left x3 to (6, 16)
-  - (6, 16) -> Down to (6, 17)
-  - (6, 17) -> Left x5 to (1, 17)
-  - (1, 17) -> Up x2 to (1, 15)
-  - (1, 15) -> Right to (2, 15)
-  - (2, 15) -> Up x2 to (2, 13)
-  - (2, 13) -> Left to (1, 13)
-  - (1, 13) -> Right x2 to (3, 13)
-  - (3, 13) -> Up x2 to (3, 11) (ladder)
+- Step-by-Step Path from (2, 13) to (3, 11):
+  - (2, 13) -> Down x2 to (2, 15)
+  - (2, 15) -> Left to (1, 15)
+  - (1, 15) -> Down x2 to (1, 17)
+  - (1, 17) -> Right x5 to (6, 17)
+  - (6, 17) -> Up to (6, 16)
+  - (6, 16) -> Right x3 to (9, 16)
+  - (9, 16) -> Up x7 to (9, 9)
+  - (9, 9) -> Left x6 to (3, 9)
+  - (3, 9) -> Down x2 to (3, 11) (ladder)
 - We will execute this in safe chunks.
 - Chunk 1: ['Left', 'Left', 'Left', 'Down'] to reach (6, 17).
