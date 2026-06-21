@@ -18,8 +18,6 @@
 - Turn 112818: Preparing to test Row 5 Column 13 blockage. We navigated next to Column 13 at (14, 5).
   - **New Discovery**: Rows 6 and 7 on Column 13 are completely open, passable water (TYPE_4e8c)!
   - **New Plan**: Surf Down 1 step to (14, 6) and then Left along Row 6 to reach the western canal at Column 10. This allows us to bypass the rock wall on Rows 4-5. We will test Column 13 Rows 4 and 5 later.
-- Turn 112871: Successfully navigated through Ladder 5 at (7, 1) on 1F, arriving on 2F West at (9, 1) on foot! 
-  - **New Plan**: Walk Left 8 steps to Column 1 and Down 2 steps to Ladder 6 at (1, 3). Then descend Ladder 6 to reach the isolated northwest quadrant of 1F containing the stairs to B1F!
 
 ## 50-Turn Reflection & Self-Assessment (Turn 112916)
 - **Immediate Execution**: I have returned to 1F and mounted the water at (15, 4) using Surf. We are currently surfing on the water canal.
