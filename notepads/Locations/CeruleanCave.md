@@ -16,6 +16,8 @@
   - Turn 113095: Stood at (8, 15) on water and pressed Down to test (8, 16) passability. Result: BUMPED, remaining at (8, 15). Physically proves (8, 16) is a solid, impassable wall.
   - Turn 113098: Stood at (9, 15) on water and pressed Down to test (9, 16) passability. Result: BUMPED, remaining at (9, 15). Physically proves (9, 16) is a solid, impassable wall.
   - Turn 113107: Stood at (10, 15) on water and pressed Down to test (10, 16) passability. Result: BUMPED, remaining at (10, 15). Physically proves (10, 16) is a solid, impassable wall.
+  - Turn 113109: Stood at (11, 15) on water and pressed Down to test (11, 16) passability. Result: BUMPED, remaining at (11, 15). Physically proves (11, 16) is a solid, impassable wall.
+  - Conclusion: The entire southern boundary of the western canal on Rows 16-17 across Columns 8-11 is a solid, continuous rock wall of TYPE_2889, confirming the canal is indeed a dead end going south. Any horizontal or vertical passage to Row 17 on foot or surfing here is completely impossible.
 - **Northern Landmass Layout (Row 0-2 ground-level shortcut)**:
   - Rows 0, 1, and 2 form an unblocked, completely walkable ground-level connection on foot from Column 23 (Water Ramp 1) all the way east to Column 28 (Ladder 2 landing at 27,1). There is NO solid rock barrier on Column 26 on 1F, allowing the player to bypass the 2F serpentine path entirely when navigating from the western water canal to the northeast section of 1F. Verified on Turns 112008-112012.
 - **Visual Artifact Note**: Red flower tiles (TYPE_3fe2) (such as at 19, 3) visually resemble red-and-white Poké Balls in the Crystal palette swap but are passable ground tiles with no physical items.
