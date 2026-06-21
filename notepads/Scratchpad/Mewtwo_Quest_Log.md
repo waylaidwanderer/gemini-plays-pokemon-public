@@ -26,3 +26,9 @@
     2. From (12, 11), press Right to attempt to step onto (13, 11).
     3. Verify if we collide (bump), physically proving (13, 11) is indeed an impassable rock wall blockage.
 - Turn 113211: Confirmed (13, 11) is indeed an impassable rock wall on 2F West. We will now head east along the open Row 9 corridor to explore Column 20 and beyond.
+- Turn 113218: Standing at (20, 9) on 2F West. We plan to test the passability of (22, 9) (currently labeled TYPE_2889) to see if we can crossover horizontally from Column 21 to Column 23.
+  - **Hypothesis**: (22, 9) is passable, allowing on-foot horizontal crossover from our pocket to Column 23. Once on Column 23, we can walk north to Row 7, which is a wide open horizontal passage leading all the way to the northwest ladder at (1, 3).
+  - **Test Plan**:
+    1. Walk Right 1 step to (21, 9) [TYPE_3fe2].
+    2. From (21, 9), press Right to attempt to step onto (22, 9).
+    3. Verify if we move to (22, 9) or if we collide (bump), proving or disproving the blockage.
