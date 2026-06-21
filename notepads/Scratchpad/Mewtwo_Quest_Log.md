@@ -77,3 +77,4 @@
   4. Walk Up to (1, 13) to reach the wooden staircase.
   5. Ascend the wooden staircase to (1, 12) on the elevated southwest plateau.
   6. Walk to Southwest Ladder 6 at (3, 11) and ascend.
+- Turn 114902: Arrived at (1, 12) on the southwest elevated plateau. Preparing to walk to Southwest Ladder 6 at (3, 11) and ascend to 2F West.
