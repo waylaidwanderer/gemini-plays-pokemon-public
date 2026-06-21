@@ -8288,6 +8288,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   5. Walk to Southwest ground level and climb Southwest Ladder 6 at (3, 11).
 - Turn 114178: Backtracked to 1F at (7, 1) via Ladder 5. Currently at (15, 1).
 - Unverified Hypothesis: We need to test if we can walk Left on Row 1 or Row 2 of the 1F Northwest landmass to see if it connects directly on foot to (1, 3).
+- Turn 114188: Standing at (10, 1) on 1F, walked Left 9 steps. Stepping Left onto (7, 1) immediately triggered the Ladder 5 ascent warp, landing us back at (9, 1) on 2F West. This proves Row 1 cannot be used to walk past Column 7 to the west, because (7, 1) is the warp tile.
+- Current Test Plan: We must go back down to 1F and test Row 2 passability to the west (Left) past Column 7 to see if (7, 2) is passable and leads all the way to Column 1. This is the crucial test to see if 1F Northwest connects directly on foot to (1, 3).
 
 <hr>
 
