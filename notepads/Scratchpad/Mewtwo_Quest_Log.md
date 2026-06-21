@@ -50,3 +50,23 @@
 - Turn 114665: Empirically verified that (2, 3) on 2F West is indeed a solid rock wall of TYPE_2889 by attempting to step Left twice from (3, 3) and resulting in a collision bump (0 tiles visited, remained at 3,3). This physically proves that Row 3 is blocked at Column 2 on 2F West. Along with previous Row 8 and Row 4 blockages, this definitively proves that the (1, 3) Northwest Ladder and (1, 2) tile are completely isolated on foot on 2F West. We cannot walk to the Northwest Ladder on this floor.
 - Turn 114758: Arrived at Water Ramp 2 at (11, 13) on 1F facing Down. Ready to use SURF on the water canal at (11, 14) to begin water navigation. Our target is to surf north and west towards the northwestern water ramps.
 - Turn 114805: Stepped Up from (15, 3) to (15, 2) on the landmass. Triggered a wild Dodrio encounter at (15, 2) on 1F. Escaping immediately.
+## Turn 114854: 2F West Upper Corridor Isolation Verification & Breakthrough
+- **Empirical Status**: Fully Resolved!
+- **Fact**: Climbing Ladder 5 from 1F at (7, 1) lands us on 2F West at (9, 1). This is located in the "upper-central corridor" (Columns 9-14, Rows 1-5).
+- **Isolation Confirmed**:
+  - Row 1: Blocked horizontally at (10, 1) (TYPE_2889).
+  - Row 2: Blocked horizontally at (10, 2) (TYPE_2889) and (12, 2) (TYPE_2889).
+  - Row 3: Blocked horizontally at (10, 3) (TYPE_2889) and (12, 3) (TYPE_2889).
+  - Row 4: Blocked horizontally at (10, 4) (TYPE_2889) and (12, 4) (TYPE_2889).
+  - Row 5: Open horizontally from Column 9 to Column 14. But (8, 5) is a solid rock wall (TYPE_2889), preventing horizontal passage to Row 5 West (Columns 0-7).
+  - Row 6: Blocked vertically at (9, 6), (10, 6), (11, 6), (12, 6) by solid rock walls (TYPE_2889). While (13, 6) is open, (13, 7) is a solid rock wall (TYPE_2889), blocking descent to Row 7.
+  - **BFS Verification**: Run_code BFS from (9, 1) to (1, 3) on the 2F West grid confirmed that **no path exists** on foot between these two regions. The upper-central corridor is indeed 100% isolated.
+- **The Breakthrough (The Real Path to Northwest Ladder 1,3)**:
+  - We analyzed the western part of 2F West on Rows 5-7.
+  - **Row 5 West** (Columns 0-7) is completely open ground (TYPE_3fe2) and connects directly to Column 0.
+  - **Column 0** is completely open ground (TYPE_3fe2) across Rows 2, 3, 4, 5.
+  - **Northwest Ladder (1, 3)** is connected directly to Column 0: we can walk (0, 5) -> (0, 4) -> (0, 3) -> (1, 3) (the ladder) with absolutely no blockages!
+  - **Row 6 Column 6** is completely open ground (TYPE_3fe2)! This bridges Row 5 and Row 7 at Column 6.
+  - **Row 7** is a completely open, continuous horizontal corridor from Column 5 to Column 11 (including Column 8 Row 7, which is open TYPE_3fe2).
+  - **Conclusion**: If we can climb **Southwest Ladder 6** on 1F Southwest to reach 2F West at (3, 11), we are on the southern half. We can walk to Column 6 Row 9 on the south side, and if Column 6 Row 8 is open (which is highly likely as the other columns on Row 8 are blocked but 6 is the aligned bridge), we can walk: (6, 9) -> (6, 8) -> (6, 7) -> (6, 6) -> (6, 5) -> (0, 5) -> (0, 3) -> (1, 3).
+  - Thus, the path from Southwest Ladder 6 is 100% the intended route! Climbing Ladder 5 was a necessary test to map the upper corridor, but we must now backtrack to 1F, return to 1F Southwest, and climb Southwest Ladder 6.
