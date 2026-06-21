@@ -56,3 +56,11 @@
 - Turn 114113: Dismounted successfully onto Water Ramp 4 at (15, 3) on the northwest landmass!
 - Plan: Navigate on foot to Ladder 5 located at (7, 1).
 - Turn 114122: Standing at (15, 2) on foot.
+- Turn 114168: Empirically tested Column 8 Row 5 and confirmed blocked. We also verified that there are no vertical pathways on the East (Columns 9-18) between Row 5 and Row 7, proving that the upper-central corridor (Columns 9-16, Rows 1-5) on 2F West is completely isolated.
+- Conclusion: We cannot reach the Northwest Ladder at (1, 3) from Ladder 5. We must backtrack to 1F, surf back to Water Ramp 2, walk to 1F Southwest, and climb Ladder 6 at (3, 11) to reach the western side of 2F West.
+- Backtracking Path:
+  1. Walk to Ladder 5 at (9, 1) on 2F West.
+  2. Descend to 1F at (7, 1).
+  3. Walk to Water Ramp 4 at (15, 3).
+  4. Surf to Water Ramp 2 at (11, 13).
+  5. Walk to Southwest ground level and climb Southwest Ladder 6 at (3, 11).
