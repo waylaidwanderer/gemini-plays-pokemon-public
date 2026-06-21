@@ -8277,6 +8277,22 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - This creates an airtight pocket at (1, 7), (2, 7), (3, 7) that is bounded on all sides by rock walls, except for the entrance at (1, 8).
 - This definitively proves that there is NO on-foot path from Southwest Ladder 6 at (3, 11) to the Northwest Ladder at (1, 3) on 2F West!
 - Since 2F West is completely blocked from reaching (1, 3) on foot from the south, we must find another way.
+## Returning to Southwest Ladder 6 (Turn 115824)
+- Current position: (9, 16) facing Down.
+- Objective: Navigate back to (3, 11) on 2F West.
+- Plan: Use the verified corridor path via Row 16 and Row 17, and then the southwest corridor to reach Southwest Ladder 6.
+- Step-by-Step Path:
+  - (9, 16) -> Left x3 to (6, 16)
+  - (6, 16) -> Down to (6, 17)
+  - (6, 17) -> Left x5 to (1, 17)
+  - (1, 17) -> Up x2 to (1, 15)
+  - (1, 15) -> Right to (2, 15)
+  - (2, 15) -> Up x2 to (2, 13)
+  - (2, 13) -> Left to (1, 13)
+  - (1, 13) -> Right x2 to (3, 13)
+  - (3, 13) -> Up x2 to (3, 11) (ladder)
+- We will execute this in safe chunks.
+- Chunk 1: ['Left', 'Left', 'Left', 'Down'] to reach (6, 17).
 
 <hr>
 
