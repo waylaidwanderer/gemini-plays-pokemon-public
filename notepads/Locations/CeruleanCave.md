@@ -84,7 +84,7 @@
   - **Column 10 Row 8 (Verified Turn 113955)**: Stood at (10, 9) facing Up, pressed Up. Result: Collision bump.
   - **Column 11 Row 8 (Verified Turn 113960)**: Stood at (11, 9) facing Up, pressed Up. Result: Collision bump.
   - **Column 12 Row 8 (Verified Turn 113964)**: Stood at (12, 9) facing Up, pressed Up. Result: Collision bump.
-- **2F West Upper-Central Corridor Isolation Empirical Verification**:
+- **2F West Upper-Central Corridor Isolation - UNVERIFIED HYPOTHESIS**:
   - **Column 2 Row 1-3 Blockage**: Verified on Turns 115002-115011 that Column 2 is a solid rock wall (TYPE_2889) across Rows 1-3, blocking direct horizontal crossover from (3, 1), (3, 2), and (3, 3) on the west side.
   - **Column 4 Row 4 Blockage**: Verified on Turn 115017 that standing at (4, 3) and attempting to walk Down results in a collision bump, proving (4, 4) is a solid rock wall of TYPE_2889.
   - **Column 5 Row 4 Blockage**: Verified on Turn 115032 that standing at (5, 3) and attempting to walk Down results in a collision bump, proving (5, 4) is a solid rock wall of TYPE_2889.
@@ -93,7 +93,7 @@
   - **Column 3 Row 4 Blockage**: Empirically tested on Turn 113495. Standing at (3, 3) facing Down, we pressed Down. Result: Collision with zero coordinate change, remaining at (3, 3). This physically proves that (3, 4) is a solid, impassable wall.
   - **Column 8 Row 5 Blockage**: Empirically tested on Turn 113499. Standing at (9, 5) facing Left, we pressed Left. Result: Collision with zero coordinate change, remaining at (9, 5). This physically proves that (8, 5) is a solid, impassable wall.
   - **Column 9 Row 6 Blockage**: Empirically tested on Turn 113503. Standing at (9, 5) facing Down, we pressed Down. Result: Collision with zero coordinate change, remaining at (9, 5). This physically proves that (9, 6) is a solid, impassable wall.
-  - **Conclusion**: These rigorous empirical tests mathematically and physically prove that the upper-central corridor of 2F West (Columns 9-14, Rows 1-5) is completely and permanently isolated on foot from the western/southern sections of 2F West. There is no on-foot path between them. Climbing Ladder 5 at (7, 1) on 1F lands us in this closed pocket. Thus, to reach the Northwest Ladder at (1, 3) on 2F West, we must find a different entryway or transition.
+  - **Unverified Hypothesis**: The upper-central corridor of 2F West is hypothesized to be isolated, but this remains unproven because Column 8 Row 4, Column 2 Row 4, Column 1 Row 4, Column 2 Row 5, and Column 1 Row 5 have NOT been physically tested on foot yet. We must maintain scientific discipline and treat this as an unverified hypothesis until exhaustive foot-testing is complete.
 - Turn 112959: Tested passability of (25, 12) from (25, 11) by pressing Down. Result: Bumped against (25, 12) (TYPE_2889), player remained at (25, 11). This empirically proves that (25, 12) is completely impassable.
 - Turn 112961: Tested passability of (24, 12) from (24, 11) by pressing Down. Result: Bumped against (24, 12) (TYPE_2889), player remained at (24, 11). This empirically proves that (24, 12) is completely impassable.
 - Conclusion (Turn 112964): Both (24, 12) and (25, 12) are completely solid rock walls. This definitively proves that the eastern vertical water canal is a closed pocket terminating at Row 11, and does not continue further south to connect with any southern water corridor. Backtracking west is the only mathematically possible option.
