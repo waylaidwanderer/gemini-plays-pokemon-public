@@ -8350,6 +8350,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Column 1 Row 11 Blockage (Verified Turn 115431)**: Standing at (2, 11) facing Left, pressed Left. Result: BUMP collision, player remained at (2, 11). Physically proves that (1, 11) is a solid, impassable wall of TYPE_2889 on 2F West.
 - **Column 1 Row 10 Blockage (Verified Turn 115435-115436)**: Standing at (2, 10) facing Left, pressed Left. Result: BUMP collision, player remained at (2, 10). Physically proves that (1, 10) is a solid, impassable wall of TYPE_2889 on 2F West.
 - **Column 2 Row 12 Blockage (Verified Turn 115454)**: Standing at (2, 11) facing Down, pressed Down. Result: BUMP collision, player remained at (2, 11). Physically proves that (2, 12) is a solid, impassable wall of TYPE_2889 on 2F West.
+- **Column 4 Row 1 Blockage (Verified Turn 115518)**: Standing at (5, 1) facing Left, pressed Left. Result: BUMP collision, player remained at (5, 1). Physically proves that Column 4 Row 1 (4, 1) is a solid, impassable rock wall of TYPE_2889 on 1F Northwest. This empirically disproves the 1F Northwest on-foot shortcut hypothesis.
 
 <hr>
 
