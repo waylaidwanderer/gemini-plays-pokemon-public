@@ -78,3 +78,5 @@
 - Milestone: Backtracked from Water Ramp 4 at (15, 3) onto the water, reached (10, 6).
 - Turn 114266: Standing at (15, 17) on foot on the ground floor. Commencing 13-step westward walk along Row 17 to reach (2, 17).
   - Verification: Player is on foot on (15, 17) (TYPE_3fe2). Row 17 is completely open to the west.
+- Turn 114312: Confirmed player position is at (3, 11) on 2F West (Map 0_226). We verified that Row 8 forms a continuous solid rock wall across Columns 2 to 8, which isolates the southern half of 2F West (containing the (3, 11) ladder) from the northern half. Furthermore, Row 12 is completely blocked from Column 2 to Column 8 by solid rock walls of TYPE_2889, preventing on-foot access to the southern portion (Rows 13-15) where the Poké Ball item resides at (4, 15) from our current starting component.
+- Conclusion: We must backtrack to 1F Southwest to reach our primary goal. We will descend Southwest Ladder 6 at (3, 11).
