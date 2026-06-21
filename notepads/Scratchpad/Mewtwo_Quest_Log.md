@@ -44,3 +44,4 @@
 - Turn 114043: Standing at (15, 14) facing Down. Stepping Up 1 step to (15, 13) on the central platform.
 - Turn 114048: Standing at (15, 13) facing Up. Stepping Up 1 step to (15, 12) on the central platform.
 - Turn 114050: Standing at (15, 12) facing Up. Stepping Left 1 step to (14, 12).
+- Turn 114057: Triggered a wild Level 46 Magneton encounter at (14, 12) on the central platform. Escaping immediately.
