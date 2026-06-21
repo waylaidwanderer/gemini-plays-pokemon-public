@@ -8282,6 +8282,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Ladder (21, 11)**: Labeled TYPE_4b8d. One-way dropdown ladder; cannot be used to ascend from 1F.
 - **Ladder (23, 7)**: Labeled TYPE_3fe2. Interacting with or stepping onto this tile immediately warps the player to 2F at (22, 6).
 - **Ladder (22, 6) [2F]**: Connects back down to 1F at (23, 7).
+- **Staircase at (17, 15)**: Labeled TYPE_4b8d. Connects the central platform to the ground floor at (17, 16) (Verified Turn 113127).
+- **Wooden Staircase at (1, 13)**: Labeled TYPE_4b8d. Connects the southwestern ground level to the elevated southwest plateau at (1, 12) (Verified Turn 113146).
 - **Ramps to Water**:
   - Located at (23, 3), (15, 3), (11, 13), and (25, 9) (TYPE_4b8d).
   - Standing on any of these ramps facing the water and selecting SURF from the party menu successfully mounts the water.
