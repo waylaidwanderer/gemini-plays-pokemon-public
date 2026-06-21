@@ -8335,7 +8335,9 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Visual check suggests some columns might be open or passable. If any of these are open, we can walk from Ladder 6 at (3, 11) directly to the Northwest Ladder at (1, 3) on foot, completely solving the cave's topology!
 - Plan: Climb Ladder 6 to 2F West at (3, 11), and systematically test the passability of Columns 1, 2, 4, 5, 6, 7, and 8 on Row 8 on foot. We will log every test with exact turn numbers and results.
 - **2F West Upper-Central Corridor Isolation Empirical Verification**:
-  - **Column 2 Row 0-4 Blockage**: Hypothesized to be blocked across Rows 0-4, but untested on foot on 2F West.
+  - **Column 2 Row 1-3 Blockage**: Verified on Turns 115002-115011 that Column 2 is a solid rock wall (TYPE_2889) across Rows 1-3, blocking direct horizontal crossover from (3, 1), (3, 2), and (3, 3) on the west side.
+  - **Column 4 Row 4 Blockage**: Verified on Turn 115017 that standing at (4, 3) and attempting to walk Down results in a collision bump, proving (4, 4) is a solid rock wall of TYPE_2889.
+  - **Column 2 Row 0-4 Blockage**: Hypothesized to be blocked across Rows 0-4, but untested on foot on 2F West for (2, 0) and (2, 4).
   - **Column 3 Row 4 Blockage**: Empirically tested on Turn 113495. Standing at (3, 3) facing Down, we pressed Down. Result: Collision with zero coordinate change, remaining at (3, 3). This physically proves that (3, 4) is a solid, impassable wall.
   - **Column 8 Row 5 Blockage**: Empirically tested on Turn 113499. Standing at (9, 5) facing Left, we pressed Left. Result: Collision with zero coordinate change, remaining at (9, 5). This physically proves that (8, 5) is a solid, impassable wall.
   - **Column 9 Row 6 Blockage**: Empirically tested on Turn 113503. Standing at (9, 5) facing Down, we pressed Down. Result: Collision with zero coordinate change, remaining at (9, 5). This physically proves that (9, 6) is a solid, impassable wall.
