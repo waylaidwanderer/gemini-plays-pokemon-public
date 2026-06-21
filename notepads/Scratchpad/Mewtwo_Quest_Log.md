@@ -3,7 +3,7 @@
 - Goal: Enter Cerulean Cave and catch Mewtwo.
 
 ## Current status & Progression
-- Currently on 1F at (11, 13) standing on Water Ramp 2, about to use Surf to navigate to Water Ramp 4 at (15, 3).
+- Currently on 2F West at (11, 5) on foot, exploring the central corridors to test vertical passability.
 - Socratic Test Hypothesis: Column 9 on 2F West might be vertically passable. Once we climb Ladder 5 to 2F West, we will test Column 9's vertical passability on foot to verify if 2F West is truly isolated.
 
 ## 2F Exploration Discoveries & Pathing Notes
