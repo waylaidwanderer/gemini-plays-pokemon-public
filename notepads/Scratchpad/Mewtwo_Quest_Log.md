@@ -78,3 +78,6 @@
 - Turn 114234: Executing first chunk of the backtracking path. We are at (15, 4) surfing.
   Path: Left to (14, 4), Down to (14, 5), Down to (14, 6).
   Input sequence: ['Left', 'Down', 'Down']
+- Turn 114238: Executing second chunk of the backtracking path. We are at (14, 6) surfing.
+  Path: Left 4 steps to (10, 6) on the water canal.
+  Input sequence: ['Left', 'Left', 'Left', 'Left']
