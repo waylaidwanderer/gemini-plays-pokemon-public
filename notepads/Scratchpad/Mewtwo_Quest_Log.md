@@ -3,7 +3,7 @@
 - Goal: Enter Cerulean Cave and catch Mewtwo.
 
 ## Current Status & Progression
-- Currently standing on 2F West at (2, 11) on foot.
+- Currently standing on 1F at (6, 16) on foot.
 
 ## Active Hypothesis on 2F West Topology
 - Hypothesized Blockages on 2F West:
@@ -11,13 +11,12 @@
   - Column 1 Row 11 (1, 11) is physically verified blocked on foot (Turn 115431).
   - Column 1 Row 10 (1, 10) is physically verified blocked on foot (Turn 115435-115436).
   - Column 2 Row 12 (2, 12) is physically verified blocked on foot (Turn 115454: standing at (2, 11), pressed Down, bumped, remained at (2, 11)).
-  - Column 1 Row 12 (1, 12) is active, unverified hypothesis.
-  - Column 2 Row 0 and Column 2 Row 4 are untested on foot. (Column 2 Rows 1-3 are verified blocked on foot).
 
 ## Master Routing Plan
-- We are currently on 2F West on-foot testing pathway.
+- We are currently on 1F backtracking to test 1F landmass connectivity!
 - Next Steps:
-  1. From our current position (2, 11), we have completed testing (2, 12) and found it impassable.
-  2. Since (2, 12) is impassable, the southwest pocket (1, 12), (2, 13), etc. is completely sealed on foot from this area.
-  3. We will now head back down Southwest Ladder 6 at (3, 11) to return to 1F, so we can resume our master backtracking to reach the Northwest Ladder at (1, 3).
-  4. Document all results with exact turns and outcomes.
+  1. Walk east along Row 17 to (11, 17), then navigate to Water Ramp 2 at (11, 13).
+  2. Use SURF at (11, 13), swim to Water Ramp 4 at (15, 3) and dismount on foot.
+  3. Walk on foot to (7, 1) (Ladder 5).
+  4. Physically test walking Left and Down from (7, 1) on 1F to see if it is connected on foot to the Northwest Ladder (1, 3).
+  5. Document all results with exact turns and outcomes.
