@@ -56,24 +56,20 @@
 - This definitively proves that there is NO on-foot path from Southwest Ladder 6 at (3, 11) to the Northwest Ladder at (1, 3) on 2F West!
 - Since 2F West is completely blocked from reaching (1, 3) on foot from the south, we must find another way.
 ## Returning to Southwest Ladder 6 (Turn 115824)
-- Current position: (9, 16) facing Down.
+- Current position: (8, 14) facing Down.
 - Objective: Navigate back to (3, 11) on 2F West.
-- Plan: Use the verified corridor path via Row 16 and Row 17, and then the southwest corridor to reach Southwest Ladder 6.
-- Step-by-Step Path from (2, 13) to (3, 11):
-  - (2, 13) -> Down x2 to (2, 15)
-  - (2, 15) -> Left to (1, 15)
-  - (1, 15) -> Down x2 to (1, 17)
-  - (1, 17) -> Right x5 to (6, 17)
-  - (6, 17) -> Up to (6, 16)
-  - (6, 16) -> Right x3 to (9, 16)
-  - (9, 16) -> Up x7 to (9, 9)
-  - (9, 9) -> Left x6 to (3, 9)
-  - (3, 9) -> Down x2 to (3, 11) (ladder)
-- We will execute this in safe chunks.
-- Chunk 1: ['Left', 'Left', 'Left', 'Down'] to reach (6, 17).
-- Turn 115926: Reached (1, 15). Backtracking along the southwest corridors on 2F West to reach Southwest Ladder 6 at (3, 11). Walking to (6, 17) first.
-- Turn 115995: Safely arrived back at (9, 16) facing Down. Verified the local grid and confirmed that Column 9 Row 15 is indeed solid (TYPE_2889), and Row 16 has a blockage at (12, 16) of TYPE_2889. The path from (13, 17) back to (9, 16) was successfully navigated via: (13, 17) -> (12, 17) -> (11, 17) -> (11, 16) -> (10, 16) -> (9, 16).
-- Next Plan: Navigate from (1, 17) back to (9, 16), then up to (9, 9), left to (3, 9), and down to Southwest Ladder 6 at (3, 11).
-  - Verified Constraint: We verified on Turn 116019 that Column 3 Row 13 (3, 13) is a solid rock wall (TYPE_2889) on 2F West, which blocks direct access to (3, 11) from the south on foot via Column 2. Thus, the southwest corridor is a dead end and we must backtrack all the way.
-  - Step-by-Step Path: (1, 17) -> Right x5 to (6, 17) -> Up to (6, 16) -> Right x3 to (9, 16) -> Up x7 to (9, 9) -> Left x6 to (3, 9) -> Down x2 to (3, 11).
-  - Executing first chunk of path: ['Right', 'Right', 'Right', 'Right', 'Right', 'Up', 'Right'] to reach (7, 16).
+- Plan: Backtrack eastwards out of the dead-end pockets, looping around to (9, 16). Then walk west along Row 16 & Row 17 to (1, 17), then north through Column 1 to (1, 15), and around to (1, 13) to climb Southwest Ladder 6 at (3, 11).
+- Corrected Step-by-Step Path:
+  - (8, 14) -> Right x2 to (10, 14)
+  - (10, 14) -> Down x2 to (10, 16)
+  - (10, 16) -> Left to (9, 16)
+  - (9, 16) -> Left x3 to (6, 16)
+  - (6, 16) -> Down to (6, 17)
+  - (6, 17) -> Left x5 to (1, 17)
+  - (1, 17) -> Up x2 to (1, 15)
+  - (1, 15) -> Right to (2, 15)
+  - (2, 15) -> Up x2 to (2, 13)
+  - (2, 13) -> Left to (1, 13)
+  - (1, 13) -> Up to (1, 12)
+  - (1, 12) -> Left to (0, 12) -> Up to (0, 11) (blocked! Wait, let's test if there's any pathway at 1, 13 to 3, 11).
+  - Wait, let's execute the path to (9, 16) first in safe chunks.
