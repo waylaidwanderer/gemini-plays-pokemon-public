@@ -8270,6 +8270,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   2. The southwestern pocket is indeed split into multiple isolated sub-segments.
   3. Therefore, there is NO passable on-foot pathway on 2F West to reach the northern half of the map from Southwest Ladder 6. Our previous backtracking conclusion remains 100% correct. We must descend Southwest Ladder 6 back to 1F Southwest, walk east along Row 17 on the ground floor, ascend the central platform stairs to (17, 14), navigate to Water Ramp 2 at (11, 13), and SURF to the northwest landmass to find the Northwest Ladder.
 - Turn 114665: Empirically verified that (2, 3) on 2F West is indeed a solid rock wall of TYPE_2889 by attempting to step Left twice from (3, 3) and resulting in a collision bump (0 tiles visited, remained at 3,3). This physically proves that Row 3 is blocked at Column 2 on 2F West. Along with previous Row 8 and Row 4 blockages, this definitively proves that the (1, 3) Northwest Ladder and (1, 2) tile are completely isolated on foot on 2F West. We cannot walk to the Northwest Ladder on this floor.
+- Turn 114758: Arrived at Water Ramp 2 at (11, 13) on 1F facing Down. Ready to use SURF on the water canal at (11, 14) to begin water navigation. Our target is to surf north and west towards the northwestern water ramps.
 
 <hr>
 
