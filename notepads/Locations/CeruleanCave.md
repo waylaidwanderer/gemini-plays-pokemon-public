@@ -1,4 +1,5 @@
 # Cerulean Cave - Verified Records
+- Quest Started: Turn 111394
 - Map ID: 0_228 (1F), 0_226 (2F)
 
 ## 1F (0_228) Verified Layout:

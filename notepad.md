@@ -8324,6 +8324,7 @@ We can use `search_notepads` tool! Let's search for "1, 3". (But wait, `search_n
 <h1><code>Locations/CeruleanCave</code></h1>
 
 # Cerulean Cave - Verified Records
+- Quest Started: Turn 111394
 - Map ID: 0_228 (1F), 0_226 (2F)
 
 ## 1F (0_228) Verified Layout:
