@@ -3,7 +3,7 @@
 - Goal: Enter Cerulean Cave and catch Mewtwo.
 
 ## Current Status & Progression
-- Currently standing on Cerulean Cave 2F West at (14, 5) backtracking to Ladder 5 at (9, 1) to descend to 1F and transition to Southwest Ladder 6. We will test Columns 10, 11, 12, and 14 across Row 8 on foot from the south.
+- Currently surfing on Cerulean Cave 1F at (9, 13) preparing to dismount on foot onto flat land at (7, 13) to reach the Southwest Ladder. We will test Columns 10, 11, 12, and 14 across Row 8 on foot from the south.
 
 ## 2F Exploration Discoveries & Pathing Notes
 - Socratic Test Hypothesis: Column 9 and Column 13 on 2F West might be vertically passable. Once we climbed Ladder 5 to 2F West, we tested their vertical passability on foot.
