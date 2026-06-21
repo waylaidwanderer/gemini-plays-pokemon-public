@@ -8317,9 +8317,15 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Ladder 5**:
   - Located on 1F at (7, 1) (labeled TYPE_3fe2). Ascending this ladder warps the player to 2F at (6, 1). This is located in the northwest isolated quadrant of 1F.
 
-- **Ladder 6**:
+- **Ladder 6 (Southwest Ladder)**:
+  - Located on 1F at (3, 11) (labeled TYPE_3fe2, marked with 🪜 map marker). Climbing this ladder warps the player to 2F West at (3, 11).
+  - Located on 2F West at (3, 11). Descending this ladder warps the player to 1F Southwest at (3, 11).
+- **Northwest Ladder (B1F Access)**:
   - Located on 1F at (1, 3) (labeled TYPE_3fe2). Ascending this ladder warps the player to 2F at (1, 3).
   - Located on 2F at (1, 3) (labeled [=], TYPE_3fe2). Descending this ladder warps the player to 1F at (1, 3). This is the critical gateway to the northwest isolated quadrant of 1F and the B1F stairs.
+- **Wooden Staircase at (1, 13) on 1F**: Labeled TYPE_4b8d. Connects the southwestern ground level to the elevated plateau of TYPE_2770 at (1, 12).
+- **Elevated Southwest Plateau on 1F**: Bounded at Rows 11 and 12, Columns 1 to 6 (TYPE_2770). Walkable on foot, connecting the staircase at (1, 13) to the southwest ladder at (3, 11).
+- **(22, 9) Rock Wall Blockage [2F West] (Verified Turn 113224)**: Physically tested on foot by standing at (21, 9) and pressing Right. Result was a direct collision with zero coordinate change, proving that (22, 9) is a solid impassable rock wall of TYPE_2889. This definitively blocks horizontal crossover between Column 21 and Column 23 on Row 9, meaning the southwestern/central pocket (Columns 11-21, Rows 8-13) of 2F West is completely isolated from the main northern corridors of 2F West.
 - Turn 112893: Verified on 2F West that Column 2 is a solid rock wall (TYPE_2889) across Rows 0-4. This blocks horizontal on-foot crossover between Column 3 and Column 1 on the upper half of the map. Proved during systematic movement attempts from (3,3).
 - Turn 112893: Verified that Column 8 is blocked by an impassable rock wall (TYPE_2889) at (8, 5), and that Row 6 is blocked by rock walls across Columns 9-12 (TYPE_2889). Therefore, the upper-central corridor (Columns 9-14, Rows 1-5) of 2F West is physically isolated on foot from Row 7 (which contains the open path to the northwest ladder). Climbing up from 1F at Ladder 5 (7,1) leads to this isolated pocket. We must descend Ladder 5, return to 1F, and find another way.
 - Turn 112959: Tested passability of (25, 12) from (25, 11) by pressing Down. Result: Bumped against (25, 12) (TYPE_2889), player remained at (25, 11). This empirically proves that (25, 12) is completely impassable.
