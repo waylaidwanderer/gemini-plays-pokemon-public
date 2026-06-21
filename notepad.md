@@ -8264,6 +8264,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 114036: Standing at (16, 14) facing Left. Stepping Left 1 step to (15, 14).
 - Turn 114039: Triggered a wild Level 49 Venomoth encounter at (15, 14) on the central platform. Escaping immediately.
 - Turn 114043: Standing at (15, 14) facing Down. Stepping Up 1 step to (15, 13) on the central platform.
+- Turn 114048: Standing at (15, 13) facing Up. Stepping Up 1 step to (15, 12) on the central platform.
 
 <hr>
 
