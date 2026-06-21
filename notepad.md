@@ -8332,12 +8332,17 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Wooden Staircase at (1, 13) on 1F**: Labeled TYPE_4b8d. Connects the southwestern ground level to the elevated plateau of TYPE_2770 at (1, 12).
 - **Elevated Southwest Plateau on 1F**: Bounded at Rows 11 and 12, Columns 1 to 6 (TYPE_2770). Walkable on foot, connecting the staircase at (1, 13) to the southwest ladder at (3, 11).
 - **(22, 9) Rock Wall Blockage [2F West] (Verified Turn 113224)**: Physically tested on foot by standing at (21, 9) and pressing Right. Result was a direct collision with zero coordinate change, proving that (22, 9) is a solid impassable rock wall of TYPE_2889. This definitively blocks horizontal crossover between Column 21 and Column 23 on Row 9, meaning the southwestern/central pocket (Columns 11-21, Rows 8-13) of 2F West is completely isolated from the main northern corridors of 2F West.
-- **(9, 8), (10, 8), (11, 8), (12, 8), and (3, 8) Rock Wall Blockages [2F West]**:
+- **Row 8 Rock Wall Blockages [2F West]**:
+  - **Column 3 Row 8 (Verified Turn 113985)**: Stood at (3, 9) facing Up, pressed Up. Result: Collision bump.
+  - **Column 4 Row 8 (Verified Turn 115147)**: Stood at (4, 9) facing Up, pressed Up. Result: Collision bump.
+  - **Column 5 Row 8 (Verified Turn 115151)**: Stood at (5, 9) facing Up, pressed Up. Result: Collision bump.
+  - **Column 6 Row 8 (Verified Turn 115158)**: Stood at (6, 9) facing Up, pressed Up. Result: Collision bump.
+  - **Column 7 Row 8 (Verified Turn 115163)**: Stood at (7, 9) facing Up, pressed Up. Result: Collision bump.
+  - **Column 8 Row 8 (Verified Turn 115167)**: Stood at (8, 9) facing Up, pressed Up. Result: Collision bump.
   - **Column 9 Row 8 (Verified Turn 113759)**: Stood at (9, 9) facing Up, pressed Up. Result: Collision bump.
   - **Column 10 Row 8 (Verified Turn 113955)**: Stood at (10, 9) facing Up, pressed Up. Result: Collision bump.
   - **Column 11 Row 8 (Verified Turn 113960)**: Stood at (11, 9) facing Up, pressed Up. Result: Collision bump.
   - **Column 12 Row 8 (Verified Turn 113964)**: Stood at (12, 9) facing Up, pressed Up. Result: Collision bump.
-  - **Column 3 Row 8 (Verified Turn 113985)**: Stood at (3, 9) facing Up, pressed Up. Result: Collision bump.
 - **2F West Upper-Central Corridor Isolation Empirical Verification**:
   - **Column 2 Row 1-3 Blockage**: Verified on Turns 115002-115011 that Column 2 is a solid rock wall (TYPE_2889) across Rows 1-3, blocking direct horizontal crossover from (3, 1), (3, 2), and (3, 3) on the west side.
   - **Column 4 Row 4 Blockage**: Verified on Turn 115017 that standing at (4, 3) and attempting to walk Down results in a collision bump, proving (4, 4) is a solid rock wall of TYPE_2889.
