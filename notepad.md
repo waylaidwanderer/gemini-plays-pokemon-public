@@ -8225,7 +8225,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Goal: Enter Cerulean Cave and catch Mewtwo.
 
 ## Current Status & Progression
-- Currently on 2F West at (9, 9). Just empirically verified that Column 9 Row 8 is blocked. Proceeding with the Backup Backtracking Plan.
+- Backtracking on 1F Southwest, currently at (14, 17) on the Row 17 ground-floor corridor.
 
 ## 2F Exploration Discoveries & Pathing Notes
 - Socratic Test Hypothesis: Column 9 and Column 13 on 2F West might be vertically passable. Once we climbed Ladder 5 to 2F West, we tested their vertical passability on foot.
