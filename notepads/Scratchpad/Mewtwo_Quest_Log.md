@@ -52,3 +52,13 @@
     - Let's review the rock walls on 2F West.
     - Let's do a search for "2F West" in our notepads to find any other details.
 - Turn 113322: Standing at (16, 17) in the southern horizontal corridor on Row 17. Planning to walk Left along Row 17 to reach the southwest plateau staircase. Row 17 is fully passable from Column 16 to at least Column 12 on foot.
+
+## Master Routing Solution to Mewtwo (B1F) via Ladder 3 (18, 9)
+- Analysis on Turn 113337: 2F West (3, 11) is indeed a closed 5-tile pocket, and Ladder 5 (7, 1) Northwest is in the northwest isolated quadrant of 1F (which can only be reached by descending from 2F).
+- Therefore, the correct canonical path to reach the northwestern quadrant of 2F and descend the Northwest Ladder at (1, 3) is:
+  1. Stand on 1F central platform and climb UP Ladder 3 at (18, 9) to land on 2F at (19, 7).
+  2. On 2F, walk West (Left) along Row 7 directly to Column 1 (Row 7 is open horizontally from Column 19 all the way west to Column 1).
+  3. Walk Up along Column 1 to reach the Northwest Ladder at (1, 3) on 2F.
+  4. Descend the Northwest Ladder to land on 1F northwest isolated quadrant at (1, 3).
+  5. On 1F northwest quadrant, walk to the stairs leading down to B1F!
+- Active execution is in progress to return to the 1F central platform and climb Ladder 3 at (18, 9).
