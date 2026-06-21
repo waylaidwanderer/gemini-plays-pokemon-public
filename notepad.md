@@ -8273,6 +8273,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 114068: Standing at (12, 12) facing Down. Stepping Left 1 step to (11, 12) on the central platform.
 - Turn 114069: Standing at (12, 12) facing Left. Stepping Left 1 step to (11, 12).
 - Turn 114074: Standing at (12, 12) facing Left. Stepping Left 1 step to (11, 12).
+- Turn 114080: Arrived at (11, 12) on the central platform facing Down. The water ramp is directly below us at (11, 13), and the water canal is at (11, 14).
+- Plan: Step Down onto (11, 13), then use SURF from the party menu to mount the water at (11, 14).
 
 <hr>
 
