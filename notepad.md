@@ -8225,17 +8225,21 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Goal: Enter Cerulean Cave and catch Mewtwo.
 
 ## Current Status & Progression
-- Currently at (7, 9) on 2F West, walking east along Row 9 to Column 10 to begin testing Columns 10, 11, 12, and 14 across Row 8 on foot from the south.
+- Currently at (12, 9) on 2F West, about to walk Left to Column 3 to empirically test the vertical passability of Column 3 Row 8.
 
 ## 2F Exploration Discoveries & Pathing Notes
 - Socratic Test Hypothesis: Column 9 and Column 13 on 2F West might be vertically passable. Once we climbed Ladder 5 to 2F West, we tested their vertical passability on foot.
   - Turn 113612: From (9, 1), pressed Down to test (9, 2) (TYPE_2889). Result: BUMPED, remaining at (9, 1). This empirically proves that (9, 2) is a solid, impassable wall.
   - Turn 113626: From (9, 5), pressed Down to test (9, 6) (TYPE_2889). Result: BUMPED, remaining at (9, 5). This empirically proves that (9, 6) is a solid, impassable wall.
   - Turn 113646: From (13, 6), pressed Down to test (13, 7) (TYPE_2889). Result: BUMPED, remaining at (13, 6). This empirically proves that (13, 7) is a solid, impassable wall.
-  - Turn 113711: Confirmed that Column 3 is blocked at (3, 8) and Column 2 is blocked at (2, 8) by solid rock walls (TYPE_2889). Row 10 and 11 are also blocked at Column 1 (1, 10 and 1, 11 are TYPE_2889).
+  - Turn 113711: We observed that Column 3 is a potential vertical corridor, but we did not empirically test (3, 8) on foot.
   - Turn 113759: Empirically tested Column 9 Row 8 on foot. Stood at (9, 9) facing Up and pressed Up. Result: Collision bump (0 tiles visited, remained at (9, 9)). This physically and mathematically proves that (9, 8) is a solid impassable rock wall of TYPE_2889.
   - Turn 113874: Tested passability of Column 16 Row 8 from (16, 7). Result: Bumped against (16, 8) (TYPE_2889), proving Column 16 is blocked at Row 8.
-  - Definitive Conclusion: The northern corridors (accessed via Ladder 5) are 100% physically isolated on foot on 2F West from the eastern central area (Columns 15-21) on Row 8. 
+  - Turn 113955: Empirically tested Column 10 Row 8 by attempting to walk Up from (10, 9). Result: BUMPED, player remained at (10, 9). This physically and mathematically proves that (10, 8) is a solid, impassable rock wall of TYPE_2889.
+  - Turn 113960: Empirically tested Column 11 Row 8 by attempting to walk Up from (11, 9). Result: BUMPED, player remained at (11, 9). This physically and mathematically proves that (11, 8) is a solid, impassable rock wall of TYPE_2889.
+  - Turn 113964: Empirically tested Column 12 Row 8 by attempting to walk Up from (12, 9). Result: BUMPED, player remained at (12, 9). This physically and mathematically proves that (12, 8) is a solid, impassable rock wall of TYPE_2889.
+  - Turn 113967: Checked Column 14's vertical alignment. (14, 9) is TYPE_2889 (solid rock wall) and (14, 7) is TYPE_2889 (solid rock wall). This means Column 14 is completely blocked vertically from both the north and south.
+  - Active Hypothesis: The Southwest section of 2F West might connect directly to the Northwest section on foot via Column 3 Row 8. We are proceeding to test Column 3 Row 8 on foot.
 
 ## Master Routing Solution to Mewtwo (B1F) - UNVERIFIED HYPOTHESIS
 - Layout Architecture:
