@@ -38,6 +38,10 @@
   - Row 9 is blocked by rock walls at (22, 9) and (24, 9), so it is not a continuous horizontal corridor.
 - **Row 7 Blockage (Verified Turn 113364)**:
   - Row 7 contains a solid horizontal rock wall at (17, 7) of TYPE_2889, physically blocking on-foot horizontal crossover between Column 18 and Column 16. Stood at (18, 7) facing Left, pressed Left, and collided with the wall at (17, 7) with zero coordinate change, proving it is impassable.
+- **(13, 7) Blockage (Verified Turn 113646)**:
+  - Standing at (13, 6) facing Down, pressed Down. Result: Bumped against (13, 7) (TYPE_2889), proving it is a solid impassable rock wall on 2F West.
+- **(16, 8) Blockage (Verified Turn 113874)**:
+  - Standing at (16, 7) facing Down, pressed Down. Result: Bumped against (16, 8) (TYPE_2889), proving Column 16 is blocked at Row 8 on 2F West.
 - **Topological Goal**:
   - To access the basement (B1F) where Mewtwo is, the player must locate the northwest ladder on 2F. This ladder descends into the isolated northwestern quadrant of 1F, which contains the stairs leading to B1F.
 - **(15, 13) Rock Wall Blockage**:
