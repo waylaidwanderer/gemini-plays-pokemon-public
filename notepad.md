@@ -8247,8 +8247,26 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 ## Item Blockage & Solution (Turn 115671)
 - We have discovered that the pathway from (5, 15) to (1, 13) is physically blocked at (4, 15) by a solid, overworld item ball sprite.
 - In Gen 1, overworld item balls are solid obstacles that prevent walking.
-- To clear the blockage, we must stand adjacent to the item at (5, 15) facing Left, and press 'A' to collect the item. Once collected, the tile (4, 15) will become passable (TYPE_3fe2), opening up the entire western corridor system on foot!
-- We are executing ['Left', 'A'] on Turn 115671 to collect the item and clear the path.
+- To clear the blockage, we stand adjacent to the item at (5, 15) facing Left, and press 'A' to collect the item.
+- Turn 115682: Pressed A. Successfully collected the ULTRA BALL at (4, 15)! The tile (4, 15) has now changed to TYPE_3fe2 (passable floor).
+- This opens up the entire southwest corridor network on 2F West!
+
+## Southwestern Corridor Navigation (Turn 115683)
+- Path from (5, 15) to (1, 13) on foot:
+  - From (5, 15), walk Left -> (4, 15)
+  - Walk Down -> (4, 16)
+  - Walk Down -> (4, 17)
+  - Walk Left -> (3, 17)
+  - Walk Left -> (2, 17)
+  - Walk Left -> (1, 17)
+  - Walk Up -> (1, 16)
+  - Walk Up -> (1, 15)
+  - Walk Right -> (2, 15)
+  - Walk Up -> (2, 14)
+  - Walk Up -> (2, 13)
+  - Walk Left -> (1, 13)
+- We will execute this in chunks to avoid inputting movement commands during wild encounters.
+- Chunk 1: ['Left', 'Down', 'Down'] to reach (4, 17).
 
 <hr>
 
