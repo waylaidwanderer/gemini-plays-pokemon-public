@@ -17,10 +17,9 @@
 ## Master Routing Plan
 - We are currently on 1F Northern landmass.
 - Next Steps:
-  1. Walk to Water Ramp 4 at (15, 3) and use SURF to mount the water canal.
-  2. Surf to Water Ramp 2 at (11, 13) and dismount.
-  3. Walk to the central platform stairs at (17, 15) and descend to 1F ground level.
-  4. Walk Left along the Row 17 corridor to reach the southwestern ground level.
-  5. Climb the wooden staircase at (1, 13) to reach the elevated southwest plateau at (1, 12).
-  6. Climb the Southwest Ladder 6 at (3, 11) to reach 2F West at (3, 11).
-  7. On 2F West, systematically test Column 1 Row 11 (1, 11) and Column 1 Row 12 (1, 12) on foot to find if we can bypass the Row 8 blockages and access the Northwest Ladder (1, 3) directly.
+  1. Surf Down 5 steps to (9, 14), then Right 2 steps to (11, 14), and Up 1 step to dismount onto Water Ramp 2 at (11, 13).
+  2. Walk to the central platform stairs at (17, 15) and descend to 1F ground level.
+  3. Walk Left along the Row 17 corridor to reach the southwestern ground level.
+  4. Climb the wooden staircase at (1, 13) to reach the elevated southwest plateau at (1, 12).
+  5. Climb the Southwest Ladder 6 at (3, 11) to reach 2F West at (3, 11).
+  6. On 2F West, systematically test Column 1 Row 11 (1, 11) and Column 1 Row 12 (1, 12) on foot to find if we can bypass the Row 8 blockages and access the Northwest Ladder (1, 3) directly.
