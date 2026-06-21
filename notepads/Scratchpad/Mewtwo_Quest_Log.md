@@ -75,3 +75,6 @@
 - Turn 114215: Confirmed player position is at (15, 3) facing Down. Ready to initiate SURF to backtrack to Water Ramp 2 at (11, 13).
 - Verification: Standing on (15, 3) (TYPE_4b8d, Water Ramp 4).
 - Plan: Open start menu, go to POKéMON, select GEMMY, and select SURF to enter the water canal at (15, 4).
+- Turn 114234: Executing first chunk of the backtracking path. We are at (15, 4) surfing.
+  Path: Left to (14, 4), Down to (14, 5), Down to (14, 6).
+  Input sequence: ['Left', 'Down', 'Down']
