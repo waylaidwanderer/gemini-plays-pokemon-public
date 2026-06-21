@@ -8300,6 +8300,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   5. Ascend the wooden staircase to (1, 12) on the elevated southwest plateau.
   6. Walk to Southwest Ladder 6 at (3, 11) and ascend.
 - Turn 114902: Arrived at (1, 12) on the southwest elevated plateau. Preparing to walk to Southwest Ladder 6 at (3, 11) and ascend to 2F West.
+- Turn 114915: Navigated down to 1F southwest ground floor and walked east to (7, 17). Continuing east along Row 17 towards (15, 17) to reach the central platform.
 
 <hr>
 
