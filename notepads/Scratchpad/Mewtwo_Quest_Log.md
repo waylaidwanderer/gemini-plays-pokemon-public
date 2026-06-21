@@ -32,3 +32,4 @@
     1. Walk Right 1 step to (21, 9) [TYPE_3fe2].
     2. From (21, 9), press Right to attempt to step onto (22, 9).
     3. Verify if we move to (22, 9) or if we collide (bump), proving or disproving the blockage.
+  - **Test Result (Turn 113224)**: Successfully executed! Standing at (21, 9) and pressing Right resulted in a direct collision with zero coordinate change, physically proving that (22, 9) is a solid impassable rock wall of TYPE_2889. This confirms that the southwestern/central pocket (Columns 11-21, Rows 8-13) is a closed, isolated pocket on 2F West.
