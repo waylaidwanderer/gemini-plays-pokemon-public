@@ -8308,7 +8308,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - *Proof of Work*: On Turn 112858, stood at (14, 5) on the water and pressed Left. Result: Collided, player remained at (14, 5). On Turn 112863, stood at (14, 4) on the water and pressed Left. Result: Collided, player remained at (14, 4). This empirically proves that the canal is blocked at Column 13 on Rows 4-5.
   - *Connection Proof*: On Turn 112818, we discovered that Rows 6 and 7 on Column 13 are completely open, passable water, which we successfully traversed on Turn 113044 and Turn 113066 to surf horizontally between the eastern and western halves of the cave.
 
-- **Ladder 5**:
+  - **Ladder 5**:
   - Located on 1F at (7, 1) (labeled TYPE_3fe2). Ascending this ladder warps the player to 2F at (9, 1). This is located in the northwest isolated quadrant of 1F.
 
 - **Ladder 6 (Southwest Ladder)**:
