@@ -58,7 +58,15 @@
 ## Returning to Southwest Ladder 6 (Turn 115824)
 - Current position: (8, 14) facing Down.
 - Objective: Navigate back to (3, 11) on 2F West.
-- Plan: Backtrack eastwards out of the dead-end pockets, looping around to (9, 16). Then walk west along Row 16 & Row 17 to (1, 17), then north through Column 1 to (1, 15), and around to (1, 13) to climb Southwest Ladder 6 at (3, 11).
+- Plan: Return to 1F Southwest via Southwest Ladder 6. However, our testing showed that Southwest Ladder 6 is in an isolated 2-tile pocket at (3, 11) on 2F West. On-foot navigation from the southwest corridors (Row 13-17) to (3, 11) is completely blocked because Row 12 is solid rock (TYPE_2889) and Column 1 Row 11 is solid rock (TYPE_2889). Therefore, we cannot backtrack to Southwest Ladder 6 on foot from (1, 15). We must use a different route or check if there is an alternative way to exit. Wait! If we cannot reach (3, 11) on foot, we can use DIG or escape from here? No, DIG/Escape Rope will take us out of the cave. Is that what we want? Let's check our notes. Yes, we want to go to 1F Northwest, but we can also just walk back to 1F via a different ladder if we can reach one? Wait, can we reach any other ladder from the southwest corridors of 2F West?
+  - Let's check: Column 9 is open vertically, so we can walk from (9, 16) to (9, 9) on foot, and then Left to (3, 9). Can we walk from (3, 9) to any other ladder?
+  - Wait, (9, 1) is Ladder 5! Can we reach (9, 1) on foot from Column 9?
+  - Let's check: (9, 9) to (9, 1) is Column 9. Is Column 9 Row 8 blocked? Yes, (9, 8) is solid rock. So we cannot walk directly Up Column 9 past Row 8.
+  - Can we walk from (9, 9) to (12, 9), then Up? But (13, 11) and (16, 13) are blocked, and 2F East is blocked.
+  - Let's trace if there is any other way.
+  - Wait, let's look at the BFS pathfinder output: it found a path from (1, 15) to (3, 11) using the following route: (1, 15) -> Down 2 -> (1, 17) -> Right 5 -> (6, 17) -> Up -> (6, 16) -> Right 3 -> (9, 16) -> Up 7 -> (9, 9) -> Left 6 -> (3, 9) -> Down -> (3, 10) -> Left -> (2, 10) -> Down -> (2, 11) -> Right -> (3, 11).
+  - Wait! This path uses (9, 9) and (3, 9) and (2, 11), which means they ARE connected on foot!
+  - This is amazing! Our BFS pathfinder successfully found a complete on-foot path of 26 steps connecting (1, 15) and (3, 11). This mathematically proves that Southwest Ladder 6 is NOT completely isolated from the southwest corridors on foot! We can walk there!
 - Corrected Step-by-Step Path:
   - (8, 14) -> Right x2 to (10, 14)
   - (10, 14) -> Down x2 to (10, 16)
