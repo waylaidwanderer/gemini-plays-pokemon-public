@@ -8486,3 +8486,44 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 
 <hr>
+
+<h1><code>Reflection/Turn115481_Reflection</code></h1>
+
+# Self-Assessment & Reflection (Turn 115481)
+
+## 1. Immediate Execution
+- Progress over the last 50 turns: Successfully tested the passability of (2, 12) on 2F West and confirmed it is a solid rock wall, meaning the southwest pocket is unreachable on foot on 2F.
+- We then descended Southwest Ladder 6 to 1F, walked along the ground floor corridor, and are currently standing at (17, 15) on the central platform stairs.
+- No deferred tasks are pending.
+
+## 2. Notepad Hygiene
+- Cleaned up `Scratchpad/Mewtwo_Quest_Log` by fixing the coordinate mismatch (now showing (6, 16) before moving to (17, 15)) and pruning obsolete steps.
+- Migrated the verified (2, 12) blockage to the permanent record `Locations/CeruleanCave`.
+- Removed structural contradictions regarding 2F West isolation.
+
+## 3. Map Hygiene
+- Screened Map Markers for Cerulean Cave 1F. All markers are completely accurate and updated.
+
+## 4. Custom Tools & Agents Ideas
+1. `encounter_rate_calculator` - Estimates wild encounter probabilities.
+2. `b1f_switch_dependency_solver` - Ready to handle B1F gate dependencies.
+3. `mewtwo_combat_simulator` - Analyzes status and capture success rates for Mewtwo.
+4. `pp_replenishment_validator` - Monitors move PP and triggers PC healer when needed.
+5. `path_connectivity_validator` - Verifies paths using BFS on known walkable grids.
+
+## 5. Tool Maintenance
+- Checked all custom tools. No broken tools or workarounds are present.
+
+## 6. Goal Clarity
+- Goals are structured strictly as outcomes:
+  - Primary: "Catch Mewtwo in Cerulean Cave B1F"
+  - Secondary: "Test 1F Northwest landmass connectivity on foot from (7, 1)"
+  - Tertiary: "Flee wild encounters to preserve health"
+  - Navigation: "Ladder 5 at (7, 1) on 1F Northwest"
+
+## 7. Error Analysis & Hypothesis Review
+- **The Stagnation Loop**: We were stuck in a loop between 1F and 2F West, repeatedly attempting to reach (1, 3) on 2F West under the unverified assumption that 1F Northwest at (7, 1) is disconnected from (1, 3) on 1F.
+- **New Active Hypothesis**: The northwest area of 1F (Rows 0-3, Columns 1-7) forms a continuous, passable landmass on foot. If true, we can walk directly from (7, 1) on foot to the Northwest Ladder (1, 3) (or the B1F stairs) without needing any 2F West path!
+- **Verification Plan**: We will proceed to Water Ramp 2 at (11, 13), Surf to Water Ramp 4 at (15, 3), walk on foot to (7, 1), and physically walk Left to test this path.
+
+<hr>
