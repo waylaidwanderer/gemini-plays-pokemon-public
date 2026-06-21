@@ -8225,7 +8225,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Goal: Enter Cerulean Cave and catch Mewtwo.
 
 ## Current Status & Progression
-- Currently standing on 1F at (11, 13) on foot.
+- Currently standing on 1F at (15, 17) on foot.
 
 ## Active Hypothesis on 2F West Topology
 - Hypothesized Blockages on 2F West:
@@ -8237,14 +8237,12 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Testing Plan: When we reach 2F West at (3, 11) next, we must walk Left to Column 1 and systematically test the passability of (1, 11) and (1, 12) on foot.
 
 ## Master Routing Plan
-- We are currently on 1F Northern landmass.
+- We are currently on 1F Southwest on-foot pathway.
 - Next Steps:
-  1. Surf Down 5 steps to (9, 14), then Right 2 steps to (11, 14), and Up 1 step to dismount onto Water Ramp 2 at (11, 13).
-  2. Walk to the central platform stairs at (17, 15) and descend to 1F ground level.
-  3. Walk Left along the Row 17 corridor to reach the southwestern ground level.
-  4. Climb the wooden staircase at (1, 13) to reach the elevated southwest plateau at (1, 12).
-  5. Climb the Southwest Ladder 6 at (3, 11) to reach 2F West at (3, 11).
-  6. On 2F West, systematically test Column 1 Row 11 (1, 11) and Column 1 Row 12 (1, 12) on foot to find if we can bypass the Row 8 blockages and access the Northwest Ladder (1, 3) directly.
+  1. Walk Left along the Row 17 corridor to reach the southwestern ground level at (1, 17).
+  2. Climb the wooden staircase at (1, 13) to reach the elevated southwest plateau at (1, 12).
+  3. Climb the Southwest Ladder 6 at (3, 11) to reach 2F West at (3, 11).
+  4. On 2F West, systematically test Column 1 Row 11 (1, 11) and Column 1 Row 12 (1, 12) on foot to find if we can bypass the Row 8 blockages and access the Northwest Ladder (1, 3) directly.
 
 <hr>
 
