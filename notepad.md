@@ -8225,7 +8225,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Goal: Enter Cerulean Cave and catch Mewtwo.
 
 ## Current status & Progression
-- Navigating the corridors of 2F West to find a path to the northwest ladder.
+- Navigating 1F Southwest ground corridor back to the central platform to reach Ladder 3 at (18, 9).
 
 ## 2F Exploration Discoveries & Pathing Notes
 - Turn 113127: Descended staircase at (17, 15) to access the ground floor of Cerulean Cave 1F.
