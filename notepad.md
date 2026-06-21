@@ -8234,27 +8234,6 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 112986: Discovered that Row 5 contains water across Columns 21-25, blocking on-foot horizontal crossover from Water Ramp 3 at (25, 9) to Ladder 2 at (27, 1) directly. To access Ladder 2 (which sits on the northern landmass at Rows 0-2), we must use Water Ramp 1 at (23, 3) because it lands directly on Row 3/2, which connects horizontally to Column 27 on Rows 0-2!
 - Turn 113013: Discovered that on 2F East, we are completely blocked on the small island around (22, 6) and cannot reach Ladder 3 at (19, 7) because of solid rock walls (TYPE_2889) at (23, 6) and (21, 6). The only passable direction from (22, 6) is Down to (22, 7) then Right to (23, 7) (which is the ladder we came from). So we must backtrack down the ladder at (22, 6) / (23, 7) back to 1F.
 
-- Turn 113149: Standing at (1, 13) in Map 0_228 (Cerulean Cave 1F) facing Up. The tile at (1, 13) is TYPE_4b8d and didn't warp us to 2F.
-  - Looking at the screen, we see that the water in this southwest canal is of TYPE_2770, which is a light-purplish-blue color with a ripple pattern.
-  - The tile at (3, 11) is a ladder graphic [=] labeled as TYPE_3fe2 (passable ground), sitting on the edge of the water canal.
-  - Hypothesis: (1, 13) is a water ramp of TYPE_4b8d. By using Surf facing Up, we can mount the water at (1, 12) (TYPE_2770) and navigate the canal to reach the ladder at (3, 11).
-  - Test Plan:
-    1. Select POKéMON from the Start Menu, choose GEMMY, and select SURF to try and enter the water at (1, 12).
-    2. If successful, navigate the water to (3, 12), then face Up to land on (3, 11) and see if we can transition.
-- Turn 113204: Standing at (15, 9) on 2F West. We plan to test the passability of (13, 11) (currently labeled TYPE_2889) to resolve the outstanding hypothesis about 2F East and 2F West connectivity.
-  - **Test Plan**:
-    1. Navigate from (15, 9) to (12, 11) via the unblocked flat-ground path: Up to (15, 8), Left to (14, 8), Left to (13, 8), Down to (13, 9), Left to (12, 9), Down to (12, 10), Down to (12, 11).
-    2. From (12, 11), press Right to attempt to step onto (13, 11).
-    3. Verify if we collide (bump), physically proving (13, 11) is indeed an impassable rock wall blockage.
-- Turn 113211: Confirmed (13, 11) is indeed an impassable rock wall on 2F West. We will now head east along the open Row 9 corridor to explore Column 20 and beyond.
-- Turn 113218: Standing at (20, 9) on 2F West. We plan to test the passability of (22, 9) (currently labeled TYPE_2889) to see if we can crossover horizontally from Column 21 to Column 23.
-  - **Hypothesis**: (22, 9) is passable, allowing on-foot horizontal crossover from our pocket to Column 23. Once on Column 23, we can walk north to Row 7, which is a wide open horizontal passage leading all the way to the northwest ladder at (1, 3).
-  - **Test Plan**:
-    1. Walk Right 1 step to (21, 9) [TYPE_3fe2].
-    2. From (21, 9), press Right to attempt to step onto (22, 9).
-    3. Verify if we move to (22, 9) or if we collide (bump), proving or disproving the blockage.
-  - **Test Result (Turn 113224)**: Successfully executed! Standing at (21, 9) and pressing Right resulted in a direct collision with zero coordinate change, physically proving that (22, 9) is a solid impassable rock wall of TYPE_2889. This confirms that the southwestern/central pocket (Columns 11-21, Rows 8-13) is a closed, isolated pocket on 2F West.
-
 <hr>
 
 <h1><code>Locations/CeruleanCave</code></h1>
