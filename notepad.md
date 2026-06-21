@@ -8225,7 +8225,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Goal: Enter Cerulean Cave and catch Mewtwo.
 
 ## Current status & Progression
-- Currently on 1F at (6, 17) on foot, walking east along Row 17 towards the central platform staircase at (17, 15).
+- Currently on 1F at (11, 13) standing on Water Ramp 2, about to use Surf to navigate to Water Ramp 4 at (15, 3).
+- Socratic Test Hypothesis: Column 9 on 2F West might be vertically passable. Once we climb Ladder 5 to 2F West, we will test Column 9's vertical passability on foot to verify if 2F West is truly isolated.
 
 ## 2F Exploration Discoveries & Pathing Notes
 ## Socratic Quest / Route Verification Protocol
