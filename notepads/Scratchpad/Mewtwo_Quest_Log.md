@@ -61,10 +61,14 @@
   - Once we climb Ladder 5 to 2F West at (6, 1), we can bypass the Column 2 Row 0-4 wall by walking to Column 3, detouring south to Row 5 (since Column 2 is only blocked on Rows 0-4), crossing Column 2 at (2, 5) to reach Column 1, and walking back north along Column 1 to the Northwest Ladder at (1, 3).
   - Descending the Northwest Ladder at (1, 3) lands us back in the isolated northwestern quadrant of 1F, which contains the stairs leading directly to B1F (Mewtwo's chamber).
 
-- Step-by-Step Execution Plan:
-  1. Return to 1F by descending Ladder 3 at (19, 7).
-  2. Walk to Water Ramp 2 at (11, 13) on 1F, mount the water, and surf north and west along the horizontal water canals to reach Column 7 Row 4 or 5.
-  3. Dismount onto the northwestern landmass, walk to (7, 1) on 1F, and climb UP Ladder 5.
-  4. On 2F West, walk: (6, 1) -> Left 3 steps to (3, 1) -> Down 4 steps to (3, 5) -> Left 2 steps to (1, 5) -> Up 2 steps to (1, 3) (Northwest Ladder).
-  5. Take the Northwest Ladder at (1, 3) DOWN to 1F.
-  6. On 1F, walk to the stairs and descend to B1F!
+- Step-by-Step Execution Plan (REVISED - THE TRUE PATHWAY TO MEWTWO):
+  1. Descend Ladder 5 at (9, 1) on 2F West to 1F at (7, 1).
+  2. From (7, 1) on 1F, walk to Water Ramp 4 at (15, 3), mount water, and surf south and west to reach Water Ramp 2 at (11, 13).
+  3. Dismount at (11, 13), walk to the central platform staircase at (17, 15), descend to ground floor at (17, 16).
+  4. Walk west along the southern ground corridor to the southwest stairs at (1, 13).
+  5. Climb stairs to (1, 12), walk to Ladder 6 at (3, 11), and ascend to 2F West.
+  6. On 2F West, walk north along Column 3 from (3, 11) to (3, 5).
+  7. From (3, 5), walk left to Column 0: (2, 5) -> (1, 5) -> (0, 5).
+  8. Walk up Column 0: (0, 4) -> (0, 3).
+  9. Walk right to (1, 3) and descend the Northwest Ladder to the isolated northwest of 1F.
+  10. On 1F, walk to the stairs and descend to B1F to reach Mewtwo!
