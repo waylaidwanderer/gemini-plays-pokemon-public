@@ -27,3 +27,4 @@
     4. If any column on Row 8 is open (for example, Column 6 Row 8), we can walk directly between the southwest ladder and the northwest ladder on foot! This is a critical topological connection to test.
     5. If all are blocked, we will proceed with the fallback route to B1F.
 - Turns 115147-115173: Physically tested and verified Columns 3, 4, 5, 6, 7, and 8 on Row 8 on foot as 100% blocked (migrated to Locations/CeruleanCave).
+- Turn 115188: Stood at (2, 10) facing Up, pressed Up. Result: Collision bump against (2, 9) (TYPE_2889). Physically verified that Column 2 Row 9 is a solid impassable rock wall on 2F West on foot.
