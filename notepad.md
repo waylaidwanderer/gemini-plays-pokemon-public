@@ -8334,6 +8334,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - **Column 2 Row 1-3 Blockage**: Verified on Turns 115002-115011 that Column 2 is a solid rock wall (TYPE_2889) across Rows 1-3, blocking direct horizontal crossover from (3, 1), (3, 2), and (3, 3) on the west side.
   - **Column 4 Row 4 Blockage**: Verified on Turn 115017 that standing at (4, 3) and attempting to walk Down results in a collision bump, proving (4, 4) is a solid rock wall of TYPE_2889.
   - **Column 5 Row 4 Blockage**: Verified on Turn 115032 that standing at (5, 3) and attempting to walk Down results in a collision bump, proving (5, 4) is a solid rock wall of TYPE_2889.
+  - **Column 6 Row 4 Blockage**: Verified on Turn 115040 that standing at (6, 3) and attempting to walk Down results in a collision bump, proving (6, 4) is a solid rock wall of TYPE_2889.
+  - **Column 7 Row 4 Blockage**: Verified on Turn 115047 that standing at (7, 3) and attempting to walk Down results in a collision bump, proving (7, 4) is a solid rock wall of TYPE_2889.
   - **Column 2 Row 0-4 Blockage**: Hypothesized to be blocked across Rows 0-4, but untested on foot on 2F West for (2, 0) and (2, 4).
   - **Column 3 Row 4 Blockage**: Empirically tested on Turn 113495. Standing at (3, 3) facing Down, we pressed Down. Result: Collision with zero coordinate change, remaining at (3, 3). This physically proves that (3, 4) is a solid, impassable wall.
   - **Column 8 Row 5 Blockage**: Empirically tested on Turn 113499. Standing at (9, 5) facing Left, we pressed Left. Result: Collision with zero coordinate change, remaining at (9, 5). This physically proves that (8, 5) is a solid, impassable wall.
