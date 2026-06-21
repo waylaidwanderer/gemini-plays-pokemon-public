@@ -3,7 +3,7 @@
 - Goal: Enter Cerulean Cave and catch Mewtwo.
 
 ## Current status & Progression
-- Surfing on 1F canal. Current position: (9, 10). Navigating to Water Ramp 2 at (11, 13) to access the southwestern ground level and reach Ladder 6 at (3, 11).
+- Currently on 1F at (6, 17) on foot, walking east along Row 17 towards the central platform staircase at (17, 15).
 
 ## 2F Exploration Discoveries & Pathing Notes
 ## Socratic Quest / Route Verification Protocol
