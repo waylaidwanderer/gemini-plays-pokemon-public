@@ -8256,6 +8256,9 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 - Turn 112986: Discovered that Row 5 contains water across Columns 21-25, blocking on-foot horizontal crossover from Water Ramp 3 at (25, 9) to Ladder 2 at (27, 1) directly. To access Ladder 2 (which sits on the northern landmass at Rows 0-2), we must use Water Ramp 1 at (23, 3) because it lands directly on Row 3/2, which connects horizontally to Column 27 on Rows 0-2!
 - Turn 113013: Discovered that on 2F East, we are completely blocked on the small island around (22, 6) and cannot reach Ladder 3 at (19, 7) because of solid rock walls (TYPE_2889) at (23, 6) and (21, 6). The only passable direction from (22, 6) is Down to (22, 7) then Right to (23, 7) (which is the ladder we came from). So we must backtrack down the ladder at (22, 6) / (23, 7) back to 1F.
+- Turn 113057: Dismounted at Water Ramp 2 at (11, 13) on 1F, and walked north along the central-western land platform to explore.
+- Turn 113066: Surf-backtracked from Water Ramp 2 to (7, 13) to inspect the southwest corner of 1F.
+- Turn 113076: Discovered that (7, 13) is a 1x1 on-foot pocket, and (8, 13) is a water tile, meaning we can use Surf to enter the water. We must turn to face Right (towards the water) to execute Surf.
 
 <hr>
 
