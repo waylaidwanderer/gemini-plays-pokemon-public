@@ -8317,6 +8317,7 @@ Let's check if there's any other mention of (1, 3).
 Wait, let's write a python script to search all notepads for `(1, 3)` or `1, 3`.
 We can use `search_notepads` tool! Let's search for "1, 3". (But wait, `search_notepads` with fuzzy or literal search "1, 3" will show many coordinates, but we can do a search for "(1, 3)"). Let's do that.
 - Turn 113977: Triggered a wild Level 52 Rhydon encounter at (6, 9) on Row 9 while walking Left. Escaping immediately.
+- Turn 113984: Reached (3, 9). Column 3 Row 8 (3, 8) is labeled TYPE_2889 in the grid overlay, but we must empirically test it on foot. Commencing test by pressing Up.
 
 <hr>
 
