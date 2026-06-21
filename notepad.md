@@ -8298,6 +8298,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Verification: Standing on (15, 3) (TYPE_4b8d, Water Ramp 4).
 - Plan: Open start menu, go to POKéMON, select GEMMY, and select SURF to enter the water canal at (15, 4).
 - Milestone: Backtracked from Water Ramp 4 at (15, 3) onto the water, reached (10, 6).
+- Turn 114266: Standing at (15, 17) on foot on the ground floor. Commencing 13-step westward walk along Row 17 to reach (2, 17).
+  - Verification: Player is on foot on (15, 17) (TYPE_3fe2). Row 17 is completely open to the west.
 
 <hr>
 
