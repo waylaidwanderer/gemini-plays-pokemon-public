@@ -8267,6 +8267,16 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - Walk Left -> (1, 13)
 - We will execute this in chunks to avoid inputting movement commands during wild encounters.
 - Chunk 1: ['Left', 'Down', 'Down'] to reach (4, 17).
+### Turn 115749 Verification of 2F West Blockage
+- Stood at (1, 7) on 2F West facing Up.
+- Visually and physically verified that Column 1 Row 6 (1, 6) is indeed TYPE_2889 (solid rock wall).
+- The ladder at (1, 3) is clearly visible directly to the north, but (1, 6) is solid rock, completely blocking direct vertical access.
+- Row 6 is solid rock (TYPE_2889) at (0, 6), (1, 6), (2, 6), (3, 6), (4, 6), (5, 6).
+- Column 4 Row 7 (4, 7) is solid rock (TYPE_2889).
+- Row 8 is solid rock (TYPE_2889) from Column 2 to Column 6.
+- This creates an airtight pocket at (1, 7), (2, 7), (3, 7) that is bounded on all sides by rock walls, except for the entrance at (1, 8).
+- This definitively proves that there is NO on-foot path from Southwest Ladder 6 at (3, 11) to the Northwest Ladder at (1, 3) on 2F West!
+- Since 2F West is completely blocked from reaching (1, 3) on foot from the south, we must find another way.
 
 <hr>
 
