@@ -8248,6 +8248,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
     3. Once on 2F West at (3, 11) (the southern half), we will walk to Row 7/8 and systematically test the passability of Columns 1, 2, 4, 5, 6, 7, and 8 on Row 8 on foot!
     4. If any column on Row 8 is open (for example, Column 6 Row 8), we can walk directly between the southwest ladder and the northwest ladder on foot! This is a critical topological connection to test.
     5. If all are blocked, we will proceed with the fallback route to B1F.
+- Turn 115147: Stood at (4, 9) facing Up, pressed Up. Result: Collision bump against (4, 8) (TYPE_2889). Physically verified that Column 4 Row 8 is a solid impassable rock wall on 2F West on foot.
 
 <hr>
 
