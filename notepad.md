@@ -8244,9 +8244,9 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - Therefore, we must climb Ladder 5 at (7, 1) on 1F to reach 2F West at (9, 1), and then walk to the Northwest Ladder at (1, 3) to reach B1F!
 
 - Step-by-Step Execution Plan:
-  1. Walk to Southwest Ladder 6 at (3, 11) on 2F West and descend to 1F Southwest. (Current task)
-  2. Walk on foot from (3, 11) to Water Ramp 2 at (11, 13) on 1F (via Row 17).
-  3. Surf from Water Ramp 2 at (11, 13) to Water Ramp 4 at (15, 3) on 1F.
+  1. Descend Southwest Ladder 6 at (3, 11) from 2F West to reach 1F Southwest. (Completed)
+  2. Walk on foot from (3, 11) to Water Ramp 2 at (11, 13) on 1F (via Row 17). (Completed)
+  3. Surf from Water Ramp 2 at (11, 13) to Water Ramp 4 at (15, 3) on 1F. (Current task)
   4. Walk on foot from (15, 3) to Ladder 5 at (7, 1) on 1F.
   5. Climb Ladder 5 at (7, 1) to reach 2F West at (9, 1).
   6. Walk on foot from (9, 1) to Northwest Ladder at (1, 3) on 2F West.
