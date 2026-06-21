@@ -20,3 +20,8 @@
   - Test Plan:
     1. Select POKéMON from the Start Menu, choose GEMMY, and select SURF to try and enter the water at (1, 12).
     2. If successful, navigate the water to (3, 12), then face Up to land on (3, 11) and see if we can transition.
+- Turn 113204: Standing at (15, 9) on 2F West. We plan to test the passability of (13, 11) (currently labeled TYPE_2889) to resolve the outstanding hypothesis about 2F East and 2F West connectivity.
+  - **Test Plan**:
+    1. Navigate from (15, 9) to (12, 11) via the unblocked flat-ground path: Up to (15, 8), Left to (14, 8), Left to (13, 8), Down to (13, 9), Left to (12, 9), Down to (12, 10), Down to (12, 11).
+    2. From (12, 11), press Right to attempt to step onto (13, 11).
+    3. Verify if we collide (bump), physically proving (13, 11) is indeed an impassable rock wall blockage.
