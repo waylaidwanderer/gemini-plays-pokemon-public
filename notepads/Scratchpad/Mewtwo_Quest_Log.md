@@ -22,3 +22,8 @@
   4. Climb Southwest Ladder 6 at (3, 11) to reach 2F West.
   5. On 2F West, test if the southwest region (Columns 0-7, Rows 10-13) has an open on-foot path to Column 0 Row 5 (0, 5), allowing us to reach the Northwest Ladder (1, 3).
   6. Document all results with exact turns and outcomes.
+## Item Blockage & Solution (Turn 115671)
+- We have discovered that the pathway from (5, 15) to (1, 13) is physically blocked at (4, 15) by a solid, overworld item ball sprite.
+- In Gen 1, overworld item balls are solid obstacles that prevent walking.
+- To clear the blockage, we must stand adjacent to the item at (5, 15) facing Left, and press 'A' to collect the item. Once collected, the tile (4, 15) will become passable (TYPE_3fe2), opening up the entire western corridor system on foot!
+- We are executing ['Left', 'A'] on Turn 115671 to collect the item and clear the path.
