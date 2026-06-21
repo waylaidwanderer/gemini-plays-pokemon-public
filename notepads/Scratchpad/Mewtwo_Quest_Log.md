@@ -3,7 +3,7 @@
 - Goal: Enter Cerulean Cave and catch Mewtwo.
 
 ## Current Status & Progression
-- Currently at (12, 9) on 2F West, about to walk Left to Column 3 to empirically test the vertical passability of Column 3 Row 8.
+- Currently at (2, 17) on 1F Southwest, backtracking along Row 17 towards the central platform staircase.
 
 ## 2F Exploration Discoveries & Pathing Notes
 - Socratic Test Hypothesis: Column 9 and Column 13 on 2F West might be vertically passable. Once we climbed Ladder 5 to 2F West, we tested their vertical passability on foot.
