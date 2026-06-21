@@ -8225,14 +8225,16 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Goal: Enter Cerulean Cave and catch Mewtwo.
 
 ## Current Status & Progression
-- Currently standing on 1F at (12, 1) on foot.
+- Currently standing on 1F at (9, 9) surfing on the water.
 
 ## Active Hypothesis on 2F West Topology
 - Hypothesized Blockages on 2F West:
-  - Row 8: Columns 3, 9, 10, 11, 12 verified blocked. Columns 1, 2, 4, 5, 6, 7, 8 are untested on foot.
-  - Column 2 Rows 0-4: Untested on foot on 2F.
-- If Row 8 has a passable corridor (such as Column 6 Row 8 being open), we can walk directly between the southwest ladder and the northwest ladder on foot!
-- Testing Plan: When we reach 2F West next, we must systematically walk and test the passability of Columns 1, 2, 4, 5, 6, 7, and 8 on Row 8 on foot.
+  - Row 8: Columns 3, 9, 10, 11, 12 verified blocked. Columns 4, 5, 6, 7, 8 are verified blocked on foot (Turn 115147-115167).
+  - Column 1 and Column 2 remain untested on Row 8 on foot.
+  - Column 1 Row 11 (1, 11) and Column 1 Row 12 (1, 12) have NOT been physically tested on foot yet. We must systematically test these on foot to gather reproducible evidence of their passability.
+  - Column 2 Row 0 and Column 2 Row 4 are untested on foot. (Column 2 Rows 1-3 are verified blocked on foot).
+- If Column 1 Row 11 or Row 12 is open, we can access Column 1 from the southern Southwest Ladder 6, bypass the Row 8 blockages on foot, and walk directly to the Northwest Ladder (1, 3).
+- Testing Plan: When we reach 2F West at (3, 11) next, we must walk Left to Column 1 and systematically test the passability of (1, 11) and (1, 12) on foot.
 
 ## Master Routing Plan
 - We are currently on 1F Northern landmass.
