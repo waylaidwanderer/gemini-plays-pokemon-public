@@ -36,3 +36,10 @@
 - Turn 113013: Discovered that on 2F East, we are completely blocked on the small island around (22, 6) and cannot reach Ladder 3 at (19, 7) because of solid rock walls (TYPE_2889) at (23, 6) and (21, 6). The only passable direction from (22, 6) is Down to (22, 7) then Right to (23, 7) (which is the ladder we came from). So we must backtrack down the ladder at (22, 6) / (23, 7) back to 1F.
 - Turn 113076: Discovered that (7, 13) is a 1x1 on-foot pocket, and (8, 13) is a water tile, meaning we can use Surf to enter the water. We must turn to face Right (towards the water) to execute Surf.
 - Turn 113127: Discovered a staircase descent at (17, 15) connecting the central-western land platform (X=11..17, Y=9..14, z=1) to the lower cavern floor (Y=16..17, z=0). We descended onto the lower cavern floor at (17, 16) and walked to (16, 17) to begin exploring the southwest on-foot corridor. This opens up a massive unvisited search space on the ground!
+- Turn 113149: Standing at (1, 13) in Map 0_228 (Cerulean Cave 1F) facing Up. The tile at (1, 13) is TYPE_4b8d and didn't warp us to 2F.
+  - Looking at the screen, we see that the water in this southwest canal is of TYPE_2770, which is a light-purplish-blue color with a ripple pattern.
+  - The tile at (3, 11) is a ladder graphic [=] labeled as TYPE_3fe2 (passable ground), sitting on the edge of the water canal.
+  - Hypothesis: (1, 13) is a water ramp of TYPE_4b8d. By using Surf facing Up, we can mount the water at (1, 12) (TYPE_2770) and navigate the canal to reach the ladder at (3, 11).
+  - Test Plan:
+    1. Select POKéMON from the Start Menu, choose GEMMY, and select SURF to try and enter the water at (1, 12).
+    2. If successful, navigate the water to (3, 12), then face Up to land on (3, 11) and see if we can transition.
