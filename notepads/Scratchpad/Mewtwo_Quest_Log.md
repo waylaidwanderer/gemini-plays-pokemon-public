@@ -30,3 +30,4 @@
   6. Locate the unblocked vertical corridor and proceed to the Northwest Ladder at (1, 3).
   7. Descend Northwest Ladder at (1, 3) to reach the isolated northwest of 1F.
   8. Walk to the stairs and descend to B1F to reach Mewtwo!
+- Turn 113953: Standing at (10, 9) facing Up. Commencing empirical test of Column 10 Row 8 (labeled TYPE_2889) by pressing Up.
