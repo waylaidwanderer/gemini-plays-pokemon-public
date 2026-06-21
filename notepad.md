@@ -8326,7 +8326,10 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - **Column 11 Row 8 (Verified Turn 113960)**: Stood at (11, 9) facing Up, pressed Up. Result: Collision bump.
   - **Column 12 Row 8 (Verified Turn 113964)**: Stood at (12, 9) facing Up, pressed Up. Result: Collision bump.
   - **Column 3 Row 8 (Verified Turn 113985)**: Stood at (3, 9) facing Up, pressed Up. Result: Collision bump.
-  - **Conclusion**: These rigorous empirical tests mathematically and physically prove that Row 8 forms a continuous solid rock barrier of TYPE_2889 across all key Columns (including 3, 9, 10, 11, 12) on 2F West. This definitively proves that the southern half of 2F West (containing the southwest ladder) is completely physically isolated on foot from the northern corridors, making direct on-foot traversal to the Northwest Ladder at (1, 3) impossible. We must backtrack to 1F.
+  ## 2F West Row 8 Passability Verification (ACTIVE HYPOTHESIS)
+- Premature Dead End Audit: We previously concluded that the southern and northern halves of 2F West are completely isolated on foot on Row 8 based on testing Columns 3, 9, 10, 11, and 12. However, we did NOT physically test Columns 1, 2, 4, 5, 6, 7, or 8 on Row 8! We will re-test this hypothesis.
+- Visual check suggests some columns might be open or passable. If any of these are open, we can walk from Ladder 6 at (3, 11) directly to the Northwest Ladder at (1, 3) on foot, completely solving the cave's topology!
+- Plan: Climb Ladder 6 to 2F West at (3, 11), and systematically test the passability of Columns 1, 2, 4, 5, 6, 7, and 8 on Row 8 on foot. We will log every test with exact turn numbers and results.
 - **2F West Upper-Central Corridor Isolation Empirical Verification**:
   - **Column 2 Row 0-4 Blockage**: Verified on Turn 112893 that Column 2 is a solid rock wall (TYPE_2889) across Rows 0-4, blocking direct horizontal crossover on the north side.
   - **Column 3 Row 4 Blockage**: Empirically tested on Turn 113495. Standing at (3, 3) facing Down, we pressed Down. Result: Collision with zero coordinate change, remaining at (3, 3). This physically proves that (3, 4) is a solid, impassable wall.
