@@ -8275,8 +8275,13 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Ramps to Water**:
   - Located at (23, 3), (15, 3), (11, 13), and (25, 9) (TYPE_4b8d).
   - Standing on any of these ramps facing the water and selecting SURF from the party menu successfully mounts the water.
-- **Water Canal**:
-  - Rows 4 and 5 on 1F are water (TYPE_4e8c) and can be surfed upon. While Rows 4-5 are blocked horizontally at Column 13 by solid rock walls (TYPE_2889), the eastern and western water canal systems are bidirectionally connected via the open water on Rows 6-7, making continuous water navigation fully possible across the entire northern half of 1F. Verified on Turn 112918.
+- **Water Canal**: Rows 4 and 5 on 1F are water (TYPE_4e8c) and can be surfed upon. While Rows 4-5 are blocked horizontally at Column 13 by solid rock walls (TYPE_2889), the eastern and western water canal systems are bidirectionally connected via the open water on Rows 6-7, making continuous water navigation fully possible across the entire northern half of 1F. Verified on Turn 112918.
+- **Water Canal Boundary at (27, 12) (Verified Turn 112949)**:
+  - Attempting to dismount Down from (27, 11) on foot results in a solid collision at (27, 12). This physically proves that (27, 12) is completely impassable.
+- **Southern Canal Boundary (Rows 16-17) Systematic Tests**:
+  - Turn 113095: Stood at (8, 15) on water and pressed Down to test (8, 16) passability. Result: BUMPED, remaining at (8, 15). Physically proves (8, 16) is a solid, impassable wall.
+  - Turn 113098: Stood at (9, 15) on water and pressed Down to test (9, 16) passability. Result: BUMPED, remaining at (9, 15). Physically proves (9, 16) is a solid, impassable wall.
+  - Turn 113107: Stood at (10, 15) on water and pressed Down to test (10, 16) passability. Result: BUMPED, remaining at (10, 15). Physically proves (10, 16) is a solid, impassable wall.
 - **Northern Landmass Layout (Row 0-2 ground-level shortcut)**:
   - Rows 0, 1, and 2 form an unblocked, completely walkable ground-level connection on foot from Column 23 (Water Ramp 1) all the way east to Column 28 (Ladder 2 landing at 27,1). There is NO solid rock barrier on Column 26 on 1F, allowing the player to bypass the 2F serpentine path entirely when navigating from the western water canal to the northeast section of 1F. Verified on Turns 112008-112012.
 - **Visual Artifact Note**: Red flower tiles (TYPE_3fe2) (such as at 19, 3) visually resemble red-and-white Poké Balls in the Crystal palette swap but are passable ground tiles with no physical items.
