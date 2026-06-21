@@ -8241,6 +8241,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   2. Walk on 2F to test Row 8 columns on foot.
   3. If blocked, proceed with the fallback route to B1F.
 - Turn 115004: Standing at (3, 1) on 2F West. We just tested (2, 1) by attempting to walk Left from (3, 1) on Turn 114999. Result: Collision bump, player remained at (3, 1). This empirically proves that Column 2 Row 1 (2, 1) is a solid rock wall of TYPE_2889. Next, we will walk Down to (3, 2) and press Left to test the passability of (2, 2) on foot.
+- Turn 115008: Standing at (3, 2) on 2F West. We just tested (2, 2) by attempting to walk Left from (3, 2) on Turn 115005. Result: Collision bump, player remained at (3, 2). This empirically proves that Column 2 Row 2 (2, 2) is a solid rock wall of TYPE_2889. Next, we will walk Down to (3, 3) and press Left to test the passability of (2, 3) on foot.
 
 <hr>
 
