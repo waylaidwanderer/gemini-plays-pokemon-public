@@ -8352,6 +8352,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Conclusion (Turn 112964): Both (24, 12) and (25, 12) are completely solid rock walls. This definitively proves that the eastern vertical water canal is a closed pocket terminating at Row 11, and does not continue further south to connect with any southern water corridor. Backtracking west is the only mathematically possible option.
 - **Column 1 Row 11 Blockage (Verified Turn 115431)**: Standing at (2, 11) facing Left, pressed Left. Result: BUMP collision, player remained at (2, 11). Physically proves that (1, 11) is a solid, impassable wall of TYPE_2889 on 2F West.
 - **Column 1 Row 10 Blockage (Verified Turn 115435-115436)**: Standing at (2, 10) facing Left, pressed Left. Result: BUMP collision, player remained at (2, 10). Physically proves that (1, 10) is a solid, impassable wall of TYPE_2889 on 2F West.
+- **Column 2 Row 12 Blockage (Verified Turn 115454)**: Standing at (2, 11) facing Down, pressed Down. Result: BUMP collision, player remained at (2, 11). Physically proves that (2, 12) is a solid, impassable wall of TYPE_2889 on 2F West.
 
 <hr>
 
