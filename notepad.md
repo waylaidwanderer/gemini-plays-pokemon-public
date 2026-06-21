@@ -8262,6 +8262,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 6. Descend Northwest Ladder to land on the isolated B1F access sector of 1F. Walk to B1F stairs and proceed.
 - Turn 114033: Standing at (17, 14) on the central platform facing Up. Stepping Left 1 step to (16, 14).
 - Turn 114036: Standing at (16, 14) facing Left. Stepping Left 1 step to (15, 14).
+- Turn 114039: Triggered a wild Level 49 Venomoth encounter at (15, 14) on the central platform. Escaping immediately.
 
 <hr>
 
