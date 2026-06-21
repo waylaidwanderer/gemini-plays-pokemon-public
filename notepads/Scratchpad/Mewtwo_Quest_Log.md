@@ -79,3 +79,4 @@
   6. Walk to Southwest Ladder 6 at (3, 11) and ascend.
 - Turn 114902: Arrived at (1, 12) on the southwest elevated plateau. Preparing to walk to Southwest Ladder 6 at (3, 11) and ascend to 2F West.
 - Turn 114915: Navigated down to 1F southwest ground floor and walked east to (7, 17). Continuing east along Row 17 towards (15, 17) to reach the central platform.
+- Turn 114941: Arrived at (11, 13) on Water Ramp 2 facing Down. Ready to use SURF on the water canal at (11, 14) to begin water navigation. Our target is to surf north and west towards the northwestern water ramps.
