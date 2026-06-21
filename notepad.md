@@ -8247,6 +8247,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
     1. Navigate from (15, 9) to (12, 11) via the unblocked flat-ground path: Up to (15, 8), Left to (14, 8), Left to (13, 8), Down to (13, 9), Left to (12, 9), Down to (12, 10), Down to (12, 11).
     2. From (12, 11), press Right to attempt to step onto (13, 11).
     3. Verify if we collide (bump), physically proving (13, 11) is indeed an impassable rock wall blockage.
+- Turn 113211: Confirmed (13, 11) is indeed an impassable rock wall on 2F West. We will now head east along the open Row 9 corridor to explore Column 20 and beyond.
 
 <hr>
 
