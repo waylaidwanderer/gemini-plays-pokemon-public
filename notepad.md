@@ -8587,3 +8587,51 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **New Discovered Crossover Path**: We have just discovered that the southwest pocket of 2F West is NOT completely isolated from the northern corridors! By climbing Southwest Ladder 6 at (3, 11) to reach 2F West, we can walk Up to (3, 9), then Right along Row 9 to Column 9 (which is completely open on the screen), then South on Column 9 to Row 14/15, and finally loop back West on Row 14/15 to Column 1/2. We can then walk North along Column 1 to Row 8, and use the Column 1 Row 8 open tile (1, 8) to reach the northern corridors and access the Northwest Ladder at (1, 3) on foot! This is a massive topological discovery that bypasses the need for 1F Northwest shortcuts! We will test this route immediately.
 
 <hr>
+
+<h1><code>Reflection/Turn116013_Reflection</code></h1>
+
+# Self-Assessment & Reflection (Turn 116013)
+
+## 1. Immediate Execution
+- Progress over the last 50 turns: Successfully explored 2F West, verified that Column 1 Row 6 (1, 6) is solid rock, which blocks direct horizontal or vertical access to Northwest Ladder (1, 3) from the south on 2F West.
+- We then successfully navigated back through the southwest corridors towards Southwest Ladder 6 at (3, 11) to return to 1F, since 2F West's south pocket is completely blocked on foot.
+- No deferred tasks are pending.
+
+## 2. Notepad Hygiene
+- Cleaned up `Scratchpad/Mewtwo_Quest_Log` with active progression notes and verified constraints.
+- Will continue to document verified pathing insights.
+
+## 3. Map Hygiene
+- Screened Map Markers for Cerulean Cave 1F and 2F. All markers are completely accurate and updated.
+
+## 4. Custom Tools & Agents Ideas
+1. `flee_battle_optimizer` - Enhanced fleeing algorithm that handles edge cases like trapping abilities.
+2. `stat_multiplier_tracker` - Displays current active badge boosts.
+3. `capture_chance_analyser` - Predicts catching percentage based on HP and ball type.
+4. `inventory_manager_agent` - Suggests items to discard or move to/from PC.
+5. `cave_teleport_planner` - Optimizes routes to avoid unnecessary steps in wild grass.
+
+## 5. Tool Maintenance
+- Checked all custom tools. No broken tools or workarounds are present.
+
+## 6. Goal Clarity
+- Goals are outcome-focused:
+  - Primary: "Catch Mewtwo in Cerulean Cave B1F"
+  - Secondary: "Backtrack to 1F Southwest via Southwest Ladder 6"
+  - Tertiary: "Flee wild encounters to preserve health"
+  - Navigation: "Southwest Ladder 6 at (3, 11) on 2F West"
+
+## 7. Error Analysis & Hypothesis Review
+- We confirmed that the southwest pocket of 2F West is blocked on foot from reaching the Northwest Ladder.
+- Since 2F West is blocked from the south, we must find another way to reach the Northwest Ladder (1, 3).
+- We verified that (9, 1) on 2F West is connected to (3, 1) on foot via Row 1 (unblocked!).
+- From (3, 1), can we walk south to (1, 3)?
+- Yes! We must verify if the western area of 2F West (Column 1-3, Rows 1-5) is connected on foot to (1, 3).
+- Thus, our plan is:
+  1. Return to 1F Southwest via Southwest Ladder 6.
+  2. Walk back along Row 17 and up the stairs to the central platform, then surf to Ladder 5 at (7, 1).
+  3. Climb Ladder 5 to reach 2F West at (9, 1).
+  4. Walk Left via Row 1 to (3, 1) and down to (1, 3).
+  5. Descend (1, 3) to reach 1F Northwest and access the B1F stairs!
+
+<hr>
