@@ -8332,6 +8332,67 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - We must explore how the Northwest isolated quadrant on 1F is reached. Wait! Let's check: could there be an open water path on 1F that leads to B1F? Let's check the northwest corner of 1F. We must backtrack to 1F first!
 - Turn 114446: Safely arrived at (2, 17) on the ground floor of Cerulean Cave 1F. Ready to walk Up to (2, 14), Left to (1, 14), and Up through the stairs at (1, 13) to reach (1, 12) on the elevated southwest plateau.
 - Turn 114452: Confirmed player is at (2, 14) on foot facing Down. Ready to climb the wooden staircase at (1, 13) by walking Left to (1, 14) and Up to (1, 13) to reach (1, 12) on the elevated plateau. From there, we will walk Right to (3, 12) and Up to the Southwest Ladder at (3, 11).
+- Turn 114487: Arrived at (3, 11) on 2F West. We ran a BFS check on the visible screen and discovered that the walkable component containing (3, 11) is limited to:
+  [(2, 10), (2, 11), (3, 9), (3, 10), (3, 11), (4, 9), (5, 9), (5, 10), (6, 9), (7, 9), (8, 9)]
+  This means that the Northwest Ladder at (1, 3) is indeed 100% physically isolated on 2F West, and the southern half is completely isolated as well.
+  Wait! Let's think: is there any other ladder in the cave that we have NOT used?
+  Let's check our map markers on 2F West:
+  - (1, 3): Northwest Ladder (B1F Access)
+  - (19, 7): Ladder 3 (to 1F 18, 9)
+  - (22, 6): Ladder 4 (to 1F 23, 7)
+  - (29, 1): Ladder 2 (to 1F)
+  - (9, 1): Ladder 5 to 1F Northwest
+  - (3, 11): Ladder 6 to 1F Southwest
+  Wait, let's review our 1F map of ladders.
+  Where are the ladders on 1F?
+  - (24, 17): Exit ladder to Cerulean City
+  - (21, 11): One-way dropdown ladder (from 2F?)
+  - (23, 7): Ladder to 2F at (22, 6)
+  - (7, 1): Ladder 5 to 2F West at (6, 1)
+  - (3, 11): Ladder 6 to 2F West at (3, 11)
+  - (1, 3): Northwest Ladder (B1F Access)
+  Wait, what about the one-way dropdown ladder at (21, 11) on 1F?
+  Does that ladder lead DOWN from 2F?
+  If so, where is the corresponding ladder on 2F?
+  Let's look at 2F West or 2F East:
+  Is there a ladder on 2F that warps the player to 1F at (21, 11)?
+  Wait! Let's search our notepads or our memory for "one-way" or "21, 11" or "dropdown".
+  Let's think. In Cerulean Cave (also known as Unknown Dungeon) in Pokemon Red/Blue, how is the basement (B1F) reached?
+  Wait, in the vanilla Pokemon Red/Blue:
+  - Cerulean Cave 1F has water canals.
+  - Cerulean Cave 2F is a maze of rocks with many items.
+  - Cerulean Cave B1F is where Mewtwo is.
+  Wait, how do we reach B1F?
+  Let's think. To reach B1F:
+  Is there a ladder on 1F that goes directly down to B1F?
+  Wait! In Cerulean Cave, the stairs to B1F are located on the left side of 1F?
+  Yes! In the northwest quadrant of 1F.
+  But wait, how is the northwest quadrant of 1F reached?
+  Wait, let's think: is there a ladder on 1F that goes UP to 2F, and then on 2F we walk to a ladder that goes DOWN to 1F?
+  Wait, let's look at the Northwest Ladder at (1, 3) on 2F.
+  Wait, (1, 3) on 2F is indeed a ladder. But we just proved that (1, 3) on 2F is isolated.
+  Wait, let's check: is (1, 3) on 1F isolated as well?
+  "Row 1 is blocked at (4, 1). Row 2 is blocked at (4, 2). Row 3 is blocked at (5, 3). Row 4 is blocked at (6, 4). Row 5 is blocked at (6, 5). This definitively and empirically proves that the northwest landing at (7, 1) on 1F is 100% physically isolated on foot from the Northwest Ladder at (1, 3) on 1F. There is absolutely no on-foot shortcut on 1F."
+  Wait, what about the water canal on 1F?
+  Can we surf to (1, 3) on 1F?
+  Wait! Is there a water canal on the west side of 1F?
+  Let's look at the map of 1F:
+  "While Rows 4-5 are blocked horizontally at Column 13 by solid rock walls (TYPE_2889), the eastern and western water canal systems are bidirectionally connected via the open water on Rows 6-7, making continuous water navigation fully possible across the entire northern half of 1F. Verified on Turn 112918."
+  Wait, the western water canal is on columns 8-9?
+  Where does the western water canal go?
+  "The western vertical canal (Columns 8-9) is a dead end on Row 16... southern boundary of the western canal on Rows 16-17 across Columns 8-11 is a solid, continuous rock wall"
+  But what about the NORTH side of the western water canal?
+  Does the western water canal go north to Row 0, 1, 2?
+  Let's check!
+  Can we surf from the western water canal (Columns 8-9) to the west (Columns 0-7)?
+  Let's look at our 1F water canal notes:
+  - Water Ramp 4 is at (15, 3) on 1F.
+  - Water Ramp 2 is at (11, 13) on 1F.
+  Wait, are there any other water ramps on 1F?
+  Let's check if there is a Water Ramp in the northwest or southwest?
+  Wait, let's think: is there any water on the west side of the map?
+  Let's write a python script to search for "Water Ramp" or "water" in our CeruleanCave notepads to see what we've mapped of 1F!
+  Wait, we already did a search for "B1F". Let's search our notepads for "Ramp" or "Water" in Cerulean Cave to see if we've found other ramps on 1F.
 
 <hr>
 
