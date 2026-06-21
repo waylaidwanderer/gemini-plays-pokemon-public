@@ -3,7 +3,7 @@
 - Goal: Enter Cerulean Cave and catch Mewtwo.
 
 ## Current Status & Progression
-- Currently standing on 2F West at (7, 3) on foot.
+- Currently standing on 1F at (17, 14) on foot.
 
 ## Active Hypothesis on 2F West Topology
 - Hypothesized Blockages on 2F West:
@@ -13,8 +13,12 @@
   - Column 2 Row 12 (2, 12) is physically verified blocked on foot (Turn 115454: standing at (2, 11), pressed Down, bumped, remained at (2, 11)).
 
 ## Master Routing Plan
-- We are currently on 1F Northwest landmass.
+- We have completely disproven the 1F Northwest on-foot shortcut by physically testing (4, 1), (4, 2), and (5, 3) and verifying they are solid rock walls (Turns 115518, 115542, 115543).
+- We have successfully returned to the central platform at (17, 14) on foot.
 - Next Steps:
-  1. Walk on foot west from our current position (15, 3) toward (7, 1) (Ladder 5).
-  2. From (7, 1), continue walking Left and Down on foot to test if (7, 1) and the Northwest Ladder (1, 3) are on the same continuous landmass.
-  3. Document all results with exact turns and outcomes.
+  1. Walk Down the stairs at (17, 15) to reach (17, 16) on the ground floor.
+  2. Walk Left along Row 17 on the ground floor all the way to (1, 14).
+  3. Walk Up the wooden stairs at (1, 13) to reach (1, 12) on the elevated southwest plateau.
+  4. Climb Southwest Ladder 6 at (3, 11) to reach 2F West.
+  5. On 2F West, test if the southwest region (Columns 0-7, Rows 10-13) has an open on-foot path to Column 0 Row 5 (0, 5), allowing us to reach the Northwest Ladder (1, 3).
+  6. Document all results with exact turns and outcomes.
