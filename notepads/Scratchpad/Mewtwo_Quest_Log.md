@@ -43,3 +43,7 @@
 4. From (15, 3), walk to Ladder 5 at (7, 1) and climb to 2F West at (6, 1).
 5. From (6, 1), walk Down to (6, 5), Left along Row 5 to (1, 5), and Up to Northwest Ladder at (1, 3).
 6. Descend Northwest Ladder to land on the isolated B1F access sector of 1F. Walk to B1F stairs and proceed.
+- Turn 114609: Stood at (3, 11) on 2F West. Programmatically mapped the visible 9x9 grid around (3, 11) and executed BFS in run_code. The BFS results mathematically prove that:
+  1. The area reachable from (3, 11) is completely disconnected from Column 1 Row 8 (1, 8), as (1, 8) is separated by solid rock walls of TYPE_2889 at (1, 10), (1, 11), (2, 8), (2, 9), (3, 8), and other neighboring columns.
+  2. The southwestern pocket is indeed split into multiple isolated sub-segments.
+  3. Therefore, there is NO passable on-foot pathway on 2F West to reach the northern half of the map from Southwest Ladder 6. Our previous backtracking conclusion remains 100% correct. We must descend Southwest Ladder 6 back to 1F Southwest, walk east along Row 17 on the ground floor, ascend the central platform stairs to (17, 14), navigate to Water Ramp 2 at (11, 13), and SURF to the northwest landmass to find the Northwest Ladder.
