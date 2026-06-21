@@ -8309,7 +8309,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - *Connection Proof*: On Turn 112818, we discovered that Rows 6 and 7 on Column 13 are completely open, passable water, which we successfully traversed on Turn 113044 and Turn 113066 to surf horizontally between the eastern and western halves of the cave.
 
 - **Ladder 5**:
-  - Located on 1F at (7, 1) (labeled TYPE_3fe2). Ascending this ladder warps the player to 2F at (6, 1). This is located in the northwest isolated quadrant of 1F.
+  - Located on 1F at (7, 1) (labeled TYPE_3fe2). Ascending this ladder warps the player to 2F at (9, 1). This is located in the northwest isolated quadrant of 1F.
 
 - **Ladder 6 (Southwest Ladder)**:
   - Located on 1F at (3, 11) (labeled TYPE_3fe2, marked with 🪜 map marker). Climbing this ladder warps the player to 2F West at (3, 11).
