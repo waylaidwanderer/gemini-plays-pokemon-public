@@ -30,6 +30,11 @@
   - Turn 114023: Standing at (17, 16) facing Up. Stepping Up 1 step to (17, 15) to climb the central platform stairs.
   - Turn 114028: Standing at (17, 15) facing Up. Stepping Up 1 step to (17, 14) onto the central platform.
 
+## 2F West Row 8 Passability Verification (ACTIVE HYPOTHESIS)
+- Premature Dead End Audit: We previously concluded that the southern and northern halves of 2F West are completely isolated on foot on Row 8 based on testing Columns 3, 9, 10, 11, and 12. However, we did NOT physically test Columns 1, 2, 4, 5, 6, 7, or 8 on Row 8!
+- Visual check suggests some columns might be open or passable. If any of these are open, we can walk from Ladder 6 at (3, 11) directly to the Northwest Ladder at (1, 3) on foot, completely solving the cave's topology!
+- Plan: Climb Ladder 6 to 2F West at (3, 11), and systematically test the passability of Columns 1, 2, 4, 5, 6, 7, and 8 on Row 8 on foot. We will log every test with exact turn numbers and results.
+
 ## Master Routing Solution to Mewtwo (B1F) - VERIFIED PATH
 1. From 1F Southwest ground level, we have successfully backtracked to the central platform stairs and climbed to (17, 14) on the central platform [z=1].
 2. From (17, 14) [z=1], navigate to Water Ramp 2 at (11, 13) [z=1].
