@@ -3,7 +3,7 @@
 - Goal: Enter Cerulean Cave and catch Mewtwo.
 
 ## Current Status & Progression
-- Currently standing on 2F West at (9, 1) on foot.
+- Currently standing on 1F at (12, 1) on foot.
 
 ## Active Hypothesis on 2F West Topology
 - Hypothesized Blockages on 2F West:
@@ -15,36 +15,10 @@
 ## Master Routing Plan
 - We are currently on 1F Northern landmass.
 - Next Steps:
-  1. Walk to Ladder 5 at (7, 1) and climb to 2F.
-  2. Walk on 2F to test Row 8 columns on foot.
-  3. If blocked, proceed with the fallback route to B1F.
-- Turn 115084: We are standing at (9, 5) on 2F West. We have physically verified that (8, 5) is indeed blocked and impassable.
-  - Socratic Question Answer: We have NOT yet physically verified Columns 1, 2, 4, 5, 6, 7, and 8 on Row 8 on foot. We previously assumed Row 8 was completely blocked on 2F West based on testing Columns 3, 9, 10, 11, and 12, but we must test the remaining columns (1, 2, 4, 5, 6, 7, 8) to see if there is an open path connecting the northern and southern halves of 2F West.
-  - Active Strategy:
-    1. We will backtrack to 1F by going up to Ladder 5 at (9, 1) and descending to 1F Northwest.
-    2. From there, we will Surf, go to 1F Southwest, and climb Southwest Ladder 6 to reach 2F West at (3, 11).
-    3. Once on 2F West at (3, 11) (the southern half), we will walk to Row 7/8 and systematically test the passability of Columns 1, 2, 4, 5, 6, 7, and 8 on Row 8 on foot!
-    4. If any column on Row 8 is open (for example, Column 6 Row 8), we can walk directly between the southwest ladder and the northwest ladder on foot! This is a critical topological connection to test.
-    5. If all are blocked, we will proceed with the fallback route to B1F.
-- Turn 115295: Tested passability of Column 8 Row 1 (8, 1) on 2F West on foot. Standing at (9, 1), pressed Left. Result: Successfully walked Left onto (8, 1)! This physically proves that Column 8 Row 1 is completely open and passable!
-- This disproves our previous unverified assumption that the upper-central corridor (Columns 9-14, Rows 1-5) is completely isolated from the western/northern section (Columns 1-8, Rows 1-5).
-- We are currently standing at (8, 1) facing Left.
-- We will systematically walk Left along Row 1 to find how far it extends and verify if we can reach (1, 3) directly on foot!
-- Turn 115325 Reflection Checklist:
-  1. Immediate Execution: We have verified that Row 1 on 2F West is open and connects the northern ladder at (9, 1) directly to Row 3 at Column 3 on foot!
-  2. Notepad Hygiene: Quest log is clean and has verified results of our recent traversal experiments.
-  3. Map Hygiene: Map markers are 100% accurate.
-  4. Custom Tools Ideas:
-     - `cave_route_planner`: A custom tool to verify and plan step-by-step pathways in Cerulean Cave (we have `cave_pathfinder`).
-     - `wild_combat_pp_tracker`: Automatically estimates remaining body slam/surf/blizzard PP.
-     - `mewtwo_encounter_flee_safeguard`: Checks screen content during battle to ensure we do not accidentally flee from Mewtwo.
-     - `item_bag_cleaner`: Plans which trash items can be discarded/deposited to make room.
-     - `coordinate_visual_grounder`: Cross-references player position and screen tile types to prevent coordinate desyncs.
-  5. Tool Maintenance: Existing custom tools are in working order.
-  6. Goal Clarity: Goals are outcome-focused.
-  7. Error Analysis: By directly testing Row 1 Left on foot on Turn 115295, we bypassed the entire southern/southwestern detour and proved that the upper-central and western corridors are directly connected on foot. Let's proceed westward along Row 3 to find the Northwest Ladder!
-- Turn 115344: Verified that (2, 3) is a solid rock wall by bumping into it from (3, 3).
-- Verified that Row 4 is completely blocked across Columns 3-8 on 2F West.
-- Verified that Column 9 Row 2 and Row 6 are blocked, making (9, 5) a dead end since (8, 5) is also blocked.
-- Conclusion: The northern portion of 2F West (Rows 1-3, Columns 3-9) is completely isolated on foot from the rest of 2F West, and cannot reach (1, 3) from the northern ladder at (9, 1).
-- We MUST backtrack to 1F, navigate to the Southwest Ladder at (3, 11), climb to 2F, and use the southern western path to reach (1, 3).
+  1. Walk to Water Ramp 4 at (15, 3) and use SURF to mount the water canal.
+  2. Surf to Water Ramp 2 at (11, 13) and dismount.
+  3. Walk to the central platform stairs at (17, 15) and descend to 1F ground level.
+  4. Walk Left along the Row 17 corridor to reach the southwestern ground level.
+  5. Climb the wooden staircase at (1, 13) to reach the elevated southwest plateau at (1, 12).
+  6. Climb the Southwest Ladder 6 at (3, 11) to reach 2F West at (3, 11).
+  7. On 2F West, systematically test Column 1 Row 11 (1, 11) and Column 1 Row 12 (1, 12) on foot to find if we can bypass the Row 8 blockages and access the Northwest Ladder (1, 3) directly.
