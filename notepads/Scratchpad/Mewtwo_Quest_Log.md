@@ -3,7 +3,7 @@
 - Goal: Enter Cerulean Cave and catch Mewtwo.
 
 ## Current Status & Progression
-- Backtracking on 1F Southwest, currently at (14, 17) on the Row 17 ground-floor corridor.
+- Currently backtracking on 1F, standing at (15, 2) on the northern landmass.
 
 ## 2F Exploration Discoveries & Pathing Notes
 - Socratic Test Hypothesis: Column 9 and Column 13 on 2F West might be vertically passable. Once we climbed Ladder 5 to 2F West, we tested their vertical passability on foot.
