@@ -37,3 +37,56 @@
 - Turn 113960: Empirically tested Column 11 Row 8 by attempting to walk Up from (11, 9). Result: BUMPED, player remained at (11, 9). This physically and mathematically proves that (11, 8) is a solid, impassable rock wall of TYPE_2889.
 - Next: Walk to (12, 9) and test Column 12 Row 8.
 - Turn 113963: Standing at (12, 9) facing Up. Commencing empirical test of Column 12 Row 8 (labeled TYPE_2889) by pressing Up.
+- Turn 113964: Empirically tested Column 12 Row 8 by attempting to walk Up from (12, 9). Result: BUMPED, player remained at (12, 9). This physically and mathematically proves that (12, 8) is a solid, impassable rock wall of TYPE_2889.
+- Turn 113967: Checked Column 14's vertical alignment. (14, 9) is TYPE_2889 (solid rock wall) and (14, 7) is TYPE_2889 (solid rock wall). This means Column 14 is completely blocked vertically from both the north and south, making a direct vertical test of (14, 8) unnecessary for vertical traversal.
+- Definitive Conclusion: Every single vertical column across Row 8 on 2F West is 100% blocked on foot, meaning 2F West is completely divided into isolated northern and southern sections. The Northwest Ladder at (1, 3) on 2F West is physically unreachable from Southwest Ladder 6 at (3, 11) on 2F West. Our alternative hypothesis is verified, and our previous assumption of 2F West's isolation is correct.
+- Next Strategy: Since 2F West's northern and southern halves are completely disconnected on foot, and Ladder 5 at (7, 1) leads only to the closed northern corridor pocket (Columns 9-14, Rows 1-5), the only remaining way to reach the Northwest Ladder at (1, 3) on 2F West is... wait! Let's re-evaluate how (1, 3) is reached!
+Wait, let's look at the 1F map connections:
+- Northwest Ladder is at (1, 3) on 1F.
+- Is (1, 3) on 1F connected to the rest of the 1F map?
+Wait, our notes say: "The stairs down to B1F are located in the isolated northwestern quadrant of 1F. This isolated quadrant can ONLY be accessed by descending from 2F via a specific ladder located in the northwestern portion of 2F."
+But wait, if (1, 3) on 2F is isolated, and (6, 1) on 2F (Ladder 5 landing) is also in a closed pocket, is there another ladder on 2F that we missed?
+Let's review all the ladders on 2F:
+1. Ladder at (3, 11) (Southwest Ladder 6) -> lands on 1F at (3, 11).
+2. Ladder at (22, 6) (Ladder 4) -> lands on 1F at (23, 7).
+3. Ladder at (29, 1) (Ladder 2) -> lands on 1F at (27, 1).
+4. Ladder at (19, 7) (Ladder 3) -> lands on 1F at (18, 9).
+5. Ladder at (6, 1)? Wait, on 2F West, is there a ladder at (6, 1)?
+Yes, Ladder 5 landing on 2F is at (6, 1). But wait, does it connect to (1, 3) on 1F or on 2F?
+Wait! Let's write a python script to run a BFS or look at the tiles we walked over on 2F West, or let's read the Cerulean Cave map description in detail.
+Let's see: Is there any other ladder on 1F?
+Let's look at 1F water canal and platforms.
+Wait! Let's write a python script to inspect the `Locations/CeruleanCave` notepad and analyze all the ladder listings, and check if there's any other ladder.
+Actually, we can load and search the notepads. We have already loaded `Locations/CeruleanCave`.
+Let's read `Locations/CeruleanCave` again. It lists:
+- **Ladder (24, 17)**: Leads out of Cerulean Cave to Cerulean City.
+- **Ladder (21, 11)**: Labeled TYPE_4b8d. One-way dropdown ladder; cannot be used to ascend from 1F.
+- **Ladder (23, 7)**: Labeled TYPE_3fe2. Interacting with or stepping onto this tile immediately warps the player to 2F at (22, 6).
+- **Ladder (22, 6) [2F]**: Connects back down to 1F at (23, 7).
+- **Ladder 2**: Located at (29, 1) on 2F connects to (27, 1) on 1F.
+- **Ladder 3**: Located at (19, 7) on 2F connects to (18, 9) on 1F.
+- **Ladder 5**: Located on 1F at (7, 1). Ascending this ladder warps the player to 2F at (6, 1).
+- **Ladder 6 (Southwest Ladder)**: Located on 1F at (3, 11). Climbing this ladder warps the player to 2F West at (3, 11).
+- **Northwest Ladder (B1F Access)**: Located on 1F at (1, 3). Ascending this ladder warps the player to 2F at (1, 3). Descending this ladder warps the player to 1F at (1, 3). This is the critical gateway to the northwest isolated quadrant of 1F and the B1F stairs.
+
+Wait, if Northwest Ladder is at (1, 3) on 1F, and it connects to (1, 3) on 2F, how do we get to (1, 3) on 2F?
+Wait, is (1, 3) on 2F really isolated from (6, 1) on 2F?
+Let's check:
+"Column 2 Row 0-4 Blockage: Verified on Turn 112893 that Column 2 is a solid rock wall (TYPE_2889) across Rows 0-4, blocking direct horizontal crossover on the north side."
+Wait! If Column 2 is blocked across Rows 0-4, does Column 2 Row 5 block?
+Let's check our notes! It says "across Rows 0-4". It doesn't say Row 5 is blocked!
+Wait, is Column 2 Row 5 passable?
+Let's look at the current screen:
+- (12, 5) is TYPE_3fe2.
+- Is Column 2 Row 5 passable on 2F West?
+If Column 2 Row 5 is passable, we can walk from Column 6 on Row 5 to Column 1!
+Let's check if we can walk from (6, 1) (where we land from Ladder 5) to (1, 3) via Row 5!
+Wait! Let's check our notes on 2F West:
+- "These rigorous empirical tests mathematically and physically prove that the upper-central corridor of 2F West (Columns 9-14, Rows 1-5) is completely and permanently isolated on foot from the western/southern sections of 2F West. There is no on-foot path between them. Climbing Ladder 5 at (7, 1) on 1F lands us in this closed pocket."
+Wait, if Ladder 5 landing is at (6, 1) on 2F, is (6, 1) connected to (1, 3)?
+Let's search our notepads for "(1, 3)" or "Northwest Ladder".
+We did a search earlier and saw:
+`[Locations/CeruleanCave] L70: - Located on 2F at (1, 3) (labeled [=], TYPE_3fe2). Descending this ladder warps the player to 1F at (1, 3). This is the critical gateway to the northwest isolated quadrant of 1F and the B1F stairs.`
+Let's check if there's any other mention of (1, 3).
+Wait, let's write a python script to search all notepads for `(1, 3)` or `1, 3`.
+We can use `search_notepads` tool! Let's search for "1, 3". (But wait, `search_notepads` with fuzzy or literal search "1, 3" will show many coordinates, but we can do a search for "(1, 3)"). Let's do that.
