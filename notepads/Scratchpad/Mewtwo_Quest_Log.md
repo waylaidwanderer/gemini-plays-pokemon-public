@@ -6,15 +6,6 @@
 - Surfing on 1F canal. Current position: (9, 10). Navigating to Water Ramp 2 at (11, 13) to access the southwestern ground level and reach Ladder 6 at (3, 11).
 
 ## 2F Exploration Discoveries & Pathing Notes
-- Turn 113127: Descended staircase at (17, 15) to access the ground floor of Cerulean Cave 1F.
-- Turn 113146: Climbed wooden staircase at (1, 13) to access the elevated southwest plateau.
-- Turn 113171: Climbed Ladder 6 to reach 2F West.
-- Turn 113207: Confirmed that 2F West (13, 11) is a solid, impassable wall.
-- Turn 113224: Confirmed that 2F West (22, 9) is a solid, impassable wall.
-- Turn 113245: Descended Ladder 6 to return to 1F.
-- Turn 113263: Returned to Water Ramp 2 at (11, 13).
-- Turn 113294: Mounted water and surfed north to explore Column 8 canal.
-- Turn 113304: Dismounted back onto Water Ramp 2 at (11, 13).
 ## Socratic Quest / Route Verification Protocol
 - Turn 113270: Current position is 1F (11, 13) on Water Ramp 2. Let's analyze our progress.
 - Goal: Access B1F.
