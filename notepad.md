@@ -8294,6 +8294,9 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 114205: Walked Down 1 step to (5, 2). Standing at (5, 2) facing Left, attempted to walk Left onto (4, 2). Result: BUMPED (0 tiles visited, remained at (5, 2)). This physically and empirically proves that Column 4 Row 2 consists of a solid rock wall of TYPE_2889, blocking all horizontal passage to the west on Row 2 as well.
 - Conclusion for Socratic Question 3: Row 1 is blocked at (4, 1). Row 2 is blocked at (4, 2). Row 3 is blocked at (5, 3). Row 4 is blocked at (6, 4). Row 5 is blocked at (6, 5). This definitively and empirically proves that the northwest landing at (7, 1) on 1F is 100% physically isolated on foot from the Northwest Ladder at (1, 3) on 1F. There is absolutely no on-foot shortcut on 1F.
 - Verified Path: We must execute the backtrack detour: walk to Water Ramp 4 at (15, 3), surf back to Water Ramp 2 at (11, 13), walk to 1F Southwest, and climb Southwest Ladder 6 at (3, 11) to reach the western side of 2F West, where we can walk to (1, 3) and descend to B1F.
+- Turn 114215: Confirmed player position is at (15, 3) facing Down. Ready to initiate SURF to backtrack to Water Ramp 2 at (11, 13).
+- Verification: Standing on (15, 3) (TYPE_4b8d, Water Ramp 4).
+- Plan: Open start menu, go to POKéMON, select GEMMY, and select SURF to enter the water canal at (15, 4).
 
 <hr>
 
