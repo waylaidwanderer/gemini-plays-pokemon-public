@@ -51,3 +51,4 @@
     - Let's double-check all paths to (1, 3) on 2F West.
     - Let's review the rock walls on 2F West.
     - Let's do a search for "2F West" in our notepads to find any other details.
+- Turn 113322: Standing at (16, 17) in the southern horizontal corridor on Row 17. Planning to walk Left along Row 17 to reach the southwest plateau staircase. Row 17 is fully passable from Column 16 to at least Column 12 on foot.
