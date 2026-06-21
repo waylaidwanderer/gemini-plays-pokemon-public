@@ -97,3 +97,4 @@ We can use `search_notepads` tool! Let's search for "1, 3". (But wait, `search_n
 - Turn 113977: Triggered a wild Level 52 Rhydon encounter at (6, 9) on Row 9 while walking Left. Escaping immediately.
 - Turn 113984: Reached (3, 9). Column 3 Row 8 (3, 8) is labeled TYPE_2889 in the grid overlay, but we must empirically test it on foot. Commencing test by pressing Up.
 - Turn 114002: Arrived at (2, 17) facing Down. Commencing horizontal walk Right along Row 17. Walking 5 steps Right to reach (7, 17).
+- Turn 114007: Standing at (7, 17) facing Right. Walking Right 5 steps along Row 17 to reach (12, 17).
