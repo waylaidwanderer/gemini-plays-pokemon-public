@@ -3,7 +3,7 @@
 - Goal: Enter Cerulean Cave and catch Mewtwo.
 
 ## Current status & Progression
-- Exploring the southwest 1F elevated plateau on foot.
+- Navigating the corridors of 2F West to find a path to the northwest ladder.
 
 ## 2F Exploration Discoveries & Pathing Notes
 - Turn 112555: Tested passability of (8, 5) on 2F West. Stood at (9, 5) and pressed Left. Result: Did not change coordinates, received "pressed 1 movement buttons, but visited 0 tiles" system warning. Conclusion: (8, 5) is definitively an impassable rock wall, proving that the Lower Band (Rows 5-7) on the west cannot be accessed from Column 9 on Row 5 on foot.
