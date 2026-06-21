@@ -34,7 +34,7 @@
 - **(16, 13) Rock Wall Blockage (Verified Turns 112374, 112378)**:
   - While labeled as TYPE_3fe2 (open ground) in the visual overlay, (16, 13) is physically a solid, impassable rock wall.
   - Verification: On Turn 112374 and Turn 112378, standing at (17, 13), attempting to walk Left to (16, 13) resulted in zero coordinate change, proving that (16, 13) is impassable.
-  - This definitively proves that the eastern section of 2F is blocked from navigating westwards at Row 13, and since Row 11 is blocked at (13, 11) and Row 16 is a solid horizontal wall, 2F East is physically disconnected from 2F West on foot. Our connectivity hypothesis is falsified. We must use the 1F water canal and find a western/southern ladder to access 2F West.
+  - This definitively proves that the eastern section of 2F is blocked from navigating westwards at Row 13. Since Row 16 is a solid horizontal wall, and the transition at Row 11 past (13, 11) remains an untested hypothesis, 2F East appears to be physically disconnected from 2F West on foot. Until (13, 11) is empirically tested, we will proceed under the hypothesis that they are disconnected, requiring us to use the 1F water canal and find a western/southern ladder to access 2F West.
 
 ## Topological Connectivity and Progression Path to Mewtwo:
 - **B1F Access**: The stairs down to B1F are located in the isolated northwestern quadrant of 1F.
