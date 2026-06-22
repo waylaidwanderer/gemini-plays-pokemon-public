@@ -8947,3 +8947,43 @@ Let's search our notepads for 2F coordinates or write a custom tool to do BFS on
 - Let's climb the ladder at (3, 11) now and verify the layout of 2F West.
 
 <hr>
+
+<h1><code>Reflection/Turn117565_Reflection</code></h1>
+
+# Self-Assessment & Reflection (Turn 117565)
+
+## 1. Immediate Execution
+- Progress over the last 50 turns: Successfully completed exploration of the southwest corridors of 2F West. Ascended Southwest Ladder 6 multiple times to fully map out coordinate pathways, validating that 2F West is indeed separated on foot by the Row 8 solid rock barrier.
+- Returned to 1F Central Platform on foot via the central stairs.
+- Opened the Party Menu at (11, 13) and successfully activated SURF.
+- Navigated on water from (11, 14) along the water canal, stepping Left to Column 8 and Up to (8, 8).
+- We are currently standing at (8, 8) on the water. No deferred tasks are pending.
+
+## 2. Notepad Hygiene
+- Maintained a clean layout in Scratchpad/Mewtwo_Quest_Log and Locations/CeruleanCave.
+- Verified that our active routing is based on empirical, tested coordinates.
+
+## 3. Map Hygiene
+- All map markers are perfectly accurate and match the location landmarks on 1F (e.g. Water Ramp 2 at (11, 13) and Water Ramp 4 at (15, 3)).
+
+## 4. Custom Tools Ideas
+1. `mewtwo_catch_calculator` - Estimates Mewtwo capture rate based on HP, status, and ball.
+2. `repel_tracker` - Tracks Repel steps to maximize protection against wild encounters.
+3. `tile_passability_mapper` - Programmatically logs tested coordinates and their passability.
+4. `battle_flee_coordinator` - Automatically runs from wild battles and keeps Blastoise's PP/HP high.
+5. `navigation_step_verifier` - Ensures each step matches expectations to avoid the predictive trap.
+
+## 5. Tool Maintenance
+- Checked all custom tools. No broken tools are present.
+
+## 6. Goal Clarity
+- Goals are outcome-focused:
+  - Primary: "Catch Mewtwo in Cerulean Cave B1F"
+  - Secondary: "Surf from Water Ramp 2 to Water Ramp 4 on Cerulean Cave 1F"
+  - Tertiary: "Flee wild encounters to preserve Blastoise's health"
+  - Navigation: "Water Ramp 4 at (15, 3) on 1F"
+
+## 7. Error Analysis & Hypothesis Review
+- Corrected previous assumptions: We have definitively verified that 2F West's northern corridor (where Ladder 5 lands) is isolated from (1, 3) on foot, which means we must backtrack to the northwest isolated quadrant of 1F via the 1F water canals to reach Ladder 5 at (7, 1). This is our current active path.
+
+<hr>
