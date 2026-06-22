@@ -8269,6 +8269,16 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 3. Ascend Ladder 5 to arrive on 2F West at (9, 1)
 4. Navigate 2F West on foot via Row 1 to Northwest Ladder (1, 3)
 5. Descend to 1F Northwest and proceed to B1F stairs!
+## Backtracking Progress (Turn 116991):
+- We walked Left along Row 17 from (17, 16) to (3, 17) on foot, verifying Y=17 is completely open.
+- Planned Route to Southwest Ladder 6 at (3, 11):
+  1. Walk Left to (2, 17)
+  2. Walk Up 3 steps along Column 2 to (2, 14)
+  3. Walk Left to (1, 14)
+  4. Walk Up 2 steps to ascend the staircase at (1, 13) to (1, 12) on the elevated plateau
+  5. Walk Right 2 steps along Row 12 to (3, 12)
+  6. Walk Up to (3, 11) to climb Southwest Ladder 6 to 2F West!
+- We will execute this chunk of button presses and verify each step.
 
 <hr>
 
