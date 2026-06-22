@@ -18,3 +18,4 @@
 
 ## Current Navigation Goal:
 - Walk Down from (3, 1) to (3, 5) on 2F West.
+- Turn 116494: Currently surfing at (9, 9) in the western water canal of Cerulean Cave 1F. Planning to move south to Row 13 and then east to reach Water Ramp 2 at (11, 13).
