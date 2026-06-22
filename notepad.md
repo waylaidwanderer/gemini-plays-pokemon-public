@@ -9045,3 +9045,35 @@ Let's search our notepads for 2F coordinates or write a custom tool to do BFS on
   - Take the stairs on 1F Northwest down to B1F!
 
 <hr>
+
+<h1><code>Reflection/Turn118576_Reflection</code></h1>
+
+# Reflection - Turn 118576
+
+## 1. Progress and Deferred Tasks Over the Last 50 Turns
+- **Progress**: Successfully navigated from 2F West Southwest pocket (proving it is isolated) back to 1F Southwest. Walked on foot to the central platform, climbed up to (11, 13) Water Ramp 2, used SURF, and surfed Left 2 and Up 4 to stand at (9, 7) on the water.
+- **Current Position**: (9, 7) on Map 0_228 (Cerulean Cave 1F) surfing on the open water of Row 7.
+- **Next immediate goal**: Surf east along Row 7 to Column 14, surf up Column 14, and dismount north onto Water Ramp 4 at (15, 3).
+
+## 2. Notepad and Map Hygiene
+- **Notepads**: Keeping Scratchpad/Mewtwo_Quest_Log and Locations/CeruleanCave fully detailed and updated with proof of work for every single tile tested.
+- **Map Markers**: All 1F map markers are highly accurate and synchronized with visual landmarks.
+
+## 3. Master Backtracking Route to Mewtwo
+The unblocked master path to reach Mewtwo in B1F:
+1. Surf on 1F from (11, 14) to (15, 3) (Water Ramp 4). [In progress, currently at 9, 7]
+2. Walk on foot from (15, 3) to (7, 1) [Ladder 5].
+3. Ascend Ladder 5 to reach 2F West at (9, 1).
+4. Walk Left along Row 1 on 2F West to (3, 1), then Down to Northwest Ladder (1, 3).
+5. Descend Northwest Ladder (1, 3) to 1F Northwest.
+6. Take the adjacent stairs to descend to B1F.
+7. Navigate B1F to find and battle Mewtwo.
+
+## 4. Short-Term Step-by-Step Path from (9, 7) to (15, 3)
+- (9, 7) -> Right 5 steps to (14, 7)
+- (14, 7) -> Up 3 steps to (14, 4)
+- (14, 4) -> Right 1 step to (15, 4)
+- (15, 4) -> Up 1 step to (15, 3) [Water Ramp 4 landing]
+Total: 10 steps. No grass or solid obstacles. Flee wild water encounters immediately.
+
+<hr>
