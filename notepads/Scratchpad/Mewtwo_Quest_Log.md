@@ -113,3 +113,7 @@
 - Step 2: Walk Right 6 steps to (17, 9)
 - Step 3: Walk Down 6 steps to stairs at (17, 15) to descend to 1F ground floor.
 - Total steps: 16 steps. We will execute this in chunks and watch out for wild encounters.
+## Backtracking Progress Update (Turn 117182):
+- Currently standing at (17, 14) on the 1F central platform.
+- Route: Down to (17, 15), Down to (17, 16), Left to (16, 16), Down to (16, 17), then Left to (2, 17).
+- Executing first chunk: ['Down', 'Down', 'Left'] to reach (16, 16).
