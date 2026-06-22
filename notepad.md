@@ -8614,3 +8614,42 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Verified that Southwest Ladder 6 at (3, 11) is indeed a 2-tile pocket on 2F West, which confirms that 2F West's south pocket is completely isolated on foot from the north. Descending this ladder is the only topologically valid progression path.
 
 <hr>
+
+<h1><code>Reflection/Turn116495_Reflection</code></h1>
+
+# Self-Assessment & Reflection (Turn 116495)
+
+## 1. Immediate Execution
+- Progress over the last 50 turns: We successfully finished exploring 2F West's south pocket, proved that it is isolated from the north, and backtracked back to 1F. We used Surf from the ramp at (15, 3) and are currently surfing down the western water canal to (9, 9).
+- No deferred tasks are pending. We are actively executing our master route to reach B1F.
+
+## 2. Notepad Hygiene
+- Cleaned up our main progress logs.
+- Documented our current route and intermediate steps.
+- All mechanics are rigorously updated.
+
+## 3. Map Hygiene
+- Verified all map markers on 1F and 2F of Cerulean Cave. They are 100% correct and highly precise.
+
+## 4. Custom Tools & Agents Ideas
+1. `mewtwo_catch_calculator` - Estimates Mewtwo capture rate based on HP, status, and ball.
+2. `repel_tracker` - Tracks Repel steps to maximize protection against wild encounters.
+3. `tile_passability_mapper` - Programmatically logs tested coordinates and their passability.
+4. `battle_flee_coordinator` - Automatically runs from wild battles and keeps Blastoise's PP/HP high.
+5. `navigation_step_verifier` - Ensures each step matches expectations to avoid the predictive trap.
+
+## 5. Tool Maintenance
+- Checked all custom tools. No broken tools or workarounds are present.
+
+## 6. Goal Clarity
+- Goals are outcome-focused:
+  - Primary: "Catch Mewtwo in Cerulean Cave B1F"
+  - Secondary: "Dismount at Water Ramp 2 and walk to Southwest Ladder 6 at (3, 11)"
+  - Tertiary: "Flee wild encounters to preserve Blastoise's health"
+  - Navigation: "Water Ramp 2 at (11, 13) on 1F"
+
+## 7. Error Analysis & Hypothesis Review
+- We successfully disproved the unverified assumptions about 2F West's south pocket, avoiding a permanent search loop.
+- We are navigating along the verified master path. Next step is landing at (11, 13) on 1F.
+
+<hr>
