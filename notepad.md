@@ -8367,6 +8367,7 @@ We are actively backtracking to 1F Northwest via Ladder 5. We will navigate the 
     - Step 3: (13, 9) -> Up to (13, 8)
     - Step 4: (13, 8) -> Right to (14, 8)
     - Step 5: (14, 8) -> Right to (15, 8)
+- Turn 119409: Fled the wild Rhydon at (10, 9). Continuing on-foot path west along Row 9. We will execute the next chunk: ['Left', 'Left', 'Left', 'Left'] to reach (6, 9).
 
 <hr>
 
