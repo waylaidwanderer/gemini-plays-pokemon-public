@@ -70,3 +70,5 @@ We are actively backtracking to 1F Northwest via Ladder 5. We will navigate the 
 - Turn 118996: Successfully escaped the Raichu battle. Currently standing at (2, 17) on ground level facing Up. We will walk Up 2 steps to (2, 15).
 - Turn 119009: Standing at (2, 15) facing Up. We will walk Up 1, Left 1, Up 1 to climb the wooden staircase at (1, 13) and transition onto the elevated plateau.
   Path: ['Up', 'Left', 'Up'] to reach (1, 13).
+- Turn 119015: Standing at (1, 12) on the elevated plateau facing Down. We escaped the wild Hypno battle. Now we will walk Right 2, Up 1 to reach Southwest Ladder 6 at (3, 11) to ascend to 2F West.
+  Path: ['Right', 'Right', 'Up'] to reach (3, 11).
