@@ -8225,9 +8225,9 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Goal: Enter Cerulean Cave and catch Mewtwo.
 
 ## Current Status & Progression
-- Current Turn: 116644
-- Current Position: (3, 1) on Cerulean Cave 2F.
-- Goal: Walk back to Ladder 5 at (9, 1), descend to 1F, and surf directly to Northwest Ladder at (1, 3) on 1F!
+- Current Turn: 116702
+- Current Position: (3, 11) on Cerulean Cave 2F.
+- Goal: Explore 2F West systematically to resolve the crossover mystery and reach Northwest Ladder at (1, 3).
 
 ## Master Routing Plan from 1F Ground Floor to 2F West (via Southwest Ladder 6):
 1. Walk from (5, 17) to (2, 17) [Left x3].
