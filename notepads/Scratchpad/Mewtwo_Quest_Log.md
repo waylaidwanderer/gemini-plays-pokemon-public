@@ -22,3 +22,11 @@
   4. Climb Ladder 5 at (7, 1) on 1F Northwest.
   5. On 2F West, walk left along Row 1 and down to the Northwest Ladder at (1, 3).
   6. Descend the Northwest Ladder to 1F Northwest and access the B1F stairs!
+- Turn 116227: We are at (9, 1) on 2F West. Our next milestone is walking Left along Row 1 to (3, 1), and then Down to (3, 3) and Left to Northwest Ladder (1, 3).
+- Let's check the tiles on Row 1:
+  - (9, 1) is where we are.
+  - (8, 1) is TYPE_3fe2 (passable).
+  - (7, 1) is TYPE_3fe2 (passable).
+  - (6, 1) is TYPE_3fe2 (passable).
+  - (5, 1) is TYPE_3fe2 (passable).
+- Let's walk Left 6 steps to reach (3, 1). We will check each step carefully.
