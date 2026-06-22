@@ -3,9 +3,9 @@
 - Active Goal: Enter Cerulean Cave and catch Mewtwo.
 
 ## Current Status & Progression
-- Current Turn: 116714
-- Current Position: (3, 11) on Cerulean Cave 2F.
-- Goal: Descend Southwest Ladder 6 to 1F, return to the water, and test the Row 4-5 direct surfing shortcut to B1F!
+- Current Turn: 116963
+- Current Position: (11, 13) on Cerulean Cave 1F.
+- Goal: Backtrack to 1F Southwest on foot, climb Southwest Ladder 6 at (3, 11) to reach 2F West, and use Northwest Ladder (1, 3) to reach B1F!
 
 ## Verified 1F Surfing Shortcut Plan:
 1. Descend Southwest Ladder 6 at (3, 11) to arrive on 1F Southwest.
