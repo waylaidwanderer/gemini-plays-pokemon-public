@@ -8346,6 +8346,19 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Path coordinates: (3, 11) -> (3, 10) -> (3, 9) -> (4, 9) -> (5, 9) -> (6, 9) -> (7, 9) -> (8, 9) -> (9, 9) -> (9, 8) -> (9, 7) -> (8, 7) -> (7, 7) -> (6, 7) -> (5, 7) -> (4, 7) -> (3, 7) -> (2, 7) -> (2, 6) -> (2, 5) -> (1, 5) -> (1, 4) -> (1, 3).
 - We will execute this on-foot route and verify each step. No surfing on 1F is needed anymore because 2F West is accessible and the path is open!
 - Moves: ['Up', 'Up', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Up', 'Up', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Up', 'Up', 'Left', 'Up', 'Up']
+## Path to Northwest Ladder (1, 3) on Foot (Turn 117627):
+- **Observation**: We successfully walked to (8, 1) and revealed the eastern corridor on 2F West. We verified that Column 10 (Rows 1-4) and Column 8 (Rows 4-5) are blocked by solid rock walls (TYPE_2889). However, Column 5 has a passable vertical bridge at (5, 2) that connects Row 1 and Row 3, and Row 4 has a passable gap at (9, 4) that connects Row 3 and Row 5!
+- **Verified Path**:
+  1. Walk Left 3 steps from (8, 1) to (5, 1).
+  2. Walk Down 2 steps via the vertical bridge at (5, 2) to reach (5, 3).
+  3. Walk Right 4 steps along Row 3 to reach (9, 3).
+  4. Walk Down 2 steps through the gap at (9, 4) to reach (9, 5).
+  5. Walk Right 1 step to (10, 5).
+  6. From (10, 5), go Down to (10, 7) and walk Left all the way to Column 0 on Row 7.
+  7. Walk Up along Column 0 to (0, 3) and Right 1 step onto the Northwest Ladder at (1, 3).
+- **Execution Plan**: We will execute the first chunk of this path on foot: Left, Left, Left, Down, Down, Right, Right, Right, Right, Down, Down, Right. This will place us at (10, 5), ready to explore Row 6 & 7!
+- Moves: ['Left', 'Left', 'Left', 'Down', 'Down', 'Right', 'Right', 'Right', 'Right', 'Down', 'Down', 'Right']
+
 ## Route 117547: Resuming the Surfing Journey
 - Turn 117547: We successfully activated SURF. We are currently surfing on the water at (11, 14), facing Down.
 - Planned water path to reach (15, 3) (Water Ramp 4):
