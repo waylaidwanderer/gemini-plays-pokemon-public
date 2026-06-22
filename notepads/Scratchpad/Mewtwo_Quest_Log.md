@@ -147,3 +147,7 @@
   5. Walk Up 2 steps to (15, 4).
   6. Dismount Up onto Water Ramp 4 at (15, 3).
 - We will execute this in small chunks to avoid getting lost and to handle any wild encounters.
+## 2F West Navigation Progress (Turn 117710):
+- Standing at (4, 3) on 2F West after successfully walking Left, Left, Down, Down, Right from (5, 1).
+- Next target: (10, 5) off-screen, then proceed down to Row 7 to navigate to (1, 3).
+- Path: Right, Right, Right, Right, Right to (9, 3), Down, Down to (9, 5), Right to (10, 5).
