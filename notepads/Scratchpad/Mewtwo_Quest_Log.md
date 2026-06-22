@@ -29,3 +29,8 @@
   4. Right to (17, 16)
   5. Up to (17, 15) [Stairs]
   Total: 5 steps. We will now execute this sequence.
+- Turn 118564: Standing at (15, 13) on 1F Central Platform. We will now navigate to Water Ramp 2 at (11, 13) via the following path:
+  1. Up to (15, 12)
+  2. Left 4 steps to (11, 12)
+  3. Down 1 step to (11, 13)
+  Total: 6 steps. We will stand at (11, 13) facing Down towards the water at (11, 14) and use SURF to mount the water canals.
