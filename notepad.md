@@ -8220,25 +8220,27 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
-# Mewtwo Quest Log (Post-Game)
-- Started: Turn 111394 on Sunday, June 21, 2026 at 9:15 PM PDT
-- Active Goal: Enter Cerulean Cave and catch Mewtwo.
+# Post-Game Mewtwo Quest Plan & Logs
+- Quest Started: Turn 111394
+- Active Goal: Reach Cerulean Cave B1F on foot to locate and capture Mewtwo.
 
-## Current Status & Progression
-- Current Turn: 118023
-- Current Position: (8, 17) on Cerulean Cave 1F Southwest on foot.
-- Verified Fact: Column 2 Row 1 (2, 1) is a solid rock wall (TYPE_2889). Physically tested on Turn 117957/117958 and bumped, proving it is impassable.
-- Active Plan: Since 2F West's northern corridor (Component 1) is completely isolated on foot from the western/southern corridors (Component 3), we must backtrack to 1F Southwest on foot, and climb Southwest Ladder 6 at (3, 11) to reach Component 3. From (3, 11) on 2F West, the path to the Northwest Ladder (1, 3) is completely open and passable via Column 0!
+## Topological Realities & Floor Layout Analysis
+- **2F West Layout Partitioning**:
+  - **Component 1 (Northern Section)**: Contains Ladder 5 (9, 1) and the northern corridors. Directly connected to the Northwest Ladder (1, 3).
+  - **Component 3 (Southern/Western Section)**: Contains Southwest Ladder 6 (3, 11), Row 9 horizontal corridor, and several small dead-end pockets.
+  - **The Barrier**: Row 8 contains solid rock walls across all columns from 3 to 12. Row 10 contains solid rock walls across columns 13 to 20, isolating Row 9. Row 7 contains solid walls from (13, 7) to (17, 7). Thus, Component 1 and Component 3 are completely disconnected on foot on 2F West.
+- **The True Path to Mewtwo**:
+  1. Descend Southwest Ladder 6 at (3, 11) to 1F Southwest.
+  2. Walk on foot down the stairs and East along Row 17 on the ground floor to the central platform stairs at (17, 15).
+  3. Walk Up/Left on the central platform to Water Ramp 2 at (11, 13).
+  4. Surf North/East to the eastern water canal, loop back West along Rows 6-7 to the northern water canal, and dismount at Water Ramp 4 at (15, 3).
+  5. Walk Left across the northern landmass to Ladder 5 at (7, 1) and climb to 2F West at (9, 1).
+  6. Walk Left along Row 1 to (3, 1), then Down/Left to reach the Northwest Ladder (1, 3).
+  7. Descend the Northwest Ladder (1, 3) to the isolated northwest quadrant of 1F and take the stairs to B1F.
 
-## Climbing to Northwest Ladder (Turn 118105):
-- Currently standing at (13, 9) on Cerulean Cave 2F on foot.
-- We have verified the path to the Northwest Ladder (1, 3) on foot:
-  - Path: (13, 9) -> Up -> (13, 8) -> Right x2 to (15, 8) -> Down to (15, 9) -> Right x4 to (19, 9) -> Up x3 to (19, 6) -> Left x3 to (16, 6) -> Up to (16, 5) -> Left x7 to (9, 5) -> Up x2 to (9, 3) -> Left x8 to (1, 3).
-- Remaining steps: Tracing our way to (1, 3).
-## Verified 2F West Path to Northwest Ladder (1, 3)
-- Path: (3, 9) -> (9, 9) [Right x6] -> (9, 7) [Up x2] -> (6, 7) [Left x3] -> (6, 5) [Up x2] -> (1, 5) [Left x5] -> (1, 3) [Up x2]
-- Total steps: 20 steps on foot.
-- This path bypasses the Row 8 rock wall completely by looping to Row 9, moving east to Column 9, looping north to Row 7, moving west to Column 6, looping north to Row 5, and moving west to Column 1 to reach (1, 3)!
+## Live Navigation Logs:
+- Turn 118237: Standing at (15, 8) on 2F West. Initiating backtracking to Southwest Ladder 6 at (3, 11).
+  - Path to (3, 11): Down to (15, 9) -> Left to (3, 9) -> Down to (3, 11).
 
 <hr>
 
