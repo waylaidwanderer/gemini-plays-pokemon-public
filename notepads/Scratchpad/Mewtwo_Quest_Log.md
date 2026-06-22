@@ -151,3 +151,6 @@
 - Standing at (4, 3) on 2F West after successfully walking Left, Left, Down, Down, Right from (5, 1).
 - Next target: (10, 5) off-screen, then proceed down to Row 7 to navigate to (1, 3).
 - Path: Right, Right, Right, Right, Right to (9, 3), Down, Down to (9, 5), Right to (10, 5).
+## 2F West Return & Northwest Ladder Path (Turn 117852):
+- Successfully bypassed the Column 19 blockage on Row 3 and reached (16, 1) on foot.
+- Active plan: Walk Left 7 steps to (9, 1) along Row 1, and then proceed to the Northwest Ladder at (1, 3) on foot.
