@@ -8,18 +8,16 @@
   - **Component 3 (Southern/Western Section)**: Contains Southwest Ladder 6 (3, 11), Row 9 horizontal corridor, and several small dead-end pockets.
   - **The Barrier**: Row 8 contains solid rock walls across all columns from 3 to 12. Row 10 contains solid rock walls across columns 13 to 20, isolating Row 9. Row 7 contains solid walls from (13, 7) to (17, 7). Thus, Component 1 and Component 3 are completely disconnected on foot on 2F West. Also, on 2F West, (1, 3) is completely isolated in a 1x2 pocket of (1, 2) and (1, 3) bounded by solid rock walls of TYPE_2889 at (2, 1)-(2, 3), (1, 1), and (1, 4), meaning the Northwest Ladder (1, 3) cannot be accessed from Component 1 or Component 3 on 2F West.
 - **The True Path to Mewtwo**:
-  1. Since (1, 3) is isolated on 2F, wait—could the Northwest Ladder (1, 3) be reached from 1F, or is B1F reached via a completely different path?
-  Let's review our assumptions. Is there a different way to access B1F?
-  Yes, B1F is reached by a ladder on 1F, but let's find the correct ladder.
-  Let's analyze if there's a ladder we missed on 1F or if B1F has a direct entrance.
-  Let's do some systematic exploration or verify our assumptions.
+  1. The "58-step southern loop detour" on 2F West has been mathematically and physically disproved (Turn 118420). Column 14, 15, and 16 on Rows 6, 7, and 8 contain solid, impassable wall blockages of TYPE_2889, creating a complete barrier between the north (Row 5) and south (Row 9) sections of 2F West.
+  2. Therefore, Component 1 and Component 3 on 2F West are indeed completely physically isolated on foot.
+  3. The Northwest Ladder (1, 3) is in Component 3, so it CANNOT be reached on foot from Ladder 5 at (9, 1).
+  4. The only way to access the Northwest Ladder (1, 3) on 2F West is via Southwest Ladder 6 at (3, 11) from 1F Southwest!
+  5. The true master path to reach B1F is:
+     - Ascend Southwest Ladder 6 at (3, 11) to 2F West Component 3.
+     - Navigate on 2F West Component 3 from (3, 11) to the Northwest Ladder (1, 3).
+     - Descend Northwest Ladder (1, 3) to 1F Northwest.
+     - Take the stairs on 1F Northwest to B1F.
 
 ## Live Navigation Logs:
-- Turn 118237: Standing at (15, 8) on 2F West. Initiating backtracking to Southwest Ladder 6 at (3, 11).
-  - Path to (3, 11): Down to (15, 9) -> Left to (3, 9) -> Down to (3, 11).
-
-## Discovered 2F West Loop Path (Turn 118391)
-We programmatically proved that 2F West's northern corridor IS connected to the Northwest Ladder (1, 3) on foot via a 58-step southern loop detour!
-Path: (3, 3) -> Right to (13, 3) -> Down to (13, 4) -> Right to (14, 4) -> Down to (14, 8) -> Left to (13, 8) -> Down to (13, 9) -> Left to (3, 9) -> Down to (3, 13) -> Left to (0, 13) -> Up to (0, 9) -> Right to (1, 9) -> Up to (1, 8) -> Right to (2, 8) -> Up to (2, 7) -> Right to (6, 7) -> Up to (6, 5) -> Left to (0, 5) -> Up to (0, 3) -> Right to (1, 3) (Northwest Ladder).
-Let's execute this path systematically in chunks to reach Mewtwo.
-- Chunk 1: Walk Right 10 steps from (3, 3) to (13, 3).
+- Turn 118420: Stood at (11, 5) on 2F West Component 1. Backtracking to Ladder 5 at (9, 1) to descend to 1F Northwest.
+  - Path: (11, 5) -> Left 2 steps to (9, 5) -> Up 4 steps to (9, 1) [Ladder 5].
