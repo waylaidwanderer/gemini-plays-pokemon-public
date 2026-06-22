@@ -132,9 +132,16 @@ We are actively backtracking to 1F Northwest via Ladder 5. We will navigate the 
   - Test: Press ['Right', 'Right', 'Right', 'Right'] from (5, 9). If we reach (9, 9) (or trigger a battle beyond Column 7), (8, 9) is passable. If we bump at (8, 9) and stay at (7, 9), it is impassable.
 - Turn 119301: Encountered wild Level 51 Venomoth at (6, 9) while navigating from (9, 9) to (5, 11). Successfully proved that (8, 9) is 100% passable ground since we reached (6, 9). We will flee the battle.
 - Turn 119374: Path to Northwest Ladder (1, 3) confirmed using BFS pathfinder starting from (5, 9).
-  - Path: ['Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Up', 'Up', 'Left', 'Left', 'Left', 'Left', 'Left', 'Up', 'Up', 'Left', 'Left', 'Left', 'Left', 'Up', 'Left', 'Up']
   - Let's break this path into smaller segments to handle potential wild battles safely:
     - Segment 1: Right 6 steps to (11, 9)
-    - Segment 2: Right 1 step, Up 2 steps, Left 5 steps to (7, 7)
-    - Segment 3: Left 1 step, Up 2 steps, Left 4 steps to (1, 5)
-    - Segment 4: Up 1 step, Left 1 step, Up 1 step to Northwest Ladder (1, 3)
+    - Segment 2: Right 1 step, Up 1 step, Right 2 steps to (15, 8)
+    - Segment 3: Down 1 step, Right 2 steps, Down 5 steps to (17, 14)
+    - Segment 4: Left 16 steps along the southern open corridor to (1, 14)
+    - Segment 5: Up 2 steps, Left 1 step, Up 9 steps, Right 1 step to Northwest Ladder (1, 3)
+- Turn 119394: Segment 1 executed successfully. Standing at (11, 9).
+  - Let's execute Segment 2: ['Right', 'Right', 'Up', 'Right', 'Right'] to reach (15, 8).
+    - Step 1: (11, 9) -> Right to (12, 9)
+    - Step 2: (12, 9) -> Right to (13, 9)
+    - Step 3: (13, 9) -> Up to (13, 8)
+    - Step 4: (13, 8) -> Right to (14, 8)
+    - Step 5: (14, 8) -> Right to (15, 8)
