@@ -9004,3 +9004,38 @@ Let's search our notepads for 2F coordinates or write a custom tool to do BFS on
 - Corrected previous assumptions: We have definitively verified that 2F West's northern corridor (where Ladder 5 lands) is isolated from (1, 3) on foot, which means we must backtrack to the northwest isolated quadrant of 1F via the 1F water canals to reach Ladder 5 at (7, 1). This is our current active path.
 
 <hr>
+
+<h1><code>Reflection/Turn117775_Reflection</code></h1>
+
+# Self-Assessment & Reflection (Turn 117775)
+
+## 1. Immediate Execution
+- Progress over the last 50 turns: Successfully navigated from (15, 1) to (13, 5) on foot. Tested and proved that (14, 3) is a solid rock wall, but Column 13 is open, allowing us to safely navigate south. No deferred tasks are pending. We are actively heading towards the Northwest Ladder (1, 3).
+
+## 2. Notepad Hygiene
+- The scratchpads and verified logs are clean. We've verified that the detour to (13, 5) is completely correct. We will continue updating our path logs.
+
+## 3. Map Hygiene
+- Map marker (13, 6) for a floor item is obsolete as the tile is empty on screen. We are deleting this marker to maintain perfect map hygiene.
+
+## 4. Custom Tools Ideas
+1. `mewtwo_catch_calculator` - Estimates Mewtwo capture rate based on HP, status, and ball.
+2. `repel_tracker` - Tracks Repel steps to maximize protection against wild encounters.
+3. `tile_passability_mapper` - Programmatically logs tested coordinates and their passability.
+4. `battle_flee_coordinator` - Automatically runs from wild battles and keeps Blastoise's PP/HP high.
+5. `navigation_step_verifier` - Ensures each step matches expectations to avoid the predictive trap.
+
+## 5. Tool Maintenance
+- All custom tools are robust and fully functional. No broken or flawed tools are present.
+
+## 6. Goal Clarity
+- Goals are outcome-focused:
+  - Primary: "Catch Mewtwo in Cerulean Cave B1F"
+  - Secondary: "Navigate to the Northwest Ladder at (1, 3) on Cerulean Cave 2F on foot"
+  - Tertiary: "Flee wild encounters to preserve Blastoise's health"
+  - Navigation: "Northwest Ladder at (1, 3) on Cerulean Cave 2F"
+
+## 7. Error Analysis & Hypothesis Review
+- Found that (14, 3) is blocked, but Column 13 is completely open. We have a solid BFS path to reach (1, 3) on foot by looping around the center-south corridors of 2F West.
+
+<hr>
