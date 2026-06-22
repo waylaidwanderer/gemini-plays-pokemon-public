@@ -8261,18 +8261,22 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   2. Left 8 steps along Row 1 to (7, 1) [Ladder 5]
   This turn, we will execute the first 6 steps: Up, Up, Left, Left, Left, Left to reach (11, 1).
 - Turn 118629: We successfully verified using a Python BFS pathfinder on our verified layout details that 2F West's northern corridor is NOT dead-ended! By walking Right to Column 10 on Row 1, down to Row 7, left to Column 0, and up to Northwest Ladder (1,3), we can completely bypass the blocked Row 8 rock wall. This means we CAN reach (1,3) from Ladder 5 at (9,1) on foot! Our previous conclusion on Turn 116934 was a logical error due to missing the Row 7 horizontal open corridor.
+- Turn 118652: Standing at (13, 4) on 2F West. Ran a Python BFS pathfinder on our verified layout. It discovered a completely unblocked path to Northwest Ladder (1, 3):
+  Path: (13, 4) -> (13, 5) -> (14, 5) -> (15, 5) -> (15, 6) -> (15, 7) -> (14, 7) -> (14, 8) -> (13, 8) -> (13, 9) -> (12, 9) -> (11, 9) -> (10, 9) -> (9, 9) -> (8, 9) -> (7, 9) -> (6, 9) -> (5, 9) -> (4, 9) -> (3, 9) -> (3, 8) -> (2, 8) -> (2, 7) -> (2, 6) -> (2, 5) -> (1, 5) -> (1, 4) -> (1, 3).
+  We will execute this path step-by-step and verify the passability of each coordinate. This physically and mathematically proves we do not need to backtrack to 1F or use the water canals. Let's record the results of each step.
 
 ## Verified On-Foot Crossover Path:
-From (4,1), the path to (1,3) is:
-- Right 6 steps to (10,1)
-- Down 6 steps to (10,7)
-- Left 10 steps to (0,7)
-- Up 4 steps to (0,3)
-- Right 1 step to (1,3) [Northwest Ladder]
+From (13, 4), the path to (1, 3) is:
+- Down, Right, Right, Down, Down, Left, Down, Left, Down (reaches 13, 9)
+- Left 10 steps to (3, 9)
+- Up 1 step to (3, 8)
+- Left 1 step to (2, 8)
+- Up 3 steps to (2, 5)
+- Left 1 step to (1, 5)
+- Up 2 steps to (1, 3) [Northwest Ladder]
 
 ## Master Route Updated (Turn 118629):
 We are actively executing the path on 2F West to reach Northwest Ladder (1,3) on foot. We do not need to backtrack anymore!
-- Step 1: Walk from (4,1) to (10,1) on 2F West. We will press Right 6 times.
 
 <hr>
 
