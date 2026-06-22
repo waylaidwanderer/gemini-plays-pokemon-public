@@ -8235,6 +8235,10 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - We have verified the path to the Northwest Ladder (1, 3) on foot:
   - Local moves: Up x2 to (3, 9), then Right x10 to Column 13...
 - Remaining steps: Tracing our way to (1, 3).
+## Verified 2F West Path to Northwest Ladder (1, 3)
+- Path: (3, 9) -> (9, 9) [Right x6] -> (9, 7) [Up x2] -> (6, 7) [Left x3] -> (6, 5) [Up x2] -> (1, 5) [Left x5] -> (1, 3) [Up x2]
+- Total steps: 20 steps on foot.
+- This path bypasses the Row 8 rock wall completely by looping to Row 9, moving east to Column 9, looping north to Row 7, moving west to Column 6, looping north to Row 5, and moving west to Column 1 to reach (1, 3)!
 
 <hr>
 
