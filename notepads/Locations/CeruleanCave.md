@@ -110,7 +110,6 @@
 - **Column 4 Row 2 Blockage (Verified Turn 115542)**: Standing at (5, 2) facing Left, pressed Left. Result: BUMP collision, player remained at (5, 2). Physically proves that Column 4 Row 2 (4, 2) is a solid, impassable rock wall of TYPE_2889 on 1F Northwest.
 - **Column 5 Row 3 Blockage (Verified Turn 115543)**: Standing at (5, 2) facing Down, pressed Down. Result: BUMP collision, player remained at (5, 2). Physically proves that Column 5 Row 3 (5, 3) is a solid, impassable rock wall of TYPE_2889 on 1F Northwest, blocking vertical access to Row 3 on the eastern side. Together, these three tests mathematically and physically prove that the northern plateau (Columns 5+, Rows 0-2) is completely isolated on foot from the western area containing (1, 3) on 1F Northwest, meaning access to the B1F stairs requires 2F West.
 - **Column 7 Row 6 Blockage (Verified Turn 116663)**: Physically bumped into (7, 6) on 1F, proving it is a solid wall of TYPE_2889.
-- **Column 8 Row 5 Blockage (Verified Turn 116669)**: Physically bumped into (8, 5) on 1F, proving it is a solid wall of TYPE_2889.
 - **Turn 116934 Empirical & Logical Proof of 2F West Isolation**:
   - We ran a BFS component analysis on the actual visual screen layout on Turn 116933, which proved that 2F West is physically divided into two completely isolated ground-level components:
     - Component 1: Contains the (9, 1) ladder (from 1F Northwest) and the northern corridors.
