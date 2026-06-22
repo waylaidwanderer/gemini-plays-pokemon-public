@@ -8386,6 +8386,17 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Column 5 Row 3 Blockage (Verified Turn 115543)**: Standing at (5, 2) facing Down, pressed Down. Result: BUMP collision, player remained at (5, 2). Physically proves that Column 5 Row 3 (5, 3) is a solid, impassable rock wall of TYPE_2889 on 1F Northwest, blocking vertical access to Row 3 on the eastern side. Together, these three tests mathematically and physically prove that the northern plateau (Columns 5+, Rows 0-2) is completely isolated on foot from the western area containing (1, 3) on 1F Northwest, meaning access to the B1F stairs requires 2F West.
 - **Column 7 Row 6 Blockage (Verified Turn 116663)**: Physically bumped into (7, 6) on 1F, proving it is a solid wall of TYPE_2889.
 - **Column 8 Row 5 Blockage (Verified Turn 116669)**: Physically bumped into (8, 5) on 1F, proving it is a solid wall of TYPE_2889.
+- **Turn 116934 Empirical & Logical Proof of 2F West Isolation**:
+  - We ran a BFS component analysis on the actual visual screen layout on Turn 116933, which proved that 2F West is physically divided into two completely isolated ground-level components:
+    - Component 1: Contains the (9, 1) ladder (from 1F Northwest) and the northern corridors.
+    - Component 3: Contains the (1, 3) Northwest Ladder (to 1F Northwest / B1F stairs) and the (3, 11) Southwest Ladder (from 1F Southwest).
+  - Component 1 and Component 3 are completely disconnected on foot because:
+    1. Column 2 is occupied by solid rock walls (TYPE_2889) across Rows 1, 2, 3, and 4.
+    2. Row 4 is blocked by solid rock walls (TYPE_2889) from Column 3 to Column 8.
+    3. Row 6 is blocked by solid rock walls (TYPE_2889) from Column 7 to Column 12.
+    4. Row 5 has a solid rock wall (TYPE_2889) at (8, 5).
+  - Therefore, there is NO physically passable on-foot pathway between the (9, 1) ladder and the (1, 3) Northwest Ladder on 2F West. We cannot reach (1, 3) from (9, 1) on foot.
+  - This conclusively disproves the hypothesis that we can access the Northwest Ladder from Ladder 5, and proves that our backtracking route via 1F Southwest and Southwest Ladder 6 at (3, 11) is 100% physically mandatory.
 
 <hr>
 
