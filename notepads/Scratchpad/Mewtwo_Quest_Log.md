@@ -68,3 +68,5 @@ We are actively backtracking to 1F Northwest via Ladder 5. We will navigate the 
   Path: Left 4 steps to reach (3, 17).
 - Turn 118994: Standing at (2, 17). Encountered a wild RAICHU! Running away using flee_battle.
 - Turn 118996: Successfully escaped the Raichu battle. Currently standing at (2, 17) on ground level facing Up. We will walk Up 2 steps to (2, 15).
+- Turn 119009: Standing at (2, 15) facing Up. We will walk Up 1, Left 1, Up 1 to climb the wooden staircase at (1, 13) and transition onto the elevated plateau.
+  Path: ['Up', 'Left', 'Up'] to reach (1, 13).
