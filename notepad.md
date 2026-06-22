@@ -8352,6 +8352,7 @@ We are actively backtracking to 1F Northwest via Ladder 5. We will navigate the 
 - Turn 119283: Testing the passability of (8, 9) on 2F West.
   - Hypothesis: (8, 9) is passable ground (TYPE_3fe2) as reported by the system data, despite looking like a blue rock.
   - Test: Press ['Right', 'Right', 'Right', 'Right'] from (5, 9). If we reach (9, 9) (or trigger a battle beyond Column 7), (8, 9) is passable. If we bump at (8, 9) and stay at (7, 9), it is impassable.
+- Turn 119301: Encountered wild Level 51 Venomoth at (6, 9) while navigating from (9, 9) to (5, 11). Successfully proved that (8, 9) is 100% passable ground since we reached (6, 9). We will flee the battle.
 
 <hr>
 
