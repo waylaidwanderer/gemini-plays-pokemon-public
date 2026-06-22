@@ -3,14 +3,13 @@
 - Active Goal: Enter Cerulean Cave and catch Mewtwo.
 
 ## Current Status & Progression
-- Current Turn: 117938
-- Current Position: (9, 3) on Cerulean Cave 2F West.
-- Verified Fact: Column 2 Row 1 (2, 1) is completely passable ground on foot (empirically disproved on Turn 117599). This means we have a direct, open horizontal corridor along Row 1 connecting Ladder 5 directly to the Northwest Ladder! We can walk from our current position (9, 3) directly to (1, 3) on foot.
-- Active Path: (9, 3) -> (5, 3) -> (5, 1) -> (1, 1) -> (1, 3). No further backtracking or multi-floor loops are required!
+- Current Turn: 117962
+- Current Position: (3, 1) on Cerulean Cave 2F West.
+- Verified Fact: Column 2 Row 1 (2, 1) is a solid rock wall (TYPE_2889). Physically tested on Turn 117957/117958 and bumped, proving it is impassable.
+- Active Plan: Since 2F West's northern corridor (Component 1) is completely isolated on foot from the western/southern corridors (Component 3), we must backtrack to 1F Southwest on foot/surf, and climb Southwest Ladder 6 at (3, 11) to reach Component 3. From (3, 11) on 2F West, the path to the Northwest Ladder (1, 3) is completely open and passable via Column 0!
 
-## Backtracking Route to Southwest Ladder 6 at (3, 11):
-- Moves from (14, 8) to (3, 11): ['Left', 'Down', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Down', 'Down']
-- We will execute these movements in chunks and monitor our position carefully.
+## Backtracking Progress (Turn 117962):
+- Currently standing at (3, 1) on 2F West. We will return to Ladder 5 at (9, 1), descend to 1F Northwest, and return to 1F Southwest!
 
 ## Verified 1F Surfing Shortcut Plan:
 1. Descend Southwest Ladder 6 at (3, 11) to arrive on 1F Southwest.
