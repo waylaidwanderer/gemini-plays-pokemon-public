@@ -8299,6 +8299,12 @@ We are actively backtracking to 1F Northwest via Ladder 5. We will navigate the 
   We will now execute the first segment of this path from (3, 11) to (9, 9).
   Path chunk: ['Up', 'Up', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right'] to reach (9, 9).
 - Turn 119037: Escaped from wild Venomoth. Standing at (3, 9) facing Right. Continuing the path chunk to (9, 9): ['Right', 'Right', 'Right', 'Right', 'Right', 'Right']
+- Turn 119102: Standing at (5, 9) facing Right. Navigated Right 4 steps to (9, 9).
+- Turn 119108: Standing at (9, 9) facing Right. Navigated Right 4 steps to (13, 9).
+- Turn 119113: Standing at (13, 9). Discovered that Row 10 on Columns 13-18 contains solid rock walls of TYPE_2889, but Column 12 is completely open from Row 9 down to Row 13, which allows us to route through (12, 9) -> (12, 13) -> (12, 14) and bypass the Row 10 rock wall blockage!
+  - New Shortest Path from (13, 9) to (1, 3) (30 steps):
+    ['Left', 'Down', 'Down', 'Down', 'Down', 'Down', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Up', 'Up', 'Left', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Right']
+  - Path chunk 1 (6 steps): ['Left', 'Down', 'Down', 'Down', 'Down', 'Down'] to reach (12, 14). We will execute this now.
 
 <hr>
 
