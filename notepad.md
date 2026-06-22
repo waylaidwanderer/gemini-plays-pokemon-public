@@ -8298,6 +8298,7 @@ We are actively backtracking to 1F Northwest via Ladder 5. We will navigate the 
   Shortest path (40 steps): (3, 11) -> (3, 9) -> (9, 9) -> (9, 16) -> (2, 16) -> (2, 13) -> (1, 13) -> (0, 12) -> (0, 9) -> (1, 7) -> (2, 5) -> (1, 3).
   We will now execute the first segment of this path from (3, 11) to (9, 9).
   Path chunk: ['Up', 'Up', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right'] to reach (9, 9).
+- Turn 119037: Escaped from wild Venomoth. Standing at (3, 9) facing Right. Continuing the path chunk to (9, 9): ['Right', 'Right', 'Right', 'Right', 'Right', 'Right']
 
 <hr>
 
