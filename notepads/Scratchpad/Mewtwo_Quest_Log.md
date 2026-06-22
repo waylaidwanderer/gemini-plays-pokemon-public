@@ -106,3 +106,10 @@
 - Step 4: Surf Right 3 steps to (11, 14) [water]
 - Step 5: Surf Up 1 step to (11, 13) and dismount onto Water Ramp 2.
 - Total steps: 21 steps. We will execute this in chunks and watch out for wild encounters on water.
+
+## On-Foot Route from Water Ramp 2 at (11, 13) to Stairs at (17, 15):
+- Current Position: (11, 13) on foot, facing Up.
+- Step 1: Walk Up 4 steps to (11, 9)
+- Step 2: Walk Right 6 steps to (17, 9)
+- Step 3: Walk Down 6 steps to stairs at (17, 15) to descend to 1F ground floor.
+- Total steps: 16 steps. We will execute this in chunks and watch out for wild encounters.
