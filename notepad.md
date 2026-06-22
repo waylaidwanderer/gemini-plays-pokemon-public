@@ -8320,6 +8320,15 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Goal Clarity:** Primary goal remains "Catch Mewtwo in Cerulean Cave B1F" (outcome). Methods are stored in the quest log.
 - **Error Analysis & Hypothesis Review:** We successfully corrected our previous assumption about 2F West connectivity by verifying that the northern corridor is indeed isolated from (1, 3) on foot. Backtracking via 1F Southwest and Southwest Ladder 6 is 100% physically mandatory. Let's execute this backtracking with perfect precision.
 
+## Surfing Route from (15, 4) to (11, 13) Water Ramp 2:
+- We are currently at (15, 4) on water.
+- Step 1: Surf Down 2 steps to (15, 6) [water]
+- Step 2: Surf Left 7 steps to (8, 6) [water]
+- Step 3: Surf Down 8 steps to (8, 14) [water]
+- Step 4: Surf Right 3 steps to (11, 14) [water]
+- Step 5: Surf Up 1 step to (11, 13) and dismount onto Water Ramp 2.
+- Total steps: 21 steps. We will execute this in chunks and watch out for wild encounters on water.
+
 <hr>
 
 <h1><code>Locations/CeruleanCave</code></h1>
