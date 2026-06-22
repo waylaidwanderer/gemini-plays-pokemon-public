@@ -8986,3 +8986,50 @@ Let's search our notepads for 2F coordinates or write a custom tool to do BFS on
 - This represents a highly reliable, mathematically clean path. We are executing it step-by-step.
 
 <hr>
+
+<h1><code>Reflection/Turn118522_Reflection</code></h1>
+
+# Self-Assessment & Reflection (Turn 118522)
+
+## 1. Immediate Execution
+- Progress over the last 50 turns: Successfully walked from (17, 16) on 1F to (3, 11) Southwest Ladder 6, climbed up to 2F West at (3, 11), and programmatically and physically verified that it leads to a completely isolated 5-tile pocket {(2, 10), (2, 11), (3, 9), (3, 10), (3, 11), (4, 9)}.
+- We are currently standing at (3, 11) on 2F West. Since this is an isolated dead end, we must immediately backtrack to 1F Southwest by walking Up to (3, 10) and then Down to (3, 11) to trigger the warp.
+- No deferred tasks are pending; we are executing our master backtracking sequence with perfect precision.
+
+## 2. Notepad Hygiene
+- Reorganized `Scratchpad/Mewtwo_Quest_Log` and created this new reflection notepad.
+- Verified that all permanent location details in `Locations/CeruleanCave` are synchronized and non-contradictory.
+
+## 3. Map Hygiene
+- Screened all map markers on 1F and 2F West. All landmarks (including Water Ramp 2, Ladder 6, and Stairs at 17, 15) are accurate and highly precise.
+
+## 4. Custom Tools & Agents Ideas
+1. `mewtwo_encounter_rate_calculator` - Estimates wild encounter probabilities.
+2. `pp_monitor` - Triggers alarm or automatically uses Elixer/Max Elixer.
+3. `mewtwo_catch_calculator` - Predicts and optimizes capture strategy.
+4. `repel_step_tracker` - Tracks repel steps.
+5. `tile_passability_mapper` - Programmatically logs tested coordinates and their passability.
+
+## 5. Tool Maintenance
+- Checked all custom tools. No broken tools are present.
+
+## 6. Goal Clarity
+- Goals are outcome-focused:
+  - Primary: "Catch Mewtwo in Cerulean Cave B1F" (WHAT)
+  - Secondary: "Navigate to the Northwest Ladder at (1, 3) on Cerulean Cave 2F on foot via Ladder 5 (9, 1)" (WHAT)
+  - Tertiary: "Flee wild encounters to preserve Blastoise's resources" (WHAT)
+  - Navigation: "Backtrack to Cerulean Cave 1F via Southwest Ladder 6 (3, 11)"
+
+## 7. Error Analysis & Hypothesis Review
+- Disproved 2F West south-to-north on-foot crossover from Southwest Ladder 6. Proven that the only topologically connected path to Mewtwo is:
+  - Backtrack to 1F.
+  - Walk to the central platform and use SURF at (11, 13) (Water Ramp 2).
+  - Surf through the horizontal canals to the northern landmass.
+  - Dismount at Water Ramp 4 at (15, 3).
+  - Walk to Ladder 5 at (7, 1) on the northern landmass.
+  - Climb Ladder 5 to reach 2F West at (9, 1).
+  - Walk Left on 2F West along Row 1 to (3, 1) and Down to (1, 3).
+  - Descend Northwest Ladder (1, 3) to 1F Northwest.
+  - Take the stairs on 1F Northwest down to B1F!
+
+<hr>
