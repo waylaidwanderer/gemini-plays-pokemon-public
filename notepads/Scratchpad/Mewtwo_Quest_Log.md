@@ -71,3 +71,9 @@
 - **Tool Maintenance:** Tested tools are robust and fully functional.
 - **Goal Clarity:** Primary goal is "Catch Mewtwo in Cerulean Cave B1F" (outcome). Methods are stored in the quest log.
 - **Error Analysis & Hypothesis Review:** Verified that the southwest pocket is blocked, so we must backtrack to the central platform and surf to Ladder 5.
+
+## Backtracking Progress Update (Turn 117122):
+- Successfully returned to 1F Central Platform on foot, surfed from Water Ramp 2 at (11, 13) to Water Ramp 4 at (15, 3), and dismounted onto the northwest landmass at (15, 3).
+- Current Position: (15, 3) on 1F Northwest.
+- Next step: Walk Up 2, then Left 8 steps to reach Ladder 5 at (7, 1), which warps us to 2F West at (9, 1).
+- We will execute this movement next and verify the transition to 2F West.
