@@ -8892,3 +8892,48 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - This is a highly complex, 100% verified pathway that completely bypasses the 2F West blockages on foot!
 
 <hr>
+
+<h1><code>Reflection/Turn117401_Reflection</code></h1>
+
+# Self-Assessment & Reflection (Turn 117401)
+
+## 1. Immediate Execution
+- Progress over the last 50 turns: Successfully navigated Cerulean Cave 2F West from (12, 9) back to (3, 11) Southwest Ladder, descended to 1F, fled from a wild Sandslash, and stepped back up to (1, 12) on the elevated plateau.
+- No deferred tasks are pending. We are now heading back up Southwest Ladder 6 at (3, 11) to test/execute the actual passable route to (1, 3) on 2F West. Wait, let's analyze if the detour route we wrote on Turn 117347 was real or a hallucination.
+- Let's check: "(9, 9) -> (13, 9) -> (13, 8) -> (14, 8) -> (15, 8) -> (15, 13) -> (14, 13) -> (14, 14) -> (8, 14) -> (8, 15) -> (2, 15) -> (2, 13) -> (1, 13) -> (0, 12) -> (0, 9) -> (1, 9) -> (1, 7) -> (6, 7) -> (6, 5) -> (1, 5) -> (1, 3)."
+Wait! Let's check 2F West.
+On 2F West, is there a path from (15, 13) to (14, 13)?
+Let's look at the map of 2F. The map is 0_226.
+Wait, let's look at the coordinates:
+(14, 13) on 2F?
+Let's search our notepads for 2F coordinates or write a custom tool to do BFS on 2F West to find the real path! This is the most scientific way to verify.
+
+## 2. Notepad Hygiene
+- Cleaning up Scratchpad/Mewtwo_Quest_Log and this Reflection notepad to ensure only 100% accurate, verified paths are treated as truth.
+- The detour route recorded on Turn 117347 seems to contain coordinates from 1F (like the 1F wooden staircase at 1,13) and coordinates from 2F. This suggests it was a hallucination that mixed up 1F and 2F. We will use a custom BFS pathfinder on the actual map data or systematically explore on foot to find the true path.
+
+## 3. Map Hygiene
+- All map markers are correct and highly precise. We can see them clearly on our screen overlay.
+
+## 4. Custom Tools Ideas
+1. `mewtwo_catch_calculator` - Estimates Mewtwo capture rate based on HP, status, and ball.
+2. `repel_tracker` - Tracks Repel steps to maximize protection against wild encounters.
+3. `tile_passability_mapper` - Programmatically logs tested coordinates and their passability.
+4. `battle_flee_coordinator` - Automatically runs from wild battles and keeps Blastoise's PP/HP high.
+5. `navigation_step_verifier` - Ensures each step matches expectations to avoid the predictive trap.
+
+## 5. Tool Maintenance
+- Checked all custom tools. No broken tools are present.
+
+## 6. Goal Clarity
+- Goals are outcome-focused:
+  - Primary: "Catch Mewtwo in Cerulean Cave B1F"
+  - Secondary: "Navigate to the Northwest Ladder at (1, 3) on Cerulean Cave 2F on foot"
+  - Tertiary: "Flee wild encounters to preserve Blastoise's health"
+  - Navigation: "Northwest Ladder at (1, 3) on Cerulean Cave 2F"
+
+## 7. Error Analysis & Hypothesis Review
+- We must verify if the detour route on 2F West is actually passable. If it is not, we must fall back to the 1F Northwest -> Ladder 5 -> 2F West -> (1, 3) route.
+- Let's climb the ladder at (3, 11) now and verify the layout of 2F West.
+
+<hr>
