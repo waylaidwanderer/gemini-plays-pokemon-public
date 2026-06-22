@@ -8371,6 +8371,10 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
               - Wait, what about Column 2 Row 5? (2, 5) is TYPE_3fe2 (passable). But Y=4 is TYPE_2889 on Columns 2, 3, 4, 5, 6, 7.
               - Wait, let's verify if (2, 2) or (2, 3) is passable, or if there is some other path.
               - Let's walk to (3, 1) first and see what's what!
+- Turn 116246: We are standing at (3, 2) on 2F West. We got away from the wild Marowak encounter.
+- Let's walk Down to (3, 3) facing Left so we can test the passability of (2, 3) on foot.
+- Let's verify (3, 3) is passable floor: (3, 3) is TYPE_3fe2 (passable).
+- Let's press Down once.
 
 <hr>
 
