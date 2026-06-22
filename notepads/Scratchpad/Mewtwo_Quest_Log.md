@@ -21,3 +21,4 @@
 ## Live Navigation Logs:
 - Turn 118420: Stood at (11, 5) on 2F West Component 1. Backtracking to Ladder 5 at (9, 1) to descend to 1F Northwest.
   - Path: (11, 5) -> Left 2 steps to (9, 5) -> Up 4 steps to (9, 1) [Ladder 5].
+- Turn 118497: Mathematically and physically proved that Southwest Ladder 6 at (3, 11) leads to a completely isolated 6-tile pocket on 2F West {(2, 10), (2, 11), (3, 9), (3, 10), (3, 11), (4, 9)}. Every single adjacent tile is a solid rock wall of TYPE_2889. No on-foot path exists to reach Northwest Ladder (1, 3) from here. Therefore, we must backtrack to 1F, walk back to the central platform, surf to Ladder 5 at (7, 1) on 1F Northwest, climb to 2F West at (9, 1), and then navigate on foot to (1, 3) via the unblocked northern/eastern corridors. We are backtracking now.
