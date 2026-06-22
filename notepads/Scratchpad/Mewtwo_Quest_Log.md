@@ -61,3 +61,4 @@ We are actively backtracking to 1F Northwest via Ladder 5. We will navigate the 
 - Turn 118835: Standing at (15, 3) on foot. Walking Up to (15, 1), and then Left 8 steps to reach Ladder 5 at (7, 1).
   - Path: Up, Up, Left, Left, Left, Left, Left, Left, Left, Left.
 - Turn 118899: Standing at (3, 2) facing Left. Attempting to step Left onto (2, 2) [TYPE_2889] to physically verify passability.
+- Turn 118905: Pressed Left from (3, 2) and bumped, coordinates remained at (3, 2). This empirically and physically proves that (2, 2) is a solid, impassable rock wall.
