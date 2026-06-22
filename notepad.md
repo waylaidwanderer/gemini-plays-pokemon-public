@@ -8300,6 +8300,12 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Next step: Walk Up 2, then Left 8 steps to reach Ladder 5 at (7, 1), which warps us to 2F West at (9, 1).
 - We will execute this movement next and verify the transition to 2F West.
 
+## Backtracking Progress Update (Turn 117132):
+- Walked Left to (8, 1) and then attempted to step Right back onto Ladder 5 at (9, 1). This triggered a wild Venomoth battle.
+- Successfully fled from the wild Venomoth using the flee_battle tool.
+- We are currently standing at (8, 1) on 2F West, facing Right.
+- Next step: Walk Right to (9, 1) to step onto Ladder 5 and descend to 1F Northwest at (7, 1). This will initiate our true journey back to 1F Southwest!
+
 <hr>
 
 <h1><code>Locations/CeruleanCave</code></h1>
