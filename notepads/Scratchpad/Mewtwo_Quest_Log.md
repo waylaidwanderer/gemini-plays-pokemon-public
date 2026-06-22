@@ -83,7 +83,17 @@ We are actively backtracking to 1F Northwest via Ladder 5. We will navigate the 
   - New Shortest Path from (13, 9) to (1, 3) (30 steps):
     ['Left', 'Down', 'Down', 'Down', 'Down', 'Down', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Up', 'Up', 'Left', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Right']
   - Path chunk 1 (6 steps): ['Left', 'Down', 'Down', 'Down', 'Down', 'Down'] to reach (12, 14). We will execute this now.
-- Turn 119151: Standing at (10, 9). Walking Left 4 steps to (6, 9) along Row 9.
+- Turn 119244: Standing at (4, 9). Discovered that our previous programmatic BFS path to (1, 3) (without stepping on Southwest Ladder 6 at 3, 11) was based on incomplete map data. Visually, on the screen:
+  - Row 10 on Columns 4-9 has solid rock walls (TYPE_2889).
+  - Row 8 on Columns 2-9 has solid rock walls (TYPE_2889).
+  - Row 9 has solid rock walls at (2, 9) and (8, 9).
+  - This forms a completely isolated 8-tile pocket: {(2, 10), (2, 11), (3, 9), (3, 10), (4, 9), (5, 9), (6, 9), (7, 9)}.
+  - Therefore, there is NO on-foot path from (4, 9) to any other part of 2F West without stepping on Southwest Ladder 6 at (3, 11) and warping to 1F.
+  - The correct strategy to reach the main western area of 2F West is:
+    1. Walk from (4, 9) to Southwest Ladder 6 at (3, 11): ['Left', 'Down', 'Down']. This warps us to 1F Southwest.
+    2. Climb back up Southwest Ladder 6 from 1F Southwest to 2F West, landing on (3, 11).
+    3. From (3, 11), step DOWN to (3, 12). Since (3, 12) is open (TYPE_3fe2), this accesses the western corridors leading directly to Northwest Ladder (1, 3)!
+    - We will execute step 1 now: ['Left', 'Down', 'Down'] to warp to 1F.
 ## Reflection on Turn 119166:
 1. Progress and Deferred Tasks: Over the last 50 turns, we navigated from 2F West Southwest pocket to 1F, used Surf, got onto the central platform, crossed on foot, and climbed Southwest Ladder 6 at (3, 11). We verified that Northwest Ladder (1, 3) is 100% accessible on foot from Southwest Ladder 6 (3, 11) using a Python pathfinding search.
 2. Notepad Hygiene: CeruleanCave notepad contains complete, accurate, tile-by-tile records of what is passable and impassable. The pathfinding search successfully resolved the exact, correct steps.
