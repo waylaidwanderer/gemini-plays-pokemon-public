@@ -57,3 +57,17 @@
   5. Walk Right 2 steps along Row 12 to (3, 12)
   6. Walk Up to (3, 11) to climb Southwest Ladder 6 to 2F West!
 - We will execute this chunk of button presses and verify each step.
+
+## Reflection Turn 117082
+- **Immediate Execution:** We successfully verified 2F West's connectivity and disproved direct surfing on 1F. We are now at (3, 11) on 1F, descending the Southwest Ladder 6 to return to the ground floor via Row 17, heading east towards the central platform.
+- **Notepad Hygiene:** Pruned redundant lines and updated with active progression notes.
+- **Map Hygiene:** Map markers are perfectly aligned with all cave landmarks.
+- **Custom Tools Ideas:**
+  1. `mewtwo_catch_calculator` - Estimates Mewtwo capture rate.
+  2. `repel_tracker` - Tracks Repel steps.
+  3. `tile_passability_mapper` - Logs tested coordinates.
+  4. `battle_flee_coordinator` - Automated fleeing coordinator.
+  5. `navigation_step_verifier` - Prevents predictive trap mistakes.
+- **Tool Maintenance:** Tested tools are robust and fully functional.
+- **Goal Clarity:** Primary goal is "Catch Mewtwo in Cerulean Cave B1F" (outcome). Methods are stored in the quest log.
+- **Error Analysis & Hypothesis Review:** Verified that the southwest pocket is blocked, so we must backtrack to the central platform and surf to Ladder 5.
