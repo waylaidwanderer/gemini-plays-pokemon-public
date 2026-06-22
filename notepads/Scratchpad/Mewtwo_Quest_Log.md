@@ -323,3 +323,24 @@
              - (3, 5) is TYPE_3fe2
            - This is amazing! Column 0 is a 100% unblocked bypass around Column 2's rock wall!
            - This is the final piece of the puzzle!
+
+## BREAKTHROUGH DISCOVERY: Column 0 Bypass Route on 2F West (Turn 116312)
+- **Visual Evidence**: Standing at (3, 1) on 2F West (Turn 116302), we can visually verify that Column 0 is a completely open, passable corridor of TYPE_3fe2 on Rows 2, 3, 4, 5!
+- **Topological Connection**: This provides a 100% unblocked bypass around Column 2's solid rock wall of TYPE_2889.
+- **The True Path to Northwest Ladder (1, 3)**:
+  1. Climb Southwest Ladder 6 at (3, 11) to reach 2F West at (3, 11).
+  2. Walk north through the southern corridors to reach Row 5.
+  3. Walk Left along Row 5 to Column 0: (3, 5) -> (2, 5) -> (1, 5) -> (0, 5).
+  4. Walk Up Column 0 to Row 2: (0, 5) -> (0, 4) -> (0, 3) -> (0, 2).
+  5. Walk Right to Column 1 Row 2: (0, 2) -> (1, 2).
+  6. Walk Down to Northwest Ladder (1, 3) at (1, 3).
+  7. Descend Northwest Ladder to 1F Northwest at (1, 3) and proceed to B1F stairs!
+
+## Current Navigation Goal (Step 1):
+- We are currently standing at (7, 1) on 1F Northwest.
+- We must walk on foot to Water Ramp 4 at (15, 3).
+- **Exact Path to (15, 3)**:
+  - (7, 1) -> (7, 2) [Down]
+  - (7, 2) -> (12, 2) [Right x5]
+  - (12, 2) -> (12, 3) [Down]
+  - (12, 3) -> (15, 3) [Right x3]
