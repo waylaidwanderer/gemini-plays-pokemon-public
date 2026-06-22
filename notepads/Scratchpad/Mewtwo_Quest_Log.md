@@ -3,10 +3,10 @@
 - Active Goal: Enter Cerulean Cave and catch Mewtwo.
 
 ## Current Status & Progression
-- Current Turn: 117379
-- Current Position: (14, 8) on Cerulean Cave 2F.
-- Verified Fact: Row 8 is a completely solid, continuous rock barrier across Columns 3 to 12 (verified on foot in previous turns), and Row 7 is blocked on Columns 12-15. This completely isolates the southern section of 2F West (containing Southwest Ladder 6 at (3, 11)) from the northern section (containing Northwest Ladder (1, 3)). 
-- Conclusion: We cannot reach (1, 3) on foot on 2F West from (3, 11). We must return to 1F Southwest via Southwest Ladder 6, backtrack on foot to the Central Platform, surf to Ladder 5 at (7, 1) on 1F Northwest, and ascend to 2F West at (9, 1). From there, the northern corridor allows direct, unblocked access to (1, 3) on Row 1!
+- Current Turn: 117938
+- Current Position: (9, 3) on Cerulean Cave 2F West.
+- Verified Fact: Column 2 Row 1 (2, 1) is completely passable ground on foot (empirically disproved on Turn 117599). This means we have a direct, open horizontal corridor along Row 1 connecting Ladder 5 directly to the Northwest Ladder! We can walk from our current position (9, 3) directly to (1, 3) on foot.
+- Active Path: (9, 3) -> (5, 3) -> (5, 1) -> (1, 1) -> (1, 3). No further backtracking or multi-floor loops are required!
 
 ## Backtracking Route to Southwest Ladder 6 at (3, 11):
 - Moves from (14, 8) to (3, 11): ['Left', 'Down', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Down', 'Down']
