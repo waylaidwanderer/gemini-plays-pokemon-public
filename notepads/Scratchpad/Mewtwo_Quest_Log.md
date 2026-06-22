@@ -3,8 +3,8 @@
 - Goal: Enter Cerulean Cave and catch Mewtwo.
 
 ## Current Status & Progression
-- Current Turn: 116523
-- Current Position: (5, 17) on Cerulean Cave 1F ground floor.
+- Current Turn: 116557
+- Current Position: (5, 16) on Cerulean Cave 1F ground floor.
 - Goal: Walk to the wooden stairs at (1, 13), ascend to the elevated southwest plateau, and take Southwest Ladder 6 at (3, 11) to 2F West.
 
 ## Master Routing Plan from 1F Ground Floor to 2F West (via Southwest Ladder 6):
