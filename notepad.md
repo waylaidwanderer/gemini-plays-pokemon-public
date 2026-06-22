@@ -8260,6 +8260,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   1. Up 2 steps to Row 1: (15, 3) -> (15, 2) -> (15, 1)
   2. Left 8 steps along Row 1 to (7, 1) [Ladder 5]
   This turn, we will execute the first 6 steps: Up, Up, Left, Left, Left, Left to reach (11, 1).
+- Turn 118585: Triggers a wild encounter with Magneton at (11, 1) on Row 1. Fleeing battle to preserve Blastoise's health.
 
 <hr>
 
