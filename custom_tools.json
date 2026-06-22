@@ -1,43 +1,4 @@
 {
-  "cave_pathfinder": {
-    "description": "Calculates the shortest BFS path between two coordinates on a grid specified as a JSON dictionary. Prints a JSON array of movement buttons.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_x": {
-          "type": "integer"
-        },
-        "start_y": {
-          "type": "integer"
-        },
-        "end_x": {
-          "type": "integer"
-        },
-        "end_y": {
-          "type": "integer"
-        },
-        "grid_json": {
-          "type": "string",
-          "description": "A JSON dictionary mapping row indices to column indices and their passability (1 for passable, 0 for blocked)."
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y",
-        "end_x",
-        "end_y",
-        "grid_json"
-      ]
-    },
-    "python_script": "import json\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nend_x = int(input_data['end_x'])\nend_y = int(input_data['end_y'])\ngrid_json = input_data['grid_json']\n\ngrid = json.loads(grid_json)\nparsed_grid = {}\nfor y_str, row_data in grid.items():\n    y = int(y_str)\n    parsed_grid[y] = {}\n    for x_str, val in row_data.items():\n        x = int(x_str)\n        parsed_grid[y][x] = int(val)\n\nstart = (start_x, start_y)\nend = (end_x, end_y)\n\n# Automatically make the start tile passable if it's omitted or marked blocked in grid_json\nif start_y not in parsed_grid:\n    parsed_grid[start_y] = {}\nparsed_grid[start_y][start_x] = 1\n\nfrom collections import deque\nqueue = deque([(start, [])])\nvisited = {start}\nfound_path = None\n\nwhile queue:\n    curr, path = queue.popleft()\n    if curr == end:\n        found_path = path\n        break\n        \n    x, y = curr\n    for dx, dy, direction in [(-1, 0, 'Left'), (1, 0, 'Right'), (0, -1, 'Up'), (0, 1, 'Down')]:\n        nx, ny = x + dx, y + dy\n        if ny in parsed_grid and nx in parsed_grid[ny] and parsed_grid[ny][nx] == 1:\n            next_state = (nx, ny)\n            if next_state not in visited:\n                visited.add(next_state)\n                queue.append((next_state, path + [direction]))\n\nif found_path is not None:\n    print(json.dumps(found_path))\nelse:\n    print(json.dumps([]))\n",
-    "history": [
-      {
-        "commit_message": "Initial release of cave_pathfinder to execute BFS routing on the fly.",
-        "timestamp": "2026-06-20T19:55:15.787Z",
-        "action_counter": 112147
-      }
-    ]
-  },
   "flee_battle": {
     "description": "Automatically escapes from a wild Pokémon battle by skipping the introductory screens and choosing the RUN option.",
     "input_schema": {
