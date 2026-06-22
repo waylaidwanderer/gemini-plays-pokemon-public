@@ -8225,7 +8225,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Goal: Enter Cerulean Cave and catch Mewtwo.
 
 ## Current Status & Progression
-- Currently standing on 1F Southwest elevated plateau at (3, 11).
+- Currently standing at (11, 13) on 1F, preparing to SURF.
 
 ## Active Hypothesis on 2F West Topology
 - Hypothesized Blockages on 2F West:
