@@ -8239,8 +8239,18 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 5. Walk on foot to Ladder 5 at (7, 1) on 1F Northwest:
    - (15, 3) -> (12, 3) -> (12, 2) -> (7, 2) -> (7, 1)
 6. Climb Ladder 5 at (7, 1) to reach 2F West at (9, 1).
-7. On 2F West, walk from (9, 1) to Northwest Ladder (1, 3) via Row 7 and Column 0:
-   - (9, 1) -> Walk Down Column 9 to (9, 7) [Down x6]
+7. On 2F West, walk from (9, 1) to Northwest Ladder (1, 3) via Row 1 and Column 3:
+   - Since (9, 2) is verified solid wall on Turn 116451, we cannot walk Down Column 9.
+   - (9, 1) -> Walk Left along Row 1 to (3, 1) [Left x6]
+   - (3, 1) -> Walk Down Column 3 to (3, 3) [Down x2]
+   - (3, 3) -> Walk Right to (4, 3) -> (5, 3) -> (6, 3) -> (7, 3) -> (8, 3) -> (9, 3) [Right x6]
+   - (9, 3) -> Walk Down Column 9 to (9, 7) [Down x4] (Wait! Let's check if Column 9 Row 4 is open)
+   - Wait, we need to map Row 5, can we go Down to Row 5 from Column 9?
+   - Let's check: (9, 3) -> (9, 4) -> (9, 5) -> (9, 6) -> (9, 7).
+   - (9, 3) is open.
+   - (9, 4) is open.
+   - (9, 5) is open.
+   - So we can walk Down Column 9 starting from (9, 3) to reach Row 7 at (9, 7)!
    - (9, 7) -> Walk Left along Row 7 to (0, 7) [Left x9]
    - (0, 7) -> Walk Up Column 0 to (0, 3) [Up x4]
    - (0, 3) -> Walk Right to Northwest Ladder (1, 3) [Right]
