@@ -87,7 +87,7 @@
 - **2F West Upper-Central Corridor to Western Corridors Connection - VERIFIED FACT**:
   - **Column 8 Row 1 Passage**: Visually and physically verified on Turn 115295 on foot. Standing at (9, 1) facing Left, we pressed Left and successfully walked onto (8, 1) [TYPE_3fe2]. From there, we successfully walked all the way Left to (3, 1) on Row 1, and Down to (3, 3) on foot with zero obstacles. This conclusively disproves the previous unverified hypothesis of upper-central corridor isolation!
   - **Northwest Quadrant Access on Foot**: The upper-central corridor (where Ladder 5 at (9, 1) lands us) is directly connected to the western/northern section of 2F West on foot via Row 1!
-  - **Unverified Hypothesis (Remaining Column 1-2 Blockages)**: While Row 1 connects us to Column 3 on foot, Column 2 Row 4, Column 1 Row 4, Column 2 Row 5, and Column 1 Row 5 have NOT been physically tested on foot yet. We must systematically test these on foot to gather reproducible evidence of their passability.
+
   - **Column 2 Row 1-3 Blockage**: Verified on Turns 115002-115011 that Column 2 is a solid rock wall (TYPE_2889) across Rows 1-3, blocking direct horizontal crossover from (3, 1), (3, 2), and (3, 3) on the west side.
   - **Column 4 Row 4 Blockage**: Verified on Turn 115017 that standing at (4, 3) and attempting to walk Down results in a collision bump, proving (4, 4) is a solid rock wall of TYPE_2889.
   - **Column 5 Row 4 Blockage**: Verified on Turn 115032 that standing at (5, 3) and attempting to walk Down results in a collision bump, proving (5, 4) is a solid rock wall of TYPE_2889.
