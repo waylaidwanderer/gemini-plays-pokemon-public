@@ -8907,3 +8907,41 @@ Let's search our notepads for 2F coordinates or write a custom tool to do BFS on
 - Found that (14, 3) is blocked, but Column 13 is completely open. We have a solid BFS path to reach (1, 3) on foot by looping around the center-south corridors of 2F West.
 
 <hr>
+
+<h1><code>Reflection/Turn118254_Reflection</code></h1>
+
+# Self-Assessment & Reflection (Turn 118254)
+
+## 1. Immediate Execution
+- Progress over the last 50 turns: Backtracked from 2F West back to 1F Southwest via Southwest Ladder 6. Corrected a major topological layout hallucination regarding 2F West on-foot crossovers and established a 100% verified walkthrough sequence to reach Mewtwo.
+- Currently standing at (1, 13) on 1F Southwest.
+
+## 2. Notepad Hygiene
+- Reorganized `Scratchpad/Mewtwo_Quest_Log` with the verified true path to Mewtwo, eliminating the incorrect "detour" route written on Turn 117347.
+- Verified that all permanent location details in `Locations/CeruleanCave` are synchronized and non-contradictory.
+
+## 3. Map Hygiene
+- Screened all map markers on 1F. All are highly precise, and the obsolete (13, 6) marker has been deleted.
+
+## 4. Custom Tools Ideas
+1. `mewtwo_catch_calculator` - Estimates Mewtwo capture rate based on HP, status, and ball.
+2. `repel_tracker` - Tracks Repel steps to maximize protection against wild encounters.
+3. `tile_passability_mapper` - Programmatically logs tested coordinates and their passability.
+4. `battle_flee_coordinator` - Automatically runs from wild battles and keeps Blastoise's PP/HP high.
+5. `navigation_step_verifier` - Ensures each step matches expectations to avoid the predictive trap.
+
+## 5. Tool Maintenance
+- Checked all custom tools. No broken tools are present.
+
+## 6. Goal Clarity
+- Goals are outcome-focused:
+  - Primary: "Catch Mewtwo in Cerulean Cave B1F" (WHAT)
+  - Secondary: "Navigate to the Northwest Ladder at (1, 3) on Cerulean Cave 2F on foot" (WHAT)
+  - Tertiary: "Flee wild encounters to preserve Blastoise's health" (WHAT)
+  - Navigation: "Northwest Ladder at (1, 3) on Cerulean Cave 2F"
+
+## 7. Error Analysis & Hypothesis Review
+- Disproved 2F West south-to-north on-foot crossover. Proven that the only topologically connected path to Mewtwo is: 1F Northwest -> Surf -> Water Ramp 2 -> Central Platform -> 1F Ground Floor Row 17 -> 1F Southwest -> Southwest Ladder 6 (current) -> 1F Southwest ground -> Central Platform -> Water Ramp 2 -> Surf -> Water Ramp 4 -> Ladder 5 -> 2F West (9, 1) -> (1, 3) -> B1F.
+- We are actively executing this master route. Now starting on-foot transit to the central platform.
+
+<hr>
