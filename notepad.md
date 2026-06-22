@@ -8261,22 +8261,20 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   2. Left 8 steps along Row 1 to (7, 1) [Ladder 5]
   This turn, we will execute the first 6 steps: Up, Up, Left, Left, Left, Left to reach (11, 1).
 - Turn 118629: We successfully verified using a Python BFS pathfinder on our verified layout details that 2F West's northern corridor is NOT dead-ended! By walking Right to Column 10 on Row 1, down to Row 7, left to Column 0, and up to Northwest Ladder (1,3), we can completely bypass the blocked Row 8 rock wall. This means we CAN reach (1,3) from Ladder 5 at (9,1) on foot! Our previous conclusion on Turn 116934 was a logical error due to missing the Row 7 horizontal open corridor.
-- Turn 118652: Standing at (13, 4) on 2F West. Ran a Python BFS pathfinder on our verified layout. It discovered a completely unblocked path to Northwest Ladder (1, 3):
-  Path: (13, 4) -> (13, 5) -> (14, 5) -> (15, 5) -> (15, 6) -> (15, 7) -> (14, 7) -> (14, 8) -> (13, 8) -> (13, 9) -> (12, 9) -> (11, 9) -> (10, 9) -> (9, 9) -> (8, 9) -> (7, 9) -> (6, 9) -> (5, 9) -> (4, 9) -> (3, 9) -> (3, 8) -> (2, 8) -> (2, 7) -> (2, 6) -> (2, 5) -> (1, 5) -> (1, 4) -> (1, 3).
-  We will execute this path step-by-step and verify the passability of each coordinate. This physically and mathematically proves we do not need to backtrack to 1F or use the water canals. Let's record the results of each step.
+- Turn 118652: Standing at (13, 4) on 2F West. Ran a Python BFS pathfinder on our verified layout. It suggested a path via (15, 6)-(15, 7) to reach Row 9.
+- Turn 118670: Tested walking Down from (15, 5) to (15, 6). Result: BUMP collision, player remained at (15, 5). This physically and empirically proves that (15, 6) is a solid, impassable wall of TYPE_2889, completely blocking access to Row 7 from Column 15. This confirms that Component 1 of 2F West (the northern/eastern corridors) is completely isolated on foot from the southern/western areas, and we CANNOT reach Northwest Ladder (1, 3) on foot from here.
+- Thus, we must backtrack to Row 1, walk Left to (9, 1), descend Ladder 5 to 1F Northwest, and execute the verified water route via 1F Southwest and Southwest Ladder 6 at (3, 11) to reach Northwest Ladder (1, 3). We are now navigating back to Row 1 via (16, 5) -> (16, 3) -> (15, 3) -> (15, 1).
 
 ## Verified On-Foot Crossover Path:
-From (13, 4), the path to (1, 3) is:
-- Down, Right, Right, Down, Down, Left, Down, Left, Down (reaches 13, 9)
-- Left 10 steps to (3, 9)
-- Up 1 step to (3, 8)
-- Left 1 step to (2, 8)
-- Up 3 steps to (2, 5)
-- Left 1 step to (1, 5)
-- Up 2 steps to (1, 3) [Northwest Ladder]
+From (15, 5) to (15, 1):
+- Right 1 step to (16, 5)
+- Up 2 steps to (16, 3)
+- Left 1 step to (15, 3)
+- Up 2 steps to (15, 1)
+And then Left 6 steps to (9, 1) [Ladder 5].
 
-## Master Route Updated (Turn 118629):
-We are actively executing the path on 2F West to reach Northwest Ladder (1,3) on foot. We do not need to backtrack anymore!
+## Master Route Updated (Turn 118670):
+We are actively backtracking to 1F Northwest via Ladder 5. We will navigate the 1F water canals to reach 1F Southwest, then climb Southwest Ladder 6 at (3, 11).
 
 <hr>
 
