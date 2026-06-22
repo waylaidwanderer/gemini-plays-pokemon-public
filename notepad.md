@@ -8383,6 +8383,46 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 116263: Standing at (3, 2) facing Left. We verified (2, 2) is solid rock. Let's move Up to (3, 1) and test (2, 1) by pressing Left.
 - Turn 116266: Standing at (3, 1) facing Up. We want to test if (2, 1) is passable.
 - Hypothesis: (2, 1) is labeled TYPE_2889 (solid rock) and is impassable. We will test this by pressing Left.
+- Turn 116276: Standing at (3, 1) facing Left. We verified (2, 1) is solid rock of TYPE_2889 by pressing Left and bumping.
+- Conclusion: Column 2 on 2F West is 100% solid rock of TYPE_2889 across Rows 1-3. Since (1, 4) is solid rock, the Northwest Ladder (1, 3) is completely unreachable on foot on 2F West from the east (Column 3) and south (Row 5). This means (1, 3) is a completely isolated tile/pocket on 2F West.
+- Since we must reach (1, 3) to access B1F, we have encountered a major topological roadblock.
+- Let's think: How is B1F accessed if Northwest Ladder (1, 3) on 2F West is unreachable and 1F Northwest (1, 3) is isolated?
+- Wait! Let's reconsider: Is (1, 3) on 1F Northwest really isolated on foot from the rest of 1F?
+- Let's check our 1F Northwest blockages: We verified that (4, 1), (4, 2), and (5, 3) on 1F Northwest are solid rock walls (TYPE_2889), which isolates the northern plateau.
+- But wait! Is there a water canal on the west side of 1F that we can use to reach (1, 3) on 1F?
+- No, the water canal on 1F is on Rows 4 and 5. It goes all the way west to Column 1.
+- Wait! Is there a ramp or a way to dismount from the water canal onto the 1F Northwest landmass?
+- Let's check the tiles on 1F Northwest near the water canal:
+  - (1, 3) is Northwest Ladder.
+  - (1, 4) is water or land? On 1F, Rows 4 and 5 are water. So (1, 4) and (1, 5) are water!
+  - Wait, can we dismount directly from water at (1, 4) onto land at (1, 3)?
+  - In Pokémon Red/Blue, can you dismount onto a ladder directly from water?
+  - No, you usually dismount onto a land tile (or a ramp). But wait, does (1, 3) act as a tile we can dismount onto?
+  - Or is there another tile on 1F West where we can dismount?
+  - Let's check: What about Column 2 Row 3 on 1F? What about Column 3 Row 3 on 1F?
+  - Let's look at our 1F notes or write a Python script to search if we've ever visited B1F before, or if there is any other route to B1F.
+  - Wait! We have never been to B1F in this playthrough yet! Our summary says: "I loaded the saved game starting in Pallet Town and re-entered Cerulean Cave to pursue Mewtwo."
+  - Wait! Let's check if there is an open passage on 2F West that we missed.
+  - Could Column 0 be walkable?
+  - If Column 0 is walkable on 2F West, we could go: (3, 1) -> (3, 2) -> (3, 3) -> (3, 5) -> (2, 5) -> (1, 5) -> (0, 5) -> (0, 4) -> (0, 3) -> (0, 2) -> (1, 2) -> (1, 3).
+  - Let's look at the screen!
+    - (0, 5) is TYPE_3fe2 (passable).
+    - (0, 4) is TYPE_3fe2 (passable).
+    - (0, 3) is TYPE_3fe2 (passable).
+    - (0, 2) is TYPE_3fe2 (passable).
+    - (1, 2) is TYPE_3fe2 (passable).
+  - Wait! Is Column 0 really walkable?!
+  - Let's test if Column 0 is passable!
+  - How can we test this?
+    - We can walk to (1, 5), which is TYPE_3fe2.
+    - To get to (1, 5): we go from (3, 1) -> (3, 2) -> (3, 3) -> (3, 5) -> (2, 5) -> (1, 5).
+    - Once at (1, 5), we press Left to see if we can step onto (0, 5) [TYPE_3fe2]!
+    - If we can step onto (0, 5), then Column 0 is passable ground!
+    - And then from (0, 5) we can walk Up to (0, 4) -> (0, 3) -> (0, 2), and then Right to (1, 2) -> (1, 3)!
+    - This would completely bypass Column 2's solid rock wall!
+  - Let's check if this is possible!
+  - Let's write down this brilliant hypothesis: Column 0 is a walkable, passable column on 2F West, and we can navigate around the solid rock wall by going through Column 0!
+  - Let's test this!
 
 <hr>
 
