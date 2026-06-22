@@ -8275,6 +8275,11 @@ And then Left 6 steps to (9, 1) [Ladder 5].
 
 ## Master Route Updated (Turn 118670):
 We are actively backtracking to 1F Northwest via Ladder 5. We will navigate the 1F water canals to reach 1F Southwest, then climb Southwest Ladder 6 at (3, 11).
+- Turn 118789: Ascended Ladder 5 to 2F West at (9, 1).
+- Turn 118815: Backtracked on 2F West by stepping Left to (8, 1) off the ladder tile.
+- Turn 118817: Walked Right to (9, 1) to descend Ladder 5, warping back to 1F Northwest at (7, 1).
+- Turn 118822: Navigating on foot on 1F Northwest. Walked Right 4 steps from (7, 1) along Row 1 to reach (11, 1).
+- Turn 118825: Standing at (11, 1) facing Right. Walking Right 4 steps to (15, 1).
 
 <hr>
 
