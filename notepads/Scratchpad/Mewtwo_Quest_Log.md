@@ -64,3 +64,5 @@ We are actively backtracking to 1F Northwest via Ladder 5. We will navigate the 
 - Turn 118905: Pressed Left from (3, 2) and bumped, coordinates remained at (3, 2). This empirically and physically proves that (2, 2) is a solid, impassable rock wall.
 - Turn 118969: Dismounted successfully on foot at Water Ramp 2 (11, 13). Navigated on foot to (15, 12).
   Path taken: Up, Right 4 steps to (15, 12). We are now heading Down 2, Right 2, Down 2 to the staircase at (17, 15) to descend to the ground floor at (17, 16).
+- Turn 118983: Standing at (7, 17) on ground level facing Up. We will walk Left to (3, 17) along Row 17, then proceed to find the path to the staircase at (1, 13).
+  Path: Left 4 steps to reach (3, 17).
