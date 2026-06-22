@@ -124,3 +124,13 @@
 - Path coordinates: (3, 11) -> (3, 10) -> (3, 9) -> (4, 9) -> (5, 9) -> (6, 9) -> (7, 9) -> (8, 9) -> (9, 9) -> (9, 8) -> (9, 7) -> (8, 7) -> (7, 7) -> (6, 7) -> (5, 7) -> (4, 7) -> (3, 7) -> (2, 7) -> (2, 6) -> (2, 5) -> (1, 5) -> (1, 4) -> (1, 3).
 - We will execute this on-foot route and verify each step. No surfing on 1F is needed anymore because 2F West is accessible and the path is open!
 - Moves: ['Up', 'Up', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Up', 'Up', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Up', 'Up', 'Left', 'Up', 'Up']
+## Route 117547: Resuming the Surfing Journey
+- Turn 117547: We successfully activated SURF. We are currently surfing on the water at (11, 14), facing Down.
+- Planned water path to reach (15, 3) (Water Ramp 4):
+  1. From (11, 14):
+  2. Walk Left 3 steps to (8, 14).
+  3. Walk Up 8 steps to (8, 6).
+  4. Walk Right 7 steps to (15, 6).
+  5. Walk Up 2 steps to (15, 4).
+  6. Dismount Up onto Water Ramp 4 at (15, 3).
+- We will execute this in small chunks to avoid getting lost and to handle any wild encounters.
