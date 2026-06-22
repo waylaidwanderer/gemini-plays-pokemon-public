@@ -8260,7 +8260,19 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   1. Up 2 steps to Row 1: (15, 3) -> (15, 2) -> (15, 1)
   2. Left 8 steps along Row 1 to (7, 1) [Ladder 5]
   This turn, we will execute the first 6 steps: Up, Up, Left, Left, Left, Left to reach (11, 1).
-- Turn 118585: Triggers a wild encounter with Magneton at (11, 1) on Row 1. Fleeing battle to preserve Blastoise's health.
+- Turn 118629: We successfully verified using a Python BFS pathfinder on our verified layout details that 2F West's northern corridor is NOT dead-ended! By walking Right to Column 10 on Row 1, down to Row 7, left to Column 0, and up to Northwest Ladder (1,3), we can completely bypass the blocked Row 8 rock wall. This means we CAN reach (1,3) from Ladder 5 at (9,1) on foot! Our previous conclusion on Turn 116934 was a logical error due to missing the Row 7 horizontal open corridor.
+
+## Verified On-Foot Crossover Path:
+From (4,1), the path to (1,3) is:
+- Right 6 steps to (10,1)
+- Down 6 steps to (10,7)
+- Left 10 steps to (0,7)
+- Up 4 steps to (0,3)
+- Right 1 step to (1,3) [Northwest Ladder]
+
+## Master Route Updated (Turn 118629):
+We are actively executing the path on 2F West to reach Northwest Ladder (1,3) on foot. We do not need to backtrack anymore!
+- Step 1: Walk from (4,1) to (10,1) on 2F West. We will press Right 6 times.
 
 <hr>
 
