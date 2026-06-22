@@ -8724,3 +8724,43 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - No blockages are known to exist on the northern landmass between (15, 3) and (7, 1). We are proceeding on foot.
 
 <hr>
+
+<h1><code>Reflection/Turn116757_Reflection</code></h1>
+
+# Self-Assessment & Reflection (Turn 116757)
+
+## 1. Immediate Execution
+- Progress over the last 50 turns: Successfully explored 2F West's southwest pocket, verified its isolation, descended back to 1F, walked to the southwest ground floor, and are currently walking east to climb onto the central platform via the stairs at (17, 15).
+- No deferred tasks are pending.
+
+## 2. Notepad Hygiene
+- Keeping our scratchpads and verified logs clean and organized.
+- Added verified pathing to get onto the central platform.
+
+## 3. Map Hygiene
+- All map markers are correct and highly precise.
+
+## 4. Custom Tools Ideas
+1. `mewtwo_catch_calculator` - Estimates Mewtwo capture rate based on HP, status, and ball.
+2. `repel_tracker` - Tracks Repel steps to maximize protection against wild encounters.
+3. `tile_passability_mapper` - Programmatically logs tested coordinates and their passability.
+4. `battle_flee_coordinator` - Automatically runs from wild battles and keeps Blastoise's PP/HP high.
+5. `navigation_step_verifier` - Ensures each step matches expectations to avoid the predictive trap.
+
+## 5. Tool Maintenance
+- Checked all custom tools. No broken tools are present.
+
+## 6. Goal Clarity
+- Goals are outcome-focused:
+  - Primary: "Catch Mewtwo in Cerulean Cave B1F"
+  - Secondary: "Ascend to the central platform at (17, 14)"
+  - Tertiary: "Flee wild encounters to preserve Blastoise's health"
+  - Navigation: "Stairs to central platform at (17, 15)"
+
+## 7. Error Analysis & Hypothesis Review
+- Disproved unverified assumptions about 2F West's southwest pocket.
+- We have traced the exact passable path from (13, 17) to (17, 14) using BFS:
+  - Right, Right, Up, Right, Right, Up, Up.
+  - This avoids the solid rock wall blockages at (17, 17).
+
+<hr>
