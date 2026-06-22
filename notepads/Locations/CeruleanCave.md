@@ -1,5 +1,5 @@
 # Cerulean Cave - Verified Records
-- Quest Started: Turn 111394
+- Quest Started: Turn 111394 on Sunday, June 21, 2026 at 9:15 PM PDT
 - Map ID: 0_228 (1F), 0_226 (2F)
 
 ## 1F (0_228) Verified Layout:
