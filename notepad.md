@@ -8249,7 +8249,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 9. Walk directly to B1F stairs!
 
 ## Current Navigation Goal:
-- Descend Southwest Ladder 6 at (3, 11) to return to 1F Southwest.
+- Climb onto the central platform, surf north to (15, 3), and head to Ladder 5 at (7, 1).
 
 <hr>
 
