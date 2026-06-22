@@ -34,3 +34,7 @@
   2. Left 4 steps to (11, 12)
   3. Down 1 step to (11, 13)
   Total: 6 steps. We will stand at (11, 13) facing Down towards the water at (11, 14) and use SURF to mount the water canals.
+- Turn 118583: Standing at (15, 3) on land (Water Ramp 4). We will now navigate on foot to Ladder 5 at (7, 1) via the following path:
+  1. Up 2 steps to Row 1: (15, 3) -> (15, 2) -> (15, 1)
+  2. Left 8 steps along Row 1 to (7, 1) [Ladder 5]
+  This turn, we will execute the first 6 steps: Up, Up, Left, Left, Left, Left to reach (11, 1).
