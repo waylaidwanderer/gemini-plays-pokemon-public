@@ -8252,6 +8252,125 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - (6, 1) is TYPE_3fe2 (passable).
   - (5, 1) is TYPE_3fe2 (passable).
 - Let's walk Left 6 steps to reach (3, 1). We will check each step carefully.
+- Turn 116231: Standing at (5, 1) facing Left.
+- Looking at the current screen <CurrentScreen turn="116231">:
+  - (5, 1) is where we are (passable).
+  - (4, 1) is TYPE_3fe2 (passable).
+  - (3, 1) is TYPE_3fe2 (passable).
+  - (2, 1) is TYPE_2889 (solid rock). This is verified on the screen! Column 2 indeed has solid rocks on Row 1.
+  - (3, 2) is TYPE_3fe2 (passable).
+  - (3, 3) is TYPE_3fe2 (passable).
+  - (2, 3) is TYPE_2889 (solid rock). Column 2 is indeed solid rock on Row 3.
+  - (1, 3) is the ladder tile (TYPE_3fe2, labeled with `[=]`).
+  - (1, 2) is TYPE_3fe2 (passable).
+  - (1, 1) is TYPE_2889 (solid rock).
+  - So the on-foot path from (5, 1) to (1, 3) is:
+    - (5, 1) -> (4, 1) -> (3, 1) [Left 2 steps]
+    - (3, 1) -> (3, 2) -> (3, 3) [Down 2 steps]
+    - (3, 3) -> (2, 3) is blocked by solid rock (2, 3) of TYPE_2889!
+    - Wait! Let's check (3, 3) to (1, 3). Since (2, 3) is solid rock, we CANNOT go left from (3, 3) to (2, 3) to (1, 3).
+    - Wait, is there another way to (1, 3) from Row 3?
+    - Let's check (3, 2). Can we go Left from (3, 2)? (2, 2) is TYPE_2889 (solid rock), so that's blocked.
+    - Can we go Left from (3, 1)? (2, 1) is TYPE_2889 (solid rock), so that's blocked.
+    - Wait! Is there ANY path to (1, 3) from Column 3?
+    - Let's look closely at the screen:
+      - Column 1:
+        - (1, 0) is TYPE_2889 (solid rock)
+        - (1, 1) is TYPE_2889 (solid rock)
+        - (1, 2) is TYPE_3fe2 (passable floor)
+        - (1, 3) is the ladder (passable)
+        - (1, 4) is TYPE_2889 (solid rock)
+        - (1, 5) is TYPE_3fe2 (passable)
+      - Column 2:
+        - (2, 0) is TYPE_2889 (solid rock)
+        - (2, 1) is TYPE_2889 (solid rock)
+        - (2, 2) is TYPE_2889 (solid rock)
+        - (2, 3) is TYPE_2889 (solid rock)
+        - (2, 4) is TYPE_2889 (solid rock)
+        - (2, 5) is TYPE_3fe2 (passable floor)
+      - Column 3:
+        - (3, 0) is TYPE_2889 (solid rock)
+        - (3, 1) is TYPE_3fe2 (passable)
+        - (3, 2) is TYPE_3fe2 (passable)
+        - (3, 3) is TYPE_3fe2 (passable)
+        - (3, 4) is TYPE_2889 (solid rock)
+        - (3, 5) is TYPE_3fe2 (passable)
+      - Wait! Look at Row 5!
+        - (1, 5) is TYPE_3fe2 (passable floor)
+        - (2, 5) is TYPE_3fe2 (passable floor)
+        - (3, 5) is TYPE_3fe2 (passable floor)
+        - (4, 5) is TYPE_3fe2 (passable floor)
+        - (5, 5) is TYPE_3fe2 (passable floor)
+        - (6, 5) is TYPE_3fe2 (passable floor)
+        - (7, 5) is TYPE_3fe2 (passable floor)
+        - (8, 5) is TYPE_2889 (solid rock)
+        - (9, 5) is TYPE_3fe2 (passable floor)
+        - (10, 5) is TYPE_3fe2 (passable floor)
+      - Wait, is Row 5 open?
+        - On Row 5, we have open floor of TYPE_3fe2 from Column 1 to Column 7!
+        - Let's check Column 2:
+          - (2, 5) is indeed TYPE_3fe2 (passable floor).
+        - Let's check Column 1:
+          - (1, 5) is TYPE_3fe2 (passable floor).
+          - (1, 4) is TYPE_2889 (solid rock). Wait, (1, 4) is solid rock, which is between (1, 3) and (1, 5).
+          - If (1, 4) is solid rock, can we go from (1, 5) to (1, 3)? No, because (1, 4) is blocked!
+          - Wait, let's look at (1, 3) again. It has:
+            - North: (1, 2) which is TYPE_3fe2 (passable floor).
+            - South: (1, 4) which is TYPE_2889 (solid rock, blocked).
+            - East: (2, 3) which is TYPE_2889 (solid rock, blocked).
+            - West: (0, 3) (which is the left wall, blocked).
+          - So the ONLY way to reach (1, 3) is from (1, 2)!
+          - Let's trace how we can reach (1, 2):
+            - From (1, 2), we can go South to (1, 3).
+            - But what is next to (1, 2)?
+              - North: (1, 1) which is TYPE_2889 (solid rock, blocked).
+              - South: (1, 3) which is the ladder.
+              - East: (2, 2) which is TYPE_2889 (solid rock, blocked).
+              - West: (0, 2) (left wall, blocked).
+            - Wait, if (1, 2) is only connected to (1, 3), and (1, 3) has all other directions blocked, then (1, 2) and (1, 3) form a completely isolated 2-tile pocket!
+            - Let's look very carefully at the screen. Is this true?
+              - (1, 1) is solid rock.
+              - (1, 2) is open.
+              - (1, 3) is the ladder.
+              - (1, 4) is solid rock.
+              - (2, 1) is solid rock.
+              - (2, 2) is solid rock.
+              - (2, 3) is solid rock.
+              - (2, 4) is solid rock.
+            - Yes! Column 2 is a solid wall of rock from Y=0 to Y=4!
+            - And Column 1 has solid rock at (1, 0), (1, 1), and (1, 4).
+            - This means the ladder at (1, 3) and the tile (1, 2) are completely blocked from the east by Column 2, and from the south by (1, 4).
+            - Wait, then how on earth can anyone reach (1, 3) on 2F West?
+            - Let's search our memories and the notes.
+            - Wait! Let's check `Locations/CeruleanCave` again:
+              - "Located on 1F at (1, 3) (labeled TYPE_3fe2). Ascending this ladder warps the player to 2F at (1, 3)."
+              - "Located on 2F at (1, 3) (labeled [=], TYPE_3fe2). Descending this ladder warps the player to 1F at (1, 3). This is the critical gateway to the northwest isolated quadrant of 1F and the B1F stairs."
+            - Ah! If we descend the ladder at (1, 3) on 2F, we warp to (1, 3) on 1F!
+            - But wait, if (1, 3) on 2F is completely isolated, then we CANNOT walk to it from (9, 1)!
+            - Wait, is that true? Let me look at the screen `<CurrentScreen turn="116231">` again.
+              - Let's check (2, 1) and (2, 3). They are labeled TYPE_2889.
+              - But wait, what about (2, 2)? It is labeled TYPE_2889.
+              - What about (3, 2)? It is labeled TYPE_3fe2 (passable).
+              - Is there any other connection?
+              - Wait! What about Column 1 Rows 2-3? Labeled TYPE_3fe2.
+              - If (2, 2) is solid rock, is (2, 2) really impassable?
+              - Yes, TYPE_2889 is always impassable.
+              - Let's check if there's any other way.
+              - Wait, could (1, 3) be reached from 1F instead?
+              - Let's read: "This isolated quadrant can ONLY be accessed by descending from 2F via the Northwest Ladder at (1, 3)."
+              - Wait! If we have to descend from 2F to 1F Northwest, but 2F's (1, 3) is isolated on 2F, how can we descend it?
+              - Ah! Is it possible that we ascend from 1F at (1, 3) to 2F at (1, 3)?
+              - No, if 1F Northwest is isolated, we can't reach (1, 3) on 1F without descending first!
+              - Wait, let's think: is (2, 2) really impassable? Or is there a passage we missed?
+              - Let's look at (2, 2) and (2, 3) on the screen.
+              - Wait, could (2, 3) or (2, 2) be passable? No, they are TYPE_2889.
+              - What about (2, 1)? Labeled TYPE_2889.
+              - What about (2, 0)? Labeled TYPE_2889.
+              - Let's check Column 1 and Column 2 on Row 1: (1, 1) and (2, 1) are both TYPE_2889.
+              - Wait, what about Row 0? (1, 0), (2, 0), (3, 0), (4, 0), (5, 0), (6, 0) are all TYPE_2889.
+              - Wait, what about Column 2 Row 5? (2, 5) is TYPE_3fe2 (passable). But Y=4 is TYPE_2889 on Columns 2, 3, 4, 5, 6, 7.
+              - Wait, let's verify if (2, 2) or (2, 3) is passable, or if there is some other path.
+              - Let's walk to (3, 1) first and see what's what!
 
 <hr>
 
