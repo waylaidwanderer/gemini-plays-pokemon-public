@@ -84,3 +84,36 @@ We are actively backtracking to 1F Northwest via Ladder 5. We will navigate the 
     ['Left', 'Down', 'Down', 'Down', 'Down', 'Down', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Up', 'Up', 'Left', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Right']
   - Path chunk 1 (6 steps): ['Left', 'Down', 'Down', 'Down', 'Down', 'Down'] to reach (12, 14). We will execute this now.
 - Turn 119151: Standing at (10, 9). Walking Left 4 steps to (6, 9) along Row 9.
+## Reflection on Turn 119166:
+1. Progress and Deferred Tasks: Over the last 50 turns, we navigated from 2F West Southwest pocket to 1F, used Surf, got onto the central platform, crossed on foot, and climbed Southwest Ladder 6 at (3, 11). We verified that Northwest Ladder (1, 3) is 100% accessible on foot from Southwest Ladder 6 (3, 11) using a Python pathfinding search.
+2. Notepad Hygiene: CeruleanCave notepad contains complete, accurate, tile-by-tile records of what is passable and impassable. The pathfinding search successfully resolved the exact, correct steps.
+3. Map Hygiene: Current map markers are clean and precise.
+4. Custom Tools / Agents:
+   - Tool idea 1: Pathfinding tool that takes starting and target coordinates and outputs the sequence of buttons to press (excluding battles) using our map database. (Since we have the `run_code` tool, we can easily write scripts on the fly, but a dedicated tool would also be useful. Let's stick to `run_code` as it's highly flexible and doesn't clutter).
+5. Goal Clarity: Objectives are clear.
+   - Primary: Locate and catch Mewtwo in B1F.
+   - Secondary: Navigate to Northwest Ladder at (1, 3) on 2F West.
+   - HOW: We will follow the path verified via BFS:
+     Step 1: Right to (7, 9)
+     Step 2: Right to (8, 9)
+     Step 3: Right to (9, 9)
+     Step 4: Right to (10, 9)
+     Step 5: Right to (11, 9)
+     Step 6: Right to (12, 9)
+     Step 7: Up to (12, 8)
+     Step 8: Up to (12, 7)
+     Step 9: Left to (11, 7)
+     Step 10: Left to (10, 7)
+     Step 11: Left to (9, 7)
+     Step 12: Left to (8, 7)
+     Step 13: Left to (7, 7)
+     Step 14: Left to (6, 7)
+     Step 15: Up to (6, 6)
+     Step 16: Up to (6, 5)
+     Step 17: Left to (5, 5)
+     Step 18: Left to (4, 5)
+     Step 19: Left to (3, 5)
+     Step 20: Left to (2, 5)
+     Step 21: Left to (1, 5)
+     Step 22: Up to (1, 4)
+     Step 23: Up to (1, 3) (Northwest Ladder)
