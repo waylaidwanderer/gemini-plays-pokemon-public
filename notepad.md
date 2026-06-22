@@ -8259,15 +8259,16 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Turn 116669 Empirical Test**: Standing at (8, 6) on the water, attempted to surf Up into (8, 5) (labeled TYPE_2889). Result: BUMP collision, player remained at (8, 6). Physically proves Column 8 Row 5 is a solid rock wall.
 - **Conclusion**: This empirical evidence conclusively proves that Column 7 (Rows 4-10) and Column 8 (Row 5) form a continuous solid rock barrier on 1F, completely isolating the eastern water canal from the western side of 1F. Surfing directly to Column 1 on 1F is physically impossible. Therefore, the 2F West backtracking route via Southwest Ladder 6 is 100% mandatory to reach the Northwest Ladder (1, 3) and descend to B1F. We must resume our backtracking route immediately.
 
-## Active Backtracking Path to Southwest Ladder 6:
-1. From our current surfing position at (8, 6), surf Down to Water Ramp 2 at (11, 13):
-   - (8, 6) -> Down to (8, 13)
-   - (8, 13) -> Right to (11, 13) (Water Ramp 2)
-2. Dismount onto land at (11, 13).
-3. Walk across the central platform to (17, 15) and descend to (17, 16) on ground level.
-4. Walk Left along Row 17 to 1F Southwest.
-5. Climb Southwest Ladder 6 at (3, 11) to reach 2F West.
-6. Descend Northwest Ladder (1, 3) on 2F West to reach B1F!
+## Active Path to Ladder 5 at (7, 1):
+1. From our current surfing position at (8, 14) on Cerulean Cave 1F:
+   - Surf Up 8 steps to (8, 6)
+   - Surf Right 7 steps to (15, 6)
+   - Surf Up 2 steps to (15, 4)
+   - Dismount Up onto Water Ramp 4 at (15, 3)
+2. Walk Left along the 1F Northwest landmass to reach Ladder 5 at (7, 1)
+3. Ascend Ladder 5 to arrive on 2F West at (9, 1)
+4. Navigate 2F West on foot via Row 1 to Northwest Ladder (1, 3)
+5. Descend to 1F Northwest and proceed to B1F stairs!
 
 <hr>
 
