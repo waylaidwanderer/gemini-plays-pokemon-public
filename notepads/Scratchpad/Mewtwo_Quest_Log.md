@@ -20,9 +20,8 @@
 7. On 2F West, walk from (9, 1) to Northwest Ladder (1, 3) via Row 7 and Column 0:
    - (9, 1) -> Walk Down Column 9 to (9, 7) [Down x6]
    - (9, 7) -> Walk Left along Row 7 to (0, 7) [Left x9]
-   - (0, 7) -> Walk Up Column 0 to (0, 2) [Up x5]
-   - (0, 2) -> Walk Right to (1, 2) [Right]
-   - (1, 2) -> Walk Down to Northwest Ladder (1, 3) [Down]
+   - (0, 7) -> Walk Up Column 0 to (0, 3) [Up x4]
+   - (0, 3) -> Walk Right to Northwest Ladder (1, 3) [Right]
 8. Descend Northwest Ladder to 1F Northwest at (1, 3).
 9. Walk directly to B1F stairs!
 
