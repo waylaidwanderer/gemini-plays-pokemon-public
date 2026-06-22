@@ -8335,10 +8335,12 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Step 2: Walk Right 6 steps to (17, 9)
 - Step 3: Walk Down 6 steps to stairs at (17, 15) to descend to 1F ground floor.
 - Total steps: 16 steps. We will execute this in chunks and watch out for wild encounters.
-## Backtracking Progress Update (Turn 117182):
-- Currently standing at (17, 14) on the 1F central platform.
-- Route: Down to (17, 15), Down to (17, 16), Left to (16, 16), Down to (16, 17), then Left to (2, 17).
-- Executing first chunk: ['Down', 'Down', 'Left'] to reach (16, 16).
+## Backtracking Progress Update (Turn 117245):
+- Currently standing at (3, 11) on 2F West, facing Down.
+- Checked 2F West's layout: BFS has found a fully open path to the Northwest Ladder at (1, 3) on foot.
+- Path coordinates: (3, 11) -> (3, 10) -> (3, 9) -> (4, 9) -> (5, 9) -> (6, 9) -> (7, 9) -> (8, 9) -> (9, 9) -> (9, 8) -> (9, 7) -> (8, 7) -> (7, 7) -> (6, 7) -> (5, 7) -> (4, 7) -> (3, 7) -> (2, 7) -> (2, 6) -> (2, 5) -> (1, 5) -> (1, 4) -> (1, 3).
+- We will execute this on-foot route and verify each step. No surfing on 1F is needed anymore because 2F West is accessible and the path is open!
+- Moves: ['Up', 'Up', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Up', 'Up', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Up', 'Up', 'Left', 'Up', 'Up']
 
 <hr>
 
