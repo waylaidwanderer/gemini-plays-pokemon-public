@@ -8947,3 +8947,41 @@ Let's search our notepads for 2F coordinates or write a custom tool to do BFS on
 - We are actively executing this master route. Now starting on-foot transit to the central platform.
 
 <hr>
+
+<h1><code>Reflection/Turn118468_Reflection</code></h1>
+
+# Self-Assessment & Reflection (Turn 118468)
+
+## 1. Immediate Execution
+- Progress over the last 50 turns: Successfully navigated the water canals of Cerulean Cave 1F from (11, 7) to (11, 14), dismounted on foot at (11, 13) (Water Ramp 2), walked east across the central platform to (15, 12), and descended the stairs at (17, 15) to reach (17, 16) on the ground floor.
+- Ready to continue the master backtracking route to Southwest Ladder 6 at (3, 11).
+
+## 2. Notepad Hygiene
+- Re-verified the on-foot path from (17, 16) to (3, 11) via Row 17 using a corrected Python BFS search, avoiding the solid wall blockages at (17, 17) and Column 14.
+- High-level progress is cleanly documented.
+
+## 3. Map Hygiene
+- Screened all map markers on 1F. All landmarks (including Water Ramp 2, Ladder 6, and Stairs at 17, 15) are accurate and highly precise.
+
+## 4. Custom Tools Ideas
+1. `mewtwo_catch_calculator` - Estimates Mewtwo capture rate based on HP, status, and ball.
+2. `repel_tracker` - Tracks Repel steps to maximize protection against wild encounters.
+3. `tile_passability_mapper` - Programmatically logs tested coordinates and their passability.
+4. `battle_flee_coordinator` - Automatically runs from wild battles and keeps Blastoise's PP/HP high.
+5. `navigation_step_verifier` - Ensures each step matches expectations to avoid the predictive trap.
+
+## 5. Tool Maintenance
+- Checked all custom tools. No broken tools are present.
+
+## 6. Goal Clarity
+- Goals are outcome-focused:
+  - Primary: "Catch Mewtwo in Cerulean Cave B1F" (WHAT)
+  - Secondary: "Navigate to the Northwest Ladder at (1, 3) on Cerulean Cave 2F on foot via Southwest Ladder 6 (3, 11)" (WHAT)
+  - Tertiary: "Flee wild encounters to preserve health" (WHAT)
+  - Navigation: "Southwest Ladder 6 at (3, 11) on 1F Southwest"
+
+## 7. Error Analysis & Hypothesis Review
+- Disproved direct downward traversal at (17, 17). Corrected the path to go Left on Row 16, then Down at Column 16/15 to Row 17, and then Left along Row 17.
+- This represents a highly reliable, mathematically clean path. We are executing it step-by-step.
+
+<hr>
