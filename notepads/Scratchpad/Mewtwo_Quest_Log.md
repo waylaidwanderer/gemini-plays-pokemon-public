@@ -153,3 +153,5 @@
 - Let's walk Down to (3, 3) facing Left so we can test the passability of (2, 3) on foot.
 - Let's verify (3, 3) is passable floor: (3, 3) is TYPE_3fe2 (passable).
 - Let's press Down once.
+- Turn 116252: Standing at (3, 3) facing Up. We want to test if (2, 3) is passable on foot to reach (1, 3).
+- Hypothesis: (2, 3) is labeled TYPE_2889 (solid rock) and is impassable. We will test this by pressing Left.
