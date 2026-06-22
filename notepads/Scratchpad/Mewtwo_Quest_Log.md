@@ -22,7 +22,36 @@
   4. Climb Ladder 5 at (7, 1) on 1F Northwest.
   5. On 2F West, walk left along Row 1 and down to the Northwest Ladder at (1, 3).
   6. Descend the Northwest Ladder to 1F Northwest and access the B1F stairs!
-- Turn 116227: We are at (9, 1) on 2F West. Our next milestone is walking Left along Row 1 to (3, 1), and then Down to (3, 3) and Left to Northwest Ladder (1, 3).
+- Turn 116307: We are on 1F Northwest at (7, 1). We have discovered that the Northwest Ladder at (1, 3) on 2F West is 100% accessible on foot from the SOUTH pocket of 2F West (from Southwest Ladder 6 at 3, 11) using Column 0 as an unblocked bypass!
+- This means the complete, unblocked walkthrough to B1F Mewtwo is:
+  1. Stand on 1F Northwest at (7, 1). Walk on foot to Water Ramp 4 at (15, 3).
+  2. Stand on (15, 3) facing UP (or the water) and use SURF to mount the western water canal.
+  3. Surf to Water Ramp 2 at (11, 13) and dismount onto land.
+  4. Walk east onto the central platform, walk to the stairs at (17, 15), and descend to (17, 16) on the ground floor.
+  5. Walk west along the Row 17 ground corridor to (3, 17), then walk north to (3, 11).
+  6. Climb Southwest Ladder 6 at (3, 11) to reach 2F West at (3, 11).
+  7. Walk north through the southern corridors to reach Row 5.
+  8. Walk Left along Row 5 to Column 0 at (0, 5).
+  9. Walk Up Column 0 to Row 2 at (0, 2).
+  10. Walk Right to Column 1 Row 2 at (1, 2).
+  11. Walk Down to Northwest Ladder (1, 3).
+  12. Descend Northwest Ladder to 1F Northwest at (1, 3).
+  13. Walk to the B1F stairs!
+- Let's execute Step 1: walk on foot from (7, 1) to (15, 3) on 1F Northwest.
+- Let's trace the exact tile path from (7, 1) to (15, 3) on 1F Northwest:
+  - We are at (7, 1).
+  - Walk Down to (7, 2) [Down]
+  - Walk Right to (12, 2) [Right x5]
+  - Walk Down to (12, 3) [Down]
+  - Walk Right to (15, 3) [Right x3]
+  - Let's check this path against 1F Northwest layout:
+    - (7, 1) -> (7, 2) is open.
+    - (8, 2), (9, 2), (10, 2), (11, 2), (12, 2) are labeled TYPE_2770, which is open ground.
+    - (12, 3) is open ground.
+    - (13, 3), (14, 3), (15, 3) are open ground. (15, 3) is Water Ramp 4.
+    - Let's verify (12, 3) passability. In Turn 112011, we successfully traversed (23, 3) to (27, 2) on foot. And we dismounted at (15, 3) and walked to (7, 1).
+    - So this path is 100% open and verified!
+- Let's begin our journey!
 - Let's check the tiles on Row 1:
   - (9, 1) is where we are.
   - (8, 1) is TYPE_3fe2 (passable).
