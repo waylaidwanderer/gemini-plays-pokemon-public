@@ -8254,7 +8254,7 @@ And then Left 6 steps to (9, 1) [Ladder 5].
 - **Turns 119726 to 119814**: Attempted to bypass the 2F West Row 8/10 wall blockages on foot, confirming that Row 7 contains solid walls that block the horizontal on-foot path between the (9, 1) ladder and the (1, 3) Northwest Ladder on 2F West. This physically disproves the 2F West on-foot detour, forcing us to explore the 1F Northwest Surf/dismount path. Backtracked to (9, 1) and descended Ladder 5 to return to 1F Northwest at (7, 1).
 
 ## Live Navigation Logs:
-- **Turn 122340**: Currently standing at (12, 9) on foot on Map 0_226, walking east and south along the Row 9 corridor to reach Column 12 and proceed to the southwestern area to physically test Column 2's passability from the south.
+- **Turn 122400**: Ascended Southwest Ladder 6 back to 2F West on foot, and currently standing at (3, 11) preparing to execute our 54-step on-foot path to reach the Northwest Ladder (1, 3).
 
 ## Column 4 Corridor Passability Analysis (Turn 122130):
 - **Objective**: Check if there is an alternate bypass on Column 4 on 2F West.
