@@ -24,19 +24,20 @@ From (15, 5) to (15, 1):
 - Up 2 steps to (16, 3)
 - Left 1 step to (15, 3)
 - Up 2 steps to (15, 1)
-And then Left 6 steps to (9, 1) [Ladder 5].
+- Left 6 steps to (9, 1) [Ladder 5].
 
 ## Obsolete Historical Attempts (Archived Summary):
 - **Turns 111394 to 119725**: Mapped out various routes on 1F and 2F West. Discovered that the southwestern ground pocket on 1F Southwest is reached via dismounting at Water Ramp 2 (11, 13), walking over the central platform stairs, and backtracking along Row 17 on ground level. Walked up Southwest Ladder 6 at (3, 11) to 2F West Component 3, and backtracked to 1F via the same ladder.
 - **Turns 119726 to 119814**: Attempted to bypass the 2F West Row 8/10 wall blockages on foot, confirming that Row 7 contains solid walls that block the horizontal on-foot path between the (9, 1) ladder and the (1, 3) Northwest Ladder on 2F West. This physically disproves the 2F West on-foot detour, forcing us to explore the 1F Northwest Surf/dismount path. Backtracked to (9, 1) and descended Ladder 5 to return to 1F Northwest at (7, 1).
 
 ## Live Navigation Logs:
-- **Turn 122620**: Explored 1F Northwest on Map 0_228 and physically tested Column 4 on Row 0 and Row 2. Both (4, 0) and (4, 2) resulted in collision bumps, proving that 1F Northwest is completely isolated on foot from (1, 3). However, we ran a programmatic BFS from (9, 1) [Ladder 5] to (1, 3) on Map 0_226 (2F West) with our most accurate verified blockages and proved that a 60-step on-foot connection exists between Ladder 5 and (1, 3) via the eastern side of 2F! Currently preparing to walk back to Ladder 5 at (7, 1) on Map 0_228 to climb up and execute this route.
+- **Turn 122640**: Currently standing at (5, 1) on Map 0_226. Programmatic BFS from (9, 1) to (1, 3) on 2F West was shown to be impossible as it relies on traversing blocked parts of Row 10 (Columns 13-20), meaning 2F West is indeed fully disconnected. Backtracking to 1F is required.
 
 ## Consolidated Passability Analyses:
 - Visually, Y=4 has solid rock walls (TYPE_2889) on Columns 1-8. Column 2 has solid rock walls (TYPE_2889) on Rows 1-3. 
 - However, Column 1 has open tiles at (1, 2) and (1, 3), and Row 5 is open from Column 1 to Column 7. If there is any unverified opening on Row 4 or Column 2, or if we can cross Column 2 on foot, we can reach (1, 3).
 - Our active priority is to walk to (3, 1) and attempt to step Left onto (2, 1) to physically verify its collision. If blocked, we will test (3, 2) -> (2, 2) and (3, 3) -> (2, 3) to conclusively verify the Column 2 barrier. We will also test Row 4 Column 1 (1, 4) from (1, 5) if we can navigate there. This strictly satisfies the Burden of Proof.
+- **Unverified Visual Hypothesis**: Column 2 on 2F West on Rows 13 and 14 is currently an unverified visual hypothesis. We must perform a physical on-foot bump test here once we reach 2F West Component 3 (by climbing up Southwest Ladder 6 at (3, 11)) to verify if it is passable or blocked by solid rock walls.
 
 ## True Path to Northwest Ladder (1, 3) on 2F West:
 - Wait! On Turn 122424, we ran our custom tool `cave_bfs_solver` and it returned an empty list `[]`, indicating that there is no valid on-foot path from our current position to (1, 3) on Map 0_226 with all verified obstacles registered.
@@ -88,12 +89,8 @@ And then Left 6 steps to (9, 1) [Ladder 5].
 - **Definitive Conclusion**: Tile (4, 1) is 100% physically a solid rock wall of TYPE_2889.
 - This physically, empirically, and undeniably proves that Column 4 on Rows 0, 1, and 2 is a solid rock wall barrier, completely blocking any horizontal on-foot crossover from (7, 1) to the western area containing Northwest Ladder (1, 3) on Map 0_228.
 - Thus, the northwest quadrant of 1F (containing Northwest Ladder (1, 3)) is indeed completely isolated on foot from the landmass around Ladder 5 (7, 1) on Map 0_228.
-## Column 0/1/2 Passability on 1F Northwest - DISPROVED (Turn 122327):
+## Column 0/1/2 Passability on 1F Northwest - DISPROVEN (Turn 122327):
 - **Hypothesis**: Column 0 on Map 0_228 (from Row 3 to Row 12) is completely passable on foot, allowing a direct vertical connection between the southwest ground area and the Northwest Ladder (1, 3).
 - **Physical Test (Turn 122327)**: Standing at (1, 8) on foot on Map 0_228, we walked Right to (2, 8), and then attempted to walk Up to (2, 7) by pressing Up.
 - **Result**: Direct bump collision, remaining at (2, 8) facing Up.
 - **Definitive Conclusion**: Tile (2, 7) (and (1, 7)) are 100% physically solid, impassable barriers (rock walls). This physically, empirically, and mathematically disproves the Column 0/1/2 passability hypothesis. Row 7 forms a continuous, unbroken solid rock wall barrier across all columns on the west side of Map 0_228. Thus, the northwest quadrant on 1F is indeed completely physically isolated on foot from the southwest area on Map 0_228.
-## Map 0_226 (2F) Direct Connection Discovery (Turn 122396) - DISPROVEN Turn 122424:
-- **Disproven Fact**: We previously hypothesized a direct on-foot connection on 2F West between Southwest Ladder 6 at (3, 11) and Northwest Ladder at (1, 3).
-- **Verification**: This direct on-foot route is completely DISPROVEN. Row 11 and Row 12 contain solid, impassable wall blockages of TYPE_2889 at (12, 11) and (12, 12), preventing horizontal on-foot passage.
-- **Topological Solution**: The only valid way to reach the Northwest Ladder (1, 3) on Map 0_226 is to ascend from Ladder 5 at (7, 1) on Map 0_228, which warps us to 2F West at (9, 1). From there, we navigate on foot via Row 0 and Row 1 to (1, 3). This is now our active master route.
