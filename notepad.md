@@ -9190,3 +9190,42 @@ Total: 10 steps. No grass or solid obstacles. Flee wild water encounters immedia
 - **Assumptions Evaluated**: We previously assumed that (18, 14) on 1F might be impassable rock, but our actual visual check of `<CurrentScreen>` on Turn 120160 showed it is TYPE_2770 (passable ground), enabling a much shorter path to the stairs at (17, 15) than walking around. We corrected our path to use this unblocked corridor, verifying it step-by-step.
 
 <hr>
+
+<h1><code>Reflection/Turn120957_Reflection</code></h1>
+
+# Turn 120957 Reflection & Self-Assessment
+
+## 1. Progress and Deferred Tasks Over the Last 50 Turns
+- **Progress**: Successfully executed Step 4 (Turn 120936) and Step 5 (Turn 120952) of our systematic Row 5 testing protocol. Both tested tiles—(11, 5) and (12, 5)—were empirically proven to be completely impassable rock walls of TYPE_2889. We are currently standing at (12, 6) preparing to move to (13, 6) to perform the final test (Step 6) on (13, 5).
+- **Deferred Tasks**: Once the systematic test of Row 5 is complete, we will immediately resume our master path to Mewtwo by surfing back to Water Ramp 2 at (11, 13).
+
+## 2. Notepad Hygiene
+- **Organization**: Region files (`Locations/CeruleanCave`) and scratchpads (`Scratchpad/Mewtwo_Quest_Log`) are pristine, updated, and highly accurate.
+- **Starting Metrics**: Start turn 111394 and start timestamp are fully preserved.
+- **Hypotheses & Proof of Work**: Every test result is fully documented with exact turn numbers and visual types, making our records highly robust and verified.
+
+## 3. Map Hygiene
+- **Map Markers Check**: Checked the current screen. No new landmarks need markers, and existing markers (Water Ramp 2, Ladder 6, etc.) are 100% accurate.
+
+## 4. Custom Tools
+- **Five Tool Ideas**:
+  1. `cave_bfs_solver` - Active and fully functional for automated shortest-path overworld navigation on foot or surfing on Map 0_228 and 0_226.
+  2. `flee_battle` - Active and functional to bypass wild battles instantly.
+  3. `heal_at_center` - Active and functional.
+  4. `navigate_to_ramp_4` - Active and functional.
+  5. `verify_tile_passability` - A script to automate adjacent collision testing.
+- **Evaluation**: The existing custom tools are highly optimized and fully sufficient.
+
+## 5. Tool Maintenance
+- **Refinement**: No custom tools are broken. All are working flawlessly.
+
+## 6. Goal Clarity
+- **Active Goals**:
+  - Primary: Catch Mewtwo in Cerulean Cave B1F (Outcome-focused).
+  - Secondary: Complete the systematic Row 5 testing protocol, then surf to Water Ramp 2 at (11, 13) (Outcome-focused).
+  - Tertiary: Flee wild encounters to preserve party health.
+
+## 7. Error Analysis & Hypothesis Review
+- **Lessons**: Systematic empirical verification is the only way to establish absolute truth. By testing every single tile along Row 5, we leave no room for doubt or unverified assumptions. Our previous tests on Southwest 2F West also completely settled the debate on whether an on-foot path existed there.
+
+<hr>
