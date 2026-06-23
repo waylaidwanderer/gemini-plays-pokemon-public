@@ -73,3 +73,9 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
 - **Turn 121320**: Successfully returned to 2F West on foot, currently positioned at (4, 1).
 - Turn 121410: Successfully descended Ladder 5 to 1F Northwest at (7, 1). Verified that 1F Northwest is completely isolated on foot from B1F stairs, and we must walk to Water Ramp 4 at (15, 3) to Surf to Southwest Ladder 6.
 - Turn 121440: Safely activated Surf at Water Ramp 4, navigated south and west along the water canals, and reached (9, 7) surfing.
+
+## Column 0 Passability Empirical Test Plan on 2F West:
+- **Hypothesis**: Column 0 on 2F West is an open vertical corridor allowing vertical movement, or it is a solid rock boundary wall of TYPE_2889.
+- **Testing Methodology**: Once we reach 2F West Component 3 (by climbing Southwest Ladder 6 at (3, 11)), we will navigate to (1, 15), and attempt to step Left onto Column 0 at (0, 15) by pressing Left.
+- **Expected Outcome if Column 0 is open**: Player's position becomes (0, 15) with no collision.
+- **Expected Outcome if Column 0 is a solid wall**: Player bumps and remains at (1, 15), proving Column 0 is a solid boundary wall. We will execute this test and log the exact turn and result.
