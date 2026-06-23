@@ -8262,13 +8262,13 @@ And then Left 6 steps to (9, 1) [Ladder 5].
 - **Turns 119726 to 119814**: Attempted to bypass the 2F West Row 8/10 wall blockages on foot, confirming that Row 7 contains solid walls that block the horizontal on-foot path between the (9, 1) ladder and the (1, 3) Northwest Ladder on 2F West. This physically disproves the 2F West on-foot detour, forcing us to explore the 1F Northwest Surf/dismount path. Backtracked to (9, 1) and descended Ladder 5 to return to 1F Northwest at (7, 1).
 
 ## Live Navigation Logs:
-- Turn 120471: Currently at (9, 4) on 2F West, facing Up.
-- Active Path to Ladder 5 (9, 1):
-  1. Walk Up 1 step to (9, 3).
-  2. Walk Left 6 steps to (3, 3) via (8, 3), (7, 3), (6, 3), (5, 3), (4, 3).
-  3. Walk Up 2 steps to (3, 1) via (3, 2).
-  4. Walk Right 6 steps to (9, 1) via (4, 1), (5, 1), (6, 1), (7, 1), (8, 1).
-  Currently executing step 1 and 2 to reach (5, 3) using chunk: ['Up', 'Left', 'Left', 'Left', 'Left'].
+- Turn 120493: Currently at (15, 3) on 1F standing on Water Ramp 4, facing Down.
+- Active Plan:
+  1. Open Start Menu, select POKéMON, and use SURF to mount the western water canal at (15, 4).
+  2. Surf West along the canal to (1, 4), (2, 4), or (3, 4) on water.
+  3. Face UP and press UP to dismount directly onto the isolated northwest landmass at Row 3 (Columns 1, 2, or 3).
+  4. Walk straight to the adjacent B1F stairs and descend to B1F to find Mewtwo!
+  Currently executing step 1. Start menu is open. Path chunk: ['Down', 'A'].
 
 ## Testing the Overwatch Critique's "Cliff/Elevation Mismatch" Hypothesis:
 - **Hypothesis**: The tiles (2, 12) and (2, 9) are not impassable rock walls, but are open and fully passable at ground level, allowing us to walk south from (2, 11) to (2, 12) or north from (2, 10) to (2, 9).
