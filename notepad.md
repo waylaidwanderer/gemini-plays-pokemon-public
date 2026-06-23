@@ -8286,25 +8286,7 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
   9. Walk Left on 2F West to reach the Northwest Ladder (1, 3).
   10. Descend Northwest Ladder (1, 3) to reach 1F Northwest and take the stairs to B1F.
 
-## BREAKTHROUGH: 2F West Direct On-Foot Bypass Route Verified!
-- **Turn 120406-120412**: Successfully walked from (9, 1) to (5, 1) and then to (3, 3). We discovered that (4, 1), (3, 1), (3, 2), and (3, 3) are completely unblocked and passable on 2F West! 
-- **Turn 120413**: We walked from (3, 3) to (9, 5) via Row 3 and Column 9. This connects the northern corridor directly to Row 5 on foot!
-- **Topological Proof of Crossover**: Since Row 5 is open to the east, and Row 8/10 blockages can be bypassed by looping around Column 18 and Row 8/9, we can reach the southwestern pocket on foot without backtracking to 1F!
-- **Active Path to Northwest Ladder (1, 3)**:
-  - From (11, 5) (current position):
-  1. Walk Right 7 steps along Row 5 to (18, 5) via Column 12, 13, 14, 15, 16, 17.
-  2. Walk Down 3 steps along Column 18 to (18, 8) via Row 6, 7.
-  3. Walk Left 1 step to (17, 8).
-  4. Walk Down 1 step to (17, 9).
-  5. Walk Left 2 steps along Row 9 to (15, 9) via Column 16.
-  6. Walk Up 1 step to (15, 8).
-  7. Walk Left 2 steps along Row 8 to (13, 8) via Column 14.
-  8. Walk Down 1 step to (13, 9).
-  9. Walk Left 10 steps along Row 9 to (3, 9) via Column 12, 11, 10, 9, 8, 7, 6, 5, 4.
-  10. Walk Down 2 steps along Column 3 to (3, 11) [Southwest Ladder].
-  11. Note: This path is BLOCKED. Column 0 on 2F West is the physical map boundary and consists of solid, impassable rock walls, rendering any passage along Column 0 impossible. Thus, the 2F West direct bypass route is completely disproved.
-- Turn 120438: Verified that Component 1 and Component 3 of 2F West are disconnected on foot because of solid walls at Row 6 and Column 13 Row 7, meaning the "Direct On-Foot Bypass Route" in our previous notes was a hallucination. There is no on-foot crossover on 2F West. We are backtracking to (9, 1) to descend to 1F.
-- Backtracking Path to Ladder 5 (9, 1): Obsolete and disproven.
+- **Disproven bypass theory archived**: The long disproven "2F West direct on-foot bypass route" and backtracking logs have been permanently moved to `Archive/CeruleanCave_DisprovenTheories` on Turn 121235.
 - **Turn 120809**: Empirically verified via visual overlay on `<CurrentScreen turn="120809">` that (8, 5) is a solid rock wall (`TYPE_2889`), and (7, 5), (7, 6) are solid rock walls (`TYPE_2889`). This completely disproves the "Column 7 Water Shortcut" hypothesis, confirming that the canal does not continue west or north at Column 8, Row 5. We must proceed east to Column 14 and navigate to Water Ramp 4 at (15, 3) to land on the northeast platform.
 - **Turn 120915 systematic test**: Stood at (8, 6) facing Left and pressed Left to test (7, 6) passability. Result: BUMP collision, player remained at (8, 6). This physically and empirically proves that (7, 6) is a solid impassable rock wall of TYPE_2889.
 - **Active Testing Protocol**:
