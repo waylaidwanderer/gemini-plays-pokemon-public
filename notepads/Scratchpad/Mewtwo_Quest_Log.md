@@ -39,52 +39,14 @@ And then Left 6 steps to (9, 1) [Ladder 5].
 - **Turns 119726 to 119814**: Attempted to bypass the 2F West Row 8/10 wall blockages on foot, confirming that Row 7 contains solid walls that block the horizontal on-foot path between the (9, 1) ladder and the (1, 3) Northwest Ladder on 2F West. This physically disproves the 2F West on-foot detour, forcing us to explore the 1F Northwest Surf/dismount path. Backtracked to (9, 1) and descended Ladder 5 to return to 1F Northwest at (7, 1).
 
 ## Live Navigation Logs:
-- Turn 119821: Landing at (7, 1) on 1F Northwest from 2F Ladder 5. We are actively executing our new strategic plan to reach the B1F stairs.
-- Goal: Walk Right on Row 1 to reach Water Ramp 4 at (15, 3), enter the water to SURF, navigate Left along the water canal, and dismount directly onto 1F Northwest to reach B1F!
-- Current position: (7, 1) facing Down. Path: Right 8 steps to (15, 1), then Down 2 steps to (15, 3).
-  Path chunk 1: ['Right', 'Right', 'Right', 'Right'] to reach (11, 1).
-
-## Hypothesis: (2, 1) Passability Test (Turn 119862 Plan)
-- **Hypothesis**: Column 2 Row 1 (2, 1) is a passable overworld tile on 2F West. If true, the top corridor along Row 1 is a continuous on-foot pathway connecting (9, 1) [Ladder 5] directly to (1, 1) and the Northwest Ladder (1, 3), meaning there is no isolation between Component 1 and Component 3!
-- **Testing Method**:
-  1. Backtrack to (3, 1) on foot on 2F West.
-  2. Face Left (West) towards (2, 1).
-  3. Attempt to step Left onto (2, 1) on foot.
-  4. Record the outcome (coordinate change to (2, 1) or a collision bump remaining at (3, 1)) on Turn 119865.
-- **Results**: On Turn 119868, stood at (3, 1) and pressed Left. Result: BUMP collision.
-- **Conclusion**: (2, 1) is indeed a solid rock wall of TYPE_2889. The northern corridors (Component 1) are completely isolated on foot from the western pockets and Northwest Ladder (1, 3) on 2F West. We must backtrack to 1F Northwest.
-- Turn 120042: Standing at (15, 3) on Cerulean Cave 1F on foot after dismounting onto Water Ramp 4.
-  Plan: Walk Up 2 to (15, 1), then Left 8 to reach Ladder 5 at (7, 1) to ascend to 2F.
-  Chunk 1: ['Up', 'Up', 'Left', 'Left'] to reach (13, 1).
-- Turn 120044: Standing at (13, 1) on Cerulean Cave 1F on foot.
-  Plan: Walk Left 6 steps to reach Ladder 5 at (7, 1).
-  Chunk 2: ['Left', 'Left', 'Left'] to reach (10, 1).
-- Turn 120107: Stood at (9, 1). Using python-based BFS we proved mathematically that there is no passable on-foot pathway on 2F West from (9, 1) [Ladder 5] to the Northwest Ladder at (1, 3). The leftmost map columns (Column 0, and Column 1 where blocked) form an impassable boundary. We must backtrack to 1F Northwest.
-  Plan:
-  1. Step off Ladder 5 to (8, 1) by going Left.
-  2. Step back onto (9, 1) by going Right, which will trigger Ladder 5 to warp us back down to 1F Northwest at (7, 1).
-  3. Execute 1F master backtracking path to reach Southwest Ladder 6 at (3, 11).
-- Turn 120122: Standing at (13, 1) on Cerulean Cave 1F. We are about to walk to Water Ramp 4 at (15, 3) and Surf to Water Ramp 2 at (11, 13).
-  Plan:
-  1. Walk Right 2, Down 2 to reach (15, 3).
-  2. Surf at (15, 3) to mount the water.
-  3. Surf to (11, 13) and dismount.
-  4. Walk to Southwest Ladder 6 at (3, 11) to reach 2F West.
-- Turn 120177: Reached (18, 14) on foot on Cerulean Cave 1F after descending Column 18.
-  Plan:
-  1. Walk Left 1 to (17, 14).
-  2. Walk Down 1 to the stairs at (17, 15).
-  3. Ascend/descend the stairs to land on the ground floor at (17, 16) or (17, 17).
-  4. Walk Left to the southwest corner, then take the wooden stairs at (1, 13) to climb Southwest Ladder 6 at (3, 11).
-  Chunk: ['Left', 'Down'] to reach (17, 15).
-- Turn 120182: Walked Down, Left, Left from (17, 15) to reach (15, 16) on foot on the ground floor.
-- Turn 120193: Walked Down, Left, Left, Left, Left from (15, 16) to reach (11, 17) on foot on Row 17.
-- Turn 120205: Standing at (3, 17) facing Left. BFS calculated path to (1, 13) wooden staircase is ['Up', 'Up', 'Left', 'Up', 'Left', 'Up']. Executing.
-- Turn 120255: Re-verified that Component 3 on 2F West (containing the (3, 11) Southwest Ladder) is completely isolated on foot from Row 7 (and the Northwest Ladder at 1, 3). Row 8 forms a continuous wall from Column 2 to Column 10 (TYPE_2889), and Row 12 forms a continuous wall from Column 2 to Column 9. Column 1 Row 10 is blocked, and Column 2 Row 9 is blocked. Thus, Column 1 is isolated from Column 2 on Rows 8-11. 
-Therefore, the Southwest pocket of 2F West is indeed a complete, isolated dead end. Climbing Southwest Ladder 6 does not allow us to reach the Northwest Ladder on foot. We must backtrack down Southwest Ladder 6 to 1F Southwest, then surf to Water Ramp 4 at (15, 3), climb up Ladder 5 at (7, 1) to reach 2F West Component 1, and verify how to reach (1, 3).
-Wait, let's double check if we can walk from Ladder 5 at (9, 1) to (1, 3) on 2F West. We previously noted that (2, 1), (2, 2), and (2, 3) are solid rock walls on foot, making Component 1 isolated on foot from (1, 3). But if BOTH Ladder 5 and Southwest Ladder 6 are isolated from (1, 3) on foot, how can we access (1, 3)?
-Wait! Let's check 1F Northwest.
-Is there an on-foot path between (7, 1) and (1, 3) on 1F? We noted that "the northern plateau (Columns 5+, Rows 0-2) is completely isolated on foot from the western area containing (1, 3) on 1F Northwest...".
-But wait! What about by surfing? Can we surf directly to (1, 3) or (1, 4) on 1F Northwest?
-Let's verify this when we return to 1F. For now, we must descend Southwest Ladder 6 at (3, 11).
-Path from (5, 11) to (3, 11): ['Up', 'Up', 'Left', 'Left', 'Down', 'Down'].
+- Turn 120280: Currently at (13, 17) on 1F Southwest ground on foot, facing Left.
+  We are investigating the major overworld layout and elevation height-mismatch on 2F West!
+  Wait! The overwatch critique has revealed that (2, 9) and (2, 12) on 2F West are NOT solid rock walls of TYPE_2889, but rather cliff/elevation mismatches!
+  This means that at ground level (z=0) on 2F West, these tiles are completely open and fully passable!
+  Therefore, there is actually an unblocked on-foot path from Southwest Ladder 6 at (3, 11) [z=0] to Northwest Ladder (1, 3) via Row 12/13!
+  We are heading back to Southwest Ladder 6 at (3, 11) on 1F to climb back up and physically test this ground-level path on 2F West!
+  Current position: (13, 17) on 1F Southwest.
+  Plan to reach Southwest Ladder 6 on 1F:
+  1. Walk Left 10 steps along Row 17 to (3, 17).
+  2. Walk Up 6 steps along Column 3 to (3, 11) [Southwest Ladder 6].
+  3. Climb up to 2F West.
