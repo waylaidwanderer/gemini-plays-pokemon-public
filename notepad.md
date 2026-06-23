@@ -8387,8 +8387,9 @@ We are actively backtracking to 1F Northwest via Ladder 5. We will navigate the 
     - Active goal: Navigate to Water Ramp 2 at (11, 13) to Surf.
     - Planned path on foot: ['Up', 'Left', 'Left', 'Up', 'Up', 'Left', 'Left', 'Left', 'Left', 'Down'] to reach (11, 13).
     - Executing first chunk of path: ['Up', 'Left', 'Left', 'Up', 'Up'] to reach (15, 12).
-  - Turn 119696: Standing at (15, 13) on 1F central platform facing Down. Escaped wild Magneton.
-    - Currently executing remaining chunk on foot: ['Up', 'Left', 'Left', 'Left', 'Left'] to reach (11, 12).
+  - Turn 119701: Standing at (12, 12) on 1F central platform facing Left. Escaped wild Dodrio.
+    - Active goal: Navigate to Water Ramp 2 at (11, 13) to Surf.
+    - Remaining path: ['Left', 'Down'] to reach (11, 13).
 
 <hr>
 
