@@ -8327,6 +8327,12 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
   - HOW: Walk straight Down 4 steps along Column 1 from (1, 11) to (1, 15).
 - **Error Analysis**: Confirmed that Column 0 and (1, 15) on 2F West are completely isolated on foot from (3, 11) due to solid rock walls, making the 1F Southwest ground level at (1, 15) the only viable place to test Column 0 passability. We will execute the test and log the exact result.
 
+## Row 12 Passability Empirical Test on 2F West:
+- **Hypothesis**: Tile (3, 12) on 2F West is passable, allowing horizontal/vertical navigation, or it is a solid rock wall.
+- **Testing Methodology (Turn 121534)**: Standing at (3, 11) on 2F West facing Down, pressed Down.
+- **Result**: Direct bump collision with zero coordinate change (player remained at 3, 11).
+- **Definitive Conclusion**: Tile (3, 12) on 2F West is 100% physically a solid, impassable rock wall of TYPE_2889. This physically and mathematically proves that the southwest pocket of 2F West is indeed a completely isolated dead-end pocket, and we must proceed with our master backtracking route via 1F to reach Northwest Ladder (1, 3).
+
 <hr>
 
 <h1><code>Locations/CeruleanCave</code></h1>
