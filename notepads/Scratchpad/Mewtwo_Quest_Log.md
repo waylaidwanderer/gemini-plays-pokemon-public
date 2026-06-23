@@ -144,3 +144,8 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
     Let's begin by surfing Left to (12, 6). Expected position: (12, 6).
 - Turn 120981: Standing at (13, 7) on water. Pressing Left 4 times to surf to (9, 7). Expected position: (9, 7).
 - Turn 120983: Successfully arrived at (12, 7) surfing on the water. Pressing Left to surf to (11, 7). Expected position: (11, 7).
+- Turn 120985: Successfully arrived at (12, 7) surfing on water.
+  - Path so far:
+    1. From (13, 6): Down to (13, 7) (Turn 120979)
+    2. From (13, 7): Left to (12, 7) (Turn 120982)
+  - Next step: press Left to surf to (11, 7). Expected position: (11, 7).
