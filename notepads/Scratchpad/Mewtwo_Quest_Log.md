@@ -97,3 +97,8 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
   - Final Conclusion migrated to Locations/CeruleanCave.
 - Turn 120969: Step 6 Result: Stood at (13, 6) facing Up and pressed Up. Result was a BUMP collision (Turn 120968), proving (13, 5) is indeed an impassable rock wall of TYPE_2889. This systematic test of Row 5 on water is now 100% complete and fully verified!
 - Turn 121111: Successfully ascended Southwest Ladder 6 and arrived on 2F West at (3, 11) on foot.
+- Turn 121121: We are standing at (3, 11) on 2F West. We deleted the obsolete map markers at (1, 10), (1, 11), and (1, 6).
+  We will now run an empirical test to verify the passability of Column 1:
+  - Test Method: Walk Left 2 steps from (3, 11) on foot.
+  - Expected Result if Column 1 is open: We land on (1, 11) successfully.
+  - Expected Result if Column 1 is blocked: We bump at (2, 11) and remain there.
