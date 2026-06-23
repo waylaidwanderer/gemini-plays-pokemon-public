@@ -8374,19 +8374,15 @@ We are actively backtracking to 1F Northwest via Ladder 5. We will navigate the 
     - Step 5: (14, 8) -> Right to (15, 8)
 - Turn 119409: Fled the wild Rhydon at (10, 9). Continuing on-foot path west along Row 9. We will execute the next chunk: ['Left', 'Left', 'Left', 'Left'] to reach (6, 9).
 ## Live Navigation Logs:
-- Turn 119644: Standing at (15, 9) on 2F West facing Up. We proved that the Row 9 corridor has NO on-foot exit to the north or east due to solid rock walls at (15, 10), (14, 10), (13, 10), (16, 10), and all surrounding tiles. Component 3 of 2F West is indeed completely isolated on foot from the northern portion of 2F West (Component 1) and the Northwest Ladder (1, 3).
-- To proceed, we must backtrack to Southwest Ladder 6 at (3, 11) to descend to 1F, navigate 1F via the water canals to reach 1F Northwest, and ascend Ladder 5 to reach Component 1 of 2F West. Wait!
-- Let's double check if we can reach Northwest Ladder (1, 3) from Component 1. Our notes say:
-  'meaning the Northwest Ladder (1, 3) cannot be accessed from Component 1 or Component 3 on 2F West.'
-  Wait, if Northwest Ladder is isolated from BOTH Component 1 and Component 3 on 2F, then how does any player ever reach it?
-  Let's walk back to (3, 11) and think.
-  We will now walk back to Southwest Ladder 6 at (3, 11) using the 16-step path:
-  - Up to (15, 8)
-  - Left 2 steps to (13, 8)
-  - Down to (13, 9)
-  - Left 10 steps to (3, 9)
-  - Down 2 steps to (3, 11)
-  First chunk: walk Up 1, Left 2 steps to reach (13, 8). We will execute ['Up', 'Left', 'Left'].
+- Turn 119675: Standing at (1, 14) on 1F Southwest facing Down. We successfully backtracked to Southwest Ladder 6 at (3, 11) on 2F and descended to 1F Southwest.
+  - Active goal: Navigate to Water Ramp 2 at (11, 13) to mount the water canals and SURF.
+  - Planned path:
+    1. Walk Down 2 steps to (1, 16)
+    2. Walk Right 1 step to (2, 16)
+    3. Walk Down 1 step to (2, 17)
+    4. Walk Right along the Row 17 corridor to reach the central platform stairs at (17, 15)
+    5. Navigate north and west across the central platform to (11, 13) Water Ramp 2
+  - Currently executing first chunk: ['Down', 'Down', 'Right', 'Down'] to reach (2, 17).
 
 <hr>
 
