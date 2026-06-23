@@ -39,7 +39,8 @@ And then Left 6 steps to (9, 1) [Ladder 5].
 - **Turns 119726 to 119814**: Attempted to bypass the 2F West Row 8/10 wall blockages on foot, confirming that Row 7 contains solid walls that block the horizontal on-foot path between the (9, 1) ladder and the (1, 3) Northwest Ladder on 2F West. This physically disproves the 2F West on-foot detour, forcing us to explore the 1F Northwest Surf/dismount path. Backtracked to (9, 1) and descended Ladder 5 to return to 1F Northwest at (7, 1).
 
 ## Live Navigation Logs:
-- Turn 120691: Standing at (1, 11) on 1F Southwest on foot, heading down the wooden stairs to ground level, then to the central platform to SURF.
+- Turn 120722: Standing at (7, 17) on 1F ground floor on foot. Heading to the central platform stairs at (17, 15) to mount the water canal and verify if Column 7 is a passable water channel on Row 4 or 5.
+- Active Plan: Walk on foot via Row 17 ground level to (17, 16), walk Up to the central platform stairs at (17, 15), walk to Water Ramp 2 at (11, 13), use Surf, and surf north and west to (8, 4)/(8, 5) to physically test if Column 7 can be traversed on water to reach the northwest quadrant. If blocked, proceed to Water Ramp 4 at (15, 3) to dismount and take Ladder 5 to 2F.
 
 ## Testing the Overwatch Critique's "Cliff/Elevation Mismatch" Hypothesis:
 - **Hypothesis**: The tiles (2, 12) and (2, 9) are not impassable rock walls, but are open and fully passable at ground level, allowing us to walk south from (2, 11) to (2, 12) or north from (2, 10) to (2, 9).
