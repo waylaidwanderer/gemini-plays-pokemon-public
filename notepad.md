@@ -9113,3 +9113,46 @@ The unblocked master path to reach Mewtwo in B1F:
 Total: 10 steps. No grass or solid obstacles. Flee wild water encounters immediately.
 
 <hr>
+
+<h1><code>Reflection/Turn120172_Reflection</code></h1>
+
+# Turn 120172 Self-Assessment & Reflection
+
+## 1. Progress and Deferred Tasks Over the Last 50 Turns
+- **Progress**: Navigated from 2F West back down to 1F Northwest at (7, 1) on foot via Ladder 5. From (7, 1), we walked to Water Ramp 4 at (15, 3), used Surf to mount the water canal, and surfed along the open canal water of Row 7 to Water Ramp 2 at (11, 13). We then dismounted at (11, 13) and walked on foot across the central platform to (18, 11).
+- **Deferred Tasks**: Our next immediate task is descending the central platform stairs at (17, 15) to reach the ground level on Row 17, walking left to the southwest corner, and taking the stairs at (1, 13) up to the southwest plateau to climb Southwest Ladder 6 at (3, 11).
+
+## 2. Notepad and Map Hygiene
+- **Notepad Organization**: Loaded and updated regions (`Locations/CeruleanCave` and `Scratchpad/Mewtwo_Quest_Log`) are clean, well-subdivided, and detail our exact topological discoveries, collision testing results (with turn citations), and BFS pathfinding proof-of-work.
+- **Start Turns/Timestamps**: Start turn 111394 and timestamp (Sunday, June 21, 2026 at 9:15 PM PDT) are recorded and maintained in both region files to avoid time-blindness.
+- **Redundant/Outdated Info**: Cleared old path planning notes and kept only the active master plan and verified layout facts.
+- **Tile Mechanics Updated**: Verified that (18, 14) is passable on foot on 1F (contrary to our earlier projection), and updated the regional layout records.
+
+## 3. Map Hygiene
+- **Map Markers Check**: Visually audited our map markers on the current screen. We have accurate markers for Water Ramp 2 at (11, 13), Water Ramp 4 at (15, 3), and central platform stairs at (17, 15).
+- **New Discoveries**: Marked the central platform stairs at (17, 15). No other new features are currently visible.
+- **Redundant Markers**: No redundant or incorrect markers are present on the current screen's visible area.
+
+## 4. Custom Tools
+- **Potential Reusable Tools/Agents**:
+  1. `get_path_1f`: An automated pathfinding tool for Cerulean Cave 1F using our verified layout database.
+  2. `flee_and_log`: A combat automation tool to flee battles and log the species/level of the wild Pokémon encountered to document encounter rates.
+  3. `check_pc_inventory`: A tool to list current PC item quantities and automatically suggest what to withdraw/deposit based on quest progress.
+  4. `optimize_party_order`: A tool to analyze party HP and move PP, dynamically reordering the party to maximize efficiency.
+  5. `verify_tile_passability`: A localized overworld step-and-bump verification test script to systematically map out untested coordinate tiles.
+- **Evaluation**: The current general BFS pathfinder script we use in `run_code` is highly flexible and sufficient, so creating permanent custom tools for these is not strictly necessary but would be elegant.
+
+## 5. Tool Maintenance
+- **Refinement Habits**: We check and fix our Python code immediately upon any stdout/stderr errors. We have no broken or abandoned custom tools.
+
+## 6. Goal Clarity
+- **Active Goals**:
+  - Primary: Catch Mewtwo in Cerulean Cave B1F (Outcome-focused).
+  - Secondary: Walk on foot on Cerulean Cave 1F to reach Southwest Ladder 6 at (3, 11) (Outcome-focused).
+  - Tertiary: Flee wild encounters to preserve party health.
+  - Navigation: Southwest Ladder 6 at (3, 11) on Cerulean Cave 1F.
+
+## 7. Error Analysis & Hypothesis Review
+- **Assumptions Evaluated**: We previously assumed that (18, 14) on 1F might be impassable rock, but our actual visual check of `<CurrentScreen>` on Turn 120160 showed it is TYPE_2770 (passable ground), enabling a much shorter path to the stairs at (17, 15) than walking around. We corrected our path to use this unblocked corridor, verifying it step-by-step.
+
+<hr>
