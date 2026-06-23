@@ -31,7 +31,7 @@ And then Left 6 steps to (9, 1) [Ladder 5].
 - **Turns 119726 to 119814**: Attempted to bypass the 2F West Row 8/10 wall blockages on foot, confirming that Row 7 contains solid walls that block the horizontal on-foot path between the (9, 1) ladder and the (1, 3) Northwest Ladder on 2F West. This physically disproves the 2F West on-foot detour, forcing us to explore the 1F Northwest Surf/dismount path. Backtracked to (9, 1) and descended Ladder 5 to return to 1F Northwest at (7, 1).
 
 ## Live Navigation Logs:
-- **Turn 122521**: Arrived at (3, 11) on Map 0_228 (1F Southwest). We are preparing to execute the on-foot path from (3, 11) to Water Ramp 2 at (11, 13) so we can surf to the northern landmass.
+- **Turn 122550**: Successfully navigated the on-foot path across 1F Southwest to reach Water Ramp 2 at (11, 13) on Map 0_228, and currently preparing to SURF onto the northern water canals.
 
 ## Column 4 Corridor Passability Analysis (unverified visual hypothesis):
 - **Objective**: Check if there is an alternate bypass on Column 4 on 2F West.
