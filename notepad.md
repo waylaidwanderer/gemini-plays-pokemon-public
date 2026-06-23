@@ -8283,6 +8283,23 @@ And then Left 6 steps to (9, 1) [Ladder 5].
 - **Test 2 Method (Turn 120308)**: Standing at (2, 10), press UP to attempt to step onto (2, 9).
 - **Expected Result if Critique is Correct**: We successfully step onto (2, 9), and our position becomes (2, 9).
 - **Expected Result if Critique is Wrong (Vanilla Gen 1)**: We bump and remain at (2, 10).
+- **Test 2 Result (Turn 120308)**: Attempted to step UP from (2, 10) to (2, 9). Result was a BUMP collision with zero coordinate change (player remained at 2, 10). This empirically disproves the critique's hypothesis for (2, 9). (2, 9) is 100% physically a solid, impassable rock wall of TYPE_2889.
+
+## Final Conclusion on the Overwatch Critique's Hypothesis:
+The overwatch critique's hypothesis that (2, 12) and (2, 9) are passable cliff mismatches at ground level is completely **DISPROVED** by empirical testing (Turns 120304 and 120308). Both tiles are standard solid rock walls of TYPE_2889. There is **NO** ground-level on-foot path between Southwest Ladder 6 at (3, 11) and Northwest Ladder (1, 3) on 2F West. The two components are completely physically isolated.
+
+Therefore, our previous master backtracking route via 1F is 100% correct, and we must proceed with it.
+- To reach the Northwest Ladder (1, 3), we MUST:
+  1. Descend Southwest Ladder 6 at (3, 11) to 1F Southwest on foot.
+  2. Walk on foot across 1F Southwest to reach the wooden staircase at (1, 13) and walk down to ground level.
+  3. Walk along 1F ground level to reach (17, 16) and walk up the stairs at (17, 15) to reach the central platform.
+  4. Walk to Water Ramp 2 at (11, 13) and use SURF to mount the western water canal.
+  5. Surf north and east around the central rock walls, navigating through the open water crossover on Rows 6-7 to reach the eastern canal system.
+  6. Surf to Water Ramp 4 at (15, 3) and dismount on foot.
+  7. Walk on foot on 1F Northwest to reach Ladder 5 at (7, 1).
+  8. Ascend Ladder 5 to reach 2F West at (9, 1).
+  9. Walk Left on 2F West to reach the Northwest Ladder (1, 3).
+  10. Descend Northwest Ladder (1, 3) to reach 1F Northwest and take the stairs to B1F.
 
 <hr>
 
