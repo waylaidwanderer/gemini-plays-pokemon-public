@@ -8316,6 +8316,7 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
 - Turn 121175: Standing at (17, 14) on foot on the elevated central platform. We will now use cave_bfs_solver to navigate from (17, 14) to Water Ramp 2 at (11, 13).
 - Turn 121182: Backtracked onto the central platform from (17, 14). Interrupted at (12, 12) by a wild Level 49 Venomoth. Fleeing the battle to reach Water Ramp 2 at (11, 13).
 - Turn 121188: Standing at Water Ramp 2 at (11, 13) on foot, facing Down towards the water at (11, 14). We are opening the Start menu to activate Surf.
+- Turn 121218: Currently surfing north along the western water canal at (9, 13), heading towards (9, 7) to cross over to the eastern water canal.
 
 <hr>
 
