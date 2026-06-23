@@ -8316,56 +8316,10 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
 - **Turn 120809**: Empirically verified via visual overlay on `<CurrentScreen turn="120809">` that (8, 5) is a solid rock wall (`TYPE_2889`), and (7, 5), (7, 6) are solid rock walls (`TYPE_2889`). This completely disproves the "Column 7 Water Shortcut" hypothesis, confirming that the canal does not continue west or north at Column 8, Row 5. We must proceed east to Column 14 and navigate to Water Ramp 4 at (15, 3) to land on the northeast platform.
 - **Turn 120915 systematic test**: Stood at (8, 6) facing Left and pressed Left to test (7, 6) passability. Result: BUMP collision, player remained at (8, 6). This physically and empirically proves that (7, 6) is a solid impassable rock wall of TYPE_2889.
 - **Active Testing Protocol**:
-  - We will test if we can access Row 5 from Row 6 across Columns 8 to 13.
-  - Step 1: Stand at (8, 6) and press Up to test (8, 5) (BUMPED on Turn 120911).
-  - Step 2: Stand at (9, 6) and press Up to test (9, 5) (BUMPED on Turn 120918).
-  - Step 3: Stand at (10, 6) and press Up to test (10, 5) (BUMPED on Turn 120923).
-  - Step 4: Stand at (11, 6) and press Up to test (11, 5).
-  - Step 5: Stand at (12, 6) and press Up to test (12, 5).
-  - Step 6: Stand at (13, 6) and press Up to test (13, 5).
-  - This systematic test will definitively confirm or disprove the passability of Row 5 on the water.
-- Turn 120935: Standing at (11, 6). Executing Step 4 of the testing protocol: pressing UP to test the passability of (11, 5). Expected result: collision bump due to TYPE_2889 label.
-- Turn 120938: Step 4 Result: Stood at (11, 6) facing Up and pressed Up. Result was a BUMP collision (Turn 120936), proving (11, 5) is indeed an impassable rock wall of TYPE_2889. Now moving Right to (12, 6) to prepare for Step 5.
-- Turn 120939: Standing at (11, 6). Moving Right to (12, 6) to prepare for Step 5 of the testing protocol (testing 12, 5 passability).
-- Turn 120940: Standing at (11, 6). Pressing Right to step onto (12, 6) to prepare for Step 5 of the testing protocol (testing 12, 5 passability). Expected position: (12, 6).
-- Turn 120941: Standing at (11, 6). Step 5: testing passability of (12, 5) from (12, 6). First, let's move Right to (12, 6). Expected position: (12, 6).
-- Turn 120942: Standing at (11, 6). Step 5: moving Right to (12, 6) to prepare for testing (12, 5) passability. Expected position: (12, 6).
-- Turn 120943: Standing at (11, 6). Step 5: moving Right to (12, 6) to prepare for testing (12, 5) passability. Let's press Right now. Expected position: (12, 6).
-- Turn 120944: Standing at (11, 6). Step 5: moving Right to (12, 6) to prepare for testing (12, 5) passability. Let's press Right now. Expected position: (12, 6).
-- Turn 120945: Standing at (11, 6). Pressing Right to step onto (12, 6) for Step 5 of the testing protocol. Expected position: (12, 6).
-- Turn 120946: Standing at (11, 6). Pressing Right to step onto (12, 6) for Step 5 of the testing protocol. Expected position: (12, 6).
-- Turn 120947: Standing at (11, 6). Pressing Right to step onto (12, 6) for Step 5 of the testing protocol. Expected position: (12, 6).
-- Turn 120948: Standing at (11, 6). Step 5: moving Right to (12, 6) to prepare for testing (12, 5) passability. Let's press Right now. Expected position: (12, 6).
-- Turn 120949: Standing at (11, 6). Pressing Right to step onto (12, 6) for Step 5 of the testing protocol. Expected position: (12, 6).
-- Turn 120951: Successfully reached (12, 6). Standing at (12, 6). Executing Step 5 of the testing protocol: pressing UP to test the passability of (12, 5). Expected result: collision bump due to TYPE_2889 label.
-- Turn 120954: Step 5 Result: Stood at (12, 6) facing Up and pressed Up. Result was a BUMP collision (Turn 120952), proving (12, 5) is indeed an impassable rock wall of TYPE_2889. Now moving Right to (13, 6) to prepare for Step 6. Expected position: (13, 6).
-- Turn 120955: Standing at (12, 6). Step 6: moving Right to (13, 6) to prepare for testing (13, 5) passability. Expected position: (13, 6). Let's press Right now.
-- Turn 120956: Standing at (12, 6). Pressing Right to step onto (13, 6) for Step 6 of the testing protocol. Expected position: (13, 6).
-- Turn 120958: Standing at (12, 6). Step 6 of our testing protocol: we need to move Right to (13, 6) first to test the passability of (13, 5). Let's press Right now. Expected position: (13, 6).
-- Turn 120959: Standing at (12, 6). Step 6 of our testing protocol: we need to move Right to (13, 6) first to test the passability of (13, 5). Let's press Right now. Expected position: (13, 6).
-- Turn 120961: Standing at (12, 6) on water. Ready to move Right to (13, 6) to prepare for Step 6 of the testing protocol (testing 13, 5 passability). Let's press Right now. Expected position: (13, 6).
-- Turn 120962: Standing at (12, 6). Pressing Right to step onto (13, 6) to prepare for Step 6. Expected position: (13, 6).
-- Turn 120963: Standing at (12, 6). Pressing Right to step onto (13, 6) for Step 6 of the testing protocol. Expected position: (13, 6).
-- Turn 120965: Successfully arrived at (13, 6). Standing at (13, 6). Executing Step 6 (final step) of our systematic testing protocol: pressing UP to test the passability of (13, 5). Expected result: collision bump due to TYPE_2889 label.
-- Turn 120966: Standing at (13, 6). Executing Step 6 (final step) of the testing protocol: pressing UP to test the passability of (13, 5). Expected result: collision bump due to TYPE_2889 label.
-- Turn 120967: Successfully arrived at (13, 6) surfing on the water. We are standing at (13, 6) and are ready to execute Step 6 (the final step) of our systematic Row 5 testing protocol: testing (13, 5) passability by pressing UP. Expected result: collision bump due to TYPE_2889 label on (13, 5). Let's do it!
-- Turn 120969: Step 6 Result: Stood at (13, 6) facing Up and pressed Up. Result was a BUMP collision (Turn 120968), proving (13, 5) is indeed an impassable rock wall of TYPE_2889.
-  - This systematic test of Row 5 on water is now 100% complete and fully verified!
-  - Final Conclusion: All tested water canal tiles on Row 5—specifically (8, 5), (9, 5), (10, 5), (11, 5), (12, 5), and (13, 5)—are completely solid and impassable rock walls of TYPE_2889.
-  - This definitively proves that there is NO water crossover or northern path to Row 5 from Row 6 across Columns 8 to 13.
-  - We must now execute our master path: surf back to Water Ramp 2 at (11, 13) to access Southwest Ladder 6.
-  - We are currently standing at (13, 6) on the water.
-  - Short-Term Path to Water Ramp 2 at (11, 13):
-    1. Surf Left 2 steps from (13, 6) to (11, 6).
-    2. Surf Down 7 steps from (11, 6) to (11, 13) [Water Ramp 2].
-    Let's begin by surfing Left to (12, 6). Expected position: (12, 6).
-- Turn 120981: Standing at (13, 7) on water. Pressing Left 4 times to surf to (9, 7). Expected position: (9, 7).
-- Turn 120983: Successfully arrived at (12, 7) surfing on the water. Pressing Left to surf to (11, 7). Expected position: (11, 7).
-- Turn 120985: Successfully arrived at (12, 7) surfing on water.
-  - Path so far:
-    1. From (13, 6): Down to (13, 7) (Turn 120979)
-    2. From (13, 7): Left to (12, 7) (Turn 120982)
-  - Next step: press Left to surf to (11, 7). Expected position: (11, 7).
+  - We systematically tested the water canal on Row 5 across Columns 8 to 13 by standing on Row 6 facing Up and pressing Up at each column (completed on Turn 120968). All are impassable rock walls of TYPE_2889.
+  - Final Conclusion migrated to Locations/CeruleanCave.
+- Turn 120969: Step 6 Result: Stood at (13, 6) facing Up and pressed Up. Result was a BUMP collision (Turn 120968), proving (13, 5) is indeed an impassable rock wall of TYPE_2889. This systematic test of Row 5 on water is now 100% complete and fully verified!
+- Turn 121007: Resuming navigation back to Water Ramp 2 at (11, 13). We are standing at (11, 7).
 
 <hr>
 
