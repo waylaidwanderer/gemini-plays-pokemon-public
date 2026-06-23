@@ -8320,12 +8320,7 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
   - Final Conclusion migrated to Locations/CeruleanCave.
 - Turn 120969: Step 6 Result: Stood at (13, 6) facing Up and pressed Up. Result was a BUMP collision (Turn 120968), proving (13, 5) is indeed an impassable rock wall of TYPE_2889. This systematic test of Row 5 on water is now 100% complete and fully verified!
 - Turn 121007: Resuming navigation back to Water Ramp 2 at (11, 13). We are standing at (11, 7).
-- Turn 121016: Standing at (11, 7) surfing. Fixed the 'cave_bfs_solver' tool and verified the path. Moving Left 2 steps to reach (9, 7). Expected position: (9, 7).
-- Turn 121025: Standing at (9, 7) surfing. Pressing Down 4 times to move from (9, 7) to (9, 11). Expected position: (9, 11).
-- Turn 121027: Standing at (9, 7) surfing. Fixed tool database and addressed critiques. Preparing to navigate Down to reach (9, 14). Expected next position after 5 Down steps: (9, 12).
-- Turn 121030: Successfully arrived at (9, 11) surfing. Path back to Water Ramp 2 at (11, 13) requires 3 more Down steps to reach (9, 14), then Right 2 to (11, 14), and Up 1 to (11, 13). Pressing Down 3 times. Expected position: (9, 14).
-- Turn 121033: Successfully arrived at (9, 14) surfing. Next path segment to reach Water Ramp 2 at (11, 13) is Right 2 steps to (11, 14), and Up 1 step to (11, 13). Pressing Right 2 times. Expected position: (11, 14).
-- Turn 121037: Standing at (11, 14) surfing. Next step: press Up to step onto (11, 13) [Water Ramp 2] and dismount. Expected position: (11, 13) on foot.
+- Turn 121040: Successfully returned and dismounted at Water Ramp 2 at (11, 13) on foot.
 
 <hr>
 
