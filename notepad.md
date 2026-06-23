@@ -8373,6 +8373,17 @@ We are actively backtracking to 1F Northwest via Ladder 5. We will navigate the 
 
 <h1><code>Locations/CeruleanCave</code></h1>
 
+- Turn 111394: Loaded saved game starting in Pallet Town, post-Elite Four. Registered in HALL OF FAME on Turn 110489.
+- Turn 111419: Used FLY to travel to Cerulean City.
+- Turn 111425: Entered the Pokémon Center in Cerulean City to prepare for Cerulean Cave.
+- Turn 111513: Left Cerulean City and entered Route 24.
+- Turn 111557: Entered Cerulean Cave 1F to pursue Mewtwo.
+
+## Cerulean Cave Exploration - Starting Metrics
+- **Start Turn**: 111394
+- **Start Timestamp**: Sunday, June 21, 2026 at 9:15 PM PDT
+- **Goal**: Safely navigate Cerulean Cave's floors to locate B1F and capture Mewtwo.
+
 # Cerulean Cave - Verified Records
 - Quest Started: Turn 111394 on Sunday, June 21, 2026 at 9:15 PM PDT
 - Map ID: 0_228 (1F), 0_226 (2F)
