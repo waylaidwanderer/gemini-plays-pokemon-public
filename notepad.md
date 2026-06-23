@@ -8339,6 +8339,7 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
 - Turn 120943: Standing at (11, 6). Step 5: moving Right to (12, 6) to prepare for testing (12, 5) passability. Let's press Right now. Expected position: (12, 6).
 - Turn 120944: Standing at (11, 6). Step 5: moving Right to (12, 6) to prepare for testing (12, 5) passability. Let's press Right now. Expected position: (12, 6).
 - Turn 120945: Standing at (11, 6). Pressing Right to step onto (12, 6) for Step 5 of the testing protocol. Expected position: (12, 6).
+- Turn 120946: Standing at (11, 6). Pressing Right to step onto (12, 6) for Step 5 of the testing protocol. Expected position: (12, 6).
 
 <hr>
 
