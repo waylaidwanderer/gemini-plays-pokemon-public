@@ -8241,29 +8241,14 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
      - Take the stairs on 1F Northwest to B1F.
 
 ## Live Navigation Logs:
-- Turn 118420: Stood at (11, 5) on 2F West Component 1. Backtracking to Ladder 5 at (9, 1) to descend to 1F Northwest.
-  - Path: (11, 5) -> Left 2 steps to (9, 5) -> Up 4 steps to (9, 1) [Ladder 5].
-- Turn 118497: Mathematically and physically proved that Southwest Ladder 6 at (3, 11) leads to a completely isolated 6-tile pocket on 2F West {(2, 10), (2, 11), (3, 9), (3, 10), (3, 11), (4, 9)}. Every single adjacent tile is a solid rock wall of TYPE_2889. No on-foot path exists to reach Northwest Ladder (1, 3) from here. Therefore, we must backtrack to 1F, walk back to the central platform, surf to Ladder 5 at (7, 1) on 1F Northwest, climb to 2F West at (9, 1), and then navigate on foot to (1, 3) via the unblocked northern/eastern corridors. We are backtracking now.
-- Turn 118544: Backtracking to central platform stairs at (17, 15). Standing at (14, 17) facing Up. We verified the path to the stairs:
-  1. Right to (15, 17)
-  2. Up to (15, 16)
-  3. Right to (16, 16)
-  4. Right to (17, 16)
-  5. Up to (17, 15) [Stairs]
-  Total: 5 steps. We will now execute this sequence.
-- Turn 118564: Standing at (15, 13) on 1F Central Platform. We will now navigate to Water Ramp 2 at (11, 13) via the following path:
-  1. Up to (15, 12)
-  2. Left 4 steps to (11, 12)
-  3. Down 1 step to (11, 13)
-  Total: 6 steps. We will stand at (11, 13) facing Down towards the water at (11, 14) and use SURF to mount the water canals.
-- Turn 118583: Standing at (15, 3) on land (Water Ramp 4). We will now navigate on foot to Ladder 5 at (7, 1) via the following path:
-  1. Up 2 steps to Row 1: (15, 3) -> (15, 2) -> (15, 1)
-  2. Left 8 steps along Row 1 to (7, 1) [Ladder 5]
-  This turn, we will execute the first 6 steps: Up, Up, Left, Left, Left, Left to reach (11, 1).
-- Turn 118629: We successfully verified using a Python BFS pathfinder on our verified layout details that 2F West's northern corridor is NOT dead-ended! By walking Right to Column 10 on Row 1, down to Row 7, left to Column 0, and up to Northwest Ladder (1,3), we can completely bypass the blocked Row 8 rock wall. This means we CAN reach (1,3) from Ladder 5 at (9,1) on foot! Our previous conclusion on Turn 116934 was a logical error due to missing the Row 7 horizontal open corridor.
-- Turn 118652: Standing at (13, 4) on 2F West. Ran a Python BFS pathfinder on our verified layout. It suggested a path via (15, 6)-(15, 7) to reach Row 9.
-- Turn 118670: Tested walking Down from (15, 5) to (15, 6). Result: BUMP collision, player remained at (15, 5). This physically and empirically proves that (15, 6) is a solid, impassable wall of TYPE_2889, completely blocking access to Row 7 from Column 15. This confirms that Component 1 of 2F West (the northern/eastern corridors) is completely isolated on foot from the southern/western areas, and we CANNOT reach Northwest Ladder (1, 3) on foot from here.
-- Thus, we must backtrack to Row 1, walk Left to (9, 1), descend Ladder 5 to 1F Northwest, and execute the verified water route via 1F Southwest and Southwest Ladder 6 at (3, 11) to reach Northwest Ladder (1, 3). We are now navigating back to Row 1 via (16, 5) -> (16, 3) -> (15, 3) -> (15, 1).
+- Turn 119730: Standing at (9, 1) on 2F West. We successfully navigated the 1F water canals and ascended Ladder 5 to arrive back at (9, 1).
+- We must analyze the topology of Cerulean Cave to break the loop of transitioning between 1F and 2F. Let's think deeply about how B1F is reached. Is there another way? Or is our understanding of 2F West wrong?
+- Let's look at Southwest Ladder 6 at (3, 11). We previously wrote that it leads to an isolated pocket of {(2, 10), (2, 11), (3, 9), (3, 10), (3, 11), (4, 9)}.
+  - But wait! On 2F, is (3, 12) (directly below the ladder) actually blocked?
+  - Our notes say (2, 12) is blocked (verified). But is (3, 12) blocked?
+  - If (3, 12) is open, does it connect to the western area leading to (1, 3)?
+  - We must test this hypothesis physically by standing at (3, 11) on 2F West and attempting to walk Down to (3, 12). If we successfully walk to (3, 12), we have disproven the isolated pocket theory!
+  - Let's backtrack to 1F, walk back to Southwest Ladder 6, ascend it, and physically test stepping Down from (3, 11) to (3, 12)! This will systematically resolve our strategic impasse.
 
 ## Verified On-Foot Crossover Path:
 From (15, 5) to (15, 1):
