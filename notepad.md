@@ -8322,6 +8322,7 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
 - Turn 121007: Resuming navigation back to Water Ramp 2 at (11, 13). We are standing at (11, 7).
 - Turn 121040: Successfully returned and dismounted at Water Ramp 2 at (11, 13) on foot.
 - Turn 121061: En route from (11, 13) to Southwest Ladder 6 on foot. Interrupted at (14, 12) by a wild Level 49 Dodrio encounter. Fleeing the battle to preserve party health.
+- Turn 121064: We are standing at (14, 12) on foot on 1F. We are about to use cave_bfs_solver to navigate from (14, 12) to the wooden staircase at (1, 13). From there we will climb onto the southwest plateau to reach Southwest Ladder 6 at (3, 11).
 
 <hr>
 
