@@ -100,5 +100,61 @@
         "action_counter": 109697
       }
     ]
+  },
+  "cave_bfs_solver": {
+    "description": "Finds the shortest obstacle-free path on Map 0_228 (1F) or Map 0_226 (2F) using BFS, with support for on-foot and surfing travel modes.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "map_id": {
+          "type": "string",
+          "enum": [
+            "0_228",
+            "0_226"
+          ],
+          "description": "The map ID to navigate (0_228 for 1F, 0_226 for 2F)."
+        },
+        "start_x": {
+          "type": "integer",
+          "description": "Starting X coordinate."
+        },
+        "start_y": {
+          "type": "integer",
+          "description": "Starting Y coordinate."
+        },
+        "target_x": {
+          "type": "integer",
+          "description": "Target X coordinate."
+        },
+        "target_y": {
+          "type": "integer",
+          "description": "Target Y coordinate."
+        },
+        "travel_mode": {
+          "type": "string",
+          "enum": [
+            "foot",
+            "surf"
+          ],
+          "description": "The travel mode (foot for walking on land, surf for navigating water canals)."
+        }
+      },
+      "required": [
+        "map_id",
+        "start_x",
+        "start_y",
+        "target_x",
+        "target_y",
+        "travel_mode"
+      ]
+    },
+    "python_script": "import json\nfrom collections import deque\n\ndef handler(input_data):\n    map_id = input_data[\"map_id\"]\n    start_x = int(input_data[\"start_x\"])\n    start_y = int(input_data[\"start_y\"])\n    target_x = int(input_data[\"target_x\"])\n    target_y = int(input_data[\"target_y\"])\n    travel_mode = input_data[\"travel_mode\"]\n\n    width, height = 30, 18\n    grid = [[True for x in range(width)] for y in range(height)]\n\n    # 1. Map Borders (solid rock boundaries)\n    for x in range(width):\n        grid[0][x] = False\n        grid[height-1][x] = False\n    for y in range(height):\n        grid[y][0] = False\n        grid[y][width-1] = False\n\n    # 2. Blockages database\n    if map_id == \"0_228\": # 1F Layout\n        # Define on-foot vs surfing passability\n        # Land coordinate ranges (approximately)\n        # Note: on 1F, water canals are located at:\n        # - Eastern Canal: Rows 4-5, Columns 14-25\n        # - Crossover: Rows 6-7, Columns 8-15\n        # - Western Vertical: Rows 6-15, Columns 8-9\n        \n        water_tiles = set()\n        for y in [4, 5]:\n            for x in range(14, 26): water_tiles.add((x, y))\n        for y in [6, 7]:\n            for x in range(8, 16): water_tiles.add((x, y))\n        for y in range(6, 16):\n            for x in [8, 9]: water_tiles.add((x, y))\n            \n        # Water Ramps (can act as both or transition)\n        ramps = {(23, 3), (15, 3), (11, 13), (25, 9)}\n        \n        # Solid Rock Obstacles on 1F\n        rock_blockages = {\n            (1, 17), (7, 6), (4, 1), (4, 2), (5, 3)\n        }\n        # Central platform bounds and walls\n        for x in range(15):\n            rock_blockages.add((x, 3)) # Row 3 columns 0 to 14 are blocked on foot\n            \n        for y in range(height):\n            for x in range(width):\n                if (x, y) in rock_blockages:\n                    grid[y][x] = False\n                elif travel_mode == \"foot\":\n                    # If walking on foot, treat all water tiles as impassable\n                    if (x, y) in water_tiles and (x, y) not in ramps:\n                        grid[y][x] = False\n                elif travel_mode == \"surf\":\n                    # If surfing, treat all non-water tiles as impassable\n                    if (x, y) not in water_tiles and (x, y) not in ramps:\n                        grid[y][x] = False\n\n    elif map_id == \"0_226\": # 2F West Layout\n        # Solid Rock Obstacles on 2F West\n        rock_blockages = {\n            (3, 0), (9, 2), (9, 6), (13, 11), (13, 16), (16, 13),\n            (1, 10), (1, 11), (1, 6), (2, 12), (2, 2), (2, 3), (2, 9), (2, 1),\n            (3, 4), (4, 4), (4, 8), (5, 4), (5, 8), (6, 4), (6, 8), (7, 4), (7, 8), (8, 5), (8, 8),\n            (9, 15), (9, 6)\n        }\n        # Multi-tile walls\n        # Row 8 rock walls across Columns 3 to 12\n        for x in range(3, 13): rock_blockages.add((x, 8))\n        # Row 10 rock walls across Columns 13 to 20\n        for x in range(13, 21): rock_blockages.add((x, 10))\n        # Row 7 rock walls across Columns 13 to 17\n        for x in range(13, 18): rock_blockages.add((x, 7))\n        # Column 2 rock walls across Rows 1 to 13\n        for y in range(1, 14): rock_blockages.add((2, y))\n        # Row 4 rock walls across Columns 3 to 8\n        for x in range(3, 9): rock_blockages.add((x, 4))\n        # Row 6 rock walls across Columns 7 to 12\n        for x in range(7, 13): rock_blockages.add((x, 6))\n\n        for y in range(height):\n            for x in range(width):\n                if (x, y) in rock_blockages:\n                    grid[y][x] = False\n\n    # BFS Implementation\n    start = (start_x, start_y)\n    target = (target_x, target_y)\n    \n    if not (0 <= start_x < width and 0 <= start_y < height) or not grid[start_y][start_x]:\n         return json.dumps({\"error\": \"Start coordinate is out of bounds or blocked.\", \"start_passable\": grid[start_y][start_x]})\n    if not (0 <= target_x < width and 0 <= target_y < height) or not grid[target_y][target_x]:\n         return json.dumps({\"error\": \"Target coordinate is out of bounds or blocked.\", \"target_passable\": grid[target_y][target_x]})\n\n    queue = deque([[start]])\n    visited = {start}\n    path_found = None\n    \n    while queue:\n        path = queue.popleft()\n        cx, cy = path[-1]\n        if (cx, cy) == target:\n            path_found = path\n            break\n        for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:\n            nx, ny = cx + dx, cy + dy\n            if 0 <= nx < width and 0 <= ny < height and grid[ny][nx]:\n                if (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append(path + [(nx, ny)])\n                    \n    if path_found:\n        dirs = []\n        for i in range(len(path_found)-1):\n            x1, y1 = path_found[i]\n            x2, y2 = path_found[i+1]\n            if x2 > x1: dirs.append('Right')\n            elif x2 < x1: dirs.append('Left')\n            elif y2 > y1: dirs.append('Down')\n            elif y2 < y1: dirs.append('Up')\n        return json.dumps({\n            \"path_found\": True,\n            \"length\": len(path_found),\n            \"coordinates\": path_found,\n            \"directions\": dirs\n        })\n    else:\n        return json.dumps({\"path_found\": False, \"message\": \"No path exists between the start and target coordinates.\"})\n",
+    "history": [
+      {
+        "commit_message": "Define a clean, parameterized cave_bfs_solver custom tool that handles on-foot and surfing pathfinding on Cerulean Cave 1F and 2F West.",
+        "timestamp": "2026-06-23T12:19:19.291Z",
+        "action_counter": 120522
+      }
+    ]
   }
 }
