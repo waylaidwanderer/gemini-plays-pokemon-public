@@ -98,3 +98,4 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
 - Turn 120969: Step 6 Result: Stood at (13, 6) facing Up and pressed Up. Result was a BUMP collision (Turn 120968), proving (13, 5) is indeed an impassable rock wall of TYPE_2889. This systematic test of Row 5 on water is now 100% complete and fully verified!
 - Turn 121083: Successfully navigated along the Row 17 ground-level corridor, currently standing at (11, 17) on foot.
 - Turn 121084: Redefined cave_bfs_solver to prevent future database mismatches, and successfully unloaded three outdated reflection notepads to free context memory. We are standing at (11, 17) on foot. We will now walk 9 steps Left to reach (2, 17) in the southwest corner of 1F.
+- Turn 121089: Standing at (1, 13) on the wooden staircase. We will now walk Up 1 step to (1, 12) on the elevated southwest plateau, then Right 2 steps to (3, 12), and Up 1 step to (3, 11) to ascend Southwest Ladder 6 to 2F.
