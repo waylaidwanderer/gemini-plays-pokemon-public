@@ -101,15 +101,9 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
 - **Result**: Successfully stepped onto (0, 15) on foot with no collision, updating position to (0, 15).
 - **Definitive Conclusion**: Column 0 on 1F Southwest is indeed 100% passable on foot! This is a massive empirical discovery that disproves any assumption of a solid rock boundary wall on Column 0 here, confirming that Column 0 is open. We will use this verified fact to plan future routes.
 
-## Major Discovery: 2F West direct path from (9, 1) to (1, 3) is 100% PASSABLE! (Turn 121854)
-- Contrary to our previous historical assumption that Northwest Ladder (1, 3) is isolated on 2F West from Component 1, we have mathematically and visually proved that a direct on-foot connection exists between the northern corridor and the northwest ladder!
-- The path goes:
-  - From (9, 1) [Ladder 5], walk to (3, 3).
-  - From (3, 3), walk Right 8 steps to (11, 3).
-  - Walk Down 4 steps to (11, 7).
-  - Walk Left 5 steps to (6, 7).
-  - Walk Up 2 steps to (6, 5) [bypassing the Row 6 blockages via the open Column 6 gap].
-  - Walk Left 6 steps to (0, 5).
-  - Walk Up 2 steps to (0, 3).
-  - Walk Right 1 step to (1, 3) [Northwest Ladder!].
-- This completely eliminates the need to backtrack through 1F water canals and Southwest Ladder 6! This is a massive shortcut that will save hundreds of turns. We will execute this route immediately.
+## Disproved Assumption: Direct path on 2F West from (9, 1) to (1, 3) is IMPASSABLE (Turn 121862)
+- On Turn 121854, we hypothesized that we could walk on foot directly from (3, 3) to (1, 3) via Row 3, Column 11, and Column 6.
+- **Empirical Test**: On Turn 121855, we attempted to walk Right from (9, 3) to (10, 3).
+- **Result**: We collided with a solid rock wall at (10, 3) and remained at (9, 3).
+- **Conclusive Proof**: (10, 3) is a solid, impassable rock wall of TYPE_2889. Thus, the northern corridor (Component 1) is completely isolated from the western section (Component 3) on Row 3.
+- This confirms that we cannot walk directly from (9, 1) to (1, 3) on 2F West without transitioning. We must backtrack to 1F and execute our master backtracking route via 1F Southwest to reach the Southwest Ladder 6 at (3, 11), which is the only way to reach (1, 3) on 2F West.
