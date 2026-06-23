@@ -8292,6 +8292,13 @@ And then Left 6 steps to (9, 1) [Ladder 5].
   2. Surf at (15, 3) to mount the water.
   3. Surf to (11, 13) and dismount.
   4. Walk to Southwest Ladder 6 at (3, 11) to reach 2F West.
+- Turn 120177: Reached (18, 14) on foot on Cerulean Cave 1F after descending Column 18.
+  Plan:
+  1. Walk Left 1 to (17, 14).
+  2. Walk Down 1 to the stairs at (17, 15).
+  3. Ascend/descend the stairs to land on the ground floor at (17, 16) or (17, 17).
+  4. Walk Left to the southwest corner, then take the wooden stairs at (1, 13) to climb Southwest Ladder 6 at (3, 11).
+  Chunk: ['Left', 'Down'] to reach (17, 15).
 
 <hr>
 
