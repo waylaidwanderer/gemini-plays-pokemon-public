@@ -93,3 +93,13 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
   4. `b1f_maze_pathfinder` - For routing on B1F with dynamic gate constraints.
   5. `b1f_defeated_trainers_tracker` - For tracking B1F battles.
 - **Error Analysis**: Recognized that (14, 13) is indeed a solid rock wall of TYPE_2889 despite the tool's previous omission, and adjusted our route to go via (15, 12) to ensure a 100% collision-free transit.
+
+## Turn 121529 Reflection & Self-Assessment:
+- **Immediate Execution**: Successfully returned to 1F Southwest, currently standing at (1, 11) on Map 0_228. We are walking Down to (1, 15) to perform the Column 0 empirical test on 1F Southwest.
+- **Notepad & Map Hygiene**: Successfully cleaned up the desynchronized lines in `Scratchpad/Mewtwo_Quest_Log` on Turn 121525 as requested, making our post-game dashboard completely accurate and up-to-date.
+- **Custom Tools & Maintenance**: Redefined `cave_bfs_solver` on Turn 121499 to include all west-side rock walls, keeping our tool highly robust and accurate.
+- **Goal Clarity**:
+  - WHAT (Primary): Catch Mewtwo in Cerulean Cave B1F.
+  - WHAT (Secondary): Reach (1, 15) on 1F Southwest ground level.
+  - HOW: Walk straight Down 4 steps along Column 1 from (1, 11) to (1, 15).
+- **Error Analysis**: Confirmed that Column 0 and (1, 15) on 2F West are completely isolated on foot from (3, 11) due to solid rock walls, making the 1F Southwest ground level at (1, 15) the only viable place to test Column 0 passability. We will execute the test and log the exact result.
