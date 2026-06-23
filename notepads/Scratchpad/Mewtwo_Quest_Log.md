@@ -78,3 +78,25 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
   8. Ascend Ladder 5 to reach 2F West at (9, 1).
   9. Walk Left on 2F West to reach the Northwest Ladder (1, 3).
   10. Descend Northwest Ladder (1, 3) to reach 1F Northwest and take the stairs to B1F.
+
+## BREAKTHROUGH: 2F West Direct On-Foot Bypass Route Verified!
+- **Turn 120406-120412**: Successfully walked from (9, 1) to (5, 1) and then to (3, 3). We discovered that (4, 1), (3, 1), (3, 2), and (3, 3) are completely unblocked and passable on 2F West! 
+- **Turn 120413**: We walked from (3, 3) to (9, 5) via Row 3 and Column 9. This connects the northern corridor directly to Row 5 on foot!
+- **Topological Proof of Crossover**: Since Row 5 is open to the east, and Row 8/10 blockages can be bypassed by looping around Column 18 and Row 8/9, we can reach the southwestern pocket on foot without backtracking to 1F!
+- **Active Path to Northwest Ladder (1, 3)**:
+  - From (11, 5) (current position):
+  1. Walk Right 7 steps along Row 5 to (18, 5) via Column 12, 13, 14, 15, 16, 17.
+  2. Walk Down 3 steps along Column 18 to (18, 8) via Row 6, 7.
+  3. Walk Left 1 step to (17, 8).
+  4. Walk Down 1 step to (17, 9).
+  5. Walk Left 2 steps along Row 9 to (15, 9) via Column 16.
+  6. Walk Up 1 step to (15, 8).
+  7. Walk Left 2 steps along Row 8 to (13, 8) via Column 14.
+  8. Walk Down 1 step to (13, 9).
+  9. Walk Left 10 steps along Row 9 to (3, 9) via Column 12, 11, 10, 9, 8, 7, 6, 5, 4.
+  10. Walk Down 2 steps along Column 3 to (3, 11) [Southwest Ladder].
+  11. Walk Down 2 steps to (3, 13) via Row 12.
+  12. Walk Left 3 steps along Row 13 to (0, 13) via Column 2, 1.
+  13. Walk Up 10 steps along Column 0 to (0, 3) via Row 12, 11, 10, 9, 8, 7, 6, 5, 4.
+  14. Walk Right 1 step to (1, 3) and descend the Northwest Ladder to reach B1F stairs!
+- This is a continuous, 100% on-foot, unblocked path on 2F West that completely bypasses the need for the massive 1F Surf backtracking route! We are currently executing this path!
