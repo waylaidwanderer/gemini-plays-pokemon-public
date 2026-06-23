@@ -19,7 +19,8 @@
      - Take the stairs on 1F Northwest to B1F.
 
 ## Live Navigation Logs:
-- Turn 119730: Standing at (9, 1) on 2F West. We successfully navigated the 1F water canals and ascended Ladder 5 to arrive back at (9, 1).
+- Turn 119772: Standing at (3, 1) on 2F West. We successfully navigated Component 1 of 2F West to reach (3, 1). To reach the Northwest Ladder at (1, 3), we cannot walk Left directly on Row 1 due to the solid rock wall at (2, 1). However, we can bypass this blockage by walking Down onto (3, 2).
+- Verified unblocked path to (1, 3): From (3, 1), step Down 2 to (3, 3), Right 6 to (9, 3), Down 2 to (9, 5), Right 1 to (10, 5), Down 2 to (10, 7), Left 10 to (0, 7), Up 4 to (0, 3), and Right 1 to (1, 3). No blocked tiles on this path have been found, making (1, 3) fully accessible from here on foot! We will execute this detour step-by-step.
 - We must analyze the topology of Cerulean Cave to break the loop of transitioning between 1F and 2F. Let's think deeply about how B1F is reached. Is there another way? Or is our understanding of 2F West wrong?
 - Let's look at Southwest Ladder 6 at (3, 11). We previously wrote that it leads to an isolated pocket of {(2, 10), (2, 11), (3, 9), (3, 10), (3, 11), (4, 9)}.
   - But wait! On 2F, is (3, 12) (directly below the ladder) actually blocked?
