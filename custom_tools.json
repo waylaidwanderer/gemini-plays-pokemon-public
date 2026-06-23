@@ -39,6 +39,26 @@
       }
     ]
   },
+  "navigate_to_ramp_4": {
+    "description": "Navigates from (11, 7) on water to the Water Ramp at (15, 3) and dismounts.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\nbuttons = [\"Right\", \"Right\", \"Right\", \"Up\", \"Up\", \"Up\", \"Right\", \"Up\"]\nprint(json.dumps(buttons))\n",
+    "history": [
+      {
+        "commit_message": "Create a tool to automate navigation to Water Ramp 4 at (15, 3) in Cerulean Cave 1F.",
+        "timestamp": "2026-06-23T04:44:00.692Z",
+        "action_counter": 120037
+      },
+      {
+        "commit_message": "Fix JSON array formatting in custom tool navigate_to_ramp_4 to use double quotes.",
+        "timestamp": "2026-06-23T04:44:22.043Z",
+        "action_counter": 120039
+      }
+    ]
+  },
   "press_buttons_no_advance": {
     "description": "Executes a sequence of button presses without triggering the automated dialogue advance of the harness.",
     "input_schema": {
@@ -78,26 +98,6 @@
         "commit_message": "Redefine press_buttons_no_advance to use the pre-populated input_data dictionary directly instead of parsing sys.argv, which resolves the IndexError.",
         "timestamp": "2026-06-20T08:07:30.202Z",
         "action_counter": 109697
-      }
-    ]
-  },
-  "navigate_to_ramp_4": {
-    "description": "Navigates from (11, 7) on water to the Water Ramp at (15, 3) and dismounts.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\nbuttons = [\"Right\", \"Right\", \"Right\", \"Up\", \"Up\", \"Up\", \"Right\", \"Up\"]\nprint(json.dumps(buttons))\n",
-    "history": [
-      {
-        "commit_message": "Create a tool to automate navigation to Water Ramp 4 at (15, 3) in Cerulean Cave 1F.",
-        "timestamp": "2026-06-23T04:44:00.692Z",
-        "action_counter": 120037
-      },
-      {
-        "commit_message": "Fix JSON array formatting in custom tool navigate_to_ramp_4 to use double quotes.",
-        "timestamp": "2026-06-23T04:44:22.043Z",
-        "action_counter": 120039
       }
     ]
   }
