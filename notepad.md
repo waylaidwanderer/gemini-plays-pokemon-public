@@ -8385,7 +8385,7 @@ We are actively backtracking to 1F Northwest via Ladder 5. We will navigate the 
 
 <h1><code>Locations/CeruleanCave</code></h1>
 
-- Turn 111394: Loaded saved game starting in Pallet Town, post-Elite Four. Registered in HALL OF FAME on Turn 110489.
+- Turn 111394: Selected CONTINUE from start menu. Re-entered Cerulean Cave to catch Mewtwo. Start turn for active post-game exploration: 111394. Timestamp: Sunday, June 21, 2026 at 9:15 PM PDT.
 - Turn 111419: Used FLY to travel to Cerulean City.
 - Turn 111425: Entered the Pokémon Center in Cerulean City to prepare for Cerulean Cave.
 - Turn 111513: Left Cerulean City and entered Route 24.
