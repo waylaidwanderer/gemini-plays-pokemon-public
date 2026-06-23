@@ -165,8 +165,8 @@ We are actively backtracking to 1F Northwest via Ladder 5. We will navigate the 
     - Active goal: Navigate to Water Ramp 2 at (11, 13) to Surf.
     - Planned path on foot: ['Up', 'Left', 'Left', 'Up', 'Up', 'Left', 'Left', 'Left', 'Left', 'Down'] to reach (11, 13).
     - Executing first chunk of path: ['Up', 'Left', 'Left', 'Up', 'Up'] to reach (15, 12).
-  - Turn 119716: Standing at (9, 7) on 1F water canal, surfing. We successfully surfed Up 4 steps along Column 9 to (9, 7).
+  - Turn 119718: Standing at (14, 7) on 1F water canal, surfing. We successfully surfed Right 5 steps along Row 7 to (14, 7).
     - Active goal: Surf to Water Ramp 4 at (15, 3) to dismount on foot.
-    - Executing sixth chunk: surf Right 5 steps along Row 7 to reach (14, 7). Path: ['Right', 'Right', 'Right', 'Right', 'Right'].
+    - Executing seventh chunk: surf Up 3 steps to (14, 4), Right 1 to (15, 4), and Up 1 to dismount at (15, 3). Path: ['Up', 'Up', 'Up', 'Right', 'Up'].
   - Turn 119704: Standing at (11, 13) on 1F central platform facing Down. Arrived at Water Ramp 2.
     - Active goal: Surf on the water to reach 1F Northwest.
