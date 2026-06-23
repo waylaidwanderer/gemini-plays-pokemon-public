@@ -8288,13 +8288,15 @@ The overwatch critique's hypothesis that (2, 12) and (2, 9) are passable cliff m
   - Therefore, the Northwest Ladder (1, 3) on 2F West is indeed **completely physically isolated on foot** from Southwest Ladder 6 at (3, 11).
 
 ## True Path to Northwest Ladder (1, 3) on 2F West:
-- Wait! Since on-foot pathing on 2F West from (3, 11) is mathematically impossible, let's look at how we can reach (1, 3) on 2F West.
-- We must reach (1, 3) by climbing up Northwest Ladder (1, 3) on 1F Northwest.
-- But wait! Let's check how we can reach the Northwest Ladder (1, 3) on 1F Northwest.
-- Our previous notes claim that: "1F Northwest is completely isolated on foot from the rest of 1F."
-- But wait! Let's check if we can reach (1, 3) on 1F Northwest by surfing!
-- Let's test the water canals on 1F (Map 0_228) to see if they can navigate directly to the northwest quadrant, or if the water canals are blocked at the northwest.
-- Since we are currently at (1, 15) on 2F West, we must first backtrack to 1F Southwest via Southwest Ladder 6 at (3, 11) to restart our exploration!
+- Wait! On Turn 122424, we ran our custom tool `cave_bfs_solver` and it returned an empty list `[]`, indicating that there is no valid on-foot path from our current position to (1, 3) on Map 0_226 with all verified obstacles registered.
+- This is because Row 4 (Columns 1-7), Row 6 (Columns 0-5 and 7), and Row 8 (Columns 2-7) are completely blocked by solid rock walls of TYPE_2889. Column 6 Row 6 (6, 6) is open, but Row 7 is completely blocked horizontally across Columns 4-7, meaning we cannot reach (6, 6) from the south on foot.
+- Therefore, the northern portion of 2F West (containing (1, 3)) is completely geographically split and isolated on foot from the southern portion (containing (3, 11)) on Map 0_226.
+- To reach Northwest Ladder (1, 3), we must ascend from 1F Northwest. Let's look at 1F Northwest access.
+- 1F Northwest can only be reached via Surf. Specifically, we must surf along the water canals of 1F (Map 0_228) from the main water body to the northwest quadrant!
+- Wait, let's trace: does the water canal on 1F actually connect to the northwest quadrant on 1F?
+- Let's check 1F (Map 0_228)'s water layout. We must re-examine our unverified assumptions about 1F Northwest isolation!
+- Let's backtrack to 1F Southwest via Southwest Ladder 6 at (3, 11). Standing at (2, 7) on 2F, we will walk back to (3, 11) on 2F West and descend the ladder to 1F.
+- **Turn 122432**: Redefined the custom tool `cave_bfs_solver` with the new rock walls to prevent any incorrect path suggestions. Tested BFS from (2, 7) to (1, 3) and confirmed no path exists on 2F. We must now backtrack to 1F.
 
 - **Disproven bypass theory archived**: The long disproven "2F West direct on-foot bypass route" and backtracking logs have been permanently moved to `Archive/CeruleanCave_DisprovenTheories` on Turn 121235.
 - **Turn 120809**: Empirically verified via visual overlay on `<CurrentScreen turn="120809">` that (8, 5) is a solid rock wall (`TYPE_2889`), and (7, 5), (7, 6) are solid rock walls (`TYPE_2889`). This completely disproves the "Column 7 Water Shortcut" hypothesis, confirming that the canal does not continue west or north at Column 8, Row 5. We must proceed east to Column 14 and navigate to Water Ramp 4 at (15, 3) to land on the northeast platform.
