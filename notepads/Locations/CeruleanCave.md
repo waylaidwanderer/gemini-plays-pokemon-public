@@ -117,3 +117,7 @@
   - Column 12: (12, 5) tested on Turn 120952. Result: BUMP (impassable).
   - Column 13: (13, 5) tested on Turn 120968. Result: BUMP (impassable).
 - Final Conclusion: All tested water canal tiles on Row 5—specifically (8, 5), (9, 5), (10, 5), (11, 5), (12, 5), and (13, 5)—are completely solid and impassable rock walls of TYPE_2889. This definitively proves that there is NO water crossover or northern path to Row 5 from Row 6 across Columns 8 to 13.
+- **Row 16 Blockage (Columns 2 and 3) (Verified Turn 122484)**:
+  - While previously unlisted, we have empirically verified that Column 2 Row 16 (2, 16) and Column 3 Row 16 (3, 16) are completely solid, impassable rock walls of TYPE_2889 on Map 0_226.
+  - Verification: Walking Down from (2, 15) to (2, 16) results in a solid collision bump, proving (2, 16) is impassable on foot.
+  - This means Column 1 Row 15 to Row 17 is the sole on-foot vertical corridor to connect the southwest ground pocket to Row 17.
