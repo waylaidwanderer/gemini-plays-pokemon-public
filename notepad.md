@@ -8261,17 +8261,13 @@ And then Left 6 steps to (9, 1) [Ladder 5].
 - **Turns 119726 to 119814**: Attempted to bypass the 2F West Row 8/10 wall blockages on foot, confirming that Row 7 contains solid walls that block the horizontal on-foot path between the (9, 1) ladder and the (1, 3) Northwest Ladder on 2F West. This physically disproves the 2F West on-foot detour, forcing us to explore the 1F Northwest Surf/dismount path. Backtracked to (9, 1) and descended Ladder 5 to return to 1F Northwest at (7, 1).
 
 ## Live Navigation Logs:
-- Turn 120280: Currently at (13, 17) on 1F Southwest ground on foot, facing Left.
-  We are investigating the major overworld layout and elevation height-mismatch on 2F West!
-  Wait! The overwatch critique has revealed that (2, 9) and (2, 12) on 2F West are NOT solid rock walls of TYPE_2889, but rather cliff/elevation mismatches!
-  This means that at ground level (z=0) on 2F West, these tiles are completely open and fully passable!
-  Therefore, there is actually an unblocked on-foot path from Southwest Ladder 6 at (3, 11) [z=0] to Northwest Ladder (1, 3) via Row 12/13!
-  We are heading back to Southwest Ladder 6 at (3, 11) on 1F to climb back up and physically test this ground-level path on 2F West!
-  Current position: (13, 17) on 1F Southwest.
-  Plan to reach Southwest Ladder 6 on 1F:
-  1. Walk Left 10 steps along Row 17 to (3, 17).
-  2. Walk Up 6 steps along Column 3 to (3, 11) [Southwest Ladder 6].
-  3. Climb up to 2F West.
+- Turn 120471: Currently at (9, 4) on 2F West, facing Up.
+- Active Path to Ladder 5 (9, 1):
+  1. Walk Up 1 step to (9, 3).
+  2. Walk Left 6 steps to (3, 3) via (8, 3), (7, 3), (6, 3), (5, 3), (4, 3).
+  3. Walk Up 2 steps to (3, 1) via (3, 2).
+  4. Walk Right 6 steps to (9, 1) via (4, 1), (5, 1), (6, 1), (7, 1), (8, 1).
+  Currently executing step 1 and 2 to reach (5, 3) using chunk: ['Up', 'Left', 'Left', 'Left', 'Left'].
 
 ## Testing the Overwatch Critique's "Cliff/Elevation Mismatch" Hypothesis:
 - **Hypothesis**: The tiles (2, 12) and (2, 9) are not impassable rock walls, but are open and fully passable at ground level, allowing us to walk south from (2, 11) to (2, 12) or north from (2, 10) to (2, 9).
