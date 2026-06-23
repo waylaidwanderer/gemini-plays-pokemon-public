@@ -8354,6 +8354,7 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
 - Turn 120963: Standing at (12, 6). Pressing Right to step onto (13, 6) for Step 6 of the testing protocol. Expected position: (13, 6).
 - Turn 120965: Successfully arrived at (13, 6). Standing at (13, 6). Executing Step 6 (final step) of our systematic testing protocol: pressing UP to test the passability of (13, 5). Expected result: collision bump due to TYPE_2889 label.
 - Turn 120966: Standing at (13, 6). Executing Step 6 (final step) of the testing protocol: pressing UP to test the passability of (13, 5). Expected result: collision bump due to TYPE_2889 label.
+- Turn 120967: Successfully arrived at (13, 6) surfing on the water. We are standing at (13, 6) and are ready to execute Step 6 (the final step) of our systematic Row 5 testing protocol: testing (13, 5) passability by pressing UP. Expected result: collision bump due to TYPE_2889 label on (13, 5). Let's do it!
 
 <hr>
 
