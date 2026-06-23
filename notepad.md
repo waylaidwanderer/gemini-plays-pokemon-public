@@ -8244,8 +8244,9 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 119799: Standing at (9, 3) on 2F West. We successfully navigated Row 3 and reached (9, 3).
 - Critical Topological Discovery: We confirmed that Row 7 contains solid rock walls (TYPE_2889) at (8, 7) and (5, 7), which physically blocks any horizontal on-foot passage on Row 7. This mathematically proves that 2F West's northern corridor (Component 1) is completely isolated on foot from the western area containing Northwest Ladder (1, 3).
 - New Unblocked Strategy to Mewtwo: Instead of trying to find an impossible on-foot path across 2F West, we can reach the B1F stairs directly on 1F! By surfing on 1F's water canals, we can navigate directly to the northwest corner of 1F (Columns 1-3, Row 4/5) and dismount onto Row 3 (the northwest landmass) where the B1F ladder/stairs are located. This completely bypasses the 2F West maze and breaks our spatial stagnation loop!
-- We are actively walking Up 2 steps to (9, 1) to descend Ladder 5 back to 1F Northwest.
-  Path chunk: ['Up', 'Up'] to reach (9, 1).
+- We are actively backtracking to (9, 1) to descend Ladder 5 back to 1F Northwest.
+  Path: Left 6 steps to (3, 3), Up 2 steps to (3, 1), and Right 6 steps to (9, 1).
+  Path chunk: ['Left', 'Left', 'Left'] to reach (6, 3).
 
 ## Verified On-Foot Crossover Path:
 From (15, 5) to (15, 1):
