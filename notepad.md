@@ -8382,7 +8382,7 @@ We are actively backtracking to 1F Northwest via Ladder 5. We will navigate the 
     3. Walk Down 1 step to (2, 17)
     4. Walk Right along the Row 17 corridor to reach the central platform stairs at (17, 15)
     5. Navigate north and west across the central platform to (11, 13) Water Ramp 2
-  - Turn 119687: Standing at (10, 17) on 1F Southwest facing Right. Currently executing third chunk: walk Right 5 steps along the Row 17 corridor to reach (15, 17).
+  - Turn 119689: Standing at (15, 17) on 1F Southwest facing Right. Currently executing fourth chunk: walk Right 1, Up 1, Right 1, Up 1 to reach the central platform stairs at (17, 15). Path: ['Right', 'Up', 'Right', 'Up'].
 
 <hr>
 
