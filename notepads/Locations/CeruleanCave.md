@@ -100,3 +100,14 @@
   - **Northwest Quadrant Access on Foot - IMPOSSIBLE**: Component 1 and Component 3 of 2F West are completely disconnected on foot via Row 1 because (2, 1), (2, 2), and (2, 3) are verified solid rock walls on foot. Furthermore, the southwest section of 2F West (Component 3) is completely isolated on foot from the Northwest Ladder (1, 3) because Row 10 forms an unbroken horizontal wall of TYPE_2889 across all columns, rendering any on-foot detour completely impossible. Thus, 2F West's southwestern area is a dead-end pocket, and we must transition via 1F to proceed.
 
 - **Column 1 Corridor Passable (Verified Turn 120846)**: Column 1 on 2F West is completely unblocked and fully passable, meaning that Southwest Ladder 6 at (3, 11) can directly reach Northwest Ladder (1, 3) on foot, and Ladder 5 at (9, 1) can also reach Northwest Ladder (1, 3) on foot by looping around the eastern corridor. This is our verified unblocked route to Mewtwo.
+
+## Row 5 Water Canal Systematic Passability Verification (Turns 120911-120968)
+- Between Turn 120911 and Turn 120968, we systematically tested the passability of the water canal on Row 5 across Columns 8 to 13 by standing on Row 6 facing Up and pressing Up at each column.
+- Results:
+  - Column 8: (8, 5) tested on Turn 120911. Result: BUMP (impassable).
+  - Column 9: (9, 5) tested on Turn 120918. Result: BUMP (impassable).
+  - Column 10: (10, 5) tested on Turn 120923. Result: BUMP (impassable).
+  - Column 11: (11, 5) tested on Turn 120936. Result: BUMP (impassable).
+  - Column 12: (12, 5) tested on Turn 120952. Result: BUMP (impassable).
+  - Column 13: (13, 5) tested on Turn 120968. Result: BUMP (impassable).
+- Final Conclusion: All tested water canal tiles on Row 5—specifically (8, 5), (9, 5), (10, 5), (11, 5), (12, 5), and (13, 5)—are completely solid and impassable rock walls of TYPE_2889. This definitively proves that there is NO water crossover or northern path to Row 5 from Row 6 across Columns 8 to 13.
