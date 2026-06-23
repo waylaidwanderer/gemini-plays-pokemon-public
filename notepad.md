@@ -8319,6 +8319,7 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
   4. Walk Up 2 steps to (3, 1) via (3, 2).
   5. Walk Right 6 steps to (9, 1) via (4, 1), (5, 1), (6, 1), (7, 1), (8, 1).
   We are currently at (12, 5) executing step 1 and 2 to reach (9, 3). Path chunk: ['Left', 'Left', 'Left', 'Up', 'Up'].
+- **Turn 120809**: Empirically verified via visual overlay on `<CurrentScreen turn="120809">` that (8, 5) is a solid rock wall (`TYPE_2889`), and (7, 5), (7, 6) are solid rock walls (`TYPE_2889`). This completely disproves the "Column 7 Water Shortcut" hypothesis, confirming that the canal does not continue west or north at Column 8, Row 5. We must proceed east to Column 14 and navigate to Water Ramp 4 at (15, 3) to land on the northeast platform.
 
 <hr>
 
