@@ -8298,6 +8298,11 @@ We are actively backtracking to 1F Northwest via Ladder 5. We will navigate the 
   We will walk Left 3 steps from our current position (5, 9) to (2, 9) to test (2, 9).
   Path chunk: ['Left', 'Left', 'Left'] to reach (2, 9).
   We will document the result (bump or step) to establish definitive empirical proof.
+- Turn 119519: Standing at (4, 9) facing Right.
+  - Empirically verified that (2, 9) (on Turn 119478) and (2, 12) (on Turn 119497) are solid rock walls on foot!
+  - This proves direct Column 2 access is blocked, so we must execute the 45-step Column 11/14 detour to (1, 3).
+  - Path chunk: ['Right', 'Right', 'Right', 'Right', 'Right'] to reach (9, 9).
+  - We will execute this now.
 - Turn 119037: Escaped from wild Venomoth. Standing at (3, 9) facing Right. Continuing the path chunk to (9, 9): ['Right', 'Right', 'Right', 'Right', 'Right', 'Right']
 - Turn 119102: Standing at (5, 9) facing Right. Navigated Right 4 steps to (9, 9).
 - Turn 119108: Standing at (9, 9) facing Right. Navigated Right 4 steps to (13, 9).
