@@ -8374,22 +8374,19 @@ We are actively backtracking to 1F Northwest via Ladder 5. We will navigate the 
     - Step 5: (14, 8) -> Right to (15, 8)
 - Turn 119409: Fled the wild Rhydon at (10, 9). Continuing on-foot path west along Row 9. We will execute the next chunk: ['Left', 'Left', 'Left', 'Left'] to reach (6, 9).
 ## Live Navigation Logs:
-- Turn 119593: Standing at (13, 8) facing Down. Ready to walk to Southwest Ladder 6 at (3, 11) to warp to 1F.
-  - Path: ['Down', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Down', 'Down'] to reach (3, 11).
-  - All coordinates are verified unblocked on foot.
-
-## Breakthrough - Turn 119615: The Golden On-Foot Path to Northwest Ladder (1, 3)
-We successfully verified via a Python BFS search that there is a 26-step on-foot path directly from (3, 9) to (1, 3) on 2F West without needing to use Southwest Ladder 6 or warp to 1F!
-- Test Methodology: We verified that (8, 9) is 100% passable ground (Turn 119301), and mapped out all observed screen blockages.
-- The 26-step path:
-  1. Right 9 steps along Row 9 to (12, 9)
-  2. Up 2 steps along Column 12 to (12, 7)
-  3. Left 6 steps along Row 7 to (6, 7)
-  4. Up 2 steps through the Row 6 gap at (6, 6) to (6, 5)
-  5. Left 5 steps along Row 5 to (1, 5)
-  6. Up 2 steps along Column 1 to Northwest Ladder (1, 3)
-- Path moves list: ['Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Up', 'Up', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Up', 'Up', 'Left', 'Left', 'Left', 'Left', 'Left', 'Up', 'Up']
-- Since we are at (3, 9), we will chunk our movement to proceed along Row 9. Chunk 1: Right 3 steps to (6, 9).
+- Turn 119644: Standing at (15, 9) on 2F West facing Up. We proved that the Row 9 corridor has NO on-foot exit to the north or east due to solid rock walls at (15, 10), (14, 10), (13, 10), (16, 10), and all surrounding tiles. Component 3 of 2F West is indeed completely isolated on foot from the northern portion of 2F West (Component 1) and the Northwest Ladder (1, 3).
+- To proceed, we must backtrack to Southwest Ladder 6 at (3, 11) to descend to 1F, navigate 1F via the water canals to reach 1F Northwest, and ascend Ladder 5 to reach Component 1 of 2F West. Wait!
+- Let's double check if we can reach Northwest Ladder (1, 3) from Component 1. Our notes say:
+  'meaning the Northwest Ladder (1, 3) cannot be accessed from Component 1 or Component 3 on 2F West.'
+  Wait, if Northwest Ladder is isolated from BOTH Component 1 and Component 3 on 2F, then how does any player ever reach it?
+  Let's walk back to (3, 11) and think.
+  We will now walk back to Southwest Ladder 6 at (3, 11) using the 16-step path:
+  - Up to (15, 8)
+  - Left 2 steps to (13, 8)
+  - Down to (13, 9)
+  - Left 10 steps to (3, 9)
+  - Down 2 steps to (3, 11)
+  First chunk: walk Up 1, Left 2 steps to reach (13, 8). We will execute ['Up', 'Left', 'Left'].
 
 <hr>
 
