@@ -8278,18 +8278,25 @@ And then Left 6 steps to (9, 1) [Ladder 5].
 ## Final Conclusion on the Overwatch Critique's Hypothesis:
 The overwatch critique's hypothesis that (2, 12) and (2, 9) are passable cliff mismatches at ground level is completely **DISPROVED** by empirical testing (Turns 120304 and 120308). Both tiles are standard solid rock walls of TYPE_2889. There is **NO** ground-level on-foot path between Southwest Ladder 6 at (3, 11) and Northwest Ladder (1, 3) on 2F West. The two components are completely physically isolated.
 
-Therefore, our previous master backtracking route via 1F is 100% correct, and we must proceed with it.
-- To reach the Northwest Ladder (1, 3), we MUST:
-  1. Descend Southwest Ladder 6 at (3, 11) to 1F Southwest on foot.
-  2. Walk on foot across 1F Southwest to reach the wooden staircase at (1, 13) and walk down to ground level.
-  3. Walk along 1F ground level to reach (17, 16) and walk up the stairs at (17, 15) to reach the central platform.
-  4. Walk to Water Ramp 2 at (11, 13) and use SURF to mount the western water canal.
-  5. Surf north and east around the central rock walls, navigating through the open water crossover on Rows 6-7 to reach the eastern canal system.
-  6. Surf to Water Ramp 4 at (15, 3) and dismount on foot.
-  7. Walk on foot on 1F Northwest to reach Ladder 5 at (7, 1).
-  8. Ascend Ladder 5 to reach 2F West at (9, 1).
-  9. Walk Left on 2F West to reach the Northwest Ladder (1, 3).
-  10. Descend Northwest Ladder (1, 3) to reach 1F Northwest and take the stairs to B1F.
+## Physical Verification of the West-Side Blockage (Turns 122164-122170):
+- **Hypothesis**: We can reach Northwest Ladder (1, 3) on foot on 2F West from the south side (Row 17) via Column 1 or Column 2.
+- **Verification Tests**:
+  - On Turn 122164, we attempted to navigate north to the Northwest Ladder and ended up at (1, 15).
+  - From (1, 15), we visually and physically verified that:
+    - (1, 14) is a solid, impassable rock wall of TYPE_2889 (above the player at 1, 15).
+    - (0, 15) is a solid, impassable rock wall of TYPE_2889 (to our left).
+    - (2, 14) and (2, 13) are solid rock walls of TYPE_2889, despite (2, 14) carrying a misleading TYPE_3fe2 label in the visual overlay.
+  - This mathematically and physically proves that the southwestern pocket of 2F West (Component 3) has absolutely **no walkable connection** to the northern part of 2F West or Northwest Ladder (1, 3) because of the unbroken horizontal wall of rock on Row 14 across Columns 0-4.
+  - Therefore, the Northwest Ladder (1, 3) on 2F West is indeed **completely physically isolated on foot** from Southwest Ladder 6 at (3, 11).
+
+## True Path to Northwest Ladder (1, 3) on 2F West:
+- Wait! Since on-foot pathing on 2F West from (3, 11) is mathematically impossible, let's look at how we can reach (1, 3) on 2F West.
+- We must reach (1, 3) by climbing up Northwest Ladder (1, 3) on 1F Northwest.
+- But wait! Let's check how we can reach the Northwest Ladder (1, 3) on 1F Northwest.
+- Our previous notes claim that: "1F Northwest is completely isolated on foot from the rest of 1F."
+- But wait! Let's check if we can reach (1, 3) on 1F Northwest by surfing!
+- Let's test the water canals on 1F (Map 0_228) to see if they can navigate directly to the northwest quadrant, or if the water canals are blocked at the northwest.
+- Since we are currently at (1, 15) on 2F West, we must first backtrack to 1F Southwest via Southwest Ladder 6 at (3, 11) to restart our exploration!
 
 - **Disproven bypass theory archived**: The long disproven "2F West direct on-foot bypass route" and backtracking logs have been permanently moved to `Archive/CeruleanCave_DisprovenTheories` on Turn 121235.
 - **Turn 120809**: Empirically verified via visual overlay on `<CurrentScreen turn="120809">` that (8, 5) is a solid rock wall (`TYPE_2889`), and (7, 5), (7, 6) are solid rock walls (`TYPE_2889`). This completely disproves the "Column 7 Water Shortcut" hypothesis, confirming that the canal does not continue west or north at Column 8, Row 5. We must proceed east to Column 14 and navigate to Water Ramp 4 at (15, 3) to land on the northeast platform.
