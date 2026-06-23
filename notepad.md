@@ -8373,6 +8373,9 @@ We are actively backtracking to 1F Northwest via Ladder 5. We will navigate the 
     - Step 4: (13, 8) -> Right to (14, 8)
     - Step 5: (14, 8) -> Right to (15, 8)
 - Turn 119409: Fled the wild Rhydon at (10, 9). Continuing on-foot path west along Row 9. We will execute the next chunk: ['Left', 'Left', 'Left', 'Left'] to reach (6, 9).
+- Turn 119528: Standing at (13, 9) facing Left.
+  - Path chunk: ['Left', 'Down', 'Down', 'Down', 'Down'] to reach (12, 13) on Column 12.
+  - All tiles on this chunk are verified unblocked on foot on 2F West.
 
 <hr>
 
