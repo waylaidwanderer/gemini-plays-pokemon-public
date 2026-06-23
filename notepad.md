@@ -8320,6 +8320,16 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
   5. Walk Right 6 steps to (9, 1) via (4, 1), (5, 1), (6, 1), (7, 1), (8, 1).
   We are currently at (12, 5) executing step 1 and 2 to reach (9, 3). Path chunk: ['Left', 'Left', 'Left', 'Up', 'Up'].
 - **Turn 120809**: Empirically verified via visual overlay on `<CurrentScreen turn="120809">` that (8, 5) is a solid rock wall (`TYPE_2889`), and (7, 5), (7, 6) are solid rock walls (`TYPE_2889`). This completely disproves the "Column 7 Water Shortcut" hypothesis, confirming that the canal does not continue west or north at Column 8, Row 5. We must proceed east to Column 14 and navigate to Water Ramp 4 at (15, 3) to land on the northeast platform.
+- **Turn 120915 systematic test**: Stood at (8, 6) facing Left and pressed Left to test (7, 6) passability. Result: BUMP collision, player remained at (8, 6). This physically and empirically proves that (7, 6) is a solid impassable rock wall of TYPE_2889.
+- **Active Testing Protocol**:
+  - We will test if we can access Row 5 from Row 6 across Columns 8 to 13.
+  - Step 1: Stand at (8, 6) and press Up to test (8, 5) (BUMPED on Turn 120911).
+  - Step 2: Stand at (9, 6) and press Up to test (9, 5).
+  - Step 3: Stand at (10, 6) and press Up to test (10, 5).
+  - Step 4: Stand at (11, 6) and press Up to test (11, 5).
+  - Step 5: Stand at (12, 6) and press Up to test (12, 5).
+  - Step 6: Stand at (13, 6) and press Up to test (13, 5).
+  - This systematic test will definitively confirm or disprove the passability of Row 5 on the water.
 
 <hr>
 
