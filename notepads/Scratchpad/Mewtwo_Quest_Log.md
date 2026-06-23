@@ -70,4 +70,4 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
   - We systematically tested the water canal on Row 5 across Columns 8 to 13 by standing on Row 6 facing Up and pressing Up at each column (completed on Turn 120968). All are impassable rock walls of TYPE_2889.
   - Final Conclusion migrated to Locations/CeruleanCave.
 - Turn 120969: Step 6 Result: Stood at (13, 6) facing Up and pressed Up. Result was a BUMP collision (Turn 120968), proving (13, 5) is indeed an impassable rock wall of TYPE_2889. This systematic test of Row 5 on water is now 100% complete and fully verified!
-- **Turn 121260**: Successfully backtracked from Southwest Ladder 6, traversed 1F ground and central platform, activated Surf at Water Ramp 2, and surfed north to (9, 7) on water.
+- **Turn 121290**: Successfully returned to 2F West on foot, currently positioned at (3, 2).
