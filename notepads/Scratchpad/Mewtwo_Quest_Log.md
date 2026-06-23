@@ -117,9 +117,7 @@ The overwatch critique's hypothesis that (2, 12) and (2, 9) are passable cliff m
 - **Physical Test (Turn 122327)**: Standing at (1, 8) on foot on Map 0_228, we walked Right to (2, 8), and then attempted to walk Up to (2, 7) by pressing Up.
 - **Result**: Direct bump collision, remaining at (2, 8) facing Up.
 - **Definitive Conclusion**: Tile (2, 7) (and (1, 7)) are 100% physically solid, impassable barriers (rock walls). This physically, empirically, and mathematically disproves the Column 0/1/2 passability hypothesis. Row 7 forms a continuous, unbroken solid rock wall barrier across all columns on the west side of Map 0_228. Thus, the northwest quadrant on 1F is indeed completely physically isolated on foot from the southwest area on Map 0_228.
-## Map 0_226 (2F) Direct Connection Discovery (Turn 122396):
-- **Verification**: Programmatic BFS searches using our verified wall database have proved that Map 0_226 is a single continuous connected component. 
-- Southwest Ladder 6 at (3, 11) connects directly to Northwest Ladder at (1, 3) on foot on Map 0_226.
-- The path is 54 steps: Up 2, Right 9 to (12, 9), Down 6 to (12, 15), Right 1 to (13, 15), Down 2 to (13, 17) on Row 17, and then Left along Row 17 to (2, 17). From (2, 17), it goes Up 4 to (2, 13), Left 1 to (1, 13), Up 1 to (1, 12), Left 1 to (0, 12), Up 3 to (0, 9), Right 1 to (1, 9), Up 2 to (1, 7), Right 1 to (2, 7), Up 2 to (2, 5), Left 2 to (0, 5), Up 2 to (0, 3), and Right 1 to (1, 3).
-- Since this path is completely unblocked in our database, we will ascend Southwest Ladder 6 back to 2F and execute this direct connection on foot to reach B1F!
-- This completely replaces any need to navigate 1F Southwest's dead-end plateau.
+## Map 0_226 (2F) Direct Connection Discovery (Turn 122396) - DISPROVEN Turn 122424:
+- **Disproven Fact**: We previously hypothesized a direct on-foot connection on 2F West between Southwest Ladder 6 at (3, 11) and Northwest Ladder at (1, 3).
+- **Verification**: This direct on-foot route is completely DISPROVEN. Row 11 and Row 12 contain solid, impassable wall blockages of TYPE_2889 at (12, 11) and (12, 12), preventing horizontal on-foot passage.
+- **Topological Solution**: The only valid way to reach the Northwest Ladder (1, 3) on Map 0_226 is to ascend from Ladder 5 at (7, 1) on Map 0_228, which warps us to 2F West at (9, 1). From there, we navigate on foot via Row 0 and Row 1 to (1, 3). This is now our active master route.
