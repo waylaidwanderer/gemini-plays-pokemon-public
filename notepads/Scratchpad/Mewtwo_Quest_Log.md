@@ -72,3 +72,4 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
 - Turn 120969: Step 6 Result: Stood at (13, 6) facing Up and pressed Up. Result was a BUMP collision (Turn 120968), proving (13, 5) is indeed an impassable rock wall of TYPE_2889. This systematic test of Row 5 on water is now 100% complete and fully verified!
 - **Turn 121320**: Successfully returned to 2F West on foot, currently positioned at (4, 1).
 - Turn 121410: Successfully descended Ladder 5 to 1F Northwest at (7, 1). Verified that 1F Northwest is completely isolated on foot from B1F stairs, and we must walk to Water Ramp 4 at (15, 3) to Surf to Southwest Ladder 6.
+- Turn 121428: Safely reached Water Ramp 4 at (15, 3). Now activating Surf to navigate the water canals to Water Ramp 2 at (11, 13).
