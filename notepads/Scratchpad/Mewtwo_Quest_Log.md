@@ -79,3 +79,19 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
 - **Testing Methodology**: Once we reach 2F West Component 3 (by climbing Southwest Ladder 6 at (3, 11)), we will navigate to (1, 15), and attempt to step Left onto Column 0 at (0, 15) by pressing Left.
 - **Expected Outcome if Column 0 is open**: Player's position becomes (0, 15) with no collision.
 - **Expected Outcome if Column 0 is a solid wall**: Player bumps and remains at (1, 15), proving Column 0 is a solid boundary wall. We will execute this test and log the exact turn and result.
+
+## Turn 121478 Reflection & Self-Assessment:
+- **Immediate Execution**: Successfully navigated to (13, 12) on foot on the central platform of 1F. We are proceeding towards the stairs at (17, 15) to descend to ground level.
+- **Notepad & Map Hygiene**: All loaded notepads and map markers are completely up-to-date and accurate.
+- **Custom Tools & Maintenance**: Successfully redefined and fixed `cave_bfs_solver` on Turn 121471 to correct the Map 0_228 database layout error (adjusting the Column 14 and 15 water boundaries on Rows 9-12). This makes the tool fully robust and ready for future use on both floors!
+- **Goal Clarity**:
+  - WHAT (Primary): Catch Mewtwo in Cerulean Cave B1F.
+  - WHAT (Secondary): Walk to the stairs at (17, 15) on foot.
+  - HOW: Navigate via (15, 12) -> (15, 14) -> (17, 14) -> (17, 15) to bypass the rock wall at (14, 13).
+- **Five Specialized Tools/Agents for B1F**:
+  1. `b1f_coordinate_mapper` - For tracking walkable coordinates.
+  2. `b1f_switch_matrix_solver` - For tracking active switches and gate-switch dependencies.
+  3. `mewtwo_combat_simulator` - For optimizing Mewtwo capture probability.
+  4. `b1f_maze_pathfinder` - For routing on B1F with dynamic gate constraints.
+  5. `b1f_defeated_trainers_tracker` - For tracking B1F battles.
+- **Error Analysis**: Recognized that (14, 13) is indeed a solid rock wall of TYPE_2889 despite the tool's previous omission, and adjusted our route to go via (15, 12) to ensure a 100% collision-free transit.
