@@ -8302,6 +8302,14 @@ And then Left 6 steps to (9, 1) [Ladder 5].
 - Turn 120182: Walked Down, Left, Left from (17, 15) to reach (15, 16) on foot on the ground floor.
 - Turn 120193: Walked Down, Left, Left, Left, Left from (15, 16) to reach (11, 17) on foot on Row 17.
 - Turn 120205: Standing at (3, 17) facing Left. BFS calculated path to (1, 13) wooden staircase is ['Up', 'Up', 'Left', 'Up', 'Left', 'Up']. Executing.
+- Turn 120255: Re-verified that Component 3 on 2F West (containing the (3, 11) Southwest Ladder) is completely isolated on foot from Row 7 (and the Northwest Ladder at 1, 3). Row 8 forms a continuous wall from Column 2 to Column 10 (TYPE_2889), and Row 12 forms a continuous wall from Column 2 to Column 9. Column 1 Row 10 is blocked, and Column 2 Row 9 is blocked. Thus, Column 1 is isolated from Column 2 on Rows 8-11. 
+Therefore, the Southwest pocket of 2F West is indeed a complete, isolated dead end. Climbing Southwest Ladder 6 does not allow us to reach the Northwest Ladder on foot. We must backtrack down Southwest Ladder 6 to 1F Southwest, then surf to Water Ramp 4 at (15, 3), climb up Ladder 5 at (7, 1) to reach 2F West Component 1, and verify how to reach (1, 3).
+Wait, let's double check if we can walk from Ladder 5 at (9, 1) to (1, 3) on 2F West. We previously noted that (2, 1), (2, 2), and (2, 3) are solid rock walls on foot, making Component 1 isolated on foot from (1, 3). But if BOTH Ladder 5 and Southwest Ladder 6 are isolated from (1, 3) on foot, how can we access (1, 3)?
+Wait! Let's check 1F Northwest.
+Is there an on-foot path between (7, 1) and (1, 3) on 1F? We noted that "the northern plateau (Columns 5+, Rows 0-2) is completely isolated on foot from the western area containing (1, 3) on 1F Northwest...".
+But wait! What about by surfing? Can we surf directly to (1, 3) or (1, 4) on 1F Northwest?
+Let's verify this when we return to 1F. For now, we must descend Southwest Ladder 6 at (3, 11).
+Path from (5, 11) to (3, 11): ['Up', 'Up', 'Left', 'Left', 'Down', 'Down'].
 
 <hr>
 
