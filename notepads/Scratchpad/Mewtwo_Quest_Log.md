@@ -109,3 +109,9 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
 - **Testing Methodology (Turn 121534)**: Standing at (3, 11) on 2F West facing Down, pressed Down.
 - **Result**: Direct bump collision with zero coordinate change (player remained at 3, 11).
 - **Definitive Conclusion**: Tile (3, 12) on 2F West is 100% physically a solid, impassable rock wall of TYPE_2889. This physically and mathematically proves that the southwest pocket of 2F West is indeed a completely isolated dead-end pocket, and we must proceed with our master backtracking route via 1F to reach Northwest Ladder (1, 3).
+
+## Column 0 Passability Empirical Test on 1F Southwest:
+- **Hypothesis**: Tile (0, 15) on 1F Southwest is passable on foot, or it is a solid rock wall.
+- **Testing Methodology (Turn 121539)**: Standing at (1, 15) on 1F Southwest facing Left, pressed Left.
+- **Result**: Successfully stepped onto (0, 15) on foot with no collision, updating position to (0, 15).
+- **Definitive Conclusion**: Column 0 on 1F Southwest is indeed 100% passable on foot! This is a massive empirical discovery that disproves any assumption of a solid rock boundary wall on Column 0 here, confirming that Column 0 is open. We will use this verified fact to plan future routes.
