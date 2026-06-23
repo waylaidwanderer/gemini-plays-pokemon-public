@@ -106,3 +106,6 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
   This disproves the "Column 1 Corridor Passable" breakthrough from Turn 120846 at this section.
   Southwest Ladder 6 at (3, 11) leads to an isolated pocket of 14 tiles on 2F West with no on-foot crossover to Northwest Ladder (1, 3).
   We must now backtrack by taking 1 step Right to descend Southwest Ladder 6 to 1F Southwest, and then follow our verified master route via 1F water to reach Northwest Ladder (1, 3).
+- Turn 121138: Standing at (3, 11) on 1F Southwest on foot, having successfully returned from the 2F West dead-end pocket.
+  We will now navigate across the elevated southwest plateau to the wooden staircase at (1, 13) to step down to ground level.
+  Path: ['Down', 'Left', 'Left', 'Down'] to reach (1, 13).
