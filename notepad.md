@@ -8273,6 +8273,12 @@ And then Left 6 steps to (9, 1) [Ladder 5].
   2. Walk Up 6 steps along Column 3 to (3, 11) [Southwest Ladder 6].
   3. Climb up to 2F West.
 
+## Testing the Overwatch Critique's "Cliff/Elevation Mismatch" Hypothesis:
+- **Hypothesis**: The tiles (2, 12) and (2, 9) are not impassable rock walls, but are open and fully passable at ground level, allowing us to walk south from (2, 11) to (2, 12) or north from (2, 10) to (2, 9).
+- **Test 1 Method (Turn 120304)**: Standing at (2, 11), press DOWN to attempt to step onto (2, 12).
+- **Expected Result if Critique is Correct**: We successfully step onto (2, 12), and our position becomes (2, 12).
+- **Expected Result if Critique is Wrong (Vanilla Gen 1)**: We bump and remain at (2, 11).
+
 <hr>
 
 <h1><code>Locations/CeruleanCave</code></h1>
