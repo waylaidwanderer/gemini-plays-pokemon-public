@@ -101,3 +101,7 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
 - Turn 121138: Standing at (3, 11) on 1F Southwest on foot, having successfully returned from the 2F West dead-end pocket.
   We will now navigate across the elevated southwest plateau to the wooden staircase at (1, 13) to step down to ground level.
   Path: ['Down', 'Left', 'Left', 'Down'] to reach (1, 13).
+- Turn 121154: We are standing at (1, 14) on Map 0_228 (1F) on foot. We will now execute our manual backtracking route along the ground floor:
+  - First Chunk: Walk 2 steps Down to (1, 16) and 6 steps Right to reach (7, 16).
+  - Second Chunk: Walk 1 step Up to (7, 15) and 10 steps Right to reach the staircase at (17, 15).
+  We will now execute the First Chunk.
