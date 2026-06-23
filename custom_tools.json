@@ -80,5 +80,20 @@
         "action_counter": 109697
       }
     ]
+  },
+  "navigate_to_ramp_4": {
+    "description": "Navigates from (11, 7) on water to the Water Ramp at (15, 3) and dismounts.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "# We want to move from (11, 7) to (15, 3).\n# Path:\n# (11, 7) -> Right -> (12, 7)\n# (12, 7) -> Right -> (13, 7)\n# (13, 7) -> Right -> (14, 7)\n# (14, 7) -> Up -> (14, 6)\n# (14, 6) -> Up -> (14, 5)\n# (14, 5) -> Up -> (14, 4)\n# (14, 4) -> Right -> (15, 4)\n# (15, 4) -> Up -> (15, 3) (dismounts automatically)\n\nbuttons = [\"Right\", \"Right\", \"Right\", \"Up\", \"Up\", \"Up\", \"Right\", \"Up\"]\nprint(buttons)\n",
+    "history": [
+      {
+        "commit_message": "Create a tool to automate navigation to Water Ramp 4 at (15, 3) in Cerulean Cave 1F.",
+        "timestamp": "2026-06-23T04:44:00.692Z",
+        "action_counter": 120037
+      }
+    ]
   }
 }
