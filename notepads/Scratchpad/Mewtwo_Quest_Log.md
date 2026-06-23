@@ -77,3 +77,5 @@ And then Left 6 steps to (9, 1) [Ladder 5].
   3. Ascend/descend the stairs to land on the ground floor at (17, 16) or (17, 17).
   4. Walk Left to the southwest corner, then take the wooden stairs at (1, 13) to climb Southwest Ladder 6 at (3, 11).
   Chunk: ['Left', 'Down'] to reach (17, 15).
+- Turn 120182: Walked Down, Left, Left from (17, 15) to reach (15, 16) on foot on the ground floor.
+- Turn 120193: Walked Down, Left, Left, Left, Left from (15, 16) to reach (11, 17) on foot on Row 17.
