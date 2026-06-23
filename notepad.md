@@ -8321,7 +8321,14 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
   12. Walk Left 3 steps along Row 13 to (0, 13) via Column 2, 1.
   13. Walk Up 10 steps along Column 0 to (0, 3) via Row 12, 11, 10, 9, 8, 7, 6, 5, 4.
   14. Walk Right 1 step to (1, 3) and descend the Northwest Ladder to reach B1F stairs!
-- This is a continuous, 100% on-foot, unblocked path on 2F West that completely bypasses the need for the massive 1F Surf backtracking route! We are currently executing this path!
+- Turn 120438: Verified that Component 1 and Component 3 of 2F West are disconnected on foot because of solid walls at Row 6 and Column 13 Row 7, meaning the "Direct On-Foot Bypass Route" in our previous notes was a hallucination. There is no on-foot crossover on 2F West. We are backtracking to (9, 1) to descend to 1F.
+- Backtracking Path to Ladder 5 (9, 1):
+  1. Walk Left 3 steps to (9, 5) via (11, 5) and (10, 5).
+  2. Walk Up 2 steps to (9, 3) via (9, 4).
+  3. Walk Left 6 steps to (3, 3) via (8, 3), (7, 3), (6, 3), (5, 3), (4, 3).
+  4. Walk Up 2 steps to (3, 1) via (3, 2).
+  5. Walk Right 6 steps to (9, 1) via (4, 1), (5, 1), (6, 1), (7, 1), (8, 1).
+  We are currently at (12, 5) executing step 1 and 2 to reach (9, 3). Path chunk: ['Left', 'Left', 'Left', 'Up', 'Up'].
 
 <hr>
 
