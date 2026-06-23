@@ -33,6 +33,7 @@ And then Left 6 steps to (9, 1) [Ladder 5].
 ## Live Navigation Logs:
 - **Turn 121770**: Backtracked along Row 17 bypass on 1F, successfully reached the stairs at (17, 15), and currently standing on the stairs on the central platform preparing to walk to Water Ramp 2 at (11, 13).
 - **Turn 121786**: Successfully walked from (17, 15) to Water Ramp 2 at (11, 13) on foot, encountering a wild Hypno on step 6 at (11, 12), and now standing at (11, 13) on foot on the water ramp, preparing to use SURF.
+- **Turn 121802**: Mounted the western water canal and surfed north to (9, 10). Currently preparing to surf north and east along the water canal towards Water Ramp 4 at (15, 3).
 
 ## Column 4 Corridor Passability Analysis (Turn 121712):
 - **Objective**: Check if there is an alternate bypass on Column 4 on 2F West.
@@ -40,9 +41,8 @@ And then Left 6 steps to (9, 1) [Ladder 5].
   - (13, 9) is us (the player sprite).
   - Column 4 is located far to our Left (off-screen here, but we walked past Column 4 earlier).
   - Wait, let's analyze if Column 4 is open:
-    - On Turn 121690, we verified that Column 4 has rock walls of TYPE_2889 on Row 8, 10, 11, 12, 13, and 14!
-    - So Column 4 is heavily blocked on 2F West.
-- **Topological Conclusion**: There is indeed NO Column 4 bypass corridor that connects the north and south on 2F West. The entire width of 2F West is blocked by an unbroken horizontal wall of rock on Row 10/11 (separating Component 1/North from Component 3/South).
+    - Based on visual observation of the overworld, Column 4 on 2F West appears to have rock walls of TYPE_2889 on Rows 8, 10, 11, 12, 13, and 14. This is an unverified visual hypothesis that we must physically test once we return to 2F West to confirm if the corridor is passable or blocked.
+- **Topological Conclusion**: If the visual hypothesis holds, there is indeed NO Column 4 bypass corridor that connects the north and south on 2F West. The entire width of 2F West is blocked by an unbroken horizontal wall of rock on Row 10/11 (separating Component 1/North from Component 3/South).
 - Therefore, our conclusion that the Northwest Ladder (1, 3) is isolated on 2F West is 100% correct.
 - Since we also established that (7, 1) and (1, 3) are connected on 1F Northwest on foot, let's backtrack to Ladder 5 at (9, 1) on 2F West and return to 1F Northwest. Once on 1F Northwest, we will follow the unblocked 58-step path on foot across 1F ground and the southwest plateau to reach the Northwest Ladder (1, 3) on 1F. This is our active strategy.
 
@@ -100,14 +100,3 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
 - **Testing Methodology (Turn 121539)**: Standing at (1, 15) on 1F Southwest facing Left, pressed Left.
 - **Result**: Successfully stepped onto (0, 15) on foot with no collision, updating position to (0, 15).
 - **Definitive Conclusion**: Column 0 on 1F Southwest is indeed 100% passable on foot! This is a massive empirical discovery that disproves any assumption of a solid rock boundary wall on Column 0 here, confirming that Column 0 is open. We will use this verified fact to plan future routes.
-
-## Turn 121633 Reflection & Self-Assessment:
-- **Immediate Execution**: Successfully navigated down Ladder 5 to 1F Northwest. We are at (7, 1) and will walk to Water Ramp 4 at (15, 3), surf back to Water Ramp 2 at (11, 13), walk to Southwest Ladder 6 at (3, 11), and climb to 2F West.
-- **Topological Reality Verified**: While we briefly hypothesized an on-foot bypass on 2F West, empirical testing on Turn 121123 proved that (1, 11) is impassable, and on Turn 120304/120308 proved that (2, 12) and (2, 9) are impassable. Southwest Ladder 6 at (3, 11) leads to a completely isolated dead-end pocket of 14 tiles on 2F West. There is NO ground-level on-foot bypass on 2F West. Thus, our master backtracking route via 1F is indeed the ONLY open progression path to reach the Northwest Ladder (1, 3)! We must continue executing it.
-- **Notepad & Map Hygiene**: Cleaned up desynchronized entries and added the current progress.
-- **Custom Tools & Maintenance**: Verified that `cave_bfs_solver` works flawlessly on both floors, calculating our path on 1F instantly.
-- **Goal Clarity**:
-  - WHAT (Primary): Catch Mewtwo in Cerulean Cave B1F.
-  - WHAT (Secondary): Walk from (7, 1) to Water Ramp 4 at (15, 3).
-  - HOW: Follow the 10-step path: Down, Right x6, Down, Right x2.
-- **Error Analysis**: Avoided the trap of treating local pocket walls as absolute barriers, proving that systematic exploration of bypass corridors (like Column 4/0) reveals hidden pathways.
