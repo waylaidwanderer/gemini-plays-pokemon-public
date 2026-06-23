@@ -8355,6 +8355,16 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
 - Turn 120965: Successfully arrived at (13, 6). Standing at (13, 6). Executing Step 6 (final step) of our systematic testing protocol: pressing UP to test the passability of (13, 5). Expected result: collision bump due to TYPE_2889 label.
 - Turn 120966: Standing at (13, 6). Executing Step 6 (final step) of the testing protocol: pressing UP to test the passability of (13, 5). Expected result: collision bump due to TYPE_2889 label.
 - Turn 120967: Successfully arrived at (13, 6) surfing on the water. We are standing at (13, 6) and are ready to execute Step 6 (the final step) of our systematic Row 5 testing protocol: testing (13, 5) passability by pressing UP. Expected result: collision bump due to TYPE_2889 label on (13, 5). Let's do it!
+- Turn 120969: Step 6 Result: Stood at (13, 6) facing Up and pressed Up. Result was a BUMP collision (Turn 120968), proving (13, 5) is indeed an impassable rock wall of TYPE_2889.
+  - This systematic test of Row 5 on water is now 100% complete and fully verified!
+  - Final Conclusion: All tested water canal tiles on Row 5—specifically (8, 5), (9, 5), (10, 5), (11, 5), (12, 5), and (13, 5)—are completely solid and impassable rock walls of TYPE_2889.
+  - This definitively proves that there is NO water crossover or northern path to Row 5 from Row 6 across Columns 8 to 13.
+  - We must now execute our master path: surf back to Water Ramp 2 at (11, 13) to access Southwest Ladder 6.
+  - We are currently standing at (13, 6) on the water.
+  - Short-Term Path to Water Ramp 2 at (11, 13):
+    1. Surf Left 2 steps from (13, 6) to (11, 6).
+    2. Surf Down 7 steps from (11, 6) to (11, 13) [Water Ramp 2].
+    Let's begin by surfing Left to (12, 6). Expected position: (12, 6).
 
 <hr>
 
