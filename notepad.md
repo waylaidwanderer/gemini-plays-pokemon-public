@@ -8435,7 +8435,13 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
   - On Turn 118905, we stood at (3, 2) and pressed Left to step onto (2, 2). Result: BUMP collision. On Turn 118910, we stood at (3, 3) and pressed Left to step onto (2, 3). Result: BUMP collision. This, combined with Turn 119868 (bumping at (2, 1) from (3, 1)), physically and empirically proves that (2, 1), (2, 2), and (2, 3) are solid rock walls of TYPE_2889. This mathematically and physically proves that 2F West's northern corridor (Component 1) is completely isolated on foot from the western area containing Northwest Ladder (1, 3). So we cannot connect from the upper-central corridor to the western corridors via Row 1 on foot.
   - **Northwest Quadrant Access on Foot - IMPOSSIBLE**: Component 1 and Component 3 of 2F West are completely disconnected on foot via Row 1 because (2, 1), (2, 2), and (2, 3) are verified solid rock walls on foot. Furthermore, the southwest section of 2F West (Component 3) is completely isolated on foot from the Northwest Ladder (1, 3) because Row 10 forms an unbroken horizontal wall of TYPE_2889 across all columns, rendering any on-foot detour completely impossible. Thus, 2F West's southwestern area is a dead-end pocket, and we must transition via 1F to proceed.
 
-- **Column 1 Corridor Passable (Verified Turn 120846)**: Column 1 on 2F West is completely unblocked and fully passable, meaning that Southwest Ladder 6 at (3, 11) can directly reach Northwest Ladder (1, 3) on foot, and Ladder 5 at (9, 1) can also reach Northwest Ladder (1, 3) on foot by looping around the eastern corridor. This is our verified unblocked route to Mewtwo.
+- **Column 1 Corridor Passable (Verified Turn 120846) - DISPROVEN Turn 121123**:
+  - We historically hypothesized that Column 1 was fully passable.
+  - On Turn 121123, we empirically tested this by standing at (2, 11) and attempting to walk Left onto (1, 11) on foot.
+  - Result: BUMP collision, player remained at (2, 11).
+  - This physically and conclusively disproves the Column 1 passable breakthrough. (1, 11) is indeed a solid impassable rock wall of TYPE_2889.
+  - Southwest Ladder 6 at (3, 11) leads strictly to an isolated on-foot pocket of 14 tiles on 2F West. It is a complete dead end with no crossover to Northwest Ladder (1, 3).
+  - The ONLY topologically connected path to reach Northwest Ladder (1, 3) is via the 1F water canals to reach Ladder 5 at (7, 1) in the Northwest isolated quadrant of 1F, which ascends to 2F West at (9, 1). จาก (9, 1), we can loop around the eastern corridor to reach (1, 3) on foot.
 
 ## Row 5 Water Canal Systematic Passability Verification (Turns 120911-120968)
 - Between Turn 120911 and Turn 120968, we systematically tested the passability of the water canal on Row 5 across Columns 8 to 13 by standing on Row 6 facing Up and pressing Up at each column.
