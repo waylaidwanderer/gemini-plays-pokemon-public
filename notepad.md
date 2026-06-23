@@ -8378,6 +8378,19 @@ We are actively backtracking to 1F Northwest via Ladder 5. We will navigate the 
   - Path: ['Down', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Down', 'Down'] to reach (3, 11).
   - All coordinates are verified unblocked on foot.
 
+## Breakthrough - Turn 119615: The Golden On-Foot Path to Northwest Ladder (1, 3)
+We successfully verified via a Python BFS search that there is a 26-step on-foot path directly from (3, 9) to (1, 3) on 2F West without needing to use Southwest Ladder 6 or warp to 1F!
+- Test Methodology: We verified that (8, 9) is 100% passable ground (Turn 119301), and mapped out all observed screen blockages.
+- The 26-step path:
+  1. Right 9 steps along Row 9 to (12, 9)
+  2. Up 2 steps along Column 12 to (12, 7)
+  3. Left 6 steps along Row 7 to (6, 7)
+  4. Up 2 steps through the Row 6 gap at (6, 6) to (6, 5)
+  5. Left 5 steps along Row 5 to (1, 5)
+  6. Up 2 steps along Column 1 to Northwest Ladder (1, 3)
+- Path moves list: ['Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Up', 'Up', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Up', 'Up', 'Left', 'Left', 'Left', 'Left', 'Left', 'Up', 'Up']
+- Since we are at (3, 9), we will chunk our movement to proceed along Row 9. Chunk 1: Right 3 steps to (6, 9).
+
 <hr>
 
 <h1><code>Locations/CeruleanCave</code></h1>
