@@ -8314,6 +8314,7 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
 - Turn 121111: Successfully ascended Southwest Ladder 6 and arrived on 2F West at (3, 11) on foot.
 - Turn 121172: Verified that Southwest Ladder 6 leads to a dead-end on 2F West. Returned to 1F Southwest and successfully navigated back to (15, 16) on foot, preparing to step onto the central platform staircase.
 - Turn 121175: Standing at (17, 14) on foot on the elevated central platform. We will now use cave_bfs_solver to navigate from (17, 14) to Water Ramp 2 at (11, 13).
+- Turn 121182: Backtracked onto the central platform from (17, 14). Interrupted at (12, 12) by a wild Level 49 Venomoth. Fleeing the battle to reach Water Ramp 2 at (11, 13).
 
 <hr>
 
