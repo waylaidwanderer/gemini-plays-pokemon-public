@@ -108,3 +108,4 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
   - Step 6: Stand at (13, 6) and press Up to test (13, 5).
   - This systematic test will definitively confirm or disprove the passability of Row 5 on the water.
 - Turn 120935: Standing at (11, 6). Executing Step 4 of the testing protocol: pressing UP to test the passability of (11, 5). Expected result: collision bump due to TYPE_2889 label.
+- Turn 120938: Step 4 Result: Stood at (11, 6) facing Up and pressed Up. Result was a BUMP collision (Turn 120936), proving (11, 5) is indeed an impassable rock wall of TYPE_2889. Now moving Right to (12, 6) to prepare for Step 5.
