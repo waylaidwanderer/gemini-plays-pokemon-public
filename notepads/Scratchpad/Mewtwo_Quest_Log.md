@@ -59,9 +59,8 @@ The overwatch critique's hypothesis that (2, 12) and (2, 9) are passable cliff m
   - From (1, 15), we visually and physically verified that:
     - (1, 14) is a solid, impassable rock wall of TYPE_2889 (above the player at 1, 15).
     - (0, 15) is a solid, impassable rock wall of TYPE_2889 (to our left).
-    - (2, 14) and (2, 13) are solid rock walls of TYPE_2889, despite (2, 14) carrying a misleading TYPE_3fe2 label in the visual overlay.
-  - This mathematically and physically proves that the southwestern pocket of 2F West (Component 3) has absolutely **no walkable connection** to the northern part of 2F West or Northwest Ladder (1, 3) because of the unbroken horizontal wall of rock on Row 14 across Columns 0-4.
-  - Therefore, the Northwest Ladder (1, 3) on 2F West is indeed **completely physically isolated on foot** from Southwest Ladder 6 at (3, 11).
+    - (2, 14) and (2, 13) are labeled open ground (TYPE_3fe2) in the visual overlay, but they remain unverified visual hypotheses since we have not yet physically stood next to them and tested their passability on foot. We must perform a physical bump test before definitively declaring them passable or impassable.
+  - Therefore, the Northwest Ladder (1, 3) on 2F West remains an unverified on-foot connection from Southwest Ladder 6 at (3, 11).
 
 ## True Path to Northwest Ladder (1, 3) on 2F West:
 - Wait! On Turn 122424, we ran our custom tool `cave_bfs_solver` and it returned an empty list `[]`, indicating that there is no valid on-foot path from our current position to (1, 3) on Map 0_226 with all verified obstacles registered.
