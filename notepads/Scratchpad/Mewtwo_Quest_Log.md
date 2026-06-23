@@ -70,9 +70,4 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
   - We systematically tested the water canal on Row 5 across Columns 8 to 13 by standing on Row 6 facing Up and pressing Up at each column (completed on Turn 120968). All are impassable rock walls of TYPE_2889.
   - Final Conclusion migrated to Locations/CeruleanCave.
 - Turn 120969: Step 6 Result: Stood at (13, 6) facing Up and pressed Up. Result was a BUMP collision (Turn 120968), proving (13, 5) is indeed an impassable rock wall of TYPE_2889. This systematic test of Row 5 on water is now 100% complete and fully verified!
-- Turn 121111: Successfully ascended Southwest Ladder 6 and arrived on 2F West at (3, 11) on foot.
-- Turn 121172: Verified that Southwest Ladder 6 leads to a dead-end on 2F West. Returned to 1F Southwest and successfully navigated back to (15, 16) on foot, preparing to step onto the central platform staircase.
-- Turn 121175: Standing at (17, 14) on foot on the elevated central platform. We will now use cave_bfs_solver to navigate from (17, 14) to Water Ramp 2 at (11, 13).
-- Turn 121182: Backtracked onto the central platform from (17, 14). Interrupted at (12, 12) by a wild Level 49 Venomoth. Fleeing the battle to reach Water Ramp 2 at (11, 13).
-- Turn 121188: Standing at Water Ramp 2 at (11, 13) on foot, facing Down towards the water at (11, 14). We are opening the Start menu to activate Surf.
-- Turn 121218: Currently surfing north along the western water canal at (9, 13), heading towards (9, 7) to cross over to the eastern water canal.
+- **Turn 121260**: Successfully backtracked from Southwest Ladder 6, traversed 1F ground and central platform, activated Surf at Water Ramp 2, and surfed north to (9, 7) on water.
