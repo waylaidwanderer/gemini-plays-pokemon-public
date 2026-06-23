@@ -120,3 +120,4 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
 - Turn 120947: Standing at (11, 6). Pressing Right to step onto (12, 6) for Step 5 of the testing protocol. Expected position: (12, 6).
 - Turn 120948: Standing at (11, 6). Step 5: moving Right to (12, 6) to prepare for testing (12, 5) passability. Let's press Right now. Expected position: (12, 6).
 - Turn 120949: Standing at (11, 6). Pressing Right to step onto (12, 6) for Step 5 of the testing protocol. Expected position: (12, 6).
+- Turn 120951: Successfully reached (12, 6). Standing at (12, 6). Executing Step 5 of the testing protocol: pressing UP to test the passability of (12, 5). Expected result: collision bump due to TYPE_2889 label.
