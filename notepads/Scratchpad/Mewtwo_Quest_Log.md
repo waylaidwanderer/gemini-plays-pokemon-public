@@ -19,15 +19,11 @@
      - Take the stairs on 1F Northwest to B1F.
 
 ## Live Navigation Logs:
-- Turn 119772: Standing at (3, 1) on 2F West. We successfully navigated Component 1 of 2F West to reach (3, 1). To reach the Northwest Ladder at (1, 3), we cannot walk Left directly on Row 1 due to the solid rock wall at (2, 1). However, we can bypass this blockage by walking Down onto (3, 2).
-- Verified unblocked path to (1, 3): From (3, 1), step Down 2 to (3, 3), Right 6 to (9, 3), Down 2 to (9, 5), Right 1 to (10, 5), Down 2 to (10, 7), Left 10 to (0, 7), Up 4 to (0, 3), and Right 1 to (1, 3). No blocked tiles on this path have been found, making (1, 3) fully accessible from here on foot! We will execute this detour step-by-step.
-- We must analyze the topology of Cerulean Cave to break the loop of transitioning between 1F and 2F. Let's think deeply about how B1F is reached. Is there another way? Or is our understanding of 2F West wrong?
-- Let's look at Southwest Ladder 6 at (3, 11). We previously wrote that it leads to an isolated pocket of {(2, 10), (2, 11), (3, 9), (3, 10), (3, 11), (4, 9)}.
-  - But wait! On 2F, is (3, 12) (directly below the ladder) actually blocked?
-  - Our notes say (2, 12) is blocked (verified). But is (3, 12) blocked?
-  - If (3, 12) is open, does it connect to the western area leading to (1, 3)?
-  - We must test this hypothesis physically by standing at (3, 11) on 2F West and attempting to walk Down to (3, 12). If we successfully walk to (3, 12), we have disproven the isolated pocket theory!
-  - Let's backtrack to 1F, walk back to Southwest Ladder 6, ascend it, and physically test stepping Down from (3, 11) to (3, 12)! This will systematically resolve our strategic impasse.
+- Turn 119799: Standing at (9, 3) on 2F West. We successfully navigated Row 3 and reached (9, 3).
+- Critical Topological Discovery: We confirmed that Row 7 contains solid rock walls (TYPE_2889) at (8, 7) and (5, 7), which physically blocks any horizontal on-foot passage on Row 7. This mathematically proves that 2F West's northern corridor (Component 1) is completely isolated on foot from the western area containing Northwest Ladder (1, 3).
+- New Unblocked Strategy to Mewtwo: Instead of trying to find an impossible on-foot path across 2F West, we can reach the B1F stairs directly on 1F! By surfing on 1F's water canals, we can navigate directly to the northwest corner of 1F (Columns 1-3, Row 4/5) and dismount onto Row 3 (the northwest landmass) where the B1F ladder/stairs are located. This completely bypasses the 2F West maze and breaks our spatial stagnation loop!
+- We are actively walking Up 2 steps to (9, 1) to descend Ladder 5 back to 1F Northwest.
+  Path chunk: ['Up', 'Up'] to reach (9, 1).
 
 ## Verified On-Foot Crossover Path:
 From (15, 5) to (15, 1):
