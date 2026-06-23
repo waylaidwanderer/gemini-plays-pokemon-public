@@ -8301,6 +8301,7 @@ And then Left 6 steps to (9, 1) [Ladder 5].
   Chunk: ['Left', 'Down'] to reach (17, 15).
 - Turn 120182: Walked Down, Left, Left from (17, 15) to reach (15, 16) on foot on the ground floor.
 - Turn 120193: Walked Down, Left, Left, Left, Left from (15, 16) to reach (11, 17) on foot on Row 17.
+- Turn 120205: Standing at (3, 17) facing Left. BFS calculated path to (1, 13) wooden staircase is ['Up', 'Up', 'Left', 'Up', 'Left', 'Up']. Executing.
 
 <hr>
 
