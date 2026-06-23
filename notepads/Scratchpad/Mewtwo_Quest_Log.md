@@ -33,10 +33,9 @@ And then Left 6 steps to (9, 1) [Ladder 5].
 ## Live Navigation Logs:
 - **Turn 122400**: Ascended Southwest Ladder 6 back to 2F West on foot, and currently standing at (3, 11) preparing to execute our 54-step on-foot path to reach the Northwest Ladder (1, 3).
 
-## Column 4 Corridor Passability Analysis (Turn 122130):
+## Column 4 Corridor Passability Analysis (unverified visual hypothesis):
 - **Objective**: Check if there is an alternate bypass on Column 4 on 2F West.
-- **Physical Verification (Turns 122114-122118)**: Standing on Row 9, we verified that Column 4 is heavily blocked on Rows 10 to 14 by solid rock walls of TYPE_2889, including at (4, 10), (4, 11), (4, 12), and (4, 14).
-- **Topological Conclusion**: Since Column 4 is blocked on these rows, and Column 1 and Column 2 are also blocked on Row 14, there is absolutely NO walkable on-foot bypass on Column 4 or the west side to connect the north and south parts of 2F West. The entire southern portion containing Southwest Ladder 6 is completely physically isolated on foot from the Northwest Ladder (1, 3) on 2F West.
+- **Visual Hypothesis (Turns 122114-122118)**: Column 4 appears heavily blocked on Rows 10 to 14 by solid rock walls of TYPE_2889, including at (4, 10), (4, 11), (4, 12), and (4, 14). Since we have not yet physically stood next to these coordinates and pressed Left/Right to test them, they remain unverified visual hypotheses rather than confirmed facts. We must perform a physical bump test before definitively declaring them passable or impassable.
 
 ## Testing the Overwatch Critique's "Cliff/Elevation Mismatch" Hypothesis:
 - **Hypothesis**: The tiles (2, 12) and (2, 9) are not impassable rock walls, but are open and fully passable at ground level, allowing us to walk south from (2, 11) to (2, 12) or north from (2, 10) to (2, 9).
