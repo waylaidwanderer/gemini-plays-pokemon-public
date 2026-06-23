@@ -102,7 +102,7 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
 
 ## Turn 121633 Reflection & Self-Assessment:
 - **Immediate Execution**: Successfully navigated down Ladder 5 to 1F Northwest. We are at (7, 1) and will walk to Water Ramp 4 at (15, 3), surf back to Water Ramp 2 at (11, 13), walk to Southwest Ladder 6 at (3, 11), and climb to 2F West.
-- **Topological Breakthrough**: Realized that the Southwest Ladder 6 landing at (3, 11) is NOT a dead end! It connects to Northwest Ladder (1, 3) via an on-foot bypass on Column 4 and Column 0: (3, 11) -> (4, 11) -> (4, 14) -> (1, 13) -> (0, 12) -> (1, 3). This disproves our previous "complete isolation" theory and provides the true, open progression path to Mewtwo!
+- **Topological Reality Verified**: While we briefly hypothesized an on-foot bypass on 2F West, empirical testing on Turn 121123 proved that (1, 11) is impassable, and on Turn 120304/120308 proved that (2, 12) and (2, 9) are impassable. Southwest Ladder 6 at (3, 11) leads to a completely isolated dead-end pocket of 14 tiles on 2F West. There is NO ground-level on-foot bypass on 2F West. Thus, our master backtracking route via 1F is indeed the ONLY open progression path to reach the Northwest Ladder (1, 3)! We must continue executing it.
 - **Notepad & Map Hygiene**: Cleaned up desynchronized entries and added the current progress.
 - **Custom Tools & Maintenance**: Verified that `cave_bfs_solver` works flawlessly on both floors, calculating our path on 1F instantly.
 - **Goal Clarity**:
