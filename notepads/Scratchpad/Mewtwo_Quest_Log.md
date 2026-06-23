@@ -70,7 +70,7 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
   - We systematically tested the water canal on Row 5 across Columns 8 to 13 by standing on Row 6 facing Up and pressing Up at each column (completed on Turn 120968). All are impassable rock walls of TYPE_2889.
   - Final Conclusion migrated to Locations/CeruleanCave.
 - Turn 120969: Step 6 Result: Stood at (13, 6) facing Up and pressed Up. Result was a BUMP collision (Turn 120968), proving (13, 5) is indeed an impassable rock wall of TYPE_2889. This systematic test of Row 5 on water is now 100% complete and fully verified!
-- Turn 121518: Descending Southwest Ladder 6 back to 1F Southwest, currently at (3, 10) on 2F West preparing to step Down onto the ladder at (3, 11). Our empirical test confirmed that the southwest pocket of 2F West is indeed completely isolated on foot from Column 0 and the rest of 2F West, meaning we must continue our master backtracking route via 1F to reach Northwest Ladder (1, 3).
+- Turn 121530: Backtracked from 2F West via Southwest Ladder 6 to 1F Southwest, currently standing at (1, 11) on foot preparing to walk Down to (1, 15) to perform the Column 0 empirical test.
 
 ## Column 0 Passability Empirical Test Plan on 2F West:
 - **Hypothesis**: Column 0 on 2F West is an open vertical corridor allowing vertical movement, or it is a solid rock boundary wall of TYPE_2889.
