@@ -8294,8 +8294,7 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
   - Final Conclusion migrated to Locations/CeruleanCave.
 - Turn 120969: Step 6 Result: Stood at (13, 6) facing Up and pressed Up. Result was a BUMP collision (Turn 120968), proving (13, 5) is indeed an impassable rock wall of TYPE_2889. This systematic test of Row 5 on water is now 100% complete and fully verified!
 - **Turn 121320**: Successfully returned to 2F West on foot, currently positioned at (4, 1).
-- Turn 121380: Disproved the eastern detour on foot due to solid rock walls at Column 10. Backtracking to Ladder 5 at (9, 1) on foot from (13, 1).
-- Turn 121399: Escaped from wild Chansey at (4, 3). Resuming backtrack to Ladder 5 at (9, 1) on foot from (4, 3).
+- Turn 121410: Successfully descended Ladder 5 to 1F Northwest at (7, 1). Verified that 1F Northwest is completely isolated on foot from B1F stairs, and we must walk to Water Ramp 4 at (15, 3) to Surf to Southwest Ladder 6.
 
 <hr>
 
