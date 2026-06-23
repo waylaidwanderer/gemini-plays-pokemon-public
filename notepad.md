@@ -8324,7 +8324,7 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
 - **Active Testing Protocol**:
   - We will test if we can access Row 5 from Row 6 across Columns 8 to 13.
   - Step 1: Stand at (8, 6) and press Up to test (8, 5) (BUMPED on Turn 120911).
-  - Step 2: Stand at (9, 6) and press Up to test (9, 5).
+  - Step 2: Stand at (9, 6) and press Up to test (9, 5) (BUMPED on Turn 120918).
   - Step 3: Stand at (10, 6) and press Up to test (10, 5).
   - Step 4: Stand at (11, 6) and press Up to test (11, 5).
   - Step 5: Stand at (12, 6) and press Up to test (12, 5).
