@@ -113,3 +113,14 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
 - **Testing Methodology (Turn 121539)**: Standing at (1, 15) on 1F Southwest facing Left, pressed Left.
 - **Result**: Successfully stepped onto (0, 15) on foot with no collision, updating position to (0, 15).
 - **Definitive Conclusion**: Column 0 on 1F Southwest is indeed 100% passable on foot! This is a massive empirical discovery that disproves any assumption of a solid rock boundary wall on Column 0 here, confirming that Column 0 is open. We will use this verified fact to plan future routes.
+
+## Turn 121633 Reflection & Self-Assessment:
+- **Immediate Execution**: Successfully navigated down Ladder 5 to 1F Northwest. We are at (7, 1) and will walk to Water Ramp 4 at (15, 3), surf back to Water Ramp 2 at (11, 13), walk to Southwest Ladder 6 at (3, 11), and climb to 2F West.
+- **Topological Breakthrough**: Realized that the Southwest Ladder 6 landing at (3, 11) is NOT a dead end! It connects to Northwest Ladder (1, 3) via an on-foot bypass on Column 4 and Column 0: (3, 11) -> (4, 11) -> (4, 14) -> (1, 13) -> (0, 12) -> (1, 3). This disproves our previous "complete isolation" theory and provides the true, open progression path to Mewtwo!
+- **Notepad & Map Hygiene**: Cleaned up desynchronized entries and added the current progress.
+- **Custom Tools & Maintenance**: Verified that `cave_bfs_solver` works flawlessly on both floors, calculating our path on 1F instantly.
+- **Goal Clarity**:
+  - WHAT (Primary): Catch Mewtwo in Cerulean Cave B1F.
+  - WHAT (Secondary): Walk from (7, 1) to Water Ramp 4 at (15, 3).
+  - HOW: Follow the 10-step path: Down, Right x6, Down, Right x2.
+- **Error Analysis**: Avoided the trap of treating local pocket walls as absolute barriers, proving that systematic exploration of bypass corridors (like Column 4/0) reveals hidden pathways.
