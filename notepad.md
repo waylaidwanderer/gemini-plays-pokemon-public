@@ -8254,36 +8254,12 @@ And then Left 6 steps to (9, 1) [Ladder 5].
 - **Turns 119726 to 119814**: Attempted to bypass the 2F West Row 8/10 wall blockages on foot, confirming that Row 7 contains solid walls that block the horizontal on-foot path between the (9, 1) ladder and the (1, 3) Northwest Ladder on 2F West. This physically disproves the 2F West on-foot detour, forcing us to explore the 1F Northwest Surf/dismount path. Backtracked to (9, 1) and descended Ladder 5 to return to 1F Northwest at (7, 1).
 
 ## Live Navigation Logs:
-- **Turn 122581**: Surfed from Water Ramp 2 to Water Ramp 4, climbed Ladder 5 to 2F West on foot, walked to (5, 1), and currently preparing to walk to (3, 1) to physically test Column 2's passability from the east.
+- **Turn 122584**: Standing on foot at (5, 1) on Map 0_226 (2F West), preparing to walk to (3, 1) to investigate a potential physical on-foot path to (1, 3). We will systematically test passability rather than making unverified visual assumptions.
 
-## Column 4 Corridor Passability Analysis (unverified visual hypothesis):
-- **Objective**: Check if there is an alternate bypass on Column 4 on 2F West.
-- **Visual Hypothesis (Turns 122114-122118)**: Column 4 appears heavily blocked on Rows 10 to 14 by solid rock walls of TYPE_2889, including at (4, 10), (4, 11), (4, 12), and (4, 14). Since we have not yet physically stood next to these coordinates and pressed Left/Right to test them, they remain unverified visual hypotheses rather than confirmed facts. We must perform a physical bump test before definitively declaring them passable or impassable.
-
-## Testing the Overwatch Critique's "Cliff/Elevation Mismatch" Hypothesis:
-- **Hypothesis**: The tiles (2, 12) and (2, 9) are not impassable rock walls, but are open and fully passable at ground level, allowing us to walk south from (2, 11) to (2, 12) or north from (2, 10) to (2, 9).
-- **Test 1 Method (Turn 120304)**: Standing at (2, 11), press DOWN to attempt to step onto (2, 12).
-- **Expected Result if Critique is Correct**: We successfully step onto (2, 12), and our position becomes (2, 12).
-- **Expected Result if Critique is Wrong (Vanilla Gen 1)**: We bump and remain at (2, 11).
-- **Test 1 Result (Turn 120304)**: Attempted to step DOWN from (2, 11) to (2, 12). Result was a BUMP collision with zero coordinate change (player remained at 2, 11). This empirically disproves the critique's hypothesis for (2, 12). (2, 12) is 100% physically a solid, impassable rock wall of TYPE_2889.
-
-- **Test 2 Method (Turn 120308)**: Standing at (2, 10), press UP to attempt to step onto (2, 9).
-- **Expected Result if Critique is Correct**: We successfully step onto (2, 9), and our position becomes (2, 9).
-- **Expected Result if Critique is Wrong (Vanilla Gen 1)**: We bump and remain at (2, 10).
-- **Test 2 Result (Turn 120308)**: Attempted to step UP from (2, 10) to (2, 9). Result was a BUMP collision with zero coordinate change (player remained at 2, 10). This empirically disproves the critique's hypothesis for (2, 9). (2, 9) is 100% physically a solid, impassable rock wall of TYPE_2889.
-
-## Final Conclusion on the Overwatch Critique's Hypothesis:
-The overwatch critique's hypothesis that (2, 12) and (2, 9) are passable cliff mismatches at ground level is completely **DISPROVED** by empirical testing (Turns 120304 and 120308). Both tiles are standard solid rock walls of TYPE_2889. There is **NO** ground-level on-foot path between Southwest Ladder 6 at (3, 11) and Northwest Ladder (1, 3) on 2F West. The two components are completely physically isolated.
-
-## Physical Verification of the West-Side Blockage (Turns 122164-122170):
-- **Hypothesis**: We can reach Northwest Ladder (1, 3) on foot on 2F West from the south side (Row 17) via Column 1 or Column 2.
-- **Verification Tests**:
-  - On Turn 122164, we attempted to navigate north to the Northwest Ladder and ended up at (1, 15).
-  - From (1, 15), we visually and physically verified that:
-    - (1, 14) is a solid, impassable rock wall of TYPE_2889 (above the player at 1, 15).
-    - (0, 15) is a solid, impassable rock wall of TYPE_2889 (to our left).
-    - (2, 14) and (2, 13) are labeled open ground (TYPE_3fe2) in the visual overlay, but they remain unverified visual hypotheses since we have not yet physically stood next to them and tested their passability on foot. We must perform a physical bump test before definitively declaring them passable or impassable.
-  - Therefore, the Northwest Ladder (1, 3) on 2F West remains an unverified on-foot connection from Southwest Ladder 6 at (3, 11).
+## Consolidated Passability Analyses:
+- Visually, Y=4 has solid rock walls (TYPE_2889) on Columns 1-8. Column 2 has solid rock walls (TYPE_2889) on Rows 1-3. 
+- However, Column 1 has open tiles at (1, 2) and (1, 3), and Row 5 is open from Column 1 to Column 7. If there is any unverified opening on Row 4 or Column 2, or if we can cross Column 2 on foot, we can reach (1, 3).
+- Our active priority is to walk to (3, 1) and attempt to step Left onto (2, 1) to physically verify its collision. If blocked, we will test (3, 2) -> (2, 2) and (3, 3) -> (2, 3) to conclusively verify the Column 2 barrier. We will also test Row 4 Column 1 (1, 4) from (1, 5) if we can navigate there. This strictly satisfies the Burden of Proof.
 
 ## True Path to Northwest Ladder (1, 3) on 2F West:
 - Wait! On Turn 122424, we ran our custom tool `cave_bfs_solver` and it returned an empty list `[]`, indicating that there is no valid on-foot path from our current position to (1, 3) on Map 0_226 with all verified obstacles registered.
