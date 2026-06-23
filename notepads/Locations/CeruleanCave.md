@@ -102,7 +102,7 @@
 - **Column 2 Row 1-3 Blockage**: Disproven the previous unverified walkthrough note. On Turn 118305, we stood at (3, 1) and pressed Left to step onto (2, 1). Result: BUMP collision, physically proving that (2, 1) is a solid rock wall of TYPE_2889. This mathematically and physically proves that 2F West's northern corridor (Component 1) is completely isolated on foot from the western area containing Northwest Ladder (1, 3).
   - **Column 2 Row 2-3**: Solid rock walls of TYPE_2889.
   - **Column 2 Row 9 (Verified Turn 119478)**: Empirically and physically tested on Turn 119478. Stood at (3, 9) facing Left and pressed Left to test (2, 9) passability. Result: BUMP collision with zero coordinate change, remaining at (3, 9). This physically proves that (2, 9) is a solid, impassable wall of TYPE_2889.
-  - **Column 2 Row 12 (Pending On-Foot Verification)**: Labeled as TYPE_2889 in RAM data; pending physical testing from the south.
+- **Column 2 Row 12 (Verified Turn 119497)**: Labeled as TYPE_2889 in RAM data; standing at (2, 11) facing Down, we pressed Down and collided with (2, 12) with zero coordinate change, proving it is a solid impassable rock wall on 2F West.
   - **Column 4 Row 4 Blockage**: Verified on Turn 115017 that standing at (4, 3) and attempting to walk Down results in a collision bump, proving (4, 4) is a solid rock wall of TYPE_2889.
   - **Column 5 Row 4 Blockage**: Verified on Turn 115032 that standing at (5, 3) and attempting to walk Down results in a collision bump, proving (5, 4) is a solid rock wall of TYPE_2889.
   - **Column 6 Row 4 Blockage**: Verified on Turn 115040 that standing at (6, 3) and attempting to walk Down results in a collision bump, proving (6, 4) is a solid rock wall of TYPE_2889.
