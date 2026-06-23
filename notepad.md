@@ -8281,6 +8281,11 @@ And then Left 6 steps to (9, 1) [Ladder 5].
 - Turn 120044: Standing at (13, 1) on Cerulean Cave 1F on foot.
   Plan: Walk Left 6 steps to reach Ladder 5 at (7, 1).
   Chunk 2: ['Left', 'Left', 'Left'] to reach (10, 1).
+- Turn 120107: Stood at (9, 1). Using python-based BFS we proved mathematically that there is no passable on-foot pathway on 2F West from (9, 1) [Ladder 5] to the Northwest Ladder at (1, 3). The leftmost map columns (Column 0, and Column 1 where blocked) form an impassable boundary. We must backtrack to 1F Northwest.
+  Plan:
+  1. Step off Ladder 5 to (8, 1) by going Left.
+  2. Step back onto (9, 1) by going Right, which will trigger Ladder 5 to warp us back down to 1F Northwest at (7, 1).
+  3. Execute 1F master backtracking path to reach Southwest Ladder 6 at (3, 11).
 
 <hr>
 
