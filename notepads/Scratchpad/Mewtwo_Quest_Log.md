@@ -33,6 +33,18 @@ And then Left 6 steps to (9, 1) [Ladder 5].
 ## Live Navigation Logs:
 - **Turn 121710**: Navigated back to 2F West via Ladder 5, walked to (13, 9) on foot, and confirmed that the eastern corridor has no on-foot vertical path down to Row 13 due to solid rock walls at Y=6 and Y=7. Currently preparing to backtrack to Southwest Ladder 6.
 
+## Column 4 Corridor Passability Analysis (Turn 121712):
+- **Objective**: Check if there is an alternate bypass on Column 4 on 2F West.
+- **Visual Check (Turn 121712)**: Looking at <CurrentScreen turn="121712">, we can see:
+  - (13, 9) is us (the player sprite).
+  - Column 4 is located far to our Left (off-screen here, but we walked past Column 4 earlier).
+  - Wait, let's analyze if Column 4 is open:
+    - On Turn 121690, we verified that Column 4 has rock walls of TYPE_2889 on Row 8, 10, 11, 12, 13, and 14!
+    - So Column 4 is heavily blocked on 2F West.
+- **Topological Conclusion**: There is indeed NO Column 4 bypass corridor that connects the north and south on 2F West. The entire width of 2F West is blocked by an unbroken horizontal wall of rock on Row 10/11 (separating Component 1/North from Component 3/South).
+- Therefore, our conclusion that the Northwest Ladder (1, 3) is isolated on 2F West is 100% correct.
+- Since we also established that (7, 1) and (1, 3) are connected on 1F Northwest on foot, let's backtrack to Ladder 5 at (9, 1) on 2F West and return to 1F Northwest. Once on 1F Northwest, we will follow the unblocked 58-step path on foot across 1F ground and the southwest plateau to reach the Northwest Ladder (1, 3) on 1F. This is our active strategy.
+
 ## Testing the Overwatch Critique's "Cliff/Elevation Mismatch" Hypothesis:
 - **Hypothesis**: The tiles (2, 12) and (2, 9) are not impassable rock walls, but are open and fully passable at ground level, allowing us to walk south from (2, 11) to (2, 12) or north from (2, 10) to (2, 9).
 - **Test 1 Method (Turn 120304)**: Standing at (2, 11), press DOWN to attempt to step onto (2, 12).
