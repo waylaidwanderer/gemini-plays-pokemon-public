@@ -8262,18 +8262,12 @@ And then Left 6 steps to (9, 1) [Ladder 5].
 - **Turns 119726 to 119814**: Attempted to bypass the 2F West Row 8/10 wall blockages on foot, confirming that Row 7 contains solid walls that block the horizontal on-foot path between the (9, 1) ladder and the (1, 3) Northwest Ladder on 2F West. This physically disproves the 2F West on-foot detour, forcing us to explore the 1F Northwest Surf/dismount path. Backtracked to (9, 1) and descended Ladder 5 to return to 1F Northwest at (7, 1).
 
 ## Live Navigation Logs:
-- Turn 120508: Currently at (11, 6) on 1F surfing on water, facing Down.
+- Turn 120525: Currently at (11, 13) on 1F standing on Water Ramp 2 in Surf form, facing Up.
 - Active Plan:
-  We have empirically and physically proven that the "1F Northwest Surf/dismount shortcut" is completely geographically impossible!
-  - Columns 7 to 13 on Rows 4 and 5 are completely filled with solid rock walls of TYPE_2889.
-  - Column 7 on Rows 6 to 10 is completely solid rock wall of TYPE_2889.
-  - This blocks the water canal from going west of Column 8 on Rows 4, 5, 6, and 7!
-  - Therefore, the water canal does not connect to the northwest, and we must proceed with our original plan of using the 2F West ladder route via Southwest Ladder 6 at (3, 11).
-  Backtracking Path to Water Ramp 2 (11, 13):
-  1. Surf Left 2 steps to (9, 6).
-  2. Surf Down 7 steps to (9, 13) via Column 9.
-  3. Surf Right 2 steps to (11, 13) [Water Ramp 2].
-  Currently executing step 1 and 2 to reach (9, 10) using chunk: ['Left', 'Left', 'Down', 'Down', 'Down', 'Down'].
+  We are dismounting UP onto land at (11, 12).
+  From there, we will follow our unblocked on-foot path to Southwest Ladder 6 at (3, 11) on 1F Southwest:
+  (11, 12) -> (11, 13) -> (11, 14) -> (11, 15) -> (11, 16) -> (10, 16) -> (9, 16) -> (8, 16) -> (7, 16) -> (7, 15) -> (7, 14) -> (7, 13) -> (7, 12) -> (7, 11) -> (6, 11) -> (5, 11) -> (4, 11) -> (3, 11).
+  Currently executing dismount by pressing Up.
 
 ## Testing the Overwatch Critique's "Cliff/Elevation Mismatch" Hypothesis:
 - **Hypothesis**: The tiles (2, 12) and (2, 9) are not impassable rock walls, but are open and fully passable at ground level, allowing us to walk south from (2, 11) to (2, 12) or north from (2, 10) to (2, 9).
