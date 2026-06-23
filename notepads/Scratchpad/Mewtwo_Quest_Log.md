@@ -105,3 +105,5 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
   2. Walk Down to (17, 16) on the ground level.
   3. Navigate from (17, 16) to the wooden staircase at (1, 13).
   We will now execute Step 1.
+- Turn 121076: Standing at (15, 16). Since the built-in cave_bfs_solver returned a path through a solid wall, we will navigate manually in safe chunks.
+  We will take 1 step Down to (15, 17) and 4 steps Left to (11, 17) along the verified passable Row 17 ground level corridor.
