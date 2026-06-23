@@ -39,8 +39,8 @@ And then Left 6 steps to (9, 1) [Ladder 5].
 - **Turns 119726 to 119814**: Attempted to bypass the 2F West Row 8/10 wall blockages on foot, confirming that Row 7 contains solid walls that block the horizontal on-foot path between the (9, 1) ladder and the (1, 3) Northwest Ladder on 2F West. This physically disproves the 2F West on-foot detour, forcing us to explore the 1F Northwest Surf/dismount path. Backtracked to (9, 1) and descended Ladder 5 to return to 1F Northwest at (7, 1).
 
 ## Live Navigation Logs:
-- **Turn 120851**: Standing at (12, 1) on foot on 1F ground floor.
-- **Active Plan**: Walk Left 5 steps to reach Ladder 5 at (7, 1) and ascend to 2F West. From (9, 1) on 2F West, we will use our updated cave_bfs_solver to pathfind directly to the Northwest Ladder (1, 3) using the fully open Column 1 corridor. This is our unblocked path to Mewtwo!
+- **Turn 120904**: Standing on Water Ramp 4 at (15, 3) on foot, preparing to Surf.
+- **Active Plan**: Activate Surf and navigate to (8, 4) and (8, 5) to physically test if Column 7 is a passable water channel to the northwest quadrant. If yes, surf directly to the northwest landmass to reach the B1F stairs. If blocked, surf to Water Ramp 2 at (11, 13) to reach Southwest Ladder 6.
 - Post-Game Cerulean Cave Exploration Start: Turn 111394. Timestamp: Sunday, June 21, 2026 at 9:15 PM PDT.
 
 ## Testing the Overwatch Critique's "Cliff/Elevation Mismatch" Hypothesis:
