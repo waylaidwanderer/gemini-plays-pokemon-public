@@ -8262,7 +8262,7 @@ And then Left 6 steps to (9, 1) [Ladder 5].
 - **Turns 119726 to 119814**: Attempted to bypass the 2F West Row 8/10 wall blockages on foot, confirming that Row 7 contains solid walls that block the horizontal on-foot path between the (9, 1) ladder and the (1, 3) Northwest Ladder on 2F West. This physically disproves the 2F West on-foot detour, forcing us to explore the 1F Northwest Surf/dismount path. Backtracked to (9, 1) and descended Ladder 5 to return to 1F Northwest at (7, 1).
 
 ## Live Navigation Logs:
-- Turn 120781: Surfing at (11, 14) on 1F water. Heading north and west to Column 8, Row 4/5, to physically test if Column 7 is a passable water channel to the northwest quadrant.
+- Turn 120804: Surfing at (9, 10) on 1F water. Heading north and west to Column 8, Row 4/5, to physically test if Column 7 is a passable water channel to the northwest quadrant.
 - Active Plan: Surf to (8, 5) and try to surf Left into Column 7. If passable, surf to the northwest landmass to dismount and take Ladder 5 to 2F. If blocked, proceed to Water Ramp 4 at (15, 3) to dismount and take Ladder 5 to 2F.
 - Post-Game Cerulean Cave Exploration Start: Turn 111394. Timestamp: Sunday, June 21, 2026 at 9:15 PM PDT.
 
