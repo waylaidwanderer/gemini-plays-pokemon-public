@@ -8256,7 +8256,7 @@ And then Left 6 steps to (9, 1) [Ladder 5].
 ## Live Navigation Logs:
 - **Turn 121770**: Backtracked along Row 17 bypass on 1F, successfully reached the stairs at (17, 15), and currently standing on the stairs on the central platform preparing to walk to Water Ramp 2 at (11, 13).
 - **Turn 121786**: Successfully walked from (17, 15) to Water Ramp 2 at (11, 13) on foot, encountering a wild Hypno on step 6 at (11, 12), and now standing at (11, 13) on foot on the water ramp, preparing to use SURF.
-- **Turn 121834**: Ascended Ladder 5 to 2F West at (9, 1) on foot, confirmed that (1, 3) is isolated from (9, 1) via Component 1, and currently standing at (9, 1) preparing to backtrack to Southwest Ladder 6 to test the Column 4/0 bypass corridor.
+- **Turn 121860**: Walked Left from (9, 1) to (3, 1), walked Down to (3, 3), and attempted to walk Right to (11, 3) but got blocked by a solid rock wall at (10, 3). Currently standing at (9, 3) on foot.
 
 ## Column 4 Corridor Passability Analysis (Turn 121712):
 - **Objective**: Check if there is an alternate bypass on Column 4 on 2F West.
