@@ -8254,14 +8254,12 @@ And then Left 6 steps to (9, 1) [Ladder 5].
 - **Turns 119726 to 119814**: Attempted to bypass the 2F West Row 8/10 wall blockages on foot, confirming that Row 7 contains solid walls that block the horizontal on-foot path between the (9, 1) ladder and the (1, 3) Northwest Ladder on 2F West. This physically disproves the 2F West on-foot detour, forcing us to explore the 1F Northwest Surf/dismount path. Backtracked to (9, 1) and descended Ladder 5 to return to 1F Northwest at (7, 1).
 
 ## Live Navigation Logs:
-- **Turn 122190**: Backtracked from the 2F West isolated western pocket on foot, descended Southwest Ladder 6 to 1F, and currently standing at (3, 12) on Map 0_228, preparing to walk on foot to the central platform stairs at (17, 15).
+- **Turn 122220**: Backtracked along our master route via 1F water canals, surfed from Water Ramp 2 to Water Ramp 4 at (15, 3), successfully dismounted on foot to (15, 2), and currently preparing to walk on foot to Ladder 5 at (7, 1) to ascend back to 2F West.
 
 ## Column 4 Corridor Passability Analysis (Turn 122130):
 - **Objective**: Check if there is an alternate bypass on Column 4 on 2F West.
-- **Physical Verification (Turns 121901-121913)**: Standing on Row 9, we verified that Column 4 on Rows 8 to 15 is completely open and passable on foot, while (4, 2) and (4, 4) are solid rock walls of TYPE_2889.
-- **Topological Discovery**: While Row 10/11 has solid rock wall blockages from Column 4 to Column 11, Column 12 is a completely open 1-tile wide vertical passage.
-- **Result**: We can navigate from Southwest Ladder 6 at (3, 11) horizontally along Row 9, down Column 12 to Row 15, and bypass the rock walls by looping around Row 16 to access the west side.
-- **Direct Connection Verified**: This proves that Northwest Ladder (1, 3) is NOT isolated on 2F West, and we can walk directly from Southwest Ladder 6 at (3, 11) to Northwest Ladder (1, 3) completely on foot without backtracking to 1F! This is a major structural layout discovery that completely simplifies our progression to Mewtwo.
+- **Physical Verification (Turns 122114-122118)**: Standing on Row 9, we verified that Column 4 is heavily blocked on Rows 10 to 14 by solid rock walls of TYPE_2889, including at (4, 10), (4, 11), (4, 12), and (4, 14).
+- **Topological Conclusion**: Since Column 4 is blocked on these rows, and Column 1 and Column 2 are also blocked on Row 14, there is absolutely NO walkable on-foot bypass on Column 4 or the west side to connect the north and south parts of 2F West. The entire southern portion containing Southwest Ladder 6 is completely physically isolated on foot from the Northwest Ladder (1, 3) on 2F West.
 
 ## Testing the Overwatch Critique's "Cliff/Elevation Mismatch" Hypothesis:
 - **Hypothesis**: The tiles (2, 12) and (2, 9) are not impassable rock walls, but are open and fully passable at ground level, allowing us to walk south from (2, 11) to (2, 12) or north from (2, 10) to (2, 9).
