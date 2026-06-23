@@ -8263,8 +8263,9 @@ And then Left 6 steps to (9, 1) [Ladder 5].
 
 ## Live Navigation Logs:
 - Turn 120598: Successfully dismounted at (11, 12) and walked on foot via stairs to ground level at (17, 16).
-- Turn 120625: Embarked on water-canal empirical test. Surfed to (8, 8) and visually verified that Column 7 on Rows 4-12 consists of solid rock walls (TYPE_2889). This mathematically and physically disproves the overwatch critique's "1F Northwest Surf/dismount shortcut" hypothesis. The water canal is blocked at Column 7, and cannot reach the northwest landmass.
-- Active Plan: Since the shortcut is disproved, the backtracking route via Southwest Ladder 6 at (3, 11) is 100% mandatory. We will surf south back to Water Ramp 2 at (11, 13), dismount at (11, 12) on foot, walk to the stairs at (17, 15) to descend to ground level at (17, 16), walk across ground level to (1, 14), climb stairs at (1, 13) to the southwest plateau at (1, 12), and climb Southwest Ladder 6 at (3, 11).
+- Turn 120625: Embarked on water-canal empirical test. Surfed to (8, 8) and visually verified that Column 7 on Rows 4-12 consists of solid rock walls (TYPE_2889). This disproved the 1F Northwest Surf shortcut.
+- Turn 120651: Surfed back to (11, 14), dismounted at (11, 12) on foot. Walked to (18, 14) on the central platform on foot on our way to the stairs.
+- Active Plan: Descend the stairs at (17, 15) to ground level (17, 16), walk across ground level to (1, 14), climb stairs at (1, 13) to (1, 12) on the southwest plateau, and climb Southwest Ladder 6 at (3, 11).
 
 ## Testing the Overwatch Critique's "Cliff/Elevation Mismatch" Hypothesis:
 - **Hypothesis**: The tiles (2, 12) and (2, 9) are not impassable rock walls, but are open and fully passable at ground level, allowing us to walk south from (2, 11) to (2, 12) or north from (2, 10) to (2, 9).
