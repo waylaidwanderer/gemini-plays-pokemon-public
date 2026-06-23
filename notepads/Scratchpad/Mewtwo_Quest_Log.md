@@ -56,3 +56,6 @@ And then Left 6 steps to (9, 1) [Ladder 5].
 - Turn 120042: Standing at (15, 3) on Cerulean Cave 1F on foot after dismounting onto Water Ramp 4.
   Plan: Walk Up 2 to (15, 1), then Left 8 to reach Ladder 5 at (7, 1) to ascend to 2F.
   Chunk 1: ['Up', 'Up', 'Left', 'Left'] to reach (13, 1).
+- Turn 120044: Standing at (13, 1) on Cerulean Cave 1F on foot.
+  Plan: Walk Left 6 steps to reach Ladder 5 at (7, 1).
+  Chunk 2: ['Left', 'Left', 'Left'] to reach (10, 1).
