@@ -8294,6 +8294,7 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
   - Final Conclusion migrated to Locations/CeruleanCave.
 - Turn 120969: Step 6 Result: Stood at (13, 6) facing Up and pressed Up. Result was a BUMP collision (Turn 120968), proving (13, 5) is indeed an impassable rock wall of TYPE_2889. This systematic test of Row 5 on water is now 100% complete and fully verified!
 - **Turn 121320**: Successfully returned to 2F West on foot, currently positioned at (4, 1).
+- Turn 121336: Currently at (4, 1) on 2F West. We verified that (4, 2) is a solid rock wall, so direct movement south is blocked. We will follow a validated detour of 11 buttons to reach (9, 5): Left, Down, Down, Right, Right, Right, Right, Right, Right, Down, Down. Let's execute this.
 
 <hr>
 
