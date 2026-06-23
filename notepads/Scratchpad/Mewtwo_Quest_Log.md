@@ -43,3 +43,13 @@ And then Left 6 steps to (9, 1) [Ladder 5].
 - Goal: Walk Right on Row 1 to reach Water Ramp 4 at (15, 3), enter the water to SURF, navigate Left along the water canal, and dismount directly onto 1F Northwest to reach B1F!
 - Current position: (7, 1) facing Down. Path: Right 8 steps to (15, 1), then Down 2 steps to (15, 3).
   Path chunk 1: ['Right', 'Right', 'Right', 'Right'] to reach (11, 1).
+
+## Hypothesis: (2, 1) Passability Test (Turn 119862 Plan)
+- **Hypothesis**: Column 2 Row 1 (2, 1) is a passable overworld tile on 2F West. If true, the top corridor along Row 1 is a continuous on-foot pathway connecting (9, 1) [Ladder 5] directly to (1, 1) and the Northwest Ladder (1, 3), meaning there is no isolation between Component 1 and Component 3!
+- **Testing Method**:
+  1. Backtrack to (3, 1) on foot on 2F West.
+  2. Face Left (West) towards (2, 1).
+  3. Attempt to step Left onto (2, 1) on foot.
+  4. Record the outcome (coordinate change to (2, 1) or a collision bump remaining at (3, 1)) on Turn 119865.
+- **Results**: TBD.
+- **Conclusion**: TBD.
