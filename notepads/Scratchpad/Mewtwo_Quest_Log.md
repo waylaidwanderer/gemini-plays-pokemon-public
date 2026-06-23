@@ -161,3 +161,7 @@ We are actively backtracking to 1F Northwest via Ladder 5. We will navigate the 
     4. Walk Right along the Row 17 corridor to reach the central platform stairs at (17, 15)
     5. Navigate north and west across the central platform to (11, 13) Water Ramp 2
   - Turn 119689: Standing at (15, 17) on 1F Southwest facing Right. Currently executing fourth chunk: walk Right 1, Up 1, Right 1, Up 1 to reach the central platform stairs at (17, 15). Path: ['Right', 'Up', 'Right', 'Up'].
+  - Turn 119693: Standing at (17, 15) on 1F central platform facing Up.
+    - Active goal: Navigate to Water Ramp 2 at (11, 13) to Surf.
+    - Planned path on foot: ['Up', 'Left', 'Left', 'Up', 'Up', 'Left', 'Left', 'Left', 'Left', 'Down'] to reach (11, 13).
+    - Executing first chunk of path: ['Up', 'Left', 'Left', 'Up', 'Up'] to reach (15, 12).
