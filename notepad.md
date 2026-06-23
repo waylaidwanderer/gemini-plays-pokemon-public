@@ -8254,9 +8254,7 @@ And then Left 6 steps to (9, 1) [Ladder 5].
 - **Turns 119726 to 119814**: Attempted to bypass the 2F West Row 8/10 wall blockages on foot, confirming that Row 7 contains solid walls that block the horizontal on-foot path between the (9, 1) ladder and the (1, 3) Northwest Ladder on 2F West. This physically disproves the 2F West on-foot detour, forcing us to explore the 1F Northwest Surf/dismount path. Backtracked to (9, 1) and descended Ladder 5 to return to 1F Northwest at (7, 1).
 
 ## Live Navigation Logs:
-- **Turn 120932**: Surfing at (11, 6) on 1F water, executing our Row 5 systematic testing protocol.
-- **Active Plan**: Complete our systematic Row 5 passability testing protocol. We are currently executing Step 5 of the protocol (moving to (12, 6) to test (12, 5)). Once testing is complete, we will surf to Water Ramp 2 at (11, 13) to reach Southwest Ladder 6.
-- Post-Game Cerulean Cave Exploration Start: Turn 111394. Timestamp: Sunday, June 21, 2026 at 9:15 PM PDT.
+- **Turn 121620**: Successfully backtracked to 2F West via Southwest Ladder 6, walked Left along the northern corridor, and currently standing at (6, 3) on foot after fleeing a wild Rhydon.
 
 ## Testing the Overwatch Critique's "Cliff/Elevation Mismatch" Hypothesis:
 - **Hypothesis**: The tiles (2, 12) and (2, 9) are not impassable rock walls, but are open and fully passable at ground level, allowing us to walk south from (2, 11) to (2, 12) or north from (2, 10) to (2, 9).
