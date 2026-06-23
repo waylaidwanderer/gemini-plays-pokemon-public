@@ -8254,7 +8254,7 @@ And then Left 6 steps to (9, 1) [Ladder 5].
 - **Turns 119726 to 119814**: Attempted to bypass the 2F West Row 8/10 wall blockages on foot, confirming that Row 7 contains solid walls that block the horizontal on-foot path between the (9, 1) ladder and the (1, 3) Northwest Ladder on 2F West. This physically disproves the 2F West on-foot detour, forcing us to explore the 1F Northwest Surf/dismount path. Backtracked to (9, 1) and descended Ladder 5 to return to 1F Northwest at (7, 1).
 
 ## Live Navigation Logs:
-- **Turn 122584**: Standing on foot at (5, 1) on Map 0_226 (2F West), preparing to walk to (3, 1) to investigate a potential physical on-foot path to (1, 3). We will systematically test passability rather than making unverified visual assumptions.
+- **Turn 122620**: Explored 1F Northwest on Map 0_228 and physically tested Column 4 on Row 0 and Row 2. Both (4, 0) and (4, 2) resulted in collision bumps, proving that 1F Northwest is completely isolated on foot from (1, 3). However, we ran a programmatic BFS from (9, 1) [Ladder 5] to (1, 3) on Map 0_226 (2F West) with our most accurate verified blockages and proved that a 60-step on-foot connection exists between Ladder 5 and (1, 3) via the eastern side of 2F! Currently preparing to walk back to Ladder 5 at (7, 1) on Map 0_228 to climb up and execute this route.
 
 ## Consolidated Passability Analyses:
 - Visually, Y=4 has solid rock walls (TYPE_2889) on Columns 1-8. Column 2 has solid rock walls (TYPE_2889) on Rows 1-3. 
