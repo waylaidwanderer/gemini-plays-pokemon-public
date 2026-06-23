@@ -64,3 +64,9 @@ And then Left 6 steps to (9, 1) [Ladder 5].
   1. Step off Ladder 5 to (8, 1) by going Left.
   2. Step back onto (9, 1) by going Right, which will trigger Ladder 5 to warp us back down to 1F Northwest at (7, 1).
   3. Execute 1F master backtracking path to reach Southwest Ladder 6 at (3, 11).
+- Turn 120122: Standing at (13, 1) on Cerulean Cave 1F. We are about to walk to Water Ramp 4 at (15, 3) and Surf to Water Ramp 2 at (11, 13).
+  Plan:
+  1. Walk Right 2, Down 2 to reach (15, 3).
+  2. Surf at (15, 3) to mount the water.
+  3. Surf to (11, 13) and dismount.
+  4. Walk to Southwest Ladder 6 at (3, 11) to reach 2F West.
