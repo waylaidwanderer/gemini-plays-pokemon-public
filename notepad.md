@@ -9216,3 +9216,29 @@ Total: 10 steps. No grass or solid obstacles. Flee wild water encounters immedia
 - **Lessons**: Systematic empirical verification is the only way to establish absolute truth. By testing every single tile along Row 5, we leave no room for doubt or unverified assumptions. Our previous tests on Southwest 2F West also completely settled the debate on whether an on-foot path existed there.
 
 <hr>
+
+<h1><code>Archive/CeruleanCave_DisprovenTheories</code></h1>
+
+# Disproven Cerulean Cave Theories Archive
+
+## BREAKTHROUGH: 2F West Direct On-Foot Bypass Route Verified!
+- **Turn 120406-120412**: Successfully walked from (9, 1) to (5, 1) and then to (3, 3). We discovered that (4, 1), (3, 1), (3, 2), and (3, 3) are completely unblocked and passable on 2F West! 
+- **Turn 120413**: We walked from (3, 3) to (9, 5) via Row 3 and Column 9. This connects the northern corridor directly to Row 5 on foot!
+- **Topological Proof of Crossover**: Since Row 5 is open to the east, and Row 8/10 blockages can be bypassed by looping around Column 18 and Row 8/9, we can reach the southwestern pocket on foot without backtracking to 1F!
+- **Active Path to Northwest Ladder (1, 3)**:
+  - From (11, 5):
+  1. Walk Right 7 steps along Row 5 to (18, 5) via Column 12, 13, 14, 15, 16, 17.
+  2. Walk Down 3 steps along Column 18 to (18, 8) via Row 6, 7.
+  3. Walk Left 1 step to (17, 8).
+  4. Walk Down 1 step to (17, 9).
+  5. Walk Left 2 steps along Row 9 to (15, 9) via Column 16.
+  6. Walk Up 1 step to (15, 8).
+  7. Walk Left 2 steps along Row 8 to (13, 8) via Column 14.
+  8. Walk Down 1 step to (13, 9).
+  9. Walk Left 10 steps along Row 9 to (3, 9) via Column 12, 11, 10, 9, 8, 7, 6, 5, 4.
+  10. Walk Down 2 steps along Column 3 to (3, 11) [Southwest Ladder].
+  11. Note: This path is BLOCKED. Column 0 on 2F West is the physical map boundary and consists of solid, impassable rock walls, rendering any passage along Column 0 impossible. Thus, the 2F West direct bypass route is completely disproved.
+- Turn 120438: Verified that Component 1 and Component 3 of 2F West are disconnected on foot because of solid walls at Row 6 and Column 13 Row 7, meaning the "Direct On-Foot Bypass Route" in our previous notes was a hallucination. There is no on-foot crossover on 2F West. We are backtracking to (9, 1) to descend to 1F.
+- Backtracking Path to Ladder 5 (9, 1): Obsolete and disproven.
+
+<hr>
