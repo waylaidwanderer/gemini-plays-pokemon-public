@@ -98,3 +98,4 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
 - Turn 120969: Step 6 Result: Stood at (13, 6) facing Up and pressed Up. Result was a BUMP collision (Turn 120968), proving (13, 5) is indeed an impassable rock wall of TYPE_2889. This systematic test of Row 5 on water is now 100% complete and fully verified!
 - Turn 121007: Resuming navigation back to Water Ramp 2 at (11, 13). We are standing at (11, 7).
 - Turn 121016: Standing at (11, 7) surfing. Fixed the 'cave_bfs_solver' tool and verified the path. Moving Left 2 steps to reach (9, 7). Expected position: (9, 7).
+- Turn 121025: Standing at (9, 7) surfing. Pressing Down 4 times to move from (9, 7) to (9, 11). Expected position: (9, 11).
