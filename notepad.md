@@ -8328,6 +8328,7 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
   - First Chunk: Walk 2 steps Down to (1, 16) and 6 steps Right to reach (7, 16).
   - Second Chunk: Walk 1 step Up to (7, 15) and 10 steps Right to reach the staircase at (17, 15).
   We will now execute the First Chunk.
+- Turn 121161: En route from (6, 16) to the staircase at (17, 15) on foot. Interrupted at (12, 17) on Row 17 ground level by a wild Level 49 Dodrio. We are fleeing the battle to continue our backtrack.
 
 <hr>
 
