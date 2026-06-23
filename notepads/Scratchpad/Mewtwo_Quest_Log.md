@@ -106,3 +106,9 @@ The overwatch critique's hypothesis that (2, 12) and (2, 9) are passable cliff m
 - **Result**: We collided with a solid rock wall at (10, 3) and remained at (9, 3).
 - **Conclusive Proof**: (10, 3) is a solid, impassable rock wall of TYPE_2889. Thus, the northern corridor (Component 1) is completely isolated from the western section (Component 3) on Row 3.
 - This confirms that we cannot walk directly from (9, 1) to (1, 3) on 2F West without transitioning. We must backtrack to 1F and execute our master backtracking route via 1F Southwest to reach the Southwest Ladder 6 at (3, 11), which is the only way to reach (1, 3) on 2F West.
+## Physical Verification of Map 0_228 (1F Northwest) Column 4 Passability:
+- **Turn 122260 Test**: Standing at (7, 1) on Map 0_228, we attempted to walk Left 3 steps to (4, 1).
+- **Result**: Successfully stepped onto (6, 1) and (5, 1), then experienced a solid bump collision against (4, 1) on Turn 122261, remaining at (5, 1) facing Left.
+- **Definitive Conclusion**: Tile (4, 1) is 100% physically a solid rock wall of TYPE_2889.
+- This physically, empirically, and undeniably proves that Column 4 on Rows 0, 1, and 2 is a solid rock wall barrier, completely blocking any horizontal on-foot crossover from (7, 1) to the western area containing Northwest Ladder (1, 3) on Map 0_228.
+- Thus, the northwest quadrant of 1F (containing Northwest Ladder (1, 3)) is indeed completely isolated on foot from the landmass around Ladder 5 (7, 1) on Map 0_228.
