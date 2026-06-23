@@ -8330,6 +8330,7 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
   - Step 5: Stand at (12, 6) and press Up to test (12, 5).
   - Step 6: Stand at (13, 6) and press Up to test (13, 5).
   - This systematic test will definitively confirm or disprove the passability of Row 5 on the water.
+- Turn 120935: Standing at (11, 6). Executing Step 4 of the testing protocol: pressing UP to test the passability of (11, 5). Expected result: collision bump due to TYPE_2889 label.
 
 <hr>
 
