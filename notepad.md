@@ -8273,8 +8273,8 @@ And then Left 6 steps to (9, 1) [Ladder 5].
   2. Face Left (West) towards (2, 1).
   3. Attempt to step Left onto (2, 1) on foot.
   4. Record the outcome (coordinate change to (2, 1) or a collision bump remaining at (3, 1)) on Turn 119865.
-- **Results**: TBD.
-- **Conclusion**: TBD.
+- **Results**: On Turn 119868, stood at (3, 1) and pressed Left. Result: BUMP collision.
+- **Conclusion**: (2, 1) is indeed a solid rock wall of TYPE_2889. The northern corridors (Component 1) are completely isolated on foot from the western pockets and Northwest Ladder (1, 3) on 2F West. We must backtrack to 1F Northwest.
 
 <hr>
 
