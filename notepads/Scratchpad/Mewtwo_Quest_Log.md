@@ -90,10 +90,7 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
   8. Walk Down 1 step to (13, 9).
   9. Walk Left 10 steps along Row 9 to (3, 9) via Column 12, 11, 10, 9, 8, 7, 6, 5, 4.
   10. Walk Down 2 steps along Column 3 to (3, 11) [Southwest Ladder].
-  11. Walk Down 2 steps to (3, 13) via Row 12.
-  12. Walk Left 3 steps along Row 13 to (0, 13) via Column 2, 1.
-  13. Walk Up 10 steps along Column 0 to (0, 3) via Row 12, 11, 10, 9, 8, 7, 6, 5, 4.
-  14. Walk Right 1 step to (1, 3) and descend the Northwest Ladder to reach B1F stairs!
+  11. Note: This path is BLOCKED. Column 0 on 2F West is the physical map boundary and consists of solid, impassable rock walls, rendering any passage along Column 0 impossible. Thus, the 2F West direct bypass route is completely disproved.
 - Turn 120438: Verified that Component 1 and Component 3 of 2F West are disconnected on foot because of solid walls at Row 6 and Column 13 Row 7, meaning the "Direct On-Foot Bypass Route" in our previous notes was a hallucination. There is no on-foot crossover on 2F West. We are backtracking to (9, 1) to descend to 1F.
 - Backtracking Path to Ladder 5 (9, 1):
   1. Walk Left 3 steps to (9, 5) via (11, 5) and (10, 5).
