@@ -31,9 +31,7 @@ And then Left 6 steps to (9, 1) [Ladder 5].
 - **Turns 119726 to 119814**: Attempted to bypass the 2F West Row 8/10 wall blockages on foot, confirming that Row 7 contains solid walls that block the horizontal on-foot path between the (9, 1) ladder and the (1, 3) Northwest Ladder on 2F West. This physically disproves the 2F West on-foot detour, forcing us to explore the 1F Northwest Surf/dismount path. Backtracked to (9, 1) and descended Ladder 5 to return to 1F Northwest at (7, 1).
 
 ## Live Navigation Logs:
-- **Turn 121770**: Backtracked along Row 17 bypass on 1F, successfully reached the stairs at (17, 15), and currently standing on the stairs on the central platform preparing to walk to Water Ramp 2 at (11, 13).
-- **Turn 121786**: Successfully walked from (17, 15) to Water Ramp 2 at (11, 13) on foot, encountering a wild Hypno on step 6 at (11, 12), and now standing at (11, 13) on foot on the water ramp, preparing to use SURF.
-- **Turn 121860**: Walked Left from (9, 1) to (3, 1), walked Down to (3, 3), and attempted to walk Right to (11, 3) but got blocked by a solid rock wall at (10, 3). Currently standing at (9, 3) on foot.
+- **Turn 121890**: Backtracked down Ladder 5 to 1F Northwest, walked to (15, 1) on foot, and currently preparing to walk Down to Water Ramp 4 at (15, 3) to Surf back to the southwest.
 
 ## Column 4 Corridor Passability Analysis (Turn 121712):
 - **Objective**: Check if there is an alternate bypass on Column 4 on 2F West.
