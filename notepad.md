@@ -8323,6 +8323,7 @@ Therefore, our previous master backtracking route via 1F is 100% correct, and we
 - Turn 121084: Redefined cave_bfs_solver to prevent future database mismatches, and successfully unloaded three outdated reflection notepads to free context memory. We are standing at (11, 17) on foot. We will now walk 9 steps Left to reach (2, 17) in the southwest corner of 1F.
 - Turn 121089: Standing at (1, 13) on the wooden staircase. We will now walk Up 1 step to (1, 12) on the elevated southwest plateau, then Right 2 steps to (3, 12), and Up 1 step to (3, 11) to ascend Southwest Ladder 6 to 2F.
 - Turn 121092: En route on the elevated southwest plateau from (1, 13) to Southwest Ladder 6 at (3, 11). Interrupted at (3, 12) by a wild Level 52 Dodrio encounter. Fleeing the battle to continue ascending the ladder.
+- Turn 121097: Back in the overworld at (3, 12) on foot. We will now take 1 step Up to step onto Southwest Ladder 6 at (3, 11) and transition to 2F West.
 
 <hr>
 
