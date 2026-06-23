@@ -53,3 +53,6 @@ And then Left 6 steps to (9, 1) [Ladder 5].
   4. Record the outcome (coordinate change to (2, 1) or a collision bump remaining at (3, 1)) on Turn 119865.
 - **Results**: On Turn 119868, stood at (3, 1) and pressed Left. Result: BUMP collision.
 - **Conclusion**: (2, 1) is indeed a solid rock wall of TYPE_2889. The northern corridors (Component 1) are completely isolated on foot from the western pockets and Northwest Ladder (1, 3) on 2F West. We must backtrack to 1F Northwest.
+- Turn 120042: Standing at (15, 3) on Cerulean Cave 1F on foot after dismounting onto Water Ramp 4.
+  Plan: Walk Up 2 to (15, 1), then Left 8 to reach Ladder 5 at (7, 1) to ascend to 2F.
+  Chunk 1: ['Up', 'Up', 'Left', 'Left'] to reach (13, 1).
