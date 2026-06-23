@@ -56,3 +56,8 @@ And then Left 6 steps to (9, 1) [Ladder 5].
 - **Test 1 Method (Turn 120304)**: Standing at (2, 11), press DOWN to attempt to step onto (2, 12).
 - **Expected Result if Critique is Correct**: We successfully step onto (2, 12), and our position becomes (2, 12).
 - **Expected Result if Critique is Wrong (Vanilla Gen 1)**: We bump and remain at (2, 11).
+- **Test 1 Result (Turn 120304)**: Attempted to step DOWN from (2, 11) to (2, 12). Result was a BUMP collision with zero coordinate change (player remained at 2, 11). This empirically disproves the critique's hypothesis for (2, 12). (2, 12) is 100% physically a solid, impassable rock wall of TYPE_2889.
+
+- **Test 2 Method (Turn 120308)**: Standing at (2, 10), press UP to attempt to step onto (2, 9).
+- **Expected Result if Critique is Correct**: We successfully step onto (2, 9), and our position becomes (2, 9).
+- **Expected Result if Critique is Wrong (Vanilla Gen 1)**: We bump and remain at (2, 10).
