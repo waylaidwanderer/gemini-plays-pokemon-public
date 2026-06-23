@@ -33,7 +33,7 @@ And then Left 6 steps to (9, 1) [Ladder 5].
 ## Live Navigation Logs:
 - **Turn 121770**: Backtracked along Row 17 bypass on 1F, successfully reached the stairs at (17, 15), and currently standing on the stairs on the central platform preparing to walk to Water Ramp 2 at (11, 13).
 - **Turn 121786**: Successfully walked from (17, 15) to Water Ramp 2 at (11, 13) on foot, encountering a wild Hypno on step 6 at (11, 12), and now standing at (11, 13) on foot on the water ramp, preparing to use SURF.
-- **Turn 121811**: Successfully reached Water Ramp 4 at (15, 3) and dismounted on foot. Currently preparing to walk to Ladder 5 at (7, 1) to ascend to 2F West.
+- **Turn 121815**: Arrived at (14, 1) on foot on the northern walkway of 1F Northwest, after fleeing a wild Venomoth encounter at (14, 1). Preparing to walk Left to reach Ladder 5 at (7, 1).
 
 ## Column 4 Corridor Passability Analysis (Turn 121712):
 - **Objective**: Check if there is an alternate bypass on Column 4 on 2F West.
