@@ -917,3 +917,4 @@ Can we walk:
 - **Turn 125779**: Attempted to walk Up from (3, 15). Result: Direct bump collision (visited 0 tiles) against (3, 14).
 - **Conclusion**: Tile (3, 14) is 100% physically a solid rock wall of TYPE_2889 on Map 0_228 (1F). This empirically and definitively proves that the southwest ground area on Map 0_228 has no vertical path leading north along Column 3, and Column 3 Row 7 is completely unreachable on foot from this direction.
 - **Turn 125796**: Successfully walked to (11, 12) on foot, facing Down. We are about to step Down onto Water Ramp 2 at (11, 13) to prepare for Surf.
+- **Turn 125806**: Opened the POKéMON menu and selected GEMMY (BLASTOISE). We are about to activate SURF to begin the water route to Water Ramp 4 at (15, 3).
