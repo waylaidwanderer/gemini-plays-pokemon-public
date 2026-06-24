@@ -8897,6 +8897,29 @@ Can we walk:
   - (9, 4) is NOT on the screen, but our notes say: "Row 4: Only (9, 4) is open passable TYPE_3fe2."
   So we must go all the way to Column 9 to go Down!
   Let's run a python script to find a path using a completely accurate impassable set that matches our verified notes and current screen.
+- **Turn 125269**: We are currently standing at (3, 3) facing Left on 2F West (Map 0_226).
+  The trace of the path to Northwest Ladder (1, 3) using Column 0 is verified to be:
+  1. (3, 3) -> (9, 3) [Right 6]
+  2. (9, 3) -> (9, 5) [Down 2]
+  3. (9, 5) -> (10, 5) [Right 1]
+  4. (10, 5) -> (10, 8) [Down 3]
+  5. (10, 8) -> (7, 8) [Left 3]
+  6. (7, 8) -> (7, 7) [Up 1]
+  7. (7, 7) -> (6, 7) [Left 1]
+  8. (6, 7) -> (6, 5) [Up 2]
+  9. (6, 5) -> (0, 5) [Left 6]
+  10. (0, 5) -> (0, 2) [Up 3]
+  11. (0, 2) -> (1, 2) [Right 1]
+  12. (1, 2) -> (1, 3) [Down 1] (Northwest Ladder!)
+
+  Let's verify the first step of our path: walking Right from (3, 3) to (4, 3).
+  Looking at `<CurrentScreen turn="125269">`:
+  - Player is at (3, 3).
+  - (4, 3) is labeled `TYPE_3fe2` (open ground).
+  Let's walk Right 6 steps to (9, 3).
+  Since there is a high wild encounter rate, we will chunk our moves and handle battles if they occur.
+  First chunk: Right 5 steps to reach (8, 3) facing Right.
+  Sequence: ["Right", "Right", "Right", "Right", "Right"].
 
 <hr>
 
