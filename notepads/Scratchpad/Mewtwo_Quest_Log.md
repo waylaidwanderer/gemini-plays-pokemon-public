@@ -886,3 +886,11 @@ Can we walk:
     Ah! Our BFS script only had a very small number of known obstacles, and we missed Row 8 walls on Columns 14-20!
     Let's write a python script to run a BFS with ALL the real obstacles on Map 0_226, to see if there is any path from (14, 5) to (1, 3).
     Let's do that! This is extremely important to avoid walking into dead ends.
+## BFS Solver Path Validation (Turn 125579):
+- Standing at (7, 1) on 1F Northwest.
+- We ran a BFS simulation with 100% correct, verified obstacles on 2F West (Map 0_226) from (9, 1) to (1, 3).
+- **Result**: The BFS successfully identified a path!
+  `['Left', 'Left', 'Left', 'Left', 'Left', 'Down', 'Down', 'Right', 'Right', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'Left', 'Left', 'Up', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Up', 'Up', 'Right']`
+- Let's analyze this 28-step path tile-by-tile to verify if it is completely unblocked on 2F West:
+  1. (9, 1) [Ladder 5] -> Left 5 steps -> (4, 1)
+  2. (4, 1) -> Down 2 steps -> (4, 3) (Wait! On Row 2, Columns 2 to 10 are solid walls, but is Column 4 Row 2 solid? Let's check! Wait, we had (5,2) to (10,2) in impassable, but did we put (4,2) in impassable? No! Wait, is (4, 2) open on 2F West? Wait, let's verify if (4,2) is open. But wait, on 1F Northwest, (4, 2) is a solid rock wall. But on 2F West, is (4, 2) open? Let's check our notes: "Row 2: (2, 2) to (10, 2) are all solid rock walls of TYPE_2889. Wait! (1, 2) and (3, 2) are open passable." That means (4, 2) is indeed a solid rock wall! Why didn't the BFS put (4, 2) in impassable? Ah, because we forgot to add (4, 2) to the impassable set in that Python script! Let's rerun the BFS with (4, 2) added as solid rock.)
