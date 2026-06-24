@@ -32,6 +32,7 @@ From (15, 5) to (15, 1):
 
 ## Live Navigation Logs:
 - **Turn 123361**: Fled wild Dodrio, currently standing at (14, 12) on Map 0_228 on foot, heading towards Southwest Ladder 6 at (3, 11) to climb to 2F West.
+- **Turn 123368**: Actively navigating the central platform on Map 0_228 on foot at (14, 12).
 
 ## Consolidated Passability Analyses:
 - Visually, Y=4 has solid rock walls (TYPE_2889) on Columns 1-8. Column 2 has solid rock walls (TYPE_2889) on Rows 1-3. 
