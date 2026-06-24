@@ -8600,6 +8600,77 @@ Can we walk:
     Let's do that in our next turn to be absolutely sure.
     For now, let's edit our quest log with our newly verified connectivity of 2F West!
 
+## Turn 124302 Analysis:
+- We have run a BFS simulation and identified a completely open on-foot path to Northwest Ladder (1, 3) on Map 0_226 by utilizing Column 0 on Rows 2, 3, 4, and 5!
+- Let's check the exact steps to walk:
+  (3, 3) -> Right to (9, 3) -> Down to (9, 5) -> Right to (14, 5) -> Down to (14, 6) -> Down to (14, 7) -> ... wait!
+  Wait, why does the BFS path go:
+  `'Right', 'Right', 'Right', 'Right', 'Right', 'Right' [to 9,3], 'Down', 'Down' [to 9,5], 'Right', 'Right', 'Right', 'Right' [to 13,5], 'Down' [to 13,6], 'Right' [to 14,6], 'Down' [to 14,7], 'Down' [to 14,8], 'Down' [to 14,9], 'Down' [to 14,10], 'Down' [to 14,11] ...`
+  Wait! Let's check the BFS path coordinates from step 12 onwards:
+  Step 11: (12, 5)
+  Step 12: (13, 5)
+  Step 13: (13, 6)
+  Step 14: (14, 6)
+  Step 15: (14, 7)
+  Step 16: (14, 8)
+  Step 17: (14, 9)
+  Step 18: (14, 10)
+  Step 19: (14, 11)
+  Step 20: (14, 12)
+  Step 21: (14, 13)
+  Step 22: (13, 13)
+  Step 23: (12, 13)
+  Step 24: (11, 13)
+  Step 25: (10, 13)
+  Step 26: (9, 13)
+  Step 27: (8, 13)
+  Step 28: (7, 13)
+  Step 29: (6, 13)
+  Step 30: (5, 13)
+  Step 31: (4, 13)
+  Step 32: (3, 13)
+  Step 33: (2, 13)
+  Step 34: (1, 13)
+  Step 35: (1, 14) [Blocked! Wait, the path goes 'Up' at Step 34 to (1, 12)]
+  Ah! Let's check:
+  Step 34: (1, 13) -> Step 35: 'Up' to (1, 12) -> Step 36: 'Left' to (0, 12) -> Step 37: 'Up' to (0, 11) -> ... -> 'Up' to (0, 5) -> 'Right' to (1, 5) -> 'Up' to (1, 4) -> 'Right' to (2, 4) ... wait!
+  Wait! This is an extremely long detour to the south (Row 13), then left along Row 13 to Column 1, then up along Column 0 to Row 5, then right to Column 1 or 2, and then up to Row 3 to reach (1, 3)!
+  But wait! Why does the BFS detour all the way south to Row 13, instead of just walking left on Row 5 from Column 9?
+  Ah! Because (8, 5) is solid rock (`TYPE_2889`).
+  Wait! Is there any other vertical column on Rows 3 to 13 that lets us go left?
+  Wait! On Row 13, Columns 1 to 14 are open?
+  Let's check:
+  "Row 14: Columns 3 to 17 are solid walls."
+  So Row 13 is completely open ground!
+  Yes, (13, 13) down to (1, 13) are all open on Row 13!
+  And Column 1 is open from Row 13 up to Row 11:
+  "tested (1, 11) and it was solid rock."
+  Wait, so Column 1 is blocked at Row 11 by (1, 11).
+  But Column 0 is open from Row 12 to Row 3!
+  So we can walk:
+  Row 13 Column 1 (1, 13) -> Up to (1, 12) -> Left to (0, 12) -> Up Column 0 to Row 5 (0, 5) -> Right to (1, 5) -> Right to (2, 5) -> Right to (3, 5) -> Up to (3, 3) -> Left to (1, 3) [ladder]!
+  Wait! Look at the end of the BFS path:
+  `Step 49: (2, 5)`
+  `Step 50: (1, 5)`
+  `Step 51: (1, 4 is blocked? No, (1, 4) is blocked in blocked_coords)`
+  Wait, if (1, 4) is blocked, how does it go?
+  Step 49: (2, 5) -> Step 50: 'Left' to (1, 5) -> Step 51: 'Left' to (0, 5) -> Step 52: 'Up' to (0, 4) -> Step 53: 'Up' to (0, 3) -> Step 54: 'Up' to (0, 2) -> Step 55: 'Right' to (1, 2) -> Step 56: 'Down' to (1, 3)!
+  Oh!!! Column 0 is open at Rows 2, 3, 4, 5!
+  So we can walk up Column 0:
+  (0, 5) -> (0, 4) -> (0, 3) -> (0, 2) -> (1, 2) -> (1, 3) [Northwest Ladder]!
+  This is a completely open, continuous path to the Northwest Ladder!
+  Wait, is Column 0 on 2F West actually passable?
+  Let's check: we have a map marker for Column 0? No.
+  But wait, in `Scratchpad/Mewtwo_Quest_Log`, we wrote:
+  `Column 0 on 2F West - Unverified Visual Hypothesis: Column 0 on 2F West (Map 0_226) is currently treated as an unverified visual hypothesis. It must be physically verified before treating it as proven.`
+  Wait! This means we have NOT tested Column 0 on 2F West yet!
+  Let's verify it! We are right next to Row 5 (X=3, Y=3).
+  But wait, from (3, 3) we can't walk straight down to Row 5 because (3, 4) is blocked.
+  Instead, we can walk right along Row 3 to Column 9, then down to Row 5.
+  Let's trace that route first:
+  (3, 3) -> Right 6 to (9, 3).
+  Let's walk Right 6 steps now to reach (9, 3) and check if we can continue!
+
 <hr>
 
 <h1><code>Locations/CeruleanCave</code></h1>
