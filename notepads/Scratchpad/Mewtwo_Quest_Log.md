@@ -480,3 +480,4 @@ Can we walk:
   12. "Up" -> (9, 5) (Wait, is (9, 5) water? Let's verify: Yes, (9, 5) is part of Rows 4-5 canal, but wait! Let's check: (9, 4) is water. (9, 5) is indeed a water tile according to our solver: `passable_water.add((9, 4))`, `passable_water.add((9, 6))`, wait, is (9, 5) passable? In our previous turns, we successfully surfed along Column 9 to Row 4.)
   Let's execute this path! We'll start by opening the menu and selecting SURF from GEMMY.
 - **Turn 124532**: Surfing at (15, 4) on 1F. Planning path to Water Ramp 2 at (11, 13).
+- **Turn 124662**: Transitioned from 2F Southwest to 1F Southwest at (3, 11) via Southwest Ladder 6. Currently standing on Southwest Ladder 6 on 1F Southwest. Preparing to walk down the wooden staircase at (1, 13) to reach the ground floor and navigate to Water Ramp 2 at (11, 13).
