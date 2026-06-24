@@ -763,3 +763,126 @@ Can we walk:
   - Column 15 is off-screen but likely open.
   Let's walk Right 5 steps to reach (14, 5).
   Sequence: ["Right", "Right", "Right", "Right", "Right"].
+- **Turn 125277**: Standing at (14, 5) facing Down on 2F West (Map 0_226).
+  The 5-step movement Right was executed successfully, with no wild encounters.
+  Our position is indeed (14, 5).
+  Let's verify the current screen `<CurrentScreen turn="125277">`:
+  - Player is at (14, 5) facing Down.
+  - (15, 5) is indeed open and labeled `TYPE_3fe2`.
+  - Let's check the next tiles in the path:
+    1. 'Right' -> (15, 5)
+    2. 'Down' -> (15, 6)
+    3. 'Down' -> (15, 7)
+    Let's check if (15, 6) and (15, 7) are open on `<CurrentScreen turn="125277">`:
+    - (15, 6): Labeled `TYPE_2889` (solid wall!)
+    Wait! On `<CurrentScreen turn="125277">`, (15, 6) is indeed labeled `TYPE_2889` (solid wall)!
+    Ah! So (15, 6) is a solid rock wall!
+    Wait, let's look at the path found by the BFS solver in `run_code` of the previous turn:
+    `'Right', 'Right', 'Right', 'Right', 'Right', 'Right' [to 15,5]`
+    Wait! Why did the BFS solver go through (15, 6) if it's solid rock of TYPE_2889?
+    Let's check our `impassable` set in that BFS script:
+    We did NOT put (15, 6) in the `impassable` set! We only put `(15, 8)`!
+    Oh! So (15, 6) is also a solid rock wall!
+    Let's look at `<CurrentScreen turn="125277">` for Column 15:
+    - (15, 5): `TYPE_3fe2` (open)
+    - (15, 6): `TYPE_2889` (solid wall!)
+    - (15, 7): `TYPE_2889` (solid wall!)
+    - (15, 8): `TYPE_3fe2` (open) -- wait! (15, 8) is open? No, in our notes we said "15,8 is solid", but on the screen (15, 8) is labeled `TYPE_3fe2`. But wait, (15, 6) and (15, 7) are definitely labeled `TYPE_2889`!
+    And what about Column 13?
+    - (13, 5): `TYPE_3fe2` (open)
+    - (13, 6): `TYPE_3fe2` (open ground!)
+    - (13, 7): `TYPE_2889` (solid wall!)
+    So we can go Down Column 13 to Row 6!
+    Wait! Let's check the tiles around (13, 6):
+    - Left: (12, 6) [solid `TYPE_2889`]
+    - Right: (14, 6) [solid `TYPE_2889`]
+    - Up: (13, 5) [open `TYPE_3fe2`]
+    - Down: (13, 7) [solid `TYPE_2889`]
+    Wait! This means (13, 6) is indeed a 1-tile deep dead-end pocket, just as we realized!
+    What about Column 14?
+    - (14, 5): where we are. Labeled `TYPE_3fe2`.
+    - (14, 6): Labeled `TYPE_2889` (solid wall).
+    - (14, 7): Labeled `TYPE_2889` (solid wall).
+    - (14, 8): Labeled `TYPE_3fe2` (open ground).
+    Wait, so (14, 6) and (14, 7) are solid rock walls!
+    What about Column 16?
+    - (16, 5): Labeled `TYPE_3fe2` (open ground).
+    - (16, 6): Labeled `TYPE_3fe2` (open ground!).
+    - (16, 7): Labeled `TYPE_3fe2` (open ground!).
+    Wait! (16, 5), (16, 6), (16, 7) are all open!
+    Let's check if Row 5 is open to Column 16:
+    - (14, 5) -> Right to (15, 5) -> Right to (16, 5).
+    Yes! (15, 5) is open, and (16, 5) is open!
+    So we can walk Right to (16, 5)!
+    And from (16, 5):
+    Can we go Down?
+    - (16, 6): open ground.
+    - (16, 7): open ground.
+    - (16, 8): Labeled `TYPE_2889` (solid wall).
+    So Column 16 is open down to Row 7!
+    Can we go Left or Right from (16, 7)?
+    - Left: (15, 7) is `TYPE_2889` (solid wall).
+    - Right: (17, 7) is `TYPE_2889` (solid wall).
+    So (16, 7) is another dead end!
+    Wait, is there ANY path to go Down to Row 8 or Row 13?
+    Let's look at the screen for Row 6, Row 7, Row 8 on Columns 11-19:
+    Let's list the tile labels on `<CurrentScreen turn="125277">`:
+    - Row 5:
+      - (10, 5) to (16, 5) are all open ground `TYPE_3fe2`.
+      - (17, 5): `TYPE_2889` (solid wall).
+      - (18, 5): `TYPE_2889` (solid wall).
+      - (19, 5): `TYPE_3fe2` (open ground).
+    - Row 6:
+      - (10, 6) to (12, 6) are `TYPE_2889` (solid wall).
+      - (13, 6): `TYPE_3fe2` (open).
+      - (14, 6): `TYPE_2889` (solid).
+      - (15, 6): `TYPE_2889` (solid).
+      - (16, 6): `TYPE_3fe2` (open).
+      - (17, 6) to (18, 6) are `TYPE_2889` (solid).
+      - (19, 6): `TYPE_3fe2` (open).
+    - Row 7:
+      - (10, 7) to (11, 7) are `TYPE_3fe2` (open).
+      - (12, 7): `TYPE_2889` (solid).
+      - (13, 7): `TYPE_2889` (solid).
+      - (14, 7): `TYPE_2889` (solid).
+      - (15, 7): `TYPE_2889` (solid).
+      - (16, 7): `TYPE_3fe2` (open).
+      - (17, 7) to (18, 7) are `TYPE_2889` (solid).
+      - (19, 7): `TYPE_3fe2` with `[=]` (Ladder 3!).
+    - Row 8:
+      - (10, 8) to (12, 8) are `TYPE_2889` (solid).
+      - (13, 8): `TYPE_3fe2` (open).
+      - (14, 8): `TYPE_3fe2` (open).
+      - (15, 8): `TYPE_2889` (solid).
+      - (16, 8): `TYPE_2889` (solid).
+      - (17, 8): `TYPE_2889` (solid).
+      - (18, 8): `TYPE_2889` (solid).
+      - (19, 8): `TYPE_2889` (solid).
+    Wait, look at this!
+    Is there ANY vertical pathway from the northern Row 5 down to Row 9 or the south on Columns 10-19?
+    Let's check every column:
+    - Column 10: blocked at Row 6 (`TYPE_2889`).
+    - Column 11: blocked at Row 6 (`TYPE_2889`).
+    - Column 12: blocked at Row 6 (`TYPE_2889`).
+    - Column 13: Row 5-6 are open, but blocked at Row 7 (`TYPE_2889`).
+    - Column 14: blocked at Row 6-7 (`TYPE_2889`).
+    - Column 15: blocked at Row 6-7 (`TYPE_2889`).
+    - Column 16: Row 5-7 are open, but blocked at Row 8 (`TYPE_2889`).
+    - Column 17: blocked at Row 5-8 (`TYPE_2889`).
+    - Column 18: blocked at Row 5-8 (`TYPE_2889`).
+    - Column 19: Row 5-7 are open, but blocked at Row 8 (`TYPE_2889`).
+    Wait, what about Columns 20-31?
+    Let's check if the eastern side has any connection. But we already proved:
+    "Ladder 3 at (19, 7) is a dead-end vertical passage on 2F East with no walkthrough connection to the rest of Cerulean Cave. We must descend back down to 1F."
+    And the BFS solver in `run_code` with the accurate grid returned:
+    `'Right', 'Right', 'Right', 'Right', 'Right', 'Right' [to 15,5], 'Down', 'Down' [to 15,7], 'Right' [to 16,7], 'Down', 'Down' [to 16,9]...`
+    Wait! Why did the BFS find a path if Row 8 is completely blocked?
+    Let's look at the BFS code we ran:
+    `impassable = set([`
+    `    ...`
+    `    (16, 13), (13, 11), (22, 9), (19, 1), (9, 2), (9, 6)`
+    `])`
+    Wait! We did NOT put the solid Row 8 walls `(15, 8)`, `(16, 8)`, `(17, 8)`, `(18, 8)` in our `impassable` set in that BFS script!
+    Ah! Our BFS script only had a very small number of known obstacles, and we missed Row 8 walls on Columns 14-20!
+    Let's write a python script to run a BFS with ALL the real obstacles on Map 0_226, to see if there is any path from (14, 5) to (1, 3).
+    Let's do that! This is extremely important to avoid walking into dead ends.
