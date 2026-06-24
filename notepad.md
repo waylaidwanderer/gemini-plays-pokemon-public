@@ -8505,6 +8505,9 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - This has led us to map out a bypass route on 2F West from (15, 1) to (27, 4) going around (19, 1), which we successfully navigated before confirming that both Ladder 2 at (29, 1) and Ladder 4 at (22, 6) are completely geographically isolated on foot from our section.
 
 ## Consolidated Passability Analyses:
+- **Turn 126196 Passability Test**: Standing at (5, 8) facing Up on Map 0_228, we pressed Up to step onto (5, 7).
+- **Result**: Direct bump collision, player remained at (5, 8).
+- **Conclusion**: (5, 7) is a solid impassable rock wall of TYPE_2889 and is NOT a jumpable ledge. The "Ledge-Bypass Route" on 1F is a completely disproven hypothesis.
 
 <hr>
 
