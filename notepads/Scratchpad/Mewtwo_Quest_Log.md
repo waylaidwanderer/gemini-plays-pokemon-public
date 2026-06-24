@@ -484,3 +484,4 @@ Can we walk:
 - Turn 124716: Stepped down from central stairs to (17, 16). Preparing to navigate west along Row 17 to reach the southwestern ground floor.
 - Turn 124735: Backtracked to the central platform stairs at (17, 15). We are starting our journey west along the elevated central platform to Water Ramp 2 at (11, 13). Executing the first chunk: ["Up", "Left", "Left", "Up", "Up"].
 - Turn 124746: Standing at (15, 12) on the central platform of 1F. We are starting our 5-step journey to Water Ramp 2 at (11, 13) via the path: Left 4 steps to (11, 12), then Down 1 step to (11, 13). Executing the button sequence: ['Left', 'Left', 'Left', 'Left', 'Down'].
+- Turn 124759: Successfully fled the wild Venomoth encounter. Standing at (11, 12) facing Down, preparing to step Down onto Water Ramp 2 at (11, 13).
