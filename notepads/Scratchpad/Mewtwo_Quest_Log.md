@@ -2,25 +2,19 @@
 - Quest Started: Turn 111394
 - Active Goal: Reach Cerulean Cave B1F and capture Mewtwo.
 
-## THE BREAKTHROUGH: Ledge-Bypass Path to 1F Northwest & B1F Access
-- **The Core False Assumption Disproven**: We previously believed that 1F Northwest was completely isolated on foot because of the solid walls at (1, 7) and (2, 7). We also believed that we had to surf or use a 2F detour.
-- **The Real Map Design**:
-  - The southwest elevated platform (Columns 1-6, Rows 11-16) contains a passable northern corridor that goes all the way to (5, 7).
-  - Column 5 Row 7 (5, 7) is elevated plateau ground (TYPE_2770).
-  - Column 5 Row 6 (5, 6) is lower ground (TYPE_3fe2).
-  - The transition from (5, 7) to (5, 6) is a one-way ledge that allows the player to jump down from the elevated platform onto the lower ground floor on the north side of the Row 7 wall partition!
-  - Once we jump down the ledge to (5, 6), we are on the lower ground of the Northwest quadrant!
-  - From (5, 6), we can walk: (5, 6) -> (5, 5) -> Left to Column 1 -> Up to (1, 3) where the Northwest Ladder (B1F Access) is located!
-- **This bypasses all solid wall barriers on both 1F and 2F West!**
+## THE DISPROVEN HYPOTHESIS: 1F Ledge-Bypass Path
+- **Turn 126196 Empirical Test**: Standing at (5, 8) facing Up, we pressed Up to step onto (5, 7).
+- **Result**: Direct bump collision, player remained at (5, 8).
+- **Conclusion**: (5, 7) is a solid, impassable wall (TYPE_2889), NOT a jumpable ledge. The entire 1F Ledge-Bypass route is completely disproven.
+- **Verification Proof**: System Warning "visited 0 tiles. Bumped into (5, 7)" at Turn 126196.
 
-## Active Master Route to Mewtwo:
-1. Surf to Water Ramp 2 at (11, 13) and dismount on foot.
-2. Walk to the southwest ground level.
-3. Take the stairs at (1, 13) to climb onto the elevated southwest plateau.
-4. Walk north/east along the elevated plateau to (5, 7).
-5. Stand at (5, 7) facing Up, and press Up to jump down the ledge onto (5, 6) on the lower ground.
-6. Walk on the northwest lower ground: (5, 6) -> Up to (5, 5) -> Left to (1, 5) -> Up to (1, 3).
-7. Interact with the Northwest Ladder at (1, 3) to descend directly into B1F!
+## Active Master Route to Mewtwo (Backtracking & Water Canal Route):
+1. From (5, 10), walk Left and Down to climb down the stairs at (1, 13) to the 1F ground floor.
+2. Walk East along Row 17 and then North to Water Ramp 2 at (11, 13).
+3. Use Surf at (11, 13) to enter the western water canal.
+4. Surf north, then East through the Row 6-7 water crossover at Column 13 to bypass the Row 4-5 blockages.
+5. Head to the Northwest quadrant of 1F (surfing to (7, 1) or Water Ramp 4 at (15, 3)).
+6. Systematically test the on-foot path to (1, 3) to find the entry to B1F.
 
 ## Live Verification Progress:
 - Turn 126071: Discovered the Ledge-Bypass route and initiated backtrack to Water Ramp 2.
