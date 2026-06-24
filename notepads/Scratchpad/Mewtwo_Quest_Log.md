@@ -517,3 +517,9 @@ Can we walk:
   - Result: Solid collision bump, player remained at (18, 7).
   - Proof of Work: This physically and conclusively disproves any on-foot connection to Row 8 or Row 9 on this segment. Combining this with previous tests showing Row 10 is solid across all relevant columns and Row 3 is solid from Columns 3 to 12, the entire map component surrounding Ladder 3 at (19, 7) is mathematically proven to be a completely isolated, 11-tile dead-end pocket.
   - Conclusion: Ladder 3 at (19, 7) is a dead-end vertical passage on 2F East with no walkthrough connection to the rest of Cerulean Cave. We must descend back down to 1F.
+- **Turn 125125**: Landed on the central platform stairs at (17, 15). We have verified that we can walk Down onto the ground floor at (17, 16), and then bypass the solid rock wall at (17, 17) by walking:
+  1. Down 1 to (17, 16)
+  2. Left 2 to (15, 16)
+  3. Down 1 to (15, 17)
+  4. Left 2 to (13, 17) to reach the southwestern ground floor.
+  This is our active routing path.
