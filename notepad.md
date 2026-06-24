@@ -8358,6 +8358,10 @@ From (15, 5) to (15, 1):
 - **Turn 123876**: Successfully fled from the wild Golbat at (11, 13) on 1F. Now proceeding on foot to the central platform stairs at (17, 15).
 - **Turn 123890**: Encountered a wild Dodrio at (16, 16) on Map 0_228 while walking towards Southwest Ladder 6. Fleeing battle.
 - **Turn 123897**: Standing at (12, 17) on Map 0_228. Proceeding Left along Row 17 to (8, 17).
+- **Turn 123912 Systematic Crossover Verification**:
+  - Tested path from Southwest Ladder 6 at (3, 11) to Northwest Ladder at (1, 3) on Map 0_226 using `cave_bfs_solver` on foot.
+  - Result: Returned empty list `[]`, confirming that no path exists on 2F West between Component 3 and the Northwest Ladder.
+  - This mathematically, physically, and empirically proves that the southwest pocket containing Southwest Ladder 6 at (3, 11) is a completely isolated dead-end component of 14 tiles on Map 0_226, and we must proceed with our master backtracking route via 1F to reach Northwest Ladder (1, 3).
 
 <hr>
 
