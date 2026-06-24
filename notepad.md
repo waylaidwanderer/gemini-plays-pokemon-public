@@ -8482,7 +8482,6 @@ From (15, 5) to (15, 1):
   - This has led us to map out a bypass route on 2F West from (15, 1) to (27, 4) going around (19, 1), which we successfully navigated before confirming that both Ladder 2 at (29, 1) and Ladder 4 at (22, 6) are completely geographically isolated on foot from our section.
 
 ## Consolidated Passability Analyses:
-- **Unverified Visual Hypothesis**: Column 2 on 2F West (Map 0_226) on Rows 13 and 14 is currently an unverified visual hypothesis. We must perform a physical on-foot bump test here once we reach 2F West Component 3 (by climbing up Southwest Ladder 6 at (3, 11)) to verify if it is passable or blocked by solid rock walls, satisfying the Burden of Proof.
 
 <hr>
 
