@@ -28,3 +28,4 @@
 - Conclusion: We must backtrack. The only way to reach Mewtwo is the 1F Ledge-Bypass Route!
 - Turn 126131: Surfed along the western vertical water canal, reaching (8, 14). Preparing to surf Right and dismount onto Water Ramp 2 at (11, 13).
 - Turn 126134: Encountered wild GOLBAT on Water Ramp 2 (11, 13) while attempting to dismount on foot. Escaping battle.
+- Turn 126149: Standing at (8, 17) on foot. Preparing to navigate Left along Row 17 to (3, 17), then Up Column 3 to (3, 13), Left to (1, 13), and Up onto the elevated southwest platform at (1, 12).
