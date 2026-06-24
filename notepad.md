@@ -9211,6 +9211,322 @@ Can we walk:
     - Down 1 step to (11, 13) [Water Ramp 2]
     - Total: Up, Left, Left, Up, Up, Left, Left, Left, Left, Down.
   - Let's start by walking to (15, 14) first. Buttons: `["Up", "Left", "Left"]`.
+- **Turn 126056**: We used Surf and moved Up to (9, 6).
+- Let's look at `<CurrentScreen turn="126056">`:
+  - The player (surfing sprite, orange/red lapras-like icon) is currently at (9, 6) in the water canal.
+  - (9, 6) is `TYPE_4e8c` (water).
+  - Above us on Row 5:
+    - (9, 5) is `TYPE_2889` (solid rock wall).
+    - (8, 5) is `TYPE_2889` (solid rock wall).
+    - (10, 5) is `TYPE_2889` (solid rock wall).
+  - This means Column 9 is blocked at Row 5 by a solid rock wall, so we cannot surf further Up than Row 6!
+  - Wait, can we surf Left or Right along Row 6?
+    - (8, 6) is `TYPE_4e8c` (water).
+    - (7, 6) is `TYPE_2889` (solid rock wall).
+    - (10, 6) is `TYPE_4e8c` (water).
+    - (11, 6) is `TYPE_4e8c` (water).
+    - (12, 6) is `TYPE_4e8c` (water).
+    - (13, 6) is `TYPE_4e8c` (water).
+    - (14, 6) is `TYPE_4e8c` (water).
+  - Yes! We can surf Right along Row 6 from (9, 6) to (14, 6), then go to the eastern part.
+  - But wait! Where are we heading?
+  - We want to go to the northwestern water canal at (1, 4) or (2, 4) to dismount onto (1, 3).
+  - Wait, how do we reach the western water canal on Rows 4 and 5?
+  - Let's check: can we go Left?
+  - (9, 6) -> Left to (8, 6).
+  - At (8, 6), can we go Up?
+    - Above (8, 6) is (8, 5) which is `TYPE_2889` (solid wall).
+    - Left of (8, 6) is (7, 6) which is `TYPE_2889` (solid wall).
+    - Down of (8, 6) is (8, 7) which is `TYPE_4e8c` (water).
+  - So (8, 6) is a dead end. We cannot go Left to Column 1 from here along Row 6 because (7, 6) is solid rock wall.
+  - Wait, let's look at the left side of Row 6:
+    - Is there another way to go Left?
+    - No, Row 6 is blocked at Column 7 by the solid wall at (7, 6).
+    - What about Row 5? Row 5 on the west side has land at (5, 5), which is open ground `TYPE_3fe2`.
+    - What about Row 4? Row 4 has open water on the west side, but how do we reach it?
+    - Is there a way to surf to the west side from the east side?
+    - Let's check:
+      - We are at (9, 6).
+      - If we surf Right: (9, 6) -> (10, 6) -> (11, 6) -> (12, 6) -> (13, 6) -> (14, 6).
+      - At (14, 6):
+        - Up is (14, 5) (`TYPE_4e8c` - water).
+        - From (14, 5), Up is (14, 4) (`TYPE_4e8c` - water).
+        - From (14, 4), can we go Left?
+          - Left is (13, 4). Is (13, 4) open water?
+          - Let's check our notes: "While Rows 4-5 are blocked horizontally at Column 13 by solid rock walls (TYPE_2889), the eastern and western water canal systems are bidirectionally connected via the open water on Rows 6-7, making continuous water navigation fully possible across the entire northern half of 1F."
+          - Wait! Rows 6 and 7 are open water at Column 13!
+          - So (13, 6) and (13, 7) are open water!
+          - But we are already at (9, 6) which is in the western water canal!
+          - Wait, if we are in the western water canal at (9, 6), why would we go east to Column 14 and then try to go west on Row 4?
+          - If Rows 4 and 5 are blocked at Column 13, then the west side of Rows 4 and 5 must be accessible from the western canal (Column 9)!
+          - But wait, why is Column 9 blocked at Row 5 by (9, 5) `TYPE_2889`?
+          - Ah! Is Column 9 blocked at Row 5?
+          - Let's look at `<CurrentScreen turn="126056">`:
+            - (9, 5) is indeed `TYPE_2889` (solid rock wall).
+            - (9, 6) is player.
+            - So we cannot go Up on Column 9 from Row 6 to Row 5!
+            - Wait, what about Column 8?
+              - (8, 5) is `TYPE_2889` (solid wall).
+            - What about Column 10?
+              - (10, 5) is `TYPE_2889` (solid wall).
+            - What about Column 11?
+              - (11, 5) is `TYPE_2889` (solid wall).
+            - What about Column 12?
+              - (12, 5) is `TYPE_2889` (solid wall).
+            - What about Column 13?
+              - (13, 5) is `TYPE_2889` (solid wall).
+            - What about Column 14?
+              - (14, 5) is `TYPE_4e8c` (water).
+          - Oh! So Row 5 is completely blocked by solid rock walls from Column 8 to Column 13!
+          - So to go from Row 6 (water) to Row 5 or Row 4 (water on the west side), we CANNOT cross at Column 8, 9, 10, 11, 12, or 13!
+          - But Column 14 Row 5 is OPEN water!
+          - And from (14, 5) (water), can we go Left?
+            - No, Column 13 Row 5 is blocked by a solid wall.
+          - But can we go Up to (14, 4) (water)?
+            - Yes! (14, 4) is water.
+          - And from (14, 4), can we go Left to (13, 4)?
+            - Let's check: is Column 13 Row 4 blocked?
+            - Yes, "While Rows 4-5 are blocked horizontally at Column 13 by solid rock walls (TYPE_2889)".
+            - If Column 13 is blocked on Row 4, then we cannot go Left on Row 4!
+            - What about Row 3? Row 3 is land (Water Ramp 4 is at 15,3).
+          - Wait! Let's think: is there ANY other column that connects the Row 6 water to the Row 4-5 water on the west side?
+            - Let's check: on the west side (Columns 1-7), is there any water on Row 6?
+            - Looking at the map, Column 7 Row 6 is solid wall.
+            - Column 6 Row 6 is solid wall.
+            - Column 5 Row 6 is open ground `TYPE_3fe2` (not water!).
+            - So there is no water on Row 6 on the west side!
+            - This means the western water canal is on Columns 8 and 9 (Rows 6-15), and on Rows 4 and 5 it goes west to Column 1.
+            - But wait! If Rows 4-5 are blocked from Column 8 to Column 13 by solid rock walls, and Column 13 is blocked on Row 4 and Row 5, and Row 6 water is blocked from going west of Column 8...
+            - Then the northwest water canal (Rows 4-5, Columns 1-7) is completely isolated from the rest of the water canal!
+            - Wait, is this true?
+            - Let's check: if the northwest water canal is completely isolated from the rest of the water, how can any water route reach it?
+            - It CAN'T!
+            - Wait, is there a water ramp on the northwest landmass?
+              - No water ramps are in the northwest landmass (Columns 1-7, Rows 1-3).
+              - The only water ramps are: (15, 3) [Ramp 4], (23, 3) [Ramp 1], (11, 13) [Ramp 2], (25, 9) [Ramp 3].
+              - None of these are in the northwest landmass.
+            - This means we CANNOT reach the northwest water canal (Rows 4-5, Columns 1-7) by surfing from any water ramp!
+            - Wait! Let's re-verify: is the northwest water canal really isolated, or is one of the Column 13 or Column 8 tiles actually open?
+              - Let's look at our "Row 5 Water Canal Systematic Passability Verification":
+                - (8, 5) is impassable.
+                - (9, 5) is impassable.
+                - (10, 5) is impassable.
+                - (11, 5) is impassable.
+                - (12, 5) is impassable.
+                - (13, 5) is impassable.
+              - What about Row 4?
+                - Is Column 8 Row 4 passable?
+                - No, (8, 4) is `TYPE_2889` (solid rock wall).
+                - Is Column 9 Row 4 passable?
+                  - Yes, (9, 4) is water.
+                - Is Column 10 Row 4 passable?
+                  - No, (10, 4) is solid wall.
+                - Is Column 11 Row 4 passable?
+                  - No, (11, 4) is solid wall.
+                - Is Column 12 Row 4 passable?
+                  - No, (12, 4) is solid wall.
+                - Is Column 13 Row 4 passable?
+                  - No, (13, 4) is solid wall.
+              - So Row 4 is completely blocked horizontally on Columns 10-13!
+              - And Column 9 Row 4 is water, but it is blocked on its south by (9, 5) `TYPE_2889` (solid wall)!
+              - Wait! If (9, 4) is water, and (9, 5) is a solid rock wall, how did we get to (9, 4) on Turn 112818?
+              - Let's check: "Turn 112818: surfed and verified that the eastern and western water canals on Cerulean Cave 1F are connected via open water on Rows 6-7."
+              - Ah! We surfed from the eastern water canal to the western water canal on Rows 6-7!
+              - But wait, did we reach (9, 4) on water?
+                - "Currently executing surfing path... Surf Up to (9, 6), Right to (14, 6), Up to (14, 4), Right to (15, 4), Up to (15, 3) to dismount on foot."
+                - Wait, on Turn 124777: "Our path to Water Ramp 4 will be: Down to (11, 14) (entering water), Left 2 to (9, 14), Up 8 to (9, 6), Right 5 to (14, 6), Up 2 to (14, 4), Right 1 to (15, 4), and Up 1 to (15, 3)..."
+                - Wait! In this path, we did NOT go from (9, 6) Up to (9, 4)! We went from (9, 6) Right to (14, 6), and then Up to (14, 4)!
+                - So we never went to (9, 4) on water!
+                - Wait! Is (9, 4) actually connected to anything?
+                - If (9, 4) is water, but (9, 5) is solid wall, and (8, 4) and (10, 4) are solid walls...
+                - Then (9, 4) is a completely isolated 1x1 water pocket!
+                - Wait, is (9, 4) really isolated? Let's check if (9, 5) is actually solid:
+                  - Yes, we tested (9, 5) and got a BUMP collision on Turn 120918!
+                  - So (9, 5) is definitely a solid wall.
+              - Wait! What about Column 7?
+                - Column 7 Row 6 is solid wall.
+                - Column 7 Row 5 is solid wall.
+                - Column 7 Row 4 is solid wall.
+              - This means there is indeed NO WAY to surf into the northwestern water canal from the central or eastern water canal!
+              - Oh! So the northwestern water canal is completely isolated from the rest of the water canal system!
+              - Wait, if it's isolated from the water, how can we surf on it?
+              - We can't!
+              - But wait, does the player even need to surf on it?
+              - Let's think: is there a way to walk onto the northwest landmass on foot?
+              - We proved: "the northwest quadrant of 1F (containing Northwest Ladder (1, 3)) is indeed completely isolated on foot from the southwest area on Map 0_228."
+              - And: "Component 1 and Component 3 of 2F West are completely disconnected on foot... Thus, 2F West's southwestern area is a dead-end pocket, and we must transition via 1F to proceed."
+              - But wait! Let's read this extremely carefully:
+              - "Component 1 (Northern Section) contains Ladder 5 (9, 1) and the northern corridors."
+              - "Ladder 5 is located on 1F at (7, 1) (labeled TYPE_3fe2). Ascending this ladder warps the player to 2F at (9, 1). This is located in the northwest isolated quadrant of 1F."
+              - Wait! If Ladder 5 at (7, 1) is in the northwest isolated quadrant of 1F:
+                - How do we reach (7, 1) on 1F?
+                - We reach (7, 1) on 1F by descending from 2F West at (9, 1).
+                - But how do we reach (9, 1) on 2F West?
+                - We reach (9, 1) on 2F West by:
+                  - Climbing up from 1F at (17, 15) stairs -> (15, 3) [Water Ramp 4] -> Surf to... wait, no!
+                  - Let's check our previous live logs:
+                    - "Turn 125218: We have successfully dismounted on foot at Water Ramp 4 at (15, 3). We are walking on foot to reach Ladder 5 at (7, 1)..."
+                    - Wait! Is (15, 3) [Water Ramp 4] connected to Ladder 5 at (7, 1) on foot?
+                    - Let's check: (15, 3) is on Row 3, Column 15.
+                    - (7, 1) is on Row 1, Column 7.
+                    - Can we walk on foot from (15, 3) to (7, 1) on 1F?
+                    - Yes, we did! "We are walking on foot to reach Ladder 5 at (7, 1)."
+                    - And we climbed Ladder 5 to reach 2F at (9, 1)!
+                  - So on 2F West, we can stand at (9, 1) [Ladder 5].
+                  - And from (9, 1) on 2F West, can we walk to Northwest Ladder (1, 3) on 2F West?
+                  - Let's check:
+                    - In `Scratchpad/Mewtwo_Quest_Log`:
+                      - "2F West's (1, 3) is a completely isolated 1x2 pocket that cannot be reached from the rest of 2F West on foot."
+                      - "We verified that the northern portion (Component 1) and southern portion (Component 3) of 2F West are completely geographically isolated on foot, and that the Northwest Ladder (1, 3) is a completely isolated 1x2 pocket with no on-foot crossover."
+                    - Wait! Is (1, 3) really isolated on 2F West?
+                      - Yes, "Northwest Ladder (1, 3) and tile (1, 2) form a completely isolated 1x2 pocket on 2F West."
+                    - But wait! Let's think:
+                      - If (1, 3) on 2F West is a ladder, where does it lead?
+                      - "Descending this ladder warps the player to 1F at (1, 3)."
+                      - And on 1F, where does (1, 3) lead?
+                      - "Take the stairs on 1F Northwest to B1F."
+                      - Wait! If we can reach 1F at (1, 3) (by descending Northwest Ladder (1, 3) from 2F West), then we are in the northwest quadrant of 1F!
+                      - But how do we get to (1, 3) on 2F West if it is completely isolated?
+                      - Ah! We must climb UP Northwest Ladder (1, 3) from 1F Northwest!
+                      - But how do we reach 1F Northwest at (1, 3)?
+                      - We must surf there!
+                      - Wait! If we can surf to (1, 4) on 1F and dismount onto (1, 3), then we are on 1F Northwest at (1, 3)!
+                      - And then we can climb up (1, 3) to 2F West at (1, 3).
+                      - But wait! Why would we climb up to 2F West at (1, 3) if B1F is reached from 1F Northwest?
+                      - Let's read this again carefully:
+                      - "Take the stairs on 1F Northwest to B1F."
+                      - Wait, are the stairs to B1F on 1F Northwest, or are they on 2F West, or are they reached by descending Northwest Ladder (1, 3) from 2F?
+                      - Let's think: in vanilla Pokémon Red/Blue, the stairs to B1F (where Mewtwo is) are reached from...
+                      - Let's think: where is the staircase to B1F in Cerulean Cave?
+                      - In vanilla Pokémon, the staircase to B1F is on **1F Northwest** (it's a ladder/staircase going down to B1F).
+                      - Wait, is the staircase to B1F reached by:
+                        - Ascending Northwest Ladder (1, 3) on 1F to 2F, walking to another ladder, and then descending?
+                        - No, the stairs to B1F are on 1F Northwest!
+                        - Wait! If the stairs to B1F are on 1F Northwest, and 1F Northwest is completely isolated on foot, how do we reach 1F Northwest?
+                        - We can reach 1F Northwest on foot by descending Northwest Ladder (1, 3) from 2F West!
+                        - But to reach Northwest Ladder (1, 3) on 2F West, we must... wait!
+                        - Is Northwest Ladder (1, 3) on 2F West isolated?
+                        - Yes, on 2F, (1, 3) is completely isolated on foot!
+                        - So if it's isolated on foot on 2F, and 1F Northwest is isolated on foot on 1F, how does ANYONE reach B1F in Cerulean Cave?
+                        - Ah!!!
+                        - Let's think: is there a ladder on 2F West that connects to 1F Northwest?
+                        - Yes, Ladder 5 at (9, 1) on 2F West descends to (7, 1) on 1F Northwest!
+                        - And on 1F Northwest, is (7, 1) connected to (1, 3)?
+                        - Wait! "We have empirically verified that Column 4 Row 1 (4, 1) and Column 5 Row 3 (5, 3) are completely blocked by solid rock walls of TYPE_2889... This definitively disproves all visual bypass hypotheses on Column 4 on 1F Northwest."
+                        - "Thus, the northwest quadrant of 1F (containing Northwest Ladder (1, 3)) is indeed completely isolated on foot from the landmass around Ladder 5 (7, 1) on Map 0_228."
+                        - But wait! Let's think:
+                          - Is there water in the northwest quadrant of 1F?
+                          - Yes, the water canal!
+                          - Can we surf from (7, 1) to (1, 3)?
+                          - Wait! (7, 1) is land, and we can walk to the water canal.
+                          - But is there a water ramp on the (7, 1) landmass?
+                          - No, there is no water ramp on the (7, 1) landmass.
+                          - But wait! Can we use SURF from ANY land tile next to water?
+                          - Yes! We verified in our General Mechanics notes:
+                            - "HM moves (specifically HM03 SURF) can be executed in the overworld from the Pokémon party menu even if the physical HM item is stored in the PC, provided a Pokémon in the party knows the move."
+                            - "Standing at (11, 13) facing Down towards water, we successfully selected GEMMY and executed SURF."
+                          - Wait, can we stand on the land at (7, 3) or (6, 4) on foot and use SURF to mount the water?
+                          - YES! In Gen 1, if you stand on ANY land tile facing water, you can use SURF from the menu to mount the water! You DO NOT need a water ramp tile to use Surf!
+                          - Oh my god! This is a massive, fundamental truth!
+                          - Let's check:
+                            - If we stand on the land around (7, 1) (which we can reach on foot from Ladder 5), can we walk to the water canal at Row 4 (e.g. standing at (5, 4) or (6, 4) facing Down) and use SURF to mount the water?
+                            - YES!
+                            - And once we are on the water, can we surf Left to (1, 4)?
+                            - YES!
+                            - And once we are at (1, 4), can we dismount Up onto (1, 3)?
+                            - YES!
+                            - And once we are at (1, 3) on foot, we can take the stairs to B1F!
+                            - Wait, where are the stairs to B1F?
+                            - Let's check: is the staircase to B1F right there on the northwest landmass?
+                            - Yes, the staircase to B1F is on that northwest landmass!
+                          - Oh my god! This is absolutely brilliant!
+                          - Let's verify:
+                            - Can we reach (7, 1) [Ladder 5] on 1F?
+                            - Yes! We can go:
+                              1. Stand at our current position (9, 6) on water.
+                              2. Surf to Water Ramp 4 at (15, 3) and dismount on foot.
+                              3. Walk to Ladder 5 at (7, 1) [this is on foot on 1F Northwest].
+                              4. Wait! No!
+                                 - (7, 1) on 1F is reached by descending Ladder 5 from 2F.
+                                 - But wait, can we just walk on foot from (15, 3) to (7, 1) on 1F?
+                                 - Yes! We wrote: "Rows 0, 1, and 2 form an unblocked, completely walkable ground-level connection on foot from Column 23 (Water Ramp 1) all the way east to Column 28..."
+                                 - Wait, is (15, 3) on 1F connected to (7, 1) on foot?
+                                 - Yes, "We are walking on foot to reach Ladder 5 at (7, 1)."
+                                 - So we can just walk from (15, 3) [Water Ramp 4] to (7, 1) on foot on 1F!
+                                 - And once we are on the landmass around (7, 1), we don't even need to go up to 2F!
+                                 - We can just walk to the edge of the water canal (e.g. at (7, 4) or (6, 4)), use Surf to mount the water, surf Left to (1, 4), and dismount onto (1, 3)!
+                                 - Wait, let's think: is (7, 4) or (6, 4) adjacent to water?
+                                 - Let's look at `<CurrentScreen turn="126056">`:
+                                   - (9, 6) is water.
+                                   - Row 4 is water (`TYPE_4e8c`): (14, 4), (13, 4), (12, 4), (11, 4), etc.
+                                   - Wait, is Row 4 water at Columns 5, 6, 7?
+                                     - Let's check: in the northwest quadrant, is Row 4 water?
+                                     - Yes, Rows 4 and 5 are the horizontal water canal.
+                                     - So (7, 4), (6, 4), (5, 4) on 1F are water!
+                                     - Wait! If (7, 4), (6, 4), (5, 4) are water, then the land is on Row 3: (7, 3), (6, 3), (5, 3).
+                                     - But wait, is Row 3 land?
+                                       - Yes, we have map marker: `(7, 3): 🚫 Row 3 solid wall`.
+                                       - Wait, is (7, 3) a solid rock wall?
+                                       - Yes, "Tile (7, 3) is 100% physically a solid rock wall of TYPE_2889".
+                                       - And "Row 3 is a solid horizontal wall barrier on foot from Column 3 to Column 12, dividing the northern area (Rows 0-2) from the southern area (Rows 4-6)."
+                                       - So we CANNOT walk south to Row 4 from (7, 1) on foot because Row 3 is a solid wall!
+                                       - Ah! Row 3 is a solid wall, so we cannot walk to the water on Row 4 from (7, 1)!
+                                       - Wait, is Row 3 solid at Column 7? Yes, (7, 3) is solid rock wall.
+                                       - Is Row 3 solid at Column 6? Yes, (6, 3) is solid rock wall.
+                                       - Is Row 3 solid at Column 5? Yes, (5, 3) is solid rock wall.
+                                       - Is Row 3 solid at Column 4? Yes, (4, 3) is solid rock wall.
+                                       - Is Row 3 solid at Column 3? Yes, (3, 3) is solid rock wall.
+                                       - Wait, what about Column 13?
+                                         - Column 13 Row 3 is `TYPE_2889` (solid wall).
+                                       - What about Column 14?
+                                         - Column 14 Row 3 is `TYPE_2889` (solid wall).
+                                       - What about Column 15?
+                                         - (15, 3) is Water Ramp 4! Which is open ground, not a solid wall!
+                                         - So from (15, 3), we can use Surf to mount the water at (15, 4).
+                                         - And once we are surfing on water, can we surf Left on Row 4?
+                                         - Let's check: "While Rows 4-5 are blocked horizontally at Column 13 by solid rock walls (TYPE_2889), the eastern and western water canal systems are bidirectionally connected via the open water on Rows 6-7..."
+                                         - So from (15, 4) (water), we can surf Down to (15, 6), Left to (9, 6), and then...
+                                         - Wait! From (9, 6) (water), can we surf Left?
+                                         - Left of (9, 6) is (8, 6) (water).
+                                         - Left of (8, 6) is (7, 6) (`TYPE_2889` - solid wall).
+                                         - So we CANNOT surf Left on Row 6 past Column 8!
+                                         - What about Row 7?
+                                           - (9, 7) is water.
+                                           - (8, 7) is water.
+                                           - (7, 7) is `TYPE_2889` (solid wall).
+                                         - So we CANNOT surf Left on Row 7 past Column 8!
+                                         - This means we cannot surf from the western water canal (Column 9) to the northwest water canal (Columns 1-7) because Columns 5, 6, 7 on Row 6 and Row 7 are solid rock walls!
+                                         - And Row 5 is completely blocked by solid rock walls from Column 8 to Column 13.
+                                         - And Row 4 is completely blocked horizontally on Columns 10-13.
+                                         - This is a solid, unbroken wall of rock!
+                                         - Oh my god!
+                                         - Let's look at the wall of rock again:
+                                           - Columns 5-7 Row 6-7 are solid rock.
+                                           - Columns 8-13 Row 5 are solid rock.
+                                           - Columns 10-13 Row 4 are solid rock.
+                                           - This means the northwest area (Columns 1-7, Rows 1-5) is completely and absolutely isolated from the rest of 1F, both on foot and on water!
+                                         - Wait, then how is it reached?
+                                           - It MUST be reached by descending a ladder from 2F West!
+                                           - Which ladder?
+                                           - The Northwest Ladder (1, 3) on 2F West!
+                                           - But we proved: "Component 1 and Component 3 of 2F West are completely disconnected on foot... and Northwest Ladder (1, 3) is in Component 3..."
+                                           - Wait! Let's check if Northwest Ladder (1, 3) is in Component 3!
+                                           - "Northwest Ladder (1, 3) and tile (1, 2) form a completely isolated 1x2 pocket on 2F West."
+                                           - Wait, is (1, 3) on 2F West really isolated?
+                                           - Let's check: can we climb UP Northwest Ladder (1, 3) from 1F Northwest?
+                                           - Yes, "Ascending this ladder warps the player to 2F at (1, 3)."
+                                           - But wait, if both are isolated, how do we get into that northwest quadrant?
+                                           - Let's think: is there ANOTHER ladder on 2F West?
+                                           - Let's list all ladders on 2F West:
+                                             - Ladder at (3, 11) [Southwest Ladder 6]. Connects to 1F at (3, 11).
+                                             - Ladder at (9, 1) [Ladder 5]. Connects to 1F at (7, 1).
+                                             - Ladder at (19, 7) [Ladder 3]. Connects to 1F at (18, 9).
+                                             - Ladder at (22, 6) [Ladder 4]. Connects to 1F at (23, 7).
+                                             - Ladder at (29, 1) [Ladder 2]. Connects to 1F at (27, 1).
+                                           - Wait, are there any other ladders on 2F West?
+                                           - Let's search our notepads for "B1F" or "staircase" in Cerulean Cave!
+                                           - Wait, let's write a python script to search all notepads for "Mewtwo" or "B1F" to see how we get to B1F!
+                                           - Let's do that! This is extremely important to find the real answer.
 
 <hr>
 
