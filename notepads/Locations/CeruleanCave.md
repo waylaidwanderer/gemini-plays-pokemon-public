@@ -121,3 +121,7 @@
   - While previously unlisted, we have empirically verified that Column 2 Row 16 (2, 16) and Column 3 Row 16 (3, 16) are completely solid, impassable rock walls of TYPE_2889 on Map 0_226.
   - Verification: Walking Down from (2, 15) to (2, 16) results in a solid collision bump, proving (2, 16) is impassable on foot.
   - This means Column 1 Row 15 to Row 17 is the sole on-foot vertical corridor to connect the southwest ground pocket to Row 17.
+- **(1, 10) Blockage [2F West] (Verified Turn 122772)**:
+  - Standing at (2, 10) on 2F West facing Left, attempted to walk Left onto (1, 10).
+  - Result: Solid collision bump, player remained at (2, 10).
+  - Definitive Conclusion: Tile (1, 10) is 100% physically a solid, impassable rock wall of TYPE_2889 on Map 0_226. This physically and conclusively disproves the 2F West direct bypass hypothesis, confirming that the southwest pocket of 2F West is completely isolated from the Northwest Ladder on foot.
