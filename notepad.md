@@ -8460,6 +8460,11 @@ Can we walk:
   If the Northwest Ladder is at (1, 3) on 1F, where are the stairs to B1F?
   Wait, does the B1F staircase lie in the northwest pocket on 1F, next to the (1, 3) Northwest Ladder?
   Let's search our notepads for the exact coordinates of the B1F stairs in Cerulean Cave!
+- **Turn 124089**: Testing (7, 3) passability.
+  - **Hypothesis**: Tile (7, 3) is a solid rock wall of TYPE_2889 and is impassable on foot.
+  - **Testing Method**: From our current position at (7, 2), press Down to attempt to walk onto (7, 3).
+  - **Expected Result**: A direct collision bump with zero coordinate change, remaining at (7, 2).
+  - **Why this is important**: The `cave_bfs_solver` tool found a path assuming (7, 3) is passable. If we bump, we prove the BFS solver's path is invalid because of a missing collision mapping on Row 3. We will then update the tool's database.
 
 <hr>
 
