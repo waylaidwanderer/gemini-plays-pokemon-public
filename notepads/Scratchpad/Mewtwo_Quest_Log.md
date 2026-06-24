@@ -908,3 +908,9 @@ Can we walk:
 5. **Tool Maintenance**: We are planning movement manually because `cave_bfs_solver` has incomplete static walls on 1F. We will maintain manually-planned routes rather than relying blindly on `autopress_buttons`.
 6. **Goal Clarity**: WHAT: Test Column 3 Row 7 passability on 1F (Map 0_228) on foot. HOW: Surf to (11, 13), walk to (3, 17) via Row 17, and then walk North to test (3, 7).
 7. **Error Analysis**: We recognize that the overwatch agent suggests checking Column 3 Row 7 on 1F, which could be the breakthrough needed.
+
+## Column 3 Row 7 on foot on Map 0_228 (1F) Passability Test Log:
+- **Turn 125774**: Starting the testing protocol to determine if (3, 7) on 1F is passable on foot from the south, or if Column 3 is blocked.
+- Standing at (3, 17) facing Up. We see (3, 16) and (3, 15) are open ground, but (3, 14) is labeled TYPE_2889 (solid rock wall).
+- **Hypothesis**: Column 3 Row 14 is a solid, impassable rock wall, preventing any direct vertical path going north along Column 3.
+- **Methodology**: Walk Up to (3, 15), and then attempt to step Up onto (3, 14) to confirm the collision.
