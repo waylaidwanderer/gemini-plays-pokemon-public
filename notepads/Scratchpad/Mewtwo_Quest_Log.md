@@ -921,3 +921,48 @@ Can we walk:
 - **Turn 125813**: Successfully mounted water at (11, 13), surfed Left to (9, 14). Now surfing Up the western water canal to reach (9, 6).
 - **Turn 125818**: Currently surfing at (9, 10) in the western canal. Preparing to surf Up 4 steps to (9, 6) and then head Right along Row 6 towards the eastern side.
 - **Turn 125927**: Successfully surfed from (15, 4) to (9, 8). Now executing the next chunk of 5 steps Down along Column 9 to reach (9, 13).
+- Turn 126016 reflection and self-assessment:
+  1. Immediate Execution: Standing at (9, 9) on foot on Map 0_226 (2F West). We must navigate back to Southwest Ladder 6 at (3, 11) to descend to 1F. The path from (9, 9) to (3, 11) is completely open: Left 6 steps to (3, 9), then Down 2 steps to (3, 11).
+  2. Notepad Hygiene: Organized the logs and updated the current plan. We verified that B1F is reached from Northwest Ladder (1, 3) on Map 0_228, which is reached from 2F West (1, 3). However, 2F West's (1, 3) is a completely isolated 1x2 pocket that cannot be reached from the rest of 2F West on foot, and 1F Northwest is completely isolated on 1F, EXCEPT by climbing up Northwest Ladder (1, 3) from 1F Northwest... wait!
+     Let's think: is there any way to reach 1F Northwest from 1F Southwest?
+     Our previous tests proved:
+     - 1F Northwest landmass around (7, 1) [Ladder 5] is completely isolated on foot from Northwest Ladder (1, 3) landmass (Column 4 rock walls (4, 1), (4, 0), (4, 2) and Row 3 solid walls are impassable).
+     - Row 7 on 1F Southwest forms a completely solid vertical partition barrier on the west side of 1F (tested (1, 7) and (2, 7), which are solid).
+     - So 1F Northwest landmass around (1, 3) [Northwest Ladder and B1F stairs] is completely geographically isolated on foot from the rest of 1F!
+     Wait, then how do we reach 1F Northwest landmass around (1, 3) if it is isolated on foot on 1F, and also isolated on foot on 2F?
+     Let's re-verify: is there a WATER channel that reaches 1F Northwest around (1, 3)?
+     Let's look at the map of Cerulean Cave 1F!
+     The water canal is on Rows 4 and 5.
+     Does the water canal go to Column 1, 2, 3?
+     Yes! The horizontal water canal is on Rows 4 and 5 and goes west to Column 1, 2, 3!
+     And on 1F Northwest, is there any land tile on Rows 1, 2, or 3 next to the water on Rows 4 and 5 that is open?
+     Wait, the Northwest Ladder (1, 3) is at (1, 3).
+     And (1, 3) is on Row 3, which is directly adjacent to the water on Row 4!
+     Oh!!!
+     In vanilla Pokémon Red/Blue, the water canal on Rows 4 and 5 goes all the way to the west.
+     If we surf to (1, 4) or (1, 5) or (2, 4) or (2, 5) on water, can we dismount directly onto (1, 3) or (2, 3) or (3, 3) on land?
+     Wait! Let's check our notes:
+     - "Row 3: (3, 3) to (9, 3) are solid rock walls on 1F." Wait, what?
+     Let's check `Locations/CeruleanCave`'s 1F layout.
+     Wait, let's look at where we can dismount Surf!
+     Can we surf directly to the northwest corner of the water canal (e.g. (1, 4)) and dismount North onto (1, 3)?
+     Wait! Is (1, 3) a land tile on 1F?
+     "Located on 1F at (1, 3) (labeled TYPE_3fe2). Ascending this ladder warps the player to 2F at (1, 3)."
+     Yes! (1, 3) is the Northwest Ladder on 1F!
+     And (1, 3) is directly above (1, 4) (which is water on Row 4)!
+     So if we are surfing at (1, 4), and we face Up towards (1, 3) and press Up, can we step onto (1, 3) and dismount Surf directly onto the Northwest Ladder (1, 3) or the land next to it?
+     YES!!! This is a standard Gen 1 mechanic! You can dismount from Surf directly onto any walkable land tile, including ladders and stairs, by simply walking onto them from the water!
+     Wait, is this why we have been stuck?
+     Because we assumed we could only dismount Surf at "water ramps"!
+     Let's check if we can dismount onto ANY walkable land tile!
+     Yes! In vanilla Pokémon, you don't need a ramp to dismount Surf! You just face the shore (any land tile) and press the direction button to step onto it!
+     This is an incredible, paradigm-shifting realization! It perfectly explains why 2F West's Northwest Ladder (1, 3) and 1F's Northwest corner are isolated on foot—because the intended way to reach them is to **SURF directly to (1, 4) on the water canal and dismount North onto (1, 3) on foot!**
+     Oh my god, this is so simple and makes perfect sense! No complicated backtracking, no 50-step detours. We just surf along the water canal on Rows 4-5 to the extreme west, and dismount directly onto (1, 3) on foot!
+     Let's double-check if this is true!
+     We will verify this immediately by surfing to (1, 4) on the water canal!
+     Let's write this down in our notes and begin our return to 1F Southwest via Southwest Ladder 6.
+  3. Map Hygiene: Current map markers are accurate.
+  4. Custom Tools: No new tools needed yet, but we will use our manual route to return to Southwest Ladder 6.
+  5. Tool Maintenance: Handled manually.
+  6. Goal Clarity: Set to backtrack to 1F Southwest, surf to (1, 4), and dismount North onto (1, 3).
+  7. Error Analysis: Identified that we can likely dismount Surf onto any passable land tile (1, 3), bypassing all "isolation" barriers. Let's test this!
