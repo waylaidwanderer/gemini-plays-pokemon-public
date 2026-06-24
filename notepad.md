@@ -8783,6 +8783,7 @@ Can we walk:
 - **Turn 125179**: Successfully stepped Left to (2, 11) on foot on Map 0_226. Now we are stepping Right to (3, 11) to trigger the Southwest Ladder 6 warp and descend to 1F Southwest. Executing: ["Right"].
 - **Turn 125180**: Standing at (2, 11) facing Left on 2F West. We are pressing Right to step onto Southwest Ladder 6 at (3, 11) and trigger the warp to descend back to 1F Southwest. Executing: ["Right"].
 - **Turn 125182**: Successfully descended Southwest Ladder 6 back to 1F Southwest at (3, 11). We are currently on the elevated southwest plateau. Our next objective is to walk to the wooden stairs at (1, 13) and descend to the southwest ground floor. Executing first chunk: ["Left", "Left", "Down"] to reach (1, 12).
+- **Turn 125184**: Standing at (1, 12) facing Down on Map 0_228. We are walking Down 4 steps to reach (1, 16) on the southwest ground floor. Executing: ["Down", "Down", "Down", "Down"].
 
 <hr>
 
