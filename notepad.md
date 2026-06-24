@@ -8332,6 +8332,13 @@ From (15, 5) to (15, 1):
   6. Attempt to walk Up from (0, 8) onto (0, 7) by pressing Up.
   7. If we successfully step onto (0, 7), the hypothesis is PROVEN, meaning we have a direct path to Northwest Ladder (1, 3). If we get a collision bump and remain at (0, 8), the hypothesis is DISPROVEN, confirming (0, 7) is indeed solid rock.
   We will execute this test and record the result here.
+- Turn 123040: Started active post-game exploration on 2F West at (15, 1). Discovered that (19, 1) is indeed a solid, impassable rock wall of TYPE_2889. However, our programmatic BFS analysis of the screen grid shows we can successfully bypass this obstacle by walking:
+  - Right 3 steps to (18, 1)
+  - Down 2 steps to (18, 3)
+  - Right 2 steps to (20, 3)
+  - Up 2 steps to (20, 1)
+  - Right to continue along Row 1 toward Ladder 2 at (29, 1).
+  We will now execute this bypass path step-by-step. Expected start coordinates: (15, 1). Target coordinate: (18, 1).
 
 <hr>
 
