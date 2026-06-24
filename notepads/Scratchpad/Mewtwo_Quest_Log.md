@@ -32,6 +32,7 @@ From (15, 5) to (15, 1):
 
 ## Live Navigation Logs:
 - **Turn 123600**: Navigated from (9, 1) to (3, 3) on 2F West on foot, and currently standing at (3, 3) facing Left, having confirmed that (2, 3) is indeed blocked by a solid rock wall.
+- **Turn 123799**: Successfully surfed from Water Ramp 4 at (15, 3) to Water Ramp 2 at (11, 13) and dismounted on foot. Currently executing ground path to Southwest Ladder 6 at (3, 11).
 
 ## Column 4 Rows 3 and 4 on Map 0_228 (1F) - Unverified Visual Hypothesis:
 - **Hypothesis**: Column 4 on Rows 3 and 4 on Map 0_228 (1F) is an open on-foot vertical corridor that connects (7, 1) to (1, 3) on foot.
