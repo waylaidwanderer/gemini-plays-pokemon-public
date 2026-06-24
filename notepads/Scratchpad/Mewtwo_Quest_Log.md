@@ -35,7 +35,6 @@ From (15, 5) to (15, 1):
 
 ## Consolidated Passability Analyses:
 - Visually, Y=4 has solid rock walls (TYPE_2889) on Columns 1-8. Column 2 has solid rock walls (TYPE_2889) on Rows 1-3. 
-- However, Column 1 has open tiles at (1, 2) and (1, 3), and Row 5 is open from Column 1 to Column 7. If there is any unverified opening on Row 4 or Column 2, or if we can cross Column 2 on foot, we can reach (1, 3).
 - **Disproven Column 2 Hypothesis (Turn 123231)**: The visual hypothesis that Column 2 on Rows 13-14 on 2F West is passable has been conclusively rejected because we have proven that the southwestern pocket containing (3, 11) is completely isolated on foot, making that section physically unreachable on foot from Southwest Ladder 6.
 - **Disproven Column 2 Northern Barriers (Turn 123231)**: Testing has confirmed that Column 2 is blocked on the northern corridors too, leaving B1F completely unreachable from 2F West on-foot detours. We must descend to 1F Northwest.
 
