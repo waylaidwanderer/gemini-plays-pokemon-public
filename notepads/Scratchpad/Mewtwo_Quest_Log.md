@@ -481,3 +481,4 @@ Can we walk:
   Let's execute this path! We'll start by opening the menu and selecting SURF from GEMMY.
 - **Turn 124532**: Surfing at (15, 4) on 1F. Planning path to Water Ramp 2 at (11, 13).
 - **Turn 124662**: Transitioned from 2F Southwest to 1F Southwest at (3, 11) via Southwest Ladder 6. Currently standing on Southwest Ladder 6 on 1F Southwest. Preparing to walk down the wooden staircase at (1, 13) to reach the ground floor and navigate to Water Ramp 2 at (11, 13).
+- Turn 124716: Stepped down from central stairs to (17, 16). Preparing to navigate west along Row 17 to reach the southwestern ground floor.
