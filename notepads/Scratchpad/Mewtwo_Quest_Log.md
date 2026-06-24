@@ -497,3 +497,7 @@ Can we walk:
   - Let's begin by walking to (9, 3) along Row 3, which is the first leg of our journey.
   - Path from (4, 1): Left to (3, 1), Down to (3, 3), Right 6 steps to (9, 3).
   - Let's execute this step-by-step. First chunk: ['Left', 'Down', 'Down'].
+- **Turn 124967**: Tested 2F West to 2F East on-foot crossover using Python BFS simulation with our newly discovered blockages. Confirmed that the true on-foot path from (16, 6) to (19, 7) [Ladder 3] is:
+  `['Up', 'Up', 'Up', 'Up', 'Up', 'Right', 'Right', 'Down', 'Down', 'Right', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'Down', 'Left', 'Left', 'Left']`
+  This completely avoids the solid walls at Row 6, Row 7, and Column 17.
+- **Turn 124968**: We are standing at (16, 6) facing Up. We will execute the first 4 steps Up to reach (16, 2) safely without wall bumps.
