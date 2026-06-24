@@ -27,3 +27,4 @@
 - Turn 126095-126097: Tested vertical passability of Column 3 on 2F West from (3, 1). Walked Down and successfully reached (3, 3) but encountered solid bump collisions at (3, 4). This empirically proves that (3, 4) is a solid impassable rock wall (TYPE_2889), and Row 4 is completely blocked. This definitively confirms that the northern corridor of 2F West is 100% isolated on foot from the western areas (including Northwest Ladder at 1, 3).
 - Conclusion: We must backtrack. The only way to reach Mewtwo is the 1F Ledge-Bypass Route!
 - Turn 126131: Surfed along the western vertical water canal, reaching (8, 14). Preparing to surf Right and dismount onto Water Ramp 2 at (11, 13).
+- Turn 126134: Encountered wild GOLBAT on Water Ramp 2 (11, 13) while attempting to dismount on foot. Escaping battle.
