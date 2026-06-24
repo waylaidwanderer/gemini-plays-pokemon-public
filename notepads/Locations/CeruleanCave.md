@@ -144,3 +144,13 @@
 - **Turn 126196 Passability Test**: Standing at (5, 8) facing Up on Map 0_228, we pressed Up to step onto (5, 7).
 - **Result**: Direct bump collision, player remained at (5, 8).
 - **Conclusion**: (5, 7) is a solid impassable rock wall of TYPE_2889 and is NOT a jumpable ledge. The "Ledge-Bypass Route" on 1F is a completely disproven hypothesis.
+- Let's establish our new topological routing plan. We know that the ladder to B1F is at (1, 3) on 1F Northwest.
+- To reach (1, 3) on 1F, we must:
+  1. Backtrack to the 1F ground level.
+  2. Walk to the water and use SURF.
+  3. Surf through the Row 6-7 water crossover at Column 13 to reach the western vertical canal.
+  4. Surf up to Water Ramp 4 at (15, 3) or surf/walk to Ladder 5 at (7, 1) in the 1F Northwest isolated quadrant.
+  5. Wait, can we walk from (7, 1) to (1, 3) on 1F Northwest on foot? We must test this!
+  6. If (7, 1) can reach (1, 3) on foot, we will immediately take the ladder to B1F.
+  7. If there is any wall blocking us between (7, 1) and (1, 3) on 1F, then the only other way to reach (1, 3) on 1F is by climbing Ladder 5 at (7, 1) to reach 2F Northwest at (9, 1), navigating across 2F to the Northwest corner of 2F, and descending a northwest ladder... wait, we verified there are only 5 ladders on 2F and none connect to (1, 3) on 1F unless one of our 2F connection mappings is wrong.
+  8. Let's backtrack, surf to (7, 1) on 1F, and empirically test the path on foot to (1, 3) on 1F! This is our new, definitive strategy.
