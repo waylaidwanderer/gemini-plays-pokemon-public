@@ -180,3 +180,5 @@ From (15, 5) to (15, 1):
   Row 9: (9, 9) is TYPE_3fe2, (8, 9) is TYPE_3fe2, (7, 9) is TYPE_3fe2, (6, 9) is TYPE_3fe2.
   All look like open cave floor!
   Let's execute the first 7 Left steps.
+- **Turn 122773 Physical Collision Test of (1, 10)**: Standing at (2, 10) facing Left, pressed Left. Result was a solid bump collision, remaining at (2, 10) on foot.
+- **Definitive Conclusion**: Tile (1, 10) on Map 0_226 is 100% physically a solid, impassable rock wall of TYPE_2889. This physically, empirically, and mathematically disproves the BFS path that assumed (1, 10) was open. The southwest pocket on 2F West (consisting of Columns 1-3, Rows 9-11) is indeed a completely isolated dead-end pocket. There is absolutely no walkable path on foot to the Northwest Ladder (1, 3) from Southwest Ladder 6 (3, 11) on 2F West. We must backtrack to 1F.
