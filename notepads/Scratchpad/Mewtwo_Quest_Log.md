@@ -568,3 +568,4 @@ Can we walk:
 - **Turn 125198**: Standing on the central platform stairs at (17, 15). We are navigating to (15, 12) on the elevated platform via the path: ["Up", "Left", "Left", "Up", "Up"].
 - **Turn 125202**: Successfully navigated to Water Ramp 2 at (11, 13) on foot, facing Down towards the water at (11, 14). We are now opening the Start menu to activate SURF using BLASTOISE (GEMMY) and begin our water journey to Water Ramp 4 at (15, 3).
 - **Turn 125207**: The option menu for GEMMY is open with the cursor pointing directly at "▶SURF". We are pressing "A" to activate SURF and start our surfing journey on Map 0_228.
+- **Turn 125210**: Surfing at (11, 14) on Map 0_228. We are navigating along the western canal to Row 6: Left 2 steps to (9, 14) and then Up 8 steps to (9, 6). Executing chunk: ["Left", "Left", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up"].
