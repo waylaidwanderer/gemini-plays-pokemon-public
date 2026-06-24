@@ -8272,6 +8272,20 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Since we have the custom tool, let's let the BFS tool run it or we can press buttons in smaller chunks to be safe against wild battles and check if they happen.
 - Wait! Since the base wait for each button is 500ms and standard overworld navigation verifies our position before each step, a wild battle will immediately stop the button execution loop. This is extremely safe.
 - Let's execute the path using the `cave_bfs_solver` with `autopress_buttons` = True to get us as close as possible to (5, 7)!
+- Turn 126190: Let's do a deep check of the visual tiles on the screen!
+- Our player is at (5, 8).
+- Directly above us is (5, 7), which is labeled TYPE_2889 (solid rock wall) in the overlay.
+- Wait, let's look at the image of (5, 7) and (5, 6):
+  - (5, 7) has a rock wall texture, but it also has a ledge-like edge or is it a solid wall?
+  - Row 7 has a solid rock wall across: (3, 7) TYPE_2889, (4, 7) TYPE_2889, (5, 7) TYPE_2889, (6, 7) TYPE_2889, (7, 7) TYPE_2889.
+  - Wait, let's check what lies above (5, 7).
+  - (5, 6) is TYPE_3fe2 (passable ground), and (5, 5) is TYPE_3fe2.
+  - If we walk Up from (5, 8), we will face (5, 7). Let's test walking Up to see if we step onto (5, 7), jump over it, or if we get a BUMP collision.
+  - Wait, let's test this with a single Up press and check the result carefully.
+  - If we press Up, what will happen?
+    - Case A: We successfully jump over the ledge from (5, 8) or (5, 7) to (5, 6).
+    - Case B: We bump against (5, 7), remaining at (5, 8), meaning (5, 7) is a solid, impassable wall and NOT a jumpable ledge.
+  - Let's test this now by pressing Up.
 
 <hr>
 
