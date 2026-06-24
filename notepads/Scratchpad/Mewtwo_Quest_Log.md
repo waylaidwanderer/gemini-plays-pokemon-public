@@ -108,3 +108,7 @@ From (15, 5) to (15, 1):
 ## Column 0 on 2F West - Unverified Visual Hypothesis:
 - **Hypothesis**: Column 0 on 2F West (Map 0_226) is an open vertical corridor from Row 12 to Row 3.
 - **Proof status**: UNVERIFIED. The pathway found by `cave_bfs_solver` through Column 0 is a theoretical route based on our lack of data, NOT an empirical fact. We MUST perform a physical on-foot check on Column 0 (e.g. attempting to step Left onto (0, 15) or (0, 12)) before assuming it is passable.
+- **Turn 123226-123229 Systematic Wall Testing Protocol**:
+  - Tested (1, 11) by standing at (2, 11) and attempting to walk Left. Result: BUMP (visited 0 tiles), remained at (2, 11). (1, 11) is physically verified as solid rock of TYPE_2889.
+  - Tested (2, 12) by standing at (2, 11) and attempting to walk Down. Result: BUMP (visited 0 tiles), remained at (2, 11). (2, 12) is physically verified as solid rock of TYPE_2889.
+  - These tests conclusively disprove any on-foot bypass route through this southwest pocket to reach Column 0 or Column 1, confirming that Southwest Ladder 6 at (3, 11) leads to a completely isolated dead-end component of 14 tiles on 2F West. We must backtrack back down Southwest Ladder 6 to 1F to continue our route to Mewtwo.
