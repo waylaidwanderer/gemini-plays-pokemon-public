@@ -453,3 +453,4 @@ Can we walk:
 - Route to dismount on foot at Water Ramp 4: From (7, 1) on Map 0_228, walk Right 8 steps to (15, 1), and Down 2 steps to (15, 3) (Water Ramp 4).
   - Button sequence: `['Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Down', 'Down']`
 - Let's verify each step on foot as we execute this sequence.
+- Turn 124382: Arrived at (15, 3) on Map 0_228 on foot. Preparing to activate Surf and navigate to Water Ramp 2 at (11, 13). Testing method: Press Down to face the water, open Start menu, select POKéMON, select GEMMY, and select SURF.
