@@ -8362,6 +8362,21 @@ From (15, 5) to (15, 1):
   - Tested path from Southwest Ladder 6 at (3, 11) to Northwest Ladder at (1, 3) on Map 0_226 using `cave_bfs_solver` on foot.
   - Result: Returned empty list `[]`, confirming that no path exists on 2F West between Component 3 and the Northwest Ladder.
   - This mathematically, physically, and empirically proves that the southwest pocket containing Southwest Ladder 6 at (3, 11) is a completely isolated dead-end component of 14 tiles on Map 0_226, and we must proceed with our master backtracking route via 1F to reach Northwest Ladder (1, 3).
+## Turn 124018: Local Layout Discovery around (9, 1) & (5, 1) on 2F West (Map 0_226)
+- Standing at (5, 1). We have empirically discovered the local grid on screen:
+  - Row 1: Columns 3 to 9 are open passable TYPE_3fe2: (3, 1), (4, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1).
+  - Column 10 Row 1 is a solid rock wall of TYPE_2889 (10, 1), and Column 2 Row 1 is a solid rock wall of TYPE_2889 (2, 1).
+  - Row 2: (2, 2) to (10, 2) are all solid rock walls of TYPE_2889. Wait! (1, 2) and (3, 2) are open passable TYPE_3fe2.
+  - Row 3: (3, 3) to (9, 3) are open passable TYPE_3fe2. (2, 3) and (10, 3) are solid rock walls of TYPE_2889.
+  - Row 4: Only (9, 4) is open passable TYPE_3fe2. (1, 4) to (8, 4) and (10, 4) are solid rock walls of TYPE_2889.
+  - Row 5: Columns 1 to 5 and 9 to 10 are open passable TYPE_3fe2. (8, 5) is solid rock wall.
+- **Topological Analysis of Northwest Ladder (1, 3)**:
+  - Northwest Ladder (1, 3) is bounded by (0, 3) [border], (1, 4) [solid wall], (2, 3) [solid wall], and (1, 2) [passable].
+  - (1, 2) is bounded by (0, 2) [border], (1, 1) [solid wall], (2, 2) [solid wall], and (1, 3) [ladder].
+  - Thus, the Northwest Ladder at (1, 3) and tile (1, 2) form a completely isolated 1x2 pocket on 2F West (Map 0_226).
+  - There is ABSOLUTELY NO on-foot path to reach (1, 3) on 2F West from anywhere else on 2F West.
+  - Therefore, the ONLY way to descend Northwest Ladder (1, 3) to reach 1F Northwest is if we can climb Northwest Ladder (1, 3) from 1F Northwest first! But wait, is 1F Northwest connected to the rest of the world?
+  - Let's analyze 1F Northwest (Map 0_228) and how to reach the stairs to B1F.
 
 <hr>
 
