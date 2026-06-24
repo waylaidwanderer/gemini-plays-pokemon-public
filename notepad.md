@@ -8948,6 +8948,44 @@ Can we walk:
   Let's verify if we can walk Right to (10, 5).
   Yes, (10, 5) is indeed labeled `TYPE_3fe2` and is open.
   Let's press 'Right'.
+- **Turn 125275**: Standing at (9, 5) facing Down on 2F West (Map 0_226).
+  The 3-step movement from (8, 3) to (9, 5) was executed successfully.
+  Let's verify the current screen `<CurrentScreen turn="125275">`:
+  - Player is at (9, 5) facing Down.
+  - (10, 5) is indeed open and labeled `TYPE_3fe2`.
+  - (9, 6) is solid rock wall `TYPE_2889`.
+  - (10, 6) is solid rock wall `TYPE_2889` (Wait, let's look at the label text on Row 6: Column 10 is indeed labeled `(10, 6) \n TYPE_2889`).
+  - (11, 6) is solid rock wall `TYPE_2889`.
+  - (12, 6) is solid rock wall `TYPE_2889`.
+  - (13, 6) is open and labeled `TYPE_3fe2` (open ground).
+  - (14, 6) is solid rock wall `TYPE_2889`.
+  - Row 5: Columns 9, 10, 11, 12, 13, 14 are all labeled `TYPE_3fe2` (open ground).
+  - Row 7: Columns 9, 10, 11 are labeled `TYPE_3fe2`. (12, 7), (13, 7), (14, 7) are solid rock walls `TYPE_2889`!
+  - Row 8: Columns 9, 10, 11, 12 are solid rock walls `TYPE_2889`! Wait, (13, 8) and (14, 8) are open and labeled `TYPE_3fe2`!
+  Wait! Let's check the path found by the BFS solver in `run_code` of the previous turn:
+  `'Right', 'Right', 'Right', 'Right', 'Right', 'Right' [to 15,5]` (Wait, our `run_code` path went:
+  - 'Right' -> (10, 5)
+  - 'Right' -> (11, 5)
+  - 'Right' -> (12, 5)
+  - 'Right' -> (13, 5)
+  - 'Right' -> (14, 5)
+  - 'Right' -> (15, 5)
+  - 'Down' -> (15, 6)
+  - 'Down' -> (15, 7)
+  - 'Right' -> (16, 7)
+  - 'Down' -> (16, 8 is blocked? No, (16, 8) was not in our list of blocked coords, but wait!)
+  Wait, let's trace:
+  1. (9, 5) -> (15, 5) [Right 6]
+  2. (15, 5) -> (15, 7) [Down 2]
+  3. (15, 7) -> (16, 7) [Right 1]
+  4. (16, 7) -> (16, 9) [Down 2]
+  5. (16, 9) -> (16, 12) [Down 3]
+  6. (16, 12) -> (15, 12) [Left 1]
+  Let's check if Row 5 is open all the way to Column 14:
+  - (9, 5) to (14, 5) are all labeled `TYPE_3fe2` on `<CurrentScreen turn="125275">`!
+  - Column 15 is off-screen but likely open.
+  Let's walk Right 5 steps to reach (14, 5).
+  Sequence: ["Right", "Right", "Right", "Right", "Right"].
 
 <hr>
 
