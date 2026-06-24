@@ -8254,8 +8254,7 @@ From (15, 5) to (15, 1):
 - **Turns 119726 to 119814**: Attempted to bypass the 2F West Row 8/10 wall blockages on foot, confirming that Row 7 contains solid walls that block the horizontal on-foot path between the (9, 1) ladder and the (1, 3) Northwest Ladder on 2F West. This physically disproves the 2F West on-foot detour, forcing us to explore the 1F Northwest Surf/dismount path. Backtracked to (9, 1) and descended Ladder 5 to return to 1F Northwest at (7, 1).
 
 ## Live Navigation Logs:
-- **Turn 123137**: Backtracked from 2F East, descended Ladder 3 to 1F, walked to Water Ramp 2 on foot, used SURF at (11, 13), and currently surfing at (11, 14) on Map 0_228, preparing to navigate the western canals to Southwest ground level.
-- **Turn 123140**: Surfing at (11, 14) on Map 0_228. Confirmed that Row 15 completely blocks vertical ground-level traversal to the southwest on foot, meaning we must dismount back onto Water Ramp 2 at (11, 13) on foot and walk the central platform detour to reach Southwest Ladder 6.
+- **Turn 123180**: Backtracked from 2F East, descended Ladder 3 to 1F, walked to Water Ramp 2, dismounted from surfing, and currently standing at (11, 13) on Map 0_228 on foot, preparing to walk the central platform detour to reach Southwest Ladder 6.
 
 ## Consolidated Passability Analyses:
 - Visually, Y=4 has solid rock walls (TYPE_2889) on Columns 1-8. Column 2 has solid rock walls (TYPE_2889) on Rows 1-3. 
