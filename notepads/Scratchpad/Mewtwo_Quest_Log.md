@@ -454,3 +454,5 @@ Can we walk:
   - Button sequence: `['Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Down', 'Down']`
 - Let's verify each step on foot as we execute this sequence.
 - Turn 124382: Arrived at (15, 3) on Map 0_228 on foot. Preparing to activate Surf and navigate to Water Ramp 2 at (11, 13). Testing method: Press Down to face the water, open Start menu, select POKéMON, select GEMMY, and select SURF.
+- Turn 124398: Currently standing on foot at (17, 14) on Map 0_228, facing Down. Resuming path execution to Southwest Ladder 6 at (3, 11). The path solver has returned: Down, Down, Down, Left, Left, Left, Left, Left, Left, Left, Left, Left, Left, Left, Up, Left, Left, Left, Up, Left, Up, Left, Up, Up, Up, Right, Right.
+- Let's verify each step as we proceed down the stairs at (17, 15) to Row 17 on foot.
