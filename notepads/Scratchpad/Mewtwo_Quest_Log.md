@@ -966,3 +966,25 @@ Can we walk:
   5. Tool Maintenance: Handled manually.
   6. Goal Clarity: Set to backtrack to 1F Southwest, surf to (1, 4), and dismount North onto (1, 3).
   7. Error Analysis: Identified that we can likely dismount Surf onto any passable land tile (1, 3), bypassing all "isolation" barriers. Let's test this!
+## Surf Dismount to 1F Northwest Paradigm Shift
+- **Turn 126039**: We are currently standing on the central platform stairs at (17, 15) on Map 0_228 (1F). Our objective is to reach the northwest water canal, surf to (1, 4), and dismount directly onto Northwest Ladder (1, 3).
+- Let's check our path from (17, 15) to Water Ramp 2 at (11, 13) along the central platform:
+  - We are standing at (17, 15) on Map 0_228.
+  - Let's look at `<CurrentScreen turn="126039">`:
+    - (17, 14) is `TYPE_2770` (open ground on central platform).
+    - (16, 14) is `TYPE_2770` (open ground).
+    - (15, 14) is `TYPE_2770` (open ground).
+    - (15, 13) is `TYPE_2770` (open ground).
+    - (15, 12) is `TYPE_2770` (open ground).
+    - (14, 12) is `TYPE_2770` (open ground).
+    - (13, 12) is `TYPE_2770` (open ground).
+    - (12, 12) is off-screen.
+    - Water Ramp 2 is at (11, 13).
+  - Let's verify the exact manual coordinates path along the central platform:
+    - Up to (17, 14)
+    - Left 2 steps to (15, 14)
+    - Up 2 steps to (15, 12)
+    - Left 4 steps to (11, 12)
+    - Down 1 step to (11, 13) [Water Ramp 2]
+    - Total: Up, Left, Left, Up, Up, Left, Left, Left, Left, Down.
+  - Let's start by walking to (15, 14) first. Buttons: `["Up", "Left", "Left"]`.
