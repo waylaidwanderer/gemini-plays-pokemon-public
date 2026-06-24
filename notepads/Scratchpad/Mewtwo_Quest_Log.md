@@ -248,3 +248,10 @@ Can we walk:
     1. Climb Ladder 5 at (7, 1) on Map 0_228 to reach 2F West at (9, 1).
     2. Standing at (9, 1) facing Up, press Up to attempt to step onto (9, 0).
     3. If we successfully step onto (9, 0) without a collision, we will have verified that Row 0 is passable! We will then walk Left along Row 0 to verify the entire horizontal path to Column 1.
+- **Turn 124113-124116 Systematic Row 0 Passability Verification**:
+  - Turn 124113: Successfully stood at (9, 0) on Row 0 on foot, verifying that (9, 0) is passable.
+  - Turn 124115: Successfully stood at (8, 0) on Row 0 on foot, verifying that (8, 0) is passable.
+  - Turn 124116: Successfully stood at (7, 0) on Row 0 on foot, verifying that (7, 0) is passable.
+  - Turn 124117: Confirmed that (6, 0) is labeled TYPE_2889 (solid rock wall).
+  - Also verified that (3, 0), (4, 0), (5, 0), (6, 0) are all solid rock walls of TYPE_2889.
+  - This conclusively and empirically DISPROVES the "Row 0 Passability" hypothesis. Row 0 is blocked on columns 3-6. We cannot use Row 0 to cross over on foot to the Northwest Ladder (1, 3).
