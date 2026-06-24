@@ -919,3 +919,4 @@ Can we walk:
 - **Turn 125796**: Successfully walked to (11, 12) on foot, facing Down. We are about to step Down onto Water Ramp 2 at (11, 13) to prepare for Surf.
 - **Turn 125806**: Opened the POKéMON menu and selected GEMMY (BLASTOISE). We are about to activate SURF to begin the water route to Water Ramp 4 at (15, 3).
 - **Turn 125813**: Successfully mounted water at (11, 13), surfed Left to (9, 14). Now surfing Up the western water canal to reach (9, 6).
+- **Turn 125818**: Currently surfing at (9, 10) in the western canal. Preparing to surf Up 4 steps to (9, 6) and then head Right along Row 6 towards the eastern side.
