@@ -8853,6 +8853,50 @@ Can we walk:
   Is Row 13 open on Column 6?
   Wait, let's write a python script to run a BFS from (3, 3) to (1, 3) on Map 0_226 using the exact tile data from the game or the tool, allowing Column 0 as passable to see if a path exists.
   Wait, we already ran the BFS with Column 0 blocked. Let's run a python script to check if there is ANY path from (3, 3) to (1, 3) if Column 0 is open, and what the path is!
+- **Turn 125266**: Standing at (3, 3) facing Down on 2F West (Map 0_226).
+  Our goal is to reach Northwest Ladder (1, 3) or verify if Column 0 on 2F West is passable.
+  Wait, let's look at the current screen `<CurrentScreen turn="125266">`:
+  - Player is at (3, 3).
+  - Labeled tiles:
+    - (3, 3): Player position. Labeled `TYPE_3fe2`.
+    - (3, 2): Labeled `TYPE_3fe2` (open).
+    - (3, 4): Labeled `TYPE_2889` (solid wall).
+    - (2, 3): Labeled `TYPE_2889` (solid wall).
+    - (4, 3): Labeled `TYPE_3fe2` (open).
+  Wait, we ran `run_code` with the Python BFS simulation!
+  And the result was: `['Right', 'Right', 'Right', 'Right', 'Right', 'Down', 'Right', 'Down', 'Right', 'Down', 'Down', 'Left', 'Left', 'Up', 'Left', 'Up', 'Left', 'Left', 'Left', 'Left', 'Left', 'Up', 'Left', 'Up']`
+  Let's trace this returned path to see where it leads!
+  1. Start at (3, 3)
+  2. Right to (4, 3)
+  3. Right to (5, 3)
+  4. Right to (6, 3)
+  5. Right to (7, 3)
+  6. Right to (8, 3)
+  7. Down to (8, 4) [Wait! On the current screen, is (8, 4) open? Yes, (8, 4) is labeled `TYPE_2889`! Wait, (8, 4) is a solid rock wall! Why does the path say Down at (8, 3)?]
+  Wait, let's look at the BFS code:
+  `impassable = set([`
+  `    ...`
+  `    (3, 4), (4, 4), (5, 4), (6, 4), (7, 4),`
+  `    ...`
+  `])`
+  Wait! (8, 4) was NOT in the BFS solver's `impassable` set!
+  But on the current screen `<CurrentScreen turn="125266">`, (8, 4) is indeed labeled `TYPE_2889`!
+  Ah! So the BFS solver generated a path through (8, 4) because (8, 4) was missing from its impassable set!
+  Wait, is (8, 4) actually blocked?
+  Let's look at the screen for Row 4:
+  - (1, 4): `TYPE_2889` (solid)
+  - (2, 4): `TYPE_2889` (solid)
+  - (3, 4): `TYPE_2889` (solid)
+  - (4, 4): `TYPE_2889` (solid)
+  - (5, 4): `TYPE_2889` (solid)
+  - (6, 4): `TYPE_2889` (solid)
+  - (7, 4): `TYPE_2889` (solid)
+  - (8, 4): `TYPE_2889` (solid)
+  Yes, (8, 4) is a solid rock wall!
+  And what about (9, 4)?
+  - (9, 4) is NOT on the screen, but our notes say: "Row 4: Only (9, 4) is open passable TYPE_3fe2."
+  So we must go all the way to Column 9 to go Down!
+  Let's run a python script to find a path using a completely accurate impassable set that matches our verified notes and current screen.
 
 <hr>
 
