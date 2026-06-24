@@ -569,3 +569,17 @@ Can we walk:
 - **Turn 125202**: Successfully navigated to Water Ramp 2 at (11, 13) on foot, facing Down towards the water at (11, 14). We are now opening the Start menu to activate SURF using BLASTOISE (GEMMY) and begin our water journey to Water Ramp 4 at (15, 3).
 - **Turn 125207**: The option menu for GEMMY is open with the cursor pointing directly at "▶SURF". We are pressing "A" to activate SURF and start our surfing journey on Map 0_228.
 - **Turn 125210**: Surfing at (11, 14) on Map 0_228. We are navigating along the western canal to Row 6: Left 2 steps to (9, 14) and then Up 8 steps to (9, 6). Executing chunk: ["Left", "Left", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up"].
+
+## Turn 125213 50-turn Reflection and Self-Assessment:
+1. **Immediate Execution:** We have successfully backtracked from the isolated 2F Southwest pocket and the dead-end 2F East Ladder 3 pocket. We navigated 1F Southwest ground to reach the central platform stairs, climbed up, surfed from Water Ramp 2, and are currently surfing at (9, 6) in the western vertical water canal. Our path to Water Ramp 4 at (15, 3) is clear: we will surf Right 5 steps along Row 6 to reach (14, 6), then proceed north.
+2. **Notepad Hygiene:** Our quest log 'Scratchpad/Mewtwo_Quest_Log' and location file 'Locations/CeruleanCave' are fully updated, detailed, and highly organized with clean turn-by-turn testing records and verified topological layout facts. Start turns (111394) and start timestamps are fully preserved.
+3. **Map Hygiene:** Map markers on 1F (Map 0_228) are fully synchronized and accurate. We have added markers for solid rock walls and important ladders.
+4. **Custom Tools:** We identify 5 useful custom tools/agents for B1F once we arrive:
+   - `b1f_bfs_pathfinder` (Custom Tool): A specialized BFS solver to calculate the shortest path on foot on B1F.
+   - `mewtwo_encounter_rate_calculator` (Custom Agent): Estimates battle frequencies and counts remaining Repel steps.
+   - `mewtwo_catch_calculator` (Custom Agent): Calculates capture probabilities based on status, HP, and Poke Ball types.
+   - `b1f_item_tracker` (Custom Tool): Automatically logs coordinates of uncollected items on B1F.
+   - `pp_alert_monitor` (Custom Tool): Tracks move PP for Blastoise's combat moves.
+5. **Tool Maintenance:** We identified that `cave_bfs_solver` has an incomplete static wall database for Map 0_228, which is why we must avoid using `autopress_buttons=true` on 1F and instead rely on visual grounding. We will fix/update its database once we have fully mapped the cave.
+6. **Goal Clarity:** Goals are clear. WHAT: Capture Mewtwo on B1F. HOW: Surf to Water Ramp 4, walk to Ladder 5, ascend to 2F West Component 1, walk to Northwest Ladder (1, 3), descend to 1F Northwest, and take the stairs to B1F.
+7. **Error Analysis & Hypothesis Review:** We successfully avoided the predictive trap by verifying our location at (9, 6) after movement and confirming that Row 6 is open water before proceeding.
