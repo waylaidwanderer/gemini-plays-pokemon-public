@@ -8328,6 +8328,9 @@ From (15, 5) to (15, 1):
   - Up 2 steps to (20, 1)
   - Right to continue along Row 1 toward Ladder 2 at (29, 1).
   We will now execute this bypass path step-by-step. Expected start coordinates: (15, 1). Target coordinate: (18, 1).
+## Column 0 on 2F West - Unverified Visual Hypothesis:
+- **Hypothesis**: Column 0 on 2F West (Map 0_226) is an open vertical corridor from Row 12 to Row 3.
+- **Proof status**: UNVERIFIED. The pathway found by `cave_bfs_solver` through Column 0 is a theoretical route based on our lack of data, NOT an empirical fact. We MUST perform a physical on-foot check on Column 0 (e.g. attempting to step Left onto (0, 15) or (0, 12)) before assuming it is passable.
 
 <hr>
 
