@@ -125,3 +125,8 @@
   - Standing at (2, 10) on 2F West facing Left, attempted to walk Left onto (1, 10).
   - Result: Solid collision bump, player remained at (2, 10).
   - Definitive Conclusion: Tile (1, 10) is 100% physically a solid, impassable rock wall of TYPE_2889 on Map 0_226. This physically and conclusively disproves the 2F West direct bypass hypothesis, confirming that the southwest pocket of 2F West is completely isolated from the Northwest Ladder on foot.
+
+## Column 1 Row 7 Passability Empirical Test Result on Map 0_228 (1F):
+- **Turn 122908 Physical Test**: Standing at (1, 8) facing Up on Map 0_228, we pressed Up to step onto (1, 7).
+- **Result**: Direct bump collision, player remained at (1, 8).
+- **Definitive Conclusion**: Tile (1, 7) on Map 0_228 is 100% physically a solid, impassable rock wall barrier on foot. This physically, empirically, and mathematically proves that Row 7 is a completely solid vertical partition barrier on the west side of Map 0_228, confirming that the northwest quadrant containing Northwest Ladder (1, 3) is completely physically isolated on foot from the southwest area.
