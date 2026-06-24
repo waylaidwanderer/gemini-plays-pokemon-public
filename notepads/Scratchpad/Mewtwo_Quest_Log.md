@@ -523,3 +523,34 @@ Can we walk:
   3. Down 1 to (15, 17)
   4. Left 2 to (13, 17) to reach the southwestern ground floor.
   This is our active routing path.
+- **Turn 125138**: Successfully descended the stairs at (17, 15) to reach (17, 16) on foot, facing Down. Our objective is to navigate to the southwest ground floor to reach Southwest Ladder 6 at (3, 11).
+  We ran the BFS pathfinder `cave_bfs_solver` from (17, 16) to (1, 14), which returned the following path:
+  `["Left", "Up", "Up", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left"]`
+  Let's verify this path step-by-step:
+  1. (17, 16) -> Left -> (16, 16)
+  2. (16, 16) -> Up -> (16, 15) [Wait! On the current screen <CurrentScreen turn="125138">, tile (16, 15) is labeled TYPE_2889 (solid rock wall). Why did the BFS say Up, Up?]
+  Let's look at the current screen at (16, 15): Yes, (16, 15) is TYPE_2889 (solid rock wall).
+  Wait, let's look at the BFS code:
+  The BFS code only registers a few impassable tiles on 1F:
+  `impassable.update([(4, 1), (5, 3), (4, 0), (4, 2), (1, 7), (2, 7), (7, 3), (7, 6), (8, 5), (13, 5), (15, 13)])`
+  Ah! The BFS solver's static database of impassable tiles on Map 0_228 is extremely incomplete! It doesn't know about all the rock walls shown on the screen!
+  This is a critical warning: do NOT use `autopress_buttons` on `cave_bfs_solver` for Map 0_228 because its database is missing many static wall tiles, so it will generate routes that bump into walls!
+  Instead, we must plan the route manually using the visual screen overlay and our own spatial reasoning.
+  Let's look at the current screen at (17, 16):
+  - (17, 16) [where player is] -> Left -> (16, 16) [TYPE_3fe2] -> Left -> (15, 16) [TYPE_3fe2] -> Down -> (15, 17) [TYPE_3fe2] -> Left -> (14, 17) [TYPE_3fe2] -> Left -> (13, 17) [TYPE_3fe2].
+  Let's verify this route:
+  - (17, 16) is open.
+  - (16, 16) is TYPE_3fe2 (open ground).
+  - (15, 16) is TYPE_3fe2 (open ground).
+  - (15, 17) is TYPE_3fe2 (open ground).
+  - (14, 17) is TYPE_3fe2 (open ground).
+  - (13, 17) is TYPE_3fe2 (open ground).
+  This path is completely open on the screen! No TYPE_2889 tiles are on this path.
+  Let's double check:
+  - (17, 16) to (16, 16): Left (1 step)
+  - (16, 16) to (15, 16): Left (1 step)
+  - (15, 16) to (15, 17): Down (1 step)
+  - (15, 17) to (14, 17): Left (1 step)
+  - (14, 17) to (13, 17): Left (1 step)
+  Total steps: 5 steps: Left, Left, Down, Left, Left.
+  Let's execute this 5-step sequence to reach (13, 17) safely.
