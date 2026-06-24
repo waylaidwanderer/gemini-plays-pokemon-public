@@ -8686,6 +8686,22 @@ Can we walk:
   - Standing at (14, 8), we are surrounded by (13, 8) [passable], (14, 7) [solid wall TYPE_2889], (14, 9) [solid wall TYPE_2889], and (15, 8) [solid wall TYPE_2889].
   - Thus, (14, 8) is a 1-tile dead-end pocket, and we cannot walk any further east or north from here.
 - **Conclusion**: The northern section (Component 1) and southern section (Component 3) of 2F West are indeed completely physically isolated on foot. There is no on-foot crossover. We must backtrack to 1F.
+- **Turn 124480**: Arrived back at Water Ramp 2 at (11, 13) on Map 0_228 on foot. Verified the shortest surfing route to Water Ramp 4 at (15, 3) using `cave_bfs_solver` with `travel_mode='surf'`. The route returned is:
+  `["Down", "Left", "Left", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Right", "Right", "Right", "Right", "Right", "Up", "Up", "Right", "Up"]`
+  Let's verify this step-by-step from (11, 13):
+  1. "Down" -> (11, 14) (Starts surfing and enters water canal).
+  2. "Left" -> (10, 14) (Water)
+  3. "Left" -> (9, 14) (Water, western vertical canal)
+  4. "Up" -> (9, 13)
+  5. "Up" -> (9, 12)
+  6. "Up" -> (9, 11)
+  7. "Up" -> (9, 10)
+  8. "Up" -> (9, 9)
+  9. "Up" -> (9, 8)
+  10. "Up" -> (9, 7)
+  11. "Up" -> (9, 6)
+  12. "Up" -> (9, 5) (Wait, is (9, 5) water? Let's verify: Yes, (9, 5) is part of Rows 4-5 canal, but wait! Let's check: (9, 4) is water. (9, 5) is indeed a water tile according to our solver: `passable_water.add((9, 4))`, `passable_water.add((9, 6))`, wait, is (9, 5) passable? In our previous turns, we successfully surfed along Column 9 to Row 4.)
+  Let's execute this path! We'll start by opening the menu and selecting SURF from GEMMY.
 
 <hr>
 
