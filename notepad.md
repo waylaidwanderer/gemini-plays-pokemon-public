@@ -8255,6 +8255,7 @@ From (15, 5) to (15, 1):
 
 ## Live Navigation Logs:
 - **Turn 123137**: Backtracked from 2F East, descended Ladder 3 to 1F, walked to Water Ramp 2 on foot, used SURF at (11, 13), and currently surfing at (11, 14) on Map 0_228, preparing to navigate the western canals to Southwest ground level.
+- **Turn 123140**: Surfing at (11, 14) on Map 0_228. Confirmed that Row 15 completely blocks vertical ground-level traversal to the southwest on foot, meaning we must dismount back onto Water Ramp 2 at (11, 13) on foot and walk the central platform detour to reach Southwest Ladder 6.
 
 ## Consolidated Passability Analyses:
 - Visually, Y=4 has solid rock walls (TYPE_2889) on Columns 1-8. Column 2 has solid rock walls (TYPE_2889) on Rows 1-3. 
