@@ -9137,6 +9137,8 @@ Can we walk:
 - Standing at (3, 17) facing Up. We see (3, 16) and (3, 15) are open ground, but (3, 14) is labeled TYPE_2889 (solid rock wall).
 - **Hypothesis**: Column 3 Row 14 is a solid, impassable rock wall, preventing any direct vertical path going north along Column 3.
 - **Methodology**: Walk Up to (3, 15), and then attempt to step Up onto (3, 14) to confirm the collision.
+- **Turn 125779**: Attempted to walk Up from (3, 15). Result: Direct bump collision (visited 0 tiles) against (3, 14).
+- **Conclusion**: Tile (3, 14) is 100% physically a solid rock wall of TYPE_2889 on Map 0_228 (1F). This empirically and definitively proves that the southwest ground area on Map 0_228 has no vertical path leading north along Column 3, and Column 3 Row 7 is completely unreachable on foot from this direction.
 
 <hr>
 
