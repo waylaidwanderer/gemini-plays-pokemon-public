@@ -8478,6 +8478,16 @@ Can we walk:
   - Turn 124117: Confirmed that (6, 0) is labeled TYPE_2889 (solid rock wall).
   - Also verified that (3, 0), (4, 0), (5, 0), (6, 0) are all solid rock walls of TYPE_2889.
   - This conclusively and empirically DISPROVES the "Row 0 Passability" hypothesis. Row 0 is blocked on columns 3-6. We cannot use Row 0 to cross over on foot to the Northwest Ladder (1, 3).
+## Turn 124247: Breakthrough Discovery on 2F West (Map 0_226)
+- Standing at (3, 1) after fleeing wild Dodrio.
+- Looking at the screen `<CurrentScreen turn="124247">`, we discovered that:
+  - Row 4 Column 4 (4, 4) is TYPE_3fe2 (open ground).
+  - Row 5 Columns 0 to 7 are completely open (TYPE_3fe2).
+  - Column 0 Rows 3 to 5 are completely open (TYPE_3fe2).
+  - This forms a clear, unblocked on-foot path from (3, 1) to Northwest Ladder (1, 3):
+    (3, 1) -> Down to (3, 2) -> Down to (3, 3) -> Right to (4, 3) -> Down to (4, 4) -> Down to (4, 5) -> Left to (0, 5) -> Up to (0, 3) -> Right to (1, 3) [Northwest Ladder]!
+  - This completely disproves our previous "2F West Northwest Ladder Isolation" theory!
+  - We will now walk this path step-by-step and verify each tile empirically.
 
 <hr>
 
