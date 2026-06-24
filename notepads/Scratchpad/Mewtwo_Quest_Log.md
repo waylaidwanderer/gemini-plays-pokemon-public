@@ -556,3 +556,4 @@ Can we walk:
   Let's execute this 5-step sequence to reach (13, 17) safely.
 - **Turn 125163**: Standing at (3, 17) on foot on Map 0_228 (1F). We are manually walking to the wooden stairs at (1, 13) to climb onto the elevated southwest plateau and reach Southwest Ladder 6 at (3, 11). Executing the first chunk: ["Up", "Left", "Left"].
 - **Turn 125167**: Standing at (1, 13) on the wooden stairs facing Up. Executing chunk: ["Up", "Right", "Right"] to reach (3, 12) on the elevated southwest plateau. From there, we will take Southwest Ladder 6 at (3, 11) on the next turn.
+- **Turn 125177**: We are standing at (3, 11) on Map 0_226 (2F West). This pocket is completely isolated, so we must backtrack to 1F Southwest. To trigger the ladder warp, we are stepping Left to (2, 11) first. Executing: ["Left"].
