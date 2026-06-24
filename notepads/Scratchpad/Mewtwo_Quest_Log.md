@@ -488,3 +488,4 @@ Can we walk:
 - Turn 124746: Standing at (15, 12) on the central platform of 1F. We are starting our 5-step journey to Water Ramp 2 at (11, 13) via the path: Left 4 steps to (11, 12), then Down 1 step to (11, 13). Executing the button sequence: ['Left', 'Left', 'Left', 'Left', 'Down'].
 - Turn 124759: Successfully fled the wild Venomoth encounter. Standing at (11, 12) facing Down, preparing to step Down onto Water Ramp 2 at (11, 13).
 - **Turn 124777**: Standing at (11, 13) on foot facing Down towards water on Map 0_228 (1F). We will use SURF to start our water journey to (15, 3) (Water Ramp 4). Our path to Water Ramp 4 will be: Down to (11, 14) (entering water), Left 2 to (9, 14), Up 8 to (9, 6), Right 5 to (14, 6), Up 2 to (14, 4), Right 1 to (15, 4), and Up 1 to (15, 3) (dismounting at Water Ramp 4 on foot).
+- Turn 124892: Surfing at (15, 4) on 1F. Preparing to step Up to (15, 3) to dismount on foot at Water Ramp 4.
