@@ -447,3 +447,9 @@ Can we walk:
   Let's trace that route first:
   (3, 3) -> Right 6 to (9, 3).
   Let's walk Right 6 steps now to reach (9, 3) and check if we can continue!
+- **Turn 124371**: We are standing at (7, 1) on Map 0_228 (1F Northwest) on foot.
+- Let's check our pathing to reach Northwest Ladder (1, 3) on 2F West (Map 0_226).
+- First, we must backtrack to 1F Southwest on foot/surfing, climb Southwest Ladder 6 at (3, 11) to 2F West, and test if Column 0 on 2F West is indeed passable to reach the Northwest Ladder.
+- Route to dismount on foot at Water Ramp 4: From (7, 1) on Map 0_228, walk Right 8 steps to (15, 1), and Down 2 steps to (15, 3) (Water Ramp 4).
+  - Button sequence: `['Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Down', 'Down']`
+- Let's verify each step on foot as we execute this sequence.
