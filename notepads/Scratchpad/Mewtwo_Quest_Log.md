@@ -604,3 +604,29 @@ Can we walk:
   - Player is indeed at (4, 3) facing Left.
   - (3, 3) is open and labeled `TYPE_3fe2`.
   We will take a step Left to reach (3, 3).
+- **Turn 125264**: Standing at (3, 3) facing Left on 2F West (Map 0_226).
+  Let's verify the screen for `<CurrentScreen turn="125264">`:
+  - Player is at (3, 3) facing Left.
+  - (3, 2) is open (TYPE_3fe2).
+  - (2, 3) is a solid rock wall (TYPE_2889).
+  - (3, 4) is a solid rock wall (TYPE_2889).
+  - (4, 3) is open (TYPE_3fe2) to our right.
+  We want to test if Column 0 is passable. To get to Column 0 from here, we must make a detour to Row 5 or Row 13.
+  Wait! Let's check the path to Row 5:
+  From (3, 3), we can walk Right along Row 3: (3, 3) -> (4, 3) -> (5, 3) -> (6, 3) -> (7, 3) -> (8, 3) -> (9, 3).
+  Then from (9, 3), we can go Down 2 steps to (9, 5).
+  Then from (9, 5), we can go Left along Row 5: (9, 5) -> (8, 5 is blocked?)
+  Wait! Let's look at the screen for (8, 5):
+  - (8, 5) is indeed labeled `TYPE_2889` (solid rock wall) in `<CurrentScreen turn="125264">`!
+  Ah, so (8, 5) is blocked!
+  What about Row 5 further left?
+  - (7, 5), (6, 5), (5, 5), (4, 5), (3, 5), (2, 5), (1, 5), (0, 5) are all labeled `TYPE_3fe2` (open ground).
+  But since (8, 5) is blocked, we cannot walk directly from (9, 5) Left to (7, 5)!
+  So how do we get to (7, 5)?
+  Wait! Let's check if there is another vertical corridor.
+  Let's look at (6, 5) and (6, 6) and (6, 7):
+  - (6, 6) is labeled `TYPE_3fe2` (open ground).
+  - (6, 7) is labeled `TYPE_3fe2` (open ground).
+  Is Row 13 open on Column 6?
+  Wait, let's write a python script to run a BFS from (3, 3) to (1, 3) on Map 0_226 using the exact tile data from the game or the tool, allowing Column 0 as passable to see if a path exists.
+  Wait, we already ran the BFS with Column 0 blocked. Let's run a python script to check if there is ANY path from (3, 3) to (1, 3) if Column 0 is open, and what the path is!
