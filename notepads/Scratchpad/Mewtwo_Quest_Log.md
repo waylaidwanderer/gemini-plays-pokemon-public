@@ -711,3 +711,17 @@ Can we walk:
   2. 'Down' -> (9, 4)
   3. 'Down' -> (9, 5)
   We will execute this 3-button sequence: ["Right", "Down", "Down"].
+- **Turn 125274**: Standing at (9, 5) facing Down on 2F West (Map 0_226).
+  Let's verify the screen for `<CurrentScreen turn="125274">`:
+  - Player is at (9, 5).
+  - Labeled tiles:
+    - (9, 5): Player position. Labeled `TYPE_3fe2`.
+    - (10, 5): Labeled `TYPE_3fe2` (open ground, to our right).
+    - (9, 6): Labeled `TYPE_2889` (solid wall, below us).
+    - (8, 5): Labeled `TYPE_2889` (solid wall, to our left).
+    - (9, 4): Labeled `TYPE_3fe2` (open ground, above us).
+  Our next step is:
+  3. (9, 5) -> (10, 5) [Right 1]
+  Let's verify if we can walk Right to (10, 5).
+  Yes, (10, 5) is indeed labeled `TYPE_3fe2` and is open.
+  Let's press 'Right'.
