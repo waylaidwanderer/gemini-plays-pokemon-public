@@ -8478,16 +8478,127 @@ Can we walk:
   - Turn 124117: Confirmed that (6, 0) is labeled TYPE_2889 (solid rock wall).
   - Also verified that (3, 0), (4, 0), (5, 0), (6, 0) are all solid rock walls of TYPE_2889.
   - This conclusively and empirically DISPROVES the "Row 0 Passability" hypothesis. Row 0 is blocked on columns 3-6. We cannot use Row 0 to cross over on foot to the Northwest Ladder (1, 3).
-## Turn 124247: Breakthrough Discovery on 2F West (Map 0_226)
-- Standing at (3, 1) after fleeing wild Dodrio.
-- Looking at the screen `<CurrentScreen turn="124247">`, we discovered that:
-  - Row 4 Column 4 (4, 4) is TYPE_3fe2 (open ground).
-  - Row 5 Columns 0 to 7 are completely open (TYPE_3fe2).
-  - Column 0 Rows 3 to 5 are completely open (TYPE_3fe2).
-  - This forms a clear, unblocked on-foot path from (3, 1) to Northwest Ladder (1, 3):
-    (3, 1) -> Down to (3, 2) -> Down to (3, 3) -> Right to (4, 3) -> Down to (4, 4) -> Down to (4, 5) -> Left to (0, 5) -> Up to (0, 3) -> Right to (1, 3) [Northwest Ladder]!
-  - This completely disproves our previous "2F West Northwest Ladder Isolation" theory!
-  - We will now walk this path step-by-step and verify each tile empirically.
+## ## Turn 124268 Analysis of Northwest Ladder 2F West Layout:
+- We are currently on 2F West at (9, 5) facing Down.
+- Looking at the current screen `<CurrentScreen turn="124268">`, we can verify that the local grid of 2F West from Column 5 to Column 14 and Row 1 to Row 9 is indeed blocked in multiple ways:
+  - Row 2 is completely blocked by solid rock walls of TYPE_2889 across all columns from 5 to 10.
+  - Column 10 Row 1 is a solid rock wall of TYPE_2889 (10, 1), which means Row 1 is blocked at Column 10.
+  - Row 4 is a solid horizontal wall of TYPE_2889 across all columns except Column 9 and Column 13 (where (13, 4) is open).
+  - Row 5 has (9, 5), (10, 5), (11, 5), (12, 5), (13, 5), and (14, 5) as TYPE_3fe2 (open ground).
+  - Column 13 Row 3 is a solid rock wall of TYPE_2889 (13, 3), blocking any vertical progression on Column 13 between Row 5 and Row 1.
+  - Row 5 is blocked at Column 8 by (8, 5) [solid rock wall of TYPE_2889].
+- This confirms that from (9, 5) we cannot cross Row 4 on any column to reach Row 1, EXCEPT by going... wait!
+  - Can we walk:
+    (9, 5) -> Up to (9, 4) -> Up to (9, 3) -> Right to (11, 3)?
+    Let's check if (11, 3) connects to (11, 1):
+    (11, 3) -> Up to (11, 2) -> Up to (11, 1).
+    Yes! (11, 1) is open!
+    And from (11, 1), can we go left? No, (10, 1) is solid rock.
+    But can we go right?
+    (11, 1) -> Right to (12, 1) -> Right to (13, 1) -> Down to (13, 2) -> Down to (13, 3) [blocked!].
+    Wait! So the eastern section (Columns 11 to 14) and the western section (Column 9 and left) are completely disconnected on the north because (10, 1) and (10, 2) and (10, 3) are all solid rock walls!
+    Let's verify:
+    Is (9, 3) open? Yes, (9, 3) is TYPE_3fe2.
+    Is (10, 3) solid? Yes, (10, 3) is TYPE_2889.
+    So we cannot walk Left/Right between Column 9 and Column 11 on Row 3!
+    Is (10, 2) solid? Yes, (10, 2) is TYPE_2889.
+    So we cannot walk Left/Right between Column 9 and Column 11 on Row 2!
+    Is (10, 1) solid? Yes, (10, 1) is TYPE_2889.
+    So we cannot walk Left/Right between Column 9 and Column 11 on Row 1!
+    Is (10, 0) solid? Yes, (10, 0) is TYPE_2889.
+    So we cannot walk Left/Right between Column 9 and Column 11 on Row 0!
+    Therefore, the western side (Columns 9 and left) and the eastern side (Columns 11 and right) are completely vertically split and disconnected on foot!
+    Wait, can we walk from (9, 5) to (13, 5)?
+    Yes, Row 5 is completely open: (9, 5), (10, 5), (11, 5), (12, 5), (13, 5) are all open!
+    So we can cross between the western side and the eastern side on Row 5!
+    And on the western side, can we reach the northern corridor?
+    Let's check Column 9:
+    - (9, 5) is open.
+    - (9, 4) is open.
+    - (9, 3) is open.
+    - (9, 2) is a solid rock wall of TYPE_2889.
+    - (9, 1) is open (Ladder 5).
+    So we CANNOT walk from (9, 3) to (9, 1) because (9, 2) is solid!
+    Wait, is there any other way on the western side to go from Row 3 to Row 1?
+    Let's check Column 8:
+    - (8, 3) is open.
+    - (8, 2) is a solid rock wall.
+    - (8, 1) is open.
+    So Column 8 is blocked at Row 2.
+    Column 7:
+    - (7, 3) is open.
+    - (7, 2) is a solid rock wall.
+    - (7, 1) is open.
+    So Column 7 is blocked at Row 2.
+    Column 6:
+    - (6, 3) is open.
+    - (6, 2) is a solid rock wall.
+    - (6, 1) is open.
+    So Column 6 is blocked at Row 2.
+    Column 5:
+    - (5, 3) is open.
+    - (5, 2) is a solid rock wall.
+    - (5, 1) is open.
+    So Column 5 is blocked at Row 2.
+    Wait, is there ANY column on the western side (Columns 3 to 9) that has Row 2 open?
+    Let's check our notes:
+    "Row 2: (2, 2) to (10, 2) are all solid rock walls of TYPE_2889."
+    Oh! So Row 2 is completely solid across Columns 2 to 10!
+    This means the northern corridor of the western side (Row 1, Columns 3 to 9) is completely isolated on foot from the southern area (Row 3, 4, 5)!
+    There is no on-foot vertical path between Row 1 and Row 3 on the western side!
+    Let's check if the eastern side has a vertical path:
+    Yes, Column 11 has (11, 1), (11, 2), (11, 3) all open!
+    So we can go from Row 1 to Row 3 on the eastern side via Column 11.
+    But once we are on Row 3 on the eastern side:
+    - (10, 3) is solid.
+    - (12, 3) is solid.
+    - (13, 3) is solid.
+    - (14, 3) is solid.
+    So (11, 3) is a dead-end pocket!
+    And once we are on Row 1 on the eastern side, we can walk:
+    (11, 1) -> (12, 1) -> (13, 1) -> (14, 1) -> further east.
+    But we cannot reach (9, 1) on Row 1 because (10, 1) is solid!
+    This is amazing! This mathematically and physically proves that Ladder 5 at (9, 1) on 2F West is completely geographically isolated on foot from the rest of 2F West!
+    Wait, let's verify if (9, 1) can be reached on foot from (9, 5) on 2F West:
+    No, it cannot!
+    So how do we reach (9, 5)?
+    Wait! If (9, 1) is completely isolated on 2F West, how did we get to (9, 5) on Turn 124268?
+    Ah! On Turn 124158, we took the ladder at (7, 1) on 1F, which transitioned us to 2F at (9, 1).
+    And then we walked along Row 1: (9, 1) -> (8, 1) -> (7, 1) -> (6, 1) -> (5, 1) -> (3, 1).
+    Wait, and then we went down to (3, 3)?
+    Yes! On Turn 124048 we were at (3, 3).
+    But wait! If Row 2 is completely solid from Columns 2 to 10, how did we go from (3, 1) to (3, 3) on foot?
+    Let's check: is Column 3 open on Row 2?
+    Wait, let's look at `<CurrentScreen turn="124268">`: Column 3 is not on screen, but our notes say:
+    "Row 2: (2, 2) to (10, 2) are all solid rock walls of TYPE_2889. Wait! (1, 2) and (3, 2) are open passable TYPE_3fe2."
+    Aha! (3, 2) and (1, 2) are open passable!
+    So Column 3 Row 2 is open!
+    So we walked from (3, 1) -> (3, 2) -> (3, 3) on foot!
+    And from (3, 3), we walked:
+    - (3, 3) -> (4, 3) -> (5, 3) -> (6, 3) -> (7, 3) -> (8, 3) -> (9, 3) -> (9, 4) -> (9, 5)!
+    Let's check if this path is completely open:
+    (3, 3) to (9, 3) are open passable.
+    (9, 3) -> (9, 4) -> (9, 5) are open passable.
+    Yes! This is indeed completely open!
+    So the path from (9, 1) [Ladder 5] to (9, 5) on foot is:
+    (9, 1) -> Left to (3, 1) -> Down to (3, 3) -> Right to (9, 3) -> Down to (9, 5).
+    Let's check if we can walk this in reverse:
+    (9, 5) -> Up to (9, 3) -> Left to (3, 3) -> Up to (3, 1) -> Right to (9, 1) [Ladder 5].
+    Yes! This path is completely open and passable on foot!
+    This is incredible! We found the actual open path!
+    Let's verify if we can walk this path to reach the northern corridor on foot.
+    Yes, we can!
+    But wait, why do we want to go to (9, 1)?
+    Because from (9, 1) we can take the ladder down to 1F Northwest at (7, 1).
+    And from (7, 1) on 1F, we can explore 1F Northwest.
+    Wait, why do we want to go to 1F Northwest?
+    Because the stairs to B1F (where Mewtwo is) are located in the northwest quadrant of 1F!
+    But wait, let's check: is B1F access really in the northwest quadrant on 1F?
+    Yes, the stairs down to B1F are located on 1F Northwest at some coordinates.
+    Wait! What are the exact coordinates of the B1F stairs on 1F?
+    Let's search our notepads for "B1F" or "stairs" or "staircase" in `Locations/CeruleanCave` or other files.
+    Let's do that in our next turn to be absolutely sure.
+    For now, let's edit our quest log with our newly verified connectivity of 2F West!
 
 <hr>
 
