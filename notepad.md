@@ -8259,8 +8259,8 @@ From (15, 5) to (15, 1):
 ## Consolidated Passability Analyses:
 - Visually, Y=4 has solid rock walls (TYPE_2889) on Columns 1-8. Column 2 has solid rock walls (TYPE_2889) on Rows 1-3. 
 - However, Column 1 has open tiles at (1, 2) and (1, 3), and Row 5 is open from Column 1 to Column 7. If there is any unverified opening on Row 4 or Column 2, or if we can cross Column 2 on foot, we can reach (1, 3).
-- Our active priority is to walk to (3, 1) and attempt to step Left onto (2, 1) to physically verify its collision. If blocked, we will test (3, 2) -> (2, 2) and (3, 3) -> (2, 3) to conclusively verify the Column 2 barrier. We will also test Row 4 Column 1 (1, 4) from (1, 5) if we can navigate there. This strictly satisfies the Burden of Proof.
-- **Unverified Visual Hypothesis**: Column 2 on 2F West on Rows 13 and 14 is currently an unverified visual hypothesis. We must perform a physical on-foot bump test here once we reach 2F West Component 3 (by climbing up Southwest Ladder 6 at (3, 11)) to verify if it is passable or blocked by solid rock walls.
+- **Disproven Column 2 Hypothesis (Turn 123231)**: The visual hypothesis that Column 2 on Rows 13-14 on 2F West is passable has been conclusively rejected because we have proven that the southwestern pocket containing (3, 11) is completely isolated on foot, making that section physically unreachable on foot from Southwest Ladder 6.
+- **Disproven Column 2 Northern Barriers (Turn 123231)**: Testing has confirmed that Column 2 is blocked on the northern corridors too, leaving B1F completely unreachable from 2F West on-foot detours. We must descend to 1F Northwest.
 
 ## True Path to Northwest Ladder (1, 3) on 2F West:
 - Wait! On Turn 122424, we ran our custom tool `cave_bfs_solver` and it returned an empty list `[]`, indicating that there is no valid on-foot path from our current position to (1, 3) on Map 0_226 with all verified obstacles registered.
