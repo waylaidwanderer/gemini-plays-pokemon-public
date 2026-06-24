@@ -895,3 +895,16 @@ Can we walk:
   1. (9, 1) [Ladder 5] -> Left 5 steps -> (4, 1)
   2. (4, 1) -> Down 2 steps -> (4, 3) (Wait! On Row 2, Columns 2 to 10 are solid walls, but is Column 4 Row 2 solid? Let's check! Wait, we had (5,2) to (10,2) in impassable, but did we put (4,2) in impassable? No! Wait, is (4, 2) open on 2F West? Wait, let's verify if (4,2) is open. But wait, on 1F Northwest, (4, 2) is a solid rock wall. But on 2F West, is (4, 2) open? Let's check our notes: "Row 2: (2, 2) to (10, 2) are all solid rock walls of TYPE_2889. Wait! (1, 2) and (3, 2) are open passable." That means (4, 2) is indeed a solid rock wall! Why didn't the BFS put (4, 2) in impassable? Ah, because we forgot to add (4, 2) to the impassable set in that Python script! Let's rerun the BFS with (4, 2) added as solid rock.)
 ## - Turn 125717: Standing on Ladder 5 at (9, 1) on Map 0_226 on foot. We are now abandoning the unverified and disproven 2F West loops, and redirecting our efforts directly to testing Map 0_228 (1F) Column 3 Row 7 on-foot passability, as suggested by the overwatch agent. First, we will walk Down to trigger Ladder 5 and descend to 1F at (7, 1). Then we will proceed with the 1F Southwest journey.
+## Reflection and Self-Assessment on Turn 125748:
+1. **Immediate Execution**: I am actively surfing south along the western canal on Map 0_228 (1F) to dismount at Water Ramp 2 (11, 13) and then walk to Southwest ground level and test (3, 7).
+2. **Notepad Hygiene**: This log entries are up-to-date and organized. We will edit our post-game log to keep track of this new experiment.
+3. **Map Hygiene**: Map markers for (3, 7) or relevant locations on 1F will be added as we explore and confirm passability.
+4. **Five Discrete Custom Tools/Agents to Design**:
+   - `b1f_mewtwo_encounter_rate_calculator`: Estimates encounter frequencies on B1F.
+   - `b1f_bfs_pathfinder`: Custom solver for B1F paths.
+   - `mewtwo_catch_calculator`: Specialized battle capture probability tool.
+   - `b1f_item_tracker`: Custom floor-item logger.
+   - `pp_alert_monitor`: Combat PP tracker.
+5. **Tool Maintenance**: We are planning movement manually because `cave_bfs_solver` has incomplete static walls on 1F. We will maintain manually-planned routes rather than relying blindly on `autopress_buttons`.
+6. **Goal Clarity**: WHAT: Test Column 3 Row 7 passability on 1F (Map 0_228) on foot. HOW: Surf to (11, 13), walk to (3, 17) via Row 17, and then walk North to test (3, 7).
+7. **Error Analysis**: We recognize that the overwatch agent suggests checking Column 3 Row 7 on 1F, which could be the breakthrough needed.
