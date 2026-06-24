@@ -130,3 +130,7 @@
 - **Turn 122908 Physical Test**: Standing at (1, 8) facing Up on Map 0_228, we pressed Up to step onto (1, 7).
 - **Result**: Direct bump collision, player remained at (1, 8).
 - **Definitive Conclusion**: Tile (1, 7) on Map 0_228 is 100% physically a solid, impassable rock wall barrier on foot. This physically, empirically, and mathematically proves that Row 7 is a completely solid vertical partition barrier on the west side of Map 0_228, confirming that the northwest quadrant containing Northwest Ladder (1, 3) is completely physically isolated on foot from the southwest area.
+- **(19, 1) Rock Wall Blockage (Verified Turn 123040)**:
+  - While previously hypothesized as passable, we have physically verified that (19, 1) is a solid, impassable rock wall of TYPE_2889 on Map 0_226 (2F).
+  - Verification: Standing at (18, 1), attempting to walk Right onto (19, 1) resulted in a solid collision bump, proving (19, 1) is impassable on foot.
+  - This has led us to map out a bypass route on 2F West from (15, 1) to (27, 4) going around (19, 1), which we successfully navigated before confirming that both Ladder 2 at (29, 1) and Ladder 4 at (22, 6) are completely geographically isolated on foot from our section.
