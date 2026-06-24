@@ -123,3 +123,11 @@ From (15, 5) to (15, 1):
   - Tested (2, 12) by standing at (2, 11) and attempting to walk Down. Result: BUMP (visited 0 tiles), remained at (2, 11). (2, 12) is physically verified as solid rock of TYPE_2889.
   - These tests conclusively disprove any on-foot bypass route through this southwest pocket to reach Column 0 or Column 1, confirming that Southwest Ladder 6 at (3, 11) leads to a completely isolated dead-end component of 14 tiles on 2F West. We must backtrack back down Southwest Ladder 6 to 1F to continue our route to Mewtwo.
 - **Turn 123674**: Successfully mounted the water at (11, 14) on 1F (Map 0_228) and surfed Left to (9, 14). Currently executing the surfing path to Water Ramp 4 at (15, 3). Current plan: Surf Up to (9, 6), Right to (14, 6), Up to (14, 4), Right to (15, 4), Up to (15, 3) to dismount on foot.
+- **Row 5 Passability/Horizontal Connection**: We have empirically verified that Row 5 contains open ground (TYPE_3fe2) across Columns 9 to 14. Specifically, (9, 5), (10, 5), (11, 5), (12, 5), (13, 5), and (14, 5) are all TYPE_3fe2 (passable). This provides a horizontal bypass connecting the west area of Column 9 with the east area of Column 13!
+- **Column 13 Passability/Vertical Connection**: Column 13 is open vertically from Row 1 to Row 5, containing (13, 1), (13, 2), (13, 3), (13, 4), and (13, 5) as TYPE_3fe2 (passable).
+- **Corrected 2F West Connectivity**: This connects Ladder 5 at (9, 1) directly to the main body of 2F West on foot! The horizontal bypass is:
+  - Down 4 steps from (9, 1) to (9, 5).
+  - Right 4 steps from (9, 5) to (13, 5).
+  - Up 4 steps from (13, 5) to (13, 1).
+  - Left 2 steps from (13, 1) to (11, 1).
+  This path bypasses all solid rock walls and successfully links our starting component to the rest of the 2F West floor (including Ladder 6, Ladder 4, Ladder 3, and Ladder 2).
