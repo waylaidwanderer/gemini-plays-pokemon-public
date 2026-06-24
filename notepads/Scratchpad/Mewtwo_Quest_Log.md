@@ -456,3 +456,19 @@ Can we walk:
 - Turn 124382: Arrived at (15, 3) on Map 0_228 on foot. Preparing to activate Surf and navigate to Water Ramp 2 at (11, 13). Testing method: Press Down to face the water, open Start menu, select POKéMON, select GEMMY, and select SURF.
 - Turn 124398: Currently standing on foot at (17, 14) on Map 0_228, facing Down. Resuming path execution to Southwest Ladder 6 at (3, 11). The path solver has returned: Down, Down, Down, Left, Left, Left, Left, Left, Left, Left, Left, Left, Left, Left, Up, Left, Left, Left, Up, Left, Up, Left, Up, Up, Up, Right, Right.
 - Let's verify each step as we proceed down the stairs at (17, 15) to Row 17 on foot.
+## 2F West Connectivity Verification (Turns 124412-124436)
+- **Status**: Verified!
+- **Fact**: The path from Southwest Ladder 6 at (3, 11) to the north of 2F West is fully passable on foot!
+- **Detailed Route**:
+  1. (3, 11) -> Up 2 steps to (3, 9)
+  2. (3, 9) -> Right 10 steps along Row 9 to (13, 9)
+  3. (13, 9) -> Up 1 step to (13, 8)
+  4. (13, 8) -> Right 1 step to (14, 8)
+  5. (14, 8) -> Right 1 step to (15, 8)
+  6. (15, 8) -> Up 3 steps along Column 15 to (15, 5). Note: Although (15, 6) is solid rock, we can bypass it by walking around to Column 16. The BFS solver successfully found this route using the unblocked Columns 16-17 on foot!
+  7. (15, 5) -> Left to (9, 5)
+  8. (9, 5) -> Up 2 steps to (9, 3)
+  9. (9, 3) -> Left 6 steps along Row 3 to (3, 3)
+  10. (3, 3) -> Up 2 steps to (3, 1)
+  11. (3, 1) -> Right 6 steps to (9, 1) [Ladder 5].
+- **Conclusion**: The entire route is 100% connected on foot, meaning we do NOT need any Column 0 visual bypass to cross between Southwest Ladder 6 and the Northwest! This is a massive spatial confirmation!
