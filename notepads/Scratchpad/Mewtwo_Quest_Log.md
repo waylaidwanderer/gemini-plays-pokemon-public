@@ -161,3 +161,79 @@ From (15, 5) to (15, 1):
 - Programmatic BFS shows a theoretical path on 1F Northwest connecting Ladder 5 base (7, 1) to Northwest Ladder (1, 3) via:
   (7, 1) -> Down to (7, 4) -> Left to (4, 4) -> Up to (4, 3) -> Left to (1, 3).
 - We will now backtrack to (9, 1) [Ladder 5] on 2F West, descend to 1F Northwest, and physically test the passability of (4, 4) and (4, 3) on foot.
+- **Turn 124084**: Arrived on 1F Northwest at (7, 2). Current plan: Physically verify if there is an on-foot connection to the western side of the northwest quadrant. Specifically, we want to test if (4, 4) is open, or if the quadrant is completely isolated.
+- Let's look at the tiles on screen:
+  - (7, 2) is where we are standing.
+  - (6, 2) and (5, 2) are open TYPE_2770.
+  - (5, 3) is a solid rock wall of TYPE_2889.
+  - (5, 4) is open TYPE_3fe2.
+  - (4, 4) is open TYPE_3fe2.
+  - (3, 4) is open TYPE_3fe2.
+  - (3, 5) is solid rock wall.
+  - (4, 5) is solid rock wall.
+  - (5, 5) is open TYPE_3fe2.
+  - (3, 6) is open TYPE_3fe2.
+  - (4, 6) is open TYPE_3fe2.
+  - (5, 6) is open TYPE_3fe2.
+- Wait, let's examine the connections! If (5, 2) is open and (5, 3) is solid rock, we can't walk straight down from (5, 2) to (5, 4).
+Wait, can we walk from (5, 2) to (6, 2) -> (7, 2) -> (7, 3) [blocked]... wait, where can we go?
+Wait, are there any other open tiles? Let's check:
+Can we walk:
+  - (7, 2) -> (7, 1) (Ladder 5) -> (7, 0) [open] -> (6, 0) [open] -> (5, 0) [open] -> (5, 1) [open] -> (5, 2) [open].
+  Wait, from (5, 2), we are blocked on the left by (4, 2) [blocked], and down by (5, 3) [blocked].
+  From (5, 1), we are blocked on the left by (4, 1) [blocked].
+  From (5, 0), we are blocked on the left by (4, 0) [blocked].
+  So the entire left side of columns 5, 6, 7 on Rows 0, 1, 2 is blocked by Column 4 (which has solid rock walls at (4,0), (4,1), (4,2)) and Row 3 (which has a solid rock wall at (5,3)).
+  Wait! Is there any way to go down to Row 4?
+  Let's check if any of the tiles on Row 3 are open:
+  - (3, 3) is solid rock wall.
+  - (4, 3) is solid rock wall.
+  - (5, 3) is solid rock wall.
+  - (6, 3) is solid rock wall.
+  - (7, 3) is solid rock wall.
+  - (8, 3) is solid rock wall.
+  - (9, 3) is solid rock wall.
+  - (10, 3) is solid rock wall.
+  - (11, 3) is solid rock wall.
+  - (12, 3) is solid rock wall.
+  Yes! Row 3 is an unbroken horizontal line of solid rock walls (TYPE_2889) across all visible columns from 3 to 12!
+  Let's verify this on the screen:
+  Row 3: (3, 3), (4, 3), (5, 3), (6, 3), (7, 3), (8, 3), (9, 3), (10, 3), (11, 3), (12, 3) are all labeled TYPE_2889!
+  This means Row 3 is a solid rock wall barrier, completely dividing the north area (Rows 0, 1, 2) from the south area (Rows 4, 5, 6)!
+  Since we are standing on the north side at (7, 2), and Row 3 is completely solid, we CANNOT walk south to Row 4 or Row 5 or Row 6 on any column from 3 to 12!
+  Wait, does the barrier end further east?
+  Let's check our previous exploration or look to the east:
+  Rows 0, 1, 2 continue east to column 28 (Ladder 2).
+  But is there any vertical passage down from Row 2 to Row 4 further east?
+  Let's search our notepads or check if there is an open vertical passage.
+  Wait! If we can go east along Row 0, 1, 2 to the eastern half of the map, and we can't walk south, is there another staircase or way?
+  Let's check `Locations/CeruleanCave`:
+  "We empirically verified on Turn 112601 that Column 19 on Row 15 is physically impassable on foot, which definitively proves that the eastern entrance platform of 1F is completely physically isolated on foot from the western/southern portion of 1F."
+  Wait, what about the water canal? We can Surf on the water!
+  But we are currently in the 1F Northwest corner on foot. If we walk east on foot along Row 0, 1, 2:
+  Does it lead to a water ramp?
+  Ah! (23, 3) is Water Ramp 1. (15, 3) is Water Ramp 4.
+  Wait, is Row 3 open at Column 23 or Column 15?
+  Yes, (15, 3) is Water Ramp 4 and (23, 3) is Water Ramp 1, which are on Row 3 and are water ramps!
+  So if we walk east to Column 15 or 23, we can reach those ramps and use SURF to get onto the water!
+  But wait, our goal is to reach the stairs to B1F.
+  Where are the stairs to B1F on Map 0_228 (1F)?
+  Let's look at our map markers and search results.
+  Wait, we searched for "B1F" and found:
+  `[Scratchpad/Mewtwo_Quest_Log]`
+  `L15: - The true master path to reach B1F is:`
+  `L16: - Ascend Southwest Ladder 6 at (3, 11) to 2F West Component 3.`
+  `L17: - Navigate on 2F West Component 3 from (3, 11) to the Northwest Ladder (1, 3).`
+  `L18: - Descend Northwest Ladder (1, 3) to 1F Northwest.`
+  `L19: - Take the stairs on 1F Northwest to B1F.`
+  
+  And also:
+  `[Locations/CeruleanCave]`
+  `L83: - Northwest Ladder (B1F Access):`
+  `L84: - Located on 1F at (1, 3) (labeled TYPE_3fe2). Ascending this ladder warps the player to 2F at (1, 3).`
+  `L85: - Located on 2F at (1, 3) (labeled [=], TYPE_3fe2). Descending this ladder warps the player to 1F at (1, 3). This is the critical gateway to the northwest isolated quadrant of 1F and the B1F stairs.`
+
+  Wait! So the Northwest Ladder on 1F is at (1, 3)!
+  If the Northwest Ladder is at (1, 3) on 1F, where are the stairs to B1F?
+  Wait, does the B1F staircase lie in the northwest pocket on 1F, next to the (1, 3) Northwest Ladder?
+  Let's search our notepads for the exact coordinates of the B1F stairs in Cerulean Cave!
