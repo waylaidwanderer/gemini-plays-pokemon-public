@@ -132,3 +132,4 @@ From (15, 5) to (15, 1):
   - Up 4 steps from (13, 5) to (13, 1).
   - Left 2 steps from (13, 1) to (11, 1).
   This path bypasses all solid rock walls and successfully links our starting component to the rest of the 2F West floor (including Ladder 6, Ladder 4, Ladder 3, and Ladder 2).
+- **Turn 123876**: Successfully fled from the wild Golbat at (11, 13) on 1F. Now proceeding on foot to the central platform stairs at (17, 15).
