@@ -97,3 +97,15 @@ From (15, 5) to (15, 1):
 - Turn 122760: Started post-battle on 2F West at (10, 9). BFS solver incorrectly found a path assuming (1, 10) was open.
 - **Turn 122773 Physical Collision Test of (1, 10)**: Standing at (2, 10) facing Left, pressed Left. Result was a solid bump collision, remaining at (2, 10) on foot.
 - **Definitive Conclusion**: Tile (1, 10) on Map 0_226 is 100% physically a solid, impassable rock wall of TYPE_2889. This physically, empirically, and mathematically disproves the BFS path that assumed (1, 10) was open. The southwest pocket on 2F West (consisting of Columns 1-3, Rows 9-11) is indeed a completely isolated dead-end pocket. There is absolutely no walkable path on foot to the Northwest Ladder (1, 3) from Southwest Ladder 6 (3, 11) on 2F West. We must backtrack to 1F.
+
+## Column 0 Row 7 Passability Empirical Test Plan on Map 0_228 (1F):
+- **Hypothesis**: Column 0 on Row 7 of Map 0_228 is passable on foot, allowing a direct on-foot connection between the southwest ground area (Row 11) and the northwest isolated quadrant (Row 3).
+- **Testing Methodology**:
+  1. From our current position at (7, 1) on 1F Northwest, walk on foot to Water Ramp 4 at (15, 3).
+  2. Activate SURF and mount the water.
+  3. Surf back to Water Ramp 2 at (11, 13).
+  4. Dismount on foot and descend to the ground level on the west side.
+  5. Navigate to (1, 8), walk Left to (0, 8) on foot.
+  6. Attempt to walk Up from (0, 8) onto (0, 7) by pressing Up.
+  7. If we successfully step onto (0, 7), the hypothesis is PROVEN, meaning we have a direct path to Northwest Ladder (1, 3). If we get a collision bump and remain at (0, 8), the hypothesis is DISPROVEN, confirming (0, 7) is indeed solid rock.
+  We will execute this test and record the result here.
