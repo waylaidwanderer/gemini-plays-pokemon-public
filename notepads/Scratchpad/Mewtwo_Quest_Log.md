@@ -107,3 +107,9 @@
   - Wait, let's verify if the stairs to B1F are actually located on 1F Northwest on foot from (7, 1)!
   - Let's look at the connection from (7, 1) to (1, 3) on 1F.
   - Let's backtrack to 1F now via Ladder 5 to check this.
+## Turn 127520: Backtracking to Ladder 5
+- Verified that (9, 2) is solid rock, preventing on-foot vertical movement from (9, 3) to the ladder at (9, 1).
+- Discovered that Row 3 is completely open, but Row 2 is blocked except at Column 3 (3, 2).
+- Thus, the only open path to the ladder at (9, 1) is: (9, 3) -> Left 6 to (3, 3) -> Up 2 to (3, 1) -> Right 6 to (9, 1).
+- We were walked Left to (7, 3) when we encountered a wild Dodrio. We successfully fled using the `flee_battle` custom tool.
+- Now continuing Left to (3, 3).
