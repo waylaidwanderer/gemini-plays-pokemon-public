@@ -71,3 +71,4 @@
     - (17, 12) -> Right to (18, 12) -> Down to (18, 13) -> Down to (18, 14) -> Down to (18, 15) -> Left to (17, 15) [Stairs].
   - The step sequence is: Right, Right, Down, Down, Down, Right, Down, Down, Down, Left. (Total 10 steps).
   - Let's execute this path!
+- Turn 127088: Investigating the path on Cerulean Cave 1F. We are at (1, 14) on Map 0_228 (1F). Let's climb up the stairs at (1, 13) to (1, 12).
