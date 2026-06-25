@@ -8279,14 +8279,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - In standard Gen 1, the stairs to B1F are actually located at (3, 11)? Or (4, 11)? Or (29, 3)?
 - Wait! Let's search all our notepads for "B1F" to see where the entrance to B1F actually is! This is extremely important because we might have the coordinates or the ladder name wrong.
 - Let's execute search_notepads with query "B1F".
-## Turn 126895: Row 0/1 Bypass Disproved
-- We have visually verified on Map 0_226 (2F West) that the entire Row 0 is blocked from Column 2 to Column 6 by solid rock walls of TYPE_2889.
-- Row 1 is blocked at (2, 1) by a solid rock wall of TYPE_2889.
-- This means there is NO on-foot path between (9, 1) and (1, 3) on 2F West. The "2F Row 0 bypass route" was an unverified hypothesis that has now been definitively disproved.
-- We will immediately backtrack to Ladder 5 at (9, 1) and descend back to 1F.
 
-- We are currently standing at (6, 1) on Map 0_226.
-- The path back to (9, 1) is: (6, 1) -> (7, 1) -> (8, 1) -> (9, 1). That's 3 steps Right.
 ## Turn 127000: Realization of the Southwest-Water Bypass Route
 - Stand at (15, 9) on Map 0_228 (1F), on foot, facing DOWN.
 - Based on <CurrentScreen turn="127000">, let's document the actual blockages observed:
