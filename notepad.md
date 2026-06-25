@@ -8260,8 +8260,6 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Conclusion: There is indeed NO connection on foot between (3, 1) and (1, 1)/(2, 1) on 2F West. This confirms that the Northwest Ladder at (1, 3) cannot be reached via Row 1 from (9, 1). We must backtrack and descend to 1F. Let's do this now. Our path back to Ladder 5 at (9, 1) is: (3, 1) -> (4, 1) -> (5, 1) -> (6, 1) -> (7, 1) -> (8, 1) -> (9, 1). That's 6 steps Right.
 - Turn 126706: We are on 2F (Map 0_226) standing on the ladder at (9, 1). Let's step off to the left (8, 1) and then step back onto (9, 1) to go down to 1F at (7, 1). We verified that 2F Northwest is disconnected from 2F West because (2, 1) is solid rock, which we bumped into on Turn 126642.
 - Let's verify our position after stepping off and back on.
-- Turn 126722: Successfully descended to Cerulean Cave 1F at (7, 1) after verifying that 2F Northwest is an isolated pocket on 2F. Now, we are standing on the northern landmass platform. Our goal is to walk east along Row 1/2 to verify if we can reach Water Ramp 4 at (15, 3) or if there are other paths.
-- We will walk Right 5 steps from (7, 1) to (12, 1) to see the eastern portion of the platform.
 
 ## Turn 126846: Discovery of Separated Sections
 - We have visually verified on Map 0_228 (1F) that the northernmost corridor (Rows 0-2) is completely blocked from reaching the area below it (Row 4 and lower) on foot.
