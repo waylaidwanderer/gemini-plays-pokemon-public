@@ -78,3 +78,32 @@
 - Climb Ladder 5 to reach 2F Northwest at (9, 1).
 - Once on 2F West, walk to Column 1 Row 5 (1, 5) and test the passability of (1, 4) to verify if it is connected to (1, 3). This is our primary hypothesis to resolve the "isolated ladder" mystery!
 - Action: Executing movement to (7, 1) and climbing the ladder.
+## Turn 127491: 2F West Structural Connectivity and Isolation Verification
+- Stand at (5, 3) on Map 0_226 on foot.
+- Visual status on Row 6 and Row 4 from <CurrentScreen turn="127491">:
+  - Row 4: All tiles from Column 1 to 8, plus Column 10 are TYPE_2889 (solid rock wall). ONLY (9, 4) is TYPE_3fe2 (passable corridor).
+  - Row 5: Column 8 is TYPE_2889 (solid rock wall).
+  - Row 6: Columns 1, 2, 3, 4, 5, 7, 8, 9, 10 are all TYPE_2889 (solid rock wall). Only (6, 6) is TYPE_3fe2 (passable floor), but it is isolated from the east and west because (5, 6) and (7, 6) are solid rock walls.
+- This creates an absolute physical barrier for vertical crossover between the upper half (Rows 0-3) and the lower half (Row 5 and below) of 2F West.
+  - Specifically, to reach Row 5 from Row 3, we must walk through Column 9: (9, 3) -> (9, 4) -> (9, 5).
+  - However, once we reach (9, 5), there are no further pathways:
+    - Left: (8, 5) is TYPE_2889 (solid rock wall).
+    - Down: (9, 6) is TYPE_2889 (solid rock wall).
+    - Right: (10, 5) is TYPE_3fe2 (passable), but (10, 6) is TYPE_2889 (solid rock wall) and (11, 5) is TYPE_2889 (solid rock wall), making (10, 5) a complete dead end.
+- This rigorously and empirically proves that there is NO on-foot path between the upper corridors (where Ladder 5 at (9, 1) lands) and the southwestern corridors (Row 5 and below) on 2F West.
+- Therefore, Northwest Ladder (1, 3) on 2F West is completely unreachable on foot from Ladder 5 at (9, 1).
+- Furthermore, Northwest Ladder (1, 3) is surrounded by:
+  - Row 4 Column 1 (1, 4): TYPE_2889 (solid rock wall).
+  - Row 3 Column 2 (2, 3): TYPE_2889 (solid rock wall).
+  - Row 2 Column 2 (2, 2): TYPE_2889 (solid rock wall).
+  - Row 1 Column 2 (2, 1): TYPE_2889 (solid rock wall).
+- This confirms that the Northwest Ladder at (1, 3) on 2F West is a completely isolated 2-tile component consisting of only (1, 2) and (1, 3). It can NEVER be reached from any other part of 2F on foot.
+- This is a definitive proof of the "isolated ladder" topology. The only way to access (1, 3) on 2F is to climb UP from 1F Northwest at (1, 3).
+- But since 1F Northwest is also isolated on foot (as Column 4 Row 1 and Row 2 are solid walls), this means that the northwest quadrant on 1F (where the stairs down to B1F are located) can ONLY be accessed by climbing up Ladder 5 at (7, 1) on 1F, then... wait!
+- Let's rethink this:
+  - If 1F Northwest can only be accessed from the water canals on 1F, and we can dismount on 1F Northwest at (7, 1)...
+  - Can we walk from (7, 1) on 1F to (1, 3) on 1F?
+  - Wait, our previous note says: "Topological Proof of 2F West Isolation: Note that 2F West's southwestern pocket is completely isolated on foot from the rest of 2F, and its northern corridor (where Ladder 5 lands) is also a completely isolated 7-tile pocket with no horizontal or vertical connections to the rest of the floor. This means Northwest Ladder (1, 3) cannot be reached on foot from any of the standard ladders on 2F West. We must descend to 1F Northwest."
+  - Wait, let's verify if the stairs to B1F are actually located on 1F Northwest on foot from (7, 1)!
+  - Let's look at the connection from (7, 1) to (1, 3) on 1F.
+  - Let's backtrack to 1F now via Ladder 5 to check this.
