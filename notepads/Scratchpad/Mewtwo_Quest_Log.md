@@ -199,3 +199,10 @@
     Wait! What were the coordinates of that walk?
     Let's search our notepads for "126284" or "stairs" or "17, 15".
     Let's run `search_notepads` first to find where we documented this path.
+- Turn 127762: Escaped wild Hypno at (10, 17).
+- Traced the on-foot path from (10, 17) to the southwest stairs at (1, 13):
+  - Walk Left 7 steps to (3, 17).
+  - Walk Up 2 steps to (3, 15).
+  - Walk Left 2 steps to (1, 15).
+  - Walk Up 2 steps to (1, 13).
+  - Let's execute the first chunk of 9 steps: Left x7, Up x2. This should position us at (3, 15).
