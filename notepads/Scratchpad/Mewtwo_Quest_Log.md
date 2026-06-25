@@ -113,3 +113,89 @@
 - Thus, the only open path to the ladder at (9, 1) is: (9, 3) -> Left 6 to (3, 3) -> Up 2 to (3, 1) -> Right 6 to (9, 1).
 - We were walked Left to (7, 3) when we encountered a wild Dodrio. We successfully fled using the `flee_battle` custom tool.
 - Now continuing Left to (3, 3).
+- Turn 127747: Dismounted on foot at Water Ramp 2 at (11, 13) after surfing from Water Ramp 4 at (15, 3) through the Row 6-7 water crossover.
+- Let's execute the on-foot path from (11, 13) to the central platform stairs at (17, 15).
+  - Path found by solver: ["Up", "Right", "Right", "Right", "Down", "Down", "Down", "Right", "Right", "Right"]
+  - Wait, let's trace this path tile-by-tile to make sure we don't hit any walls or unexpected obstacles.
+    - Start: (11, 13)
+    - Up: (11, 12) [TYPE_2770, passable]
+    - Right: (12, 12) [TYPE_2770, passable]
+    - Right: (13, 12) [TYPE_2770, passable]
+    - Right: (14, 12) [TYPE_2770, passable]
+    - Down: (14, 13) [Wait! On the current screen, is (14, 13) TYPE_2889 solid? Oh, let's look: Row 13, Column 14 (14, 13) is TYPE_2889! Ah!
+    Let's double-check the current screen turn 127747 overlay:
+    - (14, 13) is indeed labeled TYPE_2889 (solid rock wall).
+    Wait, why did the BFS solver say "Down" at (14, 12)?
+    Let's check the BFS solver's impassable list for Map 0_228:
+    It contains: `(15, 13), (7, 16), (8, 16)...`
+    Wait, did it contain (14, 13)?
+    Ah! (14, 13) is NOT in the impassable set of the solver! But the screen shows (14, 13) is TYPE_2889!
+    Wait, what about (14, 14)? (14, 14) is TYPE_2889 as well!
+    Let's check Row 12, Column 14 (14, 12) on the screen: (14, 12) is TYPE_2770 (passable).
+    What about (15, 12)? (15, 12) is TYPE_2770 (passable).
+    What about (15, 13)? Labeled TYPE_3fe2 but it is impassable or a wall?
+    Wait, let's check our notes!
+    `- (15, 13) Rock Wall Blockage: Visually appearing as a rock wall but labeled TYPE_3fe2 in some overlays, (15, 13) is an impassable rock wall blocking any direct horizontal transition between Column 14 and Column 15 on Row 13.`
+    Ah!
+    Let's look at the current screen turn 127747:
+    - (15, 12) is TYPE_2770
+    - (15, 13) is TYPE_2889! Wait, on our screen, is (15, 13) TYPE_2889? No, looking at the grid cell (15, 13), it is labeled "TYPE_2889" on the screen! Oh, wait, the label says "TYPE_2889" in some cells, let's look at the overlay:
+    - (14, 10): TYPE_2889
+    - (15, 10): TYPE_2889
+    - (14, 11): TYPE_2889
+    - (15, 11): TYPE_2889
+    - (14, 12): TYPE_2770
+    - (15, 12): TYPE_2770
+    - (14, 13): TYPE_2889
+    - (15, 13): TYPE_2889
+    Wait, so Column 14 and 15 on Row 12 are both TYPE_2770 (passable)!
+    But Row 13 on Columns 14 and 15 are both TYPE_2889 (solid rock wall).
+    And Row 11 on Columns 14 and 15 are both TYPE_2889 (solid rock wall).
+    So Column 14 and 15 on Row 12 forms a horizontal bridge!
+    Let's check Column 16:
+    - (16, 12) is TYPE_2889 (solid rock wall).
+    Wait, so (16, 12) is a solid rock wall! We cannot walk Right from (15, 12) to (16, 12).
+    Let's check Column 16 Row 13 (16, 13): TYPE_2889 (solid rock wall).
+    Wait! Let's check Column 16 Row 14 (16, 14): TYPE_2770 (passable ground).
+    And Column 15 Row 14 (15, 14): TYPE_2770 (passable ground).
+    So can we walk from (15, 12)? We cannot go Right to (16, 12). Can we go Down to (15, 13)? No, (15, 13) is TYPE_2889 (solid rock wall).
+    Wait, so (15, 12) is a dead end?
+    Let's check:
+    - (14, 12) is TYPE_2770.
+    - (15, 12) is TYPE_2770.
+    - (14, 13) is TYPE_2889.
+    - (15, 13) is TYPE_2889.
+    - (16, 12) is TYPE_2889.
+    Wait, so if we walk from (11, 12) Right to (15, 12), we cannot go any further! It is blocked by (16, 12) on the right, and (15, 13) on the bottom, and (15, 11) on the top!
+    Wait, is this true? Let's check our notes!
+    `Turn 127000: Realization of the Southwest-Water Bypass Route`
+    `Stand at (15, 9) on Map 0_228 (1F), on foot, facing DOWN.`
+    `Based on <CurrentScreen turn="127000">, let's document the actual blockages observed:`
+    `- Row 12 is fully open horizontally: (11, 12) through (18, 12) are all TYPE_2770 (passable platform).`
+    Wait! "Row 12 is fully open horizontally: (11, 12) through (18, 12) are all TYPE_2770".
+    But on the current screen turn 127747:
+    - (16, 12) is labeled TYPE_2889!
+    Wait! Why is (16, 12) labeled TYPE_2889 on screen turn 127747, when Turn 127000 notes said "Row 12 is fully open horizontally"?
+    Let's look at the current screen turn 127747 overlay extremely carefully:
+    - Row 12, Column 16: Yes, it is indeed labeled "TYPE_2889" on the screen!
+    - Row 12, Column 15: Labeled "TYPE_2770".
+    - Row 12, Column 14: Labeled "TYPE_2770".
+    - Row 12, Column 13: Labeled "TYPE_2770".
+    - Row 12, Column 12: Labeled "TYPE_2770".
+    - Row 12, Column 11: Labeled "TYPE_2770".
+    Wait, so (16, 12) is indeed a solid rock wall!
+    Let's check Column 15:
+    - Row 14, Column 15: Labeled "TYPE_2889"!
+    - Row 15, Column 15: Labeled "TYPE_2889"!
+    - Row 16, Column 15: Labeled "TYPE_3fe2".
+    - Row 17, Column 15: Labeled "TYPE_3fe2".
+    Wait! Where is the stairs at (17, 15)?
+    Our map marker says: `(17, 15): 🪜 Stairs to central platform`
+    Wait! If (17, 15) is the stairs to the central platform, how do we reach it on foot from (11, 13)?
+    Let's run a quick python code to search our notepads for the exact path we took previously when we walked from the central platform to Water Ramp 2!
+    Wait, let's read the notepad edit history or use `run_code` to read our previous steps from context or other files.
+    Wait, let's look at the "Important Events" in the system message:
+    `[Turn 126284] I walked to the central platform stairs on Cerulean Cave 1F and descended to the ground floor, reaching the water ramp at (11, 13).`
+    Wait! What were the coordinates of that walk?
+    Let's search our notepads for "126284" or "stairs" or "17, 15".
+    Let's run `search_notepads` first to find where we documented this path.
