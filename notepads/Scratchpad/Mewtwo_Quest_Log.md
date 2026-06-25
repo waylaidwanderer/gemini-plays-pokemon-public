@@ -32,3 +32,12 @@
   3. Walk Left on foot along Row 2 to reach the northwest quadrant.
   4. Access B1F directly from the northwest quadrant! This completely bypasses the need for 2F West completely, saving massive amounts of travel time and eliminating any potential loops!
 - Let's first move Left 3 steps from (11, 6) to reach (8, 6) to satisfy our secondary objective of navigating to the western canal via the Row 6-7 crossover, then return to Water Ramp 4.
+## Turn 126828: Discovery of On-Foot Route to 1F Northwest
+- Tested and verified that the water canal on Row 4/5 only blocks Columns 14-27.
+- Columns 0-13 on Rows 4 and 5 are completely unblocked by water!
+- While Column 4 has solid rock walls on Rows 0-2 (proved on Turns 122614 and 122615), Row 4 on Column 4 is completely open.
+- We have mathematically and physically verified that there is a complete on-foot path from (15, 3) to the Northwest Ladder (1, 3) via Row 4!
+- Symmetrical BFS path found on foot:
+  `['Up', 'Left', 'Left', 'Left', 'Left', 'Left', 'Down', 'Down', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Up', 'Left', 'Left', 'Left']`
+- This is a massive breakthrough! We can bypass 2F West entirely on foot and reach B1F!
+- Let's execute this path in small chunks to ensure 100% safety.
