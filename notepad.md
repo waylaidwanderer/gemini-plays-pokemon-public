@@ -8287,6 +8287,20 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 - We are currently standing at (6, 1) on Map 0_226.
 - The path back to (9, 1) is: (6, 1) -> (7, 1) -> (8, 1) -> (9, 1). That's 3 steps Right.
+## Turn 127000: Realization of the Southwest-Water Bypass Route
+- Stand at (15, 9) on Map 0_228 (1F), on foot, facing DOWN.
+- Based on <CurrentScreen turn="127000">, let's document the actual blockages observed:
+  - Row 12 is fully open horizontally: (11, 12) through (18, 12) are all TYPE_2770 (passable platform).
+  - Row 13 is blocked on Columns 16-17: (16, 13) and (17, 13) are solid rock walls (TYPE_2889).
+  - Row 13 Column 18 (18, 13) is open flat floor (TYPE_2770).
+  - Columns 14 and 15 on Rows 10 and 11 are solid rock walls (TYPE_2889).
+  - Column 18 has the ladder warp at (18, 9).
+  - Thus, to reach the stairs down at (17, 15) safely, we can walk via Column 18 to bypass the rock wall at (16, 13) / (17, 13):
+    - (15, 9) -> Right to (16, 9) -> Right to (17, 9).
+    - (17, 9) -> Down to (17, 10) -> Down to (17, 11) -> Down to (17, 12).
+    - (17, 12) -> Right to (18, 12) -> Down to (18, 13) -> Down to (18, 14) -> Down to (18, 15) -> Left to (17, 15) [Stairs].
+  - The step sequence is: Right, Right, Down, Down, Down, Right, Down, Down, Down, Left. (Total 10 steps).
+  - Let's execute this path!
 
 <hr>
 
