@@ -15,3 +15,4 @@
 - Coordinates to traverse:
   - (9, 1) -> (8, 1) -> (7, 1) -> (6, 1) -> (5, 1).
   - Let's do this step-by-step and inspect Column 4/3/2/1 passability next.
+- Turn 126634: Investigating the path Left along Row 1. We are currently at (5, 1). To our left, (4, 1) and (3, 1) are TYPE_3fe2 (passable floor). Let's step left to (4, 1) and verify.
