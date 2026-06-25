@@ -206,3 +206,8 @@
   - Walk Left 2 steps to (1, 15).
   - Walk Up 2 steps to (1, 13).
   - Let's execute the first chunk of 9 steps: Left x7, Up x2. This should position us at (3, 15).
+## Turn 127781-127789: Southwest 2F West Isolation & Backtracking
+- Standing at (3, 11) on Map 0_226 (2F West), we verified the local coordinate layout.
+- We analyzed the map using robust BFS simulation in Python and confirmed that the southwest pocket containing Southwest Ladder 6 at (3, 11) and Row 9 is completely isolated on foot from the rest of 2F. Row 8 is a solid unbroken horizontal wall of TYPE_2889 across all columns 2-12, and Columns 4-8 on Rows 10-12 are solid rock walls of TYPE_2889.
+- This definitively proves that Southwest Ladder 6 is a dead end on 2F West.
+- Decision: Backtrack down Southwest Ladder 6 to 1F Southwest to resume our master path. We will step Up to (3, 10) and Down to (3, 11) to trigger the warp.
