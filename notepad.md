@@ -9251,3 +9251,9 @@ We can formulate 5 custom tool/agent ideas to optimize the endgame and Mewtwo se
 - **Goal Clarity**: Primary is to catch Mewtwo. Secondary is to explore 1F Northwest. Let's walk Right to (12, 1).
 
 <hr>
+
+<h1><code>cave_bfs_solver</code></h1>
+
+
+
+<hr>
