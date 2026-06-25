@@ -110,7 +110,6 @@
     - On Turn 123228, standing at (2, 11) on foot on Map 0_226, we attempted to walk Down to test (2, 12). Result: BUMP (visited 0 tiles), proving (2, 12) is indeed a solid rock wall of TYPE_2889 in this context.
     - These physical tests conclusively prove that the southwestern pocket containing Southwest Ladder 6 at (3, 11) (Rows 9-11, Columns 2-5) is completely and absolutely isolated on foot on Map 0_226, forming a dead-end component of exactly 14 tiles. There is no horizontal or vertical on-foot crossover to Column 1 or Column 0, requiring us to backtrack via 1F to proceed.
   - Southwest Ladder 6 at (3, 11) leads strictly to an isolated on-foot pocket of 14 tiles on 2F West. It is a complete dead end with no crossover to Northwest Ladder (1, 3).
-  - The ONLY topologically connected path to reach Northwest Ladder (1, 3) is via the 1F water canals to reach Ladder 5 at (7, 1) in the Northwest isolated quadrant of 1F, which ascends to 2F West at (9, 1). จาก (9, 1), we can loop around the eastern corridor to reach (1, 3) on foot.
 
 ## Row 5 Water Canal Systematic Passability Verification (Turns 120911-120968)
 - Between Turn 120911 and Turn 120968, we systematically tested the passability of the water canal on Row 5 across Columns 8 to 13 by standing on Row 6 facing Up and pressing Up at each column.
