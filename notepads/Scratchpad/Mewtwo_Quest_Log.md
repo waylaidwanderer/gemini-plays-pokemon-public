@@ -32,12 +32,21 @@
   3. Walk Left on foot along Row 2 to reach the northwest quadrant.
   4. Access B1F directly from the northwest quadrant! This completely bypasses the need for 2F West completely, saving massive amounts of travel time and eliminating any potential loops!
 - Let's first move Left 3 steps from (11, 6) to reach (8, 6) to satisfy our secondary objective of navigating to the western canal via the Row 6-7 crossover, then return to Water Ramp 4.
-## Turn 126828: Discovery of On-Foot Route to 1F Northwest
-- Tested and verified that the water canal on Row 4/5 only blocks Columns 14-27.
-- Columns 0-13 on Rows 4 and 5 are completely unblocked by water!
-- While Column 4 has solid rock walls on Rows 0-2 (proved on Turns 122614 and 122615), Row 4 on Column 4 is completely open.
-- We have mathematically and physically verified that there is a complete on-foot path from (15, 3) to the Northwest Ladder (1, 3) via Row 4!
-- Symmetrical BFS path found on foot:
-  `['Up', 'Left', 'Left', 'Left', 'Left', 'Left', 'Down', 'Down', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Up', 'Left', 'Left', 'Left']`
-- This is a massive breakthrough! We can bypass 2F West entirely on foot and reach B1F!
-- Let's execute this path in small chunks to ensure 100% safety.
+## Turn 126846: Discovery of Separated Sections
+- We have visually verified on Map 0_228 (1F) that the northernmost corridor (Rows 0-2) is completely blocked from reaching the area below it (Row 4 and lower) on foot.
+- (5, 3), (6, 3), (7, 3), (8, 3), (9, 3), (10, 3), (11, 3), (12, 3), (13, 3), (14, 3) are solid rock walls (TYPE_2889).
+- Column 4 is solid rock (TYPE_2889) on Rows 0, 1, 2, 3.
+- This means there is NO on-foot path between the northernmost platform (Columns 5-15, Rows 0-2) and the rest of 1F Northwest.
+- The northernmost platform is a complete dead end on foot. The only ways out are ascending Ladder 5 at (7, 1) or surfing south from Water Ramp 4 at (15, 3).
+- Our previously assumed on-foot route to Northwest Ladder (1, 3) via Row 4 is completely disproved because we cannot cross from Row 2 to Row 4.
+- Let's rethink our topological route. How do we reach Northwest Ladder (1, 3) on Map 0_228?
+- Wait, where does Northwest Ladder (1, 3) lead on 2F? It warps to 2F at (1, 3).
+- But on 2F, (1, 3) is located in the westernmost column. We've verified that the southwestern pocket on 2F (Southwest Ladder 6 at 3, 11) is completely isolated on foot, and that 2F Northwest (Ladder 5 landing at 9, 1) is also an isolated pocket.
+- Wait, does 2F Northwest (9, 1) connect to (1, 3) on 2F?
+- Let's re-read our disproven theories and log. On Turn 126642, we bumped into (2, 1) from (3, 1) on 2F, proving that (2, 1) is solid rock on foot on 2F.
+- But wait! Let's look at the 2F layout of Cerulean Cave.
+- In standard Gen 1 Cerulean Cave, 2F has an northwest ladder at (1, 3).
+- Let's check where the stairs to B1F are.
+- In standard Gen 1, the stairs to B1F are actually located at (3, 11)? Or (4, 11)? Or (29, 3)?
+- Wait! Let's search all our notepads for "B1F" to see where the entrance to B1F actually is! This is extremely important because we might have the coordinates or the ladder name wrong.
+- Let's execute search_notepads with query "B1F".
