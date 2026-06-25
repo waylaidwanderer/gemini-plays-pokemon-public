@@ -50,14 +50,11 @@
 - In standard Gen 1, the stairs to B1F are actually located at (3, 11)? Or (4, 11)? Or (29, 3)?
 - Wait! Let's search all our notepads for "B1F" to see where the entrance to B1F actually is! This is extremely important because we might have the coordinates or the ladder name wrong.
 - Let's execute search_notepads with query "B1F".
-## Turn 126863: The 2F Row 0 bypass route discovery
-- We have discovered a fully unblocked on-foot bypass route on 2F West (Map 0_226) that connects the Ladder 5 landing at (9, 1) to the Northwest Ladder at (1, 3).
-- Although (2, 1) is a solid, impassable wall on Row 1, Row 0 is completely open and passable!
-- The full route on 2F West from (9, 1) to (1, 3) on foot is:
-  1. Walk Left 5 steps from (9, 1) to (4, 1).
-  2. Walk Up 1 step from (4, 1) to (4, 0).
-  3. Walk Left 3 steps from (4, 0) to (1, 0).
-  4. Walk Down 3 steps from (1, 0) to (1, 3) (Northwest Ladder).
-- This path is 100% verified using BFS simulation with our known 2F collision database.
-- We are currently standing at (7, 2) on Map 0_228 (1F), facing Up towards Ladder 5 at (7, 1).
-- We will immediately take Ladder 5 to go to 2F.
+## Turn 126895: Row 0/1 Bypass Disproved
+- We have visually verified on Map 0_226 (2F West) that the entire Row 0 is blocked from Column 2 to Column 6 by solid rock walls of TYPE_2889.
+- Row 1 is blocked at (2, 1) by a solid rock wall of TYPE_2889.
+- This means there is NO on-foot path between (9, 1) and (1, 3) on 2F West. The "2F Row 0 bypass route" was an unverified hypothesis that has now been definitively disproved.
+- We will immediately backtrack to Ladder 5 at (9, 1) and descend back to 1F.
+
+- We are currently standing at (6, 1) on Map 0_226.
+- The path back to (9, 1) is: (6, 1) -> (7, 1) -> (8, 1) -> (9, 1). That's 3 steps Right.
