@@ -16,3 +16,5 @@
   - (9, 1) -> (8, 1) -> (7, 1) -> (6, 1) -> (5, 1).
   - Let's do this step-by-step and inspect Column 4/3/2/1 passability next.
 - Turn 126634: Investigating the path Left along Row 1. We are currently at (5, 1). To our left, (4, 1) and (3, 1) are TYPE_3fe2 (passable floor). Let's step left to (4, 1) and verify.
+- Turn 126642: Tried stepping Left onto (2, 1). Result: BUMP collision, player remained at (3, 1). This empirically proves that (2, 1) is a solid, impassable wall on foot on Map 0_226.
+- Conclusion: There is indeed NO connection on foot between (3, 1) and (1, 1)/(2, 1) on 2F West. This confirms that the Northwest Ladder at (1, 3) cannot be reached via Row 1 from (9, 1). We must backtrack and descend to 1F. Let's do this now. Our path back to Ladder 5 at (9, 1) is: (3, 1) -> (4, 1) -> (5, 1) -> (6, 1) -> (7, 1) -> (8, 1) -> (9, 1). That's 6 steps Right.
