@@ -8454,9 +8454,10 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - We verified that (19, 8) is indeed a solid rock wall of TYPE_2889, preventing direct upward navigation from (19, 9) to (19, 7).
 - Using a comprehensive BFS analysis on the full 2F West/East map, we discovered a 34-step bypass path:
   - (19, 9) -> Left 5 steps to (14, 9) -> Down 2 steps to (14, 11) -> Right 11 steps along Row 11 to (25, 11) -> Up 7 steps to (25, 4) -> Left 4 steps to (21, 4) -> Down 1, Left 1, Down 1, Left 1, Down 1, Left 1, Down 1 to (19, 7) [Ladder 3].
-- This path is 100% verified to be obstacle-free.
+- This path avoids the blocked (19, 8) tile by going around it via Column 21!
+- The full path from (15, 8) to Ladder 3 (19, 7) is: Down, Right x6, Up x3, Left x2, Down.
 - We will execute this in small chunks to handle any wild encounters safely.
-- Chunk 1: Left 5 steps to (14, 9).
+- Chunk 1: Down, Right, Right, Right, Right, Right, Right to (21, 9).
 
 <hr>
 
