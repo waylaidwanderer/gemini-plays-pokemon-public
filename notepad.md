@@ -8487,6 +8487,11 @@ Turn 128198 Progress:
 - Ran BFS with updated screen-accurate walls (verified (12, 12) is TYPE_3fe2 open!).
 - Accurate Path to Ladder 3 (19, 7): ["Right", "Right", "Down", "Down", "Right", "Down", "Right", "Right", "Up", "Up", "Left", "Up", "Up", "Up", "Up", "Up", "Up", "Left", "Left", "Up", "Up", "Up", "Up", "Right", "Right", "Right", "Right", "Right", "Up", "Right", "Right", "Right", "Right", "Down", "Down", "Down"]
 - Executing first chunk of 10 moves: ["Right", "Right", "Down", "Down", "Right", "Down", "Right", "Right", "Up", "Up"] to reach (13, 15).
+Turn 128208 Progress:
+- Player is at (12, 14) on Map 0_226 on foot.
+- BFS calculated the true safe crossover path to go Down to Row 15, cross to Column 13, go Down to Row 17, and then go Right.
+- Full Path to Ladder 3 (19, 7): ["Down", "Right", "Down", "Down", "Right", "Right", "Right", "Right", "Right", "Right", "Up", "Up", "Up", "Right", "Right", "Right", "Right", "Right", "Up", "Up", "Up", "Right", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Left", "Left", "Left", "Left", "Down", "Left", "Down", "Left", "Down"]
+- Executing first chunk of 10 moves: ["Down", "Right", "Down", "Down", "Right", "Right", "Right", "Right", "Right", "Right"] to reach (19, 17).
 
 <hr>
 
