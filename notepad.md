@@ -8482,6 +8482,11 @@ Turn 128195 Progress:
 - Ran BFS script in python with all on-screen walls.
 - Verified Path: ["Down", "Down", "Left", "Left", "Up", "Left", "Up", "Up", "Left", "Left", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Right", "Up", "Right", "Right", "Right", "Right", "Right", "Right", "Up", "Right", "Right", "Right", "Right", "Down", "Down", "Down"] to reach Ladder 3 at (19, 7).
 - Executing first chunk of 10 moves: ['Down', 'Down', 'Left', 'Left', 'Up', 'Left', 'Up', 'Up', 'Left', 'Left'] to reach (8, 14).
+Turn 128198 Progress:
+- Player is at (8, 14) on Map 0_226 on foot.
+- Ran BFS with updated screen-accurate walls (verified (12, 12) is TYPE_3fe2 open!).
+- Accurate Path to Ladder 3 (19, 7): ["Right", "Right", "Down", "Down", "Right", "Down", "Right", "Right", "Up", "Up", "Left", "Up", "Up", "Up", "Up", "Up", "Up", "Left", "Left", "Up", "Up", "Up", "Up", "Right", "Right", "Right", "Right", "Right", "Up", "Right", "Right", "Right", "Right", "Down", "Down", "Down"]
+- Executing first chunk of 10 moves: ["Right", "Right", "Down", "Down", "Right", "Down", "Right", "Right", "Up", "Up"] to reach (13, 15).
 
 <hr>
 
