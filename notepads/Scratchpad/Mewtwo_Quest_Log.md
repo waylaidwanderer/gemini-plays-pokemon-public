@@ -246,3 +246,6 @@
   3. Walk Up 2 steps to (20, 7) via (20, 8).
   4. Walk Left 1 step to (19, 7) (Ladder 3).
 - We will execute the first chunk of 5 steps: `["Right", "Right", "Right", "Right", "Right"]` to reach (10, 9).
+- Turn 128142: Confirmed BFS Path to reach Ladder 3 at (19, 7) from (19, 9) on foot on Map 0_226:
+  ['Left', 'Left', 'Left', 'Left', 'Left', 'Down', 'Down', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Left', 'Left', 'Left', 'Left', 'Down', 'Left', 'Down', 'Left', 'Down']
+  Let's execute Chunk 1 of 5 steps Left: ['Left', 'Left', 'Left', 'Left', 'Left'] to reach (14, 9).
