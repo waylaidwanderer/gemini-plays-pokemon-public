@@ -8477,6 +8477,11 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Discovered that (11, 15) is indeed a solid rock wall (TYPE_2889), and (13, 15) is completely open (TYPE_3fe2).
 - This means the path to the southern bypass corridor on Row 18 is: (12, 15) -> Right to (13, 15) -> Down to (13, 18).
 - We are executing this chunk now: ['Right', 'Down', 'Down', 'Down'] to reach (13, 18).
+Turn 128195 Progress:
+- Player is at (13, 15) on Map 0_226 on foot.
+- Ran BFS script in python with all on-screen walls.
+- Verified Path: ["Down", "Down", "Left", "Left", "Up", "Left", "Up", "Up", "Left", "Left", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Right", "Up", "Right", "Right", "Right", "Right", "Right", "Right", "Up", "Right", "Right", "Right", "Right", "Down", "Down", "Down"] to reach Ladder 3 at (19, 7).
+- Executing first chunk of 10 moves: ['Down', 'Down', 'Left', 'Left', 'Up', 'Left', 'Up', 'Up', 'Left', 'Left'] to reach (8, 14).
 
 <hr>
 
