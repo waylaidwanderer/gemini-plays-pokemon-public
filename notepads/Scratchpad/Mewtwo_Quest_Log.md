@@ -235,3 +235,14 @@
 - The full path from (15, 8) to Ladder 3 (19, 7) is: Down, Right x6, Up x3, Left x2, Down.
 - We will execute this in small chunks to handle any wild encounters safely.
 - Chunk 1: Down, Right, Right, Right, Right, Right, Right to (21, 9).
+## Turn 128104 Progress & Proof of Work
+- Current coordinates: (5, 9) on Map 0_226 (2F West/East).
+- Goal: Reach Ladder 3 at (19, 7).
+- Methodology: Ran BFS custom tool `cave_bfs_solver` on Map 0_226 from (5, 9) to (19, 7).
+- BFS result: `["Right" x15, "Up" x2, "Left" x1]`
+- Step-by-step path:
+  1. Row 9 corridor from Column 5 to Column 20 is verified open on foot (based on previous exploration history).
+  2. Walk Right 15 steps to (20, 9).
+  3. Walk Up 2 steps to (20, 7) via (20, 8).
+  4. Walk Left 1 step to (19, 7) (Ladder 3).
+- We will execute the first chunk of 5 steps: `["Right", "Right", "Right", "Right", "Right"]` to reach (10, 9).
