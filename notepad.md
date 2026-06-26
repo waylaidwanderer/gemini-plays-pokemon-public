@@ -8492,6 +8492,10 @@ Turn 128208 Progress:
 - BFS calculated the true safe crossover path to go Down to Row 15, cross to Column 13, go Down to Row 17, and then go Right.
 - Full Path to Ladder 3 (19, 7): ["Down", "Right", "Down", "Down", "Right", "Right", "Right", "Right", "Right", "Right", "Up", "Up", "Up", "Right", "Right", "Right", "Right", "Right", "Up", "Up", "Up", "Right", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Left", "Left", "Left", "Left", "Down", "Left", "Down", "Left", "Down"]
 - Executing first chunk of 10 moves: ["Down", "Right", "Down", "Down", "Right", "Right", "Right", "Right", "Right", "Right"] to reach (19, 17).
+Turn 128217 Progress:
+- Player is at (19, 17) on Map 0_226 on foot.
+- BFS verified remaining path to Ladder 3 at (19, 7): ["Down", "Right", "Right", "Right", "Right", "Right", "Right", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Left", "Left", "Left", "Left", "Down", "Left", "Down", "Left", "Down"]
+- Executing first chunk of 10 moves: ["Down", "Right", "Right", "Right", "Right", "Right", "Right", "Up", "Up", "Up"] to reach (25, 15).
 
 <hr>
 
