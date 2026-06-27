@@ -29,3 +29,16 @@
 - Path: Left 2 steps -> (15, 16), Down 1 step -> (15, 17) (Row 17), then Left all the way.
 - Let's execute this sequence step-by-step.
 - *Preserve Health*: Flee all wild encounters immediately using the `flee_battle` custom tool.
+- Turn 130282: Successfully fled Venomoth. Current position (14, 8) on 2F. Path to (9, 1) calculated by cave_bfs_solver:
+["Right", "Down", "Right", "Right", "Right", "Right", "Down", "Right", "Right", "Right", "Right", "Up", "Up", "Up", "Left", "Left", "Up", "Left", "Left", "Left", "Left", "Up", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Up", "Up", "Left", "Left", "Left", "Left", "Left", "Left", "Up", "Up", "Right", "Right", "Right", "Right", "Right", "Right"]
+Wait, let's look at this path!
+Why does it go "Right", "Down", "Right", "Right", "Right", "Right"?
+Because we are at (14, 8).
+(14, 8) -> Right -> (15, 8).
+(15, 8) -> Down -> (15, 9).
+(15, 9) -> Right -> (16, 9) -> (17, 9) -> (18, 9) -> (19, 9).
+Wait, this is going East! Why is it going East?
+Oh, is the detour around the blockages to the East, then going north?
+Wait, 2F West has a detour around the central blockages.
+Let's trust the pathfinder, but let's take smaller chunks of buttons first.
+We will press: ["Right", "Down", "Right", "Right", "Right", "Right"] which will put us at (19, 9). Let's do that chunk first!
