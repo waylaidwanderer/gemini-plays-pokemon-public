@@ -8809,6 +8809,17 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   5. Walk to (7, 1) and climb Ladder 5 to reach 2F Northwest.
   6. From 2F Northwest, walk to (1, 3) and descend to B1F.
 
+## Turn 129350 Row 4 Passability Empirical Testing Protocol
+- **Objective**: Physically test the passability of Column 3 Row 4 (3, 4), Column 2 Row 4 (2, 4), and Column 1 Row 4 (1, 4) on foot on Map 0_226 to resolve the unverified assumption of Row 4 isolation.
+- **Hypothesis**: These tiles are open, passable floor (TYPE_3fe2), forming a horizontal corridor on Row 4 that connects the central loop corridor on Column 3 to the western vertical corridor on Column 1, granting direct on-foot access to Northwest Ladder (1, 3) from (9, 1).
+- **Test Methodology**:
+  1. Walk Left 6 steps from (9, 1) to (3, 1).
+  2. Walk Down 3 steps from (3, 1) to (3, 4).
+  3. Walk Left 2 steps from (3, 4) to (1, 4).
+  4. Walk Up 1 step from (1, 4) to (1, 3).
+  We will execute this sequence step-by-step and verify coordinate changes and collision behaviors at each step.
+- **Turn 129350 Status**: Standing at (9, 1) on foot on Map 0_226, ready to walk Left to (3, 1).
+
 <hr>
 
 <h1><code>Locations/CeruleanCave</code></h1>
