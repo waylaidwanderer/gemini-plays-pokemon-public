@@ -8224,8 +8224,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 # Post-Game Mewtwo Quest Plan & Logs
 - Quest Started: Turn 111394 on Sunday, June 21, 2026 at 9:15 PM PDT
-- Current Turn: 130130
-- Current Position: Standing on foot at (9, 5) on Map 0_226 (2F West)
+- Current Turn: 130203
+- Current Position: Standing on foot at (15, 12) on Map 0_228 (1F)
 
 ## Active Strategy and Geological Findings:
 - **Topological Reality (Verified Turn 130066)**:
