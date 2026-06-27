@@ -179,3 +179,7 @@
   - **(10, 6) Blockage**: Physically verified on Turn 128677 as solid rock wall of TYPE_2889.
   - **(3, 8) Blockage**: Physically verified on Turn 129254 as a solid rock wall of TYPE_2889.
   - **(3, 4) Blockage**: Physically verified on Turn 129355 as a solid rock wall of TYPE_2889.
+- **Column 13 Row 4 and 5 Blockage Verification on Map 0_228 (Turns 129544-129546)**:
+  - Stood at (14, 5) on the water and pressed Left to test (13, 5). Result: Collided, player remained at (14, 5) with zero tile visits. Physically proves (13, 5) is a solid rock wall of TYPE_2889.
+  - Stood at (14, 4) on the water and pressed Left to test (13, 4). Result: Collided, player remained at (14, 4) with zero tile visits. Physically proves (13, 4) is a solid rock wall of TYPE_2889.
+  - This definitively proves that Column 13 is fully impassable on Rows 4 and 5 on Map 0_228. Any horizontal crossover on Rows 4 and 5 across Column 13 is completely impossible.
