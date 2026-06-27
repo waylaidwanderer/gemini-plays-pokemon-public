@@ -21,11 +21,11 @@
   Let's check where the stairs to B1F are in standard Gen 1!
   - **The (1, 3) B1F Ladder**: The ladder at (1, 3) on 1F Northwest connects directly to 2F Northwest at (1, 3), serving as the critical entrance gateway to the isolated 1F Northwest landmass and the B1F stairs. Our previous logs incorrectly labeled this as (29, 3) or other coordinates. We have verified that (1, 3) is the correct B1F gateway.
 
-## Turn 129715 Live Progress:
-- Current Turn: Turn 129715
-- Current Position: On foot at (9, 5) on Map 0_226 (2F West) on Turn 129715.
+## Turn 129719 Live Progress:
+- Current Turn: Turn 129719
+- Current Position: On foot at (9, 3) on Map 0_226 (2F West) on Turn 129719.
 - Active Goal: Reach Cerulean Cave B1F and capture Mewtwo.
-- **Progress**: We successfully reached 2F West (9, 1) and walked to (9, 5) on foot. We physically tested (8, 5) on foot from (9, 5) and confirmed a solid bump collision on Turn 129701. This proves (8, 5) is indeed a solid rock wall, confirming our map database and resolving the overwatch database test. We are now backtracking to 1F to test the water canal passability on Row 5.
+- **Progress**: We successfully reached 2F West (9, 1) and walked to (9, 5) on foot. We physically tested (8, 5) on foot from (9, 5) and confirmed a solid bump collision on Turn 129701, proving (8, 5) is indeed a solid rock wall. We are now backtracking on foot to Ladder 5 at (9, 1) to descend to 1F, currently at (9, 3). We will use the water canal on 1F to reach the isolated northwest of 1F and access B1F.
 - **Northwest Platform Isolation Verified**: By carefully analyzing the on-screen tiles on 2F West, we confirmed that Column 2 is blocked on Rows 1, 2, 3, and Row 4 is completely blocked across all Columns. While Column 0 is open on Rows 2, 3, 4, 5, and Row 5 is open horizontally on Columns 1-5, Row 4's complete blockage across all columns and Column 2's blockage on Rows 1-3 physically isolates the Northwest Ladder (1, 3) from the rest of 2F West on foot. This means there is absolutely no on-foot path between (9, 1) and (1, 3) on 2F West.
 - **Water Canal Isolation Hypothesis**: On 1F (Map 0_228), we physically tested and verified that Column 13 is fully blocked on Rows 4 and 5 on water, meaning we cannot surf directly from the eastern water canal to the northwest water canal. We hypothesize that Column 7 on Rows 4-17 also forms a solid vertical barrier, isolating the western water canal (Columns 8-9) from the northwest quadrant (Columns 0-3), but we must still verify the passability of Column 7 on Rows 4 and 5 to adhere to the Burden of Proof.
 - **The True Path to B1F Stairs**: In standard Gen 1 Cerulean Cave, the stairs to B1F are actually located on 1F Northwest. Let's re-evaluate how to get there. If 2F West is disconnected, and the water canal is blocked, could the path be via 2F East or another ladder? Let's check! No, let's explore if we can reach B1F via B1F stairs. Where are the B1F stairs located? Let's check our map and notes.
