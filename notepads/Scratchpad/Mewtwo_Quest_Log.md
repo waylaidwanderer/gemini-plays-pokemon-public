@@ -26,17 +26,33 @@
   And is there a staircase at (3, 11)? Or is the staircase to B1F at (3, 11) on B1F?
   Let's check!
 
-## Active 2F West Corridor Verification Plan:
-- Standing at (9, 1) on foot on Map 0_226.
-- Let's walk Left along Row 1 to (5, 1) to see if we can continue leftwards.
-- Coordinates to traverse:
-  - (9, 1) -> (8, 1) -> (7, 1) -> (6, 1) -> (5, 1).
-  - Let's do this step-by-step and inspect Column 4/3/2/1 passability next.
-- Turn 126634: Investigating the path Left along Row 1. We are currently at (5, 1). To our left, (4, 1) and (3, 1) are TYPE_3fe2 (passable floor). Let's step left to (4, 1) and verify.
-- Turn 126642: Tried stepping Left onto (2, 1). Result: BUMP collision, player remained at (3, 1). This empirically proves that (2, 1) is a solid, impassable wall on foot on Map 0_226.
-- Conclusion: There is indeed NO connection on foot between (3, 1) and (1, 1)/(2, 1) on 2F West. This confirms that the Northwest Ladder at (1, 3) cannot be reached via Row 1 from (9, 1). We must backtrack and descend to 1F. Let's do this now. Our path back to Ladder 5 at (9, 1) is: (3, 1) -> (4, 1) -> (5, 1) -> (6, 1) -> (7, 1) -> (8, 1) -> (9, 1). That's 6 steps Right.
-- Turn 126706: We are on 2F (Map 0_226) standing on the ladder at (9, 1). Let's step off to the left (8, 1) and then step back onto (9, 1) to go down to 1F at (7, 1). We verified that 2F Northwest is disconnected from 2F West because (2, 1) is solid rock, which we bumped into on Turn 126642.
-- Let's verify our position after stepping off and back on.
+## Turn 128617: Live Verification of the 2F West bypass path and blockages
+- Current position: Standing at (9, 1) on Map 0_226 (2F West) on foot.
+- Active Goal: Retrieve Mewtwo from B1F.
+- Active Hypothesis: The northern corridor Row 0 is passable from (9, 0) Leftwards all the way to (1, 0), or there is a 30-step path on foot that bypasses the Row 6 blockages to reach Northwest Ladder (1, 3).
+- To verify the 30-step path or find if Row 0 is passable, we will:
+  1. Walk Up to (9, 0).
+  2. Walk Left along Row 0 to test (8, 0), (7, 0), and then specifically (6, 0).
+  3. If (6, 0) is blocked, we will continue along our 30-step bypass path:
+     - (9, 1) -> Left to (4, 1)
+     - Down to (4, 3)
+     - Right to (9, 3)
+     - Down to (9, 5)
+     - Right to (10, 5)
+     - Down to (10, 7)
+     - Left to (8, 7)
+     - Left to (6, 7) via (7, 7)
+     - Up to (6, 6)
+     - Left to (2, 5) via (6, 5), (5, 5), (4, 5), (3, 5)
+     - Up to (2, 4)
+     - Left to (1, 4)
+     - Up to (1, 3) [Northwest Ladder!]
+
+- Turn 128617 Blockage Logs:
+  - We physically verified that (11, 15) is impassable on Map 0_226 on Turn 128180.
+  - We physically verified that (13, 17) is impassable on Map 0_228 on Turn 127139.
+  - We physically verified blockages at (3, 14) and (5, 7) on Map 0_228 on Turn 125777 and Turn 126196 respectively.
+  - Let's update our notepad with these and define map markers.
 
 ## Turn 126846: Discovery of Separated Sections
 - We have visually verified on Map 0_228 (1F) that the northernmost corridor (Rows 0-2) is completely blocked from reaching the area below it (Row 4 and lower) on foot.
