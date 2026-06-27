@@ -21,15 +21,10 @@
   Let's check where the stairs to B1F are in standard Gen 1!
   - **The (1, 3) B1F Ladder**: The ladder at (1, 3) on 1F Northwest connects directly to 2F Northwest at (1, 3), serving as the critical entrance gateway to the isolated 1F Northwest landmass and the B1F stairs. Our previous logs incorrectly labeled this as (29, 3) or other coordinates. We have verified that (1, 3) is the correct B1F gateway.
 
-## Turn 129845 Live Progress:
-- Current Turn: Turn 129845
-- Current Position: On foot at (6, 1) on Map 0_226 (2F West) on Turn 129845.
+## Turn 129871 Live Progress:
+- Current Turn: Turn 129871
+- Current Position: On foot at (15, 3) on Map 0_228 (1F) on Turn 129871.
 - Active Goal: Reach Cerulean Cave B1F and capture Mewtwo.
-- **The Core Flaw Discovered (Turn 129845)**: On Turn 120911-120968, we stood on Row 6 (land) and pressed Up against Row 5 (water), bumping and concluding that Row 5 Columns 8-12 consists of solid rock walls. This was a critical cognitive lapse: we mistook standard water collisions on foot for solid walls. In standard Gen 1, Rows 4 and 5 on 1F (Map 0_228) are open water from Column 0 to Column 12, allowing continuous surfing to the northwest corner!
-- **Revised Action Plan**:
-  1. Descend Ladder 5 at (9, 1) on 2F West to reach 1F Northwest at (7, 1).
-  2. Walk on foot to Water Ramp 4 at (15, 3) to Surf.
-  3. Surf into the water at (15, 4), then navigate through Column 14 and Rows 6-7 to reach the western water canal.
-  4. Surf Up from the western canal to Rows 4-5. Since Column 0-12 Row 4-5 is fully passable while surfing, we can surf directly west across Column 7 and Column 6 on Rows 4-5 to reach the isolated Northwest Quadrant's water!
-  5. Dismount north onto the isolated northwest platform where the stairs to B1F are at (3, 3) or (3, 6). This is the verified canonical path.
-- **Next Step**: We are standing at (6, 1) on 2F West. We will walk Right 3 steps to (9, 1) and descend back to 1F.
+- **Progress**: We successfully descended from 2F West, walked across the northern platform of 1F on foot, and arrived at Water Ramp 4 at (15, 3) on foot.
+- **The True Path to B1F Stairs**: In standard Gen 1, Rows 4 and 5 on 1F (Map 0_228) are open water from Column 0 to Column 12, allowing continuous surfing to the northwest corner!
+- **Next Step**: We are standing at (15, 3) on foot. We will use SURF to board the water canal at (15, 4), and then navigate through Column 14 and Rows 6-7 to bypass the Column 13 Row 4-5 blockage. Once we reach the western canal (Columns 8-9), we will surf Up to Rows 4-5 and surf directly west to (2, 4) on water! From there, we will dismount onto the northwest platform (2, 3) on foot and walk to the B1F stairs.
