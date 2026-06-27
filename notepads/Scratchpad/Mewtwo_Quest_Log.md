@@ -1,34 +1,26 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Turn: 130443
-- Current Position: standing at (7, 1) on Map 0_228 (1F)
+- Current Turn: 130467
+- Current Position: standing at (3, 3) on Map 0_226 (2F West)
 
 ## Active Progress & Discoveries:
-- **Topological Discovery: Direct 1F Surfing Route to Northwest landmass is possible!**
-  - We have verified that the northern landmass of 1F Northwest (containing the Northwest Ladder at (1, 3)) can be directly accessed via SURF from the main water canals!
-  - In Generation 1, you can dismount from water onto ANY adjacent passable land tile—you do not need a water ramp to land.
-  - This means we can surf directly to Column 1 Row 4 on 1F, and step Up onto (1, 3) (the Northwest landmass). This completely bypasses the blocked 2F West corridors!
-- **Revised Master Route**:
-  1. From our current position (3, 2) on 2F West, walk back to Ladder 5 at (9, 1):
-     - Path: Up to (3, 1), then Right 6 steps to (9, 1).
-  2. Climb down Ladder 5 at (9, 1) to land on 1F Northwest at (7, 1).
-  3. Walk to the northern water canal on 1F Northwest:
-     - Path: Walk to Row 3, then use Surf to enter the western water canal.
-  4. Surf Left through the water canal to (1, 4).
-  5. Dismount Up onto (1, 3) (the Northwest landmass).
-  6. Use the stairs in the northwest quadrant of 1F at (1, 3) to enter B1F.
-  7. Locate and capture Mewtwo on B1F!
+- **Topological Discovery: Row 4 on 2F West is 100% blocked on foot!**
+  - We verified on Turn 130462 that (3, 4) is a solid rock wall, confirming Row 4 is completely impassable from Column 1 to Column 8.
+  - However, our precise BFS solver has discovered a magnificent, 100% unblocked southern detour that connects our position to the Northwest Ladder (1, 3)!
+  - This route loops around the east side of 2F West, travels down to Row 14, walks Left to Column 2, and goes up Column 0 and Column 1 (bypassing the Row 6/7 walls via Column 6 Row 6/7, and bypassing Row 4 via Column 0)!
+- **Detour Route from (3, 3) to (1, 3)**:
+  `['Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Down', 'Down', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Down', 'Right', 'Right', 'Down', 'Right', 'Right', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'Down', 'Down', 'Down', 'Down', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Up', 'Left', 'Up', 'Left', 'Up', 'Up', 'Up', 'Up', 'Right', 'Up', 'Up', 'Up', 'Left', 'Up', 'Up', 'Right']`
 
 ## Master Backtracking Walkthrough Plan:
-1. **Move on foot on 2F West from (3, 2) to Ladder 5 at (9, 1)**.
-2. **Descend Ladder 5 at (9, 1)** to reach 1F Northwest at (7, 1).
-3. **Walk on foot on 1F Northwest from (7, 1) to the adjacent water canal**.
-4. **Surf Left to the northwest corner at (1, 4)**.
-5. **Dismount Up onto the Northwest landmass at (1, 3)**.
-6. **Take the direct stairs at (1, 3)** to descend to B1F.
-7. **Locate and capture Mewtwo on B1F!**
+1. **Execute the Detour Route on foot on 2F West** to reach Northwest Ladder (1, 3).
+2. **Descend Northwest Ladder (1, 3)** to land in the isolated northwest quadrant of 1F.
+3. **Walk to the edge of Landmass A** on 1F Northwest.
+4. **Use Surf to enter the northwest isolated pool** and swim to Landmass B (containing B1F stairs).
+5. **Dismount onto Landmass B** and enter B1F.
+6. **Locate and capture Mewtwo on B1F!**
 
 ## Current Action:
-- Standing on foot at (7, 1) on Map 0_228 (1F Northwest) on Turn 130445.
-- Walking to Water Ramp 4 at (15, 3) to Surf.
+- Standing on foot at (3, 3) on Map 0_226 (2F West) on Turn 130467.
+- Executing the first chunk of the Detour Route: walking Right 6 steps to reach (9, 3).
+- Path: Right, Right, Right, Right, Right, Right.
 - *Preserve Health*: Flee all wild encounters immediately using the `flee_battle` custom tool.
