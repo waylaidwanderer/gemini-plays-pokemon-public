@@ -573,3 +573,14 @@
   - Walk to (11, 13) on foot: ['Up', 'Right', 'Up', 'Up', 'Up', 'Up', 'Left', 'Up', 'Left', 'Left', 'Left', 'Left', 'Down', 'Down', 'Down', 'Left', 'Left', 'Down'] -> Verified on foot.
   - Surf to (15, 3) on water: ['Left', 'Left', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Up', 'Up', 'Up', 'Up'] -> Verified surfing.
   - Walk to (7, 1) on foot: ['Up', 'Up', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left'] -> Verified on foot.
+
+## Turn 129307 Verification of B1F Routing and Active Plans
+- **Current position**: Standing at (11, 13) on Map 0_228 (1F) facing DOWN towards the water at (11, 14).
+- **Active Plan**: We must open the Start menu, go to POKéMON, select GEMMY (BLASTOISE), and select SURF to board the water canal and begin surfing.
+- **Topological Route**:
+  1. Surf Down onto (11, 14).
+  2. Surf Left and Up through Column 8 or 9 to Row 7.
+  3. Surf Right along Row 7 through Column 13 to Row 7 Column 14.
+  4. Surf Up Column 15 to dismount at Water Ramp 4 at (15, 3).
+  5. Walk to (7, 1) and climb Ladder 5 to reach 2F Northwest.
+  6. From 2F Northwest, walk to (1, 3) and descend to B1F.
