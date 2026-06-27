@@ -8445,6 +8445,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - Stood at (14, 5) on the water and pressed Left to test (13, 5). Result: Collided, player remained at (14, 5) with zero tile visits. Physically proves (13, 5) is a solid rock wall of TYPE_2889.
   - Stood at (14, 4) on the water and pressed Left to test (13, 4). Result: Collided, player remained at (14, 4) with zero tile visits. Physically proves (13, 4) is a solid rock wall of TYPE_2889.
   - This definitively proves that Column 13 is fully impassable on Rows 4 and 5 on Map 0_228. Any horizontal crossover on Rows 4 and 5 across Column 13 is completely impossible.
+- **(8, 5) Blockage (Verified Turn 129701)**: Physically tested on foot by standing at (9, 5) and pressing Left to step onto (8, 5). Result was a direct collision with zero coordinate change (remained at (9, 5)), physically proving that (8, 5) is indeed a solid, impassable rock wall of TYPE_2889. This confirms that cave_bfs_solver's database is 100% correct and there is no on-foot corridor here.
 
 <hr>
 
