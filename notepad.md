@@ -8699,6 +8699,9 @@ Turn 128217 Progress:
   6. If (7, 1) can reach (1, 3) on foot, we will immediately take the ladder to B1F.
   7. If there is any wall blocking us between (7, 1) and (1, 3) on 1F, then the only other way to reach (1, 3) on 1F is by climbing Ladder 5 at (7, 1) to reach 2F Northwest at (9, 1), navigating across 2F to the Northwest corner of 2F, and descending a northwest ladder... wait, we verified there are only 5 ladders on 2F and none connect to (1, 3) on 1F unless one of our 2F connection mappings is wrong.
   8. Let's backtrack, surf to (7, 1) on 1F, and empirically test the path on foot to (1, 3) on 1F! This is our new, definitive strategy.
+- **Verified Blockages on 2F (Map 0_226)**:
+  - **(11, 15) Blockage**: Physically verified on Turn 128180 as solid rock wall of TYPE_2889.
+  - **(6, 0) Blockage**: Physically verified on Turn 128645 as solid rock wall of TYPE_2889. This disproves the Row 0 Crossover Bypass hypothesis.
 
 <hr>
 
