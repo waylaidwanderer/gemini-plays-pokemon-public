@@ -8516,6 +8516,18 @@ Turn 128217 Progress:
     - Down to (11, 13) [Water Ramp 2 - TYPE_4b8d].
   - Let's execute this step-by-step. Current target: Stairs at (1, 13).
 
+## Turn 128286 Live Routing:
+- Current Position: (15, 14) on the central platform of 1F (Map 0_228) on foot.
+- Path to Water Ramp 2 at (11, 13):
+  1. Up to (15, 13)
+  2. Up to (15, 12)
+  3. Left to (14, 12)
+  4. Left to (13, 12)
+  5. Left to (12, 12)
+  6. Left to (11, 12)
+  7. Down to (11, 13) [Water Ramp 2]
+- Let's execute the first step: Up to (15, 13).
+
 <hr>
 
 <h1><code>Locations/CeruleanCave</code></h1>
