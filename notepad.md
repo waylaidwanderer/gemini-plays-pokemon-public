@@ -8245,19 +8245,13 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   Let's check where the stairs to B1F are in standard Gen 1!
   - **The (1, 3) B1F Ladder**: The ladder at (1, 3) on 1F Northwest connects directly to 2F Northwest at (1, 3), serving as the critical entrance gateway to the isolated 1F Northwest landmass and the B1F stairs. Our previous logs incorrectly labeled this as (29, 3) or other coordinates. We have verified that (1, 3) is the correct B1F gateway.
 
-## Turn 129787 Live Progress:
-- Current Turn: Turn 129787
-- Current Position: On foot at (9, 1) on Map 0_226 (2F West) on Turn 129787.
+## Turn 129832 Live Progress:
+- Current Turn: Turn 129832
+- Current Position: On foot at (9, 1) on Map 0_226 (2F West) on Turn 129832.
 - Active Goal: Reach Cerulean Cave B1F and capture Mewtwo.
-- **Progress**: We successfully reached (9, 1) on foot on Map 0_226 (2F West). We are standing on Ladder 5.
-- **The True Path to B1F Stairs**: In standard Gen 1 Cerulean Cave, the stairs to B1F are actually located on 1F Northwest at (3, 6). To reach this isolated landmass, we must:
-  1. Descend Ladder 5 at (9, 1) to reach 1F Northwest at (7, 1).
-  2. Walk south on foot to Rows 4-5 (e.g. at (5, 3) or (5, 2) or (5, 1)).
-  3. Walk to the water edge on Columns 4-5 and use SURF to enter the water.
-  4. Surf west through Column 5 and Column 4 on Rows 4-5.
-  5. Dismount north onto the isolated northwest platform (Columns 1-3, Rows 1-3) on foot.
-  6. Walk on foot to (3, 6) and take the stairs directly down to B1F!
-- **Conclusion**: The northern platform on 2F West is 100% geographically isolated on foot. There is no bypass on foot or via water on Rows 4-5. We must backtrack to 1F. We are descending Ladder 5 right now.
+- **Progress**: We successfully ascended back to 2F West at (9, 1) via Ladder 5. We proved that 2F West is 100% connected on foot using a Python BFS calculation that respects all verified blockages (including Row 0 and (4, 2)).
+- **The True Path to B1F Stairs**: The BFS path from (9, 1) to (1, 3) on 2F West is: (9, 1) -> Left to (3, 1) -> Down to (3, 3) -> Right to (9, 3) -> Down to (9, 5) -> Right to (11, 5) -> Down to (11, 7) -> Left to (8, 7) -> Up to (8, 6) -> Left to (7, 6) -> Up to (7, 5) -> Left to (0, 5) -> Up to (0, 3) -> Right to (1, 3).
+- **Next Step**: We are executing the first 6 steps of this path: Left 6 steps to reach (3, 1).
 
 <hr>
 
