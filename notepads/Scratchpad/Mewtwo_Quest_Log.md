@@ -20,14 +20,13 @@
   Let's check where the stairs to B1F are in standard Gen 1!
   - **The (1, 3) B1F Ladder**: The ladder at (1, 3) on 1F Northwest connects directly to 2F Northwest at (1, 3), serving as the critical entrance gateway to the isolated 1F Northwest landmass and the B1F stairs. Our previous logs incorrectly labeled this as (29, 3) or other coordinates. We have verified that (1, 3) is the correct B1F gateway.
 
-## Turn 129127 Live Progress:
-- Current Position: Standing on foot at (13, 1) on Map 0_226 (2F West/East) on Turn 129127.
+## Turn 129183 Live Progress:
+- Current Position: Surfing at (15, 4) on Map 0_228 (1F) on Turn 129183.
 - Active Goal: Retrieve Mewtwo from B1F.
-- **Progress**: On Turn 129021, we climbed Ladder 5 to land at 2F (9, 1). We explored the eastern section, but discovered that 2F West's East and West wings are completely disconnected on foot due to verified rock walls at (18, 4), (18, 5) and (12, 6).
-- **The True Path**: The Northwest Ladder at (1, 3) on 2F West is completely isolated on foot. To reach the isolated Northwest quadrant of 1F (and from there, descend the B1F stairs to Mewtwo), we must return to 1F and use Surf from Water Ramp 2 at (11, 13) to navigate across the water canal to the Northwest corner.
-- **Next Step**: We will walk back to Ladder 5 at (9, 1) and descend to 1F. The path from (13, 1) back to (9, 1) is: Down 4, Left 4, Up 2, Left 6, Up 2, Right 6.
-- **Warp Pathfinder Verification**: Our BFS simulation shows that we successfully bypassed the solid walls on Row 6 and Column 17 on 2F West by looping horizontally through Row 1, Column 13, and wrapping around the Ladder 3 warp at (19, 7) via Row 6 and Column 20. This completely avoids warping back to 1F!
-- **Turn Log**: Start Turn: 111394. Current Turn: 129102. Timestamp: Saturday, June 27, 2026 at 12:26 AM PDT.
+- **Progress**: We successfully navigated back on 2F West to Ladder 5 at (9, 1), descended back to 1F at (7, 1) on Turn 129156, walked to (15, 3), and boarded the water to start surfing at (15, 4) on Turn 129181.
+- **Hypothesis - Northwest Surfing Landing**: Since 2F West is completely disconnected on foot, we hypothesize we can surf directly to the northwest corner of the water canal (e.g., at (1, 4) or (2, 4)) on Map 0_228 and dismount directly onto the land at (1, 3) or (2, 3) to reach the Northwest isolated quadrant of 1F and the B1F stairs. We will test this directly!
+- **Next Step**: Surf to the northwest corner of 1F.
+- **Turn Log**: Start Turn: 111394. Current Turn: 129183. Timestamp: Saturday, June 27, 2026 at 1:02 AM PDT.
 - Verified Blockages Logged:
   - (12, 6) on Map 0_226 is a solid rock wall of TYPE_2889 (verified Turn 129029).
   - (18, 4) on Map 0_226 is a solid rock wall of TYPE_2889 (verified Turn 129057).
