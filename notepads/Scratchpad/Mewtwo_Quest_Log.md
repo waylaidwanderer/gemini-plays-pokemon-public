@@ -1,7 +1,7 @@
-- Post-Game Mewtwo Quest Log & Active Routing
+# Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Turn: 130317
-- Current Position: Standing on foot at (12, 12) on Map 0_226 (2F West)
+- Current Turn: 130324
+- Current Position: Standing on foot at (9, 9) on Map 0_226 (2F West)
 
 ## Active Progress & Discoveries:
 - **Correction: 2F West is NOT Fully Connected on foot.**
@@ -11,8 +11,8 @@
 
 ## Master Backtracking Walkthrough Plan:
 1. **Backtrack on foot to Southwest Ladder**:
-   - Walk from our current position (12, 12) to (3, 11) on 2F West.
-   - Path: Up 3 steps to (12, 9) -> Left 9 steps to (3, 9) -> Down 2 steps to (3, 11).
+   - Walk from our current position (9, 9) to (3, 11) on 2F West.
+   - Path: Left 6 steps to (3, 9) -> Down 2 steps to (3, 11).
 2. **Climb Southwest Ladder (3, 11)** to return to 1F Southwest (Map 0_228).
 3. **Execute 1F Surf Breakthrough Path**:
    - On 1F, walk to the water canal.
@@ -25,7 +25,7 @@
 5. **Locate and capture Mewtwo on B1F!**
 
 ## Current Action:
-- Standing at (12, 12) on 2F West on Turn 130317. Moving back to (3, 11) using the unblocked Row 9 corridor!
-- Path: Up 3 steps -> Left 9 steps -> Down 2 steps.
-- Let's execute the first chunk of this backtrack: Up, Up, Up, Left, Left, Left. This will place us at (9, 9).
+- Standing at (9, 9) on 2F West on Turn 130324. Moving back to (3, 11) using the unblocked Row 9 corridor!
+- Path: Left 6 steps -> Down 2 steps.
+- Let's execute the next chunk of this backtrack: Left, Left, Left. This will place us at (6, 9).
 - *Preserve Health*: Flee all wild encounters immediately using the `flee_battle` custom tool.
