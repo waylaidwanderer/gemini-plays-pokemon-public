@@ -1,26 +1,34 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Turn: 130467
-- Current Position: standing at (3, 3) on Map 0_226 (2F West)
+- Current Turn: 130471
+- Current Position: standing at (9, 3) on Map 0_226 (2F West)
 
 ## Active Progress & Discoveries:
-- **Topological Discovery: Row 4 on 2F West is 100% blocked on foot!**
-  - We verified on Turn 130462 that (3, 4) is a solid rock wall, confirming Row 4 is completely impassable from Column 1 to Column 8.
-  - However, our precise BFS solver has discovered a magnificent, 100% unblocked southern detour that connects our position to the Northwest Ladder (1, 3)!
-  - This route loops around the east side of 2F West, travels down to Row 14, walks Left to Column 2, and goes up Column 0 and Column 1 (bypassing the Row 6/7 walls via Column 6 Row 6/7, and bypassing Row 4 via Column 0)!
-- **Detour Route from (3, 3) to (1, 3)**:
-  `['Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Down', 'Down', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Down', 'Right', 'Right', 'Down', 'Right', 'Right', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'Down', 'Down', 'Down', 'Down', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Up', 'Left', 'Up', 'Left', 'Up', 'Up', 'Up', 'Up', 'Right', 'Up', 'Up', 'Up', 'Left', 'Up', 'Up', 'Right']`
+- **Critical Retraction (Turn 130471): Column 0 is indeed solid and impassable!**
+  - We have retracted the Column 0 detour hypothesis. In Gen 1, Column 0 is the solid, impassable map border, making any detour along Column 0 impossible. This theory is now archived in `Archive/CeruleanCave_DisprovenTheories`.
+- **New Active Hypothesis: 1F Surfing Connection at (7, 7) is Open!**
+  - On Turn 116663-116669, we discovered that (7, 6) on 1F is blocked, but we never physically tested (7, 7) on 1F!
+  - If (7, 7) is open on 1F, then Row 7 is a completely unblocked horizontal water corridor.
+  - This would allow us to Surf directly from (15, 3) to (1, 4) on 1F and dismount Up onto (1, 3) (the Northwest landmass), bypassing all 2F West blockages entirely!
+- **Testing Plan**:
+  1. Backtrack on foot on 2F West from our current position (9, 3) to Ladder 5 at (9, 1).
+     - Path: Left 6 steps to (3, 3), Up 2 steps to (3, 1), and Right 6 steps to (9, 1).
+  2. Descend Ladder 5 at (9, 1) to land on 1F Northwest at (7, 1).
+  3. Walk to Water Ramp 4 at (15, 3).
+  4. Surf from (15, 3) down to (15, 7) and Left to (8, 7).
+  5. Empirically test if (7, 7) is passable by surfing Left from (8, 7) to (7, 7).
+  6. If (7, 7) is open, surf all the way to (1, 4) and dismount Up onto (1, 3).
+  7. If (7, 7) is blocked, we will re-evaluate our options.
 
 ## Master Backtracking Walkthrough Plan:
-1. **Execute the Detour Route on foot on 2F West** to reach Northwest Ladder (1, 3).
-2. **Descend Northwest Ladder (1, 3)** to land in the isolated northwest quadrant of 1F.
-3. **Walk to the edge of Landmass A** on 1F Northwest.
-4. **Use Surf to enter the northwest isolated pool** and swim to Landmass B (containing B1F stairs).
-5. **Dismount onto Landmass B** and enter B1F.
-6. **Locate and capture Mewtwo on B1F!**
+1. **Backtrack to Ladder 5 at (9, 1) on 2F West**.
+2. **Descend to 1F Northwest at (7, 1)**.
+3. **Walk to Water Ramp 4 at (15, 3)**.
+4. **Surf to (8, 7) and test (7, 7)**.
+5. **If successful, surf to (1, 3) and descend to B1F**.
 
 ## Current Action:
-- Standing on foot at (3, 3) on Map 0_226 (2F West) on Turn 130467.
-- Executing the first chunk of the Detour Route: walking Right 6 steps to reach (9, 3).
-- Path: Right, Right, Right, Right, Right, Right.
+- Standing on foot at (9, 3) on Map 0_226 (2F West) on Turn 130471.
+- Walking back to Ladder 5 at (9, 1).
+- Path: Left x6, Up x2, Right x6.
 - *Preserve Health*: Flee all wild encounters immediately using the `flee_battle` custom tool.
