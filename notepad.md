@@ -83,7 +83,6 @@
 - **Giovanni Defeated!** Obtained the Earth Badge on Turn 96440. All 8 Gym Badges have been successfully secured!
 - **CHAMPION DEFEATED!** Defeated Champion Blue on Turn 110487. Entered the HALL OF FAME with BLASTOISE (GEMMY) and PIKACHU (SPARKY) on Turn 110489! Playthrough complete!
   - **Cerulean Cave Post-Game Exploration Started**: Turn 111394. Active Goal: Navigate to B1F and capture Mewtwo.
-- **Topological Breakthrough (Turn 129958)**: 2F Northwest is completely disconnected on foot from the Northwest Ladder. Instead, the actual unblocked pathway in standard Gen 1 Cerulean Cave 1F is to Surf up the western vertical canal, surf Up onto Row 4/5 water (passable while surfing), and then surf Left horizontally through Columns 6-8 directly to the northwest water canal (Columns 0-5 on Row 4), where we can dismount onto the northwest landmass to reach the B1F stairs.
 
 ## Completed Optimization Tasks:
 - Changed active box to empty Box 2 (0/20) on Turn 97157.
