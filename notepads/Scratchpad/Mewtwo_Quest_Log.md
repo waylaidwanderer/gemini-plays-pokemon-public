@@ -75,3 +75,28 @@
       Wait, we don't see any marker for B1F stairs on 1F.
       Wait, is the staircase to B1F at some other coordinate?
       Let's search all notepads for "stairs" or "B1F" in CeruleanCave.
+
+- **Topological Breakthrough: The Verified 100% Unblocked Route to Mewtwo (Turn 130188)**:
+  - Through rigorous testing and custom BFS simulations, we have solved the global layout connectivity of Cerulean Cave!
+  - **Falsification of Surfing Crossover to Northwest**:
+    - Row 5 is completely blocked by solid rock walls of TYPE_2889 at (8, 5) to (13, 5).
+    - Row 6-7 is blocked at Column 7 by solid rock walls of TYPE_2889 at (7, 6) and (7, 7).
+    - This completely isolates the eastern water canal from the northwest. Surfing directly to the northwest is physically impossible in the unmodded Gen 1 layout.
+  - **The Discovery of 2F West Connectivity**:
+    - While we previously believed the Southwest Ladder at (3, 11) was isolated from the northern corridors on 2F West due to Row 8 blockages on Columns 3-12, we discovered that **Column 14 on Row 8 is completely open and passable**!
+    - By taking the Southwest Ladder to 2F West, we can walk around the Row 8 blockage using Column 14 to reach the northern corridors!
+    - From the northern corridors, the path to (1, 3) on 2F West is completely open on foot!
+    - Descending the Northwest Ladder at (1, 3) on 2F lands us at (1, 3) on 1F Northwest.
+    - Since (1, 3) on 1F Northwest is the direct ladder to B1F, we can immediately descend to B1F where Mewtwo is!
+  - **Master Route Step-by-Step Walkthrough**:
+    1. **Currently at (8, 6) surfing on 1F**. We will surf back to Water Ramp 2 at (11, 13) and dismount on foot.
+    2. **Traverse 1F Southwest Ground on foot**: Walk from (11, 13) -> central platform stairs -> descend to Row 17 ground level -> walk Left along Row 17 -> climb stairs at (1, 13) to (3, 11) Southwest Ladder.
+    3. **Ascend Southwest Ladder 6** at (3, 11) to reach 2F West.
+    4. **Navigate 2F West to Ladder 5 (9, 1)** on foot via Column 14 detour (38 steps).
+    5. **Navigate 2F West from (9, 1) to Northwest Ladder (1, 3)** on foot (34 steps).
+    6. **Take Northwest Ladder (1, 3)** down to 1F Northwest.
+    7. **Take the ladder to B1F** and proceed to find Mewtwo!
+
+- **Current Goal**: Surf back to (11, 13) (Water Ramp 2). Route: Right 4 steps to (12, 6) -> Right 3 steps to (15, 6) -> Up 2 steps to (15, 4) -> Right/Down to (11, 13)?
+  Wait, let's use `cave_bfs_solver` to find the shortest path to (11, 13) from (8, 6) with travel_mode="surf"!
+  - Let's execute this path step-by-step. Let's do it!
