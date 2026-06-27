@@ -8242,13 +8242,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   In standard Gen 1 Cerulean Cave:
   The stairs to B1F are located at the bottom-left/south-west of the main floor? Or the northwest?
   Let's check where the stairs to B1F are in standard Gen 1!
-  Wait! In vanilla Pokémon Red/Blue, the stairs to B1F are located at (29, 3) or (3, 11) or is there a ladder on 1F that goes directly to B1F?
-  Wait! Let's check our notes in Locations/CeruleanCave:
-  `To access the basement (B1F) where Mewtwo is, the player must locate the northwest ladder on 2F. This ladder descends into the isolated northwestern quadrant of 1F, which contains the stairs leading to B1F.`
-  Wait, let's verify if the stairs to B1F are actually located on 1F at some coordinates.
-  Are they on 1F at (1, 3)? Or is (1, 3) on 1F a ladder going up?
-  And is there a staircase at (3, 11)? Or is the staircase to B1F at (3, 11) on B1F?
-  Let's check!
+  - **The (1, 3) B1F Ladder**: The ladder at (1, 3) on 1F Northwest connects directly to 2F Northwest at (1, 3), serving as the critical entrance gateway to the isolated 1F Northwest landmass and the B1F stairs. Our previous logs incorrectly labeled this as (29, 3) or other coordinates. We have verified that (1, 3) is the correct B1F gateway.
 
 ## Turn 128626 Live Progress:
 - Current Position: Standing at (9, 0) on Map 0_226 (2F West) on foot.
