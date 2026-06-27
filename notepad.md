@@ -8528,6 +8528,12 @@ Turn 128217 Progress:
   7. Down to (11, 13) [Water Ramp 2]
 - Let's execute the first step: Up to (15, 13).
 
+## Turn 128303 Live Routing:
+- Current Position: (11, 14) surfing on the water.
+- Active path to Water Ramp 4 at (15, 3):
+  ['Left', 'Left', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Right', 'Right', 'Right', 'Right', 'Right', 'Up', 'Up', 'Right', 'Up']
+- Let's execute the first chunk of 10 moves: Left x2, Up x8, which will bring us to (9, 6).
+
 <hr>
 
 <h1><code>Locations/CeruleanCave</code></h1>
