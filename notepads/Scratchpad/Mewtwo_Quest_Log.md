@@ -21,10 +21,10 @@
   Let's check where the stairs to B1F are in standard Gen 1!
   - **The (1, 3) B1F Ladder**: The ladder at (1, 3) on 1F Northwest connects directly to 2F Northwest at (1, 3), serving as the critical entrance gateway to the isolated 1F Northwest landmass and the B1F stairs. Our previous logs incorrectly labeled this as (29, 3) or other coordinates. We have verified that (1, 3) is the correct B1F gateway.
 
-## Turn 129871 Live Progress:
-- Current Turn: Turn 129871
-- Current Position: On foot at (15, 3) on Map 0_228 (1F) on Turn 129871.
+## Turn 129878 Live Progress:
+- Current Turn: Turn 129878
+- Current Position: Surfing at (15, 4) on Map 0_228 (1F) on Turn 129878.
 - Active Goal: Reach Cerulean Cave B1F and capture Mewtwo.
-- **Progress**: We successfully descended from 2F West, walked across the northern platform of 1F on foot, and arrived at Water Ramp 4 at (15, 3) on foot.
+- **Progress**: We successfully used SURF at Water Ramp 4 at (15, 3) and are now surfing on the water at (15, 4).
 - **The True Path to B1F Stairs**: In standard Gen 1, Rows 4 and 5 on 1F (Map 0_228) are open water from Column 0 to Column 12, allowing continuous surfing to the northwest corner!
-- **Next Step**: We are standing at (15, 3) on foot. We will use SURF to board the water canal at (15, 4), and then navigate through Column 14 and Rows 6-7 to bypass the Column 13 Row 4-5 blockage. Once we reach the western canal (Columns 8-9), we will surf Up to Rows 4-5 and surf directly west to (2, 4) on water! From there, we will dismount onto the northwest platform (2, 3) on foot and walk to the B1F stairs.
+- **Next Step**: We are surfing at (15, 4). The BFS path to the northwest water canal at (2, 4) is: (15, 4) -> Down twice to (15, 6) -> Left three times to (12, 6) -> Up twice to (12, 4) -> Left ten times to (2, 4). We will execute the first 5 steps of this path: Down twice and Left three times to reach (12, 6).
