@@ -21,9 +21,9 @@
   Let's check where the stairs to B1F are in standard Gen 1!
   - **The (1, 3) B1F Ladder**: The ladder at (1, 3) on 1F Northwest connects directly to 2F Northwest at (1, 3), serving as the critical entrance gateway to the isolated 1F Northwest landmass and the B1F stairs. Our previous logs incorrectly labeled this as (29, 3) or other coordinates. We have verified that (1, 3) is the correct B1F gateway.
 
-## Turn 129902 Live Progress:
-- Current Turn: Turn 129902
-- Current Position: Surfing at (11, 6) on Map 0_228 (1F) on Turn 129902.
+## Turn 129939 Live Progress:
+- Current Turn: Turn 129939
+- Current Position: Standing on foot at (4, 3) on Map 0_226 (2F Northwest).
 - Active Goal: Reach Cerulean Cave B1F and capture Mewtwo.
-- **Progress**: We are surfing in the central canal of 1F. We are currently navigating to Water Ramp 4 at (15, 3) to dismount on the northern platform.
-- **The True Path to B1F Stairs**: The western part of 2F has been confirmed to have completely isolated sections, meaning we cannot cross 2F West on foot to reach the Northwest Ladder (1, 3). Instead, the correct path is to ascend 2F via Ladder 5 at (7, 1) on 1F, which is accessible by dismounting onto the northern platform at (15, 3) and walking west along Row 2. Once on 2F at (9, 1), we can walk directly west along Row 1 to (1, 3) and descend the Northwest Ladder to 1F Northwest. From 1F Northwest, we can descend the adjacent stairs to B1F. Let's execute this plan.
+- **Topological Breakthrough (Turn 129939)**: Our previous assumption that 2F Northwest connects to (1, 3) on foot is disproven because (11, 6), (8, 6), (7, 6), and (9, 6) are verified solid rock walls on 2F, completely isolating the Ladder 5 landing from the Northwest Ladder. Instead, the canonical path to the B1F stairs on 1F is to use Surf from Water Ramp 2 at (11, 13) on 1F, surf up the western vertical canal (Columns 8-9) to Row 6, and then surf UP onto Row 5 (specifically (8, 5) or (9, 5) which we previously misclassified as rock walls because we tested them on foot). Once on Row 5 water, we can surf Left all the way to Columns 0-3 on Rows 4-5 (the northwest water canal) and dismount onto the northwest landmass where the B1F stairs are located!
+- **Next Step**: Backtrack from (4, 3) to Ladder 5 at (9, 1) on 2F, descend to 1F Northwest (7, 1), walk on foot to Water Ramp 4 at (15, 3), and enter the water to surf to the western canal.
