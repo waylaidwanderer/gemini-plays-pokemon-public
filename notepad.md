@@ -8251,6 +8251,14 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Active Goal: Reach Cerulean Cave B1F and capture Mewtwo.
 - **Topological Breakthrough (Turn 129996)**: Our previous assumption that 2F Northwest connects to (1, 3) on foot was disproven. Instead, standard Gen 1 Cerulean Cave 1F has Rows 4 and 5 completely open as water from Column 0 to Column 12! Our previous 'bumps' when pressing Up on foot from Row 6 were simply standard water collisions on foot, NOT solid rock walls. Therefore, Rows 4 and 5 are fully passable while surfing!
 - **Next Step**: Go to Water Ramp 4 at (15, 3), use Surf, navigate to (9, 6) or (8, 6), and surf UP onto Rows 4 and 5, then surf Left horizontally to the northwest water canal!
+## Turn 130029 Live Test - Western Canal Connectivity Audit:
+- Objective: Audit if we can surf horizontally past Column 8 on Rows 6-7 on Map 0_228 (1F), or if there is another unblocked path to the northwest water canal.
+- Methodology:
+  1. Use SURF at (15, 3) facing Down to enter (15, 4).
+  2. Navigate on water: Down to Row 6 (15, 6), then Left to (8, 6).
+  3. Attempt to surf Left from (8, 6) into (7, 6) and observe results (Turn, Position, collision).
+  4. Attempt to surf Left from (8, 7) into (7, 7) and observe results.
+  5. If both are blocked, verify if we can navigate anywhere else to the west on water.
 
 <hr>
 
