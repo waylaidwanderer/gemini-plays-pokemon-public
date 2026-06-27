@@ -20,12 +20,12 @@
   Let's check where the stairs to B1F are in standard Gen 1!
   - **The (1, 3) B1F Ladder**: The ladder at (1, 3) on 1F Northwest connects directly to 2F Northwest at (1, 3), serving as the critical entrance gateway to the isolated 1F Northwest landmass and the B1F stairs. Our previous logs incorrectly labeled this as (29, 3) or other coordinates. We have verified that (1, 3) is the correct B1F gateway.
 
-## Turn 129099 Live Progress:
-- Current Position: Standing on foot at (24, 1) on Map 0_226 (2F West/East) on Turn 129099 (currently in wild battle).
+## Turn 129102 Live Progress:
+- Current Position: Standing on foot at (13, 1) on Map 0_226 (2F West/East) on Turn 129102.
 - Active Goal: Retrieve Mewtwo from B1F.
-- **Progress**: On Turn 129007, we boarded the water at (15, 4). On Turn 129011, we surfed to (10, 6) on the water. On Turn 129020, we surfed back and dismounted on foot at (15, 3) (Water Ramp 4). On Turn 129021, we climbed Ladder 5 to land at 2F (9, 1). On Turn 129026, we walked to (9, 4), fleeing from a wild Chansey. On Turn 129028, we walked to (12, 5) and empirically tested moving Down into (12, 6) on Turn 129029, resulting in a solid BUMP collision. This proves (12, 6) is a solid rock wall. On Turn 129056, we walked Right 1, Up 4, Right 5 to reach (18, 1). On Turn 129059, we walked Down 2, Right 2 to (20, 3), where we triggered a wild Wigglytuff battle. On Turn 129074, we walked Up 1, Right 4, Up 1, and Right 2 to (24, 1), bumping on (25, 1). On Turn 129094, we walked Down 1, Left 4, Down 1, Left 2, and Up 2 to reach (18, 1). On Turn 129098, we walked Left 5 and Down 4 to reach (13, 5).
+- **Progress**: On Turn 129021, we climbed Ladder 5 to land at 2F (9, 1). On Turn 129028, we walked to (12, 5) and empirically tested moving Down into (12, 6) on Turn 129029, resulting in a solid BUMP collision. On Turn 129056, we walked Right 1, Up 4, Right 5 to reach (18, 1). On Turn 129059, we walked Down 2, Right 2 to (20, 3), escaping a wild Wigglytuff encounter on Turn 129066. On Turn 129074, we walked Up 1, Right 4, Up 1, and Right 2 to (24, 1), bumping on (25, 1). On Turn 129094, we walked Down 1, Left 4, Down 1, Left 2, and Up 2 to reach (18, 1). On Turn 129098, we walked Left 5 steps to reach (13, 1), where we were interrupted by a wild Electrode encounter on Turn 129099, which we successfully escaped.
 - **Warp Pathfinder Verification**: Our BFS simulation shows that we successfully bypassed the solid walls on Row 6 and Column 17 on 2F West by looping horizontally through Row 1, Column 13, and wrapping around the Ladder 3 warp at (19, 7) via Row 6 and Column 20. This completely avoids warping back to 1F!
-- **Turn Log**: Start Turn: 111394. Current Turn: 129099. Timestamp: Saturday, June 27, 2026 at 12:12 AM PDT.
+- **Turn Log**: Start Turn: 111394. Current Turn: 129102. Timestamp: Saturday, June 27, 2026 at 12:26 AM PDT.
 - Verified Blockages Logged:
   - (12, 6) on Map 0_226 is a solid rock wall of TYPE_2889 (verified Turn 129029).
   - (10, 6) on Map 0_226 is a solid rock wall of TYPE_2889 (verified Turn 128677).
