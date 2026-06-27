@@ -8244,8 +8244,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   Let's check where the stairs to B1F are in standard Gen 1!
   - **The (1, 3) B1F Ladder**: The ladder at (1, 3) on 1F Northwest connects directly to 2F Northwest at (1, 3), serving as the critical entrance gateway to the isolated 1F Northwest landmass and the B1F stairs. Our previous logs incorrectly labeled this as (29, 3) or other coordinates. We have verified that (1, 3) is the correct B1F gateway.
 
-## Turn 129191 Live Progress:
-- Current Position: Surfing at (10, 6) on Map 0_228 (1F) on Turn 129191.
+## Turn 129193 Live Progress:
+- Current Position: Surfing at (10, 6) on Map 0_228 (1F) on Turn 129193.
 - Active Goal: Retrieve Mewtwo from B1F.
 - **Progress**: We successfully navigated back on 2F West to Ladder 5 at (9, 1), descended back to 1F at (7, 1) on Turn 129156, walked to (15, 3), and boarded the water to start surfing. We surfed down to Row 6 and horizontally Left to (10, 6).
 - **Northwest Landing Path Plan**: The water on rows 4 and 5 is blocked horizontally on 1F, so the eastern and western water canals do not connect directly on Y=4 or Y=5. Instead, they are connected via Row 6 and Row 7 water. However, the far western water canal on Columns 0-5 is also isolated. Therefore, the ONLY way to reach B1F is by climbing a different ladder to 2F, wait!
