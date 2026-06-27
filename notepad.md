@@ -8249,6 +8249,56 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Next Immediate Action**:
   - Return to Ladder 5 at (9, 1) on 2F West and go down to 1F Northwest at (7, 1).
   - From (7, 1) on foot on 1F Northwest, walk Left and physically test the passability of (4, 1) on Row 1!
+  - *Result (Turn 130148)*: Stood at (5, 1) facing Left, pressed Left. Result: BUMP (visited 0 tiles). This physically, empirically, and conclusively disproves the on-foot path between (7, 1) and (1, 3) on 1F Northwest.
+  
+- **Topological Conclusion**:
+  - Since (4, 1) on 1F is a solid rock wall, the northwesternmost platform of 1F (containing the Northwest Ladder (1, 3) and B1F stairs) is completely on-foot isolated from the landing of Ladder 5 at (7, 1).
+  - Therefore, the ONLY way to reach Northwest Ladder at (1, 3) (or the B1F stairs) is via SURFING!
+  - Wait, let's look at the map of 1F and verify how to surf to (1, 3).
+  - Let's trace the water canal to the northwest!
+  - On 1F, we have the western vertical water canal (Columns 8-9). We can surf up this canal.
+  - Can we reach the Northwest area by surfing? Let's check:
+    - Northwest Ladder on 1F is at (1, 3).
+    - Below (1, 3), we have (1, 4) which is TYPE_2889 (solid) on our screen, wait, let's look at `<CurrentScreen turn="130150">`!
+    - Wait! Let's look at `<CurrentScreen turn="130150">`:
+      Row 3: (1, 3) is TYPE_3fe2 (ladder), (2, 3) is TYPE_3fe2 (ground).
+      Row 4: (1, 4) is TYPE_2889 (solid rock wall), (2, 4) is TYPE_3fe2 (ground), (3, 4) is TYPE_3fe2 (ground), (4, 4) is TYPE_3fe2 (ground), (5, 4) is TYPE_3fe2 (ground).
+      Row 5: (1, 5) is TYPE_2889 (solid), (2, 5) is TYPE_2889 (solid), (3, 5) is TYPE_2889 (solid), (4, 5) is TYPE_2889 (solid), (5, 5) is TYPE_3fe2 (ground).
+      Wait, are these ground or water?
+      In Cerulean Cave, columns 1-5, rows 4-5 are water!
+      Wait, but why is (2, 4), (3, 4), (4, 4), (5, 4), (5, 5) labeled TYPE_3fe2?
+      Wait, in vanilla Cerulean Cave, the water is on rows 4 and 5 on the left!
+      Let's look at our map markers:
+      - (13, 4) and (13, 5) are "solid rock"
+      - (15, 3) is "Water Ramp 4"
+      - (11, 13) is "Water Ramp 2"
+      Wait, let's look at our Main notepad:
+      - "The actual unblocked pathway in standard Gen 1 Cerulean Cave 1F is to Surf up the western vertical canal, surf Up onto Row 4/5 water (passable while surfing), and then surf Left horizontally through Columns 6-8 directly to the northwest water canal (Columns 0-5 on Row 4), where we can dismount onto the northwest landmass to reach the B1F stairs."
+    - Ah! Let's verify this!
+    - Let's check where the B1F stairs actually are!
+    - Wait, is there a B1F stairs on the northwest landmass of 1F?
+    - Let's search all our notepads for "B1F stairs" or "northwest landmass" or "Mewtwo".
+    - Wait, let's see where the stairs to B1F are on 1F.
+    - Let's look at the results of our earlier search or search again for "B1F" or "stairs" in the locations files.
+    - Wait! We see:
+      "B1F Access: The stairs down to B1F are located in the northwestern quadrant of 1F."
+      Wait, is the stairs to B1F an actual staircase (TYPE_4b8d) on the northwest landmass of 1F?
+      Or is it a ladder?
+      Wait, on 1F Northwest, we have Northwest Ladder (1, 3).
+      But wait! Let's look at Northwest Ladder (1, 3) on 1F:
+      - "Located on 1F at (1, 3) (labeled TYPE_3fe2). Ascending this ladder warps the player to 2F at (1, 3)."
+      - "Located on 2F at (1, 3) (labeled [=], TYPE_3fe2). Descending this ladder warps the player to 1F at (1, 3). This is the critical gateway to the northwest isolated quadrant of 1F and the B1F stairs."
+      Wait! If Northwest Ladder at (1, 3) on 1F goes UP to 2F, and on 2F it goes DOWN to 1F at (1, 3), how do we reach B1F?
+      Ah! If descending (1, 3) on 2F lands us at (1, 3) on 1F, where do we go from there?
+      We are at (1, 3) on 1F. Then we walk to the stairs to B1F!
+      Where are the stairs to B1F?
+      Wait, let's read the map or run a search.
+      Is there another staircase on the northwest landmass of 1F?
+      Wait, let's look at our map markers for Map 0_228 (1F).
+      Let's see if we have any markers on 1F for "B1F" or "stairs".
+      Wait, we don't see any marker for B1F stairs on 1F.
+      Wait, is the staircase to B1F at some other coordinate?
+      Let's search all notepads for "stairs" or "B1F" in CeruleanCave.
 
 <hr>
 
