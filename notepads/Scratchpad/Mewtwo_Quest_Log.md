@@ -20,10 +20,10 @@
   Let's check where the stairs to B1F are in standard Gen 1!
   - **The (1, 3) B1F Ladder**: The ladder at (1, 3) on 1F Northwest connects directly to 2F Northwest at (1, 3), serving as the critical entrance gateway to the isolated 1F Northwest landmass and the B1F stairs. Our previous logs incorrectly labeled this as (29, 3) or other coordinates. We have verified that (1, 3) is the correct B1F gateway.
 
-## Turn 129193 Live Progress:
-- Current Position: Surfing at (10, 6) on Map 0_228 (1F) on Turn 129193.
-- Active Goal: Retrieve Mewtwo from B1F.
-- **Progress**: We successfully navigated back on 2F West to Ladder 5 at (9, 1), descended back to 1F at (7, 1) on Turn 129156, walked to (15, 3), and boarded the water to start surfing. We surfed down to Row 6 and horizontally Left to (10, 6).
+## Turn 129308 Live Progress:
+- Current Position: Standing on foot at Water Ramp 2 (11, 13) on Map 0_228 (1F) on Turn 129308.
+- Active Goal: Surf to Northwest Platform (15, 3) and climb Ladder 5 to reach 2F Northwest.
+- **Progress**: We climbed to 2F West via Southwest Ladder 6 to check if the southwest pocket was isolated, confirming it is indeed a complete dead end on foot. We then backtracked to 1F Southwest, walked down the wooden staircase at (1, 13), navigated the ground corridor along Row 17, and climbed the central stairs to reach Water Ramp 2 at (11, 13).
 - **Northwest Landing Path Plan**: The water on rows 4 and 5 is blocked horizontally on 1F, so the eastern and western water canals do not connect directly on Y=4 or Y=5. Instead, they are connected via Row 6 and Row 7 water. However, the far western water canal on Columns 0-5 is also isolated. Therefore, the ONLY way to reach B1F is by climbing a different ladder to 2F, wait!
   Let's re-verify: is there a different ladder to 2F that connects to (1, 3) on 2F?
   Wait! Let's check standard Gen 1 Cerulean Cave 1F/2F layout:
