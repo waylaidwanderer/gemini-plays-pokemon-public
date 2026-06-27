@@ -9244,3 +9244,38 @@ We can formulate 5 custom tool/agent ideas to optimize the endgame and Mewtwo se
   - *Result*: CONFIRMED. Programmatic simulation found a valid 22-step surfing route through Rows 4-5. This is the canonical path to reach B1F!
 
 <hr>
+
+<h1><code>Reflection/Turn130405_Reflection</code></h1>
+
+# Turn 130405 Self-Assessment & Reflection
+
+## 1. Immediate Execution
+- We are currently on 1F at (13, 1), backtracking after systematically proving that 2F West does not have an on-foot bypass. Our immediate action is to walk left to Ladder 5 at (7, 1), climb it to 2F West (9, 1), walk to Northwest Ladder (1, 3), descend to 1F Northwest, and then take the stairs to B1F to find Mewtwo.
+
+## 2. Notepad Hygiene
+- Consolidated all disproven path theories in `Archive/CeruleanCave_DisprovenTheories`.
+- Keeping `Scratchpad/Mewtwo_Quest_Log` up-to-date with our live step-by-step master route.
+- The `Locations/CeruleanCave` notepad holds verified structural truths with rigorous testing results.
+
+## 3. Map Hygiene
+- Proactively marked every ladder, staircase, water ramp, and blockage coordinate as map markers.
+- These markers prevent us from walking into dead ends and let us visually verify collision layouts immediately.
+
+## 4. Custom Tools
+- We have `cave_bfs_solver` for Map 0_228 (1F) and Map 0_226 (2F).
+- We have `mewtwo_combat_strategist` for calculations.
+- We can define a B1F BFS solver once we descend to B1F if the layout is complex.
+
+## 5. Tool Maintenance
+- `cave_bfs_solver` is kept in great shape and used for complex pathfinding.
+- No broken tools are left in our arsenal; we rely on exact calculations.
+
+## 6. Goal Clarity
+- Primary Goal: Catch Mewtwo on B1F of Cerulean Cave.
+- Secondary Goal: Navigate on foot to Ladder 5 at (7, 1) on 1F.
+- Methods are fully documented in `Scratchpad/Mewtwo_Quest_Log`.
+
+## 7. Error Analysis & Hypothesis Review
+- Tested and disproved the 2F West crossover hypothesis. Grounded our movement in actual screen coordinates and collision checks. This disciplined approach saved us from repeating navigation loops and confirmed that surfing back to the northern landmass was the only viable pathway.
+
+<hr>
