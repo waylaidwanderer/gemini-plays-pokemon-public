@@ -392,12 +392,6 @@
 - Wait! Let's search all our notepads for "B1F" to see where the entrance to B1F actually is! This is extremely important because we might have the coordinates or the ladder name wrong.
 - Let's execute search_notepads with query "B1F".
 
-## Turn 127457: Navigating 1F Northwest to Ladder 5
-- We dismounted at Water Ramp 4 at (15, 3).
-- Plan: Walk Up to (15, 2), Left to (7, 2), and Up to (7, 1) [Ladder 5].
-- Climb Ladder 5 to reach 2F Northwest at (9, 1).
-- Once on 2F West, walk to Column 1 Row 5 (1, 5) and test the passability of (1, 4) to verify if it is connected to (1, 3). This is our primary hypothesis to resolve the "isolated ladder" mystery!
-- Action: Executing movement to (7, 1) and climbing the ladder.
 ## Turn 127491: 2F West Structural Connectivity and Isolation Verification
 - Stand at (5, 3) on Map 0_226 on foot.
 - Visual status on Row 6 and Row 4 from <CurrentScreen turn="127491">:
