@@ -8252,6 +8252,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Turn Log**: Start Turn: 111394. Current Turn: 129102. Timestamp: Saturday, June 27, 2026 at 12:26 AM PDT.
 - Verified Blockages Logged:
   - (12, 6) on Map 0_226 is a solid rock wall of TYPE_2889 (verified Turn 129029).
+  - (18, 4) on Map 0_226 is a solid rock wall of TYPE_2889 (verified Turn 129057).
+  - (18, 5) on Map 0_226 is a solid rock wall of TYPE_2889 (verified Turn 129057).
   - (10, 6) on Map 0_226 is a solid rock wall of TYPE_2889 (verified Turn 128677).
   - (6, 0) on Map 0_226 is a solid rock wall of TYPE_2889 (verified Turn 128645).
   - (13, 17) on Map 0_228 is passable on foot (empirically proven on Turn 128756 by walking onto it!).
