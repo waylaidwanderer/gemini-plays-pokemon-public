@@ -273,3 +273,21 @@ Turn 128217 Progress:
 - Player is at (19, 17) on Map 0_226 on foot.
 - BFS verified remaining path to Ladder 3 at (19, 7): ["Down", "Right", "Right", "Right", "Right", "Right", "Right", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Left", "Left", "Left", "Left", "Down", "Left", "Down", "Left", "Down"]
 - Executing first chunk of 10 moves: ["Down", "Right", "Right", "Right", "Right", "Right", "Right", "Up", "Up", "Up"] to reach (25, 15).
+## Turn 128257 - 128268: Southwest Descent to 1F and Ground Navigation planning
+- **Turn 128257**: Arrived on 1F Southwest on foot at the (3, 11) ladder.
+- **Visual Check & Terrain Analysis (Turn 128268)**:
+  - We are at (1, 11) on the elevated southwest plateau (TYPE_2770).
+  - The wooden staircase down is located at (1, 13) (TYPE_4b8d).
+  - (1, 12) is TYPE_2770, connecting (1, 11) to (1, 13).
+  - Our path to (1, 13) is: Down, Down.
+- **Ground Floor Routing to Central Platform (17, 15)**:
+  - From the bottom of the stairs at (1, 14), we will walk:
+    - Down to (1, 15) [TYPE_3fe2].
+    - Right to (2, 15) [TYPE_3fe2] -> Right to (3, 15) [TYPE_3fe2].
+    - Down to (3, 16) [TYPE_3fe2] -> Down to (3, 17) [TYPE_3fe2].
+    - Right 14 steps along Row 17 to (17, 17) [TYPE_3fe2].
+    - Up to (17, 16) [TYPE_3fe2] -> Up to (17, 15) [Stairs - TYPE_4b8d].
+    - Up 3 steps to (17, 12) [Central Platform - TYPE_2770].
+    - Left 6 steps along Row 12 to (11, 12) [TYPE_2770].
+    - Down to (11, 13) [Water Ramp 2 - TYPE_4b8d].
+  - Let's execute this step-by-step. Current target: Stairs at (1, 13).
