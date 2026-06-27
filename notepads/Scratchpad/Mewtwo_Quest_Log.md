@@ -26,33 +26,19 @@
   And is there a staircase at (3, 11)? Or is the staircase to B1F at (3, 11) on B1F?
   Let's check!
 
-## Turn 128617: Live Verification of the 2F West bypass path and blockages
-- Current position: Standing at (9, 1) on Map 0_226 (2F West) on foot.
+## Turn 128626 Live Progress:
+- Current Position: Standing at (9, 0) on Map 0_226 (2F West) on foot.
 - Active Goal: Retrieve Mewtwo from B1F.
-- Active Hypothesis: The northern corridor Row 0 is passable from (9, 0) Leftwards all the way to (1, 0), or there is a 30-step path on foot that bypasses the Row 6 blockages to reach Northwest Ladder (1, 3).
-- To verify the 30-step path or find if Row 0 is passable, we will:
-  1. Walk Up to (9, 0).
-  2. Walk Left along Row 0 to test (8, 0), (7, 0), and then specifically (6, 0).
-  3. If (6, 0) is blocked, we will continue along our 30-step bypass path:
-     - (9, 1) -> Left to (4, 1)
-     - Down to (4, 3)
-     - Right to (9, 3)
-     - Down to (9, 5)
-     - Right to (10, 5)
-     - Down to (10, 7)
-     - Left to (8, 7)
-     - Left to (6, 7) via (7, 7)
-     - Up to (6, 6)
-     - Left to (2, 5) via (6, 5), (5, 5), (4, 5), (3, 5)
-     - Up to (2, 4)
-     - Left to (1, 4)
-     - Up to (1, 3) [Northwest Ladder!]
+- Active Hypothesis: Testing if the northern corridor Row 0 is passable Leftwards to find if a direct on-foot shortcut exists to Northwest Ladder (1, 3).
+- Progress: We climbed Ladder 5 from 1F (7, 1) to 2F (9, 1) and stepped Up to (9, 0). We are walking Left along Row 0 to test (8, 0), (7, 0), and (6, 0).
+- If (6, 0) is blocked, we will follow the 30-step on-foot bypass route:
+  (9, 1) -> Left to (4, 1) -> Down to (4, 3) -> Right to (9, 3) -> Down to (9, 5) -> Right to (10, 5) -> Down to (10, 7) -> Left to (6, 7) -> Up to (6, 6) -> Left to (2, 5) -> Up to (2, 4) -> Left to (1, 4) -> Up to (1, 3) [Northwest Ladder!].
 
-- Turn 128617 Blockage Logs:
-  - We physically verified that (11, 15) is impassable on Map 0_226 on Turn 128180.
-  - We physically verified that (13, 17) is impassable on Map 0_228 on Turn 127139.
-  - We physically verified blockages at (3, 14) and (5, 7) on Map 0_228 on Turn 125777 and Turn 126196 respectively.
-  - Let's update our notepad with these and define map markers.
+- Verified Blockages Logged:
+  - (11, 15) on Map 0_226 is a solid rock wall (verified Turn 128180).
+  - (13, 17) on Map 0_228 is impassable water/ledge (verified Turn 127139).
+  - (3, 14) on Map 0_228 is a solid rock wall (verified Turn 125777).
+  - (5, 7) on Map 0_228 is a solid rock wall (verified Turn 126196).
 
 ## Turn 126846: Discovery of Separated Sections
 - We have visually verified on Map 0_228 (1F) that the northernmost corridor (Rows 0-2) is completely blocked from reaching the area below it (Row 4 and lower) on foot.
