@@ -62,11 +62,9 @@
   - Columns 14 and 15 on Rows 10 and 11 are solid rock walls (TYPE_2889).
   - Column 18 has the ladder warp at (18, 9).
   - Thus, to reach the stairs down at (17, 15) safely, we can walk via Column 18 to bypass the rock wall at (16, 13) / (17, 13):
-    - (15, 9) -> Right to (16, 9) -> Right to (17, 9).
+  - (15, 9) -> Right to (16, 9) -> Right to (17, 9).
     - (17, 9) -> Down to (17, 10) -> Down to (17, 11) -> Down to (17, 12).
-    - (17, 12) -> Right to (18, 12) -> Down to (18, 13) -> Down to (18, 14) -> Down to (18, 15) -> Left to (17, 15) [Stairs].
-  - The step sequence is: Right, Right, Down, Down, Down, Right, Down, Down, Down, Left. (Total 10 steps).
-  - Let's execute this path!
+  - Note: Row 17 on Map 0_228 is physically blocked at Column 13, making this horizontal path impassable on foot. This was proven on Turn 127139.
 - Turn 127088: Investigating the path on Cerulean Cave 1F. We are at (1, 14) on Map 0_228 (1F). Let's climb up the stairs at (1, 13) to (1, 12).
 ## Turn 127457: Navigating 1F Northwest to Ladder 5
 - We dismounted at Water Ramp 4 at (15, 3).
