@@ -43,6 +43,8 @@
   - **(12, 14) and (13, 14) Blockages**: Physically verified on Turn 128751 as solid rock walls of TYPE_2889.
   - **(3, 13) Blockage**: Physically verified on Turn 128819 as a solid rock wall of TYPE_2889.
   - **(2, 13) Blockage**: Physically verified on Turn 128822 as a solid rock wall of TYPE_2889.
+  - **(17, 17) Blockage**: Physically verified on Turn 129205 as a solid rock wall of TYPE_2889.
+  - **(18, 17) Blockage**: Physically verified on Turn 129205 as a solid rock wall of TYPE_2889.
 
 ## 2F (0_226) Verified Layout:
 - **Serpentine Bypass**:
