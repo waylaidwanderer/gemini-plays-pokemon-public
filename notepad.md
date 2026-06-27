@@ -8245,13 +8245,12 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   Let's check where the stairs to B1F are in standard Gen 1!
   - **The (1, 3) B1F Ladder**: The ladder at (1, 3) on 1F Northwest connects directly to 2F Northwest at (1, 3), serving as the critical entrance gateway to the isolated 1F Northwest landmass and the B1F stairs. Our previous logs incorrectly labeled this as (29, 3) or other coordinates. We have verified that (1, 3) is the correct B1F gateway.
 
-## Turn 129878 Live Progress:
-- Current Turn: Turn 129878
-- Current Position: Surfing at (15, 4) on Map 0_228 (1F) on Turn 129878.
+## Turn 129902 Live Progress:
+- Current Turn: Turn 129902
+- Current Position: Surfing at (11, 6) on Map 0_228 (1F) on Turn 129902.
 - Active Goal: Reach Cerulean Cave B1F and capture Mewtwo.
-- **Progress**: We successfully used SURF at Water Ramp 4 at (15, 3) and are now surfing on the water at (15, 4).
-- **The True Path to B1F Stairs**: In standard Gen 1, Rows 4 and 5 on 1F (Map 0_228) are open water from Column 0 to Column 12, allowing continuous surfing to the northwest corner!
-- **Next Step**: We are surfing at (15, 4). The BFS path to the northwest water canal at (2, 4) is: (15, 4) -> Down twice to (15, 6) -> Left three times to (12, 6) -> Up twice to (12, 4) -> Left ten times to (2, 4). We will execute the first 5 steps of this path: Down twice and Left three times to reach (12, 6).
+- **Progress**: We are surfing in the central canal of 1F. We are currently navigating to Water Ramp 4 at (15, 3) to dismount on the northern platform.
+- **The True Path to B1F Stairs**: The western part of 2F has been confirmed to have completely isolated sections, meaning we cannot cross 2F West on foot to reach the Northwest Ladder (1, 3). Instead, the correct path is to ascend 2F via Ladder 5 at (7, 1) on 1F, which is accessible by dismounting onto the northern platform at (15, 3) and walking west along Row 2. Once on 2F at (9, 1), we can walk directly west along Row 1 to (1, 3) and descend the Northwest Ladder to 1F Northwest. From 1F Northwest, we can descend the adjacent stairs to B1F. Let's execute this plan.
 
 <hr>
 
