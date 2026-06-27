@@ -8244,13 +8244,14 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   Let's check where the stairs to B1F are in standard Gen 1!
   - **The (1, 3) B1F Ladder**: The ladder at (1, 3) on 1F Northwest connects directly to 2F Northwest at (1, 3), serving as the critical entrance gateway to the isolated 1F Northwest landmass and the B1F stairs. Our previous logs incorrectly labeled this as (29, 3) or other coordinates. We have verified that (1, 3) is the correct B1F gateway.
 
-## Turn 129005 Live Progress:
-- Current Position: Standing on foot at (15, 3) (Water Ramp 4) on Map 0_228 (1F Northwest) facing Down with Surf menu open.
-- Active Goal: Board the water canal, surf to the northwest landmass, dismount onto foot, and enter the B1F stairs to capture Mewtwo.
-- **Progress**: On Turn 128989, we descended from 2F (9, 1) to 1F Northwest (7, 1). We then walked along Row 2 to (15, 2) and down to (15, 3), escaped a wild Magneton encounter using the 'flee_battle' tool, and are now using Surf on Water Ramp 4.
-- **The (1, 3) Northwest Ladder / B1F Gateway**: Our previous logs verified that the northwest isolated quadrant of 1F contains the stairs down to B1F. This landmass is accessible on foot by dismounting from the water canal (Row 4/5) directly onto Row 3 (specifically at (1, 3) or adjacent). This is our canonical path to Mewtwo!
-- **Turn Log**: Start Turn: 111394. Current Turn: 129005. Timestamp: Friday, June 26, 2026 at 11:42 PM PDT.
+## Turn 129033 Live Progress:
+- Current Position: Standing on foot at (12, 5) on Map 0_226 (2F West/East) on Turn 129033.
+- Active Goal: Retrieve Mewtwo from B1F.
+- **Progress**: On Turn 129007, we boarded the water at (15, 4). On Turn 129011, we surfed to (10, 6) on the water. On Turn 129020, we surfed back and dismounted on foot at (15, 3) (Water Ramp 4). On Turn 129021, we climbed Ladder 5 to land at 2F (9, 1). On Turn 129026, we walked to (9, 4), fleeing from a wild Chansey. On Turn 129028, we walked to (12, 5) and empirically tested moving Down into (12, 6) on Turn 129029, resulting in a solid BUMP collision. This proves (12, 6) is a solid rock wall.
+- **Warp Pathfinder Verification**: Our BFS simulation using visible screen walls shows that we must bypass the solid walls on Row 6 and Column 7 on 2F West by looping horizontally through Row 8 or Row 5. However, we must be extremely careful to not step onto Ladder 3 at (19, 7) on foot, which is a warp tile that will immediately descend us to 1F.
+- **Turn Log**: Start Turn: 111394. Current Turn: 129033. Timestamp: Friday, June 26, 2026 at 11:58 PM PDT.
 - Verified Blockages Logged:
+  - (12, 6) on Map 0_226 is a solid rock wall of TYPE_2889 (verified Turn 129029).
   - (10, 6) on Map 0_226 is a solid rock wall of TYPE_2889 (verified Turn 128677).
   - (6, 0) on Map 0_226 is a solid rock wall of TYPE_2889 (verified Turn 128645).
   - (13, 17) on Map 0_228 is passable on foot (empirically proven on Turn 128756 by walking onto it!).
