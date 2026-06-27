@@ -8244,17 +8244,19 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   Let's check where the stairs to B1F are in standard Gen 1!
   - **The (1, 3) B1F Ladder**: The ladder at (1, 3) on 1F Northwest connects directly to 2F Northwest at (1, 3), serving as the critical entrance gateway to the isolated 1F Northwest landmass and the B1F stairs. Our previous logs incorrectly labeled this as (29, 3) or other coordinates. We have verified that (1, 3) is the correct B1F gateway.
 
-## Turn 128702 Live Progress:
-- Current Position: Standing at (11, 2) on Map 0_228 (1F) on foot.
+## Turn 128734 Live Progress:
+- Current Position: Standing at (11, 13) on Map 0_228 (1F) on foot.
 - Active Goal: Retrieve Mewtwo from B1F.
-- Active Hypothesis: The 'Water-Wall' Collision Fallacy on 1F West. We previously hypothesized that (1, 7) on Map 0_228 was a solid rock wall because we bumped into it on foot on Turn 122908. However, this is actually a water tile! The western vertical water canal runs along Columns 1 and 2. We will land at Water Ramp 2 at (11, 13), walk to the central platform stairs at (17, 15), descend to Row 17 on the ground floor, walk Left to (1, 13), climb to (1, 12) on the elevated southwest platform, and walk north to Row 11. Since Column 1 Rows 8-10 is water, we cannot walk north beyond Row 11 on foot. Instead, we must stand at Row 11 Column 1 or 2, face North, and select SURF to board the western canal. From there, we can surf north directly along Columns 1-2 to reach the B1F stairs at (1, 3).
-- Progress: Successfully backtracked on foot on 2F West from (10, 5) to Ladder 5 at (9, 1) and descended to 1F (7, 1) on Turn 128695. We are currently walking along Row 2 towards (15, 2) to prepare for surfing.
+- Active Hypothesis: The 'Water-Wall' Collision Fallacy on 1F West. We previously hypothesized that (1, 7) on Map 0_228 was a solid rock wall because we bumped into it on foot on Turn 122908. However, this is actually a water tile! The western vertical water canal runs along Columns 1 and 2. We will land at Water Ramp 2 at (11, 13), walk to the central platform stairs at (17, 15), descend to Row 17 on the ground floor, walk Left to (1, 13), climb to (1, 12) on the elevated southwest platform, and walk north to Row 11. Since Column 1 Rows 8-10 is water, we cannot walk north beyond Row 11 on foot. Instead, to board the western canal, we must stand at (1, 12) or (2, 12) or (1, 13), face the adjacent water at Row 11 Column 1 or 2 (which is immediately north of Row 11/12), and select SURF from the Party Menu. From there, we can surf north directly along Columns 1-2 to reach the B1F stairs at (1, 3).
+- Progress: Successfully backtracked on foot on 2F West from (10, 5) to Ladder 5 at (9, 1) and descended to 1F (7, 1) on Turn 128695. We then surfed to Water Ramp 2 and dismounted at (11, 13) on foot.
 - Verified Blockages Logged:
   - (10, 6) on Map 0_226 is a solid rock wall of TYPE_2889 (verified Turn 128677).
   - (6, 0) on Map 0_226 is a solid rock wall of TYPE_2889 (verified Turn 128645).
   - (13, 17) on Map 0_228 is impassable water/ledge (verified Turn 127139).
   - (3, 14) on Map 0_228 is a solid rock wall of TYPE_2889 (verified Turn 125777).
   - (5, 7) on Map 0_228 is a solid rock wall of TYPE_2889 (verified Turn 126196).
+  - (12, 13) on Map 0_228 is a solid rock wall of TYPE_2889 (verified Turn 128723).
+  - (13, 13) on Map 0_228 is a solid rock wall of TYPE_2889 (verified Turn 128723).
 
 ## Turn 126846: Discovery of Separated Sections
 - We have visually verified on Map 0_228 (1F) that the northernmost corridor (Rows 0-2) is completely blocked from reaching the area below it (Row 4 and lower) on foot.
