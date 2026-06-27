@@ -21,9 +21,9 @@
   Let's check where the stairs to B1F are in standard Gen 1!
   - **The (1, 3) B1F Ladder**: The ladder at (1, 3) on 1F Northwest connects directly to 2F Northwest at (1, 3), serving as the critical entrance gateway to the isolated 1F Northwest landmass and the B1F stairs. Our previous logs incorrectly labeled this as (29, 3) or other coordinates. We have verified that (1, 3) is the correct B1F gateway.
 
-## Turn 129961 Live Progress:
-- Current Turn: Turn 129961
-- Current Position: Surfing at (15, 4) on Map 0_228 (1F).
+## Turn 129996 Live Progress:
+- Current Turn: Turn 129996
+- Current Position: Standing on foot at (12, 2) on Map 0_228 (1F Northwest on foot).
 - Active Goal: Reach Cerulean Cave B1F and capture Mewtwo.
-- **Topological Breakthrough (Turn 129958)**: 2F Northwest is completely disconnected on foot from the Northwest Ladder. Instead, the actual unblocked pathway in standard Gen 1 Cerulean Cave 1F is to Surf up the western vertical canal, surf Up onto Row 4/5 water (passable while surfing), and then surf Left horizontally through Columns 6-8 directly to the northwest water canal (Columns 0-5 on Row 4), where we can dismount onto the northwest landmass to reach the B1F stairs.
-- **Next Step**: Use cave_bfs_solver to navigate from our current position (15, 4) surfing to (2, 4) surfing on Map 0_228, which will take us through the horizontal surfing crossover to the northwest canal!
+- **Topological Breakthrough (Turn 129996)**: Our previous assumption that 2F Northwest connects to (1, 3) on foot was disproven. Instead, standard Gen 1 Cerulean Cave 1F has Rows 4 and 5 completely open as water from Column 0 to Column 12! Our previous 'bumps' when pressing Up on foot from Row 6 were simply standard water collisions on foot, NOT solid rock walls. Therefore, Rows 4 and 5 are fully passable while surfing!
+- **Next Step**: Go to Water Ramp 4 at (15, 3), use Surf, navigate to (9, 6) or (8, 6), and surf UP onto Rows 4 and 5, then surf Left horizontally to the northwest water canal!
