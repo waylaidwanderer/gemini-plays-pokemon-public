@@ -9561,3 +9561,41 @@ We can formulate 5 custom tool/agent ideas to optimize the endgame and Mewtwo se
   5. `ledge_jump_validator` (Tool): A script to audit potential ledge coordinates on new maps.
 
 <hr>
+
+<h1><code>Reflection/Turn128817_Reflection</code></h1>
+
+# 50-Turn Reflection & Self-Assessment (Turn 128817)
+
+## 1. Progress and accomplishments over the last 50 turns:
+- Dismounted on foot at Water Ramp 2 (11, 13) on Turn 128724 after surfing down the central canal.
+- Walked across the central platform, descended the stairs to the ground floor at (17, 16), and systematically walked Left.
+- **Row 17 Passability Breakthrough (Turn 128756)**: Physically stood on (13, 17) and proved that Row 17 is fully passable on foot at Column 13, completely disproving a long-held legacy belief that the southwest pocket was a closed dead-end.
+- Climbed the wooden staircase at (1, 13) to reach (1, 12) on the elevated southwest platform.
+- **Verification of Western Canal Boarding**: Walked Up to (1, 8) and (2, 8) facing Up and attempted to use SURF. Both attempts resulted in "No SURFing on GEMMY here!", proving that we cannot board the water directly from this elevated platform due to height mismatch.
+
+## 2. Notepad and Map Marker Audit:
+- **Map Markers**: Defined map markers for verified solid rock walls on Map 0_228: `🚫 solid rock` at (12, 13), (13, 13), (12, 14), and (13, 14), and deleted the incorrect block marker at (13, 17). Proactively added the `🚫 solid rock` marker at (13, 14) to maintain overworld data hygiene.
+- **Notepad Organization**: Successfully updated `Locations/CeruleanCave` to log verified blockages, corrected (13, 17) layout status, and pruned the disproven 2F master route from `Scratchpad/Mewtwo_Quest_Log` to ensure perfect data hygiene across context summaries.
+
+## 3. Tool/Agent Brainstorming:
+- **cave_component_analyzer**: Defined and successfully queried this custom agent on Turn 128796 to verify component topology.
+- **cave_bfs_solver**: Updated to include newly discovered solid rock blockages to prevent pathing through walls.
+- **Future Tool Ideas**:
+  1. `mewtwo_catch_helper`: Formulates the optimal catch rate and action loop during the Mewtwo battle.
+  2. `wild_encounter_avoider`: Directs steps along paths with minimum wild encounter rates.
+
+## 4. Tool Maintenance:
+- Successfully updated `cave_bfs_solver` on Turn 128757 (removed (13,17), added Row 16 walls) and on Turn 128816 (added (2,13) as wall). Verified its accuracy with on-foot and surf path queries.
+
+## 5. Goal Clarity:
+- **Primary**: Retrieve Mewtwo from Cerulean Cave B1F (Run 1)
+- **Secondary**: Walk back to Water Ramp 2 at (11, 13) on foot.
+- **Tertiary**: Surf from Water Ramp 2 to (0, 6) [Northwest Ladder] to access the northwest quadrant and B1F stairs.
+
+## 6. Hypotheses and Empirical Results:
+- **Hypothesis A (Western Canal Boarding)**: We can board water directly from the elevated southwest platform at Columns 1-2 Rows 8-11.
+  - *Result*: FAILED. "No SURFing on GEMMY here!" proves that you cannot initiate SURF to jump down from an elevated platform (z=1) onto ground-level water (z=0) without a ramp.
+- **Hypothesis B (Surfing Crossover to Northwest Ladder)**: We can surf directly to the Northwest Ladder at (0, 6) on Map 0_228 from Water Ramp 2.
+  - *Result*: CONFIRMED. Programmatic simulation found a valid 22-step surfing route through Rows 4-5. This is the canonical path to reach B1F!
+
+<hr>
