@@ -20,19 +20,16 @@
   Let's check where the stairs to B1F are in standard Gen 1!
   - **The (1, 3) B1F Ladder**: The ladder at (1, 3) on 1F Northwest connects directly to 2F Northwest at (1, 3), serving as the critical entrance gateway to the isolated 1F Northwest landmass and the B1F stairs. Our previous logs incorrectly labeled this as (29, 3) or other coordinates. We have verified that (1, 3) is the correct B1F gateway.
 
-## Turn 128626 Live Progress:
-- Current Position: Standing at (9, 0) on Map 0_226 (2F West) on foot.
+## Turn 128687 Live Progress:
+- Current Position: Standing at (10, 5) on Map 0_226 (2F West) on foot.
 - Active Goal: Retrieve Mewtwo from B1F.
-- Active Hypothesis: Testing if the northern corridor Row 0 is passable Leftwards to find if a direct on-foot shortcut exists to Northwest Ladder (1, 3).
-- Progress: We climbed Ladder 5 from 1F (7, 1) to 2F (9, 1) and stepped Up to (9, 0). We are walking Left along Row 0 to test (8, 0), (7, 0), and (6, 0).
-- If (6, 0) is blocked, we will follow the 30-step on-foot bypass route:
-  (9, 1) -> Left to (4, 1) -> Down to (4, 3) -> Right to (9, 3) -> Down to (9, 5) -> Right to (10, 5) -> Down to (10, 7) -> Left to (6, 7) -> Up to (6, 6) -> Left to (2, 5) -> Up to (2, 4) -> Left to (1, 4) -> Up to (1, 3) [Northwest Ladder!].
-
+- Active Hypothesis: The 'Water-Wall' Collision Fallacy on 1F West. We previously hypothesized that (1, 7) on Map 0_228 (1F) was a solid rock wall because we bumped into it on foot on Turn 122908. However, this is actually a water tile! The western vertical water canal runs along Columns 1 and 2, which allows us to walk onto the elevated southwest platform at (1, 12), walk north to Row 8, and use Surf to enter the western canal. From there, we can surf north directly to (1, 3) to reach the B1F stairs.
+- Backtracking Path to 1F: We are backtracking on foot on 2F West from (10, 5) to Ladder 5 at (9, 1).
+  - Calculated Path: ["Left", "Up", "Up", "Left" x6, "Up", "Up", "Right" x6] to (9, 1).
+  - Current Chunk: ["Left", "Up", "Up", "Left", "Left", "Left", "Left", "Left", "Left"] to reach (3, 3).
 - Verified Blockages Logged:
-  - (11, 15) on Map 0_226 is a solid rock wall (verified Turn 128180).
-  - (13, 17) on Map 0_228 is impassable water/ledge (verified Turn 127139).
-  - (3, 14) on Map 0_228 is a solid rock wall (verified Turn 125777).
-  - (5, 7) on Map 0_228 is a solid rock wall (verified Turn 126196).
+  - (10, 6) on Map 0_226 is a solid rock wall of TYPE_2889 (verified Turn 128677).
+  - (6, 0) on Map 0_226 is a solid rock wall of TYPE_2889 (verified Turn 128645).
 
 ## Turn 126846: Discovery of Separated Sections
 - We have visually verified on Map 0_228 (1F) that the northernmost corridor (Rows 0-2) is completely blocked from reaching the area below it (Row 4 and lower) on foot.
