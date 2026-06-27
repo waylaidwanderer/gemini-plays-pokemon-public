@@ -20,13 +20,12 @@
   Let's check where the stairs to B1F are in standard Gen 1!
   - **The (1, 3) B1F Ladder**: The ladder at (1, 3) on 1F Northwest connects directly to 2F Northwest at (1, 3), serving as the critical entrance gateway to the isolated 1F Northwest landmass and the B1F stairs. Our previous logs incorrectly labeled this as (29, 3) or other coordinates. We have verified that (1, 3) is the correct B1F gateway.
 
-## Turn 128763 Live Progress:
-- Current Position: Standing at (13, 17) on Map 0_228 (1F) on foot.
-- Active Goal: Retrieve Mewtwo from B1F.
-- **Hypothesis: The 'Water-Wall' Collision Fallacy on 1F West (DISPROVEN Turn 128811).** On Turn 128734, we hypothesized that Column 1 Row 7 on Map 0_228 is a water tile that can be boarded directly from the elevated platform. However, physical testing on Turns 128797 and 128811 (attempting to use Surf while standing at (1, 8) and (2, 8) facing North) consistently resulted in 'No SURFing on GEMMY here!'. This empirically proves that height mismatches completely block direct boarding of the western water canal from these elevated coordinates. The western water canal can only be boarded via a standard water ramp (such as Water Ramp 2 at 11, 13).
-- **Progress**: Currently standing on foot at (9, 1) on Map 0_226 on Turn 128958. We successfully surfed around the central blockages on 1F, landed at Water Ramp 4, walked to Ladder 5 at (7, 1), and climbed to 2F Northwest at (9, 1).
-- **The (29, 3) B1F Ladder Correction**: Our previous logs contained a historical hallucination regarding a (29, 3) B1F ladder. We have corrected our topological model: the Northwest Ladder is at (1, 3) on Map 0_228, which connects to (1, 3) on Map 0_226.
-- **Turn Log**: Start Turn: 111394. Current Turn: 128958. Timestamp: Friday, June 26, 2026 at 10:49 PM PDT. Active Goal: Reach B1F and capture Mewtwo.
+## Turn 129005 Live Progress:
+- Current Position: Standing on foot at (15, 3) (Water Ramp 4) on Map 0_228 (1F Northwest) facing Down with Surf menu open.
+- Active Goal: Board the water canal, surf to the northwest landmass, dismount onto foot, and enter the B1F stairs to capture Mewtwo.
+- **Progress**: On Turn 128989, we descended from 2F (9, 1) to 1F Northwest (7, 1). We then walked along Row 2 to (15, 2) and down to (15, 3), escaped a wild Magneton encounter using the 'flee_battle' tool, and are now using Surf on Water Ramp 4.
+- **The (1, 3) Northwest Ladder / B1F Gateway**: Our previous logs verified that the northwest isolated quadrant of 1F contains the stairs down to B1F. This landmass is accessible on foot by dismounting from the water canal (Row 4/5) directly onto Row 3 (specifically at (1, 3) or adjacent). This is our canonical path to Mewtwo!
+- **Turn Log**: Start Turn: 111394. Current Turn: 129005. Timestamp: Friday, June 26, 2026 at 11:42 PM PDT.
 - Verified Blockages Logged:
   - (10, 6) on Map 0_226 is a solid rock wall of TYPE_2889 (verified Turn 128677).
   - (6, 0) on Map 0_226 is a solid rock wall of TYPE_2889 (verified Turn 128645).
