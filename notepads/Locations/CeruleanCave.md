@@ -173,3 +173,4 @@
   - **(11, 15) Blockage**: Physically verified on Turn 128180 as solid rock wall of TYPE_2889.
   - **(6, 0) Blockage**: Physically verified on Turn 128645 as solid rock wall of TYPE_2889. This disproves the Row 0 Crossover Bypass hypothesis.
   - **(10, 6) Blockage**: Physically verified on Turn 128677 as solid rock wall of TYPE_2889.
+  - **(3, 8) Blockage**: Physically verified on Turn 129254 as a solid rock wall of TYPE_2889.
