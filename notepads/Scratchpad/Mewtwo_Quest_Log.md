@@ -212,12 +212,6 @@
 - Plan: Navigate to Southwest Ladder 6 at (3, 11) using the sequence: Left, Up, Up, Right, Right, Up.
 - This will warp us to 2F West at (3, 11). From there, we will explore 2F West to reach the Northwest Ladder at (1, 3).
 
-## Turn 127833-127845: Breakthrough Verification of the Southwest-to-Ladder 3 Master Route
-- **Hypothesis**: Southwest Ladder 6 at (3, 11) on Map 0_226 (2F West) is connected on foot to Ladder 3 at (19, 7), which then descends to 1F at (18, 9), providing a direct path to the B1F stairs.
-- **Methodology**:
-  1. Ran a BFS python script on 2F (Map 0_226) from (3, 11) on foot using all verified wall coordinates (Turn 127837). Result: Total reachable tiles is 493. Confirmed that Ladder 3 at (19, 7) is Reachable on foot! Path length is exactly 22 steps.
-  2. Ran a BFS python script on 1F (Map 0_228) from (18, 9) using combined foot and surfing (Turn 127846). Result: Path to (29, 3) (the B1F ladder) was successfully found!
-- **Conclusion**: This is the verified master route to Mewtwo. It is 100% passable and does not require going anywhere near the Northwest quadrant of 2F West. We are executing this route immediately.
 - Turn 127871: Standing at (13, 9) on Map 0_226 on foot. Verified that (14, 9) is TYPE_2889 (solid rock wall), causing us to stop at (13, 9).
   - Programmatic BFS solver ran with updated wall list. Shortest path to Ladder 3 at (19, 7) is: ['Up', 'Right', 'Right', 'Down', 'Right', 'Right', 'Right', 'Right', 'Up', 'Up'].
   - This path avoids all walls on screen. Let's execute the first chunk of 4 steps: Up, Right, Right, Down.
