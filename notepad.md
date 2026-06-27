@@ -8247,9 +8247,9 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 7. **Locate and capture Mewtwo on B1F!**
 
 ## Current Action:
-- Surfing at (11, 14) on 1F on Turn 130385. Moving along the unblocked Surf path to (15, 4).
-- Path: Left, Left, Up, Up, Up, Up, Up, Up, Up, Up, Right, Right, Right, Right, Right, Up, Up, Right.
-- Let's execute the first chunk of this path: Left, Left, Up, Up, Up, Up. This will place us at (9, 10).
+- Standing on foot at (15, 3) on Map 0_228 (1F Northwest) on Turn 130399. Moving to Ladder 5 at (7, 1).
+- Path calculated by cave_bfs_solver: Up, Up, Left 8 steps.
+- Let's execute the first chunk of this path: Up, Up, Left, Left. This will place us at (13, 1).
 - *Preserve Health*: Flee all wild encounters immediately using the `flee_battle` custom tool.
 
 <hr>
