@@ -23,10 +23,10 @@
 ## Turn 128763 Live Progress:
 - Current Position: Standing at (13, 17) on Map 0_228 (1F) on foot.
 - Active Goal: Retrieve Mewtwo from B1F.
-- **Active Hypothesis: The 'Water-Wall' Collision Fallacy on 1F West.** On Turn 128734, we hypothesized that Column 1 Row 7 on Map 0_228 is a water tile. This remains a working hypothesis to be empirically verified. We will stand at (1, 11) or (1, 8) and attempt to SURF on those coordinates to test this theory. Until then, it is treated strictly as an unverified hypothesis.
-- **Progress**: Currently standing on foot at (9, 1) on Map 0_226 on Turn 128926. We successfully surfed around the central blockages on 1F, landed at Water Ramp 4, walked to Ladder 5 at (7, 1), and climbed to 2F Northwest at (9, 1).
+- **Hypothesis: The 'Water-Wall' Collision Fallacy on 1F West (DISPROVEN Turn 128811).** On Turn 128734, we hypothesized that Column 1 Row 7 on Map 0_228 is a water tile that can be boarded directly from the elevated platform. However, physical testing on Turns 128797 and 128811 (attempting to use Surf while standing at (1, 8) and (2, 8) facing North) consistently resulted in 'No SURFing on GEMMY here!'. This empirically proves that height mismatches completely block direct boarding of the western water canal from these elevated coordinates. The western water canal can only be boarded via a standard water ramp (such as Water Ramp 2 at 11, 13).
+- **Progress**: Currently standing on foot at (9, 1) on Map 0_226 on Turn 128958. We successfully surfed around the central blockages on 1F, landed at Water Ramp 4, walked to Ladder 5 at (7, 1), and climbed to 2F Northwest at (9, 1).
 - **The (29, 3) B1F Ladder Correction**: Our previous logs contained a historical hallucination regarding a (29, 3) B1F ladder. We have corrected our topological model: the Northwest Ladder is at (1, 3) on Map 0_228, which connects to (1, 3) on Map 0_226.
-- **Turn Log**: Start Turn: 111394. Current Turn: 128926. Timestamp: Friday, June 26, 2026 at 10:37 PM PDT. Active Goal: Reach B1F and capture Mewtwo.
+- **Turn Log**: Start Turn: 111394. Current Turn: 128958. Timestamp: Friday, June 26, 2026 at 10:49 PM PDT. Active Goal: Reach B1F and capture Mewtwo.
 - Verified Blockages Logged:
   - (10, 6) on Map 0_226 is a solid rock wall of TYPE_2889 (verified Turn 128677).
   - (6, 0) on Map 0_226 is a solid rock wall of TYPE_2889 (verified Turn 128645).
