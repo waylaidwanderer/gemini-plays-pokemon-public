@@ -8325,12 +8325,18 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 ## B1F (Basement) Verified Layout & Mewtwo Access
 - **B1F Access**: The stairs down to B1F are located in the northwestern quadrant of 1F.
 - **Master Pathway to Mewtwo**:
-  1. Climb Southwest Ladder 6 at (3, 11) on 1F to reach 2F West.
-  2. Navigate 2F West to Ladder 5 at (9, 1) on foot via the unblocked Column 14 Row 8 detour (since Row 8 is open at Column 13 and 14).
-  3. Walk from (9, 1) to Northwest Ladder (1, 3) on foot on 2F West.
-  4. Descend Northwest Ladder (1, 3) to land in the isolated northwest quadrant of 1F.
-  5. Use the stairs in the northwest quadrant of 1F to enter B1F.
-  6. Navigate B1F to find and battle Mewtwo!
+  1. From 1F Southwest (Map 0_228), use the stairs to access the elevated southwest plateau and climb Southwest Ladder 6 at (3, 11). (Backtrack route complete as of Turn 130342).
+  2. Walk back down from 2F West via Southwest Ladder 6 to return to 1F Southwest on foot.
+  3. Walk on foot along the Row 16/17 southern corridor of 1F to reach the central platform stairs at (17, 15).
+  4. Climb the stairs to the central platform, walk to Water Ramp 2 at (11, 13), and use Surf.
+  5. Surf along the water canal: Left to the vertical canal, Up to Row 6, Right to Column 14, Up to Row 4, and Right to (15, 4) (Water Ramp 4).
+  6. Dismount onto the ramp at (15, 3) onto the northern landmass on foot.
+  7. Walk Left on foot along Row 1/2 of the northern landmass to reach Ladder 5 at (7, 1).
+  8. Climb Ladder 5 at (7, 1) to reach 2F West at (9, 1).
+  9. Walk on foot on 2F West from (9, 1) to Northwest Ladder at (1, 3) via Row 1, Row 3, and Column 1.
+  10. Descend Northwest Ladder (1, 3) to land in the isolated northwest quadrant of 1F.
+  11. Use the stairs in the northwest quadrant of 1F at (1, 3) to enter B1F.
+  12. Navigate B1F to find and battle Mewtwo!
 - **Mewtwo Battle Prep**: As we enter B1F, we will use our specialized custom agent 'mewtwo_combat_strategist' to plan the battle and capture strategy. We currently have 1 Master Ball in our bag, which guarantees a 100% catch rate! We also have 1 Ultra Ball. We will use the Master Ball to safely and instantly catch Mewtwo!
 
 <hr>
