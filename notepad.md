@@ -8577,6 +8577,10 @@ Turn 128217 Progress:
 - **Northern Landmass Layout (Row 0-2 ground-level shortcut)**:
   - Rows 0, 1, and 2 form an unblocked, completely walkable ground-level connection on foot from Column 23 (Water Ramp 1) all the way east to Column 28 (Ladder 2 landing at 27,1). There is NO solid rock barrier on Column 26 on 1F, allowing the player to bypass the 2F serpentine path entirely when navigating from the western water canal to the northeast section of 1F. Verified on Turns 112008-112012.
 - **Visual Artifact Note**: Red flower tiles (TYPE_3fe2) (such as at 19, 3) visually resemble red-and-white Poké Balls in the Crystal palette swap but are passable ground tiles with no physical items.
+- **Verified Blockages on 1F (Map 0_228)**:
+  - **(13, 17) Blockage**: Labeled TYPE_3fe2 in some contexts but physically verified on Turn 127139 as impassable water/ledge.
+  - **(3, 14) Blockage**: Labeled TYPE_2770 but physically verified on Turn 125777 as solid rock wall of TYPE_2889.
+  - **(5, 7) Blockage**: Labeled TYPE_2770 but physically verified on Turn 126196 as solid rock wall of TYPE_2889.
 
 ## 2F (0_226) Verified Layout:
 - **Serpentine Bypass**:
