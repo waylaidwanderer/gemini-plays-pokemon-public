@@ -1,7 +1,7 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Turn: 130229
-- Current Position: Standing on foot at (17, 16) on Map 0_228 (1F)
+- Current Turn: 130294
+- Current Position: Standing on foot at (13, 9) on Map 0_226 (2F West)
 
 ## Active Progress & Discoveries:
 - **Topological Breakthrough: 2F West is Fully Connected!**
@@ -19,8 +19,9 @@
    - Walk from (15, 12) -> stairs at (17, 15) -> descend to (17, 16) on foot. (Completed on Turn 130225).
    - Walk Left along Row 17 corridor to the southwest corner of 1F. (In Progress).
    - Climb stairs at (1, 13) to stand on Southwest Ladder 6 at (3, 11).
-3. **Climb Southwest Ladder 6** to reach 2F West.
-4. **Walk on foot on 2F West from (3, 11) to Northwest Ladder (1, 3)** via Column 14 Row 8 detour.
+3. **Climb Southwest Ladder 6** to reach 2F West. (Completed on Turn 130246).
+4. **Walk on foot on 2F West from (3, 11) to Northwest Ladder (1, 3)**.
+   - Detour path currently being navigated! Standing at (13, 9) on Turn 130294.
 5. **Take Northwest Ladder (1, 3)** down to 1F Northwest.
 6. **Take the ladder to B1F** and locate Mewtwo!
 
