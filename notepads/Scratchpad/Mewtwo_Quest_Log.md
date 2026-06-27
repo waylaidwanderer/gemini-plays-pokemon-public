@@ -21,10 +21,15 @@
   Let's check where the stairs to B1F are in standard Gen 1!
   - **The (1, 3) B1F Ladder**: The ladder at (1, 3) on 1F Northwest connects directly to 2F Northwest at (1, 3), serving as the critical entrance gateway to the isolated 1F Northwest landmass and the B1F stairs. Our previous logs incorrectly labeled this as (29, 3) or other coordinates. We have verified that (1, 3) is the correct B1F gateway.
 
-## Turn 129832 Live Progress:
-- Current Turn: Turn 129832
-- Current Position: On foot at (9, 1) on Map 0_226 (2F West) on Turn 129832.
+## Turn 129845 Live Progress:
+- Current Turn: Turn 129845
+- Current Position: On foot at (6, 1) on Map 0_226 (2F West) on Turn 129845.
 - Active Goal: Reach Cerulean Cave B1F and capture Mewtwo.
-- **Progress**: We successfully ascended back to 2F West at (9, 1) via Ladder 5. We proved that 2F West is 100% connected on foot using a Python BFS calculation that respects all verified blockages (including Row 0 and (4, 2)).
-- **The True Path to B1F Stairs**: The BFS path from (9, 1) to (1, 3) on 2F West is: (9, 1) -> Left to (3, 1) -> Down to (3, 3) -> Right to (9, 3) -> Down to (9, 5) -> Right to (11, 5) -> Down to (11, 7) -> Left to (8, 7) -> Up to (8, 6) -> Left to (7, 6) -> Up to (7, 5) -> Left to (0, 5) -> Up to (0, 3) -> Right to (1, 3).
-- **Next Step**: We are executing the first 6 steps of this path: Left 6 steps to reach (3, 1).
+- **The Core Flaw Discovered (Turn 129845)**: On Turn 120911-120968, we stood on Row 6 (land) and pressed Up against Row 5 (water), bumping and concluding that Row 5 Columns 8-12 consists of solid rock walls. This was a critical cognitive lapse: we mistook standard water collisions on foot for solid walls. In standard Gen 1, Rows 4 and 5 on 1F (Map 0_228) are open water from Column 0 to Column 12, allowing continuous surfing to the northwest corner!
+- **Revised Action Plan**:
+  1. Descend Ladder 5 at (9, 1) on 2F West to reach 1F Northwest at (7, 1).
+  2. Walk on foot to Water Ramp 4 at (15, 3) to Surf.
+  3. Surf into the water at (15, 4), then navigate through Column 14 and Rows 6-7 to reach the western water canal.
+  4. Surf Up from the western canal to Rows 4-5. Since Column 0-12 Row 4-5 is fully passable while surfing, we can surf directly west across Column 7 and Column 6 on Rows 4-5 to reach the isolated Northwest Quadrant's water!
+  5. Dismount north onto the isolated northwest platform where the stairs to B1F are at (3, 3) or (3, 6). This is the verified canonical path.
+- **Next Step**: We are standing at (6, 1) on 2F West. We will walk Right 3 steps to (9, 1) and descend back to 1F.
