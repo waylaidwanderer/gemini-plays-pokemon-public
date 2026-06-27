@@ -61,19 +61,6 @@
 - Wait! Let's search all our notepads for "B1F" to see where the entrance to B1F actually is! This is extremely important because we might have the coordinates or the ladder name wrong.
 - Let's execute search_notepads with query "B1F".
 
-## Turn 127000: Realization of the Southwest-Water Bypass Route
-- Stand at (15, 9) on Map 0_228 (1F), on foot, facing DOWN.
-- Based on <CurrentScreen turn="127000">, let's document the actual blockages observed:
-  - Row 12 is fully open horizontally: (11, 12) through (18, 12) are all TYPE_2770 (passable platform).
-  - Row 13 is blocked on Columns 16-17: (16, 13) and (17, 13) are solid rock walls (TYPE_2889).
-  - Row 13 Column 18 (18, 13) is open flat floor (TYPE_2770).
-  - Columns 14 and 15 on Rows 10 and 11 are solid rock walls (TYPE_2889).
-  - Column 18 has the ladder warp at (18, 9).
-  - Thus, to reach the stairs down at (17, 15) safely, we can walk via Column 18 to bypass the rock wall at (16, 13) / (17, 13):
-  - (15, 9) -> Right to (16, 9) -> Right to (17, 9).
-    - (17, 9) -> Down to (17, 10) -> Down to (17, 11) -> Down to (17, 12).
-  - Note: Row 17 on Map 0_228 is physically blocked at Column 13, making this horizontal path impassable on foot. This was proven on Turn 127139.
-- Turn 127088: Investigating the path on Cerulean Cave 1F. We are at (1, 14) on Map 0_228 (1F). Let's climb up the stairs at (1, 13) to (1, 12).
 ## Turn 127457: Navigating 1F Northwest to Ladder 5
 - We dismounted at Water Ramp 4 at (15, 3).
 - Plan: Walk Up to (15, 2), Left to (7, 2), and Up to (7, 1) [Ladder 5].
