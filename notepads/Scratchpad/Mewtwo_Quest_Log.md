@@ -1,7 +1,7 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Turn: 130433
-- Current Position: standing at (3, 2) on Map 0_226 (2F West)
+- Current Turn: 130443
+- Current Position: standing at (7, 1) on Map 0_228 (1F)
 
 ## Active Progress & Discoveries:
 - **Topological Discovery: Direct 1F Surfing Route to Northwest landmass is possible!**
