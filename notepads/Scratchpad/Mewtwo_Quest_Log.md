@@ -595,3 +595,8 @@
   4. Walk Up 1 step from (1, 4) to (1, 3).
   We will execute this sequence step-by-step and verify coordinate changes and collision behaviors at each step.
 - **Turn 129350 Status**: Standing at (9, 1) on foot on Map 0_226, ready to walk Left to (3, 1).
+- **Physical Test Result (Turn 129355)**:
+  - We walked Left 6 steps to (3, 1) on Turn 129353, and then pressed Down 3 times on Turn 129354 to test (3, 4).
+  - **Result**: We bumped and remained at (3, 3), and our position did not change. This physically, empirically, and undeniably proves that Column 3 Row 4 (3, 4) is a solid rock wall of TYPE_2889 on Map 0_226.
+  - **Conclusion**: The Socratic hypothesis of an on-foot Row 4 horizontal corridor connecting Column 3 to Column 1 is DEFINITIVELY DISPROVEN. Row 4 is completely blocked horizontally at Column 3 (3, 4). 2F West remains completely isolated on foot from Northwest Ladder (1, 3).
+- **Corrected Strategy**: The only topologically valid and verified way to reach B1F is the canonical surfing path on Map 0_228 (1F): surfing from Water Ramp 2 at (11, 13) to (1, 5) or (1, 6) on the water, and dismounting onto the northwest landmass to reach the B1F stairs.
