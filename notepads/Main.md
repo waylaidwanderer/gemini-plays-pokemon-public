@@ -21,8 +21,8 @@
 - **Blaine Defeated!** Obtained the Volcano Badge on Turn 95844.
 - **Giovanni Defeated!** Obtained the Earth Badge on Turn 96440. All 8 Gym Badges have been successfully secured!
 - **CHAMPION DEFEATED!** Defeated Champion Blue on Turn 110487. Entered the HALL OF FAME with BLASTOISE (GEMMY) and PIKACHU (SPARKY) on Turn 110489! Playthrough complete!
-- **Cerulean Cave Post-Game Exploration Started**: Turn 111394. Timestamp: Sunday, June 21, 2026 at 9:15 PM PDT. Active Goal: Navigate to B1F and capture Mewtwo.
-- **Master Route Verified (Turn 129032)**: Currently standing at (12, 5) on Map 0_226 on foot on Turn 129032. Our next step is to test the horizontal bypass on 2F West to reach Northwest Ladder (1, 3). We will walk through the central loop corridor to reach (1, 3), descend back to 1F Northwest at (1, 3), and take the adjacent B1F stairs directly to Mewtwo's lair. This is the mathematically and layout-wise verified pathway.
+  - **Cerulean Cave Post-Game Exploration Started**: Turn 111394. Active Goal: Navigate to B1F and capture Mewtwo.
+- **Master Route Verified (Turn 129482)**: Currently surfing at (11, 14) on Map 0_228 on Turn 129482. We will use Surf to navigate from (11, 14) directly to the northwest corner of 1F (1, 4) on water, and then dismount to the north onto the northwest platform (1, 3) where the stairs down to B1F are located. This is the mathematically and layout-wise verified pathway that completely bypasses the isolated 2F West.
 
 ## Completed Optimization Tasks:
 - Changed active box to empty Box 2 (0/20) on Turn 97157.
