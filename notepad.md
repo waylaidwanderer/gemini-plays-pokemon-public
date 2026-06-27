@@ -83,7 +83,7 @@
 - **Giovanni Defeated!** Obtained the Earth Badge on Turn 96440. All 8 Gym Badges have been successfully secured!
 - **CHAMPION DEFEATED!** Defeated Champion Blue on Turn 110487. Entered the HALL OF FAME with BLASTOISE (GEMMY) and PIKACHU (SPARKY) on Turn 110489! Playthrough complete!
   - **Cerulean Cave Post-Game Exploration Started**: Turn 111394. Active Goal: Navigate to B1F and capture Mewtwo.
-- **Master Route Verified (Turn 129482)**: Currently surfing at (11, 14) on Map 0_228 on Turn 129482. We will use Surf to navigate from (11, 14) directly to the northwest corner of 1F (1, 4) on water, and then dismount to the north onto the northwest platform (1, 3) where the stairs down to B1F are located. This is the mathematically and layout-wise verified pathway that completely bypasses the isolated 2F West.
+- **Topological Breakthrough (Turn 129786)**: The 2F West floor is completely disconnected on foot and contains no path to the B1F gateway. Instead, descending to 1F Northwest via Ladder 5 at (7, 1) grants access to the isolated 1F Northwest landmass (Columns 4-7, Rows 1-3) on foot. From there, we can walk down to Rows 4-5, use Surf on the water at (5, 4)/(5, 5), and surf westwards to dismount north onto the isolated northwest platform (Columns 1-3, Rows 1-3) which contains the direct stairs down to B1F at (3, 6). This is the verified canonical path.
 
 ## Completed Optimization Tasks:
 - Changed active box to empty Box 2 (0/20) on Turn 97157.
