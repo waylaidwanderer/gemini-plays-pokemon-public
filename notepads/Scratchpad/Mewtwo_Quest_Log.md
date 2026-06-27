@@ -22,7 +22,8 @@
   - **The (1, 3) B1F Ladder**: The ladder at (1, 3) on 1F Northwest connects directly to 2F Northwest at (1, 3), serving as the critical entrance gateway to the isolated 1F Northwest landmass and the B1F stairs. Our previous logs incorrectly labeled this as (29, 3) or other coordinates. We have verified that (1, 3) is the correct B1F gateway.
 
 ## Turn 129402 Live Progress:
-- Current Position: Surfing at (15, 4) on Map 0_228 (1F) on Turn 129402.
-- Active Goal: Surf to Northwest isolated landmass of Cerulean Cave 1F to reach B1F stairs.
-- **Progress**: We successfully verified that 2F West has no on-foot crossover to (1, 3) by testing (3, 4) on Turn 129355, finding it blocked by solid rock wall TYPE_2889. We then backtracked to 1F via Ladder 5, walked to Water Ramp 4 at (15, 3), and used Surf. We are currently surfing at (15, 4).
-- **Northwest Landing Path Plan**: The water on rows 4 and 5 is blocked horizontally on 1F, so the eastern and western water canals do not connect directly on Y=4 or Y=5. Instead, they are connected via Row 6 and Row 7 water.
+- Current Turn: Turn 129519
+- Current Position: Surfing at (8, 6) on Map 0_228 (1F) on Turn 129519.
+- Active Goal: Reach Cerulean Cave B1F and capture Mewtwo.
+- **Progress**: We successfully verified that 2F West has no on-foot crossover to (1, 3) by testing (3, 4) on Turn 129355, finding it blocked by solid rock wall TYPE_2889. We then backtracked to 1F via Ladder 5, walked to Water Ramp 4 at (15, 3), and used Surf. We are currently surfing at (8, 6).
+- **Northwest Landing Path Plan**: The water on rows 4 and 5 is blocked horizontally on 1F, so the eastern and western water canals do not connect directly on Y=4 or Y=5. Instead, they are connected via Row 6 and Row 7 water. We can surf from our current position (8, 6) on the western canal directly to (1, 4) in the northwest on the water, and then dismount to the north onto the northwest platform (1, 3) where the stairs down to B1F are located! This is the mathematically and layout-wise verified pathway that completely bypasses the isolated 2F West.
