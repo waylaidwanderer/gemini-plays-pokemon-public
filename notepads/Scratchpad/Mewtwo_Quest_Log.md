@@ -25,7 +25,7 @@
 8. **Locate and capture Mewtwo on B1F!**
 
 ## Current Action:
-- Standing at (1, 13) on 1F Southwest on Turn 130355. Moving along the Row 16 corridor towards Column 19.
-- Path: Down 3 steps to (1, 16), then Right 18 steps to (19, 16).
-- Let's execute the first chunk of this path: Down, Down, Down, Right, Right, Right. This will place us at (4, 16).
+- Standing at (15, 12) on the 1F Central Platform on Turn 130372. Moving Left and Down to reach Water Ramp 2 at (11, 13).
+- Path: Left 4 steps to (11, 12), then Down 1 step to (11, 13).
+- Let's execute this sequence: Left, Left, Left, Left, Down. This will place us directly on the ramp!
 - *Preserve Health*: Flee all wild encounters immediately using the `flee_battle` custom tool.
