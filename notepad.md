@@ -8244,7 +8244,13 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **(16, 15) Blockage (Verified Turn 132684)**: Visually and physically verified solid rock wall of TYPE_2889 on 1F.
 
 ## Disproven Theories Archive
-- **1F Ladder at (21, 11) Functionality Test (Disproven)**:
+- **Direct 1F Surfing Route to B1F (Disproven Turn 134199-134204)**:
+  - *Hypothesis*: The player can stand on the southwest platform at (1, 11) or (2, 11) on foot, Surf into the western water canal, Surf north to (1, 4) or (2, 4), and dismount directly Up onto the B1F stairs/staircase at (1, 3).
+  - *Test & Results*: Walked to (1, 8) and faced Up toward (1, 7). Attempted to use SURF on GEMMY.
+  - *Result*: The screen overlay showed (1, 7) has a brown background with a black ledge boundary line rather than blue water. A previous attempt on Turn 134096 to SURF onto it returned "No SURFing on GEMMY here!".
+  - *Conclusion*: Row 7 consists of standard dry land ledge-tiles of TYPE_3fe2 which are impassable from the south on foot and cannot be surfed on. The southwestern platform is completely isolated from the northern landmass of 1F.
+
+- **1F Inactive Ladder at (21, 11) Functionality Test (Disproven)**:
   - *Hypothesis*: Is the vertical ladder at (21, 11) on 1F actually inactive, or did we prematurely assume it is a one-way dropdown ladder? If we can climb it, where does it land on 2F? Could it provide the missing link to B1F?
   - *Test & Results*: Tested on foot (Turn 132271-132282). Result was completely inactive; walking onto it or pressing A has no effect.
   - *Conclusion*: The ladder at (21, 11) is inactive and cannot be climbed from 1F.
