@@ -9328,3 +9328,37 @@ We can formulate 5 custom tool/agent ideas to optimize the endgame and Mewtwo se
 - The master pathway is now fully verified and is being executed step-by-step.
 
 <hr>
+
+<h1><code>Reflection/Turn130820_Reflection</code></h1>
+
+# Turn 130820 Self-Assessment & Reflection
+
+## 1. Immediate Execution
+- We have successfully navigated from Water Ramp 2 at (11, 13) on foot towards the central stairs at (17, 15). We were temporarily interrupted by a wild Parasect at (16, 11) / (17, 11).
+- We will immediately use `flee_battle` to escape.
+- Once we escape, we will continue the on-foot path to (17, 15), descend to the ground, and walk to (1, 13) southwest stairs.
+
+## 2. Notepad Hygiene
+- Keeping `Scratchpad/Mewtwo_Quest_Log` up to date with our live step-by-step progress.
+- `Locations/CeruleanCave` holds our permanent structural truths.
+
+## 3. Map Hygiene
+- Map markers on 1F (0_228) and 2F (0_226) are perfectly accurate, highlighting ladders, ramps, and solid wall blockages.
+
+## 4. Custom Tools & Agents
+- We have two highly specialized custom tools: `cave_bfs_solver` and `mewtwo_combat_strategist`.
+- We also have `flee_battle` which works flawlessly.
+- We do not require any new custom tools for now, but we are prepared to write a B1F-specific BFS solver once we reach B1F.
+
+## 5. Tool Maintenance
+- All custom tools are robust and fully functional.
+
+## 6. Goal Clarity
+- Primary Goal: Catch Mewtwo on B1F of Cerulean Cave.
+- Secondary Goal: Reach Southwest Wooden Stairs at (1, 13) on Map 0_228 on foot.
+- This represents a clear, outcome-based set of objectives.
+
+## 7. Error Analysis & Hypothesis Review
+- We carefully tested and disproved the 2F West horizontal crossover and the 1F Northwest shortcut, which has grounded our routing in verified topological facts. This prevents any circular navigation.
+
+<hr>
