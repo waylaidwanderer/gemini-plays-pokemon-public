@@ -1,6 +1,6 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: Standing on foot at (3, 11) on Map 0_226 (2F West). Starting execution of the verified 36-step on-foot path to the Northwest Ladder (1, 3).
+- Current Status: Standing on foot at (10, 9) on Map 0_226 (2F West). Continuing execution of the verified 36-step on-foot path to the Northwest Ladder (1, 3).
 
 ## Active Progress & Discoveries:
 - **Empirical Proof of Water Separation (Verified Turn 131004)**:
