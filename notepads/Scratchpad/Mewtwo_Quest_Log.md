@@ -1,7 +1,7 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Turn: 131641
-- Current Position: standing on foot at (15, 3) on Map 0_228 (1F)
+- Current Turn: 131679
+- Current Position: standing on foot at (7, 1) on Map 0_228 (1F)
 
 ## Active Progress & Discoveries:
 - **Empirical Proof of Water Separation (Verified Turn 131004)**:
@@ -22,12 +22,17 @@
 - **1F Row 3 Passability (Northern Landmass to Water)**:
   - *Hypothesis*: Row 3 on 1F contains an open vertical passage on some column (e.g. Column 12, 11, 10, 9, 8, 7, 6, 5) allowing us to step Down from the northern landmass directly into the water canal and Surf to (1, 3) on foot.
   - *Methodology*: Walk Left along Row 2 or Row 1, and systematically attempt to step Down (South) on each column to test passability. We will log the results.
+  - *Status*: Columns 13 down to 6 have been physically tested (Turn 131644-131649) and are confirmed BLOCKED. Row 3 is solid rock across all these columns.
+
+- **1F Row 5 Water Canal Crossover**:
+  - *Hypothesis*: Row 5 Columns 8-12 on 1F is actually open water (not blocked by rock walls), meaning we can Surf from Water Ramp 2 at (11, 13) directly to (1, 3) without 2F.
+  - *Methodology*: Surf from Water Ramp 4 to (8, 6) and attempt to Surf Up to (8, 5).
   - *Status*: UNTESTED.
 
 - **2F West Row 5 Detour Passability**:
   - *Hypothesis*: The on-foot detour via Row 5 / Column 5 on 2F West from (9, 1) to (1, 3) is fully unblocked and passable.
-  - *Methodology*: After ascending Ladder 5 to 2F West (9, 1), we will walk Left along Row 1 to Column 3, Down to Row 3, Right to Column 5, Down to Row 5, Left to Column 2, Up to Row 4, Left to Column 1, Up to (1, 3). We will physically step on every single coordinate along this detour to empirically verify its passability.
-  - *Status*: UNTESTED.
+  - *Methodology*: After ascending Ladder 5 to 2F West (9, 1), we will walk Left along Row 1 to Column 3, Down to Row 3, Right to Column 5, Down to Row 5, Left to Column 2, Up to Row 4, Left to Column 1, Up to (1, 3).
+  - *Status*: Disproven. Visually verified on Turn 131664 that (5, 4) is a solid rock wall of TYPE_2889.
 
 ## Disproven Theories Archive
 - **Row 4 Passability on 2F West**:
