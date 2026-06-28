@@ -81,3 +81,14 @@
   4. Stand at (1, 11) or (2, 11) on the southwest platform, face the water, and select SURF to board the western water canal.
   5. Surf north along the western water canal to (1, 4).
   6. Dismount Up onto (1, 3) to enter B1F directly!
+## Western Canal Surfing Investigation (Turn 134189)
+- **Visual Observation**:
+  - We are at (1, 11) on Map 0_228 (1F), facing Left.
+  - Column 0 is blocked on Rows 8-13 by solid rock walls of TYPE_2889.
+  - Rows 8-12 on Column 1 and 2 are land tiles of TYPE_2770, allowing foot movement.
+  - Row 7 has water tiles (0, 7), (1, 7), (2, 7) of TYPE_3fe2.
+  - Row 14 has water tiles (0, 14), (1, 14), (2, 14) of TYPE_3fe2.
+  - This proves that there is no continuous water canal running vertically on Column 1/2 from Row 4 to Row 15; the canal is split into two separate water bodies by the land patch at Rows 8-12.
+- **Hypothesis Testing**:
+  - Can we walk north on foot to (1, 8), face Up towards the water tile at (1, 7), and Surf from there to bypass the split?
+  - Let's walk to (1, 8) and test this!
