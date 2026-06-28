@@ -18,10 +18,10 @@
   6. From the southwest plateau, we walk to Southwest Ladder 6 at (3, 11) and climb to 2F West.
 
 ## Active Hypotheses (Scratchpad Category)
-- **1F Row 5 Water Canal Crossover Detour (Column 8/9/10/11/12)**:
-  - *Hypothesis*: While Row 5 Column 9 and Column 8 are blocked by solid rock, is it possible that Column 10, 11, or 12 on Row 5 is open on 1F, allowing us to Surf from the eastern canal to the western canal directly?
-  - *Methodology*: Surf to (10, 6), (11, 6), and (12, 6) and systematically attempt to Surf Up to test columns 10, 11, and 12.
-  - *Status*: Columns 8 and 9 are disproven. Columns 10, 11, and 12 are UNTESTED.
+- 1F Row 4/5 Column 13 Water Canal Crossover (Active Hypothesis):
+  - *Hypothesis*: Is it possible that Column 13 on Row 4 or Row 5 is actually open and passable on water, despite the rock texture, allowing us to Surf directly from the eastern canal to the western canal?
+  - *Methodology*: Surf from Water Ramp 2 (11, 13) to (14, 5) or (14, 4) in the eastern canal, face Left, and attempt to Surf Left into Column 13 to verify passability.
+  - *Status*: ACTIVE. Currently preparing to Surf from (11, 13).
 
 - **1F Row 3 Passability (Northern Landmass to Water)**:
   - *Hypothesis*: Row 3 on 1F contains an open vertical passage on some column (e.g. Column 12, 11, 10, 9, 8, 7, 6, 5) allowing us to step Down from the northern landmass directly into the water canal and Surf to (1, 3) on foot.
