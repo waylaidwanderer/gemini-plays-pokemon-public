@@ -8223,8 +8223,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Turn: 132242
-- Current Position: surfing on water at (28, 5) on Map 0_228 (1F)
+- Current Turn: 132273
+- Current Position: standing on foot at (21, 11) on Map 0_228 (1F)
 
 ## Active Progress & Discoveries:
 - **Empirical Proof of Water Separation (Verified Turn 131004)**:
@@ -8235,7 +8235,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **1F Ladder at (21, 11) Functionality Test (Active Hypothesis)**:
   - *Hypothesis*: Is the vertical ladder at (21, 11) on 1F actually inactive, or did we prematurely assume it is a one-way dropdown ladder? If we can climb it, where does it land on 2F? Could it provide the missing link to B1F?
   - *Methodology*: Head to (21, 11) on foot and attempt to interact with/climb it.
-  - *Status*: Currently surfing on water at (28, 5) heading down the eastern canal to reach Water Ramp 3 at (25, 9).
+  - *Status*: ACTIVE. Standing on foot at (21, 11) on Turn 132273. Currently executing the systematic testing protocol to physically verify ladder functionality.
 
 - **1F Row 6/7 Column 7 Water Canal Crossover (Disproven)**:
   - *Hypothesis*: Is it possible that Column 7 on Row 6 or Row 7 is actually open and passable on water, despite the rock texture (TYPE_2889), allowing us to Surf Left from Column 8 directly into the western water canal (Column 1-5)?
