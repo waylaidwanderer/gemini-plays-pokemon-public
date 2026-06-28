@@ -8223,7 +8223,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: Backtracking on foot to Ladder 5 at (9, 1) on Map 0_226 (2F West) after proving (2, 3) is solid rock and 2F West is disconnected.
+- Current Status: At (12, 2) on Map 0_228 (1F Northwest) on foot, having verified Column 17 is blocked horizontally.
 
 ## Verified Topological Proof of B1F Access:
 - **1F Northwest Isolation Proof (Turn 133595)**:
