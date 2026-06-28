@@ -8234,6 +8234,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 130818: Triggered a wild Parasect encounter while stepping Right from (16, 11) to (17, 11). Fleeing.
 - Turn 130827: Successfully descended central platform stairs to (17, 16). Initiating ground corridor transit on Row 17.
 - Step 1-7: Walking Left to (16, 16), Down to (16, 17), then Left 5 steps to reach (11, 17).
+- Turn 130854: Triggered a wild Dodrio encounter at (15, 16) while walking to the stairs. Fleeing.
 
 <hr>
 
