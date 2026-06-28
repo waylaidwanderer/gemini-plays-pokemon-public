@@ -1,6 +1,6 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: Standing at (3, 11) on foot on Map 0_226 (2F West). Southwest Ladder 6 successfully ascended! We are mapping out the route on 2F West to reach Northwest Ladder 5 at (1, 3). No Surfing needed!
+- Current Status: Standing at (3, 10) on foot on Map 0_226 (2F West). We are executing the 2F West on-foot loop to reach (3, 3) and test if (2, 3) is open to reach the B1F gateway!
 
 ## Verified Topological Proof of B1F Access:
 - **1F Northwest Isolation Proof (Turn 133595)**:
