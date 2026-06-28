@@ -97,3 +97,13 @@
 - **Hypothesis Testing**:
   - Can we walk north on foot to (1, 8), face Up towards the water tile at (1, 7), and Surf from there to bypass the split?
   - Let's walk to (1, 8) and test this!
+
+## 1F Column 3 Passability Testing Plan (Pending Turn 134377)
+- **Objective**: Physically verify on foot if Column 3 on Map 0_228 (1F) is completely open from Row 11 to Row 6, and if (3, 7) contains any hidden rock walls.
+- **Hypothesis**: Column 3 is fully passable from (3, 11) to (3, 6) on foot, allowing us to Surf from (3, 6) Up/Left to the northwest quadrant to reach the B1F stairs.
+- **Testing Protocol**:
+  1. Dismount at Water Ramp 2 (11, 13).
+  2. Walk across the central platform to (17, 15), descend to ground, walk along Row 17 to (1, 13) wooden stairs, and climb onto the southwest platform to reach (3, 11).
+  3. Stand at (3, 11) on foot, and walk Up 5 steps to (3, 6) on foot. Log each coordinate and any BUMP.
+  4. At (3, 6), turn Left and select SURF on GEMMY.
+- **Fallback Plan**: If Column 3 is blocked (e.g. at Y=7 or Y=8), we must test adjacent columns on the southwest platform for vertical passability.
