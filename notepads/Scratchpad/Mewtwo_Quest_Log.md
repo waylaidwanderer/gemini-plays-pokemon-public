@@ -3,11 +3,7 @@
 - Current Status: At (5, 8) on foot on Map 0_228 (1F) exploring the southwest platform.
 
 ## Verified Topological Proof of B1F Access:
-- **1F Northwest Isolation Proof (Turn 133595)**:
-  - Row 3 on 1F (Map 0_228) is a continuous, solid rock wall of TYPE_2889 from Column 1 to Column 12, blocking vertical on-foot or surfing transitions from Row 4.
-  - Column 4 on 1F is completely blocked on Rows 0-2 on foot by solid rock walls at (4, 1) and (4, 2), blocking horizontal on-foot access from the eastern side.
-  - Therefore, the northwest landmass (Rows 0-2, Columns 1-3) on 1F is 100% isolated on foot and from water on 1F.
-  - **Socratic Solution**: To reach the B1F stairs, we MUST use Southwest Ladder 6 at (3, 11) on 1F to ascend to 2F West, navigate the open 34-step path on 2F West to the Northwest Ladder at (1, 3), and descend it. This lands us directly on the isolated northwest landmass of 1F where the B1F stairs are located. Dismounting directly onto (2, 3) from water is impossible because (2, 3) is solid rock wall.
+- **Direct 2F West Loop (Disproven on Turn 133794)**: We verified that 2F West is 100% split and impassable on foot at (2, 3) due to a solid rock wall, so ascending via Southwest Ladder 6 does not connect to the Northwest Ladder on 2F West.
 
 ## Active Progress & Discoveries:
 - **Empirical Proof of Water Separation (Verified Turn 131004)**:
