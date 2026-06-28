@@ -42,6 +42,7 @@
   - **(6, 15) Blockage**: Physically verified on Turn 129221 as a solid rock wall of TYPE_2889.
   - **(7, 15) Blockage**: Physically verified on Turn 129221 as a solid rock wall of TYPE_2889.
   - **(4, 1) Blockage**: Physically verified on Turn 130148. Stood at (5, 1) and pressed Left. Result: BUMP (visited 0 tiles). Conclusively disproves the on-foot path between (7, 1) and (1, 3) on 1F Northwest.
+  - **(4, 2) Blockage**: Physically verified on Turn 132029. Standing at (5, 2) on foot and pressed Left. Result: BUMP (visited 0 tiles). Conclusively disproves the horizontal land crossover on Row 2 of 1F Northwest.
   - **Column 1 Row 7 Blockage**: Tested on Turn 122908. Standing at (1, 8) facing Up, pressed Up. Result: BUMP.
 
 ## 2F (0_226) Verified Layout & Blockages
