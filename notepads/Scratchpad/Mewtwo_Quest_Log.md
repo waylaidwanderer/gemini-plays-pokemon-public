@@ -1,6 +1,6 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: Surfing at (8, 10) on 1F (Map 0_228). Navigating to Ladder 5 at (7, 1) on foot and by surfing, to climb to 2F West to reach Southwest Ladder 6.
+- Current Status: Standing at (9, 1) on 2F (Map 0_226). Transitioning back to 1F via Ladder 5 to execute the 1F Northwest path to B1F.
 
 ## Active Progress & Discoveries:
 - **Empirical Proof of Water Separation (Verified Turn 131004)**:
