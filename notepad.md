@@ -8223,7 +8223,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: Standing at (3, 10) on foot on Map 0_226 (2F West). We are executing the 2F West on-foot loop to reach (3, 3) and test if (2, 3) is open to reach the B1F gateway!
+- Current Status: Standing at (5, 11) on foot on Map 0_226 (2F West). We verified Koga's southwest pocket is 100% isolated. Now returning to 1F Southwest Ladder 6 to execute our master backtracking route via 1F water canals to reach Ladder 5.
 
 ## Verified Topological Proof of B1F Access:
 - **1F Northwest Isolation Proof (Turn 133595)**:
