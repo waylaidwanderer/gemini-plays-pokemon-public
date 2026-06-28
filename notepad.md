@@ -8411,6 +8411,9 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Row 12 Solid Blockages [Map 0_226, 2F West] (Verified Turn 132939)**: (18, 12), (20, 12), (21, 12), and (22, 12) are solid rock walls of TYPE_2889.
 - **Row 13 Solid Blockages [Map 0_226, 2F West] (Verified Turn 132939)**: (23, 13) is a solid rock wall of TYPE_2889.
 - **(2, 3) Rock Wall Blockage [Map 0_226, 2F West] (Verified Turn 133794)**: Standing on foot at (3, 3) facing Left, pressed Left. Result: BUMP (visited 0 tiles). This physically proves (2, 3) is a solid rock wall of TYPE_2889. Since Row 4 is completely blocked across all columns from 1 to 9, this means any on-foot vertical transition between the northern area (Rows 1-3) and southern area (Rows 5-17) on 2F West is physically impossible on foot. Koga's southwest pocket is indeed 100% isolated on foot on 2F West. We must look for another way to reach the Northwest Ladder (1, 3).
+- **1F Inactive Ladder at (21, 11) Passability Test (Verified Turn 133905)**:
+  - *Methodology*: While on foot at (22, 10), we walked Left to (21, 10) and then Down. We successfully crossed directly over the inactive ladder at (21, 11), landing at (21, 12) without any interruption or warping. On a subsequent turn, we walked Down further and landed at (21, 14) before a wild encounter occurred.
+  - *Conclusion*: The inactive ladder at (21, 11) is physically passable as standard open overworld floor on foot. It does not block vertical on-foot navigation. This connects the eastern landmass's northern section directly to the southern ground floor of 1F!
 
 <hr>
 
