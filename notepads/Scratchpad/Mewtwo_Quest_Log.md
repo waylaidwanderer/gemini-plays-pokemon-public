@@ -27,8 +27,12 @@
 4. **Surf to (8, 7) and test (7, 7)**.
 5. **If successful, surf to (1, 3) and descend to B1F**.
 
+## Active Progress (Turn 130535 Update):
+- **1F Row 7 Water Connection Disproved**: On Turn 130515, we empirically tested (7, 7) on 1F and confirmed it is a solid rock wall of TYPE_2889.
+- **Column 3 On-foot Blockage**: (3, 7) is a solid rock wall of TYPE_2889, meaning we cannot walk up Column 3.
+- **Current Strategy**: We must follow the verified ground-level southern corridor detour to the central platform, surf to the northern landmass, and climb to 2F.
+
 ## Current Action:
-- Standing on foot at (9, 3) on Map 0_226 (2F West) on Turn 130471.
-- Walking back to Ladder 5 at (9, 1).
-- Path: Left x6, Up x2, Right x6.
+- Standing on foot at (3, 11) on Map 0_228 (1F Southwest).
+- Planning on-foot path to Water Ramp 2 at (11, 13) via the southern corridor.
 - *Preserve Health*: Flee all wild encounters immediately using the `flee_battle` custom tool.
