@@ -78,7 +78,7 @@
   1. From our current position on Water Ramp 2 at (11, 13) on foot, walk across the central platform to (17, 15).
   2. Descend the stairs at (17, 15) to reach (17, 16) on the ground.
   3. Walk west along Row 17 to (1, 13) and climb the wooden stairs up to the southwest platform.
-  4. Stand at (1, 11) or (2, 11) on the southwest platform, face the water, and select SURF to board the western water canal.
+  4. Walk to (1, 8) on foot, face Up towards the water at (1, 7), and select SURF to board the western water canal.
   5. Surf north along the western water canal to (1, 4).
   6. Dismount Up onto (1, 3) to enter B1F directly!
 ## Western Canal Surfing Investigation (Turn 134189)
