@@ -8223,15 +8223,15 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Turn: 131794
-- Current Position: standing on foot at (6, 3) on Map 0_226 (2F)
+- Current Turn: 131823
+- Current Position: surfing on water at (8, 6) on Map 0_228 (1F)
 
 ## Active Progress & Discoveries:
 - **Empirical Proof of Water Separation (Verified Turn 131004)**:
   - Stood at (10, 6) surfing and visually verified that Rows 4 and 5 are completely blocked by solid rock walls (TYPE_2889) across Columns 6 to 13.
   - This conclusively disproves any direct horizontal water connection between the eastern and western water canals on 1F on those rows.
 ## Definitive Master Path to Mewtwo
-- **Topologically Verified Path**: 1F Northwest -> Surf -> Water Ramp 4 at (15, 3) -> Northern landmass -> Ladder 5 at (7, 1) -> 2F West (9, 1) -> on foot to Northwest Ladder (1, 3) detour -> B1F.
+- **Topologically Verified Path**: 1F Northwest -> Surf -> Water Ramp 4 at (15, 3) -> Northern landmass -> Ladder 5 at (7, 1) -> 2F West (9, 1) -> B1F.
 - **Why this path is required**:
   1. **1F Northwest** (where we entered) has a solid wall at Row 3 (Columns 3-14) which prevents on-foot walking down to the water canal. Thus, from the starting platform on foot we cannot enter the water directly.
   2. To enter the water, we had to go up Ladder 5 to 2F West, walk east on foot, and descend back to the eastern landmass.
@@ -8242,9 +8242,9 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 ## Active Hypotheses (Scratchpad Category)
 - **1F Row 5 Water Canal Crossover Detour (Column 8/9/10/11/12)**:
-  - *Hypothesis*: While Row 5 Column 9 is blocked by solid rock, is it possible that Column 8, 10, 11, or 12 on Row 5 is open on 1F, allowing us to Surf from the eastern canal to the western canal directly?
-  - *Methodology*: Surf to (8, 6) and attempt to Surf Up to (8, 5) to test Column 8. Continue testing other columns.
-  - *Status*: UNTESTED.
+  - *Hypothesis*: While Row 5 Column 9 and Column 8 are blocked by solid rock, is it possible that Column 10, 11, or 12 on Row 5 is open on 1F, allowing us to Surf from the eastern canal to the western canal directly?
+  - *Methodology*: Surf to (10, 6), (11, 6), and (12, 6) and systematically attempt to Surf Up to test columns 10, 11, and 12.
+  - *Status*: Columns 8 and 9 are disproven. Columns 10, 11, and 12 are UNTESTED.
 
 - **1F Row 3 Passability (Northern Landmass to Water)**:
   - *Hypothesis*: Row 3 on 1F contains an open vertical passage on some column (e.g. Column 12, 11, 10, 9, 8, 7, 6, 5) allowing us to step Down from the northern landmass directly into the water canal and Surf to (1, 3) on foot.
@@ -8273,6 +8273,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - *Result*: BUMP. Disproven. Row 5 Column 9 is a solid rock wall on 1F.
 - Turn 131710: Ran Python BFS analysis on 2F West using verified collision records.
   - *Result*: Proved that 2F West is bifurcated into two mutually isolated on-foot components. We must navigate through 1F's central water canals instead.
+- Turn 131819: Attempted to Surf Up from (8, 6) to (8, 5) on 1F water.
+  - *Result*: BUMP. Disproven. Row 5 Column 8 is a solid rock wall on 1F.
 
 <hr>
 
