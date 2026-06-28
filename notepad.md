@@ -8223,7 +8223,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: At (21, 14) on foot on Map 0_228 (1F), walking to the southwest platform via Column 21.
+- Current Status: At (25, 9) on foot on Map 0_228 (1F) on Water Ramp 3.
 
 ## Verified Topological Proof of B1F Access:
 - **1F Northwest Isolation Proof (Turn 133595)**:
