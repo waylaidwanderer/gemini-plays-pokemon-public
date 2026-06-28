@@ -65,20 +65,6 @@
   - **(8, 5) Blockage (Verified Turn 129701)**: Physically verified on Turn 129701 as solid rock wall of TYPE_2889.
 
 ## B1F (Basement) Verified Layout & Mewtwo Access
-- **B1F Access**: The stairs down to B1F are located in the northwestern quadrant of 1F.
-- **Master Pathway to Mewtwo**:
-  The B1F staircase is located in the northwest quadrant of 1F at (1, 3). It can be reached via the following verified routes:
-  - **Direct Surfing Route (from Water Ramp 2 at 11, 13)**:
-    1. Standing at Water Ramp 2 at (11, 13) on foot, select BLASTOISE and use SURF to enter water at (11, 14).
-    2. Surf Left on Row 14 to (8, 14), Up Column 8 to (8, 6) or (8, 7) [Row 6/7 open water].
-    3. Surf Right on Row 6/7 to Column 11 or 12, Up Column 11/12 to Row 4 or 5 [unblocked canal on Rows 4-5].
-    4. Surf Left on Row 4/5 past the (8, 5) rock island all the way to (1, 4) or (1, 5).
-    5. Face Up from (1, 4) and dismount onto (1, 3) land/stairs on foot, and enter B1F.
-  - **Surfing Bypass from Eastern Canal (from Water Ramp 4 at 15, 3)**:
-    1. Standing at Water Ramp 4 at (15, 3) on foot, select BLASTOISE and use SURF to enter water at (15, 4).
-    2. Surf Down Column 15 to Row 6 or 7, Left on Row 6/7 to Column 11 or 12, Up Column 11/12 to Row 4 or 5.
-    3. Surf Left on Row 4/5 past the (8, 5) rock island all the way to (1, 4) or (1, 5).
-    4. Face Up and dismount onto (1, 3) land/stairs on foot, and enter B1F.
-  - **Basement Navigation**:
-    Once on B1F, navigate the basement maze to locate and capture Mewtwo.
+- **B1F Access**: The stairs down to B1F are located in the northwestern quadrant of 1F at (1, 3).
+- **Basement Navigation**: Once on B1F, navigate the basement maze to locate and capture Mewtwo.
 - **Mewtwo Battle Prep**: As we enter B1F, we will use our specialized custom agent 'mewtwo_combat_strategist' to plan the battle and capture strategy. We currently have 1 Master Ball in our bag, which guarantees a 100% catch rate! We also have 1 Ultra Ball. We will use the Master Ball to safely and instantly catch Mewtwo!
