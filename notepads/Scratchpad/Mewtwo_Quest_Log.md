@@ -1,6 +1,6 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Turn: 132553
+- Current Turn: 132554
 - Current Position: standing on foot at (11, 13) on Map 0_228 (1F)
 
 ## Active Progress & Discoveries:
