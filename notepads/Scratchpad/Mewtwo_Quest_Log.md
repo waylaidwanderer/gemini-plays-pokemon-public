@@ -1,6 +1,6 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: At (12, 2) on Map 0_228 (1F Northwest) on foot, having verified Column 17 is blocked horizontally.
+- Current Status: At (15, 14) on Map 0_228 (1F Central Platform) on foot, having verified (16, 14) is blocked.
 
 ## Verified Topological Proof of B1F Access:
 - **1F Northwest Isolation Proof (Turn 133595)**:
