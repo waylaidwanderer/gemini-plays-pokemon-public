@@ -8223,8 +8223,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Turn: 131626
-- Current Position: standing on foot at (11, 13) on Map 0_228 (1F)
+- Current Turn: 131641
+- Current Position: standing on foot at (15, 3) on Map 0_228 (1F)
 
 ## Active Progress & Discoveries:
 - **Empirical Proof of Water Separation (Verified Turn 131004)**:
@@ -8239,9 +8239,14 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   4. From Water Ramp 4, we surf down, navigate through the open central water, and dismount at Water Ramp 2 at (11, 13).
   5. From Water Ramp 2, we walk on foot to the central stairs at (17, 15) to descend to the ground, and walk west to (1, 13) where we climb to the elevated southwest plateau.
   6. From the southwest plateau, we walk to Southwest Ladder 6 at (3, 11) and climb to 2F West.
-  7. On 2F West, we must navigate from (9, 1) to the Northwest Ladder (1, 3) on foot. Although the direct path via (4, 4) is blocked, our BFS solver has verified an open on-foot detour through Row 5 / Column 5 to reach (1, 3) safely.
+  7. On 2F West, we must navigate to (1, 3). The direct path via (4, 4) is blocked, and we have an untested detour hypothesis for Row 5 / Column 5.
 
 ## Active Hypotheses (Scratchpad Category)
+- **1F Row 3 Passability (Northern Landmass to Water)**:
+  - *Hypothesis*: Row 3 on 1F contains an open vertical passage on some column (e.g. Column 12, 11, 10, 9, 8, 7, 6, 5) allowing us to step Down from the northern landmass directly into the water canal and Surf to (1, 3) on foot.
+  - *Methodology*: Walk Left along Row 2 or Row 1, and systematically attempt to step Down (South) on each column to test passability. We will log the results.
+  - *Status*: UNTESTED.
+
 - **2F West Row 5 Detour Passability**:
   - *Hypothesis*: The on-foot detour via Row 5 / Column 5 on 2F West from (9, 1) to (1, 3) is fully unblocked and passable.
   - *Methodology*: After ascending Ladder 5 to 2F West (9, 1), we will walk Left along Row 1 to Column 3, Down to Row 3, Right to Column 5, Down to Row 5, Left to Column 2, Up to Row 4, Left to Column 1, Up to (1, 3). We will physically step on every single coordinate along this detour to empirically verify its passability.
