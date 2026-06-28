@@ -52,3 +52,4 @@
   - *Result*: Proved that 2F West is bifurcated into two mutually isolated on-foot components. We must navigate through 1F's central water canals instead.
 - Turn 131819: Attempted to Surf Up from (8, 6) to (8, 5) on 1F water.
   - *Result*: BUMP. Disproven. Row 5 Column 8 is a solid rock wall on 1F.
+- Turn 131838: Verified on-screen that Row 5 Columns 8-13 is completely blocked by TYPE_2889 solid rock walls. Columns 10, 11, and 12 are definitively blocked. There is absolutely no horizontal water canal crossover on Row 5 between Column 8 and Column 13 on 1F.
