@@ -74,6 +74,7 @@
   - **(8, 5) Blockage (Verified Turn 129701)**: Physically verified on Turn 129701 as solid rock wall of TYPE_2889.
   - **(2, 12) Blockage (Verified Turn 132442)**: Standing at (2, 11) facing Down and pressing Down. Result: BUMP (visited 0 tiles), confirming (2, 12) is a solid rock wall of TYPE_2889.
   - **(1, 11) Blockage (Verified Turn 132449)**: Standing at (2, 11) facing Left and pressing Left. Result: BUMP (visited 0 tiles), confirming (1, 11) is a solid rock wall of TYPE_2889.
+  - **(1, 10) Blockage (Verified Turn 132464)**: Standing at (2, 10) facing Left and pressing Left. Result: BUMP (visited 0 tiles), confirming (1, 10) is a solid rock wall of TYPE_2889.
 
 ## B1F (Basement) Verified Layout & Mewtwo Access
 - **B1F Access**: The stairs down to B1F are located in the northwestern quadrant of 1F at (1, 3).
