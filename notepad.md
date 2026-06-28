@@ -8223,16 +8223,26 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Turn: 130972
-- Current Position: standing on foot at (15, 3) on Map 0_228 (1F)
+- Current Turn: 131004
+- Current Position: surfing at (10, 6) on Map 0_228 (1F)
 
 ## Active Progress & Discoveries:
-- **Unconstrained Surfing Route**: We mathematically proved on Turn 130948 using a correct Gen 1 BFS transition model that the Northwest B1F stairs at (1, 3) on 1F are fully reachable. In Generation 1, we can enter the water from any land tile adjacent to water and dismount onto any adjacent walkable land tile. We do not need a ramp to start or end surfing. Thus, we can easily reach (1, 3) on 1F by entering the water on the east/south side and surfing to the west side, dismounting directly onto (1, 3) or adjacent land.
-- **Proof of Work**: Tested via python BFS script on Turn 130948. Reaching (1, 3) was confirmed true (unconstrained reachable set of 474 tiles). Path: from 1F entrance (24, 17) -> walk to water -> SURF west -> dismount onto land near (1, 3).
+- **Empirical Proof of Water Separation (Verified Turn 131004)**:
+  - Stood at (10, 6) surfing and visually verified that Rows 4 and 5 are completely blocked by solid rock walls (TYPE_2889) across Columns 6 to 13.
+  - Visually verified that Columns 6 and 7 are blocked by solid rock walls (TYPE_2889) on Rows 6 and 7.
+  - This conclusively disproves any direct horizontal water connection between the eastern and western water canals on 1F.
+- **Unconstrained Surfing Route (The Master Path)**:
+  - Since direct horizontal surfing is blocked, we must take the on-foot path around the southern loop.
+  - Path:
+    1. From (10, 6) surfing, surf to (11, 7).
+    2. Dismount Down onto the land at (11, 8) on foot.
+    3. Walk along the southern corridor (Row 17) to the southwest corner.
+    4. Climb the wooden staircase at (1, 13) to reach the southwest plateau.
+    5. Walk north on the plateau, then use SURF to enter the isolated western water canal.
+    6. Surf Up to Row 4, then Left to (1, 4), and dismount Up onto the B1F stairs at (1, 3).
 - **Previous Spatial Hallucinations**:
-  - The hypothesis that we had to use 2F West's northern corridor to bypass 1F's water was a complete hallucination, as 2F West's northern corridor is isolated from (1, 3) by a vertical barrier on Row 6.
-  - The belief that we could only enter/exit water at ramps was a major design oversight in our custom BFS model, leading us to falsely think B1F stairs were isolated. We now know we can surf/dismount anywhere.
-- **Next Step**: We will walk Down Ladder 5 from (9, 1) on 2F to arrive on 1F at (7, 1). From there, we will walk east to the water's edge, use SURF to enter the water, surf west, and dismount onto the land at (1, 3) to reach B1F!
+  - Falsely assumed direct horizontal water passage was open on Rows 4-5. Turn 131004 visual verification proved this is blocked by continuous rock walls.
+- **Next Step**: We will surf from (10, 6) to (11, 7), then dismount Down onto (11, 8) on foot, and walk to (1, 13) using our repaired pathfinder.
 
 <hr>
 
