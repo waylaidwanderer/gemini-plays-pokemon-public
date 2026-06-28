@@ -1,6 +1,6 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Turn: 132273
+- Current Turn: 132289
 - Current Position: standing on foot at (21, 11) on Map 0_228 (1F)
 
 ## Active Progress & Discoveries:
@@ -12,7 +12,7 @@
 - **1F Ladder at (21, 11) Functionality Test (Active Hypothesis)**:
   - *Hypothesis*: Is the vertical ladder at (21, 11) on 1F actually inactive, or did we prematurely assume it is a one-way dropdown ladder? If we can climb it, where does it land on 2F? Could it provide the missing link to B1F?
   - *Methodology*: Head to (21, 11) on foot and attempt to interact with/climb it.
-  - *Status*: ACTIVE. Standing on foot at (21, 11) on Turn 132273. Currently executing the systematic testing protocol to physically verify ladder functionality.
+  - *Status*: COMPLETE. Empirically disproved: the ladder at (21, 11) is inactive and cannot be climbed from 1F. Systematic testing (Turn 132271-132282) confirmed that walking onto it from any direction (north/south) does not trigger a warp, and interacting with 'A' has no effect.
 
 - **1F Row 6/7 Column 7 Water Canal Crossover (Disproven)**:
   - *Hypothesis*: Is it possible that Column 7 on Row 6 or Row 7 is actually open and passable on water, despite the rock texture (TYPE_2889), allowing us to Surf Left from Column 8 directly into the western water canal (Column 1-5)?
