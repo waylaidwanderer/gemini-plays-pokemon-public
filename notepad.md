@@ -8241,10 +8241,10 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   6. From the southwest plateau, we walk to Southwest Ladder 6 at (3, 11) and climb to 2F West.
 
 ## Active Hypotheses (Scratchpad Category)
-- 1F Row 4/5 Column 13 Water Canal Crossover (Active Hypothesis):
-  - *Hypothesis*: Is it possible that Column 13 on Row 4 or Row 5 is actually open and passable on water, despite the rock texture, allowing us to Surf directly from the eastern canal to the western canal?
-  - *Methodology*: Surf from Water Ramp 2 (11, 13) to (14, 5) or (14, 4) in the eastern canal, face Left, and attempt to Surf Left into Column 13 to verify passability.
-  - *Status*: ACTIVE. Currently preparing to Surf from (11, 13).
+- 1F Row 6/7 Column 7 Water Canal Crossover (Active Hypothesis):
+  - *Hypothesis*: Is it possible that Column 7 on Row 6 or Row 7 is actually open and passable on water, despite the rock texture (TYPE_2889), allowing us to Surf Left from Column 8 directly into the western water canal (Column 1-5)?
+  - *Methodology*: Surf from our current position to (8, 6) or (8, 7) on water, face Left, and attempt to Surf Left into Column 7 to verify passability.
+  - *Status*: ACTIVE. Currently at (14, 4) navigating towards (8, 6).
 
 - **1F Row 3 Passability (Northern Landmass to Water)**:
   - *Hypothesis*: Row 3 on 1F contains an open vertical passage on some column (e.g. Column 12, 11, 10, 9, 8, 7, 6, 5) allowing us to step Down from the northern landmass directly into the water canal and Surf to (1, 3) on foot.
