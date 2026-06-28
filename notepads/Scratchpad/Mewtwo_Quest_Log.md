@@ -33,6 +33,7 @@
   - *Hypothesis*: The on-foot detour via Row 5 / Column 5 on 2F West from (9, 1) to (1, 3) is fully unblocked and passable.
   - *Methodology*: After ascending Ladder 5 to 2F West (9, 1), we will walk Left along Row 1 to Column 3, Down to Row 3, Right to Column 5, Down to Row 5, Left to Column 2, Up to Row 4, Left to Column 1, Up to (1, 3).
   - *Status*: Disproven. Visually verified on Turn 131664 that (5, 4) is a solid rock wall of TYPE_2889.
+  - *Secondary Verification*: Ran automated python BFS analysis on Turn 131710 using our verified collision records, confirming that 2F West has no valid on-foot crossover path connecting Ladder 5 (9, 1) to Northwest Ladder (1, 3). This definitively proves 2F West is bifurcated into two mutually isolated on-foot components. We must navigate through 1F's central water canals instead.
 
 ## Disproven Theories Archive
 - **Row 4 Passability on 2F West**:
