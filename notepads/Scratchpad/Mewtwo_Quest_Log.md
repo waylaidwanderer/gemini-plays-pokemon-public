@@ -1,7 +1,7 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Turn: 131133
-- Current Position: standing on foot at (12, 14) on Map 0_226 (2F)
+- Current Turn: 131164
+- Current Position: standing on foot at (19, 17) on Map 0_226 (2F)
 
 ## Active Progress & Discoveries:
 - **Empirical Proof of Water Separation (Verified Turn 131004)**:
