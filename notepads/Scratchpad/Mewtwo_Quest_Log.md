@@ -1,7 +1,7 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Turn: 130471
-- Current Position: standing at (9, 3) on Map 0_226 (2F West)
+- Current Turn: 130652
+- Current Position: surfing at (9, 10) on Map 0_228 (1F)
 
 ## Active Progress & Discoveries:
 - **Critical Retraction (Turn 130471): Column 0 is indeed solid and impassable!**
@@ -16,6 +16,6 @@
   - Therefore, the ONLY unblocked pathway to reach the northwest quadrant and B1F is the verified **2F West detour via Ladder 5 at (7, 1) on 1F Northwest**.
 
 ## Current Action:
-- Standing on foot at (5, 8) on Map 0_228 (1F Southwest).
-- Backtracking on foot to Water Ramp 2 at (11, 13) to Surf to the northern landmass.
+- Surfing at (9, 10) on Map 0_228 (1F).
+- Navigating the water path back to the eastern landmass Water Ramp 4 at (15, 3) using our verified `cave_bfs_solver` path.
 - *Preserve Health*: Flee all wild encounters immediately using the `flee_battle` custom tool.
