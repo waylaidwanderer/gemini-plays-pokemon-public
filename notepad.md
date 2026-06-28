@@ -8223,8 +8223,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Turn: 131964
-- Current Position: surfing on water at (14, 4) on Map 0_228 (1F)
+- Current Turn: 132005
+- Current Position: standing on foot at (17, 16) on Map 0_228 (1F)
 
 ## Active Progress & Discoveries:
 - **Empirical Proof of Water Separation (Verified Turn 131004)**:
@@ -8241,6 +8241,11 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   6. From the southwest plateau, we walk to Southwest Ladder 6 at (3, 11) and climb to 2F West.
 
 ## Active Hypotheses (Scratchpad Category)
+- **1F Row 2 Column 4 Northwest Crossover (Active Hypothesis)**:
+  - *Hypothesis*: Is it possible that Column 4 on Row 2 (4, 2) on Map 0_228 (1F Northwest) is actually open and passable on foot, despite the visual rock graphics? If (4, 2) is passable, we can walk on foot directly from the eastern northern landmass (e.g. from (5, 2)) to the western northern landmass (to (3, 2)), which provides a direct on-foot path to the B1F stairs at (1, 3) without ever needing to use the disconnected 2F West corridors!
+  - *Methodology*: Walk to (11, 13) on foot, use Surf, navigate to the northern water, dismount onto the northern landmass (e.g. at Water Ramp 4 at (15, 3) or via stairs), walk on foot to (5, 2), and attempt to walk Left onto (4, 2).
+  - *Status*: ACTIVE. Currently at (17, 16) heading back to the water at (11, 13) to start our journey to (5, 2).
+
 - **1F Row 6/7 Column 7 Water Canal Crossover (Disproven)**:
   - *Hypothesis*: Is it possible that Column 7 on Row 6 or Row 7 is actually open and passable on water, despite the rock texture (TYPE_2889), allowing us to Surf Left from Column 8 directly into the western water canal (Column 1-5)?
   - *Methodology*: Surf from current position to (8, 6) or (8, 7) on water, face Left, and attempt to Surf Left into Column 7 to verify passability.
