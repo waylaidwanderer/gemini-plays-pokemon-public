@@ -20,4 +20,4 @@
   - Falsely assumed direct horizontal water passage was open on Rows 4-5. Turn 131004 visual verification proved this is blocked by continuous rock walls.
   - Falsely assumed we could dismount Down onto (11, 8) from (11, 7). Turn 131008 test proved this is blocked by an elevated cliff wall.
   - Falsely assumed we had to jump a ledge at (2, 7) to surf on the west side. Walkable land exists north to Row 6 on the plateau, allowing us to surf Up into Row 5 without jumping any ledges.
-- **Next Step**: Surf to (11, 13) Water Ramp 2 using our official pathfinder in surf mode to dismount on foot.
+- **Next Step**: Walk to the northern edge of the southwest plateau at (1, 6) on foot using our repaired pathfinder.
