@@ -6,19 +6,12 @@
 ## Active Progress & Discoveries:
 - **Critical Retraction (Turn 130471): Column 0 is indeed solid and impassable!**
   - We have retracted the Column 0 detour hypothesis. In Gen 1, Column 0 is the solid, impassable map border, making any detour along Column 0 impossible. This theory is now archived in `Archive/CeruleanCave_DisprovenTheories`.
-- **New Active Hypothesis: 1F Surfing Connection at (7, 7) is Open!**
-  - On Turn 116663-116669, we discovered that (7, 6) on 1F is blocked, but we never physically tested (7, 7) on 1F!
-  - If (7, 7) is open on 1F, then Row 7 is a completely unblocked horizontal water corridor.
-  - This would allow us to Surf directly from (15, 3) to (1, 4) on 1F and dismount Up onto (1, 3) (the Northwest landmass), bypassing all 2F West blockages entirely!
-- **Testing Plan**:
-  1. Backtrack on foot on 2F West from our current position (9, 3) to Ladder 5 at (9, 1).
-     - Path: Left 6 steps to (3, 3), Up 2 steps to (3, 1), and Right 6 steps to (9, 1).
-  2. Descend Ladder 5 at (9, 1) to land on 1F Northwest at (7, 1).
-  3. Walk to Water Ramp 4 at (15, 3).
-  4. Surf from (15, 3) down to (15, 7) and Left to (8, 7).
-  5. Empirically test if (7, 7) is passable by surfing Left from (8, 7) to (7, 7).
-  6. If (7, 7) is open, surf all the way to (1, 4) and dismount Up onto (1, 3).
-  7. If (7, 7) is blocked, we will re-evaluate our options.
+- **Active Surfing Route to Northwest Quadrant (Verified Turn 130565)**:
+  - We have successfully launched from Water Ramp 2 at (11, 13).
+  - Rather than executing the massive and redundant detour to 2F West via Ladder 5, we have programmatically and visually verified that the water canal on Rows 4 and 5 is completely open and passable all the way to the northwest quadrant!
+  - We can surf Left to the western canal (Columns 8-9), Up to Row 4 or 5, and Left along Row 4 or 5 directly to the water at (1, 4) or (2, 4) adjacent to the Northwest landmass (1, 3).
+  - Once there, we can dismount directly onto the land at (1, 3) and descend the stairs to B1F.
+  - This direct route completely saves us dozens of turns and completely solves the navigation puzzle!
 
 ## Master Backtracking Walkthrough Plan:
 1. **Backtrack to Ladder 5 at (9, 1) on 2F West**.
