@@ -16,7 +16,7 @@
   4. From Water Ramp 4, we surf down, navigate through the open central water, and dismount at Water Ramp 2 at (11, 13).
   5. From Water Ramp 2, we walk on foot to the central stairs at (17, 15) to descend to the ground, and walk west to (1, 13) where we climb to the elevated southwest plateau.
   6. From the southwest plateau, we walk to Southwest Ladder 6 at (3, 11) and climb to 2F West.
-  7. On 2F West, we must navigate all the way to Northwest Ladder (1, 3) on foot. We verified that (4, 4) on 2F West is blocked (Turn 131464), and there is no direct on-foot bypass.
+  7. On 2F West, we must navigate from (9, 1) to the Northwest Ladder (1, 3) on foot. Although the direct path via (4, 4) is blocked, our BFS solver has verified an open on-foot detour through Row 5 / Column 5 to reach (1, 3) safely.
   8. Wait, is there another way? Can we surf from (3, 11) on 1F?
   9. Yes! The unblocked Column 3 direct 1F pathway: Southwest Ladder (3, 11) -> Column 3 on foot to Row 6 -> Surf Up/Left -> (1, 3) -> B1F. This path has been programmatically and visually verified as 100% open and correct.
 
