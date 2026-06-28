@@ -8223,7 +8223,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: Standing at (19, 7) on foot on Map 0_226 (2F West). Confirmed that (19, 7) leads to an isolated 5-tile pocket (Component 2) on 2F West. We must descend back to 1F to proceed.
+- Current Status: Standing at (18, 9) on foot on Map 0_228 (1F), on the path towards Southwest Ladder 6 at (3, 11). We verified the exact 33-step on-foot route to reach (3, 11) using the (17, 15) stairs down to the Row 17 corridor and the (1, 13) wooden staircase. No Surfing needed!
 
 ## Verified Topological Proof of B1F Access:
 - **1F Northwest Isolation Proof (Turn 133595)**:
