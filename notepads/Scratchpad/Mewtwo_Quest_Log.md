@@ -56,6 +56,6 @@
   - *Hypothesis*: Columns 6, 7, or 8 on Row 4 on 2F West are open, allowing a detour from (9, 1) -> Row 3 -> Row 4 -> Row 5 -> (1, 3).
   - *Test & Results*: Stood at (8, 3) and pressed Down on Turn 131775. Stood at (7, 3) and pressed Down on Turn 131780. Stood at (6, 3) and pressed Down on Turn 131784. Result: Consistent BUMPs.
 
-## 2F West Active Navigation (Turn 132849):
-- **Status**: Standing on foot at (10, 9) on Map 0_226.
+## 2F West Active Navigation (Turn 132864):
+- **Status**: Standing on foot at (12, 9) on Map 0_226.
 - **Goal**: Reach Northwest Ladder (1, 3) via the verified 32-step detour loop: Row 9 -> (13, 9) -> Up to (13, 8) -> Right to (14, 8) -> Up to Row 3 -> Left along Row 3 to (1, 3).
