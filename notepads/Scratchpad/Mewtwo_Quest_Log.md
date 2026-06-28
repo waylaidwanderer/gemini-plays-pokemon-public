@@ -12,3 +12,4 @@
 - Turn 130827: Successfully descended central platform stairs to (17, 16). Initiating ground corridor transit on Row 17.
 - Step 1-7: Walking Left to (16, 16), Down to (16, 17), then Left 5 steps to reach (11, 17).
 - Turn 130854: Triggered a wild Dodrio encounter at (15, 16) while walking to the stairs. Fleeing.
+- Turn 130865: Successfully reached (15, 14) on the central platform. Initiating the final 7-step on-foot segment to reach Water Ramp 2 at (11, 13).
