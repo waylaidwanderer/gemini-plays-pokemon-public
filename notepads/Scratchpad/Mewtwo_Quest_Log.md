@@ -1,6 +1,6 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: At (25, 9) on foot on Map 0_228 (1F) on Water Ramp 3.
+- Current Status: At (1, 13) on foot on Map 0_228 (1F) on the southwest wooden stairs.
 
 ## Verified Topological Proof of B1F Access:
 - **1F Northwest Isolation Proof (Turn 133595)**:
