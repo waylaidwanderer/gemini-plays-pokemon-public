@@ -8231,10 +8231,11 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - This conclusively disproves any direct horizontal water connection between the eastern and western water canals on 1F on those rows.
 
 ## Active Hypotheses (Scratchpad Category)
-- **Surfing Crossover to Northwest Ladder (Active Hypothesis)**:
-  - *Hypothesis*: Can we surf directly to the B1F entrance area on Map 0_228 (1F) from Water Ramp 2 at (11, 13) without needing to navigate any other floors?
-  - *Methodology*: From Water Ramp 2 at (11, 13), initiate SURF, and navigate through the water canals on Rows 4-5 towards Column 1.
-  - *Status*: ACTIVE. We have reached Water Ramp 2 and are currently opening the menu to initiate Surf.
+- **Surfing Boarding of Western Canal (Verified Turn 132719-132726)**:
+  - *Hypothesis*: Can we board the western water canal by Surfing directly from the elevated southwest platform at (1, 11) facing Up?
+  - *Test & Results*: Stand on foot at (1, 11) on Map 0_228, face Up towards (1, 10), and select SURF from the party options menu on GEMMY.
+  - *Result*: SUCCESS! The engine permitted boarding, and we successfully entered the western water canal in SURF mode. This definitively disproves the "height mismatch" hypothesis from Turn 128817; the Turn 128817 boarding failure at (1, 8)/(2, 8) occurred solely because we attempted to Surf onto solid rock wall boundaries at (1, 7)/(2, 7) rather than open water.
+  - *Current Status*: We are surfing at (1, 11) and have open horizontal/vertical access to the western water canal. We can navigate north directly to the B1F entrance at (1, 3).
 
 ## Disproven Theories Archive
 - **1F Ladder at (21, 11) Functionality Test (Disproven)**:
