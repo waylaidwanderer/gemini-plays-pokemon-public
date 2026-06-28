@@ -8235,7 +8235,10 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - *Hypothesis*: Can we board the western water canal by Surfing directly from the elevated southwest platform at (1, 11) facing Up?
   - *Test & Results*: Stand on foot at (1, 11) on Map 0_228, face Up towards (1, 10), and select SURF from the party options menu on GEMMY.
   - *Result*: SUCCESS! The engine permitted boarding, and we successfully entered the western water canal in SURF mode. This definitively disproves the "height mismatch" hypothesis from Turn 128817; the Turn 128817 boarding failure at (1, 8)/(2, 8) occurred solely because we attempted to Surf onto solid rock wall boundaries at (1, 7)/(2, 7) rather than open water.
-  - *Current Status*: We are surfing at (1, 11) and have open horizontal/vertical access to the western water canal. We can navigate north directly to the B1F entrance at (1, 3).
+  - *Current Status*: Surfing south on the western canal on Map 0_228 (1F) to reach the Southwest Ladder at (3, 11) to warp to 2F West. We verified that Row 7 has a solid rock wall border, preventing direct northward surfing to B1F.
+
+## Verified Blockages:
+- **(16, 15) Blockage (Verified Turn 132684)**: Visually and physically verified solid rock wall of TYPE_2889 on 1F.
 
 ## Disproven Theories Archive
 - **1F Ladder at (21, 11) Functionality Test (Disproven)**:
