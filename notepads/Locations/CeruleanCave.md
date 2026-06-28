@@ -52,7 +52,7 @@
 - **Verification of (12, 6) Blockage (Turn 129029)**: Standing at (12, 5) facing Down and pressing Down. Result: BUMP.
 - **(22, 9) Rock Wall Blockage [2F West] (Verified Turn 113224)**: Standing at (21, 9) and pressing Right. Result: BUMP. Blocks horizontal crossover on Row 9, separating southwestern/central pocket from northern corridors.
 - **Row 8 Rock Wall Blockages [2F West]**: Columns 3 to 12 are completely blocked on Row 8 by solid rock walls of TYPE_2889. Verified by systematic vertical tests from Row 9 facing Up (Turn 113759-115167).
-- **2F West Upper-Central Corridor to Western Corridors Connection - DISPROVEN**: Verified on Turn 118905-119868 that (2, 1), (2, 2), and (2, 3) are solid rock walls. Northern corridor (Component 1) is completely isolated on foot from western area containing Northwest Ladder (1, 3).
+- **2F West Upper-Central Corridor to Western Corridors Connection - DISPROVEN**: Verified on Turn 118905-119868 and Turn 130709 that 2F West's northern corridor (Component 1) is completely isolated on foot from the western area containing Northwest Ladder (1, 3). Row 6 and Row 7 form a solid, impassable vertical barrier.
 - **Column 1 Corridor Passable - DISPROVEN Turn 121123**: Tested on Turn 121123 and 123226. (1, 11) is indeed a solid impassable rock wall of TYPE_2889.
 - **Row 16 Blockage (Columns 2 and 3) (Verified Turn 122484)**: Column 2 Row 16 (2, 16) and Column 3 Row 16 (3, 16) are completely solid, impassable rock walls of TYPE_2889 on Map 0_226.
 - **(1, 10) Blockage [2F West] (Verified Turn 122772)**: Standing at (2, 10) facing Left, pressed Left. Result: BUMP.
