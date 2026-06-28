@@ -8320,6 +8320,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 ## 2F (0_226) Verified Layout & Blockages
 - **Serpentine Bypass**: Located at Column 25, Row 9. Bypasses the solid Column 26 rock barrier to allow access to the northeast section of 2F.
 - **Ladder 2**: Located at (29, 1). To reach it from (29, 3): walk Left to (28, 3), Up 2 steps to (28, 1), and Right to (29, 1). Descending this ladder lands on 1F at (27, 1).
+- **(5, 4) Blockage**: Labeled TYPE_3fe2 but physically verified on Turn 131664 as solid rock wall of TYPE_2889.
+- **Row 11 Passage**: Row 11 forms a completely open, unblocked horizontal passage from Column 18 to Column 24.
 - **Row 11 Passage**: Row 11 forms a completely open, unblocked horizontal passage from Column 18 to Column 24.
 - **Row 16 Blockage**: Row 16 contains a solid horizontal rock wall from Column 14 to Column 20, blocking direct downward access from Row 15 to Row 17.
 - **Row 9 Blockage**: Row 9 is blocked by rock walls at (22, 9) and (24, 9), so it is not a continuous horizontal corridor.
