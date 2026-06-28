@@ -8245,7 +8245,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
     - Turn 132449: Attempted to step Left from (2, 11) to (1, 11). Result: BUMP (visited 0 tiles). (1, 11) is solid rock wall.
     - Turn 132464: Attempted to step Left from (2, 10) to (1, 10). Result: BUMP (visited 0 tiles). (1, 10) is solid rock wall.
     - Turn 132482: Attempted to step Up from (2, 10) to (2, 9). Result: BUMP (visited 0 tiles). (2, 9) is solid rock wall.
-  - *Conclusion*: Koga's southwest pocket is 100% isolated on foot on 2F West. Horizontal and vertical crossovers in this quadrant are completely blocked by solid rock walls of TYPE_2889. Backtracking to 1F is mandatory.
+  - *Conclusion*: Koga's southwest pocket is 100% isolated on foot on 2F West. Horizontal and vertical crossovers in this quadrant are completely blocked by solid rock walls of TYPE_2889. Backtracking to 1F is mandatory. We are currently backtracking on foot along the Row 17 ground corridor of Map 0_228 (1F) to reach the central platform stairs.
 
 - **1F Row 6/7 Column 7 Water Canal Crossover (Disproven)**:
   - *Hypothesis*: Is it possible that Column 7 on Row 6 or Row 7 is actually open and passable on water, despite the rock texture (TYPE_2889), allowing us to Surf Left from Column 8 directly into the western water canal (Column 1-5)?
