@@ -1,7 +1,7 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Turn: 132005
-- Current Position: standing on foot at (17, 16) on Map 0_228 (1F)
+- Current Turn: 132041
+- Current Position: standing on foot at (5, 2) on Map 0_228 (1F)
 
 ## Active Progress & Discoveries:
 - **Empirical Proof of Water Separation (Verified Turn 131004)**:
@@ -18,10 +18,10 @@
   6. From the southwest plateau, we walk to Southwest Ladder 6 at (3, 11) and climb to 2F West.
 
 ## Active Hypotheses (Scratchpad Category)
-- **1F Row 2 Column 4 Northwest Crossover (Active Hypothesis)**:
-  - *Hypothesis*: Is it possible that Column 4 on Row 2 (4, 2) on Map 0_228 (1F Northwest) is actually open and passable on foot, despite the visual rock graphics? If (4, 2) is passable, we can walk on foot directly from the eastern northern landmass (e.g. from (5, 2)) to the western northern landmass (to (3, 2)), which provides a direct on-foot path to the B1F stairs at (1, 3) without ever needing to use the disconnected 2F West corridors!
-  - *Methodology*: Walk to (11, 13) on foot, use Surf, navigate to the northern water, dismount onto the northern landmass (e.g. at Water Ramp 4 at (15, 3) or via stairs), walk on foot to (5, 2), and attempt to walk Left onto (4, 2).
-  - *Status*: ACTIVE. Currently at (17, 16) heading back to the water at (11, 13) to start our journey to (5, 2).
+- **1F Ladder at (21, 11) Functionality Test (Active Hypothesis)**:
+  - *Hypothesis*: Is the vertical ladder at (21, 11) on 1F actually inactive, or did we prematurely assume it is a one-way dropdown ladder? If we can climb it, where does it land on 2F? Could it provide the missing link to B1F?
+  - *Methodology*: Head to (21, 11) on foot and attempt to interact with/climb it.
+  - *Status*: ACTIVE. Currently at (5, 2) heading back to our water ramp to navigate to the eastern/central land and reach (21, 11).
 
 - **1F Row 6/7 Column 7 Water Canal Crossover (Disproven)**:
   - *Hypothesis*: Is it possible that Column 7 on Row 6 or Row 7 is actually open and passable on water, despite the rock texture (TYPE_2889), allowing us to Surf Left from Column 8 directly into the western water canal (Column 1-5)?
@@ -37,6 +37,10 @@
   - *Status*: Columns 13 down to 6 have been physically tested (Turn 131644-131649) and are confirmed BLOCKED. Row 3 is solid rock across all these columns.
 
 ## Disproven Theories Archive
+- **1F Row 2 Column 4 Northwest Crossover (Disproven)**:
+  - *Hypothesis*: Is it possible that Column 4 on Row 2 (4, 2) on Map 0_228 (1F Northwest) is actually open and passable on foot, despite the visual rock graphics?
+  - *Test & Results*: Standing on foot at (5, 2), pressed Left to step onto (4, 2) on Turn 132029. Result was a BUMP (visited 0 tiles).
+  - *Conclusion*: (4, 2) is a solid rock blockage. Both (4, 1) and (4, 2) are completely impassable. There is no direct horizontal land crossover on Row 1 or 2.
 - **Row 4 Passability on 2F West (Direct Path)**:
   - *Hypothesis*: Row 4 (specifically (4, 4)) is open on 2F West to reach (1, 3) directly from (9, 1).
   - *Test*: Stood at (4, 3) on 2F West facing Left and pressed Down on Turn 131464.
