@@ -18,10 +18,13 @@
   6. From the southwest plateau, we walk to Southwest Ladder 6 at (3, 11) and climb to 2F West.
 
 ## Active Hypotheses (Scratchpad Category)
-- 1F Row 6/7 Column 7 Water Canal Crossover (Active Hypothesis):
+- **1F Row 6/7 Column 7 Water Canal Crossover (Disproven)**:
   - *Hypothesis*: Is it possible that Column 7 on Row 6 or Row 7 is actually open and passable on water, despite the rock texture (TYPE_2889), allowing us to Surf Left from Column 8 directly into the western water canal (Column 1-5)?
-  - *Methodology*: Surf from our current position to (8, 6) or (8, 7) on water, face Left, and attempt to Surf Left into Column 7 to verify passability.
-  - *Status*: ACTIVE. Currently at (14, 4) navigating towards (8, 6).
+  - *Methodology*: Surf from current position to (8, 6) or (8, 7) on water, face Left, and attempt to Surf Left into Column 7 to verify passability.
+  - *Test & Results*: 
+    - Turn 131968: Stood at (8, 6) surfing, faced Left, and pressed Left. Result: BUMP (visited 0 tiles).
+    - Turn 131971 & 131972: Stood at (8, 7) surfing, faced Left, and pressed Left. Result: BUMP (visited 0 tiles).
+  - *Conclusion*: Both (7, 6) and (7, 7) are solid, impassable rock wall tiles of TYPE_2889. There is absolutely no horizontal water canal crossover on Row 6 or Row 7 from Column 8 to Column 5. Both canals are completely separated.
 
 - **1F Row 3 Passability (Northern Landmass to Water)**:
   - *Hypothesis*: Row 3 on 1F contains an open vertical passage on some column (e.g. Column 12, 11, 10, 9, 8, 7, 6, 5) allowing us to step Down from the northern landmass directly into the water canal and Surf to (1, 3) on foot.
