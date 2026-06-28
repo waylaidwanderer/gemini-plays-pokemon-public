@@ -8223,7 +8223,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: Backtracked to 1F, found the unblocked multi-modal foot/surf path to the B1F stairs. Moving towards Water Ramp 4 to begin water traversal.
+- Current Status: Descended to 1F ground floor at (17, 16). Moving along Row 17 on foot to 1F Southwest to test boarding the western water canal from the ground floor.
 
 ## Active Progress & Discoveries:
 - **Empirical Proof of Water Separation (Verified Turn 131004)**:
