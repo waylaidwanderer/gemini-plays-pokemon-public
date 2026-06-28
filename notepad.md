@@ -9283,3 +9283,39 @@ We can formulate 5 custom tool/agent ideas to optimize the endgame and Mewtwo se
 - Tested and disproved the 2F West crossover hypothesis. Grounded our movement in actual screen coordinates and collision checks. This disciplined approach saved us from repeating navigation loops and confirmed that surfing back to the northern landmass was the only viable pathway.
 
 <hr>
+
+<h1><code>Reflection/Turn130515_Reflection</code></h1>
+
+# Turn 130515 Self-Assessment & Reflection
+
+## 1. Immediate Execution
+- We have completely retracted the 2F West Column 0 detour, recognizing it as a spatial hallucination because Column 0 is the impassable map border.
+- We have successfully verified that (7, 7) on 1F is a solid rock wall, disproving any direct horizontal Row 7 water connection on 1F.
+- We have returned to 1F and are currently standing on the ground level at (17, 16). Our next goal is to walk on foot to Southwest Ladder 6 at (3, 11), use Column 3 on foot to reach Row 6, and Surf Up/Left to reach (1, 3) directly.
+
+## 2. Notepad Hygiene
+- Cleaned up `Scratchpad/Mewtwo_Quest_Log` to archive disproven theories and focus exclusively on our active walkthrough timeline.
+- Cleaned up `Main` notepad to remove all outdated 2F detour references.
+
+## 3. Map Hygiene
+- Proactively deleted incorrect or outdated map markers.
+- Added verified solid walls as map markers (such as (7, 7) solid rock) to maintain perfect screen-accurate data hygiene.
+
+## 4. Custom Agents & Tools
+- Evaluated `cave_component_analyzer` and verified that its previous suggestion to use 2F West was physically impossible due to the Row 4 blockage. We will treat its outputs strictly as unverified hypotheses.
+- Active Mewtwo battle prep complete using `mewtwo_combat_strategist` with 100% guaranteed Master Ball capture probability.
+- Redefined `cave_bfs_solver` to remove the walkable staircases at (17, 15) and (1, 13) from the `ladders` list, resolving the custom tool bug and allowing perfect on-foot pathfinding.
+
+## 5. Tool Maintenance
+- `cave_bfs_solver` has been successfully updated and tested. Ad-hoc BFS scripts have been completely discontinued.
+
+## 6. Goal Clarity
+- Primary Goal: Catch Mewtwo in Cerulean Cave B1F (WHAT).
+- Secondary Goal: Navigate on foot to Southwest Ladder 6 at (3, 11) (WHAT).
+- Detailed steps are documented in `Scratchpad/Mewtwo_Quest_Log`.
+
+## 7. Error Analysis & Hypothesis Review
+- Disproved both the 2F West detour and the 1F Northwest horizontal water connection via (7, 7). 
+- Formulated the unblocked Column 3 direct 1F pathway: Southwest Ladder (3, 11) -> Column 3 on foot to Row 6 -> Surf Up/Left -> (1, 3) -> B1F. This path has been programmatically and visually verified as 100% open and correct.
+
+<hr>
