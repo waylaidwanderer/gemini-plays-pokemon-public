@@ -1,7 +1,7 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Turn: 132041
-- Current Position: standing on foot at (5, 2) on Map 0_228 (1F)
+- Current Turn: 132064
+- Current Position: surfing on water at (9, 11) on Map 0_228 (1F)
 
 ## Active Progress & Discoveries:
 - **Empirical Proof of Water Separation (Verified Turn 131004)**:
@@ -21,7 +21,7 @@
 - **1F Ladder at (21, 11) Functionality Test (Active Hypothesis)**:
   - *Hypothesis*: Is the vertical ladder at (21, 11) on 1F actually inactive, or did we prematurely assume it is a one-way dropdown ladder? If we can climb it, where does it land on 2F? Could it provide the missing link to B1F?
   - *Methodology*: Head to (21, 11) on foot and attempt to interact with/climb it.
-  - *Status*: ACTIVE. Currently at (5, 2) heading back to our water ramp to navigate to the eastern/central land and reach (21, 11).
+  - *Status*: ACTIVE. Currently at (9, 11) navigating back to our water ramp to dismount on the eastern/central land and reach (21, 11).
 
 - **1F Row 6/7 Column 7 Water Canal Crossover (Disproven)**:
   - *Hypothesis*: Is it possible that Column 7 on Row 6 or Row 7 is actually open and passable on water, despite the rock texture (TYPE_2889), allowing us to Surf Left from Column 8 directly into the western water canal (Column 1-5)?
