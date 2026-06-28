@@ -6,26 +6,24 @@
 ## Active Progress & Discoveries:
 - **Critical Retraction (Turn 130471): Column 0 is indeed solid and impassable!**
   - We have retracted the Column 0 detour hypothesis. In Gen 1, Column 0 is the solid, impassable map border, making any detour along Column 0 impossible. This theory is now archived in `Archive/CeruleanCave_DisprovenTheories`.
-- **Active Surfing Route to Northwest Quadrant (Verified Turn 130565)**:
-  - We have successfully launched from Water Ramp 2 at (11, 13).
-  - Rather than executing the massive and redundant detour to 2F West via Ladder 5, we have programmatically and visually verified that the water canal on Rows 4 and 5 is completely open and passable all the way to the northwest quadrant!
-  - We can surf Left to the western canal (Columns 8-9), Up to Row 4 or 5, and Left along Row 4 or 5 directly to the water at (1, 4) or (2, 4) adjacent to the Northwest landmass (1, 3).
-  - Once there, we can dismount directly onto the land at (1, 3) and descend the stairs to B1F.
-  - This direct route completely saves us dozens of turns and completely solves the navigation puzzle!
+- **Water Canal Row 4/5 Blockage (Turn 130570)**:
+  - We empirically discovered that Row 4 and Row 5 are completely blocked by solid rock walls of TYPE_2889 from Column 6 to Column 13.
+  - This separates the eastern and western water canals on 1F, making direct surfing from Water Ramp 2 to the northwest quadrant impossible.
+- **Plateau Column 2 Vertical Crossover Theory (Active)**:
+  - Socratic Question from Turn 130590: In Generation 1, north-facing cliff edges behave as solid, impassable barriers that cannot be walked off horizontally.
+  - We are testing if we can climb the wooden stairs at (1, 13) to the southwest elevated plateau, walk Up along Column 1 to (1, 8), Right to (2, 8), and Up along Column 2 to reach (2, 7) and the water at (2, 6).
+  - If we can reach (2, 6) on foot, we can use Surf directly to enter the northwest water canal and dismount onto (1, 3).
+  - This direct route would completely solve the B1F Mewtwo access puzzle without any 2F West detour!
 
-## Master Backtracking Walkthrough Plan:
-1. **Backtrack to Ladder 5 at (9, 1) on 2F West**.
-2. **Descend to 1F Northwest at (7, 1)**.
-3. **Walk to Water Ramp 4 at (15, 3)**.
-4. **Surf to (8, 7) and test (7, 7)**.
-5. **If successful, surf to (1, 3) and descend to B1F**.
-
-## Active Progress (Turn 130535 Update):
-- **1F Row 7 Water Connection Disproved**: On Turn 130515, we empirically tested (7, 7) on 1F and confirmed it is a solid rock wall of TYPE_2889.
-- **Column 3 On-foot Blockage**: (3, 7) is a solid rock wall of TYPE_2889, meaning we cannot walk up Column 3.
-- **Current Strategy**: We must follow the verified ground-level southern corridor detour to the central platform, surf to the northern landmass, and climb to 2F.
+## Active Testing Protocol:
+1. Standing at (1, 14) on foot. Walk Up to (1, 13) (the stairs) and Up to (1, 12) (the elevated plateau).
+2. Walk Up Column 1: (1, 12) -> (1, 11) -> (1, 10) -> (1, 9) -> (1, 8).
+3. Walk Right to (2, 8).
+4. Walk Up Column 2: (2, 8) -> (2, 7) -> (2, 6) (water edge).
+5. Face Up and select SURF to enter the water.
+6. Surf Left to (1, 5) or (1, 4) and dismount Up onto (1, 3) (the Northwest landmass).
 
 ## Current Action:
-- Standing on foot at (3, 11) on Map 0_228 (1F Southwest).
-- Planning on-foot path to Water Ramp 2 at (11, 13) via the southern corridor.
+- Standing on foot at (1, 14) on Map 0_228 (1F Southwest).
+- Walk Up 1 step to step onto the wooden staircase at (1, 13).
 - *Preserve Health*: Flee all wild encounters immediately using the `flee_battle` custom tool.
