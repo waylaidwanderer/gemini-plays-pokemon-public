@@ -17,7 +17,12 @@
 - **2F West Column 2 Passability Test (Active Hypothesis)**:
   - *Hypothesis*: Is Column 2 on 2F West (specifically at (2, 9), (2, 12), and (2, 7)) actually open and passable, allowing us to walk directly from the Southwest Ladder (3, 11) to the Northwest Ladder (1, 3)? If Column 2 is open, we can reach the B1F stairs on foot without any complex backtracking loops!
   - *Methodology*: Head to Southwest Ladder 6, climb to 2F West, stand at (3, 9) and (3, 12) and systematically attempt to walk Left into Column 2, logging the result of every physical test.
-  - *Status*: ACTIVE. Stood at (2, 10) on Map 0_226 (2F West) on foot. Successfully proved that (2, 12) is blocked (Turn 132442, BUMP), (1, 11) is blocked (Turn 132449, BUMP), and (1, 10) is blocked (Turn 132464, BUMP). Preparing to test (2, 9) next.
+  - *Status*: COMPLETE. Column 2 has been thoroughly and systematically tested and proven completely IMPASSABLE:
+    - Turn 132442: Attempted to step Down from (2, 11) to (2, 12). Result: BUMP (visited 0 tiles). (2, 12) is solid rock wall.
+    - Turn 132449: Attempted to step Left from (2, 11) to (1, 11). Result: BUMP (visited 0 tiles). (1, 11) is solid rock wall.
+    - Turn 132464: Attempted to step Left from (2, 10) to (1, 10). Result: BUMP (visited 0 tiles). (1, 10) is solid rock wall.
+    - Turn 132482: Attempted to step Up from (2, 10) to (2, 9). Result: BUMP (visited 0 tiles). (2, 9) is solid rock wall.
+  - *Conclusion*: Koga's southwest pocket is 100% isolated on foot on 2F West. Horizontal and vertical crossovers in this quadrant are completely blocked by solid rock walls of TYPE_2889. Backtracking to 1F is mandatory.
 
 - **1F Row 6/7 Column 7 Water Canal Crossover (Disproven)**:
   - *Hypothesis*: Is it possible that Column 7 on Row 6 or Row 7 is actually open and passable on water, despite the rock texture (TYPE_2889), allowing us to Surf Left from Column 8 directly into the western water canal (Column 1-5)?
