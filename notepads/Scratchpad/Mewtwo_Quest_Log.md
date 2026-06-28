@@ -1,7 +1,7 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Turn: 130863
-- Current Position: standing on foot at (15, 14) on Map 0_228 (1F)
+- Current Turn: 130874
+- Current Position: standing on foot at (11, 13) on Map 0_228 (1F)
 
 ## Active Progress & Discoveries:
 - **Verified 2F West Dead End**: Physically verified on Turn 130706 that 2F West's northern corridor is a completely isolated pocket on foot, bounded by continuous solid rock on Row 6. There is no on-foot pathway to reach the Northwest Ladder (1, 3) from Ladder 5 (9, 1).
