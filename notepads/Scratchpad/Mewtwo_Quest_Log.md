@@ -1,6 +1,6 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: Surfing at (11, 14) on Map 0_228 (1F), executing our master backtracking route to reach Ladder 5 via the water canals.
+- Current Status: Backtracking on foot to Ladder 5 at (9, 1) on Map 0_226 (2F West) after proving (2, 3) is solid rock and 2F West is disconnected.
 
 ## Verified Topological Proof of B1F Access:
 - **1F Northwest Isolation Proof (Turn 133595)**:
