@@ -30,6 +30,7 @@
   - **(10, 5) Blockage**: Physically verified on Turn 131825 from below as solid rock wall of TYPE_2889.
   - **(11, 5) Blockage**: Physically verified on Turn 131831 from below as solid rock wall of TYPE_2889.
   - **(12, 5) Blockage**: Physically verified on Turn 131834 from below as solid rock wall of TYPE_2889.
+  - **(9, 5) Blockage**: Physically verified on Turn 131751 from below as solid rock wall of TYPE_2889.
   - **(3, 13) Blockage**: Physically verified on Turn 128819 as a solid rock wall of TYPE_2889.
   - **(2, 13) Blockage**: Physically verified on Turn 128822 as a solid rock wall of TYPE_2889.
   - **(17, 17) Blockage**: Physically verified on Turn 129205 as a solid rock wall of TYPE_2889.
