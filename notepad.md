@@ -8223,8 +8223,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Turn: 131762
-- Current Position: standing on foot at (15, 3) on Map 0_228 (1F)
+- Current Turn: 131794
+- Current Position: standing on foot at (6, 3) on Map 0_226 (2F)
 
 ## Active Progress & Discoveries:
 - **Empirical Proof of Water Separation (Verified Turn 131004)**:
@@ -8239,12 +8239,11 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   4. From Water Ramp 4, we surf down, navigate through the open central water, and dismount at Water Ramp 2 at (11, 13).
   5. From Water Ramp 2, we walk on foot to the central stairs at (17, 15) to descend to the ground, and walk west to (1, 13) where we climb to the elevated southwest plateau.
   6. From the southwest plateau, we walk to Southwest Ladder 6 at (3, 11) and climb to 2F West.
-  7. On 2F West, we must navigate to (1, 3).
 
 ## Active Hypotheses (Scratchpad Category)
-- **2F West Row 4 Passability Detour**:
-  - *Hypothesis*: While (4, 4) and (5, 4) are blocked on 2F West, Column 6, 7, or 8 on Row 4 is open and passable on foot, allowing us to walk from (9, 1) -> left to Row 3 -> down through the open Row 4 column -> Row 5 -> left to Column 2 Row 5 -> up to (1, 3) B1F stairs.
-  - *Methodology*: Ascend Ladder 5 at (7, 1) to 2F West at (9, 1). Walk left to Column 6/7/8 on Row 3 and systematically test vertical downward passability onto Row 4.
+- **1F Row 5 Water Canal Crossover Detour (Column 8/9/10/11/12)**:
+  - *Hypothesis*: While Row 5 Column 9 is blocked by solid rock, is it possible that Column 8, 10, 11, or 12 on Row 5 is open on 1F, allowing us to Surf from the eastern canal to the western canal directly?
+  - *Methodology*: Surf to (8, 6) and attempt to Surf Up to (8, 5) to test Column 8. Continue testing other columns.
   - *Status*: UNTESTED.
 
 - **1F Row 3 Passability (Northern Landmass to Water)**:
@@ -8252,16 +8251,15 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - *Methodology*: Walk Left along Row 2 or Row 1, and systematically attempt to step Down (South) on each column to test passability. We will log the results.
   - *Status*: Columns 13 down to 6 have been physically tested (Turn 131644-131649) and are confirmed BLOCKED. Row 3 is solid rock across all these columns.
 
-- **1F Row 5 Water Canal Crossover**:
-  - *Hypothesis*: Row 5 Columns 8-12 on 1F is actually open water (not blocked by rock walls), meaning we can Surf from Water Ramp 2 at (11, 13) directly to (1, 3) without 2F.
-  - *Methodology*: Surf from Water Ramp 4 to (8, 6) and attempt to Surf Up to (8, 5).
-  - *Status*: Disproven. On Turn 131751, attempted to Surf Up from (9, 6) to (9, 5) and got a BUMP, physically proving Column 9 Row 5 is blocked by a solid rock wall of TYPE_2889.
-
 ## Disproven Theories Archive
 - **Row 4 Passability on 2F West (Direct Path)**:
   - *Hypothesis*: Row 4 (specifically (4, 4)) is open on 2F West to reach (1, 3) directly from (9, 1).
   - *Test*: Stood at (4, 3) on 2F West facing Left and pressed Down on Turn 131464.
   - *Result*: BUMP (visited 0 tiles). Disproven. Row 4 is completely impassable. Moving from Ladder 5 on 2F West to Northwest Ladder (1, 3) directly on foot is impossible.
+- **Row 4 Detour on 2F West**:
+  - *Hypothesis*: Columns 6, 7, or 8 on Row 4 on 2F West are open, allowing a detour from (9, 1) -> Row 3 -> Row 4 -> Row 5 -> (1, 3).
+  - *Test*: Stood at (8, 3) and pressed Down on Turn 131775. Stood at (7, 3) and pressed Down on Turn 131780. Stood at (6, 3) and pressed Down on Turn 131784.
+  - *Result*: Consistent BUMPs on all three columns. Disproven. Row 4 is completely impassable across all Columns 3 to 8 on 2F West.
 - Turn 131589: Discovered (3, 7) on 1F is a solid rock wall blockage (TYPE_2889).
 - Turn 131591: Confirmed via screen overlay that (3, 7) is indeed TYPE_2889.
 - Turn 131591: We are standing at (3, 8) facing Up. We can bypass (3, 7) by moving Left to (2, 8) (TYPE_2770), Up to (2, 7) (TYPE_3fe2), Up to (2, 6) (TYPE_3fe2), Right to (3, 6) (TYPE_3fe2). From (3, 6), we can Surf Up to (3, 5). Let's test this route.
@@ -8271,6 +8269,10 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 131603: Ran BFS solver on 2F West from (9, 1) (Ladder 5 landing) to (1, 3) (Northwest Ladder / B1F access) on foot.
   - *Result*: Found unblocked path: ['Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Down', 'Down', 'Right', 'Right', 'Down', 'Down', 'Left', 'Left', 'Left', 'Up', 'Left', 'Up'].
   - *Proof*: This path completely avoids the Row 4 blockage at (4, 4) by looping through Row 5 and Column 5! This is our definitive route to B1F.
+- Turn 131751: Attempted to Surf Up from (9, 6) to (9, 5) on 1F water.
+  - *Result*: BUMP. Disproven. Row 5 Column 9 is a solid rock wall on 1F.
+- Turn 131710: Ran Python BFS analysis on 2F West using verified collision records.
+  - *Result*: Proved that 2F West is bifurcated into two mutually isolated on-foot components. We must navigate through 1F's central water canals instead.
 
 <hr>
 
