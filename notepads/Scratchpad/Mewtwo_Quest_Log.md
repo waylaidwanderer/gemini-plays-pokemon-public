@@ -1,6 +1,6 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: Standing at (18, 9) on 1F (Map 0_228). Navigating to Ladder 5 at (7, 1) via the central canal, to climb to 2F West and reach B1F Stairs at (1, 3) via the Northwest Ladder.
+- Current Status: Standing at (11, 13) on 1F (Map 0_228) on Water Ramp 2. Executing the 1F multi-modal path to the B1F stairs at (1, 3) by surfing, walking along Column 6, and surfing the western canal.
 
 ## Active Progress & Discoveries:
 - **Empirical Proof of Water Separation (Verified Turn 131004)**:
