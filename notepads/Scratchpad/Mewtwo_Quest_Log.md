@@ -1,6 +1,6 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: Standing at (5, 11) on foot on Map 0_226 (2F West). We verified Koga's southwest pocket is 100% isolated. Now returning to 1F Southwest Ladder 6 to execute our master backtracking route via 1F water canals to reach Ladder 5.
+- Current Status: Surfing at (11, 14) on Map 0_228 (1F), executing our master backtracking route to reach Ladder 5 via the water canals.
 
 ## Verified Topological Proof of B1F Access:
 - **1F Northwest Isolation Proof (Turn 133595)**:
