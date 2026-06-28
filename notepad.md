@@ -8298,6 +8298,17 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Conclusion**: The vertical corridor is completely blocked by solid rock walls of TYPE_2889 at (13, 7), (14, 7), and (14, 6), rendering any vertical passage from Row 9 to Row 6 on Column 13/14 physically impossible.
 - **Final Topological Verdict**: Koga's southwest pocket is 100% isolated on foot on 2F West. The overwatch's suggested direct 2F West loop is physically blocked. Descending back to 1F and executing our master backtracking route via Ladder 5 is 100% mandatory!
 
+## Direct 1F Surfing Route to B1F Verification (Turn 133853)
+- **Status**: Formulated the direct 1F surfing descent path to reach the B1F stairs. Since 2F West is confirmed to be split into isolated, impassable sections, we must use the western water canal on 1F (Map 0_228) to bypass all 2F West obstacles.
+- **Hypothesis**: The player can stand on the southwest platform at (1, 11) or (2, 11) on foot, Surf into the western water canal, Surf north to (1, 4) or (2, 4), and dismount directly Up onto the B1F stairs/staircase at (1, 3).
+- **Execution Plan**:
+  1. From our current position on Water Ramp 2 at (11, 13) on foot, walk across the central platform to (17, 15).
+  2. Descend the stairs at (17, 15) to reach (17, 16) on the ground.
+  3. Walk west along Row 17 to (1, 13) and climb the wooden stairs up to the southwest platform.
+  4. Stand at (1, 11) or (2, 11) on the southwest platform, face the water, and select SURF to board the western water canal.
+  5. Surf north along the western water canal to (1, 4).
+  6. Dismount Up onto (1, 3) to enter B1F directly!
+
 <hr>
 
 <h1><code>Locations/CeruleanCave</code></h1>
