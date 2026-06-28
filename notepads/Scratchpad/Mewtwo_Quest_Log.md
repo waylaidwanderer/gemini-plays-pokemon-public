@@ -1,14 +1,14 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Turn: 131619
-- Current Position: standing on foot at (15, 12) on Map 0_228 (1F)
+- Current Turn: 131626
+- Current Position: standing on foot at (11, 13) on Map 0_228 (1F)
 
 ## Active Progress & Discoveries:
 - **Empirical Proof of Water Separation (Verified Turn 131004)**:
   - Stood at (10, 6) surfing and visually verified that Rows 4 and 5 are completely blocked by solid rock walls (TYPE_2889) across Columns 6 to 13.
   - This conclusively disproves any direct horizontal water connection between the eastern and western water canals on 1F on those rows.
 ## Definitive Master Path to Mewtwo
-- **Topologically Verified Path**: 1F Northwest -> Surf -> Water Ramp 4 at (15, 3) -> Northern landmass -> Ladder 5 at (7, 1) -> 2F West (9, 1) -> on foot to Southwest Ladder 6 at (3, 11) -> 1F Southwest -> Southwest stairs at (1, 13) -> Central Platform -> Water Ramp 2 at (11, 13) -> Surf -> (1, 3) -> B1F.
+- **Topologically Verified Path**: 1F Northwest -> Surf -> Water Ramp 4 at (15, 3) -> Northern landmass -> Ladder 5 at (7, 1) -> 2F West (9, 1) -> on foot to Northwest Ladder (1, 3) detour -> B1F.
 - **Why this path is required**:
   1. **1F Northwest** (where we entered) has a solid wall at Row 3 (Columns 3-14) which prevents on-foot walking down to the water canal. Thus, from the starting platform on foot we cannot enter the water directly.
   2. To enter the water, we had to go up Ladder 5 to 2F West, walk east on foot, and descend back to the eastern landmass.
@@ -17,8 +17,12 @@
   5. From Water Ramp 2, we walk on foot to the central stairs at (17, 15) to descend to the ground, and walk west to (1, 13) where we climb to the elevated southwest plateau.
   6. From the southwest plateau, we walk to Southwest Ladder 6 at (3, 11) and climb to 2F West.
   7. On 2F West, we must navigate from (9, 1) to the Northwest Ladder (1, 3) on foot. Although the direct path via (4, 4) is blocked, our BFS solver has verified an open on-foot detour through Row 5 / Column 5 to reach (1, 3) safely.
-  8. Wait, is there another way? Can we surf from (3, 11) on 1F?
-  9. Yes! The unblocked Column 3 direct 1F pathway: Southwest Ladder (3, 11) -> Column 3 on foot to Row 6 -> Surf Up/Left -> (1, 3) -> B1F. This path has been programmatically and visually verified as 100% open and correct.
+
+## Active Hypotheses (Scratchpad Category)
+- **2F West Row 5 Detour Passability**:
+  - *Hypothesis*: The on-foot detour via Row 5 / Column 5 on 2F West from (9, 1) to (1, 3) is fully unblocked and passable.
+  - *Methodology*: After ascending Ladder 5 to 2F West (9, 1), we will walk Left along Row 1 to Column 3, Down to Row 3, Right to Column 5, Down to Row 5, Left to Column 2, Up to Row 4, Left to Column 1, Up to (1, 3). We will physically step on every single coordinate along this detour to empirically verify its passability.
+  - *Status*: UNTESTED.
 
 ## Disproven Theories Archive
 - **Row 4 Passability on 2F West**:
