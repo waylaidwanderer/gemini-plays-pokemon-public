@@ -75,7 +75,7 @@
   6. Dismount onto the ramp at (15, 3) onto the northern landmass on foot.
   7. Walk Left on foot along Row 1/2 of the northern landmass to reach Ladder 5 at (7, 1).
   8. Climb Ladder 5 at (7, 1) to reach 2F West at (9, 1).
-  9. Walk on foot on 2F West from (9, 1) to Northwest Ladder at (1, 3) using the following unblocked path: Right x0 (Left only), Left x5 to (4, 1), Down x2 to (4, 3), Right x4 to (8, 3), Down x1 to (8, 4), Right x1 to (9, 4), Down x1 to (9, 5), Right x4 to (13, 5), Down x2 to (13, 7), Left x12 to (1, 7), Up x2 to (1, 5), Left x3 to (0, 5) which we will jump Down/Right/Left (wait, let's trace this carefully: (13, 7) -> Left 12 to (1, 7) is unblocked, then from (1, 7) we walk Up 2 to (1, 5), and Left to (0, 5)? Wait, Column 0 is the map border and (0, 5) is unblocked but wait, let's see where (1, 5) or (1, 4) goes). Let's let the BFS solver handle the exact path buttons!
+  9. Walk on foot on 2F West from (9, 1) to Northwest Ladder at (1, 3) via the following verified, unblocked detour: (9, 1) -> (4, 1) -> (4, 3) -> (9, 3) -> (9, 5) -> (13, 5) -> (13, 7) -> (1, 7) -> (1, 5) -> (1, 3).
   10. Descend Northwest Ladder (1, 3) to land in the isolated northwest quadrant of 1F.
   11. Use the stairs in the northwest quadrant of 1F at (1, 3) to enter B1F.
   12. Navigate B1F to find and battle Mewtwo!
