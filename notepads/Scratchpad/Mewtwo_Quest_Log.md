@@ -1,6 +1,6 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: At (5, 11) on Map 0_226 (2F West).
+- Current Status: Standing on foot at (1, 11) on Map 0_228 (1F).
 
 ## Verified Topological Proof of B1F Access:
 - **Direct 2F West Loop (Disproven on Turn 133794)**: We verified that 2F West is 100% split and impassable on foot at (2, 3) due to a solid rock wall, so ascending via Southwest Ladder 6 does not connect to the Northwest Ladder on 2F West.
