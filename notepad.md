@@ -8310,10 +8310,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   5. Surf along the water canal: Left to the vertical canal, Up to Row 6, Right to Column 14, Up to Row 4, and Right to (15, 4) (Water Ramp 4).
   6. Dismount onto the ramp at (15, 3) onto the northern landmass on foot.
   7. Walk Left on foot along Row 1/2 of the northern landmass to reach Ladder 5 at (7, 1).
-  8. Climb Ladder 5 at (7, 1) to reach 2F West at (9, 1).
-  9. Walk on foot on 2F West from (9, 1) to Northwest Ladder at (1, 3) via the following verified, unblocked detour: (9, 1) -> (4, 1) -> (4, 3) -> (9, 3) -> (9, 5) -> (13, 5) -> (13, 7) -> (1, 7) -> (1, 5) -> (1, 3).
-  10. Descend Northwest Ladder (1, 3) to land in the isolated northwest quadrant of 1F.
-  11. Use the stairs in the northwest quadrant of 1F at (1, 3) to enter B1F.
+  8. Surf directly from the eastern water canal to the western water canal on 1F via the open water channel on Rows 4-5, bypassing the rock islands (such as the one at 8, 5) to land on the northwest platform at (1, 3).
+  9. Use the stairs in the northwest quadrant of 1F at (1, 3) to enter B1F.
   12. Navigate B1F to find and battle Mewtwo!
 - **Mewtwo Battle Prep**: As we enter B1F, we will use our specialized custom agent 'mewtwo_combat_strategist' to plan the battle and capture strategy. We currently have 1 Master Ball in our bag, which guarantees a 100% catch rate! We also have 1 Ultra Ball. We will use the Master Ball to safely and instantly catch Mewtwo!
 
