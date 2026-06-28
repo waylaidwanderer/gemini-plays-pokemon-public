@@ -8248,6 +8248,9 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - *Hypothesis*: Row 4 (specifically (4, 4)) is open on 2F West to reach (1, 3) directly from (9, 1).
   - *Test*: Stood at (4, 3) on 2F West facing Left and pressed Down on Turn 131464.
   - *Result*: BUMP (visited 0 tiles). Disproven. Row 4 is completely impassable. Moving from Ladder 5 on 2F West to Northwest Ladder (1, 3) directly on foot is impossible.
+- Turn 131589: Discovered (3, 7) on 1F is a solid rock wall blockage (TYPE_2889).
+- Turn 131591: Confirmed via screen overlay that (3, 7) is indeed TYPE_2889.
+- Turn 131591: We are standing at (3, 8) facing Up. We can bypass (3, 7) by moving Left to (2, 8) (TYPE_2770), Up to (2, 7) (TYPE_3fe2), Up to (2, 6) (TYPE_3fe2), Right to (3, 6) (TYPE_3fe2). From (3, 6), we can Surf Up to (3, 5). Let's test this route.
 
 <hr>
 
