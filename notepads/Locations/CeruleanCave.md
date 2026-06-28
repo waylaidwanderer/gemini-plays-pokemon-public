@@ -85,6 +85,7 @@
   - **(14, 11) and (15, 11) Blockages**: Physically verified on Turn 132083 as solid rock walls of TYPE_2889.
   - **(14, 10) and (15, 10) Blockages**: Physically verified on Turn 132083 as solid rock walls of TYPE_2889.
   - **(14, 14) Blockage**: Physically verified on Turn 132083 as solid rock wall of TYPE_2889.
+- **(16, 15) Blockage**: Visually and physically verified solid rock wall of TYPE_2889 on Turn 132684. Standing at (16, 14) facing Down, pressed Down and bumped.
 - **(2, 9) Blockage [Map 0_226, 2F West]**: Visually and physically verified solid rock wall of TYPE_2889 on Turn 132482. Standing at (2, 11) facing Up, pressed Up twice. Ended at (2, 10), then pressed Up again and bumped against (2, 9).
 - **Row 16 Blockages [Map 0_228, 1F] (Verified Turn 132516-132527)**: (7, 16), (8, 16), (9, 16), (10, 16), (11, 16), (12, 16), (13, 16), and (14, 16) are solid rock walls of TYPE_2889.
 - **Row 15 Blockages [Map 0_228, 1F] (Verified Turn 132516-132527)**: (13, 15), (14, 15), (15, 15), and (16, 15) are solid rock walls of TYPE_2889.
