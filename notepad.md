@@ -9393,39 +9393,37 @@ We can formulate 5 custom tool/agent ideas to optimize the endgame and Mewtwo se
 
 <h1><code>Reflection/Turn130976_Reflection</code></h1>
 
-# Turn 130976 Self-Assessment & Reflection
+# Turn 131652 Reflection & Self-Assessment
 
 ## 1. Immediate Execution
-- We have successfully arrived at Water Ramp 4 at (15, 3) on Map 0_228 (1F) on foot. Socratic check: Are we facing Down towards the water at (15, 4)? Yes, our character is standing at (15, 3) facing Down.
-- Our next action is to initiate SURF to mount the water at (15, 4).
-- From there, we will follow the unconstrained surfing path: surf Down the eastern canal to Row 7, Left through Row 6/7 open water to Column 8, Down Column 8 to the southern ground area, walk on foot along Row 17 to the southwest corner, climb the wooden stairs at (1, 13) to reach the southwest plateau, walk north, and surf Up/Left to dismount onto the B1F stairs at (1, 3). This is mathematically and topologically verified!
+- Just arrived on 2F West at (9, 1). We are currently standing at (9, 1) on foot facing Down.
+- Over the last 50 turns, we navigated on foot across the southern corridor of 1F, surfaced at (11, 13), surfed the canal to Water Ramp 4 at (15, 3), and systematically tested Columns 13, 12, 11, 10, 9, 8, 7, and 6 on Row 3 for on-foot passability into the water.
+- *Test Results*: All tested Columns (13 down to 6) on Row 3 on 1F Northwest are blocked. They are impassable on foot. This proves that we cannot enter the water canal on foot directly from the northern landmass. Thus, the 2F West route is the only possible path.
+- Our next task is to verify the 2F West detour through Row 5 / Column 5 to reach Northwest Ladder (1, 3). We will step on every single coordinate along this path to empirically verify it.
 
 ## 2. Notepad Hygiene
-- Cleaned up `Scratchpad/Mewtwo_Quest_Log` to keep its header synchronized with our current turn (130976) and position (15, 3) on 1F (0_228).
-- Cleaned up `Locations/CeruleanCave` by removing the unverified, speculative surfing routes from the 'Master Pathway to Mewtwo' section as requested by overwatch. Frame them as active hypotheses in the scratchpad until every single tile has been physically stood upon and verified.
+- Keeping `Scratchpad/Mewtwo_Quest_Log` up to date with the latest Turn (131652) and position (9, 1) on 2F West (0_226).
+- `Archive/CeruleanCave_DisprovenTheories` correctly contains our older disproven 2F bypass ideas.
 
 ## 3. Map Hygiene
-- Verified map markers are perfectly accurate on 1F and 2F.
-- Checked that solid obstacles and transition points are correctly labeled to prevent navigation errors.
+- Proactively checked map markers on 1F and 2F West. We have accurate markings for solid blockages. We will add a marker on 2F West for any blocked coordinate we find on the detour.
 
-## 4. Custom Tools & Agents
-- We have:
-  - `cave_bfs_solver` - repaired on Turn 130831 and working perfectly to find optimal paths on Map 0_228 and Map 0_226.
-  - `mewtwo_combat_strategist` - our custom combat planner that calculates damage ranges, status odds, and Poké Ball capture probabilities to safely capture Mewtwo.
-  - `flee_battle` - automatically and safely escapes from wild battles to preserve team health.
-- We do not require any new custom tools for now, but we are prepared to define a B1F BFS solver once we descend to B1F.
+## 4. Custom Tools
+- We have the highly functional custom tool `cave_bfs_solver` which successfully found a path on 2F West from (9, 1) to (1, 3):
+  `['Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Down', 'Down', 'Right', 'Right', 'Down', 'Down', 'Left', 'Left', 'Left', 'Up', 'Left', 'Up']`
+- We do not need to write ad-hoc pathfinders or agents for this. If we get into battle, we will use our `flee_battle` custom tool.
 
 ## 5. Tool Maintenance
 - `cave_bfs_solver` is in pristine, fully functional condition. We will query it exclusively for all overworld pathfinding to avoid raw 'run_code' script redundancy.
 
 ## 6. Goal Clarity
 - Primary Goal: Catch Mewtwo on B1F of Cerulean Cave (WHAT).
-- Secondary Goal: Use SURF at Water Ramp 4 (15, 3) to enter the eastern water canal (WHAT).
-- Detailed steps (HOW) are stored in `Scratchpad/Mewtwo_Quest_Log`.
+- Secondary Goal: Navigate on foot to Northwest Ladder (1, 3) on 2F West (WHAT).
+- Methodology (HOW) is carefully documented in `Scratchpad/Mewtwo_Quest_Log`.
 
 ## 7. Error Analysis & Hypothesis Review
-- Disproved the 2F West horizontal bypass (isolated by Row 6 wall) and the 1F Northwest horizontal water bypass (blocked by Column 7 Row 6-7 wall).
-- Confirmed that the "Unconstrained Surfing Route" is 100% open and topologically sound when allowing surfing entry/exit at any adjacent walkable land-water boundary. We will execute this route step-by-step.
+- Disproved the 1F Northwest direct land-to-water passability across Columns 6 to 13.
+- The 2F West detour through Column 5 / Row 5 is currently our active hypothesis. We are executing and verifying it step-by-step.
 
 <hr>
 
