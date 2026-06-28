@@ -68,3 +68,4 @@
 - **B1F Access**: The stairs down to B1F are located in the northwestern quadrant of 1F at (1, 3).
 - **Basement Navigation**: Once on B1F, navigate the basement maze to locate and capture Mewtwo.
 - **Mewtwo Battle Prep**: As we enter B1F, we will use our specialized custom agent 'mewtwo_combat_strategist' to plan the battle and capture strategy. We currently have 1 Master Ball in our bag, which guarantees a 100% catch rate! We also have 1 Ultra Ball. We will use the Master Ball to safely and instantly catch Mewtwo!
+- **Verification of (4, 4) Blockage (Turn 131464)**: Standing at (4, 3) facing Left and pressing Down. Result: BUMP (visited 0 tiles). This conclusively disproves on-foot passage through (4, 4) on 2F West. Row 4 is completely impassable on 2F West.
