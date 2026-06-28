@@ -1,6 +1,6 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: Standing at (11, 13) on foot on Map 0_228 (1F). Planning to walk to Southwest Ladder at (3, 11) via the southern Row 17 corridor.
+- Current Status: Standing at (15, 8) on foot on Map 0_228 (1F). Planning to climb Ladder 3 at (18, 9) to navigate 2F West.
 
 ## Verified Topological Proof of B1F Access:
 - **1F Northwest Isolation Proof (Turn 133595)**:
