@@ -8279,6 +8279,18 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - *Hypothesis*: Columns 6, 7, or 8 on Row 4 on 2F West are open, allowing a detour from (9, 1) -> Row 3 -> Row 4 -> Row 5 -> (1, 3).
   - *Test & Results*: Stood at (8, 3) and pressed Down on Turn 131775. Stood at (7, 3) and pressed Down on Turn 131780. Stood at (6, 3) and pressed Down on Turn 131784. Result: Consistent BUMPs.
 
+## Turn 132827 Update:
+- **Progress**: Successfully warped up the Southwest Ladder from 1F (3, 11) to 2F West (3, 11). Currently standing at (3, 10) on foot on 2F West.
+- **Route to Northwest Ladder (1, 3)**:
+  - Step 1: Up to (3, 10) (Completed).
+  - Step 2: Up to (3, 9) (Next).
+  - Step 3-12: Right 10 steps along Row 9 to reach (13, 9).
+  - Step 13: Up to (13, 8).
+  - Step 14: Right to (14, 8).
+  - Step 15-19: Up 5 steps along Column 14 to reach Row 3 at (14, 3).
+  - Step 20-32: Left 13 steps along Row 3 to reach Northwest Ladder (1, 3).
+- **Reasoning**: We verified that Row 8 is indeed completely blocked on Columns 3 to 12 by solid rock walls (TYPE_2889), making any direct vertical climb impossible. We are using our verified 32-step detour loop around the eastern central pocket to reach the Northwest Ladder on foot.
+
 <hr>
 
 <h1><code>Locations/CeruleanCave</code></h1>
