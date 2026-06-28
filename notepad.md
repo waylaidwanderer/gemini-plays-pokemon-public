@@ -8410,6 +8410,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **1F Inactive Ladder at (21, 11) Passability Test (Verified Turn 133905)**:
   - *Methodology*: While on foot at (22, 10), we walked Left to (21, 10) and then Down. We successfully crossed directly over the inactive ladder at (21, 11), landing at (21, 12) without any interruption or warping. On a subsequent turn, we walked Down further and landed at (21, 14) before a wild encounter occurred.
   - *Conclusion*: The inactive ladder at (21, 11) is physically passable as standard open overworld floor on foot. It does not block vertical on-foot navigation. This connects the eastern landmass's northern section directly to the southern ground floor of 1F!
+- **Newly Verified 1F East Blockages (Verified Turn 133918-133920)**: (17, 2) is a solid rock wall blockage. (23, 9), (23, 10), and (22, 11) are solid rock walls of TYPE_2889 on Map 0_228 (1F).
 
 <hr>
 
