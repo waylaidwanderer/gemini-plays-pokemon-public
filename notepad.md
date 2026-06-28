@@ -8223,8 +8223,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Turn: 130951
-- Current Position: standing on foot at (9, 1) on Map 0_226 (2F)
+- Current Turn: 130972
+- Current Position: standing on foot at (15, 3) on Map 0_228 (1F)
 
 ## Active Progress & Discoveries:
 - **Unconstrained Surfing Route**: We mathematically proved on Turn 130948 using a correct Gen 1 BFS transition model that the Northwest B1F stairs at (1, 3) on 1F are fully reachable. In Generation 1, we can enter the water from any land tile adjacent to water and dismount onto any adjacent walkable land tile. We do not need a ramp to start or end surfing. Thus, we can easily reach (1, 3) on 1F by entering the water on the east/south side and surfing to the west side, dismounting directly onto (1, 3) or adjacent land.
