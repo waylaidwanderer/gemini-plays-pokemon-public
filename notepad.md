@@ -8227,16 +8227,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Current Position: surfing at (9, 10) on Map 0_228 (1F)
 
 ## Active Progress & Discoveries:
-- **Critical Retraction (Turn 130471): Column 0 is indeed solid and impassable!**
-  - We have retracted the Column 0 detour hypothesis. In Gen 1, Column 0 is the solid, impassable map border, making any detour along Column 0 impossible. This theory is now archived in `Archive/CeruleanCave_DisprovenTheories`.
-- **Water Canal Row 4/5 Blockage (Turn 130570)**:
-  - We empirically discovered that Row 4 and Row 5 are completely blocked by solid rock walls of TYPE_2889 from Column 6 to Column 13.
-  - This separates the eastern and western water canals on 1F, making direct surfing from Water Ramp 2 to the northwest quadrant impossible.
-- **Plateau Column 2 Vertical Crossover Theory Disproved (Turn 130601)**:
-  - On Turn 130601, we physically stood at (2, 8) on foot and attempted to walk Up onto (2, 7). Result: BUMP.
-  - This empirically and conclusively disproves the Column 2 on-foot vertical crossover. Row 7 is a solid barrier (rock walls and south-facing ledges) that prevents all south-to-north vertical on-foot traversal on the southwest plateau.
-  - The southwest area is completely isolated on foot from the north on 1F.
-  - Therefore, the ONLY unblocked pathway to reach the northwest quadrant and B1F is the verified **2F West detour via Ladder 5 at (7, 1) on 1F Northwest**.
+- **Verified 2F West Dead End**: Physically verified on Turn 130706 that 2F West's northern corridor is a completely isolated pocket on foot, bounded by continuous solid rock on Row 6. There is no on-foot pathway to reach the Northwest Ladder (1, 3) from Ladder 5 (9, 1).
+- **Hypothesis: Water Connection on 1F Rows 4-5**: We will test Columns 6, 7, 9, 10, 11, 12, and 13 on Row 4 and Row 5 on 1F to find the unblocked water canal that bypasses the rock islands, allowing us to surf directly to the northwest quadrant.
 
 <hr>
 
