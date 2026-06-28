@@ -8286,7 +8286,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 ## 1F (0_228) Verified Layout & Blockages
 - **Ladder (24, 17)**: Leads out of Cerulean Cave to Cerulean City.
-- **Ladder (21, 11)**: Labeled TYPE_4b8d. Legacy claim asserts this is a one-way dropdown ladder; currently being tested to verify if we can interact with or climb it.
+- **Ladder (21, 11) - Inactive/Dropdown-Only (Empirically Verified Turns 132271-132282)**: Labeled TYPE_4b8d. Physically verified to be completely inactive/impassable as a climbable ladder from 1F. Exhaustive physical testing confirmed that walking onto it from any direction (north/south) does not trigger a warp, and interacting with 'A' has no effect. It is indeed a one-way dropdown ladder (or completely inactive).
 - **Ladder (23, 7)**: Labeled TYPE_3fe2. Interacting with or stepping onto this tile immediately warps the player to 2F at (22, 6).
 - **Staircase at (17, 15)**: Labeled TYPE_4b8d. Connects the central platform to the ground floor at (17, 16) (Verified Turn 113127).
 - **Wooden Staircase at (1, 13)**: Labeled TYPE_4b8d. Connects the southwestern ground level to the elevated southwest plateau at (1, 12) (Verified Turn 113146).
