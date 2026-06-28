@@ -8412,6 +8412,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - *Conclusion*: The inactive ladder at (21, 11) is physically passable as standard open overworld floor on foot. It does not block vertical on-foot navigation. This connects the eastern landmass's northern section directly to the southern ground floor of 1F!
 - **Newly Verified 1F East Blockages (Verified Turn 133918-133920)**: (17, 2) is a solid rock wall blockage. (23, 9), (23, 10), and (22, 11) are solid rock walls of TYPE_2889 on Map 0_228 (1F).
 - **Column 2 Row 7 Ledge Test (Verified Turn 134105)**: Standing on foot at (2, 8) facing Up, pressed Up. Result: BUMP (visited 0 tiles). This physically proves (2, 7) is an impassable ledge/wall from the south. Thus, the entire Row 7 boundary across Column 1 and 2 is completely impassable from south to north on foot.
+- **Column 14 Row 7 Rock Wall Blockage [Map 0_226, 2F West] (Verified Turn 134136)**: Standing on foot at (14, 8) facing Up, pressed Up. Result: BUMP (visited 0 tiles). This physically proves (14, 7) is a solid, impassable rock wall of TYPE_2889. Since Column 14 is blocked here, any on-foot vertical transition on Column 14 between Rows 5-8 is completely impossible, proving that 2F West is 100% split.
 
 <hr>
 
