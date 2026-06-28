@@ -8285,6 +8285,18 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Row 4 Detour on 2F West (Disproven)**:
   - *Hypothesis*: Columns 6, 7, or 8 on Row 4 on 2F West are open, allowing a detour from (9, 1) -> Row 3 -> Row 4 -> Row 5 -> (1, 3).
   - *Test & Results*: Stood at (8, 3) and pressed Down on Turn 131775. Stood at (7, 3) and pressed Down on Turn 131780. Stood at (6, 3) and pressed Down on Turn 131784. Result: Consistent BUMPs.
+## 2F West Column 13/14 Isolation Proof (Turn 133727):
+- **Objective**: Verify if there is a vertical passage connecting the southern Row 9 corridor to the northern Row 5 corridor on 2F West via Column 13/14.
+- **Hypothesis**: The vertical path (13, 9) -> (13, 8) -> (14, 8) -> (14, 7) -> (14, 6) -> (14, 5) is completely open, allowing us to walk to (3, 3) entirely on 2F West.
+- **Visual Check (Turn 133727)**: Standing at (9, 9) facing Right, we can clearly see the eastern corridor on the screen overlay:
+  - (13, 9) is TYPE_3fe2 (passable)
+  - (13, 8) is TYPE_3fe2 (passable)
+  - (14, 8) is TYPE_3fe2 (passable)
+  - (13, 7) is TYPE_2889 (solid rock wall)
+  - (14, 7) is TYPE_2889 (solid rock wall)
+  - (14, 6) is TYPE_2889 (solid rock wall)
+- **Conclusion**: The vertical corridor is completely blocked by solid rock walls of TYPE_2889 at (13, 7), (14, 7), and (14, 6), rendering any vertical passage from Row 9 to Row 6 on Column 13/14 physically impossible.
+- **Final Topological Verdict**: Koga's southwest pocket is 100% isolated on foot on 2F West. The overwatch's suggested direct 2F West loop is physically blocked. Descending back to 1F and executing our master backtracking route via Ladder 5 is 100% mandatory!
 
 <hr>
 
