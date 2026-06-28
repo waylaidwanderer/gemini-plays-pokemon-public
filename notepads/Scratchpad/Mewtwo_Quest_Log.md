@@ -1,7 +1,7 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Turn: 131734
-- Current Position: surfing on water at (15, 4) on Map 0_228 (1F)
+- Current Turn: 131762
+- Current Position: standing on foot at (15, 3) on Map 0_228 (1F)
 
 ## Active Progress & Discoveries:
 - **Empirical Proof of Water Separation (Verified Turn 131004)**:
@@ -16,9 +16,14 @@
   4. From Water Ramp 4, we surf down, navigate through the open central water, and dismount at Water Ramp 2 at (11, 13).
   5. From Water Ramp 2, we walk on foot to the central stairs at (17, 15) to descend to the ground, and walk west to (1, 13) where we climb to the elevated southwest plateau.
   6. From the southwest plateau, we walk to Southwest Ladder 6 at (3, 11) and climb to 2F West.
-  7. On 2F West, we must navigate to (1, 3). The direct path via (4, 4) is blocked.
+  7. On 2F West, we must navigate to (1, 3).
 
 ## Active Hypotheses (Scratchpad Category)
+- **2F West Row 4 Passability Detour**:
+  - *Hypothesis*: While (4, 4) and (5, 4) are blocked on 2F West, Column 6, 7, or 8 on Row 4 is open and passable on foot, allowing us to walk from (9, 1) -> left to Row 3 -> down through the open Row 4 column -> Row 5 -> left to Column 2 Row 5 -> up to (1, 3) B1F stairs.
+  - *Methodology*: Ascend Ladder 5 at (7, 1) to 2F West at (9, 1). Walk left to Column 6/7/8 on Row 3 and systematically test vertical downward passability onto Row 4.
+  - *Status*: UNTESTED.
+
 - **1F Row 3 Passability (Northern Landmass to Water)**:
   - *Hypothesis*: Row 3 on 1F contains an open vertical passage on some column (e.g. Column 12, 11, 10, 9, 8, 7, 6, 5) allowing us to step Down from the northern landmass directly into the water canal and Surf to (1, 3) on foot.
   - *Methodology*: Walk Left along Row 2 or Row 1, and systematically attempt to step Down (South) on each column to test passability. We will log the results.
@@ -27,16 +32,10 @@
 - **1F Row 5 Water Canal Crossover**:
   - *Hypothesis*: Row 5 Columns 8-12 on 1F is actually open water (not blocked by rock walls), meaning we can Surf from Water Ramp 2 at (11, 13) directly to (1, 3) without 2F.
   - *Methodology*: Surf from Water Ramp 4 to (8, 6) and attempt to Surf Up to (8, 5).
-  - *Status*: UNTESTED.
-
-- **2F West Row 5 Detour Passability**:
-  - *Hypothesis*: The on-foot detour via Row 5 / Column 5 on 2F West from (9, 1) to (1, 3) is fully unblocked and passable.
-  - *Methodology*: After ascending Ladder 5 to 2F West (9, 1), we will walk Left along Row 1 to Column 3, Down to Row 3, Right to Column 5, Down to Row 5, Left to Column 2, Up to Row 4, Left to Column 1, Up to (1, 3).
-  - *Status*: Disproven. Visually verified on Turn 131664 that (5, 4) is a solid rock wall of TYPE_2889.
-  - *Secondary Verification*: Ran automated python BFS analysis on Turn 131710 using our verified collision records, confirming that 2F West has no valid on-foot crossover path connecting Ladder 5 (9, 1) to Northwest Ladder (1, 3). This definitively proves 2F West is bifurcated into two mutually isolated on-foot components. We must navigate through 1F's central water canals instead.
+  - *Status*: Disproven. On Turn 131751, attempted to Surf Up from (9, 6) to (9, 5) and got a BUMP, physically proving Column 9 Row 5 is blocked by a solid rock wall of TYPE_2889.
 
 ## Disproven Theories Archive
-- **Row 4 Passability on 2F West**:
+- **Row 4 Passability on 2F West (Direct Path)**:
   - *Hypothesis*: Row 4 (specifically (4, 4)) is open on 2F West to reach (1, 3) directly from (9, 1).
   - *Test*: Stood at (4, 3) on 2F West facing Left and pressed Down on Turn 131464.
   - *Result*: BUMP (visited 0 tiles). Disproven. Row 4 is completely impassable. Moving from Ladder 5 on 2F West to Northwest Ladder (1, 3) directly on foot is impossible.
