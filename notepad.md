@@ -8262,19 +8262,6 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - *Result*: Consistent BUMPs on all three columns. Disproven. Row 4 is completely impassable across all Columns 3 to 8 on 2F West.
 - Turn 131589: Discovered (3, 7) on 1F is a solid rock wall blockage (TYPE_2889).
 - Turn 131591: Confirmed via screen overlay that (3, 7) is indeed TYPE_2889.
-- Turn 131591: We are standing at (3, 8) facing Up. We can bypass (3, 7) by moving Left to (2, 8) (TYPE_2770), Up to (2, 7) (TYPE_3fe2), Up to (2, 6) (TYPE_3fe2), Right to (3, 6) (TYPE_3fe2). From (3, 6), we can Surf Up to (3, 5). Let's test this route.
-- Turn 131594-131602: Tested on-foot bypass on 1F Northwest.
-  - *Fact*: (2, 7) and (1, 7) are ledges blocking northward movement. Row 7 across Columns 3-7 consists of solid rock walls (TYPE_2889).
-  - *Conclusion*: 1F Southwest is completely disconnected on foot from the northern water and cannot reach (1, 3) or any water on foot. We must backtrack to the central platform to enter the water.
-- Turn 131603: Ran BFS solver on 2F West from (9, 1) (Ladder 5 landing) to (1, 3) (Northwest Ladder / B1F access) on foot.
-  - *Result*: Found unblocked path: ['Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Down', 'Down', 'Right', 'Right', 'Down', 'Down', 'Left', 'Left', 'Left', 'Up', 'Left', 'Up'].
-  - *Proof*: This path completely avoids the Row 4 blockage at (4, 4) by looping through Row 5 and Column 5! This is our definitive route to B1F.
-- Turn 131751: Attempted to Surf Up from (9, 6) to (9, 5) on 1F water.
-  - *Result*: BUMP. Disproven. Row 5 Column 9 is a solid rock wall on 1F.
-- Turn 131710: Ran Python BFS analysis on 2F West using verified collision records.
-  - *Result*: Proved that 2F West is bifurcated into two mutually isolated on-foot components. We must navigate through 1F's central water canals instead.
-- Turn 131819: Attempted to Surf Up from (8, 6) to (8, 5) on 1F water.
-  - *Result*: BUMP. Disproven. Row 5 Column 8 is a solid rock wall on 1F.
 - Turn 131838: Verified on-screen that Row 5 Columns 8-13 is completely blocked by TYPE_2889 solid rock walls. Columns 10, 11, and 12 are definitively blocked. There is absolutely no horizontal water canal crossover on Row 5 between Column 8 and Column 13 on 1F.
 
 <hr>
