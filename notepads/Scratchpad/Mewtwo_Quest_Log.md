@@ -1,6 +1,6 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: Descended to 1F ground floor at (17, 16). Moving along Row 17 on foot to 1F Southwest to test boarding the western water canal from the ground floor.
+- Current Status: Surfing at (2, 11) on Map 0_228 (1F), about to climb the Southwest Ladder to 2F West to reach B1F gateway.
 
 ## Active Progress & Discoveries:
 - **Empirical Proof of Water Separation (Verified Turn 131004)**:
