@@ -8321,15 +8321,14 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - Can we walk north on foot to (1, 8), face Up towards the water tile at (1, 7), and Surf from there to bypass the split?
   - Let's walk to (1, 8) and test this!
 
-## 1F Column 3 Passability Testing Plan (Pending Turn 134377)
+## 1F Column 3 Passability Testing Plan (Resolved Turn 134416)
 - **Objective**: Physically verify on foot if Column 3 on Map 0_228 (1F) is completely open from Row 11 to Row 6, and if (3, 7) contains any hidden rock walls.
 - **Hypothesis**: Column 3 is fully passable from (3, 11) to (3, 6) on foot, allowing us to Surf from (3, 6) Up/Left to the northwest quadrant to reach the B1F stairs.
-- **Testing Protocol**:
-  1. Dismount at Water Ramp 2 (11, 13).
-  2. Walk across the central platform to (17, 15), descend to ground, walk along Row 17 to (1, 13) wooden stairs, and climb onto the southwest platform to reach (3, 11).
-  3. Stand at (3, 11) on foot, and walk Up 5 steps to (3, 6) on foot. Log each coordinate and any BUMP.
-  4. At (3, 6), turn Left and select SURF on GEMMY.
-- **Fallback Plan**: If Column 3 is blocked (e.g. at Y=7 or Y=8), we must test adjacent columns on the southwest platform for vertical passability.
+- **Testing Results (Turn 134413-134416)**:
+  - Turn 134413: Stood on foot at (3, 11) on Map 0_228. Walked Up 3 steps to (3, 8) on foot.
+  - Turn 134416: Standing on foot at (3, 8) facing Up, pressed Up against (3, 7) (labeled TYPE_2889). Result: BUMP (visited 0 tiles).
+- **Conclusion**: (3, 7) on 1F is a solid rock wall blockage. This disproves the Column 3 on-foot bypass hypothesis, proving that the southwest platform of 1F is 100% isolated on foot from the northern landmass!
+- **Active Plan**: We must backtrack to the central water canal to physically test if Row 4 or Row 5 water is continuous on 1F (i.e. testing if (13, 4) and (13, 5) are actually open on 1F, or if they were leaked from the 2F West database).
 
 <hr>
 
