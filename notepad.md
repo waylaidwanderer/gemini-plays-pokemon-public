@@ -8240,7 +8240,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **2F West Column 2 Passability Test (Active Hypothesis)**:
   - *Hypothesis*: Is Column 2 on 2F West (specifically at (2, 9), (2, 12), and (2, 7)) actually open and passable, allowing us to walk directly from the Southwest Ladder (3, 11) to the Northwest Ladder (1, 3)? If Column 2 is open, we can reach the B1F stairs on foot without any complex backtracking loops!
   - *Methodology*: Head to Southwest Ladder 6, climb to 2F West, stand at (3, 9) and (3, 12) and systematically attempt to walk Left into Column 2, logging the result of every physical test.
-  - *Status*: ACTIVE. Currently surfing on water at (11, 7) on Map 0_228 (1F), backtracking to Water Ramp 2 at (11, 13) to land on foot and proceed to Southwest Ladder 6.
+  - *Status*: ACTIVE. Standing on foot at (17, 16) on Map 0_228 (1F). Backtracking west to climb Southwest Ladder 6 at (3, 11) to reach 2F West.
 
 - **1F Row 6/7 Column 7 Water Canal Crossover (Disproven)**:
   - *Hypothesis*: Is it possible that Column 7 on Row 6 or Row 7 is actually open and passable on water, despite the rock texture (TYPE_2889), allowing us to Surf Left from Column 8 directly into the western water canal (Column 1-5)?
