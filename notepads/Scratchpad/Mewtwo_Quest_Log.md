@@ -43,5 +43,5 @@
 - Turn 131589: Discovered (3, 7) on 1F is a solid rock wall blockage (TYPE_2889).
 - Turn 131591: Confirmed via screen overlay that (3, 7) is indeed TYPE_2889.
 - Turn 131838: Verified on-screen that Row 5 Columns 8-13 is completely blocked by TYPE_2889 solid rock walls. Columns 10, 11, and 12 are definitively blocked. There is absolutely no horizontal water canal crossover on Row 5 between Column 8 and Column 13 on 1F.
-- Turn 132095-132099: Walked from (11, 10) to (11, 9) on foot on 1F (Map 0_228).
-- BFS solver returned path to (21, 11): ['Up', 'Right', 'Right', 'Right', 'Right', 'Right', 'Down', 'Down', 'Right', 'Right', 'Right', 'Right', 'Right']. Currently at (11, 9). First 'Up' is completed. Next is to move 'Right' to (12, 9).
+- Turn 132154: Standing on foot at (11, 9) on 1F. We are about to walk down Column 11 to the water ramp at (11, 13) to begin surfing.
+  - Path: Down 4 steps -> (11, 10) -> (11, 11) -> (11, 12) -> (11, 13). All tiles are confirmed open.
