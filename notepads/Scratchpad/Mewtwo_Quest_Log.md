@@ -1,6 +1,6 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: Standing on foot at (10, 9) on Map 0_226 (2F West). Continuing execution of the verified 36-step on-foot path to the Northwest Ladder (1, 3).
+- Current Status: Standing on foot at (10, 9) on Map 0_226 (2F West). Planning our routing to B1F via Ladder 5 at (9, 1).
 
 ## Active Progress & Discoveries:
 - **Empirical Proof of Water Separation (Verified Turn 131004)**:
@@ -55,7 +55,3 @@
 - **Row 4 Detour on 2F West (Disproven)**:
   - *Hypothesis*: Columns 6, 7, or 8 on Row 4 on 2F West are open, allowing a detour from (9, 1) -> Row 3 -> Row 4 -> Row 5 -> (1, 3).
   - *Test & Results*: Stood at (8, 3) and pressed Down on Turn 131775. Stood at (7, 3) and pressed Down on Turn 131780. Stood at (6, 3) and pressed Down on Turn 131784. Result: Consistent BUMPs.
-
-## 2F West Active Navigation (Turn 132864):
-- **Status**: Standing on foot at (11, 9) on Map 0_226.
-- **Goal**: Reach Northwest Ladder (1, 3) via the verified 73-step detour loop.
