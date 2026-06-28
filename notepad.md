@@ -9499,3 +9499,36 @@ We can formulate 5 custom tool/agent ideas to optimize the endgame and Mewtwo se
   - This proves that backtracking to Water Ramp 4 at (15, 3) is topologically required. Our routing is correct.
 
 <hr>
+
+<h1><code>Reflection/Turn132800_Reflection</code></h1>
+
+# Turn 132800 Reflection & Self-Assessment:
+
+## 1. Immediate Execution
+- **Current Position**: standing at (2, 11) surfing on Map 0_228 (1F), facing Down.
+- **Immediate Goal**: Reach Southwest Ladder 6 at (3, 11).
+- **Execution Path**:
+  1. Move Right to (3, 11) to dismount and warp up to 2F West.
+- **Topological Discovery**: We ran `cave_bfs_solver` on 2F West (Map 0_226) from (3, 11) to (1, 3) and found a completely unblocked 12-step path: `["Up", "Up", "Right", "Up", "Up", "Up", "Up", "Up", "Up", "Left", "Left", "Left"]`. This disproves our prior assumption that Koga's southwest pocket is completely isolated on foot on 2F West! We have a direct path to the B1F gateway via Southwest Ladder 6.
+
+## 2. Notepad Hygiene
+- Updated `Scratchpad/Mewtwo_Quest_Log` with the corrected status line and documented the verified (16, 15) rock wall blockage on Map 0_228 (1F).
+- We will delete the incorrect `(2, 7)` ledge map marker to keep our map markers clean and accurate.
+
+## 3. Five Discrete Custom Tools/Agents to Design before B1F Mewtwo
+1. `mewtwo_combat_strategist` (Agent): A highly specialized battle planner to safely manage Blastoise's moves, Pikachu's paralysis support, and executing our guaranteed 100% Master Ball capture on Mewtwo.
+2. `b1f_bfs_pathfinder` (Tool): A dedicated BFS pathing script to process B1F coordinates and output obstacle-free overworld routes once we descend.
+3. `mewtwo_item_validator` (Agent): An agent to verify our item inventory is ready for battle, checking Master Ball, Ultra Ball, and recovery items.
+4. `wild_battle_escape_automator` (Tool): An automated flee script specifically tuned for Cerulean Cave wild encounters to preserve HP/PP.
+5. `b1f_terrain_mapper` (Tool): A script to parse our walkable coordinates on the unmapped B1F.
+
+## 4. Goal Clarity
+- **Primary Goal**: Catch Mewtwo on B1F of Cerulean Cave (outcome-focused).
+- **Secondary Goal**: Take Southwest Ladder at (3, 11) to reach 2F West and walk to (1, 3) (outcome-focused).
+
+## 5. Error Analysis & Verification
+- We verified that (2, 7) acts as an elevated ledge from (2, 8) by attempting to walk Up and bumping.
+- We verified that the western water canal is completely separated from the eastern canal on foot/water, and that the only connected path to (1, 3) is through the Southwest Ladder.
+- We confirmed the exact layout of the water canal on our screen.
+
+<hr>
