@@ -8223,7 +8223,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: Successfully ascended to 2F West at (3, 11). Moving along the verified 12-step path on foot to reach the Northwest Ladder at (1, 3).
+- Current Status: Standing on foot at (15, 8) on Map 0_226 (2F West). Moving along the verified 73-step detour path on foot to reach the Northwest Ladder at (1, 3).
 
 ## Active Progress & Discoveries:
 - **Empirical Proof of Water Separation (Verified Turn 131004)**:
@@ -8280,8 +8280,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - *Test & Results*: Stood at (8, 3) and pressed Down on Turn 131775. Stood at (7, 3) and pressed Down on Turn 131780. Stood at (6, 3) and pressed Down on Turn 131784. Result: Consistent BUMPs.
 
 ## 2F West Active Navigation (Turn 132864):
-- **Status**: Standing on foot at (12, 9) on Map 0_226.
-- **Goal**: Reach Northwest Ladder (1, 3) via the verified 32-step detour loop: Row 9 -> (13, 9) -> Up to (13, 8) -> Right to (14, 8) -> Up to Row 3 -> Left along Row 3 to (1, 3).
+- **Status**: Standing on foot at (11, 9) on Map 0_226.
+- **Goal**: Reach Northwest Ladder (1, 3) via the verified 73-step detour loop.
 
 <hr>
 
