@@ -8256,13 +8256,14 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - *Conclusion*: The ladder at (21, 11) is inactive and cannot be climbed from 1F.
 
 - **2F West Column 2 Passability Test (Disproven)**:
-  - *Hypothesis*: Is Column 2 on 2F West (specifically at (2, 9), (2, 12), and (2, 7)) actually open and passable, allowing us to walk directly from the Southwest Ladder (3, 11) to the Northwest Ladder (1, 3)?
+  - *Hypothesis*: Is Column 2 on 2F West (specifically at (2, 9), (2, 12), (2, 7), and (2, 2)) actually open and passable, allowing us to walk directly from the Southwest Ladder (3, 11) to the Northwest Ladder (1, 3)?
   - *Test & Results*: Systematic physical collision tests under active overworld:
     - Turn 132442: Step Down to (2, 12). Result: BUMP.
     - Turn 132449: Step Left to (1, 11). Result: BUMP.
     - Turn 132464: Step Left to (1, 10). Result: BUMP.
     - Turn 132482: Step Up to (2, 9). Result: BUMP.
-  - *Conclusion*: Koga's southwest pocket is 100% isolated on foot on 2F West. Backtracking to 1F is mandatory.
+    - Turn 134349: Standing on foot at (3, 2) facing Left, pressed Left to test (2, 2). Result: BUMP (visited 0 tiles).
+  - *Conclusion*: Both the southwest pocket and the northwest ladder area are completely isolated on foot on 2F West. Physical tests of (2, 12), (1, 11), (1, 10), (2, 9), and (2, 2) all resulted in solid bumps, proving that 2F West is 100% split. Backtracking to 1F is mandatory!
 
 - **1F Row 6/7 Column 7 Water Canal Crossover (Disproven)**:
   - *Hypothesis*: Is it possible that Column 7 on Row 6 or Row 7 is actually open and passable on water, despite the rock texture (TYPE_2889), allowing us to Surf Left from Column 8 directly into the western water canal (Column 1-5)?
