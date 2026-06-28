@@ -8223,7 +8223,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: Surfing at (13, 7) on Map 0_228 (1F). Navigating towards Water Ramp 2 at (11, 13) to access the Southwest Ladder.
+- Current Status: Standing at (11, 13) on foot on Map 0_228 (1F). Planning to walk to Southwest Ladder at (3, 11) via the southern Row 17 corridor.
 
 ## Verified Topological Proof of B1F Access:
 - **1F Northwest Isolation Proof (Turn 133595)**:
