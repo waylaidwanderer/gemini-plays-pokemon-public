@@ -8380,6 +8380,10 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Row 15 Blockages [Map 0_228, 1F] (Verified Turn 132516-132527)**: (13, 15), (14, 15), (15, 15), and (16, 15) are solid rock walls of TYPE_2889.
 - **Row 7 Water Canal Barrier Constraint (Verified Turn 132744)**:
   - Stood on water at (8, 8) and attempted to Surf directly Up onto the Row 7 elevated platform. Result: BUMPED against the southern edge. The Row 7 elevated platform boundary is solid from the water canal, blocking any upward boarding or landing. This has been added to our permanent constraints.
+- **Columns 21, 22, 23 Solid Blockages [Map 0_226, 2F West] (Verified Turn 132923)**: (21, 8), (21, 7), (21, 6), (22, 8), (22, 5), (23, 7), (23, 6), and (23, 5) are solid rock walls of TYPE_2889.
+- **Row 10 Solid Blockages [Map 0_226, 2F West] (Verified Turn 132938)**: (18, 10), (19, 10), (20, 10), (21, 10), and (22, 10) are solid rock walls of TYPE_2889.
+- **Row 12 Solid Blockages [Map 0_226, 2F West] (Verified Turn 132939)**: (18, 12), (20, 12), (21, 12), and (22, 12) are solid rock walls of TYPE_2889.
+- **Row 13 Solid Blockages [Map 0_226, 2F West] (Verified Turn 132939)**: (23, 13) is a solid rock wall of TYPE_2889.
 
 <hr>
 
