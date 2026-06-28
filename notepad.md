@@ -8223,7 +8223,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: Standing at (19, 7) on 2F (Map 0_226). Backtracking to 1F via Ladder 3 to execute the multi-modal on-foot and surf path to B1F Stairs at (1, 3).
+- Current Status: Standing at (18, 9) on 1F (Map 0_228). Navigating to Ladder 5 at (7, 1) via the central canal, to climb to 2F West and reach B1F Stairs at (1, 3) via the Northwest Ladder.
 
 ## Active Progress & Discoveries:
 - **Empirical Proof of Water Separation (Verified Turn 131004)**:
