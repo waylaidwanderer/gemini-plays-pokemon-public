@@ -8223,8 +8223,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Turn: 131101
-- Current Position: standing on foot at (2, 10) on Map 0_226 (2F)
+- Current Turn: 131133
+- Current Position: standing on foot at (12, 14) on Map 0_226 (2F)
 
 ## Active Progress & Discoveries:
 - **Empirical Proof of Water Separation (Verified Turn 131004)**:
@@ -8239,6 +8239,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
     3. Climb the wooden staircase at (1, 13) to reach the southwest plateau.
     4. Note: On Turn 131071, we realized that the overworld engine does not permit boarding lower-level water from an elevated plateau (z=1 to z=0 transition) without a ramp, and we cannot walk right from (1, 8) due to a height boundary. Thus, the 1F elevated plateau is a dead end.
     5. The only viable path to reach the Northwest Ladder (1, 3) on foot is by climbing the Southwest Ladder at (3, 11) to 2F West (Map 0_226) and walking to (1, 3) there, by detouring around the rock at (3, 4).
+- **Active Hypotheses**:
+  - **Detour around (3, 4) on 2F West**: Framed strictly as an untested hypothesis. We assume Row 4 (Columns 1-8 except 3, 4) is completely unblocked on 2F West, allowing us to walk on foot to (1, 3). We must stand on each coordinate to verify.
 - **Previous Spatial Hallucinations**:
   - Falsely assumed direct horizontal water passage was open on Rows 4-5. Turn 131004 visual verification proved this is blocked by continuous rock walls.
   - Falsely assumed we could dismount Down onto (11, 8) from (11, 7). Turn 131008 test proved this is blocked by an elevated cliff wall.
