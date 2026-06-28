@@ -13,7 +13,7 @@
 - **Staircase at (17, 15)**: Labeled TYPE_4b8d. Connects the central platform to the ground floor at (17, 16) (Verified Turn 113127).
 - **Wooden Staircase at (1, 13)**: Labeled TYPE_4b8d. Connects the southwestern ground level to the elevated southwest plateau at (1, 12) (Verified Turn 113146).
 - **Ramps to Water**: Located at (23, 3), (15, 3), (11, 13), and (25, 9) (TYPE_4b8d). Standing on any of these ramps facing the water and selecting SURF from the party menu successfully mounts the water.
-- **Water Canal**: Rows 4 and 5 on 1F contain water but are blocked horizontally at Column 13 by solid rock walls (TYPE_2889). However, we can bypass the Column 13 Row 4-5 blockage by surfing Down on Column 14 to Row 6/7, and then surfing Left through Column 13 Row 6/7 (which is completely open and passable water) to reach the western water canal.
+- **Water Canal**: Rows 4 and 5 on 1F contain water but are blocked horizontally at Column 13 by solid rock walls (TYPE_2889). Furthermore, on Turns 131968 and 131971, we physically proved that Column 7 on Rows 6 and 7 is completely blocked by solid rock walls (TYPE_2889), which means the eastern and western water canals are 100% separated on all rows on 1F. There is no horizontal water crossover.
 - **Southern Canal Boundary (Rows 16-17) Systematic Tests**:
   - Turn 113095: Stood at (8, 15) on water and pressed Down. Result: BUMPED (8, 16 is solid).
   - Turn 113098: Stood at (9, 15) on water and pressed Down. Result: BUMPED (9, 16 is solid).
