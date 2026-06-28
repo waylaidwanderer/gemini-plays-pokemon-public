@@ -8223,22 +8223,13 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Turn: 132064
-- Current Position: surfing on water at (9, 11) on Map 0_228 (1F)
+- Current Turn: 132121
+- Current Position: standing on foot at (18, 11) on Map 0_228 (1F)
 
 ## Active Progress & Discoveries:
 - **Empirical Proof of Water Separation (Verified Turn 131004)**:
   - Stood at (10, 6) surfing and visually verified that Rows 4 and 5 are completely blocked by solid rock walls (TYPE_2889) across Columns 6 to 13.
   - This conclusively disproves any direct horizontal water connection between the eastern and western water canals on 1F on those rows.
-## Definitive Master Path to Mewtwo
-- **Topologically Verified Path**: 1F Northwest -> Surf -> Water Ramp 4 at (15, 3) -> Northern landmass -> Ladder 5 at (7, 1) -> 2F West (9, 1) -> B1F.
-- **Why this path is required**:
-  1. **1F Northwest** (where we entered) has a solid wall at Row 3 (Columns 3-14) which prevents on-foot walking down to the water canal. Thus, from the starting platform on foot we cannot enter the water directly.
-  2. To enter the water, we had to go up Ladder 5 to 2F West, walk east on foot, and descend back to the eastern landmass.
-  3. On the eastern landmass, we can surf at Water Ramp 4 at (15, 3).
-  4. From Water Ramp 4, we surf down, navigate through the open central water, and dismount at Water Ramp 2 at (11, 13).
-  5. From Water Ramp 2, we walk on foot to the central stairs at (17, 15) to descend to the ground, and walk west to (1, 13) where we climb to the elevated southwest plateau.
-  6. From the southwest plateau, we walk to Southwest Ladder 6 at (3, 11) and climb to 2F West.
 
 ## Active Hypotheses (Scratchpad Category)
 - **1F Ladder at (21, 11) Functionality Test (Active Hypothesis)**:
