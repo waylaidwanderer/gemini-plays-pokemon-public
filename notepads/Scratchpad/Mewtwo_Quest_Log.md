@@ -1,6 +1,6 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Turn: 132289
+- Current Turn: 132301
 - Current Position: standing on foot at (21, 11) on Map 0_228 (1F)
 
 ## Active Progress & Discoveries:
@@ -13,6 +13,11 @@
   - *Hypothesis*: Is the vertical ladder at (21, 11) on 1F actually inactive, or did we prematurely assume it is a one-way dropdown ladder? If we can climb it, where does it land on 2F? Could it provide the missing link to B1F?
   - *Methodology*: Head to (21, 11) on foot and attempt to interact with/climb it.
   - *Status*: COMPLETE. Empirically disproved: the ladder at (21, 11) is inactive and cannot be climbed from 1F. Systematic testing (Turn 132271-132282) confirmed that walking onto it from any direction (north/south) does not trigger a warp, and interacting with 'A' has no effect.
+
+- **2F West Column 2 Passability Test (Active Hypothesis)**:
+  - *Hypothesis*: Is Column 2 on 2F West (specifically at (2, 9), (2, 12), and (2, 7)) actually open and passable, allowing us to walk directly from the Southwest Ladder (3, 11) to the Northwest Ladder (1, 3)? If Column 2 is open, we can reach the B1F stairs on foot without any complex backtracking loops!
+  - *Methodology*: Head to Southwest Ladder 6, climb to 2F West, stand at (3, 9) and (3, 12) and systematically attempt to walk Left into Column 2, logging the result of every physical test.
+  - *Status*: ACTIVE. Currently at (21, 11) on foot on 1F East. Backtracking to Water Ramp 3 at (25, 9) to surf back to the central platform, then walk to the southwest plateau to climb Southwest Ladder 6.
 
 - **1F Row 6/7 Column 7 Water Canal Crossover (Disproven)**:
   - *Hypothesis*: Is it possible that Column 7 on Row 6 or Row 7 is actually open and passable on water, despite the rock texture (TYPE_2889), allowing us to Surf Left from Column 8 directly into the western water canal (Column 1-5)?
