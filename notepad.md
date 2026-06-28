@@ -9407,3 +9407,47 @@ We can formulate 5 custom tool/agent ideas to optimize the endgame and Mewtwo se
 - Confirmed that the "Unconstrained Surfing Route" is 100% open and topologically sound when allowing surfing entry/exit at any adjacent walkable land-water boundary. We will execute this route step-by-step.
 
 <hr>
+
+<h1><code>Reflection/Turn131497_Reflection</code></h1>
+
+# Turn 131497 Self-Assessment & Reflection
+
+## 1. Immediate Execution
+- Progress over the last 50 turns: Successfully tested the passability of (4, 4) on 2F West on Turn 131464, proving it is a solid rock wall (bumped, visited 0 tiles).
+- This disproved the 2F West direct on-foot bypass. We returned to Ladder 5, descended to 1F, and are now standing at (7, 1) on Map 0_228 (1F).
+- Our current task is to walk on foot to Water Ramp 4 at (15, 3) to begin surfing.
+
+## 2. Notepad Hygiene
+- Cleaned up `Scratchpad/Mewtwo_Quest_Log` header to match current Turn 131497 and position (7, 1) on 1F Northwest.
+- Moved the Row 4 passability hypothesis and its active route to the 'Disproven Theories Archive' in `Scratchpad/Mewtwo_Quest_Log`.
+- Updated the 'Definitive Master Path to Mewtwo' to reflect our actual, unblocked surfing path from (15, 3) -> Water Ramp 2 -> southwest plateau -> Southwest Ladder 6 -> 2F West -> (1, 3) B1F stairs.
+
+## 3. Map Hygiene
+- Proactively checked our map markers. All existing markers for ladders, ramps, and walls on 1F and 2F are perfectly accurate.
+
+## 4. Custom Tools
+- We have the following tools defined:
+  - `cave_bfs_solver` - plans pathfinding on Maps 0_228 (1F) and 0_226 (2F).
+  - `mewtwo_combat_strategist` - combat calculations.
+  - `flee_battle` - automatically and safely escapes wild battles.
+- We do not need any new custom tools for now, but we are prepared to define a B1F BFS solver once we reach B1F.
+
+## 5. Tool Maintenance
+- `cave_bfs_solver` is in perfect condition and updated with all verified 1F/2F blockages. We will query it exclusively for pathfinding.
+
+## 6. Goal Clarity
+- Primary Goal: Catch Mewtwo on B1F of Cerulean Cave (WHAT).
+- Secondary Goal: Reach Water Ramp 4 at (15, 3) on foot (WHAT).
+- Methods (HOW) are stored in `Scratchpad/Mewtwo_Quest_Log`.
+
+## 7. Error Analysis & Hypothesis Review
+- **Socratic check of 1F Northwest entry to water**:
+  - *Question*: Why can't we walk Down from (7, 1) to (7, 3) and surf into (7, 4) directly?
+  - *Answer*: On Map 0_228 (1F), Row 3 is a continuous solid rock wall (TYPE_2889) from Column 3 to Column 14. 
+  - (7, 3) is a solid rock wall of TYPE_2889, as is (7, 4).
+  - This rock wall on Row 3 prevents any vertical on-foot movement from Row 2 to Row 4 between Columns 3 and 14.
+  - Thus, the 1F Northwest landmass (Columns 5-12, Rows 0-2) is completely isolated on foot from the water canals on Rows 4 and 5.
+  - To access the water canal, we must walk on foot along Row 2 to Column 15, then step Down to the Water Ramp at (15, 3) where the Row 3 rock wall ends, enabling us to surf.
+  - This proves that backtracking to Water Ramp 4 at (15, 3) is topologically required. Our routing is correct.
+
+<hr>
