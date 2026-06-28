@@ -67,14 +67,18 @@
 ## B1F (Basement) Verified Layout & Mewtwo Access
 - **B1F Access**: The stairs down to B1F are located in the northwestern quadrant of 1F.
 - **Master Pathway to Mewtwo**:
-  1. From 1F Southwest (Map 0_228), use the stairs to access the elevated southwest plateau and climb Southwest Ladder 6 at (3, 11). (Backtrack route complete as of Turn 130342).
-  2. Walk back down from 2F West via Southwest Ladder 6 to return to 1F Southwest on foot.
-  3. Walk on foot along the Row 16/17 southern corridor of 1F to reach the central platform stairs at (17, 15).
-  4. Climb the stairs to the central platform, walk to Water Ramp 2 at (11, 13), and use Surf.
-  5. Surf along the water canal: Left to the vertical canal, Up to Row 6, Right to Column 14, Up to Row 4, and Right to (15, 4) (Water Ramp 4).
-  6. Dismount onto the ramp at (15, 3) onto the northern landmass on foot.
-  7. Walk Left on foot along Row 1/2 of the northern landmass to reach Ladder 5 at (7, 1).
-  8. Surf directly from the eastern water canal to the western water canal on 1F via the open water channel on Rows 4-5, bypassing the rock islands (such as the one at 8, 5) to land on the northwest platform at (1, 3).
-  9. Use the stairs in the northwest quadrant of 1F at (1, 3) to enter B1F.
-  12. Navigate B1F to find and battle Mewtwo!
+  The B1F staircase is located in the northwest quadrant of 1F at (1, 3). It can be reached via the following verified routes:
+  - **Direct Surfing Route (from Water Ramp 2 at 11, 13)**:
+    1. Standing at Water Ramp 2 at (11, 13) on foot, select BLASTOISE and use SURF to enter water at (11, 14).
+    2. Surf Left on Row 14 to (8, 14), Up Column 8 to (8, 6) or (8, 7) [Row 6/7 open water].
+    3. Surf Right on Row 6/7 to Column 11 or 12, Up Column 11/12 to Row 4 or 5 [unblocked canal on Rows 4-5].
+    4. Surf Left on Row 4/5 past the (8, 5) rock island all the way to (1, 4) or (1, 5).
+    5. Face Up from (1, 4) and dismount onto (1, 3) land/stairs on foot, and enter B1F.
+  - **Surfing Bypass from Eastern Canal (from Water Ramp 4 at 15, 3)**:
+    1. Standing at Water Ramp 4 at (15, 3) on foot, select BLASTOISE and use SURF to enter water at (15, 4).
+    2. Surf Down Column 15 to Row 6 or 7, Left on Row 6/7 to Column 11 or 12, Up Column 11/12 to Row 4 or 5.
+    3. Surf Left on Row 4/5 past the (8, 5) rock island all the way to (1, 4) or (1, 5).
+    4. Face Up and dismount onto (1, 3) land/stairs on foot, and enter B1F.
+  - **Basement Navigation**:
+    Once on B1F, navigate the basement maze to locate and capture Mewtwo.
 - **Mewtwo Battle Prep**: As we enter B1F, we will use our specialized custom agent 'mewtwo_combat_strategist' to plan the battle and capture strategy. We currently have 1 Master Ball in our bag, which guarantees a 100% catch rate! We also have 1 Ultra Ball. We will use the Master Ball to safely and instantly catch Mewtwo!
