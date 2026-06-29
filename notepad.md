@@ -8223,7 +8223,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: On foot at (11, 13) on Map 0_228 (1F) on Turn 135811.
+- Current Status: On foot at (11, 13) on Map 0_228 (1F) on Turn 135814.
 
 ## Active Routing Strategy
 - **Backup Ground Floor Backtracking Route**: Since we have empirically verified on water that Column 7 on Row 7 is a solid rock wall blockage, and Columns 6 and 7 across Rows 4-7 are completely blocked by solid rock walls of TYPE_2889 on 1F, we have definitive proof that the eastern/central and western water canals are 100% separated on 1F. Thus, our active pathing plan must proceed along the verified ground-floor backtracking route to 2F West and Northwest Ladder (1, 3):
