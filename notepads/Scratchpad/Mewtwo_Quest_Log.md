@@ -106,6 +106,10 @@
   7. Descend Northwest Ladder (1, 3) to 1F Northwest at (1, 3).
   8. Take the adjacent stairs down to B1F!
 
+- **Updated Verification (Turn 135110)**:
+  - We have successfully surfed from Water Ramp 2 at (11, 13) to Water Ramp 4 at (15, 3) and dismounted on foot! We are now ready to execute Step 2 of our Master Path: Surf from Water Ramp 4 at (15, 3) to Water Ramp 1 at (23, 3).
+  - Note: The previous disproven 2F crossover paths have been fully retracted and archived. This 1F surfing path is the mathematically correct, unblocked pathway to Mewtwo!
+
 ## 2F West Column 2 Systematic Passability Re-Testing Protocol (Turn 134523 Plan)
 - **Objective**: Identify if there is a false-positive blockage in Column 2 on 2F West (Map 0_226) that actually connects the Southwest Ladder (3, 11) to the Northwest Ladder (1, 3).
 - **Status**: Completed & Disproven.
