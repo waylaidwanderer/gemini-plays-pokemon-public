@@ -1,15 +1,18 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: Surfing at (15, 4) on Map 0_228 (1F) on Turn 135788.
+- Current Status: Surfing at (8, 7) on Map 0_228 (1F) on Turn 135804.
 
 ## Active Routing Strategy
-- **Horizontal Surfing Route (ACTIVE TEST)**: We are currently testing if the central water canal (Columns 8-11) is connected to the western water canal (Columns 1-2) via Rows 4 and/or 5. If Column 6 is open on either Row 4 or Row 5, we can surf directly to (1, 4) and dismount at the B1F stairs at (1, 3)!
-- **Backup Ground Floor Backtracking Route**: If the horizontal surfing route is 100% blocked, we will fall back to:
-  1. From (17, 15) (stairs), step Down to the ground floor at (17, 16).
-  2. Walk along the unblocked southern ground floor corridor of Row 17 to (1, 14).
-  3. Walk Up to (1, 13) and ascend the wooden staircase to the southwest plateau at (1, 12).
-  4. From (1, 12), walk to the Southwest Ladder at (3, 11) and ascend to 2F West.
-  5. On 2F West, navigate to Northwest Ladder at (1, 3) (or find the appropriate path). Descending Northwest Ladder on 2F West lands us on 1F Northwest on foot, which allows us to walk to the B1F stairs at (1, 3).
+- **Backup Ground Floor Backtracking Route**: Since we have empirically verified on water that Column 7 on Row 7 is a solid rock wall blockage, and Columns 6 and 7 across Rows 4-7 are completely blocked by solid rock walls of TYPE_2889 on 1F, we have definitive proof that the eastern/central and western water canals are 100% separated on 1F. Thus, our active pathing plan must proceed along the verified ground-floor backtracking route to 2F West and Northwest Ladder (1, 3):
+  1. Surf back to (11, 13) (Water Ramp 2).
+  2. Dismount Surf onto (11, 13) on foot.
+  3. Walk to (17, 15) and descend the stairs to the ground floor at (17, 16).
+  4. Walk along the unblocked southern ground floor corridor of Row 17 to (1, 14).
+  5. Walk Up to (1, 13) and ascend the wooden staircase to the southwest plateau at (1, 12).
+  6. From (1, 12), walk to the Southwest Ladder at (3, 11) and ascend to 2F West.
+  7. On 2F West, navigate to Northwest Ladder at (1, 3) via the unblocked 12-step path: Up, Up, Right, Up, Up, Up, Up, Up, Up, Left, Left, Left.
+  8. Descend Northwest Ladder at (1, 3) to land on 1F Northwest.
+  9. Walk on foot along the northern boundary Row 0 to (1, 3) (B1F stairs) and descend to Mewtwo!
 
 ## Disproven Theories Archive
 - **Direct 1F Horizontal Surfing Route (Disproven Turns 135121-135471)**:
