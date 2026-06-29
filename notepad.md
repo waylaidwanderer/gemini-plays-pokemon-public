@@ -8225,6 +8225,18 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Quest Started: Turn 111394
 - Current Status: At (1, 8) on foot on Map 0_228 (1F).
 
+## The Definitive Unblocked Master Route to Mewtwo (Discovered Turn 134676):
+The entire Cerulean Cave is topologically connected to the Northwest stairs to B1F via a newly discovered horizontal bypass on 2F West/East (Rows 0 and 1)! The master route is completely on foot and bypasses all water separation and split plateaus:
+1. From (1, 8) on foot on 1F Southwest, walk to Southwest Ladder 6 at (3, 11).
+   - Path on foot: Down, Down, Down, Right, Right (5 steps).
+2. Climb Southwest Ladder 6 at (3, 11) to warp up to 2F West at (3, 11).
+3. Walk across 2F from (3, 11) to Ladder 5 at (9, 1) using the verified 54-step on-foot path:
+   - `['Down', 'Down', 'Down', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Up', 'Right', 'Right', 'Right', 'Right', 'Right', 'Up', 'Right', 'Right', 'Right', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Up', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left']`
+   - This bypasses the solid wall at (19, 1) by dropping down to Row 2, then looping through 2F East and traversing across Row 0 to reach (9, 1)!
+4. Descend Ladder 5 at (9, 1) to land on 1F Northwest at (7, 1).
+5. Walk on foot on 1F Northwest from (7, 1) directly to the B1F stairs at (1, 3).
+6. Take the stairs down to B1F and navigate to Mewtwo!
+
 ## Verified Topological Proof of B1F Access:
 - **Direct 2F West Loop (Disproven on Turn 133794)**: We verified that 2F West is 100% split and impassable on foot at (2, 3) due to a solid rock wall, so ascending via Southwest Ladder 6 does not connect to the Northwest Ladder on 2F West.
 
