@@ -8223,7 +8223,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: At (0, 14) on foot on Map 0_228 (1F).
+- Current Status: At (11, 13) on foot on Map 0_228 (1F).
 
 ## Active Hypothesis & Testing: Direct Western Canal Surf Boarding
 - **Observation**: Column 0 is a continuous ground-level water canal on Rows 4-13 on Map 0_228 (1F).
