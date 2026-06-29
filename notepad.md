@@ -8223,13 +8223,19 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: At (11, 13) on foot on Map 0_228 (1F).
+- Current Status: At (17, 15) on foot on Map 0_228 (1F), standing on central stairs.
 
-## Verified Master Route to B1F Mewtwo
-- **Unblocked 1F Surfing Route**: We can surf directly from Water Ramp 2 at (11, 13) to (1, 4) on water through the continuous horizontal canal on Rows 4 and 5, then dismount UP directly onto the B1F stairs at (1, 3)! This has been programmatically and physically verified.
-- **Path**: `['SURF', 'Down', 'Left', 'Left', 'Up' x 10, 'Left' x 8, 'Dismount Up']`
+## Active Routing Strategy
+- **Ground Floor Backtracking Route**: Since direct horizontal surfing on Rows 4 and 5 is blocked by solid rock walls at Column 6 and 13, and the eastern and western canals are 100% separated, we must use the multi-map path to B1F:
+  1. From (17, 15) (stairs), step Down to the ground floor at (17, 16).
+  2. Walk along the unblocked southern ground floor corridor of Row 17 to (1, 14).
+  3. Walk Up to (1, 13) and ascend the wooden staircase to the southwest plateau at (1, 12).
+  4. From (1, 12), walk to the Southwest Ladder at (3, 11) and ascend to 2F West.
+  5. On 2F West, navigate to Northwest Ladder at (1, 3) (or find the appropriate path). Wait, descending Northwest Ladder on 2F West lands us on 1F Northwest on foot, which allows us to walk to the B1F stairs at (1, 3).
 
 ## Disproven Theories Archive
+- **Direct 1F Horizontal Surfing Route (Disproven Turns 135121-135471)**:
+  - Direct water surfing from Water Ramp 2 at (11, 13) to (1, 4) is blocked. Column 7 on Rows 6-7 is blocked by solid rock walls, and Column 6 is blocked across Rows 4-7.
 - **Direct Western Canal Surf Boarding (Disproven Turns 135380 and 135400)**:
   - Attempting to Surf facing Left from (1, 14) towards (0, 14) or facing Up from (0, 14) towards (0, 13) failed, proving that Column 0 is blocked on Row 13 and there is no direct Surf-Left boarding option at ground level.
 - **Southwest Platform (z=1) Surfing to (1, 7) (Disproven Turn 135244)**:
