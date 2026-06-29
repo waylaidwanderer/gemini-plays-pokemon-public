@@ -9587,3 +9587,25 @@ We can formulate 5 custom tool/agent ideas to optimize the endgame and Mewtwo se
 7. **Error Analysis & Hypothesis Review:** Proved Column 6 is solid rock, meaning we must use the multi-map route: 1F Central -> Water Ramp 4 -> Ladder 5 -> 2F West -> Northwest Ladder -> 1F Northwest -> B1F!
 
 <hr>
+
+<h1><code>Scratchpad/Row0_NorthernCorridor_Test</code></h1>
+
+# Row 0 Northern Corridor Passability Experiment
+- **Objective**: Empirically verify the passability of each tile on Row 0 from (9,0) to (1,0) on Map 0_226 (2F West) on foot.
+- **Hypothesis**: Row 0 is completely passable on foot, despite visual rendering overlay designations, connecting (9,1) directly to Northwest Ladder (1,3).
+- **Experimental Protocol**:
+  - Start at (9, 0) on Turn 135671.
+  - Step Left to (8, 0).
+  - Step Left to (7, 0).
+  - Step Left to (6, 0).
+  - Step Left to (5, 0).
+  - Step Left to (4, 0).
+  - Step Left to (3, 0).
+  - Step Left to (2, 0).
+  - Step Left to (1, 0).
+  - Record the result (Success / Collision) of each step in this table with turn numbers.
+
+## Experimental Log
+- **Turn 135669**: Stepped Up from (9, 1) onto (9, 0). Result: SUCCESS. Player is standing at (9, 0) on foot.
+
+<hr>
