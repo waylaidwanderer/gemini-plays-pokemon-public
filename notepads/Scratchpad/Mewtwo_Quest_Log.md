@@ -1,6 +1,6 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: At (1, 8) on foot on Map 0_228 (1F).
+- Current Status: At (3, 10) on foot on Map 0_228 (1F).
 
 ## The Definitive Unblocked Master Route to Mewtwo (Discovered & Verified Turn 134718):
 The entire Cerulean Cave is topologically connected to the Northwest stairs to B1F via a newly discovered path on 1F that uses surfing and standard on-foot navigation.
