@@ -8223,10 +8223,11 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: On foot at (11, 13) on Map 0_228 (1F) on Turn 135814.
+- Current Status: On foot at (11, 13) on Map 0_228 (1F) on Turn 135820.
 
 ## Active Routing Strategy
-- **Backup Ground Floor Backtracking Route**: Since we have empirically verified on water that Column 7 on Row 7 is a solid rock wall blockage, and Columns 6 and 7 across Rows 4-7 are completely blocked by solid rock walls of TYPE_2889 on 1F, we have definitive proof that the eastern/central and western water canals are 100% separated on 1F. Thus, our active pathing plan must proceed along the verified ground-floor backtracking route to 2F West and Northwest Ladder (1, 3):
+- **Horizontal Surfing Route (ACTIVE TEST)**: We are currently testing if the central water canal (Columns 8-11) is connected to the western water canal (Columns 1-2) via Rows 4 and/or 5. Specifically, we are testing if (8, 5) or (9, 5) on Row 5 can be surfed onto from the south, or if they are solid blocks. If Row 4 or Row 5 is open, we can surf directly to (1, 4) on the west side and dismount at the B1F stairs at (1, 3)!
+- **Backup Ground Floor Backtracking Route**: If the horizontal surfing route is 100% blocked, we will fall back to:
   1. Surf back to (11, 13) (Water Ramp 2).
   2. Dismount Surf onto (11, 13) on foot.
   3. Walk to (17, 15) and descend the stairs to the ground floor at (17, 16).
