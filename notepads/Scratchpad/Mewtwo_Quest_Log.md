@@ -131,3 +131,4 @@
 
 ## 2F West Direct Path Retraction (Turn 134974):
 - **Retraction Proof**: The 64-step direct path between (3, 11) and (1, 3) on Map 0_226 is completely disproven. This path was a hallucination caused by using an incomplete database of solid blocks that omitted major walls such as (17, 3), (21, 3), and (23, 3) on 2F. When the complete set of blockages is verified, 2F is indeed completely split, and the southwest pocket has 0% same-floor connection to the northwest. The master backtracking route via 1F is mathematically mandatory. All notes suggesting a direct 2F West path are hereby formally retracted.
+Turn 135231: Resumed route execution. Escaped a wild Dodrio at (3, 16) on foot, Map 0_228. Next we need to continue walking to the western canal boarding point at (1, 8) to Surf north.
