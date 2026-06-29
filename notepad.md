@@ -8223,7 +8223,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: At (0, 14) on foot on Map 0_228 (1F Southwest) after fleeing wild Venomoth.
+- Current Status: At (13, 12) on foot on Map 0_228 (1F Southwest) in battle with wild Golbat.
 
 ## Active Progress & Discoveries:
 - **Empirical Proof of Water Separation (Verified Turn 131004)**:
