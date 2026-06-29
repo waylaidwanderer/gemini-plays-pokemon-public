@@ -9261,6 +9261,14 @@ Total: 10 steps. No grass or solid obstacles. Flee wild water encounters immedia
 - Turn 120438: Verified that Component 1 and Component 3 of 2F West are disconnected on foot because of solid walls at Row 6 and Column 13 Row 7, meaning the "Direct On-Foot Bypass Route" in our previous notes was a hallucination. There is no on-foot crossover on 2F West. We are backtracking to (9, 1) to descend to 1F.
 - Backtracking Path to Ladder 5 (9, 1): Obsolete and disproven.
 
+## 1F Column 3 Passability Testing Plan (Resolved Turn 134416)
+- **Objective**: Physically verify on foot if Column 3 on Map 0_228 (1F) is completely open from Row 11 to Row 6, and if (3, 7) contains any hidden rock walls.
+- **Hypothesis**: Column 3 is fully passable from (3, 11) to (3, 6) on foot, allowing us to Surf from (3, 6) Up/Left to the northwest quadrant to reach the B1F stairs.
+- **Testing Results (Turn 134413-134416)**:
+  - Turn 134413: Stood on foot at (3, 11) on Map 0_228. Walked Up 3 steps to (3, 8) on foot.
+  - Turn 134416: Standing on foot at (3, 8) facing Up, pressed Up against (3, 7) (labeled TYPE_2889). Result: BUMP (visited 0 tiles).
+- **Conclusion**: (3, 7) on 1F is a solid rock wall blockage. This disproves the Column 3 on-foot bypass hypothesis, proving that the southwest platform of 1F is 100% isolated on foot from the northern landmass!
+
 <hr>
 
 <h1><code>Reflection/Turn126284_Reflection</code></h1>
