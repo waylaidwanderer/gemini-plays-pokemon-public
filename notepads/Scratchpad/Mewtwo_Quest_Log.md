@@ -121,3 +121,9 @@
 ## Empirical Verification Log (Live Tracking)
 - **Turn 134518**: Stood on foot at (5, 0) on Map 0_228 (1F Northwest) facing Left and pressed Left to test (4, 0) (labeled TYPE_2889). Result: BUMP (visited 0 tiles). This physically and mathematically proves that (4, 0) is a solid rock wall blockage and is completely impassable. This definitively disproves the 1F Northwest on-foot shortcut hypothesis.
 - **Turn 134841**: Re-verified that the path on foot from (1, 12) to the Central Platform at (11, 13) is open. We will execute the next path segment of 7 steps: Down, Down, Down, Down, Right, Down, Right to reach (3, 17) on the Row 17 ground level.
+
+## 2F West Direct Path Breakthrough (Turn 134968 Verification):
+- **Objective**: Navigate from Southwest Ladder at (3, 11) to Northwest Ladder at (1, 3) on Map 0_226 (2F West).
+- **Hypothesis**: The two halves of 2F West are connected via an eastern detour corridor.
+- **Proof of Work**: Programmatic BFS on Turn 134965 successfully found a fully unblocked 64-step path on Map 0_226 from (3, 11) to (1, 3) with other ladders treated as impassable. This definitively disproves the long-held assumption that 2F West is 100% split. The two components are fully connected!
+- **Path**: ['Right', 'Down', 'Down', 'Down', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Up', 'Up', 'Up', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Up', 'Up', 'Up', 'Right', 'Up', 'Up', 'Up', 'Up', 'Up', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Down', 'Down', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Down', 'Left', 'Left', 'Up', 'Left', 'Left', 'Left', 'Left', 'Left', 'Up', 'Left', 'Up']
