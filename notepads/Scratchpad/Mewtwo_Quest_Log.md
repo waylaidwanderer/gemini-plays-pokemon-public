@@ -1,6 +1,6 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: On foot at (9, 1) on Map 0_226 (2F West) on Turn 135731.
+- Current Status: On foot at (15, 3) on Map 0_228 (1F Northwest) on Turn 135752.
 
 ## Active Routing Strategy
 - **Ground Floor Backtracking Route**: Since direct horizontal surfing on Rows 4 and 5 is blocked by solid rock walls at Column 6 and 13, and the eastern and western canals are 100% separated, we must use the multi-map path to B1F:
