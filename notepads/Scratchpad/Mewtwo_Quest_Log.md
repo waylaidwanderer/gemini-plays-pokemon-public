@@ -120,3 +120,4 @@
 
 ## Empirical Verification Log (Live Tracking)
 - **Turn 134518**: Stood on foot at (5, 0) on Map 0_228 (1F Northwest) facing Left and pressed Left to test (4, 0) (labeled TYPE_2889). Result: BUMP (visited 0 tiles). This physically and mathematically proves that (4, 0) is a solid rock wall blockage and is completely impassable. This definitively disproves the 1F Northwest on-foot shortcut hypothesis.
+- **Turn 134841**: Re-verified that the path on foot from (1, 12) to the Central Platform at (11, 13) is open. We will execute the next path segment of 7 steps: Down, Down, Down, Down, Right, Down, Right to reach (3, 17) on the Row 17 ground level.
