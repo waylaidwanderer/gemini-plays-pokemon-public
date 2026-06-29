@@ -32,3 +32,7 @@
   3. Face Left and attempt to step Left onto (2, 2). Record result.
   4. Walk Down to (3, 3).
   5. Face Left and attempt to step Left onto (2, 3). Record result.
+- **Experimental Results**:
+  - **Turn 135759**: Standing on foot at (3, 2) facing Left, pressed Left. Result: BUMP (visited 0 tiles). Conclusively proves (2, 2) is a solid rock wall of TYPE_2889 and is impassable on foot.
+  - **Turn 135764**: Standing on foot at (3, 3) facing Left, pressed Left. Result: BUMP (visited 0 tiles). Conclusively proves (2, 3) is a solid rock wall of TYPE_2889 and is impassable on foot.
+- **Experimental Conclusion**: Both (2, 2) and (2, 3) are completely solid rock walls. This physically disproves the hypothesis that a passable doorway exists across Column 2 on Rows 1-3. Column 2 is 100% solid on Rows 1-3, confirming that the northern area of 2F West is indeed completely isolated on foot from the Northwest Ladder. The multi-map backtrack route is the ONLY valid path to reach Mewtwo.
