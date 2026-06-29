@@ -8223,7 +8223,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: Standing at (11, 14) surfing on Map 0_228 (1F).
+- Current Status: Standing at (15, 3) on foot on Map 0_228 (1F).
 
 ## Active Progress & Discoveries:
 - **Empirical Proof of Water Separation (Verified Turn 131004)**:
