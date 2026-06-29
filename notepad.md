@@ -8332,23 +8332,17 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 ## 2F West Column 2 Systematic Passability Re-Testing Protocol (Turn 134523 Plan)
 - **Objective**: Identify if there is a false-positive blockage in Column 2 on 2F West (Map 0_226) that actually connects the Southwest Ladder (3, 11) to the Northwest Ladder (1, 3).
-- **Testing Parameters & Methods**:
-  1. **Test 1: Column 2 Row 1 (2, 1)**:
-     - *Path*: Climb Ladder 5 from 1F (7, 1) to 2F West (9, 1). Walk Left to (3, 1). Face Left and press Left to test (2, 1).
-     - *Expected result if open*: Walk onto (2, 1) and proceed to (1, 3) via Row 1 and Column 1/2.
-     - *Expected result if blocked*: BUMP against (2, 1).
-  2. **Test 2: Column 2 Row 5 (2, 5)**:
-     - *Path*: Go to 1F Southwest, climb Southwest Ladder 6 at (3, 11) to 2F West (3, 11). Walk Up to (3, 5). Face Left and press Left to test (2, 5).
-     - *Expected result if open*: Walk onto (2, 5) -> (1, 5) -> walk Up Column 1 to (1, 3) (Northwest Ladder).
-     - *Expected result if blocked*: BUMP against (2, 5).
-  3. **Test 3: Column 2 Row 6 (2, 6)**:
-     - *Path*: Stand at 2F West (3, 6). Face Left and press Left to test (2, 6).
-     - *Expected result if open*: Walk onto (2, 6) -> (1, 6) -> walk Up Column 1 to (1, 3).
-     - *Expected result if blocked*: BUMP against (2, 6).
-  4. **Test 4: Column 2 Row 7 (2, 7)**:
-     - *Path*: Stand at 2F West (3, 7). Face Left and press Left to test (2, 7).
-     - *Expected result if open*: Walk onto (2, 7) -> (1, 7) -> walk Up Column 1 to (1, 3).
-     - *Expected result if blocked*: BUMP against (2, 7).
+- **Status**: Completed & Disproven.
+  - Test 1 (2, 1) was physically verified as blocked (solid rock wall) on Turn 134531.
+  - Tests 2, 3, and 4 (2, 5), (2, 6), (2, 7) are impossible to reach on foot from (3, 11) because Row 8 is a solid rock wall across all columns, completely isolating the southwest pocket.
+  - Therefore, the 2F West loop is 100% blocked.
+
+## 1F Western Water Canal Continuity Test (Turn 134629 Plan)
+- **Objective**: Board the western water canal on 1F (Map 0_228) and test if the water is vertically continuous, allowing us to Surf north past Row 7 to reach the northwestern B1F stairs.
+- **Methodology**:
+  1. Stand on foot at (1, 11) facing Up.
+  2. Select SURF on GEMMY (BLASTOISE) to board (1, 10).
+  3. Surf Up to Row 7 and test if we can cross past the land ledge barrier to the north in SURF mode.
 
 ## Empirical Verification Log (Live Tracking)
 - **Turn 134518**: Stood on foot at (5, 0) on Map 0_228 (1F Northwest) facing Left and pressed Left to test (4, 0) (labeled TYPE_2889). Result: BUMP (visited 0 tiles). This physically and mathematically proves that (4, 0) is a solid rock wall blockage and is completely impassable. This definitively disproves the 1F Northwest on-foot shortcut hypothesis.
