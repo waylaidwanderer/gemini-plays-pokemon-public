@@ -8223,14 +8223,16 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: Surfing on the central water canal at (11, 14) on Map 0_228 (1F).
+- Current Status: At (3, 11) on foot on Map 0_226 (2F West).
 
-## The Definitive Unblocked Master Route to Mewtwo (Corrected)
-- **Topological Reality**: We have redefined 'cave_bfs_solver' to include the open horizontal water channels on Rows 4 and 5 from Column 1 to Column 13 on Map 0_228 (1F). This proves there is a direct, continuous surfing connection between the central water canal and the western water canal.
-- **Direct Surfing Route**:
-  1. Surf directly from our current position (11, 14) to (1, 4) on water.
-  2. Dismount directly Up from (1, 4) onto the dry land staircase at (1, 3) (which is the B1F stairs).
-  3. Walk Down or take the stairs at (1, 3) to descend to B1F!
+## Active Hypothesis & Testing: Direct Western Canal Surf Boarding
+- **Observation**: Column 0 is a continuous ground-level water canal on Rows 4-13 on Map 0_228 (1F).
+- **Hypothesis**: Standing at (1, 14) on the ground floor, facing Left (West) towards (0, 14), and activating SURF will allow us to board the ground-level water canal at Column 0 and surf north to (1, 4).
+- **Action Plan**:
+  1. Step Down on (3, 11) to descend to 1F Southwest (Map 0_228).
+  2. Walk Down to (3, 12), Left to (1, 12), Down to (1, 13), Down to (1, 14).
+  3. Stand at (1, 14), face Left, and activate SURF.
+  4. If successful, surf north along Column 0 to (1, 4) and dismount onto the dry land staircase at (1, 3) to enter B1F!
 
 ## Disproven Theories Archive
 - **Southwest Platform (z=1) Surfing to (1, 7) (Disproven Turn 135244)**:
