@@ -1,6 +1,6 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: On foot at (9, 1) on Map 0_226 (2F West) on Turn 135661.
+- Current Status: On foot at (9, 1) on Map 0_226 (2F West) on Turn 135731.
 
 ## Active Routing Strategy
 - **Ground Floor Backtracking Route**: Since direct horizontal surfing on Rows 4 and 5 is blocked by solid rock walls at Column 6 and 13, and the eastern and western canals are 100% separated, we must use the multi-map path to B1F:
@@ -23,14 +23,3 @@
 ## B1F (Basement) Capture Plan
 - The stairs down to B1F are located at (1, 3).
 - Once on B1F, we will use our specialized custom agent 'mewtwo_combat_strategist' to plan the final battle and execute our guaranteed 100% Master Ball capture on Mewtwo!
-
-## Column 0 Surfing Test & Socratic Challenge 2 (Rigorously Verified Turns 135569-135572)
-- **Hypothesis**: Can we stand at (0, 14) facing Down and Surf Down onto (0, 15), then surf north along Column 0 to bypass all blockages?
-- **Methodology**:
-  1. Turn 135569: Walked Left onto (0, 14) on foot. Found that (0, 14) is standard walkable land (TYPE_3fe2).
-  2. Turn 135571: Attempted to face Down by pressing 'Down'. Since Gen 1 has no turn-in-place mechanic and (0, 15) is passable, this action resulted in stepping Down onto (0, 15) on foot. This proves that (0, 15) is ALSO walkable dry land (TYPE_3fe2) and NOT a water tile!
-  3. Turn 135572: Standing on foot at (0, 15) facing Down towards (0, 16) (which is a solid rock wall of TYPE_2889). We will now open the menu and attempt to activate SURF to verify if any water exists in this column or if the action is rejected.
-- **Results**:
-  - We successfully walked onto (0, 15) on foot, proving it is land.
-  - Since (0, 15) is land and (0, 16) is solid rock, Column 0 does not contain water at Rows 14-15, and Row 16 is blocked. Thus, Column 0 surfing is impossible.
-  - Let's execute the SURF action on Turn 135573 to gather the final confirmation.
