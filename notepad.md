@@ -8223,7 +8223,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: At (14, 12) on foot on Map 0_228 (1F).
+- Current Status: At (3, 11) on foot on Map 0_226 (2F West).
 
 ## Verified Topological Proof of B1F Access:
 - **Direct 2F West Loop (Disproven on Turn 133794)**: We verified that 2F West is 100% split and impassable on foot at (2, 3) due to a solid rock wall, so ascending via Southwest Ladder 6 does not connect to the Northwest Ladder on 2F West.
