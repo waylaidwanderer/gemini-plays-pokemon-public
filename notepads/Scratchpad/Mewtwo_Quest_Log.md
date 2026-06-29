@@ -53,3 +53,18 @@
   - **Turn 135832**: Standing at (8, 6) on water, faced Up and pressed Up. Result: BUMP (visited 0 tiles). Conclusively proves (8, 5) is a solid rock wall of TYPE_2889 and is impassable on water.
   - **Turn 135835**: Standing at (9, 6) on water, faced Up and pressed Up. Result: BUMP (visited 0 tiles). Conclusively proves (9, 5) is a solid rock wall of TYPE_2889 and is impassable on water.
 - **Experimental Conclusion**: Both (8, 5) and (9, 5) are completely solid rock walls of TYPE_2889. Since Column 10 and 11 on Row 5 are also solid land/rock blockages, there is absolutely no vertical way to cross Row 5 in the central canal on water. Thus, we cannot reach Row 4 on water from the central canal. This definitively disproves the 1F horizontal water canal shortcut hypothesis. The eastern/central canals are 100% separated from the western canal on all water rows on 1F, making the multi-map backtracking route the ONLY topologically connected path to Mewtwo.
+
+## 🌟 MASTER PLAN BREAKTHROUGH: THE SERPENTINE BYPASS TO MEWTWO
+- **Proven Fact**: 1F Northwest is horizontally split on foot by solid walls on Column 4 on Rows 0-3. 1F Southeast is split from Northwest on water by solid walls on Column 6/7 on Rows 4-7. 2F West is horizontally split on foot by solid walls on Row 8 and Row 4.
+- **The Serpentine Solution**:
+  1. From our current position (8, 6) surfing on 1F, surf back to (11, 13) (Water Ramp 2).
+  2. Dismount onto (11, 13) on foot.
+  3. Walk on foot along the ground floor corridor to (1, 13) (wooden stairs) and climb onto the southwest platform at (1, 12).
+  4. Walk to Southwest Ladder 6 at (3, 11) and ascend to 2F West (3, 11).
+  5. On 2F, walk the 64-step serpentine on-foot path around the entire floor to reach the North-central Ladder at (9, 1) on 2F West.
+  6. Descend the ladder at (9, 1) to land on 1F Northwest at (7, 1) on foot!
+  7. Walk Down to (7, 3) (adjacent to water).
+  8. Face Down and use SURF to enter the western water canal at (7, 4).
+  9. Surf Left along Row 4 water to Column 1 at (1, 4).
+  10. Dismount Up onto the land at (1, 3) (the B1F stairs)!
+  11. Descend to B1F to capture Mewtwo!
