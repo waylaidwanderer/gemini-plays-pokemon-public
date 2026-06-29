@@ -9634,3 +9634,46 @@ We can formulate 5 custom tool/agent ideas to optimize the endgame and Mewtwo se
 - We confirmed the exact layout of the water canal on our screen.
 
 <hr>
+
+<h1><code>Reflection/Turn134720_Reflection</code></h1>
+
+# Turn 134720 Reflection & Self-Assessment
+
+## 1. Immediate Execution
+- **Current Position**: Standing on foot at (3, 11) on Map 0_226 (2F West), facing Up.
+- **Immediate Action**: Take one step Up to (3, 10) to step off the ladder, then take one step Down to (3, 11) to warp back down to Map 0_228 (1F Southwest).
+- **Execution Strategy**: Once on 1F Southwest at (3, 11), we will walk along the unblocked 1F master route:
+  - From (3, 11) on foot, walk Up to (3, 8), Right to (4, 8), Up 2 steps to (4, 6), Right to (7, 6).
+  - Board Surf onto the central canal at (8, 6).
+  - Surf across the central canal to (15, 3) (Water Ramp 4) on 1F Northwest.
+  - Dismount Surf onto (15, 3) on foot.
+  - Walk on foot along the northern boundary Row 0 to (1, 3) (B1F stairs).
+  - Take the stairs down to B1F to reach Mewtwo!
+
+## 2. Notepad Hygiene
+- Documented and saved the fully corrected, unblocked 1F surfing/walking route in `Scratchpad/Mewtwo_Quest_Log`.
+- Verified that all other proposed paths (such as the 2F West direct bypass or direct 1F surfing route) are completely disproven and archived.
+
+## 3. Map Hygiene
+- Verified that our Map Markers list is accurate. The Southwest Ladder is at (3, 11) and the B1F Access stairs are at (1, 3). The database is clean and ready.
+
+## 4. Custom Tools
+- Five potential custom tools / agents for the next segment:
+  1. `b1f_bfs_pathfinder` (Tool): To compute paths on B1F and output the exact button sequence.
+  2. `mewtwo_combat_strategist` (Agent): To safely manage Blastoise's moves, Pikachu's paralysis support, and executing our guaranteed 100% Master Ball capture on Mewtwo.
+  3. `wild_battle_escape_automator` (Tool): Automated escape script for Cerulean Cave wild encounters.
+  4. `mewtwo_item_validator` (Agent): Verify our item inventory is ready for battle (checking Master Ball, Ultra Ball, and recovery items).
+  5. `b1f_terrain_mapper` (Tool): Script to parse our walkable coordinates on the unmapped B1F.
+
+## 5. Tool Maintenance
+- Solved the BFS pathfinder bugs by removing target coordinates from the solid list and treating other ladders as passable warps. This led to discovering the unblocked path on 1F!
+
+## 6. Goal Clarity
+- **Primary Goal**: Catch Mewtwo on B1F of Cerulean Cave (WHAT).
+- **Secondary Goal**: Descend back to 1F via Southwest Ladder 6 to execute the 1F master route (WHAT).
+- **How**: Detailed routing and movement instructions are stored in `Scratchpad/Mewtwo_Quest_Log`.
+
+## 7. Error Analysis & Hypothesis Review
+- Proved Koga's southwest pocket is 100% isolated on foot on 2F West, and that Row 7 has a solid rock wall border on 1F. Rather than repeating failed attempts, we pivoted to a global BFS search and found the correct multi-map route. This is optimal play!
+
+<hr>
