@@ -8249,17 +8249,17 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Results**: Tested and verified solid. Koga's southwest pocket is indeed a closed, isolated pocket on foot.
 
 ## Verified Master Route to Mewtwo (B1F)
-- **Concept**: Since 1F Southwest has no water access and 2F West southwest pocket is isolated, we must utilize the center and northern water canals of 1F.
+- **Concept**: Since 2F West is vertically split on foot, we must access the Northwest landmass containing the B1F stairs by surfing on the western water canal of 1F. We can board the western water canal on foot by walking along Column 0 on 1F Southwest to reach the ground-level land at (1, 9), and then Surfing directly onto Column 2.
 - **Path Steps**:
-  1. Walk to Southwest Ladder at (3, 11) on 1F Southwest.
-  2. Walk to the wooden stairs at (1, 13) and descend to the ground floor.
-  3. Walk across the southern unblocked ground corridor to reach the central platform stairs at (17, 15).
-  4. Walk to Water Ramp 2 at (11, 13).
-  5. Board the water canal using Surf from (11, 13).
-  6. Surf north and dismount onto the northern landmass at Water Ramp 4 at (15, 3).
-  7. Walk Left along the northern landmass of 1F Northwest to reach Ladder 5 at (7, 1).
-  8. Ascend Ladder 5 to reach 2F West at (9, 1).
-  9. Walk Left on 2F West along Row 1 to Column 3 (3, 1) and test Column 2's passability to reach the Northwest Ladder (1, 3) which connects directly to the B1F stairs.
+  1. Walk to the Southwest Ladder at (3, 11) on 2F West.
+  2. Descend the ladder to 1F Southwest at (3, 11).
+  3. Walk to the wooden staircase at (1, 13) and descend to the ground level.
+  4. Walk Left to Column 0 at (0, 13).
+  5. Walk Up Column 0 to Row 9 at (0, 9).
+  6. Walk Right to (1, 9).
+  7. Face Right and select SURF from GEMMY's menu to board the western water canal at (2, 9).
+  8. Surf Up the western water canal to Row 4 or 5, then Left to (1, 3) or (1, 4).
+  9. Dismount onto (1, 3) to access the B1F stairs and catch Mewtwo!
 
 <hr>
 
