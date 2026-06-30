@@ -8336,6 +8336,11 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - **(11, 15) Blockage**: Physically verified on Turn 128180 as solid rock wall of TYPE_2889.
   - **(6, 0) Blockage**: Physically verified on Turn 128645 as solid rock wall of TYPE_2889.
   - **(6, 8) Blockage**: Physically verified on Turn 136515 as solid rock wall of TYPE_2889.
+  - **(7, 8) Blockage**: Physically verified on Turn 136502 as solid rock wall of TYPE_2889.
+  - **(8, 8) Blockage**: Physically verified on Turn 136497 as solid rock wall of TYPE_2889.
+  - **(9, 8) Blockage**: Physically verified on Turn 136491 as solid rock wall of TYPE_2889.
+  - **(10, 8) Blockage**: Physically verified on Turn 136485 as solid rock wall of TYPE_2889.
+  - **(11, 8) Blockage**: Physically verified on Turn 136479 as solid rock wall of TYPE_2889.
   - **(10, 6) Blockage**: Physically verified on Turn 128677 as solid rock wall of TYPE_2889.
   - **(3, 8) Blockage**: Physically verified on Turn 129254 as solid rock wall of TYPE_2889.
   - **(3, 4) Blockage**: Physically verified on Turn 129355 as solid rock wall of TYPE_2889.
