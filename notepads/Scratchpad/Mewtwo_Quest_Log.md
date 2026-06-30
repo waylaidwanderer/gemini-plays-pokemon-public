@@ -24,13 +24,12 @@
 - The stairs down to B1F are located at (1, 3).
 - Once on B1F, we will use our specialized custom agent 'mewtwo_combat_strategist' to plan the final battle and execute our guaranteed 100% Master Ball capture on Mewtwo!
 
-## Active Strategic Plan
-- **Active Path to Mewtwo (Updated Turn 136501)**:
-  - We verified that (1, 10) and (12, 8) are solid rock walls on 2F West. We are systematically testing all remaining Row 8 columns (11, 10, 9, 8, 7, 6, 5, 4, 3) to find the unblocked corridor.
-  1. Systematic audit of Row 8 from Column 12 down to 3.
-  2. Once the open corridor is found, walk Up through it to Row 7, walk Left along Row 7 to Column 1, and walk Up to Northwest Ladder at (1, 3).
-  3. Descend Northwest Ladder at (1, 3) to land on 1F Northwest at (1, 3), and take the adjacent stairs directly to B1F to capture Mewtwo!
-## 2F West (0_226) Boundary Audit (Completed Turn 136411)
-- (8, 5) is verified as a solid rock wall of TYPE_2889.
-- (13, 7) is verified as a solid rock wall of TYPE_2889.
-- (1, 10) is verified as a solid rock wall of TYPE_2889 (verified Turn 136417).
+## Active Socratic Test: 1F Southwest SURF Boarding Experiment
+- **Objective**: Verify if the player can initiate SURF from the 1F Southwest elevated platform (Z=1) directly onto the adjacent western water canal (Z=0).
+- **Hypothesis**: The Gen 1 overworld SURF script does not check for height mismatch during initiation, allowing the player to board the water canal and bypass the isolated blockages.
+- **Protocol**:
+  1. Surf to Water Ramp 2 at (11, 13) and land.
+  2. Walk on foot to (3, 11) on the elevated platform.
+  3. Stand facing Left towards the western water canal.
+  4. Select SURF from the POKéMON menu.
+  5. Record result (SUCCESS or BUMP).
