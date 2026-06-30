@@ -5,8 +5,8 @@
 - **Objective**: Empirically verify the passability of each key tile on the alternate path through Column 14/15 on Map 0_226 (2F West) on foot.
 - **Hypothesis**: The path (13, 9) -> (13, 8) -> (14, 8) -> (14, 7) -> (14, 6) -> (14, 5) -> (14, 4) -> (13, 4) -> (12, 4) -> (11, 4) -> (10, 4) -> (9, 4) -> (8, 4) -> (7, 4) -> (7, 5) -> (6, 5) -> (5, 5) -> (4, 5) -> (3, 5) -> (2, 5) -> (2, 4) -> (1, 4) -> (1, 3) is completely unblocked and passable, allowing us to bypass Koga's vertical split and reach the Northwest Ladder.
 - **Testing Log**:
-  - **Tile (14, 8)**: [Pending]
-  - **Tile (14, 7)**: [Pending]
+  - **Tile (14, 8)**: Passable (Stood on it on Turn 137344)
+  - **Tile (14, 7)**: Impassable (Bumped on Turn 137353; verified as TYPE_2889 solid rock wall)
   - **Tile (14, 6)**: [Pending]
   - **Tile (14, 5)**: [Pending]
   - **Tile (14, 4)**: [Pending]
