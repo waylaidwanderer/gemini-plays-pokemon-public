@@ -72,6 +72,7 @@
 - **Verified Blockages on 2F (Map 0_226)**:
   - **(11, 15) Blockage**: Physically verified on Turn 128180 as solid rock wall of TYPE_2889.
   - **(6, 0) Blockage**: Physically verified on Turn 128645 as solid rock wall of TYPE_2889.
+  - **(6, 8) Blockage**: Physically verified on Turn 136515 as solid rock wall of TYPE_2889.
   - **(10, 6) Blockage**: Physically verified on Turn 128677 as solid rock wall of TYPE_2889.
   - **(3, 8) Blockage**: Physically verified on Turn 129254 as solid rock wall of TYPE_2889.
   - **(3, 4) Blockage**: Physically verified on Turn 129355 as solid rock wall of TYPE_2889.
