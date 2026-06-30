@@ -22,11 +22,8 @@
 
 ## Active Socratic Test: 2F West (2, 10) Passability Audit
 - **Objective**: Empirically verify the passability of (1, 10) and (2, 9) on Map 0_226 (2F West) on foot.
-- **Hypothesis**: Either (1, 10) or (2, 9) on 2F West is NOT a solid blockage. Since 1F has no water access in this southwest pocket, and 2F West has been reported as vertically split on foot, one of our recorded 'verified blockages' must be a false positive. Testing both coordinates on foot will satisfy the Burden of Proof and reveal the true, connected path to the Northwest Ladder (1, 3).
-- **Results**:
-  - Tested (2, 9) on Turn 136869: Pressed UP from (2, 10) facing UP. Result: BUMP, confirming (2, 9) is a solid rock wall of TYPE_2889 and is impassable on foot.
-  - Tested (1, 10) on Turn 136871: Pressed LEFT from (2, 10) facing LEFT. Result: BUMP, confirming (1, 10) is a solid rock wall of TYPE_2889 and is impassable on foot.
-- **Conclusion**: Both blockages at (2, 9) and (1, 10) on 2F West are 100% solid and impassable on foot. This proves that Koga's southwest pocket is indeed a closed, isolated pocket on foot, and no direct walkthrough path exists to (1, 3) from the southwest. We must explore the eastern side of 2F West to find the connection.
+- **Hypothesis**: Either (1, 10) or (2, 9) on 2F West is NOT a solid blockage.
+- **Results**: Tested and verified solid. Koga's southwest pocket is indeed a closed, isolated pocket on foot.
 
 ## Verified Master Route to Mewtwo (B1F)
 - **Concept**: Since 1F Southwest has no water access and 2F West southwest pocket is isolated, we must utilize the center and northern water canals of 1F.
