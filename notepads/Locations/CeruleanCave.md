@@ -118,3 +118,5 @@
 - **(12, 8) Rock Wall Blockage [Map 0_226, 2F West] (Verified Turn 136446)**: Standing on foot at (12, 9) facing UP, pressed Up. Result: BUMP (visited 0 tiles). This physically and conclusively proves that (12, 8) is a solid, impassable rock wall of TYPE_2889. Row 8 is blocked across Column 12 as well.
   - **(2, 1) Blockage (Verified Turn 136948)**: Standing on foot at (3, 1) on Map 0_226 (2F West) facing Left, pressed Left. Result: BUMP (visited 0 tiles). This physically and conclusively proves that (2, 1) is a solid, impassable rock wall of TYPE_2889.
 - **(3, 0) Blockage [Map 0_226, 2F West] (Verified Turn 136971)**: Standing on foot at (4, 0) facing Left, pressed Left. Result: BUMP, confirming (3, 0) is a solid rock wall of TYPE_2889.
+  - **(14, 7) Blockage**: Labeled TYPE_3fe2 but physically verified on Turn 137353 as solid rock wall of TYPE_2889.
+  - **(15, 7) Blockage**: Labeled TYPE_3fe2 but physically verified on Turn 137374 as solid rock wall of TYPE_2889.
