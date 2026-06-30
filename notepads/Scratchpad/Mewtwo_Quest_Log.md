@@ -24,6 +24,9 @@
   - Attempting to stand at (1, 8) or (2, 8) and Surf north onto (1, 7) is blocked by a height-mismatch collision (z=1 to z=0) in the Gen 1 engine.
 - **2F West Direct Path Loop (Disproven)**:
   - 2F West is 100% split on foot due to solid rock walls at Row 8, Row 6/7, Row 2, Row 0 (blocked at (6,0)), and Column 10 (blocked at (10,1)), meaning the southwest pocket and the northern pocket have 0% same-floor connection to the northwest. Backtracking to 1F is mandatory.
+- **2F East (29, 1) Pocket Passability (Disproven Turn 136026)**:
+  - **Objective**: Verify if Row 0 at (27, 0) on Map 0_226 is passable on foot.
+  - **Experimental Results**: On Turn 136025, starting from (29, 1), we walked Left to (28, 1), Up to (28, 0), and pressed Left against (27, 0). Result: BUMP (visited 0 tiles). This conclusively disproves the passability of (27, 0), proving 2F East (29, 1) is a 100% closed, dead-end pocket on foot.
 
 ## B1F (Basement) Capture Plan
 - The stairs down to B1F are located at (1, 3).
