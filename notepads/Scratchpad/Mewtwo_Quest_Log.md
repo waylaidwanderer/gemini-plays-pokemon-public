@@ -1,6 +1,6 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: Surfing at (11, 7) on Map 0_228 (1F) on Turn 136714.
+- Current Status: Standing on foot at (15, 17) on Map 0_228 (1F Southwest) on Turn 136744 facing Left.
 
 ## Active Routing Strategy
 - **Path to B1F Mewtwo via 1F Southwest SURF boarding**:
