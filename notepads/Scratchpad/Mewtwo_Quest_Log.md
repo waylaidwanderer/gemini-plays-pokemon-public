@@ -1,18 +1,27 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Current Status: Standing on foot at (8, 1) on Map 0_228 (1F Northwest) on Turn 137244 facing Left.
 
+## Verified Master Route to Mewtwo (B1F)
+- **Concept**: Since the 2F West landing pocket at (9, 1)/(7, 1) is 100% isolated because (7, 1) is a warp and Row 0 is blocked at (6, 0), we must use Southwest Ladder 6 at (3, 11) to reach 2F West, and then take the alternate path through Column 14/15 to reach Northwest Ladder (1, 3) to descend to B1F.
+- **Path Steps**:
+  1. Walk East from (8, 1) to Water Ramp 4 at (15, 3).
+  2. Use SURF to board the water canal and surf south to Water Ramp 2 at (11, 13).
+  3. Dismount onto the central platform and descend the central staircase at (17, 15) to (17, 16) on the ground floor.
+  4. Walk west along Row 17 to (1, 13) and climb the wooden stairs onto the southwest plateau.
+  5. Walk to Southwest Ladder 6 at (3, 11) and climb up to 2F West at (3, 11).
+  6. On 2F West, navigate the alternate path around the blockages:
+     - (3, 11) -> (3, 9) -> (13, 9) -> (13, 8) -> (14, 8) -> (14, 7) -> (14, 6) -> (14, 5) -> (14, 4) -> (13, 4) -> (12, 4) -> (11, 4) -> (10, 4) -> (9, 4) -> (8, 4) -> (7, 4) -> (7, 5) -> (6, 5) -> (5, 5) -> (4, 5) -> (3, 5) -> (2, 5) -> (2, 4) -> (1, 4) -> (1, 3).
+  7. Take Northwest Ladder at (1, 3) DOWN to 1F Northwest.
+  8. Take the adjacent stairs down to B1F to capture Mewtwo!
+
 ## Row 5 Column 8 (8, 5) Passability Test Protocol
 - **Start Turn**: 137156
 - **Start Position**: (9, 1) on Map 0_226 (2F West) on foot
 - **Path to Test Position (9, 5)**: ['Left', 'Left', 'Left', 'Left', 'Left', 'Down', 'Down', 'Right', 'Right', 'Right', 'Right', 'Right', 'Down', 'Down']
 - **Test Sequence**: From (9, 5), face Left and press 'Left' to step onto (8, 5).
-- **Empirical Results**: [Pending]
-- **Turn Executed**: [Pending]
-- **Conclusive Result**: [Pending]
-
-## Active Routing Strategy
-- Currently executing: Verified Master Route to Mewtwo (B1F).
-- Currently on Step 7: Walk Left along the northern landmass of 1F Northwest to reach Ladder 5 at (7, 1).
+- **Empirical Results**: [Disproven] - Stepping onto (7, 1) on 2F West immediately warps the player back down to 1F, making this on-foot test protocol from (9, 1) physically impossible to execute.
+- **Turn Executed**: 137216
+- **Conclusive Result**: Disproven. Row 1 Column 7 is a warp.
 
 ## Disproven Theories Archive
 - **Direct 1F Horizontal Surfing Route (Disproven Turns 135121-135471)**:
