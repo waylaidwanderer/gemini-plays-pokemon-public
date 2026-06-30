@@ -1,6 +1,6 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: Surfing at (9, 10) on Map 0_228 (1F central water canal) on Turn 137117 facing Down.
+- Current Status: Surfing at (9, 10) on Map 0_228 (1F central water canal) on Turn 137120 facing Up.
 
 ## Active Routing Strategy
 - Currently executing: Verified Master Route to Mewtwo (B1F).
