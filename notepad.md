@@ -8237,15 +8237,6 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   7. Take Northwest Ladder at (1, 3) DOWN to 1F Northwest.
   8. Take the adjacent stairs down to B1F to capture Mewtwo!
 
-## Row 5 Column 8 (8, 5) Passability Test Protocol
-- **Start Turn**: 137156
-- **Start Position**: (9, 1) on Map 0_226 (2F West) on foot
-- **Path to Test Position (9, 5)**: ['Left', 'Left', 'Left', 'Left', 'Left', 'Down', 'Down', 'Right', 'Right', 'Right', 'Right', 'Right', 'Down', 'Down']
-- **Test Sequence**: From (9, 5), face Left and press 'Left' to step onto (8, 5).
-- **Empirical Results**: [Disproven] - Stepping onto (7, 1) on 2F West immediately warps the player back down to 1F, making this on-foot test protocol from (9, 1) physically impossible to execute.
-- **Turn Executed**: 137216
-- **Conclusive Result**: Disproven. Row 1 Column 7 is a warp.
-
 ## Disproven Theories Archive
 - **Direct 1F Horizontal Surfing Route (Disproven Turns 135121-135471)**:
   - Direct water surfing from Water Ramp 2 at (11, 13) to (1, 4) is blocked. Column 7 on Rows 6-7 is blocked by solid rock walls, and Column 6 is blocked across Rows 4-7.
