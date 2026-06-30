@@ -32,3 +32,5 @@
   3. Stand at (1, 8) facing Up towards the water at (1, 7) (as Column 0 is solid rock on Rows 11-12, but Row 7 is open water).
   4. Select SURF from the POKéMON menu.
   5. Record result (SUCCESS or BUMP).
+- **Results**: Tested on Turn 136783. Selecting SURF from (1, 8) facing Up resulted in failure. The game did not allow boarding the water canal from the elevated ledge.
+- **Conclusion**: DISPROVEN. Gen 1's overworld SURF script enforces height constraints, preventing the player from boarding a lower-elevation water canal from an elevated ledge (Z=1 to Z=0). This proves the southwest elevated platform is a dead end for water access, and we cannot use it to reach the northwestern landmass.
