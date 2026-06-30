@@ -8249,13 +8249,17 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Results**: Tested and verified solid. Koga's southwest pocket is indeed a closed, isolated pocket on foot.
 
 ## Verified Master Route to Mewtwo (B1F)
-- **Concept**: Since 2F West is NOT vertically split (excluding the false-positive 1F water blockage at (8,5)), we must access the Northwest landmass containing the B1F stairs by walking to Southwest Ladder 6 at (3,11), ascending to 2F West, and verifying the passability of (8,5) on foot. Once verified, the unblocked path on 2F West leads directly from (9,1) to (1,3) on 2F West, where we can descend to 1F Northwest and access the B1F stairs.
+- **Concept**: Since 2F West is vertically split, we cannot reach (8, 5) from the southwest ladder at (3, 11). Instead, we must take the multi-map route to land on the northern half of 2F West at (9, 1). From there, we can walk on foot directly to (8, 5) and test its passability.
 - **Path Steps**:
-  1. Walk to the Southwest Ladder at (3, 11) on 1F Southwest on foot.
-  2. Climb the Southwest Ladder to 2F West at (3, 11).
-  3. Walk to (8, 5) on 2F West and physically test its passability on foot to verify it is passable.
-  4. Walk along the unblocked 2F West corridor to Northwest Ladder (1, 3).
-  5. Descend to 1F Northwest and access the B1F stairs to catch Mewtwo!
+  1. Take Southwest Ladder 6 at (3, 11) on 2F West DOWN to 1F Southwest.
+  2. Walk down the wooden stairs at (1, 13) to the ground floor.
+  3. Walk across the southern ground floor to the central staircase at (17, 15) and ascend to the central platform.
+  4. Walk to Water Ramp 2 at (11, 13) and use SURF to board the central water canal.
+  5. Surf north up the central canal and dismount onto Water Ramp 4 at (15, 3).
+  6. Walk Left on the northern landmass of 1F Northwest to reach Ladder 5 at (7, 1).
+  7. Climb Ladder 5 UP to 2F West at (9, 1).
+  8. From (9, 1) on 2F West, walk on foot to (8, 5) and physically test if we can walk onto it.
+  9. If passable, continue walking Left to Northwest Ladder (1, 3), descend to 1F Northwest, and enter B1F!
 
 <hr>
 
