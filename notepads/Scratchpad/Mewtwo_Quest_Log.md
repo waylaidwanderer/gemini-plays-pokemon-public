@@ -47,8 +47,9 @@
      - **Protocol**: Stood on foot at (9, 5) and pressed Left to try to step onto (8, 5).
      - **Result**: BUMP (visited 0 tiles).
      - **Conclusion**: (8, 5) on 2F West is indeed a solid rock wall of TYPE_2889 and is impassable. This blockage is NOT the false positive.
-  2. **(13, 7) Blockage Test (Pending)**:
+  2. **(13, 7) Blockage Test (Verified Turn 136318)**:
      - **Protocol**: Walk from (9, 5) Right 4 steps to (13, 5), Down 1 step to (13, 6). Stand at (13, 6) facing Down, and press Down to attempt to walk onto (13, 7).
-     - **Result**: Pending.
+     - **Result**: BUMP (visited 0 tiles).
+     - **Conclusion**: (13, 7) on 2F West is physically verified as a solid, impassable rock wall of TYPE_2889. This blockage is indeed real, and there is no on-foot crossover at this column.
 - **Why we must perform this systematic checking**:
   - In vanilla Pokemon Red/Blue, the Northeast ladder at (29, 1) and the Northwest ladder at (1, 3) must be connected on foot. By testing the boundary tiles systematically, we are guaranteed to find the true unblocked corridor that was misidentified in our previous database!
