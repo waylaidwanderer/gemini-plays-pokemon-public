@@ -8223,18 +8223,18 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: Standing on foot at (8, 9) on Map 0_226 (2F West) on Turn 136497 facing Left.
+- Current Status: Standing on foot at (8, 9) on Map 0_226 (2F West) on Turn 136501 facing UP.
 
 ## Active Routing Strategy
 - **Path to Northwest Ladder (1, 3)**:
   - We verified (1, 10) and (12, 8) are solid rock walls, so those direct routes are blocked.
-  - Active Plan: Systematically test other columns along Row 8 on 2F West to find the true unblocked corridor to Row 7 and Column 1. We will walk Left to (11, 9) next to test (11, 8).
+  - Active Plan: Systematically test other columns along Row 8 on 2F West to find the true unblocked corridor to Row 7 and Column 1.
   - Test Log for Row 8 Blockages:
     - (12, 8): Verified solid rock wall on Turn 136446 (bumped).
     - (11, 8): Verified solid rock wall on Turn 136481 (bumped).
     - (10, 8): Verified solid rock wall on Turn 136486 (bumped).
     - (9, 8): Verified solid rock wall on Turn 136491 (bumped).
-    - (8, 8): Untested. Standing at (8, 9) facing Left. Will face UP and press Up to test.
+    - (8, 8): Standing at (8, 9) facing UP. Will press Up to test. Expecting SUCCESS or BUMP.
 ## Disproven Theories Archive
 - **Direct 1F Horizontal Surfing Route (Disproven Turns 135121-135471)**:
   - Direct water surfing from Water Ramp 2 at (11, 13) to (1, 4) is blocked. Column 7 on Rows 6-7 is blocked by solid rock walls, and Column 6 is blocked across Rows 4-7.
@@ -8255,15 +8255,15 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Once on B1F, we will use our specialized custom agent 'mewtwo_combat_strategist' to plan the final battle and execute our guaranteed 100% Master Ball capture on Mewtwo!
 
 ## Active Strategic Plan
-- **Active Path to Mewtwo (Updated Turn 136445)**:
-  - We verified that (1, 10) on 2F West is a solid rock wall, so the 10-step direct path is blocked. Our current active plan is:
-  1. Walk from (3, 11) to Column 12 Row 9 (12, 9). [Done!]
-  2. Test passability of (12, 8). If passable, walk Up through (12, 8) to Row 7, walk Left along Row 7 to Column 1, and walk Up to Northwest Ladder at (1, 3).
+- **Active Path to Mewtwo (Updated Turn 136501)**:
+  - We verified that (1, 10) and (12, 8) are solid rock walls on 2F West. We are systematically testing all remaining Row 8 columns (11, 10, 9, 8, 7, 6, 5, 4, 3) to find the unblocked corridor.
+  1. Systematic audit of Row 8 from Column 12 down to 3.
+  2. Once the open corridor is found, walk Up through it to Row 7, walk Left along Row 7 to Column 1, and walk Up to Northwest Ladder at (1, 3).
   3. Descend Northwest Ladder at (1, 3) to land on 1F Northwest at (1, 3), and take the adjacent stairs directly to B1F to capture Mewtwo!
 ## 2F West (0_226) Boundary Audit (Completed Turn 136411)
 - (8, 5) is verified as a solid rock wall of TYPE_2889.
 - (13, 7) is verified as a solid rock wall of TYPE_2889.
-- (1, 10) is verified as a completely passable corridor.
+- (1, 10) is verified as a solid rock wall of TYPE_2889 (verified Turn 136417).
 
 <hr>
 
