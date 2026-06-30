@@ -41,8 +41,3 @@
   - **Experimental Results**: On Turn 136025, starting from (29, 1), we walked Left to (28, 1), Up to (28, 0), and pressed Left against (27, 0). Result: BUMP (visited 0 tiles). This conclusively disproves the passability of (27, 0), proving 2F East (29, 1) is a 100% closed, dead-end pocket on foot.
 - **1F Horizontal Surfing Route (Disproven Turn 135945)**:
   - The central water canal (Columns 8-11) does not connect directly to the western water canal (Columns 1-2) via Rows 4 and/or 5. This is 100% blocked by solid rock walls (8, 5) and (9, 5). Systematically verified via physical BUMPs from (8, 6) and (9, 6) facing Up. Row 4 is blocked at Column 13 by (13, 4) solid rock. Row 5 is blocked at Column 13 by (13, 5) solid rock. Thus, the eastern/central water canals are completely separated from the western water canal on all rows of 1F.
-
-## Active Socratic Test: 2F West (2, 10) Passability Audit
-- **Objective**: Empirically verify the passability of (1, 10) and (2, 9) on Map 0_226 (2F West) on foot.
-- **Hypothesis**: Either (1, 10) or (2, 9) on 2F West is NOT a solid blockage.
-- **Results**: Tested and verified solid. Koga's southwest pocket is indeed a closed, isolated pocket on foot.
