@@ -9692,3 +9692,19 @@ We can formulate 5 custom tool/agent ideas to optimize the endgame and Mewtwo se
 - Reconciled logical contradictions by acknowledging that Column 0 on 2F is impassable and 2F West is vertically split. We are currently performing the definitive physical test on (13, 5) on water to resolve the cave's true topology once and for all.
 
 <hr>
+
+<h1><code>Scratchpad/Socratic_Water_Canal_Test</code></h1>
+
+# Socratic Water Canal Column 13 Passability Test Log
+- **Objective**: Empirically verify if Column 13 Row 4 and Column 13 Row 5 on Map 0_228 (1F) are passable on water, challenging the previous blockages logged on Turns 131919 and 131928.
+- **Hypothesis**: In vanilla Pokémon Red/Blue, the water canal on 1F is a single continuous pathway. Therefore, either (13, 4) or (13, 5) (or both) must be open water rather than solid rock walls.
+- **Testing Protocol**:
+  1. From our current surfing position at (11, 14), navigate the open water to (14, 5).
+  2. At (14, 5), face Left (West) and attempt to Surf Left onto (13, 5). Record the turn and result.
+  3. If (13, 5) is passable, follow the western canal to (1, 3) to reach B1F.
+  4. If (13, 5) is blocked, walk to (14, 4), face Left (West), and attempt to Surf Left onto (13, 4). Record the turn and result.
+- **Status**: Active testing started on Turn 137424.
+- **Logs**:
+  - Turn 137424: Boarded water at Water Ramp 2 and standing at (11, 14) surfing. Path to (14, 5) verified as open water.
+
+<hr>
