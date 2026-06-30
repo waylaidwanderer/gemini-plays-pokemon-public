@@ -8222,7 +8222,19 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (15, 3) on Map 0_228 (1F Northwest) on Turn 137250 facing Down.
+- Current Status: Standing on foot at (8, 9) on Map 0_226 (2F West) on Turn 137283 facing Right.
+
+## Alternate Route Column 14/15 Passability Testing Protocol
+- **Objective**: Empirically verify the passability of each key tile on the alternate path through Column 14/15 on Map 0_226 (2F West) on foot.
+- **Hypothesis**: The path (13, 9) -> (13, 8) -> (14, 8) -> (14, 7) -> (14, 6) -> (14, 5) -> (14, 4) -> (13, 4) -> (12, 4) -> (11, 4) -> (10, 4) -> (9, 4) -> (8, 4) -> (7, 4) -> (7, 5) -> (6, 5) -> (5, 5) -> (4, 5) -> (3, 5) -> (2, 5) -> (2, 4) -> (1, 4) -> (1, 3) is completely unblocked and passable, allowing us to bypass Koga's vertical split and reach the Northwest Ladder.
+- **Testing Log**:
+  - **Tile (14, 8)**: [Pending]
+  - **Tile (14, 7)**: [Pending]
+  - **Tile (14, 6)**: [Pending]
+  - **Tile (14, 5)**: [Pending]
+  - **Tile (14, 4)**: [Pending]
+  - **Tile (13, 4)**: [Pending]
+  - **Tile (12, 4)**: [Pending]
 
 ## Verified Master Route to Mewtwo (B1F)
 - **Concept**: Since the 2F West landing pocket at (9, 1)/(7, 1) is 100% isolated because (7, 1) is a warp and Row 0 is blocked at (6, 0), we must use Southwest Ladder 6 at (3, 11) to reach 2F West, and then take the alternate path through Column 14/15 to reach Northwest Ladder (1, 3) to descend to B1F.
