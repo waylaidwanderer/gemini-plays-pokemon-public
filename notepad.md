@@ -8224,7 +8224,16 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
 - Quest Started: Turn 111394
-- Current Status: Standing at (15, 3) on Map 0_228 (1F on Water Ramp 4) on Turn 137151 facing Up.
+- Current Status: Standing at (9, 1) on Map 0_226 (2F West) on Turn 137156 facing Down.
+
+## Row 5 Column 8 (8, 5) Passability Test Protocol
+- **Start Turn**: 137156
+- **Start Position**: (9, 1) on Map 0_226 (2F West) on foot
+- **Path to Test Position (9, 5)**: ['Left', 'Left', 'Left', 'Left', 'Left', 'Down', 'Down', 'Right', 'Right', 'Right', 'Right', 'Right', 'Down', 'Down']
+- **Test Sequence**: From (9, 5), face Left and press 'Left' to step onto (8, 5).
+- **Empirical Results**: [Pending]
+- **Turn Executed**: [Pending]
+- **Conclusive Result**: [Pending]
 
 ## Active Routing Strategy
 - Currently executing: Verified Master Route to Mewtwo (B1F).
