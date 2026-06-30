@@ -8273,6 +8273,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 ## Active Strategic Plan
 - **Status**: Verified that (13, 5) on 1F water is blocked, and Column 4 ledge on 1F Northwest is impassable on foot from East to West. We are now ascending to 2F West via Ladder 5 at (7, 1) to test (8, 5) on foot to resolve the 2F same-floor connectivity.
 - **Hypothesis**: The (8, 5) blockage on 2F West is a false positive from a Pokemon Mansion copy-paste error. If (8, 5) is open, we can walk from the northern area (9, 1) directly to the Northwest Ladder (1, 3) to reach B1F!
+- **Turn 136222 Test (2F West (8, 5) Blockage)**: Standing at (9, 5) on foot, pressed Left. Result: BUMP (visited 0 tiles). Conclusively proves (8, 5) on 2F West is indeed a solid, impassable rock wall of TYPE_2889 on foot.
 
 <hr>
 
