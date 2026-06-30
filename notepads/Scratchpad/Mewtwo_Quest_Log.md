@@ -1,22 +1,11 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: Standing on foot at (3, 9) on Map 0_226 (2F West) on Turn 136539 facing Up.
+- Current Status: Standing on foot at (1, 14) on Map 0_228 (1F Southwest) on Turn 136567 facing Down.
 
 ## Active Routing Strategy
 - **Path to B1F Mewtwo via 1F Southwest**:
   - We have verified that 2F West is 100% split vertically on foot due to the continuous rock wall on Row 8.
-  - Active Plan: Descend the Southwest Ladder at (3, 11) to return to 1F Southwest. Once on 1F Southwest, we will investigate the ground-level water boundaries to find where we can board SURF and reach the Northwest quadrant (1, 3) leading to B1F.
-  - Test Log for Row 8 Blockages:
-    - (12, 8): Verified solid rock wall on Turn 136446 (bumped).
-    - (11, 8): Verified solid rock wall on Turn 136481 (bumped).
-    - (10, 8): Verified solid rock wall on Turn 136486 (bumped).
-    - (9, 8): Verified solid rock wall on Turn 136491 (bumped).
-    - (8, 8): Verified solid rock wall on Turn 136501 (bumped).
-    - (7, 8): Verified solid rock wall on Turn 136506 (bumped).
-    - (6, 8): Verified solid rock wall on Turn 136515 (bumped).
-    - (5, 8): Verified solid rock wall on Turn 136519 (bumped).
-    - (4, 8): Verified solid rock wall on Turn 136524 (bumped).
-    - (3, 8): Verified solid rock wall on Turn 136529 (bumped).
+  - Active Plan: We are standing on the ground floor at (1, 14) on Map 0_228 (1F Southwest). We will walk east to Water Ramp 2 at (11, 13) using the unblocked ground path: (1, 14) -> Down to (1, 15) -> Right to (2, 15) -> Right to (3, 15) -> Down to (3, 16) -> Down to (3, 17) -> Right along Row 17 to (11, 17) -> Up to (11, 13). Once at (11, 13), we will board Surf and ride north to Water Ramp 4 at (15, 3), climb Ladder 5 at (7, 1) to 2F West, and walk directly to the B1F stairs.
 ## Disproven Theories Archive
 - **Direct 1F Horizontal Surfing Route (Disproven Turns 135121-135471)**:
   - Direct water surfing from Water Ramp 2 at (11, 13) to (1, 4) is blocked. Column 7 on Rows 6-7 is blocked by solid rock walls, and Column 6 is blocked across Rows 4-7.
