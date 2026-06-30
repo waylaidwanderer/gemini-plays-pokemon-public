@@ -1,6 +1,6 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: On foot at (11, 13) on Map 0_228 (1F Southwest) on Turn 135991.
+- Current Status: On foot at (29, 1) on Map 0_226 (2F East) on Turn 136022.
 
 ## Active Routing Strategy
 - **Horizontal Surfing Route (ACTIVE TEST)**: We are currently testing if the central water canal (Columns 8-11) is connected to the western water canal (Columns 1-2) via Rows 4 and/or 5. Specifically, we are testing if we can surf directly from the central canal through Column 7 and Column 6 on Rows 4 and 5 to the western canal (and dismount onto (1, 3) land). Socratic Challenge: We will enter the water from Water Ramp 2 at (11, 13), and systematically test the vertical and horizontal passability of Rows 4 and 5 on Columns 6, 7, 8, 9 on water. If Row 4 or Row 5 is open, we can surf directly to (1, 4) on the west side and dismount at the B1F stairs at (1, 3)!
