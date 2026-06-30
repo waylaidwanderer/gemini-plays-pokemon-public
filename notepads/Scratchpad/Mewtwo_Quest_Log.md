@@ -1,5 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (7, 0) on Map 0_226 (2F West) on Turn 137203 facing Left.
+- Current Status: Standing on foot at (8, 1) on Map 0_228 (1F Northwest) on Turn 137244 facing Left.
 
 ## Row 5 Column 8 (8, 5) Passability Test Protocol
 - **Start Turn**: 137156
