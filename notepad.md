@@ -8223,7 +8223,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: Standing on foot at (6, 9) on Map 0_226 (2F West) on Turn 136513 facing UP.
+- Current Status: Standing on foot at (5, 9) on Map 0_226 (2F West) on Turn 136517 facing Left.
 
 ## Active Routing Strategy
 - **Path to Northwest Ladder (1, 3)**:
@@ -8236,7 +8236,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
     - (9, 8): Verified solid rock wall on Turn 136491 (bumped).
     - (8, 8): Verified solid rock wall on Turn 136501 (bumped).
     - (7, 8): Verified solid rock wall on Turn 136506 (bumped).
-    - (6, 8): Standing at (6, 9) facing UP. Will press Up to test. Expecting SUCCESS or BUMP.
+    - (6, 8): Verified solid rock wall on Turn 136515 (bumped).
+    - (5, 8): Untested. Standing at (6, 9) facing UP. Will move Left to (5, 9) and press Up to test.
 ## Disproven Theories Archive
 - **Direct 1F Horizontal Surfing Route (Disproven Turns 135121-135471)**:
   - Direct water surfing from Water Ramp 2 at (11, 13) to (1, 4) is blocked. Column 7 on Rows 6-7 is blocked by solid rock walls, and Column 6 is blocked across Rows 4-7.
