@@ -9200,6 +9200,32 @@ Total: 10 steps. No grass or solid obstacles. Flee wild water encounters immedia
   - Turn 134413: Stood on foot at (3, 11) on Map 0_228. Walked Up 3 steps to (3, 8) on foot.
   - Turn 134416: Standing on foot at (3, 8) facing Up, pressed Up against (3, 7) (labeled TYPE_2889). Result: BUMP (visited 0 tiles).
 - **Conclusion**: (3, 7) on 1F is a solid rock wall blockage. This disproves the Column 3 on-foot bypass hypothesis, proving that the southwest platform of 1F is 100% isolated on foot from the northern landmass!
+## 2F West (0_226) (2, 2) and (2, 3) Doorway / Wall Passability Experiment (Turn 135754)
+- **Objective**: Empirically verify if (2, 2) or (2, 3) are open doorways on Map 0_226 (2F West) on foot, which would allow direct, unblocked access from Column 3 to Column 1 and the B1F Northwest ladder at (1, 3).
+- **Hypothesis**: Either (2, 2) or (2, 3) is a passable tile (contrary to our hardcoded BFS assumptions).
+- **Experimental Protocol**:
+  1. From our current position (9, 1), walk Left to (3, 1).
+  2. Walk Down to (3, 2).
+  3. Face Left and attempt to step Left onto (2, 2). Record result.
+  4. Walk Down to (3, 3).
+  5. Face Left and attempt to step Left onto (2, 3). Record result.
+- **Experimental Results**:
+  - **Turn 135759**: Standing on foot at (3, 2) facing Left, pressed Left. Result: BUMP (visited 0 tiles). Conclusively proves (2, 2) is a solid rock wall of TYPE_2889 and is impassable on foot.
+  - **Turn 135764**: Standing on foot at (3, 3) facing Left, pressed Left. Result: BUMP (visited 0 tiles). Conclusively proves (2, 3) is a solid rock wall of TYPE_2889 and is impassable on foot.
+- **Experimental Conclusion**: Both (2, 2) and (2, 3) are completely solid rock walls. This physically disproves the hypothesis that a passable doorway exists across Column 2 on Rows 1-3. Column 2 is 100% solid on Rows 1-3, confirming that the northern area of 2F West is indeed completely isolated on foot from the Northwest Ladder.
+
+## 1F (0_228) Column 8 and Column 9 Row 5 Passability Experiment (Turn 135835)
+- **Objective**: Empirically verify if (8, 5) or (9, 5) on Map 0_228 (1F) can be surfed onto from the south, which would allow direct water connection between the central canal and Row 4/5 water leading to the western canal.
+- **Hypothesis**: Either (8, 5) or (9, 5) is open water, contrary to our static BFS collision database.
+- **Experimental Protocol**:
+  1. Surf to (8, 6) in the central canal.
+  2. Face Up and press Up to attempt to surf onto (8, 5). Record result.
+  3. Surf to (9, 6) in the central canal.
+  4. Face Up and press Up to attempt to surf onto (9, 5). Record result.
+- **Experimental Results**:
+  - **Turn 135832**: Standing at (8, 6) on water, faced Up and pressed Up. Result: BUMP (visited 0 tiles). Conclusively proves (8, 5) is a solid rock wall of TYPE_2889 and is impassable on water.
+  - **Turn 135835**: Standing at (9, 6) on water, faced Up and pressed Up. Result: BUMP (visited 0 tiles). Conclusively proves (9, 5) is a solid rock wall of TYPE_2889 and is impassable on water.
+- **Experimental Conclusion**: Both (8, 5) and (9, 5) are completely solid rock walls of TYPE_2889. Since Column 10 and 11 on Row 5 are also solid land/rock blockages, there is absolutely no vertical way to cross Row 5 in the central canal on water. Thus, we cannot reach Row 4 on water from the central canal. This definitively disproves the 1F horizontal water canal shortcut hypothesis. The eastern/central canals are 100% separated from the western canal on all water rows on 1F, making the multi-map backtracking route the ONLY topologically connected path to Mewtwo.
 
 <hr>
 
