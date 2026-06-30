@@ -26,11 +26,10 @@
 - **Results**: Tested and verified solid. Koga's southwest pocket is indeed a closed, isolated pocket on foot.
 
 ## Verified Master Route to Mewtwo (B1F)
-- **Concept**: Since 2F West is vertically split on foot, we must access the Northwest landmass containing the B1F stairs by surfing on the western water canal of 1F. We can reach the western water canal on foot by walking left along the ground floor corridor to the wooden staircase at (1, 13). We climb the staircase to reach the elevated platform at (1, 12), then walk north to (1, 9). From (1, 9), we face Right and select SURF to board the water canal at (2, 9).
+- **Concept**: Since 2F West is NOT vertically split (excluding the false-positive 1F water blockage at (8,5)), we must access the Northwest landmass containing the B1F stairs by walking to Southwest Ladder 6 at (3,11), ascending to 2F West, and verifying the passability of (8,5) on foot. Once verified, the unblocked path on 2F West leads directly from (9,1) to (1,3) on 2F West, where we can descend to 1F Northwest and access the B1F stairs.
 - **Path Steps**:
-  1. Walk to the Southwest Ladder at (3, 11) on 2F West and descend to 1F Southwest (or if starting from 1F, walk directly to the wooden staircase at (1, 13) on the ground floor).
-  2. Walk to (1, 13) and ascend the wooden staircase to (1, 12) on the elevated platform.
-  3. Walk north along Column 1 to (1, 9).
-  4. Face Right (towards the water at (2, 9)) and select SURF from GEMMY's menu to board the western water canal at (2, 9).
-  5. Surf north along the western water canal to Row 4 or 5, then surf Left to (1, 3) or (1, 4).
-  6. Dismount onto (1, 3) to access the B1F stairs and catch Mewtwo!
+  1. Walk to the Southwest Ladder at (3, 11) on 1F Southwest on foot.
+  2. Climb the Southwest Ladder to 2F West at (3, 11).
+  3. Walk to (8, 5) on 2F West and physically test its passability on foot to verify it is passable.
+  4. Walk along the unblocked 2F West corridor to Northwest Ladder (1, 3).
+  5. Descend to 1F Northwest and access the B1F stairs to catch Mewtwo!
