@@ -1,6 +1,6 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: Standing on foot at (17, 14) on Map 0_228 (1F) on Turn 136594 facing Up.
+- Current Status: Standing on foot at (15, 12) on Map 0_228 (1F) on Turn 136600 facing Up.
 
 ## Active Routing Strategy
 - **Path to B1F Mewtwo via 1F Southwest**:
