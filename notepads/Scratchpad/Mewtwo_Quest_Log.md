@@ -50,3 +50,4 @@
 ## Active Strategic Plan
 - **Status**: Currently testing 1F water canal connectivity at (13, 5) to see if we can Surf from the central/eastern canals (via (14, 5)) directly to the western canal (Columns 1-12). If (13, 5) is open, we can Surf to the western canal and dismount at the B1F stairs at (1, 3)! If (13, 5) is blocked, we will evaluate if Column 4 ledge can be jumped from east to west or examine other same-floor options.
 - **Hypothesis**: Either (13, 5) is passable on water, or Column 4 ledge on 1F Northwest is jumpable on foot from (5, 1) or (5, 2) to the west. We must systematically verify both.
+- **Turn 136131 Test (Water Blockage 13, 5)**: Standing on water at (14, 5) facing Left, pressed Left. Result: BUMP (visited 0 tiles). Conclusively proves (13, 5) is indeed a solid rock wall blockage on water of TYPE_2889 and is impassable.
