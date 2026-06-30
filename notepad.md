@@ -8222,7 +8222,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (8, 1) on Map 0_228 (1F Northwest) on Turn 137244 facing Left.
+- Current Status: Standing on foot at (15, 3) on Map 0_228 (1F Northwest) on Turn 137250 facing Down.
 
 ## Verified Master Route to Mewtwo (B1F)
 - **Concept**: Since the 2F West landing pocket at (9, 1)/(7, 1) is 100% isolated because (7, 1) is a warp and Row 0 is blocked at (6, 0), we must use Southwest Ladder 6 at (3, 11) to reach 2F West, and then take the alternate path through Column 14/15 to reach Northwest Ladder (1, 3) to descend to B1F.
