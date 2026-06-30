@@ -29,6 +29,6 @@
 - **Protocol**:
   1. Surf to Water Ramp 2 at (11, 13) and land.
   2. Walk on foot to (3, 11) on the elevated platform.
-  3. Stand facing Left towards the western water canal.
+  3. Stand at (1, 8) facing Up towards the water at (1, 7) (as Column 0 is solid rock on Rows 11-12, but Row 7 is open water).
   4. Select SURF from the POKéMON menu.
   5. Record result (SUCCESS or BUMP).
