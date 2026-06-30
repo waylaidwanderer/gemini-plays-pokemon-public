@@ -8222,7 +8222,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (8, 9) on Map 0_226 (2F West) on Turn 137283 facing Right.
+- Current Status: Standing on foot at (13, 9) on Map 0_226 (2F West) on Turn 137292 facing Left.
 
 ## Alternate Route Column 14/15 Passability Testing Protocol
 - **Objective**: Empirically verify the passability of each key tile on the alternate path through Column 14/15 on Map 0_226 (2F West) on foot.
