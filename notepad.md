@@ -9654,3 +9654,33 @@ We can formulate 5 custom tool/agent ideas to optimize the endgame and Mewtwo se
 - **Conclusion**: Row 0 does NOT form an unblocked passage to the left from here. The northern corridor Component 1 on 2F West is indeed isolated on foot from the western area containing Northwest Ladder (1, 3). Row 0 bypass is disproved.
 
 <hr>
+
+<h1><code>Reflection/Turn136124_Reflection</code></h1>
+
+# Turn 136124 Reflection & Self-Assessment
+
+## 1. Immediate Execution
+- Progress over the last 50 turns: Successfully backtracked from 2F East dead-end at (29, 1), returned to 1F, and walked to (5, 1) on foot to test the Column 4 ledge (confirmed solid/impassable). We have returned to (15, 3) (Water Ramp 4) to test the last remaining potential map connection: the water tile at (13, 5) on Row 5 water.
+
+## 2. Notepad Hygiene
+- Migrated the completed 2F West door experiment and 1F Column 8-9 water experiment to `Archive/CeruleanCave_DisprovenTheories` to maintain a clean scratchpad.
+- Updated `Scratchpad/Mewtwo_Quest_Log` with the active strategic plan and updated our current position/turn status.
+
+## 3. Map Hygiene
+- Screen-accurate map markers are maintained. The solid blockages at (10, 0) and (10, 1) on Map 0_226 (2F West) have been logged in the database, and we've verified that (8, 5) and (9, 5) on 1F are already marked.
+
+## 4. Custom Tools & Specialized Agents
+- We have the custom agent `mewtwo_combat_strategist` ready for B1F.
+- Once on B1F, we can define a dedicated B1F BFS solver if needed.
+
+## 5. Tool Maintenance
+- Successfully redefined `cave_bfs_solver` to restore Column 0 as impassable on both maps and include the verified solid blocks at (10, 0) and (10, 1) on 2F West, resolving any data contamination.
+
+## 6. Goal Clarity
+- **Primary Goal**: Catch Mewtwo on B1F of Cerulean Cave (WHAT).
+- **Secondary Goal**: Test (13, 5) on water to definitively verify 1F water canal connectivity (WHAT).
+
+## 7. Error Analysis & Hypothesis Review
+- Reconciled logical contradictions by acknowledging that Column 0 on 2F is impassable and 2F West is vertically split. We are currently performing the definitive physical test on (13, 5) on water to resolve the cave's true topology once and for all.
+
+<hr>
