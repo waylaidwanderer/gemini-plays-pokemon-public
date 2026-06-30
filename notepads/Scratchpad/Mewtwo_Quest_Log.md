@@ -23,14 +23,12 @@
 - The stairs down to B1F are located at (1, 3).
 - Once on B1F, we will use our specialized custom agent 'mewtwo_combat_strategist' to plan the final battle and execute our guaranteed 100% Master Ball capture on Mewtwo!
 
-## Active Socratic Test: 1F Southwest SURF Boarding Experiment
+## Corrected Socratic Test: 1F Southwest SURF Boarding Experiment
 - **Objective**: Verify if the player can initiate SURF from the 1F Southwest elevated platform (Z=1) directly onto the adjacent western water canal (Z=0).
-- **Hypothesis**: The Gen 1 overworld SURF script does not check for height mismatch during initiation, allowing the player to board the water canal and bypass the isolated blockages.
+- **Hypothesis**: The Gen 1 overworld SURF script does not check for height/Z-level mismatches during initiation, allowing the player to board the water canal and bypass the isolated blockages.
 - **Protocol**:
-  1. Surf to Water Ramp 2 at (11, 13) and land.
-  2. Walk on foot to (3, 11) on the elevated platform.
-  3. Stand at (1, 8) facing Up towards the water at (1, 7) (as Column 0 is solid rock on Rows 11-12, but Row 7 is open water).
-  4. Select SURF from the POKéMON menu.
-  5. Record result (SUCCESS or BUMP).
-- **Results**: Tested on Turn 136783. Selecting SURF from (1, 8) facing Up resulted in failure. The game did not allow boarding the water canal from the elevated ledge.
-- **Conclusion**: DISPROVEN. Gen 1's overworld SURF script enforces height constraints, preventing the player from boarding a lower-elevation water canal from an elevated ledge (Z=1 to Z=0). This proves the southwest elevated platform is a dead end for water access, and we cannot use it to reach the northwestern landmass.
+  1. Stand at (1, 8) on the 1F Southwest elevated platform facing UP towards the water at (1, 7).
+  2. Select SURF from the POKéMON menu.
+  3. Record result.
+- **Historical Context & Previous Flaw**: On Turn 136783, we attempted to Surf while standing at (1, 8). However, because we had just walked Left from (3, 11) via (2, 11) and (1, 11) to (1, 8), our character was facing Left (towards the solid rock wall at (0, 8)) rather than facing Up (towards the water at (1, 7)). This caused the Surf attempt to fail against the wall, which we mistakenly concluded was due to a Z-level height mismatch. In standard Gen 1, overworld Surf has no Z-level height-mismatch check. We must re-verify this by standing at (1, 8) facing UP and executing Surf.
+- **Results**: TBD.
