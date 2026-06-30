@@ -8255,7 +8255,10 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   3. Face Left towards (1, 10) and attempt to step Left. Record result (SUCCESS or BUMP).
   4. Face Up towards (2, 9) and attempt to step Up. Record result (SUCCESS or BUMP).
   5. If either is passable, log the new connected route in our database.
-- **Results**: TBD.
+- **Results**:
+  - Tested (2, 9) on Turn 136869: Pressed UP from (2, 10) facing UP. Result: BUMP, confirming (2, 9) is a solid rock wall of TYPE_2889 and is impassable on foot.
+  - Tested (1, 10) on Turn 136871: Pressed LEFT from (2, 10) facing LEFT. Result: BUMP, confirming (1, 10) is a solid rock wall of TYPE_2889 and is impassable on foot.
+- **Conclusion**: Both blockages at (2, 9) and (1, 10) on 2F West are 100% solid and impassable on foot. This proves that Koga's southwest pocket is indeed a closed, isolated pocket on foot, and no direct walkthrough path exists to (1, 3) from the southwest. We must explore the eastern side of 2F West to find the connection.
 
 <hr>
 
