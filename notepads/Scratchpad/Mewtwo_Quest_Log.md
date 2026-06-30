@@ -3,8 +3,9 @@
 - Current Status: Standing at (11, 13) on Map 0_228 (1F) on Turn 136917 facing Down.
 
 ## Active Routing Strategy
-- **Path to B1F Mewtwo via 1F Southwest SURF boarding**:
-  - Active Plan: Descend from 2F West at (9, 1) via the ladder to 1F at (7, 1). From (7, 1), navigate to (15, 3), SURF down the water canal to Water Ramp 2 at (11, 13), walk to the 1F Southwest elevated platform at (3, 11), stand facing Left, and attempt to SURF directly onto the western water canal. This will test the Socratic hypothesis that Gen 1 overworld SURF has no Z-level height-mismatch check. If successful, we can surf up to the Northwest landmass (1, 3) and descend to B1F to catch Mewtwo!
+- Currently executing: Verified Master Route to Mewtwo (B1F).
+- Currently on Step 5: Board the water canal using Surf from Water Ramp 2 at (11, 13).
+
 ## Disproven Theories Archive
 - **Direct 1F Horizontal Surfing Route (Disproven Turns 135121-135471)**:
   - Direct water surfing from Water Ramp 2 at (11, 13) to (1, 4) is blocked. Column 7 on Rows 6-7 is blocked by solid rock walls, and Column 6 is blocked across Rows 4-7.
