@@ -8256,17 +8256,6 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Hypothesis**: Either (1, 10) or (2, 9) on 2F West is NOT a solid blockage.
 - **Results**: Tested and verified solid. Koga's southwest pocket is indeed a closed, isolated pocket on foot.
 
-- **Path Steps**:
-  1. Take Southwest Ladder 6 at (3, 11) on 2F West DOWN to 1F Southwest.
-  2. Walk down the wooden stairs at (1, 13) to the ground floor.
-  3. Walk across the southern ground floor to the central staircase at (17, 15) and ascend to the central platform.
-  4. Walk to Water Ramp 2 at (11, 13) and use SURF to board the central water canal.
-  5. Surf north up the central canal and dismount onto Water Ramp 4 at (15, 3).
-  6. Walk Left on the northern landmass of 1F Northwest to reach Ladder 5 at (7, 1).
-  7. Climb Ladder 5 UP to 2F West at (9, 1).
-  8. From (9, 1) on 2F West, walk on foot to (8, 5) and physically test if we can walk onto it.
-  9. If passable, continue walking Left to Northwest Ladder (1, 3), descend to 1F Northwest, and enter B1F!
-
 <hr>
 
 <h1><code>Locations/CeruleanCave</code></h1>
