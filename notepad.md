@@ -8223,12 +8223,12 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: Standing on foot at (5, 9) on Map 0_226 (2F West) on Turn 136517 facing Left.
+- Current Status: Standing on foot at (3, 9) on Map 0_226 (2F West) on Turn 136539 facing Up.
 
 ## Active Routing Strategy
-- **Path to Northwest Ladder (1, 3)**:
-  - We verified (1, 10) and (12, 8) are solid rock walls, so those direct routes are blocked.
-  - Active Plan: Systematically test other columns along Row 8 on 2F West to find the true unblocked corridor to Row 7 and Column 1.
+- **Path to B1F Mewtwo via 1F Southwest**:
+  - We have verified that 2F West is 100% split vertically on foot due to the continuous rock wall on Row 8.
+  - Active Plan: Descend the Southwest Ladder at (3, 11) to return to 1F Southwest. Once on 1F Southwest, we will investigate the ground-level water boundaries to find where we can board SURF and reach the Northwest quadrant (1, 3) leading to B1F.
   - Test Log for Row 8 Blockages:
     - (12, 8): Verified solid rock wall on Turn 136446 (bumped).
     - (11, 8): Verified solid rock wall on Turn 136481 (bumped).
@@ -8238,7 +8238,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
     - (7, 8): Verified solid rock wall on Turn 136506 (bumped).
     - (6, 8): Verified solid rock wall on Turn 136515 (bumped).
     - (5, 8): Verified solid rock wall on Turn 136519 (bumped).
-    - (4, 8): Untested. Standing at (5, 9) facing UP. Will move Left to (4, 9) and press Up to test.
+    - (4, 8): Verified solid rock wall on Turn 136524 (bumped).
+    - (3, 8): Verified solid rock wall on Turn 136529 (bumped).
 ## Disproven Theories Archive
 - **Direct 1F Horizontal Surfing Route (Disproven Turns 135121-135471)**:
   - Direct water surfing from Water Ramp 2 at (11, 13) to (1, 4) is blocked. Column 7 on Rows 6-7 is blocked by solid rock walls, and Column 6 is blocked across Rows 4-7.
