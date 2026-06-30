@@ -8223,7 +8223,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: Standing on foot at (5, 17) on Map 0_228 (1F Southwest) on Turn 136753 facing Left.
+- Current Status: Standing on foot at (2, 15) on Map 0_228 (1F Southwest) on Turn 136759.
 
 ## Active Routing Strategy
 - **Path to B1F Mewtwo via 1F Southwest SURF boarding**:
