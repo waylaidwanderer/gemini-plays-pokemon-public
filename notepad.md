@@ -8379,6 +8379,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Column 0 Surfing Test (Disproven Turn 135578)**: Standing at (0, 15) on foot facing Down (towards the solid rock wall at (0, 16)) and attempting to Surf resulted in "No SURFing on GEMMY here!". This is because (0, 14) and (0, 15) are standard walkable land tiles (TYPE_3fe2) on foot, and (0, 16) is a solid rock wall of TYPE_2889. Thus, Column 0 does not contain water at Rows 14-16, and there is no surfing bypass. We also previously verified on Turn 135380 that surfing facing Up from (0, 14) towards (0, 13) fails because (0, 13) is a solid rock wall of TYPE_2889.
 - (4, 2) Rock Wall Blockage [Map 0_226, 2F West]: Visually verified on Turn 136270 as a solid rock wall of TYPE_2889.
 - **(13, 7) Rock Wall Blockage [Map 0_226, 2F West] (Verified Turn 136318)**: Standing on foot at (13, 6) facing Down, pressed Down. Result: BUMP (visited 0 tiles). This physically and conclusively proves that (13, 7) is a solid, impassable rock wall of TYPE_2889. Row 7 continues to split the floor vertically at Column 13 on 2F West.
+  - **(7, 6) Blockage (Verified Turn 136375)**: Stood at (8, 6) on water facing Left, and pressed Left. Result: BUMP (visited 0 tiles), confirming (7, 6) is a solid rock wall of TYPE_2889 on water.
 
 <hr>
 
