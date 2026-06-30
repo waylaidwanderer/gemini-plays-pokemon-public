@@ -8244,19 +8244,6 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 ## B1F (Basement) Capture Plan
 - The stairs down to B1F are located at (1, 3).
 - Once on B1F, we will use our specialized custom agent 'mewtwo_combat_strategist' to plan the final battle and execute our guaranteed 100% Master Ball capture on Mewtwo!
-## 2F West (0_226) (2, 2) and (2, 3) Doorway / Wall Passability Experiment (Turn 135754)
-- **Objective**: Empirically verify if (2, 2) or (2, 3) are open doorways on Map 0_226 (2F West) on foot, which would allow direct, unblocked access from Column 3 to Column 1 and the B1F Northwest ladder at (1, 3).
-- **Hypothesis**: Either (2, 2) or (2, 3) is a passable tile (contrary to our hardcoded BFS assumptions).
-- **Experimental Protocol**:
-  1. From our current position (9, 1), walk Left to (3, 1).
-  2. Walk Down to (3, 2).
-  3. Face Left and attempt to step Left onto (2, 2). Record result.
-  4. Walk Down to (3, 3).
-  5. Face Left and attempt to step Left onto (2, 3). Record result.
-- **Experimental Results**:
-  - **Turn 135759**: Standing on foot at (3, 2) facing Left, pressed Left. Result: BUMP (visited 0 tiles). Conclusively proves (2, 2) is a solid rock wall of TYPE_2889 and is impassable on foot.
-  - **Turn 135764**: Standing on foot at (3, 3) facing Left, pressed Left. Result: BUMP (visited 0 tiles). Conclusively proves (2, 3) is a solid rock wall of TYPE_2889 and is impassable on foot.
-- **Experimental Conclusion**: Both (2, 2) and (2, 3) are completely solid rock walls. This physically disproves the hypothesis that a passable doorway exists across Column 2 on Rows 1-3. Column 2 is 100% solid on Rows 1-3, confirming that the northern area of 2F West is indeed completely isolated on foot from the Northwest Ladder. The multi-map backtrack route is the ONLY valid path to reach Mewtwo.
 
 ## Active Strategic Plan
 - **Status**: Verified that (13, 5) on 1F water is blocked, and Column 4 ledge on 1F Northwest is impassable on foot from East to West. We are now ascending to 2F West via Ladder 5 at (7, 1) to test (8, 5) on foot to resolve the 2F same-floor connectivity.
