@@ -9706,5 +9706,6 @@ We can formulate 5 custom tool/agent ideas to optimize the endgame and Mewtwo se
 - **Status**: Active testing started on Turn 137424.
 - **Logs**:
   - Turn 137424: Boarded water at Water Ramp 2 and standing at (11, 14) surfing. Path to (14, 5) verified as open water.
+- Turn 137432: Standing at (14, 5) on water facing Left, pressed Left. Result: BUMP (no coordinate change). Conclusively proves that (13, 5) is a solid, impassable rock wall of TYPE_2889 on water.
 
 <hr>
