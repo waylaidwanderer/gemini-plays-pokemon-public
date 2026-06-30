@@ -8252,13 +8252,11 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Once on B1F, we will use our specialized custom agent 'mewtwo_combat_strategist' to plan the final battle and execute our guaranteed 100% Master Ball capture on Mewtwo!
 
 ## Active Strategic Plan
-- **Verified Master Path to Mewtwo (Turn 136382)**: We have resolved the logical bottleneck of the cave! The coordinates (1, 10), (1, 11), (2, 12), and (2, 9) on 2F West are COMPLETELY PASSABLE on foot, as they are only boundaries of the western water canal on 1F. Thus, 2F West is NOT split. Our unblocked path is:
-  1. Surf from (8, 6) back to Water Ramp 2 at (11, 13) on 1F and dismount on foot.
-  2. Walk Left along Row 13 to (1, 13) (the southwest wooden stairs).
-  3. Climb to (1, 12) (the elevated southwest plateau) and walk to Southwest Ladder 6 at (3, 11).
-  4. Climb to 2F West at (3, 11).
-  5. Walk Up 2 steps to (3, 9), Left 2 steps to (1, 9) via (2, 9), and Up 6 steps to Northwest Ladder at (1, 3).
-  6. Descend Northwest Ladder at (1, 3) to land on 1F Northwest at (1, 3), and take the adjacent stairs directly to B1F to capture Mewtwo!
+- **Active Path to Mewtwo (Updated Turn 136445)**:
+  - We verified that (1, 10) on 2F West is a solid rock wall, so the 10-step direct path is blocked. Our current active plan is:
+  1. Walk from (3, 11) to Column 12 Row 9 (12, 9). [Done!]
+  2. Test passability of (12, 8). If passable, walk Up through (12, 8) to Row 7, walk Left along Row 7 to Column 1, and walk Up to Northwest Ladder at (1, 3).
+  3. Descend Northwest Ladder at (1, 3) to land on 1F Northwest at (1, 3), and take the adjacent stairs directly to B1F to capture Mewtwo!
 ## 2F West (0_226) Boundary Audit (Completed Turn 136411)
 - (8, 5) is verified as a solid rock wall of TYPE_2889.
 - (13, 7) is verified as a solid rock wall of TYPE_2889.
