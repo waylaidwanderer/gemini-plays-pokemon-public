@@ -23,12 +23,13 @@
 - The stairs down to B1F are located at (1, 3).
 - Once on B1F, we will use our specialized custom agent 'mewtwo_combat_strategist' to plan the final battle and execute our guaranteed 100% Master Ball capture on Mewtwo!
 
-## Corrected Socratic Test: 1F Southwest SURF Boarding Experiment
-- **Objective**: Verify if the player can initiate SURF from the 1F Southwest elevated platform (Z=1) directly onto the adjacent western water canal (Z=0).
-- **Hypothesis**: The Gen 1 overworld SURF script does not check for height/Z-level mismatches during initiation, allowing the player to board the water canal and bypass the isolated blockages.
+## Active Socratic Test: 2F West (2, 10) Passability Audit
+- **Objective**: Empirically verify the passability of (1, 10) and (2, 9) on Map 0_226 (2F West) on foot.
+- **Hypothesis**: Either (1, 10) or (2, 9) on 2F West is NOT a solid blockage. Since 1F has no water access in this southwest pocket, and 2F West has been reported as vertically split on foot, one of our recorded 'verified blockages' must be a false positive. Testing both coordinates on foot will satisfy the Burden of Proof and reveal the true, connected path to the Northwest Ladder (1, 3).
 - **Protocol**:
-  1. Stand at (1, 8) on the 1F Southwest elevated platform facing UP towards the water at (1, 7).
-  2. Select SURF from the POKéMON menu.
-  3. Record result.
-- **Historical Context & Previous Flaw**: On Turn 136783, we attempted to Surf while standing at (1, 8). However, because we had just walked Left from (3, 11) via (2, 11) and (1, 11) to (1, 8), our character was facing Left (towards the solid rock wall at (0, 8)) rather than facing Up (towards the water at (1, 7)). This caused the Surf attempt to fail against the wall, which we mistakenly concluded was due to a Z-level height mismatch. In standard Gen 1, overworld Surf has no Z-level height-mismatch check. We must re-verify this by standing at (1, 8) facing UP and executing Surf.
+  1. Ascend Southwest Ladder 6 at (3, 11) to 2F West.
+  2. Walk on foot to (2, 10).
+  3. Face Left towards (1, 10) and attempt to step Left. Record result (SUCCESS or BUMP).
+  4. Face Up towards (2, 9) and attempt to step Up. Record result (SUCCESS or BUMP).
+  5. If either is passable, log the new connected route in our database.
 - **Results**: TBD.
