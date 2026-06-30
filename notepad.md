@@ -8231,7 +8231,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - Active Plan: Systematically test other columns along Row 8 on 2F West to find the true unblocked corridor to Row 7 and Column 1. We will walk Left to (11, 9) next to test (11, 8).
   - Test Log for Row 8 Blockages:
     - (12, 8): Verified solid rock wall on Turn 136446 (bumped).
-    - (11, 8): Untested. Standing at (12, 9) facing UP. Will move Left to (11, 9) and press Up to test.
+    - (11, 8): Verified solid rock wall on Turn 136481 (bumped).
+    - (10, 8): Untested. Standing at (11, 9) facing UP. Will move Left to (10, 9) and press Up to test.
 ## Disproven Theories Archive
 - **Direct 1F Horizontal Surfing Route (Disproven Turns 135121-135471)**:
   - Direct water surfing from Water Ramp 2 at (11, 13) to (1, 4) is blocked. Column 7 on Rows 6-7 is blocked by solid rock walls, and Column 6 is blocked across Rows 4-7.
