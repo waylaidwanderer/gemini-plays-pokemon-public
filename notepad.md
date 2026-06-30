@@ -8226,18 +8226,6 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Current Status: On foot at (9, 0) on Map 0_226 (2F West) on Turn 136083.
 
 ## Active Routing Strategy
-- **Horizontal Surfing Route (ACTIVE TEST)**: We are currently testing if the central water canal (Columns 8-11) is connected to the western water canal (Columns 1-2) via Rows 4 and/or 5. Specifically, we are testing if we can surf directly from the central canal through Column 7 and Column 6 on Rows 4 and 5 to the western canal (and dismount onto (1, 3) land). Socratic Challenge: We will enter the water from Water Ramp 2 at (11, 13), and systematically test the vertical and horizontal passability of Rows 4 and 5 on Columns 6, 7, 8, 9 on water. If Row 4 or Row 5 is open, we can surf directly to (1, 4) on the west side and dismount at the B1F stairs at (1, 3)!
-- **Backup Ground Floor Backtracking Route**: If the horizontal surfing route is 100% blocked, we will fall back to:
-  1. Surf back to (11, 13) (Water Ramp 2).
-  2. Dismount Surf onto (11, 13) on foot.
-  3. Walk to (17, 15) and descend the stairs to the ground floor at (17, 16).
-  4. Walk along the unblocked southern ground floor corridor of Row 17 to (1, 14).
-  5. Walk Up to (1, 13) and ascend the wooden staircase to the southwest plateau at (1, 12).
-  6. From (1, 12), walk to the Southwest Ladder at (3, 11) and ascend to 2F West.
-  7. On 2F West, navigate to Northwest Ladder at (1, 3) via the unblocked 12-step path: Up, Up, Right, Up, Up, Up, Up, Up, Up, Left, Left, Left.
-  8. Descend Northwest Ladder at (1, 3) to land on 1F Northwest.
-  9. Walk on foot along the northern boundary Row 0 to (1, 3) (B1F stairs) and descend to Mewtwo!
-
 ## Disproven Theories Archive
 - **Direct 1F Horizontal Surfing Route (Disproven Turns 135121-135471)**:
   - Direct water surfing from Water Ramp 2 at (11, 13) to (1, 4) is blocked. Column 7 on Rows 6-7 is blocked by solid rock walls, and Column 6 is blocked across Rows 4-7.
@@ -8250,6 +8238,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **2F East (29, 1) Pocket Passability (Disproven Turn 136026)**:
   - **Objective**: Verify if Row 0 at (27, 0) on Map 0_226 is passable on foot.
   - **Experimental Results**: On Turn 136025, starting from (29, 1), we walked Left to (28, 1), Up to (28, 0), and pressed Left against (27, 0). Result: BUMP (visited 0 tiles). This conclusively disproves the passability of (27, 0), proving 2F East (29, 1) is a 100% closed, dead-end pocket on foot.
+- **1F Horizontal Surfing Route (Disproven Turn 135945)**:
+  - The central water canal (Columns 8-11) does not connect directly to the western water canal (Columns 1-2) via Rows 4 and/or 5. This is 100% blocked by solid rock walls (8, 5) and (9, 5). Systematically verified via physical BUMPs from (8, 6) and (9, 6) facing Up. Row 4 is blocked at Column 13 by (13, 4) solid rock. Row 5 is blocked at Column 13 by (13, 5) solid rock. Thus, the eastern/central water canals are completely separated from the western water canal on all rows of 1F.
 
 ## B1F (Basement) Capture Plan
 - The stairs down to B1F are located at (1, 3).
