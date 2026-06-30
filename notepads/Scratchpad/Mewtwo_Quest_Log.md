@@ -30,17 +30,7 @@
   4. Climb to 2F West at (3, 11).
   5. Walk Up 2 steps to (3, 9), Left 2 steps to (1, 9) via (2, 9), and Up 6 steps to Northwest Ladder at (1, 3).
   6. Descend Northwest Ladder at (1, 3) to land on 1F Northwest at (1, 3), and take the adjacent stairs directly to B1F to capture Mewtwo!
-## 2F West (0_226) Comprehensive Topological Boundary Audit (Turn 136246)
-- **Problem**: The northwest stairs to B1F at (1, 3) must be reachable, meaning some boundary blockages in our database are false positives. We ran topological pairwise connectivity and bottleneck simulation to identify the exact 15 tiles that split 2F West in half:
-  - (2, 1), (2, 2), (2, 3), (3, 0), (3, 4), (4, 4), (5, 4), (6, 4), (7, 4), (8, 5), (9, 6), (10, 6), (11, 6), (12, 6), (13, 7).
-- **Physical Verification Progress**:
-  1. **(8, 5) Blockage Test (Turn 136222)**:
-     - **Protocol**: Stood on foot at (9, 5) and pressed Left to try to step onto (8, 5).
-     - **Result**: BUMP (visited 0 tiles).
-     - **Conclusion**: (8, 5) on 2F West is indeed a solid rock wall of TYPE_2889 and is impassable. This blockage is NOT the false positive.
-  2. **(13, 7) Blockage Test (Verified Turn 136318)**:
-     - **Protocol**: Walk from (9, 5) Right 4 steps to (13, 5), Down 1 step to (13, 6). Stand at (13, 6) facing Down, and press Down to attempt to walk onto (13, 7).
-     - **Result**: BUMP (visited 0 tiles).
-     - **Conclusion**: (13, 7) on 2F West is physically verified as a solid, impassable rock wall of TYPE_2889. This blockage is indeed real, and there is no on-foot crossover at this column.
-- **Why we must perform this systematic checking**:
-  - In vanilla Pokemon Red/Blue, the Northeast ladder at (29, 1) and the Northwest ladder at (1, 3) must be connected on foot. By testing the boundary tiles systematically, we are guaranteed to find the true unblocked corridor that was misidentified in our previous database!
+## 2F West (0_226) Boundary Audit (Completed Turn 136411)
+- (8, 5) is verified as a solid rock wall of TYPE_2889.
+- (13, 7) is verified as a solid rock wall of TYPE_2889.
+- (1, 10) is verified as a completely passable corridor.
