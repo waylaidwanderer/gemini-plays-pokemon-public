@@ -60,7 +60,11 @@
 - **(16, 13) Rock Wall Blockage (Verified Turns 112374, 112378)**: Standing at (17, 13), attempting to walk Left to (16, 13) resulted in zero coordinate change, proving (16, 13) is impassable.
 - **Verification of (12, 6) Blockage (Turn 129029)**: Standing at (12, 5) facing Down and pressing Down. Result: BUMP.
 - **(22, 9) Rock Wall Blockage [2F West] (Verified Turn 113224)**: Standing at (21, 9) and pressing Right. Result: BUMP. Blocks horizontal crossover on Row 9, separating southwestern/central pocket from northern corridors.
-- **Row 8 Rock Wall Blockages [2F West]**: Columns 3 to 12 are completely blocked on Row 8 by solid rock walls of TYPE_2889. Verified by systematic vertical tests from Row 9 facing Up (Turn 113759-115167).
+- **Row 8 Rock Wall Blockages [2F West]**: Columns 3 to 12 are completely blocked on Row 8 by solid rock walls of TYPE_2889. Verified on Turns 113759-115167, and re-verified on Turns 136446-136529 (systematic vertical tests of Columns 12 down to 3).
+- **2F West (Map 0_226) Verified Blockages**:
+  - **(5, 8) Blockage (Verified Turn 136519)**: Standing at (5, 9) on foot facing Up, pressed Up. Result: BUMP, confirming (5, 8) is solid rock of TYPE_2889.
+  - **(4, 8) Blockage (Verified Turn 136524)**: Standing at (4, 9) on foot facing Up, pressed Up. Result: BUMP, confirming (4, 8) is solid rock of TYPE_2889.
+  - **(3, 8) Blockage (Verified Turn 136529)**: Standing at (3, 9) on foot facing Up, pressed Up. Result: BUMP, confirming (3, 8) is solid rock of TYPE_2889.
 - **2F West Upper-Central Corridor to Western Corridors Connection - DISPROVEN**: Verified on Turn 118905-119868 and Turn 130709 that 2F West's northern corridor (Component 1) is completely isolated on foot from the western area containing Northwest Ladder (1, 3). Row 6 and Row 7 form a solid, impassable vertical barrier.
 - **Column 1 Corridor Passable - DISPROVEN Turn 121123**: Tested on Turn 121123 and 123226. (1, 11) is indeed a solid impassable rock wall of TYPE_2889.
 - **Row 16 Blockage (Columns 2 and 3) (Verified Turn 122484)**: Column 2 Row 16 (2, 16) and Column 3 Row 16 (3, 16) are completely solid, impassable rock walls of TYPE_2889 on Map 0_226.
