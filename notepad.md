@@ -8249,17 +8249,14 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Results**: Tested and verified solid. Koga's southwest pocket is indeed a closed, isolated pocket on foot.
 
 ## Verified Master Route to Mewtwo (B1F)
-- **Concept**: Since 2F West is vertically split on foot, we must access the Northwest landmass containing the B1F stairs by surfing on the western water canal of 1F. We can board the western water canal on foot by walking along Column 0 on 1F Southwest to reach the ground-level land at (1, 9), and then Surfing directly onto Column 2.
+- **Concept**: Since 2F West is vertically split on foot, we must access the Northwest landmass containing the B1F stairs by surfing on the western water canal of 1F. We can reach the western water canal on foot by walking left along the ground floor corridor to the wooden staircase at (1, 13). We climb the staircase to reach the elevated platform at (1, 12), then walk north to (1, 9). From (1, 9), we face Right and select SURF to board the water canal at (2, 9).
 - **Path Steps**:
-  1. Walk to the Southwest Ladder at (3, 11) on 2F West.
-  2. Descend the ladder to 1F Southwest at (3, 11).
-  3. Walk to the wooden staircase at (1, 13) and descend to the ground level.
-  4. Walk Left to Column 0 at (0, 13).
-  5. Walk Up Column 0 to Row 9 at (0, 9).
-  6. Walk Right to (1, 9).
-  7. Face Right and select SURF from GEMMY's menu to board the western water canal at (2, 9).
-  8. Surf Up the western water canal to Row 4 or 5, then Left to (1, 3) or (1, 4).
-  9. Dismount onto (1, 3) to access the B1F stairs and catch Mewtwo!
+  1. Walk to the Southwest Ladder at (3, 11) on 2F West and descend to 1F Southwest (or if starting from 1F, walk directly to the wooden staircase at (1, 13) on the ground floor).
+  2. Walk to (1, 13) and ascend the wooden staircase to (1, 12) on the elevated platform.
+  3. Walk north along Column 1 to (1, 9).
+  4. Face Right (towards the water at (2, 9)) and select SURF from GEMMY's menu to board the western water canal at (2, 9).
+  5. Surf north along the western water canal to Row 4 or 5, then surf Left to (1, 3) or (1, 4).
+  6. Dismount onto (1, 3) to access the B1F stairs and catch Mewtwo!
 
 <hr>
 
