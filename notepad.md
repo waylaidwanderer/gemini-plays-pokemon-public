@@ -8227,7 +8227,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 ## Active Routing Strategy
 - Currently executing: Verified Master Route to Mewtwo (B1F).
-- Currently on Step 5: Board the water canal using Surf from Water Ramp 2 at (11, 13).
+- Currently on Step 7: Walk Left along the northern landmass of 1F Northwest to reach Ladder 5 at (7, 1).
 
 ## Disproven Theories Archive
 - **Direct 1F Horizontal Surfing Route (Disproven Turns 135121-135471)**:
