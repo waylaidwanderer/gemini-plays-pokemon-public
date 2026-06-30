@@ -1,14 +1,14 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: Standing on foot at (12, 9) on Map 0_226 (2F West) on Turn 136444 facing UP.
+- Current Status: Standing on foot at (12, 9) on Map 0_226 (2F West) on Turn 136477 facing UP.
 
 ## Active Routing Strategy
 - **Path to Northwest Ladder (1, 3)**:
-  - We verified (1, 10) is a solid rock wall, so the 10-step direct route is blocked.
-  - Active Plan: Test passability of (12, 8). If passable, walk Up through (12, 8) to Row 7, walk Left along Row 7 to Column 1, and walk Up to Northwest Ladder at (1, 3).
-  - Test Log for (12, 8):
-    - Turn 136442: Stood at (12, 9) facing Right, pressed Up to face UP.
-    - Turn 136444: Standing at (12, 9) facing UP. Will press Up to attempt to step onto (12, 8). Expecting either SUCCESS (moving to 12, 8) or BUMP (remaining at 12, 9).
+  - We verified (1, 10) and (12, 8) are solid rock walls, so those direct routes are blocked.
+  - Active Plan: Systematically test other columns along Row 8 on 2F West to find the true unblocked corridor to Row 7 and Column 1. We will walk Left to (11, 9) next to test (11, 8).
+  - Test Log for Row 8 Blockages:
+    - (12, 8): Verified solid rock wall on Turn 136446 (bumped).
+    - (11, 8): Untested. Standing at (12, 9) facing UP. Will move Left to (11, 9) and press Up to test.
 ## Disproven Theories Archive
 - **Direct 1F Horizontal Surfing Route (Disproven Turns 135121-135471)**:
   - Direct water surfing from Water Ramp 2 at (11, 13) to (1, 4) is blocked. Column 7 on Rows 6-7 is blocked by solid rock walls, and Column 6 is blocked across Rows 4-7.
