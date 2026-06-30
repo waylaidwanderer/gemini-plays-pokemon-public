@@ -1,11 +1,11 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Quest Started: Turn 111394
-- Current Status: Standing on foot at (15, 12) on Map 0_228 (1F) on Turn 136600 facing Up.
+- Current Status: Surfing at (11, 14) on Map 0_228 (1F) on Turn 136609 facing Down.
 
 ## Active Routing Strategy
 - **Path to B1F Mewtwo via 1F Southwest**:
   - We have verified that 2F West is 100% split vertically on foot due to the continuous rock wall on Row 8.
-  - Active Plan: We are standing on the ground floor at (1, 14) on Map 0_228 (1F Southwest). We will walk east to Water Ramp 2 at (11, 13) using the unblocked ground path: (1, 14) -> Down to (1, 15) -> Right to (2, 15) -> Right to (3, 15) -> Down to (3, 16) -> Down to (3, 17) -> Right along Row 17 to (11, 17) -> Up to (11, 13). Once at (11, 13), we will board Surf and ride north to Water Ramp 4 at (15, 3), climb Ladder 5 at (7, 1) to 2F West, and walk directly to the B1F stairs.
+  - Active Plan: We are surfing at (11, 14) on Map 0_228 (1F). We will surf north/east along the water canal, bypass the horizontal row blockages, and land at Water Ramp 4 at (15, 3). From (15, 3), we will walk to Ladder 5 at (7, 1), ascend to 2F West, and walk directly to the Northwest Ladder (1, 3). Then descend (1, 3) to 1F Northwest and take the stairs to B1F.
 ## Disproven Theories Archive
 - **Direct 1F Horizontal Surfing Route (Disproven Turns 135121-135471)**:
   - Direct water surfing from Water Ramp 2 at (11, 13) to (1, 4) is blocked. Column 7 on Rows 6-7 is blocked by solid rock walls, and Column 6 is blocked across Rows 4-7.
