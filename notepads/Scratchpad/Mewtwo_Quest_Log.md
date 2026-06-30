@@ -33,8 +33,6 @@
 - **Hypothesis**: Either (1, 10) or (2, 9) on 2F West is NOT a solid blockage.
 - **Results**: Tested and verified solid. Koga's southwest pocket is indeed a closed, isolated pocket on foot.
 
-## Verified Master Route to Mewtwo (B1F)
-- **Concept**: Since 2F West is vertically split, we cannot reach (8, 5) from the southwest ladder at (3, 11). Instead, we must take the multi-map route to land on the northern half of 2F West at (9, 1). From there, we can walk on foot directly to (8, 5) and test its passability.
 - **Path Steps**:
   1. Take Southwest Ladder 6 at (3, 11) on 2F West DOWN to 1F Southwest.
   2. Walk down the wooden stairs at (1, 13) to the ground floor.
