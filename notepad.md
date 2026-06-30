@@ -8230,6 +8230,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Testing Log**:
   - **Tile (14, 8)**: Passable (Stood on it on Turn 137344)
   - **Tile (14, 7)**: Impassable (Bumped on Turn 137353; verified as TYPE_2889 solid rock wall)
+  - **Tile (15, 8)**: Passable (Stood on it on Turn 137371)
+  - **Tile (15, 7)**: Impassable (Bumped on Turn 137374; verified as TYPE_2889 solid rock wall)
   - **Tile (14, 6)**: [Pending]
   - **Tile (14, 5)**: [Pending]
   - **Tile (14, 4)**: [Pending]
