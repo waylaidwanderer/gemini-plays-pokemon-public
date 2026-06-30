@@ -14,7 +14,8 @@
     - (8, 8): Verified solid rock wall on Turn 136501 (bumped).
     - (7, 8): Verified solid rock wall on Turn 136506 (bumped).
     - (6, 8): Verified solid rock wall on Turn 136515 (bumped).
-    - (5, 8): Untested. Standing at (6, 9) facing UP. Will move Left to (5, 9) and press Up to test.
+    - (5, 8): Verified solid rock wall on Turn 136519 (bumped).
+    - (4, 8): Untested. Standing at (5, 9) facing UP. Will move Left to (4, 9) and press Up to test.
 ## Disproven Theories Archive
 - **Direct 1F Horizontal Surfing Route (Disproven Turns 135121-135471)**:
   - Direct water surfing from Water Ramp 2 at (11, 13) to (1, 4) is blocked. Column 7 on Rows 6-7 is blocked by solid rock walls, and Column 6 is blocked across Rows 4-7.
