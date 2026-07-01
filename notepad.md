@@ -8232,11 +8232,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - **Tile (14, 7)**: Impassable (Bumped on Turn 137353; verified as TYPE_2889 solid rock wall)
   - **Tile (15, 8)**: Passable (Stood on it on Turn 137371)
   - **Tile (15, 7)**: Impassable (Bumped on Turn 137374; verified as TYPE_2889 solid rock wall)
-  - **Tile (14, 6)**: [Pending]
-  - **Tile (14, 5)**: [Pending]
-  - **Tile (14, 4)**: [Pending]
-  - **Tile (13, 4)**: [Pending]
-  - **Tile (12, 4)**: [Pending]
+- **Status**: Completed and fully disproven on Turn 137374, as the alternate corridor is blocked at Y=7 by the verified solid rock walls at (14, 7) and (15, 7). No further alternate testing on Y=4..6 is needed.
 
 ## Verified Master Route to Mewtwo (B1F)
 - **Concept**: Since the 2F West landing pocket at (9, 1)/(7, 1) is 100% isolated because (7, 1) is a warp and Row 0 is blocked at (6, 0), we must use Southwest Ladder 6 at (3, 11) to reach 2F West, and then take the alternate path through Column 14/15 to reach Northwest Ladder (1, 3) to descend to B1F.
