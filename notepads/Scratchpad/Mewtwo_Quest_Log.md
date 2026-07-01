@@ -10,20 +10,10 @@
   - **Tile (7, 6)**: Impassable (Bumped on Turn 137530; verified solid rock of TYPE_2889).
 - **Status**: Completed and fully disproven on Turn 137530. The water canals are 100% split at Column 13 and Column 7. There is no horizontal water shortcut on 1F. We must use the verified multi-map backtracking route to reach B1F.
 
-## Verified Master Route to Mewtwo (B1F)
-- **Concept**: Our systematic re-testing has resolved the topological deadlock of Cerulean Cave! While 2F West is indeed horizontally split on foot and 1F Northwest land is on-foot isolated, we discovered on Turn 138171 that 1F Row 6 is an open water canal crossover connecting the eastern canal directly to the central canal at Column 13!
-- **Path to B1F (Mewtwo)**:
-  1. From (9, 10) on water, surf Down to (11, 14).
-  2. Dismount north onto Water Ramp 2 at (11, 13) to stand at (11, 12) on foot.
-  3. Walk east across the central platform to (15, 12).
-  4. Descend the staircase at (17, 15) to reach (17, 16) on the ground floor.
-  5. Walk west along the southern corridor (Row 17) to (3, 17).
-  6. Walk Up to (1, 13) and climb the wooden stairs onto the elevated southwest plateau.
-  7. Walk north along Column 1 to reach (1, 8) on foot.
-  8. Face Left towards Column 0 and use SURF to board the western canal at (0, 8).
-  9. Surf north along Column 0 to (0, 3).
-  10. Dismount Right onto the northwest land platform at (1, 3) on foot.
-  11. Take the stairs down to B1F to reach Mewtwo!
+## Row 5 Water Passability Testing Plan
+- **Objective**: Board water at Water Ramp 2 and surf north along the central canal to physically test if we can cross Row 5 at (8, 5) or (9, 5) on water. If open, this connects the central/eastern canals directly to the western canal on water!
+- **Testing Log**:
+  - Turn 138373: Prepared to board water at Water Ramp 2 (11, 13).
 
 ## Disproven Theories Archive
 - **Direct 1F Horizontal Surfing Route (Disproven Turns 135121-135471)**:
