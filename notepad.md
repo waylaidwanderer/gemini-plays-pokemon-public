@@ -8222,16 +8222,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (26, 11) on Map 0_226 (2F West) on Turn 138714 facing Down. Bypassed Row 7/8 blockages, escaped Marowak, ready to continue Down Column 26 to Row 14.
-
-## 1F Water Canal Column 7 and Column 13 Passability Test Log
-- **Objective**: Empirically verify water passability at Column 13 Rows 4/5 and Column 7 Rows 6/7 on Map 0_228 (1F) on water.
-- **Experimental Results**:
-  - **Tile (13, 5)**: Impassable (Bumped on Turn 137432; verified solid rock of TYPE_2889).
-  - **Tile (13, 4)**: Impassable (Bumped on Turn 137436; verified solid rock of TYPE_2889).
-  - **Tile (7, 7)**: Impassable (Bumped on Turn 137525; verified solid rock of TYPE_2889).
-  - **Tile (7, 6)**: Impassable (Bumped on Turn 137530; verified solid rock of TYPE_2889).
-- **Status**: Completed and fully disproven on Turn 137530. The water canals are 100% split at Column 13 and Column 7. There is no horizontal water shortcut on 1F. We must use the verified multi-map backtracking route to reach B1F.
+- Current Status: Standing on foot at (26, 14) on Map 0_226 (2F West) on Turn 138722 facing Left. Bypassed Row 7/8 blockages, discovered Row 14 is blocked at (25, 14), ready to navigate to Row 17 bypass.
 
 ## Row 5 Water Passability Testing Plan
 - **Objective**: Board water at Water Ramp 2 and surf north along the central canal to physically test if we can cross Row 5 at (8, 5) or (9, 5) on water. If open, this connects the central/eastern canals directly to the western canal on water!
