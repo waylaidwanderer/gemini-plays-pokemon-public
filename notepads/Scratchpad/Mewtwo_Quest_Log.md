@@ -1,5 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: On foot at (15, 12) on Map 0_228 (1F) on Turn 138271.
+- Current Status: On foot at (1, 12) on Map 0_228 (1F) on Turn 138301.
 
 ## 1F Water Canal Column 7 and Column 13 Passability Test Log
 - **Objective**: Empirically verify water passability at Column 13 Rows 4/5 and Column 7 Rows 6/7 on Map 0_228 (1F) on water.
