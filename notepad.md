@@ -8234,16 +8234,19 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Status**: Completed and fully disproven on Turn 137530. The water canals are 100% split at Column 13 and Column 7. There is no horizontal water shortcut on 1F. We must use the verified multi-map backtracking route to reach B1F.
 
 ## Verified Master Route to Mewtwo (B1F)
-- **Concept**: Since 2F West (3, 11) is completely isolated on foot from (1, 3) due to Row 8 blockages (proven on Turn 137988 via BFS), and 1F Northwest (7, 1) is isolated on foot from (1, 3) due to the (4, 1) blockage, the only unblocked route to Mewtwo requires taking Ladder 5 at (7, 1) on 1F up to (9, 1) on 2F West and navigating the 80-step loop around 2F to reach Northwest Ladder (1, 3).
-- **Backtracking Route Steps**:
-  1. Descend Southwest Ladder 6 at (3, 11) on 2F West to 1F Southwest at (3, 11).
-  2. Walk on foot from (3, 11) to Water Ramp 2 at (11, 13).
-  3. Surf from Water Ramp 2 at (11, 13) to Water Ramp 4 at (15, 3).
-  4. Walk on foot from (15, 3) to Ladder 5 at (7, 1).
-  5. Climb up Ladder 5 to (9, 1) on 2F West.
-  6. Navigate the 80-step on-foot loop on 2F to reach Northwest Ladder (1, 3).
-  7. Descend Northwest Ladder at (1, 3) to 1F Northwest.
-  8. Take the adjacent stairs down to B1F to capture Mewtwo!
+- **Concept**: Our systematic re-testing has resolved the topological deadlock of Cerulean Cave! While 2F West is indeed horizontally split on foot and 1F Northwest land is on-foot isolated, we discovered on Turn 138171 that 1F Row 6 is an open water canal crossover connecting the eastern canal directly to the central canal at Column 13!
+- **Path to B1F (Mewtwo)**:
+  1. From (9, 10) on water, surf Down to (9, 12).
+  2. Dismount East onto land at (10, 12).
+  3. Walk east across the central platform to (15, 12).
+  4. Descend the staircase at (17, 15) to reach (17, 16) on the ground floor.
+  5. Walk west along the southern corridor (Row 17) to (3, 17).
+  6. Walk Up to (1, 13) and climb the wooden stairs onto the elevated southwest plateau.
+  7. Walk north along Column 1 to reach (1, 8) on foot.
+  8. Face Left towards Column 0 and use SURF to board the western canal at (0, 8).
+  9. Surf north along Column 0 to (0, 3).
+  10. Dismount Right onto the northwest land platform at (1, 3) on foot.
+  11. Take the stairs down to B1F to reach Mewtwo!
 
 ## Disproven Theories Archive
 - **Direct 1F Horizontal Surfing Route (Disproven Turns 135121-135471)**:
