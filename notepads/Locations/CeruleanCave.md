@@ -128,3 +128,5 @@
 ## Overworld Verification Updates (Turn 137776)
 - Map 0_226, 2F West (11, 8): Physically verified solid rock wall of TYPE_2889 (Turn 137600).
 - Map 0_226, 2F West (13, 7): Physically verified solid rock wall of TYPE_2889 (Turn 137605).
+- Map 0_226, 2F West (9, 8): Physically verified solid rock wall of TYPE_2889 (Turn 137799).
+- Map 0_226, 2F West (10, 8): Physically verified solid rock wall of TYPE_2889 (Turn 137808).
