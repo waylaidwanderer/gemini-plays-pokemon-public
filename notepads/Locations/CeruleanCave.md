@@ -41,7 +41,8 @@
   - **(5, 15) Blockage**: Physically verified on Turn 129221 as a solid rock wall of TYPE_2889.
   - **(6, 15) Blockage**: Physically verified on Turn 129221 as a solid rock wall of TYPE_2889.
   - **(7, 15) Blockage**: Physically verified on Turn 129221 as a solid rock wall of TYPE_2889.
-  - **(4, 1) Blockage**: Physically verified on Turn 130148. Stood at (5, 1) and pressed Left. Result: BUMP (visited 0 tiles). Conclusively disproves the on-foot path between (7, 1) and (1, 3) on 1F Northwest.
+  - **(4, 0) Blockage (Verified Turn 137937)**: Stood at (5, 0) on foot facing Left, and pressed Left against (4, 0). Result: BUMP (visited 0 tiles). This physically and conclusively proves that (4, 0) is a solid, impassable rock wall of TYPE_2889.
+  - **(4, 1) Blockage (Verified Turn 130148, Re-verified Turn 137936)**: Physically verified on Turn 130148. Stood at (5, 1) and pressed Left. Result: BUMP (visited 0 tiles). Re-verified on Turn 137936 (stood at (5, 1) and pressed Left against (4, 1), resulting in a BUMP). Conclusively disproves the on-foot path between (7, 1) and (1, 3) on 1F Northwest.
   - **(4, 2) Blockage**: Physically verified on Turn 132029. Standing at (5, 2) on foot and pressed Left. Result: BUMP (visited 0 tiles). Conclusively disproves the horizontal land crossover on Row 2 of 1F Northwest.
   - **Column 1 Row 7 Blockage**: Tested on Turn 122908. Standing at (1, 8) facing Up, pressed Up. Result: BUMP.
 
