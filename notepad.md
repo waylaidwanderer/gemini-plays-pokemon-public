@@ -8261,6 +8261,20 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - **Objective**: Verify if Row 0 at (27, 0) on Map 0_226 is passable on foot.
   - **Experimental Results**: On Turn 136025, starting from (29, 1), we walked Left to (28, 1), Up to (28, 0), and pressed Left against (27, 0). Result: BUMP (visited 0 tiles). This conclusively disproves the passability of (27, 0), proving 2F East (29, 1) is a 100% closed, dead-end pocket on foot.
 
+## Verified 1F Surfing Backtracking Route (3, 11) to (7, 1) Steps:
+- **Phase 1: Southwest Ladder (3, 11) on 1F to Water Ramp 2 (11, 13) [Completed]**
+  - Path: `['Down', 'Left', 'Left', 'Down', 'Down', 'Down', 'Down', 'Right', 'Down', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Up', 'Right', 'Right', 'Up', 'Up', 'Left', 'Left', 'Up', 'Up', 'Left', 'Left', 'Left', 'Left', 'Down']`
+  - Ended at: (11, 13) on foot facing Down.
+
+- **Phase 2: Surf from Water Ramp 2 (11, 13) to Water Ramp 4 (15, 3) [Active]**
+  - Action: Select GEMMY (BLASTOISE) and use SURF.
+  - Path on Water: `['Down', 'Left', 'Left', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Right', 'Right', 'Right', 'Right', 'Right', 'Up', 'Up', 'Right', 'Up']`
+  - Dismounts onto foot at (15, 3) automatically when moving into (15, 3).
+
+- **Phase 3: Walk from Water Ramp 4 (15, 3) to Ladder 5 (7, 1) Northwest**
+  - Path on Foot: `['Up', 'Up', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left']`
+  - Arrives at: (7, 1) (Ladder 5), which leads up to 2F West at (9, 1).
+
 <hr>
 
 <h1><code>Locations/CeruleanCave</code></h1>
