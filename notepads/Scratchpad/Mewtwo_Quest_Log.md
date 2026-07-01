@@ -1,10 +1,23 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (26, 17) on Map 0_226 (2F West) on Turn 138739 facing Left. Successfully navigated around the Row 14/15/16 solid rock blockages to reach the Row 17 bypass.
+- Current Status: Standing on foot at (22, 13) on Map 0_226 (2F West) on Turn 138752 facing Left. Bypassed Row 17 blockages by looping up to Row 13, and currently walking left along the unblocked Row 13 corridor.
 
 ## Row 17 Bypass Progression Log
 - **Turn 138737**: Positioned on foot at (27, 14) facing Left.
 - **Turn 138738**: Executed 6-step sequence: `["Right", "Down", "Down", "Left", "Down", "Left"]` to bypass the solid rock blockages and arrive safely at (26, 17) on foot on Row 17.
-- **Results**: Successfully bypassed the solid rock blocks at (25, 14) and Row 15/16. Row 17 is confirmed 100% passable and unblocked heading west. We will now walk Left along Row 17 to reach (2, 17) on foot.
+- **Turn 138740**: Standing at (26, 17) on foot. Pressed 4 Left steps, but was interrupted on the 2nd step by a wild Venomoth at (24, 17). Fled battle.
+- **Turn 138744**: Standing at (24, 17) on foot. Discovered that (20, 17) is a solid rock wall of TYPE_2889, preventing further leftward movement along Row 17.
+- **Turn 138745**: Standing at (24, 17) on foot. Moved Left 3 steps to reach (21, 17) on foot, which is the farthest left we can go on Row 17.
+- **Turn 138746**: Standing at (21, 17) on foot. Executed `["Up", "Up", "Right", "Up", "Up"]` to loop around the solid rock walls at (21, 14) and (22, 16), reaching (22, 13) on foot. Interrupted by a wild Wigglytuff. Fled battle.
+- **Turn 138752**: Standing at (22, 13) on foot. Confirmed that Row 13 is fully passable and unblocked heading west.
+
+## The True Detour Route via Ladder 2
+To reach the Northwest Ladder (1, 3) and descend to B1F, we must enter 2F West from Ladder 2 at (29, 1).
+1. Climb up Ladder 2 at (27, 1) on 1F to reach 2F West at (29, 1).
+2. Walk Down Column 29 to Row 6, then bypass the Row 7/8 solid rock blockages to reach Column 26.
+3. Walk Down Column 26 to Row 14. Discover that (25, 14) is blocked.
+4. Perform the Row 17 Bypass detour: walk Right to (27, 14), Down to Row 17, and Left to (21, 17).
+5. Loop Up: Walk Up 2 steps to (21, 15), Right to (22, 15), Up 2 steps to (22, 13).
+6. Walk Left along Row 13 to reach (17, 13), and then proceed west.
 
 ## Row 5 Water Passability Testing Plan
 - **Objective**: Board water at Water Ramp 2 and surf north along the central canal to physically test if we can cross Row 5 at (8, 5) or (9, 5) on water. If open, this connects the central/eastern canals directly to the western canal on water!
