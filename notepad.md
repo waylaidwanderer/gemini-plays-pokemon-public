@@ -8222,7 +8222,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (3, 11) on Map 0_226 (2F West) on Turn 137582 facing Up.
+- Current Status: Standing on foot at (13, 8) on Map 0_226 (2F West) on Turn 137611 facing Up.
 
 ## 1F Water Canal Column 7 and Column 13 Passability Test Log
 - **Objective**: Empirically verify water passability at Column 13 Rows 4/5 and Column 7 Rows 6/7 on Map 0_228 (1F) on water.
@@ -8323,7 +8323,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Row 16 Blockage**: Row 16 contains a solid horizontal rock wall from Column 14 to Column 20, blocking direct downward access from Row 15 to Row 17.
 - **Row 9 Blockage**: Row 9 is blocked by rock walls at (22, 9) and (24, 9), so it is not a continuous horizontal corridor.
 - **Row 7 Blockage (Verified Turn 113364)**: Row 7 contains a solid horizontal rock wall at (17, 7) of TYPE_2889, physically blocking on-foot horizontal crossover between Column 18 and Column 16.
-- **(13, 7) Blockage (Verified Turn 113646)**: Standing at (13, 6) facing Down, pressed Down. Result: Bumped against (13, 7) (TYPE_2889).
+- **(13, 7) Blockage (Verified Turn 113646, Re-Verified Turn 137605)**: Standing at (13, 6) facing Down, pressed Down. Result: Bumped against (13, 7) (TYPE_2889).
+- **(11, 8) Blockage**: Physically verified on Turn 136479 and re-verified on Turn 137600 as solid rock wall of TYPE_2889.
 - **(16, 8) Blockage (Verified Turn 113874)**: Standing at (16, 7) facing Down, pressed Down. Result: Bumped against (16, 8) (TYPE_2889).
 - **(15, 13) Rock Wall Blockage**: Labeled TYPE_3fe2 but physically impassable horizontally between Column 14 and Column 15 on Row 13.
 - **(16, 13) Rock Wall Blockage (Verified Turns 112374, 112378)**: Standing at (17, 13), attempting to walk Left to (16, 13) resulted in zero coordinate change, proving (16, 13) is impassable.
@@ -9710,5 +9711,13 @@ We can formulate 5 custom tool/agent ideas to optimize the endgame and Mewtwo se
 ## Test Logs
 - Turn 137594: Standing at (3, 11) facing Up. Ready to execute Step 1.
 - Turn 137598: Arrived at (11, 9) after walking east. Preparing to test vertical passability of (11, 8) by walking Up.
+- Turn 137600: Attempted to step Up into (11, 8). Result: BUMPED. Physically proved that (11, 8) is solid.
+- Turn 137603: Arrived at (13, 9) on foot. Walked Up to (13, 8) on Turn 137604.
+- Turn 137605: Attempted to step Up into (13, 7) from (13, 8). Result: BUMPED. Physically proved that (13, 7) is solid.
+
+## Conclusive Findings
+- Our physical testing of (11, 8) [odd-even] and (13, 7) [odd-odd] has definitively disproven the hypothesis of a simple even-even pillar grid on 2F West.
+- In this ROM, the horizontal split on 2F West is a solid, continuous physical reality. There is no on-foot corridor connecting the south side to the northwest quadrant.
+- Backtracking via 1F is indeed mathematically and physically mandatory to reach the Northwest Ladder at (1, 3). No further 2F same-floor testing is required. Our master backtracking route is fully vindicated.
 
 <hr>

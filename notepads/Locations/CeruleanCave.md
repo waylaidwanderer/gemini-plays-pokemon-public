@@ -54,7 +54,8 @@
 - **Row 16 Blockage**: Row 16 contains a solid horizontal rock wall from Column 14 to Column 20, blocking direct downward access from Row 15 to Row 17.
 - **Row 9 Blockage**: Row 9 is blocked by rock walls at (22, 9) and (24, 9), so it is not a continuous horizontal corridor.
 - **Row 7 Blockage (Verified Turn 113364)**: Row 7 contains a solid horizontal rock wall at (17, 7) of TYPE_2889, physically blocking on-foot horizontal crossover between Column 18 and Column 16.
-- **(13, 7) Blockage (Verified Turn 113646)**: Standing at (13, 6) facing Down, pressed Down. Result: Bumped against (13, 7) (TYPE_2889).
+- **(13, 7) Blockage (Verified Turn 113646, Re-Verified Turn 137605)**: Standing at (13, 6) facing Down, pressed Down. Result: Bumped against (13, 7) (TYPE_2889).
+- **(11, 8) Blockage**: Physically verified on Turn 136479 and re-verified on Turn 137600 as solid rock wall of TYPE_2889.
 - **(16, 8) Blockage (Verified Turn 113874)**: Standing at (16, 7) facing Down, pressed Down. Result: Bumped against (16, 8) (TYPE_2889).
 - **(15, 13) Rock Wall Blockage**: Labeled TYPE_3fe2 but physically impassable horizontally between Column 14 and Column 15 on Row 13.
 - **(16, 13) Rock Wall Blockage (Verified Turns 112374, 112378)**: Standing at (17, 13), attempting to walk Left to (16, 13) resulted in zero coordinate change, proving (16, 13) is impassable.
