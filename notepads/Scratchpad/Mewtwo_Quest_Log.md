@@ -1,5 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: On foot at (11, 2) on Map 0_228 (1F) on Turn 138451 facing Left. Actively navigating west along Row 2 to physically test the passability of Column 4 on 1F Northwest.
+- Current Status: On foot at (7, 2) on Map 0_228 (1F) on Turn 138458 facing Left. Actively conducting the physical passability test of Column 4 at (4, 2) on foot.
 
 ## 1F Water Canal Column 7 and Column 13 Passability Test Log
 - **Objective**: Empirically verify water passability at Column 13 Rows 4/5 and Column 7 Rows 6/7 on Map 0_228 (1F) on water.
