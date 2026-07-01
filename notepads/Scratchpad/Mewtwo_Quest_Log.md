@@ -46,14 +46,17 @@
      - Path: (3, 3) -> (2, 3) -> (1, 3).
 - **Burden of Proof testing**: We will systematically execute and log this route step-by-step to find the unblocked passage to Mewtwo!
 
-## 1F Water Canal Row 4 and 5 Systematic Re-Testing Protocol (Turn 138130)
-- **Objective**: Re-test the water canal crossover at Rows 4 and 5 on Map 0_228 (specifically around Columns 12 and 13) on Surf to find the unblocked water path to the northwest quadrant, as the current deadlock implies a logical mapping impossibility.
-- **Protocol & Results**:
-  1. Descend Ladder 5 at (9, 1) on 2F West to arrive at 1F Northwest at (7, 1). [Completed on Turn 138137]
-  2. Walk on foot to Water Ramp 4 at (15, 3). [Completed on Turn 138146]
-  3. Use SURF to enter the water. [Completed on Turn 138149]
-  4. Surf to (14, 4) and attempt to move Left onto (13, 4).
-     - *Result (Turn 138153)*: BUMP! Labeled as (13, 4) TYPE_2889. Conclusively proves (13, 4) is solid rock and impassable on water.
-  5. Surf to (14, 5) and attempt to move Left onto (13, 5).
-     - *Result (Turn 138159)*: BUMP! Labeled as (13, 5) TYPE_2889. Conclusively proves (13, 5) is solid rock and impassable on water.
-  6. Surf to (14, 6) or other Rows to find any other potential horizontal crossovers.
+## 2F West Pillar Grid Grid-Coordinate Analysis
+- **Core Principle**: Vanilla Cerulean Cave 2F is designed as a grid of 1x1 rock pillars placed at even-even coordinates (where both X and Y are even, such as (2, 2), (4, 4), (12, 6), etc.). Every odd-numbered row and odd-numbered column consists of completely open, unblocked walkable space.
+- **Unblocked Path to Mewtwo B1F stairs**:
+  1. We will dismount at Water Ramp 4 at (15, 3) and walk to Ladder 5 at (7, 1) Northwest on 1F, which warps us to (9, 1) on 2F West.
+  2. From (9, 1) on 2F West, we can walk Left to (3, 1) along Row 1 (odd row):
+     - Path: (9, 1) -> (8, 1) -> (7, 1) -> (6, 1) -> (5, 1) -> (4, 1) -> (3, 1).
+     - Since Row 1 is an odd row, there are no pillars on it.
+  3. From (3, 1), we can walk Down along Column 3 (odd column) to reach Row 3:
+     - Path: (3, 1) -> (3, 2) -> (3, 3).
+     - Since Column 3 is an odd column, there are no pillars on it.
+  4. From (3, 3), we can walk Left along Row 3 (odd row) to reach the Northwest Ladder at (1, 3):
+     - Path: (3, 3) -> (2, 3) -> (1, 3).
+     - Since Row 3 is an odd row, there are no pillars on it, and (1, 3) connects directly to B1F Mewtwo!
+- **Verification Log**: We will log each step on 2F West to prove this grid layout and unlock Mewtwo's room!
