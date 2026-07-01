@@ -9694,3 +9694,20 @@ We can formulate 5 custom tool/agent ideas to optimize the endgame and Mewtwo se
 - Reconciled logical contradictions by acknowledging that Column 0 on 2F is impassable and 2F West is vertically split. We are currently performing the definitive physical test on (13, 5) on water to resolve the cave's true topology once and for all.
 
 <hr>
+
+<h1><code>Scratchpad/2F_West_Pillar_Grid_Test</code></h1>
+
+# Scratchpad: 2F West Pillar Grid Passability Test
+- **Objective**: Rigorously test the passability of lanes on Map 0_226 (2F West) on foot to find a direct path between Southwest Ladder at (3, 11) and Northwest Ladder at (1, 3).
+- **Hypothesis**: The map consists of a grid of 1x1 pillars at even-even coordinates. Any odd-numbered column or odd-numbered row should be a passable corridor, allowing a direct connection via Column 11 or other corridors.
+
+## Active Test Protocol
+1. Stand at (3, 11). Walk Up to (3, 9).
+2. Walk Right to (11, 9).
+3. Test walking Up from (11, 9) into (11, 8). Record result.
+4. If (11, 8) is passable, continue Up Column 11 to Row 3, and then walk Left to (1, 3).
+
+## Test Logs
+- Turn 137594: Standing at (3, 11) facing Up. Ready to execute Step 1.
+
+<hr>
