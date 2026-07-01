@@ -8236,8 +8236,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 ## Verified Master Route to Mewtwo (B1F)
 - **Concept**: Our systematic re-testing has resolved the topological deadlock of Cerulean Cave! While 2F West is indeed horizontally split on foot and 1F Northwest land is on-foot isolated, we discovered on Turn 138171 that 1F Row 6 is an open water canal crossover connecting the eastern canal directly to the central canal at Column 13!
 - **Path to B1F (Mewtwo)**:
-  1. From (9, 10) on water, surf Down to (9, 12).
-  2. Dismount East onto land at (10, 12).
+  1. From (9, 10) on water, surf Down to (11, 14).
+  2. Dismount north onto Water Ramp 2 at (11, 13) to stand at (11, 12) on foot.
   3. Walk east across the central platform to (15, 12).
   4. Descend the staircase at (17, 15) to reach (17, 16) on the ground floor.
   5. Walk west along the southern corridor (Row 17) to (3, 17).
