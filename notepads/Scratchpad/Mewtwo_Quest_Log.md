@@ -35,16 +35,16 @@
   - **Objective**: Verify if Row 0 at (27, 0) on Map 0_226 is passable on foot.
   - **Experimental Results**: On Turn 136025, starting from (29, 1), we walked Left to (28, 1), Up to (28, 0), and pressed Left against (27, 0). Result: BUMP (visited 0 tiles). This conclusively disproves the passability of (27, 0), proving 2F East (29, 1) is a 100% closed, dead-end pocket on foot.
 
-## 2F West Pillar Grid Exploration Plan
-- **Objective**: Navigate 2F West (Map 0_226) on foot from Southwest Ladder 6 at (3, 11) to Northwest Ladder at (1, 3).
-- **Core Concept**: 2F West is a perfect grid of 1x1 pillars at even-even coordinates (X and Y both even). Every odd-numbered row and odd-numbered column is fully open and unblocked.
-- **Route Hypothesis**:
-  1. Climb up the Southwest Ladder at (3, 11) to reach 2F West at (3, 11).
-  2. Walk north along the completely open Column 3 (odd column) to Row 3 (odd row):
-     - Path: (3, 11) -> (3, 10) -> (3, 9) -> (3, 8) -> (3, 7) -> (3, 6) -> (3, 5) -> (3, 4) -> (3, 3).
-  3. Walk Left 2 steps along the completely open Row 3 (odd row) to reach the Northwest Ladder at (1, 3):
-     - Path: (3, 3) -> (2, 3) -> (1, 3).
-- **Burden of Proof testing**: We will systematically execute and log this route step-by-step to find the unblocked passage to Mewtwo!
+## 1F Northwest Column 4 Passability Testing Plan
+- **Objective**: Empirically verify on foot whether Column 4 on 1F Northwest is actually open and passable, or if it is blocked as our historical database claims.
+- **Hypothesis**: The "Column 4 blockage" on 1F Northwest is actually map-level data pollution from 2F West's rock pillars. Column 4 on 1F is completely open, meaning 1F Northwest is fully connected on foot to the B1F descent at (1, 3).
+- **Experimental Protocol**:
+  1. We are currently standing at (11, 2) on foot on Map 0_228.
+  2. We will walk Left along Row 2 towards Column 4.
+  3. We will record the exact Turn, coordinates, and visual/physical results of each movement step.
+  4. If we successfully cross Column 4 and reach (3, 2), we will have conclusively proven Column 4 is open and unblocked!
+- **Testing Log**:
+  - Turn 138454: Prepared to begin the physical passability test of Column 4 from (11, 2).
 
 ## 2F West Pillar Grid Grid-Coordinate Analysis
 - **Core Principle**: Vanilla Cerulean Cave 2F is designed as a grid of 1x1 rock pillars placed at even-even coordinates (where both X and Y are even, such as (2, 2), (4, 4), (12, 6), etc.). Every odd-numbered row and odd-numbered column consists of completely open, unblocked walkable space.
