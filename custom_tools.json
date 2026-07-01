@@ -15,7 +15,7 @@
           "type": "integer"
         },
         "start_y": {
-          "integer": "integer"
+          "type": "integer"
         },
         "target_map_id": {
           "type": "string",
