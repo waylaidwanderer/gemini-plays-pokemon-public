@@ -8387,6 +8387,9 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **(3, 0) Blockage [Map 0_226, 2F West] (Verified Turn 136971)**: Standing on foot at (4, 0) facing Left, pressed Left. Result: BUMP, confirming (3, 0) is a solid rock wall of TYPE_2889.
   - **(14, 7) Blockage**: Labeled TYPE_3fe2 but physically verified on Turn 137353 as solid rock wall of TYPE_2889.
   - **(15, 7) Blockage**: Labeled TYPE_3fe2 but physically verified on Turn 137374 as solid rock wall of TYPE_2889.
+## 1F Water Canal Column 13 Solid Blockages Log (Migrated Turn 137522)
+- **(13, 4) Blockage**: Physically verified on Turn 137436. Stood at (14, 4) on water facing Left, pressed Left. Result: BUMP (no coordinate change). Conclusively proves that (13, 4) is a solid, impassable rock wall of TYPE_2889 on water.
+- **(13, 5) Blockage**: Physically verified on Turn 137432. Stood at (14, 5) on water facing Left, pressed Left. Result: BUMP (no coordinate change). Conclusively proves that (13, 5) is a solid, impassable rock wall of TYPE_2889 on water.
 
 <hr>
 
