@@ -61,3 +61,16 @@
   - Turn 138501: Walked Right 3 steps to (6, 3) and encountered a wild Rhydon (fled).
   - Turn 138509: Walked from (13, 1) to (18, 3) on foot successfully.
   - Turn 138511: Walked from (18, 3) to (23, 2) on foot successfully (currently standing at (23, 2)).
+
+## 1F Water Transit and Crossover Verification Plan
+- **Objective**: Surf from 1F Northwest at (15, 3) to Water Ramp 1 at (23, 3) to reach the eastern landmass.
+- **Topological Constraints**:
+  - Rows 4 and 5 are completely blocked horizontally at Column 13 by solid rock walls of TYPE_2889, making direct horizontal surfing impossible.
+  - Row 7 contains a completely passable, unblocked horizontal water crossover connecting Column 15 (eastern canal) to Column 9 (central canal) on water, as verified on Turn 137726.
+- **Empirical Verification Steps**:
+  1. Descend Ladder 5 to 1F at (7, 1) on foot.
+  2. Walk on foot to Water Ramp 4 at (15, 3).
+  3. Use SURF at (15, 3) and surf down Column 15 to Row 7 at (15, 7) on water.
+  4. Surf Left along Row 7 to Column 9 to verify that the Row 7 crossover is 100% open and unblocked.
+  5. Once in the eastern canal, surf to Water Ramp 1 at (23, 3) and dismount on foot.
+  6. Log coordinates and results to provide indisputable proof of work for the 1F water crossover.
