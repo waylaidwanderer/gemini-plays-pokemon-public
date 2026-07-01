@@ -8289,10 +8289,14 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Empirical Verification Steps**:
   1. Descend Ladder 5 to 1F at (7, 1) on foot.
   2. Walk on foot to Water Ramp 4 at (15, 3).
-  3. Use SURF at (15, 3) and surf down Column 15 to Row 7 at (15, 7) on water.
-  4. Surf Left along Row 7 to Column 9 to verify that the Row 7 crossover is 100% open and unblocked.
-  5. Once in the eastern canal, surf to Water Ramp 1 at (23, 3) and dismount on foot.
-  6. Log coordinates and results to provide indisputable proof of work for the 1F water crossover.
+  3. Use SURF at (15, 3) to board Row 4 water at (15, 4).
+  4. Perform the Eastern Canal Row 4 Passability Test:
+     - Surf Right along Row 4 from Column 15 to Column 23.
+     - Record the exact coordinates of each tile traversed to check for any hidden rock blockages.
+     - Target: Reach (23, 4) on water.
+  5. Once at (23, 4), move Up 1 step to Water Ramp 1 at (23, 3) and dismount on foot.
+     - Alternate Row 7 Crossover Test (if Row 4 is blocked): Surf Down Column 15 to (15, 7), and verify the Row 7 crossover.
+  6. Log coordinates, turn numbers, and results to provide indisputable proof of work for the Eastern Canal's passability.
 
 <hr>
 
