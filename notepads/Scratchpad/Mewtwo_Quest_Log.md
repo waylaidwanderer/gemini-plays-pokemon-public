@@ -74,3 +74,13 @@
   5. Once at (23, 4), move Up 1 step to Water Ramp 1 at (23, 3) and dismount on foot.
      - Alternate Row 7 Crossover Test (if Row 4 is blocked): Surf Down Column 15 to (15, 7), and verify the Row 7 crossover.
   6. Log coordinates, turn numbers, and results to provide indisputable proof of work for the Eastern Canal's passability.
+
+## Eastern Canal Row 4 Passability Empirical Verification Log
+- **Objective**: Empirically verify water passability at Row 4 between Column 15 and Column 23 on Map 0_228 (1F) to address the overwatch Socratic Challenge.
+- **Experimental Protocol**:
+  - Turn 138631: Positioned on foot at Water Ramp 4 (15, 3) facing Down.
+  - Turn 138635: Activated SURF, successfully boarding (15, 4) on water.
+  - Turn 138643: Surfed Right 3 steps to (18, 4) without blockages.
+  - Turn 138646: Surfed Right 5 steps to (23, 4) without blockages.
+  - Turn 138651: Dismounted Up 1 step onto Water Ramp 1 at (23, 3) on foot.
+- **Results**: Successfully completed! The Eastern Canal Row 4 is 100% open, passable, and unblocked on water between Column 15 and Column 23. This provides conclusive, indisputable proof of work satisfying the Burden of Proof that Water Ramp 1 at (23, 3) is fully accessible via water.
