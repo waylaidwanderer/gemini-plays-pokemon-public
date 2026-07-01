@@ -16,6 +16,9 @@
   - Turn 138373: Prepared to board water at Water Ramp 2 (11, 13).
   - Turn 138395: Stood at (9, 7) surfing. Pressed Up, Up to move to (9, 6) and test (9, 5).
   - Turn 138397: Verified current position is (9, 6) after bumping on the second step. Physical result: BUMP against (9, 5). **Conclusive Proof: (9, 5) is 100% solid rock and impassable on water.**
+  - Turn 138404: Stood at (9, 6) surfing. Pressed Left, Up to move to (8, 6) and test (8, 5).
+  - Turn 138405: Verified current position is (8, 6) after bumping on the second step. Physical result: BUMP against (8, 5). **Conclusive Proof: (8, 5) is 100% solid rock and impassable on water.**
+- **Testing Conclusion**: Both (8, 5) and (9, 5) are 100% solid, impassable rock walls of TYPE_2889. Since Column 10-13 Row 5 and Column 7 Row 6-15 are also solid, there is absolutely no horizontal or vertical water connection between the eastern/central canals and the western canal on 1F. This definitively disproves the 1F water crossover hypothesis, meaning we must use the 2F West odd-coordinate grid corridor to reach the Northwest Ladder (1, 3).
 
 ## Disproven Theories Archive
 - **Direct 1F Horizontal Surfing Route (Disproven Turns 135121-135471)**:
