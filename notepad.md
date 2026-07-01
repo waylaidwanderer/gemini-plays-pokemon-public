@@ -8222,7 +8222,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (9, 1) on Map 0_226 (2F West) on Turn 138468 facing Down. Ready to execute the final 14-step path to Northwest Ladder (1, 3).
+- Current Status: Standing on foot at (23, 2) on Map 0_226 (2F West) on Turn 138511 facing Right. Ready to execute the detour path to Northwest Ladder (1, 3).
 
 ## 1F Water Canal Column 7 and Column 13 Passability Test Log
 - **Objective**: Empirically verify water passability at Column 13 Rows 4/5 and Column 7 Rows 6/7 on Map 0_228 (1F) on water.
@@ -8248,48 +8248,42 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - Direct water surfing from Water Ramp 2 at (11, 13) to (1, 4) is blocked. Column 7 on Rows 6-7 is blocked by solid rock walls, and Column 6 is blocked across Rows 4-7.
 - **Direct Western Canal Surf Boarding (Disproven Turns 135380 and 135400)**:
   - Attempting to Surf facing Left from (1, 14) towards (0, 14) or facing Up from (0, 14) towards (0, 13) failed, proving that Column 0 is blocked on Row 13 and there is no direct Surf-Left boarding option at ground level.
-
 - **Direct Connection Finding (Turn 137593 Socratic Challenge)**:
-  - We have been operating under the assumption that 2F West is horizontally split. However, vanilla Cerulean Cave 2F is a perfect grid of 1x1 pillars at even-even coordinates (X and Y both even). Every odd-numbered row and odd-numbered column is fully open.
-  - This implies a direct on-foot connection between Southwest Ladder 6 at (3, 11) and Northwest Ladder (1, 3) must exist on 2F West! Specifically, walking up Column 11 or other odd columns should connect the south to the north.
-  - We will systematically test the passability of these lanes to find the unblocked route! We start by walking north to Row 9 and then east.
-  - Let's establish a dedicated testing scratchpad 'Scratchpad/2F_West_Pillar_Grid_Test' to log our physical testing and findings.
+  - We hypothesized that Southwest Ladder 6 at (3, 11) is connected on foot to (1, 3) on 2F West via an odd-coordinate grid corridor. However, our connected components analysis on Turn 138494 proved that Southwest Ladder 6 is in an isolated Component 1 of size 18, and Column 2 has solid rock walls at (2, 9), (2, 12), and (1, 10), (1, 11) are also solid. This completely isolates (3, 11) from (1, 3) on foot, disproving the direct 2F West southwest shortcut.
 - **2F East (29, 1) Pocket Passability (Disproven Turn 136026)**:
   - **Objective**: Verify if Row 0 at (27, 0) on Map 0_226 is passable on foot.
   - **Experimental Results**: On Turn 136025, starting from (29, 1), we walked Left to (28, 1), Up to (28, 0), and pressed Left against (27, 0). Result: BUMP (visited 0 tiles). This conclusively disproves the passability of (27, 0), proving 2F East (29, 1) is a 100% closed, dead-end pocket on foot.
+- **1F Northwest Column 4 Passability (Disproven Turn 138461)**:
+  - Standing on foot at (5, 2) on 1F Northwest and pressing Left against (4, 2) resulted in a direct collision BUMP on Turn 138461. This conclusively disproves the horizontal land crossover on Row 2 of 1F Northwest, proving that 1F Northwest is completely isolated on foot from the eastern landmass.
 
-## 1F Northwest Column 4 Passability Testing Plan
-- **Objective**: Empirically verify on foot whether Column 4 on 1F Northwest is actually open and passable, or if it is blocked as our historical database claims.
-- **Hypothesis**: The "Column 4 blockage" on 1F Northwest is actually map-level data pollution from 2F West's rock pillars. Column 4 on 1F is completely open, meaning 1F Northwest is fully connected on foot to the B1F descent at (1, 3).
-- **Experimental Protocol**:
-  1. We are currently standing at (11, 2) on foot on Map 0_228.
-  2. We will walk Left along Row 2 towards Column 4.
-  3. We will record the exact Turn, coordinates, and visual/physical results of each movement step.
-  4. If we successfully cross Column 4 and reach (3, 2), we will have conclusively proven Column 4 is open and unblocked!
-- **Testing Log**:
-  - Turn 138454: Prepared to begin the physical passability test of Column 4 from (11, 2).
-  - Turn 138457: Stood at (11, 2) on foot. Pressed Left 4 times. Arrived at (7, 2) on Turn 138458.
-  - Turn 138459: Stood at (7, 2) on foot. Pressed Left 3 times to move to (5, 2) and physically test (4, 2) on foot.
-  - Turn 138461: Arrived at (5, 2) facing Left. The movement was aborted at step 3 because of a physical collision. Visited exactly 2 tiles (7,2 -> 6,2 -> 5,2) and bumped on the 3rd step.
-  - **Conclusive Proof**: Column 4 at Row 2 (4, 2) is 100% solid, impassable rock wall of TYPE_2889. This confirms that 1F Northwest is indeed completely separated from the eastern landmass on foot at ground level. There is no map-level data pollution; the Column 4 blockage is real on 1F. We must ascend Ladder 5 at (7, 1) Northwest to find our way to Mewtwo via 2F West.
+## 2F West Maze Detour Analysis
+- **Discovered Constraint**: Koga's 2F West has solid rock walls on Column 2 on Rows 1-3 (specifically, (2, 1), (2, 2), and (2, 3) are solid rock walls of TYPE_2889). Row 4 is also completely solid from Column 1 to Column 8. This isolates the Northwest Ladder (1, 3) from the immediate northern corridor (Row 1).
+- **The True Detour Route**:
+  To reach the Northwest Ladder (1, 3) from Ladder 5 at (9, 1), we must execute a complete 82-step detour around the entire 2F West floor:
+  1. Walk Left along Row 1 to (3, 1).
+  2. Walk Down Column 3 to (3, 3).
+  3. Walk Right along Row 3 to (9, 3).
+  4. Walk Down Column 9 to (9, 5) to bypass the Column 10-12 mountain block.
+  5. Walk Right along Row 5 to (13, 5).
+  6. Walk Up Column 13 to (13, 1) to reach Row 1 again.
+  7. Walk Right along Row 1 to (18, 1).
+  8. Walk Down Column 18 to (18, 3).
+  9. Walk Right along Row 3 to (20, 3).
+  10. Walk Up Column 20 to (20, 2) to reach Row 2.
+  11. Walk Right along Row 2 to (24, 2).
+  12. Walk Down Column 24 to (24, 5).
+  13. Walk Right to (25, 5) to bypass the eastern blockages.
+  14. Walk Down Column 25 to Row 14 at (25, 14).
+  15. Walk Left along Row 14 all the way to (2, 14).
+  16. Walk Up Column 2 to (2, 13) and Left to (1, 13).
+  17. Walk Up Column 1 to (1, 3) [Northwest Ladder] to access B1F!
 
-## 2F West Pillar Grid Grid-Coordinate Analysis
-- **Core Principle**: Vanilla Cerulean Cave 2F is designed as a grid of 1x1 rock pillars placed at even-even coordinates (where both X and Y are even, such as (2, 2), (4, 4), (12, 6), etc.). Every odd-numbered row and odd-numbered column consists of completely open, unblocked walkable space.
-- **Unblocked Path to Mewtwo B1F stairs**:
-  1. We will dismount at Water Ramp 4 at (15, 3) and walk to Ladder 5 at (7, 1) Northwest on 1F, which warps us to (9, 1) on 2F West.
-  2. From (9, 1) on 2F West, we can walk Left to (3, 1) along Row 1 (odd row):
-     - Path: (9, 1) -> (8, 1) -> (7, 1) -> (6, 1) -> (5, 1) -> (4, 1) -> (3, 1).
-     - Since Row 1 is an odd row, there are no pillars on it.
-  3. From (3, 1), we can walk Down along Column 3 (odd column) to reach Row 3:
-     - Path: (3, 1) -> (3, 2) -> (3, 3).
-     - Since Column 3 is an odd column, there are no pillars on it.
-  4. From (3, 3), we can walk Left along Row 3 (odd row) to reach the Northwest Ladder at (1, 3):
-     - Path: (3, 3) -> (2, 3) -> (1, 3).
-     - Since Row 3 is an odd row, there are no pillars on it, and (1, 3) connects directly to B1F Mewtwo!
-- **Verification Log**: We will log each step on 2F West to prove this grid layout and unlock Mewtwo's room!
-- Turn 138482: Walked Left 1 step to (8, 1) and encountered a wild Chansey. Decided to flee to preserve our single Master Ball and Ultra Ball for Mewtwo.
-- Turn 138485: Walked Left 3 steps to (5, 1) and encountered a wild Dodrio. Decided to flee to preserve our single Master Ball and Ultra Ball for Mewtwo.
-- Turn 138501: Walked Right 3 steps to (6, 3) and encountered a wild Rhydon. Decided to flee to preserve our single Master Ball and Ultra Ball for Mewtwo.
+- **Verification Log**:
+  - Turn 138482: Walked Left 1 step to (8, 1) and encountered a wild Chansey (fled).
+  - Turn 138485: Walked Left 3 steps to (5, 1) and encountered a wild Dodrio (fled).
+  - Turn 138501: Walked Right 3 steps to (6, 3) and encountered a wild Rhydon (fled).
+  - Turn 138509: Walked from (13, 1) to (18, 3) on foot successfully.
+  - Turn 138511: Walked from (18, 3) to (23, 2) on foot successfully (currently standing at (23, 2)).
 
 <hr>
 
