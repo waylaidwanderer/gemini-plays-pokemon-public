@@ -8392,6 +8392,9 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **(13, 4) Blockage**: Physically verified on Turn 137436. Stood at (14, 4) on water facing Left, pressed Left. Result: BUMP (no coordinate change). Conclusively proves that (13, 4) is a solid, impassable rock wall of TYPE_2889 on water.
 - **(13, 5) Blockage**: Physically verified on Turn 137432. Stood at (14, 5) on water facing Left, pressed Left. Result: BUMP (no coordinate change). Conclusively proves that (13, 5) is a solid, impassable rock wall of TYPE_2889 on water.
   - **(7, 7) Blockage (Verified Turn 137525)**: Stood at (8, 7) on water facing Left, and pressed Left. Result: BUMP (visited 0 tiles), confirming (7, 7) is a solid rock wall of TYPE_2889 on water.
+## Overworld Verification Updates (Turn 137776)
+- Map 0_226, 2F West (11, 8): Physically verified solid rock wall of TYPE_2889 (Turn 137600).
+- Map 0_226, 2F West (13, 7): Physically verified solid rock wall of TYPE_2889 (Turn 137605).
 
 <hr>
 
