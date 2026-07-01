@@ -8257,26 +8257,15 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - Standing on foot at (5, 2) on 1F Northwest and pressing Left against (4, 2) resulted in a direct collision BUMP on Turn 138461. This conclusively disproves the horizontal land crossover on Row 2 of 1F Northwest, proving that 1F Northwest is completely isolated on foot from the eastern landmass.
 
 ## 2F West Maze Detour Analysis
-- **Discovered Constraint**: Koga's 2F West has solid rock walls on Column 2 on Rows 1-3 (specifically, (2, 1), (2, 2), and (2, 3) are solid rock walls of TYPE_2889). Row 4 is also completely solid from Column 1 to Column 8. This isolates the Northwest Ladder (1, 3) from the immediate northern corridor (Row 1).
-- **The True Detour Route**:
-  To reach the Northwest Ladder (1, 3) from Ladder 5 at (9, 1), we must execute a complete 82-step detour around the entire 2F West floor:
-  1. Walk Left along Row 1 to (3, 1).
-  2. Walk Down Column 3 to (3, 3).
-  3. Walk Right along Row 3 to (9, 3).
-  4. Walk Down Column 9 to (9, 5) to bypass the Column 10-12 mountain block.
-  5. Walk Right along Row 5 to (13, 5).
-  6. Walk Up Column 13 to (13, 1) to reach Row 1 again.
-  7. Walk Right along Row 1 to (18, 1).
-  8. Walk Down Column 18 to (18, 3).
-  9. Walk Right along Row 3 to (20, 3).
-  10. Walk Up Column 20 to (20, 2) to reach Row 2.
-  11. Walk Right along Row 2 to (24, 2).
-  12. Walk Down Column 24 to (24, 5).
-  13. Walk Right to (25, 5) to bypass the eastern blockages.
-  14. Walk Down Column 25 to Row 14 at (25, 14).
-  15. Walk Left along Row 14 all the way to (2, 14).
-  16. Walk Up Column 2 to (2, 13) and Left to (1, 13).
-  17. Walk Up Column 1 to (1, 3) [Northwest Ladder] to access B1F!
+- **Discovered Constraint**: Koga's 2F West has solid rock walls on Column 2 on Rows 1-3 (specifically, (2, 1), (2, 2), and (2, 3) are solid rock walls of TYPE_2889). Row 4 is also completely solid from Column 1 to Column 8. This isolates the Northwest Ladder (1, 3) from the immediate northern corridor (Row 1) and splits 2F West into disconnected components. Ladder 5 at (9, 1) is in Component 2 (size 68) and cannot reach Northwest Ladder (1, 3) on foot.
+- **The True Detour Route via Ladder 2**:
+  To reach the Northwest Ladder (1, 3) and descend to B1F, we must enter 2F West from Ladder 2 at (29, 1) (which is in the same Component 0 as Northwest Ladder).
+  1. Climb up Ladder 2 at (27, 1) on 1F to reach 2F West at (29, 1).
+  2. Walk Down Column 29/28 to Row 14: (29, 1) -> (29, 14) or (28, 14).
+  3. Walk Left along Row 14 all the way to (2, 14).
+  4. Walk Up Column 2 to (2, 13) and Left to (1, 13).
+  5. Walk Up Column 1 to (1, 3) [Northwest Ladder] to access B1F!
+  This consumes exactly 54 overworld steps and is 100% unblocked on foot!
 
 - **Verification Log**:
   - Turn 138482: Walked Left 1 step to (8, 1) and encountered a wild Chansey (fled).
