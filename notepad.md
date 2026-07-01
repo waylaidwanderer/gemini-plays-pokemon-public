@@ -8222,7 +8222,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (22, 13) on Map 0_226 (2F West) on Turn 138752 facing Left. Bypassed Row 17 blockages by looping up to Row 13, and currently walking left along the unblocked Row 13 corridor.
+- Current Status: Standing on foot at (27, 17) on Map 0_226 (2F West) on Turn 138781 facing Down.
 
 ## Row 17 Bypass Progression Log
 - **Turn 138737**: Positioned on foot at (27, 14) facing Left.
@@ -8243,16 +8243,10 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 
 ## Active Backtracking Log
 - **Turn 138769**: Standing at (17, 13) on foot, preparing to walk Right back to (22, 13) and then loop down to Row 17 to reach the eastern side.
-
-## Row 5 Water Passability Testing Plan
-- **Objective**: Board water at Water Ramp 2 and surf north along the central canal to physically test if we can cross Row 5 at (8, 5) or (9, 5) on water. If open, this connects the central/eastern canals directly to the western canal on water!
-- **Testing Log**:
-  - Turn 138373: Prepared to board water at Water Ramp 2 (11, 13).
-  - Turn 138395: Stood at (9, 7) surfing. Pressed Up, Up to move to (9, 6) and test (9, 5).
-  - Turn 138397: Verified current position is (9, 6) after bumping on the second step. Physical result: BUMP against (9, 5). **Conclusive Proof: (9, 5) is 100% solid rock and impassable on water.**
-  - Turn 138404: Stood at (9, 6) surfing. Pressed Left, Up to move to (8, 6) and test (8, 5).
-  - Turn 138405: Verified current position is (8, 6) after bumping on the second step. Physical result: BUMP against (8, 5). **Conclusive Proof: (8, 5) is 100% solid rock and impassable on water.**
-- **Testing Conclusion**: Both (8, 5) and (9, 5) are 100% solid, impassable rock walls of TYPE_2889. Since Column 10-13 Row 5 and Column 7 Row 6-15 are also solid, there is absolutely no horizontal or vertical water connection between the eastern/central canals and the western canal on 1F. This definitively disproves the 1F water crossover hypothesis, meaning we must use the 2F West odd-coordinate grid corridor to reach the Northwest Ladder (1, 3).
+- **Turn 138771**: Walked Right 3 steps, hit a wild Venomoth at (20, 13). Fled battle.
+- **Turn 138773**: Walked Right 2 steps to reach (22, 13) on foot.
+- **Turn 138774**: Executed loop down: `["Down", "Down", "Left", "Down", "Down"]` to reach (21, 17) on foot.
+- **Turn 138776**: Walked Right 6 steps to reach (27, 17) on foot on Row 17.
 
 ## Disproven Theories Archive
 - **Direct 1F Horizontal Surfing Route (Disproven Turns 135121-135471)**:
