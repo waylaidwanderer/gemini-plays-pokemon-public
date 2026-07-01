@@ -59,5 +59,6 @@
   3. Use SURF to enter the water. [Completed on Turn 138149]
   4. Surf to (14, 4) and attempt to move Left onto (13, 4).
      - *Result (Turn 138153)*: BUMP! Labeled as (13, 4) TYPE_2889. Conclusively proves (13, 4) is solid rock and impassable on water.
-  5. Surf to (14, 5) and attempt to move Left onto (13, 5). [Active]
+  5. Surf to (14, 5) and attempt to move Left onto (13, 5).
+     - *Result (Turn 138159)*: BUMP! Labeled as (13, 5) TYPE_2889. Conclusively proves (13, 5) is solid rock and impassable on water.
   6. Surf to (14, 6) or other Rows to find any other potential horizontal crossovers.
