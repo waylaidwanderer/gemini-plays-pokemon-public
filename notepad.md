@@ -8289,6 +8289,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Verification Log**: We will log each step on 2F West to prove this grid layout and unlock Mewtwo's room!
 - Turn 138482: Walked Left 1 step to (8, 1) and encountered a wild Chansey. Decided to flee to preserve our single Master Ball and Ultra Ball for Mewtwo.
 - Turn 138485: Walked Left 3 steps to (5, 1) and encountered a wild Dodrio. Decided to flee to preserve our single Master Ball and Ultra Ball for Mewtwo.
+- Turn 138501: Walked Right 3 steps to (6, 3) and encountered a wild Rhydon. Decided to flee to preserve our single Master Ball and Ultra Ball for Mewtwo.
 
 <hr>
 
