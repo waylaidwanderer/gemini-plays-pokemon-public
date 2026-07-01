@@ -29,11 +29,16 @@
 - **The True Detour Route via Ladder 2**:
   To reach the Northwest Ladder (1, 3) and descend to B1F, we must enter 2F West from Ladder 2 at (29, 1) (which is in the same Component 0 as Northwest Ladder).
   1. Climb up Ladder 2 at (27, 1) on 1F to reach 2F West at (29, 1).
-  2. Walk Down Column 29/28 to Row 14: (29, 1) -> (29, 14) or (28, 14).
-  3. Walk Left along Row 14 all the way to (2, 14).
-  4. Walk Up Column 2 to (2, 13) and Left to (1, 13).
-  5. Walk Up Column 1 to (1, 3) [Northwest Ladder] to access B1F!
-  This consumes exactly 54 overworld steps and is 100% unblocked on foot!
+  2. Walk Down Column 29 to Row 6, then bypass the Row 7/8 solid rock blockages to reach Column 26.
+  3. Walk Down Column 26 to Row 14. Discover that (25, 14) is blocked.
+  4. Perform the Row 17 Bypass: walk Right to (27, 14), Down 3 steps to (27, 17), and Left along Row 17 to (2, 17).
+  5. Navigate Up to Northwest Ladder (1, 3) at Row 3.
+  This consumes exactly 58 overworld steps and is 100% unblocked on foot!
+
+- **Row 14 Collision Test (Turn 138719)**:
+  - On Turn 138719, standing at (26, 11), we pressed Down, Down, Down, Left to reach (25, 14).
+  - Result: BUMP against (25, 14) on foot on the final Left step.
+  - Conclusive Proof: (25, 14) is a solid, impassable rock wall of TYPE_2889. Visually, Rows 14, 15, 16 are blocked by a solid wall structure on Columns 23-26, necessitating the Row 17 bypass route.
 
 - **Verification Log**:
   - Turn 138482: Walked Left 1 step to (8, 1) and encountered a wild Chansey (fled).
