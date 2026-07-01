@@ -8222,7 +8222,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (13, 5) on Map 0_226 (2F West) on Turn 138578 facing Down. Ready to continue backtracking to Ladder 5.
+- Current Status: Standing on foot at (9, 3) on Map 0_226 (2F West) on Turn 138599 facing Up. Fled from Marowak, ready to continue backtracking to Ladder 5.
 
 ## 1F Water Canal Column 7 and Column 13 Passability Test Log
 - **Objective**: Empirically verify water passability at Column 13 Rows 4/5 and Column 7 Rows 6/7 on Map 0_228 (1F) on water.
@@ -8284,6 +8284,13 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - Turn 138501: Walked Right 3 steps to (6, 3) and encountered a wild Rhydon (fled).
   - Turn 138509: Walked from (13, 1) to (18, 3) on foot successfully.
   - Turn 138511: Walked from (18, 3) to (23, 2) on foot successfully (currently standing at (23, 2)).
+  - Turn 138520: Walked from (23, 2) to (24, 5) successfully.
+  - Turn 138521: Attempted to walk Right onto (25, 5) but bumped, proving (25, 5) is solid rock.
+  - Turn 138528: Walked from (24, 5) to (25, 4) successfully, proving Row 4 is open across Koga's vertical wall.
+  - Turn 138556: Walked from (25, 4) back to (18, 3) successfully.
+  - Turn 138561: Walked from (18, 3) to (16, 1) and encountered a wild Dodrio (fled).
+  - Turn 138571: Walked from (16, 1) to (13, 5) successfully.
+  - Turn 138598: Walked from (13, 5) to (9, 3) and encountered a wild Marowak (fled).
 
 ## 1F Water Transit and Crossover Verification Plan
 - **Objective**: Surf from 1F Northwest at (15, 3) to Water Ramp 1 at (23, 3) to reach the eastern landmass.
