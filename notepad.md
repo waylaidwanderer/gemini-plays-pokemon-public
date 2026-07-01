@@ -8234,16 +8234,15 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Status**: Completed and fully disproven on Turn 137530. The water canals are 100% split at Column 13 and Column 7. There is no horizontal water shortcut on 1F. We must use the verified multi-map backtracking route to reach B1F.
 
 ## Verified Master Route to Mewtwo (B1F)
-- **Concept**: Since the 2F West landing pocket at (9, 1)/(7, 1) is 100% isolated because (7, 1) is a warp and Row 0 is blocked at (6, 0), we must use Southwest Ladder 6 at (3, 11) to reach 2F West, and then take the alternate path through Column 14/15 to reach Northwest Ladder (1, 3) to descend to B1F.
-- **Path Steps**:
-  1. Walk East from (8, 1) to Water Ramp 4 at (15, 3).
-  2. Use SURF to board the water canal and surf south to Water Ramp 2 at (11, 13).
-  3. Dismount onto the central platform and descend the central staircase at (17, 15) to (17, 16) on the ground floor.
-  4. Walk west along Row 17 to (1, 13) and climb the wooden stairs onto the southwest plateau.
-  5. Walk to Southwest Ladder 6 at (3, 11) and climb up to 2F West at (3, 11).
-  6. On 2F West, navigate the alternate path around the blockages:
-     - (3, 11) -> (3, 9) -> (13, 9) -> (13, 8) -> (14, 8) -> (14, 7) -> (14, 6) -> (14, 5) -> (14, 4) -> (13, 4) -> (12, 4) -> (11, 4) -> (10, 4) -> (9, 4) -> (8, 4) -> (7, 4) -> (7, 5) -> (6, 5) -> (5, 5) -> (4, 5) -> (3, 5) -> (2, 5) -> (2, 4) -> (1, 4) -> (1, 3).
-  7. Take Northwest Ladder at (1, 3) DOWN to 1F Northwest.
+- **Concept**: Since 2F West (3, 11) is completely isolated on foot from (1, 3) due to Row 8 blockages (proven on Turn 137988 via BFS), and 1F Northwest (7, 1) is isolated on foot from (1, 3) due to the (4, 1) blockage, the only unblocked route to Mewtwo requires taking Ladder 5 at (7, 1) on 1F up to (9, 1) on 2F West and navigating the 80-step loop around 2F to reach Northwest Ladder (1, 3).
+- **Backtracking Route Steps**:
+  1. Descend Southwest Ladder 6 at (3, 11) on 2F West to 1F Southwest at (3, 11).
+  2. Walk on foot from (3, 11) to Water Ramp 2 at (11, 13).
+  3. Surf from Water Ramp 2 at (11, 13) to Water Ramp 4 at (15, 3).
+  4. Walk on foot from (15, 3) to Ladder 5 at (7, 1).
+  5. Climb up Ladder 5 to (9, 1) on 2F West.
+  6. Navigate the 80-step on-foot loop on 2F to reach Northwest Ladder (1, 3).
+  7. Descend Northwest Ladder at (1, 3) to 1F Northwest.
   8. Take the adjacent stairs down to B1F to capture Mewtwo!
 
 ## Disproven Theories Archive
