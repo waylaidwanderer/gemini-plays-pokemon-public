@@ -8222,7 +8222,12 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (26, 14) on Map 0_226 (2F West) on Turn 138722 facing Left. Bypassed Row 7/8 blockages, discovered Row 14 is blocked at (25, 14), ready to navigate to Row 17 bypass.
+- Current Status: Standing on foot at (26, 17) on Map 0_226 (2F West) on Turn 138739 facing Left. Successfully navigated around the Row 14/15/16 solid rock blockages to reach the Row 17 bypass.
+
+## Row 17 Bypass Progression Log
+- **Turn 138737**: Positioned on foot at (27, 14) facing Left.
+- **Turn 138738**: Executed 6-step sequence: `["Right", "Down", "Down", "Left", "Down", "Left"]` to bypass the solid rock blockages and arrive safely at (26, 17) on foot on Row 17.
+- **Results**: Successfully bypassed the solid rock blocks at (25, 14) and Row 15/16. Row 17 is confirmed 100% passable and unblocked heading west. We will now walk Left along Row 17 to reach (2, 17) on foot.
 
 ## Row 5 Water Passability Testing Plan
 - **Objective**: Board water at Water Ramp 2 and surf north along the central canal to physically test if we can cross Row 5 at (8, 5) or (9, 5) on water. If open, this connects the central/eastern canals directly to the western canal on water!
