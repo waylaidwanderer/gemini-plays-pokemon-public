@@ -8222,7 +8222,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Surfing on GEMMY at (8, 6) on Map 0_228 (1F) on Turn 138430. Actively navigating east along the unblocked Row 6 crossover to reach Water Ramp 4 and Ladder 5.
+- Current Status: On foot at (11, 2) on Map 0_228 (1F) on Turn 138451 facing Left. Actively navigating west along Row 2 to physically test the passability of Column 4 on 1F Northwest.
 
 ## 1F Water Canal Column 7 and Column 13 Passability Test Log
 - **Objective**: Empirically verify water passability at Column 13 Rows 4/5 and Column 7 Rows 6/7 on Map 0_228 (1F) on water.
