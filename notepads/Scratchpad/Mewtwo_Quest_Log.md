@@ -1,5 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (27, 17) on Map 0_226 (2F West) on Turn 138781 facing Down.
+- Current Status: Standing on foot at (27, 16) on Map 0_226 (2F West) on Turn 138784 facing Up.
 
 ## Row 17 Bypass Progression Log
 - **Turn 138737**: Positioned on foot at (27, 14) facing Left.
@@ -24,6 +24,7 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 138773**: Walked Right 2 steps to reach (22, 13) on foot.
 - **Turn 138774**: Executed loop down: `["Down", "Down", "Left", "Down", "Down"]` to reach (21, 17) on foot.
 - **Turn 138776**: Walked Right 6 steps to reach (27, 17) on foot on Row 17.
+- **Turn 138782**: Standing at (27, 17) on foot. Pressed Up to (27, 16), hit a wild Chansey. Fled battle.
 
 ## Disproven Theories Archive
 - **Direct 1F Horizontal Surfing Route (Disproven Turns 135121-135471)**:
