@@ -8234,6 +8234,15 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - **Tile (15, 7)**: Impassable (Bumped on Turn 137374; verified as TYPE_2889 solid rock wall)
 - **Status**: Completed and fully disproven on Turn 137374, as the alternate corridor is blocked at Y=7 by the verified solid rock walls at (14, 7) and (15, 7). No further alternate testing on Y=4..6 is needed.
 
+## 1F Water Canal Column 7 and Column 13 Passability Test Log
+- **Objective**: Empirically verify water passability at Column 13 Rows 4/5 and Column 7 Rows 6/7 on Map 0_228 (1F) on water.
+- **Experimental Results**:
+  - **Tile (13, 5)**: Impassable (Bumped on Turn 137432; verified solid rock of TYPE_2889).
+  - **Tile (13, 4)**: Impassable (Bumped on Turn 137436; verified solid rock of TYPE_2889).
+  - **Tile (7, 7)**: Impassable (Bumped on Turn 137525; verified solid rock of TYPE_2889).
+  - **Tile (7, 6)**: Impassable (Bumped on Turn 137530; verified solid rock of TYPE_2889).
+- **Status**: Completed and fully disproven on Turn 137530. The water canals are 100% split at Column 13 and Column 7. There is no horizontal water shortcut on 1F. We must use the verified multi-map backtracking route to reach B1F.
+
 ## Verified Master Route to Mewtwo (B1F)
 - **Concept**: Since the 2F West landing pocket at (9, 1)/(7, 1) is 100% isolated because (7, 1) is a warp and Row 0 is blocked at (6, 0), we must use Southwest Ladder 6 at (3, 11) to reach 2F West, and then take the alternate path through Column 14/15 to reach Northwest Ladder (1, 3) to descend to B1F.
 - **Path Steps**:
