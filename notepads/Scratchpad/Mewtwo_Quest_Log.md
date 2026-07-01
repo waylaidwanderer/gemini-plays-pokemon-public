@@ -64,3 +64,4 @@
      - Path: (3, 3) -> (2, 3) -> (1, 3).
      - Since Row 3 is an odd row, there are no pillars on it, and (1, 3) connects directly to B1F Mewtwo!
 - **Verification Log**: We will log each step on 2F West to prove this grid layout and unlock Mewtwo's room!
+- Turn 138482: Walked Left 1 step to (8, 1) and encountered a wild Chansey. Decided to flee to preserve our single Master Ball and Ultra Ball for Mewtwo.
