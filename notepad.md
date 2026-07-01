@@ -8222,7 +8222,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (29, 6) on Map 0_226 (2F West) on Turn 138691 facing Down. Ascended via Ladder 2, ready to execute the 9-step bypass to Row 14.
+- Current Status: Standing on foot at (26, 10) on Map 0_226 (2F West) on Turn 138705 facing Down. Bypassed the Row 7/8 blockages, ready to proceed Down Column 26 to Row 14.
 
 ## 1F Water Canal Column 7 and Column 13 Passability Test Log
 - **Objective**: Empirically verify water passability at Column 13 Rows 4/5 and Column 7 Rows 6/7 on Map 0_228 (1F) on water.
