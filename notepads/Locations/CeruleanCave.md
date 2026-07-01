@@ -131,3 +131,6 @@
 - Map 0_226, 2F West (13, 7): Physically verified solid rock wall of TYPE_2889 (Turn 137605).
 - Map 0_226, 2F West (9, 8): Physically verified solid rock wall of TYPE_2889 (Turn 137799).
 - Map 0_226, 2F West (10, 8): Physically verified solid rock wall of TYPE_2889 (Turn 137808).
+- **(19, 1) Blockage (Verified Turn 138068)**: Visually and physically verified solid rock wall of TYPE_2889.
+- **(19, 2) Blockage (Verified Turn 138068)**: Standing on foot at (18, 2) facing Right, pressed Right. Result: BUMP (visited 0 tiles). This physically and conclusively proves that (19, 2) is a solid, impassable rock wall of TYPE_2889. This blocks direct rightward progress on Row 2 across Column 19.
+- **Row 4 Blockage Pattern on 2F West**: Row 4 is completely solid rock of TYPE_2889 on all columns EXCEPT Column 9, 13, and 14, acting as Koga's horizontal split. Verified on Turn 138064.
