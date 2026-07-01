@@ -123,3 +123,4 @@
 ## 1F Water Canal Column 13 Solid Blockages Log (Migrated Turn 137522)
 - **(13, 4) Blockage**: Physically verified on Turn 137436. Stood at (14, 4) on water facing Left, pressed Left. Result: BUMP (no coordinate change). Conclusively proves that (13, 4) is a solid, impassable rock wall of TYPE_2889 on water.
 - **(13, 5) Blockage**: Physically verified on Turn 137432. Stood at (14, 5) on water facing Left, pressed Left. Result: BUMP (no coordinate change). Conclusively proves that (13, 5) is a solid, impassable rock wall of TYPE_2889 on water.
+  - **(7, 7) Blockage (Verified Turn 137525)**: Stood at (8, 7) on water facing Left, and pressed Left. Result: BUMP (visited 0 tiles), confirming (7, 7) is a solid rock wall of TYPE_2889 on water.
