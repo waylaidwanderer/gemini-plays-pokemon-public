@@ -8268,6 +8268,10 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   4. If we successfully cross Column 4 and reach (3, 2), we will have conclusively proven Column 4 is open and unblocked!
 - **Testing Log**:
   - Turn 138454: Prepared to begin the physical passability test of Column 4 from (11, 2).
+  - Turn 138457: Stood at (11, 2) on foot. Pressed Left 4 times. Arrived at (7, 2) on Turn 138458.
+  - Turn 138459: Stood at (7, 2) on foot. Pressed Left 3 times to move to (5, 2) and physically test (4, 2) on foot.
+  - Turn 138461: Arrived at (5, 2) facing Left. The movement was aborted at step 3 because of a physical collision. Visited exactly 2 tiles (7,2 -> 6,2 -> 5,2) and bumped on the 3rd step.
+  - **Conclusive Proof**: Column 4 at Row 2 (4, 2) is 100% solid, impassable rock wall of TYPE_2889. This confirms that 1F Northwest is indeed completely separated from the eastern landmass on foot at ground level. There is no map-level data pollution; the Column 4 blockage is real on 1F. We must ascend Ladder 5 at (7, 1) Northwest to find our way to Mewtwo via 2F West.
 
 ## 2F West Pillar Grid Grid-Coordinate Analysis
 - **Core Principle**: Vanilla Cerulean Cave 2F is designed as a grid of 1x1 rock pillars placed at even-even coordinates (where both X and Y are even, such as (2, 2), (4, 4), (12, 6), etc.). Every odd-numbered row and odd-numbered column consists of completely open, unblocked walkable space.
