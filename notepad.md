@@ -8222,7 +8222,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (27, 16) on Map 0_226 (2F West) on Turn 138784 facing Up.
+- Current Status: Standing on foot at (26, 1) on Map 0_228 (1F East) on Turn 138803 facing Down.
 
 ## Row 17 Bypass Progression Log
 - **Turn 138737**: Positioned on foot at (27, 14) facing Left.
@@ -8243,6 +8243,19 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 
 ## Active Backtracking Log
 - **Turn 138769**: Standing at (17, 13) on foot, preparing to walk Right back to (22, 13) and then loop down to Row 17 to reach the eastern side.
+- **Turn 138771**: Walked Right 3 steps, hit a wild Venomoth at (20, 13). Fled battle.
+- **Turn 138773**: Walked Right 2 steps to reach (22, 13) on foot.
+- **Turn 138774**: Executed loop down: `["Down", "Down", "Left", "Down", "Down"]` to reach (21, 17) on foot.
+- **Turn 138776**: Walked Right 6 steps to reach (27, 17) on foot on Row 17.
+- **Turn 138782**: Standing at (27, 17) on foot. Pressed Up to (27, 16), hit a wild Chansey. Fled battle.
+- **Turn 138785**: Standing at (27, 16) on foot. Pressed Right, Up 3 times, Right, Up. Interrupted at (29, 14) by a wild Marowak. Fled battle.
+- **Turn 138788**: Standing at (29, 14) on foot. Pressed Left 3 times, Up 3 times to reach (26, 11) on foot.
+- **Turn 138791**: Standing at (26, 11) on foot. Pressed Up, Up, Left, Up, Up, Right, Right through Koga's Serpentine Bypass to reach (27, 7) on foot.
+- **Turn 138792**: Standing at (27, 7) on foot. Pressed Up, Right, Right, Up, Up, Up to reach (29, 3) on foot.
+- **Turn 138794**: Standing at (29, 3) on foot. Pressed Left, Up 2 times, Right to reach Ladder 2 at (29, 1). Interrupted at (28, 3) by a wild Rhydon. Fled battle.
+- **Turn 138797**: Standing at (28, 3) on foot. Pressed Up, Up, Right to reach (29, 1), immediately descending Ladder 2 to 1F East at (27, 1).
+- **Turn 138800**: Standing at (27, 1) on foot. Pressed Left 6 times, hit a wild Venomoth at (26, 1). Fled battle.
+- **Turn 138803**: Standing at (26, 1) on foot, preparing to walk to Water Ramp 1 at (23, 3).
 - **Turn 138771**: Walked Right 3 steps, hit a wild Venomoth at (20, 13). Fled battle.
 - **Turn 138773**: Walked Right 2 steps to reach (22, 13) on foot.
 - **Turn 138774**: Executed loop down: `["Down", "Down", "Left", "Down", "Down"]` to reach (21, 17) on foot.
