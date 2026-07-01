@@ -35,19 +35,16 @@
   - **Objective**: Verify if Row 0 at (27, 0) on Map 0_226 is passable on foot.
   - **Experimental Results**: On Turn 136025, starting from (29, 1), we walked Left to (28, 1), Up to (28, 0), and pressed Left against (27, 0). Result: BUMP (visited 0 tiles). This conclusively disproves the passability of (27, 0), proving 2F East (29, 1) is a 100% closed, dead-end pocket on foot.
 
-## Verified 1F Surfing Backtracking Route (3, 11) to (7, 1) Steps:
-- **Phase 1: Southwest Ladder (3, 11) on 1F to Water Ramp 2 (11, 13) [Completed]**
-  - Path: `['Down', 'Left', 'Left', 'Down', 'Down', 'Down', 'Down', 'Right', 'Down', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Up', 'Right', 'Right', 'Up', 'Up', 'Left', 'Left', 'Up', 'Up', 'Left', 'Left', 'Left', 'Left', 'Down']`
-  - Ended at: (11, 13) on foot facing Down.
-
-- **Phase 2: Surf from Water Ramp 2 (11, 13) to Water Ramp 4 (15, 3) [Active]**
-  - Action: Select GEMMY (BLASTOISE) and use SURF.
-  - Path on Water: `['Down', 'Left', 'Left', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Right', 'Right', 'Right', 'Right', 'Right', 'Up', 'Up', 'Right', 'Up']`
-  - Dismounts onto foot at (15, 3) automatically when moving into (15, 3).
-
-- **Phase 3: Walk from Water Ramp 4 (15, 3) to Ladder 5 (7, 1) Northwest**
-  - Path on Foot: `['Up', 'Up', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left']`
-  - Arrives at: (7, 1) (Ladder 5), which leads up to 2F West at (9, 1).
+## 2F West Pillar Grid Exploration Plan
+- **Objective**: Navigate 2F West (Map 0_226) on foot from Southwest Ladder 6 at (3, 11) to Northwest Ladder at (1, 3).
+- **Core Concept**: 2F West is a perfect grid of 1x1 pillars at even-even coordinates (X and Y both even). Every odd-numbered row and odd-numbered column is fully open and unblocked.
+- **Route Hypothesis**:
+  1. Climb up the Southwest Ladder at (3, 11) to reach 2F West at (3, 11).
+  2. Walk north along the completely open Column 3 (odd column) to Row 3 (odd row):
+     - Path: (3, 11) -> (3, 10) -> (3, 9) -> (3, 8) -> (3, 7) -> (3, 6) -> (3, 5) -> (3, 4) -> (3, 3).
+  3. Walk Left 2 steps along the completely open Row 3 (odd row) to reach the Northwest Ladder at (1, 3):
+     - Path: (3, 3) -> (2, 3) -> (1, 3).
+- **Burden of Proof testing**: We will systematically execute and log this route step-by-step to find the unblocked passage to Mewtwo!
 
 ## 1F Water Canal Row 4 and 5 Systematic Re-Testing Protocol (Turn 138130)
 - **Objective**: Re-test the water canal crossover at Rows 4 and 5 on Map 0_228 (specifically around Columns 12 and 13) on Surf to find the unblocked water path to the northwest quadrant, as the current deadlock implies a logical mapping impossibility.
