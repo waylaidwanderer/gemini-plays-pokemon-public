@@ -8233,14 +8233,16 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Turn 138746**: Standing at (21, 17) on foot. Executed `["Up", "Up", "Right", "Up", "Up"]` to loop around the solid rock walls at (21, 14) and (22, 16), reaching (22, 13) on foot. Interrupted by a wild Wigglytuff. Fled battle.
 - **Turn 138752**: Standing at (22, 13) on foot. Confirmed that Row 13 is fully passable and unblocked heading west.
 
-## The True Detour Route via Ladder 2
-To reach the Northwest Ladder (1, 3) and descend to B1F, we must enter 2F West from Ladder 2 at (29, 1).
-1. Climb up Ladder 2 at (27, 1) on 1F to reach 2F West at (29, 1).
-2. Walk Down Column 29 to Row 6, then bypass the Row 7/8 solid rock blockages to reach Column 26.
-3. Walk Down Column 26 to Row 14. Discover that (25, 14) is blocked.
-4. Perform the Row 17 Bypass detour: walk Right to (27, 14), Down to Row 17, and Left to (21, 17).
-5. Loop Up: Walk Up 2 steps to (21, 15), Right to (22, 15), Up 2 steps to (22, 13).
-6. Walk Left along Row 13 to reach (17, 13), and then proceed west.
+## The True Detour Route via Ladder 2 - DISPROVEN
+To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted to enter 2F West from Ladder 2 at (29, 1). However, on Turn 138765, we conclusively disproved this detour route:
+- Row 17 is blocked at (20, 17) by a solid rock wall of TYPE_2889, separating 2F East from the western half of 2F West.
+- Vertical transit between Rows 11-13 and Row 17 on the western side of Column 21 is completely blocked by solid rock walls on Rows 14-16 across Columns 13-19.
+- Thus, 2F East (29, 1) and 2F West (1, 3) are completely physically disconnected on foot on 2F West.
+- **Backtracking Route to Southwest Ladder**:
+  We must backtrack on 2F West to Ladder 2 at (29, 1), descend to 1F at (27, 1), walk to Water Ramp 1 at (23, 3), Surf across the eastern canal to Water Ramp 2 at (11, 13), walk to the central stairs at (17, 15), descend to the ground level at (17, 16), walk along the ground floor Row 17 to the wooden stairs at (1, 13), ascend to the southwest plateau, climb Southwest Ladder at (3, 11) to 2F West, and walk to Northwest Ladder (1, 3) on foot.
+
+## Active Backtracking Log
+- **Turn 138769**: Standing at (17, 13) on foot, preparing to walk Right back to (22, 13) and then loop down to Row 17 to reach the eastern side.
 
 ## Row 5 Water Passability Testing Plan
 - **Objective**: Board water at Water Ramp 2 and surf north along the central canal to physically test if we can cross Row 5 at (8, 5) or (9, 5) on water. If open, this connects the central/eastern canals directly to the western canal on water!
