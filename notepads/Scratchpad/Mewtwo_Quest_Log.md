@@ -1,5 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Surfing at (9, 6) on Map 0_228 (1F) on Turn 138019 facing Up.
+- Current Status: Standing on foot at (9, 1) on Map 0_226 (2F West) on Turn 138029 facing Down.
 
 ## 1F Water Canal Column 7 and Column 13 Passability Test Log
 - **Objective**: Empirically verify water passability at Column 13 Rows 4/5 and Column 7 Rows 6/7 on Map 0_228 (1F) on water.
