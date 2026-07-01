@@ -8276,12 +8276,13 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 
 ## 1F Water Canal Row 4 and 5 Systematic Re-Testing Protocol (Turn 138130)
 - **Objective**: Re-test the water canal crossover at Rows 4 and 5 on Map 0_228 (specifically around Columns 12 and 13) on Surf to find the unblocked water path to the northwest quadrant, as the current deadlock implies a logical mapping impossibility.
-- **Protocol**:
-  1. Descend Ladder 5 at (9, 1) on 2F West to arrive at 1F Northwest at (7, 1).
-  2. Walk on foot to Water Ramp 4 at (15, 3).
-  3. Use SURF to enter the water.
-  4. Surf to (14, 4) and attempt to move Left onto (13, 4). Record result and turn.
-  5. Surf to (14, 5) and attempt to move Left onto (13, 5). Record result and turn.
+- **Protocol & Results**:
+  1. Descend Ladder 5 at (9, 1) on 2F West to arrive at 1F Northwest at (7, 1). [Completed on Turn 138137]
+  2. Walk on foot to Water Ramp 4 at (15, 3). [Completed on Turn 138146]
+  3. Use SURF to enter the water. [Completed on Turn 138149]
+  4. Surf to (14, 4) and attempt to move Left onto (13, 4).
+     - *Result (Turn 138153)*: BUMP! Labeled as (13, 4) TYPE_2889. Conclusively proves (13, 4) is solid rock and impassable on water.
+  5. Surf to (14, 5) and attempt to move Left onto (13, 5). [Active]
   6. Surf to (14, 6) or other Rows to find any other potential horizontal crossovers.
 
 <hr>
