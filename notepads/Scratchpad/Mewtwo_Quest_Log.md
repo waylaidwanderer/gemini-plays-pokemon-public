@@ -1,6 +1,7 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Surfing on GEMMY at (11, 14) on Map 0_228 (1F) on Turn 140695, preparing to surf to Water Ramp 4 at (15, 3).
+- Current Status: Standing on foot at (11, 8) on Map 0_228 (1F Southwest) on Turn 140715, facing Down, preparing to walk Down to Water Ramp 2 at (11, 13).
 - **Turn 140690-140695**: Walked Down 5 steps to (11, 13) on foot, opened menu, used SURF on GEMMY, and successfully boarded the water at (11, 14).
+- **Turn 140696-140715**: Called cave_bfs_solver to navigate to (15, 4), which returned 6 'Up' buttons due to the starting state queue bug. This walked us Up to (11, 13) (dismounting onto Water Ramp 2) and continued Up to (11, 8) on foot, facing Down.
 
 ## The True Detour Route via Ladder 2 - DISPROVEN
 To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted to enter 2F West from Ladder 2 at (29, 1). However, on Turn 138765, we conclusively disproved this detour route:
