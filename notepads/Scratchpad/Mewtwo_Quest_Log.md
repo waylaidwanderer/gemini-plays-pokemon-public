@@ -196,3 +196,9 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turns 139528-139534**: Analyzed 2F West column 9 and 10 on the screen and discovered that Column 9 has multiple solid rock blockages on Rows 10, 12, and 13. This conclusively proves that 2F West's southwest pocket is indeed completely isolated on foot on 2F West.
 - **Turn 139535**: From (5, 9), backtracked Left 2 steps, Down 2 steps to (3, 11) on foot, immediately warping down Southwest Ladder 6 to Map 0_228 (1F Southwest) at (3, 11) on Turn 139536.
 - **Turns 139536-139546**: Standing on foot at (3, 11) on Map 0_228 (1F Southwest) facing Down, preparing to revise our backtracking logs and plan the true canonical path to Mewtwo.
+- **Turns 139547-139557**: Prepared the unblocked on-foot path from (3, 11) to Water Ramp 2 at (11, 13). Redefined 'cave_bfs_solver' to integrate Column 0 2F West blockages and newly discovered 2F blockages.
+- **Turn 139558**: Walked from (3, 11) to (1, 14) on the ground floor on Map 0_228. Specifically, pressed Down to (3, 12), Left to (2, 12), Left to (1, 12), Down to (1, 13) wooden stairs, and Down to (1, 14) on foot on Turn 139559.
+- **Turn 139559**: Arrived on the ground floor at (1, 14) on foot.
+- **Turn 139560**: Walked from (1, 14) to (5, 17) on foot. Specifically, pressed Down to (1, 15), Down to (1, 16), Right to (2, 16), Down to (2, 17), Right to (3, 17), Right to (4, 17), and Right to (5, 17) on foot on Turn 139561.
+- **Turn 139561**: Arrived on the southern ground corridor at (5, 17) on foot.
+- **Turns 139562-139572**: Standing on foot at (5, 17) on Map 0_228, facing Right.
