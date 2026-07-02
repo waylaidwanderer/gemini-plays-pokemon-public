@@ -1,7 +1,8 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (11, 8) on Map 0_228 (1F Southwest) on Turn 140715, facing Down, preparing to walk Down to Water Ramp 2 at (11, 13).
+- Current Status: Engaged in a wild Level 46 Magneton battle at (15, 12) on Map 0_228 (1F) on Turn 140732, preparing to flee.
 - **Turn 140690-140695**: Walked Down 5 steps to (11, 13) on foot, opened menu, used SURF on GEMMY, and successfully boarded the water at (11, 14).
 - **Turn 140696-140715**: Called cave_bfs_solver to navigate to (15, 4), which returned 6 'Up' buttons due to the starting state queue bug. This walked us Up to (11, 13) (dismounting onto Water Ramp 2) and continued Up to (11, 8) on foot, facing Down.
+- **Turn 140716-140732**: Redefined cave_bfs_solver to fix the surf starting state bug, and updated quest logs. Standing on foot at (11, 8), called cave_bfs_solver to path to (11, 13). However, because we had not yet updated the is_water function to treat (11, 13) as land, the solver returned a 71-step looping path. On step 40, we were pulled into a wild Level 46 Magneton battle at (15, 12) on Turn 140732.
 
 ## The True Detour Route via Ladder 2 - DISPROVEN
 To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted to enter 2F West from Ladder 2 at (29, 1). However, on Turn 138765, we conclusively disproved this detour route:
