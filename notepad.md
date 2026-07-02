@@ -8530,6 +8530,13 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 140053**: Positioned at (12, 11) on foot on Map 0_226, facing Down. Executed the first chunk of our backtracking path ["Up", "Up", "Left", "Left", "Left"], moving to (12, 10) -> (12, 9) -> (11, 9) -> (10, 9) -> (9, 9) on foot on 2F West with zero wild encounters.
 - **Turn 140055**: Positioned at (9, 9) on foot on Map 0_226, facing Left. Preparing to continue our walk Left along Row 9 towards Southwest Ladder 6.
 - **Turn 140057**: Positioned at (5, 9) on foot on Map 0_226, facing Left. All 4 Left steps from (9, 9) to (5, 9) were completed successfully with zero wild encounters. Preparing to execute the final 4-step sequence ["Left", "Left", "Down", "Down"] to reach Southwest Ladder 6 at (3, 11) and warp down to 1F Southwest (Map 0_228).
+- **Turn 140075**: Positioned at (3, 11) on Map 0_228 facing Down. Pressed ["Down", "Left", "Left", "Down", "Down", "Down"] to walk down the wooden stairs to (1, 15) successfully.
+- **Turn 140078**: Positioned at (1, 15) on Map 0_228 facing Down. Pressed ["Down", "Right", "Down", "Right", "Right", "Right", "Right"] to walk to (6, 17) successfully.
+- **Turn 140085**: Positioned at (6, 17) on Map 0_228 facing Right. Pressed ["Right", "Right", "Right", "Right", "Right"] to walk to (11, 17) successfully.
+- **Turn 140088**: Positioned at (11, 17) on Map 0_228 facing Right. Pressed ["Right", "Right", "Right", "Right", "Up", "Right", "Right"]. Interrupted at (14, 17) by a wild Level 49 Golbat encounter.
+- **Turn 140091**: Escaped the Golbat encounter using 'flee_battle', returning to the overworld at (14, 17) on foot, facing Down.
+- **Turn 140091**: From (14, 17) facing Down, pressed ["Right", "Up", "Right", "Right"] to walk to the base of the central stairs at (17, 16) successfully.
+- **Turn 140092**: Arrived at (17, 16) on foot, facing Up. Preparing to climb the central stairs to the platform.
 
 <hr>
 
