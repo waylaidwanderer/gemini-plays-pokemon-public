@@ -8519,6 +8519,10 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turns 139959-139960**: Aligned goals at (7, 9) on foot on Map 0_226.
 - **Turn 139961**: Pressed Right 12 times and Up 2 times to reach (19, 7) and warp down, but bumped against the newly discovered solid rock wall of TYPE_2889 at (14, 9) on the 7th step, ending up at (13, 8) on foot on Turn 139962.
 - **Turns 139962-139965**: Positioned at (13, 8) on foot on Map 0_226. Added a map marker for (14, 9) solid rock wall and updated cave_bfs_solver solids list. Prepared the updated unblocked path.
+- **Turn 139966**: Pressed the 9-step overworld path from (13, 8) to (19, 7) on foot, but was interrupted at (17, 9) on Turn 139967 by a wild Level 49 Ditto encounter.
+- **Turn 139967**: Engaged in wild Ditto battle. Called flee_battle to safely escape on Turn 139968.
+- **Turn 139968**: Pressed the remaining 4 steps of our path: Right 2 to (19, 9) and Up 2 to (19, 7). However, we bumped against the newly discovered solid rock wall of TYPE_2889 at (19, 8) on the first Up press, leaving us at (19, 9) on foot on Turn 139969.
+- **Turns 139969-139972**: Positioned at (19, 9) on foot on Map 0_226. Added a map marker for (19, 8) solid rock wall and updated solids_2f database in our custom tool cave_bfs_solver. Calculated the unblocked path from (19, 9) to Water Ramp 2 at (11, 13).
 
 <hr>
 
