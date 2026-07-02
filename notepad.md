@@ -8335,6 +8335,11 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 139052**: Investigated the passability of 1F Northwest. Run a python BFS on Map 0_228 showing that because Column 7 is a solid rock wall from Row 6 to Row 16, 1F Northwest is completely isolated on foot/water.
 - **Turn 139060**: Walked Down 1 step to (7, 2), then Up 1 step back to (7, 1) to trigger the ladder warp back to 2F West (Map 0_226) at (9, 1).
 - **Turn 139061**: Arrived on 2F West at (9, 1) on foot.
+- **Turn 139062**: Standing at (9, 1) on Map 0_226 on foot. Verified that 2F West's Column 0 contains passable tiles at Rows 3, 4, and 5 (visaged from (3, 3) on Turn 139022), and computed an unblocked 66-step path that connects (9, 1) directly to Northwest Ladder (1, 3) via Column 0, bypassing the solid Column 2 rock walls on Rows 1-3.
+- **Turn 139077**: Standing at (9, 1) on foot. Pressed Left 6 and Down 2 to reach (3, 3) on foot.
+- **Turn 139078**: Interrupted on the second step Left at (7, 1) by a wild Electrode encounter.
+- **Turn 139079**: Fled the wild Electrode encounter successfully.
+- **Turn 139081**: Successfully returned to the overworld, standing on foot at (7, 1) on Map 0_226 (2F West).
 
 <hr>
 
