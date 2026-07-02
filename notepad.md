@@ -8593,6 +8593,7 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 [Turn 140328] Successfully boarded the water canal at (11, 14) surfing on GEMMY, facing Down. Executing Chunk 1 of surfing path: ["Left", "Left", "Up", "Up", "Up", "Up"] to reach (9, 10) on water.
 [Turn 140333] Surfing at (9, 10) on Map 0_228, facing Up. Preparing to execute surfing Chunk 2: ["Up", "Up", "Up", "Right", "Right", "Right"] to reach (12, 7) on water.
 [Turn 140335] Surfing at (12, 7) on Map 0_228, facing Right. Executing surfing Chunk 3: ["Right", "Right", "Up", "Up", "Up", "Right", "Up"] to reach Water Ramp 4 at (15, 3) and dismount on foot.
+[Turn 140338] Successfully arrived on foot on Water Ramp 4 at (15, 3) on Map 0_228, facing Up. Executing walk Chunk 1: ["Up", "Up", "Left", "Left", "Left", "Left"] to reach (11, 1) on foot.
 
 <hr>
 
