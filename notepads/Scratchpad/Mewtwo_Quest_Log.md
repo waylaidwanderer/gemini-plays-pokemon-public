@@ -211,3 +211,8 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turns 139580-139593**: Standing on foot at (17, 14) on Map 0_228, facing Left.
 - **Turn 139594**: Resumed our walk Left. Pressed Left, Left, Up, Up on Map 0_228, successfully arriving at (15, 12) on foot on Turn 139595 with zero wild encounters.
 - **Turns 139595-139598**: Standing on foot at (15, 12) on Map 0_228 (1F Southwest) facing Left, preparing to execute the remaining 5 steps to reach Water Ramp 2 at (11, 13) on foot.
+- **Turn 139605**: Pressed Left, Left, Left, Left, Down on Map 0_228 to walk on foot to Water Ramp 2 at (11, 13) on Turn 139606.
+- **Turn 139606**: Arrived on foot at (11, 13) facing Down. Opened the Start Menu.
+- **Turn 139609**: Selected POKéMON from the Start Menu, opening the party selection menu.
+- **Turn 139611**: Selected GEMMY from the party menu, opening her options sub-menu.
+- **Turn 139613**: Standing at (11, 13) facing Down on Map 0_228, selecting SURF from GEMMY's options to board the water at (11, 14).
