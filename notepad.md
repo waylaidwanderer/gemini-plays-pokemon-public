@@ -8501,6 +8501,13 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 139916**: Standing at (17, 16) on the ground floor, pressed Left to (16, 16), which triggered a wild Level 49 Dodrio encounter on Turn 139917, aborting our movement sequence.
 - **Turn 139917**: Engaged in wild Dodrio battle. Called flee_battle to safely escape the battle on Turn 139918.
 - **Turns 139918-139921**: Redefined custom tool cave_bfs_solver to fix the is_water_1f coordinate range, and completed self-assessment audits at (17, 16) on foot on Turn 139922.
+- **Turns 139923-139926**: Standing at (17, 16) on foot. Performed notepad and custom tool updates.
+- **Turn 139927**: Pressed the 16-step on-foot sequence to walk across Row 17, but was interrupted at (1, 14) on the ground floor on Turn 139931 by a wild Level 50 Dodrio encounter.
+- **Turn 139931**: Engaged in wild Dodrio battle. Called flee_battle to safely escape the battle on Turn 139932.
+- **Turn 139932**: Successfully returned to the overworld at (1, 14) on foot, facing Down.
+- **Turn 139933**: Attempted to walk the remaining 25-step path but because we were starting from (1, 14) instead of (17, 16), we bumped against the western boundary walls and safely ended up at (2, 14) on foot on Turn 139934.
+- **Turn 139934**: Walked from (2, 14) to Southwest Ladder 6 at (3, 11) on foot: Left to (1, 14), Up to (1, 13) wooden stairs, Up to (1, 12), Up to (1, 11), Right to (2, 11), and Right to (3, 11), warping up to 2F West (Map 0_226) at (3, 11) on Turn 139935.
+- **Turns 139935-139939**: Standing at Southwest Ladder 6 (3, 11) on 2F West. Performed visual analysis of Column 0 and Column 1 on the screen, showing they are completely solid rock of TYPE_2889 on Rows 8 to 14, isolating our southwest pocket. Prepared the test plan to backtrack to 1F and climb Ladder 5 to test Column 0 passability on Rows 3-5.
 
 <hr>
 
