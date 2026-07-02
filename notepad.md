@@ -10271,24 +10271,21 @@ We can formulate 5 custom tool/agent ideas to optimize the endgame and Mewtwo se
 
 <h1><code>Scratchpad/Column0_Passability_Test</code></h1>
 
-# Column 0 Passability Empirical Test
-- **Objective**: Conduct an empirical on-foot passability and boundary test of the western edge on Map 0_226 (2F West) to establish the true limits of Component 1 and satisfy the Burden of Proof.
-- **Hypothesis**: Column 2 is completely solid rock of TYPE_2889 on Rows 1, 2, and 3, which physically prevents any horizontal on-foot access from the northern corridor (Component 1) to Column 0 or Column 1 on Rows 1-3.
+# Column 0 Passability Empirical Test (Southern Approach)
+- **Objective**: Conduct a systematic, empirical on-foot passability and boundary test of the western edge from the south starting at Southwest Ladder 6 at (3, 11) on Map 0_226 (2F West) to establish the true boundaries of 2F West and satisfy the Burden of Proof.
+- **Hypothesis**: Either (1, 11) or (1, 10) is passable on foot (or previously marked solid as a false positive), allowing horizontal access from Southwest Ladder 6 to Column 0, which functions as a continuous vertical corridor to the Northwest Ladder (1, 3).
 
 ## Experimental Protocol:
-1. Start on foot at (9, 1) on Map 0_226 on Turn 140355.
-2. Walk Left 6 steps along Row 1 to (3, 1).
-3. Walk Down 1 step to (3, 2).
-4. Facing Left, press Left against (2, 2) and record the outcome (BUMP / Step).
-5. Walk Down 1 step to (3, 3).
-6. Facing Left, press Left against (2, 3) and record the outcome (BUMP / Step).
+1. Start on foot at Southwest Ladder 6 at (3, 11) on Map 0_226 (Turn 140581).
+2. Step Left to (2, 11).
+3. Facing Left, press Left to test (1, 11) and record the outcome (BUMP / Step).
+4. If blocked, step Up to (2, 10).
+5. Facing Left, press Left to test (1, 10) and record the outcome (BUMP / Step).
+6. Facing Up, press Up to test (2, 9) and record the outcome (BUMP / Step).
+7. If any of these lead to Column 0, step into Column 0 and test vertical passability (Up/Down) to establish the route to Northwest Ladder (1, 3).
 
 ## Experimental Log:
-- **Turn 140355**: Positioned on foot at (9, 1) facing Down. Starting the experiment.
-- **Turn 140358**: Arrived on foot at (3, 1) facing Left. Preparing to press Left to empirically test the passability of (2, 1).
-- **Turn 140362**: Standing on foot at (3, 1) on Map 0_226, facing Left. Preparing to press Left to test passability of (2, 1) on foot.
-- **Turn 140365**: Pressed Left from (3, 1) facing Left. Result: BUMP (0 tiles visited), empirically proving that (2, 1) is a solid rock wall of TYPE_2889 and is completely impassable on foot. Preparing to press Down to step onto (3, 2).
-- **Turn 140368**: Standing on foot at (3, 1) on Map 0_226, facing Down. Preparing to press Down to step onto (3, 2).
+- **Turn 140581**: Standing on foot at Southwest Ladder 6 at (3, 11) facing Down. Overwrote the notepad to initialize the Southern approach experiment. Preparing to step Left to (2, 11).
 
 <hr>
 
