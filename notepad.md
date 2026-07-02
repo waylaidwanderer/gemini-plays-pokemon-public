@@ -10240,3 +10240,22 @@ We can formulate 5 custom tool/agent ideas to optimize the endgame and Mewtwo se
 - **Conclusion**: We verified that 1F Northwest and 2F West Northwest are completely isolated compartments. The multi-map backtrack route (1F SW -> 2F SW -> 1F NW -> 1F SW -> 2F SW -> 2F NW) is mathematically and topologically proven to be the only path. We are following it systematically and flawlessly. No false constraints are holding us back!
 
 <hr>
+
+<h1><code>Scratchpad/Column0_Passability_Test</code></h1>
+
+# Column 0 Passability Empirical Test
+- **Objective**: Conduct an empirical on-foot passability and boundary test of the western edge on Map 0_226 (2F West) to establish the true limits of Component 1 and satisfy the Burden of Proof.
+- **Hypothesis**: Column 2 is completely solid rock of TYPE_2889 on Rows 1, 2, and 3, which physically prevents any horizontal on-foot access from the northern corridor (Component 1) to Column 0 or Column 1 on Rows 1-3.
+
+## Experimental Protocol:
+1. Start on foot at (9, 1) on Map 0_226 on Turn 140355.
+2. Walk Left 6 steps along Row 1 to (3, 1).
+3. Walk Down 1 step to (3, 2).
+4. Facing Left, press Left against (2, 2) and record the outcome (BUMP / Step).
+5. Walk Down 1 step to (3, 3).
+6. Facing Left, press Left against (2, 3) and record the outcome (BUMP / Step).
+
+## Experimental Log:
+- **Turn 140355**: Positioned on foot at (9, 1) facing Down. Starting the experiment.
+
+<hr>
