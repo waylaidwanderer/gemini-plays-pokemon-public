@@ -1,5 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing at (15, 7) on Map 0_228 (1F) on Turn 139235 surfing, facing Down.
+- Current Status: Standing at (9, 7) on Map 0_228 (1F) on Turn 139240 surfing, facing Left.
 
 ## Row 17 Bypass Progression Log
 - **Turn 138737**: Positioned on foot at (27, 14) facing Left.
