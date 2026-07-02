@@ -83,3 +83,17 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 138958**: Positioned at Water Ramp 2 (11, 13) on foot, facing Down.
 - **Turns 138954-138956**: Called speak to declare our backtracking results and aligned facing Down at (11, 13).
 - **Turn 138965**: Positioned at Water Ramp 2 (11, 13) on foot facing Down. Opened the Start Menu.
+## Active Backtracking Log: Turn 138965 to 139022
+- **Turn 138965**: Standing at Water Ramp 2 at (11, 13) on foot facing Down. Opened Start Menu.
+- **Turn 138967**: Opened POKéMON menu, selected GEMMY, and activated SURF to board the water at (11, 14).
+- **Turn 138969**: Surfed Left to (9, 14), then Up 8 steps to (9, 6).
+- **Turn 138971**: Surfed Right 5 steps to (14, 6).
+- **Turn 138972**: Surfed Up to (14, 5), Left to (13, 5), Up to (13, 4), and Right to dismount on foot at Water Ramp 4 at (15, 3).
+- **Turn 138974**: Walked Up 2 steps to (15, 1) on foot.
+- **Turn 138977**: Walked Left 8 steps along Row 1 to reach Ladder 5 at (7, 1) on foot.
+- **Turn 138978**: Took Ladder 5 at (7, 1) on 1F Northwest, warping to 2F West (Map 0_226) at (9, 1).
+- **Turn 139018**: Walked Left 6 steps along Row 1 to reach (3, 1) on foot.
+- **Turn 139019**: Attempted to walk Down 2, Right 6 to reach (9, 3) on Row 3 on foot.
+- **Turn 139020**: Interrupted on the second step Down at (3, 3) by a wild Electrode encounter.
+- **Turn 139021**: Called flee_battle to successfully escape the Electrode battle.
+- **Turn 139022**: Successfully returned to the overworld, standing on foot at (3, 3) on Map 0_226 (2F West).
