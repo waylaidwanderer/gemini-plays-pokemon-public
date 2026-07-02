@@ -343,3 +343,11 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 140263**: Arrived at (6, 17) on the southern ground floor on foot facing Down.
 - **Turn 140264**: Pressed ["Up", "Left", "Left", "Left", "Up", "Left", "Up", "Left"] to walk Up to (6, 16), Left to (3, 16), Up to (3, 15), Left to (2, 15), Up to (2, 14), and Left to (1, 14) on foot on Turn 140265.
 - **Turn 140265**: Positioned on foot at (1, 14), facing Down. Preparing to walk Up the wooden stairs to Southwest Ladder 6 at (3, 11) and warp to 2F West.
+- **Turns 140266-140267**: Walked to (3, 11) on foot on Map 0_228, climbing the wooden stairs at (1, 13) and stepping onto Southwest Ladder 6 at (3, 11) on Turn 140268.
+- **Turn 140268**: Arrived on 2F West (Map 0_226) at (3, 11) on foot, facing Down.
+- **Turns 140269-140274**: Remained at (3, 11) on foot, conducting python BFS and map boundary analyses to verify the isolation of Koga's southwest pocket on 2F West and map components. Disproved on-foot crossovers and proved that Koga's southwest pocket is 100% isolated on 2F West.
+- **Turn 140275**: Pressed ["Left", "Right"] on foot at (3, 11) on Map 0_226, immediately warping back down Southwest Ladder 6 to Map 0_228 (1F Southwest) at (3, 11) on Turn 140276.
+- **Turn 140276**: Arrived on 1F Southwest at (3, 11) on foot, facing Down.
+- **Turns 140277-140284**: Remained at (3, 11) on foot, running a BFS to find the optimal backtracking path on foot to Water Ramp 2 at (11, 13). Redefined custom tool cave_bfs_solver to include (10, 13) in solids_1f, resolving the database desync.
+- **Turn 140285**: Pressed ["Down", "Left", "Left", "Down", "Down", "Down", "Down"] to walk from (3, 11) to (1, 16) on foot on Map 0_228 on Turn 140286.
+- **Turn 140286**: Arrived at (1, 16) on foot on Map 0_228, facing Down. Preparing to walk Left along the southern ground corridor to reach the base of the central stairs.
