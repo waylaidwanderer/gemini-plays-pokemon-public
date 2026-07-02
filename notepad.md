@@ -8340,6 +8340,16 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 139078**: Interrupted on the second step Left at (7, 1) by a wild Electrode encounter.
 - **Turn 139079**: Fled the wild Electrode encounter successfully.
 - **Turn 139081**: Successfully returned to the overworld, standing on foot at (7, 1) on Map 0_226 (2F West).
+- **Turn 139082**: Confirmed coordinates at (7, 1) on foot on Map 0_226 (2F West) facing Left after escaping the Electrode battle on Turn 139079.
+- **Turn 139084**: Redefined custom tool cave_bfs_solver to fix the non-standard button validation bug by safely truncating at water transitions.
+- **Turn 139086**: Appended missing turn logs from 139062 to 139081 to Mewtwo_Quest_Log.
+- **Turn 139091**: Standing at (7, 1) on foot. Pressed Left 4 and Down 2 to reach (3, 3) on foot.
+- **Turn 139092**: Arrived at (3, 3) on Map 0_226 on foot successfully.
+- **Turn 139095**: Queried custom tool cave_bfs_solver which output a path using Row 11 / Southwest Ladder 6.
+- **Turn 139098**: Ran Python BFS to find the strict, unblocked 58-step path to Northwest Ladder (1, 3) via Column 0 and Row 14, bypassing Koga's vertical split and solid walls.
+- **Turn 139099**: Pressed Right 6 and Down 2 to reach (9, 5) on foot.
+- **Turn 139100**: Arrived at (9, 5) on Map 0_226 on foot successfully.
+- **Turn 139101**: Standing on foot at (9, 5) on Map 0_226.
 
 <hr>
 
