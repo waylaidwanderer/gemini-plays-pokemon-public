@@ -8479,7 +8479,12 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - Turn 139823: Fled the wild Golbat encounter successfully using 'flee_battle', returning to the overworld at (11, 13) on foot on Turn 139825.
 - Turn 139826: Opened the Start Menu.
 - Turn 139829: Pressed Down and A to open the POKéMON party selection menu.
-- Turn 139832: Opened the party selection menu with the cursor pointing at GEMMY, preparing to select her and execute SURF on Turn 139833.
+- Turn 139832: Opened the party selection menu with the cursor pointing at GEMMY.
+- Turns 139833-139863: Remained on the party selection menu while performing notepad strategy audits.
+- Turn 139864: Pressed A on GEMMY to select her and open her overworld options sub-menu.
+- Turn 139865: Selected SURF from GEMMY's options sub-menu and successfully boarded the water canal at (11, 14) surfing on GEMMY on Turn 139866.
+- Turn 139868: Pressed Left 4 times from (11, 14) on water to surf Left to (8, 14) on water and test Row 14 Column 7 passability. Visually and physically verified a BUMP on the 4th step, proving that (7, 14) is a solid rock wall of TYPE_2889 and is impassable on water.
+- Turn 139873: Positioned at (8, 14) on water facing Left, preparing to test Row 15 Column 7.
 
 <hr>
 
