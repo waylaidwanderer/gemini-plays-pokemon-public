@@ -178,5 +178,21 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 139462**: Executed 9-step sequence `["Up", "Up", "Up", "Left", "Up", "Up", "Up", "Right", "Right"]` from (2, 17) on Map 0_228, but got interrupted at (2, 11) on Turn 139463 by a wild Magneton encounter.
 - **Turn 139463**: Fled the wild Magneton battle successfully.
 - **Turn 139464**: Successfully returned to the overworld at (2, 11) facing Right, and took 1 step Right to (3, 11), immediately warping up Southwest Ladder 6 to 2F West (Map 0_226) at (3, 11) on Turn 139465.
-- **Turn 139465-139473**: Standing on foot at Southwest Ladder 6 at (3, 11) on Map 0_226, facing Up, performing a thorough topological analysis of 2F West.
-- **Turn 139526**: Standing on foot at Southwest Ladder 6 at (3, 11) on Map 0_226. Programmatically solved the 2F West labyrinth and discovered a 34-step unblocked path to Northwest Ladder (1, 3): `['Up', 'Up', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'Down', 'Down', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Up', 'Left', 'Up', 'Left', 'Up', 'Up', 'Up', 'Right', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up']`. This completely bypasses the vertical blockages! Preparing to execute the first chunk `['Up', 'Up', 'Right', 'Right']` to reach (5, 9) on foot.
+- **Turns 139465-139473**: Standing on foot at Southwest Ladder 6 at (3, 11) on Map 0_226 (2F West), facing Up, performing a thorough topological analysis of 2F West.
+- **Turn 139474**: Standing on foot at Southwest Ladder 6 at (3, 11) on Map 0_226.
+- **Turn 139475**: Stepped Left to (2, 11) on foot on Map 0_226.
+- **Turn 139476**: Stepped Right to (3, 11) on foot, immediately warping down Southwest Ladder 6 to Map 0_228 (1F Southwest) at (3, 11) on Turn 139477.
+- **Turn 139477**: Arrived on 1F Southwest at (3, 11) on foot.
+- **Turn 139480**: Walked Up to (3, 8) on foot.
+- **Turn 139481**: Walked Right to (4, 8) on foot.
+- **Turn 139482**: Attempted to walk Up to (4, 7). Result: BUMP against solid rock wall, confirming (4, 7) is impassable on foot.
+- **Turn 139485**: Backtracked Left to (3, 8) on foot.
+- **Turn 139486**: Walked Down to (3, 11) on foot.
+- **Turn 139487**: Stepped Left to (2, 11) on foot.
+- **Turn 139488**: Stepped Right to (3, 11) on foot, immediately warping back up to 2F West at (3, 11) on Turn 139489.
+- **Turn 139489**: Arrived on 2F West at (3, 11) on foot.
+- **Turns 139490-139525**: Explored 2F West to find any unblocked path. Run Python BFS to find if there is any unblocked route to the Northwest Ladder (1, 3).
+- **Turn 139526**: Programmatically calculated path on 2F West and walked Up to (3, 10), Up to (3, 9), Right to (4, 9), and Right to (5, 9) on foot on Turn 139527.
+- **Turns 139528-139534**: Analyzed 2F West column 9 and 10 on the screen and discovered that Column 9 has multiple solid rock blockages on Rows 10, 12, and 13. This conclusively proves that 2F West's southwest pocket is indeed completely isolated on foot on 2F West.
+- **Turn 139535**: From (5, 9), backtracked Left 2 steps, Down 2 steps to (3, 11) on foot, immediately warping down Southwest Ladder 6 to Map 0_228 (1F Southwest) at (3, 11) on Turn 139536.
+- **Turns 139536-139546**: Standing on foot at (3, 11) on Map 0_228 (1F Southwest) facing Down, preparing to revise our backtracking logs and plan the true canonical path to Mewtwo.
