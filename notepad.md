@@ -8449,6 +8449,8 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 139626**: Pressed Down 7 times, successfully surfing back down the central water canal to reach (8, 14) on water on Turn 139627.
 - **Turn 139627**: Arrived at (8, 14) on water, facing Down. Opened the Start Menu.
 - **Turn 139628**: Surfing on GEMMY at (8, 14) on Map 0_228 (1F). Preparing to surf Right 3 steps to Column 11 and Up 1 step to dismount on foot at Water Ramp 2 at (11, 13).
+- **Turn 139629**: Pressed Right 3 times and Up once, successfully surfing from (8, 14) through (11, 14) and dismounting on foot at Water Ramp 2 at (11, 13) on Turn 139630.
+- **Turns 139630-139633**: Standing on foot at (11, 13) on Map 0_228 (1F Southwest) facing Up, preparing to walk back to Southwest Ladder 6 at (3, 11) on foot.
 
 <hr>
 
