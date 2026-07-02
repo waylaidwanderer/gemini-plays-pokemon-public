@@ -8578,6 +8578,14 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 [Turn 140300] Standing at (15, 17) on foot, facing Right. Executing next chunk: ["Up", "Right", "Right", "Up", "Up"] to climb the central stairs to (17, 14).
 [Turn 140303] Fled wild Golbat encounter successfully. Standing at (17, 15) on stairs on Map 0_228, facing Down. Executing next chunk: ["Up", "Left", "Left", "Up", "Up"] to walk along the platform to (15, 12).
 [Turn 140307] Standing at (15, 12) on Map 0_228 on foot, facing Left. Preparing to execute the final chunk ["Left", "Left", "Left", "Left", "Down"] to reach Water Ramp 2 at (11, 13) on foot.
+[Turns 140289-140310] Backtracking Log details:
+- Turn 140289: Walked Down to (1, 17) on foot, which is blocked. Faced Right.
+- Turn 140295: Standing at (3, 17) on Map 0_228, facing Left. Walked Right 6 steps to (9, 17) with zero encounters.
+- Turn 140297: Standing at (9, 17) on foot. Walked Right 6 steps to reach (15, 17) with zero encounters.
+- Turn 140301: Standing at (15, 17) on foot. Pressed ["Up", "Right", "Right", "Up", "Up"] but got interrupted at (17, 15) by a wild Golbat. Successfully fled.
+- Turn 140304: Standing at (17, 15) on foot, facing Down. Pressed ["Up", "Left", "Left", "Up", "Up"] to reach (15, 12) on foot with zero encounters.
+- Turn 140308: Standing at (15, 12) on foot. Pressed ["Left", "Left", "Left", "Left", "Down"] but got interrupted at (12, 12) by a wild Sandslash. Successfully fled on Turn 140310.
+- Turn 140312: Standing at (12, 12) on foot, facing Left.
 
 <hr>
 
