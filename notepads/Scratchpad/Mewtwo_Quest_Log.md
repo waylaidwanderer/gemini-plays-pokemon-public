@@ -270,3 +270,12 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 139887-139890**: Opened Start Menu, selected POKéMON, selected GEMMY, and selected SURF to board the water canal at (8, 13) on Turn 139891.
 - **Turn 139892-139899**: Surfed to (8, 12) and pressed Left to test Row 12 Column 7 passability. Visually and physically verified a BUMP, proving that (7, 12) is a solid rock wall of TYPE_2889 and is impassable on water on Turn 139900.
 - **Turn 139901-139907**: Surfing at (8, 12) facing Left. Completed the systematic verification of Column 7 water passability on Rows 11-15, proving that Column 7 is completely solid rock of TYPE_2889, separating the central and western water canals entirely.
+- **Turn 139908**: Positioned surfing at (8, 12) on Map 0_228. Pressed Down, Down, Right, Right, Right, Up to surf Down to (8, 14), Right to (11, 14), and Up to dismount on foot at Water Ramp 2 at (11, 13) on Turn 139909.
+- **Turns 139910-139911**: Standing on foot at Water Ramp 2 (11, 13), facing Up.
+- **Turn 139912**: Walked Up to (11, 12) and Right 4 times along Row 12 to (15, 12) on foot with zero wild encounters on Turn 139913.
+- **Turn 139913**: Aligned goals at (15, 12) on the central platform.
+- **Turn 139914**: Walked Down 2 times to (15, 14) and Right 2 times to (17, 14) on the central platform on Turn 139915.
+- **Turn 139915**: Walked Down 2 times to descend the central stairs at (17, 15) and reach (17, 16) on the ground floor on Turn 139916.
+- **Turn 139916**: Standing at (17, 16) on the ground floor, pressed Left to (16, 16), which triggered a wild Level 49 Dodrio encounter on Turn 139917, aborting our movement sequence.
+- **Turn 139917**: Engaged in wild Dodrio battle. Called flee_battle to safely escape the battle on Turn 139918.
+- **Turns 139918-139921**: Redefined custom tool cave_bfs_solver to fix the is_water_1f coordinate range, and completed self-assessment audits at (17, 16) on foot on Turn 139922.
