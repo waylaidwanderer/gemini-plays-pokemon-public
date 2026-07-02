@@ -254,3 +254,6 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - Turn 139819: Walked Up the central stairs to (17, 14), Left 2 times to (15, 14), Up 2 times to (15, 12), and Left 4 times along Row 12 to (11, 12) on the central platform on foot on Turn 139821.
 - Turn 139821: Pressed Down to step onto Water Ramp 2 at (11, 13) on foot, which triggered a wild Level 46 Golbat encounter at (11, 13) on Turn 139822.
 - Turn 139823: Fled the wild Golbat encounter successfully using 'flee_battle', returning to the overworld at (11, 13) on foot on Turn 139825.
+- Turn 139826: Opened the Start Menu.
+- Turn 139829: Pressed Down and A to open the POKéMON party selection menu.
+- Turn 139832: Opened the party selection menu with the cursor pointing at GEMMY, preparing to select her and execute SURF on Turn 139833.
