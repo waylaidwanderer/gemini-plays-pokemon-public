@@ -1,5 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Surfing on GEMMY at (15, 4) on Map 0_228 (1F) on Turn 140746, facing Up, preparing to dismount Up onto Water Ramp 4 at (15, 3).
+- Current Status: Standing on foot on Water Ramp 4 at (15, 3) on Map 0_228 (1F Northwest) on Turn 140748, facing Up, preparing to walk to Ladder 5 at (7, 1).
 - **Turn 140690-140695**: Walked Down 5 steps to (11, 13) on foot, opened menu, used SURF on GEMMY, and successfully boarded the water at (11, 14).
 - **Turn 140696-140715**: Called cave_bfs_solver to navigate to (15, 4), which returned 6 'Up' buttons due to the starting state queue bug. This walked us Up to (11, 13) (dismounting onto Water Ramp 2) and continued Up to (11, 8) on foot, facing Down.
 - **Turn 140716-140732**: Redefined cave_bfs_solver to fix the surf starting state bug, and updated quest logs. Standing on foot at (11, 8), called cave_bfs_solver to path to (11, 13). However, because we had not yet updated the is_water function to treat (11, 13) as land, the solver returned a 71-step looping path. On step 40, we were pulled into a wild Level 46 Magneton battle at (15, 12) on Turn 140732.
@@ -7,6 +7,7 @@
 - **Turn 140736-140738**: Walked Down 5 steps using the newly corrected cave_bfs_solver, arriving on foot at Water Ramp 2 at (11, 13) successfully with zero wild encounters.
 - **Turn 140739-140743**: Opened Start Menu, navigated to POKéMON, selected GEMMY, used SURF, and successfully boarded the water canal at (11, 14) on Surf.
 - **Turn 140744-140746**: Successfully surfed along the central and northern water channels using the updated cave_bfs_solver tool, arriving at (15, 4) on water with zero wild encounters. Ready to dismount onto Water Ramp 4 at (15, 3).
+- **Turn 140747-140748**: Pressed Up once, successfully dismounting onto Water Ramp 4 at (15, 3) on foot, facing Up.
 
 ## The True Detour Route via Ladder 2 - DISPROVEN
 To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted to enter 2F West from Ladder 2 at (29, 1). However, on Turn 138765, we conclusively disproved this detour route:
