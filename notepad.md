@@ -8358,6 +8358,13 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 139165**: Standing at (3, 3) facing Up. Pressed Up, Up, Right, Right, Right. Arrived at (6, 1) facing Right.
 - **Turn 139168**: Standing at (6, 1) facing Right. Pressed Right, Right, Right to reach Ladder 5 at (9, 1), which immediately warped us down to Map 0_228 (1F Northwest) at (7, 1) on foot on Turn 139169.
 - **Turns 139170-139199**: Standing at (7, 1) on foot on Map 0_228. Investigated geography and identified dead ends. Corrected the 'cave_bfs_solver' tool's database and logic to block Columns 12 and 13 on Rows 3-5 on water and Row 3 on foot.
+- **Turns 139200-139211**: Discovered we can walk on foot across Row 2 to (13, 2). Walked Down to (7, 2), and Right 6 times to reach (13, 2) on foot on Turn 139212.
+- **Turn 139213**: Standing at (13, 2) facing Down. Walked Right 2 times to (15, 2) and Down 1 time to stand on Water Ramp 4 at (15, 3) on Turn 139214.
+- **Turn 139215**: Opened Start menu.
+- **Turn 139217**: Selected POKéMON.
+- **Turn 139219**: Selected GEMMY.
+- **Turn 139220**: Selected SURF.
+- **Turn 139221**: Successfully boarded the water canal at (15, 4) surfing on GEMMY, facing Down.
 
 <hr>
 
