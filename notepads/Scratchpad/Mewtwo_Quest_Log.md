@@ -1,5 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (17, 15) on Map 0_228 (1F) on Turn 139450, facing Down on the stairs.
+- Current Status: Standing on foot at (2, 17) on Map 0_228 (1F) on Turn 139461, facing Down.
 
 ## The True Detour Route via Ladder 2 - DISPROVEN
 To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted to enter 2F West from Ladder 2 at (29, 1). However, on Turn 138765, we conclusively disproved this detour route:
@@ -173,3 +173,5 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 139433**: Surfed Down 3 to (15, 7), Left 6 to Column 9 at (9, 7), Down 7 to Row 14 at (9, 14), Right 2 to Column 11 at (11, 14), and Up 1 to dismount on foot at Water Ramp 2 at (11, 13).
 - **Turn 139448**: Executed 10-step unblocked on-foot sequence `["Up", "Right", "Right", "Right", "Right", "Down", "Down", "Right", "Right", "Down"]` to loop around the (14, 13) solid wall and reach the central stairs at (17, 15) on foot.
 - **Turn 139449**: Aligned our records and prepared to walk from the stairs at (17, 15) to reach Southwest Ladder 6 at (3, 11) via Row 17 on foot.
+- **Turn 139459**: Executed 17-step sequence `["Down", "Left", "Down", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left"]` on foot to walk from (17, 15) to reach the southwest corner at (2, 17) on foot on Turn 139460.
+- **Turn 139461**: Aligned our records and prepared to walk the remaining 9 steps from (2, 17) to reach Southwest Ladder 6 at (3, 11) and warp to 2F West.
