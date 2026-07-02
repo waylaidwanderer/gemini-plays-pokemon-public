@@ -331,3 +331,7 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 140199**: Pressed ["Down", "Right", "Right", "Right", "Right", "Right"] to walk to (12, 2) on foot on Map 0_228 with zero wild encounters.
 - **Turn 140202**: Pressed ["Right", "Right", "Right", "Down"] to walk from (12, 2) to Water Ramp 4 at (15, 3) on foot on Map 0_228.
 - **Turn 140203**: Arrived on foot at (15, 3) facing Down on Water Ramp 4 on Map 0_228. Preparing to Surf and navigate to Column 7 Row 11 on water to test passability.
+- **Turn 140227**: Pressed Left from (8, 11) to test (7, 11) on water on Map 0_228. Result: BUMP (0 tiles visited), confirming (7, 11) is a solid rock wall of TYPE_2889 and is impassable on water, which disproves the water crossover hypothesis.
+- **Turns 140228-140250**: Remained at (8, 11) surfing on GEMMY, executing several runs of Python BFS and components analysis to verify 1F and 2F West connectivity, proving that 1F Northwest is completely isolated and 2F West Northwest is completely isolated. Redefined custom tool cave_bfs_solver to include (10, 13) in solids_1f.
+- **Turn 140254**: Pressed ["Down", "Down", "Down", "Right"] to surf Down along Column 8 to (8, 14) and Right to (9, 14) on water on Map 0_228 on Turn 140255.
+- **Turn 140256**: Positioned surfing at (9, 14) on water on Map 0_228, facing Right. Preparing to surf to Water Ramp 2 at (11, 13) to dismount on foot.
