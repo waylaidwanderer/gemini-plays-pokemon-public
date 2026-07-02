@@ -230,3 +230,14 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turns 139630-139633**: Standing on foot at (11, 13) on Map 0_228 (1F Southwest) facing Up, preparing to walk back to Southwest Ladder 6 at (3, 11) on foot.
 - **Turn 139634**: Pressed Up to (11, 12) and Right 4 times, successfully walking from (11, 13) to reach (15, 12) on foot on Turn 139638 with zero wild encounters.
 - **Turns 139638-139639**: Standing on foot at (15, 12) on Map 0_228 (1F Southwest) facing Right, preparing to walk down the central stairs to Row 17 on the ground floor.
+- **Turn 139647**: Standing on foot at (15, 12). Walked Down, Down towards the ground floor, but was interrupted at (15, 14) on Turn 139648 by a wild Sandslash encounter.
+- **Turn 139649**: Successfully fled the Sandslash encounter and returned to the overworld at (15, 14) on foot.
+- **Turn 139651**: Walked Right 2 steps to (17, 14) on foot.
+- **Turn 139656**: Walked Down 2 steps to descend the central stairs at (17, 15) to reach (17, 16) on the ground floor on Turn 139657.
+- **Turn 139665**: Walked Left, Down, Left, Left, Left to reach (13, 17) on the southern ground floor.
+- **Turn 139668**: Walked Left 4 steps to (9, 17) on foot.
+- **Turn 139676**: Walked Left 3, Up 1 to reach (6, 16) on foot on Turn 139677.
+- **Turn 139688**: Walked Left 3, Up 1 to reach (3, 15) on foot on Turn 139689.
+- **Turn 139693**: Walked Left, Up, Left, Up to reach (1, 13) wooden stairs on Turn 139694.
+- **Turn 139701**: Walked Up, Up, Right, Right to Southwest Ladder 6 at (3, 11), warping to 2F West (Map 0_226) at (3, 11) on Turn 139702.
+- **Turns 139702-139728**: Positioned at (3, 11) on 2F West. Performed extensive topological analysis and disproved on-foot bypasses. Discovered that Column 7 on Rows 11-15 on 1F water is completely untested. Preparing to warp down to 1F to test these horizontal water crossovers.
