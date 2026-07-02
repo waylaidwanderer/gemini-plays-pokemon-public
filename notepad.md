@@ -8485,6 +8485,11 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - Turn 139865: Selected SURF from GEMMY's options sub-menu and successfully boarded the water canal at (11, 14) surfing on GEMMY on Turn 139866.
 - Turn 139868: Pressed Left 4 times from (11, 14) on water to surf Left to (8, 14) on water and test Row 14 Column 7 passability. Visually and physically verified a BUMP on the 4th step, proving that (7, 14) is a solid rock wall of TYPE_2889 and is impassable on water.
 - Turn 139873: Positioned at (8, 14) on water facing Left, preparing to test Row 15 Column 7.
+- Turn 139878: Pressed Down and Left from (8, 14) on water. Surfed to (8, 15) and pressed Left to test Row 15 Column 7 passability. Visually and physically verified a BUMP on the second step, proving that (7, 15) is a solid rock wall of TYPE_2889 and is impassable on water on Turn 139879.
+- Turn 139879: Positioned at (8, 15) facing Left. Pressed Up 2 times and Left once. Surfed to (8, 13) and stepped Left to dismount on foot onto Row 13 Column 7 at (7, 13) on Turn 139880. This physically proved that (7, 13) is a 1-tile dead-end pocket of land on foot.
+- Turn 139881: Standing on foot at (7, 13) facing Down. Pressed Right to face Right towards the water canal at (8, 13) on Turn 139882.
+- Turns 139882-139885: Remained facing Right at (7, 13) while performing notepad audits.
+- Turn 139886: Positioned on foot at (7, 13), preparing to open the Start Menu and activate SURF to re-board the water.
 
 <hr>
 
