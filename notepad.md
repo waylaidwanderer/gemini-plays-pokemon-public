@@ -8222,7 +8222,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing at (23, 3) on Map 0_228 (1F East) on Turn 138811 on foot with the party sub-menu open, facing Down.
+- Current Status: Standing at (17, 15) on Map 0_228 (1F East) on Turn 138841 on foot, facing Down.
 
 ## Row 17 Bypass Progression Log
 - **Turn 138737**: Positioned on foot at (27, 14) facing Left.
@@ -8259,6 +8259,16 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 138806**: Standing at (26, 1) on foot. Pressed Left 3 times, Down 2 times to arrive at Water Ramp 1 at (23, 3) on foot.
 - **Turn 138808**: Opened Start Menu.
 - **Turn 138811**: Opened Pokémon Menu, selected GEMMY to bring up options menu showing SURF. Prepare to surf.
+- **Turn 138812**: Activated SURF, boarding water at (23, 4).
+- **Turn 138814**: Surfed Left 5 steps to (18, 4).
+- **Turn 138815**: Surfed Left 3 steps, Down 3 steps to (15, 7).
+- **Turn 138817**: Surfed Left 6 steps to (9, 7).
+- **Turn 138820**: Surfed Down 6 steps to (9, 13).
+- **Turn 138823**: Attempted to surf Right 2 steps to (11, 13), but bumped at (10, 13) which is a solid rock wall of TYPE_2889.
+- **Turn 138824**: Surfed Down 1 step to (9, 14), Right 2 steps to (11, 14), and Up 1 step to dismount on foot at Water Ramp 2 at (11, 13).
+- **Turn 138830**: Walked Up 1 step, Right 4 steps to reach (15, 12) on the central platform.
+- **Turn 138833**: Pressed Down to (15, 13), hit a wild Golbat. Fled battle.
+- **Turn 138836**: Standing at (15, 13) on foot. Pressed Down, Right 2 times, Down to reach the central stairs at (17, 15).
 
 ## Disproven Theories Archive
 - **Direct 1F Horizontal Surfing Route (Disproven Turns 135121-135471)**:
