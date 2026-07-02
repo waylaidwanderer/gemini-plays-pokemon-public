@@ -8471,6 +8471,8 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - Turn 139787: Stepped Left to (2, 11) and Right back to (3, 11), warping down Southwest Ladder 6 to Map 0_228 (1F Southwest) at (3, 11).
 - Turn 139796: Walked Down to (3, 12), Left to (2, 12), Left to (1, 12), Down to (1, 13) wooden stairs, and Down to (1, 14), then Down to (1, 15), and Down to (1, 16) on the ground floor on foot.
 - Turn 139799: Pressed Right to (2, 16), which triggered a wild Level 53 Raichu encounter at (2, 16), aborting our movement sequence.
+- Turn 139807: Fled the wild Raichu battle successfully using 'flee_battle', returning to the overworld at (2, 16) facing Down on Turn 139809.
+- Turn 139809: Walked Down to (2, 17) and Right 9 times along the southern Row 17 corridor to reach (11, 17) on foot with zero wild encounters on Turn 139811.
 
 <hr>
 
