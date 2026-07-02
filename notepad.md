@@ -8623,6 +8623,7 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - Turn 140534: Standing at (11, 7) surfing on GEMMY, facing Left.
 - Turn 140538: Pressed Left 2 steps to surf along the Row 7 crossover water canal, successfully arriving at (9, 7) on water on Turn 140539 with zero wild encounters.
 - Turns 140540-140542: Surfing on GEMMY at (9, 7) on Map 0_228, facing Left, preparing to surf Down 7 steps along Column 9 to Row 14.
+- **Turn 140565**: Standing on foot at (14, 12) on Map 0_228 (1F), facing Right. Backtracking towards Southwest Ladder 6 at (3, 11). Preparing to walk across the central platform to descend the central stairs at (17, 15) to reach (17, 16) on the ground floor.
 
 <hr>
 
