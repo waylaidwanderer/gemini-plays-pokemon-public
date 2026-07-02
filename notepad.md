@@ -8537,6 +8537,18 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 140091**: Escaped the Golbat encounter using 'flee_battle', returning to the overworld at (14, 17) on foot, facing Down.
 - **Turn 140091**: From (14, 17) facing Down, pressed ["Right", "Up", "Right", "Right"] to walk to the base of the central stairs at (17, 16) successfully.
 - **Turn 140092**: Arrived at (17, 16) on foot, facing Up. Preparing to climb the central stairs to the platform.
+- **Turn 140101**: From (17, 16) facing Up, pressed ["Up", "Up", "Left", "Left", "Up", "Up", "Left", "Left", "Left", "Left", "Down"] to walk across the central platform and successfully arrive on foot at Water Ramp 2 at (11, 13) on Turn 140102 with zero wild encounters.
+- **Turn 140102**: Standing on foot on Water Ramp 2 at (11, 13) on Map 0_228, facing Down.
+- **Turn 140105**: Opened Start Menu.
+- **Turn 140106**: Selected POKéMON and opened party selection screen.
+- **Turn 140108**: Selected GEMMY to open her options sub-menu.
+- **Turn 140110**: Selected SURF and successfully boarded the water canal at (11, 14) surfing on GEMMY on Turn 140111.
+- **Turn 140112**: Pressed ["Left", "Left", "Up", "Up", "Up", "Up", "Up", "Up", "Up"] to surf Left to (9, 14) and Up to (9, 7) on water successfully on Map 0_228 with zero wild encounters.
+- **Turn 140119**: Pressed ["Right", "Right", "Right", "Right", "Right", "Up", "Up", "Up", "Right", "Up"] to surf along Row 7 crossover water to (14, 7), Up to (14, 4), Right to (15, 4), and Up to dismount on foot at Water Ramp 4 at (15, 3) on Turn 140121 with zero wild encounters.
+- **Turn 140125**: Pressed ["Up", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Up"] to walk from (15, 3) towards Ladder 5. Interrupted at (8, 2) on Turn 140126 by a wild Level 52 Dodrio encounter.
+- **Turn 140126**: Escaped wild Dodrio using 'flee_battle', returning to the overworld at (8, 2) on foot, facing Down on Turn 140127.
+- **Turn 140127**: Pressed ["Left", "Up"] to walk Left to (7, 2) and Up to (7, 1) (Ladder 5), warping up to 2F West (Map 0_226) at (9, 1) on foot on Turn 140128.
+- **Turn 140128**: Arrived on 2F West at (9, 1) on foot, facing Down. Preparing to walk to (3, 5) to physically test the Row 5 Column 0 bypass to Northwest Ladder (1, 3).
 
 <hr>
 
