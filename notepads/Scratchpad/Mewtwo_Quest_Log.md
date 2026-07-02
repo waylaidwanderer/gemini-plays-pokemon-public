@@ -211,6 +211,3 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turns 139580-139593**: Standing on foot at (17, 14) on Map 0_228, facing Left.
 - **Turn 139594**: Resumed our walk Left. Pressed Left, Left, Up, Up on Map 0_228, successfully arriving at (15, 12) on foot on Turn 139595 with zero wild encounters.
 - **Turns 139595-139598**: Standing on foot at (15, 12) on Map 0_228 (1F Southwest) facing Left, preparing to execute the remaining 5 steps to reach Water Ramp 2 at (11, 13) on foot.
-- **Turn 139578**: Engaged in battle with wild Hypno at (17, 14).
-- **Turn 139579**: Successfully fled from the wild Hypno using the 'flee_battle' tool, returning to the overworld at (17, 14) facing Left on Turn 139580.
-- **Turns 139580-139593**: Standing on foot at (17, 14) on Map 0_228, facing Left, preparing to walk Left towards Water Ramp 2.
