@@ -8438,7 +8438,9 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 139606**: Arrived on foot at (11, 13) facing Down. Opened the Start Menu.
 - **Turn 139609**: Selected POKéMON from the Start Menu, opening the party selection menu.
 - **Turn 139611**: Selected GEMMY from the party menu, opening her options sub-menu.
-- **Turn 139613**: Standing at (11, 13) facing Down on Map 0_228, selecting SURF from GEMMY's options to board the water at (11, 14).
+- **Turn 139613**: Standing at (11, 13) facing Down on Map 0_228, selecting SURF from GEMMY's options to board the water at (11, 14) on Turn 139614.
+- **Turn 139614**: Boarded the water at (11, 14) surfing on GEMMY, facing Down.
+- **Turn 139616**: Surfing on GEMMY at (11, 14) on Map 0_228, facing Down. Preparing to surf Left and Up to (8, 12) along the central canal.
 
 <hr>
 
