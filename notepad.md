@@ -8365,6 +8365,15 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 139219**: Selected GEMMY.
 - **Turn 139220**: Selected SURF.
 - **Turn 139221**: Successfully boarded the water canal at (15, 4) surfing on GEMMY, facing Down.
+- **Turn 139221**: Boarded water canal at (15, 4) surfing on GEMMY, facing Down.
+- **Turn 139222-139242**: Surfed along Row 4/5 water to (15, 7) and then Left on Row 7 crossover water via (13, 7) and (12, 7) to reach (9, 7). From (9, 7), surfed Down to (9, 14), then Right 2 to (11, 14), and Up 1 to dismount onto Water Ramp 2 at (11, 13) on Turn 139243.
+- **Turn 139244-139246**: Walked Up to (11, 12), Right 4 to (15, 12), and Down 2 to reach (15, 14) on foot on Turn 139247.
+- **Turn 139248-139251**: Walked Up 2 to (15, 12), Left 4 to (11, 12), and Down 1 to stand on Water Ramp 2 at (11, 13) on Turn 139252.
+- **Turn 139255-139271**: Walked to (15, 14) on foot, encountered Parasect (fled), walked back to Water Ramp 2 at (11, 13) on foot on Turn 139272.
+- **Turn 139273-139277**: Opened Start menu, selected POKéMON, selected GEMMY, and selected SURF to board water at (11, 14) surfing on GEMMY on Turn 139278.
+- **Turn 139281-139284**: Surfed Left to (9, 14), then Up 7 to (9, 7).
+- **Turn 139285-139286**: Surfed Right 5 steps along Row 7 crossover to (14, 7), Up 3 steps to (14, 4), Right once to (15, 4), and Up once to dismount on foot at Water Ramp 4 at (15, 3) on Turn 139287.
+- **Turn 139287-139299**: Positioned on foot at (15, 3) facing Up.
 
 <hr>
 
