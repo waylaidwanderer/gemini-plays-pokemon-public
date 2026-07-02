@@ -8639,6 +8639,19 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 140589**: Facing Left at (2, 10), pressed Left to test (1, 10). Result: BUMP (visited 0 tiles), physically proving (1, 10) is a solid rock wall of TYPE_2889 and is impassable.
 - **Turn 140594**: Facing Up at (2, 10), pressed Up to test (2, 9). Result: BUMP (visited 0 tiles), physically proving (2, 9) is a solid rock wall of TYPE_2889 and is impassable.
 - **Turn 140605**: Standing on foot at (2, 10), pressed Down and Right to return to Southwest Ladder 6 at (3, 11), immediately warping down to 1F Southwest (Map 0_228) at (3, 11) on Turn 140606.
+- **Turns 140598-140605**: Remained at (2, 10) on foot on Map 0_226 while completing experimental logs.
+- **Turn 140605**: Pressed Down and Right to return to Southwest Ladder 6 at (3, 11) on foot, immediately warping back down to Map 0_228 (1F Southwest) at (3, 11) on Turn 140606.
+- **Turns 140606-140619**: Stood on Southwest Ladder 6 at (3, 11) on foot on Map 0_228 while updating quest logs and redefining custom tools.
+- **Turn 140620**: Pressed ["Down", "Left", "Left", "Down", "Down", "Down", "Down"] to walk from Southwest Ladder 6 at (3, 11) down the stairs to (1, 16) on foot with zero wild encounters.
+- **Turn 140623**: Pressed ["Right", "Down", "Right", "Right", "Right", "Right"] to walk from (1, 16) through (2, 16) -> (2, 17) -> (6, 17) on foot with zero wild encounters.
+- **Turn 140626**: Pressed Right 9 times from (6, 17), but was interrupted on the 4th step at (10, 17) by a wild Level 50 Sandslash on Turn 140627.
+- **Turn 140627**: Fled wild Sandslash battle successfully using 'flee_battle', returning to the overworld at (10, 17) facing Right on Turn 140628.
+- **Turn 140631**: Pressed ["Right", "Right", "Right", "Right", "Right", "Up", "Right", "Right"] to walk from (10, 17) through (15, 17) -> (15, 16) -> (17, 16) at the base of the central stairs on foot with zero wild encounters on Turn 140632.
+- **Turn 140632**: Pressed ["Up", "Up", "Left", "Left", "Up", "Up"] to climb the central stairs, but was interrupted on the 3rd step at (16, 14) on Turn 140633 by a wild Level 49 Dodrio encounter.
+- **Turn 140633**: Fled wild Dodrio battle successfully using 'flee_battle', returning to the overworld at (16, 14) facing Right on Turn 140635.
+- **Turn 140635**: Pressed ["Left", "Up", "Up", "Left"] to walk from (16, 14) through (15, 14) -> (15, 12) -> (14, 12) on foot on the central platform with zero wild encounters on Turn 140636.
+- **Turn 140636**: Pressed ["Left", "Left", "Left", "Down"] to walk Left along Row 12 to Column 11 and Down to dismount on foot at Water Ramp 2 at (11, 13) on Turn 140637 with zero wild encounters.
+- **Turns 140637-140642**: Stood on foot at Water Ramp 2 at (11, 13) facing Down while conducting notepad cleanup operations.
 
 <hr>
 
