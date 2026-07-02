@@ -8590,6 +8590,7 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 [Turn 140320] Start Menu opened, cursor is pointing at POKéDEX. Preparing to press ["Down", "A"] to open the Party Menu.
 [Turn 140322] Party Menu opened, cursor is pointing at GEMMY. Preparing to press "A" to select GEMMY and view her options menu.
 [Turn 140324] Options menu open, cursor is pointing at ▶SURF. Preparing to press "A" to select SURF and board the water canal at (11, 14).
+[Turn 140328] Successfully boarded the water canal at (11, 14) surfing on GEMMY, facing Down. Executing Chunk 1 of surfing path: ["Left", "Left", "Up", "Up", "Up", "Up"] to reach (9, 10) on water.
 
 <hr>
 
