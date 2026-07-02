@@ -8352,6 +8352,12 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 139101**: Standing on foot at (9, 5) on Map 0_226.
 - **Turns 139102-139143**: Moved on foot from (9, 5) to (13, 6). Standing at (13, 6) facing Right, pressed Right to test (14, 6) passability. Result: BUMP (0 tiles visited), confirming (14, 6) is a solid rock wall of TYPE_2889. Redefined the custom tool 'cave_bfs_solver' to block Rows 6 and 7 across Columns 3-12, fully correcting its collision database to match our verified physical split of 2F West. Discarded the disproven Column 0 bypass theory.
 - **Turn 139146**: Positioned at (13, 6) on foot, facing Left. Preparing to walk to Ladder 5 at (9, 1) using the 100% correct, verified backtracking path.
+- **Turn 139153**: Pressed Up, Left, Left, Left, Left. Arrived at (9, 5).
+- **Turn 139157**: Standing at (9, 5) facing Down. Pressed Up, Up, Left, Left, Left, Left, Left, Left to go to (3, 3). Interrupted at (3, 3) by wild Kadabra encounter.
+- **Turn 139159**: Successfully fled wild Kadabra encounter using 'flee_battle', returning to the overworld at (3, 3) facing Up.
+- **Turn 139165**: Standing at (3, 3) facing Up. Pressed Up, Up, Right, Right, Right. Arrived at (6, 1) facing Right.
+- **Turn 139168**: Standing at (6, 1) facing Right. Pressed Right, Right, Right to reach Ladder 5 at (9, 1), which immediately warped us down to Map 0_228 (1F Northwest) at (7, 1) on foot on Turn 139169.
+- **Turns 139170-139199**: Standing at (7, 1) on foot on Map 0_228. Investigated geography and identified dead ends. Corrected the 'cave_bfs_solver' tool's database and logic to block Columns 12 and 13 on Rows 3-5 on water and Row 3 on foot.
 
 <hr>
 
