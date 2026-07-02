@@ -151,3 +151,11 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 139281-139284**: Surfed Left to (9, 14), then Up 7 to (9, 7).
 - **Turn 139285-139286**: Surfed Right 5 steps along Row 7 crossover to (14, 7), Up 3 steps to (14, 4), Right once to (15, 4), and Up once to dismount on foot at Water Ramp 4 at (15, 3) on Turn 139287.
 - **Turn 139287-139299**: Positioned on foot at (15, 3) facing Up.
+## Backtracking Log: Turn 139294 to 139362
+- **Turn 139300-139306**: Aligned goals and prepared the on-foot path to Ladder 5 at (7, 1) on Map 0_228 (1F).
+- **Turn 139307**: Walked on foot from (15, 3) to (7, 1) [Ladder 5]. Specifically, from (15, 3), we walked Up 2 to (15, 1) and Left 8 to (7, 1), immediately warping up to 2F West at (9, 1) on Map 0_226 on Turn 139308.
+- **Turn 139308**: Arrived on Map 0_226 (2F West) at (9, 1) on foot, facing Down.
+- **Turn 139309-139332**: Walked Left on 2F West from (9, 1) towards (3, 1), but were interrupted at (6, 1) on Turn 139333 by a wild Marowak encounter.
+- **Turn 139333**: Engaged in a wild battle with a Level 52 Marowak at (6, 1) on Map 0_226 on foot.
+- **Turn 139334-139336**: Fled the wild Marowak encounter successfully using the 'flee_battle' tool, returning to the overworld at (6, 1) facing Left on Turn 139337.
+- **Turn 139337-139362**: Confirmed overworld position at (6, 1) on foot on Map 0_226, analyzing the unblocked path toward Southwest Ladder 6.
