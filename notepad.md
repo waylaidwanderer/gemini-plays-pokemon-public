@@ -8625,6 +8625,18 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - Turns 140540-140542: Surfing on GEMMY at (9, 7) on Map 0_228, facing Left, preparing to surf Down 7 steps along Column 9 to Row 14.
 - **Turn 140565**: Standing on foot at (14, 12) on Map 0_228 (1F), facing Right. Backtracking towards Southwest Ladder 6 at (3, 11). Preparing to walk across the central platform to descend the central stairs at (17, 15) to reach (17, 16) on the ground floor.
 - **Turn 140574**: Standing on foot at (2, 15) on Map 0_228 (1F), facing Left. Preparing to execute the remaining 7-step sequence `["Up", "Left", "Up", "Up", "Up", "Right", "Right"]` to climb the wooden stairs and reach Southwest Ladder 6 at (3, 11) to warp to 2F West.
+- **Turns 140543-140555**: Surfed Down along Column 9 on Map 0_228 from (9, 7) to (9, 14), then Right to (11, 14) on water, and Up to dismount on foot at Water Ramp 2 at (11, 13) on Turn 140557 with zero wild encounters.
+- **Turn 140557**: Positioned at Water Ramp 2 (11, 13) on Map 0_228. Ran `cave_bfs_solver` on foot to plan the path to Southwest Ladder 6.
+- **Turn 140561**: Pressed ["Up", "Right", "Right", "Right", "Right"] on foot across the central platform, but was interrupted on the 4th step at (14, 12) on Turn 140562 by a wild Sandslash encounter.
+- **Turn 140562**: Engaged in wild Sandslash battle. Escaped successfully using 'flee_battle' on Turn 140563, returning to the overworld at (14, 12) facing Right.
+- **Turn 140567**: Pressed ["Right", "Down", "Down"] to walk from (14, 12) to (15, 14) on foot around the (14, 13) wall blockage.
+- **Turn 140568**: Pressed ["Right", "Right", "Down", "Down"] to walk from (15, 14) to the central stairs at (17, 15) and descend to (17, 16) on the southern ground floor.
+- **Turn 140571**: Pressed ["Left", "Down", "Left", "Left", "Left", "Left"] to walk from (17, 16) along the Row 17 southern ground corridor to reach (12, 17) on foot.
+- **Turn 140572**: Pressed ["Left", "Left", "Left", "Left", "Left", "Left"] to walk Left from (12, 17) to (6, 17) along Row 17 on foot.
+- **Turn 140573**: Pressed ["Up", "Left", "Left", "Left", "Up", "Left"] to walk from (6, 17) through (6, 16) -> (3, 16) -> (3, 15) -> (2, 15) on foot.
+- **Turn 140577**: Pressed ["Up", "Left", "Up", "Up", "Up", "Right", "Right"] to walk from (2, 15) through (2, 14) -> (1, 14) -> (1, 13) wooden stairs -> (1, 12) -> (1, 11) -> (2, 11) -> (3, 11) Southwest Ladder 6, immediately warping back up to 2F West (Map 0_226) at (3, 11) on foot on Turn 140578.
+- **Turn 140584**: Pressed Left to walk from Southwest Ladder 6 at (3, 11) to (2, 11) on foot to initialize the Southern Column 0 passability experiment.
+- **Turns 140585-140597**: Conducted the Southern Column 0 passability experiment at (2, 11) and (2, 10) on foot, proving that Column 0 cannot be reached from the south on Map 0_226, completely resolving the Socratic Challenge and satisfying the Burden of Proof.
 
 <hr>
 
