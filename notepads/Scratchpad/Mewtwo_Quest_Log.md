@@ -125,3 +125,9 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Methodology**: Ran a Python BFS search utilizing the fully verified 2F West collision database, explicitly marking Koga's Row 8 solid rock blockages across Columns 3 to 12.
 - **Results**: BFS returned "None". The reachable component from (3, 11) is strictly bounded, extending east to (21, 9) but completely blocked from reaching (1, 3) on foot.
 - **Conclusion**: Confirmed! We must backtrack to 1F, navigate to Ladder 5 at (7, 1) on 1F Northwest (which is connected to (1, 3) on 2F West), and ascend there.
+- **Turns 138885-138887**: Verified warp and movement behaviors at Southwest Ladder 6. Pressed 'A' standing on the ladder tile at (3, 11) on 2F West to descend, but did not warp. This is because Gen 1 overworld ladder warps are strictly movement-triggered. Stepped off the ladder to the Left onto (2, 11), then stepped Right back onto (3, 11) to trigger the warp.
+- **Turn 138888**: Successfully warped back to 1F Southwest (Map 0_228) at (3, 11).
+- **Turn 138891**: Stepped Down to (3, 12) and Left to (2, 12) on foot on 1F.
+- **Turn 138896**: Attempted to step Left to (1, 12), Down to (1, 13) wooden stairs, and Down to (1, 14).
+- **Turn 138897**: Movement sequence was interrupted on the first step Left to (1, 12) by a wild Magneton encounter.
+- **Turn 138898**: Successfully fled the wild Magneton battle and returned to the overworld at (1, 12) facing Down.
