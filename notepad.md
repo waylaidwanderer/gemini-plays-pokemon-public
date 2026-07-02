@@ -8222,7 +8222,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (7, 0) on Map 0_226 (2F West) on Turn 140762, facing Down, preparing to walk to (3, 1) to test Column 2 passability on Rows 1-3.
+- Current Status: Engaged in a wild Level ?? Kadabra battle at (4, 1) on Map 0_226 (2F West) on Turn 140764, preparing to flee.
 - **Turn 140690-140695**: Walked Down 5 steps to (11, 13) on foot, opened menu, used SURF on GEMMY, and successfully boarded the water at (11, 14).
 - **Turn 140696-140715**: Called cave_bfs_solver to navigate to (15, 4), which returned 6 'Up' buttons due to the starting state queue bug. This walked us Up to (11, 13) (dismounting onto Water Ramp 2) and continued Up to (11, 8) on foot, facing Down.
 - **Turn 140716-140732**: Redefined cave_bfs_solver to fix the surf starting state bug, and updated quest logs. Standing on foot at (11, 8), called cave_bfs_solver to path to (11, 13). However, because we had not yet updated the is_water function to treat (11, 13) as land, the solver returned a 71-step looping path. On step 40, we were pulled into a wild Level 46 Magneton battle at (15, 12) on Turn 140732.
@@ -8232,6 +8232,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Turn 140744-140746**: Successfully surfed along the central and northern water channels using the updated cave_bfs_solver tool, arriving at (15, 4) on water with zero wild encounters. Ready to dismount onto Water Ramp 4 at (15, 3).
 - **Turn 140747-140748**: Pressed Up once, successfully dismounting onto Water Ramp 4 at (15, 3) on foot, facing Up.
 - **Turn 140749-140753**: Walked from (15, 3) on foot to Ladder 5 at (7, 1) on Map 0_228 using cave_bfs_solver, warping up to 2F West at (9, 1) on foot on Turn 140753.
+- **Turn 140754-140762**: Called cave_bfs_solver to navigate to (1, 3) on foot. However, due to a database omission on (7, 2) and (8, 2), we stepped Down to (7, 1) and immediately bumped against (7, 2) solid rock wall, which pulled us into a wild Level 46 Dodrio battle at (7, 1) on Turn 140759. Redefined cave_bfs_solver to add (7, 2) and (8, 2) to solids_2f database. Fled the wild Dodrio battle successfully using 'flee_battle' on Turn 140760, ending up at (7, 0) on foot, facing Down.
+- **Turn 140763-140764**: Redefined solids_2f database in cave_bfs_solver to restore historically verified blockages. Walked Down to (7, 1) and Left towards (3, 1) on foot on Map 0_226, but got interrupted on the 4th step (Left) at (4, 1) on Turn 140764 by a wild Kadabra battle.
 - **Turn 140754-140762**: Called cave_bfs_solver to navigate to (1, 3) on foot. However, due to a database omission on (7, 2) and (8, 2), we stepped Down to (7, 1) and immediately bumped against (7, 2) solid rock wall, which pulled us into a wild Level 46 Dodrio battle at (7, 1) on Turn 140759. Redefined cave_bfs_solver to add (7, 2) and (8, 2) to solids_2f database. Fled the wild Dodrio battle successfully using 'flee_battle' on Turn 140760, ending up at (7, 0) on foot, facing Down.
 
 ## The True Detour Route via Ladder 2 - DISPROVEN
