@@ -397,3 +397,6 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - Turn 140519: Pressed Down 3 steps to surf along the eastern water canal on Map 0_228, successfully arriving at (15, 7) on water on Turn 140521 with zero wild encounters.
 - Turn 140522: Pressed Left 4 steps to surf along the Row 7 crossover water canal, successfully arriving at (11, 7) on water on Turn 140526 with zero wild encounters.
 - Turns 140527-140533: Surfing on GEMMY at (11, 7) on Map 0_228, facing Left, preparing to surf Left 2 steps to (9, 7).
+- Turn 140534: Standing at (11, 7) surfing on GEMMY, facing Left.
+- Turn 140538: Pressed Left 2 steps to surf along the Row 7 crossover water canal, successfully arriving at (9, 7) on water on Turn 140539 with zero wild encounters.
+- Turns 140540-140542: Surfing on GEMMY at (9, 7) on Map 0_228, facing Left, preparing to surf Down 7 steps along Column 9 to Row 14.
