@@ -8222,7 +8222,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (4, 1) on Map 0_226 (2F West) on Turn 139415, facing Right.
+- Current Status: Standing on foot at (17, 15) on Map 0_228 (1F) on Turn 139450, facing Down on the stairs.
 
 ## The True Detour Route via Ladder 2 - DISPROVEN
 To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted to enter 2F West from Ladder 2 at (29, 1). However, on Turn 138765, we conclusively disproved this detour route:
@@ -8390,6 +8390,12 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 139406**: Walked Right from (3, 1) to (4, 1), where we were interrupted by a wild Marowak encounter. Fled.
 - **Turn 139412**: Successfully returned to the overworld at (4, 1) on foot, facing Right.
 - **Turn 139415**: Aligned our records and prepared to walk the final 5 steps Right to reach Ladder 5 at (9, 1).
+- **Turn 139417**: Walked 5 steps Right from (4, 1) to (9, 1) on Map 0_226, immediately warping down Ladder 5 to Map 0_228 (1F) at (7, 1) on foot.
+- **Turn 139423**: Walked Down 1 to (7, 2), Right 8 steps to (15, 2), and Down 1 to stand on Water Ramp 4 at (15, 3) on foot.
+- **Turn 139429**: Opened the Start menu, selected POKéMON, selected GEMMY, and selected SURF to board the water canal at (15, 4).
+- **Turn 139433**: Surfed Down 3 to (15, 7), Left 6 to Column 9 at (9, 7), Down 7 to Row 14 at (9, 14), Right 2 to Column 11 at (11, 14), and Up 1 to dismount on foot at Water Ramp 2 at (11, 13).
+- **Turn 139448**: Executed 10-step unblocked on-foot sequence `["Up", "Right", "Right", "Right", "Right", "Down", "Down", "Right", "Right", "Down"]` to loop around the (14, 13) solid wall and reach the central stairs at (17, 15) on foot.
+- **Turn 139449**: Aligned our records and prepared to walk from the stairs at (17, 15) to reach Southwest Ladder 6 at (3, 11) via Row 17 on foot.
 
 <hr>
 
