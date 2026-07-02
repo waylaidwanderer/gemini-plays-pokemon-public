@@ -1,14 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (6, 1) on Map 0_226 (2F West) on Turn 139358, facing Left.
-
-## Row 17 Bypass Progression Log
-- **Turn 138737**: Positioned on foot at (27, 14) facing Left.
-- **Turn 138738**: Executed 6-step sequence: `["Right", "Down", "Down", "Left", "Down", "Left"]` to bypass the solid rock blockages and arrive safely at (26, 17) on foot on Row 17.
-- **Turn 138740**: Standing at (26, 17) on foot. Pressed 4 Left steps, but was interrupted on the 2nd step by a wild Venomoth at (24, 17). Fled battle.
-- **Turn 138744**: Standing at (24, 17) on foot. Discovered that (20, 17) is a solid rock wall of TYPE_2889, preventing further leftward movement along Row 17.
-- **Turn 138745**: Standing at (24, 17) on foot. Moved Left 3 steps to reach (21, 17) on foot, which is the farthest left we can go on Row 17.
-- **Turn 138746**: Standing at (21, 17) on foot. Executed `["Up", "Up", "Right", "Up", "Up"]` to loop around the solid rock walls at (21, 14) and (22, 16), reaching (22, 13) on foot. Interrupted by a wild Wigglytuff. Fled battle.
-- **Turn 138752**: Standing at (22, 13) on foot. Confirmed that Row 13 is fully passable and unblocked heading west.
+- Current Status: Standing on foot at (4, 1) on Map 0_226 (2F West) on Turn 139415, facing Right.
 
 ## The True Detour Route via Ladder 2 - DISPROVEN
 To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted to enter 2F West from Ladder 2 at (29, 1). However, on Turn 138765, we conclusively disproved this detour route:
@@ -18,7 +9,14 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Backtracking Route to Southwest Ladder**:
   We must backtrack on 2F West to Ladder 2 at (29, 1), descend to 1F at (27, 1), walk to Water Ramp 1 at (23, 3), Surf across the eastern canal to Water Ramp 2 at (11, 13), walk to the central stairs at (17, 15), descend to the ground level at (17, 16), walk along the ground floor Row 17 to the wooden stairs at (1, 13), ascend to the southwest plateau, climb Southwest Ladder at (3, 11) to 2F West, and walk to Northwest Ladder (1, 3) on foot.
 
-## Active Backtracking Log
+## Master Chronological Backtracking Log
+- **Turn 138737**: Positioned on foot at (27, 14) facing Left.
+- **Turn 138738**: Executed 6-step sequence: `["Right", "Down", "Down", "Left", "Down", "Left"]` to bypass the solid rock blockages and arrive safely at (26, 17) on foot on Row 17.
+- **Turn 138740**: Standing at (26, 17) on foot. Pressed 4 Left steps, but was interrupted on the 2nd step by a wild Venomoth at (24, 17). Fled battle.
+- **Turn 138744**: Standing at (24, 17) on foot. Discovered that (20, 17) is a solid rock wall of TYPE_2889, preventing further leftward movement along Row 17.
+- **Turn 138745**: Standing at (24, 17) on foot. Moved Left 3 steps to reach (21, 17) on foot, which is the farthest left we can go on Row 17.
+- **Turn 138746**: Standing at (21, 17) on foot. Executed `["Up", "Up", "Right", "Up", "Up"]` to loop around the solid rock walls at (21, 14) and (22, 16), reaching (22, 13) on foot. Interrupted by a wild Wigglytuff. Fled battle.
+- **Turn 138752**: Standing at (22, 13) on foot. Confirmed that Row 13 is fully passable and unblocked heading west.
 - **Turn 138769**: Standing at (17, 13) on foot, preparing to walk Right back to (22, 13) and then loop down to Row 17 to reach the eastern side.
 - **Turn 138771**: Walked Right 3 steps, hit a wild Venomoth at (20, 13). Fled battle.
 - **Turn 138773**: Walked Right 2 steps to reach (22, 13) on foot.
@@ -56,7 +54,6 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 138871**: Stepped Right onto Southwest Ladder at (3, 11) and pressed A, warping to 2F West (Map 0_226) at (3, 11).
 - **Turn 138875**: Proved programmatically that Southwest Ladder 6 at (3, 11) is in an isolated component on 2F West due to Row 8 solid rock blockages from Column 3 to 12.
 - **Turns 138885-138887**: Verified warp and movement behaviors at Southwest Ladder 6. Pressed 'A' standing on the ladder tile at (3, 11) on 2F West to descend, but did not warp. This is because Gen 1 overworld ladder warps are strictly movement-triggered. Stepped off the ladder to the Left onto (2, 11), then stepped Right back onto (3, 11) to trigger the warp.
-## Active Backtracking Log: Turn 138888 to 138932
 - **Turn 138888**: Successfully warped back to 1F Southwest (Map 0_228) at (3, 11).
 - **Turn 138891**: Stepped Down to (3, 12) and Left to (2, 12) on foot.
 - **Turn 138896**: Attempted to step Left to (1, 12), Down to (1, 13) wooden stairs, and Down to (1, 14).
@@ -83,8 +80,6 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 138958**: Positioned at Water Ramp 2 (11, 13) on foot, facing Down.
 - **Turns 138954-138956**: Called speak to declare our backtracking results and aligned facing Down at (11, 13).
 - **Turn 138965**: Positioned at Water Ramp 2 (11, 13) on foot facing Down. Opened the Start Menu.
-## Active Backtracking Log: Turn 138965 to 139022
-- **Turn 138965**: Standing at Water Ramp 2 at (11, 13) on foot facing Down. Opened Start Menu.
 - **Turn 138967**: Opened POKéMON menu, selected GEMMY, and activated SURF to board the water at (11, 14).
 - **Turn 138969**: Surfed Left to (9, 14), then Up 8 steps to (9, 6).
 - **Turn 138971**: Surfed Right 5 steps to (14, 6).
@@ -142,7 +137,6 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 139219**: Selected GEMMY.
 - **Turn 139220**: Selected SURF.
 - **Turn 139221**: Successfully boarded the water canal at (15, 4) surfing on GEMMY, facing Down.
-- **Turn 139221**: Boarded water canal at (15, 4) surfing on GEMMY, facing Down.
 - **Turn 139222-139242**: Surfed along Row 4/5 water to (15, 7) and then Left on Row 7 crossover water via (13, 7) and (12, 7) to reach (9, 7). From (9, 7), surfed Down to (9, 14), then Right 2 to (11, 14), and Up 1 to dismount onto Water Ramp 2 at (11, 13) on Turn 139243.
 - **Turn 139244-139246**: Walked Up to (11, 12), Right 4 to (15, 12), and Down 2 to reach (15, 14) on foot on Turn 139247.
 - **Turn 139248-139251**: Walked Up 2 to (15, 12), Left 4 to (11, 12), and Down 1 to stand on Water Ramp 2 at (11, 13) on Turn 139252.
@@ -151,7 +145,6 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 139281-139284**: Surfed Left to (9, 14), then Up 7 to (9, 7).
 - **Turn 139285-139286**: Surfed Right 5 steps along Row 7 crossover to (14, 7), Up 3 steps to (14, 4), Right once to (15, 4), and Up once to dismount on foot at Water Ramp 4 at (15, 3) on Turn 139287.
 - **Turn 139287-139299**: Positioned on foot at (15, 3) facing Up.
-## Backtracking Log: Turn 139294 to 139362
 - **Turn 139300-139306**: Aligned goals and prepared the on-foot path to Ladder 5 at (7, 1) on Map 0_228 (1F).
 - **Turn 139307**: Walked on foot from (15, 3) to (7, 1) [Ladder 5]. Specifically, from (15, 3), we walked Up 2 to (15, 1) and Left 8 to (7, 1), immediately warping up to 2F West at (9, 1) on Map 0_226 on Turn 139308.
 - **Turn 139308**: Arrived on Map 0_226 (2F West) at (9, 1) on foot, facing Down.
@@ -159,3 +152,18 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 139333**: Engaged in a wild battle with a Level 52 Marowak at (6, 1) on Map 0_226 on foot.
 - **Turn 139334-139336**: Fled the wild Marowak encounter successfully using the 'flee_battle' tool, returning to the overworld at (6, 1) facing Left on Turn 139337.
 - **Turn 139337-139362**: Confirmed overworld position at (6, 1) on foot on Map 0_226, analyzing the unblocked path toward Southwest Ladder 6.
+- **Turn 139363-139368**: Walked Left on Row 1 on 2F West, we encountered a wild Marowak at (3, 1) on Turn 139369. Fled.
+- **Turn 139371**: Walked Left to (3, 1) and Down to (3, 2), where we met a wild Chansey. Fled.
+- **Turn 139375**: Walked Down to (3, 3) and Right 2 steps to (5, 3).
+- **Turn 139378**: Encountered a wild Wigglytuff at (5, 3). Fled.
+- **Turn 139380**: Walked Right 4 steps to (9, 5) and Right 4 steps to (13, 5).
+- **Turn 139385**: Standing at (13, 5), we encountered a wild Dodrio at (13, 5). Fled.
+- **Turn 139388**: Standing at (13, 5) on Map 0_226 (2F West). Attempted to walk Right 4 steps to (17, 5).
+- **Turn 139391**: Bumped at (17, 5) on Map 0_226 on foot, which physically proved that (17, 5) is a solid, impassable rock wall of TYPE_2889. This blocks horizontal access on Row 5 and disproves any direct rightward bypass on Row 5.
+- **Turn 139394**: Programmatically calculated the backtrack path from (13, 5) to (9, 1).
+- **Turn 139395**: Walked Left 4 steps, Up 2 steps, and Left 1 step, but was interrupted at (8, 3) on Turn 139396 by a wild Venomoth encounter. Fled.
+- **Turn 139397**: Resumed walking Left from (8, 3), but was interrupted at (5, 3) on Turn 139398 by a wild Venomoth encounter. Fled.
+- **Turn 139401**: Backtracked Left from (5, 3) to (3, 3), Up to (3, 1), and began walking Right towards (9, 1).
+- **Turn 139406**: Walked Right from (3, 1) to (4, 1), where we were interrupted by a wild Marowak encounter. Fled.
+- **Turn 139412**: Successfully returned to the overworld at (4, 1) on foot, facing Right.
+- **Turn 139415**: Aligned our records and prepared to walk the final 5 steps Right to reach Ladder 5 at (9, 1).
