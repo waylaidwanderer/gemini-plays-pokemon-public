@@ -8279,6 +8279,25 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 138871**: Stepped Right onto Southwest Ladder at (3, 11) and pressed A, warping to 2F West (Map 0_226) at (3, 11).
 - **Turn 138875**: Proved programmatically that Southwest Ladder 6 at (3, 11) is in an isolated component on 2F West due to Row 8 solid rock blockages from Column 3 to 12.
 - **Turns 138885-138887**: Verified warp and movement behaviors at Southwest Ladder 6. Pressed 'A' standing on the ladder tile at (3, 11) on 2F West to descend, but did not warp. This is because Gen 1 overworld ladder warps are strictly movement-triggered. Stepped off the ladder to the Left onto (2, 11), then stepped Right back onto (3, 11) to trigger the warp.
+## Active Backtracking Log: Turn 138888 to 138932
+- **Turn 138888**: Successfully warped back to 1F Southwest (Map 0_228) at (3, 11).
+- **Turn 138891**: Stepped Down to (3, 12) and Left to (2, 12) on foot.
+- **Turn 138896**: Attempted to step Left to (1, 12), Down to (1, 13) wooden stairs, and Down to (1, 14).
+- **Turn 138897**: Movement sequence was interrupted on the first step Left to (1, 12) by a wild Magneton encounter.
+- **Turn 138898**: Successfully fled the wild Magneton battle and returned to the overworld at (1, 12) facing Down.
+- **Turn 138904**: Stepped Down to (1, 13) (the wooden stairs) and Down to (1, 14) to reach the ground floor on foot.
+- **Turn 138908**: Stepped Down to (1, 15), Down to (1, 16), Right to (2, 16), and Down to (2, 17) to reach Row 17 on foot.
+- **Turn 138910**: Used cave_bfs_solver to navigate across Row 17 to reach the central stairs at (17, 15).
+- **Turn 138911**: Arrived at (17, 15) on foot, facing Down on the stairs.
+- **Turn 138915**: Used cave_bfs_solver to navigate from the central stairs to Water Ramp 2 at (11, 13) on foot.
+- **Turn 138916**: Arrived at (11, 13) on foot, facing Down.
+- **Turn 138918**: Opened the Start menu.
+- **Turn 138921**: Moved cursor Down to POKéMON and pressed A to open the Party Menu.
+- **Turn 138922**: Pressed A on GEMMY.
+- **Turn 138923**: Selected SURF.
+- **Turn 138924**: Successfully boarded the water at (11, 14) surfing on GEMMY, facing Down.
+- **Turn 138926**: Attempted to use the automated solver to reach (7, 1) but the tool aborted because of an invalid button name ("Surf") in the sequence. However, the first 10 buttons successfully executed, placing us on foot at (15, 8) facing Down!
+- **Turn 138932**: Realized that since we are at (15, 8) facing Down, we must close the menus, face Up towards the water at (15, 7), and Surf there.
 
 <hr>
 
