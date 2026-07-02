@@ -1,5 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (2, 17) on Map 0_228 (1F) on Turn 139461, facing Down.
+- Current Status: Standing on foot at (3, 11) on Map 0_226 (2F West) on Turn 139473, facing Up.
 
 ## The True Detour Route via Ladder 2 - DISPROVEN
 To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted to enter 2F West from Ladder 2 at (29, 1). However, on Turn 138765, we conclusively disproved this detour route:
@@ -175,3 +175,7 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 139449**: Aligned our records and prepared to walk from the stairs at (17, 15) to reach Southwest Ladder 6 at (3, 11) via Row 17 on foot.
 - **Turn 139459**: Executed 17-step sequence `["Down", "Left", "Down", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left"]` on foot to walk from (17, 15) to reach the southwest corner at (2, 17) on foot on Turn 139460.
 - **Turn 139461**: Aligned our records and prepared to walk the remaining 9 steps from (2, 17) to reach Southwest Ladder 6 at (3, 11) and warp to 2F West.
+- **Turn 139462**: Executed 9-step sequence `["Up", "Up", "Up", "Left", "Up", "Up", "Up", "Right", "Right"]` from (2, 17) on Map 0_228, but got interrupted at (2, 11) on Turn 139463 by a wild Magneton encounter.
+- **Turn 139463**: Fled the wild Magneton battle successfully.
+- **Turn 139464**: Successfully returned to the overworld at (2, 11) facing Right, and took 1 step Right to (3, 11), immediately warping up Southwest Ladder 6 to 2F West (Map 0_226) at (3, 11) on Turn 139465.
+- **Turn 139465-139473**: Standing on foot at Southwest Ladder 6 at (3, 11) on Map 0_226, facing Up, performing a thorough topological analysis of 2F West.
