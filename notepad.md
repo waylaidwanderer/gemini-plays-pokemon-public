@@ -8586,6 +8586,7 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - Turn 140304: Standing at (17, 15) on foot, facing Down. Pressed ["Up", "Left", "Left", "Up", "Up"] to reach (15, 12) on foot with zero encounters.
 - Turn 140308: Standing at (15, 12) on foot. Pressed ["Left", "Left", "Left", "Left", "Down"] but got interrupted at (12, 12) by a wild Sandslash. Successfully fled on Turn 140310.
 - Turn 140312: Standing at (12, 12) on foot, facing Left.
+[Turn 140318] Standing on foot on Water Ramp 2 at (11, 13) on Map 0_228, facing Down. Preparing to open the Start Menu to use Surf.
 
 <hr>
 
