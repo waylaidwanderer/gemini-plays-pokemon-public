@@ -36,6 +36,7 @@
   - **(3, 13) Blockage**: Physically verified on Turn 128819 as a solid rock wall of TYPE_2889.
   - **(2, 13) Blockage**: Physically verified on Turn 128822 as a solid rock wall of TYPE_2889.
   - **(17, 17) Blockage**: Physically verified on Turn 129205 as a solid rock wall of TYPE_2889.
+  - **(1, 17) Blockage (Verified Turn 139768)**: Standing on foot at (2, 17) facing Left, pressed Left against (1, 17). Result: BUMP (visited 0 tiles). This physically and conclusively proves that (1, 17) on Map 0_228 is a solid, impassable rock wall of TYPE_2889.
   - **(18, 17) Blockage**: Physically verified on Turn 129205 as a solid rock wall of TYPE_2889.
   - **(4, 15) Blockage**: Physically verified on Turn 129221 as a solid rock wall of TYPE_2889.
   - **(5, 15) Blockage**: Physically verified on Turn 129221 as a solid rock wall of TYPE_2889.
