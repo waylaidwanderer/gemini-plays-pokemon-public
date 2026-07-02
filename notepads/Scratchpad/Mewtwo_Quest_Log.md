@@ -81,3 +81,5 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 138950**: Opened POKéMON menu, selected GEMMY, and chose SURF facing UP at (12, 8). The Surf action failed with "No SURFing on GEMMY here!". This is because (12, 7) is blocked by the solid Row 7 boundary wall. This conclusively proved that the entire southern edge of the Row 7 water canal is blocked by a continuous solid boundary wall from Row 8, making direct vertical boarding of the water canal from Row 8 impossible.
 - **Turn 138953**: Closed the menu and walked Down 4 times, Left once, and Down once to reach Water Ramp 2 at (11, 13) on foot.
 - **Turn 138958**: Positioned at Water Ramp 2 (11, 13) on foot, facing Down.
+- **Turns 138954-138956**: Called speak to declare our backtracking results and aligned facing Down at (11, 13).
+- **Turn 138965**: Positioned at Water Ramp 2 (11, 13) on foot facing Down. Opened the Start Menu.
