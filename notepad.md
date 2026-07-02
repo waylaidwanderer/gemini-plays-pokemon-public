@@ -8575,6 +8575,7 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 140285**: Pressed ["Down", "Left", "Left", "Down", "Down", "Down", "Down"] to walk from (3, 11) to (1, 16) on foot on Map 0_228 on Turn 140286.
 - **Turn 140286**: Arrived at (1, 16) on foot on Map 0_228, facing Down. Preparing to walk Left along the southern ground corridor to reach the base of the central stairs.
 [Turn 140295] Standing at (3, 17) on Map 0_228 (1F Southwest) on foot, facing Left. Plan: Walk along the southern corridor Row 17 to (15, 17), then navigate to Water Ramp 2 at (11, 13). First chunk: Walk Right 12 times to (15, 17).
+[Turn 140300] Standing at (15, 17) on foot, facing Right. Executing next chunk: ["Up", "Right", "Right", "Up", "Up"] to climb the central stairs to (17, 14).
 
 <hr>
 
