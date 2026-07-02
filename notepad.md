@@ -8222,7 +8222,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing at (17, 15) on Map 0_228 (1F East) on Turn 138841 on foot, facing Down.
+- Current Status: Standing at (11, 17) on Map 0_228 (1F East) on Turn 138849 on foot, facing Left.
 
 ## Row 17 Bypass Progression Log
 - **Turn 138737**: Positioned on foot at (27, 14) facing Left.
@@ -8269,6 +8269,8 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 138830**: Walked Up 1 step, Right 4 steps to reach (15, 12) on the central platform.
 - **Turn 138833**: Pressed Down to (15, 13), hit a wild Golbat. Fled battle.
 - **Turn 138836**: Standing at (15, 13) on foot. Pressed Down, Right 2 times, Down to reach the central stairs at (17, 15).
+- **Turn 138844**: Standing at (17, 15) on foot. Pressed Down, Left, Down to reach (16, 17) on foot.
+- **Turn 138846**: Standing at (16, 17) on foot. Pressed Left 5 times to reach (11, 17) on foot.
 
 ## Disproven Theories Archive
 - **Direct 1F Horizontal Surfing Route (Disproven Turns 135121-135471)**:
