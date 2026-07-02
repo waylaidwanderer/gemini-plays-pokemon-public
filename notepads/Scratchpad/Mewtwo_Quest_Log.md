@@ -375,4 +375,13 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - Turn 140348: Standing at (11, 1) on Map 0_228, facing Left. Walked Left 4 steps to reach Ladder 5 at (7, 1), which immediately warped us back to Map 0_226 (2F West) at (9, 1) on foot on Turn 140349.
 - Turn 140349: Arrived on Map 0_226 (2F West) at (9, 1) on foot, facing Down.
 - Turns 140350-140388: Re-entered Map 0_226 (2F West) via Ladder 5 at (9, 1). Discovered that while Column 2 blocks access to Column 0 on Rows 1-3, Column 0 itself is indeed passable on Rows 2, 3, 4, and 5. By mathematical connectivity analysis, we concluded that testing Column 2 further on foot from the north is redundant. The correct progression path to Northwest Ladder (1, 3) is to warp back down to 1F, backtrack to Southwest Ladder 6, warp up to 2F West at (3, 11), and use the southern Column 0 corridor to reach (1, 3). Preparing to backtrack to Ladder 5 at (9, 1).
-- **Turn 140459**: Positioned on foot at (13, 2) on Map 0_228, facing Right. We successfully fled the wild Magneton encounter using 'flee_battle'. Preparing to walk the remaining 3 steps of our path to Water Ramp 4: Right 2 steps to (15, 2) and Down 1 step to (15, 3).
+- Turns 140389-140401: Backtracked to Ladder 5 at (9, 1) and prepared for the Column 4 experiment.
+- Turn 140402: Arrived on Map 0_228 (1F Northwest) at (7, 1) on foot facing Down. Started the Column 4 passability experiment.
+- Turns 140403-140427: Systematic Column 4 passability experiment. Walked to (5, 1) and tested (4, 1) [BUMP], walked to (5, 0) and tested (4, 0) [BUMP], walked to (5, 2) and tested (4, 2) [BUMP]. Conclusively proved that Column 4 is 100% solid rock of TYPE_2889 across all three rows, which definitively disproves any direct horizontal land crossover on 1F Northwest.
+- Turn 140428-140438: Walked Right to (7, 2) and Up to (7, 1), warping back up to 2F West at (9, 1).
+- Turn 140439-140449: Positioned at (9, 1) on 2F West. Formulated path to Southwest Ladder 6.
+- Turn 140450: Stepped Left to (8, 1) and Right back to (9, 1), warping down to 1F Northwest at (7, 1).
+- Turn 140451-140456: Walked Down to (7, 2) and Right 5 steps to reach (12, 2) on foot.
+- Turn 140457: Walked Right 1 step to (13, 2), interrupted by wild Magneton.
+- Turn 140458: Escaped Magneton using 'flee_battle' tool.
+- Turn 140459-140461: Standing at (13, 2) on Map 0_228 on foot, facing Right. Preparing to walk the remaining 3 steps of our path to Water Ramp 4: Right 2 steps to (15, 2) and Down 1 step to (15, 3).
