@@ -8594,6 +8594,9 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 [Turn 140333] Surfing at (9, 10) on Map 0_228, facing Up. Preparing to execute surfing Chunk 2: ["Up", "Up", "Up", "Right", "Right", "Right"] to reach (12, 7) on water.
 [Turn 140335] Surfing at (12, 7) on Map 0_228, facing Right. Executing surfing Chunk 3: ["Right", "Right", "Up", "Up", "Up", "Right", "Up"] to reach Water Ramp 4 at (15, 3) and dismount on foot.
 [Turn 140338] Successfully arrived on foot on Water Ramp 4 at (15, 3) on Map 0_228, facing Up. Executing walk Chunk 1: ["Up", "Up", "Left", "Left", "Left", "Left"] to reach (11, 1) on foot.
+- Turn 140345: Standing on foot at (15, 3) on Map 0_228, facing Up. Walked Up 2 steps to (15, 1) and Left 4 steps to reach (11, 1) on foot with zero encounters.
+- Turn 140348: Standing at (11, 1) on Map 0_228, facing Left. Walked Left 4 steps to reach Ladder 5 at (7, 1), which immediately warped us back to Map 0_226 (2F West) at (9, 1) on foot on Turn 140349.
+- Turn 140349: Arrived on Map 0_226 (2F West) at (9, 1) on foot, facing Down.
 
 <hr>
 
