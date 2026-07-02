@@ -8574,10 +8574,6 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turns 140277-140284**: Remained at (3, 11) on foot, running a BFS to find the optimal backtracking path on foot to Water Ramp 2 at (11, 13). Redefined custom tool cave_bfs_solver to include (10, 13) in solids_1f, resolving the database desync.
 - **Turn 140285**: Pressed ["Down", "Left", "Left", "Down", "Down", "Down", "Down"] to walk from (3, 11) to (1, 16) on foot on Map 0_228 on Turn 140286.
 - **Turn 140286**: Arrived at (1, 16) on foot on Map 0_228, facing Down. Preparing to walk Left along the southern ground corridor to reach the base of the central stairs.
-[Turn 140295] Standing at (3, 17) on Map 0_228 (1F Southwest) on foot, facing Left. Plan: Walk along the southern corridor Row 17 to (15, 17), then navigate to Water Ramp 2 at (11, 13). First chunk: Walk Right 12 times to (15, 17).
-[Turn 140300] Standing at (15, 17) on foot, facing Right. Executing next chunk: ["Up", "Right", "Right", "Up", "Up"] to climb the central stairs to (17, 14).
-[Turn 140303] Fled wild Golbat encounter successfully. Standing at (17, 15) on stairs on Map 0_228, facing Down. Executing next chunk: ["Up", "Left", "Left", "Up", "Up"] to walk along the platform to (15, 12).
-[Turn 140307] Standing at (15, 12) on Map 0_228 on foot, facing Left. Preparing to execute the final chunk ["Left", "Left", "Left", "Left", "Down"] to reach Water Ramp 2 at (11, 13) on foot.
 [Turns 140289-140310] Backtracking Log details:
 - Turn 140289: Walked Down to (1, 17) on foot, which is blocked. Faced Right.
 - Turn 140295: Standing at (3, 17) on Map 0_228, facing Left. Walked Right 6 steps to (9, 17) with zero encounters.
