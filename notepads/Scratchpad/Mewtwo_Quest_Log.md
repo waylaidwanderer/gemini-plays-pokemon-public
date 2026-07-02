@@ -269,7 +269,7 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - Turn 139886: Positioned on foot at (7, 13), preparing to open the Start Menu and activate SURF to re-board the water.
 - **Turn 139887-139890**: Opened Start Menu, selected POKéMON, selected GEMMY, and selected SURF to board the water canal at (8, 13) on Turn 139891.
 - **Turn 139892-139899**: Surfed to (8, 12) and pressed Left to test Row 12 Column 7 passability. Visually and physically verified a BUMP, proving that (7, 12) is a solid rock wall of TYPE_2889 and is impassable on water on Turn 139900.
-- **Turn 139901-139907**: Surfing at (8, 12) facing Left. Completed the systematic verification of Column 7 water passability on Rows 11-15, proving that Column 7 is completely solid rock of TYPE_2889, separating the central and western water canals entirely.
+- **Turn 139901-139907**: Surfing at (8, 12) facing Left. Completed the systematic verification of Column 7 water passability on Rows 12-15 on water, showing those rows are completely blocked by solid rock of TYPE_2889.
 - **Turn 139908**: Positioned surfing at (8, 12) on Map 0_228. Pressed Down, Down, Right, Right, Right, Up to surf Down to (8, 14), Right to (11, 14), and Up to dismount on foot at Water Ramp 2 at (11, 13) on Turn 139909.
 - **Turns 139910-139911**: Standing on foot at Water Ramp 2 (11, 13), facing Up.
 - **Turn 139912**: Walked Up to (11, 12) and Right 4 times along Row 12 to (15, 12) on foot with zero wild encounters on Turn 139913.
