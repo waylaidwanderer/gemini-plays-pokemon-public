@@ -1,5 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing at (11, 17) on Map 0_228 (1F East) on Turn 138849 on foot, facing Left.
+- Current Status: Standing at (3, 15) on Map 0_228 (1F Southwest) on Turn 138854 on foot, facing Up.
 
 ## Row 17 Bypass Progression Log
 - **Turn 138737**: Positioned on foot at (27, 14) facing Left.
@@ -48,6 +48,8 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 138836**: Standing at (15, 13) on foot. Pressed Down, Right 2 times, Down to reach the central stairs at (17, 15).
 - **Turn 138844**: Standing at (17, 15) on foot. Pressed Down, Left, Down to reach (16, 17) on foot.
 - **Turn 138846**: Standing at (16, 17) on foot. Pressed Left 5 times to reach (11, 17) on foot.
+- **Turn 138851**: Standing at (11, 17) on foot. Pressed Left 5 times to reach (6, 17) on foot.
+- **Turn 138853**: Standing at (6, 17) on foot. Pressed Up, Left 3 times, Up to reach (3, 15) on foot.
 
 ## Disproven Theories Archive
 - **Direct 1F Horizontal Surfing Route (Disproven Turns 135121-135471)**:
