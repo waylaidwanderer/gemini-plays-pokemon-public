@@ -8664,7 +8664,6 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 140633**: Fled wild Dodrio battle successfully using 'flee_battle', returning to the overworld at (16, 14) facing Right on Turn 140635.
 - **Turn 140635**: Pressed ["Left", "Up", "Up", "Left"] to walk from (16, 14) through (15, 14) -> (15, 12) -> (14, 12) on foot on the central platform with zero wild encounters on Turn 140636.
 - **Turn 140636**: Pressed ["Left", "Left", "Left", "Down"] to walk Left along Row 12 to Column 11 and Down to dismount on foot at Water Ramp 2 at (11, 13) on Turn 140637 with zero wild encounters.
-- **Turns 140637-140642**: Stood on foot at Water Ramp 2 at (11, 13) facing Down while conducting notepad cleanup operations.
 - **Turns 140643-140645**: Opened the Start Menu standing on foot at Water Ramp 2 at (11, 13) on Map 0_228.
 - **Turn 140646**: Moved the cursor down in the Start Menu and pressed A to select POKéMON.
 - **Turn 140647**: Pressed A to select GEMMY from the party menu.
