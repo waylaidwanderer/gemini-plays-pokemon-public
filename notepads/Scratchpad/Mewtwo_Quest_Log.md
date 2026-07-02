@@ -1,5 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Surfing on GEMMY at (9, 7) on Map 0_228 (1F Northwest) on Turn 140539, facing Left.
+- Current Status: Standing on foot at (3, 11) on Map 0_226 (2F West) on Turn 140583, facing Down.
 
 ## The True Detour Route via Ladder 2 - DISPROVEN
 To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted to enter 2F West from Ladder 2 at (29, 1). However, on Turn 138765, we conclusively disproved this detour route:
