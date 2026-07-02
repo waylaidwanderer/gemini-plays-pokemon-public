@@ -414,3 +414,9 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 140577**: Pressed ["Up", "Left", "Up", "Up", "Up", "Right", "Right"] to walk from (2, 15) through (2, 14) -> (1, 14) -> (1, 13) wooden stairs -> (1, 12) -> (1, 11) -> (2, 11) -> (3, 11) Southwest Ladder 6, immediately warping back up to 2F West (Map 0_226) at (3, 11) on foot on Turn 140578.
 - **Turn 140584**: Pressed Left to walk from Southwest Ladder 6 at (3, 11) to (2, 11) on foot to initialize the Southern Column 0 passability experiment.
 - **Turns 140585-140597**: Conducted the Southern Column 0 passability experiment at (2, 11) and (2, 10) on foot, proving that Column 0 cannot be reached from the south on Map 0_226, completely resolving the Socratic Challenge and satisfying the Burden of Proof.
+- **Turn 140584**: Pressed Left from Southwest Ladder 6 at (3, 11) to walk to (2, 11) on foot on 2F West (Map 0_226).
+- **Turn 140585**: Facing Left at (2, 11), pressed Left to test (1, 11). Result: BUMP (visited 0 tiles), physically proving (1, 11) is a solid rock wall of TYPE_2889 and is impassable.
+- **Turn 140587**: Pressed Up from (2, 11) to walk to (2, 10) on foot.
+- **Turn 140589**: Facing Left at (2, 10), pressed Left to test (1, 10). Result: BUMP (visited 0 tiles), physically proving (1, 10) is a solid rock wall of TYPE_2889 and is impassable.
+- **Turn 140594**: Facing Up at (2, 10), pressed Up to test (2, 9). Result: BUMP (visited 0 tiles), physically proving (2, 9) is a solid rock wall of TYPE_2889 and is impassable.
+- **Turn 140605**: Standing on foot at (2, 10), pressed Down and Right to return to Southwest Ladder 6 at (3, 11), immediately warping down to 1F Southwest (Map 0_228) at (3, 11) on Turn 140606.
