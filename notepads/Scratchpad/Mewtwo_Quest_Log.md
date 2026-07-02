@@ -385,3 +385,12 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - Turn 140457: Walked Right 1 step to (13, 2), interrupted by wild Magneton.
 - Turn 140458: Escaped Magneton using 'flee_battle' tool.
 - Turn 140459-140461: Standing at (13, 2) on Map 0_228 on foot, facing Right. Preparing to walk the remaining 3 steps of our path to Water Ramp 4: Right 2 steps to (15, 2) and Down 1 step to (15, 3).
+- Turn 140462: Positioned at (13, 2) on Map 0_228 on foot, facing Down.
+- Turns 140463-140484: Remained at (13, 2) to update our status and records.
+- Turn 140485: Walked from (13, 2) to Water Ramp 4 at (15, 3) on foot. Specifically, pressed Right, Right, Down to reach (15, 3) on foot facing Down.
+- Turn 140486: Arrived on foot at (15, 3) facing Down. Opened Start Menu.
+- Turn 140488: Moved cursor Down to POKéMON and pressed A to open the Party Menu.
+- Turn 140489: Pressed A on GEMMY to select her.
+- Turn 140491-140492: Opened GEMMY's options menu with the cursor pointing at ▶SURF.
+- Turn 140493: Selected SURF and successfully boarded the water canal at (15, 4) on Surf.
+- Turns 140494-140518: Surfing on GEMMY at (15, 4) on Map 0_228, facing Down.
