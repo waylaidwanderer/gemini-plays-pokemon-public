@@ -242,3 +242,9 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 139701**: Walked Up, Up, Right, Right to Southwest Ladder 6 at (3, 11), warping to 2F West (Map 0_226) at (3, 11) on Turn 139702.
 - **Turns 139702-139728**: Positioned at (3, 11) on 2F West. Performed extensive topological analysis and disproved on-foot bypasses. Discovered that Column 7 on Rows 11-15 on 1F water is completely untested. Preparing to warp down to 1F to test these horizontal water crossovers.
 - Turn 139798: Confirmed Koga's southwest pocket on 2F West is 100% isolated on foot on 2F West. Backtracked down Southwest Ladder 6 to 1F Southwest, landing at (3, 11) on foot on Map 0_228. Walked down the southwest wooden stairs to reach (1, 16) on foot on the ground level, preparing to navigate along the southern Row 17 corridor to the central stairs at (17, 15).
+- Turns 139729-139773: Continued detailed spatial analysis of 2F West Southwest pocket, verifying that Columns 5-8 on Rows 10-12 are solid rock barriers.
+- Turn 139774: Descended Southwest Ladder 6 at (3, 11) on Map 0_226 to Map 0_228 (1F Southwest) at (3, 11) on foot.
+- Turn 139780: Climbed Southwest Ladder 6 back up to 2F West (Map 0_226) at (3, 11).
+- Turn 139787: Stepped Left to (2, 11) and Right back to (3, 11), warping down Southwest Ladder 6 to Map 0_228 (1F Southwest) at (3, 11).
+- Turn 139796: Walked Down to (3, 12), Left to (2, 12), Left to (1, 12), Down to (1, 13) wooden stairs, and Down to (1, 14), then Down to (1, 15), and Down to (1, 16) on the ground floor on foot.
+- Turn 139799: Pressed Right to (2, 16), which triggered a wild Level 53 Raichu encounter at (2, 16), aborting our movement sequence.
