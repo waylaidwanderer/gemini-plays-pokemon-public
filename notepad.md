@@ -8558,6 +8558,14 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turns 140228-140250**: Remained at (8, 11) surfing on GEMMY, executing several runs of Python BFS and components analysis to verify 1F and 2F West connectivity, proving that 1F Northwest is completely isolated and 2F West Northwest is completely isolated. Redefined custom tool cave_bfs_solver to include (10, 13) in solids_1f.
 - **Turn 140254**: Pressed ["Down", "Down", "Down", "Right"] to surf Down along Column 8 to (8, 14) and Right to (9, 14) on water on Map 0_228 on Turn 140255.
 - **Turn 140256**: Positioned surfing at (9, 14) on water on Map 0_228, facing Right. Preparing to surf to Water Ramp 2 at (11, 13) to dismount on foot.
+- **Turn 140257**: Pressed ["Right", "Right", "Up"] to surf Right 2 to (11, 14) and Up 1 to dismount onto Water Ramp 2 at (11, 13) on foot on Turn 140259.
+- **Turn 140259**: Arrived on foot at (11, 13) facing Up.
+- **Turn 140260**: Pressed ["Up", "Right", "Right", "Right", "Right", "Down", "Down", "Right", "Right", "Down", "Down"] to walk across the central platform to reach (17, 16) on the ground floor on foot on Turn 140261.
+- **Turn 140261**: Arrived at (17, 16) on the ground floor on foot facing Down.
+- **Turn 140262**: Pressed ["Left", "Down", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left"] to walk across the Row 17 corridor to reach (6, 17) on foot on Turn 140263.
+- **Turn 140263**: Arrived at (6, 17) on the southern ground floor on foot facing Down.
+- **Turn 140264**: Pressed ["Up", "Left", "Left", "Left", "Up", "Left", "Up", "Left"] to walk Up to (6, 16), Left to (3, 16), Up to (3, 15), Left to (2, 15), Up to (2, 14), and Left to (1, 14) on foot on Turn 140265.
+- **Turn 140265**: Positioned on foot at (1, 14), facing Down. Preparing to walk Up the wooden stairs to Southwest Ladder 6 at (3, 11) and warp to 2F West.
 
 <hr>
 
