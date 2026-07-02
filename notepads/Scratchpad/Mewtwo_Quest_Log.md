@@ -428,3 +428,18 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 140635**: Pressed ["Left", "Up", "Up", "Left"] to walk from (16, 14) through (15, 14) -> (15, 12) -> (14, 12) on foot on the central platform with zero wild encounters on Turn 140636.
 - **Turn 140636**: Pressed ["Left", "Left", "Left", "Down"] to walk Left along Row 12 to Column 11 and Down to dismount on foot at Water Ramp 2 at (11, 13) on Turn 140637 with zero wild encounters.
 - **Turns 140637-140642**: Stood on foot at Water Ramp 2 at (11, 13) facing Down while conducting notepad cleanup operations.
+- **Turns 140643-140645**: Opened the Start Menu standing on foot at Water Ramp 2 at (11, 13) on Map 0_228.
+- **Turn 140646**: Moved the cursor down in the Start Menu and pressed A to select POKéMON.
+- **Turn 140647**: Pressed A to select GEMMY from the party menu.
+- **Turn 140650**: Selected SURF from GEMMY's options menu, successfully boarding the water canal at (11, 14) on Surf.
+- **Turn 140653**: Pressed ["Up", "Up", "Up", "Up", "Up", "Up"] to surf north along the western water canal to (11, 8) on water with zero wild encounters.
+- **Turn 140656**: Pressed ["Up", "Right", "Right", "Right", "Right"] from (11, 8), but was interrupted on the second step (Right) at (11, 8) by a wild Level 49 Venomoth encounter on Turn 140657.
+- **Turn 140658**: Fled wild Venomoth battle successfully using 'flee_battle', returning to the overworld at (11, 8) surfing on GEMMY, facing Down.
+- **Turn 140661**: Pressed ["Up", "Right", "Right", "Right", "Right"] to resume surfing. This moved us Up to (11, 7) on water, and then Right 4 steps along the Row 7 crossover water canal to (15, 7). However, on the 5th step, we dismounted onto the adjacent land tile at (15, 8) on foot, facing Right.
+- **Turn 140663**: Standing on foot at (15, 8) facing Right, opened the Start Menu.
+- **Turn 140664**: Pressed Down and A to open the POKéMON party screen.
+- **Turn 140665**: Pressed A to select GEMMY.
+- **Turn 140666**: Selected SURF. The action failed with "No SURFing on GEMMY here!" because we were facing Right (towards Koga's vertical split wall) rather than Up (towards water). The text box advanced.
+- **Turn 140667**: Standing at (15, 8) with the Start Menu open, pressed ["B", "Up", "Start"] to close the menu, turn Up to face the water at (15, 7) (bumping against it), and re-open the Start Menu.
+- **Turn 140668**: Pressed A to open the POKéMON party screen.
+- **Turn 140670**: Pressed A to select GEMMY, successfully opening her options sub-menu on Turn 140671 with the cursor on SURF.
