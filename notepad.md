@@ -10003,3 +10003,39 @@ We can formulate 5 custom tool/agent ideas to optimize the endgame and Mewtwo se
   - Southwest Ladder 6 at (3, 11) is indeed physically connected to Northwest Ladder (1, 3) on 2F West via Row 11/Column 12.
 
 <hr>
+
+<h1><code>Reflection/Turn139816_Reflection</code></h1>
+
+# Turn 139816 Reflection & Self-Assessment
+
+## 1. Progress and Deferred Tasks Over the Last 50 Turns
+- **Progress**: Backtracked from the 2F West Southwest pocket dead-end at (3, 11), descended to 1F Southwest, walked down the wooden stairs to (1, 16) on the ground floor, and walked East along the Row 17 corridor to reach (11, 17) on foot with zero wild encounters.
+- **Deferred Tasks**: Walk to Water Ramp 2 at (11, 13), board Surf, and test Column 7 water passability on Rows 11-15.
+
+## 2. Notepad Hygiene
+- Re-verified all layout coordinates. All layout findings have been systematically recorded in `Scratchpad/Mewtwo_Quest_Log` and `Locations/CeruleanCave`.
+
+## 3. Map Hygiene
+- Verified that all map markers on Map 0_228 are perfectly synchronized, including the newly added (1, 17) solid blockage.
+
+## 4. Five Potential Custom Tools / Agents for B1F Mewtwo
+1. `b1f_bfs_pathfinder` (Custom Tool): A BFS pathfinder specifically tailored for Map 0_227 (B1F) to compute obstacle-free overworld routes once we descend.
+2. `b1f_terrain_mapper` (Custom Tool): A parsing script to track and log walkable versus solid coordinates on B1F as we explore, ensuring we map the new environment systematically.
+3. `mewtwo_combat_strategist` (Custom Agent): A specialized reasoning agent designed to safely manage Blastoise's moves, Pikachu's paralysis support, and executing our guaranteed 100% Master Ball capture on Mewtwo.
+4. `wild_battle_escape_automator` (Custom Tool): An automated flee script specifically tuned for Cerulean Cave wild encounters to preserve HP/PP.
+5. `mewtwo_item_validator` (Custom Agent): A quick inventory sanity-checker to confirm we have the Master Ball and any needed healing/restorative items active.
+
+## 5. Tool Maintenance
+- Checked and updated the databases for `cave_bfs_solver` to ensure accurate pathfinding on both floors.
+
+## 6. Goal & Method Clarity
+- **Primary Goal**: Catch Mewtwo on B1F of Cerulean Cave (WHAT).
+- **Secondary Goal**: Reach Water Ramp 2 at (11, 13) on foot and test Column 7 water passability (WHAT).
+- **Methods (HOW)**: Stored in detail in `Scratchpad/Mewtwo_Quest_Log`.
+
+## 7. Error Analysis & Hypothesis Review
+- Disproved 2F West south-to-north on-foot crossover.
+- Disproved 1F Southwest on-foot shortcut via (3, 7).
+- Formulated the new water crossover hypothesis: Column 7 water passability on Rows 11-15 on 1F is completely untested and must be systematically tested to see if it connects the central canal to the western canal.
+
+<hr>
