@@ -326,3 +326,8 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 140126**: Escaped wild Dodrio using 'flee_battle', returning to the overworld at (8, 2) on foot, facing Down on Turn 140127.
 - **Turn 140127**: Pressed ["Left", "Up"] to walk Left to (7, 2) and Up to (7, 1) (Ladder 5), warping up to 2F West (Map 0_226) at (9, 1) on foot on Turn 140128.
 - **Turn 140128**: Arrived on 2F West at (9, 1) on foot, facing Down. Preparing to walk to (3, 5) to physically test the Row 5 Column 0 bypass to Northwest Ladder (1, 3).
+- **Turns 140129-140190**: Walked Left along Row 1 to (3, 1) and back to (9, 1) on Map 0_226 (2F West). Disproved the Row 5 Column 0 bypass on foot since Row 4 is completely solid rock from Columns 1 to 8.
+- **Turn 140195**: Pressed ["Left", "Right"] to step off and step back onto Ladder 5 at (9, 1) on foot on Map 0_226, immediately warping down to Map 0_228 (1F Northwest) at (7, 1) on Turn 140196.
+- **Turn 140199**: Pressed ["Down", "Right", "Right", "Right", "Right", "Right"] to walk to (12, 2) on foot on Map 0_228 with zero wild encounters.
+- **Turn 140202**: Pressed ["Right", "Right", "Right", "Down"] to walk from (12, 2) to Water Ramp 4 at (15, 3) on foot on Map 0_228.
+- **Turn 140203**: Arrived on foot at (15, 3) facing Down on Water Ramp 4 on Map 0_228. Preparing to Surf and navigate to Column 7 Row 11 on water to test passability.
