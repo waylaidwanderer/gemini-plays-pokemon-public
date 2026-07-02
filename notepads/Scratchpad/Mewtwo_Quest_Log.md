@@ -1,5 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (11, 13) on Map 0_228 (1F Southwest) on Turn 139839, inside the POKéMON party selection menu.
+- Current Status: Standing on foot at (11, 13) on Map 0_228 (1F Southwest) on Turn 139842, inside the POKéMON party selection menu.
 
 ## The True Detour Route via Ladder 2 - DISPROVEN
 To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted to enter 2F West from Ladder 2 at (29, 1). However, on Turn 138765, we conclusively disproved this detour route:
