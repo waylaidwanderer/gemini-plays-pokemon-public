@@ -101,3 +101,14 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 139028**: Standing at (9, 3) on foot. Walked Down 2, Right 4, Down 1 to reach (13, 6) on foot.
 - **Turn 139029**: Standing at (13, 6) on foot. Attempted to walk Right 5, Down 1, Right 1, Down 2.
 - **Turn 139030**: Interrupted on the 6th step (Down) at (18, 7) by a wild Dodrio encounter.
+- **Turn 139031**: Successfully fled the wild Dodrio encounter at (18, 7) on foot. We returned to the overworld at (13, 6) on foot (due to our earlier movement sequence bumping on Row 6).
+- **Turn 139034**: Verified that (14, 6) is a solid rock wall of TYPE_2889 and (13, 7) is a solid rock wall, making (13, 6) a dead-end pocket.
+- **Turn 139040**: Walked Up 1 step to reach (13, 5) on foot.
+- **Turn 139042**: Walked Left 4 steps along Row 5 to reach (9, 5) on foot.
+- **Turn 139045**: Walked Up 2 steps to reach (9, 3) on foot.
+- **Turn 139047**: Walked Left 6 steps along Row 3 to reach (3, 3) on foot.
+- **Turn 139048**: Walked Up 2 steps to (3, 1), and Right 6 steps to reach Ladder 5 at (9, 1), immediately warping down to 1F Northwest at (7, 1).
+- **Turn 139050**: Arrived on 1F Northwest at (7, 1) on foot.
+- **Turn 139052**: Investigated the passability of 1F Northwest. Run a python BFS on Map 0_228 showing that because Column 7 is a solid rock wall from Row 6 to Row 16, 1F Northwest is completely isolated on foot/water.
+- **Turn 139060**: Walked Down 1 step to (7, 2), then Up 1 step back to (7, 1) to trigger the ladder warp back to 2F West (Map 0_226) at (9, 1).
+- **Turn 139061**: Arrived on 2F West at (9, 1) on foot.
