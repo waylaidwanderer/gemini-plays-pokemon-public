@@ -127,3 +127,5 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 139099**: Pressed Right 6 and Down 2 to reach (9, 5) on foot.
 - **Turn 139100**: Arrived at (9, 5) on Map 0_226 on foot successfully.
 - **Turn 139101**: Standing on foot at (9, 5) on Map 0_226.
+- **Turns 139102-139143**: Moved on foot from (9, 5) to (13, 6). Standing at (13, 6) facing Right, pressed Right to test (14, 6) passability. Result: BUMP (0 tiles visited), confirming (14, 6) is a solid rock wall of TYPE_2889. Redefined the custom tool 'cave_bfs_solver' to block Rows 6 and 7 across Columns 3-12, fully correcting its collision database to match our verified physical split of 2F West. Discarded the disproven Column 0 bypass theory.
+- **Turn 139146**: Positioned at (13, 6) on foot, facing Left. Preparing to walk to Ladder 5 at (9, 1) using the 100% correct, verified backtracking path.
