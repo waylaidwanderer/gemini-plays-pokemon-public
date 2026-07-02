@@ -8222,7 +8222,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing at (13, 6) on Map 0_226 (2F West) on Turn 139115 on foot, facing Right.
+- Current Status: Standing at (13, 6) on Map 0_226 (2F West) on Turn 139144 on foot, facing Left.
 
 ## Row 17 Bypass Progression Log
 - **Turn 138737**: Positioned on foot at (27, 14) facing Left.
