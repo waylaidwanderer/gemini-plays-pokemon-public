@@ -202,3 +202,9 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 139560**: Walked from (1, 14) to (5, 17) on foot. Specifically, pressed Down to (1, 15), Down to (1, 16), Right to (2, 16), Down to (2, 17), Right to (3, 17), Right to (4, 17), and Right to (5, 17) on foot on Turn 139561.
 - **Turn 139561**: Arrived on the southern ground corridor at (5, 17) on foot.
 - **Turns 139562-139572**: Standing on foot at (5, 17) on Map 0_228, facing Right.
+- **Turn 139573**: Programmatically calculated path to Water Ramp 2 and walked 5 steps Right to (10, 17) on foot on Turn 139576 with zero wild encounters.
+- **Turn 139576**: Walked 6 steps Right along Row 17 to (16, 17) on foot on Turn 139577.
+- **Turn 139577**: Pressed Up to (16, 16), Right to (17, 16), Up to (17, 15) central platform stairs, and Up to (17, 14), but got interrupted at (17, 14) on Turn 139578 by a wild Hypno encounter.
+- **Turn 139578**: Engaged in battle with wild Hypno at (17, 14).
+- **Turn 139579**: Successfully fled from the wild Hypno using the 'flee_battle' tool, returning to the overworld at (17, 14) facing Left on Turn 139580.
+- **Turns 139580-139593**: Standing on foot at (17, 14) on Map 0_228, facing Left, preparing to walk Left towards Water Ramp 2.
