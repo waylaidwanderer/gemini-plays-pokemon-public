@@ -97,3 +97,7 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 139020**: Interrupted on the second step Down at (3, 3) by a wild Electrode encounter.
 - **Turn 139021**: Called flee_battle to successfully escape the Electrode battle.
 - **Turn 139022**: Successfully returned to the overworld, standing on foot at (3, 3) on Map 0_226 (2F West).
+- **Turn 139026**: Standing at (3, 3) on foot. Walked Right 6 steps to reach (9, 3) on foot.
+- **Turn 139028**: Standing at (9, 3) on foot. Walked Down 2, Right 4, Down 1 to reach (13, 6) on foot.
+- **Turn 139029**: Standing at (13, 6) on foot. Attempted to walk Right 5, Down 1, Right 1, Down 2.
+- **Turn 139030**: Interrupted on the 6th step (Down) at (18, 7) by a wild Dodrio encounter.
