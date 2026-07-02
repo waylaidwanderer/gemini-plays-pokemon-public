@@ -10264,3 +10264,23 @@ We can formulate 5 custom tool/agent ideas to optimize the endgame and Mewtwo se
 - **Turn 140368**: Standing on foot at (3, 1) on Map 0_226, facing Down. Preparing to press Down to step onto (3, 2).
 
 <hr>
+
+<h1><code>Scratchpad/1F_Column4_Passability_Test</code></h1>
+
+# 1F Northwest Column 4 Passability Empirical Test
+- **Objective**: Conduct a systematic, empirical on-foot passability test of Column 4 on Rows 0, 1, and 2 of Map 0_228 (1F Northwest) to verify if the documented Column 4 blockages are indeed 100% solid, or if any false positives exist.
+- **Hypothesis**: Column 4 is completely solid rock of TYPE_2889 on Rows 0, 1, and 2, which physically separates the Eastern sub-compartment from the Western sub-compartment containing B1F access.
+
+## Experimental Protocol:
+1. Start on foot at (7, 1) on Map 0_228 on Turn 140402.
+2. Walk Left 2 steps along Row 1 to (5, 1).
+3. Facing Left, press Left against (4, 1) and record the outcome (BUMP / Step).
+4. Walk Up 1 step to (5, 0).
+5. Facing Left, press Left against (4, 0) and record the outcome (BUMP / Step).
+6. Walk Down 2 steps to (5, 2).
+7. Facing Left, press Left against (4, 2) and record the outcome (BUMP / Step).
+
+## Experimental Log:
+- **Turn 140402**: Standing on foot at (7, 1) facing Down. Starting the experiment.
+
+<hr>
