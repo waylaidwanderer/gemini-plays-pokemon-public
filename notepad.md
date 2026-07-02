@@ -8508,6 +8508,17 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 139933**: Attempted to walk the remaining 25-step path but because we were starting from (1, 14) instead of (17, 16), we bumped against the western boundary walls and safely ended up at (2, 14) on foot on Turn 139934.
 - **Turn 139934**: Walked from (2, 14) to Southwest Ladder 6 at (3, 11) on foot: Left to (1, 14), Up to (1, 13) wooden stairs, Up to (1, 12), Up to (1, 11), Right to (2, 11), and Right to (3, 11), warping up to 2F West (Map 0_226) at (3, 11) on Turn 139935.
 - **Turns 139935-139939**: Standing at Southwest Ladder 6 (3, 11) on 2F West. Performed visual analysis of Column 0 and Column 1 on the screen, showing they are completely solid rock of TYPE_2889 on Rows 8 to 14, isolating our southwest pocket. Prepared the test plan to backtrack to 1F and climb Ladder 5 to test Column 0 passability on Rows 3-5.
+- **Turn 139940**: Standing at Southwest Ladder 6 at (3, 11) on Map 0_226. Stepped Left to (2, 11) and Right back to (3, 11) to warp back down to 1F Southwest (Map 0_228) on Turn 139942.
+- **Turn 139942**: Standing on foot at (3, 11) on Map 0_228. Pressed Left and Right to warp back up to 2F West at (3, 11) on Turn 139943.
+- **Turn 139943**: Standing on foot at (3, 11) on Map 0_226. Pressed Left and Right to warp back down to 1F Southwest at (3, 11) on Turn 139944.
+- **Turns 139944-139953**: Standing on foot at (3, 11) on Map 0_228. Performed extensive path calculations and updated cave_bfs_solver to fix the Column 11 water range bug, preparing the backtracking path to Water Ramp 2 at (11, 13).
+- **Turn 139954**: Stepped Left to (2, 11) and Right to (3, 11) on foot on Map 0_228, warping back up to 2F West at (3, 11) on Turn 139955.
+- **Turns 139955-139956**: Positioned at (3, 11) on foot on Map 0_226.
+- **Turn 139957**: Pressed Up, Up, and Right 16 times to walk to (19, 9) on foot on Map 0_226, but was interrupted at (7, 9) on Turn 139958 by a wild Level 52 Ditto encounter.
+- **Turn 139958**: Engaged in wild Ditto battle. Called flee_battle to safely escape on Turn 139959.
+- **Turns 139959-139960**: Aligned goals at (7, 9) on foot on Map 0_226.
+- **Turn 139961**: Pressed Right 12 times and Up 2 times to reach (19, 7) and warp down, but bumped against the newly discovered solid rock wall of TYPE_2889 at (14, 9) on the 7th step, ending up at (13, 8) on foot on Turn 139962.
+- **Turns 139962-139965**: Positioned at (13, 8) on foot on Map 0_226. Added a map marker for (14, 9) solid rock wall and updated cave_bfs_solver solids list. Prepared the updated unblocked path.
 
 <hr>
 
