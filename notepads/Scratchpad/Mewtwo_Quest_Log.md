@@ -1,5 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (3, 1) on Map 0_226 (2F West) on Turn 140770, facing Left. Successfully re-verified that (2, 1) is indeed solid, preparing to walk Down to (3, 2) to test (2, 2).
+- Current Status: Standing on foot at (3, 3) on Map 0_226 (2F West) on Turn 140775, facing Down, preparing to test (2, 3) passability on foot.
 - **Turn 140690-140695**: Walked Down 5 steps to (11, 13) on foot, opened menu, used SURF on GEMMY, and successfully boarded the water at (11, 14).
 - **Turn 140696-140715**: Called cave_bfs_solver to navigate to (15, 4), which returned 6 'Up' buttons due to the starting state queue bug. This walked us Up to (11, 13) (dismounting onto Water Ramp 2) and continued Up to (11, 8) on foot, facing Down.
 - **Turn 140716-140732**: Redefined cave_bfs_solver to fix the surf starting state bug, and updated quest logs. Standing on foot at (11, 8), called cave_bfs_solver to path to (11, 13). However, because we had not yet updated the is_water function to treat (11, 13) as land, the solver returned a 71-step looping path. On step 40, we were pulled into a wild Level 46 Magneton battle at (15, 12) on Turn 140732.
@@ -14,6 +14,8 @@
 - **Turn 140765-140768**: Fled the wild Kadabra battle successfully using the 'flee_battle' tool, returning to the overworld at (4, 1) on foot, facing Left.
 - **Turn 140769**: Walked Left 1 step from (4, 1) to (3, 1) on foot, facing Left. Preparing to test (2, 1) passability on foot.
 - **Turn 140770**: Standing at (3, 1) facing Left, pressed Left to test (2, 1). Result: BUMP (0 tiles visited). This physically and conclusively re-verifies that (2, 1) is a solid, impassable rock wall of TYPE_2889 on foot.
+- **Turn 140771-140773**: Walked Down 1 step from (3, 1) to (3, 2) on foot, facing Down. Pressed Left to test (2, 2). Result: BUMP (0 tiles visited), physically and conclusively re-verifying that (2, 2) is a solid, impassable rock wall of TYPE_2889 on foot on Turn 140772.
+- **Turn 140773-140775**: Walked Down 1 step from (3, 2) to (3, 3) on foot, facing Down. Preparing to test (2, 3) passability on foot.
 
 ## The True Detour Route via Ladder 2 - DISPROVEN
 To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted to enter 2F West from Ladder 2 at (29, 1). However, on Turn 138765, we conclusively disproved this detour route:
