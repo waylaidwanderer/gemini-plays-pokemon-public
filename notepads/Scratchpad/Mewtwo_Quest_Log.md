@@ -220,3 +220,9 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 139616**: Surfing on GEMMY at (11, 14) on Map 0_228, facing Down. Preparing to surf Left and Up to (8, 12) along the central canal.
 - **Turn 139619**: Pressed Left 3 times and Up 4 times, successfully surfing from (11, 14) through (10, 14), (9, 14), (8, 14), (8, 13), (8, 12), (8, 11) to reach (8, 10) on water on Turn 139622 with zero wild encounters.
 - **Turns 139620-139622**: Surfing on GEMMY at (8, 10) on Map 0_228 (1F), facing Up, preparing to systematically test Row 5, 6, and 7 water crossover passability to find the connection to the western water canal.
+- **Turn 139623**: Pressed Up 3 times, successfully surfing along Column 8 to (8, 7) on water on Turn 139624 with zero wild encounters.
+- **Turn 139624**: Arrived at (8, 7) on water, facing Up. Visually verified that Column 7 is completely solid rock of TYPE_2889 on Rows 4, 5, 6, and 7. This physically disproves the 1F water canal crossover hypothesis and proves that the western canal is completely separated from the central/eastern canals across all Rows 4-16 on 1F.
+- **Turn 139625**: Pressed Left to test the passability of (7, 7) on water. Result: BUMP against solid rock wall, confirming (7, 7) is impassable on water.
+- **Turn 139626**: Pressed Down 7 times, successfully surfing back down the central water canal to reach (8, 14) on water on Turn 139627.
+- **Turn 139627**: Arrived at (8, 14) on water, facing Down. Opened the Start Menu.
+- **Turn 139628**: Surfing on GEMMY at (8, 14) on Map 0_228 (1F). Preparing to surf Right 3 steps to Column 11 and Up 1 step to dismount on foot at Water Ramp 2 at (11, 13).
