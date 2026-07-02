@@ -120,3 +120,8 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
   - Turn 138646: Surfed Right 5 steps to (23, 4) without blockages.
   - Turn 138651: Dismounted Up 1 step onto Water Ramp 1 at (23, 3) on foot.
 - **Results**: Successfully completed! The Eastern Canal Row 4 is 100% open, passable, and unblocked on water between Column 15 and Column 23. This provides conclusive, indisputable proof of work satisfying the Burden of Proof that Water Ramp 1 at (23, 3) is fully accessible via water.
+## Turn 138880: Isolated Pocket Proof
+- **Hypothesis**: Southwest Ladder 6 at (3, 11) on 2F West is physically disconnected on foot from the Northwest Ladder (1, 3).
+- **Methodology**: Ran a Python BFS search utilizing the fully verified 2F West collision database, explicitly marking Koga's Row 8 solid rock blockages across Columns 3 to 12.
+- **Results**: BFS returned "None". The reachable component from (3, 11) is strictly bounded, extending east to (21, 9) but completely blocked from reaching (1, 3) on foot.
+- **Conclusion**: Confirmed! We must backtrack to 1F, navigate to Ladder 5 at (7, 1) on 1F Northwest (which is connected to (1, 3) on 2F West), and ascend there.
