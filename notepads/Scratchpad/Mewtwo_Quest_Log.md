@@ -250,3 +250,7 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - Turn 139799: Pressed Right to (2, 16), which triggered a wild Level 53 Raichu encounter at (2, 16), aborting our movement sequence.
 - Turn 139807: Fled the wild Raichu battle successfully using 'flee_battle', returning to the overworld at (2, 16) facing Down on Turn 139809.
 - Turn 139809: Walked Down to (2, 17) and Right 9 times along the southern Row 17 corridor to reach (11, 17) on foot with zero wild encounters on Turn 139811.
+- Turn 139817: Walked Right 4 times to (15, 17), Up to (15, 16), and Right 2 times to reach the central stairs base at (17, 16) on foot on Turn 139818.
+- Turn 139819: Walked Up the central stairs to (17, 14), Left 2 times to (15, 14), Up 2 times to (15, 12), and Left 4 times along Row 12 to (11, 12) on the central platform on foot on Turn 139821.
+- Turn 139821: Pressed Down to step onto Water Ramp 2 at (11, 13) on foot, which triggered a wild Level 46 Golbat encounter at (11, 13) on Turn 139822.
+- Turn 139823: Fled the wild Golbat encounter successfully using 'flee_battle', returning to the overworld at (11, 13) on foot on Turn 139825.
