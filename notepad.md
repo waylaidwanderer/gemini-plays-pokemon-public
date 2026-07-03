@@ -8584,6 +8584,10 @@ This completes our systematic passability audit of the water canal blockages on 
 - **Turns 141023-141024**: Successfully escaped the wild Marowak encounter on Turn 141024, returning to the overworld at (11, 9) on foot.
 - **Turns 141025-141031**: Analyzed `<CurrentScreen>` visual grid tile IDs on Column 13 and Column 14, and discovered that Row 12 (Columns 12 to 16) is a completely open, unblocked corridor of TYPE_3fe2 on foot, connecting Koga's southwest pocket directly to the rest of the 2F West map on foot.
 - **Turns 141031-141036**: Planned our systematic crossover testing protocol and updated status and goals to investigate Row 12 of Column 13/14 on foot.
+- **Turns 141037-141038**: Walked Right 1 step to (12, 9) and Down 3 steps to reach (12, 12) on Map 0_226 on foot.
+- **Turn 141039**: Pressed Right to test Column 13 Row 12 (13, 12) on foot. Result: BUMP (0 tiles visited), proving (13, 12) is solid rock of TYPE_2889 on foot.
+- **Turns 141040-141043**: Logged result at (13, 12), and walked back Up 3 steps to (12, 9) and Right 1 step to reach (13, 9) on foot on Turn 141044.
+- **Turns 141044-141054**: Analyzed `<CurrentScreen>` visual grid tile IDs on Column 13, 14, and 15 on Map 0_226, and discovered that Row 8 (Columns 13 to 15) and Row 9 (Columns 15 and 16) are completely open, unblocked cavern floor of TYPE_3fe2, forming an open horizontal bypass path to Koga's east side on foot!
 
 <hr>
 
