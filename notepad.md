@@ -10737,3 +10737,38 @@ No loops are occurring. We have successfully broken the previous 1F Southwest-2F
 We have permanently migrated our verified Column 0 pocket passability record to the 'Locations/CeruleanCave' notepad, and deleted the obsolete 'Scratchpad/2F_NorthernBoundaries_Test_Plan' notepad to preserve clean workspace hygiene. Our active testing plan is documented in 'Scratchpad/Mewtwo_Northwest_Path_Test' and 'Scratchpad/Mewtwo_Quest_Log'. Once we reach 1F Northwest on foot, we will systematically test the (6, 3) Surf boarding experiment as planned.
 
 <hr>
+
+<h1><code>Scratchpad/Mewtwo_Northwest_Path_Test</code></h1>
+
+# Northwest Path Empirical Re-Verification Plan
+
+## Objective
+To resolve the topological layout discrepancy on Map 0_226 (2F West) and Map 0_228 (1F Northwest) that mathematically isolates the B1F gateway ladder/stairs at (1, 3), and to empirically identify the false-positive blockage.
+
+## Testing Protocol
+
+### 1. 2F West Column 2 (Rows 1-3) Passability Re-Verification
+- **Hypothesis**: Either (2, 1), (2, 2), or (2, 3) is a passable tile of TYPE_3fe2 on 2F West, despite previous "BUMP" logs (which might have been caused by wild battles or cursor timing issues).
+- **Execution Path**:
+  1. From 1F Southwest central platform (15, 12), walk to Water Ramp 2 at (11, 13).
+  2. Surf to Water Ramp 4 at (15, 3) and dismount on foot.
+  3. Walk to Ladder 5 at (7, 1) and warp up to 2F West at (9, 1).
+  4. Walk Left along Row 1 to (3, 1).
+  5. Test (2, 1) by attempting to walk Left onto (2, 1).
+  6. Walk Down to (3, 2) and test (2, 2) by attempting to walk Left onto (2, 2).
+  7. Walk Down to (3, 3) and test (2, 3) by attempting to walk Left onto (2, 3).
+- **Evaluation Criteria**: If any test succeeds, the player steps onto Column 2, proving it is passable. This immediately opens a direct on-foot connection to (1, 3) from the northern area of 2F West!
+
+### 2. 2F West Row 4 (Columns 1-2) Passability Re-Verification
+- **Hypothesis**: Either (1, 4) or (2, 4) is passable on 2F West, allowing vertical transition between (1, 3) and the southern corridors on Column 1/2.
+- **Execution Path**:
+  1. If Step 1 (Column 2) fails, walk back to Ladder 5 and descend to 1F.
+  2. Navigate via 1F Southwest ground to Southwest Ladder 6 at (3, 11), warping up to 2F West at (3, 11).
+  3. Walk Left to (2, 11) -> (1, 11) (if passable) and up to (1, 5).
+  4. Attempt to walk Up from (1, 5) onto (1, 4) and from (2, 5) onto (2, 4) to test passability.
+- **Evaluation Criteria**: If either is passable, the player steps onto Row 4, proving the horizontal split is not continuous and allowing B1F gateway access.
+
+## Status Tracking
+- Turn 142322: Plan created. Preparing to walk to Water Ramp 2 at (11, 13) to head to Ladder 5.
+
+<hr>
