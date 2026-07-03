@@ -1,5 +1,7 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot on Water Ramp 2 at (11, 13) on Map 0_228 (1F) on Turn 141754, facing Down.
+- Current Status: Engaged in wild Level 49 Hypno battle at (17, 14) on Map 0_228 (1F) on Turn 141766, facing Down.
+- **Turns 141755-141762**: Walked Up 1 step from Water Ramp 2 at (11, 13) to (11, 12) on foot on Turn 141762.
+- **Turns 141763-141766**: Walked Right 4 steps along Row 12 to (15, 12), Down 2 steps along Column 15 to (15, 14), and Right 2 steps along Row 14 to reach (17, 14) on foot on Turn 141766, where we were interrupted by a wild Level 49 Hypno encounter.
 - **Turns 141741-141745**: Walked Left 5 steps from (18, 9) along Row 9 on 1F (Map 0_228) to reach (13, 9) on foot on Turn 141745 with zero wild encounters.
 - **Turns 141746-141747**: Walked Down 2 steps to (13, 11), Left 1 step to (12, 11), and Left 1 step to reach (11, 12) on foot on Turn 141747.
 - **Turns 141748-141751**: Pressed Down once to step onto Water Ramp 2 at (11, 13) on foot, where we were interrupted by a wild Level 51 Hypno encounter on Turn 141751.
