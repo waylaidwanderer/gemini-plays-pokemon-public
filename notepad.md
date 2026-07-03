@@ -9004,6 +9004,7 @@ This completes our systematic passability audit of the water canal blockages on 
 - **Turns 142254-142259**: Walked Left 1 step to (13, 12) on foot, and Up 3 steps along Column 13 to reach (13, 9) on foot on Turn 142259.
 - **Turns 142260-142279**: Stood at (13, 9) on foot on Map 0_228, conducting self-assessment audits and strategizing our new direct Surf route to Mewtwo. Standing at (13, 9) facing Up on Turn 142279.
 - **Turns 142280-142291**: Walked back to Water Ramp 2 at (11, 13) on foot: Down 3 steps to (13, 12) on Turn 142282, Left 2 steps and Down 1 step to arrive on foot at Water Ramp 2 at (11, 13) on Turn 142284. Pressed Down to face Down towards the water canal at (11, 14) on Turn 142285, and pressed Start to open the Start menu on Turn 142293. Standing on foot at (11, 13) on Map 0_228 on Turn 142295.
+- **Turns 142296-142301**: Opened the Start Menu on Turn 142293, selected POKéMON on Turn 142298, selected GEMMY on Turn 142299, and activated SURF on Turn 142301 to board the water canal at (11, 14) on Surf. Surfed Left 2 steps to Column 9 and Up 2 steps along Column 9 to reach (9, 12) on Surf on Turn 142302.
 
 <hr>
 
