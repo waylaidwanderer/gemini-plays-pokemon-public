@@ -8970,7 +8970,14 @@ This completes our systematic passability audit of the water canal blockages on 
 - **Turns 141504-141505**: Pressed Down to test (3, 4) on Turn 141504. Result: BUMP (0 tiles visited), proving (3, 4) is solid rock of TYPE_2889 and impassable. Standing at (3, 3) on foot facing Down on Turn 141505.
 - **Turns 141506-141541**: Walked Up 2 steps and Right 4 steps to reach (7, 1) on foot on Turn 141508, walked Up 1 step to (7, 0) on foot on Turn 141509. Pressed Left to test (6, 0) on Turn 141523. Result: BUMP (0 tiles visited), proving (6, 0) is solid rock of TYPE_2889 and impassable on foot. Standing at (7, 0) on foot facing Left on Turn 141541.
 - **Turns 141980-141981**: Walked down the stairs from (3, 12) on Map 0_228 Southwest to the southern ground floor at (2, 17) on foot, with zero wild encounters.
-- **Turns 141982-141986**: Walked Right 6 steps along the southern Row 17 corridor to reach (8, 17) on foot on Map 0_228, with zero wild encounters. Preparing to continue walking Right 5 steps to reach (13, 17).
+- **Turns 141944-141946**: Interrupted by a wild Level 52 Hypno encounter at (7, 17). Fled successfully on Turn 141946.
+- **Turns 141947-141949**: Walked Left to (2, 17) on foot.
+- **Turns 141950-141951**: Walked up the wooden stairs to the elevated southwest platform at (1, 12) on foot on Turn 141951.
+- **Turns 141952-141960**: Walked back to Southwest Ladder 6 at (3, 11) on foot on Turn 141960.
+- **Turns 141961-141964**: Standing near Southwest Ladder, encountered a wild Level 49 Venomoth at (3, 12). Fled successfully on Turn 141964.
+- **Turns 141965-141980**: Walked back down the stairs to the southern ground floor at (2, 17) on foot on Turn 141980.
+- **Turns 141981-141986**: Walked Right 6 steps along the southern Row 17 corridor to reach (8, 17) on foot.
+- **Turns 141987-141989**: Walked Right 5 steps along Row 17 to reach (13, 17) on foot on Turn 141989.
 
 <hr>
 
