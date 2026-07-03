@@ -8590,6 +8590,172 @@ This completes our systematic passability audit of the water canal blockages on 
 - **Turns 141044-141054**: Analyzed `<CurrentScreen>` visual grid tile IDs on Column 13, 14, and 15 on Map 0_226, and discovered that Row 8 (Columns 13 to 15) and Row 9 (Columns 15 and 16) are completely open, unblocked cavern floor of TYPE_3fe2, forming an open horizontal bypass path to Koga's east side on foot!
 - **Turns 141055-141107**: Walked on foot from (13, 9) to (14, 8) on Map 0_226, and stood at (14, 8) conducting detailed pathfinding analyses, local collision grid verification, and systematic planning.
 - **Turns 141108-141205**: Walked Right 1 step from (14, 8) to (15, 8) on Turn 141110, stood there verifying coordinates, then walked Down 1 step from (15, 8) to (15, 9) on Turn 141153 with zero collisions, proving (15, 9) is unblocked and fully passable. Stood at (15, 9) verifying layout, then walked Right 1 step from (15, 9) to (16, 9) on Turn 141202 with zero collisions, proving (16, 9) is unblocked and fully passable. Standing at (16, 9) on Turn 141205, facing Right.
+- **Turns 141206-141211**: Walked Right from (15, 9) to (16, 9) on Map 0_226 on foot, facing Right on Turn 141211. Confirming visually that (17, 9), (18, 9), and (19, 9) are all open, passable floor tiles of TYPE_3fe2.
+- **The Ladder 3 Connection on 2F West**: Ladder 3 is located at (19, 7). On the visual grid, (19, 7) shows a ladder icon (the black horizontal bars) and is labeled TYPE_3fe2. It is adjacent to (19, 8), which is marked as a solid rock wall of TYPE_2889. Let's trace how we can reach (19, 7) from our current position (16, 9) on foot.
+- Let's check the tiles on Column 19 on 2F West:
+  - (19, 9): TYPE_3fe2 (passable)
+  - (19, 8): TYPE_2889 (solid rock wall) - wait! The map marker has `(19, 8): 🚫 (19, 8) solid rock wall on 2F West`. Let's look at the current screen: indeed, (19, 8) is TYPE_2889!
+  - If (19, 8) is a solid rock wall, then we cannot walk Up from (19, 9) to (19, 7) directly.
+  - Let's look at the other paths to (19, 7):
+    - Can we go Up on Column 18?
+      - (18, 9) is TYPE_3fe2 (passable)
+      - (18, 8) is TYPE_2889 (solid rock wall)
+      So we cannot walk Up on Column 18 either.
+    - Can we go Up on Column 17?
+      - (17, 9) is TYPE_3fe2 (passable)
+      - (17, 8) is TYPE_2889 (solid rock wall)
+      So we cannot walk Up on Column 17 either.
+    - Can we go Up on Column 16?
+      - (16, 9) is TYPE_3fe2 (passable)
+      - (16, 8) is TYPE_2889 (solid rock wall)
+      So we cannot walk Up on Column 16 either.
+    - Let's check Column 20:
+      - (20, 9) is TYPE_3fe2 (passable)
+      - (20, 8) is TYPE_2889 (solid rock wall)
+      So we cannot walk Up on Column 20 either.
+    - Let's check Column 21:
+      - (21, 9) is TYPE_3fe2 (passable)
+      - (21, 8) is TYPE_2889 (solid rock wall)
+      So we cannot walk Up on Column 21 either.
+    - Wait! Is there ANY column that goes Up to Row 7?
+      Let's look at the screen carefully:
+      - Column 16: (16, 7) is TYPE_3fe2, but (16, 8) is TYPE_2889 (solid).
+      - Column 18: (18, 7) is TYPE_3fe2, but (18, 8) is TYPE_2889 (solid).
+      - Column 19: (19, 7) is the ladder! But (19, 8) is TYPE_2889 (solid).
+      - Wait! Let's look at Column 13:
+        - (13, 9) is TYPE_3fe2
+        - (13, 8) is TYPE_3fe2
+        - (13, 7) is TYPE_2889 (solid)
+        - (13, 6) is TYPE_3fe2
+      - What about Column 14?
+        - (14, 9) is TYPE_2889 (solid)
+        - (14, 8) is TYPE_3fe2
+        - (14, 7) is TYPE_2889 (solid)
+      - What about Column 15?
+        - (15, 9) is TYPE_3fe2
+        - (15, 8) is TYPE_3fe2
+        - (15, 7) is TYPE_2889 (solid)
+      - Wait, is there any other way to go Up to Row 7 on the east side of Koga's 2F West?
+        Let's look at the columns:
+        - (17, 7) is TYPE_2889 (solid)
+        - (18, 7) is TYPE_3fe2 (passable)
+        - (19, 7) is TYPE_3fe2 (ladder)
+        - (20, 7) is TYPE_2889 (solid)
+        - (21, 7) is TYPE_2889 (solid)
+        Wait, if (18, 7) is TYPE_3fe2, can we reach it?
+        Let's see: to the left of (18, 7) is (17, 7) (solid).
+        To the right of (18, 7) is (19, 7) (ladder).
+        To the north of (18, 7) is (18, 6) (TYPE_3fe2).
+        Let's check the north area of Koga's 2F West (Rows 5 and 6):
+        - (16, 6) is TYPE_3fe2
+        - (17, 6) is TYPE_2889 (solid)
+        - (18, 6) is TYPE_3fe2
+        - (19, 6) is TYPE_3fe2
+        - (20, 6) is TYPE_3fe2
+        - (21, 6) is TYPE_2889 (solid)
+        Wait! This means Row 6 has passable tiles at (18, 6), (19, 6), (20, 6).
+        And Row 5 has:
+        - (18, 5) is TYPE_2889 (solid)
+        - (19, 5) is TYPE_3fe2
+        - (20, 5) is TYPE_3fe2
+        - (21, 5) is TYPE_3fe2
+        Wait! How do we get to the north side of the Row 8 solid rock wall barrier?
+        Let's look at the columns on the screen:
+        Is there any unblocked column that connects Row 9 to Row 7?
+        Let's trace:
+        - Column 13: (13, 9) -> (13, 8) is open! But (13, 7) is solid rock wall (TYPE_2889).
+        - Column 14: (14, 9) is solid rock wall (TYPE_2889).
+        - Column 15: (15, 9) -> (15, 8) is open! But (15, 7) is solid rock wall (TYPE_2889).
+        - Column 16: (16, 9) is open, but (16, 8) is solid rock wall (TYPE_2889).
+        - Column 17: (17, 9) is open, but (17, 8) is solid rock wall (TYPE_2889).
+        - Column 18: (18, 9) is open, but (18, 8) is solid rock wall (TYPE_2889).
+        - Column 19: (19, 9) is open, but (19, 8) is solid rock wall (TYPE_2889).
+        - Column 20: (20, 9) is open, but (20, 8) is solid rock wall (TYPE_2889).
+        - Column 21: (21, 9) is open, but (21, 8) is solid rock wall (TYPE_2889).
+        Wait, is there any other column further east?
+        Let's look at our map markers or our `Locations/CeruleanCave` notepad:
+        - `(22, 9): 🚫 (22, 9) solid rock wall`
+        - `(21, 8), (21, 7), (21, 6), (22, 8), (22, 5), (23, 7), (23, 6), and (23, 5) are solid rock walls of TYPE_2889.`
+        Wait! This means Columns 21, 22, 23 on Rows 5 to 8 are solid rock walls.
+        So we cannot go further east than Column 21 on Row 9, and Row 8/7/6/5 on Column 21/22/23 are solid rock walls.
+        Wait, does this mean Koga's 2F West is completely divided into:
+        1. A southern section (containing the Row 9 corridor and Koga's southwest pocket at (3, 11))
+        2. A northern section (containing Row 5/6 corridors and Ladder 3 at (19, 7) and Ladder 4 at (22, 6))?
+        Wait! Let's check if there is any other way.
+        Let's search our notepads for "Row 8 Rock Wall Blockages" or "2F West split" or "Ladder 3".
+        Wait! Let's read `Locations/CeruleanCave` line 59:
+        `- Row 7 Blockage (Verified Turn 113364): Row 7 contains a solid horizontal rock wall at (17, 7) of TYPE_2889, physically blocking on-foot horizontal crossover between Column 18 and Column 16.`
+        Wait, what about Koga's 2F West being completely split?
+        Let's read `Locations/CeruleanCave` line 118:
+        `- Column 14 Row 7 Rock Wall Blockage [Map 0_226, 2F West] (Verified Turn 134136): Standing on foot at (14, 8) facing Up, pressed Up. Result: BUMP (visited 0 tiles). This physically proves (14, 7) is a solid, impassable rock wall of TYPE_2889. Since Column 14 is blocked here, any on-foot vertical transition on Column 14 between Rows 5-8 is completely impossible, proving that 2F West is 100% split.`
+        Wait, "proving that 2F West is 100% split".
+        But wait! We found a new bypass!
+        Let's check if the bypass we found connects to the northern section or if it only connects Koga's southwest pocket to Koga's southeast Row 9 corridor.
+        Wait, Koga's southwest pocket (the Southwest Ladder at (3, 11)) is at the bottom-left of the map.
+        We walked from (3, 11) up to (3, 9) and then Right to (16, 9).
+        So we are on Row 9.
+        Can we go Up to the northern section (Row 5/6/7) from Row 9?
+        Let's look at the columns we just crossed:
+        Column 12, Column 13, Column 14, Column 15, Column 16.
+        Are any of them open vertically?
+        Let's check:
+        - Column 12:
+          - (12, 9): TYPE_3fe2 (passable)
+          - (12, 8): TYPE_2889 (solid rock wall)
+          - (12, 7): TYPE_2889 (solid rock wall)
+          - (12, 6): TYPE_2889 (solid rock wall)
+          So Column 12 is blocked.
+        - Column 13:
+          - (13, 9): TYPE_3fe2 (passable)
+          - (13, 8): TYPE_3fe2 (passable)
+          - (13, 7): TYPE_2889 (solid rock wall)
+          - (13, 6): TYPE_3fe2 (passable)
+          So Column 13 is blocked at (13, 7).
+        - Column 14:
+          - (14, 9): TYPE_2889 (solid rock wall)
+          So Column 14 is blocked at (14, 9).
+        - Column 15:
+          - (15, 9): TYPE_3fe2 (passable)
+          - (15, 8): TYPE_3fe2 (passable)
+          - (15, 7): TYPE_2889 (solid rock wall)
+          So Column 15 is blocked at (15, 7).
+        - Column 16:
+          - (16, 9): TYPE_3fe2 (passable)
+          - (16, 8): TYPE_2889 (solid rock wall)
+          So Column 16 is blocked at (16, 8).
+        - Column 17:
+          - (17, 9): TYPE_3fe2 (passable)
+          - (17, 8): TYPE_2889 (solid rock wall)
+          So Column 17 is blocked at (17, 8).
+        - Column 18:
+          - (18, 9): TYPE_3fe2 (passable)
+          - (18, 8): TYPE_2889 (solid rock wall)
+          So Column 18 is blocked at (18, 8).
+        - Column 19:
+          - (19, 9): TYPE_3fe2 (passable)
+          - (19, 8): TYPE_2889 (solid rock wall)
+          So Column 19 is blocked at (19, 8).
+        - Column 20:
+          - (20, 9): TYPE_3fe2 (passable)
+          - (20, 8): TYPE_2889 (solid rock wall)
+          So Column 20 is blocked at (20, 8).
+        - Column 21:
+          - (21, 9): TYPE_3fe2 (passable)
+          - (21, 8): TYPE_2889 (solid rock wall)
+          So Column 21 is blocked at (21, 8).
+
+        Wait, let's think: is there any other column?
+        Let's check if there is an on-foot path on some other column, or if we can run `cave_bfs_solver` to find out!
+        Yes! We have a custom tool: `cave_bfs_solver`.
+        This tool computes the shortest unblocked overworld path across Cerulean Cave 1F and 2F West.
+        Let's call `cave_bfs_solver` from our current position (16, 9) on Map 0_226 to Ladder 3 at (19, 7) on Map 0_226.
+        Wait, can we use this tool?
+        Let's read the tool definition:
+        `cave_bfs_solver(reasoning, start_map_id, start_x, start_y, target_map_id, target_x, target_y, travel_mode, autopress_buttons)`
+        Wait, this is an excellent tool because it was updated with our newly discovered blockages and pathways!
+        Let's run it to see if there is any path from (16, 9) on 2F West (0_226) to (19, 7) on 2F West (0_226) or if they are disconnected.
+        This will be extremely informative. If it returns a path, we can follow it or let it autopress! If it returns an empty list, it means they are disconnected on 2F West.
+        Let's try that.
 
 <hr>
 
