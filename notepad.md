@@ -8572,7 +8572,18 @@ This completes our systematic passability audit of the water canal blockages on 
 - **Turns 140973-140975**: Successfully escaped the wild Magneton encounter and returned to the overworld at (11, 13) on foot.
 - **Turns 140976-140981**: Walked Up 1 step to (11, 12) and Right 4 steps to (15, 12), interrupted by a wild Dodrio battle.
 - **Turns 140982-140985**: Successfully escaped the wild Dodrio encounter, walked Down 2 steps to (15, 14), Right 2 steps to (17, 14), Down 1 step to (17, 15) stairs, Down 1 step to (17, 16), Left 1 step to (16, 16), Down 1 step to (16, 17), and Left 5 steps along Row 17 southern corridor to (11, 17) on foot.
-- **Turns 140986-140993**: Walked Left 5 steps from (11, 17) to (6, 17) along Row 17 southern corridor, interrupted by a wild Dodrio encounter on Turn 140992.
+- **Turns 140986-140992**: Walked Left 5 steps from (11, 17) to (6, 17) along Row 17 southern corridor of Map 0_228 on foot, interrupted by a wild Dodrio encounter on Turn 140992.
+- **Turns 140993-140995**: Successfully escaped the wild Dodrio encounter and returned to the overworld at (6, 17) on foot.
+- **Turns 140996-141001**: Planned our next movement, speak, and prepared to walk.
+- **Turns 141001-141004**: Walked Left 4 steps along Row 17 from (6, 17) to (2, 17), Up 1 step to (2, 16), and Left 1 step to stand at (1, 16) on foot on Map 0_228.
+- **Turns 141005-141007**: Planned our final 1F Southwest segment and speak.
+- **Turn 141007**: Walked Up 4 steps along Column 1 to (1, 12), Right 2 steps to (3, 12), and Up 1 step onto Southwest Ladder 6 at (3, 11) on Map 0_228, immediately warping up to 2F West (Map 0_226) at (3, 11) on foot on Turn 141008.
+- **Turns 141008-141017**: Walked Up 2 steps to (3, 9) and Right 5 steps to reach (8, 9) on Map 0_226 on foot, facing Right on Turn 141017.
+- **Turns 141018-141022**: Planned and updated status.
+- **Turn 141022**: Walked Right 3 steps from (8, 9) to (11, 9) along Row 9 on Map 0_226 on foot, interrupted at (11, 9) by a wild Marowak encounter on Turn 141023.
+- **Turns 141023-141024**: Successfully escaped the wild Marowak encounter on Turn 141024, returning to the overworld at (11, 9) on foot.
+- **Turns 141025-141031**: Analyzed `<CurrentScreen>` visual grid tile IDs on Column 13 and Column 14, and discovered that Row 12 (Columns 12 to 16) is a completely open, unblocked corridor of TYPE_3fe2 on foot, connecting Koga's southwest pocket directly to the rest of the 2F West map on foot.
+- **Turns 141031-141036**: Planned our systematic crossover testing protocol and updated status and goals to investigate Row 12 of Column 13/14 on foot.
 
 <hr>
 
