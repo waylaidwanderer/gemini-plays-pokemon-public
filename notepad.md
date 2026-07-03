@@ -8514,6 +8514,9 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turns 140809-140816**: Completed Column 4 passability experiment on 1F Northwest.
 - **Turn 140817**: Warped up Ladder 5 to 2F West at (9, 1).
 - **Turns 140819-140853**: Positioned at (9, 1) on Map 0_226 on foot, conducting audits and preparing to backtrack to 1F Northwest to test Column 7 water passability on Rows 8, 9, and 10.
+- **Turn 140857**: Pressed Left and Right on foot at Ladder 5 (9, 1) on Map 0_226, immediately warping down to Map 0_228 (1F Northwest) at (7, 1) on foot on Turn 140858.
+- **Turn 140858**: Standing on foot on Ladder 5 at (7, 1) on Map 0_228, facing Down.
+- **Turn 140859**: Pressed Right 5 times to walk to (12, 1) on foot, but got interrupted on the 4th step at (10, 1) by a wild Level 52 Golbat encounter on Turn 140860.
 
 <hr>
 
