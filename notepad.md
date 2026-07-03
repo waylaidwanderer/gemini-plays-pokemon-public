@@ -8551,6 +8551,9 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Experimental Log**:
   - **Turn 140865**: Boarded Surf from Water Ramp 4 at (15, 3) onto (15, 4) on water.
   - **Turn 140869**: Ready to surf Down to (15, 7).
+- **Turn 140952**: Standing at (14, 5) on water facing Left, pressed Left against (13, 5). Result: BUMP (0 tiles visited). Conclusively proves that (13, 5) is a solid rock wall of TYPE_2889 and is impassable on water.
+- **Turn 140954**: Standing at (14, 4) on water facing Left, pressed Left against (13, 4). Result: BUMP (0 tiles visited). Conclusively proves that (13, 4) is a solid rock wall of TYPE_2889 and is impassable on water.
+This completes our systematic passability audit of the water canal blockages on Column 13 Rows 4 and 5 on Map 0_228!
 
 <hr>
 
