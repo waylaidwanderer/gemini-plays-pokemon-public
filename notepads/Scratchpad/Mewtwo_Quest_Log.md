@@ -1,5 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Surfing at (12, 6) on Map 0_228 (1F) on Turn 142151, facing Up.
+- Current Status: Surfing at (12, 6) on Map 0_228 (1F) on Turn 142153, facing Up.
 - **Turns 142011-142020**: From (15, 12), walked Left 4 steps to (11, 12). Interrupted by a wild Level 49 wild Raichu on Turn 142015. Fled successfully on Turn 142016. Took 1 step Down to reach Water Ramp 2 at (11, 13) on foot on Turn 142020.
 - **Turns 142021-142029**: Opened the Start Menu and selected POKéMON, then selected GEMMY and chose SURF facing Down, successfully boarding the water canal at (11, 14) on Surf on Turn 142030.
 - **Turns 142031-142040**: Surfed Left 2 steps to Column 9 and Up 4 steps along Column 9 to reach (9, 10) on water on Turn 142040 with zero wild encounters.
