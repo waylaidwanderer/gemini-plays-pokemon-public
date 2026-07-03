@@ -10729,6 +10729,8 @@ Since we proved on-foot crossovers on both 1F and 2F West are blocked, and 1F (6
 
 ## Chronological Progress:
 - Turn 142116: Updated test plan to remove the disproven (6,3) boarding hypothesis and establish a systematic, rigorous, multi-path re-verification protocol to break the navigation loop. Preparing to walk to (15, 3).
+- Turn 142145: Standing at (12, 6) facing Up on water, pressed Up. Result: BUMP (visited 0 tiles). This physically and conclusively proves that (12, 5) on Map 0_228 is a solid rock wall of TYPE_2889 and is impassable on water, confirming the Row 5 blockage pattern.
+Preparing to surf Left along Row 6: (12, 6) -> (11, 6) -> (10, 6) -> (9, 6) to merge back into the central water canal.
 
 <hr>
 
