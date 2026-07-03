@@ -10744,26 +10744,26 @@ We have reached a logical deadlock where both B1F Northwest and 2F West Northwes
 # Mewtwo Northwest Path Test Plan
 
 ## Objective:
-Verify if Column 4 Row 3 (4, 3) on 1F Northwest (Map 0_228) is open and passable on foot, which would connect Ladder 5 at (7, 1) directly to the B1F stairs at (1, 3) on foot.
+Board Surf on the western water canal from the northern landmass of 1F Northwest (Map 0_228) and Surf directly to the B1F stairs, bypassing all land-based blockages.
 
 ## Hypothesis:
-In standard unmodded Pokémon Red/Blue, Row 3 is a completely open horizontal corridor across Column 4, connecting the eastern and western halves of the northern landmass on 1F. 
-Our previous "1F Northwest is completely isolated" finding was based on testing Rows 0, 1, and 2, and we fell into confirmation bias by assuming Row 3 was also blocked. 
-Testing Row 3 Column 4 on foot will resolve this logical gap and open the true path to Mewtwo!
+In Gen 1, we can activate SURF from any land tile directly adjacent to water, facing the water.
+1. The northern landmass at (6, 3) is at ground level (z=0), and the adjacent water tile at (6, 4) is at ground level (z=0). There is no height mismatch!
+2. We can stand at (6, 3) on foot facing Down, select GEMMY from the party menu, and use SURF to board the water at (6, 4).
+3. Once on the water, we can Surf Left along Row 4: (6, 4) -> (5, 4) -> (4, 4) -> (3, 4) -> (2, 4) to reach the western canal.
+4. We can Surf directly to (2, 3) or (0, 6), face Left/Up, and dismount onto (1, 3) or (0, 7) on foot, which is the stairs to B1F!
 
 ## Testing Protocol:
-1. Warp down Southwest Ladder 6 at (3, 11) on 2F West to 1F Southwest at (3, 11).
-2. Walk on foot from (3, 11) to Water Ramp 2 at (11, 13) via Row 17.
-3. Use Surf at (11, 13) to board the water canal.
-4. Surf along the central and crossover water canals to Water Ramp 4 at (15, 3).
-5. Dismount Surf at (15, 3) onto the northern landmass on foot.
-6. From (15, 3) on foot, walk Left to (7, 1) (Ladder 5 landing) via Row 1.
-7. Walk Down 2 steps to (7, 3).
-8. Walk Left 3 steps to stand at (4, 3) and verify passability of Column 4 on Row 3 on foot.
-9. If (4, 3) is open, continue walking Left to the B1F stairs at (1, 3) and descend to B1F!
+1. Walk to Southwest Ladder 6 at (3, 11) on 2F West (Wait! We are currently at (1, 12) on 1F Southwest!).
+2. Walk to Southwest Ladder 6 at (3, 11) on 1F Southwest:
+   - From (1, 12), walk Right 2 steps to (3, 12), and Up 1 step to (3, 11).
+3. Warp up to 2F West at (3, 11).
+4. Since we cannot walk across 2F West directly due to the split, we must backtrack to Ladder 5 at (9, 1).
+   - Wait! How do we reach Ladder 5 at (9, 1)?
+   - We must go back to 1F, Surf to the eastern canal, and warp up to 2F West from one of the eastern ladders (such as Ladder 3 at (18, 9) or Ladder 4 at (23, 7)), then walk to (9, 1) on 2F West on foot!
+   - This is the standard, unblocked backtracking route!
 
 ## Chronological Progress:
-- Turn 141893: Discovered that Row 7 Columns 0-2 is land and that the western water canal is isolated. Formulated the Column 4 Row 3 (4, 3) northern landmass bypass hypothesis.
-- Turn 141901: Corrected the testing protocol to bypass 2F West completely, using the open 1F water canal and northern landmass to reach (7, 1) directly. Currently standing at (3, 11) on 2F West. Preparing to warp down Southwest Ladder 6 to 1F.
+- Turn 141951: Successfully arrived at (1, 12) on the elevated southwest platform on 1F. Discovered that the elevated platform is completely blocked at Column 6 by a solid rock wall, disproving any platform crossover. Formulated the 1F Northwest (6, 3) Surf boarding hypothesis! This is the true path to Mewtwo! Preparing to walk back to Southwest Ladder 6 at (3, 11).
 
 <hr>
