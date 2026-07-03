@@ -331,3 +331,18 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 140952**: Standing at (14, 5) on water facing Left, pressed Left against (13, 5). Result: BUMP (0 tiles visited). Conclusively proves that (13, 5) is a solid rock wall of TYPE_2889 and is impassable on water.
 - **Turn 140954**: Standing at (14, 4) on water facing Left, pressed Left against (13, 4). Result: BUMP (0 tiles visited). Conclusively proves that (13, 4) is a solid rock wall of TYPE_2889 and is impassable on water.
 This completes our systematic passability audit of the water canal blockages on Column 13 Rows 4 and 5 on Map 0_228!
+- **Turns 140921-140936**: Aligned facing Down at (11, 13) on foot on Map 0_228, opened POKéMON menu, selected GEMMY, activated SURF to board the water canal at (11, 14), and surfed to (9, 11) and Up to (9, 7).
+- **Turn 140937**: Surfed Right along the Row 7 crossover water channel to (14, 7).
+- **Turns 140938-140950**: Conducted preparatory steps, update_objectives, and speak.
+- **Turn 140951**: Surfed Up to (14, 6) and then (14, 5), facing Left.
+- **Turn 140952**: Pressed Left against Column 13 Row 5 (13, 5). Result: BUMP (0 tiles visited), physically proving (13, 5) is a solid rock wall of TYPE_2889 and is impassable on water.
+- **Turn 140953**: Surfed Up 1 step to (14, 4), facing Up.
+- **Turn 140954**: Pressed Left against Column 13 Row 4 (13, 4). Result: BUMP (0 tiles visited), physically proving (13, 4) is a solid rock wall of TYPE_2889 and is impassable on water.
+- **Turns 140955-140963**: Logged tests, updated objectives, and ran BFS pathfinder to prepare to return to Water Ramp 2.
+- **Turn 140964**: Surfed Down 3 steps to (14, 7).
+- **Turn 140965**: Surfed Left 5 steps to (9, 7).
+- **Turn 140966**: Surfed Down 4 steps to (9, 11).
+- **Turns 140967-140968**: Planned second segment.
+- **Turn 140968**: Surfed Down 3 steps to (9, 14).
+- **Turn 140969**: Surfed Right 2 steps to (11, 14), and pressed Up to dismount on foot at Water Ramp 2 at (11, 13).
+- **Turns 140970-140972**: Arrived at (11, 13) on foot, immediately triggering a wild Level 46 Magneton encounter on Turn 140971.
