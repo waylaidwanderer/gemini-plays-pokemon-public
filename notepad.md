@@ -9115,6 +9115,14 @@ This completes our systematic passability audit of the water canal blockages on 
 - **(19, 2) Blockage (Verified Turn 138068)**: Standing on foot at (18, 2) facing Right, pressed Right. Result: BUMP (visited 0 tiles). This physically and conclusively proves that (19, 2) is a solid, impassable rock wall of TYPE_2889. This blocks direct rightward progress on Row 2 across Column 19.
 - **Row 4 Blockage Pattern on 2F West**: Row 4 is completely solid rock of TYPE_2889 on all columns EXCEPT Column 9, 13, and 14, acting as Koga's horizontal split. Verified on Turn 138064.
 
+### Column 0 Southwest 1F Passability Empirical Verification Record (Turn 141801)
+- **Objective**: Conduct a systematic, empirical on-foot passability test of Column 0 on Rows 14 and 15 of Map 0_228 (1F Southwest) to identify if there is an unblocked vertical land corridor or if it is indeed a solid, impassable map border.
+- **Results**:
+  - **Turn 141797**: Stepped Left from (1, 15) onto (0, 15) successfully. Result: (0, 15) is passable on foot.
+  - **Turn 141799**: Stepped Up from (0, 15) onto (0, 14) successfully. Result: (0, 14) is passable on foot.
+  - **Turn 141801**: Pressed Up from (0, 14) facing Up against (0, 13) and bumped (visited 0 tiles). Result: (0, 13) is a solid, impassable rock wall.
+- **Conclusive Finding**: Column 0's passable section on foot is strictly limited to Rows 14 and 15 on 1F Southwest, forming a 2-tile pocket. It does not provide any vertical on-foot bypass past Row 13. This satisfies the Burden of Proof and confirms our previous layout records.
+
 <hr>
 
 <h1><code>Reflection/Turn113593_Reflection</code></h1>
