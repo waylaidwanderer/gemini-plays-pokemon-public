@@ -1,5 +1,10 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing at (9, 1) on Map 0_226 (2F West) on Turn 141608, facing Down.
+- Current Status: Standing at (12, 1) on Map 0_226 (2F West) on Turn 141625, facing Down.
+- **Turn 141611**: redfined solids_2f database in cave_bfs_solver to add Row 4, Row 6 and other blockages. Standing at (3, 1), we ran cave_bfs_solver to (1, 3).
+- **Turn 141612-141614**: Movement sequence aborted at button 3 of 68 at (3, 3) on Turn 141613 by a wild Ditto encounter. Fled Ditto.
+- **Turn 141615**: Ran cave_bfs_solver from (3, 3) to (1, 3). Sequence aborted at button 3 ('Right') at (6, 3) by a wild Venomoth encounter. Fled Venomoth.
+- **Turn 141616-141617**: Ran cave_bfs_solver from (6, 3) to (1, 3). Sequence aborted at button 16 ('Down') at (13, 6) by a wild Ditto encounter. Fled Ditto.
+- **Turn 141618-141619**: Ran cave_bfs_solver from (13, 6) on Turn 141618. Due to (14, 6) being solid rock, the sequence bumped, and the subsequent movement sequence ultimately placed us at (12, 1) on Map 0_226 on Turn 141619. Redefined custom tool cave_bfs_solver to include (4, 4), (9, 6), (1, 4), and (2, 4) in the solids database.
 - **Turn 141542**: Standing at (7, 0) on Map 0_226 on foot, walked Right to (9, 0) and Down to (9, 1) on foot on Turn 141543.
 - **Turn 141544**: From (9, 1) on Map 0_226 on foot, pressed Down to warp down Ladder 5 to Map 0_228 (1F Northwest) at (7, 1) on Turn 141544.
 - **Turn 141545-141551**: Standing at (7, 1) on foot, walked Right 2 steps to (9, 1) on Turn 141546, Down 1 step to (9, 2) on Turn 141547, Left 4 steps to (5, 2) on Turn 141551.
