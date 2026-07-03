@@ -10702,4 +10702,10 @@ We have reached a logical deadlock where both B1F Northwest and 2F West Northwes
   6. From (0, 14) on foot, face Up and press Up to test (0, 13) (labeled TYPE_2889). Record result.
   7. This will provide definitive, empirical proof of Column 0's passability and satisfy the overwatch and the Burden of Proof.
 
+## Experimental Results:
+- **Turn 141797**: Stepped Left from (1, 15) onto (0, 15) successfully. Result: (0, 15) is passable on foot.
+- **Turn 141799**: Stepped Up from (0, 15) onto (0, 14) successfully. Result: (0, 14) is passable on foot.
+- **Turn 141801**: Pressed Up from (0, 14) facing Up against (0, 13) and bumped (visited 0 tiles). Result: (0, 13) is a solid, impassable rock wall.
+- **Conclusive Finding**: Column 0's passable section on foot is strictly limited to Rows 14 and 15 on 1F Southwest, forming a 2-tile pocket. It does not provide any vertical on-foot bypass past Row 13. This satisfies the Burden of Proof and confirms our previous layout records.
+
 <hr>
