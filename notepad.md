@@ -10688,4 +10688,15 @@ We have reached a logical deadlock where both B1F Northwest and 2F West Northwes
   - Up to Southwest Ladder 6 at (3, 11).
 - We are actively executing this path on foot! Our starting position on Turn 141760 is (11, 13).
 
+## Column 0 Southwest 1F Passability Empirical Test Protocol:
+- **Objective**: Conduct a systematic, empirical on-foot passability test of Column 0 on Rows 14 and 15 of Map 0_228 (1F Southwest) to identify if there is an unblocked vertical land corridor or if it is indeed a solid, impassable map border.
+- **Methodology**:
+  1. Stand on foot at (1, 15) facing Left.
+  2. Press Left to attempt to step onto (0, 15).
+  3. If we step onto (0, 15), it is passable on foot. Record result.
+  4. From (0, 15) on foot, face Up and press Up to attempt to step onto (0, 14).
+  5. If we step onto (0, 14), it is passable. Record result.
+  6. From (0, 14) on foot, face Up and press Up to test (0, 13) (labeled TYPE_2889). Record result.
+  7. This will provide definitive, empirical proof of Column 0's passability and satisfy the overwatch and the Burden of Proof.
+
 <hr>
