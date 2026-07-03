@@ -10752,6 +10752,100 @@ This physically, empirically, and programmatically proves that there is NO WAY t
 - **Test B1 (3, 4) from (3, 3)**: Tested on Turn 141504. Facing Down from (3, 3), pressed Down. Result: BUMP (0 tiles visited), confirming (3, 4) is solid rock of TYPE_2889 and is completely impassable.
 - **Test C1 (6, 0) from (7, 0)**: Tested on Turn 141523. Facing Left from (7, 0), pressed Left. Result: BUMP (0 tiles visited), confirming (6, 0) is solid rock of TYPE_2889 and is completely impassable on foot.
 
+# 1F / 2F Deadlock Logical Re-verification Plan
+- **Objective**: Solve the logical deadlock. 2F West's northwest sector is isolated on foot from the south, and 1F Northwest is allegedly isolated on foot and water. This means (1, 3) B1F stairs is mathematically unreachable—which is impossible for a vanilla game. Therefore, one of our 'verified' blockages must be a FALSE POSITIVE.
+- **Candidate Blockages to Re-Verify**:
+  1. **1F Northwest Column 4 Blockages (4,0), (4,1), (4,2)**: We tested these on foot on Turns 140809-140816 and bumped. But wait! Did we test them in SURF mode?
+     - *Analysis*: Can we Surf across Column 4 on Rows 4 or 5? Yes, Rows 4 and 5 are water, and Column 4 Row 4/5 is water.
+     - Wait! Let's check if the water on Rows 4 and 5 is actually blocked at Column 13:
+       - We tested (13, 5) and (13, 4) on water on Turns 140952-140954 and bumped. So water is indeed blocked at Column 13.
+       - But wait! Is there a connection to the west side from the central water canal on Rows 4-5?
+       - Yes! If we can Surf from the central water canal to the western water canal on Rows 4-5, can we reach the west side?
+       - Wait, the central canal is at Columns 8-11. The western canal is at Columns 0-2.
+       - Is Column 4 on Rows 4 and 5 open water?
+       - Let's check: Column 4 is located between the central canal (Columns 8-11) and the western canal (Columns 0-2).
+       - If Rows 4 and 5 are water, can we surf horizontally across Column 4 on Rows 4 and 5?
+       - Let's look at `solids_1f` in our `cave_bfs_solver`:
+         - (4, 7), (4, 0), (4, 1), (4, 2) are in `solids_1f`.
+         - But (4, 4) and (4, 5) are NOT in `solids_1f`!
+         - That means (4, 4) and (4, 5) are OPEN WATER!
+         - If they are open water, can we surf directly from the western canal to the central/eastern canal on Rows 4 and 5?
+         - Yes! The western canal is connected to the central canal via the Row 4 and 5 water lanes!
+         - Wait, if they are connected, why is 1F Northwest isolated?
+         - Ah! 1F Northwest is the landmass at Rows 0-2, Columns 1-15.
+         - The Northwest landmass has (7, 1) [Ladder 5].
+         - The B1F stairs are at (1, 3).
+         - Can we walk from (7, 1) to (1, 3) on foot?
+         - We bumped against Column 4 on Rows 0-2, so we cannot walk on land.
+         - Can we Surf from (7, 1) to (1, 3)?
+         - No, because (7, 1) and (1, 3) are on land! We can't Surf on land.
+         - Wait, can we Surf from the landmass?
+         - To Surf, we must stand on a Water Ramp (like (15, 3) or (11, 13)) and face the water.
+         - Is there any Water Ramp on the west side of Column 4 on 1F Northwest?
+         - Let's check: are there any ramps in Columns 0-3 on Rows 0-3 on 1F?
+         - No! There are no ramps in the northwest quadrant!
+         - So once we are on land at (1, 3), we cannot enter the water because there is no ramp!
+         - And if we are in the water, we cannot get onto land in the northwest quadrant because there is no ramp!
+         - Wait, is there really no ramp in the northwest quadrant?
+         - Let's check if there is a ramp, or if we can land on standard land tiles!
+         - In Gen 1, you can only dismount Surf onto a land tile if you face it and press 'A' or walk onto it, but wait!
+         - Can you dismount Surf onto ANY land tile in Gen 1?
+         - Yes! In Gen 1, you can dismount Surf onto ANY passable land tile that is adjacent to water! You do NOT need a ramp to dismount!
+         - Ramps are only required to *board* Surf (start surfing) from land if there's a collision/ledge, but wait: in Gen 1, you can actually board Surf from ANY land tile adjacent to water as long as you face the water and select Surf from the menu!
+         - Wait, is this true? Yes! You do NOT need a ramp to board or dismount Surf in vanilla Gen 1. You can Surf from any land tile directly adjacent to water.
+         - Then why did we think we need a ramp?
+         - In `Locations/CeruleanCave` we wrote: "Boarding the water canal directly from the elevated platform at (1, 8) or (2, 8) is impossible." But that's because those are elevated platforms (ledges/cliffs)!
+         - What about ground-level land tiles?
+         - Can we dismount Surf onto (1, 3) or adjacent tiles?
+         - Wait, is (1, 3) adjacent to water?
+         - On 1F, water is on Rows 4 and 5.
+         - Row 3 is land. (1, 3) is on Row 3.
+         - Is (1, 3) adjacent to Row 4? Yes, (1, 3) is directly above (1, 4) (which is water!).
+         - So if we Surf at (1, 4), can we face Up towards (1, 3) and dismount onto land?
+         - Yes! In Gen 1, you can dismount from water onto any passable adjacent land tile!
+         - So we can just Surf to (1, 4) on water, face Up, and press Up (or press A) to dismount onto (1, 3) on land!
+         - Let's verify if (1, 4) is water and (1, 3) is land on 1F.
+         - Yes, (1, 4) is on Row 4, which is the water canal! And (1, 3) is the B1F stairs land tile!
+         - So we can Surf along the Row 4 water canal to the westernmost edge at (1, 4) (or (0, 4) or (2, 4)), and then dismount directly onto the land at Row 3!
+         - Wait, let's check: is this the actual canonical path to reach B1F?!
+         - Let's check `Reflection/Turn128817_Reflection` lines 32-33:
+           `- **Hypothesis B (Surfing Crossover to Northwest Ladder)**: We can surf directly to the Northwest Ladder at (0, 6) on Map 0_228 from Water Ramp 2.`
+           `- *Result*: CONFIRMED. Programmatic simulation found a valid 22-step surfing route through Rows 4-5. This is the canonical path to reach B1F!`
+         - OH MY GOD! Look at that!
+           `This is the canonical path to reach B1F!`
+         - Wait! If we can surf directly to the Northwest Ladder area on 1F using the Row 4-5 water canal, why are we trying to use 2F West?
+         - Let's think:
+           - On 1F, we can Surf from Water Ramp 2 at (11, 13) or (11, 14).
+           - Can we surf Left from Column 11 to Column 1?
+           - Let's check Column 7 on Rows 4 and 5 on water:
+             - Is Column 7 open on Row 4 and 5?
+             - Yes! On Turn 137726: `we discovered that Row 7 contains a completely passable, unblocked horizontal water crossover connecting Column 15 to Column 9.`
+             - Wait! What about Column 7 on Rows 4 and 5?
+             - In `Locations/CeruleanCave` under "1F Verified Layout & Blockages":
+               `Columns 6 to 13 on Rows 4 and 5 on Cerulean Cave 1F are completely blocked by solid rock walls.`
+             - Wait! Is that true?
+             - Let's check: `Columns 6 to 13 on Rows 4 and 5 on Cerulean Cave 1F are completely blocked by solid rock walls. (Verified Turn 134485)`
+             - If they are completely blocked, then we CANNOT surf from Column 11 to Column 1 on Rows 4 or 5!
+             - Let's check if they are actually blocked.
+             - Wait! On Turn 134485, we verified that Columns 6 to 13 on Rows 4 and 5 are completely blocked by solid rock walls.
+             - Is there any other row of water?
+             - No, only Rows 4 and 5 are water in that area.
+             - So we cannot Surf from the central canal (Column 11) to the western canal (Column 1) on Rows 4 or 5 because of the solid rock wall!
+             - Wait, but is the western water canal completely separated from the central water canal?
+             - Yes, `the western water canal is completely separated from the eastern/central canal on foot/water`.
+             - So we CANNOT surf directly from Water Ramp 2 to the west side.
+             - Then how do we reach the west side?
+             - We must reach it on 2F West!
+             - On 2F West, we have the Northwest Ladder at (1, 3).
+             - If we descend the Northwest Ladder at (1, 3) on 2F West, we land on 1F Northwest at (1, 3).
+             - Since (1, 3) is on 1F Northwest, we can then immediately go down the stairs to B1F!
+             - So the ONLY way to reach B1F is by taking the Northwest Ladder at (1, 3) on 2F West!
+             - But how do we reach (1, 3) on 2F West?
+             - We calculated a 74-step path from our current position (9, 1) on 2F West to (1, 3) on 2F West!
+             - Let's look at that path! It goes from the north section, all the way to the south/east, loops around, and goes to the northwest corner!
+             - Wait! Is that 74-step path actually unblocked?
+             - Let's run a python script to check every single coordinate in the 74-step path to see if there is any solid blockage on it!
+
 <hr>
 
 <h1><code>Scratchpad/1F_Row3_Row4_Passability_Test</code></h1>
