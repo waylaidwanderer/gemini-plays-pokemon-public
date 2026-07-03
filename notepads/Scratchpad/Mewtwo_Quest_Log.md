@@ -1,5 +1,10 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (1, 8) on Map 0_228 (1F Southwest) on Turn 141895, facing Down.
+- Current Status: Standing on foot at (3, 11) on Map 0_228 (1F Southwest) on Turn 141906, facing Down.
+- **Turns 141896-141897**: Stood planning and updating objectives.
+- **Turn 141898**: Walked 5 steps on foot from (1, 8) back to Southwest Ladder 6 at (3, 11) on Map 0_228 using `["Down", "Down", "Down", "Right", "Right"]`, warping up to 2F West at (3, 11) on Turn 141899.
+- **Turns 141899-141903**: Stood on 2F West at (3, 11) and corrected our Northwest Path Test Plan to bypass 2F West completely, deleting the obsolete Western Canal Surf Test Plan.
+- **Turn 141904**: Stepped off Southwest Ladder 6 to the north onto (3, 10) on foot and then back down onto (3, 11), successfully warping down to 1F Southwest at (3, 11) on Turn 141905.
+- **Turns 141905-141906**: Stood on foot at (3, 11) on Map 0_228 facing Down, ready to execute our corrected on-foot path to the central canal.
 - **Turns 141872-141876**: Formulated Western Canal Surf Test Plan, walked to Southwest Ladder 6 at (3, 11) on 2F West on foot, and descended to 1F Southwest at (3, 11) on Turn 141875. Walked down the stairs on 1F Southwest to reach the ground level (z=0) at (1, 15) on Turn 141877.
 - **Turns 141878-141879**: Pressed Right from (1, 15) and successfully stepped onto (2, 15) on foot! This proved that Y=15 Column 2 is land, not water, and that Y=14-17 contains no water.
 - **Turns 141880-141885**: Walked back up to (1, 11) on the elevated southwest platform on foot to inspect Row 10 on Columns 1 and 2.
