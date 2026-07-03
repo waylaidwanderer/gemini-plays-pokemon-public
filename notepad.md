@@ -8569,6 +8569,10 @@ This completes our systematic passability audit of the water canal blockages on 
 - **Turn 140968**: Surfed Down 3 steps to (9, 14).
 - **Turn 140969**: Surfed Right 2 steps to (11, 14), and pressed Up to dismount on foot at Water Ramp 2 at (11, 13).
 - **Turns 140970-140972**: Arrived at (11, 13) on foot, immediately triggering a wild Level 46 Magneton encounter on Turn 140971.
+- **Turns 140973-140975**: Successfully escaped the wild Magneton encounter and returned to the overworld at (11, 13) on foot.
+- **Turns 140976-140981**: Walked Up 1 step to (11, 12) and Right 4 steps to (15, 12), interrupted by a wild Dodrio battle.
+- **Turns 140982-140985**: Successfully escaped the wild Dodrio encounter, walked Down 2 steps to (15, 14), Right 2 steps to (17, 14), Down 1 step to (17, 15) stairs, Down 1 step to (17, 16), Left 1 step to (16, 16), Down 1 step to (16, 17), and Left 5 steps along Row 17 southern corridor to (11, 17) on foot.
+- **Turns 140986-140993**: Walked Left 5 steps from (11, 17) to (6, 17) along Row 17 southern corridor, interrupted by a wild Dodrio encounter on Turn 140992.
 
 <hr>
 
