@@ -755,3 +755,4 @@ This completes our systematic passability audit of the water canal blockages on 
 - **Turns 141965-141980**: Walked back down the stairs to the southern ground floor at (2, 17) on foot on Turn 141980.
 - **Turns 141981-141986**: Walked Right 6 steps along the southern Row 17 corridor to reach (8, 17) on foot.
 - **Turns 141987-141989**: Walked Right 5 steps along Row 17 to reach (13, 17) on foot on Turn 141989.
+- **Turns 141990-142003**: Walked Right 2 steps to (15, 17), Up 1 step to (15, 16), Right 2 steps to (17, 16), and Up 1 step to (17, 15) stairs, where we were interrupted by a wild Level 52 Parasect on Turn 142000. Fled successfully on Turn 142003, returning to the overworld at (17, 15) on foot.
