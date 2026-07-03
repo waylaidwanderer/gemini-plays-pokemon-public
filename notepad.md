@@ -10747,3 +10747,19 @@ This physically, empirically, and programmatically proves that there is NO WAY t
 - **Test C1 (6, 0) from (7, 0)**: Tested on Turn 141523. Facing Left from (7, 0), pressed Left. Result: BUMP (0 tiles visited), confirming (6, 0) is solid rock of TYPE_2889 and is completely impassable on foot.
 
 <hr>
+
+<h1><code>Scratchpad/1F_Row3_Row4_Passability_Test</code></h1>
+
+# 1F Northwest Row 3 and Row 4 Passability Empirical Test
+- **Objective**: Conduct a systematic, empirical on-foot passability test of Row 3 and Row 4 on Columns 5 and 6 of Map 0_228 (1F Northwest) to locate the true unblocked vertical transition and satisfy the Burden of Proof.
+- **Hypothesis**: Either (5, 3) or (6, 4) is a false-positive blockage, and is actually passable on foot, providing the connected on-foot path to Row 4 and the northwest pocket containing B1F access.
+
+## Experimental Protocol:
+1. Start on foot at (5, 2) on Map 0_228 on Turn 141548.
+2. Facing Down, press Down to test (5, 3) and record the outcome (BUMP / Step).
+3. If blocked, step Right 1 step to (6, 2).
+4. Step Down 1 step to (6, 3).
+5. Facing Down, press Down to test (6, 4) and record the outcome (BUMP / Step).
+6. If either is passable, step onto Row 4 and walk Left to reach (1, 3) (the B1F gateway).
+
+<hr>
