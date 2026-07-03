@@ -10729,36 +10729,6 @@ We have reached a logical deadlock where both B1F Northwest and 2F West Northwes
 
 <hr>
 
-<h1><code>Scratchpad/WesternCanal_Surf_Test_Plan</code></h1>
-
-# Western Canal Surf Test Plan
-
-## Objective:
-Verify if we can board the western water canal on 1F Southwest by Surfing directly from a land tile adjacent to the water, bypassing all other blockages in Cerulean Cave.
-
-## Hypothesis:
-In Gen 1, we can activate SURF from any land tile directly adjacent to water, facing the water, without needing a designated water ramp. 
-1. Since 1F Southwest ground level at (1, 14) or (1, 15) is at elevation z=0, and the western water canal at Column 2 is at elevation z=0, there is no height mismatch. 
-2. We can stand at (1, 14) or (1, 15) facing Right, activate SURF from the party menu, and board the western water canal at Column 2.
-3. Once on the water, we can Surf directly north to (2, 3), face Left, and step onto land at (1, 3) where the B1F stairs are!
-
-## Test Protocol:
-1. Walk to Southwest Ladder at (3, 11) on 2F West.
-2. Descend to 1F at (3, 11).
-3. Walk to (1, 15) or (1, 14) on 1F ground level (z=0) via the wooden stairs at (1, 13).
-4. Stand at (1, 15) facing Right (towards water at 2, 15).
-5. Open POKéMON menu, select GEMMY, and select SURF.
-6. Verify if we successfully board the water at (2, 15).
-7. If successful, Surf north along Column 2 to Row 3.
-8. Dismount Left onto (1, 3) on foot.
-9. Enter B1F stairs!
-
-## Chronological Progress:
-- Turn 141872: Formulated Western Canal Surf Test Plan in response to overwatch suggestion. Currently at (12, 11) on 2F West. Preparing to walk back to Southwest Ladder at (3, 11).
-- Turn 141877: Successfully navigated on foot from (12, 11) on 2F West back to (1, 15) on 1F Southwest on foot, descending via Southwest Ladder 6 and the wooden stairs at (1, 13) with zero wild encounters. Currently standing at (1, 15) on foot facing Down. Ready to execute Step 4: face Right and activate SURF!
-
-<hr>
-
 <h1><code>Scratchpad/Mewtwo_Northwest_Path_Test</code></h1>
 
 # Mewtwo Northwest Path Test Plan
