@@ -8222,10 +8222,10 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Engaged in wild Level 52 Sandslash battle at (1, 16) on Map 0_228 (1F) on Turn 141792, facing Up.
+- Current Status: Engaged in wild Level 52 Sandslash battle at (1, 16) on Map 0_228 (1F) on Turn 141793, facing Up.
 - **Turns 141782-141784**: Walked Left 5 steps from (11, 17) along Row 17 of Map 0_228 to reach (6, 17) on foot on Turn 141784 with zero wild encounters.
 - **Turns 141785-141786**: Walked Left 4 steps along Row 17 to reach (2, 17) on foot on Turn 141786 with zero wild encounters.
-- **Turns 141787-141792**: Walked Up 1 step from (2, 17) to (2, 16) on foot, Left 1 step to (1, 16) on Turn 141789, and pressed Up once towards (1, 15), where we were interrupted by a wild Level 52 Sandslash encounter on Turn 141792.
+- **Turns 141787-141793**: Walked Up 1 step from (2, 17) to (2, 16) on foot, Left 1 step to (1, 16) on Turn 141789, and pressed Up once towards (1, 15), where we were interrupted by a wild Level 52 Sandslash encounter on Turn 141793.
 - **Turns 141775-141776**: Successfully fled the wild Level 51 Venomoth encounter on Turn 141776 using flee_battle, returning to the overworld at (16, 17) on foot, facing Down.
 - **Turns 141777-141781**: Walked Left 5 steps along Row 17 southern corridor of Map 0_228 to reach (11, 17) on foot on Turn 141781 with zero wild encounters.
 - **Turns 141770-141774**: Walked Left 1 step from (17, 16) to (16, 16) on foot, and Down 1 step to (16, 17) on Turn 141774, where we were interrupted by a wild Level 51 Venomoth encounter.
