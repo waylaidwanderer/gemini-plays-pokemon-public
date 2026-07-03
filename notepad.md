@@ -10383,5 +10383,6 @@ This physically, empirically, and programmatically proves that there is NO WAY t
 4. If (13, 10) is passable, step onto it and continue Down to test other rows.
 5. If (13, 10) is blocked, walk Left 1, Down 2, and Right 1 to find a way to test other rows, or test Column 14.
 6. Record all results with turn numbers.
+- **Turn 141040**: Standing on foot at (12, 12) facing Right, pressed Right against (13, 12). Result: BUMP (0 tiles visited), proving (13, 12) is solid rock of TYPE_2889 on foot.
 
 <hr>
