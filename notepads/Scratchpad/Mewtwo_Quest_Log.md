@@ -767,3 +767,8 @@ This completes our systematic passability audit of the water canal blockages on 
 - **Turns 141981-141986**: Walked Right 6 steps along the southern Row 17 corridor to reach (8, 17) on foot.
 - **Turns 141987-141989**: Walked Right 5 steps along Row 17 to reach (13, 17) on foot on Turn 141989.
 - **Turns 141990-142003**: Walked Right 2 steps to (15, 17), Up 1 step to (15, 16), Right 2 steps to (17, 16), and Up 1 step to (17, 15) stairs, where we were interrupted by a wild Level 52 Parasect on Turn 142000. Fled successfully on Turn 142003, returning to the overworld at (17, 15) on foot.
+- **Turns 142084-142088**: Walked from (12, 2) to Ladder 5 at (7, 1) on foot on Map 0_228, warping up to 2F West (Map 0_226) at (9, 1) on Turn 142089.
+- **Turns 142089-142091**: Warped back down from 2F West (9, 1) to 1F Northwest at (7, 1) on Turn 142091.
+- **Turns 142091-142094**: Walked from (7, 1) to (6, 2) on foot on Map 0_228. Interrupted by a wild Magneton encounter at (6, 2) on Turn 142095. Fled successfully on Turn 142096.
+- **Turns 142097-142107**: Walked East from (6, 2) along Row 2 to reach (13, 2) on foot on Map 0_228.
+- **Turns 142108-142110**: Walked East from (13, 2) to Water Ramp 4 at (15, 3) on Map 0_228 on foot on Turn 142120.
