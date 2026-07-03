@@ -8907,6 +8907,11 @@ This completes our systematic passability audit of the water canal blockages on 
 - **Turn 141450**: Pressed Up to step onto Water Ramp 4 at (15, 3), successfully dismounting Surf and standing on foot.
 - **Turns 141451-141456**: Walked Up 2 steps from (15, 3) to reach (15, 1) on foot on Turn 141453, walked Left 8 steps to reach Ladder 5 at (7, 1) on foot on Turn 141456, immediately warping up to 2F West (Map 0_226) at (9, 1).
 - **Turns 141457-141481**: Standing on foot on Ladder 5 at (9, 1) on Map 0_226 on Turn 141457, walked Left 4 steps to (5, 1) on foot on Turn 141469, and walked Left 2 steps to reach (3, 1) on foot on Turn 141475. Standing at (3, 1) on foot facing Left on Turn 141481, preparing to test (2, 1) passability.
+- **Turns 141482-141489**: Pressed Left to test (2, 1) on Turn 141483. Result: BUMP (0 tiles visited), proving (2, 1) is solid rock of TYPE_2889 and impassable. Pressed Down on Turn 141487 and was interrupted by a wild Level 51 Wigglytuff encounter. Fled successfully on Turn 141489 and returned to the overworld at (3, 2) on foot facing Down.
+- **Turns 141490-141496**: Pressed Left to test (2, 2) on Turn 141495. Result: BUMP (0 tiles visited), proving (2, 2) is solid rock of TYPE_2889 and impassable. Standing at (3, 2) on foot facing Left on Turn 141496.
+- **Turns 141497-141503**: Pressed Down to walk Down 1 step to (3, 3) on Turn 141497. Pressed Left to test (2, 3) on Turn 141502. Result: BUMP (0 tiles visited), proving (2, 3) is solid rock of TYPE_2889 and impassable. Standing at (3, 3) on foot facing Left on Turn 141503.
+- **Turns 141504-141505**: Pressed Down to test (3, 4) on Turn 141504. Result: BUMP (0 tiles visited), proving (3, 4) is solid rock of TYPE_2889 and impassable. Standing at (3, 3) on foot facing Down on Turn 141505.
+- **Turns 141506-141541**: Walked Up 2 steps and Right 4 steps to reach (7, 1) on foot on Turn 141508, walked Up 1 step to (7, 0) on foot on Turn 141509. Pressed Left to test (6, 0) on Turn 141523. Result: BUMP (0 tiles visited), proving (6, 0) is solid rock of TYPE_2889 and impassable on foot. Standing at (7, 0) on foot facing Left on Turn 141541.
 
 <hr>
 
