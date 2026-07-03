@@ -365,3 +365,4 @@ This completes our systematic passability audit of the water canal blockages on 
 - **Turn 141039**: Pressed Right to test Column 13 Row 12 (13, 12) on foot. Result: BUMP (0 tiles visited), proving (13, 12) is solid rock of TYPE_2889 on foot.
 - **Turns 141040-141043**: Logged result at (13, 12), and walked back Up 3 steps to (12, 9) and Right 1 step to reach (13, 9) on foot on Turn 141044.
 - **Turns 141044-141054**: Analyzed `<CurrentScreen>` visual grid tile IDs on Column 13, 14, and 15 on Map 0_226, and discovered that Row 8 (Columns 13 to 15) and Row 9 (Columns 15 and 16) are completely open, unblocked cavern floor of TYPE_3fe2, forming an open horizontal bypass path to Koga's east side on foot!
+- **Turns 141055-141107**: Walked on foot from (13, 9) to (14, 8) on Map 0_226, and stood at (14, 8) conducting detailed pathfinding analyses, local collision grid verification, and systematic planning.
