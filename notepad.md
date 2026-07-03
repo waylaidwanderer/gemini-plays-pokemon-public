@@ -8517,6 +8517,20 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 140857**: Pressed Left and Right on foot at Ladder 5 (9, 1) on Map 0_226, immediately warping down to Map 0_228 (1F Northwest) at (7, 1) on foot on Turn 140858.
 - **Turn 140858**: Standing on foot on Ladder 5 at (7, 1) on Map 0_228, facing Down.
 - **Turn 140859**: Pressed Right 5 times to walk to (12, 1) on foot, but got interrupted on the 4th step at (10, 1) by a wild Level 52 Golbat encounter on Turn 140860.
+- **Turn 140860**: Engaged in a wild Level 52 Golbat battle. Fled successfully on Turn 140861, returning to the overworld at (10, 1) facing Right on Turn 140862.
+- **Turn 140862**: Walked Right 5 steps to reach (15, 1) on foot on Map 0_228 with zero encounters.
+- **Turn 140863**: Walked Down 2 steps to stand at Water Ramp 4 at (15, 3) on foot on Map 0_228.
+- **Turn 140865**: Opened Start Menu.
+- **Turn 140866**: Selected POKéMON.
+- **Turn 140867**: Selected GEMMY.
+- **Turn 140868**: Selected SURF, successfully boarding the water canal at (15, 4) on Surf.
+- **Turn 140871**: Surfed Down 3 steps to (15, 7) on water.
+- **Turn 140873**: Surfed Left 5 steps along Row 7 crossover water canal to (10, 7) on water.
+- **Turn 140874**: Surfed Left 2 steps to (8, 7) and Down 1 step to (8, 8) on water.
+- **Turn 140875**: Standing at (8, 8) facing Left, pressed Left to test Column 7 Row 8 (7, 8) on water. Result: BUMP, proving (7, 8) is a solid rock wall of TYPE_2889 and is completely impassable.
+- **Turn 140876**: Surfed Down 1 step to (8, 9) on water.
+- **Turn 140877**: Standing at (8, 9) facing Left, pressed Left to test Column 7 Row 9 (7, 9) on water. Result: BUMP, proving (7, 9) is a solid rock wall of TYPE_2889 and is completely impassable.
+- **Turns 140881-140883**: Defined map markers for verified water blockages at (7, 8) and (7, 9) on Map 0_228, and prepared for the Row 10 test.
 
 ## Column 7 Water Passability Empirical Test Plan (Turn 140869)
 - **Objective**: Conduct a systematic, empirical on-water passability test of Column 7 on Rows 8, 9, and 10 of Map 0_228 (1F) to identify if there is an unblocked horizontal water crossover connecting the central water canal to the western water canal.
