@@ -10687,3 +10687,36 @@ This physically, empirically, and programmatically proves that there is NO WAY t
 - **Turn 141040**: Standing on foot at (12, 12) facing Right, pressed Right against (13, 12). Result: BUMP (0 tiles visited), proving (13, 12) is solid rock of TYPE_2889 on foot.
 
 <hr>
+
+<h1><code>Scratchpad/2F_NorthernBoundaries_Test_Plan</code></h1>
+
+# 2F West Northern Boundaries Passability Test Plan
+- **Objective**: Conduct a systematic, empirical on-foot passability test of the northern boundaries of Map 0_226 (2F West) once we reach the northern corridor at (9, 1) via the multi-map backtracking route, to locate the true unblocked corridor and satisfy the Burden of Proof.
+
+## Experimental Protocol:
+1. **Starting Point**: Start on foot on Ladder 5 at (9, 1) on Map 0_226.
+2. **Experiment A: Column 2 Passability Test (Rows 1-3)**:
+   - Walk Left 6 steps along Row 1 to (3, 1).
+   - Standing at (3, 1) facing Left, press Left to test (2, 1) and record the outcome (BUMP / Step).
+   - Walk Down 1 step to (3, 2).
+   - Standing at (3, 2) facing Left, press Left to test (2, 2) and record the outcome (BUMP / Step).
+   - Walk Down 1 step to (3, 3).
+   - Standing at (3, 3) facing Left, press Left to test (2, 3) and record the outcome (BUMP / Step).
+3. **Experiment B: Row 4 Passability Test (Columns 1-8)**:
+   - Walk to (3, 3).
+   - Standing at (3, 3) facing Down, press Down to test (3, 4) and record the outcome (BUMP / Step).
+   - Walk to (9, 3) and Down 1 step to (9, 4)? No, Row 4 is a solid split. We will systematically test each accessible Column on Row 4.
+4. **Experiment C: Row 0 Column 6 Passability Test**:
+   - Walk to (7, 1) and Up 1 step to (7, 0).
+   - Standing at (7, 0) facing Left, press Left to test (6, 0) and record the outcome (BUMP / Step).
+5. **Warping Down to B1F**:
+   - Once the true unblocked corridor is identified (or all are confirmed solid as expected), we will walk to Northwest Ladder at (1, 3) and warp down to B1F.
+
+## Experimental Recording Log:
+- **Test A1 (2, 1) from (3, 1)**: [To be filled]
+- **Test A2 (2, 2) from (3, 2)**: [To be filled]
+- **Test A3 (2, 3) from (3, 3)**: [To be filled]
+- **Test B1 (3, 4) from (3, 3)**: [To be filled]
+- **Test C1 (6, 0) from (7, 0)**: [To be filled]
+
+<hr>
