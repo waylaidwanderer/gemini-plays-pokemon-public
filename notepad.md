@@ -10318,31 +10318,6 @@ We can formulate 5 custom tool/agent ideas to optimize the endgame and Mewtwo se
 
 <hr>
 
-<h1><code>Scratchpad/Row0_NorthernCorridor_Test</code></h1>
-
-# Row 0 Northern Corridor Passability Experiment
-- **Objective**: Empirically verify the passability of each tile on Row 0 from (9,0) to (1,0) on Map 0_226 (2F West) on foot.
-- **Hypothesis**: Row 0 is completely passable on foot, despite visual rendering overlay designations, connecting (9,1) directly to Northwest Ladder (1,3).
-- **Experimental Protocol**:
-  - Start at (9, 0) on Turn 135671.
-  - Step Left to (8, 0).
-  - Step Left to (7, 0).
-  - Step Left to (6, 0).
-  - Step Left to (5, 0).
-  - Step Left to (4, 0).
-  - Step Left to (3, 0).
-  - Step Left to (2, 0).
-  - Step Left to (1, 0).
-  - Record the result (Success / Collision) of each step in this table with turn numbers.
-
-## Experimental Log
-- **Turn 135669**: Stepped Up from (9, 1) onto (9, 0). Result: SUCCESS. Player is standing at (9, 0) on foot.
-- **Turn 135677**: Stepped Left from (9, 0) onto (8, 0). Result: SUCCESS. Player is standing at (8, 0) on foot.
-- **Turn 135683**: Attempted to step Left from (7, 0) onto (6, 0) on foot. Result: BUMP (visited 0 tiles). Player remains at (7, 0) on foot facing Left. Conclusively proves (6, 0) is a solid rock wall of TYPE_2889 and is impassable on foot.
-- **Conclusion**: Row 0 does NOT form an unblocked passage to the left from here. The northern corridor Component 1 on 2F West is indeed isolated on foot from the western area containing Northwest Ladder (1, 3). Row 0 bypass is disproved.
-
-<hr>
-
 <h1><code>Reflection/Turn136124_Reflection</code></h1>
 
 # Turn 136124 Reflection & Self-Assessment
