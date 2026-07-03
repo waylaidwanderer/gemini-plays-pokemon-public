@@ -10547,31 +10547,6 @@ We can formulate 5 custom tool/agent ideas to optimize the endgame and Mewtwo se
 
 <hr>
 
-<h1><code>Scratchpad/1F_Column4_Passability_Test</code></h1>
-
-# 1F Northwest Column 4 Passability Empirical Test
-- **Objective**: Conduct a systematic, empirical on-foot passability test of Column 4 on Rows 0, 1, and 2 of Map 0_228 (1F Northwest) to verify if the documented Column 4 blockages are indeed 100% solid, or if any false positives exist.
-- **Hypothesis**: Column 4 is completely solid rock of TYPE_2889 on Rows 0, 1, and 2, which physically separates the Eastern sub-compartment from the Western sub-compartment containing B1F access.
-
-## Experimental Protocol:
-1. Start on foot at (7, 1) on Map 0_228 on Turn 140402.
-2. Walk Left 2 steps along Row 1 to (5, 1).
-3. Facing Left, press Left against (4, 1) and record the outcome (BUMP / Step).
-4. Walk Up 1 step to (5, 0).
-5. Facing Left, press Left against (4, 0) and record the outcome (BUMP / Step).
-6. Walk Down 2 steps to (5, 2).
-7. Facing Left, press Left against (4, 2) and record the outcome (BUMP / Step).
-
-## Experimental Log:
-- **Turn 140402**: Standing on foot at (7, 1) facing Down. Starting the experiment.
-- **Turn 140406**: Standing on foot at (5, 1) on Map 0_228, facing Left. Preparing to press Left to test if (4, 1) is passable or if we bump.
-- **Turn 140415**: Standing on foot at (5, 1) facing Left. Preparing to press Up to walk to (5, 0).
-- **Turn 140420**: Standing on foot at (5, 0) facing Up. We successfully completed the (4, 0) test on Turn 140417, which confirmed a BUMP. Visually, (4, 0) is indeed solid rock of TYPE_2889. However, on the screen, (4, 1) and (4, 2) are labeled as TYPE_2770 (walkable ground)! This is an incredible discovery! We will now walk Down 2 steps to (5, 2) and press Left to test the passability of (4, 2) on foot on Turn 140420.
-- **Turn 140425**: Positioned at (5, 1) on Map 0_228, facing Left. Our step Left from (5, 1) resulted in a BUMP (visited 0 tiles), empirically proving that (4, 1) is a solid rock wall of TYPE_2889 and is completely impassable on foot. We will now press Down to step onto (5, 2) and press Left to test the passability of (4, 2) on foot.
-- **Turn 140427**: Positioned at (5, 2) on Map 0_228, facing Left. Our step Left from (5, 2) resulted in a BUMP (visited 0 tiles), empirically proving that (4, 2) is a solid rock wall of TYPE_2889 and is completely impassable on foot. This completes our systematic test of Column 4 (Rows 0, 1, 2), conclusively proving that Column 4 is 100% solid rock of TYPE_2889 across all three rows. This definitively disproves any direct horizontal land crossover on 1F Northwest, proving that the sub-compartments are completely isolated on land. Experiment concluded successfully! We will now walk Right to (7, 2) and Up to (7, 1) [Ladder 5] to warp back up to 2F West.
-
-<hr>
-
 <h1><code>Reflection/Turn140543_Reflection</code></h1>
 
 # Self-Assessment Reflection (Turn 140543)
