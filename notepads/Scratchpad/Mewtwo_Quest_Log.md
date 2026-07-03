@@ -1,5 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: In battle at (7, 17) on Map 0_228 (1F) on Turn 141944, facing Left.
+- Current Status: Standing on foot at (13, 17) on Map 0_228 (1F) on Turn 141996, facing Up.
 - **Turns 141896-141897**: Stood planning and updating objectives.
 - **Turn 141898**: Walked 5 steps on foot from (1, 8) back to Southwest Ladder 6 at (3, 11) on Map 0_228 using `["Down", "Down", "Down", "Right", "Right"]`, warping up to 2F West at (3, 11) on Turn 141899.
 - **Turns 141899-141903**: Stood on 2F West at (3, 11) and corrected our Northwest Path Test Plan to bypass 2F West completely, deleting the obsolete Western Canal Surf Test Plan.
