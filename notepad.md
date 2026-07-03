@@ -8222,7 +8222,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Surfing at (11, 6) on Map 0_228 (1F) on Turn 142157, facing Left.
+- Current Status: Surfing at (11, 6) on Map 0_228 (1F) on Turn 142160, facing Left.
 - **Turns 142011-142020**: From (15, 12), walked Left 4 steps to (11, 12). Interrupted by a wild Level 49 wild Raichu on Turn 142015. Fled successfully on Turn 142016. Took 1 step Down to reach Water Ramp 2 at (11, 13) on foot on Turn 142020.
 - **Turns 142021-142029**: Opened the Start Menu and selected POKéMON, then selected GEMMY and chose SURF facing Down, successfully boarding the water canal at (11, 14) on Surf on Turn 142030.
 - **Turns 142031-142040**: Surfed Left 2 steps to Column 9 and Up 4 steps along Column 9 to reach (9, 10) on water on Turn 142040 with zero wild encounters.
@@ -8236,6 +8236,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - **Turns 142079-142121**: Walked back East on foot to Water Ramp 4 at (15, 3) on Turn 142120. Opened the Start Menu and selected POKéMON, selected GEMMY, and activated SURF to board the water canal at (15, 4) on Surf on Turn 142126.
 - **Turns 142122-142138**: Surfed Left 1 step to (14, 4) on Surf, pressed Left to test (13, 4) and bumped on Turn 142130 (proving (13, 4) solid), surfed Down 1 step to (14, 5) on Surf, pressed Left to test (13, 5) and bumped on Turn 142133 (proving (13, 5) solid), surfed Down 1 step to (14, 6) on Surf, and surfed Left 1 step onto (13, 6) on Surf on Turn 142138.
 - **Turns 142139-142151**: Surfed Left 1 step to (12, 6) on Surf on Turn 142143. Pressed Up to test (12, 5) and bumped on Turn 142145 (physically proving (12, 5) solid on water). Standing at (12, 6) facing Up on water on Turn 142151.
+- **Turns 142152-142160**: Surfed Left 1 step from (12, 6) to (11, 6) on Surf on Turn 142156. Standing at (11, 6) on Surf on Turn 142160.
 - **Turns 141896-141897**: Stood planning and updating objectives.
 - **Turn 141898**: Walked 5 steps on foot from (1, 8) back to Southwest Ladder 6 at (3, 11) on Map 0_228 using `["Down", "Down", "Down", "Right", "Right"]`, warping up to 2F West at (3, 11) on Turn 141899.
 - **Turns 141899-141903**: Stood on 2F West at (3, 11) and corrected our Northwest Path Test Plan to bypass 2F West completely, deleting the obsolete Western Canal Surf Test Plan.
