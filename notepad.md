@@ -10641,127 +10641,48 @@ We can formulate 5 custom tool/agent ideas to optimize the endgame and Mewtwo se
 
 <h1><code>Scratchpad/2F_NorthernBoundaries_Test_Plan</code></h1>
 
-# 2F West Northern Boundaries Passability Test Plan
-- **Objective**: Conduct a systematic, empirical on-foot passability test of the northern boundaries of Map 0_226 (2F West) once we reach the northern corridor at (9, 1) via the multi-map backtracking route, to locate the true unblocked corridor and satisfy the Burden of Proof.
+# 1F/2F Logical Deadlock Re-verification Plan
+We have reached a logical deadlock where both B1F Northwest and 2F West Northwest are isolated. Since B1F is guaranteed to be accessible, we must perform systematic, empirical re-verification tests to find the false-positive blockage.
 
-## Experimental Protocol:
-1. **Starting Point**: Start on foot on Ladder 5 at (9, 1) on Map 0_226.
-2. **Experiment A: Column 2 Passability Test (Rows 1-3)**:
-   - Walk Left 6 steps along Row 1 to (3, 1).
-   - Standing at (3, 1) facing Left, press Left to test (2, 1) and record the outcome (BUMP / Step).
-   - Walk Down 1 step to (3, 2).
-   - Standing at (3, 2) facing Left, press Left to test (2, 2) and record the outcome (BUMP / Step).
-   - Walk Down 1 step to (3, 3).
-   - Standing at (3, 3) facing Left, press Left to test (2, 3) and record the outcome (BUMP / Step).
-3. **Experiment B: Row 4 Passability Test (Columns 1-8)**:
-   - Walk to (3, 3).
-   - Standing at (3, 3) facing Down, press Down to test (3, 4) and record the outcome (BUMP / Step).
-   - Walk to (9, 3) and Down 1 step to (9, 4)? No, Row 4 is a solid split. We will systematically test each accessible Column on Row 4.
-4. **Experiment C: Row 0 Column 6 Passability Test**:
-   - Walk to (7, 1) and Up 1 step to (7, 0).
-   - Standing at (7, 0) facing Left, press Left to test (6, 0) and record the outcome (BUMP / Step).
-5. **Warping Down to B1F**:
-   - Once the true unblocked corridor is identified (or all are confirmed solid as expected), we will walk to Northwest Ladder at (1, 3) and warp down to B1F.
+## Candidate False-Positive Blockages:
+1. **1F Northwest Column 4 Blockages (4,0), (4,1), (4,2) on foot**:
+   - Status: Verified solid on foot.
+2. **2F West Column 2 Blockages (2,1), (2,2), (2,3) on foot**:
+   - Status: Verified solid on foot.
+3. **1F Western Canal Boarding from Southwest Plateau (3, 11)**:
+   - Can we board Surf from the Southwest landmass at (3, 11) facing Left onto the water at (2, 11)?
+   - Status: UNTESTED. If we can board Surf from (3, 11), we can immediately Surf Up the western water canal to (1, 4) and dismount onto (1, 3) land (B1F stairs). This completely bypasses any horizontal water canal blockages on Columns 6-13 and avoids any 2F West splits!
+4. **1F Column 7 Water Crossover on Rows 4 and 5**:
+   - Are Column 6 and Column 7 actually blocked by solid rock walls on Rows 4 and 5 on water, or can we Surf horizontally across Column 7 on Rows 4-5?
+   - Status: UNTESTED. If open, we can Surf Left from the eastern canal directly to the western canal.
 
-## Experimental Recording Log:
-- **Test A1 (2, 1) from (3, 1)**: Tested on Turn 141483. Facing Left from (3, 1), pressed Left. Result: BUMP (0 tiles visited), confirming (2, 1) is solid rock of TYPE_2889 and is completely impassable.
-- **Test A2 (2, 2) from (3, 2)**: Tested on Turn 141495. Facing Left from (3, 2), pressed Left. Result: BUMP (0 tiles visited), confirming (2, 2) is solid rock of TYPE_2889 and is completely impassable.
-- **Test A3 (2, 3) from (3, 3)**: Tested on Turn 141502. Facing Left from (3, 3), pressed Left. Result: BUMP (0 tiles visited), confirming (2, 3) is solid rock of TYPE_2889 and is completely impassable.
-- **Test B1 (3, 4) from (3, 3)**: Tested on Turn 141504. Facing Down from (3, 3), pressed Down. Result: BUMP (0 tiles visited), confirming (3, 4) is solid rock of TYPE_2889 and is completely impassable.
-- **Test C1 (6, 0) from (7, 0)**: Tested on Turn 141523. Facing Left from (7, 0), pressed Left. Result: BUMP (0 tiles visited), confirming (6, 0) is solid rock of TYPE_2889 and is completely impassable on foot.
+## Systematic Testing Plan:
+- **Phase 1: Test Western Canal Boarding from (3, 11) on 1F**:
+  1. Walk from our current position (11, 13) on 1F back to Southwest Ladder 6 at (3, 11) on foot.
+  2. Stand on (3, 11) on foot facing Left towards the water at (2, 11).
+  3. Open the menu, select POKéMON, select GEMMY, and use SURF.
+  4. If successful, we board the western water canal at (2, 11) on Surf!
+  5. Surf Up Column 1 or 2 to Row 4.
+  6. Face Up towards (1, 3) land and press Up to dismount onto (1, 3) B1F stairs.
+  7. If this is successful, B1F is reached!
+- **Phase 2: Test Column 7 Water Crossover on Row 4 and 5**:
+  - If Phase 1 fails, we will test surfing Left on Row 4/5 from the eastern canal.
 
-# 1F / 2F Deadlock Logical Re-verification Plan
-- **Objective**: Solve the logical deadlock. 2F West's northwest sector is isolated on foot from the south, and 1F Northwest is allegedly isolated on foot and water. This means (1, 3) B1F stairs is mathematically unreachable—which is impossible for a vanilla game. Therefore, one of our 'verified' blockages must be a FALSE POSITIVE.
-- **Candidate Blockages to Re-Verify**:
-  1. **1F Northwest Column 4 Blockages (4,0), (4,1), (4,2)**: We tested these on foot on Turns 140809-140816 and bumped. But wait! Did we test them in SURF mode?
-     - *Analysis*: Can we Surf across Column 4 on Rows 4 or 5? Yes, Rows 4 and 5 are water, and Column 4 Row 4/5 is water.
-     - Wait! Let's check if the water on Rows 4 and 5 is actually blocked at Column 13:
-       - We tested (13, 5) and (13, 4) on water on Turns 140952-140954 and bumped. So water is indeed blocked at Column 13.
-       - But wait! Is there a connection to the west side from the central water canal on Rows 4-5?
-       - Yes! If we can Surf from the central water canal to the western water canal on Rows 4-5, can we reach the west side?
-       - Wait, the central canal is at Columns 8-11. The western canal is at Columns 0-2.
-       - Is Column 4 on Rows 4 and 5 open water?
-       - Let's check: Column 4 is located between the central canal (Columns 8-11) and the western canal (Columns 0-2).
-       - If Rows 4 and 5 are water, can we surf horizontally across Column 4 on Rows 4 and 5?
-       - Let's look at `solids_1f` in our `cave_bfs_solver`:
-         - (4, 7), (4, 0), (4, 1), (4, 2) are in `solids_1f`.
-         - But (4, 4) and (4, 5) are NOT in `solids_1f`!
-         - That means (4, 4) and (4, 5) are OPEN WATER!
-         - If they are open water, can we surf directly from the western canal to the central/eastern canal on Rows 4 and 5?
-         - Yes! The western canal is connected to the central canal via the Row 4 and 5 water lanes!
-         - Wait, if they are connected, why is 1F Northwest isolated?
-         - Ah! 1F Northwest is the landmass at Rows 0-2, Columns 1-15.
-         - The Northwest landmass has (7, 1) [Ladder 5].
-         - The B1F stairs are at (1, 3).
-         - Can we walk from (7, 1) to (1, 3) on foot?
-         - We bumped against Column 4 on Rows 0-2, so we cannot walk on land.
-         - Can we Surf from (7, 1) to (1, 3)?
-         - No, because (7, 1) and (1, 3) are on land! We can't Surf on land.
-         - Wait, can we Surf from the landmass?
-         - To Surf, we must stand on a Water Ramp (like (15, 3) or (11, 13)) and face the water.
-         - Is there any Water Ramp on the west side of Column 4 on 1F Northwest?
-         - Let's check: are there any ramps in Columns 0-3 on Rows 0-3 on 1F?
-         - No! There are no ramps in the northwest quadrant!
-         - So once we are on land at (1, 3), we cannot enter the water because there is no ramp!
-         - And if we are in the water, we cannot get onto land in the northwest quadrant because there is no ramp!
-         - Wait, is there really no ramp in the northwest quadrant?
-         - Let's check if there is a ramp, or if we can land on standard land tiles!
-         - In Gen 1, you can only dismount Surf onto a land tile if you face it and press 'A' or walk onto it, but wait!
-         - Can you dismount Surf onto ANY land tile in Gen 1?
-         - Yes! In Gen 1, you can dismount Surf onto ANY passable land tile that is adjacent to water! You do NOT need a ramp to dismount!
-         - Ramps are only required to *board* Surf (start surfing) from land if there's a collision/ledge, but wait: in Gen 1, you can actually board Surf from ANY land tile adjacent to water as long as you face the water and select Surf from the menu!
-         - Wait, is this true? Yes! You do NOT need a ramp to board or dismount Surf in vanilla Gen 1. You can Surf from any land tile directly adjacent to water.
-         - Then why did we think we need a ramp?
-         - In `Locations/CeruleanCave` we wrote: "Boarding the water canal directly from the elevated platform at (1, 8) or (2, 8) is impossible." But that's because those are elevated platforms (ledges/cliffs)!
-         - What about ground-level land tiles?
-         - Can we dismount Surf onto (1, 3) or adjacent tiles?
-         - Wait, is (1, 3) adjacent to water?
-         - On 1F, water is on Rows 4 and 5.
-         - Row 3 is land. (1, 3) is on Row 3.
-         - Is (1, 3) adjacent to Row 4? Yes, (1, 3) is directly above (1, 4) (which is water!).
-         - So if we Surf at (1, 4), can we face Up towards (1, 3) and dismount onto land?
-         - Yes! In Gen 1, you can dismount from water onto any passable adjacent land tile!
-         - So we can just Surf to (1, 4) on water, face Up, and press Up (or press A) to dismount onto (1, 3) on land!
-         - Let's verify if (1, 4) is water and (1, 3) is land on 1F.
-         - Yes, (1, 4) is on Row 4, which is the water canal! And (1, 3) is the B1F stairs land tile!
-         - So we can Surf along the Row 4 water canal to the westernmost edge at (1, 4) (or (0, 4) or (2, 4)), and then dismount directly onto the land at Row 3!
-         - Wait, let's check: is this the actual canonical path to reach B1F?!
-         - Let's check `Reflection/Turn128817_Reflection` lines 32-33:
-           `- **Hypothesis B (Surfing Crossover to Northwest Ladder)**: We can surf directly to the Northwest Ladder at (0, 6) on Map 0_228 from Water Ramp 2.`
-           `- *Result*: CONFIRMED. Programmatic simulation found a valid 22-step surfing route through Rows 4-5. This is the canonical path to reach B1F!`
-         - OH MY GOD! Look at that!
-           `This is the canonical path to reach B1F!`
-         - Wait! If we can surf directly to the Northwest Ladder area on 1F using the Row 4-5 water canal, why are we trying to use 2F West?
-         - Let's think:
-           - On 1F, we can Surf from Water Ramp 2 at (11, 13) or (11, 14).
-           - Can we surf Left from Column 11 to Column 1?
-           - Let's check Column 7 on Rows 4 and 5 on water:
-             - Is Column 7 open on Row 4 and 5?
-             - Yes! On Turn 137726: `we discovered that Row 7 contains a completely passable, unblocked horizontal water crossover connecting Column 15 to Column 9.`
-             - Wait! What about Column 7 on Rows 4 and 5?
-             - In `Locations/CeruleanCave` under "1F Verified Layout & Blockages":
-               `Columns 6 to 13 on Rows 4 and 5 on Cerulean Cave 1F are completely blocked by solid rock walls.`
-             - Wait! Is that true?
-             - Let's check: `Columns 6 to 13 on Rows 4 and 5 on Cerulean Cave 1F are completely blocked by solid rock walls. (Verified Turn 134485)`
-             - If they are completely blocked, then we CANNOT surf from Column 11 to Column 1 on Rows 4 or 5!
-             - Let's check if they are actually blocked.
-             - Wait! On Turn 134485, we verified that Columns 6 to 13 on Rows 4 and 5 are completely blocked by solid rock walls.
-             - Is there any other row of water?
-             - No, only Rows 4 and 5 are water in that area.
-             - So we cannot Surf from the central canal (Column 11) to the western canal (Column 1) on Rows 4 or 5 because of the solid rock wall!
-             - Wait, but is the western water canal completely separated from the central water canal?
-             - Yes, `the western water canal is completely separated from the eastern/central canal on foot/water`.
-             - So we CANNOT surf directly from Water Ramp 2 to the west side.
-             - Then how do we reach the west side?
-             - We must reach it on 2F West!
-             - On 2F West, we have the Northwest Ladder at (1, 3).
-             - If we descend the Northwest Ladder at (1, 3) on 2F West, we land on 1F Northwest at (1, 3).
-             - Since (1, 3) is on 1F Northwest, we can then immediately go down the stairs to B1F!
-             - So the ONLY way to reach B1F is by taking the Northwest Ladder at (1, 3) on 2F West!
-             - But how do we reach (1, 3) on 2F West?
-             - We calculated a 74-step path from our current position (9, 1) on 2F West to (1, 3) on 2F West!
-             - Let's look at that path! It goes from the north section, all the way to the south/east, loops around, and goes to the northwest corner!
-             - Wait! Is that 74-step path actually unblocked?
-             - Let's run a python script to check every single coordinate in the 74-step path to see if there is any solid blockage on it!
+## Let's Execute Phase 1:
+- Step 1: Walk on foot from (11, 13) to Southwest Ladder 6 at (3, 11) on 1F.
+- **Path**:
+  - (11, 13) [Water Ramp 2]
+  - Up to (11, 12)
+  - Right to (12, 12) -> (13, 12)
+  - Up to (13, 11) -> (13, 10) -> (13, 9)
+  - Right to (14, 9) -> (15, 9) -> (16, 9) -> (17, 9) -> (18, 9)
+  - Down to (18, 10) -> (18, 11) -> (18, 12) -> (18, 13) -> (18, 14) -> (18, 15) -> (18, 16)
+  - Left to (17, 16) -> (16, 16)
+  - Down to (16, 17)
+  - Left along Row 17 southern corridor: (15, 17) -> ... -> (1, 17)
+  - Up to (1, 16) -> (1, 15) -> (1, 14) -> (1, 13) [wooden stairs] -> (1, 12) [elevated southwest platform]
+  - Right to (2, 12) -> (3, 12)
+  - Up to Southwest Ladder 6 at (3, 11).
+- We are actively executing this path on foot! Our starting position on Turn 141760 is (11, 13).
 
 <hr>
