@@ -10769,6 +10769,6 @@ To resolve the topological layout discrepancy on Map 0_226 (2F West) and Map 0_2
 - **Evaluation Criteria**: If either is passable, the player steps onto Row 4, proving the horizontal split is not continuous and allowing B1F gateway access.
 
 ## Status Tracking
-- Turn 142322: Plan created. Preparing to walk to Water Ramp 2 at (11, 13) to head to Ladder 5.
+- Turn 142327: Arrived at Water Ramp 2 at (11, 13) on foot. Preparing to activate Surf and head to Ladder 5.
 
 <hr>
