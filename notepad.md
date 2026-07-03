@@ -10711,31 +10711,6 @@ We can formulate 5 custom tool/agent ideas to optimize the endgame and Mewtwo se
 
 <hr>
 
-<h1><code>Scratchpad/Mewtwo_Northwest_Path_Test</code></h1>
-
-# Mewtwo Northwest Path Test Plan
-
-## Objective:
-Identify the true unblocked route to the northwest quadrant of Cerulean Cave's first floor (1F) to access the stairs down to B1F, resolving the logical contradictions.
-
-## Current Hypothesis:
-Since we proved on-foot crossovers on both 1F and 2F West are blocked, and 1F (6,3)/(6,4) are solid rock walls of TYPE_2889, one of the following "verified" blockages MUST be a false positive:
-1. **Column 7 Crossover on water (Rows 11-13)**: Although we checked (7,14), (7,15), (7,12), (7,11), and (7,8-10), we have not verified Row 13 Column 7 (7,13) on water thoroughly or we need to check other tiles in that row.
-2. **Column 13/14 Row 4/5 Water Crossover**: Although we found (13,4) and (13,5) solid, we need to verify if Column 14 Row 4/5 water connects differently or if there is a different water row crossover.
-3. **2F West Row 4 / Row 10 open Column**: We must physically verify if an unblocked column exists on Row 10 on 2F West (such as Column 14 or 13, under a specific state or different visual tile logic).
-
-## Testing Protocol (Step-by-step):
-1. Walk to Water Ramp 4 at (15, 3) on Map 0_228, board Surf on GEMMY, and systematically test Row 4 and Row 5 water passages to the west.
-2. If those are blocked, we will re-verify the Column 7 water coordinates on rows 11 to 13.
-3. If those are also solid rock, we will use FLY to travel back to the Cerulean Pokémon Center, heal our team, and proceed back to 2F West via Southwest Ladder 6 on foot to re-verify the Row 10 crossover from the south side.
-
-## Chronological Progress:
-- Turn 142116: Updated test plan to remove the disproven (6,3) boarding hypothesis and establish a systematic, rigorous, multi-path re-verification protocol to break the navigation loop. Preparing to walk to (15, 3).
-- Turn 142145: Standing at (12, 6) facing Up on water, pressed Up. Result: BUMP (visited 0 tiles). This physically and conclusively proves that (12, 5) on Map 0_228 is a solid rock wall of TYPE_2889 and is impassable on water, confirming the Row 5 blockage pattern.
-Preparing to surf Left along Row 6: (12, 6) -> (11, 6) -> (10, 6) -> (9, 6) to merge back into the central water canal.
-
-<hr>
-
 <h1><code>Reflection/Turn142058_Reflection</code></h1>
 
 # Turn 142058 Self-Assessment Reflection
