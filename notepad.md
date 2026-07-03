@@ -8222,7 +8222,11 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Engaged in wild Level 52 Sandslash battle at (1, 16) on Map 0_228 (1F) on Turn 141793, facing Up.
+- Current Status: Engaged in wild Level 52 Sandslash battle at (1, 12) on Map 0_228 (1F Southwest) on Turn 141818, facing Up.
+- **Turns 141814-141818**: Walked Up 2 steps to (2, 14) on foot, Left 1 step to (1, 14), Up 1 step to (1, 13) [wooden stairs], and Up 1 step to climb the stairs onto the elevated southwest platform at (1, 12) on foot on Turn 141818, where we were interrupted by a wild Level 52 Sandslash encounter.
+- **Turns 141808-141813**: Successfully fled the wild Level 52 Sandslash encounter on Turn 141810 using flee_battle, returning to the overworld at (2, 16) on foot, facing Down on Turn 141813.
+- **Turns 141804-141807**: Used cave_bfs_solver to navigate on foot towards (3, 11). Due to a starting map bug in the tool, it executed an incorrect route, moving us to (2, 16) where we were interrupted by a wild Level 52 Sandslash encounter on Turn 141807.
+- **Turns 141794-141803**: Successfully fled the wild Sandslash encounter on Turn 141794, walked Up 1 step to (1, 15) on foot on Turn 141795, and successfully completed our Column 0 Southwest 1F Passability experiment on Turns 141796-141803 (proving that Column 0's passable section on foot is strictly limited to Rows 14 and 15, and Row 13 Column 0 is a solid rock wall).
 - **Turns 141782-141784**: Walked Left 5 steps from (11, 17) along Row 17 of Map 0_228 to reach (6, 17) on foot on Turn 141784 with zero wild encounters.
 - **Turns 141785-141786**: Walked Left 4 steps along Row 17 to reach (2, 17) on foot on Turn 141786 with zero wild encounters.
 - **Turns 141787-141793**: Walked Up 1 step from (2, 17) to (2, 16) on foot, Left 1 step to (1, 16) on Turn 141789, and pressed Up once towards (1, 15), where we were interrupted by a wild Level 52 Sandslash encounter on Turn 141793.
