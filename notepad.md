@@ -10752,3 +10752,30 @@ In Gen 1, we can activate SURF from any land tile directly adjacent to water, fa
 - Turn 141877: Successfully navigated on foot from (12, 11) on 2F West back to (1, 15) on 1F Southwest on foot, descending via Southwest Ladder 6 and the wooden stairs at (1, 13) with zero wild encounters. Currently standing at (1, 15) on foot facing Down. Ready to execute Step 4: face Right and activate SURF!
 
 <hr>
+
+<h1><code>Scratchpad/Mewtwo_Northwest_Path_Test</code></h1>
+
+# Mewtwo Northwest Path Test Plan
+
+## Objective:
+Verify if Column 4 Row 3 (4, 3) on 1F Northwest (Map 0_228) is open and passable on foot, which would connect Ladder 5 at (7, 1) directly to the B1F stairs at (1, 3) on foot.
+
+## Hypothesis:
+In standard unmodded Pokémon Red/Blue, Row 3 is a completely open horizontal corridor across Column 4, connecting the eastern and western halves of the northern landmass on 1F. 
+Our previous "1F Northwest is completely isolated" finding was based on testing Rows 0, 1, and 2, and we fell into confirmation bias by assuming Row 3 was also blocked. 
+Testing Row 3 Column 4 on foot will resolve this logical gap and open the true path to Mewtwo!
+
+## Testing Protocol:
+1. From our current position (1, 8) on 1F elevated platform, walk to Southwest Ladder 6 at (3, 11).
+2. Warp up to 2F West at (3, 11).
+3. Walk across 2F West to Ladder 5 at (9, 1):
+   - From (3, 11), walk Up to (3, 9), Right to (9, 9), and Up to (9, 1).
+4. Warp down Ladder 5 to 1F Northwest at (7, 1).
+5. Walk Down 2 steps to (7, 3).
+6. Walk Left 3 steps to stand at (4, 3) and verify passability.
+7. If (4, 3) is open, continue walking Left to the B1F stairs at (1, 3) and descend to B1F!
+
+## Chronological Progress:
+- Turn 141893: Discovered that Row 7 Columns 0-2 is land and that the western water canal is isolated. Formulated the Column 4 Row 3 (4, 3) northern landmass bypass hypothesis. Currently standing at (1, 8) on 1F Southwest, facing Down. Preparing to walk to Southwest Ladder 6 at (3, 11).
+
+<hr>
