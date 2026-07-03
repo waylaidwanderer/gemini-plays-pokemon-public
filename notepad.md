@@ -10737,7 +10737,7 @@ This physically, empirically, and programmatically proves that there is NO WAY t
 ## Experimental Recording Log:
 - **Test A1 (2, 1) from (3, 1)**: Tested on Turn 141483. Facing Left from (3, 1), pressed Left. Result: BUMP (0 tiles visited), confirming (2, 1) is solid rock of TYPE_2889 and is completely impassable.
 - **Test A2 (2, 2) from (3, 2)**: Tested on Turn 141495. Facing Left from (3, 2), pressed Left. Result: BUMP (0 tiles visited), confirming (2, 2) is solid rock of TYPE_2889 and is completely impassable.
-- **Test A3 (2, 3) from (3, 3)**: [To be filled]
+- **Test A3 (2, 3) from (3, 3)**: Tested on Turn 141502. Facing Left from (3, 3), pressed Left. Result: BUMP (0 tiles visited), confirming (2, 3) is solid rock of TYPE_2889 and is completely impassable.
 - **Test B1 (3, 4) from (3, 3)**: [To be filled]
 - **Test C1 (6, 0) from (7, 0)**: [To be filled]
 
