@@ -8222,14 +8222,13 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Engaged in wild Level 51 Venomoth battle at (16, 17) on Map 0_228 (1F) on Turn 141774, facing Down.
+- Current Status: Standing on foot at (11, 17) on Map 0_228 (1F) on Turn 141781, facing Left.
+- **Turns 141775-141776**: Successfully fled the wild Level 51 Venomoth encounter on Turn 141776 using flee_battle, returning to the overworld at (16, 17) on foot, facing Down.
+- **Turns 141777-141781**: Walked Left 5 steps along Row 17 southern corridor of Map 0_228 to reach (11, 17) on foot on Turn 141781 with zero wild encounters.
 - **Turns 141770-141774**: Walked Left 1 step from (17, 16) to (16, 16) on foot, and Down 1 step to (16, 17) on Turn 141774, where we were interrupted by a wild Level 51 Venomoth encounter.
 - **Turns 141767-141770**: Walked Down 2 steps to descend the central platform stairs, landing on ground level at (17, 16) on foot on Turn 141770.
 - **Turns 141755-141762**: Walked Up 1 step from Water Ramp 2 at (11, 13) to (11, 12) on foot on Turn 141762.
 - **Turns 141763-141766**: Walked Right 4 steps along Row 12 to (15, 12), Down 2 steps along Column 15 to (15, 14), and Right 2 steps along Row 14 to reach (17, 14) on foot on Turn 141766, where we were interrupted by a wild Level 49 Hypno encounter.
-- **Turns 141741-141745**: Walked Left 5 steps from (18, 9) along Row 9 on 1F (Map 0_228) to reach (13, 9) on foot on Turn 141745 with zero wild encounters.
-- **Turns 141746-141747**: Walked Down 2 steps to (13, 11), Left 1 step to (12, 11), and Left 1 step to reach (11, 12) on foot on Turn 141747.
-- **Turns 141748-141751**: Pressed Down once to step onto Water Ramp 2 at (11, 13) on foot, where we were interrupted by a wild Level 51 Hypno encounter on Turn 141751.
 - **Turns 141752-141754**: Successfully fled the wild Hypno encounter on Turn 141754, returning to the overworld at Water Ramp 2 at (11, 13) on foot, facing Down.
 - **Turns 141665-141701**: Navigated on 2F West (0_226) from (20, 3) back to (19, 7) (Ladder 3) to backtrack to 1F. We were interrupted by a wild Venomoth encounter, which we successfully fled, and then we warped down Ladder 3 to 1F at (18, 9) on Turn 141701.
 - **Turns 141702-141740**: Verified that 1F Northwest and 2F West Northwest are completely isolated, and confirmed that the multi-map backtrack is indeed the only way. Updated 1F and 2F solids databases in python.
