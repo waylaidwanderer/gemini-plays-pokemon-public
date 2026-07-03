@@ -8222,7 +8222,15 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (3, 11) on Map 0_226 (2F West) on Turn 141827, facing Up.
+- Current Status: Standing on foot at (12, 11) on Map 0_226 (2F West) on Turn 141871, facing Down.
+- **Turns 141828-141831**: Walked on foot on "2F West" from (3, 11) to (9, 9).
+- **Turns 141832-141850**: Stood at (9, 9) verifying pathways and planning our route.
+- **Turns 141850-141851**: Walked on foot to (14, 8) using `["Right", "Right", "Right", "Right", "Up", "Right"]`.
+- **Turns 141852-141866**: Stood at (14, 8) conducting detailed visual grid tests and BFS pathfinding simulation.
+- **Turns 141866-141867**: Walked down to (12, 11) on foot on our way to test (13, 11) and was interrupted by a wild Marowak encounter.
+- **Turn 141868**: Successfully fled the wild Marowak battle using `flee_battle`, returning to the overworld at (12, 11).
+- **Turn 141869**: Pressed Right from (12, 11) to test (13, 11) on foot. Result: BUMP (visited 0 tiles), empirically proving that (13, 11) is solid rock and impassable on foot!
+- **Turns 141870-141871**: Stood at (12, 11) analyzing overwatch critique and formulating our new 1F western canal boarding hypothesis.
 - **Turns 141823-141827**: Successfully fled the wild Level 52 Sandslash encounter on Turn 141824 using flee_battle, returning to the overworld at (1, 12) on foot on Map 0_228 (1F Southwest) on Turn 141825. Used cave_bfs_solver to walk 3 steps on foot to reach Southwest Ladder 6 at (3, 11) on foot on Map 0_228 on Turn 141826, which immediately warped us up to Map 0_226 (2F West) at (3, 11) on foot on Turn 141827.
 - **Turns 141814-141822**: Walked Up 2 steps to (2, 14) on foot, Left 1 step to (1, 14), Up 1 step to (1, 13) [wooden stairs], and Up 1 step to climb the stairs onto the elevated southwest platform at (1, 12) on foot on Turn 141818, where we were interrupted by a wild Level 52 Sandslash encounter that was finally fled on Turn 141824.
 - **Turns 141808-141813**: Successfully fled the wild Level 52 Sandslash encounter on Turn 141810 using flee_battle, returning to the overworld at (2, 16) on foot, facing Down on Turn 141813.
