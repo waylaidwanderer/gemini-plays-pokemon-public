@@ -8531,6 +8531,13 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 140876**: Surfed Down 1 step to (8, 9) on water.
 - **Turn 140877**: Standing at (8, 9) facing Left, pressed Left to test Column 7 Row 9 (7, 9) on water. Result: BUMP, proving (7, 9) is a solid rock wall of TYPE_2889 and is completely impassable.
 - **Turns 140881-140883**: Defined map markers for verified water blockages at (7, 8) and (7, 9) on Map 0_228, and prepared for the Row 10 test.
+- **Turn 140886**: Surfed Down 1 step from (8, 9) to (8, 10) on water.
+- **Turn 140890**: Standing at (8, 10) facing Left, pressed Left to test Column 7 Row 10 (7, 10) on water. Result: BUMP, proving (7, 10) is a solid rock wall of TYPE_2889 and is completely impassable. This officially completes our systematic Column 7 water passability tests on Rows 8, 9, and 10 on Map 0_228.
+- **Turn 140891**: Pressed Left again to test Column 7 Row 10 (7, 10) on water. Result: BUMP, re-confirming that it is impassable.
+- **Turns 140895-140897**: Defined map marker for (7, 10) solid rock on water, and verified the complete layout of 1F and 2F West.
+- **Turn 140899**: Surfed Down 4 steps from (8, 10) to (8, 14) on water.
+- **Turn 140901**: Surfed Right 3 steps to (11, 14) and Up 1 step to dismount on foot at Water Ramp 2 at (11, 13).
+- **Turns 140915-140920**: Redefined custom tool cave_bfs_solver to prevent invalid water boarding in foot mode, and prepared to face Down to Surf and test Column 13 Row 4 and 5.
 
 ## Column 7 Water Passability Empirical Test Plan (Turn 140869)
 - **Objective**: Conduct a systematic, empirical on-water passability test of Column 7 on Rows 8, 9, and 10 of Map 0_228 (1F) to identify if there is an unblocked horizontal water crossover connecting the central water canal to the western water canal.
