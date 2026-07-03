@@ -294,3 +294,16 @@ To reach the Northwest Ladder (1, 3) and descend to B1F, we originally attempted
 - **Turn 140857**: Pressed Left and Right on foot at Ladder 5 (9, 1) on Map 0_226, immediately warping down to Map 0_228 (1F Northwest) at (7, 1) on foot on Turn 140858.
 - **Turn 140858**: Standing on foot on Ladder 5 at (7, 1) on Map 0_228, facing Down.
 - **Turn 140859**: Pressed Right 5 times to walk to (12, 1) on foot, but got interrupted on the 4th step at (10, 1) by a wild Level 52 Golbat encounter on Turn 140860.
+
+## Column 7 Water Passability Empirical Test Plan (Turn 140869)
+- **Objective**: Conduct a systematic, empirical on-water passability test of Column 7 on Rows 8, 9, and 10 of Map 0_228 (1F) to identify if there is an unblocked horizontal water crossover connecting the central water canal to the western water canal.
+- **Hypothesis**: At least one of these coordinates—(7, 8), (7, 9), or (7, 10)—is open water (or a passable land tile that can be dismounted onto), which serves as the true connected corridor to the western side of the cave and B1F access.
+- **Testing Route**:
+  1. Surf Down to (15, 7) on water.
+  2. Surf Left 7 steps along the Row 7 crossover water canal to (8, 7) via (9, 7).
+  3. Surf Down to (8, 8) and press Left to test Column 7 Row 8 (7, 8). Record result.
+  4. Surf Down to (8, 9) and press Left to test Column 7 Row 9 (7, 9). Record result.
+  5. Surf Down to (8, 10) and press Left to test Column 7 Row 10 (7, 10). Record result.
+- **Experimental Log**:
+  - **Turn 140865**: Boarded Surf from Water Ramp 4 at (15, 3) onto (15, 4) on water.
+  - **Turn 140869**: Ready to surf Down to (15, 7).
