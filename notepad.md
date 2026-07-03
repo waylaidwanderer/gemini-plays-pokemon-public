@@ -8222,10 +8222,11 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Engaged in wild Level 51 Hypno battle at (11, 13) on Map 0_228 (1F) on Turn 141751, facing Down.
+- Current Status: Standing on foot on Water Ramp 2 at (11, 13) on Map 0_228 (1F) on Turn 141754, facing Down.
 - **Turns 141741-141745**: Walked Left 5 steps from (18, 9) along Row 9 on 1F (Map 0_228) to reach (13, 9) on foot on Turn 141745 with zero wild encounters.
 - **Turns 141746-141747**: Walked Down 2 steps to (13, 11), Left 1 step to (12, 11), and Left 1 step to reach (11, 12) on foot on Turn 141747.
 - **Turns 141748-141751**: Pressed Down once to step onto Water Ramp 2 at (11, 13) on foot, where we were interrupted by a wild Level 51 Hypno encounter on Turn 141751.
+- **Turns 141752-141754**: Successfully fled the wild Hypno encounter on Turn 141754, returning to the overworld at Water Ramp 2 at (11, 13) on foot, facing Down.
 - **Turns 141665-141701**: Navigated on 2F West (0_226) from (20, 3) back to (19, 7) (Ladder 3) to backtrack to 1F. We were interrupted by a wild Venomoth encounter, which we successfully fled, and then we warped down Ladder 3 to 1F at (18, 9) on Turn 141701.
 - **Turns 141702-141740**: Verified that 1F Northwest and 2F West Northwest are completely isolated, and confirmed that the multi-map backtrack is indeed the only way. Updated 1F and 2F solids databases in python.
 - **Turn 141611**: redfined solids_2f database in cave_bfs_solver to add Row 4, Row 6 and other blockages. Standing at (3, 1), we ran cave_bfs_solver to (1, 3).
