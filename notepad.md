@@ -10714,23 +10714,6 @@ This physically, empirically, and programmatically proves that there is NO WAY t
 
 <hr>
 
-<h1><code>Scratchpad/2F_Column13_Passability_Test</code></h1>
-
-# 2F West Column 13 and Column 14 Passability Empirical Test
-- **Objective**: Conduct a systematic, empirical on-foot passability test of Column 13 and Column 14 on Rows 9 to 14 of Map 0_226 (2F West) to find the true unblocked horizontal corridor and satisfy the Burden of Proof.
-- **Hypothesis**: At least one of the coordinates on Column 13 (Rows 10, 11, 12, 13, 14) or Column 14 is a false-positive blockage, and is actually passable on foot, providing the connected on-foot path between Koga's southwest pocket and the rest of 2F West.
-
-## Experimental Protocol:
-1. Start on foot at Southwest Ladder 6 at (3, 11) on Map 0_226 (Turn 141011).
-2. Walk Up 2 steps to (3, 9) and Right 10 steps along Row 9 to reach (13, 9).
-3. Facing Down from (13, 9), press Down to test (13, 10) and record the outcome (BUMP / Step).
-4. If (13, 10) is passable, step onto it and continue Down to test other rows.
-5. If (13, 10) is blocked, walk Left 1, Down 2, and Right 1 to find a way to test other rows, or test Column 14.
-6. Record all results with turn numbers.
-- **Turn 141040**: Standing on foot at (12, 12) facing Right, pressed Right against (13, 12). Result: BUMP (0 tiles visited), proving (13, 12) is solid rock of TYPE_2889 on foot.
-
-<hr>
-
 <h1><code>Scratchpad/2F_NorthernBoundaries_Test_Plan</code></h1>
 
 # 2F West Northern Boundaries Passability Test Plan
