@@ -10749,5 +10749,6 @@ In Gen 1, we can activate SURF from any land tile directly adjacent to water, fa
 
 ## Chronological Progress:
 - Turn 141872: Formulated Western Canal Surf Test Plan in response to overwatch suggestion. Currently at (12, 11) on 2F West. Preparing to walk back to Southwest Ladder at (3, 11).
+- Turn 141877: Successfully navigated on foot from (12, 11) on 2F West back to (1, 15) on 1F Southwest on foot, descending via Southwest Ladder 6 and the wooden stairs at (1, 13) with zero wild encounters. Currently standing at (1, 15) on foot facing Down. Ready to execute Step 4: face Right and activate SURF!
 
 <hr>
