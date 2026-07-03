@@ -8222,9 +8222,9 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (18, 9) on Map 0_228 (1F) on Turn 141729, facing Down.
+- Current Status: Standing on foot on Ladder 3 at (18, 9) on Map 0_228 (1F) on Turn 141740, facing Down.
 - **Turns 141665-141701**: Navigated on 2F West (0_226) from (20, 3) back to (19, 7) (Ladder 3) to backtrack to 1F. We were interrupted by a wild Venomoth encounter, which we successfully fled, and then we warped down Ladder 3 to 1F at (18, 9) on Turn 141701.
-- **Turns 141702-141729**: Verified that 1F Northwest and 2F West Northwest are completely isolated, and confirmed that the multi-map backtrack is indeed the only way. Updated 1F and 2F solids databases in python.
+- **Turns 141702-141740**: Verified that 1F Northwest and 2F West Northwest are completely isolated, and confirmed that the multi-map backtrack is indeed the only way. Updated 1F and 2F solids databases in python.
 - **Turn 141611**: redfined solids_2f database in cave_bfs_solver to add Row 4, Row 6 and other blockages. Standing at (3, 1), we ran cave_bfs_solver to (1, 3).
 - **Turn 141612-141614**: Movement sequence aborted at button 3 of 68 at (3, 3) on Turn 141613 by a wild Ditto encounter. Fled Ditto.
 - **Turn 141615**: Ran cave_bfs_solver from (3, 3) to (1, 3). Sequence aborted at button 3 ('Right') at (6, 3) by a wild Venomoth encounter. Fled Venomoth.
