@@ -9000,6 +9000,7 @@ This completes our systematic passability audit of the water canal blockages on 
 - **Turns 142091-142094**: Walked from (7, 1) to (6, 2) on foot on Map 0_228. Interrupted by a wild Magneton encounter at (6, 2) on Turn 142095. Fled successfully on Turn 142096.
 - **Turns 142097-142107**: Walked East from (6, 2) along Row 2 to reach (13, 2) on foot on Map 0_228.
 - **Turns 142108-142110**: Walked East from (13, 2) to Water Ramp 4 at (15, 3) on Map 0_228 on foot on Turn 142120.
+- **Turns 142220-142250**: Walked on foot along Row 12 to (14, 12). Attempted to walk Down to (14, 13) but bumped against solid rock wall, confirming (14, 13) is solid. Standing at (14, 12) facing Down on Turn 142253.
 
 <hr>
 
