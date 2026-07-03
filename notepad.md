@@ -10735,7 +10735,7 @@ This physically, empirically, and programmatically proves that there is NO WAY t
    - Once the true unblocked corridor is identified (or all are confirmed solid as expected), we will walk to Northwest Ladder at (1, 3) and warp down to B1F.
 
 ## Experimental Recording Log:
-- **Test A1 (2, 1) from (3, 1)**: [To be filled]
+- **Test A1 (2, 1) from (3, 1)**: Tested on Turn 141483. Facing Left from (3, 1), pressed Left. Result: BUMP (0 tiles visited), confirming (2, 1) is solid rock of TYPE_2889 and is completely impassable.
 - **Test A2 (2, 2) from (3, 2)**: [To be filled]
 - **Test A3 (2, 3) from (3, 3)**: [To be filled]
 - **Test B1 (3, 4) from (3, 3)**: [To be filled]
