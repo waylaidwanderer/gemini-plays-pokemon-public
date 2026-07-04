@@ -1,5 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (2, 8) on Map 0_228 (1F) on Turn 144501, facing UP.
+- Current Status: Standing on foot at (3, 15) on Map 0_228 (1F Southwest) on Turn 144541, facing DOWN.
 - **Active Backtracking Log**:
   - Turn 144470: Standing on foot at (2, 8) facing UP, pressed Up to test Column 2 Row 7 (2, 7) on foot. Result: BUMP (visited 0 tiles, player coordinate remained at (2, 8) facing UP), physically and conclusively proving that (2, 7) is an impassable height boundary/ledge from the south on foot on Map 0_228.
   - Turn 144469: From Koga's southwest platform at (4, 12), walked Left 2 steps to (2, 12) and Up 4 steps along Column 2 to reach (2, 8) on foot.
