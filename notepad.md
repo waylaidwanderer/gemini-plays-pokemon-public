@@ -10789,40 +10789,11 @@ To resolve the topological layout discrepancy on Map 0_226 (2F West) and Map 0_2
 - Both on-foot shortcuts to reach the B1F ladder at (1, 3) on 2F West are 100% disproven.
 - There is absolutely no physical connection on 2F West between the southwest ladder pocket at (3, 11) and the rest of the map.
 - There is also no connection between the northern corridors on 2F West and Column 1's western corridors.
-- Therefore, we must seek another way. Since we have disproven both on-foot shortcuts and the water crossovers on 1F, we need to backtrack and re-route carefully.
-
-# Northwest Path Empirical Re-Verification Plan
-
-## Objective
-To resolve the topological layout discrepancy on Map 0_226 (2F West) and Map 0_228 (1F Northwest) that mathematically isolates the B1F gateway ladder/stairs at (1, 3), and to empirically identify the false-positive blockage.
-
-## Testing Protocol
-
-### 1. 2F West Column 2 (Rows 1-3) Passability Re-Verification
-- **Hypothesis**: Either (2, 1), (2, 2), or (2, 3) is a passable tile of TYPE_3fe2 on 2F West, despite previous "BUMP" logs.
-- **Results**:
-  - Turn 142377: Tested (2, 1) by pressing Left from (3, 1). Result: BUMP (visited 0 tiles).
-  - Turn 142388: Tested (2, 2) by pressing Left from (3, 2). Result: BUMP (visited 0 tiles).
-  - Turn 142396: Tested (2, 3) by pressing Left from (3, 3). Result: BUMP (visited 0 tiles).
-- **Conclusive Finding**: Step 1 has failed completely. Column 2 on Rows 1-3 consists of 100% solid, impassable rock walls of TYPE_2889.
-
-### 2. 2F West Column 1 (Rows 10-11) Passability Re-Verification
-- **Hypothesis**: Either (1, 11) or (1, 10) is passable on 2F West, which would allow access to Column 1's western corridor.
-- **Results**:
-  - Turn 142472: Tested (1, 11) by pressing Left from (2, 11). Result: BUMP (visited 0 tiles).
-  - Turn 142478: Tested (1, 10) by pressing Left from (2, 10). Result: BUMP (visited 0 tiles).
-- **Conclusive Finding**: Step 2 has failed completely. Both (1, 11) and (1, 10) are solid rock walls of TYPE_2889. Koga's southwest pocket is indeed 100% isolated on foot on 2F West.
-
-## General Conclusions
-- Both on-foot shortcuts to reach the B1F ladder at (1, 3) on 2F West are 100% disproven.
-- There is absolutely no physical connection on 2F West between the southwest ladder pocket at (3, 11) and the rest of the map.
-- There is also no connection between the northern corridors on 2F West and Column 1's western corridors.
-- Therefore, we must seek another way. Since we have disproven both on-foot shortcuts and the water crossovers on 1F, we need to backtrack and re-route carefully.
 
 - Turn 142517: Warped down Southwest Ladder 6 to Map 0_228 (1F Southwest) on foot at (3, 11).
 - Turn 142560: Walked 9 steps to (2, 17) on foot on Map 0_228 southern ground floor.
 - Turn 142687: Standing at (5, 2) on foot on Map 0_228 after disproving Test Area A, returning to Ladder 5 to warp up to 2F West to proceed with other re-verification areas.
-- Turn 142699: Warped back up to 2F West (9, 1) on foot on Turn 142699. Standing at (9, 1) on foot on Turn 142708.
+- Turn 142699: Warped back up to 2F West (9, 1) on foot on Turn 142699. Standing at (9, 1) on foot on Turn 142711.
 
 <hr>
 
