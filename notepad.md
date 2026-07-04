@@ -10830,8 +10830,11 @@ Since the game is 100% solvable, at least one of these "verified" blockages must
 - **Test Status**: Active.
 
 ## 3. Immediate Action Plan
-We are currently standing at (9, 1) on Map 0_226 (2F West) on Turn 142714.
-1. Call cave_bfs_solver to navigate on foot to (21, 11) on Map 0_226 to execute Test Area C (Row 11 Column 21/22/23 passability).
-2. If we reach (21, 11) successfully, walk Right to test if (22, 11) is open.
+We are currently standing at (9, 3) on Map 0_226 (2F West) on Turn 142776.
+1. Backtrack on foot from (9, 3) to Ladder 5 at (9, 1) by walking: Left 6 steps along Row 3 to (3, 3), Up 2 steps along Column 3 to (3, 1), and Right 6 steps along Row 1 to (9, 1).
+2. Descend Ladder 5 to 1F Northwest at (7, 1) to proceed with our master backtracking route to Southwest Ladder 6.
+3. Systematically re-evaluate Koga's 2F West layout and 1F water blockages to identify the false-positive boundary that mathematically isolates B1F.
+
+- **Test Area C (Columns 21/22/23 on Rows 9 and 11) Status**: Done (Falsified on Turn 142776). Purely on-foot walking across 2F West from the northern ladder at (9, 1) to (21, 11) is physically blocked by solid rock walls of TYPE_2889 on Row 2 (Columns 5-10), Row 6 (Columns 7-12), and Column 10 (Rows 0-4). The northern area of 2F West is a completely closed pocket. No direct horizontal crossover exists on foot on 2F West. Koga's 2F West is indeed 100% split.
 
 <hr>
