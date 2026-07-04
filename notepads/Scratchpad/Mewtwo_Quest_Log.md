@@ -1,5 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (14, 12) on Map 0_228 (1F Southwest) on Turn 143387.
+- Current Status: Standing on foot at (9, 5) on Map 0_226 (2F West) on Turn 143443.
 - **Active Backtracking Log**:
   - Turn 143254 to Turn 143256: Called cave_bfs_solver on foot to navigate to Southwest Ladder 6. Interrupted at (15, 14) on Turn 143256 by a wild Level 46 Hypno encounter. Fled using flee_battle on Turn 143257, landing at (15, 14) on foot.
   - Turn 143258: Called cave_bfs_solver on foot to navigate to Southwest Ladder 6. Walked Right 2 steps to (17, 14), Down 2 steps to descend central stairs to (17, 16), and was interrupted on the next step Left at (17, 16) by a wild Level 46 Hypno encounter. Fled using flee_battle on Turn 143260, landing on foot at (17, 16) on Map 0_228.
