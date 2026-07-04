@@ -11073,6 +11073,10 @@ To resolve this logical flaw without making unverified assumptions, we will stan
   - Turn 144014: Tested (4, 2) on foot on Map 0_228 under pristine conditions by standing at (5, 2) facing Left and pressing Left. Result: BUMP (visited 0 tiles, player coordinate remained at (5, 2)).
   - Conclusion: Column 4 Row 2 (4, 2) on Map 0_228 is definitively a solid rock wall of TYPE_2889 and is impassable on foot. This falsifies the 1F Northwest landmass bypass hypothesis.
 
+### Test of Column 10 Row 3 (10, 3) on Map 0_226 (Turn 144283):
+- **Objective**: Empirically verify if (10, 3) on Map 0_226 (2F West) is actually open on foot, contrary to our map marker.
+- **Protocol**: From (9, 3) facing Up, press `Right`. If open, we will step onto (10, 3). If blocked, we will bump and remain at (9, 3) facing Right.
+
 <hr>
 
 <h1><code>Scratchpad/Mewtwo_Unexplored_Bypasses</code></h1>
