@@ -1,6 +1,10 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (11, 12) on Map 0_228 on Turn 142993.
+- Current Status: Standing on foot at (15, 3) on Map 0_228 on Turn 143041.
 - **Active Backtracking Log**:
+  - Turn 142994: Walked Down 1 step to stand at Water Ramp 2 at (11, 13) on foot on Turn 142995.
+  - Turn 143003: Successfully boarded the water at (11, 14) on Surf.
+  - Turn 143034: Surfed Left 2 steps and Up 8 steps to reach (9, 6) on water with zero wild encounters.
+  - Turn 143037: Surfed Right 6 steps and Up 3 steps to dismount onto Water Ramp 4 at (15, 3) on foot with zero wild encounters on Turn 143041.
   - Turn 142874: Standing on water at (8, 13) surfing on GEMMY, faced Right.
   - Turn 142876: Surfed Right 1 step to (9, 13) and Down 1 step to (9, 14) on water.
   - Turn 142877: Surfed Right 2 steps to (11, 14) on water and stepped Up 1 step to dismount onto Water Ramp 2 at (11, 13) on foot on Turn 142878.
