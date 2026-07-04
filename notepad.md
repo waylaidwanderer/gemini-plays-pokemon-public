@@ -10780,5 +10780,8 @@ To resolve the topological layout discrepancy on Map 0_226 (2F West) and Map 0_2
 - Turn 142393: Interrupted by wild Level 53 Wigglytuff battle. Fled successfully on Turn 142394, returning to (3, 3) on foot.
 - Turn 142396: Tested (2, 3) by pressing Left. Result: BUMP (visited 0 tiles). This empirically and conclusively proves that (2, 3) is a solid, impassable rock wall of TYPE_2889.
   Step 1 of the Northwest Path Test protocol (Column 2 Rows 1-3) is now fully complete, and has failed (there is no passable doorway/corridor across Column 2 on Rows 1-3 on 2F West). We must proceed with Step 2 (testing Row 4 passability via Southwest Ladder 6).
+- Turn 142468: Warped up Southwest Ladder 6 to 2F West at (3, 11).
+- Turn 142470: Stepped Left to (2, 11) on foot.
+- Turn 142472: Tested (1, 11) by pressing Left. Result: BUMP (visited 0 tiles). This empirically and conclusively proves that (1, 11) is a solid, impassable rock wall of TYPE_2889.
 
 <hr>
