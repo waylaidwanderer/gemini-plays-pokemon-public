@@ -8222,7 +8222,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (3, 11) on Map 0_226 (2F West) on Turn 143621.
+- Current Status: Standing on foot at (13, 9) on Map 0_226 (2F West) on Turn 143643.
 - **Active Backtracking Log**:
   - Turns 143589-143609: Called cave_bfs_solver on foot to walk from Water Ramp 2 at (11, 13) to Southwest Ladder 6 at (3, 11) on Map 0_228. Fled wild Level 46 Hypno at (15, 14) on Turn 143602, wild Level 46 Magneton at (16, 17) on Turn 143604, and wild Level 46 Golbat at (1, 14) on Turn 143607. Climbed Southwest Ladder 6 to warp to 2F West at (3, 11) on Turn 143609.
   - Turns 143556-143561: Surfed Left 3 steps, Up 1 step, and Left 1 step from (11, 14) to dismount on foot at (7, 13) on Turn 143561.
