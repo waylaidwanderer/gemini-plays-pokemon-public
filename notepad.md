@@ -9182,6 +9182,16 @@ This completes our systematic passability audit of the water canal blockages on 
   4. If blocked, we will record the bump and re-evaluate other options.
 - **Experimental Status**: Active. Commencing the walk to (1, 5).
 
+## The BFS Solver Water Transition Bug Analysis (Turn 144158)
+- **Problem**: The BFS solver `cave_bfs_solver` returned an on-foot path of Up movements from (11, 13) without any Surf boarding buttons.
+- **Root Cause**:
+  1. The solver database categorizes (11, 13) (Water Ramp 2) inside the central water canal coordinate range `8 <= x <= 11 and 6 <= y <= 15`, adding it to `water_1f`.
+  2. Because our start position (11, 13) was classified as water, the solver initialized `start_mode` to `'surf'` instead of `'foot'`.
+  3. Since the start mode was already `'surf'`, the path generation function `path_to_buttons` skipped the mode transition check, meaning it never appended the Start menu / Pokémon Surf selection sequence.
+- **Solution**:
+  - We must redefine `cave_bfs_solver` and subtract the four water ramps `{(23, 3), (15, 3), (11, 13), (25, 9)}` from the `water_1f` set so they are classified as land. This forces the solver to start in `'foot'` mode when standing on a ramp, correctly triggering the Surf boarding transition sequence.
+  - We will fix this in our next custom tool update. For now, we will perform the Surf boarding manually to enter the water.
+
 <hr>
 
 <h1><code>Locations/CeruleanCave</code></h1>
