@@ -11113,6 +11113,10 @@ To resolve this logical flaw without making unverified assumptions, we will stan
 - **Test of Column 7 Row 12 (7, 12) (Turn 144372)**:
   - Protocol: From (8, 11) facing Left on Surf, press Down to (8, 12) and Left to test if (7, 12) is open water or a passable landing tile.
   - Result: BUMP (visited 1 tile to reach (8, 12), second button bumped, player coordinate remained at (8, 12) on Turn 144373 facing Left), physically and conclusively re-verifying that (7, 12) is indeed a solid, impassable rock wall of TYPE_2889 on water.
+- **Empirical Test of (4, 15) Western Canal Surf Boarding (Turn 144439)**:
+  - *Methodology*: While on foot at (3, 15), we turned Right to face Column 4 Row 15 (4, 15) and attempted to activate GEMMY's SURF.
+  - *Result*: The game printed "No SURFing on GEMMY here!".
+  - *Conclusion*: Column 4 Row 15 (4, 15) is a solid rock wall of TYPE_2889 and is completely impassable. This officially disproves the hypothesis that we can board the western water canal at Row 15 from the ground floor. We must test boarding further north at (3, 12) facing Right onto (4, 12).
 
 <hr>
 
