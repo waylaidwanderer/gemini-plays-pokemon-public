@@ -10850,11 +10850,32 @@ Since the game is 100% solvable, at least one of these "verified" blockages must
 - **Results**: Done (Falsified on Turn 142814). Stood at (8, 11) facing Left and pressed Left. Result: BUMP (visited 0 tiles). Physically and conclusively re-proving that (7, 11) is indeed a solid rock wall of TYPE_2889 and completely impassable on water.
 
 ## 4. Test Area D: Column 6 Row 13 (6, 13) on Foot on 1F Southwest
-- **Hypothesis**: Column 6 Row 13 (6, 13) on Map 0_228 (1F Southwest) is actually PASSABLE on foot, contrary to our brief "Turn 134488" record. If true, this land tile connects the central water canal/dismount point at (7, 13) directly to the southwest pocket's landmass, allowing us to walk directly from Koga's central area to Southwest Ladder 6 at (3, 11) on foot.
-- **Execution Protocol**:
-  1. From our current position (8, 11) on Surf, surf Down 2 steps along Column 8 to (8, 13) [2 steps Down].
-  2. Walk Left 1 step onto (7, 13) to dismount Surf and stand on foot [1 step Left].
-  3. From (7, 13) on foot, face Left and press Left to test Column 6 Row 13 (6, 13) passability on foot. Record result.
-- **Current Status**: Standing at (8, 11) on Map 0_228 (1F) on Surf on Turn 142823, ready to execute step 1 (surf Down to 8, 13).
+- **Hypothesis**: Column 6 Row 13 (6, 13) on Map 0_228 (1F Southwest) is actually PASSABLE on foot, contrary to our brief "Turn 134488" record.
+- **Results**: Done (Falsified on Turn 142829). Stood at (7, 13) on foot, faced Left, and pressed Left. Result: BUMP (visited 0 tiles). Physically and conclusively proving that Column 6 Row 13 (6, 13) is a solid rock wall of TYPE_2889 and completely impassable on foot.
+
+## 5. Logical Contradiction Analysis & Systematic Re-Verification Plan
+Since Test Areas A, C, and D are all definitively falsified, and the water canals on 1F are completely split, the only way Cerulean Cave is mathematically solvable is if there is a false-positive blockage on **2F West (Map 0_226)** that isolates the Northwest Ladder at (1, 3).
+
+### The Three Candidate Hypotheses on 2F West:
+- **Hypothesis A: Column 2 (Rows 1-3) is Passable**
+  - *Premise*: (2, 1), (2, 2), or (2, 3) is actually open on 2F West, allowing the player to walk directly Left from Column 3 to Column 1.
+  - *Logical Check*: We performed direct physical tests on foot from Column 3 and bumped on all three rows (Turns 142377, 142388, 142396).
+- **Hypothesis B: Column 1 (Rows 10-11) is Passable**
+  - *Premise*: (1, 11) or (1, 10) is actually open, allowing the player to walk directly Left from Column 2 to Column 1 in Koga's southwest pocket.
+  - *Logical Check*: We performed direct physical tests on foot from Column 2 and bumped on both rows (Turns 142472, 142478).
+- **Hypothesis C: Column 8 Row 5 (8, 5) or Column 10 Row 3 (10, 3) is Passable**
+  - *Premise*: (8, 5) or (10, 3) is actually open on 2F West, allowing the player to walk Left from Koga's central area (Column 9) to Koga's west side (Column 1-5).
+  - *Logical Check*: If (8, 5) is open, we can walk Left along Row 5: (9, 5) -> (3, 5) -> (1, 5) -> Up to (1, 3). If (10, 3) is open, we can walk Left along Row 3: (9, 3) -> (3, 3) -> (1, 3) via Column 2.
+
+### Systematic Re-Verification Protocol from the North:
+To resolve this logical flaw without making unverified assumptions, we will stand on foot at (3, 1) or (3, 3) and systematically test Column 2 and Row 4 from the north/south:
+1. Walk to Ladder 5 at (7, 1) on 1F, and climb to 2F West at (9, 1).
+2. Walk Left to (3, 1) and Down to (3, 3) on foot.
+3. Standing at (3, 3), face Left and press Left to test (2, 3).
+4. Standing at (3, 3), face Down and press Down to test (3, 4).
+5. Standing at (3, 3), walk Up to (3, 2), face Left and press Left to test (2, 2).
+6. Standing at (3, 2), walk Up to (3, 1), face Left and press Left to test (2, 1).
+
+- **Current Status**: Standing at (7, 13) on Map 0_228 (1F) on foot on Turn 142835, ready to backtrack on water to reach Ladder 5.
 
 <hr>
