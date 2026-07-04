@@ -10799,17 +10799,12 @@ Since the game is 100% solvable, at least one of these "verified" blockages must
 - **Premise**: Row 4 on Column 1 or Column 2 is actually open (passable) on 2F West. If (1, 4) or (2, 4) is open, we can walk Vertically on Column 1 or 2 to connect Koga's southwest pocket directly to the Northwest Ladder at (1, 3).
 - **Test Status**: Unverified.
 - **Testing Protocol**:
-  1. From our current position (2, 10), walk Up to (2, 5) or Left to (1, 10) -> wait, (1, 10) is solid.
-  2. Walk Left to (1, 12) from (2, 12)? Wait, we must check how to reach Column 1 or 2 at Row 5.
-  3. Let's trace how to reach (1, 5) or (2, 5) on foot:
-     - From (3, 11), we can walk Up to (3, 9) and Right to (12, 9) -> (12, 10) -> (12, 14) -> Row 17 -> Koga's East side. But we cannot reach Rows 5-7 on Column 1-5 because Row 8 is solid from Column 3 to 12.
-     - Wait! Can we reach Rows 5-7 (Column 1-5) from the northern area via Ladder 5 at (9, 1)?
-       - Yes! If we warp up Ladder 5 at (9, 1), we land in Koga's northern area.
-       - From (9, 1), we can walk Left along Row 1 to (3, 1), Down to (3, 3), and then to Row 5.
-       - Row 5 is open on Columns 1-5 on the screen!
-       - So we can walk to (1, 5) or (2, 5) on foot!
-       - From (1, 5), press Up to test if (1, 4) is passable.
-       - From (2, 5), press Up to test if (2, 4) is passable.
+  1. From our current position (3, 11) on 1F, return to Water Ramp 2 at (11, 13).
+  2. Surf to Water Ramp 4 at (15, 3).
+  3. Walk to Ladder 5 at (7, 1) and warp up to 2F West at (9, 1).
+  4. Walk Left to (3, 1), Down to (3, 3), and then to Row 5.
+  5. Walk to (1, 5) or (2, 5) on foot.
+  6. Perform vertical passability tests: press Up from (1, 5) and (2, 5) to verify if (1, 4) or (2, 4) is open.
 
 ### Hypothesis B: Column 21 / 22 / 23 Crossovers on 2F West
 - **Premise**: There is a horizontal crossover connecting Koga's southwest/central section to Koga's east section on Row 9 or Row 11.
@@ -10821,15 +10816,25 @@ Since the game is 100% solvable, at least one of these "verified" blockages must
 - **Premise**: Column 13 is open on water at Row 4 or Row 5, allowing us to Surf from the central canal directly into the western canal.
 - **Test Status**: Done (Disproven on Turns 140952 and 140954). Both (13, 4) and (13, 5) are 100% solid on water.
 
+### Hypothesis D: 1F Northwest Column 4 Row 3 (4, 3) on Foot
+- **Premise**: Column 4 Row 3 (4, 3) on 1F Northwest is actually open on foot. This would allow an on-foot path from Ladder 5 at (7, 1) to bypass the Column 4 wall and reach the B1F staircase at (1, 3).
+- **Test Status**: Unverified (Logical Gap). Our BFS pathfinder generated paths through (4, 3), but our records list Row 3 as solid. We must empirically re-verify this boundary!
+- **Testing Protocol**:
+  1. From Ladder 5 at (7, 1) on 1F Northwest, walk to (5, 2) on foot.
+  2. Test (4, 2) by pressing Left.
+  3. Test (5, 3) by pressing Down.
+  4. If (5, 3) is solid, test if we can walk from (5, 2) -> (5, 1) -> Left to (4, 1) [BUMP on Turn 140811] -> wait! Is (4, 1) really solid?
+  5. If (5, 3) is open, step onto (5, 3) and press Left to test if (4, 3) is passable!
+  6. If (4, 2) is open, step onto (4, 2) and press Down to test if (4, 3) is passable!
+
 ## 3. Immediate Action Plan
-We are currently in Koga's southwest pocket at (2, 10). To test Hypothesis A:
-1. Walk to Southwest Ladder 6 at (3, 11).
-2. Warp down to 1F.
-3. Return to Water Ramp 2 at (11, 13) via Row 17 southern ground floor.
-4. Surf through the Row 6 water crossover to Water Ramp 4 at (15, 3).
-5. Walk to Ladder 5 at (7, 1) and warp up to 2F West at (9, 1).
-6. Walk to (1, 5) and (2, 5) on foot.
-7. Perform the empirical vertical passability tests on Row 4: press Up from (1, 5) and (2, 5) to verify if (1, 4) or (2, 4) is open.
-8. If either is open, we have found the true unblocked corridor to Mewtwo!
+We are currently in Koga's southwest pocket at (3, 11) on Map 0_228 (1F Southwest). To execute the tests:
+1. Walk on foot from (3, 11) to Water Ramp 2 at (11, 13).
+2. Board Surf at (11, 13) and navigate to Water Ramp 4 at (15, 3).
+3. Dismount onto (15, 3) on foot.
+4. Walk to Ladder 5 at (7, 1) and warp up to 2F West at (9, 1).
+5. Execute Hypothesis A (2F West Row 4 Columns 1-2 passability).
+6. If Hypothesis A fails, descend back to 1F Northwest at (7, 1).
+7. Execute Hypothesis D (1F Northwest Column 4 Row 3 passability).
 
 <hr>
