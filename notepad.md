@@ -8222,8 +8222,10 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (7, 13) on Map 0_228 (1F Southwest/Center) on Turn 144096, in Start Menu.
+- Current Status: Standing on foot at (7, 13) on Map 0_228 (1F Southwest/Center) on Turn 144104, facing Down.
 - **Active Backtracking Log**:
+  - Turn 144101: Physically tested (7, 14) on foot on Map 0_228 by pressing Down. Result: BUMP, proving (7, 14) is a solid rock wall of TYPE_2889.
+  - Turn 144099: Pressed B to close the Start menu and returned to the overworld at (7, 13) facing Up on Turn 144100.
   - Turn 144092: Standing at (7, 13) on foot facing Up, opened POKéMON menu and selected GEMMY -> SURF to test if (7, 12) is open water. Result: "No SURFing on GEMMY here!", proving (7, 12) is not open water.
   - Turn 144085: Physically tested (7, 12) on foot on Map 0_228 by pressing Up. Result: BUMP, proving (7, 12) is a solid, impassable wall on foot from the south.
   - Turn 144084: Surfed Down along Column 9 to (9, 13), Left to (8, 13), and Left to dismount on foot onto (7, 13) on Map 0_228.
