@@ -8243,8 +8243,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - Turn 142821: Standing at (8, 11) on water, facing Left.
   - Turn 142826: Surfed Down 2 steps along Column 8 from (8, 11) to (8, 13) on Surf on Turn 142826.
   - Turn 142827: Pressed Left to dismount Surf and stand on foot at (7, 13) on Map 0_228 on Turn 142827.
-  - Turn 142829: Pressed Left to test Column 6 Row 13 (6, 13) on foot. Result: BUMP (visited 0 tiles), physically and conclusively proving that (6, 13) is indeed a solid rock wall of TYPE_2889 and completely impassable on foot.
-  - Turn 142832: Standing at (7, 13) on Map 0_228 (1F) on foot, facing Left.
+  - Turn 142829: Pressed Left to test Column 6 Row 13 (6, 13) on foot. Result: BUMP (visited 0 tiles), physically and conclusively proving that (6, 13) is indeed a solid rock wall of TYPE_2889 and completely impassable on foot on Turn 142829.
+  - Turn 142833: Standing at (7, 13) on Map 0_228 (1F) on foot, facing Left.
   - Turn 142472: Tested (1, 11) on foot on Map 0_226 by pressing Left from (2, 11). Result: BUMP (visited 0 tiles). Empirically and conclusively proves (1, 11) is a solid, impassable rock wall of TYPE_2889.
   - Turn 142477: Walked Up 1 step from (2, 11) to (2, 10) on foot.
   - Turn 142478: Tested (1, 10) on foot on Map 0_226 by pressing Left from (2, 10). Result: BUMP (visited 0 tiles). Empirically and conclusively proves (1, 10) is a solid, impassable rock wall of TYPE_2889.
