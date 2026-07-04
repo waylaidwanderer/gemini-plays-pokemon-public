@@ -8222,8 +8222,10 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on Surf at (14, 6) on Map 0_228 (1F) on Turn 144619, facing UP.
+- Current Status: Standing on foot at (15, 1) on Map 0_228 (1F) on Turn 144634, facing LEFT.
 - **Active Backtracking Log**:
+  - Turn 144633: From (15, 3) on foot, walked Up 2 steps to (15, 1) on foot, where we were immediately interrupted on our next step Left towards (14, 1) by a wild Level 46 Parasect encounter on Turn 144634.
+  - Turn 144620: Surfed Up 2 steps, Right 1 step, and Up 1 step from (14, 6) to reach Water Ramp 4 at (15, 3) on foot, dismounting Surf.
   - Turn 144581: Surfed Right 2 steps along Row 7 crossover from (12, 7) to (14, 7) and Up 1 step to reach (14, 6) on water.
   - Turn 144576: Surfed Right 3 steps along Row 7 crossover from (9, 7) to reach (12, 7) on water.
   - Turn 144573: Surfed Up 3 steps along Column 9 from (9, 10) to reach (9, 7) on water.
