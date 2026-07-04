@@ -10780,6 +10780,10 @@ To resolve the topological layout discrepancy on Map 0_226 (2F West) and Map 0_2
 - There is also no connection between the northern corridors on 2F West and Column 1's western corridors.
 - Therefore, we must seek another way. Since we have disproven both on-foot shortcuts and the water crossovers on 1F, we need to backtrack and re-route carefully.
 
+- Turn 142517: Warped down Southwest Ladder 6 to Map 0_228 (1F Southwest) on foot at (3, 11).
+- Turn 142560: Walked 9 steps to (2, 17) on foot on Map 0_228 southern ground floor.
+- Turn 142591: Standing at (11, 17) on foot on Map 0_228 after fleeing wild battles, preparing to navigate to Water Ramp 2 at (11, 13) to continue our crossover testing plan.
+
 <hr>
 
 <h1><code>Scratchpad/Mewtwo_Crossover_Reevaluation</code></h1>
