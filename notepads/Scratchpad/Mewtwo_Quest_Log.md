@@ -863,3 +863,4 @@ This completes our systematic passability audit of the water canal blockages on 
 - Turn 143138: Walked Down 1 step to (5, 2).
 - Turn 143140: Standing at (5, 2) facing Left, pressed Left to test (4, 2). Interrupted by a wild Level 52 Hypno encounter.
 - Turn 143141: Successfully escaped the wild Hypno encounter using flee_battle, returning to the overworld at (5, 2) on foot.
+- Turn 143144: Standing on foot at (5, 2) on Map 0_228, faced Down and pressed Down to test (5, 3). Result: BUMP (visited 0 tiles). Re-verified (5, 3) as solid rock wall of TYPE_2889 on foot.
