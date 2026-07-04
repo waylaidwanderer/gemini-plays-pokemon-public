@@ -1,6 +1,10 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing at (8, 13) on Map 0_228 (1F) on Surf on Turn 142872.
+- Current Status: Standing on foot at (11, 13) on Map 0_228 on Turn 142892.
 - **Active Backtracking Log**:
+  - Turn 142874: Standing on water at (8, 13) surfing on GEMMY, faced Right.
+  - Turn 142876: Surfed Right 1 step to (9, 13) and Down 1 step to (9, 14) on water.
+  - Turn 142877: Surfed Right 2 steps to (11, 14) on water and stepped Up 1 step to dismount onto Water Ramp 2 at (11, 13) on foot on Turn 142878.
+  - Turns 142878-142891: Standing on foot at (11, 13) on Map 0_228, updating notepads and preparing to redefine our pathfinder.
   - Turns 142712-142744: Climbed Ladder 5 to warp up to 2F West at (9, 1). Standing at (9, 1) on foot on Map 0_226.
   - Turns 142745-142766: Ran BFS simulations and pathfinder audits to plan the next crossover test.
   - Turn 142767: Walked Left 6 steps on foot from (9, 1) to (3, 1) on Map 0_226.
