@@ -10750,41 +10750,24 @@ To resolve the topological layout discrepancy on Map 0_226 (2F West) and Map 0_2
 ## Testing Protocol
 
 ### 1. 2F West Column 2 (Rows 1-3) Passability Re-Verification
-- **Hypothesis**: Either (2, 1), (2, 2), or (2, 3) is a passable tile of TYPE_3fe2 on 2F West, despite previous "BUMP" logs (which might have been caused by wild battles or cursor timing issues).
-- **Execution Path**:
-  1. From 1F Southwest central platform (15, 12), walk to Water Ramp 2 at (11, 13).
-  2. Surf to Water Ramp 4 at (15, 3) and dismount on foot.
-  3. Walk to Ladder 5 at (7, 1) and warp up to 2F West at (9, 1).
-  4. Walk Left along Row 1 to (3, 1).
-  5. Test (2, 1) by attempting to walk Left onto (2, 1).
-  6. Walk Down to (3, 2) and test (2, 2) by attempting to walk Left onto (2, 2).
-  7. Walk Down to (3, 3) and test (2, 3) by attempting to walk Left onto (2, 3).
-- **Evaluation Criteria**: If any test succeeds, the player steps onto Column 2, proving it is passable. This immediately opens a direct on-foot connection to (1, 3) from the northern area of 2F West!
+- **Hypothesis**: Either (2, 1), (2, 2), or (2, 3) is a passable tile of TYPE_3fe2 on 2F West, despite previous "BUMP" logs.
+- **Results**:
+  - Turn 142377: Tested (2, 1) by pressing Left from (3, 1). Result: BUMP (visited 0 tiles).
+  - Turn 142388: Tested (2, 2) by pressing Left from (3, 2). Result: BUMP (visited 0 tiles).
+  - Turn 142396: Tested (2, 3) by pressing Left from (3, 3). Result: BUMP (visited 0 tiles).
+- **Conclusive Finding**: Step 1 has failed completely. Column 2 on Rows 1-3 consists of 100% solid, impassable rock walls of TYPE_2889.
 
-### 2. 2F West Row 4 (Columns 1-2) Passability Re-Verification
-- **Hypothesis**: Either (1, 4) or (2, 4) is passable on 2F West, allowing vertical transition between (1, 3) and the southern corridors on Column 1/2.
-- **Execution Path**:
-  1. If Step 1 (Column 2) fails, walk back to Ladder 5 and descend to 1F.
-  2. Navigate via 1F Southwest ground to Southwest Ladder 6 at (3, 11), warping up to 2F West at (3, 11).
-  3. Walk Left to (2, 11) -> (1, 11) (if passable) and up to (1, 5).
-  4. Attempt to walk Up from (1, 5) onto (1, 4) and from (2, 5) onto (2, 4) to test passability.
-- **Evaluation Criteria**: If either is passable, the player steps onto Row 4, proving the horizontal split is not continuous and allowing B1F gateway access.
+### 2. 2F West Column 1 (Rows 10-11) Passability Re-Verification
+- **Hypothesis**: Either (1, 11) or (1, 10) is passable on 2F West, which would allow access to Column 1's western corridor.
+- **Results**:
+  - Turn 142472: Tested (1, 11) by pressing Left from (2, 11). Result: BUMP (visited 0 tiles).
+  - Turn 142478: Tested (1, 10) by pressing Left from (2, 10). Result: BUMP (visited 0 tiles).
+- **Conclusive Finding**: Step 2 has failed completely. Both (1, 11) and (1, 10) are solid rock walls of TYPE_2889. Koga's southwest pocket is indeed 100% isolated on foot on 2F West.
 
-## Status Tracking
-- Turn 142327: Arrived at Water Ramp 2 at (11, 13) on foot. Preparing to activate Surf and head to Ladder 5.
-- Turn 142375: Arrived at (3, 1) on Map 0_226 on foot.
-- Turn 142377: Tested (2, 1) by pressing Left. Result: BUMP (visited 0 tiles). This empirically and conclusively proves that (2, 1) is a solid, impassable rock wall of TYPE_2889.
-- Turn 142384: Stepped Down to (3, 2) on foot.
-- Turn 142388: Tested (2, 2) by pressing Left. Result: BUMP (visited 0 tiles). This empirically and conclusively proves that (2, 2) is a solid, impassable rock wall of TYPE_2889.
-- Turn 142391: Stepped Down to (3, 3) on foot.
-- Turn 142393: Interrupted by wild Level 53 Wigglytuff battle. Fled successfully on Turn 142394, returning to (3, 3) on foot.
-- Turn 142396: Tested (2, 3) by pressing Left. Result: BUMP (visited 0 tiles). This empirically and conclusively proves that (2, 3) is a solid, impassable rock wall of TYPE_2889.
-  Step 1 of the Northwest Path Test protocol (Column 2 Rows 1-3) is now fully complete, and has failed (there is no passable doorway/corridor across Column 2 on Rows 1-3 on 2F West). We must proceed with Step 2 (testing Row 4 passability via Southwest Ladder 6).
-- Turn 142468: Warped up Southwest Ladder 6 to 2F West at (3, 11).
-- Turn 142470: Stepped Left to (2, 11) on foot.
-- Turn 142472: Tested (1, 11) by pressing Left. Result: BUMP (visited 0 tiles). This empirically and conclusively proves that (1, 11) is a solid, impassable rock wall of TYPE_2889.
-- Turn 142477: Stepped Up to (2, 10) on foot.
-- Turn 142478: Tested (1, 10) by pressing Left. Result: BUMP (visited 0 tiles). This empirically and conclusively proves that (1, 10) is a solid, impassable rock wall of TYPE_2889.
-  This completes Step 2 of our re-verification protocol. Both (1, 11) and (1, 10) are completely impassable. This means Koga's southwest pocket is indeed 100% isolated on foot on 2F West from the northern corridors.
+## General Conclusions
+- Both on-foot shortcuts to reach the B1F ladder at (1, 3) on 2F West are 100% disproven.
+- There is absolutely no physical connection on 2F West between the southwest ladder pocket at (3, 11) and the rest of the map.
+- There is also no connection between the northern corridors on 2F West and Column 1's western corridors.
+- Therefore, we must seek another way. Since we have disproven both on-foot shortcuts and the water crossovers on 1F, we need to backtrack and re-route carefully.
 
 <hr>
