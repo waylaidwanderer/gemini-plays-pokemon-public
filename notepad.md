@@ -8222,7 +8222,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (3, 11) on Map 0_228 on Turn 142967.
+- Current Status: Standing on foot at (3, 17) on Map 0_228 on Turn 142985.
 - **Active Backtracking Log**:
   - Turn 142874: Standing on water at (8, 13) surfing on GEMMY, faced Right.
   - Turn 142876: Surfed Right 1 step to (9, 13) and Down 1 step to (9, 14) on water.
@@ -8234,6 +8234,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - Turn 142944: Executed cave_bfs_solver from (4, 16) to reach (3, 11). The sequence aborted at (2, 14) due to bumping against the solid rock wall at (2, 13) which was missing from the solids database.
   - Turn 142951: Redefined cave_bfs_solver to add (2, 13) to solids_1f, defined map marker at (2, 13), and prepared to proceed correctly.
   - Turn 142957: Executed cave_bfs_solver from (2, 14) to walk on foot to Southwest Ladder 6 at (3, 11), successfully warping up to 2F West (Map 0_226) at (3, 11) on foot on Turn 142957.
+  - Turn 142963: Stepped off the ladder to the north onto (3, 10) and then back down onto (3, 11), successfully warping down to 1F Southwest (Map 0_228) at (3, 11) on foot on Turn 142965.
+  - Turn 142972: Executed cave_bfs_solver to walk to (11, 13) on foot. Interrupted at (3, 17) on Turn 142973 by a wild Sandslash. Fled using flee_battle on Turn 142977, landing on foot at (3, 17) on Turn 142978. Standing on foot at (3, 17) on Map 0_228 on Turn 142985.
   - Turns 142712-142744: Climbed Ladder 5 to warp up to 2F West at (9, 1). Standing at (9, 1) on foot on Map 0_226.
   - Turns 142745-142766: Ran BFS simulations and pathfinder audits to plan the next crossover test.
   - Turn 142767: Walked Left 6 steps on foot from (9, 1) to (3, 1) on Map 0_226.
