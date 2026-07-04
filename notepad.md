@@ -10877,6 +10877,6 @@ To resolve this logical flaw without making unverified assumptions, we will stan
 5. Standing at (3, 3), walk Up to (3, 2), face Left and press Left to test (2, 2).
 6. Standing at (3, 2), walk Up to (3, 1), face Left and press Left to test (2, 1).
 
-- **Current Status**: Standing at (7, 13) on Map 0_228 (1F) on foot on Turn 142853, ready to backtrack on water to reach Ladder 5.
+- **Current Status**: Standing at (7, 13) on Map 0_228 (1F) on foot on Turn 142857, ready to backtrack on water to reach Ladder 5.
 
 <hr>
