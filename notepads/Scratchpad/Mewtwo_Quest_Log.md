@@ -1,6 +1,8 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (15, 3) on Map 0_228 on Turn 143041.
+- Current Status: Standing on foot at (9, 1) on Map 0_226 on Turn 143071.
 - **Active Backtracking Log**:
+  - Turn 143046: Walked Up 2 steps and Left 8 steps from (15, 3) to reach Ladder 5 at (7, 1) on foot on Map 0_228, warping up to 2F West at (9, 1) on foot on Turn 143048.
+  - Turns 143048-143071: Standing on foot at (9, 1) on Map 0_226, planning the northern crossover re-verification protocol.
   - Turn 142994: Walked Down 1 step to stand at Water Ramp 2 at (11, 13) on foot on Turn 142995.
   - Turn 143003: Successfully boarded the water at (11, 14) on Surf.
   - Turn 143034: Surfed Left 2 steps and Up 8 steps to reach (9, 6) on water with zero wild encounters.
