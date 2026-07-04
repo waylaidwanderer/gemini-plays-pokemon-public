@@ -11201,6 +11201,18 @@ Since our systematic northern re-verification protocol on Map 0_226 (2F West) ha
   2. Walk Left to (5, 1) and test Column 4 Row 0 (4, 0), Row 1 (4, 1), and Row 2 (4, 2) again to ensure no false-positive bumps.
   3. Stand at (5, 3) or (5, 2) and systematically test Surf boarding or walking.
 
+## Hypothesis 4: Western Canal Surf Boarding at (3, 12) facing Right onto (4, 12) on 1F Southwest (Map 0_228)
+- **Premise**: Column 4 Row 12 (4, 12) on Map 0_228 is open water, allowing the player to stand at (3, 12) on the elevated southwest platform, face Right (towards the water at 4, 12), and successfully select GEMMY -> SURF to enter the western water canal.
+- **Topological Impact**: If (4, 12) is water, we can Surf Up along Columns 4, 5, 6 on Rows 6-12 to reach the northern landmass at Row 6 and dismount directly onto the land at (3, 6) or (4, 6) or (5, 6). From there, we can walk unblocked to (1, 3) [Northwest Ladder] on foot and enter B1F!
+- **Test Plan**:
+  1. From our current position (9, 1) on 2F West, walk to Southwest Ladder 6 at (3, 11) on foot.
+  2. Descend Southwest Ladder 6 to 1F Southwest at (3, 11).
+  3. Walk Down 1 step to (3, 12) on foot on the elevated southwest platform.
+  4. Turn Right to face (4, 12) (water).
+  5. Open Start menu, choose POKéMON -> GEMMY -> SURF.
+  6. Observe if we successfully board the water at (4, 12) or if it fails with "No SURFing on GEMMY here!".
+- **Experimental Status**: Active. Starting the backtrack to (3, 11) on 2F West.
+
 <hr>
 
 <h1><code>Reflection/Turn143300_Reflection</code></h1>
