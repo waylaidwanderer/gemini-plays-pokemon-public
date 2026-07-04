@@ -11040,7 +11040,7 @@ To resolve the topological layout discrepancy on Map 0_226 (2F West) and Map 0_2
 - There is absolutely no physical connection on 2F West between the southwest ladder pocket at (3, 11) and the rest of the map.
 - There is also no connection between the northern corridors on 2F West and Column 1's western corridors.
 
-- Current Status: Standing on foot at (9, 1) on Map 0_226 (2F West) on Turn 144696, facing UP.
+- Current Status: Standing on foot at (3, 3) on Map 0_226 (2F West) on Turn 144724, facing LEFT.
 - **Turn 144696 Empirical Test Protocol**:
   - We will walk Left from (9, 1) to (3, 1) on foot on Map 0_226.
   - From (3, 1), we will face Left and press Left to test (2, 1). We will observe if we bump or successfully walk onto (2, 1).
