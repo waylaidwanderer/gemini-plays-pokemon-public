@@ -1,12 +1,15 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (9, 1) on Map 0_226 on Turn 143071.
+- Current Status: Standing on foot at (3, 1) on Map 0_226 on Turn 143106.
 - **Active Backtracking Log**:
+  - Turn 143075: Walked Left 6 steps to (3, 1) and Down 2 steps to (3, 3) on foot on Map 0_226.
+  - Turn 143076: Pressed Left to test (2, 3) and Down to test (3, 4). Result: BUMP (visited 0 tiles), physically and conclusively proving that both (2, 3) and (3, 4) are solid rock walls of TYPE_2889 on Map 0_226.
+  - Turn 143084: Walked Up 1 step to (3, 2) on foot on Map 0_226.
+  - Turn 143087: Pressed Left to test (2, 2). Result: BUMP (visited 0 tiles), physically and conclusively proving (2, 2) is a solid rock wall of TYPE_2889.
+  - Turn 143088: Pressed Up to step to (3, 1), interrupted by a wild Level 49 Venomoth. Fled on Turn 143089.
+  - Turn 143090: Pressed Left to re-test (2, 2). Result: BUMP (visited 0 tiles).
+  - Turn 143092: Walked Up 1 step to (3, 1) on foot on Map 0_226.
+  - Turn 143094: Pressed Left to test (2, 1). Result: BUMP (visited 0 tiles), physically and conclusively proving (2, 1) is a solid rock wall of TYPE_2889.
   - Turn 143046: Walked Up 2 steps and Left 8 steps from (15, 3) to reach Ladder 5 at (7, 1) on foot on Map 0_228, warping up to 2F West at (9, 1) on foot on Turn 143048.
-  - Turns 143048-143071: Standing on foot at (9, 1) on Map 0_226, planning the northern crossover re-verification protocol.
-  - Turn 142994: Walked Down 1 step to stand at Water Ramp 2 at (11, 13) on foot on Turn 142995.
-  - Turn 143003: Successfully boarded the water at (11, 14) on Surf.
-  - Turn 143034: Surfed Left 2 steps and Up 8 steps to reach (9, 6) on water with zero wild encounters.
-  - Turn 143037: Surfed Right 6 steps and Up 3 steps to dismount onto Water Ramp 4 at (15, 3) on foot with zero wild encounters on Turn 143041.
   - Turn 142874: Standing on water at (8, 13) surfing on GEMMY, faced Right.
   - Turn 142876: Surfed Right 1 step to (9, 13) and Down 1 step to (9, 14) on water.
   - Turn 142877: Surfed Right 2 steps to (11, 14) on water and stepped Up 1 step to dismount onto Water Ramp 2 at (11, 13) on foot on Turn 142878.
