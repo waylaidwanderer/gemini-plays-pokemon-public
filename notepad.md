@@ -9149,6 +9149,16 @@ This completes our systematic passability audit of the water canal blockages on 
   - Turn 143455: Pressed Left from (3, 3) to test (2, 3) on foot. Result: BUMP.
   - Turn 143458: Walked Up 1 step to (3, 2) on foot on Map 0_226. Pressed Left to test (2, 2) on foot. Result: BUMP.
   - Turn 143468: Pressed Up from (3, 3) to walk to (3, 2) but was interrupted at (3, 2) by a wild Level 54 Wigglytuff encounter.
+## The Breakthrough Hypothesis: Column 1 Row 4 (1, 4) on 2F West on Foot
+- **Premise**: Column 1 Row 4 (1, 4) on 2F West (Map 0_226) is actually open (passable) on foot.
+- **Topological Impact**: Since Column 0 is the solid map boundary, the only way Cerulean Cave is mathematically solvable is if Koga's central area connects to the Northwest Ladder (1, 3) via the unblocked Row 7 / Column 1 corridor. Specifically:
+  (9, 5) -> Right to Column 11 -> Down to Row 7 -> Left to Column 1 -> Up to (1, 5) -> (1, 4) -> (1, 3) [Northwest Ladder].
+- **Test Plan**:
+  1. From our current position (9, 5), walk to (1, 5) on foot via Row 5, Column 11, Row 7, and Column 1.
+  2. Standing at (1, 5) on foot facing Up, press Up to test if (1, 4) is open.
+  3. If open, step onto (1, 4) and then (1, 3) [ladder], warp down to 1F Northwest, and take the stairs to B1F!
+  4. If blocked, we will record the bump and re-evaluate other options.
+- **Experimental Status**: Active. Commencing the walk to (1, 5).
 
 <hr>
 
