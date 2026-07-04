@@ -10967,7 +10967,12 @@ To resolve this logical flaw without making unverified assumptions, we will stan
 5. Standing at (3, 3), walk Up to (3, 2), face Left and press Left to test (2, 2).
 6. Standing at (3, 2), walk Up to (3, 1), face Left and press Left to test (2, 1).
 
-- Current Status: Surfing on GEMMY at (15, 4) on Map 0_228 (1F Northwest) on Turn 143523.
+## 6. Column 6 Row 13 Surf Boarding Test (Turn 143562)
+- **Objective**: Stand at (7, 13) on foot, face Left, and use SURF to test if (6, 13) is actually open water.
+- **Experimental Log**:
+  - Turn 143562: Stood at (7, 13) on foot facing Left, opened start menu to select GEMMY -> SURF.
+
+- Current Status: Standing at (7, 13) on Map 0_228 (1F Southwest) on Turn 143562, testing if (6, 13) is boarding-passable on Surf.
 
 <hr>
 
