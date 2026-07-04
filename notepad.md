@@ -10874,7 +10874,8 @@ To resolve the topological layout discrepancy on Map 0_226 (2F West) and Map 0_2
   - Turn 142472: Tested (1, 11) by pressing Left from (2, 11). Result: BUMP (visited 0 tiles).
   - Turn 142478: Tested (1, 10) by pressing Left from (2, 10). Result: BUMP (visited 0 tiles).
   - Turn 143319: Re-tested (1, 11) by pressing Left from (2, 11). Result: BUMP (visited 0 tiles). Conclusively re-verified (1, 11) is a solid, impassable rock wall of TYPE_2889 on foot.
-- **Conclusive Finding**: Step 2 has failed completely. Both (1, 11) and (1, 10) are solid rock walls of TYPE_2889. Koga's southwest pocket is indeed 100% isolated on foot on 2F West.
+  - Turn 143327: Re-tested (1, 10) by pressing Left from (2, 10). Result: BUMP (visited 0 tiles). Conclusively re-verified (1, 10) is a solid, impassable rock wall of TYPE_2889 on foot.
+- **Conclusive Finding**: Step 2 has failed completely. Both (1, 11) and (1, 10) are solid rock walls of TYPE_2889 on foot on Map 0_226. Koga's southwest pocket is indeed 100% isolated on foot on 2F West.
 
 ## General Conclusions
 - Both on-foot shortcuts to reach the B1F ladder at (1, 3) on 2F West are 100% disproven.
