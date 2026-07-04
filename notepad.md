@@ -8224,6 +8224,22 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 # Post-Game Mewtwo Quest Log & Active Routing
 - Current Status: Standing on foot at (9, 1) on Map 0_226 (2F West) on Turn 144181, facing Down.
 - **Active Backtracking Log**:
+  - Turn 144101: Standing at (7, 13) on foot facing Down, physically tested (7, 14) on foot on Map 0_228. Result: BUMP, proving (7, 14) is a solid rock wall of TYPE_2889.
+  - Turn 144105: Standing on foot at (7, 13) facing Up, pressed Right to face Right towards the water at (8, 13).
+  - Turn 144110: Standing on foot at (7, 13) facing Right, boarded Surf on water at (8, 13) on Surf.
+  - Turn 144116: Surfed Down 1 step to (8, 14), Right 3 steps to (11, 14), and Up 1 step to dismount on foot onto Water Ramp 2 at (11, 13).
+  - Turn 144159: Standing on foot at Water Ramp 2 at (11, 13) facing Down, opened Start menu, selected ITEM, and opened the ITEM bag due to cursor memory.
+  - Turn 144160: Closed the ITEM bag, moved the cursor Up to POKéMON, and opened the party menu.
+  - Turn 144161: Selected GEMMY, opening the party move options menu.
+  - Turn 144162: Selected SURF. Since we were facing UP (towards land at (11, 12)), Surf failed with "No SURFing on GEMMY here!". Auto-advance pressed 'B' twice to clear the text, returning us to the Start menu with the cursor on POKéMON.
+  - Turn 144164: Closed the Start menu and pressed Down in the overworld to turn Down and face the water at (11, 14), bumping on foot.
+  - Turn 144165: Opened the Start menu, moved the cursor to POKéMON, and opened the party menu.
+  - Turn 144166: Selected POKéMON -> GEMMY -> SURF facing Down towards the water at (11, 14), successfully executing SURF and boarding the water canal at (11, 14).
+  - Turn 144169: Surfed Left 2 steps to (9, 14) and Up 4 steps along Column 9 to reach (9, 10) on water with zero wild encounters.
+  - Turn 144175: Surfed Up 3 steps to (9, 7) and Right 3 steps to (12, 7) along the Row 7 crossover water canal.
+  - Turn 144176: Surfed Right 3 steps to (15, 7) and Up 4 steps along Column 15, dismounting onto Water Ramp 4 at (15, 3) on foot.
+  - Turn 144178: Walked Up 1 step to (15, 2) and Left 5 steps along Row 2 to reach (10, 2) on foot with zero wild encounters.
+  - Turn 144179: Walked Left 3 steps along Row 2 to (7, 2) and Up 1 step onto Ladder 5 at (7, 1) on foot, immediately warping up to 2F West (Map 0_226) at (9, 1) on Turn 144181.
   - Turn 144101: Physically tested (7, 14) on foot on Map 0_228 by pressing Down. Result: BUMP, proving (7, 14) is a solid rock wall of TYPE_2889.
   - Turn 144099: Pressed B to close the Start menu and returned to the overworld at (7, 13) facing Up on Turn 144100.
   - Turn 144092: Standing at (7, 13) on foot facing Up, opened POKéMON menu and selected GEMMY -> SURF to test if (7, 12) is open water. Result: "No SURFing on GEMMY here!", proving (7, 12) is not open water.
