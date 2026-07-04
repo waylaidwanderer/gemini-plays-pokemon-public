@@ -857,3 +857,9 @@ This completes our systematic passability audit of the water canal blockages on 
 - **Turns 142296-142301**: Opened the Start Menu on Turn 142293, selected POKéMON on Turn 142298, selected GEMMY on Turn 142299, and activated SURF on Turn 142301 to board the water canal at (11, 14) on Surf. Surfed Left 2 steps to Column 9 and Up 2 steps along Column 9 to reach (9, 12) on Surf on Turn 142302.
 - **Turns 142302-142304**: Surfed Up 6 steps along Column 9 to reach (9, 6) on Surf on Turn 142304 with zero wild encounters.
 - **Turns 142305-142308**: Stood at (9, 6) on Surf on Turn 142305 and pressed Left 2 times to empirically verify the passability of (7, 6) on water. Result: Surfed Left 1 step to (8, 6) on Turn 142306, and bumped against (7, 6) (solid rock TYPE_2889) on Turn 142308. This physically and conclusively disproves the overwatch agent's hypothesis that the Row 6 crossover connects the central canal directly to the western canal on water. Column 7 Row 6 (7, 6) is indeed solid rock and completely impassable on water. Consequently, we must resume our master backtracking route to Southwest Ladder 6. Standing at (8, 6) on water facing Left on Turn 142308.
+- Turn 143134: Standing at (5, 0) facing Left, pressed Left to test (4, 0). Result: BUMP (visited 0 tiles). Re-verified (4, 0) as solid rock wall of TYPE_2889 on foot.
+- Turn 143135: Walked Down 1 step to (5, 1).
+- Turn 143137: Standing at (5, 1) facing Left, pressed Left to test (4, 1). Result: BUMP (visited 0 tiles). Re-verified (4, 1) as solid rock wall of TYPE_2889 on foot.
+- Turn 143138: Walked Down 1 step to (5, 2).
+- Turn 143140: Standing at (5, 2) facing Left, pressed Left to test (4, 2). Interrupted by a wild Level 52 Hypno encounter.
+- Turn 143141: Successfully escaped the wild Hypno encounter using flee_battle, returning to the overworld at (5, 2) on foot.
