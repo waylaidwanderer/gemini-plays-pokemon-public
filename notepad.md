@@ -9101,6 +9101,7 @@ This completes our systematic passability audit of the water canal blockages on 
 - Turn 143144: Standing on foot at (5, 2) on Map 0_228, faced Down and pressed Down to test (5, 3). Result: BUMP (visited 0 tiles). Re-verified (5, 3) as solid rock wall of TYPE_2889 on foot.
 - Turn 143155: Walked Down 1 step from (15, 2) to stand on Water Ramp 4 at (15, 3) on Map 0_228 on foot.
 - Turn 143157: Standing on foot at Water Ramp 4 at (15, 3) on Map 0_228, facing Down.
+  - Turn 143268: Called cave_bfs_solver on foot to navigate to Southwest Ladder 6. Walked Left 2 steps to (15, 16) and Down 1 step to (15, 17), and was interrupted on the next step Left at (15, 17) by a wild Magneton encounter. Fled using flee_battle on Turn 143269, landing on foot at (15, 17) on Map 0_228.
 
 <hr>
 
