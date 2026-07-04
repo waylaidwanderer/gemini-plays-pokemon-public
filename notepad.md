@@ -8222,8 +8222,11 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (3, 3) on Map 0_226 (2F West) on Turn 144254, facing Down.
+- Current Status: Standing on foot at (3, 3) on Map 0_226 (2F West) on Turn 144256, facing Down.
 - **Active Backtracking Log**:
+  - Turn 144219: Standing on foot at (3, 1) facing Left, pressed Left to test Column 2 Row 1 (2, 1) on Map 0_226. Result: BUMP, re-verifying it as solid rock wall of TYPE_2889 on foot.
+  - Turn 144223: Standing on foot at (3, 2) facing Left, pressed Left to test Column 2 Row 2 (2, 2) on Map 0_226. Result: BUMP, re-verifying it as solid rock wall of TYPE_2889 on foot.
+  - Turn 144252: Standing on foot at (3, 2) facing Left, pressed Down to step Down to (3, 3) on foot.
   - Turn 144101: Standing at (7, 13) on foot facing Down, physically tested (7, 14) on foot on Map 0_228. Result: BUMP, proving (7, 14) is a solid rock wall of TYPE_2889.
   - Turn 144105: Standing on foot at (7, 13) facing Up, pressed Right to face Right towards the water at (8, 13).
   - Turn 144110: Standing on foot at (7, 13) facing Right, boarded Surf on water at (8, 13) on Surf.
