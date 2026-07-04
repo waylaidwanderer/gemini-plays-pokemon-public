@@ -1,5 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (9, 3) on Map 0_226 (2F West) on Turn 144303, facing Up.
+- Current Status: Standing on foot at (12, 1) on Map 0_228 (1F) on Turn 144320, facing Right.
 - **Active Backtracking Log**:
   - Turn 144297: Standing at (9, 3) on Map 0_226, attempted to walk Up to (9, 0) using `["Right", "Right", "Right", "Up", "Up", "Up"]` (due to unaligned facing). Result: walked to (9, 3), then pressed Up and bumped against (9, 2) [solid rock wall], remaining at (9, 3) on foot on Turn 144298 facing Up.
   - Turn 144293: Walked Left from (9, 3) to (6, 3) on Map 0_226, where we triggered a wild Level 51 Electrode encounter. Fled using `flee_battle` on Turn 144294, returning to the overworld at (6, 3) facing Down on Turn 144297.
