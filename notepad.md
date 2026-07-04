@@ -8222,15 +8222,20 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (8, 1) on Map 0_226 (2F West) on Turn 144064.
+- Current Status: Standing on foot at (7, 13) on Map 0_228 (1F Southwest/Center) on Turn 144096, in Start Menu.
 - **Active Backtracking Log**:
+  - Turn 144092: Standing at (7, 13) on foot facing Up, opened POKéMON menu and selected GEMMY -> SURF to test if (7, 12) is open water. Result: "No SURFing on GEMMY here!", proving (7, 12) is not open water.
+  - Turn 144085: Physically tested (7, 12) on foot on Map 0_228 by pressing Up. Result: BUMP, proving (7, 12) is a solid, impassable wall on foot from the south.
+  - Turn 144084: Surfed Down along Column 9 to (9, 13), Left to (8, 13), and Left to dismount on foot onto (7, 13) on Map 0_228.
+  - Turn 144081: Surfed Down to (15, 7) and Left along the Row 7 water canal to reach (9, 7) on water on Map 0_228.
+  - Turn 144075: Boarded Surf at (15, 4) on water on Map 0_228.
+  - Turn 144070: Walked from (7, 1) to (15, 3) on foot on Map 0_228.
+  - Turn 144065: Walked Right to (9, 1) to warp back down to 1F Northwest at (7, 1) on foot on Map 0_228.
   - Turn 144060: Walked Left to (8, 1) on foot on Map 0_226.
   - Turn 144020: Walked Up to (5, 1), Right to (6, 1), and Right to (7, 1) on foot on Map 0_228, warping up to 2F West (Map 0_226) at (9, 1) on Turn 144021.
   - Turn 144014: Tested (4, 2) on foot on Map 0_228 under pristine conditions by standing at (5, 2) facing Left and pressing Left. Result: BUMP (visited 0 tiles, player coordinate remained at (5, 2)). Conclusively proved (4, 2) is a solid rock wall of TYPE_2889 and is impassable on foot on 1F Northwest.
-  - Turn 144008: Walked Left from (7, 1) to (5, 2) on foot on Map 0_228 with zero encounters, prepared to test (4, 2).
-  - Turn 144007: Warped down from 2F West at (9, 1) by stepping Left to (8, 1) and stepping back onto (9, 1) to trigger warp, arriving on 1F Northwest at (7, 1) on Turn 144008.
-  - Turn 144001: Walked from (3, 1) to (9, 1) on foot on Map 0_226, ready to warp down.
-  - Turn 143999: Tested (3, 0) on foot on Map 0_226 by standing at (3, 1) facing Up and pressing Up. Result: BUMP (visited 0 tiles, player remained at (3, 1)). Conclusively proved (3, 0) is a solid rock wall of TYPE_2889 and is impassable on foot.
+  - Turn 144011: Walked Left from (7, 1) to (5, 2) on foot on Map 0_228 with zero encounters, prepared to test (4, 2).
+  - Turn 144008: Warped down from 2F West at (9, 1) by stepping Left to (8, 1) and stepping back onto (9, 1) to trigger warp, arriving on 1F Northwest at (7, 1) on Turn 144008.
   - Turns 143877-143940: Walked Left from (9, 5) to test (8, 5) on foot on Turn 143872. Result: BUMP, proving (8, 5) is solid rock of TYPE_2889 and is impassable on foot (officially disproving Hypothesis C). Walked Right 2 steps to (11, 5) on foot on Turn 143935 using `["Right", "Right", "Down", "Down"]` but bumped against (11, 6) (solid rock wall), remaining at (11, 5) on foot.
   - Turns 143854-143877: Walked from (4, 3) towards (9, 5) on Map 0_226 on foot using cave_bfs_solver on Turn 143854. Movement was aborted at (9, 4) on Turn 143854 due to a wild Level 51 Venomoth battle on Turn 143856. Successfully fled using flee_battle on Turn 143856, returning to the overworld at (9, 4) on Turn 143857. Walked Down 1 step to (9, 5) and pressed Left twice on Turn 143858 using `["Down", "Left", "Left"]` to stand facing Left towards (8, 5). Pressed Left twice on Turn 143872 using `["Left", "Left"]` to test Column 8 Row 5 (8, 5) on foot. Result: BUMP (visited 0 tiles, player coordinate remained at (9, 5) on Turn 143873), conclusively proving (8, 5) is a solid rock wall of TYPE_2889 and is impassable on foot. This officially disproves Hypothesis C.
   - Turns 143822-143851: Navigated to (4, 3) on Map 0_226 (2F West) on foot. Run-code and status synchronization completed. Preparing to walk to (9, 5) and systematically test (8, 5) on foot.
