@@ -10783,5 +10783,8 @@ To resolve the topological layout discrepancy on Map 0_226 (2F West) and Map 0_2
 - Turn 142468: Warped up Southwest Ladder 6 to 2F West at (3, 11).
 - Turn 142470: Stepped Left to (2, 11) on foot.
 - Turn 142472: Tested (1, 11) by pressing Left. Result: BUMP (visited 0 tiles). This empirically and conclusively proves that (1, 11) is a solid, impassable rock wall of TYPE_2889.
+- Turn 142477: Stepped Up to (2, 10) on foot.
+- Turn 142478: Tested (1, 10) by pressing Left. Result: BUMP (visited 0 tiles). This empirically and conclusively proves that (1, 10) is a solid, impassable rock wall of TYPE_2889.
+  This completes Step 2 of our re-verification protocol. Both (1, 11) and (1, 10) are completely impassable. This means Koga's southwest pocket is indeed 100% isolated on foot on 2F West from the northern corridors.
 
 <hr>
