@@ -8222,12 +8222,17 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (11, 13) on Map 0_228 on Turn 142892.
+- Current Status: Standing on foot at (2, 14) on Map 0_228 on Turn 142953.
 - **Active Backtracking Log**:
   - Turn 142874: Standing on water at (8, 13) surfing on GEMMY, faced Right.
   - Turn 142876: Surfed Right 1 step to (9, 13) and Down 1 step to (9, 14) on water.
   - Turn 142877: Surfed Right 2 steps to (11, 14) on water and stepped Up 1 step to dismount onto Water Ramp 2 at (11, 13) on foot on Turn 142878.
-  - Turns 142878-142891: Standing on foot at (11, 13) on Map 0_228, updating notepads and preparing to redefine our pathfinder.
+  - Turns 142878-142907: Standing on foot at (11, 13) on Map 0_228, redefined cave_bfs_solver to fix water-mapping bug on (11, 12).
+  - Turn 142908: Executed cave_bfs_solver to walk on foot to Southwest Ladder 6 at (3, 11). Interrupted at (17, 15) by wild Sandslash. Fled using flee_battle on Turn 142935, landing at (17, 15) on foot.
+  - Turn 142936: Executed cave_bfs_solver from (17, 15). Interrupted at (16, 17) by wild Hypno. Fled on Turn 142940, landing at (16, 17) on foot.
+  - Turn 142941: Executed cave_bfs_solver from (16, 17). Interrupted at (4, 16) by wild Magneton. Fled on Turn 142943, landing at (4, 16) on foot.
+  - Turn 142944: Executed cave_bfs_solver from (4, 16) to reach (3, 11). The sequence aborted at (2, 14) due to bumping against the solid rock wall at (2, 13) which was missing from the solids database.
+  - Turn 142951: Redefined cave_bfs_solver to add (2, 13) to solids_1f, defined map marker at (2, 13), and prepared to proceed correctly.
   - Turns 142712-142744: Climbed Ladder 5 to warp up to 2F West at (9, 1). Standing at (9, 1) on foot on Map 0_226.
   - Turns 142745-142766: Ran BFS simulations and pathfinder audits to plan the next crossover test.
   - Turn 142767: Walked Left 6 steps on foot from (9, 1) to (3, 1) on Map 0_226.
