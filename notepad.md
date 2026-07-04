@@ -11095,7 +11095,14 @@ To resolve this logical flaw without making unverified assumptions, we will stan
   - Turn 143562: Stood at (7, 13) on foot facing Left, opened start menu to select GEMMY -> SURF.
   - Turn 143564: Selected SURF on GEMMY facing Left against (6, 13). Result: "No SURFing on GEMMY here!". Conclusively and empirically disproves the Column 6 Row 13 Surf boarding hypothesis, proving (6, 13) is a solid, impassable rock wall of TYPE_2889.
 
-- Current Status: Standing on foot at (2, 8) on Map 0_228 (1F) on Turn 144505, facing UP.
+- Current Status: Standing on Surf at (9, 7) on Map 0_228 (1F) on Turn 144574, facing UP.
+
+### Column 2 Row 7 (2, 7) Southern On-Foot Passability Test (Turn 144470)
+- **Hypothesis**: Column 2 Row 7 (2, 7) on Map 0_228 is passable from south to north on foot.
+- **Experimental Log**:
+  - Turn 144470: Standing on foot at (2, 8) facing UP, pressed Up.
+  - Result: BUMP (visited 0 tiles, player coordinate remained at (2, 8) facing UP).
+  - Conclusion: This physical collision and zero movement empirically and conclusively proves that (2, 7) is an impassable height boundary/ledge from the south on foot on Map 0_228, satisfying the Burden of Proof.
 - **Experimental Log**:
   - Turn 144365: Standing at (8, 9) facing Left on Surf, pressed Down 2 steps to (8, 11) and Left to test Column 7 Row 11 (7, 11). Result: BUMP (visited 2 tiles to reach (8, 11), third button bumped, player coordinate remained at (8, 11) on Turn 144367 facing Left), physically and conclusively re-verifying that (7, 11) is indeed a solid, impassable rock wall of TYPE_2889 on water.
   - Turn 144353: Standing at (8, 8) facing Left on Surf, pressed Down to (8, 9) and Left to test Column 7 Row 9 (7, 9). Result: BUMP (visited 1 tile to reach (8, 9), second button bumped, player coordinate remained at (8, 9) on Turn 144353 facing Left), physically and conclusively re-verifying that (7, 9) is indeed a solid, impassable rock wall of TYPE_2889 on water.
