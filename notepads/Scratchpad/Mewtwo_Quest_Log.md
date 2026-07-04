@@ -1,6 +1,9 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (9, 3) on Map 0_226 (2F West) on Turn 144271, facing Up.
+- Current Status: Standing on foot at (9, 3) on Map 0_226 (2F West) on Turn 144303, facing Up.
 - **Active Backtracking Log**:
+  - Turn 144297: Standing at (9, 3) on Map 0_226, attempted to walk Up to (9, 0) using `["Right", "Right", "Right", "Up", "Up", "Up"]` (due to unaligned facing). Result: walked to (9, 3), then pressed Up and bumped against (9, 2) [solid rock wall], remaining at (9, 3) on foot on Turn 144298 facing Up.
+  - Turn 144293: Walked Left from (9, 3) to (6, 3) on Map 0_226, where we triggered a wild Level 51 Electrode encounter. Fled using `flee_battle` on Turn 144294, returning to the overworld at (6, 3) facing Down on Turn 144297.
+  - Turn 144284: Standing on foot at (9, 3) facing Up, pressed `Right` to test Column 10 Row 3 (10, 3) on foot. Result: BUMP (visited 0 tiles, player coordinate remained at (9, 3) on Turn 144285 facing Right), physically and conclusively proving that (10, 3) is a solid rock wall of TYPE_2889 and is impassable on foot.
   - Turn 144257: Standing on foot at (3, 3) facing Down, pressed Left to test Column 2 Row 3 (2, 3) on Map 0_226. Result: BUMP, re-verifying it as solid rock wall of TYPE_2889 on foot.
   - Turn 144267: Walked Right 6 steps from (3, 3) to (9, 3) and pressed Up 2 times, bumping against (9, 2) [solid rock wall], remaining at (9, 3) on foot on Turn 144270 facing Up.
   - Turn 144219: Standing on foot at (3, 1) facing Left, pressed Left to test Column 2 Row 1 (2, 1) on Map 0_226. Result: BUMP, re-verifying it as solid rock wall of TYPE_2889 on foot.
