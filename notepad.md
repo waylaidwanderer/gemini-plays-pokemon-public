@@ -10842,15 +10842,15 @@ Since the game is 100% solvable, at least one of these "verified" blockages must
 - **Test Status**: Active.
 
 ## 3. Systematic Column 7 Row 11 Water Passability Re-Verification Plan
-- **Hypothesis**: Column 7 Row 11 (7, 11) on water (Map 0_228, 1F) is actually PASSABLE on Surf, contrary to our undocumented "BUMP" record from Turn 140227. If true, this water tile forms the critical, unblocked crossover connecting the central water canal directly to the western water canal on water, allowing us to Surf to 1F Northwest and land directly on the B1F staircase at (1, 3).
+- **Hypothesis**: Column 7 Row 11 (7, 11) on water (Map 0_228, 1F) is actually PASSABLE on Surf, contrary to our undocumented "BUMP" record from Turn 140227.
+- **Results**: Done (Falsified on Turn 142814). Stood at (8, 11) facing Left and pressed Left. Result: BUMP (visited 0 tiles). Physically and conclusively re-proving that (7, 11) is indeed a solid rock wall of TYPE_2889 and completely impassable on water.
+
+## 4. Test Area D: Column 6 Row 13 (6, 13) on Foot on 1F Southwest
+- **Hypothesis**: Column 6 Row 13 (6, 13) on Map 0_228 (1F Southwest) is actually PASSABLE on foot, contrary to our brief "Turn 134488" record. If true, this land tile connects the central water canal/dismount point at (7, 13) directly to the southwest pocket's landmass, allowing us to walk directly from Koga's central area to Southwest Ladder 6 at (3, 11) on foot.
 - **Execution Protocol**:
-  1. Stand on foot at Water Ramp 4 at (15, 3) on Map 0_228 facing Down.
-  2. Open Start Menu -> POKéMON -> GEMMY -> SURF to board the water canal at (15, 4).
-  3. Surf Down along Column 15 to (15, 7) [3 steps Down].
-  4. Surf Left along Row 7 to (9, 7) [6 steps Left].
-  5. Surf Down along Column 9 to (9, 11) [4 steps Down].
-  6. Surf Left 1 step to (8, 11) [1 step Left].
-  7. From (8, 11) on water, face Left and press Left to test Column 7 Row 11 (7, 11) passability on water. Record result.
-- **Current Status**: Standing on foot at (15, 3) on Map 0_228 (1F Northwest) on Turn 142802, ready to execute step 2 (board Surf).
+  1. From our current position (8, 11) on Surf, surf Down 2 steps along Column 8 to (8, 13) [2 steps Down].
+  2. Walk Left 1 step onto (7, 13) to dismount Surf and stand on foot [1 step Left].
+  3. From (7, 13) on foot, face Left and press Left to test Column 6 Row 13 (6, 13) passability on foot. Record result.
+- **Current Status**: Standing at (8, 11) on Map 0_228 (1F) on Surf on Turn 142823, ready to execute step 1 (surf Down to 8, 13).
 
 <hr>
