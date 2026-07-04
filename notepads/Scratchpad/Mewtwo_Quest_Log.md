@@ -1,6 +1,12 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (3, 1) on Map 0_226 (2F West) on Turn 143991.
+- Current Status: Standing on foot at (9, 1) on Map 0_226 (2F West) on Turn 144038.
 - **Active Backtracking Log**:
+  - Turn 144020: Walked Up to (5, 1), Right to (6, 1), and Right to (7, 1) on foot on Map 0_228, warping up to 2F West (Map 0_226) at (9, 1) on Turn 144021.
+  - Turn 144014: Tested (4, 2) on foot on Map 0_228 under pristine conditions by standing at (5, 2) facing Left and pressing Left. Result: BUMP (visited 0 tiles, player coordinate remained at (5, 2)). Conclusively proved (4, 2) is a solid rock wall of TYPE_2889 and is impassable on foot on 1F Northwest.
+  - Turn 144008: Walked Left from (7, 1) to (5, 2) on foot on Map 0_228 with zero encounters, prepared to test (4, 2).
+  - Turn 144007: Warped down from 2F West at (9, 1) by stepping Left to (8, 1) and stepping back onto (9, 1) to trigger warp, arriving on 1F Northwest at (7, 1) on Turn 144008.
+  - Turn 144001: Walked from (3, 1) to (9, 1) on foot on Map 0_226, ready to warp down.
+  - Turn 143999: Tested (3, 0) on foot on Map 0_226 by standing at (3, 1) facing Up and pressing Up. Result: BUMP (visited 0 tiles, player remained at (3, 1)). Conclusively proved (3, 0) is a solid rock wall of TYPE_2889 and is impassable on foot.
   - Turns 143877-143940: Walked Left from (9, 5) to test (8, 5) on foot on Turn 143872. Result: BUMP, proving (8, 5) is solid rock of TYPE_2889 and is impassable on foot (officially disproving Hypothesis C). Walked Right 2 steps to (11, 5) on foot on Turn 143935 using `["Right", "Right", "Down", "Down"]` but bumped against (11, 6) (solid rock wall), remaining at (11, 5) on foot.
   - Turns 143854-143877: Walked from (4, 3) towards (9, 5) on Map 0_226 on foot using cave_bfs_solver on Turn 143854. Movement was aborted at (9, 4) on Turn 143854 due to a wild Level 51 Venomoth battle on Turn 143856. Successfully fled using flee_battle on Turn 143856, returning to the overworld at (9, 4) on Turn 143857. Walked Down 1 step to (9, 5) and pressed Left twice on Turn 143858 using `["Down", "Left", "Left"]` to stand facing Left towards (8, 5). Pressed Left twice on Turn 143872 using `["Left", "Left"]` to test Column 8 Row 5 (8, 5) on foot. Result: BUMP (visited 0 tiles, player coordinate remained at (9, 5) on Turn 143873), conclusively proving (8, 5) is a solid rock wall of TYPE_2889 and is impassable on foot. This officially disproves Hypothesis C.
   - Turns 143822-143851: Navigated to (4, 3) on Map 0_226 (2F West) on foot. Run-code and status synchronization completed. Preparing to walk to (9, 5) and systematically test (8, 5) on foot.
