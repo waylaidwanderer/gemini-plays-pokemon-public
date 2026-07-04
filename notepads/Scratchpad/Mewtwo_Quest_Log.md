@@ -1,6 +1,19 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (3, 15) on Map 0_228 (1F Southwest) on Turn 144541, facing DOWN.
+- Current Status: Standing on Surf at (9, 10) on Map 0_228 (1F) on Turn 144571, facing UP.
 - **Active Backtracking Log**:
+  - Turn 144568: Surfed Up 3 steps along Column 9 from (9, 13) to reach (9, 10) on water.
+  - Turn 144565: Surfed Left 2 steps from (11, 14) to (9, 14) and Up 1 step to reach (9, 13) on water.
+  - Turn 144563: Selected POKéMON -> GEMMY -> SURF, successfully boarding the water canal at (11, 14).
+  - Turn 144562: Opened GEMMY's sub-menu in POKéMON options.
+  - Turn 144561: Moved cursor down in Start menu and opened POKéMON party options.
+  - Turn 144560: Opened the Start menu standing on foot at Water Ramp 2 at (11, 13).
+  - Turn 144552: Walked Left 2 steps from (17, 14) to (15, 14) on foot, Up 2 steps to (15, 12), Left 4 steps along Row 12 to (11, 12), and Down 1 step to stand on foot at Water Ramp 2 at (11, 13).
+  - Turn 144551: Walked Up 1 step to (16, 16) on foot, Right 1 step to (17, 16), Up 1 step to (17, 15) stairs, and Up 1 step to (17, 14) on foot on the central platform.
+  - Turn 144550: Resumed walking Right 4 steps from (12, 17) to reach (16, 17) on foot with zero encounters.
+  - Turn 144548: From (3, 15) on foot, walked Down 2 steps to Row 17 and Right along the southern ground corridor. Interrupted at (12, 17) by a wild Level 49 Parasect encounter, fled successfully using flee_battle, and returned to the overworld at (12, 17) on foot.
+  - Turn 144533: Walked Left 2 steps from (3, 11) on Map 0_228 to (1, 11) on foot, Down 2 steps to (1, 13) via (1, 12) wooden stairs, Down 2 steps to (1, 15) on the ground floor, and Right 2 steps to reach (3, 15) on foot.
+  - Turn 144528: Stepped Up off Southwest Ladder 6 onto (3, 10) on Map 0_226 and back Down onto (3, 11) to trigger warp, arriving on 1F Southwest at (3, 11) on foot.
+  - Turns 144502-144507: From (2, 8) on foot, walked to Southwest Ladder 6 at (3, 11), triggered a wild Level 46 Magneton battle, fled successfully, and climbed Southwest Ladder 6 to warp to 2F West (Map 0_226) at (3, 11) on foot.
   - Turn 144470: Standing on foot at (2, 8) facing UP, pressed Up to test Column 2 Row 7 (2, 7) on foot. Result: BUMP (visited 0 tiles, player coordinate remained at (2, 8) facing UP), physically and conclusively proving that (2, 7) is an impassable height boundary/ledge from the south on foot on Map 0_228.
   - Turn 144469: From Koga's southwest platform at (4, 12), walked Left 2 steps to (2, 12) and Up 4 steps along Column 2 to reach (2, 8) on foot.
   - Turn 144448: Walked Right 1 step from (3, 12) to (4, 12) on foot on the elevated southwest platform, proving (4, 12) is passable land.
