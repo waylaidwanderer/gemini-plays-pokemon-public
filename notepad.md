@@ -10961,7 +10961,7 @@ To resolve this logical flaw without making unverified assumptions, we will stan
 5. Standing at (3, 3), walk Up to (3, 2), face Left and press Left to test (2, 2).
 6. Standing at (3, 2), walk Up to (3, 1), face Left and press Left to test (2, 1).
 
-- Current Status: Standing on foot at (3, 3) on Map 0_226 (2F West) on Turn 143469.
+- Current Status: Surfing on GEMMY at (15, 4) on Map 0_228 (1F Northwest) on Turn 143523.
 
 <hr>
 
