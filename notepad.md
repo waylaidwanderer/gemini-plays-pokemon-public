@@ -10773,5 +10773,7 @@ To resolve the topological layout discrepancy on Map 0_226 (2F West) and Map 0_2
 - Turn 142327: Arrived at Water Ramp 2 at (11, 13) on foot. Preparing to activate Surf and head to Ladder 5.
 - Turn 142375: Arrived at (3, 1) on Map 0_226 on foot.
 - Turn 142377: Tested (2, 1) by pressing Left. Result: BUMP (visited 0 tiles). This empirically and conclusively proves that (2, 1) is a solid, impassable rock wall of TYPE_2889.
+- Turn 142384: Stepped Down to (3, 2) on foot.
+- Turn 142388: Tested (2, 2) by pressing Left. Result: BUMP (visited 0 tiles). This empirically and conclusively proves that (2, 2) is a solid, impassable rock wall of TYPE_2889.
 
 <hr>
