@@ -9155,6 +9155,7 @@ This completes our systematic passability audit of the water canal blockages on 
   - Turn 143978: Pressed Up standing at (3, 3) on foot to walk Up 1 step to (3, 2). Arrived on foot at (3, 2) on Turn 143979 facing Up.
   - Turn 143983: Pressed Left standing at (3, 2) on foot to test Column 2 Row 2 (2, 2). Result: BUMP (visited 0 tiles, player coordinate remained at (3, 2) on Turn 143984 facing Left), physically and conclusively re-verifying that (2, 2) is a solid rock wall of TYPE_2889 on foot.
   - Turn 143988: Pressed Up standing at (3, 2) on foot to walk Up 1 step to (3, 1). Arrived on foot at (3, 1) on Turn 143989 facing Up.
+  - Turn 143993: Pressed Left standing at (3, 1) on foot to test Column 2 Row 1 (2, 1). Result: BUMP (visited 0 tiles, player coordinate remained at (3, 1) on Turn 143994 facing Left), physically and conclusively re-verifying that (2, 1) is a solid rock wall of TYPE_2889 on foot.
 ## The Breakthrough Hypothesis: Column 1 Row 4 (1, 4) on 2F West on Foot
 - **Premise**: Column 1 Row 4 (1, 4) on 2F West (Map 0_226) is actually open (passable) on foot.
 - **Topological Impact**: Since Column 0 is the solid map boundary, the only way Cerulean Cave is mathematically solvable is if Koga's central area connects to the Northwest Ladder (1, 3) via the unblocked Row 7 / Column 1 corridor. Specifically:
