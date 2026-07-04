@@ -1,7 +1,14 @@
 # Post-Game Mewtwo Quest Log & Active Routing
 - Current Status: Standing on Surf at (11, 7) on Map 0_228 (1F) on Turn 144816.
 - **Active Backtracking Log**:
-  - Turn 144749: Backtracked from (3, 3) to Ladder 5 at (9, 1) on foot on Map 0_226, and warped down to 1F Northwest at (7, 1) on foot on Turn 144749.
+  - Turn 144810: Surfed Left 4 steps along Row 7 crossover from (15, 7) to reach (11, 7) on water on Map 0_228 on Turn 144810.
+  - Turn 144804: Surfed Down 3 steps from (15, 4) to (15, 7) on water on Map 0_228.
+  - Turn 144796: Boarded Surf from Water Ramp 4 at (15, 3) onto (15, 4) on water on Map 0_228.
+  - Turn 144792: Walked Right 3 steps to (15, 2) and Down 1 step to stand on Water Ramp 4 at (15, 3) on foot on Map 0_228.
+  - Turn 144791: Walked Down to (7, 2) and Right 5 steps along Row 2 to reach (12, 2) on foot on Map 0_228.
+  - Turn 144783: Walked Right 1 step to step onto Ladder 5 at (9, 1), warping down to Cerulean Cave 1F Northwest at (7, 1) on Map 0_228.
+  - Turn 144781: Step Left off the ladder to (8, 1) and then Right back onto (9, 1) on Map 0_226. Wild Venomoth appeared, fled successfully using flee_battle.
+  - Turn 144754: Backtracked to Ladder 5 at (7, 1) on Map 0_228 and warped back up to 2F West at (9, 1) on foot on Map 0_226.
   - Turn 144740: Standing on foot at (5, 2) on Map 0_228, pressed Left to test Column 4 Row 2 (4, 2) on foot. Result: BUMP (visited 0 tiles).
   - Turn 144738: Standing on foot at (5, 0) on Map 0_228, pressed Left to test Column 4 Row 0 (4, 0) on foot. Result: BUMP (visited 0 tiles).
   - Turn 144736: Standing on foot at (5, 1) on Map 0_228, pressed Left to test Column 4 Row 1 (4, 1) on foot. Result: BUMP (visited 0 tiles).
