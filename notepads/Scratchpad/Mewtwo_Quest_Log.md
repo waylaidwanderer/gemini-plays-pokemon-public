@@ -1,5 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (15, 3) on Map 0_228 (1F) on Turn 142793.
+- Current Status: Standing on foot at (7, 13) on Map 0_228 (1F) on Turn 142832.
 - **Active Backtracking Log**:
   - Turns 142712-142744: Climbed Ladder 5 to warp up to 2F West at (9, 1). Standing at (9, 1) on foot on Map 0_226.
   - Turns 142745-142766: Ran BFS simulations and pathfinder audits to plan the next crossover test.
@@ -18,6 +18,10 @@
   - Turn 142812: Surfed Down 4 steps along Column 9 to (9, 11) and Left 1 step to reach (8, 11) on Surf on Turn 142813.
   - Turn 142814: Pressed Left to test Column 7 Row 11 (7, 11) on Surf. Result: BUMP (visited 0 tiles), physically and conclusively re-proving that (7, 11) is indeed a solid rock wall of TYPE_2889 and completely impassable on water.
   - Turn 142821: Standing at (8, 11) on water, facing Left.
+  - Turn 142826: Surfed Down 2 steps along Column 8 from (8, 11) to (8, 13) on Surf on Turn 142826.
+  - Turn 142827: Pressed Left to dismount Surf and stand on foot at (7, 13) on Map 0_228 on Turn 142827.
+  - Turn 142829: Pressed Left to test Column 6 Row 13 (6, 13) on foot. Result: BUMP (visited 0 tiles), physically and conclusively proving that (6, 13) is indeed a solid rock wall of TYPE_2889 and completely impassable on foot.
+  - Turn 142832: Standing at (7, 13) on Map 0_228 (1F) on foot, facing Left.
   - Turn 142472: Tested (1, 11) on foot on Map 0_226 by pressing Left from (2, 11). Result: BUMP (visited 0 tiles). Empirically and conclusively proves (1, 11) is a solid, impassable rock wall of TYPE_2889.
   - Turn 142477: Walked Up 1 step from (2, 11) to (2, 10) on foot.
   - Turn 142478: Tested (1, 10) on foot on Map 0_226 by pressing Left from (2, 10). Result: BUMP (visited 0 tiles). Empirically and conclusively proves (1, 10) is a solid, impassable rock wall of TYPE_2889.
