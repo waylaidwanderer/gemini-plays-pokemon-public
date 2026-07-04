@@ -8222,8 +8222,13 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (9, 1) on Map 0_226 (2F West) on Turn 142741.
+- Current Status: Standing on foot at (9, 3) on Map 0_226 (2F West) on Turn 142772.
 - **Active Backtracking Log**:
+  - Turns 142712-142744: Climbed Ladder 5 to warp up to 2F West at (9, 1). Standing at (9, 1) on foot on Map 0_226.
+  - Turns 142745-142766: Ran BFS simulations and pathfinder audits to plan the next crossover test.
+  - Turn 142767: Walked Left 6 steps on foot from (9, 1) to (3, 1) on Map 0_226.
+  - Turn 142768: Walked Down 2 steps from (3, 1) to (3, 3) and Right 6 steps along Row 3 to reach (9, 3) on foot on Map 0_226.
+  - Turn 142772: Standing at (9, 3) on foot on Map 0_226, facing Right.
   - Turn 142472: Tested (1, 11) on foot on Map 0_226 by pressing Left from (2, 11). Result: BUMP (visited 0 tiles). Empirically and conclusively proves (1, 11) is a solid, impassable rock wall of TYPE_2889.
   - Turn 142477: Walked Up 1 step from (2, 11) to (2, 10) on foot.
   - Turn 142478: Tested (1, 10) on foot on Map 0_226 by pressing Left from (2, 10). Result: BUMP (visited 0 tiles). Empirically and conclusively proves (1, 10) is a solid, impassable rock wall of TYPE_2889.
