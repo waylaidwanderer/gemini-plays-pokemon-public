@@ -11110,6 +11110,9 @@ To resolve this logical flaw without making unverified assumptions, we will stan
 - **Test of Column 7 Row 8 (7, 8) (Turn 144345)**:
   - Protocol: From (8, 7) facing Left on Surf, press Down to (8, 8) and Left to test if (7, 8) is open water or a passable landing tile.
   - Result: BUMP (visited 1 tile to reach (8, 8), second button bumped, player coordinate remained at (8, 8) on Turn 144347 facing Left), physically and conclusively re-verifying that (7, 8) is indeed a solid, impassable rock wall of TYPE_2889 on water.
+- **Test of Column 7 Row 12 (7, 12) (Turn 144372)**:
+  - Protocol: From (8, 11) facing Left on Surf, press Down to (8, 12) and Left to test if (7, 12) is open water or a passable landing tile.
+  - Result: BUMP (visited 1 tile to reach (8, 12), second button bumped, player coordinate remained at (8, 12) on Turn 144373 facing Left), physically and conclusively re-verifying that (7, 12) is indeed a solid, impassable rock wall of TYPE_2889 on water.
 
 <hr>
 
