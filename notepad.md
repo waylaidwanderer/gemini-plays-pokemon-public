@@ -11114,13 +11114,16 @@ To resolve this logical flaw without making unverified assumptions, we will stan
   - Turn 143562: Stood at (7, 13) on foot facing Left, opened start menu to select GEMMY -> SURF.
   - Turn 143564: Selected SURF on GEMMY facing Left against (6, 13). Result: "No SURFing on GEMMY here!". Conclusively and empirically disproves the Column 6 Row 13 Surf boarding hypothesis, proving (6, 13) is a solid, impassable rock wall of TYPE_2889.
 
-- Current Status: Standing on foot at (3, 3) on Map 0_226 (2F West) on Turn 144729, facing LEFT.
+- Current Status: Standing on foot at (5, 2) on Map 0_228 (1F Northwest) on Turn 144743, facing LEFT.
 
-### Empirical Re-Verification Results (Turn 144712):
-- **Turn 144704**: Tested (2, 1) by pressing Left from (3, 1). Result: BUMP (visited 0 tiles). (2, 1) is solid.
-- **Turn 144708**: Tested (2, 2) by pressing Left from (3, 2). Result: BUMP (visited 0 tiles). (2, 2) is solid.
-- **Turn 144710**: Tested (2, 3) by pressing Left from (3, 3). Result: BUMP (visited 0 tiles). (2, 3) is solid.
-- **Conclusion**: Candidate (a) (Column 2 Rows 1-3 on 2F West) is 100% solid and impassable on foot. This fully disproves Hypothesis A, confirming that Column 2 is 100% solid on Rows 1-3.
+### Empirical Re-Verification Results (Turn 144743):
+- **Turn 144704**: Tested (2, 1) by pressing Left from (3, 1) on 2F West. Result: BUMP (visited 0 tiles). (2, 1) is solid.
+- **Turn 144708**: Tested (2, 2) by pressing Left from (3, 2) on 2F West. Result: BUMP (visited 0 tiles). (2, 2) is solid.
+- **Turn 144710**: Tested (2, 3) by pressing Left from (3, 3) on 2F West. Result: BUMP (visited 0 tiles). (2, 3) is solid.
+- **Turn 144736**: Tested (4, 1) by pressing Left from (5, 1) on 1F Northwest. Result: BUMP (visited 0 tiles). (4, 1) is solid.
+- **Turn 144738**: Tested (4, 0) by pressing Left from (5, 0) on 1F Northwest. Result: BUMP (visited 0 tiles). (4, 0) is solid.
+- **Turn 144740**: Tested (4, 2) by pressing Left from (5, 2) on 1F Northwest. Result: BUMP (visited 0 tiles). (4, 2) is solid.
+- **Conclusion**: BOTH Candidate (a) (Column 2 Rows 1-3 on 2F West) and Candidate (b) (Column 4 Rows 0-2 on 1F Northwest) are 100% solid and impassable on foot. Both Hypothesis A and Hypothesis 3 are completely disproven with absolute empirical rigor.
 
 ### Column 2 Row 7 (2, 7) Southern On-Foot Passability Test (Turn 144470)
 - **Hypothesis**: Column 2 Row 7 (2, 7) on Map 0_228 is passable from south to north on foot.
