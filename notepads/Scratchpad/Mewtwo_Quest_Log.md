@@ -1,8 +1,13 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (9, 1) on Map 0_226 (2F West) on Turn 144693, facing UP.
+- Current Status: Standing on foot at (3, 3) on Map 0_226 (2F West) on Turn 144721, facing LEFT.
 - **Active Backtracking Log**:
+  - Turn 144710: Standing on foot at (3, 3) facing Left, pressed Left to test (2, 3) on Map 0_226 on foot. Result: BUMP (visited 0 tiles).
+  - Turn 144709: Walked Down 1 step from (3, 2) to reach (3, 3) on foot on Map 0_226.
+  - Turn 144708: Standing on foot at (3, 2) facing Left, pressed Left to test (2, 2) on Map 0_226 on foot. Result: BUMP (visited 0 tiles).
+  - Turn 144706: Walked Down 1 step from (3, 1) to reach (3, 2) on foot on Map 0_226.
+  - Turn 144704: Standing on foot at (3, 1) facing Left, pressed Left to test (2, 1) on Map 0_226 on foot. Result: BUMP (visited 0 tiles).
+  - Turn 144703: Used cave_bfs_solver to walk Left 6 steps from (9, 1) to reach (3, 1) on foot on Map 0_226.
   - Turn 144655: Walked Left 4 steps from (11, 1) to stand on Ladder 5 at (7, 1) on Map 0_228, immediately warping up to 2F West (Map 0_226) at (9, 1) on foot on Turn 144655.
-  - Turn 144643: Walked Left 4 steps from (15, 1) to (11, 1) on foot on Map 0_228 on Turn 144647.
   - Turn 144643: Walked Left 4 steps from (15, 1) to (11, 1) on foot on Map 0_228 on Turn 144647.
   - Turn 144633: From (15, 3) on foot, walked Up 2 steps to (15, 1) on foot, where we were immediately interrupted on our next step Left towards (14, 1) by a wild Level 46 Parasect encounter on Turn 144634.
   - Turn 144620: Surfed Up 2 steps, Right 1 step, and Up 1 step from (14, 6) to reach Water Ramp 4 at (15, 3) on foot, dismounting Surf.
