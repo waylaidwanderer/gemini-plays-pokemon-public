@@ -10775,3 +10775,57 @@ To resolve the topological layout discrepancy on Map 0_226 (2F West) and Map 0_2
 - Therefore, we must seek another way. Since we have disproven both on-foot shortcuts and the water crossovers on 1F, we need to backtrack and re-route carefully.
 
 <hr>
+
+<h1><code>Scratchpad/Mewtwo_Crossover_Reevaluation</code></h1>
+
+# Mewtwo Crossover Re-Evaluation & Topological Contradiction
+
+## 1. The Logical Contradiction
+Under our current "verified" map markers and collision databases, Cerulean Cave is mathematically unsolvable. The B1F access staircase at (1, 3) is completely isolated:
+- 2F West southwest pocket containing Southwest Ladder 6 at (3, 11) is isolated on foot (Step 1 and Step 2 of the Northwest Path Test proved Column 2 Rows 1-3 are solid, Column 1 Rows 10-11 are solid, and Row 8 Columns 3-12 are solid).
+- 1F Northwest landmass is isolated (Column 4 Rows 0-2 are solid rock walls).
+- 1F Northwest water is isolated (Column 7 Rows 6, 8, 9, 10 are solid rock walls).
+- 2F East is isolated from 2F West on Row 17 (20, 17 is solid).
+
+Since the game is 100% solvable, at least one of these "verified" blockages must be a false positive. We must systematically re-evaluate the most likely crossover candidates.
+
+## 2. High-Priority Crossover Hypotheses
+
+### Hypothesis A: 2F West Row 4 (Columns 1-2) Passability
+- **Premise**: Row 4 on Column 1 or Column 2 is actually open (passable) on 2F West. If (1, 4) or (2, 4) is open, we can walk Vertically on Column 1 or 2 to connect Koga's southwest pocket directly to the Northwest Ladder at (1, 3).
+- **Test Status**: Unverified.
+- **Testing Protocol**:
+  1. From our current position (2, 10), walk Up to (2, 5) or Left to (1, 10) -> wait, (1, 10) is solid.
+  2. Walk Left to (1, 12) from (2, 12)? Wait, we must check how to reach Column 1 or 2 at Row 5.
+  3. Let's trace how to reach (1, 5) or (2, 5) on foot:
+     - From (3, 11), we can walk Up to (3, 9) and Right to (12, 9) -> (12, 10) -> (12, 14) -> Row 17 -> Koga's East side. But we cannot reach Rows 5-7 on Column 1-5 because Row 8 is solid from Column 3 to 12.
+     - Wait! Can we reach Rows 5-7 (Column 1-5) from the northern area via Ladder 5 at (9, 1)?
+       - Yes! If we warp up Ladder 5 at (9, 1), we land in Koga's northern area.
+       - From (9, 1), we can walk Left along Row 1 to (3, 1), Down to (3, 3), and then to Row 5.
+       - Row 5 is open on Columns 1-5 on the screen!
+       - So we can walk to (1, 5) or (2, 5) on foot!
+       - From (1, 5), press Up to test if (1, 4) is passable.
+       - From (2, 5), press Up to test if (2, 4) is passable.
+
+### Hypothesis B: Column 21 / 22 / 23 Crossovers on 2F West
+- **Premise**: There is a horizontal crossover connecting Koga's southwest/central section to Koga's east section on Row 9 or Row 11.
+- **Test Status**: Partially verified. We know (21, 9) and (21, 11) are open, but (22, 9) is solid. We must test if (22, 11) is open.
+- **Testing Protocol**:
+  1. From (17, 11) on Koga's East side, walk Right to Column 21 at (21, 11) and test if we can walk further Right to (22, 11) and (23, 11) to reach Koga's Eastern corridors.
+
+### Hypothesis C: Row 5 / Column 13 Water Crossovers on 1F
+- **Premise**: Column 13 is open on water at Row 4 or Row 5, allowing us to Surf from the central canal directly into the western canal.
+- **Test Status**: Done (Disproven on Turns 140952 and 140954). Both (13, 4) and (13, 5) are 100% solid on water.
+
+## 3. Immediate Action Plan
+We are currently in Koga's southwest pocket at (2, 10). To test Hypothesis A:
+1. Walk to Southwest Ladder 6 at (3, 11).
+2. Warp down to 1F.
+3. Return to Water Ramp 2 at (11, 13) via Row 17 southern ground floor.
+4. Surf through the Row 6 water crossover to Water Ramp 4 at (15, 3).
+5. Walk to Ladder 5 at (7, 1) and warp up to 2F West at (9, 1).
+6. Walk to (1, 5) and (2, 5) on foot.
+7. Perform the empirical vertical passability tests on Row 4: press Up from (1, 5) and (2, 5) to verify if (1, 4) or (2, 4) is open.
+8. If either is open, we have found the true unblocked corridor to Mewtwo!
+
+<hr>
