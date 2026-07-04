@@ -8222,7 +8222,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (11, 13) on Map 0_228 (1F) on Turn 144393, facing Up.
+- Current Status: Standing on foot at (17, 15) on Map 0_228 (1F) on Turn 144426, facing Down.
 - **Active Backtracking Log**:
   - Turn 144372: Standing at (8, 11) facing Left on Surf, pressed Down to (8, 12) and Left to test Column 7 Row 12 (7, 12). Result: BUMP (visited 1 tile to reach (8, 12), second button bumped, player coordinate remained at (8, 12) on Turn 144373 facing Left), physically and conclusively re-verifying that (7, 12) is indeed a solid, impassable rock wall of TYPE_2889 on water.
   - Turn 144365: Standing at (8, 9) facing Left on Surf, pressed Down 2 steps to (8, 11) and Left to test Column 7 Row 11 (7, 11). Result: BUMP (visited 2 tiles to reach (8, 11), third button bumped, player coordinate remained at (8, 11) on Turn 144367 facing Left), physically and conclusively re-verifying that (7, 11) is indeed a solid, impassable rock wall of TYPE_2889 on water.
