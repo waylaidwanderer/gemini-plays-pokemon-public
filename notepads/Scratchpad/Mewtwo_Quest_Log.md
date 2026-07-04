@@ -1,6 +1,9 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on Surf at (14, 6) on Map 0_228 (1F) on Turn 144582, facing UP.
+- Current Status: Standing on Surf at (14, 6) on Map 0_228 (1F) on Turn 144589, facing UP.
 - **Active Backtracking Log**:
+  - Turn 144581: Surfed Right 2 steps along Row 7 crossover from (12, 7) to (14, 7) and Up 1 step to reach (14, 6) on water.
+  - Turn 144576: Surfed Right 3 steps along Row 7 crossover from (9, 7) to reach (12, 7) on water.
+  - Turn 144573: Surfed Up 3 steps along Column 9 from (9, 10) to reach (9, 7) on water.
   - Turn 144568: Surfed Up 3 steps along Column 9 from (9, 13) to reach (9, 10) on water.
   - Turn 144565: Surfed Left 2 steps from (11, 14) to (9, 14) and Up 1 step to reach (9, 13) on water.
   - Turn 144563: Selected POKéMON -> GEMMY -> SURF, successfully boarding the water canal at (11, 14).
