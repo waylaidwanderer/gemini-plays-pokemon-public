@@ -1,5 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (3, 3) on Map 0_226 (2F West) on Turn 144256, facing Down.
+- Current Status: Standing on foot at (3, 3) on Map 0_226 (2F West) on Turn 144264, facing Left.
 - **Active Backtracking Log**:
   - Turn 144219: Standing on foot at (3, 1) facing Left, pressed Left to test Column 2 Row 1 (2, 1) on Map 0_226. Result: BUMP, re-verifying it as solid rock wall of TYPE_2889 on foot.
   - Turn 144223: Standing on foot at (3, 2) facing Left, pressed Left to test Column 2 Row 2 (2, 2) on Map 0_226. Result: BUMP, re-verifying it as solid rock wall of TYPE_2889 on foot.
