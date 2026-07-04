@@ -8222,8 +8222,16 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Surfing at (8, 6) on Map 0_228 (1F) on Turn 144331, facing Left.
+- Current Status: Surfing at (8, 6) on Map 0_228 (1F) on Turn 144334, facing Left.
 - **Active Backtracking Log**:
+  - Turn 144326: Standing at (8, 6) facing Left on Surf, pressed Left to test Column 7 Row 6 (7, 6). Result: BUMP (visited 0 tiles, player coordinate remained at (8, 6) on Turn 144328 facing Left), physically and conclusively proving that (7, 6) is indeed a solid, impassable rock wall of TYPE_2889 on water.
+  - Turn 144324: From (15, 4) on Surf, surfed Left to (14, 4), Down to (14, 5), Down to (14, 6), Left to (13, 6), Left to (12, 6), Left to (11, 6), Left to (10, 6), Left to (9, 6), Left to (8, 6), arriving on Surf on Turn 144326.
+  - Turn 144323: On Water Ramp 4 at (15, 3) facing Down, opened POKéMON menu and selected GEMMY -> SURF, successfully boarding the water canal at (15, 4) on Surf on Turn 144324.
+  - Turn 144321: Walked Right 3 steps to (15, 1) and Down 2 steps to stand at (15, 3) on foot on Map 0_228.
+  - Turn 144319: Walked Right 5 steps along Row 1 from (7, 1) to (12, 1) on Map 0_228 on foot.
+  - Turn 144318: From (3, 1) on Map 0_226, walked Right 6 steps to (9, 1) and warped down Ladder 5, arriving on 1F Northwest at (7, 1) on Turn 144319.
+  - Turn 144316: Walked Left from (6, 3) to (3, 3) and Up to (3, 1) on Map 0_226, getting interrupted at (3, 1) by a wild Level 47 Wigglytuff encounter. Fled using `flee_battle` on Turn 144317, returning to the overworld at (3, 1) facing Up.
+  - Turn 144312: From (9, 3) on Map 0_226, walked Left 3 steps to (6, 3), getting interrupted by a wild Level 49 Rhydon encounter on Turn 144313. Fled using `flee_battle` on Turn 144313, returning to the overworld at (6, 3) facing Down.
   - Turn 144297: Standing at (9, 3) on Map 0_226, attempted to walk Up to (9, 0) using `["Right", "Right", "Right", "Up", "Up", "Up"]` (due to unaligned facing). Result: walked to (9, 3), then pressed Up and bumped against (9, 2) [solid rock wall], remaining at (9, 3) on foot on Turn 144298 facing Up.
   - Turn 144293: Walked Left from (9, 3) to (6, 3) on Map 0_226, where we triggered a wild Level 51 Electrode encounter. Fled using `flee_battle` on Turn 144294, returning to the overworld at (6, 3) facing Down on Turn 144297.
   - Turn 144284: Standing on foot at (9, 3) facing Up, pressed `Right` to test Column 10 Row 3 (10, 3) on foot. Result: BUMP (visited 0 tiles, player coordinate remained at (9, 3) on Turn 144285 facing Right), physically and conclusively proving that (10, 3) is a solid rock wall of TYPE_2889 and is impassable on foot.
@@ -8231,6 +8239,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - Turn 144267: Walked Right 6 steps from (3, 3) to (9, 3) and pressed Up 2 times, bumping against (9, 2) [solid rock wall], remaining at (9, 3) on foot on Turn 144270 facing Up.
   - Turn 144219: Standing on foot at (3, 1) facing Left, pressed Left to test Column 2 Row 1 (2, 1) on Map 0_226. Result: BUMP, re-verifying it as solid rock wall of TYPE_2889 on foot.
   - Turn 144223: Standing on foot at (3, 2) facing Left, pressed Left to test Column 2 Row 2 (2, 2) on Map 0_226. Result: BUMP, re-verifying it as solid rock wall of TYPE_2889 on foot.
+  - Turn 144181: Warped up to 2F West at (9, 1), walked Left to (3, 1), Down to (3, 2) on Map 0_226.
+  - Turn 144179: Walked Left 3 steps along Row 2 to (7, 2) and Up 1 step onto Ladder 5 at (7, 1) on foot on Map 0_228, warping up to 2F West at (9, 1) on Turn 144181.
   - Turn 144252: Standing on foot at (3, 2) facing Left, pressed Down to step Down to (3, 3) on foot.
   - Turn 144101: Standing at (7, 13) on foot facing Down, physically tested (7, 14) on foot on Map 0_228. Result: BUMP, proving (7, 14) is a solid rock wall of TYPE_2889.
   - Turn 144105: Standing on foot at (7, 13) facing Up, pressed Right to face Right towards the water at (8, 13).
