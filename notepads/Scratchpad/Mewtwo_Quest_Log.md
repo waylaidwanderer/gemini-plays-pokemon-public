@@ -1,11 +1,16 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (3, 3) on Map 0_226 (2F West) on Turn 144721, facing LEFT.
+- Current Status: Standing on foot at (7, 1) on Map 0_228 (1F Northwest) on Turn 144751, facing DOWN.
 - **Active Backtracking Log**:
-  - Turn 144710: Standing on foot at (3, 3) facing Left, pressed Left to test (2, 3) on Map 0_226 on foot. Result: BUMP (visited 0 tiles).
+  - Turn 144749: Backtracked from (3, 3) to Ladder 5 at (9, 1) on foot on Map 0_226, and warped down to 1F Northwest at (7, 1) on foot on Turn 144749.
+  - Turn 144740: Standing on foot at (5, 2) on Map 0_228, pressed Left to test Column 4 Row 2 (4, 2) on foot. Result: BUMP (visited 0 tiles).
+  - Turn 144738: Standing on foot at (5, 0) on Map 0_228, pressed Left to test Column 4 Row 0 (4, 0) on foot. Result: BUMP (visited 0 tiles).
+  - Turn 144736: Standing on foot at (5, 1) on Map 0_228, pressed Left to test Column 4 Row 1 (4, 1) on foot. Result: BUMP (visited 0 tiles).
+  - Turn 144733: Walked Left 2 steps from (7, 1) to (5, 1) on foot on Map 0_228.
+  - Turn 144710: Standing on foot at (3, 3) on Map 0_226, pressed Left to test Column 2 Row 3 (2, 3) on foot. Result: BUMP (visited 0 tiles).
   - Turn 144709: Walked Down 1 step from (3, 2) to reach (3, 3) on foot on Map 0_226.
-  - Turn 144708: Standing on foot at (3, 2) facing Left, pressed Left to test (2, 2) on Map 0_226 on foot. Result: BUMP (visited 0 tiles).
+  - Turn 144708: Standing on foot at (3, 2) on Map 0_226, pressed Left to test Column 2 Row 2 (2, 2) on foot. Result: BUMP (visited 0 tiles).
   - Turn 144706: Walked Down 1 step from (3, 1) to reach (3, 2) on foot on Map 0_226.
-  - Turn 144704: Standing on foot at (3, 1) facing Left, pressed Left to test (2, 1) on Map 0_226 on foot. Result: BUMP (visited 0 tiles).
+  - Turn 144704: Standing on foot at (3, 1) on Map 0_226, pressed Left to test Column 2 Row 1 (2, 1) on foot. Result: BUMP (visited 0 tiles).
   - Turn 144703: Used cave_bfs_solver to walk Left 6 steps from (9, 1) to reach (3, 1) on foot on Map 0_226.
   - Turn 144655: Walked Left 4 steps from (11, 1) to stand on Ladder 5 at (7, 1) on Map 0_228, immediately warping up to 2F West (Map 0_226) at (9, 1) on foot on Turn 144655.
   - Turn 144643: Walked Left 4 steps from (15, 1) to (11, 1) on foot on Map 0_228 on Turn 144647.
