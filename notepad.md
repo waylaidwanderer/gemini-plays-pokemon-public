@@ -10837,11 +10837,7 @@ To resolve the topological layout discrepancy on Map 0_226 (2F West) and Map 0_2
 - There is absolutely no physical connection on 2F West between the southwest ladder pocket at (3, 11) and the rest of the map.
 - There is also no connection between the northern corridors on 2F West and Column 1's western corridors.
 
-- Turn 142517: Warped down Southwest Ladder 6 to Map 0_228 (1F Southwest) on foot at (3, 11).
-- Turn 142560: Walked 9 steps on foot on Map 0_228 southern ground floor to reach (2, 17) on foot.
-- Turn 142687: Standing at (5, 2) on foot on Map 0_228 after disproving Test Area A, returning to Ladder 5 to warp up to 2F West to proceed with other re-verification areas.
-- Turn 142699: Warped back up to 2F West (9, 1) on foot on Turn 142699.
-- Turn 143072: Ready to execute northern re-verification protocol on foot at (3, 3).
+- Turn 143101: Standing on foot at (3, 1) on Map 0_226. Completed northern re-verification protocol on foot, proving Column 2 (Rows 1-3) and (3, 4) are completely solid rock walls.
 
 <hr>
 
