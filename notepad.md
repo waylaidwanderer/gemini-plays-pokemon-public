@@ -8232,6 +8232,15 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - Turn 142784: Walked Right 8 steps and Down 2 steps along Row 1 and Column 15 on foot to reach Water Ramp 4 at (15, 3) on Map 0_228 on Turn 142785.
   - Turns 142785-142792: Ran programmatic BFS simulations and crossover re-evaluations, updated notepads, and performed system updates.
   - Turn 142793: Standing on foot at (15, 3) on Map 0_228 facing Down, ready to Surf.
+  - Turn 142804: Opened Start menu.
+  - Turn 142805: Selected POKéMON.
+  - Turn 142806: Selected GEMMY.
+  - Turn 142807: Selected SURF, successfully boarding the water canal at (15, 4) on Surf on Turn 142808.
+  - Turn 142809: Surfed Down 3 steps along Column 15 from (15, 4) to (15, 7) on Surf on Turn 142809.
+  - Turn 142810: Surfed Left 6 steps along Row 7 from (15, 7) to (9, 7) on Surf on Turn 142810.
+  - Turn 142812: Surfed Down 4 steps along Column 9 to (9, 11) and Left 1 step to reach (8, 11) on Surf on Turn 142813.
+  - Turn 142814: Pressed Left to test Column 7 Row 11 (7, 11) on Surf. Result: BUMP (visited 0 tiles), physically and conclusively re-proving that (7, 11) is indeed a solid rock wall of TYPE_2889 and completely impassable on water.
+  - Turn 142821: Standing at (8, 11) on water, facing Left.
   - Turn 142472: Tested (1, 11) on foot on Map 0_226 by pressing Left from (2, 11). Result: BUMP (visited 0 tiles). Empirically and conclusively proves (1, 11) is a solid, impassable rock wall of TYPE_2889.
   - Turn 142477: Walked Up 1 step from (2, 11) to (2, 10) on foot.
   - Turn 142478: Tested (1, 10) on foot on Map 0_226 by pressing Left from (2, 10). Result: BUMP (visited 0 tiles). Empirically and conclusively proves (1, 10) is a solid, impassable rock wall of TYPE_2889.
