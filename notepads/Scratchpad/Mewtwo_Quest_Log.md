@@ -1,5 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (9, 1) on Map 0_226 (2F West) on Turn 143747.
+- Current Status: Standing on foot at (4, 3) on Map 0_226 (2F West) on Turn 143792.
 - **Active Backtracking Log**:
   - Turn 143746: Called cave_bfs_solver on foot to walk from (5, 2) to Ladder 5 at (7, 1) on Map 0_228. Successfully walked 3 steps (Up to (5, 1), Right to (6, 1), Right to (7, 1)), immediately warping up to 2F West (Map 0_226) at (9, 1) on foot on Turn 143747.
   - Turn 143737: Stood at (5, 2) facing Left and pressed Left to test (4, 2) on foot. Result: BUMP (visited 0 tiles, player remained at (5, 2)), conclusively proving (4, 2) is a solid, impassable rock wall of TYPE_2889 on foot and disproving the 1F Northwest landmass bypass hypothesis.
