@@ -1,6 +1,7 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (11, 13) on Map 0_228 (1F Southwest) on Turn 143585.
+- Current Status: Standing on foot at (3, 11) on Map 0_226 (2F West) on Turn 143614.
 - **Active Backtracking Log**:
+  - Turns 143589-143609: Called cave_bfs_solver on foot to walk from Water Ramp 2 at (11, 13) to Southwest Ladder 6 at (3, 11) on Map 0_228. Fled wild Level 46 Hypno at (15, 14) on Turn 143602, wild Level 46 Magneton at (16, 17) on Turn 143604, and wild Level 46 Golbat at (1, 14) on Turn 143607. Climbed Southwest Ladder 6 to warp to 2F West at (3, 11) on Turn 143609.
   - Turns 143556-143561: Surfed Left 3 steps, Up 1 step, and Left 1 step from (11, 14) to dismount on foot at (7, 13) on Turn 143561.
   - Turns 143562-143568: Conducted Column 6 Row 13 Surf boarding test standing at (7, 13) on foot facing Left against (6, 13). Select SURF on GEMMY failed with "No SURFing on GEMMY here!", conclusively disproving that (6, 13) is open water and proving it is solid rock of TYPE_2889 on Turn 143564.
   - Turns 143569-143576: Exited menu, turned Right to face the water at (8, 13) on Turn 143573, opened menu and selected POKéMON -> GEMMY -> SURF to board the water at (8, 13) on Surf on Turn 143576.
