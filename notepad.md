@@ -11030,18 +11030,31 @@ Since our systematic northern re-verification protocol on Map 0_226 (2F West) ha
 
 <h1><code>Reflection/Turn143300_Reflection</code></h1>
 
-# Turn 143300 Self-Assessment Reflection
+# 50-Turn Self-Assessment & Reflection (Turn 143768)
 
-## 1. Have you completed any major quest or game-progression step since your last reflection?
-Yes! We successfully backtracked on foot from the center of 1F (15, 12) along the unblocked Row 17 southern ground-floor bypass corridor to the southwest stairs, and ascended Southwest Ladder 6 at (3, 11) on Turn 143303 to reach 2F West.
+## 1. Immediate Execution & Progress Review
+- Over the last 50 turns, we transitioned from 1F water up to 2F West (9, 1) via Ladder 5 to resume our systematic layout re-evaluation.
+- We have fully mapped out the layout of 2F West and confirmed Koga's southwest pocket is 100% isolated on foot because of Row 8 and Row 16 solid walls.
+- We have also disproved the 1F Northwest bypass hypothesis, showing that 1F Northwest is completely isolated on foot.
+- Our current objective is to resolve this contradiction by identifying which blockage is a false positive. We will systematically test (4, 4) on foot on Map 0_226 by walking to (4, 3) and pressing Down to see if we can pass.
 
-## 2. Have you successfully verified a major hypothesis or discovered any new mechanics?
-Yes! We have successfully conducted physical re-verification of Hypothesis 1 on 2F West (Column 1 Rows 10-11 passability) on foot. We pressed Left against (1, 11) on Turn 143319 and against (1, 10) on Turn 143327, and both resulted in BUMPs, conclusively proving they are solid rock walls of TYPE_2889. We also successfully synchronized the status logs across all active notepads and defined the map marker at (17, 12).
+## 2. Notepad Hygiene
+- Checked all active notepads. We have kept `Main`, `Locations/CeruleanCave`, `Scratchpad/Mewtwo_Quest_Log`, `Scratchpad/Mewtwo_Northwest_Path_Test`, `Scratchpad/Mewtwo_Crossover_Reevaluation`, and `Scratchpad/Mewtwo_Unexplored_Bypasses` updated.
+- We will keep these notepads loaded to maintain consistent spatial awareness.
 
-## 3. Are you stuck or experiencing any loop, and if so, how will you break it?
-No loops. We are systematically executing our unverified boundaries test plan in Koga's southwest pocket.
+## 3. Map Hygiene
+- Reviewed map markers on Map 0_226 (2F West). All markers accurately represent verified solid walls and ladder gateways. We will define map markers for any newly tested blockages.
 
-## 4. Do you need to update any notepads or create a new testing plan?
-We have logged our findings in `Scratchpad/Mewtwo_Northwest_Path_Test` and `Scratchpad/Mewtwo_Quest_Log`. Next, we will physically test the passability of (2, 12) on foot on Map 0_226 before backtracking to 1F to explore other potential crossover routes.
+## 4. Custom Tools & Maintenance
+- Our custom tool `cave_bfs_solver` is functional but was missing some screen-observed blockages. We will redefine/fix `cave_bfs_solver` so its internal database perfectly reflects Koga's 2F West.
+- Useful potential tools to create:
+  1. `mewtwo_encounter_flee_runner` (already handled by flee_battle).
+  2. `custom_bfs_pathfinder_redef` (which updates pathfinding on the fly).
+  Let's refine `cave_bfs_solver` first to ensure its path calculations are flawless.
+
+## 5. Goal Clarity
+- **Primary Goal**: Catch Mewtwo on B1F of Cerulean Cave (Outcome).
+- **Secondary Goal**: Navigate to and test Column 4 Row 4 (4, 4) on foot on Map 0_226 (2F West).
+- **Method**: Documented in `Scratchpad/Mewtwo_Crossover_Reevaluation`.
 
 <hr>
