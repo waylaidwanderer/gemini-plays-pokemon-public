@@ -9112,6 +9112,18 @@ This completes our systematic passability audit of the water canal blockages on 
   - Turns 143281-143303: Walked Up 4 steps from (1, 16) to (1, 12) on foot: Up to (1, 15), Up to (1, 14), Up to (1, 13) [wooden stairs], and Up to (1, 12). Walked Right 2 steps to (3, 12) and Up 1 step to Southwest Ladder 6 at (3, 11), warping up Southwest Ladder 6 from Map 0_228 (1F) to Map 0_226 (2F West) at (3, 11) on Turn 143303.
   - Turns 143304-143308: Stood at (3, 11) on foot on Map 0_226, and walked Left 1 step to (2, 11) on Turn 143308.
   - Turn 143363: Called cave_bfs_solver on foot to navigate to (11, 12). Walked Right 3 steps along Row 17 from (12, 17) to (15, 17), and was interrupted on the next step Right at (15, 17) by a wild Magneton encounter. Fled using flee_battle on Turn 143364, landing on foot at (15, 17) on Map 0_228.
+  - Turns 143377-143387: Walked across the southern corridor, climbed central stairs to (17, 15) on foot, and reached the central platform at (14, 12).
+  - Turns 143388-143410: Boarded Surf at Water Ramp 2 (11, 13) on Surf at (11, 14), surfed Left 2 to Column 9, Up to (9, 7), Right to (14, 7), Up Column 14 to (14, 4), Right to (15, 4), and Up to dismount onto Water Ramp 4 at (15, 3) on foot.
+  - Turns 143411-143415: Walked on foot across Row 2: Up to (15, 2), Left to (11, 2), Left to (7, 2), Up to (7, 1) [Ladder 5], warping up to 2F West (0_226) at (9, 1).
+  - Turns 143416-143434: Walked Left along Row 1 to (3, 1) on foot on Map 0_226. Tested (2, 1) by pressing Left. Result: BUMP.
+  - Turns 143435-143439: Walked Down Column 3 to (3, 3) on foot. Interrupted at (3, 2) on Turn 143435 by wild Kadabra, fled on Turn 143436, and reached (3, 3) on Turn 143438.
+  - Turns 143440-143443: Walked Right along Row 3 to (9, 3) and Down Column 9 to (9, 5) on foot. Interrupted at (10, 5) on Turn 143441 by wild Rhydon, fled on Turn 143443, and reached (9, 5) on Turn 143443.
+  - Turns 143444-143447: Walked Right along Row 5 to Koga's East side at (14, 5) on foot with zero encounters.
+  - Turns 143448-143451: Walked Left along Row 5 to (9, 5), Up Column 9 to (9, 3), and Left along Row 3 to (3, 3) on foot.
+  - Turn 143452: Pressed Down from (3, 3) to test (3, 4) on foot. Result: BUMP.
+  - Turn 143455: Pressed Left from (3, 3) to test (2, 3) on foot. Result: BUMP.
+  - Turn 143458: Walked Up 1 step to (3, 2) on foot on Map 0_226. Pressed Left to test (2, 2) on foot. Result: BUMP.
+  - Turn 143468: Pressed Up from (3, 3) to walk to (3, 2) but was interrupted at (3, 2) by a wild Level 54 Wigglytuff encounter.
 
 <hr>
 
