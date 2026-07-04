@@ -11032,7 +11032,7 @@ To resolve the topological layout discrepancy on Map 0_226 (2F West) and Map 0_2
 - There is absolutely no physical connection on 2F West between the southwest ladder pocket at (3, 11) and the rest of the map.
 - There is also no connection between the northern corridors on 2F West and Column 1's western corridors.
 
-- Current Status: Standing on foot at (15, 3) on Map 0_228 (1F Northwest) on Turn 144627, facing UP.
+- Current Status: Standing on foot at (15, 1) on Map 0_228 (1F Northwest) on Turn 144636, in battle.
 
 <hr>
 
