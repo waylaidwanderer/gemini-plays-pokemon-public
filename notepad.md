@@ -8222,8 +8222,18 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (15, 12) on Map 0_228 on Turn 143251.
+- Current Status: Standing on foot at (15, 12) on Map 0_228 on Turn 143253.
 - **Active Backtracking Log**:
+  - Turn 143158 to Turn 143177: Opened Start menu, selected POKéMON, selected GEMMY, and selected SURF on Water Ramp 4 at (15, 3) to board the water canal at (15, 4).
+  - Turn 143178: Successfully boarded the water canal at (15, 4) on Surf.
+  - Turn 143179 to Turn 143180: Ran cave_bfs_solver which returned an invalid path starting with 'Up' because of database omissions on (16,2) and (16,3). Dismounted onto Water Ramp 4 at (15, 3) on foot.
+  - Turn 143181 to Turn 143210: Opened Start menu, selected POKéMON, selected GEMMY, and selected SURF on Water Ramp 4 at (15, 3).
+  - Turn 143211: Successfully boarded the water canal at (15, 4) on Surf.
+  - Turn 143221: Redefined cave_bfs_solver tool to include (16, 2) and (16, 3) as solid rock walls in solids_1f, correcting the NameError.
+  - Turn 143240: Successfully called cave_bfs_solver to navigate on Surf from (15, 4) to Water Ramp 2 at (11, 13) via the unblocked Row 6 crossover, and dismounted onto land at (11, 13) on foot.
+  - Turn 143244: Redefined cave_bfs_solver to include (16, 12), (17, 12), and (18, 15) in solids_1f to fix pathing bugs.
+  - Turn 143247: Called cave_bfs_solver on foot to navigate from (11, 13) to Southwest Ladder 6 at (3, 11). The movement sequence was aborted at step 6 (Down) at (15, 12) due to a wild Level 49 Dodrio encounter.
+  - Turn 143249: Successfully fled the wild Dodrio encounter using flee_battle, returning to the overworld at (15, 12) on foot.
   - Turn 143075: Walked Left 6 steps to (3, 1) and Down 2 steps to (3, 3) on foot on Map 0_226.
   - Turn 143076: Pressed Left to test (2, 3) and Down to test (3, 4). Result: BUMP (visited 0 tiles), physically and conclusively proving that both (2, 3) and (3, 4) are solid rock walls of TYPE_2889 on Map 0_226.
   - Turn 143084: Walked Up 1 step to (3, 2) on foot on Map 0_226.
