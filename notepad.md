@@ -9102,6 +9102,8 @@ This completes our systematic passability audit of the water canal blockages on 
 - Turn 143155: Walked Down 1 step from (15, 2) to stand on Water Ramp 4 at (15, 3) on Map 0_228 on foot.
 - Turn 143157: Standing on foot at Water Ramp 4 at (15, 3) on Map 0_228, facing Down.
   - Turn 143268: Called cave_bfs_solver on foot to navigate to Southwest Ladder 6. Walked Left 2 steps to (15, 16) and Down 1 step to (15, 17), and was interrupted on the next step Left at (15, 17) by a wild Magneton encounter. Fled using flee_battle on Turn 143269, landing on foot at (15, 17) on Map 0_228.
+  - Turns 143271-143275: Walked Left 5 steps from (15, 17) along Row 17 southern ground-floor bypass corridor to reach (10, 17) on foot.
+  - Turns 143276-143280: Walked Left 5 steps from (10, 17) to (5, 17) on foot, then walked Left 3 steps to (2, 17), Up 1 step to (2, 16), and Left 1 step to arrive at (1, 16) on foot on Map 0_228 on Turn 143280.
 
 <hr>
 
