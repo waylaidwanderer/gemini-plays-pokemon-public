@@ -1,5 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (9, 1) on Map 0_226 (2F West) on Turn 144691, facing UP.
+- Current Status: Standing on foot at (9, 1) on Map 0_226 (2F West) on Turn 144693, facing UP.
 - **Active Backtracking Log**:
   - Turn 144655: Walked Left 4 steps from (11, 1) to stand on Ladder 5 at (7, 1) on Map 0_228, immediately warping up to 2F West (Map 0_226) at (9, 1) on foot on Turn 144655.
   - Turn 144643: Walked Left 4 steps from (15, 1) to (11, 1) on foot on Map 0_228 on Turn 144647.
