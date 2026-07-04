@@ -8222,8 +8222,14 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (2, 8) on Map 0_228 (1F) on Turn 144500, facing UP.
+- Current Status: Standing on foot at (2, 8) on Map 0_228 (1F) on Turn 144501, facing UP.
 - **Active Backtracking Log**:
+  - Turn 144470: Standing on foot at (2, 8) facing UP, pressed Up to test Column 2 Row 7 (2, 7) on foot. Result: BUMP (visited 0 tiles, player coordinate remained at (2, 8) facing UP), physically and conclusively proving that (2, 7) is an impassable height boundary/ledge from the south on foot on Map 0_228.
+  - Turn 144469: From Koga's southwest platform at (4, 12), walked Left 2 steps to (2, 12) and Up 4 steps along Column 2 to reach (2, 8) on foot.
+  - Turn 144448: Walked Right 1 step from (3, 12) to (4, 12) on foot on the elevated southwest platform, proving (4, 12) is passable land.
+  - Turn 144440 to 144447: Closed the Start menu, walked Left 2 steps from (3, 15) to reach (1, 15), Up 3 steps along Column 1 to (1, 12), and Right 2 steps to reach (3, 12) on foot.
+  - Turn 144439: Stood at (3, 15) on foot facing Right and tried to board Surf onto (4, 15). Selected SURF on GEMMY failed with "No SURFing on GEMMY here!", proving Column 4 Row 15 (4, 15) is a solid rock wall of TYPE_2889 and is completely impassable.
+  - Turn 144427 to 144438: Walked on foot along the unblocked southern ground floor from (17, 15) to (13, 17) on Turn 144428, Left 10 steps to (3, 17) on Turn 144431, and Up 2 steps to reach (3, 15) on foot on Turn 144434.
   - Turn 144372: Standing at (8, 11) facing Left on Surf, pressed Down to (8, 12) and Left to test Column 7 Row 12 (7, 12). Result: BUMP (visited 1 tile to reach (8, 12), second button bumped, player coordinate remained at (8, 12) on Turn 144373 facing Left), physically and conclusively re-verifying that (7, 12) is indeed a solid, impassable rock wall of TYPE_2889 on water.
   - Turn 144365: Standing at (8, 9) facing Left on Surf, pressed Down 2 steps to (8, 11) and Left to test Column 7 Row 11 (7, 11). Result: BUMP (visited 2 tiles to reach (8, 11), third button bumped, player coordinate remained at (8, 11) on Turn 144367 facing Left), physically and conclusively re-verifying that (7, 11) is indeed a solid, impassable rock wall of TYPE_2889 on water.
   - Turn 144353: Standing at (8, 8) facing Left on Surf, pressed Down to (8, 9) and Left to test Column 7 Row 9 (7, 9). Result: BUMP (visited 1 tile to reach (8, 9), second button bumped, player coordinate remained at (8, 9) on Turn 144353 facing Left), physically and conclusively re-verifying that (7, 9) is indeed a solid, impassable rock wall of TYPE_2889 on water.
