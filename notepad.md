@@ -10938,7 +10938,7 @@ To resolve this logical flaw without making unverified assumptions, we will stan
 5. Standing at (3, 3), walk Up to (3, 2), face Left and press Left to test (2, 2).
 6. Standing at (3, 2), walk Up to (3, 1), face Left and press Left to test (2, 1).
 
-- **Current Status**: Standing on foot at (17, 16) on Map 0_228 on Turn 143261.
+- **Current Status**: Standing on foot at (1, 16) on Map 0_228 (1F Southwest) on Turn 143297.
 
 <hr>
 
