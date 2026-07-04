@@ -1,5 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (7, 1) on Map 0_228 (1F Northwest) on Turn 144751, facing DOWN.
+- Current Status: Standing on Surf at (11, 7) on Map 0_228 (1F) on Turn 144816.
 - **Active Backtracking Log**:
   - Turn 144749: Backtracked from (3, 3) to Ladder 5 at (9, 1) on foot on Map 0_226, and warped down to 1F Northwest at (7, 1) on foot on Turn 144749.
   - Turn 144740: Standing on foot at (5, 2) on Map 0_228, pressed Left to test Column 4 Row 2 (4, 2) on foot. Result: BUMP (visited 0 tiles).
