@@ -1,8 +1,12 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (2, 11) on Map 0_226 (2F West) on Turn 143311.
+- Current Status: Standing on foot at (15, 17) on Map 0_228 (1F Southwest) on Turn 143376.
 - **Active Backtracking Log**:
   - Turn 143254 to Turn 143256: Called cave_bfs_solver on foot to navigate to Southwest Ladder 6. Interrupted at (15, 14) on Turn 143256 by a wild Level 46 Hypno encounter. Fled using flee_battle on Turn 143257, landing at (15, 14) on foot.
   - Turn 143258: Called cave_bfs_solver on foot to navigate to Southwest Ladder 6. Walked Right 2 steps to (17, 14), Down 2 steps to descend central stairs to (17, 16), and was interrupted on the next step Left at (17, 16) by a wild Level 46 Hypno encounter. Fled using flee_battle on Turn 143260, landing on foot at (17, 16) on Map 0_228.
+  - Turns 143309-143343: Re-tested (1, 11) on foot on Map 0_226 by pressing Left from (2, 11) on Turn 143319 (Result: BUMP). Walked Up 1 step to (2, 10) on Turn 143321, and re-tested (1, 10) on foot by pressing Left on Turn 143327 (Result: BUMP). Walked Down 1 step to (2, 11) and re-tested (2, 12) on foot by pressing Down on Turn 143333 (Result: BUMP). Conclusively disproved Hypothesis 1, proving Koga's southwest pocket is 100% isolated on foot on 2F West.
+  - Turn 143344: Walked Right 1 step to Southwest Ladder 6 at (3, 11) on Map 0_226, immediately warping down to 1F Southwest (Map 0_228) at (3, 11) on Turn 143345.
+  - Turns 143345-143356: Walked Left 2 steps, Down 3 steps to (1, 14) on foot on Turn 143354. Walked Right 1 step, Down 3 steps to reach the southern Row 17 corridor at (2, 17) on foot on Turn 143355.
+  - Turns 143356-143376: Walked Right 13 steps along Row 17 southern corridor to reach (15, 17) on Turn 143363, getting interrupted at (15, 17) by a wild Magneton encounter. Fled successfully on Turn 143365 using flee_battle, returning to the overworld at (15, 17) on foot.
   - Turn 143158 to Turn 143177: Opened Start menu, selected POKéMON, selected GEMMY, and selected SURF on Water Ramp 4 at (15, 3) to board the water canal at (15, 4).
   - Turn 143178: Successfully boarded the water canal at (15, 4) on Surf.
   - Turn 143179 to Turn 143180: Ran cave_bfs_solver which returned an invalid path starting with 'Up' because of database omissions on (16,2) and (16,3). Dismounted onto Water Ramp 4 at (15, 3) on foot.
