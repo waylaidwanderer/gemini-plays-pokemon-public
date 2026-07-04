@@ -8222,8 +8222,14 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Surfing on GEMMY at (11, 14) on Map 0_228 (1F Southwest) on Turn 143552.
+- Current Status: Surfing on GEMMY at (11, 14) on Map 0_228 (1F Southwest) on Turn 143555.
 - **Active Backtracking Log**:
+  - Turns 143411-143493: Backtracked from 1F Southwest to 2F West at (9, 1) and walked to (3, 1), testing and re-confirming that 2F West Northwest is completely split on foot from the rest of the map. Backtracked to Ladder 5 at (7, 1) on 1F Northwest.
+  - Turns 143494-143501: Walked from (7, 1) along Row 1 and Column 15 to Water Ramp 4 at (15, 3) on foot on Map 0_228.
+  - Turns 143502-143506: Boarded Surf at (15, 4).
+  - Turns 143507-143528: Tried using cave_bfs_solver which bumped at (12, 8) and (10, 8) on water due to its internal water database limitations, but safely arrived at (11, 7) on Surf.
+  - Turns 143529-143534: Surfed Down along Column 9 to (9, 14), Right to (11, 14), and Up to dismount onto Water Ramp 2 at (11, 13) on foot.
+  - Turns 143535-143555: Attempted to turn and re-board Surf immediately from (11, 13), discovering that stepping Up to dismount leaves us facing UP, so we had to exit the menu, turn Down, and then use Surf to board the water canal at (11, 14) on Surf on Turn 143555.
   - Turn 143254 to Turn 143256: Called cave_bfs_solver on foot to navigate to Southwest Ladder 6. Interrupted at (15, 14) on Turn 143256 by a wild Level 46 Hypno encounter. Fled using flee_battle on Turn 143257, landing at (15, 14) on foot.
   - Turn 143258: Called cave_bfs_solver on foot to navigate to Southwest Ladder 6. Walked Right 2 steps to (17, 14), Down 2 steps to descend central stairs to (17, 16), and was interrupted on the next step Left at (17, 16) by a wild Level 46 Hypno encounter. Fled using flee_battle on Turn 143260, landing on foot at (17, 16) on Map 0_228.
   - Turns 143309-143343: Re-tested (1, 11) on foot on Map 0_226 by pressing Left from (2, 11) on Turn 143319 (Result: BUMP). Walked Up 1 step to (2, 10) on Turn 143321, and re-tested (1, 10) on foot by pressing Left on Turn 143327 (Result: BUMP). Walked Down 1 step to (2, 11) and re-tested (2, 12) on foot by pressing Down on Turn 143333 (Result: BUMP). Conclusively disproved Hypothesis 1, proving Koga's southwest pocket is 100% isolated on foot on 2F West.
