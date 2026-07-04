@@ -10971,8 +10971,9 @@ To resolve this logical flaw without making unverified assumptions, we will stan
 - **Objective**: Stand at (7, 13) on foot, face Left, and use SURF to test if (6, 13) is actually open water.
 - **Experimental Log**:
   - Turn 143562: Stood at (7, 13) on foot facing Left, opened start menu to select GEMMY -> SURF.
+  - Turn 143564: Selected SURF on GEMMY facing Left against (6, 13). Result: "No SURFing on GEMMY here!". Conclusively and empirically disproves the Column 6 Row 13 Surf boarding hypothesis, proving (6, 13) is a solid, impassable rock wall of TYPE_2889.
 
-- Current Status: Standing at (7, 13) on Map 0_228 (1F Southwest) on Turn 143562, testing if (6, 13) is boarding-passable on Surf.
+- Current Status: Standing on foot at (7, 13) on Map 0_228 (1F Southwest) on Turn 143569 with the Start menu open.
 
 <hr>
 
