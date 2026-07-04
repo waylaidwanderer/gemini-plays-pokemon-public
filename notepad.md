@@ -10981,7 +10981,7 @@ To resolve this logical flaw without making unverified assumptions, we will stan
   - Turn 143562: Stood at (7, 13) on foot facing Left, opened start menu to select GEMMY -> SURF.
   - Turn 143564: Selected SURF on GEMMY facing Left against (6, 13). Result: "No SURFing on GEMMY here!". Conclusively and empirically disproves the Column 6 Row 13 Surf boarding hypothesis, proving (6, 13) is a solid, impassable rock wall of TYPE_2889.
 
-- Current Status: Standing on foot at (11, 13) on Map 0_228 (1F Southwest) on Turn 143588.
+- Current Status: Standing on foot at (3, 11) on Map 0_228 (1F Southwest) on Turn 143672.
 
 <hr>
 
