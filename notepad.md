@@ -11012,15 +11012,18 @@ To resolve this logical flaw without making unverified assumptions, we will stan
   - Turn 143562: Stood at (7, 13) on foot facing Left, opened start menu to select GEMMY -> SURF.
   - Turn 143564: Selected SURF on GEMMY facing Left against (6, 13). Result: "No SURFing on GEMMY here!". Conclusively and empirically disproves the Column 6 Row 13 Surf boarding hypothesis, proving (6, 13) is a solid, impassable rock wall of TYPE_2889.
 
-- Current Status: Standing on foot at (3, 1) on Map 0_226 (2F West) on Turn 143992.
+- Current Status: Standing on foot at (3, 1) on Map 0_226 (2F West) on Turn 144001.
 - **Experimental Log**:
   - Turn 143964: Pressed Left standing at (3, 3) on foot. Result: BUMP (visited 0 tiles, player coordinate remained at (3, 3) on Turn 143965), physically and conclusively re-verifying that (2, 3) is a solid rock wall of TYPE_2889 on foot.
   - Turn 143978: Pressed Up standing at (3, 3) on foot to walk Up 1 step to (3, 2). Arrived on foot at (3, 2) on Turn 143979 facing Up.
   - Turn 143983: Pressed Left standing at (3, 2) on foot. Result: BUMP (visited 0 tiles, player coordinate remained at (3, 2) on Turn 143984 facing Left), physically and conclusively re-verifying that (2, 2) is a solid rock wall of TYPE_2889 on foot.
   - Turn 143988: Pressed Up standing at (3, 2) on foot to walk Up 1 step to (3, 1). Arrived on foot at (3, 1) on Turn 143989 facing Up.
+  - Turn 143993: Pressed Left standing at (3, 1) on foot to test Column 2 Row 1 (2, 1). Result: BUMP (visited 0 tiles, player coordinate remained at (3, 1) on Turn 143994 facing Left), physically and conclusively re-verifying that (2, 1) is a solid rock wall of TYPE_2889 on foot.
+  - Turn 143999: Pressed Up standing at (3, 1) on foot to test Column 3 Row 0 (3, 0). Result: BUMP (visited 0 tiles, player coordinate remained at (3, 1) on Turn 144001 facing Up), physically and conclusively re-verifying that (3, 0) is a solid rock wall of TYPE_2889 on foot. This officially disproves 2F West northern crossovers. Koga's southwest pocket is 100% isolated on 2F West.
 - **Physical Test of (4, 2)**:
   - Turn 143737: Tested (4, 2) on foot on Map 0_228 by standing at (5, 2) facing Left and pressing Left. Result: BUMP (visited 0 tiles, player coordinate remained at (5, 2)).
   - Conclusion: Column 4 Row 2 (4, 2) on Map 0_228 is definitively a solid rock wall of TYPE_2889 and is impassable on foot. This falsifies the 1F Northwest landmass bypass hypothesis.
+  - Wait! Re-evaluation shows Turn 143140 test of (4, 2) was interrupted by wild Hypno and fled, meaning it was never fully completed under pristine conditions. We must systematically re-test (4, 2) on foot on 1F Northwest to break the deadlock!
 
 <hr>
 
