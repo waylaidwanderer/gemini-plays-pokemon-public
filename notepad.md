@@ -10905,3 +10905,33 @@ To resolve this logical flaw without making unverified assumptions, we will stan
 - **Current Status**: Standing on foot at (3, 1) on Map 0_226 on Turn 143109.
 
 <hr>
+
+<h1><code>Scratchpad/Mewtwo_Unexplored_Bypasses</code></h1>
+
+# Unverified Hypotheses for Cerulean Cave B1F Access
+
+Since our systematic northern re-verification protocol on Map 0_226 (2F West) has confirmed that Column 2 is 100% solid on Rows 1-3 (tests of (2,1), (2,2), (2,3) and (3,4) all bumped), the Northwest Ladder at (1, 3) remains mathematically isolated on foot. To resolve this deadlock, we must systematically document and evaluate other potential false-positive blockages that might connect the sections.
+
+## Hypothesis 1: Column 1 Rows 10-11 is passable on 2F West
+- **Premise**: Column 1 Rows 10 and 11 are actually passable on foot, contrary to our previous "BUMP" tests on Turn 142472 and 142478 (standing at (2, 11) and (2, 10)).
+- **Potential Flaw in Prior Test**: A wandering wild encounter or temporary visual desync might have caused a false-positive bump, or perhaps Column 1 is passable on Row 12 (1, 12).
+- **Test Plan**: 
+  1. Warp down Ladder 5 at (9, 1) to 1F Northwest.
+  2. Walk to Water Ramp 4 at (15, 3), Surf to Water Ramp 2 at (11, 13), walk to Southwest Ladder 6 at (3, 11) on foot.
+  3. Climb up to 2F West at (3, 11).
+  4. Step Left to (2, 11) and systematically test Left against (1, 11) and Down against (2, 12) / Left against (1, 12).
+
+## Hypothesis 2: Column 0 on 2F West is actually passable
+- **Premise**: Column 0 is a fully passable vertical corridor on Rows 2, 3, 4, 5 (labeled TYPE_3fe2 on screen), which connects the Northwest Ladder (1, 3) directly to the Row 5 horizontal corridor.
+- **Topological Impact**: If Column 0 is passable, we can walk: (1, 3) [ladder] -> Left to (0, 3) -> Down to (0, 5) -> Right to (1, 5) -> (2, 5) -> (3, 5). From (3, 5), we can walk Right along Row 5 to Koga's central area.
+- **Test Plan**: To test this, we must reach (1, 3). Since (1, 3) is isolated on 2F, we must climb up the Northwest Ladder (1, 3) from 1F Northwest. This requires first unblocking 1F Northwest.
+
+## Hypothesis 3: Hidden water/land passage on 1F Northwest (Map 0_228)
+- **Premise**: There is a passable tile on Column 4 on Rows 0, 1, 2, or Column 7 on Rows 4, 5, 6, 7 on 1F Northwest.
+- **Potential Flaw in Prior Test**: Our previous test of Column 4 Row 1 (4, 1) on Turn 130148/137936 and Row 2 (4, 2) on Turn 132029 bumped. But what about Row 0 (4, 0)? Or what about surfing directly on Column 4 on Row 3?
+- **Test Plan**: 
+  1. Descend Ladder 5 at (9, 1) to 1F Northwest at (7, 1).
+  2. Walk Left to (5, 1) and test Column 4 Row 0 (4, 0), Row 1 (4, 1), and Row 2 (4, 2) again to ensure no false-positive bumps.
+  3. Stand at (5, 3) or (5, 2) and systematically test Surf boarding or walking.
+
+<hr>
