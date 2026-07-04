@@ -8222,7 +8222,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Surfing at (15, 4) on Map 0_228 on Turn 143165.
+- Current Status: Standing on foot at Water Ramp 4 at (15, 3) on Map 0_228 on Turn 143174 with the Start menu open.
 - **Active Backtracking Log**:
   - Turn 143075: Walked Left 6 steps to (3, 1) and Down 2 steps to (3, 3) on foot on Map 0_226.
   - Turn 143076: Pressed Left to test (2, 3) and Down to test (3, 4). Result: BUMP (visited 0 tiles), physically and conclusively proving that both (2, 3) and (3, 4) are solid rock walls of TYPE_2889 on Map 0_226.
