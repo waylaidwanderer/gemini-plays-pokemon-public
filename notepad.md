@@ -11076,6 +11076,7 @@ To resolve this logical flaw without making unverified assumptions, we will stan
 ### Test of Column 10 Row 3 (10, 3) on Map 0_226 (Turn 144283):
 - **Objective**: Empirically verify if (10, 3) on Map 0_226 (2F West) is actually open on foot, contrary to our map marker.
 - **Protocol**: From (9, 3) facing Up, press `Right`. If open, we will step onto (10, 3). If blocked, we will bump and remain at (9, 3) facing Right.
+- **Result**: BUMP (visited 0 tiles, player coordinate remained at (9, 3) on Turn 144285 facing Right), physically and conclusively proving that (10, 3) on Map 0_226 is a solid rock wall of TYPE_2889 and is impassable on foot. This officially disproves the Hypothesis C crossover via Column 10 Row 3.
 
 <hr>
 
