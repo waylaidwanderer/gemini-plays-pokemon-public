@@ -1,5 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (7, 13) on Map 0_228 (1F) on Turn 142858.
+- Current Status: Standing at (8, 13) on Map 0_228 (1F) on Surf on Turn 142862.
 - **Active Backtracking Log**:
   - Turns 142712-142744: Climbed Ladder 5 to warp up to 2F West at (9, 1). Standing at (9, 1) on foot on Map 0_226.
   - Turns 142745-142766: Ran BFS simulations and pathfinder audits to plan the next crossover test.
