@@ -10875,6 +10875,7 @@ To resolve the topological layout discrepancy on Map 0_226 (2F West) and Map 0_2
   - Turn 142478: Tested (1, 10) by pressing Left from (2, 10). Result: BUMP (visited 0 tiles).
   - Turn 143319: Re-tested (1, 11) by pressing Left from (2, 11). Result: BUMP (visited 0 tiles). Conclusively re-verified (1, 11) is a solid, impassable rock wall of TYPE_2889 on foot.
   - Turn 143327: Re-tested (1, 10) by pressing Left from (2, 10). Result: BUMP (visited 0 tiles). Conclusively re-verified (1, 10) is a solid, impassable rock wall of TYPE_2889 on foot.
+  - Turn 143333: Re-tested (2, 12) by pressing Down from (2, 11). Result: BUMP (visited 0 tiles). Conclusively re-verified (2, 12) is a solid, impassable rock wall of TYPE_2889 on foot.
 - **Conclusive Finding**: Step 2 has failed completely. Both (1, 11) and (1, 10) are solid rock walls of TYPE_2889 on foot on Map 0_226. Koga's southwest pocket is indeed 100% isolated on foot on 2F West.
 
 ## General Conclusions
