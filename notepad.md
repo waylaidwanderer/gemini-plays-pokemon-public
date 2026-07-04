@@ -10807,50 +10807,37 @@ Under our current "verified" map markers and collision databases, Cerulean Cave 
 - 1F Northwest water is isolated (Column 7 Rows 6, 8, 9, 10 are solid rock walls).
 - 2F East is isolated from 2F West on Row 17 (20, 17 is solid).
 
-Since the game is 100% solvable, at least one of these "verified" blockages must be a false positive. We must systematically re-evaluate the most likely crossover candidates.
+Since the game is 100% solvable, at least one of these "verified" blockages must be a false positive. We must systematically re-evaluate and test the most likely crossover candidates.
 
-## 2. High-Priority Crossover Hypotheses
+## 2. Systematic, Empirical Re-Verification Plan
 
-### Hypothesis A: 2F West Row 4 (Columns 1-2) Passability
-- **Premise**: Row 4 on Column 1 or Column 2 is actually open (passable) on 2F West. If (1, 4) or (2, 4) is open, we can walk Vertically on Column 1 or 2 to connect Koga's southwest pocket directly to the Northwest Ladder at (1, 3).
-- **Test Status**: Unverified.
+### Test Area A: Column 4 Row 3 (4, 3) on 1F Northwest on Foot
+- **Premise**: Column 4 Row 3 (4, 3) on 1F Northwest is actually open on foot. This would allow an on-foot path from Ladder 5 at (7, 1) to bypass the Column 4 wall and reach the B1F staircase at (1, 3).
 - **Testing Protocol**:
-  1. From our current position (3, 11) on 1F, return to Water Ramp 2 at (11, 13).
-  2. Surf to Water Ramp 4 at (15, 3).
-  3. Walk to Ladder 5 at (7, 1) and warp up to 2F West at (9, 1).
-  4. Walk Left to (3, 1), Down to (3, 3), and then to Row 5.
-  5. Walk to (1, 5) or (2, 5) on foot.
-  6. Perform vertical passability tests: press Up from (1, 5) and (2, 5) to verify if (1, 4) or (2, 4) is open.
+  1. Warp down Ladder 5 at (9, 1) on 2F West to reach (7, 1) on 1F Northwest.
+  2. Walk Down to (7, 2).
+  3. Walk Left to (5, 2).
+  4. Test if (4, 2) is passable by pressing Left.
+  5. Test if (5, 3) is passable by pressing Down.
+  6. If (5, 3) is open, step onto (5, 3) and press Left to test if (4, 3) is passable!
+  7. If (4, 2) is open, step onto (4, 2) and press Down to test if (4, 3) is passable!
 
-### Hypothesis B: Column 21 / 22 / 23 Crossovers on 2F West
+### Test Area B: Row 4 on 2F West (Columns 1-2)
+- **Premise**: Row 4 on Column 1 or Column 2 is actually open (passable) on 2F West. If (1, 4) or (2, 4) is open, we can walk Vertically on Column 1 or 2 to connect Koga's southwest pocket directly to the Northwest Ladder at (1, 3).
+- **Testing Protocol**:
+  1. From (9, 1) on 2F West, walk the unblocked 58-step path to the west side on Row 5 at (1, 5) or (2, 5).
+  2. Stand at (1, 5) and press Up to test if (1, 4) is open!
+  3. Stand at (2, 5) and press Up to test if (2, 4) is open!
+
+### Test Area C: Column 21 / 22 / 23 on 2F West (Rows 9 and 11)
 - **Premise**: There is a horizontal crossover connecting Koga's southwest/central section to Koga's east section on Row 9 or Row 11.
-- **Test Status**: Partially verified. We know (21, 9) and (21, 11) are open, but (22, 9) is solid. We must test if (22, 11) is open.
 - **Testing Protocol**:
   1. From (17, 11) on Koga's East side, walk Right to Column 21 at (21, 11) and test if we can walk further Right to (22, 11) and (23, 11) to reach Koga's Eastern corridors.
 
-### Hypothesis C: Row 5 / Column 13 Water Crossovers on 1F
-- **Premise**: Column 13 is open on water at Row 4 or Row 5, allowing us to Surf from the central canal directly into the western canal.
-- **Test Status**: Done (Disproven on Turns 140952 and 140954). Both (13, 4) and (13, 5) are 100% solid on water.
-
-### Hypothesis D: 1F Northwest Column 4 Row 3 (4, 3) on Foot
-- **Premise**: Column 4 Row 3 (4, 3) on 1F Northwest is actually open on foot. This would allow an on-foot path from Ladder 5 at (7, 1) to bypass the Column 4 wall and reach the B1F staircase at (1, 3).
-- **Test Status**: Unverified (Logical Gap). Our BFS pathfinder generated paths through (4, 3), but our records list Row 3 as solid. We must empirically re-verify this boundary!
-- **Testing Protocol**:
-  1. From Ladder 5 at (7, 1) on 1F Northwest, walk to (5, 2) on foot.
-  2. Test (4, 2) by pressing Left.
-  3. Test (5, 3) by pressing Down.
-  4. If (5, 3) is solid, test if we can walk from (5, 2) -> (5, 1) -> Left to (4, 1) [BUMP on Turn 140811] -> wait! Is (4, 1) really solid?
-  5. If (5, 3) is open, step onto (5, 3) and press Left to test if (4, 3) is passable!
-  6. If (4, 2) is open, step onto (4, 2) and press Down to test if (4, 3) is passable!
-
 ## 3. Immediate Action Plan
-We are currently in Koga's southwest pocket at (3, 11) on Map 0_228 (1F Southwest). To execute the tests:
-1. Walk on foot from (3, 11) to Water Ramp 2 at (11, 13).
-2. Board Surf at (11, 13) and navigate to Water Ramp 4 at (15, 3).
-3. Dismount onto (15, 3) on foot.
-4. Walk to Ladder 5 at (7, 1) and warp up to 2F West at (9, 1).
-5. Execute Hypothesis A (2F West Row 4 Columns 1-2 passability).
-6. If Hypothesis A fails, descend back to 1F Northwest at (7, 1).
-7. Execute Hypothesis D (1F Northwest Column 4 Row 3 passability).
+We are currently standing at (9, 1) on Map 0_226 (2F West).
+1. Warp down Ladder 5 at (9, 1) to (7, 1) on 1F Northwest.
+2. Execute Test Area A (1F Northwest Column 4 Row 3 passability).
+3. If Test Area A fails, return to 2F West (9, 1) and execute Test Area B (Row 4 Columns 1-2 passability).
 
 <hr>
