@@ -8222,8 +8222,10 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (15, 12) on Map 0_228 on Turn 143253.
+- Current Status: Standing on foot at (17, 16) on Map 0_228 on Turn 143260.
 - **Active Backtracking Log**:
+  - Turn 143254 to Turn 143256: Called cave_bfs_solver on foot to navigate to Southwest Ladder 6. Interrupted at (15, 14) on Turn 143256 by a wild Level 46 Hypno encounter. Fled using flee_battle on Turn 143257, landing at (15, 14) on foot.
+  - Turn 143258: Called cave_bfs_solver on foot to navigate to Southwest Ladder 6. Walked Right 2 steps to (17, 14), Down 2 steps to descend central stairs to (17, 16), and was interrupted on the next step Left at (17, 16) by a wild Level 46 Hypno encounter. Fled using flee_battle on Turn 143260, landing on foot at (17, 16) on Map 0_228.
   - Turn 143158 to Turn 143177: Opened Start menu, selected POKéMON, selected GEMMY, and selected SURF on Water Ramp 4 at (15, 3) to board the water canal at (15, 4).
   - Turn 143178: Successfully boarded the water canal at (15, 4) on Surf.
   - Turn 143179 to Turn 143180: Ran cave_bfs_solver which returned an invalid path starting with 'Up' because of database omissions on (16,2) and (16,3). Dismounted onto Water Ramp 4 at (15, 3) on foot.
