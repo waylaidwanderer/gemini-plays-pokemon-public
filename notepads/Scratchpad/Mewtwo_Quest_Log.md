@@ -1,5 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on Surf at (12, 7) on Map 0_228 (1F) on Turn 144579, facing RIGHT.
+- Current Status: Standing on Surf at (14, 6) on Map 0_228 (1F) on Turn 144582, facing UP.
 - **Active Backtracking Log**:
   - Turn 144568: Surfed Up 3 steps along Column 9 from (9, 13) to reach (9, 10) on water.
   - Turn 144565: Surfed Left 2 steps from (11, 14) to (9, 14) and Up 1 step to reach (9, 13) on water.
