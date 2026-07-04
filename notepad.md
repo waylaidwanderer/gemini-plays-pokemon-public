@@ -8222,8 +8222,13 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Surfing on GEMMY at (11, 14) on Map 0_228 (1F Southwest) on Turn 143555.
+- Current Status: Standing on foot at (11, 13) on Map 0_228 (1F Southwest) on Turn 143585.
 - **Active Backtracking Log**:
+  - Turns 143556-143561: Surfed Left 3 steps, Up 1 step, and Left 1 step from (11, 14) to dismount on foot at (7, 13) on Turn 143561.
+  - Turns 143562-143568: Conducted Column 6 Row 13 Surf boarding test standing at (7, 13) on foot facing Left against (6, 13). Select SURF on GEMMY failed with "No SURFing on GEMMY here!", conclusively disproving that (6, 13) is open water and proving it is solid rock of TYPE_2889 on Turn 143564.
+  - Turns 143569-143576: Exited menu, turned Right to face the water at (8, 13) on Turn 143573, opened menu and selected POKéMON -> GEMMY -> SURF to board the water at (8, 13) on Surf on Turn 143576.
+  - Turn 143577: Surfed Down 1 step to (8, 14), Right 3 steps to (11, 14), and Up 1 step to dismount on foot onto Water Ramp 2 at (11, 13) on Turn 143577.
+  - Turns 143578-143585: Redefined and corrected the cave_bfs_solver tool database to fix the '0_0228' map ID typo and add Koga's 2F West Column 0 solid boundary wall, preparing to walk to Southwest Ladder 6.
   - Turns 143411-143493: Backtracked from 1F Southwest to 2F West at (9, 1) and walked to (3, 1), testing and re-confirming that 2F West Northwest is completely split on foot from the rest of the map. Backtracked to Ladder 5 at (7, 1) on 1F Northwest.
   - Turns 143494-143501: Walked from (7, 1) along Row 1 and Column 15 to Water Ramp 4 at (15, 3) on foot on Map 0_228.
   - Turns 143502-143506: Boarded Surf at (15, 4).
