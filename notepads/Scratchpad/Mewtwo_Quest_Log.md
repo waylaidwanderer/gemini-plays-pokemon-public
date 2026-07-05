@@ -1,6 +1,9 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (11, 11) on Map 0_228 (1F) on Turn 145531.
+- Current Status: Standing on foot at Water Ramp 2 at (11, 13) on Map 0_228 (1F) on Turn 145558.
 - **Active Backtracking Log**:
+  - Turn 145548: Walked Down 1 step from (11, 12) to reach Water Ramp 2 at (11, 13) on foot on Map 0_228.
+  - Turn 145546: Walked Down 1 step from (11, 11) to reach (11, 12) on foot on Map 0_228.
+  - Turn 145542: Walked Up 1 step from (11, 12) to reach (11, 11) on foot on Map 0_228.
   - Turn 145515: Walked Up 1 step to (11, 12) on foot on Map 0_228.
   - Turn 145510: Pressed Up 1 step from (11, 14) to step onto Water Ramp 2 at (11, 13) on foot, successfully dismounting Surf.
   - Turn 145491: Selected GEMMY -> SURF standing on Water Ramp 2 at (11, 13) facing Down, successfully boarding the water canal at (11, 14) on Surf.
