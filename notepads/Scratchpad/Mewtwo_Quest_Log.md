@@ -1234,3 +1234,4 @@ This completes our systematic passability audit of the water canal blockages on 
 - Turn 145982: Current position is (5, 1) on Map 0_228 on foot facing Left. Ready to systematically test our new hypothesis on ledges (Socratic Challenge).
 - Turn 145995: Walking Left 6 steps on Row 1 from (9, 1) to (3, 1) on Map 0_226 on foot. Interrupted on the 6th step at (3, 1) by a wild Level 49 Dodrio encounter on Turn 145998.
 - Turn 146007: Walking Right from (4, 3) to reach (9, 5) on Map 0_226 on foot. Interrupted on the 1st step at (5, 3) by a wild Level 49 Kadabra encounter on Turn 146008.
+- Turn 146011: Escaped wild Kadabra battle using flee_battle, returning to the overworld at (5, 3) on foot facing Down. Ready to resume walking Right to Koga's central area.
