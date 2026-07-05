@@ -8222,8 +8222,9 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at Water Ramp 2 at (11, 13) on Map 0_228 (1F) on Turn 145486.
+- Current Status: Surfing at (11, 14) on Map 0_228 (1F Central Canal) on Turn 145502.
 - **Active Backtracking Log**:
+  - Turn 145491: Selected GEMMY -> SURF standing on Water Ramp 2 at (11, 13) facing Down, successfully boarding the water canal at (11, 14) on Surf.
   - Turn 145482: Used cave_bfs_solver to walk Left 3 steps and Down 4 steps from (14, 9) to reach Water Ramp 2 at (11, 13) on foot on Map 0_228.
   - Turn 145471: Walked Left along Row 9 on Map 0_228 from (18, 9) to (14, 9) on foot, where we triggered a wild Level 46 Hypno encounter.
   - Turn 145468: Pressed Right 1 step to stand on Ladder 3 at (19, 7) and warp down to 1F Central/Southwest at (18, 9) on foot.
