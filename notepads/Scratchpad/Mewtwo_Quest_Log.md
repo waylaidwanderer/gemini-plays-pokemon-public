@@ -1,10 +1,18 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (21, 5) on Map 0_226 (2F West) on Turn 145155.
+- Current Status: Standing on foot at (9, 1) on Map 0_226 (2F West) on Turn 145203.
 - **Active Backtracking Log**:
-  - Turn 145151: Pressed Right from (21, 5) to test (22, 5) on foot. Result: BUMP (visited 0 tiles).
-  - Turn 145149: Walked Right 2 steps from (19, 5) to (21, 5) on foot on Map 0_226.
-  - Turn 145143: Fled Electrode at (19, 5) using flee_battle, returning to the overworld at (19, 5) on foot facing Right.
-  - Turn 145141: Walked Up 2 steps from (19, 7) to (19, 5) on foot. Interrupted at (19, 5) by a wild Electrode encounter.
+  - Turn 145198: Warped up Ladder 5 from 1F Northwest at (7, 1) to Map 0_226 (2F West) at (9, 1) on foot.
+  - Turn 145196: Walked Left 3 steps along Row 2 to reach (7, 2) on foot on Map 0_228.
+  - Turn 145194: Walked Left 2 steps from (12, 2) to reach (10, 2) on foot on Map 0_228.
+  - Turn 145190: Walked Up 1 step and Left 3 steps from (15, 3) to reach (12, 2) on foot on Map 0_228.
+  - Turn 145190: Surfed Up 4 steps along Column 15 to dismount onto Water Ramp 4 at (15, 3) on foot.
+  - Turn 145189: Surfed Right 3 steps from (12, 7) to reach (15, 7) on water.
+  - Turn 145185: Surfed Right 3 steps from (9, 7) to reach (12, 7) on water.
+  - Turn 145184: Surfed Up 4 steps from (9, 11) to reach (9, 7) on water.
+  - Turn 145184: Surfed Up 3 steps from (9, 14) to reach (9, 11) on water.
+  - Turn 145184: Surfed Left 2 steps from (11, 14) to reach (9, 14) on water.
+  - Turn 145180: Standing at (11, 14) on water, facing Up. Prepared to surf to Water Ramp 4 at (15, 3).
+  - Turn 145151: Pressed Right from (21, 5) to test (22, 5) on foot. Result: BUMP (visited 0 tiles). Conclusively proved (22, 5) is solid rock on 2F West.
   - Turn 145107: Warped up Ladder 3 from 1F Southwest/Central at (18, 9) to Map 0_226 (2F West) at (19, 7) on foot.
   - Turn 145106: Walked Right 3 steps along Row 9 to reach Ladder 3 at (18, 9) on foot on Map 0_228.
   - Turn 145101: Walked Down 1 step to (15, 9) on foot on Map 0_228.
