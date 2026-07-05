@@ -1153,3 +1153,5 @@ This completes our systematic passability audit of the water canal blockages on 
 - Turn 145591: Standing on foot at Water Ramp 2 at (11, 13) facing Up. Ready to execute Surf to Water Ramp 4 at (15, 3) to test land-to-water boarding option on (5, 3) or (6, 3) on the 1F Northwest landmass.
 - Turn 145625: Closed Start menu, walked Right 1 step to (6, 2) on foot, and turned Down to face (6, 3) on Turn 145626.
 - Turn 145627: Standing on foot at (6, 2) facing Down. Ready to test land-to-water Surf boarding on (6, 3).
+- Turn 145628: Pressed Start to open the Start menu.
+- Turn 145631: Standing on foot at (6, 2) facing Down with Start menu open pointing at POKéMON. Ready to select POKéMON to test Surf boarding on (6, 3).
