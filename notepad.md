@@ -9423,6 +9423,7 @@ This completes our systematic passability audit of the water canal blockages on 
 - Turn 145841: Successfully walked to (11, 2) on Map 0_228 on foot, facing Down. Now preparing to test land-to-water Surf boarding on (11, 3). Pressing Start to open the Start menu.
 - Turn 145843: Start menu is open, cursor is pointing directly at ▶POKéMON. Pressing A to open the POKéMON party menu to prepare for the (11, 3) Surf test.
 - Turn 145849: Start menu is open, cursor is pointing directly at ▶POKéMON. We have successfully defined a map marker at (11, 3) as solid rock. Next, we will close the Start menu, walk Right to (12, 2) on foot, and turn Down to face (12, 3) to test the next column.
+- Turn 145857: Standing at (12, 2) on Map 0_228 on foot, facing Down. Now preparing to test land-to-water Surf boarding on (12, 3). Pressing Start to open the Start menu.
 
 <hr>
 
