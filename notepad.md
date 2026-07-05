@@ -8222,8 +8222,10 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (18, 7) on Map 0_226 (2F West) on Turn 145466.
+- Current Status: In a wild battle at (14, 9) on foot on Map 0_228 (1F Southwest/Central) on Turn 145473.
 - **Active Backtracking Log**:
+  - Turn 145471: Walked Left along Row 9 on Map 0_228 from (18, 9) to (14, 9) on foot, where we triggered a wild Level 46 Hypno encounter.
+  - Turn 145468: Pressed Right 1 step to stand on Ladder 3 at (19, 7) and warp down to 1F Central/Southwest at (18, 9) on foot.
   - Turn 145433: Standing on foot at (18, 7) on 2F West, pressed Left to test (17, 7). Result: BUMP (visited 0 tiles). Physically and conclusively proving that (17, 7) is indeed a solid rock wall of TYPE_2889 and is completely impassable on foot.
   - Turn 145430: Walked Left 1 step from (19, 7) to reach (18, 7) on foot on Map 0_226.
   - Turn 145425: Walked Up 4 steps from (11, 13) to (11, 9) and Right 7 steps along Row 9 to reach Ladder 3 at (18, 9), warping UP to 2F West at (19, 7) on Map 0_226.
