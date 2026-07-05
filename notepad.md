@@ -9421,6 +9421,7 @@ This completes our systematic passability audit of the water canal blockages on 
 - Turn 145825: Standing at (10, 2) on Map 0_228 on foot, facing Down. Ready to test land-to-water Surf boarding on (10, 3) (Hypothesis 6 / Socratic Challenge). Pressing Start to open the menu.
 - Turn 145838: Standing at (10, 2) on Map 0_228 on foot, facing Down in the overworld. The Start menu has been successfully closed. Now preparing to step Right to (11, 2) on foot and turn Down to face (11, 3) to test the next column.
 - Turn 145841: Successfully walked to (11, 2) on Map 0_228 on foot, facing Down. Now preparing to test land-to-water Surf boarding on (11, 3). Pressing Start to open the Start menu.
+- Turn 145843: Start menu is open, cursor is pointing directly at ▶POKéMON. Pressing A to open the POKéMON party menu to prepare for the (11, 3) Surf test.
 
 <hr>
 
