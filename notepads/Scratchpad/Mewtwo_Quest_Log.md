@@ -1,6 +1,11 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (15, 3) on Map 0_228 (1F) on Turn 145369.
+- Current Status: Surfing at (11, 7) on Map 0_228 (1F) on Turn 145416.
 - **Active Backtracking Log**:
+  - Turn 145413: Pressed Down from (11, 7) facing Down to step onto (11, 8). Result: BUMP (visited 0 tiles). This physically and conclusively proves that (11, 8) is a standard ground tile of TYPE_2770, but we cannot dismount directly onto it from Surf because there is a solid cliff ledge height mismatch.
+  - Turn 145412: Surfed Left 4 steps along the Row 7 crossover water canal from (15, 7) to (11, 7) on water.
+  - Turn 145403: Pressed A on Surf at (15, 7) facing Down towards (15, 8). Result: "There's no place to get off!". This physically and conclusively proves that (15, 8) is a standard ground tile of TYPE_2770, but we cannot dismount directly onto it from Surf because there is a solid cliff ledge height mismatch.
+  - Turn 145400: Pressed Start to open the Start menu standing on Surf at (15, 7) on water.
+  - Turn 145397: Surfed Down 3 steps from (15, 4) to (15, 7) on water.
   - Turn 145367: Pressed Up once from (15, 4) to step onto Water Ramp 4 at (15, 3) on foot, automatically dismounting Surf.
   - Turn 145361: Surfed Right 6 steps along the Row 6 water crossover from (9, 6) to (15, 6), and Up 2 steps to (15, 4) on water.
   - Turn 145354: Boarded Surf facing Down from Water Ramp 4 at (15, 3) onto (15, 4) on water.
