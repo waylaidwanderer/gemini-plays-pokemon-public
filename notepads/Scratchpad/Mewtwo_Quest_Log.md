@@ -1,7 +1,8 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (10, 2) on Map 0_228 (1F Northwest) on Turn 145797 (Start Menu open pointing at POKéDEX, facing Down).
+- Current Status: Standing on foot at (10, 2) on Map 0_228 (1F Northwest) on Turn 145802 (Start Menu open pointing at POKéDEX, facing Down).
 - **Active Backtracking Log**:
-  - Turn 145797: Start menu successfully opened. Facing Down at (10, 2) on foot. Cursor is pointing at POKéDEX. Ready to select POKéMON.
+  - Turn 145802: Start menu open pointing at POKéDEX, player facing Down at (10, 2) on foot. Preparing to select POKéMON.
+  - Turn 145796: Pressed Start to open the Start menu standing on foot at (10, 2) facing Down.
   - Turn 145795: Standing on foot at (10, 2) on Map 0_228 (1F Northwest) facing Down. Overworld fully visible. Start menu closed. Pressed Start.
   - Turn 145754: Pressed B to close the Start menu, returning to the overworld at (10, 2), facing Down.
   - Turn 145753: Pressed B to close the Start menu standing on foot at (10, 2) facing Right.
