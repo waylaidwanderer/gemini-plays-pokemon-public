@@ -1,5 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (1, 16) on Map 0_228 (1F Southwest) on Turn 145019.
+- Current Status: Standing on foot at (1, 16) on Map 0_228 (1F Southwest) on Turn 145023.
 - **Active Backtracking Log**:
   - Turn 145017: Walked from Southwest Ladder 6 at (3, 11) down Koga's stairs to (1, 16) on foot on Map 0_228.
   - Turn 144986: Warped up Southwest Ladder 6 from Map 0_228 (1F Southwest) at (3, 11) to Map 0_226 (2F West) at (3, 11) on foot.
