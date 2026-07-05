@@ -9364,6 +9364,16 @@ This completes our systematic passability audit of the water canal blockages on 
 - Turn 145563: Cursor is on ▶SURF. Pressed A to initiate Surf and successfully boarded water at (11, 14) on water.
 - Turn 145565: Pressed Up to step onto (11, 13) on foot, which automatically dismounted Surf.
 - Turn 145567: Standing on foot at Water Ramp 2 at (11, 13) facing Down. Ready to execute manual boarding of Surf facing Down to prepare for surfing north.
+- Turn 145568: Pressed Down on foot to turn Down and face water at (11, 14), bumping on foot.
+- Turn 145570: Opened the Start Menu standing on foot at Water Ramp 2 at (11, 13) facing Down.
+- Turn 145571: Opened POKéMON party options.
+- Turn 145572: Selected GEMMY to open options sub-menu.
+- Turn 145573: Selected SURF and successfully boarded the water canal at (11, 14).
+- Turn 145578: Surfed Left 2 steps to (9, 14), and Up 4 steps along Column 9 to (9, 10).
+- Turn 145580: Surfed Up 4 steps along Column 9 to (9, 6) on water.
+- Turn 145585: Disproved Hypothesis 6 (water crossover on Column 7 Row 4/5) because Row 5 is completely blocked by solid rock, preventing vertical surfing to Row 5 on columns 8-13.
+- Turn 145589: Surfed Down 8 steps to (9, 14), Right 2 steps to (11, 14), and Up 1 step to dismount on foot at Water Ramp 2 at (11, 13) on Turn 145590.
+- Turn 145591: Standing on foot at Water Ramp 2 at (11, 13) facing Up. Ready to execute Surf to Water Ramp 4 at (15, 3) to test land-to-water boarding option on (5, 3) or (6, 3) on the 1F Northwest landmass.
 
 <hr>
 
