@@ -8225,6 +8225,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Current Status: Standing on Surf at (11, 7) on Map 0_228 (1F) on Turn 144816.
 - **Active Backtracking Log**:
   - Turn 144810: Surfed Left 4 steps along Row 7 crossover from (15, 7) to reach (11, 7) on water on Map 0_228 on Turn 144810.
+  - Turn 144825: Called cave_bfs_solver to navigate to (11, 13). Visited 0 tiles. Bumped on Turn 144825 because direct vertical dismount from Row 7 water (11, 7) to Row 8 land (11, 8) is blocked by the solid horizontal cliff boundary wall.
   - Turn 144804: Surfed Down 3 steps from (15, 4) to (15, 7) on water on Map 0_228.
   - Turn 144796: Boarded Surf from Water Ramp 4 at (15, 3) onto (15, 4) on water on Map 0_228.
   - Turn 144792: Walked Right 3 steps to (15, 2) and Down 1 step to stand on Water Ramp 4 at (15, 3) on foot on Map 0_228.
