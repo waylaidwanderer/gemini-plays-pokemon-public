@@ -11234,6 +11234,18 @@ Since our systematic northern re-verification protocol on Map 0_226 (2F West) ha
 - **Topological Impact**: If (4, 12) is water, we can Surf Up along Columns 4, 5, 6 on Rows 6-12 to reach the northern landmass at Row 6 and dismount directly onto the land at (3, 6) or (4, 6) or (5, 6). From there, we can walk unblocked to (1, 3) [Northwest Ladder] on foot and enter B1F!
 - **Test Results**: Done (Falsified on Turn 144976). Walked onto (4, 12) on foot on Turn 144975, proving it is passable dry land (cavern floor of TYPE_2770). Standing on (4, 12) on Turn 144978, the screen shows (5, 12) and (6, 12) are solid rock walls (TYPE_2889). There is no water at all in the southwest of Map 0_228, meaning the "western water canal" does not exist on these rows. Hypothesis 4 is completely disproven.
 
+## Hypothesis 5: Row 6 On-Foot Crossover via Column 1-7 on 2F West (Map 0_226)
+- **Premise**: Since Koga's southwest pocket is 100% isolated, 1F Northwest is isolated, and 1F Southwest has no western water, the only way Cerulean Cave is mathematically solvable is if there is a false-positive blockage on Row 6 of Koga's western area on 2F West (Map 0_226), allowing us to walk vertically between Row 7 and Row 5 on Column 1, 2, 3, 4, 5, 6, or 7.
+- **Testing Route**:
+  1. From our current position (3, 11) on 2F West, warp DOWN to 1F Southwest at (3, 11).
+  2. Walk ground corridor to central platform stairs at (17, 15).
+  3. Surf from (11, 13) to (15, 3) (Water Ramp 4) on 1F Northwest.
+  4. Walk to Ladder 5 at (7, 1) on 1F Northwest and warp UP to 2F West at (9, 1).
+  5. Walk Down Column 9 to (9, 7) and Left along the open Row 7 corridor to (1, 7).
+  6. Standing on foot on Row 7, systematically press Up to test (1, 6), (2, 6), (3, 6), (4, 6), (5, 6), (6, 6), and (7, 6) one by one.
+- **Topological Impact**: If any of these are open, we can walk vertically through Row 6 to reach Column 1/2 on Row 5, and proceed directly to (1, 3) [Northwest Ladder] to descend to B1F and reach Mewtwo!
+- **Experimental Status**: Active. Commencing the backtrack down Southwest Ladder 6.
+
 <hr>
 
 <h1><code>Reflection/Turn143300_Reflection</code></h1>
