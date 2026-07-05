@@ -1092,3 +1092,4 @@ This completes our systematic passability audit of the water canal blockages on 
   - We will fix this in our next custom tool update. For now, we will perform the Surf boarding manually to enter the water.
 - **Turn 145070**: Standing on foot at Water Ramp 2 at (11, 13) facing Down on Map 0_228. Preparing to re-board Surf to navigate north to Water Ramp 4 at (15, 3).
 - **Turn 145164**: Backtracked on foot across the 1F central platform and reached Water Ramp 2 at (11, 13), facing Down. Preparing to open the Start menu and board Surf.
+- Turn 145180: Standing at (11, 14) on water, facing Up. Preparing to surf to Water Ramp 4 at (15, 3) to execute Koga's western area Row 6 Crossover passability test (Hypothesis 5).
