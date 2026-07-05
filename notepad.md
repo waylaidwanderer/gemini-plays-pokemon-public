@@ -8222,8 +8222,19 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (15, 17) on Map 0_228 (1F Southwest) on Turn 145036.
+- Current Status: Standing on Surf at (11, 14) on Map 0_228 (1F Southwest) on Turn 145083.
 - **Active Backtracking Log**:
+  - Turn 145078: Boarded Surf facing Down from Water Ramp 2 at (11, 13) onto (11, 14) on Surf on Map 0_228.
+  - Turn 145074: Pressed Down to turn Down to face water from (11, 13), bumping on foot.
+  - Turn 145068: Pressed Up to move to (11, 14) to (11, 13) and automatically dismounted Surf onto the ramp on foot.
+  - Turn 145067: Boarded Surf facing Down from Water Ramp 2 at (11, 13) onto (11, 14) on Surf.
+  - Turn 145061: Closed Start menu and pressed Down in the overworld to turn Down and face water, bumping on foot.
+  - Turn 145059: Selecting Surf failed because we were standing on foot facing UP towards (11, 12).
+  - Turn 145055: Fled battle and returned to (11, 13) on foot facing UP.
+  - Turn 145051: Pressed Up to surf north, landing on foot at (11, 13) and triggering a wild Sandslash encounter. Fled using flee_battle.
+  - Turn 145049: Boarded Surf facing Down from Water Ramp 2 at (11, 13) onto (11, 14) on Surf.
+  - Turn 145045: Walked from (15, 14) to Water Ramp 2 at (11, 13) on foot.
+  - Turn 145041: Walked from (15, 17) to (15, 14) on the central platform. Interrupted by a wild Magneton, fled using flee_battle.
   - Turn 145024: Walked along the Row 17 southern ground corridor from (1, 16) to (15, 17) on foot on Map 0_228.
   - Turn 145017: Walked from Southwest Ladder 6 at (3, 11) down Koga's stairs to (1, 16) on foot on Map 0_228.
   - Turn 144986: Warped up Southwest Ladder 6 from Map 0_228 (1F Southwest) at (3, 11) to Map 0_226 (2F West) at (3, 11) on foot.
