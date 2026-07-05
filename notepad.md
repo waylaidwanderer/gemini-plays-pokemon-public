@@ -11353,7 +11353,7 @@ Since our systematic northern re-verification protocol on Map 0_226 (2F West) ha
   6. If passable, we will cross Column 7 directly on water into the western water canal, dismount onto the western landmass, walk to (1, 3), and descend to B1F!
 - **Experimental Status**: Active. Commencing the walk to Ladder 5 at (9, 1) on 2F West.
 
-## Hypothesis 7: 2F West Column 17 Row 7 (17, 7) On-Foot Passability Re-Verification
+## Hypothesis 7: 2F West Column 17 Row 7 (17, 7) On-Foot Passability Re-Verification [DISPROVEN]
 - **Premise**: Column 17 Row 7 (17, 7) is actually open (passable) on foot on Map 0_226 (2F West), contrary to our previous "BUMP" record from Turn 113364.
 - **Topological Impact**: If (17, 7) is passable, Koga's central/western Row 7 corridor (Columns 1-11) is fully connected on foot to Ladder 3 at (19, 7) on 2F West. This grants immediate on-foot access to Row 7, allowing us to systematically test Koga's Row 6 on-foot passability (Hypothesis 5) on all Columns 1-7 to locate the unblocked vertical path to Northwest Ladder (1, 3) and Mewtwo!
 - **Testing Route**:
@@ -11361,8 +11361,7 @@ Since our systematic northern re-verification protocol on Map 0_226 (2F West) ha
   2. Walk on foot from (15, 3) to (15, 9) and Right to Ladder 3 at (18, 9).
   3. Warp UP to 2F West at (19, 7).
   4. Walk Left 1 step to (18, 7), face Left, and press Left to test (17, 7) on foot.
-  5. If passable, walk Left along Row 7 and systematically test Row 6 on-foot passability (Hypothesis 5) on Columns 1-7.
-- **Experimental Status**: Active. Commencing the surf to Water Ramp 4.
+- **Results**: Done (Falsified on Turn 145433). Walked Left to (18, 7) on Turn 145430, faced Left and pressed Left to test (17, 7). Result: BUMP (visited 0 tiles). This physically and conclusively proves that (17, 7) is indeed a solid rock wall of TYPE_2889 and completely impassable on foot. Hypothesis 7 is completely disproven. We must continue with our master backtracking plan to reach Koga's central area via Ladder 5 to test Hypothesis 5.
 
 <hr>
 
