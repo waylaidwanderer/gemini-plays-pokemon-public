@@ -9397,6 +9397,14 @@ This completes our systematic passability audit of the water canal blockages on 
 - Turn 145640: Start menu is open pointing at POKéMON. Opened POKéMON party options.
 - Turn 145641: Opened GEMMY's sub-menu in POKéMON options.
 - Turn 145642: Cursor is on ▶SURF. Ready to select SURF to test if (7, 3) is a water tile.
+- Turn 145634: Standing at (6, 2) on foot facing Down, selected POKéMON -> GEMMY -> SURF to test if (6, 3) is actually a water tile. Result: FAILED (textbox appeared, auto-dismissed with B, returning to Start menu).
+- Turn 145636: Closed Start menu, walked Right 1 step to (7, 2) on foot, and turned Down to face (7, 3) on Turn 145637.
+- Turn 145637: Standing on foot at (7, 2) facing Down. Opened the Start menu.
+- Turn 145640: Start menu is open pointing at POKéMON. Opened POKéMON party options.
+- Turn 145641: Opened GEMMY's sub-menu in POKéMON options on Turn 145642.
+- Turn 145643: Selected SURF to test if (7, 3) is a water tile. Result: FAILED (textbox appeared, auto-dismissed with B, returning to Start menu).
+- Turn 145646: Closed Start menu, walked Right 1 step to (8, 2) on foot, and turned Down to face (8, 3) on Turn 145647.
+- Turn 145655: Standing on foot at (8, 2) facing Down. Ready to test land-to-water Surf boarding on (8, 3).
 
 <hr>
 
