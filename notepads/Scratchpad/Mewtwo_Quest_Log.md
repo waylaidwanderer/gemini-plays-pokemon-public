@@ -38,3 +38,6 @@
 - Turn 146048: Walked Right 6 steps along Row 1 from (3, 1) to (9, 1) on Map 0_226, immediately descending Ladder 5 to arrive on 1F Northwest at (7, 1) on foot on Turn 146049.
 - Turn 146051: Standing on foot at (7, 1) on Map 0_228 (1F Northwest) facing Up. Ready to walk to Water Ramp 4 at (15, 3).
 - Turn 146059: Walked Right 8 steps along Row 1 and Down 2 steps along Column 15 from (7, 1) to stand at (15, 3) on Map 0_228 on foot on Turn 146060. Facing Down, ready to Surf.
+- Turn 146102: Opened the Start menu, selected POKéMON -> GEMMY -> SURF facing Down to test land-to-water Surf boarding at (15, 3). Result: SUCCESS, player successfully boarded the northern water canal on Map 0_228, standing at (15, 4) on Surf on Turn 146104.
+- Turn 146125: Called press_buttons to Surf along the unblocked water canal crossover on Row 7: ["Down", "Down", "Down", "Left", "Left", "Left", "Left", "Left", "Left", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Right", "Right", "Up"]. This successfully traversed from (15, 4) to (11, 13).
+- Turn 146129: Player successfully dismounted from Surf onto land at (11, 13) on Map 0_228 on foot, standing on Water Ramp 2 facing Down on Turn 146130.
