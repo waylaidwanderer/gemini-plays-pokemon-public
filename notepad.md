@@ -8222,8 +8222,12 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (19, 5) on Map 0_226 (2F West) on Turn 145148.
+- Current Status: Standing on foot at (21, 5) on Map 0_226 (2F West) on Turn 145155.
 - **Active Backtracking Log**:
+  - Turn 145151: Pressed Right from (21, 5) to test (22, 5) on foot. Result: BUMP (visited 0 tiles).
+  - Turn 145149: Walked Right 2 steps from (19, 5) to (21, 5) on foot on Map 0_226.
+  - Turn 145143: Fled Electrode at (19, 5) using flee_battle, returning to the overworld at (19, 5) on foot facing Right.
+  - Turn 145141: Walked Up 2 steps from (19, 7) to (19, 5) on foot. Interrupted at (19, 5) by a wild Electrode encounter.
   - Turn 145107: Warped up Ladder 3 from 1F Southwest/Central at (18, 9) to Map 0_226 (2F West) at (19, 7) on foot.
   - Turn 145106: Walked Right 3 steps along Row 9 to reach Ladder 3 at (18, 9) on foot on Map 0_228.
   - Turn 145101: Walked Down 1 step to (15, 9) on foot on Map 0_228.
