@@ -11102,7 +11102,17 @@ To resolve the topological layout discrepancy on Map 0_226 (2F West) and Map 0_2
   - From (3, 1), we will walk Down to (3, 2). From (3, 2), we will face Left and press Left to test (2, 2). We will observe if we bump or successfully walk onto (2, 2).
   - From (3, 2), we will walk Down to (3, 3). From (3, 3), we will face Left and press Left to test (2, 3). We will observe if we bump or successfully walk onto (2, 3).
   - This systematic test will determine with 100% certainty if Column 2 Rows 1-3 contains a false-positive blockage.
-- **Turn 145150**: Reached (21, 5) on foot facing Right on Map 0_226. Preparing to press Right to test if (22, 5) is passable.
+- **Turn 145151**: Pressed Right from (21, 5) facing Right to test (22, 5). Result: BUMP (visited 0 tiles). This physically and conclusively proves that (22, 5) is a solid, impassable rock wall of TYPE_2889 on 2F West. This definitively establishes that Koga's northern section is split on foot from Koga's central area on 2F West.
+
+## Master Crossover Re-Evaluation Plan (Turn 145154)
+Since all other shortcuts have been disproven, we must now execute our systematic Row 6 Crossover passability test on Koga's western area (Hypothesis 5) on 2F West. To do this, we will backtrack to 1F, Surf to 1F Northwest, and climb up Ladder 5 to reach Koga's central area.
+- **Backtracking & Routing Steps**:
+  1. Backtrack on foot to (19, 7) [Ladder 3] on 2F West and warp down to 1F at (18, 9).
+  2. Walk on foot to (11, 13) [Water Ramp 2] via (15, 8).
+  3. Board Surf and navigate to (15, 3) [Water Ramp 4].
+  4. Walk to (7, 1) [Ladder 5] and warp up to 2F West at (9, 1).
+  5. Walk to Koga's central Row 7 corridor at (9, 7) and Left to (1, 7).
+  6. Systematically test Row 6 passability by pressing Up from Row 7.
 
 <hr>
 
