@@ -8222,10 +8222,14 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on Surf at (11, 7) on Map 0_228 (1F) on Turn 144816.
+- Current Status: Standing on foot at (11, 13) on Map 0_228 (1F Southwest) on Turn 144850.
 - **Active Backtracking Log**:
+  - Turn 144833: Dismounted Surf Up onto Water Ramp 2 at (11, 13) on foot on Map 0_228.
+  - Turn 144832: Surfed Right 2 steps along Row 14 water to reach (11, 14) on water on Map 0_228.
+  - Turn 144827: Surfed Down 7 steps along Column 9 from (9, 7) to (9, 14) on water on Map 0_228.
+  - Turn 144827: Surfed Left 2 steps along Row 7 crossover from (11, 7) to reach (9, 7) on water on Map 0_228.
+  - Turn 144825: Pressed Down to dismount vertically from (11, 7) onto (11, 8) land on foot on Map 0_228. Result: BUMP (visited 0 tiles), confirming direct vertical dismount from Row 7 water onto Row 8 land is blocked by the solid horizontal cliff boundary wall.
   - Turn 144810: Surfed Left 4 steps along Row 7 crossover from (15, 7) to reach (11, 7) on water on Map 0_228 on Turn 144810.
-  - Turn 144825: Called cave_bfs_solver to navigate to (11, 13). Visited 0 tiles. Bumped on Turn 144825 because direct vertical dismount from Row 7 water (11, 7) to Row 8 land (11, 8) is blocked by the solid horizontal cliff boundary wall.
   - Turn 144804: Surfed Down 3 steps from (15, 4) to (15, 7) on water on Map 0_228.
   - Turn 144796: Boarded Surf from Water Ramp 4 at (15, 3) onto (15, 4) on water on Map 0_228.
   - Turn 144792: Walked Right 3 steps to (15, 2) and Down 1 step to stand on Water Ramp 4 at (15, 3) on foot on Map 0_228.
