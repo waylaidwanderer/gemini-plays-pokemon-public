@@ -1135,3 +1135,9 @@ This completes our systematic passability audit of the water canal blockages on 
 - **Turn 145070**: Standing on foot at Water Ramp 2 at (11, 13) facing Down on Map 0_228. Preparing to re-board Surf to navigate north to Water Ramp 4 at (15, 3).
 - **Turn 145164**: Backtracked on foot across the 1F central platform and reached Water Ramp 2 at (11, 13), facing Down. Preparing to open the Start menu and board Surf.
 - Turn 145180: Standing at (11, 14) on water, facing Up. Preparing to surf to Water Ramp 4 at (15, 3) to execute Koga's western area Row 6 Crossover passability test (Hypothesis 5).
+- Turn 145560: Opened the Start menu standing on foot at Water Ramp 2 at (11, 13).
+- Turn 145561: Cursor is pointing at POKéMON. Opened POKéMON party options.
+- Turn 145562: Cursor is on GEMMY. Selected GEMMY to open options sub-menu.
+- Turn 145563: Cursor is on ▶SURF. Pressed A to initiate Surf and successfully boarded water at (11, 14) on water.
+- Turn 145565: Pressed Up to step onto (11, 13) on foot, which automatically dismounted Surf.
+- Turn 145567: Standing on foot at Water Ramp 2 at (11, 13) facing Down. Ready to execute manual boarding of Surf facing Down to prepare for surfing north.
