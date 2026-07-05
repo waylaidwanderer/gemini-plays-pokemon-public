@@ -9378,6 +9378,8 @@ This completes our systematic passability audit of the water canal blockages on 
 - Turn 145627: Standing on foot at (6, 2) facing Down. Ready to test land-to-water Surf boarding on (6, 3).
 - Turn 145628: Pressed Start to open the Start menu.
 - Turn 145631: Standing on foot at (6, 2) facing Down with Start menu open pointing at POKéMON. Ready to select POKéMON to test Surf boarding on (6, 3).
+- Turn 145634: Standing at (6, 2) on foot facing Down, selected POKéMON -> GEMMY -> SURF to test if (6, 3) is actually a water tile. Result: FAILED (textbox appeared, auto-dismissed with B, returning to Start menu).
+- Turn 145635: Standing on foot at (6, 2) facing Down with Start menu open. Ready to close Start menu, step Right to (7, 2), and test (7, 3) Surf boarding.
 
 <hr>
 
