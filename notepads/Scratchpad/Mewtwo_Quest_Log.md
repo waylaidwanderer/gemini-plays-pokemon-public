@@ -46,3 +46,8 @@
 - Turn 146198: Standing at (3, 11) on foot on Map 0_226.
 - Turn 146205: Walked Up 1 step from the Southwest Ladder at (3, 11) to stand at (3, 10) on Map 0_226 on foot on Turn 146206 facing Up, stepping off the warp trigger.
 - Turn 146222: Standing on Southwest Ladder 6 at (3, 11) on Map 0_228 (1F Southwest) after warping back down on foot on Turn 146222.
+- Turn 146235: Stepped Down to (3, 12) and Up to (3, 11) to trigger the Southwest Ladder warp on Map 0_228, which successfully warped us up to Map 0_226 (2F West) at (3, 11) on foot on Turn 146236.
+- Turn 146236: Stepped Up to (3, 10) and Down to (3, 11) on Map 0_226 to trigger the warp back down, arriving on foot at (3, 11) on Map 0_228 on Turn 146237.
+- Turn 146237: Ran cave_bfs_solver to path on foot to Water Ramp 2 at (11, 13). The solver attempted to route through (3, 7) which is blocked, resulting in multiple bumps and ending up at (3, 15) on foot on Map 0_228 on Turn 146238.
+- Turn 146238: Pressed Down to walk to (3, 16) but triggered a wild Level 52 Golbat battle at (3, 15) on Turn 146239.
+- Turn 146240: Ran flee_battle to escape successfully, returning to the overworld at (3, 15) on foot facing Down on Turn 146241.
