@@ -10150,7 +10150,7 @@ To resolve this logical flaw without making unverified assumptions, we will stan
   - Turn 143562: Stood at (7, 13) on foot facing Left, opened start menu to select GEMMY -> SURF.
   - Turn 143564: Selected SURF on GEMMY facing Left against (6, 13). Result: "No SURFing on GEMMY here!". Conclusively and empirically disproves the Column 6 Row 13 Surf boarding hypothesis, proving (6, 13) is a solid, impassable rock wall of TYPE_2889.
 
-- Current Status: Standing on foot at (15, 3) on Map 0_228 (1F Northwest) on Turn 146064 (Overworld, facing Down).
+- Current Status: Standing on foot at (15, 3) on Map 0_228 (1F Northwest) on Turn 146072 (Overworld, facing Down).
 
 ### Empirical Re-Verification Results (Turn 144743):
 - **Turn 144704**: Tested (2, 1) by pressing Left from (3, 1) on 2F West. Result: BUMP (visited 0 tiles). (2, 1) is solid.
