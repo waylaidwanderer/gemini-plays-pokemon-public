@@ -8222,9 +8222,10 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (10, 2) on Map 0_228 (1F Northwest) on Turn 145727 (In battle with wild Level 49 Dodrio).
+- Current Status: Standing on foot at (10, 2) on Map 0_228 (1F Northwest) on Turn 145729 (Overworld, facing Down towards 10,3).
 - **Active Backtracking Log**:
-  - Turn 145727: Engaged in wild Level 49 Dodrio encounter at (10, 2), preparing to flee.
+  - Turn 145729: Successfully fled the wild Dodrio encounter and returned to the overworld at (10, 2), facing Down. Opened Start menu to test (10, 3) Surf boarding.
+  - Turn 145727: Engaged in wild Level 49 Dodrio encounter at (10, 2), fled using flee_battle.
   - Turn 145725: Walked Right 1 step from (9, 2) to reach (10, 2) on foot on Map 0_228, immediately triggering a wild Level 49 Dodrio encounter.
   - Turn 145724: Pressed B to close the Start menu standing on foot at (9, 2).
   - Turn 145718: Selected SURF on GEMMY facing Down on (9, 2) to test if (9, 3) is a water tile. Result: FAILED ("No SURFing on GEMMY here!"), proving (9, 3) is solid rock.
