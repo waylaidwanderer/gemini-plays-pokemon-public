@@ -8222,9 +8222,9 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (10, 2) on Map 0_228 (1F Northwest) on Turn 145812 (Start Menu open pointing at POKéDEX, facing Right).
+- Current Status: Standing on foot at (10, 2) on Map 0_228 (1F Northwest) on Turn 145813 (Start Menu open pointing at POKéDEX, facing Right).
 - **Active Backtracking Log**:
-  - Turn 145812: Pressing B to close the Start menu standing on foot at (10, 2) facing Right.
+  - Turn 145813: Pressing B to close the Start menu standing on foot at (10, 2) facing Right.
   - Turn 145806: Start menu open pointing at POKéDEX, player facing Right. Pressing B to close menu and face Down in the overworld.
   - Turn 145796: Pressed Start to open the Start menu standing on foot at (10, 2) facing Right.
   - Turn 145795: Standing on foot at (10, 2) on Map 0_228 (1F Northwest) facing Down. Overworld fully visible. Start menu closed. Pressed Start.
