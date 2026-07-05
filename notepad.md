@@ -10290,7 +10290,7 @@ Since our systematic northern re-verification protocol on Map 0_226 (2F West) ha
   3. Walk to Southwest Ladder 6 at (3, 11) on 1F Southwest, and warp UP to 2F West at (3, 11).
   4. Walk Left 2 steps, Up 2 steps to reach (1, 9) on foot on Map 0_226.
   5. Standing at (1, 9) facing Up, press Up to test if (1, 8) is open. Record result.
-- **Experimental Status**: Active. Commencing backtracking to 1F Southwest.
+- Experimental Status: Disproven (Turn 146235). Koga's southwest pocket is 100% isolated on foot on 2F West, as (2, 9) is a solid rock wall and Column 1 cannot be reached on foot. We pruned the active testing route.
 
 ## Hypothesis 9: Column 7 Row 10 (7, 10) Water Passability on Map 0_228 (1F)
 - **Premise**: Column 7 Row 10 (7, 10) on water (Map 0_228, 1F) is actually PASSABLE on Surf, contrary to our general "Column 7 is blocked" assumption.
