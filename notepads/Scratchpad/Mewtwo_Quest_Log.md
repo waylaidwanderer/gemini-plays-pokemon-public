@@ -58,3 +58,6 @@
 - Turn 146264: Surfed Left 3 steps to (8, 14) and Up 4 steps to stand at (8, 10) on Surf on Turn 146265, facing Down.
 - Turn 146269: Pressed Left to face Left and test Column 7 Row 10 (7, 10). Result: BUMP (visited 0 tiles, player remained at (8, 10) facing Left on Turn 146271).
 - Conclusion: Column 7 Row 10 (7, 10) on Map 0_228 is definitively a solid rock wall of TYPE_2889 and is completely impassable on water. This disproves Hypothesis 9.
+- Turn 146300: Surfed Down 3 steps to (8, 13) and pressed Left to dismount onto (7, 13) on foot on Turn 146301.
+- Turn 146305: Pressed Left to test walking onto (6, 13). Result: BUMP (visited 0 tiles, player remained at (7, 13) facing Left on Turn 146306).
+- Conclusion: Column 6 Row 13 (6, 13) on Map 0_228 is definitively a solid rock wall of TYPE_2889 and is completely impassable on foot. Dismounting onto (7, 13) on foot results in a closed 1-tile pocket with no on-foot exit.
