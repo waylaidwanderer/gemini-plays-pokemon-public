@@ -10285,6 +10285,17 @@ Since our systematic northern re-verification protocol on Map 0_226 (2F West) ha
   5. Standing at (1, 9) facing Up, press Up to test if (1, 8) is open. Record result.
 - **Experimental Status**: Active. Commencing backtracking to 1F Southwest.
 
+## Hypothesis 9: Column 7 Row 10 (7, 10) Water Passability on Map 0_228 (1F)
+- **Premise**: Column 7 Row 10 (7, 10) on water (Map 0_228, 1F) is actually PASSABLE on Surf, contrary to our general "Column 7 is blocked" assumption.
+- **Topological Impact**: If (7, 10) is open water, we can Surf Left from (8, 10) in the central canal directly past Column 7 into Koga's western water canal (Columns 4-6, Rows 6-12). Once in the western water canal, we can Surf Up to Row 6/5/4 and dismount onto Koga's western landmass, walking directly to (1, 3) [B1F stairs] to descend to Mewtwo! This is the most logical path to victory and resolves the topological deadlock.
+- **Testing Route**:
+  1. Warp down Southwest Ladder 6 at (3, 11) on Map 0_226 to 1F Southwest.
+  2. Walk on foot along Row 17 and over the central stairs to reach Water Ramp 2 at (11, 13) on foot.
+  3. Board Surf at (11, 13) onto (11, 14) and Surf into the central canal.
+  4. Surf to (8, 10) in the central canal.
+  5. Standing at (8, 10) on Surf, face Left and press Left to test Column 7 Row 10 (7, 10). Record result.
+- **Experimental Status**: Active. Testing this hypothesis now.
+
 <hr>
 
 <h1><code>Reflection/Turn143300_Reflection</code></h1>
