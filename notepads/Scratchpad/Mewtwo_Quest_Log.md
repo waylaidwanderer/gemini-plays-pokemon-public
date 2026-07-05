@@ -1,7 +1,7 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (10, 2) on Map 0_228 (1F Northwest) on Turn 145816 (Start Menu open pointing at POKéDEX, facing Right).
+- Current Status: Standing on foot at (10, 2) on Map 0_228 (1F Northwest) on Turn 145817 (Start Menu open pointing at POKéDEX, facing Right).
 - **Active Backtracking Log**:
-  - Turn 145816: Start menu is open, pointing at POKéDEX, player facing Right. Pressing B to close menu and face Down in the overworld.
+  - Turn 145817: Start menu open pointing at POKéDEX, player facing Right. Preparing to press B to close menu, walk Left to (5, 2) or (5, 1), and face Left to test Column 4 Surf boarding (Hypothesis 8 / Socratic Challenge).
   - Turn 145806: Start menu open pointing at POKéDEX, player facing Right. Pressing B to close menu and face Down in the overworld.
   - Turn 145796: Pressed Start to open the Start menu standing on foot at (10, 2) facing Right.
   - Turn 145795: Standing on foot at (10, 2) on Map 0_228 (1F Northwest) facing Down. Overworld fully visible. Start menu closed. Pressed Start.
