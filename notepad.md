@@ -8222,8 +8222,15 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (1, 14) on Map 0_228 (1F Southwest) on Turn 144962.
+- Current Status: Standing on foot at (1, 14) on Map 0_228 (1F Southwest) on Turn 144969.
 - **Active Backtracking Log**:
+  - Turn 144958: Walked from (3, 17) to (1, 14) on foot on Map 0_228.
+  - Turn 144953: Walked Left 6 steps along Row 17 from (9, 17) to (3, 17) on foot on Map 0_228.
+  - Turn 144952: Walked Left 6 steps along Row 17 from (15, 17) to (9, 17) on foot on Map 0_228.
+  - Turn 144951: Walked from (15, 14) through the central stairs at (17, 15) to reach (15, 17) on foot on Map 0_228.
+  - Turn 144945: Fled wild Kadabra at (15, 14) using flee_battle.
+  - Turn 144944: Walked from (15, 12) to (15, 14) on foot on Map 0_228, where we were interrupted by a wild Kadabra.
+  - Turn 144938: Walked from (11, 13) to (15, 12) on foot on Map 0_228.
   - Turn 144833: Dismounted Surf Up onto Water Ramp 2 at (11, 13) on foot on Map 0_228.
   - Turn 144832: Surfed Right 2 steps along Row 14 water to reach (11, 14) on water on Map 0_228.
   - Turn 144827: Surfed Down 7 steps along Column 9 from (9, 7) to (9, 14) on water on Map 0_228.
