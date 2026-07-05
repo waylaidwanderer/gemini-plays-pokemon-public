@@ -8222,8 +8222,10 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Surfing at (11, 7) on Map 0_228 (1F) on Turn 145416.
+- Current Status: Standing on foot at (19, 7) on Map 0_226 (2F West) on Turn 145428.
 - **Active Backtracking Log**:
+  - Turn 145425: Walked Up 4 steps from (11, 13) to (11, 9) and Right 7 steps along Row 9 to reach Ladder 3 at (18, 9), warping UP to 2F West at (19, 7) on Map 0_226.
+  - Turn 145422: Surfed Left 2 steps from (11, 7) to (9, 7), Down 7 steps along Column 9 to (9, 14), Right 2 steps along Row 14 to (11, 14), and Up 1 step to dismount on foot at Water Ramp 2 at (11, 13) on Map 0_228 on Turn 145424.
   - Turn 145413: Pressed Down from (11, 7) facing Down to step onto (11, 8). Result: BUMP (visited 0 tiles). This physically and conclusively proves that (11, 8) is a standard ground tile of TYPE_2770, but we cannot dismount directly onto it from Surf because there is a solid cliff ledge height mismatch.
   - Turn 145412: Surfed Left 4 steps along the Row 7 crossover water canal from (15, 7) to (11, 7) on water.
   - Turn 145403: Pressed A on Surf at (15, 7) facing Down towards (15, 8). Result: "There's no place to get off!". This physically and conclusively proves that (15, 8) is a standard ground tile of TYPE_2770, but we cannot dismount directly onto it from Surf because there is a solid cliff ledge height mismatch.
