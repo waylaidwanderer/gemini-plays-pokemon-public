@@ -9446,6 +9446,15 @@ This completes our systematic passability audit of the water canal blockages on 
 - Turn 145911: Standing on foot at (14, 2) facing Down with Start menu open. Ready to close the Start menu, walk Left 9 steps to (5, 2) on foot, face Left, and test Column 4 Surf boarding on (4, 2) (Hypothesis 8 / Socratic Challenge).
 - Turn 145956: Commencing the movement Left along Row 2 to reach (5, 2) on Map 0_228 on foot to test the Column 4 Surf boarding hypothesis on (4, 2) or (4, 1) (Socratic Challenge).
 - Turn 145965: Selected SURF on GEMMY facing Left from (5, 2) to test if (4, 2) is a water tile (Socratic Challenge). Result: FAILED with "No SURFing on GEMMY here!". The text box was auto-advanced by the harness pressing B twice, returning us to the Start menu with the cursor pointing at ▶POKéMON on Turn 145965. This physically and conclusively proves that (4, 2) on Map 0_228 is a solid rock wall of TYPE_2889 and is completely impassable. This officially disproves testing (4, 2) as water. Defined map marker. Ready to close the Start menu, walk to (5, 1), and test (4, 1) Surf boarding.
+- Turn 145966: Pressed B to close the Start menu.
+- Turn 145967: Pressed Up to walk to (5, 1) on foot on Map 0_228.
+- Turn 145970: Pressed Left to turn Left and face (4, 1), resulting in a BUMP.
+- Turn 145973: Pressed Start to open the Start menu.
+- Turn 145974: Selected POKéMON.
+- Turn 145975: Selected GEMMY.
+- Turn 145976: Selected SURF facing Left towards (4, 1). Result: FAILED with "No SURFing on GEMMY here!". The text box was auto-advanced by the harness pressing B twice, returning us to the Start menu with the cursor pointing at ▶POKéMON on Turn 145977. This physically and conclusively proves that (4, 1) on Map 0_228 is a solid rock wall of TYPE_2889 and is completely impassable. This officially completes our Column 4 sweep on Rows 1 and 2, disproving the Column 4 water boarding hypothesis. Defined map marker.
+- Turn 145978: Pressed B to close the Start menu, returning to the overworld at (5, 1) on foot facing Left on Turn 145979.
+- Turn 145982: Current position is (5, 1) on Map 0_228 on foot facing Left. Ready to systematically test our new hypothesis on ledges (Socratic Challenge).
 
 <hr>
 
