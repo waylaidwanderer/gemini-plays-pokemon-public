@@ -8222,7 +8222,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (11, 13) on Map 0_228 (1F Southwest) on Turn 144932.
+- Current Status: Standing on foot at (1, 14) on Map 0_228 (1F Southwest) on Turn 144962.
 - **Active Backtracking Log**:
   - Turn 144833: Dismounted Surf Up onto Water Ramp 2 at (11, 13) on foot on Map 0_228.
   - Turn 144832: Surfed Right 2 steps along Row 14 water to reach (11, 14) on water on Map 0_228.
