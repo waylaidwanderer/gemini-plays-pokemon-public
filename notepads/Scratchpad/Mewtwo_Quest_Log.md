@@ -1,6 +1,13 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Surfing at (9, 6) on Map 0_228 (1F) on Turn 145361.
+- Current Status: Standing on foot at (15, 3) on Map 0_228 (1F) on Turn 145369.
 - **Active Backtracking Log**:
+  - Turn 145367: Pressed Up once from (15, 4) to step onto Water Ramp 4 at (15, 3) on foot, automatically dismounting Surf.
+  - Turn 145361: Surfed Right 6 steps along the Row 6 water crossover from (9, 6) to (15, 6), and Up 2 steps to (15, 4) on water.
+  - Turn 145354: Boarded Surf facing Down from Water Ramp 4 at (15, 3) onto (15, 4) on water.
+  - Turn 145343: Walked from (7, 1) to (15, 1) on foot, and Down 2 steps to stand at Water Ramp 4 at (15, 3) on Map 0_228.
+  - Turn 145341: Walked Left 6 steps from (9, 3) to (3, 3) on foot, Up 2 steps to (3, 1), and Right 6 steps to stand on Ladder 5 at (9, 1), immediately warping down to 1F Northwest at (7, 1) on Map 0_228 on Turn 145342.
+  - Turn 145336: Walked Left 3 steps from (9, 3) on foot to (6, 3), bumped Up twice against (6, 2) which is solid rock of TYPE_2889, and walked Right 3 steps back to (9, 3) on foot.
+  - Turn 145334: Fled wild Level 51 Dodrio battle and returned to (9, 4) on foot on Map 0_226.
   - Turn 145286: Pressed Down from (11, 5) to test Column 11 Row 6 (11, 6) on foot. Result: BUMP (visited 0 tiles). Conclusively proved (11, 6) is solid.
   - Turn 145281: Walked Right 2 steps from (9, 5) to reach (11, 5) on foot on Map 0_226.
   - Turn 145279: Walked Down 2 steps from (9, 3) to reach (9, 5) on foot on Map 0_226.
