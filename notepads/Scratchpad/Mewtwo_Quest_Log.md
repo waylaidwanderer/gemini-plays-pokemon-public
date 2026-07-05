@@ -1,5 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (11, 5) on Map 0_226 (2F West) on Turn 145321.
+- Current Status: Surfing at (9, 6) on Map 0_228 (1F) on Turn 145361.
 - **Active Backtracking Log**:
   - Turn 145286: Pressed Down from (11, 5) to test Column 11 Row 6 (11, 6) on foot. Result: BUMP (visited 0 tiles). Conclusively proved (11, 6) is solid.
   - Turn 145281: Walked Right 2 steps from (9, 5) to reach (11, 5) on foot on Map 0_226.
