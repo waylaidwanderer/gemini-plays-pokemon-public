@@ -1,6 +1,7 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (9, 2) on Map 0_228 (1F Northwest) on Turn 145712 (Party Menu open pointing at GEMMY).
+- Current Status: Standing on foot at (9, 2) on Map 0_228 (1F Northwest) on Turn 145719 (Start Menu open pointing at POKéMON after failed Surf test on 9,3).
 - **Active Backtracking Log**:
+  - Turn 145718: Selected SURF on GEMMY facing Down on (9, 2) to test if (9, 3) is a water tile. Result: FAILED ("No SURFing on GEMMY here!"), proving (9, 3) is solid rock.
   - Turn 145707: Selected POKéMON from the Start menu.
   - Turn 145705: Pressed Start to open the Start menu standing on foot at (9, 2) facing Down.
   - Turn 145704: Standing on foot at (9, 2) on Map 0_228 (1F Northwest) facing Down.
