@@ -1,8 +1,9 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Surfing at (11, 14) on Map 0_228 (1F Central Canal) on Turn 145502.
+- Current Status: Standing on foot at (11, 11) on Map 0_228 (1F) on Turn 145531.
 - **Active Backtracking Log**:
+  - Turn 145515: Walked Up 1 step to (11, 12) on foot on Map 0_228.
+  - Turn 145510: Pressed Up 1 step from (11, 14) to step onto Water Ramp 2 at (11, 13) on foot, successfully dismounting Surf.
   - Turn 145491: Selected GEMMY -> SURF standing on Water Ramp 2 at (11, 13) facing Down, successfully boarding the water canal at (11, 14) on Surf.
-  - Turn 145482: Used cave_bfs_solver to walk Left 3 steps and Down 4 steps from (14, 9) to reach Water Ramp 2 at (11, 13) on foot on Map 0_228.
   - Turn 145471: Walked Left along Row 9 on Map 0_228 from (18, 9) to (14, 9) on foot, where we triggered a wild Level 46 Hypno encounter.
   - Turn 145468: Pressed Right 1 step to stand on Ladder 3 at (19, 7) and warp down to 1F Central/Southwest at (18, 9) on foot.
   - Turn 145433: Standing on foot at (18, 7) on 2F West, pressed Left to test (17, 7). Result: BUMP (visited 0 tiles). Physically and conclusively proving that (17, 7) is indeed a solid rock wall of TYPE_2889 and is completely impassable on foot.
