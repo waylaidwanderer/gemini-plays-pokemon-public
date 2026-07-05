@@ -10268,6 +10268,16 @@ Since our systematic northern re-verification protocol on Map 0_226 (2F West) ha
   3. Warp UP to 2F West at (19, 7).
   4. Walk Left 1 step to (18, 7), face Left, and press Left to test (17, 7) on foot.
 - **Results**: Done (Falsified on Turn 145433). Walked Left to (18, 7) on Turn 145430, faced Left and pressed Left to test (17, 7). Result: BUMP (visited 0 tiles). This physically and conclusively proves that (17, 7) is indeed a solid rock wall of TYPE_2889 and completely impassable on foot. Hypothesis 7 is completely disproven. We must continue with our master backtracking plan to reach Koga's central area via Ladder 5 to test Hypothesis 5.
+## Hypothesis 8: Column 1 Row 8 (1, 8) On-Foot Passability on Map 0_226 (2F West)
+- **Premise**: Column 1 Row 8 (1, 8) on Map 0_226 (2F West) is actually open (passable) on foot.
+- **Topological Impact**: Since Koga's western area Row 5 (Columns 1-7) is open, and Column 6 connects Row 5 to Row 7 via (6, 6), and Row 7 is completely open on Columns 1-11, if (1, 8) is open, we can walk: (3, 11) [Southwest Ladder] -> (3, 9) -> (1, 9) -> Up Column 1 to (1, 7) via (1, 8) -> Right along Row 7 to (6, 7) -> Up Column 6 to (6, 5) via (6, 6) -> Left along Row 5 to (0, 5) -> Up Column 0 to (0, 3) via (0, 4) -> Right to (1, 3) [Northwest Ladder]! This bypasses the closed (1, 6) and (1, 4) blockages on Column 1, and the solid Row 8 blockages on Columns 3-12, forming a completely open on-foot path to Mewtwo!
+- **Testing Route**:
+  1. Board Surf at Water Ramp 4 at (15, 3) on Map 0_228.
+  2. Surf to Water Ramp 2 at (11, 13) on 1F Southwest.
+  3. Walk to Southwest Ladder 6 at (3, 11) on 1F Southwest, and warp UP to 2F West at (3, 11).
+  4. Walk Left 2 steps, Up 2 steps to reach (1, 9) on foot on Map 0_226.
+  5. Standing at (1, 9) facing Up, press Up to test if (1, 8) is open. Record result.
+- **Experimental Status**: Active. Commencing backtracking to 1F Southwest.
 
 <hr>
 
