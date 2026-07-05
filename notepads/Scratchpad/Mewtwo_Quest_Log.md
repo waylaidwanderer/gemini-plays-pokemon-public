@@ -1070,3 +1070,4 @@ This completes our systematic passability audit of the water canal blockages on 
 - **Solution**:
   - We must redefine `cave_bfs_solver` and subtract the four water ramps `{(23, 3), (15, 3), (11, 13), (25, 9)}` from the `water_1f` set so they are classified as land. This forces the solver to start in `'foot'` mode when standing on a ramp, correctly triggering the Surf boarding transition sequence.
   - We will fix this in our next custom tool update. For now, we will perform the Surf boarding manually to enter the water.
+- **Turn 145070**: Standing on foot at Water Ramp 2 at (11, 13) facing Down on Map 0_228. Preparing to re-board Surf to navigate north to Water Ramp 4 at (15, 3).
