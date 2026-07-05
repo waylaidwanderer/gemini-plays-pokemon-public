@@ -8222,8 +8222,13 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on Surf at (11, 14) on Map 0_228 (1F Southwest) on Turn 145083.
+- Current Status: Standing on foot at (19, 7) on Map 0_226 (2F West) on Turn 145111.
 - **Active Backtracking Log**:
+  - Turn 145107: Warped up Ladder 3 from 1F Southwest/Central at (18, 9) to Map 0_226 (2F West) at (19, 7) on foot.
+  - Turn 145106: Walked Right 3 steps along Row 9 to reach Ladder 3 at (18, 9) on foot on Map 0_228.
+  - Turn 145101: Walked Down 1 step to (15, 9) on foot on Map 0_228.
+  - Turn 145093: Completed 19-step automated pathing, successfully walking from (11, 14) to (15, 8) on foot on Map 0_228 (bumping against (16, 8) solid wall on foot).
+  - Turn 145084: Surfed from (11, 14) and dismounted Up onto Water Ramp 2 at (11, 13) on foot.
   - Turn 145078: Boarded Surf facing Down from Water Ramp 2 at (11, 13) onto (11, 14) on Surf on Map 0_228.
   - Turn 145074: Pressed Down to turn Down to face water from (11, 13), bumping on foot.
   - Turn 145068: Pressed Up to move to (11, 14) to (11, 13) and automatically dismounted Surf onto the ramp on foot.
