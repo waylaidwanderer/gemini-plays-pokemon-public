@@ -9420,10 +9420,19 @@ This completes our systematic passability audit of the water canal blockages on 
 - Turn 145655: Standing on foot at (8, 2) facing Down. Ready to test land-to-water Surf boarding on (8, 3).
 - Turn 145825: Standing at (10, 2) on Map 0_228 on foot, facing Down. Ready to test land-to-water Surf boarding on (10, 3) (Hypothesis 6 / Socratic Challenge). Pressing Start to open the menu.
 - Turn 145838: Standing at (10, 2) on Map 0_228 on foot, facing Down in the overworld. The Start menu has been successfully closed. Now preparing to step Right to (11, 2) on foot and turn Down to face (11, 3) to test the next column.
-- Turn 145841: Successfully walked to (11, 2) on Map 0_228 on foot, facing Down. Now preparing to test land-to-water Surf boarding on (11, 3). Pressing Start to open the Start menu.
-- Turn 145843: Start menu is open, cursor is pointing directly at ▶POKéMON. Pressing A to open the POKéMON party menu to prepare for the (11, 3) Surf test.
-- Turn 145849: Start menu is open, cursor is pointing directly at ▶POKéMON. We have successfully defined a map marker at (11, 3) as solid rock. Next, we will close the Start menu, walk Right to (12, 2) on foot, and turn Down to face (12, 3) to test the next column.
-- Turn 145857: Standing at (12, 2) on Map 0_228 on foot, facing Down. Now preparing to test land-to-water Surf boarding on (12, 3). Pressing Start to open the Start menu.
+- Turn 145841: Successfully walked to (11, 2) on Map 0_228 on foot, facing Down. Opened the Start menu standing at (11, 2) facing Down.
+- Turn 145843: Start menu is open, cursor is pointing directly at ▶POKéMON. Pressed A to open the POKéMON party menu.
+- Turn 145844: Opened POKéMON party menu with GEMMY selected. Pressed A to select GEMMY.
+- Turn 145845: Opened GEMMY's sub-menu pointing at ▶SURF. Pressed A on SURF to test Column 11 Row 3 (11, 3) facing Down on foot on Map 0_228.
+- Turn 145846: Selected SURF. Result: FAILED with "No SURFing on GEMMY here!". The text box was auto-advanced by the harness pressing B twice, returning us to the Start menu with the cursor pointing at ▶POKéMON on Turn 145848. This physically and conclusively proves that (11, 3) on Map 0_228 is a solid rock wall of TYPE_2889 and is completely impassable. Defined map marker.
+- Turn 145851: Pressed B to close the Start menu, returning to the overworld at (11, 2) facing Down.
+- Turn 145852: Walked Right 1 step from (11, 2) to (12, 2) on foot on Map 0_228, and turned Down to face (12, 3).
+- Turn 145859: Pressed Start to open the Start menu standing on foot at (12, 2) facing Down.
+- Turn 145864: Start menu is open, cursor is pointing directly at ▶POKéMON. Pressed A to open the POKéMON party menu.
+- Turn 145865: Opened POKéMON party menu with GEMMY selected. Pressed A to select GEMMY.
+- Turn 145866: Opened GEMMY's sub-menu pointing at ▶SURF. Pressed A on SURF to test Column 12 Row 3 (12, 3) facing Down on foot on Map 0_228.
+- Turn 145867: Selected SURF. Result: FAILED with "No SURFing on GEMMY here!". The text box was auto-advanced by the harness pressing B twice, returning us to the Start menu with the cursor pointing at ▶POKéMON on Turn 145869. This physically and conclusively proves that (12, 3) on Map 0_228 is a solid rock wall of TYPE_2889 and is completely impassable. Defined map marker.
+- Turn 145869: Start menu is open pointing directly at ▶POKéMON. Ready to close the Start menu, walk Right to (13, 2) on foot, and face Down to test (13, 3) (Hypothesis 6 / Socratic Challenge).
 
 <hr>
 
