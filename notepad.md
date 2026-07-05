@@ -8274,6 +8274,13 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 146237: Ran cave_bfs_solver to path on foot to Water Ramp 2 at (11, 13). The solver attempted to route through (3, 7) which is blocked, resulting in multiple bumps and ending up at (3, 15) on foot on Map 0_228 on Turn 146238.
 - Turn 146238: Pressed Down to walk to (3, 16) but triggered a wild Level 52 Golbat battle at (3, 15) on Turn 146239.
 - Turn 146240: Ran flee_battle to escape successfully, returning to the overworld at (3, 15) on foot facing Down on Turn 146241.
+- Turn 146244: Standing at (11, 17) on foot, facing Up.
+- Turn 146248: Successfully walked Right 4 steps to (15, 17), Up 1 step to (15, 16), Right 2 steps to (17, 16), and climbed the central stairs Up 2 steps to stand at (17, 14) on the central platform on Turn 146249.
+- Turn 146249: Walked along the central platform: Left 2 steps to (15, 14), Up 2 steps to (15, 12), Left 4 steps to (11, 12), and Down 1 step to stand on Water Ramp 2 at (11, 13) on foot on Turn 146251, facing Down.
+- Turn 146259: Opened the Start menu, selected POKéMON, and selected GEMMY -> SURF to successfully board the water canal at (11, 14) on Surf on Turn 146263.
+- Turn 146264: Surfed Left 3 steps to (8, 14) and Up 4 steps to stand at (8, 10) on Surf on Turn 146265, facing Down.
+- Turn 146269: Pressed Left to face Left and test Column 7 Row 10 (7, 10). Result: BUMP (visited 0 tiles, player remained at (8, 10) facing Left on Turn 146271).
+- Conclusion: Column 7 Row 10 (7, 10) on Map 0_228 is definitively a solid rock wall of TYPE_2889 and is completely impassable on water. This disproves Hypothesis 9.
 
 <hr>
 
