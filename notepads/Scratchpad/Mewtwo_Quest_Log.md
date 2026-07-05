@@ -1195,3 +1195,4 @@ This completes our systematic passability audit of the water canal blockages on 
 - Turn 145643: Selected SURF to test if (7, 3) is a water tile. Result: FAILED (textbox appeared, auto-dismissed with B, returning to Start menu).
 - Turn 145646: Closed Start menu, walked Right 1 step to (8, 2) on foot, and turned Down to face (8, 3) on Turn 145647.
 - Turn 145655: Standing on foot at (8, 2) facing Down. Ready to test land-to-water Surf boarding on (8, 3).
+- Turn 145825: Standing at (10, 2) on Map 0_228 on foot, facing Down. Ready to test land-to-water Surf boarding on (10, 3) (Hypothesis 6 / Socratic Challenge). Pressing Start to open the menu.
