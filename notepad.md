@@ -8264,6 +8264,9 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 146102: Opened the Start menu, selected POKéMON -> GEMMY -> SURF facing Down to test land-to-water Surf boarding at (15, 3). Result: SUCCESS, player successfully boarded the northern water canal on Map 0_228, standing at (15, 4) on Surf on Turn 146104.
 - Turn 146125: Called press_buttons to Surf along the unblocked water canal crossover on Row 7: ["Down", "Down", "Down", "Left", "Left", "Left", "Left", "Left", "Left", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Right", "Right", "Up"]. This successfully traversed from (15, 4) to (11, 13).
 - Turn 146129: Player successfully dismounted from Surf onto land at (11, 13) on Map 0_228 on foot, standing on Water Ramp 2 facing Down on Turn 146130.
+- Turn 146177: Called press_buttons to walk on foot from (11, 13) to (11, 17): ["Up", "Right", "Right", "Right", "Right", "Down", "Down", "Right", "Right", "Down", "Down", "Left", "Left", "Down", "Left", "Left", "Left", "Left"]. This successfully traversed over the central platform stairs and down to (11, 17) on foot, standing at (11, 17) facing Left on Turn 146179.
+- Turn 146185: Called press_buttons to walk on foot from (11, 17) to (3, 11): ["Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Up", "Up", "Left", "Up", "Up", "Up", "Right", "Right", "Up"]. This successfully walked along Koga's Row 17 bypass to (2, 17), walked Up Column 2 to (2, 15), Left to (1, 15), climbed the wooden stairs at (1, 13) to (1, 12) on the elevated southwest platform, walked to (3, 12), and stepped Up onto Southwest Ladder 6 at (3, 11) to warp UP to Map 0_226 (2F West) on foot, standing at (3, 11) on Turn 146186.
+- Turn 146198: Standing at (3, 11) on foot on Map 0_226.
 
 <hr>
 
