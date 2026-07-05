@@ -9374,6 +9374,18 @@ This completes our systematic passability audit of the water canal blockages on 
 - Turn 145585: Disproved Hypothesis 6 (water crossover on Column 7 Row 4/5) because Row 5 is completely blocked by solid rock, preventing vertical surfing to Row 5 on columns 8-13.
 - Turn 145589: Surfed Down 8 steps to (9, 14), Right 2 steps to (11, 14), and Up 1 step to dismount on foot at Water Ramp 2 at (11, 13) on Turn 145590.
 - Turn 145591: Standing on foot at Water Ramp 2 at (11, 13) facing Up. Ready to execute Surf to Water Ramp 4 at (15, 3) to test land-to-water boarding option on (5, 3) or (6, 3) on the 1F Northwest landmass.
+- Turn 145600: Turned Down to face water from (11, 13), bumping on foot.
+- Turn 145603: Opened the Start menu standing on foot at Water Ramp 2 at (11, 13) facing Down.
+- Turn 145604: Opened POKéMON party options.
+- Turn 145605: Selected GEMMY to open options sub-menu.
+- Turn 145606: Selected SURF and successfully boarded the water canal at (11, 14).
+- Turn 145612: Surfed to Water Ramp 4 at (15, 3) via Row 14, Column 9, Row 7 crossover, and Column 15, dismounting onto land on foot on Turn 145612.
+- Turn 145613: Walked Up 1 step to (15, 2) on foot.
+- Turn 145615: Walked Left along Row 2. Fled wild Golbat at (15, 2) and wild Dodrio at (8, 2) on foot, and successfully arrived at (5, 2) on foot on Turn 145617.
+- Turn 145618: Turned Down to face (5, 3) on foot. Opened the Start Menu on Turn 145618.
+- Turn 145619: Opened POKéMON party options.
+- Turn 145621: Selected GEMMY.
+- Turn 145622: Selected SURF to test if (5, 3) is a water tile. Result: FAILED (textbox appeared, auto-dismissed with B, returning to Start menu).
 - Turn 145625: Closed Start menu, walked Right 1 step to (6, 2) on foot, and turned Down to face (6, 3) on Turn 145626.
 - Turn 145627: Standing on foot at (6, 2) facing Down. Ready to test land-to-water Surf boarding on (6, 3).
 - Turn 145628: Pressed Start to open the Start menu.
