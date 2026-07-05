@@ -8258,6 +8258,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 146022: Walked Up 2 steps from (9, 5) to (9, 3) on foot.
 - Turn 146026: Walked Left 6 steps along Row 3 from (9, 3) to (3, 3) on foot.
 - Turn 146045: Standing on foot at (3, 1) on Map 0_226 (2F West) facing Left. Pressed Left to test Column 2 Row 1 (2, 1). Result: BUMP (visited 0 tiles, player coordinate remained at (3, 1) facing Left on Turn 146046). This physically and conclusively re-proves that Column 2 Row 1 (2, 1) on Map 0_226 is a solid rock wall of TYPE_2889 and is completely impassable. This directly answers the Socratic Challenge and satisfies the Burden of Proof under perfect overworld conditions. Defined map marker. Ready to walk Right to (9, 1) to descend to 1F Northwest.
+- Turn 146048: Walked Right 6 steps along Row 1 from (3, 1) to (9, 1) on Map 0_226, immediately descending Ladder 5 to arrive on 1F Northwest at (7, 1) on foot on Turn 146049.
+- Turn 146051: Standing on foot at (7, 1) on Map 0_228 (1F Northwest) facing Up. Ready to walk to Water Ramp 4 at (15, 3).
 
 <hr>
 
