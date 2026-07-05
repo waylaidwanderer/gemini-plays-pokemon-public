@@ -1,6 +1,7 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: In a wild battle at (14, 9) on foot on Map 0_228 (1F Southwest/Central) on Turn 145473.
+- Current Status: Standing on foot at Water Ramp 2 at (11, 13) on Map 0_228 (1F) on Turn 145486.
 - **Active Backtracking Log**:
+  - Turn 145482: Used cave_bfs_solver to walk Left 3 steps and Down 4 steps from (14, 9) to reach Water Ramp 2 at (11, 13) on foot on Map 0_228.
   - Turn 145471: Walked Left along Row 9 on Map 0_228 from (18, 9) to (14, 9) on foot, where we triggered a wild Level 46 Hypno encounter.
   - Turn 145468: Pressed Right 1 step to stand on Ladder 3 at (19, 7) and warp down to 1F Central/Southwest at (18, 9) on foot.
   - Turn 145433: Standing on foot at (18, 7) on 2F West, pressed Left to test (17, 7). Result: BUMP (visited 0 tiles). Physically and conclusively proving that (17, 7) is indeed a solid rock wall of TYPE_2889 and is completely impassable on foot.
