@@ -1,7 +1,7 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (10, 2) on Map 0_228 (1F Northwest) on Turn 145741 (Overworld, facing Down).
+- Current Status: Standing on foot at (10, 2) on Map 0_228 (1F Northwest) on Turn 145743 (Start Menu open pointing at POKéDEX).
 - **Active Backtracking Log**:
-  - Turn 145741: Standing on foot at (10, 2) on Map 0_228 (1F Northwest) facing Down.
+  - Turn 145743: Opened Start menu standing on foot at (10, 2) facing Down.
   - Turn 145729: Successfully fled the wild Dodrio encounter and returned to the overworld at (10, 2), facing Down.
   - Turn 145727: Engaged in wild Level 49 Dodrio encounter at (10, 2), fled using flee_battle.
   - Turn 145725: Walked Right 1 step from (9, 2) to reach (10, 2) on foot on Map 0_228, immediately triggering a wild Level 49 Dodrio encounter.
