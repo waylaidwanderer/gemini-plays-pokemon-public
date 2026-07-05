@@ -9374,6 +9374,8 @@ This completes our systematic passability audit of the water canal blockages on 
 - Turn 145585: Disproved Hypothesis 6 (water crossover on Column 7 Row 4/5) because Row 5 is completely blocked by solid rock, preventing vertical surfing to Row 5 on columns 8-13.
 - Turn 145589: Surfed Down 8 steps to (9, 14), Right 2 steps to (11, 14), and Up 1 step to dismount on foot at Water Ramp 2 at (11, 13) on Turn 145590.
 - Turn 145591: Standing on foot at Water Ramp 2 at (11, 13) facing Up. Ready to execute Surf to Water Ramp 4 at (15, 3) to test land-to-water boarding option on (5, 3) or (6, 3) on the 1F Northwest landmass.
+- Turn 145625: Closed Start menu, walked Right 1 step to (6, 2) on foot, and turned Down to face (6, 3) on Turn 145626.
+- Turn 145627: Standing on foot at (6, 2) facing Down. Ready to test land-to-water Surf boarding on (6, 3).
 
 <hr>
 
