@@ -1,5 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (19, 7) on Map 0_226 (2F West) on Turn 145111.
+- Current Status: Standing on foot at (19, 5) on Map 0_226 (2F West) on Turn 145148.
 - **Active Backtracking Log**:
   - Turn 145107: Warped up Ladder 3 from 1F Southwest/Central at (18, 9) to Map 0_226 (2F West) at (19, 7) on foot.
   - Turn 145106: Walked Right 3 steps along Row 9 to reach Ladder 3 at (18, 9) on foot on Map 0_228.
