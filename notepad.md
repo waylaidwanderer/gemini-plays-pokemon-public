@@ -8222,9 +8222,9 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (9, 2) on Map 0_228 (1F Northwest) on Turn 145720 (Start Menu open pointing at POKéMON).
+- Current Status: Standing on foot at (9, 2) on Map 0_228 (1F Northwest) on Turn 145724 (Start Menu open pointing at POKéMON after failed Surf test on (9,3)).
 - **Active Backtracking Log**:
-  - Turn 145720: Pressed B to close the Start menu.
+  - Turn 145724: Pressed B to close the Start menu.
   - Turn 145718: Selected SURF on GEMMY facing Down on (9, 2) to test if (9, 3) is a water tile. Result: FAILED ("No SURFing on GEMMY here!"), proving (9, 3) is solid rock.
   - Turn 145707: Selected POKéMON from the Start menu.
   - Turn 145705: Pressed Start to open the Start menu standing on foot at (9, 2) facing Down.
