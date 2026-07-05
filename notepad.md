@@ -11327,6 +11327,18 @@ Since our systematic northern re-verification protocol on Map 0_226 (2F West) ha
 - **Topological Impact**: If any of these are open, we can walk vertically through Row 6 to reach Column 1/2 on Row 5, and proceed directly to (1, 3) [Northwest Ladder] to descend to B1F and reach Mewtwo!
 - **Experimental Status**: Active. Commencing the backtrack down Southwest Ladder 6.
 
+## Hypothesis 6: Column 7 Row 4 or Row 5 Water Passability on Map 0_228 (1F)
+- **Premise**: Column 7 Row 4 or Row 5 is actually open water on Map 0_228 (1F), allowing direct water crossover from the eastern/central water canals into the western water canal.
+- **Topological Impact**: If (7, 4) or (7, 5) is open water, we can Surf directly from Water Ramp 4 at (15, 3) to the western water canal on Columns 4-6, dismount onto land on foot at Row 6/5/4 on Koga's western landmass on 1F Northwest, and walk directly to (1, 3) [Northwest Ladder] to descend to B1F!
+- **Testing Route**:
+  1. Walk to Ladder 5 at (9, 1) on 2F West and warp DOWN to 1F Northwest at (7, 1).
+  2. Walk to Water Ramp 4 at (15, 3) and board Surf at (15, 4).
+  3. Surf Down to (15, 5).
+  4. Surf Left to Column 8 Row 5 (8, 5) or Column 8 Row 4 (8, 4) on water.
+  5. Standing on Surf, press Left to test if we can surf onto Column 7 Row 5 (7, 5) or Column 7 Row 4 (7, 4).
+  6. If passable, we will cross Column 7 directly on water into the western water canal, dismount onto the western landmass, walk to (1, 3), and descend to B1F!
+- **Experimental Status**: Active. Commencing the walk to Ladder 5 at (9, 1) on 2F West.
+
 <hr>
 
 <h1><code>Reflection/Turn143300_Reflection</code></h1>
