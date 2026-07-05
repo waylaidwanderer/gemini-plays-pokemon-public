@@ -9455,6 +9455,7 @@ This completes our systematic passability audit of the water canal blockages on 
 - Turn 145976: Selected SURF facing Left towards (4, 1). Result: FAILED with "No SURFing on GEMMY here!". The text box was auto-advanced by the harness pressing B twice, returning us to the Start menu with the cursor pointing at ▶POKéMON on Turn 145977. This physically and conclusively proves that (4, 1) on Map 0_228 is a solid rock wall of TYPE_2889 and is completely impassable. This officially completes our Column 4 sweep on Rows 1 and 2, disproving the Column 4 water boarding hypothesis. Defined map marker.
 - Turn 145978: Pressed B to close the Start menu, returning to the overworld at (5, 1) on foot facing Left on Turn 145979.
 - Turn 145982: Current position is (5, 1) on Map 0_228 on foot facing Left. Ready to systematically test our new hypothesis on ledges (Socratic Challenge).
+- Turn 145995: Walking Left 6 steps on Row 1 from (9, 1) to (3, 1) on Map 0_226 on foot. Interrupted on the 6th step at (3, 1) by a wild Level 49 Dodrio encounter on Turn 145998.
 
 <hr>
 
