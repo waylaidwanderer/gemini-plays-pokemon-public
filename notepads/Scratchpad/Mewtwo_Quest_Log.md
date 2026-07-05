@@ -1,6 +1,7 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (3, 11) on Map 0_226 (2F West) on Turn 144995.
+- Current Status: Standing on foot at (1, 16) on Map 0_228 (1F Southwest) on Turn 145019.
 - **Active Backtracking Log**:
+  - Turn 145017: Walked from Southwest Ladder 6 at (3, 11) down Koga's stairs to (1, 16) on foot on Map 0_228.
   - Turn 144986: Warped up Southwest Ladder 6 from Map 0_228 (1F Southwest) at (3, 11) to Map 0_226 (2F West) at (3, 11) on foot.
   - Turn 144985: Walked Left 1 step and Up 1 step from (4, 12) on foot on Map 0_228 to stand on Southwest Ladder 6 at (3, 11), immediately warping up to 2F West.
   - Turn 144975: Walked Right 1 step from (3, 12) to (4, 12) on foot on Map 0_228, empirically disproving Hypothesis 4 by showing (4, 12) is passable dry land, and (5, 12) is a solid rock wall.
