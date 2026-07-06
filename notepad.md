@@ -8333,6 +8333,14 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 146725: Walked to (15, 9) on foot.
 - Turn 146729: Attempted to cross Row 8 via (18, 8) but bumped repeatedly against the solid rock wall, landing at (19, 9) on foot on Turn 146754.
 - Turn 146811: Still standing on foot at (19, 9) on Map 0_226.
+- Turn 146818: Escaped the wild Kadabra battle at (14, 8) on foot on Turn 146820.
+- Turn 146821: Escaped the wild Marowak battle at (12, 11) on foot on Turn 146827.
+- Turn 146828: Resumed walking Left toward Southwest Ladder.
+- Turn 146834: Still standing on foot at (8, 9) on Map 0_226.
+- Turn 146837: Escaped the wild Venomoth battle at (7, 9) on foot.
+- Turn 146843: Still standing on foot at (7, 9) on Map 0_226.
+- Turn 146845: Escaped the wild Marowak battle at (3, 9) on foot.
+- Turn 146853: Currently standing on foot at (3, 9) on Map 0_226, facing Down.
 
 <hr>
 
