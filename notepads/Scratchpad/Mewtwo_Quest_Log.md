@@ -61,3 +61,4 @@
 - Turn 146300: Surfed Down 3 steps to (8, 13) and pressed Left to dismount onto (7, 13) on foot on Turn 146301.
 - Turn 146305: Pressed Left to test walking onto (6, 13). Result: BUMP (visited 0 tiles, player remained at (7, 13) facing Left on Turn 146306).
 - Conclusion: Column 6 Row 13 (6, 13) on Map 0_228 is definitively a solid rock wall of TYPE_2889 and is completely impassable on foot. Dismounting onto (7, 13) on foot results in a closed 1-tile pocket with no on-foot exit.
+- Turn 146391: Walking along Row 17 bypass to reach the eastern side, then climbing the central stairs to the central platform to stand at (17, 13). Path: 13x 'Right', 'Up', 'Right', 'Right', 'Up', 'Up', 'Up'.
