@@ -8222,7 +8222,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (11, 13) on Map 0_228 (1F Southwest) on Turn 146607 (Facing Down).
+- Current Status: Standing at (8, 6) on Map 0_228 (1F Central water) on Surf on Turn 146647 (Facing Left).
 
 ## Summary of Completed Backtrack Phase (Turns 138737 - 145822)
 - To resolve Koga's impassable 2F West horizontal split, we executed a master backtracking route:
@@ -8235,7 +8235,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - Climb UP Ladder 5 at (7, 1) to warp to 2F West at (9, 1).
   - Systematically tested Koga's northern landmass (Row 3 Columns 11-14; Column 4 Rows 1-2), proving both are solid rock of TYPE_2889 on foot and Surf. This disproved 1F Northwest land-to-water Surf boarding.
 
-## Active Backtracking Log (Turns 145822 - 146032)
+## Active Backtracking Log (Turns 145822 - 146647)
 - Turn 145822: Closed Start menu by pressing B. Player is now standing on foot at (10, 2) facing Down in the overworld. Ready to walk Left to (5, 2) to test Column 4 Surf boarding (Hypothesis 8 / Socratic Challenge).
 - Turn 145841: Successfully walked to (11, 2) on Map 0_228 on foot, facing Down.
 - Turn 145846: Selected POKéMON -> GEMMY -> SURF. Result: FAILED with "No SURFing on GEMMY here!", proving (11, 3) on Map 0_228 is a solid rock wall of TYPE_2889. Defined map marker.
@@ -8257,7 +8257,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 146012: Walked Right 4 steps to (9, 3) and Down 2 steps to stand at (9, 5) on foot.
 - Turn 146022: Walked Up 2 steps from (9, 5) to (9, 3) on foot.
 - Turn 146026: Walked Left 6 steps along Row 3 from (9, 3) to (3, 3) on foot.
-- Turn 146045: Standing on foot at (3, 1) on Map 0_226 (2F West) facing Left. Pressed Left to test Column 2 Row 1 (2, 1). Result: BUMP (visited 0 tiles, player coordinate remained at (3, 1) facing Left on Turn 146046). This physically and conclusively re-proves that Column 2 Row 1 (2, 1) on Map 0_226 is a solid rock wall of TYPE_2889 and is completely impassable. This directly answers the Socratic Challenge and satisfies the Burden of Proof under perfect overworld conditions. Defined map marker. Ready to walk Right to (9, 1) to descend to 1F Northwest.
+- Turn 146045: Standing on foot at (3, 1) on Map 0_226 (2F West) facing Left. Pressed Left to test Column 2 Row 1 (2, 1). Result: BUMP (visited 0 tiles, player coordinate remained at (3, 1) facing Left on Turn 146046). This physically and conclusively re-proves that Column 2 Row 1 (2, 1) on Map 0_226 is a solid rock wall of TYPE_2889 and is completely impassable. Defined map marker. Ready to walk Right to (9, 1) to descend to 1F Northwest.
 - Turn 146048: Walked Right 6 steps along Row 1 from (3, 1) to (9, 1) on Map 0_226, immediately descending Ladder 5 to arrive on 1F Northwest at (7, 1) on foot on Turn 146049.
 - Turn 146051: Standing on foot at (7, 1) on Map 0_228 (1F Northwest) facing Up. Ready to walk to Water Ramp 4 at (15, 3).
 - Turn 146059: Walked Right 8 steps along Row 1 and Down 2 steps along Column 15 from (7, 1) to stand at (15, 3) on Map 0_228 on foot on Turn 146060. Facing Down, ready to Surf.
@@ -8280,10 +8280,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 146259: Opened the Start menu, selected POKéMON, and selected GEMMY -> SURF to successfully board the water canal at (11, 14) on Surf on Turn 146263.
 - Turn 146264: Surfed Left 3 steps to (8, 14) and Up 4 steps to stand at (8, 10) on Surf on Turn 146265, facing Down.
 - Turn 146269: Pressed Left to face Left and test Column 7 Row 10 (7, 10). Result: BUMP (visited 0 tiles, player remained at (8, 10) facing Left on Turn 146271).
-- Conclusion: Column 7 Row 10 (7, 10) on Map 0_228 is definitively a solid rock wall of TYPE_2889 and is completely impassable on water. This disproves Hypothesis 9.
 - Turn 146300: Surfed Down 3 steps to (8, 13) and pressed Left to dismount onto (7, 13) on foot on Turn 146301.
 - Turn 146305: Pressed Left to test walking onto (6, 13). Result: BUMP (visited 0 tiles, player remained at (7, 13) facing Left on Turn 146306).
-- Conclusion: Column 6 Row 13 (6, 13) on Map 0_228 is definitively a solid rock wall of TYPE_2889 and is completely impassable on foot. Dismounting onto (7, 13) on foot results in a closed 1-tile pocket with no on-foot exit.
 - Turn 146311: Boarded Surf from (7, 13) back onto (8, 13) and surfed to (11, 13) to dismount on foot on Turn 146320.
 - Turn 146321: Walked on foot from (11, 13) to Koga's southwest pocket at (3, 11).
 - Turn 146327: Warped up to Map 0_226 at (3, 11) using Southwest Ladder 6.
@@ -8298,10 +8296,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 146398: Opened the Start menu, selected POKéMON -> GEMMY -> SURF facing Down onto (11, 14) to board Surf on Turn 146401.
 - Turn 146440: Called cave_bfs_solver to path on foot to Southwest Ladder 6 at (3, 11). Encountered Golbat at Y=13, fled, then ran cave_bfs_solver again and encountered Venomoth at Y=17, fled, then completed on-foot transit to (3, 11) on foot on Map 0_228, automatically warping UP to Map 0_226 (2F West) at (3, 11) on Turn 146446.
 - Turn 146450: Stepping off warp tile to (3, 10) and back to (3, 11) to warp back down to 1F Southwest to test Hypothesis 10.
-- Turn 146499: Currently standing at (19, 7) on 2F West (Map 0_226) on foot, which is the Ladder 3 tile. Since we just warped up here, to warp back down we must walk off the ladder tile first and then walk back onto it.
-- Plan: Let's step Left to (18, 7), which is a clear floor tile of TYPE_3fe2, and then step Right to (19, 7) to trigger the warp to 1F Southwest/Central (Map 0_228) at (18, 9).
-- Turn 146528: Successfully verified that standing at (3, 11) and pressing Right allows us to walk directly onto (4, 11) on foot on Map 0_228. This proves that Column 4 Row 11 is passable dry land (cavern floor of TYPE_2770).
-- Turn 146529: Planning to explore Column 4 on foot to test passability on adjacent rows. We will walk Up to (4, 10) and then inspect the surrounding tiles.
+- Turn 146499: Currently standing at (19, 7) on 2F West (Map 0_226) on foot, which is the Ladder 3 tile.
+- Turn 146528: Successfully verified that standing at (3, 11) and pressing Right allows us to walk directly onto (4, 11) on foot on Map 0_228.
 - Turn 146531: Walked Up 1 step to (4, 10) on Map 0_228 on foot.
 - Turn 146533: Walked Right 2 steps to (6, 10) on Map 0_228 on foot, facing Right. Verified that Column 7 Row 10 (7, 10) is a solid rock wall of TYPE_2889.
 - Turn 146541: Walked Left 4 steps and Up 2 steps to (2, 8) on Map 0_228 on foot, facing Up.
@@ -8309,9 +8305,12 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 146570: Walked Down 2 steps to (1, 15), Right to (2, 15), and Down 2 steps to reach (2, 17) on Map 0_228 on foot, facing Up.
 - Turn 146572: Walked Right 13 steps along the Row 17 southern ground corridor to reach (15, 17) on Map 0_228 on foot, facing Right.
 - Turn 146577: Walked Up to (15, 16), Right 2 steps to (17, 16), and Up 2 steps to climb the central stairs to (17, 14) on Map 0_228 on foot, facing Up.
-- Turn 146579: Walked Left 2 steps to (15, 14), Up 2 steps to (15, 12), and Left 3 steps to (12, 12) on Map 0_228 on foot, where a wild Golbat encounter triggered. Fled successfully on Turn 146581.
+- Turn 146579: Walked Left 2 steps to (15, 14), Up 2 steps to (15, 12), and Left 3 steps to (12, 12) on Map 0_228 on foot. Fled wild Golbat on Turn 146581.
 - Turn 146601: Walked Left from (12, 12) to (11, 12) on Map 0_228 on foot, facing Left. This physically and conclusively proves that (11, 12) is passable dry land (cavern floor of TYPE_2770) on foot, not solid rock.
 - Turn 146604: Walked Down from (11, 12) to stand on Water Ramp 2 at (11, 13) on Map 0_228 on foot, facing Down.
+- Turn 146617: Opened start menu, selected POKéMON -> GEMMY -> SURF facing Down onto (11, 14) on Map 0_228.
+- Turn 146624: Surfed Left 3 steps to (8, 14) and Up 8 steps to reach (8, 6) on Map 0_228 on Surf on Turn 146634.
+- Turn 146634: Verified that both (8, 5) and (9, 5) directly north are solid rock walls (TYPE_2889), proving that the water canal terminates at Row 6. Hypothesis 6 is completely disproven.
 
 <hr>
 
