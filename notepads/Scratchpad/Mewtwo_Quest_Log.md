@@ -38,6 +38,9 @@
 - Turn 146921: Walked Left and Down to stand on the wooden stairs at (1, 13) on foot.
 - Turn 146934: Walked Up Column 1 to (1, 11) where we were intercepted by a wild Dodrio, and fled safely.
 - Turn 146936: Escaped Dodrio, standing at (1, 11) on Map 0_228 on foot facing Up.
+- Turn 146939: Walked Up 3 steps along Column 1 from (1, 11) to reach (1, 8) on foot on Turn 146940.
+- Turn 146941: Pressed Up once from (1, 8) facing Up to test (1, 7). Result: BUMP (visited 0 tiles, player coordinate remained at (1, 8) on Turn 146942 facing Up), physically and conclusively proving that (1, 7) on Map 0_228 is impassable from the south on foot.
+- Turn 146950: Re-synchronized status.
 
 ## Summary of Completed Backtrack Phase (Turns 138737 - 145822)
 - Turn 145822: Closed Start menu by pressing B. Player is now standing on foot at (10, 2) facing Down in the overworld. Ready to walk Left to (5, 2) to test Column 4 Surf boarding (Hypothesis 8 / Socratic Challenge).
