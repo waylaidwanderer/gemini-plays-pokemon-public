@@ -107,3 +107,6 @@
 - Turn 146691: Ran flee_battle to escape successfully, returning to the overworld at (4, 9) on foot facing Right on Turn 146693.
 - Turn 146698: Walked Right 5 steps along Row 9 from (4, 9) to stand at (9, 9) on Map 0_226 on foot on Turn 146699.
 - Turn 146702: Walked Right 4 steps along Row 9 from (9, 9) to stand at (13, 9) on Map 0_226 on foot on Turn 146704.
+- Turn 146725: Walked to (15, 9) on foot.
+- Turn 146729: Attempted to cross Row 8 via (18, 8) but bumped repeatedly against the solid rock wall, landing at (19, 9) on foot on Turn 146754.
+- Turn 146811: Still standing on foot at (19, 9) on Map 0_226.
