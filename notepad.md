@@ -8296,6 +8296,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 146392: Walked along Row 17 bypass: 13x 'Right' to (15, 17), Up to (15, 16), 2x 'Right' to (17, 16), 3x 'Up' to climb the central stairs, arriving at (17, 14) on the central platform on Turn 146393 (the 3rd 'Up' bumped against solid rock wall at (17, 13)).
 - Turn 146397: Walked to Water Ramp 2 at (11, 13) on foot: ['Left', 'Left', 'Up', 'Up', 'Left', 'Left', 'Left', 'Left', 'Down'].
 - Turn 146398: Opened the Start menu, selected POKéMON -> GEMMY -> SURF facing Down onto (11, 14) to board Surf on Turn 146401.
+- Turn 146440: Called cave_bfs_solver to path on foot to Southwest Ladder 6 at (3, 11). Encountered Golbat at Y=13, fled, then ran cave_bfs_solver again and encountered Venomoth at Y=17, fled, then completed on-foot transit to (3, 11) on foot on Map 0_228, automatically warping UP to Map 0_226 (2F West) at (3, 11) on Turn 146446.
+- Turn 146450: Stepping off warp tile to (3, 10) and back to (3, 11) to warp back down to 1F Southwest to test Hypothesis 10.
 
 <hr>
 
