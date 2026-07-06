@@ -105,3 +105,5 @@
 - Turn 146681: Standing at (3, 11) on Map 0_226 on foot.
 - Turn 146690: Walked Up 2 steps to (3, 9) and Right 1 step to (4, 9) on Map 0_226, where a wild Level 53 Ditto encounter triggered on Turn 146691.
 - Turn 146691: Ran flee_battle to escape successfully, returning to the overworld at (4, 9) on foot facing Right on Turn 146693.
+- Turn 146698: Walked Right 5 steps along Row 9 from (4, 9) to stand at (9, 9) on Map 0_226 on foot on Turn 146699.
+- Turn 146702: Walked Right 4 steps along Row 9 from (9, 9) to stand at (13, 9) on Map 0_226 on foot on Turn 146704.
