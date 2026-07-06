@@ -8222,20 +8222,47 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (3, 11) on Map 0_228 (1F Southwest) on Turn 146913, facing Down.
+- Current Status: Standing on foot at (1, 11) on Map 0_228 (1F Southwest) on Turn 146936, facing Up.
+
+## Active Backtracking Log (Turns 145822 - 146936)
+- Turn 145822: Closed Start menu by pressing B. Player is now standing on foot at (10, 2) facing Down in the overworld. Ready to walk Left to (5, 2) to test Column 4 Surf boarding (Hypothesis 8 / Socratic Challenge).
+- Turn 145841: Successfully walked to (11, 2) on Map 0_228 on foot, facing Down.
+- Turn 145846: Selected POKéMON -> GEMMY -> SURF. Result: FAILED with "No SURFing on GEMMY here!", proving (11, 3) on Map 0_228 is a solid rock wall of TYPE_2889. Defined map marker.
+- Turn 145866: Selected POKéMON -> GEMMY -> SURF. Result: FAILED with "No SURFing on GEMMY here!", proving (12, 3) on Map 0_228 is a solid rock wall of TYPE_2889. Defined map marker.
+- Turn 145885: Selected POKéMON -> GEMMY -> SURF. Result: FAILED with "No SURFing on GEMMY here!", proving (13, 3) on Map 0_228 is a solid rock wall of TYPE_2889. Defined map marker.
+- Turn 145909: Selected SURF on GEMMY facing Down to test (14, 3). Result: FAILED with "No SURFing on GEMMY here!", proving (14, 3) on Map 0_228 is a solid rock wall of TYPE_2889. Defined map marker.
+- Turn 145956: Walked Left 8 steps from (13, 2) to (5, 2) on Map 0_228 on foot.
+- Turn 145965: Selected SURF on GEMMY facing Left from (5, 2) to test if (4, 2) is a water tile. Result: FAILED with "No SURFing on GEMMY here!", proving (4, 2) on Map 0_228 is a solid rock wall of TYPE_2889. Defined map marker.
+- Turn 145966: Pressed B to close the Start menu.
+- Turn 145967: Pressed Up to walk to (5, 1) on foot on Map 0_228.
+- Turn 145970: Pressed Left to turn Left and face (4, 1), resulting in a BUMP.
+- Turn 145976: Selected SURF facing Left towards (4, 1). Result: FAILED with "No SURFing on GEMMY here!", proving (4, 1) on Map 0_228 is a solid rock wall of TYPE_2889. Defined map marker.
+- Turn 145978: Pressed B to close the Start menu, returning to the overworld at (5, 1) on foot facing Left.
+- Turn 145986: Walked Right 2 steps to stand on Ladder 5 at (7, 1) to warp UP to 2F West at (9, 1).
+- Turn 145995: Walked Left 6 steps along Row 1 from (9, 1) to (3, 1) on Map 0_226 on foot. Interrupted on the 6th step at (3, 1) by a wild Level 49 Dodrio encounter on Turn 145998. Fled successfully.
+- Turn 146004: Walked Down 2 steps to (3, 3), Right 1 step to (4, 3) on foot.
+- Turn 146005: Pressed Down to test (4, 4) from (4, 3) on Map 0_226. Result: BUMP, physically proving that Column 4 Row 4 (4, 4) is a solid rock wall of TYPE_2889 and is completely impassable.
+- Turn 146007: Walked Right from (4, 3) to (5, 3), where we triggered a wild Level 49 Kadabra encounter on Turn 146008. Fled successfully on Turn 146011.
+- Turn 146012: Walked Right 4 steps to (9, 3) and Down 2 steps to stand at (9, 5) on foot.
+- Turn 146022: Walked Up 2 steps from (9, 5) to (9, 3) on foot.
+- Turn 146026: Walked Left 6 steps along Row 3 from (9, 3) to (3, 3) on foot.
+- Turn 146045: Standing on foot at (3, 1) on Map 0_226 (2F West) facing Left. Pressed Left to test Column 2 Row 1 (2, 1). Result: BUMP (visited 0 tiles, player coordinate remained at (3, 1) facing Left on Turn 146046). This physically and conclusively re-proves that Column 2 Row 1 (2, 1) on Map 0_226 is a solid rock wall of TYPE_2889 and is completely impassable. Defined map marker. Ready to walk Right to (9, 1) to descend to 1F Northwest.
+- Turn 146048: Walked Right 6 steps along Row 1 from (3, 1) to (9, 1) on Map 0_226, immediately descending Ladder 5 to arrive on 1F Northwest at (7, 1) on foot on Turn 146049.
+- Turn 146051: Standing on foot at (7, 1) on Map 0_228 (1F Northwest) facing Up. Ready to walk to Water Ramp 4 at (15, 3).
+- Turn 146059: Walked Right 8 steps along Row 1 and Down 2 steps along Column 15 from (7, 1) to stand at (15, 3) on Map 0_228 on foot on Turn 146060. Facing Down, ready to Surf.
+- Turn 146102: Opened the Start menu, selected POKéMON -> GEMMY -> SURF facing Down to test land-to-water Surf boarding at (15, 3). Result: SUCCESS, player successfully boarded the northern water canal on Map 0_228, standing at (15, 4) on Surf on Turn 146104.
+- Turn 146125: Called press_buttons to Surf along the unblocked water canal crossover on Row 7: ["Down", "Down", "Down", "Left", "Left", "Left", "Left", "Left", "Left", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Right", "Right", "Up"]. This successfully traversed from (15, 4) to (11, 13).
+- Turn 146129: Player successfully dismounted from Surf onto land at (11, 13) on Map 0_228 on foot, standing on Water Ramp 2 facing Down on Turn 146130.
+- Turn 146177: Called press_buttons to walk on foot from (11, 13) to (11, 17): ["Up", "Right", "Right", "Right", "Right", "Down", "Down", "Right", "Right", "Down", "Down", "Left", "Left", "Down", "Left", "Left", "Left", "Left"]. This successfully traversed over the central platform stairs and down to (11, 17) on foot, standing at (11, 17) facing Left on Turn 146179.
+- Turn 146185: Called press_buttons to walk on foot from (11, 17) to (3, 11): ["Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Up", "Up", "Left", "Up", "Up", "Up", "Right", "Right", "Up"]. This successfully walked along Koga's Row 17 bypass to (2, 17), (1, 17), (1, 13) wooden stairs to platform, and (3, 11) where we warped UP to 2F West.
+- Turn 146862: Warped UP Southwest Ladder 6 to Map 0_226 (2F West) on foot, standing at (3, 11).
+- Turn 146871: Warped DOWN back to Map 0_228 (1F Southwest) on foot, standing at (3, 11).
+- Turn 146913-146920: Stood on Map 0_228 at (3, 11).
+- Turn 146921: Walked Left and Down to stand on the wooden stairs at (1, 13) on foot.
+- Turn 146934: Walked Up Column 1 to (1, 11) where we were intercepted by a wild Dodrio, and fled safely.
+- Turn 146936: Escaped Dodrio, standing at (1, 11) on Map 0_228 on foot facing Up.
 
 ## Summary of Completed Backtrack Phase (Turns 138737 - 145822)
-- To resolve Koga's impassable 2F West horizontal split, we executed a master backtracking route:
-  - Backtracked on foot to Ladder 2 at (29, 1), descended to 1F at (27, 1).
-  - Walked to Water Ramp 1 at (23, 3), boarded Surf, and surfed across the eastern canal to Water Ramp 2 at (11, 13).
-  - Walked on foot to the central platform stairs at (17, 15), descended to the ground floor at (17, 16).
-  - Walked along the southern ground floor Row 17 bypass to the wooden stairs at (1, 13), ascended to the southwest plateau, and climbed Southwest Ladder 6 at (3, 11) to warp to 2F West southwest pocket.
-  - From the southwest pocket, we systematically tested Column 2 and Row 8, confirming Koga's southwest pocket is 100% isolated on foot on 2F West.
-  - Subsequently backtracked back to 1F, navigated on foot across Row 17 and the central platform, surfed to Water Ramp 4 at (15, 3) on 1F Northwest.
-  - Climb UP Ladder 5 at (7, 1) to warp to 2F West at (9, 1).
-  - Systematically tested Koga's northern landmass (Row 3 Columns 11-14; Column 4 Rows 1-2), proving both are solid rock of TYPE_2889 on foot and Surf. This disproved 1F Northwest land-to-water Surf boarding.
-
-## Active Backtracking Log (Turns 145822 - 146647)
 - Turn 145822: Closed Start menu by pressing B. Player is now standing on foot at (10, 2) facing Down in the overworld. Ready to walk Left to (5, 2) to test Column 4 Surf boarding (Hypothesis 8 / Socratic Challenge).
 - Turn 145841: Successfully walked to (11, 2) on Map 0_228 on foot, facing Down.
 - Turn 145846: Selected POKéMON -> GEMMY -> SURF. Result: FAILED with "No SURFing on GEMMY here!", proving (11, 3) on Map 0_228 is a solid rock wall of TYPE_2889. Defined map marker.
