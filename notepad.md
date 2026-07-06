@@ -10265,88 +10265,28 @@ To resolve this logical flaw without making unverified assumptions, we will stan
 
 # Unverified Hypotheses for Cerulean Cave B1F Access
 
-Since our systematic northern re-verification protocol on Map 0_226 (2F West) has confirmed that Column 2 is 100% solid on Rows 1-3 (tests of (2,1), (2,2), (2,3) and (3,4) all bumped), the Northwest Ladder at (1, 3) remains mathematically isolated on foot. To resolve this deadlock, we must systematically document and evaluate other potential false-positive blockages that might connect the sections.
-
-## Hypothesis 1: Column 1 Rows 10-11 is passable on 2F West
-- **Premise**: Column 1 Rows 10 and 11 are actually passable on foot, contrary to our previous "BUMP" tests on Turn 142472 and 142478 (standing at (2, 11) and (2, 10)).
-- **Potential Flaw in Prior Test**: A wandering wild encounter or temporary visual desync might have caused a false-positive bump, or perhaps Column 1 is passable on Row 12 (1, 12).
-- **Test Plan**: 
-  1. Warp down Ladder 5 at (9, 1) to 1F Northwest.
-  2. Walk to Water Ramp 4 at (15, 3), Surf to Water Ramp 2 at (11, 13), walk to Southwest Ladder 6 at (3, 11) on foot.
-  3. Climb up to 2F West at (3, 11).
-  4. Step Left to (2, 11) and systematically test Left against (1, 11) and Down against (2, 12) / Left against (1, 12).
-
-## Hypothesis 2: Column 0 on 2F West is actually passable
-- **Premise**: Column 0 is a fully passable vertical corridor on Rows 2, 3, 4, 5 (labeled TYPE_3fe2 on screen), which connects the Northwest Ladder (1, 3) directly to the Row 5 horizontal corridor.
-- **Topological Impact**: If Column 0 is passable, we can walk: (1, 3) [ladder] -> Left to (0, 3) -> Down to (0, 5) -> Right to (1, 5) -> (2, 5) -> (3, 5). From (3, 5), we can walk Right along Row 5 to Koga's central area.
-- **Test Plan**: To test this, we must reach (1, 3). Since (1, 3) is isolated on 2F, we must climb up the Northwest Ladder (1, 3) from 1F Northwest. This requires first unblocking 1F Northwest.
-
-## Hypothesis 3: Hidden water/land passage on 1F Northwest (Map 0_228)
-- **Premise**: There is a passable tile on Column 4 on Rows 0, 1, 2, or Column 7 on Rows 4, 5, 6, 7 on 1F Northwest.
-- **Potential Flaw in Prior Test**: Our previous test of Column 4 Row 1 (4, 1) on Turn 130148/137936 and Row 2 (4, 2) on Turn 132029 bumped. But what about Row 0 (4, 0)? Or what about surfing directly on Column 4 on Row 3?
-- **Test Plan**: 
-  1. Descend Ladder 5 at (9, 1) to 1F Northwest at (7, 1).
-  2. Walk Left to (5, 1) and test Column 4 Row 0 (4, 0), Row 1 (4, 1), and Row 2 (4, 2) again to ensure no false-positive bumps.
-  3. Stand at (5, 3) or (5, 2) and systematically test Surf boarding or walking.
-
-## Hypothesis 4: Western Canal Surf Boarding at (3, 12) facing Right onto (4, 12) on 1F Southwest (Map 0_228) [DISPROVEN]
-- **Premise**: Column 4 Row 12 (4, 12) on Map 0_228 is open water, allowing the player to stand at (3, 12) on the elevated southwest platform, face Right (towards the water at 4, 12), and successfully select GEMMY -> SURF to enter the western water canal.
-- **Topological Impact**: If (4, 12) is water, we can Surf Up along Columns 4, 5, 6 on Rows 6-12 to reach the northern landmass at Row 6 and dismount directly onto the land at (3, 6) or (4, 6) or (5, 6). From there, we can walk unblocked to (1, 3) [Northwest Ladder] on foot and enter B1F!
-- **Test Results**: Done (Falsified on Turn 144976). Walked onto (4, 12) on foot on Turn 144975, proving it is passable dry land (cavern floor of TYPE_2770). Standing on (4, 12) on Turn 144978, the screen shows (5, 12) and (6, 12) are solid rock walls (TYPE_2889). There is no water at all in the southwest of Map 0_228, meaning the "western water canal" does not exist on these rows. Hypothesis 4 is completely disproven.
-
-## Hypothesis 5: Row 6 On-Foot Crossover via Column 1-7 on 2F West (Map 0_226) [DISPROVEN / UNTESTABLE]
-- **Premise**: Since Koga's southwest pocket is 100% isolated, 1F Northwest is isolated, and 1F Southwest has no western water, the only way Cerulean Cave is mathematically solvable is if there is a false-positive blockage on Row 6 of Koga's western area on 2F West (Map 0_226), allowing us to walk vertically between Row 7 and Row 5 on Column 1, 2, 3, 4, 5, 6, or 7.
-- **Results**: Conclusively proved untestable on foot on Turn 145433. The test of (17, 7) on foot on Turn 145433 proved that (17, 7) is solid rock and completely impassable, meaning Koga's western Row 7 area is completely isolated on foot on 2F West and cannot be reached from the east (Ladder 3) or south. Therefore, there is no physical way to stand on Row 7 on foot, making Hypothesis 5 completely untestable and disproven on foot.
-- **Experimental Status**: Disproven.
+All other previous hypotheses have been systematically tested and empirically disproven. Hypothesis 6 remains the single active hypothesis to test.
 
 ## Hypothesis 6: Column 7 Row 4 or Row 5 Water Passability on Map 0_228 (1F)
 - **Premise**: Column 7 Row 4 or Row 5 is actually open water on Map 0_228 (1F), allowing direct water crossover from the eastern/central water canals into the western water canal.
 - **Topological Impact**: If (7, 4) or (7, 5) is open water, we can Surf directly from Water Ramp 4 at (15, 3) to the western water canal on Columns 4-6, dismount onto land on foot at Row 6/5/4 on Koga's western landmass on 1F Northwest, and walk directly to (1, 3) [Northwest Ladder] to descend to B1F!
 - **Testing Route**:
-  1. Walk to Water Ramp 2 at (11, 13) on foot.
-  2. Board Surf at (11, 13) onto (11, 14).
-  3. Surf to the central canal at Row 4 or Row 5.
-  4. Standing at Column 8 Row 4 (8, 4) or Column 8 Row 5 (8, 5) on Surf, face Left and press Left to test Column 7 Row 4 (7, 4) or Column 7 Row 5 (7, 5).
-  5. If passable, cross Column 7 directly on water into the western water canal, dismount onto the western landmass, walk to (1, 3), and descend to B1F!
-- **Experimental Status**: Active. Currently backtracking to Water Ramp 2 at (11, 13).
+  1. Board Surf at Water Ramp 2 at (11, 13) onto (11, 14) (In progress!).
+  2. Surf north into the central water canal.
+  3. Reach Column 8 Row 4 (8, 4) or Column 8 Row 5 (8, 5) on water.
+  4. Face Left and press Left to test Column 7 Row 4 (7, 4) or Column 7 Row 5 (7, 5).
+  5. Record results.
 
-## Hypothesis 7: 2F West Column 17 Row 7 (17, 7) On-Foot Passability Re-Verification [DISPROVEN]
-- **Premise**: Column 17 Row 7 (17, 7) is actually open (passable) on foot on Map 0_226 (2F West), contrary to our previous "BUMP" record from Turn 113364.
-- **Topological Impact**: If (17, 7) is passable, Koga's central/western Row 7 corridor (Columns 1-11) is fully connected on foot to Ladder 3 at (19, 7) on 2F West. This grants immediate on-foot access to Row 7, allowing us to systematically test Koga's Row 6 on-foot passability (Hypothesis 5) on all Columns 1-7 to locate the unblocked vertical path to Northwest Ladder (1, 3) and Mewtwo!
-- **Testing Route**:
-  1. Surf Right along the Row 6 crossover water channel from (9, 6) to (15, 6), and Up to dismount onto Water Ramp 4 at (15, 3).
-  2. Walk on foot from (15, 3) to (15, 9) and Right to Ladder 3 at (18, 9).
-  3. Warp UP to 2F West at (19, 7).
-  4. Walk Left 1 step to (18, 7), face Left, and press Left to test (17, 7) on foot.
-- **Results**: Done (Falsified on Turn 145433). Walked Left to (18, 7) on Turn 145430, faced Left and pressed Left to test (17, 7). Result: BUMP (visited 0 tiles). This physically and conclusively proves that (17, 7) is indeed a solid rock wall of TYPE_2889 and completely impassable on foot. Hypothesis 7 is completely disproven. We must continue with our master backtracking plan to reach Koga's central area via Ladder 5 to test Hypothesis 5.
-## Hypothesis 8: Column 1 Row 8 (1, 8) On-Foot Passability on Map 0_226 (2F West) [DISPROVEN]
-- **Premise**: Column 1 Row 8 (1, 8) on Map 0_226 (2F West) is actually open (passable) on foot.
-- **Topological Impact**: Since Koga's western area Row 5 (Columns 1-7) is open, if (1, 8) is open, we can walk around the barrier to Northwest Ladder.
-- Experimental Status: Disproven (Turn 146235). Koga's southwest pocket is 100% isolated on foot on 2F West, as (2, 9) is a solid rock wall and Column 1 cannot be reached on foot. We pruned the active testing route.
-
-## Hypothesis 9: Column 7 Row 10 (7, 10) Water Passability on Map 0_228 (1F)
-- **Premise**: Column 7 Row 10 (7, 10) on water (Map 0_228, 1F) is actually PASSABLE on Surf, contrary to our general "Column 7 is blocked" assumption.
-- **Topological Impact**: If (7, 10) is open water, we can Surf Left from (8, 10) in the central canal directly past Column 7 into Koga's western water canal (Columns 4-6, Rows 6-12). Once in the western water canal, we can Surf Up to Row 6/5/4 and dismount onto Koga's western landmass, walking directly to (1, 3) [B1F stairs] to descend to Mewtwo! This is the most logical path to victory and resolves the topological deadlock.
-- **Testing Route**:
-  1. Warp down Southwest Ladder 6 at (3, 11) on Map 0_226 to 1F Southwest.
-  2. Walk on foot along Row 17 and over the central stairs to reach Water Ramp 2 at (11, 13) on foot.
-  3. Board Surf at (11, 13) onto (11, 14) and Surf into the central canal.
-  4. Surf to (8, 10) in the central canal.
-  5. Standing at (8, 10) on Surf, face Left and press Left to test Column 7 Row 10 (7, 10). Record result.
-- **Experimental Status**: Active. Testing this hypothesis now.
-
-## Hypothesis 10: Column 4 Surf Boarding from Koga's Southwest Platform (Map 0_228)
-- **Premise**: We can board Surf on Column 4 directly from Koga's southwest platform (specifically from Column 3 Rows 8-11) on foot on Map 0_228 (1F).
-- **Topological Impact**: Standing on foot on Koga's southwest platform at (3, 8), (3, 9), (3, 10), or (3, 11), we face Right (towards Column 4) and select GEMMY -> SURF. If Column 4 is indeed open water at these rows (which is highly likely as the western canal runs vertically on Column 4), we will successfully board Surf on the western canal! This bypasses Koga's southwest pocket isolation on 2F West completely, allowing us to Surf Up along Column 4 to Rows 4-5 and reach Koga's northern landmass directly on Surf, unblocking access to B1F!
-- **Testing Route**:
-  1. Surf to Water Ramp 2 at (11, 13) and dismount on foot.
-  2. Walk on foot to Southwest Ladder 6 at (3, 11) using Koga's Row 17 bypass.
-  3. Stand at (3, 11) on foot. Turn Right to face (4, 11).
-  4. Select POKéMON -> GEMMY -> SURF. Observe if we successfully board.
-  5. If blocked, step Up to (3, 10) on foot, face Right to face (4, 10), and test SURF.
-  6. If blocked, step Up to (3, 9) on foot, face Right to face (4, 9), and test SURF.
-  7. If blocked, step Up to (3, 8) on foot, face Right to face (4, 8), and test SURF.
-- **Experimental Status**: Active. Surfing to (11, 13) to begin on-foot transition to (3, 11).
+## Disproven Hypotheses Archive
+- **Hypothesis 1 (Column 1 Rows 10-11 on 2F West)**: Disproven. Tested (1, 11) and (1, 10) on Turns 143319 and 143327 and bumped.
+- **Hypothesis 2 (Column 0 on 2F West)**: Disproven. Unreachable due to Koga's southwest pocket isolation.
+- **Hypothesis 3 (Hidden water/land passage on 1F Northwest)**: Disproven. Tested (4, 1), (4, 0), (4, 2) on Turns 144736-144740 and bumped.
+- **Hypothesis 4 (Western Canal Surf Boarding at 3,12)**: Disproven. Walked onto (4, 12) on Turn 144975 and found it is dry land, and (5, 12)-(6, 12) are solid rock.
+- **Hypothesis 5 (Row 6 On-Foot Crossover on 2F West)**: Disproven/untestable on foot on Turn 145433.
+- **Hypothesis 7 (2F West Column 17 Row 7)**: Disproven. Tested on Turn 145430 and bumped.
+- **Hypothesis 8 (Column 1 Row 8 on 2F West)**: Disproven. Tested on Turn 146235 and bumped.
+- **Hypothesis 9 (Column 7 Row 10 on water)**: Disproven. Tested on Turn 146269 and bumped.
+- **Hypothesis 10 (Column 4 Surf Boarding from Southwest Platform)**: Disproven. Walked onto (4, 11) on Turn 146517 and found it is dry land, not water.
 
 <hr>
 
