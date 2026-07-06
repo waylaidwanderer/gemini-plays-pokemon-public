@@ -8298,6 +8298,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 146398: Opened the Start menu, selected POKéMON -> GEMMY -> SURF facing Down onto (11, 14) to board Surf on Turn 146401.
 - Turn 146440: Called cave_bfs_solver to path on foot to Southwest Ladder 6 at (3, 11). Encountered Golbat at Y=13, fled, then ran cave_bfs_solver again and encountered Venomoth at Y=17, fled, then completed on-foot transit to (3, 11) on foot on Map 0_228, automatically warping UP to Map 0_226 (2F West) at (3, 11) on Turn 146446.
 - Turn 146450: Stepping off warp tile to (3, 10) and back to (3, 11) to warp back down to 1F Southwest to test Hypothesis 10.
+- Turn 146499: Currently standing at (19, 7) on 2F West (Map 0_226) on foot, which is the Ladder 3 tile. Since we just warped up here, to warp back down we must walk off the ladder tile first and then walk back onto it.
+- Plan: Let's step Left to (18, 7), which is a clear floor tile of TYPE_3fe2, and then step Right to (19, 7) to trigger the warp to 1F Southwest/Central (Map 0_228) at (18, 9).
 
 <hr>
 
