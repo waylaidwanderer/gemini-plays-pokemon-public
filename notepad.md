@@ -8300,6 +8300,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 146450: Stepping off warp tile to (3, 10) and back to (3, 11) to warp back down to 1F Southwest to test Hypothesis 10.
 - Turn 146499: Currently standing at (19, 7) on 2F West (Map 0_226) on foot, which is the Ladder 3 tile. Since we just warped up here, to warp back down we must walk off the ladder tile first and then walk back onto it.
 - Plan: Let's step Left to (18, 7), which is a clear floor tile of TYPE_3fe2, and then step Right to (19, 7) to trigger the warp to 1F Southwest/Central (Map 0_228) at (18, 9).
+- Turn 146528: Successfully verified that standing at (3, 11) and pressing Right allows us to walk directly onto (4, 11) on foot on Map 0_228. This proves that Column 4 Row 11 is passable dry land (cavern floor of TYPE_2770).
+- Turn 146529: Planning to explore Column 4 on foot to test passability on adjacent rows. We will walk Up to (4, 10) and then inspect the surrounding tiles.
 
 <hr>
 
