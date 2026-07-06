@@ -1,5 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing at (13, 8) on Map 0_226 (2F West) on foot on Turn 146722 (Facing Right).
+- Current Status: Standing at (15, 9) on Map 0_226 (2F West) on foot on Turn 146726 (Facing Down).
 
 ## Summary of Completed Backtrack Phase (Turns 138737 - 145822)
 - To resolve Koga's impassable 2F West horizontal split, we executed a master backtracking route:
