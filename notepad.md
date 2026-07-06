@@ -8284,7 +8284,18 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 146300: Surfed Down 3 steps to (8, 13) and pressed Left to dismount onto (7, 13) on foot on Turn 146301.
 - Turn 146305: Pressed Left to test walking onto (6, 13). Result: BUMP (visited 0 tiles, player remained at (7, 13) facing Left on Turn 146306).
 - Conclusion: Column 6 Row 13 (6, 13) on Map 0_228 is definitively a solid rock wall of TYPE_2889 and is completely impassable on foot. Dismounting onto (7, 13) on foot results in a closed 1-tile pocket with no on-foot exit.
-- Turn 146391: Walking along Row 17 bypass to reach the eastern side, then climbing the central stairs to the central platform to stand at (17, 13). Path: 13x 'Right', 'Up', 'Right', 'Right', 'Up', 'Up', 'Up'.
+- Turn 146311: Boarded Surf from (7, 13) back onto (8, 13) and surfed to (11, 13) to dismount on foot on Turn 146320.
+- Turn 146321: Walked on foot from (11, 13) to Koga's southwest pocket at (3, 11).
+- Turn 146327: Warped up to Map 0_226 at (3, 11) using Southwest Ladder 6.
+- Turn 146328: Stepped off and back onto the ladder to warp back down, arriving at (3, 11) on Map 0_228 on Turn 146329.
+- Turn 146337: Warped up to Map 0_226.
+- Turn 146343: Warped down to Map 0_228.
+- Turn 146351: Escaped wild Parasect at (3, 16).
+- Turn 146369: Walked on foot to (1, 13) on Map 0_228.
+- Turn 146387: Walked Down 3 steps to (1, 16), Right to (2, 16), and Down to (2, 17) on foot, standing at (2, 17) on Turn 146388.
+- Turn 146392: Walked along Row 17 bypass: 13x 'Right' to (15, 17), Up to (15, 16), 2x 'Right' to (17, 16), 3x 'Up' to climb the central stairs, arriving at (17, 14) on the central platform on Turn 146393 (the 3rd 'Up' bumped against solid rock wall at (17, 13)).
+- Turn 146397: Walked to Water Ramp 2 at (11, 13) on foot: ['Left', 'Left', 'Up', 'Up', 'Left', 'Left', 'Left', 'Left', 'Down'].
+- Turn 146398: Opened the Start menu, selected POKéMON -> GEMMY -> SURF facing Down onto (11, 14) to board Surf on Turn 146401.
 
 <hr>
 
