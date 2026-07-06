@@ -10277,6 +10277,8 @@ All other previous hypotheses have been systematically tested and empirically di
   4. Face Left and press Left to test Column 7 Row 4 (7, 4) or Column 7 Row 5 (7, 5).
   5. Record results.
 
+- **Test Results**: Disproven. Replaced under Disproven Hypotheses on Turn 146635. Reached (8, 6) on Surf on Turn 146634 and verified that both (8, 5) and (9, 5) directly north are solid rock walls (TYPE_2889), and Row 6 terminates in solid rock (7, 6) of TYPE_2889. Thus, no water path exists north of Row 6 on Columns 8 or 9 to test Row 4/5 at Column 7, and Column 7 itself is completely solid rock of TYPE_2889 on Rows 4-12.
+
 ## Disproven Hypotheses Archive
 - **Hypothesis 1 (Column 1 Rows 10-11 on 2F West)**: Disproven. Tested (1, 11) and (1, 10) on Turns 143319 and 143327 and bumped.
 - **Hypothesis 2 (Column 0 on 2F West)**: Disproven. Unreachable due to Koga's southwest pocket isolation.
