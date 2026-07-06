@@ -10319,6 +10319,19 @@ Since our systematic northern re-verification protocol on Map 0_226 (2F West) ha
   5. Standing at (8, 10) on Surf, face Left and press Left to test Column 7 Row 10 (7, 10). Record result.
 - **Experimental Status**: Active. Testing this hypothesis now.
 
+## Hypothesis 10: Column 4 Surf Boarding from Koga's Southwest Platform (Map 0_228)
+- **Premise**: We can board Surf on Column 4 directly from Koga's southwest platform (specifically from Column 3 Rows 8-11) on foot on Map 0_228 (1F).
+- **Topological Impact**: Standing on foot on Koga's southwest platform at (3, 8), (3, 9), (3, 10), or (3, 11), we face Right (towards Column 4) and select GEMMY -> SURF. If Column 4 is indeed open water at these rows (which is highly likely as the western canal runs vertically on Column 4), we will successfully board Surf on the western canal! This bypasses Koga's southwest pocket isolation on 2F West completely, allowing us to Surf Up along Column 4 to Rows 4-5 and reach Koga's northern landmass directly on Surf, unblocking access to B1F!
+- **Testing Route**:
+  1. Surf to Water Ramp 2 at (11, 13) and dismount on foot.
+  2. Walk on foot to Southwest Ladder 6 at (3, 11) using Koga's Row 17 bypass.
+  3. Stand at (3, 11) on foot. Turn Right to face (4, 11).
+  4. Select POKéMON -> GEMMY -> SURF. Observe if we successfully board.
+  5. If blocked, step Up to (3, 10) on foot, face Right to face (4, 10), and test SURF.
+  6. If blocked, step Up to (3, 9) on foot, face Right to face (4, 9), and test SURF.
+  7. If blocked, step Up to (3, 8) on foot, face Right to face (4, 8), and test SURF.
+- **Experimental Status**: Active. Surfing to (11, 13) to begin on-foot transition to (3, 11).
+
 <hr>
 
 <h1><code>Reflection/Turn143300_Reflection</code></h1>
