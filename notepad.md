@@ -8323,6 +8323,11 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 146665: Walked Up 1 step and Left 3 steps, then Up 1 step to reach (3, 15) on foot on Turn 146666.
 - Turn 146666: Walked Left 1 step, Up 1 step, Left 1 step, and Up 1 step, but triggered a wild Ditto battle at (1, 14) on foot on Turn 146667.
 - Turn 146668: Escaped the Ditto battle successfully using `flee_battle` on Turn 146669, landing at (1, 14) on foot.
+- Turn 146676: Walked Up 2 steps to (1, 12) on the elevated southwest platform on Map 0_228 on foot.
+- Turn 146677: Walked Up 1 step to (1, 11), Right 2 steps, and climbed Southwest Ladder 6 at (3, 11) to warp UP to Map 0_226 (2F West) on foot on Turn 146681.
+- Turn 146681: Standing at (3, 11) on Map 0_226 on foot.
+- Turn 146690: Walked Up 2 steps to (3, 9) and Right 1 step to (4, 9) on Map 0_226, where a wild Level 53 Ditto encounter triggered on Turn 146691.
+- Turn 146691: Ran flee_battle to escape successfully, returning to the overworld at (4, 9) on foot facing Right on Turn 146693.
 
 <hr>
 
