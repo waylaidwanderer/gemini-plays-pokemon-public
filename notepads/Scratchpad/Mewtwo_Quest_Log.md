@@ -79,3 +79,13 @@
 - Plan: Let's step Left to (18, 7), which is a clear floor tile of TYPE_3fe2, and then step Right to (19, 7) to trigger the warp to 1F Southwest/Central (Map 0_228) at (18, 9).
 - Turn 146528: Successfully verified that standing at (3, 11) and pressing Right allows us to walk directly onto (4, 11) on foot on Map 0_228. This proves that Column 4 Row 11 is passable dry land (cavern floor of TYPE_2770).
 - Turn 146529: Planning to explore Column 4 on foot to test passability on adjacent rows. We will walk Up to (4, 10) and then inspect the surrounding tiles.
+- Turn 146531: Walked Up 1 step to (4, 10) on Map 0_228 on foot.
+- Turn 146533: Walked Right 2 steps to (6, 10) on Map 0_228 on foot, facing Right. Verified that Column 7 Row 10 (7, 10) is a solid rock wall of TYPE_2889.
+- Turn 146541: Walked Left 4 steps and Up 2 steps to (2, 8) on Map 0_228 on foot, facing Up.
+- Turn 146568: Walked Down 4 steps to (2, 12), Left to (1, 12), and Down to the wooden stairs at (1, 13) on Map 0_228 on foot, facing Down.
+- Turn 146570: Walked Down 2 steps to (1, 15), Right to (2, 15), and Down 2 steps to reach (2, 17) on Map 0_228 on foot, facing Up.
+- Turn 146572: Walked Right 13 steps along the Row 17 southern ground corridor to reach (15, 17) on Map 0_228 on foot, facing Right.
+- Turn 146577: Walked Up to (15, 16), Right 2 steps to (17, 16), and Up 2 steps to climb the central stairs to (17, 14) on Map 0_228 on foot, facing Up.
+- Turn 146579: Walked Left 2 steps to (15, 14), Up 2 steps to (15, 12), and Left 3 steps to (12, 12) on Map 0_228 on foot, where a wild Golbat encounter triggered. Fled successfully on Turn 146581.
+- Turn 146601: Walked Left from (12, 12) to (11, 12) on Map 0_228 on foot, facing Left. This physically and conclusively proves that (11, 12) is passable dry land (cavern floor of TYPE_2770) on foot, not solid rock.
+- Turn 146604: Walked Down from (11, 12) to stand on Water Ramp 2 at (11, 13) on Map 0_228 on foot, facing Down.
