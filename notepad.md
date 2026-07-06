@@ -10267,17 +10267,10 @@ To resolve this logical flaw without making unverified assumptions, we will stan
 
 All other previous hypotheses have been systematically tested and empirically disproven. Hypothesis 6 remains the single active hypothesis to test.
 
-## Hypothesis 6: Column 7 Row 4 or Row 5 Water Passability on Map 0_228 (1F)
-- **Premise**: Column 7 Row 4 or Row 5 is actually open water on Map 0_228 (1F), allowing direct water crossover from the eastern/central water canals into the western water canal.
-- **Topological Impact**: If (7, 4) or (7, 5) is open water, we can Surf directly from Water Ramp 4 at (15, 3) to the western water canal on Columns 4-6, dismount onto land on foot at Row 6/5/4 on Koga's western landmass on 1F Northwest, and walk directly to (1, 3) [Northwest Ladder] to descend to B1F!
-- **Testing Route**:
-  1. Board Surf at Water Ramp 2 at (11, 13) onto (11, 14) (In progress!).
-  2. Surf north into the central water canal.
-  3. Reach Column 8 Row 4 (8, 4) or Column 8 Row 5 (8, 5) on water.
-  4. Face Left and press Left to test Column 7 Row 4 (7, 4) or Column 7 Row 5 (7, 5).
-  5. Record results.
-
-- **Test Results**: Disproven. Replaced under Disproven Hypotheses on Turn 146635. Reached (8, 6) on Surf on Turn 146634 and verified that both (8, 5) and (9, 5) directly north are solid rock walls (TYPE_2889), and Row 6 terminates in solid rock (7, 6) of TYPE_2889. Thus, no water path exists north of Row 6 on Columns 8 or 9 to test Row 4/5 at Column 7, and Column 7 itself is completely solid rock of TYPE_2889 on Rows 4-12.
+## Hypothesis 8: Column 1 Row 8 (1, 8) On-Foot Passability on Map 0_226 (2F West)
+- **Premise**: Column 1 Row 8 (1, 8) on Map 0_226 is actually open and passable on foot, allowing the southwest pocket to connect to the northern area.
+- **Topological Impact**: Connects Southwest Ladder 6 to the Northwest Ladder (1, 3).
+- **Test Results**: Disproven on Turn 146235. Tested (1, 8) by pressing Up from (1, 9) and bumped.
 
 ## Disproven Hypotheses Archive
 - **Hypothesis 1 (Column 1 Rows 10-11 on 2F West)**: Disproven. Tested (1, 11) and (1, 10) on Turns 143319 and 143327 and bumped.
