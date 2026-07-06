@@ -8311,6 +8311,18 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 146617: Opened start menu, selected POKéMON -> GEMMY -> SURF facing Down onto (11, 14) on Map 0_228.
 - Turn 146624: Surfed Left 3 steps to (8, 14) and Up 8 steps to reach (8, 6) on Map 0_228 on Surf on Turn 146634.
 - Turn 146634: Verified that both (8, 5) and (9, 5) directly north are solid rock walls (TYPE_2889), proving that the water canal terminates at Row 6. Hypothesis 6 is completely disproven.
+- Turn 146648: Surfed Down 4 steps along Column 8 to stand at (8, 10) on Surf on Turn 146649.
+- Turn 146650: Surfed Down 4 steps along Column 8 to stand at (8, 14) on Surf on Turn 146651.
+- Turn 146651: Surfed Right 3 steps to (11, 14) and Up 1 step to dismount onto Water Ramp 2 at (11, 13) on foot on Turn 146653.
+- Turn 146653: Walked Up 1 step and Right 4 steps to stand at (15, 12) on foot on Turn 146654.
+- Turn 146656: Walked Down 2 steps to reach (15, 14) on foot on Turn 146657.
+- Turn 146657: Walked Right 2 steps and Down 2 steps, but triggered a wild Dodrio battle at (16, 16) on foot on Turn 146660.
+- Turn 146660: Escaped the Dodrio battle successfully using `flee_battle` on Turn 146661, landing at (16, 16) on foot.
+- Turn 146662: Walked Down 1 step and Left 4 steps to reach (12, 17) on foot on Turn 146663.
+- Turn 146664: Walked Left 6 steps to reach (6, 17) on foot on Turn 146665.
+- Turn 146665: Walked Up 1 step and Left 3 steps, then Up 1 step to reach (3, 15) on foot on Turn 146666.
+- Turn 146666: Walked Left 1 step, Up 1 step, Left 1 step, and Up 1 step, but triggered a wild Ditto battle at (1, 14) on foot on Turn 146667.
+- Turn 146668: Escaped the Ditto battle successfully using `flee_battle` on Turn 146669, landing at (1, 14) on foot.
 
 <hr>
 
