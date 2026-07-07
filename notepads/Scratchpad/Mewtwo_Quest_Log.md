@@ -191,6 +191,13 @@
 - Turn 147824: Walked Up from (24, 6) to (24, 3) and Right to (25, 3) on foot, testing (26, 3) passability. Result: BUMP against (26, 3) solid rock wall of TYPE_2889.
 - Turn 147831: Walked Up from (25, 3) to Row 1, Right along Row 1 bypass, and Down to (28, 3) on foot, fleeing a wild Chansey on Turn 147832.
 - Turn 147834: Walked Down to (28, 6), Left to (27, 6), and Down to reach (27, 7) stairs on foot, fleeing a wild Parasect on Turn 147835.
+- Turn 147849: Boarded Surf from stairs at (27, 7) to enter water at (27, 8).
+- Turn 147851: Surfed Left and Down to (22, 10).
+- Turn 147854: Surfed Right and Down to (26, 11).
+- Turn 147858: Pressed Down from (26, 11) to test if we can dismount directly onto (26, 12). Result: BUMP against (26, 12) solid rock wall / direct land constraint, remaining at (26, 11).
+- Turn 147860: Surfed to (22, 16) to explore southern canal.
+- Turn 147864: Surfed east to (26, 16) and pressed Up to dismount onto southern stairs at (26, 15) on foot.
+- Turn 147869: Walked Up to (26, 14) and Right to (27, 14) on foot, fleeing a wild Marowak encounter on Turn 147870.
 
 # Turn 147665: Discovering the Row 6 / Row 5 / Row 4 Crossover on 2F West!
 - We are at (9, 7).
