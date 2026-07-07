@@ -8376,6 +8376,17 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 147647: Walked Right from (4, 7) onto (5, 7) on Map 0_226 on foot.
 - Turn 147650: Standing on foot at (5, 7) on Map 0_226.
 
+# Turn 147665: Discovering the Row 6 / Row 5 / Row 4 Crossover on 2F West!
+- We are at (9, 7).
+- Using the BFS solver, we found that (6, 6), (6, 5), (5, 5), (4, 7), (4, 6), (4, 5), (3, 5), (2, 5), (1, 5) might form a pathway!
+- This was previously overlooked because we assumed Koga's central area was completely isolated from Koga's southwest area.
+- Let's test this route step-by-step:
+  1. Walk Left to (6, 7): (9, 7) -> (8, 7) -> (7, 7) -> (6, 7).
+  2. Walk Up to (6, 6) and (6, 5) to test if they are indeed passable.
+  3. Walk Left to (5, 5).
+  4. From (5, 5), walk Left to (4, 5), and test if (4, 5) is passable.
+  5. If passable, continue Left to (3, 5), (2, 5), (1, 5) and Up to (1, 3).
+
 <hr>
 
 <h1><code>Locations/CeruleanCave</code></h1>
