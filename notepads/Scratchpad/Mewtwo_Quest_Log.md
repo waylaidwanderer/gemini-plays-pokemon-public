@@ -1,7 +1,7 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (13, 9) on B1F on Turn 147991.
+- Current Status: Standing on foot at (13, 8) on B1F on Turn 147995.
 
-## Active Backtracking Log (Turns 145822 - 147991)
+## Active Backtracking Log (Turns 145822 - 147995)
 - Turn 145822: Closed Start menu by pressing B. Player is now standing on foot at (10, 2) facing Down in the overworld. Ready to walk Left to (5, 2) to test Column 4 Surf boarding (Hypothesis 8 / Socratic Challenge).
 - Turn 145841: Successfully walked to (11, 2) on Map 0_228 on foot, facing Down.
 - Turn 145846: Selected POKéMON -> GEMMY -> SURF. Result: FAILED with "No SURFing on GEMMY here!", proving (11, 3) on Map 0_228 is a solid rock wall of TYPE_2889. Defined map marker.
