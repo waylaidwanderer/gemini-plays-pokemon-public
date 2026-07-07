@@ -217,6 +217,7 @@
 - Turn 147940: Successfully fled the Electrode, standing at (23, 1) on foot in the overworld.
 - Turn 147942: Walked Left and Down to reach (23, 5) on foot.
 - Turn 147945: Walked to (20, 8) on foot, where we were intercepted by a wild Level 64 Raichu battle.
+- Turn 147947: Walked to (19, 6) on foot, where our BFS pathing was interrupted due to wall mismatches.
 
 # Turn 147665: Discovering the Row 6 / Row 5 / Row 4 Crossover on 2F West!
 - We are at (9, 7).
