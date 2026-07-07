@@ -252,3 +252,5 @@
 ## B1F Unverified Theories & Predictions
 - **Stairs at (13, 13)**: Labeled TYPE_4b8d on other maps. Strongly hypothesized to be a staircase connecting Column 13 Row 12 to a water canal at (13, 14) (TYPE_4e8c) directly below. Yet to be physically verified on foot.
 - **Water Canal at (13, 14)**: Strongly hypothesized to be standard swimmable water of TYPE_4e8c leading to Mewtwo's island. Yet to be physically boarded and verified.
+- Turn 147787: Successfully boarded Surf at (13, 14) on Map 0_227 (B1F).
+- Turn 147792: Standing on water at (13, 14) on B1F. Facing Down. Let's explore the eastern water channel leading to the north.
