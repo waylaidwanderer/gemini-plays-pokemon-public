@@ -85,3 +85,5 @@
 - Turn 147327: Surfed Left 2 steps along Row 14 from (11, 14) to (9, 14).
 - Turn 147328: Surfed Up 4 steps along Column 9 to (9, 10).
 - Turn 147338: Surfing at (9, 10) on Map 0_228.
+- Turn 147339: Surfed Up 3 steps along Column 9 to stand at (9, 7) on Map 0_228 on Turn 147340.
+- Turn 147341: Surfing at (9, 7) on Map 0_228, facing Up.
