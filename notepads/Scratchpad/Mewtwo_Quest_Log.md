@@ -234,3 +234,9 @@
 - **Protocol**: Stood on foot at (0, 12) facing Down in the overworld on Map 0_227. Pressed Down once on Turn 147754.
 - **Result**: BUMP (visited 0 tiles, player coordinate remained at (0, 12) on Turn 147755 facing Down).
 - **Conclusion**: This physical collision empirically and conclusively proves that (0, 13) is a solid, impassable rock wall of TYPE_2889 on foot on Map 0_227 (B1F). There is no false-positive opening here, verifying that Column 0 is blocked on B1F south of Row 12.
+
+# Turn 147770: Reached Column 13 Row 8 Corridor on B1F
+- We walked Up 1, Right 2, and Up 3 steps along Column 9 and Row 14, climbing the stairs at (9, 13) to reach (9, 11) on foot on Turn 147767.
+- We then walked Up 3 steps along Column 9 to Row 8, and Right 4 steps along Row 8 to reach (13, 8) on foot on Turn 147770.
+- We verified that Column 13 continues Down to (13, 12) (TYPE_2770) and a staircase at (13, 13) (TYPE_4b8d) which leads directly into a central water canal at (13, 14) (TYPE_4e8c).
+- We will navigate Down along Column 13 to stand at (13, 13) and prepare to Surf.
