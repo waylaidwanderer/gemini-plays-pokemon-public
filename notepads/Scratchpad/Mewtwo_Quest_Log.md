@@ -101,3 +101,16 @@
 - Turn 147374: Walked to (9, 1) and warped DOWN Ladder 5 to Map 0_228 at (7, 1) on Turn 147377, fleeing wild Kadabra at (8, 1) on Turn 147375.
 - Turn 147385: Walked to Water Ramp 4 at (15, 3), fleeing wild Hypno at (13, 1) on Turn 147384.
 - Turn 147395: Activated Surf at (15, 3) to board water at (15, 4) on Turn 147396, and surfed to (15, 7) on Turn 147397.
+- Turn 147430: Surfed Left along Row 7 crossover to (9, 7).
+- Turn 147431: Surfed Down along Column 9 to (9, 14).
+- Turn 147433: Surfed Right to (11, 14) and Up 1 step to dismount at Water Ramp 2 at (11, 13) on foot.
+- Turn 147434: Walked on foot across the central platform to reach (17, 15) stairs.
+- Turn 147437: Walked Down the stairs and Left along Row 17 to (11, 17) on foot.
+- Turn 147440: Walked Left along Row 17 to (2, 17) on foot.
+- Turn 147443: Walked to (3, 11) on foot and warped UP Southwest Ladder 6 to Map 0_226 at (3, 11) on Turn 147444.
+- Turn 147459: Walked Up and Right to (4, 9), fleeing wild Kadabra at (4, 9) on Turn 147460.
+- Turn 147461: Walked Right 2 steps to (6, 9), fleeing wild Kadabra at (6, 9) on Turn 147462.
+- Turn 147463: Walked to (7, 9) on foot.
+- Turn 147465: Walked to (12, 13) on foot via Row 9 and Column 12.
+- Turn 147470: Walked Up to (12, 12), fleeing wild Dodrio at (12, 13) on Turn 147471.
+- Turn 147473: Walked to (3, 9) on foot on Map 0_226.
