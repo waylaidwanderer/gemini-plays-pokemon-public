@@ -60,11 +60,11 @@
 - Conclusion: To backtrack from the lower ground level (Rows 8-17) to the stairs at (3, 6), we must walk through Koga's lower level bypass back to Column 9, climb to the upper level (Row 2) via the (13, 3) or (19, 3) stairs, walk Left along Row 2 to (3, 2), and walk Down to (3, 6).
 
 ## Active Backtracking Strategy (The Upper Bypass)
-- **Goal**: Reach (13, 4) on foot via the lower-level on-foot bypass.
-- **Route to (13, 4)**:
-  1. From (7, 14), walk Right along Row 14 to (9, 14) and take the (9, 13) stairs to (9, 11) on foot.
-  2. Walk Up Column 9 to Row 8 (9, 8) and Right to (13, 8).
-  3. Walk Up Column 13 to (13, 4) and take the (13, 3) stairs Up to Row 2.
-  4. Walk Left along Row 2 to (3, 2).
+- **Goal**: Reach (3, 6) stairs via Column 7 and the Row 2 upper bypass.
+- **Route to (3, 6)**:
+  1. From (7, 14), walk Up 9 steps along Column 7 to the upper level brown floor at (7, 5).
+  2. From (7, 5), walk Right 6 steps along Row 5 to (13, 5).
+  3. Walk Up Column 13 through (13, 4) and take the (13, 3) stairs Up to Row 2 at (13, 2).
+  4. Walk Left along Row 2 to Column 3 (3, 2).
   5. Walk Down Column 3 through (3, 5) to reach the (3, 6) stairs.
 - Let's execute this step-by-step to safely exit Cerulean Cave!
