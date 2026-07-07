@@ -67,3 +67,4 @@
 - Turn 147171: Pressed Up to dismount at (11, 13).
 - Turn 147171: Dismounted Surf to Water Ramp 2 at (11, 13) on Map 0_228 on foot, facing Up.
 - Turn 147195: Walked Up 1 step on foot to stand on the central platform at (11, 12) on Map 0_228, facing Up.
+- Turn 147259: Walked Right 1 step from (19, 5) to (20, 5) on Map 0_226 on foot, where a wild Wigglytuff appeared on Turn 147260.
