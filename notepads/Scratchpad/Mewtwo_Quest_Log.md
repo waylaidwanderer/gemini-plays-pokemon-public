@@ -212,3 +212,12 @@
 - Result: SUCCESS! We found a MAX REVIVE!
 - The item ball sprite is now removed, and (18, 1) has transitioned to standard walkable land floor of TYPE_2770.
 - We will now explore the eastern corridor along Row 2 to reach Column 23 and navigate further south.
+
+# Turn 147726: Discovered Column 21 Solid Wall on B1F
+- We walked Right from (18, 2) and successfully reached (20, 2) on foot.
+- This proves that (19, 2) and (20, 2) on Map 0_227 (B1F) are standard walkable tiles of TYPE_2770.
+- However, our movement was blocked at Column 21, resulting in a BUMP and leaving us standing at (20, 2).
+- Looking at the screen, Column 21 is a solid, continuous vertical rock wall of TYPE_2889 on Rows 0-5.
+- Column 22 is also a solid rock wall of TYPE_2889 on Rows 0-5.
+- This thick vertical rock wall completely isolates this northern pocket (Columns 17-20, Rows 0-2) from the far-east region of B1F (Column 23+).
+- We will backtrack to the staircase at (19, 3) / (13, 3) and explore the lower ground corridors to the south.
