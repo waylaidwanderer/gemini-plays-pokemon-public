@@ -128,6 +128,7 @@
     - **Row 14 Solid Blockages**: (16, 14), (17, 14), (20, 14), and (21, 14) are solid rock walls of TYPE_2889 on B1F. Visually scanned and verified from adjacent screen tiles on Turn 147973.
     - **Row 15 Solid Blockages**: (16, 15), (17, 15), (20, 15), and (21, 15) are solid rock walls of TYPE_2889 on B1F. Visually scanned and verified from adjacent screen tiles on Turn 147973.
     - **Row 16 Solid Blockages**: (13, 16), (20, 16), and (21, 16) are solid rock walls of TYPE_2889 on B1F. Visually scanned and verified from adjacent screen tiles on Turn 147977.
+    - **(3, 13) Blockage (Verified Turn 148169)**: Visually scanned and verified on foot to be a solid rock wall of TYPE_2889, completely blocking vertical traversal on Column 3.
 - **Mewtwo Battle Prep**: As we enter B1F, we will use our specialized custom agent 'mewtwo_combat_strategist' to plan the battle and capture strategy. We currently have 1 Master Ball in our bag, which guarantees a 100% catch rate! We also have 1 Ultra Ball. We will use the Master Ball to safely and instantly catch Mewtwo!
 - **Verification of (4, 4) Blockage (Turn 131464)**: Standing at (4, 3) facing Left and pressing Down. Result: BUMP (visited 0 tiles). This conclusively disproves on-foot passage through (4, 4) on 2F West. Row 4 is completely impassable on 2F West.
 - **Verified Blockages on 1F (Map 0_228) (Migrated on Turn 132122)**:
