@@ -8288,6 +8288,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 147162: Pressed Left to test (7, 14). Result: BUMP, proving (7, 14) is solid.
 - Turn 147169: Surfed Right 3 steps to (11, 14).
 - Turn 147171: Pressed Up to dismount at (11, 13).
+- Turn 147171: Dismounted Surf to Water Ramp 2 at (11, 13) on Map 0_228 on foot, facing Up.
+- Turn 147195: Walked Up 1 step on foot to stand on the central platform at (11, 12) on Map 0_228, facing Up.
 
 <hr>
 
