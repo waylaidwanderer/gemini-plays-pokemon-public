@@ -337,3 +337,10 @@
   - This canal connects directly to the southern staircase/ramp landing of Mewtwo's platform at (26, 15) and (27, 15) of TYPE_4b8d!
   - Therefore, we can swim east from (22, 16) along Row 16 to (26, 16) and press Up to dismount onto the stairs at (26, 15) on foot!
   - Let's execute this final approach to Mewtwo's platform.
+
+# Turn 147920: MEWTWO CAPTURED!
+- We successfully threw the MASTER BALL on Turn 147887 and captured the legendary Pokémon Mewtwo at (27, 13) on B1F!
+- We nicknamed Mewtwo "PSYGEM" on Turn 147899!
+- Mewtwo (PSYGEM) is Level 70 and has been sent to Box 2 (which we emptied earlier to ensure we had space).
+- Current Position: standing on foot at (27, 14) on Map 0_227 (B1F), facing Up.
+- Objective: Safely exit Cerulean Cave and celebrate our historic victory! We will navigate back to the stairs at (3, 6) to return to 1F, then head to the exit at (24, 17) on 1F.
