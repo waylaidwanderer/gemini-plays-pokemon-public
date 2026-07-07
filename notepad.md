@@ -8607,7 +8607,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - We nicknamed Mewtwo "PSYGEM" on Turn 147899!
 - Mewtwo (PSYGEM) is Level 70 and has been sent to Box 2 (which we emptied earlier to ensure we had space).
 - Current Position: standing on foot at (27, 14) on Map 0_227 (B1F), facing Up.
-- Objective: Safely exit Cerulean Cave and celebrate our historic victory! We will navigate back to the stairs at (3, 6) to return to 1F, then head to the exit at (24, 17) on 1F.
+- Objective: Safely exit Cerulean Cave! We discovered a 100% unblocked on-foot route from (13, 13) to (3, 6) entirely on the lower level (via Row 8 -> Column 9 -> Row 14 -> Column 7 -> Row 17 -> Column 3), which bypasses both the Column 8 barrier and the Row 5 cliff without needing to restart the climbing route! We will navigate back to the stairs at (3, 6) to return to 1F, then head to the exit at (24, 17) on 1F.
 - Turn 148071: Successfully boarded Surf from the stairs at (19, 11) onto (19, 12) on the water. Now heading Down 4 steps along Column 19 to (19, 16) on Surf.
 - Turn 148105: Successfully boarded Surf at (13, 13) to reach (13, 14) on water, facing Down. Ready to swim east to (19, 11) using the U-shaped water canal.
 - Turn 148047: Fled successfully from the wild Marowak battle, standing at (19, 8) in the overworld facing Up.
