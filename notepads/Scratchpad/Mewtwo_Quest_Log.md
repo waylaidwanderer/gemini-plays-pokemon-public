@@ -163,6 +163,16 @@
 - Turn 147683: Walked along unblocked path to B1F stairs at (0, 6) and warped DOWN to Map 0_227 at (3, 6) on foot.
 - Turn 147687: Closed Start menu and walked Up 1 step onto (3, 5) on foot.
 - Turn 147693: Standing on foot at (3, 5) on Map 0_227.
+- Turn 147698: Walked Up to (3, 2) on foot on Map 0_227.
+- Turn 147700: Walked Right along Row 2 to (8, 2) on foot.
+- Turn 147703: Walked Right along Row 2 towards (13, 2), intercepted at (12, 2) by a wild Parasect on foot, and fled successfully.
+- Turn 147704: Walked Right 1 step to (13, 2) and Down 2 steps through the stairs/ramp at (13, 3) to reach (13, 4) on foot.
+- Turn 147707: Walked Down 1 step to Row 5 and Right 4 steps towards (17, 5) on foot. Intercepted at (16, 5) by a wild Marowak, and fled successfully.
+- Turn 147713: Walked Up 1 step and Right 3 steps to reach (19, 4) on foot.
+- Turn 147714: Attempted to walk Up the stairs at (19, 3). Intercepted at (19, 3) by a wild Parasect, and fled successfully on Turn 147715.
+- Turn 147716: Walked Up to (19, 2), Left to (18, 2), and Up against (18, 1) to face the item ball.
+- Turn 147717: Pressed A to interact with the item ball at (18, 1), finding a MAX REVIVE!
+- Turn 147721: Standing at (18, 2) on foot.
 
 # Turn 147665: Discovering the Row 6 / Row 5 / Row 4 Crossover on 2F West!
 - We are at (9, 7).
