@@ -205,6 +205,13 @@
 - Turn 147887: Navigated battle item list to select and throw the MASTER BALL, successfully capturing Mewtwo on Turn 147888!
 - Turn 147890: Pressed A to advance the Pokédex description screen to page 2 on Turn 147891.
 - Turn 147901: Standing at (27, 14) on foot, choosing YES on the nickname prompt to enter the nicknaming screen.
+- Turn 147904-147909: Navigated the nickname screen, typing the letters 'P', 'S', 'Y', 'G', 'E', 'M'.
+- Turn 147910: Confirmed the nickname 'PSYGEM' and completed the transfer of Mewtwo to PC Box 2.
+- Turn 147924: Back in the overworld at (27, 14), walked Left 1 step to stand at (26, 14) on foot.
+- Turn 147926: Walked Down 1 step to stand at (26, 15) on foot (the dismount ramp).
+- Turn 147928: Opened the Start menu.
+- Turn 147929: Navigated down and opened the POKéMON menu on GEMMY (BLASTOISE).
+- Turn 147934: Selected GEMMY and highlighted SURF in the sub-menu.
 
 # Turn 147665: Discovering the Row 6 / Row 5 / Row 4 Crossover on 2F West!
 - We are at (9, 7).
