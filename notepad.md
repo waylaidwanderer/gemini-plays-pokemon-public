@@ -8263,7 +8263,16 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 146936: Escaped Dodrio, standing at (1, 11) on Map 0_228 on foot facing Up.
 - Turn 146939: Walked Up 3 steps along Column 1 from (1, 11) to reach (1, 8) on foot on Turn 146940.
 - Turn 146941: Pressed Up once from (1, 8) facing Up to test (1, 7). Result: BUMP (visited 0 tiles, player coordinate remained at (1, 8) on Turn 146942 facing Up), physically and conclusively proving that (1, 7) on Map 0_228 is impassable from the south on foot.
-- Turn 146950: Re-synchronized status.
+- Turn 146953: Walked from (1, 8) Down 3 steps to (1, 11) and Right 2 steps to (3, 11) on Map 0_228, immediately warping UP Southwest Ladder 6 to Map 0_226 (2F West) at (3, 11) on Turn 146954 on foot.
+- Turn 146964: Walked Up 1 step to stand at (3, 10) on Map 0_226 on foot, facing Up.
+- Turn 146972: Pressed Up, Up on Map 0_226 from (3, 10). The first step moved us to (3, 9) and the second step bumped against (3, 8), proving (3, 8) on 2F West is indeed a solid rock wall.
+- Turn 146977: Pressed Down, Down from (3, 9) on Map 0_226, warping down Southwest Ladder 6 to land at (3, 11) on Map 0_228 (1F Southwest) on foot facing Down.
+- Turn 146978: Walked Down to (3, 12), Left to (2, 12), Left to (1, 12), and Down to (1, 13) [wooden stairs] on Map 0_228 on foot facing Down.
+- Turn 146983: Called press_buttons to walk Down 3 steps, Right 1 step, and Down 1 step along the 0-blockage path to (2, 17). Encountered a wild Golbat battle at (2, 16) on foot, which successfully fled on Turn 146985.
+- Turn 146986: Walked Down 1 step to (2, 17) and Right 3 steps to (5, 17) on Map 0_228, where we were intercepted by a wild Parasect on foot, which successfully fled on Turn 146988.
+- Turn 146996: Walked Right 5 steps along Row 17 from (5, 17) to stand at (10, 17) on Map 0_228 on foot.
+- Turn 146998: Walked Right 5 steps along Row 17 from (10, 17) to stand at (15, 17) on Map 0_228 on foot.
+- Turn 147003: Re-synchronized status.
 
 ## Summary of Completed Backtrack Phase (Turns 138737 - 145822)
 - Turn 145822: Closed Start menu by pressing B. Player is now standing on foot at (10, 2) facing Down in the overworld. Ready to walk Left to (5, 2) to test Column 4 Surf boarding (Hypothesis 8 / Socratic Challenge).
