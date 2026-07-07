@@ -10238,6 +10238,18 @@ To resolve this logical flaw without making unverified assumptions, we will stan
   - *Methodology*: While on foot at (3, 15), we turned Right to face Column 4 Row 15 (4, 15) and attempted to activate GEMMY's SURF.
   - *Result*: The game printed "No SURFing on GEMMY here!".
   - *Conclusion*: Column 4 Row 15 (4, 15) is a solid rock wall of TYPE_2889 and is completely impassable. This officially disproves the hypothesis that we can board the western water canal at Row 15 from the ground floor. We must test boarding further north at (3, 12) facing Right onto (4, 12).
+### 2F West/East Connection Re-Verification (Turn 147287)
+- **Objective**: Verify if 2F East (Columns 25-29) connects to 2F West/Central (Columns 9-24) on foot.
+- **Visual Analysis**:
+  - Row 0: (25, 0) is TYPE_2889 (solid rock).
+  - Row 1: (25, 1) is TYPE_2889 (solid rock).
+  - Row 2: (25, 2) is TYPE_2889 (solid rock).
+  - Row 3: (25, 3) is TYPE_2889 (solid rock).
+  - Row 4: (25, 4) is TYPE_3fe2 (walkable), (26, 4) is TYPE_3fe2, (27, 4) is TYPE_3fe2. However, (27, 3) is TYPE_2889 (solid), (28, 4) is solid, and (27, 5) is solid. Thus, Row 4 on Column 25-27 is a horizontal dead-end alcove.
+  - Row 5: (25, 5) is TYPE_2889 (solid rock).
+  - Row 6: (24, 6) is TYPE_2889 (solid rock).
+  - Row 7: (24, 7) is TYPE_2889 (solid rock).
+- **Conclusive Finding**: There is absolutely NO on-foot path between 2F East (Ladder 2 at 29,1) and 2F West/Central on Map 0_226. They are 100% physically disconnected.
 
 <hr>
 
