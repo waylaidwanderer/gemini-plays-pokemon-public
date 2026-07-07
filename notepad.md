@@ -8643,6 +8643,43 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - Row 17 from Column 6 left to Column 3 (visually open and expected unblocked).
   - Column 3 from Row 17 up to the stairs at (3, 6) (visually open and expected unblocked).
 
+# Turn 148183: Shortest Path Analysis
+- We used our custom `b1f_bfs_solver` from (4, 17) to (3, 6).
+- Path output: ["Left", "Up", "Left", "Up", "Up", "Up", "Up", "Right", "Up", "Up", "Up", "Up", "Up", "Up"]
+- Let's trace this path step-by-step from (4, 17) to see what tiles it touches and verify passability:
+  1. (4, 17) -> Left -> (3, 17) (TYPE_3fe2, walkable)
+  2. (3, 17) -> Up -> (3, 16) (TYPE_3fe2, walkable)
+  3. (3, 16) -> Left -> (2, 16) (TYPE_3fe2, walkable)
+  4. (2, 16) -> Up -> (2, 15) (TYPE_3fe2, walkable)
+  5. (2, 15) -> Up -> (2, 14) (TYPE_3fe2, walkable)
+  6. (2, 14) -> Up -> (2, 13) (TYPE_3fe2, walkable)
+  7. (2, 13) -> Up -> (2, 12) (TYPE_3fe2, walkable) -- wait, (2, 12) is on screen? No, the grid top edge is Row 13, so Row 12 is off-screen.
+  8. (2, 12) -> Right -> (3, 12) (wait, let's verify if (3, 12) is passable. Yes, we walked to (3, 12) on foot on Turn 147978).
+  9. (3, 12) -> Up -> (3, 11)
+  10. (3, 11) -> Up -> (3, 10)
+  11. (3, 10) -> Up -> (3, 9)
+  12. (3, 9) -> Up -> (3, 8) -- wait, on Turn 147745 we walked "from (6, 7), Down to (6, 8), and Left 3 steps along Row 8 to reach (3, 8) on foot". Yes, (3, 8) is passable!
+  13. (3, 8) -> Up -> (3, 7) (walkable)
+  14. (3, 7) -> Up -> (3, 6) (stairs, target!).
+- Let's check:
+  - Is (3, 13) really a blockage? Yes, our notes say "(3, 13) Blockage (Verified Turn 148169): Visually scanned and verified on foot to be a solid rock wall of TYPE_2889".
+  - On the screen, (3, 13) is indeed labeled TYPE_2889!
+  - (1, 13) is TYPE_3fe2, (2, 13) is TYPE_3fe2.
+  - So to bypass (3, 13) we go through (2, 13)!
+  - The path has us go Left to (3, 17), Up to (3, 16), Left to (2, 16), and then Up along Column 2 (passing (2, 15), (2, 14), (2, 13), (2, 12)), and then Right to Column 3 to continue Up to (3, 6).
+  - This is extremely elegant and avoids (3, 13)!
+- Let's run this path step-by-step or in chunks.
+- Since we want to ensure no unverified assumptions, let's execute the first few steps first.
+- Let's execute: ["Left", "Up", "Left", "Up"] to get us to (2, 15).
+- Let's check the current coordinates on screen:
+  - (4, 17) is where we are.
+  - (3, 17) is Left.
+  - (3, 16) is Up.
+  - (2, 16) is Left.
+  - (2, 15) is Up.
+- These tiles are all visible on the screen turn="148183" and all labeled TYPE_3fe2 (except map boundary at Row 17, but we are inside).
+- Let's press buttons for this chunk!
+
 <hr>
 
 <h1><code>Locations/CeruleanCave</code></h1>
