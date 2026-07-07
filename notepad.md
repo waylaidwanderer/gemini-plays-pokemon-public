@@ -8340,6 +8340,16 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 147478: Walked Down 2 steps to (3, 11) on Map 0_226, warping DOWN back to Map 0_228 (1F Southwest) at (3, 11) on Turn 147479 on foot.
 - Turn 147489: Walked on foot from (3, 11) to (11, 17) via (1, 12) platform, (1, 13) wooden stairs, (2, 15), (2, 17), and Row 17.
 - Turn 147513: Walked Right 4 steps to (15, 17) on Map 0_228 on foot, where we were intercepted by a wild Kadabra at (15, 16) and fled successfully on Turn 147515, landing at (15, 17) on foot.
+- Turn 147533: Walked Left to (10, 17) on foot on Map 0_228.
+- Turn 147534: Walked Left to (2, 17) on foot on Map 0_228.
+- Turn 147537: Fled wild Hypno at (2, 15) on foot.
+- Turn 147538: Walked to Southwest Ladder 6 at (3, 11) on foot and warped UP to Map 0_226.
+- Turn 147545: Walked to (9, 9) on foot on Map 0_226.
+- Turn 147554: Fled wild Electrode at (13, 9) on foot.
+- Turn 147555: Walked to (15, 8) on foot on Map 0_226.
+- Turn 147565: Fled wild Kadabra at (14, 8) on foot.
+- Turn 147568: Walked to (12, 12) on foot on Map 0_226.
+- Turn 147574: Standing on foot at (12, 12) on Map 0_226.
 
 <hr>
 
