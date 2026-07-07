@@ -10470,3 +10470,21 @@ Our custom tool `cave_bfs_solver` has been successfully updated on Turn 144660 t
 - **Methodology**: Documented in `Scratchpad/Mewtwo_Northwest_Path_Test` and coordinated via `crossover_testing_coordinator`.
 
 <hr>
+
+<h1><code>Scratchpad/Mewtwo_Northwest_Path_Test</code></h1>
+
+# B1F Eastern Pool Exploration Plan & Active Status
+- Current Status: Standing at (27, 7) on foot on Map 0_227 (B1F) on Turn 147845.
+
+## Socratic Challenge: Eastern Pool Exploration Strategy
+- **Context**: We are at the (27, 7) staircase on B1F, preparing to board Surf on the eastern water pool starting at (27, 8).
+- **Hypothesis**: The eastern water pool covers the eastern columns (22-29) of B1F. We need to determine if it is completely isolated or if there is a water channel leading to Mewtwo's central island.
+- **Exploration Plan**:
+  1. Board Surf at (27, 8) from (27, 7).
+  2. Surf south along Columns 22 and 23, exploring how far south the canal extends (down to Row 17).
+  3. Map the eastern boundaries of the water pool on Columns 24-29.
+  4. Systematically check the western boundaries of the eastern canal to see if there is any unblocked channel on Row 12, 13, 14, 15, 16, or 17 that leads westwards to the central area.
+  5. Test all adjacent landmasses for landing ramps (TYPE_4b8d) or walkability.
+  6. Document all findings with turn numbers and coordinates.
+
+<hr>
