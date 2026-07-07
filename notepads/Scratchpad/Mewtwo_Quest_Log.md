@@ -284,9 +284,9 @@
   - **Turn 1 Action Menu**:
     - Default cursor is on FIGHT (top-left).
     - Battle menu layout:
-      - FIGHT    ITEM
-      - POKéMON  RUN
-    - Press **Right** once to move the cursor from FIGHT to ITEM.
+      - FIGHT    PKMN
+      - ITEM     RUN
+    - Press **Down** once to move the cursor from FIGHT to ITEM.
     - Press **A** to select ITEM.
   - **Bag Item Menu**:
     - Default cursor is on the 1st item (CALCIUM).
