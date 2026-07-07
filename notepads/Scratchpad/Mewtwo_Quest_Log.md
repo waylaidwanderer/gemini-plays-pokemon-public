@@ -171,3 +171,4 @@
 - Turn 147057: Surfed Up 2 steps, Right 1 step, and Up 1 step to dismount onto Water Ramp 4 at (15, 3) on foot on Turn 147058, facing Down.
 - Turn 147062: Standing on foot at (15, 3) facing Down.
 - Turn 147155: Selected POKéMON -> GEMMY -> SURF facing Down from (11, 13) on Map 0_228 on foot. Result: SUCCESS, successfully boarded water at (11, 14) on Surf on Turn 147156. Standing on Surf at (11, 14) facing Down.
+- Turn 147162: Stand on Surf at (8, 14) on Map 0_228 facing Left. Attempted to step Left onto (7, 14) (TYPE_2889). Result: BUMP (visited 0 tiles, player coordinate remained at (8, 14)), physically and conclusively proving that (7, 14) is indeed a solid rock wall of TYPE_2889 and is completely impassable.
