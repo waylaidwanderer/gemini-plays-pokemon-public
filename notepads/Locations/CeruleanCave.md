@@ -91,7 +91,16 @@
   - **(1, 10) Blockage (Verified Turn 132464, Re-Verified Turn 136871)**: Standing at (2, 10) facing Left and pressing Left. Result: BUMP (visited 0 tiles), confirming (1, 10) is a solid rock wall of TYPE_2889.
 
 ## B1F (Basement) Verified Layout & Mewtwo Access
-- **B1F Access**: The stairs down to B1F are located in the northwestern quadrant of 1F at (1, 3).
+- **B1F Access (The Northwest Crossover Route)**:
+  - Contrary to prior beliefs of complete isolation, we have successfully verified a fully passable on-foot crossover route on 2F West (Map 0_226) that connects Koga's central area to the Northwest Ladder at (1, 3):
+    1. From (9, 7) on 2F West, walk Left to (6, 7).
+    2. Walk Up to (6, 6) and (6, 5) (both are open, passable TYPE_3fe2 tiles).
+    3. Walk Left to (5, 5) and continue Left to (0, 5).
+    4. Walk Up along Column 0 to (0, 3) and Right to (1, 3) (the ladder!).
+  - Descending the Northwest Ladder lands on 1F Northwest (Map 0_228) at (1, 3).
+  - The unblocked on-foot path from (1, 3) to the stairs down to B1F at (0, 6) is:
+    - (1, 3) -> Right to (2, 3) -> Down to (2, 4) -> Right to (5, 4) -> Down 2 steps to (5, 6) -> Left to (2, 6) -> Down to (2, 7) -> Left to (0, 7) -> Up 1 step onto the stairs at (0, 6).
+  - Descending the stairs at (0, 6) on 1F Northwest transitions the player to B1F (Map 0_227) at (3, 6).
 - **Basement Navigation**: Once on B1F, navigate the basement maze to locate and capture Mewtwo.
 - **Mewtwo Battle Prep**: As we enter B1F, we will use our specialized custom agent 'mewtwo_combat_strategist' to plan the battle and capture strategy. We currently have 1 Master Ball in our bag, which guarantees a 100% catch rate! We also have 1 Ultra Ball. We will use the Master Ball to safely and instantly catch Mewtwo!
 - **Verification of (4, 4) Blockage (Turn 131464)**: Standing at (4, 3) facing Left and pressing Down. Result: BUMP (visited 0 tiles). This conclusively disproves on-foot passage through (4, 4) on 2F West. Row 4 is completely impassable on 2F West.
