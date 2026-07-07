@@ -160,7 +160,7 @@
 - Turn 147016: Called press_buttons to walk on foot from (15, 17) to Ladder 3 at (18, 9) on Map 0_228. Arrived on Map 0_226 (2F West) at (19, 7) on Turn 147017.
 - Turn 147023: Called press_buttons to step off and on Ladder 3: ['Up', 'Down']. Successfully warped back down to Map 0_228 (1F) at (18, 9) on Turn 147024.
 - Turn 147025: Standing on foot at (18, 9) on Map 0_228, facing Down. Ready to navigate to Water Ramp 2 at (11, 13) on foot.
-- Current Status: Standing on foot at (15, 3) on Map 0_228 (1F Northwest) on Turn 147116, facing Down.
+- Current Status: Standing on foot at (15, 3) on Map 0_228 (1F Northwest) on Turn 147122, facing Down. Menu open, cursor on POKÉMON.
 - Turn 147115: Walked on foot from (7, 1) to Water Ramp 4 at (15, 3) via Row 2: ['Down', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Down']. Arrived at (15, 3) on foot facing Down on Turn 147116.
 - Turn 147024: Successfully warped back down to Map 0_228 (1F) at (18, 9).
 - Turn 147026: Walked on foot to Water Ramp 2 at (11, 13) via (15, 8).
