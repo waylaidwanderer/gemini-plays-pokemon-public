@@ -8421,6 +8421,13 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 147860: Surfed to (22, 16) to explore southern canal.
 - Turn 147864: Surfed east to (26, 16) and pressed Up to dismount onto southern stairs at (26, 15) on foot.
 - Turn 147869: Walked Up to (26, 14) and Right to (27, 14) on foot, fleeing a wild Marowak encounter on Turn 147870.
+- Turn 147877: Pressed Up from (27, 14) facing Right. Result: BUMP against Mewtwo, successfully turning player Up to face Mewtwo directly on Turn 147878.
+- Turn 147879: Pressed A facing Up against Mewtwo at (27, 13) to talk to it, initiating the legendary encounter on Turn 147880.
+- Turn 147882: Pressed A to advance the overworld dialogue "Mew!" and transition into the wild battle on Turn 147883.
+- Turn 147885: Navigated the battle action menu to select ITEM and opened the bag.
+- Turn 147887: Navigated battle item list to select and throw the MASTER BALL, successfully capturing Mewtwo on Turn 147888!
+- Turn 147890: Pressed A to advance the Pokédex description screen to page 2 on Turn 147891.
+- Turn 147901: Standing at (27, 14) on foot, choosing YES on the nickname prompt to enter the nicknaming screen.
 
 # Turn 147665: Discovering the Row 6 / Row 5 / Row 4 Crossover on 2F West!
 - We are at (9, 7).
