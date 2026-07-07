@@ -114,3 +114,6 @@
 - Turn 147465: Walked to (12, 13) on foot via Row 9 and Column 12.
 - Turn 147470: Walked Up to (12, 12), fleeing wild Dodrio at (12, 13) on Turn 147471.
 - Turn 147473: Walked to (3, 9) on foot on Map 0_226.
+- Turn 147478: Walked Down 2 steps to (3, 11) on Map 0_226, warping DOWN back to Map 0_228 (1F Southwest) at (3, 11) on Turn 147479 on foot.
+- Turn 147489: Walked on foot from (3, 11) to (11, 17) via (1, 12) platform, (1, 13) wooden stairs, (2, 15), (2, 17), and Row 17.
+- Turn 147513: Walked Right 4 steps to (15, 17) on Map 0_228 on foot, where we were intercepted by a wild Kadabra at (15, 16) and fled successfully on Turn 147515, landing at (15, 17) on foot.
