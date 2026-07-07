@@ -1,5 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Surfing at (9, 10) on Map 0_228 (1F) on Turn 147337, facing Up.
+- Current Status: Standing on foot at (13, 1) on Map 0_228 (1F) on Turn 147351, facing Left.
 
 ## Active Backtracking Log (Turns 145822 - 147332)
 - Turn 145822: Closed Start menu by pressing B. Player is now standing on foot at (10, 2) facing Down in the overworld. Ready to walk Left to (5, 2) to test Column 4 Surf boarding (Hypothesis 8 / Socratic Challenge).
