@@ -8410,6 +8410,10 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 147793: Surfed east and north along the water canal to (18, 12).
 - Turn 147794: Dismounted Surf onto stairs at (19, 11) on foot.
 - Turn 147806: Walked Up 3 steps and Right 5 steps along Row 8 on foot to reach (24, 8), fleeing a wild Rhydon encounter at (19, 8) on Turn 147801.
+- Turn 147818: Walked Up from (24, 8) to reach (24, 6) on foot, fleeing a wild Rhydon encounter on Turn 147819.
+- Turn 147824: Walked Up from (24, 6) to (24, 3) and Right to (25, 3) on foot, testing (26, 3) passability. Result: BUMP against (26, 3) solid rock wall of TYPE_2889.
+- Turn 147831: Walked Up from (25, 3) to Row 1, Right along Row 1 bypass, and Down to (28, 3) on foot, fleeing a wild Chansey on Turn 147832.
+- Turn 147834: Walked Down to (28, 6), Left to (27, 6), and Down to reach (27, 7) stairs on foot, fleeing a wild Parasect on Turn 147835.
 
 # Turn 147665: Discovering the Row 6 / Row 5 / Row 4 Crossover on 2F West!
 - We are at (9, 7).
