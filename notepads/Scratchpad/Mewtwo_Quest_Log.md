@@ -243,6 +243,13 @@
 - Turn 148016: Walked Down 3 steps along Column 13 to stand at (13, 9) on foot on Turn 148017.
 - Turn 148018: Walked Down 4 steps along Column 13 to stand at the stairs/ramp at (13, 13) on foot on Turn 148019.
 - Turn 148021: Successfully standing at (13, 13) on foot facing Down, ready to board Surf.
+- Turn 148023: Opened Start menu and selected GEMMY -> SURF, boarding the water at (13, 14) on Surf on Turn 148028.
+- Turn 148028: Surfed Down 1 step along Column 13 to stand at (13, 15) on Surf on Turn 148029.
+- Turn 148029: Surfed Right to (14, 15), Down to (14, 16), and Right to (15, 16) on Surf on Turn 148030.
+- Turn 148034: Surfed Right 4 steps along Row 16 to stand at (19, 16) on Surf on Turn 148035.
+- Turn 148038: Surfed Up 3 steps along Column 19 to reach (19, 13) on Surf on Turn 148039.
+- Turn 148041: Surfed Up 2 steps to stand at (19, 11) and automatically dismounted onto the stairs at (19, 11) on foot on Turn 148043.
+- Turn 148044: Walked Up 3 steps along Column 19 to stand at (19, 8) on foot, where we were intercepted by a wild Marowak battle on Turn 148045.
 
 # Turn 147963: Standing at (19, 11) on B1F
 - We have arrived at the dismount/boarding ramp at (19, 11) on foot, facing Down.
