@@ -8393,6 +8393,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 147055: Surfed Right 5 steps along Row 6 to reach (14, 6) on Surf.
 - Turn 147057: Surfed Up 2 steps, Right 1 step, and Up 1 step to dismount onto Water Ramp 4 at (15, 3) on foot on Turn 147058, facing Down.
 - Turn 147062: Standing on foot at (15, 3) facing Down.
+- Turn 147155: Selected POKéMON -> GEMMY -> SURF facing Down from (11, 13) on Map 0_228 on foot. Result: SUCCESS, successfully boarded water at (11, 14) on Surf on Turn 147156. Standing on Surf at (11, 14) facing Down.
 
 <hr>
 
