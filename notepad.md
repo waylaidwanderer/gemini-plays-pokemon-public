@@ -8483,6 +8483,35 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 147787: Successfully boarded Surf at (13, 14) on Map 0_227 (B1F).
 - Turn 147792: Standing on water at (13, 14) on B1F. Facing Down. Let's explore the eastern water channel leading to the north.
 
+# Turn 147824: Systematic Passability Test of Row 3 Blockage
+- **Objective**: Test if Row 3 is a passable on-foot corridor connecting the left and right halves of the map.
+- **Protocol**: Starting at (24, 6) facing Up, we called the BFS solver to walk Up 3 steps and Right to Column 27.
+- **Observations**: 
+  - Player walked Up 3 steps to reach (24, 3) on foot.
+  - Player turned Right and pressed Right, landing on (25, 3) of TYPE_2770 on foot.
+  - However, the subsequent movement was blocked. Wait, looking at the GameState, the player ended up at (25, 3)!
+  - Let's verify: Yes, GameState Position is x=25, y=3!
+  - Wait! Let's check if we bumped at (25, 3) or if we are at (25, 3).
+  - Yes, we are at (25, 3)!
+  - This means (25, 3) is indeed walkable!
+  - But wait, the system warning says: "You pressed 10 movement buttons, but visited 4 tiles. This can indicate that a textbox is open, you bumped into a wall/obstacle..."
+  - Ah! Let's check our steps:
+    1. Up to (24, 5)
+    2. Up to (24, 4)
+    3. Up to (24, 3)
+    4. Right to (25, 3)
+    5. Right to (26, 3) -> BUMP? Yes, if we are at (25, 3), we bumped against (26, 3)!
+    6. Right -> BUMP
+    7. Right -> BUMP
+    8. Down -> BUMP? Wait, can we go Down from (25, 3)?
+       - (25, 4) is solid rock of TYPE_2889!
+       - So pressing Down from (25, 3) bumped against (25, 4)!
+    9. Down -> BUMP
+    10. Down -> BUMP
+  - This is amazing! We successfully reached (25, 3) on foot, proving that (25, 3) is 100% passable!
+  - But we confirmed that (26, 3) is a solid rock wall of TYPE_2889, blocking further rightward progress on Row 3.
+  - Let's test if Row 1 is open! We can walk Up from (25, 3) to (25, 2) and then (25, 1).
+
 <hr>
 
 <h1><code>Locations/CeruleanCave</code></h1>
