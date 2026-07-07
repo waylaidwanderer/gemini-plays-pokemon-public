@@ -8440,6 +8440,11 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 147928: Opened the Start menu.
 - Turn 147929: Navigated down and opened the POKéMON menu on GEMMY (BLASTOISE).
 - Turn 147934: Selected GEMMY and highlighted SURF in the sub-menu.
+- Turn 147936: Pressed A on SURF, successfully boarding the water at (26, 16) on Surf.
+- Turn 147937-147939: Surfed Left to (23, 16) and then Up to (23, 1) where we were intercepted by a wild Electrode.
+- Turn 147940: Successfully fled the Electrode, standing at (23, 1) on foot in the overworld.
+- Turn 147942: Walked Left and Down to reach (23, 5) on foot.
+- Turn 147945: Walked to (20, 8) on foot, where we were intercepted by a wild Level 64 Raichu battle.
 
 # Turn 147665: Discovering the Row 6 / Row 5 / Row 4 Crossover on 2F West!
 - We are at (9, 7).
