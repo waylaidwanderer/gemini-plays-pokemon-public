@@ -8350,6 +8350,13 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 147565: Fled wild Kadabra at (14, 8) on foot.
 - Turn 147568: Walked to (12, 12) on foot on Map 0_226.
 - Turn 147574: Standing on foot at (12, 12) on Map 0_226.
+- Turn 147575: Walked Down 3 steps to (12, 15), Right 1 step to (13, 15), and Down 2 steps to (13, 17) on foot.
+- Turn 147579: Attempted to walk along Row 16, but was intercepted at (11, 16) by a wild Rhydon on Turn 147580. Fled successfully on Turn 147581.
+- Turn 147582: Walked Left 3 steps to (8, 16) on foot.
+- Turn 147586: Attempted to walk Left to (1, 17) and Up to (1, 15), but was intercepted at (2, 17) by a wild Dodrio on Turn 147587. Fled successfully on Turn 147588.
+- Turn 147589: Walked Left to (1, 17) and Up 2 steps to reach (1, 15) in Koga's southwest pocket on foot.
+- Turn 147594: Walked Right to (2, 15), Up 2 steps to (2, 13), Left to (1, 13), and Up 1 step to stand at (1, 12) on foot.
+- Turn 147603: Standing on foot at (1, 12) on Map 0_226.
 
 <hr>
 
