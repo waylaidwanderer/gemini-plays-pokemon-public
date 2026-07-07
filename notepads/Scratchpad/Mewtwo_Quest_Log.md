@@ -160,4 +160,12 @@
 - Turn 147016: Called press_buttons to walk on foot from (15, 17) to Ladder 3 at (18, 9) on Map 0_228. Arrived on Map 0_226 (2F West) at (19, 7) on Turn 147017.
 - Turn 147023: Called press_buttons to step off and on Ladder 3: ['Up', 'Down']. Successfully warped back down to Map 0_228 (1F) at (18, 9) on Turn 147024.
 - Turn 147025: Standing on foot at (18, 9) on Map 0_228, facing Down. Ready to navigate to Water Ramp 2 at (11, 13) on foot.
-- Turn 147047: Surfed Left 2 steps to (9, 14) and Up 4 steps to stand at (9, 10) on Surf on Turn 147048, facing Up. Ready to execute the remaining path to Water Ramp 4 at (15, 3).
+- Current Status: Standing on foot at (15, 3) on Map 0_228 (1F Northwest) on Turn 147062, facing Down.
+- Turn 147024: Successfully warped back down to Map 0_228 (1F) at (18, 9).
+- Turn 147026: Walked on foot to Water Ramp 2 at (11, 13) via (15, 8).
+- Turn 147038: Boarded Surf to stand at (11, 14) on water facing Down.
+- Turn 147047: Surfed Left 2 steps and Up 4 steps to stand at (9, 10) on Surf.
+- Turn 147049: Surfed Up 4 steps to (9, 6) on Surf.
+- Turn 147055: Surfed Right 5 steps along Row 6 to reach (14, 6) on Surf.
+- Turn 147057: Surfed Up 2 steps, Right 1 step, and Up 1 step to dismount onto Water Ramp 4 at (15, 3) on foot on Turn 147058, facing Down.
+- Turn 147062: Standing on foot at (15, 3) facing Down.
