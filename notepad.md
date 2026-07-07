@@ -8447,6 +8447,12 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 147945: Walked to (20, 8) on foot, where we were intercepted by a wild Level 64 Raichu battle.
 - Turn 147947: Walked to (19, 6) on foot, where our BFS pathing was interrupted due to wall mismatches.
 - Turn 147956: Attempted to walk Down Column 19 to (19, 11), but was intercepted at (19, 8) by a wild Ditto battle.
+- Turn 147959: Walked Down 3 steps to stand on foot at (19, 11) on B1F.
+
+# Turn 147963: Standing at (19, 11) on B1F
+- We have arrived at the dismount/boarding ramp at (19, 11) on foot, facing Down.
+- Our custom pathfinder 'b1f_bfs_solver' has been successfully redefined and synchronized with all newly verified B1F solid rock walls: (17,6), (18,6), (17,8), (15,8), (17,9), (15,9), (17,10), (18,10), (17,11), (18,11), and (21,11).
+- We are ready to board Surf and navigate west to reach the stairs at (3, 6).
 
 # Turn 147665: Discovering the Row 6 / Row 5 / Row 4 Crossover on 2F West!
 - We are at (9, 7).
