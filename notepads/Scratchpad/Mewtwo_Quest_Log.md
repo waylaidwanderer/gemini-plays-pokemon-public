@@ -220,6 +220,15 @@
 - Turn 147947: Walked to (19, 6) on foot, where our BFS pathing was interrupted due to wall mismatches.
 - Turn 147956: Attempted to walk Down Column 19 to (19, 11), but was intercepted at (19, 8) by a wild Ditto battle.
 - Turn 147959: Walked Down 3 steps to stand on foot at (19, 11) on B1F.
+- Turn 147969: Opened Start menu and selected GEMMY -> SURF, successfully boarding the water canal at (19, 12) on Surf on Turn 147971.
+- Turn 147976: Surfed Down 4 steps and Left 1 step to stand at (18, 16) on Surf on Turn 147977.
+- Turn 147977: Surfed Left 4 steps to stand at (14, 16) on Surf on Turn 147978, bumping against the solid wall at (13, 16).
+- Turn 147979: Surfed Up, Left, Up, and Up to dismount onto the stairs at (13, 13) on foot on Turn 147980.
+
+# Turn 147980: Standing on foot at (13, 13) on B1F
+- We have successfully navigated the central water canal, dismounting onto the stairs at (13, 13) on foot.
+- Our next objective is to walk on foot from (13, 13) back to the stairs to 1F at (3, 6).
+- Let's check our on-foot pathing back to (3, 6).
 
 # Turn 147963: Standing at (19, 11) on B1F
 - We have arrived at the dismount/boarding ramp at (19, 11) on foot, facing Down.
