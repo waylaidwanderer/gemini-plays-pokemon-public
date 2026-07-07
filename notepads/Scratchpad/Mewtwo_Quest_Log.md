@@ -292,3 +292,11 @@
   - This is amazing! We successfully reached (25, 3) on foot, proving that (25, 3) is 100% passable!
   - But we confirmed that (26, 3) is a solid rock wall of TYPE_2889, blocking further rightward progress on Row 3.
   - Let's test if Row 1 is open! We can walk Up from (25, 3) to (25, 2) and then (25, 1).
+
+# Turn 147861: Discovered Bottom Water Canal Connection on Rows 16 & 17
+- **Observations**: 
+  - Successfully swam south along Column 22 to stand on water at (22, 16) on Turn 147861.
+  - Visually verified that Rows 16 and 17 contain an unblocked horizontal water canal of TYPE_4e8c extending from Column 22 eastwards all the way to Column 27.
+  - This canal connects directly to the southern staircase/ramp landing of Mewtwo's platform at (26, 15) and (27, 15) of TYPE_4b8d!
+  - Therefore, we can swim east from (22, 16) along Row 16 to (26, 16) and press Up to dismount onto the stairs at (26, 15) on foot!
+  - Let's execute this final approach to Mewtwo's platform.
