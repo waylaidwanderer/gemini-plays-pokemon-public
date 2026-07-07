@@ -8290,9 +8290,17 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 147171: Pressed Up to dismount at (11, 13).
 - Turn 147171: Dismounted Surf to Water Ramp 2 at (11, 13) on Map 0_228 on foot, facing Up.
 - Turn 147195: Walked Up 1 step on foot to stand on the central platform at (11, 12) on Map 0_228, facing Up.
+- Turn 147196-147245: Navigated on foot across Map 0_228 from (11, 12) to (12, 9), then walked to the ladder at (18, 9).
+- Turn 147246: Warped UP Ladder 3 at (18, 9) on Map 0_228, arriving on Map 0_226 (2F West) at (19, 7).
+- Turn 147257: Walked on foot across 2F West from (19, 7) to (19, 5).
 - Turn 147259: Walked Right 1 step from (19, 5) to (20, 5) on Map 0_226 on foot, where a wild Wigglytuff appeared on Turn 147260.
 - Turn 147261: Ran flee_battle to successfully escape the Wigglytuff encounter, returning to the overworld at (20, 5) on foot on Turn 147265.
-- Turn 147266: Standing at (20, 5) on Map 0_226 on foot facing Right.
+- Turn 147267: Walked on foot from (20, 5) to (22, 3) on Map 0_226.
+- Turn 147289: Walked Down 1 step from (22, 3) to (22, 4) on foot on Map 0_226, where a wild Electrode appeared on Turn 147290.
+- Turn 147291: Escaped wild Electrode using flee_battle, returning to the overworld at (22, 4).
+- Turn 147291: Walked Left to (21, 4), Down to (21, 5), Left to (20, 5), and Down to (20, 6) on foot on Map 0_226.
+- Turn 147294: Walked Left to (19, 6) and Down to (19, 7) on foot, taking Ladder 3 to warp DOWN to Map 0_228 at (18, 9) on Turn 147295.
+- Turn 147303: Standing on foot at (18, 9) on Map 0_228, facing Up.
 
 <hr>
 
