@@ -163,3 +163,12 @@
   3. Walk Left to (5, 5).
   4. From (5, 5), walk Left to (4, 5), and test if (4, 5) is passable.
   5. If passable, continue Left to (3, 5), (2, 5), (1, 5) and Up to (1, 3).
+
+# Turn 147689: Arrived on B1F (Map 0_227)!
+- We successfully navigated the Northwest crossover route on 2F West and descended the stairs to B1F on Turn 147683/147684!
+- We arrived on Map 0_227 at (3, 6) on foot, facing Up.
+- On Turn 147687/147688, we closed the Start menu and stepped Up onto (3, 5) of TYPE_2770.
+- Result: SUCCESS! We are standing at (3, 5) on foot.
+- This empirically and conclusively proves that TYPE_2770 is standard walkable land floor on B1F (Map 0_227), NOT water or solid rock wall.
+- This means B1F is wide open to explore on foot!
+- We will systematically map B1F and navigate towards Mewtwo's location.
