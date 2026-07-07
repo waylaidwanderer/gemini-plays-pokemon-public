@@ -157,3 +157,6 @@
 - Turn 146843: Still standing on foot at (7, 9) on Map 0_226.
 - Turn 146845: Escaped the wild Marowak battle at (3, 9) on foot.
 - Turn 146853: Currently standing on foot at (3, 9) on Map 0_226, facing Down.
+- Turn 147016: Called press_buttons to walk on foot from (15, 17) to Ladder 3 at (18, 9) on Map 0_228. Arrived on Map 0_226 (2F West) at (19, 7) on Turn 147017.
+- Turn 147023: Called press_buttons to step off and on Ladder 3: ['Up', 'Down']. Successfully warped back down to Map 0_228 (1F) at (18, 9) on Turn 147024.
+- Turn 147025: Standing on foot at (18, 9) on Map 0_228, facing Down. Ready to navigate to Water Ramp 2 at (11, 13) on foot.
