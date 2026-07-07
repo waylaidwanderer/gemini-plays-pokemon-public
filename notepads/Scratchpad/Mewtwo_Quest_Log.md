@@ -68,3 +68,5 @@
 - Turn 147171: Dismounted Surf to Water Ramp 2 at (11, 13) on Map 0_228 on foot, facing Up.
 - Turn 147195: Walked Up 1 step on foot to stand on the central platform at (11, 12) on Map 0_228, facing Up.
 - Turn 147259: Walked Right 1 step from (19, 5) to (20, 5) on Map 0_226 on foot, where a wild Wigglytuff appeared on Turn 147260.
+- Turn 147261: Ran flee_battle to successfully escape the Wigglytuff encounter, returning to the overworld at (20, 5) on foot on Turn 147265.
+- Turn 147266: Standing at (20, 5) on Map 0_226 on foot facing Right.
