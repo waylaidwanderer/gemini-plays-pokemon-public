@@ -8608,20 +8608,40 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Mewtwo (PSYGEM) is Level 70 and has been sent to Box 2 (which we emptied earlier to ensure we had space).
 - Current Position: standing on foot at (27, 14) on Map 0_227 (B1F), facing Up.
 - Objective: Safely exit Cerulean Cave! We discovered a 100% unblocked on-foot route from (13, 13) to (3, 6) entirely on the lower level (via Row 8 -> Column 9 -> Row 14 -> Column 7 -> Row 17 -> Column 3), which bypasses both the Column 8 barrier and the Row 5 cliff without needing to restart the climbing route! We will navigate back to the stairs at (3, 6) to return to 1F, then head to the exit at (24, 17) on 1F.
-- Turn 148071: Successfully boarded Surf from the stairs at (19, 11) onto (19, 12) on the water. Now heading Down 4 steps along Column 19 to (19, 16) on Surf.
-- Turn 148105: Successfully boarded Surf at (13, 13) to reach (13, 14) on water, facing Down. Ready to swim east to (19, 11) using the U-shaped water canal.
 - Turn 148047: Fled successfully from the wild Marowak battle, standing at (19, 8) in the overworld facing Up.
 - Turn 148048: Walked Down 3 steps along Column 19 to reach (19, 11) on foot on Turn 148061.
-- Turn 148064: Opened Start menu and navigated to POKéMON.
+- Turn 148064: Opened Start menu -> POKéMON.
 - Turn 148066: Selected GEMMY -> SURF, successfully boarding the water canal at (19, 12) on Surf on Turn 148071.
 - Turn 148072: Surfed Down 4 steps along Column 19 to stand at (19, 16) on Surf on Turn 148073.
 - Turn 148074: Surfed Left 5 steps along Row 16 to stand at (14, 16) on Surf on Turn 148075.
 - Turn 148076: Surfed Up to (14, 15), Left to (13, 15), Up to (13, 14), and Up to automatically dismount onto the stairs at (13, 13) on foot on Turn 148077.
-- Turn 148083: Standing on foot at (13, 13) facing Down. Verified that Column 8 acts as a solid rock barrier, so we must loop back via the upper level to exit.
-- Turn 148100: Pressed Down once to turn and face the water at (13, 14) in the overworld.
-- Turn 148101: Opened Start menu and selected POKéMON -> GEMMY -> SURF on Turn 148104, boarding water at (13, 14) on Surf on Turn 148105.
+- Turn 148083: Standing on foot at (13, 13) facing Down. Verified that Column 8 acts as a solid rock barrier on foot on Rows 5 to 11, so direct on-foot passage west is blocked.
+- Turn 148100: Pressed Down once to turn and face the water at (13, 14).
+- Turn 148101: Opened Start menu -> POKéMON -> GEMMY -> SURF on Turn 148104, boarding water at (13, 14) on Surf on Turn 148105.
 - Turn 148107: Surfed Right 2 steps to (15, 14) and Down 2 steps to stand at (15, 16) on Surf on Turn 148108.
 - Turn 148109: Surfed Right 4 steps along Row 16 to stand at (19, 16) on Surf on Turn 148111.
+- Turn 148114: Surfed Up 5 steps along Column 19 to automatically dismount onto the stairs at (19, 11) on foot on Turn 148115.
+- Turn 148115: Walked Up 3 steps along Column 19 to stand at (19, 8) on foot on Turn 148116. Visually verified that (19, 5) is indeed solid rock wall of TYPE_2889, confirming the upper level is blocked on Column 19.
+- Turn 148120: Walked Down 3 steps along Column 19 to return to (19, 11) on foot on Turn 148121.
+- Turn 148121: Opened Start menu -> POKéMON -> GEMMY -> SURF on Turn 148124, boarding water at (19, 12) on Surf on Turn 148125.
+- Turn 148128: Surfed Down 4 steps along Column 19 to stand at (19, 16) on Surf on Turn 148130.
+- Turn 148133: Surfed Left 5 steps to (14, 16), Up to (14, 15), Left to (13, 15), Up to (13, 14), and Up to automatically dismount onto (13, 13) on foot on Turn 148134.
+- Turn 148135: Walked Up 5 steps along Column 13 to (13, 8), where we were intercepted by wild Marowak on Turn 148136.
+- Turn 148136: Fled Marowak successfully, returning to overworld at (13, 8) on foot on Turn 148137.
+- Turn 148139: Walked Left 4 steps along Row 8 to stand at (9, 8) on foot on Turn 148141.
+
+## Lower Level On-Foot Bypass Path & Verification Rigor
+- **Verified Segments (physically traversed on foot on this play session)**:
+  - Column 13 from Y=13 up to Y=8 (completely unblocked ground floor).
+  - Row 8 from Column 13 left to Column 9 (completely unblocked ground floor).
+- **Theoretical Segments (visually scanned / computed but currently untraversed)**:
+  - Column 9 from Row 8 down to Row 14 via the (9, 13) stairs (visually open and expected unblocked).
+  - Row 14 from Column 9 left to Column 7 (visually open and expected unblocked).
+  - Column 7 from Row 14 down to Row 15 (visually open and expected unblocked).
+  - Row 15 from Column 7 left to Column 6 (visually open and expected unblocked).
+  - Column 6 from Row 15 down to Row 17 (visually open and expected unblocked).
+  - Row 17 from Column 6 left to Column 3 (visually open and expected unblocked).
+  - Column 3 from Row 17 up to the stairs at (3, 6) (visually open and expected unblocked).
 
 <hr>
 
