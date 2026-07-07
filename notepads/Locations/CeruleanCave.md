@@ -101,7 +101,18 @@
   - The unblocked on-foot path from (1, 3) to the stairs down to B1F at (0, 6) is:
     - (1, 3) -> Right to (2, 3) -> Down to (2, 4) -> Right to (5, 4) -> Down 2 steps to (5, 6) -> Left to (2, 6) -> Down to (2, 7) -> Left to (0, 7) -> Up 1 step onto the stairs at (0, 6).
   - Descending the stairs at (0, 6) on 1F Northwest transitions the player to B1F (Map 0_227) at (3, 6).
-- **Basement Navigation**: Once on B1F, navigate the basement maze to locate and capture Mewtwo.
+- **B1F Exploration Metrics**:
+  - **Start Turn**: 147684
+  - **Start Timestamp**: Tuesday, July 7, 2026 at ~6:15 AM PDT
+- **B1F Verified Layout, Cliffs & Obstacles**:
+  - **Stairs to 1F**: Located at (3, 6) (labeled TYPE_3fe2).
+  - **Walkable Floor Types**: Both TYPE_3fe2 (brown rocky floor) and TYPE_2770 (purple/blue rocky floor) are standard walkable land tiles on B1F.
+  - **Elevation Cliff Walls**: There is a solid, impassable horizontal cliff wall/ledge running along the bottom edge of Row 5 (separating Row 5's brown floor and Row 6's purple floor) across at least Columns 12 to 16. Attempting to walk Down from (16, 5) to (16, 6) on Turn 147711 resulted in a BUMP, proving it is a solid cliff wall in both directions.
+  - **Staircases/Ramps (TYPE_4b8d)**:
+    - **Staircase 1**: Located at (13, 3). Connects Row 2 (upper purple) to Row 4 (lower brown) on foot.
+    - **Staircase 2**: Located at (19, 3). Connects Row 2 (upper purple) to Row 4 (lower brown) on foot.
+  - **Item Ball 1**: Located at (18, 1) in the northern pocket. Collected on Turn 147717 facing Up from (18, 2), yielding a MAX REVIVE.
+  - **Item Ball 2**: Located at (16, 9) on the purple floor. Currently uncollected.
 - **Mewtwo Battle Prep**: As we enter B1F, we will use our specialized custom agent 'mewtwo_combat_strategist' to plan the battle and capture strategy. We currently have 1 Master Ball in our bag, which guarantees a 100% catch rate! We also have 1 Ultra Ball. We will use the Master Ball to safely and instantly catch Mewtwo!
 - **Verification of (4, 4) Blockage (Turn 131464)**: Standing at (4, 3) facing Left and pressing Down. Result: BUMP (visited 0 tiles). This conclusively disproves on-foot passage through (4, 4) on 2F West. Row 4 is completely impassable on 2F West.
 - **Verified Blockages on 1F (Map 0_228) (Migrated on Turn 132122)**:
