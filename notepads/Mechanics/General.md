@@ -170,3 +170,8 @@
 
 ## Fly Map Navigation (Verified Turn 111416)
 - On the FLY map, pressing Left or Right is a no-op. The map locations are scrolled linearly as a list strictly using UP and DOWN, as indicated by the ▲ and ▼ icons on the top-right of the screen.
+
+## Gen 1 Surf Dismounting Mechanics (Verified Turn 147916)
+- **Dismounting directly onto land**: In Generation 1, directional buttons always bump against standard land while surfing. Attempting to press a directional button towards walkable land (such as pressing Down from (26, 11) onto (26, 12) on Turn 147858) will result in a BUMP and fail to dismount.
+- **Manual Dismount Protocol**: To dismount Surf directly onto any walkable standard land tile (such as TYPE_2770 or TYPE_3fe2), you must face the land tile and press **`A`** to trigger a manual overworld dismount interaction, rather than pressing a direction button towards it.
+- **Staircase/Ramp Dismount**: Dismounting onto stairs/ramps (TYPE_4b8d) is a built-in automated collision exception. If you press a directional button towards a staircase/ramp tile (such as pressing Up from (26, 16) towards (26, 15) on Turn 147864), you will automatically dismount onto the stairs on foot.
