@@ -10189,30 +10189,6 @@ We have permanently migrated our verified Column 0 pocket passability record to 
 
 <hr>
 
-<h1><code>Scratchpad/Mewtwo_Unexplored_Bypasses</code></h1>
-
-# Unverified Hypotheses for Cerulean Cave B1F Access
-
-All other previous hypotheses have been systematically tested and empirically disproven. Hypothesis 6 remains the single active hypothesis to test.
-
-## Hypothesis 8: Column 1 Row 8 (1, 8) On-Foot Passability on Map 0_226 (2F West)
-- **Premise**: Column 1 Row 8 (1, 8) on Map 0_226 is actually open and passable on foot, allowing the southwest pocket to connect to the northern area.
-- **Topological Impact**: Connects Southwest Ladder 6 to the Northwest Ladder (1, 3).
-- **Test Results**: Disproven on Turn 146235. Tested (1, 8) by pressing Up from (1, 9) and bumped.
-
-## Disproven Hypotheses Archive
-- **Hypothesis 1 (Column 1 Rows 10-11 on 2F West)**: Disproven. Tested (1, 11) and (1, 10) on Turns 143319 and 143327 and bumped.
-- **Hypothesis 2 (Column 0 on 2F West)**: Disproven. Unreachable due to Koga's southwest pocket isolation.
-- **Hypothesis 3 (Hidden water/land passage on 1F Northwest)**: Disproven. Tested (4, 1), (4, 0), (4, 2) on Turns 144736-144740 and bumped.
-- **Hypothesis 4 (Western Canal Surf Boarding at 3,12)**: Disproven. Walked onto (4, 12) on Turn 144975 and found it is dry land, and (5, 12)-(6, 12) are solid rock.
-- **Hypothesis 5 (Row 6 On-Foot Crossover on 2F West)**: Disproven/untestable on foot on Turn 145433.
-- **Hypothesis 7 (2F West Column 17 Row 7)**: Disproven. Tested on Turn 145430 and bumped.
-- **Hypothesis 8 (Column 1 Row 8 on 2F West)**: Disproven. Tested on Turn 146235 and bumped.
-- **Hypothesis 9 (Column 7 Row 10 on water)**: Disproven. Tested on Turn 146269 and bumped.
-- **Hypothesis 10 (Column 4 Surf Boarding from Southwest Platform)**: Disproven. Walked onto (4, 11) on Turn 146517 and found it is dry land, not water.
-
-<hr>
-
 <h1><code>Reflection/Turn143300_Reflection</code></h1>
 
 # 50-Turn Self-Assessment & Reflection (Turn 143768)
