@@ -8301,6 +8301,13 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 147291: Walked Left to (21, 4), Down to (21, 5), Left to (20, 5), and Down to (20, 6) on foot on Map 0_226.
 - Turn 147294: Walked Left to (19, 6) and Down to (19, 7) on foot, taking Ladder 3 to warp DOWN to Map 0_228 at (18, 9) on Turn 147295.
 - Turn 147303: Standing on foot at (18, 9) on Map 0_228, facing Up.
+- Turn 147312: Walked Left 3 steps along Row 9 on foot from (18, 9) to (15, 9), where a wild Hypno was encountered and fled from.
+- Turn 147314: Walked Left 4 steps along Row 9 on foot to (11, 9).
+- Turn 147315: Walked Down 4 steps along Column 11 to (11, 13) [Water Ramp 2].
+- Turn 147321: Opened Start menu and selected GEMMY -> SURF to enter the water canal at (11, 14).
+- Turn 147327: Surfed Left 2 steps along Row 14 from (11, 14) to (9, 14).
+- Turn 147328: Surfed Up 4 steps along Column 9 to (9, 10).
+- Turn 147338: Surfing at (9, 10) on Map 0_228.
 
 <hr>
 
