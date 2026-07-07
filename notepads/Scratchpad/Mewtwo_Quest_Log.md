@@ -92,3 +92,12 @@
 - Turn 147355: Walked Left 1 step from (13, 1) to (12, 1) on foot, where a wild Hypno was encountered and fled from.
 - Turn 147357: Walked Left 5 steps from (12, 1) to (7, 1) [Ladder 5] on foot, warping UP to Map 0_226 (2F West) at (9, 1).
 - Turn 147360: Standing on foot at (9, 1) on Map 0_226.
+- Turn 147339: Surfed Up along Column 9 to (9, 7) on water.
+- Turn 147345: Surfed Right along Row 7 to (15, 7).
+- Turn 147346: Surfed Up to Water Ramp 4 at (15, 3), dismounting onto land on foot on Turn 147347.
+- Turn 147350: Walked to (13, 1) on foot.
+- Turn 147355: Walked to (12, 1) and fled wild Hypno battle on Turn 147356.
+- Turn 147357: Walked to (7, 1) and warped UP Ladder 5 to Map 0_226 at (9, 1) on Turn 147358.
+- Turn 147374: Walked to (9, 1) and warped DOWN Ladder 5 to Map 0_228 at (7, 1) on Turn 147377, fleeing wild Kadabra at (8, 1) on Turn 147375.
+- Turn 147385: Walked to Water Ramp 4 at (15, 3), fleeing wild Hypno at (13, 1) on Turn 147384.
+- Turn 147395: Activated Surf at (15, 3) to board water at (15, 4) on Turn 147396, and surfed to (15, 7) on Turn 147397.
