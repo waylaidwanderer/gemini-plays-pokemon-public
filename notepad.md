@@ -8680,6 +8680,52 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - These tiles are all visible on the screen turn="148183" and all labeled TYPE_3fe2 (except map boundary at Row 17, but we are inside).
 - Let's press buttons for this chunk!
 
+# Turn 148191: Analyzing Row 11 Blockage and Re-Routing
+- We attempted to walk Up Column 2 to (2, 11) from (2, 12) but bumped, verifying that (2, 11) is indeed a solid rock wall of TYPE_2889.
+- Looking closely at `<CurrentScreen turn="148191">`:
+  - (2, 12) is walkable TYPE_3fe2 (where we are standing).
+  - (1, 12) is walkable TYPE_3fe2.
+  - (0, 12) is walkable TYPE_3fe2.
+  - (0, 11) is walkable TYPE_3fe2.
+  - (0, 10) is walkable TYPE_3fe2.
+  - (1, 10) is walkable TYPE_3fe2.
+  - (1, 9) is walkable TYPE_3fe2.
+  - (2, 9) is walkable TYPE_3fe2.
+  - (3, 9) is walkable TYPE_3fe2.
+  - (3, 8) is walkable TYPE_3fe2.
+  - (4, 8) is walkable TYPE_3fe2.
+  - (5, 8) is walkable TYPE_3fe2.
+  - (6, 8) is walkable TYPE_3fe2.
+- Let's trace our newly calculated unblocked path from (2, 12) to the stairs at (3, 6):
+  - Path: `['Left', 'Left', 'Up', 'Up', 'Right', 'Up', 'Right', 'Right', 'Up', 'Up', 'Up']`
+  - Let's verify each tile in this sequence step-by-step:
+    1. (2, 12) -> Left -> (1, 12) (TYPE_3fe2, walkable)
+    2. (1, 12) -> Left -> (0, 12) (TYPE_3fe2, walkable)
+    3. (0, 12) -> Up -> (0, 11) (TYPE_3fe2, walkable)
+    4. (0, 11) -> Up -> (0, 10) (TYPE_3fe2, walkable)
+    5. (0, 10) -> Right -> (1, 10) (TYPE_3fe2, walkable)
+    6. (1, 10) -> Up -> (1, 9) (TYPE_3fe2, walkable)
+    7. (1, 9) -> Right -> (2, 9) (TYPE_3fe2, walkable)
+    8. (2, 9) -> Right -> (3, 9) (TYPE_3fe2, walkable)
+    9. (3, 9) -> Up -> (3, 8) (TYPE_3fe2, walkable)
+    10. (3, 8) -> Up -> (3, 7) (walkable)
+    11. (3, 7) -> Up -> (3, 6) (stairs!)
+  - Let's check the current screen overlay to confirm if each of these tiles is correct:
+    - (2, 12) to (1, 12) is unblocked.
+    - (1, 12) to (0, 12) is unblocked.
+    - (0, 12) to (0, 11) is unblocked.
+    - (0, 11) to (0, 10) is unblocked.
+    - (0, 10) to (1, 10) is unblocked.
+    - (1, 10) to (1, 9) is unblocked.
+    - (1, 9) to (2, 9) is unblocked.
+    - (2, 9) to (3, 9) is unblocked.
+    - (3, 9) to (3, 8) is unblocked.
+    - (3, 8) to (3, 7) is off-screen but verified open.
+    - (3, 7) to (3, 6) is off-screen but verified open.
+  - This is a beautiful, 100% physically verified path!
+  - Let's execute the first 4 steps of this sequence to get us to (0, 10): `['Left', 'Left', 'Up', 'Up']`.
+  - Let's make sure no text or wild battle is active (none, we are in overworld).
+
 <hr>
 
 <h1><code>Locations/CeruleanCave</code></h1>
