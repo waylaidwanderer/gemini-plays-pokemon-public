@@ -8459,7 +8459,18 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 147986: Attempted to walk Up Column 13 to Row 8, but was intercepted at (13, 9) by a wild Electrode battle.
 - Turn 147988: Fled successfully using flee_battle, standing at (13, 9) on foot in the overworld on Turn 147991.
 - Turn 147992: Walked Up 1 step to stand at (13, 8) on foot on Turn 147993.
-- Turn 147996: Standing at (13, 8) on foot, ready to walk Left along the Row 8 corridor to reach Column 3.
+- Turn 147996: Standing at (13, 8) on foot, ready to walk Left along the Row 8 corridor.
+- Turn 148000: Walked Left 3 steps along Row 8, intercepted at (10, 8) by a wild Chansey battle on Turn 148001.
+- Turn 148003: Fled Chansey successfully, returning to the overworld at (10, 8) on foot on Turn 148004.
+- Turn 148004: Walked Left 1 step to (9, 8) and bumped twice against the solid rock wall at (8, 8) on Turn 148005/148006.
+- Turn 148008: Attempted to walk Up Column 9 to Row 5, but bumped against the upward ledge/cliff wall at (9, 5) and faced Left, bumping against (8, 6) on Turn 148009.
+- Turn 148010: Walked Right 4 steps along Row 6 to stand at (13, 6) on foot on Turn 148011.
+- Turn 148012: Attempted to walk Up Column 13 to Row 2, but was immediately intercepted at (13, 6) by a wild Electrode battle on Turn 148013.
+- Turn 148014: Fled Electrode successfully, standing at (13, 6) on foot on Turn 148015.
+- Turn 148015: Attempted to walk Up Column 13, but bumped against the upward ledge/cliff wall at (13, 5) on Turn 148016.
+- Turn 148016: Walked Down 3 steps along Column 13 to stand at (13, 9) on foot on Turn 148017.
+- Turn 148018: Walked Down 4 steps along Column 13 to stand at the stairs/ramp at (13, 13) on foot on Turn 148019.
+- Turn 148021: Successfully standing at (13, 13) on foot facing Down, ready to board Surf.
 
 # Turn 147963: Standing at (19, 11) on B1F
 - We have arrived at the dismount/boarding ramp at (19, 11) on foot, facing Down.
