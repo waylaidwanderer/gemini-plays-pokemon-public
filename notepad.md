@@ -10440,3 +10440,34 @@ Our custom tool `cave_bfs_solver` has been successfully updated on Turn 144660 t
   5. If successful, we will board Surf on the western canal and navigate directly to Mewtwo! This is our path to victory!
 
 <hr>
+
+<h1><code>Reflection/Turn147458_Reflection</code></h1>
+
+# Turn 147458 Reflection & Self-Assessment
+
+## 1. Progress and Deferred Tasks Over the Last 50 Turns
+- **Progress**: Successfully navigated on foot on Map 0_228 (1F), dismounted Surf at Water Ramp 2 (11, 13), walked to the central platform stairs, descended to the ground floor, walked Left along the Row 17 southern bypass, climbed the wooden stairs to the southwest platform, and took Southwest Ladder 6 to warp UP to Map 0_226 (2F West) at (3, 11).
+- **Current Task**: We are standing at (3, 11) on 2F West. We are actively heading to (1, 12) via the central-southern bypass (Row 9 -> Column 9 -> Row 17 -> Column 1 -> Row 12) to test Column 0 and test the passability of (1, 4) and (2, 4) on Row 4 from the south!
+
+## 2. Differentiating Facts from Assumptions
+- **Assumption 1**: Row 14 is open from Column 9 to Column 2 on 2F West.
+  - *Result*: FALSE. Screen turn 147458 shows that (7, 14), (6, 14), (4, 14), and (3, 14) are solid rock walls of TYPE_2889.
+  - *Correction*: We must route via Row 17, which is a verified open horizontal bypass on 2F West.
+- **Assumption 2**: Column 1 Row 4 (1, 4) and Column 2 Row 4 (2, 4) are solid rock walls.
+  - *Status*: UNTESTED. This is our active hypothesis (Socratic Challenge 1). We will stand at (1, 5) or (2, 5) and press Up to test them empirically.
+- **Assumption 3**: Column 7 Row 4 or 5 is completely blocked.
+  - *Status*: UNTESTED. This is our secondary active hypothesis (Socratic Challenge 2). We will test surfing Left onto Column 7 on Rows 4 and 5 in the central canal of 1F.
+
+## 3. Five Potential Custom Tools / Agents for B1F Mewtwo
+1. `b1f_bfs_pathfinder` (Custom Tool): A BFS pathfinder specifically designed for Map 0_227 (B1F) to compute obstacle-free overworld routes.
+2. `b1f_terrain_mapper` (Custom Tool): A parsing script to track and log walkable versus solid coordinates on B1F as we explore.
+3. `mewtwo_combat_strategist` (Custom Agent): A specialized reasoning agent to manage Pikachu's paralysis support and our guaranteed 100% Master Ball capture on Mewtwo.
+4. `mewtwo_item_validator` (Custom Agent): An agent to verify inventory status and confirm when to execute the escape sequence or item use.
+5. `wild_battle_escape_automator` (Custom Tool): An automated flee script specifically tuned for Cerulean Cave wild encounters to preserve HP/PP.
+
+## 4. Map & Goal Clarity
+- **Primary Goal**: Catch Mewtwo on B1F of Cerulean Cave (outcome-focused).
+- **Secondary Goal**: Navigate to (1, 12) on Map 0_226 on foot to test Column 0 and Row 4 passability (outcome-focused).
+- **Methodology**: Documented in `Scratchpad/Mewtwo_Northwest_Path_Test` and `Scratchpad/Mewtwo_Crossover_Reevaluation`.
+
+<hr>
