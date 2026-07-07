@@ -8357,6 +8357,20 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 147589: Walked Left to (1, 17) and Up 2 steps to reach (1, 15) in Koga's southwest pocket on foot.
 - Turn 147594: Walked Right to (2, 15), Up 2 steps to (2, 13), Left to (1, 13), and Up 1 step to stand at (1, 12) on foot.
 - Turn 147603: Standing on foot at (1, 12) on Map 0_226.
+- Turn 147607: Walked Left from (1, 12) to (0, 12) on Map 0_226 on foot.
+- Turn 147609: Walked Up from (0, 12) to (0, 11) on Map 0_226 on foot.
+- Turn 147611: Walked Up from (0, 11) to (0, 10) on Map 0_226 on foot.
+- Turn 147614: Walked Up from (0, 10) to (0, 9) on Map 0_226 on foot.
+- Turn 147616: Attempted to walk Up from (0, 9) onto (0, 8), resulting in a BUMP on Turn 147617, proving (0, 8) is solid rock.
+- Turn 147618: Walked Right from (0, 9) onto (1, 9) on Map 0_226 on foot.
+- Turn 147619: Walked Up from (1, 9) onto (1, 8) on Map 0_226 on foot.
+- Turn 147621: Walked Up from (1, 8) onto (1, 7) on Map 0_226 on foot.
+- Turn 147624: Attempted to walk Up from (1, 7) onto (1, 6), resulting in a BUMP on Turn 147625, proving (1, 6) is solid rock.
+- Turn 147626: Attempted to walk Right from (1, 7) to (2, 7), but was intercepted by a wild Dodrio on Turn 147627. Fled successfully on Turn 147628.
+- Turn 147628: Walked Right from (1, 7) onto (2, 7) on Map 0_226 on foot.
+- Turn 147629: Attempted to walk Up from (2, 7) onto (2, 6), resulting in a BUMP on Turn 147630, proving (2, 6) is solid rock.
+- Turn 147633: Walked Right from (2, 7) onto (3, 7) on Map 0_226 on foot.
+- Turn 147635: Standing on foot at (3, 7) on Map 0_226.
 
 <hr>
 
