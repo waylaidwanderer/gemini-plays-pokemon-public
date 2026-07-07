@@ -228,3 +228,9 @@
 - However, Row 12 and Row 13 are open to Column 2, and Column 2 connects Down to Row 15.
 - Row 15 and Row 16 form a completely open horizontal corridor leading east across Columns 2, 3, 4, 5 and beyond.
 - We will navigate along this bottom corridor to explore the southern and eastern parts of B1F.
+
+# Turn 147755: Systematic Test of Column 0 Row 13 on B1F
+- We systematically tested the boundary constraint at Column 0 Row 13 to satisfy the overwatch Socratic Challenge and the Burden of Proof.
+- **Protocol**: Stood on foot at (0, 12) facing Down in the overworld on Map 0_227. Pressed Down once on Turn 147754.
+- **Result**: BUMP (visited 0 tiles, player coordinate remained at (0, 12) on Turn 147755 facing Down).
+- **Conclusion**: This physical collision empirically and conclusively proves that (0, 13) is a solid, impassable rock wall of TYPE_2889 on foot on Map 0_227 (B1F). There is no false-positive opening here, verifying that Column 0 is blocked on B1F south of Row 12.
