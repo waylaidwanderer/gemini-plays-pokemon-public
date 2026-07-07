@@ -10121,7 +10121,7 @@ Since all other shortcuts have been disproven, we must now execute our systemati
 4. **Map Markers & Custom Tools**:
    - We will define a map marker at (22, 5) on Map 0_226 as solid rock: `🚫 (22, 5) solid rock wall on 2F West`.
    - We identified a water-ramp start-state bug in `cave_bfs_solver` and will keep performing manual surfing transitions or redefine the tool in subsequent turns once we have settled on B1F. For now, manual overworld navigation has been executed with 100% precision.
-- Current Status: Standing on foot at (11, 12) on Map 0_228 (1F Southwest) on Turn 147241, facing Up.
+- Current Status: Standing on foot at (18, 9) on Map 0_228 (1F) on Turn 147304, facing Up.
 
 <hr>
 
