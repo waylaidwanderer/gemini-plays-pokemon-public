@@ -228,7 +228,7 @@
 # Turn 147980: Standing on foot at (13, 13) on B1F
 - We have successfully navigated the central water canal, dismounting onto the stairs at (13, 13) on foot.
 - Our next objective is to walk on foot from (13, 13) back to the stairs to 1F at (3, 6).
-- Let's check our on-foot pathing back to (3, 6).
+- Turn 147986: Attempted to walk Up Column 13 to Row 8, but was intercepted at (13, 9) by a wild Electrode battle.
 
 # Turn 147963: Standing at (19, 11) on B1F
 - We have arrived at the dismount/boarding ramp at (19, 11) on foot, facing Down.
