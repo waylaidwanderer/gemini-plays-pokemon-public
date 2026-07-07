@@ -497,3 +497,42 @@
   - This is a beautiful, 100% physically verified path!
   - Let's execute the first 4 steps of this sequence to get us to (0, 10): `['Left', 'Left', 'Up', 'Up']`.
   - Let's make sure no text or wild battle is active (none, we are in overworld).
+
+# Turn 148198: Visually Correcting the Solver's Path
+- We visually verified the current screen at `<CurrentScreen turn="148198">` and noticed that `(5, 9)` is a solid rock wall labeled `TYPE_2889`.
+- The solver's path had: `(3, 9) -> Right -> (4, 9) -> Right -> (5, 9)`, which would have bumped at `(5, 9)`.
+- However, `(5, 8)` is labeled `TYPE_3fe2` (walkable), meaning we can bypass the solid rock at `(5, 9)` by moving Up to Row 8 first.
+- Let's trace our corrected 17-step path from (0, 10) to the stairs at (3, 6):
+  1. (0, 10) -> Right -> (1, 10) (TYPE_3fe2, walkable)
+  2. (1, 10) -> Up -> (1, 9) (TYPE_3fe2, walkable)
+  3. (1, 9) -> Right -> (2, 9) (TYPE_3fe2, walkable)
+  4. (2, 9) -> Right -> (3, 9) (TYPE_3fe2, walkable)
+  5. (3, 9) -> Up -> (3, 8) (TYPE_3fe2, walkable)
+  6. (3, 8) -> Right -> (4, 8) (TYPE_3fe2, walkable)
+  7. (4, 8) -> Right -> (5, 8) (TYPE_3fe2, walkable)
+  8. (5, 8) -> Right -> (6, 8) (TYPE_3fe2, walkable)
+  9. (6, 8) -> Up -> (6, 7) (walkable)
+  10. (6, 7) -> Right -> (7, 7) (walkable)
+  11. (7, 7) -> Up -> (7, 6) (walkable)
+  12. (7, 6) -> Up -> (7, 5) (walkable)
+  13. (7, 5) -> Left -> (6, 5) (walkable)
+  14. (6, 5) -> Left -> (5, 5) (walkable)
+  15. (5, 5) -> Left -> (4, 5) (walkable)
+  16. (4, 5) -> Left -> (3, 5) (walkable)
+  17. (3, 5) -> Down -> (3, 6) (stairs!)
+- Let's execute the first 5 steps: `['Right', 'Up', 'Right', 'Right', 'Up']` to reach `(3, 8)`.
+- Let's double check these 5 steps:
+  - Start: (0, 10)
+  - 'Right' -> (1, 10)
+  - 'Up' -> (1, 9)
+  - 'Right' -> (2, 9)
+  - 'Right' -> (3, 9)
+  - 'Up' -> (3, 8)
+- Let's check `<CurrentScreen turn="148198">` coordinates for these:
+  - (1, 10): TYPE_3fe2
+  - (1, 9): TYPE_3fe2
+  - (2, 9): TYPE_3fe2
+  - (3, 9): TYPE_3fe2
+  - (3, 8): TYPE_3fe2
+  - All 5 of these are indeed labeled TYPE_3fe2 and are completely unblocked!
+- Let's press buttons for this 5-step chunk!
