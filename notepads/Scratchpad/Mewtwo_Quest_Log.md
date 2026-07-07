@@ -311,9 +311,6 @@
 - We then walked Up 3 steps along Column 9 to Row 8, and Right 4 steps along Row 8 to reach (13, 8) on foot on Turn 147770.
 - We verified that Column 13 continues Down to (13, 12) (TYPE_2770) on foot.
 
-## B1F Unverified Theories & Predictions
-- (No active unverified theories. All explored routes and mechanics have been successfully verified.)
-
 ## Mewtwo Battle & Capture Execution Plan
 - **Pre-battle Verification**: We are standing on foot at (27, 14) facing Up. Mewtwo is directly above us at (27, 13).
 - **Mewtwo Level/Stats**: Level 70. Moves: Psychic, Swift, Barrier, Recover.
