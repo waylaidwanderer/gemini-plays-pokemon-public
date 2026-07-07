@@ -8482,10 +8482,33 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - We verified that Column 13 continues Down to (13, 12) (TYPE_2770) on foot.
 
 ## B1F Unverified Theories & Predictions
-- **Stairs at (13, 13)**: Labeled TYPE_4b8d on other maps. Strongly hypothesized to be a staircase connecting Column 13 Row 12 to a water canal at (13, 14) (TYPE_4e8c) directly below. Yet to be physically verified on foot.
-- **Water Canal at (13, 14)**: Strongly hypothesized to be standard swimmable water of TYPE_4e8c leading to Mewtwo's island. Yet to be physically boarded and verified.
-- Turn 147787: Successfully boarded Surf at (13, 14) on Map 0_227 (B1F).
-- Turn 147792: Standing on water at (13, 14) on B1F. Facing Down. Let's explore the eastern water channel leading to the north.
+- (No active unverified theories. All explored routes and mechanics have been successfully verified.)
+
+## Mewtwo Battle & Capture Execution Plan
+- **Pre-battle Verification**: We are standing on foot at (27, 14) facing Up. Mewtwo is directly above us at (27, 13).
+- **Mewtwo Level/Stats**: Level 70. Moves: Psychic, Swift, Barrier, Recover.
+- **Capture Strategy**: We have 1 MASTER BALL in our inventory pocket "Other". Master Ball guarantees 100% catch probability. We will throw it on Turn 1.
+- **Master Ball Inventory Index**:
+  1. CALCIUM
+  2. CARBOS
+  3. FULL HEAL
+  4. FULL RESTORE
+  5. IRON
+  6. MASTER BALL
+  - Since it is the 6th item in our bag, we will navigate down 5 times to select it.
+- **Button Input Sequences**:
+  - **Turn 1 Action Menu**:
+    - Default cursor is on FIGHT (top-left).
+    - Battle menu layout:
+      - FIGHT    ITEM
+      - POKéMON  RUN
+    - Press **Right** once to move the cursor from FIGHT to ITEM.
+    - Press **A** to select ITEM.
+  - **Bag Item Menu**:
+    - Default cursor is on the 1st item (CALCIUM).
+    - Press **Down** 5 times to highlight MASTER BALL.
+    - Press **A** to use/throw the MASTER BALL!
+    - This will safely and instantly capture Mewtwo on Turn 1 without resource loss!
 
 # Turn 147824: Systematic Passability Test of Row 3 Blockage
 - **Objective**: Test if Row 3 is a passable on-foot corridor connecting the left and right halves of the map.
