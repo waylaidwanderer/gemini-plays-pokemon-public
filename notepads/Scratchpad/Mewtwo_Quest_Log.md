@@ -183,3 +183,16 @@
 - This empirically and conclusively proves that TYPE_2770 is standard walkable land floor on B1F (Map 0_227), NOT water or solid rock wall.
 - This means B1F is wide open to explore on foot!
 - We will systematically map B1F and navigate towards Mewtwo's location.
+
+# Turn 147705: Exploring B1F (East of Stairs)
+- We walked Down the stairs/ramp at (13, 3) to reach Row 4 on foot, standing at (13, 4).
+- We triggered a wild PARASECT battle at (12, 2) on the way and fled successfully.
+- Visually mapping the eastern surroundings from the screen on Turn 147705:
+  - Row 2 and Row 1 are walkable TYPE_2770 corridors but are blocked horizontally at Column 15 by solid rocks (TYPE_2889).
+  - Row 3 features solid rocks of TYPE_2889 at Columns 9-12 and Columns 14-18, with the stairs/ramp at (13, 3) of TYPE_4b8d.
+  - Row 4 features standard floor of TYPE_3fe2 at Columns 10-13, and is blocked at Column 9 and Column 14.
+  - We can walk Down from (13, 4) to (13, 5) (TYPE_3fe2), then Down to (13, 6) (TYPE_2770).
+  - Row 6 and Row 7 are wide-open horizontal corridors of TYPE_2770 from Column 9 all the way east to Column 16.
+  - Column 17 is blocked on Rows 6-8 by solid rock walls of TYPE_2889.
+  - We see a Pokéball item ball at (18, 1) in a northern pocket!
+  - We will walk Down to Row 6/7 and explore eastwards to find how to access the item ball and navigate further into B1F.
