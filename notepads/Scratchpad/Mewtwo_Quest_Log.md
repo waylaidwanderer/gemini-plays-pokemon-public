@@ -152,6 +152,17 @@
 - Turn 147642: Walked Right from (3, 7) onto (4, 7) on Map 0_226 on foot.
 - Turn 147647: Walked Right from (4, 7) onto (5, 7) on Map 0_226 on foot.
 - Turn 147650: Standing on foot at (5, 7) on Map 0_226.
+- Turn 147651: Walked Right along Row 7 to (6, 7) on foot.
+- Turn 147653: Walked Right along Row 7 to (7, 7) on foot.
+- Turn 147655: Walked Right along Row 7 to (8, 7) on foot.
+- Turn 147657: Walked Right along Row 7 to (9, 7) on foot.
+- Turn 147671: Walked Left 3 steps along Row 7 to (6, 7) on foot.
+- Turn 147675: Walked Up 2 steps and Left 4 steps along Row 5 to (2, 5) on foot.
+- Turn 147678: Walked to (1, 3) and warped DOWN Southwest Ladder to 1F Northwest at (1, 3) on foot.
+- Turn 147681: Walked along Koga's northwestern 1F corridor to (5, 6) on foot.
+- Turn 147683: Walked along unblocked path to B1F stairs at (0, 6) and warped DOWN to Map 0_227 at (3, 6) on foot.
+- Turn 147687: Closed Start menu and walked Up 1 step onto (3, 5) on foot.
+- Turn 147693: Standing on foot at (3, 5) on Map 0_227.
 
 # Turn 147665: Discovering the Row 6 / Row 5 / Row 4 Crossover on 2F West!
 - We are at (9, 7).
