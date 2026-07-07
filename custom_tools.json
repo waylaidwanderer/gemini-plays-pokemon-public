@@ -1481,5 +1481,58 @@
         "action_counter": 112668
       }
     ]
+  },
+  "b1f_bfs_solver": {
+    "description": "A highly specialized BFS pathfinder tailored specifically for B1F (Map 0_227) of Cerulean Cave. It computes the shortest path between start (x,y) and target (x,y) under foot, surf, or auto-switching travel modes, handling B1F blockages, water channels, and staircases/ramps. Returns a JSON array of button strings.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "integer",
+          "description": "The starting X coordinate on B1F."
+        },
+        "start_y": {
+          "type": "integer",
+          "description": "The starting Y coordinate on B1F."
+        },
+        "target_x": {
+          "type": "integer",
+          "description": "The target X coordinate on B1F."
+        },
+        "target_y": {
+          "type": "integer",
+          "description": "The target Y coordinate on B1F."
+        },
+        "travel_mode": {
+          "type": "string",
+          "enum": [
+            "foot",
+            "surf",
+            "auto"
+          ],
+          "description": "Travel mode: 'foot' for walking only, 'surf' for surfing only, 'auto' for automatic boarding and dismounting."
+        },
+        "autopress_buttons": {
+          "type": "boolean",
+          "description": "If true, the system will automatically press the buttons in sequence."
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "target_x",
+        "target_y",
+        "travel_mode",
+        "autopress_buttons"
+      ]
+    },
+    "python_script": "import json\nimport collections\n\n# Get inputs\nstart_x = int(input_data.get('start_x'))\nstart_y = int(input_data.get('start_y'))\ntarget_x = int(input_data.get('target_x'))\ntarget_y = int(input_data.get('target_y'))\ntravel_mode = input_data.get('travel_mode', 'auto')\n\n# Grid initialization (30 columns x 18 rows)\n# 'L' = Walkable land, 'W' = Water, 'S' = Stairs/Ramps, 'O' = Solid obstacle\ngrid = [['L' for _ in range(30)] for _ in range(18)]\n\n# Water channels (X: 11-15, Y: 14-15)\nfor x in range(11, 16):\n    for y in [14, 15]:\n        grid[y][x] = 'W'\n\n# Eastern water canal\nfor y in range(8, 10):\n    for x in [26, 27]:\n        grid[y][x] = 'W'\nfor y in range(10, 12):\n    for x in range(22, 28):\n        grid[y][x] = 'W'\nfor y in range(12, 18):\n    for x in [22, 23]:\n        grid[y][x] = 'W'\n\n# Staircases/ramps (TYPE_4b8d)\nramps = [\n    (13, 3), (19, 3), (19, 11), (13, 13), (27, 7)\n]\nfor x, y in ramps:\n    grid[y][x] = 'S'\n\n# Solid obstacles (TYPE_2889)\nsolids = [\n    (20, 4), (21, 4), (22, 4), (25, 4), (26, 4), (29, 4),\n    (20, 5), (21, 5), (22, 5), (25, 5), (26, 5), (29, 5),\n    (22, 6), (23, 6), (25, 6), (26, 6), (29, 6),\n    (21, 7), (22, 7), (23, 7), (25, 7), (26, 7), (28, 7), (29, 7),\n    (25, 8), (28, 8), (29, 8),\n    (21, 9), (22, 9), (23, 9), (25, 9), (28, 9), (29, 9),\n    (21, 10), (28, 10), (29, 10),\n    (20, 11), (21, 11), (28, 11), (29, 11),\n    (20, 12), (21, 12), (24, 12), (29, 12)\n]\nfor x, y in solids:\n    grid[y][x] = 'O'\n\ndef can_move(x1, y1, x2, y2, mode):\n    if x2 < 0 or x2 >= 30 or y2 < 0 or y2 >= 18:\n        return False\n    t1 = grid[y1][x1]\n    t2 = grid[y2][x2]\n    if t2 == 'O':\n        return False\n    # Cliff wall separating Row 5 and 6 at Columns 12 to 16\n    if (y1 == 5 and y2 == 6) or (y1 == 6 and y2 == 5):\n        if 12 <= x1 <= 16:\n            return False\n\n    if mode == 'foot':\n        return t2 in ('L', 'S')\n    elif mode == 'surf':\n        if t1 == 'W' and t2 == 'W':\n            return True\n        if t1 == 'W' and t2 == 'S':\n            return True\n        if t1 == 'S' and t2 == 'W':\n            return True\n        return False\n    elif mode == 'auto':\n        if t1 in ('L', 'S') and t2 in ('L', 'S'):\n            return True\n        if t1 == 'W' and t2 == 'W':\n            return True\n        if t1 == 'W' and t2 == 'S':\n            return True\n        if t1 == 'S' and t2 == 'W':\n            return True\n        return False\n\n# BFS\nqueue = collections.deque([(start_x, start_y, [])])\nvisited = set([(start_x, start_y)])\npath_found = None\n\nwhile queue:\n    cx, cy, path = queue.popleft()\n    if cx == target_x and cy == target_y:\n        path_found = path\n        break\n    directions = [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]\n    for dx, dy, move in directions:\n        nx, ny = cx + dx, cy + dy\n        if (nx, ny) not in visited:\n            if can_move(cx, cy, nx, ny, travel_mode):\n                visited.add((nx, ny))\n                queue.append((nx, ny, path + [move]))\n\nprint(json.dumps(path_found if path_found is not None else []))\n",
+    "history": [
+      {
+        "commit_message": "Define a reusable, tailored BFS pathfinding tool for B1F of Cerulean Cave (Map 0_227).",
+        "timestamp": "2026-07-07T14:32:33.339Z",
+        "action_counter": 147815
+      }
+    ]
   }
 }
