@@ -8610,6 +8610,18 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Objective: Safely exit Cerulean Cave and celebrate our historic victory! We will navigate back to the stairs at (3, 6) to return to 1F, then head to the exit at (24, 17) on 1F.
 - Turn 148071: Successfully boarded Surf from the stairs at (19, 11) onto (19, 12) on the water. Now heading Down 4 steps along Column 19 to (19, 16) on Surf.
 - Turn 148105: Successfully boarded Surf at (13, 13) to reach (13, 14) on water, facing Down. Ready to swim east to (19, 11) using the U-shaped water canal.
+- Turn 148047: Fled successfully from the wild Marowak battle, standing at (19, 8) in the overworld facing Up.
+- Turn 148048: Walked Down 3 steps along Column 19 to reach (19, 11) on foot on Turn 148061.
+- Turn 148064: Opened Start menu and navigated to POKéMON.
+- Turn 148066: Selected GEMMY -> SURF, successfully boarding the water canal at (19, 12) on Surf on Turn 148071.
+- Turn 148072: Surfed Down 4 steps along Column 19 to stand at (19, 16) on Surf on Turn 148073.
+- Turn 148074: Surfed Left 5 steps along Row 16 to stand at (14, 16) on Surf on Turn 148075.
+- Turn 148076: Surfed Up to (14, 15), Left to (13, 15), Up to (13, 14), and Up to automatically dismount onto the stairs at (13, 13) on foot on Turn 148077.
+- Turn 148083: Standing on foot at (13, 13) facing Down. Verified that Column 8 acts as a solid rock barrier, so we must loop back via the upper level to exit.
+- Turn 148100: Pressed Down once to turn and face the water at (13, 14) in the overworld.
+- Turn 148101: Opened Start menu and selected POKéMON -> GEMMY -> SURF on Turn 148104, boarding water at (13, 14) on Surf on Turn 148105.
+- Turn 148107: Surfed Right 2 steps to (15, 14) and Down 2 steps to stand at (15, 16) on Surf on Turn 148108.
+- Turn 148109: Surfed Right 4 steps along Row 16 to stand at (19, 16) on Surf on Turn 148111.
 
 <hr>
 
