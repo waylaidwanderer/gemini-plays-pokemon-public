@@ -221,3 +221,10 @@
 - Column 22 is also a solid rock wall of TYPE_2889 on Rows 0-5.
 - This thick vertical rock wall completely isolates this northern pocket (Columns 17-20, Rows 0-2) from the far-east region of B1F (Column 23+).
 - We will backtrack to the staircase at (19, 3) / (13, 3) and explore the lower ground corridors to the south.
+
+# Turn 147749: Reached (0, 12) and Discovered Bottom Corridor on B1F
+- We walked Down along Column 0 and arrived at (0, 12) on foot on Turn 147749.
+- We discovered that Column 0 is blocked at Row 13 by a solid rock wall of TYPE_2889.
+- However, Row 12 and Row 13 are open to Column 2, and Column 2 connects Down to Row 15.
+- Row 15 and Row 16 form a completely open horizontal corridor leading east across Columns 2, 3, 4, 5 and beyond.
+- We will navigate along this bottom corridor to explore the southern and eastern parts of B1F.
