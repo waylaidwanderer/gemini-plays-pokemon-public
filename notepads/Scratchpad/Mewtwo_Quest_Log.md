@@ -1,7 +1,7 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (0, 12) on Map 0_227 (B1F) on Turn 147751.
+- Current Status: Standing on foot at (13, 8) on Map 0_227 (B1F) on Turn 147784.
 
-## Active Backtracking Log (Turns 145822 - 147332)
+## Active Backtracking Log (Turns 145822 - 147770)
 - Turn 145822: Closed Start menu by pressing B. Player is now standing on foot at (10, 2) facing Down in the overworld. Ready to walk Left to (5, 2) to test Column 4 Surf boarding (Hypothesis 8 / Socratic Challenge).
 - Turn 145841: Successfully walked to (11, 2) on Map 0_228 on foot, facing Down.
 - Turn 145846: Selected POKéMON -> GEMMY -> SURF. Result: FAILED with "No SURFing on GEMMY here!", proving (11, 3) on Map 0_228 is a solid rock wall of TYPE_2889. Defined map marker.
@@ -92,13 +92,6 @@
 - Turn 147355: Walked Left 1 step from (13, 1) to (12, 1) on foot, where a wild Hypno was encountered and fled from.
 - Turn 147357: Walked Left 5 steps from (12, 1) to (7, 1) [Ladder 5] on foot, warping UP to Map 0_226 (2F West) at (9, 1).
 - Turn 147360: Standing on foot at (9, 1) on Map 0_226.
-- Turn 147339: Surfed Up along Column 9 to (9, 7) on water.
-- Turn 147345: Surfed Right along Row 7 to (15, 7).
-- Turn 147346: Surfed Up to Water Ramp 4 at (15, 3), dismounting onto land on foot on Turn 147347.
-- Turn 147350: Walked to (13, 1) on foot.
-- Turn 147355: Walked to (12, 1) and fled wild Hypno battle on Turn 147356.
-- Turn 147357: Walked to (7, 1) and warped UP Ladder 5 to Map 0_226 at (9, 1) on Turn 147358.
-- Turn 147374: Walked to (9, 1) and warped DOWN Ladder 5 to Map 0_228 at (7, 1) on Turn 147377, fleeing wild Kadabra at (8, 1) on Turn 147375.
 - Turn 147385: Walked to Water Ramp 4 at (15, 3), fleeing wild Hypno at (13, 1) on Turn 147384.
 - Turn 147395: Activated Surf at (15, 3) to board water at (15, 4) on Turn 147396, and surfed to (15, 7) on Turn 147397.
 - Turn 147430: Surfed Left along Row 7 crossover to (9, 7).
@@ -173,6 +166,22 @@
 - Turn 147716: Walked Up to (19, 2), Left to (18, 2), and Up against (18, 1) to face the item ball.
 - Turn 147717: Pressed A to interact with the item ball at (18, 1), finding a MAX REVIVE!
 - Turn 147721: Standing at (18, 2) on foot.
+- Turn 147725: Walked Right along Row 2 to reach (20, 2) on foot. Tested Column 21 at (21, 2) and bumped, proving (21, 2) is a solid rock wall on B1F.
+- Turn 147727: Backtracked Left and Down the stairs at (19, 3) to reach (19, 4), where a wild Rhydon appeared on Turn 147728, and fled successfully.
+- Turn 147731: Walked Left along Row 4 and Down to Row 5, and Left along Row 5 to Column 13 to stand at (13, 5) on foot.
+- Turn 147733: Walked Left 3 steps along Row 5 to reach (10, 5) on foot.
+- Turn 147736: Pressed Down from (10, 5) to test (10, 6) and bumped, proving (10, 6) is blocked by the cliff.
+- Turn 147737: Walked Left 3 steps along Row 5 to reach (7, 5) on foot.
+- Turn 147740: Walked Down 1 step from (7, 5) to (7, 6) on foot, proving Column 7 is passable.
+- Turn 147744: Walked Down 1 step from (7, 6) to (7, 7) on foot, reaching the lower ground corridor.
+- Turn 147745: Walked Left to (6, 7), Down to (6, 8), and Left 3 steps along Row 8 to reach (3, 8) on foot.
+- Turn 147748: Walked Down 1 to (3, 9), Left 2 to (1, 9), Down 1 to (1, 10), Left 1 to (0, 10), and Down 2 steps along Column 0 to arrive at (0, 12) on foot on Turn 147749.
+- Turn 147754: Pressed Down from (0, 12) facing Down to test (0, 13). Result: BUMP (visited 0 tiles, player coordinate remained at (0, 12) on Turn 147755 facing Down), conclusively proving Column 0 is blocked south of Row 12.
+- Turn 147759: Walked Right 2 steps to (2, 12), Down 3 steps to (2, 15), and Right along the Row 17 bypass to reach (3, 15) on foot on Turn 147760.
+- Turn 147763: Walked Down 2 steps to (3, 17), Right 3 steps to (6, 17), Up 2 steps to (6, 15), and Right 1 step to reach (7, 15) on foot on Turn 147764.
+- Turn 147767: Walked Up 1 step to (7, 14), Right 2 steps to (9, 14), and Up 3 steps through the stairs at (9, 13) to reach (9, 11) on foot on Turn 147768.
+- Turn 147769: Walked Up 3 steps along Column 9 and Right 4 steps along Row 8 to stand at (13, 8) on foot on Turn 147770.
+- Turn 147784: Standing at (13, 8) on foot.
 
 # Turn 147665: Discovering the Row 6 / Row 5 / Row 4 Crossover on 2F West!
 - We are at (9, 7).
@@ -238,5 +247,8 @@
 # Turn 147770: Reached Column 13 Row 8 Corridor on B1F
 - We walked Up 1, Right 2, and Up 3 steps along Column 9 and Row 14, climbing the stairs at (9, 13) to reach (9, 11) on foot on Turn 147767.
 - We then walked Up 3 steps along Column 9 to Row 8, and Right 4 steps along Row 8 to reach (13, 8) on foot on Turn 147770.
-- We verified that Column 13 continues Down to (13, 12) (TYPE_2770) and a staircase at (13, 13) (TYPE_4b8d) which leads directly into a central water canal at (13, 14) (TYPE_4e8c).
-- We will navigate Down along Column 13 to stand at (13, 13) and prepare to Surf.
+- We verified that Column 13 continues Down to (13, 12) (TYPE_2770) on foot.
+
+## B1F Unverified Theories & Predictions
+- **Stairs at (13, 13)**: Labeled TYPE_4b8d on other maps. Strongly hypothesized to be a staircase connecting Column 13 Row 12 to a water canal at (13, 14) (TYPE_4e8c) directly below. Yet to be physically verified on foot.
+- **Water Canal at (13, 14)**: Strongly hypothesized to be standard swimmable water of TYPE_4e8c leading to Mewtwo's island. Yet to be physically boarded and verified.
