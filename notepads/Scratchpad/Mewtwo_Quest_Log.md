@@ -383,3 +383,4 @@
 - Mewtwo (PSYGEM) is Level 70 and has been sent to Box 2 (which we emptied earlier to ensure we had space).
 - Current Position: standing on foot at (27, 14) on Map 0_227 (B1F), facing Up.
 - Objective: Safely exit Cerulean Cave and celebrate our historic victory! We will navigate back to the stairs at (3, 6) to return to 1F, then head to the exit at (24, 17) on 1F.
+- Turn 148071: Successfully boarded Surf from the stairs at (19, 11) onto (19, 12) on the water. Now heading Down 4 steps along Column 19 to (19, 16) on Surf.
