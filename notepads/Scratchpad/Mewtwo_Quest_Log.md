@@ -182,6 +182,11 @@
 - Turn 147767: Walked Up 1 step to (7, 14), Right 2 steps to (9, 14), and Up 3 steps through the stairs at (9, 13) to reach (9, 11) on foot on Turn 147768.
 - Turn 147769: Walked Up 3 steps along Column 9 and Right 4 steps along Row 8 to stand at (13, 8) on foot on Turn 147770.
 - Turn 147784: Standing at (13, 8) on foot.
+- Turn 147785: Walked Down Column 13 to reach (13, 12) on foot on Map 0_227 (B1F).
+- Turn 147787: Boarded Surf at (13, 14) on B1F.
+- Turn 147793: Surfed east and north along the water canal to (18, 12).
+- Turn 147794: Dismounted Surf onto stairs at (19, 11) on foot.
+- Turn 147806: Walked Up 3 steps and Right 5 steps along Row 8 on foot to reach (24, 8), fleeing a wild Rhydon encounter at (19, 8) on Turn 147801.
 
 # Turn 147665: Discovering the Row 6 / Row 5 / Row 4 Crossover on 2F West!
 - We are at (9, 7).
