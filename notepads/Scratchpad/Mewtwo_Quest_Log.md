@@ -196,3 +196,9 @@
   - Column 17 is blocked on Rows 6-8 by solid rock walls of TYPE_2889.
   - We see a Pokéball item ball at (18, 1) in a northern pocket!
   - We will walk Down to Row 6/7 and explore eastwards to find how to access the item ball and navigate further into B1F.
+
+# Turn 147718: Collected Max Revive from (18, 1)!
+- We stood at (18, 2) on foot, faced Up, and pressed A to interact with the item ball at (18, 1).
+- Result: SUCCESS! We found a MAX REVIVE!
+- The item ball sprite is now removed, and (18, 1) has transitioned to standard walkable land floor of TYPE_2770.
+- We will now explore the eastern corridor along Row 2 to reach Column 23 and navigate further south.
