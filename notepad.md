@@ -8227,9 +8227,9 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (10, 8) on B1F on Turn 148001.
+- Current Status: Standing on foot at (9, 8) on B1F on Turn 148006.
 
-## Active Backtracking Log (Turns 145822 - 148001)
+## Active Backtracking Log (Turns 145822 - 148006)
 - Turn 145822: Closed Start menu by pressing B. Player is now standing on foot at (10, 2) facing Down in the overworld. Ready to walk Left to (5, 2) to test Column 4 Surf boarding (Hypothesis 8 / Socratic Challenge).
 - Turn 145841: Successfully walked to (11, 2) on Map 0_228 on foot, facing Down.
 - Turn 145846: Selected POKéMON -> GEMMY -> SURF. Result: FAILED with "No SURFing on GEMMY here!", proving (11, 3) on Map 0_228 is a solid rock wall of TYPE_2889. Defined map marker.
