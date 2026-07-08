@@ -1,7 +1,7 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (6, 14) on Map 0_227 (B1F) on Turn 148291.
+- Current Status: Standing on foot at (4, 8) on Map 0_227 (B1F) on Turn 148299.
 
-## Active Backtracking Log (Turns 147920 - 148291)
+## Active Backtracking Log (Turns 147920 - 148299)
 - Turn 147920: Captured legendary Pokémon Mewtwo (PSYGEM, Level 70) at (27, 13) using Master Ball and transferred it to Box 2.
 - Turn 147936: Boarded Surf to navigate water canals, subsequently exploring overworld bypasses and on-foot corridors.
 - Turn 148047: Fled successfully from wild Marowak battle at (19, 8) in the overworld facing Up.
@@ -38,7 +38,13 @@
 - Turn 148253: Attempted to walk Down Column 9, intercepted at (9, 12) by wild Raichu, and fled successfully on Turn 148254.
 - Turn 148256: Walked Down 2 steps from (9, 12) through (9, 13) stairs to (9, 14) on foot.
 - Turn 148257: Walked Left 2 steps along Row 14 to reach (7, 14) on foot.
-- Turn 148287: Walked Left 1 step, intercepted at (6, 14) by wild Marowak, and fled successfully on Turn 148288. Standing at (6, 14).
+- Turn 148287: Walked Left 1 step, intercepted at (6, 14) by wild Marowak, and fled successfully on Turn 148288.
+- Turn 148292: Walked Down, Left, Down, Left, Left, Left from (6, 14) to reach (2, 16) on foot.
+- Turn 148293: Walked Up, Up, Up, Left, Up, Left from (2, 16) to reach (0, 12) on foot.
+- Turn 148294: Attempted to step Up, intercepted at (2, 15) by wild Rhydon, and fled successfully on Turn 148295.
+- Turn 148296: Walked Up, Up, Right, Up, Right from (0, 12) to reach (1, 10).
+- Turn 148297: Attempted to step Up, intercepted at (1, 9) by wild Marowak, and fled successfully on Turn 148298.
+- Turn 148298: Walked Up, Right, Right, Right, Up from (1, 10) to reach (4, 8) on foot, intercepted at (4, 8) by wild Ditto on Turn 148299. Standing at (4, 8).
 
 ## Lower Level On-Foot Bypass Path & Verification Rigor
 - **Verified Segments (physically traversed on foot on this play session)**:
