@@ -8227,9 +8227,9 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (1, 3) on Map 0_226 (2F West) on Turn 148356.
+- Current Status: Standing on foot at (4, 5) on Map 0_226 (2F West) on Turn 148386.
 
-## Active Backtracking Log (Turns 147920 - 148356)
+## Active Backtracking Log (Turns 147920 - 148386)
 - Turn 147920: Captured legendary Pokémon Mewtwo (PSYGEM, Level 70) at (27, 13) using Master Ball and transferred it to Box 2.
 - Turn 147936: Boarded Surf to navigate water canals, subsequently exploring overworld bypasses and on-foot corridors.
 - Turn 148047: Fled successfully from wild Marowak battle at (19, 8) in the overworld facing Up.
@@ -8280,12 +8280,13 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 148319: Walked Up to (13, 2) and Left to (11, 2) on foot, fleeing wild Chansey on Turn 148320.
 - Turn 148325: Walked Left along Row 2 to (8, 2) on foot, fleeing wild Marowak on Turn 148326.
 - Turn 148328: Walked Left 5 steps along Row 2 to reach (3, 2) on foot. Standing at (3, 2).
-- Turn 148329: Walked Down Column 3 from (3, 2) to reach (3, 6) stairs and transitioned UP to 1F at (0, 6) on foot.
-- Turn 148330: Arrived on 1F Northwest at (0, 6) on foot.
+- Turn 148329: Walked Down Column 3 from (3, 2) to reach (3, 6) stairs and transitioned UP to 1F at (0, 6) on foot on Turn 148330.
 - Turn 148337: Walked Down, Right, Right, Up, Right from (0, 6) to (3, 6) on foot, fleeing wild Kadabra on Turn 148338.
 - Turn 148345: Walked Right 2 steps and Up 2 steps from (3, 6) to reach (5, 4) on foot.
 - Turn 148346: Walked Left 3 steps from (5, 4) to (2, 4), fleeing wild Dodrio on Turn 148347.
-- Turn 148349: Walked Up and Left from (2, 4) to stand on the Northwest Ladder at (1, 3) on foot, which automatically warped us up to 2F West (Map 0_226) at (1, 3) on Turn 148350. Standing at (1, 3) on foot.
+- Turn 148349: Walked Up and Left from (2, 4) to stand on the Northwest Ladder at (1, 3) on foot, which automatically warped us up to 2F West (Map 0_226) at (1, 3) on Turn 148350.
+- Turn 148368: Walked Left to (0, 3) and Down along Column 0 to (0, 5) on foot, fleeing wild Kadabra at (0, 5) on Turn 148369.
+- Turn 148370: Walked Right 4 steps from (0, 5) to reach (4, 5) on foot. Standing at (4, 5).
 
 ## Lower Level On-Foot Bypass Path & Verification Rigor
 - **Verified Segments (physically traversed on foot on this play session)**:
@@ -8293,7 +8294,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - Row 8 from Column 13 left to Column 9 (completely unblocked ground floor).
   - Column 9 from Row 8 down to Row 14 via the (9, 13) stairs (completely unblocked on foot).
   - Row 14 from Column 9 left to Column 7 (completely unblocked on foot).
-  - Column 2 from Y=16 up to Y=12 (completely unblocked ground floor).
+  - Column 2 from Y=16 up to Y=12 (completely unblocked ground floor, bounded by solid rock wall of TYPE_2889 at (2, 11) as proven on Turn 148190).
   - Row 12 from Column 2 left to Column 0 (completely unblocked ground floor).
   - Column 0 from Y=12 up to Y=10 (completely unblocked ground floor).
   - Row 10 from Column 0 right to Column 1 (completely unblocked ground floor).
