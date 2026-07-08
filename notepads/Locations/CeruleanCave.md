@@ -97,7 +97,7 @@
     2. Walk Up to (6, 6) and (6, 5) (both are open, passable TYPE_3fe2 tiles).
     3. Walk Left to (5, 5) and continue Left to (0, 5).
     4. Walk Up along Column 0 to (0, 3) and Right to (1, 3) (the ladder!).
-  - Descending the Northwest Ladder lands on 1F Northwest (Map 0_228) at (1, 3).
+  - Descending the Northwest Ladder lands on 1F Northwest (Map 0_228) at (1, 3). Physically verified bidirectional passability on Turn 148350 by successfully traversing from 1F Northwest up to 2F West on foot, confirming bidirectional passability.
   - The unblocked on-foot path from (1, 3) to the stairs down to B1F at (0, 6) is:
     - (1, 3) -> Right to (2, 3) -> Down to (2, 4) -> Right to (5, 4) -> Down 2 steps to (5, 6) -> Left to (2, 6) -> Down to (2, 7) -> Left to (0, 7) -> Up 1 step onto the stairs at (0, 6).
   - Descending the stairs at (0, 6) on 1F Northwest transitions the player to B1F (Map 0_227) at (3, 6).
