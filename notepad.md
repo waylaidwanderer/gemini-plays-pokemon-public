@@ -10382,3 +10382,59 @@ Our custom tool `cave_bfs_solver` has been successfully updated on Turn 144660 t
 - Turn 148465: Walked Left and Down to (10, 9) on foot.
 
 <hr>
+
+<h1><code>Archive/CeruleanCave_Backtracking_History</code></h1>
+
+# Archived Cerulean Cave Backtracking History (Turns 147920 - 148737)
+
+- For detailed early overworld movement logs from Turn 148047 to Turn 148465, see 'Archive/Mewtwo_Quest_Log_Backtracking_Early'.
+- Turn 148469: Walked Left to (3, 9), Down to (3, 11), and stepped on Ladder 6 to warp down to 1F Southwest at (3, 11) on foot.
+- Turn 148476: Walked down via wooden stairs at (1, 13) to (1, 16) on foot on 1F Southwest.
+- Turn 148480: Walked to (5, 17) on foot, fleeing wild Sandslash battle.
+- Turn 148489: Walked back to (1, 16) on foot.
+- Turn 148490: Walked to (3, 11) on foot and transitioned UP to 2F West.
+- Turn 148497: Walked off and back onto Ladder 6 to warp DOWN to 1F Southwest at (3, 11) on foot on Turn 148498.
+- Turn 148516: Walked Left and Down to stand on Ladder 6 at (3, 11) on 1F Southwest and transitioned UP to 2F West on Turn 148517.
+- Turn 148518: Walked Up 2 steps to (3, 9) on foot on 2F West.
+- Turn 148520: Walked Down 2 steps to (3, 11) on 2F West and transitioned DOWN to 1F Southwest at (3, 11) on Turn 148521.
+- Turn 148522: Walked Up 3 steps and Right 3 steps to reach (6, 8) on foot on 1F Southwest on Turn 148523.
+- Turn 148524: Tested (6, 7) on 1F Southwest and bumped, proving (6, 7) is a solid rock wall of TYPE_2889.
+- Turn 148528: Walked back to (3, 11) on 1F Southwest and transitioned UP to 2F West on Turn 148529.
+- Turn 148540: Walked off and back onto Ladder 6 to warp DOWN to 1F Southwest at (3, 11) on foot on Turn 148541.
+- Turn 148547: Walked Down, Left 2 steps, and Down 4 steps via the wooden stairs to (1, 16) on foot on Turn 148548.
+- Turn 148548: Walked Right, Down, and Right 6 steps to reach (8, 17) on foot on Turn 148549.
+- Turn 148551: Walked Right 7 steps and Up 1 step to (15, 16) on foot on Turn 148552.
+- Turn 148555: Walked Right 2 steps, Up 2 steps, and Right 2 steps to reach (18, 14) on foot on Turn 148556.
+- Turn 148566: Tested (19, 14) on 1F and bumped, physically verifying (19, 14) as a solid rock wall of TYPE_2889.
+- Turn 148573: Walked Left from (18, 14) towards (11, 13), interrupted at (15, 14) by wild Venomoth, and fled successfully on Turn 148574.
+- Turn 148577: Walked Up, Up, Left, Left to reach (13, 12) on foot.
+- Turn 148582: Walked Left, Left, Down to reach Water Ramp 2 at (11, 13) on foot on Turn 148584.
+- Turn 148594: Successfully boarded Surf from (11, 13) facing Down onto water at (11, 14) on Turn 148595.
+- Turn 148605: Surfed Left 3 steps along Row 14 water to reach (8, 14).
+- Turn 148615: Surfed Up 3 steps along Column 8 to reach (8, 7) on Turn 148616.
+- Turn 148616: Surfed Right 5 steps along Row 7 crossover to reach (13, 7) on Turn 148617.
+- Turn 148625: Surfed Right twice and Up three times along the water crossover to reach (15, 4) on Turn 148626.
+- Turn 148627: Surfed Right 5 steps along Row 4 water to reach (20, 4) on Turn 148628.
+- Turn 148628: Surfed Right 3 steps and Up 1 step to land on foot at Water Ramp 1 at (23, 3) on Turn 148629, automatically dismounting Surf.
+- Turn 148658: Successfully boarded Surf from Water Ramp 1 at (23, 3) facing Down onto the water at (23, 4) on Turn 148660.
+- Turn 148663: Surfed Down to (23, 5) and Right to (24, 5) on Turn 148664.
+- Turn 148668: Surfed Up to (24, 4) on Turn 148669.
+- Turn 148670: Surfed Down to (24, 5) on Turn 148671.
+- Turn 148674: Surfed Up to (24, 4), Left to (23, 4), and Down to (23, 5) on Turn 148675.
+- Turn 148678: Pressed Down from (23, 5) towards (23, 6) and bumped, proving (23, 6) is a solid rock blockage.
+- Turn 148682: Surfed Up to (23, 4), Right to (24, 4), and Down to (24, 5) on Turn 148683.
+- Turn 148688: Surfed Up to (24, 4) on Turn 148689.
+- Turn 148689: Surfed Down to (24, 5) to face DOWN on Turn 148690.
+- Turn 148691: Pressed Down from (24, 5) towards (24, 6) and bumped, physically verifying that pressing a direction towards standard land while surfing results in a bump and does NOT dismount.
+- Turn 148705: Surfed to (28, 5) on water.
+- Turn 148707: Surfed to (28, 9) on water.
+- Turn 148715: Surfed to (25, 10) on water.
+- Turn 148721: Dismounted Surf onto Water Ramp 3 at (25, 9) on foot and walked to (25, 8).
+- Turn 148724: Walked along Row 8 to (22, 8) on foot.
+- Turn 148726: Walked to (21, 12) on foot.
+- Turn 148728: Walked down Column 21 to (21, 15) on foot.
+- Turn 148730: Walked along Row 15 to Column 24 and down to the exit at (24, 17) on foot.
+- Turn 148732: Stepped Down from (24, 17) to exit Cerulean Cave onto Map 0_3 (Cerulean City) at (4, 12).
+- Turn 148737: Walked Right to (5, 12) on foot.
+
+<hr>
