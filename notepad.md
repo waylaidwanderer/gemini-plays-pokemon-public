@@ -8227,11 +8227,49 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (23, 3) on Map 0_228 (1F Eastern Canal Water Ramp 1) on Turn 148653.
+- Current Status: Standing on foot at (23, 3) on Map 0_228 (1F Eastern Canal Water Ramp 1) on Turn 148656.
 
 ## Active Backtracking Log (Turns 147920 - Present)
 - For detailed early overworld movement logs from Turn 148047 to Turn 148465, see 'Archive/Mewtwo_Quest_Log_Backtracking_Early'.
 - Turn 148469: Walked Left to (3, 9), Down to (3, 11), and stepped on Ladder 6 to warp down to 1F Southwest at (3, 11) on foot.
+- Turn 148476: Walked down via wooden stairs at (1, 13) to (1, 16) on foot on 1F Southwest.
+- Turn 148480: Walked to (5, 17) on foot, fleeing wild Sandslash battle.
+- Turn 148489: Walked back to (1, 16) on foot.
+- Turn 148490: Walked to (3, 11) on foot and transitioned UP to 2F West.
+- Turn 148497: Walked off and back onto Ladder 6 to warp DOWN to 1F Southwest at (3, 11) on foot on Turn 148498.
+- Turn 148516: Walked Left and Down to stand on Ladder 6 at (3, 11) on 1F Southwest and transitioned UP to 2F West on Turn 148517.
+- Turn 148518: Walked Up 2 steps to (3, 9) on foot on 2F West.
+- Turn 148520: Walked Down 2 steps to (3, 11) on 2F West and transitioned DOWN to 1F Southwest at (3, 11) on Turn 148521.
+- Turn 148522: Walked Up 3 steps and Right 3 steps to reach (6, 8) on foot on 1F Southwest on Turn 148523.
+- Turn 148524: Tested (6, 7) on 1F Southwest and bumped, proving (6, 7) is a solid rock wall of TYPE_2889.
+- Turn 148528: Walked back to (3, 11) on 1F Southwest and transitioned UP to 2F West on Turn 148529.
+- Turn 148540: Walked off and back onto Ladder 6 to warp DOWN to 1F Southwest at (3, 11) on foot on Turn 148541.
+- Turn 148547: Walked Down, Left 2 steps, and Down 4 steps via the wooden stairs to (1, 16) on foot on Turn 148548.
+- Turn 148548: Walked Right, Down, and Right 6 steps to reach (8, 17) on foot on Turn 148549.
+- Turn 148551: Walked Right 7 steps and Up 1 step to (15, 16) on foot on Turn 148552.
+- Turn 148555: Walked Right 2 steps, Up 2 steps, and Right 2 steps to reach (18, 14) on foot on Turn 148556.
+- Turn 148566: Tested (19, 14) on 1F and bumped, physically verifying (19, 14) as a solid rock wall of TYPE_2889.
+- Turn 148573: Walked Left from (18, 14) towards (11, 13), interrupted at (15, 14) by wild Venomoth, and fled successfully on Turn 148574.
+- Turn 148577: Walked Up, Up, Left, Left to reach (13, 12) on foot.
+- Turn 148582: Walked Left, Left, Down to reach Water Ramp 2 at (11, 13) on foot on Turn 148584.
+- Turn 148594: Successfully boarded Surf from (11, 13) facing Down onto water at (11, 14) on Turn 148595.
+- Turn 148605: Surfed Left 3 steps along Row 14 water to reach (8, 14).
+- Turn 148615: Surfed Up 3 steps along Column 8 to reach (8, 7) on Turn 148616.
+- Turn 148616: Surfed Right 5 steps along Row 7 crossover to reach (13, 7) on Turn 148617.
+- Turn 148625: Surfed Right twice and Up three times along the water crossover to reach (15, 4) on Turn 148626.
+- Turn 148627: Surfed Right 5 steps along Row 4 water to reach (20, 4) on Turn 148628.
+- Turn 148628: Surfed Right 3 steps and Up 1 step to land on foot at Water Ramp 1 at (23, 3) on Turn 148629, automatically dismounting Surf.
+- Turn 148634: Opened Start menu and selected ITEM instead of POKéMON, playing the POKé FLUTE in error on Turn 148635.
+- Turn 148637: Opened Start menu and selected Surf but failed with "No SURFing on GEMMY here!" on Turn 148638 because our player was still facing UP.
+- Turn 148639: Pressed B twice to exit menus and return to the overworld.
+- Turn 148640: Pressed Start, A, A, A, but Surf failed again because we were still facing UP.
+- Turn 148641: Pressed A, A, A, and Surf failed again because we were still facing UP.
+- Turn 148643: Pressed A to open the POKéMON menu on Turn 148644.
+- Turn 148644: Pressed A, A, and Surf failed again on Turn 148645 because we were still facing UP.
+- Turn 148646: Realized we were facing UP, so we pressed B and Down to face DOWN, but we were immediately interrupted by wild Raichu at (23, 3) on Turn 148647.
+- Turn 148647: Fled successfully from wild Raichu using 'flee_battle' custom tool on Turn 148648.
+- Turn 148649: Pressed Start to open the Start menu facing DOWN on Turn 148650.
+- Turn 148655: Redefined custom tool 'cave_bfs_solver' to include verified (19, 14) and (6, 7) blockages.
 - Turn 148476: Walked down via wooden stairs at (1, 13) to (1, 16) on foot on 1F Southwest.
 - Turn 148480: Walked to (5, 17) on foot, fleeing wild Sandslash battle.
 - Turn 148489: Walked back to (1, 16) on foot.
