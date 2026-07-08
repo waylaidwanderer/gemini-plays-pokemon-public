@@ -8227,7 +8227,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Surfing north on the west water canal at (6, 7) in Cerulean City (Map 0_3) on Turn 148771. Preparing to transition to Route 24.
+- Current Status: Surfing at (15, 0) on Map 0_3 (Cerulean City) on Turn 148787. Preparing to take one step Up to transition into Route 24 river.
 
 ## Next High-Level Objectives
 - Primary Goal: Travel to the Cerulean City Pokémon Center at (19, 17) to heal our team, access the PC, and inspect the newly captured Mewtwo (PSYGEM).
