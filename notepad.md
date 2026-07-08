@@ -8229,7 +8229,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 # Post-Game Mewtwo Quest Log & Active Routing
 - Current Status: Standing on foot at (3, 11) on Map 0_228 (1F Southwest) on Turn 148472.
 
-## Active Backtracking Log (Turns 147920 - 148425)
+## Active Backtracking Log (Turns 147920 - 148474)
 - Turn 147920: Captured legendary Pokémon Mewtwo (PSYGEM, Level 70) at (27, 13) using Master Ball and transferred it to Box 2.
 - Turn 147936: Boarded Surf to navigate water canals, subsequently exploring overworld bypasses and on-foot corridors.
 - Turn 148047: Fled successfully from wild Marowak battle at (19, 8) in the overworld facing Up.
@@ -8294,6 +8294,15 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 148402: Walked Left 1 step and Down 3 steps from (1, 9) to reach (0, 12) on foot.
 - Turn 148405: Walked Right 1 step from (0, 12) to (1, 12) on foot, fleeing wild Venomoth on Turn 148406.
 - Turn 148407: Walked Down, Right, Down, Down from (1, 12) to reach (2, 15) on foot, fleeing wild Electrode on Turn 148410. Standing at (2, 15) on foot on Turn 148425.
+- Turn 148427: Walked to (2, 17) on foot on Map 0_226, fleeing wild Electrode.
+- Turn 148430: Walked to (6, 16) on foot, fleeing wild Kadabra.
+- Turn 148435: Walked to (10, 14) on foot, fleeing wild Kadabra.
+- Turn 148441: Walked to (13, 15) on foot, fleeing wild Rhydon.
+- Turn 148443: Walked to (21, 9) on foot along the Row 9 corridor.
+- Turn 148460: Walked Left to (17, 9) on foot, fleeing wild Ditto.
+- Turn 148463: Walked Left and Up to (14, 8) on foot, fleeing wild Wigglytuff.
+- Turn 148465: Walked Left and Down to (10, 9) on foot.
+- Turn 148469: Walked Left to (3, 9), Down to (3, 11), and stepped on Ladder 6 to warp down to 1F Southwest at (3, 11) on foot.
 
 ## Lower Level On-Foot Bypass Path & Verification Rigor
 - **Verified Segments (physically traversed on foot on this play session)**:
@@ -8313,6 +8322,9 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - Row 7 from Column 6 to Column 7 (verified segment).
   - Column 7 from Row 7 to Row 5 (verified segment).
   - Row 5 from Column 7 to Column 13 (verified segment).
+  - Row 9 on 2F West from Column 21 to Column 10 (completely unblocked ground corridor).
+  - Row 8 bypass on 2F West from Column 15 to Column 13 (unblocked ground floor bypass connecting Row 9 components).
+  - Column 3 on 2F West from Row 9 to Row 11 (unblocked ground corridor leading directly to Ladder 6).
 - **Theoretical Segments (visually scanned / computed but currently untraversed)**:
   - Column 7 from Row 14 down to Row 15 (visually open and expected unblocked).
   - Row 15 from Column 7 left to Column 6 (visually open and expected unblocked).
