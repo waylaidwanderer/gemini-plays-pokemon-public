@@ -8301,6 +8301,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 149076: Walked right and south along the corridors of Saffron City to stand at (23, 9) on foot.
 - Turn 149077: Walked north to Row 7 and east along Saffron City's streets to stand at (28, 7) on foot.
 - Turn 149080: Walked south to stand at (28, 8) on foot.
+- Turn 149082: Walked right along Row 8 from (28, 8) to (33, 8) on foot.
 
 ## Mewtwo (PSYGEM) Stats (Level 70, ID 64693, OT GEM):
 - HP: 241/241
