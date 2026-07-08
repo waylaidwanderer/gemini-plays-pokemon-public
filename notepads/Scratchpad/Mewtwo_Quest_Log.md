@@ -1,5 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing at (9, 16) on Map 0_16 (Route 5) on Turn 149046. All post-game objectives successfully completed and game saved!
+- Current Status: Standing at (20, 0) on Map 0_10 (Saffron City) on Turn 149063. All post-game objectives successfully completed and game saved!
 
 ## Next High-Level Objectives
 - Primary Goal: Playthrough and post-game completed successfully!
@@ -38,6 +38,29 @@
 - Turn 148917: Backed out to BILL's PC menu and selected WITHDRAW PKMN again.
 - Turn 148924: Successfully withdrew PETAL back into our party to restore our complete 6/6 team composition.
 - Turn 148930: Walked out of the Pokémon Center to stand on foot at (19, 18) in Cerulean City.
+- Turn 148986: Walked south and left to stand at (18, 20) on foot in Cerulean City.
+- Turn 148995: Walked east to reach (26, 21) on foot in Cerulean City.
+- Turn 149001: Walked up and right to bypass the blue building to stand at (29, 21) on foot.
+- Turn 149009: Walked right to stand at (32, 23) on foot.
+- Turn 149011: Walked right and down Saffron street Row 27 to reach (34, 27) on foot.
+- Turn 149012: Walked left along Saffron street Row 27 to stand at (25, 27) on foot.
+- Turn 149014: Walked right to stand south of Slowbro at (28, 27) on foot.
+- Turn 149016: Spoke to Slowbro at (28, 26).
+- Turn 149019: Walked right to stand south of the Girl NPC at (29, 27) and spoke to her at (29, 26).
+- Turn 149026: Walked left back along Row 27 to stand at (19, 27) on foot.
+- Turn 149032: Used PETAL's CUT to clear the cuttable bush at (19, 28) and walked Down to (19, 28) on foot.
+- Turn 149034: Walked down to (19, 31) on foot.
+- Turn 149035: Walked down, jumping the southern ledge at (19, 33) to stand at (19, 35) on Route 5 on foot.
+- Turn 149037: Walked down, transitioning onto Route 5 at (9, 0) on foot.
+- Turn 149043: Walked down, jumping the ledge at (9, 3) to stand at (9, 5) on foot.
+- Turn 149044: Walked down, jumping the ledge at (9, 7) to stand at (9, 10) on foot.
+- Turn 149045: Walked down, jumping the ledge at (9, 11) to stand at (9, 16) on foot.
+- Turn 149047: Walked left to Column 6 and south to Row 21 to bypass the yellow building, standing at (6, 21) on foot.
+- Turn 149049: Walked down, jumping the ledge at (6, 23) to stand at (6, 26) on foot.
+- Turn 149051: Walked right to (10, 26) on foot.
+- Turn 149052: Walked down to enter Route 5's Saffron Gatehouse (Map 0_70) at (4, 0) on foot.
+- Turn 149055: Walked down to exit Saffron Gatehouse and transition into Saffron City at (10, 34) on Route 5's map space (Map 0_16) on foot.
+- Turn 149059: Walked down to transition into Saffron City's main map (Map 0_10) at (20, 0) on foot.
 - Turn 148986: Walked south and left to stand at (18, 20) on foot.
 - Turn 148995: Walked east across the northern path of the city to reach (26, 21) on foot.
 - Turn 149003: Circumnavigated the right side of the building by walking up to (26, 20), right to (28, 20) and down to (28, 22) on foot.
