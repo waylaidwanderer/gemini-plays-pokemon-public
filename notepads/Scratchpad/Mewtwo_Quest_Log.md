@@ -29,3 +29,10 @@
 - Turn 148886: Pressed Down from (22, 16) to jump south over the (22, 17) ledge onto (22, 18), walked Left along Row 18 to (19, 18), and walked Up to enter the Pokémon Center at (19, 17).
 - Turn 148888: Walked from the door entrance at (3, 7) to (4, 4) on foot to stand directly in front of Nurse Joy.
 - Turn 148890: Successfully healed team HP and PP using the custom tool 'heal_at_center'.
+
+## Mewtwo (PSYGEM) Stats (Level 70, ID 64693, OT GEM):
+- HP: 241/241
+- Attack: 177
+- Defense: 133
+- Speed: 201
+- Special: 238

@@ -8264,6 +8264,13 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 148888: Walked from the door entrance at (3, 7) to (4, 4) on foot to stand directly in front of Nurse Joy.
 - Turn 148890: Successfully healed team HP and PP using the custom tool 'heal_at_center'.
 
+## Mewtwo (PSYGEM) Stats (Level 70, ID 64693, OT GEM):
+- HP: 241/241
+- Attack: 177
+- Defense: 133
+- Speed: 201
+- Special: 238
+
 <hr>
 
 <h1><code>Locations/CeruleanCave</code></h1>
