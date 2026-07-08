@@ -8233,7 +8233,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing at (13, 4) on Map 0_64 (Cerulean Pokémon Center) on Turn 148922. Accessing the PC to withdraw PETAL (Bellsprout) to restore our 6-Pokémon team.
+- Current Status: Standing at (13, 4) on Map 0_64 (Cerulean Pokémon Center) on Turn 148925. Successfully viewed Mewtwo's (PSYGEM) stats and withdrawn PETAL back to restore our original team.
 
 ## Next High-Level Objectives
 - Primary Goal: Travel to the Cerulean City Pokémon Center at (19, 17) to heal our team, access the PC, and inspect the newly captured Mewtwo (PSYGEM).
@@ -8270,6 +8270,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 148911: Accessed BILL's PC, opened Box 2, and successfully opened PSYGEM's stats screen to view stats.
 - Turn 148915: Returned to the Options menu from the stats screen.
 - Turn 148917: Backed out to BILL's PC menu and selected WITHDRAW PKMN again.
+- Turn 148924: Successfully withdrew PETAL back into our party to restore our complete 6/6 team composition.
 
 ## Mewtwo (PSYGEM) Stats (Level 70, ID 64693, OT GEM):
 - HP: 241/241
