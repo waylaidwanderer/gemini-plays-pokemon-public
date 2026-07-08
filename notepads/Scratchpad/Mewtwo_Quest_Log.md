@@ -1,5 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing at (20, 8) on Map 0_10 (Saffron City) on Turn 149071. All post-game objectives successfully completed and game saved!
+- Current Status: Standing at (28, 8) on Map 0_10 (Saffron City) on Turn 149081. All post-game objectives successfully completed and game saved!
 
 ## Next High-Level Objectives
 - Primary Goal: Playthrough and post-game completed successfully!
@@ -63,6 +63,9 @@
 - Turn 149059: Walked down to transition into Saffron City's main map (Map 0_10) at (20, 0) on foot.
 - Turn 149064: Walked south along Column 20 in Saffron City to reach (20, 4) on foot.
 - Turn 149067: Walked south, jumping over Saffron's northern ledge to stand at (20, 8) on foot.
+- Turn 149076: Walked right and south along the corridors of Saffron City to stand at (23, 9) on foot.
+- Turn 149077: Walked north to Row 7 and east along Saffron City's streets to stand at (28, 7) on foot.
+- Turn 149080: Walked south to stand at (28, 8) on foot.
 
 ## Mewtwo (PSYGEM) Stats (Level 70, ID 64693, OT GEM):
 - HP: 241/241
