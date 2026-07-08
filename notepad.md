@@ -8315,6 +8315,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 149098: Opened the Start menu in Saffron City.
 - Turn 149099: Moved cursor down to SAVE and pressed A to open the save screen.
 - Turn 149105: Pressed A on the SAVE prompt, successfully saving the game and completing the post-game! Our adventure is permanently cemented in history.
+- Turn 149174: Confirmed complete post-game closure. Standing at (33, 8) in Saffron City facing down. This play session is cleanly finalized.
 
 <hr>
 
