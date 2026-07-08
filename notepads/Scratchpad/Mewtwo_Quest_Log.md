@@ -78,3 +78,4 @@
 - Turn 149094: Executed a victory spin (Left, Up, Right, Down) at (33, 8) on foot.
 - Turn 149098: Opened the Start menu in Saffron City.
 - Turn 149099: Moved cursor down to SAVE and pressed A to open the save screen.
+- Turn 149105: Pressed A on the SAVE prompt, successfully saving the game and completing the post-game! Our adventure is permanently cemented in history.
