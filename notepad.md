@@ -8227,9 +8227,9 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (7, 14) on Map 0_227 (B1F) on Turn 148236.
+- Current Status: Standing on foot at (6, 14) on Map 0_227 (B1F) on Turn 148291.
 
-## Active Backtracking Log (Turns 147920 - 148236)
+## Active Backtracking Log (Turns 147920 - 148291)
 - Turn 147920: Captured legendary Pokémon Mewtwo (PSYGEM, Level 70) at (27, 13) using Master Ball and transferred it to Box 2.
 - Turn 147936: Boarded Surf to navigate water canals, subsequently exploring overworld bypasses and on-foot corridors.
 - Turn 148047: Fled successfully from wild Marowak battle at (19, 8) in the overworld facing Up.
@@ -8254,7 +8254,19 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 148225: Walked Left, Down, Down, Right, Right, Down, Down, Right from (1, 10) to reach (3, 14) on foot.
 - Turn 148227: Walked Down 3 steps from (3, 14) to reach (3, 17) on foot.
 - Turn 148228: Walked Right 3 steps to (6, 17) and Up 3 steps to (6, 14) on foot.
-- Turn 148229: Walked Right 1 step, intercepted at (7, 14) by wild Marowak, and fled successfully on Turn 148232. Standing at (7, 14).
+- Turn 148229: Walked Right 1 step, intercepted at (7, 14) by wild Marowak, and fled successfully on Turn 148232.
+- Turn 148238: Walked Right 2 steps to (9, 14) and Up 1 step onto the stairs at (9, 13) on foot.
+- Turn 148239: Walked Up 5 steps along Column 9 to reach (9, 8) on foot.
+- Turn 148240: Walked Right 4 steps along Row 8 to reach (13, 8) on foot.
+- Turn 148243: Attempted to walk Up Column 13 and bumped against the Row 5/6 horizontal elevation cliff wall at (13, 6) facing Up, verifying Column 13 blockage.
+- Turn 148246: Attempted to step Down, intercepted at (13, 6) by wild Marowak, and fled successfully on Turn 148247.
+- Turn 148248: Walked Down 2 steps to (13, 8) on foot.
+- Turn 148249: Walked Left 4 steps along Row 8 to reach (9, 8) on foot.
+- Turn 148250: Attempted to walk Down Column 9, intercepted at (9, 9) by wild Marowak, and fled successfully on Turn 148251.
+- Turn 148253: Attempted to walk Down Column 9, intercepted at (9, 12) by wild Raichu, and fled successfully on Turn 148254.
+- Turn 148256: Walked Down 2 steps from (9, 12) through (9, 13) stairs to (9, 14) on foot.
+- Turn 148257: Walked Left 2 steps along Row 14 to reach (7, 14) on foot.
+- Turn 148287: Walked Left 1 step, intercepted at (6, 14) by wild Marowak, and fled successfully on Turn 148288. Standing at (6, 14).
 
 ## Lower Level On-Foot Bypass Path & Verification Rigor
 - **Verified Segments (physically traversed on foot on this play session)**:
@@ -8267,13 +8279,14 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - Column 0 from Y=12 up to Y=10 (completely unblocked ground floor).
   - Row 10 from Column 0 right to Column 1 (completely unblocked ground floor).
   - Row 9 from Column 1 right to Column 3 (completely unblocked ground floor).
-  - Row 8 from Column 3 right to Column 6 (completely unblocked ground floor).
   - Row 17 from Column 6 left to Column 3 (completely unblocked on foot).
 - **Theoretical Segments (visually scanned / computed but currently untraversed)**:
   - Column 7 from Row 14 down to Row 15 (visually open and expected unblocked).
   - Row 15 from Column 7 left to Column 6 (visually open and expected unblocked).
   - Column 6 from Row 15 down to Row 17 (visually open and expected unblocked).
+  - Row 17 from Column 3 left to Column 2 (visually open and expected unblocked).
   - Column 3 from Row 17 up to the stairs at (3, 6) (visually open and expected unblocked).
+  - Row 8 from Column 3 right to Column 6 (visually open and expected unblocked).
   - Row 7 from Column 6 to Column 7 (visually open and expected unblocked).
   - Column 7 from Row 7 up to Row 5 (visually open and expected unblocked).
   - Row 5 from Column 7 to Column 3 (visually open and expected unblocked).
@@ -8290,11 +8303,13 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 ## Active Backtracking Strategy (The Upper Bypass)
 - **Goal**: Reach (3, 6) stairs via Column 7 and the Row 2 upper bypass.
 - **Route to (3, 6)**:
-  1. From (7, 14), walk Up 9 steps along Column 7 to the upper level brown floor at (7, 5).
-  2. From (7, 5), walk Right 6 steps along Row 5 to (13, 5).
-  3. Walk Up Column 13 through (13, 4) and take the (13, 3) stairs Up to Row 2 at (13, 2).
-  4. Walk Left along Row 2 to Column 3 (3, 2).
-  5. Walk Down Column 3 through (3, 5) to reach the (3, 6) stairs.
+  1. From (6, 14), walk Down Column 6 to Y=17 and Left to (3, 17) to reach the west side of B1F.
+  2. Walk back to (3, 8) on foot via our verified bottom bypass.
+  3. From (3, 8), walk Right to (6, 8), Up to (6, 7), Right to (7, 7), and Up Column 7 to the upper level at (7, 5).
+  4. From (7, 5), walk Right 6 steps along Row 5 to (13, 5).
+  5. Walk Up Column 13 through (13, 4) and take the (13, 3) stairs Up to Row 2 at (13, 2).
+  6. Walk Left along Row 2 to Column 3 (3, 2).
+  7. Walk Down Column 3 through (3, 5) to reach the (3, 6) stairs.
 - Let's execute this step-by-step to safely exit Cerulean Cave!
 
 <hr>
