@@ -1,7 +1,7 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (1, 9) on Map 0_226 (2F West) on Turn 148401.
+- Current Status: Standing on foot at (2, 15) on Map 0_226 (2F West) on Turn 148425.
 
-## Active Backtracking Log (Turns 147920 - 148401)
+## Active Backtracking Log (Turns 147920 - 148425)
 - Turn 147920: Captured legendary Pokémon Mewtwo (PSYGEM, Level 70) at (27, 13) using Master Ball and transferred it to Box 2.
 - Turn 147936: Boarded Surf to navigate water canals, subsequently exploring overworld bypasses and on-foot corridors.
 - Turn 148047: Fled successfully from wild Marowak battle at (19, 8) in the overworld facing Up.
@@ -62,7 +62,10 @@
 - Turn 148388: Walked Right, Right, Down, Down, Left, Left from (4, 5) to reach (4, 7) on foot.
 - Turn 148392: Walked Left 1 step to (3, 7) on foot, fleeing wild Venomoth on Turn 148393.
 - Turn 148395: Walked Left, Left, Down from (3, 7) to reach (1, 8) on foot.
-- Turn 148396: Walked Down 1 step from (1, 8) to (1, 9) on foot, fleeing wild Ditto on Turn 148397. Standing at (1, 9) on foot.
+- Turn 148396: Walked Down 1 step from (1, 8) to (1, 9) on foot, fleeing wild Ditto on Turn 148397.
+- Turn 148402: Walked Left 1 step and Down 3 steps from (1, 9) to reach (0, 12) on foot.
+- Turn 148405: Walked Right 1 step from (0, 12) to (1, 12) on foot, fleeing wild Venomoth on Turn 148406.
+- Turn 148407: Walked Down, Right, Down, Down from (1, 12) to reach (2, 15) on foot, fleeing wild Electrode on Turn 148410. Standing at (2, 15) on foot on Turn 148425.
 
 ## Lower Level On-Foot Bypass Path & Verification Rigor
 - **Verified Segments (physically traversed on foot on this play session)**:
@@ -96,15 +99,3 @@
 - Row 7 on-foot barrier: Row 7 consists of solid rock walls (TYPE_2889) from Column 0 to Column 5, completely isolating Row 6 from the south on foot on the west side.
 - Row 5 on-foot barrier: Row 5 consists of solid rock walls (TYPE_2889) at (4, 5) and (5, 5), completely blocking vertical or horizontal crossover along Row 5 between the east and west halves.
 - Conclusion: To backtrack from the lower ground level (Rows 8-17) to the stairs at (3, 6), we must walk through Koga's lower level bypass back to Column 9, climb to the upper level (Row 2) via the (13, 3) or (19, 3) stairs, walk Left along Row 2 to (3, 2), and walk Down to (3, 6).
-
-## Active Backtracking Strategy (The Upper Bypass)
-- **Goal**: Reach (3, 6) stairs via Column 7 and the Row 2 upper bypass.
-- **Route to (3, 6)**:
-  1. From (6, 14), walk Down Column 6 to Y=17 and Left to (3, 17) to reach the west side of B1F.
-  2. Walk back to (3, 8) on foot via our verified bottom bypass.
-  3. From (3, 8), walk Right to (6, 8), Up to (6, 7), Right to (7, 7), and Up Column 7 to the upper level at (7, 5).
-  4. From (7, 5), walk Right 6 steps along Row 5 to (13, 5).
-  5. Walk Up Column 13 through (13, 4) and take the (13, 3) stairs Up to Row 2 at (13, 2).
-  6. Walk Left along Row 2 to Column 3 (3, 2).
-  7. Walk Down Column 3 through (3, 5) to reach the (3, 6) stairs.
-- Let's execute this step-by-step to safely exit Cerulean Cave!
