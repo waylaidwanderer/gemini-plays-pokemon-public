@@ -80,6 +80,17 @@
 - Turn 148489: Walked back to (1, 16) on foot.
 - Turn 148490: Walked to (3, 11) on foot and transitioned UP to 2F West.
 - Turn 148497: Walked off and back onto Ladder 6 to warp DOWN to 1F Southwest at (3, 11) on foot on Turn 148498.
+- Turn 148516: Walked Left and Down to stand on Ladder 6 at (3, 11) on 1F Southwest and transitioned UP to 2F West on Turn 148517.
+- Turn 148518: Walked Up 2 steps to (3, 9) on foot on 2F West.
+- Turn 148520: Walked Down 2 steps to (3, 11) on 2F West and transitioned DOWN to 1F Southwest at (3, 11) on Turn 148521.
+- Turn 148522: Walked Up 3 steps and Right 3 steps to reach (6, 8) on foot on 1F Southwest on Turn 148523.
+- Turn 148524: Tested (6, 7) on 1F Southwest and bumped, proving (6, 7) is a solid rock wall of TYPE_2889.
+- Turn 148528: Walked back to (3, 11) on 1F Southwest and transitioned UP to 2F West on Turn 148529.
+- Turn 148540: Walked off and back onto Ladder 6 to warp DOWN to 1F Southwest at (3, 11) on foot on Turn 148541.
+- Turn 148547: Walked Down, Left 2 steps, and Down 4 steps via the wooden stairs to (1, 16) on foot on Turn 148548.
+- Turn 148548: Walked Right, Down, and Right 6 steps to reach (8, 17) on foot on Turn 148549.
+- Turn 148551: Walked Right 7 steps and Up 1 step to (15, 16) on foot on Turn 148552.
+- Turn 148555: Walked Right 2 steps, Up 2 steps, and Right 2 steps to reach (18, 14) on foot on Turn 148556.
 
 ## Lower Level On-Foot Bypass Path & Verification Rigor
 - **Verified Segments (physically traversed on foot on this play session)**:
