@@ -999,6 +999,12 @@ This archive preserves the turn-by-turn log of Gem's journey from Pallet Town ba
   - **Back Exit (Hole in Wall)**: Located at (3, 0) inside Map 0_62. Walking onto it spawns the player in the backyard of the house at (27, 9) on Map 0_3.
   - **Route 9 Passage**: From the backyard at (27, 9), walk east to Columns 32-33, walk south to Row 16, and walk east through (38, 16) and (39, 16) to cross the map boundary and enter Route 9. Fully verified on Turn 19929.
 
+## Northern Canal Row 17 Solid Blockage Verification Record
+- **Turn 148764**: Attempted to surf south along Column 6 from (6, 16) towards (6, 17) and bumped.
+- **Result**: BUMP (visited 0 tiles from (6, 16) to (6, 17)).
+- **Visual Verification**: Labeled in screen overlay at (2, 17), (3, 17), (4, 17), (5, 17), (6, 17), and (7, 17) as solid rock walls of TYPE_2889.
+- **Conclusion**: The southern boundary of the western canal at Row 17 is completely blocked by solid rock walls of TYPE_2889 from Column 2 to Column 7, preventing direct southward dismounting from water onto the southern entry path. To exit, players must surf north into Route 24 and dismount on the east side of Route 24's river.
+
 <hr>
 
 <h1><code>Locations/CeruleanCity_Gym</code></h1>
