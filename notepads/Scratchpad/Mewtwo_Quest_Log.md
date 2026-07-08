@@ -1,5 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (4, 8) on Map 0_227 (B1F) on Turn 148299.
+- Current Status: Standing on foot at (7, 5) on Map 0_227 (B1F) on Turn 148306.
 
 ## Active Backtracking Log (Turns 147920 - 148299)
 - Turn 147920: Captured legendary Pokémon Mewtwo (PSYGEM, Level 70) at (27, 13) using Master Ball and transferred it to Box 2.
