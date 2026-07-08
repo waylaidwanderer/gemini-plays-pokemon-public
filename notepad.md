@@ -8519,6 +8519,12 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
   - **Turn 141801**: Pressed Up from (0, 14) facing Up against (0, 13) and bumped (visited 0 tiles). Result: (0, 13) is a solid, impassable rock wall.
 - **Conclusive Finding**: Column 0's passable section on foot is strictly limited to Rows 14 and 15 on 1F Southwest, forming a 2-tile pocket. It does not provide any vertical on-foot bypass past Row 13. This satisfies the Burden of Proof and confirms our previous layout records.
 
+## Eastern Landmass 1F Row 17 Solid Blockage Verification Record
+- **Turn 148728**: Attempted to walk Down along Column 21 from (21, 15).
+- **Result**: BUMP (visited 0 tiles from (21, 15) to (21, 16) / (21, 17)).
+- **Visual Verification**: Labeled in screen overlay at (21, 17), (22, 17), and (23, 17) as solid rock walls of TYPE_2889.
+- **Conclusion**: Row 17 on Map 0_228 (1F) is completely blocked by solid rock walls of TYPE_2889 from Column 21 to Column 23, isolating on-foot traversal along Row 17 on the eastern landmass. To reach the exit at (24, 17) on foot, we must navigate along Row 15 from (21, 15) to (24, 15) and walk Down Column 24 through (24, 16) to (24, 17).
+
 <hr>
 
 <h1><code>Reflection/Turn113593_Reflection</code></h1>
