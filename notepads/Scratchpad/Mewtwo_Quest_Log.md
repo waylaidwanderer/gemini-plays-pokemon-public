@@ -1,5 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Surfing at (23, 4) on Map 0_228 (1F Eastern Canal) on Turn 148660.
+- Current Status: Surfing at (23, 5) on Map 0_228 (1F Eastern Canal) on Turn 148681.
 
 ## Active Backtracking Log (Turns 147920 - Present)
 - For detailed early overworld movement logs from Turn 148047 to Turn 148465, see 'Archive/Mewtwo_Quest_Log_Backtracking_Early'.
@@ -43,6 +43,15 @@
 - Turn 148649: Pressed Start to open the Start menu facing DOWN on Turn 148650.
 - Turn 148655: Redefined custom tool 'cave_bfs_solver' to include verified (19, 14) and (6, 7) blockages.
 - Turn 148658: Successfully boarded Surf from Water Ramp 1 at (23, 3) facing Down onto the water at (23, 4) on Turn 148660.
+- Turn 148663: Surfed Down to (23, 5) and Right to (24, 5) on Turn 148664.
+- Turn 148664: Attempted manual dismount facing Left and failed.
+- Turn 148668: Surfed Up to (24, 4) on Turn 148669.
+- Turn 148670: Surfed Down to (24, 5) on Turn 148671, leaving character facing DOWN.
+- Turn 148672: Attempted manual dismount and failed because character was pointing Left, not Down.
+- Turn 148674: Surfed Up to (24, 4), Left to (23, 4), and Down to (23, 5) on Turn 148675, leaving character facing DOWN.
+- Turn 148677: Attempted manual dismount at (23, 6) and failed because (23, 6) is a solid rock blockage.
+- Turn 148678: Pressed Down to test walk onto (23, 6) and bumped, confirming (23, 6) is solid.
+- Turn 148679: Pressed A facing Down at (23, 5) and failed due to (23, 6) blockage.
 
 ## Lower Level On-Foot Bypass Path & Verification Rigor
 - **Verified Segments (physically traversed on foot on this play session)**:
