@@ -102,6 +102,8 @@
   - Row 9 on 2F West from Column 21 to Column 10 (completely unblocked ground corridor).
   - Row 8 bypass on 2F West from Column 15 to Column 13 (unblocked ground floor bypass connecting Row 9 components).
   - Column 3 on 2F West from Row 9 to Row 11 (unblocked ground corridor leading directly to Ladder 6).
+  - Column 1 corridor on 1F Southwest from Row 11 to Row 16 (completely unblocked ground corridor).
+  - Row 17 corridor on 1F Southwest from Column 1 to Column 5 (completely unblocked ground corridor).
 - **Theoretical Segments (visually scanned / computed but currently untraversed)**:
   - Column 7 from Row 14 down to Row 15 (visually open and expected unblocked).
   - Row 15 from Column 7 left to Column 6 (visually open and expected unblocked).
