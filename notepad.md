@@ -8272,6 +8272,15 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 148655: Redefined custom tool 'cave_bfs_solver' to include verified (19, 14) and (6, 7) blockages.
 - Turn 148658: Successfully boarded Surf from Water Ramp 1 at (23, 3) facing Down onto the water at (23, 4) on Turn 148660.
 - Turn 148663: Surfed Down to (23, 5) and Right to (24, 5) on Turn 148664.
+- Turn 148668: Surfed Up to (24, 4) on Turn 148669.
+- Turn 148670: Surfed Down to (24, 5) on Turn 148671.
+- Turn 148674: Surfed Up to (24, 4), Left to (23, 4), and Down to (23, 5) on Turn 148675.
+- Turn 148678: Pressed Down from (23, 5) towards (23, 6) and bumped, proving (23, 6) is a solid rock blockage.
+- Turn 148682: Surfed Up to (23, 4), Right to (24, 4), and Down to (24, 5) on Turn 148683.
+- Turn 148688: Surfed Up to (24, 4) on Turn 148689.
+- Turn 148689: Surfed Down to (24, 5) to face DOWN on Turn 148690.
+- Turn 148691: Pressed Down from (24, 5) towards (24, 6) and bumped, physically verifying that pressing a direction towards standard land while surfing results in a bump and does NOT dismount, but successfully turns the player to face that direction.
+- Turn 148663: Surfed Down to (23, 5) and Right to (24, 5) on Turn 148664.
 - Turn 148664: Attempted manual dismount facing Left and failed.
 - Turn 148668: Surfed Up to (24, 4) on Turn 148669.
 - Turn 148670: Surfed Down to (24, 5) on Turn 148671, leaving character facing DOWN.
