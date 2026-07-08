@@ -1,5 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing at (20, 0) on Map 0_3 (Cerulean City) on Turn 148861. Preparing to walk south to the Pokémon Center at (19, 17).
+- Current Status: Standing at (22, 16) on Map 0_3 (Cerulean City) on Turn 148885. Preparing to jump south over the ledge at (22, 17) and enter the Pokémon Center.
 
 ## Next High-Level Objectives
 - Primary Goal: Travel to the Cerulean City Pokémon Center at (19, 17) to heal our team, access the PC, and inspect the newly captured Mewtwo (PSYGEM).
@@ -22,3 +22,7 @@
 - Turn 148844: Walked south along Nugget Bridge to (11, 30) on foot, bypassing Lass No. 4 at (10, 22) and Lass Ali at (10, 28).
 - Turn 148846: Walked south along Nugget Bridge to (10, 35) on foot, bypassing Bug Catcher Cale at (11, 31).
 - Turn 148855: Transitioned south from (10, 35) into Cerulean City at (20, 0) on foot.
+- Turn 148864: Walked south along Column 20 to (20, 4) on foot.
+- Turn 148868: Walked south along Column 20 to (20, 8) on foot.
+- Turn 148874: Walked south along Column 20 to (20, 12) on foot.
+- Turn 148880: Walked right and south around the building facade to reach (22, 16) on foot.
