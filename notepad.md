@@ -8303,6 +8303,11 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 148463: Walked Left and Up to (14, 8) on foot, fleeing wild Wigglytuff.
 - Turn 148465: Walked Left and Down to (10, 9) on foot.
 - Turn 148469: Walked Left to (3, 9), Down to (3, 11), and stepped on Ladder 6 to warp down to 1F Southwest at (3, 11) on foot.
+- Turn 148476: Walked down via wooden stairs at (1, 13) to (1, 16) on foot on 1F Southwest.
+- Turn 148480: Walked to (5, 17) on foot, fleeing wild Sandslash battle.
+- Turn 148489: Walked back to (1, 16) on foot.
+- Turn 148490: Walked to (3, 11) on foot and transitioned UP to 2F West.
+- Turn 148497: Walked off and back onto Ladder 6 to warp DOWN to 1F Southwest at (3, 11) on foot on Turn 148498.
 
 ## Lower Level On-Foot Bypass Path & Verification Rigor
 - **Verified Segments (physically traversed on foot on this play session)**:
