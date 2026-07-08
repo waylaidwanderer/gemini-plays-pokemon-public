@@ -8227,7 +8227,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Surfing at (23, 5) on Map 0_228 (1F Eastern Canal) on Turn 148681.
+- Current Status: Surfing at (25, 5) on Map 0_228 (1F Eastern Canal) on Turn 148695.
 
 ## Active Backtracking Log (Turns 147920 - Present)
 - For detailed early overworld movement logs from Turn 148047 to Turn 148465, see 'Archive/Mewtwo_Quest_Log_Backtracking_Early'.
