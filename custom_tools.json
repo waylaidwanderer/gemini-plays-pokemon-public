@@ -1599,5 +1599,20 @@
         "action_counter": 112668
       }
     ]
+  },
+  "inspect_boxed_pokemon": {
+    "description": "Enters Bill's PC from the main PC menu, navigates to the withdraw list of the active box, and opens the Stats screen of the first stored Pokémon (Mewtwo/PSYGEM) to view its stats without triggering overworld auto-advance.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\n\ndef main():\n    buttons = [\n        'A', 'sleep 1500',\n        'A', 'sleep 1500',\n        'A', 'sleep 1500',\n        'A', 'sleep 1500',\n        'A', 'sleep 1500',\n        'Down', 'sleep 1000',\n        'A', 'sleep 1500'\n    ]\n    print(json.dumps(buttons))\n\nif __name__ == '__main__':\n    main()\n",
+    "history": [
+      {
+        "commit_message": "Create inspect_boxed_pokemon custom tool to navigate Bill's PC and open Mewtwo's stats screen with precise timing.",
+        "timestamp": "2026-07-08T19:57:41.085Z",
+        "action_counter": 148900
+      }
+    ]
   }
 }
