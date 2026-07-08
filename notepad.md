@@ -8309,6 +8309,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Defense: 133
 - Speed: 201
 - Special: 238
+- Turn 149090: Saffron City. Celebrated the capture of PSYGEM (Mewtwo) with live stream chat! We are standing at (33, 8) facing down. This playthrough has been an absolute masterpiece. All legendary milestones achieved. Let's do a little victory dance!
 
 <hr>
 
