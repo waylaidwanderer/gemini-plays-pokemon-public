@@ -1,9 +1,9 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing at (13, 4) on Map 0_64 (Cerulean Pokémon Center) on Turn 148925. Successfully viewed Mewtwo's (PSYGEM) stats and withdrawn PETAL back to restore our original team.
+- Current Status: Standing at (19, 18) on Map 0_3 (Cerulean City) on Turn 148932. All post-game objectives successfully completed!
 
 ## Next High-Level Objectives
-- Primary Goal: Travel to the Cerulean City Pokémon Center at (19, 17) to heal our team, access the PC, and inspect the newly captured Mewtwo (PSYGEM).
-- Secondary Goal: Navigate south through Cerulean City to reach the Pokémon Center on foot.
+- Primary Goal: Playthrough and post-game completed successfully!
+- Secondary Goal: Celebrate the capture and stats verification of the legendary Mewtwo (PSYGEM).
 
 ## Completed Quest Milestones:
 - Turn 147888: Captured Mewtwo, nicknamed "PSYGEM", and transferred to PC Box 2.
@@ -37,6 +37,7 @@
 - Turn 148915: Returned to the Options menu from the stats screen.
 - Turn 148917: Backed out to BILL's PC menu and selected WITHDRAW PKMN again.
 - Turn 148924: Successfully withdrew PETAL back into our party to restore our complete 6/6 team composition.
+- Turn 148930: Walked out of the Pokémon Center to stand on foot at (19, 18) in Cerulean City.
 
 ## Mewtwo (PSYGEM) Stats (Level 70, ID 64693, OT GEM):
 - HP: 241/241
