@@ -8234,7 +8234,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing at (9, 0) on Map 0_16 (Route 5) on Turn 149041. All post-game objectives successfully completed and game saved!
+- Current Status: Standing at (9, 16) on Map 0_16 (Route 5) on Turn 149046. All post-game objectives successfully completed and game saved!
 
 ## Next High-Level Objectives
 - Primary Goal: Playthrough and post-game completed successfully!
