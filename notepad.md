@@ -10359,5 +10359,17 @@ Our custom tool `cave_bfs_solver` has been successfully updated on Turn 144660 t
 - Turn 148730: Walked along Row 15 to Column 24 and down to the exit at (24, 17) on foot.
 - Turn 148732: Stepped Down from (24, 17) to exit Cerulean Cave onto Map 0_3 (Cerulean City) at (4, 12).
 - Turn 148737: Walked Right to (5, 12) on foot.
+- Turn 148747: Opened the Start menu in Cerulean City.
+- Turn 148750: Activated GEMMY's SURF and boarded the water at (6, 12) facing Right.
+- Turn 148760: Surfed Down 4 steps along Column 6 to (6, 16), finding that Row 17's solid rock wall prevents dismounting south.
+- Turn 148764: Surfed Up 4 steps along Column 6 to (6, 12).
+- Turn 148768: Surfed Up 1 step to (6, 11).
+- Turn 148771: Surfed Up 4 steps to (6, 7) along Column 6.
+- Turn 148775: Surfed Up 2 steps to (6, 5).
+- Turn 148776: Surfed Right 5 steps to (11, 5).
+- Turn 148777: Surfed Right 4 steps to (15, 5).
+- Turn 148786: Surfed Up 5 steps to (15, 0).
+- Turn 148790: Surfed Up 1 step to transition north into Route 24 river at (5, 35) on Map 0_35.
+- Turn 148793: Surfed Right 2 steps to reach Column 7 at (7, 35).
 
 <hr>
