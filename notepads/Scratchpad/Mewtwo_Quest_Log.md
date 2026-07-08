@@ -1,5 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing at (22, 16) on Map 0_3 (Cerulean City) on Turn 148885. Preparing to jump south over the ledge at (22, 17) and enter the Pokémon Center.
+- Current Status: Standing at (4, 4) on Map 0_64 (Cerulean Pokémon Center) on Turn 148892. Preparing to access the PC at (13, 3) to view Mewtwo (PSYGEM).
 
 ## Next High-Level Objectives
 - Primary Goal: Travel to the Cerulean City Pokémon Center at (19, 17) to heal our team, access the PC, and inspect the newly captured Mewtwo (PSYGEM).
@@ -26,3 +26,6 @@
 - Turn 148868: Walked south along Column 20 to (20, 8) on foot.
 - Turn 148874: Walked south along Column 20 to (20, 12) on foot.
 - Turn 148880: Walked right and south around the building facade to reach (22, 16) on foot.
+- Turn 148886: Pressed Down from (22, 16) to jump south over the (22, 17) ledge onto (22, 18), walked Left along Row 18 to (19, 18), and walked Up to enter the Pokémon Center at (19, 17).
+- Turn 148888: Walked from the door entrance at (3, 7) to (4, 4) on foot to stand directly in front of Nurse Joy.
+- Turn 148890: Successfully healed team HP and PP using the custom tool 'heal_at_center'.
