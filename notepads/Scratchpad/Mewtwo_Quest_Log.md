@@ -1,7 +1,7 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (7, 5) on Map 0_227 (B1F) on Turn 148306.
+- Current Status: Standing on foot at (11, 2) on Map 0_227 (B1F) on Turn 148322.
 
-## Active Backtracking Log (Turns 147920 - 148299)
+## Active Backtracking Log (Turns 147920 - 148322)
 - Turn 147920: Captured legendary Pokémon Mewtwo (PSYGEM, Level 70) at (27, 13) using Master Ball and transferred it to Box 2.
 - Turn 147936: Boarded Surf to navigate water canals, subsequently exploring overworld bypasses and on-foot corridors.
 - Turn 148047: Fled successfully from wild Marowak battle at (19, 8) in the overworld facing Up.
@@ -45,6 +45,11 @@
 - Turn 148296: Walked Up, Up, Right, Up, Right from (0, 12) to reach (1, 10).
 - Turn 148297: Attempted to step Up, intercepted at (1, 9) by wild Marowak, and fled successfully on Turn 148298.
 - Turn 148298: Walked Up, Right, Right, Right, Up from (1, 10) to reach (4, 8) on foot, intercepted at (4, 8) by wild Ditto on Turn 148299. Standing at (4, 8).
+- Turn 148303: Walked from (4, 8) right to (6, 8), up to (6, 7), right to (7, 7) on foot, fleeing wild Raichu.
+- Turn 148305: Walked up Column 7 through (7, 6) to reach the upper level at (7, 5) on foot.
+- Turn 148315: Walked Right along Row 5 to (13, 5) on foot.
+- Turn 148317: Walked Up to (13, 4) on foot, fleeing wild Electrode.
+- Turn 148319: Walked Up to (13, 2) and Left to (11, 2) on foot, fleeing wild Chansey on Turn 148320. Standing on foot at (11, 2).
 
 ## Lower Level On-Foot Bypass Path & Verification Rigor
 - **Verified Segments (physically traversed on foot on this play session)**:
@@ -58,16 +63,17 @@
   - Row 10 from Column 0 right to Column 1 (completely unblocked ground floor).
   - Row 9 from Column 1 right to Column 3 (completely unblocked ground floor).
   - Row 17 from Column 6 left to Column 3 (completely unblocked on foot).
+  - Column 6 from Row 15 to Row 17 (verified segment).
+  - Row 17 from Column 3 to Column 2 (verified segment).
+  - Row 8 from Column 3 to Column 6 (verified segment).
+  - Row 7 from Column 6 to Column 7 (verified segment).
+  - Column 7 from Row 7 to Row 5 (verified segment).
+  - Row 5 from Column 7 to Column 13 (verified segment).
 - **Theoretical Segments (visually scanned / computed but currently untraversed)**:
   - Column 7 from Row 14 down to Row 15 (visually open and expected unblocked).
   - Row 15 from Column 7 left to Column 6 (visually open and expected unblocked).
-  - Column 6 from Row 15 down to Row 17 (visually open and expected unblocked).
-  - Row 17 from Column 3 left to Column 2 (visually open and expected unblocked).
   - Column 3 from Row 17 up to the stairs at (3, 6) (visually open and expected unblocked).
-  - Row 8 from Column 3 right to Column 6 (visually open and expected unblocked).
-  - Row 7 from Column 6 to Column 7 (visually open and expected unblocked).
-  - Column 7 from Row 7 up to Row 5 (visually open and expected unblocked).
-  - Row 5 from Column 7 to Column 3 (visually open and expected unblocked).
+  - Row 5 from Column 7 to Column 3 (blocked at (5, 5) and (6, 5) as proven on Turn 148310).
 
 ## B1F (Map 0_227) Verified Constraints
 - (3, 13) Blockage (Verified Turn 148169): Solid rock wall of TYPE_2889 on foot.
