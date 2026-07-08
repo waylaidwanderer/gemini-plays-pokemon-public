@@ -1,5 +1,5 @@
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing at (18, 20) on Map 0_3 (Cerulean City) on Turn 148987. All post-game objectives successfully completed and game saved!
+- Current Status: Standing at (9, 0) on Map 0_16 (Route 5) on Turn 149041. All post-game objectives successfully completed and game saved!
 
 ## Next High-Level Objectives
 - Primary Goal: Playthrough and post-game completed successfully!
@@ -38,6 +38,17 @@
 - Turn 148917: Backed out to BILL's PC menu and selected WITHDRAW PKMN again.
 - Turn 148924: Successfully withdrew PETAL back into our party to restore our complete 6/6 team composition.
 - Turn 148930: Walked out of the Pokémon Center to stand on foot at (19, 18) in Cerulean City.
+- Turn 148986: Walked south and left to stand at (18, 20) on foot.
+- Turn 148995: Walked east across the northern path of the city to reach (26, 21) on foot.
+- Turn 149003: Circumnavigated the right side of the building by walking up to (26, 20), right to (28, 20) and down to (28, 22) on foot.
+- Turn 149011: Walked right to Column 34 and down along the open channel to reach (34, 27) on foot.
+- Turn 149012: Walked left along the southern street Row 27 to stand at (25, 27) on foot.
+- Turn 149017: Interacted with the Slowbro at (28, 26) from (28, 27) and walked right to stand south of the Girl NPC at (29, 27) on foot.
+- Turn 149026: Spoke with the Girl NPC and walked left back along Row 27 to stand at (19, 27) on foot.
+- Turn 149032: Turned Down, opened the Start Menu, selected PETAL's CUT move, and successfully cleared the cuttable bush at (19, 28).
+- Turn 149035: Walked south into the cut bush corridor, stepping down to (19, 31) on foot.
+- Turn 149037: Walked south to jump over the southern ledge at (19, 33), landing at (19, 35) on foot.
+- Turn 149038: Stepped Down and successfully transitioned south from Cerulean City into Route 5 at (9, 0) on foot.
 
 ## Mewtwo (PSYGEM) Stats (Level 70, ID 64693, OT GEM):
 - HP: 241/241
