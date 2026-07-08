@@ -8234,7 +8234,7 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing at (20, 0) on Map 0_10 (Saffron City) on Turn 149063. All post-game objectives successfully completed and game saved!
+- Current Status: Standing at (20, 8) on Map 0_10 (Saffron City) on Turn 149071. All post-game objectives successfully completed and game saved!
 
 ## Next High-Level Objectives
 - Primary Goal: Playthrough and post-game completed successfully!
@@ -8296,17 +8296,8 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 149052: Walked down to enter Route 5's Saffron Gatehouse (Map 0_70) at (4, 0) on foot.
 - Turn 149055: Walked down to exit Saffron Gatehouse and transition into Saffron City at (10, 34) on Route 5's map space (Map 0_16) on foot.
 - Turn 149059: Walked down to transition into Saffron City's main map (Map 0_10) at (20, 0) on foot.
-- Turn 148986: Walked south and left to stand at (18, 20) on foot.
-- Turn 148995: Walked east across the northern path of the city to reach (26, 21) on foot.
-- Turn 149003: Circumnavigated the right side of the building by walking up to (26, 20), right to (28, 20) and down to (28, 22) on foot.
-- Turn 149011: Walked right to Column 34 and down along the open channel to reach (34, 27) on foot.
-- Turn 149012: Walked left along the southern street Row 27 to stand at (25, 27) on foot.
-- Turn 149017: Interacted with the Slowbro at (28, 26) from (28, 27) and walked right to stand south of the Girl NPC at (29, 27) on foot.
-- Turn 149026: Spoke with the Girl NPC and walked left back along Row 27 to stand at (19, 27) on foot.
-- Turn 149032: Turned Down, opened the Start Menu, selected PETAL's CUT move, and successfully cleared the cuttable bush at (19, 28).
-- Turn 149035: Walked south into the cut bush corridor, stepping down to (19, 31) on foot.
-- Turn 149037: Walked south to jump over the southern ledge at (19, 33), landing at (19, 35) on foot.
-- Turn 149038: Stepped Down and successfully transitioned south from Cerulean City into Route 5 at (9, 0) on foot.
+- Turn 149064: Walked south along Column 20 in Saffron City to reach (20, 4) on foot.
+- Turn 149067: Walked south, jumping over Saffron's northern ledge to stand at (20, 8) on foot.
 
 ## Mewtwo (PSYGEM) Stats (Level 70, ID 64693, OT GEM):
 - HP: 241/241
