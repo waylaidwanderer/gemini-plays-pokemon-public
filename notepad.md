@@ -8227,9 +8227,9 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (11, 2) on Map 0_227 (B1F) on Turn 148322.
+- Current Status: Standing on foot at (3, 2) on Map 0_227 (B1F) on Turn 148329.
 
-## Active Backtracking Log (Turns 147920 - 148322)
+## Active Backtracking Log (Turns 147920 - 148329)
 - Turn 147920: Captured legendary Pokémon Mewtwo (PSYGEM, Level 70) at (27, 13) using Master Ball and transferred it to Box 2.
 - Turn 147936: Boarded Surf to navigate water canals, subsequently exploring overworld bypasses and on-foot corridors.
 - Turn 148047: Fled successfully from wild Marowak battle at (19, 8) in the overworld facing Up.
@@ -8277,7 +8277,9 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 148305: Walked up Column 7 through (7, 6) to reach the upper level at (7, 5) on foot.
 - Turn 148315: Walked Right along Row 5 to (13, 5) on foot.
 - Turn 148317: Walked Up to (13, 4) on foot, fleeing wild Electrode.
-- Turn 148319: Walked Up to (13, 2) and Left to (11, 2) on foot, fleeing wild Chansey on Turn 148320. Standing on foot at (11, 2).
+- Turn 148319: Walked Up to (13, 2) and Left to (11, 2) on foot, fleeing wild Chansey on Turn 148320.
+- Turn 148325: Walked Left along Row 2 to (8, 2) on foot, fleeing wild Marowak on Turn 148326.
+- Turn 148328: Walked Left 5 steps along Row 2 to reach (3, 2) on foot. Standing at (3, 2).
 
 ## Lower Level On-Foot Bypass Path & Verification Rigor
 - **Verified Segments (physically traversed on foot on this play session)**:
