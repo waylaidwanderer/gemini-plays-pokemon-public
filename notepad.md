@@ -8227,9 +8227,9 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 <h1><code>Scratchpad/Mewtwo_Quest_Log</code></h1>
 
 # Post-Game Mewtwo Quest Log & Active Routing
-- Current Status: Standing on foot at (4, 5) on Map 0_226 (2F West) on Turn 148386.
+- Current Status: Standing on foot at (1, 9) on Map 0_226 (2F West) on Turn 148401.
 
-## Active Backtracking Log (Turns 147920 - 148386)
+## Active Backtracking Log (Turns 147920 - 148401)
 - Turn 147920: Captured legendary Pokémon Mewtwo (PSYGEM, Level 70) at (27, 13) using Master Ball and transferred it to Box 2.
 - Turn 147936: Boarded Surf to navigate water canals, subsequently exploring overworld bypasses and on-foot corridors.
 - Turn 148047: Fled successfully from wild Marowak battle at (19, 8) in the overworld facing Up.
@@ -8286,7 +8286,11 @@ To optimize exploration on the unmapped basement floor (B1F), we propose creatin
 - Turn 148346: Walked Left 3 steps from (5, 4) to (2, 4), fleeing wild Dodrio on Turn 148347.
 - Turn 148349: Walked Up and Left from (2, 4) to stand on the Northwest Ladder at (1, 3) on foot, which automatically warped us up to 2F West (Map 0_226) at (1, 3) on Turn 148350.
 - Turn 148368: Walked Left to (0, 3) and Down along Column 0 to (0, 5) on foot, fleeing wild Kadabra at (0, 5) on Turn 148369.
-- Turn 148370: Walked Right 4 steps from (0, 5) to reach (4, 5) on foot. Standing at (4, 5).
+- Turn 148370: Walked Right 4 steps from (0, 5) to reach (4, 5) on foot.
+- Turn 148388: Walked Right, Right, Down, Down, Left, Left from (4, 5) to reach (4, 7) on foot.
+- Turn 148392: Walked Left 1 step to (3, 7) on foot, fleeing wild Venomoth on Turn 148393.
+- Turn 148395: Walked Left, Left, Down from (3, 7) to reach (1, 8) on foot.
+- Turn 148396: Walked Down 1 step from (1, 8) to (1, 9) on foot, fleeing wild Ditto on Turn 148397. Standing at (1, 9) on foot.
 
 ## Lower Level On-Foot Bypass Path & Verification Rigor
 - **Verified Segments (physically traversed on foot on this play session)**:
