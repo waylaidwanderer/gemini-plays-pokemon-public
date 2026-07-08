@@ -91,6 +91,14 @@
 - Turn 148548: Walked Right, Down, and Right 6 steps to reach (8, 17) on foot on Turn 148549.
 - Turn 148551: Walked Right 7 steps and Up 1 step to (15, 16) on foot on Turn 148552.
 - Turn 148555: Walked Right 2 steps, Up 2 steps, and Right 2 steps to reach (18, 14) on foot on Turn 148556.
+- Turn 148566: Tested (19, 14) on 1F and bumped, physically verifying (19, 14) as a solid rock wall of TYPE_2889.
+- Turn 148573: Walked Left from (18, 14) towards (11, 13), interrupted at (15, 14) by wild Venomoth, and fled successfully on Turn 148574.
+- Turn 148577: Walked Up, Up, Left, Left to reach (13, 12) on foot.
+- Turn 148582: Walked Left, Left, Down to reach Water Ramp 2 at (11, 13) on foot on Turn 148584.
+- Turn 148594: Successfully boarded Surf from (11, 13) facing Down onto water at (11, 14) on Turn 148595.
+- Turn 148605: Surfed Left 3 steps along Row 14 water to reach (8, 14).
+- Turn 148615: Surfed Up 3 steps along Column 8 to reach (8, 7) on Turn 148616.
+- Turn 148616: Surfed Right 5 steps along Row 7 crossover to reach (13, 7) on Turn 148617.
 
 ## Lower Level On-Foot Bypass Path & Verification Rigor
 - **Verified Segments (physically traversed on foot on this play session)**:
