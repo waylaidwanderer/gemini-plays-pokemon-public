@@ -10443,3 +10443,63 @@ Our custom tool `cave_bfs_solver` has been successfully updated on Turn 144660 t
 - Turn 148793: Surfed Right 2 steps to reach Column 7 at (7, 35).
 
 <hr>
+
+<h1><code>Archive/Mewtwo_Quest_Log_Backtracking_Late</code></h1>
+
+# Archived Late Mewtwo Backtracking & Celebration Log (Turns 148864 - 149179)
+
+- Turn 148864: Walked south along Column 20 to (20, 4) on foot.
+- Turn 148868: Walked south, jumping over Saffron's northern ledge to stand at (20, 8) on foot.
+- Turn 148876: Walked right and south along the corridors of Saffron City to stand at (23, 9) on foot.
+- Turn 148877: Walked north to Row 7 and east along Saffron City's streets to stand at (28, 7) on foot.
+- Turn 148880: Walked right and south around the building facade to reach (22, 16) on foot.
+- Turn 148886: Pressed Down from (22, 16) to jump south over the (22, 17) ledge onto (22, 18), walked Left along Row 18 to (19, 18), and walked Up to enter the Pokémon Center at (19, 17).
+- Turn 148888: Walked from the door entrance at (3, 7) to (4, 4) on foot to stand directly in front of Nurse Joy.
+- Turn 148890: Successfully healed team HP and PP using the custom tool 'heal_at_center'.
+- Turn 148894: Walked from the counter at (4, 4) to (13, 4) on foot to stand directly in front of the PC terminal.
+- Turn 148896: Activated the PC terminal.
+- Turn 148900: Selected WITHDRAW PKMN but got blocked because the party was full (6/6). Defined the inspect_boxed_pokemon custom tool.
+- Turn 148908: Stored PETAL (Bellsprout) in Box 2 to free up a party slot (5/6).
+- Turn 148911: Accessed BILL's PC, opened Box 2, and successfully opened PSYGEM's stats screen to view stats.
+- Turn 148915: Returned to the Options menu from the stats screen.
+- Turn 148917: Backed out to BILL's PC menu and selected WITHDRAW PKMN again.
+- Turn 148924: Successfully withdrew PETAL back into our party to restore our complete 6/6 team composition.
+- Turn 148930: Walked out of the Pokémon Center to stand on foot at (19, 18) in Cerulean City.
+- Turn 148986: Walked south and left to stand at (18, 20) on foot in Cerulean City.
+- Turn 148995: Walked east to reach (26, 21) on foot in Cerulean City.
+- Turn 149001: Walked up and right to bypass the blue building to stand at (29, 21) on foot.
+- Turn 149009: Walked right to stand at (32, 23) on foot.
+- Turn 149011: Walked right and down Saffron street Row 27 to reach (34, 27) on foot.
+- Turn 149012: Walked left along Saffron street Row 27 to stand at (25, 27) on foot.
+- Turn 149014: Walked right to stand south of Slowbro at (28, 27) on foot.
+- Turn 149016: Spoke to Slowbro at (28, 26).
+- Turn 149019: Walked right to stand south of the Girl NPC at (29, 27) and spoke to her at (29, 26).
+- Turn 149026: Walked left back along Row 27 to stand at (19, 27) on foot.
+- Turn 149032: Used PETAL's CUT to clear the cuttable bush at (19, 28) and walked Down to (19, 28) on foot.
+- Turn 149034: Walked down to (19, 31) on foot.
+- Turn 149035: Walked down, jumping the southern ledge at (19, 33) to stand at (19, 35) on Route 5 on foot.
+- Turn 149037: Walked down, transitioning onto Route 5 at (9, 0) on foot.
+- Turn 149043: Walked down, jumping the ledge at (9, 3) to stand at (9, 5) on foot.
+- Turn 149044: Walked down, jumping the ledge at (9, 7) to stand at (9, 10) on foot.
+- Turn 149045: Walked down, jumping the ledge at (9, 11) to stand at (9, 16) on foot.
+- Turn 149047: Walked left to Column 6 and south to Row 21 to bypass the yellow building, standing at (6, 21) on foot.
+- Turn 149049: Walked down, jumping the ledge at (6, 23) to stand at (6, 26) on foot.
+- Turn 149051: Walked right to (10, 26) on foot.
+- Turn 149052: Walked down to enter Route 5's Saffron Gatehouse (Map 0_70) at (4, 0) on foot.
+- Turn 149055: Walked down to exit Saffron Gatehouse and transition into Saffron City at (10, 34) on Route 5's map space (Map 0_16) on foot.
+- Turn 149059: Walked down to transition into Saffron City's main map (Map 0_10) at (20, 0) on foot.
+- Turn 149064: Walked south along Column 20 in Saffron City to reach (20, 4) on foot.
+- Turn 149067: Walked south, jumping over Saffron's northern ledge to stand at (20, 8) on foot.
+- Turn 149076: Walked right and south along the corridors of Saffron City to stand at (23, 9) on foot.
+- Turn 149077: Walked north to Row 7 and east along Saffron City's streets to stand at (28, 7) on foot.
+- Turn 149080: Walked south to stand at (28, 8) on foot.
+- Turn 149082: Walked right along Row 8 from (28, 8) to (33, 8) on foot.
+- Turn 149090: Saffron City. Celebrated the capture of PSYGEM (Mewtwo) with live stream chat! We are standing at (33, 8) facing down. Let's do a little victory dance!
+- Turn 149094: Executed a victory spin (Left, Up, Right, Down) at (33, 8) on foot.
+- Turn 149098: Opened the Start menu in Saffron City.
+- Turn 149099: Moved cursor down to SAVE and pressed A to open the save screen.
+- Turn 149105: Pressed A on the SAVE prompt, successfully saving the game and completing the post-game!
+- Turn 149174: Confirmed complete post-game closure. Standing at (33, 8) in Saffron City facing down. This play session is cleanly finalized.
+- Turn 149179: Cleanly finalized the play session with zero active loop calls. The ultimate first Pokémon playthrough is 100% complete.
+
+<hr>
