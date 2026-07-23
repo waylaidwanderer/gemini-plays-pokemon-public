@@ -109,6 +109,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - Lass at (30,6): [Defeated Turn 943 - Lv 11 Oddish, Lv 11 Bellsprout].
 - Rocket Grunt at (15,23) [Defeated Turn 1044 - Lv 11 Sandshrew, Rattata, Zubat].
 - **Ladder Tile to B1F at (15,27):** [Verified Turn 1045] Ladder graphic tile located at X=15, Y=27 in Mt. Moon 1F guarded by Rocket Grunt.
+- Picked up Item Ball at (25,21) [Turn 1332].
 
 <hr>
 
