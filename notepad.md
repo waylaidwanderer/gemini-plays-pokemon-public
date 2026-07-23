@@ -30,7 +30,7 @@
 - **Starter Pokémon:** Squirtle (Lv 14) [Level 14 reached on Turn 590]
   - **Nickname:** SHELLSHOCK
   - **Moves:** Tackle, Tail Whip, Bubble
-  - **HP:** 26/38 HP [Defeated Gym Leader Brock on Turn 565]
+  - **HP:** 15/40 HP [Verified Turn 601]
 - **Route 1 Geometry:** South-facing ledges at y=27 (gap at x=6..8), y=23 (gap at x=12..15), y=19 (gap at x=4..5), and y=13 (gap at x=15..16) [Verified Turns 189-217].
 - **Key Items:** Pokédex (Obtained from Prof. Oak on Turn 265).
 - **Inventory:** 5 Poké Balls (Bought in Viridian Pokémart on Turn 286), TM34 (Bide) [Obtained from Brock on Turn 565].
