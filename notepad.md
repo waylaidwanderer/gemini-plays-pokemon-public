@@ -129,8 +129,8 @@
 
 ## Catching Plan (Turn 260)
 - Goal: Catch a wild Pidgey or Rattata on Route 1.
-- Location: Tall grass columns 10-11, rows 0-5.
-- Strategy: Pace between (10, 2) and (10, 3). When an encounter is triggered, reduce its HP with Tackle or just throw a Poké Ball if it's low level. Shellby is Level 8, so Tackle might be strong. We have 10 Poké Balls.
+- Location: Tall grass columns 5-9 and 12-15, rows 2-3.
+- Strategy: Pace between (8, 2) and (8, 3). When an encounter is triggered, reduce its HP with Tackle or just throw a Poké Ball if it's low level. Shellby is Level 8, so Tackle might be strong. We have 10 Poké Balls.
 
 <hr>
 
