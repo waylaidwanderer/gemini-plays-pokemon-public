@@ -21,7 +21,7 @@
   - Right Pokéball (8,3): Bulbasaur
 
 ## Current Progress & Party
-- **Starter Pokémon:** Squirtle (Lv 10) [Level 10 reached on Turn 460]
+- **Starter Pokémon:** Squirtle (Lv 11) [Level 11 reached on Turn 531]
   - **Nickname:** SHELLSHOCK
   - **Moves:** Tackle, Tail Whip, Bubble
   - **HP:** 32/32 [Cured of poison Turn 463, fully healed at Pewter Pokémon Center Turn 500]
