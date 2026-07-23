@@ -49,7 +49,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
     - Youngster at (14,4) [Defeated Turn 685 - Rattata, Ekans]
     - Bug Catcher #2 at (19,5) [Defeated Turn 702 - Lv 9 Weedle, Kakuna, Caterpie]
     - Lass at (20,4) [Defeated Turn 712 - Lv 10 Rattata, Nidoran♂]
-    - Bug Catcher #3 at (24,6) [Engaged Turn 718 - Lv 11 Caterpie]
+    - Bug Catcher #3 at (24,6) [Defeated Turn 735 - Lv 11 Caterpie, Metapod]
 - **Tier 2 (Middle / Rows 8-10):** Connected to Pewter City exit at (0,10).
   - *Trainers:* Lass at (16,9) [Defeated Turn 593], Youngster at (22,9).
   - *Boundaries:* Separated from Tier 1 by Row 7 south-facing ledges. Separated from Tier 3 by Row 11 ledges.
