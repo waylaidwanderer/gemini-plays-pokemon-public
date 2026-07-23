@@ -27,6 +27,6 @@
   - **HP:** 23/23
   - **Status:** Defeated Rival RED's Bulbasaur in Oak's Lab!
 - **Route 1 Geometry:** South-facing ledges at y=27 (gap at x=6..8), y=23 (gap at x=12..15), y=19 (gap at x=4..5), and y=13 (gap at x=15..16).
-- **Viridian City Overworld:** South Entrance at (21,35). Row 27 Ledge Gap is at (34,27). Pokémon Center Door at (23,25). Pokémart Door at (29,19).
+- **Viridian City Overworld:** South Entrance at (21,35). Row 27 has a ledge extending across X=31..35 (cannot walk UP through Y=27 here). Must walk west to reach the main road north. Pokémon Center Door at (23,25). Pokémart Door at (29,19).
 
 <hr>
