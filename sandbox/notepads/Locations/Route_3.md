@@ -26,3 +26,4 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Tile (48,7) Ledge:** [Verified Turn 780] Tile (48,7) is a solid ledge blocking upward movement from (48,8).
 - **Row 7 Ledge Gap at Columns 34-37:** [Verified Turn 744] Row 7 has an open two-way gap at X=34..37 connecting Tier 2/3 (Row 8-10) UP to Tier 1 upper highway (Row 4-6).
 - **Tile (57,7) Ledge:** [Verified Turn 784] Tile (57,7) is a solid south-facing ledge blocking upward movement from (57,8).
+- **Route 4 Transition Corridor at (58,8):** [Verified Turn 785] Tile (58,8) is an open upper path bypassing the Row 7 ledge, connecting to (59,8) and the northbound Route 4 highway!
