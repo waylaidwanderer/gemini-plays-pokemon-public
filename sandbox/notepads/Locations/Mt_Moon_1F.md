@@ -12,3 +12,4 @@
 - **Item Ball at (2,20):** [Verified Turn 824] Item ball located in western chamber at X=2, Y=20.
 - Picked up Item Ball at (2,20) [Turn 825].
 - **Western Chamber (Rows 16-20, Columns 2-7):** [Verified Turn 825] Large open chamber in north-western section of 1F.
+- **Western Alcove Cleared:** [Verified Turn 827] Rows 16-19 west of Column 8 are solid rock wall. Western alcove (Columns 2-7, Rows 20-24) contains Item Ball (picked up) and Bug Catcher (defeated). Retracing East along Row 24 toward main hall.
