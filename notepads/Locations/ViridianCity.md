@@ -32,3 +32,7 @@
 - **Walkable Gap / Route 22 Path:**
   - **Clear Ground Opening:** (3, 16) and (3, 17) are clear ground (unblocked), allowing the player to walk Left from column 4 to columns 0, 1, 2 (the path to Route 22).
   - **Coordinates:** Walking Left through (4, 16) -> (3, 16) -> (2, 16) -> (1, 16) -> (0, 16) leads directly to Route 22.
+
+## Northern Boundary & Route 2 Exit (Row 1)
+- **Fence Obstruction:** (19, 1) has a decorative fence that blocks straight upward movement on column 19.
+- **Clear Bypass (Column 18):** Column 18 is completely clear. Walking through (19, 2) -> (18, 2) -> (18, 1) -> (18, 0) allows the player to bypass the fence and exit north to Route 2.
