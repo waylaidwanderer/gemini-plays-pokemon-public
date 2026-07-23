@@ -136,7 +136,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Column 30 West Wall Face (Rows 20-27):** [Verified Turn 1682] Column 30 has a solid west cliff face blocking eastward movement from Col 29 across Rows 20-27.
 - **Row 28 South Ledge at Col 29:** [Verified Turn 1683] Row 28 at (29,28) is a solid cliff face blocking Southward movement from (29,27).
 - **Eastern Highway Passage (Cols 34-37, Rows 7-27):** [Disproved Turn 1767] Column 28 is a solid rock wall blocking Row 27 South Corridor from connecting directly to Columns 34-37. Eastern Highway is isolated from South Corridor.
-- **Decorative Ladder Graphic at (25,15):** [Verified Turn 1063/1404] Graphic tile at (25,15) is decorative/non-functional and does NOT warp.
 - **Top Horizontal Corridor (Rows 2-7, Columns 20-37):** [Verified Turn 1066-1081] Large open upper chamber/corridor spanning Rows 2-7 across Columns 20 to 37.
 - **East Wall Boundary (Column 28 at Rows 12-20):** [Verified Turn 1695] Solid purple rock wall at Column 28 bounds the Eastern Chamber on the East.
 - **Eastern Chamber Summary (Cols 24-27, Rows 14-25):** [Verified Turn 1715] Enclosed dead-end room with decorative ladder at (25,15). Only exit is South at (24,26) to South Corridor.
