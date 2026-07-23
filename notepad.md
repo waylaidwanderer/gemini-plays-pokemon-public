@@ -27,7 +27,7 @@
 
 ## Current Progress & Party
 - **Badges:** 1 (Boulder Badge) [Obtained from Brock on Turn 565]
-- **Starter Pokémon:** Squirtle (Lv 16) [Level 16 reached on Turn 695]
+- **Starter Pokémon:** Wartortle (Lv 16) [Evolved Turn 703]
   - **Nickname:** SHELLSHOCK
   - **Moves:** Tackle, Tail Whip, Bubble, Water Gun
   - **HP:** 21/45 HP [Verified Turn 696]
