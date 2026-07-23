@@ -8,3 +8,4 @@
 - Picked up Item Ball at (29,5) [Turn 1115].
 - **Spotted NPC at (29,11):** [Spotted Turn 1095] Trainer/Grunt sprite at X=29, Y=11 in B2F.
 - **Rocket Grunt at (29,10):** [Defeated Turn 1106 - Lv 12 Zubat, Lv 12 Ekans].
+- **Passage to Lower Level (Columns 26-27):** [Verified Turn 1124] Open floor corridor down through Row 12 at Columns 26-27 leading to stairs/slopes at (26,15) and (27,15).
