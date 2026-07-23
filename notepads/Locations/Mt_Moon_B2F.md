@@ -14,3 +14,4 @@
 - **West Wall Boundary at Column 23:** [Verified Turn 1182] Column 23 is a solid rock wall blocking West across Rows 5-13.
 - **Enclosed B2F Side-Room:** [Verified Turn 1195] B2F room (Cols 24-35, Rows 5-11) is fully enclosed by Col 23 West wall, Col 36 East wall, Row 4 North wall, and Row 12 South wall.
 - **South Passage at Columns 32-33:** [Verified Turn 1193] Columns 32-33 provide an open floor passage on Row 12 leading South directly to stairs at (32,15)-(33,15) into the main lower cavern.
+- **B2F Connector vs Main Cavern Discovered:** [Verified Turn 1250] Ladder (17,11) in B2F Connector Room warps to B2F Main Cavern at (25,9), where Column 26+ is open floor leading East to South Passage at (32,12).
