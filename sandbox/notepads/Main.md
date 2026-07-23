@@ -27,7 +27,7 @@
 - **Starter Pokémon:** Squirtle (Lv 12) [Level 12 reached on Turn 539]
   - **Nickname:** SHELLSHOCK
   - **Moves:** Tackle, Tail Whip, Bubble
-  - **HP:** 36/36 (100% Full Health) [Fully healed at Pewter Pokémon Center on Turn 546]
+  - **HP:** 36/36 (100% Full Health) [Blacked out at Brock, fully restored on Turn 556]
 - **Route 1 Geometry:** South-facing ledges at y=27 (gap at x=6..8), y=23 (gap at x=12..15), y=19 (gap at x=4..5), and y=13 (gap at x=15..16) [Verified Turns 189-217].
 - **Key Items:** Pokédex (Obtained from Prof. Oak on Turn 265).
 - **Inventory:** 5 Poké Balls (Bought in Viridian Pokémart on Turn 286).
