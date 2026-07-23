@@ -10,7 +10,7 @@
 - **SHELLBY (Squirtle):**
   - **Level:** 9
   - **Moveset:** Tackle, Tail Whip, Bubble
-  - **HP:** 25 / 25
+  - **HP:** 17 / 27
   - **Status:** Healthy
 - **NIBBLES (Rattata):**
   - **Level:** 3
