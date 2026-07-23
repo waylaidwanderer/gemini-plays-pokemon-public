@@ -33,6 +33,10 @@
 - **Ledge at y=27:** One-way ledge (jumpable going south).
 - **Grey Fence Stones at y=32:** Blocks x=5-9 and x=12-17.
   - *Bypass/Gap:* Walk through tall grass corridor at x=10 and x=11 (this is the only entrance/exit to/from Pallet Town).
+- **Northern Segment Layout (near Viridian City exit):**
+  - **Fences:** Row 1 has solid gray fence stones from x=3 to x=9, and x=12 to x=18 (blocking direct passage north except through the gap).
+  - **Clear Path:** Columns 10 and 11 are clear ground (gray with vertical dots) from row 0 to row 4, forming the main north-south road to/from Viridian City.
+  - **Decorative Lawn:** Columns 5 to 9 and 12 to 15 on rows 2 and 3 contain checkered green decorative lawn, which has a 0% encounter rate. The actual tall grass (leafy texture) only starts at row 6.
 
 ## Daisy's House (Blue's House)
 - **Daisy's House Door (Pallet Town):** (13, 5). Exiting Daisy's house spawns the player at (13, 6) facing Down.
@@ -41,7 +45,3 @@
   - **Table with Book/Map:** Located at (3, 3).
   - **Player standing position to talk to Daisy:** Standing at (2, 4) facing Up.
   - **Exit Warp/Door Mats:** (2, 7) and (3, 7). Walking Down from (2, 7) or (3, 7) warps you back to Pallet Town.
-- **Northern Segment Layout (near Viridian City exit):**
-  - **Fences:** Row 1 has solid gray fence stones from x=3 to x=9, and x=12 to x=18 (blocking direct passage north except through the gap).
-  - **Clear Path:** Columns 10 and 11 are clear ground (gray with vertical dots) from row 0 to row 4, forming the main north-south road to/from Viridian City.
-  - **Decorative Lawn:** Columns 5 to 9 and 12 to 15 on rows 2 and 3 contain checkered green decorative lawn, which has a 0% encounter rate. The actual tall grass (leafy texture) only starts at row 6.
