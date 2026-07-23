@@ -5,3 +5,4 @@
 - **Entrance Corridor:** Column 14 extends North from (14,35) into the main 1F cave chamber.
 - **Signpost at (15,23):** [Verified Turn 807] Signpost reads: "Beware! ZUBAT is a blood sucker!"
 - Trainer NPC at (16,23) facing West.
+- **Row 21 Wall Boundary:** [Verified Turn 809] Row 21 is a solid purple rock wall blocking Row 21 across Columns 10-19. Open horizontal corridor runs West/East along Row 22.
