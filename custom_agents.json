@@ -1,9 +1,1 @@
-{
-  "party_stats_monitor": {
-    "agent_name": "party_stats_monitor",
-    "agent_description": "Tracks and updates party Pokémon statistics (HP, Level, Moves, Status) across turns.",
-    "agent_system_prompt": "You are a party statistics tracker. Your goal is to process the current party screen information and maintain a structured markdown format of the team's levels, HP, movesets, and status. When given screen text or party details, format them clearly.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"party_screen_text\": {\"type\": \"string\", \"description\": \"The text extracted from the Pokémon screen or status.\"}}, \"required\": [\"party_screen_text\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"party_stats_markdown\": {\"type\": \"string\", \"description\": \"The updated party statistics in clean markdown format.\"}}, \"required\": [\"party_stats_markdown\"]}"
-  }
-}
+{}
