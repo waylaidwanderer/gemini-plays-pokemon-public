@@ -19,3 +19,4 @@
 - Turn 340: Column 14 is a log post wall from Y=34..41. Open westbound corridor is at row 43 (X=12..17, Y=43).
 - Turn 342: Column 10..13 trees block at Y=39. Main northbound corridor is at column 6/7 (X=6..7).
 - Turn 343: Reached (7, 30) on main forest highway. Spotted Item Ball at (12, 29).
+- Turn 344: Standing at (12, 32), tree at (12, 31) blocks column 12. Routing via column 10 to collect Item Ball at (12, 29).
