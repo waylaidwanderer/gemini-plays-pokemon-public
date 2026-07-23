@@ -26,9 +26,14 @@
 
 ### Pallet Town (Overworld)
 - **Red's House Door:** (5, 5). Exiting Red's house spawns the player at (5, 6) facing Down.
+- **Oak's Lab Door:** (12, 11). Exiting Oak's Lab spawns the player at (12, 12) facing Down.
 - **Route 1 Entrance:** Tall Grass starts at (10, 1) and (11, 1).
   - Attempting to step onto (10, 1) or (11, 1) triggers Professor Oak's event.
   - Fences line the north boundary from x=4 to x=9 at y=1, blocking direct passage north except through the tall grass gap at x=10-11.
+
+### Route 1
+- **Map ID:** 3
+- **Bottom Entrance (from Pallet Town):** (10, 35) and (11, 35).
 
 ## Rules & Learnings
 - **mgba.get_coordinates() Warning:** Returns `{'x': 0, 'y': 0}` in some emulator/harness states. Do NOT trust it for spatial tracking in scripts. Use the injected `GameStateInformation` coordinate report in the system prompt instead.
