@@ -21,12 +21,12 @@
   - Right Pokéball (8,3): Bulbasaur
 
 ## Current Progress & Party
-- **Starter Pokémon:** Squirtle (Lv 9) [Level 9 reached on Turn 388]
+- **Starter Pokémon:** Squirtle (Lv 10) [Level 10 reached on Turn 460]
   - **Nickname:** SHELLSHOCK
   - **Moves:** Tackle, Tail Whip, Bubble
-  - **HP:** 23/29 [Verified Turn 389]
+  - **HP:** 8/29 (PSN) [Verified Turn 461]
 - **Route 1 Geometry:** South-facing ledges at y=27 (gap at x=6..8), y=23 (gap at x=12..15), y=19 (gap at x=4..5), and y=13 (gap at x=15..16) [Verified Turns 189-217].
-- **Viridian City Overworld:** South Entrance at (21,35). Pokémon Center Door at (23,25). Pokémart Door at (29,19). Ledge gap at X=19, Y=27.
+- **Viridian City Overworld:** South Entrance at (21,35). Pokémon Center Door at (23,25). Pokémart Door at (29,19). Ledge gap at X=19, Y=27 [Verified Turn 243].
 - **Key Items:** Pokédex (Obtained from Prof. Oak on Turn 265).
 - **Inventory:** 5 Poké Balls (Bought in Viridian Pokémart on Turn 286), 1 Potion.
 
