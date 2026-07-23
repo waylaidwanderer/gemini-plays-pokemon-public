@@ -36,3 +36,12 @@
 - **Ledge at y=27:** One-way ledge (jumpable going south).
 - **Grey Fence Stones at y=32:** Blocks x=5-9 and x=12-17.
   - *Bypass/Gap:* Walk through tall grass corridor at x=10 and x=11 (this is the only entrance/exit to/from Pallet Town).
+
+## Daisy's House (Blue's House)
+- **Map ID:** 1 (standard/implied but layout is verified inside)
+- **Daisy's House Door (Pallet Town):** (13, 5). Exiting Daisy's house spawns the player at (13, 6) facing Down.
+- **Inside Daisy's House Layout:**
+  - **Daisy:** Sits at (2, 3) behind a table.
+  - **Table with Book/Map:** Located at (3, 3).
+  - **Player standing position to talk to Daisy:** Standing at (2, 4) facing Up.
+  - **Exit Warp/Door Mats:** (2, 7) and (3, 7). Walking Down from (2, 7) or (3, 7) warps you back to Pallet Town.
