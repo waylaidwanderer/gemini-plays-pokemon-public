@@ -29,3 +29,4 @@
 - **Central Wall Boundary (Row 21):** Row 21 is a solid rock wall across Columns 14-21. Bypassed via Column 12-13 corridor.
 - **Western Highway (Columns 12-13):** [Verified Turn 1376] Columns 12-13 are an open 2-tile wide vertical corridor extending North across Rows 20-21, connecting Row 23 to Row 19.
 - **Western Highway (Columns 10-11):** [Verified Turn 1383] Columns 12-13 at Rows 19-22 form a rock cliff face. Columns 10-11 are open smooth floor extending North from Row 23 to Row 18.
+- **Western Chamber Route to Northern Highway:** [Verified Turn 1394] Central and Eastern Row 20-21 are blocked by rock wall. The primary passage to Northern Highway (Row 19) and Ladder (21,17) is West along Row 24 to Western Chamber (Col 6), then North to Row 19.
