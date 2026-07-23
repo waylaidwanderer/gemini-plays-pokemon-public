@@ -21,7 +21,6 @@
 # Pallet Town & Route 1 - Map Coordinates & Layouts
 
 ## Player's House - Bedroom (2F)
-- **Map ID:** 1
 - **PC Location:** (0, 1) - Keyboard is at (0, 1), Monitor at (0, 0).
   - Standing at (0, 2) facing Up or (1, 1) facing Left lets you access it.
   - Contains **1x Potion** (Withdrawn).
@@ -29,7 +28,6 @@
   - **Mechanic / Collision:** Walking Up from (7, 2) to (7, 1) is blocked. To warp downstairs, you must enter from the Left: (6, 1) -> (7, 1).
 
 ## Player's House - Living Room (1F)
-- **Map ID:** 2
 - **Staircase (to 2F):** (7, 1)
 - **Front Door Exit:** (2, 7) (door mat).
   - Walking Down from (2, 7) exits to Pallet Town.
@@ -45,7 +43,6 @@
   - Fences line the north boundary from x=4 to x=9 at y=1, blocking direct passage north except through the tall grass gap at x=10-11.
 
 ## Route 1
-- **Map ID:** 3
 - **Bottom Entrance (from Pallet Town):** (10, 35) and (11, 35).
 - **Northern Entrance (from Viridian City):** (10, 0) and (11, 0).
 - **Tree Line at y=13:** Blocks x=10-13.
@@ -58,7 +55,6 @@
   - *Bypass/Gap:* Walk through tall grass corridor at x=10 and x=11 (this is the only entrance/exit to/from Pallet Town).
 
 ## Daisy's House (Blue's House)
-- **Map ID:** 1 (standard/implied but layout is verified inside)
 - **Daisy's House Door (Pallet Town):** (13, 5). Exiting Daisy's house spawns the player at (13, 6) facing Down.
 - **Inside Daisy's House Layout:**
   - **Daisy:** Sits at (2, 3) behind a table.
