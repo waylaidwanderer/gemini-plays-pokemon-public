@@ -10,3 +10,5 @@
 - Bug Catcher at (7,23) [Defeated Turn 822 - Lv 11 Weedle, Lv 11 Kakuna].
 - **Column 6 North Corridor:** [Verified Turn 823] Column 6 is open across Rows 20-24, connecting Row 24 around the rock wall into the western chamber.
 - **Item Ball at (2,20):** [Verified Turn 824] Item ball located in western chamber at X=2, Y=20.
+- Picked up Item Ball at (2,20) [Turn 825].
+- **Western Chamber (Rows 16-20, Columns 2-7):** [Verified Turn 825] Large open chamber in north-western section of 1F.
