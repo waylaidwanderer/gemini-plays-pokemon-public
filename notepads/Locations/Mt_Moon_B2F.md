@@ -9,3 +9,4 @@
 - **Spotted NPC at (29,11):** [Spotted Turn 1095] Trainer/Grunt sprite at X=29, Y=11 in B2F.
 - **Rocket Grunt at (29,10):** [Defeated Turn 1106 - Lv 12 Zubat, Lv 12 Ekans].
 - **Row 12 Wall Boundary:** [Verified Turn 1126] Solid rock wall/ledge spans Row 12 across Columns 21-38. Passage to upper/lower B2F is via Row 6-7 stairs at (28,7)-(29,7).
+- **Upper Platform Dead End:** [Verified Turn 1154] Upper platform spans Columns 27-30 at Rows 5-6, bounded North by Row 4 wall, West by Col 26 wall, East by Col 31 wall. Only contained TM01 at (29,5).
