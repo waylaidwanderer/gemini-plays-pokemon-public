@@ -126,5 +126,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Rock Pillars/Boundaries:**
   - Row 8-9 rock wall blocks Rows 8-9 across Columns 20-29 [Verified Turn 1066].
   - Central rock pillar at Columns 32-33 (Rows 12-14) [Verified Turn 1068].
+- **Ladder Tile at (17,11):** [Discovered Turn 1085] Ladder graphic tile located at X=17, Y=11 in Mt. Moon B1F.
 
 <hr>
