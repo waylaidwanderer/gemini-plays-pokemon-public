@@ -14,3 +14,4 @@
 - **Row 12 Solid Wall Boundary:** [Verified Turn 1169] Row 12 on B2F is a solid rock wall across Columns 21-30. Stepping Down from Row 11 bumps into the wall.
 - **West Wall Boundary at Column 23:** [Verified Turn 1182] Column 23 is a solid rock wall blocking West across Rows 5-13.
 - **South Passage at Column 29-30:** [Verified Turn 1189] Row 12 opens South at Columns 29-30, connecting the upper B2F chamber to the main lower cavern.
+- **South Passage at Columns 32-33:** [Verified Turn 1193] Columns 32-33 provide an open floor passage on Row 12 leading South directly to stairs at (32,15)-(33,15) into the main lower cavern.
