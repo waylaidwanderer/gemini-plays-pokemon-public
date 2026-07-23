@@ -11,4 +11,4 @@
 - **Row 12 Wall Boundary:** [Verified Turn 1126] Solid rock wall/ledge spans Row 12 across Columns 21-38. Passage to upper/lower B2F is via Row 6-7 stairs at (28,7)-(29,7).
 - **Upper Platform Dead End:** [Verified Turn 1154] Upper platform spans Columns 27-30 at Rows 5-6, bounded North by Row 4 wall, West by Col 26 wall, East by Col 31 wall. Only contained TM01 at (29,5).
 - **East Wall Boundary at Column 36:** [Verified Turn 1158] Column 36 is a solid rock wall blocking East across all rows. The entire B2F section (Columns 14-35) is an isolated side-room containing TM01 Mega Punch and Rocket Grunt.
-- **Row 12 South-Facing Ledge:** [Verified Turn 1168] Row 12 on B2F is a jumpable south-facing ledge. Jumping Down over Row 12 from Row 11 leads to the main lower cavern of B2F.
+- **Row 12 Solid Wall Boundary:** [Verified Turn 1169] Row 12 on B2F is a solid rock wall across Columns 21-30. Stepping Down from Row 11 bumps into the wall.
