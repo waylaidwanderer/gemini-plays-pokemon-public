@@ -108,5 +108,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Eastern Chamber (Rows 11-28, Columns 24-30):** [Verified Turn 852] Large open eastern hall. Columns 24-30 are open cave floor extending North towards top-right corner.
 - **Ladder Tile to B1F at (17,11):** Ladder graphic tile located at X=17, Y=11 in Mt. Moon 1F.
 - Lass at (30,6): [Defeated Turn 943 - Lv 11 Oddish, Lv 11 Bellsprout].
+- Rocket Grunt at (15,23) [Encountered Turn 1035].
 
 <hr>
