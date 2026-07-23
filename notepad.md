@@ -50,5 +50,6 @@
 - Turn 311: Reached (3, 48) facing row 47 ledge. Identified open gap at X=8, Y=47 in front of Viridian Forest Gatehouse.
 - Turn 315: Reached (8, 46) in front of Viridian Forest South Gatehouse! Testing doors at X=5, 4, 3 on row 45.
 - Turn 316: Entered Viridian Forest South Gatehouse at (4, 7)!
+- Turn 318: Inside Gatehouse at (4, 1), (4, 0) is wall. Testing north doorway along row 1 (X=3, 2, 1, 5, 6).
 
 <hr>
