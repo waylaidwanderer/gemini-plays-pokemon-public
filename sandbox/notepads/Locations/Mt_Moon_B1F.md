@@ -3,7 +3,7 @@
 ## Entrance & Corridors
 - **1F Ladder Warp at (13,27):** [Verified Turn 1673] Arrived in Mt. Moon B1F via ladder at (13,27) on 1F, spawning at X=15, Y=27 in B1F.
 - **South Corridor (Rows 26-27, Columns 10-27):** [Verified Turn 1048-1057] Open horizontal corridor along bottom wall connecting Column 10 to Column 27.
-- **Column 31 Stairs Passage (31,22)-(31,19):** [Verified Turn 1677] Column 31 at (31,21)-(31,20) is the stairs passage leading UP from Row 22 bottom floor to Row 19 upper platform!
+- **Eastern Highway Passage (Cols 34-37, Rows 7-27):** [Verified Turn 1678] Columns 34-37 form the open vertical highway connecting Row 27 South corridor all the way North to Row 7/10 Top corridor.
 - **Decorative Ladder Graphic at (25,15):** [Verified Turn 1063/1404] Graphic tile at (25,15) is decorative/non-functional and does NOT warp.
 - **Top Horizontal Corridor (Rows 2-7, Columns 20-37):** [Verified Turn 1066-1081] Large open upper chamber/corridor spanning Rows 2-7 across Columns 20 to 37.
 - **East Wall Boundary (Column 38):** [Verified Turn 1070] Solid purple rock wall at Column 38 blocks East across Rows 6-14.
