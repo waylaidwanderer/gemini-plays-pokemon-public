@@ -16,3 +16,4 @@
 - **South Passage at Columns 32-33:** [Verified Turn 1193] Columns 32-33 provide an open floor passage on Row 12 leading South directly to stairs at (32,15)-(33,15) into the main lower cavern.
 - **B2F Connector vs Main Cavern Discovered:** [Verified Turn 1250] Ladder (17,11) in B2F Connector Room warps to B2F Main Cavern at (25,9), where Column 26+ is open floor leading East to South Passage at (32,12).
 - **B2F South Passage Discovered:** [Verified Turn 1504] Column 17 is a wide-open vertical corridor extending South across Rows 12-19+ (Columns 13-17 floor).
+- **Row 20 Boundary:** [Verified Turn 1509] Row 20 is a solid rock wall face across Columns 13-18. B2F South passage turns West along Row 19 (Cols 13-17).
