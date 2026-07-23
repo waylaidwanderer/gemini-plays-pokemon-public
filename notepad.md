@@ -44,5 +44,6 @@
 - Turn 303: Stepped south on column 7, warped to new map section at (17, 0). Inspecting signpost at (19, 1).
 - Turn 305: Read Trainer Tips signpost at (19, 1). Approaching NPC at (17, 5).
 - Turn 306: Talked to Coffee Man at (16, 5) in Viridian City north. Text: 'Ahh, I've had my coffee now...'
+- Turn 308: Confirmed map warp connection: Viridian City North (17,0) <-> Route 2 (7,71/74).
 
 <hr>
