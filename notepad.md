@@ -3,7 +3,7 @@
 # Pokémon Blue - Crystal Palette Swap Mod Playthrough
 
 ## Current Location
-- Route 1
+- Viridian City
 
 ## Verified Map Coordinates & Layouts
 - Detailed coordinate files are organized in the `Locations/` directory.
@@ -47,6 +47,8 @@
 - **Northern Entrance (from Viridian City):** (10, 0) and (11, 0).
 - **Tree Line at y=13:** Blocks x=10-13.
   - *Bypass/Gap:* Walk through x=8 (left corridor, clear ground) or x=14 (right corridor).
+- **Ledge at y=5:** One-way ledge (jumpable going south). Blocks x=4-13.
+  - *Bypass/Gap:* Walk through clear right-side corridor at columns 14 to 17.
 - **Ledge at y=19:** One-way ledge (jumpable going south).
 - **Tree Line at y=23:** Blocks x=5-11.
   - *Bypass/Gap:* Walk through tall grass corridor at x=12 and x=13.
