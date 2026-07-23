@@ -41,3 +41,9 @@
   - **Table with Book/Map:** Located at (3, 3).
   - **Player standing position to talk to Daisy:** Standing at (2, 4) facing Up.
   - **Exit Warp/Door Mats:** (2, 7) and (3, 7). Walking Down from (2, 7) or (3, 7) warps you back to Pallet Town.
+- **Northern Segment Layout (near Viridian City exit):**
+  - **Fences:** Row 1 has solid gray fence stones from x=3 to x=9, and x=12 to x=18 (blocking direct passage north except through the gap).
+  - **Clear Path:** Columns 10 and 11 are clear ground (gray with vertical dots) from row 0 to row 4, forming the main north-south road to/from Viridian City.
+  - **Tall Grass Patches:**
+    - **Western Patch:** Columns 5, 6, 7, 8, 9 contain tall grass (verified by texture) on rows 2 and 3 (and x=5-8 on row 4).
+    - **Eastern Patch:** Columns 12, 13, 14, 15 contain tall grass on rows 2 and 3.
