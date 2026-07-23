@@ -57,5 +57,6 @@
 - Turn 343: Reached (7, 30) on main forest highway. Spotted Item Ball at (12, 29).
 - Turn 344: Standing at (12, 32), tree at (12, 31) blocks column 12. Routing via column 10 to collect Item Ball at (12, 29).
 - Turn 345: Column 11 is the open corridor past (10,30) logs and (12,31) tree. Routing via (11,29) to collect Item Ball at (12, 29).
+- Turn 346: Verified row 31 (X=10..15) is a solid tree wall blocking direct south access to (12,29) Item Ball. Main northbound highway is column 7 (X=7).
 
 <hr>
