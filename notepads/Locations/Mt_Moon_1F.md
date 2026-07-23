@@ -26,7 +26,6 @@
 - **Row 19 Northern Corridor:** [Verified Turn 1364] Row 19 is an open horizontal corridor across Columns 21-29 leading West directly to ladder tile at (21,17).
 - **Enclosed Platform at (25,21):** [Verified Turn 1364] Stairs at (25,23) lead up to platform at (25,21), which is bounded North by Row 20 wall. Exit platform down stairs to Row 24.
 - **Row 28 Boundary (Columns 25-31):** [Verified Turn 1371] Solid rock wall blocks South at Row 28 across Columns 25-31.
-- **Central Wall Boundary (Row 21):** Row 21 is a solid rock wall across Columns 14-21. Bypassed via Column 12-13 corridor.
 
 - **Western Highway (Columns 10-11):** [Verified Turn 1383] Columns 12-13 at Rows 19-22 form a rock cliff face. Columns 10-11 are open smooth floor extending North from Row 23 to Row 18.
 - **Central Wall Boundary (Row 20-21):** Central and Eastern Row 20-21 are blocked by rock wall.
