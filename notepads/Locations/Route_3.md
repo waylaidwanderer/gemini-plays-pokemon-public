@@ -22,3 +22,4 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - Column 38 vertical wall blocks Rows 6-12; upper corridor continues East through Rows 4-5 at Column 38.
 - **Column 50 Mountain Wall:** [Verified Turn 748] Rock wall blocks Rows 3-9 at X=50; open passage East is at Row 10 (50,10).
 - Youngster at (57,11) facing West.
+- **Column 66 Eastern Cul-de-Sac:** Column 66 wall blocks Rows 6-14. Lower grass valley at Row 10 terminates at (65,10). Route 4 exit is accessed by going North at Column 56 back to Tier 1 highway (Rows 4-6).
