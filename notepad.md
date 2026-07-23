@@ -251,5 +251,6 @@
 - **Bug Catcher Rick:** Sits at (30, 33) originally, engaged at (26, 33) on Turn 488-510.
   - **Roster:** Weedle (Lv 6), Caterpie (Lv 6)
   - **Reward:** ¥60
+- **Tall Grass Corridor (East Segment):** Columns 25, 26, 27 form a 3-tile wide path going north from row 40 up to at least row 24, filled completely with tall grass.
 
 <hr>
