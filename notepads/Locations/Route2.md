@@ -11,3 +11,10 @@
 - **Ledge Blockages:** Row 61 has a horizontal ledge blocking Columns 2-6 and Columns 8-11.
 - **Walkable Gap / Ramp:** (7, 61) is a visually distinct, solid brown tile that is completely walkable. Standing at (7, 62) and walking Up to (7, 61) allows the player to bypass the ledge and access the northern area of Route 2.
 - **Pavement Road Above Ledge:** Starts at y=58 and y=59 across columns 4-9.
+
+## Viridian Forest Southern Gatehouse (Warp Building)
+- **Southern Entrance (from Route 2 south):** Door is at (3, 43) on Route 2. Entering warps the player inside the gatehouse at (4, 7) facing Up.
+- **Inside Gatehouse Layout:**
+  - **Exits:** Southern door mat is at (4, 7) and (5, 7). Northern door is at (5, 0).
+  - **NPCs:** Girl with blue hair on the right, wandering NPC on the left.
+- **Northern Exit (to Viridian Forest):** Walking Up through the doorway at (5, 0) inside the gatehouse warps the player to Viridian Forest at (17, 47) facing Up.
