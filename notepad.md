@@ -119,6 +119,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 - **Western Highway (Columns 10-11):** [Verified Turn 1383] Columns 12-13 at Rows 19-22 form a rock cliff face. Columns 10-11 are open smooth floor extending North from Row 23 to Row 18.
 - **Central Wall Boundary (Row 20-21):** Central and Eastern Row 20-21 are blocked by rock wall.
+- **Row 25 Rock Wall (Cols 10-23):** [Verified Turn 1858] Solid rock wall blocks Row 25 across Columns 10 through 23, enclosing the bottom-left corridor (Cols 10-18, Rows 26-27). Passage North opens at Column 24 (Cols 24-27).
 
 <hr>
 
