@@ -1,6 +1,6 @@
 # Viridian City - Locations & Landmarks
 
-## Overworld (Map ID: 3? Or check standard ID)
+## Overworld
 - **Southern Entrance (from Route 1):** (20, 35) and (21, 35).
 - **Ledge at y=27:** Blocks upward passage across the main entrance road.
   - **Walkable Gap:** (19, 27) is a grassy/dirt opening. Walking through (19, 28) -> (19, 27) -> (19, 26) lets the player bypass the ledge and head north.
