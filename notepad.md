@@ -94,5 +94,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - Trainer NPC at (16,23) facing West.
 - **Row 21 Wall Boundary:** [Verified Turn 809] Row 21 is a solid purple rock wall blocking Row 21 across Columns 10-19. Open horizontal corridor runs West/East along Row 22.
 - **Rock Pillar at (8,22)-(9,23):** [Verified Turn 814] Rock wall blocks Columns 8-9 on Rows 21-23. Passage West is via Row 24 (Columns 10-6).
+- Bug Catcher at (7,23) [Defeated Turn 822 - Lv 11 Weedle, Lv 11 Kakuna].
+- **Column 6 North Corridor:** [Verified Turn 823] Column 6 is open across Rows 20-24, connecting Row 24 around the rock wall into the western chamber.
 
 <hr>
