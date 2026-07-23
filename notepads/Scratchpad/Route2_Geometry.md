@@ -1,12 +1,18 @@
 # Viridian Forest Topology & Active Routing Scratchpad
 
-## Verified Map Boundaries & Layout (Viridian Forest)
-- Entrance South Gatehouse: (17, 47).
-- Row 43 Corridor: Open from X=1 to X=17 along southern boundary.
-- Column 7 Corridor: Runs north from (7, 39) to (7, 30).
-- West Grass Clearing (X=1..8, Y=30..31): Dead-end pocket. Bug Catcher NPC at (1, 31). Blocked by solid tree wall on Row 29 (X=1..9) and map boundary fence at X=0.
-- Row 31 Tree Wall: EMPIRICALLY CONFIRMED at Turn 361 that Row 31 (X=10..15) is a continuous solid tree trunk wall. Column 11 CANNOT move north past Y=32.
-- Item Ball Location: Visible at (12, 29) inside an enclosed pocket behind log posts at (10, 29)/(13, 29).
+## Verified Master Topology (Viridian Forest)
+- Map Dimensions: 34 x 48 tiles.
+- South Gatehouse Entrance: (17, 47) [Bottom Right].
+- North Gatehouse Exit Door: (1, 0) / (2, 0) [Top Left].
+- Major Corridors & Crossings:
+  - Eastern Highway: Column 26/27 & Column 31 (Y=18..42).
+  - Central Crossing: Row 32 / Row 33 connects Eastern side (X=16) to Western side (X=1..7).
+  - Western Highway: Column 1 / Column 2 runs vertically from Y=33 north to Exit Gatehouse at Y=0!
+  - Item Ball 1: (12, 29) Antidote pocket.
+  - Item Ball 2: (25, 11) Antidote [COLLECTED Turn 403].
 
-## Current Exploration Focus
-- Testing Eastward progression past column 12 along Row 33/34 towards X=16+ (Eastern side of Viridian Forest).
+## Live Routing Plan to Exit
+1. Current position: (16, 1).
+2. Walk South down Column 16 to (16, 32).
+3. Walk West across Row 32/33 to Column 1 (1, 32).
+4. Walk North up Column 1 to North Gatehouse Exit Door at (1, 0)!
