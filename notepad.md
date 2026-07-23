@@ -151,7 +151,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Rocket Grunt at (29,10):** [Defeated Turn 1106 - Lv 12 Zubat, Lv 12 Ekans].
 - **Upper Platform Dead End:** [Verified Turn 1154] Upper platform spans Columns 27-30 at Rows 5-6, bounded North by Row 4 wall, West by Col 26 wall, East by Col 31 wall. Only contained TM01 at (29,5).
 - **East Wall Boundary at Column 36:** [Verified Turn 1158] Column 36 is a solid rock wall blocking East across all rows. The entire B2F section (Columns 14-35) is an isolated side-room containing TM01 Mega Punch and Rocket Grunt.
-- **Row 12 Solid Wall Boundary:** [Verified Turn 1169] Row 12 on B2F is a solid rock wall across Columns 21-30. Stepping Down from Row 11 bumps into the wall.
+- **Row 12 Wall Boundary & Passage Gap:** [Verified Turn 1252] Row 12 is solid rock wall across Columns 28-37. Gap at Columns 21-27 provides open passage South into Row 13-15 lower stairs area!
 - **West Wall Boundary at Column 23:** [Verified Turn 1182] Column 23 is a solid rock wall blocking West across Rows 5-13.
 - **Enclosed B2F Side-Room:** [Verified Turn 1195] B2F room (Cols 24-35, Rows 5-11) is fully enclosed by Col 23 West wall, Col 36 East wall, Row 4 North wall, and Row 12 South wall.
 - **South Passage at Columns 32-33:** [Verified Turn 1193] Columns 32-33 provide an open floor passage on Row 12 leading South directly to stairs at (32,15)-(33,15) into the main lower cavern.
