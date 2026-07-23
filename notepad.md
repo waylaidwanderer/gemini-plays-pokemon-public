@@ -33,7 +33,7 @@
   - **HP:** 4/64 HP (Lv 21) [Current HP on Turn 1231]
 - **Route 1 Geometry:** South-facing ledges at y=27 (gap at x=6..8), y=23 (gap at x=12..15), y=19 (gap at x=4..5), and y=13 (gap at x=15..16) [Verified Turns 189-217].
 - **Key Items:** Pokédex (Obtained from Prof. Oak on Turn 265).
-- **Inventory:** 5 Poké Balls, TM34 (Bide), TM01 (Mega Punch), Ether, 0 Potions.
+- **Inventory:** 5 Poké Balls, TM34 (Bide), TM01 (Mega Punch), Ether, Escape Rope, 0 Potions.
 
 <hr>
 
@@ -137,6 +137,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Row 8 Bypass at Col 25:** [Verified Turn 1302] Ladder tile at (25,9) on B1F is directly below (25,8). When navigating East along Row 8 to Col 26, do not press Down until reaching (26,8) to avoid accidental warp at (25,9).
 - **East Passage Connection:** Columns 34-37 are open cavern floor across Rows 7-27. Columns 32-33 contain a continuous rock wall/pillar spanning Rows 12-27.
 - **Row 10 Central Bypass:** [Verified Turn 1318] Row 10 is open floor across Cols 26-34, providing the horizontal bypass across the Central Rock Pillar (Cols 32-33).
+- **Item Ball at (36,23):** [Verified Turn 1313/1324] Item Ball at (36,23) contained Escape Rope.
 
 <hr>
 
