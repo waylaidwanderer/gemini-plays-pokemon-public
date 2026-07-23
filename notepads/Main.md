@@ -25,7 +25,7 @@
 
 ## Current Progress & Party
 - **Badges:** 1 (Boulder Badge) [Obtained from Brock on Turn 565]
-- **Starter Pokémon:** Wartortle (Lv 17) [Level 17 reached on Turn 712]
+- **Starter Pokémon:** Wartortle (Lv 18) [Level 18 reached on Turn 765]
   - **Nickname:** SHELLSHOCK
   - **Moves:** Tackle, Tail Whip, Bubble, Water Gun
   - **HP:** 53/53 HP [Healed via Blackout Turn 724]
