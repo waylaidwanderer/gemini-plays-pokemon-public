@@ -30,7 +30,7 @@
 - **Starter Pokémon:** Wartortle (Lv 18) [Level 18 reached on Turn 765]
   - **Nickname:** SHELLSHOCK
   - **Moves:** Tackle, Tail Whip, Bubble, Water Gun
-  - **HP:** 45/53 HP [Level 18 on Turn 765]
+  - **HP:** 55/55 HP [Healed at Route 4 Poké Center Turn 794]
 - **Route 1 Geometry:** South-facing ledges at y=27 (gap at x=6..8), y=23 (gap at x=12..15), y=19 (gap at x=4..5), and y=13 (gap at x=15..16) [Verified Turns 189-217].
 - **Key Items:** Pokédex (Obtained from Prof. Oak on Turn 265).
 - **Inventory:** 5 Poké Balls (Bought in Viridian Pokémart on Turn 286), TM34 (Bide) [Obtained from Brock on Turn 565].
