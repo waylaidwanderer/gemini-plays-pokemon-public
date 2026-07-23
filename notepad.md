@@ -39,16 +39,15 @@
 ## Verified Master Topology (Viridian Forest)
 - Map Dimensions: 34 x 48 tiles.
 - South Gatehouse Entrance: (17, 47) [Bottom Right].
-- North Gatehouse Exit Door: (1, 0) / (2, 0) [Top Left].
-- Major Corridors & Crossings:
-  - Eastern Highway: Column 26/27 & Column 31 (Y=18..42).
-  - Row 18/19 West Passage: Connects Column 16 west to Column 11/12/13.
-  - Empirical Verification at Turn 424: Log posts at Column 9/10 (Y=15..23) BLOCK row 18/19 from reaching Column 1 directly.
-  - Western Highway (Columns 11-13): Runs vertically from Y=19 straight NORTH to the top exit area at Y=0!
+- North Gatehouse Exit Door: (1, 0) / (2, 1) [Top Left].
+- West Highway (Column 1/2): Uninterrupted vertical lane from Y=31 north to Exit Door at (2,1)/(1,0).
+- West Wall (Column 3..5): Continuous fence/tree barrier from Y=0 down to Y=29.
+- Central Opening: Row 30/31 (X=1..8) is the ONLY gap connecting Center Lane (Column 6) to West Highway (Column 1/2)!
 
-## Live Routing Plan to Exit
-1. Current position: (12, 19).
-2. Walk North up Column 12 from (12, 19) to (12, 1) [18 steps Up].
-3. Walk West along Row 1/0 to North Gatehouse Exit Door at (1, 0) / (2, 0)!
+## Final Execution Plan to Exit Viridian Forest
+1. Current position: (6, 14).
+2. Walk South down Column 6 to (6, 30) [16 steps Down].
+3. Walk West across Row 30 to Column 1 (1, 30) [5 steps Left].
+4. Walk North up Column 1 straight to North Gatehouse Exit Door at (1, 0) [30 steps Up]!
 
 <hr>
