@@ -28,4 +28,19 @@
   - **Roster:** Weedle (Lv 7), Kakuna (Lv 7), Weedle (Lv 7)
   - **Reward:** ¥70
 - **Signpost at (26, 17):** Identified on Turn 527.
-- **Tall Grass Corridor (East Segment):** Columns 25, 26, 27 form a 3-tile wide path going north from row 40 up to at least row 24, filled completely with tall grass.
+- **Tall Grass Corridor (East Segment):** Columns 25, 26, 27 form a 3-tile wide path going north from row 40 up to at least row 24, filled completely with tall grass.
+
+## Northern Forest Layout (Verified Turn 574-603)
+- **Top-Right Corner Pathway:**
+  - Column 25/26 forms a clear vertical corridor from row 18 up to row 8.
+  - Row 8 is clear from column 24 to column 30.
+  - Columns 31 & 32 form a clear vertical corridor going north from row 8 up to row 1.
+- **Top-Horizontal Corridor:**
+  - Row 1 & 2 form a clear horizontal corridor going west from column 32 to column 16.
+- **Tree Canopy Barriers:**
+  - Column 15 forms a solid vertical barrier of tree canopies on rows 0-15, blocking direct leftward movement.
+  - Column 14 is also blocked on rows 1-15.
+- **Crossover/Opening to West Side:**
+  - Row 16 & 17 on columns 14 & 15 are clear grass, allowing passage from the central corridor (columns 16/17) to the west corridor (columns 12/13).
+- **Items & Landmarks:**
+  - **Antidote:** Located at (25, 11) (collected on Turn 576).
