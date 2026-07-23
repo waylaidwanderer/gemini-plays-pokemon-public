@@ -18,3 +18,4 @@
 - **B2F South Passage Discovered:** [Verified Turn 1504] Column 17 is a wide-open vertical corridor extending South across Rows 12-19+ (Columns 13-17 floor).
 - **Row 20 Boundary:** [Verified Turn 1509] Row 20 is a solid rock wall face across Columns 13-18. B2F South passage turns West along Row 19 (Cols 13-17).
 - **Row 9 Column 26 Rock Wall:** [Verified Turn 1898] Column 26 is solid rock wall face at Rows 6-11. Exit East from (25,9) is down to Row 12 (25,12), then East across Row 12.
+- **Arrived at B2F (17,11) via B1F (25,9) Ladder:** [Verified Turn 1904] Ladder at (25,9) on B1F warps to B2F at (17,11). Column 17 extends South directly into main B2F cavern.
