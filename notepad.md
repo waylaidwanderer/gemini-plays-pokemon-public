@@ -125,7 +125,7 @@
 
 ## Party Statistics
 - **SHELLBY (Squirtle):**
-  - **Level:** 8
+  - **Level:** 9
   - **Moveset:** Tackle, Tail Whip, Bubble
   - **HP:** 25 / 25
   - **Status:** Healthy
