@@ -12,3 +12,4 @@
   - Central rock pillar at Columns 32-33 (Rows 12-14) [Verified Turn 1068].
 - **Ladder Tile at (17,11):** [Discovered Turn 1085] Ladder graphic tile located at X=17, Y=11 in Mt. Moon B1F.
 - **Ladder at (17,11) WARPS:** [Verified Turn 1090] Functional ladder warp at (17,11) in B1F transitions map, spawning at (25,9) in B2F/lower chamber.
+- **Reciprocal Ladder Warp at (25,9):** [Verified Turn 1142] Ladder at (25,9) in B1F warps to (17,11) in B2F.
