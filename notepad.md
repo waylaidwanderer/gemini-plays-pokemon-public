@@ -46,6 +46,15 @@
 ## Route 1
 - **Map ID:** 3
 - **Bottom Entrance (from Pallet Town):** (10, 35) and (11, 35).
+- **Northern Entrance (from Viridian City):** (10, 0) and (11, 0).
+- **Tree Line at y=13:** Blocks x=10-13.
+  - *Bypass/Gap:* Walk through x=8 (left corridor, clear ground) or x=14 (right corridor).
+- **Ledge at y=19:** One-way ledge (jumpable going south).
+- **Tree Line at y=23:** Blocks x=5-11.
+  - *Bypass/Gap:* Walk through tall grass corridor at x=12 and x=13.
+- **Ledge at y=27:** One-way ledge (jumpable going south).
+- **Grey Fence Stones at y=32:** Blocks x=5-9 and x=12-17.
+  - *Bypass/Gap:* Walk through tall grass corridor at x=10 and x=11 (this is the only entrance/exit to/from Pallet Town).
 
 <hr>
 
