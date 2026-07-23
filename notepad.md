@@ -3,7 +3,7 @@
 # Pokémon Blue - Crystal Palette Swap Mod Playthrough
 
 ## Current Location
-- Route 1
+- Viridian City (Pokémon Center)
 
 ## Verified Map Coordinates & Layouts
 - Detailed coordinate files are organized in the `Locations/` directory.
