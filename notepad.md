@@ -178,5 +178,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **B2F Connector vs Main Cavern Discovered:** [Verified Turn 1250] Ladder (17,11) in B2F Connector Room warps to B2F Main Cavern at (25,9), where Column 26+ is open floor leading East to South Passage at (32,12).
 - **B2F South Passage Discovered:** [Verified Turn 1504] Column 17 is a wide-open vertical corridor extending South across Rows 12-19+ (Columns 13-17 floor).
 - **Row 20 Boundary:** [Verified Turn 1509] Row 20 is a solid rock wall face across Columns 13-18. B2F South passage turns West along Row 19 (Cols 13-17).
+- **Row 9 Column 26 Rock Wall:** [Verified Turn 1898] Column 26 is solid rock wall face at Rows 6-11. Exit East from (25,9) is down to Row 12 (25,12), then East across Row 12.
 
 <hr>
