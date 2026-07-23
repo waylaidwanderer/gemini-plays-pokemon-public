@@ -116,6 +116,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Enclosed Platform at (25,21):** [Verified Turn 1364] Stairs at (25,23) lead up to platform at (25,21), which is bounded North by Row 20 wall. Exit platform down stairs to Row 24.
 - **Row 28 Boundary (Columns 25-31):** [Verified Turn 1371] Solid rock wall blocks South at Row 28 across Columns 25-31.
 - **Main Central Route to Row 19:** [Verified Turn 1371] From Row 24 at (15,24), head North up Column 15 to Row 19, then East along Row 19 to Ladder at (21,17).
+- **Western Highway (Columns 12-13):** [Verified Turn 1376] Columns 12-13 are an open 2-tile wide vertical corridor extending North across Rows 20-21, connecting Row 23 to Row 19.
 
 <hr>
 
