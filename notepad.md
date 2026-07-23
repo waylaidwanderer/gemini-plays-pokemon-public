@@ -114,6 +114,8 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **West Wall at (13,24):** [Verified Turn 1346] Tile (13,24) is blocked by a rock wall.
 - **Row 19 Northern Corridor:** [Verified Turn 1364] Row 19 is an open horizontal corridor across Columns 21-29 leading West directly to ladder tile at (21,17).
 - **Enclosed Platform at (25,21):** [Verified Turn 1364] Stairs at (25,23) lead up to platform at (25,21), which is bounded North by Row 20 wall. Exit platform down stairs to Row 24.
+- **Row 28 Boundary (Columns 25-31):** [Verified Turn 1371] Solid rock wall blocks South at Row 28 across Columns 25-31.
+- **Main Central Route to Row 19:** [Verified Turn 1371] From Row 24 at (15,24), head North up Column 15 to Row 19, then East along Row 19 to Ladder at (21,17).
 
 <hr>
 
