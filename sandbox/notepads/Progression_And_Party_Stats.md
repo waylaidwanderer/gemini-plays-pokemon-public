@@ -8,17 +8,19 @@
 
 ## Party Statistics
 - **SHELLBY (Squirtle):**
-  - **Level:** 9
+  - **Level:** 10
   - **Moveset:** Tackle, Tail Whip, Bubble
-  - **HP:** 17 / 27
-  - **Status:** Healthy
+  - **HP:** 7 / 29
+  - **Status:** Poisoned (PSN)
 - **NIBBLES (Rattata):**
-  - **Level:** 3
+  - **Level:** 4
   - **Moveset:** Tackle, Tail Whip
+  - **HP:** 16 / 16
   - **Status:** Healthy
 - **GUSTY (Pidgey):**
-  - **Level:** 3
-  - **Moveset:** Tackle, Sand-Attack
+  - **Level:** 4
+  - **Moveset:** Gust
+  - **HP:** 14 / 17
   - **Status:** Healthy
 
 ## Inventory
