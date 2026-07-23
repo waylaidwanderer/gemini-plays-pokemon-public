@@ -20,7 +20,7 @@
 - Lass at (30,6): [Defeated Turn 943 - Lv 11 Oddish, Lv 11 Bellsprout].
 - Rocket Grunt at (15,23) [Defeated Turn 1044 - Lv 11 Sandshrew, Rattata, Zubat].
 - **Ladder Tile to B1F at (15,27):** [Verified Turn 1045] Ladder graphic tile located at X=15, Y=27 in Mt. Moon 1F guarded by Rocket Grunt.
-- Picked up Item Ball at (25,21) [Turn 1332].
+- Picked up Item Ball at (25,21) [Turn 1332 - Escape Rope].
 - **Ladder Tile to B1F at (21,17):** [Discovered Turn 1333] Ladder graphic tile located at X=21, Y=17 on Mt. Moon 1F.
 - **West Wall at (13,24):** [Verified Turn 1346] Tile (13,24) is blocked by a rock wall.
 - **Row 19 Northern Corridor:** [Verified Turn 1364] Row 19 is an open horizontal corridor across Columns 21-29 leading West directly to ladder tile at (21,17).
