@@ -135,8 +135,8 @@
   - **Status:** Healthy
 
 ## Inventory
-- **Poké Balls:** 2 (3 used to catch NIBBLES, 5 used to catch GUSTY)
-- **Potion:** 0 (1 used during the battle with NIBBLES)
+- **Poké Balls:** 4 (3 used to catch NIBBLES, 5 used to catch GUSTY, 2 purchased on Turn 387)
+- **Potion:** 3 (1 used during the battle with NIBBLES, 3 purchased on Turn 388)
 
 <hr>
 
