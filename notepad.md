@@ -26,8 +26,19 @@
   - **Moves:** Tackle, Tail Whip
   - **HP:** 23/23
 - **Route 1 Geometry:** South-facing ledges at y=27 (gap at x=6..8), y=23 (gap at x=12..15), y=19 (gap at x=4..5), and y=13 (gap at x=15..16).
-- **Viridian City Overworld:** South Entrance at (21,35). Pokémon Center Door at (23,25). Pokémart Door at (29,19). Row 27 is a south-facing ledge across y=27 with an open northbound gap at X=19, Y=27 (water at X=8..13, empirically verified on Turn 243).
+- **Viridian City Overworld:** South Entrance at (21,35). Pokémon Center Door at (23,25). Pokémart Door at (29,19). Ledge gap at X=19, Y=27.
 - **Key Items:** Pokédex (Obtained from Prof. Oak on Turn 265).
 - **Inventory:** 5 Poké Balls (Bought in Viridian Pokémart on Turn 286), 1 Potion.
+
+<hr>
+
+<h1><code>Scratchpad/Route2_Geometry</code></h1>
+
+# Route 2 Geometry & Exploration Log
+- Turn 290: Entered Route 2 from Viridian City at (8, 71).
+- Turn 291: Verified row 61 is a continuous south-facing ledge across X=2..11.
+- Turn 293: Column 12 is a vertical tree line (Y=60..71).
+- Turn 295: Signpost at (5, 65) reads 'ROUTE 2 VIRIDIAN CITY - PEWTER CITY'.
+- Turn 301: Investigating gatehouse pillars/archway at (6, 70..71).
 
 <hr>
