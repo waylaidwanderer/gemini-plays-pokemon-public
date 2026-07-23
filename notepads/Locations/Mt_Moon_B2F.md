@@ -7,4 +7,4 @@
 - **B2F Ladder Warp at (17,11) -> (25,9):** [Verified Turn 1095] Ladder at (17,11) warps to main B2F chamber, spawning at X=25, Y=9.
 - **Spotted Item Ball at (29,5):** [Spotted Turn 1095] Item ball located at X=29, Y=5 in B2F.
 - **Spotted NPC at (29,11):** [Spotted Turn 1095] Trainer/Grunt sprite at X=29, Y=11 in B2F.
-- **Rocket Grunt at (29,10):** [Encountered Turn 1098] "We're pulling a big job here! Get lost, kid!".
+- **Rocket Grunt at (29,10):** [Defeated Turn 1106 - Lv 12 Zubat, Lv 12 Ekans].
