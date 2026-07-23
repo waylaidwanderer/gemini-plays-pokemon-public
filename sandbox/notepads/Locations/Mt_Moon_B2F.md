@@ -12,3 +12,4 @@
 - **Upper Platform Dead End:** [Verified Turn 1154] Upper platform spans Columns 27-30 at Rows 5-6, bounded North by Row 4 wall, West by Col 26 wall, East by Col 31 wall. Only contained TM01 at (29,5).
 - **East Wall Boundary at Column 36:** [Verified Turn 1158] Column 36 is a solid rock wall blocking East across all rows. The entire B2F section (Columns 14-35) is an isolated side-room containing TM01 Mega Punch and Rocket Grunt.
 - **Row 12 Solid Wall Boundary:** [Verified Turn 1169] Row 12 on B2F is a solid rock wall across Columns 21-30. Stepping Down from Row 11 bumps into the wall.
+- **West Wall Boundary at Column 23:** [Verified Turn 1182] Column 23 is a solid rock wall blocking West across Rows 5-13.
