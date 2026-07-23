@@ -1,24 +1,12 @@
-# Route 2 Geometry & Exploration Log
-- Turn 290: Entered Route 2 from Viridian City at (8, 71).
-- Turn 291: Verified row 61 is a continuous south-facing ledge across X=2..11.
-- Turn 293: Column 12 is a vertical tree line (Y=60..71).
-- Turn 295: Signpost at (5, 65) reads 'ROUTE 2 VIRIDIAN CITY - PEWTER CITY'.
-- Turn 301: Investigating gatehouse pillars/archway at (6, 70..71).
-- Turn 302: Verified (6, 70..71) are wooden fence posts. Path at column 7 (7, 70..73) is open.
-- Turn 303: Stepped south on column 7, warped to new map section at (17, 0). Inspecting signpost at (19, 1).
-- Turn 305: Read Trainer Tips signpost at (19, 1). Approaching NPC at (17, 5).
-- Turn 306: Talked to Coffee Man at (16, 5) in Viridian City north. Text: 'Ahh, I've had my coffee now...'
-- Turn 308: Confirmed map warp connection: Viridian City North (17,0) <-> Route 2 (7,71/74).
-- Turn 309: Initiated systematic sweep of row 61 ledge (testing X=9, 10, 11, 7, 6, 5, 3, 2).
-- Turn 310: DISCOVERED GAP IN ROW 61 LEDGE AT X=6! Successfully passed north to (3, 57) on Route 2.
-- Turn 311: Reached (3, 48) facing row 47 ledge. Identified open gap at X=8, Y=47 in front of Viridian Forest Gatehouse.
-- Turn 315: Reached (8, 46) in front of Viridian Forest South Gatehouse! Testing doors at X=5, 4, 3 on row 45.
-- Turn 316: Entered Viridian Forest South Gatehouse at (4, 7)!
-- Turn 318: Inside Gatehouse at (4, 1), (4, 0) is wall. Testing north doorway along row 1 (X=3, 2, 1, 5, 6).
-- Turn 319: Successfully entered Viridian Forest from South Gatehouse at (17, 47)! Gatehouse door was at X=5, Y=0.
-- Turn 340: Column 14 is a log post wall from Y=34..41. Open westbound corridor is at row 43 (X=12..17, Y=43).
-- Turn 342: Column 10..13 trees block at Y=39. Main northbound corridor is at column 6/7 (X=6..7).
-- Turn 343: Reached (7, 30) on main forest highway. Spotted Item Ball at (12, 29).
-- Turn 344: Standing at (12, 32), tree at (12, 31) blocks column 12. Routing via column 10 to collect Item Ball at (12, 29).
-- Turn 345: Column 11 is the open corridor past (10,30) logs and (12,31) tree. Routing via (11,29) to collect Item Ball at (12, 29).
-- Turn 346: Verified row 31 (X=10..15) is a solid tree wall blocking direct south access to (12,29) Item Ball. Main northbound highway is column 7 (X=7).
+# Viridian Forest Topology & Active Routing Scratchpad
+
+## Verified Map Boundaries & Layout (Viridian Forest)
+- Entrance South Gatehouse: (17, 47).
+- Row 43 Corridor: Open from X=1 to X=17 along southern boundary.
+- Column 7 Corridor: Runs north from (7, 39) to (7, 30).
+- West Grass Clearing (X=1..8, Y=30..31): Dead-end pocket. Bug Catcher NPC at (1, 31). Blocked by solid tree wall on Row 29 (X=1..9) and map boundary fence at X=0.
+- Row 31 Tree Wall: EMPIRICALLY CONFIRMED at Turn 361 that Row 31 (X=10..15) is a continuous solid tree trunk wall. Column 11 CANNOT move north past Y=32.
+- Item Ball Location: Visible at (12, 29) inside an enclosed pocket behind log posts at (10, 29)/(13, 29).
+
+## Current Exploration Focus
+- Testing Eastward progression past column 12 along Row 33/34 towards X=16+ (Eastern side of Viridian Forest).
