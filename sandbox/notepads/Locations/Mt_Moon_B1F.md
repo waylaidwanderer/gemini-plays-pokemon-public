@@ -15,3 +15,6 @@
 - **Reciprocal Ladder Warp at (25,9):** [Verified Turn 1142] Ladder at (25,9) in B1F warps to (17,11) in B2F.
 - **East Chamber Wall at Column 26:** [Verified Turn 1148] Column 26 is solid rock wall blocking East at Rows 7-12. The (25,9) ladder chamber is bounded East by Column 26.
 - **West Chamber Wall at Column 13:** [Verified Turn 1151] Column 13 is solid rock wall blocking West at Rows 4-12.
+- **Row 20 Wall Block:** [Verified Turn 1220] Rows 20-22 are solid rock wall across Columns 10-17.
+- **West Wall Columns 8-9:** [Verified Turn 1221] Columns 8-9 are solid rock wall across Rows 18-23.
+- **Column 2 Dead End:** [Verified Turn 1227] Column 2 is a dead-end alcove at Row 17.

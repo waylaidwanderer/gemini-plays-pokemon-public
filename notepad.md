@@ -30,7 +30,7 @@
 - **Starter Pokémon:** Wartortle (Lv 20) [Level 20 reached on Turn 997]
   - **Nickname:** SHELLSHOCK
   - **Moves:** Tackle, Tail Whip, Bubble, Water Gun
-  - **HP:** 10/64 HP (Lv 21) [Current HP on Turn 1130]
+  - **HP:** 4/64 HP (Lv 21) [Current HP on Turn 1231]
 - **Route 1 Geometry:** South-facing ledges at y=27 (gap at x=6..8), y=23 (gap at x=12..15), y=19 (gap at x=4..5), and y=13 (gap at x=15..16) [Verified Turns 189-217].
 - **Key Items:** Pokédex (Obtained from Prof. Oak on Turn 265).
 - **Inventory:** 5 Poké Balls (Bought in Viridian Pokémart on Turn 286), TM34 (Bide) [Obtained from Brock on Turn 565], 1 Potion [Picked up at (2,20) Turn 825].
@@ -131,6 +131,9 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Reciprocal Ladder Warp at (25,9):** [Verified Turn 1142] Ladder at (25,9) in B1F warps to (17,11) in B2F.
 - **East Chamber Wall at Column 26:** [Verified Turn 1148] Column 26 is solid rock wall blocking East at Rows 7-12. The (25,9) ladder chamber is bounded East by Column 26.
 - **West Chamber Wall at Column 13:** [Verified Turn 1151] Column 13 is solid rock wall blocking West at Rows 4-12.
+- **Row 20 Wall Block:** [Verified Turn 1220] Rows 20-22 are solid rock wall across Columns 10-17.
+- **West Wall Columns 8-9:** [Verified Turn 1221] Columns 8-9 are solid rock wall across Rows 18-23.
+- **Column 2 Dead End:** [Verified Turn 1227] Column 2 is a dead-end alcove at Row 17.
 
 <hr>
 
@@ -146,7 +149,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - Picked up Item Ball at (29,5) [Turn 1115 - TM01 Mega Punch].
 - **Spotted NPC at (29,11):** [Spotted Turn 1095] Trainer/Grunt sprite at X=29, Y=11 in B2F.
 - **Rocket Grunt at (29,10):** [Defeated Turn 1106 - Lv 12 Zubat, Lv 12 Ekans].
-- **Row 12 Wall Boundary:** [Verified Turn 1126] Solid rock wall/ledge spans Row 12 across Columns 21-38. Passage to upper/lower B2F is via Row 6-7 stairs at (28,7)-(29,7).
 - **Upper Platform Dead End:** [Verified Turn 1154] Upper platform spans Columns 27-30 at Rows 5-6, bounded North by Row 4 wall, West by Col 26 wall, East by Col 31 wall. Only contained TM01 at (29,5).
 - **East Wall Boundary at Column 36:** [Verified Turn 1158] Column 36 is a solid rock wall blocking East across all rows. The entire B2F section (Columns 14-35) is an isolated side-room containing TM01 Mega Punch and Rocket Grunt.
 - **Row 12 Solid Wall Boundary:** [Verified Turn 1169] Row 12 on B2F is a solid rock wall across Columns 21-30. Stepping Down from Row 11 bumps into the wall.
