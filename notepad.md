@@ -52,5 +52,6 @@
 - Turn 316: Entered Viridian Forest South Gatehouse at (4, 7)!
 - Turn 318: Inside Gatehouse at (4, 1), (4, 0) is wall. Testing north doorway along row 1 (X=3, 2, 1, 5, 6).
 - Turn 319: Successfully entered Viridian Forest from South Gatehouse at (17, 47)! Gatehouse door was at X=5, Y=0.
+- Turn 340: Column 14 is a log post wall from Y=34..41. Open westbound corridor is at row 43 (X=12..17, Y=43).
 
 <hr>
