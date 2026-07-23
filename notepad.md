@@ -188,5 +188,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **CRITICAL WARP PAIRS:**
   - B1F (17,11) <-> B2F (25,9) [Isolated Side-Room with TM01]
   - B1F (25,9) <-> B2F (17,11) [Main Cavern with Fossils & Exit Ladder]
+- **Column 18-19 Rock Wall:** [Verified Turn 2182] Solid rock wall spans Columns 18-19 across Rows 11-21. Open South Passage is Column 20 leading directly to Row 23.
 
 <hr>
