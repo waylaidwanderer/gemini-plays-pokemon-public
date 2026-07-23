@@ -61,5 +61,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Two-Way Slope Passage at (11,7):** [Verified Turn 637] Tile (11,7) is a two-way slope/stairs passage connecting Tier 2 at (11,8) UP to Tier 1 at (11,6).
 - Lass at (33,10) [Defeated Turn 743 - Lv 14 Jigglypuff]
 - Column 38 vertical wall blocks Rows 6-12; upper corridor continues East through Rows 4-5 at Column 38.
+- **Column 50 Mountain Wall:** [Verified Turn 748] Rock wall blocks Rows 3-9 at X=50; open passage East is at Row 10 (50,10).
+- Youngster at (57,11) facing West.
 
 <hr>
