@@ -23,3 +23,9 @@
   - Excellent typing vs Brock (Pewter Gym) & Misty (Cerulean Gym).
   - Learns Bubble at Lv 8, Water Gun at Lv 15.
 - **Nickname Plan:** Creative custom nickname upon acquisition.
+
+## Current Progress & Party
+- **Starter Pokémon:** Squirtle (Lv 5)
+  - **Nickname:** SHELLSHOCK
+  - **Moves:** Tackle, Tail Whip
+  - **Status:** Defeated Rival RED's Bulbasaur in Oak's Lab!
