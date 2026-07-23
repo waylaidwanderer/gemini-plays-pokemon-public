@@ -16,7 +16,5 @@
 - **Eastern Corridor (Row 24, Columns 17-21):** [Verified Turn 839] Open hallway on Row 24 leading East from (16,24) to (21,24).
 - **Column 22 Vertical Wall:** [Verified Turn 841] Solid purple rock wall blocks East at Column 22/23 (Rows 20-28). Path turns North along Column 21 at (21,20).
 - **Eastern Chamber (Rows 11-28, Columns 24-30):** [Verified Turn 852] Large open eastern hall. Columns 24-30 are open cave floor extending North towards top-right corner.
-- **Ladder Tile to B1F at (25,15):** Ladder graphic tile located at X=25, Y=15 in Mt. Moon 1F.
-- **Ladder Tile to B1F at (21,17):** Ladder graphic tile located at X=21, Y=17 in Mt. Moon 1F.
 - **Ladder Tile to B1F at (17,11):** Ladder graphic tile located at X=17, Y=11 in Mt. Moon 1F.
 - Lass at (30,6): [Defeated Turn 943 - Lv 11 Oddish, Lv 11 Bellsprout].
