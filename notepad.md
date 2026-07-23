@@ -156,6 +156,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Item Ball at (36,23):** [Verified Turn 1313/1324] Item Ball at (36,23) contained Escape Rope.
 - **B1F Ladder Warp at (25,9):** [Verified Turn 1901] Standing at (25,11) on B1F; stepping Up onto (25,9) ladder tile warps down to B2F.
 - **Row 20 North Wall Block (Cols 20-29):** [Verified Turn 2305] Solid purple rock wall face blocks Northward movement at Row 20 across Columns 20 through 29 on B1F. Column 14/15 provides the open vertical highway North connecting South Corridor (Row 26) to Upper Cavern (Rows 18-21).
+- **Row 20-21 Rock Wall (Cols 14-19):** [Verified Turn 2316] Solid rock wall blocks North at Rows 20-21 across Columns 14-19. Columns 10-11 on the far West side provide the open vertical highway connecting South Corridor (Row 26) to Top Corridor.
 
 <hr>
 
