@@ -22,4 +22,4 @@
 - **Ladder Tile to B1F at (15,27):** [Verified Turn 1045] Ladder graphic tile located at X=15, Y=27 in Mt. Moon 1F guarded by Rocket Grunt.
 - Picked up Item Ball at (25,21) [Turn 1332].
 - **Ladder Tile to B1F at (21,17):** [Discovered Turn 1333] Ladder graphic tile located at X=21, Y=17 on Mt. Moon 1F.
-- **West Pocket Boundary (Cols 12-13):** [Verified Turn 1347] Columns 12-13 are a solid rock wall face across Rows 20-28, creating a closed pocket around Ladder A (15,27). The only exit East is Row 24 to Column 30.
+- **West Wall at (13,24):** [Verified Turn 1346] Tile (13,24) is blocked by a rock wall.
