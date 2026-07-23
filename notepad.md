@@ -69,6 +69,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Tile (57,7) Ledge:** [Verified Turn 784] Tile (57,7) is a solid south-facing ledge blocking upward movement from (57,8).
 - **Route 4 Transition Corridor at (58,8):** [Verified Turn 785] Tile (58,8) is an open upper path bypassing the Row 7 ledge, connecting to (59,8) and the northbound Route 4 highway!
 - **Route 4 North Exit at (59,7)-(59,3):** [Verified Turn 787] Column 59 at Row 7 is an open two-way passage leading North through (59,6), (59,5), (59,4), and (59,3) into Route 4!
+- **Tree Wall at (9,10)-(9,11):** [Verified Turn 869] Column 9 has trees at Y=10 and Y=11 blocking Row 10/11 path. Row 8 and Row 9 (X=9, Y=8..9) are open to reach X=11.
 
 <hr>
 
