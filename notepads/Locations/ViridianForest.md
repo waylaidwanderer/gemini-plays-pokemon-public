@@ -18,4 +18,4 @@
 - **East Path (Main Progression Route):**
   - **Entrance to East Path:** Walk Right from (17, 41) through columns 18 to 22 (dense tall grass area, rows 40-41) to reach the eastern segment of the forest.
   - **Tree Stump Barrier:** (24, 40) has a tree stump blocking direct access at row 40. Walk via row 41.
-  - **Trainer NPC:** Sits at (27, 40) facing Left.
+  - **Friendly NPC:** Sits at (27, 40) facing Left. (Says: "I ran out of POKé BALLs to catch POKéMON with! You should carry extras!")
