@@ -125,6 +125,8 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Rock Wall Barrier (Cols 18-19, Rows 8-23):** [Verified Turns 2229-2249] Solid rock wall spans Columns 18-19 across Rows 8 through 23, blocking Westward passage between Column 20/21 and Column 17. Row 24 connects Column 20 to Column 17.
 - **Row 20-28 Central Wall (Cols 22-23):** [Verified Turn 2276] Solid purple rock wall face spans Columns 22-23 across Rows 20 through 28, blocking Westward passage from Column 24 to Column 21 along Row 24.
 - **Row 24 Rock Wall (Cols 20-23):** [Verified Turn 2332] Solid rock wall blocks Westward movement along Row 24 across Columns 20 through 23 on 1F. Row 26 is the open horizontal corridor connecting Column 24 West to Column 10.
+- **Row 13 Wall Boundary:** [Verified Turn 2376] Rock wall at Row 13 spans Columns 24-27 only. Columns 28-30 are open floor connecting Row 15 to Row 11. To go North from Eastern Corridor, walk East to Column 28, then North to Row 11.
+- **Ladder at (25,15):** [Verified Turn 2376] Non-functional/decorative tile graphic at (25,15). Does not warp.
 
 <hr>
 
