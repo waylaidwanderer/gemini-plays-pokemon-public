@@ -82,3 +82,13 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Mt. Moon Entrance at (18,5):** [Verified Turn 798] Cave entrance doorway located at X=18, Y=5 on Route 4!
 
 <hr>
+
+<h1><code>Locations/Mt_Moon_1F</code></h1>
+
+# Mt. Moon 1F Map & Points of Interest
+
+## Entrance & Entrance Corridor
+- **Route 4 Cave Entrance Warp at (14,35):** [Verified Turn 799] Spawns facing North at X=14, Y=35 inside Mt. Moon 1F. Exit warp to Route 4 is directly South at (14,36).
+- **Entrance Corridor:** Column 14 extends North from (14,35) into the main 1F cave chamber.
+
+<hr>
