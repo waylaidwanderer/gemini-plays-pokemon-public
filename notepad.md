@@ -26,5 +26,6 @@
   - **Moves:** Tackle, Tail Whip
   - **HP:** 23/23
   - **Status:** Defeated Rival RED's Bulbasaur in Oak's Lab!
+- **Route 1 Geometry:** South-facing ledge at y=27 spans x=4..15. Northbound gap is at x=0..3 (open dirt path).
 
 <hr>
