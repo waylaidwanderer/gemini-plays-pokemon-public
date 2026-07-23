@@ -20,6 +20,7 @@
 - Lass at (30,6): [Defeated Turn 943 - Lv 11 Oddish, Lv 11 Bellsprout].
 - Rocket Grunt at (15,23) [Defeated Turn 1044 - Lv 11 Sandshrew, Rattata, Zubat].
 - **Wall Signpost at (15,23):** [Verified Turn 1639] Signpost on wall reads "Beware! ZUBAT is a blood sucker!" (Not a ladder).
+- **Floor Warp Tile to B1F at (15,27):** [Verified Turn 1398] Warp tile located at X=15, Y=27 on Mt. Moon 1F warps directly to B1F (13,27).
 - Picked up Item Ball at (25,21) [Turn 1332 - Escape Rope].
 - **Ladder Tile to B1F at (21,17):** [Discovered Turn 1333] Ladder graphic tile located at X=21, Y=17 on Mt. Moon 1F.
 - **West Wall at (13,24):** [Verified Turn 1346] Tile (13,24) is blocked by a rock wall.
