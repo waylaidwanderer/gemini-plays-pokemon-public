@@ -9,3 +9,4 @@
 - Turn 305: Read Trainer Tips signpost at (19, 1). Approaching NPC at (17, 5).
 - Turn 306: Talked to Coffee Man at (16, 5) in Viridian City north. Text: 'Ahh, I've had my coffee now...'
 - Turn 308: Confirmed map warp connection: Viridian City North (17,0) <-> Route 2 (7,71/74).
+- Turn 309: Initiated systematic sweep of row 61 ledge (testing X=9, 10, 11, 7, 6, 5, 3, 2).
