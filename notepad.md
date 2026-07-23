@@ -151,5 +151,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **East Wall Boundary at Column 36:** [Verified Turn 1158] Column 36 is a solid rock wall blocking East across all rows. The entire B2F section (Columns 14-35) is an isolated side-room containing TM01 Mega Punch and Rocket Grunt.
 - **Row 12 Solid Wall Boundary:** [Verified Turn 1169] Row 12 on B2F is a solid rock wall across Columns 21-30. Stepping Down from Row 11 bumps into the wall.
 - **West Wall Boundary at Column 23:** [Verified Turn 1182] Column 23 is a solid rock wall blocking West across Rows 5-13.
+- **South Passage at Column 29-30:** [Verified Turn 1189] Row 12 opens South at Columns 29-30, connecting the upper B2F chamber to the main lower cavern.
 
 <hr>
