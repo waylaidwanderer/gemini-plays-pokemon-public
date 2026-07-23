@@ -136,6 +136,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Column 2 Dead End:** [Verified Turn 1227] Column 2 is a dead-end alcove at Row 17.
 - **Row 8 Bypass at Col 25:** [Verified Turn 1302] Ladder tile at (25,9) on B1F is directly below (25,8). When navigating East along Row 8 to Col 26, do not press Down until reaching (26,8) to avoid accidental warp at (25,9).
 - **East Passage Connection:** [Verified Turn 1307] Columns 30-37 are open cavern floor across Rows 7-27, connecting the Top Horizontal Corridor (Row 7) directly down to the South Corridor (Row 27).
+- **South Rock Pillar at (32-33, 24-27):** [Verified Turn 1317] Rock pillar blocks Row 27 between Col 31 and Col 34. Bypass via Row 23 (Up 4 to Row 23, Left to Col 31, Down to Row 27).
 
 <hr>
 
