@@ -44,7 +44,10 @@
 ## Overview & Elevation Tiers
 Route 3 is structured into 3 horizontal elevation tiers:
 - **Tier 1 (Top / Rows 4-6):** Main upper highway running East to Mt. Moon. Passes above tree barriers at Column 17 (open Y=4,5) and Column 23 (open Y=4,5).
-  - *Trainers:* Youngster at (10,6), Bug Catcher at (14,4), Lass at (19,5).
+  - *Trainers:*
+    - Bug Catcher #1 at (10,6) [Defeated Turn 674 - Caterpie, Weedle]
+    - Youngster at (14,4) [Defeated Turn 685 - Rattata, Ekans]
+    - Bug Catcher #2 at (19,5) [Engaged Turn 689 - Lv 9 Weedle, Caterpie, Weedle]
 - **Tier 2 (Middle / Rows 8-10):** Connected to Pewter City exit at (0,10).
   - *Trainers:* Lass at (16,9) [Defeated Turn 593], Youngster at (22,9).
   - *Boundaries:* Separated from Tier 1 by Row 7 south-facing ledges. Separated from Tier 3 by Row 11 ledges.
