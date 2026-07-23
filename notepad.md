@@ -276,6 +276,18 @@
   - Row 16 & 17 on columns 14 & 15 are clear grass, allowing passage from the central corridor (columns 16/17) to the west corridor (columns 12/13).
 - **Items & Landmarks:**
   - **Antidote:** Located at (25, 11) (collected on Turn 576).
+
+
+## West Side Layout & Crossovers (Verified Turn 604-620)
+- **Top-West Pocket Corridor:**
+  - Columns 6, 7, 8 form a clear vertical corridor running from row 5 down to row 24.
+  - The doormat pattern at (7, 5) was verified to be **non-warping** (regular walkable terrain).
+- **Crossover Corridor (Row 24/25):**
+  - Standing at (7, 24), the player can walk Left to columns 4 and 5 (which are clear grass on rows 22-25, bypassing row 21 and above which are tree canopies).
+  - To bypass the blocked fence/stump at (4, 24), walk via row 25: Left to (5, 24), Down to (5, 25), Left to (4, 25) -> (3, 25).
+- **Western Vertical Corridor:**
+  - Columns 1, 2, 3 form a clear vertical corridor of clear grass going north from row 25.
+  - This corridor provides a completely safe, non-grass (0% encounter) route north to the northern exit area.
 
 
 <hr>
