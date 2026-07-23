@@ -17,13 +17,17 @@
   - Left Pokéball (6,3): Charmander
   - Middle Pokéball (7,3): Squirtle
   - Right Pokéball (8,3): Bulbasaur
+- **Viridian City Overworld:** South Entrance at (21,35). Pokémon Center Door at (23,25). Pokémart Door at (29,19). Ledge gap at X=19, Y=27 [Verified Turn 243].
+- **Pewter City Overworld:**
+  - Pokémon Center Door: (13,25) [Verified Turn 495]
+  - Pewter Gym Door: (16,17) [Verified Turn 504/521]
+  - Pewter Gym Courtyard Corridor: Column 10 (x=10, y=15..18) -> Row 18 (x=10..16) [Verified Turn 521]
 
 ## Current Progress & Party
-- **Starter Pokémon:** Squirtle (Lv 11) [Level 11 reached on Turn 531]
+- **Starter Pokémon:** Squirtle (Lv 12) [Level 12 reached on Turn 539]
   - **Nickname:** SHELLSHOCK
   - **Moves:** Tackle, Tail Whip, Bubble
-  - **HP:** 32/32 [Cured of poison Turn 463, fully healed at Pewter Pokémon Center Turn 500]
+  - **HP:** Low HP (~4-5 HP / 36 HP) [Defeated Jr. Trainer on Turn 539]
 - **Route 1 Geometry:** South-facing ledges at y=27 (gap at x=6..8), y=23 (gap at x=12..15), y=19 (gap at x=4..5), and y=13 (gap at x=15..16) [Verified Turns 189-217].
-- **Viridian City Overworld:** South Entrance at (21,35). Pokémon Center Door at (23,25). Pokémart Door at (29,19). Ledge gap at X=19, Y=27 [Verified Turn 243].
 - **Key Items:** Pokédex (Obtained from Prof. Oak on Turn 265).
-- **Inventory:** 5 Poké Balls (Bought in Viridian Pokémart on Turn 286), 1 Potion.
+- **Inventory:** 5 Poké Balls (Bought in Viridian Pokémart on Turn 286).
