@@ -21,7 +21,7 @@
   - Right Pokéball (8,3): Bulbasaur
 
 ## Current Progress & Party
-- **Starter Pokémon:** Squirtle (Lv 6)
+- **Starter Pokémon:** Squirtle (Lv 7)
   - **Nickname:** SHELLSHOCK
   - **Moves:** Tackle, Tail Whip
   - **HP:** 23/23
