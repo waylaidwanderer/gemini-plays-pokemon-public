@@ -23,3 +23,4 @@
 - **Row 10 Central Bypass:** [Verified Turn 1318] Row 10 is open floor across Cols 26-34, providing the horizontal bypass across the Central Rock Pillar (Cols 32-33).
 - **Item Ball at (36,23):** [Verified Turn 1313/1324] Item Ball at (36,23) contained Escape Rope.
 - **B1F Ladder Warp at (25,9):** [Verified Turn 1901] Standing at (25,11) on B1F; stepping Up onto (25,9) ladder tile warps down to B2F.
+- **Row 20 North Wall Block (Cols 20-29):** [Verified Turn 2305] Solid purple rock wall face blocks Northward movement at Row 20 across Columns 20 through 29 on B1F. Column 14/15 provides the open vertical highway North connecting South Corridor (Row 26) to Upper Cavern (Rows 18-21).
