@@ -247,4 +247,9 @@
   - **Tree Stump Barrier:** (24, 40) has a tree stump blocking direct access at row 40. Walk via row 41.
   - **Friendly NPC:** Sits at (27, 40) facing Left. (Says: "I ran out of POKé BALLs to catch POKéMON with! You should carry extras!")
 
+## Defeated Trainers
+- **Bug Catcher Rick:** Sits at (30, 33) originally, engaged at (26, 33) on Turn 488-510.
+  - **Roster:** Weedle (Lv 6), Caterpie (Lv 6)
+  - **Reward:** ¥60
+
 <hr>
