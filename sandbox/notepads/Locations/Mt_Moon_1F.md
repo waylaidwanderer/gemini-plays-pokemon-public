@@ -22,7 +22,7 @@
 - **Wall Signpost at (15,23):** [Verified Turn 1639] Signpost on wall reads "Beware! ZUBAT is a blood sucker!" (Not a ladder).
 - **B1F Exit Spawn at (15,27):** [Clarified Turn 1645] Tile (15,27) is the landing tile when coming UP from B1F (13,27), not an entry warp down.
 - Picked up Item Ball at (25,21) [Turn 1332 - Escape Rope].
-- **Tile (21,17) Checked:** [Corrected Turn 1651] Tile (21,17) is plain cavern floor, not a ladder.
+- **Decorative Ladder at (21,17):** [Verified Turn 1653] Blue ladder graphic at (21,17) is in an isolated alcove (Cols 20-21 bounded by Col 22-23 wall).
 - **West Wall at (13,24):** [Verified Turn 1346] Tile (13,24) is blocked by a rock wall.
 - **Row 19 Northern Corridor:** [Verified Turn 1364] Row 19 is an open horizontal corridor across Columns 21-29 leading West directly to ladder tile at (21,17).
 - **Enclosed Platform at (25,21):** [Verified Turn 1364] Stairs at (25,23) lead up to platform at (25,21), which is bounded North by Row 20 wall. Exit platform down stairs to Row 24.
