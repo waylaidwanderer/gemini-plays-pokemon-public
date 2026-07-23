@@ -18,3 +18,11 @@
   - **Exits:** Southern door mat is at (4, 7) and (5, 7). Northern door is at (5, 0).
   - **NPCs:** Girl with blue hair on the right, wandering NPC on the left.
 - **Northern Exit (to Viridian Forest):** Walking Up through the doorway at (5, 0) inside the gatehouse warps the player to Viridian Forest at (17, 47) facing Up.
+
+## Northern Segment (Above Viridian Forest)
+- **Northern Gatehouse Exit:** Exiting the Northern Gatehouse north puts the player on Route 2 at (3, 11).
+- **Pewter City Boundary:** Route 2 north transitions to Pewter City at (8, 0) or (9, 0) going north.
+- **Layout & Walkable Path:**
+  - **West Side / Center (Columns 3 to 7):** Contains tall grass with wild encounters from row 3 up to row 11.
+  - **East Side (Columns 8 and 9):** A completely clear pavement road with **0% encounter rate**, going straight north to Pewter City.
+  - **Transitioning to Safe Path:** Standing at the Northern Gatehouse exit at (3, 11), walk up to (3, 7), then walk Right to column 8. There is no fence or ledge blocking access from the grass to column 8, allowing the player to safely walk up to Pewter City.
