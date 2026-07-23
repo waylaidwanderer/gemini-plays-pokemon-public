@@ -12,3 +12,4 @@
 - Turn 309: Initiated systematic sweep of row 61 ledge (testing X=9, 10, 11, 7, 6, 5, 3, 2).
 - Turn 310: DISCOVERED GAP IN ROW 61 LEDGE AT X=6! Successfully passed north to (3, 57) on Route 2.
 - Turn 311: Reached (3, 48) facing row 47 ledge. Identified open gap at X=8, Y=47 in front of Viridian Forest Gatehouse.
+- Turn 315: Reached (8, 46) in front of Viridian Forest South Gatehouse! Testing doors at X=5, 4, 3 on row 45.
