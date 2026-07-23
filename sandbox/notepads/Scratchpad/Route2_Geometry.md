@@ -5,14 +5,10 @@
 - South Gatehouse Entrance: (17, 47) [Bottom Right].
 - North Gatehouse Exit Door: (1, 0) / (2, 0) [Top Left].
 - Major Corridors & Crossings:
-  - Eastern Highway: Column 26/27 & Column 31 (Y=18..42).
-  - Central Crossing: Row 32 / Row 33 connects Eastern side (X=16) to Western side (X=1..7).
-  - Western Highway: Column 1 / Column 2 runs vertically from Y=33 north to Exit Gatehouse at Y=0!
-  - Item Ball 1: (12, 29) Antidote pocket.
-  - Item Ball 2: (25, 11) Antidote [COLLECTED Turn 403].
+  - Row 18/19 West Corridor: EMPIRICALLY CONFIRMED at Turn 419 that Row 18/19 connects Column 16 west to Column 1 (X=1..16, Y=18/19).
+  - Western Highway: Column 1 / Column 2 runs vertically from Y=19 straight north to Exit Gatehouse at Y=0!
 
 ## Live Routing Plan to Exit
-1. Current position: (16, 1).
-2. Walk South down Column 16 to (16, 32).
-3. Walk West across Row 32/33 to Column 1 (1, 32).
-4. Walk North up Column 1 to North Gatehouse Exit Door at (1, 0)!
+1. Current position: (16, 19).
+2. Walk West along Row 18/19 from (16, 19) to (1, 19) [15 steps Left].
+3. Walk North up Column 1 from (1, 19) to North Gatehouse Exit Door at (1, 0) [19 steps Up]!
