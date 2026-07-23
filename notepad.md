@@ -27,7 +27,7 @@
 
 ## Current Progress & Party
 - **Badges:** 1 (Boulder Badge) [Obtained from Brock on Turn 565]
-- **Starter Pokémon:** Squirtle (Lv 13) [Level 13 reached on Turn 565]
+- **Starter Pokémon:** Squirtle (Lv 14) [Level 14 reached on Turn 590]
   - **Nickname:** SHELLSHOCK
   - **Moves:** Tackle, Tail Whip, Bubble
   - **HP:** 26/38 HP [Defeated Gym Leader Brock on Turn 565]
