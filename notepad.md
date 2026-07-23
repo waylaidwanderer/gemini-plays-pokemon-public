@@ -183,5 +183,8 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Column 18 Wall Boundary (Rows 8-15):** [Verified Turn 1940] Column 18 is a solid rock wall face across Rows 8-15, blocking Eastward movement from (17,11) along Row 11. Passage East requires taking Row 7 upper corridor.
 - **Rocket Grunt #2 at (30,27):** [Spotted Turn 1963] Rocket Grunt at (30,27) facing Right guarding the exit corridor.
 - **Picked up Item Ball at (35,31):** [Turn 1965] Collected item from Item Ball at (35,31) in bottom-right B2F chamber.
+- **Super Nerd #2 at (24,31):** [Defeated Turn 1999 - Lv 11 Magnemite, Lv 11 Voltorb].
+- **Picked up Item Ball at (20,33):** [Verified Turn 2006] Picked up item ball at X=20, Y=33 in South-West chamber of Mt. Moon B2F.
+- **Exit Ladder to Route 4 Exit Tunnel at (21,29):** [Verified Turn 2005] Exit ladder graphic located at X=21, Y=29 on Mt. Moon B2F warps up to Route 4 exit tunnel!
 
 <hr>
