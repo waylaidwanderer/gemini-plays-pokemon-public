@@ -121,6 +121,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Central Wall Boundary (Row 20-21):** Central and Eastern Row 20-21 are blocked by rock wall.
 - **Row 25 Rock Wall (Cols 10-23):** [Verified Turn 1858] Solid rock wall blocks Row 25 across Columns 10 through 23, enclosing the bottom-left corridor (Cols 10-18, Rows 26-27). Passage North opens at Column 24 (Cols 24-27).
 - **East Wall at Column 28 (Rows 13-20):** [Verified Turn 1871] Solid purple rock wall face at Column 28 blocks East from Column 27 across Rows 13-20.
+- **Eastern Upper Chamber (Rows 11-15, Cols 21-30):** [Verified Turn 1876] Large wide-open cavern spanning Rows 11-15 across Columns 21 to 30. No wall at Row 13 or Col 28 on Rows 11-15; smooth purple floor extends North past Row 11.
 
 <hr>
 
