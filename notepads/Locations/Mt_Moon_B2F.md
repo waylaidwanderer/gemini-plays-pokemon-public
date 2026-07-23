@@ -24,7 +24,7 @@
 - **Super Nerd #2 at (24,31):** [Defeated Turn 1999 - Lv 11 Magnemite, Lv 11 Voltorb].
 - **Picked up Item Ball at (20,33):** [Verified Turn 2006] Picked up item ball at X=20, Y=33 in South-West chamber of Mt. Moon B2F.
 - **Tile (21,27) Rock Wall:** [Verified Turn 2021] Tile (21,27) is a solid rock wall face (not a ladder).
-- **Ladder at (21,17):** [Verified Turn 2028/2041] Blue ladder graphic located at X=21, Y=17 on Mt. Moon B2F.
+- **Exit Ladder at (15,23):** [Verified Turn 2123] Blue ladder graphic located at X=15, Y=23 on Mt. Moon B2F leads directly to Route 4 East exit corridor!
 - **CRITICAL WARP PAIRS:**
   - B1F (17,11) <-> B2F (25,9) [Isolated Side-Room with TM01]
   - B1F (25,9) <-> B2F (17,11) [Main Cavern with Fossils & Exit Ladder]
