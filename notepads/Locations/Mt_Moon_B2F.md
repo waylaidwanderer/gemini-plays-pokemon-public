@@ -21,4 +21,4 @@
 - **Obtained Helix Fossil:** [Verified Turn 1932] Picked up Helix Fossil at (13,13) on B2F.
 - **Column 18 Wall Boundary (Rows 8-15):** [Verified Turn 1940] Column 18 is a solid rock wall face across Rows 8-15, blocking Eastward movement from (17,11) along Row 11. Passage East requires taking Row 7 upper corridor.
 - **Rocket Grunt #2 at (30,27):** [Spotted Turn 1963] Rocket Grunt at (30,27) facing Right guarding the exit corridor.
-- **Item Ball at (35,31):** [Spotted Turn 1963] Item Ball located at X=35, Y=31 in bottom-right B2F chamber.
+- **Picked up Item Ball at (35,31):** [Turn 1965] Collected item from Item Ball at (35,31) in bottom-right B2F chamber.
