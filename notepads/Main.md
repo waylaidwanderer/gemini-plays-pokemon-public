@@ -24,4 +24,4 @@
   - **Moves:** Tackle, Tail Whip
   - **HP:** 23/23
   - **Status:** Defeated Rival RED's Bulbasaur in Oak's Lab!
-- **Route 1 Geometry:** Main northbound dirt highway is at x=16..17 (bypasses all south-facing ledges x=4..15 and tree lines x=3..15).
+- **Route 1 Geometry:** Main northbound dirt highway passes through gap x=6..7 at y=19 (open dirt path running north).
