@@ -24,28 +24,10 @@
 - **Starter Pokémon:** Squirtle (Lv 10) [Level 10 reached on Turn 460]
   - **Nickname:** SHELLSHOCK
   - **Moves:** Tackle, Tail Whip, Bubble
-  - **HP:** 8/29 (PSN) [Verified Turn 461]
+  - **HP:** 32/32 [Cured of poison Turn 463, fully healed at Pewter Pokémon Center Turn 500]
 - **Route 1 Geometry:** South-facing ledges at y=27 (gap at x=6..8), y=23 (gap at x=12..15), y=19 (gap at x=4..5), and y=13 (gap at x=15..16) [Verified Turns 189-217].
 - **Viridian City Overworld:** South Entrance at (21,35). Pokémon Center Door at (23,25). Pokémart Door at (29,19). Ledge gap at X=19, Y=27 [Verified Turn 243].
 - **Key Items:** Pokédex (Obtained from Prof. Oak on Turn 265).
 - **Inventory:** 5 Poké Balls (Bought in Viridian Pokémart on Turn 286), 1 Potion.
-
-<hr>
-
-<h1><code>Scratchpad/Route2_Geometry</code></h1>
-
-# Viridian Forest Topology & Active Routing Scratchpad
-
-## Verified Master Topology (Viridian Forest)
-- Map Dimensions: 34 x 48 tiles.
-- South Gatehouse Entrance: (17, 47) [Bottom Right].
-- North Gatehouse Exit Door: (2, 1) / (1, 0) [Top Left].
-- West Highway (Column 1/2): Uninterrupted vertical lane running from Y=25 all the way North to Exit Door at (2,1)/(1,0)!
-- Central Crossing Discovered at Turn 443: Row 24/25 (X=2..6) is an OPEN PASSAGE connecting Center Lane (Column 6) to West Highway (Column 2).
-- Signpost at (4, 24): Empirically verified on Turn 446 as a Trainer Tips signpost ("No stealing Pokémon from other trainers!").
-
-## Final Execution Plan to Exit Viridian Forest
-1. Current position: (2, 19) facing UP on Column 2 (West Highway).
-2. Walk North 18 steps up Column 2 from (2, 19) straight to North Gatehouse Exit Door at (2, 1) / (1, 0)!
 
 <hr>
