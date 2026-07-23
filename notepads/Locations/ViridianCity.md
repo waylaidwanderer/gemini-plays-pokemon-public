@@ -18,3 +18,17 @@
   - Sits at (0, 4) behind a desk.
   - Standing at (1, 4) facing Left and talking to her gives dialogue about Pokémon Centers.
 - **Exit Door:** at (3, 7) and (4, 7). Walking Down from (3, 7) exits back to Viridian City at (23, 26).
+
+## Poké Mart (Inside)
+- **Clerk:** Sits at (0, 5) behind the counter.
+- **Counter:** Located at (1, 5).
+- **Player standing position to buy/sell:** Standing at (2, 5) facing Left.
+- **Exit Door:** at (3, 7) and (4, 7). Walking Down from (3, 7) exits back to Viridian City at (29, 20).
+
+## Western Boundary & Cliff Barrier
+- **Cliff Barrier:** A solid, vertical checkered brown cliff barrier runs at column 3, blocking access to the west (columns 0, 1, 2) from the main city.
+  - **Checkered Cliff Tiles (Blocked):** (3, 19), (3, 20), (3, 21), (3, 22), (3, 23), (3, 24).
+  - **Diagonal Cliff Transition (Blocked):** (3, 18).
+- **Walkable Gap / Route 22 Path:**
+  - **Clear Ground Opening:** (3, 16) and (3, 17) are clear ground (unblocked), allowing the player to walk Left from column 4 to columns 0, 1, 2 (the path to Route 22).
+  - **Coordinates:** Walking Left through (4, 16) -> (3, 16) -> (2, 16) -> (1, 16) -> (0, 16) leads directly to Route 22.
