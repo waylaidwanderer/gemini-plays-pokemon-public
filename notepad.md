@@ -20,16 +20,11 @@
   - Middle Pokéball (7,3): Squirtle
   - Right Pokéball (8,3): Bulbasaur
 
-## Active Strategy & Target Starter
-- **Target Starter:** Squirtle (Middle Pokéball at x=7, y=3)
-  - Excellent typing vs Brock (Pewter Gym) & Misty (Cerulean Gym).
-  - Learns Bubble at Lv 8, Water Gun at Lv 15.
-- **Nickname Plan:** Creative custom nickname upon acquisition.
-
 ## Current Progress & Party
-- **Starter Pokémon:** Squirtle (Lv 5)
+- **Starter Pokémon:** Squirtle (Lv 6)
   - **Nickname:** SHELLSHOCK
   - **Moves:** Tackle, Tail Whip
+  - **HP:** 23/23
   - **Status:** Defeated Rival RED's Bulbasaur in Oak's Lab!
 
 <hr>
