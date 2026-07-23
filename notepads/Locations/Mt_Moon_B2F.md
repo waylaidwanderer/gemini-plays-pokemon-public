@@ -22,7 +22,6 @@
 - **Rocket Grunt #2 at (30,27):** [Spotted Turn 1963] Rocket Grunt at (30,27) facing Right guarding the exit corridor.
 - **Picked up Item Ball at (35,31):** [Turn 1965] Collected item from Item Ball at (35,31) in bottom-right B2F chamber.
 - **Super Nerd #2 at (24,31):** [Defeated Turn 1999 - Lv 11 Magnemite, Lv 11 Voltorb].
-- **Tile (21,27) Rock Wall:** [Verified Turn 2021] Tile (21,27) is a solid rock wall face (not a ladder).
 - **Exit Ladder at (15,23):** [Verified Turn 2123] Blue ladder graphic located at X=15, Y=23 on Mt. Moon B2F leads directly to Route 4 East exit corridor!
 - **CRITICAL WARP PAIRS:**
   - B1F (17,11) <-> B2F (25,9) [Isolated Side-Room with TM01]
