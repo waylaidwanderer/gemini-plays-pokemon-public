@@ -103,5 +103,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - Lass at (16,23) [Defeated Turn 837 - Lv 14 Clefairy].
 - **Eastern Corridor (Row 24, Columns 17-21):** [Verified Turn 839] Open hallway on Row 24 leading East from (16,24) to (21,24).
 - **Column 22 Vertical Wall:** [Verified Turn 841] Solid purple rock wall blocks East at Column 22/23 (Rows 20-28). Path turns North along Column 21 at (21,20).
+- **Ladder to B1F at (25,15):** [Verified Turn 844] Ladder located in upper eastern chamber at X=25, Y=15.
 
 <hr>
