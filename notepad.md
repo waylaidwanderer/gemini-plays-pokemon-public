@@ -30,7 +30,7 @@
 - **Starter Pokémon:** Wartortle (Lv 18) [Level 18 reached on Turn 765]
   - **Nickname:** SHELLSHOCK
   - **Moves:** Tackle, Tail Whip, Bubble, Water Gun
-  - **HP:** 53/53 HP [Healed via Blackout Turn 724]
+  - **HP:** 45/53 HP [Level 18 on Turn 765]
 - **Route 1 Geometry:** South-facing ledges at y=27 (gap at x=6..8), y=23 (gap at x=12..15), y=19 (gap at x=4..5), and y=13 (gap at x=15..16) [Verified Turns 189-217].
 - **Key Items:** Pokédex (Obtained from Prof. Oak on Turn 265).
 - **Inventory:** 5 Poké Balls (Bought in Viridian Pokémart on Turn 286), TM34 (Bide) [Obtained from Brock on Turn 565].
@@ -63,7 +63,8 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - Column 38 vertical wall blocks Rows 6-12; upper corridor continues East through Rows 4-5 at Column 38.
 - **Column 50 Mountain Wall:** [Verified Turn 748] Rock wall blocks Rows 3-9 at X=50; open passage East is at Row 10 (50,10).
 - Youngster at (57,11) facing West.
-- **Column 66 Eastern Cul-de-Sac:** Column 66 wall blocks Rows 6-14. Lower grass valley at Row 10 terminates at (65,10). Route 4 exit is accessed by going North at Column 56 back to Tier 1 highway (Rows 4-6).
+- **Column 66 Eastern Wall:** [Verified Turn 762/773] Column 66 is a solid rock wall blocking Rows 6-14.
+- **Tile (48,7) Ledge:** [Verified Turn 780] Tile (48,7) is a solid ledge blocking upward movement from (48,8).
 - **Row 7 Ledge Gap at Columns 34-37:** [Verified Turn 744] Row 7 has an open two-way gap at X=34..37 connecting Tier 2/3 (Row 8-10) UP to Tier 1 upper highway (Row 4-6).
 
 <hr>
