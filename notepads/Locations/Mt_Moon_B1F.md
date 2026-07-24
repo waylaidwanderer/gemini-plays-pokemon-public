@@ -47,6 +47,6 @@
 - **Solid Ledge / Wall Face at (25..31, 28):** [Verified Turn 3158] Row 28 at Columns 25-31 is a solid ledge / wall face blocking Southward movement from Row 27. Exit West from lower room is via Row 27 (Cols 29-25) back toward (15,27).
 
 - **Column 30-31 Cliff Face (Rows 20-28):** [Verified Turn 3412] Columns 30 and 31 on Mt. Moon B1F form a solid impassable blue/purple cliff face spanning Rows 20 through 28, enclosing the South-East cavern (Cols 24-29, Rows 22-27).
-- **Ladder Tile at (15,27) Warp Behavior:** [Verified Turn 3712] Tile (15,27) on B1F is the ladder warp back to 1F (13,27). Walking onto (15,27) on B1F immediately triggers map warp. To navigate East along South Corridor on B1F, step Up to Row 26 at (15,26) to bypass the ladder tile.
+- **Ladder Tile at (15,27) Warp Behavior:** [Verified Turn 3712] Tile (15,27) on B1F is the ladder warp back to 1F (13,27). Walking onto (15,27) on B1F immediately triggers map warp.
 - **Solid Rock Wall Face at (28,21):** [Verified Turn 3725] Tile (28,21) is a solid rock wall face blocking Northward passage along Column 28. Access Upper Platform via stairs at (25,23).
 - **Row 24 Stair Entrance (Cols 25-28):** [Verified Turn 3726] Row 24 is wide open floor connecting Col 28 West to (25,24) at the base of the Upper Platform stairs at (25,23).
