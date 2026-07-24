@@ -11,7 +11,7 @@
 - **Row 12 Solid Wall Face:** [Verified Turn 1291] Row 12 is a solid rock wall face across Columns 22-31 blocking downward movement. Open South Passage is at Columns 32-33 leading to stairs at (32,15)-(33,15) into the lower B2F cavern!
 - **West Wall Boundary at Column 23:** [Verified Turn 1182] Column 23 is a solid rock wall blocking West across Rows 5-13.
 - **Enclosed B2F Side-Room:** [Verified Turn 1195] B2F room (Cols 24-35, Rows 5-11) is fully enclosed by Col 23 West wall, Col 36 East wall, Row 4 North wall, and Row 12 South wall.
-- **South Passage at Columns 32-33:** [Verified Turn 1193] Columns 32-33 provide an open floor passage on Row 12 leading South directly to stairs at (32,15)-(33,15) into the main lower cavern.
+- **Rock Pillar Face at (32,12)-(33,15):** [Verified Turn 2849/2851] Solid purple rock wall face blocks Rows 12-15 across Columns 32-33. Columns 30-31 and Columns 34-37 are open smooth floor passages connecting Row 11 South to Row 15+ lower cavern.
 - **B2F Connector vs Main Cavern Discovered:** [Verified Turn 1250] Ladder (17,11) in B2F Connector Room warps to B2F Main Cavern at (25,9), where Column 26+ is open floor leading East to South Passage at (32,12).
 - **B2F South Passage Discovered:** [Verified Turn 1504] Column 17 is a wide-open vertical corridor extending South across Rows 12-19+ (Columns 13-17 floor).
 - **Row 20 Boundary:** [Verified Turn 1509] Row 20 is a solid rock wall face across Columns 13-18. B2F South passage turns West along Row 19 (Cols 13-17).
