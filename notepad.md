@@ -197,6 +197,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Elevated Rock Cliff Wall Face (Cols 12-13):** [Verified Turn 3235] Columns 12 and 13 form a solid impassable elevated rock cliff wall face running vertically from Row 19 down to Row 27.
 - **Column 30-31 Cliff Face (Rows 20-28):** [Verified Turn 3412] Columns 30 and 31 on Mt. Moon B1F form a solid impassable blue/purple cliff face spanning Rows 20 through 28, enclosing the South-East cavern (Cols 24-29, Rows 22-27).
 
+- **B1F North Passage at Cols 12-13:** [Verified Turn 3484] Column 12 and Column 13 provide the open vertical highway North across Rows 20-21. Rows 20-21 at Columns 14-20 form a solid purple rock wall face.
 
 <hr>
 
