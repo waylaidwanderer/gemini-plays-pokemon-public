@@ -1,5 +1,6 @@
-- [Turn 4545 Confirmed] Fossil event completed at (24,31).
-- [Turn 4679 Exit Ladder Warp Tile] B2F Exit Ladder warp tile is at (25,22)!
-  1. Standing at (25,23), press Up 1 step onto ladder top at (25,22).
-  2. Ascend to B1F South Corridor.
-  3. Walk West to ladder at (15,27) on B1F -> warp up to 1F (13,27) -> Exit to Route 4!
+- [Turn 4681 B1F South Corridor] Arrived on Mt. Moon B1F at (25,22) from B2F exit ladder!
+- [Turn 4681 Plan to Exit Mt. Moon]
+  1. From (25,22), walk Down 6 steps to (25,28).
+  2. Walk Left 10 steps along Row 28 to (15,28).
+  3. Walk Up 1 step to (15,27) ladder -> warp to 1F (13,27).
+  4. Walk South from 1F (13,27) to Route 4 exit!

@@ -55,3 +55,4 @@
 - **North Wall Barrier (Rows 2-5, Cols 30-39):** [Verified Turn 4409] Rows 2-5 across Columns 30-39 form a solid rock wall face enclosing the top-right corridor.
 - **Side-Room Loop Warp:** [Verified Turn 4392] Ladder at (25,9) on B1F warps to B2F (17,11); ladder at (17,11) on B2F warps to B1F (25,9), forming an isolated side-room loop.
 - **Solid Wall Collision at (26,10):** [Verified Turn 4446] Tile (26,10) on B1F is a solid rock wall face.
+- **Exit Ladder Warp Arrival from B2F at (25,22):** [Verified Turn 4681] Arrived at (25,22) on B1F from B2F exit ladder!
