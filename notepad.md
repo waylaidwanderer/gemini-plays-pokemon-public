@@ -557,10 +557,10 @@
 - **Northwest Pocket (Ladder area):** (17, 11) is a ladder, and (17, 12) is the floor tile below it. This forms a small 1x2 pocket that is blocked on the left by rock walls at column 16, blocked on the right by rock walls at column 18, and blocked on the south by rock walls on row 13. The pocket exits to the LEFT (west) on row 12! The path goes (17, 12) <--> (16, 12) <--> (15, 12) <--> ... into the main cavern on columns 12-16.
 - **Western Cavern Barriers (Rows 18-19):** Systematic, tile-by-tile testing (completed on Turn 2165-2166) confirmed that rows 18 and 19 form a solid, impassable horizontal rock wall across columns 2 to 9 on the west side. All columns (2, 3, 4, 5, 6, 7) are completely blocked.
 - **Central/Southern Cavern Blockages & Pathing:**
-  - **No Direct Middle Crossing:** Column 16 has a solid vertical wall blocking rows 26 to 35 (except row 25 which is open on column 16).
+  - **No Direct Middle Crossing:** Column 16 has a solid vertical wall blocking rows 26 to 29 (except row 25 which is open on column 16).
   - **Columns 22-23 Barrier:** Solid vertical rock wall on columns 22 and 23 across rows 21 to 29, blocking row 25 from reaching columns 24-25.
   - **Row 26 Wall:** Row 26 is a solid rock wall across columns 16 to 23, blocking any downward movement from row 25.
-  - **Result:** The middle/southern cavern is completely blocked off horizontally. There is no open bridge at row 25, 29, or 34.
+  - **Result:** Rows 30 to 35 are completely open and walkable across column 16, allowing direct horizontal crossing between the western cavern and the eastern cavern!
   - **Eastern Cavern Access Route (Direct & Verified):**
     - Walk north from the entrance (14, 35) to row 25.
     - Walk east along row 25 to column 20 or 21 (completely open across column 16).
