@@ -52,3 +52,4 @@
 - **Item Ball at (25,14):** [Verified Turn 3294] Item Ball located at (25,14) on 1F (picked up on Turn 3294).
 
 - **Mountain Wall Barrier Across Rows 20-21 (Cols 10-23):** [Verified Turn 3535] Solid purple rock wall face forms an impassable continuous barrier across Rows 20-21 from Column 10 all the way through Column 23. Northern highway on 1F is via Column 28 (Cols 28-30).
+- **Decorative Ladder at (25,15):** [Verified Turn 3686] Tile (25,15) displays ladder graphic but is decorative/non-functional. Functional ladder is at (17,11).
