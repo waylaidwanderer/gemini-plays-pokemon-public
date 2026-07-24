@@ -225,5 +225,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **B2F Side Room Confirmation:** [Verified Turn 2819] B2F (25,9) spawn is an enclosed side-room bounded East at Col 26 and South at Row 12. Must warp back to B1F (17,11) via (25,9) ladder, then navigate B1F to (25,9) ladder to reach B2F Main Cavern.
 - **Exit Ladder Route from Col 17 (Rows 11-19):** [Verified Turn 2833] Column 17 (Rows 11-19) is an isolated Western Corridor bounded South at Row 20 and West at Col 10. To reach the exit ladder at (15,23) on Row 23, walk North along Col 17 to Row 7 (17,7), East along Row 7 to Col 25, South down Col 25 to Row 23, and West along Row 23 straight to (15,23) ladder!
 - **Column 22-23 Rock Wall Face (Rows 20-27):** [Verified Turn 2863] Solid rock wall face blocks Westward passage at Columns 22-23 across Rows 20 through 27. Row 28 is the open floor passage connecting Column 24 West to Column 15 and the exit ladder at (15,23)!
+- **Col 16 Rock Wall Face (Rows 26-32):** [Verified Turn 2873] Solid rock wall face blocks Westward movement along Row 28 at Column 16. Route West to Col 15 is via Row 25 (17,28 -> 17,25 -> 15,25 -> 15,23 Exit Ladder)!
 
 <hr>
