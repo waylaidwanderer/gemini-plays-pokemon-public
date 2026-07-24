@@ -210,6 +210,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **South Corridor Row 25 Bypass:** [Verified Turn 4687] Row 25 (Cols 15-25) is wide open smooth purple floor, bypassing Col 19 rock wall at Row 28.
 - **Row 27 Rock Wall Face (Cols 19-23):** [Verified Turn 4688] Solid rock wall face along Row 27 at Cols 19-23. Passage between Row 28 and Row 25 is via Column 24/25.
 - **Decorative Ladder at (24,31):** [Verified Turn 4695] Tile (24,31) displays ladder graphic but is non-functional/impassable. True functional exit ladder to 1F is at (15,27)!
+- **Col 12-13 Wall Boundary (Rows 3-11):** [Verified Turn 4706] Solid rock wall face along Columns 12-13 across Rows 3-11 blocks Row 7 from connecting directly West at Column 13.
 
 <hr>
 
