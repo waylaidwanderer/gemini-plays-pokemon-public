@@ -201,6 +201,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Solid Ledge / Wall Face at (25..31, 28):** [Verified Turn 3158] Row 28 at Columns 25-31 is a solid ledge / wall face blocking Southward movement from Row 27. Exit West from lower room is via Row 27 (Cols 29-25) back toward (15,27).
 
 - **Column 30-31 Cliff Face (Rows 20-28):** [Verified Turn 3412] Columns 30 and 31 on Mt. Moon B1F form a solid impassable blue/purple cliff face spanning Rows 20 through 28, enclosing the South-East cavern (Cols 24-29, Rows 22-27).
+- **Ladder Tile at (15,27) Warp Behavior:** [Verified Turn 3712] Tile (15,27) on B1F is the ladder warp back to 1F (13,27). Walking onto (15,27) on B1F immediately triggers map warp. To navigate East along South Corridor on B1F, step Up to Row 26 at (15,26) to bypass the ladder tile.
 
 <hr>
 
