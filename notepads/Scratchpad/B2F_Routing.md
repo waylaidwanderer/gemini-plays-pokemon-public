@@ -1,6 +1,2 @@
-- [Turn 4523 Correction] Row 8 is a solid blue rock wall face across Cols 18-25. Row 7 upper corridor continues East past Col 25.
-- [Turn 4524 Verified] Column 30 is the open vertical passage connecting Row 7 (30,7) South past Row 8 wall (30,8..12) into the Main Cavern!
-- [Turn 4536 Discovered] Row 26 is blue rock wall across Cols 26-29. Column 31 is the open vertical corridor South to Row 31!
-- [Turn 4538 Discovered] Row 31 at Col 28-29 is rock wall face, but Row 33 (Cols 24-30) is the open brown floor corridor West to (24,33) below Super Nerd #2!
-- [Turn 4545 Confirmed] Fossil event completed at (24,31). Navigating East along Row 33 to Column 30 to reach B2F exit corridor (Cols 30-35).
-- [Turn 4572 Verified B1F Route] Row 7 is rock wall face; Row 8 is the open purple floor corridor West from (25,8) to Column 10. Navigating West to Col 10 highway to reach exit ladder at (15,27).
+- [Turn 4545 Confirmed] Fossil event completed at (24,31).
+- [Turn 4589 Route] Currently at (28,8) on B2F. Step Up 1 to (28,7) stairs, then East along Row 7 to Column 30/31.
