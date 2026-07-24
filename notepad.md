@@ -226,5 +226,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Exit Ladder Route from Col 17 (Rows 11-19):** [Verified Turn 2833] Column 17 (Rows 11-19) is an isolated Western Corridor bounded South at Row 20 and West at Col 10. To reach the exit ladder at (15,23) on Row 23, walk North along Col 17 to Row 7 (17,7), East along Row 7 to Col 25, South down Col 25 to Row 23, and West along Row 23 straight to (15,23) ladder!
 - **Column 22-23 Rock Wall Face (Rows 20-27):** [Verified Turn 2863] Solid rock wall face blocks Westward passage at Columns 22-23 across Rows 20 through 27. Row 28 is the open floor passage connecting Column 24 West to Column 15 and the exit ladder at (15,23)!
 - **Col 19 Rock Wall Face (Rows 26-32):** [Verified Turn 2875/2876] Solid purple rock wall face blocks Westward movement along Row 28 at Column 19. Route West to Col 15 is via Column 21 North to Row 25 (21,28 -> 21,25 -> 15,25 -> 15,23 Exit Ladder)!
+- **Col 19 Solid Rock Wall Face (Rows 26-35):** [Verified Turn 2893] Solid purple rock wall face blocks Westward movement across Column 19 on Rows 26-35. Eastern Cavern (Cols 20-35) connects to Western Exit Corridor (Col 15, Rows 19-23) via Row 7 Upper Corridor (17,7 -> 17,19 -> 15,19 -> 15,23 Exit Ladder)!
 
 <hr>
