@@ -561,7 +561,12 @@
   - **Columns 22-23 Barrier:** Solid vertical rock wall on columns 22 and 23 across rows 21 to 29, blocking row 25 from reaching columns 24-25.
   - **Row 26 Wall:** Row 26 is a solid rock wall across columns 16 to 23, blocking any downward movement from row 25.
   - **Result:** The middle/southern cavern is completely blocked off horizontally. There is no open bridge at row 25, 29, or 34.
-  - **Eastern Cavern Access Route:** To reach the eastern cavern (and the ladder at (25, 15)), the player must walk north along the western cavern (columns 10-15) to the top of 1F, walk east along the northern wall (rows 5-6), and then walk south down the eastern cavern.
+  - **Eastern Cavern Access Route (Direct & Verified):**
+    - Walk north from the entrance (14, 35) to row 25.
+    - Walk east along row 25 to column 20 or 21 (completely open across column 16).
+    - Walk north along column 20/21 directly to row 15 (completely open, no ledges or walls!).
+    - Walk east along row 15 directly to the ladder at (25, 15).
+    - This is the fastest, most direct route, entirely bypassing all rock walls and northern detours!
 
 <hr>
 
