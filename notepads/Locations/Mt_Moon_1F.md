@@ -54,4 +54,3 @@
 - **Mountain Wall Barrier Across Rows 20-21 (Cols 10-23):** [Verified Turn 3535] Solid purple rock wall face forms an impassable continuous barrier across Rows 20-21 from Column 10 all the way through Column 23. Northern highway on 1F is via Column 28 (Cols 28-30).
 - **Decorative Ladder at (25,15):** [Verified Turn 3686] Tile (25,15) displays ladder graphic but is decorative/non-functional. Functional ladder is at (17,11).
 - **MASTER WARP CHAIN TO B2F MAIN CAVERN & EXIT:** [Verified] 1F (17,11) -> B2F (25,9) -> B2F (17,11) ladder -> B1F (25,9) -> B1F (25,9) ladder -> B2F (17,11) Main Cavern -> Exit to Route 4 East!
-- **Row 8-10 Central Rock Pillar Bypass:** [Verified Turn 3946] Solid rock wall blocks Rows 8-10 across Columns 18-19. Bypass is via Column 20 North to Row 7 (20,7), West along Row 7 to Column 17 (17,7), and South along Column 17 to (17,11) ladder.
