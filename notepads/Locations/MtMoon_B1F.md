@@ -24,3 +24,16 @@
   - (17, 11): Leads down to Mt. Moon B2F.
 - **Items:** None.
 - **Trainers:** None.
+
+## Connector Corridor (North-West-2)
+- **Access:**
+  - Northern Ladder: at (5, 5) leading up to Mt. Moon 1F at (5, 5).
+  - Southern/Eastern Ladder: at (21, 17) leading down to Mt. Moon B2F at (21, 17).
+- **Layout:**
+  - Vertical segment from (5, 5) down to (5, 16).
+  - Horizontal segment from (5, 16) east to (21, 16), which goes south to (21, 17).
+- **Ladders:**
+  - (5, 5): Leads up to Mt. Moon 1F.
+  - (21, 17): Leads down to Mt. Moon B2F.
+- **Items:** None.
+- **Trainers:** None.
