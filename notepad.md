@@ -552,7 +552,7 @@
 ## Verified Layout Details & Barriers
 - **Central Wall & Ledge Barrier:** Rows 20 and 21 form a solid horizontal rocky wall across columns 14 to 29, EXCEPT for columns 20 and 21 which are completely open and clear, allowing direct northward (upward) movement between the southern area (row 25) and the northern area (row 15). There is no ledge blocking upward movement on columns 20 and 21.
 - **Raised Platform (West Side):** Columns 12 and 13 on rows 20 to 28 form an elevated platform.
-  - The eastern edge (column 13) has a solid wall with no staircases on rows 22, 26, and 27 (experimentally tested).
+  - The eastern edge (column 13) has a solid wall on rows 22 and 26 (experimentally tested), but row 27 is a completely walkable gap/staircase allowing passage to the west side (verified on Turn 2451).
   - Row 28 is a horizontal elevated platform segment that blocks column 14, meaning column 14 is a dead-end at row 27.
 - **Stony Floor (South-West):** Row 29 is a completely walkable stony floor across columns 10 to 19, which is situated below the platform.
 - **Northwest Pocket (Ladder area):** (17, 11) is a ladder, and (17, 12) is the floor tile below it. This forms a small 1x2 pocket that is blocked on the left by rock walls at column 16, blocked on the right by rock walls at column 18, and blocked on the south by rock walls on row 13. The pocket exits to the LEFT (west) on row 12! The path goes (17, 12) <--> (16, 12) <--> (15, 12) <--> ... into the main cavern on columns 12-16.
