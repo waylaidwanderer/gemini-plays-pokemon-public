@@ -257,9 +257,10 @@ Route 3 is structured into 3 horizontal elevation tiers:
 <h1><code>Scratchpad/B2F_Routing</code></h1>
 
 - [Turn 4545 Confirmed] Fossil event completed at (24,31).
-- [Turn 4630 Solution] Discovered that B1F Rows 8-11 (Cols 14-25) are wide open smooth floor!
-  1. Walk East from B1F (17,11) along Row 11 to (25,11).
-  2. Walk Up to (25,9) ladder on B1F.
-  3. Step onto B1F (25,9) ladder to warp to B2F Main Cavern (17,11)!
+- [Turn 4637 Route to Exit]
+  1. From (23,7), walk Left 6 steps to (17,7).
+  2. Walk Down 8 steps to (17,15) [below the Col 18-19 wall].
+  3. Walk Right 3 steps to (20,15) [Col 20 South Highway].
+  4. Walk South through Col 20 to Bottom Cavern (24,31) / (30,27) exit corridor.
 
 <hr>
