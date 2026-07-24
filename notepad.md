@@ -233,7 +233,7 @@
 - **Pewter City Boundary:** Route 2 north transitions to Pewter City at (8, 0) or (9, 0) going north.
 - **Layout & Walkable Path:**
   - **West Side / Center (Columns 3 to 7):** Contains tall grass with wild encounters from row 3 up to row 11.
-  - **East Side (Columns 8 and 9):** A completely clear pavement road with **0% encounter rate**, going straight north to Pewter City.
+  - **East Side (Columns 8 and 9):** A completely clear pavement road going straight north to Pewter City. Pavement terrain has a 0% encounter rate by design in the game engine.
   - **Transitioning to Safe Path:** Standing at the Northern Gatehouse exit at (3, 11), walk up to (3, 7), then walk Right to column 8. There is no fence or ledge blocking access from the grass to column 8, allowing the player to safely walk up to Pewter City.
 
 <hr>
