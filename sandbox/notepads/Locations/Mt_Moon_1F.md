@@ -51,3 +51,4 @@
 - **(24,28) Wall Boundary:** [Verified Turn 3024] Solid rock wall face blocks South at Row 28 across Columns 20-29 on 1F.
 - **(9,19) Wall Boundary:** [Verified Turn 3059] Solid rock wall face blocks Westward movement at Column 9 on Row 19.
 - **East Wall Boundary at Column 28 (Rows 22-27):** [Verified Turn 3198] Column 28 is a solid black wall boundary face on 1F blocking Eastward movement from Column 27. Route North through Eastern Chamber is along Columns 24-27!
+- **Item Ball at (25,14):** [Verified Turn 3294] Item Ball located at (25,14) on 1F (picked up on Turn 3294).
