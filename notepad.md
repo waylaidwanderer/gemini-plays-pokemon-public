@@ -110,7 +110,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - Rocket Grunt at (15,23) [Defeated Turn 1044 - Lv 11 Sandshrew, Rattata, Zubat].
 - **Functional Ladder to B1F at (13,27):** [Verified Turn 1672] Ladder graphic tile located at X=13, Y=27 on Mt. Moon 1F warps directly down to B1F.
 - Picked up Item Ball at (25,21) [Turn 1332 - Escape Rope].
-- **Decorative Ladder at (21,17):** [Verified Turn 1653] Blue ladder graphic at (21,17) is in an isolated alcove (Cols 20-21 bounded by Col 22-23 wall).
 - **West Wall at (13,24):** [Verified Turn 1346] Tile (13,24) is blocked by a rock wall.
 - **Row 19 Central Block:** [Updated Turn 1711] Columns 22-23 form a solid rock wall across Rows 14-25, separating the Eastern Chamber (Cols 24-27) from Central Alcove (Cols 20-21).
 - **Enclosed Platform at (25,21):** [Verified Turn 1364] Stairs at (25,23) lead up to platform at (25,21), which is bounded North by Row 20 wall. Exit platform down stairs to Row 24.
