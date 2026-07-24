@@ -37,7 +37,7 @@
 - **Eastern Chamber (Cols 24-27, Rows 14-18):** [Verified Turn 2549] Enclosed side room. Exit is South at (24,26).
 - **Row 8-9 Rock Wall (Cols 18-29):** [Verified Turn 2410] Solid rock wall face blocks Rows 8-9 across Columns 18 through 29. Column 30+ is open floor connecting Row 10 North to Row 7 upper corridor.
 - **CRITICAL WARP PAIRS:**
-  - 1F (15,26) <-> B1F (15,27) [Main Path to B1F & B2F Main Cavern]
+  - 1F (17,11) <-> B2F (25,9) [Main Path across 1F to B2F / B1F Exit Cavern]
   - 1F (17,11) <-> B2F (25,9) [Side Room Loop with TM01 Mega Punch]
 - **Column 17 Wall at (17,21):** [Verified Turn 2529] Solid rock wall face at (17,21) blocks Northward movement along Column 17.
 - **Row 21 Wall at Col 10:** [Verified Turn 2533] Solid rock wall face at (10,21) blocks Northward movement along Column 10. Western corridor route to Western Chamber is via Row 24 to Column 6.
