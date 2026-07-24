@@ -15,12 +15,12 @@
 - **SHELLBY (Squirtle):**
   - **Level:** 14
   - **Moveset:** Tackle, Tail Whip, Bubble
-  - **HP:** 22 / 38
+  - **HP:** 27 / 38
   - **Status:** Healthy
 - **TESLA (Pikachu):**
-  - **Level:** 3
+  - **Level:** 4
   - **Moveset:** ThunderShock, Growl
-  - **HP:** 15 / 15
+  - **HP:** 17 / 17
   - **Status:** Healthy
 - **GUSTY (Pidgey):**
   - **Level:** 5
