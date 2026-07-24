@@ -166,6 +166,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Column 12-13 Rock Pillar (Rows 23-28):** [Verified Turn 2488] Columns 12-13 are a solid rock pillar face across Rows 23 through 28, blocking Westward movement along South Corridor at Row 27. Column 14/15 is the open vertical highway North connecting Row 27 up to Upper Cavern (Rows 18-21).
 - **Rocket Grunt at (15,22):** [Verified Turn 2501] Rocket Grunt located at (15,22) in Upper Cavern section of B1F.
 - **Row 26 Ladder Bypass:** [Verified Turn 2496] To bypass (15,27) ladder when spawning at B1F (15,27), step Up to Row 26 at (14,26) and walk East along Row 26.
+- **Row 22 West Bypass across Cols 10-14:** [Verified Turn 2505] Row 22 is open floor across Columns 10 through 14, bypassing the Col 12-13 rock pillar (which only spans Rows 23-28).
 
 <hr>
 
