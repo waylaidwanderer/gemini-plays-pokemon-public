@@ -38,7 +38,7 @@
 - **South Corridor True Coordinates:** [Verified Turn 2646] Rows 28-30 across Columns 20-25 form the open floor South Corridor extending West under the Row 24-27 rock wall face. Row 26/27 at Cols 20-23 is solid rock wall face.
 - **Row 25 Solid Rock Wall Face (Cols 10-23):** [Verified Turn 2758] Solid purple rock wall face blocks Row 25 across Columns 10 through 23 on B1F. Column 15 does NOT connect North past Row 25. Exit North from South Corridor is at Columns 24-25.
 - **East Wall Boundary at Col 28 (Rows 17-25):** [Verified Turn 2768] Solid purple rock wall face at Column 28 blocks East from Column 27 across Rows 17-25. Wide Eastern Highway is Columns 24-27 extending North.
-- **(25,12) Wall Boundary:** [Verified Turn 2973] Tile (25,12) is an impassable wall face. Column 25 dead-ends South at Row 11. Passage East from (25,11) is via Row 10 bypass across Columns 26-34.
+- **(25,12) Wall Boundary:** [Verified Turn 2973] Tile (25,12) is an impassable wall face. Column 25 dead-ends South at Row 11.
 - **Solid Rock Wall Face at (13,22):** [Verified Turn 3118] Tile (13,22) is solid rock wall face blocking Westward movement from Column 14.
 - **Solid Rock Wall Face at (13,26):** [Verified Turn 3101] Tile (13,26) is solid rock wall face blocking Westward movement along Row 26.
 - **Solid Rock Wall Face at (26,23) & (27,22):** [Verified Turn 3133] Tiles (26,23) and (27,22) are solid rock wall faces enclosing the upper platform landing. Exit from upper landing is West to (25,22) and Down stairs at (25,23).
