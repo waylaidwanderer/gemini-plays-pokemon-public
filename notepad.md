@@ -247,7 +247,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 <h1><code>Scratchpad/B2F_Routing</code></h1>
 
-- [Turn 4331] Verified directly in Bag menu that Helix Fossil is NOT in inventory!
 - [Turn 4517 Discovered B2F Map Geometry]
   - Row 20 is solid rock wall across Cols 10-18 on B2F.
   - Western Cavern (Cols 10-17, Rows 8-19) connects East to Column 20 via Row 7 Upper Corridor at (17,7).
