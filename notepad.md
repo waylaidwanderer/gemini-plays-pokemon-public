@@ -386,4 +386,17 @@
   - **Walkable Staircase (Column 25):** (25, 14), (25, 15), and (25, 16) is a walkable staircase that cuts through the cliff face, allowing vertical transit.
   - **Upper Road Eastward Path:** Accessible by walking east along the upper road (rows 5-6) which bypasses the trees and ledges completely.
 
+## Trainers & Defeated Status
+- **Lass Janice:** Sits at (16, 9) originally, engaged at (15, 9) on Turn 1057.
+  - **Roster:** Pidgey (Lv 9), Pidgey (Lv 9)
+  - **Status:** Defeated on Turn 1094.
+  - **Reward:** ¥135
+- **Bug Catcher Greg:** Sits at (10, 6) facing Right. Engaged at (11, 6) on Turn 1124.
+  - **Roster:** Caterpie (Lv 10), Weedle (Lv 10), Caterpie (Lv 10)
+  - **Status:** Defeated on Turn 1161.
+  - **Reward:** ¥100
+- **Youngster Ben:** Sits at (14, 4) originally, walked to (14, 5). Engaged at (14, 6) on Turn 1166.
+  - **Roster:** Rattata (Lv 11), Spearow (Lv 11)
+  - **Status:** In Progress (Currently fighting).
+
 <hr>
