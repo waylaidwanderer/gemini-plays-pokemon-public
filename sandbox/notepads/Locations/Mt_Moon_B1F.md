@@ -47,5 +47,3 @@
 - **Solid Ledge / Wall Face at (25..31, 28):** [Verified Turn 3158] Row 28 at Columns 25-31 is a solid ledge / wall face blocking Southward movement from Row 27. Exit West from lower room is via Row 27 (Cols 29-25) back toward (15,27).
 
 - **Column 30-31 Cliff Face (Rows 20-28):** [Verified Turn 3412] Columns 30 and 31 on Mt. Moon B1F form a solid impassable blue/purple cliff face spanning Rows 20 through 28, enclosing the South-East cavern (Cols 24-29, Rows 22-27).
-
-- **Elevated Rock Cliff Wall Face (Cols 12-13):** [Verified Turn 3235 & 3495] Columns 12 and 13 form a solid impassable elevated rock cliff wall face running vertically from Row 19 down to Row 27.
