@@ -229,7 +229,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
   - B1F (25,9) <-> B2F (17,11) [Main Cavern with Fossils & Exit Ladder]
 - **Column 18-19 Rock Wall:** [Verified Turn 2182] Solid rock wall spans Columns 18-19 across Rows 11-21. Open South Passage is Column 20 leading directly to Row 23.
 - **Row 12 Wall Face (Cols 16-21):** [Verified Turn 2428] Solid rock wall blocks Southward movement along Columns 16-21 at Row 12. Columns 24-25 provide the open floor passage South connecting Row 11 to Rows 13-15.
-- **Main Cavern South Highway (Col 17):** [Verified Turn 2821] In B2F Main Cavern at (17,11), Column 17 extends South across Rows 12-19 into the lower cavern.
+
 - **(25,9) Rock Wall Face:** [Verified Turn 2992] Tile (25,9) is a solid rock wall face. Row 8-9 blocks Upward movement across Cols 22-29.
 
 - **Column 22-23 Rock Wall Face (Rows 20-27):** [Verified Turn 2863] Solid rock wall face blocks Westward passage at Columns 22-23 across Rows 20 through 27.
