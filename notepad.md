@@ -119,12 +119,15 @@
 - **Town Map:** Obtained from Daisy in Daisy's House on Turn 137.
 - **Caught First Companion:** Caught NIBBLES (Rattata, Level 3) on Route 1 on Turn 318.
 - **Caught Second Companion:** Caught GUSTY (Pidgey, Level 3) on Route 1 on Turn 350.
+- **Caught Third Companion:** Caught TESLA (Pikachu, Level 3) in Viridian Forest on Turn 894.
+- **Defeated Gym Junior Trainer:** Defeated Pewter Gym Junior Trainer on Turn 979.
+- **Defeated Gym Leader Brock:** Defeated Pewter Gym Leader Brock on Turn 1024, obtaining the BOULDERBADGE and TM34 (Bide).
 
 ## Party Statistics
 - **SHELLBY (Squirtle):**
-  - **Level:** 12
+  - **Level:** 14
   - **Moveset:** Tackle, Tail Whip, Bubble
-  - **HP:** 11 / 34
+  - **HP:** 17 / 39
   - **Status:** Healthy
 - **TESLA (Pikachu):**
   - **Level:** 3
