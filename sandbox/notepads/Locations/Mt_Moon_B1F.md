@@ -57,3 +57,4 @@
 - **Solid Wall Collision at (26,10):** [Verified Turn 4446] Tile (26,10) on B1F is a solid rock wall face.
 - **Exit Ladder Warp Arrival from B2F at (25,22):** [Verified Turn 4681] Arrived at (25,22) on B1F from B2F exit ladder!
 - **South Corridor Row 25 Bypass:** [Verified Turn 4687] Row 25 (Cols 15-25) is wide open smooth purple floor, bypassing Col 19 rock wall at Row 28.
+- **Row 27 Rock Wall Face (Cols 19-23):** [Verified Turn 4688] Solid rock wall face along Row 27 at Cols 19-23. Passage between Row 28 and Row 25 is via Column 24/25.
