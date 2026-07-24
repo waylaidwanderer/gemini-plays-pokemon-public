@@ -2,9 +2,6 @@
 
 # Pokémon Blue - Crystal Palette Swap Mod Playthrough
 
-## Current Location
-- Viridian Forest
-
 ## Verified Map Coordinates & Layouts
 - Detailed coordinate files are organized in the `Locations/` directory.
 - Refer to `Locations/PalletTown_And_Route1` for Pallet Town and Route 1 layouts.
