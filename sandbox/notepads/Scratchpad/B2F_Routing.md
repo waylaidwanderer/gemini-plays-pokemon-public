@@ -1,5 +1,5 @@
-- [Turn 4697 B1F Master Navigation Plan]
-  1. From (20,30), walk Right 5 to (25,30), Up 8 to (25,22).
-  2. Walk North along Col 24/25 Eastern Highway to Top Corridor at (25,7).
-  3. Walk West along Row 7 Top Corridor to Col 15 / Col 10.
-  4. Walk South to (15,27) exit ladder -> warp up to 1F (13,27) -> Exit to Route 4!
+- [Turn 4699 B1F North Highway Execution]
+  1. From (24,17), walk Up 10 steps along Column 24 to Top Corridor at (24,7).
+  2. Walk Left 14 steps along Row 7 to Column 10 at (10,7).
+  3. Walk South along Column 10 to Row 27 at (10,27).
+  4. Walk East to (15,27) ladder -> warp up to 1F (13,27) -> Exit to Route 4!
