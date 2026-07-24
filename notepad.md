@@ -144,7 +144,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 - **Mountain Wall Barrier Across Rows 20-21 (Cols 10-23):** [Verified Turn 3535] Solid purple rock wall face forms an impassable continuous barrier across Rows 20-21 from Column 10 all the way through Column 23. Northern highway on 1F is via Column 28 (Cols 28-30).
 - **Decorative Ladder at (25,15):** [Verified Turn 3686] Tile (25,15) displays ladder graphic but is decorative/non-functional. Functional ladder is at (17,11).
-- **MASTER WARP CHAIN TO B2F MAIN CAVERN & EXIT:** [Verified] 1F (17,11) -> B2F (25,9) -> B2F (17,11) ladder -> B1F (25,9) -> B1F (25,9) ladder -> B2F (17,11) Main Cavern -> Exit to Route 4 East!
 
 <hr>
 
@@ -217,7 +216,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Rocket Grunt at (29,10):** [Defeated Turn 1106 - Lv 12 Zubat, Lv 12 Ekans].
 - **Upper Platform Dead End:** [Verified Turn 1154] Upper platform spans Columns 27-30 at Rows 5-6, bounded North by Row 4 wall, West by Col 26 wall, East by Col 31 wall. Only contained TM01 at (29,5).
 - **East Wall Boundary at Column 36:** [Verified Turn 1158] Column 36 is a solid rock wall blocking East across all rows. The entire B2F section (Columns 14-35) is an isolated side-room containing TM01 Mega Punch and Rocket Grunt.
-- **Rock Pillar Face at (32,12)-(33,15):** [Verified Turn 3781] Solid rock wall face blocks Rows 12-14 across Columns 30-37. Southward passage to lower cavern is via Row 10 West to Column 28 (28,10), then North to (28,7) Stairs.
+- **Rock Pillar Face at (32,12)-(33,15):** [Verified Turn 3781] Solid rock wall face blocks Rows 12-14 across Columns 30-37.
 - **Row 20 Boundary:** [Verified Turn 1509] Row 20 is a solid rock wall face across Columns 13-18. B2F South passage turns West along Row 19 (Cols 13-17).
 - **Arrived at B2F (17,11) via B1F (25,9) Ladder:** [Verified Turn 1904] Ladder at (25,9) on B1F warps to B2F at (17,11). Column 17 extends South directly into main B2F cavern.
 - **Obtained Helix Fossil:** [Verified Turn 1932] Picked up Helix Fossil at (13,13) on B2F.
