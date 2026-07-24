@@ -138,7 +138,6 @@
 - **Obtained Item (Moon Stone):** Found and retrieved Moon Stone at (2, 2) on Mt. Moon 1F on Turn 1881.
 - **Defeated Bug Catcher Kenton:** Defeated Bug Catcher Kenton at (7, 22) on Turn 2031, earning ¥110.
 - **Obtained Item (Potion):** Found and retrieved Potion at (2, 20) on Mt. Moon 1F on Turn 2068.
-- **Discovered Direct Cavern Crossing:** Verified that row 27 is completely open across column 16 and columns 22-23 on Turn 2335, and columns 20-21 are completely open vertically on Turn 2297, providing a direct route to the eastern cavern.
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
@@ -550,24 +549,17 @@
   - **Status:** Undefeated (encountered on Turn 1889).
 
 ## Verified Layout Details & Barriers
-- **Central Wall & Ledge Barrier:** Rows 20 and 21 form a solid horizontal rocky wall across columns 14 to 29, EXCEPT for columns 20 and 21 which are completely open and clear, allowing direct northward (upward) movement between the southern area (row 25) and the northern area (row 15). There is no ledge blocking upward movement on columns 20 and 21.
+- **Central Wall & Ledge Barrier:** Rows 20 and 21 form a solid, impassable horizontal rock wall across columns 14 to 29. There are no open vertical paths through columns 20, 21, 22, or 23 on row 20 or 21. This completely divides the southern/eastern area from the northern area of 1F.
 - **Raised Platform (West Side):** Columns 12 and 13 on rows 20 to 28 form an elevated platform.
-  - The eastern edge (column 13) has a solid wall with no staircases on rows 22, 26, and 27 (experimentally tested on 1F). Note: on B1F, row 27 column 13 is a completely walkable corridor, but on 1F it is a solid wall, and the apparent 'walk Left' on Turn 2451 actually occurred on B1F after warping from the 1F (15, 27) ladder.
+  - The eastern edge (column 13) has a solid wall with no staircases on rows 22, 26, and 27. Note: on B1F, row 27 column 13 is a completely walkable corridor, but on 1F it is a solid wall.
   - Row 28 is a horizontal elevated platform segment that blocks column 14, meaning column 14 is a dead-end at row 27.
 - **Stony Floor (South-West):** Row 29 is a completely walkable stony floor across columns 10 to 19, which is situated below the platform.
 - **Northwest Pocket (Ladder area):** (17, 11) is a ladder, and (17, 12) is the floor tile below it. This forms a small 1x2 pocket that is blocked on the left by rock walls at column 16, blocked on the right by rock walls at column 18, and blocked on the south by rock walls on row 13. The pocket exits to the LEFT (west) on row 12! The path goes (17, 12) <--> (16, 12) <--> (15, 12) <--> ... into the main cavern on columns 12-16.
 - **Western Cavern Barriers (Rows 18-19):** Systematic, tile-by-tile testing (completed on Turn 2165-2166) confirmed that rows 18 and 19 form a solid, impassable horizontal rock wall across columns 2 to 9 on the west side. All columns (2, 3, 4, 5, 6, 7) are completely blocked.
 - **Central/Southern Cavern Blockages & Pathing:**
   - **No Direct Middle Crossing:** Column 16 has a solid vertical wall blocking rows 26 to 29 (except row 25 which is open on column 16).
-  - **Columns 22-23 Passage (Eastern Cavern Access Route):** Columns 22 and 23 are completely open and clear vertically from row 27 all the way north to row 15 (and probably further), forming a direct overworld passage to the northern area of 1F. It is accessed from the ground (row 24) by walking Left from the staircase at (24, 24) to (23, 24). This completely bypasses the central rock wall / ledge.
   - **Row 26 Wall:** Row 26 is a solid rock wall across columns 16 to 23, blocking any downward movement from row 25.
   - **Result:** Rows 30 to 35 are completely open and walkable across column 16, allowing direct horizontal crossing between the western cavern and the eastern cavern!
-  - **Eastern Cavern Access Route (Direct & Verified):**
-    - Walk north from the entrance (14, 35) to row 25.
-    - Walk east along row 25 to column 20 or 21 (completely open across column 16).
-    - Walk north along column 20/21 directly to row 15 (completely open, no ledges or walls!).
-    - Walk east along row 15 directly to the ladder at (25, 15).
-    - This is the fastest, most direct route, entirely bypassing all rock walls and northern detours!
 
 <hr>
 

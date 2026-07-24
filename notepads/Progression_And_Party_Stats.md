@@ -24,7 +24,6 @@
 - **Obtained Item (Moon Stone):** Found and retrieved Moon Stone at (2, 2) on Mt. Moon 1F on Turn 1881.
 - **Defeated Bug Catcher Kenton:** Defeated Bug Catcher Kenton at (7, 22) on Turn 2031, earning ¥110.
 - **Obtained Item (Potion):** Found and retrieved Potion at (2, 20) on Mt. Moon 1F on Turn 2068.
-- **Discovered Direct Cavern Crossing:** Verified that row 27 is completely open across column 16 and columns 22-23 on Turn 2335, and columns 20-21 are completely open vertically on Turn 2297, providing a direct route to the eastern cavern.
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
