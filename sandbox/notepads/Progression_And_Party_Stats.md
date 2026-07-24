@@ -29,7 +29,5 @@
   - **Status:** Healthy
 
 ## Inventory
-- **Poké Balls:** 4 (3 used to catch NIBBLES, 5 used to catch GUSTY, 2 purchased on Turn 387)
+- **Poké Balls:** 2 (3 used to catch NIBBLES, 5 used to catch GUSTY, 2 purchased on Turn 387, 2 used to catch TESLA on Turn 893)
 - **Potion:** 1 (3 purchased on Turn 715)
-
-
