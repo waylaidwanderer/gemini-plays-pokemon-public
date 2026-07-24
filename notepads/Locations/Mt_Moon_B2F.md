@@ -10,7 +10,7 @@
 - **East Wall Boundary at Column 36:** [Verified Turn 1158] Column 36 is a solid rock wall blocking East across all rows. The entire B2F section (Columns 14-35) is an isolated side-room containing TM01 Mega Punch and Rocket Grunt.
 - **Rock Pillar Face at (32,12)-(33,15):** [Verified Turn 3781] Solid rock wall face blocks Rows 12-14 across Columns 30-37.
 - **Row 20 Boundary:** [Verified Turn 1509] Row 20 is a solid rock wall face across Columns 13-18. B2F South passage turns West along Row 19 (Cols 13-17).
-- **Arrived at B2F (17,11) via B1F (25,9) Ladder:** [Verified Turn 1904] Ladder at (25,9) on B1F warps to B2F at (17,11). Column 17 extends South directly into main B2F cavern.
+- **Arrived at B2F (17,11) via B1F (25,9) Ladder:** [Verified Turn 1904] Ladder at (25,9) on B1F warps to B2F at (17,11).
 - **Obtained Helix Fossil:** [Verified Turn 1932] Picked up Helix Fossil at (13,13) on B2F.
 - **Column 18 Wall Boundary (Rows 8-15):** [Verified Turn 1940] Column 18 is a solid rock wall face across Rows 8-15, blocking Eastward movement from (17,11) along Row 11.
 - **Rocket Grunt #2 at (30,27):** [Spotted Turn 1963] Rocket Grunt at (30,27) facing Right guarding the exit corridor.
