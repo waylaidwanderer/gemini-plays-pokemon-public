@@ -5,6 +5,7 @@
 - **Ladders:**
   - (25, 15): Leads to Mt. Moon B1F Platform 1.
   - (15, 27): Leads to Mt. Moon B1F Platform 1 at (13, 27).
+  - (17, 11): Newly observed ladder on the north-western side.
 
 ## Signposts & Points of Interest
 - **Signpost at (15, 23):** Reads: "Beware! ZUBAT is a blood sucker!"
