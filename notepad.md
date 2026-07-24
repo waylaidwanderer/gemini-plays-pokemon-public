@@ -256,7 +256,9 @@ Route 3 is structured into 3 horizontal elevation tiers:
 <h1><code>Scratchpad/B2F_Routing</code></h1>
 
 - [Turn 4545 Confirmed] Fossil event completed at (24,31).
-- [Turn 4672 Arrived at (30,28)] Rocket Grunt #2 is standing at (30,27).
-- [Turn 4672 Plan] Turn Up to face Rocket Grunt #2 and press A to talk to him and inspect dialogue / ladder access.
+- [Turn 4675 Exit Corridor Found] Discovered open exit corridor West of (30,26)!
+  1. Walk Left to (29,26), Up to (29,25).
+  2. Walk Left along Row 25 to (26,25) / exit ladder!
+  3. Ascend exit ladder to B1F South Corridor!
 
 <hr>
