@@ -147,6 +147,8 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Enclosed Corridor (Rows 26-27, Cols 10-27):** [Verified Turn 4755] Enclosed on all 4 sides (Row 25 wall North, Row 28 wall South, Col 10 wall West, Col 27 wall East). Only exit is ladder at (13,27) to B1F.
 - **East Wall at Column 28 (Rows 10-18):** [Verified Turn 4783] Solid rock wall face at Column 28 blocks East from Column 27 across Rows 10-18.
 - **Row 13-17 Rock Wall at Cols 22-23:** [Verified Turn 4784] Solid rock wall face blocks West from Column 24 across Rows 13-17.
+- **(15,28) Wall Boundary:** [Verified Turn 4744] Solid rock wall face at (15,28) blocks Southward movement from (15,27).
+- **(24,28) Wall Boundary:** [Verified Turn 4746] Solid rock wall face at (24,28) blocks Southward movement along Column 24 at Row 28.
 
 <hr>
 
@@ -268,12 +270,12 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 # B1F Upper Cavern -> South Corridor -> 1F Exit Route
 
-1. [1F (10,26)] Walk East 3 steps to (13,26), Down 1 step onto (13,27) ladder -> warp to B1F (15,27).
-2. [B1F (15,27)] Walk East along Row 27 to (25,27), Up to (25,22) platform landing.
-3. [B1F (25,22)] Step onto ladder to warp down to B2F (25,22).
-4. [B2F (25,22)] Walk North up Column 24 to Row 12 at (24,12).
-5. [B2F (24,12)] Walk West across Row 12 (23,12) to Column 21 at (21,12).
-6. [B2F (21,12)] Walk South down Column 20/21 (Rows 18-23 South Highway) into B2F Bottom Cavern.
-7. [B2F Bottom Cavern] Proceed past Super Nerd at (24,31) to Fossils and Mt. Moon True Exit Ladder!
+1. [CURRENT B1F ROUTE] From (15,24), walk West 5 steps along Row 24 to Column 10 at (10,24).
+2. Walk Up along Column 10 (Western Highway) to Row 6 top corridor at (10,6).
+3. Walk East along Row 6 to Column 25 at (25,6), then Down 3 steps to (25,9) ladder tile.
+4. Step onto (25,9) ladder tile to warp down to B2F!
+5. On B2F, walk West across Row 12 Bypass (23,12) to Column 21 at (21,12).
+6. Walk South down Column 20/21 (Rows 18-23 South Highway) into B2F Bottom Cavern.
+7. In B2F Bottom Cavern, proceed past Super Nerd at (24,31) to Fossils and Mt. Moon True Exit Ladder!
 
 <hr>
