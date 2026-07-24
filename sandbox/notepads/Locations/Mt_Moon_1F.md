@@ -70,3 +70,4 @@
 - **Solid Rock Wall Face at (6,18):** [Verified Turn 5274] Solid purple rock wall face blocks Southward movement from (6,17) across Rows 18-19 (Cols 2-9). Upper Western Chamber ends at Row 17 on the South.
 - **Solid Rock Wall Face at (20,34):** [Verified Turn 5325] Solid rock wall face blocks Southward movement along Column 20 at (20,34). Column 20 ends at (20,33).
 - **Solid Rock Wall Face at (21,27):** [Verified Turn 5327] Solid dark blue rock wall face blocks Northward movement along Column 21 at (21,27).
+- **Solid Rock Wall Face at (16,35):** [Verified Turn 5357] Solid rock wall face blocks Eastward movement along Row 35 at Column 16 from (15,35).
