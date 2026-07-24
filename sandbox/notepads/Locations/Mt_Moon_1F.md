@@ -62,3 +62,4 @@
 - **(14,28) Wall Boundary:** [Verified Turn 4835] Solid rock wall face at (14,28) blocks Southward movement from (14,27).
 - **Solid Rock Wall Face at (28,26):** [Verified Turn 5038] Solid purple rock wall face blocks Eastward movement at (28,26) on 1F.
 - **Northbound Highway at Columns 30-31 (Rows 7-11):** [Verified Turn 5053] Columns 30-31 form a wide-open northbound highway across Rows 8-9 connecting Row 11 directly to Row 7 Top Upper Corridor! NPC located at (30,4).
+- **Solid Impassable Boundary at (13,20) & (12,20):** [Verified Turns 5136/5144] Tiles (13,20) and (12,20) are impassable cliff boundaries blocking Southward movement from (13,19) and (12,19).
