@@ -169,7 +169,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Column 12-13 Rock Pillar (Rows 23-28):** [Verified Turn 2488] Columns 12-13 are a solid rock pillar face across Rows 23 through 28, blocking Westward movement along South Corridor at Row 27. Column 14/15 is the open vertical highway North connecting Row 27 up to Upper Cavern (Rows 18-21).
 - **Rocket Grunt at (15,22):** [Verified Turn 2501] Rocket Grunt located at (15,22) in Upper Cavern section of B1F.
 - **Row 26 Ladder Bypass:** [Verified Turn 2496] To bypass (15,27) ladder when spawning at B1F (15,27), step Up to Row 26 at (14,26) and walk East along Row 26.
-- **East Route to Ladder (25,9):** [Verified Turn 2506] Walk East along Row 26 to Col 30, North along Col 30 to Row 7, then West along Row 7 to (25,9) ladder.
+- **Central Cliff Barrier at Cols 30-31:** [Verified Turn 2569] Solid rock cliff face blocks Row 26 Eastward at Column 30 on B1F.
 - **Eastern Highway at Cols 28-29:** [Verified Turn 2508] Columns 28-29 form a wide-open vertical corridor extending North from Row 26 up through Row 22+.
 - **Row 22 Wall Collision at (27,22):** [Verified Turn 2510] Solid rock wall face at (27,22) blocks Westward movement along Row 22.
 - **Complete B1F Route to Ladder (25,9):** [Verified Turn 2554] From (15,27) spawn: Walk to Col 15, North to Row 18 (15,18), West along Row 18 to Col 10 (10,18) (bypassing Col 12-13 rock pillar), North along Col 10 to Row 7 (10,7), East along Row 7 to Col 25 (25,7), South to (25,9) ladder.
