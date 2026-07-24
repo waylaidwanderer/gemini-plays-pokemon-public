@@ -158,6 +158,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Col 19 Solid Rock Wall Face (Rows 26-32):** [Verified Turn 5214] Solid purple rock wall face blocks Westward movement across Column 19 on Rows 26-32. Eastern Cavern (Cols 20-25) connects to Western Cavern via Row 7 Upper Corridor.
 - **Col 12-13 Wall Boundary (Rows 3-11):** [Verified Turn 5244] Solid rock wall face along Columns 12-13 across Rows 3-11 on 1F blocks Row 7 from connecting West past Column 14. Northern 1F upper section ends at Column 14 on the West.
 - **Cols 12-13 Wall Boundary True Extent (Rows 3-15):** [Verified Turn 5271] Columns 12 and 13 form a continuous rock wall face from Row 3 down through Row 15. The open Westbound passage connecting Column 14 to Column 10/Western Chamber is at Row 17 (14,17 -> 10,17).
+- **Solid Rock Wall Face at (6,18):** [Verified Turn 5274] Solid purple rock wall face blocks Southward movement from (6,17) across Rows 18-19 (Cols 2-9). Upper Western Chamber ends at Row 17 on the South.
 
 <hr>
 
