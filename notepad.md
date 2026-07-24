@@ -514,7 +514,8 @@
   - **Reward:** ¥165
 - **Youngster (North-West):** Sits at (12, 16) originally, engaged at (14, 16) on Turn 1763.
   - **Roster:** Rattata (Lv 10), Rattata (Lv 10)
-  - **Status:** In progress (Defeated first Rattata).
+  - **Status:** Defeated on Turn 1779.
+  - **Reward:** ¥150
 
 ## Verified Layout Details & Barriers
 - **Central Wall & Ledge Barrier:** Rows 20 and 21 form a solid horizontal rocky wall across columns 14 to 29, except for columns 20 and 21 which contain a horizontal one-way ledge facing down on row 21. This blocks all upward (northward) movement from the southern area of the central cavern.
