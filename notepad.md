@@ -410,6 +410,10 @@
   - **Roster:** Caterpie (Lv 11), Metapod (Lv 11)
   - **Status:** Defeated on Turn 1311.
   - **Reward:** ¥110
+- **Youngster Calvin:** Sits at (22, 9) originally. Engaged at (22, 8) on Turn 1319.
+  - **Roster:** Spearow (Lv 14)
+  - **Status:** Defeated on Turn 1325.
+  - **Reward:** ¥210
 
 <hr>
 
