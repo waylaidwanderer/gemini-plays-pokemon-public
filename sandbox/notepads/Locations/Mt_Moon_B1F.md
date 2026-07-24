@@ -39,4 +39,4 @@
 - **South Corridor True Coordinates:** [Verified Turn 2646] Rows 28-30 across Columns 20-25 form the open floor South Corridor extending West under the Row 24-27 rock wall face. Row 26/27 at Cols 20-23 is solid rock wall face.
 - **Row 25 Solid Rock Wall Face (Cols 10-23):** [Verified Turn 2758] Solid purple rock wall face blocks Row 25 across Columns 10 through 23 on B1F. Column 15 does NOT connect North past Row 25. Exit North from South Corridor is at Columns 24-25.
 - **East Wall Boundary at Col 28 (Rows 17-25):** [Verified Turn 2768] Solid purple rock wall face at Column 28 blocks East from Column 27 across Rows 17-25. Wide Eastern Highway is Columns 24-27 extending North.
-- **Row 13 Open Cavern Floor (Cols 24-30):** [Verified Turn 2795] Row 13 across Columns 24-30 is wide-open cave floor connecting Column 25 directly North to (25,9) ladder.
+- **(25,12) Wall Boundary:** [Verified Turn 2973] Tile (25,12) is an impassable wall face. Column 25 dead-ends South at Row 11. Passage East from (25,11) is via Row 10 bypass across Columns 26-34.
