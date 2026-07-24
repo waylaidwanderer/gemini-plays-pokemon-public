@@ -144,6 +144,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 - **Mountain Wall Barrier Across Rows 20-21 (Cols 10-23):** [Verified Turn 3535] Solid purple rock wall face forms an impassable continuous barrier across Rows 20-21 from Column 10 all the way through Column 23. Northern highway on 1F is via Column 28 (Cols 28-30).
 - **Decorative Ladder at (25,15):** [Verified Turn 3686] Tile (25,15) displays ladder graphic but is decorative/non-functional. Functional ladder is at (17,11).
+- **Row 19 Bypass at Columns 8-9:** [Verified Turn 3912] Solid rock wall face blocks Row 19 across Columns 2-7. Columns 8 and 9 are open floor connecting Row 20 North to Rows 16-18.
 
 <hr>
 
