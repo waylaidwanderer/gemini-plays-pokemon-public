@@ -536,6 +536,10 @@
   - **Roster:** Rattata (Lv 10), Rattata (Lv 10)
   - **Status:** Defeated on Turn 1779.
   - **Reward:** ¥150
+- **Bug Catcher Kenton:** Sits at (7, 22) originally, engaged at (7, 24) facing Down.
+  - **Roster:** Weedle (Lv 11), Kakuna (Lv 11)
+  - **Status:** Defeated on Turn 2031.
+  - **Reward:** ¥110
 - **Hiker (Top-Left):** Sits at (5, 6) originally, engaged at (5, 7) facing Down.
   - **Roster:** Geodude (Lv 10)
   - **Status:** Undefeated (encountered on Turn 1889).
