@@ -258,5 +258,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 - [Turn 4545 Confirmed] Fossil event completed at (24,31).
 - [Turn 4589 Route] Currently at (28,8) on B2F. Step Up 1 to (28,7) stairs, then East along Row 7 to Column 30/31.
+- [Turn 4616 Discovery] Must obtain Helix Fossil from floor at (23,31)/(24,31) in Bottom Cavern to trigger Rocket Grunt passage! Navigating via Row 7 corridor to Col 20/21 South Highway.
 
 <hr>
