@@ -512,6 +512,9 @@
   - **Roster:** Oddish (Lv 11), Bellsprout (Lv 11)
   - **Status:** Defeated on Turn 1641.
   - **Reward:** ¥165
+- **Youngster (North-West):** Sits at (12, 16) originally, engaged at (14, 16) on Turn 1763.
+  - **Roster:** Rattata (Lv 10), Rattata (Lv 10)
+  - **Status:** In progress (Defeated first Rattata).
 
 ## Verified Layout Details & Barriers
 - **Central Wall & Ledge Barrier:** Rows 20 and 21 form a solid horizontal rocky wall across columns 14 to 29, except for columns 20 and 21 which contain a horizontal one-way ledge facing down on row 21. This blocks all upward (northward) movement from the southern area of the central cavern.
@@ -519,6 +522,7 @@
   - The eastern edge (column 13) has a solid wall with no staircases on rows 22, 26, and 27 (experimentally tested).
   - Row 28 is a horizontal elevated platform segment that blocks column 14, meaning column 14 is a dead-end at row 27.
 - **Stony Floor (South-West):** Row 29 is a completely walkable stony floor across columns 10 to 19, which is situated below the platform.
+- **Northwest Pocket (Ladder area):** (17, 11) is a ladder, and (17, 12) is the floor tile below it. This forms a small 1x2 pocket that is blocked on the left by rock walls at column 16, blocked on the right by rock walls at column 18, and blocked on the south by rock walls on row 13. The pocket exits to the LEFT (west) on row 12! The path goes (17, 12) <--> (16, 12) <--> (15, 12) <--> ... into the main cavern on columns 12-16.
 
 <hr>
 
