@@ -225,6 +225,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **(13,24) Wall Boundary:** [Verified Turn 4897] Solid rock wall face at (13,24) blocks Westward movement along Row 24. Access to Western Highway (Cols 10-11) is via Row 27 (14,27 -> 11,27).
 - **(13,27) Wall Boundary:** [Verified Turn 4902] Solid rock wall face at (13,27) blocks Westward movement along Row 27 on B1F.
 - **(14,28) Wall Boundary:** [Verified Turn 4954] Solid rock wall face at (14,28) blocks Southward movement from (14,27) on B1F.
+- **Elevated Platform Wall at (12..13, 18..22):** [Verified Turn 4990] Checkered platform face blocks Columns 12-13 across Rows 18-22. Open floor bypass to Western Highway (Col 11) is via Row 23 (14,23 -> 11,23).
 
 <hr>
 
