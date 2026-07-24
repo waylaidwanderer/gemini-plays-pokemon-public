@@ -127,9 +127,9 @@
 
 ## Party Statistics
 - **SHELLBY (Squirtle):**
-  - **Level:** 14
-  - **Moveset:** Tackle, Tail Whip, Bubble
-  - **HP:** 19 / 38
+  - **Level:** 15
+  - **Moveset:** Tackle, Tail Whip, Bubble, Water Gun
+  - **HP:** 17 / 40
   - **Status:** Healthy
 - **TESLA (Pikachu):**
   - **Level:** 5
