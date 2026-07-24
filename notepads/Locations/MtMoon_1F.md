@@ -48,7 +48,7 @@
 - **Western Cavern Barriers (Rows 18-19):** Systematic, tile-by-tile testing (completed on Turn 2165-2166) confirmed that rows 18 and 19 form a solid, impassable horizontal rock wall across columns 2 to 9 on the west side. All columns (2, 3, 4, 5, 6, 7) are completely blocked.
 - **Central/Southern Cavern Blockages & Pathing:**
   - **No Direct Middle Crossing:** Column 16 has a solid vertical wall blocking rows 26 to 29 (except row 25 which is open on column 16).
-  - **Columns 22-23 Barrier:** Solid vertical rock wall on columns 22 and 23 across rows 21 to 29, blocking row 25 from reaching columns 24-25.
+  - **Columns 22-23 Barrier:** Solid vertical rock wall on columns 22 and 23 across rows 21 to 29 (EXCEPT rows 24 to 27 which are completely open and walkable, as verified on Turn 2428).
   - **Row 26 Wall:** Row 26 is a solid rock wall across columns 16 to 23, blocking any downward movement from row 25.
   - **Result:** Rows 30 to 35 are completely open and walkable across column 16, allowing direct horizontal crossing between the western cavern and the eastern cavern!
   - **Eastern Cavern Access Route (Direct & Verified):**
