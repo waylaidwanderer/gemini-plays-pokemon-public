@@ -1,6 +1,5 @@
 - [Turn 4545 Confirmed] Fossil event completed at (24,31).
-- [Turn 4639 Route to Exit]
-  1. From (16,15), walk Up 8 steps to (16,7).
-  2. Walk Right 12 steps along Row 7 to Row 7 Elevation Stairs at (28,7).
-  3. Walk Down through stairs at (28,7)-(28,8) into Eastern Cavern.
-  4. Walk South through Eastern Cavern to Bottom Cavern / exit corridor.
+- [Turn 4644 Route to Exit]
+  1. From (30,12), walk South 15 steps along Column 30 to (30,27) exit corridor.
+  2. Walk Right through exit corridor to bottom-right chamber.
+  3. Step onto exit ladder up to Route 4 exit path!
