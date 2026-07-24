@@ -56,3 +56,7 @@
   - **Roster:** Spearow (Lv 14)
   - **Status:** Defeated on Turn 1325.
   - **Reward:** ¥210
+- **Lass Sally:** Sits at (33, 10) originally. Engaged at (33, 8) on Turn 1341.
+  - **Roster:** Jigglypuff (Lv 14)
+  - **Status:** Defeated on Turn 1348.
+  - **Reward:** ¥210
