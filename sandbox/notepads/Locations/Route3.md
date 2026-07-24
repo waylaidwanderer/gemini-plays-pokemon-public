@@ -17,3 +17,6 @@
   - **Ledge Blockage:** Row 11 has a horizontal ledge blocking Columns 10-14 and Columns 16-19.
   - **Tree Blockage:** Column 17 contains a solid vertical row of trees from row 6 to row 11, blocking direct horizontal transit on rows 8-10.
   - **Walkable Gap / Ramp:** (15, 11) is a completely clear, walkable dirt ramp. Walking through (15, 9) -> (15, 10) -> (15, 11) -> (15, 12) allows the player to bypass the ledge and access the clear path going east on row 12.
+- **Ledge Barrier at Row 7 / Access to Upper Road:**
+  - **Ledge Blockage:** Row 7 has a horizontal ledge blocking Columns 10 and Columns 12-20.
+  - **Walkable Gap / Ramp:** (11, 7) is a completely clear, walkable dirt ramp. Standing at (11, 8) and walking Up to (11, 7) lets the player access the upper road of Route 3!
