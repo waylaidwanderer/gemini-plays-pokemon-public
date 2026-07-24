@@ -124,17 +124,17 @@
 - **SHELLBY (Squirtle):**
   - **Level:** 11
   - **Moveset:** Tackle, Tail Whip, Bubble
-  - **HP:** 4 / 32
+  - **HP:** 32 / 32
   - **Status:** Healthy
 - **NIBBLES (Rattata):**
   - **Level:** 5
   - **Moveset:** Tackle, Tail Whip
-  - **HP:** 15 / 15
+  - **HP:** 18 / 18
   - **Status:** Healthy
 - **GUSTY (Pidgey):**
   - **Level:** 5
   - **Moveset:** Gust, Sand-Attack
-  - **HP:** 5 / 19
+  - **HP:** 19 / 19
   - **Status:** Healthy
 
 ## Inventory
