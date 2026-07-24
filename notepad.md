@@ -124,6 +124,8 @@
 - **Defeated Gym Leader Brock:** Defeated Pewter Gym Leader Brock on Turn 1024, obtaining the BOULDERBADGE and TM34 (Bide).
 - **Pewter Poké Mart Shopping:** Purchased Poké Balls, Potions, and Antidote on Turn 1033.
 - **Route 3 Entrance:** Entered Route 3 on Turn 1041.
+- **Defeated Youngster Calvin:** Defeated Youngster Calvin on Turn 1325.
+- **Defeated Lass Sally:** Defeated Lass Sally on Turn 1348.
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
