@@ -245,6 +245,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Northern Bypass (Rows 5-6):** [Verified Turn 4248] Column 23 rock wall face blocks Row 6 at (23,6).
 - **South Highway at Columns 20-21:** [Verified Turn 4496] Columns 20 and 21 form an open brown cave floor passage across Rows 18-23 leading South into the B2F Bottom Cavern.
 - **Row 12 Wall Face at (30,12):** [Verified Turn 4577] Tile (30,12) is solid blue rock wall face. Passage South from upper B2F to lower B2F is via Column 35 (Cols 34-37).
+- **Row 12 Wall Face (Cols 30-38):** [Verified Turn 4578] Solid blue rock wall face blocks Southward movement along Row 12 across Columns 30-38.
 
 <hr>
 
