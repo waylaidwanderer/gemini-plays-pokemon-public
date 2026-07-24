@@ -140,7 +140,7 @@
   - **Status:** Healthy
 - **TRUFFLE (Paras):**
   - **Level:** 11
-  - **Moveset:** Scratch (24/35 PP)
+  - **Moveset:** Scratch (23/35 PP)
   - **Stats:** Attack 24, Defense 17, Speed 13, Special 18
   - **HP:** 10 / 30
   - **Status:** Healthy
