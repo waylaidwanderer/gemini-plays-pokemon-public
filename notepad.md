@@ -133,7 +133,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
   - 1F (17,11) <-> B2F (25,9) [Side Room Loop with TM01 Mega Punch]
 - **Column 17 Wall at (17,21):** [Verified Turn 2529] Solid rock wall face at (17,21) blocks Northward movement along Column 17.
 - **Row 21 Wall at Col 10:** [Verified Turn 2533] Solid rock wall face at (10,21) blocks Northward movement along Column 10. Western corridor route to Western Chamber is via Row 24 to Column 6.
-- **1F Route to Ladder (17,11):** [Verified Turn 2535] Ladder at (17,11) on 1F warps directly to B2F at (25,9).
 - **Elevated Platform (24,21):** [Verified Turn 2606] Elevated platform at (24,21) is enclosed by solid rock walls along Row 20 to the North, East, and West (dead end).
 - **Row 26 Rock Wall at Col 16-19:** [Verified Turn 2727] Solid rock wall face blocks Row 26 at Col 16-19. Row 24 is the open corridor connecting Col 10 to Col 20.
 - **Row 24 Rock Wall at Col 22-23:** [Verified Turn 2729] Solid rock wall face blocks Row 24 at Col 22-23. Row 26 (Cols 20-25) is the open corridor connecting Col 20 East to Col 24.
@@ -174,7 +173,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Item Ball at (36,23):** [Verified Turn 1313/1324] Item Ball at (36,23) contained Escape Rope.
 - **B1F Ladder Warp at (25,9):** [Verified Turn 1901] Standing at (25,11) on B1F; stepping Up onto (25,9) ladder tile warps down to B2F.
 - **Row 20 North Wall Block (Cols 20-29):** [Verified Turn 2305] Solid purple rock wall face blocks Northward movement at Row 20 across Columns 20 through 29 on B1F. Column 14/15 provides the open vertical highway North connecting South Corridor (Row 26) to Upper Cavern (Rows 18-21).
-- **Row 20-21 Rock Wall (Cols 14-19):** [Verified Turn 2316] Solid rock wall blocks North at Rows 20-21 across Columns 14-19. Columns 10-11 on the far West side provide the open vertical highway connecting South Corridor (Row 26) to Top Corridor.
+- **Row 20-21 Rock Wall (Cols 14-20):** [Verified Turn 2316/3389] Solid purple rock wall face blocks North at Rows 20-21 across Columns 14-20. Columns 10-11 on the far West side provide the open vertical highway North connecting South Corridor (Row 26) to Top Corridor (Rows 2-7).
 - **Row 8 Solid Rock Wall (Cols 20-29):** [Verified Turn 2452] Solid blue rock wall face blocks Southward movement at Row 8 across Columns 20 through 29. Column 30 is the open vertical corridor connecting Row 7 to Row 10.
 - **Column 12-13 Rock Pillar (Rows 23-28):** [Verified Turn 2488] Columns 12-13 are a solid rock pillar face across Rows 23 through 28, blocking Westward movement along South Corridor at Row 27. Column 14/15 is the open vertical highway North connecting Row 27 up to Upper Cavern (Rows 18-21).
 - **Rocket Grunt at (15,22):** [Verified Turn 2501] Rocket Grunt located at (15,22) in Upper Cavern section of B1F.

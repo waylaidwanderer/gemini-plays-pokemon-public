@@ -42,7 +42,6 @@
   - 1F (17,11) <-> B2F (25,9) [Side Room Loop with TM01 Mega Punch]
 - **Column 17 Wall at (17,21):** [Verified Turn 2529] Solid rock wall face at (17,21) blocks Northward movement along Column 17.
 - **Row 21 Wall at Col 10:** [Verified Turn 2533] Solid rock wall face at (10,21) blocks Northward movement along Column 10. Western corridor route to Western Chamber is via Row 24 to Column 6.
-- **1F Route to Ladder (17,11):** [Verified Turn 2535] Ladder at (17,11) on 1F warps directly to B2F at (25,9).
 - **Elevated Platform (24,21):** [Verified Turn 2606] Elevated platform at (24,21) is enclosed by solid rock walls along Row 20 to the North, East, and West (dead end).
 - **Row 26 Rock Wall at Col 16-19:** [Verified Turn 2727] Solid rock wall face blocks Row 26 at Col 16-19. Row 24 is the open corridor connecting Col 10 to Col 20.
 - **Row 24 Rock Wall at Col 22-23:** [Verified Turn 2729] Solid rock wall face blocks Row 24 at Col 22-23. Row 26 (Cols 20-25) is the open corridor connecting Col 20 East to Col 24.
