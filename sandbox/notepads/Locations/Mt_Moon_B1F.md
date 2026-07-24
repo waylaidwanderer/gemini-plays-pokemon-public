@@ -1,7 +1,7 @@
 # Mt. Moon B1F Map & Points of Interest
 
 ## Entrance & Corridors
-- **Functional Ladder at (15,27):** [Verified Turn 3188] Stepping onto ladder at (15,27) on B1F warps up to Mt. Moon 1F at (13,27).
+- **Functional Ladder at (13,27):** [Verified Turn 4737] Stepping onto ladder at (13,27) on B1F warps up to Mt. Moon 1F at (13,27).
 - **South Corridor (Rows 26-27, Columns 10-27):** [Verified Turn 1690] Column 10 dead-ends North at Row 25 (rock wall at 10,25). South Corridor connects Columns 10-27 along Rows 26-27.
 - **Column 30 West Wall Face (Rows 20-27):** [Verified Turn 1682] Column 30 has a solid west cliff face blocking eastward movement from Col 29 across Rows 20-27.
 - **Row 28 South Ledge at Col 29:** [Verified Turn 1683] Row 28 at (29,28) is a solid cliff face blocking Southward movement from (29,27).
