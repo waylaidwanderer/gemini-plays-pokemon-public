@@ -239,3 +239,9 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Northern Bypass (Rows 5-6):** [Verified Turn 4248] Column 23 rock wall face blocks Row 6 at (23,6). Passage West across Column 23 is via Row 5 (23,5 open floor).
 
 <hr>
+
+<h1><code>Scratchpad/B2F_Routing</code></h1>
+
+- [Turn 4265] Verified (20,8) is a blue cliff face wall. Player at (20,7) bumped into (20,8) wall. Testing if Row 7 extends East to (21,7).
+
+<hr>
