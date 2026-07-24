@@ -12,12 +12,14 @@
 - **Route 3 Entrance:** Entered Route 3 on Turn 1041.
 - **Defeated Youngster Calvin:** Defeated Youngster Calvin on Turn 1325.
 - **Defeated Lass Sally:** Defeated Lass Sally on Turn 1348.
+- **Healed at Mt. Moon Pokémon Center:** Healed party at (11, 5) on Turn 1422.
+- **Entered Mt. Moon:** Entered Mt. Moon 1F at (18, 5) on Turn 1431.
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
   - **Level:** 17
-  - **Moveset:** Tackle (35/35 PP), Tail Whip (30/30 PP), Bubble (30/30 PP), Water Gun (5/25 PP)
-  - **HP:** 23 / 49
+  - **Moveset:** Tackle (35/35 PP), Tail Whip (30/30 PP), Bubble (30/30 PP), Water Gun (24/25 PP)
+  - **HP:** 41 / 49
   - **Status:** Healthy
 - **TESLA (Pikachu):**
   - **Level:** 5

@@ -27,6 +27,10 @@
   - **Walkable Staircase (Column 25):** (25, 14), (25, 15), and (25, 16) is a walkable staircase that cuts through the cliff face, allowing vertical transit.
   - **Upper Road Eastward Path:** Accessible by walking east along the upper road (rows 5-6) which bypasses the trees and ledges completely.
 
+## Landmarks & Buildings
+- **Mt. Moon Pokémon Center:** Entrance Door is at (11, 5) on Route 3. "POKé" sign is at (12, 5). Warps inside at (3, 7).
+- **Mt. Moon Cave Entrance:** Cave mouth is at (18, 5) on Route 3. Walking into (18, 5) warps the player inside Mt. Moon 1F at (14, 35).
+
 ## Trainers & Defeated Status
 - **Lass Janice:** Sits at (16, 9) originally, engaged at (15, 9) on Turn 1057.
   - **Roster:** Pidgey (Lv 9), Pidgey (Lv 9)
