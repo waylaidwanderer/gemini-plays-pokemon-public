@@ -175,7 +175,7 @@
 ## Wild Encounter Investigations (Turn 303)
 - **Empirical Test:** Paced for 68 steps inside Route 22's tall grass (x=36 to 44, y=6 to 7) on Turn 221-230.
 - **Result:** 0 wild encounters triggered.
-- **Conclusion/Hypothesis:** Wild encounters on Route 22 may be disabled or extremely rare at this stage of the game, or the pacing test did not successfully change coordinates on every step (unverified coordinate-by-coordinate traversal). To verify this properly, future tests must explicitly log coordinate changes on each step. Until then, we will avoid hunting for wild Pokémon on Route 22 to focus on progression.
+- **Conclusion/Hypothesis:** Wild encounters on Route 22 may be disabled or extremely rare at this stage of the game, or the pacing test did not successfully change coordinates on every step (unverified coordinate-by-coordinate traversal). To verify this properly, future tests must explicitly log coordinate changes on each step. 
 
 <hr>
 
@@ -369,8 +369,7 @@
 - **Ledges:** 
   - Row 7 has a horizontal one-way ledge facing down, blocking northward movement.
   - Row 12 has a horizontal ledge.
-- **NPCs/Trainers:**
-  - An NPC (green hair, green shirt) is visible at (10, 6), which is on the path above the ledge at row 7.
+
 - **Ledge Barrier at Row 11 / Access to Eastern Area:**
   - **Ledge Blockage:** Row 11 has a horizontal ledge blocking Columns 10-14 and Columns 16-19.
   - **Tree Blockage:** Column 17 contains a solid vertical row of trees from row 6 to row 11, blocking direct horizontal transit on rows 8-10.
@@ -396,7 +395,8 @@
   - **Status:** Defeated on Turn 1161.
   - **Reward:** ¥100
 - **Youngster Ben:** Sits at (14, 4) originally, walked to (14, 5). Engaged at (14, 6) on Turn 1166.
-  - **Roster:** Rattata (Lv 11), Spearow (Lv 11)
-  - **Status:** In Progress (Currently fighting).
+  - **Roster:** Rattata (Lv 11), Ekans (Lv 11)
+  - **Status:** Defeated on Turn 1184.
+  - **Reward:** ¥165
 
 <hr>
