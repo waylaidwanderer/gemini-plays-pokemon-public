@@ -176,6 +176,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **B1F South Corridor Isolation:** [Verified Turn 2579] B1F South Corridor (Cols 14-29, Rows 24-27) is enclosed by Row 20-25 rock walls and Col 12-13 / Col 30-31 pillars. Only exit is ladder at (15,27) up to 1F (13,27).
 - **Row 21 Wall Collision at (22,21):** [Verified Turn 2578] Solid rock wall face at (22,21) blocks Westward movement along Row 21.
 - **B1F Map Boundary West at Col 10:** [Verified Turn 2594] Column 10 is the westmost edge of Mt. Moon B1F. Columns 2-9 do not exist on B1F.
+- **South Corridor True Coordinates:** [Verified Turn 2646] Rows 28-30 across Columns 20-25 form the open floor South Corridor extending West under the Row 24-27 rock wall face. Row 26/27 at Cols 20-23 is solid rock wall face.
 
 <hr>
 
