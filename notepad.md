@@ -209,6 +209,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Exit Ladder Warp Arrival from B2F at (25,22):** [Verified Turn 4681] Arrived at (25,22) on B1F from B2F exit ladder!
 - **South Corridor Row 25 Bypass:** [Verified Turn 4687] Row 25 (Cols 15-25) is wide open smooth purple floor, bypassing Col 19 rock wall at Row 28.
 - **Row 27 Rock Wall Face (Cols 19-23):** [Verified Turn 4688] Solid rock wall face along Row 27 at Cols 19-23. Passage between Row 28 and Row 25 is via Column 24/25.
+- **True 1F Exit Ladder at (24,31):** [Verified Turn 4693] Functional ladder at (24,31) on B1F warps up to Mt. Moon 1F at (13,27)!
 
 <hr>
 
@@ -259,9 +260,9 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 <h1><code>Scratchpad/B2F_Routing</code></h1>
 
-- [Turn 4687 B1F Exit Path] Discovered Row 25 open corridor across Cols 15-25!
-  1. From (20,28), Right 1 to (21,28), Up 3 to (21,25).
-  2. Walk Left 6 steps along Row 25 to (15,25).
-  3. Walk Down 2 steps to (15,27) ladder -> warp to 1F (13,27) -> Exit to Route 4!
+- [Turn 4693 1F Exit Ladder Found!] B1F exit ladder to 1F is at (24,31)!
+  1. Standing at (24,27), walk Down 4 steps onto ladder at (24,31).
+  2. Warp up to 1F (13,27).
+  3. Walk South from 1F (13,27) to Route 4 exit!
 
 <hr>
