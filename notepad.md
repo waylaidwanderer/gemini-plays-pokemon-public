@@ -144,7 +144,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 - **Mountain Wall Barrier Across Rows 20-21 (Cols 10-23):** [Verified Turn 3535] Solid purple rock wall face forms an impassable continuous barrier across Rows 20-21 from Column 10 all the way through Column 23. Northern highway on 1F is via Column 28 (Cols 28-30).
 - **Decorative Ladder at (25,15):** [Re-verified Turn 5048] Stepping onto (25,15) on 1F triggers no warp (purely decorative graphic). Column 25 (Rows 11-15) is wide open smooth purple floor extending North past Row 13!
-- **Enclosed Corridor (Rows 26-27, Cols 10-27):** [Verified Turn 4755] Enclosed corridor along South edge of 1F. Exit ladder to B1F is at (8,26) [Verified Turn 5397/5401].
+- **Enclosed Corridor (Rows 26-27, Cols 10-27):** [Verified Turn 4755] Enclosed corridor along South edge of 1F. Primary exit to upper levels is via Column 20 North to Row 7 and ladder at (17,11).
 - **East Wall at Column 28 (Rows 10-18):** [Verified Turn 4783] Solid rock wall face at Column 28 blocks East from Column 27 across Rows 10-18.
 - **Row 13-17 Rock Wall at Cols 22-23:** [Verified Turn 4784] Solid rock wall face blocks West from Column 24 across Rows 13-17.
 - **(15,28) Wall Boundary:** [Verified Turn 4744] Solid rock wall face at (15,28) blocks Southward movement from (15,27).
