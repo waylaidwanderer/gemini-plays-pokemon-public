@@ -29,3 +29,4 @@
 
 - **Column 18-19 Rock Wall Face (Rows 8-14):** [Verified Turn 2913] Solid purple rock wall blocks Rows 8-14 across Columns 18-19. Row 7 connects Column 20 West to Column 17.
 - **Row 22/23 Lower Passage:** [Verified Turn 4006] Column 17 is open floor South through Row 23. Row 22/23 provides the open passage East past the Col 18-19 rock wall into lower B2F cavern.
+- **Northern Bypass (Rows 5-6):** [Verified Turn 4013] Rows 5-6 at Columns 18-19 provide open floor bypass connecting Western Cavern (Col 14-17) East to Eastern Cavern (Col 20-35).
