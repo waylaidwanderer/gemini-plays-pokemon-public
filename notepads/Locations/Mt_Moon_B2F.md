@@ -27,6 +27,6 @@
 
 - **Column 22-23 Rock Wall Face (Rows 20-27):** [Verified Turn 2863] Solid rock wall face blocks Westward passage at Columns 22-23 across Rows 20 through 27.
 - **Col 19 Solid Rock Wall Face (Rows 26-35):** [Verified Turn 2893] Solid purple rock wall face blocks Westward movement across Column 19 on Rows 26-35. Eastern Cavern (Cols 20-35) connects to Western Cavern via Row 7 Upper Corridor (17,7).
-- **Obstacle at (21,27):** [Verified Turn 2884/2885] Red NPC/object blocks Northward movement along Column 21 at Row 27.
+
 - **Column 18-19 Rock Wall Face (Rows 8-14):** [Verified Turn 2913] Solid purple rock wall blocks Rows 8-14 across Columns 18-19. Row 7 connects Column 20 West to Column 17.
 - **NPC at (20,9):** [Verified Turn 2916] NPC/sprite located at (20,9) blocks Northward movement along Column 20 at Row 9. Route North to Row 7 is via Column 21 (21,10 -> 21,7).
