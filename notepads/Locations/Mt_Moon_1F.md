@@ -55,3 +55,4 @@
 - **Decorative Ladder at (25,15):** [Verified Turn 3686] Tile (25,15) displays ladder graphic but is decorative/non-functional. Functional ladder is at (17,11).
 - **Enclosed Corridor (Rows 26-27, Cols 10-27):** [Verified Turn 4755] Enclosed on all 4 sides (Row 25 wall North, Row 28 wall South, Col 10 wall West, Col 27 wall East). Only exit is ladder at (13,27) to B1F.
 - **East Wall at Column 28 (Rows 10-18):** [Verified Turn 4783] Solid rock wall face at Column 28 blocks East from Column 27 across Rows 10-18.
+- **Row 13-17 Rock Wall at Cols 22-23:** [Verified Turn 4784] Solid rock wall face blocks West from Column 24 across Rows 13-17.
