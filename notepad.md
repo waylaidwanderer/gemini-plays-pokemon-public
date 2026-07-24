@@ -156,6 +156,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Solid Impassable Boundary at (13,20) & (12,20):** [Verified Turns 5136/5144] Tiles (13,20) and (12,20) are impassable cliff boundaries blocking Southward movement from (13,19) and (12,19).
 - **Solid Rock Wall Face at (23,26):** [Verified Turn 5205] Tile (23,26) is a solid purple rock wall face blocking Westward movement along Row 26 from (24,26).
 - **Col 19 Solid Rock Wall Face (Rows 26-32):** [Verified Turn 5214] Solid purple rock wall face blocks Westward movement across Column 19 on Rows 26-32. Eastern Cavern (Cols 20-25) connects to Western Cavern via Row 7 Upper Corridor.
+- **Col 12-13 Wall Boundary (Rows 3-11):** [Verified Turn 5244] Solid rock wall face along Columns 12-13 across Rows 3-11 on 1F blocks Row 7 from connecting West past Column 14. Northern 1F upper section ends at Column 14 on the West.
 
 <hr>
 
