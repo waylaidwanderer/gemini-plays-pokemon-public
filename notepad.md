@@ -127,9 +127,9 @@
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
-  - **Level:** 16
-  - **Moveset:** Tackle (35/35 PP), Tail Whip (30/30 PP), Bubble (30/30 PP), Water Gun (13/25 PP)
-  - **HP:** 40 / 47
+  - **Level:** 17
+  - **Moveset:** Tackle (35/35 PP), Tail Whip (30/30 PP), Bubble (30/30 PP), Water Gun (10/25 PP)
+  - **HP:** 40 / 49
   - **Status:** Healthy
 - **TESLA (Pikachu):**
   - **Level:** 5
@@ -406,6 +406,10 @@
   - **Roster:** Rattata (Lv 10), Nidoran♂ (Lv 10)
   - **Status:** Defeated on Turn 1289.
   - **Reward:** ¥150
+- **Bug Catcher Colbert:** Sits at (24, 6) originally. Engaged at (24, 5) on Turn 1301.
+  - **Roster:** Caterpie (Lv 11), Metapod (Lv 11)
+  - **Status:** Defeated on Turn 1311.
+  - **Reward:** ¥110
 
 <hr>
 

@@ -48,3 +48,7 @@
   - **Roster:** Rattata (Lv 10), Nidoran♂ (Lv 10)
   - **Status:** Defeated on Turn 1289.
   - **Reward:** ¥150
+- **Bug Catcher Colbert:** Sits at (24, 6) originally. Engaged at (24, 5) on Turn 1301.
+  - **Roster:** Caterpie (Lv 11), Metapod (Lv 11)
+  - **Status:** Defeated on Turn 1311.
+  - **Reward:** ¥110
