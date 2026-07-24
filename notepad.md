@@ -280,10 +280,10 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 <h1><code>Scratchpad/B2F_Routing</code></h1>
 
-# MT. MOON MASTER EXIT ROUTE
+# MT. MOON TOP CORRIDOR ROUTE TO B2F EXIT
 
-1. **B2F Side-Room to B1F:** From B2F (19,11), walk Left 2 steps to (17,11) ladder. Warp UP to B1F (25,9).
-2. **B1F Upper Hallway to B2F Main Cavern:** From B1F (25,9), walk Down 2 steps to (25,11), Left 8 steps along Row 11 to B1F (17,11) ladder. Warp DOWN to B2F Main Cavern!
+1. **B1F Row 8 to Top Corridor:** From B1F (30,8), walk Left to (29,8), Up onto (29,7) stairs to (29,6) Top Corridor.
+2. **Top Corridor to B2F Main Cavern Ladder:** Walk West along Row 6/7 to Column 17 / Column 21 ladder, or East to Column 35 ladder.
 3. **B2F Main Cavern to Exit:** In B2F Main Cavern, follow South Highway (Cols 20-21) South to Bottom Cavern, pass Super Nerd to Fossils, take True Exit Ladder to Route 4 East!
 
 <hr>
