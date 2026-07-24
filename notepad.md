@@ -242,7 +242,8 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 <h1><code>Scratchpad/B2F_Routing</code></h1>
 
-- [Turn 4265] Verified (20,8) is a blue cliff face wall. Player at (20,7) bumped into (20,8) wall. Testing if Row 7 extends East to (21,7).
-- [Turn 4331] Verified directly in Bag menu that Helix Fossil is NOT in inventory! Heading to B2F Fossils area (13,13)/(12,13) to claim Fossil and activate the Rocket Grunt progression flag.
+- [Turn 4331] Verified directly in Bag menu that Helix Fossil is NOT in inventory!
+- [Turn 4351] B2F chamber (Cols 14-25, Rows 8-11) has rock wall boundaries on North (Row 7), East (Col 26), South (Row 12), and West (Col 13).
+- [Master Plan] Reciprocal ladders connect B1F (25,9) <-> B2F (17,11) and B1F (17,11) <-> B2F (25,9). B1F Rocket Grunt at (29,11) blocks South Corridor until Fossil is obtained on B2F.
 
 <hr>
