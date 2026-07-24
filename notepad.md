@@ -480,6 +480,7 @@
 
 ## Signposts & Points of Interest
 - **Signpost at (15, 23):** Reads: "Beware! ZUBAT is a blood sucker!"
+- **HP UP at (25, 21):** Retrieved on Turn 1554.
 
 ## Trainers & Defeated Status
 - **Lass Miriam:** Sits at (16, 23).
