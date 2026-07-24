@@ -265,9 +265,10 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 # B1F Upper Cavern -> South Corridor -> 1F Exit Route
 
-1. [CURRENT POSITION] (15,27) on B1F facing Right.
-2. Walk East along Row 27 to (25,27), then Up to Platform Landing at (25,22).
-3. Step onto ladder at B1F (25,22) to warp down to B2F (25,22).
-4. On B2F, navigate South/East to (24,31) Super Nerd / Fossil area and proceed to Mt. Moon True Exit!
+1. [CURRENT POSITION] (25,22) on B1F facing Down.
+2. Walk North up Column 25 to (25,9) ladder tile [13 steps Up].
+3. Step onto (25,9) ladder to warp down to B2F (17,11)/[25,9].
+4. On B2F, walk West to Column 20/21, then South along South Highway (Rows 18-23) into Bottom Cavern.
+5. In Bottom Cavern, proceed past Super Nerd at (24,31) to Fossils and Mt. Moon True Exit Ladder!
 
 <hr>
