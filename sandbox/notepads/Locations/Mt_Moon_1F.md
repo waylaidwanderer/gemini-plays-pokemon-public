@@ -41,3 +41,4 @@
   - 1F (13,27) <-> B1F (15,27) [Main Path to B1F & B2F Main Cavern]
   - 1F (17,11) <-> B2F (25,9) [Side Room Loop with TM01 Mega Punch]
 - **Column 17 Wall at (17,21):** [Verified Turn 2529] Solid rock wall face at (17,21) blocks Northward movement along Column 17.
+- **Row 21 Wall at Col 10:** [Verified Turn 2533] Solid rock wall face at (10,21) blocks Northward movement along Column 10. Western corridor route to Western Chamber is via Row 24 to Column 6.
