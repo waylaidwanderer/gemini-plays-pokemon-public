@@ -134,6 +134,8 @@
 - **Defeated Lass (North-East):** Defeated Lass at (30, 7) on Turn 1641, earning ¥165.
 - **Defeated Team Rocket Grunt:** Defeated Team Rocket Grunt at (29, 11) on Mt. Moon B2F on Turn 1716, earning ¥360.
 - **Obtained Item (Poké Ball):** Found and retrieved Poké Ball at (29, 5) on Mt. Moon B2F on Turn 1722.
+- **Defeated Youngster (North-West):** Defeated Youngster at (12, 16) on Mt. Moon 1F on Turn 1779, earning ¥150.
+- **Obtained Item (Moon Stone):** Found and retrieved Moon Stone at (2, 2) on Mt. Moon 1F on Turn 1881.
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
