@@ -55,3 +55,4 @@
 - **Decorative Ladder at (25,15):** [Verified Turn 3686] Tile (25,15) displays ladder graphic but is decorative/non-functional. Functional ladder is at (17,11).
 
 - **Row 25-27 Corridor to Ladder (13,27):** [Verified Turn 3875] From (18,25), walk Left to (15,25), Down to (15,27) through Column 15 gap in Row 26, then West to (13,27) ladder down to B1F (15,27).
+- **Functional Ladder to B1F at (13,22):** [Verified Turn 3888] Stepping Up onto (13,22) warps to Mt. Moon B1F at (15,27).
