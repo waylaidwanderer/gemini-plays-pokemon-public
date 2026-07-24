@@ -100,7 +100,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - Bug Catcher at (7,23) [Defeated Turn 822 - Lv 11 Weedle, Lv 11 Kakuna].
 - **Column 6 North Corridor:** [Verified Turn 823] Column 6 is open across Rows 20-24, connecting Row 24 around the rock wall into the western chamber.
 - Picked up Item Ball at (2,20) [Turn 825].
-- **Central Rock Wall Boundary (Columns 22-23):** [Verified Turn 1012-1014] Solid purple rock wall spans Columns 22-23 from Row 14 down to Row 25. Open passage from East alcove back West is at Row 26.
+- **Central Rock Wall Boundary (Columns 20-23):** [Verified Turn 3611] Solid purple rock wall face spans Columns 20-23 across Rows 20 through 27. Open passage connecting Central Corridor (Col 19) East to Eastern Chamber (Cols 24-25) is at Rows 28-29.
 - **Western Chamber (Rows 16-20, Columns 2-7):** [Verified Turn 825] Large open chamber in north-western section of 1F.
 - **Western Alcove Cleared:** [Verified Turn 827] Rows 16-19 west of Column 8 are solid rock wall. Western alcove (Columns 2-7, Rows 20-24) contains Item Ball (picked up) and Bug Catcher (defeated).
 - Lass at (16,23) [Defeated Turn 837 - Lv 14 Clefairy].
