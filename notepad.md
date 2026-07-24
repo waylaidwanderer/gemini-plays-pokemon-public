@@ -132,12 +132,14 @@
 - **Defeated Team Rocket Grunt:** Defeated Team Rocket Grunt at (15, 24) on Turn 1529, earning ¥330.
 - **Obtained HP UP:** Found HP UP at (25, 21) on Turn 1554.
 - **Defeated Lass (North-East):** Defeated Lass at (30, 7) on Turn 1641, earning ¥165.
+- **Defeated Team Rocket Grunt:** Defeated Team Rocket Grunt at (29, 11) on Mt. Moon B2F on Turn 1716, earning ¥360.
+- **Obtained Item (Poké Ball):** Found and retrieved Poké Ball at (29, 5) on Mt. Moon B2F on Turn 1722.
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
-  - **Level:** 18
+  - **Level:** 19
   - **Moveset:** Tackle (35/35 PP), Tail Whip (30/30 PP), Bubble (18/30 PP), Water Gun (23/25 PP)
-  - **HP:** 11 / 51
+  - **HP:** 14 / 54
   - **Status:** Healthy
 - **TRUFFLE (Paras):**
   - **Level:** 11
@@ -153,13 +155,13 @@
 - **GUSTY (Pidgey):**
   - **Level:** 5
   - **Moveset:** Gust, Sand-Attack
-  - **HP:** 19 / 19
-  - **Status:** Healthy
+  - **HP:** 0 / 19
+  - **Status:** Fainted
 - **NIBBLES (Rattata):**
   - **Level:** 7
   - **Moveset:** Tackle, Tail Whip, Quick Attack
-  - **HP:** 22 / 22
-  - **Status:** Healthy
+  - **HP:** 0 / 22
+  - **Status:** Fainted
 
 ## Inventory
 - **Poké Balls:** 6 (used 1 to catch TRUFFLE on Turn 1482)
