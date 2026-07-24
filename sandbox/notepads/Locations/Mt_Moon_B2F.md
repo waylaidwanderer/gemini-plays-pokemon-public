@@ -16,9 +16,9 @@
 - **Rocket Grunt #2 at (30,27):** [Spotted Turn 1963] Rocket Grunt at (30,27) facing Right guarding the exit corridor.
 - **Picked up Item Ball at (35,31):** [Turn 1965] Collected item from Item Ball at (35,31) in bottom-right B2F chamber.
 - **Super Nerd #2 at (24,31):** [Defeated Turn 1999 - Lv 11 Magnemite, Lv 11 Voltorb].
+- **(12,15) and (13,15) Wall Boundary:** [Verified Turn 4469] Tiles (12,15) and (13,15) on B2F are solid blue/purple rock wall faces (impassable).
 - **CRITICAL WARP PAIRS:**
-  - B1F (17,11) <-> B2F (25,9) [Isolated Side-Room with TM01]
-  - B1F (25,9) <-> B2F (17,11) [Main Cavern with Fossils & Exit Ladder]
+  - B1F (25,9) <-> B2F (17,11) [Reciprocal 2-ladder side-room loop]
 - **Column 18-19 Rock Wall:** [Verified Turn 2182] Solid rock wall spans Columns 18-19 across Rows 11-21. Open South Passage is Column 20 leading directly to Row 23.
 - **Row 12 Wall Face (Cols 16-21):** [Verified Turn 2428] Solid rock wall blocks Southward movement along Columns 16-21 at Row 12.
 
