@@ -109,7 +109,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Eastern Chamber (Rows 11-28, Columns 24-30):** [Verified Turn 852] Large open eastern hall. Columns 24-30 are open cave floor extending North towards top-right corner.
 - Lass at (30,6): [Defeated Turn 943 - Lv 11 Oddish, Lv 11 Bellsprout].
 - Rocket Grunt at (15,23) [Defeated Turn 1044 - Lv 11 Sandshrew, Rattata, Zubat].
-- **South-West Corridor:** Row 24 connects Column 14 West to Column 6.
+
 - Picked up Item Ball at (25,21) [Turn 1332 - Escape Rope].
 - **West Wall at (13,24):** [Verified Turn 1346] Tile (13,24) is blocked by a rock wall.
 - **Row 19 Central Block:** [Updated Turn 1711] Columns 22-23 form a solid rock wall across Rows 14-25, separating the Eastern Chamber (Cols 24-27) from Central Alcove (Cols 20-21).
