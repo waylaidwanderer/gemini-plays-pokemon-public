@@ -260,10 +260,10 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 <h1><code>Scratchpad/B2F_Routing</code></h1>
 
-- [Turn 4695 Corrected Target] Tile (24,31) is non-functional/impassable.
-- [Turn 4695 Functional Exit Plan]
-  1. From (24,30), walk Left 4 steps along Row 30 to (20,30).
-  2. Inspect Westward corridor along Row 29/30 to reach functional ladder at (15,27).
-  3. Step onto ladder at (15,27) -> warp up to 1F (13,27) -> Exit to Route 4!
+- [Turn 4697 B1F Master Navigation Plan]
+  1. From (20,30), walk Right 5 to (25,30), Up 8 to (25,22).
+  2. Walk North along Col 24/25 Eastern Highway to Top Corridor at (25,7).
+  3. Walk West along Row 7 Top Corridor to Col 15 / Col 10.
+  4. Walk South to (15,27) exit ladder -> warp up to 1F (13,27) -> Exit to Route 4!
 
 <hr>
