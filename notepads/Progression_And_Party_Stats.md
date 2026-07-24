@@ -16,6 +16,7 @@
 - **Healed at Mt. Moon Pokémon Center:** Healed party at (11, 5) on Turn 1422.
 - **Entered Mt. Moon:** Entered Mt. Moon 1F at (18, 5) on Turn 1431.
 - **Defeated Team Rocket Grunt:** Defeated Team Rocket Grunt at (15, 24) on Turn 1529, earning ¥330.
+- **Obtained HP UP:** Found HP UP at (25, 21) on Turn 1554.
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
