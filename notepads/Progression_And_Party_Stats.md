@@ -15,7 +15,7 @@
 - **NIBBLES (Rattata):**
   - **Level:** 6
   - **Moveset:** Tackle, Tail Whip
-  - **HP:** 16 / 20
+  - **HP:** 14 / 20
   - **Status:** Healthy
 - **GUSTY (Pidgey):**
   - **Level:** 5
