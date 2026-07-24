@@ -523,6 +523,7 @@
 - **Signpost at (15, 23):** Reads: "Beware! ZUBAT is a blood sucker!"
 - **HP UP at (25, 21):** Retrieved on Turn 1554.
 - **Potion at (2, 20):** Found and retrieved Potion at (2, 20) on Turn 2068.
+- **TM12 (Water Gun) at (5, 32):** Found and retrieved TM12 at (5, 32) on Turn 2018.
 
 ## Trainers & Defeated Status
 - **Lass Miriam:** Sits at (16, 23).
