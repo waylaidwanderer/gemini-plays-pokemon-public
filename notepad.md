@@ -213,6 +213,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Decorative Ladder at (24,31):** [Verified Turn 4695] Tile (24,31) displays ladder graphic but is non-functional/impassable. True functional exit ladder to 1F is at (15,27)!
 - **Col 12-13 Wall Boundary (Rows 3-11):** [Verified Turn 4706] Solid rock wall face along Columns 12-13 across Rows 3-11 blocks Row 7 from connecting directly West at Column 13.
 - **(28,26) Wall Boundary:** [Verified Turn 4734] Solid rock wall face at (28,26) blocks Eastward movement along Row 26 South Corridor.
+- **Cliff Wall Face at (30..31, 21..28):** [Verified Turn 4768] Solid cliff wall face blocks Eastward movement from Column 29 across Rows 21-28 on B1F.
 
 <hr>
 
@@ -265,11 +266,10 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 # B1F Upper Cavern -> South Corridor -> 1F Exit Route
 
-1. [CURRENT POSITION] (29,25) on B1F facing Right.
-2. Walk Left 19 steps along Row 25 to Column 10 at (10,25).
-3. Walk Up along Column 10 to Row 6 at (10,6).
-4. Walk East along Row 6 to Column 25 at (25,6).
-5. Walk Down 3 steps along Column 25 onto (25,9) ladder tile!
-6. Warp down to B2F, navigate South along Column 20/21 to Bottom Cavern, pass Super Nerd at (24,31) to Fossils and Mt. Moon True Exit Ladder!
+1. Walk West along Row 25 to Column 10 at (10,25).
+2. Walk Up along Column 10 to Row 6 at (10,6).
+3. Walk East along Row 6 to Column 25 at (25,6).
+4. Walk Down 3 steps along Column 25 onto (25,9) ladder tile!
+5. Warp down to B2F, navigate South along Column 20/21 to Bottom Cavern, pass Super Nerd at (24,31) to Fossils and Mt. Moon True Exit Ladder!
 
 <hr>
