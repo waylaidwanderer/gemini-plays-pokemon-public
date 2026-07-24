@@ -22,7 +22,8 @@
 - **Column 18-19 Rock Wall:** [Verified Turn 2182] Solid rock wall spans Columns 18-19 across Rows 11-21. Open South Passage is Column 20 leading directly to Row 23.
 - **Row 12 Wall Face (Cols 16-21):** [Verified Turn 2428] Solid rock wall blocks Southward movement along Columns 16-21 at Row 12.
 
-- **(25,9) Rock Wall Face:** [Verified Turn 2992] Tile (25,9) is a solid rock wall face. Row 8-9 blocks Upward movement across Cols 22-29.
+- **(29,28) & (29,26) Wall Faces:** [Verified Turns 4536/4559] Tiles (29,28) and (29,26) are solid blue rock wall faces on B2F.
+- **Column 35 Eastern Cavern:** [Verified Turns 4553-4554] Column 35 leads North to a dead-end chamber at Rows 1-5 with no exit ladder.
 
 - **Column 22-23 Rock Wall Face (Rows 20-27):** [Verified Turn 2863] Solid rock wall face blocks Westward passage at Columns 22-23 across Rows 20 through 27.
 - **Col 19 Solid Rock Wall Face (Rows 26-35):** [Verified Turn 2893] Solid purple rock wall face blocks Westward movement across Column 19 on Rows 26-35. Eastern Cavern (Cols 20-35) connects to Western Cavern via Row 7 Upper Corridor (17,7).
