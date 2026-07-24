@@ -133,7 +133,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
   - 1F (17,11) <-> B2F (25,9) [Side Room Loop with TM01 Mega Punch]
 - **Column 17 Wall at (17,21):** [Verified Turn 2529] Solid rock wall face at (17,21) blocks Northward movement along Column 17.
 - **Row 21 Wall at Col 10:** [Verified Turn 2533] Solid rock wall face at (10,21) blocks Northward movement along Column 10. Western corridor route to Western Chamber is via Row 24 to Column 6.
-- **Complete 1F Route to Ladder (17,11):** [Verified Turn 2535] Walk to Col 24, North to Row 15, East to Col 30, North along Col 30 to Row 7 (bypassing Row 8-9 wall), West along Row 7 to Col 17, then South to (17,11) ladder.
+- **1F Route to Ladder (17,11):** [Verified Turn 2535] Ladder at (17,11) on 1F warps directly to B2F at (25,9).
 - **Elevated Platform (24,21):** [Verified Turn 2606] Elevated platform at (24,21) is enclosed by solid rock walls along Row 20 to the North, East, and West (dead end).
 - **Row 26 Rock Wall at Col 16-19:** [Verified Turn 2727] Solid rock wall face blocks Row 26 at Col 16-19. Row 24 is the open corridor connecting Col 10 to Col 20.
 - **Row 24 Rock Wall at Col 22-23:** [Verified Turn 2729] Solid rock wall face blocks Row 24 at Col 22-23. Row 26 (Cols 20-25) is the open corridor connecting Col 20 East to Col 24.
@@ -185,6 +185,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **South Corridor True Coordinates:** [Verified Turn 2646] Rows 28-30 across Columns 20-25 form the open floor South Corridor extending West under the Row 24-27 rock wall face. Row 26/27 at Cols 20-23 is solid rock wall face.
 - **Row 25 Solid Rock Wall Face (Cols 10-23):** [Verified Turn 2758] Solid purple rock wall face blocks Row 25 across Columns 10 through 23 on B1F. Column 15 does NOT connect North past Row 25. Exit North from South Corridor is at Columns 24-25.
 - **East Wall Boundary at Col 28 (Rows 17-25):** [Verified Turn 2768] Solid purple rock wall face at Column 28 blocks East from Column 27 across Rows 17-25. Wide Eastern Highway is Columns 24-27 extending North.
+- **Row 13 Solid Rock Wall Face (Cols 24-27):** [Verified Turn 2775] Solid purple rock wall face blocks Row 13 across Columns 24 through 27 on B1F.
 
 <hr>
 
