@@ -139,9 +139,10 @@
   - **HP:** 11 / 51
   - **Status:** Healthy
 - **TRUFFLE (Paras):**
-  - **Level:** 10
-  - **Moveset:** Scratch (33/35 PP)
-  - **HP:** 16 / 28
+  - **Level:** 11
+  - **Moveset:** Scratch (24/35 PP)
+  - **Stats:** Attack 24, Defense 17, Speed 13, Special 18
+  - **HP:** 10 / 30
   - **Status:** Healthy
 - **TESLA (Pikachu):**
   - **Level:** 5
