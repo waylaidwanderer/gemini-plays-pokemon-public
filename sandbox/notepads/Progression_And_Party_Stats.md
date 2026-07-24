@@ -8,26 +8,26 @@
 
 ## Party Statistics
 - **SHELLBY (Squirtle):**
-  - **Level:** 11
-  - **Moveset:** Tackle, Tail Whip, Quick Attack, Bubble
-  - **HP:** 32 / 32
-  - **Status:** Healthy
-- **NIBBLES (Rattata):**
-  - **Level:** 7
-  - **Moveset:** Tackle, Tail Whip, Quick Attack
-  - **HP:** 17 / 22
-  - **Status:** Healthy
-- **GUSTY (Pidgey):**
-  - **Level:** 5
-  - **Moveset:** Gust, Sand-Attack
-  - **HP:** 19 / 19
+  - **Level:** 12
+  - **Moveset:** Tackle, Tail Whip, Bubble
+  - **HP:** 11 / 34
   - **Status:** Healthy
 - **TESLA (Pikachu):**
   - **Level:** 3
   - **Moveset:** ThunderShock, Growl
   - **HP:** 15 / 15
   - **Status:** Healthy
+- **GUSTY (Pidgey):**
+  - **Level:** 5
+  - **Moveset:** Gust, Sand-Attack
+  - **HP:** 19 / 19
+  - **Status:** Healthy
+- **NIBBLES (Rattata):**
+  - **Level:** 7
+  - **Moveset:** Tackle, Tail Whip, Quick Attack
+  - **HP:** 17 / 22
+  - **Status:** Healthy
 
 ## Inventory
 - **Poké Balls:** 2 (3 used to catch NIBBLES, 5 used to catch GUSTY, 2 purchased on Turn 387, 2 used to catch TESLA on Turn 893)
-- **Potion:** 1 (3 purchased on Turn 715)
+- **Potion:** 0 (3 purchased on Turn 715, used last Potion on Turn 974)
