@@ -137,6 +137,7 @@
 - **Defeated Youngster (North-West):** Defeated Youngster at (12, 16) on Mt. Moon 1F on Turn 1779, earning ¥150.
 - **Obtained Item (Moon Stone):** Found and retrieved Moon Stone at (2, 2) on Mt. Moon 1F on Turn 1881.
 - **Defeated Bug Catcher Kenton:** Defeated Bug Catcher Kenton at (7, 22) on Turn 2031, earning ¥110.
+- **Obtained Item (Potion):** Found and retrieved Potion at (2, 20) on Mt. Moon 1F on Turn 2068.
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
