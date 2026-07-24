@@ -1,5 +1,3 @@
-# B1F Upper Cavern -> South Corridor -> 1F Exit Route
-
 # MASTER MT. MOON EXIT ROUTE (VERIFIED)
 
 1. [1F (24,23)] Walk Down 3 to (24,26), Left 11 to (13,26), Down 1 onto (13,27) ladder -> warp to B1F (15,27).
