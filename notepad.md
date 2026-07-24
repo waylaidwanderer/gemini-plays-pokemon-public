@@ -72,6 +72,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Tree Wall at (9,10)-(9,11):** [Verified Turn 869] Column 9 has trees at Y=10 and Y=11 blocking Row 10/11 path. Row 8 and Row 9 (X=9, Y=8..9) are open to reach X=11.
 - **Ledge at (25,14):** [Verified Turn 891] Tile (25,14) is a south-facing ledge that blocks downward movement from Row 13 to Tier 3.
 - **Tile (24,7) Ledge:** [Verified Turn 1605] Tile (24,7) is a south-facing one-way ledge blocking Upward movement from (24,8).
+- **Route 3 One-Way Highway:** [Verified Turn 2700] South-facing ledges on Row 7 and Row 14 prevent returning West to Pewter City once you hop down. Travel East to Mt. Moon is mandatory.
 
 <hr>
 
