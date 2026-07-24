@@ -256,10 +256,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 <h1><code>Scratchpad/B2F_Routing</code></h1>
 
 - [Turn 4545 Confirmed] Fossil event completed at (24,31).
-- [Turn 4665 Discovery] Cols 31-37 (Rows 1-35) is an eastern alcove chamber (Item Ball was at 35,31).
-- [Turn 4665 Plan to Exit Ladder]
-  1. Return to (30,26) above Rocket Grunt at (30,27).
-  2. Inspect (30,27), (29,27), (28,27), (30,28) for the exit ladder!
-  3. Talk to Rocket Grunt #2 at (30,27) if needed to clear/reveal ladder.
+- [Turn 4672 Arrived at (30,28)] Rocket Grunt #2 is standing at (30,27).
+- [Turn 4672 Plan] Turn Up to face Rocket Grunt #2 and press A to talk to him and inspect dialogue / ladder access.
 
 <hr>
