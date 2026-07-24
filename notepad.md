@@ -201,6 +201,10 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Ladder Tile at (15,27) Warp Behavior:** [Verified Turn 3712] Tile (15,27) on B1F is the ladder warp back to 1F (13,27). Walking onto (15,27) on B1F immediately triggers map warp.
 - **Solid Rock Wall Face at (28,21):** [Verified Turn 3725] Tile (28,21) is a solid rock wall face blocking Northward passage along Column 28.
 - **Row 24 Stair Entrance (Cols 25-28):** [Verified Turn 3726] Row 24 is wide open floor connecting Col 28 West to (25,24) at the base of the Upper Platform stairs at (25,23).
+- **Solid Rock Boulder at (33,9):** [Verified Turn 4408] Tile (33,9) on B1F is a solid rock boulder/pillar face (impassable).
+- **North Wall Barrier (Rows 2-5, Cols 30-39):** [Verified Turn 4409] Rows 2-5 across Columns 30-39 form a solid rock wall face enclosing the top-right corridor.
+- **Row 12 Purple Cliff Barrier (Cols 24-28, Rows 12-14):** [Verified Turn 4396] Rows 12-14 across Columns 24-28 form a solid purple rock wall face.
+- **Side-Room Loop Warp:** [Verified Turn 4392] Ladder at (25,9) on B1F warps to B2F (17,11); ladder at (17,11) on B2F warps to B1F (25,9), forming an isolated side-room loop.
 
 <hr>
 
