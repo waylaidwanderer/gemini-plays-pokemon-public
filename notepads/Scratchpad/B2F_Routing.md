@@ -1,3 +1,5 @@
 - [Turn 4545 Confirmed] Fossil event completed at (24,31).
-- [Turn 4621 Route] Currently at (30,11) on B2F. Navigating via (25,9) warp loop to B2F (17,11), then Up to Row 7 (17,7) and East to Column 21 highway South.
-- [Turn 4616 Discovery] Must obtain Helix Fossil from floor at (23,31)/(24,31) in Bottom Cavern to trigger Rocket Grunt passage! Navigating via Row 7 corridor to Col 20/21 South Highway.
+- [Turn 4625 Goal] Escape side-room loop:
+  1. Warp from B2F (25,9) up to B1F (17,11) by pressing Up.
+  2. On B1F, inspect room layout and locate pathway or B1F (25,9) ladder.
+  3. Warp from B1F (25,9) down to B2F (17,11) [Main Cavern entrance].
