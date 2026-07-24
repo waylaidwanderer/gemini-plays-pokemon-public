@@ -1,3 +1,3 @@
 - [Turn 4331] Verified directly in Bag menu that Helix Fossil is NOT in inventory!
 - [Turn 4351] B2F chamber (Cols 14-25, Rows 8-11) has rock wall boundaries on North (Row 7), East (Col 26), South (Row 12), and West (Col 13).
-- [Master Plan] Reciprocal ladders connect B1F (25,9) <-> B2F (17,11) and B1F (17,11) <-> B2F (25,9). B1F Rocket Grunt at (29,11) blocks South Corridor until Fossil is obtained on B2F.
+- [Master Plan] B1F (25,9) <-> B2F (17,11) reciprocal ladder loop. From B2F (17,11), walk South down Column 17 to Row 22, East across Row 22 to Column 20, and South along Column 20 to B2F Bottom Cavern (Rows 25-35) where Super Nerd #2 is at (24,31) with the Helix Fossil!
