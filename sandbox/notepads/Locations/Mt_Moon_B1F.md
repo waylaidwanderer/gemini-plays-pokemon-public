@@ -25,7 +25,7 @@
 - **Row 20 North Wall Block (Cols 20-29):** [Verified Turn 2305] Solid purple rock wall face blocks Northward movement at Row 20 across Columns 20 through 29 on B1F. Column 14/15 provides the open vertical highway North connecting South Corridor (Row 26) to Upper Cavern (Rows 18-21).
 - **Row 20-21 Rock Wall (Cols 14-20):** [Verified Turn 2316/3389] Solid purple rock wall face blocks North at Rows 20-21 across Columns 14-20. Columns 10-11 on the far West side provide the open vertical highway North connecting South Corridor (Row 26) to Top Corridor (Rows 2-7).
 - **Row 8 Solid Rock Wall (Cols 20-29):** [Verified Turn 2452] Solid blue rock wall face blocks Southward movement at Row 8 across Columns 20 through 29. Column 30 is the open vertical corridor connecting Row 7 to Row 10.
-- **Column 12-13 Rock Pillar (Rows 23-28):** [Verified Turn 2488] Columns 12-13 are a solid rock pillar face across Rows 23 through 28, blocking Westward movement along South Corridor at Row 27. Column 14/15 is the open vertical highway North connecting Row 27 up to Upper Cavern (Rows 18-21).
+- **Column 12-13 Rock Pillar (Rows 23-28):** [Verified Turn 2488] Columns 12-13 are a solid rock pillar face across Rows 23 through 28, blocking Westward movement along South Corridor at Row 27.
 - **Rocket Grunt at (15,22):** [Verified Turn 2501] Rocket Grunt located at (15,22) in Upper Cavern section of B1F.
 - **Decorative Ladder at (25,15):** [Verified Turn 2643] Tile (25,15) in B1F Eastern Chamber displays a ladder graphic but is decorative/non-functional (stepping on it triggers no warp).
 - **Central Cliff Barrier at Cols 30-31:** [Verified Turn 2569] Solid rock cliff face blocks Row 26 Eastward at Column 30 on B1F.
