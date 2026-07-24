@@ -11,7 +11,6 @@
 - **Rock Pillar Face at (32,12)-(33,15):** [Verified Turn 3781] Solid rock wall face blocks Rows 12-14 across Columns 30-37.
 - **Row 20 Boundary:** [Verified Turn 1509] Row 20 is a solid rock wall face across Columns 13-18. B2F South passage turns West along Row 19 (Cols 13-17).
 
-- **Helix Fossil Status:** [Verified Turn 4331] Checked Bag inventory directly; Helix Fossil is NOT in inventory yet. Must locate Super Nerd in B2F Main Cavern.
 - **Column 18 Wall Boundary (Rows 8-15):** [Verified Turn 1940] Column 18 is a solid rock wall face across Rows 8-15, blocking Eastward movement from (17,11) along Row 11.
 - **Rocket Grunt #2 at (30,27):** [Spotted Turn 1963] Rocket Grunt at (30,27) facing Right guarding the exit corridor.
 - **Picked up Item Ball at (35,31):** [Turn 1965] Collected item from Item Ball at (35,31) in bottom-right B2F chamber.
