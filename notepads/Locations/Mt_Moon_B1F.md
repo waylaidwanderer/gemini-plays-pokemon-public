@@ -45,3 +45,4 @@
 - **Solid Rock Wall Face at (26,23) & (27,22):** [Verified Turn 3133] Tiles (26,23) and (27,22) are solid rock wall faces enclosing the upper platform landing. Exit from upper landing is West to (25,22) and Down stairs at (25,23).
 - **Solid Rock Wall Face at (30,22)-(34,22):** [Verified Turn 3144] Tiles (30,22) through (34,22) are solid rock wall faces. Column 30 does NOT lead North from Row 22. Eastern corridor route to Top Corridor is via Columns 35-37!
 - **Solid Impassable Boundary at (30,25):** [Verified Turn 3149] Tile (30,25) is impassable when attempting to walk East from (29,25).
+- **Solid Ledge / Wall Face at (25..31, 28):** [Verified Turn 3158] Row 28 at Columns 25-31 is a solid ledge / wall face blocking Southward movement from Row 27. Exit West from lower room is via Row 27 (Cols 29-25) back toward (15,27).
