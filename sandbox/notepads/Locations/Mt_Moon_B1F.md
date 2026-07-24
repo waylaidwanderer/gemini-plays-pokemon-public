@@ -66,3 +66,4 @@
 - **(30,24) Wall Boundary:** [Verified Turn 4885] Solid cliff wall face at (30,24) blocks Eastward movement along Row 24. Western Highway at Cols 10-11 is the true Northbound passage past Row 20 wall.
 - **(13,24) Wall Boundary:** [Verified Turn 4897] Solid rock wall face at (13,24) blocks Westward movement along Row 24. Access to Western Highway (Cols 10-11) is via Row 27 (14,27 -> 11,27).
 - **(13,27) Wall Boundary:** [Verified Turn 4902] Solid rock wall face at (13,27) blocks Westward movement along Row 27 on B1F.
+- **(14,28) Wall Boundary:** [Verified Turn 4954] Solid rock wall face at (14,28) blocks Southward movement from (14,27) on B1F.
