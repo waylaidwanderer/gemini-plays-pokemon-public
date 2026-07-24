@@ -163,7 +163,7 @@
 
 ## Inventory
 - **Poké Balls:** 6 (used 1 to catch TRUFFLE on Turn 1482)
-- **Potion:** 1 (purchased 1 at Pewter Poké Mart on Turn 1233)
+- **Potion:** 0 (used on TRUFFLE on Turn 1671)
 - **Antidote:** 2 (found 1 on Turn 576, purchased 1 at Pewter Poké Mart on Turn 1036)
 - **HP UP:** 1 (found on Turn 1554)
 
@@ -514,8 +514,6 @@
 ## Overworld Layout & Navigation
 - **Access Ladder:** Ladder at (25, 8) leads up to B1F at (17, 11).
 - **Starting Platform:** Bounded by rock walls on row 7 (except columns 21-22), and void on row 12.
-- **Left Corridor:** Columns 21 and 22 are walkable floor on rows 5 to 11.
-- **Horizontal Bypass (Row 6):** Walkable floor across columns 21 to 27, allowing access to the eastern area from the starting platform.
 
 ## Items
 - **Poké Ball (Top-Right):** Sits at (29, 5).

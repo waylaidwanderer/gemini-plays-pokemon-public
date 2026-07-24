@@ -49,6 +49,6 @@
 
 ## Inventory
 - **Poké Balls:** 6 (used 1 to catch TRUFFLE on Turn 1482)
-- **Potion:** 1 (purchased 1 at Pewter Poké Mart on Turn 1233)
+- **Potion:** 0 (used on TRUFFLE on Turn 1671)
 - **Antidote:** 2 (found 1 on Turn 576, purchased 1 at Pewter Poké Mart on Turn 1036)
 - **HP UP:** 1 (found on Turn 1554)
