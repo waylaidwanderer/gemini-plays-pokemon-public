@@ -30,3 +30,4 @@
 - **Rocket Grunt at (15,22):** [Verified Turn 2501] Rocket Grunt located at (15,22) in Upper Cavern section of B1F.
 - **Row 26 Ladder Bypass:** [Verified Turn 2496] To bypass (15,27) ladder when spawning at B1F (15,27), step Up to Row 26 at (14,26) and walk East along Row 26.
 - **East Route to Ladder (25,9):** [Verified Turn 2506] Walk East along Row 26 to Col 30, North along Col 30 to Row 7, then West along Row 7 to (25,9) ladder.
+- **Eastern Highway at Cols 28-29:** [Verified Turn 2508] Columns 28-29 form a wide-open vertical corridor extending North from Row 26 up through Row 22+.
