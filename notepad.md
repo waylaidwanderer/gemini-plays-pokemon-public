@@ -248,7 +248,13 @@ Route 3 is structured into 3 horizontal elevation tiers:
 <h1><code>Scratchpad/B2F_Routing</code></h1>
 
 - [Turn 4331] Verified directly in Bag menu that Helix Fossil is NOT in inventory!
-- [Turn 4351] B2F chamber (Cols 14-25, Rows 8-11) has rock wall boundaries on North (Row 7), East (Col 26), South (Row 12), and West (Col 13).
-- [Master Plan] B1F (25,9) <-> B2F (17,11) reciprocal ladder loop. From B2F (17,11), walk South down Column 17 to Row 22, East across Row 22 to Column 20, and South along Column 20 to B2F Bottom Cavern (Rows 25-35) where Super Nerd #2 is at (24,31) with the Helix Fossil!
+- [Turn 4517 Discovered B2F Map Geometry]
+  - Row 20 is solid rock wall across Cols 10-18 on B2F.
+  - Western Cavern (Cols 10-17, Rows 8-19) connects East to Column 20 via Row 7 Upper Corridor at (17,7).
+  - Route from (13,19) to B2F Bottom Cavern:
+    1. Walk East to (17,19) and North along Col 17 to (17,12).
+    2. Bypass ladder (17,11) via (16,12) -> (16,10) -> (17,10).
+    3. Walk North to (17,7), then East along Row 7 to Column 20.
+    4. Walk South down Column 20/21 into Bottom Cavern (Rows 25-35) to reach Super Nerd #2 at (24,31) with the Helix Fossil!
 
 <hr>
