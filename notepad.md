@@ -167,6 +167,8 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Central Wall Face Across Rows 26-35 (Cols 16-19):** [Verified Turn 5422] Solid purple rock wall face blocks Rows 26-35 across Columns 16-19.
 - **Western Alcove Boundary:** [Verified Turn 5419] Western Alcove (Cols 2-7, Rows 20-24) is a dead end, bounded North by Rows 18-19 rock wall (Cols 2-9) and East by Col 8-10 rock wall (Rows 18-21).
 - **Solid Rock Wall Face at (19,26):** [Verified Turn 5422] Tile (19,26) is a solid blue rock wall face blocking Southward movement from (19,25). Columns 16-19 form a solid mountain ridge across Rows 26-35.
+- **Solid Rock Wall Face at (20,19):** [Verified Turn 5442] Tile (20,19) is a south-facing mountain rock wall face blocking Northward movement along Column 20 at Row 19.
+- **Solid Rock Wall Face at (18,11):** [Verified Turn 5451] Tile (18,11) is a solid rock wall face blocking Westward movement along Row 11 from Column 20.
 
 <hr>
 
