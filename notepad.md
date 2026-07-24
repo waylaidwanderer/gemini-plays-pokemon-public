@@ -549,7 +549,7 @@
   - **Status:** Undefeated (encountered on Turn 1889).
 
 ## Verified Layout Details & Barriers
-- **Central Wall & Ledge Barrier:** Rows 20 and 21 form a solid horizontal rocky wall across columns 14 to 29, except for columns 20 and 21 which contain a horizontal one-way ledge facing down on row 21. This blocks all upward (northward) movement from the southern area of the central cavern.
+- **Central Wall & Ledge Barrier:** Rows 20 and 21 form a solid horizontal rocky wall across columns 14 to 29, EXCEPT for columns 20 and 21 which are completely open and clear, allowing direct northward (upward) movement between the southern area (row 25) and the northern area (row 15). There is no ledge blocking upward movement on columns 20 and 21.
 - **Raised Platform (West Side):** Columns 12 and 13 on rows 20 to 28 form an elevated platform.
   - The eastern edge (column 13) has a solid wall with no staircases on rows 22, 26, and 27 (experimentally tested).
   - Row 28 is a horizontal elevated platform segment that blocks column 14, meaning column 14 is a dead-end at row 27.
