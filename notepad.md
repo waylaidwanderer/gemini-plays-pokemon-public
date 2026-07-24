@@ -139,6 +139,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Row 24 Rock Wall at Col 22-23:** [Verified Turn 2729] Solid rock wall face blocks Row 24 at Col 22-23. Row 26 (Cols 20-25) is the open corridor connecting Col 20 East to Col 24.
 - **Functional Ladder at (13,27):** [Verified Turn 2752] Ladder at (13,27) on 1F warps down to B1F at (15,27) (Main Path).
 - **Row 17 Rock Wall Collision at Cols 22-23:** [Verified Turn 2743] Solid purple rock wall blocks Row 17 at Cols 22-23 on 1F, enclosing Eastern Chamber. Exit is South at (24,26).
+- **(24,28) Wall Boundary:** [Verified Turn 3024] Solid rock wall face blocks South at Row 28 across Columns 20-29 on 1F.
 
 <hr>
 
