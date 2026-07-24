@@ -32,7 +32,7 @@
 - **Central Cliff Barrier at Cols 30-31:** [Verified Turn 2569] Solid rock cliff face blocks Row 26 Eastward at Column 30 on B1F.
 - **Eastern Highway at Cols 28-29:** [Verified Turn 2508] Columns 28-29 form a wide-open vertical corridor extending North from Row 26 up through Row 22+.
 - **Row 22 Wall Collision at (27,22):** [Verified Turn 2510] Solid rock wall face at (27,22) blocks Westward movement along Row 22.
-- **Complete B1F Route to Ladder (25,9):** [Verified Turn 2554] From (15,27) spawn: Walk to Col 15, North to Row 18 (15,18), West along Row 18 to Col 10 (10,18) (bypassing Col 12-13 rock pillar), North along Col 10 to Row 7 (10,7), East along Row 7 to Col 25 (25,7), South to (25,9) ladder.
+- **South Corridor Northern Boundary:** [Verified Turn 2636] Column 10 dead-ends North at (10,25) into a solid purple rock wall face. Rows 20-25 rock walls block direct Northward passage across Columns 10-23 from South Corridor. Northern exit from South Corridor is at Columns 24-25 (Rows 22-25 open floor).
 - **B1F South Corridor Isolation:** [Verified Turn 2579] B1F South Corridor (Cols 14-29, Rows 24-27) is enclosed by Row 20-25 rock walls and Col 12-13 / Col 30-31 pillars. Only exit is ladder at (15,27) up to 1F (13,27).
 - **Row 21 Wall Collision at (22,21):** [Verified Turn 2578] Solid rock wall face at (22,21) blocks Westward movement along Row 21.
 - **B1F Map Boundary West at Col 10:** [Verified Turn 2594] Column 10 is the westmost edge of Mt. Moon B1F. Columns 2-9 do not exist on B1F.
