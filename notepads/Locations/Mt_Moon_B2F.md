@@ -24,7 +24,7 @@
 - **Row 12 Wall Face (Cols 16-21):** [Verified Turn 2428] Solid rock wall blocks Southward movement along Columns 16-21 at Row 12. Columns 24-25 provide the open floor passage South connecting Row 11 to Rows 13-15.
 - **Main Cavern South Highway (Col 17):** [Verified Turn 2821] In B2F Main Cavern at (17,11), Column 17 extends South across Rows 12-19 into the lower cavern.
 - **(25,9) Rock Wall Face:** [Verified Turn 2992] Tile (25,9) is a solid rock wall face. Row 8-9 blocks Upward movement across Cols 22-29.
-- **B2F Side Room Confirmation:** [Verified Turn 2819] B2F (25,9) spawn is an enclosed side-room bounded East at Col 26 and South at Row 12. Must warp back to B1F (17,11) via (25,9) ladder, then navigate B1F to (25,9) ladder to reach B2F Main Cavern.
+
 - **Column 22-23 Rock Wall Face (Rows 20-27):** [Verified Turn 2863] Solid rock wall face blocks Westward passage at Columns 22-23 across Rows 20 through 27.
 - **Col 19 Solid Rock Wall Face (Rows 26-35):** [Verified Turn 2893] Solid purple rock wall face blocks Westward movement across Column 19 on Rows 26-35. Eastern Cavern (Cols 20-35) connects to Western Cavern via Row 7 Upper Corridor (17,7).
 - **Obstacle at (21,27):** [Verified Turn 2884/2885] Red NPC/object blocks Northward movement along Column 21 at Row 27.
