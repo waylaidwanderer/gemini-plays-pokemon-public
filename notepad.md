@@ -250,15 +250,16 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Row 12 Wall Face at (24,12):** [Verified Turn 4587] Tile (24,12) is solid blue rock wall face.
 - **Row 7 Elevation Stairs at (28,7)-(29,7):** [Verified Turn 4589] Tiles (28,7) and (29,7) are stairs connecting Row 8 up to Row 7. Tile (27,7) is solid rock wall face.
 - **Row 12 Wall Face at (32,12):** [Verified Turn 4614] Tile (32,12) is solid blue rock wall face.
+- **Exit Ladder at (25,25):** [Verified Turn 4676] Functional ladder at (25,25) on B2F warps up to B1F South Corridor!
 
 <hr>
 
 <h1><code>Scratchpad/B2F_Routing</code></h1>
 
 - [Turn 4545 Confirmed] Fossil event completed at (24,31).
-- [Turn 4675 Exit Corridor Found] Discovered open exit corridor West of (30,26)!
-  1. Walk Left to (29,26), Up to (29,25).
-  2. Walk Left along Row 25 to (26,25) / exit ladder!
-  3. Ascend exit ladder to B1F South Corridor!
+- [Turn 4676 Exit Ladder Found!] Discovered B2F Exit Ladder at (25,25)!
+  1. From (27,25), walk Left 2 steps onto ladder at (25,25).
+  2. Ascend to B1F South Corridor.
+  3. Walk West to ladder at (15,27) on B1F -> warp up to 1F (13,27) -> Exit to Route 4!
 
 <hr>
