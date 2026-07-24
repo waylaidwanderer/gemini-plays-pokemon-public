@@ -221,6 +221,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **(28,26) Wall Boundary:** [Verified Turn 4734] Solid rock wall face at (28,26) blocks Eastward movement along Row 26 South Corridor.
 - **Cliff Wall Face at (30..31, 21..28):** [Verified Turn 4768] Solid cliff wall face blocks Eastward movement from Column 29 across Rows 21-28 on B1F.
 - **(25,20) Wall Boundary:** [Verified Turn 4880] Solid rock wall face at (25,20) blocks Northward movement along Column 25 at Row 20.
+- **(30,24) Wall Boundary:** [Verified Turn 4885] Solid cliff wall face at (30,24) blocks Eastward movement along Row 24. Western Highway at Cols 10-11 is the true Northbound passage past Row 20 wall.
 
 <hr>
 
