@@ -43,3 +43,4 @@
 - **Solid Rock Wall Face at (13,22):** [Verified Turn 3118] Tile (13,22) is solid rock wall face blocking Westward movement from Column 14.
 - **Solid Rock Wall Face at (13,26):** [Verified Turn 3101] Tile (13,26) is solid rock wall face blocking Westward movement along Row 26.
 - **Solid Rock Wall Face at (26,23) & (27,22):** [Verified Turn 3133] Tiles (26,23) and (27,22) are solid rock wall faces enclosing the upper platform landing. Exit from upper landing is West to (25,22) and Down stairs at (25,23).
+- **Solid Rock Wall Face at (30,22)-(34,22):** [Verified Turn 3144] Tiles (30,22) through (34,22) are solid rock wall faces. Column 30 does NOT lead North from Row 22. Eastern corridor route to Top Corridor is via Columns 35-37!
