@@ -222,5 +222,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Row 12 Wall Face (Cols 16-21):** [Verified Turn 2428] Solid rock wall blocks Southward movement along Columns 16-21 at Row 12. Columns 24-25 provide the open floor passage South connecting Row 11 to Rows 13-15.
 - **Column 17 Ladder Warp Hitbox at (17,11)-(17,12):** [Verified Turn 2807] Stepping onto (17,12) directly below ladder on B2F triggers warp back to B1F (25,9). To bypass, walk South along Column 16 (16,11 -> 16,19) without stepping East into Column 17 until Row 13+.
 - **B2F Main Route from (17,11) Spawn:** [Verified Turn 2811] From (17,11) spawn, Row 11 East is blocked by Col 18 rock wall. Must walk NORTH along Col 17 (17,11 -> 17,7) to Row 7 Upper Corridor, then East along Row 7 to Col 25/32 to enter main B2F cavern.
+- **B2F Side Room Confirmation:** [Verified Turn 2819] B2F (25,9) spawn is an enclosed side-room bounded East at Col 26 and South at Row 12. Must warp back to B1F (17,11) via (25,9) ladder, then navigate B1F to (25,9) ladder to reach B2F Main Cavern.
 
 <hr>
