@@ -30,7 +30,7 @@
 - **Row 25 Rock Wall (Cols 10-23):** [Verified Turn 1858] Solid rock wall blocks Row 25 across Columns 10 through 23, enclosing the bottom-left corridor (Cols 10-18, Rows 26-27). Passage North opens at Column 24 (Cols 24-27).
 - **East Wall at Column 28 (Rows 13-20):** [Verified Turn 3449] Solid purple rock wall face at Column 28 blocks East from Column 27 across Rows 13-20.
 - **Eastern Upper Chamber (Rows 11-15, Cols 21-30):** [Verified Turn 1876] Large wide-open cavern spanning Rows 11-15 across Columns 21 to 30. No wall at Row 13 or Col 28 on Rows 11-15; smooth purple floor extends North past Row 11.
-- **Functional Ladder at (17,11) WARPS TO B2F (25,9):** [Verified Turn 1895] Stepping onto ladder at (17,11) on Mt. Moon 1F warps directly to B2F at (25,9).
+
 - **Rock Wall Barrier (Cols 18-19, Rows 8-23):** [Verified Turns 2229-2249] Solid rock wall spans Columns 18-19 across Rows 8 through 23, blocking Westward passage between Column 20/21 and Column 17. Row 24 connects Column 20 to Column 17.
 - **Row 20-28 Central Wall (Cols 22-23):** [Verified Turn 2276] Solid purple rock wall face spans Columns 22-23 across Rows 20 through 28, blocking Westward passage from Column 24 to Column 21 along Row 24.
 - **Row 13 Wall Boundary:** [Verified Turn 2376] Rock wall at Row 13 spans Columns 24-27 only. Columns 28-30 are open floor connecting Row 15 to Row 11. To go North from Eastern Corridor, walk East to Column 28, then North to Row 11.
