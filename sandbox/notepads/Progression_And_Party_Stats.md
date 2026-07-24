@@ -13,7 +13,7 @@
   - **HP:** 32 / 32
   - **Status:** Healthy
 - **NIBBLES (Rattata):**
-  - **Level:** 5
+  - **Level:** 6
   - **Moveset:** Tackle, Tail Whip
   - **HP:** 18 / 18
   - **Status:** Healthy
