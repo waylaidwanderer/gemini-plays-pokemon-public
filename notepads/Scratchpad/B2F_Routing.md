@@ -1,1 +1,2 @@
 - [Turn 4265] Verified (20,8) is a blue cliff face wall. Player at (20,7) bumped into (20,8) wall. Testing if Row 7 extends East to (21,7).
+- [Turn 4331] Verified directly in Bag menu that Helix Fossil is NOT in inventory! Heading to B2F Fossils area (13,13)/(12,13) to claim Fossil and activate the Rocket Grunt progression flag.
