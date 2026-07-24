@@ -13,3 +13,7 @@
   - Row 12 has a horizontal ledge.
 - **NPCs/Trainers:**
   - An NPC (green hair, green shirt) is visible at (10, 6), which is on the path above the ledge at row 7.
+- **Ledge Barrier at Row 11 / Access to Eastern Area:**
+  - **Ledge Blockage:** Row 11 has a horizontal ledge blocking Columns 10-14 and Columns 16-19.
+  - **Tree Blockage:** Column 17 contains a solid vertical row of trees from row 6 to row 11, blocking direct horizontal transit on rows 8-10.
+  - **Walkable Gap / Ramp:** (15, 11) is a completely clear, walkable dirt ramp. Walking through (15, 9) -> (15, 10) -> (15, 11) -> (15, 12) allows the player to bypass the ledge and access the clear path going east on row 12.
