@@ -256,5 +256,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
     2. Bypass ladder (17,11) via (16,12) -> (16,10) -> (17,10).
     3. Walk North to (17,7), then East along Row 7 to Column 20.
     4. Walk South down Column 20/21 into Bottom Cavern (Rows 25-35) to reach Super Nerd #2 at (24,31) with the Helix Fossil!
+- [Turn 4523 Correction] Row 8 is a solid blue rock wall face across Cols 18-25. Row 7 upper corridor continues East past Col 25.
 
 <hr>
