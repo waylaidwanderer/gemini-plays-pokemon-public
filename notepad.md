@@ -379,4 +379,11 @@
   - **Ledge Blockage:** Row 7 has a horizontal ledge blocking Columns 10 and Columns 12-20.
   - **Walkable Gap / Ramp:** (11, 7) is a completely clear, walkable dirt ramp. Standing at (11, 8) and walking Up to (11, 7) lets the player access the upper road of Route 3!
 
+- **Eastern Obstacles and Stairs (Columns 20-25):**
+  - **Forest Barrier (Column 23):** Column 23 contains a solid vertical line of trees from row 8 to row 13, blocking direct eastward passage.
+  - **Tree blockages on Columns 24-27:** Forest/trees extend eastwards on rows 10-13, forming a solid block.
+  - **Cliff Face (Row 14):** A solid brown checkered cliff runs horizontally on row 14 across columns 14 to 24, blocking downward transit.
+  - **Walkable Staircase (Column 25):** (25, 14), (25, 15), and (25, 16) is a walkable staircase that cuts through the cliff face, allowing vertical transit.
+  - **Upper Road Eastward Path:** Accessible by walking east along the upper road (rows 5-6) which bypasses the trees and ledges completely.
+
 <hr>
