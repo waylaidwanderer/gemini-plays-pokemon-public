@@ -283,9 +283,3 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Exit Ladder at (25,22):** [Verified Turn 4679] Functional ladder top at (25,22) on B2F warps up to B1F South Corridor!
 
 <hr>
-
-<h1><code>Scratchpad/B2F_Routing</code></h1>
-
-# MT. MOON TOP CORRIDOR ROUTE TO B2F EXIT
-
-<hr>
