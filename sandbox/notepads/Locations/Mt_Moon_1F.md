@@ -50,3 +50,4 @@
 - **Row 17 Rock Wall Collision at Cols 22-23:** [Verified Turn 2743] Solid purple rock wall blocks Row 17 at Cols 22-23 on 1F, enclosing Eastern Chamber. Exit is South at (24,26).
 - **(24,28) Wall Boundary:** [Verified Turn 3024] Solid rock wall face blocks South at Row 28 across Columns 20-29 on 1F.
 - **(9,19) Wall Boundary:** [Verified Turn 3059] Solid rock wall face blocks Westward movement at Column 9 on Row 19.
+- **East Wall Boundary at Column 28 (Rows 22-27):** [Verified Turn 3198] Column 28 is a solid black wall boundary face on 1F blocking Eastward movement from Column 27. Route North through Eastern Chamber is along Columns 24-27!
