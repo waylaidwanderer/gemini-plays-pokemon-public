@@ -15,12 +15,17 @@
 - **NIBBLES (Rattata):**
   - **Level:** 6
   - **Moveset:** Tackle, Tail Whip
-  - **HP:** 20 / 20
+  - **HP:** 15 / 20
   - **Status:** Healthy
 - **GUSTY (Pidgey):**
   - **Level:** 5
   - **Moveset:** Gust, Sand-Attack
   - **HP:** 19 / 19
+  - **Status:** Healthy
+- **TESLA (Pikachu):**
+  - **Level:** 3
+  - **Moveset:** ThunderShock, Growl
+  - **HP:** 15 / 15
   - **Status:** Healthy
 
 ## Inventory
