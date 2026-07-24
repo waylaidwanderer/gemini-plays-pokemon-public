@@ -123,12 +123,12 @@
 ## Party Statistics
 - **SHELLBY (Squirtle):**
   - **Level:** 11
-  - **Moveset:** Tackle, Tail Whip, Bubble
+  - **Moveset:** Tackle, Tail Whip, Quick Attack, Bubble
   - **HP:** 32 / 32
   - **Status:** Healthy
 - **NIBBLES (Rattata):**
-  - **Level:** 6
-  - **Moveset:** Tackle, Tail Whip
+  - **Level:** 7
+  - **Moveset:** Tackle, Tail Whip, Quick Attack
   - **HP:** 15 / 20
   - **Status:** Healthy
 - **GUSTY (Pidgey):**
