@@ -44,3 +44,7 @@
   - **Roster:** Weedle (Lv 9), Kakuna (Lv 9), Caterpie (Lv 9), Metapod (Lv 9)
   - **Status:** Defeated on Turn 1271.
   - **Reward:** ¥90
+- **Lass Robin:** Sits at (20, 4) originally. Engaged at (19, 4) on Turn 1278.
+  - **Roster:** Rattata (Lv 10), Nidoran♂ (Lv 10)
+  - **Status:** Defeated on Turn 1289.
+  - **Reward:** ¥150
