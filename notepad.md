@@ -129,7 +129,7 @@
 - **NIBBLES (Rattata):**
   - **Level:** 7
   - **Moveset:** Tackle, Tail Whip, Quick Attack
-  - **HP:** 15 / 20
+  - **HP:** 17 / 22
   - **Status:** Healthy
 - **GUSTY (Pidgey):**
   - **Level:** 5
