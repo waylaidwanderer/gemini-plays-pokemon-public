@@ -57,3 +57,5 @@
 - **Potion:** 0 (used on TRUFFLE on Turn 1671)
 - **Antidote:** 2 (found 1 on Turn 576, purchased 1 at Pewter Poké Mart on Turn 1036)
 - **HP UP:** 1 (found on Turn 1554)
+- **Moon Stone:** 1 (found on Turn 1881)
+- **TM01 (Mega Punch):** 1 (found in inventory on Turn 1878)
