@@ -56,9 +56,10 @@
 
 ## Inventory
 - **Poké Balls:** 6 (used 1 to catch TRUFFLE on Turn 1482)
-- **Potion:** 0 (used on TRUFFLE on Turn 1671)
+- **Potion:** 1 (used on TRUFFLE on Turn 1671, found 1 at (2, 20) on Mt. Moon 1F on Turn 2068)
 - **Antidote:** 2 (found 1 on Turn 576, purchased 1 at Pewter Poké Mart on Turn 1036)
 - **HP UP:** 1 (found on Turn 1554)
 - **Moon Stone:** 1 (found on Turn 1881)
 - **TM01 (Mega Punch):** 1 (found in inventory on Turn 1878)
+- **TM12 (Water Gun):** 1 (found at (5, 32) on Mt. Moon 1F on Turn 2018)
 - **Obtained Item (TM12):** Found and retrieved TM12 (Water Gun) at (5, 32) on Mt. Moon 1F on Turn 2018.
