@@ -64,3 +64,4 @@
 - **Northbound Highway at Columns 30-31 (Rows 7-11):** [Verified Turn 5053] Columns 30-31 form a wide-open northbound highway across Rows 8-9 connecting Row 11 directly to Row 7 Top Upper Corridor! NPC located at (30,4).
 - **Solid Impassable Boundary at (13,20) & (12,20):** [Verified Turns 5136/5144] Tiles (13,20) and (12,20) are impassable cliff boundaries blocking Southward movement from (13,19) and (12,19).
 - **Solid Rock Wall Face at (23,26):** [Verified Turn 5205] Tile (23,26) is a solid purple rock wall face blocking Westward movement along Row 26 from (24,26).
+- **Col 19 Solid Rock Wall Face (Rows 26-32):** [Verified Turn 5214] Solid purple rock wall face blocks Westward movement across Column 19 on Rows 26-32. Eastern Cavern (Cols 20-25) connects to Western Cavern via Row 7 Upper Corridor.
