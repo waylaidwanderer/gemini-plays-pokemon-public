@@ -161,7 +161,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Rock Pillars/Boundaries:**
   - Row 8-9 rock wall blocks Rows 8-9 across Columns 20-29 [Verified Turn 1066].
   - Central rock pillar at Columns 32-33 (Rows 12-14) [Verified Turn 1068].
-- **Ladder at (17,11) WARPS:** [Verified Turn 1090] Functional ladder warp at (17,11) in B1F transitions map, spawning at (25,9) in B2F/lower chamber.
 - **Reciprocal Ladder Warp at (25,9):** [Verified Turn 1142] Ladder at (25,9) in B1F warps to (17,11) in B2F.
 - **East Chamber Wall at Column 26:** [Verified Turn 1148] Column 26 is solid rock wall blocking East at Rows 7-12. The (25,9) ladder chamber is bounded East by Column 26.
 - **West Chamber Wall at Column 13:** [Verified Turn 1151] Column 13 is solid rock wall blocking West at Rows 4-12.
@@ -196,6 +195,8 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Solid Impassable Boundary at (30,25):** [Verified Turn 3149] Tile (30,25) is impassable when attempting to walk East from (29,25).
 - **Solid Ledge / Wall Face at (25..31, 28):** [Verified Turn 3158] Row 28 at Columns 25-31 is a solid ledge / wall face blocking Southward movement from Row 27. Exit West from lower room is via Row 27 (Cols 29-25) back toward (15,27).
 - **Elevated Rock Cliff Wall Face (Cols 12-13):** [Verified Turn 3235] Columns 12 and 13 form a solid impassable elevated rock cliff wall face running vertically from Row 19 down to Row 27.
+- **Column 30-31 Cliff Face (Rows 20-28):** [Verified Turn 3412] Columns 30 and 31 on Mt. Moon B1F form a solid impassable blue/purple cliff face spanning Rows 20 through 28, enclosing the South-East cavern (Cols 24-29, Rows 22-27).
+
 
 <hr>
 
