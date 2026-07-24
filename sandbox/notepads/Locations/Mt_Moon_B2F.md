@@ -37,3 +37,4 @@
 - **Row 12 Bypass at (23,12):** [Verified Turn 4585] Row 12 is open brown floor across Cols 20-24. Column 23 rock wall ends at Row 11. Passage West from (24,12) to Column 21 is via Row 12 (23,12).
 - **Row 12 Wall Face at (24,12):** [Verified Turn 4587] Tile (24,12) is solid blue rock wall face.
 - **Row 7 Elevation Stairs at (28,7)-(29,7):** [Verified Turn 4589] Tiles (28,7) and (29,7) are stairs connecting Row 8 up to Row 7. Tile (27,7) is solid rock wall face.
+- **Row 12 Wall Face at (32,12):** [Verified Turn 4614] Tile (32,12) is solid blue rock wall face.
