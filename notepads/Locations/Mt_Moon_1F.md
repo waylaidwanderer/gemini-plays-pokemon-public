@@ -37,3 +37,6 @@
 - **Row 13 Wall Boundary:** [Verified Turn 2376] Rock wall at Row 13 spans Columns 24-27 only. Columns 28-30 are open floor connecting Row 15 to Row 11. To go North from Eastern Corridor, walk East to Column 28, then North to Row 11.
 - **Ladder at (25,15):** [Verified Turn 2376] Non-functional/decorative tile graphic at (25,15). Does not warp.
 - **Row 8-9 Rock Wall (Cols 18-29):** [Verified Turn 2410] Solid rock wall face blocks Rows 8-9 across Columns 18 through 29. Column 30+ is open floor connecting Row 10 North to Row 7 upper corridor.
+- **CRITICAL WARP PAIRS:**
+  - 1F (13,27) <-> B1F (15,27) [Main Path to B1F & B2F Main Cavern]
+  - 1F (17,11) <-> B2F (25,9) [Side Room Loop with TM01 Mega Punch]
