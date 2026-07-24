@@ -14,5 +14,6 @@
   - **Roster:** Clefairy (Lv 14)
   - **Status:** Defeated on Turn 1448.
 - **Team Rocket Grunt:** Standing at (15, 24).
-  - **Roster:** Sandshrew (Lv 11)
-  - **Status:** In progress.
+  - **Roster:** Sandshrew (Lv 11), Rattata (Lv 11), Zubat (Lv 11)
+  - **Status:** Defeated on Turn 1529.
+  - **Reward:** ¥330
