@@ -293,5 +293,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Row 7 Elevation Stairs at (28,7)-(29,7):** [Verified Turn 4589] Tiles (28,7) and (29,7) are stairs connecting Row 8 up to Row 7. Tile (27,7) is solid rock wall face.
 - **Row 12 Wall Face at (32,12):** [Verified Turn 4614] Tile (32,12) is solid blue rock wall face.
 - **Exit Ladder at (25,22):** [Verified Turn 4679] Functional ladder top at (25,22) on B2F warps up to B1F South Corridor!
+- **Solid Rock Wall Face at (21,12):** [Verified Turn 5466] Tile (21,12) is a solid rock wall face blocking Southward movement along Column 21 from (21,11). Open South passage is via Column 24/25.
 
 <hr>
