@@ -27,5 +27,5 @@
 - **Row 20-21 Rock Wall (Cols 14-19):** [Verified Turn 2316] Solid rock wall blocks North at Rows 20-21 across Columns 14-19. Columns 10-11 on the far West side provide the open vertical highway connecting South Corridor (Row 26) to Top Corridor.
 - **Row 8 Solid Rock Wall (Cols 20-29):** [Verified Turn 2452] Solid blue rock wall face blocks Southward movement at Row 8 across Columns 20 through 29. Column 30 is the open vertical corridor connecting Row 7 to Row 10.
 - **Column 12-13 Rock Pillar (Rows 23-28):** [Verified Turn 2488] Columns 12-13 are a solid rock pillar face across Rows 23 through 28, blocking Westward movement along South Corridor at Row 27. Column 14/15 is the open vertical highway North connecting Row 27 up to Upper Cavern (Rows 18-21).
-- **Item Ball at (15,22):** [Spotted Turn 2497] Item Ball graphic located at (15,22) in Upper Cavern section of B1F.
+- **Rocket Grunt at (15,22):** [Verified Turn 2501] Rocket Grunt located at (15,22) in Upper Cavern section of B1F.
 - **Row 26 Ladder Bypass:** [Verified Turn 2496] To bypass (15,27) ladder when spawning at B1F (15,27), step Up to Row 26 at (14,26) and walk East along Row 26.
