@@ -228,6 +228,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **(13,27) Wall Boundary:** [Verified Turn 4902] Solid rock wall face at (13,27) blocks Westward movement along Row 27 on B1F.
 - **(14,28) Wall Boundary:** [Verified Turn 4954] Solid rock wall face at (14,28) blocks Southward movement from (14,27) on B1F.
 - **Elevated Platform Wall at (12..13, 18..27):** [Verified Turn 4996] Checkered platform face blocks Columns 12-13 across Rows 18-27. B1F South Corridor (Cols 14-27, Rows 22-27) is enclosed. Primary exit is ladder at (15,27) to 1F (13,27) to bypass via 1F Column 6.
+- **Row 12 Wall Boundary at Cols 24-25:** [Re-verified Turn 5081] Row 12 at (24,12) and (25,12) is an impassable south-facing wall face. Cannot walk Down from Row 11 to Row 12 at Cols 24-25. Open passage East from (24,11) is via Row 10/11 to Col 28-29.
 
 <hr>
 
