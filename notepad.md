@@ -129,7 +129,7 @@
 - **SHELLBY (Squirtle):**
   - **Level:** 15
   - **Moveset:** Tackle, Tail Whip, Bubble, Water Gun
-  - **HP:** 17 / 40
+  - **HP:** 40 / 40
   - **Status:** Healthy
 - **TESLA (Pikachu):**
   - **Level:** 5
@@ -144,7 +144,7 @@
 - **NIBBLES (Rattata):**
   - **Level:** 7
   - **Moveset:** Tackle, Tail Whip, Quick Attack
-  - **HP:** 17 / 22
+  - **HP:** 22 / 22
   - **Status:** Healthy
 
 ## Inventory
