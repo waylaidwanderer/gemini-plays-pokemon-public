@@ -149,7 +149,7 @@
 
 ## Inventory
 - **Poké Balls:** 7 (purchased 5 at Pewter Poké Mart on Turn 1033)
-- **Potion:** 1 (purchased 2 at Pewter Poké Mart on Turn 1035, used 1 on Turn 1067)
+- **Potion:** 0 (purchased 2 at Pewter Poké Mart on Turn 1035, used 1 on Turn 1067, used 1 on Turn 1089)
 - **Antidote:** 2 (found 1 on Turn 576, purchased 1 at Pewter Poké Mart on Turn 1036)
 
 <hr>
