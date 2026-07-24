@@ -40,3 +40,7 @@
   - **Roster:** Rattata (Lv 11), Ekans (Lv 11)
   - **Status:** Defeated on Turn 1184.
   - **Reward:** ¥165
+- **Bug Catcher James:** Sits at (19, 5) originally. Engaged at (18, 5) on Turn 1248.
+  - **Roster:** Weedle (Lv 9), Kakuna (Lv 9), Caterpie (Lv 9), Metapod (Lv 9)
+  - **Status:** Defeated on Turn 1271.
+  - **Reward:** ¥90
