@@ -175,6 +175,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Complete B1F Route to Ladder (25,9):** [Verified Turn 2554] From (15,27) spawn: Walk to Col 15, North to Row 18 (15,18), West along Row 18 to Col 10 (10,18) (bypassing Col 12-13 rock pillar), North along Col 10 to Row 7 (10,7), East along Row 7 to Col 25 (25,7), South to (25,9) ladder.
 - **B1F South Corridor Isolation:** [Verified Turn 2579] B1F South Corridor (Cols 14-29, Rows 24-27) is enclosed by Row 20-25 rock walls and Col 12-13 / Col 30-31 pillars. Only exit is ladder at (15,27) up to 1F (13,27).
 - **Row 21 Wall Collision at (22,21):** [Verified Turn 2578] Solid rock wall face at (22,21) blocks Westward movement along Row 21.
+- **B1F Map Boundary West at Col 10:** [Verified Turn 2594] Column 10 is the westmost edge of Mt. Moon B1F. Columns 2-9 do not exist on B1F.
 
 <hr>
 
