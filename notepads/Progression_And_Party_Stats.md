@@ -6,6 +6,7 @@
 - **Caught First Companion:** Caught NIBBLES (Rattata, Level 3) on Route 1 on Turn 318.
 - **Caught Second Companion:** Caught GUSTY (Pidgey, Level 3) on Route 1 on Turn 350.
 - **Caught Third Companion:** Caught TESLA (Pikachu, Level 3) in Viridian Forest on Turn 894.
+- **Caught Fourth Companion:** Caught TRUFFLE (Paras, Level 10) on Mt. Moon B1F on Turn 1482.
 - **Defeated Gym Junior Trainer:** Defeated Pewter Gym Junior Trainer on Turn 979.
 - **Defeated Gym Leader Brock:** Defeated Pewter Gym Leader Brock on Turn 1024, obtaining the BOULDERBADGE and TM34 (Bide).
 - **Pewter Poké Mart Shopping:** Purchased Poké Balls, Potions, and Antidote on Turn 1033.
