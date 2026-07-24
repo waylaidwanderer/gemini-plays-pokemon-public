@@ -1,6 +1,9 @@
-# MT. MOON COMPLETE EXIT ROUTE
+# MT. MOON COMPLETE ZIG-ZAG EXIT ROUTE
 
-1. **B1F South Corridor to Western Highway:** From B1F (15,27), walk Left 4 steps along Row 27 to Column 11 at (11,27).
-2. **Western Highway to B1F Top Corridor:** Walk North up Column 11 (11,27 -> 11,2) to reach B1F Top Corridor (Rows 2-7).
-3. **Top Corridor to B2F Main Cavern:** From B1F Top Corridor, navigate East along Row 7/10 to (25,9) ladder to warp down to B2F Main Cavern!
-4. **B2F Main Cavern to Exit:** In B2F Main Cavern, follow South Highway (Cols 20-21) South to Bottom Cavern, pass Super Nerd to Fossils, take True Exit Ladder to Route 4 East!
+1. **B1F -> 1F Ladder:** From B1F (25,22), walk Down to (25,27), Left along Row 27 to (15,27) ladder. Warp UP to 1F (13,27).
+2. **1F South Corridor to Col 24:** From 1F (13,27), walk Right along Row 27 to (24,27), then Up to (24,26).
+3. **1F Zig-Zag Bypass (Row 26 -> Col 20 -> Row 24 -> Col 6):**
+   - From (24,26), walk Left along Row 26 to (20,26) [bypasses Row 24 wall at Cols 22-23].
+   - From (20,26), walk Up 2 steps to (20,24).
+   - From (20,24), walk Left along Row 24 to (6,24) [bypasses Row 26 wall at Cols 16-19].
+4. **Col 6 to Western Chamber & Exit:** From (6,24), walk Up Column 6 to Western Chamber (Rows 16-20), cross to upper caverns and Route 4 East exit!
