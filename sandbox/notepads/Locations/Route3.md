@@ -11,8 +11,7 @@
 - **Ledges:** 
   - Row 7 has a horizontal one-way ledge facing down, blocking northward movement.
   - Row 12 has a horizontal ledge.
-- **NPCs/Trainers:**
-  - An NPC (green hair, green shirt) is visible at (10, 6), which is on the path above the ledge at row 7.
+
 - **Ledge Barrier at Row 11 / Access to Eastern Area:**
   - **Ledge Blockage:** Row 11 has a horizontal ledge blocking Columns 10-14 and Columns 16-19.
   - **Tree Blockage:** Column 17 contains a solid vertical row of trees from row 6 to row 11, blocking direct horizontal transit on rows 8-10.
@@ -38,5 +37,6 @@
   - **Status:** Defeated on Turn 1161.
   - **Reward:** ¥100
 - **Youngster Ben:** Sits at (14, 4) originally, walked to (14, 5). Engaged at (14, 6) on Turn 1166.
-  - **Roster:** Rattata (Lv 11), Spearow (Lv 11)
-  - **Status:** In Progress (Currently fighting).
+  - **Roster:** Rattata (Lv 11), Ekans (Lv 11)
+  - **Status:** Defeated on Turn 1184.
+  - **Reward:** ¥165
