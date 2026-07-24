@@ -140,31 +140,31 @@
 ## Party Statistics
 - **SHELLBY (Wartortle):**
   - **Level:** 19
-  - **Moveset:** Tackle (35/35 PP), Tail Whip (30/30 PP), Bubble (18/30 PP), Water Gun (21/25 PP)
-  - **HP:** 0 / 54
-  - **Status:** Fainted
+  - **Moveset:** Tackle (35/35 PP), Tail Whip (30/30 PP), Bubble (30/30 PP), Water Gun (25/25 PP)
+  - **HP:** 54 / 54
+  - **Status:** Healthy
 - **TRUFFLE (Paras):**
   - **Level:** 11
-  - **Moveset:** Scratch (30/35 PP)
+  - **Moveset:** Scratch (35/35 PP)
   - **Stats:** Attack 24, Defense 17, Speed 13, Special 18
-  - **HP:** 7 / 30
+  - **HP:** 30 / 30
   - **Status:** Healthy
 - **TESLA (Pikachu):**
-  - **Level:** 7
-  - **Moveset:** ThunderShock (28/30 PP), Growl (40/40 PP)
-  - **Stats:** Attack 11, Defense 9, Speed 17, Special 11
-  - **HP:** 8 / 23
+  - **Level:** 8
+  - **Moveset:** ThunderShock (30/30 PP), Growl (40/40 PP)
+  - **Stats:** Attack 12, Defense 10, Speed 19, Special 12
+  - **HP:** 24 / 24
   - **Status:** Healthy
 - **GUSTY (Pidgey):**
   - **Level:** 5
   - **Moveset:** Gust, Sand-Attack
-  - **HP:** 0 / 19
-  - **Status:** Fainted
+  - **HP:** 19 / 19
+  - **Status:** Healthy
 - **NIBBLES (Rattata):**
   - **Level:** 7
   - **Moveset:** Tackle, Tail Whip, Quick Attack
-  - **HP:** 0 / 22
-  - **Status:** Fainted
+  - **HP:** 22 / 22
+  - **Status:** Healthy
 
 ## Inventory
 - **Poké Balls:** 6 (used 1 to catch TRUFFLE on Turn 1482)
