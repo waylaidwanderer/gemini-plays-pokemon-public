@@ -47,3 +47,4 @@
 - **Row 26 Rock Wall at Col 16-19:** [Verified Turn 2727] Solid rock wall face blocks Row 26 at Col 16-19. Row 24 is the open corridor connecting Col 10 to Col 20.
 - **Row 24 Rock Wall at Col 22-23:** [Verified Turn 2729] Solid rock wall face blocks Row 24 at Col 22-23. Row 26 (Cols 20-25) is the open corridor connecting Col 20 East to Col 24.
 - **Functional Ladder at (13,27):** [Verified Turn 2752] Ladder at (13,27) on 1F warps down to B1F at (15,27) (Main Path).
+- **Row 17 Rock Wall Collision at Cols 22-23:** [Verified Turn 2743] Solid purple rock wall blocks Row 17 at Cols 22-23 on 1F, enclosing Eastern Chamber. Exit is South at (24,26).

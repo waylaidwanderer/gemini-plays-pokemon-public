@@ -138,6 +138,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Row 26 Rock Wall at Col 16-19:** [Verified Turn 2727] Solid rock wall face blocks Row 26 at Col 16-19. Row 24 is the open corridor connecting Col 10 to Col 20.
 - **Row 24 Rock Wall at Col 22-23:** [Verified Turn 2729] Solid rock wall face blocks Row 24 at Col 22-23. Row 26 (Cols 20-25) is the open corridor connecting Col 20 East to Col 24.
 - **Functional Ladder at (13,27):** [Verified Turn 2752] Ladder at (13,27) on 1F warps down to B1F at (15,27) (Main Path).
+- **Row 17 Rock Wall Collision at Cols 22-23:** [Verified Turn 2743] Solid purple rock wall blocks Row 17 at Cols 22-23 on 1F, enclosing Eastern Chamber. Exit is South at (24,26).
 
 <hr>
 
@@ -182,6 +183,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Row 21 Wall Collision at (22,21):** [Verified Turn 2578] Solid rock wall face at (22,21) blocks Westward movement along Row 21.
 - **B1F Map Boundary West at Col 10:** [Verified Turn 2594] Column 10 is the westmost edge of Mt. Moon B1F. Columns 2-9 do not exist on B1F.
 - **South Corridor True Coordinates:** [Verified Turn 2646] Rows 28-30 across Columns 20-25 form the open floor South Corridor extending West under the Row 24-27 rock wall face. Row 26/27 at Cols 20-23 is solid rock wall face.
+- **Row 25 Solid Rock Wall Face (Cols 10-23):** [Verified Turn 2758] Solid purple rock wall face blocks Row 25 across Columns 10 through 23 on B1F. Column 15 does NOT connect North past Row 25. Exit North from South Corridor is at Columns 24-25.
 
 <hr>
 
