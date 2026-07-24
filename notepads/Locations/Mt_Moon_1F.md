@@ -20,7 +20,7 @@
 - Rocket Grunt at (15,23) [Defeated Turn 1044 - Lv 11 Sandshrew, Rattata, Zubat].
 
 - Picked up Item Ball at (25,21) [Turn 1332 - Escape Rope].
-- **West Wall at (13,24):** [Verified Turn 1346] Tile (13,24) is blocked by a rock wall.
+
 - **Row 19 Central Block:** [Updated Turn 1711] Columns 22-23 form a solid rock wall across Rows 14-25, separating the Eastern Chamber (Cols 24-27) from Central Alcove (Cols 20-21).
 - **Enclosed Platform at (25,21):** [Verified Turn 1364] Stairs at (25,23) lead up to platform at (25,21), which is bounded North by Row 20 wall. Exit platform down stairs to Row 24.
 - **Row 28 Boundary (Columns 25-31):** [Verified Turn 1371] Solid rock wall blocks South at Row 28 across Columns 25-31.
