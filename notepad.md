@@ -440,3 +440,18 @@
 - **History:** This visual misreading occurred on Turn 1034 (reading ¥170 as ¥1701, or ¥1701 as ¥17011) and was repeated on Turn 1222 (reading ¥401 as ¥4011). Creating this permanent documentation prevents future hallucinations of this border pattern.
 
 <hr>
+
+<h1><code>Locations/MtMoon_B1F</code></h1>
+
+# Mt. Moon B1F
+
+## Platform 1 (Middle-Right)
+- **Access:** Ladder from Mt. Moon 1F at (25, 15).
+- **Landing:** Mt. Moon B1F at (25, 15).
+- **Layout:**
+  - Walkable floor columns 24-27, rows 14-27.
+  - Connecting corridor at row 26/27 going left to columns 20-23.
+- **Items:** None found so far.
+- **Trainers:** None found so far.
+
+<hr>
