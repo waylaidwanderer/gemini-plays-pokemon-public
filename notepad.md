@@ -519,6 +519,6 @@
 - **Poké Ball (Top-Right):** Sits at (29, 5).
 
 ## Trainers
-- **Team Rocket Grunt:** Sits at (29, 11).
+- **Team Rocket Grunt:** Sits at (29, 11). Engaged on Turn 1674.
 
 <hr>
