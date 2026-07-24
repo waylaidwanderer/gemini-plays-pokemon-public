@@ -15,7 +15,7 @@
 - **NIBBLES (Rattata):**
   - **Level:** 6
   - **Moveset:** Tackle, Tail Whip
-  - **HP:** 18 / 18
+  - **HP:** 16 / 20
   - **Status:** Healthy
 - **GUSTY (Pidgey):**
   - **Level:** 5
@@ -25,6 +25,6 @@
 
 ## Inventory
 - **Poké Balls:** 4 (3 used to catch NIBBLES, 5 used to catch GUSTY, 2 purchased on Turn 387)
-- **Potion:** 3 (3 purchased on Turn 715)
+- **Potion:** 2 (3 purchased on Turn 715)
 
 
