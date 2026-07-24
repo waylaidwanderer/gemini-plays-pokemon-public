@@ -45,7 +45,7 @@
 - **Solid Rock Wall Face at (30,22)-(34,22):** [Verified Turn 3144] Tiles (30,22) through (34,22) are solid rock wall faces. Column 30 does NOT lead North from Row 22. Eastern corridor route to Top Corridor is via Columns 35-37!
 - **Solid Impassable Boundary at (30,25):** [Verified Turn 3149] Tile (30,25) is impassable when attempting to walk East from (29,25).
 - **Solid Ledge / Wall Face at (25..31, 28):** [Verified Turn 3158] Row 28 at Columns 25-31 is a solid ledge / wall face blocking Southward movement from Row 27. Exit West from lower room is via Row 27 (Cols 29-25) back toward (15,27).
-- **Elevated Rock Cliff Wall Face (Cols 12-13):** [Verified Turn 3235] Columns 12 and 13 form a solid impassable elevated rock cliff wall face running vertically from Row 19 down to Row 27.
+
 - **Column 30-31 Cliff Face (Rows 20-28):** [Verified Turn 3412] Columns 30 and 31 on Mt. Moon B1F form a solid impassable blue/purple cliff face spanning Rows 20 through 28, enclosing the South-East cavern (Cols 24-29, Rows 22-27).
 
 - **Elevated Rock Cliff Wall Face (Cols 12-13):** [Verified Turn 3235 & 3495] Columns 12 and 13 form a solid impassable elevated rock cliff wall face running vertically from Row 19 down to Row 27.
