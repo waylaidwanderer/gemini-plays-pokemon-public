@@ -92,3 +92,4 @@
 - **Solid Rock Wall Face at (24,17):** [Verified Turn 5907] Solid purple rock wall face blocks Westward movement along Row 17 at (24,17).
 - **Solid Rock Wall Face at (35,16):** [Verified Turn 5913] Solid purple rock wall face blocks Eastward movement at (35,16). Eastbound bypass to Column 36 is Row 14 (34,14 -> 35,14 -> 36,14).
 - **Solid Rock Wall Face at (34,15):** [Verified Turn 5914] Solid purple rock wall face blocks Upward movement at (34,15). Southbound bypass to Row 19 is open floor at (34,19 -> 35,19 -> 36,19).
+- **Elevation Stairs at (32..33, 15):** [Verified Turn 5916] Elevation stairs at (32..33, 15) connect Row 16 floor to Row 14 floor. Row 14 is open floor across Cols 32-36 connecting directly to Column 36 Eastern Highway.
