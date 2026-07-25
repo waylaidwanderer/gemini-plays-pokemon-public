@@ -164,6 +164,8 @@
 - **Defeated Jr. Trainer♂ (Route 24 Grass):** Defeated Jr. Trainer♂ on Turn 4992, earning ¥280.
 - **Truffle Leveled Up:** TRUFFLE (Paras) reached Level 13 and learned STUN SPORE on Turn 5032.
 - **Tesla Leveled Up:** TESLA (Pikachu) reached Level 11 on Turn 5052.
+- **Tesla Leveled Up:** TESLA (Pikachu) reached Level 12 on Turn 5205.
+- **Defeated Swimmer Horatio (Cerulean Gym):** Defeated Swimmer at (5, 7) inside Cerulean Gym on Turn 5210, earning ¥80.
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
@@ -173,16 +175,16 @@
   - **HP:** 74 / 74
   - **Status:** Healthy
 - **TRUFFLE (Paras):**
-  - **Level:** 14
+  - **Level:** 13
   - **Moveset:** Scratch (35/35 PP), Dig (10/10 PP), Stun Spore (30/30 PP)
   - **Stats:** Attack 27, Defense 20, Speed 15, Special 21
-  - **HP:** 36 / 36 (Estimated at L14)
+  - **HP:** 34 / 34
   - **Status:** Healthy
 - **TESLA (Pikachu):**
-  - **Level:** 11
+  - **Level:** 12
   - **Moveset:** ThunderShock (30/30 PP), Growl (40/40 PP), Thunder Wave (30/30 PP)
   - **Stats:** Attack 17, Defense 13, Speed 27, Special 19
-  - **HP:** 30 / 30
+  - **HP:** 32 / 32
   - **Status:** Healthy
 - **GUSTY (Pidgey):**
   - **Level:** 5
