@@ -654,6 +654,11 @@
 | (30, 19)     | Cerulean Gym          | Cerulean Gym                              | Standard Gym interior. Misty is here. |
 | (27, 11)     | Burgled House         | Burgled House Interior                    | Messy house with footprints. Exit hole at (3, 0) inside warps to backyard at (27, 9). |
 
+## Trainers & Defeated Status
+- **Team Rocket Grunt (Burgled House Backyard):** Located at (30, 8).
+  - **Roster:** Machop (Lv 15), Drowzee (Lv 17)
+  - **Status:** Defeated on Turn 4897.
+  - **Reward:** ¥510 and TM28 (Dig).
 
 <hr>
 
