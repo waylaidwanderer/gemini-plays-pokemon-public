@@ -46,6 +46,7 @@
 - **Obtained S.S. TICKET:** Received S.S. TICKET from Bill in his Sea Cottage on Route 25 on Turn 4781.
 - **Entered Route 25:** Arrived on Route 25 on Turn 4642.
 - **Defeated Hiker Franklin:** Defeated Hiker Franklin at (8, 4) on Turn 4659, earning ¥525.
+- **Defeated Rocket Grunt (Burgled House Backyard):** Defeated Team Rocket Grunt on Turn 4897, earning ¥510 and obtaining TM28 (Dig).
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
