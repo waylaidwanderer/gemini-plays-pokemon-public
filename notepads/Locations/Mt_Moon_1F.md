@@ -100,3 +100,4 @@
 - **Open Northbound Highway at Cols 20-22 (Rows 7-14):** [Verified Turn 5946] Step-tested in person: Columns 20-22 across Rows 10-14 have no ledge or rock wall, connecting Row 14 directly North to Row 7 Top Upper Corridor!
 - **Vertical Cliff Face at Col 19/20 (Rows 5-11):** [Verified Turn 5948] Vertical cliff face blocks Westward movement from Col 20 to Col 19 across Rows 5-11.
 - **Solid Rock Wall Face at (25,15):** [Verified Turn 5952] Tile (25,15) is solid rock wall face on 1F. Westbound exit to Western 1F is Row 17 corridor (17,17 -> 10,17).
+- **Row 13 West Passage at Col 17:** [Verified Turn 5953] Row 13 is open checkered floor across Columns 17-19, connecting Column 20 West directly to Column 16 and Western 1F!
