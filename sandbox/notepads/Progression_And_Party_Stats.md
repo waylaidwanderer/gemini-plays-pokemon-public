@@ -32,8 +32,8 @@
 - **SHELLBY (Wartortle):**
   - **Level:** 22
   - **Moveset:** Tackle, Tail Whip, Bubble, Water Gun
-  - **HP:** 3 / 61
-  - **Status:** Healthy (Low HP)
+  - **HP:** 61 / 61
+  - **Status:** Healthy
 - **TRUFFLE (Paras):**
   - **Level:** 11
   - **Moveset:** Scratch (35/35 PP)
