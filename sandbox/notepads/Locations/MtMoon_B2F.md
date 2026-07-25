@@ -7,6 +7,7 @@
   - (15, 27): Bidirectional ladder. Leads up to B1F at (13, 27) (empirically verified on Turn 2807).
 - **Starting Platform & Chambers (Isolated Area):**
   - **Starting Platform:** Columns 24 to 28, rows 8 to 11. Bounded by rock walls on row 7. Row 11 is bounded by a solid rock wall on the south (row 12) and cannot be jumped down.
+  - **Southwest Landing Pocket (Columns 14-29, Rows 22-27):** This area is completely isolated. Bounded on the south by solid rock walls (rows 28-30), on the west by solid rock walls at columns 12-13 (rows 22-27), and on the north by a horizontal ledge on row 21 and rock walls on rows 20-21 (columns 14-29).
   - **Elevated Platform (Connecting Corridor):** Columns 24 and 25 on rows 21 to 23 form a raised platform.
     - **Staircase:** Located at columns 24 and 25, rows 23 and 24. Allows walking Up onto the platform from the ground (row 24), and walking Down from the platform.
     - **Blockage:** This platform is NOT a continuous corridor to the starting platform; it is completely blocked at row 20 by a solid rock wall running horizontally across columns 17 to 29 on B2F.
@@ -24,4 +25,4 @@
 ## Trainers
 - **Team Rocket Grunt:** Sits at (29, 11). Defeated on Turn 1716. Reward: ¥360. Roster: Zubat (Lv 12), Ekans (Lv 12).
 - **Isolated Eastern Cavern (Columns 29-35, Rows 6-11):** This room is accessed from the Starting Platform by walking east along row 11 past the Grunt and going UP. It is bounded by row 5 (wall) on the north, row 12 (wall) on the south, and column 36 (wall) on the east. It is a completely isolated dead-end area. The rock at (33, 9) is a decorative cave tile, not a real fossil. There are no fossils or Super Nerd in this eastern cavern.
-- **Accessing Main Western Area of B2F:** The starting platform is a dead end. The main area of B2F (where the real fossils and Super Nerd Miguel are located) is accessed via the southwest ladder at (15, 27), which is reached from 1F at (25, 15) via B1F at (13, 27).
+- **Accessing Main Western Area of B2F:** Both the starting platform (columns 24-28, rows 8-11) and the southwest landing pocket (columns 14-29, rows 22-27) are completely isolated dead-end areas with no physical exits to the main central/western cavern. The southwest pocket is blocked on the left by columns 12-13 (which form solid rock walls on rows 22-27) and on the north by a horizontal ledge on row 21. Therefore, the main cavern can only be accessed via the northwest B1F (21, 17) ladder, which connects from 1F (5, 5).
