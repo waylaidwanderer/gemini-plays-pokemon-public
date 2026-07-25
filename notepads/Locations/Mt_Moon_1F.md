@@ -168,3 +168,4 @@
 - **Solid Rock Wall Face at (32,21):** [Verified Turn 8178] Tile (32,21) is a solid dark blue rock wall face blocking Northward movement from (32,22). Open Eastbound bypass is Row 22 to Column 36 (32,22 -> 36,22 -> North up Col 36).
 - **Solid Rock Wall Face at (30,14):** [Verified Turn 8191] Tile (30,14) and (29,14) are solid rock wall faces blocking Westward movement along Row 14 from (31,14). Northbound bypass is Column 31 (31,14 -> 31,10) and Row 10 West.
 - **Continuous Row 11 Ledge Face (Cols 24-35):** [Verified Turn 8203] Tile (33,11) has a red south-facing ledge face line, confirming Row 11 is an impassable south-facing ledge face across Columns 24 through 35 blocking Northward movement from Row 12.
+- **Solid Rock Wall Face at (24,16):** [Verified Turn 8223] Solid purple rock wall face at (24,16) blocks Westward movement along Row 16 from (25,16). Bypass to Row 14 platform is via (26,15) elevation stairs.
