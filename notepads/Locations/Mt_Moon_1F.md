@@ -78,3 +78,5 @@
 - **Solid Rock Wall Face at (19,26):** [Verified Turn 5422] Tile (19,26) is a solid blue rock wall face blocking Southward movement from (19,25). Columns 16-19 form a solid mountain ridge across Rows 26-35.
 - **Solid Rock Wall Face at (20,19):** [Verified Turn 5442] Tile (20,19) is a south-facing mountain rock wall face blocking Northward movement along Column 20 at Row 19.
 - **Solid Rock Wall Face at (18,11):** [Verified Turn 5451] Tile (18,11) is a solid rock wall face blocking Westward movement along Row 11 from Column 20.
+- **South Boundary Rock Wall Face at Rows 34-35 (Cols 27-36):** [Verified Turn 5498] Solid mountain rock wall face blocks Rows 34-35 across Columns 27 through 36 on 1F.
+- **East Boundary Rock Wall Face at Column 38 (Rows 29-35):** [Verified Turn 5499] Solid purple rock wall face blocks Column 38 across Rows 29 through 35 on 1F.
