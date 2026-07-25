@@ -129,3 +129,4 @@
 - **Bug Catcher NPC at (11,16):** [Verified Turn 6682] Bug Catcher NPC standing at (11,16) blocks Westward movement along Row 16 on 1F. Bypass is Row 17 (13,16 -> 13,17 -> 10,17).
 - **Rock Wall Block at (29..30, 12..15):** [Verified Turn 6703] Solid rock wall face blocks Rows 12-15 across Columns 29-30. Northbound bypass is Row 10 corridor (31,14 -> 31,10 -> 25,10 -> 25,9).
 - **Solid Rock Wall Face at (10,18):** [Verified Turn 6746] Solid rock wall face blocks Southward movement along Column 10 from (10,17). Route South from Row 17 is Column 6 (6,17 -> 6,24).
+- **Solid Rock Wall Face at (29,11):** [Verified Turn 6773] Solid rock wall face blocks Eastward movement from (28,11) to (29,11).
