@@ -89,3 +89,4 @@
 - **Solid Rock Wall Face at (23,7):** [Verified Turn 5831] Tile (23,7) is a solid rock wall face blocking Eastward movement along Row 7 from (22,7).
 - **Bottom-Right Cavern (Cols 28-34, Rows 28-32):** [Verified Turn 5886] Dead-end chamber; contains no ladder or exit.
 - **Row 11 Ledge at Cols 31-35:** [Verified Turn 5895] Row 11 has a south-facing ledge face across Cols 31-35. Northbound bypass is Column 28 (via Row 16 elevation stairs at (27,15) -> (27,14) -> (28,14) -> (28,7)).
+- **Solid Rock Wall Face at (24,17):** [Verified Turn 5907] Solid purple rock wall face blocks Westward movement along Row 17 at (24,17).
