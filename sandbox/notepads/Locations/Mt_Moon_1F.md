@@ -95,3 +95,4 @@
 - **Elevation Stairs at (32..33, 15):** [Verified Turn 5916] Elevation stairs at (32..33, 15) connect Row 16 floor to Row 14 floor. Row 14 is open floor across Cols 32-36 connecting directly to Column 36 Eastern Highway.
 - **Row 11 Ledge Face at Cols 36-38:** [Verified Turn 5921] Tile (36,11) through (38,11) has a south-facing ledge face. Rows 8-10 at Cols 36-39 are solid rock wall.
 - **Vertical Cliff Face at Col 31 (Rows 20-24):** [Verified Turn 5924] Vertical cliff face blocks Westward movement from Col 32 to Col 31 on Rows 20-24. Southbound bypass is Row 26 (32,26 -> 28,26).
+- **Vertical Cliff Face at Col 31 (Rows 25-28):** [Verified Turn 5929] Vertical cliff face extends down Col 31 through Row 28. Route West from Col 32 is North via Col 32 (32,26 -> 32,16).
