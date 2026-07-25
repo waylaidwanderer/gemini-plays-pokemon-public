@@ -578,7 +578,7 @@
   - (21, 17): Leads up to B1F at (21, 17) (accessed from the vertical chamber).
   - (15, 27): Bidirectional ladder. Leads up to B1F at (13, 27) (empirically verified on Turn 2807).
 - **Starting Platform & Chambers (Isolated Area):**
-  - **Starting Platform:** Columns 24 to 28, rows 8 to 11. Bounded by rock walls on row 7. Elevated above row 12 by an impassable one-way ledge/cliff face on row 11 (columns 24-28). You can jump down to row 12, but cannot walk back Up.
+  - **Starting Platform:** Columns 24 to 28, rows 8 to 11. Bounded by rock walls on row 7. Row 11 is a solid wall at the bottom of the starting platform, blocking all downward traversal to row 12, making the platform a complete dead-end.
   - **Elevated Platform (Connecting Corridor):** Columns 24 and 25 on rows 21 to 23 form a raised platform.
     - **Staircase:** Located at columns 24 and 25, rows 23 and 24. Allows walking Up onto the platform from the ground (row 24), and walking Down from the platform.
     - **Blockage:** This platform is NOT a continuous corridor to the starting platform; it is completely blocked at row 20 by a solid rock wall running horizontally across columns 17 to 29 on B2F.
