@@ -49,3 +49,4 @@
 - **Row 29-30 Rock Wall Barrier (Cols 21-30):** [Verified Turn 6296] Solid purple rock wall face blocks Rows 29 and 30 across Columns 21 through 30. Column 32 (32,29-30) is the open vertical corridor connecting South Row 32 to North Rows 22-28.
 - **Exit Ladder Warp Pair at (21,17):** [Verified Turn 6365] B2F exit ladder at (21,17) warps up to B1F at (25,22)!
 - **Decorative Ladder at (21,17):** [Verified Turn 6370] Tile (21,17) on B2F displays a ladder graphic but is non-functional/decorative. Functional exit ladder to B1F is at (25,22)!
+- **Tile (11,18) Platform Ledge Face:** [Verified Turn 6379] Tile (11,18) is a solid platform ledge face blocking Southward movement from (11,17).
