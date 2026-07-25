@@ -65,3 +65,4 @@
 - **Moon Stone:** 2 (found 1 on Turn 1881, found 1 on Turn 2932)
 - **TM01 (Mega Punch):** 1 (found in inventory on Turn 1878)
 - **TM12 (Water Gun):** 1 (found at (5, 32) on Mt. Moon 1F on Turn 2018)
+- **Defeated Team Rocket Grunt (Central B2F):** Defeated Team Rocket Grunt at (29, 17) on Mt. Moon B2F on Turn 3767, earning ¥480.
