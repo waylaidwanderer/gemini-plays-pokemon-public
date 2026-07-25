@@ -149,3 +149,4 @@
 - Row 11 Ledge Face at Col 31: [Verified Turn 7751] Tile (31,11) is a south-facing ledge face blocking Northward movement from (31,12).
 - Rock Wall Face at (24,16): [Verified Turn 7757] Solid purple rock wall face at (24,16) blocks Westward movement along Row 16 from (25,16).
 - Impassable Platform Face at (30,19): [Verified Turn 7798] Tile (30,19) is a platform wall face blocking Southward movement along Column 30 from (30,18).
+- Solid Rock Wall Face at (35..39, 25): [Verified Turn 7810] Row 25 is blocked by a solid rock wall face across Columns 35 through 39. Southbound bypass is Columns 32-34 (36,24 -> 32,24 -> South down Col 32).
