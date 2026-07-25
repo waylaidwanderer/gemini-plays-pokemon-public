@@ -148,7 +148,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Enclosed Corridor (Rows 26-27, Cols 10-27):** [Verified Turn 4755] Enclosed corridor along South edge of 1F. Primary exit to upper levels is via Column 20 North to Row 7.
 - **East Wall at Column 28 (Rows 10-18):** [Verified Turn 4783] Solid rock wall face at Column 28 blocks East from Column 27 across Rows 10-18.
 - **(15,28) Wall Boundary:** [Verified Turn 4744] Solid rock wall face at (15,28) blocks Southward movement from (15,27).
-- **(24,28) Wall Boundary:** [Verified Turn 4746] Solid rock wall face at (24,28) blocks Southward movement along Column 24 at Row 28.
+
 - **Row 15-23 Rock Wall at Cols 22-23:** [Verified Turn 4819] Solid rock wall face blocks West from Column 24 across Rows 15-23.
 - **(14,28) Wall Boundary:** [Verified Turn 4835] Solid rock wall face at (14,28) blocks Southward movement from (14,27).
 - **Solid Rock Wall Face at (28,26):** [Verified Turn 5038] Solid purple rock wall face blocks Eastward movement at (28,26) on 1F.
