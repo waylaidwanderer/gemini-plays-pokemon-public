@@ -1,172 +1,26 @@
 # Mt. Moon 1F Map & Points of Interest
 
-## Entrance & Entrance Corridor
-- **Route 4 Cave Entrance Warp at (14,35):** [Verified Turn 799] Spawns facing North at X=14, Y=35 inside Mt. Moon 1F. Exit warp to Route 4 is directly South at (14,36).
-- **Entrance Corridor:** Column 14 extends North from (14,35) into the main 1F cave chamber.
-- **Signpost at (15,23):** [Verified Turn 807] Signpost reads: "Beware! ZUBAT is a blood sucker!"
-- **Row 21 Wall Boundary:** [Verified Turn 809] Row 21 is a solid purple rock wall blocking Row 21 across Columns 10-19. Open horizontal corridor runs West/East along Row 22.
-- **Rock Pillar at (8,22)-(9,23):** [Verified Turn 814] Rock wall blocks Columns 8-9 on Rows 21-23. Passage West is via Row 24 (Columns 10-6).
-- Bug Catcher at (7,23) [Defeated Turn 822 - Lv 11 Weedle, Lv 11 Kakuna].
-- **Column 6 North Corridor:** [Verified Turn 823] Column 6 is open across Rows 20-24, connecting Row 24 around the rock wall into the western chamber.
-- Picked up Item Ball at (2,20) [Turn 825].
-- **Row 26 Central Rock Wall Face (Cols 16-23):** [Verified Turn 3641] Solid impassable rock wall face spans Columns 16 through 23 across Row 26. Passage Down from Row 25 to Row 28 is via Column 15 gap on the West or Column 24 gap on the East.
-- **Western Chamber (Rows 16-20, Columns 2-7):** [Verified Turn 825] Large open chamber in north-western section of 1F.
-- **Western Alcove Cleared:** [Verified Turn 827] Rows 16-19 west of Column 8 are solid rock wall. Western alcove (Columns 2-7, Rows 20-24) contains Item Ball (picked up) and Bug Catcher (defeated).
-- Lass at (16,23) [Defeated Turn 837 - Lv 14 Clefairy].
-- **Eastern Corridor (Row 24, Columns 17-21):** [Verified Turn 839] Open hallway on Row 24 leading East from (16,24) to (21,24).
-- **Column 22 Vertical Wall:** [Verified Turn 841] Solid purple rock wall blocks East at Column 22/23 (Rows 20-28). Path turns North along Column 21 at (21,20).
-- **Eastern Chamber (Rows 11-28, Columns 24-30):** [Verified Turn 852] Large open eastern hall. Columns 24-30 are open cave floor extending North towards top-right corner.
-- Lass at (30,6): [Defeated Turn 943 - Lv 11 Oddish, Lv 11 Bellsprout].
-- Rocket Grunt at (15,23) [Defeated Turn 1044 - Lv 11 Sandshrew, Rattata, Zubat].
+## Key Coordinates & Exit Ladders
+- **Route 4 Cave Entrance Warp at (14,35):** Spawns facing North at X=14, Y=35 inside Mt. Moon 1F. Exit warp to Route 4 is directly South at (14,36).
+- **Entrance Ladder to B1F at (15,27):** [Verified Turn 8243] Functional entrance ladder to Mt. Moon B1F located at X=15, Y=27 inside the lower central chamber.
+- **Exit Ladder Arrival Spot at (21,17):** [Verified Turn 8234] One-way warp arrival spot from B1F Exit Corridor. Does not warp down to B1F when stepped on from 1F.
+- **Side Room Warp Pair at (25,9):** 1F (25,9) <-> B2F (25,9). Stepping onto (25,9) on 1F drops player down to (25,12).
 
-- Picked up Item Ball at (25,21) [Turn 1332 - Escape Rope].
+## Geometry & Obstacles Summary
+- **Horizontal Corridor at Rows 16-17 (Cols 11-21):** Open purple floor corridor spanning Cols 11-21. Bounded North by Row 15 rock wall face and South by Row 18 cliff wall.
+- **Column 6 West Corridor (Rows 17-24):** Column 6 is the open vertical corridor connecting Row 17 (6,17) South to Row 24 (6,24), bypassing the Row 18 cliff wall across Cols 10-20.
+- **Row 24 Corridor (Cols 6-21):** Open ground floor hallway on Row 24 connecting Column 6 East to Column 10 and Column 21.
+- **South Trench (Rows 31-32, Cols 7-34):** Wide-open 2-tile horizontal trench across bottom of 1F. Connected to Row 24 via Column 10 (10,24 -> 10,32) and Column 32 (32,24 -> 32,32).
+- **Column 15 Entrance Ladder Corridor (Rows 22-27):** Open lower chamber at Cols 14-16, Rows 22-27. Bounded North by Row 21 wall face (Cols 10-23) and South by Row 29-30 rock wall (Cols 11-20). Route to (15,27) ladder is via Row 32 South Trench to Column 15 or Column 10.
+- **Row 11 Ledge Face (Cols 24-35):** [Verified Turn 8203] Continuous south-facing ledge line across Cols 24-35 blocking Northward movement from Row 12.
+- **Elevation Stairs at (26..27, 15) & (32..33, 15):** Elevation stairs connecting Row 16 ground floor up to Row 14 upper platform.
+- **Column 31 Cliff Face (Rows 20-28):** Continuous vertical cliff face blocking Westward movement from Column 32.
+- **Solid Wall Collisions:** (10,18), (15,18), (24,16), (30,14), (32,21) block multi-tile macros into those specific tiles.
 
-- **Row 19 Central Block:** [Updated Turn 1711] Columns 22-23 form a solid rock wall across Rows 14-25, separating the Eastern Chamber (Cols 24-27) from Central Alcove (Cols 20-21).
-- **Enclosed Platform at (25,21):** [Verified Turn 1364] Stairs at (25,23) lead up to platform at (25,21), which is bounded North by Row 20 wall. Exit platform down stairs to Row 24.
-- **Row 28 Boundary (Columns 25-31):** [Verified Turn 1371] Solid rock wall blocks South at Row 28 across Columns 25-31.
-
-- **Western Highway (Columns 10-11):** [Verified Turn 1383] Columns 12-13 at Rows 19-22 form a rock cliff face. Columns 10-11 are open smooth floor extending North from Row 23 to Row 18.
-- **Central Wall Boundary (Row 20-21):** Central and Eastern Row 20-21 are blocked by rock wall.
-- **Row 25 Rock Wall (Cols 10-23):** [Verified Turn 1858] Solid rock wall blocks Row 25 across Columns 10 through 23, enclosing the bottom-left corridor (Cols 10-18, Rows 26-27). Passage North opens at Column 24 (Cols 24-27).
-- **East Wall at Column 28 (Rows 13-20):** [Verified Turn 3449] Solid purple rock wall face at Column 28 blocks East from Column 27 across Rows 13-20.
-- **Eastern Upper Chamber (Rows 11-15, Cols 21-30):** [Verified Turn 1876] Large wide-open cavern spanning Rows 11-15 across Columns 21 to 30. No wall at Row 13 or Col 28 on Rows 11-15; smooth purple floor extends North past Row 11.
-
-- **Rock Wall Barrier (Cols 18-19, Rows 8-23):** [Verified Turns 2229-2249] Solid rock wall spans Columns 18-19 across Rows 8 through 23, blocking Westward passage between Column 20/21 and Column 17. Row 24 connects Column 20 to Column 17.
-- **Row 20-28 Central Wall (Cols 22-23):** [Verified Turn 2276] Solid purple rock wall face spans Columns 22-23 across Rows 20 through 28, blocking Westward passage from Column 24 to Column 21 along Row 24.
-- **Row 13 Wall Boundary:** [Verified Turn 2376] Rock wall at Row 13 spans Columns 24-27 only. Columns 28-30 are open floor connecting Row 15 to Row 11.
-- **Eastern Chamber (Cols 24-27, Rows 14-18):** [Verified Turn 2549] Enclosed side room. Exit is South at (24,26).
-- **Row 8-9 Rock Wall (Cols 18-29):** [Verified Turn 2410] Solid rock wall face blocks Rows 8-9 across Columns 18 through 29. Column 30+ is open floor connecting Row 10 North to Row 7 upper corridor.
-- **CRITICAL WARP PAIRS:**
-  - 1F (25,9) <-> B2F (25,9) [Main Path across 1F to B2F / B1F Exit Cavern]
-- **Top-Right Chamber (Cols 30-37, Rows 2-7):** [Verified Turn 5476-5478] Explored; contains Lass NPC at (30,4), but NO exit ladder.
-- **Column 17 Wall at (17,21):** [Verified Turn 2529] Solid rock wall face at (17,21) blocks Northward movement along Column 17.
-- **Row 21 Wall at Col 10:** [Verified Turn 2533] Solid rock wall face at (10,21) blocks Northward movement along Column 10. Western corridor route to Western Chamber is via Row 24 to Column 6.
-- **Elevated Platform (24,21):** [Verified Turn 2606] Elevated platform at (24,21) is enclosed by solid rock walls along Row 20 to the North, East, and West (dead end).
-- **Row 26 Rock Wall at Col 16-19:** [Verified Turn 2727] Solid rock wall face blocks Row 26 at Col 16-19. Row 24 is the open corridor connecting Col 10 to Col 20.
-- **Row 24 Rock Wall at Col 22-23:** [Verified Turn 2729] Solid rock wall face blocks Row 24 at Col 22-23. Row 26 (Cols 20-25) is the open corridor connecting Col 20 East to Col 24.
-
-- **Row 17 Rock Wall Collision at Cols 22-23:** [Verified Turn 2743] Solid purple rock wall blocks Row 17 at Cols 22-23 on 1F, enclosing Eastern Chamber. Exit is South at (24,26).
-- **(24,28) Wall Boundary:** [Verified Turn 3024] Solid rock wall face blocks South at Row 28 across Columns 20-29 on 1F.
-- **(9,19) Wall Boundary:** [Verified Turn 3059] Solid rock wall face blocks Westward movement at Column 9 on Row 19.
-- **Row 19 Rock Wall Boundary (Cols 20-23):** [Verified Turn 3328] Solid rock wall face along Row 19 across Columns 20-23 on 1F.
-- **Item Ball at (25,14):** [Verified Turn 3294] Item Ball located at (25,14) on 1F (picked up on Turn 3294).
-
-- **Mountain Wall Barrier Across Rows 20-21 (Cols 10-23):** [Verified Turn 3535] Solid purple rock wall face forms an impassable continuous barrier across Rows 20-21 from Column 10 all the way through Column 23. Northern highway on 1F is via Column 28 (Cols 28-30).
-
-- **Enclosed Corridor (Rows 26-27, Cols 10-27):** [Verified Turn 4755] Enclosed corridor along South edge of 1F. Primary exit to upper levels is via Column 20 North to Row 7.
-- **East Wall at Column 28 (Rows 10-18):** [Verified Turn 4783] Solid rock wall face at Column 28 blocks East from Column 27 across Rows 10-18.
-- **Row 15 Ledge/Stairs Face at Col 31:** [Verified Turn 6974] Tile (31,15) is an upward elevation stair/wall face blocking Downward movement from (31,14). Access down to Row 16 ground floor is via Column 32 stairs at (32,15).
-
-- **Row 15-23 Rock Wall at Cols 22-23:** [Verified Turn 4819] Solid rock wall face blocks West from Column 24 across Rows 15-23.
-
-- **Solid Rock Wall Face at (28,26):** [Verified Turn 5038] Solid purple rock wall face blocks Eastward movement at (28,26) on 1F.
-- **Northbound Highway at Columns 30-31 (Rows 7-11):** [Verified Turn 5053] Columns 30-31 form a wide-open northbound highway across Rows 8-9 connecting Row 11 directly to Row 7 Top Upper Corridor! NPC located at (30,4).
-- **Solid Impassable Boundary at (13,20) & (12,20):** [Verified Turns 5136/5144] Tiles (13,20) and (12,20) are impassable cliff boundaries blocking Southward movement from (13,19) and (12,19).
-- **Solid Rock Wall Face at (23,26):** [Verified Turn 5205] Tile (23,26) is a solid purple rock wall face blocking Westward movement along Row 26 from (24,26).
-- **Col 19 Solid Rock Wall Face (Rows 26-32):** [Verified Turn 5214] Solid purple rock wall face blocks Westward movement across Column 19 on Rows 26-32. Eastern Cavern (Cols 20-25) connects to Western Cavern via Row 7 Upper Corridor.
-- **Solid Rock Wall Face at (17..19, 24):** [Verified Turns 5299-5301] Solid dark blue rock wall face blocks Westward movement along Row 24 across Columns 17, 18, and 19.
-- **Cols 12-13 Wall Boundary True Extent (Rows 3-15):** [Verified Turn 5271] Columns 12 and 13 form a continuous rock wall face from Row 3 down through Row 15. The open Westbound passage connecting Column 14 to Column 10/Western Chamber is at Row 17 (14,17 -> 10,17).
-- **Solid Rock Wall Face at (6,18):** [Verified Turn 5274] Solid purple rock wall face blocks Southward movement from (6,17) across Rows 18-19 (Cols 2-9). Upper Western Chamber ends at Row 17 on the South.
-- **Solid Rock Wall Face at (20,34):** [Verified Turn 5325] Solid rock wall face blocks Southward movement along Column 20 at (20,34). Column 20 ends at (20,33).
-- **Solid Rock Wall Face at (21,27):** [Verified Turn 5327] Solid dark blue rock wall face blocks Northward movement along Column 21 at (21,27).
-- **Solid Rock Wall Face at (16,35):** [Verified Turn 5357] Solid rock wall face blocks Eastward movement along Row 35 at Column 16 from (15,35).
-- **Solid Rock Wall Face at (21,26):** [Verified Turn 5393] Solid purple rock wall face blocks Southward movement along Column 21 at Row 26.
-- **Mountain Wall Barrier Across Rows 18-21 (Cols 10-17):** [Verified Turn 5412] Solid purple rock wall face forms an impassable continuous barrier across Rows 18-21 from Column 10 through Column 17.
-- **Central Wall Face Across Rows 26-35 (Cols 16-19):** [Verified Turn 5422] Solid purple rock wall face blocks Rows 26-35 across Columns 16-19.
-- **Western Alcove Boundary:** [Verified Turn 5419] Western Alcove (Cols 2-7, Rows 20-24) is a dead end, bounded North by Rows 18-19 rock wall (Cols 2-9) and East by Col 8-10 rock wall (Rows 18-21).
-- **Solid Rock Wall Face at (19,26):** [Verified Turn 5422] Tile (19,26) is a solid blue rock wall face blocking Southward movement from (19,25). Columns 16-19 form a solid mountain ridge across Rows 26-35.
-- **Solid Rock Wall Face at (20,19):** [Verified Turn 5442] Tile (20,19) is a south-facing mountain rock wall face blocking Northward movement along Column 20 at Row 19.
-- **Solid Rock Wall Face at (18,11):** [Verified Turn 5451] Tile (18,11) is a solid rock wall face blocking Westward movement along Row 11 from Column 20.
-- **South Boundary Rock Wall Face at Rows 34-35 (Cols 27-36):** [Verified Turn 5498] Solid mountain rock wall face blocks Rows 34-35 across Columns 27 through 36 on 1F.
-- **East Boundary Rock Wall Face at Column 38 (Rows 29-35):** [Verified Turn 5499] Solid purple rock wall face blocks Column 38 across Rows 29 through 35 on 1F.
-
-- **Rock Boulder Pillar at (29,12)-(30,14):** [Verified Turn 5645] Solid 2x3 rock boulder face blocks (29..30, 12..14). Route East to Column 31 is via Row 15 (28,15 -> 31,15).
-- **Elevation Stairs at (32,15)-(33,15):** [Verified Turn 5662] Tile (31,15) is a solid rock wall face. Elevation stairs connecting Row 16 up to Row 14 are at (32..33, 15). Route North from Row 16 is (31,16) -> (32,16) -> (32,15) -> (32,14).
-
-- **Western Chamber East Wall Barrier at Column 8 (Rows 7-15):** [Verified Turn 5796] Solid rock wall face along Column 8 completely blocks Eastward passage from Western Chamber across Rows 7 through 15. Only exit from Western Chamber is South via Column 6 to Row 24.
-- **Solid Rock Wall Face at (23,7):** [Verified Turn 5831] Tile (23,7) is a solid rock wall face blocking Eastward movement along Row 7 from (22,7).
-- **Bottom-Right Cavern (Cols 28-34, Rows 28-32):** [Verified Turn 5886] Dead-end chamber; contains no ladder or exit.
-- **Solid Rock Wall Face at (24,17):** [Verified Turn 5907] Solid purple rock wall face blocks Westward movement along Row 17 at (24,17).
-- **Solid Rock Wall Face at (35,16):** [Verified Turn 5913] Solid purple rock wall face blocks Eastward movement at (35,16). Eastbound bypass to Column 36 is Row 14 (34,14 -> 35,14 -> 36,14).
-- **Solid Rock Wall Face at (34,15):** [Verified Turn 5914] Solid purple rock wall face blocks Upward movement at (34,15). Southbound bypass to Row 19 is open floor at (34,19 -> 35,19 -> 36,19).
-- **Row 11 Ledge Face at Cols 36-38:** [Verified Turn 5921] Tile (36,11) through (38,11) has a south-facing ledge face. Rows 8-10 at Cols 36-39 are solid rock wall.
-- **Vertical Cliff Face at Col 31 (Rows 20-24):** [Verified Turn 5924] Vertical cliff face blocks Westward movement from Col 32 to Col 31 on Rows 20-24. Southbound bypass is Row 26 (32,26 -> 28,26).
-- **Vertical Cliff Face at Col 31 (Rows 25-28):** [Verified Turn 5929] Vertical cliff face extends down Col 31 through Row 28. Route West from Col 32 is North via Col 32 (32,26 -> 32,16).
-- **Solid Impassable Boundary at (32..35, 20..21):** [Verified Turn 5930] Solid purple rock wall face blocks Northward movement along Cols 32-35 at Row 21. Route North from Col 32 is South to Row 24 (32,24) and East to Col 36 (36,24 -> 36,16).
-- **Open Northbound Highway at Cols 20-22 (Rows 7-14):** [Verified Turn 5946] Step-tested in person: Columns 20-22 across Rows 10-14 have no ledge or rock wall, connecting Row 14 directly North to Row 7 Top Upper Corridor!
-- **Vertical Cliff Face at Col 19/20 (Rows 5-21):** [Verified Turns 5948, 5953, 5954, 5978] Continuous vertical cliff face blocks Westward movement from Col 20 to Col 19 across Rows 5-21. Route to Row 32 South Passage is via Col 20 South (20,5 -> 20,14 -> 26,14 -> 26,15 stairs -> 32,16 -> 32,32 -> West to 13,27).
-- **Tile (21,17) One-Way Arrival Landing:** [Verified Turn 6573] Tile (21,17) on Mt. Moon 1F displays a ladder graphic and serves as the warp arrival spot from B1F, but stepping onto (21,17) from 1F does NOT trigger a warp back down to B1F.
-- **Row 13 West Passage at Col 17:** [Verified Turn 5953] Row 13 is open checkered floor across Columns 17-19, connecting Column 20 West directly to Column 16 and Western 1F!
-- **Row 19 Ledge at Col 20:** [Verified Turn 5955] Ledge face at Row 19 blocks Downward movement from (20,18) to (20,19). Bypass to Row 26 is via Row 14 (20,14 -> 26,14 -> 26,15 stairs -> 32,16 -> 32,26).
-- **Row 19 Ledge at Col 32:** [Verified Turn 5961] Ledge face at Row 19 blocks Downward movement from (32,18) to (32,19). Bypass South to Row 24 is via Row 14 to Column 36 Eastern Highway (32,14 -> 36,14 -> 36,24).
-- **Vertical Cliff Face at Col 31 (Rows 26-28):** [Verified Turn 5965] Vertical cliff face blocks Westward movement from (32,27) to (31,27). Exit from Bottom-Right Cavern is North via Col 36 Eastern Highway.
-- **Row 31-32 South Passage:** [Verified Turn 5985] Row 31 and Row 32 are open smooth floor passing directly under Col 31 cliff wall, connecting Bottom-Right Cavern (32,32) West to Col 28 (28,32) and Western 1F!
-- **South Trench West Exit at Cols 7-10:** [Verified Turn 5989] Columns 7-10 on Rows 28-32 are wide-open smooth purple floor, bypassing Rows 29-30 rock wall face and connecting South Trench directly North to Row 27 and (13,27) Entrance Ladder!
-- **Row 21 Platform Cliff Face (Cols 10-17):** [Verified Turn 7419] Row 21 across Columns 10-17 is a solid platform cliff face blocking Northward movement along Rows 22-24 to Row 20. Ground corridor runs East along Row 22 to Column 20.
-- **Elevated Platform Wall at (12..13, 23..28):** [Verified Turn 5991] Vertical cliff face blocks Eastward movement from Col 11 to Col 12 across Rows 23-28.
-- **Fossil Platform Ledge (Rows 7-8, Cols 12-15):** [Verified Turn 6121] Row 7 has a south-facing ledge face across Cols 12-15 blocking Upward movement from Row 8. Column 16 (16,8 -> 16,7) provides the open slope connecting Row 8 up to Row 7 Fossil Platform!
-- **Vertical Cliff Face at (12,28):** [Verified Turn 6039] Solid cliff face blocks Eastward movement from (11,28) to (12,28).
-- **Solid Rock Wall Face at (6,24):** [Verified Turn 6043] Solid purple rock wall face blocks Westward movement from (7,24) to (6,24). Western corridor/cavern floor is at Columns 7 through 11 extending North past Row 20!
-- **Row 19 Ledge at Col 15:** [Verified Turn 6052] South-facing ledge face at (15,19) blocks Southward movement from (15,18). Eastbound bypass to Col 20 is Row 17.
-- **Solid Rock Wall Face at (24..28, 11):** [Verified Turn 6446] Solid rock wall face blocks Row 11 across Columns 24 through 28. Northbound bypass is Columns 21-22 (21..22, 8..12 open floor).
-- **Solid Mountain Rock Wall Face at Row 4 (Cols 20..26):** [Verified Turn 6454] Solid rock wall blocks Row 4 across Columns 20 through 26. Top corridor passage turns West along Row 5/6 (21,6 -> 17,6).
-- **Top Alcove Dead End at Rows 2-8 (Cols 18-22):** [Verified Turn 6460] Top corridor at Rows 2-8 (Cols 18-22) is a dead-end upper alcove bounded by Row 4/5 rock walls and Col 19 rock walls. True Westbound exit corridor on 1F is Row 17 (21,17 -> 17,17 -> 10,17).
-
-- **Elevation Stairs at (26..27, 15):** [Verified Turn 6476] Elevation stairs at (26..27, 15) connect ground floor (25,15) up to upper platform (26,14/27,14). Route to South Trench is via stairs (26,15) -> upper platform (28,14) -> South down Col 28 to Row 32.
-- **Row 20 Wall Passageway at Cols 30-31:** [Verified Turn 6487] Columns 30 and 31 provide an open floor passageway through the Row 20 rock wall, connecting Row 18 down to Row 22+ toward South Trench.
-- **Column 36 Eastern Highway (Rows 14-22):** [Verified Turn 6490] Column 36 is a wide-open smooth ground floor highway running South from Row 14 through Row 22 directly to South Trench. Route from (31,18) is Up to Row 14 (31,14), East to Column 36 (36,14), and South down Column 36.
-
-- **Column 6 Barrier at Row 15:** [Verified Turn 6624] Column 6 is blocked by a solid rock wall face across Rows 14-20 at (6,14..20). Western Chamber is enclosed and does not lead North to Row 7.
-- **Row 27 Cliff Barrier at Col 12:** [Verified Turn 6626] Tile (12,27) is an elevated platform cliff face blocking Eastward passage along Row 27 from (11,27) to (15,27). Route to (15,27) ladder is South down Col 10 to Row 32 Trench (10,32), East to Col 15 (15,32), and North to (15,27) ladder.
-- **Rows 29-30 Rock Wall (Cols 11-20):** [Verified Turn 6638] Solid purple rock wall face blocks Rows 29 and 30 across Columns 11 through 20. Route between Row 32 Trench and Row 27 Ladder is via Column 10 (15,32 -> 10,32 -> 10,27 -> 15,27).
-- **Rock Wall Block at (14..17, 14..15):** [Verified Turn 6653] Solid rock wall face blocks Rows 14 and 15 across Columns 14 through 17. Bypass to Row 7 Top Corridor is via Column 13 (17,16 -> 13,16 -> 13,7).
-- **NPC Obstacle at (12,8):** [Verified Turn 6674] Static NPC sprite standing at (12,8) blocks Southward movement along Column 12 on 1F. Bypass is Column 13 (12,7 -> 13,7 -> 13,11).
-- **Bug Catcher NPC at (11,16):** [Verified Turn 6682] Bug Catcher NPC standing at (11,16) blocks Westward movement along Row 16 on 1F. Bypass is Row 17 (13,16 -> 13,17 -> 10,17).
-- **Rock Wall Block at (29..30, 12..15):** [Verified Turn 6703] Solid rock wall face blocks Rows 12-15 across Columns 29-30. Northbound bypass is Row 10 corridor (31,14 -> 31,10 -> 25,10 -> 25,9).
-- **Solid Rock Wall Face at (10,18):** [Verified Turn 6746] Solid rock wall face blocks Southward movement along Column 10 from (10,17). Route South from Row 17 is Column 6 (6,17 -> 6,24).
-- **Solid Rock Wall Face at (29,11):** [Verified Turn 6773] Solid rock wall face blocks Eastward movement from (28,11) to (29,11).
-- **Tile (25,9) One-Way Arrival Landing:** [Verified Turn 6795] Tile (25,9) on Mt. Moon 1F is a one-way landing from B1F (25,9). Stepping onto (25,9) on 1F slides/drops the player down to (25,12).
-- **Solid Rock Wall Face at (28,15):** [Verified Turn 6800] Solid rock wall face blocks Southward movement from (28,14) to (28,15). Bypass is elevation stairs at (27,15) -> (27,16).
-- **Row 15 Ledge Face at Cols 30-31:** [Verified Turn 6809] Row 15 at Cols 30-31 is a south-facing ledge face blocking Upward movement from (30,16). Northbound bypass is elevation stairs at (32,15) -> (32,14) or (27,15) -> (27,14).
-- **Solid Rock Wall Face at (35..39, 25):** [Verified Turn 6821] Row 25 is blocked by a solid rock wall face across Columns 35 through 39. Southbound bypass is Columns 32-34 (36,24 -> 32,24 -> South down Col 32).
-- **Vertical Cliff Face at Col 18 (Rows 14-20):** [Verified Turn 6858] Columns 18 and 19 form a solid elevated platform cliff face blocking Eastward movement from (17,17) to (18,17) across Rows 14 through 20. Western 1F (Cols 2-17) connects to Eastern 1F via Row 7 Top Corridor or Row 32 South Trench.
-- **Elevation Stairs at (12..13, 9):** [Verified Turn 6861] Elevation stairs at (12..13, 9) connect ground floor (13,10) up to Row 7 Top Corridor platform at (13,8/13,7).
-- **Solid Rock Wall Face at (17,7):** [Verified Turn 6864] Solid rock wall face blocks Eastward movement along Row 7 from (16,7) to (17,7).
-- **Solid Rock Wall Face at (21,29..30):** [Verified Turn 6879] Rows 29 and 30 are solid rock wall faces across Columns 11 through 27. Bypasses between South Trench (Row 32) and North 1F are Column 10 on the West and Column 32 on the East.
-
-- **Row 11 Ledge Face at Cols 24-35:** [Verified Turns 7048, 7120] Row 11 has a continuous south-facing ledge face across Cols 24 through 35 blocking Upward movement from Row 12 (including 26..35, 11).
-- **Rock Wall Boundary at (20,4):** [Verified Turn 7094] Column 20 dead-ends North at Row 5 into a solid rock wall face at (20,4).
-- **Tile (28,15) Stair Side Wall:** [Verified Turn 7193] Tile (28,15) is the side wall face of the (26,15)-(27,15) elevation stairs, blocking Downward movement from (28,14).
-- **Continuous Row 19 Platform Ledge Face (Cols 22-35):** [Verified Turn 7195] Row 19 is a continuous south-facing platform ledge face across Columns 22 through 35, blocking Downward movement from Row 18. Route to ground level below is Column 36 Eastern Highway.
-- **Continuous Vertical Cliff Face at Col 31 (Rows 20-28):** [Verified Turn 7213] Column 31 forms a continuous vertical cliff wall face blocking Westward movement from Column 32 across Rows 20 through 28.
-- **Column 22-23 Void Wall:** [Verified Turn 7318] Columns 22 and 23 across Rows 14-20 are impassable black void/cliff face, isolating Column 21 platform.
-- **Row 19 Platform Elevation:** [Verified Turn 7315] Row 19 is an elevated light purple platform. Cannot step South from Row 18 dark purple ground floor onto Row 19 without stairs.
-- **Row 14 Ground Corridor:** [Verified Turn 7334] Row 14 is open ground floor across Columns 20-28, bypassing Column 24 rock wall face below (Rows 15-18).
-- **Solid Rock Wall Face at (14,33):** [Verified Turn 7547] Tile (14,33) is a solid rock wall face blocking Southward movement along Column 14 from (14,32) into the entrance alcove.
-- Tile (25,11) Ledge Face: [Verified Turn 7610] South-facing one-way ledge face blocks Upward movement from (25,12) to (25,11).
-- Tile (31,28) Vertical Cliff Face: [Verified Turn 7670] Vertical cliff face at Column 31 blocks Westward movement along Row 28 from (32,28).
-- Row 11 Ledge Face at Col 31: [Verified Turn 7751] Tile (31,11) is a south-facing ledge face blocking Northward movement from (31,12).
-- Rock Wall Face at (24,16): [Verified Turn 7757] Solid purple rock wall face at (24,16) blocks Westward movement along Row 16 from (25,16).
-- Impassable Platform Face at (30,19): [Verified Turn 7798] Tile (30,19) is a platform wall face blocking Southward movement along Column 30 from (30,18).
-- Solid Rock Wall Face at (35..39, 25): [Verified Turn 7810] Row 25 is blocked by a solid rock wall face across Columns 35 through 39. Southbound bypass is Columns 32-34 (36,24 -> 32,24 -> South down Col 32).
-- Rock Wall Face at (6,32): [Verified Turn 7844] Solid blue rock wall face at (6,32) blocks Westward movement along Row 32 South Trench from (7,32).
-- Vertical Cliff Face at Col 18 (Rows 14-20): [Verified Turn 7856/7859] Tile (18,17) and (18,18) are platform cliff faces blocking Eastward movement from Column 17. Western 1F connects to Eastern 1F via Row 7 Top Corridor or Row 32 South Trench.
-- **Solid Rock Wall Face at (15,30):** [Verified Turn 7888] Solid blue rock wall face blocks Northward movement along Column 15 from (15,31).
-- **Solid Rock Wall Face at (31,30):** [Verified Turn 7910] Solid blue rock wall face blocks Northward movement along Column 31 from (31,31).
-- **Solid Rock Wall Face at (32,21):** [Verified Turn 7917] Solid blue rock wall face blocks Northward movement along Column 32 at Row 21.
-- **Solid Rock Wall Face at (25,20):** [Verified Turn 7937] Solid blue rock wall face blocks Southward movement along Column 25 at Row 20.
-- **Solid Rock Wall Face at (21,15):** [Verified Turn 7944] Solid blue rock wall face blocks Northward movement along Column 21 from (21,16).
-- **Elevated Platform Wall at (18..19, 17):** [Verified Turn 7948] Checkered platform face blocks Westward movement along Row 17 at (19,17). Bypass is Row 16.
-- **Column 22-23 Void Wall:** [Verified Turn 7953] Columns 22 and 23 across Rows 14-20 are impassable black void/cliff face, isolating Column 21 platform.
-- **Solid Rock Wall Face at (10,18):** [Verified Turn 7968] Solid dark blue rock wall face blocks Southward movement along Column 10 at Row 18. Route South from Row 17 is Column 6 (6,17 -> 6,24 -> 10,24).
-- **Tile (21,18) Cliff Face:** [Verified Turn 8095] Solid cliff face blocks Southward movement from (21,17).
-- **Solid Rock Wall Face at (25,15):** [Verified Turn 8104] Tile (25,15) is a solid rock wall face between (24,15) and (26,15) stairs.
-- **Tile (19,5) East Cliff Face:** [Verified Turn 8111] Solid vertical cliff face blocks Westward movement from (20,5) to (19,5) along Row 5.
-- **Elevated Platform Cliff Face at (12,22):** [Verified Turn 8129] Tile (12,22) is an impassable checkered platform cliff face blocking Eastward movement from (11,22).
-- **Vertical Cliff Face at Col 31 (Rows 20-28):** [Verified Turn 8148] Tile (31,24) is an impassable checkered vertical cliff face blocking Westward movement along Row 24 from (32,24).
-- **Elevated Platform Cliff Face at (12,24):** [Verified Turn 8166] Tile (12,24) is an impassable checkered platform cliff face blocking Eastward movement from (11,24).
-- **Solid Rock Wall Face at (32,21):** [Verified Turn 8178] Tile (32,21) is a solid dark blue rock wall face blocking Northward movement from (32,22). Open Eastbound bypass is Row 22 to Column 36 (32,22 -> 36,22 -> North up Col 36).
-- **Solid Rock Wall Face at (30,14):** [Verified Turn 8191] Tile (30,14) and (29,14) are solid rock wall faces blocking Westward movement along Row 14 from (31,14). Northbound bypass is Column 31 (31,14 -> 31,10) and Row 10 West.
-- **Continuous Row 11 Ledge Face (Cols 24-35):** [Verified Turn 8203] Tile (33,11) has a red south-facing ledge face line, confirming Row 11 is an impassable south-facing ledge face across Columns 24 through 35 blocking Northward movement from Row 12.
-- **Solid Rock Wall Face at (24,16):** [Verified Turn 8223] Solid purple rock wall face at (24,16) blocks Westward movement along Row 16 from (25,16). Bypass to Row 14 platform is via (26,15) elevation stairs.
-- **Solid Cliff Face at (15,18):** [Verified Turn 8249] Row 18 across Columns 11-20 is a solid cliff face blocking Southward movement from Row 17. Westbound exit from Row 17 corridor is Column 6 (15,17 -> 6,17 -> 6,24 -> Row 24).
+## Cleared Trainers & Items
+- Bug Catcher at (7,23) [Defeated]
+- Bug Catcher at (11,16) [Defeated]
+- Lass at (16,23) [Defeated]
+- Lass at (30,6) [Defeated]
+- Rocket Grunt at (15,23) [Defeated]
+- Item Balls collected at (2,20) and (25,21).
