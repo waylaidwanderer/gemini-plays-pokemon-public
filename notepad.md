@@ -274,11 +274,11 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 # Mt. Moon 1F Live Routing & Verification
 
-## Active Target: Entrance Ladder at (15,27)
-1. **Current Position:** (16,31) facing North.
-2. **Systematic Column Passability Testing along Row 32:**
-   - Down x1 to (16,32) South Trench.
-   - Right x4 along Row 32 to (20,32).
-   - Single-step Up x1 to test if Column 20 connects North past Row 30.
+## Active Target: Elevation Stairs at (33,15)
+1. **Current Position:** (31,13) facing West.
+2. **Elevation Stair Entry Test:**
+   - Columns 29-30 form a solid 2-column wall pillar across Rows 12-30.
+   - Walk Right x2 to (33,13), Down x1 to (33,14).
+   - Walk Down x1 onto (33,15) Elevation Stairs from North to test elevation transition!
 
 <hr>
