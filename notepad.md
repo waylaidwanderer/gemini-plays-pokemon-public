@@ -116,6 +116,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - Lass at (30,6) [Defeated]
 - Rocket Grunt at (15,23) [Defeated]
 - Item Balls collected at (2,20) and (25,21).
+- **Row 20 Rock Wall (Cols 22-29):** [Verified Turn 8275] Solid rock wall face blocks Southward movement at Row 20 across Cols 22-29. Open Southbound corridor is at Columns 30-31!
 
 <hr>
 
