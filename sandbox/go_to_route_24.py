@@ -1,19 +1,24 @@
 import mgba
 import time
 
-# We are at (16, 16).
-# The NPC is stunned at (15, 18).
-# Let's walk to Route 24 via row 19:
-# 1. Down 3 times to (16, 19)
-# 2. Left 16 times to (0, 19)
-# 3. Up 7 times to (0, 12)
-# 4. Right 20 times to (20, 12)
-# 5. Up 12 times to go north onto Route 24
-steps = ["Down"] * 3 + ["Left"] * 16 + ["Up"] * 7 + ["Right"] * 20 + ["Up"] * 12
+def move(direction, steps=1):
+    for i in range(steps):
+        mgba.press_buttons([direction])
+        time.sleep(0.15)
+        pos = mgba.get_coordinates()
+        print(f"Moved {direction}. Now at {pos}")
 
-print("Moving to Route 24 via row 19...")
-for step in steps:
-    mgba.press_buttons([step])
-    time.sleep(0.3)
+# Starting at (9, 12)
+print("Moving Right 11 steps to reach column 20...")
+move("Right", 11)
 
-print("Done!")
+print("Moving Up 13 steps to reach Route 24 transition...")
+for i in range(13):
+    mgba.press_buttons(["Up"])
+    time.sleep(0.15)
+    pos = mgba.get_coordinates()
+    print(f"Step {i} Up. Position: {pos}")
+
+print("Completed transition sequence. Taking screenshot...")
+screenshot = mgba.take_screenshot()
+print(f"Screenshot taken: {screenshot}")
