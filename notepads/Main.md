@@ -25,7 +25,7 @@
 
 ## Current Progress & Party
 - **Badges:** 1 (Boulder Badge) [Obtained from Brock on Turn 565]
-- **Starter Pokémon:** Wartortle (Lv 34) [Level 34 verified on Turn 7385; Fully Healed at Route 4 Center on Turn 7393]
+- **Starter Pokémon:** Wartortle (Lv 35) [Level 35 verified on Turn 7804; Fully Healed at Route 4 Center on Turn 7393]
   - **Nickname:** SHELLSHOCK
   - **Moves:** Tackle (35/35 PP), Bite (25/25 PP), Bubble, Water Gun
   - **HP:** 104/104 (Fully Healed at Route 4 Center on Turn 7393 after blacking out vs Hiker on Turn 7392)
