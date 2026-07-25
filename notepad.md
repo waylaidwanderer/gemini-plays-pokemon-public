@@ -182,6 +182,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Row 11 Ledge at Cols 31-35:** [Verified Turn 5895] Row 11 has a south-facing ledge face across Cols 31-35. Northbound bypass is Column 28 (via Row 16 elevation stairs at (27,15) -> (27,14) -> (28,14) -> (28,7)).
 - **Solid Rock Wall Face at (24,17):** [Verified Turn 5907] Solid purple rock wall face blocks Westward movement along Row 17 at (24,17).
 - **Solid Rock Wall Face at (35,16):** [Verified Turn 5913] Solid purple rock wall face blocks Eastward movement at (35,16). Eastbound bypass to Column 36 is Row 14 (34,14 -> 35,14 -> 36,14).
+- **Solid Rock Wall Face at (34,15):** [Verified Turn 5914] Solid purple rock wall face blocks Upward movement at (34,15). Southbound bypass to Row 19 is open floor at (34,19 -> 35,19 -> 36,19).
 
 <hr>
 
