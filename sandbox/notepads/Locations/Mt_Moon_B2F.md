@@ -42,3 +42,4 @@
 - **Column 12-13 Cliff Wall Face (Rows 19-25):** [Verified Turn 6215] Columns 12-13 form a continuous vertical cliff face running South across Rows 19-25, separating Western Cavern (Cols 7-11) from Eastern Cavern (Cols 14-25). Route from Western Cavern to Eastern Cavern/Exit Ladder (25,22) is South along Column 11 to Row 26/27 bottom passage, then East to Column 20/25.
 - **South Passage Bypass at Row 31-32:** [Verified Turn 6222] Column 12 cliff wall extends down through Row 28. Row 31/32 at (11..15, 31..32) is open smooth floor bypassing under the cliff wall to Column 15, which leads North to (15,27) Exit Ladder.
 - **Column 31 Platform Wall Face at Row 27:** [Verified Turn 6238] Tile (31,27) is a platform wall face blocking Westward movement along Row 27 from (32,27).
+- **Tile (32,25) Wall Collision:** [Verified Turn 6246] Tile (32,25) is a solid wall face blocking Northward movement along Column 32 from (32,26).
