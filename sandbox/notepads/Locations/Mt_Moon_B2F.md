@@ -39,3 +39,4 @@
 - **Row 12 Wall Face at (32,12):** [Verified Turn 4614] Tile (32,12) is solid blue rock wall face.
 - **Exit Ladder at (25,22):** [Verified Turn 4679] Functional ladder top at (25,22) on B2F warps up to B1F South Corridor!
 - **Upper Side Room Enclosure (Cols 21-25, Rows 8-11):** [Verified Turn 5469] B2F top chamber is an enclosed side room (Row 12 solid wall face across Cols 21-30). Only exit is ladder at (25,9) to B1F.
+- **Column 12-13 Cliff Wall Face (Rows 19-25):** [Verified Turn 6215] Columns 12-13 form a continuous vertical cliff face running South across Rows 19-25, separating Western Cavern (Cols 7-11) from Eastern Cavern (Cols 14-25). Route from Western Cavern to Eastern Cavern/Exit Ladder (25,22) is South along Column 11 to Row 26/27 bottom passage, then East to Column 20/25.
