@@ -603,6 +603,12 @@
 - **Team Rocket Grunt:** Sits at (29, 11). Defeated on Turn 1716. Reward: ¥360. Roster: Zubat (Lv 12), Ekans (Lv 12).
 - **Isolated Eastern Cavern (Columns 29-35, Rows 6-11):** This room is accessed from the Starting Platform by walking east along row 11 past the Grunt and going UP. It is bounded by row 5 (wall) on the north, row 12 (wall) on the south, and column 36 (wall) on the east. It is a completely isolated dead-end area. The rock at (33, 9) is a decorative cave tile, not a real fossil. There are no fossils or Super Nerd in this eastern cavern.
 
+## Newly Discovered Central Cavern Layout (Turns 3716-3753)
+- **Active Ladder at (21, 17):** Leads up to B1F at (21, 17). This provides direct access to the main northern/central cavern of B2F.
+- **Lower Walkway (Columns 24-28, Rows 11-14):** A wide-open plain purple floor area. Bounded on the north by rock walls at row 11 (except the starting platform ladder area), on the east by rock walls at column 29, and on the south by rock walls on rows 15-16.
+- **Connecting Stairs (Columns 26-27, Row 15):** A set of stairs at (26, 15) and (27, 15) that connects the lower walkway (at row 14) to the elevated checkered platform (at row 16).
+- **Elevated Checkered Platform (Columns 18-19, Rows 5-19; and columns 26-27, Rows 16+):** The elevated platform is rendered with a checkered texture and cannot be walked onto directly from the plain floor on columns 20-23 without stairs.
+
 <hr>
 
 <h1><code>notepads/Locations/MtMoon_B1F.md</code></h1>
