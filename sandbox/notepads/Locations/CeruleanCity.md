@@ -7,3 +7,4 @@
 - **Cerulean Gym (Suspected):** Large building located on the east side, north of the Mart. Sign reads "GYM" at (26, 18) / (27, 18).
 - **Poké Mart (Suspected):** Building located south of the Gym. Sign reads "MART" at (26, 24) / (27, 24) with entrance at (25, 25).
 - **Route 24 Bridge (Nugget Bridge Path):** Accessible from the north-center area.
+- Entered Cerulean Gym on Turn 4088. Current position inside Gym is (4, 13). Gym Guide is located at (7, 10).
