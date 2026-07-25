@@ -143,3 +143,4 @@
 - **Column 22-23 Void Wall:** [Verified Turn 7318] Columns 22 and 23 across Rows 14-20 are impassable black void/cliff face, isolating Column 21 platform.
 - **Row 19 Platform Elevation:** [Verified Turn 7315] Row 19 is an elevated light purple platform. Cannot step South from Row 18 dark purple ground floor onto Row 19 without stairs.
 - **Tile (21,17) Platform:** [Verified Turn 7321] Tile (21,17) is on the upper platform level, connected West across Row 17 to Column 17.
+- **Column 18-19 Elevated Cliff:** [Verified Turn 7323] Columns 18 and 19 form an elevated platform cliff face. Walking West from Column 20 (ground level) onto Column 19 at Row 17 is blocked.
