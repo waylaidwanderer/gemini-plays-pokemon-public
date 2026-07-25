@@ -115,7 +115,7 @@
 - **Solid Rock Wall Face at (24..28, 11):** [Verified Turn 6446] Solid rock wall face blocks Row 11 across Columns 24 through 28. Northbound bypass is Columns 21-22 (21..22, 8..12 open floor).
 - **Solid Mountain Rock Wall Face at Row 4 (Cols 20..26):** [Verified Turn 6454] Solid rock wall blocks Row 4 across Columns 20 through 26. Top corridor passage turns West along Row 5/6 (21,6 -> 17,6).
 - **Top Alcove Dead End at Rows 2-8 (Cols 18-22):** [Verified Turn 6460] Top corridor at Rows 2-8 (Cols 18-22) is a dead-end upper alcove bounded by Row 4/5 rock walls and Col 19 rock walls. True Westbound exit corridor on 1F is Row 17 (21,17 -> 17,17 -> 10,17).
-- **Elevated Platform Wall at (19, 14..21):** [Verified Turn 6467] Column 19 is an elevated platform cliff face blocking Westward movement from Column 20 across Rows 14 through 21.
+
 - **Elevation Stairs at (26..27, 15):** [Verified Turn 6476] Elevation stairs at (26..27, 15) connect ground floor (25,15) up to upper platform (26,14/27,14). Route to South Trench is via stairs (26,15) -> upper platform (28,14) -> South down Col 28 to Row 32.
 - **Row 20 Wall Passageway at Cols 30-31:** [Verified Turn 6487] Columns 30 and 31 provide an open floor passageway through the Row 20 rock wall, connecting Row 18 down to Row 22+ toward South Trench.
 - **Column 36 Eastern Highway (Rows 14-22):** [Verified Turn 6490] Column 36 is a wide-open smooth ground floor highway running South from Row 14 through Row 22 directly to South Trench. Route from (31,18) is Up to Row 14 (31,14), East to Column 36 (36,14), and South down Column 36.
