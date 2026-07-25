@@ -165,13 +165,13 @@
 - **SHELLBY (Wartortle):**
   - **Level:** 26
   - **Moveset:** Tackle, Tail Whip, Bite, Water Gun
-  - **HP:** 4 / 72
+  - **HP:** 72 / 72
   - **Status:** Healthy
 - **TRUFFLE (Paras):**
   - **Level:** 12
   - **Moveset:** Scratch (35/35 PP)
   - **Stats:** Attack 24, Defense 17, Speed 13, Special 18
-  - **HP:** 2 / 30
+  - **HP:** 32 / 32
   - **Status:** Healthy
 - **TESLA (Pikachu):**
   - **Level:** 10
@@ -187,8 +187,8 @@
 - **NIBBLES (Rattata):**
   - **Level:** 7
   - **Moveset:** Tackle, Tail Whip, Quick Attack
-  - **HP:** 0 / 22
-  - **Status:** Fainted
+  - **HP:** 22 / 22
+  - **Status:** Healthy
 
 <hr>
 
