@@ -151,3 +151,4 @@
 - Solid Rock Wall Face at (35..39, 25): [Verified Turn 7810] Row 25 is blocked by a solid rock wall face across Columns 35 through 39. Southbound bypass is Columns 32-34 (36,24 -> 32,24 -> South down Col 32).
 - Rock Wall Face at (6,32): [Verified Turn 7844] Solid blue rock wall face at (6,32) blocks Westward movement along Row 32 South Trench from (7,32).
 - Vertical Cliff Face at Col 18 (Rows 14-20): [Verified Turn 7856] Tile (18,18) is a platform cliff face blocking Eastward movement from (17,18). Route to Column 20 is Row 17 (17,17 -> 18,17 -> 19,17 -> 20,17).
+- Vertical Cliff Face at Col 18 (Rows 14-20): [Verified Turn 7859] Tile (18,17) is a platform cliff face blocking Eastward movement from (17,17). Western 1F (Cols 2-17) connects to Eastern 1F via Row 7 Top Corridor or Row 32 South Trench.
