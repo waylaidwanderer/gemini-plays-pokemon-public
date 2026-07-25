@@ -334,5 +334,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **South Passage Bypass at Row 31-32:** [Verified Turn 6222] Column 12 cliff wall extends down through Row 28. Row 31/32 at (11..15, 31..32) is open smooth floor bypassing under the cliff wall to Column 15, which leads North to (15,27) Exit Ladder.
 - **Column 31 Platform Wall Face at Row 27:** [Verified Turn 6238] Tile (31,27) is a platform wall face blocking Westward movement along Row 27 from (32,27).
 - **Tile (32,25) Wall Collision:** [Verified Turn 6246] Tile (32,25) is a solid wall face blocking Northward movement along Column 32 from (32,26).
+- **Tile (31,28) Rock Pillar Face:** [Verified Turn 6276] Tile (31,28) is a solid rock pillar face blocking Westward movement along Row 28. Row 27 at (31,27) is open checkered floor bypassing the pillar West to Column 25.
 
 <hr>
