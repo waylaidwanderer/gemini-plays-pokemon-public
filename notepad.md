@@ -587,6 +587,8 @@
   - **Vertical Chamber:** Columns 20 to 23, rows 14 to 19. This chamber is at the lower level and connects directly to row 12. Bounded by rock walls on columns 18-19 on the left on rows 14 to 21.
   - **Upper Niche:** Columns 20 to 22, rows 5 to 7. Bounded by rock walls on row 4, column 19, and column 23. Elevated above the vertical chamber by an impassable one-way ledge/cliff face on row 11 (columns 20-22).
   - **Wall Blockage:** Columns 18-19 form a rock wall on rows 14 to 21.
+  - **Columns 14-17 Blockage:** Columns 14-17 are blocked at rows 20-21 by a solid rock wall.
+  - **Elevated Platform (Columns 12-13):** The checkered platform at columns 12-13 is elevated, blocking direct access to the west side on row 22.
 
 ## Items
 - **Poké Ball (Top-Right):** Sits at (29, 5) (Retrieved on Turn 1722).
