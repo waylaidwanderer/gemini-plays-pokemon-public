@@ -140,3 +140,6 @@
 - **Tile (28,15) Stair Side Wall:** [Verified Turn 7193] Tile (28,15) is the side wall face of the (26,15)-(27,15) elevation stairs, blocking Downward movement from (28,14).
 - **Continuous Row 19 Platform Ledge Face (Cols 22-35):** [Verified Turn 7195] Row 19 is a continuous south-facing platform ledge face across Columns 22 through 35, blocking Downward movement from Row 18. Route to ground level below is Column 36 Eastern Highway.
 - **Continuous Vertical Cliff Face at Col 31 (Rows 20-28):** [Verified Turn 7213] Column 31 forms a continuous vertical cliff wall face blocking Westward movement from Column 32 across Rows 20 through 28.
+- **Column 22-23 Void Wall:** [Verified Turn 7318] Columns 22 and 23 across Rows 14-20 are impassable black void/cliff face, isolating Column 21 platform.
+- **Row 19 Platform Elevation:** [Verified Turn 7315] Row 19 is an elevated light purple platform. Cannot step South from Row 18 dark purple ground floor onto Row 19 without stairs.
+- **Tile (21,17) Platform:** [Verified Turn 7321] Tile (21,17) is on the upper platform level, connected West across Row 17 to Column 17.
