@@ -38,5 +38,4 @@
 - **Row 7 Elevation Stairs at (28,7)-(29,7):** [Verified Turn 4589] Tiles (28,7) and (29,7) are stairs connecting Row 8 up to Row 7. Tile (27,7) is solid rock wall face.
 - **Row 12 Wall Face at (32,12):** [Verified Turn 4614] Tile (32,12) is solid blue rock wall face.
 - **Exit Ladder at (25,22):** [Verified Turn 4679] Functional ladder top at (25,22) on B2F warps up to B1F South Corridor!
-
 - **Upper Side Room Enclosure (Cols 21-25, Rows 8-11):** [Verified Turn 5469] B2F top chamber is an enclosed side room (Row 12 solid wall face across Cols 21-30). Only exit is ladder at (25,9) to B1F.
