@@ -11,4 +11,4 @@
 - **Youngster Timmy:** Sits at (11, 25). Defeated on Turn 4501. Reward: ¥210.
 - **Lass:** Sits at (10, 22). Defeated on Turn 4514. Reward: ¥240.
 - **Jr. Trainer♂:** Sits at (11, 19). Defeated on Turn 4529. Reward: ¥360.
-- **Rocket Grunt:** Sits at (10, 15). Undefeated.
+- **Rocket Grunt:** Sits at (11, 15). Defeated on Turn 4558. Reward: ¥450.
