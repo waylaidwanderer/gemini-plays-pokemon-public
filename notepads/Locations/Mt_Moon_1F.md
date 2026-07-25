@@ -159,3 +159,4 @@
 - **Elevated Platform Wall at (18..19, 17):** [Verified Turn 7948] Checkered platform face blocks Westward movement along Row 17 at (19,17). Bypass is Row 16.
 - **Column 22-23 Void Wall:** [Verified Turn 7953] Columns 22 and 23 across Rows 14-20 are impassable black void/cliff face, isolating Column 21 platform.
 - **Solid Rock Wall Face at (10,18):** [Verified Turn 7968] Solid dark blue rock wall face blocks Southward movement along Column 10 at Row 18. Route South from Row 17 is Column 6 (6,17 -> 6,24 -> 10,24).
+- **Tile (21,18) Cliff Face:** [Verified Turn 8095] Solid cliff face blocks Southward movement from (21,17).
