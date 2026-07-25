@@ -257,11 +257,11 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 # Mt. Moon 1F Live Routing & Verification
 
-## Active Target: Entrance Ladder at (15,27) via South Trench
-1. **Current Position:** (32,22) facing Left.
-2. **South Trench Route to B1F Entrance Ladder:**
-   - Down x10 along Column 32 to South Trench at (32,32).
-   - Left x17 along Row 32 (South Trench) to (15,32).
-   - Up x5 along Column 15 to (15,27) Entrance Ladder to warp to B1F!
+## Active Target: Entrance Ladder at (15,27) via Column 11 Bypass
+1. **Current Position:** (15,31) facing Up.
+2. **Column 11 Route to Entrance Ladder at (15,27):**
+   - Left x4 along Row 31 to Column 11 at (11,31).
+   - Up x4 along Column 11 (bypassing Row 29-30 wall) to (11,27).
+   - Right x4 along Row 27 to Entrance Ladder at (15,27) to warp to B1F!
 
 <hr>
