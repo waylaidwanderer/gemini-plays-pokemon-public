@@ -49,6 +49,7 @@
 - **Defeated Rocket Grunt (Burgled House Backyard):** Defeated Team Rocket Grunt on Turn 4897, earning ¥510 and obtaining TM28 (Dig).
 - **Defeated Jr. Trainer♂ (Route 24 Grass):** Defeated Jr. Trainer♂ on Turn 4992, earning ¥280.
 - **Truffle Leveled Up:** TRUFFLE (Paras) reached Level 13 and learned STUN SPORE on Turn 5032.
+- **Tesla Leveled Up:** TESLA (Pikachu) reached Level 11 on Turn 5052.
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
