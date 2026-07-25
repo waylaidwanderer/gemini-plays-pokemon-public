@@ -162,3 +162,5 @@
 - **Tile (21,18) Cliff Face:** [Verified Turn 8095] Solid cliff face blocks Southward movement from (21,17).
 - **Solid Rock Wall Face at (25,15):** [Verified Turn 8104] Tile (25,15) is a solid rock wall face between (24,15) and (26,15) stairs.
 - **Tile (19,5) East Cliff Face:** [Verified Turn 8111] Solid vertical cliff face blocks Westward movement from (20,5) to (19,5) along Row 5.
+- **Elevated Platform Cliff Face at (12,22):** [Verified Turn 8129] Tile (12,22) is an impassable checkered platform cliff face blocking Eastward movement from (11,22).
+- **Vertical Cliff Face at Col 31 (Rows 20-28):** [Verified Turn 8148] Tile (31,24) is an impassable checkered vertical cliff face blocking Westward movement along Row 24 from (32,24).
