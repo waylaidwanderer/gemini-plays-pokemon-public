@@ -275,10 +275,10 @@ Route 3 is structured into 3 horizontal elevation tiers:
 # Mt. Moon 1F Live Routing & Verification
 
 ## Active Target: Entrance Ladder at (15,27)
-1. **Current Position:** (10,29) facing Down.
-2. **Empirical South Trench Testing Plan:**
-   - Walk Down x3 to (10,32) South Trench Junction.
-   - Walk East along Row 32 South Trench.
-   - Systematically test single-step North up each column (Col 14, Col 16, Col 21) to find the verified open entrance to the (15,27) Entrance Ladder chamber.
+1. **Current Position:** (16,31) facing North.
+2. **Systematic Column Passability Testing along Row 32:**
+   - Down x1 to (16,32) South Trench.
+   - Right x4 along Row 32 to (20,32).
+   - Single-step Up x1 to test if Column 20 connects North past Row 30.
 
 <hr>
