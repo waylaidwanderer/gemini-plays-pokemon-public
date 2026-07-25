@@ -2,8 +2,8 @@
 
 # Mt. Moon 1F Live Routing & Verification
 
-## Active Target: Entrance Ladder at (15,27) via Column 15 Southbound
-1. **Current Position:** (15,17) on Column 15 facing Up.
-2. **Immediate Single-Step Verification Leg:**
-   - Walk Down x3 along Column 15 from (15,17) to (15,20) and verify tile passability.
-   - Walk Down x7 along Column 15 from (15,20) to Entrance Ladder at (15,27) to warp to B1F!
+## Active Target: Entrance Ladder at (15,27) via Column 10 South Trench Route
+1. **Current Position:** (15,17) facing Up (Row 18 South is cliff wall).
+2. **Immediate Single-Step Leg:**
+   - Left x5 along Row 17 to Column 10 at (10,17).
+   - Down x15 along Column 10 to South Trench at (10,32).
