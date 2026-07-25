@@ -583,7 +583,7 @@
   - (21, 17): Inactive visual ladder with no active warp.
   - (15, 27): Bidirectional ladder. Leads up to B1F at (13, 27) (empirically verified on Turn 2807).
 - **Starting Platform & Chambers (Isolated Area):**
-  - **Starting Platform:** Columns 24 to 28, rows 8 to 11. Bounded by rock walls on row 7. Row 11 is a one-way ledge facing DOWN at the bottom of the starting platform, allowing jumping down to row 12 to enter the main cavern of B2F.
+  - **Starting Platform:** Columns 24 to 28, rows 8 to 11. Bounded by rock walls on row 7. Row 11 is bounded by a solid rock wall on the south (row 12) and cannot be jumped down.
   - **Elevated Platform (Connecting Corridor):** Columns 24 and 25 on rows 21 to 23 form a raised platform.
     - **Staircase:** Located at columns 24 and 25, rows 23 and 24. Allows walking Up onto the platform from the ground (row 24), and walking Down from the platform.
     - **Blockage:** This platform is NOT a continuous corridor to the starting platform; it is completely blocked at row 20 by a solid rock wall running horizontally across columns 17 to 29 on B2F.
@@ -601,7 +601,7 @@
 ## Trainers
 - **Team Rocket Grunt:** Sits at (29, 11). Defeated on Turn 1716. Reward: ¥360. Roster: Zubat (Lv 12), Ekans (Lv 12).
 - **Isolated Eastern Cavern (Columns 29-35, Rows 6-11):** This room is accessed from the Starting Platform by walking east along row 11 past the Grunt and going UP. It is bounded by row 5 (wall) on the north, row 12 (wall) on the south, and column 36 (wall) on the east. It is a completely isolated dead-end area. The rock at (33, 9) is a decorative cave tile, not a real fossil. There are no fossils or Super Nerd in this eastern cavern.
-- **Accessing Main Western Area of B2F:** The main area of B2F (where the real fossils and Super Nerd Miguel are located) is accessed by climbing down the ladder at (25, 9) onto the starting platform, then walking south to row 11 and jumping DOWN across the one-way ledge onto row 12, which connects directly to the western and central cavern.
+- **Accessing Main Western Area of B2F:** The starting platform is a dead end. The main area of B2F (where the real fossils and Super Nerd Miguel are located) is accessed via the northwest ladder at (21, 17) on B1F, which is reached from 1F at (5, 5).
 
 <hr>
 
