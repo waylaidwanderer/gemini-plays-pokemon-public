@@ -44,3 +44,4 @@
 - **Column 31 Platform Wall Face at Row 27:** [Verified Turn 6238] Tile (31,27) is a platform wall face blocking Westward movement along Row 27 from (32,27).
 - **Tile (32,25) Wall Collision:** [Verified Turn 6246] Tile (32,25) is a solid wall face blocking Northward movement along Column 32 from (32,26).
 - **Tile (31,28) Rock Pillar Face:** [Verified Turn 6276] Tile (31,28) is a solid rock pillar face blocking Westward movement along Row 28. Row 27 at (31,27) is open checkered floor bypassing the pillar West to Column 25.
+- **Vertical Cliff Face at Col 31 (Rows 20-28):** Column 31 is an impassable vertical cliff face blocking Westward movement from Column 32 to Column 31 across Rows 20 through 28. Ground-level passage West to Column 25 is Row 32 (32,32 -> 25,32 -> 25,22).
