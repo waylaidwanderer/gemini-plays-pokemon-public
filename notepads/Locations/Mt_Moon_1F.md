@@ -156,3 +156,4 @@
 - **Solid Rock Wall Face at (32,21):** [Verified Turn 7917] Solid blue rock wall face blocks Northward movement along Column 32 at Row 21.
 - **Solid Rock Wall Face at (25,20):** [Verified Turn 7937] Solid blue rock wall face blocks Southward movement along Column 25 at Row 20.
 - **Solid Rock Wall Face at (21,15):** [Verified Turn 7944] Solid blue rock wall face blocks Northward movement along Column 21 from (21,16).
+- **Elevated Platform Wall at (18..19, 17):** [Verified Turn 7948] Checkered platform face blocks Westward movement along Row 17 at (19,17). Bypass is Row 16.
