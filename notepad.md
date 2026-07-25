@@ -204,6 +204,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Vertical Cliff Face at (12,28):** [Verified Turn 6039] Solid cliff face blocks Eastward movement from (11,28) to (12,28).
 - **Solid Rock Wall Face at (6,24):** [Verified Turn 6043] Solid purple rock wall face blocks Westward movement from (7,24) to (6,24). Western corridor/cavern floor is at Columns 7 through 11 extending North past Row 20!
 - **Row 19 Ledge at Col 15:** [Verified Turn 6052] South-facing ledge face at (15,19) blocks Southward movement from (15,18). Eastbound bypass to Col 20 is Row 17.
+- **Solid Rock Wall Face at (24..28, 11):** [Verified Turn 6446] Solid rock wall face blocks Row 11 across Columns 24 through 28. Northbound bypass is Columns 21-22 (21..22, 8..12 open floor).
 
 <hr>
 
