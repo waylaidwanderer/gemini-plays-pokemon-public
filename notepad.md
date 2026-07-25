@@ -156,6 +156,7 @@
 - **Defeated Lass Robin:** Defeated Lass Robin at (20, 8) on Turn 4697, earning ¥225.
 - **Defeated Hiker Nob:** Defeated Hiker Nob at (23, 9) on Turn 4725, earning ¥455.
 - **Entered Route 25:** Arrived on Route 25 on Turn 4642.
+- **Defeated Hiker Franklin:** Defeated Hiker Franklin at (8, 4) on Turn 4659, earning ¥525.
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
@@ -686,8 +687,9 @@
 
 ## Trainers & Defeated Status
 - **Hiker Franklin:** Sits at (8, 4) facing Down.
-  - **Roster:** Machop (Lv 15), Geodude (Lv ??)
-  - **Status:** Engaged on Turn 4648.
+  - **Roster:** Machop (Lv 15), Geodude (Lv 15)
+  - **Status:** Defeated on Turn 4659.
+  - **Reward:** ¥525
 - **Youngster Joey:** Sits at (14, 2) originally, engaged at (14, 4) facing Down.
   - **Roster:** Rattata (Lv 15), Spearow (Lv 15)
   - **Status:** Defeated on Turn 4668.
@@ -704,8 +706,8 @@
   - **Roster:** Geodude (Lv 13), Machop (Lv 13), Geodude (Lv 13)
   - **Status:** Defeated on Turn 4725.
   - **Reward:** ¥455
-- **Bug Catcher Connor:** Sits at (37, 4) originally, engaged at (37, 5) facing Down.
-  - **Roster:** Venonat (Lv 15), Paras (Lv 15)
+- **Lass Haley:** Sits at (37, 4) originally, engaged at (37, 5) facing Down.
+  - **Roster:** Oddish (Lv 15), Pidgey (Lv 15)
   - **Status:** Engaged on Turn 4738.
   - **Reward:** ¥??
 
