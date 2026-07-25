@@ -49,14 +49,15 @@
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
-  - **Level:** 26
-  - **Moveset:** Tackle, Tail Whip, Bite, Water Gun
-  - **HP:** 72 / 72
-  - **Status:** Healthy
+  - **Level:** 27
+  - **Moveset:** Tackle (34/35 PP), Tail Whip (30/30 PP), Bite (23/25 PP), Water Gun (24/25 PP)
+  - **Stats:** Attack 51, Defense 57, Speed 44, Special 49
+  - **HP:** 55 / 74
+  - **Status:** Slightly Damaged
 - **TRUFFLE (Paras):**
   - **Level:** 12
-  - **Moveset:** Scratch (35/35 PP)
-  - **Stats:** Attack 24, Defense 17, Speed 13, Special 18
+  - **Moveset:** Scratch (35/35 PP), Dig (10/10 PP)
+  - **Stats:** Attack 25, Defense 19, Speed 14, Special 19
   - **HP:** 32 / 32
   - **Status:** Healthy
 - **TESLA (Pikachu):**
