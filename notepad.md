@@ -244,6 +244,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - Rock Wall Face at (6,32): [Verified Turn 7844] Solid blue rock wall face at (6,32) blocks Westward movement along Row 32 South Trench from (7,32).
 - Vertical Cliff Face at Col 18 (Rows 14-20): [Verified Turn 7856/7859] Tile (18,17) and (18,18) are platform cliff faces blocking Eastward movement from Column 17. Western 1F connects to Eastern 1F via Row 7 Top Corridor or Row 32 South Trench.
 - **Solid Rock Wall Face at (15,30):** [Verified Turn 7888] Solid blue rock wall face blocks Northward movement along Column 15 from (15,31).
+- **Solid Rock Wall Face at (31,30):** [Verified Turn 7910] Solid blue rock wall face blocks Northward movement along Column 31 from (31,31).
 
 <hr>
 
