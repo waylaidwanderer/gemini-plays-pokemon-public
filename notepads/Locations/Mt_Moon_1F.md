@@ -87,7 +87,7 @@
 - **Western Chamber East Wall Barrier at Column 8 (Rows 7-15):** [Verified Turn 5796] Solid rock wall face along Column 8 completely blocks Eastward passage from Western Chamber across Rows 7 through 15. Only exit from Western Chamber is South via Column 6 to Row 24.
 - **Solid Rock Wall Face at (23,7):** [Verified Turn 5831] Tile (23,7) is a solid rock wall face blocking Eastward movement along Row 7 from (22,7).
 - **Bottom-Right Cavern (Cols 28-34, Rows 28-32):** [Verified Turn 5886] Dead-end chamber; contains no ladder or exit.
-- **Row 11 Ledge at Cols 31-35:** [Verified Turn 5895] Row 11 has a south-facing ledge face across Cols 31-35. Northbound bypass is Column 28 (via Row 16 elevation stairs at (27,15) -> (27,14) -> (28,14) -> (28,7)).
+- **Row 11 Ledge at Cols 31-35:** [Verified Turn 5895/6710] Row 11 has a south-facing ledge face across Cols 31-35 blocking Upward movement from Row 12 (including 35,11). Northbound bypass is Column 28 (via Row 16 elevation stairs at (27,15) -> (27,14) -> (28,14) -> (28,7)).
 - **Solid Rock Wall Face at (24,17):** [Verified Turn 5907] Solid purple rock wall face blocks Westward movement along Row 17 at (24,17).
 - **Solid Rock Wall Face at (35,16):** [Verified Turn 5913] Solid purple rock wall face blocks Eastward movement at (35,16). Eastbound bypass to Column 36 is Row 14 (34,14 -> 35,14 -> 36,14).
 - **Solid Rock Wall Face at (34,15):** [Verified Turn 5914] Solid purple rock wall face blocks Upward movement at (34,15). Southbound bypass to Row 19 is open floor at (34,19 -> 35,19 -> 36,19).
