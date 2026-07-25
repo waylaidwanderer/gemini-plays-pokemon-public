@@ -555,7 +555,7 @@
   - **Open passage at Row 7:** Empirically verified to be completely **OPEN** on row 7 across columns 18 and 19 on Turn 2666, allowing direct horizontal transit between the middle pocket and the eastern section.
 - **Central Wall & Ledge Barrier:** Rows 20 and 21 form a solid, impassable horizontal rock wall across columns 14 to 29. There are no open vertical paths through columns 20, 21, 22, or 23 on row 20 or 21. This completely divides the southern/eastern area from the northern area of 1F.
 - **Raised Platform (West Side):** Columns 12 and 13 form a solid vertical barrier extending from row 3 down to at least row 28, blocking all horizontal transit on rows 5, 7, 12, 15, and 20-28.
-  - The eastern edge (column 13) has a solid wall with no staircases on rows 22, 26, and 27. Note: on B1F, row 27 column 13 is a completely walkable corridor, but on 1F it is a solid wall.
+
   - Row 28 is a horizontal elevated platform segment that blocks column 14, meaning column 14 is a dead-end at row 27.
 - **Stony Floor (South-West):** Row 29 is a completely walkable stony floor across columns 10 to 19, which is situated below the platform.
 - **Northwest Pocket (Ladder area):** (17, 11) is a ladder, and (17, 12) is the floor tile below it. This forms a small 1x2 pocket that is blocked on the left by rock walls at column 16, blocked on the right by rock walls at column 18, and blocked on the south by rock walls on row 13. The pocket exits to the LEFT (west) on row 12! The path goes (17, 12) <--> (16, 12) <--> (15, 12) <--> ... into the main cavern on columns 12-16.
