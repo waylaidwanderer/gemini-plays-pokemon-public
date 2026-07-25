@@ -246,6 +246,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Solid Rock Wall Face at (15,30):** [Verified Turn 7888] Solid blue rock wall face blocks Northward movement along Column 15 from (15,31).
 - **Solid Rock Wall Face at (31,30):** [Verified Turn 7910] Solid blue rock wall face blocks Northward movement along Column 31 from (31,31).
 - **Solid Rock Wall Face at (32,21):** [Verified Turn 7917] Solid blue rock wall face blocks Northward movement along Column 32 at Row 21.
+- **Solid Rock Wall Face at (25,20):** [Verified Turn 7937] Solid blue rock wall face blocks Southward movement along Column 25 at Row 20.
 
 <hr>
 
