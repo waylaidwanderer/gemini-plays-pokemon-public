@@ -119,7 +119,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Row 20 Rock Wall (Cols 22-29):** [Verified Turn 8275] Solid rock wall face blocks Southward movement at Row 20 across Cols 22-29. Open Southbound corridor is at Columns 30-31!
 - **Eastern Ground Highway (Cols 36-37, Rows 12-32):** [Verified Turn 8279] Columns 36-37 form a continuous open ground floor corridor running South past the upper platform (Rows 15-19) directly to Row 24 and the South Trench.
 - **Column 31 Cliff Face (Rows 20-28):** Continuous vertical cliff face blocking Westward movement from Column 32.
-- **(12..13, 22..27) Wall Block:** [Verified Turn 8303] Tiles (12..13, 22..27) form a solid 2x6 wall block. Route between Column 11 and Column 15 is via Row 28 (11..15, 28).
+- **(12..13, 20..28) Wall Block:** [Verified Turn 8306] Solid 2x9 wall block across Cols 12-13 from Row 20 to Row 28. Route between Column 11 and (15,27) Entrance Ladder is via Row 16/17: North along Col 11 to (11,17), East to Col 14 (14,17), South down Col 14 to (14,27), East x1 onto (15,27) Ladder.
 
 <hr>
 
