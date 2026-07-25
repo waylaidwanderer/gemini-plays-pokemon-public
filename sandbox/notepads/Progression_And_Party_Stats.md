@@ -28,6 +28,11 @@
 - **Defeated Bug Catcher (South-East):** Defeated Bug Catcher at (30, 27) on Mt. Moon 1F on Turn 2697, earning ¥100.
 - **Defeated Super Nerd:** Defeated Super Nerd near (24, 27) on Mt. Moon 1F on Turn 2731, earning ¥275.
 
+- **Entered Cerulean City:** Arrived in Cerulean City from Route 4 on Turn 4062.
+- **Healed at Cerulean Pokémon Center:** Healed party at (19, 17) on Turn 4070.
+- **Entered Cerulean Gym:** Entered Gym at (30, 19) on Turn 4088.
+- **Entered Melanie's House:** Entered house at (13, 15) on Turn 4109.
+
 ## Party Statistics
 - **SHELLBY (Wartortle):**
   - **Level:** 22
