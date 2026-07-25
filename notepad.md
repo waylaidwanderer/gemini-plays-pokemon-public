@@ -257,6 +257,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Elevated Platform Cliff Face at (12,22):** [Verified Turn 8129] Tile (12,22) is an impassable checkered platform cliff face blocking Eastward movement from (11,22).
 - **Vertical Cliff Face at Col 31 (Rows 20-28):** [Verified Turn 8148] Tile (31,24) is an impassable checkered vertical cliff face blocking Westward movement along Row 24 from (32,24).
 - **Elevated Platform Cliff Face at (12,24):** [Verified Turn 8166] Tile (12,24) is an impassable checkered platform cliff face blocking Eastward movement from (11,24).
+- **Solid Rock Wall Face at (32,21):** [Verified Turn 8178] Tile (32,21) is a solid dark blue rock wall face blocking Northward movement from (32,22). Open Eastbound bypass is Row 22 to Column 36 (32,22 -> 36,22 -> North up Col 36).
 
 <hr>
 
