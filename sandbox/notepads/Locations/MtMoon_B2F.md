@@ -38,3 +38,10 @@
 - **Southern Corridor:** Columns 22-38 on rows 31-32 form a horizontal plain floor corridor connecting the eastern area to the southwest area of B2F, bypassing the rock walls on columns 28-31 on rows 29-30.
 - **Western Vertical Corridor:** Columns 7-11 on rows 19-32 form a plain floor corridor going north.
 - **Team Rocket Grunt (Western Corridor):** Stands at (11, 16). Defeated on Turn 3819. Reward: ¥390. Roster: Zubat (Lv 13).
+## Central/Western Cavern Routing & Collisions
+- **Southern Corridor (Rows 31-32):** Completely open, continuous plain floor corridor across columns 7 to at least 22. This bypasses the solid horizontal rock walls on rows 29-30 (which block columns 12-21).
+- **West Cavern Blockage:** Row 15 is a solid, impassable horizontal rock wall across columns 6 to 11, completely separating the southwest area (row 16+) from the northwest checkered platform area (rows 9-14).
+- **Staircase Verification:** 
+  - (12, 13) and (13, 13) are plain floor.
+  - (11, 13) is checkered platform (elevated, blocks horizontal entry from 12, 13).
+  - No staircases exist on rows 19-28 of columns 12-13.
