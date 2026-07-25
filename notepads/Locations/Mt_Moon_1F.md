@@ -83,3 +83,4 @@
 - **North-West Exit Ladder at (5,5):** [Verified Turn 5551] Functional ladder located at (5,5) in North-West chamber of 1F!
 
 - **Bug Catcher NPC at (5,6):** [Verified Turn 5551] Bug Catcher NPC standing at (5,6) below (5,5) ladder.
+- **Decorative Ladder at (21,17):** [Verified Turn 5627] Stepping onto (21,17) on 1F triggers no warp (purely decorative graphic tile).
