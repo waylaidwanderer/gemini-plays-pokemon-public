@@ -26,3 +26,4 @@
 - Item Balls collected at (2,20) and (25,21).
 - **Row 20 Rock Wall (Cols 22-29):** [Verified Turn 8275] Solid rock wall face blocks Southward movement at Row 20 across Cols 22-29. Open Southbound corridor is at Columns 30-31!
 - **Eastern Ground Highway (Cols 36-37, Rows 12-32):** [Verified Turn 8279] Columns 36-37 form a continuous open ground floor corridor running South past the upper platform (Rows 15-19) directly to Row 24 and the South Trench.
+- **Column 31 Cliff Face (Rows 20-28):** Continuous vertical cliff face blocking Westward movement from Column 32.
