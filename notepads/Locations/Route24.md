@@ -12,3 +12,8 @@
 - **Lass:** Sits at (10, 22). Defeated on Turn 4514. Reward: ¥240.
 - **Jr. Trainer♂:** Sits at (11, 19). Defeated on Turn 4529. Reward: ¥360.
 - **Rocket Grunt:** Sits at (11, 15). Defeated on Turn 4558. Reward: ¥450.
+
+- **Jr. Trainer♂ (Tall Grass):** Sits at (5, 20) originally, engaged at (5, 17) in the tall grass.
+  - **Roster:** Rattata (Lv 14), Ekans (Lv 14)
+  - **Status:** Defeated on Turn 4992.
+  - **Reward:** ¥280
