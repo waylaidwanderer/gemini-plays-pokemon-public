@@ -99,3 +99,4 @@
 - **Solid Impassable Boundary at (32..35, 20..21):** [Verified Turn 5930] Solid purple rock wall face blocks Northward movement along Cols 32-35 at Row 21. Route North from Col 32 is South to Row 24 (32,24) and East to Col 36 (36,24 -> 36,16).
 - **Open Northbound Highway at Cols 20-22 (Rows 7-14):** [Verified Turn 5946] Step-tested in person: Columns 20-22 across Rows 10-14 have no ledge or rock wall, connecting Row 14 directly North to Row 7 Top Upper Corridor!
 - **Vertical Cliff Face at Col 19/20 (Rows 5-11):** [Verified Turn 5948] Vertical cliff face blocks Westward movement from Col 20 to Col 19 across Rows 5-11.
+- **Solid Rock Wall Face at (25,15):** [Verified Turn 5952] Tile (25,15) is solid rock wall face on 1F. Westbound exit to Western 1F is Row 17 corridor (17,17 -> 10,17).
