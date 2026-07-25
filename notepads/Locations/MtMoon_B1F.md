@@ -7,8 +7,8 @@
   - Walkable floor columns 24-27, rows 14-27.
   - Connecting corridor at row 26/27 going left to columns 13-23.
 - **Ladders:**
-  - (25, 15): Leads back to Mt. Moon 1F.
-  - (13, 27): Located at the bottom-left of the platform.
+  - [Coordinate Unverified]: Leads back to Mt. Moon 1F. Active warp tile on Platform 1 is near (25, 15) but exact coordinate is currently undergoing systematic verification.
+  - (13, 27): Bidirectional ladder. Located at the bottom-left of the platform, leads down to B2F at (15, 27) (empirically verified on Turn 2807).
 - **Items:** None.
 - **Trainers:** None.
 

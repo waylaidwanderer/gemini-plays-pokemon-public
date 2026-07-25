@@ -475,8 +475,8 @@
   - Walkable floor columns 24-27, rows 14-27.
   - Connecting corridor at row 26/27 going left to columns 13-23.
 - **Ladders:**
-  - (25, 15): Leads back to Mt. Moon 1F.
-  - (13, 27): Located at the bottom-left of the platform.
+  - [Coordinate Unverified]: Leads back to Mt. Moon 1F. Active warp tile on Platform 1 is near (25, 15) but exact coordinate is currently undergoing systematic verification.
+  - (13, 27): Bidirectional ladder. Located at the bottom-left of the platform, leads down to B2F at (15, 27) (empirically verified on Turn 2807).
 - **Items:** None.
 - **Trainers:** None.
 
@@ -518,7 +518,7 @@
   - (25, 15): Leads to Mt. Moon B1F Platform 1.
   - (17, 11): Newly observed ladder on the north-western side.
   - (5, 5): Leads to Mt. Moon B1F Connector Corridor (North-West-2) at (5, 5).
-  - Note on Southern Warp: When exiting B1F at (13, 27), the game places the player at the landing coordinate (15, 27) on 1F. There is no interactive warp tile at (15, 27) or (13, 27) on 1F; it is a one-way landing spot from B1F.
+
 
 ## Signposts & Points of Interest
 - **Signpost at (15, 23):** Reads: "Beware! ZUBAT is a blood sucker!"
@@ -575,13 +575,14 @@
 - **Access Ladders:**
   - (25, 9): Leads up to B1F at (17, 11) (accessed from the starting platform).
   - (21, 17): Leads up to B1F at (21, 17) (accessed from the vertical chamber).
+  - (15, 27): Bidirectional ladder. Leads up to B1F at (13, 27) (empirically verified on Turn 2807).
 - **Starting Platform & Chambers (Isolated Area):**
   - **Starting Platform:** Columns 24 to 28, rows 8 to 11. Bounded by rock walls on row 7. Elevated above row 12 by an impassable one-way ledge/cliff face on row 11 (columns 24-28). You can jump down to row 12, but cannot walk back Up.
   - **Elevated Platform (Connecting Corridor):** Columns 24 and 25 on rows 21 to 23 form a raised platform.
     - **Staircase:** Located at columns 24 and 25, rows 23 and 24. Allows walking Up onto the platform from the ground (row 24), and walking Down from the platform.
     - **Blockage:** This platform is NOT a continuous corridor to the starting platform; it is completely blocked at row 20 by a solid rock wall running horizontally across columns 17 to 29 on B2F.
   - **Horizontal Divider:** Row 20 and Row 19 form a solid, impassable wall running horizontally from column 17 to at least column 29, separating the southern area of B2F from the northern area.
-  - **Verified Open Divide:** Row 23 is completely open across columns 18 and 19 on B2F, allowing horizontal traversal between the bottom-left area (where you enter from B1F (13, 27)) and the bottom-right/middle-bottom areas.
+  - **Verified Open Divide:** Row 23 is completely open across columns 18 and 19 on B2F, allowing horizontal traversal between the bottom-left area (where you enter/exit to B1F (13, 27)) and the bottom-right/middle-bottom areas.
   - **Vertical Chamber:** Columns 20 to 23, rows 14 to 19. This chamber is at the lower level and connects directly to row 12. Bounded by rock walls on columns 18-19 on the left on rows 14 to 21.
   - **Upper Niche:** Columns 20 to 22, rows 5 to 7. Bounded by rock walls on row 4, column 19, and column 23. Elevated above the vertical chamber by an impassable one-way ledge/cliff face on row 11 (columns 20-22).
   - **Wall Blockage:** Columns 18-19 form a rock wall on rows 14 to 21.
