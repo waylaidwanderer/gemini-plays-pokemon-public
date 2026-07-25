@@ -109,8 +109,14 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Row 20 Rock Wall (Cols 22-29):** [Verified Turn 8275] Solid rock wall face blocks Southward movement at Row 20 across Cols 22-29. Open Southbound corridor is at Columns 30-31!
 - **Eastern Ground Highway (Cols 36-37, Rows 12-32):** [Verified Turn 8279] Columns 36-37 form a continuous open ground floor corridor running South past the upper platform (Rows 15-19) directly to Row 24 and the South Trench.
 - **(12..13, 20..28) Wall Block:** [Verified Turn 8306] Solid 2x9 wall block across Cols 12-13 from Row 20 to Row 28.
-- **Entrance Ladder (15,27) Enclosure & Master Route:** [Verified Turn 8307] Chamber (Cols 14-16, Rows 22-27) is bounded North by Row 20-21 rock wall (Cols 12-29), South by Row 29-30 rock wall (Cols 11-20), and West by Cols 12-13 wall. ONLY entrance is from the EAST via Row 24 (from Col 30/31).
-  - *Master Path to (15,27) Ladder:* From (11,17) -> East along Row 16/17 to Col 30 -> South down Col 30 to Row 24 -> West along Row 24 to Col 15 (15,24) -> South x3 to (15,27) Entrance Ladder.
+- **(18..19, 14..19) Wall Block:** [Verified Turn 8314] Solid 2x6 wall block across Cols 18-19 from Row 14 to Row 19. Row 17 at (17,17) is a dead-end alcove.
+- **Entrance Ladder (15,27) True Master Route:** [Verified Turn 8314] Route from West side to (15,27) Entrance Ladder is via South Trench (Row 32):
+  1. From (17,17) -> West along Row 17 to Col 10 (10,17).
+  2. South down Col 10 to Row 32 South Trench (10,32).
+  3. East along Row 32 South Trench to Col 32 (32,32).
+  4. North up Col 32 to Row 24 (32,24).
+  5. West along Row 24 to Col 15 (15,24).
+  6. South x3 down Col 15 onto (15,27) Entrance Ladder.
 
 ## Cleared Trainers & Items
 - Bug Catcher at (7,23) [Defeated]
