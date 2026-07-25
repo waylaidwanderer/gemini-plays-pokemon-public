@@ -566,7 +566,7 @@
   - **Row 26 Wall:** Row 26 is a solid rock wall across columns 16 to 23, blocking any downward movement from row 25.
   - **Row 25 Wall:** Columns 22 and 23 form a solid rock barrier on row 25 of 1F, blocking direct horizontal passage between columns 24-25 and the middle section.
 - **Central Western Pillar Blockage (Columns 4-12, Rows 7-14):** In the Western Cavern, a solid rock barrier/pillar occupies columns 4 to 12 on rows 7 to 14. Specifically:
-  - Columns 4 to 7 are rendered as rocky walls.
+  - Columns 4 to 6 are rendered as rocky walls.
   - Columns 8 to 12 on rows 7 to 14 are black/out-of-bounds space that acts as an impassable solid wall.
   - The purple rocky tiles (e.g., column 7, row 11) represent the actual walkable cave floor.
   - Row 15, columns 8 to 17 contains a horizontal one-way ledge facing down.
