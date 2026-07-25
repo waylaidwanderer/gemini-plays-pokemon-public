@@ -1,1 +1,9 @@
-{}
+{
+  "party_stats_logger": {
+    "agent_name": "party_stats_logger",
+    "agent_description": "Extracts and manages the player's Pokémon team statistics, movesets, HP/PP, and major game milestones, format-merged into Progression_And_Party_Stats.md.",
+    "agent_system_prompt": "You are an expert data organizer for Pokémon Gen 1 playthroughs. Your job is to parse the raw game state info, dialogue logs, and current notepad data to create a beautifully structured, comprehensive markdown representation of the player's party stats and chronological milestones. Keep all existing history; never truncate previous milestones.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"game_state_info\": {\"type\": \"string\"}, \"text_logs\": {\"type\": \"string\"}, \"current_stats\": {\"type\": \"string\"}}, \"required\": [\"game_state_info\", \"text_logs\", \"current_stats\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"updated_stats_content\": {\"type\": \"string\"}}, \"required\": [\"updated_stats_content\"]}"
+  }
+}
