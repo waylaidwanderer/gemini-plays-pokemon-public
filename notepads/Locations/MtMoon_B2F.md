@@ -36,4 +36,4 @@
 - **Southeast Vertical Corridor:** Columns 36-38 on rows 15-22 form a plain floor corridor going south.
 - **Southern Corridor:** Columns 22-38 on rows 31-32 form a horizontal plain floor corridor connecting the eastern area to the southwest area of B2F, bypassing the rock walls on columns 28-31 on rows 29-30.
 - **Western Vertical Corridor:** Columns 7-11 on rows 19-32 form a plain floor corridor going north.
-- **Second Team Rocket Grunt (Western Corridor):** Stands at (11, 16). Engaging him requires talking to him from (10, 16). Roster: Rattata (Lv 13).
+- **Team Rocket Grunt (Western Corridor):** Stands at (11, 16). Defeated on Turn 3819. Reward: ¥390. Roster: Zubat (Lv 13).
