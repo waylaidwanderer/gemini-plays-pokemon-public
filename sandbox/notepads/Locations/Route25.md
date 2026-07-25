@@ -28,3 +28,7 @@
   - **Roster:** Geodude (Lv 13), Machop (Lv 13), Geodude (Lv 13)
   - **Status:** Defeated on Turn 4725.
   - **Reward:** ¥455
+- **Bug Catcher Connor:** Sits at (37, 4) originally, engaged at (37, 5) facing Down.
+  - **Roster:** Venonat (Lv 15), Paras (Lv 15)
+  - **Status:** Engaged on Turn 4738.
+  - **Reward:** ¥??
