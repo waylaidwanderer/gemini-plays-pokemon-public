@@ -626,13 +626,10 @@
 
 ## Overworld Layout & Navigation
 - **West Entrance (from Route 4):** Connects to the paved brick road of Cerulean City at x=0, y=19. (Verified at Turn 4062).
-- **Anomalous Warp (19, 17):** Door at (19, 17) has a "POKé" sign outside but warps inside to a Jynx's/Melanie's House interior containing a bed and plants (No Nurse Joy).
-- **Anomalous Warp (13, 15):** Door at (13, 15) has a Jynx's House outside but warps inside to a Jynx's House interior containing a PC and Jynx's husband/wife (rendered with a misleading Pokémon Center tileset, but has no Nurse Joy or healing function).
 - **Bike Shop:** Large building directly south of (19, 17). Roof spans row 24 on columns 18-28. Front of the building is on row 25.
 - **Cerulean Gym:** Large building located on the east side, north of the Mart. Sign reads "GYM" at (26, 18) / (27, 18).
 - **Poké Mart:** Building located south of the Gym. Sign reads "MART" at (26, 24) / (27, 24) with entrance at (25, 25).
 - **Route 24 Bridge (Nugget Bridge Path):** Accessible from the north-center area.
-- **Goal:** Explore the rest of Cerulean City to find a functional Pokémon Center or healing counter, as the standard entrances are swapped/anomalous.
 
 ## Northern Bypass to Route 24
 - **Passage barrier at Row 15:** Fences and roofs block vertical transit across row 15 across all columns in Cerulean City, including column 0 which is blocked by a cliff and water.
@@ -668,6 +665,26 @@
 - **Lass:** Sits at (10, 22). Defeated on Turn 4514. Reward: ¥240.
 - **Jr. Trainer♂:** Sits at (11, 19). Defeated on Turn 4529. Reward: ¥360.
 - **Rocket Grunt:** Sits at (11, 15). Defeated on Turn 4558. Reward: ¥450.
+
+
+<hr>
+
+<h1><code>Locations/Route25</code></h1>
+
+# Route 25 - Locations & Landmarks
+
+## Overworld Layout & Navigation
+- **Western Entrance (from Route 24):** Transitions from Route 24 at (19, 8) or (19, 9) to Route 25 at (0, 8) or (0, 9).
+- **Path structure:** Row 8 is a horizontal paved path. Contains trees/hedges forming a maze, starting from column 10.
+- **Grassy Maze segment:** Row 4 is a horizontal path through the grass that can be used to bypass the Hiker at (13, 7) but triggers the Hiker at (8, 4).
+
+## Landmarks & Buildings
+- **Bill's Sea Cottage:** Located at the eastern end of Route 25.
+
+## Trainers & Defeated Status
+- **Hiker Franklin:** Sits at (8, 4) facing Down.
+  - **Roster:** Machop (Lv 15), Geodude (Lv ??)
+  - **Status:** Engaged on Turn 4648.
 
 
 <hr>
