@@ -178,6 +178,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 - **Western Chamber East Wall Barrier at Column 8 (Rows 7-15):** [Verified Turn 5796] Solid rock wall face along Column 8 completely blocks Eastward passage from Western Chamber across Rows 7 through 15. Only exit from Western Chamber is South via Column 6 to Row 24.
 - **Solid Rock Wall Face at (23,7):** [Verified Turn 5831] Tile (23,7) is a solid rock wall face blocking Eastward movement along Row 7 from (22,7).
+- **Bottom-Right Cavern (Cols 28-34, Rows 28-32):** [Verified Turn 5886] Dead-end chamber; contains no ladder or exit.
 
 <hr>
 
