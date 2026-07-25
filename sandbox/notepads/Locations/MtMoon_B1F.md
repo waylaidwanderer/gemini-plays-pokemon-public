@@ -34,6 +34,6 @@
   - Horizontal segment from (5, 16) east to (21, 16), which goes south to (21, 17).
 - **Ladders:**
   - (5, 5): Leads up to Mt. Moon 1F.
-  - (21, 17): Leads down to Mt. Moon B2F.
+  - (21, 17): Inactive visual ladder with no active warp.
 - **Items:** None.
 - **Trainers:** None.
