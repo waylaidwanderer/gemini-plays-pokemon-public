@@ -23,7 +23,7 @@
 | (9, 11)      | Badge Guy's House     | Badge Guy's House                         | Contains Badge Guy NPC. Rendered with a misleading Pokémon Center tileset (PC on right, counter on top), but has NO healing function. |
 | (13, 25)     | Bike Shop             | Bike Shop                                 | Standard Bike Shop interior. |
 | (30, 19)     | Cerulean Gym          | Cerulean Gym                              | Standard Gym interior. Misty is here. |
-| (27, 11)     | Burgled House         | Burgled House Interior                    | Messy house with footprints. Exit hole at (3, 0) inside warps to backyard at (27, 9). |
+| (27, 11)     | Burgled House         | Bill's House Interior (Mod Swap)          | Mapped to Bill's House. Entering (27, 11) warps to Bill's House. Exiting Bill's House warps back to (27, 11). |
 
 ## Trainers & Defeated Status
 - **Team Rocket Grunt (Burgled House Backyard):** Located at (30, 8).
