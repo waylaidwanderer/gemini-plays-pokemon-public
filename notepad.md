@@ -195,6 +195,17 @@
   - **Status:** Healthy
 - **Truffle learned DIG:** Taught TM28 (Dig) to TRUFFLE (Paras) on Turn 4912.
 
+## Gym Leader Misty Battle Strategy
+- **Misty's Expected Roster:**
+  - **Staryu (Level 18):** Water-type. Knows Tackle, Water Gun.
+  - **Starmie (Level 21):** Water/Psychic-type. High Speed and Special (100). Knows Tackle, Water Gun, Bubblebeam. Bubblebeam is extremely dangerous due to STAB and Starmie's high Special.
+- **Our Battle Strategy (Coordinated Team Effort):**
+  1. **Paralysis Lead (Truffle - Paras Lv 13):** Lead with Truffle or switch to Truffle. Use **Stun Spore** on Starmie to inflict Paralysis, reducing Starmie's Speed to 25% and giving us a 25% chance of fully paralyzing it each turn. Truffle's Grass-typing resists Water-type moves, allowing it to easily tank Starmie's Bubblebeam.
+  2. **Electric Sweeper (Tesla - Pikachu Lv 13-15):** Once Starmie is paralyzed and slowed down, Tesla can safely enter the field and use **ThunderShock** (STAB super-effective 2x damage) to defeat both Staryu and Starmie without being outsped and KO'd by Bubblebeam.
+  3. **Solid Backup Tank (Shellby - Wartortle Lv 27):** If Tesla or Truffle fall, Shellby can tank Starmie's hits easily (resists Water-type moves, high HP/Special) and use **Bite** (Normal physical move) to chip away at Starmie's remaining HP.
+- **Gym Trainer Hypothesis Verification:**
+  - We will verify the exact rosters and levels of the Cerulean Gym trainers when we engage them to prevent unexpected white-outs and enforce the Burden of Proof.
+
 <hr>
 
 <h1><code>Mechanics/Search_Scripting_Pitfalls</code></h1>
