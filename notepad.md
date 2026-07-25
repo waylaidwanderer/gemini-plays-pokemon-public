@@ -129,7 +129,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Row 8-9 Rock Wall (Cols 18-29):** [Verified Turn 2410] Solid rock wall face blocks Rows 8-9 across Columns 18 through 29. Column 30+ is open floor connecting Row 10 North to Row 7 upper corridor.
 - **CRITICAL WARP PAIRS:**
   - 1F (17,11) <-> B2F (25,9) [Main Path across 1F to B2F / B1F Exit Cavern]
-  - 1F (17,11) <-> B2F (25,9) [Side Room Loop with TM01 Mega Punch]
+- **Top-Right Chamber (Cols 30-37, Rows 2-7):** [Verified Turn 5476-5478] Explored; contains Lass NPC at (30,4), but NO exit ladder.
 - **Column 17 Wall at (17,21):** [Verified Turn 2529] Solid rock wall face at (17,21) blocks Northward movement along Column 17.
 - **Row 21 Wall at Col 10:** [Verified Turn 2533] Solid rock wall face at (10,21) blocks Northward movement along Column 10. Western corridor route to Western Chamber is via Row 24 to Column 6.
 - **Elevated Platform (24,21):** [Verified Turn 2606] Elevated platform at (24,21) is enclosed by solid rock walls along Row 20 to the North, East, and West (dead end).
