@@ -202,6 +202,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Solid Impassable Boundary at (13,20) & (12,20):** [Verified Turn 6004] Row 20 blocks Southward movement along Col 15 at (15,20). Access to Entrance Ladder area is via Col 10 South.
 - **Entrance Corridor Route (Col 14, Rows 27-32):** [Verified Turn 6009] Column 14 is open smooth floor across Rows 27-32, connecting Row 32 directly North to (14,27) and (15,27) Entrance Ladder!
 - **Vertical Cliff Face at (12,28):** [Verified Turn 6039] Solid cliff face blocks Eastward movement from (11,28) to (12,28).
+- **Solid Rock Wall Face at (6,24):** [Verified Turn 6043] Solid purple rock wall face blocks Westward movement from (7,24) to (6,24). Western corridor/cavern floor is at Columns 7 through 11 extending North past Row 20!
 
 <hr>
 
