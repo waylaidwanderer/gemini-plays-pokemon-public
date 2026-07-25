@@ -13,7 +13,13 @@
 - **South Trench (Rows 31-32, Cols 7-34):** Wide-open 2-tile horizontal trench across bottom of 1F. Connected to Row 24 via Column 10 (10,24 -> 10,32) and Column 32 (32,24 -> 32,32).
 - **Row 11 Ledge Face (Cols 24-35):** [Verified Turn 8203] Continuous south-facing ledge line across Cols 24-35 blocking Northward movement from Row 12.
 - **Elevation Stairs at (26..27, 15) & (32..33, 15):** Elevation stairs connecting Row 16 ground floor up to Row 14 upper platform.
-- **Column 31 Cliff Face (Rows 20-28):** Continuous vertical cliff face blocking Westward movement from Column 32.
+- **Column 31 Cliff Face (Rows 20-28):** Continuous vertical cliff face blocking Westward movement along Rows 20-28 from Column 32.
+- **True Elevation Overworld Highway to (15,27) Ladder:** [Verified Turn 8336] To cross from East Ground Floor (Col 32) to West Ground Floor (Col 15):
+  1. From (32,24) -> East along Row 24 to Col 36 (36,24).
+  2. North up Col 36 (Eastern Highway) to Row 15 (36,15).
+  3. West along Row 15 to Elevation Stairs at (32..33, 15).
+  4. Ascend stairs onto Row 14 Upper Platform, walk West across Platform to (26..27, 15) Stairs.
+  5. Descend stairs to Row 16 Ground Floor, walk South down Col 15 onto (15,27) Entrance Ladder!
 - **Row 20 Rock Wall (Cols 22-29):** [Verified Turn 8275] Solid rock wall face blocks Southward movement at Row 20 across Cols 22-29. Open Southbound corridor is at Columns 30-31!
 - **Eastern Ground Highway (Cols 36-37, Rows 12-32):** [Verified Turn 8279] Columns 36-37 form a continuous open ground floor corridor running South past the upper platform (Rows 15-19) directly to Row 24 and the South Trench.
 - **(12..13, 20..28) Wall Block:** [Verified Turn 8306] Solid 2x9 wall block across Cols 12-13 from Row 20 to Row 28.
