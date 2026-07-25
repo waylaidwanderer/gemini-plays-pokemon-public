@@ -18,5 +18,5 @@
   - **Reward:** ¥225
 - **Youngster Dan:** Sits at (18, 5) originally, engaged at (18, 4) facing Up.
   - **Roster:** Slowpoke (Lv 17)
-  - **Status:** Engaged on Turn 4673.
+  - **Status:** Defeated on Turn 4675.
   - **Reward:** ¥??

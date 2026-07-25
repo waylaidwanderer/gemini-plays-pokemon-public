@@ -152,6 +152,7 @@
 - **Defeated Lass:** Defeated Lass at (10, 22) on Route 24 on Turn 4514, earning ¥240.
 - **Defeated Jr. Trainer♂:** Defeated Jr. Trainer♂ at (11, 19) on Route 24 on Turn 4529, earning ¥360.
 - **Defeated Rocket Grunt:** Defeated Rocket Grunt at (11, 15) on Route 24 on Turn 4558, earning ¥450.
+- **Defeated Youngster Dan:** Defeated Youngster Dan at (18, 5) on Turn 4675, earning Â¥255.
 - **Entered Route 25:** Arrived on Route 25 on Turn 4642.
 
 ## Party Statistics
@@ -691,7 +692,7 @@
   - **Reward:** ¥225
 - **Youngster Dan:** Sits at (18, 5) originally, engaged at (18, 4) facing Up.
   - **Roster:** Slowpoke (Lv 17)
-  - **Status:** Engaged on Turn 4673.
+  - **Status:** Defeated on Turn 4675.
   - **Reward:** ¥??
 
 
