@@ -75,3 +75,4 @@
   - **Moveset:** Tackle, Tail Whip, Quick Attack
   - **HP:** 22 / 22
   - **Status:** Healthy
+- **Truffle learned DIG:** Taught TM28 (Dig) to TRUFFLE (Paras) on Turn 4912.
