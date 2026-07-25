@@ -103,3 +103,4 @@
 - **Row 13 West Passage at Col 17:** [Verified Turn 5953] Row 13 is open checkered floor across Columns 17-19, connecting Column 20 West directly to Column 16 and Western 1F!
 - **Row 19 Ledge at Col 20:** [Verified Turn 5955] Ledge face at Row 19 blocks Downward movement from (20,18) to (20,19). Bypass to Row 26 is via Row 14 (20,14 -> 26,14 -> 26,15 stairs -> 32,16 -> 32,26).
 - **Row 19 Ledge at Col 32:** [Verified Turn 5961] Ledge face at Row 19 blocks Downward movement from (32,18) to (32,19). Bypass South to Row 24 is via Row 14 to Column 36 Eastern Highway (32,14 -> 36,14 -> 36,24).
+- **Vertical Cliff Face at Col 31 (Rows 26-28):** [Verified Turn 5965] Vertical cliff face blocks Westward movement from (32,27) to (31,27). Exit from Bottom-Right Cavern is North via Col 36 Eastern Highway.
