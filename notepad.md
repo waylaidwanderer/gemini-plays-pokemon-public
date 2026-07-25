@@ -562,7 +562,6 @@
 - **Central/Southern Cavern Blockages & Pathing:**
   - **No Direct Middle Crossing:** Column 16 has a solid vertical wall blocking rows 26 to 29 (except row 25 which is open on column 16).
   - **Row 26 Wall:** Row 26 is a solid rock wall across columns 16 to 23, blocking any downward movement from row 25.
-  - **Result:** Rows 30 to 35 are completely open and walkable across column 16, allowing direct horizontal crossing between the western cavern and the eastern cavern!
   - **Row 25 Wall:** Columns 22 and 23 form a solid rock barrier on row 25 of 1F, blocking direct horizontal passage between columns 24-25 and the middle section.
 
 <hr>
