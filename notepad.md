@@ -685,6 +685,10 @@
 - **Hiker Franklin:** Sits at (8, 4) facing Down.
   - **Roster:** Machop (Lv 15), Geodude (Lv ??)
   - **Status:** Engaged on Turn 4648.
+- **Youngster Joey:** Sits at (14, 2) originally, engaged at (14, 4) facing Down.
+  - **Roster:** Rattata (Lv 15), Spearow (Lv 15)
+  - **Status:** Defeated on Turn 4668.
+  - **Reward:** ¥225
 
 
 <hr>
