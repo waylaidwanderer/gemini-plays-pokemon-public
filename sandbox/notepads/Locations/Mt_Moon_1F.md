@@ -140,3 +140,4 @@
 - **Rock Wall Boundary at (20,4):** [Verified Turn 7094] Column 20 dead-ends North at Row 5 into a solid rock wall face at (20,4).
 - **Tile (28,15) Stair Side Wall:** [Verified Turn 7193] Tile (28,15) is the side wall face of the (26,15)-(27,15) elevation stairs, blocking Downward movement from (28,14).
 - **Continuous Row 19 Platform Ledge Face (Cols 22-35):** [Verified Turn 7195] Row 19 is a continuous south-facing platform ledge face across Columns 22 through 35, blocking Downward movement from Row 18. Route to ground level below is Column 36 Eastern Highway.
+- **Continuous Vertical Cliff Face at Col 31 (Rows 20-28):** [Verified Turn 7213] Column 31 forms a continuous vertical cliff wall face blocking Westward movement from Column 32 across Rows 20 through 28.
