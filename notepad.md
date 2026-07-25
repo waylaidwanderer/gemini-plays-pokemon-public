@@ -595,3 +595,9 @@
 - **Team Rocket Grunt:** Sits at (29, 11). Defeated on Turn 1716. Reward: ¥360. Roster: Zubat (Lv 12), Ekans (Lv 12).
 
 <hr>
+
+<h1><code>notepads/Locations/MtMoon_B1F.md</code></h1>
+
+
+
+<hr>
