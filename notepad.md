@@ -275,11 +275,13 @@ Route 3 is structured into 3 horizontal elevation tiers:
 # Mt. Moon 1F Live Routing & Verification
 
 ## Active Target: Entrance Ladder at (15,27)
-1. **Current Position:** (21,17) facing Down [Exit Ladder Arrival Spot].
-2. **Column 21 Southward Testing:**
-   - Single-step Down x1 onto (21,18).
-   - If (21,18) is open, test Down to (21,19..24) to reach Row 24 (21,24).
-   - West along Row 24 to Col 15 (15,24).
-   - South x3 down Col 15 onto (15,27) Entrance Ladder!
+1. **Current Position:** (21,17) facing Down.
+2. **Column 25 Ground Highway Route:**
+   - Up x3 to Row 14 (21,14).
+   - Right x4 along Row 14 to Col 25 (25,14).
+   - Down x2 onto (25,15) Stairs down to (25,16) Ground Floor.
+   - Down x8 down Col 25 to Row 24 (25,24).
+   - Left x10 along Row 24 to Col 15 (15,24).
+   - Down x3 along Col 15 onto (15,27) Entrance Ladder!
 
 <hr>
