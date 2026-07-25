@@ -234,7 +234,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Continuous Vertical Cliff Face at Col 31 (Rows 20-28):** [Verified Turn 7213] Column 31 forms a continuous vertical cliff wall face blocking Westward movement from Column 32 across Rows 20 through 28.
 - **Column 22-23 Void Wall:** [Verified Turn 7318] Columns 22 and 23 across Rows 14-20 are impassable black void/cliff face, isolating Column 21 platform.
 - **Row 19 Platform Elevation:** [Verified Turn 7315] Row 19 is an elevated light purple platform. Cannot step South from Row 18 dark purple ground floor onto Row 19 without stairs.
-- **Tile (21,17) Platform:** [Verified Turn 7321] Tile (21,17) is on the upper platform level, connected West across Row 17 to Column 17.
 - **Row 14 Ground Corridor:** [Verified Turn 7334] Row 14 is open ground floor across Columns 20-28, bypassing Column 24 rock wall face below (Rows 15-18).
 - **Solid Rock Wall Face at (14,33):** [Verified Turn 7547] Tile (14,33) is a solid rock wall face blocking Southward movement along Column 14 from (14,32) into the entrance alcove.
 - Tile (25,11) Ledge Face: [Verified Turn 7610] South-facing one-way ledge face blocks Upward movement from (25,12) to (25,11).
