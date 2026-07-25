@@ -227,6 +227,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Elevation Stairs at (12..13, 9):** [Verified Turn 6861] Elevation stairs at (12..13, 9) connect ground floor (13,10) up to Row 7 Top Corridor platform at (13,8/13,7).
 - **Solid Rock Wall Face at (17,7):** [Verified Turn 6864] Solid rock wall face blocks Eastward movement along Row 7 from (16,7) to (17,7).
 - **Solid Rock Wall Face at (21,29..30):** [Verified Turn 6879] Rows 29 and 30 are solid rock wall faces across Columns 11 through 27. Bypasses between South Trench (Row 32) and North 1F are Column 10 on the West and Column 32 on the East.
+- **1F Exit Elevation Stairs at (26,15):** [Verified Turn 7016] Elevation stairs with horizontal bars located at (26..27, 15) on 1F Exit Corridor leading to Route 4 East exit!
 
 <hr>
 
