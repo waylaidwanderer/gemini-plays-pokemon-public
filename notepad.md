@@ -178,10 +178,10 @@
   - **HP:** 32 / 34
   - **Status:** Healthy
 - **TESLA (Pikachu):**
-  - **Level:** 10
-  - **Moveset:** ThunderShock (30/30 PP), Growl (40/40 PP), Thunder Wave (30/30 PP)
-  - **Stats:** Attack 16, Defense 12, Speed 25, Special 18
-  - **HP:** 28 / 28
+  - **Level:** 11
+  - **Moveset:** ThunderShock (21/30 PP), Growl (40/40 PP), Thunder Wave (30/30 PP)
+  - **Stats:** Attack 17, Defense 13, Speed 27, Special 19
+  - **HP:** 8 / 30
   - **Status:** Healthy
 - **GUSTY (Pidgey):**
   - **Level:** 5
@@ -193,7 +193,6 @@
   - **Moveset:** Tackle, Tail Whip, Quick Attack
   - **HP:** 22 / 22
   - **Status:** Healthy
-- **Truffle learned DIG:** Taught TM28 (Dig) to TRUFFLE (Paras) on Turn 4912.
 
 ## Gym Leader Misty Battle Strategy
 - **Misty's Expected Roster:**
