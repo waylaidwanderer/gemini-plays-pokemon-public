@@ -148,6 +148,7 @@
 - **Entered Melanie's House:** Entered house at (13, 15) on Turn 4109.
 - **Defeated Rival JACK:** Defeated JACK at (20, 6) on Route 24 on Turn 4416, earning ¥595.
 - **Healed at Cerulean Pokémon Center:** Healed party at (19, 17) on Turn 4422.
+- **Defeated Bug Catcher Cale:** Defeated Bug Catcher Cale at (11, 32) on Route 24 on Turn 4461, earning ¥140.
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
@@ -639,8 +640,8 @@
 - **Route 24 Bridge (Nugget Bridge Path):** Accessible from the north-center area.
 
 ## Northern Bypass to Route 24
-- **Passage barrier at Row 15:** Fences and roofs block vertical transit across row 15 except at the far left.
-- **Walkable Gap:** Columns 0-11 are completely unblocked on row 15. This allows players to walk far-left (column 0), then Up to row 12, then Right to column 20 to completely bypass the horizontal barrier.
+- **Passage barrier at Row 15:** Fences and roofs block vertical transit across row 15 across all columns in Cerulean City, including column 0 which is blocked by a cliff and water.
+- **Route 4 Map Connection Bypass:** Because of the Gen 1 Map Connection Alignment Offset (Route 4 offset is -8), walking Left from Cerulean City at y=16 transitions to Route 4 at y=8 (completely bypassing the river barrier on Route 4 which is at y=16+). From there, walk Up to y=4, then Right to transition back to Cerulean City at y=12, which is completely north of the horizontal barrier!
 - **Route 24 Entrance:** Paved brick road at columns 20-21 on rows 10-13 is completely clear and leads north directly onto Route 24.
 
 <hr>

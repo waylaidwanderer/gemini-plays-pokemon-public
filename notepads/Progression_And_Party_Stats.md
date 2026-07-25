@@ -34,6 +34,7 @@
 - **Entered Melanie's House:** Entered house at (13, 15) on Turn 4109.
 - **Defeated Rival JACK:** Defeated JACK at (20, 6) on Route 24 on Turn 4416, earning ¥595.
 - **Healed at Cerulean Pokémon Center:** Healed party at (19, 17) on Turn 4422.
+- **Defeated Bug Catcher Cale:** Defeated Bug Catcher Cale at (11, 32) on Route 24 on Turn 4461, earning ¥140.
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
