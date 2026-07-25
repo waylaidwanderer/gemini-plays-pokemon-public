@@ -52,7 +52,7 @@
 - **Item Ball at (25,14):** [Verified Turn 3294] Item Ball located at (25,14) on 1F (picked up on Turn 3294).
 
 - **Mountain Wall Barrier Across Rows 20-21 (Cols 10-23):** [Verified Turn 3535] Solid purple rock wall face forms an impassable continuous barrier across Rows 20-21 from Column 10 all the way through Column 23. Northern highway on 1F is via Column 28 (Cols 28-30).
-- **Decorative Ladder at (25,15):** [Re-verified Turn 5048] Stepping onto (25,15) on 1F triggers no warp (purely decorative graphic). Column 25 (Rows 11-15) is wide open smooth purple floor extending North past Row 13!
+- **Solid Rock Wall Face at (25,15):** [Verified Turn 5952] Tile (25,15) is a solid purple rock wall face on 1F. Westbound exit to Western 1F is Row 17 corridor (17,17 -> 10,17).
 - **Enclosed Corridor (Rows 26-27, Cols 10-27):** [Verified Turn 4755] Enclosed corridor along South edge of 1F. Primary exit to upper levels is via Column 20 North to Row 7.
 - **East Wall at Column 28 (Rows 10-18):** [Verified Turn 4783] Solid rock wall face at Column 28 blocks East from Column 27 across Rows 10-18.
 - **Row 13-17 Rock Wall at Cols 22-23:** [Verified Turn 4784] Solid rock wall face blocks West from Column 24 across Rows 13-17.
