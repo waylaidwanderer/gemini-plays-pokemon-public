@@ -28,7 +28,7 @@
 ## Connector Corridor (North-West-2)
 - **Access:**
   - Northern Ladder: at (5, 5) leading up to Mt. Moon 1F at (5, 5).
-  - Southern/Eastern Ladder: at (21, 17) is a visual ladder on B1F, but has no active warp.
+
 - **Layout:**
   - Vertical segment from (5, 5) down to (5, 16).
   - Horizontal segment from (5, 16) east to (21, 16), which goes south to (21, 17).
