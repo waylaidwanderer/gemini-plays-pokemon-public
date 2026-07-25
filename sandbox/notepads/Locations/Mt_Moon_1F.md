@@ -114,3 +114,4 @@
 - **Row 19 Ledge at Col 15:** [Verified Turn 6052] South-facing ledge face at (15,19) blocks Southward movement from (15,18). Eastbound bypass to Col 20 is Row 17.
 - **Solid Rock Wall Face at (24..28, 11):** [Verified Turn 6446] Solid rock wall face blocks Row 11 across Columns 24 through 28. Northbound bypass is Columns 21-22 (21..22, 8..12 open floor).
 - **Solid Mountain Rock Wall Face at Row 4 (Cols 20..26):** [Verified Turn 6454] Solid rock wall blocks Row 4 across Columns 20 through 26. Top corridor passage turns West along Row 5/6 (21,6 -> 17,6).
+- **Solid Rock Wall Face at (19, 6..10):** [Verified Turn 6457] Solid rock wall blocks Column 19 across Rows 6 through 10. Westbound passage connecting Column 20 to Column 18/Western 1F is at Row 5 (20,5 -> 16,5).
