@@ -73,3 +73,4 @@
 - **Solid Rock Wall Face at (28,12):** [Verified Turn 5107] Tile (28,12) is a solid purple wall face blocking Southward movement along Column 28 from (28,11).
 - **Solid Rock Wall Face at (32,12):** [Verified Turn 5110] Tile (32,12) is a solid purple wall face blocking Southward movement along Column 32 from (32,11).
 - **Solid Rock Wall Face at (21,18):** [Verified Turn 5578] Tile (21,18) is a solid rock wall face blocking Southward movement along Column 21 from (21,17).
+- **Exit Corridor Ladder at (5,5):** [Verified Turn 6410] Arrived from B2F Fossil Room ladder at (5,5), spawning at (5,5) facing Down in B1F Exit Corridor. Corridor runs South along Column 5 to row 16, then East.
