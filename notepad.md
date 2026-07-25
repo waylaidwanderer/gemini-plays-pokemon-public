@@ -218,6 +218,8 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Row 27 Cliff Barrier at Col 12:** [Verified Turn 6626] Tile (12,27) is an elevated platform cliff face blocking Eastward passage along Row 27 from (11,27) to (15,27). Route to (15,27) ladder is South down Col 10 to Row 32 Trench (10,32), East to Col 15 (15,32), and North to (15,27) ladder.
 - **Rows 29-30 Rock Wall (Cols 11-20):** [Verified Turn 6638] Solid purple rock wall face blocks Rows 29 and 30 across Columns 11 through 20. Route between Row 32 Trench and Row 27 Ladder is via Column 10 (15,32 -> 10,32 -> 10,27 -> 15,27).
 - **Rock Wall Block at (14..17, 14..15):** [Verified Turn 6653] Solid rock wall face blocks Rows 14 and 15 across Columns 14 through 17. Bypass to Row 7 Top Corridor is via Column 13 (17,16 -> 13,16 -> 13,7).
+- **NPC Obstacle at (12,8):** [Verified Turn 6674] Static NPC sprite standing at (12,8) blocks Southward movement along Column 12 on 1F. Bypass is Column 13 (12,7 -> 13,7 -> 13,11).
+- **Bug Catcher NPC at (11,16):** [Verified Turn 6682] Bug Catcher NPC standing at (11,16) blocks Westward movement along Row 16 on 1F. Bypass is Row 17 (13,16 -> 13,17 -> 10,17).
 
 <hr>
 
