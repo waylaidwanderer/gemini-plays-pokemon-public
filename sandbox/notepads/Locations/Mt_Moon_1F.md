@@ -6,31 +6,14 @@
 - **Exit Ladder Arrival Spot at (21,17):** [Verified Turn 8234] One-way warp arrival spot from B1F Exit Corridor. Does not warp down to B1F when stepped on from 1F.
 - **Side Room Warp Pair at (25,9):** 1F (25,9) <-> B2F (25,9). Stepping onto (25,9) on 1F drops player down to (25,12).
 
-## Geometry & Obstacles Summary
-- **Horizontal Corridor at Rows 16-17 (Cols 11-21):** Open purple floor corridor spanning Cols 11-21. Bounded North by Row 15 rock wall face and South by Row 18 cliff wall.
-- **Column 6 Dead End at (6,18):** [Disproved Turn 8259] Tile (6,18) is solid cliff face. Column 6 dead-ends South at Row 17.
-- **Row 24 Corridor (Cols 6-21):** Open ground floor hallway on Row 24 connecting Column 6 East to Column 10 and Column 21.
-- **South Trench (Rows 31-32, Cols 7-34):** Wide-open 2-tile horizontal trench across bottom of 1F. Connected to Row 24 via Column 10 (10,24 -> 10,32) and Column 32 (32,24 -> 32,32).
-- **Row 11 Ledge Face (Cols 24-35):** [Verified Turn 8203] Continuous south-facing ledge line across Cols 24-35 blocking Northward movement from Row 12.
-- **Elevation Stairs at (26..27, 15) & (32..33, 15):** Elevation stairs connecting Row 16 ground floor up to Row 14 upper platform.
-- **Column 31 Cliff Face (Rows 20-28):** Continuous vertical cliff face blocking Westward movement along Rows 20-28 from Column 32.
-- **True Elevation Overworld Highway to (15,27) Ladder:** [Verified Turn 8336] To cross from East Ground Floor (Col 32) to West Ground Floor (Col 15):
-  1. From (32,24) -> East along Row 24 to Col 36 (36,24).
-  2. North up Col 36 (Eastern Highway) to Row 15 (36,15).
-  3. West along Row 15 to Elevation Stairs at (32..33, 15).
-  4. Ascend stairs onto Row 14 Upper Platform, walk West across Platform to (26..27, 15) Stairs.
-  5. Descend stairs to Row 16 Ground Floor, walk South down Col 15 onto (15,27) Entrance Ladder!
-- **Row 20 Rock Wall (Cols 22-29):** [Verified Turn 8275] Solid rock wall face blocks Southward movement at Row 20 across Cols 22-29. Open Southbound corridor is at Columns 30-31!
-- **Eastern Ground Highway (Cols 36-37, Rows 12-32):** [Verified Turn 8279] Columns 36-37 form a continuous open ground floor corridor running South past the upper platform (Rows 15-19) directly to Row 24 and the South Trench.
-- **(12..13, 20..28) Wall Block:** [Verified Turn 8306] Solid 2x9 wall block across Cols 12-13 from Row 20 to Row 28.
-- **(18..19, 14..19) Wall Block:** [Verified Turn 8314] Solid 2x6 wall block across Cols 18-19 from Row 14 to Row 19. Row 17 at (17,17) is a dead-end alcove.
-- **Entrance Ladder (15,27) True Master Route:** [Verified Turn 8314] Route from West side to (15,27) Entrance Ladder is via South Trench (Row 32):
-  1. From (17,17) -> West along Row 17 to Col 10 (10,17).
-  2. South down Col 10 to Row 32 South Trench (10,32).
-  3. East along Row 32 South Trench to Col 32 (32,32).
-  4. North up Col 32 to Row 24 (32,24).
-  5. West along Row 24 to Col 15 (15,24).
-  6. South x3 down Col 15 onto (15,27) Entrance Ladder.
+## Structural Boundaries
+- **Horizontal Corridor at Rows 16-17 (Cols 10-21):** Open purple floor corridor spanning Cols 10-21. Bounded North by Row 15 rock wall face (Cols 17-21) and South by Row 18 cliff wall (Cols 17-23).
+- **South Trench (Rows 31-32, Cols 7-34):** Wide-open horizontal trench across bottom of 1F. Connected North via Column 10 (10,32 -> 10,17) and Column 32 (32,32 -> 32,24).
+- **Row 29-30 Boulder Wall (Cols 12-25):** Solid boulder wall face separating South Trench from central rooms.
+- **Column 31 Cliff Face (Rows 20-28):** Vertical cliff face separating East Ground Floor (Col 32) from Central Ground Floor (Col 25).
+- **Eastern Highway (Cols 36-37, Rows 13-32):** Open vertical highway connecting South Trench (32,32) and Row 24 (36,24) up to Row 14/13 upper passage (36,13/14).
+- **(25,15) Elevation Stairs:** Connects Row 14 Upper passage (25,14) Down onto Column 25 Ground Highway (25,16..24).
+- **Master Highway to (15,27) Entrance Ladder:** (10,17) -> South Trench (10,32) -> Col 32 (32,32) -> Row 24 (36,24) -> Col 36 (36,14) -> Row 14 (25,14) -> (25,15) Stairs DOWN -> Col 25 Ground Highway (25,24) -> Row 24 West to Col 15 (15,24) -> South x3 onto (15,27) Entrance Ladder!
 
 ## Cleared Trainers & Items
 - Bug Catcher at (7,23) [Defeated]
