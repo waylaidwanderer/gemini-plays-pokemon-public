@@ -25,12 +25,13 @@
 - **Defeated Bug Catcher Kenton:** Defeated Bug Catcher Kenton at (7, 22) on Turn 2031, earning ¥110.
 - **Obtained Item (Potion):** Found and retrieved Potion at (2, 20) on Mt. Moon 1F on Turn 2068.
 - **Defeated Bug Catcher (South-East):** Defeated Bug Catcher at (30, 27) on Mt. Moon 1F on Turn 2697, earning ¥100.
+- **Defeated Super Nerd:** Defeated Super Nerd near (24, 27) on Mt. Moon 1F on Turn 2731, earning ¥275.
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
   - **Level:** 19
   - **Moveset:** Tackle (31/35 PP), Tail Whip (30/30 PP), Bubble (29/30 PP), Water Gun (25/25 PP)
-  - **HP:** 50 / 54
+  - **HP:** 44 / 54
   - **Status:** Healthy
 - **TRUFFLE (Paras):**
   - **Level:** 11

@@ -139,12 +139,13 @@
 - **Defeated Bug Catcher Kenton:** Defeated Bug Catcher Kenton at (7, 22) on Turn 2031, earning ¥110.
 - **Obtained Item (Potion):** Found and retrieved Potion at (2, 20) on Mt. Moon 1F on Turn 2068.
 - **Defeated Bug Catcher (South-East):** Defeated Bug Catcher at (30, 27) on Mt. Moon 1F on Turn 2697, earning ¥100.
+- **Defeated Super Nerd:** Defeated Super Nerd near (24, 27) on Mt. Moon 1F on Turn 2731, earning ¥275.
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
   - **Level:** 19
   - **Moveset:** Tackle (31/35 PP), Tail Whip (30/30 PP), Bubble (29/30 PP), Water Gun (25/25 PP)
-  - **HP:** 50 / 54
+  - **HP:** 44 / 54
   - **Status:** Healthy
 - **TRUFFLE (Paras):**
   - **Level:** 11
@@ -553,7 +554,7 @@
 - **Vertical Divide (Columns 18-19):** Columns 18 and 19 form a solid vertical blue cliff dividing the eastern section from the western section across rows 8 to 19. Empirically verified to be completely BLOCKED on row 15 (at 20, 15) on Turn 2614, and on row 10 (at 20, 10) on Turn 2565.
   - **Open passage at Row 7:** Empirically verified to be completely **OPEN** on row 7 across columns 18 and 19 on Turn 2666, allowing direct horizontal transit between the middle pocket and the eastern section.
 - **Central Wall & Ledge Barrier:** Rows 20 and 21 form a solid, impassable horizontal rock wall across columns 14 to 29. There are no open vertical paths through columns 20, 21, 22, or 23 on row 20 or 21. This completely divides the southern/eastern area from the northern area of 1F.
-- **Raised Platform (West Side):** Columns 12 and 13 on rows 20 to 28 form an elevated platform.
+- **Raised Platform (West Side):** Columns 12 and 13 form a solid vertical barrier extending from row 3 down to at least row 28, blocking all horizontal transit on rows 5, 7, 12, 15, and 20-28.
   - The eastern edge (column 13) has a solid wall with no staircases on rows 22, 26, and 27. Note: on B1F, row 27 column 13 is a completely walkable corridor, but on 1F it is a solid wall.
   - Row 28 is a horizontal elevated platform segment that blocks column 14, meaning column 14 is a dead-end at row 27.
 - **Stony Floor (South-West):** Row 29 is a completely walkable stony floor across columns 10 to 19, which is situated below the platform.
