@@ -1,15 +1,17 @@
 import mgba
 import time
 
-# We are at (19, 18).
-# Let's walk to Route 24:
-# 1. Left 19 times to (0, 18)
-# 2. Up 6 times to (0, 12)
-# 3. Right 20 times to (20, 12)
-# 4. Up 12 times to go north onto Route 24
-steps = ["Left"] * 19 + ["Up"] * 6 + ["Right"] * 20 + ["Up"] * 12
+# We are at (16, 16).
+# The NPC is stunned at (15, 18).
+# Let's walk to Route 24 via row 19:
+# 1. Down 3 times to (16, 19)
+# 2. Left 16 times to (0, 19)
+# 3. Up 7 times to (0, 12)
+# 4. Right 20 times to (20, 12)
+# 5. Up 12 times to go north onto Route 24
+steps = ["Down"] * 3 + ["Left"] * 16 + ["Up"] * 7 + ["Right"] * 20 + ["Up"] * 12
 
-print("Moving to Route 24...")
+print("Moving to Route 24 via row 19...")
 for step in steps:
     mgba.press_buttons([step])
     time.sleep(0.3)
