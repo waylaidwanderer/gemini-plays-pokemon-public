@@ -43,9 +43,9 @@
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
-  - **Level:** 24
+  - **Level:** 25
   - **Moveset:** Tackle, Tail Whip, Bite, Water Gun
-  - **HP:** 26 / 67
+  - **HP:** 28 / 69
   - **Status:** Healthy
 - **TRUFFLE (Paras):**
   - **Level:** 11
