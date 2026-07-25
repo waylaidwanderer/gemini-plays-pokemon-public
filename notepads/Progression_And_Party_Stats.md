@@ -57,7 +57,7 @@
 
 ## Inventory
 - **Poké Balls:** 6 (used 1 to catch TRUFFLE on Turn 1482)
-- **Potion:** 1 (used on TRUFFLE on Turn 1671, found 1 at (2, 20) on Mt. Moon 1F on Turn 2068)
+- **Potion:** 2 (used on TRUFFLE on Turn 1671, found 1 at (2, 20) on Mt. Moon 1F on Turn 2068, found 1 at (20, 33) on Mt. Moon 1F on Turn 2711)
 - **Antidote:** 2 (found 1 on Turn 576, purchased 1 at Pewter Poké Mart on Turn 1036)
 - **HP UP:** 1 (found on Turn 1554)
 - **Moon Stone:** 1 (found on Turn 1881)
