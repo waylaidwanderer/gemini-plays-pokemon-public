@@ -144,5 +144,3 @@
 - **Row 19 Platform Elevation:** [Verified Turn 7315] Row 19 is an elevated light purple platform. Cannot step South from Row 18 dark purple ground floor onto Row 19 without stairs.
 - **Tile (21,17) Platform:** [Verified Turn 7321] Tile (21,17) is on the upper platform level, connected West across Row 17 to Column 17.
 - **Row 14 Ground Corridor:** [Verified Turn 7334] Row 14 is open ground floor across Columns 20-28, bypassing Column 24 rock wall face below (Rows 15-18).
-
-- **Tile (20,9) Ledge:** [Verified Turn 7461] Tile (20,9) has a south-facing ledge face blocking Upward movement along Column 20 from (20,10). Eastbound passage along Row 10 connects to Column 30 northbound highway.
