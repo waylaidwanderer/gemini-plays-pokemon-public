@@ -117,3 +117,4 @@
 - **Solid Rock Wall Face at (19, 6..10):** [Verified Turn 6457] Solid rock wall blocks Column 19 across Rows 6 through 10. Westbound passage connecting Column 20 to Column 18/Western 1F is at Row 5 (20,5 -> 16,5).
 - **Top Alcove Dead End at Rows 2-8 (Cols 18-22):** [Verified Turn 6460] Top corridor at Rows 2-8 (Cols 18-22) is a dead-end upper alcove bounded by Row 4/5 rock walls and Col 19 rock walls. True Westbound exit corridor on 1F is Row 17 (21,17 -> 17,17 -> 10,17).
 - **Elevated Platform Wall at (19, 14..21):** [Verified Turn 6467] Column 19 is an elevated platform cliff face blocking Westward movement from Column 20 across Rows 14 through 21.
+- **Elevation Stairs at (26..27, 15):** [Verified Turn 6472] Elevation stairs at (26..27, 15) connect upper platform to ground floor. Column 26 (Rows 19-22) is open floor leading South toward South Trench.
