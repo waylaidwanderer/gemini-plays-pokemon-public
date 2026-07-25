@@ -1,12 +1,12 @@
 # Mt. Moon 1F Live Routing & Verification
 
-## Active Target: Elevation Stairs at (33,15)
-1. **Current Position:** (36,15) facing West.
-2. **Bypass Route to Elevation Stairs at (33,15):**
-   - Boulders at (34..35, 15) block direct West along Row 15.
-   - Up x1 to Row 14 (36,14).
-   - Left x3 along Row 14 to (33,14).
-   - Down x1 onto (33,15) Elevation Stairs UP to Row 14 Upper Platform.
-   - Walk West across Upper Platform to (27,14).
-   - Descend stairs at (26..27, 15) to Row 16 Ground Floor at (26,16).
-   - Walk West to Col 15 (15,16) and South down Col 15 to (15,27) Entrance Ladder.
+## Active Target: Column 15 Entrance Ladder at (15,27)
+1. **Current Position:** (32,15) facing West.
+2. **Current Leg: Return to Column 10/15 Corridor:**
+   - From (32,15) -> Up x1 to (32,14), Right x4 to (36,14), Down x1 to (36,15).
+   - South down Col 36 to (36,24).
+   - West to Col 32 (32,24), South to South Trench (32,32).
+   - West along South Trench to Col 10 (10,32).
+   - North up Col 10 to Row 17 (10,17).
+   - East along Row 17 to Col 15 (15,17).
+   - Test South down Col 15 single-step to (15,27) Entrance Ladder!
