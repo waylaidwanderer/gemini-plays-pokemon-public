@@ -13,7 +13,7 @@
 - **Column 31 Cliff Face (Rows 20-28):** Vertical cliff face separating East Ground Floor (Col 32) from Central Ground Floor (Col 25).
 - **Eastern Highway (Cols 36-37, Rows 13-32):** Open vertical highway connecting South Trench (32,32) and Row 24 (36,24) up to Row 14/13 upper passage (36,13/14).
 - **(25,15) Elevation Stairs:** Connects Row 14 Upper passage (25,14) Down onto Column 25 Ground Highway (25,16..24).
-- **Master Highway to (15,27) Entrance Ladder:** (10,17) -> South Trench (10,32) -> Col 32 (32,32) -> Row 24 (36,24) -> Col 36 (36,14) -> Row 14 (25,14) -> (25,15) Stairs DOWN -> Col 25 Ground Highway (25,24) -> Row 24 West to Col 15 (15,24) -> South x3 onto (15,27) Entrance Ladder!
+- **Column 25 Elevation Stairs:** Tile (25,15) connects Row 14 upper platform down to Column 25 central ground floor (Rows 16-24).
 
 ## Cleared Trainers & Items
 - Bug Catcher at (7,23) [Defeated]
