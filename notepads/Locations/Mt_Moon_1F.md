@@ -118,7 +118,6 @@
 - **Row 20 Wall Passageway at Cols 30-31:** [Verified Turn 6487] Columns 30 and 31 provide an open floor passageway through the Row 20 rock wall, connecting Row 18 down to Row 22+ toward South Trench.
 - **Column 36 Eastern Highway (Rows 14-22):** [Verified Turn 6490] Column 36 is a wide-open smooth ground floor highway running South from Row 14 through Row 22 directly to South Trench. Route from (31,18) is Up to Row 14 (31,14), East to Column 36 (36,14), and South down Column 36.
 
-- **Row 16-19 Open Cross Corridor (Cols 17-22):** [Verified Turn 6855] Rows 16, 17, 18, 19 across Columns 17 through 22 are wide-open smooth floor, directly connecting Western 1F to Eastern 1F at (17,17) -> (21,17)!
 - **Column 6 Barrier at Row 15:** [Verified Turn 6624] Column 6 is blocked by a solid rock wall face across Rows 14-20 at (6,14..20). Western Chamber is enclosed and does not lead North to Row 7.
 - **Row 27 Cliff Barrier at Col 12:** [Verified Turn 6626] Tile (12,27) is an elevated platform cliff face blocking Eastward passage along Row 27 from (11,27) to (15,27). Route to (15,27) ladder is South down Col 10 to Row 32 Trench (10,32), East to Col 15 (15,32), and North to (15,27) ladder.
 - **Rows 29-30 Rock Wall (Cols 11-20):** [Verified Turn 6638] Solid purple rock wall face blocks Rows 29 and 30 across Columns 11 through 20. Route between Row 32 Trench and Row 27 Ladder is via Column 10 (15,32 -> 10,32 -> 10,27 -> 15,27).
