@@ -27,7 +27,7 @@
 - **Badges:** 1 (Boulder Badge) [Obtained from Brock on Turn 565]
 - **Starter Pokémon:** Wartortle (Lv 33) [Level 33 verified on Turn 6402]
   - **Nickname:** SHELLSHOCK
-  - **Moves:** Tackle (0/35 PP), Bite, Bubble, Water Gun
+  - **Moves:** Tackle (0/35 PP), Bite (0/25 PP), Bubble, Water Gun
   - **HP:** Fully Healed at Pewter Center on Turn 2658
 - **Route 1 Geometry:** South-facing ledges at y=27 (gap at x=6..8), y=23 (gap at x=12..15), y=19 (gap at x=4..5), and y=13 (gap at x=15..16) [Verified Turns 189-217].
 - **Key Items:** Pokédex (Obtained from Prof. Oak on Turn 265).
