@@ -152,10 +152,10 @@
   - **HP:** 30 / 30
   - **Status:** Healthy
 - **TESLA (Pikachu):**
-  - **Level:** 8
-  - **Moveset:** ThunderShock (28/30 PP), Growl (40/40 PP)
-  - **Stats:** Attack 12, Defense 10, Speed 19, Special 12
-  - **HP:** 22 / 24
+  - **Level:** 10
+  - **Moveset:** ThunderShock (18/30 PP), Growl (40/40 PP), Thunder Wave (30/30 PP)
+  - **Stats:** Attack 14, Defense 11, Speed 22, Special 14
+  - **HP:** 15 / 26
   - **Status:** Healthy
 - **GUSTY (Pidgey):**
   - **Level:** 5
@@ -580,7 +580,7 @@
     - This platform serves as a direct overworld corridor that connects the starting platform (rows 8-11) directly to the lower level (row 24/25)!
   - **Vertical Chamber:** Columns 20 to 23, rows 14 to 19. This chamber is at the lower level and connects directly to row 12. Bounded by rock walls on columns 18-19 on the left on rows 14 to 21.
   - **Upper Niche:** Columns 20 to 22, rows 5 to 7. Bounded by rock walls on row 4, column 19, and column 23. Elevated above the vertical chamber by an impassable one-way ledge/cliff face on row 11 (columns 20-22).
-  - **Wall Blockage (Burden of Proof Updated):** Columns 18-19 form a rock wall on rows 14 to 21, but are completely **OPEN** on row 12 and rows 22-27, allowing direct horizontal transit between the starting area and the main cavern!
+  - **Wall Blockage:** Columns 18-19 form a rock wall on rows 14 to 21.
 
 ## Items
 - **Poké Ball (Top-Right):** Sits at (29, 5) (Retrieved on Turn 1722).
