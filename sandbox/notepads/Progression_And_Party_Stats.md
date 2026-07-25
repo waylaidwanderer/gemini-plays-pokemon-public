@@ -63,7 +63,7 @@
   - **Level:** 10
   - **Moveset:** ThunderShock (30/30 PP), Growl (40/40 PP), Thunder Wave (30/30 PP)
   - **Stats:** Attack 16, Defense 12, Speed 25, Special 18
-  - **HP:** 8 / 28
+  - **HP:** 28 / 28
   - **Status:** Healthy
 - **GUSTY (Pidgey):**
   - **Level:** 5

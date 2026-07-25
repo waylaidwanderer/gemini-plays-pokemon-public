@@ -15,9 +15,10 @@
 ## Verified Outside Door & Warp Mappings
 | Outside Door | Standard Map Location | Verified Interior Room / Warp Destination | Notes / Functionality |
 |--------------|-----------------------|-------------------------------------------|-----------------------|
-| (19, 17)     | Pokémon Center        | Bill Fan's House                          | Contains Bill Fan NPC, styled as a house. No healing. |
+| (19, 17)     | Pokémon Center        | Pokémon Center                            | Functional Pokémon Center! Stand at (3, 3) and talk to Nurse Joy to heal. |
 | (13, 15)     | Melanie's House       | Melanie's House                           | Contains Jynx trade NPC, styled as a house. No healing. |
 | (25, 25)     | Poké Mart             | Melanie's House                           | Contains Jynx trade NPC, styled as a house. No healing. |
 | (9, 11)      | Badge Guy's House     | Badge Guy's House                         | Contains Badge Guy NPC. Rendered with a misleading Pokémon Center tileset (PC on right, counter on top), but has NO healing function. |
 | (13, 25)     | Bike Shop             | Bike Shop                                 | Standard Bike Shop interior. |
 | (30, 19)     | Cerulean Gym          | Cerulean Gym                              | Standard Gym interior. Misty is here. |
+| (27, 11)     | Burgled House         | Burgled House Interior                    | Messy house with footprints. Exit hole at (3, 0) inside warps to backyard at (27, 9). |
