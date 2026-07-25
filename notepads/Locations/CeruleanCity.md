@@ -7,3 +7,8 @@
 - **Cerulean Gym:** Large building located on the east side, north of the Mart. Sign reads "GYM" at (26, 18) / (27, 18).
 - **Poké Mart:** Building located south of the Gym. Sign reads "MART" at (26, 24) / (27, 24) with entrance at (25, 25).
 - **Route 24 Bridge (Nugget Bridge Path):** Accessible from the north-center area.
+
+## Northern Bypass to Route 24
+- **Passage barrier at Row 15:** Fences and roofs block vertical transit across row 15 except at the far left.
+- **Walkable Gap:** Columns 0-11 are completely unblocked on row 15. This allows players to walk far-left (column 0), then Up to row 12, then Right to column 20 to completely bypass the horizontal barrier.
+- **Route 24 Entrance:** Paved brick road at columns 20-21 on rows 10-13 is completely clear and leads north directly onto Route 24.
