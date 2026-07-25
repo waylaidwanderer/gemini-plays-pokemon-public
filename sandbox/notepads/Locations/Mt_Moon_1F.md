@@ -58,7 +58,7 @@
 - **Row 15 Ledge/Stairs Face at Col 31:** [Verified Turn 6974] Tile (31,15) is an upward elevation stair/wall face blocking Downward movement from (31,14). Access down to Row 16 ground floor is via Column 32 stairs at (32,15).
 
 - **Row 15-23 Rock Wall at Cols 22-23:** [Verified Turn 4819] Solid rock wall face blocks West from Column 24 across Rows 15-23.
-- **(14,28) Wall Boundary:** [Verified Turn 4835] Solid rock wall face at (14,28) blocks Southward movement from (14,27).
+
 - **Solid Rock Wall Face at (28,26):** [Verified Turn 5038] Solid purple rock wall face blocks Eastward movement at (28,26) on 1F.
 - **Northbound Highway at Columns 30-31 (Rows 7-11):** [Verified Turn 5053] Columns 30-31 form a wide-open northbound highway across Rows 8-9 connecting Row 11 directly to Row 7 Top Upper Corridor! NPC located at (30,4).
 - **Solid Impassable Boundary at (13,20) & (12,20):** [Verified Turns 5136/5144] Tiles (13,20) and (12,20) are impassable cliff boundaries blocking Southward movement from (13,19) and (12,19).
