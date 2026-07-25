@@ -34,6 +34,7 @@
 - **Route 1 Geometry:** South-facing ledges at y=27 (gap at x=6..8), y=23 (gap at x=12..15), y=19 (gap at x=4..5), and y=13 (gap at x=15..16) [Verified Turns 189-217].
 - **Key Items:** Pokédex (Obtained from Prof. Oak on Turn 265).
 - **Inventory:** 5 Poké Balls, TM34 (Bide), TM01 (Mega Punch), Ether, Escape Rope, HP Up, 0 Potions.
+- **Fossil Item:** Obtained Dome Fossil on Mt. Moon B2F [Turn 6146].
 
 <hr>
 
