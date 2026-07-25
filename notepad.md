@@ -224,6 +224,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Tile (25,9) One-Way Arrival Landing:** [Verified Turn 6795] Tile (25,9) on Mt. Moon 1F is a one-way landing from B1F (25,9). Stepping onto (25,9) on 1F slides/drops the player down to (25,12).
 - **Solid Rock Wall Face at (28,15):** [Verified Turn 6800] Solid rock wall face blocks Southward movement from (28,14) to (28,15). Bypass is elevation stairs at (27,15) -> (27,16).
 - **Row 15 Ledge Face at Cols 30-31:** [Verified Turn 6809] Row 15 at Cols 30-31 is a south-facing ledge face blocking Upward movement from (30,16). Northbound bypass is elevation stairs at (32,15) -> (32,14) or (27,15) -> (27,14).
+- **Solid Rock Wall Face at (35..39, 25):** [Verified Turn 6821] Row 25 is blocked by a solid rock wall face across Columns 35 through 39. Southbound bypass is Columns 32-34 (36,24 -> 32,24 -> South down Col 32).
 
 <hr>
 
