@@ -108,3 +108,4 @@
 - **South Trench West Exit at Cols 7-10:** [Verified Turn 5989] Columns 7-10 on Rows 28-32 are wide-open smooth purple floor, bypassing Rows 29-30 rock wall face and connecting South Trench directly North to Row 27 and (13,27) Entrance Ladder!
 - **Functional Entrance Ladder at (15,27):** [Verified Turn 5990] Entrance ladder tile is located at (15,27) on Row 27, connected directly East of Col 10 (10,27 -> 15,27) to warp down to B1F!
 - **Elevated Platform Wall at (12..13, 23..28):** [Verified Turn 5991] Vertical cliff face blocks Eastward movement from Col 11 to Col 12 across Rows 23-28. Route to (15,27) ladder is North along Col 11 to Row 17 (11,17), East to Col 15 (15,17), and South to (15,27) ladder!
+- **Solid Impassable Boundary at (13,20) & (12,20):** [Verified Turn 6004] Row 20 blocks Southward movement along Col 15 at (15,20). Access to Entrance Ladder area is via Col 10 South.
