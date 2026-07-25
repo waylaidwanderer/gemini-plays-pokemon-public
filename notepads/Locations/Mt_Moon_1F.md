@@ -115,3 +115,4 @@
 - **Solid Rock Wall Face at (24..28, 11):** [Verified Turn 6446] Solid rock wall face blocks Row 11 across Columns 24 through 28. Northbound bypass is Columns 21-22 (21..22, 8..12 open floor).
 - **Solid Mountain Rock Wall Face at Row 4 (Cols 20..26):** [Verified Turn 6454] Solid rock wall blocks Row 4 across Columns 20 through 26. Top corridor passage turns West along Row 5/6 (21,6 -> 17,6).
 - **Solid Rock Wall Face at (19, 6..10):** [Verified Turn 6457] Solid rock wall blocks Column 19 across Rows 6 through 10. Westbound passage connecting Column 20 to Column 18/Western 1F is at Row 5 (20,5 -> 16,5).
+- **Top Alcove Dead End at Rows 2-8 (Cols 18-22):** [Verified Turn 6460] Top corridor at Rows 2-8 (Cols 18-22) is a dead-end upper alcove bounded by Row 4/5 rock walls and Col 19 rock walls. True Westbound exit corridor on 1F is Row 17 (21,17 -> 17,17 -> 10,17).
