@@ -259,12 +259,13 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 <h1><code>Scratchpad/Mt_Moon_Master_Route</code></h1>
 
-# Mt. Moon 1F Single-Step Verification Plan to (15,27) Ladder
+# Mt. Moon 1F Live Routing & Verification
 
-## Target: Test Column 16 Southbound Corridor from Row 16 to (16,27)
-1. **From (22,9) to (22,16):** Walk South down Column 22 to Row 16.
-2. **From (22,16) to (16,16):** Walk West along Row 16 to Column 16.
-3. **Column 16 Descent:** Test single-step transitions South down Column 16 from (16,16) toward (16,27).
-4. **Ladder Entry:** From (16,27), step Left onto (15,27) Ladder Tile.
+## Active Target: Entrance Ladder at (15,27)
+1. **Current Position:** (32,14) on Mt. Moon 1F Ground Floor.
+2. **Path East to Column 36 Ground Highway:** Walk Right x4 (32,14 -> 36,14).
+3. **South Descent down Column 36/37:** Walk Down x10 along Column 36/37 (36,14 -> 36,24).
+4. **West along Row 24 / South Trench:** Walk West to Column 15 (15,24 or 15,32).
+5. **Ladder Ascent:** Walk Up along Column 15 to (15,27) Entrance Ladder.
 
 <hr>
