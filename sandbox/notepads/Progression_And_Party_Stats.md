@@ -29,17 +29,16 @@
 - **Defeated Super Nerd:** Defeated Super Nerd near (24, 27) on Mt. Moon 1F on Turn 2731, earning ¥275.
 
 - **Entered Cerulean City:** Arrived in Cerulean City from Route 4 on Turn 4062.
-- **Healed at Cerulean Pokémon Center:** Healed party at (19, 17) on Turn 4070.
 - **Entered Cerulean Gym:** Entered Gym at (30, 19) on Turn 4088.
 - **Entered Melanie's House:** Entered house at (13, 15) on Turn 4109.
 - **Defeated Rival JACK:** Defeated JACK at (20, 6) on Route 24 on Turn 4416, earning ¥595.
-- **Healed at Cerulean Pokémon Center:** Healed party at (19, 17) on Turn 4422.
 - **Defeated Bug Catcher Cale:** Defeated Bug Catcher Cale at (11, 32) on Route 24 on Turn 4461, earning ¥140.
 - **Defeated Lass Ali:** Defeated Lass Ali at (10, 28) on Route 24 on Turn 4475, earning ¥210.
 - **Defeated Youngster Timmy:** Defeated Youngster Timmy at (11, 25) on Route 24 on Turn 4501, earning ¥210.
 - **Defeated Lass:** Defeated Lass at (10, 22) on Route 24 on Turn 4514, earning ¥240.
 - **Defeated Jr. Trainer♂:** Defeated Jr. Trainer♂ at (11, 19) on Route 24 on Turn 4529, earning ¥360.
 - **Defeated Rocket Grunt:** Defeated Rocket Grunt at (11, 15) on Route 24 on Turn 4558, earning ¥450.
+- **Entered Route 25:** Arrived on Route 25 on Turn 4642.
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
