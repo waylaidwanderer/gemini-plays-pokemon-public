@@ -580,7 +580,7 @@
 ## Overworld Layout & Navigation
 - **Access Ladders:**
   - (25, 9): Leads up to B1F at (17, 11) (accessed from the starting platform).
-  - (21, 17): Connection to B1F at (21, 17) is UNVERIFIED (not yet physically tested by climbing).
+  - (21, 17): Inactive visual ladder with no active warp.
   - (15, 27): Bidirectional ladder. Leads up to B1F at (13, 27) (empirically verified on Turn 2807).
 - **Starting Platform & Chambers (Isolated Area):**
   - **Starting Platform:** Columns 24 to 28, rows 8 to 11. Bounded by rock walls on row 7. Row 11 is a solid wall at the bottom of the starting platform, blocking all downward traversal to row 12, making the platform a complete dead-end.
