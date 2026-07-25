@@ -132,3 +132,4 @@
 - **Solid Rock Wall Face at (28,15):** [Verified Turn 6800] Solid rock wall face blocks Southward movement from (28,14) to (28,15). Bypass is elevation stairs at (27,15) -> (27,16).
 - **Row 15 Ledge Face at Cols 30-31:** [Verified Turn 6809] Row 15 at Cols 30-31 is a south-facing ledge face blocking Upward movement from (30,16). Northbound bypass is elevation stairs at (32,15) -> (32,14) or (27,15) -> (27,14).
 - **Solid Rock Wall Face at (35..39, 25):** [Verified Turn 6821] Row 25 is blocked by a solid rock wall face across Columns 35 through 39. Southbound bypass is Columns 32-34 (36,24 -> 32,24 -> South down Col 32).
+- **Vertical Cliff Face at Col 18 (Rows 14-20):** [Verified Turn 6858] Columns 18 and 19 form a solid elevated platform cliff face blocking Eastward movement from (17,17) to (18,17) across Rows 14 through 20. Western 1F (Cols 2-17) connects to Eastern 1F via Row 7 Top Corridor or Row 32 South Trench.
