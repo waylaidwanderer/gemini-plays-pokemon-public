@@ -112,3 +112,4 @@
 - **Entrance Corridor Route (Col 14, Rows 27-32):** [Verified Turn 6009] Column 14 is open smooth floor across Rows 27-32, connecting Row 32 directly North to (14,27) and (15,27) Entrance Ladder!
 - **Vertical Cliff Face at (12,28):** [Verified Turn 6039] Solid cliff face blocks Eastward movement from (11,28) to (12,28).
 - **Solid Rock Wall Face at (6,24):** [Verified Turn 6043] Solid purple rock wall face blocks Westward movement from (7,24) to (6,24). Western corridor/cavern floor is at Columns 7 through 11 extending North past Row 20!
+- **Row 19 Ledge at Col 15:** [Verified Turn 6052] South-facing ledge face at (15,19) blocks Southward movement from (15,18). Eastbound bypass to Col 20 is Row 17.
