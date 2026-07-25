@@ -136,7 +136,6 @@
 - **Solid Rock Wall Face at (21,29..30):** [Verified Turn 6879] Rows 29 and 30 are solid rock wall faces across Columns 11 through 27. Bypasses between South Trench (Row 32) and North 1F are Column 10 on the West and Column 32 on the East.
 - **1F Exit Elevation Stairs at (26,15):** [Verified Turn 7016] Elevation stairs with horizontal bars located at (26..27, 15) on 1F Exit Corridor leading to Route 4 East exit!
 - **Row 11 Ledge Face at Cols 24-35:** [Verified Turns 7048, 7120] Row 11 has a continuous south-facing ledge face across Cols 24 through 35 blocking Upward movement from Row 12 (including 26..35, 11).
-- **Row 19 Ledge Face at (27..35, 19):** [Verified Turn 7074] Row 19 has a continuous south-facing ledge face across Cols 27 through 35 blocking Downward movement from Row 18.
 - **Rock Wall Boundary at (20,4):** [Verified Turn 7094] Column 20 dead-ends North at Row 5 into a solid rock wall face at (20,4).
 - **Tile (28,15) Stair Side Wall:** [Verified Turn 7193] Tile (28,15) is the side wall face of the (26,15)-(27,15) elevation stairs, blocking Downward movement from (28,14).
 - **Continuous Row 19 Platform Ledge Face (Cols 22-35):** [Verified Turn 7195] Row 19 is a continuous south-facing platform ledge face across Columns 22 through 35, blocking Downward movement from Row 18. Route to ground level below is Column 36 Eastern Highway.
