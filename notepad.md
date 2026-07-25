@@ -220,6 +220,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Rock Wall Block at (14..17, 14..15):** [Verified Turn 6653] Solid rock wall face blocks Rows 14 and 15 across Columns 14 through 17. Bypass to Row 7 Top Corridor is via Column 13 (17,16 -> 13,16 -> 13,7).
 - **NPC Obstacle at (12,8):** [Verified Turn 6674] Static NPC sprite standing at (12,8) blocks Southward movement along Column 12 on 1F. Bypass is Column 13 (12,7 -> 13,7 -> 13,11).
 - **Bug Catcher NPC at (11,16):** [Verified Turn 6682] Bug Catcher NPC standing at (11,16) blocks Westward movement along Row 16 on 1F. Bypass is Row 17 (13,16 -> 13,17 -> 10,17).
+- **Rock Wall Block at (29..30, 12..15):** [Verified Turn 6703] Solid rock wall face blocks Rows 12-15 across Columns 29-30. Northbound bypass is Row 10 corridor (31,14 -> 31,10 -> 25,10 -> 25,9).
 
 <hr>
 
