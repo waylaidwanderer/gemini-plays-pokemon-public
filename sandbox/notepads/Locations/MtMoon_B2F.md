@@ -3,7 +3,7 @@
 ## Overworld Layout & Navigation
 - **Access Ladders:**
   - (25, 9): Leads up to B1F at (17, 11) (accessed from the starting platform).
-  - (21, 17): Inactive visual ladder with no active warp.
+  - (21, 17): Active ladder. Leads up to Mt. Moon B1F at (21, 17). (Verified active on Turn 3716).
   - (15, 27): Bidirectional ladder. Leads up to B1F at (13, 27) (empirically verified on Turn 2807).
 - **Starting Platform & Chambers (Isolated Area):**
   - **Starting Platform:** Columns 24 to 28, rows 8 to 11. Bounded by rock walls on row 7. Row 11 is bounded by a solid rock wall on the south (row 12) and cannot be jumped down.
