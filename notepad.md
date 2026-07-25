@@ -199,7 +199,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Functional Entrance Ladder at (15,27):** [Verified Turn 5990] Entrance ladder tile is located at (15,27) on Row 27, connected directly East of Col 10 (10,27 -> 15,27) to warp down to B1F!
 - **Elevated Platform Wall at (12..13, 23..28):** [Verified Turn 5991] Vertical cliff face blocks Eastward movement from Col 11 to Col 12 across Rows 23-28.
 - **Solid Impassable Boundary at (13,20) & (12,20):** [Verified Turn 6004] Row 20 blocks Southward movement along Col 15 at (15,20). Access to Entrance Ladder area is via Col 10 South.
-- **Entrance Corridor Route (Col 14, Rows 27-32):** [Verified Turn 6009] Column 14 is open smooth floor across Rows 27-32, connecting Row 32 directly North to (14,27) and (15,27) Entrance Ladder!
+- **Fossil Platform Ledge (Rows 7-8, Cols 12-15):** [Verified Turn 6121] Row 7 has a south-facing ledge face across Cols 12-15 blocking Upward movement from Row 8. Column 16 (16,8 -> 16,7) provides the open slope connecting Row 8 up to Row 7 Fossil Platform!
 - **Vertical Cliff Face at (12,28):** [Verified Turn 6039] Solid cliff face blocks Eastward movement from (11,28) to (12,28).
 - **Solid Rock Wall Face at (6,24):** [Verified Turn 6043] Solid purple rock wall face blocks Westward movement from (7,24) to (6,24). Western corridor/cavern floor is at Columns 7 through 11 extending North past Row 20!
 - **Row 19 Ledge at Col 15:** [Verified Turn 6052] South-facing ledge face at (15,19) blocks Southward movement from (15,18). Eastbound bypass to Col 20 is Row 17.
