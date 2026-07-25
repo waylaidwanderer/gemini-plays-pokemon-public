@@ -52,8 +52,8 @@
   - **Level:** 27
   - **Moveset:** Tackle (34/35 PP), Tail Whip (30/30 PP), Bite (23/25 PP), Water Gun (24/25 PP)
   - **Stats:** Attack 51, Defense 57, Speed 44, Special 49
-  - **HP:** 55 / 74
-  - **Status:** Slightly Damaged
+  - **HP:** 74 / 74
+  - **Status:** Healthy
 - **TRUFFLE (Paras):**
   - **Level:** 12
   - **Moveset:** Scratch (35/35 PP), Dig (10/10 PP)
