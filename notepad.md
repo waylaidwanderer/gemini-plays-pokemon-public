@@ -230,6 +230,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **1F Exit Elevation Stairs at (26,15):** [Verified Turn 7016] Elevation stairs with horizontal bars located at (26..27, 15) on 1F Exit Corridor leading to Route 4 East exit!
 - **Row 11 Ledge Face at Cols 24-28:** [Verified Turn 7048] Row 11 has a south-facing ledge face across Cols 24-28 blocking Upward movement from Row 12 (including 26..28, 11). Access to Row 11/exit doorway at (29,11) is via Column 32 elevation stairs at (32,15) -> (32,11) -> West along Row 11 to (29,11).
 - **Row 19 Ledge Face at (27..35, 19):** [Verified Turn 7074] Row 19 has a continuous south-facing ledge face across Cols 27 through 35 blocking Downward movement from Row 18.
+- **Rock Wall Boundary at (20,4):** [Verified Turn 7094] Column 20 dead-ends North at Row 5 into a solid rock wall face at (20,4).
 
 <hr>
 
