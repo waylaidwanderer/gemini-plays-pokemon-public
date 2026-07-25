@@ -81,7 +81,6 @@
 - **South Boundary Rock Wall Face at Rows 34-35 (Cols 27-36):** [Verified Turn 5498] Solid mountain rock wall face blocks Rows 34-35 across Columns 27 through 36 on 1F.
 - **East Boundary Rock Wall Face at Column 38 (Rows 29-35):** [Verified Turn 5499] Solid purple rock wall face blocks Column 38 across Rows 29 through 35 on 1F.
 - **North-West Exit Ladder at (5,5):** [Verified Turn 5551] Functional ladder located at (5,5) in North-West chamber of 1F!
-
 - **Bug Catcher NPC at (5,6):** [Verified Turn 5551] Bug Catcher NPC standing at (5,6) below (5,5) ladder.
 - **Decorative Ladder at (21,17):** [Verified Turn 5627] Stepping onto (21,17) on 1F triggers no warp (purely decorative graphic tile).
 - **Row 11 Ledge at Cols 24-28:** [Verified Turn 5639] Row 11 has a south-facing ledge face across Cols 24-28 blocking Upward movement from Row 12. Passage North from Row 12 is via Column 30+ (30,12 -> 30,11).
