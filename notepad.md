@@ -149,6 +149,7 @@
 - **Defeated Rival JACK:** Defeated JACK at (20, 6) on Route 24 on Turn 4416, earning ¥595.
 - **Healed at Cerulean Pokémon Center:** Healed party at (19, 17) on Turn 4422.
 - **Defeated Bug Catcher Cale:** Defeated Bug Catcher Cale at (11, 32) on Route 24 on Turn 4461, earning ¥140.
+- **Defeated Lass Ali:** Defeated Lass Ali at (10, 28) on Route 24 on Turn 4475, earning ¥210.
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
