@@ -6,7 +6,7 @@
   - (25, 15): Leads to Mt. Moon B1F Platform 1.
   - (17, 11): Newly observed ladder on the north-western side.
   - (5, 5): Leads to Mt. Moon B1F Connector Corridor (North-West-2) at (5, 5).
-  - Note on Southern Warp: When exiting B1F at (13, 27), the game places the player at the landing coordinate (15, 27) on 1F. There is no interactive warp tile at (15, 27) or (13, 27) on 1F; it is a one-way landing spot from B1F.
+
 
 ## Signposts & Points of Interest
 - **Signpost at (15, 23):** Reads: "Beware! ZUBAT is a blood sucker!"
