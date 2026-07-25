@@ -694,6 +694,10 @@
   - **Roster:** Slowpoke (Lv 17)
   - **Status:** Defeated on Turn 4675.
   - **Reward:** ¥??
+- **Lass Robin:** Sits at (18, 8) originally, engaged at (20, 8) facing Left.
+  - **Roster:** Nidoran♂ (Lv 15), ??? (Lv ??)
+  - **Status:** Engaged on Turn 4691.
+  - **Reward:** ¥??
 
 
 <hr>
