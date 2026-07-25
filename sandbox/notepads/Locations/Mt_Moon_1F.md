@@ -145,3 +145,4 @@
 - **Tile (21,17) Platform:** [Verified Turn 7321] Tile (21,17) is on the upper platform level, connected West across Row 17 to Column 17.
 - **Row 14 Ground Corridor:** [Verified Turn 7334] Row 14 is open ground floor across Columns 20-28, bypassing Column 24 rock wall face below (Rows 15-18).
 - **Solid Rock Wall Face at (14,33):** [Verified Turn 7547] Tile (14,33) is a solid rock wall face blocking Southward movement along Column 14 from (14,32) into the entrance alcove.
+- Tile (25,11) Ledge Face: [Verified Turn 7610] South-facing one-way ledge face blocks Upward movement from (25,12) to (25,11).
