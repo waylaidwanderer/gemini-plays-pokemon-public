@@ -259,15 +259,13 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 # Mt. Moon 1F Live Routing & Verification
 
-## Active Target: Entrance Ladder at (15,27) via Row 10 Upper Cavern
+## Active Target: Entrance Ladder at (15,27) via Elevation Stairs at (32,15)
 1. **Current Position:** (31,12) facing Up.
-2. **Current Leg (Row 10 Cavern -> Col 25):**
-   - Walk Up x2 along Column 31 to Row 10 at (31,10).
-   - Walk Left x6 along Row 10 to Column 25 at (25,10).
-3. **Next Leg (Col 25 -> Elevation Stairs -> Central Ground Floor):**
-   - Walk Down x5 along Column 25 through Elevation Stairs at (25,15) onto Central Ground Floor at (25,16).
-4. **Final Leg (Central Ground Floor -> Entrance Ladder):**
-   - Walk Down x11 along Column 25 to Row 27 at (25,27).
-   - Walk Left x10 along Row 27 to Entrance Ladder at (15,27) to warp to B1F!
+2. **Current Leg (Take Elevation Stairs at 32,15 to Central Ground Floor):**
+   - Right x1 to (32,12).
+   - Down x3 through Elevation Stairs at (32,15) onto Central Ground Floor at (32,16).
+3. **Final Leg (Central Ground Floor -> Entrance Ladder):**
+   - Down x11 along Column 32 to Row 27 at (32,27).
+   - Left x17 along Row 27 to Entrance Ladder at (15,27) to warp to B1F!
 
 <hr>
