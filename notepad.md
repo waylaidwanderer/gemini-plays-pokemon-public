@@ -146,7 +146,7 @@
 - **SHELLBY (Wartortle):**
   - **Level:** 19
   - **Moveset:** Tackle (31/35 PP), Tail Whip (30/30 PP), Bubble (29/30 PP), Water Gun (25/25 PP)
-  - **HP:** 44 / 54
+  - **HP:** 39 / 54
   - **Status:** Healthy
 - **TRUFFLE (Paras):**
   - **Level:** 11
