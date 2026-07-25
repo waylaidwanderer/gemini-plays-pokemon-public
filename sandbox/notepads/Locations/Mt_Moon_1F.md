@@ -86,3 +86,4 @@
 - **Elevation Stairs at (32,15)-(33,15):** [Verified Turn 5662] Tile (31,15) is a solid rock wall face. Elevation stairs connecting Row 16 up to Row 14 are at (32..33, 15). Route North from Row 16 is (31,16) -> (32,16) -> (32,15) -> (32,14).
 
 - **Western Chamber East Wall Barrier at Column 8 (Rows 7-15):** [Verified Turn 5796] Solid rock wall face along Column 8 completely blocks Eastward passage from Western Chamber across Rows 7 through 15. Only exit from Western Chamber is South via Column 6 to Row 24.
+- **Solid Rock Wall Face at (23,7):** [Verified Turn 5831] Tile (23,7) is a solid rock wall face blocking Eastward movement along Row 7 from (22,7).
