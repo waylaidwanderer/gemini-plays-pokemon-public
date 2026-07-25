@@ -176,6 +176,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Decorative Ladder at (21,17):** [Verified Turn 5627] Stepping onto (21,17) on 1F triggers no warp (purely decorative graphic tile).
 - **Row 11 Ledge at Cols 24-28:** [Verified Turn 5639] Row 11 has a south-facing ledge face across Cols 24-28 blocking Upward movement from Row 12. Passage North from Row 12 is via Column 30+ (30,12 -> 30,11).
 - **Rock Boulder Pillar at (29,12)-(30,14):** [Verified Turn 5645] Solid 2x3 rock boulder face blocks (29..30, 12..14). Route East to Column 31 is via Row 15 (28,15 -> 31,15 -> 31,11).
+- **Elevation Stairs at (32,15)-(33,15):** [Verified Turn 5662] Tile (31,15) is a solid rock wall face. Elevation stairs connecting Row 16 up to Row 14 are at (32..33, 15). Route North is (31,16) -> (32,16) -> (32,15) -> (32,14) -> (32,7).
 
 <hr>
 
