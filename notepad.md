@@ -338,5 +338,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Vertical Cliff Face at Col 31 (Rows 20-28):** Column 31 is an impassable vertical cliff face blocking Westward movement from Column 32 to Column 31 across Rows 20 through 28. Ground-level passage West to Column 25 is Row 32 (32,32 -> 25,32 -> 25,22).
 - **Row 29-30 Rock Wall Barrier (Cols 21-30):** [Verified Turn 6296] Solid purple rock wall face blocks Rows 29 and 30 across Columns 21 through 30. Column 32 (32,29-30) is the open vertical corridor connecting South Row 32 to North Rows 22-28.
 - **Tile (31,26) Cliff Face:** [Verified Turn 6311] Tile (31,26) is an impassable cliff face blocking Westward movement along Row 26 from (32,26).
+- **Tile (31,22) Cliff Face:** [Verified Turn 6284 & 6317] Tile (31,22) is an impassable cliff face blocking Westward movement along Row 22 from (32,22).
 
 <hr>
