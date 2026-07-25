@@ -103,7 +103,7 @@
 - **Vertical Cliff Face at Col 31 (Rows 26-28):** [Verified Turn 5965] Vertical cliff face blocks Westward movement from (32,27) to (31,27). Exit from Bottom-Right Cavern is North via Col 36 Eastern Highway.
 - **Row 31-32 South Passage:** [Verified Turn 5985] Row 31 and Row 32 are open smooth floor passing directly under Col 31 cliff wall, connecting Bottom-Right Cavern (32,32) West to Col 28 (28,32) and Western 1F!
 - **South Trench West Exit at Cols 7-10:** [Verified Turn 5989] Columns 7-10 on Rows 28-32 are wide-open smooth purple floor, bypassing Rows 29-30 rock wall face and connecting South Trench directly North to Row 27 and (13,27) Entrance Ladder!
-- **Functional Entrance Ladder at (13,27):** [Verified Turn 7401] Entrance ladder tile is located at (13,27) on Row 27, warping down to B1F.
+- **Functional Entrance Ladder at (13,23):** [Verified Turn 7412] Entrance ladder warp tile is located at (13,23), connected via Row 24-27 corridor to (14,35) entrance.
 - **Elevated Platform Wall at (12..13, 23..28):** [Verified Turn 5991] Vertical cliff face blocks Eastward movement from Col 11 to Col 12 across Rows 23-28.
 - **Fossil Platform Ledge (Rows 7-8, Cols 12-15):** [Verified Turn 6121] Row 7 has a south-facing ledge face across Cols 12-15 blocking Upward movement from Row 8. Column 16 (16,8 -> 16,7) provides the open slope connecting Row 8 up to Row 7 Fossil Platform!
 - **Vertical Cliff Face at (12,28):** [Verified Turn 6039] Solid cliff face blocks Eastward movement from (11,28) to (12,28).
