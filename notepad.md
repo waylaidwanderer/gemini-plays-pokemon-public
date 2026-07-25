@@ -153,13 +153,14 @@
 - **Defeated Jr. Trainer♂:** Defeated Jr. Trainer♂ at (11, 19) on Route 24 on Turn 4529, earning ¥360.
 - **Defeated Rocket Grunt:** Defeated Rocket Grunt at (11, 15) on Route 24 on Turn 4558, earning ¥450.
 - **Defeated Youngster Dan:** Defeated Youngster Dan at (18, 5) on Turn 4675, earning Â¥255.
+- **Defeated Lass Robin:** Defeated Lass Robin at (20, 8) on Turn 4697, earning ¥225.
 - **Entered Route 25:** Arrived on Route 25 on Turn 4642.
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
   - **Level:** 25
   - **Moveset:** Tackle, Tail Whip, Bite, Water Gun
-  - **HP:** 28 / 69
+  - **HP:** 7 / 69
   - **Status:** Healthy
 - **TRUFFLE (Paras):**
   - **Level:** 11
@@ -693,11 +694,11 @@
 - **Youngster Dan:** Sits at (18, 5) originally, engaged at (18, 4) facing Up.
   - **Roster:** Slowpoke (Lv 17)
   - **Status:** Defeated on Turn 4675.
-  - **Reward:** ¥??
+  - **Reward:** ¥225
 - **Lass Robin:** Sits at (18, 8) originally, engaged at (20, 8) facing Left.
-  - **Roster:** Nidoran♂ (Lv 15), ??? (Lv ??)
-  - **Status:** Engaged on Turn 4691.
-  - **Reward:** ¥??
+  - **Roster:** Nidoran♂ (Lv 15), NidoranF (Lv 15)
+  - **Status:** Defeated on Turn 4697.
+  - **Reward:** ¥225
 
 
 <hr>
