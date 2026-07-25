@@ -708,10 +708,14 @@
   - **Roster:** Geodude (Lv 13), Machop (Lv 13), Geodude (Lv 13)
   - **Status:** Defeated on Turn 4725.
   - **Reward:** ¥455
+- **Jr. Trainer♂ Shane:** Sits at (24, 4) originally.
+  - **Roster:** Rattata (Lv 16), Ekans (Lv 16)
+  - **Status:** Defeated on Turn 4734.
+  - **Reward:** ¥540
 - **Lass Haley:** Sits at (37, 4) originally, engaged at (37, 5) facing Down.
   - **Roster:** Oddish (Lv 15), Pidgey (Lv 15)
-  - **Status:** Engaged on Turn 4738.
-  - **Reward:** ¥??
+  - **Status:** Defeated on Turn 4758.
+  - **Reward:** ¥195
 
 
 <hr>
