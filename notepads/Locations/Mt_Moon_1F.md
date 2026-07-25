@@ -8,7 +8,7 @@
 
 ## Geometry & Obstacles Summary
 - **Horizontal Corridor at Rows 16-17 (Cols 11-21):** Open purple floor corridor spanning Cols 11-21. Bounded North by Row 15 rock wall face and South by Row 18 cliff wall.
-- **Column 6 West Corridor (Rows 17-24):** Column 6 is the open vertical corridor connecting Row 17 (6,17) South to Row 24 (6,24), bypassing the Row 18 cliff wall across Cols 10-20.
+- **Column 6 Dead End at (6,18):** [Disproved Turn 8259] Tile (6,18) is solid cliff face. Column 6 dead-ends South at Row 17.
 - **Row 24 Corridor (Cols 6-21):** Open ground floor hallway on Row 24 connecting Column 6 East to Column 10 and Column 21.
 - **South Trench (Rows 31-32, Cols 7-34):** Wide-open 2-tile horizontal trench across bottom of 1F. Connected to Row 24 via Column 10 (10,24 -> 10,32) and Column 32 (32,24 -> 32,32).
 - **Column 15 Entrance Ladder Corridor (Rows 22-27):** Open lower chamber at Cols 14-16, Rows 22-27. Bounded North by Row 21 wall face (Cols 10-23) and South by Row 29-30 rock wall (Cols 11-20). Route to (15,27) ladder is via Row 32 South Trench to Column 15 or Column 10.
