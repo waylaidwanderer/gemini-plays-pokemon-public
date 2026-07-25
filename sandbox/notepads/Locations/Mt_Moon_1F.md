@@ -27,4 +27,6 @@
 - **Row 20 Rock Wall (Cols 22-29):** [Verified Turn 8275] Solid rock wall face blocks Southward movement at Row 20 across Cols 22-29. Open Southbound corridor is at Columns 30-31!
 - **Eastern Ground Highway (Cols 36-37, Rows 12-32):** [Verified Turn 8279] Columns 36-37 form a continuous open ground floor corridor running South past the upper platform (Rows 15-19) directly to Row 24 and the South Trench.
 - **Column 31 Cliff Face (Rows 20-28):** Continuous vertical cliff face blocking Westward movement from Column 32.
-- **(12..13, 20..28) Wall Block:** [Verified Turn 8306] Solid 2x9 wall block across Cols 12-13 from Row 20 to Row 28. Route between Column 11 and (15,27) Entrance Ladder is via Row 16/17: North along Col 11 to (11,17), East to Col 14 (14,17), South down Col 14 to (14,27), East x1 onto (15,27) Ladder.
+- **(12..13, 20..28) Wall Block:** [Verified Turn 8306] Solid 2x9 wall block across Cols 12-13 from Row 20 to Row 28.
+- **Entrance Ladder (15,27) Enclosure & Master Route:** [Verified Turn 8307] Chamber (Cols 14-16, Rows 22-27) is bounded North by Row 20-21 rock wall (Cols 12-29), South by Row 29-30 rock wall (Cols 11-20), and West by Cols 12-13 wall. ONLY entrance is from the EAST via Row 24 (from Col 30/31).
+  - *Master Path to (15,27) Ladder:* From (11,17) -> East along Row 16/17 to Col 30 -> South down Col 30 to Row 24 -> West along Row 24 to Col 15 (15,24) -> South x3 to (15,27) Entrance Ladder.
