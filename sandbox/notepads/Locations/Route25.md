@@ -19,8 +19,8 @@
 - **Youngster Dan:** Sits at (18, 5) originally, engaged at (18, 4) facing Up.
   - **Roster:** Slowpoke (Lv 17)
   - **Status:** Defeated on Turn 4675.
-  - **Reward:** ¥??
+  - **Reward:** ¥225
 - **Lass Robin:** Sits at (18, 8) originally, engaged at (20, 8) facing Left.
-  - **Roster:** Nidoran♂ (Lv 15), ??? (Lv ??)
-  - **Status:** Engaged on Turn 4691.
-  - **Reward:** ¥??
+  - **Roster:** Nidoran♂ (Lv 15), NidoranF (Lv 15)
+  - **Status:** Defeated on Turn 4697.
+  - **Reward:** ¥225

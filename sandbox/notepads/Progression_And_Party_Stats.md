@@ -39,13 +39,14 @@
 - **Defeated Jr. Trainer♂:** Defeated Jr. Trainer♂ at (11, 19) on Route 24 on Turn 4529, earning ¥360.
 - **Defeated Rocket Grunt:** Defeated Rocket Grunt at (11, 15) on Route 24 on Turn 4558, earning ¥450.
 - **Defeated Youngster Dan:** Defeated Youngster Dan at (18, 5) on Turn 4675, earning Â¥255.
+- **Defeated Lass Robin:** Defeated Lass Robin at (20, 8) on Turn 4697, earning ¥225.
 - **Entered Route 25:** Arrived on Route 25 on Turn 4642.
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
   - **Level:** 25
   - **Moveset:** Tackle, Tail Whip, Bite, Water Gun
-  - **HP:** 28 / 69
+  - **HP:** 7 / 69
   - **Status:** Healthy
 - **TRUFFLE (Paras):**
   - **Level:** 11
