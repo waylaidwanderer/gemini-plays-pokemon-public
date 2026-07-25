@@ -1,8 +1,8 @@
 # Mt. Moon 1F Live Routing & Verification
 
-## Active Target: Entrance Ladder at (15,27)
+## Active Target: Upper Cavern Ladder (Rows 2-10)
 1. **Current Position:** (30,18) facing Down.
-2. **Column 30 Southbound Highway Route:**
-   - Down x6 along Col 30 (30,18 -> 30,24) past Row 20 wall.
-   - Left x15 along Row 24 to Col 15 (15,24).
-   - Down x3 along Col 15 onto (15,27) Entrance Ladder to warp to B1F!
+2. **Upper Cavern Northbound Route:**
+   - Right x4 along Row 18 to Col 34 (34,18).
+   - Up x12 along Col 34 to Upper Cavern at Row 6 (34,6).
+   - Locate functional ladder to descend to B1F/B2F!
