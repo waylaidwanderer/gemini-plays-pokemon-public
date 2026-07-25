@@ -24,4 +24,4 @@
 ## Trainers
 - **Team Rocket Grunt:** Sits at (29, 11). Defeated on Turn 1716. Reward: ¥360. Roster: Zubat (Lv 12), Ekans (Lv 12).
 - **Isolated Eastern Cavern (Columns 29-35, Rows 6-11):** This room is accessed from the Starting Platform by walking east along row 11 past the Grunt and going UP. It is bounded by row 5 (wall) on the north, row 12 (wall) on the south, and column 36 (wall) on the east. It is a completely isolated dead-end area. The rock at (33, 9) is a decorative cave tile, not a real fossil. There are no fossils or Super Nerd in this eastern cavern.
-- **Accessing Main Western Area of B2F:** The starting platform is a dead end. The main area of B2F (where the real fossils and Super Nerd Miguel are located) is accessed via the northwest ladder at (21, 17) on B1F, which is reached from 1F at (5, 5).
+- **Accessing Main Western Area of B2F:** The starting platform is a dead end. The main area of B2F (where the real fossils and Super Nerd Miguel are located) is accessed via the southwest ladder at (15, 27), which is reached from 1F at (25, 15) via B1F at (13, 27).
