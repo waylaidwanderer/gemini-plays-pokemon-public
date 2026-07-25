@@ -146,3 +146,5 @@
 - **Solid Rock Wall Face at (14,33):** [Verified Turn 7547] Tile (14,33) is a solid rock wall face blocking Southward movement along Column 14 from (14,32) into the entrance alcove.
 - Tile (25,11) Ledge Face: [Verified Turn 7610] South-facing one-way ledge face blocks Upward movement from (25,12) to (25,11).
 - Tile (31,28) Vertical Cliff Face: [Verified Turn 7670] Vertical cliff face at Column 31 blocks Westward movement along Row 28 from (32,28).
+- Row 11 Ledge Face at Col 31: [Verified Turn 7751] Tile (31,11) is a south-facing ledge face blocking Northward movement from (31,12).
+- Rock Wall Face at (24,16): [Verified Turn 7757] Solid purple rock wall face at (24,16) blocks Westward movement along Row 16 from (25,16).
