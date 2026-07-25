@@ -155,6 +155,8 @@
 - **Defeated Youngster Dan:** Defeated Youngster Dan at (18, 5) on Turn 4675, earning Â¥255.
 - **Defeated Lass Robin:** Defeated Lass Robin at (20, 8) on Turn 4697, earning ¥225.
 - **Defeated Hiker Nob:** Defeated Hiker Nob at (23, 9) on Turn 4725, earning ¥455.
+- **Defeated Jr. Trainer♂ Shane:** Defeated Jr. Trainer♂ Shane at (24, 4) on Turn 4734, earning ¥540.
+- **Defeated Lass Haley:** Defeated Lass Haley at (37, 5) on Turn 4758, earning ¥195.
 - **Entered Route 25:** Arrived on Route 25 on Turn 4642.
 - **Defeated Hiker Franklin:** Defeated Hiker Franklin at (8, 4) on Turn 4659, earning ¥525.
 
@@ -186,7 +188,6 @@
   - **Moveset:** Tackle, Tail Whip, Quick Attack
   - **HP:** 22 / 22
   - **Status:** Healthy
-
 
 <hr>
 
