@@ -257,12 +257,13 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 # Mt. Moon 1F Live Routing & Verification
 
-## Active Target: Upper Cavern Ladder (Rows 2-10)
-1. **Current Position:** (32,18) facing West.
-2. **Eastern Highway Northbound Route:**
-   - Up x4 along Col 32 through (32,15) Stairs to Row 14 (32,14).
-   - Right x4 along Row 14 to Col 36 (36,14).
-   - Up x8 along Col 36 to Upper Cavern at Row 6 (36,6).
-   - Locate functional ladder in Upper Cavern to descend to B1F!
+## Active Target: Entrance Ladder at (15,27)
+1. **Current Position:** (36,14) facing East.
+2. **Row 14 Westbound Highway to Stairs:**
+   - Left x10 along Row 14 to Col 26 (26,14).
+   - Down x2 onto (26,15) Stairs down to (26,16) Ground Floor.
+   - Down x8 down Col 26 to Row 24 (26,24).
+   - Left x11 along Row 24 to Col 15 (15,24).
+   - Down x3 along Col 15 onto (15,27) Entrance Ladder to warp to B1F!
 
 <hr>
