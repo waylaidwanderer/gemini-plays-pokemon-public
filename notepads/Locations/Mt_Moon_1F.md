@@ -79,7 +79,6 @@
 - **Solid Rock Wall Face at (18,11):** [Verified Turn 5451] Tile (18,11) is a solid rock wall face blocking Westward movement along Row 11 from Column 20.
 - **South Boundary Rock Wall Face at Rows 34-35 (Cols 27-36):** [Verified Turn 5498] Solid mountain rock wall face blocks Rows 34-35 across Columns 27 through 36 on 1F.
 - **East Boundary Rock Wall Face at Column 38 (Rows 29-35):** [Verified Turn 5499] Solid purple rock wall face blocks Column 38 across Rows 29 through 35 on 1F.
-- **Exit Corridor Ladder at (5,5) <-> B1F (5,5):** [Verified Turn 7378] Functional ladder at (5,5) on Mt. Moon 1F warps to/from Mt. Moon B1F Exit Corridor at (5,5).
 
 - **Rock Boulder Pillar at (29,12)-(30,14):** [Verified Turn 5645] Solid 2x3 rock boulder face blocks (29..30, 12..14). Route East to Column 31 is via Row 15 (28,15 -> 31,15).
 - **Elevation Stairs at (32,15)-(33,15):** [Verified Turn 5662] Tile (31,15) is a solid rock wall face. Elevation stairs connecting Row 16 up to Row 14 are at (32..33, 15). Route North from Row 16 is (31,16) -> (32,16) -> (32,15) -> (32,14).
