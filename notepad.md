@@ -240,6 +240,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - Tile (31,28) Vertical Cliff Face: [Verified Turn 7670] Vertical cliff face at Column 31 blocks Westward movement along Row 28 from (32,28).
 - Row 11 Ledge Face at Col 31: [Verified Turn 7751] Tile (31,11) is a south-facing ledge face blocking Northward movement from (31,12).
 - Rock Wall Face at (24,16): [Verified Turn 7757] Solid purple rock wall face at (24,16) blocks Westward movement along Row 16 from (25,16).
+- Impassable Platform Face at (30,19): [Verified Turn 7798] Tile (30,19) is a platform wall face blocking Southward movement along Column 30 from (30,18).
 
 <hr>
 
