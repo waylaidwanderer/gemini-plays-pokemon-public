@@ -162,7 +162,7 @@
 - **Defeated Hiker Franklin:** Defeated Hiker Franklin at (8, 4) on Turn 4659, earning ¥525.
 - **Defeated Rocket Grunt (Burgled House Backyard):** Defeated Team Rocket Grunt on Turn 4897, earning ¥510 and obtaining TM28 (Dig).
 - **Defeated Jr. Trainer♂ (Route 24 Grass):** Defeated Jr. Trainer♂ on Turn 4992, earning ¥280.
-- **Defeated Jr. Trainer♂ (Route 24 Grass):** Defeated Jr. Trainer♂ on Turn 4992, earning ¥280.
+- **Truffle Leveled Up:** TRUFFLE (Paras) reached Level 13 and learned STUN SPORE on Turn 5032.
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
@@ -172,10 +172,10 @@
   - **HP:** 74 / 74
   - **Status:** Healthy
 - **TRUFFLE (Paras):**
-  - **Level:** 12
-  - **Moveset:** Scratch (35/35 PP), Dig (10/10 PP)
-  - **Stats:** Attack 25, Defense 19, Speed 14, Special 19
-  - **HP:** 32 / 32
+  - **Level:** 13
+  - **Moveset:** Scratch (25/35 PP), Dig (10/10 PP), Stun Spore (30/30 PP)
+  - **Stats:** Attack 27, Defense 20, Speed 15, Special 21
+  - **HP:** 32 / 34
   - **Status:** Healthy
 - **TESLA (Pikachu):**
   - **Level:** 10
