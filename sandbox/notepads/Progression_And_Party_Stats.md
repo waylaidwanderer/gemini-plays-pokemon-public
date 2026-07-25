@@ -42,6 +42,7 @@
 - **Defeated Lass Robin:** Defeated Lass Robin at (20, 8) on Turn 4697, earning ¥225.
 - **Defeated Hiker Nob:** Defeated Hiker Nob at (23, 9) on Turn 4725, earning ¥455.
 - **Entered Route 25:** Arrived on Route 25 on Turn 4642.
+- **Defeated Hiker Franklin:** Defeated Hiker Franklin at (8, 4) on Turn 4659, earning ¥525.
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
