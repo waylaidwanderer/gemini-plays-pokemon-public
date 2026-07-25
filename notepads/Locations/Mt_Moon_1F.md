@@ -82,6 +82,6 @@
 - **East Boundary Rock Wall Face at Column 38 (Rows 29-35):** [Verified Turn 5499] Solid purple rock wall face blocks Column 38 across Rows 29 through 35 on 1F.
 - **North-West Chamber Alcove at (5,5):** [Verified Turn 5701] Dead-end alcove at (5,5); no ladder warp exists here.
 - **Row 11 Ledge at Cols 24-35:** [Verified Turn 5666] Row 11 has a south-facing ledge face across Cols 24-35 blocking Upward movement from Row 12.
-- **Rock Boulder Pillar at (29,12)-(30,14):** [Verified Turn 5645] Solid 2x3 rock boulder face blocks (29..30, 12..14). Route East to Column 31 is via Row 15 (28,15 -> 31,15 -> 31,11).
+- **Rock Boulder Pillar at (29,12)-(30,14):** [Verified Turn 5645] Solid 2x3 rock boulder face blocks (29..30, 12..14). Route East to Column 31 is via Row 15 (28,15 -> 31,15).
 - **Elevation Stairs at (32,15)-(33,15):** [Verified Turn 5662] Tile (31,15) is a solid rock wall face. Elevation stairs connecting Row 16 up to Row 14 are at (32..33, 15). Route North from Row 16 is (31,16) -> (32,16) -> (32,15) -> (32,14).
 - **Solid Rock Wall Face at (8,7):** [Verified Turn 5745] Tile (8,7) is a solid rock wall face blocking Eastward movement along Row 7 from Column 7.
