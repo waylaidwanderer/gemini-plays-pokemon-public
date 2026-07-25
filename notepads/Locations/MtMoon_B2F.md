@@ -31,3 +31,9 @@
 - **Lower Walkway (Columns 24-28, Rows 11-14):** A wide-open plain purple floor area. Bounded on the north by rock walls at row 11 (except the starting platform ladder area), on the east by rock walls at column 29, and on the south by rock walls on rows 15-16.
 - **Connecting Stairs (Columns 26-27, Row 15):** A set of stairs at (26, 15) and (27, 15) that connects the lower walkway (at row 14) to the elevated checkered platform (at row 16).
 - **Elevated Checkered Platform (Columns 18-19, Rows 5-19; and columns 26-27, Rows 16+):** The elevated platform is rendered with a checkered texture and cannot be walked onto directly from the plain floor on columns 20-23 without stairs.
+- **Connecting Stairs (East):** Stairs at (32, 15) and (33, 15) connect the elevated checkered platform to the eastern plain floor at row 14.
+- **Eastern Plain Area:** Columns 32-37 on rows 12-14 form a plain floor area.
+- **Southeast Vertical Corridor:** Columns 36-38 on rows 15-22 form a plain floor corridor going south.
+- **Southern Corridor:** Columns 22-38 on rows 31-32 form a horizontal plain floor corridor connecting the eastern area to the southwest area of B2F, bypassing the rock walls on columns 28-31 on rows 29-30.
+- **Western Vertical Corridor:** Columns 7-11 on rows 19-32 form a plain floor corridor going north.
+- **Second Team Rocket Grunt (Western Corridor):** Stands at (11, 16). Engaging him requires talking to him from (10, 16). Roster: Rattata (Lv 13).
