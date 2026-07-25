@@ -198,6 +198,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Row 31-32 South Passage:** [Verified Turn 5985] Row 31 and Row 32 are open smooth floor passing directly under Col 31 cliff wall, connecting Bottom-Right Cavern (32,32) West to Col 28 (28,32) and Western 1F!
 - **South Trench West Exit at Cols 7-10:** [Verified Turn 5989] Columns 7-10 on Rows 28-32 are wide-open smooth purple floor, bypassing Rows 29-30 rock wall face and connecting South Trench directly North to Row 27 and (13,27) Entrance Ladder!
 - **Functional Entrance Ladder at (15,27):** [Verified Turn 5990] Entrance ladder tile is located at (15,27) on Row 27, connected directly East of Col 10 (10,27 -> 15,27) to warp down to B1F!
+- **Elevated Platform Wall at (12..13, 23..28):** [Verified Turn 5991] Vertical cliff face blocks Eastward movement from Col 11 to Col 12 across Rows 23-28. Route to (15,27) ladder is North along Col 11 to Row 17 (11,17), East to Col 15 (15,17), and South to (15,27) ladder!
 
 <hr>
 
