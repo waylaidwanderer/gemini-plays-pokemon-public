@@ -257,11 +257,9 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 # Mt. Moon 1F Live Routing & Verification
 
-## Active Target: Entrance Ladder at (15,27) via Column 11 Bypass
-1. **Current Position:** (15,31) facing Up.
-2. **Column 11 Route to Entrance Ladder at (15,27):**
-   - Left x4 along Row 31 to Column 11 at (11,31).
-   - Up x4 along Column 11 (bypassing Row 29-30 wall) to (11,27).
-   - Right x4 along Row 27 to Entrance Ladder at (15,27) to warp to B1F!
+## Active Target: Find Passage to Entrance Ladder at (15,27)
+1. **Current Position:** (11,27) facing Right.
+2. **Terrain Note:** Columns 12-13 at Rows 24-28 are a raised platform, so Row 27 is blocked from (11,27) East to (15,27).
+3. **Exploration Plan:** Move Up along Column 11 ground floor to Row 23/17 to bypass the platform and reach (15,27).
 
 <hr>
