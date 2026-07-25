@@ -43,6 +43,7 @@
 - **Defeated Hiker Nob:** Defeated Hiker Nob at (23, 9) on Turn 4725, earning ¥455.
 - **Defeated Jr. Trainer♂ Shane:** Defeated Jr. Trainer♂ Shane at (24, 4) on Turn 4734, earning ¥540.
 - **Defeated Lass Haley:** Defeated Lass Haley at (37, 5) on Turn 4758, earning ¥195.
+- **Obtained S.S. TICKET:** Received S.S. TICKET from Bill in his Sea Cottage on Route 25 on Turn 4781.
 - **Entered Route 25:** Arrived on Route 25 on Turn 4642.
 - **Defeated Hiker Franklin:** Defeated Hiker Franklin at (8, 4) on Turn 4659, earning ¥525.
 
@@ -50,13 +51,13 @@
 - **SHELLBY (Wartortle):**
   - **Level:** 26
   - **Moveset:** Tackle, Tail Whip, Bite, Water Gun
-  - **HP:** 10 / 72
+  - **HP:** 4 / 72
   - **Status:** Healthy
 - **TRUFFLE (Paras):**
-  - **Level:** 11
+  - **Level:** 12
   - **Moveset:** Scratch (35/35 PP)
   - **Stats:** Attack 24, Defense 17, Speed 13, Special 18
-  - **HP:** 8 / 30
+  - **HP:** 2 / 30
   - **Status:** Healthy
 - **TESLA (Pikachu):**
   - **Level:** 10
@@ -72,5 +73,5 @@
 - **NIBBLES (Rattata):**
   - **Level:** 7
   - **Moveset:** Tackle, Tail Whip, Quick Attack
-  - **HP:** 22 / 22
-  - **Status:** Healthy
+  - **HP:** 0 / 22
+  - **Status:** Fainted
