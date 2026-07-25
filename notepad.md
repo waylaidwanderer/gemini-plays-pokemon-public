@@ -146,12 +146,14 @@
 - **Healed at Cerulean Pokémon Center:** Healed party at (19, 17) on Turn 4070.
 - **Entered Cerulean Gym:** Entered Gym at (30, 19) on Turn 4088.
 - **Entered Melanie's House:** Entered house at (13, 15) on Turn 4109.
+- **Defeated Rival JACK:** Defeated JACK at (20, 6) on Route 24 on Turn 4416, earning ¥595.
+- **Healed at Cerulean Pokémon Center:** Healed party at (19, 17) on Turn 4422.
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
-  - **Level:** 22
+  - **Level:** 23
   - **Moveset:** Tackle, Tail Whip, Bubble, Water Gun
-  - **HP:** 61 / 61
+  - **HP:** 64 / 64
   - **Status:** Healthy
 - **TRUFFLE (Paras):**
   - **Level:** 11
@@ -161,9 +163,9 @@
   - **Status:** Healthy
 - **TESLA (Pikachu):**
   - **Level:** 10
-  - **Moveset:** ThunderShock (18/30 PP), Growl (40/40 PP), Thunder Wave (30/30 PP)
+  - **Moveset:** ThunderShock (30/30 PP), Growl (40/40 PP), Thunder Wave (30/30 PP)
   - **Stats:** Attack 16, Defense 12, Speed 25, Special 18
-  - **HP:** 5 / 28
+  - **HP:** 28 / 28
   - **Status:** Healthy
 - **GUSTY (Pidgey):**
   - **Level:** 5
