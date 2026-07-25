@@ -38,10 +38,10 @@
   - **HP:** 30 / 30
   - **Status:** Healthy
 - **TESLA (Pikachu):**
-  - **Level:** 8
-  - **Moveset:** ThunderShock (28/30 PP), Growl (40/40 PP)
-  - **Stats:** Attack 12, Defense 10, Speed 19, Special 12
-  - **HP:** 22 / 24
+  - **Level:** 10
+  - **Moveset:** ThunderShock (18/30 PP), Growl (40/40 PP), Thunder Wave (30/30 PP)
+  - **Stats:** Attack 14, Defense 11, Speed 22, Special 14
+  - **HP:** 15 / 26
   - **Status:** Healthy
 - **GUSTY (Pidgey):**
   - **Level:** 5
