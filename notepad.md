@@ -210,6 +210,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Top Alcove Dead End at Rows 2-8 (Cols 18-22):** [Verified Turn 6460] Top corridor at Rows 2-8 (Cols 18-22) is a dead-end upper alcove bounded by Row 4/5 rock walls and Col 19 rock walls. True Westbound exit corridor on 1F is Row 17 (21,17 -> 17,17 -> 10,17).
 - **Elevated Platform Wall at (19, 14..21):** [Verified Turn 6467] Column 19 is an elevated platform cliff face blocking Westward movement from Column 20 across Rows 14 through 21.
 - **Elevation Stairs at (26..27, 15):** [Verified Turn 6472] Elevation stairs at (26..27, 15) connect upper platform to ground floor. Column 26 (Rows 19-22) is open floor leading South toward South Trench.
+- **Elevation Stairs at (26..27, 15):** [Verified Turn 6476] Elevation stairs at (26..27, 15) connect ground floor (25,15) up to upper platform (26,14/27,14). Route to South Trench is via stairs (26,15) -> upper platform (28,14) -> South down Col 28 to Row 32.
 
 <hr>
 
