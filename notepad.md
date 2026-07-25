@@ -263,10 +263,13 @@ Route 3 is structured into 3 horizontal elevation tiers:
 # Mt. Moon 1F Live Routing & Verification
 
 ## Active Target: Entrance Ladder at (15,27)
-1. **Current Position:** (32,14) on Mt. Moon 1F Ground Floor.
-2. **Path East to Column 36 Ground Highway:** Walk Right x4 (32,14 -> 36,14).
-3. **South Descent down Column 36/37:** Walk Down x10 along Column 36/37 (36,14 -> 36,24).
-4. **West along Row 24 / South Trench:** Walk West to Column 15 (15,24 or 15,32).
-5. **Ladder Ascent:** Walk Up along Column 15 to (15,27) Entrance Ladder.
+1. **Current Position:** (11,26) on Mt. Moon 1F (in wild battle with Geodude).
+2. **Path to Entrance Ladder at (15,27):**
+   - Win/Run from battle.
+   - Walk Right x4 (11,26 -> 15,26).
+   - Walk Down x1 (15,26 -> 15,27) onto Entrance Ladder.
+3. **Subsequent Plan on B1F:**
+   - Arrive at B1F (13,27) ladder spot.
+   - Walk to B1F Western Highway (Cols 10-11) or South Corridor to Row 24/25 -> Eastern Highway (Cols 24-25) -> Upper Cavern -> B1F (25,9) ladder to B2F (17,11) -> B2F Exit Ladder at (25,22) -> B1F Exit Corridor -> 1F Exit Corridor -> Route 4 East!
 
 <hr>
