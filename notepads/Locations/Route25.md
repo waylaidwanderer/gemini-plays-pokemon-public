@@ -24,3 +24,7 @@
   - **Roster:** Nidoran♂ (Lv 15), NidoranF (Lv 15)
   - **Status:** Defeated on Turn 4697.
   - **Reward:** ¥225
+- **Hiker Nob:** Sits at (23, 9) originally, engaged at (23, 8) facing Up.
+  - **Roster:** Geodude (Lv 13), Machop (Lv 13), Geodude (Lv 13)
+  - **Status:** Defeated on Turn 4725.
+  - **Reward:** ¥455

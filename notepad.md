@@ -154,13 +154,14 @@
 - **Defeated Rocket Grunt:** Defeated Rocket Grunt at (11, 15) on Route 24 on Turn 4558, earning ¥450.
 - **Defeated Youngster Dan:** Defeated Youngster Dan at (18, 5) on Turn 4675, earning Â¥255.
 - **Defeated Lass Robin:** Defeated Lass Robin at (20, 8) on Turn 4697, earning ¥225.
+- **Defeated Hiker Nob:** Defeated Hiker Nob at (23, 9) on Turn 4725, earning ¥455.
 - **Entered Route 25:** Arrived on Route 25 on Turn 4642.
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
-  - **Level:** 25
+  - **Level:** 26
   - **Moveset:** Tackle, Tail Whip, Bite, Water Gun
-  - **HP:** 7 / 69
+  - **HP:** 10 / 72
   - **Status:** Healthy
 - **TRUFFLE (Paras):**
   - **Level:** 11
@@ -699,6 +700,10 @@
   - **Roster:** Nidoran♂ (Lv 15), NidoranF (Lv 15)
   - **Status:** Defeated on Turn 4697.
   - **Reward:** ¥225
+- **Hiker Nob:** Sits at (23, 9) originally, engaged at (23, 8) facing Up.
+  - **Roster:** Geodude (Lv 13), Machop (Lv 13), Geodude (Lv 13)
+  - **Status:** Defeated on Turn 4725.
+  - **Reward:** ¥455
 
 
 <hr>
