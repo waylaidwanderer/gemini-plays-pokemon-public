@@ -162,6 +162,7 @@
 - **Defeated Hiker Franklin:** Defeated Hiker Franklin at (8, 4) on Turn 4659, earning ¥525.
 - **Defeated Rocket Grunt (Burgled House Backyard):** Defeated Team Rocket Grunt on Turn 4897, earning ¥510 and obtaining TM28 (Dig).
 - **Defeated Jr. Trainer♂ (Route 24 Grass):** Defeated Jr. Trainer♂ on Turn 4992, earning ¥280.
+- **Defeated Jr. Trainer♂ (Route 24 Grass):** Defeated Jr. Trainer♂ on Turn 4992, earning ¥280.
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
