@@ -1,7 +1,6 @@
 # Mt. Moon B2F Map & Points of Interest
 
 ## Geometry & Points of Interest
-- **Spawn Ladder at (25,9):** [Verified Turn 1090] Arrived from B1F ladder at (17,11), spawning at X=25, Y=9 in B2F.
 - **Corridor Chamber (Rows 8-11, Columns 17-25):** [Verified Turn 1093] Open floor chamber connecting (25,9) West to (17,11).
 - Picked up Item Ball at (29,5) [Turn 1115 - TM01 Mega Punch].
 - **Rocket Grunt at (29,10):** [Defeated Turn 1106 - Lv 12 Zubat, Lv 12 Ekans].
