@@ -259,8 +259,8 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 # Mt. Moon Live Routing & Verification
 
-## Active Target: Navigate South along Column 5 from (5,5)
-1. **Current Position:** (5,5) facing Left.
-2. **Immediate Step:** Walk Down 1 step to (5,6) to test passability South along Column 5.
+## Active Target: Navigate B1F Exit Corridor
+1. **Current Position:** (5,8) in B1F Exit Corridor.
+2. **Path:** Walk South along Column 5 to Row 16, then East toward exit ladder/stairs.
 
 <hr>
