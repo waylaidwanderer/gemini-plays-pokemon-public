@@ -75,6 +75,7 @@
 - **Defeated Hiker (Route 9):** Defeated Hiker at (45, 15) on Route 9 on Turn 7280, earning ¥735.
 - **Defeated Bug Catcher Conner:** Defeated Bug Catcher Conner at (40, 8) on Turn 7431, earning ¥320.
 - **Defeated JR. TRAINER♂ (Route 9):** Defeated JR. TRAINER♂ at (24, 7) on Turn 7479, earning ¥420.
+- **Defeated JR. TRAINER♂ (Route 9):** Defeated JR. TRAINER♂ at (34, 7) on Turn 7528, earning ¥380.
 
 ## Party Statistics
 - **TESLA (Pikachu):**
@@ -91,8 +92,8 @@
   - **Status:** Fainted
 - **NIBBLES (Rattata):**
   - **Level:** 7
-  - **HP:** 22 / 22
-  - **Status:** Healthy
+  - **HP:** 0 / 22
+  - **Status:** Fainted
 - **SHELLBY (Wartortle):**
   - **Level:** 34
   - **HP:** 4 / 92
