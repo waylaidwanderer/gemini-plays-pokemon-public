@@ -292,8 +292,8 @@ Route 3 is structured into 3 horizontal elevation tiers:
    - From 1F (21,17): Walk South to Row 35/36 cave doorway to exit onto Route 4 East!
 
 ## Current Operational Step
-- Current Position: (30,20) facing Down on B1F.
-- Target: (30,25) on Column 30.
-- Action: Press `Down` 5 times to reach (30,25).
+- Current Position: (30,25) facing Down on B1F.
+- Target: (25,25) on Row 25.
+- Action: Press `Left` 5 times to reach (25,25).
 
 <hr>
