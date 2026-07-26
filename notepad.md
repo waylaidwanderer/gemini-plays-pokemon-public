@@ -169,6 +169,8 @@
 - **Defeated Picnicker Diana (Cerulean Gym):** Defeated Picnicker Diana at (5, 3) inside Cerulean Gym on Turn 5233, earning ¥380.
 - **Defeated Gym Leader Misty:** Defeated Cerulean Gym Leader Misty on Turn 5262, obtaining the CASCADEBADGE and TM11 (Bubblebeam).
 
+- **Defeated Bug Catcher (Route 6):** Defeated Bug Catcher on Turn 6172, earning ¥200.
+
 ## Party Statistics
 - **SHELLBY (Wartortle):**
   - **Level:** 28
@@ -782,7 +784,6 @@
 - **Northern Entrance (from Saffron City Gatehouse / Underground Path):** Exiting the Saffron City Gatehouse at (17, 13) warps the player to Route 6 at (17, 14) facing Down.
 - **Main Path (Columns 13-19):** Clear pavement road going south to Vermilion City.
 - **Tall Grass Area (Rows 16-18):** Horizontal band of tall grass across the main road, likely containing wild encounters.
-- **Vermilion City Boundary:** Located at the far south end of Route 6.
 
 
 <hr>
