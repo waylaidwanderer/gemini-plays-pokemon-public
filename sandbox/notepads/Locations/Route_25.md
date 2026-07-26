@@ -5,4 +5,4 @@
 - **Tree Maze Entrance at Column 10:** [Verified Turn 10228] Trees at (10,8) and (10,9) block row 8/9 pavement. Open gap is at Row 7 (9,7 -> 10,7 -> 11,7).
 - **Hiker Trainer 1:** [Verified Turn 10228/10239] Located at X=8, Y=4 facing Right. Defeated! Team: Machop Lv 15, Geodude Lv 15.
 - **Youngster Trainer 2:** Located at X=14, Y=2 facing Down.
-- **Youngster Trainer 2:** [Verified Turn 10245] Located at X=14, Y=2 facing Down. Engaged in battle!
+- **Youngster Trainer 2:** [Verified Turn 10245/10253] Located at X=14, Y=2 facing Down. Defeated! Team: Rattata Lv 15, Spearow Lv 15.
