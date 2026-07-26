@@ -327,7 +327,8 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Pokémart Door:** [Verified Turn 10076] Located at X=25, Y=25 in Cerulean City.
 - **Slowbro & Trainer:** [Verified Turn 10076-10079] Slowbro at X=28, Y=26 and Trainer Boy at X=29, Y=26 in Cerulean City.
 - **West Corridor to Upper City:** [Verified Turn 10101-10104] Open path from South Cerulean (11,27) via (11,26)-(10,26)-(9,26)-(9,24)-(10,24) up Column 10 (10,23..18) directly connects to Main Upper Road at (10,18).
-- **East Corridor to Route 24:** Located on the EAST side of Cerulean Gym at Column 32/33. Open path goes North from (32,21) past (32,16) directly to Upper Cerulean City and Route 24.
+- **East South-Facing Ledge:** [Verified Turn 10124] Column 32/33 at Row 19 is a one-way south-facing ledge leading down from Upper Cerulean City to South Cerulean City. Cannot be climbed North.
+- **Rival RED Battle:** [Verified Turn 10134] Triggered at X=20, Y=6 at the North Cerulean / Route 24 Entrance.
 - **West Upper Access Path:** [Verified Turn 10127] Columns 8 and 9 (at X=8..9, Y=12..18) provide a two-way open passage connecting South Cerulean City (Y=18) directly to Upper Cerulean City (Y=11-12).
 
 <hr>
