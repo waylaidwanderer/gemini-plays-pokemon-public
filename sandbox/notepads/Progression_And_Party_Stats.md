@@ -53,6 +53,7 @@
 - **Tesla Leveled Up:** TESLA (Pikachu) reached Level 12 on Turn 5205.
 - **Defeated Swimmer Horatio (Cerulean Gym):** Defeated Swimmer at (5, 7) inside Cerulean Gym on Turn 5210, earning ¥80.
 - **Defeated Picnicker Diana (Cerulean Gym):** Defeated Picnicker Diana at (5, 3) inside Cerulean Gym on Turn 5233, earning ¥380.
+- **Defeated Gym Leader Misty:** Defeated Cerulean Gym Leader Misty on Turn 5262, obtaining the CASCADEBADGE and TM11 (Bubblebeam).
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
