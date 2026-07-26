@@ -1,7 +1,7 @@
 # Mt. Moon Live Routing & Verification
 
 ## Active Target: Navigate to Exit Corridor Ladder at (5,5)
-1. **Current Position:** (24,10) in battle with wild Zubat.
+1. **Current Position:** (24,10) running from wild Zubat.
 2. **Master Path:**
    - Run from Zubat, continue West along Row 10 to (10,10).
    - Walk North along Column 10 to (10,5).
