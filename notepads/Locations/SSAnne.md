@@ -58,7 +58,7 @@
 - **NPCs & Battle Status:**
   - **Sailor at (12, 3):** Facing DOWN/LEFT. Walks to (11, 3) to challenge player. Dialogue: "Us sailors have POKéMON too!" Defeated on Turn 6497 (earned ¥540).
 - **Items:**
-  - **Item Ball at (10, 2):** Pokéball on the floor (still uncollected).
+  - **Item Ball at (10, 2):** Checkered floor tile mistaken for an item ball (refuted on Turn 6498).
   - **Item Ball at (10, 3):** Checkered floor tile mistaken for an item ball (refuted on Turn 6485).
 
 ## Cabin 7 Geometry & Mappings
