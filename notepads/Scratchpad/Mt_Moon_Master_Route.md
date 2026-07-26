@@ -21,5 +21,5 @@
    - From 1F (21,17), walk South to Row 35/36 cave doorway to exit onto Route 4 East!
 
 ## Current Operational Step
-- Current Position: (17,2) facing Left on B1F.
-- Goal: Walk Down 9 steps along Column 17 to (17,11) ladder to warp to B2F (25,9).
+- Current Position: (25,9) facing Down on B2F.
+- Goal: Walk Down 3 steps to (25,12), Left 5 steps to (20,12) South Highway.
