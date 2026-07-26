@@ -86,3 +86,4 @@
   - **Moveset:** Tackle, Tail Whip, Quick Attack
   - **HP:** 22 / 22
   - **Status:** Healthy
+- **Healed at Vermilion City Pokémon Center:** Fully healed party and cured SHELLBY's poison on Turn 6237.
