@@ -231,6 +231,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - Solid Rock Wall Face at (25,9): [Verified Turn 9290] Tile (25,9) is a solid blue rock wall face when approached from the South at (25,10).
 - **(28,24) Wall Boundary:** [Verified Turn 9312] Solid rock wall face at (28,24) blocks Eastward movement along Row 24 on B1F.
 - **(23,24) Wall Boundary:** [Verified Turn 9316] Solid rock wall face at (23,24) blocks Westward movement along Row 24 on B1F.
+- **(28,22) Wall Boundary:** [Verified Turn 9526] Column 28 at Row 22 is a solid rock wall face on B1F. Cannot walk East from (27,22) into (28,22).
 
 <hr>
 
