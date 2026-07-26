@@ -41,3 +41,4 @@
 - **Trainers:**
   - **Sailor Dwayne:** Located at `(0, 10)` (facing Right). Roster: Pikachu (Lv 21).
   - **Rocker Harrison:** Located at `(3, 8)` (facing Down). Roster: Voltorb (Lv 20).
+  - **Gentleman Tucker:** Located at `(9, 6)` (facing Down). Roster: Pikachu (Lv 23). Defeated on Turn 6897, earning ¥1610.
