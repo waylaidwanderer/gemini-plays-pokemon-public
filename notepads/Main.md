@@ -25,9 +25,9 @@
 
 ## Current Progress & Party
 - **Badges:** 2 (Boulder Badge, Cascade Badge) [Cascade Badge obtained from Misty on Turn 10001]
-- **Starter Pokémon:** Blastoise (Lv 38) [Evolved on Turn 9878, Level 38 on Turn 10278!]
-  - **Nickname:** SHELLSHOCK
-  - **Status:** 19/131 HP (Nurse Joy prompt was declined on Turn 10349; need to heal after Rocket Grunt battle!).
+- **Starter Pokémon:** Blastoise (Lv 38) "SHELLSHOCK" [Evolved on Turn 9878, Level 38 on Turn 10278!]
+  - **Moves:** Tackle (35/35 PP), Bite (25/25 PP), BubbleBeam (20/20 PP), Water Gun (25/25 PP) [Restored on Cerulean Pokémon Center respawn].
+  - **Current Plan:** After blacking out and respawning at Cerulean Pokémon Center, walk East to Burglarized House at (27,11), pass through back hole at (3,0) to backyard (27,9), defeat Team Rocket Grunt at (30,8) with full PP Blastoise, obtain TM28 Dig, and proceed South on Route 5 to Vermilion City.
 
 - **Key Items:** Pokédex (Obtained from Prof. Oak on Turn 265), S.S. Ticket (Obtained from Bill on Turn 10317).
 - **Inventory:** 5 Poké Balls, TM34 (Bide), TM01 (Mega Punch), Ether, HP Up, Rare Candy, Potion, Moon Stone, Dome Fossil, Nugget.
