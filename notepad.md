@@ -673,8 +673,8 @@
 ## Verified Southern Barriers (Turn 5421)
 - **Route 4 East transition always warps to (0, 18) in Cerulean City:** Transitioning from Route 4 to Cerulean City on rows 0, 3, 4, or 5 always warps the player to (0, 18) on the south side of Cerulean City. The Route 4 Alignment Offset Bypass to the north side (y=12) is NOT functional in this mod.
 - **Saffron Road (Columns 16-17) Ledge Block:** Standing at (16, 28) and pressing Down is blocked by the vertical logs at (16, 29). Saffron Road is completely impassable.
-- **Row 28 Tree Barrier:** Row 28 is completely blocked by trees across columns 5-35. Columns 36-37 are the only open grass columns leading south to Route 5.
-- **Column 35 Log Barrier:** Column 35 is completely blocked by vertical logs on rows 20-27, preventing any horizontal transit from the west to the eastern lane (columns 36-37) on the south side of the city.
+- **Row 28 Tree Barrier (UNVERIFIED HYPOTHESIS):** It is hypothesized that row 28 blocks columns 5-35, but this has not been fully verified manually and requires further testing.
+- **Column 35 Log Barrier (UNVERIFIED HYPOTHESIS):** It is hypothesized that column 35 is blocked by logs on rows 20-27, but this has not been fully verified manually and requires further testing.
 
 <hr>
 
