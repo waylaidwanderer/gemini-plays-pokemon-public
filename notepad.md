@@ -204,6 +204,7 @@
   - **HP:** 22 / 22
   - **Status:** Healthy
 - **Healed at Vermilion City Pokémon Center:** Fully healed party and cured SHELLBY's poison on Turn 6257.
+- **Boarded the S.S. Anne:** Passed the Sailor ticket checker at (19, 30) and boarded the ship on Turn 6299.
 
 <hr>
 
@@ -815,5 +816,26 @@
   - Row 22: Blocks columns 20-25 with soil/water.
 - **Hedge/Bush Blockages:**
   - Row 18 & 19: Columns 13 and 14 have green hedges/trees that block southward transit to row 20, separating the northern and southern parts of the city.
+
+<hr>
+
+<h1><code>Locations/SSAnne</code></h1>
+
+# S.S. Anne - Locations, Landmarks & Barriers
+
+## Overworld Layout & Navigation
+- **Initial Entry (from Pier):** Transitioning from S.S. Anne Pier at (18, 30) warps the player to S.S. Anne Entryway at `(14, 0)` facing Down.
+- **Entryway South Warp:** Walking south through the entryway (around row 4) warps the player to the S.S. Anne Deck at `(27, 0)`.
+- **Deck Door Warps:**
+  - Left Deck Door at `(23, 8)`: Warps the player to S.S. Anne 2F Hallway at `(10, 0)` (facing Down).
+  - Right Deck Door at `(31, 8)`: Unverified, but likely warps to a symmetrical position.
+
+## 2F Hallway & Cabin Mappings
+- **Current Position (Turn 6301):** S.S. Anne 2F Hallway at `(10, 1)`.
+- **Left Deck Door Connection:** Warps to `(10, 0)` / `(10, 1)`. Contains pink/white checkered carpet.
+- **Wandering NPCs / Barriers:**
+  - NPC at (11, 4) facing UP.
+  - Desk/Table at (10, 5) and (11, 5).
+
 
 <hr>

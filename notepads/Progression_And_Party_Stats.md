@@ -90,3 +90,4 @@
   - **HP:** 22 / 22
   - **Status:** Healthy
 - **Healed at Vermilion City Pokémon Center:** Fully healed party and cured SHELLBY's poison on Turn 6257.
+- **Boarded the S.S. Anne:** Passed the Sailor ticket checker at (19, 30) and boarded the ship on Turn 6299.
