@@ -1,14 +1,14 @@
-# Mt. Moon Master Route to Exit (Turn 9702)
+# Mt. Moon Structural Layout & Master Route to Exit (Turn 9714)
 
-## Verified Route via Col 11 Western Highway to (15,27) Entrance Ladder
-- **Current Pos:** B1F (15,19).
-- **Obstacle Note:** Row 20 is solid blue rock wall face across Cols 12-20.
-- **Bypass Route via Col 11 Western Highway:**
-  1. Walk Left 4 steps along Row 19 to Col 11 Western Highway [(11,19)].
-  2. Walk South down Col 11 to Row 28 South Trench [(11,28)].
-  3. Walk Right 4 steps along Row 28 South Trench to Col 15 [(15,28)].
-  4. Walk Up 1 step onto (15,27) entrance ladder -> Ascend to 1F (13,27)!
-- **Next Steps on 1F:**
-  - On 1F (13,27): Navigate 1F West via Col 6 corridor to 1F Western Chamber.
-  - Descend Western ladder to Main B2F Cavern -> proceed to Fossil Room Exit Ladder at (5,5)!
-  - Ascend ladder at (5,5) -> B1F Exit Corridor -> Walk South to Row 16, East to Route 4 East!
+## Critical Map Structure Discovered
+- **B1F North Section (Rows 2-17)** and **B1F South Section (Rows 20-30)** are physically separated by a continuous rock wall across Rows 18-21 (Cols 1-37). They DO NOT connect directly on B1F.
+- **To reach Mt. Moon Exit / B1F South Section from B1F North Section (where we are at 7,17):**
+  1. Walk East on Row 17 to Col 17, North to (17,11).
+  2. Ascend/descend ladder at B1F (17,11) to B2F.
+  3. Navigate B2F to Fossil Room / Exit Ladder at B2F (5,5) or (25,22).
+  4. Take Exit Ladder to B1F Exit Corridor (5,5) / B1F South Section -> Route 4 East!
+
+## Immediate Active Steps from (7,17)
+1. Walk Right 10 steps along Row 17 to Col 17 [(17,17)].
+2. Walk Up 6 steps along Col 17 to (17,11) ladder.
+3. Step onto ladder at (17,11).
