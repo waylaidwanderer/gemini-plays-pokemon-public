@@ -81,7 +81,7 @@
 - **Solid Rock Wall Face at (20,27):** [Verified Turn 8872] Solid rock wall face blocks Northward movement from (20,28) at (20,27).
 - **Solid Rock Wall Face at (19,28):** [Verified Turn 8886] Solid rock wall face blocks Westward movement from (20,28) at (19,28). Row 28 South Trench dead-ends West at (20,28).
 - **Solid Rock Wall Face at (18..19,11):** [Verified Turns 8923-8925] Solid rock wall face blocks Westward passage along Row 11 at Columns 18-19. Row 11 from (20,11) does NOT connect directly West to (17,11); bypass via Column 30 -> Row 6/7 top corridor.
-- **Solid Rock Wall Face at (22..23, 21..27):** [Verified Turn 8995] Solid blue rock wall face blocks Westward passage at Columns 22-23 across Rows 21-27 on B1F, separating Eastern B1F (Cols 24-30) from Western B1F (Cols 20-21).
+- **Solid Rock Wall Face at (22..23, 21..25):** [Verified Turn 11496] Solid blue rock wall face blocks Westward passage along Rows 21-25 at Columns 22-23. True West passage to exit ladder (15,27) is via Row 28 South Trench (24,28 -> 15,28 -> 15,27)!
 - **Solid Rock Wall Face at (29,8):** [Verified Turn 9058] Tile (29,8) is a solid blue rock wall face blocking Southward movement along Column 29.
 - **Solid Rock Wall Face at (25,8):** [Verified Turn 9121] Tile (25,8) is a solid blue rock wall face blocking Southward movement along Column 25 from (25,7).
 - **(12..13, 2..6) Wall Boundary:** [Verified Turn 9144] Solid blue rock wall face across Columns 12-13 at Rows 2 through 6 blocks Westward movement along Row 2 Top Corridor. Row 2 does NOT connect West past Column 13 on B1F.
