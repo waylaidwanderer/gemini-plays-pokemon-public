@@ -99,4 +99,3 @@
   - **HP:** 4 / 92
   - **Status:** Healthy (Very Low HP)
 
-- **Defeated Gym Leader Lt. Surge:** Defeated Vermilion Gym Leader Lt. Surge on Turn 7027, obtaining the THUNDERBADGE and TM24 (Thunderbolt).
