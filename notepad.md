@@ -263,13 +263,16 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 # Mt. Moon Live Routing & Verification
 
-## Active Target: Take (28,7) Elevation Stairs to Row 7 Top Corridor
-1. **Current Position:** (25,9) standing on ladder tile in B1F Main Cavern.
-2. **Path:**
-   - Walk Right 3 steps to (28,9), then Up 2 steps onto (28,7) Elevation Stairs.
-   - Walk West along Row 7 all the way to Column 5 at (5,5) ladder.
+## Active Target: Walk South to South Corridor (Row 26)
+1. **Current Position:** (28,5) on Upper Landing.
+2. **Master Path to Exit:**
+   - Walk Down to (28,9).
+   - Walk South down Column 28/29 to Row 26 South Corridor.
+   - Walk West along Row 26 to Column 10 (Western Highway).
+   - Walk North up Column 10 to Row 5 at (10,5).
+   - Walk West along Row 5 to Column 5 at (5,5) ladder.
    - Step onto (5,5) ladder to enter B1F Exit Corridor.
    - Walk South down Column 5, East to (17,17), then SOUTH down Column 17 to 1F Exit (21,17).
-3. **Immediate Step:** Walk Right 3 steps to (28,9), then Up 2 steps to (28,7) Elevation Stairs.
+3. **Immediate Step:** Walk Down 4 steps from (28,5) to (28,9).
 
 <hr>
