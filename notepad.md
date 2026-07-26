@@ -97,7 +97,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 ## Key Coordinates & Exit Ladders
 - **Route 4 Cave Entrance Warp at (14,35):** Spawns facing North at X=14, Y=35 inside Mt. Moon 1F. Exit warp to Route 4 is directly South at (14,36).
-- **Entrance Ladder to B1F at (15,27):** [Verified Turn 8243] Functional entrance ladder to Mt. Moon B1F located at X=15, Y=27 inside the lower central chamber.
+- **Entrance Ladder to B1F at (15,23):** [Verified Turn 10387] Functional entrance ladder to Mt. Moon B1F located at X=15, Y=23 inside the lower central chamber.
 - **Exit Ladder Arrival Spot at (21,17):** [Verified Turn 8234] One-way warp arrival spot from B1F Exit Corridor. Does not warp down to B1F when stepped on from 1F.
 - **Side Room Warp Pair at (25,9):** 1F (25,9) <-> B2F (25,9). Stepping onto (25,9) on 1F drops player down to (25,12).
 
