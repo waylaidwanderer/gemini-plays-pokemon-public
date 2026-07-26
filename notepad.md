@@ -176,50 +176,25 @@
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
-  - **Level:** 28
-  - **Moveset:** Tackle (31/35 PP), Tail Whip (30/30 PP), Bite (19/25 PP), Water Gun (25/25 PP)
-  - **Stats:** Attack 53, Defense 59, Speed 46, Special 50
-  - **HP:** 77 / 77
-  - **Status:** Healthy
+  - **Level:** 32
+  - **HP:** 13 / 87
+  - **Status:** Low HP
 - **TRUFFLE (Paras):**
   - **Level:** 13
-  - **Moveset:** Scratch (35/35 PP), Dig (10/10 PP), Stun Spore (30/30 PP)
-  - **Stats:** Attack 27, Defense 20, Speed 15, Special 21
-  - **HP:** 34 / 34
-  - **Status:** Healthy
+  - **HP:** 0 / 34
+  - **Status:** Fainted
 - **TESLA (Pikachu):**
   - **Level:** 14
-  - **Moveset:** ThunderShock (30/30 PP), Growl (40/40 PP), Thunder Wave (20/20 PP)
-  - **Stats:** Attack 21, Defense 15, Speed 33, Special 23
-  - **HP:** 36 / 36
-  - **Status:** Healthy
+  - **HP:** 3 / 36
+  - **Status:** Low HP
 - **GUSTY (Pidgey):**
   - **Level:** 5
-  - **Moveset:** Gust, Sand-Attack
-  - **HP:** 19 / 19
-  - **Status:** Healthy
+  - **HP:** 0 / 19
+  - **Status:** Fainted
 - **NIBBLES (Rattata):**
   - **Level:** 7
-  - **Moveset:** Tackle, Tail Whip, Quick Attack
   - **HP:** 22 / 22
   - **Status:** Healthy
-- **Healed at Vermilion City Pokémon Center:** Fully healed party and cured SHELLBY's poison on Turn 6257.
-- **Boarded the S.S. Anne:** Passed the Sailor ticket checker at (19, 30) and boarded the ship on Turn 6299.
-- **Defeated Gentleman (Cabin 2):** Defeated Gentleman in S.S. Anne Cabin 2 on Turn 6318, earning 1330.
-- **Defeated Gentleman (Cabin 1):** Defeated Gentleman in S.S. Anne Cabin 1 on Turn 6355, earning 1260.
-- **Obtained Item (Max Potion):** Found and retrieved Max Potion in S.S. Anne Cabin 3 at (12, 11) on Turn 6415.
-- **Defeated Sailor (Cabin 4):** Defeated Sailor at (2, 11) in S.S. Anne Cabin 4 on Turn 6437, earning 510.
-- **Defeated Sailor (Cabin 4):** Defeated Sailor at (0, 13) in S.S. Anne Cabin 4 on Turn 6444, earning 630.
-
-
-- **Defeated Sailor (Cabin 5):** Defeated Sailor at (22, 3) in S.S. Anne Cabin 5 on Turn 6467, earning 510.
-- **Obtained Item (Ether):** Found and retrieved Ether in S.S. Anne Cabin 5 at (20, 2) on Turn 6469.
-- **Defeated Sailor (Cabin 6):** Defeated Sailor at (12, 3) in S.S. Anne Cabin 6 on Turn 6497, earning 540.
-- **Defeated Fisherman (Cabin 7):** Defeated Fisherman at (0, 4) in S.S. Anne Cabin 7 on Turn 6524, earning 595.- **Defeated Sailor (Cabin 7):** Defeated Sailor at (0, 2) in S.S. Anne Cabin 7 on Turn 6538, earning 600.
-- **Defeated Fisherman (Cabin 8):** Defeated Fisherman at (13, 4) in S.S. Anne Cabin 8 on Turn 6613, earning ¥595.
-- **Defeated Gentleman (Cabin 8):** Defeated Gentleman at (10, 2) in S.S. Anne Cabin 8 on Turn 6623, earning ¥1610.
-- **Defeated Rival JACK:** Defeated Rival JACK at (36, 7) on S.S. Anne 2F on Turn 6724.
-- **Obtained HM01 (Cut):** Successfully obtained HM01 (Cut) from the S.S. Anne Captain on Turn 6743.
 
 
 <hr>
@@ -841,6 +816,18 @@
   - **Column 18 (left side):** Walking south on Column 18 past row 35 warps the player to S.S. Anne Entryway (Map 91) at `(14, 0)` (facing Down).
   - **Column 19 (right side):** Walking south on Column 19 past row 35 warps the player to S.S. Anne Entryway (Map 91) at `(14, 2)` (facing Down), right next to the S.S. Anne Deck warp!
 - **Sailor Ticket Checker:** Sits at `(19, 30)`. Once ticket is shown, he does not block vertical transit on Column 19 below row 30.
+
+
+## Vermilion Gym Layout & Geometry
+- **Entrance:** Located at `(12, 19)` (connects to Vermilion City at `(12, 20)` after clearing the cuttable bush at `(15, 18)`).
+- **Gym Guide:** Stands at `(4, 14)`.
+- **Rhydon Statues:** Located at `(3, 13)` / `(3, 14)` and `(6, 13)` / `(6, 14)`.
+- **Trash Can Grid (3x5):**
+  - Row 11: `(1, 11)`, `(3, 11)`, `(5, 11)`, `(7, 11)`, `(9, 11)`
+  - Row 9: `(1, 9)`, `(3, 9)`, `(5, 9)`, `(7, 9)`, `(9, 9)`
+  - Row 7: `(1, 7)`, `(3, 7)`, `(5, 7)`, `(7, 7)`, `(9, 7)`
+- **Trainers:**
+  - **Sailor Dwayne:** Located at `(0, 10)` (facing Right). Roster: Pikachu (Lv 21).
 
 
 <hr>

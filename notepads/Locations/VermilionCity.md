@@ -28,3 +28,15 @@
   - **Column 18 (left side):** Walking south on Column 18 past row 35 warps the player to S.S. Anne Entryway (Map 91) at `(14, 0)` (facing Down).
   - **Column 19 (right side):** Walking south on Column 19 past row 35 warps the player to S.S. Anne Entryway (Map 91) at `(14, 2)` (facing Down), right next to the S.S. Anne Deck warp!
 - **Sailor Ticket Checker:** Sits at `(19, 30)`. Once ticket is shown, he does not block vertical transit on Column 19 below row 30.
+
+
+## Vermilion Gym Layout & Geometry
+- **Entrance:** Located at `(12, 19)` (connects to Vermilion City at `(12, 20)` after clearing the cuttable bush at `(15, 18)`).
+- **Gym Guide:** Stands at `(4, 14)`.
+- **Rhydon Statues:** Located at `(3, 13)` / `(3, 14)` and `(6, 13)` / `(6, 14)`.
+- **Trash Can Grid (3x5):**
+  - Row 11: `(1, 11)`, `(3, 11)`, `(5, 11)`, `(7, 11)`, `(9, 11)`
+  - Row 9: `(1, 9)`, `(3, 9)`, `(5, 9)`, `(7, 9)`, `(9, 9)`
+  - Row 7: `(1, 7)`, `(3, 7)`, `(5, 7)`, `(7, 7)`, `(9, 7)`
+- **Trainers:**
+  - **Sailor Dwayne:** Located at `(0, 10)` (facing Right). Roster: Pikachu (Lv 21).
