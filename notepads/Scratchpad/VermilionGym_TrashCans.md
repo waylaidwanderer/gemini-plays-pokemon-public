@@ -7,6 +7,7 @@
 
 ## Current Search Session
 - (5, 9): Empty (Nope)
+- (3, 9): FIRST SWITCH FOUND! (Turn 6981)
 
 ## Previous Search Sessions
 - Attempt 4 (Reset on Turn 6979):
