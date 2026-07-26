@@ -361,5 +361,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Trainer 6 (Youngster/Jr. Trainer):** [Verified Turn 10282/10286] Located at X=29, Y=3 facing Left. Defeated! Team: Ekans Lv 14, Sandshrew Lv 14.
 - **Lass Trainer 4:** [Verified Turn 10263/10268] Located at X=19, Y=8 facing Right. Defeated! Team: Nidoran♂ Lv 15, Nidoran♀ Lv 15.
 - **Trainer 5 (Hiker):** [Verified Turn 10270/10278] Located at X=23, Y=9 facing Up. Defeated! Team: Geodude Lv 13, Geodude Lv 13, Machop Lv 13, Geodude Lv 13.
+- **Trainer 7 (Lass/Jr. Trainer):** [Verified Turn 10288] Located at X=37, Y=4 facing Left. Standing in front of Sea Cottage doorway at (38,3).
 
 <hr>
