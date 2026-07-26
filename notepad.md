@@ -658,7 +658,6 @@
 | (25, 25)     | Poké Mart             | Melanie's House                           | Exiting warps to (25, 25). Contains Jynx trade NPC. |
 | (9, 11)      | Badge Guy's House     | Badge Guy's House                         | Contains Badge Guy NPC. Rendered with a misleading Pokémon Center tileset (PC on right, counter on top), but has NO healing function. |
 | (13, 25)     | Bike Shop             | Melanie's House                           | Shared interior. Exiting from (2, 8) warps to (13, 25). |
-| -            | Saffron Road Warp     | Melanie's House Exit                      | Exiting Melanie's House via (4, 8) warps directly to (17, 26) on Saffron Road. |
 | (27, 21)     | Fighting Dojo         | Unreachable                              | Decorative only. Exposing water canal (24, 22 to 27, 22) blocks southern access. |
 | (30, 19)     | Cerulean Gym          | Cerulean Gym                              | Standard Gym interior. Misty is here. |
 | (27, 11)     | Burgled House         | Bill's House Interior (Mod Swap)          | Mapped to Bill's House. Entering (27, 11) warps to Bill's House. Exiting Bill's House warps back to (27, 11). |
@@ -683,9 +682,6 @@
 - **Row 19 Ledge Blockage:** Columns 32-35 on row 19 have a horizontal one-way ledge facing down, allowing downward jumps but blocking upward passage.
 - **Saffron Gym Layout:** Saffron Gym occupies columns 27-31 on rows 16-19.
 
-  - Both the Bike Shop door at (13, 25) and the Poké Mart door at (25, 25) warp the player into the shared interior of Melanie's House.
-  - Due to the Gen 1 warp engine's "last warp" stack register, exiting Melanie's House from the inside door mat always warps the player back to the outside door they entered from (either (13, 25) or (25, 25)).
-  - It is therefore mathematically and mechanically impossible to bypass the row 15 barrier by entering Melanie's House from the south.
 
 
 <hr>
