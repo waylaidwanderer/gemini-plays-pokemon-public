@@ -308,3 +308,12 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **(25,9) Warp Trigger Behavior:** [Verified Turn 9191] Stepping onto tile (25,9) from below at (25,10) immediately triggers the teleport warp to (17,11). Tile (25,9) cannot be walked through from Row 10 to Row 8; access to Row 8 (25,8) is via Row 8 West Highway (17,8 -> 25,8).
 
 <hr>
+
+<h1><code>Locations/Cerulean_City</code></h1>
+
+# Cerulean City Map & Points of Interest
+
+## Key Locations & Coordinates
+- **West Entry Road:** [Verified Turn 9934] Route 4 East enters Cerulean City at X=0, Y=19.
+
+<hr>
