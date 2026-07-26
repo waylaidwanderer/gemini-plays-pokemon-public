@@ -77,3 +77,5 @@
 - **Exit Corridor Ladder Warp at (5,5):** [Verified Turn 8589] Ladder at (5,5) in B1F Exit Corridor warps to B1F Main Cavern at (5,5) facing Hiker NPC at (5,6)!
 - **Hiker Trainer at (5,6):** [Defeated Turn 8684] Defeated Hiker's Geodude, Geodude, and Onix at (5,6) on B1F! Column 5 is cleared South.
 - **Corridor Ladder at (17,11):** [Verified Turn 8701] Stepping onto ladder at B1F Exit Corridor (17,11) warped player to (25,9).
+- **Reciprocal Warp Pair (17,11) <-> (25,9):** [Verified Turn 8704] Ladder at (17,11) and ladder at (25,9) form a reciprocal two-way loop warp.
+- **Exit Corridor South Column 17:** [Hypothesis Turn 8704] Column 17 South of (17,17) leads to the true exit.
