@@ -67,16 +67,20 @@
 - **Defeated Rocker Harrison (Vermilion Gym):** Defeated Rocker Harrison at (3, 8) in Vermilion Gym on Turn 6886, earning ¥500.
 - **Defeated Gentleman Tucker (Vermilion Gym):** Defeated Gentleman Tucker at (9, 6) in Vermilion Gym on Turn 6897, earning ¥1610.
 - **Solved Vermilion Gym Puzzle:** Found first switch at (1, 11) and second switch at (3, 11) on Turn 7005, opening the motorized door to Lt. Surge.
+- **Defeated Gym Leader Lt. Surge:** Defeated Vermilion Gym Leader Lt. Surge on Turn 7027, obtaining the THUNDERBADGE and TM24 (Thunderbolt).
+- **Attempted Vermilion Pokémon Center Visit:** Entered Pokémon Center on Turn 7068, but the healing dialogue was accidentally declined/cancelled by pressing 'B' on the YES/NO prompt, so the party was NOT healed.
+- **Entered Route 9:** Transitioned from the eastern lane of Cerulean City onto Route 9 on Turn 7122.
+- **Engaged JR. TRAINER♀ (Route 9):** Engaged in battle with JR. TRAINER♀ on Route 9 on Turn 7131.
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
   - **Level:** 33
-  - **HP:** 79 / 90
-  - **Status:** Healthy
+  - **HP:** 2 / 90
+  - **Status:** Healthy (Very Low HP)
 - **TRUFFLE (Paras):**
   - **Level:** 13
-  - **HP:** 34 / 34
-  - **Status:** Healthy
+  - **HP:** 30 / 34
+  - **Status:** Paralyzed
 - **TESLA (Pikachu):**
   - **Level:** 14
   - **HP:** 36 / 36
