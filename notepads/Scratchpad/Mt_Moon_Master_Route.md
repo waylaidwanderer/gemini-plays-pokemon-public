@@ -1,16 +1,11 @@
-# Mt. Moon Master Progression Route (Verified Turn 9511)
+# Mt. Moon Master Progression Route (Verified Turn 9541)
 
-## Canonical Progression Architecture
-- **Mt. Moon 1F** cannot be traversed purely on 1F to reach Route 4 East.
-- **Main Path:** 1F Entrance -> Ladder at (15,27) -> B1F -> B2F (Fossil Room) -> Exit Ladder at B2F (5,5) -> B1F Exit Corridor -> Exit Ladder -> Route 4 East!
-
-## Active Execution Steps
-1. **Navigate to 1F Ladder at (15,27):**
-   - From (29,24), walk West along Row 24 to Column 15 at (15,24).
-   - Walk South along Column 15 to (15,27) ladder.
-2. **Descend to B1F (13,27):**
-   - Step onto ladder at (15,27) to warp to B1F.
-3. **Navigate B1F / B2F Caverns to Fossil Room (5,5):**
-   - Proceed to B2F Fossil Room ladder at (5,5).
-4. **Ascend Exit Corridor:**
-   - Take (5,5) ladder to B1F Exit Corridor -> 1F Exit -> Route 4 East!
+## Current B1F Execution Steps
+1. **From (23,26):**
+   - Step Right to (24,26), then Right to (25,26).
+   - Step North along Column 25 up stairs at (25,23) to upper landing at (25,22).
+2. **Locate B2F Ladder:**
+   - Test adjacent tiles around (25,22) in Eastern Chamber to confirm exact warp tile to B2F.
+3. **B2F to Freedom:**
+   - Navigate B2F to Fossil Room ladder at (5,5).
+   - Ascend to B1F Exit Corridor at (5,5) -> Exit to Route 4 East!
