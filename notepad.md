@@ -575,6 +575,7 @@
 
 <h1><code>Locations/MtMoon_B2F.md</code></h1>
 
+# Temporary empty file for de-registration
 
 
 <hr>
@@ -939,6 +940,7 @@
 
 <h1><code>Locations/MtMoon_B1F.md</code></h1>
 
+# Temporary empty file for de-registration
 
 
 <hr>
@@ -951,24 +953,28 @@
 
 <h1><code>Locations/MtMoon_B1F</code></h1>
 
+# Temporary empty file for de-registration
 
 
 <hr>
 
 <h1><code>Locations/MtMoon_B2F</code></h1>
 
+# Temporary empty file for de-registration
 
 
 <hr>
 
 <h1><code>notepads/Locations/MtMoon_B1F</code></h1>
 
+# Temporary empty file for de-registration
 
 
 <hr>
 
 <h1><code>notepads/Locations/MtMoon_B2F</code></h1>
 
+# Temporary empty file for de-registration
 
 
 <hr>
@@ -1007,12 +1013,14 @@
 
 <h1><code>notepads/notepads/Locations/MtMoon_B2F</code></h1>
 
+# Temporary empty file for de-registration
 
 
 <hr>
 
 <h1><code>notepads/notepads/Locations/MtMoon_B1F</code></h1>
 
+# Temporary empty file for de-registration
 
 
 <hr>
