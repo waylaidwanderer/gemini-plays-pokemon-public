@@ -259,8 +259,8 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 # Mt. Moon Live Routing & Verification
 
-## Active Target: Verify Current Room at (25,9)
-1. **Current Position:** (25,9) standing on ladder tile.
-2. **Immediate Action:** Step Down to (25,10) to step off ladder and survey room layout.
+## Active Target: Explore West Corridor from (25,10)
+1. **Current Position:** (25,10) facing Down.
+2. **Path:** Walk Left 4 steps to (21,10) to explore the horizontal corridor running West.
 
 <hr>
