@@ -985,5 +985,12 @@
 | JR. TRAINER♀ | (12, 10) / (13, 10)    | Oddish, Bellsprout (Lv 18) | ¥360 / Turn 7197 | Defeated! |
 | Hiker Alan   | (45, 15)               | Geodude, Onix              | ¥735 / Turn 7280| Defeated! |
 | Bug Catcher  | (24, 7)                | Bug Pokémon (unfought)     | -               | Facing Down on column 24. |
+## Ledge & Pockets Layout
+- **Upper Pavement Lanes (Rows 8, 9, 10):** Main path going east/west.
+  - Rows 8 & 9: Completely clear pavement going west from Column 20 to Column 0. Bypasses the trainer at (13, 10) by walking on Row 9.
+  - Row 10: Blocked at (9, 10) by a mountain wall. Contains JR. TRAINER♀ at (13, 10) (facing down, defeated).
+- **Ledge on Row 11 (Columns 10-19):** Blocks going UP from Row 12 (grass lane) to Row 11 (pavement). This ledge ends at Column 20, which is clear pavement.
+- **Grass Lane (Row 12, Columns 10-19):** Bounded by Row 11 ledge on top and Row 13 ledge on bottom. Blocked on the west (Column 9) by a mountain wall. To return to the upper lanes from here, walk east to Column 20, then walk UP to Row 11/10.
+- **Lower Pavement Lane (Row 14/15, Columns 10-19):** Bounded by Row 13 ledge on top. Blocked on the west (Column 9) by a mountain wall. Contains Hiker Alan at (45, 15) and Hiker at (16, 15) facing right. Escape Gap is at (19, 14), walking UP through (19, 13) to (19, 12) into the grass lane.
 
 <hr>
