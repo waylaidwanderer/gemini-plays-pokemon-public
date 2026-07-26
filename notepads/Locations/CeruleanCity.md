@@ -45,3 +45,13 @@
   - Both the Bike Shop door at (13, 25) and the Poké Mart door at (25, 25) warp the player into the shared interior of Melanie's House.
   - Due to the Gen 1 warp engine's "last warp" stack register, exiting Melanie's House from the inside door mat always warps the player back to the outside door they entered from (either (13, 25) or (25, 25)).
   - It is therefore mathematically and mechanically impossible to bypass the row 15 barrier by entering Melanie's House from the south.
+
+
+### Melanie's House Warp Resource Sharing & Back-Warping Verification (Turn 5784)
+- **Empirical Test 1 (Turn 5763-5764):** Stand at (25, 26) in Cerulean City, walk UP into the Poké Mart door at (25, 25) to warp inside Melanie's House at (3, 7). Then, walk DOWN from (3, 7) into (3, 8) (the door mat).
+  - **Result:** Warps the player to (25, 26) in Cerulean City (the south side outside the Poké Mart).
+- **Empirical Test 2 (Turn 5634-5635 / Turn 5667-5668):** Enter Melanie's House from the Bike Shop door at (13, 25), and walk DOWN through the inside door mat.
+  - **Result:** Warps the player back to (13, 25) in Cerulean City (the south side outside the Bike Shop).
+- **Technical Engine Analysis:** 
+  - Due to the Gen 1 warp engine's "last warp" stack register (which tracks the map and warp ID of the player's last entered overworld door), any map sharing a single interior (shared warp resource) will dynamically redirect the exit warp back to the respective entered outside coordinate.
+  - Consequently, it is mathematically and mechanically impossible to use Melanie's House as a bypass to cross the horizontal row 15 barrier from south to north.
