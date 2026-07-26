@@ -358,6 +358,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Item Ball at (22,2):** [Verified Turn 10261/10282] Enclosed by Cut Trees. Requires HM01 Cut to collect!
 - **Trainer 6 (Youngster/Jr. Trainer):** [Verified Turn 10282/10286] Located at X=29, Y=3 facing Left. Defeated! Team: Ekans Lv 14, Sandshrew Lv 14.
 - **Trainer 7 (Lass/Jr. Trainer):** [Verified Turn 10288/10299] Located at X=37, Y=4. Defeated! Team: Oddish Lv 13, Pidgey Lv 13, Oddish Lv 13.
-- **Sea Cottage Doorway:** [Verified Turn 10300] Located at X=38, Y=3 on Route 25.
+- **Sea Cottage Doorway:** [Verified Turn 10303] Located at X=45, Y=3 on Route 25.
 
 <hr>
