@@ -12,4 +12,4 @@
 - **Trainer 6 (Youngster/Jr. Trainer):** [Verified Turn 10282/10286] Located at X=29, Y=3 facing Left. Defeated! Team: Ekans Lv 14, Sandshrew Lv 14.
 - **Trainer 7 (Lass/Jr. Trainer):** [Verified Turn 10288/10299] Located at X=37, Y=4. Defeated! Team: Oddish Lv 13, Pidgey Lv 13, Oddish Lv 13.
 - **Sea Cottage Doorway:** [Verified Turn 10303] Located at X=45, Y=3 on Route 25.
-- **Trainer 8 (Youngster/Jr. Trainer M):** [Verified Turn 10325] Located at X=24, Y=5 facing Down. Engaged in battle! Text: "I'm a cool guy. I've got a girlfriend!"
+- **Trainer 8 (Youngster/Jr. Trainer M):** [Verified Turn 10325/10332] Located at X=24, Y=5 facing Down. Defeated! Team: Rattata Lv 14, Ekans Lv 14.
