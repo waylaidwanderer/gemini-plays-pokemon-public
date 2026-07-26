@@ -183,7 +183,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **(29,26)-(29,30) Wall Collision:** [Verified Turn 8860] Solid rock wall face at Column 29 across Rows 26-30 blocks Westward movement along Row 26-30. True West bypass is Row 25 (30,25 -> 25,25).
 - **Row 27 Rock Wall Face (Cols 22-23):** [Verified Turn 8866] Solid rock wall face along Row 27 at Cols 22-23. West passage is via Row 28 South Trench (24,28 -> 15,28).
 - **Solid Rock Wall Face at (20,27):** [Verified Turn 8872] Solid rock wall face blocks Northward movement from (20,28) at (20,27).
-- **Solid Rock Wall Face at (19,28):** [Verified Turn 8886] Solid rock wall face blocks Westward movement from (20,28) at (19,28). Row 28 South Trench dead-ends West at (20,28).
 - **Solid Rock Wall Face at (18..19,11):** [Verified Turns 8923-8925] Solid rock wall face blocks Westward passage along Row 11 at Columns 18-19. Row 11 from (20,11) does NOT connect directly West to (17,11); bypass via Column 30 -> Row 6/7 top corridor.
 - **Solid Rock Wall Face at (22..23, 21..25):** [Verified Turn 11496] Solid blue rock wall face blocks Westward passage along Rows 21-25 at Columns 22-23. True West passage to exit ladder (15,27) is via Row 28 South Trench (24,28 -> 15,28 -> 15,27)!
 - **Solid Rock Wall Face at (29,8):** [Verified Turn 9058] Tile (29,8) is a solid blue rock wall face blocking Southward movement along Column 29.
