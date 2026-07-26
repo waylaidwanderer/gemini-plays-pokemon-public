@@ -108,3 +108,4 @@
 - **(3,5) Elevation Stairs for (5,7) Platform:** [Verified Turn 9835] Solid platform wall face blocks Row 4 Southward entry into Row 5 across Cols 4-10. Descent to (5,7) ladder ground floor is via (3,5) elevation stairs!
 - **Exit Corridor Ladder Arrival at (5,5):** [Verified Turn 11300] Tile (5,5) in B1F Main Cavern is the arrival landing tile when coming UP from B2F Fossil Room exit ladder. It is NOT a functional exit ladder inside B1F Main Cavern.
 - **True Route to Route 4 East Exit:** From 1F South (14,35), walk NORTH along 1F floor (bypassing the 15,27 B1F ladder) straight to 1F (5,5) NW ladder! Taking 1F (5,5) ladder down leads to B1F Exit Corridor, which connects directly East to 1F North corridor (26,3) and Route 4 East exit.
+- **Decorative Ladder at (21,17):** [Verified Turn 11324] Tile (21,17) in B1F displays a ladder graphic but is non-functional (stepping on it triggers no warp).
