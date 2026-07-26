@@ -9,5 +9,4 @@
 
 ## Underground Path Entrance Building
 - **Location:** Stands on the eastern side of Route 5 at rows 20-21.
-- **Building door:** Mapped to (10, 21). Orange door with a yellow window/light.
 - **Access Route:** Since row 23 has a ledge, the building is accessible from the north side of the ledge. From column 15 (which is open on row 23), walk Up to row 15, Left to column 10, Down to row 20, and walk around to (10, 22) (south doorstep) to walk Up and enter.

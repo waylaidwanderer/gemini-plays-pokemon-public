@@ -56,14 +56,17 @@
 - **Defeated Gym Leader Misty:** Defeated Cerulean Gym Leader Misty on Turn 5262, obtaining the CASCADEBADGE and TM11 (Bubblebeam).
 
 - **Defeated Bug Catcher (Route 6):** Defeated Bug Catcher on Turn 6172, earning ¥200.
+- **Defeated Jr. Trainer♀ (Route 6):** Defeated Jr. Trainer♀ at (9, 31) on Turn 6185, earning ¥320.
+- **Tesla Leveled Up:** TESLA (Pikachu) reached Level 14 on Turn 6189.
+- **Defeated Jr. Trainer♂ (Route 6):** Defeated Jr. Trainer♂ at (8, 31) on Turn 6211, earning ¥320.
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
   - **Level:** 28
   - **Moveset:** Tackle (31/35 PP), Tail Whip (30/30 PP), Bite (19/25 PP), Water Gun (25/25 PP)
   - **Stats:** Attack 53, Defense 59, Speed 46, Special 50
-  - **HP:** 50 / 77
-  - **Status:** Healthy (Slightly Damaged)
+  - **HP:** 77 / 77
+  - **Status:** Healthy
 - **TRUFFLE (Paras):**
   - **Level:** 13
   - **Moveset:** Scratch (35/35 PP), Dig (10/10 PP), Stun Spore (30/30 PP)
@@ -71,10 +74,10 @@
   - **HP:** 34 / 34
   - **Status:** Healthy
 - **TESLA (Pikachu):**
-  - **Level:** 13
+  - **Level:** 14
   - **Moveset:** ThunderShock (30/30 PP), Growl (40/40 PP), Thunder Wave (20/20 PP)
-  - **Stats:** Attack 20, Defense 14, Speed 31, Special 22
-  - **HP:** 34 / 34
+  - **Stats:** Attack 21, Defense 15, Speed 33, Special 23
+  - **HP:** 36 / 36
   - **Status:** Healthy
 - **GUSTY (Pidgey):**
   - **Level:** 5
