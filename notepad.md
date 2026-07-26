@@ -302,17 +302,18 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 <h1><code>Scratchpad/Mt_Moon_Master_Route</code></h1>
 
-# Mt. Moon Master Route to Exit (Turn 9695)
+# Mt. Moon Master Route to Exit (Turn 9698)
 
-## BREAKTHROUGH: Escaped Side-Room Loop via B1F Col 17 Southbound Highway!
-- **Current Pos:** B1F (17,12).
-- **Verified Discovery:** Column 17 at Row 12, 13, 14, 15, 16... is wide open purple cave floor extending South out of the upper chamber!
-- **Remaining Navigation to Exit:**
-  1. Walk South down Column 17 from (17,12) to Row 26 South Corridor [(17,26)].
-  2. Walk West/South along South Corridor to Row 28 South Trench [(15,28)].
-  3. Walk Up 1 step onto (15,27) entrance ladder -> Ascend to 1F (13,27)!
-  4. On 1F (13,27): Navigate 1F West via Col 6 corridor to 1F Western Chamber.
-  5. Descend Western ladder to Main B2F Cavern -> proceed to Fossil Room Exit Ladder at (5,5)!
-  6. Ascend ladder at (5,5) -> B1F Exit Corridor -> Walk South to Row 16, East to Route 4 East!
+## Current Position & Col 15 Southbound Highway
+- **Current Pos:** B1F (17,19).
+- **Obstacle Note:** Tile (17,20) is a rock wall face. Bypass West via Col 15!
+- **Path to (15,27) Entrance Ladder to 1F:**
+  1. Walk Left 2 steps to Col 15 at (15,19).
+  2. Walk Down 3 steps along Col 15 to (15,22).
+  3. Walk South along Col 14/15 past Rocket Grunt to (15,28) South Trench.
+  4. Walk Up 1 step onto (15,27) entrance ladder -> Ascend to 1F (13,27)!
+- **On 1F (13,27):**
+  - Walk West along 1F Column 6 corridor to 1F Western Chamber.
+  - Locate Western ladder down to Main B2F Cavern / Exit Corridor!
 
 <hr>
