@@ -31,7 +31,6 @@
 - **Upper Cavern Hallway (Cols 14-25, Rows 8-11):** [Verified Turn 4630] Rows 8-11 from Col 14 to Col 25 are wide open smooth purple cave floor! Connects B1F (17,11) directly East to B1F (25,9) ladder.
 - **Row 21 Wall Collision at (22,21):** [Verified Turn 2578] Solid rock wall face at (22,21) blocks Westward movement along Row 21.
 - **B1F Map Boundary West at Col 10:** [Verified Turn 2594] Column 10 is the westmost edge of Mt. Moon B1F. Columns 2-9 do not exist on B1F.
-- **South Corridor True Coordinates:** [Verified Turn 2646] Rows 28-30 across Columns 20-25 form the open floor South Corridor extending West under the Row 24-27 rock wall face. Row 26/27 at Cols 20-23 is solid rock wall face.
 - **Row 25 Solid Rock Wall Face (Cols 10-23):** [Verified Turn 2758] Solid purple rock wall face blocks Row 25 across Columns 10 through 23 on B1F. Column 15 does NOT connect North past Row 25. Exit North from South Corridor is at Columns 24-25.
 - **East Wall Boundary at Col 28 (Rows 17-25):** [Verified Turn 2768] Solid purple rock wall face at Column 28 blocks East from Column 27 across Rows 17-25. Wide Eastern Highway is Columns 24-27 extending North.
 - **(25,12) Wall Boundary:** [Verified Turn 2973] Tile (25,12) is an impassable wall face. Column 25 dead-ends South at Row 11.
@@ -52,7 +51,6 @@
 - **Exit Ladder Warp Arrival from B2F at (25,22):** [Verified Turn 4681] Arrived at (25,22) on B1F from B2F exit ladder!
 - **South Corridor Row 25 Bypass:** [Verified Turn 4687] Row 25 (Cols 15-25) is wide open smooth purple floor, bypassing Col 19 rock wall at Row 28.
 - **Row 27 Rock Wall Face (Cols 19-23):** [Verified Turn 4688] Solid rock wall face along Row 27 at Cols 19-23. Passage between Row 28 and Row 25 is via Column 24/25.
-- **Decorative Ladder at (24,31):** [Verified Turn 4695] Tile (24,31) displays ladder graphic but is non-functional/impassable. True functional exit ladder to 1F is at (15,27)!
 - **Col 12-13 Wall Boundary (Rows 3-11):** [Verified Turn 4706] Solid rock wall face along Columns 12-13 across Rows 3-11 blocks Row 7 from connecting directly West at Column 13.
 - **(28,26) Wall Boundary:** [Verified Turn 4734] Solid rock wall face at (28,26) blocks Eastward movement along Row 26 South Corridor.
 - **Cliff Wall Face at (30..31, 21..28):** [Verified Turn 4768] Solid cliff wall face blocks Eastward movement from Column 29 across Rows 21-28 on B1F.
