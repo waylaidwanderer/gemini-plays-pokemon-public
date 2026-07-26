@@ -927,6 +927,7 @@
 
 ## Current Search Session
 - (3, 9): Empty (Nope)
+- (5, 9): Empty (Nope)
 
 ## Previous Search Sessions
 - Attempt 5 (Reset on Turn 6983):
@@ -990,12 +991,6 @@
 <hr>
 
 <h1><code>Locations/MtMoon_B1F</code></h1>
-
-# Temp
-
-<hr>
-
-<h1><code>notepads/Locations/MtMoon_B1F</code></h1>
 
 # Temp
 
