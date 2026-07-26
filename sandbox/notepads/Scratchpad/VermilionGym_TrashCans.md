@@ -6,7 +6,7 @@
 - Row 11: (1, 11), (3, 11), (5, 11), (7, 11), (9, 11)
 
 ## Current Search Session
-- (5, 9): Checked (Wait)
+- (5, 9): Empty (Nope)
 
 ## Previous Search Sessions
 - Attempt 2 (Reset on Turn 6940):
