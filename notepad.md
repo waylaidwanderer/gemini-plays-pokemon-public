@@ -213,7 +213,7 @@
   - **HP:** 4 / 92
   - **Status:** Healthy (Very Low HP)
 
-- **Defeated Gym Leader Lt. Surge:** Defeated Vermilion Gym Leader Lt. Surge on Turn 7027, obtaining the THUNDERBADGE and TM24 (Thunderbolt).
+
 
 <hr>
 
@@ -1003,7 +1003,7 @@
 - **Upper Pavement Lanes (Rows 8, 9, 10):** Main path going east/west.
   - Rows 8 & 9: Completely clear pavement going west from Column 20 to Column 0. Bypasses the trainer at (13, 10) by walking on Row 9.
   - Row 10: Blocked at (9, 10) by a mountain wall. Contains JR. TRAINER♀ at (13, 10) (facing down, defeated).
-- **Ledge on Row 11 (Columns 10-19):** Blocks going UP from Row 12 (grass lane) to Row 11 (pavement). This ledge ends at Column 20, which is clear pavement.
+- **Ledge on Row 11 (Columns 10-19):** Blocks going UP from Row 12 (grass lane) to Row 11 (pavement). This ledge ends at Column 20, which is clear pavement. Note: The boundary at Column 45/46 on Row 6-10 is a solid rock cliff/mountain wall and is NOT a jumpable ledge from the west.
 - **Grass Lane (Row 12, Columns 10-19):** Bounded by Row 11 ledge on top and Row 13 ledge on bottom. Blocked on the west (Column 9) by a mountain wall. To return to the upper lanes from here, walk east to Column 20, then walk UP to Row 11/10.
 - **Row 13 Ledge & Gap (Columns 20-53):** Blocks going UP from Row 14 (lower pavement) to Row 12 (grass). This ledge has an **empirically verified open gap at Columns 29 and 30** (discovered on Turn 7376, verified on Turn 7451), allowing players to walk UP from (29, 14) to (29, 12).
 - **Row 9 Ledge & Gap (Columns 20-25):** Blocks going UP from Row 10 to Row 8. This ledge has an **empirically verified open gap at Column 29** (discovered on Turn 7399), allowing players to walk UP from (29, 10) to (29, 8/9).
@@ -1033,6 +1033,37 @@
 
 <h1><code>notepads/notepads/notepads/Locations/MtMoon_B2F</code></h1>
 
+
+
+<hr>
+
+<h1><code>Locations/Route10</code></h1>
+
+# Route 10 - Map Layout, Ledges & Landmarks
+
+## Overworld Layout & Structure
+- **Dimensions:** Height = 36 blocks (72 tiles), Width = 10 blocks (20 tiles).
+- **Global Alignment:** Route 10 starts at Column 50 of the global coordinate system.
+- **Top Connection:** Connects West to Route 9 at the top-west (Block Rows 0 to 8).
+
+## Verified Landmarks
+- **Pokémon Center:** Located at Block Row 17 (tiles y=68-69) on Columns 2-3 (tiles x=54-55). 
+  - Block 0x0d is the roof/building.
+  - Block 0x7f is the door/window.
+- **Rock Tunnel South Exit / Lavender Town Connection:** Located at the bottom of Route 10.
+
+## Terrain & Ledges
+- **Eastern River:** Columns 54-58 are water/river (specifically Column 54 is the shore, Columns 55-58 are water with animated wave sparkles).
+- **Ledge on Row 13:** A horizontal ledge facing DOWN runs across Row 13 (Block Row 7, tiles y=14/15) from Columns 50 to 53.
+  - Standing below the ledge (Row 14/15), you CANNOT walk UP to Row 12/13.
+  - Thus, the pocket at (50, 14) to (53, 15) is a dead end from the south-west, but you can escape by walking Left back to Route 9.
+- **Upper Level (Row 12/13):** Block Row 6 (tiles y=12/13) is completely walkable pavement from Column 52 to 58. This upper level allows players to walk east and go south to reach the Pokémon Center.
+
+## Navigational Strategy
+- To reach the Pokémon Center from Route 9:
+  1. Walk UP through the gap at Columns 29/30 on Route 9 to Row 12 (middle lane).
+  2. Walk EAST on Row 12/13 of Route 9 to Route 10, past Column 50, to Column 58 (upper pavement).
+  3. From the upper level of Route 10, walk SOUTH directly to the Pokémon Center on Row 17 (y=68).
 
 
 <hr>

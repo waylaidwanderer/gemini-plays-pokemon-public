@@ -20,7 +20,7 @@
 - **Upper Pavement Lanes (Rows 8, 9, 10):** Main path going east/west.
   - Rows 8 & 9: Completely clear pavement going west from Column 20 to Column 0. Bypasses the trainer at (13, 10) by walking on Row 9.
   - Row 10: Blocked at (9, 10) by a mountain wall. Contains JR. TRAINER♀ at (13, 10) (facing down, defeated).
-- **Ledge on Row 11 (Columns 10-19):** Blocks going UP from Row 12 (grass lane) to Row 11 (pavement). This ledge ends at Column 20, which is clear pavement.
+- **Ledge on Row 11 (Columns 10-19):** Blocks going UP from Row 12 (grass lane) to Row 11 (pavement). This ledge ends at Column 20, which is clear pavement. Note: The boundary at Column 45/46 on Row 6-10 is a solid rock cliff/mountain wall and is NOT a jumpable ledge from the west.
 - **Grass Lane (Row 12, Columns 10-19):** Bounded by Row 11 ledge on top and Row 13 ledge on bottom. Blocked on the west (Column 9) by a mountain wall. To return to the upper lanes from here, walk east to Column 20, then walk UP to Row 11/10.
 - **Row 13 Ledge & Gap (Columns 20-53):** Blocks going UP from Row 14 (lower pavement) to Row 12 (grass). This ledge has an **empirically verified open gap at Columns 29 and 30** (discovered on Turn 7376, verified on Turn 7451), allowing players to walk UP from (29, 14) to (29, 12).
 - **Row 9 Ledge & Gap (Columns 20-25):** Blocks going UP from Row 10 to Row 8. This ledge has an **empirically verified open gap at Column 29** (discovered on Turn 7399), allowing players to walk UP from (29, 10) to (29, 8/9).

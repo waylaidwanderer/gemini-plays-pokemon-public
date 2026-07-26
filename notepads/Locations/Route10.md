@@ -1,30 +1,25 @@
-# Route 10 South & Lavender Town Geographical Records
+# Route 10 - Map Layout, Ledges & Landmarks
 
-## Overview
-- **Map ID**: 0_21 (Route 10 South / Lavender Town transition region)
-- **Entrance Warp to Rock Tunnel**: Located at (8, 53) (Map 0_21). Map marker '🚪' defined.
-- **Exploration Started**: Turn 28708 (Friday, May 29, 2026 at 10:09 AM PDT).
+## Overworld Layout & Structure
+- **Dimensions:** Height = 36 blocks (72 tiles), Width = 10 blocks (20 tiles).
+- **Global Alignment:** Route 10 starts at Column 50 of the global coordinate system.
+- **Top Connection:** Connects West to Route 9 at the top-west (Block Rows 0 to 8).
 
-## Regional Exploration Planning
-- **Strategy for Mapping POIs**:
-  - As we head south toward Lavender Town, we will systematically document:
-    1. Land connections and boundaries.
-    2. NPCs, their coordinates, and whether they are trainers or non-combatants.
-    3. Wild grass regions, item locations, and any cuttable bushes or barriers.
-  - To prevent context bloat, we will record raw exploration logs in temporary scratchpads, and use `lavender_database_agent` to compress them once we reach milestones.
+## Verified Landmarks
+- **Pokémon Center:** Located at Block Row 17 (tiles y=68-69) on Columns 2-3 (tiles x=54-55). 
+  - Block 0x0d is the roof/building.
+  - Block 0x7f is the door/window.
+- **Rock Tunnel South Exit / Lavender Town Connection:** Located at the bottom of Route 10.
 
-## Lavender Town Transition Hypothesis & Verification Protocol
-- **Hypothesis**: Moving further south/east along Route 10 South will trigger a transition into Lavender Town. (VERIFIED on Turn 28826!)
-- **Transition Results & Empirical Proof**:
-  - **Turn**: 28826 (Friday, May 29, 2026 at 10:34 AM PDT)
-  - **Coordinate Transition**: Stepped south from Route 10 South (8, 73) on Map 0_21 and arrived at Lavender Town (8, 0) on Map 0_4.
-  - **Verification 1 (Map ID)**: Game State Map ID changed from `0_21` to `0_4`.
-  - **Verification 2 (Map Name Display)**: On-screen signpost overlay displayed "LAVENDER TOWN".
-  - **Verification 3 (Visual Theme)**: Map palette changed to a purple/lavender color scheme, with the iconic stone wall architecture of the Pokémon Tower visible immediately to the east.
-  - **Verification 4 (Audio)**: Background music transitioned to the eerie, melancholic Lavender Town theme.
+## Terrain & Ledges
+- **Eastern River:** Columns 54-58 are water/river (specifically Column 54 is the shore, Columns 55-58 are water with animated wave sparkles).
+- **Ledge on Row 13:** A horizontal ledge facing DOWN runs across Row 13 (Block Row 7, tiles y=14/15) from Columns 50 to 53.
+  - Standing below the ledge (Row 14/15), you CANNOT walk UP to Row 12/13.
+  - Thus, the pocket at (50, 14) to (53, 15) is a dead end from the south-west, but you can escape by walking Left back to Route 9.
+- **Upper Level (Row 12/13):** Block Row 6 (tiles y=12/13) is completely walkable pavement from Column 52 to 58. This upper level allows players to walk east and go south to reach the Pokémon Center.
 
-## NPC Database
-- **Jr. Trainer ♀ at (7, 54)**: Defeated on Turn 28728. (Defended by Map Marker '☠️' at 7, 54).
-- **Hiker at (3, 57)**: Defeated on Turn 28750 (had Geodude L21, Onix L21; rewarded ¥735). GEMMY evolved into BLASTOISE! (Defended by Map Marker '☠️' at 3, 57).
-- **Hiker at (3, 61)**: Defeated on Turn 28780 (had ONIX Lv 19, GRAVELER Lv 19; rewarded ¥665). Conversed on Turn 28768 before battle ("Ah! This mountain air is delicious!"). (Defended by Map Marker '☠️' at 3, 61).
-- **Pokémaniac at (11, 64)**: Defeated on Turn 28800 (had CUBONE Lv 20, SLOWPOKE Lv 20; rewarded ¥1000). Intercepted us on Turn 28787 ("Hi kid, want to see my POKéMON?").
+## Navigational Strategy
+- To reach the Pokémon Center from Route 9:
+  1. Walk UP through the gap at Columns 29/30 on Route 9 to Row 12 (middle lane).
+  2. Walk EAST on Row 12/13 of Route 9 to Route 10, past Column 50, to Column 58 (upper pavement).
+  3. From the upper level of Route 10, walk SOUTH directly to the Pokémon Center on Row 17 (y=68).
