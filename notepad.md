@@ -344,5 +344,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Trainer 2 (Lass):** [Verified Turn 10165] Located at X=10, Y=28. Team: Pidgey Lv 14, Nidoran♀ Lv 14, Nidoran♂ Lv 14 [In Progress].
 - **Trainer 3 (Youngster):** [Verified Turn 10178] Located at X=11, Y=25. Defeated! Team: Rattata Lv 14, Ekans Lv 14, Zubat Lv 14.
 - **Trainer 4 (Lass):** [Verified Turn 10187] Located at X=10, Y=22.
+- **Trainer 5 (Jr. Trainer M):** Located at X=11, Y=19.
 
 <hr>
