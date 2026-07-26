@@ -22,3 +22,5 @@
 - Lass at (30,6) [Defeated]
 - Rocket Grunt at (15,23) [Defeated]
 - Item Balls collected at (2,20) and (25,21).
+- **(13,22)-(13,27) Platform Wall Boundary:** [Verified Turn 9337] Columns 12-13 form a checkered elevated platform face on 1F. East edge of Col 13 is an impassable platform wall face blocking Westward entry from Col 14.
+- **(14,21) Rock Wall Boundary:** [Verified Turn 9331] Solid rock wall face at (14,21) blocks Northward movement along Col 14 on 1F.
