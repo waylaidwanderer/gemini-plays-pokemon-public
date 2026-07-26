@@ -198,6 +198,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Exit Corridor Ladder Warp at (5,5):** [Verified Turn 8589] Ladder at (5,5) in B1F Exit Corridor warps to B1F Main Cavern at (5,5) facing Hiker NPC at (5,6)!
 - **Ladder at (17,11):** [Verified Turn 8599] Ladder graphic visible at (17,11) on B1F directly North of (17,12).
 - **Hiker Trainer at (5,6):** [Defeated Turn 8684] Defeated Hiker's Geodude, Geodude, and Onix at (5,6) on B1F! Column 5 is cleared South.
+- **Exit Ladder to 1F at (17,11):** [Verified Turn 8699] Functional exit ladder located at X=17, Y=11 in B1F Exit Corridor warps up to Mt. Moon 1F Exit Corridor.
 
 <hr>
 
@@ -259,8 +260,8 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 # Mt. Moon Live Routing & Verification
 
-## Active Target: Navigate B1F Exit Corridor
-1. **Current Position:** (17,17) in B1F Exit Corridor.
-2. **Path:** Walk North along Column 17 to (17,13) to inspect upper corridor and exit ladder/stairs.
+## Active Target: Exit B1F via Ladder at (17,11)
+1. **Current Position:** (17,13) facing Up in B1F Exit Corridor.
+2. **Path:** Walk Up 2 steps to (17,11) to take ladder up to Mt. Moon 1F Exit Corridor.
 
 <hr>

@@ -1,5 +1,5 @@
 # Mt. Moon Live Routing & Verification
 
-## Active Target: Navigate B1F Exit Corridor
-1. **Current Position:** (17,17) in B1F Exit Corridor.
-2. **Path:** Walk North along Column 17 to (17,13) to inspect upper corridor and exit ladder/stairs.
+## Active Target: Exit B1F via Ladder at (17,11)
+1. **Current Position:** (17,13) facing Up in B1F Exit Corridor.
+2. **Path:** Walk Up 2 steps to (17,11) to take ladder up to Mt. Moon 1F Exit Corridor.
