@@ -79,3 +79,4 @@
 - **Corridor Ladder at (17,11):** [Verified Turn 8701] Stepping onto ladder at B1F Exit Corridor (17,11) warped player to (25,9).
 - **Reciprocal Warp Pair (17,11) <-> (25,9):** [Verified Turn 8704] Ladder at (17,11) and ladder at (25,9) form a reciprocal two-way loop warp.
 - **Exit Corridor South Column 17:** [Hypothesis Turn 8704] Column 17 South of (17,17) leads to the true exit.
+- **Column 23 Wall Face (Rows 6-11):** [Verified Turn 8713] Column 23 is a solid vertical rock wall face separating Eastern Cavern (Cols 24-30) from Western Cavern (Cols 10-22). The (25,9) <-> (17,11) reciprocal warp connects across this wall.

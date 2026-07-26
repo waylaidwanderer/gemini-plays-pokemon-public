@@ -1,12 +1,9 @@
 # Mt. Moon Live Routing & Verification
 
-## Active Target: Navigate to Exit Corridor Ladder at (5,5)
-1. **Current Position:** (24,10) in B1F Main Cavern.
-2. **Master Path:**
-   - Walk West along Row 10 to (10,10).
+## Active Target: Warp to West Side via Ladder (25,9)
+1. **Current Position:** (24,10) on East side of Column 23 rock wall.
+2. **Immediate Plan:**
+   - Walk Right to (25,10), then Up to (25,9) ladder to warp to (17,11) on West side.
+   - Step Up to (17,10), then walk Left 7 steps to (10,10).
    - Walk North along Column 10 to (10,5).
-   - Walk West along Row 5 to (5,5) ladder.
-   - Warp to B1F Exit Corridor (5,5).
-   - Walk South down Column 5 to Row 16, East to Column 17 at (17,17).
-   - Walk SOUTH down Column 17 to locate true exit ladder to 1F (21,17).
-3. **Immediate Step:** Dismiss text, walk Left 8 steps to (16,10).
+   - Walk West along Row 5 to (5,5) ladder to enter B1F Exit Corridor.

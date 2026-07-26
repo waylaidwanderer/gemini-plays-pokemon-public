@@ -200,6 +200,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Corridor Ladder at (17,11):** [Verified Turn 8701] Stepping onto ladder at B1F Exit Corridor (17,11) warped player to (25,9).
 - **Reciprocal Warp Pair (17,11) <-> (25,9):** [Verified Turn 8704] Ladder at (17,11) and ladder at (25,9) form a reciprocal two-way loop warp.
 - **Exit Corridor South Column 17:** [Hypothesis Turn 8704] Column 17 South of (17,17) leads to the true exit.
+- **Column 23 Wall Face (Rows 6-11):** [Verified Turn 8713] Column 23 is a solid vertical rock wall face separating Eastern Cavern (Cols 24-30) from Western Cavern (Cols 10-22). The (25,9) <-> (17,11) reciprocal warp connects across this wall.
 
 <hr>
 
@@ -261,15 +262,12 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 # Mt. Moon Live Routing & Verification
 
-## Active Target: Navigate to Exit Corridor Ladder at (5,5)
-1. **Current Position:** (24,10) in B1F Main Cavern.
-2. **Master Path:**
-   - Walk West along Row 10 to (10,10).
+## Active Target: Warp to West Side via Ladder (25,9)
+1. **Current Position:** (24,10) on East side of Column 23 rock wall.
+2. **Immediate Plan:**
+   - Walk Right to (25,10), then Up to (25,9) ladder to warp to (17,11) on West side.
+   - Step Up to (17,10), then walk Left 7 steps to (10,10).
    - Walk North along Column 10 to (10,5).
-   - Walk West along Row 5 to (5,5) ladder.
-   - Warp to B1F Exit Corridor (5,5).
-   - Walk South down Column 5 to Row 16, East to Column 17 at (17,17).
-   - Walk SOUTH down Column 17 to locate true exit ladder to 1F (21,17).
-3. **Immediate Step:** Dismiss text, walk Left 8 steps to (16,10).
+   - Walk West along Row 5 to (5,5) ladder to enter B1F Exit Corridor.
 
 <hr>
