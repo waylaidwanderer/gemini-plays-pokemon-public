@@ -1,2 +1,11 @@
-- **Route 5 Guardhouse Doorway:** [Verified Turn 11963] Located at X=13, Y=25 in South Cerulean City. Gate pillars at (10,25) and signpost at (11,25). Door at (13,25) leads to Route 5 / Underground Path.
-- **North Bypass via Column 10 (Row 15-18):** [Verified Turn 12024] Column 10/11 has no ledges at Row 15-17. Walk Up Column 10 to Row 15 (10,15), Right along Row 15 to Column 36 (36,15), and Down Column 36 to exit onto Route 5.
+# Cerulean City Points of Interest
+
+- **West Entry Road:** X=0, Y=19 (Route 4).
+- **Cerulean Trade House:** X=13, Y=15 (Trade Nidoran house).
+- **Pokémon Center:** X=19, Y=17.
+- **Cerulean Gym:** X=30, Y=19.
+- **Cerulean Bike Shop:** X=13, Y=25 (Bicycles for 1,000,000 Pokédollars).
+- **Poké Mart:** X=25, Y=25.
+- **Burglarized House:** X=27, Y=11.
+- **Backyard Garden:** Exit back door at (27,8) to reach Grunt at (30,8) for TM28 Dig. Column 36/37 leads directly South to Route 5.
+- **East Ledge:** Column 32-34 at Row 19 is a one-way south-facing ledge.
