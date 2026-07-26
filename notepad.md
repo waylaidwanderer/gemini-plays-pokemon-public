@@ -691,9 +691,9 @@
   - **Result:** Warps the player to (25, 26) in Cerulean City (the south side outside the Poké Mart).
 - **Empirical Test 2 (Turn 5634-5635 / Turn 5667-5668):** Enter Melanie's House from the Bike Shop door at (13, 25), and walk DOWN through the inside door mat.
   - **Result:** Warps the player back to (13, 25) in Cerulean City (the south side outside the Bike Shop).
-- **Technical Engine Analysis:** 
-  - Due to the Gen 1 warp engine's "last warp" stack register (which tracks the map and warp ID of the player's last entered overworld door), any map sharing a single interior (shared warp resource) will dynamically redirect the exit warp back to the respective entered outside coordinate.
-  - Consequently, it is mathematically and mechanically impossible to use Melanie's House as a bypass to cross the horizontal row 15 barrier from south to north.
+ 
+
+
 
 
 <hr>
