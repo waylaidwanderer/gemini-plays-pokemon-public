@@ -129,7 +129,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **West Wall Columns 8-9:** [Verified Turn 1221] Columns 8-9 are solid rock wall across Rows 18-23.
 - **Column 2 Dead End:** [Verified Turn 1227] Column 2 is a dead-end alcove at Row 17.
 - **Row 8 Bypass at Col 25:** [Verified Turn 1302] Ladder tile at (25,9) on B1F is directly below (25,8).
-- **Row 10 Central Bypass:** [Verified Turn 1318] Row 10 is open floor across Cols 26-34, providing the horizontal bypass across the Central Rock Pillar (Cols 32-33).
+- **Column 26 Rock Wall (Rows 6-14):** [Verified Turn 11249] Column 26 is a solid rock wall face from Row 6 through Row 14. Tile (26,10) is solid rock wall, blocking Eastward movement from (25,10).
 - **Item Ball at (36,23):** [Verified Turn 1313/1324] Item Ball at (36,23) contained Escape Rope.
 
 - **Row 20 North Wall Block (Cols 20-29):** [Verified Turn 2305] Solid purple rock wall face blocks Northward movement at Row 20 across Columns 20 through 29 on B1F. Column 14/15 provides the open vertical highway North connecting South Corridor (Row 26) to Upper Cavern (Rows 18-21).
