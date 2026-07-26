@@ -12,5 +12,5 @@
 - **Saffron City Southern Gatehouse Door:** Located at `(10, 7)` on the west side. Exiting the Saffron City Gatehouse warps the player to Route 6 at `(10, 8)` facing Down. Inside, the thirsty guard blocks access to Saffron City.
 - **Horizontal Fence Barrier:** Runs horizontally on Row 11 from columns 2 to 15.
 - **Fence Gap:** Located at `(7, 11)`. Allows passage north/south between Saffron Gatehouse row 14 and the northern grassy field containing Saffron Southern Gatehouse.
-- **Underground Path Entrance Building (Route 6):** Located at columns 16-19, rows 10-11 on the east side.
-  - **Entrance Door:** Located at `(17, 11)`. Standing at `(17, 12)` and walking Up enters the building.
+- **Underground Path Entrance Building (Route 6):** Located at columns 16-19, rows 10-13 on the east side.
+  - **Entrance Door:** Located at `(17, 13)`. Standing at `(17, 14)` and walking Up enters the building.
