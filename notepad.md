@@ -340,3 +340,9 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Cell Separator PC Terminal:** [Verified Turn 10313] Interactive monitor at X=1, Y=4 accessed from X=1, Y=5 facing Up.
 
 <hr>
+
+<h1><code>Locations/Cerulean_City.md</code></h1>
+
+- **Route 5 Guardhouse Doorway:** [Verified Turn 11963] Located at X=13, Y=25 in South Cerulean City. Gate pillars at (10,25) and signpost at (11,25). Door at (13,25) leads to Route 5 / Underground Path.
+
+<hr>
