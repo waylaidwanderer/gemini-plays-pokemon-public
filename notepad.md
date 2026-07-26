@@ -270,15 +270,30 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 <h1><code>Scratchpad/Mt_Moon_Master_Route</code></h1>
 
-# Mt. Moon Navigation & Verification Scratchpad
+# Mt. Moon Master Exit Strategy & Route
 
-## Current Operational Protocol
-- **Strict Single-Step Verification:** Every movement step must be empirically verified via single-step input before queueing movement across adjacent tiles.
-- **Burden of Proof for Warps:** No tile may be documented or treated as a functional warp destination until physically stepped on and confirmed via a `SYSTEM NOTE: Map Transition Detected` message.
+## Master Exit Route (Verified Map Connections)
+1. **B1F North Cavern -> B1F (25,22) Ladder:**
+   - From (14,7) on B1F: Walk North to (14,2) on Row 2 Top Corridor.
+   - Walk East along Row 2 to (29,2).
+   - Walk South along Column 30/29 (bypassing Lass at 30,4) down to (30,25).
+   - Walk West along Row 25 to (25,25).
+   - Walk South along Column 25 to (25,22) and take the ladder down to B2F (25,22).
 
-## Current State & Landmarks at Top Cavern (B1F)
-- Current Position: (27,2) facing Left on Row 2 Top Corridor.
-- Target: Walk West along Row 2 to Column 5 at (5,2), then South along Column 5 to (5,5) Exit Ladder.
-- Route: (27,2) -> (5,2) -> (5,5).
+2. **B2F Main Cavern -> B2F (5,5) Fossil Room Exit Ladder:**
+   - From B2F (25,22) arrival: Walk South to Row 32 (25,32).
+   - Walk West along Row 32 South Corridor to Column 11 (11,32).
+   - Walk North along Column 11 to Row 7 (11,7).
+   - Walk West along Row 7 to Column 5 (5,7).
+   - Walk North along Column 5 to (5,5) and take the Fossil Room exit ladder up to B1F Exit Corridor (5,5).
+
+3. **B1F Exit Corridor -> Route 4 East:**
+   - From B1F Exit Corridor (5,5): Walk South along Column 5 to Row 16, East to Column 21, and up ladder to 1F (21,17).
+   - From 1F (21,17): Walk South to Row 35/36 cave doorway to exit onto Route 4 East!
+
+## Current Operational Step
+- Current Position: (14,7) facing Down on B1F.
+- Target: (14,2) on Row 2 Top Corridor.
+- Action: Press `Up` 5 times to reach (14,2).
 
 <hr>
