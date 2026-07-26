@@ -359,5 +359,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Trainer 3 (Youngster/Jr. Trainer):** [Verified Turn 10255/10259] Located at X=18, Y=5 facing Up. Defeated! Team: Slowpoke Lv 17.
 - **Item Ball at (22,2):** [Verified Turn 10261] Item Pokéball sitting on ground at X=22, Y=2.
 - **Lass Trainer 4:** [Verified Turn 10263/10268] Located at X=19, Y=8 facing Right. Defeated! Team: Nidoran♂ Lv 15, Nidoran♀ Lv 15.
+- **Trainer 5 (Hiker):** [Verified Turn 10270] Located at X=23, Y=9 facing Up. Engaged in battle! Text: "I'm off to see a POKEMON collector on the cape!"
 
 <hr>
