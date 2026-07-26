@@ -898,9 +898,9 @@
 - **Interior Layout:** Map 94 coordinates x=10 to x=13, y=1 to y=5 (estimated based on Cabin 5 offset, or identical structure).
 - **Warp Exit:** Red carpet door tile is at `(12, 5)`. Walking Down through `(12, 5)` exits back to S.S. Anne 2F at `(11, 4)`.
 - **NPCs & Battle Status:**
-  - **Sailor at (12, 3):** Facing DOWN/LEFT. Walks to (11, 3) to challenge player. Dialogue: "Us sailors have POKéMON too!"
+  - **Sailor at (12, 3):** Facing DOWN/LEFT. Walks to (11, 3) to challenge player. Dialogue: "Us sailors have POKéMON too!" Defeated on Turn 6497 (earned ¥540).
 - **Items:**
   - **Item Ball at (10, 2):** Pokéball on the floor (still uncollected).
-  - **Item Ball at (10, 3):** Pokéball on the floor. Wait, player is standing on (10, 3). Did player collect it, or did it disappear? To be verified after battle.
+  - **Item Ball at (10, 3):** Checkered floor tile mistaken for an item ball (refuted on Turn 6485).
 
 <hr>
