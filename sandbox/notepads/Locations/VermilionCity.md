@@ -40,3 +40,4 @@
   - Row 7: `(1, 7)`, `(3, 7)`, `(5, 7)`, `(7, 7)`, `(9, 7)`
 - **Trainers:**
   - **Sailor Dwayne:** Located at `(0, 10)` (facing Right). Roster: Pikachu (Lv 21).
+  - **Rocker Harrison:** Located at `(3, 8)` (facing Down). Roster: Voltorb (Lv 20).

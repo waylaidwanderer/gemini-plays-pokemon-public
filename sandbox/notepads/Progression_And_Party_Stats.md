@@ -63,6 +63,7 @@
 - **Cut the Gym Bush:** Cut the Gym bush in Vermilion City to open access to the Gym on Turn 6799.
 - **Entered Vermilion Gym:** Entered Vermilion Gym on Turn 6801.
 - **Whited Out in Gym:** Whited out against Sailor Dwayne in Vermilion Gym on Turn 6837; returned to Vermilion Pokémon Center and fully restored party.
+- **Defeated Sailor Dwayne (Vermilion Gym):** Defeated Sailor Dwayne at (0, 10) in Vermilion Gym on Turn 6863, earning ¥630.
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
