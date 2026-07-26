@@ -27,9 +27,9 @@
 
 ## Current Progress & Party
 - **Badges:** 2 (Boulder Badge, Cascade Badge) [Cascade Badge obtained from Misty on Turn 10001]
-- **Starter Pokémon:** Blastoise (Lv 37) [Evolved on Turn 9878!]
+- **Starter Pokémon:** Blastoise (Lv 38) [Evolved on Turn 9878, Level 38 on Turn 10278!]
   - **Nickname:** SHELLSHOCK
-  - **Moves:** Tackle (0/35 PP), Bite (0/25 PP), BubbleBeam (0/20 PP), Water Gun (11/25 PP)
+  - **Moves:** Tackle (0/35 PP), Bite (0/25 PP), BubbleBeam (0/20 PP), Water Gun (5/25 PP)
 
 - **Key Items:** Pokédex (Obtained from Prof. Oak on Turn 265).
 - **Inventory:** 5 Poké Balls, TM34 (Bide), TM01 (Mega Punch), Ether, HP Up, Rare Candy, Potion, Moon Stone, Dome Fossil, Nugget.
@@ -359,6 +359,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Trainer 3 (Youngster/Jr. Trainer):** [Verified Turn 10255/10259] Located at X=18, Y=5 facing Up. Defeated! Team: Slowpoke Lv 17.
 - **Item Ball at (22,2):** [Verified Turn 10261] Item Pokéball sitting on ground at X=22, Y=2.
 - **Lass Trainer 4:** [Verified Turn 10263/10268] Located at X=19, Y=8 facing Right. Defeated! Team: Nidoran♂ Lv 15, Nidoran♀ Lv 15.
-- **Trainer 5 (Hiker):** [Verified Turn 10270] Located at X=23, Y=9 facing Up. Engaged in battle! Text: "I'm off to see a POKEMON collector on the cape!"
+- **Trainer 5 (Hiker):** [Verified Turn 10270/10278] Located at X=23, Y=9 facing Up. Defeated! Team: Geodude Lv 13, Geodude Lv 13, Machop Lv 13, Geodude Lv 13.
 
 <hr>
