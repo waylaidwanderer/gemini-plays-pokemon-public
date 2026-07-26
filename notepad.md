@@ -303,17 +303,19 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 <h1><code>Scratchpad/Mt_Moon_Master_Route</code></h1>
 
-# Mt. Moon 1F Ground Highway to Route 4 Exit (Turn 9774)
+# Mt. Moon 1F Column 30 Ground Highway to Route 4 Exit (Turn 9777)
 
-## Current Location & Milestone
-- **Position:** Ground Highway at (26,16) on Mt. Moon 1F!
+## Current Location & Discovery
+- **Position:** (26,18) on Ground Floor.
+- **Highway Gap Discovered:** Columns 30 and 31 are the wide-open Blue Checkerboard Ground Highway extending South across Rows 19-32! (Cols 22-29 are rock wall at Rows 20-22).
 
 ## Final Master Highway Steps to Route 4
-1. **(26,16) -> (26,32):** Walk South 16 steps down Ground Highway to Row 32 South Trench [(26,32)].
-2. **(26,32) -> (14,32):** Walk West 12 steps along Row 32 South Trench to Col 14 [(14,32)].
-3. **(14,32) -> (14,36):** Walk South 4 steps down Col 14 to Route 4 Exit Doorway -> WARP TO ROUTE 4 EAST!
+1. **(26,18) -> (30,18):** Walk Right 4 steps along Row 18 to Col 30 [(30,18)].
+2. **(30,18) -> (30,32):** Walk South 14 steps down Col 30 Ground Highway to Row 32 South Trench [(30,32)].
+3. **(30,32) -> (14,32):** Walk West 16 steps along Row 32 South Trench to Col 14 [(14,32)].
+4. **(14,32) -> (14,36):** Walk South 4 steps down Col 14 to Route 4 Exit Doorway -> WARP TO ROUTE 4 EAST!
 
 ## Active Step
-- Walk Down 10 steps down Ground Highway to (26,26).
+- Right 4 to (30,18), Down 4 to (30,22).
 
 <hr>
