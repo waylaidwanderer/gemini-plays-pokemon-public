@@ -109,3 +109,17 @@
 - **Floor-to-Floor Transitions & Staircases:**
   - **2F Left Staircase:** Located at `(2, 12)` in the lower hallway, warps the player to S.S. Anne 3F at `(19, 3)`.
   - **2F Upper Staircase:** Located at `(27, 4)` in the upper hallway, warps the player back to S.S. Anne Deck.
+
+
+## Captain's Cabin (Map 95? or interior map) Layout & Geometry
+- **Dimensions:** Approx x=0 to x=5, y=0 to y=7.
+- **Key Coordinates:**
+  - **Captain's Location:** `(4, 2)` (facing Left).
+  - **Trash Can:** `(4, 1)` (reading "Yuck! Shouldn't have looked!").
+  - **Exit Staircase Warp:** `(0, 7)`. Walking onto `(0, 7)` warps back to S.S. Anne 2F at `(36, 4)`.
+
+## S.S. Anne Pier / Vermilion Dock (Map 95) Layout & Geometry
+- **Vertical Left Pier:** Columns 18 and 19 running from row 27 down to row 35. Transitioning south past row 35 warps to S.S. Anne Entryway.
+- **Horizontal Pier Connector:** Rows 26 and 27 running from column 18 to column 30.
+- **Vertical Right Pier:** Columns 30 and 31 running from row 27 down to row 16, connecting to the Vermilion mainland.
+- **Mainland Transition:** Row 15 columns 26-33 is the paved ground of Vermilion City. The transition back into Vermilion City's main overworld is at `(28, 14)` (near the Poké Mart).
