@@ -70,7 +70,8 @@
 - **Defeated Gym Leader Lt. Surge:** Defeated Vermilion Gym Leader Lt. Surge on Turn 7027, obtaining the THUNDERBADGE and TM24 (Thunderbolt).
 - **Attempted Vermilion Pokémon Center Visit:** Entered Pokémon Center on Turn 7068, but the healing dialogue was accidentally declined/cancelled by pressing 'B' on the YES/NO prompt, so the party was NOT healed.
 - **Entered Route 9:** Transitioned from the eastern lane of Cerulean City onto Route 9 on Turn 7122.
-- **Engaged JR. TRAINER♀ (Route 9):** Engaged in battle with JR. TRAINER♀ on Route 9 on Turn 7131.
+- **Defeated JR. TRAINER♀ (Route 9):** Defeated JR. TRAINER♀ on Route 9 on Turn 7197, earning ¥360.
+- **Obtained Item (TM30):** Found and retrieved TM30 (Teleport) at (10, 15) on Route 9 on Turn 7206.
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
