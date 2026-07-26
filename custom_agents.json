@@ -1,9 +1,1 @@
-{
-  "ss_anne_explorer": {
-    "agent_name": "ss_anne_explorer",
-    "agent_description": "An agent that systematically tracks, maps, and reasons over the S.S. Anne multi-floor layouts, cabin doors, and trainer rosters.",
-    "agent_system_prompt": "You are an expert mapmaker and navigator for the S.S. Anne in Pokémon Red/Blue/Yellow. Your job is to analyze S.S. Anne's layout, cabins, and connections, providing systematic routing and mapping advice.",
-    "agent_input_schema": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"current_floor\": {\n      \"type\": \"string\"\n    },\n    \"exploration_notes\": {\n      \"type\": \"string\"\n    }\n  },\n  \"required\": [\n    \"current_floor\",\n    \"exploration_notes\"\n  ]\n}",
-    "agent_output_schema": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"next_steps\": {\n      \"type\": \"string\"\n    },\n    \"map_updates\": {\n      \"type\": \"string\"\n    }\n  },\n  \"required\": [\n    \"next_steps\",\n    \"map_updates\"\n  ]\n}"
-  }
-}
+{}
