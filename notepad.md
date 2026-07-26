@@ -262,12 +262,12 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 # Mt. Moon Live Routing & Verification
 
-## Active Target: Warp to West Side via Ladder (25,9)
-1. **Current Position:** (24,10) on East side of Column 23 rock wall.
-2. **Immediate Plan:**
-   - Walk Right to (25,10), then Up to (25,9) ladder to warp to (17,11) on West side.
-   - Step Up to (17,10), then walk Left 7 steps to (10,10).
-   - Walk North along Column 10 to (10,5).
-   - Walk West along Row 5 to (5,5) ladder to enter B1F Exit Corridor.
+## Active Target: Walk West along Row 10 to Western Highway (10,10)
+1. **Current Position:** (17,11) on West side of Column 23 wall.
+2. **Path:**
+   - Step Up to (17,10) to step off ladder.
+   - Walk Left 7 steps to Column 10 at (10,10).
+   - Walk North along Column 10 to Row 5 at (10,5).
+   - Walk West along Row 5 to Column 5 at (5,5) ladder to enter B1F Exit Corridor.
 
 <hr>
