@@ -76,3 +76,4 @@
 - **Exit Corridor Ladder at (5,5):** [Verified Turn 6410] Arrived from B2F Fossil Room ladder at (5,5), spawning at (5,5) facing Down in B1F Exit Corridor. Corridor runs South along Column 5 to row 16, then East.
 - **Exit Corridor Ladder Warp at (5,5):** [Verified Turn 8589] Ladder at (5,5) in B1F Exit Corridor warps to B1F Main Cavern at (5,5) facing Hiker NPC at (5,6)!
 - **Ladder at (17,11):** [Verified Turn 8599] Ladder graphic visible at (17,11) on B1F directly North of (17,12).
+- **Hiker Trainer at (5,6):** [Defeated Turn 8684] Defeated Hiker's Geodude, Geodude, and Onix at (5,6) on B1F! Column 5 is cleared South.
