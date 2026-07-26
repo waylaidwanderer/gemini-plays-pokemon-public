@@ -10,3 +10,4 @@
 - (7, 7): Empty (Nope)
 - (5, 7): Empty (Nope)
 - (3, 7): Empty (Nope)
+- (1, 7): Empty (Nope)
