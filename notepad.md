@@ -931,6 +931,7 @@
 - (9, 9): Empty (Nope)
 - (7, 9): Empty (Nope)
 - (5, 9): Empty (Nope)
+- (3, 9): Empty (Nope)
 
 ## Previous Search Sessions
 - Attempt 3 (Reset on Turn 6961):
@@ -975,12 +976,6 @@
 <hr>
 
 <h1><code>Locations/MtMoon_B2F</code></h1>
-
-# Temp
-
-<hr>
-
-<h1><code>notepads/Locations/MtMoon_B1F</code></h1>
 
 # Temp
 
