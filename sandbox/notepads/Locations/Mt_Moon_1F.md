@@ -26,3 +26,4 @@
 - **(14,21) Rock Wall Boundary:** [Verified Turn 9331] Solid rock wall face at (14,21) blocks Northward movement along Col 14 on 1F.
 - **(22..23, 23) Rock Pillar:** [Verified Turn 9344] Solid rock pillar face at (22..23, 23) blocks Row 23 Eastward movement on 1F. Bypass is Row 24 wide-open floor across Cols 19-24.
 - **(30,20)-(30,28) Platform Wall Boundary:** [Verified Turn 9358] Column 30 is an elevated platform face on 1F. West edge of Col 30 is an impassable platform wall face blocking Eastward entry from Col 29.
+- **(25..31, 28) Platform Wall Boundary:** [Verified Turn 9370] Row 28 at Columns 25-31 is a checkered platform face. South edge from Row 27 is an impassable platform wall face on 1F.
