@@ -1,12 +1,18 @@
-# Mt. Moon Escape Rope & Highway Routing
+# Mt. Moon Master Route via B2F (25,9) -> B1F (17,11) -> Row 7 Corridor
 
-## Master Plan
-1. **Use Escape Rope** from inventory to exit the side-room loop instantly to Route 4 Center / Pewter.
-2. Re-enter Mt. Moon 1F from Route 4 entrance at (14,35).
-3. Walk North on 1F to main entrance ladder at (15,27).
-4. Step onto (15,27) ladder to warp directly to B1F South Corridor at (13,27).
-5. From B1F South Corridor (13,27), walk East to Col 28/29 (Eastern Highway), North to (30,11), North to (30,7), West to (28,7) stairs, climb to (28,6) Top Corridor, West to (5,5) exit ladder!
-6. Through B1F Exit Corridor to Route 4 East exit!
+## Master Strategy
+1. **Warp B1F (25,9) -> B2F (17,11):**
+   - Step Up 1 time onto (25,9) ladder.
+2. **Traverse B2F (17,11) -> B2F (25,9) Ladder:**
+   - Walk Right 7 steps to (24,11), Up 2 steps to (24,9), Right 1 step to (25,9) ladder.
+   - Step onto (25,9) ladder to warp to B1F (17,11)!
+3. **Traverse B1F (17,11) -> Row 7 Corridor -> (28,7) Stairs:**
+   - From B1F (17,11), step Up 4 times to (17,7) (Top Horizontal Corridor).
+   - Walk Right along Row 7 to (28,7) stairs.
+   - Climb (28,7) stairs to (28,6) platform.
+4. **Traverse Top Corridor (5,5) -> Route 4 East Exit:**
+   - From (28,6), walk West along Top Corridor to (5,5) exit ladder.
+   - Through B1F Exit Corridor to 1F exit -> Route 4 East!
 
 ## Immediate Action:
-- Press Start -> ITEM -> Select Escape Rope -> USE!
+- Step Up 1 time onto (25,9) ladder to warp to B2F (17,11).
