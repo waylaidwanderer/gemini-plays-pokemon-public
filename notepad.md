@@ -29,7 +29,8 @@
 - **Badges:** 2 (Boulder Badge, Cascade Badge) [Cascade Badge obtained from Misty on Turn 10001]
 - **Starter Pokémon:** Blastoise (Lv 38) [Evolved on Turn 9878, Level 38 on Turn 10278!]
   - **Nickname:** SHELLSHOCK
-  - **Moves:** Tackle (0/35 PP), Bite (0/25 PP), BubbleBeam (0/20 PP), Water Gun (5/25 PP)
+  - **Moves:** Tackle (0/35 PP), Bite (0/25 PP), BubbleBeam (0/20 PP), Water Gun (3/25 PP)
+  - **PP Recovery Plan:** 3 PP Water Gun is sufficient to defeat Trainer 7 at (37,4). Will return to Cerulean Pokémon Center to heal and restore all PP after visiting Sea Cottage.
 
 - **Key Items:** Pokédex (Obtained from Prof. Oak on Turn 265).
 - **Inventory:** 5 Poké Balls, TM34 (Bide), TM01 (Mega Punch), Ether, HP Up, Rare Candy, Potion, Moon Stone, Dome Fossil, Nugget.
@@ -317,17 +318,12 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **West NPC House Door:** [Verified Turn 9937] Located at X=13, Y=15 in Cerulean City.
 - **Pokémon Center Door:** [Verified Turn 9942] Located at X=19, Y=17 in Cerulean City.
 - **Cerulean Gym Door:** [Verified Turn 9953] Located at X=30, Y=19 in Cerulean City.
-
-## Cerulean Gym Interior Layout
-- **Entrance Mat:** [Verified Turn 9954] Spawns at X=4, Y=13 facing Up.
-- **Gym Guide:** [Verified Turn 9954] Located at X=7, Y=10.
-- **Gym Leader Misty:** [Verified Turn 9961] Located at X=4, Y=2 facing Down.
 - **Pokémart Door:** [Verified Turn 10076] Located at X=25, Y=25 in Cerulean City.
 - **Slowbro & Trainer:** [Verified Turn 10076-10079] Slowbro at X=28, Y=26 and Trainer Boy at X=29, Y=26 in Cerulean City.
 - **West Corridor to Upper City:** [Verified Turn 10101-10104] Open path from South Cerulean (11,27) via (11,26)-(10,26)-(9,26)-(9,24)-(10,24) up Column 10 (10,23..18) directly connects to Main Upper Road at (10,18).
+- **West Upper Access Path:** [Verified Turn 10127] Columns 8 and 9 (at X=8..9, Y=12..18) provide a two-way open passage connecting South Cerulean City (Y=18) directly to Upper Cerulean City (Y=11-12).
 - **East South-Facing Ledge:** [Verified Turn 10124] Column 32/33 at Row 19 is a one-way south-facing ledge leading down from Upper Cerulean City to South Cerulean City. Cannot be climbed North.
 - **Rival RED Battle:** [Verified Turn 10134] Triggered at X=20, Y=6 at the North Cerulean / Route 24 Entrance.
-- **West Upper Access Path:** [Verified Turn 10127] Columns 8 and 9 (at X=8..9, Y=12..18) provide a two-way open passage connecting South Cerulean City (Y=18) directly to Upper Cerulean City (Y=11-12).
 
 <hr>
 
@@ -357,10 +353,10 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Hiker Trainer 1:** [Verified Turn 10228/10239] Located at X=8, Y=4 facing Right. Defeated! Team: Machop Lv 15, Geodude Lv 15.
 - **Youngster Trainer 2:** [Verified Turn 10245/10253] Located at X=14, Y=2 facing Down. Defeated! Team: Rattata Lv 15, Spearow Lv 15.
 - **Trainer 3 (Youngster/Jr. Trainer):** [Verified Turn 10255/10259] Located at X=18, Y=5 facing Up. Defeated! Team: Slowpoke Lv 17.
-- **Item Ball at (22,2):** [Verified Turn 10261/10282] Enclosed by Cut Trees. Requires HM01 Cut to collect!
-- **Trainer 6 (Youngster/Jr. Trainer):** [Verified Turn 10282/10286] Located at X=29, Y=3 facing Left. Defeated! Team: Ekans Lv 14, Sandshrew Lv 14.
 - **Lass Trainer 4:** [Verified Turn 10263/10268] Located at X=19, Y=8 facing Right. Defeated! Team: Nidoran♂ Lv 15, Nidoran♀ Lv 15.
 - **Trainer 5 (Hiker):** [Verified Turn 10270/10278] Located at X=23, Y=9 facing Up. Defeated! Team: Geodude Lv 13, Geodude Lv 13, Machop Lv 13, Geodude Lv 13.
+- **Item Ball at (22,2):** [Verified Turn 10261/10282] Enclosed by Cut Trees. Requires HM01 Cut to collect!
+- **Trainer 6 (Youngster/Jr. Trainer):** [Verified Turn 10282/10286] Located at X=29, Y=3 facing Left. Defeated! Team: Ekans Lv 14, Sandshrew Lv 14.
 - **Trainer 7 (Lass/Jr. Trainer):** [Verified Turn 10288] Located at X=37, Y=4 facing Left. Standing in front of Sea Cottage doorway at (38,3).
 
 <hr>
