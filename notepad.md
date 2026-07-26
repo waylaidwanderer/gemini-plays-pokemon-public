@@ -283,13 +283,15 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 # Mt. Moon Active Routing & Exploration
 
-## Verified Geometry (Mt. Moon B1F - Western Highway)
-- **Current Position:** (11,19) facing Left on Mt. Moon B1F.
-- **Western Highway (Cols 11-13):**
-  - Column 11 extending South across Rows 20..27 is wide open purple cave floor!
-  - Row 27 South Corridor connects (11,27) East to (15,27) exit ladder.
+## Verified Geometry (Mt. Moon B1F - Column 7 Bypass)
+- **Current Position:** (11,19) facing Down on Mt. Moon B1F.
+- **Row 20-21 Rock Wall Barrier:** Blocks Columns 8-16 at Y=20-21.
+- **Verified Column 7 Path to Row 21/23:**
+  - Up 2 steps to (11,17) [open floor].
+  - Left 4 steps along Row 17 to (7,17) [open floor].
+  - Down 4 steps along Column 7 to (7,21) [bypassing Row 20-21 wall].
 
 ## Active Target
-- Walk Down 8 steps along Column 11 to (11,27), then Right 4 steps to (15,27) exit ladder!
+- Walk Up 2 to (11,17), Left 4 to (7,17), Down 4 to (7,21).
 
 <hr>
