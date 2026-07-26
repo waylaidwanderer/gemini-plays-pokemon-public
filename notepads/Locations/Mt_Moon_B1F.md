@@ -80,3 +80,6 @@
 - **Reciprocal Warp Pair (17,11) <-> (25,9):** [Verified Turn 8704] Ladder at (17,11) and ladder at (25,9) form a reciprocal two-way loop warp.
 - **Column 23 Wall Face (Rows 6-11):** [Verified Turn 8713] Column 23 is a solid vertical rock wall face separating Eastern Cavern (Cols 24-30) from Western Cavern (Cols 10-22). The (25,9) <-> (17,11) reciprocal warp connects across this wall.
 - **Upper Platform Enclosure (Cols 14-22, Rows 8-11):** [Verified Turn 8715] Columns 14-22 across Rows 8-11 are enclosed by Col 12-13 wall face on West and Col 23 wall face on East. Only exit is ladder (17,11) <-> (25,9).
+- **(26,10) Wall Collision:** [Verified Turn 8782] Solid rock wall face at (26,10) blocks Eastward movement along Row 10 from (25,10).
+- **(13,10) Wall Collision:** [Verified Turn 8789] Solid rock wall face at (13,10) blocks Westward movement along Row 10 from (14,10). Columns 10-13 are solid rock wall across Rows 6-14.
+- **Enclosed Cavern (Cols 14-19, Rows 8-11):** [Verified Turn 8791] Enclosed room bounded by Col 10-13 rock wall face West, Row 7 North, Col 20 East, Row 12 South. Only exit is ladder at (17,11) to B2F (25,9).
