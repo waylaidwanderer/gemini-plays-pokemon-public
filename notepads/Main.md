@@ -28,7 +28,7 @@
 - **Starter Pokémon:** Blastoise (Lv 36) [Evolved on Turn 9878!]
   - **Nickname:** SHELLSHOCK
   - **Moves:** Tackle (35/35 PP), Bite (25/25 PP), Bubble, Water Gun
-  - **HP:** 104/104 (Fully Healed at Route 4 Center on Turn 7393 after blacking out vs Hiker on Turn 7392)
+
 - **Route 1 Geometry:** South-facing ledges at y=27 (gap at x=6..8), y=23 (gap at x=12..15), y=19 (gap at x=4..5), and y=13 (gap at x=15..16) [Verified Turns 189-217].
 - **Key Items:** Pokédex (Obtained from Prof. Oak on Turn 265).
 - **Inventory:** 5 Poké Balls, TM34 (Bide), TM01 (Mega Punch), Ether, HP Up, Rare Candy, Potion, Moon Stone, Dome Fossil.

@@ -30,7 +30,7 @@
 - **Starter Pokémon:** Blastoise (Lv 36) [Evolved on Turn 9878!]
   - **Nickname:** SHELLSHOCK
   - **Moves:** Tackle (35/35 PP), Bite (25/25 PP), Bubble, Water Gun
-  - **HP:** 104/104 (Fully Healed at Route 4 Center on Turn 7393 after blacking out vs Hiker on Turn 7392)
+
 - **Route 1 Geometry:** South-facing ledges at y=27 (gap at x=6..8), y=23 (gap at x=12..15), y=19 (gap at x=4..5), and y=13 (gap at x=15..16) [Verified Turns 189-217].
 - **Key Items:** Pokédex (Obtained from Prof. Oak on Turn 265).
 - **Inventory:** 5 Poké Balls, TM34 (Bide), TM01 (Mega Punch), Ether, HP Up, Rare Candy, Potion, Moon Stone, Dome Fossil.
@@ -318,5 +318,12 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **West NPC House Door:** [Verified Turn 9937] Located at X=13, Y=15 in Cerulean City.
 - **Pokémon Center Door:** [Verified Turn 9942] Located at X=19, Y=17 in Cerulean City.
 - **Cerulean Gym Door:** [Verified Turn 9953] Located at X=30, Y=19 in Cerulean City.
+
+## Cerulean Gym Interior Layout
+- **Entrance Mat:** [Verified Turn 9954] Spawns at X=4, Y=13 facing Up.
+- **Gym Guide:** [Verified Turn 9954] Located at X=7, Y=10.
+- **West Walkway:** [Verified Turn 9955-9958] Column 2 is open floor from (2,8) to (2,5).
+- **Gym Trainer 1:** [Verified Turn 9959-9961] Located at X=2, Y=3 facing Down.
+- **Gym Leader Misty:** [Verified Turn 9961] Located at X=4, Y=2 facing Down.
 
 <hr>
