@@ -104,3 +104,5 @@
 - **Defeated Fisherman (Cabin 7):** Defeated Fisherman at (0, 4) in S.S. Anne Cabin 7 on Turn 6524, earning 595.- **Defeated Sailor (Cabin 7):** Defeated Sailor at (0, 2) in S.S. Anne Cabin 7 on Turn 6538, earning 600.
 - **Defeated Fisherman (Cabin 8):** Defeated Fisherman at (13, 4) in S.S. Anne Cabin 8 on Turn 6613, earning ¥595.
 - **Defeated Gentleman (Cabin 8):** Defeated Gentleman at (10, 2) in S.S. Anne Cabin 8 on Turn 6623, earning ¥1610.
+- **Defeated Rival JACK:** Defeated Rival JACK at (36, 7) on S.S. Anne 2F on Turn 6724.
+- **Obtained HM01 (Cut):** Successfully obtained HM01 (Cut) from the S.S. Anne Captain on Turn 6743.
