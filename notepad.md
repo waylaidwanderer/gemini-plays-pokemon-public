@@ -361,3 +361,16 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Sea Cottage Doorway:** [Verified Turn 10303] Located at X=45, Y=3 on Route 25.
 
 <hr>
+
+<h1><code>Locations/Sea_Cottage</code></h1>
+
+# Sea Cottage Map & Points of Interest
+
+## Key Locations & Coordinates
+- **Entrance Mat:** [Verified Turn 10304] Spawns at X=2, Y=7 facing Up.
+- **Bill (Clefairy Form):** [Verified Turn 10304] Located at X=6, Y=5.
+- **Teleporter Left Pod:** Located at X=2, Y=5.
+- **Teleporter Right Pod:** Located at X=5, Y=5.
+- **Cell Separator PC Terminal:** Located at X=1, Y=4 / X=1, Y=5.
+
+<hr>
