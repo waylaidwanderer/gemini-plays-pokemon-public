@@ -15,6 +15,7 @@
 | Hiker Alan   | (45, 15)               | Geodude, Onix              | ¥735 / Turn 7280| Defeated! |
 | JR. TRAINER♂ | (24, 7)                | Growlithe (Lv 21), Charmander (Lv 21) | ¥420 / Turn 7479 | Defeated! |
 | Bug Catcher Conner | (40, 8)          | Bug Pokémon (unfought)                | ¥320 / Turn 7431 | Defeated! |
+| JR. TRAINER♂ | (34, 7)                | Rattata (Lv 19), Diglett (Lv 19), Ekans (Lv 19), Sandshrew (Lv 19) | ¥380 / Turn 7528 | Defeated! |
 ## Ledge & Pockets Layout
 - **Upper Pavement Lanes (Rows 8, 9, 10):** Main path going east/west.
   - Rows 8 & 9: Completely clear pavement going west from Column 20 to Column 0. Bypasses the trainer at (13, 10) by walking on Row 9.
