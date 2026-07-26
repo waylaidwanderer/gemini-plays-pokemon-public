@@ -8,6 +8,6 @@
 - **Central Exit Arrival Spot:** (21,17) (One-way warp arrival from B1F Exit Corridor)
 
 ## Geometry & Structural Boundaries
-- **Row 11 Ledge Face:** South-facing elevation ledge face across Columns 25-34 at Row 11 blocks Northward movement from Row 12 into Row 11 on lower floor.
-- **Column 35 Passage:** Column 35 at Row 11 (35,11) is an open purple floor passage bypassing Row 11 ledge face up to upper ground (Rows 8-10).
-- **Elevation Stairs:** Located at (26,15)-(27,15) and (32,15)-(33,15) connecting lower floor (Row 16) to upper floor (Row 14).
+- **Row 11 South Ledge Face:** South-facing elevation ledge face spans Columns 25-35 at Row 11, blocking Northward movement from Row 12 into Row 11 on the lower main floor.
+- **Elevation Stairs to Upper Floor:** Located at (32,15)-(33,15) and (26,15)-(27,15). Must take these stairs from lower floor (Row 16) up to Row 14 upper floor.
+- **Upper Floor Eastern Highway (Col 36):** Once on upper floor (Row 14), Column 36 is wide open Northward across Row 11 (36,14 -> 36,11 -> 36,3) directly to Route 4 East exit at (26,3).
