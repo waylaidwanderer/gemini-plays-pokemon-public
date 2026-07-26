@@ -20,5 +20,5 @@
 
 ## Current Operational Step
 - Current Position: (30,15) facing Down on B1F.
-- Target: Run from wild battle, then walk South along Column 30 to (30,20).
-- Action: Press `A`, `Down`, `Right`, `A`, `A` to escape battle.
+- Target: (30,20) on Column 30.
+- Action: Press `A`, then `Down` 5 times to reach (30,20).
