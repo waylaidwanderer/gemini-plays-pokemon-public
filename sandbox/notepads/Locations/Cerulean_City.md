@@ -11,3 +11,4 @@
 - **West Upper Access Path:** [Verified Turn 10127] Columns 8 and 9 (at X=8..9, Y=12..18) provide a two-way open passage connecting South Cerulean City (Y=18) directly to Upper Cerulean City (Y=11-12).
 - **East South-Facing Ledge:** [Verified Turn 10124] Column 32/33 at Row 19 is a one-way south-facing ledge leading down from Upper Cerulean City to South Cerulean City. Cannot be climbed North.
 - **Rival RED Battle:** [Verified Turn 10134] Triggered at X=20, Y=6 at the North Cerulean / Route 24 Entrance.
+- **Burglarized House Doorway:** [Verified Turn 10356] Located at X=27, Y=11 in Upper Cerulean City. Officer Jenny stands at X=28, Y=12.
