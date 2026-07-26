@@ -101,3 +101,5 @@
 - **(28,24) Wall Boundary:** [Verified Turn 9312] Solid rock wall face at (28,24) blocks Eastward movement along Row 24 on B1F.
 - **(23,24) Wall Boundary:** [Verified Turn 9316] Solid rock wall face at (23,24) blocks Westward movement along Row 24 on B1F.
 - **(28,22) Wall Boundary:** [Verified Turn 9526] Column 28 at Row 22 is a solid rock wall face on B1F. Cannot walk East from (27,22) into (28,22).
+- **Row 9 Rock Wall Face (Cols 21-29):** [Verified Turn 9553] Row 9 is a solid blue rock wall face across Columns 21 through 29 on B1F.
+- **(20,10) Wall Boundary:** [Verified Turn 9557] Tile (20,10) is a solid rock wall face on B1F blocking Column 20 Northward access to Row 7.
