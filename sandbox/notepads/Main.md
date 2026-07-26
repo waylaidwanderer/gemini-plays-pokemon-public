@@ -30,6 +30,6 @@
   - **Moves:** Tackle (0/35 PP), Bite (0/25 PP), BubbleBeam (0/20 PP), Water Gun (3/25 PP)
   - **PP Recovery Plan:** 3 PP Water Gun is sufficient to defeat Trainer 7 at (37,4). Will return to Cerulean Pokémon Center to heal and restore all PP after visiting Sea Cottage.
 
-- **Key Items:** Pokédex (Obtained from Prof. Oak on Turn 265).
+- **Key Items:** Pokédex (Obtained from Prof. Oak on Turn 265), S.S. Ticket (Obtained from Bill on Turn 10317).
 - **Inventory:** 5 Poké Balls, TM34 (Bide), TM01 (Mega Punch), Ether, HP Up, Rare Candy, Potion, Moon Stone, Dome Fossil, Nugget.
 - **Fossil Item:** Obtained Dome Fossil on Mt. Moon B2F [Turn 6146].
