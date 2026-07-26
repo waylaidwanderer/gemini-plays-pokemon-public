@@ -14,7 +14,7 @@
 - (9, 11): Empty (Nope)
 - (7, 11): Empty (Nope)
 - (5, 11): Empty (Nope)
-- (3, 11): Empty (Nope)
+- (3, 11): SECOND SWITCH FOUND! (Turn 7005) - PUZZLE SOLVED!
 - (1, 11): FIRST SWITCH FOUND! (Turn 7002)
 
 ## Previous Search Sessions
