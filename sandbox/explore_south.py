@@ -2,22 +2,20 @@ import mgba
 import time
 
 def explore():
-    print("Walking east to column 34...")
-    # Currently at (30, 20).
-    # Let's walk Right 4 times to (34, 20).
-    for i in range(4):
-        mgba.press_buttons(["Right"])
-        time.sleep(0.3)
+    print("Starting exploration...")
+    pos = mgba.get_coordinates()
+    print(f"Initial coordinates: {pos}")
+    
+    # Walk left 8 steps to Saffron Road (column 17)
+    buttons = ["Left"] * 8
+    mgba.press_buttons(buttons)
     
     pos = mgba.get_coordinates()
-    print(f"Current Position: {pos}")
+    print(f"Coordinates after walking left: {pos}")
     
-    print("Walking down column 34...")
-    for i in range(15):
-        mgba.press_buttons(["Down"])
-        time.sleep(0.3)
-        pos = mgba.get_coordinates()
-        # If we transition to Route 5, the map will change.
-        print(f"Position: {pos}")
+    # Capture screenshot
+    screenshot_file = mgba.take_screenshot()
+    print(f"Screenshot taken: {screenshot_file}")
 
-explore()
+if __name__ == "__main__":
+    explore()
