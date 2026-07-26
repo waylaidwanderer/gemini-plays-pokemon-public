@@ -301,15 +301,16 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 <h1><code>Scratchpad/Mt_Moon_Master_Route</code></h1>
 
-# Mt. Moon Master Route to Exit (Turn 9601)
+# Mt. Moon Master Route to Exit (Turn 9614)
 
-## Current Action & Remaining Route
-- **Current Pos:** B1F (35,14). Moving South down Column 35 to Row 24.
-- **Next Steps on B1F:**
-  - Walk South down Col 35 to Row 24 [10 steps South to (35,24)].
-  - Walk West along Row 24 from Col 35 to Col 25 [10 steps West to (25,24)].
-  - Walk North up Col 25 to landing platform (25,22-23) [2 steps North].
-  - Test tiles around (25,22) [e.g. (25,23), (25,22), (25,21)] to trigger the ladder warp into B2F Main Cavern!
+## Current Position & South Trench Bypass Route
+- **Current Pos:** B1F (34,24).
+- **Obstacle Note:** Columns 32-33 are solid rock wall face across Rows 20-28. Row 24 dead-ends West at Col 34.
+- **Bypass Route via Row 28 South Trench:**
+  1. Walk South down Col 34 to Row 28 South Trench [4 steps South to (34,28)].
+  2. Walk West along Row 28 South Trench from Col 34 to Col 25 [9 steps West to (25,28)].
+  3. Walk North up Col 25 from Row 28 to Row 22 landing [6 steps North to (25,22)].
+  4. Test candidate tiles at (25,22), (25,23), (25,21) to find exact ladder warp down into Main B2F Cavern!
 - **In B2F Main Cavern:**
   - Walk South down Col 25 to Row 32 [10 steps South].
   - Walk West along Row 32 South Trench to Col 11 [14 steps West].
