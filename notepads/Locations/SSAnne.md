@@ -93,3 +93,19 @@
   - **Gentleman at (10, 2):** Facing Right. Pikachu Lv 23. Defeated on Turn 6623 (earned ¥1610).
 - **Items:**
   - None (checkered floor pattern has no items).
+
+## S.S. Anne 2F Lower Hallway (Map 94) Layout & Geometry
+- **Main Hallway:** Runs horizontally on rows 11, 12, 13 across columns 2 to 37. Yellow striped floor tiles.
+- **Physical Walkway Connections:**
+  - **Left Walkway (column 2, rows 4-12):** Physically connects the 2F upper hallway (row 4) to the 2F lower hallway (row 12) on the same map. You can walk from upper to lower hallway via this path.
+  - **Right Walkway (column 36, rows 6-9):** Runs vertically on column 36. This checkered orange/brown stairwell leads to the Captain's room.
+- **Doors to Cabins:** Located on row 11 at columns:
+  - **Cabin 7 Door:** `(9, 11)`
+  - **Cabin 8 Door:** `(13, 11)` (Warp to Cabin 8 Interior at `(12, 5)`)
+  - **Cabin 9 Door:** `(17, 11)`
+  - **Cabin 10 Door:** `(21, 11)`
+  - **Cabin 11 Door:** `(25, 11)`
+  - **Cabin 12 Door:** `(29, 11)`
+- **Floor-to-Floor Transitions & Staircases:**
+  - **2F Left Staircase:** Located at `(2, 12)` in the lower hallway, warps the player to S.S. Anne 3F at `(19, 3)`.
+  - **2F Upper Staircase:** Located at `(27, 4)` in the upper hallway, warps the player back to S.S. Anne Deck.
