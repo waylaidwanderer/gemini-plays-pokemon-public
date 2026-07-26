@@ -75,6 +75,5 @@
 - **Solid Rock Wall Face at (21,18):** [Verified Turn 5578] Tile (21,18) is a solid rock wall face blocking Southward movement along Column 21 from (21,17).
 - **Exit Corridor Ladder at (5,5):** [Verified Turn 6410] Arrived from B2F Fossil Room ladder at (5,5), spawning at (5,5) facing Down in B1F Exit Corridor. Corridor runs South along Column 5 to row 16, then East.
 - **Exit Corridor Ladder Warp at (5,5):** [Verified Turn 8589] Ladder at (5,5) in B1F Exit Corridor warps to B1F Main Cavern at (5,5) facing Hiker NPC at (5,6)!
-- **Ladder at (17,11):** [Verified Turn 8599] Ladder graphic visible at (17,11) on B1F directly North of (17,12).
 - **Hiker Trainer at (5,6):** [Defeated Turn 8684] Defeated Hiker's Geodude, Geodude, and Onix at (5,6) on B1F! Column 5 is cleared South.
-- **Exit Ladder to 1F at (17,11):** [Verified Turn 8699] Functional exit ladder located at X=17, Y=11 in B1F Exit Corridor warps up to Mt. Moon 1F Exit Corridor.
+- **Corridor Ladder at (17,11):** [Verified Turn 8701] Stepping onto ladder at B1F Exit Corridor (17,11) warped player to (25,9).
