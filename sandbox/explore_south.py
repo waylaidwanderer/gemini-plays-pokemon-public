@@ -1,29 +1,24 @@
 import mgba
 import time
 
-def enter_gym():
-    print("Walking to Cerulean Gym...")
-    # Walk Right 1 step to transition from Route 4 to Cerulean City (0, 18)
-    mgba.press_buttons(["Right"])
-    time.sleep(1.0) # Wait for transition
+def walk_to_route5():
+    print("Executing final walk to Route 5 via the eastern lane...")
+    # Currently at (34, 23) on the roof
+    # Walk Up 4 steps to (34, 19)
+    # Walk Right 2 steps to (36, 19)
+    # Walk Down 15 steps to Route 5!
+    path = ["Up"] * 4 + ["Right"] * 2 + ["Down"] * 15
     
-    # Path from (0, 18) to (30, 19):
-    # Walk Right 22 steps to (22, 18)
-    # Walk Down 2 steps to (22, 20)
-    # Walk Right 8 steps to (30, 20)
-    # Walk Up 1 step to enter Gym at (30, 19)
-    path = ["Right"] * 22 + ["Down"] * 2 + ["Right"] * 8 + ["Up"]
-    
-    print(f"Executing {len(path)} steps to enter Gym...")
+    print(f"Executing {len(path)} steps...")
     for idx, btn in enumerate(path):
         mgba.press_buttons([btn])
         time.sleep(0.35)
-        
-    time.sleep(1.0) # Wait for Gym warp transition
-    print("Position inside Gym:", mgba.get_coordinates())
-    
+        if (idx + 1) % 5 == 0 or idx == len(path) - 1:
+            print(f"Step {idx + 1}/{len(path)} executed: {btn}. Current position: {mgba.get_coordinates()}")
+            
     screenshot_file = mgba.take_screenshot()
-    print("Screenshot inside Gym:", screenshot_file)
+    print("Final position:", mgba.get_coordinates())
+    print("Final screenshot:", screenshot_file)
 
 if __name__ == "__main__":
-    enter_gym()
+    walk_to_route5()
