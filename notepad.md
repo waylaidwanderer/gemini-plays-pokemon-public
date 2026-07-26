@@ -263,6 +263,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Vertical Cliff Face at Col 31 (Rows 20-28):** Column 31 is an impassable vertical cliff face blocking Westward movement from Column 32 to Column 31 across Rows 20 through 28. Ground-level passage West to Column 25 is Row 32 (32,32 -> 25,32 -> 25,22).
 - **Row 29-30 Rock Wall Barrier (Cols 21-30):** [Verified Turn 6296] Solid purple rock wall face blocks Rows 29 and 30 across Columns 21 through 30. Column 32 (32,29-30) is the open vertical corridor connecting South Row 32 to North Rows 22-28.
 - **Fossil Room Exit Ladder at (5,5):** [Verified Turn 6410] Ladder behind Super Nerd at (5,5) on B2F warps up to Mt. Moon B1F Exit Corridor at (5,5)!
+- **Solid Rock Wall Face at (21,12):** [Verified Turns 8962-8963] Solid rock wall face blocks Southward movement from (21,11) at (21,12). Row 12 is impassable across Columns 16-21 on B2F.
 
 <hr>
 
