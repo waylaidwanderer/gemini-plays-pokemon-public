@@ -29,5 +29,5 @@
   - **Moves:** Tackle, Bite, BubbleBeam, Water Gun
 
 - **Key Items:** Pokédex (Obtained from Prof. Oak on Turn 265), S.S. Ticket (Obtained from Bill on Turn 10317).
-- **Inventory:** 5 Poké Balls, TM34 (Bide), TM01 (Mega Punch), Ether, HP Up, Rare Candy, Potion, Moon Stone, Dome Fossil, Nugget.
+- **Inventory:** 5 Poké Balls, TM34 (Bide), TM01 (Mega Punch), TM28 (Dig), Ether, HP Up, Rare Candy, Potion, Moon Stone, Dome Fossil, Nugget.
 - **Fossil Item:** Obtained Dome Fossil on Mt. Moon B2F [Turn 6146].

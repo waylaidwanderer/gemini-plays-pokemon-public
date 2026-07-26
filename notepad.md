@@ -31,7 +31,7 @@
   - **Moves:** Tackle, Bite, BubbleBeam, Water Gun
 
 - **Key Items:** Pokédex (Obtained from Prof. Oak on Turn 265), S.S. Ticket (Obtained from Bill on Turn 10317).
-- **Inventory:** 5 Poké Balls, TM34 (Bide), TM01 (Mega Punch), Ether, HP Up, Rare Candy, Potion, Moon Stone, Dome Fossil, Nugget.
+- **Inventory:** 5 Poké Balls, TM34 (Bide), TM01 (Mega Punch), TM28 (Dig), Ether, HP Up, Rare Candy, Potion, Moon Stone, Dome Fossil, Nugget.
 - **Fossil Item:** Obtained Dome Fossil on Mt. Moon B2F [Turn 6146].
 
 <hr>
@@ -289,6 +289,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Burglarized House Doorway:** [Verified Turn 10356] Located at X=27, Y=11 in Upper Cerulean City. Officer Jenny stands at X=28, Y=12.
 - **Burglarized House Interior:** [Verified Turn 10357] Entrance mat at X=2, Y=7 / X=3, Y=7. Messy floor from burglary.
 - **Backyard Garden & Team Rocket Grunt:** [Verified Turn 10360] Player exits hole at X=27, Y=9. Team Rocket Grunt stands at X=30, Y=8.
+- **Team Rocket Grunt & TM28 Dig:** [Defeated Turn 11912] Defeated Rocket Grunt's Machop (Lv 17) and Drowzee (Lv 17) in backyard garden (30,8). Obtained TM28 Dig!
 
 <hr>
 
