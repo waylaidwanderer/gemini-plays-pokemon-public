@@ -1,14 +1,11 @@
 # Mt. Moon Active Routing & Exploration
 
 ## Verified Geometry (Mt. Moon B1F)
-- **Current Position:** (5,17) facing Down on Mt. Moon B1F.
-- **Master Route to Exit:**
-  - Walk East along Row 17 to Column 35/36 Eastern Highway at (36,17).
-  - Walk South along Eastern Highway to Row 24 at (36,24).
-  - Walk West along Row 24 to Column 25 at (25,24).
-  - Walk South through stairs at (25,23) to (25,22) in South Corridor.
-  - Walk West along Row 27 South Corridor to (15,27) exit ladder.
-  - Step onto (15,27) ladder to warp up to 1F (13,27) -> exit onto Route 4 East!
+- **Current Position:** (15,11) facing Up on Mt. Moon B1F.
+- **Top Corridor Route (Row 7):**
+  - Column 15 extending North from (15,11) to (15,7) is wide open purple cave floor.
+  - Row 7 extending East from (15,7) to (30,7) and Column 36/37 Eastern Highway is wide open purple cave floor!
+  - Master Route: (15,11) -> Up 4 to (15,7) -> Right 21 to Eastern Highway (36,7) -> South to Row 24 (36,24) -> West to (25,24) -> South through stairs to (25,22) -> West along Row 27 South Corridor to (15,27) exit ladder up to 1F -> Route 4 East!
 
 ## Active Target
-- Walk Right 10 steps along Row 17 from (5,17) to (15,17).
+- Walk Up 4 steps to (15,7), then Right 5 steps along Row 7 to (20,7).
