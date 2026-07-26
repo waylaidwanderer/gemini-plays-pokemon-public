@@ -94,3 +94,6 @@
 - **Defeated Gentleman (Cabin 2):** Defeated Gentleman in S.S. Anne Cabin 2 on Turn 6318, earning �1330.
 - **Defeated Gentleman (Cabin 1):** Defeated Gentleman in S.S. Anne Cabin 1 on Turn 6355, earning �1260.
 - **Obtained Item (Max Potion):** Found and retrieved Max Potion in S.S. Anne Cabin 3 at (12, 11) on Turn 6415.
+- **Defeated Sailor (Cabin 4):** Defeated Sailor at (2, 11) in S.S. Anne Cabin 4 on Turn 6437, earning �510.
+- **Defeated Sailor (Cabin 4):** Defeated Sailor at (0, 13) in S.S. Anne Cabin 4 on Turn 6444, earning �630.
+

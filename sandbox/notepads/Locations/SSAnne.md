@@ -38,3 +38,15 @@
 ## Cabin 4 Geometry & Mappings
 - **Interior Layout:** Map 94 coordinates x=0 to x=3, y=11 to y=15.
 - **Warp Exit:** Red carpet door tile is at `(2, 15)`. Walking Down through `(2, 15)` exits back to S.S. Anne 2F at `(19, 4)`.
+- **NPCs & Battle Status:**
+  - **Sailor at (2, 11):** Facing Down. Roster: Horsea (Lv 17), Shellder (Lv 17), Tentacool (Lv 17). Defeated on Turn 6437 (earned �510).
+  - **Sailor at (0, 13):** Facing Right. Roster: Shellder (Lv 21). Defeated on Turn 6444 (earned �630).
+
+
+## Cabin 5 Geometry & Mappings
+- **Interior Layout:** Map 94 coordinates x=20 to x=23, y=1 to y=5 (estimated based on entrance warp).
+- **Warp Exit:** Red carpet door tile is at `(23, 5)`. Walking Down through `(23, 5)` exits back to S.S. Anne 2F at `(15, 4)`.
+- **NPCs:**
+  - **Boy at (22, 2):** Facing Down.
+- **Items:**
+  - **Item Ball at (20, 2):** Red/white Pok�ball sitting on floor.
