@@ -559,12 +559,6 @@
 
 <hr>
 
-<h1><code>Locations/MtMoon_B2F</code></h1>
-
-# Temporary
-
-<hr>
-
 <h1><code>notepads/Locations/MtMoon_B1F.md</code></h1>
 
 
@@ -939,6 +933,7 @@
 
 ## Current Search Session
 - (1, 9): Empty (Nope)
+- (3, 9): Empty (Nope)
 
 ## Previous Search Sessions
 - Attempt 1 (Reset on Turn 6927):
