@@ -1,20 +1,21 @@
-# Mt. Moon Master Route to Exit (Turn 9617)
+# Mt. Moon Master Route to Exit (Turn 9623)
 
-## Current Position & Col 31/Row 25 Bypass to Platform Landing
-- **Current Pos:** B1F (30,28).
-- **Obstacle Note:** Column 29 is solid rock wall across Rows 26-30. Hiker NPC is at (30,27). Row 25 is open floor across Cols 25-31.
-- **Bypass Route to (25,22) Landing Platform:**
-  1. Step Right 1 step to Col 31 [at (31,28)].
-  2. Step Up 3 steps along Col 31 to Row 25 [at (31,25)].
-  3. Step Left 6 steps along Row 25 to Col 25 [at (25,25)].
-  4. Step Up 3 steps along Col 25 to Row 22 landing [at (25,22)].
-  5. Test candidate tiles at (25,22), (25,23), (25,21) to find exact ladder warp down into Main B2F Cavern!
-- **In B2F Main Cavern:**
-  - Walk South down Col 25 to Row 32 [10 steps South].
-  - Walk West along Row 32 South Trench to Col 11 [14 steps West].
-  - Walk North up Col 11 to Row 5 [27 steps North].
-  - Walk West along Row 5 to Fossil Room Exit Ladder at (5,5) [6 steps West].
-  - Ascend ladder at (5,5) -> Arrive at B1F Exit Corridor (5,5)!
-- **B1F Exit Corridor:**
-  - Walk South down Col 5 to Row 16 [11 steps South].
-  - Walk East along Row 16 to (21,17) -> Exit Mt. Moon to Route 4 East!
+## Complete Verified Route to Route 4 East
+1. **Current Pos:** B1F (25,21). Returning to B1F (17,11) ladder.
+   - Walk Down 4 steps to (25,25).
+   - Walk Right 6 steps to (31,25).
+   - Walk Up to Row 6 Top Corridor at (31,6).
+   - Walk Left 14 steps along Row 6 to (17,6).
+   - Walk Down 5 steps to (17,11) ladder -> Descend to B2F (25,9)!
+2. **In B2F Top Chamber at (25,9):**
+   - Walk to (24,11), then Down/West through Row 12 bypass at (23,12) to Column 20.
+   - Walk South down Column 20 South Highway to Row 23 -> Enters Main B2F Cavern!
+3. **In Main B2F Cavern:**
+   - Walk South down Col 20/25 to Row 32 South Trench.
+   - Walk West along Row 32 South Trench to Col 11.
+   - Walk North up Col 11 to Row 5.
+   - Walk West along Row 5 to Fossil Room Exit Ladder at (5,5).
+   - Ascend ladder at (5,5) -> Arrive at B1F Exit Corridor (5,5)!
+4. **B1F Exit Corridor (5,5):**
+   - Walk South down Col 5 to Row 16 [11 steps South].
+   - Walk East along Row 16 to (21,17) -> Exit Mt. Moon to Route 4 East!
