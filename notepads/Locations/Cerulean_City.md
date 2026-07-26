@@ -13,3 +13,4 @@
 - **Rival RED Battle:** [Verified Turn 10134] Triggered at X=20, Y=6 at the North Cerulean / Route 24 Entrance.
 - **Burglarized House Doorway:** [Verified Turn 10356] Located at X=27, Y=11 in Upper Cerulean City. Officer Jenny stands at X=28, Y=12.
 - **Burglarized House Interior:** [Verified Turn 10357] Entrance mat at X=2, Y=7 / X=3, Y=7. Messy floor from burglary.
+- **Backyard Garden & Team Rocket Grunt:** [Verified Turn 10360] Player exits hole at X=27, Y=9. Team Rocket Grunt stands at X=30, Y=8.
