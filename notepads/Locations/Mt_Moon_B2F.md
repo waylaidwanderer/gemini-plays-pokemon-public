@@ -49,3 +49,4 @@
 - **Fossil Room Exit Ladder at (5,5):** [Verified Turn 6410] Ladder behind Super Nerd at (5,5) on B2F warps up to Mt. Moon B1F Exit Corridor at (5,5)!
 - **Solid Rock Wall Face at (21,12):** [Verified Turns 8962-8963] Solid rock wall face blocks Southward movement from (21,11) at (21,12). Row 12 is impassable across Columns 16-21 on B2F.
 - **Row 7 Wall Boundary & Row 8 West Highway:** [Verified Turn 9163] Row 7 across Columns 14-22 is a solid blue rock wall face on B2F. The true open Westbound highway connecting Eastern B2F to Western B2F is Row 8/9/10 across Columns 13-20!
+- **Column 13 Rock Wall Face (Rows 4-12):** [Verified Turn 9167] Column 13 is a solid blue rock wall face across Rows 4 through 12 on B2F, blocking Westward passage from Column 14 along Rows 8, 9, 10. B2F South Highway via Column 20 -> Row 32 South Corridor is mandatory.
