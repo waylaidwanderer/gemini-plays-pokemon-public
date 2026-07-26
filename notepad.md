@@ -1004,9 +1004,3 @@
   - (1, 9) (adjacent check): Reset!
 
 <hr>
-
-<h1><code>Locations/MtMoon_B2F</code></h1>
-
-# Temp
-
-<hr>
