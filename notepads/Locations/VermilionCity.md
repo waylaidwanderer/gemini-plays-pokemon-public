@@ -11,6 +11,7 @@
 | (7, 3)       | House                 | Melanie's House Interior                  | Shared interior warp. Exits to (7, 4). |
 | (15, 13)     | House                 | Melanie's House Interior                  | Shared interior warp. Exits to (15, 14). |
 | (23, 19)     | Machop House          | Melanie's House Interior                  | Shared interior warp. Exits to (23, 20). |
+| (23, 13)     | Poké Mart             | Melanie's House Interior                  | Shared interior warp. Exits to (23, 14). |
 
 ## Water, Pond & Hedge Barriers
 - **Central Pond Boundaries:**
