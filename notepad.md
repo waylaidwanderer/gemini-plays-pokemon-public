@@ -26,7 +26,7 @@
   - Pewter Gym Courtyard Corridor: Column 10 (x=10, y=15..18) -> Row 18 (x=10..16) [Verified Turn 521]
 
 ## Current Progress & Party
-- **Badges:** 1 (Boulder Badge) [Obtained from Brock on Turn 565]
+- **Badges:** 2 (Boulder Badge, Cascade Badge) [Cascade Badge obtained from Misty on Turn 10001]
 - **Starter Pokémon:** Blastoise (Lv 36) [Evolved on Turn 9878!]
   - **Nickname:** SHELLSHOCK
   - **Moves:** Tackle (35/35 PP), Bite (25/25 PP), Bubble, Water Gun
