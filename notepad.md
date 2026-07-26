@@ -180,6 +180,7 @@
 - **Defeated Sailor Dwayne (Vermilion Gym):** Defeated Sailor Dwayne at (0, 10) in Vermilion Gym on Turn 6863, earning ¥630.
 - **Defeated Rocker Harrison (Vermilion Gym):** Defeated Rocker Harrison at (3, 8) in Vermilion Gym on Turn 6886, earning ¥500.
 - **Defeated Gentleman Tucker (Vermilion Gym):** Defeated Gentleman Tucker at (9, 6) in Vermilion Gym on Turn 6897, earning ¥1610.
+- **Solved Vermilion Gym Puzzle:** Found first switch at (1, 11) and second switch at (3, 11) on Turn 7005, opening the motorized door to Lt. Surge.
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
