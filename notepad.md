@@ -177,6 +177,7 @@
 - **Cut the Gym Bush:** Cut the Gym bush in Vermilion City to open access to the Gym on Turn 6799.
 - **Entered Vermilion Gym:** Entered Vermilion Gym on Turn 6801.
 - **Whited Out in Gym:** Whited out against Sailor Dwayne in Vermilion Gym on Turn 6837; returned to Vermilion Pokémon Center and fully restored party.
+- **Defeated Sailor Dwayne (Vermilion Gym):** Defeated Sailor Dwayne at (0, 10) in Vermilion Gym on Turn 6863, earning ¥630.
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
@@ -596,7 +597,7 @@
 
 <h1><code>Locations/MtMoon_B2F</code></h1>
 
-
+# Temporary
 
 <hr>
 
@@ -608,7 +609,7 @@
 
 <h1><code>notepads/Locations/MtMoon_B1F</code></h1>
 
-
+# Temporary
 
 <hr>
 
@@ -832,6 +833,7 @@
   - Row 7: `(1, 7)`, `(3, 7)`, `(5, 7)`, `(7, 7)`, `(9, 7)`
 - **Trainers:**
   - **Sailor Dwayne:** Located at `(0, 10)` (facing Right). Roster: Pikachu (Lv 21).
+  - **Rocker Harrison:** Located at `(3, 8)` (facing Down). Roster: Voltorb (Lv 20).
 
 
 <hr>
