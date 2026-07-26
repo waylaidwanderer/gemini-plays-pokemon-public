@@ -98,12 +98,12 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Route 4 West Cave Entrance:** (14,35)
 - **Route 4 East Cave Exit:** (26,3)
 - **NW Side Room Ladder:** (5,5) <-> B1F (5,5)
-- **NE Side Room Ladder:** (25,9) <-> B2F (25,9)
-- **Central Exit Arrival Spot:** (21,17) (One-way warp arrival from B1F Exit Corridor to Route 4 East exit)
+- **NE Side Room Ladder:** Visual ladder observed at (25,9) / (25,15) [Pending unbroken physical traversal]
 
-## Mt. Moon Cross-Cavern Architecture
-- **Row 11 Continuous Ledge:** Row 11 is a continuous south-facing elevation ledge face spanning ALL columns (Cols 25-39) across 1F, blocking direct 1F overworld traversal from south to north.
-- **Route to Exit:** To reach Route 4 East exit at (26,3), player MUST take 1F NE ladder at (25,9) -> B2F (25,9) -> B1F (17,11) -> B1F (21,17) ladder -> 1F Exit Corridor (21,17) -> (26,3) exit!
+## Central Cavern Passability Log (Rows 15-19)
+- **Row 15 North Boundary:** One-way south-facing ledges at (26,15), (27,15), (32,15), (33,15). Solid wall face at (28-31,15) and (34-35,15).
+- **Row 19 South Boundary:** Impassable wall face empirically confirmed at (26,19), (30,19), (33,19), (34,19). Systematically testing remaining columns 27, 28, 29, 31, 32.
+- **Youngster NPC:** Located at (29,17), facing Up after dialogue on Turn 10673.
 
 <hr>
 
