@@ -120,15 +120,12 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Reciprocal Ladder Warp at (25,9):** [Verified Turn 1142] Ladder at (25,9) in B1F warps to (17,11) in B2F.
 - **East Chamber Wall at Column 26:** [Verified Turn 1148] Column 26 is solid rock wall blocking East at Rows 7-12. The (25,9) ladder chamber is bounded East by Column 26.
 - **West Chamber Wall at Column 13:** [Verified Turn 1151] Column 13 is solid rock wall blocking West at Rows 4-12.
-- **Row 20 Wall Block:** [Verified Turn 1220] Rows 20-22 are solid rock wall across Columns 10-17.
 - **West Wall Columns 8-9:** [Verified Turn 1221] Columns 8-9 are solid rock wall across Rows 18-23.
 - **Column 2 Dead End:** [Verified Turn 1227] Column 2 is a dead-end alcove at Row 17.
 - **Row 8 Bypass at Col 25:** [Verified Turn 1302] Ladder tile at (25,9) on B1F is directly below (25,8).
 - **Column 26 Rock Wall (Rows 6-14):** [Verified Turn 11249] Column 26 is a solid rock wall face from Row 6 through Row 14. Tile (26,10) is solid rock wall, blocking Eastward movement from (25,10).
 - **Item Ball at (36,23):** [Verified Turn 1313/1324] Item Ball at (36,23) contained Escape Rope.
 
-- **Row 20 North Wall Block (Cols 20-29):** [Verified Turn 2305] Solid purple rock wall face blocks Northward movement at Row 20 across Columns 20 through 29 on B1F. Column 14/15 provides the open vertical highway North connecting South Corridor (Row 26) to Upper Cavern (Rows 18-21).
-- **Row 20-21 Rock Wall (Cols 14-20):** [Verified Turn 2316/3389] Solid purple rock wall face blocks North at Rows 20-21 across Columns 14-20. Columns 10-11 on the far West side provide the open vertical highway North connecting South Corridor (Row 26) to Top Corridor (Rows 2-7).
 - **Row 8 Solid Rock Wall (Cols 20-29):** [Verified Turn 2452] Solid blue rock wall face blocks Southward movement at Row 8 across Columns 20 through 29. Column 30 is the open vertical corridor connecting Row 7 to Row 10.
 - **Column 12-13 Rock Pillar (Rows 23-28):** [Verified Turn 2488] Columns 12-13 are a solid rock pillar face across Rows 23 through 28, blocking Westward movement along South Corridor at Row 27.
 - **Rocket Grunt at (15,22):** [Verified Turn 2501] Rocket Grunt located at (15,22) in Upper Cavern section of B1F.
@@ -178,7 +175,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Solid Rock Wall Face at (28,12):** [Verified Turn 5107] Tile (28,12) is a solid purple wall face blocking Southward movement along Column 28 from (28,11).
 - **Solid Rock Wall Face at (32,12):** [Verified Turn 5110] Tile (32,12) is a solid purple wall face blocking Southward movement along Column 32 from (32,11).
 - **Solid Rock Wall Face at (21,18):** [Verified Turn 5578] Tile (21,18) is a solid rock wall face blocking Southward movement along Column 21 from (21,17).
-- **Exit Corridor Ladder at (5,5):** [Verified Turn 6410] Arrived from B2F Fossil Room ladder at (5,5), spawning at (5,5) facing Down in B1F Exit Corridor. Corridor runs South along Column 5 to row 16, then East.
 - **Exit Corridor Ladder Warp at (5,5):** [Verified Turn 8589] Ladder at (5,5) in B1F Exit Corridor warps to B1F Main Cavern at (5,5) facing Hiker NPC at (5,6)!
 - **Hiker Trainer at (5,6):** [Defeated Turn 8684] Defeated Hiker's Geodude, Geodude, and Onix at (5,6) on B1F! Column 5 is cleared South.
 - **Reciprocal Warp Pair (17,11) <-> (25,9):** [Verified Turn 8704] Ladder at (17,11) and ladder at (25,9) form a reciprocal two-way loop warp.
