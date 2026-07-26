@@ -105,3 +105,4 @@
 - **(20,10) Wall Boundary:** [Verified Turn 9557] Tile (20,10) is a solid rock wall face on B1F blocking Column 20 Northward access to Row 7.
 - **Column 32-33 Vertical Rock Pillar (Rows 20-28):** [Verified Turn 9613] Columns 32 and 33 form a solid blue rock wall face across Rows 20 through 28 on B1F. Row 24 does NOT connect West past Column 34; bypass South is via Column 34 to Row 28 South Trench (34,28 -> 30,28).
 - **Solid Rock Wall Face at (11,20) & (17,20):** [Verified Turns 9698/9708] Row 20 forms a solid rock wall face across Columns 11 through 20 on B1F.
+- **(7,10) Platform Wall Boundary:** [Verified Turn 9825] Solid vertical platform wall face between Column 8 and Column 7 blocks Westward movement from (8,10) into (7,10). Access to (5,7) platform is via (12,9)/(13,9) elevation stairs to Row 8, then West along Row 8/7!
