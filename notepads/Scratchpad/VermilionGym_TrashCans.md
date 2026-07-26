@@ -6,19 +6,23 @@
 - Row 11: (1, 11), (3, 11), (5, 11), (7, 11), (9, 11)
 
 ## Current Search Session
-- (7, 7): Empty (Nope)
-- (9, 7): Empty (Nope)
-- (9, 9): Empty (Nope)
-- (7, 9): Empty (Nope)
-- (5, 9): Empty (Nope)
-- (3, 9): Empty (Nope)
-- (1, 9): Empty (Nope)
-- (1, 7): Empty (Nope)
-- (3, 7): Empty (Nope)
-- (5, 7): Empty (Nope)
-- (5, 11): FIRST SWITCH FOUND! (Turn 6977)
+- (5, 9): Checked (Wait)
 
 ## Previous Search Sessions
+- Attempt 4 (Reset on Turn 6979):
+  - (7, 7): Empty (Nope)
+  - (9, 7): Empty (Nope)
+  - (9, 9): Empty (Nope)
+  - (7, 9): Empty (Nope)
+  - (5, 9): Empty (Nope)
+  - (3, 9): Empty (Nope)
+  - (1, 9): Empty (Nope)
+  - (1, 7): Empty (Nope)
+  - (3, 7): Empty (Nope)
+  - (5, 7): Empty (Nope)
+  - (5, 11): FIRST SWITCH FOUND! (Turn 6977)
+  - (5, 9) (adjacent check): Reset!
+
 - Attempt 3 (Reset on Turn 6961):
   - (5, 9): Empty (Nope)
   - (3, 9): Empty (Nope)
