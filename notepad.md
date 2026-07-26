@@ -221,7 +221,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 ## Geometry & Points of Interest
 - **Spawn Ladder at (25,9):** [Verified Turn 1090] Arrived from B1F ladder at (17,11), spawning at X=25, Y=9 in B2F.
 - **Corridor Chamber (Rows 8-11, Columns 17-25):** [Verified Turn 1093] Open floor chamber connecting (25,9) West to (17,11).
-- **B2F Ladder Warp at (17,11) -> (25,9):** [Verified Turn 1095] Ladder at (17,11) warps to main B2F chamber, spawning at X=25, Y=9.
 - Picked up Item Ball at (29,5) [Turn 1115 - TM01 Mega Punch].
 - **Rocket Grunt at (29,10):** [Defeated Turn 1106 - Lv 12 Zubat, Lv 12 Ekans].
 - **Upper Platform Dead End:** [Verified Turn 1154] Upper platform spans Columns 27-30 at Rows 5-6, bounded North by Row 4 wall, West by Col 26 wall, East by Col 31 wall. Only contained TM01 at (29,5).
