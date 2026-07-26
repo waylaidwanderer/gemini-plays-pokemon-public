@@ -260,14 +260,12 @@ Route 3 is structured into 3 horizontal elevation tiers:
 # Mt. Moon 1F Live Routing & Verification
 
 ## Active Target: Exit Mt. Moon to Route 4 via B1F Exit Corridor
-1. **Current Position:** (5,5) facing Up in B1F Exit Corridor (Hiker NPC at 5,6).
-2. **B1F Exit Corridor Southbound Leg:**
-   - Right x1 to Column 6 at (6,5).
-   - Down x11 along Column 6 to Row 16 at (6,16).
-3. **B1F Exit Corridor Eastbound Leg:**
-   - Right x15 along Row 16 to Column 21 at (21,16).
-   - Down x1 onto 1F Exit Ladder at (21,17) to warp to 1F Exit Corridor!
-4. **1F Exit Corridor to Route 4:**
-   - Traverse 1F Exit Corridor to Route 4 Exit Door at (14,35/36)!
+1. **Current Position:** (11,16) facing Right in B1F Exit Corridor (NPC at 12,16).
+2. **B1F Exit Corridor Row 17 Bypass Leg:**
+   - Down x1 to Row 17 at (11,17).
+   - Right x10 along Row 17 to 1F Exit Ladder at (21,17).
+   - Step onto (21,17) to warp up to 1F Exit Corridor!
+3. **1F Exit Corridor to Route 4 Exit Door:**
+   - Walk to 1F Exit Door at (14,35/36) to step out onto Route 4 East!
 
 <hr>
