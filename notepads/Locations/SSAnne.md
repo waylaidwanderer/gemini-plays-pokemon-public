@@ -66,6 +66,6 @@
 - **Warp Exit:** Red carpet door tile is at `(2, 5)` and `(3, 5)`. Walking Down through `(2, 5)` exits back to S.S. Anne 2F at `(7, 4)`.
 - **NPCs & Battle Status:**
   - **Fisherman at (0, 4):** Defeated on Turn 6524 (earned ¥595).
-  - **Boy at (0, 2):** Facing Right.
+  - **Sailor at (0, 2):** Defeated on Turn 6538 (earned ¥600).
 - **Items:**
-  - **Item Ball at (0, 3):** Pokéball on the floor (uncollected).
+  - **Item Ball at (0, 3):** Checkered floor tile mistaken for an item ball (refuted on Turn 6528).

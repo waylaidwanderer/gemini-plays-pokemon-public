@@ -101,4 +101,4 @@
 - **Defeated Sailor (Cabin 5):** Defeated Sailor at (22, 3) in S.S. Anne Cabin 5 on Turn 6467, earning ¥510.
 - **Obtained Item (Ether):** Found and retrieved Ether in S.S. Anne Cabin 5 at (20, 2) on Turn 6469.
 - **Defeated Sailor (Cabin 6):** Defeated Sailor at (12, 3) in S.S. Anne Cabin 6 on Turn 6497, earning ¥540.
-- **Defeated Fisherman (Cabin 7):** Defeated Fisherman at (0, 4) in S.S. Anne Cabin 7 on Turn 6524, earning ¥595.
+- **Defeated Fisherman (Cabin 7):** Defeated Fisherman at (0, 4) in S.S. Anne Cabin 7 on Turn 6524, earning ¥595.- **Defeated Sailor (Cabin 7):** Defeated Sailor at (0, 2) in S.S. Anne Cabin 7 on Turn 6538, earning ¥600.
