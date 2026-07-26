@@ -87,3 +87,4 @@
 - **Row 27 Rock Wall Face (Cols 22-23):** [Verified Turn 8866] Solid rock wall face along Row 27 at Cols 22-23. West passage is via Row 28 South Trench (24,28 -> 15,28).
 - **Solid Rock Wall Face at (20,27):** [Verified Turn 8872] Solid rock wall face blocks Northward movement from (20,28) at (20,27).
 - **Solid Rock Wall Face at (19,28):** [Verified Turn 8886] Solid rock wall face blocks Westward movement from (20,28) at (19,28). Row 28 South Trench dead-ends West at (20,28).
+- **Solid Rock Wall Face at (18..19,11):** [Verified Turns 8923-8925] Solid rock wall face blocks Westward passage along Row 11 at Columns 18-19. Row 11 from (20,11) does NOT connect directly West to (17,11); bypass via Column 30 -> Row 6/7 top corridor.
