@@ -6,13 +6,9 @@ def move(buttons):
         mgba.press_buttons([b])
         time.sleep(0.3)
 
-# Start at (33, 20)
-# Walk to (20, 22)
-print("Moving down and left...")
-move(["Down", "Down", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left"])
+print("Moving to row 20, then left to column 20...")
+# From (28, 22), go Up 2, then Left 8
+move(["Up", "Up", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left"])
 
-# Print coordinates
 print("Current Position:", mgba.get_coordinates())
-
-# Take a screenshot to visualize
 mgba.take_screenshot()
