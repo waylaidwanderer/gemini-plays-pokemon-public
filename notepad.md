@@ -205,6 +205,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **(13,10) Wall Collision:** [Verified Turn 8789] Solid rock wall face at (13,10) blocks Westward movement along Row 10 from (14,10). Columns 10-13 are solid rock wall across Rows 6-14.
 - **Enclosed Cavern (Cols 14-19, Rows 8-11):** [Verified Turn 8791] Enclosed room bounded by Col 10-13 rock wall face West, Row 7 North, Col 20 East, Row 12 South. Only exit is ladder at (17,11) to B2F (25,9).
 - **(29,26)-(29,30) Wall Collision:** [Verified Turn 8860] Solid rock wall face at Column 29 across Rows 26-30 blocks Westward movement along Row 26-30. True West bypass is Row 25 (30,25 -> 25,25).
+- **Row 27 Rock Wall Face (Cols 22-23):** [Verified Turn 8866] Solid rock wall face along Row 27 at Cols 22-23. West passage is via Row 28 South Trench (24,28 -> 15,28).
 
 <hr>
 
