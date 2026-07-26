@@ -125,6 +125,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **(13,24) Platform Wall Boundary:** [Verified Turn 9444] Tile (13,24) is an impassable checkered platform wall face on 1F.
 - **(14,28) Platform Wall Boundary:** [Verified Turn 9474] Tile (14,28) is an impassable checkered platform wall face on 1F. Column 14 dead-ends South at (14,27).
 - **(30,19) Ledge Wall Boundary:** [Verified Turn 9779] Solid platform wall face along Row 18/19 at Column 30 blocks Southward movement from (30,18) into (30,19). True Ground Highway passage South is Column 36 Eastern Highway.
+- **(14,33) Wall Boundary:** [Verified Turn 9801] Solid rock wall face at (14,33) blocks Southward movement from (14,32) on 1F.
 
 <hr>
 
