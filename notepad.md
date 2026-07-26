@@ -259,13 +259,13 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 # Mt. Moon 1F Live Routing & Verification
 
-## Active Target: B2F Exit Ladder at (25,22)
-1. **Current Position:** (21,11) facing Left in B2F Top Chamber.
-2. **Col 22 Southbound Leg:**
-   - Right x1 to Column 22 at (22,11).
-   - Down x11 along Column 22 to Row 22 at (22,22).
-3. **Bottom Cavern Leg to Exit Ladder:**
-   - Right x3 along Row 22 to B2F Exit Ladder at (25,22).
+## Active Target: B2F Exit Ladder at (25,22) via Col 25 Gap
+1. **Current Position:** (22,11) facing Down in B2F Top Chamber (Row 12 South is rock wall face).
+2. **Col 25 Row 12 Gap Leg:**
+   - Right x3 along Row 11 to Column 25 at (25,11).
+   - Down x1 along Column 25 to Row 12 at (25,12).
+3. **South Cavern Leg to Exit Ladder:**
+   - Down x10 along Column 25/26 to Row 22 at (25,22).
    - Step onto (25,22) to warp up to B1F South Corridor!
 
 <hr>
