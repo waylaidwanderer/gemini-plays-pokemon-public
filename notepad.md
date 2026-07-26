@@ -1010,9 +1010,3 @@
 # Temp
 
 <hr>
-
-<h1><code>notepads/Locations/MtMoon_B1F</code></h1>
-
-# Temp
-
-<hr>
