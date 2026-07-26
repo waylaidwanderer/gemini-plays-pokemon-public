@@ -273,8 +273,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **(26,11) Wall Collision:** [Verified Turn 9185] Solid rock wall face at (26,11) blocks Eastward movement along Row 11 from (25,11).
 - **(26,10) Wall Collision:** [Verified Turn 9188] Solid rock wall face at (26,10) blocks Eastward movement along Row 10 from (25,10).
 - **(25,9) Warp Trigger Behavior:** [Verified Turn 9191] Stepping onto tile (25,9) from below at (25,10) immediately triggers the teleport warp to (17,11). Tile (25,9) cannot be walked through from Row 10 to Row 8; access to Row 8 (25,8) is via Row 8 West Highway (17,8 -> 25,8).
-- **Column 23 Wall Face (Rows 5-11):** [Verified Turn 11547] Column 23 is a solid rock wall face across Rows 5-11. True West bypass from (24,11) to Column 20 is via Row 12 (24,11 -> 24,12 -> 20,12)!
-
+- **Column 23 Wall Face (Rows 5-11):** [Verified Turn 11547] Column 23 is a solid rock wall face across Rows 5-11. Note: (24,12) is a solid rock wall face (tested Turn 11551). B2F Top Chamber (24,11) is an enclosed room with ladder at (25,9).
 
 <hr>
 
