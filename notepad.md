@@ -29,7 +29,7 @@
 - **Badges:** 2 (Boulder Badge, Cascade Badge) [Cascade Badge obtained from Misty on Turn 10001]
 - **Starter Pokémon:** Blastoise (Lv 37) [Evolved on Turn 9878!]
   - **Nickname:** SHELLSHOCK
-  - **Moves:** Tackle (0/35 PP), Bite (0/25 PP), BubbleBeam (3/20 PP), Water Gun (15/25 PP)
+  - **Moves:** Tackle (0/35 PP), Bite (0/25 PP), BubbleBeam (0/20 PP), Water Gun (11/25 PP)
 
 - **Key Items:** Pokédex (Obtained from Prof. Oak on Turn 265).
 - **Inventory:** 5 Poké Balls, TM34 (Bide), TM01 (Mega Punch), Ether, HP Up, Rare Candy, Potion, Moon Stone, Dome Fossil, Nugget.
@@ -355,8 +355,8 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Route 25 West Entrance:** [Verified Turn 10226] Enters Route 25 map at X=0, Y=9 from Route 24.
 - **Tree Maze Entrance at Column 10:** [Verified Turn 10228] Trees at (10,8) and (10,9) block row 8/9 pavement. Open gap is at Row 7 (9,7 -> 10,7 -> 11,7).
 - **Hiker Trainer 1:** [Verified Turn 10228/10239] Located at X=8, Y=4 facing Right. Defeated! Team: Machop Lv 15, Geodude Lv 15.
-- **Youngster Trainer 2:** Located at X=14, Y=2 facing Down.
 - **Youngster Trainer 2:** [Verified Turn 10245/10253] Located at X=14, Y=2 facing Down. Defeated! Team: Rattata Lv 15, Spearow Lv 15.
-- **Trainer 3 (Youngster/Jr. Trainer):** [Verified Turn 10255] Located at X=18, Y=5 facing Up. Engaged in battle! Text: "Dad took me to a great party on S.S. ANNE..."
+- **Trainer 3 (Youngster/Jr. Trainer):** [Verified Turn 10255/10259] Located at X=18, Y=5 facing Up. Defeated! Team: Slowpoke Lv 17.
+- **Item Ball at (22,2):** [Verified Turn 10261] Item Pokéball sitting on ground at X=22, Y=2.
 
 <hr>
