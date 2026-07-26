@@ -10,4 +10,5 @@
 - **Trainer 5 (Hiker):** [Verified Turn 10270/10278] Located at X=23, Y=9 facing Up. Defeated! Team: Geodude Lv 13, Geodude Lv 13, Machop Lv 13, Geodude Lv 13.
 - **Item Ball at (22,2):** [Verified Turn 10261/10282] Enclosed by Cut Trees. Requires HM01 Cut to collect!
 - **Trainer 6 (Youngster/Jr. Trainer):** [Verified Turn 10282/10286] Located at X=29, Y=3 facing Left. Defeated! Team: Ekans Lv 14, Sandshrew Lv 14.
-- **Trainer 7 (Lass/Jr. Trainer):** [Verified Turn 10288] Located at X=37, Y=4 facing Left. Standing in front of Sea Cottage doorway at (38,3).
+- **Trainer 7 (Lass/Jr. Trainer):** [Verified Turn 10288/10299] Located at X=37, Y=4. Defeated! Team: Oddish Lv 13, Pidgey Lv 13, Oddish Lv 13.
+- **Sea Cottage Doorway:** [Verified Turn 10300] Located at X=38, Y=3 on Route 25.
