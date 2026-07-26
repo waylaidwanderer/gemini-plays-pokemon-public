@@ -274,14 +274,15 @@ Route 3 is structured into 3 horizontal elevation tiers:
 # Mt. Moon Master Exit Strategy & Route
 
 ## Master Exit Route (Verified Map Connections)
-1. **B1F North Cavern -> B1F (25,22) Ladder:**
-   - From (29,7) on B1F: Walk Right to (30,7) on Column 30.
-   - Walk South along Column 30 to (30,25).
-   - Walk West along Row 25 to (25,25).
-   - Walk South along Column 25 to (25,22) and take the ladder down to B2F (25,22).
+1. **B1F North Cavern -> B1F (25,9) Down-Ladder:**
+   - From (25,22) on B1F: Walk East to Column 30 at (30,25).
+   - Walk North along Column 30 to Row 2 Top Corridor at (30,2).
+   - Walk West along Row 2 to Column 25 at (25,2).
+   - Walk South along Column 25 to (25,9) and take the down-ladder to B2F (17,11).
 
 2. **B2F Main Cavern -> B2F (5,5) Fossil Room Exit Ladder:**
-   - From B2F (25,22) arrival: Walk South to Row 32 (25,32).
+   - From B2F (17,11) arrival: Walk East along Row 7 to Column 20 (20,7).
+   - Walk South along Column 20 to Row 32 (20,32).
    - Walk West along Row 32 South Corridor to Column 11 (11,32).
    - Walk North along Column 11 to Row 7 (11,7).
    - Walk West along Row 7 to Column 5 (5,7).
@@ -293,7 +294,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 ## Current Operational Step
 - Current Position: (25,22) facing Up on B1F.
-- Target: B2F (25,22) arrival via ladder warp at (25,22).
-- Action: Press `Up`, then `Down` to step off and step back onto (25,22) ladder to trigger map transition.
+- Target: (30,25) on Column 30.
+- Action: Press `Right` 5 times to reach (30,22)/(30,25).
 
 <hr>
