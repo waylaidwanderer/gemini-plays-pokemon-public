@@ -6,10 +6,14 @@
 - Row 11: (1, 11), (3, 11), (5, 11), (7, 11), (9, 11)
 
 ## Current Search Session
-- (5, 9): Empty (Nope)
-- (3, 9): FIRST SWITCH FOUND! (Turn 6981)
+- (3, 9): Checked (Wait)
 
 ## Previous Search Sessions
+- Attempt 5 (Reset on Turn 6983):
+  - (5, 9): Empty (Nope)
+  - (3, 9): FIRST SWITCH FOUND! (Turn 6981)
+  - (3, 11) (adjacent check): Reset!
+
 - Attempt 4 (Reset on Turn 6979):
   - (7, 7): Empty (Nope)
   - (9, 7): Empty (Nope)
