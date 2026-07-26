@@ -197,8 +197,8 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Exit Corridor Ladder at (5,5):** [Verified Turn 6410] Arrived from B2F Fossil Room ladder at (5,5), spawning at (5,5) facing Down in B1F Exit Corridor. Corridor runs South along Column 5 to row 16, then East.
 - **Exit Corridor Ladder Warp at (5,5):** [Verified Turn 8589] Ladder at (5,5) in B1F Exit Corridor warps to B1F Main Cavern at (5,5) facing Hiker NPC at (5,6)!
 - **Hiker Trainer at (5,6):** [Defeated Turn 8684] Defeated Hiker's Geodude, Geodude, and Onix at (5,6) on B1F! Column 5 is cleared South.
-- **Corridor Ladder at (17,11):** [Verified Turn 8701] Stepping onto ladder at B1F Exit Corridor (17,11) warped player to (25,9).
 - **Reciprocal Warp Pair (17,11) <-> (25,9):** [Verified Turn 8704] Ladder at (17,11) and ladder at (25,9) form a reciprocal two-way loop warp.
+- **(32,27)-(33,27) Wall Collision:** [Verified Turn 8851] Solid rock wall face at (32,27) and (33,27) blocks Westward movement along Row 27. Bypass is Row 28 South Trench (34,28 -> 30,28).
 - **Column 23 Wall Face (Rows 6-11):** [Verified Turn 8713] Column 23 is a solid vertical rock wall face separating Eastern Cavern (Cols 24-30) from Western Cavern (Cols 10-22). The (25,9) <-> (17,11) reciprocal warp connects across this wall.
 - **Upper Platform Enclosure (Cols 14-22, Rows 8-11):** [Verified Turn 8715] Columns 14-22 across Rows 8-11 are enclosed by Col 12-13 wall face on West and Col 23 wall face on East. Only exit is ladder (17,11) <-> (25,9).
 - **(26,10) Wall Collision:** [Verified Turn 8782] Solid rock wall face at (26,10) blocks Eastward movement along Row 10 from (25,10).
