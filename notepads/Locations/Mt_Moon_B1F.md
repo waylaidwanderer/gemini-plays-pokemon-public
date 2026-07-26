@@ -76,3 +76,4 @@
 - **Exit Corridor Ladder at (5,5):** [Verified Turn 6410] Arrived from B2F Fossil Room ladder at (5,5), spawning at (5,5) facing Down in B1F Exit Corridor. Corridor runs South along Column 5 to row 16, then East.
 - **Exit Corridor Route to 1F Exit Ladder at (5,5):** Row 17 runs West from (21,17) to Column 5 (5,17). Column 5 runs North from (5,17) to Exit Ladder at (5,5). [Verified Turn 8582]
 - **Exit Corridor Ladder Warp at (5,5):** [Verified Turn 8589] Ladder at (5,5) in B1F Exit Corridor warps to B1F Main Cavern at (5,5) facing Hiker NPC at (5,6)!
+- **Ladder at (17,11):** [Verified Turn 8599] Ladder graphic visible at (17,11) on B1F directly North of (17,12).
