@@ -657,7 +657,8 @@
 | (13, 15)     | Melanie's House       | Melanie's House                           | Contains Jynx trade NPC, styled as a house. No healing. |
 | (25, 25)     | Poké Mart             | Melanie's House                           | Exiting warps to (25, 25). Contains Jynx trade NPC. |
 | (9, 11)      | Badge Guy's House     | Badge Guy's House                         | Contains Badge Guy NPC. Rendered with a misleading Pokémon Center tileset (PC on right, counter on top), but has NO healing function. |
-| (13, 25)     | Bike Shop             | Melanie's House                           | Exiting warps to (13, 25). |
+| (13, 25)     | Bike Shop             | Melanie's House                           | Shared interior. Exiting from (2, 8) warps to (13, 25). |
+| -            | Saffron Road Warp     | Melanie's House Exit                      | Exiting Melanie's House via (4, 8) warps directly to (17, 26) on Saffron Road. |
 | (30, 19)     | Cerulean Gym          | Cerulean Gym                              | Standard Gym interior. Misty is here. |
 | (27, 11)     | Burgled House         | Bill's House Interior (Mod Swap)          | Mapped to Bill's House. Entering (27, 11) warps to Bill's House. Exiting Bill's House warps back to (27, 11). |
 
@@ -686,11 +687,7 @@
   - It is therefore mathematically and mechanically impossible to bypass the row 15 barrier by entering Melanie's House from the south.
 
 
-### Melanie's House Warp Resource Sharing & Back-Warping Verification (Turn 5784)
-- **Empirical Test 1 (Turn 5763-5764):** Stand at (25, 26) in Cerulean City, walk UP into the Poké Mart door at (25, 25) to warp inside Melanie's House at (3, 7). Then, walk DOWN from (3, 7) into (3, 8) (the door mat).
-  - **Result:** Warps the player to (25, 26) in Cerulean City (the south side outside the Poké Mart).
-- **Empirical Test 2 (Turn 5634-5635 / Turn 5667-5668):** Enter Melanie's House from the Bike Shop door at (13, 25), and walk DOWN through the inside door mat.
-  - **Result:** Warps the player back to (13, 25) in Cerulean City (the south side outside the Bike Shop).
+
  
 
 
