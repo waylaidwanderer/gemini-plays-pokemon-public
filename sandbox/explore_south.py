@@ -1,27 +1,31 @@
 import mgba
 import time
 
-def travel_to_route5_perfect():
-    print("Starting perfect travel to Route 5...")
-    
-    # We are currently at (20, 23)
-    # 1. Walk Up 5 steps to row 18
-    # 2. Walk Left 18 steps to column 2
-    # 3. Walk Down 12 steps to row 30
-    # 4. Walk Right 18 steps to column 20
-    # 5. Walk Down 5 steps to enter Route 5
-    path = ["Up"] * 5 + ["Left"] * 18 + ["Down"] * 12 + ["Right"] * 18 + ["Down"] * 5
-    
-    print(f"Total steps to execute: {len(path)}")
-    
-    for idx, btn in enumerate(path):
-        mgba.press_buttons([btn])
-        time.sleep(0.40) # 400ms sleep is extremely safe and registers 100% of steps!
-        if (idx + 1) % 5 == 0 or idx == len(path) - 1:
-            print(f"Step {idx + 1}/{len(path)} executed: {btn}")
-            
+def explore_gaps():
+    print("Starting gap search on Route 4...")
+    # Start at (89, 10)
+    # Walk Left and try Up on each column from 88 down to 70
+    # Wait, we need to bypass column 75 tree barrier going Left if we get that far.
+    # But let's see if we can find a gap on columns 88 down to 76 first!
+    path = []
+    for col in range(88, 75, -1):
+        # Walk Left 1 step
+        mgba.press_buttons(["Left"])
+        time.sleep(0.35)
+        
+        # Try Up
+        mgba.press_buttons(["Up"])
+        time.sleep(0.35)
+        
+        # If we succeeded, we would be on row 9.
+        # But since we can't check coordinates reliably, we just press Down to return to row 10 in case we went up.
+        # Wait, if we did go up, did we land on the upper road?
+        # Yes! But to be sure, let's just do "Down" to return.
+        mgba.press_buttons(["Down"])
+        time.sleep(0.35)
+        
     screenshot_file = mgba.take_screenshot()
-    print("Screenshot taken:", screenshot_file)
+    print("Search on columns 88-76 completed. Screenshot:", screenshot_file)
 
 if __name__ == "__main__":
-    travel_to_route5_perfect()
+    explore_gaps()
