@@ -199,19 +199,6 @@
   - **HP:** 22 / 22
   - **Status:** Healthy
 
-## Gym Leader Misty Battle Strategy
-- **Misty's Expected Roster:**
-  - **Staryu (Level 18):** Water-type. Knows Tackle, Water Gun.
-  - **Starmie (Level 21):** Water/Psychic-type. High Speed and Special (100). Knows Tackle, Water Gun, Bubblebeam. Bubblebeam is extremely dangerous due to STAB and Starmie's high Special.
-- **Damage Calculations & Strategy Corrections (Empirically Verified via Formula):**
-  - **Truffle (Paras Lv 14):** Despite Grass-type Water resistance, Starmie's Bubblebeam (STAB) deals ~40-47 damage to Truffle due to its extremely low Special (21) and Starmie's high Special (100). Since Truffle's max HP is only ~36, Bubblebeam is a guaranteed ONE-SHOT KO. Truffle CANNOT tank Starmie.
-  - **Tesla (Pikachu Lv 11):** Taking neutral damage from Water, Tesla takes ~108 damage from Bubblebeam and is guaranteed to be ONE-SHOT KO'd. Tesla cannot take a hit.
-  - **Shellby (Wartortle Lv 27):** With high HP (74), Special (49), and Water resistance, Shellby takes only ~21 damage from Bubblebeam. Shellby can comfortably tank several hits!
-- **Our Battle Strategy (Coordinated Team Effort):**
-  1. **Primary Tank Lead (Shellby - Wartortle Lv 27):** Lead with Shellby or switch to Shellby immediately. Use **Bite** (physical Normal move, ~11 damage per hit) to chip away at Staryu/Starmie. Shellby is our primary attacker and wall. We will use Potions/Super Potions to keep Shellby healthy.
-  2. **Opportunistic Paralysis:** If Starmie uses a non-damaging move (like X Defend) or a weak physical move (Tackle), we can switch to Truffle or Tesla to use **Stun Spore** or **Thunder Wave** to paralyze Starmie. Once paralyzed, Starmie's Speed is quartered, allowing our team to outspeed it, and giving a 25% fully-paralyzed chance.
-  3. **Super Potion Prep:** Buy 2-3 Super Potions at the Cerulean Poké Mart before challenging the Gym to ensure Shellby has reliable healing support.
-
 <hr>
 
 <h1><code>Mechanics/Search_Scripting_Pitfalls</code></h1>
