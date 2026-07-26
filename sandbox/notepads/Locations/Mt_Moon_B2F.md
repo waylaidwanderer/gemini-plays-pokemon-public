@@ -53,3 +53,4 @@
 - **Solid Rock Wall Face at (16..23, 12..15):** [Verified Turn 9174] Solid blue rock wall face across Columns 16 through 23 at Rows 12-15 blocks Southward passage along Column 20. Column 20 dead-ends South at Row 11. Upper chamber (Cols 14-25, Rows 8-11) is fully enclosed by Row 7 North wall, Row 12 South wall, Col 13 West wall, Col 26 East wall.
 - **Reciprocal B2F Teleport Loop (17,11) <-> (25,9):** [Verified Turn 9178] Stepping onto (17,11) on B2F teleports player to (25,9) on B2F. Stepping Down onto (25,9) on B2F teleports player back to (17,11) on B2F.
 - **(26,11) Wall Collision:** [Verified Turn 9185] Solid rock wall face at (26,11) blocks Eastward movement along Row 11 from (25,11).
+- **(26,10) Wall Collision:** [Verified Turn 9188] Solid rock wall face at (26,10) blocks Eastward movement along Row 10 from (25,10).
