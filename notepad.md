@@ -188,18 +188,14 @@
 - **Obtained Item (TM30):** Found and retrieved TM30 (Teleport) at (10, 15) on Route 9 on Turn 7206.
 
 ## Party Statistics
-- **SHELLBY (Wartortle):**
-  - **Level:** 33
-  - **HP:** 2 / 90
-  - **Status:** Healthy (Very Low HP)
-- **TRUFFLE (Paras):**
-  - **Level:** 13
-  - **HP:** 30 / 34
-  - **Status:** Paralyzed
 - **TESLA (Pikachu):**
   - **Level:** 14
   - **HP:** 36 / 36
   - **Status:** Healthy
+- **TRUFFLE (Paras):**
+  - **Level:** 14
+  - **HP:** 33 / 37
+  - **Status:** Paralyzed
 - **GUSTY (Pidgey):**
   - **Level:** 5
   - **HP:** 19 / 19
@@ -208,6 +204,10 @@
   - **Level:** 7
   - **HP:** 22 / 22
   - **Status:** Healthy
+- **SHELLBY (Wartortle):**
+  - **Level:** 33
+  - **HP:** 2 / 90
+  - **Status:** Healthy (Very Low HP)
 
 - **Defeated Gym Leader Lt. Surge:** Defeated Vermilion Gym Leader Lt. Surge on Turn 7027, obtaining the THUNDERBADGE and TM24 (Thunderbolt).
 
