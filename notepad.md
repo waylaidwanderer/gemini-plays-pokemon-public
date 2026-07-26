@@ -29,8 +29,8 @@
 - **Badges:** 2 (Boulder Badge, Cascade Badge) [Cascade Badge obtained from Misty on Turn 10001]
 - **Starter Pokémon:** Blastoise (Lv 38) [Evolved on Turn 9878, Level 38 on Turn 10278!]
   - **Nickname:** SHELLSHOCK
-  - **Moves:** Tackle (0/35 PP), Bite (0/25 PP), BubbleBeam (0/20 PP), Water Gun (3/25 PP)
-  - **PP Recovery Plan:** 3 PP Water Gun is sufficient to defeat Trainer 7 at (37,4). Will return to Cerulean Pokémon Center to heal and restore all PP after visiting Sea Cottage.
+  - **Moves:** Tackle (0/35 PP), Bite (0/25 PP), BubbleBeam (0/20 PP), Water Gun (0/25 PP)
+  - **PP Recovery Plan:** All moves at 0 PP after clearing Route 25. Will use Struggle if wild encounter occurs while returning West to Cerulean Pokémon Center to heal and restore all PP.
 
 - **Key Items:** Pokédex (Obtained from Prof. Oak on Turn 265), S.S. Ticket (Obtained from Bill on Turn 10317).
 - **Inventory:** 5 Poké Balls, TM34 (Bide), TM01 (Mega Punch), Ether, HP Up, Rare Candy, Potion, Moon Stone, Dome Fossil, Nugget.
@@ -367,10 +367,9 @@ Route 3 is structured into 3 horizontal elevation tiers:
 # Sea Cottage Map & Points of Interest
 
 ## Key Locations & Coordinates
-- **Entrance Mat:** [Verified Turn 10304] Spawns at X=2, Y=7 facing Up.
-- **Bill (Clefairy Form):** [Verified Turn 10304] Located at X=6, Y=5.
-- **Teleporter Left Pod:** Located at X=2, Y=5.
-- **Teleporter Right Pod:** Located at X=5, Y=5.
-- **Cell Separator PC Terminal:** Located at X=1, Y=4 / X=1, Y=5.
+- **Entrance Mat:** [Verified Turn 10304] Spawns at X=2, Y=7 facing Up. Exit mat at (2,7)/(3,7).
+- **Human Bill:** [Verified Turn 10315] Located at X=4, Y=4 after Cell Separator operation. Spoke with Bill and received S.S. Ticket [Turn 10317]!
+- **Teleporter Machine:** Left pod at (2,5), Right pod at (5,5).
+- **Cell Separator PC Terminal:** [Verified Turn 10313] Interactive monitor at X=1, Y=4 accessed from X=1, Y=5 facing Up.
 
 <hr>
