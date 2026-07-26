@@ -292,8 +292,8 @@ Route 3 is structured into 3 horizontal elevation tiers:
    - From 1F (21,17): Walk South to Row 35/36 cave doorway to exit onto Route 4 East!
 
 ## Current Operational Step
-- Current Position: (25,25) facing Left on B1F.
-- Target: (25,22) Exit Ladder to B2F.
-- Action: Press `Up` 3 times to step onto (25,22) ladder warp.
+- Current Position: (25,22) facing Up on B1F.
+- Target: B2F (25,22) arrival via ladder warp at (25,22).
+- Action: Press `Up`, then `Down` to step off and step back onto (25,22) ladder to trigger map transition.
 
 <hr>
