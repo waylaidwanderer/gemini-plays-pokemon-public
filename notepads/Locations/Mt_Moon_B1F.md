@@ -103,4 +103,4 @@
 - **Exit Corridor Ladder Arrival at (5,5):** [Verified Turn 11300] Tile (5,5) in B1F Main Cavern is the arrival landing tile when coming UP from B2F Fossil Room exit ladder. It is NOT a functional exit ladder inside B1F Main Cavern.
 
 - **Decorative Ladder at (21,17):** [Verified Turn 11324] Tile (21,17) in B1F displays a ladder graphic but is non-functional (stepping on it triggers no warp).
-- **Solid Rock Wall Face at (19,26)-(19,30):** [Verified Turn 11501] Column 19 is a solid blue rock wall face across Rows 26 through 30. West passage is via Row 31/32 South Trench (20,31 -> 15,31 -> 15,27)!
+- **Solid Rock Wall Face at Column 19 (Rows 26-35):** [Verified Turn 11505] Column 19 is a solid blue rock wall face across Rows 26 through 35, blocking Westward movement along Rows 28 and 31.
