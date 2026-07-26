@@ -20,3 +20,11 @@
   - Row 22: Blocks columns 20-25 with soil/water.
 - **Hedge/Bush Blockages:**
   - Row 18 & 19: Columns 13 and 14 have green hedges/trees that block southward transit to row 20, separating the northern and southern parts of the city.
+
+## S.S. Anne Pier Layout & Map Transitions (Vermilion Dock)
+- **Pier Structure:** Consists of two vertical walkable columns: Column 18 and Column 19, running from row 27 down to row 35.
+- **Statues/Pillars:** Present on columns 14-17 and columns 20-23 on rows 30 and 31.
+- **Boarding Warp Transitions:**
+  - **Column 18 (left side):** Walking south on Column 18 past row 35 warps the player to S.S. Anne Entryway (Map 91) at `(14, 0)` (facing Down).
+  - **Column 19 (right side):** Walking south on Column 19 past row 35 warps the player to S.S. Anne Entryway (Map 91) at `(14, 2)` (facing Down), right next to the S.S. Anne Deck warp!
+- **Sailor Ticket Checker:** Sits at `(19, 30)`. Once ticket is shown, he does not block vertical transit on Column 19 below row 30.

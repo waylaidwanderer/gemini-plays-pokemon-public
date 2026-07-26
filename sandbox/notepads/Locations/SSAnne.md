@@ -8,8 +8,33 @@
   - Right Deck Door at `(31, 8)`: Warps the player to S.S. Anne Cabin 1 at `(0, 0)` (facing Down).
 
 ## Cabin 2 Mappings
-- **Current Position (Turn 6301):** S.S. Anne Cabin 2 at `(10, 1)`.
 - **Left Deck Door Connection:** Warps to `(10, 0)` / `(10, 1)`. Contains pink/white checkered carpet of Cabin 2.
 - **Wandering NPCs / Barriers:**
   - NPC at (11, 4) facing UP.
   - Desk/Table at (10, 5) and (11, 5).
+
+
+## S.S. Anne Deck Right-Hand Path
+- **Pathway:** Column 36 (rows 6-14) and Column 37 (rows 6-14) form a major vertical walkway on the far right of the S.S. Anne Deck.
+- **Staircase Warp:** Standing at (36, 15) and walking Right to (37, 15) warps the player to S.S. Anne 2F at `(27, 5)` (facing Down).
+
+## S.S. Anne 2F Layout & Cabins
+- **Entrance Warp:** Warping from Deck (37, 15) places the player at S.S. Anne 2F `(27, 5)` (facing Down).
+- **Staircase location:** S.S. Anne 2F `(27, 4)` is the staircase leading back to S.S. Anne Deck.
+- **Hallway:** Runs horizontally on rows 4 and 5 from column 27 to at least column 19.
+- **Cabin doors:**
+  - **Cabin 3 Door:** Located at `(23, 3)`. Entering warps to Cabin 3 Interior at `(12, 15)`.
+  - **Cabin 4 Door:** Located at `(19, 3)`. Entering warps to Cabin 4 Interior at `(2, 15)`.
+
+## Cabin 3 Geometry & Mappings
+- **Interior Layout:** Map 94 coordinates x=10 to x=13, y=11 to y=15.
+- **Warp Exit:** Red carpet door tile is at `(12, 15)`. Walking Down through `(12, 15)` exits back to S.S. Anne 2F at `(23, 4)`.
+- **NPCs:**
+  - Boy at `(10, 13)` who mentions MACHOKE's STRENGTH.
+  - MACHOKE at `(11, 12)` (cries: "Gwoh! Goggoh!").
+- **Items:**
+  - **Max Potion:** Located on the floor/carpet at `(12, 11)`. Retrieved on Turn 6415.
+
+## Cabin 4 Geometry & Mappings
+- **Interior Layout:** Map 94 coordinates x=0 to x=3, y=11 to y=15.
+- **Warp Exit:** Red carpet door tile is at `(2, 15)`. Walking Down through `(2, 15)` exits back to S.S. Anne 2F at `(19, 4)`.
