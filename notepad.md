@@ -274,6 +274,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Reciprocal B2F Teleport Loop (17,11) <-> (25,9):** [Verified Turn 9178] Stepping onto (17,11) on B2F teleports player to (25,9) on B2F. Stepping Down onto (25,9) on B2F teleports player back to (17,11) on B2F.
 - **(26,11) Wall Collision:** [Verified Turn 9185] Solid rock wall face at (26,11) blocks Eastward movement along Row 11 from (25,11).
 - **(26,10) Wall Collision:** [Verified Turn 9188] Solid rock wall face at (26,10) blocks Eastward movement along Row 10 from (25,10).
+- **(25,9) Warp Trigger Behavior:** [Verified Turn 9191] Stepping onto tile (25,9) from below at (25,10) immediately triggers the teleport warp to (17,11). Tile (25,9) cannot be walked through from Row 10 to Row 8; access to Row 8 (25,8) is via Row 8 West Highway (17,8 -> 25,8).
 
 <hr>
 
