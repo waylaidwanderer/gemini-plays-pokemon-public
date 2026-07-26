@@ -19,6 +19,6 @@
    - From 1F (21,17): Walk South to Row 35/36 cave doorway to exit onto Route 4 East!
 
 ## Current Operational Step
-- Current Position: (30,12) facing Down on B1F.
-- Target: (30,17) on Column 30.
-- Action: Press `Down` 5 times to reach (30,17).
+- Current Position: (30,15) facing Down on B1F.
+- Target: Run from wild battle, then walk South along Column 30 to (30,20).
+- Action: Press `A`, `Down`, `Right`, `A`, `A` to escape battle.
