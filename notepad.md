@@ -655,9 +655,9 @@
 |--------------|-----------------------|-------------------------------------------|-----------------------|
 | (19, 17)     | Pokémon Center        | Pokémon Center                            | Functional Pokémon Center! Stand at (3, 3) and talk to Nurse Joy to heal. |
 | (13, 15)     | Melanie's House       | Melanie's House                           | Contains Jynx trade NPC, styled as a house. No healing. |
-| (25, 25)     | Poké Mart             | Melanie's House                           | Contains Jynx trade NPC, styled as a house. No healing. |
+| (25, 25)     | Poké Mart             | Melanie's House                           | Exiting warps to (25, 25). Contains Jynx trade NPC. |
 | (9, 11)      | Badge Guy's House     | Badge Guy's House                         | Contains Badge Guy NPC. Rendered with a misleading Pokémon Center tileset (PC on right, counter on top), but has NO healing function. |
-| (13, 25)     | Bike Shop             | Bike Shop                                 | Standard Bike Shop interior. |
+| (13, 25)     | Bike Shop             | Melanie's House                           | Exiting warps to (13, 25). |
 | (30, 19)     | Cerulean Gym          | Cerulean Gym                              | Standard Gym interior. Misty is here. |
 | (27, 11)     | Burgled House         | Bill's House Interior (Mod Swap)          | Mapped to Bill's House. Entering (27, 11) warps to Bill's House. Exiting Bill's House warps back to (27, 11). |
 
