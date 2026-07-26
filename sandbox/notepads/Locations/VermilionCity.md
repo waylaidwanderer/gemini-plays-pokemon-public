@@ -29,7 +29,6 @@
   - **Column 19 (right side):** Walking south on Column 19 past row 35 warps the player to S.S. Anne Entryway (Map 91) at `(14, 2)` (facing Down), right next to the S.S. Anne Deck warp!
 - **Sailor Ticket Checker:** Sits at `(19, 30)`. Once ticket is shown, he does not block vertical transit on Column 19 below row 30.
 
-
 ## Vermilion Gym Layout & Geometry
 - **Entrance:** Located at `(12, 19)` (connects to Vermilion City at `(12, 20)` after clearing the cuttable bush at `(15, 18)`).
 - **Gym Guide:** Stands at `(4, 14)`.
@@ -42,3 +41,5 @@
   - **Sailor Dwayne:** Located at `(0, 10)` (facing Right). Roster: Pikachu (Lv 21).
   - **Rocker Harrison:** Located at `(3, 8)` (facing Down). Roster: Voltorb (Lv 20).
   - **Gentleman Tucker:** Located at `(9, 6)` (facing Down). Roster: Pikachu (Lv 23). Defeated on Turn 6897, earning ¥1610.
+
+  - **Gym Leader Lt. Surge:** Located at (5, 1) inside the Vermilion Gym. Roster: Voltorb (Lv 21), Pikachu (Lv 18), Raichu (Lv 24). Defeated on Turn 7027, obtaining the THUNDERBADGE and TM24 (Thunderbolt).
