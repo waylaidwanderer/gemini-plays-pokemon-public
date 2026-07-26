@@ -117,7 +117,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Rock Pillars/Boundaries:**
   - Row 8-9 rock wall blocks Rows 8-9 across Columns 20-29 [Verified Turn 1066].
   - Central rock pillar at Columns 32-33 (Rows 12-14) [Verified Turn 1068].
-- **Reciprocal Ladder Warp at (25,9):** [Verified Turn 1142] Ladder at (25,9) in B1F warps to (17,11) in B2F.
 - **East Chamber Wall at Column 26:** [Verified Turn 1148] Column 26 is solid rock wall blocking East at Rows 7-12. The (25,9) ladder chamber is bounded East by Column 26.
 - **West Chamber Wall at Column 13:** [Verified Turn 1151] Column 13 is solid rock wall blocking West at Rows 4-12.
 - **West Wall Columns 8-9:** [Verified Turn 1221] Columns 8-9 are solid rock wall across Rows 18-23.
@@ -155,7 +154,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Row 24 Stair Entrance (Cols 25-28):** [Verified Turn 3726] Row 24 is wide open floor connecting Col 28 West to (25,24) at the base of the Upper Platform stairs at (25,23).
 - **Solid Rock Boulder at (33,9):** [Verified Turn 4408] Tile (33,9) on B1F is a solid rock boulder/pillar face (impassable).
 - **North Wall Barrier (Rows 2-5, Cols 30-39):** [Verified Turn 4409] Rows 2-5 across Columns 30-39 form a solid rock wall face enclosing the top-right corridor.
-- **Side-Room Loop Warp:** [Verified Turn 4392] Ladder at (25,9) on B1F warps to B2F (17,11); ladder at (17,11) on B2F warps to B1F (25,9), forming an isolated side-room loop.
 
 - **Exit Ladder Warp Arrival from B2F at (25,22):** [Verified Turn 4681] Arrived at (25,22) on B1F from B2F exit ladder!
 - **South Corridor Row 25 Bypass:** [Verified Turn 4687] Row 25 (Cols 15-25) is wide open smooth purple floor, bypassing Col 19 rock wall at Row 28.
