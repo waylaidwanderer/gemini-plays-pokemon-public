@@ -934,7 +934,7 @@
 - **Interior Layout:** Map 94 coordinates x=10 to x=13, y=1 to y=5 (estimated based on entrance warp).
 - **Warp Exit:** Red carpet door tile is at `(12, 5)` and `(13, 5)`. Walking Down through `(12, 5)` exits back to S.S. Anne 2F at `(13, 12)`.
 - **NPCs & Battle Status:**
-  - **Lass at (13, 4):** Facing LEFT. Dialogue: "Check out what I fished up!"
+  - **Fisherman at (13, 4):** Facing LEFT. Dialogue: "Check out what I fished up!"
   - **Sailor at (10, 2):** Facing Right.
 - **Items:**
   - None (checkered floor pattern has no items).
