@@ -33,3 +33,15 @@
 - **Saffron Road (Columns 16-17) Ledge Block:** Standing at (16, 28) and pressing Down is blocked by the vertical logs at (16, 29). Saffron Road is completely impassable.
 - **Row 28 Barrier (MANUALLY VERIFIED):** Row 28 is completely blocked by dark green trees across columns 12-35, and Saffron Road (columns 16-17) is blocked on row 29 by vertical logs at (16, 29) and a signpost at (17, 29). However, columns 36 and 37 on row 28 are completely clear of trees and obstacles, providing a direct walkable path south to Route 5. (Verified at Turn 5632-5638).
 - **Column 35 Log Barrier (MANUALLY VERIFIED):** Column 35 is completely blocked by a solid wall of vertical logs on rows 23-27, and by trees on rows 28-29. This prevents any direct horizontal passage from the west side of Cerulean City to the eastern lane (columns 36-37) on the south side of the city. (Verified at Turn 5638).
+
+## Verified Southern & Central Barriers (Turn 5769 Update)
+- **Column 7 Central Wall:** Empirically verified that column 7 contains a solid vertical wall of grey pillars/walls on rows 12-16, blocking all westward passage to column 0 on those rows.
+- **Row 15 Barrier Details:**
+  - **Saffron Road Blockage:** Saffron Road (columns 16-17) is completely blocked on row 15 by Melanie's House building (spanning columns 13-17 on row 15).
+  - **Ledge Blockage (Columns 8-11):** Column 9 (and columns 8-11) has a horizontal one-way ledge facing down on row 15, which blocks all upward (south-to-north) passage.
+- **Row 19 Ledge Blockage:** Columns 32-35 on row 19 have a horizontal one-way ledge facing down, allowing downward jumps but blocking upward passage.
+- **Saffron Gym Layout:** Saffron Gym occupies columns 27-31 on rows 16-19.
+- **Melanie's House Shared Warp Resource & Back-Warping:**
+  - Both the Bike Shop door at (13, 25) and the Poké Mart door at (25, 25) warp the player into the shared interior of Melanie's House.
+  - Due to the Gen 1 warp engine's "last warp" stack register, exiting Melanie's House from the inside door mat always warps the player back to the outside door they entered from (either (13, 25) or (25, 25)).
+  - It is therefore mathematically and mechanically impossible to bypass the row 15 barrier by entering Melanie's House from the south.
