@@ -137,7 +137,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Row 8 Solid Rock Wall (Cols 20-29):** [Verified Turn 2452] Solid blue rock wall face blocks Southward movement at Row 8 across Columns 20 through 29. Column 30 is the open vertical corridor connecting Row 7 to Row 10.
 - **Column 12-13 Rock Pillar (Rows 23-28):** [Verified Turn 2488] Columns 12-13 are a solid rock pillar face across Rows 23 through 28, blocking Westward movement along South Corridor at Row 27.
 - **Rocket Grunt at (15,22):** [Verified Turn 2501] Rocket Grunt located at (15,22) in Upper Cavern section of B1F.
-- **Decorative Ladder at (25,15):** [Verified Turn 2643] Tile (25,15) in B1F Eastern Chamber displays a ladder graphic but is decorative/non-functional (stepping on it triggers no warp).
+- **Decorative Ladder at (25,15):** [Verified Turn 2643, Re-verified Turn 11042] Tile (25,15) in B1F Eastern Chamber displays a ladder graphic but is non-functional (stepping on it triggers no warp). Row 13 (24..27, 13) is a solid rock wall face blocking Column 25 Northward progress.
 - **Central Cliff Barrier at Cols 30-31:** [Verified Turn 2569] Solid rock cliff face blocks Row 26 Eastward at Column 30 on B1F.
 - **Eastern Highway at Cols 28-29:** [Verified Turn 2508] Columns 28-29 form a wide-open vertical corridor extending North from Row 26 up through Row 22+.
 - **Row 22 Wall Collision at (27,22):** [Verified Turn 2510] Solid rock wall face at (27,22) blocks Westward movement along Row 22.
@@ -217,7 +217,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Solid Rock Wall Face at (11,20) & (17,20):** [Verified Turns 9698/9708] Row 20 forms a solid rock wall face across Columns 11 through 20 on B1F.
 - **(7,10) Platform Wall Boundary:** [Verified Turn 9825] Solid vertical platform wall face between Column 8 and Column 7 blocks Westward movement from (8,10) into (7,10). Access to (5,7) platform is via (12,9)/(13,9) elevation stairs to Row 8, then West along Row 8/7!
 - **(3,5) Elevation Stairs for (5,7) Platform:** [Verified Turn 9835] Solid platform wall face blocks Row 4 Southward entry into Row 5 across Cols 4-10. Descent to (5,7) ladder ground floor is via (3,5) elevation stairs!
-
 
 <hr>
 
