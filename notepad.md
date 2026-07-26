@@ -936,6 +936,7 @@
 - (1, 7): Empty (Nope)
 - (3, 7): Empty (Nope)
 - (5, 7): Empty (Nope)
+- (5, 11): FIRST SWITCH FOUND! (Turn 6977)
 
 ## Previous Search Sessions
 - Attempt 3 (Reset on Turn 6961):
