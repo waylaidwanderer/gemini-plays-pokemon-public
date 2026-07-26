@@ -983,7 +983,7 @@
 | Trainer Name | Location / Coordinates | Trainer Roster | Earnings / Turn | Notes |
 |--------------|------------------------|----------------|-----------------|-------|
 | JR. TRAINER♀ | (12, 10) / (13, 10)    | Oddish, Bellsprout (Lv 18) | ¥360 / Turn 7197 | Defeated! |
-| Hiker Alan   | (16, 15)               | Geodude, Onix (unfought)   | -               | Facing Left on row 15. Can be bypassed via row 14. |
+| Hiker Alan   | (45, 15)               | Geodude, Onix              | ¥735 / Turn 7280| Defeated! |
 | Bug Catcher  | (24, 7)                | Bug Pokémon (unfought)     | -               | Facing Down on column 24. |
 
 <hr>
