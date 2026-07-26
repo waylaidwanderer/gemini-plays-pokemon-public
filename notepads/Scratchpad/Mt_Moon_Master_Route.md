@@ -20,6 +20,6 @@
    - From 1F (21,17): Walk South to Row 35/36 cave doorway to exit onto Route 4 East!
 
 ## Current Operational Step
-- Current Position: (30,7) facing Right on B1F.
-- Target: (30,10) on Column 30.
-- Action: Press `Down` 3 times to reach (30,10).
+- Current Position: (30,10) facing Down on B1F.
+- Target: (25,9) Down-Ladder Warp to B2F.
+- Action: Press `Left` 5 times to reach (25,10), then `Up` 1 time to step onto (25,9) ladder warp to B2F (17,11).
