@@ -85,3 +85,4 @@
 - **Enclosed Cavern (Cols 14-19, Rows 8-11):** [Verified Turn 8791] Enclosed room bounded by Col 10-13 rock wall face West, Row 7 North, Col 20 East, Row 12 South. Only exit is ladder at (17,11) to B2F (25,9).
 - **(29,26)-(29,30) Wall Collision:** [Verified Turn 8860] Solid rock wall face at Column 29 across Rows 26-30 blocks Westward movement along Row 26-30. True West bypass is Row 25 (30,25 -> 25,25).
 - **Row 27 Rock Wall Face (Cols 22-23):** [Verified Turn 8866] Solid rock wall face along Row 27 at Cols 22-23. West passage is via Row 28 South Trench (24,28 -> 15,28).
+- **Solid Rock Wall Face at (20,27):** [Verified Turn 8872] Solid rock wall face blocks Northward movement from (20,28) at (20,27).
