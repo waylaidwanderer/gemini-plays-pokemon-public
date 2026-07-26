@@ -89,7 +89,7 @@
 - **Column 32-33 Vertical Rock Pillar (Rows 20-28):** [Verified Turn 9258] Columns 32 and 33 form a solid blue rock wall face across Rows 20 through 28 on B1F. Row 24 does NOT connect West past Column 34; bypass South is via Column 34 to Row 28 South Trench (34,28 -> 30,28).
 - Solid Rock Wall Face at (25,9): [Verified Turn 9290] Tile (25,9) is a solid blue rock wall face when approached from the South at (25,10).
 
-- **(23,24) Wall Boundary:** [Verified Turn 9316] Solid rock wall face at (23,24) blocks Westward movement along Row 24 on B1F.
+
 - **(28,22) Wall Boundary:** [Verified Turn 9526] Column 28 at Row 22 is a solid rock wall face on B1F. Cannot walk East from (27,22) into (28,22).
 - **Row 9 Rock Wall Face (Cols 21-29):** [Verified Turn 9553] Row 9 is a solid blue rock wall face across Columns 21 through 29 on B1F.
 - **(20,10) Wall Boundary:** [Verified Turn 9557] Tile (20,10) is a solid rock wall face on B1F blocking Column 20 Northward access to Row 7.
