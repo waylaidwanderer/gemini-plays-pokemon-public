@@ -2,10 +2,10 @@
 
 ## Master Exit Route (Verified Map Connections)
 1. **B1F North Cavern -> B1F (25,9) Down-Ladder:**
-   - From (25,22) on B1F: Walk East to Column 30 at (30,25).
-   - Walk North along Column 30 to Row 2 Top Corridor at (30,2).
-   - Walk West along Row 2 to Column 25 at (25,2).
-   - Walk South along Column 25 to (25,9) and take the down-ladder to B2F (17,11).
+   - From (25,7) on B1F: Walk East to Column 30 at (30,7).
+   - Walk South along Column 30 to Row 10 at (30,10).
+   - Walk West along Row 10 to Column 25 at (25,10).
+   - Walk North 1 step onto (25,9) ladder warp to B2F (17,11).
 
 2. **B2F Main Cavern -> B2F (5,5) Fossil Room Exit Ladder:**
    - From B2F (17,11) arrival: Walk East along Row 7 to Column 20 (20,7).
@@ -21,5 +21,5 @@
 
 ## Current Operational Step
 - Current Position: (25,7) facing Down on B1F.
-- Target: (25,9) Down-Ladder Warp to B2F.
-- Action: Press `Down` 2 times to step onto (25,9) ladder to warp to B2F (17,11).
+- Target: (30,7) on Column 30.
+- Action: Press `Right` 5 times to reach (30,7).
