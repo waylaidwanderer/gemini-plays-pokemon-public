@@ -1,5 +1,5 @@
 # Mt. Moon Live Routing & Verification
 
-## Active Target: Explore West Corridor from (25,10)
-1. **Current Position:** (25,10) facing Down.
-2. **Path:** Walk Left 4 steps to (21,10) to explore the horizontal corridor running West.
+## Active Target: Test Ladder Warp at (17,11)
+1. **Current Position:** (21,10) in Upper Cavern Hallway.
+2. **Path:** Walk Left 4 steps to (17,10), then Down 1 step onto ladder at (17,11) to test warp destination.
