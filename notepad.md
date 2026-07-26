@@ -944,7 +944,6 @@
 - Row 11: (1, 11), (3, 11), (5, 11), (7, 11), (9, 11)
 
 ## Current Search Session
-- Search Order: None
-- Attempts: None
+- (9, 7): Empty (Nope)
 
 <hr>
