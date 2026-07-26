@@ -681,7 +681,7 @@
   - **Ledge Blockage (Columns 8-11):** Column 9 (and columns 8-11) has a horizontal one-way ledge facing down on row 15, which blocks all upward (south-to-north) passage.
 - **Row 19 Ledge Blockage:** Columns 32-35 on row 19 have a horizontal one-way ledge facing down, allowing downward jumps but blocking upward passage.
 - **Saffron Gym Layout:** Saffron Gym occupies columns 27-31 on rows 16-19.
-- **Melanie's House Shared Warp Resource & Back-Warping:**
+
   - Both the Bike Shop door at (13, 25) and the Poké Mart door at (25, 25) warp the player into the shared interior of Melanie's House.
   - Due to the Gen 1 warp engine's "last warp" stack register, exiting Melanie's House from the inside door mat always warps the player back to the outside door they entered from (either (13, 25) or (25, 25)).
   - It is therefore mathematically and mechanically impossible to bypass the row 15 barrier by entering Melanie's House from the south.
