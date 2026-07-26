@@ -91,3 +91,4 @@
 - **Solid Rock Wall Face at (22..23, 21..27):** [Verified Turn 8995] Solid blue rock wall face blocks Westward passage at Columns 22-23 across Rows 21-27 on B1F, separating Eastern B1F (Cols 24-30) from Western B1F (Cols 20-21). True Northbound exit route is via Column 30 (30,25 -> 30,7 -> 30,2 -> 5,2 -> 5,5 Exit Ladder).
 - **Solid Rock Wall Face at (29,8):** [Verified Turn 9058] Tile (29,8) is a solid blue rock wall face blocking Southward movement along Column 29. True vertical corridor South is Column 30.
 - **Solid Rock Wall Face at (25,8):** [Verified Turn 9121] Tile (25,8) is a solid blue rock wall face blocking Southward movement along Column 25 from (25,7). Access to ladder (25,9) is via Row 10 (30,10 -> 25,10 -> 25,9).
+- **(12..13, 2..6) Wall Boundary:** [Verified Turn 9144] Solid blue rock wall face across Columns 12-13 at Rows 2 through 6 blocks Westward movement along Row 2 Top Corridor. Row 2 does NOT connect West past Column 13 on B1F.
