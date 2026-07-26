@@ -1,31 +1,29 @@
 import mgba
 import time
 
-def explore_gaps():
-    print("Starting gap search on Route 4...")
-    # Start at (89, 10)
-    # Walk Left and try Up on each column from 88 down to 70
-    # Wait, we need to bypass column 75 tree barrier going Left if we get that far.
-    # But let's see if we can find a gap on columns 88 down to 76 first!
-    path = []
-    for col in range(88, 75, -1):
-        # Walk Left 1 step
-        mgba.press_buttons(["Left"])
+def enter_gym():
+    print("Walking to Cerulean Gym...")
+    # Walk Right 1 step to transition from Route 4 to Cerulean City (0, 18)
+    mgba.press_buttons(["Right"])
+    time.sleep(1.0) # Wait for transition
+    
+    # Path from (0, 18) to (30, 19):
+    # Walk Right 22 steps to (22, 18)
+    # Walk Down 2 steps to (22, 20)
+    # Walk Right 8 steps to (30, 20)
+    # Walk Up 1 step to enter Gym at (30, 19)
+    path = ["Right"] * 22 + ["Down"] * 2 + ["Right"] * 8 + ["Up"]
+    
+    print(f"Executing {len(path)} steps to enter Gym...")
+    for idx, btn in enumerate(path):
+        mgba.press_buttons([btn])
         time.sleep(0.35)
         
-        # Try Up
-        mgba.press_buttons(["Up"])
-        time.sleep(0.35)
-        
-        # If we succeeded, we would be on row 9.
-        # But since we can't check coordinates reliably, we just press Down to return to row 10 in case we went up.
-        # Wait, if we did go up, did we land on the upper road?
-        # Yes! But to be sure, let's just do "Down" to return.
-        mgba.press_buttons(["Down"])
-        time.sleep(0.35)
-        
+    time.sleep(1.0) # Wait for Gym warp transition
+    print("Position inside Gym:", mgba.get_coordinates())
+    
     screenshot_file = mgba.take_screenshot()
-    print("Search on columns 88-76 completed. Screenshot:", screenshot_file)
+    print("Screenshot inside Gym:", screenshot_file)
 
 if __name__ == "__main__":
-    explore_gaps()
+    enter_gym()
