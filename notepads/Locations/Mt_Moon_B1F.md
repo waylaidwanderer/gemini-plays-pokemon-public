@@ -90,7 +90,7 @@
 - Solid Rock Wall Face at (25,9): [Verified Turn 9290] Tile (25,9) is a solid blue rock wall face when approached from the South at (25,10).
 
 
-- **(28,22) Wall Boundary:** [Verified Turn 9526] Column 28 at Row 22 is a solid rock wall face on B1F. Cannot walk East from (27,22) into (28,22).
+
 - **Row 9 Rock Wall Face (Cols 21-29):** [Verified Turn 9553] Row 9 is a solid blue rock wall face across Columns 21 through 29 on B1F.
 - **(20,10) Wall Boundary:** [Verified Turn 9557] Tile (20,10) is a solid rock wall face on B1F blocking Column 20 Northward access to Row 7.
 
