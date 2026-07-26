@@ -116,6 +116,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - Item Balls collected at (2,20) and (25,21).
 - **(13,22)-(13,27) Platform Wall Boundary:** [Verified Turn 9337] Columns 12-13 form a checkered elevated platform face on 1F. East edge of Col 13 is an impassable platform wall face blocking Westward entry from Col 14.
 - **(14,21) Rock Wall Boundary:** [Verified Turn 9331] Solid rock wall face at (14,21) blocks Northward movement along Col 14 on 1F.
+- **(22..23, 23) Rock Pillar:** [Verified Turn 9344] Solid rock pillar face at (22..23, 23) blocks Row 23 Eastward movement on 1F. Bypass is Row 24 wide-open floor across Cols 19-24.
 
 <hr>
 
