@@ -275,9 +275,8 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 ## Master Exit Route (Verified Map Connections)
 1. **B1F North Cavern -> B1F (25,22) Ladder:**
-   - From (14,7) on B1F: Walk North to (14,2) on Row 2 Top Corridor.
-   - Walk East along Row 2 to (29,2).
-   - Walk South along Column 30/29 (bypassing Lass at 30,4) down to (30,25).
+   - From (29,7) on B1F: Walk Right to (30,7) on Column 30.
+   - Walk South along Column 30 to (30,25).
    - Walk West along Row 25 to (25,25).
    - Walk South along Column 25 to (25,22) and take the ladder down to B2F (25,22).
 
@@ -293,8 +292,8 @@ Route 3 is structured into 3 horizontal elevation tiers:
    - From 1F (21,17): Walk South to Row 35/36 cave doorway to exit onto Route 4 East!
 
 ## Current Operational Step
-- Current Position: (14,7) facing Down on B1F.
-- Target: (14,2) on Row 2 Top Corridor.
-- Action: Press `Up` 5 times to reach (14,2).
+- Current Position: (29,7) facing Down on B1F.
+- Target: (30,7) on Column 30 highway.
+- Action: Press `Right` to step onto (30,7).
 
 <hr>
