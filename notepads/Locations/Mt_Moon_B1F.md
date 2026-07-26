@@ -94,3 +94,4 @@
 - **(12..13, 2..6) Wall Boundary:** [Verified Turn 9144] Solid blue rock wall face across Columns 12-13 at Rows 2 through 6 blocks Westward movement along Row 2 Top Corridor. Row 2 does NOT connect West past Column 13 on B1F.
 - **Row 20-21 Rock Wall Bypass via Column 7:** [Verified Turn 9208] Row 20 and Row 21 form a solid rock wall face across Columns 8-16. Bypassing South is via Row 17 West to Column 7 (7,17 -> 7,21), then South to Row 23.
 - **Column 5-6 Bypass around Rock Wall (Rows 18-19):** [Verified Turn 9219] Columns 7-9 at Rows 18-19 are solid blue rock wall face. The open vertical corridor South is Columns 3-6 (5,17 -> 5,23).
+- **Row 18-19 Rock Wall Barrier (Cols 1-9):** [Verified Turn 9227] Row 18 and Row 19 form a solid blue rock wall face across Columns 1 through 9. Columns 1-9 do NOT lead South past Row 17 on B1F.
