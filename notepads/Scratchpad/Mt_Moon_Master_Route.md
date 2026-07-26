@@ -2,9 +2,8 @@
 
 # Mt. Moon 1F Live Routing & Verification
 
-## Active Target: Entrance Ladder at (15,27) via Col 7 Northbound Route
-1. **Current Position:** (11,16) facing Up on Row 16.
-2. **Immediate Leg (Row 16 West to Col 7):**
-   - Left x4 along Row 16 from (11,16) to Column 7 at (7,16).
-3. **Next Leg (Col 7 North to Row 6 Top Highway):**
-   - Up x10 along Column 7 from (7,16) to Row 6 at (7,6).
+## Active Target: Ladder Warp at (5,5) via Row 6
+1. **Current Position:** (7,6) facing Up on Row 6 Top Highway.
+2. **Direct Ladder Leg:**
+   - Left x2 along Row 6 to Column 5 at (5,6).
+   - Up x1 onto Ladder Tile at (5,5) to trigger floor-transitioning warp!
