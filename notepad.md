@@ -286,21 +286,23 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 <h1><code>Scratchpad/Mt_Moon_Master_Route</code></h1>
 
-# Mt. Moon Active Routing & Exploration
+# Mt. Moon Master Exit Route
 
-## Verified Geometry (Mt. Moon B1F)
-- **Current Position:** (25,20) facing Down on Mt. Moon B1F.
-- **Empirical Discovery:** Tile (25,15) is a decorative non-functional ladder. B1F overworld highway connects directly to (5,5) exit ladder via Col 30 North -> Row 7 West -> Col 17 South -> Row 17 West -> Col 7 North!
-- **Master Route to Route 4 Exit (100% B1F Overworld):**
-  1. **Step 1:** (25,20) Down 4 to (25,24) -> Right 5 to (30,24).
-  2. **Step 2:** (30,24) Up 17 along Col 30 to Row 7 at (30,7) [Top Horizontal Corridor].
-  3. **Step 3:** (30,7) Left 13 along Row 7 to Column 17 at (17,7).
-  4. **Step 4:** (17,7) Down 10 along Column 17 to Row 17 at (17,17).
-  5. **Step 5:** (17,17) Left 10 along Row 17 to Column 7 at (7,17).
-  6. **Step 6:** (7,17) North 12 along Column 5/7 to Row 5 at (5,5) Exit Ladder!
-  7. **Step 7:** Step onto (5,5) Exit Ladder -> B1F Exit Corridor -> 1F exit (21,17) -> Route 4 East!
+## Corrected Topology
+- **B1F South Corridor (14-27, 22-27):** Enclosed lower pit on B1F. ONLY exit is ladder at (15,27) UP to 1F (15,27).
+- **False Assumption Busted:** B1F does NOT connect continuously in overworld from South Corridor to (5,5) Exit Corridor.
 
-## Active Target
-- Walk Down 4 steps along Col 25 from (25,20) to (25,24).
+## Master Route from B1F South Corridor (Current: 27,24) to Route 4 East Exit:
+1. **Step 1 (Exit B1F South Corridor):**
+   - From (27,24), walk Left 12 to (15,24), then Down 3 to ladder at (15,27).
+   - Step onto (15,27) ladder -> warps UP to 1F at (15,27).
+2. **Step 2 (Navigate 1F to North-East Ladder):**
+   - On 1F (15,27), walk to 1F North-East ladder at (25,9) [or side room warp (25,9)].
+3. **Step 3 (Navigate B2F to Fossil Room Ladder):**
+   - From B2F arrival, walk West/South along main B2F highway to Fossil Room at B2F (5,5).
+   - Take ladder at B2F (5,5) UP to B1F Exit Corridor (5,5).
+4. **Step 4 (B1F Exit Corridor to 1F Exit):**
+   - Walk South along Col 5 (past cleared Hiker at 5,6) to Row 16, then East to ladder at (21,17).
+   - Take ladder UP to 1F (21,17) -> Exit East to Route 4 / Cerulean City!
 
 <hr>
