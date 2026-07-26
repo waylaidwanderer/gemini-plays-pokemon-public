@@ -304,16 +304,13 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 <h1><code>Scratchpad/Mt_Moon_Master_Route</code></h1>
 
-# Mt. Moon 1F Final Exit Sequence to Route 4 (Turn 9800)
+# Mt. Moon 1F Column 10 Corridor Route (Turn 9807)
 
-## Current Location & Milestone
-- **Position:** (19,32) in South Trench on 1F!
-
-## Final 9 Steps to Route 4 Exit
-1. **(19,32) -> (14,32):** Walk West 5 steps along Row 32 South Trench to Col 14 [(14,32)].
-2. **(14,32) -> (14,36):** Walk South 4 steps down Col 14 to Route 4 Exit Doorway -> WARP OUT TO ROUTE 4 EAST!
+## Current Location & Goal
+- **Position:** (10,32) on Mt. Moon 1F South Trench.
+- **Route:** Walk Up Column 10 to Row 17 Horizontal Corridor [(10,17)], then inspect 1F exit connections.
 
 ## Active Immediate Step
-- Left 5 to (14,32), Down 4 to (14,36) Exit Doorway!
+- Walk Up 5 steps along Col 10 to (10,27).
 
 <hr>
