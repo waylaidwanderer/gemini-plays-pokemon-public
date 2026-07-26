@@ -174,6 +174,10 @@
 - **Tesla Leveled Up:** TESLA (Pikachu) reached Level 14 on Turn 6189.
 - **Defeated Jr. Trainer♂ (Route 6):** Defeated Jr. Trainer♂ at (8, 31) on Turn 6211, earning 320.
 
+- **Cut the Gym Bush:** Cut the Gym bush in Vermilion City to open access to the Gym on Turn 6799.
+- **Entered Vermilion Gym:** Entered Vermilion Gym on Turn 6801.
+- **Whited Out in Gym:** Whited out against Sailor Dwayne in Vermilion Gym on Turn 6837; returned to Vermilion Pokémon Center and fully restored party.
+
 ## Party Statistics
 - **SHELLBY (Wartortle):**
   - **Level:** 32
