@@ -26,7 +26,7 @@
 ## Current Progress & Party
 - **Badges:** 2 (Boulder Badge, Cascade Badge) [Cascade Badge obtained from Misty on Turn 10001]
 - **Starter Pokémon:** Blastoise (Lv 38) "SHELLSHOCK" [Evolved on Turn 9878, Level 38 on Turn 10278!]
-  - **Moves:** Tackle (35/35 PP), Bite (25/25 PP), BubbleBeam (20/20 PP), Water Gun (25/25 PP) [Restored on Route 4 Pokémon Center respawn].
+  - **Moves:** Tackle, Bite, BubbleBeam, Water Gun
 
 - **Key Items:** Pokédex (Obtained from Prof. Oak on Turn 265), S.S. Ticket (Obtained from Bill on Turn 10317).
 - **Inventory:** 5 Poké Balls, TM34 (Bide), TM01 (Mega Punch), Ether, HP Up, Rare Candy, Potion, Moon Stone, Dome Fossil, Nugget.
