@@ -27,8 +27,7 @@
 - **Badges:** 2 (Boulder Badge, Cascade Badge) [Cascade Badge obtained from Misty on Turn 10001]
 - **Starter Pokémon:** Blastoise (Lv 38) [Evolved on Turn 9878, Level 38 on Turn 10278!]
   - **Nickname:** SHELLSHOCK
-  - **Moves:** Tackle (0/35 PP), Bite (0/25 PP), BubbleBeam (0/20 PP), Water Gun (0/25 PP)
-  - **PP Recovery Plan:** All moves at 0 PP after clearing Route 25. Will use Struggle if wild encounter occurs while returning West to Cerulean Pokémon Center to heal and restore all PP.
+  - **Moves:** Tackle (35/35 PP), Bite (25/25 PP), BubbleBeam (20/20 PP), Water Gun (25/25 PP)
 
 - **Key Items:** Pokédex (Obtained from Prof. Oak on Turn 265), S.S. Ticket (Obtained from Bill on Turn 10317).
 - **Inventory:** 5 Poké Balls, TM34 (Bide), TM01 (Mega Punch), Ether, HP Up, Rare Candy, Potion, Moon Stone, Dome Fossil, Nugget.
