@@ -357,5 +357,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Hiker Trainer 1:** [Verified Turn 10228/10239] Located at X=8, Y=4 facing Right. Defeated! Team: Machop Lv 15, Geodude Lv 15.
 - **Youngster Trainer 2:** Located at X=14, Y=2 facing Down.
 - **Youngster Trainer 2:** [Verified Turn 10245/10253] Located at X=14, Y=2 facing Down. Defeated! Team: Rattata Lv 15, Spearow Lv 15.
+- **Trainer 3 (Youngster/Jr. Trainer):** [Verified Turn 10255] Located at X=18, Y=5 facing Up. Engaged in battle! Text: "Dad took me to a great party on S.S. ANNE..."
 
 <hr>
