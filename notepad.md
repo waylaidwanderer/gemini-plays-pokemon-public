@@ -29,10 +29,10 @@
 - **Badges:** 2 (Boulder Badge, Cascade Badge) [Cascade Badge obtained from Misty on Turn 10001]
 - **Starter Pokémon:** Blastoise (Lv 37) [Evolved on Turn 9878!]
   - **Nickname:** SHELLSHOCK
-  - **Moves:** Tackle (0/35 PP), Bite (0/25 PP), BubbleBeam (12/20 PP), Water Gun (15/25 PP)
+  - **Moves:** Tackle (0/35 PP), Bite (0/25 PP), BubbleBeam (3/20 PP), Water Gun (15/25 PP)
 
 - **Key Items:** Pokédex (Obtained from Prof. Oak on Turn 265).
-- **Inventory:** 5 Poké Balls, TM34 (Bide), TM01 (Mega Punch), Ether, HP Up, Rare Candy, Potion, Moon Stone, Dome Fossil.
+- **Inventory:** 5 Poké Balls, TM34 (Bide), TM01 (Mega Punch), Ether, HP Up, Rare Candy, Potion, Moon Stone, Dome Fossil, Nugget.
 - **Fossil Item:** Obtained Dome Fossil on Mt. Moon B2F [Turn 6146].
 
 <hr>
