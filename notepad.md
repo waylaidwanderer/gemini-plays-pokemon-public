@@ -186,16 +186,17 @@
 - **Entered Route 9:** Transitioned from the eastern lane of Cerulean City onto Route 9 on Turn 7122.
 - **Defeated JR. TRAINER♀ (Route 9):** Defeated JR. TRAINER♀ on Route 9 on Turn 7197, earning ¥360.
 - **Obtained Item (TM30):** Found and retrieved TM30 (Teleport) at (10, 15) on Route 9 on Turn 7206.
+- **Defeated Hiker (Route 9):** Defeated Hiker at (45, 15) on Route 9 on Turn 7280, earning ¥735.
 
 ## Party Statistics
 - **TESLA (Pikachu):**
-  - **Level:** 14
-  - **HP:** 36 / 36
+  - **Level:** 15
+  - **HP:** 38 / 38
   - **Status:** Healthy
 - **TRUFFLE (Paras):**
   - **Level:** 14
-  - **HP:** 33 / 37
-  - **Status:** Paralyzed
+  - **HP:** 0 / 37
+  - **Status:** Fainted
 - **GUSTY (Pidgey):**
   - **Level:** 5
   - **HP:** 19 / 19
