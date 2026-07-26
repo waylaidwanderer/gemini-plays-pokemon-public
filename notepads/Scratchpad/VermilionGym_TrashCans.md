@@ -20,6 +20,7 @@
 - (3, 7): Empty (Nope)
 - (5, 7): Empty (Nope)
 - (7, 7): Empty (Nope)
+- (9, 7): FIRST SWITCH FOUND! (Turn 6958)
 
 ## Previous Search Sessions
 - Attempt 2 (Reset on Turn 6940):
