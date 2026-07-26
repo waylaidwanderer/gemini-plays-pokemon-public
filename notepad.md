@@ -282,7 +282,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Cerulean Bike Shop:** X=13, Y=25 (Bicycles for 1,000,000 Pokédollars).
 - **Poké Mart:** X=25, Y=25.
 - **Burglarized House:** X=27, Y=11.
-- **Backyard Garden:** Exit back door at (27,8) to reach Grunt at (30,8) for TM28 Dig. Column 36/37 leads directly South to Route 5.
+- **Backyard Garden:** Exit back door at (27,8) to reach Grunt at (30,8) for TM28 Dig.
 - **East Ledge:** Column 32-34 at Row 19 is a one-way south-facing ledge.
 
 <hr>
@@ -338,5 +338,15 @@ Route 3 is structured into 3 horizontal elevation tiers:
 <h1><code>Locations/Cerulean_City.md</code></h1>
 
 - **Route 5 Guardhouse Doorway:** [Verified Turn 11963] Located at X=13, Y=25 in South Cerulean City. Gate pillars at (10,25) and signpost at (11,25). Door at (13,25) leads to Route 5 / Underground Path.
+
+<hr>
+
+<h1><code>Scratchpad/Cerulean_Routing.md</code></h1>
+
+# Active Routing Hypotheses for Cerulean City -> Route 5
+
+- **Hypothesis 1:** Column 36/37 in Backyard Garden (Rows 8-15) leads directly South to Route 5 (Row 30+). Need to re-enter Burglarized House at (27,11), exit back door to (27,9), walk Right to Column 36, and walk South down Column 36 to verify passability tile-by-tile.
+- **Hypothesis 2:** South Cerulean City (Rows 20-28) connects to Upper Cerulean City via Column 10 (or another ascent route).
+- **Hypothesis 3:** Tile (17,29) at South Cerulean Exit (signpost tile) or (16,29) gate tile has a passability or warp interaction.
 
 <hr>
