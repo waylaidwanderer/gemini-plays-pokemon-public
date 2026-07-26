@@ -298,20 +298,21 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 <h1><code>Scratchpad/Mt_Moon_Master_Route</code></h1>
 
-# Mt. Moon 1F Master Exit Route (Verified Turn 9481)
+# Mt. Moon Master Progression Route (Verified Turn 9511)
 
-## Verified Boundaries & Dead Ends
-- **Column 14 South:** Dead-ends at (14,27). Tile (14,28) is an impassable platform wall face.
-- **Column 14 North:** Dead-ends at (14,22). Tile (14,21) is a solid rock wall face.
-- **Columns 12-13:** Platform wall face from Row 20 to Row 28.
-- **Column 30:** Platform wall face from Row 20 to Row 28.
+## Canonical Progression Architecture
+- **Mt. Moon 1F** cannot be traversed purely on 1F to reach Route 4 East.
+- **Main Path:** 1F Entrance -> Ladder at (15,27) -> B1F -> B2F (Fossil Room) -> Exit Ladder at B2F (5,5) -> B1F Exit Corridor -> Exit Ladder -> Route 4 East!
 
-## Active Exit Loop Hypothesis (To Be Step-Verified)
-1. **Row 22 East:** From (14,22), head East across Row 22 to Column 24/25 platform stairs at (24,23)/(25,23).
-2. **Central Platform Stairs:** Descend stairs at (24,23) to Row 24 ground floor at (24,24).
-3. **Eastern Highway:** Navigate East along Row 24 to Column 36 / Eastern Highway.
-4. **South Trench:** Head South along Column 36 to South Trench (Row 32).
-5. **Column 10 Highway:** Head West along South Trench (Row 32) to Column 10 (10,32), then North along Column 10 to Row 18.
-6. **Exit Ladder:** Walk East along Row 18 directly to (21,17) Exit Ladder!
+## Active Execution Steps
+1. **Navigate to 1F Ladder at (15,27):**
+   - From (29,24), walk West along Row 24 to Column 15 at (15,24).
+   - Walk South along Column 15 to (15,27) ladder.
+2. **Descend to B1F (13,27):**
+   - Step onto ladder at (15,27) to warp to B1F.
+3. **Navigate B1F / B2F Caverns to Fossil Room (5,5):**
+   - Proceed to B2F Fossil Room ladder at (5,5).
+4. **Ascend Exit Corridor:**
+   - Take (5,5) ladder to B1F Exit Corridor -> 1F Exit -> Route 4 East!
 
 <hr>
