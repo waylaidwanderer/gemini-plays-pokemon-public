@@ -1,0 +1,10 @@
+# Vermilion Gym - Trash Can Switch Search Log
+
+## Gym Layout & Positions
+- Row 7: (1, 7), (3, 7), (5, 7), (7, 7), (9, 7)
+- Row 9: (1, 9), (3, 9), (5, 9), (7, 9), (9, 9)
+- Row 11: (1, 11), (3, 11), (5, 11), (7, 11), (9, 11)
+
+## Current Search Session
+- Search Order: None
+- Attempts: None

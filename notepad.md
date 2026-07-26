@@ -178,11 +178,13 @@
 - **Entered Vermilion Gym:** Entered Vermilion Gym on Turn 6801.
 - **Whited Out in Gym:** Whited out against Sailor Dwayne in Vermilion Gym on Turn 6837; returned to Vermilion Pokémon Center and fully restored party.
 - **Defeated Sailor Dwayne (Vermilion Gym):** Defeated Sailor Dwayne at (0, 10) in Vermilion Gym on Turn 6863, earning ¥630.
+- **Defeated Rocker Harrison (Vermilion Gym):** Defeated Rocker Harrison at (3, 8) in Vermilion Gym on Turn 6886, earning ¥500.
+- **Defeated Gentleman Tucker (Vermilion Gym):** Defeated Gentleman Tucker at (9, 6) in Vermilion Gym on Turn 6897, earning ¥1610.
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
-  - **Level:** 32
-  - **HP:** 87 / 87
+  - **Level:** 33
+  - **HP:** 79 / 90
   - **Status:** Healthy
 - **TRUFFLE (Paras):**
   - **Level:** 13
@@ -489,45 +491,7 @@
 
 <h1><code>Locations/MtMoon_B1F</code></h1>
 
-# Mt. Moon B1F
-
-## Platform 1 (Middle-Right)
-- **Access:** Ladder from Mt. Moon 1F at (25, 15).
-- **Landing:** Mt. Moon B1F at (25, 15).
-- **Layout:**
-  - Walkable floor columns 24-27, rows 14-27.
-  - Connecting corridor at row 26 going left to columns 10-23 (empirically verified to be open and walkable on Turn 3103).
-- **Ladders:**
-  - (25, 15): Leads back to Mt. Moon 1F. (Note: Ladder is rendered on the north wall and can only be entered from the south by walking Up).
-  - (13, 27): Bidirectional ladder. Located at the bottom-left of the platform, leads down to B2F at (15, 27) (empirically verified on Turn 2807).
-- **Items:** None.
-- **Trainers:** None.
-
-## Connector Corridor (North-West)
-- **Access:** 
-  - Eastern Ladder: at (25, 9) leading up to Mt. Moon 1F at (17, 11).
-  - Western Ladder: at (17, 11) leading down to Mt. Moon B2F at (25, 9).
-- **Layout:** 
-  - Walkable floor is a horizontal corridor across columns 14 to 22 on rows 8 to 11.
-  - Row 10 is completely clear, allowing safe horizontal transit to bypass the western ladder warp at (17, 11).
-- **Ladders:**
-  - (25, 9): Leads up to Mt. Moon 1F.
-  - (17, 11): Leads down to Mt. Moon B2F.
-- **Items:** None.
-- **Trainers:** None.
-
-## Connector Corridor (North-West-2)
-- **Access:**
-  - Northern Ladder: at (5, 5) leading up to Mt. Moon 1F at (5, 5).
-
-- **Layout:**
-  - Vertical segment from (5, 5) down to (5, 16).
-  - Horizontal segment from (5, 16) east to (21, 16), which goes south to (21, 17).
-- **Ladders:**
-  - (5, 5): Leads up to Mt. Moon 1F.
-  - (21, 17): Leads down to Mt. Moon B2F (21, 17). Approach from the north by walking Down from (21, 16) to warp. (Verified active on Turn 3716).
-- **Items:** None.
-- **Trainers:** None.
+# Temporary
 
 <hr>
 
@@ -834,6 +798,7 @@
 - **Trainers:**
   - **Sailor Dwayne:** Located at `(0, 10)` (facing Right). Roster: Pikachu (Lv 21).
   - **Rocker Harrison:** Located at `(3, 8)` (facing Down). Roster: Voltorb (Lv 20).
+  - **Gentleman Tucker:** Located at `(9, 6)` (facing Down). Roster: Pikachu (Lv 23). Defeated on Turn 6897, earning ¥1610.
 
 
 <hr>
@@ -966,5 +931,20 @@
 - **Vertical Right Pier:** Columns 30 and 31 running from row 27 down to row 16, connecting to the Vermilion mainland.
 - **Mainland Transition:** Row 15 columns 26-33 is the paved ground of Vermilion City. The transition back into Vermilion City's main overworld is at `(28, 14)` (near the Poké Mart).
 
+
+<hr>
+
+<h1><code>Scratchpad/VermilionGym_TrashCans</code></h1>
+
+# Vermilion Gym - Trash Can Switch Search Log
+
+## Gym Layout & Positions
+- Row 7: (1, 7), (3, 7), (5, 7), (7, 7), (9, 7)
+- Row 9: (1, 9), (3, 9), (5, 9), (7, 9), (9, 9)
+- Row 11: (1, 11), (3, 11), (5, 11), (7, 11), (9, 11)
+
+## Current Search Session
+- Search Order: None
+- Attempts: None
 
 <hr>

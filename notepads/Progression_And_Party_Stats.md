@@ -64,11 +64,13 @@
 - **Entered Vermilion Gym:** Entered Vermilion Gym on Turn 6801.
 - **Whited Out in Gym:** Whited out against Sailor Dwayne in Vermilion Gym on Turn 6837; returned to Vermilion Pokémon Center and fully restored party.
 - **Defeated Sailor Dwayne (Vermilion Gym):** Defeated Sailor Dwayne at (0, 10) in Vermilion Gym on Turn 6863, earning ¥630.
+- **Defeated Rocker Harrison (Vermilion Gym):** Defeated Rocker Harrison at (3, 8) in Vermilion Gym on Turn 6886, earning ¥500.
+- **Defeated Gentleman Tucker (Vermilion Gym):** Defeated Gentleman Tucker at (9, 6) in Vermilion Gym on Turn 6897, earning ¥1610.
 
 ## Party Statistics
 - **SHELLBY (Wartortle):**
-  - **Level:** 32
-  - **HP:** 87 / 87
+  - **Level:** 33
+  - **HP:** 79 / 90
   - **Status:** Healthy
 - **TRUFFLE (Paras):**
   - **Level:** 13
