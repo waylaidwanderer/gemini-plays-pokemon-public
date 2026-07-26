@@ -1,22 +1,17 @@
-# Mt. Moon Master Route to Route 4 Exit (Turn 9723)
+# Mt. Moon Master Eastern Bypass Highway Route (Turn 9726)
 
-## True Dungeon Topology & Master Highway
-1. **1F Entrance (14,35):** Walk 8 steps North to 1F Entrance Ladder at **(15,27)**.
-2. **1F (15,27) Ladder:** Descend to B1F Entrance Ladder at **B1F (15,27)** in B1F South Section!
-3. **B1F South Section (15,27):**
-   - Walk East along Row 26/27 to Column 25.
-   - Walk North along Column 25 to Row 22 [(25,22)].
-   - Step on ladder at **B1F (25,22)** to descend to B2F Main Cavern!
-4. **B2F Main Cavern (25,22):**
-   - Walk across B2F to Fossil Room Ladder at **B2F (5,5)**.
-5. **B2F (5,5) Ladder:** Ascend to **B1F Exit Corridor (5,5)**.
-6. **B1F Exit Corridor (5,5):** Walk South down Col 5 to Row 16, then East to Route 4 Exit!
+## Verified Complete B1F Overworld Connection (North B1F -> South B1F Exit)
+From B1F North Section (17,11):
+1. **(17,11) -> (17,17):** Walk South 6 steps down Col 17 to (17,17).
+2. **(17,17) -> (7,17):** Walk West 10 steps along Row 17 to (7,17).
+3. **(7,17) -> (7,7):** Walk North 10 steps up Col 7 to Row 7 [(7,7)].
+4. **(7,7) -> (30,7):** Walk East 23 steps along Top Corridor (Row 7) to Col 30 [(30,7)].
+5. **(30,7) -> (30,10):** Walk South 3 steps down Col 30 to Row 10 [(30,10)].
+6. **(30,10) -> (36,10):** Walk East 6 steps along Row 10 Central Bypass to Col 36 [(36,10)].
+7. **(36,10) -> (36,24):** Walk South 14 steps down Eastern Highway (Col 36) to Row 24 [(36,24)].
+8. **(36,24) -> (25,24):** Walk West 11 steps along Row 24 to Col 25 [(25,24)].
+9. **(25,24) -> (25,22):** Walk North 2 steps up stairs to (25,22) Exit Ladder Arrival Spot!
+10. **(25,22) -> B2F Main Cavern:** Descend ladder at (25,22) to B2F -> Fossil Room (5,5) -> B1F Exit Corridor -> Route 4!
 
-## Note on Side Rooms (Avoid!)
-- Ladder pair at B1F (17,11) / B1F (25,9) <-> B2F (17,11) / B2F (25,9) is an isolated side-room loop!
-- Do not take B1F (17,11) or B1F (25,9) when seeking the exit!
-
-## Active Immediate Steps
-1. Return from B2F (25,9) to B1F (17,11).
-2. Go to 1F entrance area -> step on 1F (15,27) ladder to enter B1F South Section (15,27).
-3. Walk East on B1F South Section to B1F (25,22) ladder to B2F Main Cavern.
+## Current Active Step
+- Walk South 6 steps down Col 17 from (17,11) to (17,17).
