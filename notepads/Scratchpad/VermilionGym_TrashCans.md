@@ -15,6 +15,7 @@
 - (7, 11): Empty (Nope)
 - (5, 11): Empty (Nope)
 - (3, 11): Empty (Nope)
+- (1, 11): FIRST SWITCH FOUND! (Turn 7002)
 
 ## Previous Search Sessions
 - Attempt 6 (Reset on Turn 6988):
