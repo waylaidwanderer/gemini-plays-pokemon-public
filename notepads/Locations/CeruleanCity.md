@@ -2,7 +2,7 @@
 
 ## Overworld Layout & Navigation
 - **West Entrance (from Route 4):** Connects to the paved brick road of Cerulean City at x=0, y=19. (Verified at Turn 4062).
-- **Bike Shop:** Large building directly south of (19, 17). Roof spans row 24 on columns 18-28. Front of the building is on row 25.
+- **Bike Shop:** Large building located south of (13, 15). Roof spans row 24 on columns 12-16. Front of the building is on row 25.
 - **Cerulean Gym:** Large building located on the east side, north of the Mart. Sign reads "GYM" at (26, 18) / (27, 18).
 - **Poké Mart:** Building located south of the Gym. Sign reads "MART" at (26, 24) / (27, 24) with entrance at (25, 25).
 - **Route 24 Bridge (Nugget Bridge Path):** Accessible from the north-center area.
