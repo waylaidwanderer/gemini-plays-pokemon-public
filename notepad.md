@@ -305,17 +305,14 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 <h1><code>Scratchpad/Mt_Moon_Master_Route</code></h1>
 
-# Mt. Moon B1F Route to Exit Ladder (21,17) (Turn 9819)
+# Mt. Moon B1F Western Highway Route to Exit (Turn 9821)
 
-## Current Location & Highway Milestone
-- **Position:** (13,13) on Mt. Moon B1F.
-
-## Highway Steps to Exit Ladder (21,17)
-1. **(13,13) -> (21,13):** Walk Right 8 steps along Row 13 to Col 21 [(21,13)].
-2. **(21,13) -> (21,17):** Walk Down 4 steps along Col 21 to (21,17) Exit Ladder!
-3. **(21,17) -> 1F:** Ascend ladder to 1F -> navigate to Route 4 East Exit!
+## Current Location & Discovery
+- **Position:** (13,8) in B1F Enclosed Side Chamber.
+- **Side Chamber Boundary:** Tile (17,8) East is solid rock wall. (13,8) room is an enclosed dead end.
+- **Western Cavern Route:** Descend stairs at (13,9) to Row 10 [(13,10)], then walk West along Row 10 through Cols 12, 11, 10, 9, 8, 7 into the Western Cavern!
 
 ## Active Immediate Step
-- Walk Right 8 steps along Row 13 to (21,13).
+- Down 2 to (13,10), Left 6 along Row 10 to (7,10).
 
 <hr>
