@@ -215,6 +215,7 @@
 - **Defeated Sailor (Cabin 5):** Defeated Sailor at (22, 3) in S.S. Anne Cabin 5 on Turn 6467, earning ¥510.
 - **Obtained Item (Ether):** Found and retrieved Ether in S.S. Anne Cabin 5 at (20, 2) on Turn 6469.
 - **Defeated Sailor (Cabin 6):** Defeated Sailor at (12, 3) in S.S. Anne Cabin 6 on Turn 6497, earning ¥540.
+- **Defeated Fisherman (Cabin 7):** Defeated Fisherman at (0, 4) in S.S. Anne Cabin 7 on Turn 6524, earning ¥595.
 
 <hr>
 
@@ -903,5 +904,14 @@
 - **Items:**
   - **Item Ball at (10, 2):** Pokéball on the floor (still uncollected).
   - **Item Ball at (10, 3):** Checkered floor tile mistaken for an item ball (refuted on Turn 6485).
+
+## Cabin 7 Geometry & Mappings
+- **Interior Layout:** Map 94 coordinates x=0 to x=3, y=1 to y=5 (estimated based on entrance warp).
+- **Warp Exit:** Red carpet door tile is at `(2, 5)` and `(3, 5)`. Walking Down through `(2, 5)` exits back to S.S. Anne 2F at `(7, 4)`.
+- **NPCs & Battle Status:**
+  - **Fisherman at (0, 4):** Defeated on Turn 6524 (earned ¥595).
+  - **Boy at (0, 2):** Facing Right.
+- **Items:**
+  - **Item Ball at (0, 3):** Pokéball on the floor (uncollected).
 
 <hr>
