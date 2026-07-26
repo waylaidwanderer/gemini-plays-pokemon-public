@@ -29,7 +29,7 @@
 - **Badges:** 2 (Boulder Badge, Cascade Badge) [Cascade Badge obtained from Misty on Turn 10001]
 - **Starter Pokémon:** Blastoise (Lv 36) [Evolved on Turn 9878!]
   - **Nickname:** SHELLSHOCK
-  - **Moves:** Tackle (35/35 PP), Bite (25/25 PP), Bubble, Water Gun
+  - **Moves:** Tackle (35/35 PP), Bite (25/25 PP), BubbleBeam (20/20 PP), Water Gun (25/25 PP)
 
 - **Route 1 Geometry:** South-facing ledges at y=27 (gap at x=6..8), y=23 (gap at x=12..15), y=19 (gap at x=4..5), and y=13 (gap at x=15..16) [Verified Turns 189-217].
 - **Key Items:** Pokédex (Obtained from Prof. Oak on Turn 265).
