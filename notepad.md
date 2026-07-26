@@ -209,7 +209,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Row 9 Rock Wall Face (Cols 21-29):** [Verified Turn 9553] Row 9 is a solid blue rock wall face across Columns 21 through 29 on B1F.
 - **(20,10) Wall Boundary:** [Verified Turn 9557] Tile (20,10) is a solid rock wall face on B1F blocking Column 20 Northward access to Row 7.
 
-- **Solid Rock Wall Face at (11,20) & (17,20):** [Verified Turns 9698/9708] Row 20 forms a solid rock wall face across Columns 11 through 20 on B1F.
+- **Solid Rock Wall Face at (11,20) & (17,20):** [Verified Turns 9698/9708/11453] Row 20 forms a solid rock wall face across Columns 10 through 16 on B1F. Cannot walk Down from Row 19 into Row 20 at Cols 10-16.
 - **(7,10) Platform Wall Boundary:** [Verified Turn 9825] Solid vertical platform wall face between Column 8 and Column 7 blocks Westward movement from (8,10) into (7,10). Access to (5,7) platform is via (12,9)/(13,9) elevation stairs to Row 8, then West along Row 8/7!
 - **(3,5) Elevation Stairs for (5,7) Platform:** [Verified Turn 9835] Solid platform wall face blocks Row 4 Southward entry into Row 5 across Cols 4-10. Descent to (5,7) ladder ground floor is via (3,5) elevation stairs!
 - **Exit Corridor Ladder Arrival at (5,5):** [Verified Turn 11300] Tile (5,5) in B1F Main Cavern is the arrival landing tile when coming UP from B2F Fossil Room exit ladder. It is NOT a functional exit ladder inside B1F Main Cavern.
