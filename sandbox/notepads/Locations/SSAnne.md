@@ -69,3 +69,18 @@
   - **Sailor at (0, 2):** Defeated on Turn 6538 (earned ¥600).
 - **Items:**
   - **Item Ball at (0, 3):** Checkered floor tile mistaken for an item ball (refuted on Turn 6528).
+## S.S. Anne 1F Hallway (Map 92) Layout & Geometry
+- **Main Hallway:** Runs horizontally on rows 6 and 7 across columns 2 to 37. Yellow striped floor tiles.
+- **Doors to Cabins:** Located on row 8 at columns:
+  - **Cabin 1 Door:** `(31, 8)`
+  - **Cabin 2 Door:** `(23, 8)`
+  - **Cabin 3 Door:** `(19, 8)`
+  - **Cabin 4 Door:** `(15, 8)`
+  - **Cabin 5 Door:** `(11, 8)`
+  - **Cabin 6 Door:** `(7, 8)`
+- **Walkways & Transitions:**
+  - **Right Walkway (columns 36-37, rows 8-15):** Connects to the staircase at `(37, 15)` leading up to 2F.
+  - **Left Walkway (columns 26-27, rows 0-5):** Connects to the S.S. Anne Entryway (Map 91) at `(27, 0)`.
+- **NPCs:**
+  - **Sailor at (27, 5):** Stands near the left-hand walkway.
+  - **Sailor at (9, 6):** Pacing near Cabin 5/6 area.
