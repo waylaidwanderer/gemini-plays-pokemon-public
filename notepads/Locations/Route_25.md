@@ -7,3 +7,4 @@
 - **Youngster Trainer 2:** [Verified Turn 10245/10253] Located at X=14, Y=2 facing Down. Defeated! Team: Rattata Lv 15, Spearow Lv 15.
 - **Trainer 3 (Youngster/Jr. Trainer):** [Verified Turn 10255/10259] Located at X=18, Y=5 facing Up. Defeated! Team: Slowpoke Lv 17.
 - **Item Ball at (22,2):** [Verified Turn 10261] Item Pokéball sitting on ground at X=22, Y=2.
+- **Lass Trainer 4:** [Verified Turn 10263] Located at X=19, Y=8 facing Right. Engaged in battle! Text: "Hi! My boyfriend is cool!"
