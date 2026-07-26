@@ -32,3 +32,4 @@
 - **(29,21) Platform Wall Boundary:** [Verified Turn 9407] Tile (29,21) is a checkered platform wall face on 1F. South edge from (29,22) is impassable.
 - **(13,24) Platform Wall Boundary:** [Verified Turn 9444] Tile (13,24) is an impassable checkered platform wall face on 1F.
 - **(14,28) Platform Wall Boundary:** [Verified Turn 9474] Tile (14,28) is an impassable checkered platform wall face on 1F. Column 14 dead-ends South at (14,27).
+- **(30,19) Ledge Wall Boundary:** [Verified Turn 9779] Solid platform wall face along Row 18/19 at Column 30 blocks Southward movement from (30,18) into (30,19). True Ground Highway passage South is Column 36 Eastern Highway.
