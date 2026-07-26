@@ -91,3 +91,6 @@
   - **Status:** Healthy
 - **Healed at Vermilion City Pokémon Center:** Fully healed party and cured SHELLBY's poison on Turn 6257.
 - **Boarded the S.S. Anne:** Passed the Sailor ticket checker at (19, 30) and boarded the ship on Turn 6299.
+- **Defeated Gentleman (Cabin 2):** Defeated Gentleman in S.S. Anne Cabin 2 on Turn 6318, earning �1330.
+- **Defeated Gentleman (Cabin 1):** Defeated Gentleman in S.S. Anne Cabin 1 on Turn 6355, earning �1260.
+- **Obtained Item (Max Potion):** Found and retrieved Max Potion in S.S. Anne Cabin 3 at (12, 11) on Turn 6415.

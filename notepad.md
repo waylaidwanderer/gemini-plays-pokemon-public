@@ -205,6 +205,10 @@
   - **Status:** Healthy
 - **Healed at Vermilion City Pokémon Center:** Fully healed party and cured SHELLBY's poison on Turn 6257.
 - **Boarded the S.S. Anne:** Passed the Sailor ticket checker at (19, 30) and boarded the ship on Turn 6299.
+- **Defeated Gentleman (Cabin 2):** Defeated Gentleman in S.S. Anne Cabin 2 on Turn 6318, earning �1330.
+- **Defeated Gentleman (Cabin 1):** Defeated Gentleman in S.S. Anne Cabin 1 on Turn 6355, earning �1260.
+- **Obtained Item (Max Potion):** Found and retrieved Max Potion in S.S. Anne Cabin 3 at (12, 11) on Turn 6415.
+
 
 <hr>
 
@@ -818,6 +822,15 @@
 - **Hedge/Bush Blockages:**
   - Row 18 & 19: Columns 13 and 14 have green hedges/trees that block southward transit to row 20, separating the northern and southern parts of the city.
 
+## S.S. Anne Pier Layout & Map Transitions (Vermilion Dock)
+- **Pier Structure:** Consists of two vertical walkable columns: Column 18 and Column 19, running from row 27 down to row 35.
+- **Statues/Pillars:** Present on columns 14-17 and columns 20-23 on rows 30 and 31.
+- **Boarding Warp Transitions:**
+  - **Column 18 (left side):** Walking south on Column 18 past row 35 warps the player to S.S. Anne Entryway (Map 91) at `(14, 0)` (facing Down).
+  - **Column 19 (right side):** Walking south on Column 19 past row 35 warps the player to S.S. Anne Entryway (Map 91) at `(14, 2)` (facing Down), right next to the S.S. Anne Deck warp!
+- **Sailor Ticket Checker:** Sits at `(19, 30)`. Once ticket is shown, he does not block vertical transit on Column 19 below row 30.
+
+
 <hr>
 
 <h1><code>Locations/SSAnne</code></h1>
@@ -832,11 +845,36 @@
   - Right Deck Door at `(31, 8)`: Warps the player to S.S. Anne Cabin 1 at `(0, 0)` (facing Down).
 
 ## Cabin 2 Mappings
-- **Current Position (Turn 6301):** S.S. Anne Cabin 2 at `(10, 1)`.
 - **Left Deck Door Connection:** Warps to `(10, 0)` / `(10, 1)`. Contains pink/white checkered carpet of Cabin 2.
 - **Wandering NPCs / Barriers:**
   - NPC at (11, 4) facing UP.
   - Desk/Table at (10, 5) and (11, 5).
+
+
+## S.S. Anne Deck Right-Hand Path
+- **Pathway:** Column 36 (rows 6-14) and Column 37 (rows 6-14) form a major vertical walkway on the far right of the S.S. Anne Deck.
+- **Staircase Warp:** Standing at (36, 15) and walking Right to (37, 15) warps the player to S.S. Anne 2F at `(27, 5)` (facing Down).
+
+## S.S. Anne 2F Layout & Cabins
+- **Entrance Warp:** Warping from Deck (37, 15) places the player at S.S. Anne 2F `(27, 5)` (facing Down).
+- **Staircase location:** S.S. Anne 2F `(27, 4)` is the staircase leading back to S.S. Anne Deck.
+- **Hallway:** Runs horizontally on rows 4 and 5 from column 27 to at least column 19.
+- **Cabin doors:**
+  - **Cabin 3 Door:** Located at `(23, 3)`. Entering warps to Cabin 3 Interior at `(12, 15)`.
+  - **Cabin 4 Door:** Located at `(19, 3)`. Entering warps to Cabin 4 Interior at `(2, 15)`.
+
+## Cabin 3 Geometry & Mappings
+- **Interior Layout:** Map 94 coordinates x=10 to x=13, y=11 to y=15.
+- **Warp Exit:** Red carpet door tile is at `(12, 15)`. Walking Down through `(12, 15)` exits back to S.S. Anne 2F at `(23, 4)`.
+- **NPCs:**
+  - Boy at `(10, 13)` who mentions MACHOKE's STRENGTH.
+  - MACHOKE at `(11, 12)` (cries: "Gwoh! Goggoh!").
+- **Items:**
+  - **Max Potion:** Located on the floor/carpet at `(12, 11)`. Retrieved on Turn 6415.
+
+## Cabin 4 Geometry & Mappings
+- **Interior Layout:** Map 94 coordinates x=0 to x=3, y=11 to y=15.
+- **Warp Exit:** Red carpet door tile is at `(2, 15)`. Walking Down through `(2, 15)` exits back to S.S. Anne 2F at `(19, 4)`.
 
 
 <hr>
