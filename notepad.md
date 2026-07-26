@@ -304,17 +304,19 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 <h1><code>Scratchpad/Mt_Moon_Master_Route</code></h1>
 
-# Mt. Moon 1F Eastern Highway Route to Route 4 Exit (Turn 9788)
+# Mt. Moon 1F Column 34 South Trench Bypass Route to Route 4 Exit (Turn 9790)
 
-## Current Location & Major Milestone
-- **Position:** (36,14) on Mt. Moon 1F Eastern Highway!
+## Current Location & Discovery
+- **Position:** (36,24) on 1F Eastern Highway!
+- **Column 34 Corridor Discovered:** Tile (36,25) is rock wall face, but Column 34 is wide open purple floor extending South across Rows 24-32 into Row 32 South Trench!
 
-## Final Highway Steps to Route 4
-1. **(36,14) -> (36,32):** Walk South 18 steps down Col 36 Eastern Highway to Row 32 South Trench [(36,32)].
-2. **(36,32) -> (14,32):** Walk West 22 steps along Row 32 South Trench to Col 14 [(14,32)].
-3. **(14,32) -> (14,36):** Walk South 4 steps down Col 14 to Route 4 Exit Doorway -> WARP TO ROUTE 4 EAST!
+## Final Master Highway Steps to Route 4
+1. **(36,24) -> (34,24):** Walk Left 2 steps along Row 24 to Col 34 [(34,24)].
+2. **(34,24) -> (34,32):** Walk South 8 steps down Col 34 to Row 32 South Trench [(34,32)].
+3. **(34,32) -> (14,32):** Walk West 20 steps along Row 32 South Trench to Col 14 [(14,32)].
+4. **(14,32) -> (14,36):** Walk South 4 steps down Col 14 to Route 4 Exit Doorway -> WARP TO ROUTE 4 EAST!
 
 ## Active Immediate Step
-- Walk Down 10 steps down Col 36 Eastern Highway to (36,24).
+- Left 2 to (34,24), Down 4 to (34,28).
 
 <hr>
