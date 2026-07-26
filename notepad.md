@@ -86,6 +86,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Row 11 Ledge:** [Verified Turn 791] Row 11 has a south-facing ledge at Columns 6-11. Columns 12-13 provide an open, two-way gap at Row 11 connecting to North Route 4!
 - **Mt. Moon Entrance at (18,5):** [Verified Turn 798] Cave entrance doorway located at X=18, Y=5 on Route 4!
 - **Mt. Moon East Exit at (24,5):** [Verified Turn 9840] Cave exit door located at X=24, Y=5 on Route 4 East! Exit spawns player at (24,6). Signpost at (27,7).
+- **South Ledge Boundaries:** [Verified Turn 9871] Ledge hops at (79,9), (79,13), and (73,9) are one-way south-facing ledges. Water boundary at (79,16). Two-way ramp UP to Row 7/8 upper highway is at Column 61 (61,10 -> 61,7).
 
 <hr>
 
@@ -303,21 +304,5 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **(26,11) Wall Collision:** [Verified Turn 9185] Solid rock wall face at (26,11) blocks Eastward movement along Row 11 from (25,11).
 - **(26,10) Wall Collision:** [Verified Turn 9188] Solid rock wall face at (26,10) blocks Eastward movement along Row 10 from (25,10).
 - **(25,9) Warp Trigger Behavior:** [Verified Turn 9191] Stepping onto tile (25,9) from below at (25,10) immediately triggers the teleport warp to (17,11). Tile (25,9) cannot be walked through from Row 10 to Row 8; access to Row 8 (25,8) is via Row 8 West Highway (17,8 -> 25,8).
-
-<hr>
-
-<h1><code>Scratchpad/Mt_Moon_Master_Route</code></h1>
-
-# Mt. Moon B1F Final 6 Steps to Exit Ladder (5,7) (Turn 9830)
-
-## Current Position & Milestone
-- **Position:** (8,4) on Mt. Moon B1F Row 4 Bypass!
-
-## Final 6 Steps onto Exit Ladder (5,7)
-1. **(8,4) -> (5,4):** Walk Left 3 steps along Row 4 to Col 5 [(5,4)].
-2. **(5,4) -> (5,7):** Walk Down 3 steps along Col 5 onto (5,7) Exit Ladder -> WARP TO EXIT CORRIDOR!
-
-## Active Step
-- Left 3, Down 3 onto (5,7) Exit Ladder!
 
 <hr>
