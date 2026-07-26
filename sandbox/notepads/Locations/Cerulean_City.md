@@ -1,1 +1,2 @@
 - **Route 5 Guardhouse Doorway:** [Verified Turn 11963] Located at X=13, Y=25 in South Cerulean City. Gate pillars at (10,25) and signpost at (11,25). Door at (13,25) leads to Route 5 / Underground Path.
+- **North Bypass via Column 10 (Row 15-18):** [Verified Turn 12024] Column 10/11 has no ledges at Row 15-17. Walk Up Column 10 to Row 15 (10,15), Right along Row 15 to Column 36 (36,15), and Down Column 36 to exit onto Route 5.
