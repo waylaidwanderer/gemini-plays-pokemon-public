@@ -73,27 +73,29 @@
 - **Defeated JR. TRAINER♀ (Route 9):** Defeated JR. TRAINER♀ on Route 9 on Turn 7197, earning ¥360.
 - **Obtained Item (TM30):** Found and retrieved TM30 (Teleport) at (10, 15) on Route 9 on Turn 7206.
 - **Defeated Hiker (Route 9):** Defeated Hiker at (45, 15) on Route 9 on Turn 7280, earning ¥735.
+- **Defeated Bug Catcher Conner:** Defeated Bug Catcher Conner at (40, 8) on Turn 7431, earning ¥320.
+- **Defeated JR. TRAINER♂ (Route 9):** Defeated JR. TRAINER♂ at (24, 7) on Turn 7479, earning ¥420.
 
 ## Party Statistics
 - **TESLA (Pikachu):**
   - **Level:** 15
-  - **HP:** 38 / 38
-  - **Status:** Healthy
+  - **HP:** 0 / 38
+  - **Status:** Fainted
 - **TRUFFLE (Paras):**
   - **Level:** 14
   - **HP:** 0 / 37
   - **Status:** Fainted
 - **GUSTY (Pidgey):**
   - **Level:** 5
-  - **HP:** 19 / 19
-  - **Status:** Healthy
+  - **HP:** 0 / 19
+  - **Status:** Fainted
 - **NIBBLES (Rattata):**
   - **Level:** 7
   - **HP:** 22 / 22
   - **Status:** Healthy
 - **SHELLBY (Wartortle):**
-  - **Level:** 33
-  - **HP:** 2 / 90
+  - **Level:** 34
+  - **HP:** 4 / 92
   - **Status:** Healthy (Very Low HP)
 
 - **Defeated Gym Leader Lt. Surge:** Defeated Vermilion Gym Leader Lt. Surge on Turn 7027, obtaining the THUNDERBADGE and TM24 (Thunderbolt).
