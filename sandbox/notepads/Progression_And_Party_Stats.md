@@ -55,6 +55,8 @@
 - **Defeated Picnicker Diana (Cerulean Gym):** Defeated Picnicker Diana at (5, 3) inside Cerulean Gym on Turn 5233, earning ¥380.
 - **Defeated Gym Leader Misty:** Defeated Cerulean Gym Leader Misty on Turn 5262, obtaining the CASCADEBADGE and TM11 (Bubblebeam).
 
+- **Defeated Bug Catcher (Route 6):** Defeated Bug Catcher on Turn 6172, earning ¥200.
+
 ## Party Statistics
 - **SHELLBY (Wartortle):**
   - **Level:** 28
