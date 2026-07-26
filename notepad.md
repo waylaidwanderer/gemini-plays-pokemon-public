@@ -123,6 +123,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **(25,20) Wall Boundary:** [Verified Turn 9387] Solid rock wall face at (25,20) blocks Northward movement along Column 25 from (25,21) on 1F. Bypass West to (21,17) ladder is via Row 21.
 - **(29,21) Platform Wall Boundary:** [Verified Turn 9407] Tile (29,21) is a checkered platform wall face on 1F. South edge from (29,22) is impassable.
 - **(13,24) Platform Wall Boundary:** [Verified Turn 9444] Tile (13,24) is an impassable checkered platform wall face on 1F.
+- **(14,28) Platform Wall Boundary:** [Verified Turn 9474] Tile (14,28) is an impassable checkered platform wall face on 1F. Column 14 dead-ends South at (14,27).
 
 <hr>
 
