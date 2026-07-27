@@ -270,6 +270,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **South Gate Pillars at (14-17,33):** [Verified Turn 13977] Brown gate posts/pillars at Row 33 across Columns 14-17 block South movement from South Cerulean into Route 5.
 - **Cerulean Gym Location:** [Verified Turn 13378-13381] Gym building occupies Cols 16-19, Rows 24-27. Front entrance door at (17,27).
 - **East Cerulean Gateway at (36,28)-(37,29):** [Verified Turn 13395] Columns 36 and 37 form a wide open 2-tile pavement corridor through the tree line connecting Route 5 (Row 30) directly to East Cerulean City (Row 26+) and Route 9!
+- **South-Facing Ledge at (36,19):** [Verified Turn 13999] One-way south-facing ledge at (36,19) allows jumping DOWN from Row 18 to Row 20, but blocks direct UP movement from Row 20 to Row 18.
 
 <hr>
 
