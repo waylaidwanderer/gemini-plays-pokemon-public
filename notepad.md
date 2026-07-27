@@ -1049,3 +1049,17 @@
   3. From the upper level of Route 10, walk SOUTH directly to the Pokémon Center on Row 17 (y=68).
 
 <hr>
+
+<h1><code>Locations/MtMoon_B1F</code></h1>
+
+# Dummy
+
+
+<hr>
+
+<h1><code>Locations/MtMoon_B2F</code></h1>
+
+# Dummy
+
+
+<hr>
