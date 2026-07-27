@@ -178,12 +178,9 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Column 23 Wall Face (Rows 6-11):** [Verified Turn 8713] Column 23 is a solid vertical rock wall face separating Eastern Cavern (Cols 24-30) from Western Cavern (Cols 10-22). The (25,9) <-> (17,11) reciprocal warp connects across this wall.
 - **Upper Platform Enclosure (Cols 14-22, Rows 8-11):** [Verified Turn 8715] Columns 14-22 across Rows 8-11 are enclosed by Col 12-13 wall face on West and Col 23 wall face on East. Only exit is ladder (17,11) <-> (25,9).
 
-- **(13,10) Wall Collision:** [Verified Turn 8789] Solid rock wall face at (13,10) blocks Westward movement along Row 10 from (14,10). Columns 10-13 are solid rock wall across Rows 6-14.
 
-- **(29,26)-(29,30) Wall Collision:** [Verified Turn 8860] Solid rock wall face at Column 29 across Rows 26-30 blocks Westward movement along Row 26-30. True West bypass is Row 25 (30,25 -> 25,25).
 
 - **Solid Rock Wall Face at (18..19,11):** [Verified Turns 8923-8925] Solid rock wall face blocks Westward passage along Row 11 at Columns 18-19. Row 11 from (20,11) does NOT connect directly West to (17,11); bypass via Column 30 -> Row 6/7 top corridor.
-- **Solid Rock Wall Face at (22..23, 21..25):** [Verified Turn 11496] Solid blue rock wall face blocks Westward passage along Rows 21-25 at Columns 22-23. True West passage to exit ladder (15,27) is via Row 28 South Trench (24,28 -> 15,28 -> 15,27)!
 
 - **(12..13, 2..6) Wall Boundary:** [Verified Turn 9144] Solid blue rock wall face across Columns 12-13 at Rows 2 through 6 blocks Westward movement along Row 2 Top Corridor. Row 2 does NOT connect West past Column 13 on B1F.
 - **(7,18) Wall Face:** [Verified Turn 11445] Tile (7,18) is a solid blue rock wall face blocking South from (7,17). Open vertical corridor South through Rows 18-21 is via Columns 10-11 (10,17 -> 10,21)!
