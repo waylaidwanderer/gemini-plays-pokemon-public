@@ -461,5 +461,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Lower Trench East Field Boundary:** [Verified Turn 14518] Column 54 is a solid vertical rock wall. Tiles (52,13) and (53,13) are south-facing ledges dropping DOWN from Row 12 to Row 14.
 - **Level 1 Northern Grass Highway Ascension Gap at (39,5):** [Verified Turn 14711] Stepping UP from Row 6 pavement at (39,6) through (39,5) gap accesses Level 1 Northern Grass Highway at (39,4)! Grants full access to Eastern Route 9 (Cols 38-59) and Rock Tunnel!
 - **Hiker at (43,3):** [Defeated Turn 14723] Standing at (43,3) on Level 1 Northern Grass Highway.
+- **Ledge Jump at (50,5):** [Verified Turn 14728] Stepping DOWN from (50,5) on Level 1 highway jumps DOWN over south-facing ledge onto Row 6 pavement at (50,6)!
+- **Overpass Corridor at (51-55,8-9):** [Verified Turn 14728] Row 8 and 9 pavement platform extends East past Column 55!
 
 <hr>
