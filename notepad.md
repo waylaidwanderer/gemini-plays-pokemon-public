@@ -393,7 +393,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Stairs Up to 2F at (2,6):** [Verified Turn 12926] Stairs at (2,6) on 1F lead up to S.S. Anne 2F at (2,4).
 - **2F Stairs Landing at (19,3):** [Verified Turn 12970] Taking stairs down from 2F lands on 1F at (19,3) facing Left.
 - **Upper Cabin Corridor Isolation:** [Verified Turn 12978] 1F Upper Corridor (rows 2-3, cols 0-19) is an isolated side hallway. Only exit is stairs at (19,3) back to 2F (2,12).
-- **True 1F Exit Route:** On 2F, use stairs at (2,4) to reach 1F (2,6) (Main 1F Hallway), then walk East along row 6 to (27,6) and Up to (27,0) pier exit door.
 
 <hr>
 
