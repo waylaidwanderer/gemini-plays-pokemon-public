@@ -6,7 +6,7 @@
 - **Top Connection:** Connects West to Route 9 at the top-west (Block Rows 0 to 8).
 
 ## Verified Landmarks
-- **Pokémon Center:** Located at tile coordinates x=58-61, y=68-71 (converted to the verified 4x4 overworld standard where 1 block = 4x4 tiles, so Block Row 17 is y=68-71 and Block Columns 2-3 are x=58-65). 
+- **Pokémon Center:** Located at tile coordinates x=58-61, y=68-71. 
   - Block 0x0d is the roof/building.
   - Block 0x7f is the door/window.
 - **Rock Tunnel South Exit / Lavender Town Connection:** Located at the bottom of Route 10.
