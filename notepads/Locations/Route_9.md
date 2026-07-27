@@ -2,7 +2,7 @@
 
 ## ROUTE 9 NAVIGATION:
 - Rock Tunnel entrance is located at the far East end of Route 9 (Column 59).
-- Column 54 on Rows 10-18 is a solid dead-end mountain rock wall. To reach Rock Tunnel, must access Level 1 Northern Grass Highway (Rows 2-3) from West Entrance (0,8)/(5,8) Cut tree.
+- Column 54 on Rows 10-18 is a solid dead-end mountain rock wall. Level 1 Northern Grass Highway (Rows 2-4) can be accessed via West Entrance (0,8)/(5,8) Cut tree or Ascension Gap at (25,5).
 
 - **West Entrance from Cerulean City:** [Verified Turn 13399] Enters Route 9 at X=0, Y=8.
 - **Cut Tree at (5,8):** [Verified Turn 13405] Interactive Cut tree at X=5, Y=8 chopped down using HM01 Cut.
