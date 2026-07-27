@@ -447,5 +447,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - Signpost at (25,7): [Verified Turn 13838] ROUTE 9 / CERULEAN CITY - ROCK TUNNEL.
 - Jr. Trainer M at (24,7): [Defeated Turn 14058] Defeated! Team: Growlithe Lv 21, Charmander Lv 21. Awarded ¥420.
 - **Row 5 South Ledge (Cols 20-25):** [Verified Turn 14061] South-facing one-way ledge at Row 5 across Cols 20-25 prevents walking UP from Row 6 pavement (23,6) to Row 5/3 grass.
+- **South-Facing Ledge at (23,13):** [Verified Turn 14063] One-way jump DOWN from Row 12 (23,12) into Lower Trench West Field (23,14).
+- **South-Facing Ledge at (34,11):** [Verified Turn 14069/14071] One-way jump DOWN from Row 11 (34,11) to Row 12 (34,12). Prevents walking UP from (34,12) to Row 11/6.
 
 <hr>
