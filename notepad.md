@@ -190,7 +190,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 
 - **Solid Rock Wall Face at (11,20) & (17,20):** [Verified Turns 9698/9708/11453] Row 20 forms a solid rock wall face across Columns 10 through 16 on B1F. Cannot walk Down from Row 19 into Row 20 at Cols 10-16.
-- **(7,10) Platform Wall Boundary:** [Verified Turn 9825] Solid vertical platform wall face between Column 8 and Column 7 blocks Westward movement from (8,10) into (7,10). Access to (5,7) platform is via (12,9)/(13,9) elevation stairs to Row 8, then West along Row 8/7!
+
 - **(3,5) Elevation Stairs for (5,7) Platform:** [Verified Turn 9835] Solid platform wall face blocks Row 4 Southward entry into Row 5 across Cols 4-10. Descent to (5,7) ladder ground floor is via (3,5) elevation stairs!
 
 
