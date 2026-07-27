@@ -329,7 +329,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Central Ledge / Fence Barrier:** Row 32 across Columns 10-19 and Columns 5-7 is a solid grey fence/ledge barrier.
 - **West Highway Gap to Vermilion City:** Columns 8 and 9 at Row 32 (tiles (8,32) and (9,32)) are open light gray pavement forming the main entrance highway into Vermilion City!
 
-- **Underground Path Route 6 Exit:** [Verified Turn 12555] Building at X=17, Y=14 on Route 6.
 - **Bug Catcher Trainer:** [Verified Turn 12558] Located at X=18, Y=26. Defeated!
 - **Jr. Trainer M Trainer:** [Verified Turn 12578] Located at X=10, Y=31 / X=9, Y=31. Defeated! Team: Spearow Lv 16, Ranticate Lv 16.
 - **Vermilion City South Exit Gap:** [Verified Turn 12580] Columns 8 and 9 form a light gray pavement corridor leading South through Row 32 statues into Vermilion City (Row 36).
@@ -424,9 +423,13 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Route 9 Ledge Topology:** Ledge #1 at Row 11 (Cols 10-13) and Ledge #2 at Row 13 (Cols 10-23) are one-way south-facing ledges enclosing the lower trench (Rows 14-15).
 - **Column 19 Ledge Gap at Row 13 (19,13):** [Verified Turn 13456] Column 19 at Row 13 is an open grass gap (no ledge) connecting the Lower Trench (Row 14) back UP to the Upper Pathway (Row 12/13)! Allows two-way passage between lower trench and upper highway.
 - **Column 29 Ledge Gap at Row 13 (29,13):** [Verified Turn 13490] Column 29 at Row 13 is a two-way grass gap connecting lower grass field (Row 14) directly UP to upper highway (Row 12)!
-- **Hiker Trainer at (45,15):** [Engaged Turn 13528] Located at X=45, Y=15 facing LEFT. Team: Geodude Lv 21, Onix Lv 21.
-- **Column 41 Ledge Gap at Row 11 (41,11):** [Verified Turn 13555] Column 41 at Row 11 is an open grass gap connecting Row 12 directly UP to Row 10 grass (41,10) and Row 7-9 Light Gray Pavement Upper Highway (41,7..41,9), unlocking direct access to Route 10!
-- **Bug Catcher Trainer at (40,8):** [Engaged Turn 13556] Located at X=40, Y=8 facing RIGHT. Dialogue: "Go, my super bug POKÉMON!"
+- **Hiker Trainer at (45,15):** [Defeated Turn 13528] Team: Geodude Lv 21, Onix Lv 21.
+- **Bug Catcher Trainer at (40,8):** [Defeated Turn 13556] Team: Caterpie, Weedle, etc.
+- **Elevation & Ledge Topology:**
+  - Row 3 Northern Grass Highway (Cols 0-59): Continuous top-level highway leading directly to Route 10 (Col 59).
+  - Row 5 South Ledge (Cols 30-45): One-way drop-off from Row 3/4 grass down to Row 6/7 pavement platform (Cols 30-45).
+  - Row 13 South Ledge (Cols 30-53): One-way drop-off separating middle levels from Row 14 lower trench.
+  - Column 19 Gap (19,13) & Column 29 Gap (29,13): Two-way grass gaps allowing ascent from Row 14 lower trench UP to Row 12 grass highway.
 - Jr. Trainer M at (33,7): [Defeated Turn 13609] Defeated! Team: Rattata Lv 19, Diglett Lv 19. Awarded ¥380.
 - Column 34 Vertical Corridor (34,6..12): [Verified Turn 13598] Open vertical pavement/grass corridor connecting Row 6 pavement (34,6) DOWN to Row 12 highway (34,12).
 - Row 11 Upper Highway (Cols 20-27): [Verified Turn 13629] Continuous open pavement highway running above the rock wall (Cols 24-27) connecting Row 12/13 (23,11) directly to Column 28 grass (28,11).
