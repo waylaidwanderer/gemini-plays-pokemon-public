@@ -1008,6 +1008,10 @@
 - **Row 13 Ledge & Gap (Columns 20-53):** Blocks going UP from Row 14 (lower pavement) to Row 12 (grass). This ledge has an **empirically verified open gap at Columns 29 and 30** (discovered on Turn 7376, verified on Turn 7451), allowing players to walk UP from (29, 14) to (29, 12).
 - **Row 9 Ledge & Gap (Columns 20-25):** Blocks going UP from Row 10 to Row 8. This ledge has an **empirically verified open gap at Column 29** (discovered on Turn 7399), allowing players to walk UP from (29, 10) to (29, 8/9).
 - **Lower Pavement Lane (Row 14/15, Columns 10-53):** Bounded by Row 13 ledge on top. Blocked on the west (Column 9) by a mountain wall. Contains Hiker Alan at (45, 15) and Hiker at (16, 15) facing right. Escape Gap is at (19, 14), walking UP through (19, 13) to (19, 12) into the grass lane.
+## Empirical Navigation Realities
+- **Column 42 Blockage on Row 12:** Empirically verified multiple times (Turns 7741, 7829) that Row 12 is completely blocked at Column 42 by a solid diagonal rock cliff face.
+- **Passable Row 9 Bypass:** Empirically verified using ROM block layout analysis that Row 9 is completely passable from Column 39 to Column 48, providing a perfect corridor to bypass the Column 42 rock wall.
+- **Bypass Routing:** From (41, 12), walk UP to (41, 9), walk EAST along Row 9 to Column 49 (which is completely unblocked), and then walk DOWN to Row 12 on the east side of the blockage to reach Route 10 on the Upper Level!
 
 <hr>
 
