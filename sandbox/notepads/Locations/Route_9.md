@@ -19,3 +19,4 @@
 - Column 34 Vertical Corridor (34,6..12): [Verified Turn 13598] Open vertical pavement/grass corridor connecting Row 6 pavement (34,6) DOWN to Row 12 highway (34,12).
 - Row 11 Upper Highway (Cols 20-27): [Verified Turn 13629] Continuous open pavement highway running above the rock wall (Cols 24-27) connecting Row 12/13 (23,11) directly to Column 28 grass (28,11).
 - Column 28 North-South Grass Highway (28,2..15): [Verified Turn 13629] Unbroken vertical green grass corridor connecting lower levels to Northern Grass Highway (Rows 2-4).
+- Column 53 Ledge: [Verified Turn 13664] Tile (53,13) is a south-facing ledge, not a two-way gap.
