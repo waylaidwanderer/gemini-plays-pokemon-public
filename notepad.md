@@ -951,13 +951,6 @@
 
 <hr>
 
-<h1><code>notepads/Locations/MtMoon_B2F</code></h1>
-
-# Temporary empty file for de-registration
-
-
-<hr>
-
 <h1><code>Locations/Route9</code></h1>
 
 # Route 9 - Spatial Coordinates, Landmarks & Trainer Log
