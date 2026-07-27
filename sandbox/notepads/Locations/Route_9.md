@@ -23,3 +23,4 @@
 - **Mountain Wall at (29,7):** [Verified Turn 14126] Solid rock wall at (29,7) blocks walking UP from (29,8). To reach Row 2 Northern Highway, must approach from West Entrance (0,8).
 - **Lower Trench East Field Dead-End at (54,14-15):** [Verified Turn 14133] Solid rock wall at (54,14-15) blocks East end of Lower Trench. To reach Rock Tunnel, must return West to (0,8) West Entrance and walk Row 2 Northern Grass Highway East.
 - **Wall at (19,8):** [Verified Turn 14152] Column 19 on Row 8 is a solid mountain cliff wall blocking Westward movement on Row 8 from (20,8).
+- **Overpass Dead-End at (45,7):** [Verified Turn 14169] Row 6/7 overpass ends at (45,7) in a dead-end cliff wall. Must navigate West to (0,8) West Entrance to access Row 2 Northern Grass Highway.
