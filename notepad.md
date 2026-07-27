@@ -458,5 +458,11 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Ledge at (34,11):** [Verified Turn 14442] Tile (34,11) is a south-facing ledge blocking upward access from Row 12 to Row 10 at Column 34.
 - **Mountain Wall at (5,2..7):** [Verified Turn 14455] Column 5 on Rows 2-7 is a solid rock wall blocking Westward movement beyond Column 6 on Level 1.
 - **Ledge Jump at (6,7):** [Verified Turn 14455] Stepping DOWN from (6,6) over (6,7) south-facing ledge drops directly onto Row 8 pavement at (6,8)!
+- **Complete Verified Route to Rock Tunnel:** [Verified Turn 14463]
+  1. West Entrance (0,8) -> Cut tree (5,8) -> Row 8 pavement at (6,8).
+  2. Walk East to (12,8) -> South to (12,10) -> Jump South over ledge at (12,11) to (12,12) on Row 12 Highway.
+  3. Walk East along Row 12 Highway to (34,12).
+  4. Walk North up Column 34 Ascension Corridor: (34,12) -> (34,10) -> (34,8) -> (34,6) -> (34,2).
+  5. Walk East along Level 1 Northern Grass Highway from (34,2) directly to Column 59 (Rock Tunnel Entrance).
 
 <hr>
