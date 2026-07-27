@@ -406,6 +406,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Sailor Trainer at (1,10):** [Defeated Turn 13165] Defeated in battle.
 - **Rocker Trainer at (3,8):** [Defeated Turn 13193] Defeated in battle.
 - **Gentleman Trainer at (7,6):** [Defeated Turn 13229] Defeated in battle.
-- **Checked Empty Cans:** (1,9) [empty t13259], (3,9) [empty t13262], (1,7) [empty t13254], (3,7) [empty t13256], (1,11) [t13199], (3,11) [t13205], (5,11) [t13208], (5,9) [t13210], (5,7) [empty t13220], (7,7) [empty t13236], (7,9) [empty t13239], (7,11) [empty t13242], (9,11) [empty t13245], (9,9) [empty t13248], (9,7) [empty t13250].
+- **Checked Empty Cans:** (1,9) [empty t13259], (3,9) [empty t13262], (1,7) [empty t13254], (3,7) [empty t13256], (1,11) [empty t13273], (3,11) [t13205], (5,11) [t13208], (5,9) [t13210], (5,7) [empty t13220], (7,7) [empty t13236], (7,9) [empty t13239], (7,11) [empty t13242], (9,11) [empty t13245], (9,9) [empty t13248], (9,7) [empty t13250].
 
 <hr>
