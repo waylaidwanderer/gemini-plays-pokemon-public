@@ -4,3 +4,4 @@
 - **Hypothesis 2:** South Cerulean City (Rows 20-28) connects to Upper Cerulean City via Column 10 (or Column 32 ascent route).
 - **Disproved:** Tile (17,29) signpost and (16,29) gate pillar are solid impassable obstacles [Empirically verified Turn 12062 & 12067].
 - **Verified Turn 12071:** Signpost at (11,25) is BIKE SHOP signpost. Door at (13,25) is Bike Shop entrance. Heading to Burglarized House at (27,11) to check Backyard Garden south route.
+- **Verified Turn 12102:** Tile (16,29) is a solid gate pillar. Row 29 gateway at (16,29)/(17,29) is impassable from the North. Exploring West along Row 27 (Columns 12..0) to locate the West pass-through down to Row 30 and the building door at (13,32).
