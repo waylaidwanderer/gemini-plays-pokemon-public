@@ -402,10 +402,10 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Gym Guide:** [Verified Turn 13143] Located at X=4, Y=14 facing Down. Accessible from (4,15) facing Up.
 - **Gym Statues:** Located at (3,14) and (6,14).
 - **Trash Can Switches Mechanics:** 1st switch is randomly located in one of the 15 trash cans. 2nd switch is ALWAYS located in one of the 4 cardinal/diagonal adjacent trash cans (North, South, East, West)! If 2nd switch check fails, lock resets and 1st switch moves to a new random trash can.
-- **1st Switch Found:** [Verified Turn 13286] Located at Trash Can X=5, Y=7. 1st lock opened! Candidate 2nd switch cans: (3,7) [West], (5,9) [South], (7,7) [East], (5,11) [Wrap South].
+- **PUZZLE SOLVED:** [Turn 13288] 1st Switch at (5,7), 2nd Switch at (3,7). Both electric locks opened! Motorized door opened!
 - **Sailor Trainer at (1,10):** [Defeated Turn 13165] Defeated in battle.
 - **Rocker Trainer at (3,8):** [Defeated Turn 13193] Defeated in battle.
 - **Gentleman Trainer at (7,6):** [Defeated Turn 13229] Defeated in battle.
-- **Post-Reset #2 Checked Empty Cans:** (1,11) [t13273], (3,11) [t13276], (5,11) [t13278], (5,9) [t13280], (3,9) [t13284].
+- **Lt. Surge Location:** Standing at (4,2) / (5,2) in back chamber. Accessible via Column 4 (4,3).
 
 <hr>
