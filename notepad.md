@@ -361,3 +361,12 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Vermilion City South Exit Gap:** [Verified Turn 12580] Columns 8 and 9 form a light gray pavement corridor leading South through Row 32 statues into Vermilion City (Row 36).
 
 <hr>
+
+<h1><code>Locations/Vermilion_City</code></h1>
+
+# Vermilion City Map & Points of Interest
+
+- **North Entrance from Route 6:** [Verified Turn 12581] Located at X=19, Y=0.
+- **Pokémon Center Doorway:** [Verified Turn 12583] Located at X=11, Y=3 on overworld. Spawn mat at (3,7) inside.
+
+<hr>
