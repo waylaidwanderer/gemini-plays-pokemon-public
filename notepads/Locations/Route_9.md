@@ -34,4 +34,4 @@
 - **Middle Overpass Row 6/7 (Cols 20-25):** [Verified Turn 14324] Enclosed platform bounded by Column 19 rock wall on West, Column 26 rock wall on East, Row 5 south-facing ledges on North, and Row 8 pavement on South.
 - **Row 5 South-Facing Ledges (Cols 20-24):** [Verified Turns 14393-14397] Tiles (20,5) through (24,5) are south-facing ledges blocking upward access from Row 6. Tile (25,5) is an open ascension gap.
 - **Ascension Gap at (25,5):** [Verified Turn 14398] Tile (25,5) is an open ascension gap allowing walking UP from Row 6 Overpass (25,6) directly onto Row 5/4/3/2 Level 1 Northern Grass Highway at (25,5)!
-  - Bug Catcher at (22,2): [Engaged Turn 14411]
+  - Bug Catcher at (22,2): [Defeated Turn 14423]
