@@ -463,5 +463,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
   3. Walk East along Row 10 Pavement Highway from Column 10 straight across Columns 20-33 to (34,10).
   4. Walk North UP Column 34 Ascension Corridor: (34,10) -> (34,8) -> (34,6) -> (34,2).
   5. Walk East along Level 1 Northern Grass Highway from (34,2) directly to Column 59 (Rock Tunnel Entrance).
+- **Lower Trench East Field Boundary:** [Verified Turn 14518] Column 54 is a solid vertical rock wall. Tiles (52,13) and (53,13) are south-facing ledges dropping DOWN from Row 12 to Row 14.
 
 <hr>
