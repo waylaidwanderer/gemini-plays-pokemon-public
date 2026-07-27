@@ -43,3 +43,9 @@
 - **Row 19 Ledge Blockage:** Columns 32-35 on row 19 have a horizontal one-way ledge facing down, allowing downward jumps but blocking upward passage.
 - **Saffron Gym Layout:** Saffron Gym occupies columns 27-31 on rows 16-19.
 
+
+
+## Burgled House Backdoor & Backyard Shortcut (Turn 9005-9007 Discovery)
+- **Front Door:** (27, 11). Entering warps the player to Bill's House Interior (Mod Swap).
+- **Backdoor/Hole in Wall:** Walking north to the top-center (3, 0) inside Bill's House Interior warps the player directly outside to the Backyard of the Burgled House at `(27, 9)`.
+- **Bypassing the Column 32 Log Barrier:** This backyard path allows the player to enter the Burgled House front door on the south side at `(27, 11)` (bypassing the Row 15 barriers), exit through the backdoor to `(27, 9)`, and then walk west/east on the north side, completely bypassing the Column 32/33 ledge and log barriers!

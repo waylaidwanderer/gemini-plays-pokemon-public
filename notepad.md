@@ -563,6 +563,12 @@
 
 
 
+## Burgled House Backdoor & Backyard Shortcut (Turn 9005-9007 Discovery)
+- **Front Door:** (27, 11). Entering warps the player to Bill's House Interior (Mod Swap).
+- **Backdoor/Hole in Wall:** Walking north to the top-center (3, 0) inside Bill's House Interior warps the player directly outside to the Backyard of the Burgled House at `(27, 9)`.
+- **Bypassing the Column 32 Log Barrier:** This backyard path allows the player to enter the Burgled House front door on the south side at `(27, 11)` (bypassing the Row 15 barriers), exit through the backdoor to `(27, 9)`, and then walk west/east on the north side, completely bypassing the Column 32/33 ledge and log barriers!
+
+
 <hr>
 
 <h1><code>Locations/Route24</code></h1>
@@ -892,7 +898,7 @@
 - **Columns 24-27 Rock Wall on Row 14-15:** Blocks eastward movement on the lower lanes.
 - **Column 19 Vertical Ledge on Rows 8-11:** Blocks westward (backtracking) movement on the upper lanes.
 - **Column 24/25 Vertical Ledge on Rows 5-6:** Blocks westward (leftward) movement on the upper lanes.
-- **Columns 26-28 Rock Wall on Rows 4-7:** Completely solid rock wall blocks that prevent eastward movement.
+
 
 <hr>
 

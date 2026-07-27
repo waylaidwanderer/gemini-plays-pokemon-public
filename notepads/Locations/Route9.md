@@ -35,4 +35,3 @@
 - **Columns 24-27 Rock Wall on Row 14-15:** Blocks eastward movement on the lower lanes.
 - **Column 19 Vertical Ledge on Rows 8-11:** Blocks westward (backtracking) movement on the upper lanes.
 - **Column 24/25 Vertical Ledge on Rows 5-6:** Blocks westward (leftward) movement on the upper lanes.
-- **Columns 26-28 Rock Wall on Rows 4-7:** Completely solid rock wall blocks that prevent eastward movement.
