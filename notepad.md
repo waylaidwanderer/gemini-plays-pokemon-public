@@ -427,11 +427,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Column 29 Ledge Gap at Row 13 (29,13):** [Verified Turn 13490] Column 29 at Row 13 is a two-way grass gap connecting lower grass field (Row 14) directly UP to upper highway (Row 12)!
 - **Hiker Trainer at (45,15):** [Defeated Turn 13528] Team: Geodude Lv 21, Onix Lv 21.
 - **Bug Catcher Trainer at (40,8):** [Defeated Turn 13556] Team: Caterpie, Weedle, etc.
-- **Elevation & Ledge Topology:**
-  - Row 3 Northern Grass Highway (Cols 0-59): Continuous top-level highway leading directly to Route 10 (Col 59).
-  - Row 5 South Ledge (Cols 30-45): One-way drop-off from Row 3/4 grass down to Row 6/7 pavement platform (Cols 30-45).
-  - Row 9 Ledge (Cols 20-27): Empirically verified (Turns 13780-13785) that Row 9 across Cols 20-27 is a continuous south-facing ledge with no upward gaps.
-  - Row 13 South Ledge (Cols 30-53): One-way drop-off separating middle levels from Row 14 lower trench.
+- Northern Grass Highway (Rows 3-4): Northern grass path running along the top of Route 9. Needs tile-by-tile empirical verification from West to East.
 - Jr. Trainer M at (33,7): [Defeated Turn 13609] Defeated! Team: Rattata Lv 19, Diglett Lv 19. Awarded ¥380.
 - Column 34 Vertical Corridor (34,6..12): [Verified Turn 13598] Open vertical pavement/grass corridor connecting Row 6 pavement (34,6) DOWN to Row 12 highway (34,12).
 - Row 11 Upper Highway (Cols 20-27): [Verified Turn 13629] Continuous open pavement highway running above the rock wall (Cols 24-27) connecting Row 12/13 (23,11) directly to Column 28 grass (28,11).
