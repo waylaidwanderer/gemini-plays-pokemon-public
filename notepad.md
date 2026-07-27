@@ -182,11 +182,9 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 - **(29,26)-(29,30) Wall Collision:** [Verified Turn 8860] Solid rock wall face at Column 29 across Rows 26-30 blocks Westward movement along Row 26-30. True West bypass is Row 25 (30,25 -> 25,25).
 
-- **Solid Rock Wall Face at (20,27):** [Verified Turn 8872] Solid rock wall face blocks Northward movement from (20,28) at (20,27).
 - **Solid Rock Wall Face at (18..19,11):** [Verified Turns 8923-8925] Solid rock wall face blocks Westward passage along Row 11 at Columns 18-19. Row 11 from (20,11) does NOT connect directly West to (17,11); bypass via Column 30 -> Row 6/7 top corridor.
 - **Solid Rock Wall Face at (22..23, 21..25):** [Verified Turn 11496] Solid blue rock wall face blocks Westward passage along Rows 21-25 at Columns 22-23. True West passage to exit ladder (15,27) is via Row 28 South Trench (24,28 -> 15,28 -> 15,27)!
 
-- **Solid Rock Wall Face at (25,8):** [Verified Turn 9121] Tile (25,8) is a solid blue rock wall face blocking Southward movement along Column 25 from (25,7).
 - **(12..13, 2..6) Wall Boundary:** [Verified Turn 9144] Solid blue rock wall face across Columns 12-13 at Rows 2 through 6 blocks Westward movement along Row 2 Top Corridor. Row 2 does NOT connect West past Column 13 on B1F.
 - **(7,18) Wall Face:** [Verified Turn 11445] Tile (7,18) is a solid blue rock wall face blocking South from (7,17). Open vertical corridor South through Rows 18-21 is via Columns 10-11 (10,17 -> 10,21)!
 - **Column 5-6 Bypass around Rock Wall (Rows 18-19):** [Verified Turn 9219] Columns 7-9 at Rows 18-19 are solid blue rock wall face. The open vertical corridor South is Columns 3-6 (5,17 -> 5,23).
@@ -274,6 +272,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Route 5 Guardhouse Doorway:** [Verified Turn 11963] Located at X=13, Y=25 in South Cerulean City. Gate pillars at (10,25) and signpost at (11,25). Door at (13,25) leads to Route 5 / Underground Path.
 - **Route 5 South Exit Gateway at (16,28)-(17,29):** [Verified Turn 12097] Column 16 and 17 at Row 28 form an open light gray pavement gap through the tree line leading South past gate pillars at (16,29)/(17,29) into Route 5 (Row 30+).
 - **East Gym Bypass Corridor at (34,25):** [Verified Turn 12118] Column 34 at Row 25 is an open light gray pavement gap between Gym stairs (33,25) and tree pillars (35,25) allowing two-way passage between South Cerulean (Row 26) and Middle Cerulean (Row 21).
+- **East Ledge & Route 5 Route:** Burglarized House Backyard (Y=8/9) extends East to Col 36. Row 19 is a South-facing one-way ledge. Hopping Down at (36,19) leads directly to Route 5 overworld and Underground Path entrance.
 
 <hr>
 
