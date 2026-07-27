@@ -424,5 +424,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Route 9 Ledge Topology:** Ledge #1 at Row 11 (Cols 10-13) and Ledge #2 at Row 13 (Cols 10-23) are one-way south-facing ledges enclosing the lower trench (Rows 14-15).
 - **Column 19 Ledge Gap at Row 13 (19,13):** [Verified Turn 13456] Column 19 at Row 13 is an open grass gap (no ledge) connecting the Lower Trench (Row 14) back UP to the Upper Pathway (Row 12/13)! Allows two-way passage between lower trench and upper highway.
 - **Column 29 Ledge Gap at Row 13 (29,13):** [Verified Turn 13490] Column 29 at Row 13 is a two-way grass gap connecting lower grass field (Row 14) directly UP to upper highway (Row 12)!
+- **Master Path to Route 10:** [Verified Turn 13520] From (29,10) -> Down 2 to (29,12) -> Right 12 to (41,12) -> Down 2 hop ledge (41,13) to (41,14) -> Right East along Row 14 past Column 53 directly to Route 10!
 
 <hr>
