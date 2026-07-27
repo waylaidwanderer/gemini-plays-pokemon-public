@@ -11,3 +11,4 @@
 - **Master Path to Route 10:** [Verified Turn 13520] From (29,10) -> Down 2 to (29,12) -> Right 12 to (41,12) -> Down 2 hop ledge (41,13) to (41,14) -> Right East along Row 14 past Column 53 directly to Route 10!
 - **Hiker Trainer at (45,15):** [Engaged Turn 13528] Located at X=45, Y=15 facing LEFT. Team: Geodude Lv 21, Onix Lv 21.
 - **Column 41 Ledge Gap at Row 11 (41,11):** [Verified Turn 13555] Column 41 at Row 11 is an open grass gap connecting Row 12 directly UP to Row 10 grass (41,10) and Row 7-9 Light Gray Pavement Upper Highway (41,7..41,9), unlocking direct access to Route 10!
+- **Bug Catcher Trainer at (40,8):** [Engaged Turn 13556] Located at X=40, Y=8 facing RIGHT. Dialogue: "Go, my super bug POKÉMON!"
