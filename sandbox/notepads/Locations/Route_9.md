@@ -1,34 +1,21 @@
-# Route 9 Map & Points of Interest
+# Route 9 Map & Points of Interest (Complete Unified Topology)
 
 - **West Entrance from Cerulean City:** [Verified Turn 13399] Enters Route 9 at X=0, Y=8.
-- **Cut Tree at (5,8):** [Verified Turn 13405] Interactive Cut tree at X=5, Y=8 chopped down using HM01 Cut, opening main highway East.
-- **Jr. Trainer Female at (13,10):** [Defeated Turn 13414] Defeated! Team: Oddish Lv 18, Bellsprout Lv 18.
-- **Hiker at (16,15):** [Defeated Turn 13437] Defeated! Team: Machop Lv 20, Onix Lv 20.
-- **Item Ball at (10,15):** [Collected Turn 13428] Item Ball collected at X=10, Y=15.
-- **Route 9 Ledge Topology:** Ledge #1 at Row 11 (Cols 10-13) and Ledge #2 at Row 13 (Cols 10-23) are one-way south-facing ledges enclosing the lower trench (Rows 14-15).
-- **Column 19 Ledge Gap at Row 13 (19,13):** [Verified Turn 13456] Column 19 at Row 13 is an open grass gap (no ledge) connecting the Lower Trench (Row 14) back UP to the Upper Pathway (Row 12/13)! Allows two-way passage between lower trench and upper highway.
-- **Column 29 Ledge Gap at Row 13 (29,13):** [Verified Turn 13490] Column 29 at Row 13 is a two-way grass gap connecting lower grass field (Row 14) directly UP to upper highway (Row 12)!
-- **Hiker Trainer at (45,15):** [Defeated Turn 13528] Team: Geodude Lv 21, Onix Lv 21.
-- **Bug Catcher Trainer at (40,8):** [Defeated Turn 13556] Team: Caterpie, Weedle, etc.
-- **Northern Grass Highway (Rows 2-3):** Continuous top-level grass highway running above the rock wall outcrops (Cols 0-59) leading directly East towards Route 10 and Rock Tunnel entrance at Column 59. Needs tile-by-tile empirical verification from West to East.
-- Jr. Trainer M at (33,7): [Defeated Turn 13609] Defeated! Team: Rattata Lv 19, Diglett Lv 19. Awarded ¥380.
-- Column 34 Vertical Corridor (34,6..12): [Verified Turn 13598] Open vertical pavement/grass corridor connecting Row 6 pavement (34,6) DOWN to Row 12 highway (34,12).
-- Row 11 Upper Highway (Cols 20-27): [Verified Turn 13629] Continuous open pavement highway running above the rock wall (Cols 24-27) connecting Row 12/13 (23,11) directly to Column 28 grass (28,11).
-- Column 28 North-South Grass Highway (28,2..15): [Verified Turn 13629] Unbroken vertical green grass corridor connecting lower levels to Northern Grass Highway (Rows 2-4).
-- Column 53 Ledge: [Verified Turn 13664] Tile (53,13) is a south-facing ledge, not a two-way gap.
-- **Ledge Topology & Field Connections [Verified Turn 13773]:**
-  - Lower Trench East Field (Cols 28-53, Row 14): Enclosed by Col 27 and Col 54 rock walls. The ONLY two-way exit is Column 29 Gap at (29,13).
-  - South-facing Ledge at (41,13): One-way jump DOWN from Row 12 (41,12) into Lower Trench East Field (41,14).
-  - Lower Trench West Field (Cols 10-23, Row 14): Enclosed by Col 9 rock wall on the West and Col 24 rock wall on the East. Connected via Column 19 Gap at (19,13).
-  - Row 12 Rock Wall at (27,12): Solid rock wall at (24-27, 12) physically divides Row 12 into Row 12 West (Cols 10-23) and Row 12 East (Cols 28-41).
-  - Row 11 Pavement Overpass (Cols 23-27, Row 11): Light gray pavement corridor running above the (24-27, 12) rock wall that connects Row 12 East (28,11) to Row 12 West (23,11/23,12).
-- **Column 29 Gap at Row 9 (29,9):** [Verified Turn 13827] Column 29 at Row 9 is an open two-way grass gap allowing ascent from Row 10 grass (29,10) directly UP to Row 8 Top Highway (29,8)!
-- Structural Barrier at (30,8): [Verified Turn 13839] Solid rock wall at (30,8) blocks eastward movement along Row 8 from (29,8).
-- Structural Barrier at (46,13): [Verified Turn 13857] South-facing ledge at (46,13) blocks upward movement from Row 14 grass to Column 46 pavement.
-- Lower Trench East Field (Cols 28-53, Rows 14-15): [Verified Turn 13861] Ends at a dead-end solid rock wall at (54,14-15). The ONLY exit is returning West to Column 29 Gap at (29,13).
-- **Northern Grass Highway (Rows 2-3):** Continuous top-level grass highway running above the rock wall outcrops (Cols 0-59) leading directly East towards Route 10 and Rock Tunnel entrance at Column 59. Needs tile-by-tile empirical verification from West to East.
-- Signpost at (25,7): [Verified Turn 13838] ROUTE 9 / CERULEAN CITY - ROCK TUNNEL.
-- Jr. Trainer M at (24,7): [Defeated Turn 14058] Defeated! Team: Growlithe Lv 21, Charmander Lv 21. Awarded ¥420.
-- **Row 5 South Ledge (Cols 20-25):** [Verified Turn 14061] South-facing one-way ledge at Row 5 across Cols 20-25 prevents walking UP from Row 6 pavement (23,6) to Row 5/3 grass.
-- **South-Facing Ledge at (23,13):** [Verified Turn 14063] One-way jump DOWN from Row 12 (23,12) into Lower Trench West Field (23,14).
-- **South-Facing Ledge at (34,11):** [Verified Turn 14069/14071] One-way jump DOWN from Row 11 (34,11) to Row 12 (34,12). Prevents walking UP from (34,12) to Row 11/6.
+- **Cut Tree at (5,8):** [Verified Turn 13405] Interactive Cut tree at X=5, Y=8 chopped down using HM01 Cut.
+- **Master Route 9 Hierarchy (Elevations & One-Way Ledges):**
+  - **Level 1 - Northern Grass Highway (Rows 2-3):** The top-level continuous highway running East from Column 0 to Column 59 (Rock Tunnel entrance). Access point is at West Entrance (Cols 0-5, Rows 2-3).
+  - **Row 5 South Ledge (Cols 20-50):** [Verified Turns 14061, 14087] One-way drop-off jumping DOWN from Row 4/5 grass onto Row 6 pavement platform. Prevents walking UP from Row 6 to Row 3.
+  - **Level 2 - Row 6-8 Middle Pavement Platform (Cols 20-45):** Bounded by Row 5 ledge at top and Row 11/13 ledge at bottom.
+  - **South-Facing Ledge at (34,11):** [Verified Turn 14069/14071] One-way drop-off jumping DOWN from Row 11 to Row 12. Prevents walking UP from (34,12) to Row 6.
+  - **Level 3 - Row 12 Highway (Cols 10-41):** Middle highway connected via Row 11 Pavement Overpass.
+  - **South-Facing Ledge at (23,13) & (41,13):** [Verified Turns 14063, 14038] One-way drop-offs jumping DOWN into Row 14 lower trench fields.
+  - **Level 4 - Lower Trench Fields (Rows 14-15):** Enclosed lower trenches. Lower Trench East Field (Cols 28-53) ends at Column 54 dead-end wall!
+
+- **Defeated Trainers on Route 9:**
+  - Jr. Trainer Female at (13,10): [Defeated Turn 13414]
+  - Hiker at (16,15): [Defeated Turn 13437]
+  - Hiker at (45,15): [Defeated Turn 13528]
+  - Bug Catcher at (40,8): [Defeated Turn 13556]
+  - Jr. Trainer M at (33,7): [Defeated Turn 13609]
+  - Jr. Trainer M at (24,7): [Defeated Turn 14058] Team: Growlithe Lv 21, Charmander Lv 21.
+- **Signpost at (25,7):** [Verified Turn 13838] ROUTE 9 / CERULEAN CITY - ROCK TUNNEL.
