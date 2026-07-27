@@ -37,7 +37,6 @@
   - Bug Catcher at (22,2): [Defeated Turn 14423]
 - **Mountain Wall at (26,2..7):** [Verified Turn 14404] Column 26 on Rows 2-7 is a solid rock wall blocking Eastward traversal on Level 1 (Rows 2-4) and Row 6 Overpass.
 - **Column 30 Cliff Wall at (30,8):** [Verified Turn 14435] Tile (30,8) is a solid diagonal mountain cliff wall blocking direct Eastward traversal on Row 8 from (29,8) to East Overpass.
-- **Column 34 Ascension Corridor:** [Verified Turn 14439] Columns 34 and 35 form a open vertical corridor connecting Row 12 (34,12) UP through Row 10 (34,10), Row 8 (34,8), Row 6 East Overpass (34,6), and Row 5/4/3/2 East Level 1 Northern Grass Highway at (34,2)!
 - **Ledge at (34,11):** [Verified Turn 14442] Tile (34,11) is a south-facing ledge blocking upward access from Row 12 to Row 10 at Column 34.
 - **Mountain Wall at (5,2..7):** [Verified Turn 14455] Column 5 on Rows 2-7 is a solid rock wall blocking Westward movement beyond Column 6 on Level 1.
 - **Ledge Jump at (6,7):** [Verified Turn 14455] Stepping DOWN from (6,6) over (6,7) south-facing ledge drops directly onto Row 8 pavement at (6,8)!
