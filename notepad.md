@@ -446,7 +446,7 @@ To reach Rock Tunnel (Column 59), you MUST use Level 1 Northern Grass Highway (R
 - **Lower Trench East Field Dead-End at (54,14-15):** [Verified Turn 14133] Solid rock wall at (54,14-15) blocks East end of Lower Trench. To reach Rock Tunnel, must return West to (0,8) West Entrance and walk Row 2 Northern Grass Highway East.
 - **Wall at (19,8):** [Verified Turn 14152] Column 19 on Row 8 is a solid mountain cliff wall blocking Westward movement on Row 8 from (20,8).
 - **Overpass Dead-End at (45,7):** [Verified Turn 14169] Row 6/7 overpass ends at (45,7) in a dead-end cliff wall. Must navigate West to (0,8) West Entrance to access Row 2 Northern Grass Highway.
-- **South-Facing Ledge at (13,11):** [Verified Turn 14175] Tile (13,11) is a south-facing ledge dropping DOWN from Row 10 to Row 12. Prevents walking UP from (13,12) to Row 10.
+- **South-Facing Ledges at (10-13,11):** [Verified Turns 14303-14309] Tiles (10,11), (11,11), (12,11), and (13,11) are all south-facing ledges blocking upward access from Row 12 to Row 10.
 - **Ascension Gap at (19,13):** [Verified Turn 14265] Tile (19,13) is a fully passable ascension gap allowing walking UP from Lower Trench (19,14) directly onto Row 12 green grass at (19,12)!
 - **Column 54 Dead End Verified:** [Verified Turn 14278] Visually confirmed on screen that Column 54 on Rows 10-18 is a solid vertical mountain rock wall. Lower Trench East Field (Cols 28-53) definitively ends at Column 53.
 - **Lower Trench East Field West Wall at (27,13-15):** [Verified Turn 14287] Solid rock wall at (27,13-15) bounds the West end of Lower Trench East Field (Cols 28-53).
