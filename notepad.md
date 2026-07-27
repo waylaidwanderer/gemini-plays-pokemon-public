@@ -479,5 +479,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Route 10 Pokémon Center Door:** [Verified Turn 14741] Entrance door located at (11,19).
 - **Route 10 Checkpoint:** [Verified Turn 14753] Party fully healed by Nurse Joy at (3,1)/(3,2) inside Route 10 Pokémon Center! Respawn checkpoint active!
 - **Rock Tunnel Entrance:** [Verified Turn 14767] Located on East mountain wall at (15,6)/(15,7), accessed via open floor at (14,6)/(14,7).
+- **Upper Corridor Wall at (14,5):** [Verified Turn 14768] Tile (14,5) is a solid rock arch. Accessing cave entrance at (15,6)/(15,7) requires lower level path via (2,5) -> (13,10) -> (14,7) -> (15,7).
 
 <hr>
