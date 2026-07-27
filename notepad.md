@@ -1009,13 +1009,6 @@
 
 <hr>
 
-<h1><code>notepads/Locations/MtMoon_B1F.md</code></h1>
-
-# Dummy for deletion
-
-
-<hr>
-
 <h1><code>notepads/Locations/MtMoon_B2F.md</code></h1>
 
 # Dummy for deletion
