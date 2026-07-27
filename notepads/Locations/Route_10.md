@@ -9,3 +9,4 @@
 - **Route 10 Checkpoint:** [Verified Turn 14753] Party fully healed by Nurse Joy at (3,1)/(3,2) inside Route 10 Pokémon Center! Respawn checkpoint active!
 - **East Wall Arch at (15,6)/(15,7):** [Verified Turn 14773] Solid rock arch tiles (impassable). Searching northern cliff wall of tall grass field (Cols 2-13, Rows 5-6) for actual Rock Tunnel cave entrance.
 - **Upper Corridor Wall at (14,5):** [Verified Turn 14768] Tile (14,5) is a solid rock arch. Accessing cave entrance at (15,6)/(15,7) requires lower level path via (2,5) -> (13,10) -> (14,7) -> (15,7).
+- **Rock Tunnel 1F Entrance Door:** [Verified Turn 14786] Cave entrance door located at (14,30) on lower Route 10 South of Pokémon Center!
