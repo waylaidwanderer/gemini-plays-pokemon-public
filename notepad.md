@@ -461,8 +461,12 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Complete Verified Route to Rock Tunnel:** [Verified Turn 14463]
   1. West Entrance (0,8) -> Cut tree (5,8) -> Row 8 pavement at (6,8).
   2. Walk East to (12,8) -> South to (12,10) -> Jump South over ledge at (12,11) to (12,12) on Row 12 Highway.
-  3. Walk East along Row 12 Highway to (34,12).
-  4. Walk North up Column 34 Ascension Corridor: (34,12) -> (34,10) -> (34,8) -> (34,6) -> (34,2).
-  5. Walk East along Level 1 Northern Grass Highway from (34,2) directly to Column 59 (Rock Tunnel Entrance).
+  3. Walk East along Row 12 Highway to (23,12).
+  4. Jump South over ledge at (23,13) to land at (23,14) in Lower Trench.
+  5. Walk East along Lower Trench (Row 14) from (23,14) to (29,14).
+  6. Walk North UP through Ascension Gap at (29,13) to land back on Row 12 at (29,12).
+  7. Walk East along Row 12 from (29,12) to (34,12).
+  8. Walk North up Column 34 Ascension Corridor: (34,12) -> (34,10) -> (34,8) -> (34,6) -> (34,2).
+  9. Walk East along Level 1 Northern Grass Highway from (34,2) directly to Column 59 (Rock Tunnel Entrance).
 
 <hr>
