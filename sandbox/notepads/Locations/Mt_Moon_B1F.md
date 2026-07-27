@@ -87,5 +87,5 @@
 - **(7,10) Platform Wall Boundary:** [Verified Turn 9825] Solid vertical platform wall face between Column 8 and Column 7 blocks Westward movement from (8,10) into (7,10). Access to (5,7) platform is via (12,9)/(13,9) elevation stairs to Row 8, then West along Row 8/7!
 - **(3,5) Elevation Stairs for (5,7) Platform:** [Verified Turn 9835] Solid platform wall face blocks Row 4 Southward entry into Row 5 across Cols 4-10. Descent to (5,7) ladder ground floor is via (3,5) elevation stairs!
 
-- **Decorative Ladder at (21,17):** [Verified Turn 11324] Tile (21,17) in B1F displays a ladder graphic but is non-functional (stepping on it triggers no warp).
+
 - **Solid Rock Wall Face at Column 19 (Rows 26-35):** [Verified Turn 11505] Column 19 is a solid blue rock wall face across Rows 26 through 35, blocking Westward movement along Rows 28 and 31.
