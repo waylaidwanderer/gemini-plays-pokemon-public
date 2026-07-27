@@ -62,9 +62,6 @@
 - **Elevated Platform Wall at (12..13, 18..27):** [Verified Turn 4996] Checkered platform face blocks Columns 12-13 across Rows 18-27. B1F South Corridor (Cols 14-27, Rows 22-27) is enclosed. Primary exit is ladder at (15,27) to 1F (13,27) to bypass via 1F Column 6.
 - **Row 12 Wall Boundary at Cols 24-25:** [Re-verified Turn 5081] Row 12 at (24,12) and (25,12) is an impassable south-facing wall face. Cannot walk Down from Row 11 to Row 12 at Cols 24-25. Open passage East from (24,11) is via Row 10/11 to Col 28-29.
 - **Row 7 Elevation Stairs at (28,7)-(29,7):** [Verified Turn 5090] Tiles (28,7) and (29,7) are stairs connecting Row 8 up to Row 7. Tile (30,7) is a solid rock wall face.
-- **Solid Rock Wall Face at (28,12):** [Verified Turn 5107] Tile (28,12) is a solid purple wall face blocking Southward movement along Column 28 from (28,11).
-- **Solid Rock Wall Face at (32,12):** [Verified Turn 5110] Tile (32,12) is a solid purple wall face blocking Southward movement along Column 32 from (32,11).
-- **Solid Rock Wall Face at (21,18):** [Verified Turn 5578] Tile (21,18) is a solid rock wall face blocking Southward movement along Column 21 from (21,17).
 - **Exit Corridor Ladder Warp at (5,5):** [Verified Turn 8589] Ladder at (5,5) in B1F Exit Corridor warps to B1F Main Cavern at (5,5) facing Hiker NPC at (5,6)!
 - **Hiker Trainer at (5,6):** [Defeated Turn 8684] Defeated Hiker's Geodude, Geodude, and Onix at (5,6) on B1F! Column 5 is cleared South.
 - **Reciprocal Warp Pair (17,11) <-> (25,9):** [Verified Turn 8704] Ladder at (17,11) and ladder at (25,9) form a reciprocal two-way loop warp.
