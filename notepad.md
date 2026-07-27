@@ -450,5 +450,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Lower Trench East Field West Wall at (27,13-15):** [Verified Turn 14287] Solid rock wall at (27,13-15) bounds the West end of Lower Trench East Field (Cols 28-53).
 - **Middle Overpass Row 6/7 (Cols 20-25):** [Verified Turn 14324] Enclosed platform bounded by Column 19 rock wall on West, Column 26 rock wall on East, Row 5 south-facing ledges on North, and Row 8 pavement on South.
 - **Row 5 South-Facing Ledges (Cols 20-25):** [Verified Turn 14324] Tiles (20,5) through (25,5) are south-facing ledges blocking upward access from Row 6 to Row 4.
+- **Ascension Gap at (25,5):** [Verified Turn 14398] Tile (25,5) is an open ascension gap allowing walking UP from Row 6 Overpass (25,6) directly onto Row 5/4/3/2 Level 1 Northern Grass Highway at (25,5)!
 
 <hr>
