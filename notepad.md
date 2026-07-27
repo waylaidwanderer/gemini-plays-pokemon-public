@@ -463,5 +463,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Hiker at (43,3):** [Defeated Turn 14723] Standing at (43,3) on Level 1 Northern Grass Highway.
 - **Ledge Jump at (50,5):** [Verified Turn 14728] Stepping DOWN from (50,5) on Level 1 highway jumps DOWN over south-facing ledge onto Row 6 pavement at (50,6)!
 - **Overpass Corridor at (51-55,8-9):** [Verified Turn 14728] Row 8 and 9 pavement platform extends East past Column 55!
+- **East Exit at (59,8-9):** [Verified Turn 14730] Corridor at (58,8-9) leads directly East into (59,8-9) connecting to Route 10 and Rock Tunnel Entrance!
 
 <hr>
