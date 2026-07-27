@@ -429,5 +429,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Bug Catcher Trainer at (40,8):** [Engaged Turn 13556] Located at X=40, Y=8 facing RIGHT. Dialogue: "Go, my super bug POKÉMON!"
 - Jr. Trainer M at (33,7): [Defeated Turn 13609] Defeated! Team: Rattata Lv 19, Diglett Lv 19. Awarded ¥380.
 - Column 34 Vertical Corridor (34,6..12): [Verified Turn 13598] Open vertical pavement/grass corridor connecting Row 6 pavement (34,6) DOWN to Row 12 highway (34,12).
+- Row 11 Upper Highway (Cols 20-27): [Verified Turn 13629] Continuous open pavement highway running above the rock wall (Cols 24-27) connecting Row 12/13 (23,11) directly to Column 28 grass (28,11).
+- Column 28 North-South Grass Highway (28,2..15): [Verified Turn 13629] Unbroken vertical green grass corridor connecting lower levels to Northern Grass Highway (Rows 2-4).
 
 <hr>
