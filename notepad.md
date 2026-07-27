@@ -350,6 +350,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Disproved:** Tile (17,29) signpost and (16,29) gate pillar are solid impassable obstacles [Empirically verified Turn 12062 & 12067].
 - **Verified Turn 12071:** Signpost at (11,25) is BIKE SHOP signpost. Door at (13,25) is Bike Shop entrance. Heading to Burglarized House at (27,11) to check Backyard Garden south route.
 - **Verified Turn 12102:** Tile (16,29) is a solid gate pillar. Row 29 gateway at (16,29)/(17,29) is impassable from the North. Exploring West along Row 27 (Columns 12..0) to locate the West pass-through down to Row 30 and the building door at (13,32).
+- **Current Plan (Turn 12184):** Walk East from (13,16) to (27,16), then North to Burglarized House door at (27,11). Go through house out back door (27,8) into Backyard Garden, then East to Col 35/36 and South to Route 5.
 
 <hr>
 
