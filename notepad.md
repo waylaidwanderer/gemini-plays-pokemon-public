@@ -367,7 +367,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **S.S. Anne Gangplank Bridge:** [Verified Turn 12635] Gangplank bridge is at Columns 18-19 (18,28..30). Leads South across water onto the S.S. Anne at (19,30).
 - **Vermilion Pokémart Door:** [Verified Turn 13046] Located at X=23, Y=13 on Vermilion City map. Building spans Cols 22-25, Rows 10-13 with "MART" sign at (24,13). Door mat is at (23,14) facing Up.
 - **Vermilion Pokémart Interior:** [Verified Turn 13051] Warp arrival at (3,7) facing Up. Exit mats at (3,7) and (4,7). Shop clerk at (0,5), counter accessible from (2,5) or (1,6). Stock: POKé BALL ($200), SUPER POTION ($700), ANTIDOTE ($100), PARLYZ HEAL ($200), AWAKENING ($200), ICE HEAL ($250).
-- **Vermilion Gym Cut Tree:** [Verified Turn 13120] Located at X=14, Y=19 on Vermilion City map. Facing Down from (14,18) or facing Left from (15,19) allows using Cut. Gym door is at (12,19).
+- **Vermilion Gym Entrance:** Gym doorway located at X=12, Y=19 on Vermilion City map.
 
 <hr>
 
