@@ -3,7 +3,7 @@
 ## ROUTE 10 NAVIGATION:
 - **West Exit to Route 9:** (-1, 8-9) connects West to Route 9.
 - **Rock Tunnel North Entrance:** [Verified Turn 14732] Located at (0,5)/(1,5) on Route 10.
-- **Route 10 Pokémon Center:** Located South of Rock Tunnel Entrance.
+- **Diagonal Cliff Wall at (1,10):** [Verified Turn 14759] Tile (1,10) is a diagonal cliff corner/rock wall blocking direct West movement along Row 10. Access to cave entrance requires detour via (2,9) -> (1,9).
 - **Fence Opening at (13,11):** [Verified Turn 14738] Gap in Row 11 fence at Column 13 allows heading South from tall grass field onto lower Route 10.
 - **Route 10 Pokémon Center Door:** [Verified Turn 14741] Entrance door located at (11,19).
 - **Route 10 Checkpoint:** [Verified Turn 14753] Party fully healed by Nurse Joy at (3,1)/(3,2) inside Route 10 Pokémon Center! Respawn checkpoint active!
