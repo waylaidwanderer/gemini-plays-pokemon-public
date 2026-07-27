@@ -410,5 +410,10 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Captain's Corridor Doorway at (27,0) / (26,0):** Warps into Captain's Cabin doorway alcove at (14,2).
 - **Captain's Cabin Exit Warp at (14,0):** Warps completely out of ship to S.S. Anne Pier at (18,31).
 - **Pier Re-entry Path to S.S. Anne:** Walk East along Row 26 to Column 30 -> North along Column 30 to Row 22 -> West along Row 22 to Column 15 (15,22 gangplank entrance into 1F).
+- **Verified Cabin Contents (2F Upper Deck):**
+  - **Cabin X=11 (Cabin 4):** Sailor Trainer (Tentacool Lv 18, Staryu Lv 18). Impassable desk at (10,2).
+  - **Cabin X=7 (Cabin 5):** Girl NPC and Blue Hat NPC.
+- **Captain's Cabin Entry Alcove:**
+  - Stairs at X=2, Y=4 on the Entry Alcove map lead directly into the Captain's Cabin!
 
 <hr>
