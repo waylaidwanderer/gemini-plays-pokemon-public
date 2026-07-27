@@ -885,7 +885,7 @@
 ## Empirical Navigation Realities
 - **Column 42 Blockage on Row 12:** Empirically verified multiple times that Row 12 is completely blocked at Column 42 by a solid diagonal rock cliff face.
 - **Ledge & Mountain Layout:** Row 9 is blocked at Column 42 by a solid rock wall. Columns 26-28 are also blocked on Rows 2-7 by a solid rock wall. Row 14/15 is open but Column 24-27 has a rock wall. Route 10 lower pocket is a dead end blocked by Row 16 rock wall.
-- **Geographical Strategy:** Route 9 is a strict ONE-WAY path from west to east! Empirical testing has proven that walking west (backtracking) is completely blocked by solid cliffs at Column 19 on the upper lanes and Columns 24-27 on the lower lanes once one-way ledges have been jumped. Backtracking to Cerulean City on foot from the eastern sections is physically impossible.
+- **Geographical Strategy:** Backtracking to Cerulean City on foot from Route 9's eastern sections is possible! On Turn 8921, we successfully backtracked by cutting the bush at (5, 8) and walking west on Rows 2-4 (which are completely clear on Columns 13-22 and do not have any one-way ledge blockages on those upper rows).
 ## Verified Obstacles & Navigation Limits (Turn 8878)
 - **Column 41 Vertical Corridor:** Empirically verified to be completely open vertically with absolutely NO ledges or rock walls from Row 6 down to Row 14, providing a crucial north/south crossing corridor.
 - **Row 13 Ledge Lip:** Continuous across Columns 40 to 53, blocking all upward (northward) movement from Row 14/15 on the eastern side.
@@ -893,7 +893,6 @@
 - **Column 19 Vertical Ledge on Rows 8-11:** Blocks westward (backtracking) movement on the upper lanes.
 - **Column 24/25 Vertical Ledge on Rows 5-6:** Blocks westward (leftward) movement on the upper lanes.
 - **Columns 26-28 Rock Wall on Rows 4-7:** Completely solid rock wall blocks that prevent eastward movement.
-
 
 <hr>
 
