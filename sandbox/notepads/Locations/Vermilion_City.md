@@ -5,3 +5,5 @@
 - **Water Inlet at Rows 18-21:** [Verified Turn 12593] Water blocks Columns 16-19 at Rows 18-21. Bypass East via Column 20/21 pavement (20,17 -> 20,18+).
 - **Ocean Shoreline at Row 22:** [Verified Turn 12594] Row 22 is ocean water. Shoreline sidewalk runs East along Row 20/21 from (20,21) towards South-East Vermilion.
 - **East Boundary Fence at Col 26:** [Verified Turn 12595] Column 26 is a brown fence blocking East passage at Rows 17-21. Ocean water beyond.
+- **Vermilion Gym Location:** [Verified Turn 12597] Gym building at X=11..13, Y=18..19. Cut tree at (14,19) blocks South access.
+- **Row 15 Cross-City Boulevard:** [Verified Turn 12597] Row 15 is open pavement across Cols 10-20+.
