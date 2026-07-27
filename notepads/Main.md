@@ -28,9 +28,9 @@
 - **Party Pokémon:**
   1. Blastoise (Lv 41) "SHELLSHOCK" - Tackle, Bite, BubbleBeam, Water Gun
   2. Nidorina (Lv 18) "LUNA" - Tackle, Growl, Scratch, Poison Sting
-  3. Meowth (Lv 12) "CUTTER" - Taught HM01 Cut [Turn 13073]!
+  3. Meowth (Lv 12) "CUTTER" - Caught Turn 13066 (Note: Cannot learn Cut in Gen 1!).
 
 - **Key Items:** Pokédex (Obtained from Prof. Oak on Turn 265), S.S. Ticket (Obtained from Bill on Turn 10317), HM01 Cut (Obtained from S.S. Anne Captain on Turn 12960).
-- **Inventory:** 10 Poké Balls (Purchased Turn 13051), TM34 (Bide), TM01 (Mega Punch), TM28 (Dig), Ether, HP Up, Rare Candy, Potion, Moon Stone, Dome Fossil, Nugget, HM01 Cut.
+- **Inventory:** 8 Poké Balls (Turn 13073), TM34 (Bide), TM01 (Mega Punch), TM28 (Dig), Ether, HP Up, Rare Candy, Potion, Moon Stone, Dome Fossil, Nugget, HM01 Cut.
 - **Fossil Item:** Obtained Dome Fossil on Mt. Moon B2F [Turn 6146].
-- **HM01 Cut Move Compatibility:** Neither SHELLSHOCK (Blastoise) nor LUNA (Nidorina) can learn HM01 Cut in Gen 1 [Verified Turn 12965]. Need a Cut-compatible Pokémon (Oddish, Bellsprout, Meowth, Sandshrew, Paras, Diglett).
+- **HM01 Cut Move Compatibility:** Neither SHELLSHOCK, LUNA, nor MEOWTH can learn HM01 Cut in Gen 1 [Verified Turn 13075 - Meowth is NOT ABLE]. Need Bellsprout (Route 6) or Diglett (Diglett's Cave) or Oddish/Paras.
