@@ -441,5 +441,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
   - Lower Trench West Field (Cols 10-23, Row 14): Enclosed by Col 9 rock wall on the West and Col 24 rock wall on the East. Connected via Column 19 Gap at (19,13).
   - Row 12 Rock Wall at (27,12): Solid rock wall at (24-27, 12) physically divides Row 12 into Row 12 West (Cols 10-23) and Row 12 East (Cols 28-41).
   - Row 11 Pavement Overpass (Cols 23-27, Row 11): Light gray pavement corridor running above the (24-27, 12) rock wall that connects Row 12 East (28,11) to Row 12 West (23,11/23,12).
+- **Column 29 Gap at Row 9 (29,9):** [Verified Turn 13827] Column 29 at Row 9 is an open two-way grass gap allowing ascent from Row 10 grass (29,10) directly UP to Row 8 Top Highway (29,8)!
+- **Top Highway Route:** Ascending Column 29 Gap (29,13 -> 29,11 -> 29,9 -> 29,8) connects the middle levels directly to the Top Highway (Rows 3-8), opening continuous eastward access across Route 9 to Route 10!
 
 <hr>
