@@ -23,3 +23,6 @@
   1. Walk UP through the gap at Columns 29/30 on Route 9 to Row 12 (middle lane).
   2. Walk EAST on Row 12/13 of Route 9 to Route 10, past Column 50, to Column 58 (upper pavement).
   3. From the upper level of Route 10, walk SOUTH directly to the Pokémon Center on Row 17 (y=68).
+## Verified Obstacles & Navigation Limits (Turn 8878)
+- **Row 16 Rock Wall:** Completely solid and continuous across Columns 50 to 57, making Route 10's lower pocket (Columns 50-53, Rows 14-15) a strict dead end going south.
+- **Row 13 Ledge:** Continuous across Columns 50 to 53, blocking all upward (northward) movement to the upper level of Route 10.
