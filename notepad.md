@@ -573,13 +573,6 @@
 
 <hr>
 
-<h1><code>Locations/MtMoon_B2F.md</code></h1>
-
-# Temporary empty file for de-registration
-
-
-<hr>
-
 <h1><code>Locations/Route4</code></h1>
 
 # Route 4 - Locations, Landmarks & Barriers
@@ -944,13 +937,6 @@
 
 <hr>
 
-<h1><code>notepads/Locations/MtMoon_B1F</code></h1>
-
-# Temporary empty file for de-registration
-
-
-<hr>
-
 <h1><code>Locations/Route9</code></h1>
 
 # Route 9 - Spatial Coordinates, Landmarks & Trainer Log
@@ -984,20 +970,6 @@
 - **Column 42 Blockage on Row 12:** Empirically verified multiple times (Turns 7741, 7829) that Row 12 is completely blocked at Column 42 by a solid diagonal rock cliff face.
 - **Passable Row 9 Bypass:** Empirically verified using ROM block layout analysis that Row 9 is completely passable from Column 39 to Column 48, providing a perfect corridor to bypass the Column 42 rock wall.
 - **Bypass Routing:** From (41, 12), walk UP to (41, 9), walk EAST along Row 9 to Column 49 (which is completely unblocked), and then walk DOWN to Row 12 on the east side of the blockage to reach Route 10 on the Upper Level!
-
-<hr>
-
-<h1><code>notepads/notepads/Locations/MtMoon_B2F</code></h1>
-
-# Temporary empty file for de-registration
-
-
-<hr>
-
-<h1><code>notepads/notepads/Locations/MtMoon_B1F</code></h1>
-
-# Temporary empty file for de-registration
-
 
 <hr>
 
@@ -1040,19 +1012,5 @@
   1. Walk UP through the gap at Columns 29/30 on Route 9 to Row 12 (middle lane).
   2. Walk EAST on Row 12/13 of Route 9 to Route 10, past Column 50, to Column 58 (upper pavement).
   3. From the upper level of Route 10, walk SOUTH directly to the Pokémon Center on Row 17 (y=68).
-
-<hr>
-
-<h1><code>Locations/MtMoon_B1F</code></h1>
-
-# Dummy
-
-
-<hr>
-
-<h1><code>Locations/MtMoon_B2F</code></h1>
-
-# Dummy
-
 
 <hr>
