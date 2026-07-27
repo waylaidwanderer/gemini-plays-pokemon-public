@@ -4,7 +4,7 @@
 - **Gym Guide:** [Verified Turn 13143] Located at X=4, Y=14 facing Down. Accessible from (4,15) facing Up.
 - **Gym Statues:** Located at (3,14) and (6,14).
 - **Trash Can Switches Mechanics:** 1st switch is randomly located in one of the 15 trash cans. 2nd switch is ALWAYS located in one of the 4 cardinal/diagonal adjacent trash cans (North, South, East, West)! If 2nd switch check fails, lock resets and 1st switch moves to a new random trash can.
-- **1st Switch Reset:** [Turn 13216] (3,7) failed 2nd switch check; locks reset. Re-checking post-reset cans: (5,7), (7,7), (7,9), (7,11), (9,11), (9,9), (9,7) all empty.
+- **1st Switch Found:** [Verified Turn 13265] Located at Trash Can X=1, Y=11. 1st lock opened! Candidate 2nd switch cans: (3,11) [East], (1,9) [North], (1,7) [Wrap North].
 - **Sailor Trainer at (1,10):** [Defeated Turn 13165] Defeated in battle.
 - **Rocker Trainer at (3,8):** [Defeated Turn 13193] Defeated in battle.
 - **Gentleman Trainer at (7,6):** [Defeated Turn 13229] Defeated in battle.
