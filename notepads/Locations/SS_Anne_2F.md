@@ -1,7 +1,7 @@
 # S.S. Anne 2F Map & Points of Interest
 
 ## Geometry & Points of Interest
-- **Main Hallway (Row 12):** Wide East-West corridor spanning Columns 3 to 36+. Stairs up from 1F arrive at (2,4) alcove; walk Down via (3,10)-(3,11) to reach Row 12 [Verified Turn 12931].
+- **Main Hallway (Row 12):** Wide East-West corridor spanning Columns 3 to 36+. Stairs up from 1F arrive at (2,4) alcove [Verified Turn 12931].
 - **Stairs Down to 1F:** Located at X=2, Y=12 on 2F (connects to 1F X=2, Y=6) [Verified Turn 12926/12931].
 - **Rival RED Battle:** Triggered at X=36, Y=8 in North Vertical Corridor on S.S. Anne 2F [Defeated Turn 12952].
 - **Captain's Cabin Entrance Stairs:** Located at X=36, Y=4 at the top of North Vertical Corridor on S.S. Anne 2F [Verified Turn 12955]. Warps to Captain's Cabin at (0,7).
