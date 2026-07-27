@@ -417,9 +417,9 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 # Route 9 Map & Points of Interest
 
-## ROUTE 9 EASTWARD NAVIGATION TO ROCK TUNNEL:
+## ROUTE 9 NAVIGATION:
 - Rock Tunnel entrance is located at the far East end of Route 9 (Column 59).
-- There is NO need to backtrack to West Entrance (0,8). Move East through the route levels/trenches to reach Rock Tunnel.
+- Column 54 on Rows 10-18 is a solid dead-end mountain rock wall. To reach Rock Tunnel, must access Level 1 Northern Grass Highway (Rows 2-3) from West Entrance (0,8)/(5,8) Cut tree.
 
 - **West Entrance from Cerulean City:** [Verified Turn 13399] Enters Route 9 at X=0, Y=8.
 - **Cut Tree at (5,8):** [Verified Turn 13405] Interactive Cut tree at X=5, Y=8 chopped down using HM01 Cut.
