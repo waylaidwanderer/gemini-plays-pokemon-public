@@ -7,3 +7,4 @@
 - **East Boundary Fence at Col 26:** [Verified Turn 12595] Column 26 is a brown fence blocking East passage at Rows 17-21. Ocean water beyond.
 - **Vermilion Gym Location:** [Verified Turn 12597] Gym building at X=11..13, Y=18..19. Cut tree at (14,19) blocks South access.
 - **Row 15 Cross-City Boulevard:** [Verified Turn 12597] Row 15 is open pavement across Cols 10-20+.
+- **Resident House at (23,19):** [Verified Turn 12605] Doorway at (23,19) enters a 1-room resident house (Pidgey girl house).
