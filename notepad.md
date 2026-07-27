@@ -140,8 +140,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Row 25 Solid Rock Wall Face (Cols 10-23):** [Verified Turn 2758] Solid purple rock wall face blocks Row 25 across Columns 10 through 23 on B1F. Column 15 does NOT connect North past Row 25. Exit North from South Corridor is at Columns 24-25.
 - **East Wall Boundary at Col 28 (Rows 17-25):** [Verified Turn 2768] Solid purple rock wall face at Column 28 blocks East from Column 27 across Rows 17-25. Wide Eastern Highway is Columns 24-27 extending North.
 - **(25,12) Wall Boundary:** [Verified Turn 2973] Tile (25,12) is an impassable wall face. Column 25 dead-ends South at Row 11.
-- **Solid Rock Wall Face at (13,22):** [Verified Turn 3118] Tile (13,22) is solid rock wall face blocking Westward movement from Column 14.
-- **Solid Rock Wall Face at (13,26):** [Verified Turn 3101] Tile (13,26) is solid rock wall face blocking Westward movement along Row 26.
 - **Solid Rock Wall Face at (26,23) & (27,22):** [Verified Turn 3133] Tiles (26,23) and (27,22) are solid rock wall faces enclosing the upper platform landing. Exit from upper landing is West to (25,22) and Down stairs at (25,23).
 - **Solid Rock Wall Face at (30,22)-(34,22):** [Verified Turn 3144] Tiles (30,22) through (34,22) are solid rock wall faces. Column 30 does NOT lead North from Row 22. Eastern corridor route to Top Corridor is via Columns 35-37!
 - **Solid Impassable Boundary at (30,25):** [Verified Turn 3149] Tile (30,25) is impassable when attempting to walk East from (29,25).
@@ -158,7 +156,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **South Corridor Row 25 Bypass:** [Verified Turn 4687] Row 25 (Cols 15-25) is wide open smooth purple floor, bypassing Col 19 rock wall at Row 28.
 - **Row 27 Rock Wall Face (Cols 19-23):** [Verified Turn 4688] Solid rock wall face along Row 27 at Cols 19-23. Passage between Row 28 and Row 25 is via Column 24/25.
 - **Col 12-13 Wall Boundary (Rows 3-11):** [Verified Turn 4706] Solid rock wall face along Columns 12-13 across Rows 3-11 blocks Row 7 from connecting directly West at Column 13.
-- **(28,26) Wall Boundary:** [Verified Turn 4734] Solid rock wall face at (28,26) blocks Eastward movement along Row 26 South Corridor.
 - **Cliff Wall Face at (30..31, 21..28):** [Verified Turn 4768] Solid cliff wall face blocks Eastward movement from Column 29 across Rows 21-28 on B1F.
 - **(25,20) Wall Boundary:** [Verified Turn 4880] Solid rock wall face at (25,20) blocks Northward movement along Column 25 at Row 20.
 - **(30,24) Wall Boundary:** [Verified Turn 4885] Solid cliff wall face at (30,24) blocks Eastward movement along Row 24. Western Highway at Cols 10-11 is the true Northbound passage past Row 20 wall.
@@ -344,5 +341,17 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Bike Shop Gate at (10,25) / (11,25):** Gate pillars at (10,25) and notice board at (11,25) block Row 25 at Columns 10-11.
 - **West Gate Bypass Corridor (Cols 8-9, Row 25):** Tiles (8,25) and (9,25) are open green grass connecting South Cerulean (Row 26) North to Middle Cerulean (Row 24/19).
 - **Route 5 & Underground Path:** Underground Path Entrance Building is located on Route 5 (South of Cerulean City).
+
+<hr>
+
+<h1><code>Locations/Route_6</code></h1>
+
+# Route 6 Map & Points of Interest
+
+## Geometry & Points of Interest
+- **North Exit (Underground Path Building):** Located at X=17, Y=13 on Route 6 overworld. Exiting doorway spawns player at (17,14).
+- **Central Ledge / Fence Barrier:** Row 32 across Columns 10-19 and Columns 5-7 is a solid grey fence/ledge barrier.
+- **West Highway Gap to Vermilion City:** Columns 8 and 9 at Row 32 (tiles (8,32) and (9,32)) are open light gray pavement forming the main entrance highway into Vermilion City!
+
 
 <hr>
