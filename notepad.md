@@ -177,7 +177,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Solid Rock Wall Face at (18..19,11):** [Verified Turns 8923-8925] Solid rock wall face blocks Westward passage along Row 11 at Columns 18-19. Row 11 from (20,11) does NOT connect directly West to (17,11); bypass via Column 30 -> Row 6/7 top corridor.
 
 - **(12..13, 2..6) Wall Boundary:** [Verified Turn 9144] Solid blue rock wall face across Columns 12-13 at Rows 2 through 6 blocks Westward movement along Row 2 Top Corridor. Row 2 does NOT connect West past Column 13 on B1F.
-- **(7,18) Wall Face:** [Verified Turn 11445] Tile (7,18) is a solid blue rock wall face blocking South from (7,17). Open vertical corridor South through Rows 18-21 is via Columns 10-11 (10,17 -> 10,21)!
+
 - **Column 5-6 Bypass around Rock Wall (Rows 18-19):** [Verified Turn 9219] Columns 7-9 at Rows 18-19 are solid blue rock wall face. The open vertical corridor South is Columns 3-6 (5,17 -> 5,23).
 - **Row 18-19 Rock Wall Barrier (Cols 1-9):** [Verified Turn 9227] Row 18 and Row 19 form a solid blue rock wall face across Columns 1 through 9. Columns 1-9 do NOT lead South past Row 17 on B1F.
 - **Column 18-19 Vertical Rock Pillar (Rows 13-21):** [Verified Turn 9231] Columns 18 and 19 form a solid blue rock wall pillar across Rows 13 through 21 on B1F. Row 17 does NOT connect East past Column 17; bypass North is via Column 17 to Row 7 (17,17 -> 17,7 -> 30,7).
