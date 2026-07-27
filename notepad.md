@@ -36,7 +36,6 @@
 - **Key Items:** Pokédex (Obtained from Prof. Oak on Turn 265), S.S. Ticket (Obtained from Bill on Turn 10317), HM01 Cut (Obtained from S.S. Anne Captain on Turn 12960).
 - **Inventory:** 8 Poké Balls (Turn 13073), TM34 (Bide), TM01 (Mega Punch), TM28 (Dig), Ether, HP Up, Rare Candy, Potion, Moon Stone, Dome Fossil, Nugget, HM01 Cut.
 - **Fossil Item:** Obtained Dome Fossil on Mt. Moon B2F [Turn 6146].
-- **HM01 Cut Move Compatibility:** Neither SHELLSHOCK, LUNA, nor MEOWTH can learn HM01 Cut in Gen 1 [Verified Turn 13075 - Meowth is NOT ABLE]. Need Bellsprout (Route 6) or Diglett (Diglett's Cave) or Oddish/Paras.
 
 <hr>
 
