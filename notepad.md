@@ -985,12 +985,14 @@
 
 <h1><code>notepads/Locations/MtMoon_B1F</code></h1>
 
+# Dummy for deletion
 
 
 <hr>
 
 <h1><code>notepads/Locations/MtMoon_B2F</code></h1>
 
+# Dummy for deletion
 
 
 <hr>
