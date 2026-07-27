@@ -71,7 +71,7 @@
 - **(32,27)-(33,27) Wall Collision:** [Verified Turn 8851] Solid rock wall face at (32,27) and (33,27) blocks Westward movement along Row 27. Bypass is Row 28 South Trench (34,28 -> 30,28).
 - **Column 23 Wall Face (Rows 6-11):** [Verified Turn 8713] Column 23 is a solid vertical rock wall face separating Eastern Cavern (Cols 24-30) from Western Cavern (Cols 10-22). The (25,9) <-> (17,11) reciprocal warp connects across this wall.
 - **Upper Platform Enclosure (Cols 14-22, Rows 8-11):** [Verified Turn 8715] Columns 14-22 across Rows 8-11 are enclosed by Col 12-13 wall face on West and Col 23 wall face on East. Only exit is ladder (17,11) <-> (25,9).
-- **(26,10) Wall Collision:** [Verified Turn 8782] Solid rock wall face at (26,10) blocks Eastward movement along Row 10 from (25,10).
+
 - **(13,10) Wall Collision:** [Verified Turn 8789] Solid rock wall face at (13,10) blocks Westward movement along Row 10 from (14,10). Columns 10-13 are solid rock wall across Rows 6-14.
 
 - **(29,26)-(29,30) Wall Collision:** [Verified Turn 8860] Solid rock wall face at Column 29 across Rows 26-30 blocks Westward movement along Row 26-30. True West bypass is Row 25 (30,25 -> 25,25).
