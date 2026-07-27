@@ -441,5 +441,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Lower Trench East Field Dead-End at (54,14-15):** [Verified Turn 14133] Solid rock wall at (54,14-15) blocks East end of Lower Trench. To reach Rock Tunnel, must return West to (0,8) West Entrance and walk Row 2 Northern Grass Highway East.
 - **Wall at (19,8):** [Verified Turn 14152] Column 19 on Row 8 is a solid mountain cliff wall blocking Westward movement on Row 8 from (20,8).
 - **Overpass Dead-End at (45,7):** [Verified Turn 14169] Row 6/7 overpass ends at (45,7) in a dead-end cliff wall. Must navigate West to (0,8) West Entrance to access Row 2 Northern Grass Highway.
+- **South-Facing Ledge at (13,11):** [Verified Turn 14175] Tile (13,11) is a south-facing ledge dropping DOWN from Row 10 to Row 12. Prevents walking UP from (13,12) to Row 10.
 
 <hr>
