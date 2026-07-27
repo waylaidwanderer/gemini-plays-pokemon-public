@@ -420,7 +420,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **West Entrance from Cerulean City:** [Verified Turn 13399] Enters Route 9 at X=0, Y=8.
 - **Cut Tree at (5,8):** [Verified Turn 13405] Interactive Cut tree at X=5, Y=8 chopped down using HM01 Cut.
 - **Master Route 9 Hierarchy (Elevations & One-Way Ledges):**
-  - **Level 1 - Northern Grass Highway (Rows 2-3):** The top-level continuous highway running East from Column 0 to Column 59 (Rock Tunnel entrance). Access point is at West Entrance (Cols 0-5, Rows 2-3).
+  - **Level 1 - Northern Grass Highway (Rows 2-3) [Hypothesis]:** Top-level highway running East from West Entrance (Cols 0-5, Rows 2-3). Hypothesis that Rows 2-3 provide unbroken passage to Column 59 (Rock Tunnel) requires tile-by-tile verification during traversal.
   - **Row 5 South Ledge (Cols 20-50):** [Verified Turns 14061, 14087] One-way drop-off jumping DOWN from Row 4/5 grass onto Row 6 pavement platform. Prevents walking UP from Row 6 to Row 3.
   - **Level 2 - Row 6-8 Middle Pavement Platform (Cols 20-45):** Bounded by Row 5 ledge at top and Row 11/13 ledge at bottom.
   - **South-Facing Ledge at (34,11):** [Verified Turn 14069/14071] One-way drop-off jumping DOWN from Row 11 to Row 12. Prevents walking UP from (34,12) to Row 6.
