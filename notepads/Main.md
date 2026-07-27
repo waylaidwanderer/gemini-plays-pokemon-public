@@ -26,7 +26,7 @@
 ## Current Progress & Party
 - **Badges:** 3 (Boulder Badge, Cascade Badge, Thunder Badge) [Thunder Badge obtained from Lt. Surge on Turn 13305]
 - **Party Pokémon:**
-  1. Blastoise (Lv 41) "SHELLSHOCK" - Tackle, Bite, BubbleBeam, Water Gun
+  1. Blastoise (Lv 42) "SHELLSHOCK" - Skull Bash, Bite, BubbleBeam, Water Gun
   2. Nidorina (Lv 18) "LUNA" - Tackle, Growl, Scratch, Poison Sting
   3. Meowth (Lv 12) "CUTTER" - Caught Turn 13066 (Cannot learn Cut in Gen 1)
   4. Bellsprout (Lv 13) "SPROUT" - Caught Turn 13098, Taught HM01 Cut [Verified Turn 13109]!
