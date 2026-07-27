@@ -26,3 +26,11 @@
 ## Verified Obstacles & Navigation Limits (Turn 8878)
 - **Row 16 Rock Wall:** Completely solid and continuous across Columns 50 to 57, making Route 10's lower pocket (Columns 50-53, Rows 14-15) a strict dead end going south.
 - **Row 13 Ledge:** Continuous across Columns 50 to 53, blocking all upward (northward) movement to the upper level of Route 10.
+
+
+## ROM Tile Map 2x Coordinate Scaling (Critical)
+- **Scale Factor:** The raw tile map file `route10_tile_map.txt` is exactly **2x scaled** relative to the in-game global coordinate grid reported by the harness.
+- **Mapping Formula:** To map from in-game global coordinates `(x_game, y_game)` to the raw file indices `(x_file, y_file)`:
+  - `x_file = (x_game - 50) * 2`  (maps to file columns `2 * (x_game - 50)` and `2 * (x_game - 50) + 1` since Route 10 starts at global `x_game = 50`)
+  - `y_file = y_game * 2`        (maps to file rows `2 * y_game` and `2 * y_game + 1`)
+- **Strict Spatial Consistency:** Each 1x1 in-game overworld tile corresponds to a 2x2 block of raw tiles in `route10_tile_map.txt`. All pathfinding and navigation scripts MUST apply this 2x multiplier before reading from or writing to the file representation.
