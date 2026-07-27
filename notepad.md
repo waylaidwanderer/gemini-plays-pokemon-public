@@ -193,26 +193,25 @@
 
 ## Party Statistics
 - **TESLA (Pikachu):**
-  - **Level:** 15
-  - **HP:** 0 / 38
-  - **Status:** Fainted
+  - **Level:** 16
+  - **HP:** 40 / 40
+  - **Status:** Healthy
 - **TRUFFLE (Paras):**
   - **Level:** 14
-  - **HP:** 0 / 37
-  - **Status:** Fainted
+  - **HP:** 37 / 37
+  - **Status:** Healthy
 - **GUSTY (Pidgey):**
   - **Level:** 5
-  - **HP:** 0 / 19
-  - **Status:** Fainted
+  - **HP:** 19 / 19
+  - **Status:** Healthy
 - **NIBBLES (Rattata):**
   - **Level:** 7
-  - **HP:** 0 / 22
-  - **Status:** Fainted
+  - **HP:** 22 / 22
+  - **Status:** Healthy
 - **SHELLBY (Wartortle):**
   - **Level:** 34
-  - **HP:** 4 / 92
-  - **Status:** Healthy (Very Low HP)
-
+  - **HP:** 77 / 92
+  - **Status:** Healthy
 
 
 <hr>
