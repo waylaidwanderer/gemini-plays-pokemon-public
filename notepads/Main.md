@@ -28,7 +28,7 @@
 - **Party Pokémon:**
   1. Blastoise (Lv 42) "SHELLSHOCK" - Skull Bash, Bite, BubbleBeam, Water Gun
   2. Nidorina (Lv 18) "LUNA" - Tackle, Growl, Scratch, Poison Sting
-  3. Meowth (Lv 12) "CUTTER" - Caught Turn 13066 (Cannot learn Cut in Gen 1)
+  3. Meowth (Lv 13) "CUTTER" - Caught Turn 13066 (Cannot learn Cut in Gen 1)
   4. Bellsprout (Lv 13) "SPROUT" - Caught Turn 13098, Taught HM01 Cut [Verified Turn 13109]!
 
 - **Key Items:** Pokédex (Obtained from Prof. Oak on Turn 265), S.S. Ticket (Obtained from Bill on Turn 10317), HM01 Cut (Obtained from S.S. Anne Captain on Turn 12960).
