@@ -15,3 +15,5 @@
 - **Vermilion Pokémart Door:** [Verified Turn 13046] Located at X=23, Y=13 on Vermilion City map. Building spans Cols 22-25, Rows 10-13 with "MART" sign at (24,13). Door mat is at (23,14) facing Up.
 - **Vermilion Pokémart Interior:** [Verified Turn 13051] Warp arrival at (3,7) facing Up. Exit mats at (3,7) and (4,7). Shop clerk at (0,5), counter accessible from (2,5) or (1,6). Stock: POKé BALL ($200), SUPER POTION ($700), ANTIDOTE ($100), PARLYZ HEAL ($200), AWAKENING ($200), ICE HEAL ($250).
 - **Vermilion Gym Entrance:** Gym doorway located at X=12, Y=19 on Vermilion City map. Accessible via open Row 20 pavement (14,20 -> 12,20 -> 12,19) without needing Cut!
+- **Cut Tree at (15,18):** [Verified Turn 13338] Interactive Cut tree at X=15, Y=18 chopped down using HM01 Cut, opening eastern corridor to Row 15!
+- **Decorative Hedge Bushes:** [Verified Turn 13327-13330] Bushes at (14,19) and gym fence lines are decorative wall hedges, NOT interactive Cut trees.
