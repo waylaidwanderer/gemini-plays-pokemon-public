@@ -932,7 +932,7 @@
 
 ## Terrain & Ledges
 - **Eastern River:** Columns 54-58 are water/river (specifically Column 54 is the shore, Columns 55-58 are water with animated wave sparkles).
-- **Ledge on Row 13:** A horizontal ledge facing DOWN runs across Row 13 (Block Row 3, tiles y=12-15) from Columns 50 to 53.
+- **Ledge on Row 13:** A horizontal ledge facing DOWN runs across Row 13 (tiles y=12-15) from Columns 50 to 53.
   - Standing below the ledge (Row 14/15), you CANNOT walk UP to Row 12/13.
   - Thus, the pocket at (50, 14) to (53, 15) is a dead end from the south-west, but you can escape by walking Left back to Route 9.
 - **Upper Level (Row 12/13):** Block Row 3 (tiles y=12-15) is completely walkable pavement from Column 52 to 58. This upper level allows players to walk east and go south to reach the Pokémon Center.
@@ -953,6 +953,5 @@
   - `x_file = (x_game - 50) * 2`  (maps to file columns `2 * (x_game - 50)` and `2 * (x_game - 50) + 1` since Route 10 starts at global `x_game = 50`)
   - `y_file = y_game * 2`        (maps to file rows `2 * y_game` and `2 * y_game + 1`)
 - **Strict Spatial Consistency:** Each 1x1 in-game overworld tile corresponds to a 2x2 block of raw tiles in `route10_tile_map.txt`. All pathfinding and navigation scripts MUST apply this 2x multiplier before reading from or writing to the file representation.
-
 
 <hr>
