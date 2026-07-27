@@ -85,7 +85,7 @@
 
 - **Solid Rock Wall Face at (11,20) & (17,20):** [Verified Turns 9698/9708/11453] Row 20 forms a solid rock wall face across Columns 10 through 16 on B1F. Cannot walk Down from Row 19 into Row 20 at Cols 10-16.
 
-- **(3,5) Elevation Stairs for (5,7) Platform:** [Verified Turn 9835] Solid platform wall face blocks Row 4 Southward entry into Row 5 across Cols 4-10. Descent to (5,7) ladder ground floor is via (3,5) elevation stairs!
+
 
 
 - **Solid Rock Wall Face at Column 19 (Rows 26-35):** [Verified Turn 11505] Column 19 is a solid blue rock wall face across Rows 26 through 35, blocking Westward movement along Rows 28 and 31.
