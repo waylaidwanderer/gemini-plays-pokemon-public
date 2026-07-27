@@ -967,9 +967,9 @@
 - **Row 9 Ledge & Gap (Columns 20-25):** Blocks going UP from Row 10 to Row 8. This ledge has an **empirically verified open gap at Column 29** (discovered on Turn 7399), allowing players to walk UP from (29, 10) to (29, 8/9).
 - **Lower Pavement Lane (Row 14/15, Columns 10-53):** Bounded by Row 13 ledge on top. Blocked on the west (Column 9) by a mountain wall. Contains Hiker Alan at (45, 15) and Hiker at (16, 15) facing right. Escape Gap is at (19, 14), walking UP through (19, 13) to (19, 12) into the grass lane.
 ## Empirical Navigation Realities
-- **Column 42 Blockage on Row 12:** Empirically verified multiple times (Turns 7741, 7829) that Row 12 is completely blocked at Column 42 by a solid diagonal rock cliff face.
-- **Passable Row 9 Bypass:** Empirically verified using ROM block layout analysis that Row 9 is completely passable from Column 39 to Column 48, providing a perfect corridor to bypass the Column 42 rock wall.
-- **Bypass Routing:** From (41, 12), walk UP to (41, 9), walk EAST along Row 9 to Column 49 (which is completely unblocked), and then walk DOWN to Row 12 on the east side of the blockage to reach Route 10 on the Upper Level!
+- **Column 42 Blockage on Row 12:** Empirically verified multiple times that Row 12 is completely blocked at Column 42 by a solid diagonal rock cliff face.
+- **Ledge & Mountain Layout:** Row 9 is blocked at Column 42 by a solid rock wall. Columns 26-28 are also blocked on Rows 2-7 by a solid rock wall. Row 14/15 is open but Column 24-27 has a rock wall. Route 10 lower pocket is a dead end blocked by Row 16 rock wall.
+- **Geographical Strategy:** Since the east side is blocked and Route 9 is a one-way path east, we must physically test if we can walk west on Row 14/15 to Column 9 to return to Cerulean City.
 
 <hr>
 
@@ -995,7 +995,7 @@
 - **Top Connection:** Connects West to Route 9 at the top-west (Block Rows 0 to 8).
 
 ## Verified Landmarks
-- **Pokémon Center:** Located at Block Row 17 (tiles y=68-69) on Columns 2-3 (tiles x=54-55). 
+- **Pokémon Center:** Located at tile coordinates x=58-61, y=68-71 (converted to the verified 4x4 overworld standard where 1 block = 4x4 tiles, so Block Row 17 is y=68-71 and Block Columns 2-3 are x=58-65). 
   - Block 0x0d is the roof/building.
   - Block 0x7f is the door/window.
 - **Rock Tunnel South Exit / Lavender Town Connection:** Located at the bottom of Route 10.
