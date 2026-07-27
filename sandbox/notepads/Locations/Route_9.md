@@ -29,3 +29,4 @@
 - **Northern Grass Highway (Rows 2-3):** Continuous top-level grass highway running above the rock wall outcrops (Cols 0-59) leading directly East towards Route 10 and Rock Tunnel entrance at Column 59. Needs tile-by-tile empirical verification from West to East.
 - Signpost at (25,7): [Verified Turn 13838] ROUTE 9 / CERULEAN CITY - ROCK TUNNEL.
 - Jr. Trainer M at (24,7): [Defeated Turn 14058] Defeated! Team: Growlithe Lv 21, Charmander Lv 21. Awarded ¥420.
+- **Row 5 South Ledge (Cols 20-25):** [Verified Turn 14061] South-facing one-way ledge at Row 5 across Cols 20-25 prevents walking UP from Row 6 pavement (23,6) to Row 5/3 grass.
