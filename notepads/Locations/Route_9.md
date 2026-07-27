@@ -35,3 +35,5 @@
 - **Row 5 South-Facing Ledges (Cols 20-24):** [Verified Turns 14393-14397] Tiles (20,5) through (24,5) are south-facing ledges blocking upward access from Row 6. Tile (25,5) is an open ascension gap.
 - **Ascension Gap at (25,5):** [Verified Turn 14398] Tile (25,5) is an open ascension gap allowing walking UP from Row 6 Overpass (25,6) directly onto Row 5/4/3/2 Level 1 Northern Grass Highway at (25,5)!
   - Bug Catcher at (22,2): [Defeated Turn 14423]
+- **Mountain Wall at (26,2..7):** [Verified Turn 14404] Column 26 on Rows 2-7 is a solid rock wall blocking Eastward traversal on Level 1 (Rows 2-4) and Row 6 Overpass.
+- **Column 30 Cliff Wall at (30,8):** [Verified Turn 14435] Tile (30,8) is a solid diagonal mountain cliff wall blocking direct Eastward traversal on Row 8 from (29,8) to East Overpass.
