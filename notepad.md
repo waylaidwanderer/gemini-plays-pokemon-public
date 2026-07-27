@@ -26,7 +26,7 @@
   - Pewter Gym Courtyard Corridor: Column 10 (x=10, y=15..18) -> Row 18 (x=10..16) [Verified Turn 521]
 
 ## Current Progress & Party
-- **Badges:** 2 (Boulder Badge, Cascade Badge) [Cascade Badge obtained from Misty on Turn 10001]
+- **Badges:** 3 (Boulder Badge, Cascade Badge, Thunder Badge) [Thunder Badge obtained from Lt. Surge on Turn 13305]
 - **Party Pokémon:**
   1. Blastoise (Lv 41) "SHELLSHOCK" - Tackle, Bite, BubbleBeam, Water Gun
   2. Nidorina (Lv 18) "LUNA" - Tackle, Growl, Scratch, Poison Sting
