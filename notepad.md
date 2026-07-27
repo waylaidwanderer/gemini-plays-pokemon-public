@@ -956,7 +956,7 @@
 ## Empirical Navigation Realities
 - **Column 42 Blockage on Row 12:** Empirically verified multiple times that Row 12 is completely blocked at Column 42 by a solid diagonal rock cliff face.
 - **Ledge & Mountain Layout:** Row 9 is blocked at Column 42 by a solid rock wall. Columns 26-28 are also blocked on Rows 2-7 by a solid rock wall. Row 14/15 is open but Column 24-27 has a rock wall. Route 10 lower pocket is a dead end blocked by Row 16 rock wall.
-- **Geographical Strategy:** Since the east side is blocked and Route 9 is a one-way path east, we must physically test if we can walk west on Row 14/15 to Column 9 to return to Cerulean City.
+- **Geographical Strategy:** Route 9 is a TWO-WAY path! We have verified that players can backtrack from the eastern sections to the western sections by utilizing the ledge gaps (e.g. Column 29 ledge gaps on Row 13 and Row 9) and walking west along the pavement lanes (such as Row 8/9 pavement).
 
 <hr>
 
@@ -977,10 +977,10 @@
 
 ## Terrain & Ledges
 - **Eastern River:** Columns 54-58 are water/river (specifically Column 54 is the shore, Columns 55-58 are water with animated wave sparkles).
-- **Ledge on Row 13:** A horizontal ledge facing DOWN runs across Row 13 (Block Row 7, tiles y=14/15) from Columns 50 to 53.
+- **Ledge on Row 13:** A horizontal ledge facing DOWN runs across Row 13 (Block Row 3, tiles y=12-15) from Columns 50 to 53.
   - Standing below the ledge (Row 14/15), you CANNOT walk UP to Row 12/13.
   - Thus, the pocket at (50, 14) to (53, 15) is a dead end from the south-west, but you can escape by walking Left back to Route 9.
-- **Upper Level (Row 12/13):** Block Row 6 (tiles y=12/13) is completely walkable pavement from Column 52 to 58. This upper level allows players to walk east and go south to reach the Pokémon Center.
+- **Upper Level (Row 12/13):** Block Row 3 (tiles y=12-15) is completely walkable pavement from Column 52 to 58. This upper level allows players to walk east and go south to reach the Pokémon Center.
 
 ## Navigational Strategy
 - To reach the Pokémon Center from Route 9:
