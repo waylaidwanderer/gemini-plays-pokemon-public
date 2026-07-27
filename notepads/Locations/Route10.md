@@ -1,7 +1,7 @@
 # Route 10 - Map Layout, Ledges & Landmarks
 
 ## Overworld Layout & Structure
-- **Dimensions:** Height = 36 blocks (72 tiles), Width = 10 blocks (20 tiles).
+- **Dimensions:** Height = 36 blocks (144 tiles), Width = 10 blocks (40 tiles).
 - **Global Alignment:** Route 10 starts at Column 50 of the global coordinate system.
 - **Top Connection:** Connects West to Route 9 at the top-west (Block Rows 0 to 8).
 
