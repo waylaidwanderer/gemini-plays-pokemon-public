@@ -11,3 +11,5 @@
 - **Hiker Trainer at (45,15):** [Engaged Turn 13528] Located at X=45, Y=15 facing LEFT. Team: Geodude Lv 21, Onix Lv 21.
 - **Column 41 Ledge Gap at Row 11 (41,11):** [Verified Turn 13555] Column 41 at Row 11 is an open grass gap connecting Row 12 directly UP to Row 10 grass (41,10) and Row 7-9 Light Gray Pavement Upper Highway (41,7..41,9), unlocking direct access to Route 10!
 - **Bug Catcher Trainer at (40,8):** [Engaged Turn 13556] Located at X=40, Y=8 facing RIGHT. Dialogue: "Go, my super bug POKÉMON!"
+- Jr. Trainer M at (33,7): [Defeated Turn 13609] Defeated! Team: Rattata Lv 19, Diglett Lv 19. Awarded ¥380.
+- Column 34 Vertical Corridor (34,6..12): [Verified Turn 13598] Open vertical pavement/grass corridor connecting Row 6 pavement (34,6) DOWN to Row 12 highway (34,12).
