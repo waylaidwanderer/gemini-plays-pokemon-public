@@ -8,4 +8,4 @@
 - **2nd Switch Check at (3,11):** [Turn 13152] Returned trash. 1st lock reset.
 - **Sailor Trainer at (1,10):** [Defeated Turn 13165] Defeated in battle.
 - **Rocker Trainer at (3,8):** [Defeated Turn 13193] Defeated in battle.
-- **Checked Empty Cans:** (1,9) [t13168], (3,9) [t13170], (1,7) [t13195], (3,7) [t13197], (1,11) [t13199], (3,11) [t13205], (5,11) [t13208].
+- **Checked Empty Cans:** (1,9) [t13168], (3,9) [t13170], (1,7) [t13195], (3,7) [t13197], (1,11) [t13199], (3,11) [t13205], (5,11) [t13208], (5,9) [t13210].
