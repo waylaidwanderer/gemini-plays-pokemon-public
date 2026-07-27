@@ -20,3 +20,8 @@
 - Row 11 Upper Highway (Cols 20-27): [Verified Turn 13629] Continuous open pavement highway running above the rock wall (Cols 24-27) connecting Row 12/13 (23,11) directly to Column 28 grass (28,11).
 - Column 28 North-South Grass Highway (28,2..15): [Verified Turn 13629] Unbroken vertical green grass corridor connecting lower levels to Northern Grass Highway (Rows 2-4).
 - Column 53 Ledge: [Verified Turn 13664] Tile (53,13) is a south-facing ledge, not a two-way gap.
+- **Ledge Topology & Field Connections [Verified Turn 13733]:**
+  - Lower Trench East Field (Cols 28-53, Row 14): Enclosed by Col 27 and Col 54 rock walls. The ONLY two-way exit is Column 29 Gap at (29,13).
+  - South-facing Ledge at (41,13): One-way jump DOWN from Row 12 (41,12) into Lower Trench East Field (41,14).
+  - Lower Trench West Field (Cols 10-23, Row 14): Connected via Column 19 Gap at (19,13). Leads West uninterrupted to Column 5 (5,14).
+  - Northern Grass Highway Access: Walking North up Column 5 from (5,14) through (5,8) Cut tree gap leads directly to Row 3 Northern Grass Highway at (5,3).
