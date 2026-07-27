@@ -368,5 +368,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 - **North Entrance from Route 6:** [Verified Turn 12581] Located at X=19, Y=0.
 - **Pokémon Center Doorway:** [Verified Turn 12583] Located at X=11, Y=3 on overworld. Spawn mat at (3,7) inside.
+- **Water Inlet at Rows 18-21:** [Verified Turn 12593] Water blocks Columns 16-19 at Rows 18-21. Bypass East via Column 20/21 pavement (20,17 -> 20,18+).
 
 <hr>
