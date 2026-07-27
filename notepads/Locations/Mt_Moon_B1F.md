@@ -100,5 +100,3 @@
 
 - **Decorative Ladder at (21,17):** [Verified Turn 11324] Tile (21,17) in B1F displays a ladder graphic but is non-functional (stepping on it triggers no warp).
 - **Solid Rock Wall Face at Column 19 (Rows 26-35):** [Verified Turn 11505] Column 19 is a solid blue rock wall face across Rows 26 through 35, blocking Westward movement along Rows 28 and 31.
-
-- **Solid Rock Wall Face at (15,20):** [Verified Turn 11673] Tile (15,20) is a solid blue rock wall face blocking Southward passage along Column 15 from (15,19).
