@@ -31,7 +31,7 @@
   1. Blastoise (Lv 41) "SHELLSHOCK" - Tackle, Bite, BubbleBeam, Water Gun
   2. Nidorina (Lv 18) "LUNA" - Tackle, Growl, Scratch, Poison Sting
   3. Meowth (Lv 12) "CUTTER" - Caught Turn 13066 (Cannot learn Cut in Gen 1)
-  4. Bellsprout (Lv 13) "SPROUT" - Caught Turn 13098, Taught HM01 Cut!
+  4. Bellsprout (Lv 13) "SPROUT" - Caught Turn 13098, Taught HM01 Cut [Verified Turn 13109]!
 
 - **Key Items:** Pokédex (Obtained from Prof. Oak on Turn 265), S.S. Ticket (Obtained from Bill on Turn 10317), HM01 Cut (Obtained from S.S. Anne Captain on Turn 12960).
 - **Inventory:** 8 Poké Balls (Turn 13073), TM34 (Bide), TM01 (Mega Punch), TM28 (Dig), Ether, HP Up, Rare Candy, Potion, Moon Stone, Dome Fossil, Nugget, HM01 Cut.
@@ -315,14 +315,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Human Bill:** [Verified Turn 10315] Located at X=4, Y=4 after Cell Separator operation. Spoke with Bill and received S.S. Ticket [Turn 10317]!
 - **Teleporter Machine:** Left pod at (2,5), Right pod at (5,5).
 - **Cell Separator PC Terminal:** [Verified Turn 10313] Interactive monitor at X=1, Y=4 accessed from X=1, Y=5 facing Up.
-
-<hr>
-
-<h1><code>Locations/Cerulean_City.md</code></h1>
-
-- **Route 5 Guardhouse Doorway:** [Verified Turn 11963] Located at X=13, Y=25 in South Cerulean City. Gate pillars at (10,25) and signpost at (11,25). Door at (13,25) leads to Route 5 / Underground Path.
-- **Route 5 South Exit Gateway at (16,28)-(17,29):** [Verified Turn 12097] Column 16 and 17 at Row 28 form an open light gray pavement gap through the tree line leading South past gate pillars at (16,29)/(17,29) into Route 5 (Row 30+).
-- **East Gym Bypass Corridor at (34,25):** [Verified Turn 12118] Column 34 at Row 25 is an open light gray pavement gap between Gym stairs (33,25) and tree pillars (35,25) allowing two-way passage between South Cerulean (Row 26) and Middle Cerulean (Row 21).
 
 <hr>
 
