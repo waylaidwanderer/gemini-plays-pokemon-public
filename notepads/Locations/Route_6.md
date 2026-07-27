@@ -5,7 +5,7 @@
 - **Central Ledge / Fence Barrier:** Row 32 across Columns 10-19 and Columns 5-7 is a solid grey fence/ledge barrier.
 - **West Highway Gap to Vermilion City:** Columns 8 and 9 at Row 32 (tiles (8,32) and (9,32)) are open light gray pavement forming the main entrance highway into Vermilion City!
 
- [Verified Turn 12555] Building at X=17, Y=14 on Route 6.
+- **Underground Path Route 6 Exit:** [Verified Turn 12555] Building at X=17, Y=14 on Route 6.
 - **Bug Catcher Trainer:** [Verified Turn 12558] Located at X=18, Y=26. Defeated!
 - **Jr. Trainer M Trainer:** [Verified Turn 12578] Located at X=10, Y=31 / X=9, Y=31. Defeated! Team: Spearow Lv 16, Ranticate Lv 16.
 - **Vermilion City South Exit Gap:** [Verified Turn 12580] Columns 8 and 9 form a light gray pavement corridor leading South through Row 32 statues into Vermilion City (Row 36).

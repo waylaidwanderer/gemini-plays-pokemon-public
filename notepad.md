@@ -329,7 +329,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Central Ledge / Fence Barrier:** Row 32 across Columns 10-19 and Columns 5-7 is a solid grey fence/ledge barrier.
 - **West Highway Gap to Vermilion City:** Columns 8 and 9 at Row 32 (tiles (8,32) and (9,32)) are open light gray pavement forming the main entrance highway into Vermilion City!
 
- [Verified Turn 12555] Building at X=17, Y=14 on Route 6.
+- **Underground Path Route 6 Exit:** [Verified Turn 12555] Building at X=17, Y=14 on Route 6.
 - **Bug Catcher Trainer:** [Verified Turn 12558] Located at X=18, Y=26. Defeated!
 - **Jr. Trainer M Trainer:** [Verified Turn 12578] Located at X=10, Y=31 / X=9, Y=31. Defeated! Team: Spearow Lv 16, Ranticate Lv 16.
 - **Vermilion City South Exit Gap:** [Verified Turn 12580] Columns 8 and 9 form a light gray pavement corridor leading South through Row 32 statues into Vermilion City (Row 36).
@@ -425,5 +425,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Column 19 Ledge Gap at Row 13 (19,13):** [Verified Turn 13456] Column 19 at Row 13 is an open grass gap (no ledge) connecting the Lower Trench (Row 14) back UP to the Upper Pathway (Row 12/13)! Allows two-way passage between lower trench and upper highway.
 - **Column 29 Ledge Gap at Row 13 (29,13):** [Verified Turn 13490] Column 29 at Row 13 is a two-way grass gap connecting lower grass field (Row 14) directly UP to upper highway (Row 12)!
 - **Master Path to Route 10:** [Verified Turn 13520] From (29,10) -> Down 2 to (29,12) -> Right 12 to (41,12) -> Down 2 hop ledge (41,13) to (41,14) -> Right East along Row 14 past Column 53 directly to Route 10!
+- **Hiker Trainer at (45,15):** [Engaged Turn 13528] Located at X=45, Y=15 facing LEFT. Team: Geodude Lv 21, Onix Lv 21.
 
 <hr>
