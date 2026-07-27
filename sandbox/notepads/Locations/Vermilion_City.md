@@ -11,3 +11,4 @@
 - **Trade House at (15,13):** [Verified Turn 12609] Doorway at (15,13) enters Trade House (Spearow -> Farfetch'd trade).
 - **S.S. Anne Pier Guard at (18,18):** Sailor NPC guards pier at (18,18). Speak to sailor from (18,17) with S.S. Ticket to enter pier.
 - **S.S. Anne Pier Entrance at Col 30:** [Verified Turn 12616] Pier entrance is located at Column 30 (30,15/30,16). Access via Row 14 pavement (25,14 -> 30,14 -> 30,16).
+- **S.S. Anne Gangplank Bridge:** [Verified Turn 12635] Gangplank bridge is at Columns 18-19 (18,28..30). Leads South across water onto the S.S. Anne at (19,30).
