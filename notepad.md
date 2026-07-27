@@ -398,25 +398,17 @@ Route 3 is structured into 3 horizontal elevation tiers:
 # S.S. Anne 2F Map & Points of Interest
 
 ## Geometry & Points of Interest
-- **Main Hallway (Rows 6-7):** Runs West to East across Columns 11 to 36+.
-- **Stairs Down to 1F:** Located at X=23, Y=8.
-- **Cabin Entrances (Row 8 Doorway Mats):**
-  - **Cabin X=11 at (11,8):** Contains Lass (Pidgey Lv 18, Nidoran♀ Lv 18), Youngster (Nidoran♂ Lv 21), and Item Ball (TM08) at (12,15). Fully explored!
-  - **Cabin X=15 at (15,8):** Contains Gentleman NPC traveling with Wigglytuff.
-  - **Cabin X=19 at (19,8):** Contains Lady NPC asking for cherry pie.
-  - **Cabin X=23 at (23,8):** Stairs leading down to S.S. Anne 1F.
-  - **Cabin X=31 at (31,8):** Cabin 1. Contains Gentleman NPC (Growlithe Lv 18 - Defeated!).
+- **Main Hallway (Row 12):** Wide East-West corridor spanning Columns 3 to 36+. Stairs up from 1F arrive at (2,4) alcove; walk Down via (3,10)-(3,11) to reach Row 12 [Verified Turn 12931].
+- **Stairs Down to 1F:** Located at X=2, Y=12 on 2F (connects to 1F X=2, Y=6) [Verified Turn 12926/12931].
+- **Rival RED Battle:** Triggered at X=36, Y=8 in North Vertical Corridor on S.S. Anne 2F [Defeated Turn 12952].
+- **Captain's Cabin Entrance Stairs:** Located at X=36, Y=4 at the top of North Vertical Corridor on S.S. Anne 2F [Verified Turn 12955]. Warps to Captain's Cabin at (0,7).
 
-## Key Map Transitions & Warps
-- **2F Corridor to Upper Deck / Captain's Corridor:** Stairs at (37,15) on 2F lead to Upper Deck.
-- **Captain's Corridor Doorway at (27,0) / (26,0):** Warps into Captain's Cabin doorway alcove at (14,2).
-- **Captain's Cabin Exit Warp at (14,0):** Warps completely out of ship to S.S. Anne Pier at (18,31).
-- **Pier Re-entry Path to S.S. Anne:** Walk East along Row 26 to Column 30 -> North along Column 30 to Row 22 -> West along Row 22 to Column 15 (15,22 gangplank entrance into 1F).
-- **Verified Cabin Contents (2F Upper Deck):**
-  - **Cabin X=11 (Cabin 4):** Sailor Trainer (Tentacool Lv 18, Staryu Lv 18). Impassable desk at (10,2).
-  - **Cabin X=7 (Cabin 5):** Girl NPC and Blue Hat NPC.
-- **Captain's Cabin Entry Alcove:**
-  - Stairs at X=2, Y=4 on the Entry Alcove map lead directly into the Captain's Cabin!
-- **Verified Captain's Cabin Entrance:** Warps from (26,0) at top of Column 26 staircase into Captain's Cabin at (14,2).
+## Captain's Cabin & Key Items
+- **Captain NPC:** Located at X=4, Y=2 in Captain's Cabin [Verified Turn 12957].
+- **HM01 Cut Obtained:** Spoke with Captain at (4,2) facing Up from (4,3), rubbed his back, and received HM01 Cut [Verified Turn 12960]!
+
+## Cabin Entrances (Row 11 Doorways)
+- **Cabin 1 at (31,8):** Contains Gentleman NPC (Growlithe Lv 18 - Defeated!).
+- **Cabin 4 at (11,8):** Contains Lass (Pidgey Lv 18, Nidoran♀ Lv 18), Youngster (Nidoran♂ Lv 21), and Item Ball (TM08) at (12,15).
 
 <hr>
