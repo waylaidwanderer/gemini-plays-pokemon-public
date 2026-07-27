@@ -189,7 +189,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Row 9 Rock Wall Face (Cols 21-29):** [Verified Turn 9553] Row 9 is a solid blue rock wall face across Columns 21 through 29 on B1F.
 
 
-- **Solid Rock Wall Face at (11,20) & (17,20):** [Verified Turns 9698/9708/11453] Row 20 forms a solid rock wall face across Columns 10 through 16 on B1F. Cannot walk Down from Row 19 into Row 20 at Cols 10-16.
+
 
 
 
