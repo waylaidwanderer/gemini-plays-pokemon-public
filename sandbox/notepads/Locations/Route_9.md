@@ -28,3 +28,4 @@
 - Lower Trench East Field (Cols 28-53, Rows 14-15): [Verified Turn 13861] Ends at a dead-end solid rock wall at (54,14-15). The ONLY exit is returning West to Column 29 Gap at (29,13).
 - **Northern Grass Highway (Rows 2-3):** Continuous top-level grass highway running above the rock wall outcrops (Cols 0-59) leading directly East towards Route 10 and Rock Tunnel entrance at Column 59. Needs tile-by-tile empirical verification from West to East.
 - Signpost at (25,7): [Verified Turn 13838] ROUTE 9 / CERULEAN CITY - ROCK TUNNEL.
+- Jr. Trainer M at (24,7): [Engaged Turn 14051] Engaged in battle!
