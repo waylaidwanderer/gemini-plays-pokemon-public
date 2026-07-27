@@ -20,3 +20,4 @@
   - Jr. Trainer M at (24,7): [Defeated Turn 14058] Team: Growlithe Lv 21, Charmander Lv 21.
 - **Signpost at (25,7):** [Verified Turn 13838] ROUTE 9 / CERULEAN CITY - ROCK TUNNEL.
 - **Ascension Gap at (29,13) & (29,9):** [Verified Turn 14103] Interactive gap at (29,13) allows walking UP from Lower Trench (Row 14) directly to Level 3 (Row 12) and through (29,9) to Level 1 Northern Highway (Row 8)!
+- **Mountain Wall at (29,7):** [Verified Turn 14126] Solid rock wall at (29,7) blocks walking UP from (29,8). To reach Row 2 Northern Highway, must approach from West Entrance (0,8).
