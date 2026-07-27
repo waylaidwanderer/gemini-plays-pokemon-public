@@ -29,6 +29,6 @@
   - **Moves:** Tackle, Bite, BubbleBeam, Water Gun
 
 - **Key Items:** Pokédex (Obtained from Prof. Oak on Turn 265), S.S. Ticket (Obtained from Bill on Turn 10317), HM01 Cut (Obtained from S.S. Anne Captain on Turn 12960).
-- **Inventory:** 5 Poké Balls, TM34 (Bide), TM01 (Mega Punch), TM28 (Dig), Ether, HP Up, Rare Candy, Potion, Moon Stone, Dome Fossil, Nugget.
+- **Inventory:** 0 Poké Balls (Out of Poké Balls - need to buy at Vermilion Pokémart!), TM34 (Bide), TM01 (Mega Punch), TM28 (Dig), Ether, HP Up, Rare Candy, Potion, Moon Stone, Dome Fossil, Nugget, HM01 Cut.
 - **Fossil Item:** Obtained Dome Fossil on Mt. Moon B2F [Turn 6146].
 - **HM01 Cut Move Compatibility:** Neither SHELLSHOCK (Blastoise) nor LUNA (Nidorina) can learn HM01 Cut in Gen 1 [Verified Turn 12965]. Need a Cut-compatible Pokémon (Oddish, Bellsprout, Meowth, Sandshrew, Paras, Diglett).
