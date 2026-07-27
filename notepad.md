@@ -424,7 +424,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Route 9 Ledge Topology:** Ledge #1 at Row 11 (Cols 10-13) and Ledge #2 at Row 13 (Cols 10-23) are one-way south-facing ledges enclosing the lower trench (Rows 14-15).
 - **Column 19 Ledge Gap at Row 13 (19,13):** [Verified Turn 13456] Column 19 at Row 13 is an open grass gap (no ledge) connecting the Lower Trench (Row 14) back UP to the Upper Pathway (Row 12/13)! Allows two-way passage between lower trench and upper highway.
 - **Column 29 Ledge Gap at Row 13 (29,13):** [Verified Turn 13490] Column 29 at Row 13 is a two-way grass gap connecting lower grass field (Row 14) directly UP to upper highway (Row 12)!
-- **Master Path to Route 10:** [Verified Turn 13520] From (29,10) -> Down 2 to (29,12) -> Right 12 to (41,12) -> Down 2 hop ledge (41,13) to (41,14) -> Right East along Row 14 past Column 53 directly to Route 10!
 - **Hiker Trainer at (45,15):** [Engaged Turn 13528] Located at X=45, Y=15 facing LEFT. Team: Geodude Lv 21, Onix Lv 21.
 - **Column 41 Ledge Gap at Row 11 (41,11):** [Verified Turn 13555] Column 41 at Row 11 is an open grass gap connecting Row 12 directly UP to Row 10 grass (41,10) and Row 7-9 Light Gray Pavement Upper Highway (41,7..41,9), unlocking direct access to Route 10!
 - **Bug Catcher Trainer at (40,8):** [Engaged Turn 13556] Located at X=40, Y=8 facing RIGHT. Dialogue: "Go, my super bug POKÉMON!"
