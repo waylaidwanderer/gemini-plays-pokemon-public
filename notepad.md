@@ -960,13 +960,6 @@
 
 <hr>
 
-<h1><code>notepads/notepads/notepads/Locations/MtMoon_B2F</code></h1>
-
-# Dummy for deletion
-
-
-<hr>
-
 <h1><code>Locations/Route10</code></h1>
 
 # Route 10 - Map Layout, Ledges & Landmarks
