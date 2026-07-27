@@ -44,9 +44,8 @@
   - `y_file = y_game * 2`  (maps to file rows `2 * y_game` and `2 * y_game + 1`)
 - **Strict Spatial Consistency:** Each 1x1 in-game overworld tile corresponds to a 2x2 block of raw tiles in `route9_tile_map.txt`. All pathfinding and navigation scripts MUST apply this 2x multiplier before reading from or writing to the file representation.
 
-- **Route 9 East Dead-End Pocket (Columns 45-46, Rows 6-7):** Once entered, this pocket is a strict dead-end with no overworld exit.
-  - **Column 44 Vertical Ledge:** A vertical ledge facing east blocks all westward (leftward) movement across Column 44 on both Row 6 and Row 7, preventing players from exiting the pocket to the west.
-  - **Column 46 Rock Wall:** Solid rock wall blocks all eastward (rightward) movement across Column 46 on Rows 4-7, preventing players from exiting the pocket to the east.
-  - **Row 5 Rock Wall:** Solid rock wall blocks all northward (upward) movement across Row 5 on Column 45.
-  - **Row 7 Ledge and Row 8 Diagonal Rock Wall Blockage:** A horizontal ledge facing down runs across Row 7 on Column 45. However, jumping DOWN from `(45, 7)` onto `(45, 8)` is completely blocked because `(45, 8)` is a diagonal rock corner tile classified as solid by the ROM's collision routine.
-  - **Escape Route:** The only way to escape this pocket is to use DIG (TM28) or TELEPORT (TM30) to warp back to a Pokémon Center!
+- **Route 9 East Pocket (Columns 45-46, Rows 6-7):**
+  - **Column 44:** Open pavement. Does NOT block westward (leftward) movement.
+  - **Column 46 Rock Wall:** Solid rock wall blocks all eastward (rightward) movement across Column 46 on Rows 4-7.
+  - **Row 7 Ledge and Row 8 Diagonal Rock Wall Blockage:** Jumping DOWN from (45, 7) onto (45, 8) is blocked because (45, 8) is a diagonal rock corner tile.
+  - **Escape Route:** You can simply walk Left (west) back across Column 44 onto Column 41/42 to exit the pocket. No soft-lock or warp is required.
