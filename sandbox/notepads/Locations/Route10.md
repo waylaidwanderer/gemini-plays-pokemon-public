@@ -16,7 +16,7 @@
 - **Ledge on Row 13:** A horizontal ledge facing DOWN runs across Row 13 (tiles y=12-15) from Columns 50 to 53.
   - Standing below the ledge (Row 14/15), you CANNOT walk UP to Row 12/13.
   - Thus, the pocket at (50, 14) to (53, 15) is a dead end from the south-west, but you can escape by walking Left back to Route 9.
-- **Upper Level (Row 12/13):** Block Row 3 (tiles y=12-15) is completely walkable pavement from Column 52 to 58. This upper level allows players to walk east and go south to reach the Pokémon Center.
+- **Upper Level (Row 12/13):** y=12-15 is completely walkable pavement from Column 52 to 58. This upper level allows players to walk east and go south to reach the Pokémon Center.
 
 ## Navigational Strategy
 - To reach the Pokémon Center from Route 9:
