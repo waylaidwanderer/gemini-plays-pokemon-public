@@ -268,6 +268,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **East Gym Bypass Corridor at (34,25):** [Verified Turn 12118] Column 34 at Row 25 is an open light gray pavement gap between Gym stairs (33,25) and tree pillars (35,25) allowing two-way passage between South Cerulean (Row 26) and Middle Cerulean (Row 21).
 - **Column 19 Barrier:** [Verified Turn 13369-13381] Solid statue/wall face along Column 19 at Rows 2-12, 19-23, and 28-31 blocking direct East movement from West Cerulean.
 - **Cerulean Gym Location:** [Verified Turn 13378-13381] Gym building occupies Cols 16-19, Rows 24-27. Front entrance door at (17,27).
+- **East Cerulean Gateway at (36,28)-(37,29):** [Verified Turn 13395] Columns 36 and 37 form a wide open 2-tile pavement corridor through the tree line connecting Route 5 (Row 30) directly to East Cerulean City (Row 26+) and Route 9!
 
 <hr>
 
