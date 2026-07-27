@@ -443,5 +443,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
   - Row 11 Pavement Overpass (Cols 23-27, Row 11): Light gray pavement corridor running above the (24-27, 12) rock wall that connects Row 12 East (28,11) to Row 12 West (23,11/23,12).
 - **Column 29 Gap at Row 9 (29,9):** [Verified Turn 13827] Column 29 at Row 9 is an open two-way grass gap allowing ascent from Row 10 grass (29,10) directly UP to Row 8 Top Highway (29,8)!
 - **Top Highway Route:** Ascending Column 29 Gap (29,13 -> 29,11 -> 29,9 -> 29,8) connects the middle levels directly to the Top Highway (Rows 3-8), opening continuous eastward access across Route 9 to Route 10!
+- Signpost at (25,7): [Verified Turn 13838] ROUTE 9 / CERULEAN CITY - ROCK TUNNEL.
 
 <hr>
