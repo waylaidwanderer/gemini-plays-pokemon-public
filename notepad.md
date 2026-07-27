@@ -438,5 +438,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Signpost at (25,7):** [Verified Turn 13838] ROUTE 9 / CERULEAN CITY - ROCK TUNNEL.
 - **Ascension Gap at (29,13) & (29,9):** [Verified Turn 14103] Interactive gap at (29,13) allows walking UP from Lower Trench (Row 14) directly to Level 3 (Row 12) and through (29,9) to Level 1 Northern Highway (Row 8)!
 - **Mountain Wall at (29,7):** [Verified Turn 14126] Solid rock wall at (29,7) blocks walking UP from (29,8). To reach Row 2 Northern Highway, must approach from West Entrance (0,8).
+- **Lower Trench East Field Dead-End at (54,14-15):** [Verified Turn 14133] Solid rock wall at (54,14-15) blocks East end of Lower Trench. To reach Rock Tunnel, must return West to (0,8) West Entrance and walk Row 2 Northern Grass Highway East.
 
 <hr>
