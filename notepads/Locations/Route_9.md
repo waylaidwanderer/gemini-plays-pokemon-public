@@ -42,3 +42,5 @@
 - **Ledge Jump at (6,7):** [Verified Turn 14455] Stepping DOWN from (6,6) over (6,7) south-facing ledge drops directly onto Row 8 pavement at (6,8)!
 
 - **Lower Trench East Field Boundary:** [Verified Turn 14518] Column 54 is a solid vertical rock wall. Tiles (52,13) and (53,13) are south-facing ledges dropping DOWN from Row 12 to Row 14.
+- **Level 1 Northern Grass Highway Ascension Gap at (39,5):** [Verified Turn 14711] Stepping UP from Row 6 pavement at (39,6) through (39,5) gap accesses Level 1 Northern Grass Highway at (39,4)! Grants full access to Eastern Route 9 (Cols 38-59) and Rock Tunnel!
+- **Picnicker at (43,3):** [Encountered Turn 14711] Picnicker / Jr. Trainer Female standing on Level 1 Northern Grass Highway at (43,3).
