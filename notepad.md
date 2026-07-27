@@ -417,6 +417,12 @@ Route 3 is structured into 3 horizontal elevation tiers:
 
 # Route 9 Map & Points of Interest (Complete Unified Topology)
 
+## TRUE MASTER PATH TO ROCK TUNNEL:
+To reach Rock Tunnel (Column 59), you MUST use Level 1 Northern Grass Highway (Rows 2-3)!
+- **How to Access:** Approach from West Entrance (0,8) -> Cut tree at (5,8) -> Walk NORTH (UP) to (5,2) [Row 2 Northern Grass Highway].
+- **Traversal:** Follow Rows 2-3 EAST across the very top of Route 9 directly to Column 59 (Rock Tunnel entrance).
+- **Note:** All lower elevations (Row 6 overpass, Row 12, Row 14 Lower Trench) end in dead-end walls or one-way drop-offs! Do NOT attempt to navigate East on lower levels.
+
 - **West Entrance from Cerulean City:** [Verified Turn 13399] Enters Route 9 at X=0, Y=8.
 - **Cut Tree at (5,8):** [Verified Turn 13405] Interactive Cut tree at X=5, Y=8 chopped down using HM01 Cut.
 - **Master Route 9 Hierarchy (Elevations & One-Way Ledges):**
