@@ -427,7 +427,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Column 29 Ledge Gap at Row 13 (29,13):** [Verified Turn 13490] Column 29 at Row 13 is a two-way grass gap connecting lower grass field (Row 14) directly UP to upper highway (Row 12)!
 - **Hiker Trainer at (45,15):** [Defeated Turn 13528] Team: Geodude Lv 21, Onix Lv 21.
 - **Bug Catcher Trainer at (40,8):** [Defeated Turn 13556] Team: Caterpie, Weedle, etc.
-- Northern Grass Highway (Rows 3-4): Northern grass path running along the top of Route 9. Needs tile-by-tile empirical verification from West to East.
+- **Northern Grass Highway (Rows 2-3):** Continuous top-level grass highway running above the rock wall outcrops (Cols 0-59) leading directly East towards Route 10 and Rock Tunnel entrance at Column 59. Needs tile-by-tile empirical verification from West to East.
 - Jr. Trainer M at (33,7): [Defeated Turn 13609] Defeated! Team: Rattata Lv 19, Diglett Lv 19. Awarded ¥380.
 - Column 34 Vertical Corridor (34,6..12): [Verified Turn 13598] Open vertical pavement/grass corridor connecting Row 6 pavement (34,6) DOWN to Row 12 highway (34,12).
 - Row 11 Upper Highway (Cols 20-27): [Verified Turn 13629] Continuous open pavement highway running above the rock wall (Cols 24-27) connecting Row 12/13 (23,11) directly to Column 28 grass (28,11).
@@ -443,7 +443,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - Structural Barrier at (30,8): [Verified Turn 13839] Solid rock wall at (30,8) blocks eastward movement along Row 8 from (29,8).
 - Structural Barrier at (46,13): [Verified Turn 13857] South-facing ledge at (46,13) blocks upward movement from Row 14 grass to Column 46 pavement.
 - Lower Trench East Field (Cols 28-53, Rows 14-15): [Verified Turn 13861] Ends at a dead-end solid rock wall at (54,14-15). The ONLY exit is returning West to Column 29 Gap at (29,13).
-- Northern Grass Highway (Rows 3-4): Northern grass path running along the top of Route 9. Needs tile-by-tile empirical verification from West to East.
+- **Northern Grass Highway (Rows 2-3):** Continuous top-level grass highway running above the rock wall outcrops (Cols 0-59) leading directly East towards Route 10 and Rock Tunnel entrance at Column 59. Needs tile-by-tile empirical verification from West to East.
 - Signpost at (25,7): [Verified Turn 13838] ROUTE 9 / CERULEAN CITY - ROCK TUNNEL.
 
 <hr>
