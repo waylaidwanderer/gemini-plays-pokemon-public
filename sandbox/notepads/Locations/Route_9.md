@@ -40,8 +40,5 @@
 - **Ledge at (34,11):** [Verified Turn 14442] Tile (34,11) is a south-facing ledge blocking upward access from Row 12 to Row 10 at Column 34.
 - **Mountain Wall at (5,2..7):** [Verified Turn 14455] Column 5 on Rows 2-7 is a solid rock wall blocking Westward movement beyond Column 6 on Level 1.
 - **Ledge Jump at (6,7):** [Verified Turn 14455] Stepping DOWN from (6,6) over (6,7) south-facing ledge drops directly onto Row 8 pavement at (6,8)!
-- **Complete Verified Route to Rock Tunnel:** [Verified Turn 14463]
-  1. West Entrance (0,8) -> Cut tree (5,8) -> Row 8 pavement at (6,8).
-  2. Walk East to (12,8) -> South to (12,10) -> Jump South over ledge at (12,11) to (12,12) on Row 12 Highway.
 
 - **Lower Trench East Field Boundary:** [Verified Turn 14518] Column 54 is a solid vertical rock wall. Tiles (52,13) and (53,13) are south-facing ledges dropping DOWN from Row 12 to Row 14.
