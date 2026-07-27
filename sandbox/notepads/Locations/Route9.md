@@ -35,3 +35,11 @@
 - **Columns 24-27 Rock Wall on Row 14-15:** Blocks eastward movement on the lower lanes.
 - **Column 19 Vertical Ledge on Rows 8-11:** Blocks westward (backtracking) movement on the upper lanes.
 - **Column 24/25 Vertical Ledge on Rows 5-6:** Blocks westward (leftward) movement on the upper lanes.
+
+
+## ROM Tile Map 2x Coordinate Scaling (Critical)
+- **Scale Factor:** The raw tile map file `route9_tile_map.txt` is exactly **2x scaled** relative to the in-game global coordinate grid reported by the harness.
+- **Mapping Formula:** To map from in-game global coordinates `(x_game, y_game)` to the raw file indices `(x_file, y_file)`:
+  - `x_file = x_game * 2`  (maps to file columns `2 * x_game` and `2 * x_game + 1`)
+  - `y_file = y_game * 2`  (maps to file rows `2 * y_game` and `2 * y_game + 1`)
+- **Strict Spatial Consistency:** Each 1x1 in-game overworld tile corresponds to a 2x2 block of raw tiles in `route9_tile_map.txt`. All pathfinding and navigation scripts MUST apply this 2x multiplier before reading from or writing to the file representation.
