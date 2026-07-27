@@ -124,7 +124,6 @@
 - **Defeated Gym Junior Trainer:** Defeated Pewter Gym Junior Trainer on Turn 979.
 - **Defeated Gym Leader Brock:** Defeated Pewter Gym Leader Brock on Turn 1024, obtaining the BOULDERBADGE and TM34 (Bide).
 - **Pewter Poké Mart Shopping:** Purchased Poké Balls, Potions, and Antidote on Turn 1033.
-- **Route 3 Entrance:** Entered Route 3 on Turn 1041.
 - **Defeated Youngster Calvin:** Defeated Youngster Calvin on Turn 1325.
 - **Defeated Lass Sally:** Defeated Lass Sally on Turn 1348.
 - **Healed at Mt. Moon Pokémon Center:** Healed party at (11, 5) on Turn 1422.
@@ -142,9 +141,6 @@
 - **Defeated Bug Catcher (South-East):** Defeated Bug Catcher at (30, 27) on Mt. Moon 1F on Turn 2697, earning 100.
 - **Defeated Super Nerd:** Defeated Super Nerd near (24, 27) on Mt. Moon 1F on Turn 2731, earning 275.
 
-- **Entered Cerulean City:** Arrived in Cerulean City from Route 4 on Turn 4062.
-- **Entered Cerulean Gym:** Entered Gym at (30, 19) on Turn 4088.
-- **Entered Melanie's House:** Entered house at (13, 15) on Turn 4109.
 - **Defeated Rival JACK:** Defeated JACK at (20, 6) on Route 24 on Turn 4416, earning 595.
 - **Defeated Bug Catcher Cale:** Defeated Bug Catcher Cale at (11, 32) on Route 24 on Turn 4461, earning 140.
 - **Defeated Lass Ali:** Defeated Lass Ali at (10, 28) on Route 24 on Turn 4475, earning 210.
@@ -158,7 +154,6 @@
 - **Defeated Jr. Trainer♂ Shane:** Defeated Jr. Trainer♂ Shane at (24, 4) on Turn 4734, earning 540.
 - **Defeated Lass Haley:** Defeated Lass Haley at (37, 5) on Turn 4758, earning 195.
 - **Obtained S.S. TICKET:** Received S.S. TICKET from Bill in his Sea Cottage on Route 25 on Turn 4781.
-- **Entered Route 25:** Arrived on Route 25 on Turn 4642.
 - **Defeated Hiker Franklin:** Defeated Hiker Franklin at (8, 4) on Turn 4659, earning 525.
 - **Defeated Rocket Grunt (Burgled House Backyard):** Defeated Team Rocket Grunt on Turn 4897, earning 510 and obtaining TM28 (Dig).
 - **Defeated Jr. Trainer♂ (Route 24 Grass):** Defeated Jr. Trainer♂ on Turn 4992, earning 280.
@@ -175,7 +170,6 @@
 - **Defeated Jr. Trainer♂ (Route 6):** Defeated Jr. Trainer♂ at (8, 31) on Turn 6211, earning 320.
 
 - **Cut the Gym Bush:** Cut the Gym bush in Vermilion City to open access to the Gym on Turn 6799.
-- **Entered Vermilion Gym:** Entered Vermilion Gym on Turn 6801.
 - **Whited Out in Gym:** Whited out against Sailor Dwayne in Vermilion Gym on Turn 6837; returned to Vermilion Pokémon Center and fully restored party.
 - **Defeated Sailor Dwayne (Vermilion Gym):** Defeated Sailor Dwayne at (0, 10) in Vermilion Gym on Turn 6863, earning ¥630.
 - **Defeated Rocker Harrison (Vermilion Gym):** Defeated Rocker Harrison at (3, 8) in Vermilion Gym on Turn 6886, earning ¥500.
@@ -183,7 +177,6 @@
 - **Solved Vermilion Gym Puzzle:** Found first switch at (1, 11) and second switch at (3, 11) on Turn 7005, opening the motorized door to Lt. Surge.
 - **Defeated Gym Leader Lt. Surge:** Defeated Vermilion Gym Leader Lt. Surge on Turn 7027, obtaining the THUNDERBADGE and TM24 (Thunderbolt).
 - **Attempted Vermilion Pokémon Center Visit:** Entered Pokémon Center on Turn 7068, but the healing dialogue was accidentally declined/cancelled by pressing 'B' on the YES/NO prompt, so the party was NOT healed.
-- **Entered Route 9:** Transitioned from the eastern lane of Cerulean City onto Route 9 on Turn 7122.
 - **Defeated JR. TRAINER♀ (Route 9):** Defeated JR. TRAINER♀ on Route 9 on Turn 7197, earning ¥360.
 - **Obtained Item (TM30):** Found and retrieved TM30 (Teleport) at (10, 15) on Route 9 on Turn 7206.
 - **Defeated Hiker (Route 9):** Defeated Hiker at (45, 15) on Route 9 on Turn 7280, earning ¥735.
