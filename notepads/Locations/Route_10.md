@@ -7,3 +7,4 @@
 - **Fence Opening at (13,11):** [Verified Turn 14738] Gap in Row 11 fence at Column 13 allows heading South from tall grass field onto lower Route 10.
 - **Route 10 Pokémon Center Door:** [Verified Turn 14741] Entrance door located at (11,19).
 - **Route 10 Checkpoint:** [Verified Turn 14753] Party fully healed by Nurse Joy at (3,1)/(3,2) inside Route 10 Pokémon Center! Respawn checkpoint active!
+- **Rock Tunnel Entrance:** [Verified Turn 14767] Located on East mountain wall at (15,6)/(15,7), accessed via open floor at (14,6)/(14,7).
