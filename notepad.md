@@ -380,3 +380,13 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **S.S. Anne Gangplank Bridge:** [Verified Turn 12635] Gangplank bridge is at Columns 18-19 (18,28..30). Leads South across water onto the S.S. Anne at (19,30).
 
 <hr>
+
+<h1><code>Locations/SS_Anne_1F</code></h1>
+
+# S.S. Anne 1F Map & Points of Interest
+
+- **1F Entrance Warp:** [Verified Turn 12642] Entrance from pier spawns at (27,0).
+- **Main 1F Hallway:** [Verified Turn 12642] Row 6 & 7 form a wide East-West hallway (Cols 0-31).
+- **Sailor NPC at (27,5):** Wandering sailor stands at (27,5); bypass West via Col 26 (26,4 -> 26,6).
+
+<hr>
