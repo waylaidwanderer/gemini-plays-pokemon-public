@@ -415,5 +415,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
   - **Cabin X=7 (Cabin 5):** Girl NPC and Blue Hat NPC.
 - **Captain's Cabin Entry Alcove:**
   - Stairs at X=2, Y=4 on the Entry Alcove map lead directly into the Captain's Cabin!
+- **Verified Captain's Cabin Entrance:** Warps from (26,0) at top of Column 26 staircase into Captain's Cabin at (14,2).
 
 <hr>
