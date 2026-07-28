@@ -486,3 +486,13 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Rock Tunnel 1F Entrance:** [Verified Turn 14907] Entrance door located at (8,17) on Route 10 North, accessible via fence gap at (2,19)/(3,19), along row 18 corridor to (8,18), then Up into (8,17).
 
 <hr>
+
+<h1><code>Locations/Rock_Tunnel_1F</code></h1>
+
+# Rock Tunnel 1F Map & Points of Interest
+
+## ROCK TUNNEL 1F NAVIGATION:
+- **Entrance Warp from Route 10 North:** [Verified Turn 14908] Spawns at X=15, Y=3 facing South.
+- **Exit Warp back to Route 10 North:** Stepping North at X=15, Y=2 exits back to Route 10 North.
+
+<hr>
