@@ -524,5 +524,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - Horizontal Wall at Rows 20-21: [Verified Turns 15138, 15153] Confirmed solid rock wall at (20-21, 21) and (33, 20-21). Opening verified at Col 20-25.
 - Northwest Ladder to 1F at (23, 11): [Discovered Turn 15181] Ladder graphic visible at X=23, Y=11 in the Top Highway of Rock Tunnel B1F.
 - Hiker at (29,11): [Defeated Turn 15178] Defeated Hiker with Geodude (Lv 25). Earned prize money.
+- Pillar Wall at Cols 24-25: [Verified Turn 15182] Vertical rock wall pillar at Cols 24-25 (Rows 10-15) blocking direct West movement from (26,11) to (23,11).
 
 <hr>
