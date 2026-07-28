@@ -982,6 +982,8 @@
 - **(34, 11):** Walkable.
 - **(34, 12):** Walkable.
 - **(34, 8):** Walkable.
+- **(34, 6):** Walkable (visited on Turn 10472).
+- **(34, 5):** Walkable (visited on Turn 10472).
 - **(34, 4):** Walkable.
 - **(35, 4):** Walkable.
 - **(36, 4):** Walkable.
