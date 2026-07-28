@@ -571,5 +571,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Solid Rock Wall at (13,3):** [Verified Turn 15757] Bumped wall when attempting Left from (14,3). Cols 12-13 are a continuous vertical wall from Row -1 down to Row 29.
 - Horizontal Rock Wall at Rows 8-9 (Cols 20-25): [Verified Turn 15785] Solid rock wall at Rows 8-9 across Cols 20-25 blocks direct Down movement from Row 7 to Row 10 at Col 23. Pass around via Col 14-17 highway.
 - Solid Rock Wall at (17,15): [Verified Turn 15795] Bumped wall at (17,15) when attempting Down from (17,14). Bypass via Col 15.
+- Pillar Wall at Cols 22-23 (Rows 17-23): [Verified Turn 15800] Solid vertical rock pillar at Cols 22-23 (Rows 17-23) blocks East movement on Row 21 from (21,21). Bypass East via Row 16.
 
 <hr>
