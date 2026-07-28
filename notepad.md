@@ -175,6 +175,7 @@
 - **Entry Warp:** Route 10 East connects to Rock Tunnel 1F at (15, 3). Walking SOUTH from (15, 3) enters the main corridor.
 - **Ladder to B1F (Top-Left Section):** Located at `(5, 3)`. Connects to Rock Tunnel B1F at `(27, 3)`.
 - **Ladder to B1F (Top-Right Section):** Located at `(37, 3)`. Connects to Rock Tunnel B1F at `(33, 25)`.
+- **Ladder to B1F (Central Section):** Located at `(17, 11)`. Connects to Rock Tunnel B1F at `(23, 11)`.
 
 ### Verified Walkable Coordinates:
 - (15, 3)
@@ -187,6 +188,8 @@
 - (11, 10), (11, 11), (11, 12), (11, 13)
 - (11, 14), (11, 15)
 - (12, 15), (13, 15), (14, 15)
+- (14, 14), (14, 13), (14, 12), (14, 11)
+- (15, 11), (16, 11), (17, 11)
 
 ## Verified Collisions
 
@@ -206,8 +209,10 @@
 ## Mapped Coordinates & Layout
 - **Ladder to 1F (Top-Left Section):** Located at `(27, 3)`. Connects to Rock Tunnel 1F at `(5, 3)`.
 - **Ladder to 1F (Top-Right Section):** Located at `(33, 25)`. Connects to Rock Tunnel 1F at `(37, 3)`.
+- **Ladder to 1F (Central Section):** Located at `(23, 11)`. Connects to Rock Tunnel 1F at `(17, 11)`.
 
 ### Verified Walkable Coordinates:
+- (23, 11)
 - **Top-Left Path to Ladder (34, 5) -> (27, 3):**
   - (27, 3), (28, 3), (29, 3), (30, 3), (31, 3), (32, 3), (33, 3), (34, 3)
   - (34, 4), (34, 5)
@@ -234,11 +239,7 @@
 # Rock Tunnel 1F - Routing Hypotheses & Unvisited Path Predictions
 
 ## Unverified Observations from (14, 15)
-- **Ladder to B1F (Central Section):** Visually observed at `(17, 11)` on the screen on Turn 11038. Needs physical verification by stepping on it.
-- **Hypothesized Clear Walkable Path to Central Ladder:**
-  - (14, 14), (14, 13), (14, 12), (14, 11)
-  - (15, 11), (16, 11), (17, 11)
-  - These coordinates are black on the screen but have not been physically stepped on yet.
+- All previously listed coordinates leading to the central ladder at (17, 11) have been physically verified on Turn 11046.
 
 
 <hr>
