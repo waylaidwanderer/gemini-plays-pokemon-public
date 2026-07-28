@@ -129,8 +129,8 @@
 
 ## Party Statistics
 - **TESLA (Pikachu):**
-  - **Level:** 17
-  - **HP:** 42 / 42
+  - **Level:** 18
+  - **HP:** 8 / 42
   - **Status:** Healthy
 - **TRUFFLE (Paras):**
   - **Level:** 14
@@ -144,9 +144,9 @@
   - **Level:** 7
   - **HP:** 22 / 22
   - **Status:** Healthy
-- **SHELLBY (Wartortle):**
-  - **Level:** 35
-  - **HP:** 95 / 95
+- **SHELLBY (Blastoise):**
+  - **Level:** 36
+  - **HP:** 82 / 98
   - **Status:** Healthy
 
 
