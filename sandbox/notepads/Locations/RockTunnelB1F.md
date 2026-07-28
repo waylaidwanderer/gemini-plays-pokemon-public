@@ -1,45 +1,22 @@
 # Rock Tunnel B1F - Overworld Mapping & Navigation
 
 ## Map Transitions
-- **Ladder to 1F (Top-Right Section):** Located at `(33, 25)`. Connects to Rock Tunnel 1F at `(37, 3)`. We arrived here on Turn 10343.
+- **Ladder to 1F (Top-Right Section):** Located at `(33, 25)`. Connects to Rock Tunnel 1F at `(37, 3)`.
 
 ## Mapped Coordinates & Layout
-- **(33, 25):** Spawn/Ladder point (walkable).
-- **(33, 26):** Walkable.
-- **(33, 27):** Walkable (visited).
-- **(33, 28):** Walkable.
-- **(33, 29):** Walkable.
-- **(33, 30):** Walkable.
-- **(33, 31):** Walkable (visited).
-- **(32, 31):** Walkable.
-- **(31, 31):** Walkable.
-- **(30, 31):** Walkable.
-- **(29, 31):** Walkable (visited).
-- **(28, 31):** Walkable.
-- **(27, 31):** Walkable.
-- **(26, 31):** Walkable (visited - trainer battle at (26, 31)).
-- **(21, 31):** Walkable.
-- **(20, 31):** Walkable.
-- **(19, 31):** Walkable.
-- **(18, 31):** Walkable.
-- **(17, 31):** Walkable (visited).
-- **(17, 30):** Walkable.
-- **(17, 29):** Walkable.
-- **(17, 28):** Walkable (visited - trainer battle at (17, 28)).
+- **(14, 24):** Walkable.
+- **(14, 25):** Walkable.
+- **(14, 26):** Walkable.
+- **(14, 27):** Walkable.
+- **(15, 24):** Walkable.
+- **(15, 27):** Walkable.
+- **(15, 28):** Walkable.
+- **(16, 24):** Walkable.
+- **(16, 28):** Walkable.
+- **(17, 24):** Walkable.
+- **(17, 25):** Walkable.
+- **(17, 26):** Walkable.
+- **(17, 27):** Walkable.
 
 ## Verified Collisions
-*(None yet)*
-- (17, 27): Walkable (visited).
-- (17, 26): Walkable (visited).
-- (17, 25): Walkable (visited).
-- (17, 24): Walkable (visited).
-- (16, 24): Walkable (visited).
-- (15, 24): Walkable (visited).
-- (14, 24): Walkable (visited).
-- (14, 25): Walkable (visited).
-- (14, 26): Walkable (visited).
-- (14, 27): Walkable (visited).
-- (15, 27): Walkable (visited).
-- (15, 28): Walkable (visited).
-- (16, 28): Walkable (visited).
-- (14, 28): Collision/Wall (bumped on Turn 10606).
+- **(14, 28):** Collision/Wall.
