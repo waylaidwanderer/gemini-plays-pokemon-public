@@ -77,3 +77,7 @@
 - **(14, 28):** Collision/Wall.
 - **(20, 29):** Collision/Wall.
 - **(33, 21):** Physical collision (Turn 10759).
+- **(22, 31):** Walkable.
+- **(23, 31):** Walkable.
+- **(24, 31):** Walkable.
+- **(25, 31):** Walkable.
