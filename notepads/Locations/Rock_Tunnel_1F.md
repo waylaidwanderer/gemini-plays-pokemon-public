@@ -37,3 +37,4 @@
 - South Highway at Row 24 (Cols 14-37): [Verified Turn 15825] Column 14-16 connects Row 21 South to Row 24 open highway. Row 24 runs East past Col 26 toward Eastern Cavern and Exit!
 - Pillar Wall at Cols 18-19 (Rows 12-15): [Verified Turn 15838] Vertical rock wall pillar at Cols 18-19 (Rows 12-15) blocks Row 12-13 passage at Col 18. Pass East via Row 17 to Col 20 chute.
 - Solid Rock Wall at Rows 22-23 (Cols 11-20): [Verified Turn 15856] Bumped wall at (15,22) when attempting Down from (15,21). Row 22-23 is solid rock wall across Cols 11-20.
+- Wall at Cols 12-13 (Rows 2-15) and Col 11 Pocket: [Verified Turn 15888] Column 11 is a dead-end pocket bounded by Cols 8-13 rock walls on North and East (Rows 2-15). Exit Col 11 by walking South to Row 16 at (11,16).
