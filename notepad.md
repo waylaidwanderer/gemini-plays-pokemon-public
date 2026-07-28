@@ -44,7 +44,7 @@
    - Status: Healthy
 5. **SHELLBY** (Blastoise)
    - Level: 36
-   - HP: 67/112 (Damaged by Selfdestruct on Turn 11032)
+   - HP: 47/112 (Damaged by Selfdestruct on Turn 11032 and Turn 11118)
    - Status: Healthy
 
 ## Major Milestones and Items
