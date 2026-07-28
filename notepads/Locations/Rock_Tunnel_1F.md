@@ -18,9 +18,7 @@
 - Southwest Ladder Spawn at (5, 3): [Verified Turn 15187] Ascended B1F Ladder (27, 3) and spawned at 1F (5, 3) facing South!
 - Collision at (5,16): [Verified Turn 15193] Solid rock wall at Row 16 blocking South movement along Col 5.
 - Hiker at (7,7): [Defeated Turn 15199] Defeated Hiker with Geodude (Lv 19) and Machop (Lv 19). Earned prize money.
-- Collision at (10,22): [Verified Turn 15217] Solid rock wall at Rows 22-23 across Cols 6-15.
-- Horizontal Wall at Rows 14-15 (Cols 20-23): [Verified Turn 15268/15270] Solid rock wall blocking Up movement from Row 16 at Cols 20-23.
-- Vertical Pillar Wall at Cols 22-23 (Rows 16-23): [Verified Turn 15269] Solid rock wall blocking East movement from Col 21.
+
 - South-West Pocket Dead-End (Cols 5-21, Rows 16-21): [Verified Turn 15273] The South-West chamber bounded by Cols 5-21 and Rows 16-21 is completely enclosed on all sides (Row 22-23 south wall, Cols 22-23 east wall, Rows 14-15 north wall).
 - Defeated Hiker at (16,15): [Verified Turn 15340] Standing at (16,15) blocking Row 15 direct passage.
 - Horizontal Wall at Rows 8-9 (Cols 14-17): [Verified Turn 15346] Solid rock wall blocking Up movement from Row 10 at Cols 14-17.
