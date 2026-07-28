@@ -9,7 +9,7 @@
 - **Ladder to 1F (Central Section):** Located at `(23, 11)`. Connects to Rock Tunnel 1F at `(17, 11)`.
 
 ### Verified Walkable Coordinates:
-- (23, 11)
+- (23, 11), (22, 11), (21, 11), (20, 11), (19, 11), (18, 11)
 - **Top-Left Path to Ladder (34, 5) -> (27, 3):**
   - (27, 3), (28, 3), (29, 3), (30, 3), (31, 3), (32, 3), (33, 3), (34, 3)
   - (34, 4), (34, 5)
