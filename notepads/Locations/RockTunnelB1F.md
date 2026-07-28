@@ -90,7 +90,7 @@
 - **(33, 31):** Walkable.
 
 ## Verified Collisions
-- **(13, 24):** Physical collision (Turn 10777).
+- **(13, 24):** Physical collision.
 - **(14, 28):** Collision/Wall.
 - **(20, 29):** Collision/Wall.
-- **(33, 21):** Physical collision (Turn 10759).
+- **(33, 21):** Physical collision.

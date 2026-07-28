@@ -943,10 +943,10 @@
 - **(37, 13):** Walkable.
 
 ## Verified Collisions
-- **(13, 3):** Physical collision (Turn 10717).
-- **(13, 4):** Physical collision (Turn 10713).
-- **(13, 7):** Physical collision (Turn 10728).
-- **(14, 8):** Physical collision (Turn 10727).
+- **(13, 3):** Physical collision.
+- **(13, 4):** Physical collision.
+- **(13, 7):** Physical collision.
+- **(14, 8):** Physical collision.
 
 ## Map Transitions
 - **Unreachable Ladder to B1F (Hypothesis):** Located at `(37, 17)` on Rock Tunnel 1F. It is isolated by walls on Row 14-15 and Column 31, and is hypothesized to connect to B1F but has not been empirically verified in-game.
@@ -1048,10 +1048,10 @@
 - **(33, 31):** Walkable.
 
 ## Verified Collisions
-- **(13, 24):** Physical collision (Turn 10777).
+- **(13, 24):** Physical collision.
 - **(14, 28):** Collision/Wall.
 - **(20, 29):** Collision/Wall.
-- **(33, 21):** Physical collision (Turn 10759).
+- **(33, 21):** Physical collision.
 
 
 <hr>
