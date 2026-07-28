@@ -528,6 +528,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - Horizontal Wall at Rows 20-21 (Cols 26-37): [Verified Turn 16252] Solid horizontal rock wall across Rows 20-21 from Col 26 to Col 37 on 1F. BUMPED at (28,19), (29,19), (32,19) when attempting Down to Row 20. Open gap is at Columns 24-25.
 - Rock Pillar at Cols 26-27 (Rows 22-28): [Verified Turn 16245] Solid vertical rock pillar at Cols 26-27 from Row 22 to Row 28 on 1F. Visually confirmed on screen at turn 16245.
 - Solid Wall at Rows 34-35 (Cols 0-39): [Verified Turn 16286] Rows 34-35 are a continuous solid rock wall across ALL columns (0 to 39) on 1F. South 1F chamber is enclosed. Must navigate B1F to SE Ladder 4 at (33,25) to ascend to 1F SE Exit Area!
+- **Row 33 South Highway Eastbound:** [Verified Turn 16288] Row 33 from (3,33) to (25,33) is open floor. Heading East past Column 25 along Row 33 toward SE Exit at (33,33)!
 
 <hr>
 
