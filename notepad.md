@@ -117,7 +117,8 @@
 - Vertical rock pillar at Cols 18-19 across Rows 14-21; Cols 12-13 across Rows 2-11.
 - Open Highway Row 13 connects (17,13) East to Col 20 at (20,13).
 - Correction at Row 28-29: Wall extends across Cols 7-13. Open gap through Rows 28-29 is at Cols 14-16.
-- Dead-end Alley note (Turn 17063): Col 11 is blocked at Row 27 (walled South at Rows 28-29 across Cols 7-13, East at Cols 12-13 across Rows 23-29).
+- Dead-end Alley note (Turn 17063): Col 11 is blocked at Row 27 (walled South at Rows 28-29 across Cols 7-13, East at Cols 12-13 across Rows 23-29).- ONE-WAY WARP NOTE (Turn 17189): 1F (23,11) is a one-way warp arrival point from B1F (17,11); it is NOT an interactive ladder leading back down to B1F.
+
 
 <hr>
 
@@ -140,7 +141,6 @@
 - B1F (17,11) warps directly to 1F (23,11) (Turn 17004).
 - Verified B1F Route from Ladder 1 (17,11) / (14,10): Down to (14,14) -> Left 3 steps along Row 14 to Col 11 at (11,14) -> Up Col 11 (Rows 14 to 3) to Northern Highway!
 - Verified B1F Western Highway (Turn 17128): Col 10 (Rows 15 to 6) is an open vertical corridor. Row 6 connects West from (10,6) across Cols 9, 8, 7, 6 to Col 5.
-- Row 20-21 Wall (Turn 17156): Rows 20-21 is solid rock wall across Cols 27-36. Probing West (Cols 20-26) or East (Cols 37-42) to find gap through Row 20-21 wall.
 - Verified Route to Ladder 4 at (33,25) (Turn 17167): From (21,33) East to (26,33) -> Up through Col 26 gap to (26,32) -> East along Row 32 to (33,32) -> Up Col 33 to Ladder 4 at (33,25)!
 
 <hr>
