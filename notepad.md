@@ -519,6 +519,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - Solid Rock Wall at (16,9): [Verified Turn 15441] Bumped when attempting Up movement from (16,10). Wall at Rows 8-9 across Cols 14-17.
 - Solid Rock Wall at (13,10): [Verified Turn 15442] Bumped when attempting Left movement from (14,10). Cols 12-13 are wall.
 - Solid Rock Wall Pillar at Cols 6-7 (Rows 10-17): [Verified Turn 15474] Bumped at (7,14). Row 18 is open underneath (Cols 5-13).
+- Defeated Hiker NPC at (5,17): [Verified Turn 15492] Standing at (5,17). Column 4 is open floor running parallel to Column 5 to reach Ladder 2 at (5,3).
 
 <hr>
 
