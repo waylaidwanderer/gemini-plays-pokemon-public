@@ -935,6 +935,8 @@
 - **(30, 13):** Walkable.
 - **(31, 13):** Walkable.
 - **(32, 13):** Walkable.
+- **(33, 13):** Walkable.
+- **(34, 13):** Walkable.
 
 <hr>
 
