@@ -9,3 +9,5 @@
 - **Ladder to B1F at (17, 11):** [Discovered Turn 14923, verified graphic at (17,11) on Turn 14978] Ladder graphic visible at X=17, Y=11 on Rock Tunnel 1F floor.
 - **Ladder to B1F at (37, 17):** [Discovered Turn 14945] Ladder graphic visible at X=37, Y=17 in the southeast corner of Rock Tunnel 1F.
 - **Rock Wall Collisions:** [Verified Turns 14931, 14954, 14962] Confirmed solid rock walls at (13,4), (19,13), and (37,14).
+- **South Corridor Dead-End at (22, 14-15):** [Verified Turn 14988] Solid rock wall across cols 18-27 on rows 14-15 blocks South progress from (22,13). Corridor turns East along rows 12-13.
+- **West Corridor to Ladder (17,11):** [Verified Turn 14988] Ladder at (17,11) is located on the West side of the col 18-19 vertical wall, accessible by heading West from entrance (15,3) to cols 11-13 then South to row 11.
