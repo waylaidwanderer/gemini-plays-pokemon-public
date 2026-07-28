@@ -973,6 +973,10 @@
 ## Verified Collisions
 *(None yet)*
 - (17, 27): Walkable (visited).
+- (17, 26): Walkable (visited).
+- (17, 25): Walkable (visited).
+- (17, 24): Walkable (visited).
+- (16, 24): Walkable (visited).
 
 <hr>
 
