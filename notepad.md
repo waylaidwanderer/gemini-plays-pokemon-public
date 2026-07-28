@@ -554,7 +554,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - Hiker at (29,11): [Defeated Turn 15178] Defeated Hiker with Geodude (Lv 25). Earned prize money.
 - Pillar Wall at Cols 24-25: [Verified Turn 15182] Vertical rock wall pillar at Cols 24-25 (Rows 10-15) blocking direct West movement from (26,11) to (23,11).
 - **Spawn from 1F Ladder 3 at (23,11):** [Verified Turn 16135] Descended 1F Ladder 3 at (23,11) and spawned at B1F (17,11) facing South!
-- Horizontal Rock Wall at Rows 8-9 (Cols 20-25): [Verified Turn 15396] Solid rock wall blocking Up movement from Row 10.
+- Horizontal Rock Wall at Rows 8-9 (Cols 14-25): [Verified Turn 16357] Solid rock wall at Rows 8-9 across Cols 14-25 on B1F. Open vertical chute through Rows 8-9 is Column 11.
 - Horizontal Rock Wall at Row 14 (Cols 18-25): [Verified Turn 15415] Solid rock wall blocking South movement from Row 13.
 - Open Highway at Rows 2-5: [Verified Turn 15421] Rows 2-5 are open floor across Cols 14-23.
 - Solid Rock Wall at Cols 24-25 (Rows -1 to 15): [Verified Turn 15425] Solid vertical rock pillar blocking Eastward travel across Row 3.
