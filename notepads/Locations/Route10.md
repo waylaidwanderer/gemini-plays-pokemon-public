@@ -6,9 +6,8 @@
 - **Top Connection:** Connects West to Route 9 at the top-west.
 
 ## Verified Landmarks
-- **Pokémon Center:** Located at tile coordinates x=58-61, y=68-71. 
-  - Block 0x0d is the roof/building.
-  - Block 0x7f is the door/window.
+- **Pokémon Center:** Located on the east side of Route 10, adjacent to the Rock Tunnel entrance. 
+
 - **Rock Tunnel South Exit / Lavender Town Connection:** Located at the bottom of Route 10.
 
 ## Terrain & Ledges
@@ -16,7 +15,7 @@
 - **Ledge on Row 13:** A horizontal ledge facing DOWN runs across Row 13 (tiles y=12-15) from Columns 50 to 53.
   - Standing below the ledge (Row 14/15), you CANNOT walk UP to Row 12/13.
   - Thus, the pocket at (50, 14) to (53, 15) is a dead end from the south-west, but you can escape by walking Left back to Route 9.
-- **Upper Level (Row 12/13):** y=12-15 is completely walkable pavement from Column 52 to 58. This upper level allows players to walk east and go south to reach the Pokémon Center.
+
 
 ## Navigational Strategy
 - Row 8/9 is the open pavement path from Route 9 going east to Column 59 on Route 10.

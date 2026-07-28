@@ -913,6 +913,15 @@
   - **Column 46 Rock Wall:** Solid rock wall blocks all eastward (rightward) movement across Column 46 on Rows 4-7.
   - **Row 7 Ledge and Row 8 Diagonal Rock Wall Blockage:** Jumping DOWN from (45, 7) onto (45, 8) is blocked because (45, 8) is a diagonal rock corner tile.
   - **Escape Route:** You can simply walk Left (west) back across Column 44 onto Column 41/42 to exit the pocket. No soft-lock or warp is required.
+## Verified Overworld Realities & Escape Routing (Turn 9772)
+- **Continuous Ledge on Row 13:** Row 13 is a continuous downward-facing ledge from Column 10 all the way to Column 23, blocking all upward movement on the west/middle sections. Column 29 and Column 30 are the only open gaps in the Row 13 ledge.
+- **Continuous Ledge on Row 11:** Row 11 contains a continuous downward-facing ledge from Column 10 to Column 19, blocking all upward movement on these columns.
+- **Solid Wall on Column 24:** Column 24 contains a solid rock wall blocking all horizontal movement on Rows 11 to 15. Thus, the lower pocket of Route 9 (Columns 10-23, Rows 12-15) is completely dead-ended going east.
+- **Solid Wall on Column 9:** Column 9 contains a solid rock wall blocking all horizontal movement on Rows 10 to 17.
+- **Continuous Ledge on Row 5:** Row 5 contains a continuous downward-facing ledge from Column 20 to Column 24, blocking all upward traversal to Rows 2-4.
+- **Verified Row 9 Escape Corridor:** Row 9 is completely open pavement and grass from Column 29 all the way west to Column 0, providing a clear escape route back to Cerulean City.
+- **True Escape Path from Lower Pocket:** To escape the lower pocket, walk to Column 19 on Row 14, walk UP Column 19 (which has no ledge lip on Row 13) to Row 12, walk Right to Column 29 Row 12, walk UP Column 29 through the gap to Row 9, and walk Left on Row 9 all the way to Cerulean City!
+
 
 <hr>
 
@@ -926,9 +935,8 @@
 - **Top Connection:** Connects West to Route 9 at the top-west.
 
 ## Verified Landmarks
-- **Pokémon Center:** Located at tile coordinates x=58-61, y=68-71. 
-  - Block 0x0d is the roof/building.
-  - Block 0x7f is the door/window.
+- **Pokémon Center:** Located on the east side of Route 10, adjacent to the Rock Tunnel entrance. 
+
 - **Rock Tunnel South Exit / Lavender Town Connection:** Located at the bottom of Route 10.
 
 ## Terrain & Ledges
@@ -936,7 +944,7 @@
 - **Ledge on Row 13:** A horizontal ledge facing DOWN runs across Row 13 (tiles y=12-15) from Columns 50 to 53.
   - Standing below the ledge (Row 14/15), you CANNOT walk UP to Row 12/13.
   - Thus, the pocket at (50, 14) to (53, 15) is a dead end from the south-west, but you can escape by walking Left back to Route 9.
-- **Upper Level (Row 12/13):** y=12-15 is completely walkable pavement from Column 52 to 58. This upper level allows players to walk east and go south to reach the Pokémon Center.
+
 
 ## Navigational Strategy
 - Row 8/9 is the open pavement path from Route 9 going east to Column 59 on Route 10.
