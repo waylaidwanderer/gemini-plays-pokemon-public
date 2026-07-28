@@ -579,5 +579,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - Pillar Wall at Cols 18-19 (Rows 6-21): [Verified Turn 15978] Cols 18-19 form a solid vertical wall. Bypass West via Row 22.
 - **Horizontal Rock Wall at Rows 33-35 (Cols 28-37):** [Verified Turns 16048-16051] Continuous solid rock wall across Rows 33-35 from Col 28 to Col 37 blocking South passage on Southeast B1F.
 - **Southwest Cavern (Cols 2-13, Rows 28-29) Dead-End Verified:** [Verified Turn 16036] Visually confirmed on screen that Rows 28-29 from Col 0 to Col 13 is a continuous solid rock wall. Southwest cavern (Cols 2-13, Rows 30-33) is a completely enclosed dead-end pocket.
+- Pillar Wall at Cols 22-23 (Rows 17-23): [Verified Turn 16224] Solid vertical rock pillar at Cols 22-23 from Row 17 to Row 23 on B1F. Visually confirmed on screen at turn 16224.
 
 <hr>
