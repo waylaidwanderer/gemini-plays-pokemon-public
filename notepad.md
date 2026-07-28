@@ -139,8 +139,8 @@
 - Northern B1F Highway: B1F (27,3) warps directly to B1F (5,3) (Turn 16979).
 - B1F (5,3) connects East along Row 3 to B1F South Exit at (15,3).
 - B1F (17,11) warps directly to 1F (23,11) (Turn 17004).
-- Verified B1F Route from Ladder 1 (17,11) / (14,10): Down to (14,14) -> Left 3 steps along Row 14 to Col 11 at (11,14) -> Up Col 11 (Rows 14 to 3) to Northern Highway!
 - Verified B1F Western Highway (Turn 17128): Col 10 (Rows 15 to 6) is an open vertical corridor. Row 6 connects West from (10,6) across Cols 9, 8, 7, 6 to Col 5.
-- Verified Route to Ladder 4 at (33,25) (Turn 17167): From (21,33) East to (26,33) -> Up through Col 26 gap to (26,32) -> East along Row 32 to (33,32) -> Up Col 33 to Ladder 4 at (33,25)!
+- Verified Route to Ladder 4 at (33,25) (Turn 17167): From (21,33) East to (26,33) -> Up through Col 26 gap to (26,32) -> East along Row 32 to (33,32) -> Up Col 33 to Ladder 4 at (33,25)!- SPATIAL BOUNDARY NOTE (Turn 17221): (14,24) connects East to (15,24), but is blocked North at (14,23) and West at (13,24).
+
 
 <hr>
