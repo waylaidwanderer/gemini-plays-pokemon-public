@@ -135,7 +135,7 @@
 - B1F (33,25) connects South via Col 28-37 (Rows 22-33) to Bottom Hallway at Row 30-33.
 - Gap through Col 26 wall at Rows 31-32 connects Eastern Sector (Cols 28-37) to Western Sector (Cols 2-25).
 - Gap through Row 28-29 North wall at Cols 14-17 connects Bottom Hallway (Row 30-33) to Central Corridor (Row 24-27).
-- Passageway through Row 23 wall at Col 20-23 connects Central Corridor North. PokeManiac trainer located at (20,21).
+- Passageway through Row 22-23 wall is located at Cols 24-25, connecting South to Central Corridor (Turn 17437).
 - B1F (37,3) connects South via Col 37 to Row 13 hallway (Cols 20-37, Rows 11-13).
 - Row 13 at Cols 18-19 and Cols 38-39 are solid rock wall pillars.
 - Row 14-15 across Cols 19-37 is solid rock wall.
@@ -143,6 +143,5 @@
 - B1F (17,11) warps directly to 1F (23,11) (Turn 17004).
 - Verified B1F Western Highway (Turn 17128): Col 10 (Rows 15 to 6) is an open vertical corridor. Row 6 connects West from (10,6) across Cols 9, 8, 7, 6 to Col 5.
 - Verified Route to Ladder 4 at (33,25) (Turn 17167): From (21,33) East to (26,33) -> Up through Col 26 gap to (26,32) -> East along Row 32 to (33,32) -> Up Col 33 to Ladder 4 at (33,25)!- SPATIAL BOUNDARY NOTE (Turn 17221): (14,24) connects East to (15,24), but is blocked North at (14,23) and West at (13,24).
-
 
 <hr>
