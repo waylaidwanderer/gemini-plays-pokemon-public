@@ -31,4 +31,5 @@
 - Solid Horizontal Rock Wall at Row 23 (Cols 12-19): [Verified Turn 15533] Row 23 is a solid horizontal rock ceiling across Cols 12-19 blocking direct North movement from Central Passage (14-17, 24).
 - Solid Horizontal Rock Wall at Row 22 (Cols 13-22): [Verified Turn 15531] Row 22 is a solid rock wall across Cols 13-22.
 - Defeated Hiker at (35,5): [Defeated Turn 15567] Defeated Hiker with Machop (Lv 20) and Onix (Lv 20).
-- B1F Eastern Cavern: Reached via Col 25 (Row 16-21) -> East to Cols 30-37 (Rows 10-18). Currently exploring Cols 30-37 to locate exact Ladder 4 warp tile.
+- Solid Horizontal Rock Wall at Rows 20-21 (Cols 31-37): [Verified Turn 15578] Bumped wall at (35,20).
+- B1F Eastern Cavern: Reached via Col 25 (Row 16-21) -> East to Cols 30-37 (Rows 10-18).
