@@ -145,5 +145,6 @@
 - Verified Route to Ladder 4 at (33,25) (Turn 17167): From (21,33) East to (26,33) -> Up through Col 26 gap to (26,32) -> East along Row 32 to (33,32) -> Up Col 33 to Ladder 4 at (33,25)!- SPATIAL BOUNDARY NOTE (Turn 17221): (14,24) connects East to (15,24), but is blocked North at (14,23) and West at (13,24).
 - Rows 20-21 in Eastern Sector (Cols 28-37) are solid rock wall. Col 24 connects Row 19 South to Central Corridor (24,27) (Turn 17459).
 - Cols 18-19 across Rows 15-23 form a solid rock wall pillar. Row 24 (Central Corridor) is open West from Col 25 to Col 10 (Turn 17487).
+- Row 28 is solid rock wall across Cols 10-19. NW Sector (Ladder 3 at 17,11) is accessed via Northern Highway warp B1F (27,3) -> B1F (5,3) (Turn 17495).
 
 <hr>
