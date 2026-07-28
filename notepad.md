@@ -557,6 +557,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - Horizontal Rock Wall at Rows 20-21 (Cols 26-34): [Verified Turn 15504] Column 25 is open floor passing through Rows 20-21 down to Row 25.
 - Solid Horizontal Rock Wall at Row 23 (Cols 12-19): [Verified Turn 15533] Row 23 is a solid horizontal rock ceiling across Cols 12-19 blocking direct North movement from Central Passage (14-17, 24).
 - Solid Horizontal Rock Wall at Row 22 (Cols 13-22): [Verified Turn 15531] Row 22 is a solid rock wall across Cols 13-22.
-- Verified Master Exit Route on B1F: From South Highway (17,32) -> Up 5 to (17,27) -> East 8 along Row 27 to Col 25 (25,27) -> Up 16 along Col 25 through open passage to (25,11) -> East 12 along Row 11 to Ladder 4 at (37,11) -> Ascend to 1F (37,17) -> South to Route 10 exit!
+- Defeated Hiker at (35,5): [Defeated Turn 15567] Defeated Hiker with Machop (Lv 20) and Onix (Lv 20).
+- B1F Eastern Cavern: Reached via Col 25 (Row 16-21) -> East to Cols 30-37 (Rows 10-18). Currently exploring Cols 30-37 to locate exact Ladder 4 warp tile.
 
 <hr>
