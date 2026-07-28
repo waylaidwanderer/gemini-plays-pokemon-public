@@ -174,7 +174,6 @@
 ## Mapped Coordinates & Layout
 - **Entry Warp:** Route 10 East connects to Rock Tunnel 1F at (15, 3). Walking SOUTH from (15, 3) enters the main corridor.
 - **Ladder to B1F (Top-Left Section):** Located at `(5, 3)`. Connects to Rock Tunnel B1F at `(27, 3)`.
-- **Ladder to B1F (Top-Right Section):** Located at `(37, 3)`. Connects to Rock Tunnel B1F at `(33, 25)`.
 - **Ladder to B1F (Central Section):** Located at `(17, 11)`. Connects to Rock Tunnel B1F at `(23, 11)`.
 
 ### Verified Walkable Coordinates:
@@ -199,7 +198,6 @@
 ## Verified Collisions
 
 ## Map Transitions
-- **Unreachable Ladder to B1F (Hypothesis):** Located at `(37, 17)` on Rock Tunnel 1F. It is isolated by walls on Row 14-15 and Column 31, and is hypothesized to connect to B1F but has not been empirically verified in-game.
 
 
 <hr>
@@ -266,6 +264,10 @@
   - (17, 28) (Jr. Trainer♀)
   - (21, 21) (Pokémaniac Winston)
   - (34, 5) (Hiker Erik)
+
+## Rock Tunnel 1F Hypotheses (Unverified in this session):
+- **Ladder to B1F (Top-Right Section):** Hypothesized at `(37, 3)` on Rock Tunnel 1F (connects to B1F at `(33, 25)`).
+- **Unreachable Ladder to B1F (Hypothesis):** Located at `(37, 17)` on Rock Tunnel 1F. It is isolated by walls on Row 14-15 and Column 31, and is hypothesized to connect to B1F but has not been empirically verified in-game.
 
 
 <hr>
