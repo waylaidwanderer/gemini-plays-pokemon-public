@@ -1,7 +1,7 @@
 # Rock Tunnel B1F - Overworld Mapping & Navigation
 
 ## Map Dimensions
-- Dimensions: Width = 40, Height = 36.
+- Dimensions: Width = 40, Height = To Be Determined (visually confirmed y >= 24).
 
 ## Mapped Coordinates & Layout
 - **Ladder to 1F (Central Section):** Located at `(23, 11)`. Connects to Rock Tunnel 1F at `(17, 11)`.
@@ -15,3 +15,8 @@
 
 ## Verified Collisions
 - (13, 19): Rock Wall (Turn 11056)
+
+## Dark Cave Navigation & Visual Illusions
+- **The Illusion of Walkability:** In pitch-black caves like Rock Tunnel, unrendered rock walls and walkable corridors are both drawn as identical pure black pixels.
+- **Coordinate Grid Pitfalls:** The overlay coordinate grid renders on top of pitch-black unrendered space. This can easily lead to the hallucination that a coordinate is "empty walkable black space" when it actually contains a solid rock wall.
+- **Strict Empirical Standard:** Walkability CANNOT be determined visually in dark zones. Every single tile must be physically stepped on (or bumped into to verify collision) before being logged as verified.
