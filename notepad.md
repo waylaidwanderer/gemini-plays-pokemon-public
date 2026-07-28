@@ -110,7 +110,7 @@
 
 ## Verified 1F Routing & Layout
 - Row 3 (Cols 24-25) is blocked by a solid rock wall pillar.
-- Entrance (15,3) connects South via Column 15 corridor to Mid-1F Highway at Rows 16-18.
+- Entrance (15,3) connects South via Column 15 corridor.
 
 - Vertical rock pillar at Cols 18-19 across Rows 14-21. Rows 14-15 across Cols 18-25 are solid wall.
 - SW pocket (Cols 14-17, Rows 17-21) is enclosed: Row 22 (Cols 13-19) is solid wall, Cols 18-19 are solid wall.
