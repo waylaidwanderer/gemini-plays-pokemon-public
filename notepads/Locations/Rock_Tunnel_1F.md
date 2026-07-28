@@ -1,21 +1,20 @@
 # Rock Tunnel 1F Map & Points of Interest
 
 ## ROCK TUNNEL 1F NAVIGATION:
-- **Entrance Warp from Route 10 North:** [Verified Turn 14908] Spawns at X=15, Y=3 facing South.
-- **Exit to Route 10 North:** Located at X=15, Y=3.
-- **Entrance Chamber (Cols 14-25, Rows 4-7):** [Verified Turn 14911] Open horizontal cavern corridor extending East along rows 4, 5, 6, 7.
-- **South Intersection at Cols 22-23:** [Verified Turn 14980] Vertical open opening going South from row 7 down through rows 8, 9, 10, 11+. Bounded by rock walls at cols 18-21 on the West and cols 24-31 on the East.
-- **PokéManiac at (21,8):** [Defeated Turn 14922] Defeated PokéManiac with Cubone (Lv 23) and Slowpoke (Lv 23). Earned ¥1150.
-- **Ladder to B1F at (17, 11):** [Discovered Turn 14923, verified graphic at (17,11) on Turn 14978] Ladder graphic visible at X=17, Y=11 on Rock Tunnel 1F floor.
-- **Ladder to B1F at (37, 17):** [Discovered Turn 14945] Ladder graphic visible at X=37, Y=17 in the southeast corner of Rock Tunnel 1F.
-- **Rock Wall Collisions:** [Verified Turns 14931, 14954, 14962, 15048, 15066] Confirmed solid rock walls at (13,4), (13,6), (19,13), and (37,14).
-- **South Corridor Dead-End at (22, 14-15):** [Verified Turn 14988] Solid rock wall across cols 18-27 on rows 14-15 blocks South progress from (22,13). Corridor turns East along rows 12-13.
-- **West Entrance Corridor (Blocked):** [Disproven Turn 15048, 15066] West exit from entrance chamber (15,3) is blocked at (13,4) and (13,6) by a solid rock wall.
-- **Pillar Wall at Cols 38-39 (Rows 9-15):** [Verified Turn 14992] Solid rock wall pillar at cols 38-39 blocks direct East movement on rows 9-15.
-- **Ladder (37,17) Unreachable from 1F:** [Disproven Turn 14994] Cols 38-39 form a solid rock wall from row 3 down through row 16+, rendering ladder (37,17) unreachable from Rock Tunnel 1F.
-- **Pillar Wall at Cols 32-33 (Rows 3-9):** [Verified Turn 14995] Rock wall pillar at cols 32-33 blocks West movement on rows 3-9. Row 10-13 highway is fully open.
-
-- **Ladder to B1F at (37, 3):** [Verified Turn 15092] Ladder graphic visible at X=37, Y=3 at the northeast end of Northern Highway.
+- Entrance Warp from Route 10 North: [Verified Turn 14908] Spawns at X=15, Y=3 facing South.
+- Exit to Route 10 North: Located at X=15, Y=3.
+- Entrance Chamber (Cols 14-25, Rows 4-7): [Verified Turn 14911] Open horizontal cavern corridor extending East along rows 4, 5, 6, 7.
+- South Intersection at Cols 22-23: [Verified Turn 14980] Vertical open opening going South from row 7 down through rows 8, 9, 10, 11+. Bounded by rock walls at cols 18-21 on the West and cols 24-31 on the East.
+- PokéManiac at (21,8): [Defeated Turn 14922] Defeated PokéManiac with Cubone (Lv 23) and Slowpoke (Lv 23). Earned ¥1150.
+- Ladder to B1F at (17, 11): [Discovered Turn 14923, verified graphic at (17,11) on Turn 14978] Ladder graphic visible at X=17, Y=11 on Rock Tunnel 1F floor.
+- Ladder to B1F at (37, 17): [Discovered Turn 14945] Ladder graphic visible at X=37, Y=17 in the southeast corner of Rock Tunnel 1F.
+- Rock Wall Collisions: [Verified Turns 14931, 14954, 14962, 15048, 15066] Confirmed solid rock walls at (13,4), (13,6), (19,13), and (37,14).
+- South Corridor Dead-End at (22, 14-15): [Verified Turn 14988] Solid rock wall across cols 18-27 on rows 14-15 blocks South progress from (22,13). Corridor turns East along rows 12-13.
+- West Entrance Corridor (Blocked): [Disproven Turn 15048, 15066] West exit from entrance chamber (15,3) is blocked at (13,4) and (13,6) by a solid rock wall.
+- Pillar Wall at Cols 38-39 (Rows 9-15): [Verified Turn 14992] Solid rock wall pillar at cols 38-39 blocks direct East movement on rows 9-15.
+- Ladder (37,17) Unreachable from 1F: [Disproven Turn 14994] Cols 38-39 form a solid rock wall from row 3 down through row 16+, rendering ladder (37,17) unreachable from Rock Tunnel 1F.
+- Pillar Wall at Cols 32-33 (Rows 3-9): [Verified Turn 14995] Rock wall pillar at cols 32-33 blocks West movement on rows 3-9. Row 10-13 highway is fully open.
+- Ladder to B1F at (37, 3): [Verified Turn 15092] Ladder graphic visible at X=37, Y=3 at the northeast end of Northern Highway.
 - Southwest Ladder Spawn at (5, 3): [Verified Turn 15187] Ascended B1F Ladder (27, 3) and spawned at 1F (5, 3) facing South!
 - Collision at (5,16): [Verified Turn 15193] Solid rock wall at Row 16 blocking South movement along Col 5.
 - Hiker at (7,7): [Defeated Turn 15199] Defeated Hiker with Geodude (Lv 19) and Machop (Lv 19). Earned prize money.
@@ -25,7 +24,7 @@
 - Collision at (17,15): [Verified Turn 15236] Solid rock wall at Row 15 blocking Up movement from (17,16).
 - Horizontal Wall at Rows 14-15 (Cols 20-23): [Verified Turn 15268/15270] Solid rock wall blocking Up movement from Row 16 at Cols 20-23.
 - Vertical Pillar Wall at Cols 22-23 (Rows 16-23): [Verified Turn 15269] Solid rock wall blocking East movement from Col 21.
-- **South-West Pocket Dead-End (Cols 5-21, Rows 16-21):** [Verified Turn 15273] The South-West chamber bounded by Cols 5-21 and Rows 16-21 is completely enclosed on all sides (Row 22-23 south wall, Cols 22-23 east wall, Rows 14-15 north wall).
+- South-West Pocket Dead-End (Cols 5-21, Rows 16-21): [Verified Turn 15273] The South-West chamber bounded by Cols 5-21 and Rows 16-21 is completely enclosed on all sides (Row 22-23 south wall, Cols 22-23 east wall, Rows 14-15 north wall).
 - Defeated Hiker at (16,15): [Verified Turn 15340] Standing at (16,15) blocking Row 15 direct passage.
 - Horizontal Wall at Rows 8-9 (Cols 14-17): [Verified Turn 15346] Solid rock wall blocking Up movement from Row 10 at Cols 14-17.
 - Solid Rock Wall at (18,13): [Verified Turn 15438] Bumped when attempting Right movement from (17,13).
@@ -37,7 +36,5 @@
 - Pillar Wall at Cols 18-19 (Rows 12-15): [Verified Turn 15838] Vertical rock wall pillar at Cols 18-19 (Rows 12-15) blocks Row 12-13 passage at Col 18. Pass East via Row 17 to Col 20 chute.
 - Solid Rock Wall at Rows 22-23 (Cols 11-20): [Verified Turn 15856] Bumped wall at (15,22) when attempting Down from (15,21). Row 22-23 is solid rock wall across Cols 11-20.
 - Wall at Cols 12-13 (Rows 2-15) and Col 11 Pocket: [Verified Turn 15888] Column 11 is a dead-end pocket bounded by Cols 8-13 rock walls on North and East (Rows 2-15). Exit Col 11 by walking South to Row 16 at (11,16).
-
 - Pillar Wall at Cols 32-33 (Rows 2-9): [Verified Turn 15936] Cols 32-33 are a solid vertical rock wall separating 1F Ladder 1 (37,3) from Entrance Chamber. Exit corridor leads South along Cols 34-37.
-
 - Horizontal Wall at Rows 14-15 (Cols 31-39): [Verified Turn 15938] Rows 14-15 are a solid rock wall across Cols 31-39. Northeast chamber (37,3) is a dead-end pocket. Must use Ladder 1 (37,3) to return to B1F.
