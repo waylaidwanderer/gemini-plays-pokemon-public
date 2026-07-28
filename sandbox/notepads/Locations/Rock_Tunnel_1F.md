@@ -6,6 +6,6 @@
 - Column 37: Open North from (37,11) to Ladder 4 at (37,3) (warps to B1F 33,25).
 - Vertical rock pillar at Cols 18-19 across Rows 6-9 and Rows 14-21; Cols 12-13 across Rows 2-11.
 - Open Highway Row 13 connects (17,13) East to Col 20 at (20,13).
-- Row 22-23 Wall: Solid rock across Cols 11-20 at Rows 22-23.
+- Row 22-23 Wall: Solid rock across Cols 0-23 at Rows 22-23.
+- Row 14-15 Wall: Solid rock across Cols 18-26 at Rows 14-15; (17,15) is blocked.
 - LOOP WARP NOTE (Turn 17303): Stepping on 1F (23,11) teleports player back to 1F (17,11). Cols 24-25 are solid rock wall across Rows 0-15.
-- MAIN ROUTE TO LADDER 4: From (17,11) West to Col 15 -> South down Col 15 through Rows 14-21 -> West/East around Row 22-23 wall to Row 28 gap -> Bottom Corridor (Rows 30-33) -> East to Col 37 -> North to Ladder 4 at (37,3).
