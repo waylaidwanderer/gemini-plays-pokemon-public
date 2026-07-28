@@ -505,6 +505,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Ladder to B1F at (37, 3):** [Verified Turn 15092] Ladder graphic visible at X=37, Y=3 at the northeast end of Northern Highway.
 - Southwest Ladder Spawn at (5, 3): [Verified Turn 15187] Ascended B1F Ladder (27, 3) and spawned at 1F (5, 3) facing South!
 - Collision at (5,16): [Verified Turn 15193] Solid rock wall at Row 16 blocking South movement along Col 5. Passage to Col 8 is via Row 8/9 gap.
+- Trainer at (7,7): [Engaged Turn 15194] Trainer standing at (7,7) on Rock Tunnel 1F.
 
 <hr>
 
