@@ -483,5 +483,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **East Wall Arch at (15,6)/(15,7):** [Verified Turn 14773 & 14816] Solid rock arch tiles (impassable). Searching tall grass field for true Rock Tunnel entrance.
 - **Cut Tree at (8,19):** [Verified Turn 14876] Interactive Cut tree at X=8, Y=19 blocking direct access to Rock Tunnel 1F entrance at (8,17).
 - **Jr. Trainer Female at (7,25):** [Defeated Turn 14868] Defeated trainer standing outside Route 10 Pokémon Center.
+- **Rock Tunnel 1F Entrance:** [Verified Turn 14907] Entrance door located at (8,17) on Route 10 North, accessible via fence gap at (2,19)/(3,19), along row 18 corridor to (8,18), then Up into (8,17).
 
 <hr>
