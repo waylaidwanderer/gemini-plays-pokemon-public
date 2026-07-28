@@ -523,7 +523,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - Horizontal Wall at Rows 22-23 (Cols 12-19): [Verified Turn 16203] Solid horizontal rock wall across Rows 22-23 from Col 12 to Col 19 on 1F. BUMPED at (17,21) when attempting Down to (17,22).
 - Vertical Wall at Cols 18-19 (Rows 10-13): [Verified Turn 16217] Solid vertical rock wall at Cols 18-19 from Row 10 to Row 13. BUMPED at (17,11) when attempting Right to (18,11).
 - Solid Rock Wall at Col 19 (Rows 7-9): [Verified Turn 16194] BUMPED at (19,8) when attempting Up to (19,7). Column 19 (Rows 7-9) is solid rock wall on 1F.
-- Ladder 2 to B1F at (27, 3): [Verified Turn 16239] Visually confirmed ladder graphic at X=27, Y=3 on 1F floor. Connects 1F (27,3) <---> B1F (5,3).
+- Ladder 2 to B1F at (5, 3): [Verified Turn 15187] Located at X=5, Y=3 in NW corner of 1F. Connects 1F (5,3) <---> B1F (5,3).
 - Horizontal Wall at Rows 14-15 (Cols 23-31): [Verified Turn 16240] Solid horizontal rock wall across Rows 14-15 from Col 23 to Col 31 on 1F. BUMPED at (27,13) when attempting Down to (27,14). Open gap is at Col 32.
 - Horizontal Wall at Rows 20-21 (Cols 26-37): [Verified Turn 16252] Solid horizontal rock wall across Rows 20-21 from Col 26 to Col 37 on 1F. BUMPED at (28,19), (29,19), (32,19) when attempting Down to Row 20. Open gap is at Columns 24-25.
 - Rock Pillar at Cols 26-27 (Rows 22-30): [Verified Turn 16328] Solid vertical rock pillar at Cols 26-27 extends from Row 22 down through Row 30. Pass East via Row 31 (26-27, 31) to reach Column 28 gap.
