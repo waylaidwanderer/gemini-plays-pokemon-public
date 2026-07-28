@@ -530,7 +530,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - Solid Wall at Rows 34-35 (Cols 0-39): [Verified Turn 16286] Rows 34-35 are a continuous solid rock wall across ALL columns (0 to 39) on 1F. South 1F chamber is enclosed. Must navigate B1F to SE Ladder 4 at (33,25) to ascend to 1F SE Exit Area!
 - **Ladder at (33, 25) on 1F:** [Verified Turn 16298] Visually confirmed ladder graphic at X=33, Y=25 in SE chamber of 1F!
 - **Horizontal Wall at Rows 28-29 (Cols 22-27):** [Verified Turn 16325] Solid rock wall at Rows 28-29 across Cols 22-27 on 1F. Open gap North is at Cols 28-30.
-- **1F South Highway Enclosed Structure:** [Verified Turn 16339] 1F South Highway (Rows 30-33, Cols 3-25) is fully bounded by Rows 28-29 wall (Cols 21-27) on North, Rows 34-35 wall on South, and Cols 26-27 pillar. Access out of South area is via Col 28 gap (Rows 28-29) into Eastern Chamber to reach Ladder 4 at (33,25).
+- **1F South Highway Enclosed Structure:** [Verified Turn 16339] Rows 34-35 wall on South across all columns (0-39). Access into South area is via Col 28 gap (Rows 28-29) from Eastern Chamber.
 
 <hr>
 
