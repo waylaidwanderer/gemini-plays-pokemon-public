@@ -905,6 +905,23 @@
 ## Verified Collisions
 *(None yet)*
 
+- **(15, 4):** Walkable.
+- **(16, 4):** Walkable.
+- **(17, 4):** Walkable.
+- **(18, 4):** Walkable.
+- **(19, 4):** Walkable.
+- **(20, 4):** Walkable.
+- **(21, 4):** Walkable.
+- **(22, 4):** Walkable.
+- **(22, 5):** Walkable.
+- **(22, 6):** Walkable.
+- **(22, 7):** Walkable.
+- **(22, 8):** Walkable.
+- **(22, 9):** Walkable.
+- **(22, 10):** Walkable.
+- **(22, 11):** Walkable.
+- **(22, 12):** Walkable.
+- **(22, 13):** Walkable.
 
 <hr>
 
