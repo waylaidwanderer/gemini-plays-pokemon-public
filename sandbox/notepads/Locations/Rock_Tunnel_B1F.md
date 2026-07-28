@@ -13,3 +13,4 @@
 - Northern B1F Highway: B1F (27,3) warps directly to B1F (5,3) (Turn 16979).
 - B1F (5,3) connects East along Row 3 to B1F South Exit at (15,3).
 - B1F (17,11) warps directly to 1F (23,11) (Turn 17004).
+- Verified B1F Route from Ladder 1 (17,11) / (14,10): Down to (14,14) -> Left 3 steps along Row 14 to Col 11 at (11,14) -> Up Col 11 (Rows 14 to 3) to Northern Highway!
