@@ -925,6 +925,11 @@
 - **(22, 11):** Walkable.
 - **(22, 12):** Walkable.
 - **(22, 13):** Walkable.
+- **(23, 13):** Walkable.
+- **(24, 13):** Walkable.
+- **(25, 13):** Walkable.
+- **(26, 13):** Walkable.
+- **(27, 13):** Walkable.
 
 <hr>
 
