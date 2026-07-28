@@ -506,7 +506,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - Southwest Ladder Spawn at (5, 3): [Verified Turn 15187] Ascended B1F Ladder (27, 3) and spawned at 1F (5, 3) facing South!
 - Collision at (5,16): [Verified Turn 15193] Solid rock wall at Row 16 blocking South movement along Col 5. Passage to Col 8 is via Row 8/9 gap.
 - Hiker at (7,7): [Defeated Turn 15199] Defeated Hiker with Geodude (Lv 19) and Machop (Lv 19). Earned prize money.
-- Collision at (10,22): [Verified Turn 15217] Solid rock wall at Rows 22-23 across Cols 6-15. Searching East along Row 21 for gap.
+- Collision at (10,22): [Verified Turn 15217] Solid rock wall at Rows 22-23 across Cols 6-15.
 - Pillar Wall at Cols 22-23: [Verified Turn 15220] Solid vertical rock wall pillar at Cols 22-23 (Rows 17-23) blocking East movement on Row 21 from (21,21). Bypass is via Row 8 East to Col 24.
 - Pillar Wall at Cols 18-19 (Rows 12-15): [Verified Turn 15234] Vertical rock wall pillar at Cols 18-19 (Rows 12-15) blocking Row 13 East passage at Col 18. Passage North is via Col 17.
 - Collision at (17,15): [Verified Turn 15236] Solid rock wall at Row 15 blocking Up movement from (17,16). Exit path is via Col 8 North to Row 8/9.
