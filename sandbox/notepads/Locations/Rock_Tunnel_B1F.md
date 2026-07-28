@@ -26,3 +26,4 @@
 - Solid Rock Wall Pillar at Cols 18-19 (Rows 14-21): [Verified Turn 15453] Verified solid rock pillar from Row 14 down to Row 21. Central Chute (Cols 14-17) is an enclosed dead-end.
 - Solid Rock Wall at (18,6) & (19,6): [Verified Turn 15457] Vertical rock pillar at Cols 18-19 extends up through Row 6.
 - Solid Rock Wall Pillar at Cols 24-25 (Rows -1 to 15): [Verified Turn 15463] Bumped at (24,5). Pillar wall has zero gaps across Rows -1 to 15.
+- Horizontal Rock Wall at Rows 14-15 (Cols 18-31): [Verified Turn 15499] Bumped at (27,14). Column 32 is open floor passing through Rows 14-15.
