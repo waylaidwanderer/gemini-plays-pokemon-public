@@ -7,13 +7,6 @@
 - **Entry Warp:** Route 10 East connects to Rock Tunnel 1F at (15, 3). Walking SOUTH from (15, 3) enters the main corridor.
 
 - **(14, 3):** Walkable.
-
-## Verified Collisions
-- **(13, 3):** Physical collision (Turn 10717).
-- **(13, 4):** Physical collision (Turn 10713).
-- **(13, 7):** Physical collision (Turn 10728).
-- **(14, 8):** Physical collision (Turn 10727).
-
 - **(15, 4):** Walkable.
 - **(16, 4):** Walkable.
 - **(17, 4):** Walkable.
@@ -45,9 +38,21 @@
 - **(34, 13):** Walkable.
 - **(35, 13):** Walkable.
 - **(36, 13):** Walkable.
+- **(37, 5):** Walkable.
+- **(37, 6):** Walkable.
+- **(37, 7):** Walkable.
+- **(37, 8):** Walkable.
+- **(37, 9):** Walkable.
+- **(37, 10):** Walkable.
+- **(37, 11):** Walkable.
+- **(37, 12):** Walkable.
 - **(37, 13):** Walkable.
 
+## Verified Collisions
+- **(13, 3):** Physical collision (Turn 10717).
+- **(13, 4):** Physical collision (Turn 10713).
+- **(13, 7):** Physical collision (Turn 10728).
+- **(14, 8):** Physical collision (Turn 10727).
+
 ## Map Transitions
-- **Unreachable Ladder to B1F:** Located at `(37, 17)` on Rock Tunnel 1F. It is isolated by walls on Row 14-15 and Column 31, meaning it must be accessed from B1F.
-- **(37, 12):** Walkable.
-- **(37, 11):** Walkable.
+- **Unreachable Ladder to B1F (Hypothesis):** Located at `(37, 17)` on Rock Tunnel 1F. It is isolated by walls on Row 14-15 and Column 31, and is hypothesized to connect to B1F but has not been empirically verified in-game.
