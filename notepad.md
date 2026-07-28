@@ -111,7 +111,7 @@
 ## Verified 1F Routing & Layout (Turn 16905)
 - Entrance/North Exit (15,3) connects to Route 10 North (outside PC).
 - Northern Highway (Row 5): (15,5) East to (31,5). Cols 32-33 at Row 5 are solid rock wall.
-- Gap through Row 8 wall: Cols 20-23 connects Row 5 at (22,5) South to Row 11 at (22,11).
+- Gap through Row 8-9 wall: Cols 14-17 connects Row 5 at (15,5) South to Row 11 at (15,11) (Cols 18-23 are solid rock at Rows 8-9).
 - Main Cavern Highway (Row 11): Open East from (22,11) to (37,11).
 - Column 37: Open North from (37,11) to Ladder 4 at (37,3) (warps to B1F 33,25).
 - Vertical rock pillar at Cols 18-19 across Rows 14-21; Cols 12-13 across Rows 2-11.
@@ -119,7 +119,6 @@
 - Correction at Row 28-29: Wall extends across Cols 7-13. Open gap through Rows 28-29 is at Cols 14-16.
 - Dead-end Alley note (Turn 17063): Col 11 is blocked at Row 27 (walled South at Rows 28-29 across Cols 7-13, East at Cols 12-13 across Rows 23-29).- ONE-WAY WARP NOTE (Turn 17189): 1F (23,11) is a one-way warp arrival point from B1F (17,11); it is NOT an interactive ladder leading back down to B1F.
 - SPATIAL BOUNDARY NOTE (Turn 17271): Row 11 is blocked East at Col 24 by a rock wall pillar. Path to Col 37 / Ladder 4 goes Up 6 through Row 8 gap at (23,11) to Row 5 Northern Highway (22,5), then East along Row 5 to Col 37.
-
 
 <hr>
 
