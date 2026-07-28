@@ -1,9 +1,10 @@
-## Verified 1F Routing & Layout (Turn 17371)
+## Verified 1F Routing & Layout (Turn 17381)
 - Entrance/North Exit (15,3) connects to Route 10 North (outside PC).
 - Northern Highway (Row 5): Open East from (14,5) to (31,5). Cols 8-13 at Row 5 are solid rock wall; (11,5) is blocked.
 - Rows 8-9 Wall: Solid rock across Cols 12-19. Neither Col 11 nor Col 14 connects North through Rows 8-9.
-- Vertical rock pillar at Cols 12-13 across Rows 2-13; Row 14 is OPEN under the pillar connecting Col 14 to Col 11 and West to Cols 2-7.
-- Western Cavern (Cols 2-7): Open sector across Rows 2-14. Unexplored passage North to Row 2/5 or South to Row 24/30.
+- Vertical rock pillar at Cols 12-13 across Rows 2-13.
+- Vertical rock pillar at Cols 6-7 across Rows 10-17; (7,14) is solid rock.
+- Central Corridor (Cols 8-11): Open vertically across Rows 10-21. Connects South to Row 21 horizontal highway.
 - Vertical rock pillar at Cols 18-19 across Rows 10-15.
 - Row 22-23 Wall: Solid rock across Cols 0-23 at Rows 22-23.
 - Row 14-15 Wall: Solid rock across Cols 18-26 at Rows 14-15.
