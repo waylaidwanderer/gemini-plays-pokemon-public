@@ -8,3 +8,6 @@
 - West Dead-End Wall at (1,30-33): [Verified Turn 15119] Solid rock wall at Col 1 blocks West end of Row 30-33 southern highway at Col 2.
 - North Opening at (14-17,28-29): [Discovered Turn 15126] Wide 4-tile passage going North from Row 32 highway at Cols 14-17.
 - Jr. Trainer Female at (17,28): [Defeated Turn 15135] Defeated Jr. Trainer Female with Oddish (Lv 22) and Bulbasaur (Lv 22).
+- Collision at (20,21): [Verified Turn 15138] Solid rock wall at Col 20-21 on Row 21.
+- East Boundary Wall at Col 38: [Verified Turn 15142] Solid vertical rock wall at Col 38 (Rows 14-19).
+- Pillar Wall at Cols 18-19: [Verified Turn 15146] Solid vertical rock wall pillar at Cols 18-19 (Rows 14-21).

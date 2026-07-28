@@ -501,7 +501,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Pillar Wall at Cols 38-39 (Rows 9-15):** [Verified Turn 14992] Solid rock wall pillar at cols 38-39 blocks direct East movement on rows 9-15.
 - **Ladder (37,17) Unreachable from 1F:** [Disproven Turn 14994] Cols 38-39 form a solid rock wall from row 3 down through row 16+, rendering ladder (37,17) unreachable from Rock Tunnel 1F.
 - **Pillar Wall at Cols 32-33 (Rows 3-9):** [Verified Turn 14995] Rock wall pillar at cols 32-33 blocks West movement on rows 3-9. Row 10-13 highway is fully open.
-- **Master 1F Route Topology (Hypothesis - Needs Verification):** Entrance (15,3) connects to Northern Highway (rows 4-7). Need to locate passage connecting to Ladder 1 at (17,11).
+
 - **Ladder to B1F at (37, 3):** [Verified Turn 15092] Ladder graphic visible at X=37, Y=3 at the northeast end of Northern Highway.
 
 <hr>
@@ -518,5 +518,8 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - West Dead-End Wall at (1,30-33): [Verified Turn 15119] Solid rock wall at Col 1 blocks West end of Row 30-33 southern highway at Col 2.
 - North Opening at (14-17,28-29): [Discovered Turn 15126] Wide 4-tile passage going North from Row 32 highway at Cols 14-17.
 - Jr. Trainer Female at (17,28): [Defeated Turn 15135] Defeated Jr. Trainer Female with Oddish (Lv 22) and Bulbasaur (Lv 22).
+- Collision at (20,21): [Verified Turn 15138] Solid rock wall at Col 20-21 on Row 21.
+- East Boundary Wall at Col 38: [Verified Turn 15142] Solid vertical rock wall at Col 38 (Rows 14-19).
+- Pillar Wall at Cols 18-19: [Verified Turn 15146] Solid vertical rock wall pillar at Cols 18-19 (Rows 14-21).
 
 <hr>
