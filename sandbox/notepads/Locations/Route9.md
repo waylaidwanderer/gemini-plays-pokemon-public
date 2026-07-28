@@ -35,15 +35,15 @@
 - **Columns 24-27 Rock Wall on Row 14-15:** Blocks eastward movement on the lower lanes.
 - **Column 19 Vertical Ledge on Rows 8-11:** Blocks westward (backtracking) movement on the upper lanes.
 - **Column 24/25 Vertical Ledge on Rows 5-6:** Blocks westward (leftward) movement on the upper lanes.
+- **Row 17 Water/River Barrier:** Row 17 on Route 9 contains animated river/water tiles (represented by '8788/9392' and '50f8/948d' under dx=0) which completely block foot traversal eastward across Columns 20 to 50.
 
 
-## ROM Tile Map 2x Coordinate Scaling & Offset (Critical)
+## ROM Tile Map 2x Coordinate Scaling (Critical)
 - **Vertical Scale Factor:** The raw tile map file `route9_tile_map.txt` is exactly **2x scaled** vertically relative to the in-game global coordinate grid reported by the harness.
   - `y_file = y_game * 2`  (maps to file rows `2 * y_game` and `2 * y_game + 1`)
-- **Horizontal Scale and Alignment Offset:** 
-  - There is a **+6 column offset** horizontally between in-game global coordinates and the file representation.
-  - `x_file = x_game + 6`  (maps to file columns `2 * (x_game + 6)` and `2 * (x_game + 6) + 1` since the file represents a 119-column grid, i.e., 60-tile wide map with a +6 shift)
-- **Strict Spatial Consistency:** All pathfinding and navigation scripts MUST apply this +6 horizontal offset and 2x vertical multiplier before reading from or writing to the file representation to prevent mathematical coordinate desyncs.
+- **Horizontal Scale Alignment:**
+  - The horizontal alignment has no offset (dx = 0).
+  - `x_file = x_game * 2` (maps to file columns `2 * x_game` and `2 * x_game + 1` since the file represents a 120-column grid, i.e., 60-tile wide map).
 
 - **Route 9 East Pocket (Columns 45-46, Rows 6-7):**
   - **Column 44:** Open pavement. Does NOT block westward (leftward) movement.
