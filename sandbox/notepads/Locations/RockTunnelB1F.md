@@ -131,3 +131,8 @@
 - **(22, 18):** Walkable.
 - **(22, 19):** Walkable.
 - **(22, 20):** Walkable.
+## Trainer Roster & Coordinates
+| Trainer Name | Location / Coordinates | Trainer Roster | Notes |
+|--------------|------------------------|----------------|-------|
+| POK�MANIAC Winston | (21, 21) / (22, 21) | Charmander (Lv 22), Cubone (Lv 22) | Defeated on Turn 10829 |
+| Hiker Erik | (34, 5) | Machop (Lv 20), Geodude, Onix | Engaged on Turn 10843 |
