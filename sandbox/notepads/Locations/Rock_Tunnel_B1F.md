@@ -41,3 +41,4 @@
 - **Obstruction at (14,28):** [Verified Turn 15706] Attempting to step Down from (14,27) to (14,28) bumped into a solid obstacle/wall/NPC. Pass North/South through Central Passage via Column 17 instead.
 - **Solid Vertical Wall at Cols 12-13 (Rows 7-13):** [Verified Turn 15752] Column 12-13 is a rock wall blocking West travel on Rows 7-13. Central Corridor (Cols 14-17) connects North to Rows 2-5 and South to Row 16.
 - **Solid Rock Wall at (13,3):** [Verified Turn 15757] Bumped wall when attempting Left from (14,3). Cols 12-13 are a continuous vertical wall from Row -1 down to Row 29.
+- Horizontal Rock Wall at Rows 8-9 (Cols 20-25): [Verified Turn 15785] Solid rock wall at Rows 8-9 across Cols 20-25 blocks direct Down movement from Row 7 to Row 10 at Col 23. Pass around via Col 14-17 highway.
