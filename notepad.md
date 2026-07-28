@@ -122,6 +122,7 @@
   - Rows 14-15: Solid rock across Cols 18-26.
   - Rows 22-23: Solid rock across Cols 0-23.
 - Row 3 is blocked West of Col 34 by rock wall at (33,3). Col 37 connects (37,3) South to (37,11) (Turn 17468).
+- Ladder 3 at B1F (17,11) warps to 1F (23,11) in the Central Cavern of 1F (Turn 17514).
 
 <hr>
 
