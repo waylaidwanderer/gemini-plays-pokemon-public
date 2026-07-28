@@ -44,15 +44,12 @@
 - **Defeated Rocket Grunt (Burgled House Backyard):** Defeated Team Rocket Grunt on Turn 4897, earning 510 and obtaining TM28 (Dig).
 - **Defeated Jr. Trainer♂ (Route 24 Grass):** Defeated Jr. Trainer♂ on Turn 4992, earning 280.
 - **Truffle Leveled Up:** TRUFFLE (Paras) reached Level 13 and learned STUN SPORE on Turn 5032.
-- **Tesla Leveled Up:** TESLA (Pikachu) reached Level 11 on Turn 5052.
-- **Tesla Leveled Up:** TESLA (Pikachu) reached Level 12 on Turn 5205.
 - **Defeated Swimmer Horatio (Cerulean Gym):** Defeated Swimmer at (5, 7) inside Cerulean Gym on Turn 5210, earning 80.
 - **Defeated Picnicker Diana (Cerulean Gym):** Defeated Picnicker Diana at (5, 3) inside Cerulean Gym on Turn 5233, earning 380.
 - **Defeated Gym Leader Misty:** Defeated Cerulean Gym Leader Misty on Turn 5262, obtaining the CASCADEBADGE and TM11 (Bubblebeam).
 
 - **Defeated Bug Catcher (Route 6):** Defeated Bug Catcher on Turn 6172, earning 200.
 - **Defeated Jr. Trainer♀ (Route 6):** Defeated Jr. Trainer♀ at (9, 31) on Turn 6185, earning 320.
-- **Tesla Leveled Up:** TESLA (Pikachu) reached Level 14 on Turn 6189.
 - **Defeated Jr. Trainer♂ (Route 6):** Defeated Jr. Trainer♂ at (8, 31) on Turn 6211, earning 320.
 
 - **Cut the Gym Bush:** Cut the Gym bush in Vermilion City to open access to the Gym on Turn 6799.
@@ -62,7 +59,6 @@
 - **Defeated Gentleman Tucker (Vermilion Gym):** Defeated Gentleman Tucker at (9, 6) in Vermilion Gym on Turn 6897, earning ¥1610.
 - **Solved Vermilion Gym Puzzle:** Found first switch at (1, 11) and second switch at (3, 11) on Turn 7005, opening the motorized door to Lt. Surge.
 - **Defeated Gym Leader Lt. Surge:** Defeated Vermilion Gym Leader Lt. Surge on Turn 7027, obtaining the THUNDERBADGE and TM24 (Thunderbolt).
-- **Attempted Vermilion Pokémon Center Visit:** Entered Pokémon Center on Turn 7068, but the healing dialogue was accidentally declined/cancelled by pressing 'B' on the YES/NO prompt, so the party was NOT healed.
 - **Defeated JR. TRAINER♀ (Route 9):** Defeated JR. TRAINER♀ on Route 9 on Turn 7197, earning ¥360.
 - **Obtained Item (TM30):** Found and retrieved TM30 (Teleport) at (10, 15) on Route 9 on Turn 7206.
 - **Defeated Hiker (Route 9):** Defeated Hiker at (45, 15) on Route 9 on Turn 7280, earning ¥735.
