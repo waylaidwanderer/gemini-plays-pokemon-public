@@ -46,3 +46,4 @@
 - Solid Rock Wall at Rows 22-23 (Cols 12-19): [Verified Turn 15953] Rows 22-23 across Cols 12-19 are a solid rock wall blocking Col 16. Open passage North is at Cols 20-21.
 - Horizontal Rock Wall at Rows 20-21 (Cols 18-24): [Verified Turn 15955] Rows 20-21 across Cols 18-24 are a solid rock wall blocking Col 20 North access. Pass North via Col 25.
 - Pillar Wall at Cols 18-19 (Rows 6-21): [Verified Turn 15978] Cols 18-19 form a solid vertical wall. Bypass West via Row 22.
+- Southwest Cavern Rows 28-29 Exploration Plan: [Verified Turn 16032] From (16,32), walk West along Row 32 to Cols 13, 12, 11, 10, 9, 8, 7, 6, 5 and test stepping North through Rows 28-29 gaps to locate Upper Southwest Cavern and Exit Ladder 4.
