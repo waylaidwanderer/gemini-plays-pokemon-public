@@ -31,4 +31,4 @@
 - Solid Rock Wall at (18,13): [Verified Turn 15438] Bumped when attempting Right movement from (17,13).
 - Solid Rock Wall at (16,9): [Verified Turn 15441] Bumped when attempting Up movement from (16,10). Wall at Rows 8-9 across Cols 14-17.
 - Solid Rock Wall at (13,10): [Verified Turn 15442] Bumped when attempting Left movement from (14,10). Cols 12-13 are wall.
-- Solid Rock Wall Pillar at Cols 6-7 (Rows 10-17): [Verified Turn 15474] Bumped at (7,14). Row 18 is open underneath (Cols 5-13), connecting Col 8-17 to Col 5 West Corridor.
+- Solid Rock Wall Pillar at Cols 6-7 (Rows 10-17): [Verified Turn 15474] Bumped at (7,14). Row 18 is open underneath (Cols 5-13).
