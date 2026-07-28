@@ -34,3 +34,12 @@
 - (17, 25): Walkable (visited).
 - (17, 24): Walkable (visited).
 - (16, 24): Walkable (visited).
+- (15, 24): Walkable (visited).
+- (14, 24): Walkable (visited).
+- (14, 25): Walkable (visited).
+- (14, 26): Walkable (visited).
+- (14, 27): Walkable (visited).
+- (15, 27): Walkable (visited).
+- (15, 28): Walkable (visited).
+- (16, 28): Walkable (visited).
+- (14, 28): Collision/Wall (bumped on Turn 10606).
