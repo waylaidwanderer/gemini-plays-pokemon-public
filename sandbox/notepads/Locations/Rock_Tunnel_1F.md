@@ -19,8 +19,6 @@
 - Collision at (5,16): [Verified Turn 15193] Solid rock wall at Row 16 blocking South movement along Col 5.
 - Hiker at (7,7): [Defeated Turn 15199] Defeated Hiker with Geodude (Lv 19) and Machop (Lv 19). Earned prize money.
 - Collision at (10,22): [Verified Turn 15217] Solid rock wall at Rows 22-23 across Cols 6-15.
-- Pillar Wall at Cols 22-23: [Verified Turn 15220] Solid vertical rock wall pillar at Cols 22-23 (Rows 17-23) blocking East movement on Row 21 from (21,21).
-- Pillar Wall at Cols 18-19 (Rows 12-15): [Verified Turn 15234] Vertical rock wall pillar at Cols 18-19 (Rows 12-15) blocking Row 13 East passage at Col 18.
 - Horizontal Wall at Rows 14-15 (Cols 20-23): [Verified Turn 15268/15270] Solid rock wall blocking Up movement from Row 16 at Cols 20-23.
 - Vertical Pillar Wall at Cols 22-23 (Rows 16-23): [Verified Turn 15269] Solid rock wall blocking East movement from Col 21.
 - South-West Pocket Dead-End (Cols 5-21, Rows 16-21): [Verified Turn 15273] The South-West chamber bounded by Cols 5-21 and Rows 16-21 is completely enclosed on all sides (Row 22-23 south wall, Cols 22-23 east wall, Rows 14-15 north wall).
