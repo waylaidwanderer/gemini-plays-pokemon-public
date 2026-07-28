@@ -42,5 +42,4 @@
 - Rock Pillar at Cols 26-27 (Rows 22-30): [Verified Turn 16328] Solid vertical rock pillar at Cols 26-27 extends from Row 22 down through Row 30. Pass East via Row 31 (26-27, 31) to reach Column 28 gap.
 - **Ladder at (33, 25) on 1F:** [Verified Turn 16298] Visually confirmed ladder graphic at X=33, Y=25 in SE chamber of 1F!
 - **Horizontal Wall at Rows 28-29 (Cols 22-27):** [Verified Turn 16325] Solid rock wall at Rows 28-29 across Cols 22-27 on 1F. Open gap North is at Cols 28-30.
-- **1F South Highway Enclosed Structure:** [Verified Turn 16339] Rows 34-35 wall on South across all columns (0-39). Access into South area is via Col 28 gap (Rows 28-29) from Eastern Chamber.
 - **Verified No-Warp Floor Rows (South Highway):** [Verified Turn 16466] Row 31 (Cols 3-25), Row 32 (Cols 5-25), and Row 33 (Cols 3-38) contain zero exit warp tiles. Rows 34-35 are solid rock walls (Cols 0-39). South exit must be located in the Eastern Chamber (Cols 28-38, Rows 26-32) or another unsearched section!
