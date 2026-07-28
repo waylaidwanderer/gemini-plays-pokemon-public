@@ -11,3 +11,4 @@
 - Collision at (20,21): [Verified Turn 15138] Solid rock wall at Col 20-21 on Row 21.
 - East Boundary Wall at Col 38: [Verified Turn 15142] Solid vertical rock wall at Col 38 (Rows 14-19).
 - Pillar Wall at Cols 18-19: [Verified Turn 15146] Solid vertical rock wall pillar at Cols 18-19 (Rows 14-21).
+- Horizontal Wall at Rows 20-21 (Cols 26-37): [Verified Turn 15153] Solid rock wall at Rows 20-21 from Col 26 to Col 37. Opening at Col 20-25.
