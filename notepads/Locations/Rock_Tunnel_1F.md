@@ -43,3 +43,4 @@
 - Solid Wall at Rows 34-35 (Cols 0-39): [Verified Turn 16286] Rows 34-35 are a continuous solid rock wall across ALL columns (0 to 39) on 1F. South 1F chamber is enclosed. Must navigate B1F to SE Ladder 4 at (33,25) to ascend to 1F SE Exit Area!
 - **Ladder at (33, 25) on 1F:** [Verified Turn 16298] Visually confirmed ladder graphic at X=33, Y=25 in SE chamber of 1F!
 - **Horizontal Wall at Rows 28-29 (Cols 22-27):** [Verified Turn 16325] Solid rock wall at Rows 28-29 across Cols 22-27 on 1F. Open gap North is at Cols 28-30.
+- **Column 28 Trapped Pocket at Row 22:** [Verified Turn 16336] Tile (27,22) is solid rock pillar and tile (28,21) is solid horizontal wall. From (28,22), must walk Down to Row 31 to pass West under pillar to Column 25.
