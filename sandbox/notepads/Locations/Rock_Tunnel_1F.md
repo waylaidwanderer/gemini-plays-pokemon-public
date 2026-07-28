@@ -15,3 +15,4 @@
 - **Ladder (37,17) Unreachable from 1F:** [Disproven Turn 14994] Cols 38-39 form a solid rock wall from row 3 down through row 16+, rendering ladder (37,17) unreachable from Rock Tunnel 1F.
 - **Pillar Wall at Cols 32-33 (Rows 3-9):** [Verified Turn 14995] Rock wall pillar at cols 32-33 blocks West movement on rows 3-9. Row 10-13 highway is fully open.
 - **Master 1F Route Topology (Hypothesis - Needs Verification):** Entrance (15,3) connects to Northern Highway (rows 4-7). Need to locate passage connecting to Ladder 1 at (17,11).
+- **Ladder to B1F at (37, 3):** [Verified Turn 15092] Ladder graphic visible at X=37, Y=3 at the northeast end of Northern Highway.
