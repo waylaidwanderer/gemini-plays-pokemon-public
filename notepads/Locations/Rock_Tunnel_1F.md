@@ -35,3 +35,4 @@
 - Defeated Hiker NPC at (5,17): [Verified Turn 15492] Standing at (5,17). Column 4 is open floor running parallel to Column 5 to reach Ladder 2 at (5,3).
 - **Obstruction at (17,15):** [Verified Turn 15744] Stepping Up from (17,16) bumped into obstacle/wall at (17,15). Pass North via Col 14/15 instead.
 - South Highway at Row 24 (Cols 14-37): [Verified Turn 15825] Column 14-16 connects Row 21 South to Row 24 open highway. Row 24 runs East past Col 26 toward Eastern Cavern and Exit!
+- Pillar Wall at Cols 18-19 (Rows 12-15): [Verified Turn 15838] Vertical rock wall pillar at Cols 18-19 (Rows 12-15) blocks Row 12-13 passage at Col 18. Pass East via Row 17 to Col 20 chute.
