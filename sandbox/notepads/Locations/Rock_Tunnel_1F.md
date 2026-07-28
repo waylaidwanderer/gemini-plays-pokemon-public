@@ -13,3 +13,4 @@
 - **West Corridor to Ladder (17,11):** [Verified Turn 14988] Ladder at (17,11) is located on the West side of the col 18-19 vertical wall, accessible by heading West from entrance (15,3) to cols 11-13 then South to row 11.
 - **Pillar Wall at Cols 38-39 (Rows 9-15):** [Verified Turn 14992] Solid rock wall pillar at cols 38-39 blocks direct East movement on rows 9-15.
 - **Ladder (37,17) Bypass:** [Verified Turn 14992] Ladder graphic visible at (37,17). Bounded on North by row 14-15 wall and East by col 38-39 pillar wall. Accessible via Col 40+ Eastern bypass corridor!
+- **Pillar Wall at Cols 32-33 (Rows 3-9):** [Verified Turn 14995] Rock wall pillar at cols 32-33 blocks West movement on rows 3-9. Row 10-13 highway is fully open.
