@@ -1,0 +1,34 @@
+# Progression and Party Stats
+
+## Gym Badge Milestones
+- **Boulder Badge:** Earned by defeating Gym Leader Brock in Pewter City Gym on Turn 1025.
+- **Cascade Badge:** Earned by defeating Gym Leader Misty in Cerulean City Gym on Turn 5262.
+- **Thunder Badge:** Earned by defeating Gym Leader Lt. Surge in Vermilion City Gym on Turn 7025.
+
+## Current Party Stats (as of Turn 11040)
+1. **TESLA** (Pikachu)
+   - Level: 18
+   - HP: 10/44
+   - Status: Healthy (Low HP)
+2. **TRUFFLE** (Paras)
+   - Level: 14
+   - HP: 37/37
+   - Status: Healthy
+3. **GUSTY** (Pidgey)
+   - Level: 5
+   - HP: 19/19
+   - Status: Healthy
+4. **NIBBLES** (Rattata)
+   - Level: 7
+   - HP: 22/22
+   - Status: Healthy
+5. **SHELLBY** (Blastoise)
+   - Level: 36
+   - HP: 67/112 (Damaged by Selfdestruct on Turn 11032)
+   - Status: Healthy
+
+## Major Milestones and Items
+- **Cut:** Taught to Pokémon on Turn 6787.
+- **Bill's House:** Visited on Route 25 on Turn 4765. Restored Bill's human form.
+- **Burgled House:** Explored in Cerulean City.
+- **S.S. Anne:** Boarded and cleared, obtained Cut from the Captain.
