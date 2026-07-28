@@ -515,6 +515,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **South-West Pocket Dead-End (Cols 5-21, Rows 16-21):** [Verified Turn 15273] The South-West chamber bounded by Cols 5-21 and Rows 16-21 is completely enclosed on all sides (Row 22-23 south wall, Cols 22-23 east wall, Rows 14-15 north wall).
 - Defeated Hiker at (16,15): [Verified Turn 15340] Standing at (16,15) blocking Row 15 direct passage.
 - Horizontal Wall at Rows 8-9 (Cols 14-17): [Verified Turn 15346] Solid rock wall blocking Up movement from Row 10 at Cols 14-17.
+- Solid Rock Wall at (18,13): [Verified Turn 15438] Bumped when attempting Right movement from (17,13).
 
 <hr>
 
