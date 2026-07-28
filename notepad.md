@@ -146,5 +146,6 @@
 - Rows 20-21 in Eastern Sector (Cols 28-37) are solid rock wall. Col 24 connects Row 19 South to Central Corridor (24,27) (Turn 17459).
 - Cols 18-19 across Rows 15-23 form a solid rock wall pillar. Row 24 (Central Corridor) is open West from Col 25 to Col 10 (Turn 17487).
 - Row 28 is solid rock wall across Cols 10-19. NW Sector (Ladder 3 at 17,11) is accessed via Northern Highway warp B1F (27,3) -> B1F (5,3) (Turn 17495).
+- Cols 12-13 rock pillar spans Rows 6-13. Row 14 connects Col 11 East to Col 17 and Ladder 3 at (17,11) (Turn 17510).
 
 <hr>
