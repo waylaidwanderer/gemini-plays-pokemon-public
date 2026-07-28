@@ -517,6 +517,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - Horizontal Wall at Rows 8-9 (Cols 14-17): [Verified Turn 15346] Solid rock wall blocking Up movement from Row 10 at Cols 14-17.
 - Solid Rock Wall at (18,13): [Verified Turn 15438] Bumped when attempting Right movement from (17,13).
 - Solid Rock Wall at (16,9): [Verified Turn 15441] Bumped when attempting Up movement from (16,10). Wall at Rows 8-9 across Cols 14-17.
+- Solid Rock Wall at (13,10): [Verified Turn 15442] Bumped when attempting Left movement from (14,10). Cols 12-13 are wall.
 
 <hr>
 
