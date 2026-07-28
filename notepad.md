@@ -526,6 +526,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - Vertical Wall at Cols 18-19 (Rows 10-13): [Verified Turn 16217] Solid vertical rock wall at Cols 18-19 from Row 10 to Row 13. BUMPED at (17,11) when attempting Right to (18,11).
 - Solid Rock Wall at Col 19 (Rows 7-9): [Verified Turn 16194] BUMPED at (19,8) when attempting Up to (19,7). Column 19 (Rows 7-9) is solid rock wall on 1F.
 - Ladder 2 to B1F at (27, 3): [Verified Turn 16239] Visually confirmed ladder graphic at X=27, Y=3 on 1F floor. Connects 1F (27,3) <---> B1F (5,3).
+- Horizontal Wall at Rows 14-15 (Cols 23-31): [Verified Turn 16240] Solid horizontal rock wall across Rows 14-15 from Col 23 to Col 31 on 1F. BUMPED at (27,13) when attempting Down to (27,14). Open gap is at Col 32.
 
 <hr>
 
