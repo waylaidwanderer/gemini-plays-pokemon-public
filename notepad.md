@@ -980,6 +980,30 @@
 - **(19, 7):** Walkable (visited on Turn 10288).
 - **(20, 7):** Walkable (visited on Turn 10289).
 - **(20, 8):** Walkable (visited on Turn 10289).
+- **(20, 9):** Walkable.
+- **(20, 10):** Walkable.
+- **(20, 11):** Walkable.
+- **(21, 11):** Walkable.
+- **(22, 11):** Walkable.
+- **(23, 11):** Walkable.
+- **(24, 11):** Walkable.
+- **(25, 11):** Walkable.
+- **(26, 11):** Walkable.
+- **(27, 11):** Walkable.
+- **(28, 11):** Walkable.
+- **(29, 11):** Walkable.
+- **(30, 11):** Walkable.
+- **(31, 11):** Walkable.
+- **(32, 11):** Walkable.
+- **(33, 11):** Walkable.
+- **(34, 11):** Walkable.
+- **(34, 12):** Walkable.
+- **(34, 8):** Walkable.
+- **(34, 4):** Walkable.
+- **(35, 4):** Walkable.
+- **(36, 4):** Walkable.
+- **(37, 4):** Walkable.
+- **(37, 3):** Walkable (Ladder to B1F).
 
 <hr>
 
