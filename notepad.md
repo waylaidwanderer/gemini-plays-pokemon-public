@@ -114,11 +114,11 @@
 - Gap through Row 8-9 wall: Cols 14-17 connects Row 5 at (15,5) South to Row 11 at (15,11) (Cols 18-23 are solid rock at Rows 8-9).
 - Main Cavern Highway (Row 11): Open East from (22,11) to (23,11).
 - Column 37: Open North from (37,11) to Ladder 4 at (37,3) (warps to B1F 33,25).
-- Vertical rock pillar at Cols 18-19 across Rows 6-9 and Rows 14-21; Cols 12-13 across Rows 2-11.
-- Open Highway Row 13 connects (17,13) East to Col 20 at (20,13).
+- Vertical rock pillar at Cols 18-19 across Rows 10-15; Cols 12-13 across Rows 2-10.
 - Row 22-23 Wall: Solid rock across Cols 0-23 at Rows 22-23.
 - Row 14-15 Wall: Solid rock across Cols 18-26 at Rows 14-15; (17,15) is blocked.
-- LOOP WARP NOTE (Turn 17303): Stepping on 1F (23,11) teleports player back to 1F (17,11). Cols 24-25 are solid rock wall across Rows 0-15.
+- LOOP WARPS: 1F (23,11) and 1F (17,14) teleport player back to 1F (17,11).
+- OVERPASS ROUTE TO EAST CAVERN: (17,11) -> West to (15,11) -> Up to Row 5 (15,5) -> East along Row 5 over Cols 18-19 to (20,5) -> Down Col 20 to (20,11) -> East to Col 37 -> North to Ladder 4 at (37,3).
 
 
 <hr>
