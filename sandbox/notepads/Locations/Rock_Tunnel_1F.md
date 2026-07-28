@@ -17,7 +17,7 @@
 
 - **Ladder to B1F at (37, 3):** [Verified Turn 15092] Ladder graphic visible at X=37, Y=3 at the northeast end of Northern Highway.
 - Southwest Ladder Spawn at (5, 3): [Verified Turn 15187] Ascended B1F Ladder (27, 3) and spawned at 1F (5, 3) facing South!
-- Collision at (5,16): [Verified Turn 15193] Solid rock wall at Row 16 blocking South movement along Col 5. Passage to Col 8 is via Row 8/9 gap.
+- Collision at (5,16): [Verified Turn 15193] Solid rock wall at Row 16 blocking South movement along Col 5.
 - Hiker at (7,7): [Defeated Turn 15199] Defeated Hiker with Geodude (Lv 19) and Machop (Lv 19). Earned prize money.
 - Collision at (10,22): [Verified Turn 15217] Solid rock wall at Rows 22-23 across Cols 6-15.
 - Pillar Wall at Cols 22-23: [Verified Turn 15220] Solid vertical rock wall pillar at Cols 22-23 (Rows 17-23) blocking East movement on Row 21 from (21,21).
