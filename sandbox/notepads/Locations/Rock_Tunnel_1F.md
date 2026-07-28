@@ -1,11 +1,11 @@
-## Verified 1F Routing & Layout (Turn 16905)
+## Verified 1F Routing & Layout (Turn 17371)
 - Entrance/North Exit (15,3) connects to Route 10 North (outside PC).
-- Northern Highway (Row 5): (15,5) East to (31,5). Cols 32-33 at Row 5 are solid rock wall.
-- Vertical rock pillar at Cols 12-13 across Rows 2-13; Row 14 is OPEN under the pillar connecting Col 14 to Col 11.
-- Column 11: Open vertical highway from Row 14 at (11,14) North to Row 5 Northern Highway at (11,5).
-- Column 37: Open North from (37,11) to Ladder 4 at (37,3) (warps to B1F 33,25).
+- Northern Highway (Row 5): Open East from (14,5) to (31,5). Cols 8-13 at Row 5 are solid rock wall; (11,5) is blocked.
+- Rows 8-9 Wall: Solid rock across Cols 12-19. Neither Col 11 nor Col 14 connects North through Rows 8-9.
+- Vertical rock pillar at Cols 12-13 across Rows 2-13; Row 14 is OPEN under the pillar connecting Col 14 to Col 11 and West to Cols 2-7.
+- Western Cavern (Cols 2-7): Open sector across Rows 2-14. Unexplored passage North to Row 2/5 or South to Row 24/30.
 - Vertical rock pillar at Cols 18-19 across Rows 10-15.
 - Row 22-23 Wall: Solid rock across Cols 0-23 at Rows 22-23.
 - Row 14-15 Wall: Solid rock across Cols 18-26 at Rows 14-15.
 - LOOP WARPS: 1F (23,11) and 1F (17,14) teleport player back to 1F (17,11).
-- OVERPASS ROUTE TO EAST CAVERN: From (14,10) -> Down Col 14 to Row 14 (14,14) -> West under Cols 12-13 pillar to Col 11 (11,14) -> Up Col 11 to Row 5 (11,5) -> East along Row 5 over Cols 18-19 to (20,5) -> Down Col 20 to (20,11) -> East along Row 11 to Col 37 -> North along Col 37 to Ladder 4 at (37,3).
+- Column 37: Open North from (37,11) to Ladder 4 at (37,3) (warps to B1F 33,25).
