@@ -18,7 +18,8 @@
 - **Spawn from 1F Ladder 3 (17,11):** [Verified Turn 15374] Descended 1F Ladder 3 (17,11) and spawned at B1F (23,11) facing South!
 - Horizontal Rock Wall at Rows 8-9 (Cols 20-25): [Verified Turn 15396] Solid rock wall blocking Up movement from Row 10.
 - Horizontal Rock Wall at Row 14 (Cols 18-25): [Verified Turn 15415] Solid rock wall blocking South movement from Row 13.
-- Open Highway at Rows 2-5: [Verified Turn 15421] Rows 2-5 are completely open floor across Cols 14-21+, allowing direct Eastward travel over the top of the central pillar.
+- Open Highway at Rows 2-5: [Verified Turn 15421] Rows 2-5 are open floor across Cols 14-23.
+- Solid Rock Wall at Cols 24-25 (Rows -1 to 15): [Verified Turn 15425] Solid vertical rock pillar blocking Eastward travel across Row 3.
 - Solid Rock Wall at (17,22): [Verified Turn 15428] Bumped when attempting Down movement from (17,21).
 - Solid Rock Wall at (15,22): [Verified Turn 15429] Bumped when attempting Down movement from (15,21).
 - Solid Rock Wall at (14,22): [Verified Turn 15432] Solid rock wall across Row 22 (Cols 12-19).
