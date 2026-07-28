@@ -901,11 +901,10 @@
 - **Entry Warp:** Route 10 East connects to Rock Tunnel 1F at (15, 3). Walking SOUTH from (15, 3) enters the main corridor.
 - **Ladder to B1F (Top-Left Section):** Located at `(5, 3)`. Connects to Rock Tunnel B1F at `(27, 3)`.
 
-- **(2, 13):** Walkable.
-- **(2, 14):** Walkable.
-- **(2, 15):** Walkable.
-- **(2, 16):** Walkable.
-- **(2, 17):** Walkable.
+- **(2, 18):** Walkable.
+- **(2, 19):** Walkable.
+- **(2, 20):** Walkable.
+- **(2, 21):** Walkable.
 
 ## Verified Collisions
 
