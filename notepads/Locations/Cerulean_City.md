@@ -1,8 +1,0 @@
-- **Route 5 Guardhouse Doorway:** [Verified Turn 11963] Located at X=13, Y=25 in South Cerulean City. Gate pillars at (10,25) and signpost at (11,25). Door at (13,25) leads to Route 5 / Underground Path.
-- **Route 5 South Exit Gateway at (16,28)-(17,29):** [Verified Turn 12097] Column 16 and 17 at Row 28 form an open light gray pavement gap through the tree line leading South past gate pillars at (16,29)/(17,29) into Route 5 (Row 30+).
-- **East Gym Bypass Corridor at (34,25):** [Verified Turn 12118] Column 34 at Row 25 is an open light gray pavement gap between Gym stairs (33,25) and tree pillars (35,25) allowing two-way passage between South Cerulean (Row 26) and Middle Cerulean (Row 21).
-- **Column 19 Statue Barrier:** [Verified Turns 13961, 13965, 13970, 13974, 13977] Solid statue line along Column 19 spanning continuously from Row 2 down to Row 31, completely blocking direct East movement across Column 19 between West and East Cerulean City.
-- **South Gate Pillars at (14-17,33):** [Verified Turn 13977] Brown gate posts/pillars at Row 33 across Columns 14-17 block South movement from South Cerulean into Route 5.
-- **Cerulean Gym Location:** [Verified Turn 13378-13381] Gym building occupies Cols 16-19, Rows 24-27. Front entrance door at (17,27).
-- **East Cerulean Gateway at (36,28)-(37,29):** [Verified Turn 13395] Columns 36 and 37 form a wide open 2-tile pavement corridor through the tree line connecting Route 5 (Row 30) directly to East Cerulean City (Row 26+) and Route 9!
-- **South-Facing Ledge at (36,19):** [Verified Turn 13999] One-way south-facing ledge at (36,19) allows jumping DOWN from Row 18 to Row 20, but blocks direct UP movement from Row 20 to Row 18.
