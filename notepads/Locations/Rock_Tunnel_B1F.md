@@ -15,3 +15,4 @@
 - Northwest Ladder to 1F at (23, 11): [Discovered Turn 15181] Ladder graphic visible at X=23, Y=11 in the Top Highway of Rock Tunnel B1F.
 - Hiker at (29,11): [Defeated Turn 15178] Defeated Hiker with Geodude (Lv 25). Earned prize money.
 - Pillar Wall at Cols 24-25: [Verified Turn 15182] Vertical rock wall pillar at Cols 24-25 (Rows 10-15) blocking direct West movement from (26,11) to (23,11).
+- **Spawn from 1F Ladder 3 (17,11):** [Verified Turn 15374] Descended 1F Ladder 3 (17,11) and spawned at B1F (23,11) facing South!
