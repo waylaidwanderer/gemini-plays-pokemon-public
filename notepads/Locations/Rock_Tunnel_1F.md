@@ -11,3 +11,4 @@
 - Correction at Row 28-29: Wall extends across Cols 7-13. Open gap through Rows 28-29 is at Cols 14-16.
 - Dead-end Alley note (Turn 17063): Col 11 is blocked at Row 27 (walled South at Rows 28-29 across Cols 7-13, East at Cols 12-13 across Rows 23-29).
 - Correct South Exit Route from (11,27): Up Col 11 to (11,16) -> Right to (14,16) -> Down Col 14 past Row 28 gap to Row 33 South Exit.
+- Verified Highway from (14,21): Right 2 steps to (16,21) -> Down Col 16 through Row 22-23 gap and Row 28-29 gap straight to 1F South Exit at (16,33)!
