@@ -133,5 +133,7 @@
 - Row 13 at Cols 18-19 and Cols 38-39 are solid rock wall pillars.
 - Row 14-15 across Cols 19-37 is solid rock wall.
 - Northern B1F Highway (Row 3 / Row 5) connects Ladder 4 at (37,3) West to B1F South Exit at (15,3).
+- Northern B1F Highway: B1F (27,3) warps directly to B1F (5,3) (Turn 16979).
+- B1F (5,3) connects East along Row 3 to B1F South Exit at (15,3).
 
 <hr>
