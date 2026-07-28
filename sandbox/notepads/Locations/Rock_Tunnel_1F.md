@@ -4,3 +4,4 @@
 - Mid-1F Highway at Rows 16-18 runs East from Col 15 across to Col 37.
 - Column 34/33 leads South from Row 17 to Ladder 4 at 1F (33,25) -> B1F (37,3) (Main B1F Cavern).
 - Vertical rock pillar at Cols 18-19 across Rows 14-21. Rows 14-15 across Cols 18-25 are solid wall.
+- Southern Highway at Row 22 passes UNDER vertical pillar: (15,21) -> Right to (17,21) -> Down to (17,22) -> East along Row 22 towards Col 33/34.
