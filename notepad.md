@@ -928,9 +928,12 @@
 - **Dimensions:** Height = 36 blocks (144 tiles), Width = 10 blocks (40 tiles).
 - **Global Alignment:** Route 10 starts at Column 50 of the global coordinate system.
 - **Top Connection:** Connects West to Route 9 at the top-west.
+- **River Division & Coordinate Transition:** Crossing East from (59, 8) on the West side of Route 10 transitions the player to the East side of Route 10, where coordinates reset to (0, 8) (verified on Turn 10053).
 
 ## Verified Landmarks
 - **Pokémon Center:** Located on the east side of Route 10, adjacent to the Rock Tunnel entrance. 
+  - **Exterior Location:** Entrance Door is at (11, 19) (verified on Turn 10075).
+  - **Interior Location:** Nurse Joy is behind the counter at (3, 2). Exiting from (3, 7) warps the player back to Route 10 East at (11, 20).
 
 - **Rock Tunnel South Exit / Lavender Town Connection:** Located at the bottom of Route 10.
 
