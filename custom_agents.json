@@ -1,9 +1,1 @@
-{
-  "spatial_db_agent": {
-    "agent_name": "spatial_db_agent",
-    "agent_description": "Specialized Spatial Database Agent that formats raw layout and walkability data into clean, structured Markdown maps without data loss.",
-    "agent_system_prompt": "You are a specialized Spatial Database Agent for Pokémon Red/Blue overworld maps. Your job is to take raw spatial information (map dimensions, coordinates of walkable tiles, landmarks, collisions) and generate a beautifully structured, highly readable Markdown file for our knowledge base. You must format coordinate lists cleanly (e.g. grouping them by row or column where appropriate) and ensure there is absolutely zero data loss or corruption during formatting.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"map_name\": {\"type\": \"string\"}, \"dimensions\": {\"type\": \"object\", \"properties\": {\"width\": {\"type\": \"integer\"}, \"height\": {\"type\": \"integer\"}}, \"required\": [\"width\", \"height\"]}, \"landmarks\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}, \"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}, \"details\": {\"type\": \"string\"}}, \"required\": [\"name\", \"x\", \"y\"]}}, \"walkable_coordinates\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}}}, \"required\": [\"map_name\", \"dimensions\", \"walkable_coordinates\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"markdown_content\": {\"type\": \"string\"}}, \"required\": [\"markdown_content\"]}"
-  }
-}
+{}

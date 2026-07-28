@@ -18,6 +18,40 @@
 
 <h1><code>Progression_And_Party_Stats</code></h1>
 
+# Progression and Party Stats
+
+## Gym Badge Milestones
+- **Boulder Badge:** Earned by defeating Gym Leader Brock in Pewter City Gym on Turn 1025.
+- **Cascade Badge:** Earned by defeating Gym Leader Misty in Cerulean City Gym on Turn 5262.
+- **Thunder Badge:** Earned by defeating Gym Leader Lt. Surge in Vermilion City Gym on Turn 7025.
+
+## Current Party Stats (as of Turn 11040)
+1. **TESLA** (Pikachu)
+   - Level: 18
+   - HP: 10/44
+   - Status: Healthy (Low HP)
+2. **TRUFFLE** (Paras)
+   - Level: 14
+   - HP: 37/37
+   - Status: Healthy
+3. **GUSTY** (Pidgey)
+   - Level: 5
+   - HP: 19/19
+   - Status: Healthy
+4. **NIBBLES** (Rattata)
+   - Level: 7
+   - HP: 22/22
+   - Status: Healthy
+5. **SHELLBY** (Blastoise)
+   - Level: 36
+   - HP: 67/112 (Damaged by Selfdestruct on Turn 11032)
+   - Status: Healthy
+
+## Major Milestones and Items
+- **Cut:** Taught to Pokémon on Turn 6787.
+- **Bill's House:** Visited on Route 25 on Turn 4765. Restored Bill's human form.
+- **Burgled House:** Explored in Cerulean City.
+- **S.S. Anne:** Boarded and cleared, obtained Cut from the Captain.
 
 
 <hr>
@@ -164,6 +198,33 @@
 
 <h1><code>Locations/RockTunnelB1F</code></h1>
 
+# Rock Tunnel B1F - Overworld Mapping & Navigation
+
+## Map Dimensions
+- Dimensions: Width = 40, Height = 18.
+
+## Mapped Coordinates & Layout
+- **Ladder to 1F (Top-Left Section):** Located at `(27, 3)`. Connects to Rock Tunnel 1F at `(5, 3)`.
+- **Ladder to 1F (Top-Right Section):** Located at `(33, 25)`. Connects to Rock Tunnel 1F at `(37, 3)`.
+
+### Verified Walkable Coordinates:
+- **Top-Left Path to Ladder (34, 5) -> (27, 3):**
+  - (27, 3), (28, 3), (29, 3), (30, 3), (31, 3), (32, 3), (33, 3), (34, 3)
+  - (34, 4), (34, 5)
+- **Vertical Channel (Columns 33-34):**
+  - Walkable coordinates on columns 33 and 34 going down to (33, 25).
+- **Horizontal Corridor (Row 16):**
+  - Walkable corridor on row 16 spanning from column 17 to column 34.
+  - (17, 16), (18, 16), (19, 16), (20, 16), (21, 16), (22, 16), (23, 16), (24, 16), (25, 16), (26, 16), (27, 16), (28, 16), (29, 16), (30, 16), (31, 16), (32, 16), (33, 16), (34, 16)
+- **Vertical Channel (Column 22):**
+  - Walkable column 22 connecting down to other sections.
+- **Key Trainer Locations:**
+  - (26, 31) (Pokémaniac)
+  - (17, 28) (Jr. Trainer♀)
+  - (21, 21) (Pokémaniac Winston)
+  - (34, 5) (Hiker Erik)
+
+## Verified Collisions
 
 
 <hr>
