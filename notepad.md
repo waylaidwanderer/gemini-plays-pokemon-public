@@ -521,6 +521,8 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - Horizontal Wall at Rows 14-15 (Cols 31-39): [Verified Turn 15938] Rows 14-15 are a solid rock wall across Cols 31-39. Northeast chamber (37,3) is a dead-end pocket. Must use Ladder 1 (37,3) to return to B1F.
 - **Vertical Rock Wall Pillar at Cols 22-23 (Rows 17-23):** [Verified Turns 15269, 16104] Solid rock wall pillar blocking East travel past Col 21 on Row 21. Pass South to Row 24 Highway via Cols 14-16.
 - **Pillar Wall at Cols 24-25 (Rows 7-15):** [Verified Turn 16112] Solid vertical rock wall pillar blocking East travel from Col 23 on Rows 7-15. Pass East to Eastern Cavern via Row 6 at (23,6) -> (26,6).
+- Vertical Wall at Cols 18-19 (Rows 17-21): [Verified Turn 16203] Solid vertical rock pillar at Cols 18-19 from Row 17 down through Row 21. BUMPED at (17,21) when attempting Right to (18,21).
+- Horizontal Wall at Rows 22-23 (Cols 12-19): [Verified Turn 16203] Solid horizontal rock wall across Rows 22-23 from Col 12 to Col 19 on 1F. BUMPED at (17,21) when attempting Down to (17,22).
 
 <hr>
 
