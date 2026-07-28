@@ -50,3 +50,11 @@
   - **Column 46 Rock Wall:** Solid rock wall blocks all eastward (rightward) movement across Column 46 on Rows 4-7.
   - **Row 7 Ledge and Row 8 Diagonal Rock Wall Blockage:** Jumping DOWN from (45, 7) onto (45, 8) is blocked because (45, 8) is a diagonal rock corner tile.
   - **Escape Route:** You can simply walk Left (west) back across Column 44 onto Column 41/42 to exit the pocket. No soft-lock or warp is required.
+## Verified Overworld Realities & Escape Routing (Turn 9772)
+- **Continuous Ledge on Row 13:** Row 13 is a continuous downward-facing ledge from Column 10 all the way to Column 23, blocking all upward movement on the west/middle sections. Column 29 and Column 30 are the only open gaps in the Row 13 ledge.
+- **Continuous Ledge on Row 11:** Row 11 contains a continuous downward-facing ledge from Column 10 to Column 19, blocking all upward movement on these columns.
+- **Solid Wall on Column 24:** Column 24 contains a solid rock wall blocking all horizontal movement on Rows 11 to 15. Thus, the lower pocket of Route 9 (Columns 10-23, Rows 12-15) is completely dead-ended going east.
+- **Solid Wall on Column 9:** Column 9 contains a solid rock wall blocking all horizontal movement on Rows 10 to 17.
+- **Continuous Ledge on Row 5:** Row 5 contains a continuous downward-facing ledge from Column 20 to Column 24, blocking all upward traversal to Rows 2-4.
+- **Verified Row 9 Escape Corridor:** Row 9 is completely open pavement and grass from Column 29 all the way west to Column 0, providing a clear escape route back to Cerulean City.
+- **True Escape Path from Lower Pocket:** To escape the lower pocket, walk to Column 19 on Row 14, walk UP Column 19 (which has no ledge lip on Row 13) to Row 12, walk Right to Column 29 Row 12, walk UP Column 29 through the gap to Row 9, and walk Left on Row 9 all the way to Cerulean City!
