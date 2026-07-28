@@ -35,3 +35,4 @@
 - Pillar Wall at Cols 32-33 (Rows 2-9): [Verified Turn 15936] Cols 32-33 are a solid vertical rock wall separating 1F Ladder 1 (37,3) from Entrance Chamber. Exit corridor leads South along Cols 34-37.
 - Horizontal Wall at Rows 14-15 (Cols 31-39): [Verified Turn 15938] Rows 14-15 are a solid rock wall across Cols 31-39. Northeast chamber (37,3) is a dead-end pocket. Must use Ladder 1 (37,3) to return to B1F.
 - **Vertical Rock Wall Pillar at Cols 22-23 (Rows 17-23):** [Verified Turns 15269, 16104] Solid rock wall pillar blocking East travel past Col 21 on Row 21. Pass South to Row 24 Highway via Cols 14-16.
+- **Pillar Wall at Cols 24-25 (Rows 7-15):** [Verified Turn 16112] Solid vertical rock wall pillar blocking East travel from Col 23 on Rows 7-15. Pass East to Eastern Cavern via Row 6 at (23,6) -> (26,6).
