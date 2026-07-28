@@ -36,3 +36,5 @@
 - **(25, 13):** Walkable.
 - **(26, 13):** Walkable.
 - **(27, 13):** Walkable.
+- **(28, 13):** Walkable.
+- **(29, 13):** Walkable.
