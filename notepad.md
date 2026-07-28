@@ -141,6 +141,6 @@
 - B1F (17,11) warps directly to 1F (23,11) (Turn 17004).
 - Verified B1F Route from Ladder 1 (17,11) / (14,10): Down to (14,14) -> Left 3 steps along Row 14 to Col 11 at (11,14) -> Up Col 11 (Rows 14 to 3) to Northern Highway!
 - Verified B1F Western Highway (Turn 17128): Col 10 (Rows 15 to 6) is an open vertical corridor. Row 6 connects West from (10,6) across Cols 9, 8, 7, 6 to Col 5.
-- Row 20-21 Gap (Turn 17155): Cols 30-33 is open gap through Row 20-21 wall in Eastern Sector. Route from (31,19) South through gap to Row 30-33 Bottom Hallway!
+- Row 20-21 Wall (Turn 17156): Rows 20-21 is solid rock wall across Cols 27-36. Probing West (Cols 20-26) or East (Cols 37-42) to find gap through Row 20-21 wall.
 
 <hr>
