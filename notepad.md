@@ -505,3 +505,12 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Ladder to B1F at (37, 3):** [Verified Turn 15092] Ladder graphic visible at X=37, Y=3 at the northeast end of Northern Highway.
 
 <hr>
+
+<h1><code>Locations/Rock_Tunnel_B1F</code></h1>
+
+# Rock Tunnel B1F Map & Points of Interest
+
+## ROCK TUNNEL B1F NAVIGATION:
+- **Northeast Ladder to 1F (37,3):** [Verified Turn 15093] Spawns at X=33, Y=25 in Rock Tunnel B1F. Ladder back up to 1F (37,3) is located at X=33, Y=25.
+
+<hr>
