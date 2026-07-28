@@ -568,5 +568,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Solid Horizontal Wall at Rows 28-29 (Cols 2-13):** [Verified Turn 15715] Bumped wall at (3,29). Southwest cavern (Cols 2-11, Rows 30-33) is an enclosed pocket.
 - **Obstruction at (14,28):** [Verified Turn 15706] Attempting to step Down from (14,27) to (14,28) bumped into a solid obstacle/wall/NPC. Pass North/South through Central Passage via Column 17 instead.
 - **Solid Vertical Wall at Cols 12-13 (Rows 7-13):** [Verified Turn 15752] Column 12-13 is a rock wall blocking West travel on Rows 7-13. Central Corridor (Cols 14-17) connects North to Rows 2-5 and South to Row 16.
+- **Solid Rock Wall at (13,3):** [Verified Turn 15757] Bumped wall when attempting Left from (14,3). Cols 12-13 are a continuous vertical wall from Row -1 down to Row 29.
 
 <hr>
