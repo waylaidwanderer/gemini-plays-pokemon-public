@@ -938,10 +938,9 @@
 - **Upper Level (Row 12/13):** y=12-15 is completely walkable pavement from Column 52 to 58. This upper level allows players to walk east and go south to reach the Pokémon Center.
 
 ## Navigational Strategy
-- To reach the Pokémon Center from Route 9:
-  1. Walk UP through the gap at Columns 29/30 on Route 9 to Row 12 (middle lane).
-  2. Walk EAST on Row 12/13 of Route 9 to Route 10, past Column 50, to Column 58 (upper pavement).
-  3. From the upper level of Route 10, walk SOUTH directly to the Pokémon Center on Row 17 (y=68).
+- Row 8/9 is the open pavement path from Route 9 going east to Column 59 on Route 10.
+- Column 52 and 53 on Row 9 are the only columns where you can walk down to the lower level of Route 10 (containing the grass lanes).
+- Column 54 is mountain wall on rows 10 to 13, which blocks any eastward traversal on those lower rows.
 ## Verified Obstacles & Navigation Limits (Turn 8878)
 - **Row 16 Rock Wall:** Completely solid and continuous across Columns 50 to 57, making Route 10's lower pocket (Columns 50-53, Rows 14-15) a strict dead end going south.
 - **Row 13 Ledge:** Continuous across Columns 50 to 53, blocking all upward (northward) movement to the upper level of Route 10.
