@@ -76,3 +76,4 @@
 ## Verified Collisions
 - **(14, 28):** Collision/Wall.
 - **(20, 29):** Collision/Wall.
+- **(33, 21):** Physical collision (Turn 10759).
