@@ -1007,11 +1007,18 @@
 - **(17, 29):** Walkable.
 - **(17, 30):** Walkable.
 - **(17, 31):** Walkable.
+- **(18, 24):** Walkable.
 - **(18, 31):** Walkable.
+- **(19, 24):** Walkable.
 - **(19, 31):** Walkable.
+- **(20, 24):** Walkable.
 - **(20, 30):** Walkable.
 - **(20, 31):** Walkable.
+- **(21, 24):** Walkable.
 - **(21, 31):** Walkable.
+- **(22, 22):** Walkable.
+- **(22, 23):** Walkable.
+- **(22, 24):** Walkable.
 - **(22, 31):** Walkable.
 - **(23, 31):** Walkable.
 - **(24, 31):** Walkable.
@@ -1048,10 +1055,10 @@
 - **(33, 31):** Walkable.
 
 ## Verified Collisions
-- **(13, 24):** Physical collision.
 - **(14, 28):** Collision/Wall.
 - **(20, 29):** Collision/Wall.
 - **(33, 21):** Physical collision.
+- **(13, 24):** Physical collision.
 
 
 <hr>
