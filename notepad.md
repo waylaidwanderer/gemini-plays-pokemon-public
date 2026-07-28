@@ -108,18 +108,19 @@
 
 <h1><code>Locations/Rock_Tunnel_1F</code></h1>
 
-## Verified 1F Routing & Layout (Turn 17381)
+## Verified 1F Routing & Layout (Turn 17402)
 - Entrance/North Exit (15,3) connects to Route 10 North (outside PC).
-- Northern Highway (Row 5): Open East from (14,5) to (31,5). Cols 8-13 at Row 5 are solid rock wall; (11,5) is blocked.
-- Rows 8-9 Wall: Solid rock across Cols 12-19. Neither Col 11 nor Col 14 connects North through Rows 8-9.
-- Vertical rock pillar at Cols 12-13 across Rows 2-13.
-- Vertical rock pillar at Cols 6-7 across Rows 10-17; (7,14) is solid rock.
-- Central Corridor (Cols 8-11): Open vertically across Rows 10-21. Connects South to Row 21 horizontal highway.
-- Vertical rock pillar at Cols 18-19 across Rows 10-15.
-- Row 22-23 Wall: Solid rock across Cols 0-23 at Rows 22-23.
-- Row 14-15 Wall: Solid rock across Cols 18-26 at Rows 14-15.
-- LOOP WARPS: 1F (23,11) and 1F (17,14) teleport player back to 1F (17,11).
 - Column 37: Open North from (37,11) to Ladder 4 at (37,3) (warps to B1F 33,25).
+- Column 11: Open vertical hallway from Row 16 at (11,16) North to Row 6 at (11,6).
+- Western Cavern Route to Ladder 4:
+  From (11,16) -> Up Col 11 to (11,6) -> West along Row 6 to Col 4 (4,6) -> Up Col 4 to Row 3 (4,3) -> East along Row 3 across Cols 4-37 to Ladder 4 at (37,3).
+- LOOP WARPS: 1F (23,11) and 1F (17,14) teleport player back to 1F (17,11).
+- OBSTACLES:
+  - Cols 12-13: Rock pillar across Rows 2-13.
+  - Cols 6-7: Rock pillar across Rows 10-17.
+  - Cols 18-19: Rock pillar across Rows 10-15.
+  - Rows 14-15: Solid rock across Cols 18-26.
+  - Rows 22-23: Solid rock across Cols 0-23.
 
 
 <hr>
