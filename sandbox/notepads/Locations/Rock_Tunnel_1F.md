@@ -25,4 +25,4 @@
 - Collision at (17,15): [Verified Turn 15236] Solid rock wall at Row 15 blocking Up movement from (17,16).
 - Horizontal Wall at Rows 14-15 (Cols 20-23): [Verified Turn 15268/15270] Solid rock wall blocking Up movement from Row 16 at Cols 20-23.
 - Vertical Pillar Wall at Cols 22-23 (Rows 16-23): [Verified Turn 15269] Solid rock wall blocking East movement from Col 21.
-- **South-West Pocket Dead-End (Cols 5-21, Rows 16-21):** [Verified Turn 15273] The South-West chamber bounded by Cols 5-21 and Rows 16-21 is completely enclosed on all sides (Row 22-23 south wall, Cols 22-23 east wall, Rows 14-15 north wall). The only exit is walking back NORTH along Col 11/8 to Row 3 highway.
+- **South-West Pocket Dead-End (Cols 5-21, Rows 16-21):** [Verified Turn 15273] The South-West chamber bounded by Cols 5-21 and Rows 16-21 is completely enclosed on all sides (Row 22-23 south wall, Cols 22-23 east wall, Rows 14-15 north wall).
