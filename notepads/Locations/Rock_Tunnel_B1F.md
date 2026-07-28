@@ -21,3 +21,4 @@
 - Open Highway at Rows 2-5: [Verified Turn 15421] Rows 2-5 are completely open floor across Cols 14-21+, allowing direct Eastward travel over the top of the central pillar.
 - Solid Rock Wall at (17,22): [Verified Turn 15428] Bumped when attempting Down movement from (17,21).
 - Solid Rock Wall at (15,22): [Verified Turn 15429] Bumped when attempting Down movement from (15,21).
+- Solid Rock Wall at (14,22): [Verified Turn 15432] Solid rock wall across Row 22 (Cols 12-19).
