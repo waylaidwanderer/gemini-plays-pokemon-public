@@ -1028,5 +1028,10 @@
 - **(28, 31):** Walkable.
 - **(27, 31):** Walkable.
 - **(26, 31):** Walkable (visited - trainer battle at (26, 31)).
+- **(21, 31):** Walkable.
+- **(20, 31):** Walkable.
+- **(19, 31):** Walkable.
+- **(18, 31):** Walkable.
+- **(17, 31):** Walkable (visited).
 
 <hr>
