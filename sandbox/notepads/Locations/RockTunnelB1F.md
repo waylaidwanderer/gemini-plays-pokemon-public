@@ -2,135 +2,28 @@
 
 ## Map Transitions
 - **Ladder to 1F (Top-Right Section):** Located at `(33, 25)`. Connects to Rock Tunnel 1F at `(37, 3)`.
+- **Ladder to 1F (Top-Left Section):** Located at `(27, 3)`. Connects to Rock Tunnel 1F at `(5, 3)`.
 
 ## Mapped Coordinates & Layout
-- **(34, 5):** Walkable.
-- **(34, 6):** Walkable.
-- **(34, 7):** Walkable.
-- **(34, 8):** Walkable.
-- **(34, 9):** Walkable.
-- **(34, 10):** Walkable.
-- **(33, 10):** Walkable.
-- **(33, 11):** Walkable.
-- **(33, 12):** Walkable.
-- **(33, 13):** Walkable.
-- **(33, 14):** Walkable.
-- **(33, 15):** Walkable.
-- **(33, 16):** Walkable.
-- **(32, 16):** Walkable.
-- **(31, 16):** Walkable.
-- **(30, 16):** Walkable.
-- **(29, 16):** Walkable.
-- **(28, 16):** Walkable.
-- **(27, 16):** Walkable.
-- **(26, 16):** Walkable.
-- **(25, 16):** Walkable.
-- **(24, 16):** Walkable.
-- **(23, 16):** Walkable.
-- **(2, 30):** Walkable.
-- **(2, 31):** Walkable.
-- **(3, 31):** Walkable.
-- **(4, 31):** Walkable.
-- **(5, 31):** Walkable.
-- **(6, 31):** Walkable.
-- **(7, 31):** Walkable.
-- **(8, 31):** Walkable.
-- **(9, 31):** Walkable.
-- **(10, 31):** Walkable.
-- **(11, 31):** Walkable.
-- **(12, 31):** Walkable.
-- **(13, 25):** Walkable.
-- **(13, 26):** Walkable.
-- **(13, 27):** Walkable.
-- **(13, 28):** Walkable.
-- **(13, 29):** Walkable.
-- **(13, 30):** Walkable.
-- **(13, 31):** Walkable.
-- **(14, 24):** Walkable.
-- **(14, 25):** Walkable.
-- **(14, 26):** Walkable.
-- **(14, 27):** Walkable.
-- **(14, 29):** Walkable.
-- **(14, 30):** Walkable.
-- **(14, 31):** Walkable.
-- **(15, 24):** Walkable.
-- **(15, 27):** Walkable.
-- **(15, 28):** Walkable.
-- **(15, 29):** Walkable.
-- **(15, 30):** Walkable.
-- **(15, 31):** Walkable.
-- **(16, 24):** Walkable.
-- **(16, 28):** Walkable.
-- **(16, 29):** Walkable.
-- **(16, 30):** Walkable.
-- **(16, 31):** Walkable.
-- **(17, 24):** Walkable.
-- **(17, 25):** Walkable.
-- **(17, 26):** Walkable.
-- **(17, 27):** Walkable.
-- **(17, 28):** Walkable.
-- **(17, 29):** Walkable.
-- **(17, 30):** Walkable.
-- **(17, 31):** Walkable.
-- **(18, 24):** Walkable.
-- **(18, 31):** Walkable.
-- **(19, 24):** Walkable.
-- **(19, 31):** Walkable.
-- **(20, 24):** Walkable.
-- **(20, 30):** Walkable.
-- **(20, 31):** Walkable.
-- **(21, 24):** Walkable.
-- **(21, 31):** Walkable.
-- **(22, 22):** Walkable.
-- **(22, 23):** Walkable.
-- **(22, 24):** Walkable.
-- **(22, 31):** Walkable.
-- **(23, 31):** Walkable.
-- **(24, 31):** Walkable.
-- **(25, 31):** Walkable.
-- **(26, 31):** Walkable.
-- **(27, 31):** Walkable.
-- **(28, 22):** Walkable.
-- **(28, 23):** Walkable.
-- **(28, 24):** Walkable.
-- **(28, 25):** Walkable.
-- **(28, 26):** Walkable.
-- **(28, 27):** Walkable.
-- **(28, 28):** Walkable.
-- **(28, 29):** Walkable.
-- **(28, 30):** Walkable.
-- **(28, 31):** Walkable.
-- **(29, 22):** Walkable.
-- **(29, 31):** Walkable.
-- **(30, 22):** Walkable.
-- **(30, 31):** Walkable.
-- **(31, 22):** Walkable.
-- **(31, 31):** Walkable.
-- **(32, 22):** Walkable.
-- **(32, 31):** Walkable.
-- **(33, 22):** Walkable.
-- **(33, 23):** Walkable.
-- **(33, 24):** Walkable.
-- **(33, 25):** Walkable.
-- **(33, 26):** Walkable.
-- **(33, 27):** Walkable.
-- **(33, 28):** Walkable.
-- **(33, 29):** Walkable.
-- **(33, 30):** Walkable.
-- **(33, 31):** Walkable.
-
-## Verified Collisions
-- **(33, 9):** Physical collision.
-- **(22, 15):** Physical collision.
-- **(14, 28):** Collision/Wall.
-- **(20, 29):** Collision/Wall.
-- **(33, 21):** Physical collision.
-- **(13, 24):** Physical collision.
-
 - **(22, 17):** Walkable.
 - **(22, 18):** Walkable.
 - **(22, 19):** Walkable.
 - **(22, 20):** Walkable.
+- **(27, 2):** Walkable.
+- **(27, 3):** Walkable.
+- **(28, 2):** Walkable.
+- **(29, 2):** Walkable.
+- **(30, 2):** Walkable.
+- **(31, 2):** Walkable.
+- **(32, 2):** Walkable.
+- **(33, 2):** Walkable.
+- **(34, 2):** Walkable.
+- **(34, 3):** Walkable.
+- **(34, 4):** Walkable.
+
+## Verified Collisions
+- **(33, 5):** Physical collision.
+
 ## Trainer Roster & Coordinates
 | Trainer Name | Location / Coordinates | Trainer Roster | Notes |
 |--------------|------------------------|----------------|-------|
