@@ -901,9 +901,9 @@
 - **Entry Warp:** Route 10 East connects to Rock Tunnel 1F at (15, 3). Walking SOUTH from (15, 3) enters the main corridor.
 - **Ladder to B1F (Top-Left Section):** Located at `(5, 3)`. Connects to Rock Tunnel B1F at `(27, 3)`.
 
-- **(5, 6):** Walkable.
-- **(6, 6):** Walkable.
-- **(7, 6):** Walkable.
+- **(4, 7):** Walkable.
+- **(4, 8):** Walkable.
+- **(4, 9):** Walkable.
 
 ## Verified Collisions
 
@@ -922,10 +922,6 @@
 - **Ladder to 1F (Top-Left Section):** Located at `(27, 3)`. Connects to Rock Tunnel 1F at `(5, 3)`.
 
 ## Mapped Coordinates & Layout
-- **(22, 17):** Walkable.
-- **(22, 18):** Walkable.
-- **(22, 19):** Walkable.
-- **(22, 20):** Walkable.
 - **(27, 2):** Walkable.
 - **(27, 3):** Walkable.
 - **(28, 2):** Walkable.
@@ -946,6 +942,5 @@
 |--------------|------------------------|----------------|-------|
 | POK�MANIAC Winston | (21, 21) / (22, 21) | Charmander (Lv 22), Cubone (Lv 22) | Defeated on Turn 10829 |
 | Hiker Erik | (34, 5) | Machop (Lv 20), Geodude, Onix | Engaged on Turn 10843 |
-
 
 <hr>
