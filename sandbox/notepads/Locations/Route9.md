@@ -41,9 +41,9 @@
 - **Vertical Scale Factor:** The raw tile map file `route9_tile_map.txt` is exactly **2x scaled** vertically relative to the in-game global coordinate grid reported by the harness.
   - `y_file = y_game * 2`  (maps to file rows `2 * y_game` and `2 * y_game + 1`)
 - **Horizontal Scale and Alignment Offset:** 
-  - There is a **+3 column offset** horizontally between in-game global coordinates and the file representation.
-  - `x_file = x_game + 3`  (maps to file columns `2 * (x_game + 3)` and `2 * (x_game + 3) + 1` since the file represents a 119-column grid, i.e., 60-tile wide map with a +3 shift)
-- **Strict Spatial Consistency:** All pathfinding and navigation scripts MUST apply this +3 horizontal offset and 2x vertical multiplier before reading from or writing to the file representation to prevent mathematical coordinate desyncs.
+  - There is a **+6 column offset** horizontally between in-game global coordinates and the file representation.
+  - `x_file = x_game + 6`  (maps to file columns `2 * (x_game + 6)` and `2 * (x_game + 6) + 1` since the file represents a 119-column grid, i.e., 60-tile wide map with a +6 shift)
+- **Strict Spatial Consistency:** All pathfinding and navigation scripts MUST apply this +6 horizontal offset and 2x vertical multiplier before reading from or writing to the file representation to prevent mathematical coordinate desyncs.
 
 - **Route 9 East Pocket (Columns 45-46, Rows 6-7):**
   - **Column 44:** Open pavement. Does NOT block westward (leftward) movement.
