@@ -23,6 +23,11 @@
 - (14, 14), (14, 13), (14, 12), (14, 11)
 - (15, 11), (16, 11), (17, 11)
 
+
+### Defeated Trainers:
+- **Hiker Dudley:** Engaged at (14, 15) on Turn 11009. Defeated on Turn 11037.
+  - Roster: Geodude Lv 21, Graveler Lv 21.
+
 ## Verified Collisions
 
 ## Map Transitions
