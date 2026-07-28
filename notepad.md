@@ -573,5 +573,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - Solid Rock Wall at (17,15): [Verified Turn 15795] Bumped wall at (17,15) when attempting Down from (17,14). Bypass via Col 15.
 - Pillar Wall at Cols 22-23 (Rows 17-23): [Verified Turn 15800] Solid vertical rock pillar at Cols 22-23 (Rows 17-23) blocks East movement on Row 21 from (21,21). Bypass East via Row 16.
 - Passage at Col 26 (Rows 14-15): [Verified Turn 15803] Column 26 is open floor passing through Rows 14-15 horizontal rock wall (Cols 20-25) to reach Row 12-13 Northern Cavern and Ladder 3 at (23,11).
+- Collision at (26,25): [Verified Turn 15923] Solid rock wall tile at (26,25) blocking East movement along Row 25 from (25,25).
 
 <hr>
