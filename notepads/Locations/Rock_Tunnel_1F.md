@@ -38,3 +38,4 @@
 - Solid Rock Wall at Rows 22-23 (Cols 11-20): [Verified Turn 15856] Bumped wall at (15,22) when attempting Down from (15,21). Row 22-23 is solid rock wall across Cols 11-20.
 - Wall at Cols 12-13 (Rows 2-15) and Col 11 Pocket: [Verified Turn 15888] Column 11 is a dead-end pocket bounded by Cols 8-13 rock walls on North and East (Rows 2-15). Exit Col 11 by walking South to Row 16 at (11,16).
 - Solid Rock Wall at (33,7): [Verified Turn 15935] Tile (33,7) is a rock wall blocking West movement along Row 7 from (34,7). Bypass via Row 6.
+- Pillar Wall at Cols 32-33 (Rows 2-9): [Verified Turn 15936] Cols 32-33 are a solid vertical rock wall separating 1F Ladder 1 (37,3) from Entrance Chamber. Exit corridor leads South along Cols 34-37.
