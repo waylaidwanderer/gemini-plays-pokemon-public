@@ -6,7 +6,6 @@
 - Column 37: Open North from (37,11) to Ladder 4 at (37,3) (warps to B1F 33,25).
 - Vertical rock pillar at Cols 18-19 across Rows 14-21; Cols 12-13 across Rows 2-11.
 - Open Highway Row 13 connects (17,13) East to Col 20 at (20,13).
-- Column 20 (Rows 13-25+) is open vertical highway bypassing Row 22-23 wall into southern exit cavern.
 - Correction at Row 28-29: Wall extends across Cols 7-13. Open gap through Rows 28-29 is at Cols 14-16.
 - Dead-end Alley note (Turn 17063): Col 11 is blocked at Row 27 (walled South at Rows 28-29 across Cols 7-13, East at Cols 12-13 across Rows 23-29).
 - Correct South Exit Route from (11,27): Up Col 11 to (11,16) -> Right to (14,16) -> Down Col 14 past Row 28 gap to Row 33 South Exit.
