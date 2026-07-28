@@ -560,5 +560,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - Defeated Hiker at (35,5): [Defeated Turn 15567] Defeated Hiker with Machop (Lv 20) and Onix (Lv 20).
 - Solid Horizontal Rock Wall at Rows 20-21 (Cols 31-37): [Verified Turn 15578] Bumped wall at (35,20).
 - B1F Eastern Cavern: Reached via Col 25 (Row 16-21) -> East to Cols 30-37 (Rows 10-18).
+- **Solid Rock Wall Pillar at Cols 26-27 (Row 22):** [Verified Turn 15655] Bumped rock wall at (27,22) when walking Left on Row 22 from (33,22).
 
 <hr>
