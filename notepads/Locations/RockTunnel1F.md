@@ -49,3 +49,5 @@
 
 ## Map Transitions
 - **Unreachable Ladder to B1F:** Located at `(37, 17)` on Rock Tunnel 1F. It is isolated by walls on Row 14-15 and Column 31, meaning it must be accessed from B1F.
+- **(37, 12):** Walkable.
+- **(37, 11):** Walkable.
