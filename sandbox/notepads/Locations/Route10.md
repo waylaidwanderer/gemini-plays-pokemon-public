@@ -10,7 +10,7 @@
 - **Pokémon Center:** Located on the east side of Route 10, adjacent to the Rock Tunnel entrance. 
   - **Exterior Location:** Entrance Door is at (11, 19) (verified on Turn 10075).
   - **Interior Location:** Nurse Joy is behind the counter at (3, 2). Exiting from (3, 7) warps the player back to Route 10 East at (11, 20).
-- **Rock Tunnel Entrance:** Located on Route 10 East at (14, 11) (verified on Turn 10221). Walking UP from (14, 12) triggers the warp/map transition into Rock Tunnel 1F.
+- **Rock Tunnel Entrance:** Located on Route 10 East at (8, 11) / (9, 11) (verified on Turn 10226). Walking UP from (8, 12) or (9, 12) triggers the warp/map transition into Rock Tunnel 1F.
 
 - **Rock Tunnel South Exit / Lavender Town Connection:** Located at the bottom of Route 10.
 
