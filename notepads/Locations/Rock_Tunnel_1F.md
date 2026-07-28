@@ -8,3 +8,4 @@
 - Open Highway Row 13 connects (17,13) East to Col 20 at (20,13).
 - Correction at Row 28-29: Wall extends across Cols 7-13. Open gap through Rows 28-29 is at Cols 14-16.
 - Dead-end Alley note (Turn 17063): Col 11 is blocked at Row 27 (walled South at Rows 28-29 across Cols 7-13, East at Cols 12-13 across Rows 23-29).- ONE-WAY WARP NOTE (Turn 17189): 1F (23,11) is a one-way warp arrival point from B1F (17,11); it is NOT an interactive ladder leading back down to B1F.
+- SPATIAL BOUNDARY NOTE (Turn 17271): Row 11 is blocked East at Col 24 by a rock wall pillar. Path to Col 37 / Ladder 4 goes Up 6 through Row 8 gap at (23,11) to Row 5 Northern Highway (22,5), then East along Row 5 to Col 37.
