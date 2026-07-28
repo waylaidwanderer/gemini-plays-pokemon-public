@@ -972,6 +972,7 @@
 
 ## Verified Collisions
 *(None yet)*
+- (17, 27): Walkable (visited).
 
 <hr>
 
