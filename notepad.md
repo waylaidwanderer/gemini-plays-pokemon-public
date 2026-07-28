@@ -579,5 +579,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - Passage at Col 26 (Rows 14-15): [Verified Turn 15803] Column 26 is open floor passing through Rows 14-15 horizontal rock wall (Cols 20-25) to reach Row 12-13 Northern Cavern and Ladder 3 at (23,11).
 - Collision at (26,25): [Verified Turn 15923] Solid rock wall tile at (26,25) blocking East movement along Row 25 from (25,25).
 - Solid Rock Wall at Rows 22-23 (Cols 12-19): [Verified Turn 15953] Rows 22-23 across Cols 12-19 are a solid rock wall blocking Col 16. Open passage North is at Cols 20-21.
+- Horizontal Rock Wall at Rows 20-21 (Cols 18-24): [Verified Turn 15955] Rows 20-21 across Cols 18-24 are a solid rock wall blocking Col 20 North access. Pass North via Col 25.
 
 <hr>
