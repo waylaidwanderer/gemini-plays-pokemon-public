@@ -530,6 +530,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Ladder at (33, 25) on 1F:** [Verified Turn 16298] Visually confirmed ladder graphic at X=33, Y=25 in SE chamber of 1F!
 - **Horizontal Wall at Rows 28-29 (Cols 22-27):** [Verified Turn 16325] Solid rock wall at Rows 28-29 across Cols 22-27 on 1F. Open gap North is at Cols 28-30.
 - **Verified No-Warp Floor Rows (South Highway):** [Verified Turn 16466] Row 31 (Cols 3-25), Row 32 (Cols 5-25), and Row 33 (Cols 3-38) contain zero exit warp tiles. Rows 34-35 are solid rock walls (Cols 0-39). South exit must be located in the Eastern Chamber (Cols 28-38, Rows 26-32) or another unsearched section!
+- **Eastern Chamber Floor Test:** [Verified Turn 16502] Rows 28, 29, 30, 31, 32 across Columns 28-37 contain zero exit warps. Floor sweeping hypothesis disproven. Exits in Gen 1 are tied to explicit visual features (exit doorway carpets, ladders, or map boundaries).
 
 <hr>
 
