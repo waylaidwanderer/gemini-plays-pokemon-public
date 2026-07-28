@@ -7,3 +7,4 @@
 - Vertical rock pillar at Cols 18-19 across Rows 14-21; Cols 12-13 across Rows 2-11.
 - Open Highway Row 13 connects (17,13) East to Col 20 at (20,13).
 - Column 20 (Rows 13-25+) is open vertical highway bypassing Row 22-23 wall into southern exit cavern.
+- Verified 1F South Exit Route: From (20,13) West along Row 13 to (14,13) -> Down to (14,16) -> West to (11,16) -> Down Col 11 past Row 22-23 wall to 1F South Exit (Row 33).
