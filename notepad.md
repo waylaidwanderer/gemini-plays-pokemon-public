@@ -503,6 +503,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Pillar Wall at Cols 32-33 (Rows 3-9):** [Verified Turn 14995] Rock wall pillar at cols 32-33 blocks West movement on rows 3-9. Row 10-13 highway is fully open.
 
 - **Ladder to B1F at (37, 3):** [Verified Turn 15092] Ladder graphic visible at X=37, Y=3 at the northeast end of Northern Highway.
+- Southwest Ladder Spawn at (5, 3): [Verified Turn 15187] Ascended B1F Ladder (27, 3) and spawned at 1F (5, 3) facing South!
 
 <hr>
 
