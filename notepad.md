@@ -137,7 +137,7 @@
 - Row 13 at Cols 18-19 and Cols 38-39 are solid rock wall pillars.
 - Row 14-15 across Cols 19-37 is solid rock wall.
 - Northern B1F Highway: B1F (27,3) warps directly to B1F (5,3) (Turn 16979).
-- B1F (5,3) connects East along Row 3 to B1F South Exit at (15,3).
+- Row 3 is blocked East at Col 8 by rock wall. Route from (5,3)/(7,3) to South Exit at (15,3): Down 3 to Row 6 (7,6) -> Right 4 along Row 6 to Col 11 (11,6) -> Up 3 to Row 3 (11,3) -> Right 4 along Row 3 to South Exit at (15,3).
 - B1F (17,11) warps directly to 1F (23,11) (Turn 17004).
 - Verified B1F Western Highway (Turn 17128): Col 10 (Rows 15 to 6) is an open vertical corridor. Row 6 connects West from (10,6) across Cols 9, 8, 7, 6 to Col 5.
 - Verified Route to Ladder 4 at (33,25) (Turn 17167): From (21,33) East to (26,33) -> Up through Col 26 gap to (26,32) -> East along Row 32 to (33,32) -> Up Col 33 to Ladder 4 at (33,25)!- SPATIAL BOUNDARY NOTE (Turn 17221): (14,24) connects East to (15,24), but is blocked North at (14,23) and West at (13,24).
