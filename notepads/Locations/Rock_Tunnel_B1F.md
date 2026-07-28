@@ -23,3 +23,4 @@
 - Solid Rock Wall at (17,22): [Verified Turn 15428] Bumped when attempting Down movement from (17,21).
 - Solid Rock Wall at (15,22): [Verified Turn 15429] Bumped when attempting Down movement from (15,21).
 - Solid Rock Wall at (14,22): [Verified Turn 15432] Solid rock wall across Row 22 (Cols 12-19).
+- Solid Rock Wall Pillar at Cols 18-19 (Rows 14-21): [Verified Turn 15453] Verified solid rock pillar from Row 14 down to Row 21. Central Chute (Cols 14-17) is an enclosed dead-end.
