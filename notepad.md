@@ -1025,3 +1025,19 @@
 *(None yet)*
 
 <hr>
+
+<h1><code>Scratchpad/Current_Backtracking</code></h1>
+
+# Current Live Backtracking Status (Turn 10456)
+- **Current Position:** (29, 31) on Rock Tunnel B1F.
+- **SHELLBY (Wartortle):** Poisoned, 6/95 HP left! Extremely critical!
+- **Bag:** Out of all healing items (Antidote, Potions, etc.).
+- **Goal:** Backtrack to Route 10 Pokémon Center.
+- **Next Path steps:**
+  - Walk Right 4 steps to (33, 31).
+  - Walk Up 6 steps to (33, 25) (Ladder).
+  - Transition to Rock Tunnel 1F at (37, 3).
+  - Walk 1F path to (15, 3) (Entrance) and exit to Route 10.
+  - Heal at Pokémon Center.
+
+<hr>
