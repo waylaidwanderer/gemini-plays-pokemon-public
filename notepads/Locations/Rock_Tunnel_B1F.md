@@ -36,3 +36,4 @@
 - **Solid Rock Wall Pillar at Cols 26-27 (Row 22):** [Verified Turn 15655] Bumped rock wall at (27,22) when walking Left on Row 22 from (33,22).
 - **Solid Horizontal Rock Wall at Rows 28-29 (Cols 18-27):** [Verified Turn 15664] Bumped rock wall at (25,29). Passage North is at Cols 14-17.
 - **Confirmed No Ladder at B1F (37,17):** [Verified Turn 15682] Inspected Columns 34-37 at Rows 13-19 in Eastern Cavern; floor is clear dark cavern floor with no ladder warp.
+- **Solid Vertical Pillar at Cols 18-19 (Rows 6-21):** [Verified Turn 15701] Bumped rock wall at (19,19). Row 22 is open floor passing West through Cols 18-19.
