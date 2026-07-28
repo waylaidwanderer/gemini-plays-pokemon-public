@@ -101,3 +101,8 @@
 - **(20, 29):** Collision/Wall.
 - **(33, 21):** Physical collision.
 - **(13, 24):** Physical collision.
+
+- **(22, 17):** Walkable.
+- **(22, 18):** Walkable.
+- **(22, 19):** Walkable.
+- **(22, 20):** Walkable.
