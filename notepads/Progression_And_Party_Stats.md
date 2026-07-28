@@ -1,79 +1,26 @@
 # Progression & Party Stats
 
 ## Key Progression Milestones
-- **Pokédex:** Obtained from Professor Oak in Oak's Pokémon Lab on Turn 128.
+- **Pok�dex:** Obtained from Professor Oak in Oak's Pok�mon Lab on Turn 128.
 - **Town Map:** Obtained from Daisy in Daisy's House on Turn 137.
 - **Caught First Companion:** Caught NIBBLES (Rattata, Level 3) on Route 1 on Turn 318.
 - **Caught Second Companion:** Caught GUSTY (Pidgey, Level 3) on Route 1 on Turn 350.
 - **Caught Third Companion:** Caught TESLA (Pikachu, Level 3) in Viridian Forest on Turn 894.
 - **Caught Fourth Companion:** Caught TRUFFLE (Paras, Level 10) on Mt. Moon B1F on Turn 1482.
-- **Defeated Gym Junior Trainer:** Defeated Pewter Gym Junior Trainer on Turn 979.
 - **Defeated Gym Leader Brock:** Defeated Pewter Gym Leader Brock on Turn 1024, obtaining the BOULDERBADGE and TM34 (Bide).
-- **Pewter Poké Mart Shopping:** Purchased Poké Balls, Potions, and Antidote on Turn 1033.
-- **Defeated Youngster Calvin:** Defeated Youngster Calvin on Turn 1325.
-- **Defeated Lass Sally:** Defeated Lass Sally on Turn 1348.
-- **Healed at Mt. Moon Pokémon Center:** Healed party at (11, 5) on Turn 1422.
-- **Entered Mt. Moon:** Entered Mt. Moon 1F at (18, 5) on Turn 1431.
-- **Defeated Team Rocket Grunt:** Defeated Team Rocket Grunt at (15, 24) on Turn 1529, earning 330.
-- **Obtained HP UP:** Found HP UP at (25, 21) on Turn 1554.
-- **Defeated Lass (North-East):** Defeated Lass at (30, 7) on Turn 1641, earning 165.
-- **Defeated Team Rocket Grunt:** Defeated Team Rocket Grunt at (29, 11) on Mt. Moon B2F on Turn 1716, earning 360.
-- **Obtained Item (Poké Ball):** Found and retrieved Poké Ball at (29, 5) on Mt. Moon B2F on Turn 1722.
-- **Defeated Youngster (North-West):** Defeated Youngster at (12, 16) on Mt. Moon 1F on Turn 1779, earning 150.
-- **Obtained Item (Moon Stone):** Found and retrieved Moon Stone at (2, 2) on Mt. Moon 1F on Turn 1881.
-- **Obtained Item (Moon Stone):** Found and retrieved Moon Stone at (35, 31) on Mt. Moon 1F on Turn 2932.
-- **Defeated Bug Catcher Kenton:** Defeated Bug Catcher Kenton at (7, 22) on Turn 2031, earning 110.
-- **Obtained Item (Potion):** Found and retrieved Potion at (2, 20) on Mt. Moon 1F on Turn 2068.
-- **Defeated Bug Catcher (South-East):** Defeated Bug Catcher at (30, 27) on Mt. Moon 1F on Turn 2697, earning 100.
-- **Defeated Super Nerd:** Defeated Super Nerd near (24, 27) on Mt. Moon 1F on Turn 2731, earning 275.
-
-- **Defeated Rival JACK:** Defeated JACK at (20, 6) on Route 24 on Turn 4416, earning 595.
-- **Defeated Bug Catcher Cale:** Defeated Bug Catcher Cale at (11, 32) on Route 24 on Turn 4461, earning 140.
-- **Defeated Lass Ali:** Defeated Lass Ali at (10, 28) on Route 24 on Turn 4475, earning 210.
-- **Defeated Youngster Timmy:** Defeated Youngster Timmy at (11, 25) on Route 24 on Turn 4501, earning 210.
-- **Defeated Lass:** Defeated Lass at (10, 22) on Route 24 on Turn 4514, earning 240.
-- **Defeated Jr. Trainer♂:** Defeated Jr. Trainer♂ at (11, 19) on Route 24 on Turn 4529, earning 360.
-- **Defeated Rocket Grunt:** Defeated Rocket Grunt at (11, 15) on Route 24 on Turn 4558, earning 450.
-- **Defeated Youngster Dan:** Defeated Youngster Dan at (18, 5) on Turn 4675, earning Â255.
-- **Defeated Lass Robin:** Defeated Lass Robin at (20, 8) on Turn 4697, earning 225.
-- **Defeated Hiker Nob:** Defeated Hiker Nob at (23, 9) on Turn 4725, earning 455.
-- **Defeated Jr. Trainer♂ Shane:** Defeated Jr. Trainer♂ Shane at (24, 4) on Turn 4734, earning 540.
-- **Defeated Lass Haley:** Defeated Lass Haley at (37, 5) on Turn 4758, earning 195.
-- **Obtained S.S. TICKET:** Received S.S. TICKET from Bill in his Sea Cottage on Route 25 on Turn 4781.
-- **Defeated Hiker Franklin:** Defeated Hiker Franklin at (8, 4) on Turn 4659, earning 525.
-- **Defeated Rocket Grunt (Burgled House Backyard):** Defeated Team Rocket Grunt on Turn 4897, earning 510 and obtaining TM28 (Dig).
-- **Defeated Jr. Trainer♂ (Route 24 Grass):** Defeated Jr. Trainer♂ on Turn 4992, earning 280.
-- **Truffle Leveled Up:** TRUFFLE (Paras) reached Level 13 and learned STUN SPORE on Turn 5032.
-- **Defeated Swimmer Horatio (Cerulean Gym):** Defeated Swimmer at (5, 7) inside Cerulean Gym on Turn 5210, earning 80.
-- **Defeated Picnicker Diana (Cerulean Gym):** Defeated Picnicker Diana at (5, 3) inside Cerulean Gym on Turn 5233, earning 380.
 - **Defeated Gym Leader Misty:** Defeated Cerulean Gym Leader Misty on Turn 5262, obtaining the CASCADEBADGE and TM11 (Bubblebeam).
-
-- **Defeated Bug Catcher (Route 6):** Defeated Bug Catcher on Turn 6172, earning 200.
-- **Defeated Jr. Trainer♀ (Route 6):** Defeated Jr. Trainer♀ at (9, 31) on Turn 6185, earning 320.
-- **Defeated Jr. Trainer♂ (Route 6):** Defeated Jr. Trainer♂ at (8, 31) on Turn 6211, earning 320.
-
-- **Cut the Gym Bush:** Cut the Gym bush in Vermilion City to open access to the Gym on Turn 6799.
-- **Whited Out in Gym:** Whited out against Sailor Dwayne in Vermilion Gym on Turn 6837; returned to Vermilion Pokémon Center and fully restored party.
-- **Defeated Sailor Dwayne (Vermilion Gym):** Defeated Sailor Dwayne at (0, 10) in Vermilion Gym on Turn 6863, earning ¥630.
-- **Defeated Rocker Harrison (Vermilion Gym):** Defeated Rocker Harrison at (3, 8) in Vermilion Gym on Turn 6886, earning ¥500.
-- **Defeated Gentleman Tucker (Vermilion Gym):** Defeated Gentleman Tucker at (9, 6) in Vermilion Gym on Turn 6897, earning ¥1610.
-- **Solved Vermilion Gym Puzzle:** Found first switch at (1, 11) and second switch at (3, 11) on Turn 7005, opening the motorized door to Lt. Surge.
+- **Obtained S.S. TICKET:** Received S.S. TICKET from Bill in his Sea Cottage on Route 25 on Turn 4781.
 - **Defeated Gym Leader Lt. Surge:** Defeated Vermilion Gym Leader Lt. Surge on Turn 7027, obtaining the THUNDERBADGE and TM24 (Thunderbolt).
-- **Defeated JR. TRAINER♀ (Route 9):** Defeated JR. TRAINER♀ on Route 9 on Turn 7197, earning ¥360.
 - **Obtained Item (TM30):** Found and retrieved TM30 (Teleport) at (10, 15) on Route 9 on Turn 7206.
-- **Defeated Hiker (Route 9):** Defeated Hiker at (45, 15) on Route 9 on Turn 7280, earning ¥735.
-- **Defeated Bug Catcher Conner:** Defeated Bug Catcher Conner at (40, 8) on Turn 7431, earning ¥320.
-- **Defeated JR. TRAINER♂ (Route 9):** Defeated JR. TRAINER♂ at (24, 7) on Turn 7479, earning ¥420.
-- **Defeated JR. TRAINER♂ (Route 9):** Defeated JR. TRAINER♂ at (34, 7) on Turn 7528, earning ¥380.
 
 ## Party Statistics
 - **TESLA (Pikachu):**
-  - **Level:** 16
-  - **HP:** 40 / 40
-  - **Status:** Healthy
+  - **Level:** 17
+  - **HP:** 4 / 42
+  - **Status:** Paralyzed
 - **TRUFFLE (Paras):**
   - **Level:** 14
-  - **HP:** 37 / 37
+  - **HP:** 29 / 37
   - **Status:** Healthy
 - **GUSTY (Pidgey):**
   - **Level:** 5
@@ -84,6 +31,6 @@
   - **HP:** 22 / 22
   - **Status:** Healthy
 - **SHELLBY (Wartortle):**
-  - **Level:** 34
-  - **HP:** 77 / 92
-  - **Status:** Healthy
+  - **Level:** 35
+  - **HP:** 0 / 95
+  - **Status:** Fainted (Poisoned)
