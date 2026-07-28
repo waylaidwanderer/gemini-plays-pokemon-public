@@ -115,6 +115,8 @@
 - Main Cavern Highway (Row 11): Open East from (22,11) to (37,11).
 - Column 37: Open North from (37,11) to Ladder 4 at (37,3) (warps to B1F 33,25).
 - Vertical rock pillar at Cols 18-19 across Rows 14-21; Cols 12-13 across Rows 2-11.
+- Open Highway Row 13 connects (17,13) East to Col 20 at (20,13).
+- Column 20 (Rows 13-25+) is open vertical highway bypassing Row 22-23 wall into southern exit cavern.
 
 <hr>
 
