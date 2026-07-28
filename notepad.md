@@ -592,6 +592,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - Horizontal Wall at Row 5 (Cols 8-13): [Verified Turn 16235] Solid rock ceiling at Row 5 across Cols 8-13 on B1F. Visually confirmed on screen at turn 16235.
 - Pillar Wall at Cols 12-13 (Rows 5-13): [Verified Turn 16235] Solid vertical rock pillar at Cols 12-13 from Row 5 to Row 13 on B1F.
 - Ladder 2 to 1F at (5, 3): [Verified Turn 16239] Visually confirmed ladder graphic at X=5, Y=3 on B1F floor. Connects B1F (5,3) <---> 1F (5,3).
-- **Horizontal Rock Wall at Rows 14-15 (Cols 28-39):** [Verified Turn 16347] Rows 14-15 across Cols 28-39 on B1F is a solid rock wall. Open gap to Eastern Cavern is at Column 26.
+- **Horizontal Rock Wall at Rows 14-15 (Cols 18-39):** [Verified Turn 16349] Rows 14-15 across Cols 18-39 on B1F is a solid rock wall. Main vertical passage South is Central Passage (Cols 14-17).
 
 <hr>
