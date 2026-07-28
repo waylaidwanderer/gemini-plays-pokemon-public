@@ -914,7 +914,7 @@
 - **Continuous Ledge on Row 11:** Row 11 contains a continuous downward-facing ledge from Column 10 to Column 19, blocking all upward movement on these columns.
 - **Solid Wall on Column 24:** Column 24 contains a solid rock wall blocking all horizontal movement on Rows 11 to 15. Thus, the lower pocket of Route 9 (Columns 10-23, Rows 12-15) is completely dead-ended going east.
 - **Solid Wall on Column 9:** Column 9 contains a solid rock wall blocking all horizontal movement on Rows 10 to 17.
-- **Continuous Ledge on Row 5:** Row 5 contains a continuous downward-facing ledge from Column 20 all the way to Column 45, blocking all upward (northward) traversal to Rows 2-4.
+
 - **Verified Row 9 Escape Corridor:** Row 9 is completely open pavement and grass from Column 29 all the way west to Column 0, providing a clear escape route back to Cerulean City.
 - **True Escape Path from Lower Pocket:** To escape the lower pocket, walk to Column 19 on Row 14, walk UP Column 19 (which has no ledge lip on Row 13) to Row 12, walk Right to Column 29 Row 12, walk UP Column 29 through the gap to Row 9, and walk Left on Row 9 all the way to Cerulean City!
 
