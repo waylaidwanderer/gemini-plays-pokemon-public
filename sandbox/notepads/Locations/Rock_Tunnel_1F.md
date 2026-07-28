@@ -11,3 +11,4 @@
   - Cols 18-19: Rock pillar across Rows 10-15.
   - Rows 14-15: Solid rock across Cols 18-26.
   - Rows 22-23: Solid rock across Cols 0-23.
+- Row 3 is blocked West of Col 34 by rock wall at (33,3). Col 37 connects (37,3) South to (37,11) (Turn 17468).
