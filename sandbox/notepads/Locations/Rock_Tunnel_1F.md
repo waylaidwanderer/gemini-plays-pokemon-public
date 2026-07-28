@@ -10,7 +10,7 @@
 - **Ladder to B1F at (37, 17):** [Discovered Turn 14945] Ladder graphic visible at X=37, Y=17 in the southeast corner of Rock Tunnel 1F.
 - **Rock Wall Collisions:** [Verified Turns 14931, 14954, 14962, 15048, 15066] Confirmed solid rock walls at (13,4), (13,6), (19,13), and (37,14).
 - **South Corridor Dead-End at (22, 14-15):** [Verified Turn 14988] Solid rock wall across cols 18-27 on rows 14-15 blocks South progress from (22,13). Corridor turns East along rows 12-13.
-- **West Corridor to Ladder (17,11):** [Verified Turn 14988] Ladder at (17,11) is located on the West side of the col 18-19 vertical wall, accessible by heading West from entrance (15,3) to cols 11-13 then South to row 11.
+- **West Entrance Corridor (Blocked):** [Disproven Turn 15048, 15066] West exit from entrance chamber (15,3) is blocked at (13,4) and (13,6) by a solid rock wall.
 - **Pillar Wall at Cols 38-39 (Rows 9-15):** [Verified Turn 14992] Solid rock wall pillar at cols 38-39 blocks direct East movement on rows 9-15.
 - **Ladder (37,17) Unreachable from 1F:** [Disproven Turn 14994] Cols 38-39 form a solid rock wall from row 3 down through row 16+, rendering ladder (37,17) unreachable from Rock Tunnel 1F.
 - **Pillar Wall at Cols 32-33 (Rows 3-9):** [Verified Turn 14995] Rock wall pillar at cols 32-33 blocks West movement on rows 3-9. Row 10-13 highway is fully open.
