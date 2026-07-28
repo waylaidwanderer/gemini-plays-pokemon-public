@@ -523,6 +523,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - **Pillar Wall at Cols 24-25 (Rows 7-15):** [Verified Turn 16112] Solid vertical rock wall pillar blocking East travel from Col 23 on Rows 7-15. Pass East to Eastern Cavern via Row 6 at (23,6) -> (26,6).
 - Vertical Wall at Cols 18-19 (Rows 17-21): [Verified Turn 16203] Solid vertical rock pillar at Cols 18-19 from Row 17 down through Row 21. BUMPED at (17,21) when attempting Right to (18,21).
 - Horizontal Wall at Rows 22-23 (Cols 12-19): [Verified Turn 16203] Solid horizontal rock wall across Rows 22-23 from Col 12 to Col 19 on 1F. BUMPED at (17,21) when attempting Down to (17,22).
+- Vertical Wall at Cols 18-19 (Rows 10-13): [Verified Turn 16217] Solid vertical rock wall at Cols 18-19 from Row 10 to Row 13. BUMPED at (17,11) when attempting Right to (18,11).
 
 <hr>
 
