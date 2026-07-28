@@ -959,3 +959,18 @@
 - **Strict Spatial Consistency:** Each 1x1 in-game overworld tile corresponds to a 2x2 block of raw tiles in `route10_tile_map.txt`. All pathfinding and navigation scripts MUST apply this 2x multiplier before reading from or writing to the file representation.
 
 <hr>
+
+<h1><code>Locations/RockTunnel1F</code></h1>
+
+# Rock Tunnel 1F - Overworld Mapping & Navigation
+
+## Map Dimensions
+- Dimensions: Width = 20, Height = 18.
+
+## Mapped Coordinates & Layout
+- **Entry Warp:** Route 10 East connects to Rock Tunnel 1F at (15, 3). Walking SOUTH from (15, 3) enters the main corridor.
+- **(15, 3):** Walkable (Entry point).
+- **(15, 4):** Walkable.
+- **(15, 5):** Walkable.
+
+<hr>
