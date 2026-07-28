@@ -516,6 +516,7 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - Defeated Hiker at (16,15): [Verified Turn 15340] Standing at (16,15) blocking Row 15 direct passage.
 - Horizontal Wall at Rows 8-9 (Cols 14-17): [Verified Turn 15346] Solid rock wall blocking Up movement from Row 10 at Cols 14-17.
 - Solid Rock Wall at (18,13): [Verified Turn 15438] Bumped when attempting Right movement from (17,13).
+- Solid Rock Wall at (16,9): [Verified Turn 15441] Bumped when attempting Up movement from (16,10). Wall at Rows 8-9 across Cols 14-17.
 
 <hr>
 
