@@ -937,6 +937,12 @@
 - **(32, 13):** Walkable.
 - **(33, 13):** Walkable.
 - **(34, 13):** Walkable.
+- **(35, 13):** Walkable.
+- **(36, 13):** Walkable.
+- **(37, 13):** Walkable.
+
+## Map Transitions
+- **Unreachable Ladder to B1F:** Located at `(37, 17)` on Rock Tunnel 1F. It is isolated by walls on Row 14-15 and Column 31, meaning it must be accessed from B1F.
 
 <hr>
 
