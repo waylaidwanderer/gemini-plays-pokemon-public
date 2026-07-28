@@ -548,9 +548,6 @@ Route 3 is structured into 3 horizontal elevation tiers:
 - Horizontal Rock Wall at Row 14 (Cols 18-25): [Verified Turn 15415] Solid rock wall blocking South movement from Row 13.
 - Open Highway at Rows 2-5: [Verified Turn 15421] Rows 2-5 are open floor across Cols 14-23.
 - Solid Rock Wall at Cols 24-25 (Rows -1 to 15): [Verified Turn 15425] Solid vertical rock pillar blocking Eastward travel across Row 3.
-- Solid Rock Wall at (17,22): [Verified Turn 15428] Bumped when attempting Down movement from (17,21).
-- Solid Rock Wall at (15,22): [Verified Turn 15429] Bumped when attempting Down movement from (15,21).
-- Solid Rock Wall at (14,22): [Verified Turn 15432] Solid rock wall across Row 22 (Cols 12-19).
 - Solid Rock Wall Pillar at Cols 18-19 (Rows 14-21): [Verified Turn 15453] Verified solid rock pillar from Row 14 down to Row 21. Central Chute (Cols 14-17) is an enclosed dead-end.
 - Solid Rock Wall at (18,6) & (19,6): [Verified Turn 15457] Vertical rock pillar at Cols 18-19 extends up through Row 6.
 - Solid Rock Wall Pillar at Cols 24-25 (Rows -1 to 15): [Verified Turn 15463] Bumped at (24,5). Pillar wall has zero gaps across Rows -1 to 15.
