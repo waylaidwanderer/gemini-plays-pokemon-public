@@ -23,3 +23,9 @@
 - **(19, 31):** Walkable.
 - **(18, 31):** Walkable.
 - **(17, 31):** Walkable (visited).
+- **(17, 30):** Walkable.
+- **(17, 29):** Walkable.
+- **(17, 28):** Walkable (visited - trainer battle at (17, 28)).
+
+## Verified Collisions
+*(None yet)*
