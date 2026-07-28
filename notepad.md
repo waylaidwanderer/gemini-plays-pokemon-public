@@ -4,126 +4,185 @@
 
 <hr>
 
-<h1><code>Locations/Route_3</code></h1>
+<h1><code>Locations/PalletTown_And_Route1</code></h1>
 
 
 
 <hr>
 
-<h1><code>Locations/Route_4</code></h1>
+<h1><code>Locations/ViridianCity</code></h1>
 
 
 
 <hr>
 
-<h1><code>Locations/Mt_Moon_1F</code></h1>
+<h1><code>Progression_And_Party_Stats</code></h1>
 
 
 
 <hr>
 
-<h1><code>Locations/Mt_Moon_B1F</code></h1>
+<h1><code>Mechanics/Search_Scripting_Pitfalls</code></h1>
 
 
 
 <hr>
 
-<h1><code>Locations/Mt_Moon_B2F</code></h1>
+<h1><code>Locations/Route22</code></h1>
 
 
 
 <hr>
 
-<h1><code>Locations/Cerulean_City</code></h1>
+<h1><code>Mechanics/Naming_Screen_Offset</code></h1>
 
 
 
 <hr>
 
-<h1><code>Locations/Route_24</code></h1>
+<h1><code>Locations/Route2</code></h1>
 
 
 
 <hr>
 
-<h1><code>Locations/Route_25</code></h1>
+<h1><code>Locations/ViridianForest</code></h1>
 
 
 
 <hr>
 
-<h1><code>Locations/Sea_Cottage</code></h1>
-
-# Sea Cottage Map & Points of Interest
-
-## Key Locations & Coordinates
-- **Entrance Mat:** [Verified Turn 10304] Spawns at X=2, Y=7 facing Up. Exit mat at (2,7)/(3,7).
-- **Human Bill:** [Verified Turn 10315] Located at X=4, Y=4 after Cell Separator operation. Spoke with Bill and received S.S. Ticket [Turn 10317]!
-- **Teleporter Machine:** Left pod at (2,5), Right pod at (5,5).
-- **Cell Separator PC Terminal:** [Verified Turn 10313] Interactive monitor at X=1, Y=4 accessed from X=1, Y=5 facing Up.
-
-<hr>
-
-<h1><code>Locations/Route_6</code></h1>
+<h1><code>Locations/PewterCity</code></h1>
 
 
 
 <hr>
 
-<h1><code>Locations/Vermilion_City</code></h1>
+<h1><code>Locations/Route3</code></h1>
 
 
 
 <hr>
 
-<h1><code>Locations/SS_Anne_1F</code></h1>
+<h1><code>Mechanics/UI_And_Border_Rendering</code></h1>
 
 
 
 <hr>
 
-<h1><code>Locations/SS_Anne_2F</code></h1>
+<h1><code>Locations/Route4</code></h1>
 
 
 
 <hr>
 
-<h1><code>Locations/Vermilion_Gym</code></h1>
+<h1><code>Locations/CeruleanCity</code></h1>
 
 
 
 <hr>
 
-<h1><code>Locations/Route_9</code></h1>
+<h1><code>Locations/Route24</code></h1>
 
 
 
 <hr>
 
-<h1><code>Locations/Route_10</code></h1>
+<h1><code>Locations/Route25</code></h1>
 
 
 
 <hr>
 
-<h1><code>Locations/Rock_Tunnel_1F</code></h1>
+<h1><code>Locations/Route5</code></h1>
 
-## Verified 1F Routing & Layout
-- Row 3 (Cols 24-25) is blocked by a solid rock wall pillar.
-- Entrance (15,3) connects South via Column 15 corridor to Mid-1F Highway at Rows 16-18.
 
-- Column 34/33 leads South from Row 17 to Ladder 4 at 1F (33,25) -> B1F (37,3) (Main B1F Cavern).
-- Vertical rock pillar at Cols 18-19 across Rows 14-21. Rows 14-15 across Cols 18-25 are solid wall.
-- Southern Highway at Row 22 passes UNDER vertical pillar: (15,21) -> Right to (17,21) -> Down to (17,22) -> East along Row 22 towards Col 33/34.
 
 <hr>
 
-<h1><code>Locations/Rock_Tunnel_B1F</code></h1>
+<h1><code>Locations/Route6</code></h1>
 
-## Verified B1F Layout & Boundaries
-- Ladder 3 Chamber (17,11): Enclosed NW sector (Cols 2-17, Rows 11-21).
-- Solid Wall at Rows 22-23 across Cols 2-18 (no passage south from NW sector).
-- Solid Wall at Row 15 at Col 17.
-- Main B1F Cavern (connecting to South Exit) is accessed via Ladder 4 at 1F (33,25) -> B1F (37,3).
+
+
+<hr>
+
+<h1><code>Locations/VermilionCity</code></h1>
+
+
+
+<hr>
+
+<h1><code>Locations/SSAnne</code></h1>
+
+
+
+<hr>
+
+<h1><code>Locations/Route9</code></h1>
+
+
+
+<hr>
+
+<h1><code>Locations/Route10</code></h1>
+
+
+
+<hr>
+
+<h1><code>Locations/RockTunnel1F</code></h1>
+
+# Rock Tunnel 1F - Overworld Mapping & Navigation
+
+## Map Dimensions
+- Dimensions: Width = 40, Height = 18.
+
+## Mapped Coordinates & Layout
+- **Entry Warp:** Route 10 East connects to Rock Tunnel 1F at (15, 3). Walking SOUTH from (15, 3) enters the main corridor.
+- **Ladder to B1F (Top-Left Section):** Located at `(5, 3)`. Connects to Rock Tunnel B1F at `(27, 3)`.
+- **Ladder to B1F (Top-Right Section):** Located at `(37, 3)`. Connects to Rock Tunnel B1F at `(33, 25)`.
+
+### Verified Walkable Coordinates:
+- (15, 3)
+- (15, 4), (15, 5), (15, 6)
+- (5, 3)
+- (5, 4), (5, 5), (5, 6), (5, 7), (5, 8), (5, 9), (5, 10), (5, 11), (5, 12), (5, 13), (5, 14), (5, 15), (5, 16), (5, 17), (5, 18)
+- (7, 6)
+- (7, 7), (7, 8), (7, 9)
+- (8, 9), (9, 9), (10, 9), (11, 9)
+- (11, 10), (11, 11), (11, 12), (11, 13)
+- (11, 14), (11, 15)
+- (12, 15), (13, 15), (14, 15)
+- (15, 15)
+
+## Verified Collisions
+
+## Map Transitions
+- **Unreachable Ladder to B1F (Hypothesis):** Located at `(37, 17)` on Rock Tunnel 1F. It is isolated by walls on Row 14-15 and Column 31, and is hypothesized to connect to B1F but has not been empirically verified in-game.
+
+
+<hr>
+
+<h1><code>Locations/RockTunnelB1F</code></h1>
+
+# Rock Tunnel B1F - Overworld Mapping & Navigation
+
+## Map Dimensions
+- Dimensions: Width = 40, Height = 18.
+
+## Mapped Coordinates & Layout
+- **Ladder to 1F (Top-Left Section):** Located at `(27, 3)`. Connects to Rock Tunnel 1F at `(5, 3)`.
+- **Ladder to 1F (Top-Right Section):** Located at `(33, 25)`. Connects to Rock Tunnel 1F at `(37, 3)`.
+
+### Verified Walkable Coordinates:
+- (27, 3)
+- (33, 25)
+- (26, 31)
+- (17, 28)
+- (21, 21)
+- (34, 5)
+
+## Verified Collisions
+
 
 <hr>
