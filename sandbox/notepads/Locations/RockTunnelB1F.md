@@ -16,7 +16,6 @@
 - **(10, 31):** Walkable.
 - **(11, 31):** Walkable.
 - **(12, 31):** Walkable.
-- **(13, 24):** Walkable.
 - **(13, 25):** Walkable.
 - **(13, 26):** Walkable.
 - **(13, 27):** Walkable.
@@ -91,6 +90,7 @@
 - **(33, 31):** Walkable.
 
 ## Verified Collisions
+- **(13, 24):** Physical collision (Turn 10777).
 - **(14, 28):** Collision/Wall.
 - **(20, 29):** Collision/Wall.
 - **(33, 21):** Physical collision (Turn 10759).
