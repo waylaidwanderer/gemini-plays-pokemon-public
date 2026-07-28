@@ -962,6 +962,11 @@
 - **Ladder to 1F (Top-Right Section):** Located at `(33, 25)`. Connects to Rock Tunnel 1F at `(37, 3)`.
 
 ## Mapped Coordinates & Layout
+- **(34, 6):** Walkable.
+- **(34, 7):** Walkable.
+- **(34, 8):** Walkable.
+- **(34, 9):** Walkable.
+- **(34, 10):** Walkable.
 - **(33, 10):** Walkable.
 - **(33, 11):** Walkable.
 - **(33, 12):** Walkable.
