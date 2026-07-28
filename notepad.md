@@ -123,6 +123,7 @@
 - Verified Highway from (14,21): Right 2 steps to (16,21) -> Down Col 16 through Row 22-23 gap and Row 28-29 gap straight to 1F South Exit at (16,33)!
 - Verified South Exit Highway from (16,21): Right 4 to (20,21) -> Down 4 to (20,25) -> Left 4 to (16,25) -> Down 8 through Row 28 gap to 1F South Exit at (16,33)!
 - Row 13 East end note (Turn 17087): (24,13) is solid rock wall. Ladder 3 at (23,11) is accessed from (23,13) North.
+- COMPLETE VERIFIED ROUTE TO 1F SOUTH EXIT (Turn 17094): From (16,16) -> Left 5 to (11,16) -> Down 11 along Col 11 to (11,27) -> Right 3 along Row 27 to (14,27) -> Down 6 along Col 14 through Row 28-29 gap to (14,33) 1F South Exit!
 
 <hr>
 
