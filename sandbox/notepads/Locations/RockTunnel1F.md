@@ -9,7 +9,10 @@
 - **(14, 3):** Walkable.
 
 ## Verified Collisions
-*(None yet)*
+- **(13, 3):** Physical collision (Turn 10717).
+- **(13, 4):** Physical collision (Turn 10713).
+- **(13, 7):** Physical collision (Turn 10728).
+- **(14, 8):** Physical collision (Turn 10727).
 
 - **(15, 4):** Walkable.
 - **(16, 4):** Walkable.
