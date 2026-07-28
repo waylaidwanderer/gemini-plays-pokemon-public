@@ -52,3 +52,4 @@
 - Column 11 Vertical Chute (Rows 3-21): [Verified Turn 16224] Column 11 is a continuous open vertical corridor from Row 21 all the way up through Rows 8-9 wall to Row 3 Top Highway.
 - Horizontal Wall at Row 5 (Cols 8-13): [Verified Turn 16235] Solid rock ceiling at Row 5 across Cols 8-13 on B1F. Visually confirmed on screen at turn 16235.
 - Pillar Wall at Cols 12-13 (Rows 5-13): [Verified Turn 16235] Solid vertical rock pillar at Cols 12-13 from Row 5 to Row 13 on B1F.
+- Ladder 2 to 1F at (5, 3): [Verified Turn 16239] Visually confirmed ladder graphic at X=5, Y=3 on B1F floor. Connects B1F (5,3) <---> 1F (5,3).
