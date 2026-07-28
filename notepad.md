@@ -116,6 +116,7 @@
 - Vertical rock pillar at Cols 18-19 across Rows 14-21. Rows 14-15 across Cols 18-25 are solid wall.
 - SW pocket (Cols 14-17, Rows 17-21) is enclosed: Row 22 (Cols 13-19) is solid wall, Cols 18-19 are solid wall.
 - Northern Highway at Rows 3-5 passes OVER vertical pillar: (15,5) -> Right across Cols 18-19 to (20,5).
+- Gap across Col 24-25 is at Rows 8-9: (23,5) -> Down 3 to (23,8) -> Right 3 across (24,8)-(25,8) to (26,8) (Eastern Sector!).
 
 <hr>
 
