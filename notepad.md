@@ -934,7 +934,7 @@
 - **Pokémon Center:** Located on the east side of Route 10, adjacent to the Rock Tunnel entrance. 
   - **Exterior Location:** Entrance Door is at (11, 19) (verified on Turn 10075).
   - **Interior Location:** Nurse Joy is behind the counter at (3, 2). Exiting from (3, 7) warps the player back to Route 10 East at (11, 20).
-- **Rock Tunnel Entrance:** Under physical verification.
+- **Rock Tunnel Entrance:** Located on Route 10 East at (14, 11) (verified on Turn 10221). Walking UP from (14, 12) triggers the warp/map transition into Rock Tunnel 1F.
 
 - **Rock Tunnel South Exit / Lavender Town Connection:** Located at the bottom of Route 10.
 
@@ -944,7 +944,6 @@
   - Standing below the ledge (Row 14/15), you CANNOT walk UP to Row 12/13.
   - Thus, the pocket at (50, 14) to (53, 15) is a dead end from the south-west, but you can escape by walking Left back to Route 9.
 
-
 ## Navigational Strategy
 - Row 8/9 is the open pavement path from Route 9 going east to Column 59 on Route 10.
 - Column 52 and 53 on Row 9 are the only columns where you can walk down to the lower level of Route 10 (containing the grass lanes).
@@ -952,7 +951,6 @@
 ## Verified Obstacles & Navigation Limits (Turn 8878)
 - **Row 16 Rock Wall:** Completely solid and continuous across Columns 50 to 57, making Route 10's lower pocket (Columns 50-53, Rows 14-15) a strict dead end going south.
 - **Row 13 Ledge:** Continuous across Columns 50 to 53, blocking all upward (northward) movement to the upper level of Route 10.
-
 
 ## ROM Tile Map 2x Coordinate Scaling (Critical)
 - **Scale Factor:** The raw tile map file `route10_tile_map.txt` is exactly **2x scaled** relative to the in-game global coordinate grid reported by the harness.
