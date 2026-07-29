@@ -1,12 +1,13 @@
 <h1><code>Main</code></h1>
 
 ## ACTIVE MASTER ROUTE: ROUTE 8 TO UNDERGROUND PATH & CELADON CITY
-Current Pos: Route 8 (53,14) - Grass Field
-Status: Column-by-column boundary testing (testing Col 52).
+Current Pos: Route 8 (52,14)
+Status: Moving West along Route 8 (Row 14) from East end (X=52) toward West/Middle section to locate Underground Path Entrance building.
 
-Systematic Boundary Scan (Turn 18670):
-- Col 53: North (53,13) solid wall; South (53,16) solid fence.
-- Action: Step Left to (52,14) -> Turn Up -> Test (52,13) North boundary!
+Route 8 Layout Notes:
+- X=52-53, Y=10-13: Scenery building / East boundary wall.
+- Target: Underground Path entrance building on North side of Route 8 (around X=25-35).
+- Strategy: Walk West along Row 14, scanning North across ledges/fences for building entrance.
 
 <hr>
 
