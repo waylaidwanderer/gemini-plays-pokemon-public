@@ -1,8 +1,8 @@
-## ACTIVE MASTER ROUTE: LAVENDER TOWN OVERWORLD (3,18) TO ROUTE 8 WEST
-Current Pos: Lavender Town Overworld (3,18)
-Target: Single-step probe West along Row 18 to (2,18) -> Navigate West to Route 8 / Celadon City
+## ACTIVE MASTER ROUTE: LAVENDER TOWN OVERWORLD (2,18) TO ROUTE 8 WEST
+Current Pos: Lavender Town Overworld (2,18)
+Target: Single-step probe Left to (1,18) -> Route 8 (0,18) / Celadon City
 
 Step-by-Step Execution:
-1. From (3,18): Perform single-step probe Left to (2,18).
-2. Verify passability at each tile along Row 18 to avoid wall/fence bumps.
-3. Navigate West across Lavender Town to Route 8 entrance to Celadon City.
+1. From (2,18): Perform single-step probe Left to test border tile (1,18).
+2. If passable: Enter Route 8 at (0,18). If blocked: Step Down to (2,19)/(2,20) to bypass.
+3. Traverse Route 8 West to Underground Path -> Celadon City.
