@@ -1,8 +1,9 @@
-## ACTIVE MASTER ROUTE: SINGLE-STEP PROBE ON ROW 26 WEST WALL (1,26)
-Current Pos: Lavender Town Overworld (2,29)
-Status: Verified Row 29/30 fence. Moving Up to Row 26 Gold Dirt Highway at (2,26) to probe West wall (1,26).
-Target: Walk Up to (2,26) -> Single-step probe Left on (1,26) to test passage onto Route 8 Gold Dirt Highway.
+## ACTIVE MASTER ROUTE: COL 14 TO ROW 10 HIGHWAY GAP ONTO ROUTE 8 & CELADON CITY
+Current Pos: Lavender Town Overworld (14,26)
+Status: Reached (14,26) via Row 26. Navigating Up Col 14 to Row 12 (14,12), bypass gravestone via Col 13 to Row 10 (13,10), Left across (1,10) onto Route 8.
+Target: Walk Up to (14,12) -> Left to (13,12) -> Up to (13,10) -> Left across (1,10) onto Route 8 (0,10) -> West to Celadon City.
 
 Step-by-Step Execution:
-1. From (2,29): Up 3 times along Col 2 to (2,26).
-2. At (2,26) facing Left: Perform single-step Left probe on tile (1,26).
+1. From (14,26): Up 14 times along Col 14 to (14,12).
+2. From (14,12): Left 1 to (13,12), Up 2 to Row 10 (13,10).
+3. From (13,10): Left 13 times across (1,10) onto Route 8 (0,10) -> West to Celadon City.
