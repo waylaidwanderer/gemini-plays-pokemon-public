@@ -9,7 +9,6 @@
 - **Ladder to B1F (Central Section):** Located at `(17, 11)`. Connects to Rock Tunnel B1F at `(23, 11)`.
 
 ### Verified Walkable Coordinates (Physically stepped on in this session):
-
 - Row 3: (5, 3), (15, 3), (27, 3), (37, 3)
 - Row 4: (5, 4), (15, 4), (37, 4)
 - Row 5: (5, 5), (15, 5), (16, 5), (17, 5), (18, 5), (19, 5), (20, 5), (37, 5)
@@ -26,7 +25,12 @@
 - Row 16: (5, 16)
 - Row 17: (5, 17)
 - Row 18: (5, 18), (37, 18)
-
+- Row 19: (37, 19)
+- Row 20: (36, 20), (37, 20)
+- Row 21: (36, 21)
+- Row 22: (36, 22)
+- Row 23: (36, 23)
+- Row 24: (36, 24)
 ### Defeated Trainers:
 - **Hiker Dudley:** Engaged at (14, 15) on Turn 11009. Defeated on Turn 11037.
   - Roster: Geodude Lv 21, Graveler Lv 21.
@@ -34,6 +38,3 @@
 ## Verified Collisions
 
 ## Map Transitions
-- Row 19: (37, 19)
-- Row 20: (36, 20), (37, 20)
-- Row 21: (36, 21)
