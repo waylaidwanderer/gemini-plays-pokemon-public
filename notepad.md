@@ -172,15 +172,6 @@ Verified Route 8 Geography & Topology:
 
 <hr>
 
-<h1><code>Locations/Lavender_Town.md</code></h1>
-
-## Verified Lavender Town & Route 8 Points of Interest
-- Lavender Town Pokemon Center: Joy healed party at (3,3).
-- House at (11,19) in Lavender Town: Warp leads indoors at (15,3).
-- Route 8 Entrance: Connects West from Lavender Town at (59,9).
-
-<hr>
-
 <h1><code>Locations/Route_8.md</code></h1>
 
 ## Verified Route 8 Overworld Geography & Topology
