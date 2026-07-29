@@ -1,13 +1,13 @@
 <h1><code>Main</code></h1>
 
-## ACTIVE MASTER ROUTE: LAVENDER TOWN OVERWORLD (2,29) EAST MOVE
-Current Pos: Lavender Town Overworld (2,29)
-Target: Single-step probe Right to (3,29) -> Walk North along Column 3 to North-West Lavender / Route 8 Gate
+## ACTIVE MASTER ROUTE: LAVENDER TOWN OVERWORLD (3,29) NORTH PROBE
+Current Pos: Lavender Town Overworld (3,29)
+Target: Single-step probe Up to (3,28) -> Walk North along Column 3 to Row 18 / North-West Lavender
 
 Step-by-Step Execution:
-1. From (2,29): Perform single-step probe Right to test open grass tile (3,29).
-2. From (3,29): Walk North along Column 3 towards y=13/y=9 to locate Route 8 Gate building.
-3. Enter Route 8 Gate to traverse Route 8 West -> Celadon City.
+1. From (3,29): Perform single-step probe Up to test tile (3,28).
+2. Walk North along Column 3 towards Row 18 (3,18) to reach North-West Lavender Town.
+3. Locate Route 8 Gate / Entrance in North-West Lavender Town to enter Route 8 -> Celadon City.
 
 <hr>
 
