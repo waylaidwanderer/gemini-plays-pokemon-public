@@ -1,6 +1,6 @@
 ## ACTIVE MASTER ROUTE: ROUTE 8 OVERWORLD ROUTING
-Current Pos: Route 8 (23,6)
-Status: Reached (23,6) past Guard at (24,7). Stepping Up into Gatehouse doorway at (23,5) to trigger interior map transition.
+Current Pos: Route 8 (25,6)
+Status: Verified Signpost at (25,7) reads "ROUTE 9 CERULEAN CITY - ROCK TUNNEL". Player at (25,6).
 
 Verified Route 8 Geography & Topology:
 - Row 6 pavement at Cols 30-41 is an Eastern alcove dead-ending at (29,6) rock wall.
