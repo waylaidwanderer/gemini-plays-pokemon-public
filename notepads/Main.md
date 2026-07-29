@@ -1,8 +1,8 @@
-## ACTIVE MASTER ROUTE: LAVENDER TOWN OVERWORLD (2,29) SOUTH PROBE
+## ACTIVE MASTER ROUTE: LAVENDER TOWN WESTERN WALL SEARCH FOR ROUTE 8 EXIT
 Current Pos: Lavender Town Overworld (2,29)
-Target: Single-step probe Down to Row 30 Gold Dirt Highway (2,30) -> Route 8
+Status: Tested (2,30) South - impassable boundary tile.
+Target: Move Up along Column 2 (Y=28, 27, 26, ...) to inspect Column 1 for the Western gap leading to Route 8.
 
 Step-by-Step Execution:
-1. From (2,29): Perform single-step probe Down to test tile (2,30).
-2. Step Down to Row 31 Gold Dirt Highway at (2,31).
-3. Walk Left through open Row 31 gap at (1,31) onto Route 8 at (0,31) -> Celadon City.
+1. Walk Up along Column 2 looking Left at Column 1.
+2. When an open gap is seen in Column 1/0 (Route 8 entrance), step Left through it onto Route 8.
