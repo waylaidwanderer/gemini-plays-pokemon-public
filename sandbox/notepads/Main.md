@@ -1,8 +1,8 @@
-## ACTIVE MASTER ROUTE: ROCK TUNNEL 1F TO LAVENDER TOWN / ROUTE 8
-Current Pos: Rock Tunnel 1F (15,4)
-Target: Verify exact exit coordinates in Rock Tunnel 1F and navigate to Lavender Town / Route 8
+## ACTIVE MASTER ROUTE: LAVENDER TOWN OVERWORLD (8,18) TO ROUTE 8 WEST
+Current Pos: Lavender Town Overworld (8,18)
+Target: Single-step probe West along Row 18 to (7,18) -> Navigate West to Route 8 / Celadon City
 
 Step-by-Step Execution:
-1. Read Locations/Rock_Tunnel_1F notepad to confirm exit tile coordinates on 1F.
-2. Navigate to verified exit tile on 1F to exit Rock Tunnel.
-3. Perform single-step probe verification on overworld before executing macro moves.
+1. From (8,18): Perform single-step probe Left to (7,18).
+2. Verify passability at each tile along Row 18 to avoid wall/fence bumps.
+3. Navigate West across Lavender Town to Route 8 entrance to Celadon City.
