@@ -1,17 +1,18 @@
 <h1><code>Main</code></h1>
 
-## ACTIVE MASTER ROUTE: ROUTE 8 ROW 6 EAST TO LAVENDER TOWN ENTRANCE
-Current Pos: Route 8 (20,6)
-Status: Row 5 is a one-way ledge facing Down. Walking East along Row 6 to Lavender Town entrance (59,9).
+## ACTIVE MASTER ROUTE: ROUTE 8 ROW 8 TALL GRASS EAST TO LAVENDER TOWN
+Current Pos: Route 8 (25,6)
+Status: Stepping Down 2 times to (25,8) Light Gray Path, then Right through (26,8) tall grass to (28,8) and East to Lavender Town entrance (59,9).
 
 Verified Route 8 Geography & Topology:
-- Row 5 across Cols 20-25 is a one-way ledge facing Down onto Row 6.
-- Walking East along Row 6 past Col 25 leads to Col 59 Lavender Town warp.
-- Re-entering Route 8 from Lavender Town at (59,9) resets position onto the Upper Highway (Rows 8-9) with full Westward access.
+- Row 6 is blocked East at Col 26 by rock wall (Cols 26-28 Rows 3-7).
+- Row 8 at Col 25 is OPEN Light Gray Path, connecting East into (26,8) Green Tall Grass!
+- Row 8 Tall Grass runs continuously East across Cols 28 down to Lavender Town warp at (59,9).
+- Re-entering Route 8 from Lavender Town at (59,9) places us on the Upper Highway (Row 9) with full Westward access to Underground Path entrance building!
 - Plan:
-  1. Walk Right 10 times to (30,6).
-  2. Continue East along Row 6 to Lavender Town warp at (59,9).
-  3. Re-enter Route 8 onto Upper Highway and walk West to Underground Path Building entrance.
+  1. Walk Down 2 times to (25,8).
+  2. Walk Right 3 times through (26,8) tall grass to (28,8).
+  3. Walk East along Row 8/9 to Lavender Town warp at (59,9).
 
 <hr>
 
