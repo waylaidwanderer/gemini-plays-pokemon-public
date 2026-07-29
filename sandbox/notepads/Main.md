@@ -13,7 +13,3 @@ Verified Boundaries on Route 8 (Cols 10-23, Rows 14-15 Corridor):
 - Field Move Verified: DIG cannot be used on outdoor Route 8 ("OAK: This isn't the time to use that!").
 - Empirical Discovery (Turn 18469): (19,13) is an open gap through the Row 13 ledge connecting South Corridor (Row 14) directly UP to Northern Highway (Rows 11-12)!
 - Route to Underground Path: From (19,13) -> Up to (19,12) -> Right to (20,12) -> Up to (20,11) -> Right 5 steps to (25,11) -> Down into (25,12) entrance door.
-- EMPIRICAL DISCOVERY (Turn 18497): Cols 52-53 on Row 13 is the OPEN VERTICAL PASSAGE connecting South Path (Row 14) directly UP to Northern Highway (Row 10)!
-- Verified Route to Underground Path: From (53,14) -> Up 4 steps to (53,10) -> Left 19 steps to (34,10) -> Up 3 steps to (34,7) -> Left 2 steps to (32,7) -> Down 2 steps into (32,9) entrance door warp!
-- EMPIRICAL DISCOVERY (Turn 18502): Cols 40-41 on Row 13 is the OPEN VERTICAL LEDGE GAP connecting South Path (Row 14) directly UP to Northern Highway (Row 10)!
-- Verified Route to Underground Path: From (40,14) -> Up 4 steps to (40,10) -> Left 6 steps to (34,10) -> Up 3 steps to (34,7) -> Left 2 steps to (32,7) -> Down 2 steps into (32,9) entrance door warp!
