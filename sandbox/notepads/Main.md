@@ -1,12 +1,10 @@
-## ACTIVE MASTER ROUTE: ROUTE 8 ROW 15 EAST TO LAVENDER TOWN
-Current Pos: Route 8 (13,14)
-Status: Shifting to Row 15 and walking East to Col 53 to test Row 15 Eastward exit to Lavender Town (59,9).
+## ACTIVE MASTER ROUTE: ROUTE 8 COL 20 NORTHWARD TEST
+Current Pos: Route 8 (21,14)
+Status: Red object tile at (21,13). Stepping Left to Col 20 (20,14) and testing Northward movement along Col 20 to Row 10 (20,10).
 
 Verified Route 8 Geography & Topology:
-- Row 14/15 is the lower corridor running East across Cols 10 to 53.
-- Bypassing NPC at (16,15) via Row 14, then walking East along Row 15 to (53,15).
-- Testing Row 15 at Col 53/54 to exit to Lavender Town (59,9), re-enter onto Upper Highway (Rows 9-12), and walk West to Underground Path Building entrance at (13,10)/(13,9)!
+- Cols 20-23 at Rows 10-15 form a light gray courtyard.
+- Testing Col 20 (20,14 -> 20,13 -> 20,12 -> 20,11 -> 20,10) to access Upper Highway at Row 10/11.
 - Plan:
-  1. Walk to (15,15), step Up to (15,14), Right to (17,14), Down to (17,15).
-  2. Walk East along Row 15 to (53,15).
-  3. Test Right at (53,15) to reach Lavender Town warp at (59,9).
+  1. Press Left to step to (20,14).
+  2. Press Up 4 times to test walking along Col 20 to (20,10).
