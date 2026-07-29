@@ -1,7 +1,7 @@
-## ACTIVE MASTER ROUTE: ENTER LAVENDER TOWN POKÉMON CENTER AT (11,19) AND HEAL PARTY
-Current Pos: Lavender Town (11,26)
-Target: Pokémon Center Door at (11,19) -> Nurse Joy Counter
+## ACTIVE MASTER ROUTE: HEAL PARTY AT LAVENDER TOWN POKÉMON CENTER
+Current Pos: Lavender Town Pokémon Center (3,7)
+Target: Nurse Joy Counter at (3,3) -> Heal Party
 
 Step-by-Step Execution:
-1. From (11,26): Walk Up 7 along Column 11 to PC Door at (11,19) to enter Pokémon Center.
-2. Inside Lavender Town PC: Walk to Nurse Joy counter at (3,2) and press A to heal party.
+1. From (3,7): Walk Up 4 to (3,3) in front of Nurse Joy counter.
+2. Press A to speak with Nurse Joy, select YES to heal party completely.
