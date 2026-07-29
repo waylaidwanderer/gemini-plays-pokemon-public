@@ -1,15 +1,16 @@
 <h1><code>Main</code></h1>
 
-## ACTIVE MASTER ROUTE: UNDERGROUND PATH ENTRANCE AT (13,13)
+## ACTIVE MASTER ROUTE: ROUTE 8 TILE (13,13) INTERACTION TEST
 Current Pos: Route 8 (13,14)
-Status: Stepping Up onto Red Door Mat Warp at (13,13) to enter Underground Path Entrance Building!
+Status: Player bumped into red tile at (13,13) when facing Up. Testing pressing 'A' to interact with (13,13).
 
 Verified Route 8 Geography & Topology:
-- Red Door Mat Warp is located at Route 8 (13,13).
-- Stepping Up from (13,14) onto (13,13) warps inside the Underground Path Entrance Building!
+- Tile (13,13) is a solid red object / sign.
+- Testing pressing 'A' to read/interact with (13,13).
 - Plan:
-  1. Press Up to step onto (13,13) door mat warp.
-  2. Inside building, take stairs down to Underground Path Tunnel to Celadon City.
+  1. Press 'A' to interact with (13,13).
+  2. If text box opens, read sign text.
+  3. If not interactive, test walking around via adjacent columns.
 
 <hr>
 
