@@ -1,6 +1,7 @@
 ## ACTIVE MASTER ROUTE: ROUTE 8 TO UNDERGROUND PATH & CELADON CITY
-Current Pos: Route 8 (53,14) - Grass Field
-Status: Testing CUT move from party menu facing East (54,14), North (53,13), and South (53,15).
+Current Pos: Route 8 (28,15) - Grass Field
+Status: Exploring Grass Field boundaries and testing interactions.
 
-Systematic Boundary Exit Test (Turn 18631):
-- Testing SPROUT -> CUT on all adjacent boundary tiles at (53,14) to locate Cut tree / hidden exit.
+Verified Map Geometry (Turn 18661):
+- Player at (28,15) facing Down.
+- Testing West to Col 27, East to Col 58, and North along Row 13/14 for exits.
