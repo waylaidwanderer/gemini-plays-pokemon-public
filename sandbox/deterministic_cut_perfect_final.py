@@ -1,29 +1,35 @@
 import mgba
 import time
+import os
 
-print("Exiting POKéMON menu...")
-# Press B three times to get back to the overworld from SWITCH mode
-for _ in range(3):
-    mgba.press_buttons(["B"])
-    time.sleep(0.5)
+# Clean up obsolete files
+for f_name in ["deterministic_cut.py", "deterministic_cut_safe.py"]:
+    if os.path.exists(f_name):
+        try:
+            os.remove(f_name)
+            print(f"Deleted obsolete file: {f_name}")
+        except Exception as e:
+            print(f"Failed to delete {f_name}: {e}")
 
 print("Opening Start menu...")
 mgba.press_buttons(["Start"])
 time.sleep(1.0)
 
 print("Entering POKéMON menu...")
-# Start menu cursor points to POKéMON since we just exited from it.
 mgba.press_buttons(["A"])
 time.sleep(1.0)
 
 print("Selecting TRUFFLE...")
-# Cursor in party menu is at TESLA (5th). Press Up three times to go to TRUFFLE (2nd).
-mgba.press_buttons(["Up", "sleep 200", "Up", "sleep 200", "Up", "sleep 200", "A"])
+mgba.press_buttons(["A"])
 time.sleep(1.0)
 
 print("Selecting CUT...")
-# TRUFFLE's sub-menu opens pointing at DIG (1st). Press Down once to go to CUT (2nd).
-mgba.press_buttons(["Down", "sleep 200", "A"])
+# Sub-menu doesn't wrap. Park at top (DIG), then Down 1 to CUT
+buttons = []
+for _ in range(10):
+    buttons.extend(["Up", "sleep 100"])
+buttons.extend(["Down", "sleep 100", "A"])
+mgba.press_buttons(buttons)
 time.sleep(2.0)
 
 print("Done!")
