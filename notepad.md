@@ -2,11 +2,14 @@
 
 ## Position Tracking: Route 8 (12,12)
 
-## ACTIVE MASTER ROUTE: ROUTE 8 OVERWORLD SOLUTION
-1. From (27,11), walk Left 7 steps along Row 11 Upper Highway to (20,11).
-2. Step Down 1 step to (20,12), then Left 1 step to (19,12) onto Row 12 green grass!
-3. Walk Left 7 steps along Row 12 green grass to (12,12).
-4. Step Up 1 step to (12,11) and enter Underground Path building door!
+## ACTIVE MASTER ROUTE: ROUTE 8 COMPLETE OVERWORLD SOLUTION
+1. Teleport to Lavender Town Pokemon Center (11,20).
+2. Exit West to Route 8 entry (59,9).
+3. Walk West 3 steps to Col 56 (56,9).
+4. Walk Down 7 steps along Col 56 through open dirt chute directly onto Row 16 Lower Highway (56,16)!
+5. Walk Left 48 steps along Row 16 Dirt Highway past all cliffs all the way to Col 8 West edge road at (8,16)!
+6. Walk Up 6 steps along Col 8 to (8,10).
+7. Walk Right 3 steps along Row 10 to (11,10) and enter Underground Path building!
 
 Verified Route 8 Geography & Topology:
 - Lavender Town exit is at (0,9) -> enters Route 8 Upper Highway at (59,9).
