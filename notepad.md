@@ -13,9 +13,9 @@ Party Field Moves:
 - SPROUT (Oddish, Lv 14): CUT
 - SHELLSHOCK (Blastoise, Lv 46): DIG
 
-Position & Status (Turn 19621):
-- Current Pos: Route 8 Upper Highway at (59,9).
-- Route Status: Walking West along Upper Highway (Row 9) to thoroughly test and map Column 45 and Column 27 passage without jumping down Row 13 ledge!
+Position & Status (Turn 19634):
+- Current Pos: Route 8 Lower Path at (48,14).
+- Route Status: Verified full topology of Route 8. Investigating Upper Highway passage across Col 45 to Col 27 plaza floor at (27,10).
 
 <hr>
 
