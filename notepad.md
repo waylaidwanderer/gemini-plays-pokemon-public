@@ -1,7 +1,7 @@
 <h1><code>Main</code></h1>
 
 ## ACTIVE MASTER ROUTE: EXIT ROCK TUNNEL TO LAVENDER TOWN
-Current Pos: Rock Tunnel B1F (31,11)
+Current Pos: Rock Tunnel B1F (27,10)
 Target: Column 33 -> Ladder 4 (33,25) -> 1F South Exit (37,11) -> Lavender Town
 
 Step-by-Step Execution:
