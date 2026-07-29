@@ -2,8 +2,6 @@
 
 ## Unverified Hypotheses & Landmarks (Need physical verification in this session):
 
-### Hypothesized Walkable Coordinates (from restored memory):
-
 - **Key Trainer Locations (Hypothesized):**
   - (26, 31) (Pokémaniac)
   - (17, 28) (Jr. Trainer♀)
