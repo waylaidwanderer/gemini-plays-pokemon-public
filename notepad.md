@@ -1,15 +1,12 @@
 <h1><code>Main</code></h1>
 
-## ACTIVE MASTER ROUTE: ROUTE 8 TO LAVENDER TOWN
-Current Pos: Route 8 (53,14)
-Status: Moving Left to Col 51 (51,14) and testing North step onto (51,13) checkerboard/gateway tile.
+## ACTIVE MASTER ROUTE: ROUTE 8 EXPLORATION & UNDERGROUND PATH
+Current Pos: Route 8 (51,14)
+Status: Moving West along Row 14 corridor towards Col 23/20 to re-examine building features.
 
-Map Observations & Target:
-- Col 54 is solid mountain wall across all rows.
-- Building at Cols 48-53 features a distinct checkerboard/gateway column at Col 51 (51,10-51,13)!
-- Action Plan:
-  1. Step Left to (51,14).
-  2. Turn Up and test stepping onto (51,13) to check if (51,13) is a gateway doorway/warp.
+Verified Boundary Audit:
+- Col 51-53 (51,13-53,13): Solid building/scenery walls (verified Turn 18793).
+- Action Plan: Walk West along Row 14 to Col 23/20 to inspect Gatehouse interior/doors.
 
 <hr>
 
