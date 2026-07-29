@@ -1,6 +1,6 @@
 <h1><code>Main</code></h1>
 
-## Position Tracking: Route 8 (41,14)
+## Position Tracking: Route 8 (29,14)
 
 ## ACTIVE MASTER ROUTE: ROUTE 8 COMPLETE OVERWORLD SOLUTION
 1. From (53,14), walk Left 24 steps to (29,14).
