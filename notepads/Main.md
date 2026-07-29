@@ -11,6 +11,6 @@ Party Field Moves:
 - SPROUT (Oddish, Lv 14): CUT
 - SHELLSHOCK (Blastoise, Lv 46): DIG
 
-Position & Status (Turn 19591):
-- Current Pos: Route 8 Upper Highway at (50,9).
-- Route Status: Walking West along Upper Highway (Row 9) across Col 45 and Col 27 to reach Western Plaza (x~11-26) and Underground Path building door at (12,13)!
+Position & Status (Turn 19621):
+- Current Pos: Route 8 Upper Highway at (59,9).
+- Route Status: Walking West along Upper Highway (Row 9) to thoroughly test and map Column 45 and Column 27 passage without jumping down Row 13 ledge!
