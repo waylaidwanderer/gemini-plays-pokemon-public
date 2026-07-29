@@ -1,16 +1,13 @@
 <h1><code>Main</code></h1>
 
 ## ACTIVE MASTER ROUTE: ROUTE 8 UNDERGROUND PATH TO CELADON CITY
-Current Pos: Route 8 (19,12) - Upper Path
-Status: Walking West along Row 12 to (13,12) and stepping Up into Underground Path Entrance Building at (13,10).
+Current Pos: Route 8 (23,12)
+Status: Stepping Up to Row 11 floor at (23,11), walking Right across Cols 24-27 to Col 28 grass (28,11), and walking North onto Row 10/7.
 
-Verified Solution:
-- Column 19 (19,13) is the open gap through Row 13 ledge connecting Lower Path (Row 14) to Upper Path (Row 12)!
-- Execution Plan:
-  1. Walk West along Row 12 green grass from (19,12) to (13,12).
-  2. Step Up through (13,11) doorway mat into (13,10) warp tile to enter Underground Path Building.
-  3. Descend stairs inside building into Underground Path (Route 8 - Route 7 tunnel).
-  4. Walk West through tunnel to Route 7 exit building, exit onto Route 7, and walk West into Celadon City!
+Verified Route to Underground Path:
+- Row 11 floor (Cols 23-27) connects directly East to Col 28 grass (28,11)!
+- Col 28 connects North to Row 7 Northern Highway above the building complex.
+- Row 7 connects West directly to Underground Path building entrance at (13,9)!
 
 <hr>
 
