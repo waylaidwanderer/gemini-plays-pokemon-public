@@ -1,11 +1,10 @@
-## ACTIVE MASTER ROUTE: WESTERN LOWER COURTYARD TO UNDERGROUND PATH
-Current Pos: Route 8 (23,14)
-Status: Walking West along Row 14 from (23,14) to (13,14) to inspect building entrance / door warps.
+## ACTIVE MASTER ROUTE: UNDERGROUND PATH ENTRANCE AT (13,13)
+Current Pos: Route 8 (13,14)
+Status: Stepping Up onto Red Door Mat Warp at (13,13) to enter Underground Path Entrance Building!
 
 Verified Route 8 Geography & Topology:
-- Western Lower Courtyard spans Cols 10-23, Rows 14-15 (Light Gray Path).
-- Underground Path Building is located at Cols 11-15.
-- Testing every tile along Row 14 (Cols 10-15) for building door / entrance warp.
+- Red Door Mat Warp is located at Route 8 (13,13).
+- Stepping Up from (13,14) onto (13,13) warps inside the Underground Path Entrance Building!
 - Plan:
-  1. Walk Left 10 times from (23,14) to (13,14).
-  2. Inspect building door warps at Cols 11-15 Rows 14/13/12.
+  1. Press Up to step onto (13,13) door mat warp.
+  2. Inside building, take stairs down to Underground Path Tunnel to Celadon City.
