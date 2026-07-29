@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
 ## ACTIVE MASTER ROUTE: ROUTE 8 NORTHERN HIGHWAY TO UNDERGROUND PATH & CELADON CITY
-Current Pos: Route 8 (44,15) - South Corridor
-Status: On Route 8 South Corridor at (44,15). Re-evaluating Route 8 structure and traversal history.
+Current Pos: Route 8 (31,14) - South Corridor
+Status: On Route 8 South Corridor at (31,14). Performing single-step verification on (19,13) ledge gap.
 
 Verified Boundaries on Route 8 (Cols 10-23, Rows 14-15 Corridor):
 - Row 13 (Cols 10-23): South-facing one-way ledge empirically confirmed via bumps (Turns 18318, 18324, 18368, 18376, 18385).
