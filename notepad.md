@@ -1,14 +1,14 @@
 <h1><code>Main</code></h1>
 
-## ACTIVE MASTER ROUTE: EAST FLANK TO ROW 17 HIGHWAY TO CELADON CITY
+## ACTIVE MASTER ROUTE: ROUTE 8 TRAINER BATTLE (45,15) & CELADON CITY
 Current Pos: Route 8 (46,15)
-Status: Facing Right at (46,15). Stepping Right 3 to (49,15), Down 2 to Row 17 Highway (49,17), Left across Row 17 to Celadon City.
-Target: Walk Right to (49,15) -> Down to (49,17) -> Left along Row 17 Highway to (39,17) -> West to Celadon City.
+Status: Trainer battle dialogue at (45,15) active. Pressing A/B to clear dialogue, win battle, and open Route 8 highway.
+Target: Clear dialogue with A/B -> Defeat trainer in battle -> Travel West along Route 8 to Celadon City.
 
 Step-by-Step Execution:
-1. From (46,15): Right 3 to (49,15), Down 2 to (49,17).
-2. From (49,17): Left 10 times along Row 17 Highway to (39,17).
-3. Traverse Route 8 Westward to Celadon City.
+1. Press A/B 15 times to advance trainer dialogue and enter/win battle.
+2. Select attack moves with A to defeat trainer's Pokemon.
+3. Traverse West along Route 8 Highway to Celadon City.
 
 <hr>
 
@@ -198,6 +198,7 @@ Step-by-Step Execution:
 - Verified Route 8 South Highway Passage: Column 45 wall ends at Row 13. Row 14 Gold Dirt Highway (45,14) is completely open leading West to Celadon City.
 - ROUTE 8 TRAINER BATTLED: Trainer at (45,15) triggered pre-battle dialogue on Turn 18008 at (48,17). Advancing text/battle with A/B.
 - Verified Route 8 Trainer Sightline: Trainer at (45,15) sees across Row 15 to Col 47, triggering pre-battle dialogue. Pressing A/B advances dialogue into battle.
+- ROUTE 8 TRAINER SIGHTLINE LOCK VERIFIED: Trainer at (45,15) sightline locks player at (46,15)/(47,15) with open dialogue box. Pressing A/B clears text to enter battle.
 - ROUTE 8 TRAINER SIGHTLINE LOCK VERIFIED: Trainer at (45,15) sightline locks player at (46,15)/(47,15) with open dialogue box. Pressing A/B clears text to enter battle.
 
 <hr>
