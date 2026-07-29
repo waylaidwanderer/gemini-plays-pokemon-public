@@ -1,17 +1,15 @@
 ## ACTIVE MASTER ROUTE: ROUTE 8 UPPER HIGHWAY TO UNDERGROUND PATH
-Current Pos: Route 8 (28,15)
-Status: Returning East to Lavender Town entrance (59,9) to re-enter onto Upper Highway (Rows 9-12).
+Current Pos: Route 8 (29,12)
+Status: Stepped North through Col 29 gap onto Upper Highway! Walking West on Light Gray Path to Underground Path Entrance Building (13,6).
 
 Verified Route 8 Geography & Topology:
-- Lower Path (Rows 14-15, Cols 28-53) is a lower corridor bounded North by Row 13 one-way ledge, West by Col 27 rock wall, East by Col 54 rock wall.
-- To access the Western Upper Sector (Cols 11-27), we MUST be on the Upper Highway (Rows 9-12).
-- The Upper Highway starts at Lavender Town exit (59,9) and runs continuously West along Rows 9-12 across Cols 59 down to Col 28.
-- At Col 28 Row 11, stepping Left enters (27,11) Light Gray Path, which leads West to Underground Path Building at Cols 11-15.
+- Gap at Col 29 Row 13 is OPEN, connecting Lower Path (29,14) North to Upper Highway (29,12).
+- From (29,12), walking Up to Row 11 (29,11) and Left to Col 27 (27,11) enters the Western Light Gray Path.
+- The Western Light Gray Path runs continuously West across Cols 27 down to Col 11.
 - Plan:
-  1. Walk East along Row 14/15 from (28,15) to (59,14).
-  2. Walk Up to (59,9), step Right to warp into Lavender Town (0,9).
-  3. Step Left to re-enter Route 8 at (59,9) on the Upper Highway.
-  4. Walk West along Rows 9-12 staying ABOVE Row 13 ledge all the way to (28,11) -> (27,11) -> Underground Path Building (13,6)!
+  1. Walk Up to (29,11), Left to (27,11) on Light Gray Path.
+  2. Walk West along Light Gray Path to Col 13.
+  3. Walk North into Underground Path Building door at (13,6)!
 - Saffron Gatehouse is at (24,7). Underground Path Entrance Building is at Cols 11-15.
 - Plan:
   1. Step Down to Row 15 at (53,15).
