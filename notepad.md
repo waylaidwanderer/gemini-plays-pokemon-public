@@ -217,7 +217,7 @@
 
 ### Verified Walkable Coordinates (Physically stepped on in this session):
 
-- Row 3: (10, 3), (28, 3), (29, 3), (30, 3), (31, 3), (32, 3), (33, 3), (34, 3), (35, 3), (36, 3), (37, 3)
+- Row 3: (10, 3), (27, 3), (28, 3), (29, 3), (30, 3), (31, 3), (32, 3), (33, 3), (34, 3), (35, 3), (36, 3), (37, 3)
 
 - Row 4: (10, 4), (37, 4)
 
@@ -287,11 +287,8 @@
 # Rock Tunnel B1F - Routing Hypotheses & Unverified Map Restorations
 
 ## Unverified Hypotheses & Landmarks (Need physical verification in this session):
-- **Ladder to 1F (Top-Right Section):** Hypothesized at `(33, 25)` (connects to 1F at `(37, 3)`).
 
 ### Hypothesized Walkable Coordinates (from restored memory):
-- **Vertical Channel (Columns 33-34):**
-  - Walkable coordinates on columns 33 and 34 going down to (33, 25).
 
 - **Key Trainer Locations (Hypothesized):**
   - (26, 31) (Pokémaniac)
