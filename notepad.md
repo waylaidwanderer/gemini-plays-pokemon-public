@@ -1,12 +1,12 @@
 <h1><code>Main</code></h1>
 
-## ACTIVE MASTER ROUTE: DIAGNOSTIC PROBE AT ROUTE 8 (46,15)
+## ACTIVE MASTER ROUTE: TRAINER DIALOGUE / BATTLE INTERACTION AT ROUTE 8 (46,15)
 Current Pos: Route 8 (46,15)
-Status: Standing at (46,15). Testing B/Right probe to clear text/test movement to (47,15).
-Target: Clear text with B, move Right to (47,15) -> Traverse Route 8 West to Celadon City.
+Status: Standing at (46,15) in trainer (45,15) sightline. Pressing A/B to advance text/battle or step Right to (47,15).
+Target: Advance trainer dialogue/battle with A/B or step Right to (47,15) -> Traverse West to Celadon City.
 
 Step-by-Step Execution:
-1. From (46,15): Press B, B, Right to step to (47,15).
+1. From (46,15): Press A, A, B, B, A, B, Right to advance text/battle or move to (47,15).
 2. Evaluate result and navigate West to Celadon City.
 
 <hr>
