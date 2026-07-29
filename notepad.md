@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
 ## ACTIVE MASTER ROUTE: ROUTE 8 NORTHERN HIGHWAY TO UNDERGROUND PATH & CELADON CITY
-Current Pos: Route 8 (53,15) - South Corridor
-Status: On Route 8 South Corridor at (53,15). Walking West along Row 15 to Col 10.
+Current Pos: Route 8 (28,14) - South Corridor
+Status: On Route 8 South Corridor at (28,14). Walking West towards Col 10 to test Saffron Gatehouse entrance.
 
 Verified Boundaries on Route 8 (Cols 10-23, Rows 14-15 Corridor):
 - Row 13 (Cols 10-23): South-facing one-way ledge empirically confirmed via bumps (Turns 18318, 18324, 18368, 18376, 18385).
