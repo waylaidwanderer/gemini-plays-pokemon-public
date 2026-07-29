@@ -1,12 +1,12 @@
 <h1><code>Main</code></h1>
 
-## ACTIVE MASTER ROUTE: EXIT ROCK TUNNEL TO LAVENDER TOWN
-Current Pos: Rock Tunnel 1F (37,3)
-Target: South Exit at (37,11) -> Route 10 South -> Lavender Town
+## ACTIVE MASTER ROUTE: ROUTE 10 SOUTH TO LAVENDER TOWN
+Current Pos: Route 10 South (37,12)
+Target: Lavender Town (South)
 
 Step-by-Step Execution:
-1. From 1F (37,3): Walk Down 8 steps along Column 37 to (37,11) and 1 step South to Exit -> Route 10 South!
-2. From Route 10 South: Walk South to Lavender Town!
+1. From (37,12): Walk Down 1 step to (37,13), Right 3 steps along Row 13 to (40,13), and Down 3 steps along Column 40 to (40,16) to bypass the mountain wall at Rows 14-15.
+2. From (40,16): Walk South down Route 10 directly into Lavender Town!
 
 <hr>
 
