@@ -1,6 +1,6 @@
 <h1><code>Main</code></h1>
 
-## Position Tracking: Route 8 (20,14)
+## Position Tracking: Route 8 (20,14) -> Moving East to Col 25 Dirt Highway
 
 ## ACTIVE MASTER ROUTE: ROUTE 8 COMPLETE OVERWORLD SOLUTION
 1. Teleport to Lavender Town Pokemon Center (11,20).
