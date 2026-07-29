@@ -1,8 +1,13 @@
-## ACTIVE MASTER ROUTE: ROUTE 8 TO UNDERGROUND PATH & CELADON CITY
-Current Pos: Route 8 (52,14)
-Status: Moving West along Route 8 (Row 14) from East end (X=52) toward West/Middle section to locate Underground Path Entrance building.
+## ACTIVE MASTER ROUTE: ROUTE 8 UPPER PATH TO UNDERGROUND PATH
+Current Pos: Route 8 (40,14)
+Status: Returning East to Lavender Town (X=59, Y=9) to enter Route 8 Upper Path (Y=9-12).
 
-Route 8 Layout Notes:
-- X=52-53, Y=10-13: Scenery building / East boundary wall.
-- Target: Underground Path entrance building on North side of Route 8 (around X=25-35).
-- Strategy: Walk West along Row 14, scanning North across ledges/fences for building entrance.
+Map Discovery & Routing Solution:
+- Route 8 has two distinct parallel paths separated by one-way South ledges:
+  1. Upper Path (Y=9-12): Entered from Lavender Town at (59,9). Provides direct access to the Underground Path entrance building on Rows 10-13!
+  2. Lower Path (Y=14-15): Enclosed by Row 13 ledge (North) and Row 16 fence (South).
+- Action Plan:
+  1. Walk East from (40,14) along Row 14/15 to Lavender Town warp at (59,9/10).
+  2. Transition into Lavender Town.
+  3. Re-enter Route 8 at (59,9) to be on the Upper Path.
+  4. Walk West along Upper Path (Y=9-11) directly to Underground Path building at X=25-27!
