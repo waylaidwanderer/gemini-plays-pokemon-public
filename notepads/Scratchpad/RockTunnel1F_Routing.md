@@ -1,15 +1,13 @@
-# Rock Tunnel 1F - Routing & Exit Strategy (Post-Warp)
+# Rock Tunnel 1F - Routing & Exit Strategy (Main Compartment)
 
 ## Progress and Context:
-- Warped from Rock Tunnel B1F (3, 3) to Rock Tunnel 1F (37, 17) on Turn 11892.
-- Currently in the bottom-right section of Rock Tunnel 1F.
-- Goal: Reach the bottom exit to Route 10 South, which is located around `(15, 33)` or `(15, 35)` on 1F.
+- Successfully bypassed B1F using the central ladder (23, 11) to arrive at 1F (17, 11).
+- Discovered that Row 22 blocks downward passage in columns 10-23.
+- Goal: Route through the eastern passage on column 36/37 to reach the exit at the bottom.
 
-## Walked Path and Blockages:
-- We cannot walk straight down column 37 because a defeated trainer stands at `(37, 21)` and blocks the tile permanently.
-- Bypassed this by walking Left to `(36, 20)` and then Down to `(36, 21)`.
-- Triggered battle with JR.TRAINER♀ (Martha) at `(36, 21)`. Defeated her.
-
-## Next Steps (Post-Battle):
-2. Continue walking Down column 36 to Row 33 (i.e. to `(36, 33)`).
-3. From Row 33, walk Left along the bottom corridor all the way to the exit at `(15, 33)` to exit to Route 10 South!
+## Verified Route to Southern Exit to Route 10 South:
+1. Right 1: (19, 20) -> (20, 20)
+2. Up 7: (20, 20) -> (20, 13)
+3. Right 16: (20, 13) -> (36, 13)
+4. Down 20: (36, 13) -> (36, 33)
+5. Left 21: (36, 33) -> (15, 33) to exit!
