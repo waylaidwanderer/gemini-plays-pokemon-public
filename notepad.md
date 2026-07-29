@@ -25,27 +25,27 @@
 - **Cascade Badge:** Earned by defeating Gym Leader Misty in Cerulean City Gym on Turn 5262.
 - **Thunder Badge:** Earned by defeating Gym Leader Lt. Surge in Vermilion City Gym on Turn 7025.
 
-## Current Party Stats (as of Turn 11401)
+## Current Party Stats (as of Turn 11611)
 1. **SHELLBY** (Blastoise)
    - Level: 38
-   - HP: 16/115 (Low HP)
+   - HP: 115/115
    - Status: Healthy (Active lead)
 2. **TRUFFLE** (Paras)
    - Level: 15
-   - HP: 0/39
-   - Status: Fainted
+   - HP: 39/39
+   - Status: Healthy
 3. **GUSTY** (Pidgey)
    - Level: 6
-   - HP: 0/19
-   - Status: Fainted
+   - HP: 19/19
+   - Status: Healthy
 4. **NIBBLES** (Rattata)
    - Level: 7
-   - HP: 0/22
-   - Status: Fainted
+   - HP: 22/22
+   - Status: Healthy
 5. **TESLA** (Pikachu)
    - Level: 19
-   - HP: 0/46
-   - Status: Fainted
+   - HP: 46/46
+   - Status: Healthy
 
 ## Major Milestones and Items
 - **Cut:** Taught to Pokémon on Turn 6787.
@@ -197,6 +197,16 @@
 - **Ladder to B1F (Central Section):** Located at `(17, 11)`. Connects to Rock Tunnel B1F at `(23, 11)`.
 
 ### Verified Walkable Coordinates (Physically stepped on in this session):
+
+- Row 5: (15, 5), (16, 5), (18, 5), (19, 5)
+- Row 6: (20, 6)
+- Row 7: (20, 7)
+- Row 8: (20, 8)
+- Row 9: (20, 9)
+- Row 10: (20, 10)
+- Row 11: (20, 11)
+- Row 12: (20, 12)
+- Row 13: (21, 13), (22, 13), (23, 13), (24, 13), (25, 13), (26, 13)
 
 - Row 5: (17, 5), (20, 5)
 - Row 13: (20, 13)
