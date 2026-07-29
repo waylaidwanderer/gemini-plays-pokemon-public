@@ -10,7 +10,7 @@ Map Boundary Realities:
 - South boundary (Row 16): Solid fence across all columns (10-53).
 - West boundary (Col 9): Building wall.
 - East boundary (Col 54): Mountain wall.
-- Lower Path terminates at Col 27 (Wall). Exit via East to Lavender Town at (59,14), then head North to Row 9 to access Route 8 Upper Path.
+- Lower Path Col 27 has obstacle on Row 14; bypass via Row 15! Row 15 extends West to Col 10+ (Underground Path area).
 
 <hr>
 
