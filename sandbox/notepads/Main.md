@@ -1,6 +1,6 @@
 ## ACTIVE MASTER ROUTE: ROUTE 8 OVERWORLD ROUTING
-Current Pos: Route 8 (14,12)
-Status: Reached Underground Path building at (13,11) via Row 13 grass gap at (19,13) and Row 12 corridor.
+Current Pos: Route 8 (10,12)
+Status: Identified 2 buildings on West Route 8: Building 1 (Saffron Gate at 10-13,10) and Building 2 (Underground Path at 10-15,14-15). Moving to South entrance at (13,16).
 
 Verified Route 8 Geography & Topology:
 - Row 6 pavement at Cols 30-41 is an Eastern alcove dead-ending at (29,6) rock wall.
