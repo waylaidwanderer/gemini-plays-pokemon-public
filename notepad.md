@@ -196,5 +196,6 @@ Step-by-Step Execution:
 - ROUTE 8 ENTERED! Lavender Town Row 9 exit at (0,9) successfully warps to Route 8 (59,9) on Turn 17991!
 - Verified Route 8 Wall Barrier: Col 46 is rock wall at Rows 6-8. Col 46 Row 5 (46,5) is open Gold Dirt Highway gap.
 - Verified Route 8 South Highway Passage: Column 45 wall ends at Row 13. Row 14 Gold Dirt Highway (45,14) is completely open leading West to Celadon City.
+- ROUTE 8 TRAINER BATTLED: Trainer at (45,15) triggered pre-battle dialogue on Turn 18008 at (48,17). Advancing text/battle with A/B.
 
 <hr>
