@@ -1,11 +1,8 @@
 # Rock Tunnel B1F - Routing Hypotheses & Unverified Map Restorations
 
 ## Unverified Hypotheses & Landmarks (Need physical verification in this session):
-- **Ladder to 1F (Top-Right Section):** Hypothesized at `(33, 25)` (connects to 1F at `(37, 3)`).
 
 ### Hypothesized Walkable Coordinates (from restored memory):
-- **Vertical Channel (Columns 33-34):**
-  - Walkable coordinates on columns 33 and 34 going down to (33, 25).
 
 - **Key Trainer Locations (Hypothesized):**
   - (26, 31) (Pokémaniac)
