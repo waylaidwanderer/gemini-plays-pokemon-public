@@ -1,6 +1,6 @@
 <h1><code>Main</code></h1>
 
-## Position Tracking: Lavender Town (11,9) [Battle: Voltorb]
+## Position Tracking: Route 8 (53,9)
 
 ## ACTIVE MASTER ROUTE: ROUTE 8 OVERWORLD ROUTING
 
