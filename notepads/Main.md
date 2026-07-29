@@ -1,13 +1,11 @@
-## ACTIVE MASTER ROUTE: ROUTE 8 UPPER PATH TO UNDERGROUND PATH
-Current Pos: Route 8 (40,14)
-Status: Returning East to Lavender Town (X=59, Y=9) to enter Route 8 Upper Path (Y=9-12).
+## ACTIVE MASTER ROUTE: ROUTE 8 EXPLORATION & UNDERGROUND PATH
+Current Pos: Route 8 (53,14)
+Status: Investigating Lower Path (Rows 14-15) boundaries to find exit/passage.
 
-Map Discovery & Routing Solution:
-- Route 8 has two distinct parallel paths separated by one-way South ledges:
-  1. Upper Path (Y=9-12): Entered from Lavender Town at (59,9). Provides direct access to the Underground Path entrance building on Rows 10-13!
-  2. Lower Path (Y=14-15): Enclosed by Row 13 ledge (North) and Row 16 fence (South).
-- Action Plan:
-  1. Walk East from (40,14) along Row 14/15 to Lavender Town warp at (59,9/10).
-  2. Transition into Lavender Town.
-  3. Re-enter Route 8 at (59,9) to be on the Upper Path.
-  4. Walk West along Upper Path (Y=9-11) directly to Underground Path building at X=25-27!
+Map Boundaries Verified:
+- East Wall: Col 54 is solid mountain wall across Rows 13-16.
+- West Building: Cols 24-27 (Saffron Gatehouse / Underground Path building). (27,14) is solid building wall.
+- North Ledge: Row 13 ledge.
+- South Fence: Row 16 fence line.
+
+Next Objective: Walk West along Row 14/15 to systematically test every tile along Row 13 (North), Row 16 (South), and West wall (Cols 24-27) for gaps, Cut trees, or doorways.
