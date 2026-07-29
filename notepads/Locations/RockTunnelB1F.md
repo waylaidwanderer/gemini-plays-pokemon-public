@@ -1,12 +1,14 @@
 # Rock Tunnel B1F - Overworld Mapping & Navigation
 
 ## Map Dimensions
-- Dimensions: Width = 40, Height = To Be Determined (visually confirmed y >= 24).
+- Dimensions: Width = 40, Height = To Be Determined (visually confirmed y >= 33).
 
 ## Mapped Coordinates & Layout
 - **Ladder to 1F (Central Section):** Located at `(23, 11)`. Connects to Rock Tunnel 1F at `(17, 11)`.
 
 ### Verified Walkable Coordinates (Physically stepped on in this session):
+
+- Row 33: (29, 33)
 
 - Row 25: (33, 25)
 - Row 26: (33, 26)

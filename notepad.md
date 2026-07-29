@@ -160,6 +160,26 @@
 
 <h1><code>Locations/Route10</code></h1>
 
+# Route 10 - Overworld Mapping & Navigation
+
+## Map Dimensions
+- Dimensions: To Be Determined.
+
+## Mapped Coordinates & Layout
+- **Pok�mon Center Door:** Located at `(11, 19)`.
+- **Rock Tunnel Entrance Warp:** Located at `(8, 17)`.
+
+### Verified Walkable Coordinates (Physically stepped on in this session):
+- Row 17: (8, 17)
+- Row 18: (3, 18), (4, 18), (5, 18), (6, 18), (7, 18), (8, 18)
+- Row 19: (3, 19), (11, 19)
+- Row 20: (3, 20), (11, 20)
+- Row 21: (3, 21), (11, 21)
+- Row 22: (3, 22), (4, 22), (5, 22), (6, 22), (7, 22), (8, 22), (11, 22)
+- Row 23: (6, 23), (11, 23)
+- Row 24: (6, 24), (11, 24)
+- Row 25: (6, 25), (11, 25)
+- Row 26: (6, 26), (7, 26), (8, 26), (9, 26), (10, 26), (11, 26)
 
 
 <hr>
@@ -177,6 +197,9 @@
 - **Ladder to B1F (Central Section):** Located at `(17, 11)`. Connects to Rock Tunnel B1F at `(23, 11)`.
 
 ### Verified Walkable Coordinates (Physically stepped on in this session):
+
+- Row 5: (17, 5), (20, 5)
+- Row 13: (20, 13)
 
 - Row 3: (5, 3), (15, 3), (27, 3), (37, 3)
 - Row 4: (5, 4), (15, 4), (37, 4)
@@ -211,12 +234,14 @@
 # Rock Tunnel B1F - Overworld Mapping & Navigation
 
 ## Map Dimensions
-- Dimensions: Width = 40, Height = To Be Determined (visually confirmed y >= 24).
+- Dimensions: Width = 40, Height = To Be Determined (visually confirmed y >= 33).
 
 ## Mapped Coordinates & Layout
 - **Ladder to 1F (Central Section):** Located at `(23, 11)`. Connects to Rock Tunnel 1F at `(17, 11)`.
 
 ### Verified Walkable Coordinates (Physically stepped on in this session):
+
+- Row 33: (29, 33)
 
 - Row 25: (33, 25)
 - Row 26: (33, 26)
@@ -314,7 +339,6 @@
   - (34, 5) (Hiker Erik)
 
 ## Rock Tunnel 1F Hypotheses (Unverified in this session):
-- **Ladder to B1F (Top-Right Section):** VERIFIED at `(37, 3)` on Rock Tunnel 1F (connects to B1F at `(33, 25)`).
 - **Unreachable Ladder to B1F (Hypothesis):** Located at `(37, 17)` on Rock Tunnel 1F. It is isolated by walls on Row 14-15 and Column 31, and is hypothesized to connect to B1F but has not been empirically verified in-game.
 
 <hr>
