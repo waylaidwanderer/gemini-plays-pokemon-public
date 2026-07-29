@@ -1,17 +1,16 @@
-# Rock Tunnel B1F - Verified Optimal Routing to Central Ladder
+# Rock Tunnel B1F - Verified Optimal Routing to Top-Left Ladder
 
 ## Context
-- We are at B1F (11, 24).
-- The path along row 24 is blocked by solid rock walls at column 12 and 13.
-- The correct path to the exit of Rock Tunnel is through the central ladder at (23, 11) on B1F, which leads to 1F Compartment A. From there, we can go Down column 11/14 on 1F to reach the exit at the bottom.
+- We are on B1F at (23, 11).
+- The correct path to the exit of Rock Tunnel is through the top-left ladder at (3, 3) on B1F, which leads directly to the isolated exit compartment (Compartment C) on 1F. From there, we can walk down column 36 to Row 33, and then Left to the exit.
 
-## Verified B1F Route to Central Ladder at (23, 11) from (11, 24)
-1. Left 1: (11, 24) -> (10, 24)
-2. Up 7: (10, 24) -> (10, 17)
-3. Right 5: (10, 17) -> (15, 17)
-4. Down 2: (15, 17) -> (15, 19)
-5. Right 2: (15, 19) -> (17, 19)
-6. Up 6: (17, 19) -> (17, 13)
-7. Right 5: (17, 13) -> (22, 13)
-8. Up 2: (22, 13) -> (22, 11)
-9. Right 1: (22, 11) -> (23, 11)
+## Verified B1F Route to Top-Left Ladder at (3, 3) from (23, 11)
+1. Left 6: (23, 11) -> (17, 11)
+2. Down 8: (17, 11) -> (17, 19)
+3. Left 3: (17, 19) -> (14, 19)
+4. Up 2: (14, 19) -> (14, 17)
+5. Left 4: (14, 17) -> (10, 17)
+6. Up 6: (10, 17) -> (10, 11)
+7. Left 5: (10, 11) -> (5, 11)
+8. Up 8: (5, 11) -> (5, 3)
+9. Left 2: (5, 3) -> (3, 3)
