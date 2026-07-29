@@ -5,13 +5,9 @@
 
 ### Hypothesized Walkable Coordinates (from restored memory):
 - **Top-Left Path to Ladder (34, 5) -> (27, 3):**
-  - (27, 3), (28, 3), (29, 3), (30, 3), (31, 3), (32, 3), (33, 3), (34, 3)
-  - (34, 4), (34, 5)
 - **Vertical Channel (Columns 33-34):**
   - Walkable coordinates on columns 33 and 34 going down to (33, 25).
 
-- **Vertical Channel (Column 22):**
-  - Walkable column 22 connecting down to other sections.
 - **Key Trainer Locations (Hypothesized):**
   - (26, 31) (Pokémaniac)
   - (17, 28) (Jr. Trainer♀)
