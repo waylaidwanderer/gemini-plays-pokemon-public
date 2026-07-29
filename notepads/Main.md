@@ -1,6 +1,6 @@
 ## ACTIVE MASTER ROUTE: ROUTE 8 OVERWORLD ROUTING
-Current Pos: Route 8 (28,8)
-Status: On Row 8 Upper Highway at (28,8). Moving West along Row 8 directly to Gatehouse at (24,7).
+Current Pos: Route 8 (24,8)
+Status: Reached (24,8) directly South of Gatehouse Guard at (24,7). Stepping Up to interact with Guard / enter Gatehouse.
 
 Verified Route 8 Geography & Topology:
 - Row 6 pavement at Cols 30-41 is an Eastern alcove dead-ending at (29,6) rock wall.
