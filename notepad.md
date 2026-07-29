@@ -248,8 +248,35 @@
 
 ## Mapped Coordinates & Layout
 - **Ladder to 1F (Central Section):** Located at `(23, 11)`. Connects to Rock Tunnel 1F at `(17, 11)`.
+- **Ladder to 1F (Top-Right Section):** Located at `(33, 25)`. Connects to Rock Tunnel 1F at `(37, 3)`.
+- **Ladder to 1F (Bottom-Left Section):** Located at `(3, 11)`. Connects to Rock Tunnel 1F at `(5, 15)` or `(5, 17)`.
+
+### Structural Division of B1F:
+- **Compartmentalization:** B1F is divided into two separate, unconnected eastern and western compartments.
+  - **Eastern Compartment:** Contains the top-right ladder at `(33, 25)`. Includes column 33 (rows 25-33), Row 33 (columns 15-33), and column 22 (rows 16-24).
+  - **Western Compartment:** Contains the central ladder at `(23, 11)` and the bottom-left/exit ladder at `(3, 11)`.
+  - **Traversal:** To cross between the eastern and western sections of B1F, the player MUST go up a ladder to Rock Tunnel 1F (e.g. from `(33, 25)` to `(37, 3)` on 1F) and walk across 1F to reach the central ladder at `(17, 11)` or top-left ladder at `(5, 3)` to descend back into B1F.
 
 ### Verified Walkable Coordinates (Physically stepped on in this session):
+
+- Row 16: (22, 16)
+- Row 17: (22, 17)
+- Row 18: (22, 18)
+- Row 19: (22, 19)
+- Row 20: (22, 20)
+- Row 21: (22, 21)
+- Row 22: (22, 22)
+- Row 23: (22, 23)
+- Row 24: (22, 24)
+- Row 25: (33, 25)
+- Row 26: (33, 26)
+- Row 27: (33, 27)
+- Row 28: (33, 28)
+- Row 29: (33, 29)
+- Row 30: (33, 30)
+- Row 31: (33, 31)
+- Row 32: (33, 32)
+- Row 33: (16, 33), (17, 33), (18, 33), (20, 33), (21, 33), (22, 33), (23, 33), (25, 33), (26, 33), (27, 33), (28, 33), (29, 33), (30, 33), (31, 33), (32, 33), (33, 33)
 
 - Row 33: (29, 33)
 
@@ -325,6 +352,7 @@
 
 ## Verified Collisions
 - (13, 19): Rock Wall (Turn 11056)
+- Rows 16-23, Columns 18-19: Solid rock walls blocking horizontal traversal between the eastern and western compartments of B1F (visually and physically confirmed on Turn 11639-11641).
 
 ## Dark Cave Navigation & Visual Illusions
 - **The Illusion of Walkability:** In pitch-black caves like Rock Tunnel, unrendered rock walls and walkable corridors are both drawn as identical pure black pixels.
@@ -339,8 +367,6 @@
 # Rock Tunnel B1F - Routing Hypotheses & Unverified Map Restorations
 
 ## Unverified Hypotheses & Landmarks (Need physical verification in this session):
-
-### Hypothesized Walkable Coordinates (from restored memory):
 
 - **Key Trainer Locations (Hypothesized):**
   - (26, 31) (Pokémaniac)
