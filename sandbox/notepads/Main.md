@@ -1,8 +1,7 @@
-## ACTIVE MASTER ROUTE: ROW 26 BYPASS TO WEST TOWN & ROUTE 8
-Current Pos: Lavender Town Overworld (10,14)
-Target: Walk Right to Col 14 -> Down to Row 26 (14,26) -> Left across Row 26 (Cols 13..6) to West Town -> Up Col 6 to Row 14 Highway -> Left onto Route 8.
+## ACTIVE MASTER ROUTE: WEST TOWN EXPLORATION TO ROUTE 8 EXIT
+Current Pos: Lavender Town Overworld (6,26)
+Target: Walk Up Col 6 to Row 18 (6,18) -> Inspect North/West area around Mr. Fuji's house to locate Route 8 exit gate/path -> West to Celadon City.
 
 Step-by-Step Execution:
-1. From (10,14): Right 4 times to (14,14), Down 12 times to (14,26).
-2. From (14,26): Left 8 times across Row 26 to (6,26).
-3. From (6,26): Up 12 times along Col 6 to (6,14), Left onto Route 8 -> West to Celadon City.
+1. From (6,26): Up 8 times along Col 6 to (6,18).
+2. From (6,18): Locate and enter Route 8 path -> West to Celadon City.
