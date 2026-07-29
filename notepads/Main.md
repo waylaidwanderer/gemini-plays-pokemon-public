@@ -1,7 +1,8 @@
 ## ACTIVE MASTER ROUTE: ROUTE 8 TO UNDERGROUND PATH & CELADON CITY
-Current Pos: Route 8 (28,15) - Grass Field
-Status: Exploring Grass Field boundaries and testing interactions.
+Current Pos: Route 8 (49,14) - Grass Field
+Status: Walking East along Row 14 to (53,14) to exit Grass Field into Lavender Town.
 
-Verified Map Geometry (Turn 18661):
-- Player at (28,15) facing Down.
-- Testing West to Col 27, East to Col 58, and North along Row 13/14 for exits.
+Master Path Strategy (Turn 18665):
+- Walk East along Row 14 from (49,14) to (53,14).
+- At (53,14) facing Right, step Right onto (54,14) to transition into Lavender Town!
+- In Lavender Town, walk Up to y=9 -> Re-enter Route 8 at (59,9) on Northern Highway -> Walk West to (25,12) Underground Path door!
