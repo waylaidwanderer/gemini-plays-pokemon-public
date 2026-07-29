@@ -1,10 +1,10 @@
-## ACTIVE MASTER ROUTE: ROUTE 8 TO CELADON CITY (UNDERGROUND PATH)
-Current Pos: Route 8 (25,11) - Underground Path Entrance Building Doorway
-Status: Successfully traversed gap at (29,13) from central grass field onto Northern Highway (Row 8-10), walked West along Row 9 to Col 25, and positioned at Underground Path entrance door at (25,11).
-Target: Enter Underground Path building at (25,10/11) -> Traverse Underground Path to Route 7 -> Enter Celadon City -> Defeat Erika / Obtain Rainbow Badge.
+## ACTIVE MASTER ROUTE: ROUTE 8 SOUTH HIGHWAY TO UNDERGROUND PATH & CELADON CITY
+Current Pos: Route 8 (23,15) - South Dirt Highway
+Status: Successfully passed South through Gate Building (Col 23, Y=10..15) onto the open South Dirt Highway at (23,15/16). Uninhibited Westward movement along South Highway now unlocked!
+Target: Walk West along South Dirt Highway (Row 16/17) to Underground Path entrance building -> Traverse Underground Path to Route 7 -> Enter Celadon City -> Defeat Erika / Obtain Rainbow Badge.
 
 Step-by-Step Execution:
-1. Step Up into (25,10) doorway to enter Underground Path building (Route 8 - Route 7 Gate).
-2. Walk down stairs into Underground Path.
-3. Walk West through Underground Path tunnel to Route 7 exit building.
+1. Walk West along South Dirt Highway (Row 16/17) past Col 23 towards West end of Route 8.
+2. Locate and enter Underground Path building at West end of Route 8.
+3. Walk down stairs into Underground Path tunnel and traverse West to Route 7.
 4. Exit onto Route 7 and walk West into Celadon City.
