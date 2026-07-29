@@ -1,13 +1,11 @@
 ## ACTIVE MASTER ROUTE: ROUTE 8 UPPER PATH TO UNDERGROUND PATH
-Current Pos: Route 8 (13,14)
-Status: Navigating Row 14 East to Col 28 Ledge Passage to reach Row 12 Building Entrance!
+Current Pos: Route 8 (19,13)
+Status: Discovered Col 19 Row 13 Ledge Passage! Stepping onto Row 12 and entering Underground Path Building Door (13,11)!
 
 Verified Route 8 Geography:
-- Underground Path Building door is on ROW 12 (Cols 11-15).
-- Row 13 is a South-facing Ledge spanning Cols 10-27 and 30-53.
-- Col 28/29 Row 13 is the OPEN LEDGE PASSAGE connecting Row 14 to Row 12.
+- Col 19 Row 13 is an OPEN LEDGE PASSAGE connecting Western Lower Path (Row 14) to Upper Path (Row 12)!
+- Row 12 is open grass across Cols 13-19 leading directly to Underground Path door at (13,11).
 - Plan:
-  1. Walk Right along Row 14 to (28,14).
-  2. Step Up onto Row 12 at (28,12).
-  3. Walk Left along Row 12 to (13,12).
-  4. Step Up into building door at (13,11).
+  1. Step Up to (19,12).
+  2. Walk Left 6 steps along Row 12 to (13,12).
+  3. Step Up into building door at (13,11).
