@@ -1,6 +1,6 @@
 ## ACTIVE MASTER ROUTE: ROUTE 8 ROW 14/15 WEST HIGHWAY TO UNDERGROUND PATH BUILDING
-Current Pos: Route 8 (23,15)
-Status: Descended Col 23 corridor to Row 15 pavement highway at (23,15). Row 14 & Row 15 pavement forms an open Westward highway above the Row 16 south rock wall. Moving West along Row 15 pavement toward the Underground Path Building.
+Current Pos: Route 8 (14,14)
+Status: Bypassed NPC at (16,15) via Row 14 pavement to reach (14,14). Continuing West along Row 14 pavement toward Underground Path Building entrance at West end of Route 8.
 
 Verified Route 8 Geography & Topology:
 - Row 6 pavement at Cols 30-41 is an Eastern alcove dead-ending at (29,6) rock wall.
