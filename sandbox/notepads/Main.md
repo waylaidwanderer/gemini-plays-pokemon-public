@@ -1,6 +1,8 @@
 ## ACTIVE MASTER ROUTE: ROUTE 8 TO UNDERGROUND PATH & CELADON CITY
 Current Pos: Route 8 (28,14) - South Corridor
-Status: Testing Westward passage at Col 27 from (28,14).
+Status: Navigating onto Main Dirt Road (Row 16) to bypass building.
 
-Empirical Testing at Col 27 (Turn 18571):
-- Player at (28,14) testing stepping Left onto (27,14).
+Empirical Verification (Turn 18572):
+- (27,14) is solid building wall.
+- Rows 16-18 are wide open yellow-brown dirt road across Cols 24-33.
+- Action: Step Down to (28,15) -> (28,16) -> Walk West on Row 16 past Col 27!
