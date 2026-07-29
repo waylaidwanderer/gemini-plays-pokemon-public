@@ -219,6 +219,14 @@
 - Row 22: (36, 22)
 - Row 23: (36, 23)
 - Row 24: (36, 24)
+- Row 25: (36, 25)
+- Row 26: (36, 26)
+- Row 27: (36, 27)
+- Row 28: (36, 28)
+- Row 29: (26, 29), (36, 29)
+- Row 30: (26, 30), (36, 30)
+- Row 31: (26, 31), (27, 31), (28, 31), (29, 31), (30, 31), (31, 31), (32, 31), (33, 31), (34, 31), (35, 31), (36, 31)
+
 ### Defeated Trainers:
 - **Hiker Dudley:** Engaged at (14, 15) on Turn 11009. Defeated on Turn 11037.
   - Roster: Geodude Lv 21, Graveler Lv 21.
@@ -226,6 +234,7 @@
 ## Verified Collisions
 
 ## Map Transitions
+
 
 <hr>
 
