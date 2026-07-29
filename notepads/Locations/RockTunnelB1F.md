@@ -10,7 +10,7 @@
 
 ### Structural Division of B1F:
 - **Compartmentalization:** B1F was previously hypothesized to be divided into unconnected eastern and western compartments, but empirical traversal on Turn 11740-11756 proved that the map is fully connected! There is a walkable horizontal path on Row 33 (connecting column 15 to column 33) and on Row 3 (connecting column 10 to column 37).
-- **Traversal:** The player can easily walk across B1F between the top-right ladder at `(33, 25)` and the bottom-left/exit ladder at `(3, 11)` or the top-left ladder at `(27, 3)` without needing to ascend to 1F!
+- **Traversal:** The player can easily walk across B1F between the top-right ladder at `(33, 25)` and the bottom-left/exit ladder at `(3, 3)` or the top-left ladder at `(27, 3)` without needing to ascend to 1F!
 
 ### Verified Walkable Coordinates (Physically stepped on in this session):
 

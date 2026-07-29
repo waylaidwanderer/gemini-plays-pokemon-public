@@ -213,7 +213,7 @@
 - Row 15: (5, 15), (11, 15), (12, 15), (13, 15), (14, 15)
 - Row 16: (5, 16)
 - Row 17: (5, 17)
-- Row 18: (5, 18)
+- Row 18: (5, 18), (37, 18)
 
 ### Defeated Trainers:
 - **Hiker Dudley:** Engaged at (14, 15) on Turn 11009. Defeated on Turn 11037.
@@ -222,6 +222,9 @@
 ## Verified Collisions
 
 ## Map Transitions
+- Row 19: (37, 19)
+- Row 20: (36, 20), (37, 20)
+- Row 21: (36, 21)
 
 <hr>
 
@@ -239,7 +242,7 @@
 
 ### Structural Division of B1F:
 - **Compartmentalization:** B1F was previously hypothesized to be divided into unconnected eastern and western compartments, but empirical traversal on Turn 11740-11756 proved that the map is fully connected! There is a walkable horizontal path on Row 33 (connecting column 15 to column 33) and on Row 3 (connecting column 10 to column 37).
-- **Traversal:** The player can easily walk across B1F between the top-right ladder at `(33, 25)` and the bottom-left/exit ladder at `(3, 11)` or the top-left ladder at `(27, 3)` without needing to ascend to 1F!
+- **Traversal:** The player can easily walk across B1F between the top-right ladder at `(33, 25)` and the bottom-left/exit ladder at `(3, 3)` or the top-left ladder at `(27, 3)` without needing to ascend to 1F!
 
 ### Verified Walkable Coordinates (Physically stepped on in this session):
 
