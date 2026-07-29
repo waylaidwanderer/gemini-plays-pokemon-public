@@ -13,9 +13,9 @@ Party Field Moves:
 - SPROUT (Oddish, Lv 14): CUT
 - SHELLSHOCK (Blastoise, Lv 46): DIG
 
-Position & Status (Turn 19637):
-- Current Pos: Route 8 Lower Path at (38,14).
-- Route Status: Walking West along Row 14 to (28,14) / Col 27 passage to Western Plaza and Underground Path building.
+Position & Status (Turn 19651):
+- Current Pos: Lavender Town at (9,12).
+- Route Status: Passing North through fence gap at (9,11) to Row 9, then walking West to Route 8 entrance at (0,9).
 
 <hr>
 
