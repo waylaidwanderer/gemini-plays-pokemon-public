@@ -1,6 +1,6 @@
 ## ACTIVE MASTER ROUTE: ROUTE 8 OVERWORLD ROUTING
-Current Pos: Route 8 (16,14)
-Status: Physically testing all perimeter tiles of Lower Enclave (Cols 10-23, Rows 14-15) for open passages.
+Current Pos: Route 8 (14,12)
+Status: Reached Underground Path building at (13,11) via Row 13 grass gap at (19,13) and Row 12 corridor.
 
 Verified Route 8 Geography & Topology:
 - Row 6 pavement at Cols 30-41 is an Eastern alcove dead-ending at (29,6) rock wall.
