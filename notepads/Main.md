@@ -1,9 +1,8 @@
-## ACTIVE MASTER ROUTE: ROUTE 8 ROW 16 HIGHWAY TRAVERSAL TO CELADON CITY
+## ACTIVE MASTER ROUTE: DIAGNOSTIC PROBE AT ROUTE 8 (46,15)
 Current Pos: Route 8 (46,15)
-Status: Reached (46,15) on Route 8. Navigating Down 1 to Row 16 Highway (46,16) to bypass NPC at (45,15) and traversing West to Celadon City.
-Target: Walk Down to (46,16) -> Walk Left along Row 16 Highway across (45,16) to Celadon City.
+Status: Standing at (46,15). Testing B/Right probe to clear text/test movement to (47,15).
+Target: Clear text with B, move Right to (47,15) -> Traverse Route 8 West to Celadon City.
 
 Step-by-Step Execution:
-1. From (46,15): Down 1 to (46,16) on Row 16 Highway.
-2. From (46,16): Left 10 times along Row 16 Highway to (36,16).
-3. Continue West along Route 8 to Celadon City.
+1. From (46,15): Press B, B, Right to step to (47,15).
+2. Evaluate result and navigate West to Celadon City.
