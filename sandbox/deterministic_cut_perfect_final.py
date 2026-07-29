@@ -1,11 +1,16 @@
 import mgba
 import time
 
-print("Exiting SWITCH mode and POKéMON menu...")
-# Press B three times to get back to the overworld from "Move POKéMON where?"
+print("Exiting POKéMON menu...")
+# Press B three times to get back to the overworld from "There isn't anything to CUT!"
 for _ in range(3):
     mgba.press_buttons(["B"])
     time.sleep(0.5)
+
+print("Turning DOWN to face the cuttable bush...")
+# Press Down once in the overworld to face DOWN.
+mgba.press_buttons(["Down"])
+time.sleep(0.5)
 
 print("Opening Start menu...")
 mgba.press_buttons(["Start"])
