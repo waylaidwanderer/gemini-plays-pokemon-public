@@ -1,11 +1,9 @@
-## ACTIVE MASTER ROUTE: ROUTE 8 EXPLORATION & UNDERGROUND PATH
-Current Pos: Route 8 (29,14)
-Status: Standing at (29,14) facing Right on Lower Grass Corridor (Row 14).
+## ACTIVE MASTER ROUTE: ROUTE 8 UPPER PATH TO UNDERGROUND PATH
+Current Pos: Route 8 (29,13)
+Status: Escaped Lower Corridor via Col 28/29 Row 13 Ledge Passage onto Upper Path Row 9!
 
-Map Boundary Realities:
-- Lower Path (Rows 14-15) runs horizontally across Cols 10 to 53.
-- North boundary (Row 13): One-way South ledge across all columns (10-53).
-- South boundary (Row 16): Solid fence across all columns (10-53).
-- West boundary (Col 9): Building wall.
-- East boundary (Col 54): Mountain wall.
-- Lower Path Col 27 has obstacle on Row 14; bypass via Row 15! Row 15 extends West to Col 10+ (Underground Path area).
+Verified Route 8 Geography:
+- Lower Corridor (Rows 14-15) is bounded East at Col 54 and West at Col 27.
+- Col 28/29 Row 13 is an open Ledge Passage leading North to Upper Path Row 9!
+- Upper Path Row 9 runs open West past Col 27 mountain wall directly to Underground Path building area (Cols 11-15).
+- Plan: Walk West along Row 9 to Col 13, then head North to enter Underground Path building.
