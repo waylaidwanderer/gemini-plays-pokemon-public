@@ -117,7 +117,7 @@
 - LOOP WARPS: 1F (23,11) and 1F (17,14) teleport player back to 1F (17,11).
 - OBSTACLES:
   - Cols 12-13: Rock pillar across Rows 2-13.
-  - Cols 6-7: Rock pillar across Rows 10-17.
+  - Cols 6-7: Rock pillar across Rows 10-17. Row 7 is open East from Col 2 to Col 27 into Central Cavern (Turn 17532).
   - Cols 18-19: Rock pillar across Rows 10-15.
   - Rows 14-15: Solid rock across Cols 18-26.
   - Rows 22-23: Solid rock across Cols 0-23.
