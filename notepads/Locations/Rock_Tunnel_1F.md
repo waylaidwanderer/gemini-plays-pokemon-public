@@ -14,3 +14,4 @@
 - Row 3 is blocked West of Col 34 by rock wall at (33,3). Col 37 connects (37,3) South to (37,11) (Turn 17468).
 - Ladder 3 at B1F (17,11) warps to 1F (23,11) in the Central Cavern of 1F (Turn 17514).
 - Cols 0-1 are rock wall. (2,21) is an alcove blocked South at (2,22). Row 14 is open East from Col 2 to Col 17 (Turn 17518).
+- Row 16 is solid rock wall across Cols 0-10. Row 11 is open East from Col 2 to Col 17 into Central Cavern (Turn 17524).
