@@ -1,15 +1,15 @@
 <h1><code>Main</code></h1>
 
-## ACTIVE MASTER ROUTE: ROUTE 8 SOUTH HIGHWAY TO UNDERGROUND PATH & CELADON CITY
-Current Pos: Route 8 (23,14) - Gatehouse Exit
-Status: Exiting South through Gatehouse door at (19,16) onto open South Dirt Highway (Row 16/17). Uninhibited Westward movement along South Highway unlocked!
-Target: Walk West along South Dirt Highway (Row 16/17) to Underground Path entrance building at West end of Route 8 -> Traverse Underground Path to Route 7 -> Enter Celadon City -> Defeat Erika / Obtain Rainbow Badge.
+## ACTIVE MASTER ROUTE: ROUTE 8 WESTBOUND TO UNDERGROUND PATH & CELADON CITY
+Current Pos: Route 8 (17,15) - Westbound Indoor/Grass Corridor
+Status: Row 14 (Cols 13-17) is 100% open floor directly above NPC at (16,15). Bypassing NPC by walking West along Row 14 (Cols 17->9) to reach West end of Route 8 and Underground Path entrance!
+Target: Walk West along Row 14 to West end of Route 8 -> Enter Underground Path building -> Traverse Underground Path to Route 7 -> Enter Celadon City -> Defeat Erika / Obtain Rainbow Badge.
 
 Step-by-Step Execution:
-1. Walk Left to Col 19 and Down through door at (19,16) onto South Dirt Highway.
-2. Walk West along South Dirt Highway (Row 16/17) to Underground Path entrance building at West end of Route 8.
-3. Enter Underground Path building and walk down stairs to tunnel.
-4. Traverse Underground Path tunnel West to Route 7 and enter Celadon City.
+1. Step Up to (17,14) and walk Left along Row 14 past Col 16 NPC to West end (Cols 9-12).
+2. Locate and enter Underground Path building at West end of Route 8.
+3. Walk down stairs into Underground Path tunnel and traverse West to Route 7.
+4. Exit onto Route 7 and walk West into Celadon City.
 
 <hr>
 
@@ -167,7 +167,11 @@ Step-by-Step Execution:
 
 <h1><code>Locations/Lavender_Town</code></h1>
 
-
+## Verified Lavender Town & Route 8 Points of Interest
+- Lavender Town Pokemon Center: Joy healed party at (3,3).
+- House at (11,19) in Lavender Town: Warp leads indoors at (15,3).
+- Route 8 Entrance: Connects West from Lavender Town at (59,9).
+- Route 8 Gatehouse (Cols 19-23, Rows 10-15): Connects Northern Highway to South Dirt Highway via open exit at (19,16).
 
 <hr>
 
