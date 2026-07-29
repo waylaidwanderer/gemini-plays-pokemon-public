@@ -9,6 +9,7 @@ Verified Route 8 Geography:
 - South Corridor (Rows 14-15): Dead-ends West at Saffron Gatehouse (Cols 19-25). Ledge/fence blocks South (Row 15) and North (Row 13).
 - Central Fence (Row 13): Separates South Corridor from North Corridor across West Route 8.
 - Route to Underground Path: Walk East along South Corridor (Row 14/15) until central fence gap -> Pass North into North Corridor -> Walk West to Underground Path building.
+- Field Move Verified: SPROUT (Bellsprout L14) knows CUT!
 
 <hr>
 
