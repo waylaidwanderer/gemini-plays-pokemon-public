@@ -4,7 +4,6 @@
 - **Ladder to 1F (Top-Right Section):** Hypothesized at `(33, 25)` (connects to 1F at `(37, 3)`).
 
 ### Hypothesized Walkable Coordinates (from restored memory):
-- **Top-Left Path to Ladder (34, 5) -> (27, 3):**
 - **Vertical Channel (Columns 33-34):**
   - Walkable coordinates on columns 33 and 34 going down to (33, 25).
 
