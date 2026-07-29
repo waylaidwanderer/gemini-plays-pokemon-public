@@ -1,8 +1,8 @@
-## ACTIVE MASTER ROUTE: ROUTE 8 EXIT SEARCH IN WESTERN LAVENDER TOWN
-Current Pos: Lavender Town Overworld (6,26)
-Status: Crossed Row 26 into West Town. Navigating to (2,18) to probe North/West boundaries for Route 8 passage.
-Target: Walk to (2,18) -> Conduct single-step probes on (1,18) / (2,17) / (8,18) to find passage onto Route 8 Gold Dirt Highway.
+## ACTIVE MASTER ROUTE: PROBING MR. FUJI'S HOUSE DOOR AT (5,19)
+Current Pos: Lavender Town Overworld (2,18)
+Status: Verified (1,18) is solid wall on Turn 17951. Probing Mr. Fuji's house door at (5,19).
+Target: Walk to (5,20) facing Up -> Press Up to test door warp at (5,19).
 
 Step-by-Step Execution:
-1. From (6,26): Up 6 to (6,20), Left 4 to (2,20), Up 2 to (2,18).
-2. From (2,18): Single-step probe West (1,18) and North (2,17) for Route 8 opening.
+1. From (2,18): Down 2 to (2,20), Right 3 to (5,20), Up to face (5,19).
+2. Press Up at (5,20) to test entering Mr. Fuji's house door at (5,19).
