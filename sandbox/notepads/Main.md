@@ -1,6 +1,6 @@
 ## ACTIVE MASTER ROUTE: ROUTE 8 EXPLORATION & UNDERGROUND PATH
-Current Pos: Route 8 (28,14)
-Status: Standing at (28,14) on Lower Grass Corridor (Row 14).
+Current Pos: Route 8 (29,14)
+Status: Standing at (29,14) facing Right on Lower Grass Corridor (Row 14).
 
 Map Boundary Realities:
 - Lower Path (Rows 14-15) runs horizontally across Cols 10 to 53.
