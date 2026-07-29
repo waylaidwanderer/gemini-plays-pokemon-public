@@ -1,7 +1,8 @@
-## ACTIVE MASTER ROUTE: ROW 14 HIGHWAY TO ROUTE 8 & CELADON CITY
+## ACTIVE MASTER ROUTE: ROW 26 BYPASS TO WEST TOWN & ROUTE 8
 Current Pos: Lavender Town Overworld (10,14)
-Target: Test Col 9 gap at (9,14) by walking Left -> If open, cross Row 14 to Route 8 (0,14); if blocked, detour via Row 26 open gap to Route 8.
+Target: Walk Right to Col 14 -> Down to Row 26 (14,26) -> Left across Row 26 (Cols 13..6) to West Town -> Up Col 6 to Row 14 Highway -> Left onto Route 8.
 
 Step-by-Step Execution:
-1. From (10,14): Press Left across Row 14 towards Route 8 (0,14).
-2. Travel West along Route 8 to Celadon City.
+1. From (10,14): Right 4 times to (14,14), Down 12 times to (14,26).
+2. From (14,26): Left 8 times across Row 26 to (6,26).
+3. From (6,26): Up 12 times along Col 6 to (6,14), Left onto Route 8 -> West to Celadon City.
