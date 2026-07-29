@@ -11,3 +11,4 @@
 - Verified Tree Wall Barrier: Cols 8-9 have solid trees across Rows 18-24.
 - Verified South Gap: Row 25 across Cols 7-10 is completely open (no trees).
 - Verified West Wall: Solid fence along Col 1 from Row 17 to Row 29. Open gap at Rows 14-16 leading to Route 8.
+- Verified Row 13 Fence Barrier: Row 13 grass corridor has an impassable fence along its bottom edge separating it from Row 14 Gold Dirt Highway. Row 14 is accessed at Col 14.

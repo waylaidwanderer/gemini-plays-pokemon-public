@@ -1,12 +1,13 @@
 <h1><code>Main</code></h1>
 
-## ACTIVE MASTER ROUTE: ROUTE 8 TRAVERSAL TO CELADON CITY
+## ACTIVE MASTER ROUTE: ROW 14 HIGHWAY TO ROUTE 8 & CELADON CITY
 Current Pos: Lavender Town Overworld (2,13)
-Target: Step Down to Row 14 (2,14) -> Walk Left across Col 1 (1,14) onto Route 8 (0,14) -> Travel West along Route 8 to Celadon City.
+Target: Walk Right along Row 13 to Col 14 (14,13) -> Step Down to Row 14 Highway (14,14) -> Walk Left along Row 14 (Cols 13..0) onto Route 8 -> Travel West to Celadon City.
 
 Step-by-Step Execution:
-1. From (2,13): Down to (2,14), Left across (1,14) onto Route 8 (0,14).
-2. Traverse Route 8 Westward to Celadon City.
+1. From (2,13): Right 12 times to (14,13).
+2. From (14,13): Down to (14,14) on Row 14 Highway, then Left 14 times onto Route 8 (0,14).
+3. Travel West along Route 8 to Celadon City.
 
 <hr>
 
@@ -177,5 +178,6 @@ Step-by-Step Execution:
 - Verified Tree Wall Barrier: Cols 8-9 have solid trees across Rows 18-24.
 - Verified South Gap: Row 25 across Cols 7-10 is completely open (no trees).
 - Verified West Wall: Solid fence along Col 1 from Row 17 to Row 29. Open gap at Rows 14-16 leading to Route 8.
+- Verified Row 13 Fence Barrier: Row 13 grass corridor has an impassable fence along its bottom edge separating it from Row 14 Gold Dirt Highway. Row 14 is accessed at Col 14.
 
 <hr>
