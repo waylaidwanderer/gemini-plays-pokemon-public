@@ -1,12 +1,16 @@
 <h1><code>Main</code></h1>
 
 ## ACTIVE MASTER ROUTE: ROUTE 8 EXPLORATION & UNDERGROUND PATH
-Current Pos: Route 8 (51,14)
-Status: Moving West along Row 14 corridor towards Col 23/20 to re-examine building features.
+Current Pos: Route 8 (28,14)
+Status: Standing at (28,14) on Lower Grass Corridor (Row 14).
 
-Verified Boundary Audit:
-- Col 51-53 (51,13-53,13): Solid building/scenery walls (verified Turn 18793).
-- Action Plan: Walk West along Row 14 to Col 23/20 to inspect Gatehouse interior/doors.
+Map Boundary Realities:
+- Lower Path (Rows 14-15) runs horizontally across Cols 10 to 53.
+- North boundary (Row 13): One-way South ledge across all columns (10-53).
+- South boundary (Row 16): Solid fence across all columns (10-53).
+- West boundary (Col 9): Building wall.
+- East boundary (Col 54): Mountain wall.
+- Goal: Systematically identify overworld exit/warp or interaction from Lower Path.
 
 <hr>
 
