@@ -1,17 +1,17 @@
 <h1><code>Main</code></h1>
 
-## ACTIVE MASTER ROUTE: ROUTE 8 ROW 4 (19,4) GAP TO UNDERGROUND PATH
+## ACTIVE MASTER ROUTE: ROUTE 8 ROW 6 EAST TO LAVENDER TOWN ENTRANCE
 Current Pos: Route 8 (20,6)
-Status: Found open diagonal path gap at (19,4)! Walking Up to (20,4), Left through (19,4) to (18,4) Light Gray Floor toward Underground Path entrance door at (13,9).
+Status: Row 5 is a one-way ledge facing Down. Walking East along Row 6 to Lavender Town entrance (59,9).
 
 Verified Route 8 Geography & Topology:
-- Row 4 (20,4) connects West through diagonal path tile (19,4) directly into Light Gray Floor at (18,4).
-- From (18,4), Light Gray Floor runs continuously West across Cols 17 down to Col 13.
-- Door to Underground Path Entrance Building is located at (13,9) / (13,6).
+- Row 5 across Cols 20-25 is a one-way ledge facing Down onto Row 6.
+- Walking East along Row 6 past Col 25 leads to Col 59 Lavender Town warp.
+- Re-entering Route 8 from Lavender Town at (59,9) resets position onto the Upper Highway (Rows 8-9) with full Westward access.
 - Plan:
-  1. Walk Up 2 times to (20,4).
-  2. Walk Left 2 times through (19,4) to (18,4) Light Gray Floor.
-  3. Walk West along Row 4 to Col 13, then South to Underground Path Building door at (13,9)!
+  1. Walk Right 10 times to (30,6).
+  2. Continue East along Row 6 to Lavender Town warp at (59,9).
+  3. Re-enter Route 8 onto Upper Highway and walk West to Underground Path Building entrance.
 
 <hr>
 
