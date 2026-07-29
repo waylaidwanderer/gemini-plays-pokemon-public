@@ -6,7 +6,7 @@
 1. Teleport to Lavender Town Pokemon Center (11,20).
 2. Exit West to Route 8 entry (59,9).
 3. Walk West 3 steps to Col 56 (56,9).
-4. Walk Down 7 steps along Col 56 through open dirt chute directly onto Row 16 Lower Highway (56,16)!
+4. Walk West along Row 15 green grass directly past all obstacles to Col 12 Underground Path building!
 5. Walk Left 48 steps along Row 16 Dirt Highway past all cliffs all the way to Col 8 West edge road at (8,16)!
 6. Walk Up 6 steps along Col 8 to (8,10).
 7. Walk Right 3 steps along Row 10 to (11,10) and enter Underground Path building!
