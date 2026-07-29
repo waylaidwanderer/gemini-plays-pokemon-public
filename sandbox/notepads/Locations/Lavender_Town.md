@@ -8,3 +8,6 @@
 - Mr. Fuji's House Roof: Cols 4-7, Rows 17.
 - Col 9 Divider: Small trees at (9,18), (9,20..22). Open grass tile at (9,19). Fence at (9,14..17).
 - Goal: Route 8 exit (West). Need to explore East of Pokemon Center (Cols 14+) and North of Pokemon Center (Rows 0-15) to find Route 8 / Lavender Town West gate.
+- Verified Tree Wall Barrier: Cols 8-9 have solid trees across Rows 18-24.
+- Verified South Gap: Row 25 across Cols 7-10 is completely open (no trees).
+- Verified West Wall: Solid fence along Col 1 from Row 17 to Row 29. Open gap at Rows 14-16 leading to Route 8.
