@@ -25,7 +25,7 @@
 - Row 15: (5, 15), (11, 15), (12, 15), (13, 15), (14, 15)
 - Row 16: (5, 16)
 - Row 17: (5, 17)
-- Row 18: (5, 18)
+- Row 18: (5, 18), (37, 18)
 
 ### Defeated Trainers:
 - **Hiker Dudley:** Engaged at (14, 15) on Turn 11009. Defeated on Turn 11037.
@@ -34,3 +34,6 @@
 ## Verified Collisions
 
 ## Map Transitions
+- Row 19: (37, 19)
+- Row 20: (36, 20), (37, 20)
+- Row 21: (36, 21)
