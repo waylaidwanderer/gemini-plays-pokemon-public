@@ -1,6 +1,6 @@
 <h1><code>Main</code></h1>
 
-## Position Tracking: Lavender Town (14,12)
+## Position Tracking: Lavender Town (13,9)
 
 ## ACTIVE MASTER ROUTE: ROUTE 8 OVERWORLD ROUTING
 
