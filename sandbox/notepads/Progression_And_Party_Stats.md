@@ -8,23 +8,23 @@
 ## Current Party Stats (as of Turn 12485)
 1. **SHELLBY** (Blastoise)
    - Level: 40
-   - HP: 106/121
+   - HP: 107/125
    - Status: Healthy (Active lead)
 2. **TRUFFLE** (Paras)
-   - Level: 15
-   - HP: 39/39
+   - Level: 40
+   - HP: 107/125
    - Status: Healthy
 3. **GUSTY** (Pidgey)
-   - Level: 6
-   - HP: 19/19
+   - Level: 40
+   - HP: 107/125
    - Status: Healthy
 4. **NIBBLES** (Rattata)
-   - Level: 7
-   - HP: 22/22
+   - Level: 40
+   - HP: 107/125
    - Status: Healthy
 5. **TESLA** (Pikachu)
-   - Level: 19
-   - HP: 46/46
+   - Level: 40
+   - HP: 107/125
    - Status: Healthy
 
 ## Major Milestones and Items
