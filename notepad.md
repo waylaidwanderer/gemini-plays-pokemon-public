@@ -1,13 +1,11 @@
 <h1><code>Main</code></h1>
 
 ## ACTIVE MASTER ROUTE: ROUTE 8 TO UNDERGROUND PATH & CELADON CITY
-Current Pos: Route 8 (28,15) - Grass Field
-Status: Walking East on Row 14 to eastern edge (Col 54-58) to access Northern Highway (Row 11/12).
+Current Pos: Route 8 (53,14) - Grass Field
+Status: Testing CUT move from party menu facing East (54,14), North (53,13), and South (53,15).
 
-Master Path Strategy (Turn 18625):
-- Walk East along Row 14 from (28,14) to eastern edge near Lavender Town (Col 54-58).
-- At eastern edge where Row 13 ledge ends, walk UP to Row 11/12 (Northern Highway).
-- Walk West on Northern Highway (Row 12) from Col 58 to (25,12) Underground Path entrance door!
+Systematic Boundary Exit Test (Turn 18631):
+- Testing SPROUT -> CUT on all adjacent boundary tiles at (53,14) to locate Cut tree / hidden exit.
 
 <hr>
 
