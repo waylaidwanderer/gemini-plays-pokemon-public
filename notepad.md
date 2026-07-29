@@ -1,6 +1,6 @@
 <h1><code>Main</code></h1>
 
-## Position Tracking: Route 8 (27,11)
+## Position Tracking: Route 8 (12,12)
 
 ## ACTIVE MASTER ROUTE: ROUTE 8 OVERWORLD SOLUTION
 1. From (27,11), walk Left 7 steps along Row 11 Upper Highway to (20,11).
