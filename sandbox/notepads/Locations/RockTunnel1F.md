@@ -46,3 +46,7 @@
 ## Verified Collisions
 
 ## Map Transitions
+
+## Verified Compartment Isolation
+- **Compartment C (Bottom-Right Section):** Fully isolated by solid walls. Bounded by row 15 on the north, row 32 on the south, column 25 on the west, and column 38 on the east.
+- **Warp Connection:** The ladder at `(37, 17)` is the ONLY entry/exit to this isolated Compartment C, and connects directly to B1F `(3, 3)`. There is no other way to escape this compartment in the overworld.
