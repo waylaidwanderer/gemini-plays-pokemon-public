@@ -1,4 +1,4 @@
-## Position Tracking: Route 8 (10,14) -> Returning East to Col 53 Lower Highway Chute
+## Position Tracking: Route 8 (12,14)
 
 ## ACTIVE MASTER ROUTE: ROUTE 8 COMPLETE OVERWORLD SOLUTION
 1. Teleport to Lavender Town Pokemon Center (11,20).
