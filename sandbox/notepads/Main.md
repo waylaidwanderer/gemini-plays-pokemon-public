@@ -1,10 +1,12 @@
 ## ACTIVE MASTER ROUTE: ROUTE 8 UPPER PATH TO UNDERGROUND PATH
-Current Pos: Route 8 (11,12)
-Status: Navigating Upper Path Rows 3-8 Westward to Underground Path Building Entrance!
+Current Pos: Route 8 (23,10)
+Status: Discovered Underground Path Entrance Door at (23,9)! Stepping Up into doorway!
 
 Verified Route 8 Geography:
-- Cols 10-13 Rows 10-11 is a solid building wall (Saffron Gatehouse area).
-- Col 19 Row 13 Ledge Passage connects Lower Path to Upper Path Row 12.
+- Underground Path Building is located at Cols 20-25 Rows 6-8.
+- Building Entrance Door Mat is at (23,9).
+- Guard NPC is at (24,7).
 - Plan:
-  1. Walk Right along Row 12 to (19,12), then Up to Row 8 at (19,8).
-  2. Search North / West along Rows 3-8 for the Underground Path building entrance.
+  1. Press Up to step into building door at (23,9).
+  2. Inside building, take stairs down to Underground Path Tunnel.
+  3. Walk West through tunnel to Route 7 exit.
