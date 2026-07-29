@@ -1,13 +1,13 @@
 <h1><code>Main</code></h1>
 
-## ACTIVE MASTER ROUTE: EXIT POKÉMON CENTER AND HEAD WEST TO ROUTE 8 / CELADON CITY
-Current Pos: Lavender Town Pokémon Center (3,3)
-Target: Close Dialogue with A -> Exit PC at (3,7) -> Lavender Town Overworld (11,20) -> Route 8 West to Celadon City
+## ACTIVE MASTER ROUTE: ROCK TUNNEL 1F TO LAVENDER TOWN / ROUTE 8
+Current Pos: Rock Tunnel 1F (15,4)
+Target: Verify exact exit coordinates in Rock Tunnel 1F and navigate to Lavender Town / Route 8
 
 Step-by-Step Execution:
-1. Press A to close Nurse Joy dialogue ("We hope to see you again!").
-2. Walk Down 4 steps to (3,7) to exit Pokémon Center onto Lavender Town overworld at (11,20).
-3. From (11,20): Walk South 6 steps along Column 11 to Row 26 Highway at (11,26), then West along Row 26 to Route 8 entrance.
+1. Read Locations/Rock_Tunnel_1F notepad to confirm exit tile coordinates on 1F.
+2. Navigate to verified exit tile on 1F to exit Rock Tunnel.
+3. Perform single-step probe verification on overworld before executing macro moves.
 
 <hr>
 
