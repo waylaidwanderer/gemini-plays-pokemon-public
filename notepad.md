@@ -1,18 +1,16 @@
 <h1><code>Main</code></h1>
 
 ## ACTIVE MASTER ROUTE: ROUTE 8 UPPER PATH TO UNDERGROUND PATH
-Current Pos: Route 8 (28,10)
-Status: Navigating Row 12 East to Col 34, then Up to Northern Sector Row 6!
+Current Pos: Route 8 (41,11)
+Status: Discovered Col 41 Open Northward Corridor! Walking Up to Northern Sector Row 6 at (41,6)!
 
 Verified Route 8 Geography:
-- Cols 30-33 Rows 8-10 is a solid mountain wall.
-- Row 12 is open grass across Cols 28-34+.
-- Col 34 is an open Northward corridor leading to Northern Sector (Rows 3-7).
+- Col 41 (Rows 7-11) is an OPEN NORTHWARD CORRIDOR connecting Row 12 to Northern Sector!
+- NPC is located at (40,8).
+- Northern Path (Rows 3-6) leads West directly to Underground Path Entrance Building.
 - Plan:
-  1. Walk Down 2 steps to Row 12 at (28,12).
-  2. Walk Right 6 steps along Row 12 to (34,12).
-  3. Walk Up 6 steps along Col 34 to Northern Sector (34,6).
-  4. Walk West along Northern Path to Underground Path Building Entrance.
+  1. Walk Up 5 steps to (41,6).
+  2. Walk West along Northern Path to Underground Path Entrance Building.
 
 <hr>
 
