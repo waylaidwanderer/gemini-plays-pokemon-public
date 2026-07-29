@@ -1,8 +1,8 @@
 ## ACTIVE MASTER ROUTE: LAVENDER TOWN EXPLORATION
-Current Pos: Lavender Town
-Target: Lavender Town Pokémon Center at Top-Left (Col 11, Row 5) -> Heal -> Explore Town / Pokémon Tower
+Current Pos: Lavender Town Pokémon Center (inside at 15,3)
+Target: Heal party at Nurse Joy -> Explore Lavender Town / Pokémon Tower / Route 8
 
 Step-by-Step Execution:
-1. Exit current building (walk Up onto door mat at 15,2).
-2. Outside in Lavender Town: Walk North up Column 11 to Row 5 at (11,5) -> Enter Pokémon Center door!
-3. Inside Pokémon Center: Walk Up to Nurse Joy at counter and heal party!
+1. Inside Pokémon Center at (15,3) facing UP: Press A to speak with Nurse Joy across counter (15,2) and heal party!
+2. Once healed: Exit Pokémon Center onto Lavender Town overworld (walk Down onto door mat at 15,2).
+3. Next Progression: Explore Pokémon Tower (East side of Lavender Town) / Route 8 (West exit towards Celadon City).
