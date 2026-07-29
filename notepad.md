@@ -204,5 +204,7 @@ Step-by-Step Execution:
 - Verified Row 15/16 Barrier: Row 15 grass field is separated from Row 16-19 highway by an impassable fence along Row 15/16 boundary. Field exit is North via Col 46 to Row 5 Highway.
 - Verified Col 46 Building Barrier: Column 46 at Rows 10-13 is a building/wall. Row 16-17 Gold Dirt Highway is open to Celadon City.
 - Verified Row 15/16 Fence East End: Row 15/16 fence ends at Col 50. Col 51 (51,15 -> 51,16) is open passage onto Row 16-19 Gold Dirt Highway.
+- Verified Row 15/16 Solid Fence: Row 15/16 fence extends across Col 51 as well.
+- ACTIVE TRAINER BATTLE: Trainer at (45,15) sightline active. Advancing text/battle with A/B.
 
 <hr>
