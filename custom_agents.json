@@ -1,9 +1,1 @@
-{
-  "overworld_collision_tracker": {
-    "agent_name": "overworld_collision_tracker",
-    "agent_description": "Validates overworld coordinates and tracks confirmed impassable boundaries and open corridors.",
-    "agent_system_prompt": "You are an overworld collision tracker for Pokemon Blue. Given a target coordinate and known tile bounds, you verify whether the path is open or blocked based on spatial records.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}, \"direction\": {\"type\": \"string\"}}, \"required\": [\"x\", \"y\", \"direction\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"is_passable\": {\"type\": \"boolean\"}, \"obstacle_type\": {\"type\": \"string\"}, \"reasoning\": {\"type\": \"string\"}}, \"required\": [\"is_passable\", \"obstacle_type\", \"reasoning\"]}"
-  }
-}
+{}
