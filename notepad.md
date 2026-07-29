@@ -1,6 +1,6 @@
 <h1><code>Main</code></h1>
 
-## Position Tracking: Route 8 (19,14)
+## Position Tracking: Route 8 (13,15)
 
 ## ACTIVE MASTER ROUTE: ROUTE 8 OVERWORLD ROUTING
 
