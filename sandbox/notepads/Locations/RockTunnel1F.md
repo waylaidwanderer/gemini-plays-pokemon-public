@@ -10,6 +10,16 @@
 
 ### Verified Walkable Coordinates (Physically stepped on in this session):
 
+- Row 5: (15, 5), (16, 5), (18, 5), (19, 5)
+- Row 6: (20, 6)
+- Row 7: (20, 7)
+- Row 8: (20, 8)
+- Row 9: (20, 9)
+- Row 10: (20, 10)
+- Row 11: (20, 11)
+- Row 12: (20, 12)
+- Row 13: (21, 13), (22, 13), (23, 13), (24, 13), (25, 13), (26, 13)
+
 - Row 5: (17, 5), (20, 5)
 - Row 13: (20, 13)
 
