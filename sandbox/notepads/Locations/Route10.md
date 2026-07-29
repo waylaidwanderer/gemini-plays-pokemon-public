@@ -23,3 +23,7 @@
 - Row 55: (8, 55)
 - Row 56: (3, 56), (4, 56), (8, 56)
 - Row 57: (4, 57), (5, 57), (6, 57), (7, 57), (8, 57), (9, 57)
+
+### Defeated Trainers:
+- **Hiker Clark:** Engaged at (3, 56) on Turn 12205. Defeated on Turn 12219.
+  - Roster: Geodude Lv 21, Onix Lv 21.
