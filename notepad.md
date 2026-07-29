@@ -1,14 +1,14 @@
 <h1><code>Main</code></h1>
 
-## ACTIVE MASTER ROUTE: ROUTE 8 COL 45 NPC GAP TO SOUTH HIGHWAY & CELADON CITY
+## ACTIVE MASTER ROUTE: ROUTE 8 COLS 40-41 GAP TO GOLD DIRT HIGHWAY & CELADON CITY
 Current Pos: Route 8 (44,15)
-Status: Tile (45,16) verified as open gap in Row 16 fence, guarded by wandering NPC at (45,15).
-Target: Wait for NPC at (45,15) to step away -> Walk Right onto (45,15) -> Down through (45,16) gap onto Row 17 South Highway -> Walk West to Celadon City.
+Status: Cols 40-41 verified as open vertical grass corridor connecting Row 14 grass to Row 11 Gold Dirt Highway.
+Target: Walk to (40,14) -> Up 3 times to (40,11) -> Right 2 times to (42,11) Gold Dirt Highway -> Walk West to Celadon City.
 
 Step-by-Step Execution:
-1. From (44,15): Wait facing Right until NPC at (45,15) steps out of the tile.
-2. Step Right onto (45,15) -> Down 2 times through (45,16) gap onto Row 17 South Highway.
-3. Walk West along Row 17 Highway to Celadon City / Underground Path entrance.
+1. From (44,15): Up to (44,14) -> Left 4 times to (40,14).
+2. From (40,14): Up 3 times to (40,11) -> Right 2 times to (42,11) on Gold Dirt Highway.
+3. From (42,11): Walk West along Gold Dirt Highway to Celadon City / Underground Path.
 
 <hr>
 
