@@ -33,3 +33,4 @@
 - ROUTE 8 TRAINER SIGHTLINE LOCK VERIFIED: Trainer at (45,15) sightline locks player at (46,15)/(47,15) with open dialogue box. Pressing A/B clears text to enter battle.
 - ROUTE 8 TRAINER SIGHTLINE LOCK VERIFIED: Trainer at (45,15) sightline locks player at (46,15)/(47,15) with open dialogue box. Pressing A/B clears text to enter battle.
 - Verified Friendly NPC: NPC at (45,15) is a friendly NPC ("Us hearty guys always laugh!") and not a trainer. Closed text with B.
+- Verified Row 15/16 Barrier: Row 15 grass field is separated from Row 16-19 highway by an impassable fence along Row 15/16 boundary. Field exit is North via Col 46 to Row 5 Highway.
