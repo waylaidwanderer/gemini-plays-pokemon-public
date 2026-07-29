@@ -162,3 +162,18 @@ Step-by-Step Execution:
 - Cols 24-25 are solid rock wall across Rows 7-15. Sector (26-29, 3-13) is a dead end accessed via B1F (27,3) warp (Turn 17627).
 
 <hr>
+
+<h1><code>Locations/Lavender_Town</code></h1>
+
+## Lavender Town Verified Layout & Collision Data
+- Pokemon Center Door: (11,19)
+- Mr. Fuji's House / Volunteer House Door: (5,19)
+- Rock Tunnel 1F Warp Entrance: (8,17) (Warps to Rock Tunnel 1F 15,3)
+- Western Boundary Fence (Col 1): Solid wall from Y=18 to Y=29. (1,18) is blocked.
+- Southern Boundary: Row 30 is impassable.
+- Pokemon Center Roof: Cols 10-13, Rows 16-17.
+- Mr. Fuji's House Roof: Cols 4-7, Rows 17.
+- Col 9 Divider: Small trees at (9,18), (9,20..22). Open grass tile at (9,19). Fence at (9,14..17).
+- Goal: Route 8 exit (West). Need to explore East of Pokemon Center (Cols 14+) and North of Pokemon Center (Rows 0-15) to find Route 8 / Lavender Town West gate.
+
+<hr>
