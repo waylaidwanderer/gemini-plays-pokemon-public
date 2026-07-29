@@ -16,7 +16,9 @@
 - Row 3: (8, 3)
 - Row 4: (8, 4)
 - Row 5: (3, 5), (5, 5), (6, 5), (7, 5), (8, 5)
-- Row 6: (3, 6), (4, 6), (5, 6), (6, 6), (7, 6), (8, 6)
+- Row 6: (0, 6), (1, 6), (2, 6), (3, 6), (4, 6), (5, 6), (6, 6), (7, 6), (8, 6)
+- Row 7: (0, 7)
+- Row 8: (0, 8)
 
 ### Map Transitions & Connections:
 - **North Exit to Route 10 South:** Walk north on columns 8-9 past row 0.

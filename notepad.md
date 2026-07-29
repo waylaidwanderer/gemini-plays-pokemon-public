@@ -192,6 +192,13 @@
 - Row 62: (2, 62)
 - Row 63: (2, 63), (3, 63), (4, 63), (5, 63), (6, 63), (7, 63), (8, 63), (9, 63), (10, 63), (11, 63)
 - Row 64: (11, 64)
+- Row 65: (11, 65)
+- Row 66: (11, 66)
+- Row 67: (11, 67)
+- Row 68: (11, 68)
+- Row 69: (8, 69), (9, 69), (10, 69), (11, 69)
+- Row 70: (8, 70)
+- Row 71: (8, 71)
 
 ### Defeated Trainers:
 - **Hiker Clark:** Engaged at (3, 56) on Turn 12205. Defeated on Turn 12219.
@@ -336,12 +343,34 @@
 - Row 3: (8, 3)
 - Row 4: (8, 4)
 - Row 5: (3, 5), (5, 5), (6, 5), (7, 5), (8, 5)
-- Row 6: (3, 6), (4, 6), (5, 6), (6, 6), (7, 6), (8, 6)
+- Row 6: (0, 6), (1, 6), (2, 6), (3, 6), (4, 6), (5, 6), (6, 6), (7, 6), (8, 6)
+- Row 7: (0, 7)
+- Row 8: (0, 8)
 
 ### Map Transitions & Connections:
 - **North Exit to Route 10 South:** Walk north on columns 8-9 past row 0.
 - **West Exit to Route 8:** To Be Discovered.
 - **South Exit to Route 12:** To Be Discovered.
+
+
+<hr>
+
+<h1><code>Locations/Route8</code></h1>
+
+# Route 8 - Overworld Mapping & Navigation
+
+## Map Dimensions
+- Dimensions: To Be Determined (width=60 verified, height=To Be Determined).
+
+## Mapped Coordinates & Layout
+- **Saffron City Gatehouse:** Located at the far west.
+- **Underground Path Entrance Building:** Located on the west side.
+
+### Verified Walkable Coordinates (Physically stepped on in this session):
+- Row 8: (55, 8), (56, 8), (57, 8), (58, 8), (59, 8)
+
+### Defeated Trainers:
+- None.
 
 
 <hr>
