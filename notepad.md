@@ -208,3 +208,9 @@ Step-by-Step Execution:
 - ACTIVE TRAINER BATTLE: Trainer at (45,15) sightline active. Advancing text/battle with A/B.
 
 <hr>
+
+<h1><code>Locations/Lavender_Town.md</code></h1>
+
+
+
+<hr>
