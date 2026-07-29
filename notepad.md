@@ -13,9 +13,9 @@ Party Field Moves:
 - SPROUT (Oddish, Lv 14): CUT
 - SHELLSHOCK (Blastoise, Lv 46): DIG
 
-Position & Status (Turn 19571):
-- Current Pos: Route 8 Lower Path at (46,15).
-- Route Status: Hopped Row 13 ledge onto Lower Path! Walking West along Row 14 straight to Underground Path building door at (12,13) to enter Underground Path and reach Celadon City!
+Position & Status (Turn 19591):
+- Current Pos: Route 8 Upper Highway at (50,9).
+- Route Status: Walking West along Upper Highway (Row 9) across Col 45 and Col 27 to reach Western Plaza (x~11-26) and Underground Path building door at (12,13)!
 
 <hr>
 
