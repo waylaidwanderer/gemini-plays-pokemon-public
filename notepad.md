@@ -11,6 +11,7 @@ Verified Boundaries on Route 8 (Cols 10-23, Rows 14-15 Corridor):
 - Col 24 (Rows 12-15): Building East wall empirically confirmed via bumps/CUT test (Turns 18314, 18361).
 - Field Move Verified: SPROUT (Bellsprout L14) knows CUT.
 - Verified Non-Cuttable Tile: (16,15) is not cuttable (Turn 18395).
+- Field Move Verified: SHELLSHOCK (Blastoise L46) learned TM28 DIG! Executing DIG escape warp.
 
 <hr>
 
