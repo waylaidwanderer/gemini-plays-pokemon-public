@@ -11,7 +11,6 @@ Party Field Moves:
 - SPROUT (Oddish, Lv 14): CUT
 - SHELLSHOCK (Blastoise, Lv 46): DIG
 
-Position & Status (Turn 19507):
-- Current Pos: Lavender Town (11,20) outside Pokémon Center.
-- Navigation: Moving North/West through Lavender Town to Route 8 entrance at (0,9) / (59,9).
-- Master Goal: Enter Route 8 onto Upper Highway (Row 9), walk West directly to Underground Path building, enter Underground Path to Route 7, then reach Celadon City!
+Position & Status (Turn 19531):
+- Current Pos: Route 8 Upper Highway at (50,8).
+- Route Status: Defeated Jr. Trainer F at (49,8). Continuing West along Upper Highway (Row 9) to Underground Path building.
