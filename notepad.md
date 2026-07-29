@@ -235,6 +235,10 @@
 
 ## Map Transitions
 
+## Verified Compartment Isolation
+- **Compartment C (Bottom-Right Section):** Fully isolated by solid walls. Bounded by row 15 on the north, row 32 on the south, column 25 on the west, and column 38 on the east.
+- **Warp Connection:** The ladder at `(37, 17)` is the ONLY entry/exit to this isolated Compartment C, and connects directly to B1F `(3, 3)`. There is no other way to escape this compartment in the overworld.
+
 
 <hr>
 
@@ -248,22 +252,22 @@
 ## Mapped Coordinates & Layout
 - **Ladder to 1F (Central Section):** Located at `(23, 11)`. Connects to Rock Tunnel 1F at `(17, 11)`.
 - **Ladder to 1F (Top-Right Section):** Located at `(33, 25)`. Connects to Rock Tunnel 1F at `(37, 3)`.
-- **Ladder to 1F (Bottom-Left Section/Exit):** Located at `(3, 3)`. Connects to Rock Tunnel 1F at `(37, 17)` (the bottom-right section ladder which leads to Route 10 South).
+- **Ladder to 1F (Top-Left Section):** Located at `(3, 3)`. Connects to Rock Tunnel 1F at `(37, 17)` (the isolated bottom-right compartment C).
 
 ### Structural Division of B1F:
 - **Compartmentalization:** B1F was previously hypothesized to be divided into unconnected eastern and western compartments, but empirical traversal on Turn 11740-11756 proved that the map is fully connected! There is a walkable horizontal path on Row 33 (connecting column 15 to column 33) and on Row 3 (connecting column 10 to column 37).
-- **Traversal:** The player can easily walk across B1F between the top-right ladder at `(33, 25)` and the bottom-left/exit ladder at `(3, 3)` or the top-left ladder at `(27, 3)` without needing to ascend to 1F!
+- **Traversal:** The player can easily walk across B1F between the top-right ladder at `(33, 25)` and the top-left ladder at `(3, 3)` or the top-left ladder at `(27, 3)` without needing to ascend to 1F!
 
 ### Verified Walkable Coordinates (Physically stepped on in this session):
 
-- Row 3: (5, 3), (10, 3), (27, 3), (28, 3), (29, 3), (30, 3), (31, 3), (32, 3), (33, 3), (34, 3), (35, 3), (36, 3), (37, 3)
-- Row 4: (10, 4), (37, 4)
-- Row 5: (10, 5), (37, 5)
-- Row 6: (10, 6), (37, 6)
-- Row 7: (10, 7), (37, 7)
-- Row 8: (10, 8), (37, 8)
-- Row 9: (10, 9), (37, 9)
-- Row 10: (10, 10), (37, 10)
+- Row 3: (3, 3), (4, 3), (5, 3), (10, 3), (27, 3), (28, 3), (29, 3), (30, 3), (31, 3), (32, 3), (33, 3), (34, 3), (35, 3), (36, 3), (37, 3)
+- Row 4: (5, 4), (10, 4), (37, 4)
+- Row 5: (5, 5), (10, 5), (37, 5)
+- Row 6: (5, 6), (10, 6), (37, 6)
+- Row 7: (5, 7), (10, 7), (37, 7)
+- Row 8: (5, 8), (10, 8), (37, 8)
+- Row 9: (5, 9), (10, 9), (37, 9)
+- Row 10: (5, 10), (10, 10), (37, 10)
 - Row 11: (2, 11), (3, 11), (4, 11), (5, 11), (6, 11), (7, 11), (8, 11), (9, 11), (10, 11), (17, 11), (18, 11), (19, 11), (20, 11), (21, 11), (22, 11), (23, 11), (37, 11)
 - Row 12: (2, 12), (3, 12), (5, 12), (10, 12), (17, 12), (22, 12), (37, 12)
 - Row 13: (2, 13), (3, 13), (5, 13), (10, 13), (15, 13), (17, 13), (18, 13), (19, 13), (20, 13), (21, 13), (22, 13), (23, 13), (37, 13)
