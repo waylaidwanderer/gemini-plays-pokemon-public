@@ -183,12 +183,20 @@
 - Row 53: (8, 53)
 - Row 54: (8, 54)
 - Row 55: (8, 55)
-- Row 56: (3, 56), (4, 56), (8, 56)
-- Row 57: (4, 57), (5, 57), (6, 57), (7, 57), (8, 57), (9, 57)
+- Row 56: (2, 56), (3, 56), (4, 56), (8, 56)
+- Row 57: (2, 57), (4, 57), (5, 57), (6, 57), (7, 57), (8, 57), (9, 57)
+- Row 58: (2, 58)
+- Row 59: (2, 59)
+- Row 60: (2, 60)
+- Row 61: (2, 61)
+- Row 62: (2, 62)
+- Row 63: (2, 63), (3, 63)
 
 ### Defeated Trainers:
 - **Hiker Clark:** Engaged at (3, 56) on Turn 12205. Defeated on Turn 12219.
   - Roster: Geodude Lv 21, Onix Lv 21.
+- **Hiker at (3, 62):** Engaged at (3, 63) on Turn 12229. Defeated on Turn 12246.
+  - Roster: Onix Lv 19, Graveler Lv 19.
 
 
 <hr>
