@@ -1,8 +1,8 @@
-## ACTIVE MASTER ROUTE: HEAL COMPLETE -> HEAD TO CELADON CITY VIA ROUTE 8
+## ACTIVE MASTER ROUTE: EXIT POKÉMON CENTER AND HEAD WEST TO ROUTE 8 / CELADON CITY
 Current Pos: Lavender Town Pokémon Center (3,3)
-Target: Finish Dialogue -> Exit PC -> Route 8 West to Celadon City
+Target: Close Dialogue with A -> Exit PC at (3,7) -> Lavender Town Overworld (11,20) -> Route 8 West to Celadon City
 
 Step-by-Step Execution:
-1. Press A to finish Nurse Joy dialogue ("Your POKéMON are fully healed!").
-2. Walk Down to Exit Door at (3,7) / (4,7) to exit Pokémon Center onto Lavender Town overworld.
-3. Head West along Lavender Town Row 26 to Route 8 entrance.
+1. Press A to close Nurse Joy dialogue ("We hope to see you again!").
+2. Walk Down 4 steps to (3,7) to exit Pokémon Center onto Lavender Town overworld at (11,20).
+3. From (11,20): Walk South 6 steps along Column 11 to Row 26 Highway at (11,26), then West along Row 26 to Route 8 entrance.
