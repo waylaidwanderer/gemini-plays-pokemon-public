@@ -24,8 +24,8 @@
 
 ## Structural Boundaries, Obstacles & Ledges
 - **Row 11 Ledge:** Horizontal ledge facing South at columns 2-3 and columns 8-11. There is a verified walkable gap at column 8 (8, 11) which allows the player to bypass this ledge and walk north!
-- **Row 7 Ledge:** Horizontal ledge facing South at columns 2-7. There is a verified walkable gap at column 8 (8, 7) which allows the player to bypass this ledge and walk north!
+- **Row 7 Ledge:** Horizontal ledge facing South at columns 2-7. There are verified walkable gaps at column 8 (8, 7) and column 4 (4, 7) which allow the player to bypass this ledge and walk north!
 - **Column 7 Fence:** Continuous vertical log fence on rows 2-7. However, on rows 8, 9, 10, there is no fence, allowing easy horizontal crossing between the tall grass area (east) and the paved road (west).
 - **Column 1 Tree Barrier:** Continuous forest trees on rows 4 to 17. We have physically verified column 1 is blocked on rows 8, 9, 10, 12, 13, 14, and 15.
 - **Underground Path Building:** Located at columns 4-7, rows 11-13. Door is at (5, 13) facing south.
-- **Saffron West Gatehouse:** Located at columns 12-15, rows 8-11. We have systematically probed row 11 (walls) and row 12 (paved path) at columns 12-17 and confirmed no south-facing entrance door is accessible.
+- **Saffron West Gatehouse:** Located at columns 12-15, rows 8-11. We have systematically probed and verified that the west-facing entrance door is located at (12, 10) on Route 7. Entering it warps the player inside Saffron West Gatehouse at (0, 4).
