@@ -1,4 +1,4 @@
-## Position Tracking: Lavender Town (13,9)
+## Position Tracking: Lavender Town (11,9) [Battle: Voltorb]
 
 ## ACTIVE MASTER ROUTE: ROUTE 8 OVERWORLD ROUTING
 
