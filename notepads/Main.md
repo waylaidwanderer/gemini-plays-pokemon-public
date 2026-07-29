@@ -1,4 +1,4 @@
-## Position Tracking: Route 8 (13,15)
+## Position Tracking: Route 8 (22,14)
 
 ## ACTIVE MASTER ROUTE: ROUTE 8 OVERWORLD ROUTING
 
