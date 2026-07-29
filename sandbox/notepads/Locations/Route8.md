@@ -40,4 +40,4 @@
   - Roster: Meowth Lv 24, Meowth Lv 24, Meowth Lv 24.
 ## Verified Buildings on Route 8
 - **Saffron City Gatehouse (Verified - Visited on Turn 12616):** Located at columns 2-7, rows 8-11. Entrance door is at (5, 11). Warping out drops player at (8, 10).
-- **Underground Path Entrance Building (Verified Exterior - Found on Turn 12638):** Located at columns 11-14, rows 0-3 on Route 8. Entrance door is at (12, 3) and (13, 3) facing south! (Warp destination to Route 7 is currently a hypothesized, unverified destination until we physically step on the warp tile).
+- **Underground Path Entrance Building (Verified - Visited on Turn 12718):** Located at columns 11-14, rows 0-3 on Route 8. Entrance door is at (12, 3) and (13, 3) facing south. Inside, there is a staircase at (4, 4) that warps the player to the Underground Path (Route 7-8) at (47, 2).
