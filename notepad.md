@@ -190,13 +190,16 @@
 - Row 60: (2, 60)
 - Row 61: (2, 61)
 - Row 62: (2, 62)
-- Row 63: (2, 63), (3, 63)
+- Row 63: (2, 63), (3, 63), (4, 63), (5, 63), (6, 63), (7, 63), (8, 63), (9, 63), (10, 63), (11, 63)
+- Row 64: (11, 64)
 
 ### Defeated Trainers:
 - **Hiker Clark:** Engaged at (3, 56) on Turn 12205. Defeated on Turn 12219.
   - Roster: Geodude Lv 21, Onix Lv 21.
 - **Hiker at (3, 62):** Engaged at (3, 63) on Turn 12229. Defeated on Turn 12246.
   - Roster: Onix Lv 19, Graveler Lv 19.
+- **Pokémaniac Herman:** Engaged at (11, 64) on Turn 12254. Defeated on Turn 12271.
+  - Roster: Cubone Lv 20, Slowpoke Lv 20.
 
 
 <hr>
