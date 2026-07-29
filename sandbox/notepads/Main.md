@@ -1,10 +1,11 @@
 ## ACTIVE MASTER ROUTE: ROUTE 8 NORTHERN HIGHWAY TO UNDERGROUND PATH & CELADON CITY
 Current Pos: Route 8 (15,15) - South Corridor
-Status: On Route 8 South Corridor at (20,15). Walking East along South Corridor (Row 14/15) to locate the central fence gap.
-Target: Find Central Fence Gap on Route 8 -> Cross into North Corridor -> Walk West to Underground Path Building -> Celadon City.
+Status: On Route 8 South Corridor at (23,14). Re-tracing path East back through Gatehouse doorway at (20,10) / (24,7) to access East Route 8 & Northern Highway.
+Target: Exit South Corridor via Gatehouse Doorway -> Re-enter East Route 8 -> Traverse Northern Highway to Underground Path building -> Celadon City.
 
-Verified Route 8 Geography:
-- South Corridor (Rows 14-15): Dead-ends West at Saffron Gatehouse (Cols 19-25). Ledge/fence blocks South (Row 15) and North (Row 13).
-- Central Fence (Row 13): Separates South Corridor from North Corridor across West Route 8.
-- Route to Underground Path: Walk East along South Corridor (Row 14/15) until central fence gap -> Pass North into North Corridor -> Walk West to Underground Path building.
-- Field Move Verified: SPROUT (Bellsprout L14) knows CUT!
+Verified Boundaries on Route 8 (Cols 10-23, Rows 14-15 Corridor):
+- Row 13 (Cols 10-23): One-way ledge facing South.
+- Row 15 (Cols 10-23): Solid fence line (not cuttable at 14,16).
+- Col 9 (Rows 11-15): Building west wall.
+- Col 24 (Rows 12-15): Building east wall (not cuttable at 24,14).
+- Field Move Verified: SPROUT (Bellsprout L14) knows CUT.
