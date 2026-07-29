@@ -1,11 +1,12 @@
 <h1><code>Main</code></h1>
 
-## ACTIVE MASTER ROUTE: ROUTE 8 LOWER PATH WEST TO UNDERGROUND PATH
-Current Pos: Route 8 (53,14)
-Status: Walking West along Row 15 to Underground Path Building at Cols 11-15.
+## ACTIVE MASTER ROUTE: ROUTE 8 ROW 15 WESTWARD TEST
+Current Pos: Route 8 (38,15)
+Status: Empirically testing Westward passage on Row 15 across Col 27.
 
 Verified Route 8 Geography:
-- Row 15 is the continuous East-West Lower Path running from Lavender Town (59,9) all the way West past Col 27 to Col 16 / Col 11 (Underground Path Building).
+- Row 14 is blocked at Col 27 by a rock wall.
+- Currently testing if Row 15 at Col 27 is open to allow Westward transit to Underground Path Entrance Building (Cols 11-15).
 - Saffron Gatehouse is at (24,7). Underground Path Entrance Building is at Cols 11-15.
 - Plan:
   1. Step Down to Row 15 at (53,15).
