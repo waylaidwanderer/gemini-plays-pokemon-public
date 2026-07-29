@@ -1,18 +1,15 @@
 <h1><code>Main</code></h1>
 
-## ACTIVE MASTER ROUTE: UNDERGROUND PATH ENTRANCE BUILDING TO CELADON CITY
-Current Pos: Route 8 (13,12)
-Status: Stepping North into Underground Path Entrance Building door at (13,9)!
+## ACTIVE MASTER ROUTE: ROUTE 8 WEST END TO UNDERGROUND PATH
+Current Pos: Route 8 (13,15)
+Status: Walking West along Row 15 to Col 10 to inspect West end of Route 8 / Underground Path entrance.
 
 Verified Route 8 & Underground Path Topology:
-- Successfully navigated Route 8 to the Underground Path Entrance Building at (13,9).
-- Door at (13,9) warps inside the Underground Path Entrance Building.
-- Inside building, take stairs down into Underground Path Tunnel (Route 8 - Route 7).
-- Walk West through Underground Path Tunnel to Route 7 Exit, exit onto Route 7, and walk West into Celadon City!
+- Row 14/15 is the Light Gray Path running West across Cols 15 down to Col 10.
+- Testing West end at Cols 9-10 to locate entrance into Underground Path Courtyard (Cols 10-13, Rows 8-10).
 - Plan:
-  1. Step Up 3 times into (13,9) door warp.
-  2. Take stairs down into Underground Path Tunnel.
-  3. Walk West through tunnel to Route 7 exit building, take stairs up, and exit onto Route 7 toward Celadon City!
+  1. Walk Left to (10,15).
+  2. Inspect West/North path at Col 10 to enter building courtyard.
 
 <hr>
 
