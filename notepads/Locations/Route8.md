@@ -35,3 +35,6 @@
   - Roster: Nidoran♀ Lv 23, Nidorina Lv 23.
 - **Lass at (26, 5):** Engaged from (24, 5) on Turn 12556. Defeated on Turn 12579.
   - Roster: Meowth Lv 24, Meowth Lv 24, Meowth Lv 24.
+## Verified Buildings on Route 8
+- **Saffron City Gatehouse (Verified - Visited on Turn 12616):** Located at columns 2-7, rows 8-11. Entrance door is at (5, 11). Warping out drops player at (8, 10).
+- **Underground Path Entrance Building (Verified - Visited on Turn 12623):** Located at columns 18-21, rows 5-10. Entrance door is at (20, 7) and (21, 7).
