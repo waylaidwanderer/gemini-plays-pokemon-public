@@ -1,11 +1,11 @@
 <h1><code>Main</code></h1>
 
-## ACTIVE MASTER ROUTE: LAVENDER TOWN OVERWORLD (2,23) SOUTH PROBE
-Current Pos: Lavender Town Overworld (2,23)
-Target: Single-step probe Down to (2,24) -> Navigate South along Column 2 to find open Route 8 passage
+## ACTIVE MASTER ROUTE: LAVENDER TOWN OVERWORLD (2,24) SOUTH PROBE
+Current Pos: Lavender Town Overworld (2,24)
+Target: Single-step probe Down to (2,25) -> Navigate South along Column 2 to find open Route 8 passage
 
 Step-by-Step Execution:
-1. From (2,23): Perform single-step probe Down to test tile (2,24).
+1. From (2,24): Perform single-step probe Down to test tile (2,25).
 2. Continue single-step probing South along Column 2 to locate open Route 8 border passage.
 3. Traverse Route 8 West to Underground Path -> Celadon City.
 
