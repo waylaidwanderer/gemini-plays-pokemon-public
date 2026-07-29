@@ -25,3 +25,4 @@
 - Proven Solid Wall: Tile (1,26) is solid wall (Turn 17982 probe: 0 tiles visited from 2,26 facing Left).
 - Proven Solid Wall: Tile (1,10) is solid rock ledge (Turn 17989 probe: 0 tiles visited from 2,10 facing Left).
 - Verified Row 9 Passage: Row 9 across (1,9), (0,9), (-1,9) is completely open ground leading directly onto Route 8.
+- ROUTE 8 ENTERED! Lavender Town Row 9 exit at (0,9) successfully warps to Route 8 (59,9) on Turn 17991!
