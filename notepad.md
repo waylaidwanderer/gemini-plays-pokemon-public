@@ -1,14 +1,14 @@
 <h1><code>Main</code></h1>
 
-## ACTIVE MASTER ROUTE: ROUTE 8 COL 41 CORRIDOR TO GOLD DIRT HIGHWAY & CELADON CITY
-Current Pos: Route 8 (45,14)
-Status: Col 41 (Rows 10-14) verified as completely open grass corridor to Row 11 Gold Dirt Highway.
-Target: Walk Left to (41,14) -> Up 3 times to (41,11) -> Right to (42,11) Gold Dirt Highway -> Walk West to Celadon City.
+## ACTIVE MASTER ROUTE: ROUTE 8 CUTTABLE TREE SEARCH & CELADON CITY
+Current Pos: Route 8 (49,14)
+Status: SPROUT (Oddish) in party possesses field move CUT. Tiles (50,13) and (49,13) verified as non-cuttable rock walls.
+Target: Locate exact Cuttable Tree on Route 8 (testing candidate tiles across Cols 28-44 / Cols 50-58) -> Use SPROUT's CUT move -> Traverse to Celadon City.
 
 Step-by-Step Execution:
-1. From (45,14): Left 4 times to (41,14).
-2. From (41,14): Up 3 times along Col 41 corridor to (41,11).
-3. From (41,11): Right to (42,11) Gold Dirt Highway -> Walk West to Celadon City / Underground Path.
+1. Close menu -> Walk along Row 14 grass to test candidate tree tiles with SPROUT's CUT move.
+2. Use CUT to remove tree -> Access Gold Dirt Highway.
+3. Traverse West along Gold Dirt Highway to Celadon City / Underground Path entrance.
 
 <hr>
 
