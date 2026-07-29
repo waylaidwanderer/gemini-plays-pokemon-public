@@ -1,12 +1,12 @@
 <h1><code>Main</code></h1>
 
 ## ACTIVE MASTER ROUTE: MR. FUJI'S HOUSE AREA TO ROUTE 8 EXIT
-Current Pos: Lavender Town Overworld (6,20)
-Target: Walk Left to Col 3 (3,20) -> Up through open pavement gap (3,19) to Row 18 (3,18) -> Inspect Mr. Fuji's house & surrounding area for Route 8 path.
+Current Pos: Lavender Town Overworld (3,18)
+Target: Test tile (3,17) door warp -> Inspect Mr. Fuji's house & surrounding Row 18 tiles for passage to Route 8 gold dirt field (Cols 0-8, Rows 14-16).
 
 Step-by-Step Execution:
-1. From (6,20): Left 3 times to (3,20), Up 2 times to (3,18).
-2. Inspect Mr. Fuji's house / Row 18 for exit path -> West to Celadon City.
+1. From (3,18): Press Up to test (3,17) door warp.
+2. If wall, inspect (4,18), (5,18) doors / surrounding Row 18 tiles -> West to Celadon City.
 
 <hr>
 
