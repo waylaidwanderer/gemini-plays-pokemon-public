@@ -1,7 +1,7 @@
 <h1><code>Main</code></h1>
 
 ## ACTIVE MASTER ROUTE: ROUTE 8 NORTHERN HIGHWAY TO UNDERGROUND PATH & CELADON CITY
-Current Pos: Route 8 (29,8) - Northern Dirt Highway
+Current Pos: Route 8 (15,15) - South Corridor
 Status: On Route 8 South Corridor at (20,15). Walking East along South Corridor (Row 14/15) to locate the central fence gap.
 Target: Find Central Fence Gap on Route 8 -> Cross into North Corridor -> Walk West to Underground Path Building -> Celadon City.
 
@@ -180,6 +180,6 @@ Verified Route 8 Geography:
 - Lavender Town Pokemon Center: Joy healed party at (3,3).
 - House at (11,19) in Lavender Town: Warp leads indoors at (15,3).
 - Route 8 Entrance: Connects West from Lavender Town at (59,9).
-- Route 8 Gatehouse (Cols 19-23, Rows 10-15): Connects Northern Highway to South Dirt Highway via open exit at (19,16).
+- Route 8 Gatehouse (Cols 19-23, Rows 10-15): Saffron Gatehouse corridor (Cols 10-23, Rows 14-15) enclosed by Row 13 North ledge, Row 15 South fence, Col 9 West wall, Col 24 East wall.
 
 <hr>
