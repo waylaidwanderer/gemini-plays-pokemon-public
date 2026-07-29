@@ -1,7 +1,9 @@
-## ACTIVE MASTER ROUTE: HEAL PARTY AT LAVENDER TOWN POKÉMON CENTER
-Current Pos: Lavender Town (8,18)
-Target: Lavender Town Pokémon Center Door at (11,19) -> Heal at Nurse Joy (3,2)
+## ACTIVE MASTER ROUTE: ROCK TUNNEL 1F (15,2) TO LAVENDER TOWN SOUTH EXIT
+Current Pos: Rock Tunnel 1F (15,2)
+Target: Ladder 1 (15,3) -> B1F (15,3) -> Col 26 Gap (26,32) -> Ladder 4 (33,25) -> 1F (37,3) -> South Exit (37,11) -> Lavender Town
 
 Step-by-Step Execution:
-1. From (8,18): Walk Left 1 to (7,18), Down 2 to (7,20), Right 4 to (11,20), Up 1 to PC Door at (11,19).
-2. Inside Lavender Town PC: Walk to Nurse Joy at (3,2) and press A to heal party.
+1. From 1F (15,2): Walk Down 1 step to (15,3) to take Ladder 1 down to B1F.
+2. On B1F: Walk East along Row 4/6 to Col 26, through Col 26 Gap at (26,32), then East to Ladder 4 at (33,25).
+3. Take Ladder 4 up to 1F (37,3), then walk Down along Column 37 to South Exit at (37,11) -> Exits to Lavender Town!
+4. Outside in Lavender Town: Walk to Pokémon Center at (11,19) and heal party.
