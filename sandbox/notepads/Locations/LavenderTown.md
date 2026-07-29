@@ -22,5 +22,5 @@
 
 ### Map Transitions & Connections:
 - **North Exit to Route 10 South:** Walk north on columns 8-9 past row 0.
-- **West Exit to Route 8:** To Be Discovered.
+- **West Exit to Route 8:** Walk west on row 8 past column 0 to transition to Route 8 at (59, 8).
 - **South Exit to Route 12:** To Be Discovered.
