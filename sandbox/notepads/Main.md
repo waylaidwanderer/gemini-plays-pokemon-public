@@ -1,4 +1,4 @@
-## Position Tracking: Route 8 (12,12) -> Underground Path Building
+## Position Tracking: Route 8 (10,12) -> Underground Path Building
 
 ## ACTIVE MASTER ROUTE: ROUTE 8 COMPLETE OVERWORLD SOLUTION
 1. Teleport to Lavender Town Pokemon Center (11,20).
