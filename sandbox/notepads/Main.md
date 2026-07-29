@@ -1,7 +1,8 @@
 ## ACTIVE MASTER ROUTE: ROUTE 8 TO UNDERGROUND PATH & CELADON CITY
 Current Pos: Route 8 (53,14) - Grass Field
-Status: Testing Up onto (53,13) Gatehouse doorway.
+Status: Initiating systematic column-by-column boundary testing (x=53 down to x=28).
 
-Empirical Verification (Turn 18667):
-- Positioned at (53,14) facing Right.
-- Action: Press Up 2 times to turn Up and step onto (53,13) Gatehouse doorway!
+Systematic Boundary Scan (Turn 18669):
+- Testing North (Row 13) and South (Row 16) at each column.
+- Col 53: Row 13 North -> solid; Row 16 South -> solid fence.
+- Moving to Col 52...
