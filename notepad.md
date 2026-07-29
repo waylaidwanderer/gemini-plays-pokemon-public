@@ -1,16 +1,18 @@
 <h1><code>Main</code></h1>
 
-## ACTIVE MASTER ROUTE: ROUTE 8 COL 19 TALL GRASS TO UPPER HIGHWAY
-Current Pos: Route 8 (19,13)
-Status: Verified passability onto Tall Grass at (19,13)! Moving Up to (19,12), Right to (20,12), and Up to Row 10/9 to access Upper Highway to Underground Path entrance.
+## ACTIVE MASTER ROUTE: UNDERGROUND PATH ENTRANCE WARP AT (20,9)
+Current Pos: Route 8 (20,10)
+Status: Standing in front of Red Door Mat Warp at (20,9). Stepping Up onto (20,9) to enter Underground Path Entrance Building!
 
 Verified Route 8 Geography & Topology:
-- Tall grass at (19,13) is OPEN and passable, connecting Lower Corridor (19,14) North to Row 12 (19,12).
-- From (19,12), stepping Right onto (20,12) enters the Light Gray Path.
-- Walking Up along Col 20 to Row 9/8 accesses the Northern Upper Courtyard leading West to Underground Path entrance door at (13,9).
+- Successfully reached Row 10 Upper Highway at (20,10).
+- Red Door Mat Warp is located directly at (20,9) in front of player.
+- Stepping Up onto (20,9) warps inside the Underground Path Entrance Building.
+- Inside building, take stairs down into Underground Path Tunnel (Route 8 - Route 7).
+- Walk West through Underground Path Tunnel to Route 7 exit building, take stairs up, and exit onto Route 7 toward Celadon City!
 - Plan:
-  1. Walk Up to (19,12), Right to (20,12), Up to (20,10)/(20,9).
-  2. Walk West along Row 9/8 to Underground Path Building door at (13,9).
+  1. Press Up to step onto (20,9) red door mat warp.
+  2. Take stairs down into Underground Path Tunnel to Celadon City.
 
 <hr>
 
