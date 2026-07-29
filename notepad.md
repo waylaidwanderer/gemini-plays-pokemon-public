@@ -1,15 +1,17 @@
 <h1><code>Main</code></h1>
 
-## ACTIVE MASTER ROUTE: ROUTE 8 COL 20 NORTHWARD TO ROW 6 TEST
-Current Pos: Route 8 (20,8)
-Status: Row 8 is blocked West at Col 19 by rock wall. Stepping Up to Row 6 at (20,6) and testing Left toward Underground Path Building door.
+## ACTIVE MASTER ROUTE: ROUTE 8 ROW 4 (19,4) GAP TO UNDERGROUND PATH
+Current Pos: Route 8 (20,6)
+Status: Found open diagonal path gap at (19,4)! Walking Up to (20,4), Left through (19,4) to (18,4) Light Gray Floor toward Underground Path entrance door at (13,9).
 
 Verified Route 8 Geography & Topology:
-- Row 8 Light Gray Path runs West from Col 28 to Col 20, blocked at Col 19 by rock wall.
-- Testing Row 6 at Col 20 (20,6) to see if Row 6 / Row 5 connects West past Col 19 to Underground Path Building door at (13,6).
+- Row 4 (20,4) connects West through diagonal path tile (19,4) directly into Light Gray Floor at (18,4).
+- From (18,4), Light Gray Floor runs continuously West across Cols 17 down to Col 13.
+- Door to Underground Path Entrance Building is located at (13,9) / (13,6).
 - Plan:
-  1. Walk Up 2 times to (20,6).
-  2. Test Left toward Col 13.
+  1. Walk Up 2 times to (20,4).
+  2. Walk Left 2 times through (19,4) to (18,4) Light Gray Floor.
+  3. Walk West along Row 4 to Col 13, then South to Underground Path Building door at (13,9)!
 
 <hr>
 
