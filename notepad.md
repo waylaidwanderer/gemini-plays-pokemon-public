@@ -153,5 +153,6 @@
 - Row 28 is solid rock wall across Cols 10-19. NW Sector (Ladder 3 at 17,11) is accessed via Northern Highway warp B1F (27,3) -> B1F (5,3) (Turn 17495).
 - Cols 12-13 rock pillar spans Rows 6-13. Row 14 connects Col 11 East to Col 17 and Ladder 3 at (17,11) (Turn 17510).
 - Row 11 is open West from Col 26 to Ladder at (23,11) (Turn 17625).
+- Cols 24-25 are solid rock wall across Rows 7-15. Sector (26-29, 3-13) is a dead end accessed via B1F (27,3) warp (Turn 17627).
 
 <hr>
