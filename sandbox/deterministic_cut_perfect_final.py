@@ -1,17 +1,11 @@
 import mgba
 import time
 
-print("Exiting POKéMON menu...")
-# Press B three times to get back to the overworld from "There isn't anything to CUT!"
+print("Exiting SWITCH mode and POKéMON menu...")
+# Press B three times to get back to the overworld from "Move POKéMON where?"
 for _ in range(3):
     mgba.press_buttons(["B"])
     time.sleep(0.5)
-
-print("Turning DOWN to face the cuttable bush...")
-# Press Down once in the overworld. Since (40, 11) is blocked by the bush,
-# we will bump and remain at (40, 10), but we will now be facing DOWN.
-mgba.press_buttons(["Down"])
-time.sleep(0.5)
 
 print("Opening Start menu...")
 mgba.press_buttons(["Start"])
@@ -22,22 +16,14 @@ print("Entering POKéMON menu...")
 mgba.press_buttons(["A"])
 time.sleep(1.0)
 
-print("Selecting TRUFFLE deterministically...")
-# Park at SHELLBY (top), then go Down 1 to TRUFFLE
-buttons = []
-for _ in range(10):
-    buttons.extend(["Up", "sleep 100"])
-buttons.extend(["Down", "sleep 100", "A"])
-mgba.press_buttons(buttons)
+print("Selecting TRUFFLE...")
+# Cursor in party menu is at GUSTY (3rd). Press Up once to go to TRUFFLE (2nd).
+mgba.press_buttons(["Up", "sleep 100", "A"])
 time.sleep(1.0)
 
-print("Selecting CUT deterministically...")
-# Park at DIG (top), then go Down 1 to CUT
-buttons = []
-for _ in range(10):
-    buttons.extend(["Up", "sleep 100"])
-buttons.extend(["Down", "sleep 100", "A"])
-mgba.press_buttons(buttons)
+print("Selecting CUT...")
+# TRUFFLE's sub-menu opens pointing at DIG (1st). Press Down once to go to CUT (2nd).
+mgba.press_buttons(["Down", "sleep 100", "A"])
 time.sleep(2.0)
 
 print("Done!")
