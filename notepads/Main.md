@@ -1,6 +1,6 @@
 ## ACTIVE MASTER ROUTE: ROUTE 8 OVERWORLD ROUTING
-Current Pos: Route 8 (25,6)
-Status: Verified Signpost at (25,7) reads "ROUTE 9 CERULEAN CITY - ROCK TUNNEL". Player at (25,6).
+Current Pos: Route 8 (23,6)
+Status: Navigating from (23,6) East along Row 8 Upper Highway to (29,8), then South through gap (29,9) to Middle Highway at (29,10).
 
 Verified Route 8 Geography & Topology:
 - Row 6 pavement at Cols 30-41 is an Eastern alcove dead-ending at (29,6) rock wall.
