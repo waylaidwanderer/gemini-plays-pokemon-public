@@ -189,7 +189,7 @@
 # Rock Tunnel 1F - Overworld Mapping & Navigation
 
 ## Map Dimensions
-- Dimensions: Width = 40, Height = 18.
+- Dimensions: Width = 40, Height = To Be Determined (physically confirmed y >= 31).
 
 ## Mapped Coordinates & Layout
 - **Entry Warp:** Route 10 East connects to Rock Tunnel 1F at (15, 3). Walking SOUTH from (15, 3) enters the main corridor.
@@ -226,7 +226,6 @@
 ## Verified Collisions
 
 ## Map Transitions
-
 
 <hr>
 
