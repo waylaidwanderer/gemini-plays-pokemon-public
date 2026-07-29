@@ -384,5 +384,12 @@
 - **Lass Julia:** Engaged at (49, 12) on Turn 12307. Defeated on Turn 12325.
   - Roster: Clefairy Lv 22, Clefairy Lv 22.
 
+## Route to the West Side of Route 8 (Bypassing Fences/Walls)
+To reach the west side of Route 8 from the central fenced area:
+1. Go to the cuttable bush at (41, 10). Cut it if it has regrown.
+2. Walk through (41, 10) and head east: Right to (42, 10) -> (43, 10) -> (44, 10) to exit the fenced area.
+3. Walk north (Up) along column 44 to Row 2: (44, 10) -> (44, 2).
+4. Walk west (Left) along Row 2 to column 24: (44, 2) -> (24, 2).
+5. Walk south (Down) along column 24 to reach the west side of Route 8 and the Underground Path entrance!
 
 <hr>
