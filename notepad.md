@@ -390,13 +390,6 @@
 - **Lass at (27, 6):** Engaged and defeated on Turn 12510.
   - Roster: Pidgey Lv 19, Rattata Lv 19, Nidoran♂ Lv 19, Meowth Lv 19, Pikachu Lv 19.
 
-## Route to the West Side of Route 8 (Bypassing Fences/Walls)
-To reach the west side of Route 8 from the central fenced area:
-1. Go to the cuttable bush at (41, 10). Cut it if it has regrown.
-2. Walk through (41, 10) and head east: Right to (42, 10) -> (43, 10) -> (44, 10) to exit the fenced area.
-3. Walk north (Up) along column 44 to Row 2: (44, 10) -> (44, 2).
-4. Walk west (Left) along Row 2 to column 24: (44, 2) -> (24, 2).
-5. Walk south (Down) along column 24 to reach the west side of Route 8 and the Underground Path entrance!
 - **Lass at (26, 3):** Engaged from (24, 3) on Turn 12532. Defeated on Turn 12551.
   - Roster: Nidoran♀ Lv 23, Nidorina Lv 23.
 - **Lass at (26, 5):** Engaged from (24, 5) on Turn 12556. Defeated on Turn 12579.
