@@ -1,14 +1,6 @@
 import mgba
 import time
 
-print("Clearing textbox...")
-mgba.press_buttons(["B"])
-time.sleep(0.5)
-
-print("Turning RIGHT to face the bush...")
-mgba.press_buttons(["Right"])
-time.sleep(0.5)
-
 print("Opening Start menu...")
 mgba.press_buttons(["Start"])
 time.sleep(0.5)
@@ -21,8 +13,13 @@ print("Selecting TRUFFLE...")
 mgba.press_buttons(["A"])
 time.sleep(1.0)
 
-print("Using CUT...")
-mgba.press_buttons(["A"])
+print("Selecting CUT...")
+# Sub-menu doesn't wrap. Park at top (DIG), then Down 1 to CUT
+buttons = []
+for _ in range(10):
+    buttons.extend(["Up", "sleep 100"])
+buttons.extend(["Down", "sleep 100", "A"])
+mgba.press_buttons(buttons)
 time.sleep(2.0)
 
 print("Done!")
