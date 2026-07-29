@@ -1,8 +1,6 @@
 <h1><code>Main</code></h1>
 
 ## ACTIVE MASTER ROUTE: ROUTE 8 OVERWORLD ROUTING
-Current Pos: Route 8 (22,10)
-Status: Reached (22,10) on Middle Highway. Moving West along Row 10 to (19,10), Down to (19,16) on Lower Path, then West to Underground Path entrance at (13,16).
 
 Verified Route 8 Geography & Topology:
 - Row 13 is a ONE-WAY SOUTH LEDGE separating Upper Highway (Rows 9-11) from Lower Path (Rows 14-15).
