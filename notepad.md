@@ -217,7 +217,7 @@
 - Row 20: (26, 20), (36, 20), (37, 20)
 - Row 21: (26, 21), (36, 21)
 - Row 22: (26, 22), (32, 22), (33, 22), (34, 22), (35, 22), (36, 22)
-- Row 23: (26, 23), (36, 23), (37, 23)
+- Row 23: (26, 23), (35, 23), (36, 23), (37, 23)
 - Row 24: (26, 24), (36, 24), (37, 24)
 - Row 25: (26, 25), (36, 25), (37, 25)
 - Row 26: (26, 26), (36, 26), (37, 26)
@@ -334,12 +334,10 @@
 - We cannot walk straight down column 37 because a defeated trainer stands at `(37, 21)` and blocks the tile permanently.
 - Bypassed this by walking Left to `(36, 20)` and then Down to `(36, 21)`.
 - Triggered battle with JR.TRAINER♀ (Martha) at `(36, 21)`. Defeated her.
-- Walked further Down column 36 and triggered another JR.TRAINER♀ battle at `(36, 24)` on Turn 11917.
-- Currently in battle with her (defeated her Pidgey on Turn 11921).
 
 ## Next Steps (Post-Battle):
-1. Finish this JR.TRAINER♀ battle (she has another Pokémon left).
 2. Continue walking Down column 36 to Row 33 (i.e. to `(36, 33)`).
 3. From Row 33, walk Left along the bottom corridor all the way to the exit at `(15, 33)` to exit to Route 10 South!
+
 
 <hr>
