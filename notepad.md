@@ -1,13 +1,12 @@
 <h1><code>Main</code></h1>
 
-## ACTIVE MASTER ROUTE: SOUTH CROSSING (ROW 25) TO EAST SIDE & ROUTE 8
-Current Pos: Lavender Town Overworld (14,19)
-Target: Walk Up Col 14 to Row 13 -> Walk Left across Row 13 to Route 8 field (Cols 0-8, Rows 13-16) -> Travel West along Route 8 to Celadon City.
+## ACTIVE MASTER ROUTE: ROUTE 8 TRAVERSAL TO CELADON CITY
+Current Pos: Lavender Town Overworld (8,13)
+Target: Walk Down to (8,14) -> Walk Left across Row 14 (Cols 7..0) onto Route 8 -> Travel West along Route 8 to Celadon City.
 
 Step-by-Step Execution:
-1. From (14,19): Up 6 times along Col 14 to (14,13).
-2. From (14,13): Walk Left across Row 13 into Route 8 gold dirt field (Cols 0..8, Rows 13-16).
-3. Travel West along Route 8 to Celadon City.
+1. From (8,13): Down to (8,14), Left 8 times across Row 14 onto Route 8.
+2. Traverse Route 8 Westward to Celadon City.
 
 <hr>
 
