@@ -1,8 +1,7 @@
 ## ACTIVE MASTER ROUTE: ROUTE 8 TO UNDERGROUND PATH & CELADON CITY
-Current Pos: Route 8 (30,14) - Grass Field
-Status: Exploring Grass Field boundary (Cols 27-58) to locate exit to Main Road / Northern Highway.
+Current Pos: Route 8 (28,14) - Grass Field
+Status: Returning East to Lavender Town (x=59) to access Northern Highway (Row 11).
 
-Verified Map Geometry (Turn 18601):
-- Player at (30,14) in Grass Field (Rows 14-15).
-- Row 15 fence extends continuously across Cols 28-47.
-- Testing West to Col 27 building face and East to Lavender Town (Col 58) for exit / Cut tree.
+Verified Map Topography (Turn 18605):
+- Col 27 building face is NOT cuttable ("There isn't anything to CUT!").
+- Exit Strategy: Walk East along Row 14 to Lavender Town (59,14) -> Walk Up to y=9 -> Re-enter Route 8 at (59,9) on Northern Highway -> Walk West to (25,12) Underground Path!
