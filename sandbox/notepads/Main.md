@@ -1,8 +1,7 @@
 ## ACTIVE MASTER ROUTE: ROUTE 8 TO UNDERGROUND PATH & CELADON CITY
-Current Pos: Route 8 (47,15) - Fence Opening
-Status: Stepping Down onto Main Dirt Road (Row 16) at Col 47 and walking West.
+Current Pos: Route 8 (30,15) - Grass Field
+Status: Walking East along Row 15 towards Col 52-58 to locate true fence opening.
 
-Empirical Verification (Turn 18582):
-- Successfully bypassed Hiker NPC to (47,15).
-- Row 16 at Col 47 is open Main Dirt Road with no fence!
-- Action: Step Down to (47,16), then walk West along Row 16 past Col 27 to Saffron Gate / Underground Path entrance!
+Verified Map Geometry (Turn 18590):
+- Row 15 fence extends continuously across Cols 28-47.
+- Plan: Continue East along Row 15/14 to the eastern edge (Cols 50-58) near Lavender Town to find the fence opening to Row 16!
