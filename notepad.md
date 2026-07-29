@@ -1,13 +1,13 @@
 <h1><code>Main</code></h1>
 
-## ACTIVE MASTER ROUTE: LAVENDER TOWN WESTERN WALL SEARCH FOR ROUTE 8 EXIT
-Current Pos: Lavender Town Overworld (2,29)
-Status: Tested (2,30) South - impassable boundary tile.
-Target: Move Up along Column 2 (Y=28, 27, 26, ...) to inspect Column 1 for the Western gap leading to Route 8.
+## ACTIVE MASTER ROUTE: LAVENDER TOWN EAST-TO-NORTH BYPASS TO ROUTE 8
+Current Pos: Lavender Town Overworld (8,18)
+Target: Navigate around Pokemon Center via East path (Col 14) -> North (Row 13/14) -> West across Col 9 fence to Route 8 gold dirt field (Cols 0-8, Rows 14-16).
 
 Step-by-Step Execution:
-1. Walk Up along Column 2 looking Left at Column 1.
-2. When an open gap is seen in Column 1/0 (Route 8 entrance), step Left through it onto Route 8.
+1. From (8,18): Down to (8,19), Right across (9,19) grass gap to (13,19)/(14,19).
+2. Walk Up along Column 14 past Pokemon Center roof to Row 14/13.
+3. Walk Left across Row 14/13 (Cols 13..0) into Route 8 field -> West to Celadon City.
 
 <hr>
 
