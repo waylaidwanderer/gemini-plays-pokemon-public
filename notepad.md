@@ -1,12 +1,13 @@
 <h1><code>Main</code></h1>
 
 ## ACTIVE MASTER ROUTE: ROUTE 8 TO UNDERGROUND PATH & CELADON CITY
-Current Pos: Route 8 (30,15) - Grass Field
-Status: Walking East along Row 15 towards Col 52-58 to locate true fence opening.
+Current Pos: Route 8 (30,14) - Grass Field
+Status: Exploring Grass Field boundary (Cols 27-58) to locate exit to Main Road / Northern Highway.
 
-Verified Map Geometry (Turn 18590):
+Verified Map Geometry (Turn 18601):
+- Player at (30,14) in Grass Field (Rows 14-15).
 - Row 15 fence extends continuously across Cols 28-47.
-- Plan: Continue East along Row 15/14 to the eastern edge (Cols 50-58) near Lavender Town to find the fence opening to Row 16!
+- Testing West to Col 27 building face and East to Lavender Town (Col 58) for exit / Cut tree.
 
 <hr>
 
