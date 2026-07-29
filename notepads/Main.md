@@ -1,10 +1,10 @@
-## ACTIVE MASTER ROUTE: ROUTE 8 WEST END TO UNDERGROUND PATH
-Current Pos: Route 8 (13,15)
-Status: Walking West along Row 15 to Col 10 to inspect West end of Route 8 / Underground Path entrance.
+## ACTIVE MASTER ROUTE: ROUTE 8 COL 10 NORTHWARD TEST
+Current Pos: Route 8 (10,15)
+Status: Testing Northward movement along Col 10 from (10,15) -> (10,14) -> (10,13) -> (10,12) -> (10,11) into Underground Path Courtyard.
 
 Verified Route 8 & Underground Path Topology:
-- Row 14/15 is the Light Gray Path running West across Cols 15 down to Col 10.
-- Testing West end at Cols 9-10 to locate entrance into Underground Path Courtyard (Cols 10-13, Rows 8-10).
+- At Col 10, Row 14 is Light Gray Path, Row 13-12 is Green Grass, Row 11-8 is Light Gray Courtyard.
+- Testing Northward steps along Col 10 to access Underground Path Courtyard (Cols 10-13, Rows 8-11).
 - Plan:
-  1. Walk Left to (10,15).
-  2. Inspect West/North path at Col 10 to enter building courtyard.
+  1. Walk Up 4 times to (10,11).
+  2. Inspect building entrance door at (13,9) / (11,8).
