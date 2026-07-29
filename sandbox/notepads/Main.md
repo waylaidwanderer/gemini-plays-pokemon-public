@@ -1,4 +1,4 @@
-## Position Tracking: Lavender Town (2,12)
+## Position Tracking: Route 8 (4,9)
 
 ## ACTIVE MASTER ROUTE: ROUTE 8 OVERWORLD ROUTING
 
