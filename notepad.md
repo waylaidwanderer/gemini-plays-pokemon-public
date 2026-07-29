@@ -1,12 +1,14 @@
 <h1><code>Main</code></h1>
 
-## ACTIVE MASTER ROUTE: LAVENDER TOWN EXPLORATION
-Current Pos: Gateway Room (17,7)
-Target: Exit Ladder Warp at (17,11) -> Lavender Town Overworld -> Pokémon Center
+## ACTIVE MASTER ROUTE: EXIT ROCK TUNNEL TO LAVENDER TOWN
+Current Pos: Rock Tunnel B1F (25,11)
+Target: Column 33 -> Ladder 4 (33,25) -> 1F South Exit (37,11) -> Lavender Town
 
 Step-by-Step Execution:
-1. From (17,7): Walk Right 3 steps along Row 7 to (20,7), Down 3 steps along Column 20 to Row 10 at (20,10), Left 3 steps along Row 10 to Column 17 at (17,10), and Down 1 step onto Exit Ladder at (17,11) -> Warps to Lavender Town overworld!
-2. Outside in Lavender Town: Walk to Pokémon Center, enter door, and heal party at Nurse Joy.
+1. From (25,11): Walk Right 8 steps along Row 11 to Column 33 at (33,11).
+2. From (33,11): Walk Down 14 steps along Column 33 to Ladder 4 at (33,25) -> Takes Ladder 4 to 1F (37,3).
+3. From 1F (37,3): Walk Down 8 steps along Column 37 to South Exit at (37,11) -> Exits to Route 10 South / Lavender Town!
+4. Outside in Lavender Town: Walk to Lavender Town Pokémon Center at (11,5) and heal party at Nurse Joy.
 
 <hr>
 
