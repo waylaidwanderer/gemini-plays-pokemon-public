@@ -5,13 +5,12 @@
 
 ## Mapped Coordinates & Layout
 - **Saffron City Gatehouse (Verified - Visited on Turn 12616):** Entrance at (5, 11) on Route 8.
-- **Underground Path Entrance Building (Hypothesized - Unverified Warp):** Located on the west side.
 
 ### Verified Walkable Coordinates (Physically stepped on in this session):
 - Row 2: (23, 2), (24, 2), (25, 2), (26, 2), (27, 2), (28, 2), (29, 2), (30, 2), (31, 2), (32, 2), (33, 2), (34, 2), (35, 2), (36, 2), (37, 2), (38, 2), (39, 2), (40, 2), (41, 2), (42, 2), (43, 2), (44, 2)
 - Row 3: (23, 3), (24, 3)
 - Row 4: (23, 4), (24, 4)
-- Row 5: (12, 5), (24, 5), (28, 5), (29, 5), (30, 5), (31, 5), (32, 5), (33, 5), (39, 5), (40, 5), (41, 5)
+- Row 5: (12, 5), (13, 5), (24, 5), (28, 5), (29, 5), (30, 5), (31, 5), (32, 5), (33, 5), (39, 5), (40, 5), (41, 5)
 - Row 6: (12, 6), (24, 6), (28, 6), (29, 6), (30, 6), (31, 6), (32, 6), (33, 6), (34, 6), (35, 6), (36, 6), (37, 6), (38, 6), (39, 6), (40, 6), (41, 6)
 - Row 7: (12, 7), (24, 7), (41, 7), (42, 7)
 - Row 8: (12, 8), (24, 8), (42, 8), (51, 8), (52, 8), (53, 8), (54, 8), (55, 8), (56, 8), (57, 8), (58, 8), (59, 8)
@@ -24,6 +23,8 @@
 - Row 15: (5, 15), (6, 15), (7, 15), (8, 15), (9, 15), (10, 15), (11, 15), (12, 15), (13, 15), (14, 15), (15, 15), (16, 15), (17, 15), (18, 15), (19, 15), (20, 15), (21, 15), (22, 15), (23, 15), (24, 15), (41, 15), (42, 15), (43, 15)
 
 ### Defeated Trainers:
+- **Super Nerd at (11, 5):** Engaged from (12, 5) on Turn 12642. Defeated on Turn 12679.
+  - Roster: Voltorb Lv 20, Magnemite Lv 20.
 - **Super Nerd at (42, 6):** Engaged from (42, 7) on Turn 12457. Defeated on Turn 12473.
   - Roster: Grimer Lv 22, Muk Lv 22, Grimer Lv 22.
 - **Lass Julia:** Engaged at (49, 12) on Turn 12307. Defeated on Turn 12325.
