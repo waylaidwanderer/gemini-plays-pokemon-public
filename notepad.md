@@ -193,5 +193,6 @@ Step-by-Step Execution:
 - Proven Solid Wall: Tile (1,10) is solid rock ledge (Turn 17989 probe: 0 tiles visited from 2,10 facing Left).
 - Verified Row 9 Passage: Row 9 across (1,9), (0,9), (-1,9) is completely open ground leading directly onto Route 8.
 - ROUTE 8 ENTERED! Lavender Town Row 9 exit at (0,9) successfully warps to Route 8 (59,9) on Turn 17991!
+- Verified Route 8 Wall Barrier: Col 46 is rock wall at Rows 6-8. Col 46 Row 5 (46,5) is open Gold Dirt Highway gap.
 
 <hr>
