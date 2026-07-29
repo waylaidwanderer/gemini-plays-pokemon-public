@@ -237,17 +237,17 @@
 
 - Row 12: (2, 12), (5, 12), (10, 12), (17, 12), (22, 12), (37, 12)
 
-- Row 13: (2, 13), (5, 13), (10, 13), (17, 13), (18, 13), (19, 13), (20, 13), (21, 13), (22, 13), (23, 13), (37, 13)
+- Row 13: (2, 13), (5, 13), (10, 13), (15, 13), (17, 13), (18, 13), (19, 13), (20, 13), (21, 13), (22, 13), (23, 13), (37, 13)
 
-- Row 14: (2, 14), (5, 14), (10, 14), (17, 14), (37, 14)
+- Row 14: (2, 14), (5, 14), (10, 14), (15, 14), (17, 14), (37, 14)
 
-- Row 15: (2, 15), (5, 15), (10, 15), (17, 15), (37, 15)
+- Row 15: (2, 15), (5, 15), (10, 15), (15, 15), (17, 15), (37, 15)
 
-- Row 16: (2, 16), (5, 16), (10, 16), (17, 16), (20, 16), (21, 16), (22, 16), (23, 16), (24, 16), (25, 16), (26, 16), (27, 16), (28, 16), (29, 16), (30, 16), (31, 16), (32, 16), (33, 16), (34, 16), (35, 16), (36, 16), (37, 16)
+- Row 16: (2, 16), (5, 16), (10, 16), (15, 16), (17, 16), (20, 16), (21, 16), (22, 16), (23, 16), (24, 16), (25, 16), (26, 16), (27, 16), (28, 16), (29, 16), (30, 16), (31, 16), (32, 16), (33, 16), (34, 16), (35, 16), (36, 16), (37, 16)
 
-- Row 17: (2, 17), (5, 17), (10, 17), (11, 17), (12, 17), (13, 17), (14, 17), (17, 17), (20, 17), (21, 17), (22, 17), (23, 17), (24, 17), (25, 17), (26, 17), (27, 17), (37, 17)
+- Row 17: (2, 17), (5, 17), (10, 17), (11, 17), (12, 17), (13, 17), (14, 17), (15, 17), (17, 17), (20, 17), (21, 17), (22, 17), (23, 17), (24, 17), (25, 17), (26, 17), (27, 17), (37, 17)
 
-- Row 18: (2, 18), (5, 18), (10, 18), (14, 18), (17, 18), (20, 18), (37, 18)
+- Row 18: (2, 18), (5, 18), (10, 18), (14, 18), (15, 18), (17, 18), (20, 18), (37, 18)
 
 - Row 19: (2, 19), (5, 19), (10, 19), (13, 19), (14, 19), (15, 19), (16, 19), (17, 19), (20, 19), (23, 19), (24, 19), (25, 19), (26, 19), (27, 19), (28, 19), (29, 19), (30, 19), (31, 19), (32, 19), (33, 19), (34, 19), (35, 19), (36, 19), (37, 19)
 
@@ -278,16 +278,6 @@
 - **The Illusion of Walkability:** In pitch-black caves like Rock Tunnel, unrendered rock walls and walkable corridors are both drawn as identical pure black pixels.
 - **Coordinate Grid Pitfalls:** The overlay coordinate grid renders on top of pitch-black unrendered space. This can easily lead to the hallucination that a coordinate is "empty walkable black space" when it actually contains a solid rock wall.
 - **Strict Empirical Standard:** Walkability CANNOT be determined visually in dark zones. Every single tile must be physically stepped on (or bumped into to verify collision) before being logged as verified.
-
-
-<hr>
-
-<h1><code>Scratchpad/RockTunnel1F_Routing</code></h1>
-
-# Rock Tunnel 1F - Routing Hypotheses & Unvisited Path Predictions
-
-## Unverified Observations from (14, 15)
-- All previously listed coordinates leading to the central ladder at (17, 11) have been physically verified on Turn 11046.
 
 
 <hr>
