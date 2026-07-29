@@ -269,6 +269,9 @@
 - Row 28: (15, 28)
 - Row 29: (15, 29)
 - Row 30: (15, 30)
+- Row 31: (15, 31)
+- Row 32: (15, 32)
+- Row 33: (14, 33), (15, 33), (19, 33), (24, 33)
 
 ### Defeated Trainers:
 - **Hiker at (6, 11):** Engaged and defeated on Turn 11113-11141.
