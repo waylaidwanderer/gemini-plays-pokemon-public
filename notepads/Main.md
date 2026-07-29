@@ -1,6 +1,6 @@
 ## ACTIVE MASTER ROUTE: ROUTE 8 OVERWORLD ROUTING
-Current Pos: Route 8 (23,12)
-Status: Positioned at (23,12) on Route 8 pavement. Performing single-step physical verification of surrounding map exits and building entrances.
+Current Pos: Route 8 (23,11)
+Status: Reached Upper Highway (23,11). Located Guard at (24,7) and Signpost at (25,7). Moving North to enter Gatehouse at (24,7).
 
 Verified Route 8 Geography & Topology:
 - Row 6 pavement at Cols 30-41 is an Eastern alcove dead-ending at (29,6) rock wall.
