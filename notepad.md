@@ -27,8 +27,8 @@
 
 ## Current Party Stats (as of Turn 12485)
 1. **SHELLBY** (Blastoise)
-   - Level: 39
-   - HP: 108/121
+   - Level: 40
+   - HP: 106/121
    - Status: Healthy (Active lead)
 2. **TRUFFLE** (Paras)
    - Level: 15
