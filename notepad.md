@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
 ## ACTIVE MASTER ROUTE: ROUTE 8 OVERWORLD ROUTING
-Current Pos: Route 8 (24,10)
-Status: Standing at (24,10) on Middle Highway. Row 9 (20-27,9) is a southbound ledge. Walking East to Col 28/29 to access Row 8 Upper Highway going West to Guard at (24,7).
+Current Pos: Route 8 (29,9)
+Status: Physically verified gap at (29,9) connecting Middle Highway to Row 8 Upper Highway. Moving North to (29,8) then West to Gatehouse at (24,7).
 
 Verified Route 8 Geography & Topology:
 - Row 6 pavement at Cols 30-41 is an Eastern alcove dead-ending at (29,6) rock wall.
