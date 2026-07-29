@@ -184,5 +184,6 @@ Step-by-Step Execution:
 - Proven Solid Pillars: Tile (5,19) is solid wooden pillars/wall (Turn 17953 probe: bumped from 5,20 facing Up).
 - Verified Row 11 Barrier: Tile (14,11) has a gravestone blocking North. Row 12 is completely open West across Cols 14..0 to Route 8.
 - Verified Row 10 Gap: Tile (1,10) is an open Gold Dirt Highway gap in the western wall leading directly onto Route 8 at (0,10).
+- Verified Row 11 Barrier: Row 11 across Cols 2-7 is a solid fence.
 
 <hr>
