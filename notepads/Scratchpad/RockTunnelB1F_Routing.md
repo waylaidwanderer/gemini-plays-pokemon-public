@@ -1,7 +1,6 @@
 # Rock Tunnel B1F - Routing Hypotheses & Unverified Map Restorations
 
 ## Unverified Hypotheses & Landmarks (Need physical verification in this session):
-- **Ladder to 1F (Top-Left Section):** Hypothesized at `(27, 3)` (connects to 1F at `(5, 3)`).
 - **Ladder to 1F (Top-Right Section):** Hypothesized at `(33, 25)` (connects to 1F at `(37, 3)`).
 
 ### Hypothesized Walkable Coordinates (from restored memory):

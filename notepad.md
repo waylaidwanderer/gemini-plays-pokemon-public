@@ -235,8 +235,8 @@
 - Row 19: (2, 19), (5, 19), (10, 19), (13, 19), (14, 19), (15, 19), (16, 19), (17, 19), (20, 19), (23, 19), (24, 19), (25, 19), (26, 19), (27, 19), (28, 19), (29, 19), (30, 19), (31, 19), (32, 19), (33, 19), (34, 19), (35, 19), (36, 19), (37, 19)
 - Row 20: (2, 20), (3, 20), (4, 20), (5, 20), (10, 20), (23, 20)
 - Row 21: (2, 21), (10, 21), (23, 21)
-- Row 22: (10, 22), (22, 22), (23, 22)
-- Row 23: (10, 23), (22, 23)
+- Row 22: (10, 22), (22, 22), (23, 22), (24, 22), (25, 22)
+- Row 23: (10, 23), (22, 23), (25, 23)
 - Row 24: (2, 24), (3, 24), (4, 24), (5, 24), (6, 24), (7, 24), (8, 24), (9, 24), (10, 24), (14, 24), (15, 24), (16, 24), (17, 24), (18, 24), (19, 24), (20, 24), (21, 24), (22, 24)
 - Row 25: (2, 25), (14, 25), (15, 25)
 - Row 26: (2, 26), (14, 26), (15, 26)
@@ -271,7 +271,6 @@
 # Rock Tunnel B1F - Routing Hypotheses & Unverified Map Restorations
 
 ## Unverified Hypotheses & Landmarks (Need physical verification in this session):
-- **Ladder to 1F (Top-Left Section):** Hypothesized at `(27, 3)` (connects to 1F at `(5, 3)`).
 - **Ladder to 1F (Top-Right Section):** Hypothesized at `(33, 25)` (connects to 1F at `(37, 3)`).
 
 ### Hypothesized Walkable Coordinates (from restored memory):
