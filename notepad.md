@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
 ## ACTIVE MASTER ROUTE: ROUTE 8 NORTHERN HIGHWAY TO UNDERGROUND PATH & CELADON CITY
-Current Pos: Route 8 (15,15) - South Corridor
-Status: On Route 8 South Corridor at (17,15). Interacting with Trainer NPC at (16,15) to resolve fence gap passage.
+Current Pos: Route 8 (21,14) - South Corridor
+Status: On Route 8 South Corridor at (21,14). Exploring South Corridor exits and Route 8 layout.
 
 Verified Boundaries on Route 8 (Cols 10-23, Rows 14-15 Corridor):
 - Row 13 (Cols 10-23): South-facing one-way ledge empirically confirmed via bumps (Turns 18318, 18324, 18368, 18376, 18385).
