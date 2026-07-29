@@ -1,9 +1,8 @@
-## ACTIVE MASTER ROUTE: ROW 17 HIGHWAY LEDGE HOP TO CELADON CITY
+## ACTIVE MASTER ROUTE: ROUTE 8 EXPLORATION & CELADON CITY NAVIGATION
 Current Pos: Route 8 (46,15)
-Status: Standing at (46,15) facing Left above Row 15/16 ledge. Down 2 hops ledge onto Row 17 Highway (46,17), Left across Row 17 to Celadon City.
-Target: Walk Down 2 to hop ledge to (46,17) -> Left along Row 17 Highway to (36,17) -> West to Celadon City.
+Status: Standing at (46,15). Row 16 is a solid fence/wall (not a jumpable ledge). Building located at (46-47, 11-13).
+Target: Explore North towards Row 13/14 around building at (46-47, 11-13) to find passage or Underground Path door.
 
 Step-by-Step Execution:
-1. From (46,15): Down 2 times to hop ledge onto Row 17 Highway at (46,17).
-2. From (46,17): Left 10 times along Row 17 Highway to (36,17).
-3. Traverse Route 8 Westward to Celadon City.
+1. From (46,15): Walk Up to (46,14) / (46,13) to inspect building / path.
+2. Verify building identity (Underground Path entrance or Saffron Gate) and check open paths West.
