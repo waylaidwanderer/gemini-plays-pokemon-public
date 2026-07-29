@@ -118,7 +118,7 @@
 - Rows 14-15 are solid rock wall across Cols 18-26. Row 13 is open across Cols 11-23 to bypass.
 - OBSTACLES:
   - Cols 12-13: Rock pillar across Rows 2-13.
-  - Cols 6-7: Rock pillar across Rows 2-9. Row 10 is open West from Col 8 to Col 2 (Turn 17563).
+  - Cols 6-7: Rock pillar across Rows 2-10 (Col 6 blocked at Row 10). Row 11 is open West from Col 17 to Col 2 (Turn 17572).
   - Cols 18-19: Rock pillar across Rows 10-15.
   - Rows 14-15: Solid rock across Cols 18-26.
   - Rows 22-23: Solid rock across Cols 0-23.
