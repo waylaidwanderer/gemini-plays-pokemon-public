@@ -1,11 +1,13 @@
-## ACTIVE MASTER ROUTE: ROUTE 8 EXPLORATION & UNDERGROUND PATH
-Current Pos: Route 8 (53,14)
-Status: Investigating Lower Path (Rows 14-15) boundaries to find exit/passage.
+## ACTIVE MASTER ROUTE: ROUTE 8 UNDERGROUND PATH TO CELADON CITY
+Current Pos: Route 8 (26,10) - Underground Path Building Entrance Mat
+Status: Stepping Up onto (26,9) doorway warp tile to enter Underground Path Entrance Building.
 
-Map Boundaries Verified:
-- East Wall: Col 54 is solid mountain wall across Rows 13-16.
-- West Building: Cols 24-27 (Saffron Gatehouse / Underground Path building). (27,14) is solid building wall.
-- North Ledge: Row 13 ledge.
-- South Fence: Row 16 fence line.
+Route 8 Layout Solution Verified:
+- Lower Path (Rows 14-15) connects North via Col 28 gap into Upper Path / Building Approach (Cols 25-28, Rows 8-12)!
+- Entrance Mat at (26,10) / Doorway Warp at (26,9) leads directly into Route 8 Underground Path building!
 
-Next Objective: Walk West along Row 14/15 to systematically test every tile along Row 13 (North), Row 16 (South), and West wall (Cols 24-27) for gaps, Cut trees, or doorways.
+Next Steps:
+1. Step Up onto (26,9) to enter Underground Path building.
+2. Descend stairs inside building into Underground Path (Route 8 - Route 7).
+3. Walk West through Underground Path to Route 7 entrance building.
+4. Exit onto Route 7 and walk West into Celadon City!
