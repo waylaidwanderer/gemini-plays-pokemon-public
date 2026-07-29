@@ -185,5 +185,6 @@ Step-by-Step Execution:
 - Verified Row 11 Barrier: Tile (14,11) has a gravestone blocking North. Row 12 is completely open West across Cols 14..0 to Route 8.
 - Verified Row 10 Gap: Tile (1,10) is an open Gold Dirt Highway gap in the western wall leading directly onto Route 8 at (0,10).
 - Verified Row 11 Barrier: Row 11 across Cols 2-7 is a solid fence.
+- Proven Solid Wall: Tile (1,20) is solid wall (Turn 17973 probe: 0 tiles visited from 2,20 facing Left).
 
 <hr>
