@@ -29,3 +29,4 @@
 - Verified Route 8 Wall Barrier: Col 46 is rock wall at Rows 6-8. Col 46 Row 5 (46,5) is open Gold Dirt Highway gap.
 - Verified Route 8 South Highway Passage: Column 45 wall ends at Row 13. Row 14 Gold Dirt Highway (45,14) is completely open leading West to Celadon City.
 - ROUTE 8 TRAINER BATTLED: Trainer at (45,15) triggered pre-battle dialogue on Turn 18008 at (48,17). Advancing text/battle with A/B.
+- Verified Route 8 Trainer Sightline: Trainer at (45,15) sees across Row 15 to Col 47, triggering pre-battle dialogue. Pressing A/B advances dialogue into battle.
