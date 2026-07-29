@@ -190,5 +190,7 @@ Step-by-Step Execution:
 - Verified Row 30 Highway Exit: Column 1 wall ends at Row 29. Row 30 Gold Dirt Highway (1,30) is completely open leading directly onto Route 8 at (0,30).
 - Verified Row 29 Fence: Row 29 grass field is separated from Row 30 highway by an impassable fence along Row 29/30 boundary.
 - Proven Solid Wall: Tile (1,26) is solid wall (Turn 17982 probe: 0 tiles visited from 2,26 facing Left).
+- Proven Solid Wall: Tile (1,10) is solid rock ledge (Turn 17989 probe: 0 tiles visited from 2,10 facing Left).
+- Verified Row 9 Passage: Row 9 across (1,9), (0,9), (-1,9) is completely open ground leading directly onto Route 8.
 
 <hr>
