@@ -1,8 +1,11 @@
 ## ACTIVE MASTER ROUTE: ROUTE 8 UNDERGROUND PATH TO CELADON CITY
-Current Pos: Route 8 (23,12)
-Status: Stepping Up to Row 11 floor at (23,11), walking Right across Cols 24-27 to Col 28 grass (28,11), and walking North onto Row 10/7.
+Current Pos: Route 8 (29,8) - Northern Highway Corridor
+Status: Walking West along Row 8 corridor to Underground Path entrance/stairs at Cols 10-13.
 
-Verified Route to Underground Path:
-- Row 11 floor (Cols 23-27) connects directly East to Col 28 grass (28,11)!
-- Col 28 connects North to Row 7 Northern Highway above the building complex.
-- Row 7 connects West directly to Underground Path building entrance at (13,9)!
+Verified Route Solution:
+- Row 8 is the continuous open back corridor connecting Col 29 West across all building sections (Cols 28 to 6)!
+- Execution Plan:
+  1. Walk West along Row 8 from (29,8) to (13,8) / (12,8).
+  2. Step onto Underground Path stairs at Cols 10-13 to descend into the tunnel.
+  3. Walk West through Underground Path tunnel to Route 7 exit building.
+  4. Exit onto Route 7 and walk West into Celadon City!
