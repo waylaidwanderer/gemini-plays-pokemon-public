@@ -1,11 +1,10 @@
-## ACTIVE MASTER ROUTE: ROUTE 8 ROW 8 WEST TO UNDERGROUND PATH
-Current Pos: Route 8 (29,8)
-Status: Walking West along Row 8 through tall grass (28,8 -> 25,8) onto Light Gray Path toward Underground Path Building door at (13,9)!
+## ACTIVE MASTER ROUTE: ROUTE 8 COL 20 NORTHWARD TO ROW 6 TEST
+Current Pos: Route 8 (20,8)
+Status: Row 8 is blocked West at Col 19 by rock wall. Stepping Up to Row 6 at (20,6) and testing Left toward Underground Path Building door.
 
 Verified Route 8 Geography & Topology:
-- Row 8 across Cols 28, 27, 26, 25 is an OPEN green tall grass / light gray path corridor.
-- From (25,8), Light Gray Path runs continuously West across Cols 24 down to Col 11.
-- Door to Underground Path Entrance Building is located at (13,9) / (13,6).
+- Row 8 Light Gray Path runs West from Col 28 to Col 20, blocked at Col 19 by rock wall.
+- Testing Row 6 at Col 20 (20,6) to see if Row 6 / Row 5 connects West past Col 19 to Underground Path Building door at (13,6).
 - Plan:
-  1. Walk Left 10 times from (29,8) to (19,8).
-  2. Walk Left 6 times to (13,8), then step into Underground Path Building door at (13,9)!
+  1. Walk Up 2 times to (20,6).
+  2. Test Left toward Col 13.
