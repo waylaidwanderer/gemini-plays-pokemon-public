@@ -399,5 +399,7 @@ To reach the west side of Route 8 from the central fenced area:
 5. Walk south (Down) along column 24 to reach the west side of Route 8 and the Underground Path entrance!
 - **Lass at (26, 3):** Engaged from (24, 3) on Turn 12532. Defeated on Turn 12551.
   - Roster: Nidoran♀ Lv 23, Nidorina Lv 23.
+- **Lass at (26, 5):** Engaged from (24, 5) on Turn 12556. Defeated on Turn 12579.
+  - Roster: Meowth Lv 24, Meowth Lv 24, Meowth Lv 24.
 
 <hr>
