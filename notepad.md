@@ -182,5 +182,6 @@ Step-by-Step Execution:
 - Proven Solid Fence: Tile (9,14) is solid fence (Turn 17944 probe: 0 tiles visited from 10,14 facing Left).
 - Proven Solid Wall: Tile (1,18) is solid wall (Turn 17951 probe: 0 tiles visited from 2,18 facing Left).
 - Proven Solid Pillars: Tile (5,19) is solid wooden pillars/wall (Turn 17953 probe: bumped from 5,20 facing Up).
+- Verified Row 11 Barrier: Tile (14,11) has a gravestone blocking North. Row 12 is completely open West across Cols 14..0 to Route 8.
 
 <hr>
