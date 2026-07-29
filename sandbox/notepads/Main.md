@@ -2,14 +2,16 @@
 
 Verified Route 8 Geography & Topology:
 - Row 13 is a ONE-WAY SOUTH LEDGE across Cols 10-23 separating Upper Highway (Rows 9-11) from Lower Path (Rows 14-15).
-- Lower Path spans Rows 14-15 across Cols 10-23.
-- Gambler NPC is located at (16,15) on Lower Path.
+- Do NOT hop down Row 13 ledge at (19,13) onto Lower Path!
+- The Underground Path building door is accessed strictly via Upper Highway (Row 9/10/11)!
+- Successfully used TELEPORT on LUNA on Turn 19507 to exit Lower Path enclave, warping to Lavender Town PC at (11,19)!
 
 Party Field Moves:
 - LUNA (Nidorina, Lv 9): TELEPORT
 - SPROUT (Oddish, Lv 14): CUT
 - SHELLSHOCK (Blastoise, Lv 46): DIG
 
-Position & Status (Turn 19502):
-- Current Pos: Route 8 (23,15)
-- Status: Learned TM30 (Teleport) on LUNA. Using Teleport from POKéMON menu to warp directly to Lavender Town Pokémon Center at (3,3)!
+Position & Status (Turn 19507):
+- Current Pos: Lavender Town (11,20) outside Pokémon Center.
+- Navigation: Moving North/West through Lavender Town to Route 8 entrance at (0,9) / (59,9).
+- Master Goal: Enter Route 8 onto Upper Highway (Row 9), walk West directly to Underground Path building, enter Underground Path to Route 7, then reach Celadon City!
