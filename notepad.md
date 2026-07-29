@@ -1,13 +1,12 @@
 <h1><code>Main</code></h1>
 
 ## ACTIVE MASTER ROUTE: ROUTE 8 TO UNDERGROUND PATH & CELADON CITY
-Current Pos: Route 8 (28,14) - South Corridor
-Status: Navigating onto Main Dirt Road (Row 16) to bypass building.
+Current Pos: Route 8 (28,15) - Grass Field
+Status: Walking East on Row 15 to locate fence opening to Row 16.
 
-Empirical Verification (Turn 18572):
-- (27,14) is solid building wall.
-- Rows 16-18 are wide open yellow-brown dirt road across Cols 24-33.
-- Action: Step Down to (28,15) -> (28,16) -> Walk West on Row 16 past Col 27!
+Empirical Verification (Turn 18574):
+- Row 15 Cols 28-33 has solid fence along bottom edge blocking Down into Row 16.
+- Plan: Walk East along Row 15 until fence ends, then step Down into Row 16 Main Dirt Road!
 
 <hr>
 
