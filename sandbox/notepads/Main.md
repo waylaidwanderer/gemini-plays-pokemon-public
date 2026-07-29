@@ -10,3 +10,4 @@ Verified Boundaries on Route 8 (Cols 10-23, Rows 14-15 Corridor):
 - Field Move Verified: SPROUT (Bellsprout L14) knows CUT.
 - Verified Non-Cuttable Tile: (16,15) is not cuttable (Turn 18395).
 - Field Move Verified: SHELLSHOCK (Blastoise L46) learned TM28 DIG! Executing DIG escape warp.
+- Field Move Verified: DIG cannot be used on outdoor Route 8 ("OAK: This isn't the time to use that!").
