@@ -10,6 +10,7 @@ Verified Boundaries on Route 8 (Cols 10-23, Rows 14-15 Corridor):
 - Col 9 (Rows 11-15): Building West wall empirically confirmed via bumps (Turns 18298, 18319).
 - Col 24 (Rows 12-15): Building East wall empirically confirmed via bumps/CUT test (Turns 18314, 18361).
 - Field Move Verified: SPROUT (Bellsprout L14) knows CUT.
+- Verified Non-Cuttable Tile: (16,15) is not cuttable (Turn 18395).
 
 <hr>
 
