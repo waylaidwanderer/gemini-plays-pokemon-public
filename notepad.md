@@ -1,13 +1,13 @@
 <h1><code>Main</code></h1>
 
 ## ACTIVE MASTER ROUTE: LAVENDER TOWN EXPLORATION
-Current Pos: Lavender Town (8,18) (exited Route 10 South Cave at 8,17)
-Target: Heal at Lavender Town Pokémon Center (11,19) -> Explore Town / Pokémon Tower / Route 8
+Current Pos: Lavender Town
+Target: Lavender Town Pokémon Center at Top-Left (Col 11, Row 5) -> Heal -> Explore Town / Pokémon Tower
 
 Step-by-Step Execution:
-1. From (8,18): Walk Down 1 step to (8,19), Right 3 steps to Column 11 at (11,19), and Up 1 step into Lavender Town Pokémon Center!
-2. Inside Pokémon Center: Heal party at Nurse Joy.
-3. Next Progression: Explore Pokémon Tower (East side of town) / Route 8 (West exit towards Celadon City).
+1. Exit current building (walk Up onto door mat at 15,2).
+2. Outside in Lavender Town: Walk North up Column 11 to Row 5 at (11,5) -> Enter Pokémon Center door!
+3. Inside Pokémon Center: Walk Up to Nurse Joy at counter and heal party!
 
 <hr>
 
