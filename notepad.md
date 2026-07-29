@@ -363,13 +363,14 @@
 - Dimensions: To Be Determined (width=60 verified, height=To Be Determined).
 
 ## Mapped Coordinates & Layout
-- **Saffron City Gatehouse:** Located at the far west.
-- **Underground Path Entrance Building:** Located on the west side.
+- **Saffron City Gatehouse (Hypothesized - Unverified Warp):** Located at the far west.
+- **Underground Path Entrance Building (Hypothesized - Unverified Warp):** Located on the west side.
 
 ### Verified Walkable Coordinates (Physically stepped on in this session):
 - Row 2: (24, 2), (25, 2), (26, 2), (27, 2), (28, 2), (29, 2), (30, 2), (31, 2), (32, 2), (33, 2), (34, 2), (35, 2), (36, 2), (37, 2), (38, 2), (39, 2), (40, 2), (41, 2), (42, 2), (43, 2), (44, 2)
 - Row 3: (24, 3)
-- Row 5: (28, 5), (29, 5), (30, 5), (31, 5), (32, 5), (33, 5), (39, 5), (40, 5), (41, 5)
+- Row 4: (24, 4)
+- Row 5: (24, 5), (28, 5), (29, 5), (30, 5), (31, 5), (32, 5), (33, 5), (39, 5), (40, 5), (41, 5)
 - Row 6: (28, 6), (29, 6), (30, 6), (31, 6), (32, 6), (33, 6), (34, 6), (35, 6), (36, 6), (37, 6), (38, 6), (39, 6), (40, 6), (41, 6)
 - Row 7: (41, 7), (42, 7)
 - Row 8: (42, 8), (51, 8), (52, 8), (53, 8), (54, 8), (55, 8), (56, 8), (57, 8), (58, 8), (59, 8)
