@@ -1,11 +1,11 @@
-## ACTIVE MASTER ROUTE: ROUTE 8 LOWER CORRIDOR EAST TO EXIT
-Current Pos: Route 8 (10,14)
-Status: Row 13 at Col 10 is a one-way ledge facing Down. Walking East along Row 15 toward Eastern Exit (Cols 50-59) to re-enter Upper Highway.
+## ACTIVE MASTER ROUTE: WESTERN LOWER COURTYARD TO UNDERGROUND PATH
+Current Pos: Route 8 (23,14)
+Status: Walking West along Row 14 from (23,14) to (13,14) to inspect building entrance / door warps.
 
-Verified Route 8 & Underground Path Topology:
-- Row 13 across Cols 10-53 is a continuous one-way ledge facing Down onto Row 14/15 lower corridor.
-- To access Underground Path Courtyard (Cols 10-13, Rows 8-10), we MUST be on the Upper Highway (Rows 6-12).
+Verified Route 8 Geography & Topology:
+- Western Lower Courtyard spans Cols 10-23, Rows 14-15 (Light Gray Path).
+- Underground Path Building is located at Cols 11-15.
+- Testing every tile along Row 14 (Cols 10-15) for building door / entrance warp.
 - Plan:
-  1. Walk East along Row 15 from (10,14) past Col 45 to Eastern exit (Cols 50-59).
-  2. Re-enter Upper Highway (Rows 6-12) near Lavender Town entrance.
-  3. Walk West along Upper Highway staying ABOVE Row 13 ledge all the way to Underground Path Courtyard at Cols 10-13 Rows 8-10!
+  1. Walk Left 10 times from (23,14) to (13,14).
+  2. Inspect building door warps at Cols 11-15 Rows 14/13/12.
