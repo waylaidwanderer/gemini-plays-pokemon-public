@@ -5,26 +5,26 @@
 - **Cascade Badge:** Earned by defeating Gym Leader Misty in Cerulean City Gym on Turn 5262.
 - **Thunder Badge:** Earned by defeating Gym Leader Lt. Surge in Vermilion City Gym on Turn 7025.
 
-## Current Party Stats (as of Turn 12485)
+## Current Party Stats (as of Turn 12694)
 1. **SHELLBY** (Blastoise)
    - Level: 40
    - HP: 107/125
    - Status: Healthy (Active lead)
 2. **TRUFFLE** (Paras)
-   - Level: 40
-   - HP: 107/125
+   - Level: 15
+   - HP: 39/39
    - Status: Healthy
 3. **GUSTY** (Pidgey)
-   - Level: 40
-   - HP: 107/125
+   - Level: 5
+   - HP: 19/19
    - Status: Healthy
 4. **NIBBLES** (Rattata)
-   - Level: 40
-   - HP: 107/125
+   - Level: 7
+   - HP: 22/22
    - Status: Healthy
 5. **TESLA** (Pikachu)
-   - Level: 40
-   - HP: 107/125
+   - Level: 19
+   - HP: 46/46
    - Status: Healthy
 
 ## Major Milestones and Items
