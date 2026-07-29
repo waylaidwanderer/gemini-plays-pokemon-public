@@ -32,3 +32,4 @@
 - Verified Route 8 Trainer Sightline: Trainer at (45,15) sees across Row 15 to Col 47, triggering pre-battle dialogue. Pressing A/B advances dialogue into battle.
 - ROUTE 8 TRAINER SIGHTLINE LOCK VERIFIED: Trainer at (45,15) sightline locks player at (46,15)/(47,15) with open dialogue box. Pressing A/B clears text to enter battle.
 - ROUTE 8 TRAINER SIGHTLINE LOCK VERIFIED: Trainer at (45,15) sightline locks player at (46,15)/(47,15) with open dialogue box. Pressing A/B clears text to enter battle.
+- Verified Friendly NPC: NPC at (45,15) is a friendly NPC ("Us hearty guys always laugh!") and not a trainer. Closed text with B.
