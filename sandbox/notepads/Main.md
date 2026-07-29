@@ -11,6 +11,6 @@ Party Field Moves:
 - SPROUT (Oddish, Lv 14): CUT
 - SHELLSHOCK (Blastoise, Lv 46): DIG
 
-Position & Status (Turn 19651):
-- Current Pos: Lavender Town at (9,12).
-- Route Status: Passing North through fence gap at (9,11) to Row 9, then walking West to Route 8 entrance at (0,9).
+Position & Status (Turn 19681):
+- Current Pos: Lavender Town at (8,20).
+- Route Status: Walking via Col 3 gap at (3,19) onto Row 18 path to Dark Archway warp at (8,17).
