@@ -25,6 +25,8 @@
 ### Defeated Trainers:
 - **Super Nerd at (11, 5):** Engaged from (12, 5) on Turn 12642. Defeated on Turn 12679.
   - Roster: Voltorb Lv 20, Magnemite Lv 20.
+- **Gambler at (13, 9):** Engaged from (13, 5) on Turn 12680. Defeated on Turn 12715.
+  - Roster: Poliwag Lv 22, Poliwag Lv 22, Poliwhirl Lv 22.
 - **Super Nerd at (42, 6):** Engaged from (42, 7) on Turn 12457. Defeated on Turn 12473.
   - Roster: Grimer Lv 22, Muk Lv 22, Grimer Lv 22.
 - **Lass Julia:** Engaged at (49, 12) on Turn 12307. Defeated on Turn 12325.
