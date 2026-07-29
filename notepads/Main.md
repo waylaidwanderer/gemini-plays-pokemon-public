@@ -9,7 +9,7 @@ Verified Boundaries on Route 8 (Cols 10-23, Rows 14-15 Corridor):
 - Col 24 (Rows 12-15): Building East wall empirically confirmed via bumps/CUT test (Turns 18314, 18361).
 - Field Move Verified: SPROUT (Bellsprout L14) knows CUT.
 - Verified Non-Cuttable Tile: (16,15) is not cuttable (Turn 18395).
-- Field Move Verified: SHELLSHOCK (Blastoise L46) learned TM28 DIG! Executing DIG escape warp.
+
 - Field Move Verified: DIG cannot be used on outdoor Route 8 ("OAK: This isn't the time to use that!").
 - Empirical Discovery (Turn 18469): (19,13) is an open gap through the Row 13 ledge connecting South Corridor (Row 14) directly UP to Northern Highway (Rows 11-12)!
 - Route to Underground Path: From (19,13) -> Up to (19,12) -> Right to (20,12) -> Up to (20,11) -> Right 5 steps to (25,11) -> Down into (25,12) entrance door.
