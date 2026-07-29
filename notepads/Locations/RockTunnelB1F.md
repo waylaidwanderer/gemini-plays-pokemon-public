@@ -6,7 +6,7 @@
 ## Mapped Coordinates & Layout
 - **Ladder to 1F (Central Section):** Located at `(23, 11)`. Connects to Rock Tunnel 1F at `(17, 11)`.
 - **Ladder to 1F (Top-Right Section):** Located at `(33, 25)`. Connects to Rock Tunnel 1F at `(37, 3)`.
-- **Ladder to 1F (Bottom-Left Section):** Hypothesized to be located at `(3, 33)` (empirically disproven at (3, 11)). Connects to Rock Tunnel 1F.
+- **Ladder to 1F (Bottom-Left Section/Exit):** Located at `(3, 3)`. Connects to Rock Tunnel 1F at `(37, 17)` (the bottom-right section ladder which leads to Route 10 South).
 
 ### Structural Division of B1F:
 - **Compartmentalization:** B1F was previously hypothesized to be divided into unconnected eastern and western compartments, but empirical traversal on Turn 11740-11756 proved that the map is fully connected! There is a walkable horizontal path on Row 33 (connecting column 15 to column 33) and on Row 3 (connecting column 10 to column 37).
