@@ -1,10 +1,10 @@
-## ACTIVE MASTER ROUTE: ROUTE 8 UNDERGROUND PATH TO CELADON CITY
-Current Pos: Route 8 (10,14)
-Status: Moving East to Col 21 (21,10) to access internal Row 8 passageway leading West to Underground Path stairs.
+## ACTIVE MASTER ROUTE: ROUTE 8 UPPER PATH TO UNDERGROUND PATH
+Current Pos: Route 8 (23,15)
+Status: Walking East to Col 28 gap (28,14) and stepping Up onto Upper Path (28,11).
 
-Verified Building Geometry:
-- Outer Approach: Row 14/15 corridor connects to porch threshold at Cols 20-23 (Rows 10-14).
-- Internal Route to Underground Path:
-  1. From (21,10), step Up onto Row 8 floor at Col 20-22.
-  2. Walk West along Row 8 behind middle wall to Cols 10-13 (Underground Path Entrance Room).
-  3. Step onto stairs at Cols 12-13 to descend into Underground Path tunnel!
+Verified Map Solution:
+- Col 28 is the open grass gap through the Row 13 ledge connecting Lower Path (Row 14) to Upper Path (Rows 11-12)!
+- Execution Plan:
+  1. Walk East to (28,14).
+  2. Step Up through Col 28 gap to (28,11) on Upper Path.
+  3. On Upper Path, walk West along Row 11/10 directly into Underground Path building entrance!
