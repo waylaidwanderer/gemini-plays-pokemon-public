@@ -21,3 +21,4 @@
 - Proven Solid Wall: Tile (1,20) is solid wall (Turn 17973 probe: 0 tiles visited from 2,20 facing Left).
 - Proven Solid Roof: Tile (2,17) is solid Mr. Fuji house roof (Turn 17975 probe: bumped from 2,18 facing Up).
 - Verified Row 30 Highway Exit: Column 1 wall ends at Row 29. Row 30 Gold Dirt Highway (1,30) is completely open leading directly onto Route 8 at (0,30).
+- Verified Row 29 Fence: Row 29 grass field is separated from Row 30 highway by an impassable fence along Row 29/30 boundary.
