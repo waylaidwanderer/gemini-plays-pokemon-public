@@ -210,11 +210,11 @@
 - Row 13: (5, 13), (11, 13), (14, 13), (20, 13), (21, 13), (22, 13), (23, 13), (24, 13), (25, 13), (26, 13), (27, 13), (28, 13), (29, 13), (30, 13), (31, 13), (32, 13), (33, 13), (34, 13), (35, 13), (36, 13), (37, 13)
 - Row 14: (5, 14), (11, 14), (14, 14)
 - Row 15: (5, 15), (11, 15), (12, 15), (13, 15), (14, 15)
-- Row 16: (5, 16), (14, 16)
-- Row 17: (5, 17), (14, 17)
-- Row 18: (5, 18), (14, 18), (26, 18), (37, 18)
-- Row 19: (14, 19), (26, 19), (37, 19)
-- Row 20: (9, 20), (10, 20), (11, 20), (12, 20), (13, 20), (14, 20), (15, 20), (16, 20), (17, 20), (18, 20), (19, 20), (26, 20), (36, 20), (37, 20)
+- Row 16: (5, 16), (14, 16), (20, 16)
+- Row 17: (5, 17), (14, 17), (20, 17)
+- Row 18: (5, 18), (14, 18), (20, 18), (26, 18), (37, 18)
+- Row 19: (14, 19), (20, 19), (26, 19), (37, 19)
+- Row 20: (9, 20), (10, 20), (11, 20), (12, 20), (13, 20), (14, 20), (15, 20), (16, 20), (17, 20), (18, 20), (19, 20), (20, 20), (26, 20), (36, 20), (37, 20)
 - Row 21: (26, 21), (36, 21)
 - Row 22: (26, 22), (32, 22), (33, 22), (34, 22), (35, 22), (36, 22)
 - Row 23: (26, 23), (35, 23), (36, 23), (37, 23)
@@ -310,23 +310,23 @@
 
 <h1><code>Scratchpad/RockTunnelB1F_Routing</code></h1>
 
-# Rock Tunnel B1F - Verified Optimal Routing to Central Ladder
+# Rock Tunnel B1F - Verified Optimal Routing to Top-Left Ladder
 
 ## Context
-- We are at B1F (11, 24).
-- The path along row 24 is blocked by solid rock walls at column 12 and 13.
-- The correct path to the exit of Rock Tunnel is through the central ladder at (23, 11) on B1F, which leads to 1F Compartment A. From there, we can go Down column 11/14 on 1F to reach the exit at the bottom.
+- We are on B1F at (23, 11).
+- The correct path to the exit of Rock Tunnel is through the top-left ladder at (3, 3) on B1F, which leads directly to the isolated exit compartment (Compartment C) on 1F. From there, we can walk down column 36 to Row 33, and then Left to the exit.
 
-## Verified B1F Route to Central Ladder at (23, 11) from (11, 24)
-1. Left 1: (11, 24) -> (10, 24)
-2. Up 7: (10, 24) -> (10, 17)
-3. Right 5: (10, 17) -> (15, 17)
-4. Down 2: (15, 17) -> (15, 19)
-5. Right 2: (15, 19) -> (17, 19)
-6. Up 6: (17, 19) -> (17, 13)
-7. Right 5: (17, 13) -> (22, 13)
-8. Up 2: (22, 13) -> (22, 11)
-9. Right 1: (22, 11) -> (23, 11)
+## Verified B1F Route to Top-Left Ladder at (3, 3) from (23, 11)
+1. Left 6: (23, 11) -> (17, 11)
+2. Down 8: (17, 11) -> (17, 19)
+3. Left 3: (17, 19) -> (14, 19)
+4. Up 2: (14, 19) -> (14, 17)
+5. Left 4: (14, 17) -> (10, 17)
+6. Up 6: (10, 17) -> (10, 11)
+7. Left 5: (10, 11) -> (5, 11)
+8. Up 8: (5, 11) -> (5, 3)
+9. Left 2: (5, 3) -> (3, 3)
+
 
 <hr>
 
