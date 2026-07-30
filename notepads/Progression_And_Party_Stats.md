@@ -5,10 +5,10 @@
 - **Cascade Badge:** Earned by defeating Gym Leader Misty in Cerulean City Gym on Turn 5262.
 - **Thunder Badge:** Earned by defeating Gym Leader Lt. Surge in Vermilion City Gym on Turn 7025.
 
-## Current Party Stats (as of Turn 12943)
+## Current Party Stats (as of Turn 13141)
 1. **SHELLBY** (Blastoise)
-   - Level: 40
-   - HP: 130/130 (Healed on Turn 12865, used HP UP on Turn 12943)
+   - Level: 41
+   - HP: 107/129 (Damaged during Celadon Gym battles as of Turn 13141)
    - Status: Healthy (Active lead)
 2. **TRUFFLE** (Paras)
    - Level: 15
