@@ -523,4 +523,11 @@
 - **Cuttable Bush:** Located at (2, 4). Cut on Turn 13253. Note: In-game testing on Turn 13256 confirmed that this is a dead-end pocket, blocked by a solid hedge at (2, 3) and Bridget at (3, 4).
 - **Cuttable Bush:** Located at (7, 5). Cut on Turn 13271 to open the eastern corridor.
 
+## Gym Leader Information
+- **Gym Leader:** Erika
+- **Coordinate:** (4, 3)
+- **Initial Facing Direction:** South
+- **Battle Start Turn:** Turn 13330
+- **Team Composition:** Victreebel (Lv 29, Grass/Poison), Tangela (Lv 24, Grass), Vileplume (Lv 29, Grass/Poison)
+
 <hr>
