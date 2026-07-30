@@ -330,7 +330,6 @@
 - (47,9) is OPEN LIGHT GREY PAVEMENT connecting North to Row 9 Eastbound Highway.
 ### Verified Master Westbound Highway to Underground Path (Turn 22743)
 - From (13,12) on Row 12 green grass: East 6 to (19,12) -> East 10 to Col 29 (29,12) -> Up 2 through Col 29 tan gravel gap (29,9) to Row 8 pavement (29,8).
-- From (29,8): Walk Left continuously 26 steps along Row 8 light grey pavement highway past Cols 25, 19, 13 to Col 3 (3,8) [Underground Path building front entrance!].
 
 <hr>
 
