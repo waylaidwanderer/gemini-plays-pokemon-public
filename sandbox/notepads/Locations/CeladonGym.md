@@ -23,6 +23,7 @@
 - **Lass Kay:** Located at (6, 4) facing Down. Her line of sight extends 1 tile (to column 6 on row 5). Defeated on Turn 13125.
 - **Beauty Bridget:** Located at (3, 4) facing Down. Her line of sight extends 1 tile (to column 3 on row 5). Defeated on Turn 13141.
 - **Beauty Tamia:** Located at (6, 10) facing Left. Her line of sight extends 1 tile (to column 5 on row 10). Defeated on Turn 13182.
+- **Beauty Lori:** Located at (1, 5) facing Down. Her line of sight extends 3 tiles (to column 1 on row 8). Defeated on Turn 13235.
 
 ## Structural Boundaries & Obstacles
 - **Cuttable Bush:** Located at (5, 7). Cut on Turn 13062 to open the central vertical corridor.

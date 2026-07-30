@@ -25,11 +25,12 @@
 - **Cascade Badge:** Earned by defeating Gym Leader Misty in Cerulean City Gym on Turn 5262.
 - **Thunder Badge:** Earned by defeating Gym Leader Lt. Surge in Vermilion City Gym on Turn 7025.
 
-## Current Party Stats (as of Turn 13141)
+## Current Party Stats (as of Turn 13243)
 1. **SHELLBY** (Blastoise)
-   - Level: 41
-   - HP: 107/129 (Damaged during Celadon Gym battles as of Turn 13141)
+   - Level: 42
+   - HP: 110/132 (Damaged during Celadon Gym battles as of Turn 13243)
    - Status: Healthy (Active lead)
+   - Moveset: SKULL BASH (15/15), TAIL WHIP (30/30), BITE (12/25), WATER GUN (25/25)
 2. **TRUFFLE** (Paras)
    - Level: 15
    - HP: 39/39 (Healed on Turn 12865)
@@ -510,6 +511,7 @@
 - **Lass Kay:** Located at (6, 4) facing Down. Her line of sight extends 1 tile (to column 6 on row 5). Defeated on Turn 13125.
 - **Beauty Bridget:** Located at (3, 4) facing Down. Her line of sight extends 1 tile (to column 3 on row 5). Defeated on Turn 13141.
 - **Beauty Tamia:** Located at (6, 10) facing Left. Her line of sight extends 1 tile (to column 5 on row 10). Defeated on Turn 13182.
+- **Beauty Lori:** Located at (1, 5) facing Down. Her line of sight extends 3 tiles (to column 1 on row 8). Defeated on Turn 13235.
 
 ## Structural Boundaries & Obstacles
 - **Cuttable Bush:** Located at (5, 7). Cut on Turn 13062 to open the central vertical corridor.
