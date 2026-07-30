@@ -1,6 +1,6 @@
 <h1><code>Main</code></h1>
 
-## Position Tracking: Route 8 (29,12)
+## Position Tracking: Route 8 (13,12)
 
 ## VERIFIED OVERWORLD ROUTE TO CELADON CITY / UNDERGROUND PATH
 1. From Lavender Town PC exterior (11,20), walk North along Col 14 to Row 11 (14,11), Left 1 to (13,11), Up 2 to (13,9) in North Lavender Town.
