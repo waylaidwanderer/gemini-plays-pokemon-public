@@ -507,7 +507,7 @@
 - **Gym Path Corridor:** A narrow horizontal grass corridor located along Rows 33 and 34, spanning columns 16 to 35. It is bounded by decorative trees on Row 32 and Row 35.
 
 ## Major Points of Interest
-- **Celadon Gym:** Location To Be Determined. Gym Leader Erika uses Grass-type Pokémon.
+- **Celadon Gym:** Entrance door at (12, 27) facing North on Celadon City map. Gym Leader Erika uses Grass-type Pokémon.
 - **Celadon Department Store:** Entrance door at (10, 13) facing North on Celadon City map. Sign at (12, 13) says "MART". It is a multi-story building.
 - **Celadon Mansion:** Located in the north-middle of the city. Sign at (21, 9) says "CELADON MANSION". Entrance doors are around (24, 9).
 - **Game Corner:** Location To Be Determined.
@@ -519,6 +519,24 @@
 - **4F (Wise Man Gifts):** Stairs DOWN at (12, 1), Stairs UP at (16, 1).
 - **5F (Drugstore):** Stairs DOWN at (16, 1), Stairs UP at (12, 1).
 - **Rooftop Square (6F):** Stairs DOWN at (15, 2). Vending machines are at (10, 2), (11, 2), and (12, 2) facing South. Sign at (13, 2) says "ROOFTOP SQUARE: VENDING MACHINES".
+
+
+<hr>
+
+<h1><code>Locations/CeladonGym</code></h1>
+
+# Celadon Gym - Indoor Mapping & Navigation
+
+## Mapped Coordinates & Layout
+- **Overworld Entrance Connection:** The overworld entrance is at Celadon City (12, 27).
+
+### Verified Walkable Gym Coordinates:
+- Row 11: (4, 11)
+- Row 13: (4, 13)
+- Row 17: (4, 17)
+
+## Gym Trainers and Lines of Sight
+- **Lass:** Located at (2, 11). Her line of sight extends 2 tiles to the right (to column 4 on row 11). Defeated on Turn 13051.
 
 
 <hr>

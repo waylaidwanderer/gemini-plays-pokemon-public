@@ -1,18 +1,12 @@
-# Celadon City Gym Location Records (Map 0_134)
-- **Map Transition**: Entered Celadon Gym (Map 0_134) on Turn 74079, appearing at (4, 17) facing Up.
-- **Warp Connection**: 
-  - Celadon Gym exit warp is located on Row 17 at Columns 4 and 5 (the red carpet). Walking South from (4, 17) or (5, 17) warps the player to Map 0_6 (Celadon City) at (12, 28) facing Down.
-- **Physical Landmarks**:
-  - The gym features a plant-filled garden motif with grey pavement floors and hedge/flower obstacles.
-  - Two Gym Statues are located at:
-    - Left Statue: (3, 14)-(3, 15)
-    - Right Statue: (6, 14)-(6, 15)
+# Celadon Gym - Indoor Mapping & Navigation
 
-- **Inner Circle NPCs & Layout (Verified Turn 74179)**:
-  - Erika: (4, 3) (Blue kimono sprite).
-  - Lass: (3, 3) (Brown hair).
-  - Cooltrainer♀ (Defeated): (5, 4) (Orange hair).
-  - Lass (Defeated): (6, 4) (Green hair/cap).
-  - Inner Gym Hedges form a 6x6 square from Column 2 to 7, Row 2 to 7.
-  - Cuttable Bushes are located at (2, 4) and (5, 7).
-  - Inner hedge cut at (7, 5) allows free passage.
+## Mapped Coordinates & Layout
+- **Overworld Entrance Connection:** The overworld entrance is at Celadon City (12, 27).
+
+### Verified Walkable Gym Coordinates:
+- Row 11: (4, 11)
+- Row 13: (4, 13)
+- Row 17: (4, 17)
+
+## Gym Trainers and Lines of Sight
+- **Lass:** Located at (2, 11). Her line of sight extends 2 tiles to the right (to column 4 on row 11). Defeated on Turn 13051.

@@ -46,7 +46,7 @@
 - **Gym Path Corridor:** A narrow horizontal grass corridor located along Rows 33 and 34, spanning columns 16 to 35. It is bounded by decorative trees on Row 32 and Row 35.
 
 ## Major Points of Interest
-- **Celadon Gym:** Location To Be Determined. Gym Leader Erika uses Grass-type Pokémon.
+- **Celadon Gym:** Entrance door at (12, 27) facing North on Celadon City map. Gym Leader Erika uses Grass-type Pokémon.
 - **Celadon Department Store:** Entrance door at (10, 13) facing North on Celadon City map. Sign at (12, 13) says "MART". It is a multi-story building.
 - **Celadon Mansion:** Located in the north-middle of the city. Sign at (21, 9) says "CELADON MANSION". Entrance doors are around (24, 9).
 - **Game Corner:** Location To Be Determined.
