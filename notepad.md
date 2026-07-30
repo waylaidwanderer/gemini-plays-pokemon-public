@@ -249,6 +249,9 @@
 - Column 19 (Rows 6-11): Solid mountain rock wall blocking Northern Highway.
 - Row 9/10 at Column 20: South-facing ledge blocking northbound access from Row 10 to Row 9.
 - Lower Highway (Rows 14 & 15): Open pavement corridor from Column 52 West past Column 16 to Column 10. Next test: probe West of Column 10 on Rows 14 and 15.
+### Route 12 Grass Highway Master Route (Turn 22135)
+- Row 12 is an uninterrupted green grass corridor from Col 29 (29,12) West past Col 19 (19,12) all the way to Col 10 (10,12).
+- Route to Row 12: Teleport to Lavender -> Route 8 (59,9) -> Col 52 gap to Row 14 (52,14) -> Left to Col 29 (29,14) -> Up through gravel gap (29,13) to Row 12 (29,12) -> Left along Row 12 to Col 10 (10,12) to inspect gatehouse/underground entrances!
 
 <hr>
 
