@@ -1,27 +1,52 @@
 import mgba
 import time
 
-def walk_left_to(target_x):
-    pos = mgba.get_coordinates()
-    print(f"Starting walk from {pos} to x={target_x}...")
-    while pos['x'] > target_x:
-        mgba.press_buttons(["Left"])
-        time.sleep(0.35)
-        new_pos = mgba.get_coordinates()
-        if new_pos == pos:
-            # try again with slightly longer wait
-            time.sleep(0.5)
-            mgba.press_buttons(["Left"])
-            time.sleep(0.35)
-            new_pos = mgba.get_coordinates()
-            if new_pos == pos:
-                print(f"Blocked at {pos}")
-                break
-        pos = new_pos
-        print(f"Walked to {pos}")
-    
-    # Take screenshot at the end
-    scr = mgba.take_screenshot()
-    print(f"Final screenshot saved at {scr}")
+def get_stable_coords():
+    pos1 = mgba.get_coordinates()
+    time.sleep(0.1)
+    pos2 = mgba.get_coordinates()
+    while pos1 != pos2:
+        pos1 = pos2
+        time.sleep(0.1)
+        pos2 = mgba.get_coordinates()
+    return pos1
 
-walk_left_to(31)
+# We start at (10, 22)
+pos = get_stable_coords()
+print(f"Starting position: {pos}")
+
+# 1. Walk Right to Column 22 on Row 22
+while pos['x'] < 22:
+    mgba.press_buttons(["Right"])
+    time.sleep(0.35)
+    pos = get_stable_coords()
+
+print(f"Reached (22, 22): {pos}")
+
+# 2. Walk Down to Row 28 on Column 22
+while pos['y'] < 28:
+    mgba.press_buttons(["Down"])
+    time.sleep(0.35)
+    pos = get_stable_coords()
+
+print(f"Reached (22, 28): {pos}")
+
+# 3. Walk Right to Column 26 on Row 28
+while pos['x'] < 26:
+    mgba.press_buttons(["Right"])
+    time.sleep(0.35)
+    pos = get_stable_coords()
+
+print(f"Reached (26, 28): {pos}")
+
+# 4. Press UP to enter the door at (26, 27)
+print("Trying to enter door at (26, 27) by pressing UP...")
+mgba.press_buttons(["Up"])
+time.sleep(1.0) # wait for warp transition
+
+pos_after = get_stable_coords()
+print(f"Position after UP: {pos_after}")
+
+# Take a screenshot inside
+scr = mgba.take_screenshot()
+print(f"Screenshot saved at: {scr}")
