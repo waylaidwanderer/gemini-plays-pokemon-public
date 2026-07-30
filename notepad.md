@@ -380,6 +380,12 @@
   6. Step Down 2 to Row 14 Light Grey Pavement Corridor at (13,14).
   7. Walk Left 10 steps along Row 14 pavement to Column 3 at (3,14) [Underground Path doorway!].
   8. Step Up 1 to enter Underground Path building doorway at (3,14)!
+### Verified Physical Collision Boundaries at Column 10 (Turns 22849-22856)
+- (9, 14): SOLID MOUNTAIN ROCK CLIFF (probed Left from 10,14 bumped on turn 22850).
+- (10, 16): SOLID MOUNTAIN ROCK CLIFF (probed Down from 10,15 bumped on turn 22854).
+- (9, 15): SOLID MOUNTAIN ROCK CLIFF (probed Left from 10,15 bumped on turn 22856).
+- (10, 13): SOUTH-FACING LEDGE (one-way south hop down to 10,14).
+- RESULT: (10,14) and (10,15) form an ENCLOSED 2-TILE LOWER PAVEMENT CHANNEL bounded West by Col 9 cliff wall, South by Row 16 cliff wall, and North by Row 13 ledge wall. Exit is EAST along Row 14/15 pavement to Column 19 gap at (19,13).
 
 <hr>
 
