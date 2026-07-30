@@ -282,7 +282,7 @@
 ### Verified Upper Highway Route to West Route 8 (Turn 22259)
 - Col 52 gap at (52,13) is a south-facing ledge (one-way south hop down to Lower Highway).
 - Lower Highway (Rows 14/15) is enclosed by south-facing ledges and mountain rock at Cols 24-27 and Col 9.
-- Access to Row 3 Northern Grass Highway: Enter Route 8 from Lavender Town at (59,9) -> West to (52,9) -> Up 6 steps to Row 3 at (52,3) -> West along Row 3 to Column 0 (Underground Path / West Gatehouse)!
+- Physical Boundary Probing Protocol: All future Route 8 traversal must proceed tile-by-tile with single-step probing to empirically map physical obstacles.
 ### Master Boundary Discovery: Column 46 Gap & Row 7 Pavement (Turn 22273)
 - Column 45 Mountain Rock Wall spans Rows 8-13, but Row 7 and Row 6 are OPEN light grey pavement across Cols 42-45!
 
