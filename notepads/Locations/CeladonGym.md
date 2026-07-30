@@ -7,13 +7,15 @@
 - **Overworld Entrance Connection:** The overworld entrance is at Celadon City (12, 27).
 
 ### Verified Walkable Gym Coordinates:
-- Row 5: (3, 5), (6, 5)
+- Row 3: (8, 3), (9, 3)
+- Row 4: (9, 4)
+- Row 5: (3, 5), (6, 5), (7, 5), (8, 5)
 - Row 6: (3, 6), (5, 6), (6, 6)
-- Row 7: (5, 7)
+- Row 7: (5, 7), (8, 7)
 - Row 8: (1, 8), (4, 8), (5, 8)
 - Row 9: (1, 9), (4, 9), (5, 9)
-- Row 10: (1, 10), (2, 10), (3, 10), (4, 10), (5, 10)
-- Row 11: (4, 11)
+- Row 10: (1, 10), (2, 10), (3, 10), (4, 10), (5, 10), (7, 10)
+- Row 11: (4, 11), (7, 11)
 - Row 13: (4, 13)
 - Row 17: (4, 17)
 
@@ -24,6 +26,7 @@
 - **Beauty Bridget:** Located at (3, 4) facing Down. Her line of sight extends 1 tile (to column 3 on row 5). Defeated on Turn 13141.
 - **Beauty Tamia:** Located at (6, 10) facing Left. Her line of sight extends 1 tile (to column 5 on row 10). Defeated on Turn 13182.
 - **Beauty Lori:** Located at (1, 5) facing Down. Her line of sight extends 3 tiles (to column 1 on row 8). Defeated on Turn 13235.
+- **Gym Trainer:** Located at (9, 5) facing Down. Undefeated.
 
 ## Structural Boundaries & Obstacles
 - **Cuttable Bush:** Located at (5, 7). Cut on Turn 13062 to open the central vertical corridor. Note: Cuttable bushes in this Gym regenerate as soon as they scroll off-screen or if the player walks far enough away (discovered on Turn 13258).
