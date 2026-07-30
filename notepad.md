@@ -216,10 +216,10 @@
 - Column 19 mountain rock wall spans Rows 6-11. Row 12 at (19,12) is open green grass bypassing Col 19.
 - Row 12 (Cols 0-20) is an open green grass highway connecting Central Sector to Western Sector (Underground Path).
 - Verified Northern Highway past Column 45 (Turn 22029): Row 6 and Row 7 at Column 45 (45,6 and 45,7) are open light grey pavement connecting Eastern Sector to Central/Western Sector!
-### Key Topology Discovery: Northern Highway Mountain Pass (Turn 22106)
-- HYPOTHESIS TO TEST ON-SITE: Row 7 at (17,7) and (18,7) visually appears to be a gap through the mountain wall. Must physically step on (18,7) and (17,7) from (20,7) to verify passability.
-- Row 11 & Row 13 ledges block northbound access from Row 14/15, so access to Western Route 8 (Rows 7-9) MUST be approached via the Upper Northern Highway (Row 7-9 from Col 59/Col 20).
-- Cols 46-49 (Rows 5-7): Solid mountain rock wall blocking Northern Highway at Col 46. Highway from Eastern Sector to Western Sector is accessed exclusively via Col 52-53 Gap (52,10)-(53,14) down to Row 14/15 Lower Highway.
+### Verified Route 8 Boundaries (Turn 22128)
+- Column 19 (Rows 6-11): Solid mountain rock wall blocking Northern Highway.
+- Row 9/10 at Column 20: South-facing ledge blocking northbound access from Row 10 to Row 9.
+- Lower Highway (Rows 14 & 15): Open pavement corridor from Column 52 West past Column 16 to Column 10. Next test: probe West of Column 10 on Rows 14 and 15.
 
 <hr>
 
