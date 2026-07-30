@@ -38,3 +38,7 @@
 - Mountain Rock Wall ends at Column 59!
 - Column 60 and Column 61 are OPEN light grey pavement connecting Row 8 UP through Rows 7, 6, 5, 4 to Row 3 Northern Grass Highway at (60,3)!
 - Master Northern Highway Route to West Route 8: From (59,9) -> Right 1 to (60,9) or (60,8) -> Up to Row 3 at (60,3) -> Left along Row 3 past all mountain cliffs directly to Column 0 (Underground Path / West Gatehouse)!
+### ULTIMATE MASTER DISCOVERY: Row 4 (y=4) Northern Pavement Highway (Turn 22284)
+- y=3 and y=2 are blue water/river boundary tiles along the north border.
+- Row 4 (y=4) is an UNINTERRUPTED open light grey pavement highway spanning the entire width of Route 8!
+- Route to Underground Path / West Gatehouse: From (2,5) -> Up 1 to (2,4) -> Walk Left along Row 4 (y=4) pavement past all mountain cliffs directly to Underground Path (Cols 0-8)!
