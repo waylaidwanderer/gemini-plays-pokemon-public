@@ -1,14 +1,13 @@
-## Verified Lavender Town & Route 8 Points of Interest
-- Lavender Town Pokemon Center: Joy healed party at (3,3).
-- House at (11,19) in Lavender Town: Warp leads indoors at (15,3).
-- Route 8 Entrance: Connects West from Lavender Town at (59,9).
-## Map Discoveries (Turn 21064)
-- Wild grass area in NW Lavender Town: Cols 9-13, Rows 6-9.
-- Gravestone fence line at Col 15 (Rows 5-12).
-- Water channel at Cols 16-17 (Rows 2-12).
-- Courtyard with tan diamond pavement visible at Cols 18-19 (Rows 2-12).
-- Col 14 is open north-south pathway from Row 6 down to Row 20+.
-- Verified North-West Building & Rock Tunnel Entrance:
-  - Rock Tunnel Entrance at (8,17) warps directly into Rock Tunnel 1F at (15,3).
-  - Signpost at (7,19) reads "ROCK TUNNEL".
-  - The upper platform along Row 18 across Cols 2, 3, 4, 5, 6, 7, 8 connects (8,18) directly West to Col 2 at (2,18), then South through alcoves at (2,18) -> (2,19) -> (2,20) down to the main courtyard at (2,22..27).
+## Verified Lavender Town Topology & Points of Interest
+
+### Key Buildings & Doors
+- **Pokémon Center**: Entrance at (11,19) (white path at 10..13, 20..21). Joy heals party at (3,3) inside.
+- **Rock Tunnel Entrance**: Black cave archway at (8,17) in NW Lavender Town. Warps directly to Rock Tunnel 1F (15,3).
+- **Rock Tunnel Signpost**: Sign at (7,19) reads "ROCK TUNNEL".
+- **Volunteer House Courtyard**: Tan white brick pavement at Cols 2..7, Rows 22..27 in SW Lavender Town.
+
+### Perimeter & Geography
+- **West Exit**: Route 8 connects West at (0,9).
+- **South Exit**: Route 12 connects South at Row 30 (Cols 10..12). Row 30 forms a solid cliff/ledge border across Cols 0..30.
+- **East Island (Pokémon Tower Courtyard)**: Cols 18..19 feature tan diamond pavement spanning Rows 3..30. It is separated from the main town (Cols 0..14) by a 2-tile wide water channel at Cols 16..17 and gravestone line at Col 15 (Rows 5..29), and a northern water channel at Row 3.
+- **Cut Trees**: Tree at (9,18) was cut with SPROUT's CUT, clearing an open grass tile between NW platform and PC exterior!
