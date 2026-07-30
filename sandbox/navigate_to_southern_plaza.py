@@ -1,48 +1,43 @@
 import mgba
 import time
 
-def walk_to(target_x, target_y):
-    pos = mgba.get_coordinates()
-    print(f"Walking to ({target_x}, {target_y}) from {pos}")
-    
-    while pos['x'] != target_x or pos['y'] != target_y:
-        dx = target_x - pos['x']
-        dy = target_y - pos['y']
-        
-        button = None
-        if dy > 0:
-            button = "Down"
-        elif dy < 0:
-            button = "Up"
-        elif dx > 0:
-            button = "Right"
-        elif dx < 0:
-            button = "Left"
-            
-        if not button:
-            break
-            
-        mgba.press_buttons([button])
-        time.sleep(0.35) # robust delay
-        
+# Current position is (9, 7).
+# Let's walk the path to (3, 7) and then exit.
+
+path = [
+    ("Left", 4), # (9,7) -> (5,7)
+    ("Up", 3),   # (5,7) -> (5,4)
+    ("Left", 1), # (5,4) -> (4,4)
+    ("Up", 3),   # (4,4) -> (4,1)
+    ("Left", 1), # (4,1) -> (3,1)
+    ("Down", 6), # (3,1) -> (3,7)
+]
+
+print("Starting walk to the exit (3, 7)...")
+for direction, steps in path:
+    for i in range(steps):
+        pos = mgba.get_coordinates()
+        print(f"At {pos}, pressing {direction}...")
+        mgba.press_buttons([direction])
+        time.sleep(0.35)
         new_pos = mgba.get_coordinates()
         if new_pos == pos:
-            # Try once more
+            # retry once
             time.sleep(0.5)
-            mgba.press_buttons([button])
+            mgba.press_buttons([direction])
             time.sleep(0.35)
             new_pos = mgba.get_coordinates()
             if new_pos == pos:
-                print(f"Blocked at {pos}")
-                return False
-        pos = new_pos
-    return True
+                print(f"FAILED to move {direction} at {pos}")
+                break
 
-# Walk back to the southern plaza
-walk_to(16, 10)
-walk_to(16, 22)
-walk_to(31, 22)
-walk_to(31, 28)
+pos = mgba.get_coordinates()
+print(f"Final position before exit: {pos}")
 
-screenshot_path = mgba.take_screenshot()
-print(f"Reached southern plaza! Screenshot taken: {screenshot_path}")
+if pos['x'] == 3 and pos['y'] == 7:
+    print("Pressing Down to exit...")
+    mgba.press_buttons(["Down"])
+    time.sleep(1.0)
+    print(f"New position after exit: {mgba.get_coordinates()}")
+else:
+    print("Not at exit position, not exiting.")
