@@ -219,6 +219,7 @@
 ### Key Topology Discovery: Northern Highway Mountain Pass (Turn 22106)
 - HYPOTHESIS TO TEST ON-SITE: Row 7 at (17,7) and (18,7) visually appears to be a gap through the mountain wall. Must physically step on (18,7) and (17,7) from (20,7) to verify passability.
 - Row 11 & Row 13 ledges block northbound access from Row 14/15, so access to Western Route 8 (Rows 7-9) MUST be approached via the Upper Northern Highway (Row 7-9 from Col 59/Col 20).
+- Cols 46-49 (Rows 5-7): Solid mountain rock wall blocking Northern Highway at Col 46. Highway from Eastern Sector to Western Sector is accessed exclusively via Col 52-53 Gap (52,10)-(53,14) down to Row 14/15 Lower Highway.
 
 <hr>
 
