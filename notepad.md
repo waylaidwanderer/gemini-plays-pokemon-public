@@ -487,11 +487,15 @@
 
 # Celadon Gym - Indoor Mapping & Navigation
 
+## Temporal Context
+- **Gym Entry:** Turn 13031.
+
 ## Mapped Coordinates & Layout
 - **Overworld Entrance Connection:** The overworld entrance is at Celadon City (12, 27).
 
 ### Verified Walkable Gym Coordinates:
-- Row 6: (5, 6)
+- Row 5: (6, 5)
+- Row 6: (5, 6), (6, 6)
 - Row 7: (5, 7)
 - Row 8: (4, 8), (5, 8)
 - Row 9: (4, 9), (5, 9)
@@ -503,6 +507,7 @@
 ## Gym Trainers and Lines of Sight
 - **Lass:** Located at (3, 11). Her line of sight extends 2 tiles to the right (to column 4 on row 11). Defeated on Turn 13051.
 - **Cooltrainer Mary:** Originally located at (5, 3), walked down to (5, 5) to challenge player. Defeated on Turn 13093.
+- **Lass Kay:** Located at (6, 4) facing Down. Her line of sight extends 1 tile (to column 6 on row 5). Engaged on Turn 13103, currently in battle.
 
 ## Structural Boundaries & Obstacles
 - **Cuttable Bush:** Located at (5, 7). Cut on Turn 13062 to open the central vertical corridor.
