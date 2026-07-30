@@ -16,6 +16,22 @@
 - Row 16: (10, 16)
 - Row 17: (10, 17)
 - Row 18: (10, 18)
+- Row 19: (10, 19)
+- Row 20: (10, 20)
+- Row 21: (10, 21)
+- Row 22: (10, 22), (11, 22), (12, 22), (13, 22), (14, 22), (15, 22), (16, 22), (17, 22), (18, 22), (19, 22), (20, 22), (21, 22), (22, 22)
+- Row 23: (22, 23)
+- Row 24: (22, 24)
+- Row 25: (22, 25)
+- Row 26: (22, 26)
+- Row 27: (22, 27)
+- Row 28: (22, 28)
+- Row 29: (22, 29)
+- Row 30: (22, 30)
+- Row 31: (22, 31), (23, 31), (24, 31), (25, 31), (26, 31), (27, 31), (28, 31), (29, 31), (30, 31), (31, 31), (32, 31), (33, 31), (34, 31), (35, 31)
+- Row 32: (35, 32)
+- Row 33: (35, 33)
+- Row 34: (16, 34), (17, 34), (18, 34), (19, 34), (20, 34), (21, 34), (22, 34), (23, 34), (24, 34), (25, 34), (26, 34), (27, 34), (28, 34), (29, 34), (30, 34), (31, 34), (32, 34), (33, 34), (34, 34), (35, 34)
 
 ### Verified Walkable Indoor Coordinates:
 #### Celadon Department Store Rooftop Square (6F)
@@ -23,6 +39,11 @@
 - Row 4: (2, 4), (3, 4), (12, 4), (13, 4), (14, 4), (15, 4), (16, 4), (17, 4)
 - Row 5: (2, 5), (7, 5), (10, 5), (12, 5), (13, 5), (14, 5), (15, 5), (16, 5), (17, 5)
 - Row 6: (2, 6), (7, 6), (8, 6), (9, 6), (10, 6), (11, 6), (12, 6), (13, 6), (14, 6), (15, 6), (16, 6), (17, 6)
+
+## Structural Boundaries & Obstacles
+
+- **Cuttable Bush:** Located at (35, 32). This bush blocks access to the narrow horizontal grass corridor that leads to the Celadon City Gym.
+- **Gym Path Corridor:** A narrow horizontal grass corridor located along Rows 33 and 34, spanning columns 16 to 35. It is bounded by decorative trees on Row 32 and Row 35.
 
 ## Major Points of Interest
 - **Celadon Gym:** Location To Be Determined. Gym Leader Erika uses Grass-type Pokémon.
