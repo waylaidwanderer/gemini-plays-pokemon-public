@@ -53,3 +53,8 @@
 - Row 4/3 at Col -1 to -4 is blocked by mountain cliff wall.
 - Open Westbound Corridor is Row 8 pavement running West across (-1,8), (-2,8), (-3,8), (-4,8)...
 - Route from (0,4): Right 2 to (2,4) -> Down 4 through (2,5) gateway to Row 8 (2,8) -> Left along Row 8 pavement into (-1,8) and West to Underground Path!
+### Empirical Probe Result (Turn 22538)
+- (45,8) is SOLID MOUNTAIN WALL (Left from 46,8 bumped).
+- (46,7) is SOLID MOUNTAIN CLIFF (Up from 46,8 bumped).
+- Verified Route 8 Master Solution: Row 5 at Cols 42-45 is a south-facing ledge hopping DOWN from Row 4 Northern Highway directly onto Row 6 Western Pavement Highway at (45,6)!
+- Route to Row 4 Northern Highway: East end (59,9) -> Col 60/61 gateway -> Row 4 West to Col 45 -> hop down ledge to (45,6) -> West to Underground Path!
