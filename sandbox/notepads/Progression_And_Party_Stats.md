@@ -35,8 +35,9 @@
 - **Burgled House:** Explored in Cerulean City.
 - **S.S. Anne:** Boarded and cleared, obtained Cut from the Captain.
 
-## Verified Inventory (as of Turn 13603)
+## Verified Inventory (as of Turn 13711)
 - **Super Potion:** 5 (Purchased on Turn 13585)
 - **Antidote:** 5 (Purchased on Turn 13591)
 - **Awakening:** 5 (Purchased on Turn 13561)
 - **Parlyz Heal:** 5 (Purchased on Turn 13566)
+- **TM21 (Mega Drain):** 1 (Obtained from Erika on Turn 13692)
