@@ -168,30 +168,27 @@
 
 <h1><code>Locations/Route_8.md</code></h1>
 
-## Verified Route 8 Overworld Geography & Topology
+## Verified Master Route 8 Topology & Geography (Turn 22352)
 
-### Verified Boundaries & Ledges
-- **Row 11 Ledge**: One-way south ledge running horizontally across Cols 10-13, separating the upper building pavement (Row 10-11) from the lower grass path (Row 12).
-- **Row 13 Ledge**: One-way south ledge across Cols 10-28 and Cols 30-33, with an open tan gravel gap at Column 29 (29,13).
-- **Column 19 Obstacle**: Mountain rock wall across Rows 6-11. Bypassed via Row 12 (open green grass across Cols 16-19) on the Upper Highway.
-- **Column 45 Obstacle**: Mountain rock wall across Rows 8-13. Open passage through Cols 45 at Rows 14-15 (Lower Highway).
-- **Column 27 Cliff**: Solid mountain cliff across Rows 12-18 (Row 12 blocked at 27,12). Open light grey pavement at Rows 8-11.
+### Fast Travel & Emergency Resets
+- LUNA's TELEPORT warps directly from Route 8 to Lavender Town Pokémon Center at (11, 20).
+- Re-entering Route 8 from Lavender Town (0, 9) places player on Route 8 (59, 9) on Upper Highway pavement (Row 8/9).
 
-### Points of Interest & Fast Travel
+### Upper Highway Sector (Rows 8 & 9, Cols 46-59)
+- Open light grey pavement from Col 59 West to Col 46 on Rows 8 & 9.
+- Super Nerd Trainer NPC at (48, 8) facing Left.
+- Col 45 Mountain Rock Wall spans Rows 8-13 across Cols 42-45.
+- Col 60/61 Northern Highway Corridor: Open pavement at Cols 60-61 connects Row 8 UP through Rows 7, 6, 5, 4 to Row 3/4 Northern Pavement/Grass Highway.
 
-- **Fast Travel / Emergency Reset**: LUNA's TELEPORT warps directly from Route 8 to Lavender Town Pokémon Center at (11,20).
-### Verified Physical Collision Boundaries
-- (16,15), (45,15): Trainer NPCs.
+### Lower Highway Sector (Rows 14 & 15)
+- Col 52 Gap at (52, 13) is a south-facing ledge (one-way south hop down from Row 9 to Row 14 Lower Highway).
+- Row 14 pavement connects Col 52 West to Col 29 (29, 14) -> Up through Col 29 tan gravel gap (29, 13) to Row 12 Green Grass Highway at (29, 12).
+- Col 24-27 Mountain Wall spans Rows 12-16 across Cols 24-27. Bypassed via Row 10 light grey pavement: (28, 12) -> Up 2 to (28, 10) -> Left 8 to (20, 10) -> Down 2 to (20, 12) -> Left 7 through (19, 12) green grass gap to True Western Sector at (13, 12).
 
-- **Row 9 Ledge**: One-way south ledge horizontally across Cols 21-29, separating Upper Pavement (Row 8) from Lower Pavement (Row 10).
-- **Row 12 Grass Highway**: Open green grass corridor connecting Central Sector (Cols 20-28) past Column 19 at (19,12) to Column 10 (blocked at Column 9 by mountain rock wall).
-### Verified Collision Probe Results (Turn 21991)
-- Column 9 (Rows 10-15) is solid mountain rock wall (checkered rock tiles) blocking West progress from Row 10, Row 12, and Row 14 pavement/grass.
-- Row 14 Lower Highway connects Col 20 West to Col 10 (10,14), but is blocked West at (9,14) by mountain rock.
-- Column 24-27 Mountain Wall (Rows 12-15): Solid mountain wall blocking Lower Highway across Cols 24-27. Bypass via Column 20 Up to Row 10 -> East across Row 10 pavement (Cols 20-27) -> Down at Column 28.
-- Column 52-53 Gap (Rows 10-15): Open 2-tile wide vertical pavement highway at (52,10)-(53,14) connecting Upper Eastern Sector (Row 8/9) South to Lower Highway (Row 14/15).
-
-- Column 42-45 Mountain Wall (Rows 8-13): Solid mountain wall blocking Rows 8-13 across Cols 42-45. Bypassed exclusively via Row 14/15 Lower Highway.
+### True Western Sector (Cols 10-13, Rows 8-15)
+- Saffron City Gatehouse Guard NPC stands at (13, 10) facing Down.
+- Row 11 (Cols 10-13) is a south-facing tan gravel ledge separating Lower Sector (Rows 12-15) from Upper Sector Plaza (Rows 8-10).
+- Underground Path Entrance Building: Entrance doorway located at (62, 5) / (2, 5) / (13, 7) in the Northwest Sector.
 
 <hr>
 
