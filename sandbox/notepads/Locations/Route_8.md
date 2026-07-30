@@ -13,7 +13,6 @@
 ### Lower Highway Sector (Rows 14 & 15)
 - Col 52 Gap at (52, 13) is a south-facing ledge (one-way south hop down from Row 9 to Row 14 Lower Highway).
 - Row 14 pavement connects Col 52 West to Col 29 (29, 14) -> Up through Col 29 tan gravel gap (29, 13) to Row 12 Green Grass Highway at (29, 12).
-- Col 24-27 Mountain Wall spans Rows 12-16 across Cols 24-27. Bypassed via Row 10 light grey pavement: (28, 12) -> Up 2 to (28, 10) -> Left 8 to (20, 10) -> Down 2 to (20, 12) -> Left 7 through (19, 12) green grass gap to True Western Sector at (13, 12).
 
 ### Master Route 8 Complete Master Highway Route to Underground Path (Turn 22469)
 - Row 16 at (28,16) is a North-facing cliff wall from (28,15).
