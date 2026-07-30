@@ -258,6 +258,9 @@
 - Open Westbound Corridor is Row 8 pavement running West across (-1,8), (-2,8), (-3,8), (-4,8)...
 - Empirical Probe Result (Turn 22561): (27,12) is SOLID MOUNTAIN WALL (Left from 28,12 bumped).
 - Empirical Discovery (Turn 22561): Rows 10 & 11 at Column 27 are OPEN LIGHT GREY PAVEMENT connecting West to Cols 24-26!
+### Empirical Probe Result (Turn 22599)
+- (48,10) is SOLID ROCK CLIFF CORNER (Right from 47,10 bumped).
+- (47,9) is OPEN LIGHT GREY PAVEMENT connecting North to Row 9 Eastbound Highway.
 
 <hr>
 
