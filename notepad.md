@@ -491,12 +491,22 @@
 - **Overworld Entrance Connection:** The overworld entrance is at Celadon City (12, 27).
 
 ### Verified Walkable Gym Coordinates:
+- Row 6: (5, 6)
+- Row 7: (5, 7)
+- Row 8: (4, 8), (5, 8)
+- Row 9: (4, 9), (5, 9)
+- Row 10: (4, 10)
 - Row 11: (4, 11)
 - Row 13: (4, 13)
 - Row 17: (4, 17)
 
 ## Gym Trainers and Lines of Sight
 - **Lass:** Located at (3, 11). Her line of sight extends 2 tiles to the right (to column 4 on row 11). Defeated on Turn 13051.
+- **Cooltrainer Mary:** Originally located at (5, 3), walked down to (5, 5) to challenge player. Defeated on Turn 13093.
+
+## Structural Boundaries & Obstacles
+- **Cuttable Bush:** Located at (5, 7). Cut on Turn 13062 to open the central vertical corridor.
+- **Flower Pots:** Impassable flower pots on row 4 at (4, 4), (5, 4), and on row 5 at (4, 5).
 
 
 <hr>
