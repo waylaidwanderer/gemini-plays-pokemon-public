@@ -33,7 +33,6 @@
 ### Master Boundary Discovery: Column 46 Gap & Row 7 Pavement (Turn 22273)
 - Column 45 Mountain Rock Wall spans Rows 8-13, but Row 7 and Row 6 are OPEN light grey pavement across Cols 42-45!
 
-- Route past Col 45: From (46,9) -> Up to (46,7) -> Left along Row 7 pavement across Cols 45, 44, 43, 42 to Western Sector!
 ### MASTER TOPOLOGY DISCOVERY: Row 9 Tan Gravel Westbound Highway (Turn 22384)
 - Column 46 (46,7) is a south-facing tan gravel ledge / wall.
 - Row 9 at (45,9), (44,9), (43,9), (42,9) is an OPEN tan gravel pathway connecting Column 46 West past Column 45!
