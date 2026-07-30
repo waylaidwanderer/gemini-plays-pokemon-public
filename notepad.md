@@ -271,7 +271,6 @@
 ### Verified Physical Collision Boundaries
 - (16,15), (45,15): Trainer NPCs.
 - Row 13 (Cols 10-23): South-facing ledge (impassable from south).
-- Row 11 Ledge (Cols 10-18): South-facing ledge (impassable from south).
 - Mountain Rock Wall (Cols 16-19): Solid mountain rock across Rows 4-11.
 - **Row 9 Ledge**: One-way south ledge horizontally across Cols 21-29, separating Upper Pavement (Row 8) from Lower Pavement (Row 10).
 - **Row 12 Grass Highway**: Open green grass corridor connecting Central Sector (Cols 20-28) past Column 19 at (19,12) to Column 10 (blocked at Column 9 by mountain rock wall).
