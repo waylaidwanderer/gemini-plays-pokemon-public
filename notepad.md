@@ -261,6 +261,8 @@
 - Row 11 Ledge (Cols 10-18): South-facing ledge (impassable from south).
 - Mountain Rock Wall (Cols 16-19): Solid mountain rock across Rows 4-11.
 - **Row 9 Ledge**: One-way south ledge horizontally across Cols 21-29, separating Upper Pavement (Row 8) from Lower Pavement (Row 10).
+- **Row 12 Grass Highway**: Open green grass corridor connecting Central Sector (Cols 20-28) past Column 19 at (19,12) into Western Sector (Cols 0-13).
+- **Underground Path Entrance**: Building doorway located at (25,7) on Route 8, accessed from Row 8 at (25,8).
 
 <hr>
 
