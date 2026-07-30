@@ -15,9 +15,8 @@
 - Row 14 pavement connects Col 52 West to Col 29 (29, 14) -> Up through Col 29 tan gravel gap (29, 13) to Row 12 Green Grass Highway at (29, 12).
 - Col 24-27 Mountain Wall spans Rows 12-16 across Cols 24-27. Bypassed via Row 10 light grey pavement: (28, 12) -> Up 2 to (28, 10) -> Left 8 to (20, 10) -> Down 2 to (20, 12) -> Left 7 through (19, 12) green grass gap to True Western Sector at (13, 12).
 
-### True Western Sector & Underground Path Building Layout (Turn 22421)
-- Underground Path Building is located at Cols 0-8, Rows 11-15 in the far West Sector.
-- Column 9 (Rows 11-15) is the East Wall of the building.
-- Row 16 (Cols 10-15) is a south-facing ledge that can be hopped DOWN from (10,15) to Row 17 (10,17)!
-- ROW 17 & ROW 18 ARE THE OPEN TAN HIGHWAY CONNECTING COLS 0-15 UNDER THE BUILDING!
-- Master Route from (10,15): Down 2 to hop ledge onto Row 18 tan floor at (10,18) -> walk Left 7 steps along Row 18 past Col 9 wall to (3,18) -> step Up to enter Underground Path building doorway!
+### Master Route 8 Central Ridge Bypass Topology (Turn 22437)
+- Column 28 (28,10 through 28,16) is an UNINTERRUPTED GREEN GRASS VERTICAL CORRIDOR connecting Row 16 Lower Highway UP to Row 10 Pavement Highway!
+- Central Ridge Wall (Cols 24-27, Rows 12-15) is bypassed on the South via Row 16 Tan Gravel Highway (Cols 23-28).
+- MASTER ROUTE TO UNDERGROUND PATH:
+  From (23,14): Down 2 to Row 16 tan gravel at (23,16) -> Right 5 steps to Col 28 at (28,16) -> Up 6 steps along Col 28 grass corridor to Row 10 Pavement Highway at (28,10) -> walk Left 21 steps along Row 10 pavement past (13,10) Guard directly to Underground Path doorway at (7,10)!
