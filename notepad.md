@@ -110,7 +110,7 @@
 <h1><code>Locations/Rock_Tunnel_1F</code></h1>
 
 ## Verified 1F Routing & Layout (Turn 17402)
-- Entrance/North Exit (15,3) connects to Route 10 North (outside PC).
+- Lavender Town Exit/Entrance is at (15,3) in Rock Tunnel 1F (connects to Lavender Town 8,18).
 - Column 37: Open North from (37,11) to Ladder 4 at (37,3) (warps to B1F 37,3) (Turn 17413).
 - Column 11: Open vertical hallway from Row 16 at (11,16) North to Row 6 at (11,6).
 - 1F (23,11) and 1F (17,11) form a 1F internal teleport loop. Avoid stepping directly on (17,11) or (23,11).
