@@ -516,6 +516,7 @@
 ## Structural Boundaries & Obstacles
 - **Cuttable Bush:** Located at (5, 7). Cut on Turn 13062 to open the central vertical corridor.
 - **Flower Pots:** Impassable flower pots on row 4 at (4, 4), (5, 4), and on row 5 at (4, 5).
-- **Unverified Obstacles (Hedges/Pots):** Potential cuttable bushes are located at (2, 4) and (7, 5) but have not been in-game tested yet (unverified status).
+- **Cuttable Bush:** Located at (2, 4). Cut on Turn 13253 to open the western corridor.
+- **Unverified Obstacles (Hedges/Pots):** Potential cuttable bush is located at (7, 5) but has not been in-game tested yet (unverified status).
 
 <hr>
