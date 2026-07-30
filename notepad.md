@@ -1,7 +1,7 @@
 <h1><code>Main</code></h1>
 
 ## CURRENT STATUS & DASHBOARD (Turn 22615)
-- Location: Route 8 (6, 4)
+- Location: Route 8 (19, 13)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path -> Silph Scope -> Lavender Tower
 - Active Protocol: Returning West to Col 2 Gateway (2,4) to exit courtyard onto main Route 8 highway.
 
@@ -240,7 +240,7 @@
 ### MASTER TOPOLOGY DISCOVERY: Row 9 Tan Gravel Westbound Highway (Turn 22384)
 - Column 46 (46,7) is a south-facing tan gravel ledge / wall.
 - Row 9 at (45,9), (44,9), (43,9), (42,9) is an OPEN tan gravel pathway connecting Column 46 West past Column 45!
-- Master Westbound Route: From (46,8) -> Down 1 to Row 9 at (46,9) -> Walk Left continuously along Row 9 tan gravel path across Column 45, 44, 43, 42... directly to Western Route 8 & Underground Path!
+- Verified Basin Exit (Turn 22651): Column 19 at (19,13) is the open northbound gap connecting Lower Highway Row 14 pavement to Row 12 Green Grass Highway at (19,12)!
 ### Western Route 8 Systematic Probe Plan (Turn 22321)
 - Map Wrap Loop Clarification: (60,8) and (0,8) is the eastern map wrap boundary re-anchoring frame, NOT the Western Sector.
 - True Western Sector (Cols 0-18) is accessed via Row 12 Green Grass Highway through (19,12) gap to (13,12).
