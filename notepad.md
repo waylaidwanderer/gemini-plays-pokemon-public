@@ -514,9 +514,9 @@
 - **Beauty Lori:** Located at (1, 5) facing Down. Her line of sight extends 3 tiles (to column 1 on row 8). Defeated on Turn 13235.
 
 ## Structural Boundaries & Obstacles
-- **Cuttable Bush:** Located at (5, 7). Cut on Turn 13062 to open the central vertical corridor.
+- **Cuttable Bush:** Located at (5, 7). Cut on Turn 13062 to open the central vertical corridor. Note: Cuttable bushes in this Gym regenerate as soon as they scroll off-screen or if the player walks far enough away (discovered on Turn 13258).
 - **Flower Pots:** Impassable flower pots on row 4 at (4, 4), (5, 4), and on row 5 at (4, 5).
-- **Cuttable Bush:** Located at (2, 4). Cut on Turn 13253 to open the western corridor.
+- **Cuttable Bush:** Located at (2, 4). Cut on Turn 13253. Note: In-game testing on Turn 13256 confirmed that this is a dead-end pocket, blocked by a solid hedge at (2, 3) and Bridget at (3, 4).
 - **Unverified Obstacles (Hedges/Pots):** Potential cuttable bush is located at (7, 5) but has not been in-game tested yet (unverified status).
 
 <hr>
