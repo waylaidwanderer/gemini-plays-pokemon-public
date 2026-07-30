@@ -496,8 +496,8 @@
 
 ### Verified Walkable Gym Coordinates:
 - Row 3: (8, 3), (9, 3)
-- Row 4: (9, 4)
-- Row 5: (3, 5), (6, 5), (7, 5), (8, 5)
+- Row 4: (4, 4), (9, 4)
+- Row 5: (3, 5), (4, 5), (6, 5), (7, 5), (8, 5)
 - Row 6: (3, 6), (5, 6), (6, 6)
 - Row 7: (5, 7), (8, 7)
 - Row 8: (1, 8), (4, 8), (5, 8)
@@ -518,7 +518,7 @@
 
 ## Structural Boundaries & Obstacles
 - **Cuttable Bush:** Located at (5, 7). Cut on Turn 13062 to open the central vertical corridor. Note: Cuttable bushes in this Gym regenerate as soon as they scroll off-screen or if the player walks far enough away (discovered on Turn 13258).
-- **Flower Pots:** Impassable flower pots on row 4 at (4, 4), (5, 4), and on row 5 at (4, 5).
+- **Flower Pots:** Impassable flower pots on row 4 at (5, 4). Note: In-game testing on Turn 13311-13312 verified that (4, 4) and (4, 5) are actually walkable pink flower ground tiles, NOT impassable flower pots!
 - **Cuttable Bush:** Located at (2, 4). Cut on Turn 13253. Note: In-game testing on Turn 13256 confirmed that this is a dead-end pocket, blocked by a solid hedge at (2, 3) and Bridget at (3, 4).
 - **Cuttable Bush:** Located at (7, 5). Cut on Turn 13271 to open the eastern corridor.
 
