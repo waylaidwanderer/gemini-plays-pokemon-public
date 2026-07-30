@@ -175,7 +175,7 @@
 ### Verified Physical Boundaries & NW Platform Topology (Turn 21633)
 - Row 11 (Cols 2-12) is an impassable south-facing ledge.
 - Row 14 (Cols 4-8) is an impassable south-facing ledge.
-- (9,14) is a tan/white gravel gap through the Row 14 ledge connecting (9,13) South to (9,15).
+- Row 14 (Cols 4-9) is an impassable south-facing ledge.
 - NW Platform Entrance / Rock Tunnel cave archway is located at (8,17).
 - Route 8 Entrance is at (0,9) on the NW Platform.
 
