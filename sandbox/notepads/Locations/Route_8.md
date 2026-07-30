@@ -23,6 +23,5 @@
 - **Row 12 Grass Highway**: Open green grass corridor connecting Central Sector (Cols 20-28) past Column 19 at (19,12) to Column 10 (blocked at Column 9 by mountain rock wall).
 ### Verified Collision Probe Results (Turn 21991)
 - Column 9 (Rows 10-15) is solid mountain rock wall (checkered rock tiles) blocking West progress from Row 10, Row 12, and Row 14 pavement/grass.
-- Row 11 Ledge across Cols 10-18 is south-facing ledge (impassable from Row 12 going North).
 - Row 14 Lower Highway connects Col 20 West to Col 10 (10,14), but is blocked West at (9,14) by mountain rock.
 - Column 24-27 Mountain Wall (Rows 12-15): Solid mountain wall blocking Lower Highway across Cols 24-27. Bypass via Column 20 Up to Row 10 -> East across Row 10 pavement (Cols 20-27) -> Down at Column 28.
