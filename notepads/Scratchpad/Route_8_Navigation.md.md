@@ -22,3 +22,4 @@
 ### Route 12 Grass Highway Master Route (Turn 22135)
 - Row 12 is an uninterrupted green grass corridor from Col 29 (29,12) West past Col 19 (19,12) all the way to Col 10 (10,12).
 - Route to Row 12: Teleport to Lavender -> Route 8 (59,9) -> Col 52 gap to Row 14 (52,14) -> Left to Col 29 (29,14) -> Up through gravel gap (29,13) to Row 12 (29,12) -> Left along Row 12 to Col 10 (10,12) to inspect gatehouse/underground entrances!
+- Verified Lower Basin Enclosure (Turn 22151): Row 13 ledge is solid south-facing ledge across Cols 10-23 (probed on-site at 10-13, 20-23). Col 24 is solid mountain wall across Rows 12-16. Therefore, Lower Basin (Cols 10-23, Rows 14-15) has NO northbound or eastbound exit. Access to Western Gatehouse (Cols 10-13, Rows 8-10) is achieved EXCLUSIVELY via Row 12 Green Grass Highway from Col 29 gap (29,13).
