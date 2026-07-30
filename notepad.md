@@ -258,6 +258,7 @@
 - (13,13): South-facing ledge (impassable from south).
 - (16,13): South-facing ledge (impassable from south).
 - (20,13): South-facing ledge (impassable from south).
+- (21,13): South-facing ledge (impassable from south).
 
 <hr>
 
