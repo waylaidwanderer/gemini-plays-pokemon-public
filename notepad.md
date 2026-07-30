@@ -285,10 +285,12 @@
 - Column 45 Mountain Rock Wall spans Rows 8-13, but Row 7 and Row 6 are OPEN light grey pavement across Cols 42-45!
 
 - Route past Col 45: From (46,9) -> Up to (46,7) -> Left along Row 7 pavement across Cols 45, 44, 43, 42 to Western Sector!
-### MASTER TOPOLOGY DISCOVERY: Column 62/63 Northern Grass Gap (Turn 22368)
-- Mountain Rock Wall / Pillars block Column 60 and Column 61 at Row 5 ((60,5) and (61,5)).
-- Column 62 and Column 63 are OPEN light green grass connecting Row 9 UP through Row 5 gap directly to Row 3 Northern Grass Highway at (62,3)!
-- Master Northern Highway Route to West Route 8: From (59,9) -> Right 3 to (62,9) -> Up 6 to Row 3 at (62,3) -> Left along Row 3 past all mountain cliffs directly to Column 0 (Underground Path / West Gatehouse)!
+### MASTER TOPOLOGY DISCOVERY: Column 2 (x=2) / Column 62 Northern Grass Gap (Turn 22370)
+- Game coordinate system uses x=0 through x=59. Lavender Town entrance is at (59,9).
+- Stepping Right from (59,9) wraps to x=0 on Route 8.
+- Mountain Rock Wall / Pillars block x=0 and x=1 at Row 5 ((0,5) and (1,5)).
+- x=2 and x=3 are OPEN light green grass connecting Row 9 UP through Row 5 gap directly to Row 3 Northern Grass Highway at (2,3)!
+- Master Northern Highway Route to West Route 8: From (0,9) -> Right 2 to (2,9) -> Up 6 to Row 3 at (2,3) -> Left along Row 3 past all mountain cliffs directly to Western Route 8 / Underground Path!
 ### Western Route 8 Systematic Probe Plan (Turn 22321)
 - Map Wrap Loop Clarification: (60,8) and (0,8) is the eastern map wrap boundary re-anchoring frame, NOT the Western Sector.
 - True Western Sector (Cols 0-18) is accessed via Row 12 Green Grass Highway through (19,12) gap to (13,12).
