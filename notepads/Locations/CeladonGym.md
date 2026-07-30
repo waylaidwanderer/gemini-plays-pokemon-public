@@ -9,4 +9,4 @@
 - Row 17: (4, 17)
 
 ## Gym Trainers and Lines of Sight
-- **Lass:** Located at (2, 11). Her line of sight extends 2 tiles to the right (to column 4 on row 11). Defeated on Turn 13051.
+- **Lass:** Located at (3, 11). Her line of sight extends 2 tiles to the right (to column 4 on row 11). Defeated on Turn 13051.
