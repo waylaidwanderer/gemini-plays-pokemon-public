@@ -25,35 +25,34 @@
 - **Cascade Badge:** Earned by defeating Gym Leader Misty in Cerulean City Gym on Turn 5262.
 - **Thunder Badge:** Earned by defeating Gym Leader Lt. Surge in Vermilion City Gym on Turn 7025.
 
-## Current Party Stats (as of Turn 13243)
+## Current Party Stats (as of Turn 13441)
 1. **SHELLBY** (Blastoise)
    - Level: 42
-   - HP: 110/132 (Damaged during Celadon Gym battles as of Turn 13243)
-   - Status: Healthy (Active lead)
-   - Moveset: SKULL BASH (15/15), TAIL WHIP (30/30), BITE (12/25), WATER GUN (25/25)
+   - HP: 0/132
+   - Status: Fainted
+   - Moveset: SKULL BASH (15/15), TAIL WHIP (30/30), BITE (8/25), WATER GUN (25/25)
 2. **TRUFFLE** (Paras)
    - Level: 15
-   - HP: 39/39 (Healed on Turn 12865)
+   - HP: 4/39
    - Status: Healthy
 3. **GUSTY** (Pidgey)
    - Level: 5
-   - HP: 19/19 (Healed on Turn 12865)
-   - Status: Healthy
+   - HP: 19/19
+   - Status: Asleep (SLP)
 4. **NIBBLES** (Rattata)
    - Level: 7
-   - HP: 22/22 (Healed on Turn 12865)
-   - Status: Healthy
+   - HP: 0/22
+   - Status: Fainted
 5. **TESLA** (Pikachu)
    - Level: 19
-   - HP: 46/46 (Healed on Turn 12865)
-   - Status: Healthy
+   - HP: 0/46
+   - Status: Fainted
 
 ## Major Milestones and Items
 - **Cut:** Taught to Pokémon on Turn 6787.
 - **Bill's House:** Visited on Route 25 on Turn 4765. Restored Bill's human form.
 - **Burgled House:** Explored in Cerulean City.
 - **S.S. Anne:** Boarded and cleared, obtained Cut from the Captain.
-
 
 <hr>
 
@@ -497,11 +496,11 @@
 ### Verified Walkable Gym Coordinates:
 - Row 2: (1, 2), (8, 2), (9, 2)
 - Row 3: (1, 3), (8, 3), (9, 3)
-- Row 4: (1, 4), (2, 4), (4, 4), (8, 4), (9, 4)
-- Row 5: (3, 5), (4, 5), (6, 5), (7, 5), (8, 5)
-- Row 6: (3, 6), (5, 6), (6, 6), (8, 6)
-- Row 7: (5, 7), (8, 7)
-- Row 8: (1, 8), (4, 8), (5, 8)
+- Row 4: (0, 4), (1, 4), (2, 4), (4, 4), (8, 4), (9, 4)
+- Row 5: (0, 5), (3, 5), (4, 5), (6, 5), (7, 5), (8, 5)
+- Row 6: (0, 6), (3, 6), (5, 6), (6, 6), (8, 6)
+- Row 7: (0, 7), (5, 7), (8, 7)
+- Row 8: (0, 8), (1, 8), (4, 8), (5, 8)
 - Row 9: (1, 9), (4, 9), (5, 9)
 - Row 10: (1, 10), (2, 10), (3, 10), (4, 10), (5, 10), (7, 10)
 - Row 11: (4, 11), (5, 11), (6, 11), (7, 11)
