@@ -234,12 +234,15 @@
 - Column 45 Mountain Rock Wall spans Rows 8-13, but Row 7 and Row 6 are OPEN light grey pavement across Cols 42-45!
 
 - Route past Col 45: From (46,9) -> Up to (46,7) -> Left along Row 7 pavement across Cols 45, 44, 43, 42 to Western Sector!
-### MASTER TOPOLOGY DISCOVERY: Row 6 & Row 7 Westbound Highway (Turn 22372)
-- Row 3 and Row 2 at x=0 to x=5 are impassable water/cliff top.
-- Row 4 is blocked at x=-1 (x=59) by mountain rock.
-- Row 5 has pillar obstacles at x=0, x=1, x=4, x=5; x=2 and x=3 are an open grass gap.
-- ROW 6 AND ROW 7 ARE THE UNINTERRUPTED WESTBOUND HIGHWAY!
-- Route from (0,4): Right 2 to (2,4) -> Down 2 to (2,6) -> Walk LEFT continuously along Row 6 past x=0, x=59 (-1), x=58 (-2), Column 45, all the way to Western Route 8 & Underground Path!
+### MASTER TOPOLOGY DISCOVERY: Route 8 Westbound Highway past Col 45 (Turn 22375)
+- Column -1 (x=59) Mountain Rock Wall blocks Rows 2-7.
+- Rows 8 & 9 are OPEN light grey pavement at Column -1 (x=59).
+- Column 45 Mountain Rock Wall blocks Rows 8-13 across Cols 42-45.
+- MASTER WESTBOUND HIGHWAY ROUTE:
+  1. From (0,6): Down 2 to Row 8 pavement at (0,8).
+  2. Walk LEFT 14 steps along Row 8 pavement to Column 46 at (46,8).
+  3. Step UP 2 steps to Row 6 at (46,6).
+  4. Walk LEFT continuously along Row 6 across Column 45 to Western Route 8 & Underground Path!
 ### Western Route 8 Systematic Probe Plan (Turn 22321)
 - Map Wrap Loop Clarification: (60,8) and (0,8) is the eastern map wrap boundary re-anchoring frame, NOT the Western Sector.
 - True Western Sector (Cols 0-18) is accessed via Row 12 Green Grass Highway through (19,12) gap to (13,12).
