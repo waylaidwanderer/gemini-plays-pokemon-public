@@ -28,14 +28,15 @@ def walk_to(target_x, target_y):
             break
             
         mgba.press_buttons([button])
-        time.sleep(0.1)
+        time.sleep(0.35) # increased from 0.1 to 0.35s to allow tile animation to finish!
         
         new_pos = mgba.get_coordinates()
         if new_pos == pos:
-            # Try once more
-            time.sleep(0.3)
+            # Try once more with a longer pause
+            print(f"Position did not change. Retrying step {button}...")
+            time.sleep(0.5)
             mgba.press_buttons([button])
-            time.sleep(0.1)
+            time.sleep(0.35)
             new_pos = mgba.get_coordinates()
             if new_pos == pos:
                 print(f"Blocked at {pos}")
@@ -54,7 +55,7 @@ pos = mgba.get_coordinates()
 print(f"At {pos}, exploring Upward...")
 for y in range(30, 15, -1):
     mgba.press_buttons(["Up"])
-    time.sleep(0.1)
+    time.sleep(0.35) # increased from 0.1 to 0.35s!
     new_pos = mgba.get_coordinates()
     if new_pos == pos:
         print(f"Blocked going Up at {pos}")
