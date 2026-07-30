@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 22921)
-- Location: Route 8 (5, 9)
-- Primary Goal: Reach Celadon City via Route 8 Underground Path -> Silph Scope -> Lavender Tower
-- Active Protocol: Reached Western Sector at (5,9). Cutting tree at (5,8) to open corridor to Underground Path building entrance at (3,8).
+## CURRENT STATUS & DASHBOARD (Turn 22935)
+- Location: Underground Path Route 8 Entrance (39, 16)
+- Primary Goal: Traverse Underground Path to Route 7 -> Celadon City -> Silph Scope -> Lavender Tower
+- Active Protocol: Entered Route 8 Underground Path building at (1,7). Moving to stairs at (35,20) to enter Underground Path tunnel.
 - Verified Gatehouse Guard (Turn 22674): Saffron Gatehouse Guard at (24,7) states "I'm thirsty! I want something to drink!". Saffron Gatehouse requires Tea/Drink from Celadon Dept Store.
 
 <hr>
