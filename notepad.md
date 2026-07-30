@@ -172,6 +172,12 @@
 - **South Exit**: Route 12 connects South at Row 30 (Cols 10..12). Row 30 forms a solid cliff/ledge border across Cols 0..30.
 - **East Island (Pokémon Tower Courtyard)**: Cols 18..19 feature tan diamond pavement spanning Rows 3..30. It is separated from the main town (Cols 0..14) by a 2-tile wide water channel at Cols 16..17 and gravestone line at Col 15 (Rows 5..29), and a northern water channel at Row 3.
 - **Cut Trees**: Tree at (9,18) was cut with SPROUT's CUT, clearing an open grass tile between NW platform and PC exterior!
+### Verified Physical Boundaries & NW Platform Topology (Turn 21633)
+- Row 11 (Cols 2-12) is an impassable south-facing ledge.
+- Row 14 (Cols 4-8) is an impassable south-facing ledge.
+- (9,14) is a tan/white gravel gap through the Row 14 ledge connecting (9,13) South to (9,15).
+- NW Platform Entrance / Rock Tunnel cave archway is located at (8,17).
+- Route 8 Entrance is at (0,9) on the NW Platform.
 
 <hr>
 
