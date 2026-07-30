@@ -1,14 +1,12 @@
 <h1><code>Main</code></h1>
 
-## Position Tracking: Route 8 (13,14)
+## Position Tracking: Route 8 (13,14) - Preparing Teleport to Lavender Town
 
 ## VERIFIED OVERWORLD ROUTE TO CELADON CITY / UNDERGROUND PATH
-1. From Lavender Town PC exterior (11,20), walk North along Col 14 to Row 11 (14,11), Left 1 to (13,11), Up 2 to (13,9) in North Lavender Town.
-2. Walk West 13 steps along Row 9 to enter Route 8 at (59,9).
-3. Walk West along Row 9 to Col 46 at (46,9), step Down 5 to Row 14 at (46,14).
-4. Walk West along Row 14 through Col 45 gap at (45,14) straight West to Col 13 at (13,14).
-5. At (13,14), use SPROUT's CUT move on the Cut tree at (13,13) to open the hedge gap!
-6. Walk Up 2 steps through (13,13) to Row 12 at (13,12), Left 1 step to (12,12), and Up 1 step to enter Underground Path building doorway at (12,11)!
+1. Use LUNA's TELEPORT from party menu to warp instantly to Lavender Town PC exterior at (11,20).
+2. From Lavender Town PC exterior (11,20), walk North to Row 9 at (11,9), then West 13 steps to enter Route 8 at (59,9).
+3. Walk WEST continuously along the Upper Highway (Rows 9-11) past Col 46, Col 27, Col 20, Col 19 straight to Col 12 at (12,11) / (12,12)!
+4. Do NOT step Down over the Row 13 ledge at (20,13)! Stay on the Upper Highway (Rows 9-11) all the way to Underground Path building doorway at (12,11)!
 
 <hr>
 
