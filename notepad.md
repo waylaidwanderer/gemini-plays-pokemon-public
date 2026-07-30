@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 22801)
-- Location: Route 8 (10, 15)
+## CURRENT STATUS & DASHBOARD (Turn 22831)
+- Location: Route 8 (13, 12)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path -> Silph Scope -> Lavender Tower
-- Active Protocol: Single-step probing East along Row 14/15 pavement to Column 19 gap (19,13) to access Row 12 green grass.
+- Active Protocol: Empirical single-step boundary probing of Row 12 / Row 13 / Row 14 western terrain towards Column 3 Underground Path entrance.
 - Verified Gatehouse Guard (Turn 22674): Saffron Gatehouse Guard at (24,7) states "I'm thirsty! I want something to drink!". Saffron Gatehouse requires Tea/Drink from Celadon Dept Store.
 
 <hr>
