@@ -185,6 +185,7 @@
   5. At (29,14), walk UP 2 steps through tan gravel gap at (29,13) to (29,11)/(29,10) on the Upper Highway!
   6. Walk WEST along Row 10 through Col 27 gap at (27,10) straight to Underground Path building entrance at (13,10)!
 - Fast Travel / Emergency Reset: LUNA's TELEPORT warps directly from Route 8 to Lavender Town Pokémon Center at (11,20).
+- Column 19 is a solid mountain rock wall across Rows 6-11. The open gap through Column 19 is at Row 14 (19,14)!
 
 <hr>
 
