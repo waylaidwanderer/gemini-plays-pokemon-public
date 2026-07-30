@@ -1,6 +1,11 @@
 import mgba
 import time
 
+# 1. Close the CUT textbox
+print("Closing textbox...")
+mgba.press_buttons(["A"])
+time.sleep(0.5)
+
 def walk_to(target_x, target_y):
     pos = mgba.get_coordinates()
     print(f"Walking to ({target_x}, {target_y}) from {pos}")
@@ -38,40 +43,25 @@ def walk_to(target_x, target_y):
         pos = new_pos
     return True
 
-# 1. Walk from (10, 28) to (10, 34)
-walk_to(10, 34)
+# 2. Walk UP through the cut bush gap to Row 31 pavement
+walk_to(35, 31)
 
-# 2. Walk to (22, 34)
-walk_to(22, 34)
+# 3. Walk Left along Row 31 to column 28
+walk_to(28, 31)
 
-# 3. Walk to (22, 22)
-walk_to(22, 22)
-
-# 4. Explore Right from (22, 22)
+# 4. Explore UP column 28 to find the Game Corner entrance
 pos = mgba.get_coordinates()
-print(f"At {pos}, exploring Right...")
-for x in range(23, 50):
-    mgba.press_buttons(["Right"])
+print(f"At {pos}, exploring Upward...")
+for y in range(30, 15, -1):
+    mgba.press_buttons(["Up"])
     time.sleep(0.1)
     new_pos = mgba.get_coordinates()
     if new_pos == pos:
-        print(f"Blocked going Right at {pos}")
+        print(f"Blocked going Up at {pos}")
         break
     pos = new_pos
     print(f"Reached {pos}")
 
-# 5. Let's see what is Up or Down from here
-pos = mgba.get_coordinates()
-print(f"At {pos}, trying to go Down...")
-for y in range(pos['y'] + 1, 35):
-    mgba.press_buttons(["Down"])
-    time.sleep(0.1)
-    new_pos = mgba.get_coordinates()
-    if new_pos == pos:
-        print(f"Blocked going Down at {pos}")
-        break
-    pos = new_pos
-    print(f"Reached {pos}")
-
+# 5. Let's see if we can find the door around here
 screenshot_path = mgba.take_screenshot()
 print(f"Screenshot taken: {screenshot_path}")
