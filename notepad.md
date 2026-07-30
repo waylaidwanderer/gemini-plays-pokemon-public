@@ -1,6 +1,6 @@
 <h1><code>Main</code></h1>
 
-## Position Tracking: Route 8 (33,14)
+## Position Tracking: Lavender Town PC (11,20)
 
 ## VERIFIED OVERWORLD ROUTE TO CELADON CITY / UNDERGROUND PATH
 1. Teleport to Lavender Town Pokemon Center exterior at (11,20).
