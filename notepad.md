@@ -125,7 +125,7 @@
 - Ladder 3 at B1F (17,11) warps to 1F (23,11) in the Central Cavern of 1F (Turn 17514).
 - Cols 0-1 are rock wall. (2,21) is an alcove blocked South at (2,22). Row 14 is open East from Col 2 to Col 17 (Turn 17518).
 - Row 16 is solid rock wall across Cols 0-10. Row 11 is open East from Col 2 to Col 17 into Central Cavern (Turn 17524).
-- Cols 12-13 rock pillar spans Rows 2-13. From (11,7), go Down 7 to (11,14), Right 6 along Row 14 to (17,14), and Up 3 to Ladder 3 at (17,11) (Turn 17533).
+
 - Central Cavern (23,11) layout: Cols 20-23 Rows 8-9 form a rock pillar. Bypass via West along Row 10 to (19,10), Up to (19,6) (Turn 17543).
 
 <hr>
