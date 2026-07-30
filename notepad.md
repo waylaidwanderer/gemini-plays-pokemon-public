@@ -507,7 +507,7 @@
 ## Gym Trainers and Lines of Sight
 - **Lass:** Located at (3, 11). Her line of sight extends 2 tiles to the right (to column 4 on row 11). Defeated on Turn 13051.
 - **Cooltrainer Mary:** Originally located at (5, 3), walked down to (5, 5) to challenge player. Defeated on Turn 13093.
-- **Lass Kay:** Located at (6, 4) facing Down. Her line of sight extends 1 tile (to column 6 on row 5). Engaged on Turn 13103, currently in battle.
+- **Lass Kay:** Located at (6, 4) facing Down. Her line of sight extends 1 tile (to column 6 on row 5). Defeated on Turn 13125.
 
 ## Structural Boundaries & Obstacles
 - **Cuttable Bush:** Located at (5, 7). Cut on Turn 13062 to open the central vertical corridor.
