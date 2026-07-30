@@ -1,6 +1,6 @@
 <h1><code>Main</code></h1>
 
-## Position Tracking: Lavender Town (14,14)
+## Position Tracking: Lavender Town (13,11)
 
 ## VERIFIED OVERWORLD ROUTE TO CELADON CITY / UNDERGROUND PATH
 1. Use LUNA's TELEPORT from party menu to warp instantly to Lavender Town PC exterior at (11,20).
