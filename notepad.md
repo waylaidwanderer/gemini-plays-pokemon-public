@@ -191,6 +191,10 @@
 - Mountain Rock Wall (Cols 16-19): Solid mountain rock across Rows 4-11.
 - **Row 9 Ledge**: One-way south ledge horizontally across Cols 21-29, separating Upper Pavement (Row 8) from Lower Pavement (Row 10).
 - **Row 12 Grass Highway**: Open green grass corridor connecting Central Sector (Cols 20-28) past Column 19 at (19,12) into Western Sector (Cols 0-13).
+### Verified Collision Probe Results (Turn 21991)
+- Column 9 (Rows 10-15) is solid mountain rock wall (checkered rock tiles) blocking West progress from Row 10, Row 12, and Row 14 pavement/grass.
+- Row 11 Ledge across Cols 10-18 is south-facing ledge (impassable from Row 12 going North).
+- Row 14 Lower Highway connects Col 20 West to Col 10 (10,14), but is blocked West at (9,14) by mountain rock.
 
 <hr>
 
