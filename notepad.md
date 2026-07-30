@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 22741)
-- Location: Route 8 (19, 12)
+## CURRENT STATUS & DASHBOARD (Turn 22744)
+- Location: Route 8 (13, 12)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path -> Silph Scope -> Lavender Tower
-- Active Protocol: Systematic Westbound probing of Western Sector (Cols 0-18) to locate Underground Path building entrance.
+- Active Protocol: Eastbound transition to Col 29 gap (29,9) to access Row 8 Westbound Highway to Underground Path building (3,8).
 - Verified Gatehouse Guard (Turn 22674): Saffron Gatehouse Guard at (24,7) states "I'm thirsty! I want something to drink!". Saffron Gatehouse requires Tea/Drink from Celadon Dept Store.
 
 <hr>
@@ -329,6 +329,9 @@
 ### Empirical Probe Result (Turn 22599)
 - (48,10) is SOLID ROCK CLIFF CORNER (Right from 47,10 bumped).
 - (47,9) is OPEN LIGHT GREY PAVEMENT connecting North to Row 9 Eastbound Highway.
+### Verified Master Westbound Highway to Underground Path (Turn 22743)
+- From (13,12) on Row 12 green grass: East 6 to (19,12) -> East 10 to Col 29 (29,12) -> Up 2 through Col 29 tan gravel gap (29,9) to Row 8 pavement (29,8).
+- From (29,8): Walk Left continuously 26 steps along Row 8 light grey pavement highway past Cols 25, 19, 13 to Col 3 (3,8) [Underground Path building front entrance!].
 
 <hr>
 
