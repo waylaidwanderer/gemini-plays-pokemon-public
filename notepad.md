@@ -256,7 +256,8 @@
 - (24,14): Mountain rock wall (impassable from west).
 - (16,15), (45,15): Trainer NPCs.
 - Row 13 (Cols 10-23): South-facing ledge (impassable from south).
-- (25,9): South-facing ledge (impassable from south).
+- Row 11 Ledge (Cols 10-18): South-facing ledge (impassable from south).
+- Mountain Rock Wall (Cols 16-19): Solid mountain rock across Rows 4-11.
 - **Row 9 Ledge**: One-way south ledge horizontally across Cols 21-29, separating Upper Pavement (Row 8) from Lower Pavement (Row 10).
 
 <hr>
