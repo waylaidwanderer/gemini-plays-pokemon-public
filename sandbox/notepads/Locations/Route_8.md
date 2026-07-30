@@ -25,3 +25,4 @@
 - Column 9 (Rows 10-15) is solid mountain rock wall (checkered rock tiles) blocking West progress from Row 10, Row 12, and Row 14 pavement/grass.
 - Row 14 Lower Highway connects Col 20 West to Col 10 (10,14), but is blocked West at (9,14) by mountain rock.
 - Column 24-27 Mountain Wall (Rows 12-15): Solid mountain wall blocking Lower Highway across Cols 24-27. Bypass via Column 20 Up to Row 10 -> East across Row 10 pavement (Cols 20-27) -> Down at Column 28.
+- Column 52-53 Gap (Rows 10-15): Open 2-tile wide vertical pavement highway at (52,10)-(53,14) connecting Upper Eastern Sector (Row 8/9) South to Lower Highway (Row 14/15).
