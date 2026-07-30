@@ -311,11 +311,11 @@
 - Row 14 pavement connects Col 52 West to Col 29 (29, 14) -> Up through Col 29 tan gravel gap (29, 13) to Row 12 Green Grass Highway at (29, 12).
 - Col 24-27 Mountain Wall spans Rows 12-16 across Cols 24-27. Bypassed via Row 10 light grey pavement: (28, 12) -> Up 2 to (28, 10) -> Left 8 to (20, 10) -> Down 2 to (20, 12) -> Left 7 through (19, 12) green grass gap to True Western Sector at (13, 12).
 
-### Master Route 8 Central Ridge & Gatehouse Bypass Topology (Turn 22459)
-- Row 11 (Cols 10-13) is a south-facing ledge blocking direct northbound access from Row 12 grass to Row 10 pavement.
-- Column 28 (28,10 through 28,16) is the UNINTERRUPTED GREEN GRASS VERTICAL CORRIDOR connecting Row 12 Green Grass Highway UP to Row 10 Pavement Highway!
-- MASTER ROUTE TO UNDERGROUND PATH:
-  From (13,12): Walk Right 15 steps along Row 12 green grass to Col 28 at (28,12) -> Up 2 steps along Col 28 grass corridor to Row 10 Pavement Highway at (28,10) -> walk Left 21 steps along Row 10 pavement past (13,10) Guard directly to Underground Path doorway at (7,10)!
+### Master Route 8 Northern Pavement Highway Topology (Turn 22462)
+- Row 12 (Cols 24-27) is a 4-tile wide mountain cliff wall.
+- Rows 8, 9, 10 (Cols 20-27) are an OPEN LIGHT GREY PAVEMENT HIGHWAY bypassing the Row 12 cliff wall on the North!
+- Column 28 (28,10 to 28,12) is the green grass vertical corridor connecting Row 10 Pavement Highway to Row 12 Green Grass Highway.
+- Route from (23,12): Up 2 to Row 10 pavement at (23,10) -> Right 5 steps along Row 10 pavement to Col 28 at (28,10) -> Down 2 to Row 12 green grass at (28,12)!
 
 <hr>
 
