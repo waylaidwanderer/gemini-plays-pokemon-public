@@ -495,8 +495,9 @@
 - **Overworld Entrance Connection:** The overworld entrance is at Celadon City (12, 27).
 
 ### Verified Walkable Gym Coordinates:
-- Row 3: (8, 3), (9, 3)
-- Row 4: (4, 4), (9, 4)
+- Row 2: (1, 2), (8, 2), (9, 2)
+- Row 3: (1, 3), (8, 3), (9, 3)
+- Row 4: (1, 4), (2, 4), (4, 4), (9, 4)
 - Row 5: (3, 5), (4, 5), (6, 5), (7, 5), (8, 5)
 - Row 6: (3, 6), (5, 6), (6, 6)
 - Row 7: (5, 7), (8, 7)
