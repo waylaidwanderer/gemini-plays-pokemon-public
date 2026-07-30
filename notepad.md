@@ -226,6 +226,10 @@
 - Open gap through Row 5 Ledge is at Column 25 (25,5)!
 - Row 4 is blocked at Column 18 by mountain cliff (18,4).
 - Row 3 (Cols 0-25) is the uninterrupted Green Grass Highway bypassing all mountain cliffs and ledges on Route 8!
+### Verified Upper Highway Route to West Route 8 (Turn 22259)
+- Col 52 gap at (52,13) is a south-facing ledge (one-way south hop down to Lower Highway).
+- Lower Highway (Rows 14/15) is enclosed by south-facing ledges and mountain rock at Cols 24-27 and Col 9.
+- Access to Row 3 Northern Grass Highway: Enter Route 8 from Lavender Town at (59,9) -> West to (52,9) -> Up 6 steps to Row 3 at (52,3) -> West along Row 3 to Column 0 (Underground Path / West Gatehouse)!
 
 <hr>
 
