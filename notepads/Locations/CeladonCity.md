@@ -67,3 +67,9 @@
 - **4F (Wise Man Gifts):** Stairs DOWN at (12, 1), Stairs UP at (16, 1).
 - **5F (Drugstore):** Stairs DOWN at (16, 1), Stairs UP at (12, 1).
 - **Rooftop Square (6F):** Stairs DOWN at (15, 2). Vending machines are at (10, 2), (11, 2), and (12, 2) facing South. Sign at (13, 2) says "ROOFTOP SQUARE: VENDING MACHINES".
+
+## Escalator & Stairs Navigation Rules
+- Escalators are strictly one-way direction-locked transitions.
+- **Going Down (2F -> 1F):** The DOWN escalator on 2F is located at (12, 1). You cannot enter it from the bottom (12, 2) due to a physical exit barrier. You must walk around to the top at (12, 0) and walk DOWN into (12, 1). This transitions you to 1F, spawning at (12, 2) facing South.
+- **Going Up (1F -> 2F):** The UP escalator on 1F is located at (12, 1). You enter it from the bottom at (12, 2) by walking UP into (12, 1). This transitions you to 2F, spawning at (12, 2) facing South.
+- **Going Up to 3F (2F -> 3F):** The UP escalator on 2F is located at (16, 1). You enter it from the bottom at (16, 2) by walking UP into (16, 1).
