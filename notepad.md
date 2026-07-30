@@ -188,13 +188,11 @@
 - Row 14 pavement connects Col 52 West to Col 29 (29, 14) -> Up through Col 29 tan gravel gap (29, 13) to Row 12 Green Grass Highway at (29, 12).
 - Col 24-27 Mountain Wall spans Rows 12-16 across Cols 24-27. Bypassed via Row 10 light grey pavement: (28, 12) -> Up 2 to (28, 10) -> Left 8 to (20, 10) -> Down 2 to (20, 12) -> Left 7 through (19, 12) green grass gap to True Western Sector at (13, 12).
 
-### True Western Sector & Underground Path Building Layout (Turn 22403)
-- Underground Path Building is located at Cols 6-9, Rows 10-12 in the Western Sector.
-- Row 11 (Cols 10-13) is a south-facing tan gravel ledge blocking direct northbound access from Row 12 grass to Row 9 pavement.
-- Route to Underground Path Doorway on Row 9 (7,9 / 8,9):
-  1. From (10,12): Walk Right 10 steps along Row 12 grass to Col 20 at (20,12).
-  2. Step Up 3 steps along Col 20 pavement to Row 9 at (20,9).
-  3. Walk Left 13 steps along Row 9 pavement to Col 7 at (7,9) directly in front of Underground Path doorway!
+### True Western Sector & Underground Path Building Layout (Turn 22408)
+- Underground Path Building is located at Cols 0-5, Rows 10-13 in the far West Sector.
+- Entrance doorway is on Row 14 at Column 2 / 3 (2,14 / 3,14).
+- Row 14 & Row 15 form an open Light Grey Pavement Corridor across Cols 0-16 connecting directly to Underground Path doorway!
+- Route from (20,10): Down 2 to (20,12) -> Left 7 through gap (19,12) to (13,12) -> Down 2 to Row 14 pavement at (13,14) -> walk Left 10 steps along Row 14 pavement to Underground Path doorway at (3,14)!
 
 <hr>
 
