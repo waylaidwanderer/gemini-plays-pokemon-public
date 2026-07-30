@@ -298,6 +298,10 @@
 - Map Wrap Loop Clarification: (60,8) and (0,8) is the eastern map wrap boundary re-anchoring frame, NOT the Western Sector.
 - True Western Sector (Cols 0-18) is accessed via Row 12 Green Grass Highway through (19,12) gap to (13,12).
 - Route to (13,12): From (59,8) -> Down 4 to (59,12) -> Left 46 along Row 12 green grass to (13,12) -> Systematically probe Cols 10-18 for northbound access to Underground Path building!
+### Verified Serpentine Corridor Discovery (Turn 22513)
+- Col 49 mountain cliff is bypassed via Row 8/9 open pavement corridor at (49,9).
+- Col 46 (46,9 to 46,7/6) connects Row 9 North to Row 7 and Row 6 open pavement.
+- Col 45 mountain cliff is bypassed via Row 7/6 open pavement (45,7)/(45,6) West into Cols 44, 43, 42!
 
 <hr>
 
