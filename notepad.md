@@ -487,7 +487,7 @@
 - **Celadon Gym:** Entrance door at (12, 27) facing North on Celadon City map. Gym Leader Erika uses Grass-type Pokémon.
 - **Celadon Department Store:** Entrance door at (10, 13) facing North on Celadon City map. Sign at (12, 13) says "MART". It is a multi-story building.
 - **Celadon Mansion:** Located in the north-middle of the city. Sign at (21, 9) says "CELADON MANSION". Entrance doors are around (24, 9).
-- **Game Corner:** Location To Be Determined.
+- **Game Corner:** Entrance door at (31, 27) facing North on Celadon City map.
 
 ## Celadon Department Store Directory
 - **1F (Service Counter):** Stairs UP at (12, 1). Elevator at (11, 3).
