@@ -280,7 +280,7 @@
 - Access to Row 3 Northern Grass Highway: Enter Route 8 from Lavender Town at (59,9) -> West to (52,9) -> Up 6 steps to Row 3 at (52,3) -> West along Row 3 to Column 0 (Underground Path / West Gatehouse)!
 ### Master Boundary Discovery: Column 46 Gap & Row 7 Pavement (Turn 22273)
 - Column 45 Mountain Rock Wall spans Rows 8-13, but Row 7 and Row 6 are OPEN light grey pavement across Cols 42-45!
-- Column 46 (46,9 -> 46,7) is the open northbound corridor connecting Row 9 to Row 7 pavement highway!
+
 - Route past Col 45: From (46,9) -> Up to (46,7) -> Left along Row 7 pavement across Cols 45, 44, 43, 42 to Western Sector!
 ### MASTER TOPOLOGY DISCOVERY: Column 60/61 Northern Highway Corridor (Turn 22279)
 - Mountain Rock Wall ends at Column 59!
