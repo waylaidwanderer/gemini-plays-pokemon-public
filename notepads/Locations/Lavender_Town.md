@@ -1,3 +1,4 @@
-### Verified Overworld Highway to Route 8 (Turn 21731)
-- The upper grass corridor behind the Pokémon Center at Row 13 (Cols 2-14) is completely open green grass.
-- Route 8 Entrance at (0,9) is accessed from (14,14) -> Up to (14,13) -> West along Row 13 to (2,13) -> North to (2,9) -> West to (0,9).
+### Verified Overworld Highway to Route 8 (Turn 21738)
+- Ledge gap at (13,11) connects Lower Alley (Row 12/13) to NW Platform (Row 9/10).
+- Impassable boundaries: (14,11) is a stone pillar obstacle, (1,12) is a rock wall obstacle.
+- Route 8 Entrance at (0,9) is accessed via Row 13 open grass -> Up through (13,11) gravel gap to Row 9 -> West to (0,9).
