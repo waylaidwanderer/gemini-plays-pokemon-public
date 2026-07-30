@@ -17,3 +17,4 @@
 - (24,14): Mountain rock wall (impassable from west).
 - (16,15), (45,15): Trainer NPCs.
 - (13,13): South-facing ledge (impassable from south).
+- (16,13): South-facing ledge (impassable from south).
