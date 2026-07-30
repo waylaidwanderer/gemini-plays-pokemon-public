@@ -48,7 +48,7 @@
 ### Master Verified Connection to Row 3 Northern Highway (Turn 22517)
 - Rows 2 & 3 are an uninterrupted green grass highway across Cols 0-61.
 - Row 5 at Cols 50-51 is a south-facing ledge blocking northbound access from Row 6.
-- Connection to Row 3: From (59,9) walk Right to Col 60/61 -> Up along Col 60/61 to Row 3 (60,3) -> Left along Row 3 green grass to Underground Path at Col 3!
+- Physical Boundary Probing Protocol: All future Route 8 traversal must proceed tile-by-tile with single-step probing to empirically map physical obstacles.
 ### Master Verified Route 8 Complete Highway Route to Underground Path (Turn 22525)
 - Row 4/3 at Col -1 to -4 is blocked by mountain cliff wall.
 - Open Westbound Corridor is Row 8 pavement running West across (-1,8), (-2,8), (-3,8), (-4,8)...
