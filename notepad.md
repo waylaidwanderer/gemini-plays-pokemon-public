@@ -1,17 +1,13 @@
 <h1><code>Main</code></h1>
 
-## Position Tracking: Route 8 (32,14)
+## Position Tracking: Lavender Town PC (11,20)
 
-## ACTIVE MASTER ROUTE: ROUTE 8 COMPLETE OVERWORLD SOLUTION
-1. Teleport to Lavender Town Pokemon Center (11,20).
-2. Exit West to Route 8 entry (59,9).
-3. Walk West on Row 9 to Col 46 at (46,9).
-4. Walk Down 2 steps along Col 46 to Row 11 at (46,11).
-5. Walk West along Row 11 (y=11) above Row 13 ledge, through Col 27 cliff at (27,11) to (20,11) and Underground Path entrance at (13,10)!
-
-Verified Route 8 Geography & Topology:
-- Lavender Town exit is at (0,9) -> enters Route 8 Upper Highway at (59,9).
-- Upper Highway Row 11 (y=11) connects West across Column 27 cliff at (27,11) to (20,11).
+## VERIFIED OVERWORLD ROUTE TO CELADON CITY / UNDERGROUND PATH
+1. Current Position: Lavender Town Pokemon Center exterior at (11,20).
+2. Walk Right 2 steps to (13,20), Up 9 steps along Col 13 through tan gravel path (13,11) to North Lavender Town at (13,9).
+3. Walk West 13 steps along Row 9 from (13,9) to Route 8 entry at (59,9).
+4. On Route 8: STAY ON ROW 9 / ROW 10 (THE UPPER HIGHWAY)! DO NOT STEP DOWN ONTO ROW 11 / ROW 13 LEDGES!
+5. Walk West on Row 9/10 straight to Column 13 and enter Underground Path building at (13,10)!
 
 <hr>
 
