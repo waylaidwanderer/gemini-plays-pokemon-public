@@ -11,8 +11,6 @@
 
 - **Fast Travel / Emergency Reset**: LUNA's TELEPORT warps directly from Route 8 to Lavender Town Pokémon Center at (11,20).
 ### Verified Physical Collision Boundaries
-- (10,11): South-facing ledge (impassable from south).
-- (23,13): South-facing ledge (impassable from south).
 - (16,15), (45,15): Trainer NPCs.
 - Row 13 (Cols 10-23): South-facing ledge (impassable from south).
 - Row 11 Ledge (Cols 10-18): South-facing ledge (impassable from south).
