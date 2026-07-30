@@ -38,36 +38,37 @@ def walk_to(target_x, target_y):
         pos = new_pos
     return True
 
-# 1. Walk from Gym to (10, 22)
-walk_to(12, 29)
-walk_to(10, 29)
-walk_to(10, 22)
+# 1. Walk from (10, 28) to (10, 34)
+walk_to(10, 34)
 
-# 2. Walk to (22, 22)
+# 2. Walk to (22, 34)
+walk_to(22, 34)
+
+# 3. Walk to (22, 22)
 walk_to(22, 22)
 
-# Now, let's explore UP from (22, 22) to see what is there
-pos = mgba.get_coordinates()
-print(f"At {pos}, starting upward exploration...")
-for y in range(21, 10, -1):
-    mgba.press_buttons(["Up"])
-    time.sleep(0.1)
-    new_pos = mgba.get_coordinates()
-    if new_pos == pos:
-        print(f"Blocked going Up at {pos}")
-        break
-    pos = new_pos
-    print(f"Reached {pos}")
-
-# Let's see what is to the Right of our current position
+# 4. Explore Right from (22, 22)
 pos = mgba.get_coordinates()
 print(f"At {pos}, exploring Right...")
-for x in range(pos['x'] + 1, 40):
+for x in range(23, 50):
     mgba.press_buttons(["Right"])
     time.sleep(0.1)
     new_pos = mgba.get_coordinates()
     if new_pos == pos:
         print(f"Blocked going Right at {pos}")
+        break
+    pos = new_pos
+    print(f"Reached {pos}")
+
+# 5. Let's see what is Up or Down from here
+pos = mgba.get_coordinates()
+print(f"At {pos}, trying to go Down...")
+for y in range(pos['y'] + 1, 35):
+    mgba.press_buttons(["Down"])
+    time.sleep(0.1)
+    new_pos = mgba.get_coordinates()
+    if new_pos == pos:
+        print(f"Blocked going Down at {pos}")
         break
     pos = new_pos
     print(f"Reached {pos}")
