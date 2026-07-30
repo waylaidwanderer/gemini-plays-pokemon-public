@@ -180,6 +180,12 @@
 ### Points of Interest & Fast Travel
 
 - **Fast Travel / Emergency Reset**: LUNA's TELEPORT warps directly from Route 8 to Lavender Town Pokémon Center at (11,20).
+### Verified Physical Collision Boundaries
+- (10,11): South-facing ledge (impassable from south).
+- (23,13): South-facing ledge (impassable from south).
+- (9,15): Mountain rock wall (impassable from east).
+- (24,14): Mountain rock wall (impassable from west).
+- (16,15), (45,15): Trainer NPCs.
 
 <hr>
 
@@ -219,7 +225,7 @@
 - Row 11 is solid south wall across Cols 10-18.
 - Mountain rock at Cols 14-19 (Rows 8-11) separates Eastern Pavement (Cols 20-25) from Western Pavement (Cols 9-13).
 - Western Pavement (Cols 9-13, Rows 8-9) connects West across Column 9 into Western Sector (Cols 0-8).
-- Currently at (13,12) exploring Row 14/15 pavement West past Column 9 into Western Sector (Cols 0-8) to reach Underground Path.
+
 - Column 19 mountain rock wall spans Rows 6-11. Row 12 at (19,12) is open green grass bypassing Col 19.
 - Row 12 (Cols 0-20) is an open green grass highway connecting Central Sector to Western Sector (Underground Path).
 
