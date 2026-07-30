@@ -33,3 +33,9 @@
 - **Bill's House:** Visited on Route 25 on Turn 4765. Restored Bill's human form.
 - **Burgled House:** Explored in Cerulean City.
 - **S.S. Anne:** Boarded and cleared, obtained Cut from the Captain.
+
+## Verified Inventory (as of Turn 13603)
+- **Super Potion:** 5 (Purchased on Turn 13585)
+- **Antidote:** 5 (Purchased on Turn 13591)
+- **Awakening:** 5 (Purchased on Turn 13561)
+- **Parlyz Heal:** 5 (Purchased on Turn 13566)
