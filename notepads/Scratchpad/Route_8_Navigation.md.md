@@ -45,3 +45,7 @@
 - Col 49 mountain cliff is bypassed via Row 8/9 open pavement corridor at (49,9).
 - Col 46 (46,9 to 46,7/6) connects Row 9 North to Row 7 and Row 6 open pavement.
 - Col 45 mountain cliff is bypassed via Row 7/6 open pavement (45,7)/(45,6) West into Cols 44, 43, 42!
+### Master Verified Connection to Row 3 Northern Highway (Turn 22517)
+- Rows 2 & 3 are an uninterrupted green grass highway across Cols 0-61.
+- Row 5 at Cols 50-51 is a south-facing ledge blocking northbound access from Row 6.
+- Connection to Row 3: From (59,9) walk Right to Col 60/61 -> Up along Col 60/61 to Row 3 (60,3) -> Left along Row 3 green grass to Underground Path at Col 3!
