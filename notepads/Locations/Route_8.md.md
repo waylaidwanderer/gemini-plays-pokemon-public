@@ -15,7 +15,8 @@
 - Row 14 pavement connects Col 52 West to Col 29 (29, 14) -> Up through Col 29 tan gravel gap (29, 13) to Row 12 Green Grass Highway at (29, 12).
 - Col 24-27 Mountain Wall spans Rows 12-16 across Cols 24-27. Bypassed via Row 10 light grey pavement: (28, 12) -> Up 2 to (28, 10) -> Left 8 to (20, 10) -> Down 2 to (20, 12) -> Left 7 through (19, 12) green grass gap to True Western Sector at (13, 12).
 
-### True Western Sector (Cols 10-13, Rows 8-15)
+### True Western Sector (Cols 0-13, Rows 3-10)
+- Row 12 Grass Highway (Cols 10-23) is a dead-end basin enclosed by Row 11 north ledge, Row 13 south ledge, and Col 9 west cliff wall.
 - Saffron City Gatehouse Guard NPC stands at (13, 10) facing Down.
-- Row 11 (Cols 10-13) is a south-facing tan gravel ledge separating Lower Sector (Rows 12-15) from Upper Sector Plaza (Rows 8-10).
-- Underground Path Entrance Building: Entrance doorway located at (62, 5) / (2, 5) / (13, 7) in the Northwest Sector.
+- Access to Western Sector & Underground Path Building (Cols 0-8) is via ROW 3 NORTHERN GRASS HIGHWAY (Row 3, Cols 0-60).
+- Row 3 Northern Highway Route: Enter Route 8 from Lavender Town at (59,9) -> Right to (60,9) -> Up to Row 3 at (60,3) -> Walk West continuously along Row 3 to Column 0 (Underground Path Building at 2,5 / 13,7)!
