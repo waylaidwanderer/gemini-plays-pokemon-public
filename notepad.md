@@ -243,7 +243,6 @@
 
 - Column 19 mountain rock wall spans Rows 6-11. Row 12 at (19,12) is open green grass bypassing Col 19.
 - Row 12 (Cols 0-20) is an open green grass highway connecting Central Sector to Western Sector (Underground Path).
-- Verified Northern Highway past Column 45 (Turn 22029): Row 6 and Row 7 at Column 45 (45,6 and 45,7) are open light grey pavement connecting Eastern Sector to Central/Western Sector!
 ### Verified Route 8 Boundaries (Turn 22128)
 - Column 19 (Rows 6-11): Solid mountain rock wall blocking Northern Highway.
 - Row 9/10 at Column 20: South-facing ledge blocking northbound access from Row 10 to Row 9.
