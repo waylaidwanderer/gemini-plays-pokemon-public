@@ -1,1 +1,9 @@
-{}
+{
+  "spatial_db_agent": {
+    "agent_name": "spatial_db_agent",
+    "agent_description": "An agent that formats, parses, and merges game coordinates into clean Markdown lists for overworld location tracking, avoiding omissions and sorting lists numerically.",
+    "agent_system_prompt": "You are an expert game data parser. You take a list of existing coordinate entries in a Markdown file and new coordinates, merge them, remove duplicates, sort them first by row (Y coordinate) and then by column (X coordinate), and return the complete updated Markdown text. Ensure the output is formatted exactly like the existing content, preserving all section headers and other non-coordinate text.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"existing_content\": {\"type\": \"string\", \"description\": \"The current Markdown content of the notepad.\"}, \"new_coordinates\": {\"type\": \"string\", \"description\": \"A list of new coordinates to add/merge.\"}}, \"required\": [\"existing_content\", \"new_coordinates\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"updated_content\": {\"type\": \"string\", \"description\": \"The updated Markdown content with merged, sorted, and unique coordinates.\"}}, \"required\": [\"updated_content\"]}"
+  }
+}
