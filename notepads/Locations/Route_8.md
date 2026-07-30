@@ -8,5 +8,5 @@
 - **Column 27 Cliff**: Solid mountain cliff across Rows 12-18 (Row 12 blocked at 27,12). Open light grey pavement at Rows 8-11.
 
 ### Points of Interest & Fast Travel
-- **Underground Path Gate**: Located on Route 8 at Column 13 (Row 10). Accessible via the Upper Highway light grey pavement on Row 10/11.
+
 - **Fast Travel / Emergency Reset**: LUNA's TELEPORT warps directly from Route 8 to Lavender Town Pokémon Center at (11,20).
