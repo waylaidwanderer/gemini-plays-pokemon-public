@@ -22,7 +22,7 @@
 - Row 12 is an uninterrupted green grass corridor from Col 29 (29,12) West past Col 19 (19,12) all the way to Col 10 (10,12).
 - Route to Row 12: Teleport to Lavender -> Route 8 (59,9) -> Col 52 gap to Row 14 (52,14) -> Left to Col 29 (29,14) -> Up through gravel gap (29,13) to Row 12 (29,12) -> Left along Row 12 to Col 10 (10,12) to inspect gatehouse/underground entrances!
 - Verified Lower Basin Enclosure (Turn 22151): Row 13 ledge is solid south-facing ledge across Cols 10-23 (probed on-site at 10-13, 20-23). Col 24 is solid mountain wall across Rows 12-16. Therefore, Lower Basin (Cols 10-23, Rows 14-15) has NO northbound or eastbound exit. Access to Western Gatehouse (Cols 10-13, Rows 8-10) is achieved EXCLUSIVELY via Row 12 Green Grass Highway from Col 29 gap (29,13).
-### MASTER TOPOLOGY DISCOVERY: Route 8 Row 4 Northern Pass (Turn 22194)
+### MASTER TOPOLOGY DISCOVERY: Route 8 Row 3 Northern Pass (Turn 22198)
 - Open gap through Row 5 Ledge is at Column 25 (25,5)!
-- Row 4 (Cols 0-25) is an uninterrupted Green Grass Highway.
-- Column 19 Mountain Rock Wall ends at Row 5; Row 4 at (19,4) is an open diagonal gap connecting Central Sector directly to Western Sector (Underground Path / Cols 0-8) above all ledges!
+- Row 4 is blocked at Column 18 by mountain cliff (18,4).
+- Row 3 (Cols 0-25) is the uninterrupted Green Grass Highway bypassing all mountain cliffs and ledges on Route 8!
