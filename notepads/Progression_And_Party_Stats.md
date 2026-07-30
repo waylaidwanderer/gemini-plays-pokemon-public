@@ -4,6 +4,7 @@
 - **Boulder Badge:** Earned by defeating Gym Leader Brock in Pewter City Gym on Turn 1025.
 - **Cascade Badge:** Earned by defeating Gym Leader Misty in Cerulean City Gym on Turn 5262.
 - **Thunder Badge:** Earned by defeating Gym Leader Lt. Surge in Vermilion City Gym on Turn 7025.
+- **Rainbow Badge:** Earned by defeating Gym Leader Erika in Celadon City Gym on Turn 13682.
 
 ## Current Party Stats (as of Turn 13538)
 1. **SHELLBY** (Blastoise)
