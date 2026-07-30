@@ -264,6 +264,12 @@
 - (47,9) is OPEN LIGHT GREY PAVEMENT connecting North to Row 9 Eastbound Highway.
 ### Verified Master Westbound Highway to Underground Path (Turn 22743)
 - From (13,12) on Row 12 green grass: East 6 to (19,12) -> East 10 to Col 29 (29,12) -> Up 2 through Col 29 tan gravel gap (29,9) to Row 8 pavement (29,8).
+### Verified Physical Collision Boundaries at Column 10 (Turns 22849-22856)
+- (9, 14): SOLID MOUNTAIN ROCK CLIFF (probed Left from 10,14 bumped on turn 22850).
+- (10, 16): SOLID MOUNTAIN ROCK CLIFF (probed Down from 10,15 bumped on turn 22854).
+- (9, 15): SOLID MOUNTAIN ROCK CLIFF (probed Left from 10,15 bumped on turn 22856).
+- (10, 13): SOUTH-FACING LEDGE (one-way south hop down to 10,14).
+- RESULT: (10,14) and (10,15) form an ENCLOSED 2-TILE LOWER PAVEMENT CHANNEL bounded West by Col 9 cliff wall, South by Row 16 cliff wall, and North by Row 13 ledge wall. Exit is EAST along Row 14/15 pavement to Column 19 gap at (19,13).
 
 <hr>
 
