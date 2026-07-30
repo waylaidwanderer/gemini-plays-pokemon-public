@@ -178,6 +178,8 @@
 - Row 14 (Cols 4-9) is an impassable south-facing ledge.
 - NW Platform Entrance / Rock Tunnel cave archway is located at (8,17).
 - Route 8 Entrance is at (0,9) on the NW Platform.
+- Column 9 (Rows 14-17) is an impassable mountain rock wall pillar.
+- Row 13 (Cols 6-10) is open green grass above the mountain rock wall.
 
 <hr>
 
