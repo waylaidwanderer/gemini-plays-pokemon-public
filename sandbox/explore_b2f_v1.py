@@ -2,20 +2,17 @@ import mgba
 import time
 
 def main():
-    print("Starting B2F path test...")
+    print("Navigating to UP spinner at (12, 13)...")
     pos = mgba.get_coordinates()
-    print(f"Start pos: {pos}")
+    print(f"Current pos: {pos}")
     
-    # We are at (20, 12).
-    # Path: Up, Up, Left, Left, Left
-    # Buttons: Up, Up, Left, Left, Left
-    mgba.press_buttons(["Up", "Up", "Left", "Left", "Left"])
-    time.sleep(1)
+    # We are at (16, 10).
+    # Path: Left, Left, Down, Down, Down, Left, Left
+    mgba.press_buttons(["Left", "Left", "Down", "Down", "Down", "Left", "Left"])
+    time.sleep(3) # Wait for spin to complete
     
     pos = mgba.get_coordinates()
-    print(f"Position after path and spin: {pos}")
-    
-    # Let's take a screenshot to verify where we are
+    print(f"Position after spin: {pos}")
     mgba.take_screenshot()
 
 if __name__ == '__main__':
