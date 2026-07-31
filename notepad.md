@@ -283,6 +283,7 @@
 - (9, 15): SOLID MOUNTAIN ROCK CLIFF (probed Left from 10,15 bumped on turn 22856).
 - (10, 13): SOUTH-FACING LEDGE (one-way south hop down to 10,14).
 - RESULT: (10,14) and (10,15) form an ENCLOSED 2-TILE LOWER PAVEMENT CHANNEL bounded West by Col 9 cliff wall, South by Row 16 cliff wall, and North by Row 13 ledge wall. Exit is EAST along Row 14/15 pavement to Column 19 gap at (19,13).
+- Empirical Discovery (Turn 23794): Row 12 at (35,12) is SOLID MOUNTAIN ROCK CLIFF. Row 11 at (36,11) to (31,11) is OPEN GREEN GRASS bypassing Col 35 rock cliff!
 
 <hr>
 
