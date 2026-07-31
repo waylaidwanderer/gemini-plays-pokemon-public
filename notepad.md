@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 24798)
-- Location: Underground Path Entrance Chamber (20, 10)
+## CURRENT STATUS & DASHBOARD (Turn 24804)
+- Location: Underground Path Entrance Chamber (17, 7)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path -> Silph Scope -> Lavender Tower
-- Active Protocol: Cols 18-19 form a solid vertical wall across Rows 7-15. Retracting North from (20, 10) up Col 20 to Row 5, West to Col 17, and South to Ladder at (17, 10) to enter Westbound tunnel.
+- Active Protocol: Row 8 wall spans Cols 14-19. Column 13 is the open vertical corridor. Route: Left 4 to (13, 7), Down 3 to (13, 10), Right 4 to Ladder at (17, 10) to descend into main Westbound tunnel.
 
 <hr>
 
