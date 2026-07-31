@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 25415)
-- Location: Lavender Town Pokemon Center (11, 20)
+## CURRENT STATUS & DASHBOARD (Turn 25416)
+- Location: Lavender Town (11, 20)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Dismiss text box -> Exit PC to Lavender Town -> Enter Route 8 onto Upper Highway (59, 9) -> Walk West to Western Sector.
+- Active Protocol: Walk West across Lavender Town to Route 8 entrance at (0, 9) -> Spawn on Upper Highway (59, 9) -> Walk West to Western Sector.
 
 <hr>
 
