@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 23131)
-- Location: Route 8 Underground Path Building Interior (2, 7)
+## CURRENT STATUS & DASHBOARD (Turn 23161)
+- Location: Route 8 Saffron Gatehouse Interior (5, 4)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path -> Silph Scope -> Lavender Tower
-- Active Protocol: Inside Route 8 Underground Path Building at (2,7). Picking up Item Ball at (7,7) then taking stairs down at (6,4) to Underground Path tunnel.
+- Active Protocol: Inside Saffron Gatehouse at (5,4). Exiting South doorway to Route 8 overworld to navigate to true Underground Path building at (1,7).
 - Verified Gatehouse Guard (Turn 22674): Saffron Gatehouse Guard at (24,7) states "I'm thirsty! I want something to drink!". Saffron Gatehouse requires Tea/Drink from Celadon Dept Store.
 
 <hr>
@@ -217,8 +217,8 @@
 - Column 35 (Rows 22-27) is a solid wooden fence. Row 28 (Cols 30-35) is a dark green hedge.
 - Building at (25,25): Saffron Gatehouse doorway (connects to interior 3,7).
 - Row 27 (Cols 20-30): Open light green pavement highway running West below Gatehouse.
-- Doorway at (9,11): TRUE Route 8 Underground Path Entrance Building!
-- Underground Path Building Interior (2,7): Item Ball at (7,7), Stairs down at (6,4)/(7,4).
+- Doorway at (9,11): Saffron Gatehouse doorway (Badges NPC inside at 5,3, desk with coffee cup at 6,3).
+- Building doorway at (1,7) behind Cut tree at (5,8): TRUE Route 8 Underground Path Entrance Building!
 
 <hr>
 
