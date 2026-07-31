@@ -210,6 +210,7 @@
 - Row 27 (Cols 20-30): Open light green pavement highway running West below Gatehouse.
 - Doorway at (9,11): Saffron Gatehouse doorway (Badges NPC inside at 5,3, desk with coffee cup at 6,3).
 - Row 7 at Column 1 (1,7) is a south-facing ledge wall (hopping down to 1,8).
+- Verified Eastern Map Border (Turn 24590): Column 60 on Route 8 is the eastern map boundary tile that warps back to Lavender Town (0, 9).
 
 <hr>
 
