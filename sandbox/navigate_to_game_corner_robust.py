@@ -52,15 +52,15 @@ def walk_to(target_x, target_y):
         
     return True
 
-# Current pos is (26, 14)
+# Current pos is (35, 14)
 # Path:
-# 1. Right to (35, 14)
-# 2. Down to (35, 19)
+# 1. Right to (36, 14)
+# 2. Down to (36, 19)
 # 3. Left to (28, 19)
 
-success = walk_to(35, 14)
+success = walk_to(36, 14)
 if success:
-    success = walk_to(35, 19)
+    success = walk_to(36, 19)
 if success:
     success = walk_to(28, 19)
 
