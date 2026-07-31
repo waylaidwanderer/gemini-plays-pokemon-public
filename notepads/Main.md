@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 24304)
-- Location: Route 8 Overworld (25, 11)
+## CURRENT STATUS & DASHBOARD (Turn 24331)
+- Location: Route 8 Overworld (39, 14)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path -> Silph Scope -> Lavender Tower
-- Active Protocol: At (25, 11) on Row 11 Upper Highway pavement. Walking Left 5 to (20, 11), Down 1 to Row 12 (20, 12), then West 7 along Row 12 grass to Col 13 (13, 12) to enter Underground Path doorway (13, 9)!
+- Active Protocol: At (39, 14) on Lower Highway grass/pavement. Walking East along Row 14 towards Column 60 corridor to access Row 3 Northern Pass!
