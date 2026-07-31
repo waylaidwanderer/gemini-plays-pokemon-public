@@ -506,13 +506,13 @@
 
 ## Escalator & Stairs Navigation Rules
 - Escalators are strictly one-way direction-locked transitions.
-- **Going Down (2F -> 1F):** The DOWN escalator on 2F is located at (12, 1). You can walk into it from the bottom at (12, 2) by walking UP into (12, 1) or from the top at (12, 0) by walking DOWN into (12, 1). This transitions you to 1F, spawning at (12, 2) facing South.
+- **Going Down (2F -> 1F):** The DOWN escalator on 2F is located at (12, 1). You enter it from the top at (12, 0) by walking DOWN into (12, 1). This transitions you to 1F, spawning at (12, 2) facing South. Entering from the bottom at (12, 2) needs further empirical verification to prove if it is blocked or not.
 - **Going Up (1F -> 2F):** The UP escalator on 1F is located at (12, 1). You enter it from the bottom at (12, 2) by walking UP into (12, 1). This transitions you to 2F, spawning at (12, 2) facing South.
 - **Going Up to 3F (2F -> 3F):** The UP escalator on 2F is located at (16, 1). You enter it from the bottom at (16, 2) by walking UP into (16, 1).
 ## Correct Overworld to Interior Warp Matrix:
 - **Celadon Game Corner (Map 135, 20x18 standard Game Corner):** Entrance door is at `(28, 19)` on the Celadon City overworld (south side of the building block). It contains the secret switch poster at `(9, 4)` and the Rocket Grunt at `(9, 5)`.
-- **Celadon Prize Exchange (Map 138, 10x8 small room):** Entrance door is at `(31, 27)` on the Celadon City overworld.
-- **Celadon Hotel (Map 139, 8x8 room):** Entrance door is at `(35, 27)` on the Celadon City overworld.
+- **Celadon Prize Exchange (Map ID To Be Verified):** Entrance door is at `(31, 27)` or `(39, 19)` on the Celadon City overworld.
+- **Celadon Hotel (Map ID To Be Verified):** Entrance door is at `(35, 27)` on the Celadon City overworld.
 - **Celadon Diner (Map 137, 10x8 room):** Entrance door is at `(33, 19)` on the Celadon City overworld.
 - **Celadon Chief's House (Map ID To Be Verified):** Located in the city.
 - **Saffron Gatehouses (Map 140, standard gatehouse):** Entrance door is at `(43, 27)` on the Celadon City overworld.
@@ -585,7 +585,7 @@
 
 ## B1F Layout & Mapping
 - **Stairs to Game Corner:** (23, 2). Spawns player at (21, 2) facing South? Or (23, 2) is the stairs tile, and spawning at (21, 2) is standard.
-- **Current Position:** (12, 14) (as of Turn 13951)
+- **Current Position:** (24, 14) (as of Turn 14011)
 - **Walkable Area:**
   - Row 1: Columns 19-24
   - Row 2: Columns 19-22
@@ -597,9 +597,18 @@
   - Row 10: Columns 11-14
   - Column 14: Rows 10-14
   - Row 14: Columns 12-14
+  - Column 26: Rows 5-7
+  - Row 7: Columns 25-26
+  - Column 25: Rows 7-9 and 11-15
+  - Row 11: Columns 25-28
+  - Column 28: Rows 11-15
+  - Row 15: Columns 24-28
+  - Column 24: Rows 14-15
 - **Trainers on B1F:**
   - Rocket Grunt at (12, 6) facing Right. Defeated on Turn 13944.
+  - Rocket Grunt at (26, 8) facing Left. Defeated on Turn 14001.
 - **Items on B1F:**
-  - Poké Ball at (11, 14). Accessible from standing at (12, 14) facing Left.
+  - Pok� Ball at (11, 14). Escape Rope obtained on Turn 13977.
+
 
 <hr>
