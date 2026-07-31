@@ -735,7 +735,7 @@ We are systematically testing candidates for the staircase warp trigger to B4F o
 - **(15, 19)**: Tested on Turn 14385. Blocked by solid wall. Status: **Unsuccessful**.
 - **(18, 19)**: This is the real staircase coordinates (ROM `warp 19, 18` which is Y=19, X=18)! It is entered from the South at `(18, 20)` by walking Up.
 - **Row 20 blocked**: Row 20 is blocked at Column 15 by a solid wall `(15, 20)`. So we cannot walk to `(18, 20)` from the west.
-- **TM10 (Double-Edge)**: Located at `(3, 21)` in the bottom-left corner room. Currently we are at `(3, 19)` preparing to get it.
+- **Super Potion**: Obtained on Turn 14439 from the Poké Ball at `(3, 21)` in the bottom-left corner room.
 
 <hr>
 
