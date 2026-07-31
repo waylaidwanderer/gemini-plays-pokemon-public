@@ -11,38 +11,73 @@ def wait_for_movement():
         p2 = mgba.get_coordinates()
     return p1
 
-# We are currently at (14, 20)
-print("Start Position:", mgba.get_coordinates())
+# We are currently at (11, 20)
+start_pos = mgba.get_coordinates()
+print("Start Position:", start_pos)
 
-# Let's explore Down
-print("Moving Down to (14, 21)...")
-mgba.press_buttons(["Down"])
-p1 = wait_for_movement()
-print("Position:", p1)
+# We want to perform a systematic DFS/BFS in the actual game to find all walkable coordinates reachable from (11, 20).
+# We will only walk on normal tiles (we want to avoid stepping on any spinners that warp us away, 
+# but if we do step on a spinner, we'll slide, and the script will track where we land and try to walk back).
+# Wait, to make it super safe, let's just do a localized empirical test:
+# Can we go from (11, 20) to (14, 20), then down to (14, 23)?
+# Yes, we did that.
+# Let's test if we can walk Right from (14, 21), (14, 22), (14, 23).
+# Let's write a function to try to move Right from a position and then move back if it succeeded.
 
-print("Moving Down to (14, 22)...")
-mgba.press_buttons(["Down"])
-p2 = wait_for_movement()
-print("Position:", p2)
+def test_direction(path_to_tile, move):
+    # Walk to the tile
+    for step in path_to_tile:
+        mgba.press_buttons([step])
+        wait_for_movement()
+    
+    pos_before = mgba.get_coordinates()
+    # Try the move
+    mgba.press_buttons([move])
+    pos_after = wait_for_movement()
+    
+    success = (pos_after != pos_before)
+    
+    # Walk back to start
+    # To do this safely, we can just press the opposite buttons in reverse order
+    # (assuming no spinner was stepped on)
+    opposite = {'Up': 'Down', 'Down': 'Up', 'Left': 'Right', 'Right': 'Left'}
+    if success:
+        # Check if we stepped on a spinner (which would have moved us more than 1 tile)
+        dx = abs(pos_after['x'] - pos_before['x'])
+        dy = abs(pos_after['y'] - pos_before['y'])
+        if dx > 1 or dy > 1:
+            print(f"Stepped on spinner with move {move} from {pos_before} -> landed at {pos_after}!")
+            # We stepped on a spinner, so we can't easily walk back the same way.
+            # Let's just print this and not try to walk back (the script will finish or we'll reset to start).
+            return pos_after
+        else:
+            # Succeeded 1 step, walk back 1 step
+            mgba.press_buttons([opposite[move]])
+            wait_for_movement()
+            
+    for step in reversed(path_to_tile):
+        mgba.press_buttons([opposite[step]])
+        wait_for_movement()
+        
+    return success
 
-print("Moving Down to (14, 23)...")
-mgba.press_buttons(["Down"])
-p3 = wait_for_movement()
-print("Position:", p3)
+# Let's test if column 15 is walkable on any of the rows 20, 21, 22, 23!
+# We can reach:
+# (14, 20) via ["Right", "Right", "Right"]
+# (14, 21) via ["Right", "Right", "Right", "Down"]
+# (14, 22) via ["Right", "Right", "Right", "Down", "Down"]
+# (14, 23) via ["Right", "Right", "Right", "Down", "Down", "Down"]
 
-# Let's see if we can move in other directions from (14, 23)
-# Let's try Right
-print("Testing Right from (14, 23)...")
-mgba.press_buttons(["Right"])
-p_right = wait_for_movement()
-print("Position after Right:", p_right)
+print("Testing (15, 20) (Right from row 20):")
+print("Result:", test_direction(["Right", "Right", "Right"], "Right"))
 
-if p_right == p3:
-    print("Right is blocked from (14, 23). Trying Left onto (13, 23) spinner...")
-    mgba.press_buttons(["Left"])
-    time.sleep(2.0) # Let the slide finish
-    p_left = wait_for_movement()
-    print("Position after Left/Slide:", p_left)
+print("Testing (15, 21) (Right from row 21):")
+print("Result:", test_direction(["Right", "Right", "Right", "Down"], "Right"))
 
-screenshot_path = mgba.take_screenshot()
-print("Screenshot:", screenshot_path)
+print("Testing (15, 22) (Right from row 22):")
+print("Result:", test_direction(["Right", "Right", "Right", "Down", "Down"], "Right"))
+
+print("Testing (15, 23) (Right from row 23):")
+print("Result:", test_direction(["Right", "Right", "Right", "Down", "Down", "Down"], "Right"))
+
+print("Finished testing. Current Position:", mgba.get_coordinates())
