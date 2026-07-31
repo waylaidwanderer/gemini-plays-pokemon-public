@@ -220,11 +220,6 @@
 - Doorway at (9,11): Saffron Gatehouse doorway (Badges NPC inside at 5,3, desk with coffee cup at 6,3).
 - Row 7 at Column 1 (1,7) is a south-facing ledge wall (hopping down to 1,8).
 
-### Verified Underground Path Entrance (Turn 23292)
-- True Underground Path Entrance Building on Route 8 is at Overworld (45, 3)!
-- Warps to interior map at (2, 7).
-- Stairs leading down into the Underground Path tunnel are located at interior (2, 4).
-
 <hr>
 
 <h1><code>Scratchpad/Route_8_Navigation.md</code></h1>
