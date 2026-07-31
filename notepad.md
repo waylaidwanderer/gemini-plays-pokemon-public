@@ -530,7 +530,7 @@
 ## Correct Overworld to Interior Warp Matrix:
 - **Celadon Game Corner (Map 135, 20x18 standard Game Corner):** Entrance door is at `(28, 19)` on the Celadon City overworld (south side of the building block). It contains the secret switch poster at `(9, 4)` and the Rocket Grunt at `(9, 5)`.
 - **Celadon Diner (Map 137, 10x8 room):** Entrance door is at `(33, 19)` on the Celadon City overworld.
-- **Celadon Chief's House (Map ID To Be Verified):** Located in the city.
+
 - **Saffron Gatehouses (Map 140, standard gatehouse):** Entrance door is at `(43, 27)` on the Celadon City overworld.
 
 ### Verified Walkable Overworld Coordinates (Middle-South Rows):
