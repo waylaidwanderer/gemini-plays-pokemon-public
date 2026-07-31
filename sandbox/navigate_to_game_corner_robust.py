@@ -1,18 +1,6 @@
 import mgba
 import time
-import os
 
-# 1. Clean up old files
-obsolete_files = ['explore_game_corner_robust.py', 'explore_celadon.py']
-for f in obsolete_files:
-    if os.path.exists(f):
-        try:
-            os.remove(f)
-            print(f"Deleted obsolete file: {f}")
-        except Exception as e:
-            print(f"Error deleting {f}: {e}")
-
-# 2. Robust navigation
 def get_stable_coords():
     pos1 = mgba.get_coordinates()
     time.sleep(0.1)
@@ -64,18 +52,15 @@ def walk_to(target_x, target_y):
         
     return True
 
-# Current pos is (28, 14)
+# Current pos is (26, 14)
 # Path:
-# 1. Left to (25, 14)
-# 2. Down to (25, 16)
-# 3. Right to (28, 16)
-# 4. Down to (28, 19)
+# 1. Right to (35, 14)
+# 2. Down to (35, 19)
+# 3. Left to (28, 19)
 
-success = walk_to(25, 14)
+success = walk_to(35, 14)
 if success:
-    success = walk_to(25, 16)
-if success:
-    success = walk_to(28, 16)
+    success = walk_to(35, 19)
 if success:
     success = walk_to(28, 19)
 
