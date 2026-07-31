@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 25345)
-- Location: Route 8 (19, 14)
-- Primary Goal: Reach Column 19 gap at (19, 14) to exit Lower Basin
-- Active Protocol: Walk West to (19, 14) -> step Up through (19, 13) gap to Row 12 grass.
+## CURRENT STATUS & DASHBOARD (Turn 25349)
+- Location: Route 8 (19, 13)
+- Primary Goal: Navigate Row 12 Green Grass Highway Westbound to Underground Path
+- Active Protocol: Step Up to (19, 12) -> walk West along Row 12 grass to (12, 12) -> Up to Row 10 pavement -> West to Underground Path.
 
 <hr>
 
