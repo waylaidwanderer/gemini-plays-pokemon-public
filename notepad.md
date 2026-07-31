@@ -189,16 +189,7 @@
 
 ### Master Route 8 Complete Master Highway Route to Underground Path (Turn 22469)
 - Row 16 at (28,16) is a North-facing cliff wall from (28,15).
-- VERIFIED MASTER ROUTE TO ROW 12 HIGHWAY & UNDERGROUND PATH:
-  1. From Upper Highway (Row 8/9), walk East to Column 52 at (52, 9) / (52, 13).
-  2. Hop South over one-way ledge at (52, 13) onto Row 14 Lower Highway at (52, 14).
-  3. Walk West along Row 14 pavement corridor to Column 29 at (29, 14).
-  4. Step Up 2 through tan gravel gap at (29, 13) to Row 12 Green Grass Highway at (29, 12).
-  5. Walk West along Row 12 green grass highway past Column 19 gap (19, 12) to Column 13 at (13, 12).
-  6. Step Down 2 to Row 14 Light Grey Pavement Corridor at (13, 14).
-  7. Walk Left 10 steps along Row 14 pavement to Column 3 at (3, 14) [Underground Path doorway!].
-  8. Step Up 1 to enter Underground Path building doorway at (3, 14) / (1, 7)!
-  Note: Row 10 is a solid stone wall across Cols 10-50, blocking direct southbound access from Row 8/9.
+- Note: Row 10 is a solid stone wall across Cols 10-50, blocking direct southbound access from Row 8/9.
 ### Verified Physical Collision Boundaries at Column 10 (Turns 22849-22856)
 - (9, 14): SOLID MOUNTAIN ROCK CLIFF (probed Left from 10,14 bumped on turn 22850).
 - (10, 16): SOLID MOUNTAIN ROCK CLIFF (probed Down from 10,15 bumped on turn 22854).
