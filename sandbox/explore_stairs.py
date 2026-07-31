@@ -11,59 +11,22 @@ def wait_for_movement():
         p2 = mgba.get_coordinates()
     return p1
 
-# We start at (19, 15)
+# We are currently at (22, 13) in the Right Room
 print("Start Position:", mgba.get_coordinates())
 
-# Let's explore the Right Room comprehensively.
-# We will walk around all columns 18-28 and rows 10-15 and print every walkable tile!
-walkable_tiles = set()
-visited = set()
+# Let's walk back to the Left Room via (18, 11) gap
+path_back = ["Left", "Left", "Left", "Up", "Up", "Left", "Left"]
+for idx, move in enumerate(path_back):
+    mgba.press_buttons([move])
+    pos = wait_for_movement()
+    print(f"Step {idx+1} ({move}):", pos)
 
-# To keep it safe and avoid getting lost, we will use a stack and trace our moves carefully.
-# Since there are no spinners in the Right Room, we can do standard grid DFS!
-
-def dfs(pos):
-    walkable_tiles.add(pos)
-    visited.add(pos)
-    
-    # Try all 4 directions
-    directions = ['Up', 'Down', 'Left', 'Right']
-    opposite = {'Up': 'Down', 'Down': 'Up', 'Left': 'Right', 'Right': 'Left'}
-    
-    for move in directions:
-        dx, dy = 0, 0
-        if move == 'Up': dy = -1
-        elif move == 'Down': dy = 1
-        elif move == 'Left': dx = -1
-        elif move == 'Right': dx = 1
-        
-        nxt = (pos[0] + dx, pos[1] + dy)
-        
-        # We don't want to walk out of the Right Room bounds (X between 18 and 28, Y between 10 and 15)
-        # to avoid stepping on spinners
-        if 18 <= nxt[0] <= 28 and 10 <= nxt[1] <= 15:
-            if nxt not in visited:
-                # Try the move
-                mgba.press_buttons([move])
-                p_new_coords = wait_for_movement()
-                p_new = (p_new_coords['x'], p_new_coords['y'])
-                
-                if p_new == nxt:
-                    # Move succeeded!
-                    dfs(p_new)
-                    # Walk back
-                    mgba.press_buttons([opposite[move]])
-                    wait_for_movement()
-                else:
-                    # Blocked (wall, grunt, etc.)
-                    visited.add(nxt) # Mark as visited so we don't try it again
-
-# Run DFS starting from current position
-dfs((19, 15))
-
-print("ALL REACHABLE WALKABLE TILES IN RIGHT ROOM:")
-print(sorted(list(walkable_tiles)))
-
-# Take a screenshot
+# We should be in the Left Room around (17, 11).
+# Now, let's walk down to the bottom area of the Left Room (Row 24, 25)
+# Let's see: from (17, 11), can we walk Left or Down?
+# Let's walk Left and Down to reach (1, 24) or (1, 25) which we know is walkable!
+# Wait, can we walk Down Column 17 or Column 16?
+# No, let's walk back to the start stopper (2, 9) or (8, 11).
+# Actually, let's see where we end up and print the position!
 screenshot_path = mgba.take_screenshot()
-print("Final Screenshot:", screenshot_path)
+print("Screenshot:", screenshot_path)
