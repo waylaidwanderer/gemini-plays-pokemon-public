@@ -11,22 +11,39 @@ def wait_for_movement():
         p2 = mgba.get_coordinates()
     return p1
 
-# We are currently at (22, 13) in the Right Room
-print("Start Position:", mgba.get_coordinates())
+# We start at B3F (2, 9)
+print("Start Position (should be (2, 9)):", mgba.get_coordinates())
 
-# Let's walk back to the Left Room via (18, 11) gap
-path_back = ["Left", "Left", "Left", "Up", "Up", "Left", "Left"]
-for idx, move in enumerate(path_back):
-    mgba.press_buttons([move])
-    pos = wait_for_movement()
-    print(f"Step {idx+1} ({move}):", pos)
+# 1. Walk to (1, 19)
+mgba.press_buttons(["Left"])
+wait_for_movement()
+print("At (1, 9):", mgba.get_coordinates())
 
-# We should be in the Left Room around (17, 11).
-# Now, let's walk down to the bottom area of the Left Room (Row 24, 25)
-# Let's see: from (17, 11), can we walk Left or Down?
-# Let's walk Left and Down to reach (1, 24) or (1, 25) which we know is walkable!
-# Wait, can we walk Down Column 17 or Column 16?
-# No, let's walk back to the start stopper (2, 9) or (8, 11).
-# Actually, let's see where we end up and print the position!
+for i in range(10):
+    mgba.press_buttons(["Down"])
+    wait_for_movement()
+print("At (1, 19):", mgba.get_coordinates())
+
+# 2. Walk to (1, 25)
+for i in range(6):
+    mgba.press_buttons(["Down"])
+    wait_for_movement()
+print("At (1, 25):", mgba.get_coordinates())
+
+# 3. Walk Right along Row 25 as far as we can!
+# We will count steps and print each position.
+walked_right = 0
+pos = mgba.get_coordinates()
+for i in range(25):
+    mgba.press_buttons(["Right"])
+    p_new = wait_for_movement()
+    if p_new == pos:
+        print(f"Blocked going Right along Row 25 at: {pos}")
+        break
+    pos = p_new
+    walked_right += 1
+    print(f"Row 25 Right step {i+1}: {pos}")
+
+# Let's take a screenshot of where we ended up on Row 25!
 screenshot_path = mgba.take_screenshot()
 print("Screenshot:", screenshot_path)
