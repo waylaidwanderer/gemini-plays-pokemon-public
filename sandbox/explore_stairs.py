@@ -11,43 +11,59 @@ def wait_for_movement():
         p2 = mgba.get_coordinates()
     return p1
 
-# We start at (28, 15)
+# We start at (19, 15)
 print("Start Position:", mgba.get_coordinates())
 
-# Let's test walking Down into Row 16 from columns 28 down to 19 on Row 15.
-# We are currently at (28, 15).
-pos = mgba.get_coordinates()
+# Let's explore the Right Room comprehensively.
+# We will walk around all columns 18-28 and rows 10-15 and print every walkable tile!
+walkable_tiles = set()
+visited = set()
 
-# Let's walk Left along Row 15 and test "Down" at each column!
-gaps_found = []
+# To keep it safe and avoid getting lost, we will use a stack and trace our moves carefully.
+# Since there are no spinners in the Right Room, we can do standard grid DFS!
 
-for col in range(28, 18, -1):
-    # Ensure we are at (col, 15)
-    curr = mgba.get_coordinates()
-    while curr['x'] > col:
-        mgba.press_buttons(["Left"])
-        curr = wait_for_movement()
-    while curr['x'] < col:
-        mgba.press_buttons(["Right"])
-        curr = wait_for_movement()
+def dfs(pos):
+    walkable_tiles.add(pos)
+    visited.add(pos)
+    
+    # Try all 4 directions
+    directions = ['Up', 'Down', 'Left', 'Right']
+    opposite = {'Up': 'Down', 'Down': 'Up', 'Left': 'Right', 'Right': 'Left'}
+    
+    for move in directions:
+        dx, dy = 0, 0
+        if move == 'Up': dy = -1
+        elif move == 'Down': dy = 1
+        elif move == 'Left': dx = -1
+        elif move == 'Right': dx = 1
         
-    print(f"Testing Column {col} at {curr}...")
-    
-    # Try moving Down to Row 16
-    mgba.press_buttons(["Down"])
-    p_down = wait_for_movement()
-    
-    if p_down['y'] > 15:
-        print(f"-> FOUND GAP AT COLUMN {col}! Landed at {p_down}")
-        gaps_found.append(col)
-        # Walk back Up to Row 15
-        mgba.press_buttons(["Up"])
-        wait_for_movement()
-    else:
-        print("-> Blocked.")
+        nxt = (pos[0] + dx, pos[1] + dy)
+        
+        # We don't want to walk out of the Right Room bounds (X between 18 and 28, Y between 10 and 15)
+        # to avoid stepping on spinners
+        if 18 <= nxt[0] <= 28 and 10 <= nxt[1] <= 15:
+            if nxt not in visited:
+                # Try the move
+                mgba.press_buttons([move])
+                p_new_coords = wait_for_movement()
+                p_new = (p_new_coords['x'], p_new_coords['y'])
+                
+                if p_new == nxt:
+                    # Move succeeded!
+                    dfs(p_new)
+                    # Walk back
+                    mgba.press_buttons([opposite[move]])
+                    wait_for_movement()
+                else:
+                    # Blocked (wall, grunt, etc.)
+                    visited.add(nxt) # Mark as visited so we don't try it again
 
-print("Gaps found on Row 16 at columns:", gaps_found)
+# Run DFS starting from current position
+dfs((19, 15))
 
-# Let's take a screenshot
+print("ALL REACHABLE WALKABLE TILES IN RIGHT ROOM:")
+print(sorted(list(walkable_tiles)))
+
+# Take a screenshot
 screenshot_path = mgba.take_screenshot()
 print("Final Screenshot:", screenshot_path)
