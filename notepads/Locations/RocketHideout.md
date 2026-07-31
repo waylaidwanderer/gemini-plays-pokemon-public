@@ -51,7 +51,7 @@
 ## B3F Layout & Mapping
 - **Stairs UP to B2F (Left):** (5, 15) - Spawns player at (5, 15) facing Up.
 - **Stairs UP to B2F (Right):** (27, 8) - Connects UP to B2F (27, 8) -> B1F (23, 2).
-- **Stairs DOWN to B4F:** (19, 13) or (20, 13) next to the Rocket Grunt at (20, 12).
+- **Stairs DOWN to B4F:** (18, 19) (accessed via Row 20 bottom corridor by walking Up from (18, 20)).
 - **Entry Landing Position:** (8, 11) (player automatically spins and lands here after coming down the stairs from B2F (3, 15)).
 - **Reachable Walkable Areas:**
   - Left Room / Maze: Rows 7-17, Columns 1-15 (completely explored).
