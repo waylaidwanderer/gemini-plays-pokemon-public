@@ -1,6 +1,18 @@
 import mgba
 import time
+import os
 
+# 1. Clean up old files
+obsolete_files = ['explore_game_corner_robust.py', 'explore_celadon.py']
+for f in obsolete_files:
+    if os.path.exists(f):
+        try:
+            os.remove(f)
+            print(f"Deleted obsolete file: {f}")
+        except Exception as e:
+            print(f"Error deleting {f}: {e}")
+
+# 2. Robust navigation
 def get_stable_coords():
     pos1 = mgba.get_coordinates()
     time.sleep(0.1)
@@ -32,7 +44,6 @@ def walk_to(target_x, target_y):
         if not button:
             break
             
-        # Try to move 1 step
         pos_before = pos
         mgba.press_buttons([button])
         time.sleep(0.35)
@@ -40,7 +51,6 @@ def walk_to(target_x, target_y):
         
         # Change-detection collision check
         if pos == pos_before:
-            # We hit an obstacle! Try once more with a longer delay in case of lag
             print(f"Blipped or blocked. Retrying {button} once...")
             time.sleep(0.4)
             mgba.press_buttons([button])
@@ -54,17 +64,18 @@ def walk_to(target_x, target_y):
         
     return True
 
-# 1. Start at (19, 19)
-# 2. Walk Left to (16, 19)
-# 3. Walk Up to (16, 10)
-# 4. Walk Right to (28, 10)
-# 5. Walk Down to (28, 19)
+# Current pos is (28, 14)
+# Path:
+# 1. Left to (25, 14)
+# 2. Down to (25, 16)
+# 3. Right to (28, 16)
+# 4. Down to (28, 19)
 
-success = walk_to(16, 19)
+success = walk_to(25, 14)
 if success:
-    success = walk_to(16, 10)
+    success = walk_to(25, 16)
 if success:
-    success = walk_to(28, 10)
+    success = walk_to(28, 16)
 if success:
     success = walk_to(28, 19)
 
@@ -74,7 +85,7 @@ if success:
     time.sleep(1.2)
     print(f"Final coordinates: {get_stable_coords()}")
 else:
-    print("Navigation aborted due to collision/error.")
+    print("Navigation aborted.")
 
 scr = mgba.take_screenshot()
 print(f"Screenshot saved at: {scr}")
