@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 25111)
-- Location: Route 8 Lower Highway (30, 14)
+## CURRENT STATUS & DASHBOARD (Turn 25120)
+- Location: Lavender Town Pokemon Center (11, 20)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Teleporting to Lavender Town (11, 20), walking to Route 8 entrance (0, 9), stepping onto Route 8 (59, 9), and staying on Upper Highway Row 9 West past Column 45 to Western Sector Underground Path building at (8, 17) WITHOUT hopping down Column 52 ledge.
+- Active Protocol: Walking East around Pokemon Center via Col 14 to (13, 9) NW platform, West 13 steps to Route 8 entrance (0, 9). Then staying on Upper Highway Row 9 West past Col 45 to Western Sector Underground Path building at (8, 17).
