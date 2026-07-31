@@ -94,6 +94,6 @@
 - Row 16: (36, 16)
 - Row 17: (36, 17)
 - Row 18: (36, 18)
-### Verified Walkable Indoor Coordinates (Map 138 - Chief's House / Combined Prize Exchange):
+### Verified Walkable Indoor Coordinates (Map 138 - Chief's House):
 - `[(2, 3), (2, 4), (2, 5), (2, 6), (2, 7), (3, 2), (3, 3), (3, 4), (3, 5), (3, 6), (3, 7), (4, 2), (4, 3), (4, 4), (4, 5), (4, 6), (4, 7), (5, 4), (5, 5), (5, 6)]`
 - Stools/Counter block column 4 on Row 5, and Row 6 slot machine backs block columns 6-9 from Row 7.

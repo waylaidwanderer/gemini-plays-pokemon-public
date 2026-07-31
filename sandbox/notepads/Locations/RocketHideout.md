@@ -2,7 +2,6 @@
 
 ## B1F Layout & Mapping
 - **Stairs to Game Corner:** (23, 2). Spawns player at (21, 2) facing South? Or (23, 2) is the stairs tile, and spawning at (21, 2) is standard.
-- **Current Position:** (24, 14) (as of Turn 14011)
 - **Walkable Area:**
   - Row 1: Columns 19-24
   - Row 2: Columns 19-22
