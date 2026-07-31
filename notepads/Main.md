@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 25007)
-- Location: Route 8 Row 6 Westbound Highway (50, 6)
+## CURRENT STATUS & DASHBOARD (Turn 25022)
+- Location: Route 8 Upper Highway (46, 9)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Standing at (50, 6) on Row 6 Highway. Walking Left 14 steps along Row 6 pavement to (36, 6) bypassing Column 45 mountain cliff, then continuing West past Col 19 to Western Sector and Underground Path entrance building.
+- Active Protocol: Standing at (46, 9). Performing single-step physical collision probing to map the exact passage to Western Sector.
