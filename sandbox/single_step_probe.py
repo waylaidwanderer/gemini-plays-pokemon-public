@@ -15,5 +15,5 @@ for step in range(1, 37):
         break
     start_pos = curr_pos
     if curr_pos['x'] <= 23:
-        print(f"Reached Column {curr_pos['x']} at (x={curr_pos['x']}, y={curr_pos['y']})!")
+        print(f"SUCCESS! Reached Column {curr_pos['x']} at (x={curr_pos['x']}, y={curr_pos['y']})!")
         break
