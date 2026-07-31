@@ -11,57 +11,58 @@ def wait_for_movement():
         p2 = mgba.get_coordinates()
     return p1
 
-# We are currently at (20, 13) in the Right Room
-start_pos = mgba.get_coordinates()
-print("Start Position:", start_pos)
+# We start at (23, 14)
+print("Start Position:", mgba.get_coordinates())
 
-# Let's explore the right side of the room systematically.
-# We will walk East as much as possible, then look around.
-walked_path = []
-pos = start_pos
+# Let's walk to the far right on Row 15.
+# First, walk Down to Row 15
+mgba.press_buttons(["Down"])
+p_row15 = wait_for_movement()
+print("At Row 15:", p_row15)
 
-# Move East (Right) as far as we can
+# Now, walk Right as far as we can to find the right border of the room
+walked_right = 0
+pos = p_row15
 for i in range(10):
     mgba.press_buttons(["Right"])
     p_new = wait_for_movement()
     if p_new == pos:
-        print(f"Blocked going Right at: {pos}")
         break
     pos = p_new
-    walked_path.append("Right")
+    walked_right += 1
     print(f"Right step {i+1}: {pos}")
 
-# From our furthest Right, let's see if we can move Down or Up
-print("From furthest Right, trying Down...")
+# From our furthest Right on Row 15, let's see if we can walk Down to Row 16!
+print("Furthest Right position:", pos)
+print("Trying Down onto Row 16...")
 mgba.press_buttons(["Down"])
 p_down = wait_for_movement()
+
 if p_down != pos:
-    print("Down is walkable:", p_down)
-    # Move back Up
-    mgba.press_buttons(["Up"])
-    wait_for_movement()
+    print("Row 16 is walkable at this column! Position:", p_down)
+    # Let's walk Down as much as possible to reach Row 20
+    for j in range(5):
+        mgba.press_buttons(["Down"])
+        p_new = wait_for_movement()
+        if p_new == p_down:
+            break
+        p_down = p_new
+        print(f"Down step {j+1}: {p_down}")
+        
+    # From where we ended up, let's see if we can walk Left towards Column 18!
+    print("At bottom of right corridor:", p_down)
+    print("Trying to walk Left...")
+    for k in range(12):
+        mgba.press_buttons(["Left"])
+        p_new = wait_for_movement()
+        if p_new == p_down:
+            print("Blocked going Left at:", p_down)
+            break
+        p_down = p_new
+        print(f"Left step {k+1}: {p_down}")
 else:
-    print("Down is blocked.")
+    print("Row 16 is blocked at this column.")
 
-print("From furthest Right, trying Up...")
-mgba.press_buttons(["Up"])
-p_up = wait_for_movement()
-if p_up != pos:
-    print("Up is walkable:", p_up)
-    # Move back Down
-    mgba.press_buttons(["Down"])
-    wait_for_movement()
-else:
-    print("Up is blocked.")
-
-# Let's take a screenshot to inspect the far-right of this room
+# Take screenshot to verify
 screenshot_path = mgba.take_screenshot()
-print("Far-Right Room Screenshot:", screenshot_path)
-
-# Return to (20, 13) so we don't stay lost
-opposite = {'Right': 'Left', 'Left': 'Right', 'Up': 'Down', 'Down': 'Up'}
-for move in reversed(walked_path):
-    mgba.press_buttons([opposite[move]])
-    wait_for_movement()
-
-print("Returned to start:", mgba.get_coordinates())
+print("Final Screenshot:", screenshot_path)
