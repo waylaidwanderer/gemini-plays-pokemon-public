@@ -626,7 +626,7 @@
   - LEFT spinner at (17, 10) -> DOWN spinner at (13, 10) -> RIGHT spinner at (13, 12) -> Wall at (15, 12) (stops player at (14, 12)).
 - **Items on B2F:**
   - Poké Ball at (16, 8) (blocked by wall at (16, 9), accessible from row 7 at (16, 7))
-  - Poké Ball at (1, 11) (blocked by wall at (2, 11), accessible from row 12 at (1, 12))
-  - Poké Ball at (6, 12) (accessible from row 11 at (6, 11))
+  - Poké Ball at (1, 11) (Moon Stone, Obtained on Turn 14079)
+  - Poké Ball at (6, 12) (TM07 - Horn Drill, Obtained on Turn 14097)
 
 <hr>
