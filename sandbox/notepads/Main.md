@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 25057)
-- Location: Lavender Town NW Platform (5, 9) -> Route 8 Upper Highway (59, 9)
+## CURRENT STATUS & DASHBOARD (Turn 25081)
+- Location: Lavender Town Pokemon Center (11, 20)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Ran away safely from wild Voltorb. Walking Left 5 steps from (5, 9) to (0, 9) to warp onto Route 8 Upper Highway at (59, 9), then navigating West along Row 9 pavement to Column 46 to take Serpentine Corridor to Western Sector.
+- Active Protocol: Walking Left 3 steps to (8, 20), Up 11 steps to NW platform (8, 9), Left 8 steps to Route 8 entrance at (0, 9). Then taking Row 3 Green Grass Highway across Route 8 to Underground Path building at (8, 17).
