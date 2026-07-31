@@ -367,7 +367,7 @@
 
 ### Master Verified Underground Path Route (Turn 23914)
 - Building at (19, 17) on Lower Highway is the Underground Path entrance building! Inside is an NPC at (4, 3) and internal stairs leading down to the Underground Path tunnel to Route 7 / Celadon City.
-- Route to (19, 17) from Row 11: From (16, 11) -> Left to Column 15 (15, 11) -> South down Column 15 open grass corridor to Row 16 (15, 16) -> East 4 steps to Column 19 (19, 16) -> South 1 step to (19, 17) building doorway!
+- Route to (19, 17) from Lavender Town: Enter Route 8 at (59, 9) -> West along Upper Highway to Col 52 -> Hop down ledge gap at (52, 13) to Lower Highway -> West along Row 14 pavement to Column 19 (19, 14) -> South 3 steps to Underground Path building doorway at (19, 17)!
 ### Verified Empirical Probe (Turn 23924)
 - Cols 10-19 on Row 11 are SOLID WALL / LEDGE to the South (Row 12). Row 11 green grass corridor (Cols 10-19) has NO southbound access to Row 12.
 - Currently probing West along Row 11 (Cols 9-0) to locate Western exit/connection.
