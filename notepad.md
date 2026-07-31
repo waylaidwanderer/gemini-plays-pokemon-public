@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 24426)
-- Location: Route 8 Overworld (23, 15)
+## CURRENT STATUS & DASHBOARD (Turn 24428)
+- Location: Route 8 Overworld (23, 14)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path -> Silph Scope -> Lavender Tower
-- Active Protocol: At (23, 15) on Row 15 pavement. Walking Up 4 to Row 11 pavement (23, 11), then East 5 along Row 11 pavement across Col 24-27 rock wall to Col 28/29 grass highway!
+- Active Protocol: At (23, 14) on Row 14 pavement. Walking Left 4 to (19, 14), Up 2 to (19, 12) grass, then East along Row 12 grass to Col 29 gap!
 
 <hr>
 
