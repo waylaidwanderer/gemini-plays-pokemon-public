@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 24691)
-- Location: Route 8 (53, 14)
+## CURRENT STATUS & DASHBOARD (Turn 24721)
+- Location: Underground Path Building (Route 8 Entrance Interior 3, 7)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path -> Silph Scope -> Lavender Tower
-- Active Protocol: Teleport to Lavender Town -> Enter Route 8 (59, 9) Upper Highway -> Travel West along Row 9 / Row 3 Northern Pass to Western Sector / Underground Path.
+- Active Protocol: Entered Route 8 Underground Path building at (11, 19). Currently inside building at (3, 7). Proceeding to internal stairs to enter Underground Path tunnel.
 
 <hr>
 
