@@ -49,7 +49,20 @@
   - Poké Ball at (6, 12) (TM07 - Horn Drill, Obtained on Turn 14097)
 
 ## B3F Layout & Mapping
-- **Stairs to B2F:** (5, 15) - Spawns player at (5, 15) facing Up?
-- **Entry Landing Position:** (8, 11) (player automatically spins and lands here after coming down the stairs from B2F)
-- **Walkable Area:**
-  - Row 11: Columns 5-10, 13
+- **Stairs UP to B2F (Left):** (5, 15) - Spawns player at (5, 15) facing Up.
+- **Stairs UP to B2F (Right):** (27, 8) - Connects UP to B2F (27, 8) -> B1F (23, 2).
+- **Stairs DOWN to B4F:** (19, 13) or (20, 13) next to the Rocket Grunt at (20, 12).
+- **Entry Landing Position:** (8, 11) (player automatically spins and lands here after coming down the stairs from B2F (3, 15)).
+- **Reachable Walkable Areas:**
+  - Left Room / Maze: Rows 7-17, Columns 1-15 (completely explored).
+  - Right Room: Rows 10-15, Columns 18-28.
+- **Major Barriers & Obstacles:**
+  - Column 18: Solid vertical wall from Row 6 to Row 19, with gaps only at (18, 10) and (18, 11).
+  - Row 16: Solid horizontal wall from Column 18 to Column 28, making the bottom-right corridor (rows 17-19) inaccessible.
+  - Column 24: Decorative columns/pillars at (24, 11) and (24, 13) are impassable.
+- **Spinner Pathways:**
+  - (12, 13) (UP spinner) -> spins UP to (12, 9) (LEFT spinner) -> spins Left to (2, 9) (stopper).
+  - (9, 14) (DOWN spinner) -> spins DOWN to (9, 16) (stopper).
+  - (11, 16) (RIGHT spinner) -> spins RIGHT to (15, 17) (stopper).
+  - (14, 17) (UP spinner) -> spins UP to (14, 15) (stopper).
+  - (16, 14) (UP spinner) -> spins UP to (16, 13) (stopper).

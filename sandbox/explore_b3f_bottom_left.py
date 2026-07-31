@@ -11,43 +11,86 @@ def wait_for_movement():
         p2 = mgba.get_coordinates()
     return p1
 
-# 1. We are at B3F (23, 15). Walk to (2, 9) on B3F
+# We are at B3F (8, 11)
 print("Start Position:", mgba.get_coordinates())
-print("Navigating to left side...")
 
-buttons = ["Up", "Left", "Left", "Up", "Up", "Up", "Left", "Left", "Left", "Left", "Left"]
-mgba.press_buttons(buttons)
+# 1. Walk to the right side
+print("Walking to (10, 14)...")
+mgba.press_buttons(["Right", "Right", "Down", "Down", "Down"])
+wait_for_movement()
+
+print("Spinning through row 14 to (9, 16)...")
+mgba.press_buttons(["Left"])
+time.sleep(1.0)
+wait_for_movement()
+
+print("Spinning through row 16 to (15, 17)...")
+mgba.press_buttons(["Right", "Right"])
+time.sleep(1.5)
+wait_for_movement()
+
+print("Spinning UP to (14, 15)...")
+mgba.press_buttons(["Left"])
+time.sleep(1.0)
+wait_for_movement()
+
+print("Walking to (15, 14)...")
+mgba.press_buttons(["Right", "Up"])
+wait_for_movement()
+
+print("Spinning to (16, 13)...")
+mgba.press_buttons(["Right"])
+time.sleep(1.0)
+wait_for_movement()
+
+# 2. From (16, 13), walk to (2, 9)
+# First, walk UP to row 10
+print("Walking UP to row 10...")
+mgba.press_buttons(["Up", "Up", "Up"]) # from (16, 13) to (16, 10)
+wait_for_movement()
+
+# Walk Left to (13, 10)
+print("Walking Left to (13, 10)...")
+mgba.press_buttons(["Left", "Left", "Left"])
+wait_for_movement()
+
+# Spin DOWN to (14, 12)
+print("Spinning DOWN to (14, 12)...")
+mgba.press_buttons(["Left"])
+time.sleep(1.0)
+wait_for_movement()
+
+# Walk to (12, 13)
+print("Walking to (12, 13)...")
+mgba.press_buttons(["Down", "Left", "Left"])
+wait_for_movement()
+
+# Spin to (2, 9)
+print("Spinning to (2, 9)...")
+mgba.press_buttons(["Left"])
+time.sleep(1.5)
+pos = wait_for_movement()
+print(f"At B3F left side: {pos}")
+
+# 3. From (2, 9), walk to (2, 14) via row 14 Left spinner
+print("Navigating to row 14...")
+mgba.press_buttons(["Right", "Down", "Down", "Down", "Down", "Right", "Down", "Left"])
+time.sleep(1.0)
 pos = wait_for_movement()
 print(f"Landed at: {pos}")
 
-# 2. From (2, 9), let's explore column 1, 2, 3 on rows 7, 8, 9, 10
-# (1, 7) to (3, 7) are open
-print("Exploring top-left room...")
-mgba.press_buttons(["Right", "Up", "Up", "Left", "Left"])
+# 4. From (2, 14), walk Down to row 17
+print("Walking to bottom-left area...")
+mgba.press_buttons(["Down", "Down", "Down"])
+pos = wait_for_movement()
+print(f"At row 17 position: {pos}")
+
+# Try to find stairs: test (1, 17), (2, 17), (3, 17)
+# Let's walk Left to (1, 17)
+print("Testing (1, 17)...")
+mgba.press_buttons(["Left"])
 pos = wait_for_movement()
 print(f"Position: {pos}")
-
-# From (1, 7), walk Down column 1 as far as possible
-print("Walking Down column 1...")
-for i in range(8):
-    mgba.press_buttons(["Down"])
-    pos = wait_for_movement()
-    print(f"  Step {i+1} Down -> Position: {pos}")
-    if pos['x'] != 1:
-         break
-
-# From current position, walk to column 3 and go Down as far as possible
-print("Walking to column 3 and going Down...")
-mgba.press_buttons(["Right", "Right"])
-pos = wait_for_movement()
-print(f"Position at column 3: {pos}")
-
-for i in range(8):
-    mgba.press_buttons(["Down"])
-    pos = wait_for_movement()
-    print(f"  Step {i+1} Down -> Position: {pos}")
-    if pos['y'] == 14: # blocked
-         break
 
 # Take a screenshot
 screenshot_path = mgba.take_screenshot()
