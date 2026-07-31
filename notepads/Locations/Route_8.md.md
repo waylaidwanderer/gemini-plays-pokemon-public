@@ -35,3 +35,10 @@
 ### Verified Physical Building Doorway Coordinates (Turn 23103)
 - Building at (13,15): Saffron Gatehouse (Trade NPC "Poliwhirl for Jynx" + Saffron Guard).
 - Building at (19,17): Underground Path Entrance / Gatehouse complex doorway.
+
+### Master Route 8 Verified Building & Topology Summary (Turn 23133)
+- Building at (13,15): Saffron Gatehouse (Trade NPC "Poliwhirl for Jynx" + Thirsty Guard).
+- Building at (19,17): Gatehouse complex (Civilian "BILL" + Thirsty Guard).
+- Building at (30,19): Eastern Gatehouse (Civilian + Thirsty Guard).
+- Doorway at (1,7) behind Cut tree at (5,8): True Underground Path Entrance Building.
+- Column 35 (Rows 22-27) is a solid wooden fence. Row 28 (Cols 30-35) is a dark green hedge.
