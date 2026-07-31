@@ -1,10 +1,10 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 24174)
-- Location: Route 8 Overworld (42, 14)
+## CURRENT STATUS & DASHBOARD (Turn 24178)
+- Location: Route 8 Overworld (50, 14)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path -> Silph Scope -> Lavender Tower
-- Active Protocol: At (42, 14). Walking East along Row 14 green grass corridor to Col 52 (52, 14), then East to Col 60, North to Row 3 Northern Pass, and West along Row 3 directly to building doors.
-- Verified Gatehouse Guard (Turn 22674): Saffron Gatehouse Guard at (24,7) states "I'm thirsty! I want something to drink!". Saffron Gatehouse requires Tea/Drink from Celadon Dept Store.
+- Active Protocol: At (50, 14). Walking West along Row 14 pavement to Col 19 (19, 14), then South 3 steps to doorway at (19, 17) to enter Underground Path building!
+- Verified Building (Turn 23914): Building doorway at (19, 17) connects to interior (4,3) with stairs leading to Underground Path to Route 7 / Celadon City.
 
 <hr>
 
