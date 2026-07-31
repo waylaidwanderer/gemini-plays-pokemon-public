@@ -52,17 +52,20 @@ def walk_to(target_x, target_y):
         
     return True
 
-# We are inside the Game Corner at (15, 17)
+# We are currently at (15, 8)
 # Path:
-# 1. Walk UP to (15, 5)
-# 2. Walk LEFT to (10, 5) (directly to the right of the Rocket Grunt at (9, 5))
+# 1. Left to (11, 8)
+# 2. Up to (11, 5)
+# 3. Left to (10, 5)
 
-success = walk_to(15, 5)
+success = walk_to(11, 8)
+if success:
+    success = walk_to(11, 5)
 if success:
     success = walk_to(10, 5)
 
 if success:
-    print("Reached (10, 5) successfully! Facing LEFT to talk to the Rocket Grunt...")
+    print("Reached (10, 5) successfully! Facing LEFT towards the Rocket Grunt...")
     mgba.press_buttons(["Left"])
     time.sleep(0.5)
 else:
