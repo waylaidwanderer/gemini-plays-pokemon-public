@@ -11,74 +11,63 @@ def wait_for_movement():
         p2 = mgba.get_coordinates()
     return p1
 
-# We start at (22, 7) on B3F
+# We are at (2, 9) on B3F
 print("Start Position:", mgba.get_coordinates())
 
-# 1. Walk Down to (22, 15)
-print("Walking to (22, 15)...")
-for _ in range(8):
-    mgba.press_buttons(["Down"])
-    wait_for_movement()
-print("At:", mgba.get_coordinates())
-
-# 2. Walk Left to (15, 15) (should be pink checkered, entering Left Room)
-print("Walking Left to (15, 15)...")
-for _ in range(7):
-    mgba.press_buttons(["Left"])
-    wait_for_movement()
-print("At:", mgba.get_coordinates())
-
-# 3. Step Down onto (15, 16) DOWN spinner -> slides to (15, 18) stopper
-print("Stepping Down onto spinner...")
-mgba.press_buttons(["Down"])
-time.sleep(2.5) # let the slide finish
-pos = wait_for_movement()
-print("Landed at stopper:", pos)
-
-# 4. Walk Left to (14, 18)
-print("Walking to (14, 18)...")
-mgba.press_buttons(["Left"])
+# 1. Walk to (3, 13)
+print("Walking to (3, 13)...")
+mgba.press_buttons(["Right", "Down", "Down", "Down", "Down"])
 wait_for_movement()
 print("At:", mgba.get_coordinates())
 
-# 5. Let's systematically test walking Down on Column 14 from Row 18!
-print("Testing Down on Column 14...")
-for i in range(1, 8):
+# 2. Walk to (4, 14)
+print("Walking to (4, 14)...")
+mgba.press_buttons(["Right", "Down"])
+wait_for_movement()
+print("At:", mgba.get_coordinates())
+
+# 3. Step Down onto (4, 15) RIGHT spinner -> slides to (8, 15)
+print("Stepping onto (4, 15) spinner...")
+mgba.press_buttons(["Down"])
+time.sleep(3.0) # Let slide finish
+pos = wait_for_movement()
+print("Landed at:", pos)
+
+# 4. Try walking Down systematically from (8, 15) to see how far Down we can go!
+print("Walking Down from Column 8...")
+for i in range(1, 10):
     mgba.press_buttons(["Down"])
     pos = wait_for_movement()
     print(f"Step {i} Down: {pos}")
 
-# If we get blocked on Column 14, let's see where we are!
-# We want to check all rows below Row 18 to see where we can go Left or Right.
-# Let's write down a systematic exploration.
+# Let's see where we are
 pos = mgba.get_coordinates()
-print("Current Position after testing column 14 Down:", pos)
+print("Current position after walking Down:", pos)
 
-# If we reached row 20 or deeper, let's see if we can walk Right to column 18!
-if pos['y'] >= 19:
-    print("Testing walking Right to Column 18...")
-    # Try walking Right to column 18
+# Let's test walking Right to find where Column 15 is, or walking Left to see if there is a path!
+if pos['y'] > 15:
+    print("Testing horizontal walking on Row:", pos['y'])
+    # Try walking Left up to 7 steps
+    print("Testing walking Left...")
     for i in range(1, 8):
+        mgba.press_buttons(["Left"])
+        p_test = wait_for_movement()
+        print(f"Step {i} Left: {p_test}")
+        
+    # Walk back to Column 8
+    pos_now = mgba.get_coordinates()
+    dx = 8 - pos_now['x']
+    move_dir = "Right" if dx > 0 else "Left"
+    for _ in range(abs(dx)):
+        mgba.press_buttons([move_dir])
+        wait_for_movement()
+        
+    # Try walking Right up to 10 steps to see if we can go past Column 15!
+    print("Testing walking Right...")
+    for i in range(1, 11):
         mgba.press_buttons(["Right"])
-        pos = wait_for_movement()
-        print(f"Step {i} Right: {pos}")
-        
-    # If we reached (18, y), try walking to stairs at (18, 19)!
-    pos = mgba.get_coordinates()
-    if pos['x'] == 18:
-        print("At Column 18! Trying to reach stairs at (18, 19)...")
-        dy = 19 - pos['y']
-        move_dir = "Down" if dy > 0 else "Up"
-        for _ in range(abs(dy)):
-            mgba.press_buttons([move_dir])
-            wait_for_movement()
-        
-        # Step into stairs at (18, 19) (Warp!)
-        print("Stepping onto stairs...")
-        mgba.press_buttons(["Up" if pos['y'] == 20 else "Down"])
-        time.sleep(3.0)
-        pos = wait_for_movement()
-        print("Position on B4F:", pos)
+        p_test = wait_for_movement()
+        print(f"Step {i} Right: {p_test}")
 
 # Take screenshot
 screenshot_path = mgba.take_screenshot()
