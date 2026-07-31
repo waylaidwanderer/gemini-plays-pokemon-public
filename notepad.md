@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 24042)
-- Location: Route 8 Overworld (38, 15)
+## CURRENT STATUS & DASHBOARD (Turn 24043)
+- Location: Route 8 Overworld (34, 15)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path -> Silph Scope -> Lavender Tower
-- Active Protocol: At (38, 15). Probed Cols 53-38 (all solid). Continuing systematic single-step tile-by-tile probing facing Down along Row 15 across Cols 37, 36, 35, 34.
+- Active Protocol: At (34, 15). Probed Cols 53-34 (all solid). Continuing systematic single-step tile-by-tile probing facing Down along Row 15 across Cols 33, 32, 31, 30.
 - Verified Gatehouse Guard (Turn 22674): Saffron Gatehouse Guard at (24,7) states "I'm thirsty! I want something to drink!". Saffron Gatehouse requires Tea/Drink from Celadon Dept Store.
 
 <hr>
@@ -291,9 +291,9 @@
 ### Verified Empirical Probe (Turn 23924)
 - Cols 10-19 on Row 11 are SOLID WALL / LEDGE to the South (Row 12). Row 11 green grass corridor (Cols 10-19) has NO southbound access to Row 12.
 - Currently probing West along Row 11 (Cols 9-0) to locate Western exit/connection.
-### Verified Empirical Probing Results (Turns 24038-24042)
-- Building North Wall (Row 16) probed facing Down across Columns 53, 52, 51, 50, 49, 48, 47, 46, 44, 43, 42, 41, 40, 39, 38. All are solid building roof/wall tiles.
-- Currently probing West along Row 15 facing Down across Columns 37, 36, 35, 34.
+### Verified Empirical Probing Results (Turns 24038-24043)
+- Building North Wall (Row 16) probed facing Down across Columns 53, 52, 51, 50, 49, 48, 47, 46, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34. All are solid building roof/wall tiles.
+- Currently probing West along Row 15 facing Down across Columns 33, 32, 31, 30.
 
 <hr>
 
@@ -374,9 +374,9 @@
 ### Verified Empirical Probe (Turn 23924)
 - Cols 10-19 on Row 11 are SOLID WALL / LEDGE to the South (Row 12). Row 11 green grass corridor (Cols 10-19) has NO southbound access to Row 12.
 - Currently probing West along Row 11 (Cols 9-0) to locate Western exit/connection.
-### Verified Empirical Probing Results (Turns 24038-24041)
-- Building North Wall (Row 16) probed facing Down across Columns 53, 52, 51, 50, 49, 48, 47, 46, 44, 43, 42. All are solid building roof/wall tiles.
-- Currently probing West along Row 15 facing Down across Columns 41, 40, 39, 38.
+### Verified Empirical Probing Results (Turns 24038-24042)
+- Building North Wall (Row 16) probed facing Down across Columns 53, 52, 51, 50, 49, 48, 47, 46, 44, 43, 42, 41, 40, 39, 38. All are solid building roof/wall tiles.
+- Currently probing West along Row 15 facing Down across Columns 37, 36, 35, 34.
 
 <hr>
 

@@ -73,6 +73,6 @@
 ### Verified Empirical Probe (Turn 23924)
 - Cols 10-19 on Row 11 are SOLID WALL / LEDGE to the South (Row 12). Row 11 green grass corridor (Cols 10-19) has NO southbound access to Row 12.
 - Currently probing West along Row 11 (Cols 9-0) to locate Western exit/connection.
-### Verified Empirical Probing Results (Turns 24038-24041)
-- Building North Wall (Row 16) probed facing Down across Columns 53, 52, 51, 50, 49, 48, 47, 46, 44, 43, 42. All are solid building roof/wall tiles.
-- Currently probing West along Row 15 facing Down across Columns 41, 40, 39, 38.
+### Verified Empirical Probing Results (Turns 24038-24042)
+- Building North Wall (Row 16) probed facing Down across Columns 53, 52, 51, 50, 49, 48, 47, 46, 44, 43, 42, 41, 40, 39, 38. All are solid building roof/wall tiles.
+- Currently probing West along Row 15 facing Down across Columns 37, 36, 35, 34.
