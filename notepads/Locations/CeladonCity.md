@@ -66,7 +66,6 @@
 - **Celadon Department Store:** Entrance door at (10, 13) facing North on Celadon City map. Sign at (12, 13) says "MART". It is a multi-story building.
 - **Celadon Mansion:** Located in the north-middle of the city. Sign at (21, 9) says "CELADON MANSION". Entrance doors are around (24, 9).
 
-
 ## Celadon Department Store Directory
 - **1F (Service Counter):** Stairs UP at (12, 1). Elevator at (11, 3).
 - **2F (Trainer Market):** Stairs DOWN at (12, 1), Stairs UP at (16, 1).
