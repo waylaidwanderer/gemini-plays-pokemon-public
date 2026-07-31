@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 24991)
-- Location: Lavender Town Overworld (11, 20)
+## CURRENT STATUS & DASHBOARD (Turn 25007)
+- Location: Route 8 Row 6 Westbound Highway (50, 6)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Standing at (11, 20) outside house at (11, 19). Navigating West to Route 8 entrance at (0, 9) via NW Platform gap (13, 11) to re-enter Route 8 directly onto Upper Highway (59, 9).
+- Active Protocol: Standing at (50, 6) on Row 6 Highway. Walking Left 14 steps along Row 6 pavement to (36, 6) bypassing Column 45 mountain cliff, then continuing West past Col 19 to Western Sector and Underground Path entrance building.
