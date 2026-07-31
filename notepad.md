@@ -205,6 +205,10 @@
 - (10, 13): SOUTH-FACING LEDGE (one-way south hop down to 10,14).
 - RESULT: (10,14) and (10,15) form an ENCLOSED 2-TILE LOWER PAVEMENT CHANNEL bounded West by Col 9 cliff wall, South by Row 16 cliff wall, and North by Row 13 ledge wall. Exit is EAST along Row 14/15 pavement to Column 19 gap at (19,13).
 
+### Verified Physical Building Doorway Coordinates (Turn 23103)
+- Building at (13,15): Saffron Gatehouse (Trade NPC "Poliwhirl for Jynx" + Saffron Guard).
+- Building at (19,17): Underground Path Entrance / Gatehouse complex doorway.
+
 <hr>
 
 <h1><code>Scratchpad/Route_8_Navigation.md</code></h1>
