@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 24769)
-- Location: Underground Path Tunnel (Route 8 - Route 7 Tunnel 15, 3)
+## CURRENT STATUS & DASHBOARD (Turn 24781)
+- Location: Underground Path Tunnel Entrance Chamber (14, 5)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path -> Silph Scope -> Lavender Tower
-- Active Protocol: Entered Underground Path tunnel at (15, 3). Walking West through the tunnel to exit at Route 7 entrance building to Celadon City.
+- Active Protocol: Executing systematic single-step physical collision probing along Column 13 and perimeter wall tiles to locate the exact open passage into the West tunnel.
