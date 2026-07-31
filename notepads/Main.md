@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 25351)
+## CURRENT STATUS & DASHBOARD (Turn 25358)
 - Location: Route 8 (14, 12)
-- Primary Goal: Navigate Row 12 Green Grass Highway Westbound to Western Sector (Cols 0-9) for Underground Path
-- Active Protocol: Walk West along Row 12 green grass past Column 10 into Western Sector (Cols 0-9) to locate Underground Path building.
+- Primary Goal: Reach Row 9 Upper Highway at (20, 9) via Col 20 pavement
+- Active Protocol: Walk East along Row 12 grass to (20, 12) -> Up 3 to (20, 9) Row 9 pavement -> West along Row 9 to Western Sector.
