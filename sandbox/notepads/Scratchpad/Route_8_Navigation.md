@@ -80,3 +80,4 @@
 - Verified Row 9 Ledge (Turn 24551): Row 9 across Cols 20-25 is a south-facing ledge. Open northbound pass from Row 10 to Row 8 Upper Highway is at Column 29 (29,9) tan gravel pass!
 - Verified Row 5 Ledge (Turn 24555): Row 5 across Cols 20-24 is a south-facing ledge. The open northbound gap through Row 5 is at Column 25 (25,5)!
 - Verified Column 53 Pass (Turn 24604): Column 53 at (53, 13) is the open two-way pavement pass connecting Lower Highway Row 15 UP to Upper Highway Row 9 at (52, 9)!
+- Verified Column 45 Rock Wall (Turn 24621): Column 45 is a solid mountain rock cliff across Rows 8, 9, 10, 11, 12, 13.
