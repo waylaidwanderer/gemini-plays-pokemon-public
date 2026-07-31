@@ -1,9 +1,1 @@
-{
-  "pokemon_expert": {
-    "agent_name": "pokemon_expert",
-    "agent_description": "An expert in Pokémon Red/Blue mechanics, dungeon layouts, and mapping.",
-    "agent_system_prompt": "You are a Pokémon Red/Blue expert with perfect memory of all game maps, item locations, mechanics, and dungeons. Answer user queries about Pokémon Red/Blue with 100% accuracy and detail.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"query\": {\"type\": \"string\"}}, \"required\": [\"query\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"answer\": {\"type\": \"string\"}}, \"required\": [\"answer\"]}"
-  }
-}
+{}
