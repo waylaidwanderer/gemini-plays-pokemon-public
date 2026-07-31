@@ -11,19 +11,16 @@ def wait_for_movement():
         p2 = mgba.get_coordinates()
     return p1
 
-# We start at (3, 19)
 print("Start Position:", mgba.get_coordinates())
 
-# Move Left 2
-mgba.press_buttons(["Left", "Left"])
-pos = wait_for_movement()
-print("After Left 2:", pos)
+# Executing the steps to reach the spinner at (4, 22)
+moves = ["Down", "Right", "Right", "Right", "Up", "Up", "Up"]
 
-# Move Down 5 (or until we hit the bottom wall)
-for i in range(5):
-    mgba.press_buttons(["Down"])
+for idx, move in enumerate(moves):
+    mgba.press_buttons([move])
     pos = wait_for_movement()
-    print(f"After Down {i+1}:", pos)
+    print(f"Step {idx+1} ({move}):", pos)
 
-# Let's take a screenshot to inspect current layout at the bottom
-mgba.take_screenshot()
+# Take a screenshot to see where we ended up
+screenshot_path = mgba.take_screenshot()
+print("Final Screenshot:", screenshot_path)
