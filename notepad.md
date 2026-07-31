@@ -737,3 +737,9 @@ We are systematically testing candidates for the staircase warp trigger to B4F o
 
 
 <hr>
+
+<h1><code>notepads/Locations/RocketHideout.md</code></h1>
+
+
+
+<hr>
