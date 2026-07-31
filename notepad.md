@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 25022)
-- Location: Route 8 Upper Highway (46, 9)
+## CURRENT STATUS & DASHBOARD (Turn 25047)
+- Location: Lavender Town Overworld (11, 20)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Standing at (46, 9). Performing single-step physical collision probing to map the exact passage to Western Sector.
+- Active Protocol: Standing at (11, 20) outside Pokemon Center. Navigating Right 3 to Col 14 green grass highway at (14, 20), Up 9 to (14, 11), Left 1 to NW Platform gap at (13, 11), Up 2 to (13, 9), and Left 13 to (0, 9) to warp onto Route 8 Upper Highway at (59, 9).
 
 <hr>
 
