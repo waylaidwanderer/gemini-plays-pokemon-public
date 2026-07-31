@@ -11,25 +11,37 @@ def wait_for_movement():
         p2 = mgba.get_coordinates()
     return p1
 
-# We are at (19, 15) on B3F
+# We are at (2, 9)
 print("Start Position:", mgba.get_coordinates())
 
-# 1. Walk Up to (19, 11)
-print("Walking Up to (19, 11)...")
-for _ in range(4):
-    mgba.press_buttons(["Up"])
-    wait_for_movement()
-print("At:", mgba.get_coordinates())
+# Let's walk Down Column 2 and see how far we can go!
+print("Walking Down Column 2...")
+for i in range(1, 18):
+    mgba.press_buttons(["Down"])
+    pos = wait_for_movement()
+    print(f"Step {i} Down: {pos}")
 
-# 2. Walk Left 2 steps onto (17, 11) LEFT spinner -> should slide Left into Left Room!
-print("Stepping Left onto LEFT spinner...")
-mgba.press_buttons(["Left"])
-wait_for_movement()
-mgba.press_buttons(["Left"])
-time.sleep(3.0) # Wait for slide
-pos = wait_for_movement()
-print("Landed at:", pos)
+# Let's see if we can walk Right or Down further to find the boundaries of Column 15.
+# Let's walk to Column 14 at the deepest Row we reached!
+pos = mgba.get_coordinates()
+deepest_row = pos['y']
+print(f"Deepest row reached on Column 2: {deepest_row}")
 
-# Take screenshot
+# Try to walk Right to Column 14
+print("Walking Right to Column 14...")
+for i in range(1, 14):
+    mgba.press_buttons(["Right"])
+    pos = wait_for_movement()
+    print(f"Step {i} Right: {pos}")
+
+# From our current position, let's try walking Down to see how deep we can go on each Column!
+# Let's try to go Down as far as possible
+print("Trying to go Down further...")
+for i in range(1, 8):
+    mgba.press_buttons(["Down"])
+    pos = wait_for_movement()
+    print(f"Step {i} Down: {pos}")
+
+# Take a screenshot to visualize
 screenshot_path = mgba.take_screenshot()
 print("Screenshot:", screenshot_path)
