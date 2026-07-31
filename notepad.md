@@ -731,3 +731,9 @@ We are systematically testing candidates for the staircase warp trigger to B4F o
 - **(15, 19)**: This is our current primary candidate! (Since Y=19, X=15 in ROM assembly is actually X=15, Y=19 on the map grid). We are heading to test it.
 
 <hr>
+
+<h1><code>notepads/Locations/CeladonCity</code></h1>
+
+
+
+<hr>
