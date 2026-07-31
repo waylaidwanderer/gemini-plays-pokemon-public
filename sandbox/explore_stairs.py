@@ -3,78 +3,94 @@ import time
 
 def wait_for_movement():
     p1 = mgba.get_coordinates()
-    time.sleep(0.12)
+    time.sleep(0.15)
     p2 = mgba.get_coordinates()
     while p1 != p2:
         p1 = p2
-        time.sleep(0.12)
+        time.sleep(0.15)
         p2 = mgba.get_coordinates()
     return p1
 
-# Currently at B3F (28, 14)
-print("Start Position B3F:", mgba.get_coordinates())
+# We are at (28, 10) on B3F
+print("Start Position:", mgba.get_coordinates())
 
-# 1. Walk UP to B2F (27, 8)
-# Corrected path to stairs!
-path_to_27_8 = ["Up", "Left", "Up", "Up", "Up", "Up", "Up"]
-for idx, move in enumerate(path_to_27_8):
-    mgba.press_buttons([move])
-    pos = wait_for_movement()
-    print(f"To B2F Stairs Step {idx+1} ({move}):", pos)
-
-# We should have stepped onto (27, 8) staircase!
-# Let's wait for map transition to finish
-time.sleep(3.0)
-pos_b2f = wait_for_movement()
-print("Warped UP to B2F:", pos_b2f)
-
-# 2. On B2F, walk to (3, 15) and warp DOWN to B3F (8, 11)
-# Walk Left to Column 3
-for i in range(24):
-    mgba.press_buttons(["Left"])
-    wait_for_movement()
-# Walk Down to Row 15
-for j in range(7):
+# Let's walk Down systematically on Column 28
+print("Walking Down Column 28...")
+for i in range(1, 12):
     mgba.press_buttons(["Down"])
-    wait_for_movement()
-print("At B2F B3F stairs:", mgba.get_coordinates())
+    pos = wait_for_movement()
+    print(f"Step {i} Down: {pos}")
 
-# Step DOWN onto the stairs to warp to B3F (8, 11)
-mgba.press_buttons(["Down"])
-time.sleep(3.0)
-wait_for_movement()
-print("Warped DOWN to B3F:", mgba.get_coordinates())
-
-# 3. We are now at B3F (8, 11) stopper!
-# Let's walk to (10, 14), step onto (11, 14) DOWN spinner, and land at (15, 18) stopper.
-print("Walking to (11, 14) DOWN spinner...")
-mgba.press_buttons(["Right", "Right", "Down", "Down", "Down", "Right"])
-time.sleep(3.0) # Let the slide finish
-p_stopper = wait_for_movement()
-print("Landed at B3F stopper:", p_stopper)
-
-# 4. We are at (15, 18) stopper.
-# Let's test walking in all 4 directions from (15, 18) and see what is walkable!
-directions = ['Up', 'Down', 'Left', 'Right']
-opposite = {'Up': 'Down', 'Down': 'Up', 'Left': 'Right', 'Right': 'Left'}
-
-for move in directions:
-    mgba.press_buttons([move])
-    p_new = wait_for_movement()
-    if p_new != p_stopper:
-        print(f"-> Walkable from (15, 18) with move {move}! Landed at: {p_new}")
-        # Walk back if we didn't step on a spinner
-        dx = abs(p_new['x'] - p_stopper['x'])
-        dy = abs(p_new['y'] - p_stopper['y'])
-        if dx <= 1 and dy <= 1:
-            mgba.press_buttons([opposite[move]])
+# If we get blocked, let's try walking Left to see if there is a gap, and then Down!
+pos = mgba.get_coordinates()
+if pos['y'] < 19:
+    print("Blocked on Column 28. Trying Column 27, 26, 25...")
+    # Walk Up back to row 15 if needed
+    dy = 15 - pos['y']
+    move_dir = "Down" if dy > 0 else "Up"
+    for _ in range(abs(dy)):
+        mgba.press_buttons([move_dir])
+        wait_for_movement()
+    
+    # Try different columns to go Down
+    for col in [27, 26, 25, 24]:
+        pos = mgba.get_coordinates()
+        dx = col - pos['x']
+        move_dir = "Right" if dx > 0 else "Left"
+        for _ in range(abs(dx)):
+            mgba.press_buttons([move_dir])
             wait_for_movement()
-        else:
-            print(f"   (Stepped on spinner, we are now at {p_new})")
-            # If we stepped on a spinner, let's just finish the script
+        
+        print(f"Trying to go Down on Column {col}...")
+        for i in range(1, 8):
+            mgba.press_buttons(["Down"])
+            p_test = wait_for_movement()
+            if p_test['y'] > 16:
+                print(f"Success! Reached Row {p_test['y']} on Column {col}!")
+                break
+        
+        # If we reached Row 19 or deeper, break!
+        pos_check = mgba.get_coordinates()
+        if pos_check['y'] >= 19:
             break
-    else:
-        print(f"-> Blocked from (15, 18) with move {move}.")
+            
+        # Backtrack to Row 15
+        dy = 15 - pos_check['y']
+        move_dir = "Down" if dy > 0 else "Up"
+        for _ in range(abs(dy)):
+            mgba.press_buttons([move_dir])
+            wait_for_movement()
 
+# If we are now south of Row 16, let's walk all the way to the B4F stairs!
+pos = mgba.get_coordinates()
+print("Position after column checks:", pos)
+if pos['y'] >= 19:
+    # Walk to Column 18 on Row 20 or 21 (whichever we are on)
+    dx = 18 - pos['x']
+    move_dir = "Right" if dx > 0 else "Left"
+    for _ in range(abs(dx)):
+        mgba.press_buttons([move_dir])
+        wait_for_movement()
+        
+    print("At column 18:", mgba.get_coordinates())
+    
+    # Walk to (18, 20)
+    pos = mgba.get_coordinates()
+    dy = 20 - pos['y']
+    move_dir = "Down" if dy > 0 else "Up"
+    for _ in range(abs(dy)):
+        mgba.press_buttons([move_dir])
+        wait_for_movement()
+        
+    print("At (18, 20):", mgba.get_coordinates())
+    
+    # Walk Up onto the B4F stairs!
+    print("Stepping Up onto B4F stairs...")
+    mgba.press_buttons(["Up"])
+    time.sleep(3.0) # wait for warp
+    pos_after = wait_for_movement()
+    print("Position on B4F:", pos_after)
+
+# Take screenshot
 screenshot_path = mgba.take_screenshot()
 print("Final Screenshot:", screenshot_path)
