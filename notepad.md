@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 25554)
-- Location: Route 8 (19, 14)
+## CURRENT STATUS & DASHBOARD (Turn 25556)
+- Location: Route 8 (19, 12)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Single-step probing East along Row 14 pavement: (19,14) -> Right 1 step to (20,14).
+- Active Protocol: Right 1 to (20,12) -> Up 2 to (20,10) -> Right 9 to (29,10).
 
 <hr>
 
