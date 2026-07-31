@@ -51,15 +51,20 @@
 ## B3F Layout & Mapping
 - **Stairs UP to B2F (Left):** (5, 15) - Spawns player at (5, 15) facing Up.
 - **Stairs UP to B2F (Right):** (27, 8) - Connects UP to B2F (27, 8) -> B1F (23, 2).
-- **Stairs DOWN to B4F:** (18, 19) (accessed via Row 20 bottom corridor by walking Up).
+- **Stairs DOWN to B4F:** (18, 19) (accessed via Row 25 bottom-most crossing, walking Right across Column 15, then Up Column 16 to Row 20, Right to Column 18, and Up to B4F stairs).
 - **Entry Landing Position:** (8, 11) (player automatically spins and lands here after coming down the stairs from B2F (5, 15)).
 - **Reachable Walkable Areas:**
-  - Left Room / Maze: Rows 7-17, Columns 1-15 (completely explored).
+  - Left Room / Maze: Rows 7-25, Columns 1-16 (completely explored).
   - Right Room: Rows 10-15, Columns 18-28.
 - **Major Barriers & Obstacles:**
+  - Column 15: Blocked by solid green-edged wall tiles from Row 18 to Row 24 (empirically verified on Turn 14753 that (15, 20) is impassable).
   - Column 18: Solid vertical wall from Row 6 to Row 19, with gaps only at (18, 10) and (18, 11).
-  - Row 16: Solid horizontal wall from Column 18 to Column 28, making the bottom-right corridor (rows 17-19) inaccessible.
+  - Row 16: Solid horizontal wall from Column 18 to Column 28, making the bottom-right corridor (rows 17-19) inaccessible from the Right Room.
   - Column 24: Decorative columns/pillars at (24, 11) and (24, 13) are impassable.
+- **Walkable Row 25 Crossing Method (Burden of Proof Verified):**
+  - Land at (9, 24) stopper on B3F (Turn 14758).
+  - Walk Right 1 step to (10, 24) (Turn 14759).
+  - Walk Down 1 step onto (10, 25) RIGHT spinner -> slides us through (11, 25), (12, 25), (13, 25) to (14, 25) stopper (Turn 14760). This is the only physical route that successfully bypasses the Column 15 blockage!
 - **Spinner Pathways:**
   - (12, 13) (UP spinner) -> spins UP to (12, 9) (LEFT spinner) -> spins Left to (2, 9) (stopper).
   - (9, 14) (DOWN spinner) -> spins DOWN to (9, 16) (stopper).
