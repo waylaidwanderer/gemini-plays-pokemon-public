@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 25358)
+## CURRENT STATUS & DASHBOARD (Turn 25367)
 - Location: Route 8 (20, 10)
-- Primary Goal: Reach Row 9 Upper Highway at (20, 9) via Col 20 pavement
-- Active Protocol: Walk East along Row 12 grass to (20, 12) -> Up 3 to (20, 9) Row 9 pavement -> West along Row 9 to Western Sector.
+- Primary Goal: Reach Col 28/29 northbound gap to access Row 8 Upper Highway
+- Active Protocol: Down 2 to (20, 12) -> East along Row 12 to Col 28/29 -> Up 4 to Row 8 Upper Highway -> West along Row 8 to Western Sector.
