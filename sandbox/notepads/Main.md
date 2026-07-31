@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 24833)
-- Location: Route 8 Overworld (3, 19) Southbound Pass
+## CURRENT STATUS & DASHBOARD (Turn 24841)
+- Location: Route 8 Overworld (13, 24)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path -> Silph Scope -> Lavender Tower
-- Active Protocol: Found open southbound gap at (3, 19). Walking Down 3 to Row 22 Highway (3, 22), Right 16 to (19, 22), and Up 5 to enter Underground Path building doorway at (19, 17).
+- Active Protocol: Walking Up 7 to Row 17 Highway (13, 17), then Right 6 to enter Underground Path building doorway at (19, 17).
