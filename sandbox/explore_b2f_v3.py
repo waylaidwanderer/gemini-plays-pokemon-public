@@ -2,15 +2,21 @@ import mgba
 import time
 
 def main():
-    print("Navigating through southern spinner at (11, 14)...")
-    # Current pos: (10, 12)
-    # Path: Down, Down, Right (onto 11, 14 spinner)
-    buttons = ["Down", "Down", "Right"]
-    mgba.press_buttons(buttons)
+    print("Escaping to columns 19-20 via UP spinner at (16, 18)...")
+    # Current pos: (15, 18)
+    # Step Right onto (16, 18) spinner
+    mgba.press_buttons(["Right"])
     time.sleep(3) # Wait for spin to complete
     
     pos = mgba.get_coordinates()
-    print(f"Current position after spin: {pos}")
+    print(f"Position after spin: {pos}")
+    
+    # Walk Right to (19, 13)
+    mgba.press_buttons(["Right", "Right", "Right"])
+    time.sleep(1)
+    
+    pos = mgba.get_coordinates()
+    print(f"Current position: {pos}")
     mgba.take_screenshot()
 
 if __name__ == '__main__':
