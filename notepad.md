@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 25431)
+## CURRENT STATUS & DASHBOARD (Turn 25432)
 - Location: Lavender Town (2, 26)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Left 2 steps into Route 8 entrance at (0, 26) -> Spawn on Upper Highway (59, 9) -> Walk West along Row 8 to Western Sector.
+- Active Protocol: Up along Col 2 pavement to Row 13 -> East to Col 13 -> Up through (13,11) gap to Row 9 -> West to Route 8 (0,9) -> Upper Highway (59,9) -> West to Western Sector.
 
 <hr>
 
