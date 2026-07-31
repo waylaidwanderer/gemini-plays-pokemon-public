@@ -3,47 +3,65 @@ import time
 
 def wait_for_movement():
     p1 = mgba.get_coordinates()
-    time.sleep(0.1)
+    time.sleep(0.12)
     p2 = mgba.get_coordinates()
     while p1 != p2:
         p1 = p2
-        time.sleep(0.1)
+        time.sleep(0.12)
         p2 = mgba.get_coordinates()
     return p1
 
-# We are currently at (1, 15)
-print("Start Position:", mgba.get_coordinates())
+# We are currently at (20, 13) in the Right Room
+start_pos = mgba.get_coordinates()
+print("Start Position:", start_pos)
 
-# 1. Walk Right onto (4, 15) spinner -> spins us to (8, 11) stopper
-print("Walking to spinner...")
-mgba.press_buttons(["Right", "Right", "Right"])
-time.sleep(3.0) # Let the slide finish
-p_stopper = wait_for_movement()
-print("Landed at stopper:", p_stopper)
+# Let's explore the right side of the room systematically.
+# We will walk East as much as possible, then look around.
+walked_path = []
+pos = start_pos
 
-# 2. From (8, 11) stopper, let's explore going Up and Left to see how far we can go!
-# We'll try walking Up as much as possible
+# Move East (Right) as far as we can
+for i in range(10):
+    mgba.press_buttons(["Right"])
+    p_new = wait_for_movement()
+    if p_new == pos:
+        print(f"Blocked going Right at: {pos}")
+        break
+    pos = p_new
+    walked_path.append("Right")
+    print(f"Right step {i+1}: {pos}")
+
+# From our furthest Right, let's see if we can move Down or Up
+print("From furthest Right, trying Down...")
+mgba.press_buttons(["Down"])
+p_down = wait_for_movement()
+if p_down != pos:
+    print("Down is walkable:", p_down)
+    # Move back Up
+    mgba.press_buttons(["Up"])
+    wait_for_movement()
+else:
+    print("Down is blocked.")
+
+print("From furthest Right, trying Up...")
 mgba.press_buttons(["Up"])
 p_up = wait_for_movement()
-print("Position after Up:", p_up)
+if p_up != pos:
+    print("Up is walkable:", p_up)
+    # Move back Down
+    mgba.press_buttons(["Down"])
+    wait_for_movement()
+else:
+    print("Up is blocked.")
 
-if p_up != p_stopper:
-    # Try Left
-    mgba.press_buttons(["Left"])
-    p_left = wait_for_movement()
-    print("Position after Left:", p_left)
-    
-    if p_left != p_up:
-        # Walk Left as much as possible
-        for i in range(10):
-            mgba.press_buttons(["Left"])
-            p_new = wait_for_movement()
-            if p_new == p_left:
-                print("Blocked going Left at:", p_left)
-                break
-            p_left = p_new
-            print(f"Left step {i+2}:", p_left)
-
-# Take screenshot to verify where we ended up
+# Let's take a screenshot to inspect the far-right of this room
 screenshot_path = mgba.take_screenshot()
-print("Screenshot:", screenshot_path)
+print("Far-Right Room Screenshot:", screenshot_path)
+
+# Return to (20, 13) so we don't stay lost
+opposite = {'Right': 'Left', 'Left': 'Right', 'Up': 'Down', 'Down': 'Up'}
+for move in reversed(walked_path):
+    mgba.press_buttons([opposite[move]])
+    wait_for_movement()
+
+print("Returned to start:", mgba.get_coordinates())
