@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 25330)
-- Location: Route 8 (20, 14)
-- Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Walk East along Row 14 pavement to (19, 14) -> South 3 steps to Underground Path doorway at (19, 17).
+## CURRENT STATUS & DASHBOARD (Turn 25341)
+- Location: Route 8 (21, 14)
+- Primary Goal: Explore Lower Basin to locate Underground Path entrance
+- Active Protocol: Step Right to (22, 14) -> inspect Col 23-26.
 
 <hr>
 
