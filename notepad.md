@@ -649,7 +649,7 @@
 ## B3F Layout & Mapping
 - **Stairs UP to B2F (Left):** (5, 15) - Spawns player at (5, 15) facing Up.
 - **Stairs UP to B2F (Right):** (27, 8) - Connects UP to B2F (27, 8) -> B1F (23, 2).
-- **Stairs DOWN to B4F:** (18, 19) (accessed via Row 25 bottom-most crossing, walking Right across Column 15, then Up Column 16 to Row 20, Right to Column 18, and Up to B4F stairs).
+- **Stairs DOWN to B4F:** Located at (21, 22) or (21, 21) in B3F. Takes the player to B4F at (21, 25) (empirically verified on Turn 14770).
 - **Entry Landing Position:** (8, 11) (player automatically spins and lands here after coming down the stairs from B2F (5, 15)).
 - **Reachable Walkable Areas:**
   - Left Room / Maze: Rows 7-25, Columns 1-16 (completely explored).
