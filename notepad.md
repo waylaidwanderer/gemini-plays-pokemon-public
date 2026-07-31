@@ -606,14 +606,27 @@
   - Rocket Grunt at (12, 6) facing Right. Defeated on Turn 13944.
   - Rocket Grunt at (26, 8) facing Left. Defeated on Turn 14001.
 - **Items on B1F:**
-  - Pok� Ball at (11, 14). Escape Rope obtained on Turn 13977.
+  - Pokéé Ball at (11, 14). Escape Rope obtained on Turn 13977.
 
 
 ## B2F Layout & Mapping
 - **Stairs to B1F:** (27, 8) - This is the warp spawn point where you land after coming down the stairs at B1F (23, 2).
-- **Current Position:** (27, 8) (as of Turn 14031)
 - **Walkable Area:**
-  - Columns 25-28 on Rows 8-12 (completely clear pink floor)
-
+  - Columns 25-28 on Rows 8-12 (completely clear pink floor around stairs)
+  - Rows 13-15 on Columns 23-28 (pocket leading to spinner entrance at (12, 13))
+  - Row 10 on Columns 14-20, Row 11 on Columns 14-16, Row 12 on Columns 14-15
+  - Columns 1-3 on Rows 7-9 (area around far-left spinner landing at (2, 9))
+  - Row 7 on Columns 1-5 (top corridor on the far left)
+  - Row 11 on Columns 5-7 (area near the Poké Ball at (6, 12))
+  - Row 13-15 on Columns 1-4 (bottom-left area)
+- **Trainers on B2F:**
+  - Rocket Grunt at (20, 13) facing Down. Defeated on Turn 14038.
+- **Spinners / Maze Mechanics:**
+  - UP spinner at (12, 13) -> UP spinner at (12, 11) -> LEFT spinner at (12, 9) -> LEFT spinner at (4, 9) -> Stopper at (2, 9).
+  - LEFT spinner at (17, 10) -> DOWN spinner at (13, 10) -> RIGHT spinner at (13, 12) -> Wall at (15, 12) (stops player at (14, 12)).
+- **Items on B2F:**
+  - Poké Ball at (16, 8) (blocked by wall at (16, 9), accessible from row 7 at (16, 7))
+  - Poké Ball at (1, 11) (blocked by wall at (2, 11), accessible from row 12 at (1, 12))
+  - Poké Ball at (6, 12) (accessible from row 11 at (6, 11))
 
 <hr>
