@@ -66,3 +66,6 @@
   - (11, 16) (RIGHT spinner) -> spins RIGHT to (15, 17) (stopper).
   - (14, 17) (UP spinner) -> spins UP to (14, 15) (stopper).
   - (16, 14) (UP spinner) -> spins UP to (16, 13) (stopper).
+- **Items on B3F:**
+  - Poké Ball at (16, 8) (TM30 - Teleport, obtained on Turn 14196)
+  - Poké Ball at (3, 21) (Super Potion, obtained on Turn 14439)
