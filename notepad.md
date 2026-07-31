@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 25341)
+## CURRENT STATUS & DASHBOARD (Turn 25345)
 - Location: Route 8 (22, 14)
-- Primary Goal: Explore Lower Basin to locate Underground Path entrance
-- Active Protocol: Step Right to (22, 14) -> inspect Col 23-26.
+- Primary Goal: Reach Column 19 gap at (19, 14) to exit Lower Basin
+- Active Protocol: Walk West to (19, 14) -> step Up through (19, 13) gap to Row 12 grass.
 
 <hr>
 
