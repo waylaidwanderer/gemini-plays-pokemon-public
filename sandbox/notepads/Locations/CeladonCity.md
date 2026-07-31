@@ -80,3 +80,19 @@
 - **Going Down (2F -> 1F):** The DOWN escalator on 2F is located at (12, 1). You cannot enter it from the bottom (12, 2) due to a physical exit barrier. You must walk around to the top at (12, 0) and walk DOWN into (12, 1). This transitions you to 1F, spawning at (12, 2) facing South.
 - **Going Up (1F -> 2F):** The UP escalator on 1F is located at (12, 1). You enter it from the bottom at (12, 2) by walking UP into (12, 1). This transitions you to 2F, spawning at (12, 2) facing South.
 - **Going Up to 3F (2F -> 3F):** The UP escalator on 2F is located at (16, 1). You enter it from the bottom at (16, 2) by walking UP into (16, 1).
+## Correct Overworld to Interior Warp Matrix:
+- **Celadon Game Corner (Map 135, 20x18 standard Game Corner):** Entrance door is at `(28, 19)` on the Celadon City overworld (south side of the building block). It contains the secret switch poster at `(9, 4)` and the Rocket Grunt at `(9, 5)`.
+- **Celadon Prize Exchange (Map 138, 10x8 small room):** Entrance door is at `(31, 27)` on the Celadon City overworld.
+- **Celadon Hotel (Map 139, 8x8 room):** Entrance door is at `(35, 27)` on the Celadon City overworld.
+- **Celadon Diner (Map 137, 10x8 room):** Entrance door is at `(33, 19)` on the Celadon City overworld.
+- **Celadon Chief's House (Map ID To Be Verified):** Located in the city.
+- **Saffron Gatehouses (Map 140, standard gatehouse):** Entrance door is at `(43, 27)` on the Celadon City overworld.
+
+### Verified Walkable Overworld Coordinates (Middle-South Rows):
+- Row 19: (10, 19), (16, 19), (28, 19) (Game Corner Entrance), (33, 19) (Diner Entrance), (36, 19)
+- Row 20: (28, 20), (29, 20), (30, 20), (31, 20), (32, 20), (33, 20), (34, 20), (35, 20), (36, 20), (37, 20)
+- Row 14: (26, 14), (27, 14), (28, 14), (29, 14), (30, 14), (31, 14), (32, 14), (33, 14), (34, 14), (35, 14), (36, 14)
+- Row 15: (36, 15)
+- Row 16: (36, 16)
+- Row 17: (36, 17)
+- Row 18: (36, 18)
