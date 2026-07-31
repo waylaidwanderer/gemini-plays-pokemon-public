@@ -6,12 +6,12 @@
 - **Thunder Badge:** Earned by defeating Gym Leader Lt. Surge in Vermilion City Gym on Turn 7025.
 - **Rainbow Badge:** Earned by defeating Gym Leader Erika in Celadon City Gym on Turn 13682.
 
-## Current Party Stats (as of Turn 13711)
+## Current Party Stats (as of Turn 14191)
 1. **SHELLBY** (Blastoise)
    - Level: 43
    - HP: 132/132
    - Status: Healthy
-   - Moveset: SKULL BASH (15/15), ICE BEAM (7/10), BITE (24/25), WATER GUN (25/25)
+   - Moveset: SKULL BASH (15/15), ICE BEAM (7/10) (Taught on Turn 13537, forgot TAIL WHIP), BITE (24/25), WATER GUN (25/25)
 2. **TRUFFLE** (Paras)
    - Level: 15
    - HP: 39/39
@@ -34,10 +34,28 @@
 - **Bill's House:** Visited on Route 25 on Turn 4765. Restored Bill's human form.
 - **Burgled House:** Explored in Cerulean City.
 - **S.S. Anne:** Boarded and cleared, obtained Cut from the Captain.
+- **Ice Beam:** Taught to SHELLBY on Turn 13537 (forgot Tail Whip).
+- **Moon Stone:** Obtained on Turn 14079.
+- **TM07 (Horn Drill):** Obtained on Turn 14097.
+- **Escape Rope:** Obtained on Turn 13977.
 
-## Verified Inventory (as of Turn 13711)
-- **Super Potion:** 5 (Purchased on Turn 13585)
-- **Antidote:** 5 (Purchased on Turn 13591)
-- **Awakening:** 5 (Purchased on Turn 13561)
-- **Parlyz Heal:** 5 (Purchased on Turn 13566)
-- **TM21 (Mega Drain):** 1 (Obtained from Erika on Turn 13692)
+## Verified Inventory (as of Turn 14191)
+- **Town Map:** 1
+- **TM01 (Mega Punch):** 1
+- **Moon Stone:** 2
+- **Helix Fossil:** 1
+- **S.S. Ticket:** 1
+- **TM11 (BubbleBeam):** 1
+- **Ether:** 1
+- **TM44 (Rest):** 1
+- **Max Ether:** 1
+- **HM01 (Cut):** 1
+- **TM24 (Thunderbolt):** 1
+- **TM30 (Teleport):** 1
+- **TM48 (Rock Slide):** 1
+- **TM49 (Tri Attack):** 1
+- **Awakening:** 5
+- **Parlyz Heal:** 5
+- **Super Potion:** 5
+- **Escape Rope:** 1
+- **TM07 (Horn Drill):** 1
