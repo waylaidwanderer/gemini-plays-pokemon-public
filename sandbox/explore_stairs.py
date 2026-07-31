@@ -11,104 +11,116 @@ def wait_for_movement():
         p2 = mgba.get_coordinates()
     return p1
 
-# We start at B3F (2, 9)
+# Start at (3, 13)
 print("Start Position:", mgba.get_coordinates())
 
-# 1. Walk to (3, 14) (LEFT spinner) -> spins to (2, 14) stopper
-mgba.press_buttons(["Right"])
+# 1. Walk Up to (3, 9)
+mgba.press_buttons(["Up", "Up", "Up", "Up"])
 wait_for_movement()
 print("At (3, 9):", mgba.get_coordinates())
 
-for i in range(5):
-    mgba.press_buttons(["Down"])
-    wait_for_movement()
-print("At (3, 14) spinner:", mgba.get_coordinates())
+# 2. Right onto (4, 9) (LEFT spinner) -> spins to (2, 9) stopper
+mgba.press_buttons(["Right"])
+time.sleep(1.5)
+wait_for_movement()
+print("At (2, 9) stopper:", mgba.get_coordinates())
 
-# The last Down step onto (3, 14) is a LEFT spinner -> spins to (2, 14) stopper
-# Wait, let's make sure the slide finishes
+# 3. Walk to (4, 14) via (3, 9) -> (3, 13) -> (4, 13) -> (4, 14)
+mgba.press_buttons(["Right"])
+wait_for_movement()
+mgba.press_buttons(["Down", "Down", "Down", "Down"])
+wait_for_movement()
+mgba.press_buttons(["Right"])
+wait_for_movement()
+mgba.press_buttons(["Down"])
+wait_for_movement()
+print("At (4, 14):", mgba.get_coordinates())
+
+# 4. Right onto (5, 14) (RIGHT spinner) -> spins to (9, 16) stopper
+mgba.press_buttons(["Right"])
 time.sleep(2.0)
-pos_stopper = wait_for_movement()
-print("Landed at (2, 14) stopper:", pos_stopper)
+wait_for_movement()
+print("At (9, 16) stopper:", mgba.get_coordinates())
 
-# 2. From (2, 14) stopper, walk Down into the bottom-left area.
-# Let's see: on column 2, is row 15 walkable?
-# Let's test walking Down to row 19-23.
-# We'll just walk Down and print coordinates after each step
-for i in range(10):
-    mgba.press_buttons(["Down"])
-    p_curr = wait_for_movement()
-    print(f"Down step {i+1}: {p_curr}")
-    if p_curr['y'] >= 19:
-        break
+# 5. Right to (10, 16)
+mgba.press_buttons(["Right"])
+wait_for_movement()
+print("At (10, 16):", mgba.get_coordinates())
 
-pos_bottom = mgba.get_coordinates()
-print("Reached bottom-left area at:", pos_bottom)
+# 6. Down onto (10, 17) (RIGHT spinner) -> spins to (14, 15) stopper
+mgba.press_buttons(["Down"])
+time.sleep(2.0)
+wait_for_movement()
+print("At (14, 15) stopper:", mgba.get_coordinates())
 
-# 3. Walk Right along Row 24, Row 25 and Row 26 to test Column 15!
-# We want to systematically find if we can cross Column 15 on any of these bottom rows.
-# Let's walk to column 14, then try walking Right to Column 15!
+# 7. Right to (15, 15) -> Down onto (15, 16) (DOWN spinner) -> spins to (15, 18) stopper
+mgba.press_buttons(["Right", "Down"])
+time.sleep(2.0)
+wait_for_movement()
+print("At (15, 18) stopper:", mgba.get_coordinates())
 
-# Walk to Column 14 (Y should be 24 or 25)
-# Walk Down to Row 24 if we are not there yet
-curr = mgba.get_coordinates()
-while curr['y'] < 24:
-    mgba.press_buttons(["Down"])
-    curr = wait_for_movement()
-print("At Row 24:", curr)
+# 8. Right onto (16, 18) (UP spinner) -> spins to (16, 13) stopper
+mgba.press_buttons(["Right"])
+time.sleep(2.0)
+wait_for_movement()
+print("At (16, 13) stopper:", mgba.get_coordinates())
 
-# Try walking Right as far as possible on Row 24
-print("Exploring Row 24 Right...")
-for col in range(curr['x'] + 1, 20):
-    mgba.press_buttons(["Right"])
-    p_new = wait_for_movement()
-    if p_new['x'] < col:
-        print(f"Row 24 blocked at: {p_new}")
-        break
-    print(f"Row 24: {p_new}")
+# 9. Walk to the Right Room past the Rocket Grunt:
+# To (19, 13)
+mgba.press_buttons(["Right", "Right", "Right"])
+wait_for_movement()
+print("At (19, 13):", mgba.get_coordinates())
 
-# Walk back to Column 14, go Down to Row 25, and try walking Right
-mgba.press_buttons(["Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left"])
-curr = wait_for_movement()
-# Walk to (14, 25)
-while curr['x'] < 14:
-    mgba.press_buttons(["Right"])
-    curr = wait_for_movement()
-while curr['y'] < 25:
-    mgba.press_buttons(["Down"])
-    curr = wait_for_movement()
-print("At (14, 25):", curr)
+# Walk down and right around the Grunt to reach (23, 14)
+mgba.press_buttons(["Right", "Right", "Down", "Right"])
+wait_for_movement()
+print("At (23, 14):", mgba.get_coordinates())
 
-# Try walking Right as far as possible on Row 25
-print("Exploring Row 25 Right...")
-for col in range(15, 20):
-    mgba.press_buttons(["Right"])
-    p_new = wait_for_movement()
-    if p_new['x'] < col:
-        print(f"Row 25 blocked at: {p_new}")
-        break
-    print(f"Row 25: {p_new}")
+# Walk to Row 15
+mgba.press_buttons(["Down"])
+wait_for_movement()
+print("At (23, 15):", mgba.get_coordinates())
 
-# Walk back to Column 14, go Down to Row 26, and try walking Right
-mgba.press_buttons(["Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left"])
-curr = wait_for_movement()
-while curr['x'] < 14:
-    mgba.press_buttons(["Right"])
-    curr = wait_for_movement()
-while curr['y'] < 26:
-    mgba.press_buttons(["Down"])
-    curr = wait_for_movement()
-print("At (14, 26):", curr)
+# Let's explore the far right area comprehensively (Columns 24-28, Rows 10-15)
+# We will do a local DFS to find any staircases!
+walkable_far_right = set()
+visited_far_right = set()
 
-# Try walking Right as far as possible on Row 26
-print("Exploring Row 26 Right...")
-for col in range(15, 20):
-    mgba.press_buttons(["Right"])
-    p_new = wait_for_movement()
-    if p_new['x'] < col:
-        print(f"Row 26 blocked at: {p_new}")
-        break
-    print(f"Row 26: {p_new}")
+def dfs_far_right(pos):
+    walkable_far_right.add(pos)
+    visited_far_right.add(pos)
+    
+    # Try all 4 directions
+    directions = ['Up', 'Down', 'Left', 'Right']
+    opposite = {'Up': 'Down', 'Down': 'Up', 'Left': 'Right', 'Right': 'Left'}
+    
+    for move in directions:
+        dx, dy = 0, 0
+        if move == 'Up': dy = -1
+        elif move == 'Down': dy = 1
+        elif move == 'Left': dx = -1
+        elif move == 'Right': dx = 1
+        
+        nxt = (pos[0] + dx, pos[1] + dy)
+        
+        # We only explore the far-right area (X between 23 and 28, Y between 10 and 15)
+        if 23 <= nxt[0] <= 28 and 10 <= nxt[1] <= 15:
+            if nxt not in visited_far_right:
+                mgba.press_buttons([move])
+                p_new_coords = wait_for_movement()
+                p_new = (p_new_coords['x'], p_new_coords['y'])
+                
+                if p_new == nxt:
+                    dfs_far_right(p_new)
+                    mgba.press_buttons([opposite[move]])
+                    wait_for_movement()
+                else:
+                    visited_far_right.add(nxt)
 
-# Take screenshot to verify where we end up
+dfs_far_right((23, 15))
+
+print("ALL WALKABLE TILES IN FAR RIGHT AREA:")
+print(sorted(list(walkable_far_right)))
+
 screenshot_path = mgba.take_screenshot()
-print("Verification Screenshot:", screenshot_path)
+print("Exploration Screenshot:", screenshot_path)
