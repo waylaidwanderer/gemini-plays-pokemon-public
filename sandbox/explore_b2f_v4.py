@@ -2,23 +2,31 @@ import mgba
 import time
 
 def main():
-    print("Navigating to far-left vertical corridor...")
-    # Current pos: (10, 12)
-    # Path to (3, 11): Up, Left x7
-    buttons = ["Up", "Left", "Left", "Left", "Left", "Left", "Left", "Left"]
-    mgba.press_buttons(buttons)
-    time.sleep(2)
+    print("Navigating to top-left area on B2F...")
+    pos = mgba.get_coordinates()
+    print(f"Start pos: {pos}")
+    
+    # We are at (8, 11).
+    # Path to UP spinner at (10, 10): Right, Right, Up
+    mgba.press_buttons(["Right", "Right", "Up"])
+    time.sleep(3) # Wait for spin to complete
     
     pos = mgba.get_coordinates()
-    print(f"Position at column 3: {pos}")
+    print(f"Position after spin: {pos}")
     
-    # Now walk Down as far as possible to find the bottom corridor
-    # Let's do 10 steps Down
-    mgba.press_buttons(["Down"] * 10)
-    time.sleep(3)
+    # Path to (1, 7): Left, Up, Up
+    mgba.press_buttons(["Left", "Up", "Up"])
+    time.sleep(1)
     
     pos = mgba.get_coordinates()
-    print(f"Final position: {pos}")
+    print(f"Position at (1, 7): {pos}")
+    
+    # Let's explore the top-left further (walk Right along row 7)
+    mgba.press_buttons(["Right", "Right", "Right"])
+    time.sleep(1)
+    
+    pos = mgba.get_coordinates()
+    print(f"Position after walking row 7: {pos}")
     mgba.take_screenshot()
 
 if __name__ == '__main__':
