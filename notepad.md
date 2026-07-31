@@ -627,7 +627,7 @@
 
 ## B2F Layout & Mapping
 - **Stairs to B1F:** (27, 8)
-- **Stairs to B3F:** (3, 15) - This is the warp spawn point where you land after coming down the stairs at B1F (23, 2).
+- **Stairs to B3F:** (5, 15) (Warp trigger on B2F at (4, 15), (5, 15), (6, 15) going Down) - Spawns player at (5, 15) facing Up on B3F.
 - **Walkable Area:**
   - Columns 25-28 on Rows 8-12 (completely clear pink floor around stairs)
   - Rows 13-15 on Columns 23-28 (pocket leading to spinner entrance at (12, 13))
@@ -649,8 +649,8 @@
 ## B3F Layout & Mapping
 - **Stairs UP to B2F (Left):** (5, 15) - Spawns player at (5, 15) facing Up.
 - **Stairs UP to B2F (Right):** (27, 8) - Connects UP to B2F (27, 8) -> B1F (23, 2).
-- **Stairs DOWN to B4F:** (28, 13) (accessed via Row 14 by walking Up from (28, 14)).
-- **Entry Landing Position:** (8, 11) (player automatically spins and lands here after coming down the stairs from B2F (3, 15)).
+- **Stairs DOWN to B4F:** (18, 19) (accessed via Row 20 bottom corridor by walking Up).
+- **Entry Landing Position:** (8, 11) (player automatically spins and lands here after coming down the stairs from B2F (5, 15)).
 - **Reachable Walkable Areas:**
   - Left Room / Maze: Rows 7-17, Columns 1-15 (completely explored).
   - Right Room: Rows 10-15, Columns 18-28.
