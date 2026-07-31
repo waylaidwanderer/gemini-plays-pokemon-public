@@ -506,13 +506,11 @@
 
 ## Escalator & Stairs Navigation Rules
 - Escalators are strictly one-way direction-locked transitions.
-- **Going Down (2F -> 1F):** The DOWN escalator on 2F is located at (12, 1). You enter it from the top at (12, 0) by walking DOWN into (12, 1). This transitions you to 1F, spawning at (12, 2) facing South. Entering from the bottom at (12, 2) needs further empirical verification to prove if it is blocked or not.
+- **Going Down (2F -> 1F):** The DOWN escalator on 2F is located at (12, 1). You enter it from the top at (12, 0) by walking DOWN into (12, 1). This transitions you to 1F, spawning at (12, 2) facing South.
 - **Going Up (1F -> 2F):** The UP escalator on 1F is located at (12, 1). You enter it from the bottom at (12, 2) by walking UP into (12, 1). This transitions you to 2F, spawning at (12, 2) facing South.
 - **Going Up to 3F (2F -> 3F):** The UP escalator on 2F is located at (16, 1). You enter it from the bottom at (16, 2) by walking UP into (16, 1).
 ## Correct Overworld to Interior Warp Matrix:
 - **Celadon Game Corner (Map 135, 20x18 standard Game Corner):** Entrance door is at `(28, 19)` on the Celadon City overworld (south side of the building block). It contains the secret switch poster at `(9, 4)` and the Rocket Grunt at `(9, 5)`.
-- **Celadon Prize Exchange (Map ID To Be Verified):** Entrance door is at `(31, 27)` or `(39, 19)` on the Celadon City overworld.
-- **Celadon Hotel (Map ID To Be Verified):** Entrance door is at `(35, 27)` on the Celadon City overworld.
 - **Celadon Diner (Map 137, 10x8 room):** Entrance door is at `(33, 19)` on the Celadon City overworld.
 - **Celadon Chief's House (Map ID To Be Verified):** Located in the city.
 - **Saffron Gatehouses (Map 140, standard gatehouse):** Entrance door is at `(43, 27)` on the Celadon City overworld.
