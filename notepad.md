@@ -377,6 +377,7 @@
 ### Verified Empirical Probing Results (Turns 24038-24044)
 - Building North Wall (Row 16) probed facing Down across ALL Columns from 53 West to 30: (53, 52, 51, 50, 49, 48, 47, 46, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30). All are solid building roof/wall tiles.
 - Next Strategy: Access the South face of the building (Row 19/20/25/27) via Column 40 eastern gap.
+- Verified Row 13 Ledge (Turn 24548): Row 13 across Cols 20-23 is a south-facing ledge (one-way south hop down to Row 14). Northbound exit from Row 14 is at Column 19 gap (19,13) -> Row 12 green grass (19,12)!
 
 <hr>
 
