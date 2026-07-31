@@ -2,7 +2,6 @@ import mgba
 import time
 
 def walk_to(target_x, target_y):
-    # Simple step-by-step pathfinder
     for _ in range(15):
         pos = mgba.get_coordinates()
         cx, cy = pos['x'], pos['y']
@@ -49,28 +48,49 @@ def test_tile(x, y):
     return False
 
 def main():
-    print("Testing B2F stairs in the right clear area...")
-    # Walk to (25, 14)
-    if not walk_to(25, 14):
-        print("Failed to reach starting point (25, 14)")
-        return
-        
-    # We will test rows 9 to 15, columns 25 to 28
-    # Since we are at (25, 14), let's walk through them systematically
+    print("Navigating to B2F far-left spinner landing...")
+    # Current pos: (27, 9)
+    # 1. Spin to (2, 9)
+    # Path: Down x4, Left x5, Up, Left x3, Up, Left x2 (onto 17, 11 spinner)
+    mgba.press_buttons(["Down"] * 4)
+    time.sleep(1.0)
+    mgba.press_buttons(["Left"] * 5)
+    time.sleep(1.0)
+    mgba.press_buttons(["Up"])
+    time.sleep(0.5)
+    mgba.press_buttons(["Left"] * 3)
+    time.sleep(1.0)
+    mgba.press_buttons(["Up"])
+    time.sleep(0.5)
+    mgba.press_buttons(["Left", "Left"])
+    time.sleep(4.0) # Wait for massive spin to complete
+    
+    pos = mgba.get_coordinates()
+    print(f"Arrived at far-left spinner landing: {pos}")
+    
+    # 2. Walk to (3, 13)
+    # Path: Right, Down, Down, Down, Down
+    mgba.press_buttons(["Right", "Down", "Down", "Down", "Down"])
+    time.sleep(2.0)
+    
+    pos = mgba.get_coordinates()
+    print(f"Arrived at bottom-left area: {pos}")
+    
+    # We will test rows 13 to 18, columns 1 to 4
     tiles_to_test = []
-    for r in [13, 14, 15, 12, 11, 10, 9]:
-        for c in [25, 26, 27, 28]:
+    for r in [13, 14, 15, 16, 17, 18]:
+        for c in [1, 2, 3, 4]:
             tiles_to_test.append((c, r))
             
     for c, r in tiles_to_test:
         # Walk adjacent to (c, r)
-        # Safe adjacent candidates: (c-1, r) if c > 25, else (c+1, r)
-        adj_x, adj_y = (c-1, r) if c > 25 else (c+1, r)
+        # Safe adjacent candidates: (c+1, r) if c < 4, else (c-1, r)
+        adj_x, adj_y = (c+1, r) if c < 4 else (c-1, r)
         if walk_to(adj_x, adj_y):
             if test_tile(c, r):
                 return
                 
-    print("No stairs found in the rows 9-15 of columns 25-28.")
+    print("No stairs found in the bottom-left area.")
     mgba.take_screenshot()
 
 if __name__ == '__main__':
