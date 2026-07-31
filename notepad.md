@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 25171)
-- Location: Route 8 Upper Highway (53, 8)
+## CURRENT STATUS & DASHBOARD (Turn 25186)
+- Location: Lavender Town (0, 8)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Single-step collision probing East along Row 8 pavement through Cols 54-60 to reach Col 60/61 Northern Highway corridor.
+- Active Protocol: Stepping Left onto Route 8 (59, 8) and staying on Upper Highway Row 8/9 pavement West to Column 42, then taking Upper Highway West to Western Sector (8, 17) Underground Path building.
 
 <hr>
 
@@ -436,6 +436,7 @@
 - Doorway at (9,11): Saffron Gatehouse doorway (Badges NPC inside at 5,3, desk with coffee cup at 6,3).
 - Row 7 at Column 1 (1,7) is a south-facing ledge wall (hopping down to 1,8).
 - Verified Eastern Map Border (Turn 24590): Column 60 on Route 8 is the eastern map boundary tile that warps back to Lavender Town (0, 9).
+- Empirical Map Boundary Discovery (Turn 25185): Column 60 across all rows (y=8, y=9) on Route 8 is the eastern map transition boundary that warps back to Lavender Town at (0, 8) / (0, 9). Route 8 playable grid is Columns 0 to 59.
 
 <hr>
 
