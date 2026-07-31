@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 24856)
-- Location: Route 8 Overworld (15, 4) Dead-End Alcove
+## CURRENT STATUS & DASHBOARD (Turn 24858)
+- Location: Route 8 Overworld (11, 29)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path -> Silph Scope -> Lavender Tower
-- Active Protocol: Row 4 at Col 15 is blocked East by canal water at (16, 4). Executing systematic physical collision probe down Col 14 across Rows 4-30, probing Right at every row to find the open water crossing to Col 19 Underground Path doorway at (19, 17).
+- Active Protocol: Column 15 stone statue fence ends at Row 29. Row 30+ is open. Column 16 is blue water canal. Walking South down Column 11 past Row 33 into Rows 34-40 to locate the land crossing to Column 19 Underground Path building.
 
 <hr>
 
