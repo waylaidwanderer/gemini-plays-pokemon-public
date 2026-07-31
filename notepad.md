@@ -1,7 +1,7 @@
 <h1><code>Main</code></h1>
 
 ## CURRENT STATUS & DASHBOARD (Turn 25345)
-- Location: Route 8 (21, 14)
+- Location: Route 8 (20, 14)
 - Primary Goal: Reach Column 19 gap at (19, 14) to exit Lower Basin
 - Active Protocol: Walk West to (19, 14) -> step Up through (19, 13) gap to Row 12 grass.
 
