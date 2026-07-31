@@ -2,20 +2,16 @@ import mgba
 import time
 
 def main():
-    print("Navigating to Poké Ball at (1, 11)...")
-    # Current pos: (2, 9)
-    # Path: Right, Down, Down, Down, Down, Left, Left, Up, Up
-    buttons = ["Right", "Down", "Down", "Down", "Down", "Left", "Left", "Up", "Up"]
+    print("Navigating to RIGHT spinner at (4, 11)...")
+    # Current pos: (1, 12)
+    # Path to (3, 11): Down, Right, Right, Up, Up
+    # Then step Right onto (4, 11) spinner
+    buttons = ["Down", "Right", "Right", "Up", "Up", "Right"]
     mgba.press_buttons(buttons)
-    time.sleep(2)
-    
-    # We should be on the item pickup textbox now.
-    # Let's press A to clear the textbox.
-    mgba.press_buttons(["A"])
-    time.sleep(1)
+    time.sleep(3) # Wait for spin to complete
     
     pos = mgba.get_coordinates()
-    print(f"Current position after picking up item: {pos}")
+    print(f"Current position after spin: {pos}")
     mgba.take_screenshot()
 
 if __name__ == '__main__':
