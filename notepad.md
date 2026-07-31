@@ -673,6 +673,20 @@
   - Poké Ball at (16, 8) (TM30 - Teleport, obtained on Turn 14196)
   - Poké Ball at (3, 21) (Super Potion, obtained on Turn 14439)
 
+## B4F Layout & Mapping
+- **Stairs UP to B3F:** (21, 25) - Takes the player back UP to B3F (21, 22).
+- **Elevator Doors:** (24, 16) and (25, 16). Access to the elevator is from (24, 17) or (25, 17) going UP.
+- **Walkable Areas:**
+  - Row 25: Column 10 to Column 22 is a clear, walkable horizontal pink floor corridor.
+  - Columns 10-11: Walkable vertical corridor from Row 17 to Row 25.
+  - Row 17: Walkable from Column 10 to Column 22 (east room).
+  - Row 17 Column 9: Location of the Hyper Potion Pokéball (obtained on Turn 14865, now walkable).
+- **Trainers on B4F:**
+  - Rocket Grunt at (17, 25). Defeated on Turn 14805. Tells the player to take the elevator to see his boss.
+  - Rocket Grunt at (18, 17). Defeated on Turn 14902. He says "SILPH SCOPE? I don't know where it is!".
+- **Items on B4F:**
+  - Poké Ball at (9, 17) (Hyper Potion, obtained on Turn 14865).
+
 <hr>
 
 <h1><code>notepads/Locations/CeladonCity.md</code></h1>
