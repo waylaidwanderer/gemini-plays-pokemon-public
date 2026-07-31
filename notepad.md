@@ -295,6 +295,7 @@
 - Next Strategy: Access the South face of the building (Row 19/20/25/27) via Column 40 eastern gap.
 - Verified Row 13 Ledge (Turn 24548): Row 13 across Cols 20-23 is a south-facing ledge (one-way south hop down to Row 14). Northbound exit from Row 14 is at Column 19 gap (19,13) -> Row 12 green grass (19,12)!
 - Verified Row 9 Ledge (Turn 24551): Row 9 across Cols 20-25 is a south-facing ledge. Open northbound pass from Row 10 to Row 8 Upper Highway is at Column 29 (29,9) tan gravel pass!
+- Verified Row 5 Ledge (Turn 24555): Row 5 across Cols 20-24 is a south-facing ledge. The open northbound gap through Row 5 is at Column 25 (25,5)!
 
 <hr>
 
