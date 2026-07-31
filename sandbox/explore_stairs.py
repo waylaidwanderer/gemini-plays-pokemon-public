@@ -11,28 +11,38 @@ def wait_for_movement():
         p2 = mgba.get_coordinates()
     return p1
 
-# We are currently at (11, 20) stopper
-start_pos = mgba.get_coordinates()
-print("Start Position:", start_pos)
+# We are currently at (14, 20)
+print("Start Position:", mgba.get_coordinates())
 
-# Let's test walking Right from (11, 20)
-print("Testing Right from (11, 20)...")
+# Let's explore Down
+print("Moving Down to (14, 21)...")
+mgba.press_buttons(["Down"])
+p1 = wait_for_movement()
+print("Position:", p1)
+
+print("Moving Down to (14, 22)...")
+mgba.press_buttons(["Down"])
+p2 = wait_for_movement()
+print("Position:", p2)
+
+print("Moving Down to (14, 23)...")
+mgba.press_buttons(["Down"])
+p3 = wait_for_movement()
+print("Position:", p3)
+
+# Let's see if we can move in other directions from (14, 23)
+# Let's try Right
+print("Testing Right from (14, 23)...")
 mgba.press_buttons(["Right"])
-p = wait_for_movement()
-print("Position after 1 Right:", p)
+p_right = wait_for_movement()
+print("Position after Right:", p_right)
 
-if p != start_pos:
-    # Walk Right as much as possible
-    for i in range(10):
-        mgba.press_buttons(["Right"])
-        p_new = wait_for_movement()
-        if p_new == p:
-            print(f"Blocked going Right at: {p}")
-            break
-        p = p_new
-        print(f"Right step {i+2}: {p}")
+if p_right == p3:
+    print("Right is blocked from (14, 23). Trying Left onto (13, 23) spinner...")
+    mgba.press_buttons(["Left"])
+    time.sleep(2.0) # Let the slide finish
+    p_left = wait_for_movement()
+    print("Position after Left/Slide:", p_left)
 
-# Walk back to start or try other directions from wherever we end up
-# Let's take a screenshot
 screenshot_path = mgba.take_screenshot()
 print("Screenshot:", screenshot_path)
