@@ -674,3 +674,10 @@
 
 
 <hr>
+
+<h1><code>notepads/Locations/RocketHideout.md</code></h1>
+
+## Items on B3F
+- Poké Ball at (16, 8) (Nugget, Obtained on Turn 14313)
+
+<hr>
