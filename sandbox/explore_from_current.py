@@ -14,29 +14,22 @@ def wait_for_movement():
 # We are at (19, 15) on B3F
 print("Start Position:", mgba.get_coordinates())
 
-# Let's explore the area to the right!
-# We can walk to (20, 15), (21, 15), (22, 15), (23, 15), (24, 15), etc.
-# Let's systematically walk Right until we hit a wall.
-print("Walking Right...")
-for i in range(1, 10):
-    mgba.press_buttons(["Right"])
-    pos = wait_for_movement()
-    print(f"Step {i} Right: {pos}")
-
-# Now let's try walking Up 5 steps
-print("Walking Up...")
-for i in range(1, 6):
+# 1. Walk Up to (19, 11)
+print("Walking Up to (19, 11)...")
+for _ in range(4):
     mgba.press_buttons(["Up"])
-    pos = wait_for_movement()
-    print(f"Step {i} Up: {pos}")
+    wait_for_movement()
+print("At:", mgba.get_coordinates())
 
-# Now let's try walking Right more if possible
-print("Walking Right...")
-for i in range(1, 5):
-    mgba.press_buttons(["Right"])
-    pos = wait_for_movement()
-    print(f"Step {i} Right: {pos}")
+# 2. Walk Left 2 steps onto (17, 11) LEFT spinner -> should slide Left into Left Room!
+print("Stepping Left onto LEFT spinner...")
+mgba.press_buttons(["Left"])
+wait_for_movement()
+mgba.press_buttons(["Left"])
+time.sleep(3.0) # Wait for slide
+pos = wait_for_movement()
+print("Landed at:", pos)
 
-# Let's take a screenshot to see where we ended up!
+# Take screenshot
 screenshot_path = mgba.take_screenshot()
-print("Screenshot after exploring right/up:", screenshot_path)
+print("Screenshot:", screenshot_path)
