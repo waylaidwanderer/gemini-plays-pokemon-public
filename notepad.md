@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 23394)
-- Location: Route 8 Overworld (54, 8)
+## CURRENT STATUS & DASHBOARD (Turn 23431)
+- Location: Route 8 Overworld (37, 11)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path -> Silph Scope -> Lavender Tower
-- Active Protocol: On Route 8 at (54, 8). Moving Up 4 along Column 54 to Row 4 Northern Highway at (54, 4), then West along Row 4 past Col 50 to search for Saffron Gatehouse / Underground Path entrances.
+- Active Protocol: At (37, 11) on Route 8. Stepping Down 1 to (37, 12) open grass, then walking East along Row 12 grass to Column 42 and Column 54.
 - Verified Gatehouse Guard (Turn 22674): Saffron Gatehouse Guard at (24,7) states "I'm thirsty! I want something to drink!". Saffron Gatehouse requires Tea/Drink from Celadon Dept Store.
 
 <hr>
@@ -214,7 +214,7 @@
 - Building at (13,15): Saffron Gatehouse (Trade NPC "Poliwhirl for Jynx" + Thirsty Guard).
 - Building at (19,17): Gatehouse complex (Civilian "BILL" + Thirsty Guard).
 - Building at (30,19): Eastern Gatehouse (Civilian + Thirsty Guard).
-- Doorway at (1,7) behind Cut tree at (5,8): True Underground Path Entrance Building.
+
 - Column 35 (Rows 22-27) is a solid wooden fence. Row 28 (Cols 30-35) is a dark green hedge.
 - Building at (25,25): Saffron Gatehouse doorway (connects to interior 3,7).
 - Row 27 (Cols 20-30): Open light green pavement highway running West below Gatehouse.
