@@ -11,47 +11,39 @@ def wait_for_movement():
         p2 = mgba.get_coordinates()
     return p1
 
-# We are at (16, 17) on B3F
+# We are at (16, 13) on B3F
 print("Start Position:", mgba.get_coordinates())
 
-# 1. Step Up onto (16, 16) UP spinner -> slides to (16, 13) stopper
-print("Stepping Up onto spinner...")
+# 1. Walk Right 9 steps to (25, 13)
+print("Walking to (25, 13)...")
+for _ in range(9):
+    mgba.press_buttons(["Right"])
+    wait_for_movement()
+print("At:", mgba.get_coordinates())
+
+# 2. Walk Up 5 steps to (25, 8)
+print("Walking to (25, 8)...")
+for _ in range(5):
+    mgba.press_buttons(["Up"])
+    wait_for_movement()
+print("At:", mgba.get_coordinates())
+
+# 3. Walk Right 2 steps to (27, 8)
+print("Walking to (27, 8)...")
+for _ in range(2):
+    mgba.press_buttons(["Right"])
+    wait_for_movement()
+print("At:", mgba.get_coordinates())
+
+# 4. Step Up/Down onto stairs at (27, 8) -> should warp to B2F!
+# Some stairs warp when you walk Up onto them, others just by stepping.
+# Let's try walking Up.
+print("Stepping onto stairs...")
 mgba.press_buttons(["Up"])
-time.sleep(2.5) # Let the slide finish
+time.sleep(3.0) # wait for map transition
 pos = wait_for_movement()
-print("Landed at stopper:", pos)
+print("Position after stepping onto stairs:", pos)
 
-# 2. Walk Right to (19, 13)
-print("Walking to (19, 13)...")
-mgba.press_buttons(["Right", "Right", "Right"])
-pos = wait_for_movement()
-print("At:", pos)
-
-# 3. Walk Down to (19, 15)
-print("Walking to (19, 15)...")
-mgba.press_buttons(["Down", "Down"])
-pos = wait_for_movement()
-print("At:", pos)
-
-# 4. Jump Down the ledge onto (19, 16) -> should land at (19, 17)
-print("Jumping Down the ledge...")
-mgba.press_buttons(["Down"])
-time.sleep(1.0) # Let jump finish
-pos = wait_for_movement()
-print("Landed at:", pos)
-
-# 5. Walk Down to (19, 19)
-print("Walking Down to (19, 19)...")
-mgba.press_buttons(["Down", "Down"])
-pos = wait_for_movement()
-print("At:", pos)
-
-# 6. Walk Left to (18, 19) (stairs!)
-print("Walking Left to stairs...")
-mgba.press_buttons(["Left"])
-time.sleep(3.0) # Let potential warp finish
-pos = wait_for_movement()
-print("Position after walking into stairs:", pos)
-
+# Take screenshot
 screenshot_path = mgba.take_screenshot()
 print("Screenshot:", screenshot_path)
