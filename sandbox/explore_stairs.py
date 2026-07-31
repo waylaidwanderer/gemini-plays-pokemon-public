@@ -15,19 +15,25 @@ def wait_for_movement():
 print("Start Position B3F:", mgba.get_coordinates())
 
 # 1. Walk UP to B2F (27, 8)
-mgba.press_buttons(["Up", "Left", "Up"])
+# Corrected path to stairs!
+path_to_27_8 = ["Up", "Left", "Up", "Up", "Up", "Up", "Up"]
+for idx, move in enumerate(path_to_27_8):
+    mgba.press_buttons([move])
+    pos = wait_for_movement()
+    print(f"To B2F Stairs Step {idx+1} ({move}):", pos)
+
+# We should have stepped onto (27, 8) staircase!
+# Let's wait for map transition to finish
 time.sleep(3.0)
-wait_for_movement()
-print("Warped UP to B2F:", mgba.get_coordinates())
+pos_b2f = wait_for_movement()
+print("Warped UP to B2F:", pos_b2f)
 
 # 2. On B2F, walk to (3, 15) and warp DOWN to B3F (8, 11)
-# Path to (3, 15) from (27, 8):
-# Walk Left to Column 3, then Down to Row 15
-# Column 27 to 3 is 24 steps Left. Row 8 to 15 is 7 steps Down.
-# Let's do this safely with wait_for_movement
+# Walk Left to Column 3
 for i in range(24):
     mgba.press_buttons(["Left"])
     wait_for_movement()
+# Walk Down to Row 15
 for j in range(7):
     mgba.press_buttons(["Down"])
     wait_for_movement()
@@ -41,6 +47,7 @@ print("Warped DOWN to B3F:", mgba.get_coordinates())
 
 # 3. We are now at B3F (8, 11) stopper!
 # Let's walk to (10, 14), step onto (11, 14) DOWN spinner, and land at (15, 18) stopper.
+print("Walking to (11, 14) DOWN spinner...")
 mgba.press_buttons(["Right", "Right", "Down", "Down", "Down", "Right"])
 time.sleep(3.0) # Let the slide finish
 p_stopper = wait_for_movement()
@@ -48,11 +55,6 @@ print("Landed at B3F stopper:", p_stopper)
 
 # 4. We are at (15, 18) stopper.
 # Let's test walking in all 4 directions from (15, 18) and see what is walkable!
-# Specifically, we want to know if we can walk:
-# - Down to (15, 19)
-# - Left to (14, 18)
-# - Right to (16, 18) (UP spinner)
-# - Up to (15, 17)
 directions = ['Up', 'Down', 'Left', 'Right']
 opposite = {'Up': 'Down', 'Down': 'Up', 'Left': 'Right', 'Right': 'Left'}
 
