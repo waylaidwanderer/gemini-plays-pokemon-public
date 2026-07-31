@@ -26,7 +26,7 @@
 
 ### Verified Physical Building Doorway Coordinates (Turn 23103)
 - Building at (13,15): Saffron Gatehouse (Trade NPC "Poliwhirl for Jynx" + Saffron Guard).
-- Building at (19,17): Underground Path Entrance / Gatehouse complex doorway.
+- Building complex at (10-25, 15-25): South face at Row 27 connects to Saffron Gatehouse at (11,19) and Underground Path entrance.
 
 ### Master Route 8 Verified Building & Topology Summary (Turn 23133)
 - Building at (13,15): Saffron Gatehouse (Trade NPC "Poliwhirl for Jynx" + Thirsty Guard).
