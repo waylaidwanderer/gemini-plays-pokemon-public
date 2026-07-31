@@ -2,16 +2,12 @@ import mgba
 import time
 
 def main():
-    print("Navigating to Poké Ball at (6, 12)...")
-    # Current pos: (8, 11)
-    # Path: Left, Left, Down
-    buttons = ["Left", "Left", "Down"]
+    print("Exploring the right side of the B2F maze...")
+    # Current pos: (6, 11)
+    # Path: Right, Right, Right, Right, Down
+    buttons = ["Right", "Right", "Right", "Right", "Down"]
     mgba.press_buttons(buttons)
     time.sleep(2)
-    
-    # Press A to clear the textbox
-    mgba.press_buttons(["A"])
-    time.sleep(1)
     
     pos = mgba.get_coordinates()
     print(f"Current position: {pos}")
