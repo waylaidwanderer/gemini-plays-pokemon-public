@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 25373)
-- Location: Route 8 (28, 11)
-- Primary Goal: Reach Col 28/29 northbound gap to access Row 8 Upper Highway
-- Active Protocol: Up to (23, 11) -> East along Row 11 to Col 28/29 -> Up to Row 8 Upper Highway -> West along Row 8 to Western Sector.
+## CURRENT STATUS & DASHBOARD (Turn 25381)
+- Location: Route 8 (28, 10)
+- Primary Goal: Access Row 8 Upper Highway via Col 28 northbound gap
+- Active Protocol: Step Up 2 to (28, 8) green grass -> Walk West along Row 8 Upper Highway pavement past all obstacles to Western Sector (Cols 0-8) for Underground Path doorway.
 
 <hr>
 
