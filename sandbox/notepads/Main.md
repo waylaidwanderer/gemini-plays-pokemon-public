@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 24573)
-- Location: Lavender Town Pokemon Center (11, 20)
+## CURRENT STATUS & DASHBOARD (Turn 24601)
+- Location: Route 8 (44, 15) facing NPC at (45, 15)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path -> Silph Scope -> Lavender Tower
-- Active Protocol: Teleported to Lavender Town. Walking to Route 8 entrance at (0, 9) -> Row 8 Upper Highway -> Row 3 Northern Pass to Western Sector.
+- Active Protocol: At (44, 15) on Lower Highway. Bypassing NPC at (45, 15) via Row 14 grass -> East to Col 60 map wrap -> Lavender Town (0, 9) -> Route 8 (59, 9) -> Row 3 Northern Pass.
