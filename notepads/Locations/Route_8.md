@@ -44,5 +44,5 @@
 - Column 35 (Rows 22-27) is a solid wooden fence. Row 28 (Cols 30-35) is a dark green hedge.
 - Building at (25,25): Saffron Gatehouse doorway (connects to interior 3,7).
 - Row 27 (Cols 20-30): Open light green pavement highway running West below Gatehouse.
-- Doorway at (9,11): TRUE Route 8 Underground Path Entrance Building!
-- Underground Path Building Interior (2,7): Item Ball at (7,7), Stairs down at (6,4)/(7,4).
+- Doorway at (9,11): Saffron Gatehouse doorway (Badges NPC inside at 5,3, desk with coffee cup at 6,3).
+- Building doorway at (1,7) behind Cut tree at (5,8): TRUE Route 8 Underground Path Entrance Building!
