@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 25261)
-- Location: Route 8 (28, 10)
+## CURRENT STATUS & DASHBOARD (Turn 25291)
+- Location: Route 8 (15, 15)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Moving Up 2 to (28, 8), then navigating Row 8 Upper Highway pavement West to Column 10 (10, 8) to access Saffron Gatehouse / Underground Path building entrance.
+- Active Protocol: Systematically probing West along Row 15 pavement past Column 10 to locate building entrance / Saffron Gatehouse doorway.
 
 <hr>
 
