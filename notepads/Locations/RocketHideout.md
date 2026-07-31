@@ -28,7 +28,8 @@
 
 
 ## B2F Layout & Mapping
-- **Stairs to B1F:** (27, 8) - This is the warp spawn point where you land after coming down the stairs at B1F (23, 2).
+- **Stairs to B1F:** (27, 8)
+- **Stairs to B3F:** (3, 15) - This is the warp spawn point where you land after coming down the stairs at B1F (23, 2).
 - **Walkable Area:**
   - Columns 25-28 on Rows 8-12 (completely clear pink floor around stairs)
   - Rows 13-15 on Columns 23-28 (pocket leading to spinner entrance at (12, 13))
@@ -46,3 +47,9 @@
   - Poké Ball at (16, 8) (blocked by wall at (16, 9), accessible from row 7 at (16, 7))
   - Poké Ball at (1, 11) (Moon Stone, Obtained on Turn 14079)
   - Poké Ball at (6, 12) (TM07 - Horn Drill, Obtained on Turn 14097)
+
+## B3F Layout & Mapping
+- **Stairs to B2F:** (5, 15) - Spawns player at (5, 15) facing Up?
+- **Entry Landing Position:** (8, 11) (player automatically spins and lands here after coming down the stairs from B2F)
+- **Walkable Area:**
+  - Row 11: Columns 5-10, 13
