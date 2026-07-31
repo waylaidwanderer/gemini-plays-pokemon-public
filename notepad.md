@@ -611,4 +611,11 @@
   - Pok� Ball at (11, 14). Escape Rope obtained on Turn 13977.
 
 
+## B2F Layout & Mapping
+- **Stairs to B1F:** (27, 8) - This is the warp spawn point where you land after coming down the stairs at B1F (23, 2).
+- **Current Position:** (27, 8) (as of Turn 14031)
+- **Walkable Area:**
+  - Columns 25-28 on Rows 8-12 (completely clear pink floor)
+
+
 <hr>
