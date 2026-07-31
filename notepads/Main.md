@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 24925)
-- Location: Route 8 Lower Highway (28, 15)
+## CURRENT STATUS & DASHBOARD (Turn 24961)
+- Location: Route 8 Row 12 Green Grass Highway (39, 12)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: On Row 15 at (28, 15). Rows 15-19 are mountain rock. Ascending through Col 29 tan gravel gap at (29, 13): Up 1 to (28, 14), Right 1 to (29, 14), Up 3 to Row 11 (29, 11), West 10 along Row 11 pavement to Col 19 (19, 11), and South 6 to enter Underground Path building doorway at (19, 17).
+- Active Protocol: Standing at (39, 12). Row 12 is blocked East at Col 42 by mountain cliff. Moving Right 2 to (41, 12), Down 2 (hop ledge at 41, 13) to Row 14 Green Grass Highway at (41, 14), and East to Column 53 two-way pass to ascend to Upper Highway.
