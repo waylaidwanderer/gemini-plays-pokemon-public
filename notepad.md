@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 27277)
-- Location: Route 8 (72, 10)
+## CURRENT STATUS & DASHBOARD (Turn 27281)
+- Location: Route 8 (74, 10)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: In wild Sandshrew battle at (72, 10) on Route 8. Dismissing text with A, then selecting RUN to flee.
+- Active Protocol: Standing at (74, 10). Tree wall at Col 75 blocks East. Single-step probing South along Col 74 grass toward Col 76 pass (76, 13).
 
 <hr>
 
