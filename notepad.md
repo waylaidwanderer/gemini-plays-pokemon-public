@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 27914)
-- Location: Underground Path Tunnel (7, 4)
-- Primary Goal: Reach Celadon City via Route 8 Underground Path Tunnel
-- Active Protocol: Reached North end of Underground Path Tunnel! Talking to Guard NPC at (6, 2) / inspecting exit stairs at (6, 0) and (7, 0) to enter Route 7.
+## CURRENT STATUS & DASHBOARD (Turn 27916)
+- Location: Cerulean City Bike Shop (6, 4)
+- Primary Goal: Reach Celadon City via Route 8 / Underground Path
+- Active Protocol: Discovered current indoor location is Cerulean Bike Shop! Exiting South to Cerulean City overworld to re-orient towards Route 8 / Underground Path.
 
 <hr>
 
