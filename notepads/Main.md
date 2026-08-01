@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 26985)
-- Location: Underground Path Building (3, 7)
+## CURRENT STATUS & DASHBOARD (Turn 26987)
+- Location: Civilian Building (3, 3)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Entered Underground Path building at (3, 7). Proceeding Up 4 steps along Column 3 to descend internal stairs at (3, 3) into the Underground Path tunnel to Route 7 / Celadon City.
+- Active Protocol: At (3, 3) inside civilian building. Exiting South via doorway mat at (2, 7) / (3, 7) onto Route 8 at (19, 17) -> Col 22 -> Col 25 -> Col 21 -> Row 3 Green Grass Highway -> Col 1 -> (1, 7) Underground Path doorway.
