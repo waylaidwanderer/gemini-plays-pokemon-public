@@ -49,7 +49,7 @@
   - Poké Ball at (6, 12) (TM07 - Horn Drill, Obtained on Turn 14097)
 
 ## B3F Layout & Mapping
-- **Stairs UP to B2F (Left):** (5, 15) - Spawns player at (5, 15) facing Up.
+- **Stairs UP to B2F (Left):** (5, 15) - Warps and spawns the player at B2F (2, 9) facing Right (empirically verified on Turn 15297).
 - **Stairs UP to B2F (Right):** (27, 8) - Connects UP to B2F (27, 8) -> B1F (23, 2).
 - **Stairs DOWN to B4F:** Located at (21, 22) or (21, 21) in B3F. Takes the player to B4F at (21, 25) (empirically verified on Turn 14770).
 - **Entry Landing Position:** (8, 11) (player automatically spins and lands here after coming down the stairs from B2F (5, 15)).
