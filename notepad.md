@@ -256,6 +256,7 @@
 - EMPIRICAL PROBE RESULT (Turn 28716): Column 9 at Row 12 (9, 12) is a solid mountain rock pillar blocking westbound movement on Row 12 from (10, 12).
 - EMPIRICAL PASSAGE PROOF (Turn 28717): Columns 20-23 across Rows 10-12 form an OPEN 4-TILE WIDE PAVEMENT HIGHWAY connecting Row 12 directly UP to Row 10 pavement corridor at (20, 10)!
 - EMPIRICAL PASSAGE PROOF (Turn 28720): Column 23 across Rows 3-8 is an OPEN UNOBSTRUCTED NORTH-SOUTH HIGHWAY connecting Row 8 Upper Highway directly UP through Row 5 gap (23, 5) to Row 3 Northern Highway at (23, 3)!
+- EMPIRICAL PROBE RESULT (Turn 28721): Row 5 at Column 23 (23, 5) is a solid south-facing ledge wall blocking northbound movement from Row 6.
 
 <hr>
 
@@ -517,6 +518,7 @@
 - EMPIRICAL PROBE RESULT (Turn 28715): Row 11 across Cols 10-13 is a solid south-facing ledge wall blocking northbound movement from Row 12 green grass.
 - EMPIRICAL PROBE RESULT (Turn 28716): Column 9 at Row 12 (9, 12) is a solid mountain rock pillar blocking westbound movement on Row 12 from (10, 12).
 - EMPIRICAL PASSAGE PROOF (Turn 28717): Columns 20-23 across Rows 10-12 form an OPEN 4-TILE WIDE PAVEMENT HIGHWAY connecting Row 12 directly UP to Row 10 pavement corridor at (20, 10)!
+- EMPIRICAL PASSAGE PROOF (Turn 28720): Column 23 across Rows 3-8 is an OPEN UNOBSTRUCTED NORTH-SOUTH HIGHWAY connecting Row 8 Upper Highway directly UP through Row 5 gap (23, 5) to Row 3 Northern Highway at (23, 3)!
 
 <hr>
 
