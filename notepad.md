@@ -404,11 +404,12 @@
   8. Walk West 24 steps along Row 3 Green Grass Highway across Cols 25 to 1 (1, 3).
   9. Step Down 5 steps along Col 1 to (1, 8) in front of doorway at (1, 7).
   10. Step Up 1 step into doorway at (1, 7) to inspect/enter building.
-### Master Verified Saffron Gatehouse & Underground Path Geography (Turn 26886)
+### Master Verified Saffron Gatehouse & Underground Path Geography (Turn 27490)
 - Saffron Gatehouse (13, 15): North exit at (2, 0) is BLOCKED BY THIRSTY GUARD ("The guard is thirsty! Give him a drink!"). Cannot pass through Saffron Gatehouse to Saffron City without a drink from Celadon Dept Store.
 - Tile (16, 29): Decorative tree stump / scenery obstacle ("There isn't anything to CUT!"). Non-cuttable.
-- Underground Path Entrance Building: Doorway at (19, 17) on Lower Highway! Inside is an NPC at (4, 3) and internal stairs leading down to the Underground Path tunnel to Route 7 / Celadon City.
-- Master Highway Traversal: From Eastern Route 8 (59, 9) / Col 53 pass (53, 13) -> Row 20 Lower Highway pavement West to Gatehouse doorway (19, 17) -> Underground Path tunnel to Route 7 / Celadon City.
+- Verified Gatehouse & Underground Path Doorways:
+  - Gatehouse Entrance Doorway at (30, 19) / (38, 17) on Route 8!
+  - Underground Path Entrance Doorway at (3, 12) / (2, 12) accessed via Cut tree at (5, 8) on Route 8 West!
 
 <hr>
 
