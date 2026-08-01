@@ -227,6 +227,11 @@
 - Verified Gatehouse & Underground Path Doorways:
   - Gatehouse Entrance Doorway at (30, 19) / (38, 17) on Route 8!
   - Underground Path Entrance Doorway at (3, 12) / (2, 12) accessed via Cut tree at (5, 8) on Route 8 West!
+### Verified Master Route 8 Bypass to Lower Highway East (Turn 27981)
+- Column 26/27/28/29 mountain cliff wall blocks Row 6-9 Eastbound passage from Column 29.
+- Row 12 & Row 13 Green Grass Highway is COMPLETELY UNINTERRUPTED across Columns 28, 29, 30, 31, 32, 33, 34!
+- Column 34 is an open vertical pavement/grass highway (Rows 6 to 12).
+- MASTER ROUTE TO LOWER HIGHWAY EAST: From (29, 9) Upper Highway pass -> Down 3 to Row 12 green grass (29, 12) -> East 5 along Row 12 green grass to Col 34 (34, 12) -> North 6 along Col 34 to Row 6 pavement (34, 6) -> East along Row 6 pavement to Col 52 (52, 6) -> South 7 to Col 52 ledge gap (52, 13) -> hop down to Row 14 Lower Highway East!
 
 <hr>
 
