@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 25707)
-- Location: Route 8 (20, 8) - Upper Highway Pavement
+## CURRENT STATUS & DASHBOARD (Turn 25771)
+- Location: Route 8 (34, 12) - Central Green Grass Highway
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Step Down 4 along Col 20 to (20, 12), step Left 7 along Row 12 green grass through (19, 12) gap to Western Sector at (13, 12), then STOP to execute single-step empirical probing on candidate doorway tiles.
+- Active Protocol: Walk East along Row 12 green grass to Col 53 pass at (53, 13), enter Upper Highway, proceed to Col 60 Northern Highway, and walk West along Row 3 to Western Sector.
 
 
 <hr>
