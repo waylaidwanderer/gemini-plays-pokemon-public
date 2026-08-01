@@ -78,3 +78,4 @@
 - EMPIRICAL PROBE RESULT (Turn 28727): Row 13 across Cols 46-53 is a solid south-facing ledge wall blocking northbound movement from Row 14.
 - EMPIRICAL PROBE RESULT (Turn 28729): Column 53 at Row 13 (53, 13) is a solid south-facing ledge wall blocking northbound movement from Row 14.
 - EMPIRICAL PROBE RESULT (Turn 28735): Row 16 across Cols 28-33 is the solid north roof/wall of the building, blocking southbound movement from Row 15.
+- EMPIRICAL PROBE RESULT (Turn 28762): Row 7 at Column 46 (46, 7) is a solid mountain rock cliff blocking northbound movement from Row 8.
