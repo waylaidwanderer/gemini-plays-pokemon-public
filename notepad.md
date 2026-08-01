@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 27502)
-- Location: Route 8 Overworld (30, 20)
+## CURRENT STATUS & DASHBOARD (Turn 27508)
+- Location: Route 8 Underground Path Entrance Building Interior (3, 7)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Standing at (30, 20) outside Saffron Gatehouse. Walking Left 5 along Row 20 pavement to explore West.
+- Active Protocol: Inside Underground Path entrance building at (3, 7). Walking Up 3 to (3, 4) to inspect interior and locate stairs.
 
 <hr>
 
