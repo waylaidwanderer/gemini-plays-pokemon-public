@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 25801)
-- Location: Route 8 (23, 14) - Lower Highway Pavement
+## CURRENT STATUS & DASHBOARD (Turn 25831)
+- Location: Route 8 (29, 10) - Upper Highway Pavement
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Step Left 4 to (19, 14), step Up 2 through (19, 13) tan gravel gap to (19, 12) green grass, and navigate West along Row 12 to Western Sector (13, 12) / (14, 9) Underground Path entrance.
+- Active Protocol: Navigate West to Western Sector (13, 12), then execute single-step empirical probing West along Rows 12-14 across Cols 12 to 0 to locate Underground Path entrance.
