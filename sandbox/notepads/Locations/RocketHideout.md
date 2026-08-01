@@ -1,7 +1,7 @@
 # Rocket Hideout - Floor Mapping & Exploration
 
 ## B1F Layout & Mapping
-- **Stairs to Game Corner:** (23, 2). Spawns player at (21, 2) facing South? Or (23, 2) is the stairs tile, and spawning at (21, 2) is standard.
+- **Stairs to Game Corner & DOWN to B2F:** (23, 2) - Warps the player UP to the Game Corner (17, 5) or DOWN to B2F (27, 8).
 - **Walkable Area:**
   - Row 1: Columns 19-24
   - Row 2: Columns 19-22
