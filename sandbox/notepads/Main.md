@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 28381)
-- Location: Route 8 (17, 15)
+## CURRENT STATUS & DASHBOARD (Turn 28411)
+- Location: Route 8 (25, 8)
 - Primary Goal: Reach Celadon City via Route 8 / Underground Path
-- Active Protocol: Navigating around NPC at (16, 15) via Row 14 pavement to Saffron Gatehouse doorway at (13, 15).
+- Active Protocol: Executing single-step verified navigation along Row 10 pavement to Column 20 -> Down to Row 12 (20, 12) -> West to Column 12 (12, 12).
