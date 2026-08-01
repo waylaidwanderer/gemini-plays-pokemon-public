@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 27315)
-- Location: Lavender Town (3, 18)
+## CURRENT STATUS & DASHBOARD (Turn 27316)
+- Location: Lavender Town (3, 24)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Standing at (3, 18) on Row 18 road. Walking South 8 along Col 3 to Row 26 pavement (3, 26) -> East to Col 13 -> North to Route 8 entrance.
+- Active Protocol: Standing at (3, 24) on Col 3. Walking Down 2 to Row 26 pavement (3, 26), then East 10 to Col 13 (13, 26).
 
 <hr>
 
