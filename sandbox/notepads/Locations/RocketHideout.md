@@ -87,4 +87,5 @@
   - Rocket Grunt at (17, 25). Defeated on Turn 14805. Tells the player to take the elevator to see his boss.
   - Rocket Grunt at (18, 17). Defeated on Turn 14902. He says "SILPH SCOPE? I don't know where it is!".
 - **Items on B4F:**
+  - Poké Ball at (19, 17) (Nugget, obtained on Turn 14992).
   - Poké Ball at (9, 17) (Hyper Potion, obtained on Turn 14865).
