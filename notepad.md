@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 27479)
-- Location: Underground Path Gatehouse Lounge (5, 5)
+## CURRENT STATUS & DASHBOARD (Turn 27502)
+- Location: Route 8 Overworld (30, 20)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Standing at (5, 5). Navigating Right 2 to Col 7 (7, 5), Up 3 to (7, 2), Left 2 to (5, 2), and Up 1 into staircase at (5, 1) to enter Underground Path tunnel.
+- Active Protocol: Standing at (30, 20) outside Saffron Gatehouse. Walking Left 5 along Row 20 pavement to explore West.
 
 <hr>
 
