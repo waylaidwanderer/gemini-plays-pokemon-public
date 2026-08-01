@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 27508)
-- Location: Route 8 Underground Path Entrance Building Interior (3, 7)
+## CURRENT STATUS & DASHBOARD (Turn 27526)
+- Location: Route 8 Underground Path Building (11, 3)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Inside Underground Path entrance building at (3, 7). Walking Up 3 to (3, 4) to inspect interior and locate stairs.
+- Active Protocol: Standing at (11, 3) facing NPC at (11, 2). Talking to NPC to inspect Col 11 corridor / Row 0 stairways.
 
 <hr>
 
