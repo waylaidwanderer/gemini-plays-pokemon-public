@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 27394)
-- Location: Route 8 (34, 15)
+## CURRENT STATUS & DASHBOARD (Turn 27399)
+- Location: Route 8 (53, 14)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Standing at (34, 15). Walking West 10 steps along Row 15 grass/pavement to Col 24 (24, 15).
+- Active Protocol: Standing at (53, 14). Walking Left 17 along Row 14 grass to Col 36 (36, 14), Down 1 to Row 15 (36, 15), Left 2 to Col 34 (34, 15) heading West to Gatehouse doorway (19, 17).
 
 <hr>
 
