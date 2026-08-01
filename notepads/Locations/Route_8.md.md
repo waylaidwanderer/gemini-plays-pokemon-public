@@ -54,3 +54,5 @@
 - Column 34 is an open vertical pavement/grass highway (Rows 6 to 12).
 - MASTER ROUTE TO LOWER HIGHWAY EAST: From (29, 9) Upper Highway pass -> Down 3 to Row 12 green grass (29, 12) -> East 5 along Row 12 green grass to Col 34 (34, 12) -> North 6 along Col 34 to Row 6 pavement (34, 6) -> East along Row 6 pavement to Col 52 (52, 6) -> South 7 to Col 52 ledge gap (52, 13) -> hop down to Row 14 Lower Highway East!
 - EMPIRICAL PROBE RESULT (Turn 28023): Stepping Up from (46, 14) to (46, 13) BUMPED into a solid south-facing ledge wall at (46, 13). Row 13 at Col 46 is NOT walkable from Row 14.
+- EMPIRICAL PROBE RESULT (Turn 28034): Stepping Down from (29, 15) to (29, 16) BUMPED into a solid south-facing ledge wall at (29, 16).
+- MASTER ROUTE TO GATEHOUSE DOORWAY (Turn 28034): From (29, 15) -> Up 4 to Row 11 (29, 11) -> Left 4 along Row 11 to Col 25 (25, 11) -> Down 8 along Col 25 pavement to Row 19 (25, 19) -> Right 5 along Row 19 pavement to Gatehouse doorway at (30, 19)!
