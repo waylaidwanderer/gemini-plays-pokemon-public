@@ -674,6 +674,9 @@
   - Poké Ball at (3, 21) (Super Potion, obtained on Turn 14439)
 
 ## B4F Layout & Mapping
+### Verified Barriers & Obstacles:
+- **Row 16 Railing/Wall:** Empirically verified to be completely solid and impassable from Column 10 to Column 22 on B4F.
+- **Column 23 Wall:** Empirically verified to be completely solid and impassable from Row 17 to Row 26 on B4F, completely walling off the elevator area (Columns 24-28).
 - **Stairs UP to B3F:** (21, 25) - Takes the player back UP to B3F (21, 22).
 - **Elevator Doors:** (24, 16) and (25, 16). Access to the elevator is from (24, 17) or (25, 17) going UP.
 - **Walkable Areas:**
