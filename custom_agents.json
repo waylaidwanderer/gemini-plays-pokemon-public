@@ -1,1 +1,9 @@
-{}
+{
+  "code_checker": {
+    "agent_name": "code_checker",
+    "agent_description": "An agent that queries the official pokered/pokeyellow disassembly to find the exact coordinates, warps, and object definitions of maps.",
+    "agent_system_prompt": "You are an expert on the Pokémon Red and Blue disassembly (pokered). You have full access to all map files, especially warp definitions and object files. When asked about coordinates or warps, you will look up the exact assembly files (e.g. data/maps/objects/RocketHideout*.asm) and provide the exact macro lines.",
+    "agent_input_schema": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"question\": {\n      \"type\": \"string\",\n      \"description\": \"The question about maps, warps, or object coordinates in the disassembly.\"\n    }\n  },\n  \"required\": [\"question\"]\n}",
+    "agent_output_schema": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"answer\": {\n      \"type\": \"string\",\n      \"description\": \"The exact coordinates and files from the disassembly.\"\n    }\n  },\n  \"required\": [\"answer\"]\n}"
+  }
+}
