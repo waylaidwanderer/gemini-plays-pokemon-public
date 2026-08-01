@@ -66,3 +66,4 @@
 
 - EMPIRICAL PROBE RESULT (Turn 28077): Stepping Down from (52, 15) to (52, 16) BUMPED into a solid building roof/wall at (52, 16). Building roof/wall extends continuously across Cols 26-53 on Rows 16-19.
 - EMPIRICAL PROBE RESULT (Turn 28093): Stepping Left from (20, 11) to (19, 11) BUMPED into mountain rock cliff at (19, 11). Rows 7-11 at Col 19 are mountain cliff, but Rows 12-15 at Col 19 are open green grass / pavement connecting West to Western Sector (Cols 18-9)!
+- VERIFIED WESTERN SECTOR ENTRY (Turn 28096): Traversed Row 12 green grass past Col 19 mountain cliff to (13, 12) Western Sector! Row 11 pavement connects Col 13 West past Col 9 into Western Sector (Cols 0-8).
