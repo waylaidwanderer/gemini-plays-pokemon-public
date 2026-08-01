@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 27031)
-- Location: Route 8 (19, 27)
+## CURRENT STATUS & DASHBOARD (Turn 27039)
+- Location: Route 8 (11, 27)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: At (19, 27) on Route 8 facing non-cuttable tree at (19, 28). Walking West along Row 27 pavement to Col 16/17 gap -> Down to Row 29 Green Grass Highway at (17, 29) -> East along Row 29 to Col 60 map border warp to Lavender Town (0, 9) -> Re-enter Route 8 at (59, 9) Upper Highway -> West to Col 52 gap -> Hop down to Lower Highway (52, 14) -> West to Col 29 gap -> Up to Row 8 Upper Highway -> Col 22 to (25, 5) gap -> Row 3 Green Grass Highway -> Col 1 -> (1, 7) Underground Path doorway.
+- Active Protocol: At (11, 27) on Route 8 facing hedge tree wall at (11, 28). Walking Right 2 steps to Col 13 (13, 27) -> Up 2 steps into Saffron Gatehouse doorway at (13, 25) -> Exit North at (2, 0) to Route 8 (9, 9) Upper Highway -> East to Col 25 -> Up through (25, 5) gap -> Row 3 Green Grass Highway -> Col 1 -> (1, 7) Underground Path doorway.
 
 <hr>
 
