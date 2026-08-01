@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 26451)
-- Location: Route 10 (10, 35)
+## CURRENT STATUS & DASHBOARD (Turn 26461)
+- Location: Route 8 (23, 18)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Step Down to Route 8 (20, 3) -> Down 9 to (20, 12) -> Left 1 to (19, 12) -> Down 2 to (19, 14) -> Down 3 into Underground Path door at (19, 17)!
+- Active Protocol: Walk Left 4 steps along Row 18 from (23, 18) to (19, 18), then Up 1 step into Underground Path door at (19, 17)!
