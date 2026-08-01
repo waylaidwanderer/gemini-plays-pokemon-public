@@ -481,6 +481,7 @@
 - EMPIRICAL PROBE RESULT (Turn 28023): Stepping Up from (46, 14) to (46, 13) BUMPED into a solid south-facing ledge wall at (46, 13). Row 13 at Col 46 is NOT walkable from Row 14.
 - EMPIRICAL PROBE RESULT (Turn 28034): Stepping Down from (29, 15) to (29, 16) BUMPED into a solid south-facing ledge wall at (29, 16).
 - MASTER ROUTE TO GATEHOUSE DOORWAY (Turn 28034): From (29, 15) -> Up 4 to Row 11 (29, 11) -> Left 4 along Row 11 to Col 25 (25, 11) -> Down 8 along Col 25 pavement to Row 19 (25, 19) -> Right 5 along Row 19 pavement to Gatehouse doorway at (30, 19)!
+- EMPIRICAL PROBE RESULT (Turn 28041): Stepping Down from (25, 11) to (25, 12) BUMPED into a solid south-facing ledge wall at (25, 12).
 
 <hr>
 
