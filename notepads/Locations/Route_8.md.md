@@ -79,4 +79,4 @@
 - EMPIRICAL PROBE RESULT (Turn 28729): Column 53 at Row 13 (53, 13) is a solid south-facing ledge wall blocking northbound movement from Row 14.
 - EMPIRICAL PROBE RESULT (Turn 28735): Row 16 across Cols 28-33 is the solid north roof/wall of the building, blocking southbound movement from Row 15.
 - EMPIRICAL PROBE RESULT (Turn 28762): Row 7 at Column 46 (46, 7) is a solid mountain rock cliff blocking northbound movement from Row 8.
-- EMPIRICAL PASSAGE PROOF (Turn 28763): Column 50 across Rows 4-9 is an OPEN UNOBSTRUCTED NORTHBOUND HIGHWAY connecting Row 8 Upper Highway directly UP through Row 5 gap (50, 5) to Row 3/4 Northern Highway at (50, 4)!
+- EMPIRICAL PROBE RESULT (Turn 28767): Row 5 at Column 50 (50, 5) is a solid south-facing ledge wall blocking northbound movement from Row 6.
