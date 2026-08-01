@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 28782)
-- Location: Route 8 (59, 9)
+## CURRENT STATUS & DASHBOARD (Turn 28783)
+- Location: Lavender Town (0, 9) / Route 8 Boundary
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: At (59, 9) -> single-step probe East to (60, 9) light green grass corridor.
+- Active Protocol: At (0, 9) -> step Left 1 time to enter Route 8 Upper Highway at (59, 9) -> execute systematic Route 8 probe script.
 
 <hr>
 
@@ -266,6 +266,7 @@
 - EMPIRICAL PROBE RESULT (Turn 28762): Row 7 at Column 46 (46, 7) is a solid mountain rock cliff blocking northbound movement from Row 8.
 - EMPIRICAL PROBE RESULT (Turn 28767): Row 5 at Column 50 (50, 5) is a solid south-facing ledge wall blocking northbound movement from Row 6.
 - EMPIRICAL PROBE RESULT (Turn 28771): Row 5 at Column 51 (51, 5) is a solid south-facing ledge wall blocking northbound movement from Row 6.
+- EMPIRICAL MAP BOUNDARY PROOF (Turn 28783): Column 60 on Route 8 is the eastern map transition boundary that warps player back to Lavender Town at (0, 9). Playable Route 8 grid spans Columns 0 to 59.
 
 <hr>
 
