@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 28567)
-- Location: Route 8 (30, 14)
+## CURRENT STATUS & DASHBOARD (Turn 28591)
+- Location: Route 8 (29, 12)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Teleport to Lavender Town -> enter Route 8 Upper Highway at (59, 8) -> walk West to Col 46 (46, 8) -> Down EXACTLY 3 steps along Col 46 to Row 11 at (46, 11) (DO NOT HOP LEDGE AT 46, 13!) -> walk West along Row 11 pavement past Col 27 to West Route 8.
+- Active Protocol: On Row 12 Green Grass Highway at (29, 12) -> walk West along Row 12 past Col 27 & Col 19 to Western Sector (13, 12) -> walk West to Col 12 pavement gap -> Up through (12, 9) gap around NPC to Row 8/9 pavement -> West to Underground Path building entrance.
 
 <hr>
 
