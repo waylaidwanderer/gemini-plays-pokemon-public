@@ -47,7 +47,7 @@
 - Tile (16, 29): Decorative tree stump / scenery obstacle ("There isn't anything to CUT!"). Non-cuttable.
 - Verified Gatehouse & Underground Path Doorways:
   - Gatehouse Entrance Doorway at (30, 19) / (38, 17) on Route 8!
-  - Underground Path Entrance Doorway at (3, 12) / (2, 12) accessed via Cut tree at (5, 8) on Route 8 West!
+
 ### Verified Master Route 8 Bypass to Lower Highway East (Turn 27981)
 - Column 26/27/28/29 mountain cliff wall blocks Row 6-9 Eastbound passage from Column 29.
 - Row 12 & Row 13 Green Grass Highway is COMPLETELY UNINTERRUPTED across Columns 28, 29, 30, 31, 32, 33, 34!
