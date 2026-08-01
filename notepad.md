@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 28281)
-- Location: Route 8 (45, 14)
+## CURRENT STATUS & DASHBOARD (Turn 28286)
+- Location: Route 8 (32, 15)
 - Primary Goal: Reach Celadon City via Route 8 / Underground Path
-- Active Protocol: Probing Col 46 Light Grey Pavement Pass at (46, 13): Right 1 to (46, 14) -> Up 1 to (46, 13) -> walk West along Row 10 Upper Highway to (27, 11) Gatehouse warp.
+- Active Protocol: Walking Left 13 steps along Row 15 from (32, 15) to Col 19 at (19, 15) -> Up 2 to (19, 12) -> Up 1 to (19, 11) -> Right 8 to Gatehouse warp at (27, 11).
 
 <hr>
 
