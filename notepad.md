@@ -1,7 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 26626)
-- Location: Route 8 (29, 27)
+## CURRENT STATUS & DASHBOARD (Turn 26627)
+- Location: Route 8 (24, 27)
+- Primary Goal: Reach Celadon City via Route 8 Underground Path
+- Active Protocol: Walk West 7 steps along Row 27 to Col 17 (17, 27), Down through (17, 28) tree pass to Row 30 South Highway, East along Row 30 to Col 37 (37, 30), North along Col 36/37 pavement corridor to Row 20 -> Column 53 pass (53, 13) -> Upper Highway (52, 9) -> Column 60 Corridor -> Row 3 Northern Highway -> Underground Path building at (1, 7)!
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
 - Active Protocol: Walk East 4 steps along Row 21 to Col 34 (34, 21), Down 6 steps along Col 34 to (34, 27), West along Row 27 to Col 17 (17, 27), Down through (17, 28) tree pass to Row 30 South Highway, East along Row 30 to Col 37 (37, 30), North along Col 36/37 pavement corridor to Row 20 -> Column 53 pass (53, 13) -> Upper Highway (52, 9) -> Column 60 Corridor -> Row 3 Northern Highway -> Underground Path building at (1, 7)!
 
@@ -230,7 +232,7 @@
   7. Step Up 2 steps along Col 22 to (22, 6), Right 3 steps to (25, 6), and Up 1 step through (25, 5) gap onto Row 3 Green Grass Highway at (25, 3)!
   8. Walk West 24 steps along Row 3 Green Grass Highway across Cols 25 to 1 (1, 3).
   9. Step Down 5 steps along Col 1 to (1, 8) in front of doorway at (1, 7).
-  10. Step Up 1 step into doorway at (1, 7) -> WARPS DIRECTLY INTO THE UNDERGROUND PATH ENTRANCE BUILDING!
+  10. Step Up 1 step into doorway at (1, 7) to inspect/enter building.
 
 <hr>
 
