@@ -3,7 +3,7 @@
 ## CURRENT STATUS & DASHBOARD (Turn 27331)
 - Location: Route 8 (15, 3) - Row 3 Green Grass Highway
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Standing at (19, 15). Walking Right 4 to (23, 15), Up 4 to (23, 11), Right along Upper Highway to Col 53 gap (53, 13), Down to Lower Highway Row 20, then West to Gatehouse doorway.
+- Active Protocol: Standing at (23, 14). Walking Left 4 to Col 19 (19, 14), Up 2 through gap (19, 13) to Row 12 (19, 12), Right 10 to Col 29 (29, 12), Up 4 to Row 8 (29, 8).
 
 <hr>
 
