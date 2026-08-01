@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 27784)
-- Location: Route 8 (29, 12)
+## CURRENT STATUS & DASHBOARD (Turn 27811)
+- Location: Route 8 (6, 3)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Ascending Column 29 corridor to Upper Highway Row 8 at (29, 8).
+- Active Protocol: Facing Cut tree at (5, 8) from (6, 8) to enter Underground Path.
 
 <hr>
 
