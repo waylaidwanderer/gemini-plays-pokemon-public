@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 25771)
-- Location: Route 8 (34, 12) - Central Green Grass Highway
+## CURRENT STATUS & DASHBOARD (Turn 25801)
+- Location: Route 8 (23, 14) - Lower Highway Pavement
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Walk East along Row 12 green grass to Col 53 pass at (53, 13), enter Upper Highway, proceed to Col 60 Northern Highway, and walk West along Row 3 to Western Sector.
+- Active Protocol: Step Left 4 to (19, 14), step Up 2 through (19, 13) tan gravel gap to (19, 12) green grass, and navigate West along Row 12 to Western Sector (13, 12) / (14, 9) Underground Path entrance.
 
 
 <hr>
