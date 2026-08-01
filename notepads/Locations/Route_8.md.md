@@ -54,3 +54,8 @@
   8. Walk West 24 steps along Row 3 Green Grass Highway across Cols 25 to 1 (1, 3).
   9. Step Down 5 steps along Col 1 to (1, 8) in front of doorway at (1, 7).
   10. Step Up 1 step into doorway at (1, 7) -> WARPS DIRECTLY INTO THE UNDERGROUND PATH ENTRANCE BUILDING!
+### MASTER CORRECTION & VERIFIED UNDERGROUND PATH ENTRANCE (Turn 26366)
+- Route 8 Entrance to Underground Path Building: Doorway at Route 8 (27, 11)!
+- Entrance Building Interior: Player enters on carpet at (2, 7) / (3, 7).
+- Stairs to Underground Path Tunnel: (3, 4) / (3, 3)!
+- Route from Entrance (2, 7) to Tunnel Stairs: Right 1 to (3, 7) -> Up 3 steps to (3, 4) stairs!
