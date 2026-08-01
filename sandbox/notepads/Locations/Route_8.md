@@ -65,3 +65,4 @@
 - EMPIRICAL PROBE RESULT (Turn 28061): Stepping Up from (34, 12) to (34, 11) BUMPED into a solid south-facing ledge wall at (34, 11). Row 11 at Col 34 & Col 35 is a south-facing ledge wall.
 
 - EMPIRICAL PROBE RESULT (Turn 28077): Stepping Down from (52, 15) to (52, 16) BUMPED into a solid building roof/wall at (52, 16). Building roof/wall extends continuously across Cols 26-53 on Rows 16-19.
+- EMPIRICAL PROBE RESULT (Turn 28093): Stepping Left from (20, 11) to (19, 11) BUMPED into mountain rock cliff at (19, 11). Rows 7-11 at Col 19 are mountain cliff, but Rows 12-15 at Col 19 are open green grass / pavement connecting West to Western Sector (Cols 18-9)!
