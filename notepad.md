@@ -522,5 +522,6 @@
 - Row 26 (Cols 5-13) is open pavement/grass below the tree barrier, connecting West Lavender to East Lavender!
 - Column 13 (Rows 13-26) is a two-way open highway bypassing the Row 16 ledge.
 - Route 8 Entrance at (0,9) path from (7,22): West to Col 5 -> South to Row 26 -> East along Row 26 to Col 13 -> North along Col 13 to Row 13 -> Up through (13,11) gravel gap to Row 9 -> West along Row 9 to (0,9).
+- EMPIRICAL PROBE RESULT (Turn 28118): Stepping Up from (2, 18) to (2, 17) BUMPED into dark brown tree barrier at (2, 17). Rows 16 & 17 across Cols 2-8 form a solid tree barrier/ledge wall. Master path from West Lavender to Route 8 is: East along Row 18 to Col 13 -> North along Col 13 to Row 13 -> Up through (13, 11) gravel gap to Row 9 -> West along Row 9 to (0, 9) Route 8 Entrance!
 
 <hr>
