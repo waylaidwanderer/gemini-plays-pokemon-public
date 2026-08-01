@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 28501)
-- Location: Route 8 (30, 14)
+## CURRENT STATUS & DASHBOARD (Turn 28531)
+- Location: Lavender Town (6, 9) [In Battle]
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Walking South to Row 16 light brown pavement highway at (30, 16) -> West along Row 16 pavement to Column 19 (19, 16) -> Down 1 to Underground Path doorway at (19, 17).
+- Active Protocol: Defeat wild Spearow -> walk Left to (0, 9) Route 8 Entrance -> enter Upper Highway (59, 8) -> walk West along Row 8 past Col 48 -> Down 3 to Row 11 (46, 11) -> walk West along Row 11 pavement to West Route 8.
 
 <hr>
 
@@ -234,7 +234,6 @@
 ### Verified Master Route 8 Bypass to Lower Highway East (Turn 27981)
 - Column 26/27/28/29 mountain cliff wall blocks Row 6-9 Eastbound passage from Column 29.
 - Row 12 & Row 13 Green Grass Highway is COMPLETELY UNINTERRUPTED across Columns 28, 29, 30, 31, 32, 33, 34!
-- Column 34 is an open vertical pavement/grass highway (Rows 6 to 12).
 - MASTER ROUTE TO LOWER HIGHWAY EAST: From (29, 9) Upper Highway pass -> Down 3 to Row 12 green grass (29, 12) -> East 5 along Row 12 green grass to Col 34 (34, 12) -> North 6 along Col 34 to Row 6 pavement (34, 6) -> East along Row 6 pavement to Col 52 (52, 6) -> South 7 to Col 52 ledge gap (52, 13) -> hop down to Row 14 Lower Highway East!
 - EMPIRICAL PROBE RESULT (Turn 28023): Stepping Up from (46, 14) to (46, 13) BUMPED into a solid south-facing ledge wall at (46, 13). Row 13 at Col 46 is NOT walkable from Row 14.
 - EMPIRICAL PROBE RESULT (Turn 28034): Stepping Down from (29, 15) to (29, 16) BUMPED into a solid south-facing ledge wall at (29, 16).
