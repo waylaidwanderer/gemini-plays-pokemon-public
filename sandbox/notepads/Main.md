@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 28673)
-- Location: Route 8 (19, 12)
+## CURRENT STATUS & DASHBOARD (Turn 28675)
+- Location: Route 8 (29, 10)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: At (19, 12) -> Right 1 to Col 20 pavement (20, 12) -> Up 2 to Row 10 (20, 10) -> East 9 along Row 10 corridor to Col 29 (29, 10) -> Down 2 to (29, 12) -> East 5 to Col 34 corridor (34, 12) -> North 6 along Col 34 to Row 6 Pavement Highway (34, 6) -> West along Row 6 Northern Highway to Underground Path building entrance at (5, 8).
+- Active Protocol: At (29, 10) -> Down 2 to Row 12 (29, 12) -> East along Row 12 to Col 52 (52, 12) -> Down 2 to Row 14 (52, 14) -> Up through Col 53 two-way pass to Upper Highway Row 9 (52, 9) -> West along Upper Highway pavement to Underground Path building entrance at (5, 8).
