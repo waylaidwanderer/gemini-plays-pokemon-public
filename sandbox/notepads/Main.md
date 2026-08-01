@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 28141)
-- Location: Lavender Town (10, 9)
+## CURRENT STATUS & DASHBOARD (Turn 28171)
+- Location: Route 8 (10, 12)
 - Primary Goal: Reach Celadon City via Route 8 / Underground Path
-- Active Protocol: Walking West along Row 9 to Route 8 entrance at (0, 9) to warp onto Route 8 Upper Highway at (59, 9).
+- Active Protocol: Using Teleport to reset to Lavender Town Center, re-enter Route 8 at (59, 9) Upper Highway, and walk West to (5, 8) Cut tree.
