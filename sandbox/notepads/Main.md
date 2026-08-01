@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 26161)
-- Location: Lavender Town (13, 9)
+## CURRENT STATUS & DASHBOARD (Turn 26192)
+- Location: Route 8 (25, 10)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Escape wild Sandshrew battle, walk West along Row 9 to Route 8 entrance (0, 9), then navigate West across Route 8 to Cut tree at (5, 8) and enter Underground Path doorway at (1, 7)!
+- Active Protocol: Step Right 4 to (29, 10), Up 2 through Col 29 tan gravel pass at (29, 9) onto Row 8 Upper Highway at (29, 8), then navigate West along Upper Highway to doorway at (1, 7)!
