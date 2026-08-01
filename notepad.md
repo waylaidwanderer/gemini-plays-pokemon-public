@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 26971)
-- Location: Route 8 (8, 9)
+## CURRENT STATUS & DASHBOARD (Turn 26985)
+- Location: Underground Path Building (3, 7)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: At (8, 9) on Route 8. Proceeding East along Row 9 pavement to Col 21 -> South along Col 21 to Row 13 pavement at (21, 13) -> West to (19, 13) -> South 4 steps to enter Underground Path building doorway at (19, 17).
+- Active Protocol: Entered Underground Path building at (3, 7). Proceeding Up 4 steps along Column 3 to descend internal stairs at (3, 3) into the Underground Path tunnel to Route 7 / Celadon City.
 
 <hr>
 
