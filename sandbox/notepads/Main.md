@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 26671)
-- Location: Route 8 (4, 8)
+## CURRENT STATUS & DASHBOARD (Turn 26701)
+- Location: Route 8 (19, 14)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Cut tree at (5, 8) -> walk East through (5, 8) to Col 53 pass (53, 13) -> Upper Highway (52, 9) -> Column 60 Corridor -> Row 3 Northern Highway -> Underground Path building at (1, 7)!
+- Active Protocol: Walk West along Row 14 pavement from (19, 14) through Col 10 to Western Sector (Cols 0-8), ascend to Underground Path building doorway at (1, 7), enter doorway to take tunnel to Celadon City!
