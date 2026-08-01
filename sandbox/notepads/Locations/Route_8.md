@@ -41,8 +41,6 @@
 - Verified Eastern Map Border (Turn 24590): Column 60 on Route 8 is the eastern map boundary tile that warps back to Lavender Town (0, 9).
 - Empirical Map Boundary Discovery (Turn 25185): Column 60 across all rows (y=8, y=9) on Route 8 is the eastern map transition boundary that warps back to Lavender Town at (0, 8) / (0, 9). Route 8 playable grid is Columns 0 to 59.
 
-### MASTER VERIFIED UNDERGROUND PATH ROUTE (Turn 26223)
-- True Underground Path Entrance Building is located at (1, 7) on Western Route 8!
 - Route to (1, 7) from Lavender Town / Eastern Route 8:
   1. Enter Route 8 at (59, 9) Upper Highway -> walk West to Col 52 (52, 9).
   2. Hop Down south-facing ledge gap at (52, 13) onto Lower Highway Row 14 pavement at (52, 14).
