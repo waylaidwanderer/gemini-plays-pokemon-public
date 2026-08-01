@@ -53,3 +53,4 @@
 - Row 12 & Row 13 Green Grass Highway is COMPLETELY UNINTERRUPTED across Columns 28, 29, 30, 31, 32, 33, 34!
 - Column 34 is an open vertical pavement/grass highway (Rows 6 to 12).
 - MASTER ROUTE TO LOWER HIGHWAY EAST: From (29, 9) Upper Highway pass -> Down 3 to Row 12 green grass (29, 12) -> East 5 along Row 12 green grass to Col 34 (34, 12) -> North 6 along Col 34 to Row 6 pavement (34, 6) -> East along Row 6 pavement to Col 52 (52, 6) -> South 7 to Col 52 ledge gap (52, 13) -> hop down to Row 14 Lower Highway East!
+- EMPIRICAL PROBE RESULT (Turn 28023): Stepping Up from (46, 14) to (46, 13) BUMPED into a solid south-facing ledge wall at (46, 13). Row 13 at Col 46 is NOT walkable from Row 14.
