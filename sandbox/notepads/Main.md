@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 26066)
-- Location: Route 8 Overworld (19, 18)
+## CURRENT STATUS & DASHBOARD (Turn 26068)
+- Location: Underground Path Entrance Building Interior (3, 7)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Step Up into Underground Path entrance building doorway at (19, 17) -> take internal stairs into tunnel.
+- Active Protocol: Walk Up 3 to (3, 4) -> Left 3 onto (0, 4) stairs to warp into the Underground Path tunnel!
