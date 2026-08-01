@@ -242,7 +242,7 @@
 - MASTER ROUTE TO GATEHOUSE DOORWAY (Turn 28049): From (23, 15) -> Right 1 to Col 24 pavement (24, 15) -> Down 4 along Col 24 pavement to Row 19 (24, 19) -> Right 6 along Row 19 pavement to Eastern Gatehouse doorway at (30, 19)!
 - EMPIRICAL PROBE RESULT (Turn 28052): Stepping Down from (23, 15) to (23, 16) BUMPED into a solid mountain cliff wall at Row 16 (23, 16). Row 16 across Cols 19-28 is a solid mountain cliff wall with no southbound exit from Row 15.
 - EMPIRICAL PROBE RESULT (Turn 28061): Stepping Up from (34, 12) to (34, 11) BUMPED into a solid south-facing ledge wall at (34, 11). Row 11 at Col 34 & Col 35 is a south-facing ledge wall.
-- VERIFIED MASTER BYPASS TO LOWER HIGHWAY EAST (Turn 28066): From Upper Level (29, 12) -> East 12 along Row 12 green grass to (41, 12) -> Down 1 to hop (41, 13) south ledge onto Row 14 Lower Highway East at (41, 14)! Row 14 green grass connects West past Column 41 all the way to Column 30 and Gatehouse doorway at (30, 19)!
+
 - EMPIRICAL PROBE RESULT (Turn 28077): Stepping Down from (52, 15) to (52, 16) BUMPED into a solid building roof/wall at (52, 16). Building roof/wall extends continuously across Cols 26-53 on Rows 16-19.
 
 <hr>
