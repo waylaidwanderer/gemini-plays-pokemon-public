@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 27250)
-- Location: Route 8 (65, 10)
+## CURRENT STATUS & DASHBOARD (Turn 27260)
+- Location: Route 8 (63, 15)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: In wild Spearow battle at (65, 10) on Route 8. Dismissing text with A, then selecting RUN to flee.
+- Active Protocol: Standing at (63, 15). Probed (63, 16) and confirmed solid cliff. Stepping Up to (63, 14) to head North toward Col 78 pass.
