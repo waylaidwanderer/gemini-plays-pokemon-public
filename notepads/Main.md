@@ -1,4 +1,5 @@
-## CURRENT STATUS & DASHBOARD (Turn 25837)
-- Location: Route 8 (20, 10) - Upper Highway Pavement
+## CURRENT STATUS & DASHBOARD (Turn 25891)
+- Location: Route 8 (38, 17) - Building Pathway
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Step Down 2 to (20, 12), Left 1 to (19, 12) green grass, walk West along Row 12 to (13, 12) in Western Sector, then execute single-step empirical probing across Cols 12 to 0 to locate Underground Path entrance building doorway.
+- Active Protocol: Step Left 3 to (35, 17), then Down 3 into (35, 20) doorway to enter the Underground Path entrance building.
+
