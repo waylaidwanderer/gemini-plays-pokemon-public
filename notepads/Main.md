@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 26401)
-- Location: Route 8 (12, 12)
+## CURRENT STATUS & DASHBOARD (Turn 26413)
+- Location: Upper Route 8 Highway (9, 9)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Walk Left 11 steps along Row 12 from (12, 12) to Column 1 (1, 12)!
+- Active Protocol: Walk West along Upper Highway from (9, 9) towards Underground Path building door at (4, 11)!
