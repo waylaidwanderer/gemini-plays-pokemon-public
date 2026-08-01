@@ -399,7 +399,7 @@
   7. Step Up 2 steps along Col 22 to (22, 6), Right 3 steps to (25, 6), and Up 1 step through (25, 5) gap onto Row 3 Green Grass Highway at (25, 3)!
   8. Walk West 24 steps along Row 3 Green Grass Highway across Cols 25 to 1 (1, 3).
   9. Step Down 5 steps along Col 1 to (1, 8) in front of doorway at (1, 7).
-  10. Step Up 1 step into doorway at (1, 7) -> WARPS DIRECTLY INTO THE UNDERGROUND PATH ENTRANCE BUILDING!
+  10. Step Up 1 step into doorway at (1, 7) to inspect/enter building.
 
 <hr>
 
