@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 28794)
-- Location: Route 8 (58, 9)
+## CURRENT STATUS & DASHBOARD (Turn 28831)
+- Location: Lavender Town (13, 9) in wild battle
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: At (58, 9) -> single-step probe East along Row 9 pavement to (59, 9) towards Col 60.
+- Active Protocol: Run from wild Sandshrew -> walk West on Row 9 to (0, 9) to enter Route 8 Upper Highway at (59, 9) -> walk West along Upper Highway pavement past Col 45 to Underground Path entrance building at (19, 17).
 
 <hr>
 
