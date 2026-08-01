@@ -71,3 +71,4 @@
 - EMPIRICAL PASSAGE PROOF (Turn 28712): Column 19 at (19, 13) is a TWO-WAY OPEN GAP connecting Lower Highway Row 14 pavement directly UP to Row 12 Green Grass Highway at (19, 12)!
 - EMPIRICAL PROBE RESULT (Turn 28715): Row 11 across Cols 10-13 is a solid south-facing ledge wall blocking northbound movement from Row 12 green grass.
 - EMPIRICAL PROBE RESULT (Turn 28716): Column 9 at Row 12 (9, 12) is a solid mountain rock pillar blocking westbound movement on Row 12 from (10, 12).
+- EMPIRICAL PASSAGE PROOF (Turn 28717): Columns 20-23 across Rows 10-12 form an OPEN 4-TILE WIDE PAVEMENT HIGHWAY connecting Row 12 directly UP to Row 10 pavement corridor at (20, 10)!
