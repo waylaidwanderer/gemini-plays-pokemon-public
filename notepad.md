@@ -247,6 +247,7 @@
 - EMPIRICAL PROBE RESULT (Turn 28093): Stepping Left from (20, 11) to (19, 11) BUMPED into mountain rock cliff at (19, 11). Rows 7-11 at Col 19 are mountain cliff, but Rows 12-15 at Col 19 are open green grass / pavement connecting West to Western Sector (Cols 18-9)!
 - VERIFIED WESTERN SECTOR ENTRY (Turn 28096): Traversed Row 12 green grass past Col 19 mountain cliff to (13, 12) Western Sector! Row 11 pavement connects Col 13 West past Col 9 into Western Sector (Cols 0-8).
 - EMPIRICAL PROBE RESULT (Turn 28098): Column 9 at Row 11 (9, 11) is mountain rock cliff. The open westbound pavement highway is on Rows 8 & 9 across Cols 9-13, accessed by walking Up through Col 12 pavement gap (12, 9) around NPC at (13, 10)!
+- EMPIRICAL PROBE RESULT (Turn 28101): Stepping Up from (12, 12) to (12, 11) BUMPED into a solid south-facing ledge wall at (12, 11). Row 11 across Cols 10-13 is a south-facing ledge wall.
 
 <hr>
 
