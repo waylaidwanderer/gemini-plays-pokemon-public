@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 28750)
-- Location: Lavender Town (11, 20)
+## CURRENT STATUS & DASHBOARD (Turn 28756)
+- Location: Lavender Town (13, 9)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: At (11, 20) -> walk Down to Row 26 (10, 26) -> East to Col 13 (13, 26) -> North along Col 13 to Row 9 -> West to Route 8 entrance (0, 9).
+- Active Protocol: At (13, 9) -> walk West along Row 9 to Route 8 entrance (0, 9) -> enter Route 8 Upper Highway at (59, 9) -> navigate West along Upper Highway to West Route 8 Underground Path building.
 
 <hr>
 
@@ -177,6 +177,7 @@
 - EMPIRICAL PROBE RESULT (Turn 28126): Stepping Right from (8, 22) to (9, 22) BUMPED into dark green tree barrier at (9, 22). Row 26 (Cols 2-13) is the ONLY open pavement connecting West Lavender to East Lavender! Route from (8, 22): Down 4 to Row 26 (8, 26) -> East 5 to Col 13 (13, 26) -> North along Col 13 to East Lavender!
 - EMPIRICAL PROBE RESULT (Turn 28129): Stepping Down from (8, 22) to (8, 23) BUMPED into dark green tree barrier at (8, 23). Column 8 is part of the central tree barrier (Cols 8 & 9). Open southbound path is at Column 6 / Column 5: Left 2 to (6, 22) -> Down 4 to Row 26 (6, 26) -> East 7 to Col 13 (13, 26)!
 - EMPIRICAL PROBE RESULT (Turn 28753): Column 13 at Row 19 (13, 19) is the East wall of the Pokemon Center building. Open North-South highway is Column 14 (14, 20 to 14, 9) green grass!
+- EMPIRICAL PROBE RESULT (Turn 28755): Column 14 at Row 11 (14, 11) is a grey gravestone statue monument. Open gap to Row 9 is at Column 13 (13, 11) gravel pass!
 
 <hr>
 
