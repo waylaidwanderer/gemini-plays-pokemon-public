@@ -238,6 +238,8 @@
 - EMPIRICAL PROBE RESULT (Turn 28041): Stepping Down from (25, 11) to (25, 12) BUMPED into a solid south-facing ledge wall at (25, 12).
 - EMPIRICAL DISCOVERY & PASS PROOF (Turn 28046): Stepping Down from (23, 12) HOPS OVER the (23, 13) tan gravel ledge and lands on Row 14 pavement at (23, 14)! Column 23 at (23, 13) is the VERIFIED ONE-WAY SOUTH-FACING LEDGE PASSAGE connecting the Upper Level (Row 11/12) directly to the Lower Level (Row 14/15/16/19)!
 - VERIFIED ROUTE TO GATEHOUSE DOORWAY: From (23, 14) -> Down 5 along Col 23 to Row 19 pavement (23, 19) -> Right 7 along Row 19 pavement to Eastern Gatehouse doorway at (30, 19)!
+- EMPIRICAL HIGHWAY DISCOVERY (Turn 28049): Column 24 across Rows 12-19 is an OPEN UNINTERRUPTED LIGHT BROWN PAVEMENT HIGHWAY! Row 15 at Col 23 connects Right to Col 24 pavement (24, 15) without any ledge.
+- MASTER ROUTE TO GATEHOUSE DOORWAY (Turn 28049): From (23, 15) -> Right 1 to Col 24 pavement (24, 15) -> Down 4 along Col 24 pavement to Row 19 (24, 19) -> Right 6 along Row 19 pavement to Eastern Gatehouse doorway at (30, 19)!
 
 <hr>
 
