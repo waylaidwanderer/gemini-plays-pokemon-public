@@ -265,6 +265,7 @@
 - EMPIRICAL PROBE RESULT (Turn 28735): Row 16 across Cols 28-33 is the solid north roof/wall of the building, blocking southbound movement from Row 15.
 - EMPIRICAL PROBE RESULT (Turn 28762): Row 7 at Column 46 (46, 7) is a solid mountain rock cliff blocking northbound movement from Row 8.
 - EMPIRICAL PROBE RESULT (Turn 28767): Row 5 at Column 50 (50, 5) is a solid south-facing ledge wall blocking northbound movement from Row 6.
+- EMPIRICAL PASSAGE PROOF (Turn 28769): Column 51 at Row 5 (51, 5) is an OPEN UNOBSTRUCTED GAP connecting Row 6 pavement (51, 6) directly UP to Row 3/2 Northern Grass Highway at (51, 2)!
 
 <hr>
 
