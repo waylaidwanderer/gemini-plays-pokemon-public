@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 27301)
+## CURRENT STATUS & DASHBOARD (Turn 27303)
 - Location: Route 8 (65, 14)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Selecting RUN to flee wild Spearow battle at (65, 14). Then executing reset to Upper Highway at (59, 9) via Lavender Town / Teleport or Col 53 pass.
+- Active Protocol: Standing at (65, 14). Opening Start menu to use Teleport to reset to Lavender Town / Upper Highway.
 
 <hr>
 
