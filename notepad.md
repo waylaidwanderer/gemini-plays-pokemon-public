@@ -509,6 +509,7 @@
 - EMPIRICAL PROBE RESULT (Turn 28101): Stepping Up from (12, 12) to (12, 11) BUMPED into a solid south-facing ledge wall at (12, 11). Row 11 across Cols 10-13 is a south-facing ledge wall.
 - EMPIRICAL PROBE RESULT (Turn 28149): Stepping Up from (46, 7) to (46, 6) BUMPED into mountain rock cliff at (46, 6). The open westbound pavement corridor around Col 45 is on Row 7: Up 3 to (46, 7) -> Left 4 to (42, 7) -> Down 1 to (42, 8)!
 - EMPIRICAL PROBE RESULT (Turn 28152): Stepping Up from (46, 8) to (46, 7) BUMPED into mountain rock cliff at (46, 7). Rows 6 & 7 at Col 46 are mountain cliff. The open Northern Highway bypass around Col 45 rock wall is at Column 50 on Row 5 green grass: Down 1 to (46, 9) -> Right 4 to (50, 9) -> Up 4 to Row 5 green grass (50, 5) -> Left along Row 5 green grass past Col 45!
+- EMPIRICAL PASSAGE PROOF (Turn 28712): Column 19 at (19, 13) is a TWO-WAY OPEN GAP connecting Lower Highway Row 14 pavement directly UP to Row 12 Green Grass Highway at (19, 12)!
 
 <hr>
 
