@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 27318)
-- Location: Lavender Town (8, 26)
+## CURRENT STATUS & DASHBOARD (Turn 27331)
+- Location: Route 8 (15, 3) - Row 3 Green Grass Highway
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Standing at (8, 26) on Row 26 pavement highway. Walking East 5 to Col 13 (13, 26) -> North 13 along Col 13 to Row 13 -> Up to Row 9 -> West to Route 8 entrance (0, 9).
+- Active Protocol: Standing at (15, 3) on Row 3 Green Grass Highway. Walking West 14 steps to Col 1 (1, 3) -> Down 5 steps to (1, 8) -> Up 1 step into Underground Path doorway at (1, 7).
 
 <hr>
 
