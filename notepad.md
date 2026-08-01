@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 26754)
-- Location: Route 8 (32, 20)
+## CURRENT STATUS & DASHBOARD (Turn 26791)
+- Location: Route 8 (11, 16)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Walk Down to (32, 21), Left 2 steps to (30, 21), Up 2 steps through (30, 20) into Underground Path doorway at (30, 19), enter building interior, take stairs down to Underground Path tunnel to Celadon City!
+- Active Protocol: Walk Right 2 steps to (13, 16), Up 1 step into Gatehouse doorway at (13, 15), exit north to Row 9 at (9, 9), walk East to Underground Path Entrance doorway at (14, 9), take stairs down to Underground Path tunnel to Celadon City!
 
 <hr>
 
