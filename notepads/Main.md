@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 27916)
-- Location: Cerulean City Bike Shop (6, 4)
+## CURRENT STATUS & DASHBOARD (Turn 27961)
+- Location: Route 8 (29, 11)
 - Primary Goal: Reach Celadon City via Route 8 / Underground Path
-- Active Protocol: Discovered current indoor location is Cerulean Bike Shop! Exiting South to Cerulean City overworld to re-orient towards Route 8 / Underground Path.
+- Active Protocol: Traversing Route 8 Eastbound via Row 6 pavement highway to Column 52 ledge -> Lower Highway East -> Underground Path doorway.
