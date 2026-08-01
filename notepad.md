@@ -390,7 +390,6 @@
 - Verified Gatehouse & Underground Path Doorways:
   - Gatehouse Entrance Doorway at (30, 19) / (38, 17) on Route 8!
   - Underground Path Entrance Doorway at (3, 12) / (2, 12) accessed via Cut tree at (5, 8) on Route 8 West!
-- Route 8 Underground Path Building Interior (11, 3): NPC at (11, 2) in front of Row 0 stairways at (10, 0) and (12, 0)!
 
 <hr>
 
