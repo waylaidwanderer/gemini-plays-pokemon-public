@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 28784)
-- Location: Route 8 (59, 9)
+## CURRENT STATUS & DASHBOARD (Turn 28787)
+- Location: Route 8 (51, 9)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: At (59, 9) Upper Highway -> running master Python probe script on Route 8 Upper Highway.
+- Active Protocol: At (51, 9) -> single-step probe East along Row 9 pavement towards Col 59/60.
