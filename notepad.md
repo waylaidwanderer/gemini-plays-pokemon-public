@@ -619,6 +619,7 @@
   - Column 28: Rows 11-15
   - Row 15: Columns 24-28
   - Column 24: Rows 14-15
+  - Column 23 (Vertical Corridor): Rows 9-13 is a narrow 1-column wide vertical strip bounded by a solid wall at the north (Row 8) and a solid hedge/wall at the south (Row 14), making it a dead end.
 - **Trainers on B1F:**
   - Rocket Grunt at (12, 6) facing Right. Defeated on Turn 13944.
   - Rocket Grunt at (26, 8) facing Left. Defeated on Turn 14001.
