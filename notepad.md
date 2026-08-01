@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 27841)
-- Location: Route 8 (10, 14)
+## CURRENT STATUS & DASHBOARD (Turn 27861)
+- Location: Underground Path Entrance Building (39, 16)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Returning West across Row 3 Northern Grass Highway to Western Sector (Cols 0-5) to inspect Underground Path building doorway.
+- Active Protocol: Reached Underground Path Entrance Building! Navigating to interior stairs at (35, 20) to enter Underground Path tunnel to Celadon City.
 
 <hr>
 
