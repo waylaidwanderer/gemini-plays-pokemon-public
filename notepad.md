@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 28759)
-- Location: Route 8 (59, 9)
+## CURRENT STATUS & DASHBOARD (Turn 28772)
+- Location: Route 8 (51, 7)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: At (59, 9) Upper Highway -> walk West along Row 8/9 pavement to Col 46 (46, 9) -> bypass Col 45 via Row 7 -> bypass Col 27 via Row 10 -> bypass Col 19 via Row 12 -> enter West Route 8 Underground Path building.
+- Active Protocol: At (51, 7) -> single-step probe South along Col 51 pavement to Row 9 highway (51, 9) -> explore East to Col 59/60.
 
 <hr>
 
@@ -535,7 +535,7 @@
 - EMPIRICAL PROBE RESULT (Turn 28735): Row 16 across Cols 28-33 is the solid north roof/wall of the building, blocking southbound movement from Row 15.
 - EMPIRICAL PROBE RESULT (Turn 28762): Row 7 at Column 46 (46, 7) is a solid mountain rock cliff blocking northbound movement from Row 8.
 - EMPIRICAL PROBE RESULT (Turn 28767): Row 5 at Column 50 (50, 5) is a solid south-facing ledge wall blocking northbound movement from Row 6.
-- EMPIRICAL PASSAGE PROOF (Turn 28769): Column 51 at Row 5 (51, 5) is an OPEN UNOBSTRUCTED GAP connecting Row 6 pavement (51, 6) directly UP to Row 3/2 Northern Grass Highway at (51, 2)!
+- EMPIRICAL PROBE RESULT (Turn 28771): Row 5 at Column 51 (51, 5) is a solid south-facing ledge wall blocking northbound movement from Row 6.
 
 <hr>
 
