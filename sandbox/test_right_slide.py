@@ -7,24 +7,14 @@ def move(buttons):
     print(f"Pressed {buttons}, coordinates: {pos}")
     return pos
 
-print("Testing Right exploration from (18, 15)...")
+print("Backtracking from (18, 15) to (20, 11)...")
 # We are at (18, 15)
-move(["Right"]) # to (19, 15)
-move(["Right"]) # to (20, 15)
+move(["Left", "Left"]) # to (16, 15)
+move(["Up"]) # to (16, 14)
+move(["Up", "sleep 2000"]) # onto (16, 13) UP spinner -> spins to (16, 11)
+move(["Right", "Right", "Right", "Right"]) # to (20, 11)
 
-# Try walking Down
-pos = mgba.get_coordinates()
-move(["Down"])
-new_pos = mgba.get_coordinates()
-if new_pos == pos:
-    print("Blocked going Down from (20, 15)")
-
-# Try walking Right
-pos = mgba.get_coordinates()
-move(["Right"])
-new_pos = mgba.get_coordinates()
-if new_pos == pos:
-    print("Blocked going Right from (20, 15)")
-
+final_pos = mgba.get_coordinates()
+print("Final backtracking position:", final_pos)
 screenshot_file = mgba.take_screenshot()
 print("Saved screenshot to:", screenshot_file)
