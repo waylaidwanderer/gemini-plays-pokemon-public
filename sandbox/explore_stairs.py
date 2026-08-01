@@ -1,23 +1,25 @@
 import mgba
 import time
 
-# We are at (10, 12) on B3F
-print("Start Position:", mgba.get_coordinates())
+def move(buttons):
+    mgba.press_buttons(buttons)
+    pos = mgba.get_coordinates()
+    print(f"Pressed {buttons}, coordinates: {pos}")
+    return pos
 
-# Walk Up to (10, 11)
-mgba.press_buttons(["Up"])
-time.sleep(0.5)
-print("At (10, 11):", mgba.get_coordinates())
+# We are at (3, 15)
+print("Testing surrounding areas from (3, 15)...")
 
-# Step Up onto (10, 10) UP spinner
-print("Stepping UP onto (10, 10) spinner...")
-mgba.press_buttons(["Up"])
+# Let's try to walk Left and Down to explore the bottom-left area
+move(["Left"]) # (2, 15)
+move(["Left"]) # (1, 15)
+move(["Down"]) # (1, 16)
+move(["Down"]) # (1, 17)
+move(["Down"]) # (1, 18)
+move(["Down"]) # (1, 19)
+move(["Right"]) # (2, 19)
+move(["Right"]) # (3, 19)
 
-# Let's monitor the position every 0.5 seconds for 8 seconds to see the exact slide path!
-for i in range(16):
-    time.sleep(0.5)
-    print(f"Time {0.5 * (i+1)}s: {mgba.get_coordinates()}")
-
-# Take screenshot at the end
-screenshot_path = mgba.take_screenshot()
-print("Screenshot:", screenshot_path)
+# Let's see where we are!
+pos = mgba.get_coordinates()
+print("Current position:", pos)
