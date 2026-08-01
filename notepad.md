@@ -3,7 +3,7 @@
 ## CURRENT STATUS & DASHBOARD (Turn 27331)
 - Location: Route 8 (15, 3) - Row 3 Green Grass Highway
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Standing at (15, 3) on Row 3 Green Grass Highway. Walking West 14 steps to Col 1 (1, 3) -> Down 5 steps to (1, 8) -> Up 1 step into Underground Path doorway at (1, 7).
+- Active Protocol: Standing at (6, 8) in front of Underground Path doorway at (6, 7). Stepping Up 1 into doorway (6, 7) to enter building.
 
 <hr>
 
@@ -234,7 +234,7 @@
 ### Master Verified Saffron Gatehouse & Underground Path Geography (Turn 26886)
 - Saffron Gatehouse (13, 15): North exit at (2, 0) is BLOCKED BY THIRSTY GUARD ("The guard is thirsty! Give him a drink!"). Cannot pass through Saffron Gatehouse to Saffron City without a drink from Celadon Dept Store.
 - Tile (16, 29): Decorative tree stump / scenery obstacle ("There isn't anything to CUT!"). Non-cuttable.
-- Underground Path Entrance Building: Doorway at (1, 7) at far west end of Route 8! Inside is stairs down to Underground Path tunnel to Route 7 / Celadon City.
+- Underground Path Entrance Building: Doorway at (6, 7) at far west end of Route 8 (x=6, y=7)! Inside is stairs down to Underground Path tunnel to Route 7 / Celadon City.
 - Master Highway Traversal: Walk East along Row 20 pavement from (17, 20) to Col 53 pass at (53, 13), step Up to Upper Highway at (52, 9), West to Col 25 at (25, 8), Up through (25, 5) gap to Row 3 Green Grass Highway at (25, 3), West to Col 1 at (1, 3), Down to Underground Path entrance doorway at (1, 7)!
 
 <hr>
