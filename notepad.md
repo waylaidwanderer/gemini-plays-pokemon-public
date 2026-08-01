@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 25923)
-- Location: Route 8 Gatehouse Building Interior (3, 7)
+## CURRENT STATUS & DASHBOARD (Turn 25951)
+- Location: Route 8 Gatehouse Building Interior (2, 2)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Walk to stairs at (1, 4) and step onto stairs to enter Underground Path tunnel.
+- Active Protocol: Step Right to (3, 2) to draw NPC East, then stun NPC and walk West along Row 2 to (0, 2) -> Down to (0, 4) stairs.
 
 
 
