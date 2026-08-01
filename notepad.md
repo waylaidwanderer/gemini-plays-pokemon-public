@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 28701)
-- Location: Route 8 (29, 10)
+## CURRENT STATUS & DASHBOARD (Turn 28742)
+- Location: Route 8 (29, 14)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: At (29, 12) -> Up 1 to (29, 11) -> Up 1 to (29, 10) -> Left 4 along Row 10 pavement past Col 27 to (25, 10) -> West to Col 20 pavement (20, 10) -> Down 2 to (20, 12) -> Left 1 to Western Sector (19, 12) -> West along Row 12 to Col 12 gap -> Up through (12, 9) gap around Guard NPC to Row 8/9 pavement -> West to Underground Path building entrance.
+- Active Protocol: At (29, 14) -> single-step probe West along Row 14 green grass to (28, 14) -> inspect Column 27 mountain wall at (27, 14).
 
 <hr>
 
@@ -522,7 +522,7 @@
 - EMPIRICAL PROBE RESULT (Turn 28715): Row 11 across Cols 10-13 is a solid south-facing ledge wall blocking northbound movement from Row 12 green grass.
 - EMPIRICAL PROBE RESULT (Turn 28716): Column 9 at Row 12 (9, 12) is a solid mountain rock pillar blocking westbound movement on Row 12 from (10, 12).
 - EMPIRICAL PASSAGE PROOF (Turn 28717): Columns 20-23 across Rows 10-12 form an OPEN 4-TILE WIDE PAVEMENT HIGHWAY connecting Row 12 directly UP to Row 10 pavement corridor at (20, 10)!
-- EMPIRICAL PASSAGE PROOF (Turn 28720): Column 23 across Rows 3-8 is an OPEN UNOBSTRUCTED NORTH-SOUTH HIGHWAY connecting Row 8 Upper Highway directly UP through Row 5 gap (23, 5) to Row 3 Northern Highway at (23, 3)!
+- EMPIRICAL PROBE RESULT (Turn 28720): Row 5 at Column 23 (23, 5) is a south-facing ledge wall blocking northbound movement from Row 6.
 - EMPIRICAL PROBE RESULT (Turn 28721): Row 5 at Column 23 (23, 5) is a solid south-facing ledge wall blocking northbound movement from Row 6.
 - EMPIRICAL PASSAGE PROOF (Turn 28724): Row 14 green grass is an OPEN UNINTERRUPTED EASTBOUND HIGHWAY across Columns 34-45 bypassing the Column 45 mountain rock wall (which spans Rows 8-13)!
 - EMPIRICAL PROBE RESULT (Turn 28727): Row 13 across Cols 46-53 is a solid south-facing ledge wall blocking northbound movement from Row 14.
