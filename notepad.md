@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 27213)
-- Location: Route 8 (3, 18)
+## CURRENT STATUS & DASHBOARD (Turn 27215)
+- Location: Route 4 / Map (89, 10)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Standing at (3, 18) on Row 18. Walking West along Row 18 to Column 1 (1, 18), then Up along Column 1 to Underground Path doorway at (1, 7).
+- Active Protocol: Map transition occurred! Now at (89, 10) on Row 10 pavement. Walking West along Row 10 pavement.
 
 <hr>
 
