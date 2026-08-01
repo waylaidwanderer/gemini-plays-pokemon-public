@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 26491)
-- Location: Route 8 Pokemon Center (3, 3)
+## CURRENT STATUS & DASHBOARD (Turn 26521)
+- Location: Route 8 (27, 27)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Exit Pokemon Center (3, 8), walk Right 1 to Col 20 (20, 17), Up Col 20 to Row 3 (20, 3), West on Row 3 to Col 1 (1, 3), Down to (4, 11), enter Underground Path building at (4, 11)!
+- Active Protocol: Walk East along Row 27 pavement to Col 53, North through Col 53 pass (53, 13) to Upper Highway (52, 9), West to Col 22, North to Row 6, East to Col 25, North through (25, 5) gap to Row 3 Northern Highway, West to Col 1, enter Underground Path building at (1, 7)!
 
 <hr>
 
