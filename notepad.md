@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 28111)
-- Location: Lavender Town (13, 20)
+## CURRENT STATUS & DASHBOARD (Turn 28141)
+- Location: Lavender Town (10, 9)
 - Primary Goal: Reach Celadon City via Route 8 / Underground Path
-- Active Protocol: Walking Down 6 steps along Col 13 to Row 26 highway in Lavender Town to bypass Pokemon Center wall.
+- Active Protocol: Walking West along Row 9 to Route 8 entrance at (0, 9) to warp onto Route 8 Upper Highway at (59, 9).
 
 <hr>
 
