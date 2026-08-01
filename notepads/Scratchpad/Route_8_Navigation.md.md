@@ -82,3 +82,5 @@
 - Verified Column 53 Pass (Turn 24604): Column 53 at (53, 13) is the open two-way pavement pass connecting Lower Highway Row 15 UP to Upper Highway Row 9 at (52, 9)!
 - Verified Column 45 Rock Wall (Turn 24621): Column 45 is a solid mountain rock cliff across Rows 8, 9, 10, 11, 12, 13.
 - Empirical Discovery (Turn 25069): Column 27 mountain wall blocks Row 14 at (27,14) and Row 12 at (27,12). Bypass Col 27 via (28,14) -> Up 4 to (28,10) -> Left 2 across Col 27 pavement to (26,10)!
+### Master Verified Route from Upper Highway (29, 8) to West Route 8 (5, 14) (Turn 27786)
+- From (29, 8): Left 5 along Row 8 to (24, 8) -> Down 3 along Col 24 to (24, 11) -> Left 4 along Row 11 to (20, 11) -> Down 1 to Row 12 (20, 12) -> Left 10 along Row 12 to (10, 12) -> Down 2 to Row 14 pavement (10, 14) -> Left 5 along Row 14 pavement to West Route 8 at (5, 14) -> Up to Cut tree at (5, 8)!
