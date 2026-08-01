@@ -260,6 +260,7 @@
 - EMPIRICAL PASSAGE PROOF (Turn 28724): Row 14 green grass is an OPEN UNINTERRUPTED EASTBOUND HIGHWAY across Columns 34-45 bypassing the Column 45 mountain rock wall (which spans Rows 8-13)!
 - EMPIRICAL PROBE RESULT (Turn 28727): Row 13 across Cols 46-53 is a solid south-facing ledge wall blocking northbound movement from Row 14.
 - EMPIRICAL PROBE RESULT (Turn 28729): Column 53 at Row 13 (53, 13) is a solid south-facing ledge wall blocking northbound movement from Row 14.
+- EMPIRICAL PROBE RESULT (Turn 28735): Row 16 across Cols 28-33 is the solid north roof/wall of the building, blocking southbound movement from Row 15.
 
 <hr>
 
