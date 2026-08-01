@@ -51,13 +51,12 @@
   - Poké Ball at (6, 12) (TM07 - Horn Drill, Obtained on Turn 14097)
 
 ## B3F Layout & Mapping
-- **Stairs UP to B2F (Left):** (5, 15) - Warps and spawns the player at B2F (2, 9) facing Right (empirically verified on Turn 15297).
-- **Stairs UP to B2F (Right):** (27, 8) - Connects UP to B2F (27, 8) -> B1F (23, 2).
-- **Stairs DOWN to B4F:** Located at (21, 22) or (21, 21) in B3F. Takes the player to B4F at (21, 25) (empirically verified on Turn 14770).
-- **Entry Landing Position:** (8, 11) (player automatically spins and lands here after coming down the stairs from B2F (5, 15)).
-- **Reachable Walkable Areas:**
-  - Left Room / Maze: Rows 7-25, Columns 1-16 (completely explored).
-  - Right Room: Rows 10-15, Columns 18-28.
+- **Critical Isolation Split (Empirically Verified on Turn 15537):** B3F is divided into two completely isolated rooms with NO physical connections between them:
+  1. **Left Room (Connecting to B4F):** Only reachable by taking the B2F Bottom-Left Maze Staircase (approx B2F (6, 15)). Entering it warps the player to B3F, automatically sliding them to the Entry Landing Position at B3F (8, 11). This room contains the stairs leading down to B4F.
+  2. **Right Room (Dead End):** Only reachable by taking the B2F Upper-Right Staircase at B2F (21, 8). It spawns the player at B3F (25, 6). This room has no items or paths to the Left Room.
+- **Stairs UP to B2F (Left Room):** Located at B3F (5, 15). Warps the player UP, spawning them at B2F (2, 9) facing Right (verified on Turn 15297).
+- **Stairs UP to B2F (Right Room):** Located at B3F (25, 6). Warps the player UP, spawning them at B2F (21, 8) (verified on Turn 15541).
+- **Stairs DOWN to B4F (Left Room):** Located at B3F (21, 22) or (21, 21). Takes the player to B4F at (21, 25) (verified on Turn 14770).
 - **Major Barriers & Obstacles:**
   - Column 15: Blocked by solid green-edged wall tiles from Row 18 to Row 24 (empirically verified on Turn 14753 that (15, 20) is impassable).
   - Column 18: Solid vertical wall from Row 6 to Row 19, with gaps only at (18, 10) and (18, 11).
