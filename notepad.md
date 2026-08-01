@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 27011)
-- Location: Saffron Gatehouse (2, 2)
+## CURRENT STATUS & DASHBOARD (Turn 27015)
+- Location: Route 8 (25, 26)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: At (2, 2) inside Saffron Gatehouse. Exiting South 5 steps to (2, 7) / (2, 8) onto Route 8 at (13, 15) -> East along Row 15 to Col 22 (22, 15) -> South to Row 20 South Highway at (22, 20) -> East to Col 53 pass at (53, 13) -> Up to Row 9 Upper Highway at (52, 9) -> West to Col 25 -> Up through (25, 5) gap -> Row 3 Green Grass Highway -> Col 1 -> (1, 7) Underground Path doorway.
+- Active Protocol: Emerged on Route 8 at (25, 26) in front of doorway (25, 25). Walking Left 3 steps to Col 22 (22, 26) -> Down 1 to Row 27 (22, 27) -> East to Col 34/35 -> Col 53 pass at (53, 13) -> Row 9 Upper Highway at (52, 9) -> West to Col 25 -> Up through (25, 5) gap -> Row 3 Green Grass Highway -> Col 1 -> (1, 7) Underground Path doorway.
 
 <hr>
 
