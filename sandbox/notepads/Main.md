@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 26941)
-- Location: Route 8 (22, 18)
+## CURRENT STATUS & DASHBOARD (Turn 26971)
+- Location: Route 8 (8, 9)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: At (22, 18) on Route 8 facing Row 17 ledge gap at (22, 17) and Pokemon Center door at (19, 17). Probing West along Row 18 pavement towards (1, 7) Underground Path building.
+- Active Protocol: At (8, 9) on Route 8. Proceeding East along Row 9 pavement to Col 21 -> South along Col 21 to Row 13 pavement at (21, 13) -> West to (19, 13) -> South 4 steps to enter Underground Path building doorway at (19, 17).
