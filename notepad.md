@@ -220,17 +220,7 @@
 - Verified Eastern Map Border (Turn 24590): Column 60 on Route 8 is the eastern map boundary tile that warps back to Lavender Town (0, 9).
 - Empirical Map Boundary Discovery (Turn 25185): Column 60 across all rows (y=8, y=9) on Route 8 is the eastern map transition boundary that warps back to Lavender Town at (0, 8) / (0, 9). Route 8 playable grid is Columns 0 to 59.
 
-- Route to (1, 7) from Lavender Town / Eastern Route 8:
-  1. Enter Route 8 at (59, 9) Upper Highway -> walk West to Col 52 (52, 9).
-  2. Hop Down south-facing ledge gap at (52, 13) onto Lower Highway Row 14 pavement at (52, 14).
-  3. Walk West along Row 14 pavement from Col 52 to Col 29 (29, 14).
-  4. Step Up 2 steps through Col 29 tan gravel gap at (29, 13) to Row 10 pavement at (29, 10).
-  5. Step Up 2 steps through Col 29 tan gravel pass at (29, 9) onto Row 8 Upper Highway at (29, 8).
-  6. Walk Left 7 steps along Row 8 Upper Highway pavement to Col 22 (22, 8).
-  7. Step Up 2 steps along Col 22 to (22, 6), Right 3 steps to (25, 6), and Up 1 step through (25, 5) gap onto Row 3 Green Grass Highway at (25, 3)!
-  8. Walk West 24 steps along Row 3 Green Grass Highway across Cols 25 to 1 (1, 3).
-  9. Step Down 5 steps along Col 1 to (1, 8) in front of doorway at (1, 7).
-  10. Step Up 1 step into doorway at (1, 7) to inspect/enter building.
+- Route to Underground Path Entrance Building: Enter Route 8 at (59, 9) Upper Highway -> walk West along Row 8/9 Upper Highway pavement to Col 22/25 -> hop down Col 29 gap to Lower Highway Row 20 pavement at (25, 20) -> walk West along Row 20 pavement to Underground Path building doorway at (19, 20) / (19, 17)!
 ### Master Verified Saffron Gatehouse & Underground Path Geography (Turn 27490)
 - Saffron Gatehouse (13, 15): North exit at (2, 0) is BLOCKED BY THIRSTY GUARD ("The guard is thirsty! Give him a drink!"). Cannot pass through Saffron Gatehouse to Saffron City without a drink from Celadon Dept Store.
 - Tile (16, 29): Decorative tree stump / scenery obstacle ("There isn't anything to CUT!"). Non-cuttable.
