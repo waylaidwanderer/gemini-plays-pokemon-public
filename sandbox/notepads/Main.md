@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 27631)
-- Location: Route 8 (46, 9)
+## CURRENT STATUS & DASHBOARD (Turn 27657)
+- Location: Route 8 (38, 15)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Bypassing Column 45 mountain cliff via Row 7 pavement pass to reach Route 8 West Underground Path entrance at (2, 9).
+- Active Protocol: Walking East along Lower Highway Row 15 green grass to Column 53 pass to reach Upper Highway.
