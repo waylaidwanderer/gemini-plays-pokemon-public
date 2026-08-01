@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 27657)
-- Location: Route 8 (38, 15)
+## CURRENT STATUS & DASHBOARD (Turn 27692)
+- Location: Route 8 (46, 10)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Walking West along Row 14 pavement to Column 19 gap at (19, 13) to access Row 12 Green Grass Highway.
+- Active Protocol: Probing Route 8 Upper Highway Westbound connections.
 
 <hr>
 
