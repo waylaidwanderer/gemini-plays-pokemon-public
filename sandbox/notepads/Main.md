@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 26912)
-- Location: Route 8 (16, 20)
+## CURRENT STATUS & DASHBOARD (Turn 26926)
+- Location: Route 8 (30, 20)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Walk East to Col 22 (22, 20), Up along Col 22 to Row 12 Green Grass Highway (22, 12), East to Col 29 gap (29, 12), Up to Row 8 Upper Highway (29, 8), West to Col 22 (22, 8), Up through Col 25 gap (25, 5) to Row 3 Northern Highway (25, 3), West to (1, 3), Down to Underground Path entrance doorway at (1, 7)!
+- Active Protocol: Step Down to (30, 21), Left to (28, 21), Up to (28, 20), Left to Col 15 (15, 20), Down along Col 15 to Row 29 flower grass highway (15, 29), East 45 steps along Row 29 to Col 60 map border, warp to Lavender Town (0, 9), re-enter Route 8 at (59, 9) Upper Highway, navigate west to Underground Path doorway at (1, 7)!
