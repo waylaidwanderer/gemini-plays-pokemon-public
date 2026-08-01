@@ -42,6 +42,7 @@
 - **Trainers on B2F:**
   - Rocket Grunt at (20, 13) facing Down. Defeated on Turn 14038.
 - **Spinners / Maze Mechanics:**
+  - LEFT spinner at (17, 11) -> slides all the way to (2, 9) (stopper).
   - UP spinner at (12, 13) -> UP spinner at (12, 11) -> LEFT spinner at (12, 9) -> LEFT spinner at (4, 9) -> Stopper at (2, 9).
   - LEFT spinner at (17, 10) -> DOWN spinner at (13, 10) -> RIGHT spinner at (13, 12) -> Wall at (15, 12) (stops player at (14, 12)).
 - **Items on B2F:**
