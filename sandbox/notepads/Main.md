@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 27601)
-- Location: Route 8 (34, 27)
+## CURRENT STATUS & DASHBOARD (Turn 27631)
+- Location: Route 8 (46, 9)
 - Primary Goal: Reach Celadon City via Route 8 Underground Path
-- Active Protocol: Casting LUNA's Teleport to warp to Lavender Town, then entering Route 8 (59, 9) on Upper Highway.
+- Active Protocol: Bypassing Column 45 mountain cliff via Row 7 pavement pass to reach Route 8 West Underground Path entrance at (2, 9).
