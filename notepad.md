@@ -136,7 +136,6 @@
 - Access to Row 9 Highway:
   1. From (10, 12), walk East along Row 12 to (29, 12).
   2. Step UP 3 steps through (29, 11)/(29, 10) to (29, 9) Row 9 Pavement Highway.
-  3. Walk EAST along Row 9 Pavement Highway past x=30, x=35, x=40, x=50 to reach Route 10 entrance at (59, 9)!
 
 <hr>
 
