@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 30356)
-- Location: Route 6 Underground Path Entrance Building (4, 4)
-- Active Protocol: Walking South to (4, 7) and stepping out onto Route 6 at (17, 14).
+## CURRENT STATUS & DASHBOARD (Turn 30358)
+- Location: Route 6 (17, 14)
+- Active Protocol: Riding Bicycle South along Route 6 towards Vermilion City (18, 0).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
