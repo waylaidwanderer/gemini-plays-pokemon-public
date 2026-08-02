@@ -8,4 +8,4 @@
 - Ledge Gap / Passage: (29, 9) connects Row 10 to Row 8 grass.
 - Col 41 Highway Gap: (41, 8) connects Row 12 UP to Row 6. Note: Row 6/7 highway dead-ends at (45, 6)/(45, 7) against rock wall.
 - Lower Basin Dead End Pocket: Lower basin at x=52-53 is a dead end pocket (x=54 is solid rock wall, y=13 is south-facing ledge). To exit, walk West along Row 14 to (29, 14) / (19, 14) to ascend to the Upper Highway.
-- Route 9 Master Navigation Solution (VERIFIED): Defeat Junior Trainer at (13, 10) -> ascend Col 13 to Row 8 pavement (13, 8) -> walk West to (5, 8) Cut tree -> ascend to Row 4 Northern Highway (5, 4) -> walk East on Row 4 past x=45 to (49, 4) -> jump South over ledge at (49, 5) to (49, 8) Eastern Highway -> walk East to Route 10 (59, 8).
+- Route 9 Master Navigation Solution (VERIFIED): Re-enter Route 9 top entrance (0, 8) via Cerulean East Exit -> ascend Col 5 to Row 4 Northern Highway (5, 4) -> walk East on Row 4 past x=45 to (49, 4) -> jump South over ledge at (49, 5) to (49, 8) Eastern Highway -> walk East to Route 10 (59, 8).
