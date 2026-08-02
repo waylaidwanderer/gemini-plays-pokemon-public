@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 29316)
-- Location: Saffron Gatehouse (5, 9)
-- Active Protocol: Up 1 to (5, 8), Right 2 to (7, 8), Down 1 to (7, 9), and press A to talk to Thirsty Guard at (7, 10).
+## CURRENT STATUS & DASHBOARD (Turn 29318)
+- Location: Saffron Gatehouse Interior (5, 9)
+- Active Protocol: Walk Down 4 steps onto exit mat at (5, 13) to exit Gatehouse to Route 8 at (13, 16), then head to Burglarized House at (28, 12).
 
 <hr>
 
