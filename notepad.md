@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 30190)
-- Location: Burglarized House (2, 5)
-- Active Protocol: Standing inside Burglarized House at (2, 5). Single-step walking Right to Col 3 -> Col 7 -> Row 1 Col 6 to test Row 1 furniture boundary -> Cerulean City backyard (27, 9) -> East to Route 9 -> Route 10 -> Lavender Town -> Route 8 Underground Path -> Route 7 -> Celadon City!
+## CURRENT STATUS & DASHBOARD (Turn 30193)
+- Location: Burglarized House (3, 3)
+- Active Protocol: Standing inside Burglarized House at (3, 3). Facing North to talk to Rocket Grunt NPC at (3, 2) -> Cerulean City backyard (27, 9) -> East to Route 9 -> Route 10 -> Lavender Town -> Route 8 Underground Path -> Route 7 -> Celadon City!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
