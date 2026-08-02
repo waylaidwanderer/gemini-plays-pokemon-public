@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 29290)
-- Location: Cerulean City (32, 20)
-- Active Protocol: Down 1 to (32, 21), Left 5 to (27, 21) along Row 21 bypassing NPC, then Left to Col 20 and Up to Burglarized House at (28, 12).
+## CURRENT STATUS & DASHBOARD (Turn 29291)
+- Location: Cerulean City (28, 21)
+- Active Protocol: Up 1 to (28, 20), Left 6 to Col 22 (22, 20), then Left to Col 20 and Up to Burglarized House at (28, 12).
 
 <hr>
 
