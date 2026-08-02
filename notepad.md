@@ -503,5 +503,6 @@
 - Bike Shop Plaza Ramp: Column 17 (17, 24) -> (17, 23) is an open north-south pavement slope connecting lower Bike Shop plaza to Central Cerulean upper level (y=23 and north). Stairs at (18, 24) have a west railing blocking entry from (17, 24).
 - Column 24 Stairs Approach: Row 19 is blocked at (23, 19) by Gym corner wall. Railing on West side at (24, 18) blocks entry from (23, 18).
 - Column 24 Stairs True Bypass: From (22, 19/18), walk Down to Row 20 at (22, 20) -> East along Row 20 to (24, 20) -> North to (24, 19) -> North onto Col 24 stairs at (24, 18).
+- Northbound Street Found: Column 8 (8, 20) -> (8, 13) -> (8, 12) connects Central Cerulean to North Cerulean Row 12 street! Row 12 goes East past houses directly to Col 32 alleyway and Route 9 corridor.
 
 <hr>
