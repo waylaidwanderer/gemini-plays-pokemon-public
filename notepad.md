@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31831)
-- Location: Route 9 (33, 14)
-- Active Protocol: At (33, 14). Walking West to (29, 14) to ascend North through (29, 13) to Row 12 / Row 8 highway.
+## CURRENT STATUS & DASHBOARD (Turn 31861)
+- Location: Route 9 (10, 14)
+- Active Protocol: At (10, 14). Walking West along Row 14 towards Cerulean City East Exit (0, 8/16) to access Upper Highway without hopping ledges.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
