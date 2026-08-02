@@ -1,3 +1,3 @@
-## CURRENT STATUS & DASHBOARD (Turn 29799)
-- Location: Pokémon Fan Club in Vermilion City (1, 2)
-- Active Protocol: Walk Left 1 to (0, 2), Up 1 to (0, 1) top-left corner -> test walking East along Row 1 directly to Chairman at (3, 1).
+## CURRENT STATUS & DASHBOARD (Turn 29800)
+- Location: Pokémon Fan Club in Vermilion City (0, 1)
+- Active Protocol: Test Right 1 from (0, 1) to test if sofa tile (1, 1) is walkable to reach Chairman at (3, 1).
