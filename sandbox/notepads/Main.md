@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 29833)
-- Location: Route 5 Overworld (17, 28)
-- Active Protocol: Walk Left 2 to (15, 28), Up 13 to (15, 15) on Route 5 -> enter Cerulean City -> exchange Bike Voucher at Cerulean Bike Shop for Bicycle.
+## CURRENT STATUS & DASHBOARD (Turn 29834)
+- Location: Route 5 Overworld (15, 20)
+- Active Protocol: Walk Up 20 along Column 15 to (15, 0) -> enter Cerulean City -> exchange Bike Voucher at Cerulean Bike Shop for Bicycle.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
