@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31219)
-- Location: Route 9 (41, 12)
-- Active Protocol: At (41, 12). Down 1 to lower basin (41, 14) -> Right 10 along Row 14 lower basin to (51, 14) -> East to Route 10 (59, 8).
+## CURRENT STATUS & DASHBOARD (Turn 31220)
+- Location: Route 9 (51, 14)
+- Active Protocol: At (51, 14). Walk Left 22 to (29, 14) -> Up 2 to (29, 12) -> bypass via (23, 10) to (23, 12) -> Left to Cerulean City re-entry loop -> re-enter Route 9 top entrance (0, 8) -> ascend to Row 4 Northern Highway (5, 4) -> East to Route 10 (59, 8).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
