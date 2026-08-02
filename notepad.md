@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 30619)
-- Location: Cerulean City (22, 18)
-- Active Protocol: Walking Right 1 step along Row 18 pavement to (23, 18) to probe staircase entrance at (24, 18).
+## CURRENT STATUS & DASHBOARD (Turn 30661)
+- Location: Burglarized House (5, 13)
+- Active Protocol: Stepping Down 1 step to warp out through back door exit mat at (5, 13) to Cerulean City overworld at (30, 20).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
