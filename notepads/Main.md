@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31066)
-- Location: Route 9 (44, 15)
-- Active Protocol: Dismiss text box with B, step Up 1 to (44, 14), Right 6 steps to (50, 14), then ascend Col 52 stairway to Route 10!
+## CURRENT STATUS & DASHBOARD (Turn 31072)
+- Location: Route 9 (28, 12)
+- Active Protocol: Step Up 2 to (28, 10), Left 3 to (25, 10), then continue West along Row 10 highway to explore West Route 9.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
