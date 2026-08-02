@@ -1,3 +1,3 @@
-## CURRENT STATUS & DASHBOARD (Turn 29695)
-- Location: Route 5 / Underground Path Exterior (12, 21)
-- Active Protocol: Walk Down 1 to (12, 22) -> Left 2 to (10, 22) -> Up 1 into Underground Path doorway at (10, 21) -> walk down stairs -> traverse Underground Path to Route 6 -> Celadon City.
+## CURRENT STATUS & DASHBOARD (Turn 29701)
+- Location: Underground Path Entrance Building (4, 5)
+- Active Protocol: Walk Left 3 to (1, 5) -> Up 3 to (1, 2) -> Right 2 to (3, 2) -> Down 1 into stairs at (3, 3) to enter Underground Path tunnel -> Celadon City.
