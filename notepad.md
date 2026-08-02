@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31728)
-- Location: Route 9 (15, 15)
-- Active Protocol: Stepping UP to (15, 14), then Right 5 steps along Row 14 pavement to (20, 14) to bypass NPC at (16, 15), then continuing East to (29, 14).
+## CURRENT STATUS & DASHBOARD (Turn 31731)
+- Location: Route 9 (20, 14)
+- Active Protocol: Walking East 6 steps along Row 14 pavement from (20, 14) towards (26, 14)/(29, 14) ascent point.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
