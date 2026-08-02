@@ -1,38 +1,51 @@
 import mgba
-import time
 
-print("Starting Master Basin Doorway Probe for Underground Path...")
+print("Executing Master Route 9 Eastern Probe...")
+start = mgba.get_coordinates()
+print(f"Start pos: {start}")
 
-# Close dialogue and exit current building
-mgba.press_buttons(["B", "B", "sleep 300", "Down", "Down", "Down", "sleep 1000"])
+# 1. Return to Row 12 at (29, 12)
+print("1. Retracing to (29, 12)...")
+mgba.press_buttons(["Down"] * 3) # from (25, 2) to (25, 5)
+mgba.press_buttons(["Down"])     # to (25, 6)
+mgba.press_buttons(["Right"] * 4) # to (29, 6)
+mgba.press_buttons(["Down"] * 6) # to (29, 12)
+p1 = mgba.get_coordinates()
+print(f"At: {p1}")
 
-pos = mgba.get_coordinates()
-print(f"Position after exiting building: {pos}")
-s_out = mgba.take_screenshot()
-print(f"Outside screenshot: {s_out}")
+# 2. Walk East on Row 12 to (41, 12)
+print("2. Walking East to (41, 12)...")
+mgba.press_buttons(["Right"] * 12)
+p2 = mgba.get_coordinates()
+print(f"At: {p2}")
 
-# Now outside on Route 8.
-# Let's test walking to candidate doorway areas on Route 8 & Western Gatehouse Map!
-# Candidate 1: Col 25, Row 20 / Row 25
-# Candidate 2: Col 35, Row 19
-# Candidate 3: Col 38, Row 17
-# Candidate 4: Col 9, Row 11
-# Candidate 5: Col 11, Row 19
+# 3. Ascend Col 41 gap to Row 6 highway
+print("3. Ascending Col 41 gap to Row 6...")
+mgba.press_buttons(["Up"] * 4)
+p3 = mgba.get_coordinates()
+print(f"At: {p3}")
 
-# Step 1: Walk to Col 25 Row 20 on Lower Highway
-# From (13, 16): Right 12 to (25, 16), then Down 4 to (25, 20)
-seq_col25 = ["Right"] * 12 + ["Down"] * 4 + ["sleep 500"]
-mgba.press_buttons(seq_col25)
+# 4. Probe EAST along Row 6/8 past x=41 towards x=59
+print("4. Probing EAST along Row 6/8 past x=41...")
+for i in range(25):
+    curr = mgba.get_coordinates()
+    print(f"Checking pos: {curr}")
+    if curr['x'] >= 58:
+        print(f"*** REACHED ROUTE 10 ENTRANCE AT {curr}! ***")
+        mgba.take_screenshot()
+        break
+        
+    # Try Right
+    mgba.press_buttons(["Right"])
+    after = mgba.get_coordinates()
+    if after['x'] == curr['x']:
+        # Bushed wall going Right. Try Up/Down to bypass
+        print(f"Bumped at {curr}, trying Up...")
+        mgba.press_buttons(["Up", "Right"])
+        a_up = mgba.get_coordinates()
+        if a_up['x'] == curr['x']:
+            print(f"Bumped Up, trying Down...")
+            mgba.press_buttons(["Down", "Down", "Right"])
 
-p25 = mgba.get_coordinates()
-print(f"Position at Col 25: {p25}")
-s25 = mgba.take_screenshot()
-print(f"Col 25 screenshot: {s25}")
-
-# Try stepping Up to check for doorway at Col 25
-mgba.press_buttons(["Up", "sleep 1000"])
-p25_door = mgba.get_coordinates()
-print(f"Position after Up at Col 25: {p25_door}")
-
-s25_door = mgba.take_screenshot()
-print(f"Col 25 doorway screenshot: {s25_door}")
+final = mgba.get_coordinates()
+print(f"Final pos: {final}")
