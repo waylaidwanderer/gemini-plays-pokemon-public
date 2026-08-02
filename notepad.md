@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31938)
+## CURRENT STATUS & DASHBOARD (Turn 31939)
 - Location: Rock Tunnel B1F (21, 13)
-- Active Protocol: At (21, 13) in Rock Tunnel B1F. Running Python probe to test all adjacent paths (Up, Left, Right) from (21, 13).
+- Active Protocol: In wild Zubat battle at (21, 13). Clearing battle text and selecting RUN to return to overworld.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
