@@ -1,59 +1,38 @@
 import mgba
+import time
 
-def probe_basin():
-    print("=== MASTER BASIN PROBE STARTING ===")
-    start_pos = mgba.get_coordinates()
-    print(f"Start position: {start_pos}")
+print("Starting Master Basin Doorway Probe for Underground Path...")
 
-    found_north = []
-    found_south = []
+# Close dialogue and exit current building
+mgba.press_buttons(["B", "B", "sleep 300", "Down", "Down", "Down", "sleep 1000"])
 
-    # Current position is (28, 15)
-    # We will probe columns 28 through 39
-    for col in range(28, 40):
-        pos = mgba.get_coordinates()
-        curr_x = pos['x']
-        
-        # Navigate horizontally to target col on Row 15
-        if curr_x < col:
-            mgba.press_buttons(["Right"] * (col - curr_x))
-        elif curr_x > col:
-            mgba.press_buttons(["Left"] * (curr_x - col))
-            
-        pos = mgba.get_coordinates()
-        if pos['x'] != col or pos['y'] != 15:
-            print(f"Col {col}: Could not reach (col, 15), current pos is {pos}")
-            continue
+pos = mgba.get_coordinates()
+print(f"Position after exiting building: {pos}")
+s_out = mgba.take_screenshot()
+print(f"Outside screenshot: {s_out}")
 
-        # Probe North (Up)
-        mgba.press_buttons(["Up"]) # to (col, 14)
-        pos_after_up1 = mgba.get_coordinates()
-        
-        if pos_after_up1['y'] == 14:
-            # Try stepping Up into Row 13
-            mgba.press_buttons(["Up"])
-            pos_after_up2 = mgba.get_coordinates()
-            if pos_after_up2['y'] < 14:
-                print(f"*** NORTH GAP FOUND AT COL {col}: {pos_after_up2} ***")
-                found_north.append((col, pos_after_up2))
-                # Return to Row 15
-                mgba.press_buttons(["Down", "Down"])
-            else:
-                # Bumped at Row 13, return to Row 15
-                mgba.press_buttons(["Down"])
-        else:
-            print(f"Col {col}: Up into Row 14 blocked, pos {pos_after_up1}")
+# Now outside on Route 8.
+# Let's test walking to candidate doorway areas on Route 8 & Western Gatehouse Map!
+# Candidate 1: Col 25, Row 20 / Row 25
+# Candidate 2: Col 35, Row 19
+# Candidate 3: Col 38, Row 17
+# Candidate 4: Col 9, Row 11
+# Candidate 5: Col 11, Row 19
 
-        # Probe South (Down)
-        mgba.press_buttons(["Down"])
-        pos_after_down = mgba.get_coordinates()
-        if pos_after_down['y'] != 15 or pos_after_down['x'] != col:
-            print(f"*** SOUTH DOORWAY/WARP FOUND AT COL {col}: {pos_after_down} ***")
-            found_south.append((col, pos_after_down))
+# Step 1: Walk to Col 25 Row 20 on Lower Highway
+# From (13, 16): Right 12 to (25, 16), then Down 4 to (25, 20)
+seq_col25 = ["Right"] * 12 + ["Down"] * 4 + ["sleep 500"]
+mgba.press_buttons(seq_col25)
 
-    print("\n=== PROBE RESULTS SUMMARY ===")
-    print(f"North Gaps: {found_north}")
-    print(f"South Warps/Passages: {found_south}")
+p25 = mgba.get_coordinates()
+print(f"Position at Col 25: {p25}")
+s25 = mgba.take_screenshot()
+print(f"Col 25 screenshot: {s25}")
 
-if __name__ == "__main__":
-    probe_basin()
+# Try stepping Up to check for doorway at Col 25
+mgba.press_buttons(["Up", "sleep 1000"])
+p25_door = mgba.get_coordinates()
+print(f"Position after Up at Col 25: {p25_door}")
+
+s25_door = mgba.take_screenshot()
+print(f"Col 25 doorway screenshot: {s25_door}")
