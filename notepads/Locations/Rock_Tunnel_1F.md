@@ -1,18 +1,3 @@
-## Verified 1F Routing & Layout (Turn 17402)
-- Lavender Town Exit/Entrance is at (15,3) in Rock Tunnel 1F (connects to Lavender Town 8,18).
-- Column 37: Open North from (37,11) to Ladder 4 at (37,3) (warps to B1F 37,3) (Turn 17413).
-- Column 11: Open vertical hallway from Row 16 at (11,16) North to Row 6 at (11,6).
-- 1F (23,11) and 1F (17,11) form a 1F internal teleport loop. Avoid stepping directly on (17,11) or (23,11).
-- Rows 14-15 are solid rock wall across Cols 18-26. Row 13 is open across Cols 11-23 to bypass.
-- OBSTACLES:
-  - Cols 12-13: Rock pillar across Rows 2-13.
-  - Cols 6-7: Rock pillar across Rows 2-10 (Col 6 blocked at Row 10). Row 11 is open West from Col 17 to Col 2 (Turn 17572).
-  - Cols 18-19: Rock pillar across Rows 10-15.
-  - Rows 14-15: Solid rock across Cols 18-26.
-  - Rows 22-23: Solid rock across Cols 0-23.
-- Row 3 is blocked West of Col 34 by rock wall at (33,3). Col 37 connects (37,3) South to (37,11) (Turn 17468).
-- Ladder 3 at B1F (17,11) warps to 1F (23,11) in the Central Cavern of 1F (Turn 17514).
-- Cols 0-1 are rock wall. (2,21) is an alcove blocked South at (2,22). Row 14 is open East from Col 2 to Col 17 (Turn 17518).
-- Row 16 is solid rock wall across Cols 0-10. Row 11 is open East from Col 2 to Col 17 into Central Cavern (Turn 17524).
-
-- Central Cavern (23,11) layout: Cols 20-23 Rows 8-9 form a rock pillar. Bypass via West along Row 10 to (19,10), Up to (19,6) (Turn 17543).
+## Rock Tunnel 1F Topography & Coordinates
+- Route 10 Entrance: (15, 3)
+- Dark Cave Environment: Empirical testing required for all corridors and walls.
