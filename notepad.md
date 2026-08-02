@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 29825)
-- Location: Route 6 Overworld (17, 28)
-- Active Protocol: Walk North 14 along Column 17 to (17, 14), Up 1 into Underground Path Entrance Building at (17, 13) -> enter Underground Path -> exit to Route 5 -> Cerulean Bike Shop.
+## CURRENT STATUS & DASHBOARD (Turn 29826)
+- Location: Route 6 Overworld (17, 20)
+- Active Protocol: Walk Up 7 along Column 17 to enter Underground Path Entrance Building doorway at (17, 13) -> enter Underground Path -> exit to Route 5 -> Cerulean Bike Shop for Bicycle.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
