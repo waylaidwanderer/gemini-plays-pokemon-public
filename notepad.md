@@ -498,6 +498,6 @@
 - Row 28 Bushes: Bushes run continuously from Col 18 (18, 28) to Col 35 (35, 28).
 - Col 17 Opening: Row 28 is open pavement at (16, 28) and (17, 28).
 - Row 29 Grass Highway: Row 29 is open checkered grass from Col 19 (19, 29) all the way East to Col 35 (35, 29) gap.
-- Bike Shop Plaza Staircase: Stairs tile is at (18, 24). Entered from the WEST at (17, 24) walking Right. Row 25 (18, 25) is a building wall with windows.
+- Bike Shop Plaza Ramp: Column 17 (17, 24) -> (17, 23) is an open north-south pavement slope connecting lower Bike Shop plaza to Central Cerulean upper level (y=23 and north). Stairs at (18, 24) have a west railing blocking entry from (17, 24).
 
 <hr>
