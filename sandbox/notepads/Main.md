@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31130)
-- Location: Route 9 (41, 6)
-- Active Protocol: Walk Down to (41, 14), Right to (46, 14), Up along Col 46 to (46, 8) East Northern Highway, then walk East straight into Route 10!
+## CURRENT STATUS & DASHBOARD (Turn 31132)
+- Location: Route 9 (53, 14)
+- Active Protocol: Walk West to (29, 14) -> Up to (29, 12) -> West to (28, 12) -> Up to (28, 10) -> West to (20, 10) -> Down to (20, 12) -> West to (12, 12) -> Up to (12, 8) -> West to (9, 8) to explore North branching paths!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
