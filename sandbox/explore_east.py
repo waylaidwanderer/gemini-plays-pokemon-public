@@ -9,14 +9,14 @@ def move(buttons):
     return pos
 
 pos = mgba.get_coordinates()
-print("Starting exploration from:", pos)
+print("Starting slide test from:", pos)
 
-if pos['x'] == 8 and pos['y'] == 11:
-    # Walk to (10, 14)
+if pos['x'] == 10 and pos['y'] == 14:
+    # Walk Right onto (11, 14) DOWN spinner
+    print("Stepping onto (11, 14) DOWN spinner...")
     pos = move(["Right"])
-    pos = move(["Right"])
-    pos = move(["Down"])
-    pos = move(["Down"])
-    pos = move(["Down"])
+    time.sleep(4.0)
+    pos = mgba.get_coordinates()
+    print("Position after slide from (11, 14):", pos)
 
 mgba.take_screenshot()
