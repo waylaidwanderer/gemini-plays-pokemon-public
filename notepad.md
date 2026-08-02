@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31741)
-- Location: Route 9 (10, 12)
-- Active Protocol: At (10, 12). Exploring Western Sector (x=0 to x=10) and testing passage West towards Cut Tree area at (5, 8).
+## CURRENT STATUS & DASHBOARD (Turn 31771)
+- Location: Route 9 (46, 14)
+- Active Protocol: At (46, 14). Testing passage East along Row 14/15 towards Route 10 boundary (x=50-59).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
