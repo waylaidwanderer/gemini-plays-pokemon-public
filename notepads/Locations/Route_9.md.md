@@ -14,13 +14,11 @@
 - Route 12 Rock Barrier: Rock wall at (42, 12) blocks direct Eastward passage on Row 12. Gap at (41, 8/12) connects Row 12 UP to Row 6/8 highway.
 - Route 9 Topography Analysis: Row 5 & Row 13 are south-facing ledges. Row 6/7 (x=30-45) dead-ends against rock wall at x=46. Retracing West along Row 14 lower basin to test West entrance connections to Upper Highway.
 
-### Route 9 Master Topography & Complete Solution
-- Ledge Layering: Route 9 has 3 south-facing ledges running East-West:
-  1. Row 5 Ledge (above Row 6)
-  2. Row 11 Ledge (above Row 12)
-  3. Row 13 Ledge (above Row 14)
-- Macro Loop Trap Explained: Hopping down ledges forces the player into lower corridors (Row 6, Row 12, Row 14). Row 14 dead-ends at x=54. Row 6 dead-ends at x=45.
-- Complete Path to Route 10 Entrance (59, 8):
-  1. From current position (35, 12), walk WEST along Row 12 all the way to (19, 12) / (17, 12).
-  2. At x=17/18/19, walk NORTH up the Western Slope to Row 2 / Row 3 / Row 0 (Northern Upper Layer).
-  3. Walk EAST along the Northern Upper Layer (Rows 0-3) past x=26, x=35, x=45 to reach Route 10 entrance at (59, 8)!
+### Route 9 Topography Analysis
+- Ledge Layering: Route 9 has 3 south-facing ledges running East-West (Row 5, Row 11, Row 13).
+- Tested Boundaries:
+  - Row 14 lower basin: x=28 to x=53 (wall at 27, 14 and 54, 14).
+  - Row 12 middle highway: x=19 to x=41 (wall at 42, 12).
+  - Row 6 upper highway: dead-ends at x=45 (wall at 46, 6).
+  - Wall at (19, 10) blocks Row 10 pavement going West at x=19.
+- Systematic Grid Sweep Strategy: Probe every reachable tile on Route 9 to find any unvisited or overlooked open gap connecting across the map.
