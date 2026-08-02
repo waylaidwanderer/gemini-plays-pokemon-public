@@ -513,5 +513,6 @@
 - Row 28 Bushes: Bushes run continuously from Col 18 (18, 28) to Col 35 (35, 28).
 - Col 17 Opening: Row 28 is open pavement at (16, 28) and (17, 28).
 - Row 29 Grass Highway: Row 29 is open checkered grass from Col 19 (19, 29) all the way East to Col 35 (35, 29) gap.
+- Route 9 East Exit Found: Col 38 rock wall ends at Row 31! Row 32 is a wide open grass highway running East from (37, 32) past (38, 32) to (43, 32) directly into Route 9!
 
 <hr>
