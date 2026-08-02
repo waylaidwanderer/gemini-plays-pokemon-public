@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 30306)
-- Location: Cerulean City (30, 20)
-- Active Protocol: Riding South through Cerulean City along Column 19 to exit to Route 5 at (19, 32).
+## CURRENT STATUS & DASHBOARD (Turn 30331)
+- Location: Cerulean City (19, 27)
+- Active Protocol: Standing at (19, 27) facing Cuttable tree at (19, 28). Using CUT via SPROUT in Pokémon menu to clear tree and ride South onto Route 5.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
