@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 30560)
-- Location: Cerulean City (30, 20)
-- Active Protocol: Walking West along Row 20 pavement to (22, 20), Up 2 to (22, 18), Right 2 onto Route 24 stairs (24, 18), Up 7 to (24, 11) to bypass ledges and proceed East to Route 9 at (43, 16).
+## CURRENT STATUS & DASHBOARD (Turn 30564)
+- Location: Burglarized House (4, 13)
+- Active Protocol: Walking to (5, 2) inside house, talking to homeowner NPC at (4, 2) to finish dialogue, then stepping Left/Up through front exit door (4, 1) into North Cerulean (27, 9).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
