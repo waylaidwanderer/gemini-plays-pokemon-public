@@ -19,3 +19,7 @@
 - Access to Row 9 Highway:
   1. From (10, 12), walk East along Row 12 to (29, 12).
   2. Step UP 3 steps through (29, 11)/(29, 10) to (29, 9) Row 9 Pavement Highway.
+
+### Verified Lower Basin Exit Point
+- Exit from Lower Basin (Row 14): At (29, 14), stepping UP moves to (29, 13), and stepping UP again reaches Row 12 (29, 12) Middle Highway.
+- Verified by automated probe script on Turn 31785.
