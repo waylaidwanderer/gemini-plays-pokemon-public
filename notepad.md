@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 29046)
-- Location: Western Gatehouse Map (36, 20) Gatehouse Entrance Sector
-- Active Protocol: At (36, 20) -> Up 1 to (36, 19) -> Left 2 to (34, 19) -> Down 1 into building doorway at (34, 20).
+## CURRENT STATUS & DASHBOARD (Turn 29052)
+- Location: Western Gatehouse Map (33, 20) Gatehouse Entrance Sector
+- Active Protocol: At (33, 20) -> Left 1 to (32, 20) -> Up 1 to (32, 19) -> Left 2 into building doorway at (30, 19).
 
 <hr>
 
