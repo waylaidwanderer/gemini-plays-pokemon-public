@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31134)
-- Location: Route 9 (31, 14)
-- Active Protocol: Walk Left 2 to (29, 14), Up 2 through gap to (29, 12), Left 10 to (19, 12) on Row 12.
+## CURRENT STATUS & DASHBOARD (Turn 31136)
+- Location: Route 9 (28, 12)
+- Active Protocol: Step Up 2 to (28, 10), Left 8 along Row 10 highway to (20, 10), then Down 2 to Row 12 (20, 12) and Left 8 to (12, 12).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
