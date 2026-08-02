@@ -14,10 +14,9 @@
 - Route 12 Rock Barrier: Rock wall at (42, 12) blocks direct Eastward passage on Row 12. Gap at (41, 8/12) connects Row 12 UP to Row 6/8 highway.
 - Route 9 Topography Analysis: Row 5 & Row 13 are south-facing ledges. Row 6/7 (x=30-45) dead-ends against rock wall at x=46. Retracing West along Row 14 lower basin to test West entrance connections to Upper Highway.
 
-### Route 9 Topography Analysis
-- Ledge Layering: Route 9 has 3 south-facing ledges running East-West (Row 5, Row 11, Row 13).
-- Tested Boundaries:
-  - Row 14 lower basin: x=28 to x=53 (wall at 27, 14 and 54, 14).
-  - Row 12 middle highway: x=19 to x=41 (wall at 42, 12).
-  - Row 6 upper highway: dead-ends at x=45 (wall at 46, 6).
-  - Wall at (19, 10) blocks Row 10 pavement going West at x=19.
+### Route 9 Master Topography & Complete Solution
+- Row 9 Pavement Highway: Row 9 is the primary continuous East-West highway across Route 9.
+- Access to Row 9 Highway:
+  1. From (10, 12), walk East along Row 12 to (29, 12).
+  2. Step UP 3 steps through (29, 11)/(29, 10) to (29, 9) Row 9 Pavement Highway.
+  3. Walk EAST along Row 9 Pavement Highway past x=30, x=35, x=40, x=50 to reach Route 10 entrance at (59, 9)!
