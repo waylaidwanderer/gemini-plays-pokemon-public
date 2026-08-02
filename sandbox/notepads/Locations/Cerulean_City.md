@@ -1,8 +1,8 @@
 ## Verified Cerulean City Topology & Boundaries (Turn 30620)
 
 ### Route 9 East Exit Corridor
-- Row 20 South Highway: Row 20 pavement extends continuously from West (Col 13) past Pokemon Center (Col 19), Gym (Col 27), Burglarized House back (Col 30) all the way East to Route 9 boundary at Col 43.
-- Row 20 is SOUTH of the Row 19 ledges, providing an unobstructed overworld highway across Cerulean City to Route 9 at (43,16)/(43,20).
+- Column 35 Fence: Row 20/21 is blocked at Col 35 by a solid vertical fence.
+- True Route 9 Passage: From North Cerulean (y=8), walk East along Row 8 past Burglarized House to (32, 8) -> South along Col 32 alley to (32, 18) -> East along Row 18 to (37, 18) -> Hop South over Row 19 ledge to (37, 20) -> East to Route 9 at (43, 16)/(43, 20).
 
 ### Key Obstacles & Boundaries
 - Burglarized House: Row 2 internally blocked by static homeowner NPC at (4,2). Cannot be crossed internally.
