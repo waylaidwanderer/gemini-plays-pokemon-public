@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31801)
-- Location: Route 9 (23, 6)
-- Active Protocol: At (23, 6). Navigating North along Col 22/23 to Row 2/3/4 Upper Highway to cross Route 9 East.
+## CURRENT STATUS & DASHBOARD (Turn 31831)
+- Location: Route 9 (33, 14)
+- Active Protocol: At (33, 14). Walking West to (29, 14) to ascend North through (29, 13) to Row 12 / Row 8 highway.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
