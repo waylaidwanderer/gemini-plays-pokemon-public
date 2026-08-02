@@ -145,7 +145,6 @@
 5. Walk East continuously along Row 4/3/2 Top Highway to Route 10 Entrance at (59, 2/3/4).
 - West Basin Bound: Solid rock wall at x=9 (y=10..18). Row 14 lower basin begins at x=10.
 - Basin Exit Ledge Gap Verified: (19, 14) -> UP 2 steps through (19, 13) gap to (19, 12) Middle Highway grass!
-- Top Highway Ascent Gap Verified: (33, 7) -> UP 3 steps through Col 33 gap to (33, 4) Top Highway grass!
 
 <hr>
 
