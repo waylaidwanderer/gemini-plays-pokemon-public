@@ -1,3 +1,3 @@
-## CURRENT STATUS & DASHBOARD (Turn 29747)
-- Location: Underground Path Tunnel (5, 37)
-- Active Protocol: Walk Down 4 to (5, 41), Left 3 onto staircase at (2, 41) -> warp to Route 6 Entrance Building -> exit South to Route 6 -> proceed to Celadon City.
+## CURRENT STATUS & DASHBOARD (Turn 29748)
+- Location: Route 6 Underground Path Entrance Building (4, 4)
+- Active Protocol: Walk Down 3 to (4, 7) exit mat -> exit to Route 6 overworld -> proceed to Celadon City.
