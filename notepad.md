@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31734)
-- Location: Route 9 (20, 14)
-- Active Protocol: Stepping Left to (19, 14), then UP 2 steps through (19, 13) open gap to Row 12 Middle Highway at (19, 12), then heading West to Western Sector (x=0-10).
+## CURRENT STATUS & DASHBOARD (Turn 31737)
+- Location: Route 9 (19, 12)
+- Active Protocol: Ascended to Row 12 Middle Highway at (19, 12). Walking West 9 steps along Row 12 to (10, 12) to reach Western Sector (x=0-10) and explore the western entrance / Cut Tree area at (5, 8).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
