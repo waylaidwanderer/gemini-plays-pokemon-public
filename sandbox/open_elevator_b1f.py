@@ -16,6 +16,8 @@ if pos['x'] == 20 and pos['y'] == 11:
     print("Walking Up to Row 7 on B3F...")
     pos = move(["Up"])
     pos = move(["Up"])
+    pos = move(["Up"])
+    pos = move(["Up"])
     
     print("Walking Right to Column 25...")
     for _ in range(5):
