@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 29911)
-- Location: Cerulean City Overworld (20, 26)
-- Active Protocol: Riding Bicycle! Navigating Cerulean City to Route 9 -> Route 10 -> Lavender Town -> Route 8 Underground Path -> Route 7 -> Celadon City!
+## CURRENT STATUS & DASHBOARD (Turn 29941)
+- Location: Cerulean City Overworld (34, 20)
+- Active Protocol: Riding Bicycle! Navigating via South Cerulean Row 30 Pavement Highway to Column 36 highway to Route 9 -> Route 10 -> Lavender Town -> Route 8 Underground Path -> Route 7 -> Celadon City!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
