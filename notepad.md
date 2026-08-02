@@ -542,8 +542,11 @@
   1. From (10, 12), walk East along Row 12 to (29, 12).
   2. Step UP 3 steps through (29, 11)/(29, 10) to (29, 9) Row 9 Pavement Highway.
 
-### Verified Lower Basin Exit Point
-- Exit from Lower Basin (Row 14): At (29, 14), stepping UP moves to (29, 13), and stepping UP again reaches Row 12 (29, 12) Middle Highway.
-- Verified by automated probe script on Turn 31785.
+### Verified Master Route to Route 10
+1. Retrace West along Row 14 from (23, 14) through (10, 14) to Cerulean City East Exit / Route 9 Entrance at (0, 8/16).
+2. Re-enter Route 9 at (0, 8) on Middle/Upper Highway tier.
+3. Cut tree at (5, 8) and walk East along Row 11/12 across Columns 24-27 to (29, 11).
+4. At (29, 11), step UP to (29, 10), walk West to (25, 10), ascend North along Col 25/23 to Row 4 Top Highway.
+5. Walk East continuously along Row 4/3/2 Top Highway to Route 10 Entrance at (59, 2/3/4).
 
 <hr>
