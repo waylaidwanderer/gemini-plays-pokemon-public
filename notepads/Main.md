@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31111)
-- Location: Route 9 (41, 12)
-- Active Protocol: Step Up 4 to (41, 8) on Row 8 highway, then inspect North/East passage to Route 10!
+## CURRENT STATUS & DASHBOARD (Turn 31113)
+- Location: Route 9 (41, 8)
+- Active Protocol: Step Up 2 to (41, 6) on Row 6 Northern highway, then walk East straight into Route 10!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
