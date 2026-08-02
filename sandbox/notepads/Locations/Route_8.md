@@ -82,3 +82,7 @@
 - EMPIRICAL PROBE RESULT (Turn 28767): Row 5 at Column 50 (50, 5) is a solid south-facing ledge wall blocking northbound movement from Row 6.
 - EMPIRICAL PROBE RESULT (Turn 28771): Row 5 at Column 51 (51, 5) is a solid south-facing ledge wall blocking northbound movement from Row 6.
 - EMPIRICAL MAP BOUNDARY PROOF (Turn 28783): Column 60 on Route 8 is the eastern map transition boundary that warps player back to Lavender Town at (0, 9). Playable Route 8 grid spans Columns 0 to 59.
+### Master Verified Gatehouse Doorway Entrance (Turn 29060)
+- Western Gatehouse Map (39, 16) connects West to Gatehouse Sector.
+- Gatehouse Building Doorway is located at (30, 19).
+- Master Entry Route from (32, 20): Down 1 to (32, 21) -> Left 2 to (30, 21) -> Up 2 into building doorway at (30, 19)!
