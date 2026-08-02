@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 30541)
-- Location: Burglarized House (7, 5)
-- Active Protocol: Traversing Burglarized House via Row 1 corridor to front exit door at (4, 1) into North Cerulean City and proceed East along Row 9 to Route 9 at (43, 16).
+## CURRENT STATUS & DASHBOARD (Turn 30546)
+- Location: Burglarized House (5, 13)
+- Active Protocol: Stepping Down off back mat (5, 13) into Cerulean City (30, 20), then proceeding East along overworld corridor to Route 9 at (43, 16).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
