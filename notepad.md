@@ -537,7 +537,7 @@
 - Route 9 Topography Analysis: Row 5 & Row 13 are south-facing ledges. Row 6/7 (x=30-45) dead-ends against rock wall at x=46. Retracing West along Row 14 lower basin to test West entrance connections to Upper Highway.
 
 ### Route 9 Master Topography & Complete Solution
-- Row 9 Pavement Highway: Row 9 is the primary continuous East-West highway across Route 9.
+
 - Access to Row 9 Highway:
   1. From (10, 12), walk East along Row 12 to (29, 12).
   2. Step UP 3 steps through (29, 11)/(29, 10) to (29, 9) Row 9 Pavement Highway.
