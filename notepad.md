@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 30582)
-- Location: Cerulean City (22, 18)
-- Active Protocol: Walking Left along Row 18 pavement to (18, 18), then North along Column 18 corridor past Pokemon Center to North Cerulean City and Route 9 at (43, 16).
+## CURRENT STATUS & DASHBOARD (Turn 30583)
+- Location: Cerulean City (21, 18)
+- Active Protocol: Walking Left to (17, 18), then North along Column 17 stairs (17, 15) to North Cerulean City and Route 9 at (43, 16).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
