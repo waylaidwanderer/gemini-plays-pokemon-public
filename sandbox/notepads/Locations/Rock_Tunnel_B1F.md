@@ -6,3 +6,4 @@
 - Rock Wall Protrusion at x=32..33 (y=3..7). Bypass via Row 2 (x=31..36).
 - East Pocket (x=24..31, y=4..7): Dead-end. Return West to x=20..23 and head South down Row 8..15.
 - Southbound Corridor Verified: (21, 8) -> (21, 13) open cave floor along Row 8..15.
+- Row 13 Corridor Eastbound: (21, 13) -> (22, 13) open floor.
