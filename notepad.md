@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31078)
+## CURRENT STATUS & DASHBOARD (Turn 31081)
 - Location: Route 9 (46, 15)
-- Active Protocol: Step Up 4 to (46, 11) along Col 46 stairway, then inspect upper Route 9 passage.
+- Active Protocol: Walk West to (29, 14) -> ascend gap to (29, 12) -> walk West to (9, 8) to explore unvisited western branching paths on Route 9!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
