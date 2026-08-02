@@ -9,54 +9,53 @@ def move(buttons):
     return pos
 
 pos = mgba.get_coordinates()
-print(f"Starting test_left_room_cut from {pos}")
+print(f"Starting step-by-step cut from {pos}")
 
 if pos['x'] == 2 and pos['y'] == 7:
-    # Face Down (looking at the cuttable bush at (2, 8))
-    print("Turning Down...")
+    # Face Down
     mgba.press_buttons(['Down'])
-    time.sleep(0.3)
+    time.sleep(0.5)
     
     # Open START menu
-    print("Opening START menu...")
     mgba.press_buttons(['Start'])
-    time.sleep(0.5)
+    time.sleep(1.0)
     
-    # Reset cursor to POKÉDEX at the top (Up 7 times)
-    print("Resetting cursor to top...")
+    # Reset cursor
     for _ in range(7):
         mgba.press_buttons(['Up'])
-        time.sleep(0.1)
+        time.sleep(0.2)
         
-    # Move Down 1 time to POKÉMON
-    print("Selecting POKÉMON...")
+    # Select POKÉMON
     mgba.press_buttons(['Down'])
-    time.sleep(0.2)
-    mgba.press_buttons(['A'])
-    time.sleep(0.5)
-    
-    # Move Down 1 time to select TRUFFLE (the 2nd Pokémon)
-    print("Selecting TRUFFLE...")
-    mgba.press_buttons(['Down'])
-    time.sleep(0.2)
-    mgba.press_buttons(['A'])
-    time.sleep(0.5)
-    
-    # Move Down 1 time to select CUT (the 2nd option, after DIG)
-    print("Selecting CUT...")
-    mgba.press_buttons(['Down'])
-    time.sleep(0.2)
+    time.sleep(0.3)
     mgba.press_buttons(['A'])
     time.sleep(1.0)
     
-    # Close any open dialogs/menus (Press B 3 times)
-    print("Closing menus...")
-    for _ in range(3):
-        mgba.press_buttons(['B'])
-        time.sleep(0.3)
-        
-    # Walk Down onto (2, 8)
-    print("Trying to walk Down onto (2, 8)...")
+    # Select TRUFFLE (Down once, then A)
+    mgba.press_buttons(['Down'])
+    time.sleep(0.3)
+    mgba.press_buttons(['A'])
+    time.sleep(1.0)
+    
+    # Select CUT (Down once, then A)
+    mgba.press_buttons(['Down'])
+    time.sleep(0.3)
+    mgba.press_buttons(['A'])
+    
+    # Wait for the overworld to load, the animation to play, and text to appear
+    print("Waiting for CUT execution...")
+    time.sleep(4.0)
+    
+    # Take screenshot of the text box
+    mgba.take_screenshot()
+    
+    # Press B to dismiss any dialog
+    print("Dismissing text...")
+    mgba.press_buttons(['B'])
+    time.sleep(1.0)
+    
+    # Try to walk Down
+    print("Trying to walk Down...")
     pos = move(['Down'])
 
 mgba.take_screenshot()
