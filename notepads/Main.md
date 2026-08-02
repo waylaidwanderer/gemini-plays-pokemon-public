@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31861)
-- Location: Route 9 (10, 14)
-- Active Protocol: At (10, 14). Walking West along Row 14 towards Cerulean City East Exit (0, 8/16) to access Upper Highway without hopping ledges.
+## CURRENT STATUS & DASHBOARD (Turn 31891)
+- Location: Route 9 (33, 6)
+- Active Protocol: At (33, 6) on Row 6 pavement. Testing Row 6/7 highway extensions and upper gaps using sandboxed Python script.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
