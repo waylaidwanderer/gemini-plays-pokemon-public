@@ -4,13 +4,31 @@ print("=== ROCK TUNNEL B1F EAST-SOUTH EXIT PROBE ===")
 start = mgba.get_coordinates()
 print(f"Start pos: {start}")
 
-for target_x in range(21, 32):
+# 1. Up to y=5
+while start['y'] > 5:
+    mgba.press_buttons(["Up"])
+    start = mgba.get_coordinates()
+    print(f"Up step -> {start}")
+
+# 2. Right to x=31 along Row 5
+while start['x'] < 31:
+    mgba.press_buttons(["Right"])
+    start = mgba.get_coordinates()
+    print(f"Right step -> {start}")
+
+# 3. Down to y=7 at x=31
+while start['y'] < 7:
+    mgba.press_buttons(["Down"])
+    start = mgba.get_coordinates()
+    print(f"Down step -> {start}")
+
+# 4. Probe DOWN at x=31, 30, 29, 28, 27, 26, 25, 24
+for target_x in range(31, 23, -1):
     curr = mgba.get_coordinates()
-    while curr['x'] < target_x:
-        mgba.press_buttons(["Right"])
+    while curr['x'] > target_x:
+        mgba.press_buttons(["Left"])
         curr = mgba.get_coordinates()
-        
-    print(f"Testing at ({curr['x']}, {curr['y']})...")
+    print(f"At ({curr['x']}, {curr['y']})...")
     
     mgba.press_buttons(["Down"])
     p_down = mgba.get_coordinates()
