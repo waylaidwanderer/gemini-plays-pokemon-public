@@ -10,10 +10,9 @@ def move(buttons):
 pos = mgba.get_coordinates()
 print(f"Starting at: {pos}")
 
-# Currently at (24, 15) on B1F
-# 1. Walk Right to Column 28 (4 steps Right)
-for _ in range(4):
-    pos = move(["Right"])
+# Current position is (27, 15) on B1F
+# 1. Walk Right to Column 28 (1 step Right)
+pos = move(["Right"])
 
 # 2. Walk Up Column 28 to Row 5 (10 steps Up)
 for _ in range(10):
@@ -35,10 +34,13 @@ for _ in range(3):
 for _ in range(4):
     pos = move(["Down"])
 
-# 7. Try walking Down to see if we can go further!
+# 7. Walk Down Column 14 as far as possible (to Row 25 or until blocked)
 print("Testing walking Down from (14, 14)...")
-for _ in range(10):
+for i in range(14, 26):
     pos = move(["Down"])
+    if pos['y'] != i + 1:
+        print(f"Blocked at {pos} during Down movement in the west")
+        break
 
 print("Final position after western corridor test:", mgba.get_coordinates())
 mgba.take_screenshot()
