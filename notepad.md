@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 29300)
+## CURRENT STATUS & DASHBOARD (Turn 29301)
 - Location: Cerulean City (12, 16)
-- Active Protocol: Walk Up 4 along Col 12 to Row 12 (12, 12), then Right 16 along Row 12 to Burglarized House at (28, 12).
+- Active Protocol: Executing probe_house_exits.py to enter building (13, 15) and probe for north back-door exits to North Cerulean.
 
 <hr>
 
