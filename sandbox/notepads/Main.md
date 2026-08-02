@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 29839)
-- Location: Cerulean City Overworld (20, 29)
-- Active Protocol: Walk Left 3 to (17, 29), Up 4 to (17, 25) in front of Bike Shop -> enter Bike Shop -> exchange BIKE VOUCHER for BICYCLE -> proceed to Celadon City.
+## CURRENT STATUS & DASHBOARD (Turn 29840)
+- Location: Cerulean City Overworld (19, 29)
+- Active Protocol: Walk Down 1 to Row 30 highway (19, 30), Left 8 to Column 11 (11, 30), North to Bike Shop doorway at (11, 25)/(13, 25) -> enter Bike Shop -> exchange BIKE VOUCHER for BICYCLE.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
