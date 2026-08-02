@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31117)
-- Location: Route 9 (45, 6)
-- Active Protocol: Walk Down to (45, 14), Right to (46, 14) stairway, and test directions to reach Route 10!
+## CURRENT STATUS & DASHBOARD (Turn 31119)
+- Location: Route 9 (45, 7)
+- Active Protocol: Step Down 6 to (45, 14), Right 1 to (46, 14), then Up 2 to (46, 12) to test Col 46 stairway!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
