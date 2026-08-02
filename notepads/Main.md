@@ -1,3 +1,3 @@
-## CURRENT STATUS & DASHBOARD (Turn 29254)
-- Location: Route 4 (86, 10)
-- Active Protocol: Walk Right 3 steps to enter Cerulean City at (0, 19).
+## CURRENT STATUS & DASHBOARD (Turn 29257)
+- Location: Cerulean City (0, 18)
+- Active Protocol: Walk Right 9 steps along Row 18 to (9, 18) heading toward South exit to Route 5.
