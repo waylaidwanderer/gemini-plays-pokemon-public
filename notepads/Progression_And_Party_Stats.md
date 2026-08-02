@@ -59,3 +59,4 @@
 - **Super Potion:** 5
 - **Escape Rope:** 1
 - **TM07 (Horn Drill):** 1
+- **Lift Key:** 1 (Obtained on Turn 15797 on B4F)
