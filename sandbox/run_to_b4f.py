@@ -10,12 +10,15 @@ def move(buttons):
 pos = mgba.get_coordinates()
 print(f"Starting at: {pos}")
 
-# We are at B3F (16, 13)
-# 1. Walk Right and Up to (17, 11) LEFT spinner -> slides us to (2, 9)
+# We are at B3F (17, 13)
+# 1. Walk to (17, 11) LEFT spinner via Column 19
 print("Walking to (17, 11) LEFT spinner...")
 pos = move(["Right"])
+pos = move(["Right"]) # to (19, 13)
 pos = move(["Up"])
-pos = move(["Up"])
+pos = move(["Up"]) # to (19, 11)
+pos = move(["Left"])
+pos = move(["Left"]) # onto (17, 11) LEFT spinner -> slides us to (2, 9)
 time.sleep(3.0)
 
 pos = mgba.get_coordinates()
@@ -34,7 +37,7 @@ if pos['x'] == 2 and pos['y'] == 9:
 pos = mgba.get_coordinates()
 print(f"Position at (9, 16) stopper: {pos}")
 
-# 3. Walk Right 2 steps onto (11, 16) RIGHT spinner -> slides to (15, 18)
+# 3. Walk Right 2 steps onto (11, 16) RIGHT spinner -> slides us to (15, 18)
 if pos['x'] == 9 and pos['y'] == 16:
     print("Walking to (11, 16) RIGHT spinner...")
     pos = move(["Right"])
