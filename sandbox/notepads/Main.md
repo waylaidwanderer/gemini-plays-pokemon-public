@@ -1,3 +1,3 @@
-## CURRENT STATUS & DASHBOARD (Turn 29306)
-- Location: Cerulean City (6, 23)
-- Active Protocol: Walk Up 3 to Row 20 (6, 20), Right 3 to (9, 20), then continue Right on Row 20 toward Col 20/28 and Burglarized House at (28, 12).
+## CURRENT STATUS & DASHBOARD (Turn 29307)
+- Location: Cerulean City (9, 20)
+- Active Protocol: Walk Right 6 to (15, 20) along Row 20 highway, then Right 5 to Col 20 (20, 20) toward Burglarized House at (28, 12).
