@@ -15,7 +15,7 @@
 ### Complete Verified Route 9 Highway Topology (Turn 31385)
 - Row 14 (Lower Basin, Level 1): Extends x=19 to x=53. Dead-ends at x=54 against solid rock wall. Exit to the West at (19, 14).
 - Row 12 (Middle Highway, Level 2): Extends x=19 to x=41. Dead-ends at x=42 against solid rock wall.
-- Row 6/7/8 (Upper Highway, Level 3): Main continuous highway running East all the way to Route 10 entrance at (59, 8).
+- Row 6/7/8 (Upper Highway, Level 3): Upper highway accessible via (29, 9) gap.
 - Key Ascent Point: (29, 9) gap connects Row 12 / Row 10 UP to Row 8 (Upper Highway).
 - Correct Path to Route 10:
   1. From lower basin (52, 14), walk West along Row 14 to (19, 14).
