@@ -1,5 +1,5 @@
-## CURRENT STATUS & DASHBOARD (Turn 30583)
-- Location: Cerulean City (21, 18)
+## CURRENT STATUS & DASHBOARD (Turn 30584)
+- Location: Cerulean City (20, 18)
 - Active Protocol: Walking Left to (17, 18), then North along Column 17 stairs (17, 15) to North Cerulean City and Route 9 at (43, 16).
 
 ## KEY ITEMS & INVENTORY
