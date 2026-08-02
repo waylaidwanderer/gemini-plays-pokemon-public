@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31959)
-- Location: Rock Tunnel 1F (17, 7)
-- Active Protocol: At (17, 7) in Rock Tunnel 1F. Walking Up 1, Left 7 to (10, 6), Down 5 to (10, 11), and Right 7 to (17, 11) ladder to descend to Rock Tunnel B1F.
+## CURRENT STATUS & DASHBOARD (Turn 31960)
+- Location: Rock Tunnel B1F (21, 7)
+- Active Protocol: In wild Machop battle at (21, 7) in Rock Tunnel B1F. Clearing battle text and selecting RUN to return to overworld.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
