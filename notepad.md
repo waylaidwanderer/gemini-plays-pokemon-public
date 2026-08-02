@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 29669)
-- Location: Cerulean City (17, 28)
-- Active Protocol: Walk Up 1 to (17, 27), Right 2 to (19, 27) facing Cuttable Tree at (19, 28) -> Use CUT on (19, 28) -> walk Down through (19, 28) to Row 32 Route 5 map transition.
+## CURRENT STATUS & DASHBOARD (Turn 29695)
+- Location: Route 5 / Underground Path Exterior (12, 21)
+- Active Protocol: Walk Down 1 to (12, 22) -> Left 2 to (10, 22) -> Up 1 into Underground Path doorway at (10, 21) -> walk down stairs -> traverse Underground Path to Route 6 -> Celadon City.
 
 <hr>
 
