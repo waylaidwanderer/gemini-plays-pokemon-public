@@ -139,7 +139,7 @@
   2. Step UP at (19, 14) to (19, 13) -> (19, 12) (Middle Highway).
   3. Walk East along Row 12 to (29, 12).
   4. Step UP through (29, 10) / (29, 9) to (29, 8) (Upper Highway).
-  5. Walk East along Row 8 / Row 6 to Route 10 entrance at (59, 8).
+  5. Cross East along Upper Highway towards Route 10 entrance at (59, 8).
 
 <hr>
 
