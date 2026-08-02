@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31916)
-- Location: Route 10 (9, 23)
-- Active Protocol: At (9, 23) on Route 10. Stepping Right 1 to (10, 23), Down 3 to Row 26, then Left 5 along Row 26 open corridor to (5, 26) to bypass tree maze.
+## CURRENT STATUS & DASHBOARD (Turn 31917)
+- Location: Route 10 (5, 26)
+- Active Protocol: At (5, 26) on Route 10. Walking Left 3 to (2, 26) and UP 8 to (2, 18) to bypass bollards and reach Row 18 corridor to Rock Tunnel 1F Entrance.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
