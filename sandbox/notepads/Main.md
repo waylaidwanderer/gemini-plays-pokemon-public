@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 30153)
-- Location: Cerulean City (0, 18)
-- Active Protocol: Riding Bicycle! Standing at Cerulean City (0, 18). Walking East along Row 18 to Col 27 -> North to Burglarized House front door (27, 11) -> back door (27, 9) -> Route 9 -> Route 10 -> Lavender Town -> Route 8 Underground Path -> Route 7 -> Celadon City!
+## CURRENT STATUS & DASHBOARD (Turn 30157)
+- Location: Cerulean City (27, 20)
+- Active Protocol: Riding Bicycle! Standing at Cerulean City (27, 20). Walking North along Col 27 to Burglarized House front door (27, 11) -> back door (27, 9) -> Route 9 -> Route 10 -> Lavender Town -> Route 8 Underground Path -> Route 7 -> Celadon City!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
