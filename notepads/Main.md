@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31679)
-- Location: Route 9 (10, 10) / (10, 14)
-- Active Protocol: Walking East 19 steps along Row 14 to (29, 14) to ascend to Row 12/8 via (29, 13)/(29, 9) gap and locate the Row 5 gap up to Northern Upper Layer (Rows 0-3).
+## CURRENT STATUS & DASHBOARD (Turn 31684)
+- Location: Route 9 (19, 13)
+- Active Protocol: Stepping UP to (19, 12), Right to (20, 12), UP 2 steps to (20, 10) pavement, then navigating to (23, 6) Row 6 Highway to test Eastward passage at (26, 6).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
