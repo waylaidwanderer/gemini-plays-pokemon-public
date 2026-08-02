@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31204)
+## CURRENT STATUS & DASHBOARD (Turn 31205)
 - Location: Route 9 (45, 7)
-- Active Protocol: At (45, 7). Up 4 to Row 3 (45, 3) -> Right 4 to (49, 3) -> Down 5 to (49, 8) Eastern Highway -> East to Route 10 (59, 8).
+- Active Protocol: At (45, 7). Return via Col 41 gap (41, 12) to West Entrance (0, 8) to access Row 4 Northern Highway to Route 10.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
