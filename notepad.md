@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 29756)
-- Location: Vermilion City Overworld (18, 10)
-- Active Protocol: Walk South 9 to (18, 19), Left 9 to Pokemon Fan Club at (9, 19) -> speak to Chairman to get Bike Voucher -> return North to Cerulean Bike Shop for Bicycle -> proceed to Celadon City via Route 8/7 Underground Path.
+## CURRENT STATUS & DASHBOARD (Turn 29757)
+- Location: Vermilion City Overworld (14, 17)
+- Active Protocol: Walk Down 3 to (14, 20) highway, Left 5 to (9, 20), Up 1 into Fan Club doorway at (9, 19) -> speak to Chairman to get Bike Voucher -> return North for Bicycle.
 
 <hr>
 
