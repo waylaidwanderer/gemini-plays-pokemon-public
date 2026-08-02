@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 30721)
-- Location: Route 4 (87, 10)
-- Active Protocol: Single-step testing Route 4 highway going East back towards Cerulean City entrance at (89, 10).
+## CURRENT STATUS & DASHBOARD (Turn 30751)
+- Location: Cerulean City (18, 26)
+- Active Protocol: Single-step testing Row 26 West from (18, 26) towards Column 14 overworld boundary.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
