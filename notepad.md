@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31725)
-- Location: Route 9 (10, 15)
-- Active Protocol: Walking East 19 steps along Row 15 to (29, 15)/(29, 14) to ascend to Row 12/8/6 and probe eastern upper layer past x=41 to Route 10 entrance at (59, 8).
+## CURRENT STATUS & DASHBOARD (Turn 31728)
+- Location: Route 9 (15, 15)
+- Active Protocol: Stepping UP to (15, 14), then Right 5 steps along Row 14 pavement to (20, 14) to bypass NPC at (16, 15), then continuing East to (29, 14).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
