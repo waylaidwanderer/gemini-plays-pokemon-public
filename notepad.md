@@ -171,28 +171,9 @@
 
 <h1><code>Locations/Rock_Tunnel_B1F</code></h1>
 
-## Verified B1F Layout & Boundaries
-- Ladder 3 Chamber (17,11): Enclosed NW sector (Cols 2-17, Rows 11-21).
-- Solid Wall at Rows 22-23 across Cols 2-18 (no passage south from NW sector).
-- Solid Wall at Row 15 at Col 17.
-- Ladder 4 at 1F (37,3) warps to B1F (37,3) / (33,25) two-way loop (Turn 17413).
-- B1F (33,25) connects South via Col 28-37 (Rows 22-33) to Bottom Hallway at Row 30-33.
-- Gap through Col 26 wall at Rows 31-32 connects Eastern Sector (Cols 28-37) to Western Sector (Cols 2-25).
-- Gap through Row 28-29 North wall at Cols 14-17 connects Bottom Hallway (Row 30-33) to Central Corridor (Row 24-27).
-- Passageway through Row 22-23 wall is located at Cols 24-25, connecting South to Central Corridor (Turn 17437).
-- B1F (37,3) connects South via Col 37 to (37,13). Row 13 is blocked West of Col 26 at (25,13) (Turn 17417).
-- Row 13 at Cols 18-19 and Cols 38-39 are solid rock wall pillars.
-- Row 14-15 across Cols 19-37 is solid rock wall.
-- Northern B1F Highway: B1F (27,3) warps directly to B1F (5,3) (Turn 16979).
-- B1F (17,11) warps directly to 1F (23,11) (Turn 17004).
-- Verified B1F Western Highway (Turn 17128): Col 10 (Rows 15 to 6) is an open vertical corridor. Row 6 connects West from (10,6) across Cols 9, 8, 7, 6 to Col 5.
-- Verified Route to Ladder 4 at (33,25) (Turn 17167): From (21,33) East to (26,33) -> Up through Col 26 gap to (26,32) -> East along Row 32 to (33,32) -> Up Col 33 to Ladder 4 at (33,25)!- SPATIAL BOUNDARY NOTE (Turn 17221): (14,24) connects East to (15,24), but is blocked North at (14,23) and West at (13,24).
-- Rows 20-21 in Eastern Sector (Cols 28-37) are solid rock wall. Col 24 connects Row 19 South to Central Corridor (24,27) (Turn 17459).
-- Cols 18-19 across Rows 15-23 form a solid rock wall pillar. Row 24 (Central Corridor) is open West from Col 25 to Col 10 (Turn 17487).
-- Row 28 is solid rock wall across Cols 10-19. NW Sector (Ladder 3 at 17,11) is accessed via Northern Highway warp B1F (27,3) -> B1F (5,3) (Turn 17495).
-- Cols 12-13 rock pillar spans Rows 6-13. Row 14 connects Col 11 East to Col 17 and Ladder 3 at (17,11) (Turn 17510).
-
-- Cols 24-25 are solid rock wall across Rows 7-15. Sector (26-29, 3-13) is a dead end accessed via B1F (27,3) warp (Turn 17627).
+## Rock Tunnel B1F Topography & Coordinates
+- 1F Ladder Arrival: (21, 7)
+- Dark Cave Environment: Empirical testing required for all corridors.
 
 <hr>
 
@@ -576,5 +557,6 @@
 ## Rock Tunnel B1F Topography & Coordinates
 - 1F Ladder Arrival: (21, 7)
 - Dark Cave Environment: Empirical testing required for all corridors.
+- Eastbound Corridor Verified: (21, 7) -> (31, 7) open cave floor along Row 4..7.
 
 <hr>
