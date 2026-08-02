@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31223)
-- Location: Route 9 (10, 12)
-- Active Protocol: At (10, 12). Right 13 to (23, 12) -> Up 2 to (23, 10) -> Right 6 to (29, 10) -> Down 2 to (29, 12) -> Right 12 to (41, 12) -> Up 6 to (41, 6) -> Right 4 to (45, 6) -> Down 2 to (45, 8) -> Right 1 to (46, 8) Eastern Highway -> East to Route 10 (59, 8).
+## CURRENT STATUS & DASHBOARD (Turn 31235)
+- Location: Route 9 (23, 10)
+- Active Protocol: At (23, 10). Down 2 to (23, 12) -> Left 6 to (17, 12) -> test Up at x=17-15 slope boundary to find ascent to Row 8.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -516,6 +516,6 @@
 - Ledge Gap / Passage: (29, 9) connects Row 10 to Row 8 grass.
 - Col 41 Highway Gap: (41, 8) connects Row 12 UP to Row 6. Note: Row 6/7 highway dead-ends at (45, 6)/(45, 7) against rock wall.
 - Lower Basin Dead End Pocket: Lower basin at x=52-53 is a dead end pocket (x=54 is solid rock wall, y=13 is south-facing ledge). To exit, walk West along Row 14 to (29, 14) / (19, 14) to ascend to the Upper Highway.
-- Route 9 Master Navigation Solution (VERIFIED): Row 12 grass -> (23, 10) bypass -> (29, 12) -> Col 41 gap (41, 12) -> ascend to Row 6 (41, 6) -> Right 4 to (45, 6) -> Down 2 through (45, 8) connector to (46, 8) Eastern Highway -> East to Route 10 (59, 8).
+- Route 9 Exploration: Testing x=17/18 slope boundary from Row 12 grass (17, 12) to Row 10/8.
 
 <hr>
