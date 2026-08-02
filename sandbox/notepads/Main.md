@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31210)
-- Location: Route 9 (13, 12)
-- Active Protocol: At (13, 12). Bypass x=24 rock wall via (23, 10) to reach (29, 12) -> walk East to Col 41 gap (41, 12) -> ascend to Row 6 (41, 6) -> East to Route 10 (59, 8).
+## CURRENT STATUS & DASHBOARD (Turn 31212)
+- Location: Route 9 (41, 12)
+- Active Protocol: At (41, 12). Down 1 to lower basin (41, 14) -> Left 22 to (19, 14) -> return to West entrance (0, 8) to access Row 4 Northern Highway to Route 10.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge

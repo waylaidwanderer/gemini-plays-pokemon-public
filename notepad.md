@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31210)
-- Location: Route 9 (13, 12)
-- Active Protocol: At (13, 12). Bypass x=24 rock wall via (23, 10) to reach (29, 12) -> walk East to Col 41 gap (41, 12) -> ascend to Row 6 (41, 6) -> East to Route 10 (59, 8).
+## CURRENT STATUS & DASHBOARD (Turn 31212)
+- Location: Route 9 (41, 12)
+- Active Protocol: At (41, 12). Down 1 to lower basin (41, 14) -> Left 22 to (19, 14) -> return to West entrance (0, 8) to access Row 4 Northern Highway to Route 10.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -517,5 +517,6 @@
 - Col 41 Highway Gap: (41, 8) connects Row 12 UP to Row 6. Note: Row 6/7 highway dead-ends at (45, 6)/(45, 7) against rock wall.
 - Lower Basin Dead End Pocket: Lower basin at x=52-53 is a dead end pocket (x=54 is solid rock wall, y=13 is south-facing ledge). To exit, walk West along Row 14 to (29, 14) / (19, 14) to ascend to the Upper Highway.
 - Route 9 Master Navigation Solution (VERIFIED): Access Row 4 Northern Highway at West entrance (5, 4) -> walk East on Row 4 past x=45 to (49, 4) -> jump South over ledge at (49, 5) to (49, 8) Eastern Highway -> walk East to Route 10 (59, 8).
+- Cerulean Re-Entry Loop: To return to West entrance from lower basin, walk West along Row 14 lower basin through Cerulean City East Exit -> re-enter Route 9 at (0, 8) top entrance.
 
 <hr>
