@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31620)
-- Location: Route 9 (53, 14)
-- Active Protocol: Verified (54, 14) is solid wall. Walking West 34 steps along Row 14 to (19, 14) to ascend to Middle Highway (Row 12).
+## CURRENT STATUS & DASHBOARD (Turn 31631)
+- Location: Route 9 (29, 13)
+- Active Protocol: Ascending 5 steps UP through (29, 9) gap to Row 8 (Upper Highway) at (29, 8), then walking East to Route 10 entrance (59, 8).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -125,7 +125,8 @@
 - Ledge Gap / Passage: (29, 9) connects Row 10 to Row 8 grass.
 - Col 41 Highway Gap: (41, 8) connects Row 12 UP to Row 6. Note: Row 6/7 highway dead-ends at (45, 6)/(45, 7) against rock wall.
 - Lower Basin (Row 14): Extends from x=28 (west rock wall at 27, 14) to x=53 (east rock wall at 54, 14).
-- Testing Row 13 Ledge/Gap along Row 14 to find passage back UP to Row 12 (Middle Highway).
+- Ascent Passage Verified: (29, 13) connects Lower Basin (29, 14) UP to Row 12 (Middle Highway) at (29, 12).
+- Key Ascent Point: (29, 9) gap connects Row 12 / Row 10 UP to Row 8 (Upper Highway).
 - Route 9 Exploration: Testing x=17/18 slope boundary from Row 12 grass (17, 12) to Row 10/8.
 - Route 12 Rock Barrier: Rock wall at (42, 12) blocks direct Eastward passage on Row 12. Gap at (41, 8/12) connects Row 12 UP to Row 6/8 highway.
 - Route 9 Topography Analysis: Row 5 & Row 13 are south-facing ledges. Row 6/7 (x=30-45) dead-ends against rock wall at x=46. Retracing West along Row 14 lower basin to test West entrance connections to Upper Highway.

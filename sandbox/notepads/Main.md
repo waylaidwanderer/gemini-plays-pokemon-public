@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31620)
-- Location: Route 9 (53, 14)
-- Active Protocol: Verified (54, 14) is solid wall. Walking West 34 steps along Row 14 to (19, 14) to ascend to Middle Highway (Row 12).
+## CURRENT STATUS & DASHBOARD (Turn 31631)
+- Location: Route 9 (29, 13)
+- Active Protocol: Ascending 5 steps UP through (29, 9) gap to Row 8 (Upper Highway) at (29, 8), then walking East to Route 10 entrance (59, 8).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
