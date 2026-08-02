@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31651)
+## CURRENT STATUS & DASHBOARD (Turn 31655)
 - Location: Route 9 (35, 12)
-- Active Protocol: Ascending 4 steps UP from (35, 12) through (35, 11)/(35, 10) to (35, 8) pavement highway. Testing Row 8/7/6 pavement highway Eastward toward Route 10.
+- Active Protocol: Walking West 16 steps along Row 12 to (19, 12) to ascend Western Slope to Northern Upper Layer (Rows 0-3) and take the upper highway East to Route 10 (59, 8).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge

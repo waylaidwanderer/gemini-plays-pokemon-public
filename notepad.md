@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31651)
+## CURRENT STATUS & DASHBOARD (Turn 31655)
 - Location: Route 9 (35, 12)
-- Active Protocol: Ascending 4 steps UP from (35, 12) through (35, 11)/(35, 10) to (35, 8) pavement highway. Testing Row 8/7/6 pavement highway Eastward toward Route 10.
+- Active Protocol: Walking West 16 steps along Row 12 to (19, 12) to ascend Western Slope to Northern Upper Layer (Rows 0-3) and take the upper highway East to Route 10 (59, 8).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -131,17 +131,16 @@
 - Route 12 Rock Barrier: Rock wall at (42, 12) blocks direct Eastward passage on Row 12. Gap at (41, 8/12) connects Row 12 UP to Row 6/8 highway.
 - Route 9 Topography Analysis: Row 5 & Row 13 are south-facing ledges. Row 6/7 (x=30-45) dead-ends against rock wall at x=46. Retracing West along Row 14 lower basin to test West entrance connections to Upper Highway.
 
-### Complete Verified Route 9 Highway Topology (Turn 31385)
-- Row 14 (Lower Basin, Level 1): Extends x=19 to x=53. Dead-ends at x=54 against solid rock wall. Exit to the West at (19, 14).
-- Row 12 (Middle Highway, Level 2): Extends x=19 to x=41. Dead-ends at x=42 against solid rock wall.
-- Row 6/7/8 (Upper Highway, Level 3): Upper highway accessible via (29, 9) gap.
-- Key Ascent Point: (29, 9) gap connects Row 12 / Row 10 UP to Row 8 (Upper Highway).
-- Correct Path to Route 10:
-  1. From lower basin (52, 14), walk West along Row 14 to (19, 14).
-  2. Step UP at (19, 14) to (19, 13) -> (19, 12) (Middle Highway).
-  3. Walk East along Row 12 to (29, 12).
-  4. Step UP through (29, 10) / (29, 9) to (29, 8) (Upper Highway).
-  5. Explore Eastward passages past x=46 to find ascent/route to Route 10 entrance at (59, 8).
+### Route 9 Master Topography & Complete Solution
+- Ledge Layering: Route 9 has 3 south-facing ledges running East-West:
+  1. Row 5 Ledge (above Row 6)
+  2. Row 11 Ledge (above Row 12)
+  3. Row 13 Ledge (above Row 14)
+- Macro Loop Trap Explained: Hopping down ledges forces the player into lower corridors (Row 6, Row 12, Row 14). Row 14 dead-ends at x=54. Row 6 dead-ends at x=45.
+- Complete Path to Route 10 Entrance (59, 8):
+  1. From current position (35, 12), walk WEST along Row 12 all the way to (19, 12) / (17, 12).
+  2. At x=17/18/19, walk NORTH up the Western Slope to Row 2 / Row 3 / Row 0 (Northern Upper Layer).
+  3. Walk EAST along the Northern Upper Layer (Rows 0-3) past x=26, x=35, x=45 to reach Route 10 entrance at (59, 8)!
 
 <hr>
 
