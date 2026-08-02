@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31722)
-- Location: Route 9 (14, 14)
-- Active Protocol: Testing UP step into (14, 13) from (14, 14) to verify if Row 13 connects UP to Row 12 green grass at x=14.
+## CURRENT STATUS & DASHBOARD (Turn 31725)
+- Location: Route 9 (10, 15)
+- Active Protocol: Walking East 19 steps along Row 15 to (29, 15)/(29, 14) to ascend to Row 12/8/6 and probe eastern upper layer past x=41 to Route 10 entrance at (59, 8).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
