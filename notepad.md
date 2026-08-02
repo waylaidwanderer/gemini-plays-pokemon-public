@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31139)
+## CURRENT STATUS & DASHBOARD (Turn 31141)
 - Location: Route 9 (12, 12)
-- Active Protocol: Step Up 4 to (12, 8), Right 1 to (13, 8), Down 1 to (13, 9) facing Junior Trainer at (13, 10) to inspect/defeat trainer.
+- Active Protocol: Step Down 1 to Row 14 highway at (12, 14), then walk West along Row 14 past Col 9/8 to explore West Route 9 highway!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -509,7 +509,6 @@
 - Ledge Gap / Passage: (19, 13) connects lower basin (Row 14) to upper highway (Row 12).
 - Ledge Gap / Passage: (29, 13) connects lower basin (Row 14) directly UP to Row 12 grass highway.
 - Ledge Gap / Passage: (29, 9) connects Row 10 to Row 8 grass.
-- Northern Highway Gap: (20, 6) connects Row 10/12 directly UP to Row 6 Northern highway.
 - Col 41 Highway Gap: (41, 8) connects Row 12 directly UP to Row 6 Northern highway.
 
 <hr>

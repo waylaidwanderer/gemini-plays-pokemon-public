@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31139)
+## CURRENT STATUS & DASHBOARD (Turn 31141)
 - Location: Route 9 (12, 12)
-- Active Protocol: Step Up 4 to (12, 8), Right 1 to (13, 8), Down 1 to (13, 9) facing Junior Trainer at (13, 10) to inspect/defeat trainer.
+- Active Protocol: Step Down 1 to Row 14 highway at (12, 14), then walk West along Row 14 past Col 9/8 to explore West Route 9 highway!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
