@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31705)
-- Location: Route 9 (25, 5)
-- Active Protocol: Walking Down/Left around NPC at (24, 7) to Row 10 pavement at (24, 10), then East along Row 10 to (29, 10) to ascend/descend to Row 12/8 highway.
+## CURRENT STATUS & DASHBOARD (Turn 31708)
+- Location: Route 9 (24, 11)
+- Active Protocol: Stepping UP to Row 10 pavement at (24, 10), Right 5 steps to (29, 10), then UP 2 steps to (29, 8) Upper Highway.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
