@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31497)
-- Location: Route 9 (20, 6)
-- Active Protocol: At (20, 6). Walk Down 6 to (20, 12) -> Left 10 to (10, 12) / (5, 8) West entrance -> Ascend West slope at (14, 8)/(16, 4) onto Row 2 platform (22, 2) -> Cross East (25, 2) -> (30, 4) -> Hop down to East highway (30, 6) -> Route 10 entrance at (59, 8).
+## CURRENT STATUS & DASHBOARD (Turn 31531)
+- Location: Route 9 (14, 12)
+- Active Protocol: At (14, 12). Challenge/defeat Jr. Trainer at (13, 10), pass through (13, 8) to West slope (14, 8) to reach Upper Highway.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -544,6 +544,6 @@
   2. Step UP at (19, 14) to (19, 13) -> (19, 12) (Middle Highway).
   3. Walk East along Row 12 to (29, 12).
   4. Step UP through (29, 10) / (29, 9) to (29, 8) (Upper Highway).
-  5. Walk East along Row 8 / Row 6 to Route 10 entrance at (59, 8).
+  5. Cross East along Upper Highway towards Route 10 entrance at (59, 8).
 
 <hr>
