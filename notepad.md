@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 30271)
-- Location: Cerulean City (34, 21)
-- Active Protocol: Exploring eastern Cerulean City along Column 34 to find the overworld exit to Route 9.
+## CURRENT STATUS & DASHBOARD (Turn 30301)
+- Location: Burglarized House (5, 2)
+- Active Protocol: Testing single-step movement North onto tile (5, 1) to determine if it warps to Cerulean backyard.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
