@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31365)
-- Location: Route 9 (23, 6)
-- Active Protocol: At (23, 6). Walk Left 3 to (20, 6) -> Test West/Up slope at x=19/20 to ascend to Row 4 green grass platform (where NPC at (22, 2) is standing) -> Walk East along Row 4 to Route 10 (59, 8).
+## CURRENT STATUS & DASHBOARD (Turn 31411)
+- Location: Route 9 (37, 14)
+- Active Protocol: At (37, 14). Walk Left 8 to (29, 14) -> Step Up to (29, 13) -> Ascend to (29, 8) Upper Highway -> Test passage from (29, 8) to Row 6/7 pavement (30, 6).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
