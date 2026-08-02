@@ -512,6 +512,7 @@
 - Row 12 East Highway: Continuous open grass from (29, 12) through (34, 12) running East.
 - Ledge Gap / Passage: (29, 13) connects lower basin (Row 14) directly UP to Row 12 grass highway.
 - Ledge Gap / Passage: (29, 9) connects Row 10 to Row 8 grass.
-- Col 41 Highway Gap: (41, 8) connects Row 12 directly UP to Row 6 Northern highway.
+- Col 41 Highway Gap: (41, 8) connects Row 12 UP to Row 6. Note: Row 6/7 highway dead-ends at (45, 6)/(45, 7) against rock wall.
+- Lower Basin Route: Jump down south-facing ledge at (41, 13) to Row 14, then walk East along Row 14 lower basin.
 
 <hr>
