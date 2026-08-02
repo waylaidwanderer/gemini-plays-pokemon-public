@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31531)
-- Location: Route 9 (14, 12)
-- Active Protocol: At (14, 12). Challenge/defeat Jr. Trainer at (13, 10), pass through (13, 8) to West slope (14, 8) to reach Upper Highway.
+## CURRENT STATUS & DASHBOARD (Turn 31561)
+- Location: Route 9 (28, 10)
+- Active Protocol: At (28, 10). Returning West to Cerulean City via Row 14 to re-enter Route 9 at (0, 8) Upper Highway, ascend West slope at (14, 8) onto Row 3, and cross East to Route 10 at (59, 8).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
