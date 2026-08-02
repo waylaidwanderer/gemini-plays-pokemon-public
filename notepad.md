@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 29761)
-- Location: Pokémon Fan Club in Vermilion City (2, 7)
-- Active Protocol: Walk Up to Chairman at (3, 3) / (4, 3) -> speak to Fan Club Chairman to listen to his story and receive the Bike Voucher -> return North to Cerulean for Bicycle.
+## CURRENT STATUS & DASHBOARD (Turn 29765)
+- Location: Pokémon Fan Club in Vermilion City (3, 5)
+- Active Protocol: Walk Right 1 to (4, 5), face Up towards Chairman at (4, 3), press A to speak and receive the Bike Voucher.
 
 <hr>
 
