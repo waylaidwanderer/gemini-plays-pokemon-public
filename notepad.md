@@ -630,7 +630,7 @@
 
 ## B2F Layout & Mapping
 - **Stairs to B1F:** (27, 8)
-- **Stairs to B3F:** (5, 15) (Warp trigger on B2F at (4, 15), (5, 15), (6, 15) going Down) - Spawns player at (5, 15) facing Up on B3F.
+- **Stairs to B3F:** (21, 8) (verified on Turn 15897).
 - **Walkable Area:**
   - Columns 25-28 on Rows 8-12 (completely clear pink floor around stairs)
   - Rows 13-15 on Columns 23-28 (pocket leading to spinner entrance at (12, 13))
