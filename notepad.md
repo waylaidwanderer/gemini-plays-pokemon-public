@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 29401)
-- Location: Cerulean City (30, 20)
-- Active Protocol: Single-step probe south to Row 21, then east along Row 21/25 to reach Column 36 highway.
+## CURRENT STATUS & DASHBOARD (Turn 29431)
+- Location: Cerulean City (18, 27)
+- Active Protocol: Walk Left 1 step to (17, 27), Down 3 steps through tree gap at (17, 28) to Row 30 pavement highway, then East to Col 36.
 
 <hr>
 
