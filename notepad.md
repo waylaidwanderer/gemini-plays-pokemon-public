@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 29748)
-- Location: Route 6 Underground Path Entrance Building (4, 4)
-- Active Protocol: Walk Down 3 to (4, 7) exit mat -> exit to Route 6 overworld -> proceed to Celadon City.
+## CURRENT STATUS & DASHBOARD (Turn 29750)
+- Location: Route 6 Overworld (17, 14)
+- Active Protocol: Walk South on Route 6 towards Vermilion City / Saffron Gatehouse area -> navigate to Celadon City via Route 8/7 Underground Path.
 
 <hr>
 
