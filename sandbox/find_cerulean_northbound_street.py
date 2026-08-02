@@ -1,56 +1,54 @@
 import mgba
-import os
 import time
 
-# Cleanup obsolete scratchpad
-if os.path.exists("notepads/Scratchpad/Route_8_Navigation.md"):
-    os.remove("notepads/Scratchpad/Route_8_Navigation.md")
-    print("Deleted obsolete scratchpad Route_8_Navigation.md")
+print("=== STARTING CERULEAN CITY ALL-COLUMN NORTHBOUND PROBE ===")
 
-print("Starting Master Cerulean City Northbound Street Finder...")
+start_pos = mgba.get_coordinates()
+print(f"Start position: {start_pos}")
 
-pos = mgba.get_coordinates()
-print(f"Starting position in Cerulean City: {pos}")
+open_north_cols = []
 
-# Test candidate columns on Row 20 for a clear northbound passage to Row 12
-candidate_cols = [20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+# Probe columns from x=0 to x=35 on Row 20
+cols_to_test = list(range(0, 36))
 
-found_col = None
-
-for test_x in candidate_cols:
+for test_x in cols_to_test:
+    # Get current position
     curr = mgba.get_coordinates()
-    # If we are not on Row 20, move back to Row 20
-    if curr['y'] != 20:
-        if curr['y'] < 20:
-            mgba.press_buttons(["Down"] * (20 - curr['y']) + ["sleep 100"])
-        elif curr['y'] > 20:
-            mgba.press_buttons(["Up"] * (curr['y'] - 20) + ["sleep 100"])
     
+    # Return to Row 20 if needed
+    if curr['y'] < 20:
+        mgba.press_buttons(["Down"] * (20 - curr['y']) + ["sleep 50"])
+    elif curr['y'] > 20:
+        mgba.press_buttons(["Up"] * (curr['y'] - 20) + ["sleep 50"])
+        
     curr = mgba.get_coordinates()
+    
     # Move horizontally to test_x
     if curr['x'] < test_x:
-        mgba.press_buttons(["Right"] * (test_x - curr['x']) + ["sleep 100"])
+        mgba.press_buttons(["Right"] * (test_x - curr['x']) + ["sleep 50"])
     elif curr['x'] > test_x:
-        mgba.press_buttons(["Left"] * (curr['x'] - test_x) + ["sleep 100"])
+        mgba.press_buttons(["Left"] * (curr['x'] - test_x) + ["sleep 50"])
+        
+    pos_at_col = mgba.get_coordinates()
+    if pos_at_col['x'] != test_x or pos_at_col['y'] != 20:
+        print(f"Col {test_x}: Blocked on Row 20 at {pos_at_col}")
+        continue
+        
+    # Attempt walking Up 8 steps towards Row 12
+    mgba.press_buttons(["Up"] * 8 + ["sleep 100"])
+    pos_after_up = mgba.get_coordinates()
     
-    p_start = mgba.get_coordinates()
-    if p_start['x'] != test_x or p_start['y'] != 20:
-        continue # Blocked horizontally
+    delta_y = pos_at_col['y'] - pos_after_up['y']
+    print(f"Col {test_x}: Moved Up {delta_y} steps (reached y={pos_after_up['y']})")
     
-    # Try walking Up 8 steps toward Row 12
-    mgba.press_buttons(["Up"] * 8 + ["sleep 200"])
-    p_up = mgba.get_coordinates()
-    
-    # Check if we moved up successfully past y=15
-    if p_up['y'] <= 12:
-        print(f"FOUND OPEN NORTHBOUND STREET AT COLUMN {test_x}! Reached ({p_up['x']}, {p_up['y']})!")
-        found_col = test_x
-        s = mgba.take_screenshot()
-        print(f"Open street screenshot: {s}")
-        break
-    else:
-        # Step back Down to Row 20
-        if p_up['y'] < 20:
-            mgba.press_buttons(["Down"] * (20 - p_up['y']) + ["sleep 100"])
+    if pos_after_up['y'] <= 12:
+        open_north_cols.append((test_x, pos_after_up['y']))
+        print(f"*** FOUND NORTHBOUND STREET AT COL {test_x}! Reached y={pos_after_up['y']} ***")
+        
+    # Return to Row 20
+    curr_y = pos_after_up['y']
+    if curr_y < 20:
+        mgba.press_buttons(["Down"] * (20 - curr_y) + ["sleep 50"])
 
-print("Probe completed! Open Northbound Columns:", open_north_cols if 'open_north_cols' in locals() else [found_col])
+print("=== PROBE COMPLETE ===")
+print(f"Summary of Northbound Openings (col, min_y): {open_north_cols}")
