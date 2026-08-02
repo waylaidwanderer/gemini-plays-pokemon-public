@@ -13,4 +13,4 @@
 - Column 17 Stairs: Bottom stair tile at (17,15) has a south-facing bottom railing line preventing entry from (17,16).
 
 ### Open Staircase Probing Protocol
-- Column 12 (Cols 12, Rows 14-15): Blue staircase at (12,15) / (12,14). Bottom grass tile (12,16) is open. Single-step testing active to verify passability onto (12,15).
+- Column 12 (Cols 12, Rows 14-15): Blue staircase at (12,15) / (12,14). Reached bottom grass tile (12,16) on Turn 30603. Executing single-step test Up onto (12,15).
