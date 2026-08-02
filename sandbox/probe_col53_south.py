@@ -1,25 +1,29 @@
 import mgba
+import time
 
-def main():
-    print("=== Probing Column 53 South Exit ===")
-    pos = mgba.get_coordinates()
-    print(f"Start pos: {pos}")
+print("Starting West Route 5 South Exit Script...")
 
-    # Walk Right 13 steps from (40, 14) to (53, 14)
-    path_right = ["Right"] * 13
-    mgba.press_buttons(path_right)
-    pos = mgba.get_coordinates()
-    print(f"Pos at (53, 14): {pos}")
+# Step 1: Exit building
+mgba.press_buttons(["Down", "Down", "Down", "sleep 1000"])
 
-    # Step Down to (53, 15)
-    mgba.press_buttons(["Down"])
-    pos = mgba.get_coordinates()
-    print(f"Pos after Down to (53, 15): {pos}")
+pos = mgba.get_coordinates()
+print(f"Position outside building: {pos}")
 
-    # Try stepping Down into (53, 16)
-    mgba.press_buttons(["Down"])
-    pos = mgba.get_coordinates()
-    print(f"Pos after Down into (53, 16): {pos}")
+# Step 2: Walk to Row 20 (13, 20)
+mgba.press_buttons(["Down", "Down", "Down", "Down", "sleep 300"])
 
-if __name__ == "__main__":
-    main()
+# Step 3: Walk Left 13 steps to Col 0 (0, 20)
+mgba.press_buttons(["Left"] * 13 + ["sleep 300"])
+
+p_col0 = mgba.get_coordinates()
+print(f"Position at Col 0 Row 20: {p_col0}")
+s_col0 = mgba.take_screenshot()
+print(f"Col 0 screenshot: {s_col0}")
+
+# Step 4: Walk Down 15 steps along Col 0 to Route 5!
+mgba.press_buttons(["Down"] * 15 + ["sleep 1000"])
+
+p_route5 = mgba.get_coordinates()
+print(f"Position after walking South: {p_route5}")
+s_route5 = mgba.take_screenshot()
+print(f"Route 5 screenshot: {s_route5}")
