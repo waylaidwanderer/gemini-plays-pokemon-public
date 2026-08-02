@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 30871)
-- Location: North Cerulean (33, 9)
-- Active Protocol: Walking South down Column 33 street from (33, 9) to Row 18 corridor (33, 18) towards Route 9 exit.
+## CURRENT STATUS & DASHBOARD (Turn 30884)
+- Location: East Cerulean (37, 29)
+- Active Protocol: Walking Down Column 37 to Row 32 (37, 32) -> East along Row 32 past Column 38 rock wall straight into Route 9 at (43, 32).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
