@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31673)
-- Location: Route 9 (17, 14)
-- Active Protocol: Walking West 7 steps along Row 14 pavement highway from (17, 14) to (10, 14) to reach Western Sector and ascend Western Slope to Northern Upper Layer (Rows 0-3).
+## CURRENT STATUS & DASHBOARD (Turn 31676)
+- Location: Route 9 (10, 14)
+- Active Protocol: Testing Left step into (9, 14) to see if Row 14 connects West to Cerulean City / Route 9 entrance (0, 8) to access the Northern Upper Highway (Rows 0-3).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
