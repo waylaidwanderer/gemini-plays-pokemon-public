@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31971)
-- Location: Rock Tunnel B1F (21, 5)
-- Active Protocol: At (21, 5) in Rock Tunnel B1F. Walking Left 1 to (20, 5), Up 1 to (20, 4), then East along Row 4 corridor (x=20..31) to find Southbound passage.
+## CURRENT STATUS & DASHBOARD (Turn 31972)
+- Location: Rock Tunnel B1F (27, 7)
+- Active Protocol: At (27, 7) in Rock Tunnel B1F. Running Python probe to navigate Up 5 to Row 2 at (27, 2) and Right 10 along Row 2 highway to (37, 2).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
