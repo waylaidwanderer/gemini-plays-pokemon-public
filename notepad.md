@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 30492)
-- Location: Route 4 (84, 10)
-- Active Protocol: Traversing Route 4 Western Bypass corridor to North Cerulean City and Route 9.
+## CURRENT STATUS & DASHBOARD (Turn 30494)
+- Location: Route 4 (76, 10)
+- Active Protocol: Traversing Route 4 Western Bypass via Row 8 pavement corridor to North Cerulean City and Route 9.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
