@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 29539)
-- Location: Saffron Gatehouse (4, 13)
-- Active Protocol: Walk Up to (4, 9) in Saffron Gatehouse to test north exit to Saffron City / Route 5.
+## CURRENT STATUS & DASHBOARD (Turn 29551)
+- Location: Saffron Gatehouse (5, 5)
+- Active Protocol: Walk via Column 7 gap (7, 4) to north exit mat at (5, 1) to test Saffron City / Route 5 transition.
 
 <hr>
 
