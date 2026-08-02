@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 29831)
-- Location: Route 5 Underground Path Entrance Building (4, 4)
-- Active Protocol: Walk Down 3 to (4, 7) exit mat -> exit to Route 5 overworld -> walk North into Cerulean City -> exchange Bike Voucher at Cerulean Bike Shop for Bicycle.
+## CURRENT STATUS & DASHBOARD (Turn 29833)
+- Location: Route 5 Overworld (17, 28)
+- Active Protocol: Walk Left 2 to (15, 28), Up 13 to (15, 15) on Route 5 -> enter Cerulean City -> exchange Bike Voucher at Cerulean Bike Shop for Bicycle.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
