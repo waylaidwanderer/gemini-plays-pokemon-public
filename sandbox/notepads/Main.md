@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 30494)
-- Location: Route 4 (76, 10)
-- Active Protocol: Traversing Route 4 Western Bypass via Row 8 pavement corridor to North Cerulean City and Route 9.
+## CURRENT STATUS & DASHBOARD (Turn 30511)
+- Location: Burglarized House (4, 13)
+- Active Protocol: Traversing Burglarized House to exit front door at (3, 0)/(4, 0) into North Cerulean City and proceed East to Route 9 exit at (43, 16).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
