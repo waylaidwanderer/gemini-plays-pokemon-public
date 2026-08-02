@@ -10,22 +10,19 @@ def move(buttons):
 pos = mgba.get_coordinates()
 print(f"Starting at: {pos}")
 
-# Current position is (12, 5) on B2F
-# 1. Walk Left to Column 11
-pos = move(["Left"])
-
-# 2. Walk Down Column 11 to Row 15
-# We need to move from 5 to 15 (10 steps Down)
-for _ in range(10):
+# Current position is (9, 15) on B2F
+# 1. Walk Down 2 steps to (9, 17)
+for _ in range(2):
     pos = move(["Down"])
 
-# 3. Walk Left to Column 5
-# We need to move from 11 to 5 (6 steps Left)
-for _ in range(6):
+# 2. Walk Left 4 steps to (5, 17)
+for _ in range(4):
     pos = move(["Left"])
 
-# 4. Walk Down to trigger the stairs to B3F (at (5, 15) going Down)
-pos = move(["Down"])
+# 3. Walk Up 2 steps to (5, 15)
+# This is the staircase block!
+for _ in range(2):
+    pos = move(["Up"])
 
 print("Finished movement. Current position:", mgba.get_coordinates())
 mgba.take_screenshot()
