@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 29131)
-- Location: Route 8 (20, 6) Northern Highway Sector
-- Active Protocol: Walking North to Row 4 (20, 4) -> West along Row 4 green grass highway across Col 19 to West Route 8 (5, 4) / Saffron Gatehouse doorway.
+## CURRENT STATUS & DASHBOARD (Turn 29162)
+- Location: Route 8 (44, 15) Lower Highway
+- Active Protocol: Bypassing NPC at (45, 15) via Row 14 (44, 14) -> East to Column 60 Lavender Town map warp.
 
 <hr>
 
