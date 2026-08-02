@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 30884)
-- Location: East Cerulean (37, 29)
-- Active Protocol: Walking Down Column 37 to Row 32 (37, 32) -> East along Row 32 past Column 38 rock wall straight into Route 9 at (43, 32).
+## CURRENT STATUS & DASHBOARD (Turn 30901)
+- Location: Cerulean City (19, 30)
+- Active Protocol: Stand at (19, 29) facing North toward (19, 28) tree, cut tree down with HM01 Cut, proceed North to North Cerulean and East into Route 9 at (43, 16).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
