@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 30364)
-- Location: Route 6 (17, 25)
-- Active Protocol: Riding Bicycle South along Column 17 on Route 6 to enter Vermilion City at (18, 0).
+## CURRENT STATUS & DASHBOARD (Turn 30391)
+- Location: Cerulean City (19, 29)
+- Active Protocol: Facing Cuttable Tree at (19, 28) in Cerulean City to use Cut and access Middle/East Cerulean City towards Route 9.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
