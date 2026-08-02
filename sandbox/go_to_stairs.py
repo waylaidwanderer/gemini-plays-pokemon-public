@@ -8,54 +8,34 @@ def move(buttons):
     return pos
 
 pos = mgba.get_coordinates()
-print(f"Starting from: {pos}")
+print(f"Starting at left area: {pos}")
 
-# We are at (17, 7) on B3F
-# 1. Walk Right to (25, 7) (8 steps Right)
-print("Walking right to Column 25...")
-for _ in range(8):
-    pos = move(["Right"])
-
-# 2. Walk Up to (25, 6) (1 step Up)
-pos = move(["Up"])
-
-# Now we are at (25, 6). Let's run the exact explore_b3f_down.py steps:
-print("Starting explore_b3f_down.py sequence...")
-
-# Step 1: Walk Right to Column 26 (1 step Right)
+# We are at (2, 9)
+# Step 1: Walk Right to (3, 9) (1 step Right)
 pos = move(["Right"])
 
-# Step 2: Walk Down to Row 10 (4 steps Down)
-for _ in range(4):
+# Step 2: Walk Down to (3, 14) (5 steps Down)
+print("Walking down Column 3...")
+for _ in range(5):
     pos = move(["Down"])
 
-# Step 3: Walk Left onto (24, 10) Left spinner (2 steps Left)
-pos = move(["Left"])
-print("Stepping onto (24, 10) Left spinner...")
-pos = move(["Left"])
-# Add a small sleep to let the slide animation finish completely
+# Step 3: Walk Right 6 steps to step onto (9, 14) DOWN spinner
+print("Walking right to Column 9 to step onto DOWN spinner...")
+for _ in range(6):
+    pos = move(["Right"])
+
+# Wait for slide to (9, 16) stopper
 time.sleep(2.0)
+pos = mgba.get_coordinates()
+print(f"Position after first slide: {pos}")
 
-# Step 4: Walk Down to Row 11 (1 step Down)
-pos = move(["Down"])
+# Step 4: Walk Right 2 steps to step onto (11, 16) RIGHT spinner
+print("Walking right 2 steps to step onto (11, 16) RIGHT spinner...")
+pos = move(["Right"])
+pos = move(["Right"])
 
-# Step 5: Walk Left onto (22, 11) Left spinner (1 step Left)
-print("Stepping onto (22, 11) Left spinner...")
-pos = move(["Left"])
-time.sleep(2.0)
-
-# Step 6: Walk Down to Row 15 (4 steps Down)
-for _ in range(4):
-    pos = move(["Down"])
-
-# Step 7: Walk Left to Column 19 (2 steps Left)
-for _ in range(2):
-    pos = move(["Left"])
-
-# Step 8: Walk Down to reach the stairs to B4F (3 steps Down)
-print("Stepping onto B4F stairs...")
-for _ in range(3):
-    pos = move(["Down"])
-
-print("Final position after warp sequence:", mgba.get_coordinates())
+# Wait for slide to land
+time.sleep(3.0)
+pos = mgba.get_coordinates()
+print(f"Final position after slide maze: {pos}")
 mgba.take_screenshot()
