@@ -7,20 +7,25 @@ def move(buttons):
     print(f"Pressed {buttons}, coordinates: {pos}")
     return pos
 
-print("Starting exploration Left on Row 7 from B3F (25, 6)...")
-# Current is (25, 6)
-move(["Down"]) # (25, 7)
+pos = mgba.get_coordinates()
+print(f"Starting at: {pos}")
 
-# Walk Left up to 8 steps to see if we reach Column 19 or 18
-for i in range(8):
-    pos = mgba.get_coordinates()
-    move(["Left"])
-    new_pos = mgba.get_coordinates()
-    if new_pos == pos:
-        print(f"Hit wall going Left at: {pos}")
-        break
+# Currently at (27, 18) on B3F
+# 1. Walk Up Column 27 to Row 7 (11 steps Up)
+for _ in range(11):
+    pos = move(["Up"])
 
-# Let's take a screenshot to inspect
-screenshot_file = mgba.take_screenshot()
-print("Saved screenshot to:", screenshot_file)
-print("Final exploration position:", mgba.get_coordinates())
+# 2. Walk Left along Row 7 to Column 20 (7 steps Left)
+for _ in range(7):
+    pos = move(["Left"])
+
+# 3. Walk Down Column 20 to Row 11 (4 steps Down)
+for _ in range(4):
+    pos = move(["Down"])
+
+# 4. Walk Left to Column 18 (2 steps Left)
+for _ in range(2):
+    pos = move(["Left"])
+
+print("Successfully reached Left Room at:", mgba.get_coordinates())
+mgba.take_screenshot()
