@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31985)
-- Location: Rock Tunnel B1F (36, 2)
-- Active Protocol: At (36, 2) in Rock Tunnel B1F after escaping Zubat; probing Row 2 and Row 16/17 paths toward B1F exit ladder at (37, 17).
+## CURRENT STATUS & DASHBOARD (Turn 32005)
+- Location: Rock Tunnel 1F (37, 3)
+- Active Protocol: Ascended B1F ladder to Rock Tunnel 1F at (37, 3); walking Down 8 steps along Col 37 to exit at (37, 11) onto Route 10 South.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
