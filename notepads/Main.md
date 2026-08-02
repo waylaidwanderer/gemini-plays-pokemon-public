@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31909)
-- Location: Route 10 Pokemon Center (3, 7)
-- Active Protocol: Inside Route 10 Pokemon Center. Walking UP to (3, 3) to speak with Nurse Joy and heal party.
+## CURRENT STATUS & DASHBOARD (Turn 31910)
+- Location: Route 10 Pokemon Center (3, 3)
+- Active Protocol: At Nurse Joy counter (3, 3). Completing healing dialogue to heal party and set respawn point before entering Rock Tunnel.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
