@@ -1,5 +1,5 @@
-## CURRENT STATUS & DASHBOARD (Turn 30488)
-- Location: Route 4 (89, 10)
+## CURRENT STATUS & DASHBOARD (Turn 30492)
+- Location: Route 4 (84, 10)
 - Active Protocol: Traversing Route 4 Western Bypass corridor to North Cerulean City and Route 9.
 
 ## KEY ITEMS & INVENTORY
