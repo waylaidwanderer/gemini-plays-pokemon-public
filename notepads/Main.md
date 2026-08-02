@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31975)
-- Location: Rock Tunnel B1F (27, 7)
-- Active Protocol: At (27, 7) in Rock Tunnel B1F (East pocket dead end). Walking Left 6 to (21, 7) and Down 6 to (21, 13) to exit East pocket and explore B1F.
+## CURRENT STATUS & DASHBOARD (Turn 31985)
+- Location: Rock Tunnel B1F (36, 2)
+- Active Protocol: At (36, 2) in Rock Tunnel B1F after escaping Zubat; probing Row 2 and Row 16/17 paths toward B1F exit ladder at (37, 17).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
