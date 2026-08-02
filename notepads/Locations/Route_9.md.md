@@ -11,3 +11,15 @@
 - Route 9 Exploration: Testing x=17/18 slope boundary from Row 12 grass (17, 12) to Row 10/8.
 - Route 12 Rock Barrier: Rock wall at (42, 12) blocks direct Eastward passage on Row 12. Gap at (41, 8/12) connects Row 12 UP to Row 6/8 highway.
 - Route 9 Topography Analysis: Row 5 & Row 13 are south-facing ledges. Row 6/7 (x=30-45) dead-ends against rock wall at x=46. Retracing West along Row 14 lower basin to test West entrance connections to Upper Highway.
+
+### Complete Verified Route 9 Highway Topology (Turn 31385)
+- Row 14 (Lower Basin, Level 1): Extends x=19 to x=53. Dead-ends at x=54 against solid rock wall. Exit to the West at (19, 14).
+- Row 12 (Middle Highway, Level 2): Extends x=19 to x=41. Dead-ends at x=42 against solid rock wall.
+- Row 6/7/8 (Upper Highway, Level 3): Main continuous highway running East all the way to Route 10 entrance at (59, 8).
+- Key Ascent Point: (29, 9) gap connects Row 12 / Row 10 UP to Row 8 (Upper Highway).
+- Correct Path to Route 10:
+  1. From lower basin (52, 14), walk West along Row 14 to (19, 14).
+  2. Step UP at (19, 14) to (19, 13) -> (19, 12) (Middle Highway).
+  3. Walk East along Row 12 to (29, 12).
+  4. Step UP through (29, 10) / (29, 9) to (29, 8) (Upper Highway).
+  5. Walk East along Row 8 / Row 6 to Route 10 entrance at (59, 8).
