@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31235)
-- Location: Route 9 (23, 10)
-- Active Protocol: At (23, 10). Down 2 to (23, 12) -> Left 6 to (17, 12) -> test Up at x=17-15 slope boundary to find ascent to Row 8.
+## CURRENT STATUS & DASHBOARD (Turn 31261)
+- Location: Route 9 (25, 8)
+- Active Protocol: At (25, 8). Walk Down 2 to (25, 10) -> Right 4 to (29, 10) -> Down 2 to (29, 12) -> East along Row 12 to Col 41 gap at (41, 12) -> Ascend UP to (41, 8) -> East to Route 10 at (59, 8).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
