@@ -1,3 +1,3 @@
-## CURRENT STATUS & DASHBOARD (Turn 29267)
-- Location: Cerulean City (34, 27)
-- Active Protocol: Walk Left 9 steps along Row 27 to Col 25 (25, 27), then Down 8 along Col 25 to exit South onto Route 5 at (25, 35).
+## CURRENT STATUS & DASHBOARD (Turn 29268)
+- Location: Cerulean City (25, 27)
+- Active Protocol: Executing find_cerulean_south_exit.py to probe all columns along Row 27 for the South gap leading to Route 5.
