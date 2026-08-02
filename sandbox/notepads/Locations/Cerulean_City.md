@@ -1,26 +1,14 @@
-## Verified Cerulean City Topology & Boundaries (Turn 30620)
+## Verified Cerulean City Topology & Boundaries (Turn 30944)
 
-### Route 9 East Exit Corridor
-- Column 35 Fence: Row 20/21 is blocked at Col 35 by a solid vertical fence.
-- True Route 9 Passage: From North Cerulean (y=8), walk East along Row 8 past Burglarized House to (32, 8) -> South along Col 32 alley to (32, 18) -> East along Row 18 to (37, 18) -> Hop South over Row 19 ledge to (37, 20) -> East to Route 9 at (43, 16)/(43, 20).
+### Route 9 East Exit Passage
+- Row 16 Corridor: Row 16 is an elevated corridor above the Row 19 ledge running continuously from Col 17 all the way East to Col 38/39.
+- Route 9 Entrance: Open passage into Route 9 is at Row 16 / Row 17 at (38, 16) / (39, 16) and (38, 17).
+- Col 38 Wall: Solid rock wall from y=18 down through y=33.
 
-### Key Obstacles & Boundaries
-- Burglarized House: Row 2 internally blocked by static homeowner NPC at (4,2). Cannot be crossed internally.
-- Column 24 Stairs: Railing on West side at (24,18) blocks sideways entry from (23,18). (24,19) is Gym wall.
-- Column 17 / Column 12 Stairs: Bottom stair tiles (17,15) and (12,15) have south-facing bottom railings (impassable going North).
-- Row 19 Ledges: Ledges hop down facing South across Cols 32-37. Row 20 passes below these ledges.
-### Empirical Tile Passability Findings (Turns 30680-30750)
-- Col 24 Stairs: Bottom tile (24, 18) west side is blocked by railing from (23, 18).
-- Col 23 Stairs: Bottom tile (23, 25) is a south-facing one-way staircase (impassable going North from 23, 26).
-- Row 28 Bushes: Bushes run continuously from Col 18 (18, 28) to Col 35 (35, 28).
-- Col 17 Opening: Row 28 is open pavement at (16, 28) and (17, 28).
-- Row 29 Grass Highway: Row 29 is open checkered grass from Col 19 (19, 29) all the way East to Col 35 (35, 29) gap.
-- Bike Shop Plaza Ramp: Column 17 (17, 24) -> (17, 23) is an open north-south pavement slope connecting lower Bike Shop plaza to Central Cerulean upper level (y=23 and north). Stairs at (18, 24) have a west railing blocking entry from (17, 24).
-- Column 24 Stairs Approach: Row 19 is blocked at (23, 19) by Gym corner wall. Railing on West side at (24, 18) blocks entry from (23, 18).
-- Northbound Street Found: Column 8 (8, 20) -> (8, 13) -> (8, 12) connects Central Cerulean to North Cerulean Row 12 street! Row 12 goes East past houses directly to Col 32 alleyway and Route 9 corridor.
-- Column 33 Street: Column 33 at (33, 11) -> (33, 18) is a wide open pavement street connecting North Cerulean (y=11) to Row 18 corridor (33, 18) -> (37, 18) -> hop South to (37, 20) -> Route 9.
-- Burglarized House Exit Verified: Stepping through burglar hole at (3, 0) / (3, 1) inside house exits onto North Cerulean Row 8/9 yellow brick highway at (27, 9). Row 8/9 highway runs East continuously past Col 32.
-- Row 28 Bushes: Bushes run continuously from Col 18 (18, 28) to Col 35 (35, 28).
-- Col 17 Opening: Row 28 is open pavement at (16, 28) and (17, 28).
-- Row 29 Grass Highway: Row 29 is open checkered grass from Col 19 (19, 29) all the way East to Col 35 (35, 29) gap.
-- Route 9 East Exit Boundary: Col 38 is a solid rock wall from y=18 down through y=33. Open passage to Route 9 is at Row 16 and Row 17: (38, 16) and (38, 17) lead directly East into Route 9.
+### Key Obstacles & Passages
+- Cut Tree (19, 28): Connects South Cerulean (y=29/30) to Central Cerulean (y=26/27).
+- Column 35 Fence: Vertical wooden fence from y=20 down to y=25.
+- Row 19 Ledges: One-way south-facing ledges across Cols 32-37.
+- Column 24 Railing: West railing at (24, 18) blocks entry from (23, 18).
+- Row 22 Highway: Row 22 is open grass/pavement from Col 34 all the way West to Col 17 (bypasses Col 35 fence, Col 31 NPC, and Col 27 signpost).
+- Column 17 Slope: Open North-South pavement from (17, 26) up to Row 16 (17, 16).
