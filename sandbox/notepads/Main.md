@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31942)
-- Location: Rock Tunnel B1F (31, 4)
-- Active Protocol: In wild Machop battle at (31, 4). Clearing battle text and selecting RUN to return to overworld.
+## CURRENT STATUS & DASHBOARD (Turn 31951)
+- Location: Rock Tunnel B1F (20, 12)
+- Active Protocol: At (20, 12) in Rock Tunnel B1F. Walking North along Col 20 to (20, 4) to test Row 3/4 Eastbound connection.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
