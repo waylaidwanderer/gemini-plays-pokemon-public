@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31010)
-- Location: Burglarized House (2, 7)
-- Active Protocol: Stand at (2, 7), step Right 1 to (3, 7), walk Up 7 steps along Column 3 to back exit hole at (3, 0), exit onto North Cerulean Row 9 yellow-brick highway at (27, 9), then walk East along Row 9 straight into Route 9!
+## CURRENT STATUS & DASHBOARD (Turn 31051)
+- Location: Route 9 (19, 13)
+- Active Protocol: Step Up 1 to (19, 12), Right 1 to (20, 12), Up 2 to (20, 10) on upper Route 9 highway, then walk East straight to Route 10!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
