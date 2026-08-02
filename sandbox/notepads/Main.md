@@ -1,3 +1,3 @@
-## CURRENT STATUS & DASHBOARD (Turn 29268)
-- Location: Cerulean City (25, 27)
-- Active Protocol: Executing find_cerulean_south_exit.py to probe all columns along Row 27 for the South gap leading to Route 5.
+## CURRENT STATUS & DASHBOARD (Turn 29270)
+- Location: Cerulean City South Gap (17, 28)
+- Active Protocol: Walk Left 1 to (16, 28), then Down 4 to (16, 32) to transition South onto Route 5.
