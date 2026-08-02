@@ -1,3 +1,3 @@
-## CURRENT STATUS & DASHBOARD (Turn 29371)
-- Location: Cerulean City (17, 16)
-- Active Protocol: Navigate via Col 36 open pavement corridor to Burglarized House at (28, 12).
+## CURRENT STATUS & DASHBOARD (Turn 29401)
+- Location: Cerulean City (30, 20)
+- Active Protocol: Single-step probe south to Row 21, then east along Row 21/25 to reach Column 36 highway.
