@@ -1,5 +1,5 @@
-import mgba
 import time
+import mgba
 
 def move(buttons):
     mgba.press_buttons(buttons)
@@ -9,37 +9,57 @@ def move(buttons):
     return pos
 
 pos = mgba.get_coordinates()
-print("Starting backtrack to B3F stairs from:", pos)
+print(f"Current pos: {pos}")
 
-if pos['x'] == 15 and pos['y'] == 18:
-    # 1. Walk Up to (15, 17)
-    pos = move(["Up"])
+if pos['x'] == 2 and pos['y'] == 9:
+    # Walk Right to (3, 9)
+    pos = move(['Right'])
+    # Walk Down 2 steps to (3, 11)
+    pos = move(['Down'])
+    pos = move(['Down'])
     
-    # 2. Walk Right to (16, 17)
-    pos = move(["Right"])
-    
-    # 3. Walk Up onto the (16, 16) UP spinner
-    print("Stepping onto (16, 16) UP spinner...")
-    pos = move(["Up"])
-    time.sleep(4.0)
+    # Step onto (4, 11) RIGHT-pointing spinner
+    print("Stepping onto RIGHT-pointing spinner...")
+    pos = move(['Right'])
+    print("Waiting for slide...")
+    time.sleep(5.0)
     pos = mgba.get_coordinates()
-    print("Position after slide:", pos)
+    print(f"Position after slide: {pos}")
     
-    # 4. Walk Right 4 steps to (20, 11)
-    print("Walking Right to Column 20...")
-    for _ in range(4):
-        pos = move(["Right"])
-        
-    # 5. Walk Up 3 steps to (20, 8)
-    print("Walking Up to Row 8...")
-    for _ in range(3):
-        pos = move(["Up"])
-        
-    # 6. Step Right onto B3F stairs at (21, 8)
-    print("Taking B3F stairs...")
-    pos = move(["Right"])
-    time.sleep(2.0)
-    pos = mgba.get_coordinates()
-    print("Final position on B3F:", pos)
-
+if pos['x'] == 8 and pos['y'] == 11:
+    # Walk Right to (9, 11)
+    pos = move(['Right'])
+    # Walk Right to (10, 11)
+    pos = move(['Right'])
+    
+    # Take screenshot at (10, 11) to see what is to our right!
+    print("Taking screenshot at (10, 11) to inspect right side...")
+    mgba.take_screenshot()
+    
+    # Try to walk Right
+    print("Testing if (11, 11) is walkable...")
+    test_pos = move(['Right'])
+    if test_pos['x'] == 10:
+        print("Blocked going Right! Testing Up/Down from (10, 11)...")
+        # Try Up
+        test_up = move(['Up'])
+        if test_up['y'] == 10:
+            print("Up is walkable, now at:", test_up)
+            # Take screenshot
+            mgba.take_screenshot()
+            # Return Down
+            move(['Down'])
+        else:
+            print("Up is blocked")
+            
+        # Try Down
+        test_down = move(['Down'])
+        if test_down['y'] == 12:
+            print("Down is walkable, now at:", test_down)
+            mgba.take_screenshot()
+            # Return Up
+            move(['Up'])
+        else:
+            print("Down is blocked")
+            
 mgba.take_screenshot()
