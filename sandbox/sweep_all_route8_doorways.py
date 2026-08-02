@@ -1,31 +1,28 @@
 import mgba
 import time
 
-print("Starting Master Overworld Doorway Sweep for Underground Path...")
-
-# Step 1: Close dialogue and exit Trade House
-mgba.press_buttons(["B", "B", "sleep 300", "Down", "Down", "Right", "Down", "Down", "sleep 1000"])
+print("Starting Western Gatehouse & Route 8 Complete Doorway Search...")
 
 pos = mgba.get_coordinates()
-print(f"Position after exiting building: {pos}")
-s_out = mgba.take_screenshot()
-print(f"Outside screenshot: {s_out}")
+print(f"Current Position on Route 8: {pos}")
 
-# We are outside on Route 8 around (9, 12) or (13, 16)
-# Let's test walking to candidate doorway areas on Western Sector & Lower Highway!
+# Walk from (14, 17) to Cut tree gap at (5, 8) -> enter Western Gatehouse map
+# Path: Up 5 to (14, 12) -> Left 1 to (13, 12) -> Left 3 to (10, 12) -> Up 4 through Col 12 gap to (6, 8) -> Left 7 to (-1, 8) / (39, 16)
+seq_to_west = [
+    "Up", "Up", "Up", "Up", "Up",
+    "Left", "Left", "Left", "Left",
+    "Up", "Up", "Up", "Up",
+    "Left", "Left", "Left", "Left", "Left", "Left", "Left", "sleep 1000"
+]
 
-# Candidate 1: Col 11, Row 19
-# From (9, 12): Down 4 to (9, 16), Right 2 to (11, 16), Down 3 to (11, 19)
-seq_c1 = ["Down", "Down", "Down", "Down", "Right", "Right", "Down", "Down", "sleep 500"]
-mgba.press_buttons(seq_c1)
-p_c1 = mgba.get_coordinates()
-print(f"Position at Candidate 1 (11, 19) area: {p_c1}")
-s_c1 = mgba.take_screenshot()
-print(f"Candidate 1 screenshot: {s_c1}")
+mgba.press_buttons(seq_to_west)
 
-# Try stepping Up into doorway at (11, 19)
-mgba.press_buttons(["Up", "sleep 1000"])
-p_c1_door = mgba.get_coordinates()
-print(f"Position after Up at (11, 19): {p_c1_door}")
-s_c1_door = mgba.take_screenshot()
-print(f"Candidate 1 doorway screenshot: {s_c1_door}")
+pos_w = mgba.get_coordinates()
+print(f"Position after entering Western Gatehouse map: {pos_w}")
+s_w = mgba.take_screenshot()
+print(f"Western Gatehouse map screenshot: {s_w}")
+
+# Let's test probing candidate doorway coordinates on Western Gatehouse map:
+# Candidate 1: Col 25 Row 20 / Row 25
+# Candidate 2: Col 35 Row 19
+# Candidate 3: Col 20 Row 20
