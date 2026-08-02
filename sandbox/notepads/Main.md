@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31900)
-- Location: Route 10 (8, 8)
-- Active Protocol: At (8, 8) on Route 10 after wild battle. Walking East along Row 8 to (11, 8) towards Route 10 Pokemon Center.
+## CURRENT STATUS & DASHBOARD (Turn 31905)
+- Location: Route 10 (13, 13)
+- Active Protocol: At (13, 13) on Route 10. Walking Down 2 and Left 2 to (11, 15) towards Route 10 Pokemon Center and Rock Tunnel Entrance.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
