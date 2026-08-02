@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31115)
+## CURRENT STATUS & DASHBOARD (Turn 31117)
 - Location: Route 9 (45, 6)
-- Active Protocol: Step Up 2 to (45, 4), Right 1 to (46, 4) overpass, Down 4 to (46, 8), then walk East straight into Route 10!
+- Active Protocol: Walk Down to (45, 14), Right to (46, 14) stairway, and test directions to reach Route 10!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
