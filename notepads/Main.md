@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31716)
-- Location: Route 9 (20, 11)
-- Active Protocol: Walking Down 3 steps to (20, 14), then Left 5 steps to (15, 14) to explore the Western Sector (x=0 to x=15) and locate the western entrance / Cut Tree area at (5, 8).
+## CURRENT STATUS & DASHBOARD (Turn 31719)
+- Location: Route 9 (17, 15)
+- Active Protocol: Walking UP 1 step to (17, 14), then Left 12 steps along Row 14 pavement to (5, 14) to reach Western Sector and examine Cut Tree area at (5, 8).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
