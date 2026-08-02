@@ -10,20 +10,27 @@ def move(buttons):
 pos = mgba.get_coordinates()
 print(f"Starting at: {pos}")
 
-# We are at (4, 13)
-# Step 1: Walk Down to (4, 14)
-pos = move(["Down"])
+# We are at (16, 13)
+# 1. Walk Right to (17, 13) (1 step Right)
+pos = move(["Right"])
 
-# Step 2: Walk Right to (5, 14) (RIGHT spinner) -> slides us to (9, 16)
-pos = move(["Right"])
-time.sleep(2.0)
-pos = mgba.get_coordinates()
-print(f"After first slide: {pos}")
+# 2. Walk Down to (17, 20) (7 steps Down)
+print("Walking down Column 17...")
+for _ in range(7):
+    pos = move(["Down"])
 
-# Step 3: Walk Right 2 steps to step onto (11, 16) RIGHT spinner -> slides us to (15, 17/18)
-pos = move(["Right"])
-pos = move(["Right"])
-time.sleep(3.0)
+# 3. Walk Right to (19, 20) (2 steps Right)
+print("Walking right to Column 19...")
+for _ in range(2):
+    pos = move(["Right"])
+
+# 4. Walk Up to (19, 18) stairs (2 steps Up)
+print("Walking up to (19, 18) B4F stairs...")
+pos = move(["Up"])
+pos = move(["Up"])
+
+# Wait for map transition to B4F
+time.sleep(1)
 pos = mgba.get_coordinates()
-print(f"After second slide: {pos}")
+print(f"Position on B4F: {pos}")
 mgba.take_screenshot()
