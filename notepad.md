@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 30354)
-- Location: Underground Path Tunnel (5, 22)
-- Active Protocol: Riding South along Column 5 to (5, 41) -> West to (2, 41) to exit to Route 6 Entrance Building.
+## CURRENT STATUS & DASHBOARD (Turn 30356)
+- Location: Route 6 Underground Path Entrance Building (4, 4)
+- Active Protocol: Walking South to (4, 7) and stepping out onto Route 6 at (17, 14).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
