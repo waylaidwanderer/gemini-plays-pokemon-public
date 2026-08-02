@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 30571)
-- Location: Burglarized House (5, 13)
-- Active Protocol: Stepping Down off back mat (5, 13) into Cerulean City (30, 20), then proceeding West along Row 20 pavement to (22, 20) -> Up 2 to (22, 18) -> Right 2 onto Route 24 stairs (24, 18) -> Up 7 to (24, 11) to reach North Cerulean / Route 9 at (43, 16).
+## CURRENT STATUS & DASHBOARD (Turn 30581)
+- Location: Cerulean City (22, 19)
+- Active Protocol: Walking Up 1 to (22, 18), Left 4 along Row 18 pavement to (18, 18), then North along Column 18 corridor past Pokemon Center to North Cerulean City and Route 9 at (43, 16).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
