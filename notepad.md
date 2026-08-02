@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 30751)
-- Location: Cerulean City (18, 26)
-- Active Protocol: Single-step testing Row 26 West from (18, 26) towards Column 14 overworld boundary.
+## CURRENT STATUS & DASHBOARD (Turn 30781)
+- Location: Cerulean City (29, 20)
+- Active Protocol: Traversing East Cerulean at (29, 20) around NPC at (31, 20) into Column 32 alley at (32, 18) towards Route 9 exit.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
