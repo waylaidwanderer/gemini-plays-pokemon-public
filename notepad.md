@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 29321)
-- Location: Cerulean City (20, 20)
-- Active Protocol: Walk Up 8 along Col 20 to Row 12 (20, 12), then Right 8 along Row 12 to Burglarized House at (28, 12).
+## CURRENT STATUS & DASHBOARD (Turn 29341)
+- Location: Burglarized House Interior (5, 2)
+- Active Protocol: Exit Burglarized House through back hole/doorway at (4, 1)/(5, 1) to Cerulean City back alley.
 
 <hr>
 
