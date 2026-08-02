@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31088)
-- Location: Route 9 (20, 10)
-- Active Protocol: Step Down 2 to (20, 12), Left 8 along Row 12 grass to (12, 12), then Up 4 to (12, 8) and Left 3 to (9, 8) to reach West Route 9.
+## CURRENT STATUS & DASHBOARD (Turn 31090)
+- Location: Route 9 (12, 12)
+- Active Protocol: Step Up 4 to (12, 8), Left 7 to (5, 8) at Cut tree area to inspect West Route 9 for unvisited passages.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
