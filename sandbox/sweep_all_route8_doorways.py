@@ -1,28 +1,59 @@
 import mgba
-import time
 
-print("Starting Western Gatehouse & Route 8 Complete Doorway Search...")
+def try_step(direction):
+    mgba.press_buttons([direction, "sleep 100"])
+    return mgba.get_coordinates()
 
-pos = mgba.get_coordinates()
-print(f"Current Position on Route 8: {pos}")
+def main():
+    pos = mgba.get_coordinates()
+    print(f"Start pos: {pos}")
+    
+    exits = []
+    
+    # Sweep x from 28 to 53 along y=14 and y=15
+    for y in [14, 15]:
+        for x in range(28, 54):
+            # Nav to (x, y)
+            c = mgba.get_coordinates()
+            while c['x'] < x:
+                nxt = try_step("Right")
+                if nxt == c: break
+                c = nxt
+            while c['x'] > x:
+                nxt = try_step("Left")
+                if nxt == c: break
+                c = nxt
+            while c['y'] < y:
+                nxt = try_step("Down")
+                if nxt == c: break
+                c = nxt
+            while c['y'] > y:
+                nxt = try_step("Up")
+                if nxt == c: break
+                c = nxt
+            
+            c = mgba.get_coordinates()
+            if c['x'] != x or c['y'] != y:
+                continue
+                
+            # Test all 4 directions
+            for d in ["Up", "Left", "Down", "Right"]:
+                nxt = try_step(d)
+                if nxt['x'] != x or nxt['y'] != y:
+                    if nxt['x'] < 28 or nxt['x'] > 53 or nxt['y'] < 14 or nxt['y'] > 15:
+                        print(f"!!! EXIT FOUND !!! From ({x}, {y}) dir {d} -> {nxt}")
+                        exits.append((x, y, d, nxt))
+                    # Step back to (x, y)
+                    c = mgba.get_coordinates()
+                    while c['x'] < x: try_step("Right"); c = mgba.get_coordinates()
+                    while c['x'] > x: try_step("Left"); c = mgba.get_coordinates()
+                    while c['y'] < y: try_step("Down"); c = mgba.get_coordinates()
+                    while c['y'] > y: try_step("Up"); c = mgba.get_coordinates()
 
-# Step 1: Walk from (8, 16) -> Down 2 to (8, 18) -> Left 6 to (2, 18) -> Up 10 to (2, 8) -> Left 6 through Cut tree gap at (5, 8) to (-1, 8) / (39, 16) on Western Gatehouse Map
-seq_to_west = [
-    "Down", "Down",
-    "Left", "Left", "Left", "Left", "Left", "Left",
-    "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up",
-    "Left", "Left", "Left", "Left", "Left", "Left", "sleep 1000"
-]
+    print("\n=== SWEEP COMPLETED ===")
+    print(f"Total exits found: {len(exits)}")
+    for e in exits:
+        print(f"Exit: {e}")
 
-mgba.press_buttons(seq_to_west)
-
-pos_w = mgba.get_coordinates()
-print(f"Position after entering Western Gatehouse map: {pos_w}")
-s_w = mgba.take_screenshot()
-print(f"Western Gatehouse map screenshot: {s_w}")
-
-# Now on Western Gatehouse Map (around 39, 16 or 32, 16)
-# Let's explore West along Row 16 / Row 21 to Col 25, Col 20, Col 15, Col 10, Col 5!
-# Candidate 1: Col 25 Row 20 / Row 25
-# Candidate 2: Col 35 Row 19
-# Candidate 3: Col 20 Row 20
+if __name__ == "__main__":
+    main()
