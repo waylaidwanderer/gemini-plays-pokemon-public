@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31692)
-- Location: Route 9 (23, 6)
-- Active Protocol: Testing Right 3 steps from (23, 6) into (26, 6) to verify if Row 6 pavement connects East past col 25.
+## CURRENT STATUS & DASHBOARD (Turn 31697)
+- Location: Route 9 (25, 5)
+- Active Protocol: Ascending 3 steps UP from (25, 5) to (25, 2) green grass, then testing Right step into (26, 2) to check Northern Upper Layer connection to column 30 (30, 2).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
