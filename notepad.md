@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31934)
-- Location: Rock Tunnel B1F (31, 7)
-- Active Protocol: At (31, 7) in Rock Tunnel B1F. Walking Up 2 to (31, 5) and Right 5 to (36, 5) to bypass (32, 7) rock wall and continue East.
+## CURRENT STATUS & DASHBOARD (Turn 31935)
+- Location: Rock Tunnel B1F (31, 5)
+- Active Protocol: At (31, 5) in Rock Tunnel B1F. Walking Up 3 to Row 2 at (31, 2) and Right 5 to (36, 2) to bypass x=32..33 rock wall and continue East.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -175,6 +175,7 @@
 - 1F Ladder Arrival: (21, 7)
 - Dark Cave Environment: Empirical testing required for all corridors.
 - Eastbound Corridor Verified: (21, 7) -> (31, 7) open cave floor along Row 4..7.
+- Row 7 Rock Protrusion: (32, 7). Bypass via Row 5/6 (x=31..36).
 
 <hr>
 
@@ -560,5 +561,6 @@
 - Dark Cave Environment: Empirical testing required for all corridors.
 - Eastbound Corridor Verified: (21, 7) -> (31, 7) open cave floor along Row 4..7.
 - Row 7 Rock Protrusion: (32, 7). Bypass via Row 5/6 (x=31..36).
+- Rock Wall Protrusion at x=32..33 (y=3..7). Bypass via Row 2 (x=31..36).
 
 <hr>
