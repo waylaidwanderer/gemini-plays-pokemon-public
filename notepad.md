@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31956)
+## CURRENT STATUS & DASHBOARD (Turn 31957)
 - Location: Rock Tunnel B1F (21, 10)
-- Active Protocol: In wild Zubat battle at (21, 10). Clearing battle text and selecting RUN to return to overworld at (21, 10).
+- Active Protocol: In wild Zubat battle at (21, 10). Selecting RUN to return to overworld at (21, 10).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
