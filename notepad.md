@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 29752)
-- Location: Route 6 Overworld (17, 28)
-- Active Protocol: Walk Left 7 to (10, 28) on Route 6 to find the open southbound path through Row 32 wall into Vermilion City.
+## CURRENT STATUS & DASHBOARD (Turn 29753)
+- Location: Route 6 Overworld (10, 28)
+- Active Protocol: Walk Left 2 to (8, 28), Down 8 along Column 8 to pass through (8, 32) gap into Vermilion City -> proceed to Celadon City via Route 8/7 Underground Path.
 
 <hr>
 
