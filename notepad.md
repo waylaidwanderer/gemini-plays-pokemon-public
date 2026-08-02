@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31697)
-- Location: Route 9 (25, 5)
-- Active Protocol: Ascending 3 steps UP from (25, 5) to (25, 2) green grass, then testing Right step into (26, 2) to check Northern Upper Layer connection to column 30 (30, 2).
+## CURRENT STATUS & DASHBOARD (Turn 31700)
+- Location: Route 9 (25, 2)
+- Active Protocol: Testing Right 1 step into (26, 2) from (25, 2) to check if diagonal slope tile at (26, 2) connects East to column 30 (30, 2).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
