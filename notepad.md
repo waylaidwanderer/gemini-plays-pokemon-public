@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 30338)
-- Location: Route 5 (19, 34)
-- Active Protocol: Riding South on Bicycle along Route 5 to the Underground Path Entrance Building at (17, 27).
+## CURRENT STATUS & DASHBOARD (Turn 30340)
+- Location: Route 5 (9, 0)
+- Active Protocol: Riding South on Bicycle along Route 5 towards Underground Path Entrance Building at (17, 27).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
