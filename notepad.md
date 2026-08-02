@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31631)
-- Location: Route 9 (29, 13)
-- Active Protocol: Ascending 5 steps UP through (29, 9) gap to Row 8 (Upper Highway) at (29, 8), then walking East to Route 10 entrance (59, 8).
+## CURRENT STATUS & DASHBOARD (Turn 31646)
+- Location: Route 9 (29, 8)
+- Active Protocol: Descending 4 steps DOWN to Row 12 at (29, 12), walking East 12 steps to (41, 12) to use the Col 41 Highway Gap to reach the Route 10 upper highway.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
