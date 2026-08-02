@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31064)
-- Location: Route 9 (29, 13)
-- Active Protocol: Step Up 1 to (29, 12) on Row 12 grass highway, then walk East straight along Row 12 to Route 10!
+## CURRENT STATUS & DASHBOARD (Turn 31065)
+- Location: Route 9 (39, 12)
+- Active Protocol: Walk Right 2 to (41, 12), Down 2 to (41, 14), Right 9 to (50, 14), then ascend Col 52 stairway to Route 10!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -119,6 +119,7 @@
 - Entrance from Cerulean City: (0, 8)
 - Cut Tree: (5, 8) blocks eastern passage.
 - Ledge Gap / Passage: (19, 13) connects lower basin (Row 14) to upper highway (Row 12).
+- Ledge Gap / Passage: (29, 13) connects lower basin (Row 14) directly UP to Row 12 grass highway.
 
 <hr>
 
