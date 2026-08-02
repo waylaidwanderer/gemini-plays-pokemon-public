@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 30961)
-- Location: Cerulean City (17, 21)
-- Active Protocol: Stand at (17, 21), walk Up 5 steps along Column 17 to (17, 16) Row 16 corridor, then proceed East along Row 16 directly into Route 9 at (39, 16).
+## CURRENT STATUS & DASHBOARD (Turn 30991)
+- Location: Cerulean City (17, 18)
+- Active Protocol: Stand at (17, 18), walk East 6 steps to (23, 18), step Left 1 to (22, 18) and Down 2 to (22, 20), walk East 8 steps to (30, 20) Gym door, step Right 3 to (33, 20) Northbound street, then North to Row 12 and East to Route 9!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
