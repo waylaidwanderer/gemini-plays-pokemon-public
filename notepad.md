@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31113)
-- Location: Route 9 (41, 8)
-- Active Protocol: Step Up 2 to (41, 6) on Row 6 Northern highway, then walk East straight into Route 10!
+## CURRENT STATUS & DASHBOARD (Turn 31115)
+- Location: Route 9 (45, 6)
+- Active Protocol: Step Up 2 to (45, 4), Right 1 to (46, 4) overpass, Down 4 to (46, 8), then walk East straight into Route 10!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -122,6 +122,7 @@
 - Ledge Gap / Passage: (29, 13) connects lower basin (Row 14) directly UP to Row 12 grass highway.
 - Ledge Gap / Passage: (29, 9) connects Row 10 to Row 8 grass.
 - Northern Highway Gap: (20, 6) connects Row 10/12 directly UP to Row 6 Northern highway.
+- Col 41 Highway Gap: (41, 8) connects Row 12 directly UP to Row 6 Northern highway.
 
 <hr>
 
