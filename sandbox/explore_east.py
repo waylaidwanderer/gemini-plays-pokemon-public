@@ -7,22 +7,21 @@ def move(buttons):
     print(f"Pressed {buttons}, coordinates: {pos}")
     return pos
 
-# We are at (15, 18) on B2F
-print("Exploring from (15, 18) to the east...")
-
-# Step 1: Step Right onto (16, 18) UP spinner -> slides to (16, 13)
-move(["Right", "sleep 2500"])
-
-# Let's verify we are at (16, 13)
 pos = mgba.get_coordinates()
-print("Position after slide (should be 16, 13):", pos)
+print(f"Starting at: {pos}")
 
-# Let's try walking in all 4 directions to see where we can go!
-for d in ["Up", "Down", "Left", "Right"]:
-    mgba.press_buttons([d])
-    curr = mgba.get_coordinates()
-    print(f"Tried {d}, coordinates: {curr}")
-    if curr != pos:
-        # Move back to (16, 13)
-        opposite = {"Up": "Down", "Down": "Up", "Left": "Right", "Right": "Left"}[d]
-        mgba.press_buttons([opposite])
+# Currently at (23, 9) on B1F
+# 1. Walk Right to Column 28 (5 steps Right)
+for _ in range(5):
+    pos = move(["Right"])
+
+# 2. Walk Down Column 28 as far as possible
+print("Walking Down Column 28...")
+for i in range(9, 25):
+    pos = move(["Down"])
+    if pos['y'] != i + 1:
+        print(f"Blocked at {pos} during Down movement along Column 28")
+        break
+
+print("Final position after exploration:", mgba.get_coordinates())
+mgba.take_screenshot()
