@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31065)
-- Location: Route 9 (39, 12)
-- Active Protocol: Walk Right 2 to (41, 12), Down 2 to (41, 14), Right 9 to (50, 14), then ascend Col 52 stairway to Route 10!
+## CURRENT STATUS & DASHBOARD (Turn 31066)
+- Location: Route 9 (44, 15)
+- Active Protocol: Dismiss text box with B, step Up 1 to (44, 14), Right 6 steps to (50, 14), then ascend Col 52 stairway to Route 10!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
