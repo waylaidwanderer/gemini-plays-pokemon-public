@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31670)
+## CURRENT STATUS & DASHBOARD (Turn 31673)
 - Location: Route 9 (17, 14)
-- Active Protocol: Ascending 2 steps UP to (17, 12) on Row 12, then walking Left along Row 12 towards Western Entrance (x=0-10) to reach Northern Upper Layer (Rows 0-3) and take upper highway East to Route 10 (59, 8).
+- Active Protocol: Walking West 7 steps along Row 14 pavement highway from (17, 14) to (10, 14) to reach Western Sector and ascend Western Slope to Northern Upper Layer (Rows 0-3).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
