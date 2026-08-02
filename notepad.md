@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 30618)
-- Location: Cerulean City (21, 18)
-- Active Protocol: Walking Right 1 to (22, 18), then probing North/East access through Cols 22-30 overworld street to North Cerulean City and Route 9 at (43, 16).
+## CURRENT STATUS & DASHBOARD (Turn 30619)
+- Location: Cerulean City (22, 18)
+- Active Protocol: Walking Right 1 step along Row 18 pavement to (23, 18) to probe staircase entrance at (24, 18).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
