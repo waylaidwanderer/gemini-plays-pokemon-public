@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31918)
-- Location: Route 10 (2, 18)
-- Active Protocol: At (2, 18) on Route 10. Walking Right 6 to (8, 18) and UP 1 into (8, 17) cave entrance to enter Rock Tunnel 1F.
+## CURRENT STATUS & DASHBOARD (Turn 31919)
+- Location: Rock Tunnel 1F (15, 3)
+- Active Protocol: Inside Rock Tunnel 1F at entrance (15, 3). Navigating dark cave to Rock Tunnel B1F ladder.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
