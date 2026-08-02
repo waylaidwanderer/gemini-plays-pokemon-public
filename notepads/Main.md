@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 30661)
-- Location: Burglarized House (5, 13)
-- Active Protocol: Stepping Down 1 step to warp out through back door exit mat at (5, 13) to Cerulean City overworld at (30, 20).
+## CURRENT STATUS & DASHBOARD (Turn 30691)
+- Location: Cerulean City (22, 18)
+- Active Protocol: Single-step testing Row 18 pavement going East from (22, 18) towards Column 35.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
