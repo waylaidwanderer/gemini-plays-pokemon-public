@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 30811)
+## CURRENT STATUS & DASHBOARD (Turn 30841)
 - Location: Cerulean City (27, 12)
-- Active Protocol: Returning West along Row 12 towards Column 8 staircase at (8, 11) to access North Cerulean Row 8 highway.
+- Active Protocol: Speaking to Officer Jenny at (28, 12) outside Burglarized House to unlock front door at (28, 11).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
