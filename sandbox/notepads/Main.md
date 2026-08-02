@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31941)
-- Location: Rock Tunnel B1F (21, 13)
-- Active Protocol: At (21, 13) in Rock Tunnel B1F. Running Python probe to navigate North to Row 2 and East along Row 2 highway (x=31..45).
+## CURRENT STATUS & DASHBOARD (Turn 31942)
+- Location: Rock Tunnel B1F (31, 4)
+- Active Protocol: In wild Machop battle at (31, 4). Clearing battle text and selecting RUN to return to overworld.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
