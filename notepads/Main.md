@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 30586)
-- Location: Cerulean City (18, 18)
-- Active Protocol: Walking Left 1 to (17, 18), then North along Column 17 stairs (17, 15) to North Cerulean City and Route 9 at (43, 16).
+## CURRENT STATUS & DASHBOARD (Turn 30587)
+- Location: Cerulean City (17, 18)
+- Active Protocol: Walking Up 2 steps to (17, 16), then North onto Column 17 stairs (17, 15) -> (17, 14) to reach North Cerulean City and Route 9 at (43, 16).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
