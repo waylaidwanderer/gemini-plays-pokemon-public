@@ -1,3 +1,3 @@
-## CURRENT STATUS & DASHBOARD (Turn 29052)
-- Location: Western Gatehouse Map (33, 20) Gatehouse Entrance Sector
-- Active Protocol: At (33, 20) -> Left 1 to (32, 20) -> Up 1 to (32, 19) -> Left 2 into building doorway at (30, 19).
+## CURRENT STATUS & DASHBOARD (Turn 29102)
+- Location: Route 8 (28, 15) Lower Basin / Highway Sector
+- Active Protocol: Single-step probing around (28, 15) to locate the open passage West/North to Underground Path building at (19, 17).
