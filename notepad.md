@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 29735)
-- Location: Underground Path Tunnel (4, 0)
-- Active Protocol: Walk South through the Underground Path tunnel from (4, 0) to reach the southern exit at Route 6 -> exit to Route 6 -> proceed to Celadon City.
+## CURRENT STATUS & DASHBOARD (Turn 29736)
+- Location: Saffron Gatehouse on Route 5 (4, 3)
+- Active Protocol: Dismiss Guard dialogue -> exit Gatehouse South to Route 5 -> walk East on Route 5 to find Underground Path Entrance Building doorway -> enter Underground Path.
 
 <hr>
 
