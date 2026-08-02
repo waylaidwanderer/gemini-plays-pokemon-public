@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31200)
-- Location: Route 9 (34, 10)
-- Active Protocol: At (34, 10). Ascend Up 4 to Row 6 pavement at (34, 6) -> walk East along Row 6 highway directly to Route 10 at (59, 8).
+## CURRENT STATUS & DASHBOARD (Turn 31202)
+- Location: Route 9 (44, 6)
+- Active Protocol: At (44, 6). Left 3 to (41, 6) -> Down 6 to (41, 12) -> Right 5 to (46, 12) -> Up 4 to (46, 8) -> East to Route 10 (59, 8).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge

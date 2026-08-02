@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31200)
-- Location: Route 9 (34, 10)
-- Active Protocol: At (34, 10). Ascend Up 4 to Row 6 pavement at (34, 6) -> walk East along Row 6 highway directly to Route 10 at (59, 8).
+## CURRENT STATUS & DASHBOARD (Turn 31202)
+- Location: Route 9 (44, 6)
+- Active Protocol: At (44, 6). Left 3 to (41, 6) -> Down 6 to (41, 12) -> Right 5 to (46, 12) -> Up 4 to (46, 8) -> East to Route 10 (59, 8).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -125,8 +125,7 @@
 - Ledge Gap / Passage: (29, 9) connects Row 10 to Row 8 grass.
 - Col 41 Highway Gap: (41, 8) connects Row 12 UP to Row 6. Note: Row 6/7 highway dead-ends at (45, 6)/(45, 7) against rock wall.
 - Lower Basin Dead End Pocket: Lower basin at x=52-53 is a dead end pocket (x=54 is solid rock wall, y=13 is south-facing ledge). To exit, walk West along Row 14 to (29, 14) / (19, 14) to ascend to the Upper Highway.
-- Upper Highway Ledge Jump to East Highway: Row 4 at (30, 4) connects South over ledge at (30, 5) into (30, 6) Eastern Highway leading straight to Route 10.
-- Route 9 True Navigation Solution to Route 10 (VERIFIED): Row 12 grass -> Col 41 gap (41, 12) -> ascend to Row 6 (41, 6) -> walk Left 11 to (30, 6) Eastern Highway -> Right 4 to (34, 6) -> Down 4 to (34, 10) -> East to Route 10 (59, 8).
+- Route 9 Eastern Highway Solution (VERIFIED): Row 6 / Row 7 pavement (x=30 to x=59) is the continuous open highway to Route 10 (59, 8).
 
 <hr>
 
@@ -517,6 +516,6 @@
 - Ledge Gap / Passage: (29, 9) connects Row 10 to Row 8 grass.
 - Col 41 Highway Gap: (41, 8) connects Row 12 UP to Row 6. Note: Row 6/7 highway dead-ends at (45, 6)/(45, 7) against rock wall.
 - Lower Basin Dead End Pocket: Lower basin at x=52-53 is a dead end pocket (x=54 is solid rock wall, y=13 is south-facing ledge). To exit, walk West along Row 14 to (29, 14) / (19, 14) to ascend to the Upper Highway.
-- Route 9 Eastern Highway Solution (VERIFIED): Row 6 / Row 7 pavement (x=30 to x=59) is the continuous open highway to Route 10 (59, 8).
+- Route 9 Eastern Highway Solution (VERIFIED): Row 12 grass (41, 12) -> Right 5 to (46, 12) pavement -> Up 4 to Row 8 pavement (46, 8) -> walk East to Route 10 (59, 8).
 
 <hr>
