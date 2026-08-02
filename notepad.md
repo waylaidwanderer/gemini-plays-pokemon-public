@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31958)
-- Location: Rock Tunnel B1F (21, 10)
-- Active Protocol: At (21, 10) in Rock Tunnel B1F. Running Python probe to navigate Up to Row 5 (21, 5), Left to Col 17 (17, 5), and Down along Col 17 to Row 16 lower highway.
+## CURRENT STATUS & DASHBOARD (Turn 31959)
+- Location: Rock Tunnel 1F (17, 7)
+- Active Protocol: At (17, 7) in Rock Tunnel 1F. Walking Up 1, Left 7 to (10, 6), Down 5 to (10, 11), and Right 7 to (17, 11) ladder to descend to Rock Tunnel B1F.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
