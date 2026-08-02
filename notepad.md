@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31936)
-- Location: Rock Tunnel B1F (31, 4)
-- Active Protocol: At (31, 4) in Rock Tunnel B1F. East pocket is a dead end. Walking Left 10 to (21, 4) and Down 4 to (21, 8) to navigate Southbound B1F corridor.
+## CURRENT STATUS & DASHBOARD (Turn 31937)
+- Location: Rock Tunnel B1F (21, 8)
+- Active Protocol: At (21, 8) in Rock Tunnel B1F. Walking Down 5 steps along Col 21 to (21, 13) to explore Southbound B1F corridor.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -177,6 +177,7 @@
 - Eastbound Corridor Verified: (21, 7) -> (31, 7) open cave floor along Row 4..7.
 - Row 7 Rock Protrusion: (32, 7). Bypass via Row 5/6 (x=31..36).
 - Rock Wall Protrusion at x=32..33 (y=3..7). Bypass via Row 2 (x=31..36).
+- East Pocket (x=24..31, y=4..7): Dead-end. Return West to x=20..23 and head South down Row 8..15.
 
 <hr>
 
@@ -564,5 +565,6 @@
 - Row 7 Rock Protrusion: (32, 7). Bypass via Row 5/6 (x=31..36).
 - Rock Wall Protrusion at x=32..33 (y=3..7). Bypass via Row 2 (x=31..36).
 - East Pocket (x=24..31, y=4..7): Dead-end. Return West to x=20..23 and head South down Row 8..15.
+- Southbound Corridor Verified: (21, 8) -> (21, 13) open cave floor along Row 8..15.
 
 <hr>
