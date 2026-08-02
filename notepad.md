@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 29823)
-- Location: Route 6 Overworld (8, 35)
-- Active Protocol: Walk North 15 along Column 8 through (8, 32) gap to Row 20 (8, 20), East 9 to (17, 20), North to Underground Path Entrance Building at (17, 13) -> enter Underground Path.
+## CURRENT STATUS & DASHBOARD (Turn 29824)
+- Location: Route 6 Overworld (8, 28)
+- Active Protocol: Walk East 9 along Row 28 to Column 17 (17, 28) around pond, North 14 to (17, 14), Up 1 into Underground Path Entrance Building at (17, 13) -> enter Underground Path.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
