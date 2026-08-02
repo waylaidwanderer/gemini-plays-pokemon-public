@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31923)
-- Location: Rock Tunnel 1F (15, 7)
-- Active Protocol: At (15, 7) in Rock Tunnel 1F. Walking Down 4 and Right 2 to (17, 11) ladder to descend to B1F.
+## CURRENT STATUS & DASHBOARD (Turn 31924)
+- Location: Rock Tunnel 1F (17, 7)
+- Active Protocol: At (17, 7) in Rock Tunnel 1F. Running Python probe to navigate around rock wall via Col 20 to reach (17, 11) ladder.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
