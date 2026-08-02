@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31291)
-- Location: Route 9 (41, 6)
-- Active Protocol: At (41, 6). Retracing West to x=17/18 slope to ascend to Row 3/4 Main Top Highway -> Walk East along Row 3/4 to Route 10 (59, 8).
+## CURRENT STATUS & DASHBOARD (Turn 31321)
+- Location: Route 9 (10, 12)
+- Active Protocol: At (10, 12). Hopping Down ledge at (10, 13) to Row 14 lower basin at (10, 14) -> Walk West along Row 14 to Cerulean entrance (0, 14) -> Ascend to Row 4 Main Top Grass Highway -> Walk East along Row 4 to Route 10 (59, 8).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
