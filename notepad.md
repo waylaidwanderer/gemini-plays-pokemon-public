@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31561)
-- Location: Route 9 (28, 10)
-- Active Protocol: At (28, 10). Returning West to Cerulean City via Row 14 to re-enter Route 9 at (0, 8) Upper Highway, ascend West slope at (14, 8) onto Row 3, and cross East to Route 10 at (59, 8).
+## CURRENT STATUS & DASHBOARD (Turn 31591)
+- Location: Route 9 (46, 14)
+- Active Protocol: At (46, 14). Re-evaluating Route 9 topology. Testing Eastward passage along Row 14/15 past x=46.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -544,6 +544,6 @@
   2. Step UP at (19, 14) to (19, 13) -> (19, 12) (Middle Highway).
   3. Walk East along Row 12 to (29, 12).
   4. Step UP through (29, 10) / (29, 9) to (29, 8) (Upper Highway).
-  5. Re-enter Route 9 at West Entrance (0, 8) or ascend West slope at (14, 8) to Row 3 (y=3) to reach Route 10 entrance at (59, 8).
+  5. Explore Eastward passages past x=46 to find ascent/route to Route 10 entrance at (59, 8).
 
 <hr>
