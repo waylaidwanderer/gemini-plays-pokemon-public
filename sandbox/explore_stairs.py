@@ -8,23 +8,18 @@ def move(buttons):
     return pos
 
 pos = mgba.get_coordinates()
-print(f"Starting B3F pathing from: {pos}")
+print(f"Starting from: {pos}")
 
-# We are at (25, 6)
-# 1. Walk Down to (25, 7)
-pos = move(["Down"])
+# We are at (19, 15) on B3F
+# 1. Walk Up to (19, 10) (5 steps Up)
+print("Walking up to Row 10...")
+for _ in range(5):
+    pos = move(["Up"])
 
-# 2. Walk Left to (19, 7) (6 steps Left)
-for _ in range(6):
-    pos = move(["Left"])
-
-# 3. Walk Down to (19, 10) (3 steps Down)
-for _ in range(3):
-    pos = move(["Down"])
-
-# 4. Walk Left to (17, 10) through the gap at (18, 10) (2 steps Left)
+# 2. Walk Left to (17, 10) through (18, 10) (2 steps Left)
+print("Walking left to Column 17...")
 for _ in range(2):
     pos = move(["Left"])
 
-print("Successfully reached Western Room at:", mgba.get_coordinates())
+print("Final position:", mgba.get_coordinates())
 mgba.take_screenshot()
