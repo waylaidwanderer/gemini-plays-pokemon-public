@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31708)
+## CURRENT STATUS & DASHBOARD (Turn 31712)
 - Location: Route 9 (24, 11)
-- Active Protocol: Stepping UP to Row 10 pavement at (24, 10), Right 5 steps to (29, 10), then UP 2 steps to (29, 8) Upper Highway.
+- Active Protocol: Heading West to explore Western Sector (x=0 to x=18) and the Cut Tree area at (5, 8).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
