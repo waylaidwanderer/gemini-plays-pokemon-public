@@ -602,7 +602,7 @@
 
 ## B1F Layout & Mapping
 - **Stairs DOWN to B2F:** Located at B1F (23, 2). Warps the player DOWN to B2F, spawning them at (27, 8) facing Down (verified on Turn 15948).
-- **Elevator Doors**: On B1F, the exact location of the elevator doors and warps is currently an unverified hypothesis.
+
 - **Stairs UP to Celadon Game Corner:** Located at B1F (21, 2). Warps the player UP to Celadon Game Corner, spawning them at (17, 4) (verified on Turn 15914).
 - **Walkable Area:**
   - Row 1: Columns 19-24
