@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 29757)
+## CURRENT STATUS & DASHBOARD (Turn 29758)
 - Location: Vermilion City Overworld (14, 17)
-- Active Protocol: Walk Down 3 to (14, 20) highway, Left 5 to (9, 20), Up 1 into Fan Club doorway at (9, 19) -> speak to Chairman to get Bike Voucher -> return North for Bicycle.
+- Active Protocol: Walk Up 2 to (14, 15) highway above Gym, Left 5 to (9, 15), Down 4 to enter Fan Club doorway at (9, 19) -> speak to Chairman to get Bike Voucher.
 
 <hr>
 
