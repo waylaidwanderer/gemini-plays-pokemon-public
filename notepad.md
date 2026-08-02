@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 29271)
-- Location: Cerulean City South Gap (16, 28)
-- Active Protocol: Walk Right 1 to (17, 28), then Down 5 along Col 17 to exit South onto Route 5.
+## CURRENT STATUS & DASHBOARD (Turn 29272)
+- Location: Cerulean City Alcove (17, 28)
+- Active Protocol: Executing find_cerulean_south_exit.py to walk Up to Row 20 and probe West/East columns for the true Route 5 South exit.
 
 <hr>
 
