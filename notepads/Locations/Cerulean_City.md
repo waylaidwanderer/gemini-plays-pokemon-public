@@ -9,3 +9,9 @@
 - Column 24 Stairs: Railing on West side at (24,18) blocks sideways entry from (23,18). (24,19) is Gym wall.
 - Column 17 / Column 12 Stairs: Bottom stair tiles (17,15) and (12,15) have south-facing bottom railings (impassable going North).
 - Row 19 Ledges: Ledges hop down facing South across Cols 32-37. Row 20 passes below these ledges.
+### Empirical Tile Passability Findings (Turns 30680-30750)
+- Col 24 Stairs: Bottom tile (24, 18) west side is blocked by railing from (23, 18).
+- Col 23 Stairs: Bottom tile (23, 25) is a south-facing one-way staircase (impassable going North from 23, 26).
+- Row 28 Bushes: Bushes run continuously from Col 18 (18, 28) to Col 35 (35, 28).
+- Col 17 Opening: Row 28 is open pavement at (16, 28) and (17, 28).
+- Row 29 Grass Highway: Row 29 is open checkered grass from Col 19 (19, 29) all the way East to Col 35 (35, 29) gap.
