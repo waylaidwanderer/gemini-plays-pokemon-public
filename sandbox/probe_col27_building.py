@@ -1,34 +1,22 @@
 import mgba
+import time
 
-def main():
-    print("=== Probing Column 27/28 Building Boundary ===")
-    pos = mgba.get_coordinates()
-    print(f"Start pos: {pos}")
+print("Starting Western Gatehouse Map Exhaustive Doorway Probe...")
 
-    # Walk Left from (53, 15) to (28, 15)
-    mgba.press_buttons(["Left"] * 25)
-    pos = mgba.get_coordinates()
-    print(f"At Col 28 Row 15: {pos}")
+pos = mgba.get_coordinates()
+print(f"Current Position: {pos}")
 
-    # Probe Left at Row 15
-    mgba.press_buttons(["Left"])
-    pos = mgba.get_coordinates()
-    print(f"Probe Left on Row 15: {pos}")
+# Step 1: Walk from (9, 16) to (13, 16) -> (13, 12) -> (6, 8) -> (5, 8) Cut tree gap into Western Gatehouse map
+seq_to_west = [
+    "Right", "Right", "Right", "Right",
+    "Up", "Up", "Up", "Up",
+    "Left", "Left", "Left",
+    "Up", "Up", "Up", "Up",
+    "Left", "Left", "Left", "Left", "Left", "Left", "sleep 1000"
+]
+mgba.press_buttons(seq_to_west)
 
-    # Step Up to Row 14
-    mgba.press_buttons(["Up"])
-    pos = mgba.get_coordinates()
-    print(f"At Row 14: {pos}")
-
-    # Probe Left at Row 14
-    mgba.press_buttons(["Left"])
-    pos = mgba.get_coordinates()
-    print(f"Probe Left on Row 14: {pos}")
-
-    # Try probing Up/Down along Col 28 to find any door or pass
-    mgba.press_buttons(["Down"])
-    pos = mgba.get_coordinates()
-    print(f"Row 15 again: {pos}")
-
-if __name__ == "__main__":
-    main()
+pos_west = mgba.get_coordinates()
+print(f"Position after entering Western Gatehouse map: {pos_west}")
+s_west = mgba.take_screenshot()
+print(f"Western Gatehouse map screenshot: {s_west}")
