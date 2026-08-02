@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 29821)
-- Location: Vermilion City Overworld (18, 7)
-- Active Protocol: Walk Up 7 along Column 18 to (18, 0) -> map transition to Route 6 overworld -> enter Route 6 Underground Path -> exit to Route 5 -> Cerulean Bike Shop for Bicycle.
+## CURRENT STATUS & DASHBOARD (Turn 29822)
+- Location: Vermilion City Overworld (18, 0)
+- Active Protocol: Press Up 1 step to warp onto Route 6 overworld -> walk North along Column 18/17 to Underground Path Entrance Building at (17, 13) -> enter Underground Path.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -175,12 +175,7 @@
 - Row 26 (Cols 5-13) is open pavement/grass below the tree barrier, connecting West Lavender to East Lavender!
 - Column 13 (Rows 13-26) is a two-way open highway bypassing the Row 16 ledge.
 - Route 8 Entrance at (0,9) path from (7,22): West to Col 5 -> South to Row 26 -> East along Row 26 to Col 13 -> North along Col 13 to Row 13 -> Up through (13,11) gravel gap to Row 9 -> West along Row 9 to (0,9).
-- EMPIRICAL PROBE RESULT (Turn 28118): Stepping Up from (2, 18) to (2, 17) BUMPED into dark brown tree barrier at (2, 17). Rows 16 & 17 across Cols 2-8 form a solid tree barrier/ledge wall. Master path from West Lavender to Route 8 is: East along Row 18 to Col 13 -> North along Col 13 to Row 13 -> Up through (13, 11) gravel gap to Row 9 -> West along Row 9 to (0, 9) Route 8 Entrance!
-- EMPIRICAL PROBE RESULT (Turn 28121): Stepping Right from (8, 18) to (9, 18) BUMPED into dark green tree barrier at (9, 18). Cols 8 & 9 across Rows 18-25 form a central tree barrier separating West Lavender (Cols 0-7) from East Lavender (Cols 10-13). Master path from West Lavender to East Lavender is: Left to Col 2 (2, 18) -> Down to Row 22 (2, 22) -> East along Row 22 to Col 13 (13, 22) -> North along Col 13 to Row 13 (13, 13) -> Up through (13, 11) gravel gap to Row 9 -> West along Row 9 to (0, 9) Route 8 Entrance!
-- EMPIRICAL PROBE RESULT (Turn 28126): Stepping Right from (8, 22) to (9, 22) BUMPED into dark green tree barrier at (9, 22). Row 26 (Cols 2-13) is the ONLY open pavement connecting West Lavender to East Lavender! Route from (8, 22): Down 4 to Row 26 (8, 26) -> East 5 to Col 13 (13, 26) -> North along Col 13 to East Lavender!
-- EMPIRICAL PROBE RESULT (Turn 28129): Stepping Down from (8, 22) to (8, 23) BUMPED into dark green tree barrier at (8, 23). Column 8 is part of the central tree barrier (Cols 8 & 9). Open southbound path is at Column 6 / Column 5: Left 2 to (6, 22) -> Down 4 to Row 26 (6, 26) -> East 7 to Col 13 (13, 26)!
-- EMPIRICAL PROBE RESULT (Turn 28753): Column 13 at Row 19 (13, 19) is the East wall of the Pokemon Center building. Open North-South highway is Column 14 (14, 20 to 14, 9) green grass!
-- EMPIRICAL PROBE RESULT (Turn 28755): Column 14 at Row 11 (14, 11) is a grey gravestone statue monument. Open gap to Row 9 is at Column 13 (13, 11) gravel pass!
+
 
 <hr>
 
@@ -424,35 +419,14 @@
 - Column 26/27/28/29 mountain cliff wall blocks Row 6-9 Eastbound passage from Column 29.
 - Row 12 Green Grass Highway is accessible via Col 29 gap at (29, 13) and bypasses Col 27 mountain wall via Row 10/11 pavement corridor (28, 10) -> (27, 10).
 - MASTER ROUTE TO LOWER HIGHWAY EAST: From (29, 9) Upper Highway pass -> Down 3 to Row 12 green grass (29, 12) -> East 5 along Row 12 green grass to Col 34 (34, 12) -> North 6 along Col 34 to Row 6 pavement (34, 6) -> East along Row 6 pavement to Col 52 (52, 6) -> South 7 to Col 52 ledge gap (52, 13) -> hop down to Row 14 Lower Highway East!
-- EMPIRICAL PROBE RESULT (Turn 28023): Stepping Up from (46, 14) to (46, 13) BUMPED into a solid south-facing ledge wall at (46, 13). Row 13 at Col 46 is NOT walkable from Row 14.
-- EMPIRICAL PROBE RESULT (Turn 28034): Stepping Down from (29, 15) to (29, 16) BUMPED into a solid south-facing ledge wall at (29, 16).
-- EMPIRICAL PROBE RESULT (Turn 28041): Stepping Down from (25, 11) to (25, 12) BUMPED into a solid south-facing ledge wall at (25, 12).
 - EMPIRICAL DISCOVERY & PASS PROOF (Turn 28046): Stepping Down from (23, 12) HOPS OVER the (23, 13) tan gravel ledge and lands on Row 14 pavement at (23, 14)! Column 23 at (23, 13) is the VERIFIED ONE-WAY SOUTH-FACING LEDGE PASSAGE connecting the Upper Level (Row 11/12) directly to the Lower Level (Row 14/15/16/19)!
 
 - EMPIRICAL HIGHWAY DISCOVERY (Turn 28049): Column 24 across Rows 12-19 is an OPEN UNINTERRUPTED LIGHT BROWN PAVEMENT HIGHWAY! Row 15 at Col 23 connects Right to Col 24 pavement (24, 15) without any ledge.
-- EMPIRICAL PROBE RESULT (Turn 28052): Stepping Down from (23, 15) to (23, 16) BUMPED into a solid mountain cliff wall at Row 16 (23, 16). Row 16 across Cols 19-28 is a solid mountain cliff wall with no southbound exit from Row 15.
-- EMPIRICAL PROBE RESULT (Turn 28061): Stepping Up from (34, 12) to (34, 11) BUMPED into a solid south-facing ledge wall at (34, 11). Row 11 at Col 34 & Col 35 is a south-facing ledge wall.
 
-- EMPIRICAL PROBE RESULT (Turn 28077): Stepping Down from (52, 15) to (52, 16) BUMPED into a solid building roof/wall at (52, 16). Building roof/wall extends continuously across Cols 26-53 on Rows 16-19.
-- EMPIRICAL PROBE RESULT (Turn 28093): Stepping Left from (20, 11) to (19, 11) BUMPED into mountain rock cliff at (19, 11). Rows 7-11 at Col 19 are mountain cliff, but Rows 12-15 at Col 19 are open green grass / pavement connecting West to Western Sector (Cols 18-9)!
 - VERIFIED WESTERN SECTOR ENTRY (Turn 28096): Traversed Row 12 green grass past Col 19 mountain cliff to (13, 12) Western Sector!
-- EMPIRICAL PROBE RESULT (Turn 28098): Column 9 at Row 11 (9, 11) is mountain rock cliff. The open westbound pavement highway is on Rows 8 & 9 across Cols 9-13, accessed by walking Up through Col 12 pavement gap (12, 9) around NPC at (13, 10)!
-- EMPIRICAL PROBE RESULT (Turn 28101): Stepping Up from (12, 12) to (12, 11) BUMPED into a solid south-facing ledge wall at (12, 11). Row 11 across Cols 10-13 is a south-facing ledge wall.
-- EMPIRICAL PROBE RESULT (Turn 28149): Stepping Up from (46, 7) to (46, 6) BUMPED into mountain rock cliff at (46, 6). The open westbound pavement corridor around Col 45 is on Row 7: Up 3 to (46, 7) -> Left 4 to (42, 7) -> Down 1 to (42, 8)!
-- EMPIRICAL PROBE RESULT (Turn 28152): Stepping Up from (46, 8) to (46, 7) BUMPED into mountain rock cliff at (46, 7). Rows 6 & 7 at Col 46 are mountain cliff. The open Northern Highway bypass around Col 45 rock wall is at Column 50 on Row 5 green grass: Down 1 to (46, 9) -> Right 4 to (50, 9) -> Up 4 to Row 5 green grass (50, 5) -> Left along Row 5 green grass past Col 45!
 - EMPIRICAL PASSAGE PROOF (Turn 28712): Column 19 at (19, 13) is a TWO-WAY OPEN GAP connecting Lower Highway Row 14 pavement directly UP to Row 12 Green Grass Highway at (19, 12)!
-- EMPIRICAL PROBE RESULT (Turn 28715): Row 11 across Cols 10-13 is a solid south-facing ledge wall blocking northbound movement from Row 12 green grass.
-- EMPIRICAL PROBE RESULT (Turn 28716): Column 9 at Row 12 (9, 12) is a solid mountain rock pillar blocking westbound movement on Row 12 from (10, 12).
 - EMPIRICAL PASSAGE PROOF (Turn 28717): Columns 20-23 across Rows 10-12 form an OPEN 4-TILE WIDE PAVEMENT HIGHWAY connecting Row 12 directly UP to Row 10 pavement corridor at (20, 10)!
-- EMPIRICAL PROBE RESULT (Turn 28720): Row 5 at Column 23 (23, 5) is a south-facing ledge wall blocking northbound movement from Row 6.
-- EMPIRICAL PROBE RESULT (Turn 28721): Row 5 at Column 23 (23, 5) is a solid south-facing ledge wall blocking northbound movement from Row 6.
 - EMPIRICAL PASSAGE PROOF (Turn 28724): Row 14 green grass is an OPEN UNINTERRUPTED EASTBOUND HIGHWAY across Columns 34-45 bypassing the Column 45 mountain rock wall (which spans Rows 8-13)!
-- EMPIRICAL PROBE RESULT (Turn 28727): Row 13 across Cols 46-53 is a solid south-facing ledge wall blocking northbound movement from Row 14.
-- EMPIRICAL PROBE RESULT (Turn 28729): Column 53 at Row 13 (53, 13) is a solid south-facing ledge wall blocking northbound movement from Row 14.
-- EMPIRICAL PROBE RESULT (Turn 28735): Row 16 across Cols 28-33 is the solid north roof/wall of the building, blocking southbound movement from Row 15.
-- EMPIRICAL PROBE RESULT (Turn 28762): Row 7 at Column 46 (46, 7) is a solid mountain rock cliff blocking northbound movement from Row 8.
-- EMPIRICAL PROBE RESULT (Turn 28767): Row 5 at Column 50 (50, 5) is a solid south-facing ledge wall blocking northbound movement from Row 6.
-- EMPIRICAL PROBE RESULT (Turn 28771): Row 5 at Column 51 (51, 5) is a solid south-facing ledge wall blocking northbound movement from Row 6.
 - EMPIRICAL MAP BOUNDARY PROOF (Turn 28783): Column 60 on Route 8 is the eastern map transition boundary that warps player back to Lavender Town at (0, 9). Playable Route 8 grid spans Columns 0 to 59.
 ### Master Verified Gatehouse Doorway Entrance (Turn 29060)
 - Western Gatehouse Map (39, 16) connects West to Gatehouse Sector.

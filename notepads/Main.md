@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 29821)
-- Location: Vermilion City Overworld (18, 7)
-- Active Protocol: Walk Up 7 along Column 18 to (18, 0) -> map transition to Route 6 overworld -> enter Route 6 Underground Path -> exit to Route 5 -> Cerulean Bike Shop for Bicycle.
+## CURRENT STATUS & DASHBOARD (Turn 29822)
+- Location: Vermilion City Overworld (18, 0)
+- Active Protocol: Press Up 1 step to warp onto Route 6 overworld -> walk North along Column 18/17 to Underground Path Entrance Building at (17, 13) -> enter Underground Path.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
