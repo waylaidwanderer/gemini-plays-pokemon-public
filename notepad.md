@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 29765)
-- Location: Pokémon Fan Club in Vermilion City (3, 5)
-- Active Protocol: Walk Right 1 to (4, 5), face Up towards Chairman at (4, 3), press A to speak and receive the Bike Voucher.
+## CURRENT STATUS & DASHBOARD (Turn 29768)
+- Location: Pokémon Fan Club in Vermilion City (4, 5)
+- Active Protocol: Walk Left 2 to (2, 5), Up 2 to (2, 3), face Right towards Chairman at (3, 3), press A to speak and receive the Bike Voucher.
 
 <hr>
 
