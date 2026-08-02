@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 32035)
-- Location: Route 10 South (20, 13)
-- Active Protocol: Executing verified northern overpass (Up 7 to y=6, Left 4 to x=16, Down 11 to y=17) to enter Lavender Town.
+## CURRENT STATUS & DASHBOARD (Turn 32041)
+- Location: Route 10 South (16, 7)
+- Active Protocol: At (16, 7) on Route 10 South in wild Machop battle; escaping battle, then stepping Down 10 steps along Column 16 to enter Lavender Town.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
