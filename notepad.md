@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31212)
-- Location: Route 9 (41, 12)
-- Active Protocol: At (41, 12). Down 1 to lower basin (41, 14) -> Left 22 to (19, 14) -> return to West entrance (0, 8) to access Row 4 Northern Highway to Route 10.
+## CURRENT STATUS & DASHBOARD (Turn 31213)
+- Location: Route 9 (28, 14)
+- Active Protocol: At (28, 14). Ascend gap (29, 13) to (29, 12) -> bypass via (23, 10) to (23, 12) -> Left 10 to (13, 12) -> engage Junior Trainer at (13, 10) -> West to (5, 8) Cut tree -> Row 4 Northern Highway -> Route 10.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -126,6 +126,7 @@
 - Col 41 Highway Gap: (41, 8) connects Row 12 UP to Row 6. Note: Row 6/7 highway dead-ends at (45, 6)/(45, 7) against rock wall.
 - Lower Basin Dead End Pocket: Lower basin at x=52-53 is a dead end pocket (x=54 is solid rock wall, y=13 is south-facing ledge). To exit, walk West along Row 14 to (29, 14) / (19, 14) to ascend to the Upper Highway.
 - Route 9 Master Navigation Solution (VERIFIED): Access Row 4 Northern Highway at West entrance (5, 4) -> walk East on Row 4 past x=45 to (49, 4) -> jump South over ledge at (49, 5) to (49, 8) Eastern Highway -> walk East to Route 10 (59, 8).
+- Cerulean Re-Entry Loop: To return to West entrance from lower basin, walk West along Row 14 lower basin through Cerulean City East Exit -> re-enter Route 9 at (0, 8) top entrance.
 
 <hr>
 
@@ -516,7 +517,6 @@
 - Ledge Gap / Passage: (29, 9) connects Row 10 to Row 8 grass.
 - Col 41 Highway Gap: (41, 8) connects Row 12 UP to Row 6. Note: Row 6/7 highway dead-ends at (45, 6)/(45, 7) against rock wall.
 - Lower Basin Dead End Pocket: Lower basin at x=52-53 is a dead end pocket (x=54 is solid rock wall, y=13 is south-facing ledge). To exit, walk West along Row 14 to (29, 14) / (19, 14) to ascend to the Upper Highway.
-- Route 9 Master Navigation Solution (VERIFIED): Access Row 4 Northern Highway at West entrance (5, 4) -> walk East on Row 4 past x=45 to (49, 4) -> jump South over ledge at (49, 5) to (49, 8) Eastern Highway -> walk East to Route 10 (59, 8).
-- Cerulean Re-Entry Loop: To return to West entrance from lower basin, walk West along Row 14 lower basin through Cerulean City East Exit -> re-enter Route 9 at (0, 8) top entrance.
+- Route 9 Master Navigation Solution (VERIFIED): Defeat Junior Trainer at (13, 10) -> ascend Col 13 to Row 8 pavement (13, 8) -> walk West to (5, 8) Cut tree -> ascend to Row 4 Northern Highway (5, 4) -> walk East on Row 4 past x=45 to (49, 4) -> jump South over ledge at (49, 5) to (49, 8) Eastern Highway -> walk East to Route 10 (59, 8).
 
 <hr>
