@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31138)
-- Location: Route 9 (20, 10)
-- Active Protocol: Step Down 2 to (20, 12), Left 8 along Row 12 grass to (12, 12), then Up 4 to (12, 8) and Left 3 to (9, 8) to inspect West Route 9.
+## CURRENT STATUS & DASHBOARD (Turn 31139)
+- Location: Route 9 (12, 12)
+- Active Protocol: Step Up 4 to (12, 8), Right 1 to (13, 8), Down 1 to (13, 9) facing Junior Trainer at (13, 10) to inspect/defeat trainer.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
