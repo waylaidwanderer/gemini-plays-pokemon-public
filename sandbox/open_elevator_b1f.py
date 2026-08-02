@@ -9,32 +9,62 @@ def move(buttons):
     return pos
 
 pos = mgba.get_coordinates()
-print("Starting B1F hidden warp test from:", pos)
+print("Starting B1F elevator systematic door test from:", pos)
 
-if pos['x'] == 25 and pos['y'] == 15:
-    # 1. Walk Up 4 steps to Row 11
-    print("Walking Up to Row 11...")
-    for _ in range(4):
-        pos = move(["Up"])
-        
-    # 2. Walk Left 2 steps to Column 23 (Row 11)
-    print("Walking Left to Column 23...")
-    for _ in range(2):
+if pos['x'] == 25 and pos['y'] == 14:
+    # 1. Walk Down 1 to (25, 15)
+    pos = move(["Down"])
+    
+    # 2. Test right half of door at (25, 16)
+    print("Testing right half at (25, 15) facing DOWN...")
+    mgba.press_buttons(["Down"]) # Face Down
+    time.sleep(0.3)
+    mgba.press_buttons(["A"]) # Press A
+    time.sleep(1.0)
+    
+    # Press A again in case of a textbox
+    print("Pressing A again to dismiss potential textbox...")
+    mgba.press_buttons(["A"])
+    time.sleep(1.0)
+    
+    # Try walking Down
+    print("Trying to walk Down...")
+    pos = move(["Down"])
+    if pos['y'] == 16:
+        print("Successfully opened and entered the right half of the door!")
+        # Continue Down into elevator warp
+        for _ in range(3):
+            pos = move(["Down"])
+        time.sleep(2.0)
+        print("Final position inside elevator:", mgba.get_coordinates())
+    else:
+        print("Right half failed. Moving to Left half...")
+        # 3. Walk to (24, 15)
         pos = move(["Left"])
         
-    # 3. Walk Up 8 steps to Row 3 (at Column 23)
-    print("Walking Up to Row 3...")
-    for _ in range(8):
-        pos = move(["Up"])
+        # 4. Test left half of door at (24, 16)
+        print("Testing left half at (24, 15) facing DOWN...")
+        mgba.press_buttons(["Down"]) # Face Down
+        time.sleep(0.3)
+        mgba.press_buttons(["A"]) # Press A
+        time.sleep(1.0)
         
-    # 4. Walk Right 1 step to (24, 3)
-    pos = move(["Right"])
-    
-    # 5. Step Up onto (24, 2) to test hidden warp!
-    print("Stepping onto (24, 2) warp...")
-    pos = move(["Up"])
-    time.sleep(2.0)
-    pos = mgba.get_coordinates()
-    print("Final position after warp attempt:", pos)
+        # Press A again in case of a textbox
+        print("Pressing A again to dismiss potential textbox...")
+        mgba.press_buttons(["A"])
+        time.sleep(1.0)
+        
+        # Try walking Down
+        print("Trying to walk Down...")
+        pos = move(["Down"])
+        if pos['y'] == 16:
+            print("Successfully opened and entered the left half of the door!")
+            # Continue Down into elevator warp
+            for _ in range(3):
+                pos = move(["Down"])
+            time.sleep(2.0)
+            print("Final position inside elevator:", mgba.get_coordinates())
+        else:
+            print("Left half failed as well.")
 
 mgba.take_screenshot()
