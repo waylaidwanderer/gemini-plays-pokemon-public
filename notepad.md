@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 30177)
-- Location: Burglarized House (5, 5)
-- Active Protocol: Standing inside Burglarized House at (5, 5). Walking South to Row 8 -> East to Col 9 -> North along Col 9 to Row 1 -> West along Row 1 to Col 3 -> North through hole in back wall at (3, 0) -> Cerulean City backyard (27, 9) -> East to Route 9 -> Route 10 -> Lavender Town -> Route 8 Underground Path -> Route 7 -> Celadon City!
+## CURRENT STATUS & DASHBOARD (Turn 30178)
+- Location: Burglarized House (2, 5)
+- Active Protocol: Standing inside Burglarized House at (2, 5). Walking East along Row 5 to Col 7 -> North to Row 3 -> West to Col 3 -> Facing Left to talk to NPC at (2, 3) / probing back wall exit at (3, 0) -> Cerulean City backyard (27, 9) -> East to Route 9 -> Route 10 -> Lavender Town -> Route 8 Underground Path -> Route 7 -> Celadon City!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
