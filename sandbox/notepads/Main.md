@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 30391)
-- Location: Cerulean City (19, 29)
-- Active Protocol: Facing Cuttable Tree at (19, 28) in Cerulean City to use Cut and access Middle/East Cerulean City towards Route 9.
+## CURRENT STATUS & DASHBOARD (Turn 30421)
+- Location: Burglarized House (7, 4)
+- Active Protocol: Exiting Burglarized House through front door to reach North Cerulean City towards Route 9 entrance at (43, 16).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
