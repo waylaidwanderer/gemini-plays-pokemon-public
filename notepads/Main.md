@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31646)
-- Location: Route 9 (29, 8)
-- Active Protocol: Descending 4 steps DOWN to Row 12 at (29, 12), walking East 12 steps to (41, 12) to use the Col 41 Highway Gap to reach the Route 10 upper highway.
+## CURRENT STATUS & DASHBOARD (Turn 31651)
+- Location: Route 9 (35, 12)
+- Active Protocol: Ascending 4 steps UP from (35, 12) through (35, 11)/(35, 10) to (35, 8) pavement highway. Testing Row 8/7/6 pavement highway Eastward toward Route 10.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
