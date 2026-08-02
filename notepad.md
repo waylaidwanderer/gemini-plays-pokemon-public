@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 29232)
-- Location: Trade House Exit Mat (1, 7)
-- Active Protocol: Press Down 1 step to exit Trade House to Route 8 at (13, 16), then execute automated Python probe of all remaining Route 8 doorways.
+## CURRENT STATUS & DASHBOARD (Turn 29234)
+- Location: Route 8 (13, 16) Lower Highway Sector
+- Active Protocol: Executing find_underground_path_route.py to probe Western Route 8 doorways for the Underground Path entrance.
 
 <hr>
 
