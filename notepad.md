@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31411)
-- Location: Route 9 (37, 14)
-- Active Protocol: At (37, 14). Walk Left 8 to (29, 14) -> Step Up to (29, 13) -> Ascend to (29, 8) Upper Highway -> Test passage from (29, 8) to Row 6/7 pavement (30, 6).
+## CURRENT STATUS & DASHBOARD (Turn 31441)
+- Location: Route 9 (23, 14)
+- Active Protocol: At (23, 14). Walk Left to (19, 14) -> Step Up to (19, 13) -> Ascend to Row 12 highway at (19, 12).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
