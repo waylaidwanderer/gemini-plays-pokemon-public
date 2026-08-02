@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31700)
-- Location: Route 9 (25, 2)
-- Active Protocol: Testing Right 1 step into (26, 2) from (25, 2) to check if diagonal slope tile at (26, 2) connects East to column 30 (30, 2).
+## CURRENT STATUS & DASHBOARD (Turn 31705)
+- Location: Route 9 (25, 5)
+- Active Protocol: Walking Down/Left around NPC at (24, 7) to Row 10 pavement at (24, 10), then East along Row 10 to (29, 10) to ascend/descend to Row 12/8 highway.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
