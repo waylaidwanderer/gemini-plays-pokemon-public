@@ -678,7 +678,7 @@
 - **Row 16 Railing/Wall:** Empirically verified to be completely solid and impassable from Column 10 to Column 22 on B4F.
 - **Column 23 Wall:** Empirically verified to be completely solid and impassable from Row 17 to Row 26 on B4F, completely walling off the elevator area (Columns 24-28).
 - **Stairs UP to B3F:** Located at B4F (19, 10). Takes the player back UP to B3F (19, 18) (verified on Turn 15679).
-- **Elevator Doors:** (24, 16) and (25, 16). Access to the elevator is from (24, 17) or (25, 17) going UP.
+- **Elevator Doors:** (24, 14) and (25, 14) on B1F (accessed from (24, 15) or (25, 15) going UP), and at (24, 16) and (25, 16) on B4F (accessed from (24, 17) or (25, 17) going UP).
 - **Walkable Areas:**
   - Row 25: Column 10 to Column 22 is a clear, walkable horizontal pink floor corridor.
   - Columns 10-11: Walkable vertical corridor from Row 17 to Row 25.
