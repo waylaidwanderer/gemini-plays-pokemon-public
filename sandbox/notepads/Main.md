@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 30552)
-- Location: Cerulean City (30, 20)
-- Active Protocol: Pressing Up 1 step to re-enter Burglarized House back door (30, 19) to finish homeowner dialogue and exit front door (4, 1) into North Cerulean (27, 9).
+## CURRENT STATUS & DASHBOARD (Turn 30559)
+- Location: Burglarized House (5, 13)
+- Active Protocol: Stepping Down off back mat (5, 13) into Cerulean City (30, 20), then proceeding East along overworld corridor to Route 9 at (43, 16).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
