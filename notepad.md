@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 32011)
-- Location: Route 10 South (37, 12)
-- Active Protocol: Exited Rock Tunnel onto Route 10 South at (37, 12); walking South along Route 10 to enter Lavender Town.
+## CURRENT STATUS & DASHBOARD (Turn 32035)
+- Location: Route 10 South (20, 13)
+- Active Protocol: Executing verified northern overpass (Up 7 to y=6, Left 4 to x=16, Down 11 to y=17) to enter Lavender Town.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
