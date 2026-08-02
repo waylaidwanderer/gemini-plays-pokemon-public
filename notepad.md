@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31072)
-- Location: Route 9 (28, 12)
-- Active Protocol: Step Up 2 to (28, 10), Left 3 to (25, 10), then continue West along Row 10 highway to explore West Route 9.
+## CURRENT STATUS & DASHBOARD (Turn 31075)
+- Location: Route 9 (20, 10)
+- Active Protocol: Step Up 4 to (20, 6) on Row 6 Northern highway, then walk East straight to Route 10!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -120,6 +120,7 @@
 - Cut Tree: (5, 8) blocks eastern passage.
 - Ledge Gap / Passage: (19, 13) connects lower basin (Row 14) to upper highway (Row 12).
 - Ledge Gap / Passage: (29, 13) connects lower basin (Row 14) directly UP to Row 12 grass highway.
+- Ledge Gap / Passage: (20, 9) connects Row 10 to upper Row 6/7/8 Northern highway.
 
 <hr>
 
