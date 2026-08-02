@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31891)
-- Location: Route 9 (33, 6)
-- Active Protocol: At (33, 6) on Row 6 pavement. Testing Row 6/7 highway extensions and upper gaps using sandboxed Python script.
+## CURRENT STATUS & DASHBOARD (Turn 31893)
+- Location: Route 9 (51, 6)
+- Active Protocol: At (51, 6) on Route 9 East Highway. Walking Down 2 to (51, 8) and Right 8 to (59, 8) to cross into Route 10.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -555,5 +555,6 @@
 5. Walk East continuously along Row 4/3/2 Top Highway to Route 10 Entrance at (59, 2/3/4).
 - West Basin Bound: Solid rock wall at x=9 (y=10..18). Row 14 lower basin begins at x=10.
 - Basin Exit Ledge Gap Verified: (19, 14) -> UP 2 steps through (19, 13) gap to (19, 12) Middle Highway grass!
+- Top Highway Ascent Gap Verified: (38, 6) -> UP through (39, 5/4/3/2) to Top Highway, then East to x=51 and DOWN across (51, 5) ledge to (51, 6/8) East Highway!
 
 <hr>

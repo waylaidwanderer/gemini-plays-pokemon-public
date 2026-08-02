@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31891)
-- Location: Route 9 (33, 6)
-- Active Protocol: At (33, 6) on Row 6 pavement. Testing Row 6/7 highway extensions and upper gaps using sandboxed Python script.
+## CURRENT STATUS & DASHBOARD (Turn 31893)
+- Location: Route 9 (51, 6)
+- Active Protocol: At (51, 6) on Route 9 East Highway. Walking Down 2 to (51, 8) and Right 8 to (59, 8) to cross into Route 10.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
