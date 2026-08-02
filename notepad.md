@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 29253)
-- Location: Route 8 (8, 16) Lower Highway Sector
-- Active Protocol: Executing sweep_all_route8_doorways.py to walk West to Western Gatehouse map and sweep all doorways for the Underground Path entrance.
+## CURRENT STATUS & DASHBOARD (Turn 29254)
+- Location: Route 4 (86, 10)
+- Active Protocol: Walk Right 3 steps to enter Cerulean City at (0, 19).
 
 <hr>
 
