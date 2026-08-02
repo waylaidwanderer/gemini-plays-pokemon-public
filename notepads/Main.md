@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31616)
-- Location: Route 9 (42, 14)
-- Active Protocol: At (42, 14). Walking East 11 along Row 14 to (53, 14) and testing Right step into (54, 14) for Route 10 map transition warp.
+## CURRENT STATUS & DASHBOARD (Turn 31620)
+- Location: Route 9 (53, 14)
+- Active Protocol: Verified (54, 14) is solid wall. Walking West 34 steps along Row 14 to (19, 14) to ascend to Middle Highway (Row 12).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
