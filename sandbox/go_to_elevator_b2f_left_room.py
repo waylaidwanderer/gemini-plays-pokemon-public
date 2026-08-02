@@ -8,6 +8,11 @@ def move(buttons):
     print(f"Moved {buttons}, now at: {pos}")
     return pos
 
+# First, press B to close the open Start menu
+print("Pressing B to close any open Start menu...")
+mgba.press_buttons(['B'])
+time.sleep(0.5)
+
 pos = mgba.get_coordinates()
 print(f"Current pos: {pos}")
 
