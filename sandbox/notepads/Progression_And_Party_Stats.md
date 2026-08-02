@@ -6,7 +6,7 @@
 - **Thunder Badge:** Earned by defeating Gym Leader Lt. Surge in Vermilion City Gym on Turn 7025.
 - **Rainbow Badge:** Earned by defeating Gym Leader Erika in Celadon City Gym on Turn 13682.
 
-## Current Party Stats (as of Turn 14191)
+## Current Party Stats (as of Turn 15811)
 1. **SHELLBY** (Blastoise)
    - Level: 44
    - HP: 138/138
@@ -39,7 +39,7 @@
 - **TM07 (Horn Drill):** Obtained on Turn 14097.
 - **Escape Rope:** Obtained on Turn 13977.
 
-## Verified Inventory (as of Turn 14191)
+## Verified Inventory (as of Turn 15811)
 - **Town Map:** 1
 - **TM01 (Mega Punch):** 1
 - **Moon Stone:** 2
@@ -55,7 +55,7 @@
 - **TM48 (Rock Slide):** 1
 - **TM49 (Tri Attack):** 1
 - **Awakening:** 5
-- **Parlyz Heal:** 5
+- **Parlyz Heal:** 4
 - **Super Potion:** 5
 - **Escape Rope:** 1
 - **TM07 (Horn Drill):** 1
