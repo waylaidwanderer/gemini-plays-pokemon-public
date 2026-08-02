@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 29829)
-- Location: Underground Path Tunnel (2, 26)
-- Active Protocol: Walk North up the Underground Path tunnel from (2, 26) to reach the northern exit at Route 5 -> exit to Route 5 -> Cerulean Bike Shop for Bicycle.
+## CURRENT STATUS & DASHBOARD (Turn 29830)
+- Location: Underground Path Tunnel (2, 6)
+- Active Protocol: Walk Up 2 to (2, 4), Right 3 onto staircase at (5, 4) -> warp to Route 5 Entrance Building -> exit South to Route 5 -> Cerulean Bike Shop for Bicycle.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
