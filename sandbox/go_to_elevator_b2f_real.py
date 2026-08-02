@@ -11,19 +11,19 @@ def move(buttons):
 pos = mgba.get_coordinates()
 print(f"Current pos: {pos}")
 
-if pos['x'] == 24 and pos['y'] == 9:
-    # Walk Down to (24, 10)
-    pos = move(['Down'])
-    # Walk Left to (23, 10)
-    pos = move(['Left'])
-    
-    # Walk Down 4 steps to (23, 14)
-    for _ in range(4):
+if pos['x'] == 23 and pos['y'] == 11:
+    # Walk Right 5 steps to (28, 11)
+    for _ in range(5):
+        pos = move(['Right'])
+        
+    # Walk Down 3 steps to (28, 14)
+    for _ in range(3):
         pos = move(['Down'])
         
-    # Walk Right 1 step to (24, 14)
-    pos = move(['Right'])
-    
+    # Walk Left 4 steps to (24, 14)
+    for _ in range(4):
+        pos = move(['Left'])
+        
     # Turn UP
     print("Turning UP...")
     mgba.press_buttons(['Up'])
