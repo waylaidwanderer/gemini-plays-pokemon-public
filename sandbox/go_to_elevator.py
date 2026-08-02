@@ -9,45 +9,33 @@ def move(buttons):
     return pos
 
 pos = mgba.get_coordinates()
-print("Starting go_to_elevator from B3F (9, 7):", pos)
+print("Starting go_to_elevator from B2F (21, 9):", pos)
 
-if pos['x'] == 9 and pos['y'] == 7:
-    # 1. Walk Right along Row 7 to Column 25 (16 steps)
-    print("Walking Right to Column 25 on B3F...")
-    for _ in range(16):
-        pos = move(["Right"])
-        
-    # 2. Walk Up to (25, 6) (stairs to B2F)
-    pos = move(["Up"])
-    time.sleep(2.0)
-    pos = mgba.get_coordinates()
-    print("Spawning on B2F:", pos)
-
-if pos['x'] == 21 and pos['y'] == 8:
-    print("Successfully on B2F!")
-    # 3. Walk Down 6 steps to Row 14 (at Column 21)
+if pos['x'] == 21 and pos['y'] == 9:
+    # 1. Walk Down 5 steps to Row 14 (at Column 21)
     print("Walking Down to Row 14...")
-    for _ in range(6):
+    for _ in range(5):
         pos = move(["Down"])
         
-    # 4. Walk Right 4 steps to Column 25 (at Row 14)
+    # 2. Walk Right 4 steps to Column 25 (at Row 14)
     print("Walking Right to Column 25...")
     for _ in range(4):
         pos = move(["Right"])
         
-    # 5. Walk Up 1 step to (25, 13)
+    # 3. Walk Up 1 step to (25, 13)
+    print("Walking Up to (25, 13)...")
     pos = move(["Up"])
     
-    # 6. Turn Left to face the elevator door at (24, 13)
-    # We turn Left by pressing Left once.
+    # 4. Turn Left to face the elevator door at (24, 13)
+    print("Turning Left to face elevator door...")
     pos = move(["Left"])
     
-    # 7. Press A to interact with the elevator door
+    # 5. Press A to interact with the elevator door
     print("At (25, 13) facing Left! Pressing A to use Lift Key...")
     mgba.press_buttons(["A"])
     time.sleep(1.0)
     
-    # 8. Step Left into the elevator
+    # 6. Step Left into the elevator
     print("Stepping Left into the elevator...")
     pos = move(["Left"])
     time.sleep(2.0)
