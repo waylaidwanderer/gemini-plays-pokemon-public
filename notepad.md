@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 30991)
-- Location: Cerulean City (17, 18)
-- Active Protocol: Stand at (17, 18), walk East 6 steps to (23, 18), step Left 1 to (22, 18) and Down 2 to (22, 20), walk East 8 steps to (30, 20) Gym door, step Right 3 to (33, 20) Northbound street, then North to Row 12 and East to Route 9!
+## CURRENT STATUS & DASHBOARD (Turn 31010)
+- Location: Burglarized House (2, 7)
+- Active Protocol: Stand at (2, 7), step Right 1 to (3, 7), walk Up 7 steps along Column 3 to back exit hole at (3, 0), exit onto North Cerulean Row 9 yellow-brick highway at (27, 9), then walk East along Row 9 straight into Route 9!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
