@@ -1,3 +1,3 @@
-## CURRENT STATUS & DASHBOARD (Turn 29274)
-- Location: Cerulean City (16, 28)
-- Active Protocol: Walk Up 1 to (16, 27), Left 4 to Col 12 (12, 27), then Down 5 along Col 12 to exit South onto Route 5 at (12, 32).
+## CURRENT STATUS & DASHBOARD (Turn 29276)
+- Location: Cerulean City (12, 27)
+- Active Protocol: Walk Left 2 to Col 10 (10, 27), then Down 8 along Col 10 to exit South onto Route 5 at (10, 35).
