@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 29304)
-- Location: Cerulean City (8, 27)
-- Active Protocol: Walk Left 6 along Row 27 to Col 2 (2, 27) past vertical statue wall, then Down 8 along Col 2 to exit South onto Route 5 at (2, 35).
+## CURRENT STATUS & DASHBOARD (Turn 29305)
+- Location: Cerulean City (5, 27)
+- Active Protocol: Walk Right 1 to Col 6 (6, 27), then Up 7 along Col 6 to Row 20 (6, 20) toward Burglarized House at (28, 12).
 
 <hr>
 
