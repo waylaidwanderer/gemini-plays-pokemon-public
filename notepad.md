@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 29247)
-- Location: Route 8 (19, 18) Lower Highway Sector
-- Active Protocol: Executing sweep_all_route8_doorways.py on Route 8 overworld to locate the Underground Path entrance.
+## CURRENT STATUS & DASHBOARD (Turn 29248)
+- Location: Route 8 (9, 11) Building Interior (1, 5)
+- Active Protocol: Walk Up 2 steps to (1, 3) and press A to talk to NPC at (1, 2) to identify building interior.
 
 <hr>
 
