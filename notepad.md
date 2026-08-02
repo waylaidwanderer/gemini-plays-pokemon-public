@@ -570,3 +570,11 @@
 - First B1F Ladder Verified: (17, 11)
 
 <hr>
+
+<h1><code>Locations/Rock_Tunnel_B1F.md</code></h1>
+
+## Rock Tunnel B1F Topography & Coordinates
+- 1F Ladder Arrival: (21, 7)
+- Dark Cave Environment: Empirical testing required for all corridors.
+
+<hr>
