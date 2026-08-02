@@ -80,7 +80,7 @@
 - **Row 16 Railing/Wall:** Empirically verified to be completely solid and impassable from Column 10 to Column 22 on B4F.
 - **Column 23 Wall:** Empirically verified to be completely solid and impassable from Row 17 to Row 26 on B4F, completely walling off the elevator area (Columns 24-28).
 - **Stairs UP to B3F:** Located at B4F (19, 10). Takes the player back UP to B3F (19, 18) (verified on Turn 15679).
-- **Elevator Doors:** Verified to be initially blocked on B1F and B2F, and the elevator is not needed to reach Giovanni. The gate at B4F (24, 12) is unlocked using the Lift Key on foot.
+- **Elevator Doors:** Verified to be initially blocked on B1F and B2F, and the elevator is not needed to reach Giovanni.
 - **Walkable Areas:**
   - Row 25: Column 10 to Column 22 is a clear, walkable horizontal pink floor corridor.
   - Columns 10-11: Walkable vertical corridor from Row 17 to Row 25.
