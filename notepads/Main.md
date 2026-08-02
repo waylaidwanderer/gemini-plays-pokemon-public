@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31213)
-- Location: Route 9 (28, 14)
-- Active Protocol: At (28, 14). Ascend gap (29, 13) to (29, 12) -> bypass via (23, 10) to (23, 12) -> Left 10 to (13, 12) -> engage Junior Trainer at (13, 10) -> West to (5, 8) Cut tree -> Row 4 Northern Highway -> Route 10.
+## CURRENT STATUS & DASHBOARD (Turn 31214)
+- Location: Route 9 (23, 12)
+- Active Protocol: At (23, 12). Left 10 to (13, 12) -> Up 1 to (13, 11) -> engage Junior Trainer at (13, 10) -> West to (5, 8) Cut tree -> Row 4 Northern Highway -> Route 10.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
