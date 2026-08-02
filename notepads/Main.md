@@ -1,3 +1,3 @@
-## CURRENT STATUS & DASHBOARD (Turn 29816)
-- Location: Pokémon Fan Club in Vermilion City (0, 1)
-- Active Protocol: RECEIVED BIKE VOUCHER! Walk Down 6 to (0, 7), Right 2 to exit mat at (2, 7) -> exit to Vermilion overworld -> head North to Route 6 Underground Path -> Cerulean Bike Shop.
+## CURRENT STATUS & DASHBOARD (Turn 29818)
+- Location: Vermilion City Overworld (9, 14)
+- Active Protocol: Walk Down 1 to (9, 15) highway, Right 9 to (18, 15), Up 15 to Route 6 -> enter Route 6 Underground Path -> exit to Route 5 -> Cerulean Bike Shop for Bicycle.
