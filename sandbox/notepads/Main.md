@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 30301)
-- Location: Burglarized House (5, 2)
-- Active Protocol: Testing single-step movement North onto tile (5, 1) to determine if it warps to Cerulean backyard.
+## CURRENT STATUS & DASHBOARD (Turn 30306)
+- Location: Cerulean City (30, 20)
+- Active Protocol: Riding South through Cerulean City along Column 19 to exit to Route 5 at (19, 32).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
