@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31321)
-- Location: Route 9 (10, 12)
-- Active Protocol: At (10, 12). Hopping Down ledge at (10, 13) to Row 14 lower basin at (10, 14) -> Walk West along Row 14 to Cerulean entrance (0, 14) -> Ascend to Row 4 Main Top Grass Highway -> Walk East along Row 4 to Route 10 (59, 8).
+## CURRENT STATUS & DASHBOARD (Turn 31351)
+- Location: Route 9 (13, 12)
+- Active Protocol: At (13, 12). Walk Right 9 to (22, 12) -> Up 2 to Row 10 highway at (22, 10) -> Systematic UP test across Row 10 cols x=23, 24, 27, 28, 29 to find gap to Row 8/4.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
