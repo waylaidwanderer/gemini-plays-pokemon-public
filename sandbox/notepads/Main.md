@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 30481)
-- Location: Cerulean City (10, 20)
-- Active Protocol: Walking West along Row 20 to Route 4 exit at (0, 18) to reach North Cerulean City towards Route 9 entrance at (43, 16).
+## CURRENT STATUS & DASHBOARD (Turn 30488)
+- Location: Route 4 (89, 10)
+- Active Protocol: Traversing Route 4 Western Bypass corridor to North Cerulean City and Route 9.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
