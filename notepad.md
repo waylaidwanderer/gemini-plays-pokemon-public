@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31907)
-- Location: Route 10 (14, 19)
-- Active Protocol: At (14, 19) on Route 10. Walking Left 3 to (11, 19) door and UP 1 step to enter Route 10 Pokemon Center.
+## CURRENT STATUS & DASHBOARD (Turn 31908)
+- Location: Route 10 (14, 18)
+- Active Protocol: At (14, 18) on Route 10. Walking Down 2 to (14, 20), Left 3 to (11, 20), and UP 1 to enter Route 10 Pokemon Center.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
