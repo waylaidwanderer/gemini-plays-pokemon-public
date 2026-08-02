@@ -10,23 +10,21 @@ def move(buttons):
 pos = mgba.get_coordinates()
 print(f"Starting at: {pos}")
 
-# Currently at (27, 8) on B2F
-# 1. Walk Left to Column 25 (2 steps Left)
-for _ in range(2):
-    pos = move(["Left"])
-
-# 2. Walk Down to Row 13 (5 steps Down)
-for _ in range(5):
+# Currently at (25, 8) on B2F
+# Walk Down Column 25 up to Row 15
+print("Walking Down Column 25...")
+for i in range(8, 15):
     pos = move(["Down"])
+    if pos['y'] != i + 1:
+        print(f"Blocked at {pos} during Down movement along Column 25")
+        break
 
-# 3. Walk Left to Column 21 (4 steps Left)
-for _ in range(4):
-    pos = move(["Left"])
+# If we reached Y=14 or Y=15, try walking Left!
+pos = mgba.get_coordinates()
+if pos['y'] >= 13:
+    print(f"Testing Left movement from Y={pos['y']}...")
+    for _ in range(4):
+        pos = move(["Left"])
 
-# 4. Walk Up Column 21 to Row 8 (5 steps Up) to warp to B3F
-print("Stepping onto B3F stairs at (21, 8)...")
-for _ in range(5):
-    pos = move(["Up"])
-
-print("Finished movement. Current position:", mgba.get_coordinates())
+print("Final position:", mgba.get_coordinates())
 mgba.take_screenshot()
