@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31912)
-- Location: Route 10 Pokemon Center (3, 3)
-- Active Protocol: At (3, 3) in Pokemon Center. Party fully healed! Closing dialogue and exiting building to enter Rock Tunnel 1F.
+## CURRENT STATUS & DASHBOARD (Turn 31914)
+- Location: Route 10 (11, 20)
+- Active Protocol: At (11, 20) on Route 10 outside Pokemon Center. Walking Down 2 to (11, 22) and Left 4 to (7, 22) to navigate around trees to Rock Tunnel 1F Entrance at (8, 17).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
