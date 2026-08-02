@@ -9,4 +9,5 @@
 - Col 41 Highway Gap: (41, 8) connects Row 12 UP to Row 6. Note: Row 6/7 highway dead-ends at (45, 6)/(45, 7) against rock wall.
 - Lower Basin Dead End Pocket: Lower basin at x=52-53 is a dead end pocket (x=54 is solid rock wall, y=13 is south-facing ledge). To exit, walk West along Row 14 to (29, 14) / (19, 14) to ascend to the Upper Highway.
 - Upper Highway Ledge Jump to East Highway: Row 4 at (30, 4) connects South over ledge at (30, 5) into (30, 6) Eastern Highway leading straight to Route 10.
+- Verified Row 11 Gap at (23, 11): Connects Row 12 grass UP to Row 10 pavement at (23, 10). From (23, 10), walking Left along Row 10 connects to (10, 10)/(10, 8) western junction.
 - Western Row 6 Highway: Row 6 pavement runs West from (23, 6) towards (19, 6) / (12, 6) to access Row 4.
