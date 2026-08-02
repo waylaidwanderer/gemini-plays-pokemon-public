@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31214)
-- Location: Route 9 (23, 12)
-- Active Protocol: At (23, 12). Left 10 to (13, 12) -> Up 1 to (13, 11) -> engage Junior Trainer at (13, 10) -> West to (5, 8) Cut tree -> Row 4 Northern Highway -> Route 10.
+## CURRENT STATUS & DASHBOARD (Turn 31215)
+- Location: Route 9 (13, 12)
+- Active Protocol: At (13, 12). Down 1 to lower basin (13, 14) -> Left to Cerulean City re-entry loop -> re-enter Route 9 top entrance (0, 8) -> ascend to Row 4 Northern Highway (5, 4) -> East to Route 10 (59, 8).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
