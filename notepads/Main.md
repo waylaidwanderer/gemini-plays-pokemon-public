@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 30346)
-- Location: Route 5 (6, 28)
-- Active Protocol: Walking Up to (6, 27) -> East along Row 27 to Underground Path Entrance Building door at (17, 27).
+## CURRENT STATUS & DASHBOARD (Turn 30350)
+- Location: Route 5 Underground Path Entrance Building (3, 7)
+- Active Protocol: Walking Right to (4, 7) -> Up to (4, 4) to take stairs warp into Underground Path tunnel.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
