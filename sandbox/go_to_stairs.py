@@ -8,52 +8,43 @@ def move(buttons):
     return pos
 
 pos = mgba.get_coordinates()
-print(f"Starting from: {pos}")
+print(f"Starting at: {pos}")
 
-# We are at B3F (10, 7)
-# Step 1: Walk Right to Column 25 (15 steps Right)
-print("Walking right to Column 25...")
-for _ in range(15):
-    pos = move(["Right"])
+# We are at (2, 9) on B3F
+# Step 1: Walk to (4, 14)
+print("Walking to (4, 14)...")
+pos = move(["Right"]) # to (3, 9)
+for _ in range(4):
+    pos = move(["Down"]) # to (3, 13)
+pos = move(["Right"]) # to (4, 13)
+pos = move(["Down"]) # to (4, 14)
 
-# Step 2: Walk Up to Row 6 (1 step Up)
-pos = move(["Up"])
-
-print("At (25, 6). Starting verified B3F-to-B4F spinner sequence...")
-
-# Step 3: Walk Right to Column 26 (1 step Right)
+# Step 2: Step Right onto (5, 14) RIGHT spinner -> slides to (9, 16)
+print("Stepping onto (5, 14) RIGHT spinner...")
 pos = move(["Right"])
+time.sleep(3.0)
 
-# Step 4: Walk Down to Row 10 (4 steps Down)
-for _ in range(4):
-    pos = move(["Down"])
+pos = mgba.get_coordinates()
+print(f"Position at (9, 16) stopper: {pos}")
 
-# Step 5: Walk Left onto (24, 10) Left spinner (2 steps Left)
-pos = move(["Left"])
-print("Stepping onto (24, 10) Left spinner...")
-pos = move(["Left"])
-time.sleep(2.0)
+# Step 3: Walk Right 2 steps onto (11, 16) RIGHT spinner -> slides to (15, 18)
+print("Walking to (11, 16) RIGHT spinner...")
+pos = move(["Right"])
+pos = move(["Right"])
+time.sleep(3.0)
 
-# Step 6: Walk Down to Row 11 (1 step Down)
-pos = move(["Down"])
+pos = mgba.get_coordinates()
+print(f"Position at (15, 18) stopper: {pos}")
 
-# Step 7: Walk Left onto (22, 11) Left spinner (1 step Left)
-print("Stepping onto (22, 11) Left spinner...")
-pos = move(["Left"])
-time.sleep(2.0)
-
-# Step 8: Walk Down to Row 15 (4 steps Down)
-for _ in range(4):
-    pos = move(["Down"])
-
-# Step 9: Walk Left to Column 19 (2 steps Left)
+# Step 4: Walk Down 2 to (15, 20), Right 4 to (19, 20), and Up 2 onto B4F stairs at (19, 18)
+print("Walking to B4F stairs via Row 20...")
 for _ in range(2):
-    pos = move(["Left"])
-
-# Step 10: Walk Down to reach the stairs to B4F (3 steps Down)
-print("Stepping onto B4F stairs...")
-for _ in range(3):
     pos = move(["Down"])
+for _ in range(4):
+    pos = move(["Right"])
+pos = move(["Up"])
+pos = move(["Up"])
+time.sleep(2.0)
 
 pos = mgba.get_coordinates()
 print(f"Final position on B4F: {pos}")
