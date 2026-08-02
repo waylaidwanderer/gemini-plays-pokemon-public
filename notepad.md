@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31731)
+## CURRENT STATUS & DASHBOARD (Turn 31734)
 - Location: Route 9 (20, 14)
-- Active Protocol: Walking East 6 steps along Row 14 pavement from (20, 14) towards (26, 14)/(29, 14) ascent point.
+- Active Protocol: Stepping Left to (19, 14), then UP 2 steps through (19, 13) open gap to Row 12 Middle Highway at (19, 12), then heading West to Western Sector (x=0-10).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
