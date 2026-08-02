@@ -1,3 +1,3 @@
-## CURRENT STATUS & DASHBOARD (Turn 29711)
-- Location: Underground Path Entrance Building (5, 3)
-- Active Protocol: Press Down 1 step from (5, 3) to enter Underground Path tunnel -> walk South through tunnel to Route 6 -> Celadon City.
+## CURRENT STATUS & DASHBOARD (Turn 29731)
+- Location: Daycare House on Route 5 (2, 4) -> Exiting to Route 5 overworld
+- Active Protocol: Exit Daycare House via South exit at (2, 7) / (3, 7) -> explore Route 5 to find the real Underground Path Entrance Building doorway -> enter Underground Path tunnel.
