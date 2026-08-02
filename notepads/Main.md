@@ -1,3 +1,3 @@
-## CURRENT STATUS & DASHBOARD (Turn 29794)
+## CURRENT STATUS & DASHBOARD (Turn 29796)
 - Location: Pokémon Fan Club in Vermilion City (1, 2) facing Right
-- Active Protocol: Press A facing Right at (1, 2) to speak to Chairman -> select YES when prompted -> receive Bike Voucher -> return North to Cerulean Bike Shop for Bicycle.
+- Active Protocol: Press Up 1 step to turn North facing sofa at (1, 1) -> press A on next turn to speak to Chairman.
