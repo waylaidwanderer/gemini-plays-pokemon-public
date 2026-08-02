@@ -7,26 +7,31 @@ def move(buttons):
     print(f"Pressed {buttons}, coordinates: {pos}")
     return pos
 
-pos = mgba.get_coordinates()
-print(f"Starting position: {pos}")
+# We are in the ITEMS menu at (25, 12).
+# Let's close the menu by pressing B 3 times
+print("Closing item menu...")
+for _ in range(3):
+    move(["B"])
 
-# We are on B2F at (21, 9)
-# Step 1: Walk Down to Row 14 (5 steps Down)
+# Let's verify we are back in the overworld at (25, 12)
+pos = mgba.get_coordinates()
+print(f"Overworld position: {pos}")
+
+# Walk Down 2 steps to (25, 14)
 print("Walking down to Row 14...")
-for _ in range(5):
+for _ in range(2):
     pos = move(["Down"])
 
-# Step 2: Walk Right to Column 25 (4 steps Right)
-print("Walking right to Column 25 through the gap at (23, 14)...")
-for _ in range(4):
-    pos = move(["Right"])
+# Walk Left 1 step to (24, 14)
+print("Walking left to Column 24...")
+pos = move(["Left"])
 
-# Step 3: Walk Up 1 step into the B2F elevator warp at (25, 13)
-print("Stepping into B2F elevator warp...")
+# Walk Up 1 step to (24, 13) to warp into the elevator!
+print("Stepping into LEFT elevator warp at (24, 13)...")
 pos = move(["Up"])
 
-# Wait for map transition to Elevator
+# Wait for transition
 time.sleep(1)
 pos = mgba.get_coordinates()
-print(f"Position inside Elevator: {pos}")
+print(f"Final position inside Elevator: {pos}")
 mgba.take_screenshot()
