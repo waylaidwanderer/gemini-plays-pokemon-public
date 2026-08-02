@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 29841)
-- Location: Cerulean City Overworld (11, 30)
-- Active Protocol: Walk Right 5 to (16, 30), Up 5 along Column 16 street to (16, 25), Left to Bike Shop doorway -> enter Bike Shop -> exchange BIKE VOUCHER for BICYCLE.
+## CURRENT STATUS & DASHBOARD (Turn 29881)
+- Location: Miracle Cycle Bike Shop (6, 4)
+- Active Protocol: Obtained BICYCLE! Now exit Bike Shop -> travel to Route 8 -> Underground Path to Route 7 -> Celadon City!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
