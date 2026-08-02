@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31894)
-- Location: Route 9 (59, 8)
-- Active Protocol: At (59, 8) on Route 9 East boundary. Stepping Right 1 step into Route 10.
+## CURRENT STATUS & DASHBOARD (Turn 31895)
+- Location: Route 10 (0, 8)
+- Active Protocol: Arrived on Route 10 at (0, 8). Walking East/South towards Route 10 Pokemon Center and Rock Tunnel Entrance.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
