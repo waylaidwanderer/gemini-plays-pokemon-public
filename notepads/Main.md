@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31927)
-- Location: Rock Tunnel 1F (17, 4)
-- Active Protocol: At (17, 4) in Rock Tunnel 1F. Running Python probe to test West-South corridor via Col 13 to reach (17, 11) ladder.
+## CURRENT STATUS & DASHBOARD (Turn 31928)
+- Location: Rock Tunnel 1F (17, 7)
+- Active Protocol: At (17, 7) in Rock Tunnel 1F. Walking Left 4 to (13, 7), Down 4 to (13, 11), and Right 4 to (17, 11) ladder to descend to B1F.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
