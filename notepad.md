@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 30361)
-- Location: Route 6 (17, 14)
-- Active Protocol: Mounting Bicycle via Item menu at (17, 14) on Route 6 to ride South towards Vermilion City (18, 0).
+## CURRENT STATUS & DASHBOARD (Turn 30364)
+- Location: Route 6 (17, 25)
+- Active Protocol: Riding Bicycle South along Column 17 on Route 6 to enter Vermilion City at (18, 0).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
