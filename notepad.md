@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31684)
-- Location: Route 9 (19, 13)
-- Active Protocol: Stepping UP to (19, 12), Right to (20, 12), UP 2 steps to (20, 10) pavement, then navigating to (23, 6) Row 6 Highway to test Eastward passage at (26, 6).
+## CURRENT STATUS & DASHBOARD (Turn 31689)
+- Location: Route 9 (29, 8)
+- Active Protocol: Walking Left 6 steps to (23, 8), then UP 2 steps to (23, 6) Row 6 Highway to test Eastward passage at (26, 6).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
