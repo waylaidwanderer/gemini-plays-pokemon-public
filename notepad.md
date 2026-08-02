@@ -507,5 +507,8 @@
 - Northbound Street Found: Column 8 (8, 20) -> (8, 13) -> (8, 12) connects Central Cerulean to North Cerulean Row 12 street! Row 12 goes East past houses directly to Col 32 alleyway and Route 9 corridor.
 - Column 33 Street: Column 33 at (33, 11) -> (33, 18) is a wide open pavement street connecting North Cerulean (y=11) to Row 18 corridor (33, 18) -> (37, 18) -> hop South to (37, 20) -> Route 9.
 - Burglarized House Exit Verified: Stepping through burglar hole at (3, 0) / (3, 1) inside house exits onto North Cerulean Row 8/9 yellow brick highway at (27, 9). Row 8/9 highway runs East continuously past Col 32.
+- Row 28 Bushes: Bushes run continuously from Col 18 (18, 28) to Col 35 (35, 28).
+- Col 17 Opening: Row 28 is open pavement at (16, 28) and (17, 28).
+- Row 29 Grass Highway: Row 29 is open checkered grass from Col 19 (19, 29) all the way East to Col 35 (35, 29) gap.
 
 <hr>
