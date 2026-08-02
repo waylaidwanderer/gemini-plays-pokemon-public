@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31974)
+## CURRENT STATUS & DASHBOARD (Turn 31975)
 - Location: Rock Tunnel B1F (27, 7)
-- Active Protocol: In wild Zubat battle at (27, 7). Selecting RUN to return to overworld and retrace West out of East pocket.
+- Active Protocol: At (27, 7) in Rock Tunnel B1F (East pocket dead end). Walking Left 6 to (21, 7) and Down 6 to (21, 13) to exit East pocket and explore B1F.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
