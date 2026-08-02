@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31914)
-- Location: Route 10 (11, 20)
-- Active Protocol: At (11, 20) on Route 10 outside Pokemon Center. Walking Down 2 to (11, 22) and Left 4 to (7, 22) to navigate around trees to Rock Tunnel 1F Entrance at (8, 17).
+## CURRENT STATUS & DASHBOARD (Turn 31915)
+- Location: Route 10 (10, 22)
+- Active Protocol: At (10, 22) on Route 10. Walking Down 1 to (10, 23) and Left 4 to (6, 23) to reach western pathway to Rock Tunnel 1F Entrance.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
