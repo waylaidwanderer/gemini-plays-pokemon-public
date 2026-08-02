@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 29341)
-- Location: Burglarized House Interior (5, 2)
-- Active Protocol: Exit Burglarized House through back hole/doorway at (4, 1)/(5, 1) to Cerulean City back alley.
+## CURRENT STATUS & DASHBOARD (Turn 29371)
+- Location: Cerulean City (17, 16)
+- Active Protocol: Navigate via Col 36 open pavement corridor to Burglarized House at (28, 12).
 
 <hr>
 
