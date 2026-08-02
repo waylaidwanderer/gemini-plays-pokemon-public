@@ -7,20 +7,20 @@ def move(buttons):
     print(f"Pressed {buttons}, coordinates: {pos}")
     return pos
 
-print("Starting systematic descent on B3F...")
-# We are at (12, 16)
+print("Starting Row 18 spinner sequence down to bottom B3F...")
+# We are at (9, 9)
 
-# Step 1: Walk to Column 9
-move(["Left", "Left", "Left"])
+# Step 1: Walk Down to (9, 18)
+move(["Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down"])
 
-# Step 2: Walk Down to Row 19
-move(["Down", "Down", "Down"])
+# Step 2: Walk Right to (10, 18)
+move(["Right"])
 
-# Step 3: Step Right onto (10, 19) RIGHT spinner -> spins Right, then Up to (14, 18)
-print("Stepping onto (10, 19) RIGHT spinner...")
+# Step 3: Step Right onto (11, 18) RIGHT spinner -> slides to (14, 18)
+print("Stepping onto (11, 18) RIGHT spinner...")
 move(["Right", "sleep 3000"])
 
-# Step 4: Step Right onto (15, 18) DOWN spinner -> spins Down
+# Step 4: Step Right onto (15, 18) DOWN spinner -> slides Down
 print("Stepping onto (15, 18) DOWN spinner...")
 move(["Right", "sleep 3000"])
 
