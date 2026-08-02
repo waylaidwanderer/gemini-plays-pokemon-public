@@ -7,4 +7,5 @@
 - Ledge Gap / Passage: (29, 13) connects lower basin (Row 14) directly UP to Row 12 grass highway.
 - Ledge Gap / Passage: (29, 9) connects Row 10 to Row 8 grass.
 - Col 41 Highway Gap: (41, 8) connects Row 12 UP to Row 6. Note: Row 6/7 highway dead-ends at (45, 6)/(45, 7) against rock wall.
-- Lower Basin Route: Jump down south-facing ledge at (41, 13) to Row 14, then walk East along Row 14 lower basin. Note: Row 13 is a continuous south-facing ledge across x=46-51, so stay on Row 14 walking East.
+- Lower Basin Dead End Pocket: Lower basin at x=52-53 is a dead end pocket (x=54 is solid rock wall, y=13 is south-facing ledge). To exit, walk West along Row 14 to (29, 14) / (19, 14) to ascend to the Upper Highway.
+- Upper Highway to Route 10: Upper highway (Rows 6-10) connects all the way East to Route 10 at (59, 8).
