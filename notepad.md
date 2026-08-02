@@ -499,5 +499,6 @@
 - Col 17 Opening: Row 28 is open pavement at (16, 28) and (17, 28).
 - Row 29 Grass Highway: Row 29 is open checkered grass from Col 19 (19, 29) all the way East to Col 35 (35, 29) gap.
 - Bike Shop Plaza Ramp: Column 17 (17, 24) -> (17, 23) is an open north-south pavement slope connecting lower Bike Shop plaza to Central Cerulean upper level (y=23 and north). Stairs at (18, 24) have a west railing blocking entry from (17, 24).
+- Column 24 Stairs Approach: Row 19 is blocked at (23, 19) by Gym corner wall. Row 18 is open pavement from (22, 18) -> (23, 18) -> (24, 18) stairs.
 
 <hr>
