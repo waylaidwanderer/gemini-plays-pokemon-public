@@ -11,53 +11,39 @@ def move(buttons):
 pos = mgba.get_coordinates()
 print("Starting go_to_b2f from:", pos)
 
-# We want to go to B1F stairs at (23, 2)
-# Let's walk Left to Column 25
-print("Walking Left to Column 25...")
-for _ in range(3):
-    pos = move(["Left"])
-
-# Let's try walking Up on Column 25
-print("Walking Up on Column 25...")
-for i in range(13):
-    old_pos = pos
-    pos = move(["Up"])
-    if pos == old_pos:
-        print(f"Blocked going Up Column 25 at {pos}")
-        # If we get blocked, try to go Right to Column 26/27 and go Up, or Left to Column 24
-        print("Attempting to bypass block...")
-        # Let's try going Left to Column 24 first
-        pos = move(["Left"])
-        if pos != old_pos:
-            print("Successfully moved Left to:", pos)
-            pos = move(["Up"])
-        else:
-            # Try going Right
-            pos = move(["Right"])
-            if pos != old_pos:
-                print("Successfully moved Right to:", pos)
-                pos = move(["Up"])
-
-# At this point, let's see where we are
-pos = mgba.get_coordinates()
-print("After Up attempts, pos:", pos)
-
-# Walk to (23, 8) or (23, 2)
-if pos['x'] > 23:
-    dist = pos['x'] - 23
-    print(f"Walking Left {dist} steps...")
-    for _ in range(dist):
-        pos = move(["Left"])
-
-if pos['y'] > 2:
-    dist = pos['y'] - 2
-    print(f"Walking Up {dist} steps to stairs...")
-    for _ in range(dist):
+if pos['x'] == 28 and pos['y'] == 15:
+    # 1. Walk Up Column 28 from Row 15 to Row 8 (7 steps)
+    print("Walking Up Column 28 to Row 8...")
+    for _ in range(7):
         pos = move(["Up"])
+        
+    # 2. Walk Left 1 step to (27, 8)
+    pos = move(["Left"])
+    
+    # 3. Walk Down 1 step to (27, 9)
+    pos = move(["Down"])
+    
+    # 4. Walk Left 2 steps to (25, 9)
+    pos = move(["Left"])
+    pos = move(["Left"])
+    
+    # 5. Walk Up 1 step to (25, 8)
+    pos = move(["Up"])
+    
+    # 6. Walk Left 2 steps to (23, 8)
+    pos = move(["Left"])
+    pos = move(["Left"])
+    
+    # 7. Walk Up 6 steps to stairs at (23, 2)
+    print("Walking Up to B1F stairs...")
+    for _ in range(6):
+        pos = move(["Up"])
+        
+    # 8. Step onto stairs
+    print("Taking B1F stairs to B2F...")
+    pos = move(["Up"])
+    time.sleep(2.0)
+    pos = mgba.get_coordinates()
+    print("Position on B2F:", pos)
 
-# Take stairs
-print("Stepping onto stairs...")
-pos = move(["Up"])
-time.sleep(2.0)
-print("New position:", mgba.get_coordinates())
 mgba.take_screenshot()
