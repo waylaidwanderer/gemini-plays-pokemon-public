@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31719)
-- Location: Route 9 (17, 15)
-- Active Protocol: Walking UP 1 step to (17, 14), then Left 12 steps along Row 14 pavement to (5, 14) to reach Western Sector and examine Cut Tree area at (5, 8).
+## CURRENT STATUS & DASHBOARD (Turn 31722)
+- Location: Route 9 (14, 14)
+- Active Protocol: Testing UP step into (14, 13) from (14, 14) to verify if Row 13 connects UP to Row 12 green grass at x=14.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
