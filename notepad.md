@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31917)
-- Location: Route 10 (5, 26)
-- Active Protocol: At (5, 26) on Route 10. Walking Left 3 to (2, 26) and UP 8 to (2, 18) to bypass bollards and reach Row 18 corridor to Rock Tunnel 1F Entrance.
+## CURRENT STATUS & DASHBOARD (Turn 31918)
+- Location: Route 10 (2, 18)
+- Active Protocol: At (2, 18) on Route 10. Walking Right 6 to (8, 18) and UP 1 into (8, 17) cave entrance to enter Rock Tunnel 1F.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
