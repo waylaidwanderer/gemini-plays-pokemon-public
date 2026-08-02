@@ -143,6 +143,7 @@
 3. Cut tree at (5, 8) and walk East along Row 11/12 across Columns 24-27 to (29, 11).
 4. At (29, 11), step UP to (29, 10), walk West to (25, 10), ascend North along Col 25/23 to Row 4 Top Highway.
 5. Walk East continuously along Row 4/3/2 Top Highway to Route 10 Entrance at (59, 2/3/4).
+- West Basin Bound: Solid rock wall at x=9 (y=10..18). Row 14 lower basin begins at x=10.
 
 <hr>
 
@@ -552,5 +553,6 @@
 4. At (29, 11), step UP to (29, 10), walk West to (25, 10), ascend North along Col 25/23 to Row 4 Top Highway.
 5. Walk East continuously along Row 4/3/2 Top Highway to Route 10 Entrance at (59, 2/3/4).
 - West Basin Bound: Solid rock wall at x=9 (y=10..18). Row 14 lower basin begins at x=10.
+- Basin Exit Ledge Gap Verified: (19, 14) -> UP 2 steps through (19, 13) gap to (19, 12) Middle Highway grass!
 
 <hr>
