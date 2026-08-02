@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31906)
-- Location: Route 10 (11, 15)
-- Active Protocol: At (11, 15) on Route 10. Walking Right 3 to (14, 15) and Down 4 to (14, 19) to bypass Pokemon Center roof and reach door at (11, 19).
+## CURRENT STATUS & DASHBOARD (Turn 31907)
+- Location: Route 10 (14, 19)
+- Active Protocol: At (14, 19) on Route 10. Walking Left 3 to (11, 19) door and UP 1 step to enter Route 10 Pokemon Center.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -154,6 +154,9 @@
 ## Route 10 Topology & Coordinates
 - Route 9 West Boundary Connection: (0, 8)
 - Col 13 South Passage: (13, 8) -> DOWN through (13, 11) gap to (13, 12) lower corridor.
+- Route 10 Pokemon Center Door: (11, 19)
+- Rock Tunnel 1F Entrance: (8, 17)
+- Route 10 Pokemon Center Bypass: Col 14 (x=14, y=15..19)
 
 <hr>
 

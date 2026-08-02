@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31906)
-- Location: Route 10 (11, 15)
-- Active Protocol: At (11, 15) on Route 10. Walking Right 3 to (14, 15) and Down 4 to (14, 19) to bypass Pokemon Center roof and reach door at (11, 19).
+## CURRENT STATUS & DASHBOARD (Turn 31907)
+- Location: Route 10 (14, 19)
+- Active Protocol: At (14, 19) on Route 10. Walking Left 3 to (11, 19) door and UP 1 step to enter Route 10 Pokemon Center.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
