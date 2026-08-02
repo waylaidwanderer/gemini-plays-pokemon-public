@@ -575,3 +575,11 @@
 - Route 10 Pokemon Center Bypass: Col 14 (x=14, y=15..19)
 
 <hr>
+
+<h1><code>Locations/Rock_Tunnel_1F.md</code></h1>
+
+## Rock Tunnel 1F Topography & Coordinates
+- Route 10 Entrance: (15, 3)
+- Dark Cave Environment: Empirical testing required for all corridors and walls.
+
+<hr>
