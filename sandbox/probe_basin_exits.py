@@ -1,90 +1,65 @@
 import mgba
 
-def try_step(direction):
-    mgba.press_buttons([direction, "sleep 120"])
-    return mgba.get_coordinates()
+print("--- Starting Route 9 Basin Exit Probe ---")
+start_pos = mgba.get_coordinates()
+print(f"Start pos: {start_pos}")
 
-def main():
-    pos = mgba.get_coordinates()
-    print(f"Initial Position: {pos}")
+exits_found = []
+
+for x in range(10, 54):
+    curr = mgba.get_coordinates()
     
-    exits = []
-    
-    # Test sweep along y=14
-    for x in range(28, 54):
-        # Move to (x, 14)
-        c = mgba.get_coordinates()
-        while c['x'] < x: c = try_step("Right")
-        while c['x'] > x: c = try_step("Left")
-        while c['y'] < 14: c = try_step("Down")
-        while c['y'] > 14: c = try_step("Up")
+    # Adjust y to 14
+    if curr['y'] < 14:
+        mgba.press_buttons(["Down"])
+    elif curr['y'] > 14:
+        mgba.press_buttons(["Up"])
         
-        # Test UP
-        nxt = try_step("Up")
-        if nxt['y'] < 14 or nxt['x'] != x:
-            print(f"SUCCESS EXIT UP at ({x}, 14) -> {nxt}")
-            exits.append((x, 14, "Up", nxt))
-            # Step back
-            c = mgba.get_coordinates()
-            while c['y'] < 14: c = try_step("Down")
-            
-        # If x == 28, test LEFT
-        if x == 28:
-            nxt = try_step("Left")
-            if nxt['x'] < 28:
-                print(f"SUCCESS EXIT LEFT at (28, 14) -> {nxt}")
-                exits.append((28, 14, "Left", nxt))
-                c = mgba.get_coordinates()
-                while c['x'] < 28: c = try_step("Right")
-
-        # If x == 53, test RIGHT
-        if x == 53:
-            nxt = try_step("Right")
-            if nxt['x'] > 53:
-                print(f"SUCCESS EXIT RIGHT at (53, 14) -> {nxt}")
-                exits.append((53, 14, "Right", nxt))
-                c = mgba.get_coordinates()
-                while c['x'] > 53: c = try_step("Left")
-
-    # Test sweep along y=15
-    for x in range(28, 54):
-        # Move to (x, 15)
-        c = mgba.get_coordinates()
-        while c['x'] < x: c = try_step("Right")
-        while c['x'] > x: c = try_step("Left")
-        while c['y'] < 15: c = try_step("Down")
-        while c['y'] > 15: c = try_step("Up")
+    curr = mgba.get_coordinates()
+    if curr['x'] < x:
+        steps = ["Right"] * (x - curr['x'])
+        mgba.press_buttons(steps)
+    elif curr['x'] > x:
+        steps = ["Left"] * (curr['x'] - x)
+        mgba.press_buttons(steps)
         
-        # Test DOWN
-        nxt = try_step("Down")
-        if nxt['y'] > 15 or nxt['x'] != x:
-            print(f"SUCCESS EXIT DOWN at ({x}, 15) -> {nxt}")
-            exits.append((x, 15, "Down", nxt))
-            c = mgba.get_coordinates()
-            while c['y'] > 15: c = try_step("Up")
+    curr = mgba.get_coordinates()
+    if curr['x'] != x or curr['y'] != 14:
+        print(f"Could not reach ({x}, 14), currently at {curr}")
+        continue
+        
+    # Test UP
+    mgba.press_buttons(["Up"])
+    pos_up = mgba.get_coordinates()
+    if pos_up != {'x': x, 'y': 14}:
+        print(f"EXIT UP at ({x}, 14) -> {pos_up}")
+        exits_found.append((x, 14, "UP", pos_up))
+        if pos_up['y'] < 14:
+            mgba.press_buttons(["Down"])
+        elif pos_up['y'] > 14:
+            mgba.press_buttons(["Up"])
+        elif pos_up['x'] < x:
+            mgba.press_buttons(["Right"])
+        elif pos_up['x'] > x:
+            mgba.press_buttons(["Left"])
 
-        # If x == 28, test LEFT
-        if x == 28:
-            nxt = try_step("Left")
-            if nxt['x'] < 28:
-                print(f"SUCCESS EXIT LEFT at (28, 15) -> {nxt}")
-                exits.append((28, 15, "Left", nxt))
-                c = mgba.get_coordinates()
-                while c['x'] < 28: c = try_step("Right")
+    # Test DOWN
+    curr = mgba.get_coordinates()
+    if curr == {'x': x, 'y': 14}:
+        mgba.press_buttons(["Down"])
+        pos_down = mgba.get_coordinates()
+        if pos_down != {'x': x, 'y': 14}:
+            print(f"EXIT DOWN at ({x}, 14) -> {pos_down}")
+            exits_found.append((x, 14, "DOWN", pos_down))
+            if pos_down['y'] < 14:
+                mgba.press_buttons(["Down"])
+            elif pos_down['y'] > 14:
+                mgba.press_buttons(["Up"])
+            elif pos_down['x'] < x:
+                mgba.press_buttons(["Right"])
+            elif pos_down['x'] > x:
+                mgba.press_buttons(["Left"])
 
-        # If x == 53, test RIGHT
-        if x == 53:
-            nxt = try_step("Right")
-            if nxt['x'] > 53:
-                print(f"SUCCESS EXIT RIGHT at (53, 15) -> {nxt}")
-                exits.append((53, 15, "Right", nxt))
-                c = mgba.get_coordinates()
-                while c['x'] > 53: c = try_step("Left")
-
-    print("\n=== SWEEP COMPLETED ===")
-    print(f"Total exits found: {len(exits)}")
-    for e in exits:
-        print(f"Exit: From {e[0]},{e[1]} dir {e[2]} -> {e[3]}")
-
-if __name__ == "__main__":
-    main()
+print(f"Probe finished! Exits found: {exits_found}")
+final_pos = mgba.get_coordinates()
+print(f"Final position: {final_pos}")
