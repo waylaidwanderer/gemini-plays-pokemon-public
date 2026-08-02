@@ -1,5 +1,5 @@
-import mgba
 import time
+import mgba
 
 def move(buttons):
     mgba.press_buttons(buttons)
@@ -9,41 +9,27 @@ def move(buttons):
     return pos
 
 pos = mgba.get_coordinates()
-print("Starting go_to_b2f from:", pos)
+print(f"Starting go_to_b2f from {pos}")
 
-if pos['x'] == 28 and pos['y'] == 15:
-    # 1. Walk Up Column 28 from Row 15 to Row 8 (7 steps)
-    print("Walking Up Column 28 to Row 8...")
-    for _ in range(7):
-        pos = move(["Up"])
+if pos['x'] == 23 and pos['y'] == 15:
+    # Right 2 steps to (25, 15)
+    pos = move(['Right'])
+    pos = move(['Right'])
+    
+    # Up 4 steps to (25, 11)
+    for _ in range(4):
+        pos = move(['Up'])
         
-    # 2. Walk Left 1 step to (27, 8)
-    pos = move(["Left"])
-    
-    # 3. Walk Down 1 step to (27, 9)
-    pos = move(["Down"])
-    
-    # 4. Walk Left 2 steps to (25, 9)
-    pos = move(["Left"])
-    pos = move(["Left"])
-    
-    # 5. Walk Up 1 step to (25, 8)
-    pos = move(["Up"])
-    
-    # 6. Walk Left 2 steps to (23, 8)
-    pos = move(["Left"])
-    pos = move(["Left"])
-    
-    # 7. Walk Up 6 steps to stairs at (23, 2)
-    print("Walking Up to B1F stairs...")
-    for _ in range(6):
-        pos = move(["Up"])
+    # Left 2 steps to (23, 11)
+    for _ in range(2):
+        pos = move(['Left'])
         
-    # 8. Step onto stairs
-    print("Taking B1F stairs to B2F...")
-    pos = move(["Up"])
+    # Up 9 steps to (23, 2)
+    for _ in range(9):
+        pos = move(['Up'])
+        
+    print("Waiting for floor transition...")
     time.sleep(2.0)
-    pos = mgba.get_coordinates()
-    print("Position on B2F:", pos)
+    print(f"Final position on B2F: {mgba.get_coordinates()}")
 
 mgba.take_screenshot()
