@@ -138,7 +138,6 @@
   - Row 12 middle highway: x=19 to x=41 (wall at 42, 12).
   - Row 6 upper highway: dead-ends at x=45 (wall at 46, 6).
   - Wall at (19, 10) blocks Row 10 pavement going West at x=19.
-- Systematic Grid Sweep Strategy: Probe every reachable tile on Route 9 to find any unvisited or overlooked open gap connecting across the map.
 
 <hr>
 
