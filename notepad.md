@@ -559,3 +559,10 @@
 - Top Highway Ascent Gap Verified: (38, 6) -> UP through (39, 5/4/3/2) to Top Highway, then East to x=51 and DOWN across (51, 5) ledge to (51, 6/8) East Highway!
 
 <hr>
+
+<h1><code>Locations/Route_10.md</code></h1>
+
+## Route 10 Topology & Coordinates
+- Route 9 West Boundary Connection: (0, 8)
+
+<hr>
