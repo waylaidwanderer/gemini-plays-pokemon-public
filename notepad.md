@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 29451)
-- Location: Cerulean City (20, 27)
-- Active Protocol: Bypass NPC via Row 26 grass to Col 17 (17, 26) -> Down through tree gap (17, 28) to Row 30 pavement -> East to Col 36 -> North to Burglarized House (28, 12).
+## CURRENT STATUS & DASHBOARD (Turn 29491)
+- Location: Cerulean City (22, 18)
+- Active Protocol: Empirical single-step probing of northbound passage across Row 17 (22, 17) to reach Row 12 Burglarized House (28, 12).
 
 <hr>
 
