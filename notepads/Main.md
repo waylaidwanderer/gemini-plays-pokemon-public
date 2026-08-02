@@ -1,3 +1,3 @@
-## CURRENT STATUS & DASHBOARD (Turn 29319)
-- Location: Route 8 (13, 16) Lower Highway Sector
-- Active Protocol: Step Down off exit mat to Route 8 (13, 16), then walk Down 4 to Row 20 (13, 20), Left 3 to Col 10 (10, 20), and Up 8 along Col 10 to Row 12 toward Burglarized House at (28, 12).
+## CURRENT STATUS & DASHBOARD (Turn 29320)
+- Location: Cerulean City (30, 20)
+- Active Protocol: Walk Left 10 along Row 20 to Col 20 (20, 20), Up 8 along Col 20 to Row 12 (20, 12), then Right to Burglarized House at (28, 12).
