@@ -1,3 +1,3 @@
-## CURRENT STATUS & DASHBOARD (Turn 29309)
+## CURRENT STATUS & DASHBOARD (Turn 29311)
 - Location: Cerulean City (15, 20)
-- Active Protocol: Right 1 to Col 16 (16, 20), Up 5 along Col 16 to (16, 15), then Up to Row 12 (16, 12) toward Burglarized House at (28, 12).
+- Active Protocol: Executing find_cerulean_northbound_street.py to systematically test all columns on Row 20 for the open northbound street to Row 12 and Burglarized House.
