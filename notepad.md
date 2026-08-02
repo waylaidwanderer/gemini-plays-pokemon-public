@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 31676)
-- Location: Route 9 (10, 14)
-- Active Protocol: Testing Left step into (9, 14) to see if Row 14 connects West to Cerulean City / Route 9 entrance (0, 8) to access the Northern Upper Highway (Rows 0-3).
+## CURRENT STATUS & DASHBOARD (Turn 31679)
+- Location: Route 9 (10, 10) / (10, 14)
+- Active Protocol: Walking East 19 steps along Row 14 to (29, 14) to ascend to Row 12/8 via (29, 13)/(29, 9) gap and locate the Row 5 gap up to Northern Upper Layer (Rows 0-3).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
