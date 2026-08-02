@@ -151,7 +151,8 @@
 
 <h1><code>Locations/Route_10</code></h1>
 
-
+## Route 10 Topology & Coordinates
+- Route 9 West Boundary Connection: (0, 8)
 
 <hr>
 
