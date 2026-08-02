@@ -1,54 +1,47 @@
 import mgba
 
-print("=== ROCK TUNNEL B1F (21, 13) PROBE ===")
-start = mgba.get_coordinates()
-print(f"Start pos: {start}")
+print("=== ROCK TUNNEL B1F EAST HIGHWAY PROBE ===")
+pos = mgba.get_coordinates()
+print(f"Start pos: {pos}")
 
-# Test Up
-mgba.press_buttons(["Up"])
-pos_up = mgba.get_coordinates()
-print(f"From {start} UP -> {pos_up}")
-if pos_up != start:
-    mgba.press_buttons(["Down"])
-
-# Test Left
-mgba.press_buttons(["Left"])
-pos_left = mgba.get_coordinates()
-print(f"From {start} LEFT -> {pos_left}")
-
-# From pos_left, try Up, Down, Left
-if pos_left != start:
+# 1. Up to y=4
+while pos['y'] > 4:
     mgba.press_buttons(["Up"])
-    p_lu = mgba.get_coordinates()
-    print(f"  From LEFT, UP -> {p_lu}")
-    if p_lu != pos_left:
-        mgba.press_buttons(["Down"])
+    nxt = mgba.get_coordinates()
+    if nxt == pos:
+        print(f"Hit wall moving Up at {pos}")
+        break
+    pos = nxt
+    print(f"Up step -> {pos}")
 
-    mgba.press_buttons(["Down"])
-    p_ld = mgba.get_coordinates()
-    print(f"  From LEFT, DOWN -> {p_ld}")
-    if p_ld != pos_left:
-        mgba.press_buttons(["Up"])
-
-    mgba.press_buttons(["Left"])
-    p_ll = mgba.get_coordinates()
-    print(f"  From LEFT, LEFT -> {p_ll}")
-    if p_ll != pos_left:
-        mgba.press_buttons(["Right"])
-
-    # return to start
+# 2. Right to x=31
+while pos['x'] < 31:
     mgba.press_buttons(["Right"])
+    nxt = mgba.get_coordinates()
+    if nxt == pos:
+        print(f"Hit wall moving Right at {pos}")
+        break
+    pos = nxt
+    print(f"Right step -> {pos}")
 
-# Test Right
-mgba.press_buttons(["Right"])
-pos_right = mgba.get_coordinates()
-print(f"From {start} RIGHT -> {pos_right}")
+# 3. Up to y=2
+while pos['y'] > 2:
+    mgba.press_buttons(["Up"])
+    nxt = mgba.get_coordinates()
+    if nxt == pos:
+        print(f"Hit wall moving Up at {pos}")
+        break
+    pos = nxt
+    print(f"Up step -> {pos}")
 
-# From pos_right, try Up, Down, Right
-if pos_right != start:
+# 4. Right past x=31 to x=45 along Row 2
+while pos['x'] < 45:
     mgba.press_buttons(["Right"])
-    p_rr = mgba.get_coordinates()
-    print(f"  From RIGHT, RIGHT -> {p_rr}")
+    nxt = mgba.get_coordinates()
+    if nxt == pos:
+        print(f"Hit wall moving Right at {pos}")
+        break
+    pos = nxt
+    print(f"Right step on Row 2 -> {pos}")
 
-print("=== PROBE COMPLETE ===")
-print(f"Final pos: {mgba.get_coordinates()}")
+print(f"Final pos: {pos}")
