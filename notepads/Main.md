@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 31928)
-- Location: Rock Tunnel 1F (17, 7)
-- Active Protocol: At (17, 7) in Rock Tunnel 1F. Walking Left 4 to (13, 7), Down 4 to (13, 11), and Right 4 to (17, 11) ladder to descend to B1F.
+## CURRENT STATUS & DASHBOARD (Turn 31930)
+- Location: Rock Tunnel 1F (14, 7)
+- Active Protocol: In wild Zubat battle at (14, 7). Selecting RUN to return to overworld and re-verify corridor paths to B1F ladder.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
