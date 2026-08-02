@@ -1,3 +1,3 @@
-## CURRENT STATUS & DASHBOARD (Turn 29525)
-- Location: Cerulean House 1 (2, 2)
-- Active Protocol: Walk Down to (2, 8) to warp to South Cerulean (13, 26), then walk East to (36, 19) and hop ledge onto Route 5 -> Celadon City.
+## CURRENT STATUS & DASHBOARD (Turn 29528)
+- Location: Cerulean City (13, 16)
+- Active Protocol: Single-step testing Column 12 blue ramp (12, 15) to reach Row 12 -> Burglarized House (28, 12) -> Route 5 -> Celadon City.
