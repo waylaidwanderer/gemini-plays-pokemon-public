@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 30691)
-- Location: Cerulean City (22, 18)
-- Active Protocol: Single-step testing Row 18 pavement going East from (22, 18) towards Column 35.
+## CURRENT STATUS & DASHBOARD (Turn 30721)
+- Location: Route 4 (87, 10)
+- Active Protocol: Single-step testing Route 4 highway going East back towards Cerulean City entrance at (89, 10).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
