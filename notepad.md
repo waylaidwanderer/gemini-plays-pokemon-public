@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 30564)
-- Location: Burglarized House (4, 13)
-- Active Protocol: Walking to (5, 2) inside house, talking to homeowner NPC at (4, 2) to finish dialogue, then stepping Left/Up through front exit door (4, 1) into North Cerulean (27, 9).
+## CURRENT STATUS & DASHBOARD (Turn 30568)
+- Location: Burglarized House (5, 2)
+- Active Protocol: Returning south inside house to (5, 13) back door warp to exit to Cerulean City (30, 20), then taking Row 20 west corridor to stairs (24, 18) -> (24, 11) -> Route 9 at (43, 16).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
