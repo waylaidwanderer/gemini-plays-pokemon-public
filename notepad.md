@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 30781)
-- Location: Cerulean City (29, 20)
-- Active Protocol: Traversing East Cerulean at (29, 20) around NPC at (31, 20) into Column 32 alley at (32, 18) towards Route 9 exit.
+## CURRENT STATUS & DASHBOARD (Turn 30811)
+- Location: Cerulean City (27, 12)
+- Active Protocol: Returning West along Row 12 towards Column 8 staircase at (8, 11) to access North Cerulean Row 8 highway.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
