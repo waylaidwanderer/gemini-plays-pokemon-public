@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 34261)
-- Location: Rock Tunnel 1F (15, 10) - Eastern Sector
-- Active Protocol: Exit Rock Tunnel: Navigate North through 1F corridor to Route 10 Exit at (15, 3)!
+## CURRENT STATUS & DASHBOARD (Turn 34280)
+- Location: Rock Tunnel 1F (5, 15) - Western Sector
+- Active Protocol: Exit Rock Tunnel via Master Route: (5,15) -> Down 3 to (5,18) -> Right 5 to (10,18) -> Up 4 to (10,14) -> Right 5 to (15,14) -> Up 4 to (15,10) -> Left 4 to (11,10) -> Up 4 to (11,6) -> Right 9 to (20,6) -> Up 3 to (20,3) -> Left 5 to (15,3) Exit!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -609,6 +609,13 @@ Secondary Ladder Alcove (3, 3) connects to B1F (37, 17).
 
 ### Exit Route Note:
 Secondary Ladder Alcove (3, 3) connects to B1F (37, 17).
+
+### Master Verified 1F Exit Route to Route 10 (Turn 34280)
+From Secondary Ladder Alcove (5, 15):
+1. Walk Down 3 to (5, 18) -> Right 5 to (10, 18) -> Up 4 to (10, 14).
+2. Walk Right 5 to (15, 14) -> Up 4 to (15, 10) -> Left 4 to (11, 10).
+3. Walk Up 4 to (11, 6) -> Right 9 to (20, 6) -> Up 3 to (20, 3).
+4. Walk Left 5 to (15, 3) Route 10 Exit Doorway -> Up 1 step out to Route 10!
 
 <hr>
 
