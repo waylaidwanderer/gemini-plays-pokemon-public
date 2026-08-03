@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 32771)
-- Location: Route 9 (0, 8)
-- Active Protocol: East to Cut Tree at (5, 8) -> Use Cut -> East along Row 11/12 to (29, 11).
+## CURRENT STATUS & DASHBOARD (Turn 32789)
+- Location: Route 9 (23, 6)
+- Active Protocol: East to Col 25 -> Ascend North to Row 4 Top Highway -> East to Route 10 Entrance (59, 2).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
