@@ -174,6 +174,13 @@
 ### Exit Route Note:
 Secondary Ladder Alcove (3, 3) connects to B1F (37, 17).
 
+### Master Verified 1F Exit Route to Route 10 (Turn 34280)
+From Secondary Ladder Alcove (5, 15):
+1. Walk Down 3 to (5, 18) -> Right 5 to (10, 18) -> Up 4 to (10, 14).
+2. Walk Right 5 to (15, 14) -> Up 4 to (15, 10) -> Left 4 to (11, 10).
+3. Walk Up 4 to (11, 6) -> Right 9 to (20, 6) -> Up 3 to (20, 3).
+4. Walk Left 5 to (15, 3) Route 10 Exit Doorway -> Up 1 step out to Route 10!
+
 <hr>
 
 <h1><code>Locations/Rock_Tunnel_B1F</code></h1>
