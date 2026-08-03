@@ -54,12 +54,12 @@
 
 
 - **Elevator Location & Interaction (Verified on Turn 17280):**
-  - The B2F elevator doorway is located at (24, 13) (Row 13 Column 24).
-  - Column 23 Row 13 is a walkable tile next to the elevator entrance.
-  - To use the elevator on B2F, you must stand at B2F (24, 14) facing UP, and press "A" (with the Lift Key in your bag). This will open the doors, allowing you to walk UP to (24, 13) to warp inside the elevator cabin.
+  - The B2F elevator doorway is located at (25, 13) (Row 13 Column 25).
+  - Column 24 Row 13 is a solid decorative pillar, which blocks it.
+  - To use the elevator on B2F, you must stand at B2F (25, 14) facing UP, and press "A" (with the Lift Key in your bag). This will open the doors, allowing you to walk UP to (25, 13) to warp inside the elevator cabin.
 
 ## B3F Layout & Mapping
-- **Connecting Corridor (Row 7):** B3F's eastern and western rooms are connected by a walkable horizontal corridor along Row 7 (from Column 16 to Column 27). This allows the player to walk directly between the two areas of the floor.
+
 - **Stairs UP to B2F (Left Room):** Located at B3F (5, 15). Warps the player UP, spawning them at B2F (2, 9) facing Right (verified on Turn 15297).
 - **Stairs UP to B2F (Right Room):** Located at B3F (25, 6). Warps the player UP, spawning them at B2F (21, 8) (verified on Turn 15541).
 - **Stairs DOWN to B4F (Western Room):** Located at B3F (19, 18). Takes the player to B4F at (19, 10) (verified on Turn 15679).
