@@ -3,4 +3,4 @@
 - Col 13 South Passage: (13, 8) -> DOWN through (13, 11) gap to (13, 12) lower corridor.
 - Route 10 Pokemon Center Door: (11, 19)
 - Rock Tunnel 1F Entrance: (8, 17)
-- Route 10 Pokemon Center Bypass: Col 14 (x=14, y=15..20) -> Row 20 West to Col 8 -> Up to Rock Tunnel Entrance at (8, 17).
+- Route 10 Pokemon Center Bypass: Col 14 (x=14, y=15..20) -> Row 21 West through (9, 21) tree gap to Col 8 -> Up 4 to Rock Tunnel Entrance at (8, 17).
