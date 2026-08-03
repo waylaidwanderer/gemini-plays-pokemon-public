@@ -15,3 +15,13 @@
 3. From (33, 16): Walk North 4 steps through North Ascent Bypass to Row 12 at (33, 12).
 4. From (33, 12): Walk Right 2 steps to (35, 12) -> North 8 steps through Upper Northern Passage to Row 4 at (35, 4).
 5. From (35, 4): Walk Left 8 steps, Up 1 step to 1F Exit Ladder at (27, 3)!
+### Verified B1F Complete Topography & Exit Route (Turn 33636)
+- 1F Main Arrival Ladder: (33, 25) in East Sector.
+- Central Barrier (Cols 26-27): Solid rock wall from y=20 down to y=29 separating East and West sectors.
+- Sector Bypass Passage (Rows 30-31): Open East-West pavement/grass corridor across Cols 22-33 below Row 29, connecting East Sector to West Sector!
+- Western Cavern Corridor (Cols 14-17): Wide 4-tile open northbound corridor running continuously from Row 31 up through Row 16 Highway!
+- Master Route to Exit Ladder (27, 3):
+  1. From (33, 25) Arrival: Walk South down Col 29 to Row 30 at (29, 30).
+  2. Walk Left 15 steps along Row 30/31 passage into West Sector at (14, 30).
+  3. Walk North 14 steps along Col 14 through Rows 29-17 to Row 16 Highway at (14, 16).
+  4. Walk East along Row 16 Highway to Col 33 -> North through North Ascent Bypass to Row 12 -> Upper Northern Passage to Row 4 Chamber -> Exit Ladder at (27, 3)!
