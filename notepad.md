@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 34402)
-- Location: Rock Tunnel 1F (21, 18) - Eastern Cavern
-- Active Protocol: Exit Rock Tunnel: Right 1 to (22, 18) -> Up 15 to (22, 3) -> Left 7 to (15, 3) -> Up 1 to Route 10 Exit!
+## CURRENT STATUS & DASHBOARD (Turn 34406)
+- Location: Rock Tunnel B1F (23, 11) - Ladder
+- Active Protocol: Press A to take ladder to 1F (17, 11) -> Down 4 to (17, 15) -> Right 3 to (20, 15) -> Up 12 to (20, 3) -> Left 5 to (15, 3) -> Up 1 to Route 10 Exit!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -182,6 +182,8 @@
   Down 8 to (11, 14) -> Right 3 to (14, 14) -> Up 8 to (14, 6) -> Right 1 to (15, 6) -> Up 4 to Route 10 Exit!
 - Verified Eastern Exit Bypass: Row 8-9 rock wall blocks Cols 14-19. Column 20 is open from Row 10 North to Row 3!
 - Master Route from (15, 10) to Exit (15, 2): Right 5 to (20, 10) -> Up 7 to (20, 3) -> Left 5 to (15, 3) -> Up 1 to Route 10 Exit!
+- Verified Master Route 15 Bypass (Turn 34405): Row 15 is open from Col 14 to Col 22. Column 20 is open from Row 15 North to Row 3 Exit Warp!
+- Complete Exit Path from (17, 10): Down 5 to (17, 15) -> Right 3 to (20, 15) -> Up 12 to (20, 3) -> Left 5 to (15, 3) -> Up 1 to Route 10 Exit!
 
 <hr>
 
