@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 33213)
-- Location: Rock Tunnel B1F (29, 20)
-- Active Protocol: Descend Down 11 to South Corridor (29, 31), Right 4 across Col 30/31 gap to (33, 31), and East to Secondary Ladder at (37, 17).
+## CURRENT STATUS & DASHBOARD (Turn 33214)
+- Location: Rock Tunnel B1F (29, 21)
+- Active Protocol: Run from wild Zubat, descend Down 10 along Col 29 to South Corridor at (29, 31), and Right 4 to (33, 31).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
