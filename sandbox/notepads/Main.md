@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 32068)
-- Location: Route 10 South (20, 12)
-- Active Protocol: At (20, 12) on Route 10 South facing Machop; escaping battle, then stepping Down 5 steps along Column 20 to enter Lavender Town.
+## CURRENT STATUS & DASHBOARD (Turn 32075)
+- Location: Route 10 South (21, 9)
+- Active Protocol: At (21, 9) on Route 10 South in Geodude battle; escaping battle, then stepping Down 8 steps along Column 21 to enter Lavender Town.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
