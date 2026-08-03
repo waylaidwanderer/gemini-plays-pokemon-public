@@ -1,6 +1,6 @@
 ## CURRENT STATUS & DASHBOARD (Turn 32878)
-- Location: Rock Tunnel B1F (14, 24)
-- Active Protocol: Walk Right 6 steps to (20, 24) to reach East bypass passage.
+- Location: Rock Tunnel B1F (20, 20)
+- Active Protocol: Walk Up 4 steps along Col 20 to (20, 20).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
