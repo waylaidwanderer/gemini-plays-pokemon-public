@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 34393)
-- Location: Rock Tunnel 1F (15, 10) - Eastern Sector
-- Active Protocol: Exit Rock Tunnel: Right 5 to (20, 10) -> Up 7 to (20, 3) -> Left 5 to (15, 3) -> Up 1 to Route 10 Exit!
+## CURRENT STATUS & DASHBOARD (Turn 34395)
+- Location: Rock Tunnel 1F (14, 10) - Eastern Sector
+- Active Protocol: Exit Rock Tunnel: Down 8 to (14, 18) -> Right 8 to (22, 18) -> Up 15 to (22, 3) -> Left 7 to (15, 3) Route 10 Exit!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
