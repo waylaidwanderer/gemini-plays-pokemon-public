@@ -11,7 +11,6 @@
 - Ascent Passage Verified: (29, 13) connects Lower Basin (29, 14) UP to Row 12 (Middle Highway) at (29, 12).
 - Key Ascent Point: (29, 9) gap connects Row 12 / Row 10 UP to Row 8 (Upper Highway).
 - Route 12 Rock Barrier: Rock wall at (42, 12) blocks direct Eastward passage on Row 12. Gap at (41, 8/12) connects Row 12 UP to Row 6/8 highway.
-- Route 9 Topography Analysis: Row 5 & Row 13 are south-facing ledges. Row 6/7 (x=30-45) dead-ends against rock wall at x=46. Retracing West along Row 14 lower basin to test West entrance connections to Upper Highway.
 
 ### Route 9 Master Topography & Complete Solution
 
