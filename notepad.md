@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 32921)
-- Location: Rock Tunnel B1F (17, 27)
-- Active Protocol: Right 4 to (21, 27), then Up 5 to (21, 22) to ascend into Upper Northern Cavern.
+## CURRENT STATUS & DASHBOARD (Turn 32922)
+- Location: Rock Tunnel B1F (21, 22)
+- Active Protocol: Walk Up 5 steps along Col 21 to (21, 17) in Northern Highway.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -175,8 +175,8 @@
 - Arrival Cavern: Open floor across Rows 22-29, Cols 28-37.
 - Central Barrier: Cols 26-27 vertical rock wall (Rows 21-29).
 - South Corridor: Rows 30-33 open highway running East-West (Cols 2-37). Bounded South by Row 34 rock wall.
-- West Passage (Col 16-17): The ONLY Northbound passage connecting South Corridor (Row 31) to Row 27 Western Highway (Cols 2-25).
-- Master Route to Exit Ladder: Take South Corridor to Col 17 -> North through (17, 27) -> Explore Row 27 West/East for Northbound ascent passages.
+- West Passage (Col 16-17): Northbound passage connecting South Corridor (Row 31) to Row 27 Western Highway (Cols 2-25).
+- North Passage (Col 19-22): Open northbound bypass through (21, 23) connecting Row 27 to Upper Northern Cavern (Row 22 and above).
 
 <hr>
 
@@ -597,6 +597,6 @@
 - Central Barrier: Cols 26-27 vertical rock wall (Rows 21-29).
 - South Corridor: Rows 30-33 open highway running East-West (Cols 2-37). Bounded South by Row 34 rock wall.
 - West Passage (Col 16-17): Northbound passage connecting South Corridor (Row 31) to Row 27 Western Highway (Cols 2-25).
-- North Passage (Col 19-22): Open northbound bypass through (21, 23) connecting Row 27 to Upper Northern Cavern (Row 22 and above).
+- North Passage (Col 21): VERIFIED OPEN NORTHBOUND HIGHWAY connecting Row 27 through (21, 22) North to Row 18+ (Cols 20-25).
 
 <hr>
