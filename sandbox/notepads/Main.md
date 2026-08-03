@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 34458)
+## CURRENT STATUS & DASHBOARD (Turn 34460)
 - Location: Rock Tunnel B1F (23, 5) - Upper Chamber
-- Active Protocol: Run from Machop -> Down 1 to (23, 6) -> Right 4 to (27, 6) -> Up 3 onto Exit Ladder (27, 3) -> 1F Exit (15, 3)!
+- Active Protocol: Down 1 to (23, 6) -> Right 4 to (27, 6) -> Up 3 onto Exit Ladder (27, 3) -> 1F Exit (15, 3)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
