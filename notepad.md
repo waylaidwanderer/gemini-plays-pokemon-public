@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
 ## CURRENT STATUS & DASHBOARD (Turn 34040)
-- Location: Rock Tunnel 1F (27, 3) - Eastern Sector Exit Chamber
-- Active Protocol: Walk Right 10 along Row 3 to Col 37 at (37, 3) -> Down 8 along Col 37 to Exit Door at (37, 11) -> Route 10 South!
+- Location: Rock Tunnel 1F (37, 3) - South Exit Corridor
+- Active Protocol: Down 8 along Col 37 to Exit Door at (37, 11) -> Route 10 South -> Lavender Town!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
