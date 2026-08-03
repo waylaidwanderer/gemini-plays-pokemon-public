@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 34236)
-- Location: Rock Tunnel B1F (27, 5) - Upper Cavern
-- Active Protocol: Take Exit Ladder at (27, 3): Walk Up 2 to (27, 3) to warp to 1F Exit Chamber -> Exit to Route 10 South!
+## CURRENT STATUS & DASHBOARD (Turn 34237)
+- Location: Rock Tunnel 1F (5, 3) - North Exit Alcove
+- Active Protocol: Exit Rock Tunnel: Walk Right 1 to (6, 3) -> Up 4 through (6, 0) to Exit Rock Tunnel out to Route 10!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
