@@ -93,3 +93,9 @@
   - Poké Ball at (9, 17) (Hyper Potion, obtained on Turn 14865).
   - Poké Ball at (10, 12) (HP UP, obtained on Turn 15709).
   - Poké Ball at (10, 2) (LIFT KEY, dropped by elevator-guard grunt at (11, 2) on Turn 15778).
+- **B3F Grid Obstacles & Boundaries (Burden of Proof Verified):**
+  - B3F (20, 7) to (20, 11) is a clear, walkable vertical corridor (verified on Turn 16950).
+  - B3F (20, 12) is a solid green-edged plant wall block (completely impassable, verified on Turn 16950).
+  - B3F Column 21 is a solid vertical grey wall from Row 6 to Row 13 (verified on Turn 16950).
+  - B3F Column 19 is blocked by solid wall blocks from Row 10 to Row 14 (verified on Turn 16952).
+  - B3F Column 18 is blocked by solid wall blocks from Row 10 to Row 14 (verified on Turn 16952).
