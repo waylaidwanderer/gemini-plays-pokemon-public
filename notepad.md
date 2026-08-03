@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 34214)
-- Location: Rock Tunnel B1F (14, 21) - Cavern Highway Corridor
-- Active Protocol: Direct Highway Route: Up 5 to Row 16 Highway at (14, 16) -> East along Row 16 to Col 33 (33, 16) -> North to Row 12 (33, 12) -> Right 2 to (35, 12) -> North to Row 4 (35, 4) -> West to Exit Ladder (27, 3)!
+## CURRENT STATUS & DASHBOARD (Turn 34215)
+- Location: Rock Tunnel B1F (14, 16) - Cavern Highway Corridor
+- Active Protocol: Row 12 Bypass Route: Up 4 to Row 12 (14, 12) -> East along Row 12 to Col 33/35 (35, 12) -> North to Row 4 (35, 4) -> West to Exit Ladder (27, 3)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
