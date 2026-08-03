@@ -654,10 +654,9 @@
 
 
 - **Elevator Location & Interaction (Verified on Turn 17280):**
-  - The B2F elevator doorway is located at (25, 13) (Row 13 Column 25).
-  - Column 24 Row 13 has a solid decorative pillar, which blocks it.
-  - When the elevator is parked on another floor, (25, 13) and (25, 12) are completely walkable on B2F (empty shaft), and walking onto them does NOT trigger a warp.
-  - To call the elevator to B2F, you must stand directly outside the doors at B2F (25, 14) facing UP, and press "A" (with the Lift Key in your bag). This will call the elevator, open the doors, and activate the warp at (25, 13).
+  - The B2F elevator doorway is located at (24, 13) (Row 13 Column 24).
+  - Column 23 Row 13 is a walkable tile next to the elevator entrance.
+  - To use the elevator on B2F, you must stand at B2F (24, 14) facing UP, and press "A" (with the Lift Key in your bag). This will open the doors, allowing you to walk UP to (24, 13) to warp inside the elevator cabin.
 
 ## B3F Layout & Mapping
 - **Connecting Corridor (Row 7):** B3F's eastern and western rooms are connected by a walkable horizontal corridor along Row 7 (from Column 16 to Column 27). This allows the player to walk directly between the two areas of the floor.
@@ -667,7 +666,7 @@
 - **Stairs DOWN to B4F (Eastern Room):** Located at B3F (21, 22). Takes the player to B4F at (21, 24) (verified on Turn 17035).
 - **Major Barriers & Obstacles:**
   - Column 15: Blocked by solid green-edged wall tiles from Row 18 to Row 24 (empirically verified on Turn 14753 that (15, 20) is impassable).
-  - Column 18: Solid vertical wall from Row 6 to Row 19, with gaps only at (18, 10) and (18, 11).
+  - Column 18: Solid vertical wall from Row 6 to Row 19, with walkable gaps at (18, 10), (18, 11), (18, 12), and (18, 13).
   - Row 16: Solid horizontal wall from Column 18 to Column 28, making the bottom-right corridor (rows 17-19) inaccessible from the Right Room.
   - Column 24: Decorative columns/pillars at (24, 11) and (24, 13) are impassable.
 - **Walkable Row 25 Crossing Method (Burden of Proof Verified):**
