@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 34450)
-- Location: Rock Tunnel B1F (17, 7) - Upper Cavern
-- Active Protocol: Up 3 to (17, 4) -> Right 10 to (27, 4) -> Up 1 to Exit Ladder (27, 3)!
+## CURRENT STATUS & DASHBOARD (Turn 34451)
+- Location: Rock Tunnel B1F (17, 4) - Row 4 Upper Passage
+- Active Protocol: Run from Zubat -> Right 10 to (27, 4) -> Up 1 to Exit Ladder (27, 3) -> 1F Exit (15, 3)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
