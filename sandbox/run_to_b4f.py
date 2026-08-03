@@ -50,7 +50,11 @@ try:
     execute_move("Up", (10, 18), wait_stable=True)
 
     # 4. Walk to B3F (14, 15) via (10, 17) RIGHT spinner
-    execute_move("Up", (14, 15), wait_stable=True)
+    # We found that stepping onto (10, 17) RIGHT spinner slides us to (14, 17) UP spinner stopper!
+    execute_move("Up", (14, 17), wait_stable=True)
+    # Then we walk Up 2 steps to (14, 15)
+    execute_move("Up", (14, 16))
+    execute_move("Up", (14, 15))
 
     # 5. Walk to B3F (16, 13) Right Room via (16, 14) UP spinner
     execute_move("Right", (15, 15))
