@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 33158)
-- Location: Rock Tunnel B1F (4, 24)
-- Active Protocol: Clear Geodude defeat text and walk Left 2 steps to (2, 24) in Rock Tunnel B1F.
+## CURRENT STATUS & DASHBOARD (Turn 33163)
+- Location: Rock Tunnel B1F (21, 24)
+- Active Protocol: Walk Right 5 to (26, 24), Down 3 to Row 27 (26, 27), and Right 7 to East Sector (33, 27).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
