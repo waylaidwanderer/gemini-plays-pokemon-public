@@ -1,6 +1,6 @@
 ## CURRENT STATUS & DASHBOARD (Turn 32878)
-- Location: Rock Tunnel 1F (37, 7)
-- Active Protocol: Walk Up 4 steps to B1F Ladder at (37, 3).
+- Location: Rock Tunnel B1F (33, 25)
+- Active Protocol: Walk Left 5 steps to (28, 25) to explore B1F cavern.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
