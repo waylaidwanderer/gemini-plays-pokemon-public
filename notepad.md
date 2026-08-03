@@ -457,6 +457,7 @@
 - **Route 7 Connection:** The eastern exit/entrance at (49, 11) transitions to Route 7 at (2, 3) facing Left.
 
 ### Verified Walkable Overworld Coordinates:
+- **Eastern North-South Street (Columns 36 & 37):** A wide, paved road running vertically through the entire eastern portion of the city. It is completely clear of fence barriers and walkable all the way from Row 10 (near the Pok�mon Center) down to Row 34 (connecting to Saffron Road gatehouse at row 27). This serves as the primary high-speed corridor connecting the north, center, and south of Celadon City.
 
 - Row 22 (western): (10, 22), (11, 22), (12, 22), (13, 22), (14, 22), (15, 22)
 - Row 34: (18, 34), (19, 34), (20, 34), (21, 34), (22, 34), (23, 34), (24, 34), (25, 34), (26, 34), (27, 34), (28, 34), (29, 34), (30, 34), (31, 34), (32, 34), (33, 34), (34, 34), (35, 34)
