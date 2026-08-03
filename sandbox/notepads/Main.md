@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 32252)
-- Location: Route 8 (23, 6)
-- Active Protocol: At (23, 6) on Route 8; testing Column 25 pass at (25, 5) to reach Row 4/3 Northern Highway.
+## CURRENT STATUS & DASHBOARD (Turn 32275)
+- Location: Route 8 (0, 8)
+- Active Protocol: At (0, 8) on Route 8 Western Sector; entering Underground Path Building / Saffron Gatehouse doorway.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
