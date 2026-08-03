@@ -15,4 +15,3 @@
 3. From (33, 16): Walk North 4 steps through North Ascent Bypass to Row 12 at (33, 12).
 4. From (33, 12): Walk Right 2 steps to (35, 12) -> North 8 steps through Upper Northern Passage to Row 4 at (35, 4).
 5. From (35, 4): Walk Left 8 steps, Up 1 step to 1F Exit Ladder at (27, 3)!
-- Main Ladder Warp: Tile (33, 25) in B1F connects directly to 1F East Sector at (37, 3), leading South to Route 10 South Exit at (37, 11)!
