@@ -171,9 +171,6 @@
 - Secondary Ladder Warp: Tile (3, 3) in 1F connects directly to B1F at (37, 17).
 - Secondary Ladder Alcove (Cols 2-5, Rows 0-4): Enclosed dead-end alcove in 1F Western Sector. Ladder at (3, 3) connects to B1F (37, 17).
 
-### Exit Route Note:
-Secondary Ladder Alcove (3, 3) connects to B1F (37, 17).
-
 <hr>
 
 <h1><code>Locations/Rock_Tunnel_B1F</code></h1>
