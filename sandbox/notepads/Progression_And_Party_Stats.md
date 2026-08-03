@@ -1,36 +1,62 @@
-# Progression & Party Stats
+# Progression and Party Stats
 
-## Key Progression Milestones
-- **Pok�dex:** Obtained from Professor Oak in Oak's Pok�mon Lab on Turn 128.
-- **Town Map:** Obtained from Daisy in Daisy's House on Turn 137.
-- **Caught First Companion:** Caught NIBBLES (Rattata, Level 3) on Route 1 on Turn 318.
-- **Caught Second Companion:** Caught GUSTY (Pidgey, Level 3) on Route 1 on Turn 350.
-- **Caught Third Companion:** Caught TESLA (Pikachu, Level 3) in Viridian Forest on Turn 894.
-- **Caught Fourth Companion:** Caught TRUFFLE (Paras, Level 10) on Mt. Moon B1F on Turn 1482.
-- **Defeated Gym Leader Brock:** Defeated Pewter Gym Leader Brock on Turn 1024, obtaining the BOULDERBADGE and TM34 (Bide).
-- **Defeated Gym Leader Misty:** Defeated Cerulean Gym Leader Misty on Turn 5262, obtaining the CASCADEBADGE and TM11 (Bubblebeam).
-- **Obtained S.S. TICKET:** Received S.S. TICKET from Bill in his Sea Cottage on Route 25 on Turn 4781.
-- **Defeated Gym Leader Lt. Surge:** Defeated Vermilion Gym Leader Lt. Surge on Turn 7027, obtaining the THUNDERBADGE and TM24 (Thunderbolt).
-- **Obtained Item (TM30):** Found and retrieved TM30 (Teleport) at (10, 15) on Route 9 on Turn 7206.
+## Gym Badge Milestones
+- **Boulder Badge:** Earned by defeating Gym Leader Brock in Pewter City Gym on Turn 1025.
+- **Cascade Badge:** Earned by defeating Gym Leader Misty in Cerulean City Gym on Turn 5262.
+- **Thunder Badge:** Earned by defeating Gym Leader Lt. Surge in Vermilion City Gym on Turn 7025.
+- **Rainbow Badge:** Earned by defeating Gym Leader Erika in Celadon City Gym on Turn 13682.
 
-## Party Statistics
-- **TESLA (Pikachu):**
-  - **Level:** 18
-  - **HP:** 8 / 42
-  - **Status:** Healthy
-- **TRUFFLE (Paras):**
-  - **Level:** 14
-  - **HP:** 37 / 37
-  - **Status:** Healthy
-- **GUSTY (Pidgey):**
-  - **Level:** 5
-  - **HP:** 19 / 19
-  - **Status:** Healthy
-- **NIBBLES (Rattata):**
-  - **Level:** 7
-  - **HP:** 22 / 22
-  - **Status:** Healthy
-- **SHELLBY (Blastoise):**
-  - **Level:** 36
-  - **HP:** 82 / 98
-  - **Status:** Healthy
+## Current Party Stats (as of Turn 15811)
+1. **SHELLBY** (Blastoise)
+   - Level: 44
+   - HP: 138/138
+   - Status: Healthy
+   - Moveset: SKULL BASH (13/15), ICE BEAM (0/10) (Taught on Turn 13537, forgot TAIL WHIP), BITE (11/25), WATER GUN (25/25)
+2. **TRUFFLE** (Paras)
+   - Level: 15
+   - HP: 39/39
+   - Status: Healthy
+3. **GUSTY** (Pidgey)
+   - Level: 5
+   - HP: 19/19
+   - Status: Healthy
+4. **NIBBLES** (Rattata)
+   - Level: 7
+   - HP: 22/22
+   - Status: Healthy
+5. **TESLA** (Pikachu)
+   - Level: 19
+   - HP: 46/46
+   - Status: Healthy
+
+## Major Milestones and Items
+- **Cut:** Taught to Pokémon on Turn 6787.
+- **Bill's House:** Visited on Route 25 on Turn 4765. Restored Bill's human form.
+- **Burgled House:** Explored in Cerulean City.
+- **S.S. Anne:** Boarded and cleared, obtained Cut from the Captain.
+- **Ice Beam:** Taught to SHELLBY on Turn 13537 (forgot Tail Whip).
+- **Moon Stone:** Obtained on Turn 14079.
+- **TM07 (Horn Drill):** Obtained on Turn 14097.
+- **Escape Rope:** Obtained on Turn 13977.
+
+## Verified Inventory (as of Turn 15811)
+- **Town Map:** 1
+- **TM01 (Mega Punch):** 1
+- **Moon Stone:** 2
+- **Helix Fossil:** 1
+- **S.S. Ticket:** 1
+- **TM11 (BubbleBeam):** 1
+- **Ether:** 1
+- **TM44 (Rest):** 1
+- **Max Ether:** 1
+- **HM01 (Cut):** 1
+- **TM24 (Thunderbolt):** 1
+- **TM30 (Teleport):** 1
+- **TM48 (Rock Slide):** 1
+- **TM49 (Tri Attack):** 1
+- **Awakening:** 5
+- **Parlyz Heal:** 4
+- **Super Potion:** 5
+- **Escape Rope:** 1
+- **TM07 (Horn Drill):** 1
+- **Lift Key:** 1 (Obtained on Turn 15797 on B4F)

@@ -1,612 +1,751 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 32363)
-- Location: Route 5 (9, 17)
-- Active Protocol: At (9, 17) on Route 5; walking Right 1 to (10, 17), Down 4 into building doorway at (10, 21) to enter Route 5 Underground Path.
 
-## KEY ITEMS & INVENTORY
-- Badges: Cascade Badge, Thunder Badge
-- Key Items: BICYCLE (Obtained Turn 29881 in Cerulean Bike Shop), HM01 Cut, S.S. Ticket, Helix Fossil
 
 <hr>
 
-<h1><code>Locations/Route_3</code></h1>
+<h1><code>Locations/PalletTown_And_Route1</code></h1>
 
 
 
 <hr>
 
-<h1><code>Locations/Route_4</code></h1>
+<h1><code>Locations/ViridianCity</code></h1>
 
 
 
 <hr>
 
-<h1><code>Locations/Mt_Moon_1F</code></h1>
+<h1><code>Progression_And_Party_Stats</code></h1>
+
+# Progression and Party Stats
+
+## Gym Badge Milestones
+- **Boulder Badge:** Earned by defeating Gym Leader Brock in Pewter City Gym on Turn 1025.
+- **Cascade Badge:** Earned by defeating Gym Leader Misty in Cerulean City Gym on Turn 5262.
+- **Thunder Badge:** Earned by defeating Gym Leader Lt. Surge in Vermilion City Gym on Turn 7025.
+- **Rainbow Badge:** Earned by defeating Gym Leader Erika in Celadon City Gym on Turn 13682.
+
+## Current Party Stats (as of Turn 15811)
+1. **SHELLBY** (Blastoise)
+   - Level: 44
+   - HP: 138/138
+   - Status: Healthy
+   - Moveset: SKULL BASH (13/15), ICE BEAM (0/10) (Taught on Turn 13537, forgot TAIL WHIP), BITE (11/25), WATER GUN (25/25)
+2. **TRUFFLE** (Paras)
+   - Level: 15
+   - HP: 39/39
+   - Status: Healthy
+3. **GUSTY** (Pidgey)
+   - Level: 5
+   - HP: 19/19
+   - Status: Healthy
+4. **NIBBLES** (Rattata)
+   - Level: 7
+   - HP: 22/22
+   - Status: Healthy
+5. **TESLA** (Pikachu)
+   - Level: 19
+   - HP: 46/46
+   - Status: Healthy
+
+## Major Milestones and Items
+- **Cut:** Taught to Pokémon on Turn 6787.
+- **Bill's House:** Visited on Route 25 on Turn 4765. Restored Bill's human form.
+- **Burgled House:** Explored in Cerulean City.
+- **S.S. Anne:** Boarded and cleared, obtained Cut from the Captain.
+- **Ice Beam:** Taught to SHELLBY on Turn 13537 (forgot Tail Whip).
+- **Moon Stone:** Obtained on Turn 14079.
+- **TM07 (Horn Drill):** Obtained on Turn 14097.
+- **Escape Rope:** Obtained on Turn 13977.
+
+## Verified Inventory (as of Turn 15811)
+- **Town Map:** 1
+- **TM01 (Mega Punch):** 1
+- **Moon Stone:** 2
+- **Helix Fossil:** 1
+- **S.S. Ticket:** 1
+- **TM11 (BubbleBeam):** 1
+- **Ether:** 1
+- **TM44 (Rest):** 1
+- **Max Ether:** 1
+- **HM01 (Cut):** 1
+- **TM24 (Thunderbolt):** 1
+- **TM30 (Teleport):** 1
+- **TM48 (Rock Slide):** 1
+- **TM49 (Tri Attack):** 1
+- **Awakening:** 5
+- **Parlyz Heal:** 4
+- **Super Potion:** 5
+- **Escape Rope:** 1
+- **TM07 (Horn Drill):** 1
+- **Lift Key:** 1 (Obtained on Turn 15797 on B4F)
+
+<hr>
+
+<h1><code>Mechanics/Search_Scripting_Pitfalls</code></h1>
 
 
 
 <hr>
 
-<h1><code>Locations/Mt_Moon_B1F</code></h1>
+<h1><code>Locations/Route22</code></h1>
 
 
 
 <hr>
 
-<h1><code>Locations/Mt_Moon_B2F</code></h1>
+<h1><code>Mechanics/Naming_Screen_Offset</code></h1>
 
 
 
 <hr>
 
-<h1><code>Locations/Cerulean_City</code></h1>
-
-## Verified Cerulean City Topology & Boundaries (Turn 30944)
-
-### Route 9 East Exit Passage
-- Row 16 Corridor: Row 16 is an elevated corridor above the Row 19 ledge running continuously from Col 17 all the way East to Col 38/39.
-- Route 9 Entrance: Open passage into Route 9 is at Row 16 / Row 17 at (38, 16) / (39, 16) and (38, 17).
-- Col 38 Wall: Solid rock wall from y=18 down through y=33.
-
-### Key Obstacles & Passages
-- Cut Tree (19, 28): Connects South Cerulean (y=29/30) to Central Cerulean (y=26/27).
-- Column 35 Fence: Vertical wooden fence from y=20 down to y=25.
-- Row 19 Ledges: One-way south-facing ledges across Cols 32-37.
-- Column 24 Railing: West railing at (24, 18) blocks entry from (23, 18).
-- Row 22 Highway: Row 22 is open grass/pavement from Col 34 all the way West to Col 17 (bypasses Col 35 fence, Col 31 NPC, and Col 27 signpost).
-- Column 17 Slope: Open North-South pavement from (17, 26) up to Row 16 (17, 16).
-
-<hr>
-
-<h1><code>Locations/Route_24</code></h1>
+<h1><code>Locations/Route2</code></h1>
 
 
 
 <hr>
 
-<h1><code>Locations/Route_25</code></h1>
+<h1><code>Locations/ViridianForest</code></h1>
 
 
 
 <hr>
 
-<h1><code>Locations/Sea_Cottage</code></h1>
-
-# Sea Cottage Map & Points of Interest
-
-## Key Locations & Coordinates
-- **Entrance Mat:** [Verified Turn 10304] Spawns at X=2, Y=7 facing Up. Exit mat at (2,7)/(3,7).
-- **Human Bill:** [Verified Turn 10315] Located at X=4, Y=4 after Cell Separator operation. Spoke with Bill and received S.S. Ticket [Turn 10317]!
-- **Teleporter Machine:** Left pod at (2,5), Right pod at (5,5).
-- **Cell Separator PC Terminal:** [Verified Turn 10313] Interactive monitor at X=1, Y=4 accessed from X=1, Y=5 facing Up.
-
-<hr>
-
-<h1><code>Locations/Route_6</code></h1>
+<h1><code>Locations/PewterCity</code></h1>
 
 
 
 <hr>
 
-<h1><code>Locations/Vermilion_City</code></h1>
+<h1><code>Locations/Route3</code></h1>
 
 
 
 <hr>
 
-<h1><code>Locations/SS_Anne_1F</code></h1>
+<h1><code>Mechanics/UI_And_Border_Rendering</code></h1>
 
 
 
 <hr>
 
-<h1><code>Locations/SS_Anne_2F</code></h1>
+<h1><code>Locations/Route4</code></h1>
 
 
 
 <hr>
 
-<h1><code>Locations/Vermilion_Gym</code></h1>
+<h1><code>Locations/CeruleanCity</code></h1>
 
 
 
 <hr>
 
-<h1><code>Locations/Route_9</code></h1>
+<h1><code>Locations/Route24</code></h1>
 
-## Route 9 Verified Topography
-- Entrance from Cerulean City: (0, 8)
-- Cut Tree: (5, 8) blocks eastern passage.
-- Ledge Gap / Passage: (19, 13) connects lower basin (Row 14) to upper highway (Row 12).
-- Row 10 Barrier: Rock wall at (30, 10). From (29, 10), descend south 2 steps to Row 12 at (29, 12).
-- Row 12 East Highway: Continuous open grass from (29, 12) through (34, 12) running East.
-- Ledge Gap / Passage: (29, 13) connects lower basin (Row 14) directly UP to Row 12 grass highway.
-- Ledge Gap / Passage: (29, 9) connects Row 10 to Row 8 grass.
-- Col 41 Highway Gap: (41, 8) connects Row 12 UP to Row 6. Note: Row 6/7 highway dead-ends at (45, 6)/(45, 7) against rock wall.
-- Lower Basin (Row 14): Extends from x=28 (west rock wall at 27, 14) to x=53 (east rock wall at 54, 14).
-- Ascent Passage Verified: (29, 13) connects Lower Basin (29, 14) UP to Row 12 (Middle Highway) at (29, 12).
-- Key Ascent Point: (29, 9) gap connects Row 12 / Row 10 UP to Row 8 (Upper Highway).
-- Route 9 Exploration: Testing x=17/18 slope boundary from Row 12 grass (17, 12) to Row 10/8.
-- Route 12 Rock Barrier: Rock wall at (42, 12) blocks direct Eastward passage on Row 12. Gap at (41, 8/12) connects Row 12 UP to Row 6/8 highway.
-- Route 9 Topography Analysis: Row 5 & Row 13 are south-facing ledges. Row 6/7 (x=30-45) dead-ends against rock wall at x=46. Retracing West along Row 14 lower basin to test West entrance connections to Upper Highway.
 
-### Route 9 Master Topography & Complete Solution
-
-- Access to Row 9 Highway:
-  1. From (10, 12), walk East along Row 12 to (29, 12).
-  2. Step UP 3 steps through (29, 11)/(29, 10) to (29, 9) Row 9 Pavement Highway.
-
-### Verified Master Route to Route 10
-1. Retrace West along Row 14 from (23, 14) through (10, 14) to Cerulean City East Exit / Route 9 Entrance at (0, 8/16).
-2. Re-enter Route 9 at (0, 8) on Middle/Upper Highway tier.
-3. Cut tree at (5, 8) and walk East along Row 11/12 across Columns 24-27 to (29, 11).
-4. At (29, 11), step UP to (29, 10), walk West to (25, 10), ascend North along Col 25/23 to Row 4 Top Highway.
-5. Walk East continuously along Row 4/3/2 Top Highway to Route 10 Entrance at (59, 2/3/4).
-- West Basin Bound: Solid rock wall at x=9 (y=10..18). Row 14 lower basin begins at x=10.
-- Basin Exit Ledge Gap Verified: (19, 14) -> UP 2 steps through (19, 13) gap to (19, 12) Middle Highway grass!
-- Top Highway Ascent Gap Verified: (38, 6) -> UP through (39, 5/4/3/2) to Top Highway, then East to x=51 and DOWN across (51, 5) ledge to (51, 6/8) East Highway!
 
 <hr>
 
-<h1><code>Locations/Route_10</code></h1>
+<h1><code>Locations/Route25</code></h1>
 
-## Route 10 Topology & Coordinates
-- Route 9 West Boundary Connection: (0, 8)
-- Col 13 South Passage: (13, 8) -> DOWN through (13, 11) gap to (13, 12) lower corridor.
-- Route 10 Pokemon Center Door: (11, 19)
-- Rock Tunnel 1F Entrance: (8, 17)
-- Route 10 Pokemon Center Bypass: Col 14 (x=14, y=15..19)
+
 
 <hr>
 
-<h1><code>Locations/Rock_Tunnel_1F</code></h1>
+<h1><code>Locations/Route5</code></h1>
 
-## Rock Tunnel 1F Topography & Coordinates
-- Route 10 Entrance: (15, 3)
-- Dark Cave Environment: Empirical testing required for all corridors and walls.
-- First B1F Ladder Verified: (17, 11)
+
 
 <hr>
 
-<h1><code>Locations/Rock_Tunnel_B1F</code></h1>
+<h1><code>Locations/Route6</code></h1>
 
-## Rock Tunnel B1F Topography & Coordinates
-- 1F Ladder Arrival: (21, 7)
-- Dark Cave Environment: Empirical testing required for all corridors.
-- Eastbound Corridor Verified: (21, 7) -> (31, 7) open cave floor along Row 4..7.
-- Row 7 Rock Protrusion: (32, 7). Bypass via Row 5/6 (x=31..36).
-- Rock Wall Protrusion at x=32..33 (y=3..7). Bypass via Row 2 (x=31..36).
-- East Pocket (x=24..31, y=4..7): Dead-end. Return West to x=20..23 and head South down Row 8..15.
-- Southbound Corridor Verified: (21, 8) -> (21, 13) open cave floor along Row 8..15.
-- Row 13 Corridor Eastbound: (21, 13) -> (22, 13) open floor.
-- East Pocket Dead End Verified: (27, 7) is bounded by rock walls at North (27, 6), South (27, 8), and East (28, 7). West is only exit.
+
 
 <hr>
 
-<h1><code>Locations/Lavender_Town</code></h1>
+<h1><code>Locations/VermilionCity</code></h1>
 
-### Verified Overworld Highway to Route 8 (Turn 21738)
-- Ledge gap at (13,11) connects Lower Alley (Row 12/13) to NW Platform (Row 9/10).
-- Impassable boundaries: (14,11) is a stone pillar obstacle, (1,12) is a rock wall obstacle.
-- Route 8 Entrance at (0,9) is accessed via Row 13 open grass -> Up through (13,11) gravel gap to Row 9 -> West to (0,9).
 
-### Verified Physical Topology & Boundaries (Turn 25472)
-- Row 16 across Cols 2-8 is a south-facing one-way ledge (cannot walk Up from Row 17/18 to Row 15).
-- Cols 8 & 9 (Rows 18-25) form a central tree barrier separating West Lavender (Cols 0-7) from East Lavender (Cols 10-13).
-- Row 26 (Cols 5-13) is open pavement/grass below the tree barrier, connecting West Lavender to East Lavender!
-- Column 13 (Rows 13-26) is a two-way open highway bypassing the Row 16 ledge.
-- Route 8 Entrance at (0,9) path from (7,22): West to Col 5 -> South to Row 26 -> East along Row 26 to Col 13 -> North along Col 13 to Row 13 -> Up through (13,11) gravel gap to Row 9 -> West along Row 9 to (0,9).
-- EMPIRICAL PROBE RESULT (Turn 28118): Stepping Up from (2, 18) to (2, 17) BUMPED into dark brown tree barrier at (2, 17). Rows 16 & 17 across Cols 2-8 form a solid tree barrier/ledge wall. Master path from West Lavender to Route 8 is: East along Row 18 to Col 13 -> North along Col 13 to Row 13 -> Up through (13, 11) gravel gap to Row 9 -> West along Row 9 to (0, 9) Route 8 Entrance!
-- EMPIRICAL PROBE RESULT (Turn 28121): Stepping Right from (8, 18) to (9, 18) BUMPED into dark green tree barrier at (9, 18). Cols 8 & 9 across Rows 18-25 form a central tree barrier separating West Lavender (Cols 0-7) from East Lavender (Cols 10-13). Master path from West Lavender to East Lavender is: Left to Col 2 (2, 18) -> Down to Row 22 (2, 22) -> East along Row 22 to Col 13 (13, 22) -> North along Col 13 to Row 13 (13, 13) -> Up through (13, 11) gravel gap to Row 9 -> West along Row 9 to (0, 9) Route 8 Entrance!
-- EMPIRICAL PROBE RESULT (Turn 28126): Stepping Right from (8, 22) to (9, 22) BUMPED into dark green tree barrier at (9, 22). Row 26 (Cols 2-13) is the ONLY open pavement connecting West Lavender to East Lavender! Route from (8, 22): Down 4 to Row 26 (8, 26) -> East 5 to Col 13 (13, 26) -> North along Col 13 to East Lavender!
-- EMPIRICAL PROBE RESULT (Turn 28129): Stepping Down from (8, 22) to (8, 23) BUMPED into dark green tree barrier at (8, 23). Column 8 is part of the central tree barrier (Cols 8 & 9). Open southbound path is at Column 6 / Column 5: Left 2 to (6, 22) -> Down 4 to Row 26 (6, 26) -> East 7 to Col 13 (13, 26)!
-- EMPIRICAL PROBE RESULT (Turn 28753): Column 13 at Row 19 (13, 19) is the East wall of the Pokemon Center building. Open North-South highway is Column 14 (14, 20 to 14, 9) green grass!
-- EMPIRICAL PROBE RESULT (Turn 28755): Column 14 at Row 11 (14, 11) is a grey gravestone statue monument. Open gap to Row 9 is at Column 13 (13, 11) gravel pass!
-
-### Verified Map Transitions & Topography (Turn 32102)
-- Route 10 South Two-Way Warp: Lavender Town (8, 17) / (8, 18) <-> Route 10 South (15, 3). Stepping UP into (8, 17) in Lavender Town warps player back to Route 10 South at (15, 3).
-- Fence Boundary at x=1: Column 1 at Row 18 is a solid vertical fence/wall.
-- Route 8 West Access via Row 22: Row 22 is an open light grey pavement corridor from x=7 left through x=0 / x=-1 onto Route 8 West.
 
 <hr>
 
-<h1><code>Locations/Route_8.md</code></h1>
+<h1><code>Locations/SSAnne</code></h1>
 
-## Verified Master Route 8 Topology & Geography (Turn 22352)
 
-### Fast Travel & Emergency Resets
-- LUNA's TELEPORT warps directly from Route 8 to Lavender Town Pokémon Center at (11, 20).
-- Re-entering Route 8 from Lavender Town (0, 9) places player on Route 8 (59, 9) on Upper Highway pavement (Row 8/9).
-
-### Upper Highway Sector (Rows 8 & 9, Cols 46-59)
-- Open light grey pavement from Col 59 West to Col 46 on Rows 8 & 9.
-- Super Nerd Trainer NPC at (48, 8) facing Left.
-- Col 45 Mountain Rock Wall spans Rows 8-13 across Cols 42-45.
-- Col 60/61 Northern Highway Corridor: Open pavement at Cols 60-61 connects Row 8 UP through Rows 7, 6, 5, 4 to Row 3/4 Northern Pavement/Grass Highway.
-
-### Lower Highway Sector (Rows 14 & 15)
-- Col 52 Gap at (52, 13) is a south-facing ledge (one-way south hop down from Row 9 to Row 14 Lower Highway).
-- Row 14 pavement connects Col 52 West to Col 29 (29, 14) -> Up through Col 29 tan gravel gap (29, 13) to Row 12 Green Grass Highway at (29, 12).
-
-### Master Route 8 Complete Master Highway Route to Underground Path (Turn 22469)
-- Row 16 at (28,16) is a North-facing cliff wall from (28,15).
-- Note: Row 10 is a solid stone wall across Cols 10-50, blocking direct southbound access from Row 8/9.
-### Verified Physical Collision Boundaries at Column 10 (Turns 22849-22856)
-- (9, 14): SOLID MOUNTAIN ROCK CLIFF (probed Left from 10,14 bumped on turn 22850).
-- (10, 16): SOLID MOUNTAIN ROCK CLIFF (probed Down from 10,15 bumped on turn 22854).
-- (9, 15): SOLID MOUNTAIN ROCK CLIFF (probed Left from 10,15 bumped on turn 22856).
-- (10, 13): SOUTH-FACING LEDGE (one-way south hop down to 10,14).
-- RESULT: (10,14) and (10,15) form an ENCLOSED 2-TILE LOWER PAVEMENT CHANNEL bounded West by Col 9 cliff wall, South by Row 16 cliff wall, and North by Row 13 ledge wall. Exit is EAST along Row 14/15 pavement to Column 19 gap at (19,13).
-
-### Verified Physical Building Doorway Coordinates (Turn 23103)
-- Building at (13,15): Saffron Gatehouse (Trade NPC "Poliwhirl for Jynx" + Saffron Guard).
-- Building at (19,17): Route 8 Pokémon Center.
-
-### Master Route 8 Verified Building & Topology Summary (Turn 23133)
-- Building at (13,15): Saffron Gatehouse (Trade NPC "Poliwhirl for Jynx" + Thirsty Guard).
-- Building at (19,17): Gatehouse complex (Civilian "BILL" + Thirsty Guard).
-- Building at (30,19): Eastern Gatehouse (Civilian + Thirsty Guard).
-
-- Column 35 (Rows 22-27) is a solid wooden fence. Row 28 (Cols 30-35) is a dark green hedge.
-- Building at (25,25): Saffron Gatehouse doorway (connects to interior 3,7).
-- Row 27 (Cols 20-30): Open light green pavement highway running West below Gatehouse.
-- Doorway at (9,11): Saffron Gatehouse doorway (Badges NPC inside at 5,3, desk with coffee cup at 6,3).
-- Row 7 at Column 1 (1,7) is a south-facing ledge wall (hopping down to 1,8).
-- Verified Eastern Map Border (Turn 24590): Column 60 on Route 8 is the eastern map boundary tile that warps back to Lavender Town (0, 9).
-- Empirical Map Boundary Discovery (Turn 25185): Column 60 across all rows (y=8, y=9) on Route 8 is the eastern map transition boundary that warps back to Lavender Town at (0, 8) / (0, 9). Route 8 playable grid is Columns 0 to 59.
-
-- Route to Underground Path Entrance Building: Enter Route 8 at (59, 9) Upper Highway -> walk West along Row 8/9 Upper Highway pavement to Col 22/25 -> hop down Col 29 gap to Lower Highway Row 20 pavement at (25, 20) -> walk West along Row 20 pavement to Underground Path building doorway at (19, 20) / (19, 17)!
-### Master Verified Saffron Gatehouse & Underground Path Geography (Turn 27490)
-- Saffron Gatehouse (13, 15): North exit at (2, 0) is BLOCKED BY THIRSTY GUARD ("The guard is thirsty! Give him a drink!"). Cannot pass through Saffron Gatehouse to Saffron City without a drink from Celadon Dept Store.
-- Tile (16, 29): Decorative tree stump / scenery obstacle ("There isn't anything to CUT!"). Non-cuttable.
-- Verified Gatehouse & Underground Path Doorways:
-  - Gatehouse Entrance Doorway at (30, 19) / (38, 17) on Route 8!
-
-### Verified Master Route 8 Bypass to Lower Highway East (Turn 27981)
-- Column 26/27/28/29 mountain cliff wall blocks Row 6-9 Eastbound passage from Column 29.
-- Row 12 Green Grass Highway is accessible via Col 29 gap at (29, 13) and bypasses Col 27 mountain wall via Row 10/11 pavement corridor (28, 10) -> (27, 10).
-- MASTER ROUTE TO LOWER HIGHWAY EAST: From (29, 9) Upper Highway pass -> Down 3 to Row 12 green grass (29, 12) -> East 5 along Row 12 green grass to Col 34 (34, 12) -> North 6 along Col 34 to Row 6 pavement (34, 6) -> East along Row 6 pavement to Col 52 (52, 6) -> South 7 to Col 52 ledge gap (52, 13) -> hop down to Row 14 Lower Highway East!
-- EMPIRICAL PROBE RESULT (Turn 28023): Stepping Up from (46, 14) to (46, 13) BUMPED into a solid south-facing ledge wall at (46, 13). Row 13 at Col 46 is NOT walkable from Row 14.
-- EMPIRICAL PROBE RESULT (Turn 28034): Stepping Down from (29, 15) to (29, 16) BUMPED into a solid south-facing ledge wall at (29, 16).
-- EMPIRICAL PROBE RESULT (Turn 28041): Stepping Down from (25, 11) to (25, 12) BUMPED into a solid south-facing ledge wall at (25, 12).
-- EMPIRICAL DISCOVERY & PASS PROOF (Turn 28046): Stepping Down from (23, 12) HOPS OVER the (23, 13) tan gravel ledge and lands on Row 14 pavement at (23, 14)! Column 23 at (23, 13) is the VERIFIED ONE-WAY SOUTH-FACING LEDGE PASSAGE connecting the Upper Level (Row 11/12) directly to the Lower Level (Row 14/15/16/19)!
-
-- EMPIRICAL HIGHWAY DISCOVERY (Turn 28049): Column 24 across Rows 12-19 is an OPEN UNINTERRUPTED LIGHT BROWN PAVEMENT HIGHWAY! Row 15 at Col 23 connects Right to Col 24 pavement (24, 15) without any ledge.
-- EMPIRICAL PROBE RESULT (Turn 28052): Stepping Down from (23, 15) to (23, 16) BUMPED into a solid mountain cliff wall at Row 16 (23, 16). Row 16 across Cols 19-28 is a solid mountain cliff wall with no southbound exit from Row 15.
-- EMPIRICAL PROBE RESULT (Turn 28061): Stepping Up from (34, 12) to (34, 11) BUMPED into a solid south-facing ledge wall at (34, 11). Row 11 at Col 34 & Col 35 is a south-facing ledge wall.
-
-- EMPIRICAL PROBE RESULT (Turn 28077): Stepping Down from (52, 15) to (52, 16) BUMPED into a solid building roof/wall at (52, 16). Building roof/wall extends continuously across Cols 26-53 on Rows 16-19.
-- EMPIRICAL PROBE RESULT (Turn 28093): Stepping Left from (20, 11) to (19, 11) BUMPED into mountain rock cliff at (19, 11). Rows 7-11 at Col 19 are mountain cliff, but Rows 12-15 at Col 19 are open green grass / pavement connecting West to Western Sector (Cols 18-9)!
-- VERIFIED WESTERN SECTOR ENTRY (Turn 28096): Traversed Row 12 green grass past Col 19 mountain cliff to (13, 12) Western Sector!
-- EMPIRICAL PROBE RESULT (Turn 28098): Column 9 at Row 11 (9, 11) is mountain rock cliff. The open westbound pavement highway is on Rows 8 & 9 across Cols 9-13, accessed by walking Up through Col 12 pavement gap (12, 9) around NPC at (13, 10)!
-- EMPIRICAL PROBE RESULT (Turn 28101): Stepping Up from (12, 12) to (12, 11) BUMPED into a solid south-facing ledge wall at (12, 11). Row 11 across Cols 10-13 is a south-facing ledge wall.
-- EMPIRICAL PROBE RESULT (Turn 28149): Stepping Up from (46, 7) to (46, 6) BUMPED into mountain rock cliff at (46, 6). The open westbound pavement corridor around Col 45 is on Row 7: Up 3 to (46, 7) -> Left 4 to (42, 7) -> Down 1 to (42, 8)!
-- EMPIRICAL PROBE RESULT (Turn 28152): Stepping Up from (46, 8) to (46, 7) BUMPED into mountain rock cliff at (46, 7). Rows 6 & 7 at Col 46 are mountain cliff. The open Northern Highway bypass around Col 45 rock wall is at Column 50 on Row 5 green grass: Down 1 to (46, 9) -> Right 4 to (50, 9) -> Up 4 to Row 5 green grass (50, 5) -> Left along Row 5 green grass past Col 45!
-- EMPIRICAL PASSAGE PROOF (Turn 28712): Column 19 at (19, 13) is a TWO-WAY OPEN GAP connecting Lower Highway Row 14 pavement directly UP to Row 12 Green Grass Highway at (19, 12)!
-- EMPIRICAL PROBE RESULT (Turn 28715): Row 11 across Cols 10-13 is a solid south-facing ledge wall blocking northbound movement from Row 12 green grass.
-- EMPIRICAL PROBE RESULT (Turn 28716): Column 9 at Row 12 (9, 12) is a solid mountain rock pillar blocking westbound movement on Row 12 from (10, 12).
-- EMPIRICAL PASSAGE PROOF (Turn 28717): Columns 20-23 across Rows 10-12 form an OPEN 4-TILE WIDE PAVEMENT HIGHWAY connecting Row 12 directly UP to Row 10 pavement corridor at (20, 10)!
-- EMPIRICAL PROBE RESULT (Turn 28720): Row 5 at Column 23 (23, 5) is a south-facing ledge wall blocking northbound movement from Row 6.
-- EMPIRICAL PROBE RESULT (Turn 28721): Row 5 at Column 23 (23, 5) is a solid south-facing ledge wall blocking northbound movement from Row 6.
-- EMPIRICAL PASSAGE PROOF (Turn 28724): Row 14 green grass is an OPEN UNINTERRUPTED EASTBOUND HIGHWAY across Columns 34-45 bypassing the Column 45 mountain rock wall (which spans Rows 8-13)!
-- EMPIRICAL PROBE RESULT (Turn 28727): Row 13 across Cols 46-53 is a solid south-facing ledge wall blocking northbound movement from Row 14.
-- EMPIRICAL PROBE RESULT (Turn 28729): Column 53 at Row 13 (53, 13) is a solid south-facing ledge wall blocking northbound movement from Row 14.
-- EMPIRICAL PROBE RESULT (Turn 28735): Row 16 across Cols 28-33 is the solid north roof/wall of the building, blocking southbound movement from Row 15.
-- EMPIRICAL PROBE RESULT (Turn 28762): Row 7 at Column 46 (46, 7) is a solid mountain rock cliff blocking northbound movement from Row 8.
-- EMPIRICAL PROBE RESULT (Turn 28767): Row 5 at Column 50 (50, 5) is a solid south-facing ledge wall blocking northbound movement from Row 6.
-- EMPIRICAL PROBE RESULT (Turn 28771): Row 5 at Column 51 (51, 5) is a solid south-facing ledge wall blocking northbound movement from Row 6.
-- EMPIRICAL MAP BOUNDARY PROOF (Turn 28783): Column 60 on Route 8 is the eastern map transition boundary that warps player back to Lavender Town at (0, 9). Playable Route 8 grid spans Columns 0 to 59.
-### Master Verified Gatehouse Doorway Entrance (Turn 29060)
-- Western Gatehouse Map (39, 16) connects West to Gatehouse Sector.
-- Gatehouse Building Doorway is located at (30, 19).
-- Master Entry Route from (32, 20): Down 1 to (32, 21) -> Left 2 to (30, 21) -> Up 2 into building doorway at (30, 19)!
-- EMPIRICAL ASCENT GAP DISCOVERY (Turn 32143): Column 29 at (29, 13) is a VERIFIED TWO-WAY ASCENT GAP connecting Row 14/15 Green Grass directly UP through (29, 12)/(29, 11)/(29, 10) to Row 9 Upper Highway Pavement at (29, 9)!
-- EMPIRICAL ASCENT GAP DISCOVERY (Turn 32165): Column 20 at (20, 11) is a VERIFIED TWO-WAY ASCENT PASSAGE connecting Row 12 Green Grass directly UP through (20, 10), (20, 9), (20, 8), (20, 7) to Row 7 Upper Highway Pavement!
-- EMPIRICAL PROOF (Turn 32256): Column 25 at (25, 5) is the VERIFIED OPEN NORTHBOUND GAP connecting Upper Highway Pavement at (25, 6) directly UP through (25, 5) to Row 4 Northern Highway Green Grass at (25, 4)!
 
 <hr>
 
-<h1><code>Scratchpad/Route_8_Navigation</code></h1>
+<h1><code>Locations/Route9</code></h1>
 
-## Route 8 Northern Highway Test Plan
-- Verified: Row 11 (Cols 10-18) is a solid obstacle / south ledge.
-- Verified: Rows 8 & 9 at Cols 9-13 are open light grey pavement.
-- Test Goal: Check Rows 5, 6, 7, 8 at Column 45 to find the Northern Highway connection past Col 45 mountain rock!
 
-### Verified Physical Probe Results (Turns 21423-21427)
-- Building South Wall (Row 11) across Cols 14-18 is completely solid wall.
-- Light grey pavement at Cols 9-13 (Rows 8-10) connects West to Cols 0-8 (Underground Path / West Route 8).
-### Topology Discovery (Turn 21584)
-- Saffron Gatehouse Guard is at (13,10) in western gatehouse area.
-- Row 11 is solid south wall across Cols 10-18.
-- Mountain rock at Cols 14-19 (Rows 8-11) separates Eastern Pavement (Cols 20-25) from Western Pavement (Cols 9-13).
-- Western Pavement (Cols 9-13, Rows 8-9) connects West across Column 9 into Western Sector (Cols 0-8).
-
-- Column 19 mountain rock wall spans Rows 6-11. Row 12 at (19,12) is open green grass bypassing Col 19.
-- Row 12 (Cols 0-20) is an open green grass highway connecting Central Sector to Western Sector (Underground Path).
-### Verified Route 8 Boundaries (Turn 22128)
-- Column 19 (Rows 6-11): Solid mountain rock wall blocking Northern Highway.
-- Row 9/10 at Column 20: South-facing ledge blocking northbound access from Row 10 to Row 9.
-- Lower Highway (Rows 14 & 15): Open pavement corridor from Column 52 West past Column 16 to Column 10. Next test: probe West of Column 10 on Rows 14 and 15.
-### Route 12 Grass Highway Master Route (Turn 22135)
-- Row 12 is an uninterrupted green grass corridor from Col 29 (29,12) West past Col 19 (19,12) all the way to Col 10 (10,12).
-- Route to Row 12: Teleport to Lavender -> Route 8 (59,9) -> Col 52 gap to Row 14 (52,14) -> Left to Col 29 (29,14) -> Up through gravel gap (29,13) to Row 12 (29,12) -> Left along Row 12 to Col 10 (10,12) to inspect gatehouse/underground entrances!
-- Verified Lower Basin Enclosure (Turn 22151): Row 13 ledge is solid south-facing ledge across Cols 10-23 (probed on-site at 10-13, 20-23). Col 24 is solid mountain wall across Rows 12-16. Therefore, Lower Basin (Cols 10-23, Rows 14-15) has NO northbound or eastbound exit. Access to Western Gatehouse (Cols 10-13, Rows 8-10) is achieved EXCLUSIVELY via Row 12 Green Grass Highway from Col 29 gap (29,13).
-### MASTER TOPOLOGY DISCOVERY: Route 8 Row 3 Northern Pass (Turn 22198)
-- Open gap through Row 5 Ledge is at Column 25 (25,5)!
-- Row 4 is blocked at Column 18 by mountain cliff (18,4).
-- Row 3 (Cols 0-25) is the uninterrupted Green Grass Highway bypassing all mountain cliffs and ledges on Route 8!
-### Verified Upper Highway Route to West Route 8 (Turn 22259)
-- Col 52 gap at (52,13) is a south-facing ledge (one-way south hop down to Lower Highway).
-- Lower Highway (Rows 14/15) is enclosed by south-facing ledges and mountain rock at Cols 24-27 and Col 9.
-- Physical Boundary Probing Protocol: All future Route 8 traversal must proceed tile-by-tile with single-step probing to empirically map physical obstacles.
-### Master Boundary Discovery: Column 46 Gap & Row 7 Pavement (Turn 22273)
-- Column 45 Mountain Rock Wall spans Rows 8-13, but Row 7 and Row 6 are OPEN light grey pavement across Cols 42-45!
-
-### MASTER TOPOLOGY DISCOVERY: Row 9 Tan Gravel Westbound Highway (Turn 22384)
-- Column 46 (46,7) is a south-facing tan gravel ledge / wall.
-- Row 9 at (45,9), (44,9), (43,9), (42,9) is an OPEN tan gravel pathway connecting Column 46 West past Column 45!
-- Verified Basin Exit (Turn 22651): Column 19 at (19,13) is the open northbound gap connecting Lower Highway Row 14 pavement to Row 12 Green Grass Highway at (19,12)!
-### Western Route 8 Systematic Probe Plan (Turn 22321)
-- Map Wrap Loop Clarification: (60,8) and (0,8) is the eastern map wrap boundary re-anchoring frame, NOT the Western Sector.
-- True Western Sector (Cols 0-18) is accessed via Row 12 Green Grass Highway through (19,12) gap to (13,12).
-- Route to (13,12): From (59,8) -> Down 4 to (59,12) -> Left 46 along Row 12 green grass to (13,12) -> Systematically probe Cols 10-18 for northbound access to Underground Path building!
-### Verified Serpentine Corridor Discovery (Turn 22513)
-- Col 49 mountain cliff is bypassed via Row 8/9 open pavement corridor at (49,9).
-
-- Col 45 mountain cliff is bypassed via Row 7/6 open pavement (45,7)/(45,6) West into Cols 44, 43, 42!
-### Master Verified Connection to Row 3 Northern Highway (Turn 22517)
-- Rows 2 & 3 are an uninterrupted green grass highway across Cols 0-61.
-- Row 5 at Cols 50-51 is a south-facing ledge blocking northbound access from Row 6.
-- Physical Boundary Probing Protocol: All future Route 8 traversal must proceed tile-by-tile with single-step probing to empirically map physical obstacles.
-### Master Verified Route 8 Complete Highway Route to Underground Path (Turn 22525)
-- Row 4/3 at Col -1 to -4 is blocked by mountain cliff wall.
-- Open Westbound Corridor is Row 8 pavement running West across (-1,8), (-2,8), (-3,8), (-4,8)...
-- Empirical Probe Result (Turn 22561): (27,12) is SOLID MOUNTAIN WALL (Left from 28,12 bumped).
-- Empirical Discovery (Turn 22561): Rows 10 & 11 at Column 27 are OPEN LIGHT GREY PAVEMENT connecting West to Cols 24-26!
-### Empirical Probe Result (Turn 22599)
-- (48,10) is SOLID ROCK CLIFF CORNER (Right from 47,10 bumped).
-- (47,9) is OPEN LIGHT GREY PAVEMENT connecting North to Row 9 Eastbound Highway.
-### Verified Master Westbound Highway to Underground Path (Turn 22743)
-- From (13,12) on Row 12 green grass: East 6 to (19,12) -> East 10 to Col 29 (29,12) -> Up 2 through Col 29 tan gravel gap (29,9) to Row 8 pavement (29,8).
-### Verified Physical Collision Boundaries at Column 10 (Turns 22849-22856)
-- (9, 14): SOLID MOUNTAIN ROCK CLIFF (probed Left from 10,14 bumped on turn 22850).
-- (10, 16): SOLID MOUNTAIN ROCK CLIFF (probed Down from 10,15 bumped on turn 22854).
-- (9, 15): SOLID MOUNTAIN ROCK CLIFF (probed Left from 10,15 bumped on turn 22856).
-- (10, 13): SOUTH-FACING LEDGE (one-way south hop down to 10,14).
-- RESULT: (10,14) and (10,15) form an ENCLOSED 2-TILE LOWER PAVEMENT CHANNEL bounded West by Col 9 cliff wall, South by Row 16 cliff wall, and North by Row 13 ledge wall. Exit is EAST along Row 14/15 pavement to Column 19 gap at (19,13).
-- Empirical Discovery (Turn 23794): Row 12 at (35,12) is SOLID MOUNTAIN ROCK CLIFF. Row 11 at (36,11) to (31,11) is OPEN GREEN GRASS bypassing Col 35 rock cliff!
-
-### Master Verified Underground Path Route (Turn 23914)
-- Building at (19, 17) on Lower Highway is the Underground Path entrance building! Inside is an NPC at (4, 3) and internal stairs leading down to the Underground Path tunnel to Route 7 / Celadon City.
-- Route to (19, 17) from Lavender Town: Enter Route 8 at (59, 9) -> West along Upper Highway to Col 52 -> Hop down ledge gap at (52, 13) to Lower Highway -> West along Row 14 pavement to Column 19 (19, 14) -> South 3 steps to Underground Path building doorway at (19, 17)!
-### Verified Empirical Probe (Turn 23924)
-- Cols 10-19 on Row 11 are SOLID WALL / LEDGE to the South (Row 12). Row 11 green grass corridor (Cols 10-19) has NO southbound access to Row 12.
-- Currently probing West along Row 11 (Cols 9-0) to locate Western exit/connection.
-### Verified Empirical Probing Results (Turns 24038-24044)
-- Building North Wall (Row 16) probed facing Down across ALL Columns from 53 West to 30: (53, 52, 51, 50, 49, 48, 47, 46, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30). All are solid building roof/wall tiles.
-- Next Strategy: Access the South face of the building (Row 19/20/25/27) via Column 40 eastern gap.
-- Verified Row 13 Ledge (Turn 24548): Row 13 across Cols 20-23 is a south-facing ledge (one-way south hop down to Row 14). Northbound exit from Row 14 is at Column 19 gap (19,13) -> Row 12 green grass (19,12)!
-- Verified Row 9 Ledge (Turn 24551): Row 9 across Cols 20-25 is a south-facing ledge. Open northbound pass from Row 10 to Row 8 Upper Highway is at Column 29 (29,9) tan gravel pass!
-- Verified Row 5 Ledge (Turn 24555): Row 5 across Cols 20-24 is a south-facing ledge. The open northbound gap through Row 5 is at Column 25 (25,5)!
-- Verified Column 53 Pass (Turn 24604): Column 53 at (53, 13) is the open two-way pavement pass connecting Lower Highway Row 15 UP to Upper Highway Row 9 at (52, 9)!
-- Verified Column 45 Rock Wall (Turn 24621): Column 45 is a solid mountain rock cliff across Rows 8, 9, 10, 11, 12, 13.
-- Empirical Discovery (Turn 25069): Column 27 mountain wall blocks Row 14 at (27,14) and Row 12 at (27,12). Bypass Col 27 via (28,14) -> Up 4 to (28,10) -> Left 2 across Col 27 pavement to (26,10)!
-### Master Verified Route from Upper Highway (29, 8) to West Route 8 (5, 14) (Turn 27786)
-- From (29, 8): Left 5 along Row 8 to (24, 8) -> Down 3 along Col 24 to (24, 11) -> Left 4 along Row 11 to (20, 11) -> Down 1 to Row 12 (20, 12) -> Left 10 along Row 12 to (10, 12) -> Down 2 to Row 14 pavement (10, 14) -> Left 5 along Row 14 pavement to West Route 8 at (5, 14) -> Up to Cut tree at (5, 8)!
 
 <hr>
 
-<h1><code>Locations/Route_8</code></h1>
+<h1><code>Locations/Route10</code></h1>
 
-## Verified Master Route 8 Topology & Geography (Turn 22352)
+# Route 10 - Overworld Mapping & Navigation
 
-### Fast Travel & Emergency Resets
-- LUNA's TELEPORT warps directly from Route 8 to Lavender Town Pokémon Center at (11, 20).
-- Re-entering Route 8 from Lavender Town (0, 9) places player on Route 8 (59, 9) on Upper Highway pavement (Row 8/9).
+## Map Dimensions
+- Dimensions: To Be Determined.
 
-### Upper Highway Sector (Rows 8 & 9, Cols 46-59)
-- Open light grey pavement from Col 59 West to Col 46 on Rows 8 & 9.
-- Super Nerd Trainer NPC at (48, 8) facing Left.
-- Col 45 Mountain Rock Wall spans Rows 8-13 across Cols 42-45.
-- Col 60/61 Northern Highway Corridor: Open pavement at Cols 60-61 connects Row 8 UP through Rows 7, 6, 5, 4 to Row 3/4 Northern Pavement/Grass Highway.
+## Mapped Coordinates & Layout
+- **Pok�mon Center Door:** Located at `(11, 19)`.
+- **Rock Tunnel Entrance Warp:** Located at `(8, 17)`.
 
-### Lower Highway Sector (Rows 14 & 15)
-- Col 52 Gap at (52, 13) is a south-facing ledge (one-way south hop down from Row 9 to Row 14 Lower Highway).
-- Row 14 pavement connects Col 52 West to Col 29 (29, 14) -> Up through Col 29 tan gravel gap (29, 13) to Row 12 Green Grass Highway at (29, 12).
+### Verified Walkable Coordinates (Physically stepped on in this session):
+- Row 17: (8, 17)
+- Row 18: (3, 18), (4, 18), (5, 18), (6, 18), (7, 18), (8, 18)
+- Row 19: (3, 19), (11, 19)
+- Row 20: (3, 20), (11, 20)
+- Row 21: (3, 21), (11, 21)
+- Row 22: (3, 22), (4, 22), (5, 22), (6, 22), (7, 22), (8, 22), (11, 22)
+- Row 23: (6, 23), (11, 23)
+- Row 24: (6, 24), (11, 24)
+- Row 25: (6, 25), (11, 25)
+- Row 26: (6, 26), (7, 26), (8, 26), (9, 26), (10, 26), (11, 26)
+- Row 53: (8, 53)
+- Row 54: (8, 54)
+- Row 55: (8, 55)
+- Row 56: (2, 56), (3, 56), (4, 56), (8, 56)
+- Row 57: (2, 57), (4, 57), (5, 57), (6, 57), (7, 57), (8, 57), (9, 57)
+- Row 58: (2, 58)
+- Row 59: (2, 59)
+- Row 60: (2, 60)
+- Row 61: (2, 61)
+- Row 62: (2, 62)
+- Row 63: (2, 63), (3, 63), (4, 63), (5, 63), (6, 63), (7, 63), (8, 63), (9, 63), (10, 63), (11, 63)
+- Row 64: (11, 64)
+- Row 65: (11, 65)
+- Row 66: (11, 66)
+- Row 67: (11, 67)
+- Row 68: (11, 68)
+- Row 69: (8, 69), (9, 69), (10, 69), (11, 69)
+- Row 70: (8, 70)
+- Row 71: (8, 71)
 
-### Master Route 8 Complete Master Highway Route to Underground Path (Turn 22469)
-- Row 16 at (28,16) is a North-facing cliff wall from (28,15).
-- Note: Row 10 is a solid stone wall across Cols 10-50, blocking direct southbound access from Row 8/9.
-### Verified Physical Collision Boundaries at Column 10 (Turns 22849-22856)
-- (9, 14): SOLID MOUNTAIN ROCK CLIFF (probed Left from 10,14 bumped on turn 22850).
-- (10, 16): SOLID MOUNTAIN ROCK CLIFF (probed Down from 10,15 bumped on turn 22854).
-- (9, 15): SOLID MOUNTAIN ROCK CLIFF (probed Left from 10,15 bumped on turn 22856).
-- (10, 13): SOUTH-FACING LEDGE (one-way south hop down to 10,14).
-- RESULT: (10,14) and (10,15) form an ENCLOSED 2-TILE LOWER PAVEMENT CHANNEL bounded West by Col 9 cliff wall, South by Row 16 cliff wall, and North by Row 13 ledge wall. Exit is EAST along Row 14/15 pavement to Column 19 gap at (19,13).
+### Defeated Trainers:
+- **Hiker Clark:** Engaged at (3, 56) on Turn 12205. Defeated on Turn 12219.
+  - Roster: Geodude Lv 21, Onix Lv 21.
+- **Hiker at (3, 62):** Engaged at (3, 63) on Turn 12229. Defeated on Turn 12246.
+  - Roster: Onix Lv 19, Graveler Lv 19.
+- **Pokémaniac Herman:** Engaged at (11, 64) on Turn 12254. Defeated on Turn 12271.
+  - Roster: Cubone Lv 20, Slowpoke Lv 20.
 
-### Verified Physical Building Doorway Coordinates (Turn 23103)
-- Building at (13,15): Saffron Gatehouse (Trade NPC "Poliwhirl for Jynx" + Saffron Guard).
-- Building at (19,17): Route 8 Pokémon Center.
-
-### Master Route 8 Verified Building & Topology Summary (Turn 23133)
-- Building at (13,15): Saffron Gatehouse (Trade NPC "Poliwhirl for Jynx" + Thirsty Guard).
-- Building at (19,17): Gatehouse complex (Civilian "BILL" + Thirsty Guard).
-- Building at (30,19): Eastern Gatehouse (Civilian + Thirsty Guard).
-
-- Column 35 (Rows 22-27) is a solid wooden fence. Row 28 (Cols 30-35) is a dark green hedge.
-- Building at (25,25): Saffron Gatehouse doorway (connects to interior 3,7).
-- Row 27 (Cols 20-30): Open light green pavement highway running West below Gatehouse.
-- Doorway at (9,11): Saffron Gatehouse doorway (Badges NPC inside at 5,3, desk with coffee cup at 6,3).
-- Row 7 at Column 1 (1,7) is a south-facing ledge wall (hopping down to 1,8).
-- Verified Eastern Map Border (Turn 24590): Column 60 on Route 8 is the eastern map boundary tile that warps back to Lavender Town (0, 9).
-- Empirical Map Boundary Discovery (Turn 25185): Column 60 across all rows (y=8, y=9) on Route 8 is the eastern map transition boundary that warps back to Lavender Town at (0, 8) / (0, 9). Route 8 playable grid is Columns 0 to 59.
-
-- Route to Underground Path Entrance Building: Enter Route 8 at (59, 9) Upper Highway -> walk West along Row 8/9 Upper Highway pavement to Col 22/25 -> hop down Col 29 gap to Lower Highway Row 20 pavement at (25, 20) -> walk West along Row 20 pavement to Underground Path building doorway at (19, 20) / (19, 17)!
-### Master Verified Saffron Gatehouse & Underground Path Geography (Turn 27490)
-- Saffron Gatehouse (13, 15): North exit at (2, 0) is BLOCKED BY THIRSTY GUARD ("The guard is thirsty! Give him a drink!"). Cannot pass through Saffron Gatehouse to Saffron City without a drink from Celadon Dept Store.
-- Tile (16, 29): Decorative tree stump / scenery obstacle ("There isn't anything to CUT!"). Non-cuttable.
-- Verified Gatehouse & Underground Path Doorways:
-  - Gatehouse Entrance Doorway at (30, 19) / (38, 17) on Route 8!
-
-### Verified Master Route 8 Bypass to Lower Highway East (Turn 27981)
-- Column 26/27/28/29 mountain cliff wall blocks Row 6-9 Eastbound passage from Column 29.
-- Row 12 Green Grass Highway is accessible via Col 29 gap at (29, 13) and bypasses Col 27 mountain wall via Row 10/11 pavement corridor (28, 10) -> (27, 10).
-- MASTER ROUTE TO LOWER HIGHWAY EAST: From (29, 9) Upper Highway pass -> Down 3 to Row 12 green grass (29, 12) -> East 5 along Row 12 green grass to Col 34 (34, 12) -> North 6 along Col 34 to Row 6 pavement (34, 6) -> East along Row 6 pavement to Col 52 (52, 6) -> South 7 to Col 52 ledge gap (52, 13) -> hop down to Row 14 Lower Highway East!
-- EMPIRICAL PROBE RESULT (Turn 28023): Stepping Up from (46, 14) to (46, 13) BUMPED into a solid south-facing ledge wall at (46, 13). Row 13 at Col 46 is NOT walkable from Row 14.
-- EMPIRICAL PROBE RESULT (Turn 28034): Stepping Down from (29, 15) to (29, 16) BUMPED into a solid south-facing ledge wall at (29, 16).
-- EMPIRICAL PROBE RESULT (Turn 28041): Stepping Down from (25, 11) to (25, 12) BUMPED into a solid south-facing ledge wall at (25, 12).
-- EMPIRICAL DISCOVERY & PASS PROOF (Turn 28046): Stepping Down from (23, 12) HOPS OVER the (23, 13) tan gravel ledge and lands on Row 14 pavement at (23, 14)! Column 23 at (23, 13) is the VERIFIED ONE-WAY SOUTH-FACING LEDGE PASSAGE connecting the Upper Level (Row 11/12) directly to the Lower Level (Row 14/15/16/19)!
-
-- EMPIRICAL HIGHWAY DISCOVERY (Turn 28049): Column 24 across Rows 12-19 is an OPEN UNINTERRUPTED LIGHT BROWN PAVEMENT HIGHWAY! Row 15 at Col 23 connects Right to Col 24 pavement (24, 15) without any ledge.
-- EMPIRICAL PROBE RESULT (Turn 28052): Stepping Down from (23, 15) to (23, 16) BUMPED into a solid mountain cliff wall at Row 16 (23, 16). Row 16 across Cols 19-28 is a solid mountain cliff wall with no southbound exit from Row 15.
-- EMPIRICAL PROBE RESULT (Turn 28061): Stepping Up from (34, 12) to (34, 11) BUMPED into a solid south-facing ledge wall at (34, 11). Row 11 at Col 34 & Col 35 is a south-facing ledge wall.
-
-- EMPIRICAL PROBE RESULT (Turn 28077): Stepping Down from (52, 15) to (52, 16) BUMPED into a solid building roof/wall at (52, 16). Building roof/wall extends continuously across Cols 26-53 on Rows 16-19.
-- EMPIRICAL PROBE RESULT (Turn 28093): Stepping Left from (20, 11) to (19, 11) BUMPED into mountain rock cliff at (19, 11). Rows 7-11 at Col 19 are mountain cliff, but Rows 12-15 at Col 19 are open green grass / pavement connecting West to Western Sector (Cols 18-9)!
-- VERIFIED WESTERN SECTOR ENTRY (Turn 28096): Traversed Row 12 green grass past Col 19 mountain cliff to (13, 12) Western Sector!
-- EMPIRICAL PROBE RESULT (Turn 28098): Column 9 at Row 11 (9, 11) is mountain rock cliff. The open westbound pavement highway is on Rows 8 & 9 across Cols 9-13, accessed by walking Up through Col 12 pavement gap (12, 9) around NPC at (13, 10)!
-- EMPIRICAL PROBE RESULT (Turn 28101): Stepping Up from (12, 12) to (12, 11) BUMPED into a solid south-facing ledge wall at (12, 11). Row 11 across Cols 10-13 is a south-facing ledge wall.
-- EMPIRICAL PROBE RESULT (Turn 28149): Stepping Up from (46, 7) to (46, 6) BUMPED into mountain rock cliff at (46, 6). The open westbound pavement corridor around Col 45 is on Row 7: Up 3 to (46, 7) -> Left 4 to (42, 7) -> Down 1 to (42, 8)!
-- EMPIRICAL PROBE RESULT (Turn 28152): Stepping Up from (46, 8) to (46, 7) BUMPED into mountain rock cliff at (46, 7). Rows 6 & 7 at Col 46 are mountain cliff. The open Northern Highway bypass around Col 45 rock wall is at Column 50 on Row 5 green grass: Down 1 to (46, 9) -> Right 4 to (50, 9) -> Up 4 to Row 5 green grass (50, 5) -> Left along Row 5 green grass past Col 45!
-- EMPIRICAL PASSAGE PROOF (Turn 28712): Column 19 at (19, 13) is a TWO-WAY OPEN GAP connecting Lower Highway Row 14 pavement directly UP to Row 12 Green Grass Highway at (19, 12)!
-- EMPIRICAL PROBE RESULT (Turn 28715): Row 11 across Cols 10-13 is a solid south-facing ledge wall blocking northbound movement from Row 12 green grass.
-- EMPIRICAL PROBE RESULT (Turn 28716): Column 9 at Row 12 (9, 12) is a solid mountain rock pillar blocking westbound movement on Row 12 from (10, 12).
-- EMPIRICAL PASSAGE PROOF (Turn 28717): Columns 20-23 across Rows 10-12 form an OPEN 4-TILE WIDE PAVEMENT HIGHWAY connecting Row 12 directly UP to Row 10 pavement corridor at (20, 10)!
-- EMPIRICAL PROBE RESULT (Turn 28720): Row 5 at Column 23 (23, 5) is a south-facing ledge wall blocking northbound movement from Row 6.
-- EMPIRICAL PROBE RESULT (Turn 28721): Row 5 at Column 23 (23, 5) is a solid south-facing ledge wall blocking northbound movement from Row 6.
-- EMPIRICAL PASSAGE PROOF (Turn 28724): Row 14 green grass is an OPEN UNINTERRUPTED EASTBOUND HIGHWAY across Columns 34-45 bypassing the Column 45 mountain rock wall (which spans Rows 8-13)!
-- EMPIRICAL PROBE RESULT (Turn 28727): Row 13 across Cols 46-53 is a solid south-facing ledge wall blocking northbound movement from Row 14.
-- EMPIRICAL PROBE RESULT (Turn 28729): Column 53 at Row 13 (53, 13) is a solid south-facing ledge wall blocking northbound movement from Row 14.
-- EMPIRICAL PROBE RESULT (Turn 28735): Row 16 across Cols 28-33 is the solid north roof/wall of the building, blocking southbound movement from Row 15.
-- EMPIRICAL PROBE RESULT (Turn 28762): Row 7 at Column 46 (46, 7) is a solid mountain rock cliff blocking northbound movement from Row 8.
-- EMPIRICAL PROBE RESULT (Turn 28767): Row 5 at Column 50 (50, 5) is a solid south-facing ledge wall blocking northbound movement from Row 6.
-- EMPIRICAL PROBE RESULT (Turn 28771): Row 5 at Column 51 (51, 5) is a solid south-facing ledge wall blocking northbound movement from Row 6.
-- EMPIRICAL MAP BOUNDARY PROOF (Turn 28783): Column 60 on Route 8 is the eastern map transition boundary that warps player back to Lavender Town at (0, 9). Playable Route 8 grid spans Columns 0 to 59.
-### Master Verified Gatehouse Doorway Entrance (Turn 29060)
-- Western Gatehouse Map (39, 16) connects West to Gatehouse Sector.
-- Gatehouse Building Doorway is located at (30, 19).
-- Master Entry Route from (32, 20): Down 1 to (32, 21) -> Left 2 to (30, 21) -> Up 2 into building doorway at (30, 19)!
-- EMPIRICAL ASCENT GAP DISCOVERY (Turn 32143): Column 29 at (29, 13) is a VERIFIED TWO-WAY ASCENT GAP connecting Row 14/15 Green Grass directly UP through (29, 12)/(29, 11)/(29, 10) to Row 9 Upper Highway Pavement at (29, 9)!
-- EMPIRICAL ASCENT GAP DISCOVERY (Turn 32165): Column 20 at (20, 11) is a VERIFIED TWO-WAY ASCENT PASSAGE connecting Row 12 Green Grass directly UP through (20, 10), (20, 9), (20, 8), (20, 7) to Row 7 Upper Highway Pavement!
-- EMPIRICAL PROOF (Turn 32256): Column 25 at (25, 5) is the VERIFIED OPEN NORTHBOUND GAP connecting Upper Highway Pavement at (25, 6) directly UP through (25, 5) to Row 4 Northern Highway Green Grass at (25, 4)!
 
 <hr>
 
-<h1><code>Locations/Lavender_Town.md</code></h1>
+<h1><code>Locations/RockTunnel1F</code></h1>
 
-### Verified Overworld Highway to Route 8 (Turn 21738)
-- Ledge gap at (13,11) connects Lower Alley (Row 12/13) to NW Platform (Row 9/10).
-- Impassable boundaries: (14,11) is a stone pillar obstacle, (1,12) is a rock wall obstacle.
-- Route 8 Entrance at (0,9) is accessed via Row 13 open grass -> Up through (13,11) gravel gap to Row 9 -> West to (0,9).
 
-### Verified Physical Topology & Boundaries (Turn 25472)
-- Row 16 across Cols 2-8 is a south-facing one-way ledge (cannot walk Up from Row 17/18 to Row 15).
-- Cols 8 & 9 (Rows 18-25) form a central tree barrier separating West Lavender (Cols 0-7) from East Lavender (Cols 10-13).
-- Row 26 (Cols 5-13) is open pavement/grass below the tree barrier, connecting West Lavender to East Lavender!
-- Column 13 (Rows 13-26) is a two-way open highway bypassing the Row 16 ledge.
-- Route 8 Entrance at (0,9) path from (7,22): West to Col 5 -> South to Row 26 -> East along Row 26 to Col 13 -> North along Col 13 to Row 13 -> Up through (13,11) gravel gap to Row 9 -> West along Row 9 to (0,9).
-- EMPIRICAL PROBE RESULT (Turn 28118): Stepping Up from (2, 18) to (2, 17) BUMPED into dark brown tree barrier at (2, 17). Rows 16 & 17 across Cols 2-8 form a solid tree barrier/ledge wall. Master path from West Lavender to Route 8 is: East along Row 18 to Col 13 -> North along Col 13 to Row 13 -> Up through (13, 11) gravel gap to Row 9 -> West along Row 9 to (0, 9) Route 8 Entrance!
-- EMPIRICAL PROBE RESULT (Turn 28121): Stepping Right from (8, 18) to (9, 18) BUMPED into dark green tree barrier at (9, 18). Cols 8 & 9 across Rows 18-25 form a central tree barrier separating West Lavender (Cols 0-7) from East Lavender (Cols 10-13). Master path from West Lavender to East Lavender is: Left to Col 2 (2, 18) -> Down to Row 22 (2, 22) -> East along Row 22 to Col 13 (13, 22) -> North along Col 13 to Row 13 (13, 13) -> Up through (13, 11) gravel gap to Row 9 -> West along Row 9 to (0, 9) Route 8 Entrance!
-- EMPIRICAL PROBE RESULT (Turn 28126): Stepping Right from (8, 22) to (9, 22) BUMPED into dark green tree barrier at (9, 22). Row 26 (Cols 2-13) is the ONLY open pavement connecting West Lavender to East Lavender! Route from (8, 22): Down 4 to Row 26 (8, 26) -> East 5 to Col 13 (13, 26) -> North along Col 13 to East Lavender!
-- EMPIRICAL PROBE RESULT (Turn 28129): Stepping Down from (8, 22) to (8, 23) BUMPED into dark green tree barrier at (8, 23). Column 8 is part of the central tree barrier (Cols 8 & 9). Open southbound path is at Column 6 / Column 5: Left 2 to (6, 22) -> Down 4 to Row 26 (6, 26) -> East 7 to Col 13 (13, 26)!
-- EMPIRICAL PROBE RESULT (Turn 28753): Column 13 at Row 19 (13, 19) is the East wall of the Pokemon Center building. Open North-South highway is Column 14 (14, 20 to 14, 9) green grass!
-- EMPIRICAL PROBE RESULT (Turn 28755): Column 14 at Row 11 (14, 11) is a grey gravestone statue monument. Open gap to Row 9 is at Column 13 (13, 11) gravel pass!
-
-### Verified Map Transitions & Topography (Turn 32102)
-- Route 10 South Two-Way Warp: Lavender Town (8, 17) / (8, 18) <-> Route 10 South (15, 3). Stepping UP into (8, 17) in Lavender Town warps player back to Route 10 South at (15, 3).
-- Fence Boundary at x=1: Column 1 at Row 18 is a solid vertical fence/wall.
-- Route 8 West Access via Row 22: Row 22 is an open light grey pavement corridor from x=7 left through x=0 / x=-1 onto Route 8 West.
 
 <hr>
 
-<h1><code>Locations/Cerulean_City.md</code></h1>
+<h1><code>Locations/RockTunnelB1F</code></h1>
 
-## Verified Cerulean City Topology & Boundaries (Turn 30944)
+# Rock Tunnel B1F - Overworld Mapping & Navigation
 
-### Route 9 East Exit Passage
-- Row 16 Corridor: Row 16 is an elevated corridor above the Row 19 ledge running continuously from Col 17 all the way East to Col 38/39.
-- Route 9 Entrance: Open passage into Route 9 is at Row 16 / Row 17 at (38, 16) / (39, 16) and (38, 17).
-- Col 38 Wall: Solid rock wall from y=18 down through y=33.
+## Map Dimensions
+- Dimensions: Width = 40, Height = To Be Determined (visually confirmed y >= 33).
 
-### Key Obstacles & Passages
-- Cut Tree (19, 28): Connects South Cerulean (y=29/30) to Central Cerulean (y=26/27).
-- Column 35 Fence: Vertical wooden fence from y=20 down to y=25.
-- Row 19 Ledges: One-way south-facing ledges across Cols 32-37.
-- Column 24 Railing: West railing at (24, 18) blocks entry from (23, 18).
-- Row 22 Highway: Row 22 is open grass/pavement from Col 34 all the way West to Col 17 (bypasses Col 35 fence, Col 31 NPC, and Col 27 signpost).
-- Column 17 Slope: Open North-South pavement from (17, 26) up to Row 16 (17, 16).
+## Mapped Coordinates & Layout
+- **Ladder to 1F (Central Section):** Located at `(23, 11)`. Connects to Rock Tunnel 1F at `(17, 11)`.
+- **Ladder to 1F (Top-Right Section):** Located at `(33, 25)`. Connects to Rock Tunnel 1F at `(37, 3)`.
+- **Ladder to 1F (Top-Left Section):** Located at `(3, 3)`. Connects to Rock Tunnel 1F at `(37, 17)` (the isolated bottom-right compartment C).
 
-<hr>
+### Structural Division of B1F:
+- **Compartmentalization:** B1F was previously hypothesized to be divided into unconnected eastern and western compartments, but empirical traversal on Turn 11740-11756 proved that the map is fully connected! There is a walkable horizontal path on Row 33 (connecting column 15 to column 33) and on Row 3 (connecting column 10 to column 37).
+- **Traversal:** The player can easily walk across B1F between the top-right ladder at `(33, 25)` and the top-left ladder at `(3, 3)` or the top-left ladder at `(27, 3)` without needing to ascend to 1F!
 
-<h1><code>Locations/Route_9.md</code></h1>
+### Verified Walkable Coordinates (Physically stepped on in this session):
 
-## Route 9 Verified Topography
-- Entrance from Cerulean City: (0, 8)
-- Cut Tree: (5, 8) blocks eastern passage.
-- Ledge Gap / Passage: (19, 13) connects lower basin (Row 14) to upper highway (Row 12).
-- Row 10 Barrier: Rock wall at (30, 10). From (29, 10), descend south 2 steps to Row 12 at (29, 12).
-- Row 12 East Highway: Continuous open grass from (29, 12) through (34, 12) running East.
-- Ledge Gap / Passage: (29, 13) connects lower basin (Row 14) directly UP to Row 12 grass highway.
-- Ledge Gap / Passage: (29, 9) connects Row 10 to Row 8 grass.
-- Col 41 Highway Gap: (41, 8) connects Row 12 UP to Row 6. Note: Row 6/7 highway dead-ends at (45, 6)/(45, 7) against rock wall.
-- Lower Basin (Row 14): Extends from x=28 (west rock wall at 27, 14) to x=53 (east rock wall at 54, 14).
-- Ascent Passage Verified: (29, 13) connects Lower Basin (29, 14) UP to Row 12 (Middle Highway) at (29, 12).
-- Key Ascent Point: (29, 9) gap connects Row 12 / Row 10 UP to Row 8 (Upper Highway).
-- Route 9 Exploration: Testing x=17/18 slope boundary from Row 12 grass (17, 12) to Row 10/8.
-- Route 12 Rock Barrier: Rock wall at (42, 12) blocks direct Eastward passage on Row 12. Gap at (41, 8/12) connects Row 12 UP to Row 6/8 highway.
-- Route 9 Topography Analysis: Row 5 & Row 13 are south-facing ledges. Row 6/7 (x=30-45) dead-ends against rock wall at x=46. Retracing West along Row 14 lower basin to test West entrance connections to Upper Highway.
+- Row 3: (3, 3), (4, 3), (5, 3), (10, 3), (27, 3), (28, 3), (29, 3), (30, 3), (31, 3), (32, 3), (33, 3), (34, 3), (35, 3), (36, 3), (37, 3)
+- Row 4: (5, 4), (10, 4), (37, 4)
+- Row 5: (5, 5), (10, 5), (37, 5)
+- Row 6: (5, 6), (10, 6), (37, 6)
+- Row 7: (5, 7), (10, 7), (37, 7)
+- Row 8: (5, 8), (10, 8), (37, 8)
+- Row 9: (5, 9), (10, 9), (37, 9)
+- Row 10: (5, 10), (10, 10), (37, 10)
+- Row 11: (2, 11), (3, 11), (4, 11), (5, 11), (6, 11), (7, 11), (8, 11), (9, 11), (10, 11), (17, 11), (18, 11), (19, 11), (20, 11), (21, 11), (22, 11), (23, 11), (37, 11)
+- Row 12: (2, 12), (3, 12), (5, 12), (10, 12), (17, 12), (22, 12), (37, 12)
+- Row 13: (2, 13), (3, 13), (5, 13), (10, 13), (15, 13), (17, 13), (18, 13), (19, 13), (20, 13), (21, 13), (22, 13), (23, 13), (37, 13)
+- Row 14: (2, 14), (3, 14), (5, 14), (10, 14), (15, 14), (17, 14), (37, 14)
+- Row 15: (2, 15), (3, 15), (5, 15), (10, 15), (15, 15), (17, 15), (37, 15)
+- Row 16: (2, 16), (3, 16), (5, 16), (10, 16), (15, 16), (17, 16), (20, 16), (21, 16), (22, 16), (23, 16), (24, 16), (25, 16), (26, 16), (27, 16), (28, 16), (29, 16), (30, 16), (31, 16), (32, 16), (33, 16), (34, 16), (35, 16), (36, 16), (37, 16)
+- Row 17: (2, 17), (3, 17), (4, 17), (5, 17), (10, 17), (11, 17), (12, 17), (13, 17), (14, 17), (15, 17), (17, 17), (20, 17), (21, 17), (22, 17), (23, 17), (24, 17), (25, 17), (26, 17), (27, 17), (37, 17)
+- Row 18: (2, 18), (3, 18), (5, 18), (10, 18), (14, 18), (15, 18), (17, 18), (20, 18), (22, 18), (37, 18)
+- Row 19: (2, 19), (3, 19), (5, 19), (10, 19), (13, 19), (14, 19), (15, 19), (16, 19), (17, 19), (20, 19), (22, 19), (23, 19), (24, 19), (25, 19), (26, 19), (27, 19), (28, 19), (29, 19), (30, 19), (31, 19), (32, 19), (33, 19), (34, 19), (35, 19), (36, 19), (37, 19)
+- Row 20: (2, 20), (3, 20), (4, 20), (5, 20), (10, 20), (11, 20), (14, 20), (15, 20), (17, 20), (22, 20), (23, 20)
+- Row 21: (2, 21), (3, 21), (10, 21), (14, 21), (15, 21), (16, 21), (17, 21), (22, 21), (23, 21)
+- Row 22: (10, 22), (22, 22), (23, 22), (24, 22), (25, 22)
+- Row 23: (10, 23), (22, 23), (25, 23)
+- Row 24: (2, 24), (3, 24), (4, 24), (5, 24), (6, 24), (7, 24), (8, 24), (9, 24), (10, 24), (11, 24), (14, 24), (15, 24), (16, 24), (17, 24), (18, 24), (19, 24), (20, 24), (21, 24), (22, 24)
+- Row 25: (2, 25), (14, 25), (15, 25), (33, 25)
+- Row 26: (2, 26), (14, 26), (15, 26), (33, 26)
+- Row 27: (2, 27), (3, 27), (4, 27), (5, 27), (6, 27), (7, 27), (11, 27), (14, 27), (15, 27), (33, 27)
+- Row 28: (15, 28), (33, 28)
+- Row 29: (15, 29), (33, 29)
+- Row 30: (15, 30), (33, 30)
+- Row 31: (15, 31), (33, 31)
+- Row 32: (15, 32), (33, 32)
+- Row 33: (14, 33), (15, 33), (16, 33), (17, 33), (18, 33), (19, 33), (20, 33), (21, 33), (22, 33), (23, 33), (24, 33), (25, 33), (26, 33), (27, 33), (28, 33), (29, 33), (30, 33), (31, 33), (32, 33), (33, 33)
 
-### Route 9 Master Topography & Complete Solution
+### Defeated Trainers:
+- **Hiker at (6, 11):** Engaged and defeated on Turn 11113-11141.
+  - Roster: Geodude Lv 21, Geodude Lv 21, Graveler Lv 21.
 
-- Access to Row 9 Highway:
-  1. From (10, 12), walk East along Row 12 to (29, 12).
-  2. Step UP 3 steps through (29, 11)/(29, 10) to (29, 9) Row 9 Pavement Highway.
+## Verified Collisions
+- (13, 19): Rock Wall (Turn 11056)
+- Rows 16-23, Columns 18-19: Solid rock walls blocking horizontal traversal between the eastern and western compartments of B1F (visually and physically confirmed on Turn 11639-11641).
 
-### Verified Master Route to Route 10
-1. Retrace West along Row 14 from (23, 14) through (10, 14) to Cerulean City East Exit / Route 9 Entrance at (0, 8/16).
-2. Re-enter Route 9 at (0, 8) on Middle/Upper Highway tier.
-3. Cut tree at (5, 8) and walk East along Row 11/12 across Columns 24-27 to (29, 11).
-4. At (29, 11), step UP to (29, 10), walk West to (25, 10), ascend North along Col 25/23 to Row 4 Top Highway.
-5. Walk East continuously along Row 4/3/2 Top Highway to Route 10 Entrance at (59, 2/3/4).
-- West Basin Bound: Solid rock wall at x=9 (y=10..18). Row 14 lower basin begins at x=10.
-- Basin Exit Ledge Gap Verified: (19, 14) -> UP 2 steps through (19, 13) gap to (19, 12) Middle Highway grass!
-- Top Highway Ascent Gap Verified: (38, 6) -> UP through (39, 5/4/3/2) to Top Highway, then East to x=51 and DOWN across (51, 5) ledge to (51, 6/8) East Highway!
+## Dark Cave Navigation & Visual Illusions
+- **The Illusion of Walkability:** In pitch-black caves like Rock Tunnel, unrendered rock walls and walkable corridors are both drawn as identical pure black pixels.
+- **Coordinate Grid Pitfalls:** The overlay coordinate grid renders on top of pitch-black unrendered space. This can easily lead to the hallucination that a coordinate is "empty walkable black space" when it actually contains a solid rock wall.
+- **Strict Empirical Standard:** Walkability CANNOT be determined visually in dark zones. Every single tile must be physically stepped on (or bumped into to verify collision) before being logged as verified.
 
-<hr>
-
-<h1><code>Locations/Route_10.md</code></h1>
-
-## Route 10 Topology & Coordinates
-- Route 9 West Boundary Connection: (0, 8)
-- Col 13 South Passage: (13, 8) -> DOWN through (13, 11) gap to (13, 12) lower corridor.
-- Route 10 Pokemon Center Door: (11, 19)
-- Rock Tunnel 1F Entrance: (8, 17)
-- Route 10 Pokemon Center Bypass: Col 14 (x=14, y=15..19)
-
-<hr>
-
-<h1><code>Locations/Rock_Tunnel_1F.md</code></h1>
-
-## Rock Tunnel 1F Topography & Coordinates
-- Route 10 Entrance: (15, 3)
-- Dark Cave Environment: Empirical testing required for all corridors and walls.
-- First B1F Ladder Verified: (17, 11)
 
 <hr>
 
-<h1><code>Locations/Rock_Tunnel_B1F.md</code></h1>
+<h1><code>Locations/LavenderTown</code></h1>
 
-## Rock Tunnel B1F Topography & Coordinates
-- 1F Ladder Arrival: (21, 7)
-- Dark Cave Environment: Empirical testing required for all corridors.
-- Eastbound Corridor Verified: (21, 7) -> (31, 7) open cave floor along Row 4..7.
-- Row 7 Rock Protrusion: (32, 7). Bypass via Row 5/6 (x=31..36).
-- Rock Wall Protrusion at x=32..33 (y=3..7). Bypass via Row 2 (x=31..36).
-- East Pocket (x=24..31, y=4..7): Dead-end. Return West to x=20..23 and head South down Row 8..15.
-- Southbound Corridor Verified: (21, 8) -> (21, 13) open cave floor along Row 8..15.
-- Row 13 Corridor Eastbound: (21, 13) -> (22, 13) open floor.
-- East Pocket Dead End Verified: (27, 7) is bounded by rock walls at North (27, 6), South (27, 8), and East (28, 7). West is only exit.
+# Lavender Town - Points of Interest & Overworld Layout
+
+## Map Dimensions
+- Dimensions: To Be Determined.
+
+## Points of Interest
+- **Pokémon Center:** Entrance door at `(3, 5)`. Inside, the entrance mat is at `(3, 7)`, and Nurse Joy is at `(3, 2)`.
+- **Poké Mart:** To Be Discovered.
+- **Volunteer Pokémon House (Mr. Fuji):** Located in the center/south.
+- **Pokémon Tower:** Located in the northeast (top-right).
+
+### Verified Walkable Coordinates:
+- Row 0: (8, 0)
+- Row 1: (8, 1)
+- Row 2: (8, 2)
+- Row 3: (8, 3)
+- Row 4: (8, 4)
+- Row 5: (3, 5), (5, 5), (6, 5), (7, 5), (8, 5)
+- Row 6: (0, 6), (1, 6), (2, 6), (3, 6), (4, 6), (5, 6), (6, 6), (7, 6), (8, 6)
+- Row 7: (0, 7)
+- Row 8: (0, 8)
+
+### Map Transitions & Connections:
+- **North Exit to Route 10 South:** Walk north on columns 8-9 past row 0.
+- **West Exit to Route 8:** Walk west on row 8 past column 0 to transition to Route 8 at (59, 8).
+- **South Exit to Route 12:** To Be Discovered.
+
+
+<hr>
+
+<h1><code>Locations/Route8</code></h1>
+
+# Route 8 - Overworld Mapping & Navigation
+
+## Map Dimensions
+- Dimensions: To Be Determined (width=60 verified, height=To Be Determined).
+
+## Mapped Coordinates & Layout
+- **Saffron City Gatehouse (Verified - Visited on Turn 12616):** Entrance at (5, 11) on Route 8.
+
+### Verified Walkable Coordinates (Physically stepped on in this session):
+- Row 2: (23, 2), (24, 2), (25, 2), (26, 2), (27, 2), (28, 2), (29, 2), (30, 2), (31, 2), (32, 2), (33, 2), (34, 2), (35, 2), (36, 2), (37, 2), (38, 2), (39, 2), (40, 2), (41, 2), (42, 2), (43, 2), (44, 2)
+- Row 3: (23, 3), (24, 3)
+- Row 4: (23, 4), (24, 4)
+- Row 5: (12, 5), (13, 5), (24, 5), (28, 5), (29, 5), (30, 5), (31, 5), (32, 5), (33, 5), (39, 5), (40, 5), (41, 5)
+- Row 6: (12, 6), (24, 6), (28, 6), (29, 6), (30, 6), (31, 6), (32, 6), (33, 6), (34, 6), (35, 6), (36, 6), (37, 6), (38, 6), (39, 6), (40, 6), (41, 6)
+- Row 7: (12, 7), (24, 7), (41, 7), (42, 7)
+- Row 8: (12, 8), (24, 8), (42, 8), (51, 8), (52, 8), (53, 8), (54, 8), (55, 8), (56, 8), (57, 8), (58, 8), (59, 8)
+- Row 9: (12, 9), (24, 9), (41, 9), (42, 9), (51, 9)
+- Row 10: (12, 10), (22, 10), (23, 10), (24, 10), (30, 10), (31, 10), (36, 10), (39, 10), (40, 10), (41, 10), (42, 10), (43, 10), (44, 10), (51, 10)
+- Row 11: (10, 11), (11, 11), (12, 11), (13, 11), (14, 11), (15, 11), (16, 11), (22, 11), (23, 11), (40, 11), (41, 11), (51, 11), (52, 11)
+- Row 12: (5, 12), (6, 12), (7, 12), (8, 12), (9, 12), (10, 12), (11, 12), (12, 12), (13, 12), (14, 12), (15, 12), (16, 12), (17, 12), (18, 12), (19, 12), (20, 12), (21, 12), (22, 12), (23, 12), (24, 12), (41, 12), (42, 12), (43, 12), (44, 12), (45, 12), (46, 12), (47, 12), (48, 12), (49, 12), (52, 12)
+- Row 13: (5, 13), (6, 13), (7, 13), (8, 13), (9, 13), (10, 13), (11, 13), (12, 13), (13, 13), (14, 13), (15, 13), (16, 13), (17, 13), (18, 13), (19, 13), (20, 13), (21, 13), (22, 13), (23, 13), (24, 13), (29, 13), (30, 13), (31, 13), (32, 13), (33, 13), (34, 13), (35, 13), (36, 13), (37, 13), (38, 13), (39, 13), (41, 13), (45, 13), (49, 13), (50, 13), (51, 13), (52, 13)
+- Row 14: (5, 14), (6, 14), (7, 14), (8, 14), (9, 14), (10, 14), (11, 14), (12, 14), (13, 14), (14, 14), (15, 14), (16, 14), (17, 14), (18, 14), (19, 14), (20, 14), (21, 14), (22, 14), (23, 14), (24, 14), (41, 14), (42, 14), (43, 14), (44, 14)
+- Row 15: (5, 15), (6, 15), (7, 15), (8, 15), (9, 15), (10, 15), (11, 15), (12, 15), (13, 15), (14, 15), (15, 15), (16, 15), (17, 15), (18, 15), (19, 15), (20, 15), (21, 15), (22, 15), (23, 15), (24, 15), (41, 15), (42, 15), (43, 15)
+
+### Defeated Trainers:
+- **Super Nerd at (11, 5):** Engaged from (12, 5) on Turn 12642. Defeated on Turn 12679.
+  - Roster: Voltorb Lv 20, Magnemite Lv 20.
+- **Gambler at (13, 9):** Engaged from (13, 5) on Turn 12680. Defeated on Turn 12715.
+  - Roster: Poliwag Lv 22, Poliwag Lv 22, Poliwhirl Lv 22.
+- **Super Nerd at (42, 6):** Engaged from (42, 7) on Turn 12457. Defeated on Turn 12473.
+  - Roster: Grimer Lv 22, Muk Lv 22, Grimer Lv 22.
+- **Lass Julia:** Engaged at (49, 12) on Turn 12307. Defeated on Turn 12325.
+  - Roster: Clefairy Lv 22, Clefairy Lv 22.
+- **Lass at (27, 6):** Engaged and defeated on Turn 12510.
+  - Roster: Pidgey Lv 19, Rattata Lv 19, Nidoran♂ Lv 19, Meowth Lv 19, Pikachu Lv 19.
+
+- **Lass at (26, 3):** Engaged from (24, 3) on Turn 12532. Defeated on Turn 12551.
+  - Roster: Nidoran♀ Lv 23, Nidorina Lv 23.
+- **Lass at (26, 5):** Engaged from (24, 5) on Turn 12556. Defeated on Turn 12579.
+  - Roster: Meowth Lv 24, Meowth Lv 24, Meowth Lv 24.
+## Verified Buildings on Route 8
+- **Saffron City Gatehouse (Verified - Visited on Turn 12616):** Located at columns 2-7, rows 8-11. Entrance door is at (5, 11). Warping out drops player at (8, 10).
+- **Underground Path Entrance Building (Verified - Visited on Turn 12718):** Located at columns 11-14, rows 0-3 on Route 8. Entrance door is at (12, 3) and (13, 3) facing south. Inside, there is a staircase at (4, 4) that warps the player to the Underground Path (Route 7-8) at (47, 2).
+
+<hr>
+
+<h1><code>Locations/UndergroundPath_Route7_Route8</code></h1>
+
+# Underground Path (Route 7 - Route 8) - Overworld Mapping & Navigation
+
+## Map Dimensions
+- Dimensions: Width = 48 (columns 0 to 47), Height = 8 (rows 0 to 7).
+
+## Mapped Coordinates & Layout
+- **Eastern Ladder (Route 8):** Located at (47, 2). Leads up to the Route 8 Underground Path Entrance Building at (4, 4).
+- **Western Ladder (Route 7):** Located at (2, 5). Leads up to the Route 7 Underground Path Entrance Building at (4, 4).
+
+### Verified Walkable Coordinates (Physically stepped on in this session):
+- Row 2: (2, 2), (3, 2), (4, 2), (5, 2), (6, 2), (7, 2), (8, 2), (9, 2), (10, 2), (11, 2), (12, 2), (13, 2), (14, 2), (15, 2), (16, 2), (17, 2), (18, 2), (19, 2), (20, 2), (21, 2), (22, 2), (23, 2), (24, 2), (25, 2), (26, 2), (27, 2), (28, 2), (29, 2), (30, 2), (31, 2), (32, 2), (33, 2), (34, 2), (35, 2), (36, 2), (37, 2), (38, 2), (39, 2), (40, 2), (41, 2), (42, 2), (43, 2), (44, 2), (45, 2), (46, 2), (47, 2)
+
+
+<hr>
+
+<h1><code>Locations/Route7</code></h1>
+
+# Route 7 - Overworld Mapping & Navigation
+
+## Map Dimensions
+- Dimensions: Width = 10 (visually confirmed columns 1 to 10), Height = To Be Determined.
+
+## Mapped Coordinates & Layout
+- **Underground Path Entrance Building (Verified - Visited on Turn 12729):** Located at columns 4-7, rows 10-13 on Route 7. Entrance door is at (5, 13) facing south. Inside, there is a staircase at (4, 4) leading down to the Underground Path tunnel.
+
+### Verified Walkable Coordinates (Physically stepped on in this session):
+- Row 2: (8, 2), (12, 2)
+- Row 3: (8, 3)
+- Row 4: (8, 4)
+- Row 5: (8, 5)
+- Row 6: (8, 6)
+- Row 7: (8, 7)
+- Row 8: (2, 8), (3, 8), (4, 8), (5, 8), (6, 8), (7, 8), (8, 8)
+- Row 9: (2, 9), (3, 9), (4, 9), (5, 9), (6, 9), (7, 9), (8, 9)
+- Row 10: (2, 10), (8, 10)
+- Row 11: (8, 11)
+- Row 12: (2, 12), (3, 12), (8, 12), (9, 12), (10, 12), (11, 12), (12, 12), (13, 12), (14, 12), (15, 12), (16, 12)
+- Row 13: (2, 13), (5, 13), (11, 13), (12, 13), (13, 13)
+- Row 14: (2, 14), (3, 14), (4, 14), (5, 14), (6, 14), (7, 14), (8, 14), (9, 14), (10, 14), (11, 14), (12, 14), (13, 14)
+- Row 15: (2, 15), (3, 15), (4, 15), (5, 15), (6, 15), (7, 15), (8, 15), (9, 15), (10, 15), (11, 15), (12, 15)
+
+## Structural Boundaries, Obstacles & Ledges
+- **Row 11 Ledge:** Horizontal ledge facing South at columns 2-3 and columns 8-11. There is a verified walkable gap at column 8 (8, 11) which allows the player to bypass this ledge and walk north!
+- **Row 7 Ledge:** Horizontal ledge facing South at columns 2-7. There are verified walkable gaps at column 8 (8, 7) and column 4 (4, 7) which allow the player to bypass this ledge and walk north!
+- **Column 7 Fence:** Continuous vertical log fence on rows 2-7. However, on rows 8, 9, 10, there is no fence, allowing easy horizontal crossing between the tall grass area (east) and the paved road (west).
+- **Column 1 Tree Barrier:** Continuous forest trees on rows 4 to 17. We have physically verified column 1 is blocked on rows 8, 9, 10, 12, 13, 14, and 15.
+- **Underground Path Building:** Located at columns 4-7, rows 11-13. Door is at (5, 13) facing south.
+- **Saffron West Gatehouse:** Located at columns 12-15, rows 8-11. We have systematically probed and verified that the west-facing entrance door is located at (12, 10) on Route 7. Entering it warps the player inside Saffron West Gatehouse at (0, 4).
+
+
+<hr>
+
+<h1><code>Locations/CeladonCity</code></h1>
+
+# Celadon City - Overworld Mapping & Navigation
+
+## Map Dimensions
+- Dimensions: Width = To Be Determined, Height = To Be Determined.
+
+## Mapped Coordinates & Layout
+- **Route 7 Connection:** The eastern exit/entrance at (49, 11) transitions to Route 7 at (2, 3) facing Left.
+
+### Verified Walkable Overworld Coordinates:
+
+- Row 22 (western): (10, 22), (11, 22), (12, 22), (13, 22), (14, 22), (15, 22)
+- Row 34: (18, 34), (19, 34), (20, 34), (21, 34), (22, 34), (23, 34), (24, 34), (25, 34), (26, 34), (27, 34), (28, 34), (29, 34), (30, 34), (31, 34), (32, 34), (33, 34), (34, 34), (35, 34)
+- Row 33 (eastern): (18, 33), (22, 33)
+- Row 32 (eastern): (18, 32)
+- Column 25 (plaza): (25, 23), (25, 24), (25, 25), (25, 26), (25, 27)
+- Row 9: (41, 9)
+- Row 10: (16, 10), (17, 10), (18, 10), (19, 10), (20, 10), (21, 10), (22, 10), (23, 10), (24, 10), (25, 10), (26, 10), (27, 10), (28, 10), (29, 10), (30, 10), (31, 10), (32, 10), (33, 10), (34, 10), (35, 10), (36, 10), (37, 10), (38, 10), (39, 10), (40, 10), (41, 10)
+- Row 11: (16, 11), (41, 11), (42, 11), (43, 11), (44, 11), (45, 11), (46, 11), (47, 11), (48, 11), (49, 11)
+- Row 12: (16, 12)
+- Row 13: (10, 13), (16, 13)
+- Row 14: (10, 14), (16, 14)
+- Row 15: (10, 15), (16, 15)
+- Row 16: (10, 16), (16, 16)
+- Row 17: (10, 17), (16, 17)
+- Row 18: (10, 18), (16, 18)
+- Row 19: (10, 19), (16, 19)
+- Row 20: (10, 20), (16, 20)
+- Row 21: (10, 21), (16, 21)
+- Row 22: (10, 22), (11, 22), (12, 22), (13, 22), (14, 22), (15, 22), (16, 22), (17, 22), (18, 22), (19, 22), (20, 22), (21, 22), (22, 22), (23, 22)
+- Row 23: (22, 23), (23, 23)
+- Row 24: (22, 24), (23, 24)
+- Row 25: (22, 25), (23, 25)
+- Row 26: (22, 26), (23, 26)
+- Row 27: (22, 27), (23, 27)
+- Row 28: (5, 28), (6, 28), (7, 28), (8, 28), (9, 28), (10, 28), (11, 28), (12, 28), (22, 28), (23, 28), (24, 28), (25, 28), (26, 28), (27, 28), (28, 28), (29, 28), (30, 28), (31, 28), (32, 28), (33, 28), (34, 28), (35, 28)
+- Row 29: (5, 29), (22, 29)
+- Row 30: (5, 30), (22, 30)
+- Row 31: (5, 31), (22, 31), (23, 31), (24, 31), (25, 31), (26, 31), (27, 31), (28, 31), (29, 31), (30, 31), (31, 31), (32, 31), (33, 31), (34, 31), (35, 31)
+- Row 32: (5, 32), (35, 32)
+- Row 33: (5, 33), (35, 33)
+- Row 34: (5, 34), (6, 34), (7, 34), (8, 34), (9, 34), (10, 34), (11, 34), (12, 34), (13, 34), (14, 34), (15, 34), (16, 34), (17, 34), (18, 34), (19, 34), (20, 34), (21, 34), (22, 34), (23, 34), (24, 34), (25, 34), (26, 34), (27, 34), (28, 34), (29, 34), (30, 34), (31, 34), (32, 34), (33, 34), (34, 34), (35, 34)
+
+### Verified Walkable Indoor Coordinates:
+#### Celadon Department Store 1F
+- Row 1: (12, 1) (Stairs UP)
+- Row 7: (12, 7), (16, 7)
+
+#### Celadon Department Store 2F
+- Row 2: (8, 2), (12, 2), (15, 2)
+- Row 3: (15, 3)
+- Row 5: (5, 5), (6, 5), (8, 5), (15, 5)
+
+#### Celadon Department Store Rooftop Square (6F)
+- Row 3: (3, 3), (12, 3), (13, 3), (14, 3), (15, 3), (16, 3), (17, 3)
+- Row 4: (2, 4), (3, 4), (12, 4), (13, 4), (14, 4), (15, 4), (16, 4), (17, 4)
+- Row 5: (2, 5), (7, 5), (10, 5), (12, 5), (13, 5), (14, 5), (15, 5), (16, 5), (17, 5)
+- Row 6: (2, 6), (7, 6), (8, 6), (9, 6), (10, 6), (11, 6), (12, 6), (13, 6), (14, 6), (15, 6), (16, 6), (17, 6)
+
+## Structural Boundaries & Obstacles
+
+- **Cuttable Bush:** Located at (35, 32). This bush blocks access to the narrow horizontal grass corridor that leads to the Celadon City Gym.
+- **Gym Path Corridor:** A narrow horizontal grass corridor located along Rows 33 and 34, spanning columns 16 to 35. It is bounded by decorative trees on Row 32 and Row 35.
+
+## Major Points of Interest
+- **Celadon Gym:** Entrance door at (12, 27) facing North on Celadon City map. Gym Leader Erika uses Grass-type Pokémon.
+- **Celadon Department Store:** Entrance door at (10, 13) facing North on Celadon City map. Sign at (12, 13) says "MART". It is a multi-story building.
+- **Celadon Mansion:** Located in the north-middle of the city. Sign at (21, 9) says "CELADON MANSION". Entrance doors are around (24, 9).
+- **Celadon Pokémon Center:** Entrance door at (41, 9) facing North on Celadon City map. Sign at (42, 9) says "POKé...".
+
+## Celadon Department Store Directory
+- **1F (Service Counter):** Stairs UP at (12, 1). Elevator at (11, 3).
+- **2F (Trainer Market):** Stairs DOWN at (12, 1), Stairs UP at (16, 1).
+- **3F (TV Game Shop):** Stairs DOWN at (16, 1), Stairs UP at (12, 1).
+- **4F (Wise Man Gifts):** Stairs DOWN at (12, 1), Stairs UP at (16, 1).
+- **5F (Drugstore):** Stairs DOWN at (16, 1), Stairs UP at (12, 1).
+- **Rooftop Square (6F):** Stairs DOWN at (15, 2). Vending machines are at (10, 2), (11, 2), and (12, 2) facing South. Sign at (13, 2) says "ROOFTOP SQUARE: VENDING MACHINES".
+
+## Escalator & Stairs Navigation Rules
+- Escalators are strictly one-way direction-locked transitions.
+- **Going Down (2F -> 1F):** The DOWN escalator on 2F is located at (12, 1). You enter it from the top at (12, 0) by walking DOWN into (12, 1). This transitions you to 1F, spawning at (12, 2) facing South.
+- **Going Up (1F -> 2F):** The UP escalator on 1F is located at (12, 1). You enter it from the bottom at (12, 2) by walking UP into (12, 1). This transitions you to 2F, spawning at (12, 2) facing South.
+- **Going Up to 3F (2F -> 3F):** The UP escalator on 2F is located at (16, 1). You enter it from the bottom at (16, 2) by walking UP into (16, 1).
+## Correct Overworld to Interior Warp Matrix:
+- **Celadon Game Corner (Map 135, 20x18 standard Game Corner):** Entrance door is at `(28, 19)` on the Celadon City overworld (south side of the building block). It contains the secret switch poster at `(9, 4)` and the Rocket Grunt at `(9, 5)`.
+- **Celadon Diner (Map 137, 10x8 room):** Entrance door is at `(33, 19)` on the Celadon City overworld.
+
+- **Saffron Gatehouses (Map 140, standard gatehouse):** Entrance door is at `(43, 27)` on the Celadon City overworld.
+
+### Verified Walkable Overworld Coordinates (Middle-South Rows):
+- Row 19: (10, 19), (16, 19), (28, 19) (Game Corner Entrance), (33, 19) (Diner Entrance), (36, 19)
+- Row 20: (28, 20), (29, 20), (30, 20), (31, 20), (32, 20), (33, 20), (34, 20), (35, 20), (36, 20), (37, 20)
+- Row 14: (26, 14), (27, 14), (28, 14), (29, 14), (30, 14), (31, 14), (32, 14), (33, 14), (34, 14), (35, 14), (36, 14)
+- Row 15: (36, 15)
+- Row 16: (36, 16)
+- Row 17: (36, 17)
+- Row 18: (36, 18)
+### Verified Walkable Indoor Coordinates (Map 138 - Chief's House):
+- `[(2, 3), (2, 4), (2, 5), (2, 6), (2, 7), (3, 2), (3, 3), (3, 4), (3, 5), (3, 6), (3, 7), (4, 2), (4, 3), (4, 4), (4, 5), (4, 6), (4, 7), (5, 4), (5, 5), (5, 6)]`
+- Stools/Counter block column 4 on Row 5, and Row 6 slot machine backs block columns 6-9 from Row 7.
+
+<hr>
+
+<h1><code>Locations/CeladonGym</code></h1>
+
+# Celadon Gym - Indoor Mapping & Navigation
+
+## Temporal Context
+- **Gym Entry:** Turn 13031.
+
+## Mapped Coordinates & Layout
+- **Overworld Entrance Connection:** The overworld entrance is at Celadon City (12, 27).
+
+### Verified Walkable Gym Coordinates:
+- Row 2: (1, 2), (8, 2), (9, 2)
+- Row 3: (1, 3), (8, 3), (9, 3)
+- Row 4: (0, 4), (1, 4), (2, 4), (4, 4), (8, 4), (9, 4)
+- Row 5: (0, 5), (3, 5), (4, 5), (6, 5), (7, 5), (8, 5)
+- Row 6: (0, 6), (3, 6), (5, 6), (6, 6), (8, 6)
+- Row 7: (0, 7), (5, 7), (8, 7)
+- Row 8: (0, 8), (1, 8), (4, 8), (5, 8)
+- Row 9: (1, 9), (4, 9), (5, 9)
+- Row 10: (1, 10), (2, 10), (3, 10), (4, 10), (5, 10), (7, 10)
+- Row 11: (4, 11), (5, 11), (6, 11), (7, 11)
+- Row 13: (4, 13)
+- Row 17: (4, 17)
+
+## Gym Trainers and Lines of Sight
+- **Lass:** Located at (3, 11). Her line of sight extends 2 tiles to the right (to column 4 on row 11). Defeated on Turn 13051.
+- **Cooltrainer Mary:** Originally located at (5, 3), walked down to (5, 5) to challenge player. Defeated on Turn 13093.
+- **Lass Kay:** Located at (6, 4) facing Down. Her line of sight extends 1 tile (to column 6 on row 5). Defeated on Turn 13125.
+- **Beauty Bridget:** Located at (3, 4) facing Down. Her line of sight extends 1 tile (to column 3 on row 5). Defeated on Turn 13141.
+- **Beauty Tamia:** Located at (6, 10) facing Left. Her line of sight extends 1 tile (to column 5 on row 10). Defeated on Turn 13182.
+- **Beauty Lori:** Located at (1, 5) facing Down. Her line of sight extends 3 tiles (to column 1 on row 8). Defeated on Turn 13235.
+- **Gym Trainer:** Located at (9, 5) facing Down. Undefeated.
+
+## Structural Boundaries & Obstacles
+- **Cuttable Bush:** Located at (5, 7). Cut on Turn 13062 to open the central vertical corridor. Note: Cuttable bushes in this Gym regenerate as soon as they scroll off-screen or if the player walks far enough away (discovered on Turn 13258).
+- **Flower Pots:** Impassable flower pots on row 4 at (5, 4). Note: In-game testing on Turn 13311-13312 verified that (4, 4) and (4, 5) are actually walkable pink flower ground tiles, NOT impassable flower pots!
+- **Cuttable Bush:** Located at (2, 4). Cut on Turn 13253. Note: In-game testing on Turn 13256 confirmed that this is a dead-end pocket, blocked by a solid hedge at (2, 3) and Bridget at (3, 4).
+- **Cuttable Bush:** Located at (7, 5). Cut on Turn 13271 to open the eastern corridor.
+
+## Gym Leader Information
+- **Gym Leader:** Erika
+- **Coordinate:** (4, 3)
+- **Initial Facing Direction:** South
+- **Battle Start Turn:** Turn 13330
+- **Team Composition:** Victreebel (Lv 29, Grass/Poison), Tangela (Lv 24, Grass), Vileplume (Lv 29, Grass/Poison)
+
+<hr>
+
+<h1><code>Locations/RocketHideout</code></h1>
+
+# Rocket Hideout - Floor Mapping & Exploration
+
+## B1F Layout & Mapping
+- **Stairs DOWN to B2F:** Located at B1F (23, 2). Warps the player DOWN to B2F, spawning them at (27, 8) facing Down (verified on Turn 15948).
+
+- **Stairs UP to Celadon Game Corner:** Located at B1F (21, 2). Warps the player UP to Celadon Game Corner, spawning them at (17, 4) (verified on Turn 15914).
+- **Walkable Area:**
+  - Row 1: Columns 19-24
+  - Row 2: Columns 19-22
+  - Row 3: Columns 19-24
+  - Row 4: Columns 20-23
+  - Row 5: Columns 13-26 (leading Left and Right)
+  - Column 11: Rows 5-10
+  - Column 12: Rows 5-10
+  - Row 10: Columns 11-14
+  - Column 14: Rows 10-14
+  - Row 14: Columns 12-14
+  - Column 26: Rows 5-7
+  - Row 7: Columns 25-26
+  - Column 25: Rows 7-9 and 11-15
+  - Row 11: Columns 25-28
+  - Column 28: Rows 11-15
+  - Row 15: Columns 24-28
+  - Column 24: Rows 14-15
+  - Column 23 (Vertical Corridor): Rows 9-13 is a narrow 1-column wide vertical strip bounded by a solid wall at the north (Row 8) and a solid hedge/wall at the south (Row 14), making it a dead end.
+- **Trainers on B1F:**
+  - Rocket Grunt at (12, 6) facing Right. Defeated on Turn 13944.
+  - Rocket Grunt at (26, 8) facing Left. Defeated on Turn 14001.
+- **Items on B1F:**
+  - Pokéé Ball at (11, 14). Escape Rope obtained on Turn 13977.
+
+
+## B2F Layout & Mapping
+- **Stairs to B1F:** (27, 8)
+- **Stairs to B3F:** (21, 8) (verified on Turn 15897).
+- **Walkable Area:**
+  - Columns 25-28 on Rows 8-12 (completely clear pink floor around stairs)
+  - Rows 13-15 on Columns 23-28 (pocket leading to spinner entrance at (12, 13))
+  - Row 10 on Columns 14-20, Row 11 on Columns 14-16, Row 12 on Columns 14-15
+  - Columns 1-3 on Rows 7-9 (area around far-left spinner landing at (2, 9))
+  - Row 7 on Columns 1-5 (top corridor on the far left)
+  - Row 11 on Columns 5-7 (area near the Poké Ball at (6, 12))
+  - Row 13-15 on Columns 1-4 (bottom-left area)
+- **Trainers on B2F:**
+  - Rocket Grunt at (20, 13) facing Down. Defeated on Turn 14038.
+- **Spinners / Maze Mechanics:**
+  - LEFT spinner at (17, 11) -> slides all the way to (2, 9) (stopper). (Verified on Turn 16828)
+- **Items on B2F:**
+  - Poké Ball at (16, 8) (blocked by wall at (16, 9), accessible from row 7 at (16, 7))
+  - Poké Ball at (1, 11) (Moon Stone, Obtained on Turn 14079)
+  - Poké Ball at (6, 12) (TM07 - Horn Drill, Obtained on Turn 14097)
+
+## B3F Layout & Mapping
+- **Connecting Corridor (Row 7):** B3F's eastern and western rooms are connected by a walkable horizontal corridor along Row 7 (from Column 16 to Column 27). This allows the player to walk directly between the two areas of the floor.
+- **Stairs UP to B2F (Left Room):** Located at B3F (5, 15). Warps the player UP, spawning them at B2F (2, 9) facing Right (verified on Turn 15297).
+- **Stairs UP to B2F (Right Room):** Located at B3F (25, 6). Warps the player UP, spawning them at B2F (21, 8) (verified on Turn 15541).
+- **Stairs DOWN to B4F:** Located at B3F (19, 18). Takes the player to B4F at (19, 10) (verified on Turn 15679).
+- **Major Barriers & Obstacles:**
+  - Column 15: Blocked by solid green-edged wall tiles from Row 18 to Row 24 (empirically verified on Turn 14753 that (15, 20) is impassable).
+  - Column 18: Solid vertical wall from Row 6 to Row 19, with gaps only at (18, 10) and (18, 11).
+  - Row 16: Solid horizontal wall from Column 18 to Column 28, making the bottom-right corridor (rows 17-19) inaccessible from the Right Room.
+  - Column 24: Decorative columns/pillars at (24, 11) and (24, 13) are impassable.
+- **Walkable Row 25 Crossing Method (Burden of Proof Verified):**
+  - Land at (9, 24) stopper on B3F (Turn 14758).
+  - Walk Right 1 step to (10, 24) (Turn 14759).
+  - Walk Down 1 step onto (10, 25) RIGHT spinner -> slides us through (11, 25), (12, 25), (13, 25) to (14, 25) stopper (Turn 14760). This is the only physical route that successfully bypasses the Column 15 blockage!
+- **Spinner Pathways:**
+  - (12, 13) (UP spinner) -> spins UP to (12, 9) (LEFT spinner) -> spins Left to (2, 9) (stopper).
+  - (9, 14) (DOWN spinner) -> spins DOWN to (9, 16) (stopper).
+  - (11, 16) (RIGHT spinner) -> spins RIGHT to (15, 17) (stopper).
+  - (14, 17) (UP spinner) -> spins UP to (14, 15) (stopper).
+  - (16, 14) (UP spinner) -> spins UP to (16, 13) (stopper).
+- **Items on B3F:**
+  - Poké Ball at (16, 8) (TM30 - Teleport, obtained on Turn 14196)
+  - Poké Ball at (3, 21) (Super Potion, obtained on Turn 14439)
+
+## B4F Layout & Mapping
+### Verified Barriers & Obstacles:
+- **Row 16 Railing/Wall:** Empirically verified to be completely solid and impassable from Column 10 to Column 22 on B4F.
+- **Column 23 Wall:** Empirically verified to be completely solid and impassable from Row 17 to Row 26 on B4F, completely walling off the elevator area (Columns 24-28).
+- **Stairs UP to B3F:** Located at B4F (19, 10). Takes the player back UP to B3F (19, 18) (verified on Turn 15679).
+- **Elevator**: Located in the eastern chamber. The western stairs land at B4F (19, 10). Note: We have an unverified hypothesis (based on compiled gate scripts) that there is a walkable gap in the vertical Column 23 wall at B4F (23, 14) that connects the western stairs area to the eastern area. This must be verified on foot once we reach B4F. The Lift Key is obtained on B4F at (10, 2) on Turn 15797.
+- **Walkable Areas:**
+  - Row 25: Column 10 to Column 22 is a clear, walkable horizontal pink floor corridor.
+  - Columns 10-11: Walkable vertical corridor from Row 17 to Row 25.
+  - Row 17: Walkable from Column 10 to Column 22 (east room).
+  - Row 17 Column 9: Location of the Hyper Potion Pokéball (obtained on Turn 14865, now walkable).
+- **Trainers on B4F:**
+  - Rocket Grunt at (17, 25). Defeated on Turn 14805. Tells the player to take the elevator to see his boss.
+  - Rocket Grunt at (18, 17). Defeated on Turn 14902. He says "SILPH SCOPE? I don't know where it is!".
+- **Items on B4F:**
+  - Poké Ball at (19, 17) (Nugget, obtained on Turn 14992).
+  - Poké Ball at (9, 17) (Hyper Potion, obtained on Turn 14865).
+  - Poké Ball at (10, 12) (HP UP, obtained on Turn 15709).
+  - Poké Ball at (10, 2) (LIFT KEY, dropped by elevator-guard grunt at (11, 2) on Turn 15778).
+- **B3F Grid Obstacles & Boundaries (Burden of Proof Verified):**
+  - B3F (20, 7) to (20, 11) is a clear, walkable vertical corridor (verified on Turn 16950).
+  - B3F (20, 12) is a solid green-edged plant wall block (completely impassable, verified on Turn 16950).
+  - B3F Column 21 is a solid vertical grey wall from Row 6 to Row 13 (verified on Turn 16950).
+  - B3F Column 19 is blocked by solid wall blocks from Row 10 to Row 14 (verified on Turn 16952).
+  - B3F Column 18 is blocked by solid wall blocks from Row 10 to Row 14 (verified on Turn 16952).
+  - B3F Column 8 is blocked by a solid vertical wall on Row 5-7 (verified on Turn 16958).
+
+<hr>
+
+<h1><code>notepads/Locations/CeladonCity.md</code></h1>
+
+
+
+<hr>
+
+<h1><code>notepads/Locations/RocketHideout</code></h1>
+
+
+
+<hr>
+
+<h1><code>notepads/Locations/CeladonCity</code></h1>
+
+
+
+<hr>
+
+<h1><code>notepads/Locations/RocketHideout.md</code></h1>
+
+
+
+<hr>
+
+<h1><code>Scratchpad/Warp_Matrix</code></h1>
+
+# Rocket Hideout Warp Matrix & Floor Connections
+
+## Stairs & Floor Transitions
+- **Celadon Game Corner (17, 4) <--> B1F (21, 2)**
+  - Walking into stairs at Game Corner (17, 4) warps you to B1F (21, 2).
+  - Walking onto B1F (21, 2) warps you to Game Corner (17, 4).
+  
+- **B1F (23, 2) <--> B2F (27, 8)**
+  - Walking onto B1F (23, 2) warps you DOWN to B2F (27, 8).
+  - Walking onto B2F (27, 8) warps you UP to B1F (23, 3) (just below B1F stairs).
+
+- **B2F (21, 8) <--> B3F (25, 6)**
+  - Walking onto B2F (21, 8) warps you DOWN to B3F (25, 6).
+  - Walking onto B3F (25, 6) warps you UP to B2F (21, 8).
+
+- **B3F (19, 18) <--> B4F (19, 10)**
+  - Walking onto B3F (19, 18) warps you DOWN to B4F (19, 10).
+  - Walking onto B4F (19, 10) warps you UP to B3F (19, 18).
 
 <hr>
