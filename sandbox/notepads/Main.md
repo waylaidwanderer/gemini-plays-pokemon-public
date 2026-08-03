@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 34291)
-- Location: Rock Tunnel 1F (5, 13) - Western Sector
-- Active Protocol: Exit Rock Tunnel: Navigate from (5, 13) to Route 10 Exit at (15, 3) step-by-step.
+## CURRENT STATUS & DASHBOARD (Turn 34321)
+- Location: Rock Tunnel 1F (14, 14) - Eastern Corridor
+- Active Protocol: Exit Rock Tunnel: Navigate North along Col 14 from (14, 14) to Route 10 Exit at (15, 3).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
