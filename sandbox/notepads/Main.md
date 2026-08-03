@@ -1,6 +1,6 @@
 ## CURRENT STATUS & DASHBOARD (Turn 32878)
-- Location: Rock Tunnel B1F (20, 20)
-- Active Protocol: Walk Up 4 steps along Col 20 to (20, 20).
+- Location: Rock Tunnel B1F (20, 22)
+- Active Protocol: Retrace to Row 31 (17, 31) and continue West along South Corridor past Col 16 to Col 10.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge

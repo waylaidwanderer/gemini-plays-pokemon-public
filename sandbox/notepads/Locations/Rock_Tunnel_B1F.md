@@ -5,4 +5,5 @@
 - South Corridor: Rows 30-33 open highway running East-West from Col 33+ West to Col 16+. Bounded South by Row 34 rock wall.
 - West Passage (Col 16-17): Connects South Corridor (Row 31) North through (17, 27) to Western Cavern (Rows 24-27, Cols 14-22).
 - Row 22-23 Wall Barrier: Rock wall across Cols 12-19 on Rows 22-23.
-- Northern Bypass Passage (Col 20): Open northbound passage at Col 20 connecting Row 24 (20, 24) North to Row 20 (20, 20).
+- Col 20 Inner Pocket: Dead end at (20, 21/22).
+- Main West Route: Follow South Corridor (Row 31) ALL THE WAY WEST past Col 16 to Col 10/8.
