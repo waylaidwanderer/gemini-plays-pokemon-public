@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 32041)
-- Location: Route 10 South (16, 7)
-- Active Protocol: At (16, 7) on Route 10 South in wild Machop battle; escaping battle, then stepping Down 10 steps along Column 16 to enter Lavender Town.
+## CURRENT STATUS & DASHBOARD (Turn 32049)
+- Location: Lavender Town (8, 18)
+- Active Protocol: Arrived in Lavender Town at (8, 18) after exiting Route 10 South; traversing West to Route 8 exit at (0, 9).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
