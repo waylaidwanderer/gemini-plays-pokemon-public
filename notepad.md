@@ -629,6 +629,7 @@
 - **Trainers on B1F:**
   - Rocket Grunt at (12, 6) facing Right. Defeated on Turn 13944.
   - Rocket Grunt at (26, 8) facing Left. Defeated on Turn 14001.
+  - Rocket Grunt at (28, 18) facing Left. Defeated on Turn 18105.
 - **Items on B1F:**
   - Pokéé Ball at (11, 14). Escape Rope obtained on Turn 13977.
 
