@@ -641,6 +641,7 @@
   - Row 7 on Columns 1-5 (top corridor on the far left)
   - Row 11 on Columns 5-7 (area near the Poké Ball at (6, 12))
   - Row 13-15 on Columns 1-4 (bottom-left area)
+- **B2F (17, 12) Wall:** Verified solid wall block (empirically hit on Turn 16975).
 - **Trainers on B2F:**
   - Rocket Grunt at (20, 13) facing Down. Defeated on Turn 14038.
 - **Spinners / Maze Mechanics:**
