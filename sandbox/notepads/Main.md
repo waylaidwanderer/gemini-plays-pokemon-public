@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 33736)
-- Location: Rock Tunnel B1F (9, 30)
-- Active Protocol: Right 5 to Col 14 (14, 30) -> Up 6 along Col 14 to (14, 24) -> Probe East along Row 24 to Col 25 -> Navigate to Exit Ladder at (27, 3) -> Warp to 1F Exit Cavern (5, 3) -> Route 10 South.
+## CURRENT STATUS & DASHBOARD (Turn 33739)
+- Location: Rock Tunnel B1F (14, 29)
+- Active Protocol: Up 5 to (14, 24) -> Right 11 along Row 24 to Col 25 (25, 24) -> Up 8 along Col 25 to Row 16 Highway -> East to Col 33 -> Exit Ladder (27, 3) -> Warp to 1F Exit Cavern (5, 3) -> Route 10 South.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
