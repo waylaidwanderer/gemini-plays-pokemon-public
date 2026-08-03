@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 32323)
-- Location: Route 8 Underground Path Building Interior (3, 12)
-- Active Protocol: At (3, 12) facing North towards (3, 11); testing pressing A on stairwell object at (3, 11).
+## CURRENT STATUS & DASHBOARD (Turn 32325)
+- Location: Cerulean City Gym Interior (3, 12)
+- Active Protocol: At (3, 12) in Cerulean Gym; dismissing text box, walking Down to (4, 13) red carpet doorway to exit into Cerulean City.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
