@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 32178)
+## CURRENT STATUS & DASHBOARD (Turn 32179)
 - Location: Route 8 (28, 15)
-- Active Protocol: At (28, 15) on Route 8; walking Up 1 to (28, 14), Right 18 along Row 14 grass past NPC to (46, 14), Down 1 to (46, 15), Right 6 to Col 52 gap at (52, 15), Down 4 (hopping ledge) to Row 19 Lower Highway at (52, 19), then Left 22 to Gatehouse doorway at (30, 19).
+- Active Protocol: At (28, 15) on Route 8; walking Right 1 to (29, 15), Up 5 to Row 10 at (29, 10), Left 9 to (20, 10), Down 4 to (20, 14), Left 11 to (9, 14), Down 2 to Row 16 Lower Highway at (9, 16), and Left 10 to (0, 16) Gatehouse sector.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
