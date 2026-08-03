@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 32716)
-- Location: Cerulean City (5, 20)
-- Active Protocol: Navigate West along Row 19 highway to Route 4 exit at (0, 19).
+## CURRENT STATUS & DASHBOARD (Turn 32719)
+- Location: Route 4 (89, 11)
+- Active Protocol: Navigate West along Route 4 corridor to Col 85.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
