@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 33081)
-- Location: Rock Tunnel B1F (37, 17)
-- Active Protocol: Ascend Col 37 North to Row 13 to inspect Northern Chamber of B1F.
+## CURRENT STATUS & DASHBOARD (Turn 33083)
+- Location: Rock Tunnel B1F (33, 17)
+- Active Protocol: Descend Col 33 South to Row 31 South Corridor.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
