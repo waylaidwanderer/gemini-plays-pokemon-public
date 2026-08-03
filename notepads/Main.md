@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 32939)
+## CURRENT STATUS & DASHBOARD (Turn 32942)
 - Location: Rock Tunnel 1F (5, 11)
-- Active Protocol: Escaping Zubat battle and continuing South along Col 5 to (5, 13).
+- Active Protocol: B to clear text, then Down 5 along Col 5 to (5, 16) in Southbound Exit Corridor.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
