@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 34490)
-- Location: Rock Tunnel 1F (11, 10) - Western Corridor
-- Active Protocol: Up 4 to (11, 6) -> Up 3 to (11, 3) -> Right 4 to (15, 3) -> Up 1 to Route 10 Exit!
+## CURRENT STATUS & DASHBOARD (Turn 34491)
+- Location: Rock Tunnel 1F (11, 6) - Western Corridor
+- Active Protocol: Down 4 to (11, 10) -> Down 4 to (11, 14) -> Right 6 to (17, 14) -> Up 3 to (17, 11) Ladder -> B1F -> Exit Ladder (27, 3)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
