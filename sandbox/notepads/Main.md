@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 32325)
-- Location: Cerulean City Gym Interior (3, 12)
-- Active Protocol: At (3, 12) in Cerulean Gym; dismissing text box, walking Down to (4, 13) red carpet doorway to exit into Cerulean City.
+## CURRENT STATUS & DASHBOARD (Turn 32332)
+- Location: Cerulean City Overworld (30, 20)
+- Active Protocol: At (30, 20) outside Cerulean Gym; walking Left 11 to (19, 20), Down 8 to (19, 28) Cut tree, cutting tree to reach Route 5 entrance at (19, 32).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
