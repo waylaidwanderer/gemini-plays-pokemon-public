@@ -1,6 +1,6 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 32951)
+## CURRENT STATUS & DASHBOARD (Turn 32952)
 - Location: Rock Tunnel 1F (9, 18)
 - Active Protocol: Escaping Machop battle and continuing South to Route 10 exit.
 
