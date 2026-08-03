@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 33116)
-- Location: Rock Tunnel B1F (33, 24)
-- Active Protocol: Complete battle against Rattata L19, clear victory text, and descend Col 33 South 7 steps to Row 31 South Corridor.
+## CURRENT STATUS & DASHBOARD (Turn 33151)
+- Location: Rock Tunnel B1F (9, 24)
+- Active Protocol: Finish off wild Geodude L17, clear victory text, and ascend Col 9 North 8 steps to Row 16 Highway at (9, 16).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
