@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 33374)
-- Location: Rock Tunnel B1F (37, 23)
-- Active Protocol: Run from Geodude -> ascend Col 37 North to Row 16 at (37, 16) -> East to Col 41 -> North to Exit Ladder at (27, 3).
+## CURRENT STATUS & DASHBOARD (Turn 33391)
+- Location: Rock Tunnel 1F (3, 4)
+- Active Protocol: Step Up to (3, 3) ladder to return to B1F (37, 17), then navigate to B1F Main Exit Ladder at (27, 3).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
