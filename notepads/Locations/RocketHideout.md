@@ -52,6 +52,13 @@
   - Poké Ball at (1, 11) (Moon Stone, Obtained on Turn 14079)
   - Poké Ball at (6, 12) (TM07 - Horn Drill, Obtained on Turn 14097)
 
+
+- **Elevator Location & Interaction (Verified on Turn 17280):**
+  - The B2F elevator doorway is located at (25, 13) (Row 13 Column 25).
+  - Column 24 Row 13 has a solid decorative pillar, which blocks it.
+  - When the elevator is parked on another floor, (25, 13) and (25, 12) are completely walkable on B2F (empty shaft), and walking onto them does NOT trigger a warp.
+  - To call the elevator to B2F, you must stand directly outside the doors at B2F (25, 14) facing UP, and press "A" (with the Lift Key in your bag). This will call the elevator, open the doors, and activate the warp at (25, 13).
+
 ## B3F Layout & Mapping
 - **Connecting Corridor (Row 7):** B3F's eastern and western rooms are connected by a walkable horizontal corridor along Row 7 (from Column 16 to Column 27). This allows the player to walk directly between the two areas of the floor.
 - **Stairs UP to B2F (Left Room):** Located at B3F (5, 15). Warps the player UP, spawning them at B2F (2, 9) facing Right (verified on Turn 15297).
@@ -83,7 +90,7 @@
 - **Column 23 Wall:** Empirically verified to be completely solid and impassable from Row 17 to Row 26 on B4F, completely walling off the elevator area (Columns 24-28).
 - **Stairs UP to B3F (Western Room):** Located at B4F (19, 10). Takes the player back UP to B3F (19, 18) (verified on Turn 15679).
 - **Stairs UP to B3F (Eastern Room):** Located at B4F (21, 24). Takes the player back UP to B3F (21, 22) (verified on Turn 17035).
-- **Elevator**: Located in the eastern chamber. The western stairs land at B4F (19, 10). Note: Verified on foot on Turn 17050 that there is NO walkable gap in the Column 23 wall on B4F. The Column 23 wall is completely impassable, meaning the eastern elevator/gate section on B4F is completely inaccessible on foot from the western/middle section. The player MUST take the elevator from another floor (e.g. B1F, B2F, B3F) to access the eastern chamber of B4F.nother floor (e.g. B1F, B2F, B3F) to access the eastern chamber of B4F. The Lift Key is obtained on B4F at (10, 2) on Turn 15797.
+- **Elevator**: Located in the eastern chamber. The western stairs land at B4F (19, 10). Note: Verified on foot on Turn 17050 that there is NO walkable gap in the Column 23 wall on B4F. The Column 23 wall is completely impassable, meaning the eastern elevator/gate section on B4F is completely inaccessible on foot from the western/middle section. The player MUST take the elevator from another floor (e.g. B1F, B2F, B3F) to access the eastern chamber of B4F. The Lift Key is obtained on B4F at (10, 2) on Turn 15797.
 - **Walkable Areas:**
   - Row 25: Column 10 to Column 22 is a clear, walkable horizontal pink floor corridor.
   - Columns 10-11: Walkable vertical corridor from Row 17 to Row 25.
