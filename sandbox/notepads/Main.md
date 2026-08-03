@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 32167)
-- Location: Route 8 (23, 15)
-- Active Protocol: At (23, 15) on Route 8; walking Left 3 to Col 20 passage at (20, 15), Up 5 to Row 10 Upper Highway at (20, 10), Right 9 to Col 29 gap at (29, 10), Up 1 to Row 9 highway, Left 15 to Col 14, and Down 1 into building doorway at (14, 10).
+## CURRENT STATUS & DASHBOARD (Turn 32168)
+- Location: Route 8 (10, 15)
+- Active Protocol: At (10, 15) on Route 8; walking Up 1 to (10, 14), Right 9 to (19, 14), Up 2 to (19, 12) gap, and testing Right step-by-step along Row 12 to Col 29 gap.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
