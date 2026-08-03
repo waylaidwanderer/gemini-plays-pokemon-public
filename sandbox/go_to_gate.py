@@ -16,70 +16,56 @@ def verify_position(expected_coords, wait_time=3.0):
     return pos
 
 try:
-    print("Resuming master navigation from B3F (15, 18)...")
-    print("Initial Position:", mgba.get_coordinates())
+    print("Executing final master navigation to Giovanni's Gate via B3F...")
+    print("Initial Position on B4F:", mgba.get_coordinates())
     
-    # We are at B3F (15, 18)
-    # 6. Walk Left to (14, 18)
-    print("Walking Left to (14, 18)...")
-    move("Left", 1)
-    verify_position((14, 18), wait_time=0.5)
+    # 1. Walk B4F (19, 17) to (21, 22) stairs to warp UP to B3F
+    print("Walking Down 8 steps to (19, 25)...")
+    move("Down", 8)
+    verify_position((19, 25), wait_time=0.5)
 
-    # 7. Stepping Left onto (13, 18) LEFT spinner -> slides to (11, 20)
-    print("Stepping Left onto (13, 18) LEFT spinner...")
-    move("Left", 1)
-    verify_position((11, 20), wait_time=3.0)
-
-    # 8. Walk Right to (14, 20)
-    print("Walking Right to (14, 20)...")
-    move("Right", 3)
-    verify_position((14, 20), wait_time=0.5)
-
-    # 9. Walk Down to (14, 22)
-    print("Walking Down to (14, 22)...")
-    move("Down", 2)
-    verify_position((14, 22), wait_time=0.5)
-
-    # 10. Stepping Left onto (13, 22) LEFT spinner -> slides to (9, 24)
-    print("Stepping Left onto (13, 22) LEFT spinner...")
-    move("Left", 1)
-    verify_position((9, 24), wait_time=3.0)
-
-    # 11. Walk Right to (10, 24)
-    print("Walking Right to (10, 24)...")
-    move("Right", 1)
-    verify_position((10, 24), wait_time=0.5)
-
-    # 12. Stepping Down onto (10, 25) RIGHT spinner -> slides to (14, 25)
-    print("Stepping Down onto (10, 25) RIGHT spinner...")
-    move("Down", 1)
-    verify_position((14, 25), wait_time=3.0)
-
-    # 13. Walk Right to (21, 25)
-    print("Walking Right to (21, 25)...")
-    move("Right", 7)
+    print("Walking Right 2 steps to (21, 25)...")
+    move("Right", 2)
     verify_position((21, 25), wait_time=0.5)
 
-    # 14. Walking Up onto B3F stairs at (21, 22)...
-    print("Walking Up onto B3F stairs at (21, 22)...")
+    print("Walking Up 3 steps onto stairs...")
     move("Up", 3)
-    # Warps to B4F (21, 24) spawning at (21, 25)
+    # Warps to B3F (21, 22)
     time.sleep(4.0)
-    print("Position on B4F:", mgba.get_coordinates())
+    print("Position on B3F:", mgba.get_coordinates())
 
-    # 15. Navigate B4F to Giovanni's Gate
-    print("On B4F, walking Up 4 to (21, 21)...")
-    move("Up", 4)
-    verify_position((21, 21), wait_time=0.5)
+    # 2. On B3F, navigate from (21, 22) to Western stairs (19, 18)
+    print("On B3F, walking Down 3 to (21, 25)...")
+    move("Down", 3)
+    verify_position((21, 25), wait_time=0.5)
 
-    print("Walking Left 2 to (19, 21)...")
+    print("Walking Left 2 to (19, 25)...")
     move("Left", 2)
+    verify_position((19, 25), wait_time=0.5)
+
+    print("Walking Up 4 to (19, 21)...")
+    move("Up", 4)
     verify_position((19, 21), wait_time=0.5)
 
-    print("Walking Up 6 to (19, 15)...")
-    move("Up", 6)
-    verify_position((19, 15), wait_time=0.5)
+    print("Walking Left 3 to (16, 21)...")
+    move("Left", 3)
+    verify_position((16, 21), wait_time=0.5)
 
+    print("Walking Up 8 to (16, 13)...")
+    move("Up", 8)
+    verify_position((16, 13), wait_time=2.0) # wait for slide to complete
+
+    print("Walking Right 3 to (19, 13)...")
+    move("Right", 3)
+    verify_position((19, 13), wait_time=0.5)
+
+    print("Walking Down 5 onto stairs...")
+    move("Down", 5)
+    # Warps to B4F (19, 15)
+    time.sleep(4.0)
+    print("Position on B4F (Above Row 16):", mgba.get_coordinates())
+
+    # 3. Navigate B4F to Giovanni's Gate
     print("Walking Right 6 to (25, 15)...")
     move("Right", 6)
     verify_position((25, 15), wait_time=0.5)
@@ -92,9 +78,9 @@ try:
     mgba.press_buttons(["Left", "sleep 300"])
     time.sleep(0.4)
 
-    print("SUCCESSFULLY ARRIVED AT GIOVANNI'S GATE!")
+    print("SUCCESSFULLY REACHED GIOVANNI'S GATE!")
     mgba.take_screenshot()
 
 except Exception as e:
-    print("ERROR OCCURRED:", e)
+    print("ERROR:", e)
     mgba.take_screenshot()
