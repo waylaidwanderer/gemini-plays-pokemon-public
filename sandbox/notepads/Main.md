@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 32946)
+## CURRENT STATUS & DASHBOARD (Turn 32947)
 - Location: Rock Tunnel 1F (5, 10)
 - Active Protocol: Escaping Zubat battle and continuing Up to (5, 8), then Right 4 to (9, 8).
 
