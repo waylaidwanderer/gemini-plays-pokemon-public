@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 32201)
-- Location: Route 8 (53, 14)
-- Active Protocol: At (53, 14) on Route 8; stepping Down 3 to hop Col 53 ledge onto Row 17 Lower Highway at (53, 17), walking Left 23 along Row 17 pavement to (30, 17), Down 2 to Gatehouse doorway at (30, 19), and Up 2 into building doorway to warp inside.
+## CURRENT STATUS & DASHBOARD (Turn 32202)
+- Location: Route 8 (46, 14)
+- Active Protocol: At (46, 14) on Route 8; walking Right 3 to Col 49 pavement at (49, 14), Up 7 along Col 49 to Row 7 Upper Highway at (49, 7), Left 35 along Row 7 to Col 14 at (14, 7), and Down 3 into Underground Path building doorway at (14, 10) to warp inside.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
