@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 33091)
+## CURRENT STATUS & DASHBOARD (Turn 33097)
 - Location: Rock Tunnel B1F (33, 21)
-- Active Protocol: Defeat Jr. Trainer Female (Bellsprout L22) at (33, 21) in Rock Tunnel B1F, then continue South to Row 31 South Corridor.
+- Active Protocol: Clear battle victory text and descend Col 33 South 10 steps to Row 31 South Corridor.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
