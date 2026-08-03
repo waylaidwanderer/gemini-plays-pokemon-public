@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 32078)
-- Location: Route 10 South (21, 13)
-- Active Protocol: At (21, 9) on Route 10 South in Machop battle; escaping battle, then stepping Down 4 steps along Column 21 to enter Lavender Town.
+## CURRENT STATUS & DASHBOARD (Turn 32085)
+- Location: Route 10 South (19, 7)
+- Active Protocol: At (19, 7) on Route 10 South; walking Left 4 to (15, 7) and Up 4 to step through doorway at (15, 3) to warp into Lavender Town.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
