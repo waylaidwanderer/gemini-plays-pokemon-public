@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 34497)
+## CURRENT STATUS & DASHBOARD (Turn 34498)
 - Location: Rock Tunnel 1F (11, 14) - Row 14 Corridor
-- Active Protocol: Right 3 to (14, 14) -> Right 3 to (17, 14) -> Up 3 to (17, 11) Ladder -> B1F -> Exit Ladder (27, 3)!
+- Active Protocol: Run from Zubat -> Right 3 to (14, 14) -> Right 3 to (17, 14) -> Up 3 to (17, 11) Ladder -> B1F -> Exit Ladder (27, 3)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
