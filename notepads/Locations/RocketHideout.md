@@ -87,7 +87,7 @@
 ### Verified Barriers & Obstacles:
 - **Row 16 Railing/Wall:** Empirically verified to be completely solid and impassable from Column 10 to Column 22 on B4F.
 - **Column 23 Wall:** Column 23 has a walkable horizontal gap on Row 16, allowing passage between the western and eastern chambers on B4F.
-- **Stairs UP to B3F (Western Room):** Located at B4F (19, 15). Takes the player back UP to B3F (19, 18) (verified on Turn 17462).
+
 - **Stairs UP to B3F (Eastern Room):** Located at B4F (21, 24). Takes the player back UP to B3F (21, 26) (verified on Turn 17983).
 - **Elevator**: Located in the eastern chamber. The western stairs land at B4F (19, 15). While the Column 23 wall is solid on most rows, Row 16 is completely walkable, allowing the player to walk on foot from the western stairs to the eastern chamber and the Lift Key gate. The Lift Key is obtained on B4F at (10, 2) on Turn 15797.
 - **Walkable Areas:**
@@ -98,6 +98,9 @@
 - **Trainers on B4F:**
   - Rocket Grunt at (17, 25). Defeated on Turn 14805. Tells the player to take the elevator to see his boss.
   - Rocket Grunt at (18, 17). Defeated on Turn 14902. He says "SILPH SCOPE? I don't know where it is!".
+  - Rocket Grunt at (23, 12). Defeated on Turn 18002.
+  - Rocket Grunt at (26, 12). Defeated on Turn 18033. (Defeating this grunt automatically opens/removes the B4F gate at (24, 11)/(25, 11) without manual key usage).
+  - Rocket Leader Giovanni at (25, 3). Defeated on Turn 18056. He drops the SILPH SCOPE on the floor after he disappears.
 - **Items on B4F:**
   - Poké Ball at (19, 17) (Nugget, obtained on Turn 14992).
   - Poké Ball at (9, 17) (Hyper Potion, obtained on Turn 14865).

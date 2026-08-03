@@ -30,6 +30,8 @@
    - Status: Healthy
 
 ## Major Milestones and Items
+- **Giovanni Defeated:** Defeated on Turn 18056 on B4F.
+- **Silph Scope:** Obtained on Turn 18067 on B4F.
 - **Cut:** Taught to Pokémon on Turn 6787.
 - **Bill's House:** Visited on Route 25 on Turn 4765. Restored Bill's human form.
 - **Burgled House:** Explored in Cerulean City.
