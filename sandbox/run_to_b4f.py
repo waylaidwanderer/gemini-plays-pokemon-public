@@ -7,10 +7,22 @@ def move(d, steps=1):
         time.sleep(0.4)
     return mgba.get_coordinates()
 
-# Currently at B3F (19, 9).
-# Walk Down 9 times to stairs at (19, 18) and warp to B4F
-print("Walking to B3F stairs at (19, 18) to warp to B4F...")
-pos = move("Down", 9)
+# Currently at B3F (19, 15).
+# Walk to the B3F stairs at (18, 19) via Column 28:
+print("Walking to B3F Column 28...")
+move("Right", 9) # to (28, 15)
+
+print("Walking Down Column 28...")
+move("Down", 3) # to (28, 18)
+
+print("Walking Left to Column 19...")
+move("Left", 9) # to (19, 18)
+
+print("Walking Down to (19, 19)...")
+move("Down", 1) # to (19, 19)
+
+print("Warping DOWN to B4F via (18, 19) stairs...")
+pos = move("Left", 1) # to (18, 19)
 print("Position during warp:", pos)
 time.sleep(2.0) # Wait for warp transition
 
