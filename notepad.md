@@ -654,15 +654,14 @@
 
 
 - **Elevator Location & Interaction (Verified on Turn 17280):**
-  - The B2F elevator doorway is located at (25, 13) (Row 13 Column 25).
-  - Column 24 Row 13 is a solid decorative pillar, which blocks it.
-  - To use the elevator on B2F, you must stand at B2F (25, 14) facing UP, and press "A" (with the Lift Key in your bag). This will open the doors, allowing you to walk UP to (25, 13) to warp inside the elevator cabin.
+  - The B2F elevator doorway is located at (24, 13) (Row 13 Column 24).
+  - To use the elevator on B2F, you must stand at B2F (24, 14) facing UP, and press "A" (with the Lift Key in your bag). This will open the doors, allowing you to walk UP to (24, 13) to warp inside the elevator cabin.
 
 ## B3F Layout & Mapping
 
 - **Stairs UP to B2F (Left Room):** Located at B3F (5, 15). Warps the player UP, spawning them at B2F (2, 9) facing Right (verified on Turn 15297).
 - **Stairs UP to B2F (Right Room):** Located at B3F (25, 6). Warps the player UP, spawning them at B2F (21, 8) (verified on Turn 15541).
-- **Stairs DOWN to B4F (Western Room):** Located at B3F (19, 18). Takes the player to B4F at (19, 10) (verified on Turn 15679).
+- **Stairs DOWN to B4F (Western Room):** Located at B3F (19, 18). Takes the player to B4F at (19, 15) (verified on Turn 17462).
 - **Stairs DOWN to B4F (Eastern Room):** Located at B3F (21, 22). Takes the player to B4F at (21, 24) (verified on Turn 17035).
 - **Major Barriers & Obstacles:**
   - Column 15: Blocked by solid green-edged wall tiles from Row 18 to Row 24 (empirically verified on Turn 14753 that (15, 20) is impassable).
@@ -688,7 +687,7 @@
 ### Verified Barriers & Obstacles:
 - **Row 16 Railing/Wall:** Empirically verified to be completely solid and impassable from Column 10 to Column 22 on B4F.
 - **Column 23 Wall:** Column 23 has a walkable horizontal gap on Row 16, allowing passage between the western and eastern chambers on B4F.
-- **Stairs UP to B3F (Western Room):** Located at B4F (19, 10). Takes the player back UP to B3F (19, 18) (verified on Turn 15679).
+- **Stairs UP to B3F (Western Room):** Located at B4F (19, 15). Takes the player back UP to B3F (19, 18) (verified on Turn 17462).
 - **Stairs UP to B3F (Eastern Room):** Located at B4F (21, 24). Takes the player back UP to B3F (21, 22) (verified on Turn 17035).
 - **Elevator**: Located in the eastern chamber. The western stairs land at B4F (19, 10). While the Column 23 wall is solid on most rows, Row 16 is completely walkable, allowing the player to walk on foot from the western stairs to the eastern chamber and the Lift Key gate. The Lift Key is obtained on B4F at (10, 2) on Turn 15797.
 - **Walkable Areas:**
