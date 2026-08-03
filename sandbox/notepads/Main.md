@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 32761)
-- Location: Cerulean City (19, 29)
-- Active Protocol: East along Row 29 to Col 36 -> North along Col 36 to Route 9 Entrance at (38, 16).
+## CURRENT STATUS & DASHBOARD (Turn 32765)
+- Location: Cerulean City (36, 29)
+- Active Protocol: North along Col 36 to Row 16 -> East to Route 9 Entrance at (38, 16).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
