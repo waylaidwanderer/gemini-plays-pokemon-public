@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 32953)
-- Location: Rock Tunnel 1F (9, 18)
-- Active Protocol: B to clear text, then Down 5 along Col 9 to (9, 23) toward Route 10 South exit.
+## CURRENT STATUS & DASHBOARD (Turn 32955)
+- Location: Rock Tunnel 1F (9, 21)
+- Active Protocol: Escaping Onix battle and continuing Right 6 along Row 21 to (15, 21).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -166,7 +166,8 @@
 - B1F Main Ladder: (37, 3) (accessed via East corridor: 15,3 -> East to Col 20 -> South to Row 11 -> East to Col 37 -> North to 37,3).
 - B1F Secondary Ladder / Exit Arrival: (5, 3) (in western sector of 1F).
 - Row 16 Barrier: Horizontal rock wall at Row 16 (Cols 1-7). Row 10-15 (Cols 6-7) forms a vertical rock wall pillar.
-- Route 10 South Exit Highway: Continuous open corridor along Col 9 / Col 10 running South from Row 8 through Row 18+ to Route 10 South exit.
+- Row 22-23 Barrier: Horizontal rock wall across Cols 5-14 on Rows 22-23.
+- Route 10 South Exit Highway: From (9, 21) -> Right 6 to (15, 21) -> South to Route 10 South exit.
 
 <hr>
 

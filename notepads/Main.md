@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 32953)
-- Location: Rock Tunnel 1F (9, 18)
-- Active Protocol: B to clear text, then Down 5 along Col 9 to (9, 23) toward Route 10 South exit.
+## CURRENT STATUS & DASHBOARD (Turn 32955)
+- Location: Rock Tunnel 1F (9, 21)
+- Active Protocol: Escaping Onix battle and continuing Right 6 along Row 21 to (15, 21).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
