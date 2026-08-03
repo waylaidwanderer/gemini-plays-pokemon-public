@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 32745)
-- Location: Cerulean City (11, 26)
-- Active Protocol: Bypass signpost at (11, 25) via Col 9 grass corridor to Row 16 -> Col 12 canal bridge.
+## CURRENT STATUS & DASHBOARD (Turn 32747)
+- Location: Cerulean City (12, 26)
+- Active Protocol: Down 1 to (12, 27) -> Left along Row 27 to West border (x=0).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
