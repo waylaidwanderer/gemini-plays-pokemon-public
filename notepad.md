@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 33206)
+## CURRENT STATUS & DASHBOARD (Turn 33207)
 - Location: Rock Tunnel B1F (12, 24)
-- Active Protocol: Ascend Col 12 North 15 steps to Row 9 Upper Northern Passage at (12, 9).
+- Active Protocol: Walk Right 14 steps along Row 24 to (26, 24), Down 3 to Row 27, and East to 1F Secondary Ladder at (37, 17).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
