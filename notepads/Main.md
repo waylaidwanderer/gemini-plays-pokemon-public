@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 32161)
-- Location: Route 8 (10, 15)
-- Active Protocol: At (10, 15) on Route 8; walking Right along Row 15 to Col 29 gap at (29, 13) to ascend to Upper Highway and reach Underground Path building at (14, 10).
+## CURRENT STATUS & DASHBOARD (Turn 32165)
+- Location: Route 8 (20, 11)
+- Active Protocol: At (20, 11) on Route 8; ascending via Col 20 to Row 7 Upper Highway at (23, 7), then walking West along Row 7 to enter Underground Path building doorway at (14, 10).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
