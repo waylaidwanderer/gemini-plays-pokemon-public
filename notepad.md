@@ -1,6 +1,6 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 33097)
+## CURRENT STATUS & DASHBOARD (Turn 33100)
 - Location: Rock Tunnel B1F (33, 21)
 - Active Protocol: Clear battle victory text and descend Col 33 South 10 steps to Row 31 South Corridor.
 
