@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 32338)
-- Location: Cerulean City Overworld (17, 28)
-- Active Protocol: At (17, 28); walking Right 2 to (19, 28) Cut tree, using Cut, then Down 4 to (19, 32) Route 5 entrance.
+## CURRENT STATUS & DASHBOARD (Turn 32351)
+- Location: Route 5 Entrance Boundary (19, 32)
+- Active Protocol: At (19, 32) facing South; stepping Down 1 to enter Route 5, then navigating to Route 5 Underground Path Building.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
