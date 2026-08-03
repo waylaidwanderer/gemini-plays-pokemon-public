@@ -627,6 +627,8 @@
   Down 8 to (11, 14) -> Right 3 to (14, 14) -> Up 8 to (14, 6) -> Right 1 to (15, 6) -> Up 4 to Route 10 Exit!
 - Verified Eastern Exit Bypass: Row 8-9 rock wall blocks Cols 14-19. Column 20 is open from Row 10 North to Row 3!
 - Master Route from (15, 10) to Exit (15, 2): Right 5 to (20, 10) -> Up 7 to (20, 3) -> Left 5 to (15, 3) -> Up 1 to Route 10 Exit!
+- Verified Master Route 15 Bypass (Turn 34405): Row 15 is open from Col 14 to Col 22. Column 20 is open from Row 15 North to Row 3 Exit Warp!
+- Complete Exit Path from (17, 10): Down 5 to (17, 15) -> Right 3 to (20, 15) -> Up 12 to (20, 3) -> Left 5 to (15, 3) -> Up 1 to Route 10 Exit!
 
 <hr>
 
