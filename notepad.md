@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 32949)
-- Location: Rock Tunnel 1F (9, 8)
-- Active Protocol: Walk Down 5 steps along Col 9 to (9, 13) in Southbound Exit Corridor.
+## CURRENT STATUS & DASHBOARD (Turn 32950)
+- Location: Rock Tunnel 1F (9, 13)
+- Active Protocol: Walk Down 5 steps along Col 9 to (9, 18) in Southbound Exit Corridor.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -592,7 +592,7 @@
 - B1F Main Ladder: (37, 3) (accessed via East corridor: 15,3 -> East to Col 20 -> South to Row 11 -> East to Col 37 -> North to 37,3).
 - B1F Secondary Ladder / Exit Arrival: (5, 3) (in western sector of 1F).
 - Row 16 Barrier: Horizontal rock wall at Row 16 (Cols 1-7). Row 10-15 (Cols 6-7) forms a vertical rock wall pillar.
-- Route 10 South Exit Highway: From (5, 15) -> Up 7 to (5, 8) -> Right 4 to (9, 8) -> South along Col 9 to Route 10 South exit.
+- Route 10 South Exit Highway: Continuous open corridor along Col 9 / Col 10 running South from Row 8 through Row 18+ to Route 10 South exit.
 
 <hr>
 
