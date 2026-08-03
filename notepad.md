@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 32224)
-- Location: Route 8 (10, 12)
-- Active Protocol: At (10, 12) on Route 8; probing Up to (10, 10) and Right to building doorway at (14, 10), or traversing Row 12 East to Col 20 passage to reach Upper Highway and building doorway.
+## CURRENT STATUS & DASHBOARD (Turn 32227)
+- Location: Route 8 (20, 12)
+- Active Protocol: At (20, 12) on Route 8; walking Left 10 along Row 12 green grass to (10, 12), testing Up 2 to Row 10 pavement at (10, 10) -> Right 4 into building doorway at (14, 10), or executing Row 9 Upper Highway bypass.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
