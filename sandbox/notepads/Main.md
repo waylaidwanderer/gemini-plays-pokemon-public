@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 32740)
-- Location: Cerulean City (36, 21)
-- Active Protocol: Walk Down 8 steps along Col 36 to Row 29 highway at (36, 29) -> Left 17 to (19, 29).
+## CURRENT STATUS & DASHBOARD (Turn 32745)
+- Location: Cerulean City (11, 26)
+- Active Protocol: Bypass signpost at (11, 25) via Col 9 grass corridor to Row 16 -> Col 12 canal bridge.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
