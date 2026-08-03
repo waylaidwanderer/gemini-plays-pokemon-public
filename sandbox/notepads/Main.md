@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 33197)
-- Location: Rock Tunnel B1F (32, 16)
-- Active Protocol: Walk Right 1 to (33, 16) and Up 4 to test Column 33 North Ascent Bypass to Row 12 (33, 12).
+## CURRENT STATUS & DASHBOARD (Turn 33198)
+- Location: Rock Tunnel B1F (33, 16)
+- Active Protocol: Row 15 wall confirmed solid at Col 33. Descending Col 33 South 15 steps to South Corridor (33, 31).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
