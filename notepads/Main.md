@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 33031)
-- Location: Rock Tunnel 1F (23, 3)
-- Active Protocol: Return West along Row 3/4 to ladder at (5, 3) to re-enter B1F and reach Eastern Cavern / Route 10 South exit.
+## CURRENT STATUS & DASHBOARD (Turn 33048)
+- Location: Rock Tunnel 1F (11, 16)
+- Active Protocol: Ascend Col 11 to Row 3 at (11, 3), then West to ladder at (5, 3) to enter B1F.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
