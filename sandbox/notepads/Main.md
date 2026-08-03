@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 32731)
-- Location: Cerulean City (19, 27)
-- Active Protocol: Execute Cut on tree at (19, 28) via SPROUT -> CUT in Party Menu -> Walk South through Cut Tree to Row 29 highway.
+## CURRENT STATUS & DASHBOARD (Turn 32737)
+- Location: Cerulean City (29, 29)
+- Active Protocol: Navigate East along Row 29 highway to Col 39 -> North along Col 39 to Route 9 entrance.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
