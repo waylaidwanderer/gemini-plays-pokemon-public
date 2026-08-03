@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 32320)
+## CURRENT STATUS & DASHBOARD (Turn 32323)
 - Location: Route 8 Underground Path Building Interior (3, 12)
-- Active Protocol: At (3, 12) facing North; stepping Up 1 into stairwell hole at (3, 11) to enter Underground Path Tunnel.
+- Active Protocol: At (3, 12) facing North towards (3, 11); testing pressing A on stairwell object at (3, 11).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
