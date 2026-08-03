@@ -612,5 +612,6 @@
 - Upper Northern Passage (Cols 34-37): Open northbound passage connecting Row 12 through (35, 8) North to Row 4/5 Upper Exit Chamber (Cols 31-37).
 - Upper Exit Cavern & 1F Exit Ladder: Ladder to 1F is located at (27, 3)!
 - Col 24 South Wall: Row 31 is blocked at Col 24 by a rock wall. Row 27 is an open East-West corridor connecting East Sector (Col 26-29) to West Sector (Col 16-25)!
+- West Passage (Col 9): Open northbound passage connecting Row 24/27 Western Cavern through Row 22/23 rock wall (at Col 9) to Row 16 Highway!
 
 <hr>
