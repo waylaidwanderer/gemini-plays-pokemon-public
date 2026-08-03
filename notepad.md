@@ -166,8 +166,8 @@
 - B1F Main Ladder: (37, 3) (accessed via East corridor: 15,3 -> East to Col 20 -> South to Row 11 -> East to Col 37 -> North to 37,3).
 - B1F Secondary Ladder / Exit Arrival: (5, 3) (in western sector of 1F).
 - Row 16 & Row 22-23 Barriers: Solid rock walls in western sector.
-- Col 17 Northbound Highway: Open northbound passage at Col 17 from Row 20 through (17, 13) to Row 13 Northern Highway.
-- Master Route to Route 10 South Exit: From (17, 20) -> Up 7 to (17, 13) -> East along Row 13 to Main Cavern (Cols 28-37) -> South down Col 37 to Row 27/33 -> West to Route 10 South exit.
+- EMPIRICAL PROBE RESULT (Turn 32969): Row 15 at Col 17 is a solid rock wall blocking Northbound movement from (17, 16).
+- Room (Cols 13-21, Rows 16-21): Large open cavern bounded North by Row 15 rock wall, South by Row 22-23 rock wall, East by Col 22 rock wall.
 
 <hr>
 
