@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 32284)
-- Location: Route 8 Underground Path Building Interior (4, 13)
-- Active Protocol: At (4, 13); walking Up 2 to (4, 11), Left 1 to (3, 11), Up 1 into stairs at (3, 10) to enter Underground Path Tunnel.
+## CURRENT STATUS & DASHBOARD (Turn 32291)
+- Location: Route 8 Underground Path Building Interior (4, 8)
+- Active Protocol: At (4, 8); walking Left 3 to (1, 8), Up 4 along Col 1 to (1, 4), Right 2 into stairs at (3, 4) to enter Underground Path Tunnel.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
