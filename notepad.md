@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 34111)
-- Location: Rock Tunnel B1F (14, 17) - West Sector Corridor
-- Active Protocol: Walk Down 6 along Col 14 to Row 23 (14, 23) -> Row 26/31 East bypass to East Sector!
+## CURRENT STATUS & DASHBOARD (Turn 34113)
+- Location: Rock Tunnel B1F (14, 21) - West Sector
+- Active Protocol: Walk Left 4 to Col 10 (10, 21) -> Down 5 to Row 26 (10, 26) -> East bypass to East Sector & Exit Ladder (27, 3)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
