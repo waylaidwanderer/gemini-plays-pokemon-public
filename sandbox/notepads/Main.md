@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 33151)
-- Location: Rock Tunnel B1F (9, 24)
-- Active Protocol: Finish off wild Geodude L17, clear victory text, and ascend Col 9 North 8 steps to Row 16 Highway at (9, 16).
+## CURRENT STATUS & DASHBOARD (Turn 33153)
+- Location: Rock Tunnel B1F (9, 25)
+- Active Protocol: Ascend Col 9 North 9 steps to Row 16 Highway at (9, 16).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
