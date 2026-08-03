@@ -179,6 +179,7 @@
 - Row 16 Highway: Open East-West corridor across Cols 20-33 on Row 16.
 - North Ascent Bypass (Cols 32-35): VERIFIED OPEN NORTHBOUND PASSAGE connecting Row 16 at (33, 16) North through Rows 14-15 to (33, 12).
 - Upper Northern Passage (Cols 34-37): Open northbound passage connecting Row 12 through (35, 8) North to Row 4/5 Upper Exit Chamber (Cols 31-37).
+- Upper Exit Cavern: Rows 2-5 open highway running West from Col 37 toward 1F exit ladder.
 
 <hr>
 
@@ -602,6 +603,6 @@
 - Row 16 Highway: Open East-West corridor across Cols 20-33 on Row 16.
 - North Ascent Bypass (Cols 32-35): VERIFIED OPEN NORTHBOUND PASSAGE connecting Row 16 at (33, 16) North through Rows 14-15 to (33, 12).
 - Upper Northern Passage (Cols 34-37): Open northbound passage connecting Row 12 through (35, 8) North to Row 4/5 Upper Exit Chamber (Cols 31-37).
-- Upper Exit Cavern: Rows 2-5 open highway running West from Col 37 toward 1F exit ladder.
+- Upper Exit Cavern & 1F Exit Ladder: Ladder to 1F is located at (27, 3)!
 
 <hr>
