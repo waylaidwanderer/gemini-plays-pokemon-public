@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 32363)
-- Location: Route 5 (9, 17)
-- Active Protocol: At (9, 17) on Route 5; walking Right 1 to (10, 17), Down 4 into building doorway at (10, 21) to enter Route 5 Underground Path.
+## CURRENT STATUS & DASHBOARD (Turn 32399)
+- Location: Route 5 Underground Path Gatehouse (4, 7)
+- Active Protocol: Exiting Gatehouse to Route 5 (17, 27) -> Walk North along East Corridor to Cerulean City -> Lavender Town -> Route 8 Underground Path -> Route 7 -> Celadon City.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
