@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 34421)
-- Location: Rock Tunnel 1F (14, 10) - Main Cavern
-- Active Protocol: Down 4 to (14, 14) -> Left 3 to (11, 14) -> Up 11 to (11, 3) -> Right 4 to (15, 3) -> Up 1 to Route 10 Exit!
+## CURRENT STATUS & DASHBOARD (Turn 34424)
+- Location: Rock Tunnel 1F (14, 13) - Main Cavern
+- Active Protocol: Down 1 to (14, 14) -> Left 3 to (11, 14) -> Up 11 to (11, 3) -> Right 4 to (15, 3) -> Up 1 to Route 10 Exit!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
