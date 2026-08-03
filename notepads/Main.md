@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 32570)
-- Location: Cerulean Gym (4, 13)
-- Active Protocol: Exit Cerulean Gym via South door at (4, 14) -> Step Down onto Cerulean City (30, 20) -> Route 9.
+## CURRENT STATUS & DASHBOARD (Turn 32581)
+- Location: Cerulean City (34, 20)
+- Active Protocol: Execute single-step directional probes West toward Col 17 slope -> Ascend to North Cerulean -> Burglarized House (28, 12) / Route 9.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
