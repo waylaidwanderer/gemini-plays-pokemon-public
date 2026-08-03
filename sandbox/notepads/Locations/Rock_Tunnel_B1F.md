@@ -24,3 +24,5 @@
   2. Walk Left 15 steps along Row 30/31 passage into West Sector at (14, 30).
   3. Walk Up through Col 14 to Row 26 -> East along Row 26 to Col 25 -> North along Col 25 to Row 16 Highway!
   4. Walk East along Row 16 Highway to Col 33 -> North through North Ascent Bypass to Row 12 -> Upper Northern Passage to Row 4 Chamber -> Exit Ladder at (27, 3)!
+- Column 24-25 Wall: Columns 24 and 25 are solid rock wall from Row 2 down to Row 10 separating Middle Chamber (Cols 19-23) from Exit Chamber (Cols 26-28).
+- Column 19 Southbound Passage: Column 19 is open through Rows 8-9 down to Row 11.
