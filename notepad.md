@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
 ## CURRENT STATUS & DASHBOARD (Turn 32878)
-- Location: Rock Tunnel B1F (28, 29)
-- Active Protocol: Down 2 to (28, 31), Left 3 to (25, 31) in South Cavern.
+- Location: Rock Tunnel B1F (25, 31)
+- Active Protocol: Left 5 to (20, 31) in Southern Cavern.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -172,7 +172,9 @@
 
 ## Rock Tunnel B1F Topography & Coordinates
 - 1F Main Ladder Arrival: (33, 25)
-- Cavern Floor: Open floor across Rows 22-29, Cols 29-37.
+- Arrival Cavern: Open floor across Rows 22-29, Cols 28-37.
+- Central Barrier: Cols 26-27 vertical rock wall (Rows 21-29).
+- South Passage Opening: Row 30+ opens up into wide southern cavern across Cols 24-33+ (under Col 26-27 rock wall barrier).
 
 <hr>
 
@@ -591,6 +593,6 @@
 - 1F Main Ladder Arrival: (33, 25)
 - Arrival Cavern: Open floor across Rows 22-29, Cols 28-37.
 - Central Barrier: Cols 26-27 vertical rock wall (Rows 21-29).
-- South Passage Opening: Row 30+ opens up into wide southern cavern across Cols 24-33+ (under Col 26-27 rock wall barrier).
+- South Corridor: Rows 30-33 open highway running East-West from Col 33+ West through Col 21+. Bounded South by Row 34 rock wall.
 
 <hr>
