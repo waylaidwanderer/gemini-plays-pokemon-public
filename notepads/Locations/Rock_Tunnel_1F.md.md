@@ -9,7 +9,6 @@
 - Secondary Ladder Alcove (Cols 2-5, Rows 0-4): Enclosed dead-end alcove in 1F Western Sector. Ladder at (3, 3) connects to B1F (37, 17).
 
 ### Verified Master Exit Route from Secondary Ladder (5, 3) / (3, 3) to Route 10 South Exit (37, 11):
-1. From Secondary Ladder Alcove (3, 3) / (5, 3): Walk Down to Row 21, then East along Row 21 to Column 24 at (24, 21).
-2. Walk Down 3 steps through Column 24 gap (24, 22/23) onto Row 24 Highway at (24, 24).
-3. Walk East 13 steps along Row 24 Highway to Eastern Sector at (37, 24).
-4. Walk Up 13 steps along Column 37 to Route 10 South Exit Door at (37, 11)!
+1. From Secondary Ladder Alcove (3, 3) / (5, 3) or Western Sector (8, 7): Walk Up to Row 3 Highway at (8, 3) / (3, 3).
+2. Walk East along Row 3 Highway from (3, 3) / (8, 3) past North Entrance (15, 3) to Column 37 at (37, 3).
+3. Walk Down 8 steps along Column 37 to Route 10 South Exit Door at (37, 11)!
