@@ -486,7 +486,7 @@
 - EMPIRICAL MAP BOUNDARY PROOF (Turn 28783): Column 60 on Route 8 is the eastern map transition boundary that warps player back to Lavender Town at (0, 9). Playable Route 8 grid spans Columns 0 to 59.
 ### Master Verified Gatehouse Doorway Entrance (Turn 29060)
 - Western Gatehouse Map (39, 16) connects West to Gatehouse Sector.
-- Gatehouse Building Doorway is located at (30, 19).
+
 - Master Entry Route from (32, 20): Down 1 to (32, 21) -> Left 2 to (30, 21) -> Up 2 into building doorway at (30, 19)!
 - EMPIRICAL ASCENT GAP DISCOVERY (Turn 32143): Column 29 at (29, 13) is a VERIFIED TWO-WAY ASCENT GAP connecting Row 14/15 Green Grass directly UP through (29, 12)/(29, 11)/(29, 10) to Row 9 Upper Highway Pavement at (29, 9)!
 - EMPIRICAL ASCENT GAP DISCOVERY (Turn 32165): Column 20 at (20, 11) is a VERIFIED TWO-WAY ASCENT PASSAGE connecting Row 12 Green Grass directly UP through (20, 10), (20, 9), (20, 8), (20, 7) to Row 7 Upper Highway Pavement!
