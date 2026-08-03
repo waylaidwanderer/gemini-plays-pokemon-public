@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 33171)
+## CURRENT STATUS & DASHBOARD (Turn 33172)
 - Location: Rock Tunnel B1F (29, 22)
-- Active Protocol: Run from wild Machop, descend Down 5 to Row 27 (29, 27), and Right 4 to East Sector (33, 27).
+- Active Protocol: Complete Skull Bash to defeat wild Machop L17, clear victory text, descend Down 5 to Row 27 (29, 27), and Right 4 to East Sector (33, 27).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
