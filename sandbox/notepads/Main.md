@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 32950)
-- Location: Rock Tunnel 1F (9, 13)
-- Active Protocol: Walk Down 5 steps along Col 9 to (9, 18) in Southbound Exit Corridor.
+## CURRENT STATUS & DASHBOARD (Turn 32951)
+- Location: Rock Tunnel 1F (9, 18)
+- Active Protocol: Escaping Machop battle and continuing South to Route 10 exit.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
