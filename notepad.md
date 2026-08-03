@@ -700,6 +700,7 @@
   - B3F Column 19 is blocked by solid wall blocks from Row 10 to Row 14 (verified on Turn 16952).
   - B3F Column 18 is blocked by solid wall blocks from Row 10 to Row 14 (verified on Turn 16952).
   - B3F Column 8 is blocked by a solid vertical wall on Row 5-7 (verified on Turn 16958).
+  - B3F Column 9 has a solid vertical wall at Row 20-21 (verified on Turn 17019).
 
 <hr>
 
