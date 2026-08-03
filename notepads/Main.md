@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 32234)
-- Location: Route 8 (20, 11)
-- Active Protocol: At (20, 11) on Route 8; walking Down 1 to (20, 12), Left 10 along Row 12 green grass to (10, 12), then Down 2 (hopping Col 10 ledge at 10,13) to Row 14 pavement at (10, 14).
+## CURRENT STATUS & DASHBOARD (Turn 32252)
+- Location: Route 8 (23, 6)
+- Active Protocol: At (23, 6) on Route 8; testing Column 25 pass at (25, 5) to reach Row 4/3 Northern Highway.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
