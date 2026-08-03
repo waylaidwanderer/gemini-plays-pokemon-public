@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 33619)
-- Location: Rock Tunnel B1F (15, 25) - Western Sector
-- Active Protocol: Walk North along Column 15 highway in West Sector from (15, 25) toward Row 20/16 -> navigate North Corridor to Row 4 Chamber -> Exit Ladder at (27, 3).
+## CURRENT STATUS & DASHBOARD (Turn 33622)
+- Location: Rock Tunnel B1F (15, 24) - Western Sector
+- Active Protocol: Probe West along Row 24 from (15, 24) toward Col 11/6/3 to locate the open northbound gap through Rows 22-23 wall -> Exit Ladder at (27, 3).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
