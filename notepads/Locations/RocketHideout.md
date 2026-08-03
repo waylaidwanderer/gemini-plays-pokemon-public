@@ -99,3 +99,4 @@
   - B3F Column 21 is a solid vertical grey wall from Row 6 to Row 13 (verified on Turn 16950).
   - B3F Column 19 is blocked by solid wall blocks from Row 10 to Row 14 (verified on Turn 16952).
   - B3F Column 18 is blocked by solid wall blocks from Row 10 to Row 14 (verified on Turn 16952).
+  - B3F Column 8 is blocked by a solid vertical wall on Row 5-7 (verified on Turn 16958).
