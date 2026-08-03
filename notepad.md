@@ -180,6 +180,8 @@
 - Row 14 East-West Bypass: Row 14 (Cols 11-14) is the open floor corridor bypassing the central rock wall.
 - Master Route from (11, 6) to Exit (15, 3):
   Down 8 to (11, 14) -> Right 3 to (14, 14) -> Up 8 to (14, 6) -> Right 1 to (15, 6) -> Up 4 to Route 10 Exit!
+- Verified Eastern Exit Bypass: Row 8-9 rock wall blocks Cols 14-19. Column 20 is open from Row 10 North to Row 3!
+- Master Route from (15, 10) to Exit (15, 2): Right 5 to (20, 10) -> Up 7 to (20, 3) -> Left 5 to (15, 3) -> Up 1 to Route 10 Exit!
 
 <hr>
 
