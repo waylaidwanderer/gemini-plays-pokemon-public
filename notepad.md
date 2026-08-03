@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 32581)
-- Location: Cerulean City (34, 20)
-- Active Protocol: Execute single-step directional probes West toward Col 17 slope -> Ascend to North Cerulean -> Burglarized House (28, 12) / Route 9.
+## CURRENT STATUS & DASHBOARD (Turn 32611)
+- Location: Cerulean City (24, 20)
+- Active Protocol: Execute single-step directional probes West along Row 20 to Col 17 slope -> Ascend Col 17 slope to Row 16 / Row 13 highway -> Route 9.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
