@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 34348)
-- Location: Rock Tunnel 1F (14, 16) - Eastern Corridor
-- Active Protocol: Exit Rock Tunnel: Navigate North along Col 14 from (14, 16) to Route 10 Exit at (15, 3).
+## CURRENT STATUS & DASHBOARD (Turn 34351)
+- Location: Rock Tunnel 1F (14, 14) - Eastern Corridor
+- Active Protocol: Exit Rock Tunnel: Escape Geodude battle -> Down 2 to (14, 16) -> East along Row 16 to Col 20 -> North along Col 20 to Row 3 -> West along Row 3 to (15, 3) Exit!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
