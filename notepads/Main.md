@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 33571)
-- Location: Rock Tunnel 1F (28, 13)
-- Active Protocol: Test Eastbound passage along Row 13 to Column 37/40 to locate the verified southbound corridor connecting to lower cavern and South Exit at (15, 33).
+## CURRENT STATUS & DASHBOARD (Turn 33581)
+- Location: Rock Tunnel B1F (33, 25)
+- Active Protocol: Execute B1F Master Route to Exit Ladder (27, 3) -> Up 9 to (33, 16) -> Up 4 to (33, 12) -> Right 2 to (35, 12) -> Up 8 to (35, 4) -> Left 8, Up 1 to Ladder (27, 3).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
