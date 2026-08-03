@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 32765)
-- Location: Cerulean City (36, 29)
-- Active Protocol: North along Col 36 to Row 16 -> East to Route 9 Entrance at (38, 16).
+## CURRENT STATUS & DASHBOARD (Turn 32769)
+- Location: Cerulean City / Route 9 Border (39, 16)
+- Active Protocol: Step Right to enter Route 9 -> East along Route 9 Row 11/12 to Cut Tree at (5, 8).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
