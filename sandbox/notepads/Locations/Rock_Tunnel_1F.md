@@ -16,4 +16,4 @@
 - Central Wall: Columns 12 and 13 are solid rock wall from Row 6 down to Row 13.
 - Row 14 East-West Corridor: Row 14 (Cols 11-17) is an open floor corridor connecting West and East sectors.
 - Rock Wall Barrier at Row 15: Tile (17, 15) and Rows 14-15 across Columns 18-22 are solid rock walls.
-- Southern Open Cavern: Rows 18-20 across Columns 13-25 form the main open cavern connecting East to the exit passage.
+- Southern Cavern: Rows 18-20 across Columns 13-21 form a dead-end cavern bounded East by Col 22 rock wall.
