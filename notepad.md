@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 34409)
-- Location: Rock Tunnel 1F (17, 11) - Main Cavern
-- Active Protocol: Down 7 to (17, 18) -> Right 8 to (25, 18) through Southern Cavern to locate North passage!
+## CURRENT STATUS & DASHBOARD (Turn 34411)
+- Location: Rock Tunnel 1F (17, 14) - Row 14 Corridor
+- Active Protocol: Left 3 to (14, 14) -> Down 4 to (14, 18) -> Right 8 to (22, 18)
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
