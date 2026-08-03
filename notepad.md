@@ -624,13 +624,9 @@
 - Complete Path from Western Sector (3, 6):
   Right 12 steps along Row 6 to (15, 6) -> Up 4 steps through (15, 5), (15, 4), (15, 3) to Route 10 Exit!
 - Central Wall: Columns 12 and 13 are solid rock wall from Row 6 down to Row 13.
-- Row 14 East-West Bypass: Row 14 (Cols 11-14) is the open floor corridor bypassing the central rock wall.
-- Master Route from (11, 6) to Exit (15, 3):
-  Down 8 to (11, 14) -> Right 3 to (14, 14) -> Up 8 to (14, 6) -> Right 1 to (15, 6) -> Up 4 to Route 10 Exit!
-- Verified Eastern Exit Bypass: Row 8-9 rock wall blocks Cols 14-19. Column 20 is open from Row 10 North to Row 3!
-- Master Route from (15, 10) to Exit (15, 2): Right 5 to (20, 10) -> Up 7 to (20, 3) -> Left 5 to (15, 3) -> Up 1 to Route 10 Exit!
-- Verified Master Route 15 Bypass (Turn 34405): Row 15 is open from Col 14 to Col 22. Column 20 is open from Row 15 North to Row 3 Exit Warp!
-- Complete Exit Path from (17, 10): Down 5 to (17, 15) -> Right 3 to (20, 15) -> Up 12 to (20, 3) -> Left 5 to (15, 3) -> Up 1 to Route 10 Exit!
+- Row 14 East-West Corridor: Row 14 (Cols 11-17) is an open floor corridor connecting West and East sectors.
+- Rock Wall Barrier at Row 15: Tile (17, 15) and Rows 14-15 across Columns 18-22 are solid rock walls.
+- Southern Open Cavern: Rows 18-20 across Columns 13-25 form the main open cavern connecting East to the exit passage.
 
 <hr>
 
