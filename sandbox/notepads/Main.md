@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 32165)
-- Location: Route 8 (20, 11)
-- Active Protocol: At (20, 11) on Route 8; ascending via Col 20 to Row 7 Upper Highway at (23, 7), then walking West along Row 7 to enter Underground Path building doorway at (14, 10).
+## CURRENT STATUS & DASHBOARD (Turn 32166)
+- Location: Route 8 (20, 14)
+- Active Protocol: At (20, 14) on Route 8; walking Right 5 to Col 25 pavement corridor at (25, 14), Down 5 to Row 19 pavement at (25, 19), then Right 5 to enter Gatehouse doorway at (30, 19).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
