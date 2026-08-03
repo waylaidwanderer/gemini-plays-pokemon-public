@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 32960)
-- Location: Rock Tunnel 1F (18, 21)
-- Active Protocol: Right 3 to (21, 21), Up 4 to (21, 17) returning to Main Eastern Cavern.
+## CURRENT STATUS & DASHBOARD (Turn 32961)
+- Location: Rock Tunnel 1F (21, 17)
+- Active Protocol: Down 3 to (21, 20), Left 4 to (17, 20) to reach Col 17 Northbound Highway.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
