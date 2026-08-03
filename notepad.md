@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 32737)
-- Location: Cerulean City (29, 29)
-- Active Protocol: Navigate East along Row 29 highway to Col 39 -> North along Col 39 to Route 9 entrance.
+## CURRENT STATUS & DASHBOARD (Turn 32740)
+- Location: Cerulean City (36, 21)
+- Active Protocol: Walk Down 8 steps along Col 36 to Row 29 highway at (36, 29) -> Left 17 to (19, 29).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
