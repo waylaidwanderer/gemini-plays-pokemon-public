@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 33361)
-- Location: Rock Tunnel B1F (19, 27)
-- Active Protocol: Walk East along Row 27 to Col 33 -> North along Col 33 to Row 12 -> North to Exit Ladder at (27, 3).
+## CURRENT STATUS & DASHBOARD (Turn 33365)
+- Location: Rock Tunnel B1F (30, 28)
+- Active Protocol: Run from Zubat -> walk East along Row 28 to Col 37 -> North along Col 37 to Row 16 -> East to Col 41 -> North to Exit Ladder at (27, 3).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
