@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 33931)
-- Location: Rock Tunnel 1F (8, 7)
-- Active Protocol: Escaping wild battle -> Up 4 along Col 8 to Row 3 (8, 3) -> East 29 along Row 3 to East Sector (37, 3) -> South 8 along Col 37 to Exit Door (37, 11) -> Route 10 South.
+## CURRENT STATUS & DASHBOARD (Turn 33961)
+- Location: Rock Tunnel 1F (23, 7)
+- Active Protocol: Walk Left to Col 19 at (19, 7) -> Down to Row 11 at (19, 11) -> East to Ladder at (23, 11) -> take ladder to B1F -> navigate B1F to Ladder at (27, 3) -> exit onto Route 10 South at (37, 11).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
