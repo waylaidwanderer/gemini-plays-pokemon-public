@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 33451)
-- Location: Rock Tunnel B1F (22, 25)
-- Active Protocol: Traverse Row 25 passage West to unexplored Far West B1F (Cols 0-11) -> Ascend North to find Exit Ladder.
+## CURRENT STATUS & DASHBOARD (Turn 33457)
+- Location: Rock Tunnel B1F (2, 24)
+- Active Protocol: Return to B1F (37, 17) ladder -> Warp to 1F (3, 3) -> Navigate 1F Western Sector to Route 10 South Exit.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
