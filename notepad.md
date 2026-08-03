@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 33100)
-- Location: Rock Tunnel B1F (33, 21)
-- Active Protocol: Clear battle victory text and descend Col 33 South 10 steps to Row 31 South Corridor.
+## CURRENT STATUS & DASHBOARD (Turn 33102)
+- Location: Rock Tunnel B1F (33, 24)
+- Active Protocol: Defeat Trainer at (33, 25) in Rock Tunnel B1F, then continue South to Row 31 South Corridor.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
