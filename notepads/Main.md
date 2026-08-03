@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 34419)
-- Location: Rock Tunnel 1F (14, 18) - Southern Cavern
-- Active Protocol: Up 4 to (14, 14) -> Up 4 to (14, 10) -> Probe North along Col 14
+## CURRENT STATUS & DASHBOARD (Turn 34420)
+- Location: Rock Tunnel 1F (14, 14) - Main Cavern
+- Active Protocol: Up 4 to (14, 10) -> Up 7 to (14, 3) -> Right 1 to (15, 3) -> Up 1 to Route 10 Exit!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
