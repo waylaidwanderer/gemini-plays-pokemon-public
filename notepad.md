@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 32104)
-- Location: Route 10 South (14, 5)
-- Active Protocol: At (14, 5) on Route 10 South; walking Left 3 to (11, 5), then Down 12 along Col 11 to enter Lavender Town.
+## CURRENT STATUS & DASHBOARD (Turn 32131)
+- Location: Route 8 (28, 15)
+- Active Protocol: At (28, 15) on Route 8; walking Right along Row 15 to (44, 15) to engage and defeat Super Nerd trainer at (45, 15).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
