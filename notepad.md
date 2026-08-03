@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
 ## CURRENT STATUS & DASHBOARD (Turn 32912)
-- Location: Rock Tunnel B1F (7, 31)
-- Active Protocol: Continue Left along Row 31 Bottom Highway to Col 3/2.
+- Location: Rock Tunnel B1F (3, 31)
+- Active Protocol: Walk Right 7 steps to (10, 31) retracing to Col 16/17 passage.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -595,8 +595,8 @@
 - 1F Main Ladder Arrival: (33, 25)
 - Arrival Cavern: Open floor across Rows 22-29, Cols 28-37.
 - Central Barrier: Cols 26-27 vertical rock wall (Rows 21-29).
-- South Corridor (Bottom Highway): Rows 30-33 open highway running East-West across full bottom map (Col 37 West to Col 8+).
-- West Passage (Col 16-17): Inner loop connecting South Corridor to Col 20 dead end.
-- Main Route to 1F Exit Ladder: Follow Bottom Highway (Row 31) ALL THE WAY WEST to Cols 12, 10, 8.
+- South Corridor: Rows 30-33 open highway running East-West (Cols 2-37). Bounded South by Row 34 rock wall.
+- West Passage (Col 16-17): The ONLY Northbound passage connecting South Corridor (Row 31) to Row 27 Western Highway (Cols 2-25).
+- Master Route to Exit Ladder: Take South Corridor to Col 17 -> North through (17, 27) -> Explore Row 27 West/East for Northbound ascent passages.
 
 <hr>
