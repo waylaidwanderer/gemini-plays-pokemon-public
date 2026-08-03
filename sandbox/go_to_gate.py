@@ -16,39 +16,35 @@ def verify_position(expected_coords, wait_time=3.0):
     return pos
 
 try:
-    print("Executing master navigation to Giovanni's Gate via B3F Western Stairs...")
-    print("Initial Position on B4F:", mgba.get_coordinates())
+    print("Executing B3F to B4F Western Room stairs...")
+    print("Initial Position:", mgba.get_coordinates())
     
-    # 1. Walk to B4F stairs at (21, 24)
-    # Current is (19, 17)
-    print("Walking Right to (21, 17)...")
-    move("Right", 2)
-    verify_position((21, 17), wait_time=0.5)
-
-    print("Walking Down 7 steps to warp UP to B3F...")
-    move("Down", 7)
-    # Warps UP to B3F (21, 24)
-    verify_position((21, 24), wait_time=4.0)
-
-    # 2. On B3F, walk from (21, 24) to Western stairs at (19, 18)
-    print("On B3F, walking Down 1 step to (21, 25)...")
-    move("Down", 1)
+    # 1. Walk Down 3 to (21, 25)
+    print("Walking Down 3 steps to (21, 25)...")
+    move("Down", 3)
     verify_position((21, 25), wait_time=0.5)
 
-    print("Walking Left 7 steps to (14, 25)...")
-    move("Left", 7)
-    verify_position((14, 25), wait_time=0.5)
+    # 2. Walk Left 5 to (16, 25)
+    print("Walking Left 5 steps to (16, 25)...")
+    move("Left", 5)
+    verify_position((16, 25), wait_time=0.5)
 
-    print("Walking Up 7 steps to (14, 18)...")
-    move("Up", 7)
-    verify_position((14, 18), wait_time=0.5)
+    # 3. Walk Up 12 to (16, 13)
+    print("Walking Up 12 steps to (16, 13)...")
+    move("Up", 12)
+    verify_position((16, 13), wait_time=0.5)
 
-    print("Walking Right 5 steps to Western stairs at (19, 18) -> warp to B4F...")
-    move("Right", 5)
-    # Warps DOWN to B4F (19, 10)
+    # 4. Walk Right 3 to (19, 13)
+    print("Walking Right 3 steps to (19, 13)...")
+    move("Right", 3)
+    verify_position((19, 13), wait_time=0.5)
+
+    # 5. Walk Down 5 steps onto stairs at (19, 18) -> warp to B4F (19, 10)
+    print("Walking Down 5 steps onto (19, 18) stairs...")
+    move("Down", 5)
     verify_position((19, 10), wait_time=4.0)
 
-    # 3. On B4F, walk to Giovanni's Gate at (25, 7)
+    # 6. On B4F, walk to Giovanni's Gate at (25, 7)
     print("On B4F, walking Down 6 steps to (19, 16)...")
     move("Down", 6)
     verify_position((19, 16), wait_time=0.5)
@@ -61,7 +57,7 @@ try:
     move("Up", 9)
     verify_position((25, 7), wait_time=0.5)
 
-    # 4. Turn Left to face the gate
+    # 7. Turn Left to face the gate
     print("Turning Left to face the gate...")
     mgba.press_buttons(["Left", "sleep 300"])
     time.sleep(0.4)
@@ -70,5 +66,5 @@ try:
     mgba.take_screenshot()
 
 except Exception as e:
-    print("ERROR OCCURRED:", e)
+    print("ERROR:", e)
     mgba.take_screenshot()
