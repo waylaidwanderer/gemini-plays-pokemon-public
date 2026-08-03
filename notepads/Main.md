@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 32924)
-- Location: Rock Tunnel B1F (20, 16)
-- Active Protocol: Walk Right 5 steps along Row 16 to (25, 16) to explore East corridor.
+## CURRENT STATUS & DASHBOARD (Turn 32925)
+- Location: Rock Tunnel B1F (25, 16)
+- Active Protocol: Walk Right 5 steps along Row 16 to (30, 16) in East Cavern.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge

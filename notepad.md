@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 32924)
-- Location: Rock Tunnel B1F (20, 16)
-- Active Protocol: Walk Right 5 steps along Row 16 to (25, 16) to explore East corridor.
+## CURRENT STATUS & DASHBOARD (Turn 32925)
+- Location: Rock Tunnel B1F (25, 16)
+- Active Protocol: Walk Right 5 steps along Row 16 to (30, 16) in East Cavern.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -176,8 +176,9 @@
 - Central Barrier: Cols 26-27 vertical rock wall (Rows 21-29).
 - South Corridor: Rows 30-33 open highway running East-West (Cols 2-37). Bounded South by Row 34 rock wall.
 - West Passage (Col 16-17): Northbound passage connecting South Corridor (Row 31) to Row 27 Western Highway (Cols 2-25).
-- Row 14-15 Wall Barrier: Rock wall across Cols 20-25 on Rows 14-15.
-- Col 17 Bypass: Open northbound passage at Col 17 through (17, 15/14) connecting Row 17 to Row 13 Northern Highway.
+- Pillar Barrier: Cols 18-19 vertical rock wall (Rows 14-21).
+- Row 14-15 Wall Barrier: Horizontal rock wall across Cols 20-25 (Rows 14-15).
+- Row 16 Corridor: Open East-West corridor across Cols 20-25 on Row 16.
 
 <hr>
 
