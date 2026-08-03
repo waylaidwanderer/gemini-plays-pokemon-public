@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 33502)
-- Location: Rock Tunnel 1F (15, 21)
-- Active Protocol: Walk Down 12 steps along Column 15 to South Exit at (15, 33) -> Exit Rock Tunnel to Route 10 South.
+## CURRENT STATUS & DASHBOARD (Turn 33541)
+- Location: Rock Tunnel 1F (20, 13)
+- Active Protocol: Bypass Row 14-15 wall via Col 17 down to Row 17 -> Right 3 to (20, 17) -> Down along Col 20 through Row 22-23 wall gap to Row 25 -> Left 5 to (15, 25) -> South to Exit at (15, 33).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
