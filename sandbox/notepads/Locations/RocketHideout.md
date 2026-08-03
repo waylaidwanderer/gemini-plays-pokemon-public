@@ -111,3 +111,4 @@
   - B3F Column 18 is blocked by solid wall blocks from Row 10 to Row 14, except at (18, 13) which is completely walkable (verified on Turn 17609).
   - B3F Column 8 is blocked by a solid vertical wall on Row 5-7 (verified on Turn 16958).
   - B3F Column 9 has a solid vertical wall at Row 20-21 (verified on Turn 17019).
+- **Row 24 Boundaries:** Row 24 Column 14 is blocked by a solid green planter, but Column 16 and Column 10 are completely walkable gaps on B3F (verified on Turn 17675).
