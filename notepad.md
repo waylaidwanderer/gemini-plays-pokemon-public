@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 32857)
-- Location: Rock Tunnel 1F (15, 3)
-- Active Protocol: Navigate Rock Tunnel 1F from (15, 3) to First B1F Ladder at (17, 11).
+## CURRENT STATUS & DASHBOARD (Turn 32864)
+- Location: Rock Tunnel 1F (21, 11)
+- Active Protocol: Left 4 along Row 11 to B1F Ladder at (17, 11) -> Warp down to Rock Tunnel B1F.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
