@@ -1,40 +1,47 @@
 import mgba
 import time
 
-def move(buttons):
-    mgba.press_buttons(buttons)
+def move(d, steps=1):
+    for i in range(steps):
+        mgba.press_buttons([d, "sleep 300"])
+        time.sleep(0.4)
+    return mgba.get_coordinates()
+
+def verify_position(expected_coords, wait_time=3.0):
+    time.sleep(wait_time)
     pos = mgba.get_coordinates()
-    print(f"Pressed {buttons}, coordinates: {pos}")
+    print(f"  Coordinates: {pos} (expected: {expected_coords})")
+    if (pos['x'], pos['y']) != expected_coords:
+        raise ValueError(f"COORDINATE DESYNC! Expected {expected_coords}, got {pos}")
     return pos
 
-pos = mgba.get_coordinates()
-print(f"Starting at: {pos}")
+try:
+    print("Opening Giovanni's Gate at B4F...")
+    print("Initial Position:", mgba.get_coordinates())
+    
+    # We are at (25, 15)
+    # 1. Walk Up 8 steps to (25, 7)
+    print("Walking Up 8 steps to (25, 7)...")
+    move("Up", 8)
+    verify_position((25, 7), wait_time=0.5)
 
-# We are at (20, 8)
-# Step 1: Walk Left to Column 19 (1 step Left)
-pos = move(["Left"])
+    # 2. Turn Left to face the gate at (24, 7)
+    print("Facing Left...")
+    mgba.press_buttons(["Left", "sleep 300"])
+    time.sleep(0.4)
 
-# Step 2: Walk Down to Row 14 (6 steps Down)
-print("Walking down Column 19...")
-for _ in range(6):
-    pos = move(["Down"])
+    # 3. Press A to unlock the gate
+    print("Interacting with the gate...")
+    mgba.press_buttons(["A", "sleep 1000", "A", "sleep 1000", "A", "sleep 1000"])
+    time.sleep(3.0)
 
-# Step 3: Walk Right to Column 25 (6 steps Right)
-print("Walking right to Column 25 through the gap at (23, 14)...")
-for _ in range(6):
-    pos = move(["Right"])
+    # 4. Walk Left 3 steps into Giovanni's room
+    print("Walking Left into Giovanni's room...")
+    move("Left", 3)
+    
+    print("Current Position inside Giovanni's room:", mgba.get_coordinates())
+    mgba.take_screenshot()
 
-# Step 4: Walk Up to Row 7 (7 steps Up)
-print("Walking up Column 25...")
-for _ in range(7):
-    pos = move(["Up"])
-
-# Step 5: Walk Up 1 step into the gate at (25, 6)
-print("Attempting to walk into Row 6 to trigger the Lift Key gate...")
-pos = move(["Up"])
-
-# Wait for potential script/animation/textbox
-time.sleep(2.0)
-pos = mgba.get_coordinates()
-print(f"Coordinates after attempting to open gate: {pos}")
-mgba.take_screenshot()
+except Exception as e:
+    print("ERROR:", e)
+    mgba.take_screenshot()
