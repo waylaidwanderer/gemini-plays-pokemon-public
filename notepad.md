@@ -176,6 +176,10 @@
 - Route 10 Exit Warp: (15, 3) (accessed via Col 15 North from Row 6).
 - Complete Path from Western Sector (3, 6):
   Right 12 steps along Row 6 to (15, 6) -> Up 4 steps through (15, 5), (15, 4), (15, 3) to Route 10 Exit!
+- Central Wall: Columns 12 and 13 are solid rock wall from Row 6 down to Row 13.
+- Row 14 East-West Bypass: Row 14 (Cols 11-14) is the open floor corridor bypassing the central rock wall.
+- Master Route from (11, 6) to Exit (15, 3):
+  Down 8 to (11, 14) -> Right 3 to (14, 14) -> Up 8 to (14, 6) -> Right 1 to (15, 6) -> Up 4 to Route 10 Exit!
 
 <hr>
 
