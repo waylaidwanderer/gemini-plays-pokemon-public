@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 34411)
-- Location: Rock Tunnel 1F (17, 14) - Row 14 Corridor
-- Active Protocol: Left 3 to (14, 14) -> Down 4 to (14, 18) -> Right 8 to (22, 18)
+## CURRENT STATUS & DASHBOARD (Turn 34415)
+- Location: Rock Tunnel 1F (14, 14) - Row 14 Corridor
+- Active Protocol: Down 4 to (14, 18) -> Right 8 to (22, 18)
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
