@@ -595,14 +595,7 @@
 <h1><code>Locations/Rock_Tunnel_B1F.md</code></h1>
 
 ## Rock Tunnel B1F Topography & Coordinates
-- 1F Ladder Arrival: (21, 7)
-- Dark Cave Environment: Empirical testing required for all corridors.
-- Eastbound Corridor Verified: (21, 7) -> (31, 7) open cave floor along Row 4..7.
-- Row 7 Rock Protrusion: (32, 7). Bypass via Row 5/6 (x=31..36).
-- Rock Wall Protrusion at x=32..33 (y=3..7). Bypass via Row 2 (x=31..36).
-- East Pocket (x=24..31, y=4..7): Dead-end. Return West to x=20..23 and head South down Row 8..15.
-- Southbound Corridor Verified: (21, 8) -> (21, 13) open cave floor along Row 8..15.
-- Row 13 Corridor Eastbound: (21, 13) -> (22, 13) open floor.
-- East Pocket Dead End Verified: (27, 7) is bounded by rock walls at North (27, 6), South (27, 8), and East (28, 7). West is only exit.
+- 1F Main Ladder Arrival: (33, 25)
+- Cavern Floor: Open floor across Rows 22-29, Cols 29-37.
 
 <hr>
