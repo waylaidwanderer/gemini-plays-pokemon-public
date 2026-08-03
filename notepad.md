@@ -171,6 +171,12 @@
 - Secondary Ladder Warp: Tile (3, 3) in 1F connects directly to B1F at (37, 17).
 - Secondary Ladder Alcove (Cols 2-5, Rows 0-4): Enclosed dead-end alcove in 1F Western Sector. Ladder at (3, 3) connects to B1F (37, 17).
 
+### Verified Master Exit Route from Secondary Ladder (5, 3) / (3, 3) to Route 10 South Exit (37, 11):
+1. From Secondary Ladder Alcove (3, 3) / (5, 3): Walk Down along Col 14 / Col 16 / Col 6 to Row 21 (6, 21).
+2. Walk Down 4 steps along Col 6 through gap (6, 22/23) onto Row 24 Highway at (6, 24).
+3. Walk East 31 steps along Row 24 Highway to Eastern Sector at (37, 24).
+4. Walk Up 13 steps along Column 37 to Route 10 South Exit Door at (37, 11)!
+
 <hr>
 
 <h1><code>Locations/Rock_Tunnel_B1F</code></h1>
