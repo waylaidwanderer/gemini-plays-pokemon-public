@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 34231)
-- Location: Rock Tunnel 1F (10, 14) - Western Cavern
-- Active Protocol: Walk Left 4 to Col 6 (6, 14) -> Step-test North along Col 6 through Row 5 gap (6, 5) towards Row 3 Highway!
+## CURRENT STATUS & DASHBOARD (Turn 34232)
+- Location: Rock Tunnel 1F (8, 14) - Western Cavern
+- Active Protocol: Walk Right 2 to Col 10 (10, 14) -> Up 8 through Gap A (10, 8) to Row 6 (10, 6) -> Left 4 to Col 6 (6, 6) -> Up 3 through Row 5 gap (6, 5) to Row 3 Highway (6, 3)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -172,7 +172,7 @@
 - Secondary Ladder Alcove (Cols 2-5, Rows 0-4): Enclosed dead-end alcove in 1F Western Sector. Ladder at (3, 3) connects to B1F (37, 17).
 
 ### Exit Route Note:
-Secondary Ladder Alcove (3, 3) connects to B1F (37, 17). Route 10 South Exit Door is at (37, 11).
+Secondary Ladder Alcove (3, 3) connects to B1F (37, 17).
 
 <hr>
 

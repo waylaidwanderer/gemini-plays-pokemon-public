@@ -9,4 +9,4 @@
 - Secondary Ladder Alcove (Cols 2-5, Rows 0-4): Enclosed dead-end alcove in 1F Western Sector. Ladder at (3, 3) connects to B1F (37, 17).
 
 ### Exit Route Note:
-Secondary Ladder Alcove (3, 3) connects to B1F (37, 17). Route 10 South Exit Door is at (37, 11).
+Secondary Ladder Alcove (3, 3) connects to B1F (37, 17).
