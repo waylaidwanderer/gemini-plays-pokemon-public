@@ -654,7 +654,8 @@
 - **Connecting Corridor (Row 7):** B3F's eastern and western rooms are connected by a walkable horizontal corridor along Row 7 (from Column 16 to Column 27). This allows the player to walk directly between the two areas of the floor.
 - **Stairs UP to B2F (Left Room):** Located at B3F (5, 15). Warps the player UP, spawning them at B2F (2, 9) facing Right (verified on Turn 15297).
 - **Stairs UP to B2F (Right Room):** Located at B3F (25, 6). Warps the player UP, spawning them at B2F (21, 8) (verified on Turn 15541).
-- **Stairs DOWN to B4F:** Located at B3F (19, 18). Takes the player to B4F at (19, 10) (verified on Turn 15679).
+- **Stairs DOWN to B4F (Western Room):** Located at B3F (19, 18). Takes the player to B4F at (19, 10) (verified on Turn 15679).
+- **Stairs DOWN to B4F (Eastern Room):** Located at B3F (21, 22). Takes the player to B4F at (21, 24) (verified on Turn 17035).
 - **Major Barriers & Obstacles:**
   - Column 15: Blocked by solid green-edged wall tiles from Row 18 to Row 24 (empirically verified on Turn 14753 that (15, 20) is impassable).
   - Column 18: Solid vertical wall from Row 6 to Row 19, with gaps only at (18, 10) and (18, 11).
@@ -678,7 +679,8 @@
 ### Verified Barriers & Obstacles:
 - **Row 16 Railing/Wall:** Empirically verified to be completely solid and impassable from Column 10 to Column 22 on B4F.
 - **Column 23 Wall:** Empirically verified to be completely solid and impassable from Row 17 to Row 26 on B4F, completely walling off the elevator area (Columns 24-28).
-- **Stairs UP to B3F:** Located at B4F (19, 10). Takes the player back UP to B3F (19, 18) (verified on Turn 15679).
+- **Stairs UP to B3F (Western Room):** Located at B4F (19, 10). Takes the player back UP to B3F (19, 18) (verified on Turn 15679).
+- **Stairs UP to B3F (Eastern Room):** Located at B4F (21, 24). Takes the player back UP to B3F (21, 22) (verified on Turn 17035).
 - **Elevator**: Located in the eastern chamber. The western stairs land at B4F (19, 10). Note: We have an unverified hypothesis (based on compiled gate scripts) that there is a walkable gap in the vertical Column 23 wall at B4F (23, 14) that connects the western stairs area to the eastern area. This must be verified on foot once we reach B4F. The Lift Key is obtained on B4F at (10, 2) on Turn 15797.
 - **Walkable Areas:**
   - Row 25: Column 10 to Column 22 is a clear, walkable horizontal pink floor corridor.
@@ -748,5 +750,9 @@
 - **B3F (19, 18) <--> B4F (19, 10)**
   - Walking onto B3F (19, 18) warps you DOWN to B4F (19, 10).
   - Walking onto B4F (19, 10) warps you UP to B3F (19, 18).
+  
+- **B3F (21, 22) <--> B4F (21, 24)**
+  - Walking onto B3F (21, 22) warps you DOWN to B4F (21, 24).
+  - Walking onto B4F (21, 24) warps you UP to B3F (21, 22).
 
 <hr>
