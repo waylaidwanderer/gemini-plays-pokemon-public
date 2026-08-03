@@ -689,7 +689,7 @@
 - **Column 23 Wall:** Column 23 has a walkable horizontal gap on Row 16, allowing passage between the western and eastern chambers on B4F.
 - **Stairs UP to B3F (Western Room):** Located at B4F (19, 15). Takes the player back UP to B3F (19, 18) (verified on Turn 17462).
 - **Stairs UP to B3F (Eastern Room):** Located at B4F (21, 24). Takes the player back UP to B3F (21, 22) (verified on Turn 17035).
-- **Elevator**: Located in the eastern chamber. The western stairs land at B4F (19, 10). While the Column 23 wall is solid on most rows, Row 16 is completely walkable, allowing the player to walk on foot from the western stairs to the eastern chamber and the Lift Key gate. The Lift Key is obtained on B4F at (10, 2) on Turn 15797.
+- **Elevator**: Located in the eastern chamber. The western stairs land at B4F (19, 15). While the Column 23 wall is solid on most rows, Row 16 is completely walkable, allowing the player to walk on foot from the western stairs to the eastern chamber and the Lift Key gate. The Lift Key is obtained on B4F at (10, 2) on Turn 15797.
 - **Walkable Areas:**
   - Row 25: Column 10 to Column 22 is a clear, walkable horizontal pink floor corridor.
   - Columns 10-11: Walkable vertical corridor from Row 17 to Row 25.
