@@ -3,11 +3,11 @@ import time
 
 def wait_for_movement():
     p1 = mgba.get_coordinates()
-    time.sleep(0.3) # Increased sleep to fully support Gen 1 slide pauses
+    time.sleep(0.35) # Increased sleep to fully support Gen 1 slide pauses
     p2 = mgba.get_coordinates()
     while p1 != p2:
         p1 = p2
-        time.sleep(0.3)
+        time.sleep(0.35)
         p2 = mgba.get_coordinates()
     return p1
 
@@ -15,25 +15,27 @@ def move(button):
     mgba.press_buttons([button])
     return wait_for_movement()
 
-# Starting at B1F (23, 15)
-print("=== STARTING COMPLETE ON-FOOT PATH TO B4F STAIRS ===")
-pos = wait_for_movement()
-print(f"Start Position: {pos}")
+def wait_for_slide(seconds):
+    time.sleep(seconds)
+    return wait_for_movement()
 
-if pos['x'] != 23 or pos['y'] != 15:
-    print(f"ERROR: Expected B1F (23, 15), got {pos}")
-    exit(1)
+# Starting on B1F
+print("=== STARTING THE MOVEMENT RUN FROM B1F TO B4F GATE ===")
+pos = wait_for_movement()
+print(f"Verified Start Position: {pos}")
 
 # 1. Walk UP Column 23 to B1F stairs (23, 2)
-print("\n--- Part 1: Walk to B1F Stairs and Warp to B2F ---")
-for i in range(13):
-    pos = move("Up")
-print(f"At B1F stairs (should be 23, 2): {pos}")
-pos = wait_for_slide(3.0) # Warp to B2F
-print(f"Position on B2F: {pos}")
-
-if pos['x'] != 27 or pos['y'] != 8:
-    print(f"WARNING: Expected B2F (27, 8), got {pos}")
+if pos['x'] == 23 and pos['y'] in [14, 15]:
+    steps_up = 13 if pos['y'] == 15 else 12
+    print(f"\n--- Part 1: Walk to B1F Stairs ({steps_up} steps UP) ---")
+    for i in range(steps_up):
+        pos = move("Up")
+    print(f"At B1F stairs (should be 23, 2): {pos}")
+    pos = wait_for_slide(3.0) # Warp to B2F
+    print(f"Position on B2F: {pos}")
+else:
+    print(f"ERROR: Expected B1F (23, 14) or (23, 15), got {pos}")
+    exit(1)
 
 # 2. Walk to B2F Stairs at (21, 8) and warp to B3F
 print("\n--- Part 2: Walk to B2F Stairs and Warp to B3F ---")
@@ -134,7 +136,27 @@ print(f"At B4F stairs: {pos}")
 pos = wait_for_slide(3.0) # Warp to B4F
 print(f"Position after warp to B4F: {pos}")
 
-# Take a screenshot to verify B4F arrival!
+# 7. Navigate B4F to the gate
+print("\n--- Part 7: Navigate B4F to the Gate ---")
+pos = move("Left")
+for i in range(6):
+    pos = move("Down")
+for i in range(6):
+    pos = move("Right")
+for i in range(8):
+    pos = move("Up")
+print(f"At B4F gate: {pos}")
+
+# 8. Use Lift Key to open the gate
+print("\n--- Part 8: Open B4F Gate ---")
+print("Pressing A to use Lift Key...")
+mgba.press_buttons(["A"])
+time.sleep(1.0)
+mgba.press_buttons(["A"])
+time.sleep(1.0)
+
+pos = mgba.get_coordinates()
+print(f"Final Position: {pos}")
 scr = mgba.take_screenshot()
 print(f"Screenshot taken: {scr}")
 print("=== SEQUENCE COMPLETED SUCCESSFULLY ===")
