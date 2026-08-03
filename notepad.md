@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 33755)
-- Location: Rock Tunnel B1F (25, 16) - Row 16 Highway
-- Active Protocol: Right 8 along Row 16 to (33, 16) -> Up 4 to (33, 12) -> Right 2 to (35, 12) -> Up 8 to (35, 4) -> Left 8 to (27, 4) -> Exit Ladder (27, 3) -> Warp to 1F Exit Cavern (5, 3) -> Route 10 South.
+## CURRENT STATUS & DASHBOARD (Turn 33761)
+- Location: Rock Tunnel B1F (29, 16) - Row 16 Highway
+- Active Protocol: Exit battle -> Right 4 to (33, 16) -> Up 4 to (33, 12) -> Right 2 to (35, 12) -> Up 8 to (35, 4) -> Left 8 to (27, 4) -> Exit Ladder (27, 3) -> Warp to 1F Exit Cavern (5, 3) -> Route 10 South.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
