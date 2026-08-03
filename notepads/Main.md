@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 33202)
-- Location: Rock Tunnel B1F (25, 27)
-- Active Protocol: Run from wild Zubat and walk Left 9 across Col 24 gap to West Passage at (16, 27).
+## CURRENT STATUS & DASHBOARD (Turn 33203)
+- Location: Rock Tunnel B1F (16, 27)
+- Active Protocol: Run from wild Machop and ascend Col 16 North 11 steps to Row 16 Highway at (16, 16).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
