@@ -592,7 +592,7 @@
 - Row 16 & Row 22-23 Barriers: Solid rock walls in western sector.
 
 - Room (Cols 13-21, Rows 16-21): Large open cavern bounded North by Row 15 rock wall, South by Row 22-23 rock wall, East by Col 22 rock wall.
-- Secondary Ladder Warp: Tile (3, 3) in 1F connects directly to B1F at (37, 17). Step Down to (3, 4) to move off ladder.
+- Secondary Ladder Warp: Tile (3, 3) in 1F connects directly to B1F at (37, 17).
 - Secondary Ladder Alcove (Cols 2-5, Rows 0-4): Enclosed dead-end alcove in 1F Western Sector. Ladder at (3, 3) connects to B1F (37, 17).
 
 <hr>
