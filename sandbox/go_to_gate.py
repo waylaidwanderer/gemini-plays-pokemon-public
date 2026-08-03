@@ -16,27 +16,26 @@ def verify_position(expected_coords, wait_time=3.0):
     return pos
 
 try:
-    print("Walking to Giovanni's Gate at B4F (25, 7)...")
+    print("Walking from B4F (21, 17) to Giovanni's Gate at (25, 7)...")
     print("Initial Position:", mgba.get_coordinates())
     
-    # 1. Walk Up 9 steps to (21, 16)
-    move("Up", 9)
-    verify_position((21, 16), wait_time=0.5)
+    # 1. Walk Down 8 steps to (21, 25)
+    move("Down", 8)
+    verify_position((21, 25), wait_time=0.5)
 
-    # 2. Walk Right 4 steps to (25, 16)
+    # 2. Walk Right 4 steps to (25, 25)
     move("Right", 4)
-    verify_position((25, 16), wait_time=0.5)
+    verify_position((25, 25), wait_time=0.5)
 
-    # 3. Walk Up 9 steps to (25, 7)
-    move("Up", 9)
+    # 3. Walk Up 18 steps to (25, 7)
+    move("Up", 18)
     verify_position((25, 7), wait_time=0.5)
 
-    # 4. Turn Left to face the gate at (24, 7)
-    # In Gen 1, just pressing Left will turn us Left.
+    # 4. Turn Left to face the gate
     mgba.press_buttons(["Left", "sleep 300"])
     time.sleep(0.4)
     
-    print("Successfully reached (25, 7) and turned Left!")
+    print("Successfully reached Giovanni's Gate at (25, 7) and faced Left!")
     mgba.take_screenshot()
 
 except Exception as e:
