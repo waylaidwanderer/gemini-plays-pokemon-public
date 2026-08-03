@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 34120)
-- Location: Rock Tunnel B1F (14, 21) - West Sector
-- Active Protocol: Walk Up 4 along Col 14 to Row 17 (14, 17) -> Explore Northern B1F passages to Exit Ladder (27, 3)!
+## CURRENT STATUS & DASHBOARD (Turn 34122)
+- Location: Rock Tunnel B1F (10, 17) - West Sector
+- Active Protocol: Walk Down 9 along Col 10 to Row 26 (10, 26) -> Right 15 along Row 26 to Col 25 (25, 26) -> North to Exit Ladder (27, 3)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
