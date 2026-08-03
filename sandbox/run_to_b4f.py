@@ -1,62 +1,32 @@
 import mgba
 import time
 
-def move(buttons):
-    mgba.press_buttons(buttons)
-    time.sleep(0.3)
-    pos = mgba.get_coordinates()
-    print(f"Moved {buttons}, now at: {pos}")
-    return pos
+def move(d, steps=1):
+    for i in range(steps):
+        mgba.press_buttons([d, "sleep 300"])
+        time.sleep(0.4)
+    return mgba.get_coordinates()
 
+# Currently at B3F (19, 9).
+# Walk Down 9 times to stairs at (19, 18) and warp to B4F
+print("Walking to B3F stairs at (19, 18) to warp to B4F...")
+pos = move("Down", 9)
+print("Position during warp:", pos)
+time.sleep(2.0) # Wait for warp transition
+
+# Verify B4F position
 pos = mgba.get_coordinates()
-print("Starting run_to_b4f from:", pos)
+print("Position on B4F:", pos)
 
-if pos['x'] == 25 and pos['y'] == 6:
-    # 1. Walk to (2, 9) on B3F
-    print("Walking Down to Row 7...")
-    pos = move(["Down"])
-    
-    print("Walking Left to Column 2...")
-    for _ in range(23):
-        pos = move(["Left"])
-        
-    print("Walking Down to (2, 9)...")
-    pos = move(["Down"])
-    pos = move(["Down"])
-    
-    # 2. Walk to (4, 14)
-    print("Walking to (4, 14)...")
-    pos = move(["Right"]) # to (3, 9)
-    for _ in range(4):
-        pos = move(["Down"]) # to (3, 13)
-    pos = move(["Right"]) # to (4, 13)
-    pos = move(["Down"]) # to (4, 14)
-    
-    # 3. Step Right onto (5, 14) RIGHT spinner -> slides to (9, 16)
-    print("Stepping onto (5, 14) RIGHT spinner...")
-    pos = move(["Right"])
-    time.sleep(3.0)
-    pos = mgba.get_coordinates()
-    print("Position after slide 1:", pos)
-    
-    # 4. Walk Right 2 steps onto (11, 16) RIGHT spinner -> slides to (15, 18)
-    print("Walking to (11, 16) RIGHT spinner...")
-    pos = move(["Right"])
-    pos = move(["Right"])
-    time.sleep(3.0)
-    pos = mgba.get_coordinates()
-    print("Position after slide 2:", pos)
-    
-    # 5. Walk Down 2 to (15, 20), Right 4 to (19, 20), and Up 2 onto B4F stairs at (19, 18)
-    print("Walking to B4F stairs via Row 20...")
-    for _ in range(2):
-        pos = move(["Down"])
-    for _ in range(4):
-        pos = move(["Right"])
-    pos = move(["Up"])
-    pos = move(["Up"])
-    time.sleep(2.0)
-    
-    pos = mgba.get_coordinates()
-    print("Position on B4F:", pos)
-    mgba.take_screenshot()
+# Walk to the gate at (25, 6) on B4F:
+# 1. Down 6 times to (19, 16)
+# 2. Right 6 times to (25, 16)
+# 3. Up 10 times to (25, 6)
+print("Walking to B4F gate...")
+move("Down", 6)
+move("Right", 6)
+final_pos = move("Up", 10)
+print("Final Position:", final_pos)
+
+screenshot = mgba.take_screenshot()
+print("Screenshot:", screenshot)
