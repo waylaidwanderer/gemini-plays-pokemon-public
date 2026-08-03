@@ -195,7 +195,7 @@
 ### Verified B1F Complete Topography & Exit Route (Turn 33636)
 - 1F Main Arrival Ladder: (33, 25) in East Sector.
 - Central Barrier (Cols 26-27): Solid rock wall from y=20 down to y=29 separating East and West sectors.
-- Sector Bypass Passage (Rows 30-31): Open East-West pavement/grass corridor across Cols 22-33 below Row 29, connecting East Sector to West Sector!
+- Sector Bypass Passage (Rows 30-31): Row 31 (Cols 26-27) is the verified open East-West pavement/grass corridor connecting West Sector to East Sector!
 - Western Cavern Corridor (Cols 14-17): Wide 4-tile open northbound corridor running continuously from Row 31 up through Row 16 Highway!
 - Master Route to Exit Ladder (27, 3):
   1. From (33, 25) Arrival: Walk South down Col 29 to Row 30 at (29, 30).
