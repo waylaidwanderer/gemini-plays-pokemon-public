@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 32218)
-- Location: Route 8 (10, 15)
-- Active Protocol: At (10, 15) on Route 8; executing master route: Up 1 to (10, 14), Right 9 to (19, 14), Up 2 to (19, 12), Right 1 to (20, 12), Up 2 to (20, 10), Right 9 to (29, 10), Down 5 to (29, 15), Right 23 to Col 52 gap at (52, 15), Down 4 (hopping ledge) to Row 19 Lower Highway at (52, 19), Left 22 to Gatehouse doorway at (30, 19), and Up 2 into building doorway to warp inside.
+## CURRENT STATUS & DASHBOARD (Turn 32224)
+- Location: Route 8 (10, 12)
+- Active Protocol: At (10, 12) on Route 8; probing Up to (10, 10) and Right to building doorway at (14, 10), or traversing Row 12 East to Col 20 passage to reach Upper Highway and building doorway.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
