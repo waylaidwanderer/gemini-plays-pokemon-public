@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 32959)
-- Location: Rock Tunnel 1F (15, 21)
-- Active Protocol: Probe Right 3 steps along Row 21 to (18, 21) looking for South passage around Row 22-23 wall.
+## CURRENT STATUS & DASHBOARD (Turn 32960)
+- Location: Rock Tunnel 1F (18, 21)
+- Active Protocol: Right 3 to (21, 21), Up 4 to (21, 17) returning to Main Eastern Cavern.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -165,9 +165,9 @@
 - Route 10 Entrance: (15, 3)
 - B1F Main Ladder: (37, 3) (accessed via East corridor: 15,3 -> East to Col 20 -> South to Row 11 -> East to Col 37 -> North to 37,3).
 - B1F Secondary Ladder / Exit Arrival: (5, 3) (in western sector of 1F).
-- Row 16 Barrier: Horizontal rock wall at Row 16 (Cols 1-7). Row 10-15 (Cols 6-7) forms a vertical rock wall pillar.
-- Row 22-23 Barrier: Horizontal rock wall across Cols 5-14 on Rows 22-23.
-- Route 10 South Exit Corridor: Col 15 open southbound highway from Row 21 through Row 27+ to Route 10 South exit at (15, 27).
+- Row 16 Barrier: Horizontal rock wall at Row 16 (Cols 1-7).
+- Row 22-23 Barrier: Horizontal rock wall across Cols 5-20 on Rows 22-23.
+- Route 10 South Exit Search: Exploring East along Row 21 (15, 21 -> 20+) to locate South passage around Row 22-23 barrier.
 
 <hr>
 
@@ -592,9 +592,8 @@
 - Route 10 Entrance: (15, 3)
 - B1F Main Ladder: (37, 3) (accessed via East corridor: 15,3 -> East to Col 20 -> South to Row 11 -> East to Col 37 -> North to 37,3).
 - B1F Secondary Ladder / Exit Arrival: (5, 3) (in western sector of 1F).
-- Row 16 Barrier: Horizontal rock wall at Row 16 (Cols 1-7).
-- Row 22-23 Barrier: Horizontal rock wall across Cols 5-20 on Rows 22-23.
-- Route 10 South Exit Search: Exploring East along Row 21 (15, 21 -> 20+) to locate South passage around Row 22-23 barrier.
+- Row 16 & Row 22-23 Barriers: Solid rock walls in western sector forcing return to Main Eastern Cavern.
+- Master Route to Route 10 South Exit: From (18, 21) -> Right 3 to (21, 21) -> Up 4 to (21, 17) -> East to Main Cavern (Cols 28-37) -> South down Col 37 to Row 27/33 -> West to Route 10 South exit.
 
 <hr>
 

@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 32959)
-- Location: Rock Tunnel 1F (15, 21)
-- Active Protocol: Probe Right 3 steps along Row 21 to (18, 21) looking for South passage around Row 22-23 wall.
+## CURRENT STATUS & DASHBOARD (Turn 32960)
+- Location: Rock Tunnel 1F (18, 21)
+- Active Protocol: Right 3 to (21, 21), Up 4 to (21, 17) returning to Main Eastern Cavern.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
