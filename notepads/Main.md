@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 32807)
-- Location: Route 9 (29, 12)
-- Active Protocol: East along Row 12 green grass highway past Col 34/41 to Route 10 Entrance at (59, 2/8).
+## CURRENT STATUS & DASHBOARD (Turn 32817)
+- Location: Route 9 (51, 6)
+- Active Protocol: Down 2 to Row 8 -> East along Row 8 to Route 10 Entrance at (59, 8).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
