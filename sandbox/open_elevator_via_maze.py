@@ -8,18 +8,20 @@ def move(d, steps=1):
     return mgba.get_coordinates()
 
 try:
-    print("=== Executing Master B2F Elevator Unlock Route ===")
+    print("=== Overwriting B2F Elevator Unlock Route with Corrected Path ===")
     print("Initial Position:", mgba.get_coordinates())
     
-    # 1. Walk to the start of the maze at B2F (27, 8)
-    # We are at (20, 14)
-    print("Walking Up to row 8...")
-    move("Up", 6)
-    print("Walking Right to column 27...")
-    move("Right", 7)
+    # 1. Walk from (22, 13) to B2F (27, 8) bypassing Column 22 Grunt
+    print("Walking Left 1 to (21, 13)...")
+    move("Left", 1)
+    
+    print("Walking Up 5 to (21, 8)...")
+    move("Up", 5)
+    
+    print("Walking Right 6 to (27, 8)...")
+    move("Right", 6)
     
     # Verify we are at the start of the maze
-    # Wait, coming from (20, 14) to (27, 8) we might spawn or be at (27, 8)
     pos = mgba.get_coordinates()
     print("At start of maze:", pos)
     if pos['x'] != 27 or pos['y'] != 8:
