@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 34102)
-- Location: Rock Tunnel B1F (23, 13) - West Sector
-- Active Protocol: Walk Left 9 to Col 14 (14, 13) -> South/North passage to East Sector!
+## CURRENT STATUS & DASHBOARD (Turn 34106)
+- Location: Rock Tunnel B1F (14, 13) - West Sector Corridor
+- Active Protocol: Walk Down 10 along Col 14 to Row 23 (14, 23) -> Row 26/31 East bypass to East Sector!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
