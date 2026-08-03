@@ -1,6 +1,6 @@
 ## CURRENT STATUS & DASHBOARD (Turn 32878)
-- Location: Rock Tunnel B1F (17, 27)
-- Active Protocol: Left 3 to (14, 27), Up 3 to (14, 24) in Western Cavern.
+- Location: Rock Tunnel B1F (14, 24)
+- Active Protocol: Walk Right 6 steps to (20, 24) to reach East bypass passage.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
