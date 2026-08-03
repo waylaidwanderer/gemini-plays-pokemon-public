@@ -10,22 +10,24 @@ def wait_for_slide(seconds):
     time.sleep(seconds)
     return mgba.get_coordinates()
 
-# Starting at B3F (2, 9)
+# Starting at B3F (2, 19)
 print("=== STARTING B3F WESTERN MAZE TO B4F GATE SEQUENCE ===")
 pos = mgba.get_coordinates()
 print(f"Start Position: {pos}")
 
-# 1. Walk from (2, 9) to (2, 17)
+# 1. Walk from (2, 19) to (2, 17)
 print("\n--- Part 1: Walk to (2, 17) ---")
-pos = move(["Right"])
+pos = move(["Left"]) # (1, 19)
+print(f"Walk Left: {pos}")
+
+pos = move(["Up"]) # (1, 18)
+print(f"Walk Up: {pos}")
+
+pos = move(["Up"]) # (1, 17)
+print(f"Walk Up: {pos}")
+
+pos = move(["Right"]) # (2, 17)
 print(f"Walk Right: {pos}")
-
-for i in range(8):
-    pos = move(["Down"])
-    print(f"Walk Down: {pos}")
-
-pos = move(["Left"])
-print(f"Walk Left to (2, 17): {pos}")
 
 if pos['x'] != 2 or pos['y'] != 17:
     print(f"ERROR: Expected (2, 17), got {pos}")
@@ -38,16 +40,7 @@ for move_dir in ['Left', 'Up', 'Up', 'Right', 'Right', 'Right']:
     pos = move([move_dir])
     print(f"Walk: {pos}")
 
-# Step onto (4, 16) spinner by pressing Up (wait, from 4, 15, pressing Up moves us to 4, 14?
-# Wait! Let's check: if we are at (4, 15) and press Up, we go to (4, 14).
-# Wait, why does navigate_to_b4f_from_current.py's disassembly say:
-# "Stepping onto (4, 16) spinner... Up"?
-# Ah! In the disassembly of navigate_to_b4f_from_current.py, it got:
-# "To Spinner Step 6 (Right): {'x': 4, 'y': 15}"
-# And then it pressed "Up"!
-# If they were at (4, 15) and pressed Up, they must have stepped on a spinner that was at (4, 14) or (4, 15)?
-# Wait, let's look at the B3F western maze:
-# Let's write the code to press "Up" and see where we end up!
+# Step onto (4, 16) spinner by pressing Up (wait, from 4, 15, pressing Up? Let's see)
 print("Pressing Up to step onto spinner...")
 pos = move(["Up"])
 print(f"Position: {pos}")
