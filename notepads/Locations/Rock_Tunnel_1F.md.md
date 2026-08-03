@@ -1,4 +1,4 @@
 ## Rock Tunnel 1F Topography & Coordinates
 - Route 10 Entrance: (15, 3)
-- First B1F Ladder: (17, 11) (isolated by rock wall at Cols 18-19, Rows 8-13; accessed via full East-South loop around 1F).
-- Eastern Corridor Access: (15, 3) -> East to Col 20 -> South along Col 20 to Row 11/12/13 -> East into main 1F cavern (Cols 21+).
+- B1F Main Ladder: (37, 3) (accessed via East corridor: 15,3 -> East to Col 20 -> South to Row 11 -> East to Col 37 -> North to 37,3).
+- B1F Secondary Ladder: (17, 11) (isolated by rock walls at Cols 18-19, Rows 8-13).

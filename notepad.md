@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
 ## CURRENT STATUS & DASHBOARD (Turn 32878)
-- Location: Rock Tunnel 1F (14, 7)
-- Active Protocol: Left 3 to Col 11 -> Down 4 to Row 11 -> Right 6 to B1F Ladder at (17, 11).
+- Location: Rock Tunnel 1F (37, 7)
+- Active Protocol: Walk Up 4 steps to B1F Ladder at (37, 3).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -587,8 +587,8 @@
 
 ## Rock Tunnel 1F Topography & Coordinates
 - Route 10 Entrance: (15, 3)
-- First B1F Ladder: (17, 11) (isolated by rock wall at Cols 18-19, Rows 8-13; accessed via full East-South loop around 1F).
-- Eastern Corridor Access: (15, 3) -> East to Col 20 -> South along Col 20 to Row 11/12/13 -> East into main 1F cavern (Cols 21+).
+- B1F Main Ladder: (37, 3) (accessed via East corridor: 15,3 -> East to Col 20 -> South to Row 11 -> East to Col 37 -> North to 37,3).
+- B1F Secondary Ladder: (17, 11) (isolated by rock walls at Cols 18-19, Rows 8-13).
 
 <hr>
 
