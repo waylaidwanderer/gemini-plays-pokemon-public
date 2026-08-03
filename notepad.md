@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 34478)
-- Location: Rock Tunnel B1F (20, 10) - Middle Chamber
-- Active Protocol: Right 3 to (23, 10) -> Down 1 to (23, 11) Ladder -> Down 15 to Southern Highway (Row 27) -> East to Col 33 -> North to Exit Ladder (27, 3)!
+## CURRENT STATUS & DASHBOARD (Turn 34480)
+- Location: Rock Tunnel B1F (21, 10) - Middle Chamber
+- Active Protocol: Run from Zubat -> Right 2 to (23, 10) -> Down 1 to (23, 11) Ladder -> Down 15 to Southern Highway (Row 27) -> East to Col 33 -> North to Exit Ladder (27, 3)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
