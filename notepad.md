@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 34208)
-- Location: Rock Tunnel B1F (10, 19) - Cavern Corridor
-- Active Protocol: S-Curve Route: Down 7 through Gap A to Row 26 (10, 26) -> Right 4 to Col 14 (14, 26) -> Down 4 through Gap B to Row 30 (14, 30) -> East to East Sector -> Exit Ladder (27, 3)!
+## CURRENT STATUS & DASHBOARD (Turn 34209)
+- Location: Rock Tunnel B1F (10, 24) - Cavern Corridor
+- Active Protocol: S-Curve Route: Down 2 to Row 26 (10, 26) -> Right 4 to Col 14 (14, 26) -> Down 4 through Gap B to Row 30 (14, 30) -> East to East Sector -> Exit Ladder (27, 3)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
