@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 33188)
-- Location: Rock Tunnel 1F (3, 3)
-- Active Protocol: Arrived in 1F Western Sector. Descending Col 3 South 8 steps to (3, 11) to locate exit passage.
+## CURRENT STATUS & DASHBOARD (Turn 33190)
+- Location: Rock Tunnel B1F (37, 17)
+- Active Protocol: Warp to 1F at (3, 3) and step Down to (3, 4) in Rock Tunnel 1F.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
