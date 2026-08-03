@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 32131)
-- Location: Route 8 (28, 15)
-- Active Protocol: At (28, 15) on Route 8; walking Right along Row 15 to (44, 15) to engage and defeat Super Nerd trainer at (45, 15).
+## CURRENT STATUS & DASHBOARD (Turn 32161)
+- Location: Route 8 (10, 15)
+- Active Protocol: At (10, 15) on Route 8; walking Right along Row 15 to Col 29 gap at (29, 13) to ascend to Upper Highway and reach Underground Path building at (14, 10).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
