@@ -183,6 +183,7 @@
 - North Ascent Bypass (Cols 32-35): VERIFIED OPEN NORTHBOUND PASSAGE connecting Row 16 at (33, 16) North through Rows 14-15 to (33, 12).
 - Upper Northern Passage (Cols 34-37): Open northbound passage connecting Row 12 through (35, 8) North to Row 4/5 Upper Exit Chamber (Cols 31-37).
 - Upper Exit Cavern & 1F Exit Ladder: Ladder to 1F is located at (27, 3)!
+- Col 24 South Wall: Row 31 is blocked at Col 24 by a rock wall. Row 27 is an open East-West corridor connecting East Sector (Col 26-29) to West Sector (Col 16-25)!
 
 <hr>
 
