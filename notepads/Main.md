@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 33859)
-- Location: Rock Tunnel 1F (15, 14)
-- Active Protocol: Up 11 along Col 15 to North Entrance (15, 3) -> East 22 along Row 3 Top Highway to Col 37 (37, 3) -> South 8 to Exit Door (37, 11) -> Route 10 South.
+## CURRENT STATUS & DASHBOARD (Turn 33861)
+- Location: Rock Tunnel 1F (21, 16)
+- Active Protocol: Up 4 along Col 21 to Row 12 (21, 12) -> East 16 through gap (22, 12)/(23, 12) to Col 37 (37, 12) -> Up 1 to Exit Door (37, 11) -> Route 10 South.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
