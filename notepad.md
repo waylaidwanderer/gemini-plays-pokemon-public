@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 32354)
-- Location: Route 5 (19, 34)
-- Active Protocol: At (19, 34) on Route 5; navigating South along open grass field to locate Route 5 Underground Path Building doorway.
+## CURRENT STATUS & DASHBOARD (Turn 32360)
+- Location: Route 5 (9, 13)
+- Active Protocol: At (9, 13) on Route 5; walking Down 3 to (9, 16) light grey pavement walkway, then entering Route 5 Underground Path building doorway.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
