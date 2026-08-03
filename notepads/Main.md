@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 32275)
-- Location: Route 8 (0, 8)
-- Active Protocol: At (0, 8) on Route 8 Western Sector; entering Underground Path Building / Saffron Gatehouse doorway.
+## CURRENT STATUS & DASHBOARD (Turn 32281)
+- Location: Route 8 Western Sector (32, 20)
+- Active Protocol: At (32, 20); walking Down 1 to (32, 21), Left 2 to (30, 21), Up 2 into building doorway at (30, 19).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
