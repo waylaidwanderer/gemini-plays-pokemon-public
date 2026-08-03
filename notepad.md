@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 34464)
-- Location: Rock Tunnel B1F (23, 6) - Row 6 Highway
-- Active Protocol: Right 4 to (27, 6) -> Up 3 onto Exit Ladder (27, 3) -> 1F Exit (15, 3)!
+## CURRENT STATUS & DASHBOARD (Turn 34468)
+- Location: Rock Tunnel B1F (20, 6) - Middle Chamber
+- Active Protocol: Up 2 to (20, 4) -> Left 3 to (17, 4) -> Down 6 to (17, 10) -> Right 6 to (23, 10) -> Down 1 to (23, 11) Ladder!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
