@@ -15,3 +15,5 @@
 3. From (33, 16): Walk North 4 steps through North Ascent Bypass to Row 12 at (33, 12).
 4. From (33, 12): Walk Right 2 steps to (35, 12) -> North 8 steps through Upper Northern Passage to Row 4 at (35, 4).
 5. From (35, 4): Walk Left 8 steps, Up 1 step to 1F Exit Ladder at (27, 3)!
+- Far West Sector Northbound Highway (Cols 2-5, Rows 3-27): Open 4-tile wide vertical highway connecting Row 27 Western Cavern directly UP through Rows 21-23 to Row 3 Upper Exit Cavern and Exit Ladder at (27, 3)!
+- Complete Master Exit Route: From (2, 25): Ascend Col 2 North 22 steps to Row 3 at (2, 3) -> Walk Right 25 steps along Row 3 to Exit Ladder at (27, 3)!
