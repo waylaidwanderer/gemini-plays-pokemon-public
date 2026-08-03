@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 32911)
-- Location: Rock Tunnel B1F (12, 31)
-- Active Protocol: Continue Left along Row 31 Bottom Highway to Col 8/7.
+## CURRENT STATUS & DASHBOARD (Turn 32912)
+- Location: Rock Tunnel B1F (7, 31)
+- Active Protocol: Continue Left along Row 31 Bottom Highway to Col 3/2.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
