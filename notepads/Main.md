@@ -1,6 +1,6 @@
 ## CURRENT STATUS & DASHBOARD (Turn 32878)
-- Location: Rock Tunnel B1F (20, 31)
-- Active Protocol: Left 3 to (17, 31), Up 4 to (17, 27) in Western Corridor.
+- Location: Rock Tunnel B1F (17, 27)
+- Active Protocol: Left 3 to (14, 27), Up 3 to (14, 24) in Western Cavern.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
