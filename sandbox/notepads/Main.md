@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 34237)
-- Location: Rock Tunnel 1F (5, 3) - North Exit Alcove
-- Active Protocol: Exit Rock Tunnel: Walk Right 1 to (6, 3) -> Up 4 through (6, 0) to Exit Rock Tunnel out to Route 10!
+## CURRENT STATUS & DASHBOARD (Turn 34238)
+- Location: Rock Tunnel 1F (6, 2) - North Exit Alcove
+- Active Protocol: Exit Rock Tunnel: Walk Left 3 to (3, 2) -> Up 3 through (3, -1) Exit Door out to Route 10!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
