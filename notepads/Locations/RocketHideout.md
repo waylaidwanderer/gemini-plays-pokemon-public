@@ -22,6 +22,7 @@
   - Column 28: Rows 11-15
   - Row 15: Columns 24-28
   - Column 24: Rows 14-15
+  - Row 14: Columns 24-28 (walkable horizontal corridor connecting to Column 28)
   - Column 23 (Vertical Corridor): Rows 9-13 is a narrow 1-column wide vertical strip bounded by a solid wall at the north (Row 8) and a solid hedge/wall at the south (Row 14), making it a dead end.
 - **Trainers on B1F:**
   - Rocket Grunt at (12, 6) facing Right. Defeated on Turn 13944.
@@ -82,7 +83,7 @@
 - **Column 23 Wall:** Empirically verified to be completely solid and impassable from Row 17 to Row 26 on B4F, completely walling off the elevator area (Columns 24-28).
 - **Stairs UP to B3F (Western Room):** Located at B4F (19, 10). Takes the player back UP to B3F (19, 18) (verified on Turn 15679).
 - **Stairs UP to B3F (Eastern Room):** Located at B4F (21, 24). Takes the player back UP to B3F (21, 22) (verified on Turn 17035).
-- **Elevator**: Located in the eastern chamber. The western stairs land at B4F (19, 10). Note: Verified on foot on Turn 17050 that there is NO walkable gap in the Column 23 wall on B4F. The Column 23 wall is completely impassable, meaning the eastern elevator/gate section on B4F is completely inaccessible on foot from the western/middle section. The player MUST take the elevator from another floor (e.g. B1F, B2F, B3F) to access the eastern chamber of B4F. The Lift Key is obtained on B4F at (10, 2) on Turn 15797.
+- **Elevator**: Located in the eastern chamber. The western stairs land at B4F (19, 10). Note: Verified on foot on Turn 17050 that there is NO walkable gap in the Column 23 wall on B4F. The Column 23 wall is completely impassable, meaning the eastern elevator/gate section on B4F is completely inaccessible on foot from the western/middle section. The player MUST take the elevator from another floor (e.g. B1F, B2F, B3F) to access the eastern chamber of B4F.nother floor (e.g. B1F, B2F, B3F) to access the eastern chamber of B4F. The Lift Key is obtained on B4F at (10, 2) on Turn 15797.
 - **Walkable Areas:**
   - Row 25: Column 10 to Column 22 is a clear, walkable horizontal pink floor corridor.
   - Columns 10-11: Walkable vertical corridor from Row 17 to Row 25.
