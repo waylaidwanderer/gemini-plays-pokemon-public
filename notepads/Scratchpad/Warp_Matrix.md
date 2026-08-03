@@ -13,9 +13,9 @@
   - Walking onto B2F (21, 8) warps you DOWN to B3F (25, 6).
   - Walking onto B3F (25, 6) warps you UP to B2F (21, 8).
 
-- **B3F (19, 18) <--> B4F (19, 10)**
-  - Walking onto B3F (19, 18) warps you DOWN to B4F (19, 10).
-  - Walking onto B4F (19, 10) warps you UP to B3F (19, 18).
+- **B3F (19, 18) <--> B4F (19, 15)**
+  - Walking onto B3F (19, 18) warps you DOWN to B4F (19, 15).
+  - Walking onto B4F (19, 15) warps you UP to B3F (19, 18).
   
 - **B3F (21, 22) <--> B4F (21, 24)**
   - Walking onto B3F (21, 22) warps you DOWN to B4F (21, 24).
