@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 33186)
-- Location: Rock Tunnel B1F (37, 16)
-- Active Protocol: Run from wild Zubat and step Down 1 into 1F Ladder at (37, 17).
+## CURRENT STATUS & DASHBOARD (Turn 33188)
+- Location: Rock Tunnel 1F (3, 3)
+- Active Protocol: Arrived in 1F Western Sector. Descending Col 3 South 8 steps to (3, 11) to locate exit passage.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
