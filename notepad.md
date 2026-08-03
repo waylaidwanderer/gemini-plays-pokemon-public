@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 34178)
-- Location: Rock Tunnel B1F (17, 13) - Cavern Corridor
-- Active Protocol: Walk Down to (17, 17) -> Explore South/East passage towards Row 26/Row 16 Highway to Exit Ladder (27, 3)!
+## CURRENT STATUS & DASHBOARD (Turn 34182)
+- Location: Rock Tunnel B1F (17, 20) - Cavern Corridor
+- Active Protocol: Walk Left to (12, 20) / Western Sector -> Down to Row 24 (2, 24) -> East to (26, 24) -> Row 27 to East Sector (33, 27) -> Exit Ladder (27, 3)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
