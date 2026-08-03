@@ -16,35 +16,10 @@ def verify_position(expected_coords, wait_time=3.0):
     return pos
 
 try:
-    print("Resuming Rocket Hideout speedrun from B2F (25, 8)...")
+    print("Navigating from B2F (2, 9) to Giovanni's Gate...")
     print("Initial Position:", mgba.get_coordinates())
     
-    # 1. Walk Down 6 to (25, 14)
-    print("Walking Down 6 to (25, 14)...")
-    move("Down", 6)
-    verify_position((25, 14), wait_time=0.5)
-
-    # 2. Walk Left 4 to (21, 14)
-    print("Walking Left 4 to (21, 14)...")
-    move("Left", 4)
-    verify_position((21, 14), wait_time=0.5)
-
-    # 3. Walk Up 3 to (21, 11)
-    print("Walking Up 3 to (21, 11)...")
-    move("Up", 3)
-    verify_position((21, 11), wait_time=0.5)
-
-    # 4. Walk Left 3 to (18, 11)
-    print("Walking Left 3 to (18, 11)...")
-    move("Left", 3)
-    verify_position((18, 11), wait_time=0.5)
-
-    # 5. Stepping Left onto (17, 11) LEFT spinner -> slides to (2, 9)
-    print("Stepping Left onto (17, 11) LEFT spinner...")
-    move("Left", 1)
-    verify_position((2, 9), wait_time=3.0)
-
-    # 6. Walk Right 1 to (3, 9), Down 4 to (3, 13), Right 1 onto stairs at (4, 13)
+    # 1. Walk Right 1 to (3, 9), Down 4 to (3, 13), Right 1 onto B3F stairs at (4, 13)
     print("Walking Right to (3, 9)...")
     move("Right", 1)
     verify_position((3, 9), wait_time=0.5)
@@ -59,9 +34,7 @@ try:
     time.sleep(4.0)
     print("Position on B3F:", mgba.get_coordinates())
 
-    # Phase 3: B3F to B4F Western Room
-    # Current on B3F is (5, 15).
-    # Walk Right 9 to (14, 15), Up 2 to (14, 13), Right 5 to (19, 13), Down 5 onto stairs at (19, 18)
+    # 2. On B3F: Walk Right 9 to (14, 15), Up 2 to (14, 13), Right 5 to (19, 13), Down 5 onto stairs at (19, 18)
     print("Walking Right 9 to (14, 15)...")
     move("Right", 9)
     verify_position((14, 15), wait_time=0.5)
@@ -80,9 +53,7 @@ try:
     time.sleep(4.0)
     print("Position on B4F:", mgba.get_coordinates())
 
-    # Phase 4: B4F to Giovanni's Gate
-    # Current on B4F is (19, 15).
-    # Walk Right 6 to (25, 15), Up 8 to (25, 7), Turn Left to face the gate at (24, 7)
+    # 3. On B4F: Walk Right 6 to (25, 15), Up 8 to (25, 7), Turn Left to face the gate
     print("Walking Right 6 to (25, 15)...")
     move("Right", 6)
     verify_position((25, 15), wait_time=0.5)
@@ -99,5 +70,5 @@ try:
     mgba.take_screenshot()
 
 except Exception as e:
-    print("ERROR OCCURRED:", e)
+    print("ERROR:", e)
     mgba.take_screenshot()
