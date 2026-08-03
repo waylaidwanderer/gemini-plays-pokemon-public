@@ -6,3 +6,4 @@
 - EMPIRICAL PROBE RESULT (Turn 32969): Row 15 at Col 17 is a solid rock wall blocking Northbound movement from (17, 16).
 - Room (Cols 13-21, Rows 16-21): Large open cavern bounded North by Row 15 rock wall, South by Row 22-23 rock wall, East by Col 22 rock wall.
 - Secondary Ladder Warp: Tile (3, 3) in 1F connects directly to B1F at (37, 17). Step Down to (3, 4) to move off ladder.
+- Row 5 One-Way Ledge: Tile (3, 5) in 1F is a south-facing one-way ledge. Arriving at (3, 3) ladder, walk Down 2 steps to hop over Row 5 ledge to (3, 6), connecting directly East to Route 10 South Exit at (15, 7)!
