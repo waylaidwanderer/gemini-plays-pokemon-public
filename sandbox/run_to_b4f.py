@@ -1,111 +1,77 @@
 import mgba
 import time
 
-# Robust, self-validating path runner to B4F Giovanni's gate
+def move(d, steps=1):
+    for i in range(steps):
+        mgba.press_buttons([d, "sleep 300"])
+        time.sleep(0.4)
+    return mgba.get_coordinates()
 
-def get_stable_coords():
-    # Wait for any slide/animation to completely finish
-    last_pos = mgba.get_coordinates()
-    while True:
-        time.sleep(0.5)
-        cur_pos = mgba.get_coordinates()
-        if cur_pos == last_pos:
-            return cur_pos
-        last_pos = cur_pos
-
-def execute_move(direction, expected_coords=None, wait_stable=False, wait_time=0.4):
-    print(f"Pressing {direction}...")
-    mgba.press_buttons([direction, "sleep 300"])
-    
-    if wait_stable:
-        pos = get_stable_coords()
-    else:
-        time.sleep(wait_time)
-        pos = mgba.get_coordinates()
-        
-    print(f"  Current position: {pos}")
-    if expected_coords:
-        if (pos['x'], pos['y']) != expected_coords:
-            raise ValueError(f"COORDINATE DESYNC! Expected {expected_coords}, got {pos}")
+def verify_position(expected_coords, wait_time=3.0):
+    time.sleep(wait_time)
+    pos = mgba.get_coordinates()
+    print(f"  Coordinates: {pos} (expected: {expected_coords})")
+    if (pos['x'], pos['y']) != expected_coords:
+        raise ValueError(f"COORDINATE DESYNC! Expected {expected_coords}, got {pos}")
     return pos
 
-# We start at B3F (14, 15)
-pos = get_stable_coords()
-print("Starting run from:", pos)
-if (pos['x'], pos['y']) != (14, 15):
-    print("WARNING: Starting position is not (14, 15)!")
+# Standing at B3F (15, 18)
+print("Starting B3F to B4F run from:", mgba.get_coordinates())
 
 try:
-    # 1. Walk to B3F (15, 18)
-    execute_move("Right", (15, 15))
-    execute_move("Down", (15, 18), wait_stable=True) # slides to (15, 18)
+    # 1. Walk Left 2 onto (13, 18) LEFT spinner -> slides to (11, 20) stopper
+    print("Walking to (14, 18)...")
+    move("Left", 1)
+    print("Stepping Left onto (13, 18) LEFT spinner...")
+    move("Left", 1)
+    verify_position((11, 20))
 
-    # 2. Walk to B3F (11, 20) via (13, 18) LEFT spinner
-    execute_move("Left", (14, 18))
-    execute_move("Left", (11, 20), wait_stable=True)
+    # 2. Walk Right 2 onto Row 20 Column 13, then Up onto (13, 19) LEFT spinner -> slides to (10, 18) stopper
+    print("Walking to (13, 20)...")
+    move("Right", 2)
+    print("Stepping Up onto (13, 19) LEFT spinner...")
+    move("Up", 1)
+    verify_position((10, 18))
 
-    # 3. Walk to B3F (10, 18) via (13, 19) LEFT spinner -> (10, 19) UP spinner
-    execute_move("Right", (12, 20))
-    execute_move("Right", (13, 20))
-    execute_move("Up", (10, 18), wait_stable=True)
+    # 3. Walk Up onto (10, 17) RIGHT spinner -> slides to (14, 17) UP spinner stopper
+    print("Stepping Up onto (10, 17) RIGHT spinner...")
+    move("Up", 1)
+    verify_position((14, 17))
 
-    # 4. Walk to B3F (14, 15) via (10, 17) RIGHT spinner
-    # We found that stepping onto (10, 17) RIGHT spinner slides us to (14, 17) UP spinner stopper!
-    execute_move("Up", (14, 17), wait_stable=True)
-    # Then we walk Up 2 steps to (14, 15)
-    execute_move("Up", (14, 16))
-    execute_move("Up", (14, 15))
+    # 4. Walk Up 2 steps to (14, 15)
+    print("Walking Up 2 steps to (14, 15)...")
+    move("Up", 2)
+    verify_position((14, 15), wait_time=0.4)
 
-    # 5. Walk to B3F (16, 13) Right Room via (16, 14) UP spinner
-    execute_move("Right", (15, 15))
-    execute_move("Right", (16, 15))
-    execute_move("Up", (16, 13), wait_stable=True)
+    # 5. Walk to (16, 13) Right Room via (16, 14) UP spinner
+    print("Walking to (16, 15)...")
+    move("Right", 2)
+    print("Stepping Up onto (16, 14) UP spinner...")
+    move("Up", 1)
+    verify_position((16, 13))
 
     # 6. Walk Column 28 path on B3F to stairs at (19, 18) -> warps to B4F (19, 10)
     print("Walking to B3F stairs...")
-    for _ in range(12):
-        execute_move("Right")
-    pos = get_stable_coords()
-    if (pos['x'], pos['y']) != (28, 13):
-        raise ValueError(f"Desync on Right 12! Expected (28, 13), got {pos}")
-
-    for _ in range(5):
-        execute_move("Down")
-    pos = get_stable_coords()
-    if (pos['x'], pos['y']) != (28, 18):
-        raise ValueError(f"Desync on Down 5! Expected (28, 18), got {pos}")
-
-    for _ in range(9):
-        execute_move("Left")
-    pos = get_stable_coords()
-    print("Warp triggered. Stable coords after warp:", pos)
-    if (pos['x'], pos['y']) != (19, 10):
-        raise ValueError(f"Desync on warp DOWN to B4F! Expected (19, 10), got {pos}")
+    move("Right", 12) # to (28, 13)
+    move("Down", 5)   # to (28, 18)
+    move("Left", 9)   # to (19, 18) stairs
+    verify_position((19, 10), wait_time=4.0) # Wait for warp transition to B4F
 
     # 7. Walk B4F to the gate:
     # Down 6 from (19, 10) -> (19, 16)
-    for _ in range(6):
-        execute_move("Down")
-    pos = get_stable_coords()
-    if (pos['x'], pos['y']) != (19, 16):
-        raise ValueError(f"Desync on B4F Down 6! Expected (19, 16), got {pos}")
-
+    print("Walking Down 6 steps on B4F...")
+    move("Down", 6)
     # Right 6 from (19, 16) -> (25, 16)
-    for _ in range(6):
-        execute_move("Right")
-    pos = get_stable_coords()
-    if (pos['x'], pos['y']) != (25, 16):
-        raise ValueError(f"Desync on B4F Right 6! Expected (25, 16), got {pos}")
-
+    print("Walking Right 6 steps on B4F...")
+    move("Right", 6)
     # Up 9 from (25, 16) -> (25, 7)
-    for _ in range(9):
-        execute_move("Up")
-    pos = get_stable_coords()
-    if (pos['x'], pos['y']) != (25, 7):
-        raise ValueError(f"Desync on B4F Up 9! Expected (25, 7), got {pos}")
-
+    print("Walking Up 9 steps on B4F...")
+    move("Up", 9)
+    
+    pos = verify_position((25, 7), wait_time=1.0)
     print("Successfully reached Giovanni's Gate at B4F (25, 7) on foot!")
-    mgba.take_screenshot()
+    screenshot = mgba.take_screenshot()
+    print("Screenshot on B4F:", screenshot)
 
 except ValueError as e:
     print("ERROR OCCURRED:", e)
