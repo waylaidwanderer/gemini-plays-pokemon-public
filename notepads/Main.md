@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 32179)
-- Location: Route 8 (28, 15)
-- Active Protocol: At (28, 15) on Route 8; walking Right 1 to (29, 15), Up 5 to Row 10 at (29, 10), Left 9 to (20, 10), Down 4 to (20, 14), Left 11 to (9, 14), Down 2 to Row 16 Lower Highway at (9, 16), and Left 10 to (0, 16) Gatehouse sector.
+## CURRENT STATUS & DASHBOARD (Turn 32180)
+- Location: Route 8 (10, 15)
+- Active Protocol: At (10, 15) on Route 8; walking Up 1 to (10, 14) and systematically probing Down along Row 14/15 Eastbound to find exact southward descent gap to Lower Highway Row 16-19.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
