@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 33220)
-- Location: Rock Tunnel B1F (37, 25)
-- Active Protocol: Step Up 1 to (37, 24) and Down 1 into (37, 25) ladder to warp to 1F East Sector (37, 3), then walk Left toward Route 10 Exit at (15, 3).
+## CURRENT STATUS & DASHBOARD (Turn 33221)
+- Location: Rock Tunnel B1F (32, 25)
+- Active Protocol: Walk Right 1 to Col 33 (33, 25), Up 9 to Row 16 (33, 16), and Left along Row 16 Highway.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -191,6 +191,7 @@
 3. From (33, 16): Walk North 4 steps through North Ascent Bypass to Row 12 at (33, 12).
 4. From (33, 12): Walk Right 2 steps to (35, 12) -> North 8 steps through Upper Northern Passage to Row 4 at (35, 4).
 5. From (35, 4): Walk Left 8 steps, Up 1 step to 1F Exit Ladder at (27, 3)!
+- Main Ladder Warp: Tile (37, 25) in B1F connects directly to 1F East Sector at (37, 3), leading West to Route 10 South Exit at (15, 3)!
 
 <hr>
 
