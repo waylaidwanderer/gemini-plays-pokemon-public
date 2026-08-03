@@ -16,51 +16,35 @@ def verify_position(expected_coords, wait_time=3.0):
     return pos
 
 try:
-    print("Executing ultimate Rocket Hideout speedrun to Giovanni's Gate...")
-    print("Initial Position on B1F:", mgba.get_coordinates())
+    print("Resuming Rocket Hideout speedrun from B2F (25, 8)...")
+    print("Initial Position:", mgba.get_coordinates())
     
-    # Phase 1: B1F to B2F
-    # We are at (19, 3). Walk Right 4 to (23, 3), then Up 1 onto stairs at (23, 2)
-    print("Walking Right 4 to (23, 3)...")
-    move("Right", 4)
-    verify_position((23, 3), wait_time=0.5)
-
-    print("Walking Up 1 onto stairs to B2F...")
-    move("Up", 1)
-    # Warps to B2F (27, 8) spawning at (27, 9) facing Down
-    time.sleep(4.0)
-    print("Position on B2F:", mgba.get_coordinates())
-
-    # Phase 2: B2F to B3F pocket
-    # Current on B2F should be (27, 9) facing Down.
-    # Walk Left 2 to (25, 9), Down 5 to (25, 14), Left 4 to (21, 14)
-    print("Walking Left to (25, 9)...")
-    move("Left", 2)
-    verify_position((25, 9), wait_time=0.5)
-
-    print("Walking Down 5 to (25, 14)...")
-    move("Down", 5)
+    # 1. Walk Down 6 to (25, 14)
+    print("Walking Down 6 to (25, 14)...")
+    move("Down", 6)
     verify_position((25, 14), wait_time=0.5)
 
+    # 2. Walk Left 4 to (21, 14)
     print("Walking Left 4 to (21, 14)...")
     move("Left", 4)
     verify_position((21, 14), wait_time=0.5)
 
-    # Walk Up 3 to (21, 11), Left 3 to (18, 11), Left 1 onto (17, 11) LEFT spinner -> slides to (2, 9)
+    # 3. Walk Up 3 to (21, 11)
     print("Walking Up 3 to (21, 11)...")
     move("Up", 3)
     verify_position((21, 11), wait_time=0.5)
 
+    # 4. Walk Left 3 to (18, 11)
     print("Walking Left 3 to (18, 11)...")
     move("Left", 3)
     verify_position((18, 11), wait_time=0.5)
 
+    # 5. Stepping Left onto (17, 11) LEFT spinner -> slides to (2, 9)
     print("Stepping Left onto (17, 11) LEFT spinner...")
     move("Left", 1)
-    # Slides to B2F (2, 9)
     verify_position((2, 9), wait_time=3.0)
 
-    # Walk Right 1 to (3, 9), Down 4 to (3, 13), Right 1 onto stairs at (4, 13)
+    # 6. Walk Right 1 to (3, 9), Down 4 to (3, 13), Right 1 onto stairs at (4, 13)
     print("Walking Right to (3, 9)...")
     move("Right", 1)
     verify_position((3, 9), wait_time=0.5)
@@ -71,7 +55,7 @@ try:
 
     print("Walking Right 1 onto B3F stairs...")
     move("Right", 1)
-    # Warps to B3F (5, 15) spawning at (5, 15) facing Down/Right?
+    # Warps to B3F (5, 15) spawning at (5, 15) facing Down
     time.sleep(4.0)
     print("Position on B3F:", mgba.get_coordinates())
 
