@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 33391)
-- Location: Rock Tunnel 1F (3, 4)
-- Active Protocol: Step Up to (3, 3) ladder to return to B1F (37, 17), then navigate to B1F Main Exit Ladder at (27, 3).
+## CURRENT STATUS & DASHBOARD (Turn 33421)
+- Location: Rock Tunnel B1F (19, 27)
+- Active Protocol: Ascend Western Cavern Column 16 North to Row 3 -> Right across Row 3 to B1F Exit Ladder at (27, 3).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
