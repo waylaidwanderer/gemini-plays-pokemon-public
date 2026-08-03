@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 33194)
-- Location: Rock Tunnel B1F (37, 16)
-- Active Protocol: Run from wild Machop, walk Left 4 to (33, 16), Up 4 to (33, 12), Right 2 to (35, 12), and Up to (35, 4).
+## CURRENT STATUS & DASHBOARD (Turn 33195)
+- Location: Rock Tunnel B1F (33, 16)
+- Active Protocol: Ascend North Ascent Bypass (Up 4 to 33,12, Right 2 to 35,12, Up 8 to 35,4) to Upper Exit Chamber.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
