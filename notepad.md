@@ -533,7 +533,7 @@
 - Column 35 Fence: Vertical wooden fence from y=20 down to y=25.
 - Row 19 Ledges: One-way south-facing ledges across Cols 32-37.
 - Column 24 Railing: West railing at (24, 18) blocks entry from (23, 18).
-- Row 22 Highway: Row 22 is open grass/pavement from Col 34 all the way West to Col 17 (bypasses Col 35 fence, Col 31 NPC, and Col 27 signpost).
+- Row 20 Highway: Row 20 is open light grey pavement from Col 28 West to Col 17 slope (bypasses Col 27 signboard and Col 31 NPC via Row 21). Column 35 Fence spans Rows 20 through 25.
 - Column 17 Slope: Open North-South pavement from (17, 26) up to Row 16 (17, 16).
 
 <hr>
