@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 34439)
-- Location: Rock Tunnel 1F (14, 18) - Southern Cavern
-- Active Protocol: Up 4 to (14, 14) -> Right 3 to (17, 14) -> inspect North/East corridors
+## CURRENT STATUS & DASHBOARD (Turn 34442)
+- Location: Rock Tunnel 1F (14, 14) - Main Cavern
+- Active Protocol: Right 3 to (17, 14) -> Up 3 to (17, 11) Ladder to B1F (23, 11)
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge

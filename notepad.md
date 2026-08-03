@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 34439)
-- Location: Rock Tunnel 1F (14, 18) - Southern Cavern
-- Active Protocol: Up 4 to (14, 14) -> Right 3 to (17, 14) -> inspect North/East corridors
+## CURRENT STATUS & DASHBOARD (Turn 34442)
+- Location: Rock Tunnel 1F (14, 14) - Main Cavern
+- Active Protocol: Right 3 to (17, 14) -> Up 3 to (17, 11) Ladder to B1F (23, 11)
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -179,7 +179,7 @@
 - Central Wall: Columns 12 and 13 are solid rock wall from Row 6 down to Row 13.
 - Row 14 East-West Corridor: Row 14 (Cols 11-17) is an open floor corridor connecting West and East sectors.
 - Rock Wall Barrier at Row 15: Tile (17, 15) and Rows 14-15 across Columns 18-22 are solid rock walls.
-- Southern Open Cavern: Rows 18-20 across Columns 13-25 form the main open cavern connecting East to the exit passage.
+- Southern Cavern: Rows 18-20 across Columns 13-21 form a dead-end cavern bounded East by Col 22 rock wall.
 
 <hr>
 
