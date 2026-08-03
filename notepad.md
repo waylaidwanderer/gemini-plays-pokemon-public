@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 34189)
-- Location: Rock Tunnel B1F (10, 27) - Western Cavern
-- Active Protocol: Walk Left 4 to (6, 27) -> Down to Row 30 Sector Bypass Passage -> East 17 to East Sector (27, 30) -> Exit Ladder (27, 3)!
+## CURRENT STATUS & DASHBOARD (Turn 34191)
+- Location: Rock Tunnel B1F (2, 27) - Western Cavern
+- Active Protocol: Walk Right 8 to (10, 27) -> Right/East to Col 14 (14, 27) -> Down through (14, 28/29) to Row 30 Sector Bypass Passage -> East to East Sector -> Exit Ladder (27, 3)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
