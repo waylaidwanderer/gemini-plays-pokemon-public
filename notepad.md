@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 32958)
+## CURRENT STATUS & DASHBOARD (Turn 32959)
 - Location: Rock Tunnel 1F (15, 21)
-- Active Protocol: Walk Down 6 steps along Col 15 to (15, 27) to exit Rock Tunnel to Route 10 South.
+- Active Protocol: Probe Right 3 steps along Row 21 to (18, 21) looking for South passage around Row 22-23 wall.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -167,7 +167,7 @@
 - B1F Secondary Ladder / Exit Arrival: (5, 3) (in western sector of 1F).
 - Row 16 Barrier: Horizontal rock wall at Row 16 (Cols 1-7). Row 10-15 (Cols 6-7) forms a vertical rock wall pillar.
 - Row 22-23 Barrier: Horizontal rock wall across Cols 5-14 on Rows 22-23.
-- Route 10 South Exit Highway: From (9, 21) -> Right 6 to (15, 21) -> South to Route 10 South exit.
+- Route 10 South Exit Corridor: Col 15 open southbound highway from Row 21 through Row 27+ to Route 10 South exit at (15, 27).
 
 <hr>
 
@@ -592,9 +592,9 @@
 - Route 10 Entrance: (15, 3)
 - B1F Main Ladder: (37, 3) (accessed via East corridor: 15,3 -> East to Col 20 -> South to Row 11 -> East to Col 37 -> North to 37,3).
 - B1F Secondary Ladder / Exit Arrival: (5, 3) (in western sector of 1F).
-- Row 16 Barrier: Horizontal rock wall at Row 16 (Cols 1-7). Row 10-15 (Cols 6-7) forms a vertical rock wall pillar.
-- Row 22-23 Barrier: Horizontal rock wall across Cols 5-14 on Rows 22-23.
-- Route 10 South Exit Corridor: Col 15 open southbound highway from Row 21 through Row 27+ to Route 10 South exit at (15, 27).
+- Row 16 Barrier: Horizontal rock wall at Row 16 (Cols 1-7).
+- Row 22-23 Barrier: Horizontal rock wall across Cols 5-20 on Rows 22-23.
+- Route 10 South Exit Search: Exploring East along Row 21 (15, 21 -> 20+) to locate South passage around Row 22-23 barrier.
 
 <hr>
 
