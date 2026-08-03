@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 32521)
-- Location: Burglarized House (0, 2)
-- Active Protocol: Navigate around interior obstacles to back wall exit hole -> Exit to North Cerulean (27, 9) -> Walk East to Route 9 Entrance.
+## CURRENT STATUS & DASHBOARD (Turn 32551)
+- Location: Cerulean City (34, 20)
+- Active Protocol: Walk Left 1 to Col 33 (33, 20) -> Walk North 4 along Col 33 to Row 16 Highway (33, 16) -> Walk East 5 along Row 16 to Route 9 Entrance at (38, 16).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
