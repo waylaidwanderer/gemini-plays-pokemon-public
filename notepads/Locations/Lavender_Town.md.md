@@ -15,3 +15,8 @@
 - EMPIRICAL PROBE RESULT (Turn 28129): Stepping Down from (8, 22) to (8, 23) BUMPED into dark green tree barrier at (8, 23). Column 8 is part of the central tree barrier (Cols 8 & 9). Open southbound path is at Column 6 / Column 5: Left 2 to (6, 22) -> Down 4 to Row 26 (6, 26) -> East 7 to Col 13 (13, 26)!
 - EMPIRICAL PROBE RESULT (Turn 28753): Column 13 at Row 19 (13, 19) is the East wall of the Pokemon Center building. Open North-South highway is Column 14 (14, 20 to 14, 9) green grass!
 - EMPIRICAL PROBE RESULT (Turn 28755): Column 14 at Row 11 (14, 11) is a grey gravestone statue monument. Open gap to Row 9 is at Column 13 (13, 11) gravel pass!
+
+### Verified Map Transitions & Topography (Turn 32102)
+- Route 10 South Two-Way Warp: Lavender Town (8, 17) / (8, 18) <-> Route 10 South (15, 3). Stepping UP into (8, 17) in Lavender Town warps player back to Route 10 South at (15, 3).
+- Fence Boundary at x=1: Column 1 at Row 18 is a solid vertical fence/wall.
+- Route 8 West Access via Row 22: Row 22 is an open light grey pavement corridor from x=7 left through x=0 / x=-1 onto Route 8 West.
