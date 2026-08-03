@@ -16,23 +16,24 @@ def verify_position(expected_coords, wait_time=3.0):
     return pos
 
 try:
-    print("Executing B3F to B4F Western Room stairs...")
+    print("Executing revised B3F to B4F Western Room stairs navigation...")
     print("Initial Position:", mgba.get_coordinates())
     
-    # 1. Walk Down 3 to (21, 25)
-    print("Walking Down 3 steps to (21, 25)...")
-    move("Down", 3)
-    verify_position((21, 25), wait_time=0.5)
+    # We are at B3F (19, 25)
+    # 1. Walk Up 4 steps to (19, 21)
+    print("Walking Up 4 steps to (19, 21)...")
+    move("Up", 4)
+    verify_position((19, 21), wait_time=0.5)
 
-    # 2. Walk Left 5 to (16, 25)
-    print("Walking Left 5 steps to (16, 25)...")
-    move("Left", 5)
-    verify_position((16, 25), wait_time=0.5)
+    # 2. Walk Left 3 steps to (16, 21) via (18, 21) gap
+    print("Walking Left 3 steps to (16, 21)...")
+    move("Left", 3)
+    verify_position((16, 21), wait_time=0.5)
 
-    # 3. Walk Up 12 to (16, 13)
-    print("Walking Up 12 steps to (16, 13)...")
-    move("Up", 12)
-    verify_position((16, 13), wait_time=0.5)
+    # 3. Walk Up 8 steps to (16, 13)
+    print("Walking Up 8 steps to (16, 13)...")
+    move("Up", 8)
+    verify_position((16, 13), wait_time=2.0) # wait for spinner slide to complete!
 
     # 4. Walk Right 3 to (19, 13)
     print("Walking Right 3 steps to (19, 13)...")
@@ -66,5 +67,5 @@ try:
     mgba.take_screenshot()
 
 except Exception as e:
-    print("ERROR:", e)
+    print("ERROR OCCURRED:", e)
     mgba.take_screenshot()
