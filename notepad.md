@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 32200)
-- Location: Route 8 (46, 14)
-- Active Protocol: At (46, 14) on Route 8; walking Right 13 to Col 59 map boundary to warp to Lavender Town (8, 18), taking Row 26 pavement West to (0, 26) onto Route 8 Lower Highway (59, 19), then walking Left 29 along Row 19 to enter Gatehouse doorway at (30, 19).
+## CURRENT STATUS & DASHBOARD (Turn 32201)
+- Location: Route 8 (53, 14)
+- Active Protocol: At (53, 14) on Route 8; stepping Down 3 to hop Col 53 ledge onto Row 17 Lower Highway at (53, 17), walking Left 23 along Row 17 pavement to (30, 17), Down 2 to Gatehouse doorway at (30, 19), and Up 2 into building doorway to warp inside.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
