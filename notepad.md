@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 32641)
-- Location: Cerulean City (17, 16)
-- Active Protocol: Systematically probe Cerulean City boundaries to locate open passage to Route 9.
+## CURRENT STATUS & DASHBOARD (Turn 32671)
+- Location: Cerulean City (19, 27)
+- Active Protocol: Use Cut on tree at (19, 28) to access Row 29 South Cerulean Highway Eastbound to Col 39 -> Route 9.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
