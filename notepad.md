@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 32930)
-- Location: Rock Tunnel B1F (33, 12)
-- Active Protocol: Right 2 to (35, 12), then Up 4 along Col 35 to (35, 8) in Upper Northern Cavern.
+## CURRENT STATUS & DASHBOARD (Turn 32931)
+- Location: Rock Tunnel B1F (35, 8)
+- Active Protocol: Walk Up 4 steps along Col 35 to (35, 4) into Upper Exit Chamber.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -177,7 +177,8 @@
 - South Corridor: Rows 30-33 open highway running East-West (Cols 2-37). Bounded South by Row 34 rock wall.
 - West Passage (Col 16-17): Northbound passage connecting South Corridor (Row 31) to Row 27 Western Highway.
 - Row 16 Highway: Open East-West corridor across Cols 20-33 on Row 16.
-- North Ascent Bypass (Cols 32-35): VERIFIED OPEN NORTHBOUND PASSAGE connecting Row 16 at (33, 16) North through Rows 14-15 to Upper Northern Cavern (Rows 12 and above).
+- North Ascent Bypass (Cols 32-35): VERIFIED OPEN NORTHBOUND PASSAGE connecting Row 16 at (33, 16) North through Rows 14-15 to (33, 12).
+- Upper Northern Passage (Cols 34-37): Open northbound passage through (35, 8/9) connecting Row 12 to Upper Northern Cavern (Rows 3-7 where 1F exit ladder is located).
 
 <hr>
 
@@ -600,6 +601,6 @@
 - West Passage (Col 16-17): Northbound passage connecting South Corridor (Row 31) to Row 27 Western Highway.
 - Row 16 Highway: Open East-West corridor across Cols 20-33 on Row 16.
 - North Ascent Bypass (Cols 32-35): VERIFIED OPEN NORTHBOUND PASSAGE connecting Row 16 at (33, 16) North through Rows 14-15 to (33, 12).
-- Upper Northern Passage (Cols 34-37): Open northbound passage through (35, 8/9) connecting Row 12 to Upper Northern Cavern (Rows 3-7 where 1F exit ladder is located).
+- Upper Northern Passage (Cols 34-37): Open northbound passage connecting Row 12 through (35, 8) North to Row 4/5 Upper Exit Chamber (Cols 31-37).
 
 <hr>

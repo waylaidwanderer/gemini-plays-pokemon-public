@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 32930)
-- Location: Rock Tunnel B1F (33, 12)
-- Active Protocol: Right 2 to (35, 12), then Up 4 along Col 35 to (35, 8) in Upper Northern Cavern.
+## CURRENT STATUS & DASHBOARD (Turn 32931)
+- Location: Rock Tunnel B1F (35, 8)
+- Active Protocol: Walk Up 4 steps along Col 35 to (35, 4) into Upper Exit Chamber.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
