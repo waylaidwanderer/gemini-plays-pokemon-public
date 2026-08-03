@@ -210,9 +210,6 @@
 - Column 13 (Rows 13-26) is a two-way open highway bypassing the Row 16 ledge.
 - Route 8 Entrance at (0,9) path from (7,22): West to Col 5 -> South to Row 26 -> East along Row 26 to Col 13 -> North along Col 13 to Row 13 -> Up through (13,11) gravel gap to Row 9 -> West along Row 9 to (0,9).
 
-- EMPIRICAL PROBE RESULT (Turn 28753): Column 13 at Row 19 (13, 19) is the East wall of the Pokemon Center building. Open North-South highway is Column 14 (14, 20 to 14, 9) green grass!
-- EMPIRICAL PROBE RESULT (Turn 28755): Column 14 at Row 11 (14, 11) is a grey gravestone statue monument. Open gap to Row 9 is at Column 13 (13, 11) gravel pass!
-
 ### Verified Map Transitions & Topography (Turn 32102)
 - Route 10 South Two-Way Warp: Lavender Town (8, 17) / (8, 18) <-> Route 10 South (15, 3). Stepping UP into (8, 17) in Lavender Town warps player back to Route 10 South at (15, 3).
 - Fence Boundary at x=1: Column 1 at Row 18 is a solid vertical fence/wall.
