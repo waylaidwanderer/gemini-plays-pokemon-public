@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 32922)
-- Location: Rock Tunnel B1F (21, 22)
-- Active Protocol: Walk Up 5 steps along Col 21 to (21, 17) in Northern Highway.
+## CURRENT STATUS & DASHBOARD (Turn 32923)
+- Location: Rock Tunnel B1F (21, 17)
+- Active Protocol: Left 4 to (17, 17), then Up 4 along Col 17 to (17, 13) on Row 13 Northern Highway.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
