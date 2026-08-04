@@ -21,7 +21,7 @@
 - Row 5 across Cols 7-12 is solid rock wall (blocking Up from 7, 6).
 - Column 5 (x=5) and Column 6 (x=6) are open Northbound corridor through Row 5 to Ladder (5, 3) and Row 3 Top Highway!
 
-- Columns 26-29 form vertical corridor (Rows 3-10) bounded East by Col 30 rock wall.
+- Column 23 (x=23) is the open Northbound corridor bypassing the Row 8-9 rock wall barrier (which spans Cols 24-32) up to Row 3 Top Highway at (23, 3).
 - Tile (30, 10) is solid rock wall.
 - Row 13 (Cols 28-34) is open East-West highway bypassing Col 30 rock wall into East Sector!
 - Rock Wall Barrier at Row 14/15: Rows 14-15 across Columns 21-30 are solid rock walls blocking Northbound movement past Row 16.
