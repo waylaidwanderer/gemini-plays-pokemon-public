@@ -375,11 +375,20 @@
 
 <h1><code>Scratchpad/Route_8_Navigation</code></h1>
 
-# Verified Route 8 to Underground Path Solution
+# Route 8 Exploration & Top Northern Highway Access
 
-## Master Route to Underground Path Building (14, 5) via Row 14 Lower Highway
-1. From (34, 14) on Row 14 Green Grass: Walk Left 20 steps along Row 14 Green Grass to Column 14 at (14, 14).
-2. Walk Up 9 steps along Column 14 to Underground Path Building doorway at (14, 5).
+## Key Physical Facts & Collision Boundaries
+- Route 8 Entrance from Lavender Town (0, 9) lands player at (59, 9) on Upper Highway pavement (Row 8/9).
+- Column 60 on Route 8 is the eastern map border tile that warps back to Lavender Town at (0, 8)/(0, 9). Playable grid is Cols 0 to 59.
+- Column 45 Rock Wall spans Rows 8-13 across x=42-45.
+- Column 27 Rock Wall spans Rows 12-15 across x=24-27.
+- Lower Basin (Rows 14-15, Cols 28-45) is a one-way lower enclosure bounded North by Row 13 south-facing ledge wall and West by Column 27 rock wall.
+- Saffron Gatehouse building roof/wall extends continuously across Cols 26-53 on Rows 16-19.
+
+## Active Protocol: Upper Highway Passages (Cols 48-58)
+1. From Lavender Town (4, 9): Walk Left 5 steps to Route 8 entrance at (0, 9) -> warps to Route 8 at (59, 9).
+2. Probe Rows 8 & 9 West across Columns 58 down to 48.
+3. Probe Rows 7, 6, 5 northbound gaps across Columns 52-58 to find the two-way northbound passage connecting Upper Highway directly to Row 4 Top Northern Highway.
 
 <hr>
 
