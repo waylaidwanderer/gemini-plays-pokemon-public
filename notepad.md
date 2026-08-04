@@ -817,6 +817,7 @@
   - (17, 9) is verified as open and walkable immediately adjacent to the staircase (Turn 18635).
 - **Trainers on 6F:**
   - Channeler at (12, 10) facing Right. Defeated on Turn 18659. (Roster: Gastly Lv 22, Gastly Lv 22, Gastly Lv 22).
+  - Channeler at (16, 5) facing Left. Defeated on Turn 18670. (Roster: Gastly Lv 24).
 
 
 <hr>
