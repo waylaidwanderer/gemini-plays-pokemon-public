@@ -28,7 +28,7 @@
 
 ## Current Party Stats (as of Turn 18215)
 1. **SHELLBY** (Blastoise)
-   - Level: 46
+   - Level: 47
    - Status: Healthy
    - Moveset: SKULL BASH (Max PP: 15), ICE BEAM (Max PP: 10) (Taught on Turn 13537, forgot TAIL WHIP), BITE (Max PP: 25), WATER GUN (Max PP: 25)
 2. **TRUFFLE** (Paras)
