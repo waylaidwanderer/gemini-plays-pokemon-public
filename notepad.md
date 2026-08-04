@@ -85,7 +85,8 @@
 ## Major Exploration Phases and Timestamps
 - **Saffron West/East Gatehouse Tests:** Turn 12616 (East Gatehouse tested), Turn 18179 to 18184 (West Gatehouse tested, confirmed Saffron City is blocked by thirsty guards).
 - **Underground Path Traversal (West to East):** Turn 18186 to 18193 (Entered Route 7 building, walked tunnel, exited Route 8 building).
-- **Route 8 Eastward Journey:** Started Turn 18197 (Exited building to Route 8), current Turn 18239.
+- **Route 8 Eastward Journey:** Started Turn 18197, Completed on Turn 18244. (Exited building, walked east, entered Lavender Town).
+- **Pok�mon Tower Exploration:** Started Turn 18258 (Entered Pok�mon Tower, engaged Rival JACK on 2F on Turn 18281).
 
 
 <hr>
@@ -357,7 +358,6 @@
 - Dimensions: To Be Determined (width=60 verified, height=To Be Determined).
 
 ## Mapped Coordinates & Layout
-- **Saffron City Gatehouse (Verified - Visited on Turn 12616):** Entrance at (5, 11) on Route 8.
 
 ### Verified Walkable Coordinates (Physically stepped on in this session):
 - Row 2: (23, 2), (24, 2), (25, 2), (26, 2), (27, 2), (28, 2), (29, 2), (30, 2), (31, 2), (32, 2), (33, 2), (34, 2), (35, 2), (36, 2), (37, 2), (38, 2), (39, 2), (40, 2), (41, 2), (42, 2), (43, 2), (44, 2)
