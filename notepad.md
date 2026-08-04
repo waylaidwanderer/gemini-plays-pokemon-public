@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 35597)
-- Location: Route 8 (41, 12)
-- Active Protocol: Left 12 along Row 12 green grass corridor to Col 29 gap at (29, 12) -> Hop DOWN Col 29 gap to Row 20/27 South Highway -> West to Underground Path doorway at (19, 20/17)!
+## CURRENT STATUS & DASHBOARD (Turn 35641)
+- Location: Route 8 (45, 14)
+- Active Protocol: East along Row 14 green grass highway towards Col 52 to access Lower Highway East!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
