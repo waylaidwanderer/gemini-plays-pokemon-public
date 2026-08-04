@@ -30,7 +30,7 @@
 
 - **Rainbow Badge:** Earned by defeating Gym Leader Erika in Celadon City Gym on Turn 13682.
 
-## Current Party Stats (as of Turn 19261)
+## Current Party Stats (as of Turn 19358)
 
 1. **SHELLBY** (Blastoise)
 
