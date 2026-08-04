@@ -96,3 +96,4 @@
 - EMPIRICAL PROBE RESULT (Turn 36656): Tile (19, 4) on Row 4 is a solid mountain rock cliff wall blocking Westbound movement on Row 4.
 - EMPIRICAL PROBE RESULT (Turn 36742): Tile (5, 8) is a non-cuttable decorative tree stump / scenery obstacle ('There isn't anything to CUT!').
 - EMPIRICAL PROBE RESULT (Turn 36744): Tile (5, 10) is a solid stone wall / pillar blocking southbound movement.
+- EMPIRICAL PROBE RESULT (Turn 36790): Tile (25, 7) is a solid building roof/structure (bumped stepping Up from 25, 8).
