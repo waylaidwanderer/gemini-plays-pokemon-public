@@ -494,7 +494,7 @@ Goal: Systematically probe every column in the enclosed Lower Pavement Channel (
 - Tile (20, 9) is a south-facing ledge wall (empirically confirmed turn 35854).
 - Row 11 across Cols 10-19 is a south-facing ledge wall blocking northbound movement from Row 12 green grass (empirically confirmed turns 35847 & 35870).
 - Underground Path Entrance Building Doorway: Verified red doorway frame located on Row 5 at (14, 5)!
-- Upper Highway (Rows 8 & 9, Cols 6-13): Open light grey pavement running directly to (13, 9) doorway, accessed via Col 20 / Col 25 / Col 60 northbound passage.
+
 - EMPIRICAL PROBE RESULT (Turn 35960): Tile (20, 9) is a south-facing ledge wall blocking northbound movement from Row 10 to Row 9 at Col 20.
 
 - EMPIRICAL PROBE RESULT (Turn 36042): Tile (19, 13) is a south-facing ledge wall blocking northbound movement from Row 14 to Row 12 at Col 19.
