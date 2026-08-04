@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 34604)
-- Location: Rock Tunnel B1F (14, 17)
-- Active Protocol: Up 1 to Row 16 Highway (14, 16) -> East to Col 33 (33, 16) -> North to Row 12 -> Col 35 -> Row 4 -> Exit Ladder (27, 3)!
+## CURRENT STATUS & DASHBOARD (Turn 34605)
+- Location: Rock Tunnel B1F (17, 16)
+- Active Protocol: Up 4 to Row 12 Highway (17, 12) -> East to Col 33 (33, 12) -> Col 35 -> Row 4 -> Exit Ladder (27, 3)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -676,5 +676,7 @@
 - Verified: Row 22 across Cols 12-19 is solid rock wall. Western Cavern (Cols 2-6) is the verified open bypass corridor!
 - Columns 6-7 across Rows 14-23 are solid rock wall (blocking West from Col 8).
 - Column 8 is an open North-South corridor connecting Row 17 to Row 27!
+- Cols 18-19 across Rows 14-20 are solid rock wall (blocking East on Row 16).
+- Row 12 across Cols 14-35 is open East-West highway connecting West/Middle Sector directly to East Sector Upper Northern Passage!
 
 <hr>

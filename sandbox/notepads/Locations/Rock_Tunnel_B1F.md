@@ -38,3 +38,5 @@
 - Verified: Row 22 across Cols 12-19 is solid rock wall. Western Cavern (Cols 2-6) is the verified open bypass corridor!
 - Columns 6-7 across Rows 14-23 are solid rock wall (blocking West from Col 8).
 - Column 8 is an open North-South corridor connecting Row 17 to Row 27!
+- Cols 18-19 across Rows 14-20 are solid rock wall (blocking East on Row 16).
+- Row 12 across Cols 14-35 is open East-West highway connecting West/Middle Sector directly to East Sector Upper Northern Passage!
