@@ -375,16 +375,12 @@
 
 <h1><code>Scratchpad/Route_8_Navigation</code></h1>
 
-# Ultimate Master Route to Route 8 Underground Path Building (14, 5)
+# Verified Route to Route 8 Underground Path Building (14, 5)
 
-1. Teleport to Lavender Town PC (11, 20).
-2. Exit Lavender Town to Route 8 Upper Highway at (59, 9):
-   - From (11, 20): Right 3, Up 4 to (14, 16) -> Left 1, Up 7 to (13, 9) -> Left 13 to (0, 9) -> Left 1 to Route 8 (59, 9).
-3. Walk West on Row 9 pavement to Col 46 at (46, 9) [Left 13 steps].
-4. Bypass Col 45 rock wall via Row 7 corridor:
-   - Up 2 to (46, 7) -> Left 5 to (41, 7) -> Down 2 to (41, 9).
-5. Walk West along Row 8/9 pavement from (41, 9) to Col 14 at (14, 8) [Left 27 steps].
-6. Walk Up 3 steps from (14, 8) through (14, 7), (14, 6) into Underground Path Building doorway at (14, 5)!
+1. From (46, 10): Walk Down 4 steps to hop over Col 46 ledge (46, 13) to Row 14 Lower Highway at (46, 14).
+2. Walk Left 17 steps along Row 14 green grass (bypassing Col 45 rock wall!) to Col 29 Ascent Gap at (29, 14).
+3. Step Up 5 steps through (29, 13) gap to Row 9 Upper Highway Pavement at (29, 9).
+4. Walk Left 9 steps to (20, 8) -> Down 4 to (20, 12) -> Left 6 across Col 19 gap to (14, 12) -> Up 7 to (14, 5) Underground Path Building!
 
 <hr>
 
