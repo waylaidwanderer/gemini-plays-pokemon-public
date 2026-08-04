@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 35587)
-- Location: Route 8 (31, 12)
-- Active Protocol: Left 2 to (29, 12) -> Up 2 along Col 29 gap to Row 10 pavement at (29, 10) -> Left 8 along Row 10 pavement above building to (21, 10) -> Col 20 South to Row 12 -> West to Col 19 gap -> Down Col 19 gap -> West to Underground Path doorway!
+## CURRENT STATUS & DASHBOARD (Turn 35588)
+- Location: Route 8 (21, 10)
+- Active Protocol: Left 1 to (20, 10) -> Down 2 to (20, 12) -> Left 1 to (19, 12) -> Down 2 through Col 19 gap to Row 14 pavement at (19, 14) -> Left 6 to Saffron Gatehouse area at (13, 14) / Underground Path doorway at (9, 10)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
