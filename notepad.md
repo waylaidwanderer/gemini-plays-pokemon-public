@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 35380)
-- Location: Rock Tunnel B1F (13, 31)
-- Active Protocol: At (13, 31) on Row 31 Sector Bypass. Walk Left 9 to Col 4 at (4, 31) in Western Cavern -> Up 15 through Western Cavern to Row 16 Highway -> East to Col 33 -> Exit Ladder at (37, 3)!
+## CURRENT STATUS & DASHBOARD (Turn 35392)
+- Location: Rock Tunnel 1F (37, 3)
+- Active Protocol: Reached 1F from B1F ladder. At (37, 3) on 1F. Walk South 8 along Col 37 to (37, 11) -> Down 1 to (37, 12) to Exit Rock Tunnel into Route 10 South!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
