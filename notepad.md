@@ -26,11 +26,11 @@
 - **Thunder Badge:** Earned by defeating Gym Leader Lt. Surge in Vermilion City Gym on Turn 7025.
 - **Rainbow Badge:** Earned by defeating Gym Leader Erika in Celadon City Gym on Turn 13682.
 
-## Current Party Stats (as of Turn 17082)
+## Current Party Stats (as of Turn 18215)
 1. **SHELLBY** (Blastoise)
    - Level: 45
-   - HP: 93/142
-   - Status: Poisoned (PSN)
+   - HP: 142/142
+   - Status: Healthy
    - Moveset: SKULL BASH (12/15), ICE BEAM (0/10) (Taught on Turn 13537, forgot TAIL WHIP), BITE (5/25), WATER GUN (25/25)
 2. **TRUFFLE** (Paras)
    - Level: 15
