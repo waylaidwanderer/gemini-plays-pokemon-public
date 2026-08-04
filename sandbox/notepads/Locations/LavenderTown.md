@@ -4,7 +4,7 @@
 - Dimensions: To Be Determined.
 
 ## Points of Interest
-- **Pokémon Center:** Entrance door at `(3, 5)`. Inside, the entrance mat is at `(3, 7)`, and Nurse Joy is at `(3, 2)`.
+- **Pokémon Center:** Entrance door at `(3, 13)`. Inside, the entrance mat is at `(3, 7)`, and Nurse Joy is at `(3, 2)`.
 - **Poké Mart:** To Be Discovered.
 - **Volunteer Pokémon House (Mr. Fuji):** Located in the center/south. Entrance door at `(7, 9)` (verified on Turn 18173). Spawn inside on the carpet at `(3, 7)`.
 - **Poké Mart:** Entrance door at `(15, 13)` (verified on Turn 18909). Spawn inside on the carpet at `(3, 7)`.
