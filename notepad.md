@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 37055)
-- Location: Route 8 (29, 10)
-- Active Protocol: At (29, 10) on Row 10 grass -> Single-step probe Up 1 to Row 9 Upper Highway at (29, 9) -> Single-step probe Up 1 to Row 8 green grass at (29, 8) -> Walk Left 23 along Row 8 pavement across Col 9 cliff to (6, 8) -> Single-step probe Up 2 to Row 6 grass at (6, 6) -> Walk Left to (2, 6) -> Step Up 1 into doorway at (2, 5).
+## CURRENT STATUS & DASHBOARD (Turn 37081)
+- Location: Route 8 (25, 8)
+- Active Protocol: At (25, 8) -> Left 2 to (23, 8) -> Up 2 to (23, 6) -> Right 2 to (25, 6) -> Up 2 through (25, 5) gap to (25, 4) Row 4 Northern Highway Green Grass -> Walk Left along Row 4/5 green grass to Underground Path building entrance at (14, 5).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
