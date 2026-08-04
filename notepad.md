@@ -387,8 +387,8 @@ Goal: Systematically probe every column in the enclosed Lower Pavement Channel (
 ## Column-by-Column Probing Status
 - Col 10: UP to (10, 13) -> BUMPED (Ledge Wall)
 - Col 11: UP to (11, 13) -> BUMPED (Ledge Wall) | DOWN to (11, 16) -> BUMPED (Building Wall)
-- Col 12: Probing UP (12, 13) and DOWN (12, 16)
-- Col 13: UP to (13, 13) -> Pending | DOWN to (13, 16) -> Pending
+- Col 12: UP to (12, 13) -> BUMPED (Ledge Wall) | DOWN to (12, 16) -> BUMPED (Building Wall)
+- Col 13: Probing UP (13, 13) and DOWN (13, 16)
 - Col 14: UP to (14, 13) -> Pending | DOWN to (14, 16) -> Pending
 - Col 15: UP to (15, 13) -> Pending | DOWN to (15, 16) -> Pending
 - Col 16: UP to (16, 13) -> Pending | DOWN to (16, 16) -> Pending
