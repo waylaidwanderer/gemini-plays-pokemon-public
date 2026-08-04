@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 36121)
-- Location: Route 8 (46, 15)
-- Active Protocol: Navigating Row 14 Green Grass Highway West across Column 45 to Column 29 Ascent Gap at (29, 13)!
+## CURRENT STATUS & DASHBOARD (Turn 36151)
+- Location: Lavender Town (10, 9)
+- Active Protocol: Navigating West along Row 9 to Route 8 map transition at (0, 9)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
