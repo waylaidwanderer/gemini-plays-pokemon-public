@@ -10,7 +10,7 @@
 - Row 12 and below on columns 47-51 are water.
 - Row 10 has trainers standing on the dock.
 - **Picket Fence Maze Boundaries:**
-  - Row 10 is fully open and walkable for westward traversal.
+  - Row 10 has a permanent block at `(7, 10)` by a defeated Bird Keeper who remains standing there forever, requiring a detour through Row 11 (columns 6 to 9) to bypass him.
   - Row 12 is blocked at column 16 by impassable brown logs `(16, 12)`.
   - Column 22 on row 11 `(22, 11)` has a walkable white picket fence that connects row 12 and row 10.
 ## Defeated Trainers
@@ -28,7 +28,7 @@
 ## Mechanics & Collision
 - **Walkable Picket Fences:** The white picket fence tiles of Route 13 are walkable and passable, allowing the player to navigate directly through them to traverse the maze. However, the brown log fences are solid and impassable.
 ## Detailed Maze Layout & Collision Coordinates
-- **Row 4:** A completely open horizontal corridor extending across the entire map, allowing uninhibited westward traversal to Route 14, although it has a Cut-able tree at `(34, 4)` that regenerates when scrolled off-screen.
+- **Row 4:** Row 4 is a horizontal corridor extending across the map, but it is blocked at Column 26 `(26, 4)` by a log fence, and has a Cut-able tree at `(34, 4)` that regenerates when scrolled off-screen. Bypassing the Column 26 log fence requires walking Down to Row 6, West to column 17, Down to Row 8, and East along Row 8 past Column 26.
 - **Row 5:** Blocked by log fences from column 16 to column 22.
 - **Row 6:** Open from column 17 to column 27, but blocked at `(16, 6)` by a log fence.
 - **Row 7:** Blocked by log fences from column 12 to 16, and column 18 to 22. Column 17 is empty and passable.
