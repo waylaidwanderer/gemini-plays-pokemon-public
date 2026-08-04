@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 36604)
-- Location: Lavender Town (11, 20)
-- Active Protocol: Walking West to (0, 20) -> Up to (0, 9) Route 8 Entrance -> re-enter Route 8 Upper Highway at (59, 9) -> Underground Path at (14, 5).
+## CURRENT STATUS & DASHBOARD (Turn 36627)
+- Location: Route 8 (59, 9)
+- Active Protocol: Re-entered Route 8 Upper Highway at (59, 9). Traversing Upper Highway West to (46, 9) -> Down to Row 14 Green Grass at (46, 14) -> West to Col 29 gap at (29, 14) -> Up to Row 8 Corridor (29, 8) -> Col 24 gap to Row 4 Top Northern Highway (24, 4) -> West to Underground Path entrance at (14, 5).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
