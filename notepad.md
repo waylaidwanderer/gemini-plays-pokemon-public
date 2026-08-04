@@ -375,13 +375,15 @@
 
 <h1><code>Scratchpad/Route_8_Navigation</code></h1>
 
-# Master Route to Route 8 Underground Path via Southern Sector (Row 22)
+# Verified Lavender Town to Route 8 Navigation
 
-1. Teleport to Lavender Town PC (11, 20).
-2. From (11, 20) in Lavender Town: Walk Down 2 to Row 22 pavement at (11, 22).
-3. Walk Left 11 steps along Row 22 pavement to map transition tile (0, 22).
-4. Step Left 1 step into Route 8 Southern Sector at (59, 22).
-5. Walk West along Row 22/25 Southern Highway directly to Underground Path Building entrance!
+- Row 22 at Column 1 in Lavender Town is a solid vertical fence boundary blocking West transition at Row 22.
+- Verified Route 8 Entrance is at (0, 9) via Row 9 Pavement.
+
+## Verified Master Route to Route 8 (0, 9) from Lavender Town
+1. From (2, 26): Walk Right 12 steps to Column 14 at (14, 26).
+2. Walk Up 17 steps along Column 14 to Row 9 at (14, 9).
+3. Walk Left 15 steps along Row 9 to (0, 9) -> Warps to Route 8 (59, 9).
 
 <hr>
 
