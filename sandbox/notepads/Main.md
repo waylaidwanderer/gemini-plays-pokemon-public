@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 36451)
-- Location: Route 8 (34, 12)
-- Active Protocol: Walk West along Row 12 Green Grass to Col 20 at (20, 12), ascend North through Col 20 gap (20, 11) to Row 7 Northern Highway at (20, 7), walk West to Underground Path Building at (14, 5).
+## CURRENT STATUS & DASHBOARD (Turn 36481)
+- Location: Lavender Town (4, 9)
+- Active Protocol: Escaped wild battle. Walking West 5 steps along Row 9 pavement to Route 8 entrance at (0, 9), then ascending North at Col 59 to Row 4 Top Northern Highway (59, 4) to walk West to Underground Path Building at (14, 5).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
