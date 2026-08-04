@@ -26,7 +26,7 @@
 - **Thunder Badge:** Earned by defeating Gym Leader Lt. Surge in Vermilion City Gym on Turn 7025.
 - **Rainbow Badge:** Earned by defeating Gym Leader Erika in Celadon City Gym on Turn 13682.
 
-## Current Party Stats (as of Turn 18215)
+## Current Party Stats (as of Turn 18662)
 1. **SHELLBY** (Blastoise)
    - Level: 47
    - Status: Healthy
@@ -809,11 +809,14 @@
   - Channeler at (17, 7) facing Left. Defeated on Turn 18562. (Roster: Haunter Lv 23).
 
   - Channeler at (7, 10) facing Right. Defeated on Turn 18624. (Roster: Gastly Lv 24).
+
 ## 6F Layout & Mapping
 - **Stairs DOWN to 5F:** Located at (18, 9). Warps the player DOWN to 5F.
 - **Walkable Area & Exploration:**
   - (18, 9) is verified as the starting staircase on 6F (Turn 18628).
   - (17, 9) is verified as open and walkable immediately adjacent to the staircase (Turn 18635).
+- **Trainers on 6F:**
+  - Channeler at (12, 10) facing Right. Defeated on Turn 18659. (Roster: Gastly Lv 22, Gastly Lv 22, Gastly Lv 22).
 
 
 <hr>
