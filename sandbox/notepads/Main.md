@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 36044)
-- Location: Route 8 (23, 15)
-- Active Protocol: Walking West 13 steps along Row 15 pavement to (10, 15)!
+## CURRENT STATUS & DASHBOARD (Turn 36047)
+- Location: Route 8 (17, 15)
+- Active Protocol: Walking Up 1 to (17, 14) -> Left 7 to Col 10 (10, 14) on Row 14 pavement!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
