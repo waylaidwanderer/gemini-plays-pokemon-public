@@ -61,7 +61,7 @@
 - VERIFIED WESTERN SECTOR ENTRY (Turn 28096): Traversed Row 12 green grass past Col 19 mountain cliff to (13, 12) Western Sector!
 - EMPIRICAL PROBE RESULT (Turn 28098): Column 9 at Row 11 (9, 11) is mountain rock cliff. The open westbound pavement highway is on Rows 8 & 9 across Cols 9-13, accessed by walking Up through Col 12 pavement gap (12, 9) around NPC at (13, 10)!
 - EMPIRICAL PROBE RESULT (Turn 28101): Stepping Up from (12, 12) to (12, 11) BUMPED into a solid south-facing ledge wall at (12, 11). Row 11 across Cols 10-13 is a south-facing ledge wall.
-- EMPIRICAL PROBE RESULT (Turn 36112): Column 45 rock wall is located at (45, 8) and (45, 9). Row 7 & Row 6 across Cols 46-41 is an OPEN LIGHT GREY PAVEMENT CORRIDOR bypassing Col 45 rock wall: From (46, 9) -> Up 2 to (46, 7) -> Left 5 to (41, 7) -> Down 2 to (41, 9)!
+- EMPIRICAL PROBE RESULT (Turn 36551): Row 7 at Column 46 (46, 7) is a solid rock wall / obstacle. Row 14 Green Grass is the open highway bypassing Col 45 rock wall (spans Rows 8-13).
 - EMPIRICAL PROBE RESULT (Turns 36293 & 36295): Stepping Up from (50, 6) BUMPED into south-facing ledge wall at (50, 5). Column 50 is NOT a northbound passage to Row 5.
 - EMPIRICAL PASSAGE PROOF (Turn 28712): Column 19 at (19, 13) is a TWO-WAY OPEN GAP connecting Lower Highway Row 14 pavement directly UP to Row 12 Green Grass Highway at (19, 12)!
 - EMPIRICAL PROBE RESULT (Turn 28715): Row 11 across Cols 10-13 is a solid south-facing ledge wall blocking northbound movement from Row 12 green grass.
