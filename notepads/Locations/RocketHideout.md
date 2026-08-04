@@ -62,7 +62,6 @@
 
 - **Stairs UP to B2F (Left Room):** Located at B3F (5, 15). Warps the player UP, spawning them at B2F (2, 9) facing Right (verified on Turn 15297).
 - **Stairs UP to B2F (Right Room):** Located at B3F (25, 6). Warps the player UP, spawning them at B2F (21, 8) (verified on Turn 15541).
-- **Stairs DOWN to B4F (Western Room):** Located at B3F (19, 18). Takes the player to B4F at (19, 15) (verified on Turn 17462).
 - **Stairs DOWN to B4F (Eastern Room):** Located at B3F (21, 22). Takes the player to B4F at (21, 24) (verified on Turn 17035).
 - **Major Barriers & Obstacles:**
   - Column 15: Blocked by solid green-edged wall tiles from Row 18 to Row 24 (empirically verified on Turn 14753 that (15, 20) is impassable).

@@ -31,7 +31,7 @@
    - Level: 45
    - HP: 142/142
    - Status: Healthy
-   - Moveset: SKULL BASH (12/15), ICE BEAM (0/10) (Taught on Turn 13537, forgot TAIL WHIP), BITE (5/25), WATER GUN (25/25)
+   - Moveset: SKULL BASH (Max PP: 15), ICE BEAM (Max PP: 10) (Taught on Turn 13537, forgot TAIL WHIP), BITE (Max PP: 25), WATER GUN (Max PP: 25)
 2. **TRUFFLE** (Paras)
    - Level: 15
    - HP: 39/39
@@ -394,7 +394,7 @@
 - **Gambler at (46, 13):** Engaged from (46, 12) on Turn 18223. Defeated on Turn 18236.
   - Roster: Growlithe Lv 24, Vulpix Lv 24.
 ## Verified Buildings on Route 8
-- **Saffron City Gatehouse (Verified - Visited on Turn 12616):** Located at columns 2-7, rows 8-11. Entrance door is at (5, 11). Warping out drops player at (8, 10).
+- **Saffron City Gatehouse (Verified - Visited on Turn 12616):** Located at columns 2-7, rows 8-11. Entrance door is at (5, 11). Warping out drops player at (8, 10). The Guard inside is thirsty and refuses to let the player pass, blocking entry to Saffron City.
 - **Underground Path Entrance Building (Verified - Visited on Turn 12718):** Located at columns 11-14, rows 0-3 on Route 8. Entrance door is at (12, 3) and (13, 3) facing south. Inside, there is a staircase at (4, 4) that warps the player to the Underground Path (Route 7-8) at (47, 2).
 
 <hr>
@@ -672,7 +672,6 @@
 
 - **Stairs UP to B2F (Left Room):** Located at B3F (5, 15). Warps the player UP, spawning them at B2F (2, 9) facing Right (verified on Turn 15297).
 - **Stairs UP to B2F (Right Room):** Located at B3F (25, 6). Warps the player UP, spawning them at B2F (21, 8) (verified on Turn 15541).
-- **Stairs DOWN to B4F (Western Room):** Located at B3F (19, 18). Takes the player to B4F at (19, 15) (verified on Turn 17462).
 - **Stairs DOWN to B4F (Eastern Room):** Located at B3F (21, 22). Takes the player to B4F at (21, 24) (verified on Turn 17035).
 - **Major Barriers & Obstacles:**
   - Column 15: Blocked by solid green-edged wall tiles from Row 18 to Row 24 (empirically verified on Turn 14753 that (15, 20) is impassable).
@@ -749,33 +748,6 @@
 <h1><code>notepads/Locations/RocketHideout.md</code></h1>
 
 
-
-<hr>
-
-<h1><code>Scratchpad/Warp_Matrix</code></h1>
-
-# Rocket Hideout Warp Matrix & Floor Connections
-
-## Stairs & Floor Transitions
-- **Celadon Game Corner (17, 4) <--> B1F (21, 2)**
-  - Walking into stairs at Game Corner (17, 4) warps you to B1F (21, 2).
-  - Walking onto B1F (21, 2) warps you to Game Corner (17, 4).
-  
-- **B1F (23, 2) <--> B2F (27, 8)**
-  - Walking onto B1F (23, 2) warps you DOWN to B2F (27, 8).
-  - Walking onto B2F (27, 8) warps you UP to B1F (23, 3) (just below B1F stairs).
-
-- **B2F (21, 8) <--> B3F (25, 6)**
-  - Walking onto B2F (21, 8) warps you DOWN to B3F (25, 6).
-  - Walking onto B3F (25, 6) warps you UP to B2F (21, 8).
-
-- **B3F (19, 18) <--> B4F (19, 15)**
-  - Walking onto B3F (19, 18) warps you DOWN to B4F (19, 15).
-  - Walking onto B4F (19, 15) warps you UP to B3F (19, 18).
-  
-- **B3F (21, 22) <--> B4F (21, 24)**
-  - Walking onto B3F (21, 22) warps you DOWN to B4F (21, 24).
-  - Walking onto B4F (21, 24) warps you UP to B3F (21, 22).
 
 <hr>
 
