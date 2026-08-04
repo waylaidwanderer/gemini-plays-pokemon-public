@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 36991)
-- Location: Route 8 (19, 14)
-- Active Protocol: At (19, 14) on Row 14 pavement -> Step Up 2 through Col 19 gap at (19, 13) to Row 12 green grass at (19, 12) -> Step Right 1 to (20, 12) -> Step Up 2 to Row 10 pavement at (20, 10) -> Walk Right 9 to Col 29 gap at (29, 10) -> Step Up 1 to Row 9 Upper Highway at (29, 9) -> Walk West along Row 8 pavement to (6, 8) -> Step Up 2 to Row 6 grass at (6, 6) -> Walk Left to (2, 6) -> Step Up 1 into doorway at (2, 5).
+## CURRENT STATUS & DASHBOARD (Turn 36995)
+- Location: Route 8 (29, 9)
+- Active Protocol: At (29, 9) on Row 9 Upper Highway -> Step Up 1 to Row 8 green grass at (29, 8) -> Walk Left along Row 8 pavement/grass across Col 9 cliff to (6, 8) -> Step Up 2 to Row 6 grass at (6, 6) -> Walk Left to (2, 6) -> Step Up 1 into doorway at (2, 5).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
