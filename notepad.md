@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 36151)
-- Location: Lavender Town (10, 9)
-- Active Protocol: Navigating West along Row 9 to Route 8 map transition at (0, 9)!
+## CURRENT STATUS & DASHBOARD (Turn 36181)
+- Location: Route 8 (5, 9)
+- Active Protocol: Facing Cut Tree at (5, 8) on Route 8. Using CUT with SPROUT to clear tree and enter Underground Path Entrance Building!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
