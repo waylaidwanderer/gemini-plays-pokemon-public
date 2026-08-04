@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 36281)
-- Location: Lavender Town (0, 4)
-- Active Protocol: Walk Left to (-2, 4), Down to Row 9, and West into Route 8 at (0, 9)!
+## CURRENT STATUS & DASHBOARD (Turn 36283)
+- Location: Route 10 South (0, 4)
+- Active Protocol: Walk Right 2 to (2, 4), Down 2 to (2, 6), and Left 3 to (-1, 6) to enter Lavender Town!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
