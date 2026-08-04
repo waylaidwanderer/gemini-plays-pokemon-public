@@ -47,6 +47,7 @@
 ## Major Milestones and Items
 - **Giovanni Defeated:** Defeated on Turn 18056 on B4F.
 - **Silph Scope:** Obtained on Turn 18067 on B4F.
+- **Marowak Ghost Defeated:** Defeated the Level 30 Ghost of Marowak in Pokémon Tower 6F on Turn 18709 using SHELLBY's ICE BEAM (unmasked with the Silph Scope).
 - **Cut:** Taught to Pokémon on Turn 6787.
 - **Bill's House:** Visited on Route 25 on Turn 4765. Restored Bill's human form.
 - **Burgled House:** Explored in Cerulean City.
@@ -817,10 +818,17 @@
   - (17, 9) is verified as open and walkable immediately adjacent to the staircase (Turn 18635).
 - **Items on 6F:**
   - Poké Ball at (6, 8): Obtained RARE CANDY on Turn 18691.
+- **Milestones on 6F:**
+  - **Marowak Ghost Defeated:** Defeated the Level 30 Ghost of Marowak on Turn 18709 using ICE BEAM. Her restless soul was calmed and she departed to the afterlife (Turn 18715).
 - **Trainers on 6F:**
   - Channeler at (12, 10) facing Right. Defeated on Turn 18659. (Roster: Gastly Lv 22, Gastly Lv 22, Gastly Lv 22).
   - Channeler at (16, 5) facing Left. Defeated on Turn 18670. (Roster: Gastly Lv 24).
   - Channeler at (9, 5) facing Down. Defeated on Turn 18683. (Roster: Gastly Lv 24).
+
+## 7F Layout & Mapping
+- **Stairs DOWN to 6F:** Located at (9, 16). Warps the player DOWN to 6F.
+- **Walkable Area & Exploration:**
+  - (9, 16) is verified as the starting staircase on 7F (Turn 18716).
 
 
 <hr>
