@@ -1,6 +1,6 @@
 ## Rock Tunnel 1F Topography & Coordinates
 - Route 10 Entrance: (15, 3)
-- Route 10 South Exit: (37, 3) (accessed via Row 3 Top Highway: Col 15 -> East to Col 37).
+- Upper Top Highway: Row 3 runs East across Columns 15 to 37.
 - B1F Secondary Ladder / Exit Arrival: (5, 3) (in western sector of 1F).
 - Row 16 & Row 22-23 Barriers: Solid rock walls in western sector.
 
