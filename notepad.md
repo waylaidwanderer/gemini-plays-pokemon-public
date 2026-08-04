@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 34531)
-- Location: Rock Tunnel B1F (15, 9)
-- Active Protocol: Down Col 15 to Row 16 Highway (15, 16) -> East to Col 33 (33, 16) -> North to Row 12 -> Col 35 -> Row 4 -> Exit Ladder (27, 3)!
+## CURRENT STATUS & DASHBOARD (Turn 34561)
+- Location: Rock Tunnel B1F (11, 17)
+- Active Protocol: Down Col 11 to Row 30 (11, 30) -> East to Col 29 (29, 30) -> North to Col 33 (33, 16) -> North to Row 12 -> Col 35 -> Row 4 -> Exit Ladder (27, 3)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -652,5 +652,12 @@
   4. Walk East along Row 16 Highway to Col 33 -> North through North Ascent Bypass to Row 12 -> Upper Northern Passage to Row 4 Chamber -> Exit Ladder at (27, 3)!
 - Column 24-25 Wall: Columns 24 and 25 are solid rock wall from Row 2 down to Row 10 separating Middle Chamber (Cols 19-23) from Exit Chamber (Cols 26-28).
 - Column 19 Southbound Passage: Column 19 is open through Rows 8-9 down to Row 11.
+
+### Empirical Collision Boundaries & Navigation Facts
+- Rock wall at (13, 21) blocks Left movement from Col 14.
+- Rock wall at (18, 21) blocks Right movement from Col 17.
+- Solid rock wall at Row 22 (Cols 12-19) blocks Southbound movement on Col 14.
+- Column 11 (Cols 10-11) is the verified continuous two-way Southbound highway from Row 17 all the way down to Row 30!
+- Row 30 (Cols 11-33) is the open East-West Sector Bypass Corridor connecting West Sector to East Sector!
 
 <hr>
