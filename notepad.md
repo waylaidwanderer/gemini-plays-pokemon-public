@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 36520)
-- Location: Route 8 (28, 15)
-- Active Protocol: Walk East 6 steps along Row 15 green grass to (34, 15) to explore East end of Lower Highway.
+## CURRENT STATUS & DASHBOARD (Turn 36523)
+- Location: Route 8 (34, 15)
+- Active Protocol: Walk East 6 steps along Row 15 green grass to (40, 15) to continue exploring Lower Highway East.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
