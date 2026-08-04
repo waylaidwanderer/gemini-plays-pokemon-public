@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 34741)
-- Location: Rock Tunnel 1F (15, 11)
-- Active Protocol: From (15, 11), walk Up 5 to Row 6 (15, 6) -> Up 3 to Row 3 (15, 3) -> Right 22 along Row 3 Top Highway directly to Route 10 South Exit at (37, 3)!
+## CURRENT STATUS & DASHBOARD (Turn 34742)
+- Location: Rock Tunnel 1F (15, 6)
+- Active Protocol: From (15, 6), walk Up 3 to Row 3 (15, 3) -> Right 22 along Row 3 Top Highway directly to Col 37 (37, 3) Route 10 South Exit!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -163,7 +163,7 @@
 
 ## Rock Tunnel 1F Topography & Coordinates
 - Route 10 Entrance: (15, 3)
-- B1F Main Ladder: (37, 3) (accessed via East corridor: 15,3 -> East to Col 20 -> South to Row 11 -> East to Col 37 -> North to 37,3).
+- Route 10 South Exit: (37, 3) (accessed via Row 3 Top Highway: Col 15 -> East to Col 37).
 - B1F Secondary Ladder / Exit Arrival: (5, 3) (in western sector of 1F).
 - Row 16 & Row 22-23 Barriers: Solid rock walls in western sector.
 
@@ -208,7 +208,7 @@
   2. Walk Left 15 steps along Row 30/31 passage into West Sector at (14, 30).
   3. Walk Up through Col 14 to Row 26 -> East along Row 26 to Col 25 -> North along Col 25 to Row 16 Highway!
   4. Walk East along Row 16 Highway to Col 33 -> North through North Ascent Bypass to Row 12 -> Upper Northern Passage to Row 4 Chamber -> Exit Ladder at (27, 3)!
-- Column 24-25 Wall: Columns 24 and 25 are solid rock wall from Row 2 down to Row 10 separating Middle Chamber (Cols 19-23) from Exit Chamber (Cols 26-28).
+
 - Column 19 Southbound Passage: Column 19 is open through Rows 8-9 down to Row 11.
 
 ### Empirical Collision Boundaries & Navigation Facts
