@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 35071)
-- Location: Rock Tunnel 1F (37, 18) -> Probing East through Row 18 (38, 18) to Col 40 -> South to Row 33/35 Exit!
-- Active Protocol: At (37, 18) on 1F. Step Right to probe (38, 18) -> Walk East to Col 40 -> Navigate South along Col 40 to Row 33/35 South Exit onto Route 10 South -> Lavender Town!
+## CURRENT STATUS & DASHBOARD (Turn 35076)
+- Location: Rock Tunnel 1F (37, 18) -> Walking Left 9 steps along Row 18 to Col 28 at (28, 18)!
+- Active Protocol: At (37, 18) on 1F. Walk Left 9 steps along Row 18 to Col 28 at (28, 18) -> Probe South along Col 28 to Row 33/35 South Exit onto Route 10 South -> Lavender Town!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -189,6 +189,7 @@
 - Row 13 (Cols 28-34) is open East-West highway bypassing Col 30 rock wall into East Sector!
 - Rock Wall Barrier at Row 14/15: Rows 14-15 across Columns 21-30 are solid rock walls blocking Northbound movement past Row 16.
 - Vertical Wall Barrier at Cols 18-19: Cols 18-19 across Rows 14-20 are solid rock walls blocking Westbound movement from Col 20.
+- Column 38 (x=38) across Rows 13-22 is a solid rock wall blocking Eastbound movement from Col 37.
 
 <hr>
 
