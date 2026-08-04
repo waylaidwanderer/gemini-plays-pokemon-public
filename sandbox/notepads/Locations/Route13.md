@@ -25,5 +25,3 @@
 
 ## Mechanics & Collision
 - **Walkable Picket Fences:** The white picket fence tiles of Route 13 are walkable and passable, allowing the player to navigate directly through them to traverse the maze. However, the brown log fences are solid and impassable.
-
-- **Bird Keeper:** Standing at `(7, 11)` (challenged from `(7, 10)` on Turn 19302). Defeated on Turn 19337. Roster: Pidgey Lv 26, Pidgeotto Lv 26, Spearow Lv 26, Fearow Lv 26. Prize money: ¥624.
