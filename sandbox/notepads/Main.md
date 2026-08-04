@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 37111)
-- Location: Route 8 (14, 6)
-- Active Protocol: At (14, 6) -> Found Ether at (14, 7) -> Step Down 2 through (14, 7) open grass to (14, 8) light grey pavement -> Walk Left along Row 14/15/22 pavement corridor to Underground Path building entrance / Saffron Gatehouse.
+## CURRENT STATUS & DASHBOARD (Turn 37141)
+- Location: Route 8 (20, 14)
+- Active Protocol: At (20, 14) -> Walk Left 7 steps along Row 14 pavement to (13, 14) plaza -> Locate Underground Path building doorway at (13, 15) / (11, 19) -> Enter Underground Path to Route 7 / Celadon City.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
