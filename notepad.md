@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 36926)
-- Location: Route 8 (13, 12)
-- Active Protocol: At (13, 12) in Western Sector -> Step Down 2 to Row 14 pavement at (13, 14) -> Walk Left 3 to (10, 14) -> Step Down 1 to (10, 15) -> Walk Right along Row 15 pavement to Col 25 at (25, 15) -> Walk Down 11 along Col 25 to Row 26 (25, 26) -> Walk Left along Row 26/22 pavement below Gatehouse building to explore Western Sector buildings/doorways (Cols 0-18).
+## CURRENT STATUS & DASHBOARD (Turn 36961)
+- Location: Route 8 (12, 9)
+- Active Protocol: At (12, 9) on Row 9 light grey pavement -> Step Up 1 to Row 8 pavement at (12, 8) -> Systematically probe adjacent building doorway tiles on Row 7 across Cols 10, 11, 12, 13 to enter the Underground Path Entrance Building.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
