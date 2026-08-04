@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 35481)
-- Location: Route 8 (59, 9)
-- Active Protocol: Entered Route 8 at (59, 9). Walk Left 9 to Col 50 at (50, 9) -> North 4 steps to Row 5 Top Highway at (50, 5) -> West to Underground Path entrance building!
+## CURRENT STATUS & DASHBOARD (Turn 35484)
+- Location: Route 8 (50, 6)
+- Active Protocol: At (50, 6). Walk Down 3 to Row 9 at (50, 9) -> West along Row 9 past trainer to Col 25 -> North through (25, 5) gap to Row 4 -> West to Underground Path building at (19, 20)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
