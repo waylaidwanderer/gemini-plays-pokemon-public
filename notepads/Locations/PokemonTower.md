@@ -53,7 +53,12 @@
 - **Walkable Corridors & Barriers:**
   - Row 6 is open from Column 3 to Column 12+ (tested to Column 12).
   - Row 7 visually has tombstones at (8, 7), (9, 7), (10, 7), (11, 7) (collision untested), but (12, 7) and (13, 7) are verified walkable/open.
-  - Column 5 has a vertical block of tombstones, forcing players to use Row 6 or Row 7 to navigate east from the stairs.
+  - Column 5 has a vertical block of tombstones (untested visual hypothesis), forcing players to use Row 6 or Row 7 to navigate east from the stairs.
 
 - **Trainers on 5F:**
-  - Channeler at (17, 7) facing Left. Defeated on Turn 18562. (Roster: Haunter Lv 23).
+  - Channeler at (17, 7) facing Left. Defeated on Turn 18562. (Roster: Haunter Lv 23).
+  - Channeler at (7, 10) facing Right. Defeated on Turn 18624. (Roster: Gastly Lv 24).
+## 6F Layout & Mapping
+- **Stairs DOWN to 5F:** Located at (18, 9). Warps the player DOWN to 5F.
+- **Walkable Area & Exploration:**
+  - (18, 9) is verified as the starting staircase on 6F (Turn 18628).
