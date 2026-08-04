@@ -966,5 +966,6 @@
 
 ## Mechanics & Collision
 - **Walkable Picket Fences:** The white picket fence tiles of Route 13 are walkable and passable, allowing the player to navigate directly through them to traverse the maze. However, the brown log fences are solid and impassable.
+- **Beauty:** Standing at `(33, 6)` (challenged from `(32, 6)` on Turn 19409). Defeated on Turn 19434. Roster: Rattata Lv 27, Pikachu Lv 27, Rattata Lv 27. Prize money: ¥1890.
 
 <hr>
