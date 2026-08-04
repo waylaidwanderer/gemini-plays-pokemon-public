@@ -665,6 +665,7 @@
 - Row 13 (Cols 28-34) is open East-West highway bypassing Col 30 rock wall into East Sector!
 - Rock Wall Barrier at Row 14/15: Rows 14-15 across Columns 21-30 are solid rock walls blocking Northbound movement past Row 16.
 - Vertical Wall Barrier at Cols 18-19: Cols 18-19 across Rows 14-20 are solid rock walls blocking Westbound movement from Col 20.
+- Column 38 (x=38) across Rows 13-22 is a solid rock wall blocking Eastbound movement from Col 37.
 
 <hr>
 
