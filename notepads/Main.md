@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 36002)
-- Location: Route 8 (52, 10)
-- Active Protocol: Hopping south over Col 52 ledge gap (52, 13) to Row 14 Lower Highway at (52, 14)!
+## CURRENT STATUS & DASHBOARD (Turn 36005)
+- Location: Route 8 (52, 15)
+- Active Protocol: Walking West along Row 14 Lower Highway pavement toward Column 29 ascent gap at (29, 13)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
