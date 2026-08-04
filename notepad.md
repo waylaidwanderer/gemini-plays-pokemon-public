@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 34987)
-- Location: Rock Tunnel 1F (29, 13) -> Walking East 5 steps along Row 13 to (34, 13)!
-- Active Protocol: At (29, 13) on 1F. Walk Right 5 along Row 13 to (34, 13) -> Walk South along Col 34 to East Sector Exit!
+## CURRENT STATUS & DASHBOARD (Turn 34989)
+- Location: Rock Tunnel 1F (34, 13) -> Walking Right 3 steps to (37, 13)!
+- Active Protocol: At (34, 13) on 1F. Walk Right 3 to Col 37 (37, 13) -> Walk South along Col 37 to (37, 17) to inspect exit doorway!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
