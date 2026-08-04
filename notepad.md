@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 36539)
-- Location: Lavender Town (4, 9)
-- Active Protocol: Clear battle text box with A, walk Left 5 steps to Route 8 map transition at (0, 9), then re-enter Route 8 at (59, 9).
+## CURRENT STATUS & DASHBOARD (Turn 36544)
+- Location: Route 8 (59, 9)
+- Active Protocol: Probe Rows 8 & 9 West across Cols 58-48 on Route 8 to find two-way northbound gap to Row 4 Top Northern Highway without dropping into Lower Basin.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
