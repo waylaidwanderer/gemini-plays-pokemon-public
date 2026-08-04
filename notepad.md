@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 36056)
-- Location: Route 8 (23, 15)
-- Active Protocol: Walking West to (10, 14) via Row 14/15 pavement to explore Western Sector corridor!
+## CURRENT STATUS & DASHBOARD (Turn 36059)
+- Location: Route 8 (10, 14)
+- Active Protocol: Walking Right 9 steps along Row 14 pavement to (19, 14) toward Col 29 ascent gap at (29, 14)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
