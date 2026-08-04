@@ -371,6 +371,7 @@
 - EMPIRICAL PROBE RESULT (Turn 35960): Tile (20, 9) is a south-facing ledge wall blocking northbound movement from Row 10 to Row 9 at Col 20.
 
 - EMPIRICAL PROBE RESULT (Turn 36042): Tile (19, 13) is a south-facing ledge wall blocking northbound movement from Row 14 to Row 12 at Col 19.
+- EMPIRICAL PROBE RESULT (Turn 36656): Tile (19, 4) on Row 4 is a solid mountain rock cliff wall blocking Westbound movement on Row 4.
 
 <hr>
 
