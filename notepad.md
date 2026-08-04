@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 35641)
-- Location: Route 8 (45, 14)
-- Active Protocol: East along Row 14 green grass highway towards Col 52 to access Lower Highway East!
+## CURRENT STATUS & DASHBOARD (Turn 35671)
+- Location: Route 8 (10, 12)
+- Active Protocol: Testing single-step northbound probe from (10, 12) UP to (10, 11) to access Row 10 pavement and Underground Path doorway at (9, 10).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
