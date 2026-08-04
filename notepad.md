@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 35993)
-- Location: Route 8 (46, 9)
-- Active Protocol: Bypassing Column 45 rock wall via Column 50 / Row 7 Northern Highway pavement!
+## CURRENT STATUS & DASHBOARD (Turn 35995)
+- Location: Route 8 (50, 7)
+- Active Protocol: Ascending to Row 3 green grass highway at (50, 3) to bypass Column 46-49 mountain wall!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
