@@ -805,6 +805,8 @@
   - Row 7 has tombstones at (8, 7), (9, 7), (10, 7), (11, 7), but (12, 7) and (13, 7) are verified walkable/open.
   - Column 5 has a vertical block of tombstones, forcing players to use Row 6 or Row 7 to navigate east from the stairs.
 
+- **Trainers on 5F:**
+  - Channeler at (17, 7) facing Left. Defeated on Turn 18562. (Roster: Haunter Lv 23).
 
 <hr>
 
