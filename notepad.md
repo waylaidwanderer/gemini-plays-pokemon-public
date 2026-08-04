@@ -177,6 +177,8 @@
 - Row 14 East-West Corridor: Row 14 (Cols 11-17) is an open floor corridor connecting West and East sectors.
 - Rock Wall Barrier at Row 15: Tile (17, 15) and Rows 14-15 across Columns 18-22 are solid rock walls.
 - Southern Cavern: Rows 18-20 across Columns 13-21 form a dead-end cavern bounded East by Col 22 rock wall.
+- Tile (13, 10) is solid rock wall on 1F.
+- Columns 20-21 (x=20, 21) form open Northbound corridor connecting Row 10 (20, 10) to Row 3 Top Highway (20, 3).
 
 <hr>
 
