@@ -399,6 +399,12 @@
 3. Walk Left 20 steps along Row 6 Northern Pavement to (14, 6) outside Underground Path Building.
 4. Walk Up 1 step into Underground Path Building doorway at (14, 5).
 
+## Verified Master Route from (34, 12) via Column 20 to Underground Path Building (14, 5)
+1. From (34, 12) on Row 12 Green Grass: Walk Left 14 steps to Column 20 at (20, 12).
+2. Walk Up 5 steps along Column 20 through (20, 11) gap to Row 7 Northern Highway at (20, 7).
+3. Walk Left 6 steps along Row 7 Northern Highway to (14, 7) outside Underground Path Building doorway.
+4. Walk Up 2 steps into Underground Path Building doorway at (14, 5).
+
 <hr>
 
 <h1><code>Locations/Route_8</code></h1>
