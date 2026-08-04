@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 35396)
+## CURRENT STATUS & DASHBOARD (Turn 35401)
 - Location: Rock Tunnel 1F (37, 12)
-- Active Protocol: At (37, 12) exit door. Walk Down 1 step to exit Rock Tunnel into Route 10 South -> Walk South along Route 10 to Lavender Town!
+- Active Protocol: At (37, 12) in exit area. In wild Zubat battle. Run from battle, then step Down from (37, 12) to exit Rock Tunnel into Route 10 South!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
