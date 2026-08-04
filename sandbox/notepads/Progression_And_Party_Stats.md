@@ -30,7 +30,7 @@
 
 
 
-## Current Party Stats (as of Turn 18887)
+## Current Party Stats (as of Turn 19261)
 
 
 
@@ -38,7 +38,7 @@
 
 
 
-   - Level: 49
+   - Level: 50
 
 
 
