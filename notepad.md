@@ -973,6 +973,7 @@
 
 ## Defeated Trainers
 - **Bird Keeper:** Standing at `(4, 4)` (challenged after stepping to `(5, 4)` on Turn 19504). Defeated on Turn 19531. Roster: Pidgey Lv 28, Doduo Lv 28, Pidgeotto Lv 28. Prize money: �700.
+- **Bird Keeper:** Standing at `(15, 6)` (challenged by talking from `(14, 6)` on Turn 19536). Defeated on Turn 19571. Roster: PIDGEY Lv 26, SPEAROW Lv 26, PIDGEY Lv 26, FEAROW Lv 26. Prize money: �650.
 
 ## Points of Interest
 - None yet discovered.
