@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 35557)
-- Location: Route 8 (28, 15)
-- Active Protocol: Up 1 step to (28, 14) -> Probe Col 29 gap to reach Upper Level / West Sector!
+## CURRENT STATUS & DASHBOARD (Turn 35558)
+- Location: Route 8 (28, 14)
+- Active Protocol: Right 1 to (29, 14) -> Up 4 along Col 29 gap to (29, 10) -> West along Row 10 pavement corridor to Underground Path doorway at (9, 10)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
