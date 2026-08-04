@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 35589)
-- Location: Route 8 (13, 14)
-- Active Protocol: Left 3 along Row 14 pavement to (10, 14) -> Inspect building doorway at (9, 10) / (9, 14) / (9, 11)!
+## CURRENT STATUS & DASHBOARD (Turn 35590)
+- Location: Route 8 (10, 14)
+- Active Protocol: Right 9 to (19, 14) -> Up 2 along Col 19 gap to Row 12 green grass at (19, 12) -> Master Route to Row 6 North Highway -> West to Underground Path doorway at (9, 10)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
