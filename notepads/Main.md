@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 36493)
-- Location: Route 8 (59, 8)
-- Active Protocol: Walk Left 7 steps along Row 8 pavement to (52, 8) to probe Row 7 and Row 10 northbound gaps.
+## CURRENT STATUS & DASHBOARD (Turn 36496)
+- Location: Route 8 (52, 8)
+- Active Protocol: Walk Left 2 to Col 50 at (50, 8), ascend North 4 steps along Col 50 to Row 4 Top Northern Highway at (50, 4), then walk West along Row 4 to Underground Path Building at (14, 5).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
