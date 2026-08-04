@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 36361)
-- Location: Route 8 (50, 9)
-- Active Protocol: Walk East to Col 58/59 and inspect northern passage to reach Northern Highway.
+## CURRENT STATUS & DASHBOARD (Turn 36391)
+- Location: Route 8 (29, 9)
+- Active Protocol: Walk West to Col 25 at (25, 9), ascend North through Col 25 gap (25, 5) to Row 4 Northern Highway, walk West to Underground Path Building at (14, 5).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
