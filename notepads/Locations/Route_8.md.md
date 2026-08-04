@@ -89,7 +89,7 @@
 - Tile (19, 10) is a solid rock wall (empirically confirmed turn 35853).
 - Tile (20, 9) is a south-facing ledge wall (empirically confirmed turn 35854).
 - Row 11 across Cols 10-19 is a south-facing ledge wall blocking northbound movement from Row 12 green grass (empirically confirmed turns 35847 & 35870).
-- Underground Path Entrance Building Doorway: Verified black doorway frame located on Row 9 at (13, 9)!
+- Underground Path Entrance Building Doorway: Verified red doorway frame located on Row 5 at (14, 5)!
 - Upper Highway (Rows 8 & 9, Cols 6-13): Open light grey pavement running directly to (13, 9) doorway, accessed via Col 20 / Col 25 / Col 60 northbound passage.
 - EMPIRICAL PROBE RESULT (Turn 35960): Tile (20, 9) is a south-facing ledge wall blocking northbound movement from Row 10 to Row 9 at Col 20.
 - Master Exit Route to Upper Highway (Turn 35960): From (20, 10) -> Down to Row 14 pavement (20, 14) -> East along Row 14 pavement to Col 29 (29, 14) -> Up through Col 29 gap (29, 13) to Row 9 Upper Highway pavement (29, 9) -> West along Row 8/9 pavement to Underground Path Entrance Building at (13, 9)!

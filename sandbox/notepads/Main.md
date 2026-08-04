@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 36220)
-- Location: Route 8 (5, 6)
-- Active Protocol: Walk Left 3 to (2, 6) and Up 1 to (2, 5) to enter the Route 8 Underground Path Entrance Building!
+## CURRENT STATUS & DASHBOARD (Turn 36228)
+- Location: Route 8 (14, 6)
+- Active Protocol: Press UP into (14, 5) Red Doorway Frame to enter Underground Path Entrance Building!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
