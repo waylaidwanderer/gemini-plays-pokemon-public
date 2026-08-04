@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 34705)
-- Location: Rock Tunnel 1F (23, 3)
-- Active Protocol: From (23, 3), walk Down 5 along Col 23 to Row 8 (23, 8) -> Probe Southbound passage to find open Eastbound corridor across Col 24/25 to Col 37 (Route 10 South Exit)!
+## CURRENT STATUS & DASHBOARD (Turn 34709)
+- Location: Rock Tunnel 1F (23, 7)
+- Active Protocol: From (23, 7), walk Up 4 to Row 3 (23, 3) -> Left 6 along Row 3 to Col 17 (17, 3) -> South along Col 17/11 to Row 14/26/30 corridor to reach East Sector (Col 37)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
