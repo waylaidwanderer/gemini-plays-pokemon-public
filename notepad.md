@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 35711)
-- Location: Route 8 (13, 15)
-- Active Protocol: Single-step empirical warp testing: walking Left to (10, 15) and probing (9, 15) building tile!
+## CURRENT STATUS & DASHBOARD (Turn 35716)
+- Location: Route 8 (10, 15)
+- Active Protocol: Navigating East along Row 12 to Col 59 -> Ascending Col 59 to Row 4 Top Highway -> West along Row 4 to Col 10 -> South into Underground Path doorway at (9, 10)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
