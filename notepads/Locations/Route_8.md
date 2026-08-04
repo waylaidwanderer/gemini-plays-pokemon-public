@@ -26,7 +26,7 @@
 
 ### Verified Physical Building Doorway Coordinates (Turn 23103)
 - Building at (13,15): Saffron Gatehouse (Trade NPC "Poliwhirl for Jynx" + Saffron Guard).
-- Building at (19,17): Route 8 Pokémon Center.
+- Underground Path Entrance Building Doorway: Located at (19, 17) on Lower Highway Row 17 (accessed via 19, 14 -> Down 3 to 19, 17 doorway)!
 
 ### Master Route 8 Verified Building & Topology Summary (Turn 23133)
 - Building at (13,15): Saffron Gatehouse (Trade NPC "Poliwhirl for Jynx" + Thirsty Guard).

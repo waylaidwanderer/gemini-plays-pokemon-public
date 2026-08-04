@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 36029)
+## CURRENT STATUS & DASHBOARD (Turn 36032)
 - Location: Route 8 (10, 14)
-- Active Protocol: Walking Up 4 to (10, 10) -> Left 1 step into (9, 10) Underground Path Entrance Building doorway!
+- Active Protocol: Walking Right 9 to (19, 14) -> Down 3 steps into (19, 17) Underground Path Entrance Building doorway!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -499,7 +499,7 @@
 
 ### Verified Physical Building Doorway Coordinates (Turn 23103)
 - Building at (13,15): Saffron Gatehouse (Trade NPC "Poliwhirl for Jynx" + Saffron Guard).
-- Building at (19,17): Route 8 Pokémon Center.
+- Underground Path Entrance Building Doorway: Located at (19, 17) on Lower Highway Row 17 (accessed via 19, 14 -> Down 3 to 19, 17 doorway)!
 
 ### Master Route 8 Verified Building & Topology Summary (Turn 23133)
 - Building at (13,15): Saffron Gatehouse (Trade NPC "Poliwhirl for Jynx" + Thirsty Guard).
