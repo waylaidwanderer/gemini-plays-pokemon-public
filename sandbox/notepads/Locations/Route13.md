@@ -26,3 +26,14 @@
 
 ## Mechanics & Collision
 - **Walkable Picket Fences:** The white picket fence tiles of Route 13 are walkable and passable, allowing the player to navigate directly through them to traverse the maze. However, the brown log fences are solid and impassable.
+## Detailed Maze Layout & Collision Coordinates
+- **Row 4:** Open from column 27 to 33, but contains a Cut-able tree at `(34, 4)` that regenerates when scrolled off-screen.
+- **Row 5:** Blocked by log fences from column 16 to column 22.
+- **Row 6:** Open from column 17 to column 27, but blocked at `(16, 6)` by a log fence.
+- **Row 7:** Blocked by log fences from column 12 to 16, and column 18 to 22. Column 17 is empty and passable.
+- **Row 8:** Open from column 13 to column 26, but blocked at `(12, 8)` by a log fence.
+- **Row 9:** Blocked by log fences across column 6 to 12, and column 14 to 27. Column 13 is a dead-end pocket.
+- **Row 11:** Blocked by log fences from column 0 to column 6 on the west, and column 10 to 16 on the east. But `(22, 11)` has a walkable white picket fence connecting row 12 and row 10.
+
+## Mechanics
+- **Off-Screen Tree Respawning:** CUT-able trees (such as the one at `(34, 4)`) regenerate automatically when they are scrolled off-screen. Plan routing with tree respawns in mind.

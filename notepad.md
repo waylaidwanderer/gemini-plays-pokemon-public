@@ -954,6 +954,7 @@
   - Row 12 is blocked at column 16 by impassable brown logs `(16, 12)`.
   - Column 22 on row 11 `(22, 11)` has a walkable white picket fence that connects row 12 and row 10.
 ## Defeated Trainers
+- **Beauty:** Standing at `(33, 6)` (challenged from `(32, 6)` on Turn 19409). Defeated on Turn 19434. Roster: Rattata Lv 27, Pikachu Lv 27, Rattata Lv 27. Prize money: ¥1890.
 - **Bird Keeper:** Standing at `(50, 10)` after challenging from `(49, 10)` on Turn 19124. Defeated on Turn 19139. Roster: Pidgey Lv 29, Pidgeotto Lv 29. Prize money: ¥725.
 - **Jr. Trainer♀ (Piknicker):** Standing at `(48, 10)` after challenging from `(48, 11)` on Turn 19143. Defeated on Turn 19176. Roster: Pidgey Lv 24, Meowth Lv 24, Rattata Lv 24, Pikachu Lv 24, Meowth Lv 24. Prize money: ¥480.
 - **Beauty:** Standing at `(32, 6)` (moved to `(32, 7)` to challenge from `(32, 8)`). Defeated on Turn 19234. Roster: Clefairy Lv 29, Meowth Lv 29. Prize money: ¥2030.
@@ -966,6 +967,16 @@
 
 ## Mechanics & Collision
 - **Walkable Picket Fences:** The white picket fence tiles of Route 13 are walkable and passable, allowing the player to navigate directly through them to traverse the maze. However, the brown log fences are solid and impassable.
-- **Beauty:** Standing at `(33, 6)` (challenged from `(32, 6)` on Turn 19409). Defeated on Turn 19434. Roster: Rattata Lv 27, Pikachu Lv 27, Rattata Lv 27. Prize money: ¥1890.
+## Detailed Maze Layout & Collision Coordinates
+- **Row 4:** Open from column 27 to 33, but contains a Cut-able tree at `(34, 4)` that regenerates when scrolled off-screen.
+- **Row 5:** Blocked by log fences from column 16 to column 22.
+- **Row 6:** Open from column 17 to column 27, but blocked at `(16, 6)` by a log fence.
+- **Row 7:** Blocked by log fences from column 12 to 16, and column 18 to 22. Column 17 is empty and passable.
+- **Row 8:** Open from column 13 to column 26, but blocked at `(12, 8)` by a log fence.
+- **Row 9:** Blocked by log fences across column 6 to 12, and column 14 to 27. Column 13 is a dead-end pocket.
+- **Row 11:** Blocked by log fences from column 0 to column 6 on the west, and column 10 to 16 on the east. But `(22, 11)` has a walkable white picket fence connecting row 12 and row 10.
+
+## Mechanics
+- **Off-Screen Tree Respawning:** CUT-able trees (such as the one at `(34, 4)`) regenerate automatically when they are scrolled off-screen. Plan routing with tree respawns in mind.
 
 <hr>
