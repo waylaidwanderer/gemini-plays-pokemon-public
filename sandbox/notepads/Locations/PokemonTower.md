@@ -65,6 +65,8 @@
 - **Walkable Area & Exploration:**
   - (18, 9) is verified as the starting staircase on 6F (Turn 18628).
   - (17, 9) is verified as open and walkable immediately adjacent to the staircase (Turn 18635).
+- **Items on 6F:**
+  - Poké Ball at (6, 8): Obtained RARE CANDY on Turn 18691.
 - **Trainers on 6F:**
   - Channeler at (12, 10) facing Right. Defeated on Turn 18659. (Roster: Gastly Lv 22, Gastly Lv 22, Gastly Lv 22).
   - Channeler at (16, 5) facing Left. Defeated on Turn 18670. (Roster: Gastly Lv 24).
