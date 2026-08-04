@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 35470)
-- Location: Lavender Town (13, 27)
-- Active Protocol: At (13, 27). Walk North 14 steps along Col 13 highway to (13, 13) -> Up 4 through gravel gap to Row 9 at (13, 9) -> West 13 steps to Route 8 Entrance at (0, 9)!
+## CURRENT STATUS & DASHBOARD (Turn 35474)
+- Location: Lavender Town (14, 12)
+- Active Protocol: At (14, 12). Walk Left 1 to (13, 12) -> Up 3 through gravel gap to Row 9 at (13, 9) -> West 13 steps along Row 9 to Route 8 Entrance at (0, 9)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
