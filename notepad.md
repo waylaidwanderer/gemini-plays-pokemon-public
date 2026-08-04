@@ -694,5 +694,6 @@
 - Tile (12, 27) is solid rock wall (blocking East from 11, 27).
 - Row 23 across Cols 2-7 is solid rock wall (blocking Up from 6, 24).
 - Column 8 (Cols 8-11) is open North-South corridor through Rows 20-27.
+- Rows 8-9 across Cols 20-23 are solid rock wall (blocking Down from 23, 7).
 
 <hr>
