@@ -41,5 +41,5 @@
 - **Gambler at (46, 13):** Engaged from (46, 12) on Turn 18223. Defeated on Turn 18236.
   - Roster: Growlithe Lv 24, Vulpix Lv 24.
 ## Verified Buildings on Route 8
-- **Saffron City Gatehouse (Verified - Visited on Turn 12616):** Located at columns 2-7, rows 8-11. Entrance door is at (5, 11). Warping out drops player at (8, 10).
+- **Saffron City Gatehouse (Verified - Visited on Turn 12616):** Located at columns 2-7, rows 8-11. Entrance door is at (5, 11). Warping out drops player at (8, 10). The Guard inside is thirsty and refuses to let the player pass, blocking entry to Saffron City.
 - **Underground Path Entrance Building (Verified - Visited on Turn 12718):** Located at columns 11-14, rows 0-3 on Route 8. Entrance door is at (12, 3) and (13, 3) facing south. Inside, there is a staircase at (4, 4) that warps the player to the Underground Path (Route 7-8) at (47, 2).

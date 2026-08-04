@@ -11,7 +11,7 @@
    - Level: 45
    - HP: 142/142
    - Status: Healthy
-   - Moveset: SKULL BASH (12/15), ICE BEAM (0/10) (Taught on Turn 13537, forgot TAIL WHIP), BITE (5/25), WATER GUN (25/25)
+   - Moveset: SKULL BASH (Max PP: 15), ICE BEAM (Max PP: 10) (Taught on Turn 13537, forgot TAIL WHIP), BITE (Max PP: 25), WATER GUN (Max PP: 25)
 2. **TRUFFLE** (Paras)
    - Level: 15
    - HP: 39/39
