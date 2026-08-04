@@ -15,3 +15,9 @@
   1. Walk Down 4 steps to Row 14 at (46, 14).
   2. Walk Left 17 steps along Row 14 grass to Column 29 at (29, 14).
   3. Walk Up 5 steps through (29, 13) gap to Row 9 Upper Highway at (29, 9).
+
+## Verified Master Route from (29, 9) to Underground Path Building (14, 5)
+1. From (29, 9): Walk Right 5 steps along Row 9 pavement to Column 34 at (34, 9).
+2. Walk Up 3 steps along Column 34 to Row 6 Northern Pavement at (34, 6).
+3. Walk Left 20 steps along Row 6 Northern Pavement to (14, 6) outside Underground Path Building.
+4. Walk Up 1 step into Underground Path Building doorway at (14, 5).
