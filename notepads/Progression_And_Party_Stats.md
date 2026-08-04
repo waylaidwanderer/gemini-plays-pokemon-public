@@ -61,3 +61,8 @@
 - **Rare Candy:** 1
 - **HP UP:** 1
 - **Lift Key:** 1 (Obtained on Turn 15797 on B4F)
+
+## Major Exploration Phases and Timestamps
+- **Saffron West/East Gatehouse Tests:** Turn 12616 (East Gatehouse tested), Turn 18179 to 18184 (West Gatehouse tested, confirmed Saffron City is blocked by thirsty guards).
+- **Underground Path Traversal (West to East):** Turn 18186 to 18193 (Entered Route 7 building, walked tunnel, exited Route 8 building).
+- **Route 8 Eastward Journey:** Started Turn 18197 (Exited building to Route 8), current Turn 18239.

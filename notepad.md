@@ -82,6 +82,11 @@
 - **HP UP:** 1
 - **Lift Key:** 1 (Obtained on Turn 15797 on B4F)
 
+## Major Exploration Phases and Timestamps
+- **Saffron West/East Gatehouse Tests:** Turn 12616 (East Gatehouse tested), Turn 18179 to 18184 (West Gatehouse tested, confirmed Saffron City is blocked by thirsty guards).
+- **Underground Path Traversal (West to East):** Turn 18186 to 18193 (Entered Route 7 building, walked tunnel, exited Route 8 building).
+- **Route 8 Eastward Journey:** Started Turn 18197 (Exited building to Route 8), current Turn 18239.
+
 
 <hr>
 
@@ -386,6 +391,8 @@
   - Roster: Nidoran♀ Lv 23, Nidorina Lv 23.
 - **Lass at (26, 5):** Engaged from (24, 5) on Turn 12556. Defeated on Turn 12579.
   - Roster: Meowth Lv 24, Meowth Lv 24, Meowth Lv 24.
+- **Gambler at (46, 13):** Engaged from (46, 12) on Turn 18223. Defeated on Turn 18236.
+  - Roster: Growlithe Lv 24, Vulpix Lv 24.
 ## Verified Buildings on Route 8
 - **Saffron City Gatehouse (Verified - Visited on Turn 12616):** Located at columns 2-7, rows 8-11. Entrance door is at (5, 11). Warping out drops player at (8, 10).
 - **Underground Path Entrance Building (Verified - Visited on Turn 12718):** Located at columns 11-14, rows 0-3 on Route 8. Entrance door is at (12, 3) and (13, 3) facing south. Inside, there is a staircase at (4, 4) that warps the player to the Underground Path (Route 7-8) at (47, 2).
