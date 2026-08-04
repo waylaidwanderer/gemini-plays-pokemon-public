@@ -510,6 +510,7 @@
 - Route 10 South Two-Way Warp: Lavender Town (8, 17) / (8, 18) <-> Route 10 South (15, 3). Stepping UP into (8, 17) in Lavender Town warps player back to Route 10 South at (15, 3).
 - Fence Boundary at x=1: Column 1 at Row 18 is a solid vertical fence/wall.
 - Route 8 West Access via Row 22: Row 22 is an open light grey pavement corridor from x=7 left through x=0 / x=-1 onto Route 8 West.
+- EMPIRICAL PROBE RESULT (Turn 36626): Row 10 at Column 1 (1, 10) is a solid mountain rock cliff wall blocking Westbound movement on Row 10. Open passage to Route 8 Upper Highway is via Row 9 at (2, 9) -> (1, 9) -> (0, 9).
 
 <hr>
 
