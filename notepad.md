@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 36517)
+## CURRENT STATUS & DASHBOARD (Turn 36520)
 - Location: Route 8 (28, 15)
-- Active Protocol: Hop south ledge 1 step Down to Row 16 tan pavement at (28, 16), then walk West 14 steps along Row 16 pavement to Col 14, and North to Underground Path Building at (14, 5).
+- Active Protocol: Walk East 6 steps along Row 15 green grass to (34, 15) to explore East end of Lower Highway.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
