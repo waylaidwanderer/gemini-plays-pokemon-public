@@ -782,6 +782,7 @@
 - **Trainers on 3F:**
   - Channeler at (12, 3) facing Down. Defeated on Turn 18387. (Roster: Gastly Lv 23).
   - Channeler at (9, 8) facing Up. (Untested, blocks column 9 with sightline from row 8 up).
+  - Channeler at (10, 13) facing Up. Defeated on Turn 18418. (Roster: Gastly Lv 22).
 - **Wild Encounters:**
   - Standard Pokémon Tower wild encounters (Gastly, Cubone, etc.) are active on 3F.
 ## 4F Layout & Mapping
