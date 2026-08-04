@@ -20,7 +20,8 @@
 - **Walkable Corridors & Barriers:**
   - Row 4 is walkable from column 8 to column 12 (verified).
   - Column 8 row 4 is walkable (previously occupied/walked, empty diamond tile).
-  - Row 5 has a solid horizontal barrier of tombstones from column 7 to column 15.
+  - Row 5 has a solid horizontal barrier of tombstones from column 8 to column 15.
+  - Column 7 has a solid vertical barrier of tombstones from row 5 down to row 10, meaning the only horizontal crossing in this area is on row 4.
   - Row 5 column 5 and column 6 are open walkable gaps leading to the southern area (rows 6-8).
   - Row 6 and Row 7 are wide-open horizontal corridors leading east and west.
 - **Trainers on 3F:**
