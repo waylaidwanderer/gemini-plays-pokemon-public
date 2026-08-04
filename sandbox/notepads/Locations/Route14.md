@@ -11,8 +11,10 @@
 - Columns 1 and 2 contain vertical corridors of grass.
 
 ## Defeated Trainers
-- **Bird Keeper:** Standing at `(4, 4)` (challenged after stepping to `(5, 4)` on Turn 19504). Defeated on Turn 19531. Roster: Pidgey Lv 28, Doduo Lv 28, Pidgeotto Lv 28. Prize money: �700.
-- **Bird Keeper:** Standing at `(15, 6)` (challenged by talking from `(14, 6)` on Turn 19536). Defeated on Turn 19571. Roster: PIDGEY Lv 26, SPEAROW Lv 26, PIDGEY Lv 26, FEAROW Lv 26. Prize money: �650.
+- **Bird Keeper:** Standing at `(4, 4)` (challenged after stepping to `(5, 4)` on Turn 19504). Defeated on Turn 19531. Roster: Pidgey Lv 28, Doduo Lv 28, Pidgeotto Lv 28. Prize money: 700.
+- **Bird Keeper:** Standing at `(15, 6)` (challenged by talking from `(14, 6)` on Turn 19536). Defeated on Turn 19571. Roster: PIDGEY Lv 26, SPEAROW Lv 26, PIDGEY Lv 26, FEAROW Lv 26. Prize money: 650.
+- **Bird Keeper:** Standing at `(12, 11)` (challenged on Turn 19578). Defeated on Turn 19614. Roster: Pidgeotto Lv 29, Fearow Lv 29. Prize money: 725.
+- **Bird Keeper:** Standing at `(14, 15)` (challenged on Turn 19617). Defeated on Turn 19643. Roster: Spearow Lv 28, Doduo Lv 28, Fearow Lv 28. Prize money: 700.
 
 ## Points of Interest
 - None yet discovered.
