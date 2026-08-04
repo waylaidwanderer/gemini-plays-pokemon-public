@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 36212)
-- Location: Lavender Town (10, 9)
-- Active Protocol: Step Up 3 to Row 6 in Lavender Town, walk West along Row 6 into Route 8 at (59, 6), and walk West on Row 6 Green Grass directly to Underground Path Entrance Building!
+## CURRENT STATUS & DASHBOARD (Turn 36217)
+- Location: Lavender Town (10, 7)
+- Active Protocol: Step Up to Row 6 in Lavender Town at (10, 6), walk West along Row 6 into Route 8 at (59, 6), and walk West on Row 6 Green Grass directly to Underground Path Entrance Building at (2, 5)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
