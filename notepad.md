@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 36288)
-- Location: Route 10 South (0, 6)
-- Active Protocol: Walk Down 2 to (0, 8) and Left 2 to (-1, 8) to enter Lavender Town!
+## CURRENT STATUS & DASHBOARD (Turn 36289)
+- Location: Route 8 (59, 8)
+- Active Protocol: Walk West along Route 8 Upper Highway, bypass Col 45 rock wall via Row 6, and enter Underground Path Entrance Building at (14, 5)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
