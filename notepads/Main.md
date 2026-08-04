@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 36296)
-- Location: Route 8 (50, 9)
-- Active Protocol: East to Col 52 (52, 9), Down through (52, 13) ledge to Row 14 pavement, West to Col 20, Up to Row 12, West to Col 12, Up to Row 8, Right to Col 14, and Up into (14, 5) Underground Path Building!
+## CURRENT STATUS & DASHBOARD (Turn 36299)
+- Location: Route 8 (30, 14)
+- Active Protocol: Left to (29, 14), Up 4 through Ascent Gap to Row 8 pavement (29, 8), West 15 to Col 14 (14, 8), and Up 3 into (14, 5) Underground Path Building!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
