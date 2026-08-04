@@ -4,8 +4,8 @@
 - **East Connection (Route 13):** Transition at Route 14 `(19, 4)` connects directly to Route 13 at `(0, 4)` on the eastern row 4 corridor (Player entered Route 14 on Turn 19499).
 
 ## Physical Layout & Navigation
-- Row 4 is a completely open horizontal corridor from columns 10 to 19.
-- Row 3 and Row 5 are blocked by impassable log fences from columns 10 to 19.
+- Row 4 is a completely open horizontal corridor from columns 4 to 19.
+- Row 3 and Row 5 are blocked by impassable log fences from columns 4 to 19.
 - Columns 4 and 5 on Row 5 have a walkable grass gap, allowing passage south from the Row 4 corridor.
 - To the west of column 3, there appears to be a vertical boundary/ledge structure.
 - Columns 1 and 2 contain vertical corridors of grass.
