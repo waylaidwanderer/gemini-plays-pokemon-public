@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 36228)
-- Location: Route 8 (14, 6)
-- Active Protocol: Press UP into (14, 5) Red Doorway Frame to enter Underground Path Entrance Building!
+## CURRENT STATUS & DASHBOARD (Turn 36241)
+- Location: Route 8 Underground Path Building (5, 3)
+- Active Protocol: Talk to NPC at (2, 5) and inspect interior features to locate Underground Path stairs entrance!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge

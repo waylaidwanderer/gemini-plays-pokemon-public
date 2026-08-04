@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 36228)
-- Location: Route 8 (14, 6)
-- Active Protocol: Press UP into (14, 5) Red Doorway Frame to enter Underground Path Entrance Building!
+## CURRENT STATUS & DASHBOARD (Turn 36241)
+- Location: Route 8 Underground Path Building (5, 3)
+- Active Protocol: Talk to NPC at (2, 5) and inspect interior features to locate Underground Path stairs entrance!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -314,7 +314,6 @@
 - Verified Eastern Map Border (Turn 24590): Column 60 on Route 8 is the eastern map boundary tile that warps back to Lavender Town (0, 9).
 - Empirical Map Boundary Discovery (Turn 25185): Column 60 across all rows (y=8, y=9) on Route 8 is the eastern map transition boundary that warps back to Lavender Town at (0, 8) / (0, 9). Route 8 playable grid is Columns 0 to 59.
 
-- Route to Underground Path Entrance Building: Enter Route 8 at (59, 9) Upper Highway -> walk West along Row 8/9 Upper Highway pavement to Col 22/25 -> hop down Col 29 gap to Lower Highway Row 20 pavement at (25, 20) -> walk West along Row 20 pavement to Underground Path building doorway at (19, 20) / (19, 17)!
 ### Master Verified Saffron Gatehouse & Underground Path Geography (Turn 27490)
 - Saffron Gatehouse (13, 15): North exit at (2, 0) is BLOCKED BY THIRSTY GUARD ("The guard is thirsty! Give him a drink!"). Cannot pass through Saffron Gatehouse to Saffron City without a drink from Celadon Dept Store.
 - Tile (16, 29): Decorative tree stump / scenery obstacle ("There isn't anything to CUT!"). Non-cuttable.
