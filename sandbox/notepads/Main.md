@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 36074)
-- Location: Route 8 (13, 15)
-- Active Protocol: Systematic probing Col 14 at (14, 13) and (14, 16) on Route 8!
+## CURRENT STATUS & DASHBOARD (Turn 36082)
+- Location: Route 8 (15, 15)
+- Active Protocol: Systematic probing Cols 16 & 17 at Row 13 and Row 16 on Route 8!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
