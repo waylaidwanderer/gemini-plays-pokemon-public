@@ -829,6 +829,7 @@
 - **Stairs DOWN to 6F:** Located at (9, 16). Warps the player DOWN to 6F.
 - **Walkable Area & Exploration:**
   - (9, 16) is verified as the starting staircase on 7F (Turn 18716).
+  - (10, 16) is verified as open and walkable immediately adjacent to the staircase (Turn 18723).
 
 
 <hr>
