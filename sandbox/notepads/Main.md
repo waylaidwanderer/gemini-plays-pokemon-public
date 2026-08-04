@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 35675)
-- Location: Route 8 (20, 10)
-- Active Protocol: Walking to (10, 12) on Row 12 green grass to perform single-step empirical tests around Western Sector building and NPC at (13, 10).
+## CURRENT STATUS & DASHBOARD (Turn 35687)
+- Location: Route 8 (10, 14)
+- Active Protocol: Navigating to Col 29 gap at (29, 12) -> Ascending to Row 7/8 Northern Highway -> Walking West on Row 7/8 past Col 19 cliff to West Row 8/9 pavement (Cols 13-9) -> South into Underground Path doorway at (9, 10)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
