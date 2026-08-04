@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 34975)
-- Location: Rock Tunnel 1F East Sector (27, 3) -> Walking South along Column 27 to explore East Sector exit passage!
-- Active Protocol: At (27, 3) on 1F. Walk Down 3 along Col 27 to (27, 6) -> Explore South/East corridors to find Route 10 South Exit!
+## CURRENT STATUS & DASHBOARD (Turn 34981)
+- Location: Rock Tunnel 1F (29, 10)
+- Active Protocol: At (29, 10) on 1F. Walk Down 4 along Col 29 to Row 14 (29, 14) -> Walk East along Row 14 highway to East Sector Exit!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
