@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 35566)
+## CURRENT STATUS & DASHBOARD (Turn 35567)
 - Location: Route 8 (17, 15)
-- Active Protocol: Step Down 1 to Row 16 South Highway at (17, 16) -> Walk West to Underground Path doorway!
+- Active Protocol: Up 1 to (17, 14) -> Left 7 along Row 14 pavement corridor above NPC to (10, 14) -> Enter Underground Path doorway at (9, 10)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
