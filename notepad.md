@@ -653,6 +653,7 @@
 - Column 5 (x=5) is open Northbound corridor from Row 6 (5, 6) directly to Ladder at (5, 3)!
 - Row 5 across Cols 7-12 is solid rock wall (blocking Up from 7, 6).
 - Column 5 (x=5) and Column 6 (x=6) are open Northbound corridor through Row 5 to Ladder (5, 3) and Row 3 Top Highway!
+- Column 38 (x=38) is solid rock wall. Route 10 South Exit is at (37, 11) / (37, 12) via Column 37 South.
 
 <hr>
 
