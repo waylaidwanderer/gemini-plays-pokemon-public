@@ -558,6 +558,13 @@
 - EMPIRICAL ASCENT GAP DISCOVERY (Turn 32143): Column 29 at (29, 13) is a VERIFIED TWO-WAY ASCENT GAP connecting Row 14/15 Green Grass directly UP through (29, 12)/(29, 11)/(29, 10) to Row 9 Upper Highway Pavement at (29, 9)!
 - EMPIRICAL ASCENT GAP DISCOVERY (Turn 32165): Column 20 at (20, 11) is a VERIFIED TWO-WAY ASCENT PASSAGE connecting Row 12 Green Grass directly UP through (20, 10), (20, 9), (20, 8), (20, 7) to Row 7 Upper Highway Pavement!
 - EMPIRICAL PROOF (Turn 32256): Column 25 at (25, 5) is the VERIFIED OPEN NORTHBOUND GAP connecting Upper Highway Pavement at (25, 6) directly UP through (25, 5) to Row 4 Northern Highway Green Grass at (25, 4)!
+### Verified Empirical Topography & Upper Highway Route (Turn 35952)
+- Tile (9, 12) is a solid rock wall blocking Westbound movement on Row 12 green grass past Col 10 (empirically confirmed turn 35943).
+- Tile (19, 10) is a solid rock wall (empirically confirmed turn 35853).
+- Tile (20, 9) is a south-facing ledge wall (empirically confirmed turn 35854).
+- Row 11 across Cols 10-19 is a south-facing ledge wall blocking northbound movement from Row 12 green grass (empirically confirmed turns 35847 & 35870).
+- Underground Path Entrance Building Doorway: Verified black doorway frame located on Row 9 at (13, 9)!
+- Upper Highway (Rows 8 & 9, Cols 6-13): Open light grey pavement running directly to (13, 9) doorway, accessed via Col 20 / Col 25 / Col 60 northbound passage.
 
 <hr>
 
