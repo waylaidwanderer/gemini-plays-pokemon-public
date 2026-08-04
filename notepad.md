@@ -793,16 +793,16 @@
   - Row 10 is an open horizontal corridor in the Eastern chamber leading from Column 14 to Column 9.
 - **Items on 4F:**
   - Poké Ball at (12, 10): Obtained Elixir on Turn 18473.
-  - Poké Ball at (9, 10): Located at the west end of the Row 10 Eastern corridor. Reachable only from the Eastern side (Column 14 -> Column 9 Row 10).
+  - Poké Ball at (9, 10): Located at the west end of the Row 10 Eastern corridor. Reachable from the Eastern side (tested on Column 14/12, further testing required).
 - **Stairs UP to 5F:** Located at (3, 9) in the Western chamber.
 ## 5F Layout & Mapping
 - **Stairs DOWN to 4F:** Located at (3, 9). Warps the player DOWN to 4F.
 - **Healing Zone:**
   - Located in the center around Column 10-11, Rows 8-9 (characterized by blue-bordered white square tiles).
-  - Channeler at (12, 8) stands adjacent to the zone. (Friendly status to be verified).
+  - Channeler at (12, 8) stands adjacent to the zone. (Friendly; verified on Turn 18544).
 - **Walkable Corridors & Barriers:**
   - Row 6 is open from Column 3 to Column 12+ (tested to Column 12).
-  - Row 7 has tombstones at (8, 7), (9, 7), (10, 7), (11, 7), but (12, 7) and (13, 7) are verified walkable/open.
+  - Row 7 visually has tombstones at (8, 7), (9, 7), (10, 7), (11, 7) (collision untested), but (12, 7) and (13, 7) are verified walkable/open.
   - Column 5 has a vertical block of tombstones, forcing players to use Row 6 or Row 7 to navigate east from the stairs.
 
 - **Trainers on 5F:**
