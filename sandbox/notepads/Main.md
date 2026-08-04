@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 37030)
-- Location: Route 8 (24, 8)
-- Active Protocol: At (24, 8) on Row 8 Upper Highway pavement -> Walk Left 4 to (20, 8) -> Walk Left 14 along Row 8 pavement across Col 9 cliff to (6, 8) -> Step Up 2 to Row 6 grass at (6, 6) -> Walk Left to (2, 6) -> Step Up 1 into doorway at (2, 5).
+## CURRENT STATUS & DASHBOARD (Turn 37032)
+- Location: Route 8 (20, 8)
+- Active Protocol: At (20, 8) on Row 8 pavement -> Step Down 4 along Col 20 to (20, 12) -> Step Left 1 to Row 12 green grass at (19, 12) -> Systematically explore Row 12 green grass highway West to Far-Western Sector.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
