@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 36301)
-- Location: Route 8 (20, 10)
-- Active Protocol: Walk Down 2 to Row 12 (20, 12), West 6 to Col 14 (14, 12), and Up to (14, 5) Underground Path Building!
+## CURRENT STATUS & DASHBOARD (Turn 36302)
+- Location: Route 8 (14, 12)
+- Active Protocol: Walk Up 7 steps along Column 14 directly into (14, 5) Red Doorway Frame to enter Underground Path Entrance Building!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -496,8 +496,7 @@ Goal: Systematically probe every column in the enclosed Lower Pavement Channel (
 - Underground Path Entrance Building Doorway: Verified red doorway frame located on Row 5 at (14, 5)!
 - Upper Highway (Rows 8 & 9, Cols 6-13): Open light grey pavement running directly to (13, 9) doorway, accessed via Col 20 / Col 25 / Col 60 northbound passage.
 - EMPIRICAL PROBE RESULT (Turn 35960): Tile (20, 9) is a south-facing ledge wall blocking northbound movement from Row 10 to Row 9 at Col 20.
-- Master Exit Route to Upper Highway (Turn 35960): From (20, 10) -> Down to Row 14 pavement (20, 14) -> East along Row 14 pavement to Col 29 (29, 14) -> Up through Col 29 gap (29, 13) to Row 9 Upper Highway pavement (29, 9) -> West along Row 8/9 pavement to Underground Path Entrance Building at (13, 9)!
-- EMPIRICAL PROBE RESULT (Turn 36020): Tile (28, 9) is a rock wall blocking Westbound movement on Row 9. The open Westbound Upper Highway passage is on Row 8: Up 1 to (29, 8) green grass -> Left along Row 8 pavement/grass to (13, 8) -> Down 1 to (13, 9) Underground Path doorway!
+
 - EMPIRICAL PROBE RESULT (Turn 36042): Tile (19, 13) is a south-facing ledge wall blocking northbound movement from Row 14 to Row 12 at Col 19.
 
 <hr>
