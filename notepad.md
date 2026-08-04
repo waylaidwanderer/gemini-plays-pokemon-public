@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 34682)
-- Location: Rock Tunnel B1F (21, 12)
-- Active Protocol: From (21, 12), walk Right 2 steps to (23, 12) -> Up 1 step into Ladder at (23, 11) to warp to 1F at (17, 11)!
+## CURRENT STATUS & DASHBOARD (Turn 34686)
+- Location: Rock Tunnel B1F (23, 12)
+- Active Protocol: From (23, 12), step Up 1 into Ladder at (23, 11) to warp to 1F at (17, 11) -> Navigate 1F East Corridor to Route 10 South Exit at (37, 3)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
