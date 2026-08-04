@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 36523)
-- Location: Route 8 (34, 15)
-- Active Protocol: Walk East 6 steps along Row 15 green grass to (40, 15) to continue exploring Lower Highway East.
+## CURRENT STATUS & DASHBOARD (Turn 36526)
+- Location: Route 8 (40, 15)
+- Active Protocol: Teleport to Lavender Town (11, 20) -> re-enter Route 8 at (59, 9) -> probe Cols 52-58 for two-way northbound passage to Row 4 Top Northern Highway.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
