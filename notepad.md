@@ -1051,6 +1051,7 @@
 
 ## Defeated Trainers
 - **Bird Keeper:** Standing at `(50, 10)` after challenging from `(49, 10)` on Turn 19124. Defeated on Turn 19139. Roster: Pidgey Lv 29, Pidgeotto Lv 29. Prize money: ¥725.
+- **Jr. Trainer♀ (Piknicker):** Standing at `(48, 10)` after challenging from `(48, 11)` on Turn 19143. Defeated on Turn 19176. Roster: Pidgey Lv 24, Meowth Lv 24, Rattata Lv 24, Pikachu Lv 24, Meowth Lv 24. Prize money: ¥480.
 
 ## Points of Interest
 - None yet discovered.
