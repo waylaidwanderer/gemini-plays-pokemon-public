@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 34651)
-- Location: Rock Tunnel B1F (17, 17)
-- Active Protocol: From (17, 17), walk Up 13 steps along Col 17 to Row 4 (17, 4) -> Right 10 steps along Row 4 to Col 27 (27, 4) -> Up 1 step to Exit Ladder at (27, 3)!
+## CURRENT STATUS & DASHBOARD (Turn 34656)
+- Location: Rock Tunnel B1F (22, 4)
+- Active Protocol: From (22, 4), walk Right 5 steps to (27, 4) -> Up 1 step to Exit Ladder at (27, 3) to warp to 1F Western Sector at (5, 3)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
