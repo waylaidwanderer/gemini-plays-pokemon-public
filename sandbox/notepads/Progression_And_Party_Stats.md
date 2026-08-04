@@ -27,9 +27,9 @@
 ## Major Milestones and Items
 - **Giovanni Defeated:** Defeated on Turn 18056 on B4F.
 - **Silph Scope:** Obtained on Turn 18067 on B4F.
-- **Marowak Ghost Defeated:** Defeated the Level 30 Ghost of Marowak in Pokéémon Tower 6F on Turn 18709 using SHELLBY's ICE BEAM (unmasked with the Silph Scope).
-- **Pokéé Flute Obtained:** Obtained from Mr. Fuji on Turn 18876.
-- **Cut:** Taught to Pokéémon on Turn 6787.
+- **Marowak Ghost Defeated:** Defeated the Level 30 Ghost of Marowak in PokÃ©Ã©mon Tower 6F on Turn 18709 using SHELLBY's ICE BEAM (unmasked with the Silph Scope).
+- **PokÃ©Ã© Flute Obtained:** Obtained from Mr. Fuji on Turn 18876.
+- **Cut:** Taught to PokÃ©Ã©mon on Turn 6787.
 - **Bill's House:** Visited on Route 25 on Turn 4765. Restored Bill's human form.
 - **Burgled House:** Explored in Cerulean City.
 - **S.S. Anne:** Boarded and cleared, obtained Cut from the Captain.
@@ -57,10 +57,10 @@
 - **TM07 (Horn Drill):** 1
 - **HP UP:** 1
 - **Lift Key:** 1
-- **Pokéé Flute:** 1 (Obtained on Turn 15797 on B4F)
+- **PokÃ©Ã© Flute:** 1 (Obtained on Turn 15797 on B4F)
 
 ## Major Exploration Phases and Timestamps
 - **Saffron West/East Gatehouse Tests:** Turn 12616 (East Gatehouse tested), Turn 18179 to 18184 (West Gatehouse tested, confirmed Saffron City is blocked by thirsty guards).
 - **Underground Path Traversal (West to East):** Turn 18186 to 18193 (Entered Route 7 building, walked tunnel, exited Route 8 building).
 - **Route 8 Eastward Journey:** Started Turn 18197, Completed on Turn 18244. (Exited building, walked east, entered Lavender Town).
-- **Poké�mon Tower Exploration:** Started Turn 18258 (Entered Poké�mon Tower, engaged Rival JACK on 2F on Turn 18281).
+- **PokÃ©ï¿½mon Tower Exploration:** Started Turn 18258 (Entered PokÃ©ï¿½mon Tower, engaged Rival JACK on 2F on Turn 18281).
