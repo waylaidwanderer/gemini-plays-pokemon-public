@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 36241)
-- Location: Route 8 Underground Path Building (5, 3)
-- Active Protocol: Talk to NPC at (2, 5) and inspect interior features to locate Underground Path stairs entrance!
+## CURRENT STATUS & DASHBOARD (Turn 36243)
+- Location: Route 10 Pokémon Center (3, 5)
+- Active Protocol: Exit Pokémon Center onto Route 10, walk South into Lavender Town, and enter Route 8 via West exit at (0, 9)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
