@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 37312)
-- Location: Route 8 (23, 8)
-- Active Protocol: At (23, 8) on Row 8 pavement -> Up 2 to (23, 6) -> Right 2 to (25, 6) -> Up 2 through (25, 5) gap to (25, 4) Row 4 Topmost Highway -> Walk West along Row 3 past Col 15 hedge into Western Sector to (14, 3)/(14, 5) Underground Path building doorway.
+## CURRENT STATUS & DASHBOARD (Turn 37351)
+- Location: Route 8 (25, 4)
+- Active Protocol: At (25, 4) on Topmost Highway -> Walk West to (6, 3) -> Hop south over (6, 7) ledge to (6, 8) -> Face West at (5, 8) Cut tree and use CUT -> Walk West through (5, 8) into Western Sector to Underground Path building doorway at (3, 5)/(2, 5).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
