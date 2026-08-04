@@ -21,3 +21,6 @@
 
 ## Cleared Obstacles
 - **Snorlax:** Level 30 sleeping Snorlax located at `(10, 62)`. Awakened with the Poké Flute and defeated on Turn 19022. The docks at row 62 are now clear and walkable, opening access to southern Route 12 and Route 13.
+
+## Points of Interest
+- **Fishing Guru's Brother's House:** Located at `(11, 77)`. Inside, the Fishing Guru's brother lives. On Turn 19079, the player entered the house, spoke to him at `(2, 4)`, and obtained the **SUPER ROD** after freeing a bag slot by consuming an Elixer.
