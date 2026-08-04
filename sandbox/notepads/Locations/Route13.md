@@ -18,6 +18,7 @@
 - **Beauty:** Standing at `(32, 6)` (moved to `(32, 7)` to challenge from `(32, 8)`). Defeated on Turn 19234. Roster: Clefairy Lv 29, Meowth Lv 29. Prize money: ¥2030.
 - **Jr. Trainer♀:** Standing at `(27, 9)` after challenging from `(27, 10)` on Turn 19237. Defeated on Turn 19253. Roster: Poliwag Lv 30, Poliwag Lv 30. Prize money: ¥600.
 - **Jr. Trainer♀:** Standing at `(23, 10)` after challenging from `(23, 10)` (facing left) on Turn 19263. Defeated on Turn 19297. Roster: Pidgey Lv 27, Meowth Lv 27, Pidgey Lv 27, Pidgeotto Lv 27. Prize money: ¥540.
+- **Bird Keeper:** Standing at `(7, 11)` (challenged from `(7, 10)` on Turn 19302). Defeated on Turn 19337. Roster: Pidgey Lv 26, Pidgeotto Lv 26, Spearow Lv 26, Fearow Lv 26. Prize money: ¥624.
 
 ## Points of Interest
 - None yet discovered.
