@@ -13,19 +13,15 @@
    - Moveset: SKULL BASH (Max PP: 15), ICE BEAM (Max PP: 10) (Taught on Turn 13537, forgot TAIL WHIP), BITE (Max PP: 25), WATER GUN (Max PP: 25)
 2. **TRUFFLE** (Paras)
    - Level: 15
-   - HP: 39/39
    - Status: Healthy
 3. **GUSTY** (Pidgey)
    - Level: 5
-   - HP: 19/19
    - Status: Healthy
 4. **NIBBLES** (Rattata)
    - Level: 7
-   - HP: 22/22
    - Status: Healthy
 5. **TESLA** (Pikachu)
-   - Level: 19
-   - HP: 46/46
+   - Level: 20
    - Status: Healthy
 
 ## Major Milestones and Items

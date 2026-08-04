@@ -33,19 +33,15 @@
    - Moveset: SKULL BASH (Max PP: 15), ICE BEAM (Max PP: 10) (Taught on Turn 13537, forgot TAIL WHIP), BITE (Max PP: 25), WATER GUN (Max PP: 25)
 2. **TRUFFLE** (Paras)
    - Level: 15
-   - HP: 39/39
    - Status: Healthy
 3. **GUSTY** (Pidgey)
    - Level: 5
-   - HP: 19/19
    - Status: Healthy
 4. **NIBBLES** (Rattata)
    - Level: 7
-   - HP: 22/22
    - Status: Healthy
 5. **TESLA** (Pikachu)
-   - Level: 19
-   - HP: 46/46
+   - Level: 20
    - Status: Healthy
 
 ## Major Milestones and Items
@@ -799,5 +795,30 @@
   - Poké Ball at (12, 10): Obtained Elixir on Turn 18473.
   - Poké Ball at (9, 10): Located at the west end of the Row 10 Eastern corridor. Reachable only from the Eastern side (Column 14 -> Column 9 Row 10).
 - **Stairs UP to 5F:** Located at (3, 9) in the Western chamber.
+
+<hr>
+
+<h1><code>Scratchpad/Tower_4F_Routing</code></h1>
+
+# Tower 4F Routing Plan and Hypotheses
+
+## Current Position
+- Player is at B3F/4F. Specifically on 4F, currently at (6, 8).
+
+## Bypassing the 4F Staircase (3, 9) to reach the Western Channeler (5, 10)
+- The stairs UP to 5F are at (3, 9).
+- Directly stepping on (3, 9) triggers a transition to 5F, making it impossible to walk past to (3, 10) or (3, 11).
+- **Route to Bypass (3, 9):**
+  1. From (3, 8), walk Right to (6, 8).
+  2. Walk Down to (6, 11) via Column 6.
+  3. Walk Left to (5, 11).
+  4. Walk Up to (5, 10) to initiate battle with the western Channeler.
+  5. After the battle, we can go to (3, 10), (3, 11), and finally step Up onto (3, 9) to ascend to 5F.
+
+## Poké Ball (9, 10) Routing Hypothesis
+- Contradiction under analysis: Is (11, 10) a tombstone or a walkable tile?
+- If (11, 10) is walkable: Route is (14, 10) -> (9, 10) directly along Row 10.
+- If (11, 10) is a tombstone: We must investigate if there is an alternative winding path (e.g. through Row 12 or Row 9). We will test this after defeating the western Channeler.
+
 
 <hr>
