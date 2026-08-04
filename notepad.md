@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 36329)
-- Location: Route 8 (12, 14)
-- Active Protocol: Walk Up 6 along Col 12 to Row 8 (12, 8), East 2 to Col 14 (14, 8), and Up 3 into (14, 5) Underground Path Building!
+## CURRENT STATUS & DASHBOARD (Turn 36333)
+- Location: Route 8 (14, 14)
+- Active Protocol: East to (15, 14), turn Up, walk Up 9 along Col 15 to (15, 5), and Left into (14, 5) Underground Path Building doorway!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
