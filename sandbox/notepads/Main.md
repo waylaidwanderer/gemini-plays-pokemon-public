@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 35995)
-- Location: Route 8 (50, 7)
-- Active Protocol: Ascending to Row 3 green grass highway at (50, 3) to bypass Column 46-49 mountain wall!
+## CURRENT STATUS & DASHBOARD (Turn 35999)
+- Location: Route 8 (50, 6)
+- Active Protocol: Executing Master Highway Route via Col 52 ledge gap (52, 13) -> Row 14 Lower Highway -> Col 29 ascent gap (29, 13) -> (13, 9) Underground Path!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
