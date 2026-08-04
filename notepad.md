@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 36721)
-- Location: Route 8 (20, 6)
-- Active Protocol: At (20, 6) on Row 6 pavement -> Up 1 to (20, 5) -> East along Row 5/6 pavement to Col 59 -> Up to Row 4 Top Highway -> West along Row 4 to Underground Path entrance at (14, 5).
+## CURRENT STATUS & DASHBOARD (Turn 36751)
+- Location: Route 8 (20, 10)
+- Active Protocol: At (20, 10) on Row 10 pavement -> East 9 to (29, 10) -> Up 2 to (29, 8) -> West 9 to (20, 8) -> Up 2 to (20, 6) -> East to Col 25 -> Up 2 through (25, 5) gap to Row 4 (25, 4) -> West along Row 4/3 to Col 14 -> Down to Underground Path entrance at (14, 5).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -372,6 +372,8 @@
 
 - EMPIRICAL PROBE RESULT (Turn 36042): Tile (19, 13) is a south-facing ledge wall blocking northbound movement from Row 14 to Row 12 at Col 19.
 - EMPIRICAL PROBE RESULT (Turn 36656): Tile (19, 4) on Row 4 is a solid mountain rock cliff wall blocking Westbound movement on Row 4.
+- EMPIRICAL PROBE RESULT (Turn 36742): Tile (5, 8) is a non-cuttable decorative tree stump / scenery obstacle ('There isn't anything to CUT!').
+- EMPIRICAL PROBE RESULT (Turn 36744): Tile (5, 10) is a solid stone wall / pillar blocking southbound movement.
 
 <hr>
 
