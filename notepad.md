@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 35518)
-- Location: Route 8 (13, 14)
-- Active Protocol: At (13, 14) facing Up. Walk Up 4 along Col 13 to Row 10 at (13, 10) -> West 4 along Row 10 into Underground Path doorway at (9, 10)!
+## CURRENT STATUS & DASHBOARD (Turn 35519)
+- Location: Route 8 (10, 10)
+- Active Protocol: Standing at (10, 10) facing Left directly at Underground Path doorway (9, 10). Step Left / A to enter Underground Path!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -493,7 +493,7 @@
 
 ### Master Route 8 Verified Building & Topology Summary (Turn 23133)
 - Building at (13,15): Saffron Gatehouse (Trade NPC "Poliwhirl for Jynx" + Thirsty Guard).
-- Building at (19,17): Gatehouse complex (Civilian "BILL" + Thirsty Guard).
+- Building at (9,10): Underground Path Entrance Building doorway (9, 10)!
 - Building at (30,19): Eastern Gatehouse (Civilian + Thirsty Guard).
 
 - Column 35 (Rows 22-27) is a solid wooden fence. Row 28 (Cols 30-35) is a dark green hedge.
