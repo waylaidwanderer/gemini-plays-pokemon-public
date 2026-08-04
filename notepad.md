@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 35791)
-- Location: Lavender Town (0, 4)
-- Active Protocol: Descending 4 steps Down to Row 8 pavement at (0, 8), then stepping Left through (0, 8/9) West exit to re-enter Route 8 Upper Highway at (59, 8/9)!
+## CURRENT STATUS & DASHBOARD (Turn 35821)
+- Location: Route 8 (34, 6)
+- Active Protocol: Single-step probing East along Row 6 pavement to Col 38 at (38, 6), then ascending Up 2 steps to Row 4 Top Highway at (38, 4)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
