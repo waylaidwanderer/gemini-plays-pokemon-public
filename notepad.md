@@ -246,6 +246,7 @@
 - Column 8 (Cols 8-11) is open North-South corridor through Rows 20-27.
 - Rows 8-9 across Cols 20-23 are solid rock wall (blocking Down from 23, 7).
 - Verified Collision Barrier (Turn 35248): Row 28 at (14, 28) is a solid rock wall blocking Northbound movement on Column 14. Open bypass to Row 16 Highway is via Row 30 -> Col 8 / Col 4 Western Cavern!
+- Verified Collision Barrier (Turn 35279): Tile (26, 30) is a solid rock wall separating (25, 30) and (27, 30) on Row 30. Sector Bypass is via Row 31 at (26, 31)!
 
 <hr>
 
