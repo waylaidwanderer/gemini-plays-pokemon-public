@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 35248)
+## CURRENT STATUS & DASHBOARD (Turn 35252)
 - Location: Rock Tunnel B1F (14, 29)
-- Active Protocol: At (14, 29) on B1F. Walk Left 6 to Col 8 at (8, 29) -> Walk North along Col 8 through Western Cavern to Row 16 Highway -> East to Col 33 -> North to Row 4 Exit Chamber -> Exit Ladder at (27, 3)!
+- Active Protocol: At (14, 29) on B1F. Down 1 to Row 30 at (14, 30) -> Left 6 to Col 8 Western Cavern at (8, 30) -> North along Col 8 through Western Cavern to Row 16 Highway -> East to Col 33 -> Exit Ladder at (27, 3)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -245,6 +245,7 @@
 - Row 23 across Cols 2-7 is solid rock wall (blocking Up from 6, 24).
 - Column 8 (Cols 8-11) is open North-South corridor through Rows 20-27.
 - Rows 8-9 across Cols 20-23 are solid rock wall (blocking Down from 23, 7).
+- Verified Collision Barrier (Turn 35248): Row 28 at (14, 28) is a solid rock wall blocking Northbound movement on Column 14. Open bypass to Row 16 Highway is via Row 30 -> Col 8 / Col 4 Western Cavern!
 
 <hr>
 
