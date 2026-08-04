@@ -6,9 +6,9 @@
 - **Thunder Badge:** Earned by defeating Gym Leader Lt. Surge in Vermilion City Gym on Turn 7025.
 - **Rainbow Badge:** Earned by defeating Gym Leader Erika in Celadon City Gym on Turn 13682.
 
-## Current Party Stats (as of Turn 18662)
+## Current Party Stats (as of Turn 18887)
 1. **SHELLBY** (Blastoise)
-   - Level: 47
+   - Level: 49
    - Status: Healthy
    - Moveset: SKULL BASH (Max PP: 15), ICE BEAM (Max PP: 10) (Taught on Turn 13537, forgot TAIL WHIP), BITE (Max PP: 25), WATER GUN (Max PP: 25)
 2. **TRUFFLE** (Paras)
@@ -28,6 +28,7 @@
 - **Giovanni Defeated:** Defeated on Turn 18056 on B4F.
 - **Silph Scope:** Obtained on Turn 18067 on B4F.
 - **Marowak Ghost Defeated:** Defeated the Level 30 Ghost of Marowak in Pokémon Tower 6F on Turn 18709 using SHELLBY's ICE BEAM (unmasked with the Silph Scope).
+- **Poké Flute Obtained:** Obtained from Mr. Fuji on Turn 18876.
 - **Cut:** Taught to Pokémon on Turn 6787.
 - **Bill's House:** Visited on Route 25 on Turn 4765. Restored Bill's human form.
 - **Burgled House:** Explored in Cerulean City.
@@ -54,9 +55,9 @@
 - **TM49 (Tri Attack):** 1
 - **Super Potion:** 6
 - **TM07 (Horn Drill):** 1
-- **Rare Candy:** 1
 - **HP UP:** 1
-- **Lift Key:** 1 (Obtained on Turn 15797 on B4F)
+- **Lift Key:** 1
+- **Poké Flute:** 1 (Obtained on Turn 15797 on B4F)
 
 ## Major Exploration Phases and Timestamps
 - **Saffron West/East Gatehouse Tests:** Turn 12616 (East Gatehouse tested), Turn 18179 to 18184 (West Gatehouse tested, confirmed Saffron City is blocked by thirsty guards).
