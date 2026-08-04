@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 35549)
-- Location: Route 8 (20, 10)
-- Active Protocol: Down 2 to (20, 12) -> Left 8 along Row 12 green grass corridor to (12, 12) -> Ascend Col 12 gap to Row 8/9 -> West to Underground Path doorway at (9, 10)!
+## CURRENT STATUS & DASHBOARD (Turn 35550)
+- Location: Route 8 (12, 12)
+- Active Protocol: Walking Right 17 along Row 12 green grass to Col 29 ascent gap at (29, 12) -> Up 3 to Row 9 Upper Highway at (29, 9) -> West to Underground Path doorway at (9, 10)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
