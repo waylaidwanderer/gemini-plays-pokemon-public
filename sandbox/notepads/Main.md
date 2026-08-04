@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 36487)
-- Location: Route 8 (59, 8)
-- Active Protocol: Walk Right 2 to Col 61 at (61, 8), ascend North 4 steps along Col 61 to Row 4 Top Northern Highway at (61, 4), then walk West along Row 4 to Underground Path Building at (14, 5).
+## CURRENT STATUS & DASHBOARD (Turn 36490)
+- Location: Lavender Town (0, 8)
+- Active Protocol: Step Left 1 step into Route 8 at (59, 8), then probe Rows 7, 6, 5 across Cols 48-58 on Route 8.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
