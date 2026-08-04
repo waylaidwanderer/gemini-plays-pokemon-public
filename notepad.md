@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 35761)
-- Location: Route 8 (50, 14)
-- Active Protocol: Using LUNA's Teleport to warp to Lavender Town PC -> Re-enter Route 8 at (59, 9) Upper Highway -> Col 41 Up to Row 6 -> Col 25 Up to Row 4 Top Highway -> West to (9, 4) -> Down to Underground Path doorway at (9, 10)!
+## CURRENT STATUS & DASHBOARD (Turn 35791)
+- Location: Lavender Town (0, 4)
+- Active Protocol: Descending 4 steps Down to Row 8 pavement at (0, 8), then stepping Left through (0, 8/9) West exit to re-enter Route 8 Upper Highway at (59, 8/9)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
