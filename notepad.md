@@ -1079,6 +1079,7 @@
 - **Fisherman Ned:** Standing at `(11, 31)` after challenging from `(14, 31)`. Defeated on Turn 18942. Roster: Goldeen Lv 22, Poliwag Lv 22, Goldeen Lv 22. Prize money: ¥770.
 - **Fisherman Hank:** Standing at `(5, 36)` after challenging from `(5, 39)`. Defeated on Turn 18956. Roster: Tentacool Lv 24, Goldeen Lv 24. Prize money: ¥840.
 - **Fisherman Kyle:** Standing at `(9, 40)` after challenging from `(9, 40)` on Turn 18959. Defeated on Turn 18962. Roster: Goldeen Lv 27. Prize money: ¥945.
+- **Fisherman Barney:** Standing at `(11, 52)` after challenging from `(9, 52)` on Turn 18971. Defeated on Turn 18972. Roster: Poliwag Lv 21, Shellder Lv 21, Goldeen Lv 21, Horsea Lv 21. Prize money: ¥735.
 
 
 <hr>
