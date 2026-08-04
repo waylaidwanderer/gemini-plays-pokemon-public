@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 36181)
-- Location: Route 8 (5, 9)
-- Active Protocol: Facing Cut Tree at (5, 8) on Route 8. Using CUT with SPROUT to clear tree and enter Underground Path Entrance Building!
+## CURRENT STATUS & DASHBOARD (Turn 36212)
+- Location: Lavender Town (10, 9)
+- Active Protocol: Step Up 3 to Row 6 in Lavender Town, walk West along Row 6 into Route 8 at (59, 6), and walk West on Row 6 Green Grass directly to Underground Path Entrance Building!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
