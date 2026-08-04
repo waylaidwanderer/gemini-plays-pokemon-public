@@ -4,7 +4,6 @@
 - Dimensions: To Be Determined (width=60 verified, height=To Be Determined).
 
 ## Mapped Coordinates & Layout
-- **Saffron City Gatehouse (Verified - Visited on Turn 12616):** Entrance at (5, 11) on Route 8.
 
 ### Verified Walkable Coordinates (Physically stepped on in this session):
 - Row 2: (23, 2), (24, 2), (25, 2), (26, 2), (27, 2), (28, 2), (29, 2), (30, 2), (31, 2), (32, 2), (33, 2), (34, 2), (35, 2), (36, 2), (37, 2), (38, 2), (39, 2), (40, 2), (41, 2), (42, 2), (43, 2), (44, 2)
