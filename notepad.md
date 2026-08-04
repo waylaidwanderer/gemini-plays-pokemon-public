@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 35511)
-- Location: Route 8 (13, 14)
-- Active Protocol: At (13, 14). Col 9 is mountain wall at y=10..14. Walk Up 5 to Row 9 at (13, 9) -> West 8 along Row 9 to Cut Tree at (5, 9) -> Use Cut on (5, 8) to enter West Sector / Underground Path!
+## CURRENT STATUS & DASHBOARD (Turn 35512)
+- Location: Route 8 (10, 14)
+- Active Protocol: At (10, 14). Walk Up 5 along Col 10 to Row 9 Highway at (10, 9) -> West 5 along Row 9 to Cut Tree at (5, 9) -> Use Cut on (5, 8) to enter West Sector / Underground Path!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
