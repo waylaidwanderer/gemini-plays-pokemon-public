@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 36011)
-- Location: Route 8 (37, 14)
-- Active Protocol: Walking West along Row 14 grass to Column 29 ascent gap at (29, 14)!
+## CURRENT STATUS & DASHBOARD (Turn 36014)
+- Location: Route 8 (29, 14)
+- Active Protocol: Ascending Column 29 gap at (29, 13) to Row 9 Upper Highway pavement at (29, 9)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
