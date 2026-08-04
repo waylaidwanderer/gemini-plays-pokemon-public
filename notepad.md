@@ -186,7 +186,7 @@
 - Column 38 (x=38) is solid rock wall. Route 10 South Exit is at (37, 11) / (37, 12) via Column 37 South.
 - Columns 26-29 form vertical corridor (Rows 3-10) bounded East by Col 30 rock wall.
 - Tile (30, 10) is solid rock wall.
-- Row 14 (Cols 28-34) is open East-West highway bypassing Col 30 rock wall into East Sector!
+- Row 13 (Cols 28-34) is open East-West highway bypassing Col 30 rock wall into East Sector!
 
 <hr>
 
