@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 35551)
-- Location: Route 8 (22, 12)
-- Active Protocol: Up 2 to Row 10 pavement corridor at (22, 10) -> Right 7 to Col 29 gap at (29, 10) -> Up 1 to Row 9 Upper Highway at (29, 9) -> West to Underground Path doorway at (9, 10)!
+## CURRENT STATUS & DASHBOARD (Turn 35552)
+- Location: Route 8 (29, 10)
+- Active Protocol: Down 2 to (29, 12) -> Right 5 to Col 34 highway at (34, 12) -> Up 6 along Col 34 to Row 6 pavement at (34, 6) -> West along Row 6 pavement to Underground Path doorway at (9, 10)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
