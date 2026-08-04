@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 35559)
-- Location: Route 8 (29, 10)
-- Active Protocol: Left 10 along Row 10 pavement corridor to (19, 10) -> West to Underground Path doorway at (9, 10)!
+## CURRENT STATUS & DASHBOARD (Turn 35560)
+- Location: Route 8 (20, 10)
+- Active Protocol: Down 2 to (20, 12) -> Left 8 along Row 12 grass past Col 19 mountain wall into Western Sector at (12, 12) -> Underground Path doorway at (9, 10)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
