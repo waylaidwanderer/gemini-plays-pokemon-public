@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 36502)
-- Location: Route 8 (46, 9)
-- Active Protocol: Descend South 5 steps along Col 46 through (46, 13) ledge to Row 14 grass at (46, 14), then walk West 32 steps along Row 14 grass to Col 14, and North to Underground Path Building at (14, 5).
+## CURRENT STATUS & DASHBOARD (Turn 36505)
+- Location: Route 8 (46, 15)
+- Active Protocol: Walk Up 1 to Row 14 grass at (46, 14), then walk West 32 steps along Row 14 grass to Col 14, and North to Underground Path Building at (14, 5).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
