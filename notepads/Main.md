@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 37141)
-- Location: Route 8 (20, 14)
-- Active Protocol: At (20, 14) -> Walk Left 7 steps along Row 14 pavement to (13, 14) plaza -> Locate Underground Path building doorway at (13, 15) / (11, 19) -> Enter Underground Path to Route 7 / Celadon City.
+## CURRENT STATUS & DASHBOARD (Turn 37171)
+- Location: Route 8 (15, 3)
+- Active Protocol: At (15, 3) in battle with Wild Sandshrew -> Select RUN to exit battle -> Walk Left along Row 3 Topmost Highway green grass across Cols 15-0 to Underground Path building entrance / West end of Route 8.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
