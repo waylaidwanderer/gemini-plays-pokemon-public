@@ -787,6 +787,6 @@
 ## 4F Layout & Mapping
 - **Stairs DOWN to 3F:** Located at (18, 9). Warps the player DOWN to 3F.
 - **Trainers on 4F:**
-  - Channeler at (15, 7) facing Down. Engaged on Turn 18429.
+  - Channeler at (15, 7) facing Down. Defeated on Turn 18456. (Roster: Gastly Lv 23, Gastly Lv 23).
 
 <hr>
