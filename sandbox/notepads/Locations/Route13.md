@@ -2,6 +2,7 @@
 
 ## Map Transitions & Connections
 - **North Connection (Route 12):** Transition at Route 12 `(11, 107)` / `(11, 108)` which connects directly to Route 13 at `(51, 0)` on the northeast wooden dock (Player entered Route 13 on Turn 19120).
+- **West Connection (Route 14):** Transition at Route 13 `(0, 4)` connects directly to Route 14 at `(19, 4)` on the eastern row 4 corridor (Player entered Route 14 on Turn 19499).
 
 ## Physical Layout & Navigation
 - The route begins with a wooden dock at the northeast starting at `(51, 0)`.
@@ -27,7 +28,7 @@
 ## Mechanics & Collision
 - **Walkable Picket Fences:** The white picket fence tiles of Route 13 are walkable and passable, allowing the player to navigate directly through them to traverse the maze. However, the brown log fences are solid and impassable.
 ## Detailed Maze Layout & Collision Coordinates
-- **Row 4:** Open from column 27 to 33, but contains a Cut-able tree at `(34, 4)` that regenerates when scrolled off-screen.
+- **Row 4:** A completely open horizontal corridor extending across the entire map, allowing uninhibited westward traversal to Route 14, although it has a Cut-able tree at `(34, 4)` that regenerates when scrolled off-screen.
 - **Row 5:** Blocked by log fences from column 16 to column 22.
 - **Row 6:** Open from column 17 to column 27, but blocked at `(16, 6)` by a log fence.
 - **Row 7:** Blocked by log fences from column 12 to 16, and column 18 to 22. Column 17 is empty and passable.
