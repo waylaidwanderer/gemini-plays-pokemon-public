@@ -82,3 +82,4 @@
 - **Trainers on 7F:**
   - Rocket Grunt at (9, 11) facing Right. Defeated on Turn 18751. (Roster: Zubat Lv 25, Zubat Lv 25, Golbat Lv 25. Prize money: ¥750).
   - Rocket Grunt at (12, 9) facing Left. Defeated on Turn 18779. (Roster: Koffing Lv 26, Drowzee Lv 26. Prize money: ¥780).
+  - Rocket Grunt at (9, 7) facing Down. Defeated on Turn 18821. (Roster: Zubat Lv 23, Rattata Lv 23, Raticate Lv 23, Zubat Lv 23. Prize money: ¥690).
