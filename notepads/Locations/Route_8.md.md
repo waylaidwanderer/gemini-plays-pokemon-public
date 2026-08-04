@@ -29,7 +29,7 @@
 
 ### Master Route 8 Verified Building & Topology Summary (Turn 23133)
 - Building at (13,15): Saffron Gatehouse (Trade NPC "Poliwhirl for Jynx" + Thirsty Guard).
-- Building at (9,10): Underground Path Entrance Building doorway (9, 10)!
+
 - Building at (30,19): Eastern Gatehouse (Civilian + Thirsty Guard).
 
 - Column 35 (Rows 22-27) is a solid wooden fence. Row 28 (Cols 30-35) is a dark green hedge.
