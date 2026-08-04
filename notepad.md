@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 36059)
-- Location: Route 8 (10, 14)
-- Active Protocol: Walking Right 9 steps along Row 14 pavement to (19, 14) toward Col 29 ascent gap at (29, 14)!
+## CURRENT STATUS & DASHBOARD (Turn 36074)
+- Location: Route 8 (13, 15)
+- Active Protocol: Systematic probing Col 14 at (14, 13) and (14, 16) on Route 8!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
