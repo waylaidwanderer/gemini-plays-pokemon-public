@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 35671)
-- Location: Route 8 (10, 12)
-- Active Protocol: Testing single-step northbound probe from (10, 12) UP to (10, 11) to access Row 10 pavement and Underground Path doorway at (9, 10).
+## CURRENT STATUS & DASHBOARD (Turn 35675)
+- Location: Route 8 (20, 10)
+- Active Protocol: Walking to (10, 12) on Row 12 green grass to perform single-step empirical tests around Western Sector building and NPC at (13, 10).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
