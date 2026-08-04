@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 36811)
-- Location: Route 8 (20, 6)
-- Active Protocol: At (20, 6) on Row 6 pavement -> Hop Down south over Row 9 ledge to Row 12 -> West past Col 19 mountain cliff to Western Sector (13, 12) -> Probe Western Sector buildings (Cols 0-18) step-by-step to locate the Underground Path entrance doorway.
+## CURRENT STATUS & DASHBOARD (Turn 36841)
+- Location: Route 8 (29, 14)
+- Active Protocol: At (29, 14) on Row 14 grass -> Ascend North along Col 29 to Row 8 Upper Highway at (29, 8) -> Walk East along Row 8 to Col 52 (52, 8) -> Ascend Col 52 to Row 3/4 Top Northern Highway -> Walk West along Top Highway to locate Underground Path entrance building doorway.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
