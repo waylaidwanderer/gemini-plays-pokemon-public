@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 35562)
-- Location: Route 8 (10, 15)
-- Active Protocol: Up 3 along Col 10 to Row 12 green grass at (10, 12) -> Locate and enter Underground Path doorway!
+## CURRENT STATUS & DASHBOARD (Turn 35563)
+- Location: Route 8 (10, 14)
+- Active Protocol: Right 10 along Row 14 pavement corridor to (20, 14) -> Locate building doorway!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
