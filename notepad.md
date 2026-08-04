@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 36588)
-- Location: Route 8 (23, 15)
-- Active Protocol: Returning West to Lavender Town via (0, 14/22) -> Navigate Lavender Town NW passage (Col 13 gravel gap) to Row 9 (0, 9) -> Re-enter Route 8 on Upper Highway at (59, 9) -> Traverse Lower Basin to Underground Path at (14, 5).
+## CURRENT STATUS & DASHBOARD (Turn 36601)
+- Location: Route 8 (14, 15)
+- Active Protocol: Using LUNA's TELEPORT to warp directly from Route 8 to Lavender Town Pokémon Center at (11, 20) -> re-enter Route 8 Upper Highway at (59, 9) -> Underground Path at (14, 5).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
