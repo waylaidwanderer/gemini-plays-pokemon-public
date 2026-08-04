@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 36544)
-- Location: Route 8 (59, 9)
-- Active Protocol: Probe Rows 8 & 9 West across Cols 58-48 on Route 8 to find two-way northbound gap to Row 4 Top Northern Highway without dropping into Lower Basin.
+## CURRENT STATUS & DASHBOARD (Turn 36571)
+- Location: Route 8 (20, 14)
+- Active Protocol: Traversing Row 14 Pavement Highway West from (20, 14) to Western Sector at (13, 14) -> Up through Col 13 corridor to Underground Path entrance at (14, 5).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
