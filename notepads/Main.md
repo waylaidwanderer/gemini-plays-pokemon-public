@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 34764)
-- Location: Rock Tunnel 1F (8, 27)
-- Active Protocol: From (8, 27), walk Left 3 to Western Cavern (5, 27) -> Up 24 along Col 5 to Row 3 Top Highway (5, 3) -> Right 32 along Row 3 Top Highway directly to Col 37 (37, 3) Route 10 South Exit!
+## CURRENT STATUS & DASHBOARD (Turn 34801)
+- Location: Rock Tunnel 1F (17, 10)
+- Active Protocol: Standing on 1F Main Ladder at (17, 10). Step to trigger ladder warp to Rock Tunnel B1F at (23, 11).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
