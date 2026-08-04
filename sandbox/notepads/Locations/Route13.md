@@ -13,6 +13,7 @@
 - **Bird Keeper:** Standing at `(50, 10)` after challenging from `(49, 10)` on Turn 19124. Defeated on Turn 19139. Roster: Pidgey Lv 29, Pidgeotto Lv 29. Prize money: ¥725.
 - **Jr. Trainer♀ (Piknicker):** Standing at `(48, 10)` after challenging from `(48, 11)` on Turn 19143. Defeated on Turn 19176. Roster: Pidgey Lv 24, Meowth Lv 24, Rattata Lv 24, Pikachu Lv 24, Meowth Lv 24. Prize money: ¥480.
 - **Beauty:** Standing at `(32, 6)` (moved to `(32, 7)` to challenge from `(32, 8)`). Defeated on Turn 19234. Roster: Clefairy Lv 29, Meowth Lv 29. Prize money: ¥2030.
+- **Jr. Trainer♀:** Standing at `(27, 9)` after challenging from `(27, 10)` on Turn 19237. Defeated on Turn 19253. Roster: Poliwag Lv 30, Poliwag Lv 30. Prize money: ¥600.
 
 ## Points of Interest
 - None yet discovered.
