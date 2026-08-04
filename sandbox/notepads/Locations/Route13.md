@@ -1,7 +1,7 @@
 # Route 13 - Overworld Mapping & Navigation
 
 ## Map Transitions & Connections
-- **North Connection (Route 12):** Transition at Route 12 `(11, 107)` / `(11, 108)` which connects directly to Route 13 at `(51, 0)` on the northeast wooden dock.
+- **North Connection (Route 12):** Transition at Route 12 `(11, 107)` / `(11, 108)` which connects directly to Route 13 at `(51, 0)` on the northeast wooden dock (Player entered Route 13 on Turn 19120).
 
 
 ## Physical Layout & Navigation
@@ -18,6 +18,7 @@
 - **Jr. Trainer♀ (Piknicker):** Standing at `(48, 10)` after challenging from `(48, 11)` on Turn 19143. Defeated on Turn 19176. Roster: Pidgey Lv 24, Meowth Lv 24, Rattata Lv 24, Pikachu Lv 24, Meowth Lv 24. Prize money: ¥480.
 - **Beauty:** Standing at `(32, 6)` (moved to `(32, 7)` to challenge from `(32, 8)`). Defeated on Turn 19234. Roster: Clefairy Lv 29, Meowth Lv 29. Prize money: ¥2030.
 - **Jr. Trainer♀:** Standing at `(27, 9)` after challenging from `(27, 10)` on Turn 19237. Defeated on Turn 19253. Roster: Poliwag Lv 30, Poliwag Lv 30. Prize money: ¥600.
+- **Jr. Trainer♀:** Standing at `(23, 10)` after challenging from `(23, 10)` (facing left) on Turn 19263. Defeated on Turn 19297. Roster: Pidgey Lv 27, Meowth Lv 27, Pidgey Lv 27, Pidgeotto Lv 27. Prize money: ¥540.
 
 ## Points of Interest
 - None yet discovered.
