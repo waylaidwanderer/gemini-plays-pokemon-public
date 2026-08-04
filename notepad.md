@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 35707)
-- Location: Route 8 (28, 10)
-- Active Protocol: Walking to (13, 14) in Western Sector to conduct single-step empirical warp testing on candidate building tiles!
+## CURRENT STATUS & DASHBOARD (Turn 35711)
+- Location: Route 8 (13, 15)
+- Active Protocol: Single-step empirical warp testing: walking Left to (10, 15) and probing (9, 15) building tile!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
