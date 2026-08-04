@@ -686,5 +686,6 @@
 - Column 17 is open Northbound highway connecting Row 10 (17, 10) directly to Row 4 Exit Chamber (17, 4)!
 - Column 24-25 rock wall spans Rows 0-15 completely (bypassed via Row 21 -> Col 25 -> Row 16 Highway!).
 - Cols 18-19 across Rows 14-20 are solid rock wall (blocking East on Row 16).
+- Row 27 at Col 12 is solid rock wall (blocking East from 11, 27).
 
 <hr>
