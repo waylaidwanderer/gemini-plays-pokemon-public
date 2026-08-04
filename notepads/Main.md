@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 37044)
-- Location: Route 8 (19, 14)
-- Active Protocol: At (19, 14) on Row 14 pavement -> Step Up 2 through Col 19 gap to Row 12 green grass at (19, 12) -> Step Right 1 to (20, 12) -> Step Up 2 along Col 20 to Row 10 pavement at (20, 10) -> Walk Right 9 to Col 29 gap at (29, 10) -> Step Up 1 to Row 9 Upper Highway at (29, 9) -> Step Up 1 to Row 8 green grass at (29, 8) -> Walk Left 23 along Row 8 pavement across Col 9 cliff to (6, 8) -> Step Up 2 to Row 6 grass at (6, 6) -> Walk Left to (2, 6) -> Step Up 1 into doorway at (2, 5).
+## CURRENT STATUS & DASHBOARD (Turn 37051)
+- Location: Route 8 (20, 10)
+- Active Protocol: At (20, 10) on Row 10 pavement -> Single-step probe Right 4 to (24, 10) -> (25, 10) -> (29, 10) -> Single-step probe Up 1 to (29, 9) -> Single-step probe Up 1 to (29, 8) -> Walk Left 23 along Row 8 pavement to (6, 8) -> Single-step probe Up 2 to Row 6 grass at (6, 6) -> Walk Left to (2, 6) -> Step Up 1 into doorway at (2, 5).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
