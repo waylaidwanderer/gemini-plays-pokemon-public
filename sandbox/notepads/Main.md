@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 35510)
+## CURRENT STATUS & DASHBOARD (Turn 35511)
 - Location: Route 8 (13, 14)
-- Active Protocol: At (13, 14). Row 16 at Col 13 is building wall. Walk West 10 steps along Row 14 highway to Col 3 (3, 14) to locate the Underground Path building entrance!
+- Active Protocol: At (13, 14). Col 9 is mountain wall at y=10..14. Walk Up 5 to Row 9 at (13, 9) -> West 8 along Row 9 to Cut Tree at (5, 9) -> Use Cut on (5, 8) to enter West Sector / Underground Path!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
