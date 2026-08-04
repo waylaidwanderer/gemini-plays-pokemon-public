@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 36082)
-- Location: Route 8 (15, 15)
-- Active Protocol: Systematic probing Cols 16 & 17 at Row 13 and Row 16 on Route 8!
+## CURRENT STATUS & DASHBOARD (Turn 36121)
+- Location: Route 8 (46, 15)
+- Active Protocol: Navigating Row 14 Green Grass Highway West across Column 45 to Column 29 Ascent Gap at (29, 13)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
