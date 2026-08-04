@@ -15,5 +15,9 @@ Goal: Systematically probe every column in the enclosed Lower Pavement Channel (
 - Col 19: UP to (19, 13) -> BUMPED (Ledge Wall) | DOWN to (19, 16) -> BUMPED (Building Wall)
 - Col 20: UP to (20, 13) -> BUMPED (Ledge Wall) | DOWN to (20, 16) -> BUMPED (Building Wall)
 - Col 21: UP to (21, 13) -> BUMPED (Ledge Wall) | DOWN to (21, 16) -> BUMPED (Building Wall)
-- Col 22: UP to (22, 13) -> BUMPED (Ledge Wall) | DOWN to (22, 16) -> Pending
+- Col 22: UP to (22, 13) -> BUMPED (Ledge Wall) | DOWN to (22, 16) -> BUMPED (Building Wall)
 - Col 23: UP to (23, 13) -> BUMPED (Ledge Wall) | DOWN to (23, 16) -> BUMPED (Building Wall)
+
+## Summary of Probing Results (Cols 10-23)
+- ENCLOSED LOWER CHANNEL: Bounded North by Row 13 Ledge Wall, South by Row 16 Building Wall, West by Col 9 Mountain Cliff.
+- Exit: Column 24 Open Pavement Highway -> Col 29 Ascent Gap (29, 13) -> Row 8 Upper Highway -> (13, 9) Underground Path Doorway!
