@@ -1,7 +1,7 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 35881)
-- Location: Route 8 (16, 12)
+## CURRENT STATUS & DASHBOARD (Turn 35884)
+- Location: Route 8 (15, 12)
 - Active Protocol: Single-step probing West along Row 12 green grass to Col 5/8 ascent gap to reach West Upper Highway pavement!
 
 ## KEY ITEMS & INVENTORY
