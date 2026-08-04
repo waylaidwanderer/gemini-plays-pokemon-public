@@ -10,15 +10,15 @@
 
 - **Rainbow Badge:** Earned by defeating Gym Leader Erika in Celadon City Gym on Turn 13682.
 
-## Current Party Stats (as of Turn 19563)
+## Current Party Stats (as of Turn 19621)
 
 1. **SHELLBY** (Blastoise)
 
-   - Level: 51
+   - Level: 52
 
    - Status: Healthy
 
-   - Moveset: SKULL BASH (Max PP: 15), ICE BEAM (Max PP: 10) (Taught on Turn 13537, forgot TAIL WHIP), BITE (Max PP: 25), WATER GUN (Max PP: 25)
+   - Moveset: HYDRO PUMP (Max PP: 5), ICE BEAM (Max PP: 10) (Taught on Turn 13537, forgot TAIL WHIP), BITE (Max PP: 25), WATER GUN (Max PP: 25)
 
 2. **TRUFFLE** (Paras)
 
