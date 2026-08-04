@@ -151,7 +151,6 @@
 - **PokéÃ©ï¿½mon Tower Exploration:** Started Turn 18258 (Entered PokéÃ©ï¿½mon Tower, engaged Rival JACK on 2F on Turn 18281).
 
 
-
 <hr>
 
 <h1><code>Mechanics/Search_Scripting_Pitfalls</code></h1>
@@ -391,7 +390,8 @@
 ## Points of Interest
 - **Pokémon Center:** Entrance door at `(3, 5)`. Inside, the entrance mat is at `(3, 7)`, and Nurse Joy is at `(3, 2)`.
 - **Poké Mart:** To Be Discovered.
-- **Volunteer Pokémon House (Mr. Fuji):** Located in the center/south.
+- **Volunteer Pokémon House (Mr. Fuji):** Located in the center/south. Entrance door at `(7, 9)` (verified on Turn 18173). Spawn inside on the carpet at `(3, 7)`.
+- **Poké Mart:** Entrance door at `(15, 13)` (verified on Turn 18909). Spawn inside on the carpet at `(3, 7)`.
 - **Pokémon Tower:** Located in the northeast (top-right).
 
 ### Verified Walkable Coordinates:
@@ -408,7 +408,7 @@
 ### Map Transitions & Connections:
 - **North Exit to Route 10 South:** Walk north on columns 8-9 past row 0.
 - **West Exit to Route 8:** Walk west on row 8 past column 0 to transition to Route 8 at (59, 8).
-- **South Exit to Route 12:** To Be Discovered.
+- **South Exit to Route 12:** Walk south on columns 8-9 on row 16 to transition to Route 12 at `(8, 0)`.
 
 
 <hr>

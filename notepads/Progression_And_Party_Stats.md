@@ -129,4 +129,3 @@
 - **Route 8 Eastward Journey:** Started Turn 18197, Completed on Turn 18244. (Exited building, walked east, entered Lavender Town).
 
 - **PokéÃ©ï¿½mon Tower Exploration:** Started Turn 18258 (Entered PokéÃ©ï¿½mon Tower, engaged Rival JACK on 2F on Turn 18281).
-
