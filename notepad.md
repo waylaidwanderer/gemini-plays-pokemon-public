@@ -180,6 +180,7 @@
 - Tile (13, 10) is solid rock wall on 1F.
 - Columns 20-21 (x=20, 21) form open Northbound corridor connecting Row 10 (20, 10) to Row 3 Top Highway (20, 3).
 - Column 7 (x=7) is continuous open Northbound highway connecting Row 14 all the way UP through Row 5 to Row 3 Top Highway!
+- Column 5 (x=5) is open Northbound corridor from Row 6 (5, 6) directly to Ladder at (5, 3)!
 
 <hr>
 
