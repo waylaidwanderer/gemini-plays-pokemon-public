@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 35576)
-- Location: Route 8 (23, 15)
-- Active Protocol: Left 4 to (19, 15) -> Up 3 along Col 19 two-way gap to Row 12 Green Grass Highway at (19, 12) -> East to Col 29 gap / Col 60 highway -> Underground Path doorway!
+## CURRENT STATUS & DASHBOARD (Turn 35577)
+- Location: Route 8 (19, 12)
+- Active Protocol: Right 3 to (22, 12) -> Up 2 to Row 10 pavement at (22, 10) -> Right 7 along Row 10 pavement above building to (29, 10) -> Down 2, Right 5 to Col 34 -> East to Col 60 -> North Highway -> West to Underground Path doorway at (9, 10)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
