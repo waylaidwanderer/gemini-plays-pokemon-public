@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 36243)
-- Location: Route 10 Pokémon Center (3, 5)
-- Active Protocol: Exit Pokémon Center onto Route 10, walk South into Lavender Town, and enter Route 8 via West exit at (0, 9)!
+## CURRENT STATUS & DASHBOARD (Turn 36244)
+- Location: Route 10 (11, 20)
+- Active Protocol: Walk South down Route 10 to (8, 28) to warp into Lavender Town!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
