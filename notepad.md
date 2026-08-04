@@ -229,6 +229,8 @@
 - Cols 18-19 across Rows 14-20 are solid rock wall (blocking East on Row 16).
 - Row 27 at Col 12 is solid rock wall (blocking East from 11, 27).
 - Tile (12, 27) is solid rock wall (blocking East from 11, 27).
+- Row 23 across Cols 2-7 is solid rock wall (blocking Up from 6, 24).
+- Column 8 (Cols 8-11) is open North-South corridor through Rows 20-27.
 
 <hr>
 
