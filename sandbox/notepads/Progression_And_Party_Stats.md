@@ -120,6 +120,8 @@
 
 - **Poké Flute Obtained:** Obtained from Mr. Fuji on Turn 18876.
 
+- **Snorlax Defeated:** Awakened Level 30 Snorlax at (10, 62) on Turn 19022 and cleared Route 12 south exit.
+
 
 
 - **Cut:** Taught to Pokémon on Turn 6787.
@@ -234,7 +236,7 @@
 
 
 
-- **Poké Flute:** 1 (Obtained on Turn 15797 on B4F)
+
 
 
 
