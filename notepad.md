@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 35574)
-- Location: Route 8 (23, 14)
-- Active Protocol: Step Down 1 to (23, 15) -> Test Row 15 passage or Col 29 gap!
+## CURRENT STATUS & DASHBOARD (Turn 35575)
+- Location: Route 8 (23, 15)
+- Active Protocol: Step Down 1 to Row 16 South Highway at (23, 16) -> Walk West to Underground Path doorway!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
