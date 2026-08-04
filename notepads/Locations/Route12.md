@@ -16,3 +16,8 @@
 - **Fisherman Hank:** Standing at `(5, 36)` after challenging from `(5, 39)`. Defeated on Turn 18956. Roster: Tentacool Lv 24, Goldeen Lv 24. Prize money: ¥840.
 - **Fisherman Kyle:** Standing at `(9, 40)` after challenging from `(9, 40)` on Turn 18959. Defeated on Turn 18962. Roster: Goldeen Lv 27. Prize money: ¥945.
 - **Fisherman Barney:** Standing at `(11, 52)` after challenging from `(9, 52)` on Turn 18971. Defeated on Turn 18972. Roster: Poliwag Lv 21, Shellder Lv 21, Goldeen Lv 21, Horsea Lv 21. Prize money: ¥735.
+
+- **Rocker:** Standing at `(14, 74)` after challenging from `(14, 76)`. Defeated on Turn 19052. Roster: Voltorb Lv 29, Electrode Lv 29. Prize money: ¥725.
+
+## Cleared Obstacles
+- **Snorlax:** Level 30 sleeping Snorlax located at `(10, 62)`. Awakened with the Poké Flute and defeated on Turn 19022. The docks at row 62 are now clear and walkable, opening access to southern Route 12 and Route 13.
