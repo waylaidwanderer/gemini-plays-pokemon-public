@@ -119,6 +119,7 @@
 
 
 - **Poké Flute Obtained:** Obtained from Mr. Fuji on Turn 18876.
+- **Super Rod Obtained:** Obtained from the Fishing Guru's brother on Turn 19079.
 
 - **Snorlax Defeated:** Awakened Level 30 Snorlax at (10, 62) on Turn 19022 and cleared Route 12 south exit.
 
@@ -160,88 +161,28 @@
 
 
 
-## Verified Inventory (as of Turn 17082)
-
-
+## Verified Inventory (as of Turn 19081)
 
 - **Town Map:** 1
-
-
-
 - **TM01 (Mega Punch):** 1
-
-
-
-- **Moon Stone:** 2
-
-
-
+- **Moon Stone:** 2 (1 stack)
 - **Helix Fossil:** 1
-
-
-
 - **S.S. Ticket:** 1
-
-
-
 - **TM11 (BubbleBeam):** 1
-
-
-
 - **Ether:** 1
-
-
-
 - **TM44 (Rest):** 1
-
-
-
 - **Max Ether:** 1
-
-
-
 - **HM01 (Cut):** 1
-
-
-
 - **TM24 (Thunderbolt):** 1
-
-
-
 - **TM30 (Teleport):** 1
-
-
-
 - **TM48 (Rock Slide):** 1
-
-
-
 - **TM49 (Tri Attack):** 1
-
-
-
-- **Super Potion:** 6
-
-
-
+- **Super Potion:** 6 (1 stack)
 - **TM07 (Horn Drill):** 1
-
-
-
-- **HP UP:** 1
-
-
-
 - **Lift Key:** 1
-
-
-
-
-
-
-
-
-
+- **Silph Scope:** 1
+- **Poké Flute:** 1
+- **Super Rod:** 1
 
 
 ## Major Exploration Phases and Timestamps
