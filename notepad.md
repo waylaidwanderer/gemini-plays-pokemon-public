@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 36781)
-- Location: Route 8 (20, 8)
-- Active Protocol: At (20, 8) on Row 8 pavement -> Down 2 to (20, 10) -> Down 2 to (20, 12) -> Left 1 to (19, 12) -> West to (13, 12) -> Down to Row 14 pavement (13, 14) -> Up to Row 8 pavement (13, 8) in front of building to test doorways at Col 11/12/10.
+## CURRENT STATUS & DASHBOARD (Turn 36784)
+- Location: Route 8 (11, 12)
+- Active Protocol: At (11, 12) on Row 12 green grass -> Down 2 to Row 14 pavement (11, 14) -> East to Col 59 (59, 14) -> Up Col 59 to Row 4 Top Highway (59, 4) -> West along Row 4 to Col 3 (3, 4) -> Down 1 into Red Doorway at (3, 5).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
