@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 34748)
-- Location: Rock Tunnel 1F (20, 2)
-- Active Protocol: From (20, 2), walk Left 3 to Col 17 (17, 2) -> Down 12 to Row 14 (17, 14) -> Left 6 to Col 11 (11, 14) -> Down 16 to Row 26/30 -> Probe Eastbound passage across Col 24/25 to Col 37 (Route 10 South Exit)!
+## CURRENT STATUS & DASHBOARD (Turn 34749)
+- Location: Rock Tunnel 1F (17, 5)
+- Active Protocol: From (17, 5), walk Down 9 along Col 17 to Row 14 (17, 14) -> Left 6 to Col 11 (11, 14) -> Down 16 to Row 26/30 -> Probe Eastbound passage across Col 24/25 to Col 37 (Route 10 South Exit)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
