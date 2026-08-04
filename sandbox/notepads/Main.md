@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 35547)
-- Location: Route 8 (23, 14)
-- Active Protocol: Walking Left 4 to (19, 14) -> Up 4 through Col 19 gap at (19, 13) into Underground Path doorway at (19, 10)!
+## CURRENT STATUS & DASHBOARD (Turn 35548)
+- Location: Route 8 (19, 12)
+- Active Protocol: Step Right to (20, 12) -> Up 4 along Col 20 pavement corridor to Row 8 at (20, 8) -> West to Underground Path doorway at (9, 10)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
