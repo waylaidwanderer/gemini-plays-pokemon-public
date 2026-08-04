@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 35013)
-- Location: Rock Tunnel 1F (25, 24) -> Walking Up 3 steps along Col 25 to (25, 21)!
-- Active Protocol: At (25, 24) on 1F. Walk Up 5 along Col 25 to Row 19 (25, 19) -> Walk East along Row 19 to Col 34 -> Walk South along Col 34 to East Sector Exit!
+## CURRENT STATUS & DASHBOARD (Turn 35015)
+- Location: Rock Tunnel 1F (25, 21) -> Walking Up 2, Right 3 to Col 28 (28, 19)!
+- Active Protocol: At (25, 21) on 1F. Walk Up 2 to (25, 19) -> Walk Right 3 to Col 28 (28, 19) -> Walk South 11 along Col 28 through (28, 28) gap into Route 10 South -> Lavender Town at (8, 18)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
