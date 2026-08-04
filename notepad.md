@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 34632)
+## CURRENT STATUS & DASHBOARD (Turn 34633)
 - Location: Rock Tunnel B1F (23, 3)
-- Active Protocol: Right 4 along Row 3 to Exit Ladder (27, 3) -> 1F Western Sector (5, 3) -> Exit to Route 10 South!
+- Active Protocol: Up 1 to Row 2 (23, 2) -> Right 4 along Row 2 to Col 27 (27, 2) -> Down 1 to Exit Ladder (27, 3) -> 1F Western Sector (5, 3) -> Exit to Route 10 South!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -682,5 +682,6 @@
 - Row 12 across Cols 14-35 is open East-West highway connecting West/Middle Sector directly to East Sector Upper Northern Passage!
 - Cols 18-19 across Rows 6-9 are solid rock wall (blocking Up from 19, 10).
 - Column 17 is open Northbound highway connecting Row 10 (17, 10) directly to Row 4 Exit Chamber (17, 4)!
+- Column 24-25 rock wall spans Rows 3-15 (Row 2 is open East-West bypass to Exit Ladder at 27, 3!).
 
 <hr>

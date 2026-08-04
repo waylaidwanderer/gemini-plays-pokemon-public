@@ -41,3 +41,4 @@
 - Row 12 across Cols 14-35 is open East-West highway connecting West/Middle Sector directly to East Sector Upper Northern Passage!
 - Cols 18-19 across Rows 6-9 are solid rock wall (blocking Up from 19, 10).
 - Column 17 is open Northbound highway connecting Row 10 (17, 10) directly to Row 4 Exit Chamber (17, 4)!
+- Column 24-25 rock wall spans Rows 3-15 (Row 2 is open East-West bypass to Exit Ladder at 27, 3!).
