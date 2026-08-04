@@ -13,7 +13,7 @@ Goal: Systematically probe every column in the enclosed Lower Pavement Channel (
 - Col 17: UP to (17, 13) -> BUMPED (Ledge Wall) | DOWN to (17, 16) -> BUMPED (Building Wall)
 - Col 18: UP to (18, 13) -> BUMPED (Ledge Wall) | DOWN to (18, 16) -> BUMPED (Building Wall)
 - Col 19: UP to (19, 13) -> BUMPED (Ledge Wall) | DOWN to (19, 16) -> BUMPED (Building Wall)
-- Col 20: UP to (20, 13) -> BUMPED (Ledge Wall) | DOWN to (20, 16) -> Pending
-- Col 21: UP to (21, 13) -> Pending | DOWN to (21, 16) -> Pending
+- Col 20: UP to (20, 13) -> BUMPED (Ledge Wall) | DOWN to (20, 16) -> BUMPED (Building Wall)
+- Col 21: UP to (21, 13) -> BUMPED (Ledge Wall) | DOWN to (21, 16) -> Pending
 - Col 22: UP to (22, 13) -> Pending | DOWN to (22, 16) -> Pending
 - Col 23: UP to (23, 13) -> BUMPED (Ledge Wall) | DOWN to (23, 16) -> BUMPED (Building Wall)
