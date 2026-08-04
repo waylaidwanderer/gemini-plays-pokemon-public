@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 35564)
-- Location: Route 8 (20, 14)
-- Active Protocol: Down 3 along Col 20 pavement to Row 17 South Highway at (20, 17) -> Walk West to Underground Path doorway!
+## CURRENT STATUS & DASHBOARD (Turn 35565)
+- Location: Route 8 (20, 15)
+- Active Protocol: Left 3 along Row 15 to (17, 15) -> Locate South passage to Row 16/17 highway -> Underground Path doorway!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
