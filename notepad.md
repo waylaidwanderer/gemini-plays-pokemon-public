@@ -375,29 +375,15 @@
 
 <h1><code>Scratchpad/Route_8_Navigation</code></h1>
 
-# Systematic Lower Channel Probing Protocol (Cols 10-23, Rows 13-16)
+# Verified Master Route to Route 8 Underground Path Building (14, 5)
 
-Goal: Systematically probe every column in the enclosed Lower Pavement Channel (Cols 10-23, Rows 14-15) to locate the exact open doorway or ascent gap exit.
-
-## Column-by-Column Probing Status
-- Col 10: UP to (10, 13) -> BUMPED (Ledge Wall)
-- Col 11: UP to (11, 13) -> BUMPED (Ledge Wall) | DOWN to (11, 16) -> BUMPED (Building Wall)
-- Col 12: UP to (12, 13) -> BUMPED (Ledge Wall) | DOWN to (12, 16) -> BUMPED (Building Wall)
-- Col 13: UP to (13, 13) -> BUMPED (Ledge Wall) | DOWN to (13, 16) -> BUMPED (Building Wall)
-- Col 14: UP to (14, 13) -> BUMPED (Ledge Wall) | DOWN to (14, 16) -> BUMPED (Building Wall)
-- Col 15: UP to (15, 13) -> BUMPED (Ledge Wall) | DOWN to (15, 16) -> BUMPED (Building Wall)
-- Col 16: UP to (16, 13) -> BUMPED (Ledge Wall) | DOWN to (16, 15) -> NPC Trainer at (16, 15)
-- Col 17: UP to (17, 13) -> BUMPED (Ledge Wall) | DOWN to (17, 16) -> BUMPED (Building Wall)
-- Col 18: UP to (18, 13) -> BUMPED (Ledge Wall) | DOWN to (18, 16) -> BUMPED (Building Wall)
-- Col 19: UP to (19, 13) -> BUMPED (Ledge Wall) | DOWN to (19, 16) -> BUMPED (Building Wall)
-- Col 20: UP to (20, 13) -> BUMPED (Ledge Wall) | DOWN to (20, 16) -> BUMPED (Building Wall)
-- Col 21: UP to (21, 13) -> BUMPED (Ledge Wall) | DOWN to (21, 16) -> BUMPED (Building Wall)
-- Col 22: UP to (22, 13) -> BUMPED (Ledge Wall) | DOWN to (22, 16) -> BUMPED (Building Wall)
-- Col 23: UP to (23, 13) -> BUMPED (Ledge Wall) | DOWN to (23, 16) -> BUMPED (Building Wall)
-
-## Summary of Probing Results (Cols 10-23)
-- ENCLOSED LOWER CHANNEL: Bounded North by Row 13 Ledge Wall, South by Row 16 Building Wall, West by Col 9 Mountain Cliff.
-- Exit: Column 24 Open Pavement Highway -> Col 29 Ascent Gap (29, 13) -> Row 8 Upper Highway -> (13, 9) Underground Path Doorway!
+1. Lavender Town (0, 8) -> Step Left into Route 8 at (59, 8).
+2. Walk West along Row 8 pavement to Col 52 at (52, 8).
+3. Step Down to (52, 13) and hop DOWN over Col 52 ledge to Row 14 Lower Highway East at (52, 14).
+4. Walk West along Row 14 green grass across Cols 52 to 29 (bypassing Col 45 mountain wall!) to (29, 14).
+5. Step UP 5 steps through (29, 13) ascent gap: (29, 13) -> (29, 12) -> (29, 11) -> (29, 10) -> (29, 9) Upper Highway Pavement!
+6. Walk West along Row 8/9 pavement from (29, 9) across Cols 29 to 14 to (14, 8).
+7. Step UP 3 steps from (14, 8) through (14, 7), (14, 6) into Underground Path Building doorway at (14, 5)!
 
 <hr>
 
