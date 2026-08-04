@@ -1019,6 +1019,7 @@
 - There is a signpost outside the Fishing Guru's brother's house at `(9, 40)` that reads "The FISHING FOOL vs. POKéMON KID!".
 
 ## Defeated Trainers
+- **Jr. Trainer (Male):** Standing at `(11, 92)` after challenging from `(11, 92)` (facing left) on Turn 19094. Defeated on Turn 19114. Roster: Nidoran♂ Lv 29, Nidorino Lv 29. Prize money: ¥580.
 - **Fisherman Ned:** Standing at `(11, 31)` after challenging from `(14, 31)`. Defeated on Turn 18942. Roster: Goldeen Lv 22, Poliwag Lv 22, Goldeen Lv 22. Prize money: ¥770.
 - **Fisherman Hank:** Standing at `(5, 36)` after challenging from `(5, 39)`. Defeated on Turn 18956. Roster: Tentacool Lv 24, Goldeen Lv 24. Prize money: ¥840.
 - **Fisherman Kyle:** Standing at `(9, 40)` after challenging from `(9, 40)` on Turn 18959. Defeated on Turn 18962. Roster: Goldeen Lv 27. Prize money: ¥945.
