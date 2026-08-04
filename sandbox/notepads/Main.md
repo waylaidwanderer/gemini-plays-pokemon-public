@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 34991)
-- Location: Rock Tunnel 1F (37, 17) -> Stepping Down 3 steps to Exit Map Border (37, 20)!
-- Active Protocol: At (37, 17) on 1F. Press Down 3 steps along Col 37 to trigger map transition into Route 10 South -> Walk South on Route 10 to Lavender Town at (8, 18)!
+## CURRENT STATUS & DASHBOARD (Turn 34993)
+- Location: Rock Tunnel 1F (37, 19) -> Walking Left 5 steps along Row 19 to (32, 19)!
+- Active Protocol: At (37, 19) on 1F. Walk Left 5 along Row 19 to (32, 19) -> Inspect Row 20/21 for exit opening!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
