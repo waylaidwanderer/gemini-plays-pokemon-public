@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 35941)
-- Location: Route 8 (11, 12)
-- Active Protocol: Single-step probing West along Row 12 green grass to Col 5/8 ascent gap to reach West Upper Highway pavement!
+## CURRENT STATUS & DASHBOARD (Turn 35971)
+- Location: Route 8 (13, 14)
+- Active Protocol: Single-step probing Western Sector pavement at (13, 14) to reach Underground Path Entrance Building!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
