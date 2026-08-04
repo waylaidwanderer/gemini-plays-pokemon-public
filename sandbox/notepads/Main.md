@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 35512)
+## CURRENT STATUS & DASHBOARD (Turn 35514)
 - Location: Route 8 (10, 14)
-- Active Protocol: At (10, 14). Walk Up 5 along Col 10 to Row 9 Highway at (10, 9) -> West 5 along Row 9 to Cut Tree at (5, 9) -> Use Cut on (5, 8) to enter West Sector / Underground Path!
+- Active Protocol: At (10, 14) on Row 14 Lower Highway. Walk East 19 along Row 14 to Col 29 at (29, 14) -> Up 2 through (29, 13) gravel gap to Row 12 -> West 10 to Col 19 at (19, 12) -> South 5 to Underground Path door at (19, 17)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
