@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 36961)
-- Location: Route 8 (12, 9)
-- Active Protocol: At (12, 9) on Row 9 light grey pavement -> Step Up 1 to Row 8 pavement at (12, 8) -> Systematically probe adjacent building doorway tiles on Row 7 across Cols 10, 11, 12, 13 to enter the Underground Path Entrance Building.
+## CURRENT STATUS & DASHBOARD (Turn 36978)
+- Location: Route 8 (19, 12)
+- Active Protocol: At (19, 12) on Row 12 green grass highway -> Step Right 1 to (20, 12) -> Step Up 2 to Row 10 pavement at (20, 10) -> Walk Right 9 to Col 29 gap at (29, 10) -> Step Up 1 to Row 9 Upper Highway at (29, 9) -> Walk West along Row 8/9 Upper Highway pavement across Col 9 cliff to Far-Western Sector building entrance.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
