@@ -785,7 +785,7 @@
 - **Trainers on 4F:**
   - Channeler at (15, 7) facing Down. Defeated on Turn 18456. (Roster: Gastly Lv 23, Gastly Lv 23).
   - Channeler at (14, 12) facing Left. Defeated on Turn 18488. (Roster: Gastly Lv 22).
-  - Channeler at (5, 10) facing Up. (Untested, in western chamber).
+  - Channeler at (5, 10) facing Up. Defeated on Turn 18520.
 - **Walkable Corridors & Barriers:**
   - Red tables block the bottom-right corner at (18, 11), (17, 12), (17, 13), (16, 14), (17, 14).
   - Row 11 is completely blocked by tombstones from Column 15 to Column 17: (15, 11), (16, 11), (17, 11). This isolates the bottom-right chamber from the top-east.
@@ -795,6 +795,16 @@
   - Poké Ball at (12, 10): Obtained Elixir on Turn 18473.
   - Poké Ball at (9, 10): Located at the west end of the Row 10 Eastern corridor. Reachable only from the Eastern side (Column 14 -> Column 9 Row 10).
 - **Stairs UP to 5F:** Located at (3, 9) in the Western chamber.
+## 5F Layout & Mapping
+- **Stairs DOWN to 4F:** Located at (3, 9). Warps the player DOWN to 4F.
+- **Healing Zone:**
+  - Located in the center around Column 10-11, Rows 8-9 (characterized by blue-bordered white square tiles).
+  - Channeler at (12, 8) stands adjacent to the zone. (Friendly status to be verified).
+- **Walkable Corridors & Barriers:**
+  - Row 6 is open from Column 3 to Column 12+ (tested to Column 12).
+  - Row 7 has tombstones at (8, 7), (9, 7), (10, 7), (11, 7), but (12, 7) and (13, 7) are verified walkable/open.
+  - Column 5 has a vertical block of tombstones, forcing players to use Row 6 or Row 7 to navigate east from the stairs.
+
 
 <hr>
 
