@@ -5,10 +5,37 @@
 - **Route 12 Gatehouse (North Entrance):** Door at `(10, 15)` (warps player inside gatehouse at `(4, 0)`).
 - **Route 12 Gatehouse (South Exit):** Exit inside gatehouse at `(4, 7)` (warps player to Route 12 South at `(10, 21)`).
 
-## Physical Layout & Navigation
-- The docks on the west (columns 4-5) continue south past row 36.
-- The docks on the center-east (columns 10-11) are blocked by a wall at row 36.
-- There is a horizontal connection bridge at row 31 across columns 10 to 15.
+## Physical Layout & Navigation - The Slalom Docks
+Because of numerous water blocks and obstacles (such as the defeated Fisherman Barney permanently standing at `(11, 52)`), traversing Route 12 requires navigating a specific back-and-forth slalom path:
+
+1. **Route 12 North to Gatehouse (y=0 to y=15):**
+   - The docks start at columns 8-9 at the Lavender Town transition.
+   - Walk south to `(8, 10)`, turn East to column 10, then walk south on columns 10-11 to enter the Route 12 Gatehouse at `(10, 15)`.
+
+2. **Gatehouse South Exit to y=44 (y=21 to y=44):**
+   - Exit the gatehouse at `(10, 21)` on columns 10-11.
+   - Walk south on columns 10-11 to Row 26.
+   - At `(11, 26)`, walk East across the horizontal bridge to columns 14-15.
+   - Walk south on columns 14-15 to Row 30.
+   - At Row 30, walk West to column 11.
+   - Walk south on column 11 to Row 34.
+   - At Row 34, walk West to columns 4-5.
+   - Walk south on columns 4-5 to Row 48.
+
+3. **Row 48 to Row 53 Slalom (Around water blocks and Fisherman Barney):**
+   - From `(4, 48)`, walk East along the bridge to `(9, 48)`.
+   - Row 47 is blocked by water, and `(10, 48)` is water, so walk South on column 9 to `(9, 51)`.
+   - Walk West to `(8, 51)`, then South to Row 53 at `(8, 53)` (bypassing Fisherman Barney at `(9, 52)`).
+   - Walk East along Row 53 to columns 14-15 at `(15, 53)`.
+
+4. **Row 53 to Route 13 (y=53 to y=107):**
+   - Walk South on columns 14-15 to Row 72.
+   - Walk West along Row 72 to columns 10-11 at `(10, 72)`.
+   - Walk South on columns 10-11 to Row 82.
+   - Walk West along Row 82 to the main western dock at columns 4-5 at `(4, 82)`.
+   - Walk South on columns 4-5 to Row 104.
+   - Walk East to columns 12-13 on Row 103, and then South to Route 13 at `(11, 107)`.
+
 - There is a signpost outside the Fishing Guru's brother's house at `(9, 40)` that reads "The FISHING FOOL vs. POKéMON KID!".
 
 ## Defeated Trainers
