@@ -29,3 +29,7 @@
   - Channeler at (9, 8) facing Up. (Untested, blocks column 9 with sightline from row 8 up).
 - **Wild Encounters:**
   - Standard Pokémon Tower wild encounters (Gastly, Cubone, etc.) are active on 3F.
+## 4F Layout & Mapping
+- **Stairs DOWN to 3F:** Located at (18, 9). Warps the player DOWN to 3F.
+- **Trainers on 4F:**
+  - Channeler at (15, 7) facing Down. Engaged on Turn 18429.
