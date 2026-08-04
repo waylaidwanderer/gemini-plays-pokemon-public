@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 34964)
-- Location: Rock Tunnel 1F (37, 4) -> Stepping Up onto Exit Warp Tile (37, 3)!
-- Active Protocol: At (37, 4) on 1F. Press Up 1 step to step onto Exit Warp Tile (37, 3) -> Route 10 South -> Lavender Town at (8, 18)!
+## CURRENT STATUS & DASHBOARD (Turn 34968)
+- Location: Rock Tunnel 1F (37, 3) -> Walking West 22 steps along Row 3 Top Highway to Exit Doorway at (15, 3)!
+- Active Protocol: At (37, 3) on 1F. Walk Left 22 along Row 3 Highway to (15, 3) Exit Doorway -> Route 10 -> Lavender Town at (8, 18)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
