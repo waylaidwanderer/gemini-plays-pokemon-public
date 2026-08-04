@@ -944,7 +944,6 @@
 ## Map Transitions & Connections
 - **North Connection (Route 12):** Transition at Route 12 `(11, 107)` / `(11, 108)` which connects directly to Route 13 at `(51, 0)` on the northeast wooden dock (Player entered Route 13 on Turn 19120).
 
-
 ## Physical Layout & Navigation
 - The route begins with a wooden dock at the northeast starting at `(51, 0)`.
 - The dock runs south to row 11, then turns west horizontally.
@@ -967,5 +966,6 @@
 ## Mechanics & Collision
 - **Walkable Picket Fences:** The white picket fence tiles of Route 13 are walkable and passable, allowing the player to navigate directly through them to traverse the maze. However, the brown log fences are solid and impassable.
 
+- **Bird Keeper:** Standing at `(7, 11)` (challenged from `(7, 10)` on Turn 19302). Defeated on Turn 19337. Roster: Pidgey Lv 26, Pidgeotto Lv 26, Spearow Lv 26, Fearow Lv 26. Prize money: ¥624.
 
 <hr>
