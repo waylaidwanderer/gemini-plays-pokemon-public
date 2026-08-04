@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 35719)
-- Location: Route 8 (23, 14)
-- Active Protocol: Chunk 1: Left 4 to (19, 14) -> Up 2 to Row 12 green grass at (19, 12).
+## CURRENT STATUS & DASHBOARD (Turn 35724)
+- Location: Route 8 (19, 12)
+- Active Protocol: Chunk 2: Right 4 to (23, 12) -> Up 2 to Row 10 pavement (23, 10) -> East 5 to Col 28 grass (28, 10)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
