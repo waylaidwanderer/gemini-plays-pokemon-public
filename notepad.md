@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 37171)
-- Location: Route 8 (15, 3)
-- Active Protocol: At (15, 3) in battle with Wild Sandshrew -> Select RUN to exit battle -> Walk Left along Row 3 Topmost Highway green grass across Cols 15-0 to Underground Path building entrance / West end of Route 8.
+## CURRENT STATUS & DASHBOARD (Turn 37184)
+- Location: Route 8 (6, 6)
+- Active Protocol: At (6, 6) outside Underground Path building -> Down 3 to (6, 9) pavement -> Right 1 to (7, 9) -> Down 1 into red doorway mat at (7, 10) to enter Underground Path interior to Route 7.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
