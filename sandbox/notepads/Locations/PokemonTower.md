@@ -67,7 +67,14 @@
   - (17, 9) is verified as open and walkable immediately adjacent to the staircase (Turn 18635).
 - **Items on 6F:**
   - Poké Ball at (6, 8): Obtained RARE CANDY on Turn 18691.
+- **Milestones on 6F:**
+  - **Marowak Ghost Defeated:** Defeated the Level 30 Ghost of Marowak on Turn 18709 using ICE BEAM. Her restless soul was calmed and she departed to the afterlife (Turn 18715).
 - **Trainers on 6F:**
   - Channeler at (12, 10) facing Right. Defeated on Turn 18659. (Roster: Gastly Lv 22, Gastly Lv 22, Gastly Lv 22).
   - Channeler at (16, 5) facing Left. Defeated on Turn 18670. (Roster: Gastly Lv 24).
   - Channeler at (9, 5) facing Down. Defeated on Turn 18683. (Roster: Gastly Lv 24).
+
+## 7F Layout & Mapping
+- **Stairs DOWN to 6F:** Located at (9, 16). Warps the player DOWN to 6F.
+- **Walkable Area & Exploration:**
+  - (9, 16) is verified as the starting staircase on 7F (Turn 18716).
