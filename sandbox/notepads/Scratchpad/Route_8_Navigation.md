@@ -12,3 +12,6 @@
 1. From Lavender Town (4, 9): Walk Left 5 steps to Route 8 entrance at (0, 9) -> warps to Route 8 at (59, 9).
 2. Probe Rows 8 & 9 West across Columns 58 down to 48.
 3. Probe Rows 7, 6, 5 northbound gaps across Columns 52-58 to find the two-way northbound passage connecting Upper Highway directly to Row 4 Top Northern Highway.
+### Master Northern Highway Row 2/3 Route Discovery (Turn 37095)
+- Row 4 at (19, 4) drops into a rock wall, but Row 2 / Row 3 (Cols 14-25) is the TOPMOST HIGHWAY TIER (where NPC at 22, 2 is located).
+- Access to Row 2/3: From (25, 4) Northern Highway -> Up 2 to (25, 2) Row 2 Topmost Highway -> Walk Left along Row 2/3 to (14, 2)/(14, 5) Underground Path Entrance Building Doorway!
