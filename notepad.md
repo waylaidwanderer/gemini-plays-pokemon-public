@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 35221)
-- Location: Rock Tunnel 1F (34, 6)
-- Active Protocol: At (34, 6) on 1F. Testing tile (37, 3) directly to verify ladder warp!
+## CURRENT STATUS & DASHBOARD (Turn 35224)
+- Location: Rock Tunnel B1F (33, 25)
+- Active Protocol: At (33, 25) on B1F. Walk Down 5 to (33, 30) -> Left 22 to Col 11 -> Up to Row 16 -> East to Col 33 -> North to Row 4 Chamber -> Exit Ladder at (27, 3) to 1F West Sector -> Route 10 South!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
