@@ -918,6 +918,7 @@
 
 ## Map Transitions & Connections
 - **North Connection (Route 12):** Transition at Route 12 `(11, 107)` / `(11, 108)` which connects directly to Route 13 at `(51, 0)` on the northeast wooden dock (Player entered Route 13 on Turn 19120).
+- **West Connection (Route 14):** Transition at Route 13 `(0, 4)` connects directly to Route 14 at `(19, 4)` on the eastern row 4 corridor (Player entered Route 14 on Turn 19499).
 
 ## Physical Layout & Navigation
 - The route begins with a wooden dock at the northeast starting at `(51, 0)`.
@@ -943,7 +944,7 @@
 ## Mechanics & Collision
 - **Walkable Picket Fences:** The white picket fence tiles of Route 13 are walkable and passable, allowing the player to navigate directly through them to traverse the maze. However, the brown log fences are solid and impassable.
 ## Detailed Maze Layout & Collision Coordinates
-- **Row 4:** Open from column 27 to 33, but contains a Cut-able tree at `(34, 4)` that regenerates when scrolled off-screen.
+- **Row 4:** A completely open horizontal corridor extending across the entire map, allowing uninhibited westward traversal to Route 14, although it has a Cut-able tree at `(34, 4)` that regenerates when scrolled off-screen.
 - **Row 5:** Blocked by log fences from column 16 to column 22.
 - **Row 6:** Open from column 17 to column 27, but blocked at `(16, 6)` by a log fence.
 - **Row 7:** Blocked by log fences from column 12 to 16, and column 18 to 22. Column 17 is empty and passable.
@@ -953,5 +954,31 @@
 
 ## Mechanics
 - **Off-Screen Tree Respawning:** CUT-able trees (such as the one at `(34, 4)`) regenerate automatically when they are scrolled off-screen. Plan routing with tree respawns in mind.
+
+<hr>
+
+<h1><code>Locations/Route14</code></h1>
+
+# Route 14 - Overworld Mapping & Navigation
+
+## Map Transitions & Connections
+- **East Connection (Route 13):** Transition at Route 14 `(19, 4)` connects directly to Route 13 at `(0, 4)` on the eastern row 4 corridor (Player entered Route 14 on Turn 19499).
+
+## Physical Layout & Navigation
+- Row 4 is a completely open horizontal corridor from columns 10 to 19.
+- Row 3 and Row 5 are blocked by impassable log fences from columns 10 to 19.
+- Columns 4 and 5 on Row 5 have a walkable grass gap, allowing passage south from the Row 4 corridor.
+- To the west of column 3, there appears to be a vertical boundary/ledge structure.
+- Columns 1 and 2 contain vertical corridors of grass.
+
+## Defeated Trainers
+- **Bird Keeper:** Standing at `(4, 4)` (challenged after stepping to `(5, 4)` on Turn 19504). Defeated on Turn 19531. Roster: Pidgey Lv 28, Doduo Lv 28, Pidgeotto Lv 28. Prize money: �700.
+
+## Points of Interest
+- None yet discovered.
+
+## Mechanics & Collision
+- **Log Fences:** Log fences on Row 3 and Row 5 are solid and impassable, completely sealing Row 4 into a corridor except for the gap at columns 4-5 on Row 5.
+
 
 <hr>
