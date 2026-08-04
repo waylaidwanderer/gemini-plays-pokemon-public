@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 35151)
-- Location: Rock Tunnel 1F (14, 4) -> Walking Up 1 to Row 3 -> Left 7 to Col 7 Highway at (7, 3)!
-- Active Protocol: At (14, 4) on 1F. Walk Up 1 to Row 3 at (14, 3) -> Walk Left 7 steps along Row 3 to Col 7 at (7, 3) -> Walk South along Col 7 highway through Rows 3-37 to Exit at (7, 37) onto Route 10 South -> Lavender Town!
+## CURRENT STATUS & DASHBOARD (Turn 35191)
+- Location: Rock Tunnel 1F (17, 7)
+- Active Protocol: At (17, 7) on 1F. Walk Left 4 to (13, 7) -> Down 3 to (13, 10) -> Right 4 to (17, 10) -> Down 1 to Ladder at (17, 11) to enter B1F!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
