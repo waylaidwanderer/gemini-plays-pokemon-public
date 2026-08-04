@@ -644,7 +644,7 @@
 
 ## Rock Tunnel 1F Topography & Coordinates
 - Route 10 Entrance: (15, 3)
-- Upper Top Highway: Row 3 runs East across Columns 15 to 37.
+- Upper Top Highway: Row 3 runs East across Columns 15 to 36. Tile (37, 3) is the Main B1F Ladder warp tile (bypassed via 37, 4 -> 36, 4 -> 36, 3).
 - B1F Secondary Ladder / Exit Arrival: (5, 3) (in western sector of 1F).
 - Row 16 & Row 22-23 Barriers: Solid rock walls in western sector.
 
