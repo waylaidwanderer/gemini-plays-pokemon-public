@@ -621,6 +621,7 @@
 - EMPIRICAL PROBE RESULT (Turn 38949): Tile (26, 3) is a solid mountain rock wall blocking Eastbound movement on Row 3. Passage to East Sector is via Row 10 bypass (23, 10 -> 29, 10) -> Row 12 (29, 12 -> 41, 12) -> hop Down to Row 14 (41, 14 -> 59, 14) -> Up to Route 10 Entrance (59, 8)!
 - EMPIRICAL PROBE RESULT (Turn 38988): Tile (54, 15) is a solid mountain rock wall blocking Eastbound movement from (53, 15). Lower Basin (x=28..53, y=14..15) is fully enclosed East by Column 54 mountain wall.
 - EMPIRICAL PROBE RESULT (Turn 38991): Tile (46, 13) is a solid south-facing ledge wall blocking Northbound movement from (46, 14).
+- EMPIRICAL BYPASS PROOF (Turn 39002): Column 26 at Row 8 (26, 8) is an OPEN TWO-WAY EASTBOUND HIGHWAY connecting Row 8 pavement (25, 8) directly East through (26, 8), (27, 8), (28, 8), (29, 8) -> Down through (29, 9) slope gap to (29, 12) Row 12 Green Grass Highway!
 
 <hr>
 
