@@ -22,16 +22,17 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
    - At Row 34, walk West to columns 4-5.
    - Walk south on columns 4-5 to Row 48.
 
-3. **Row 48 to Row 53 Slalom (Around water blocks and Fisherman Barney):**
-   - From `(4, 48)`, walk East along the bridge to `(9, 48)`.
-   - Row 47 is blocked by water, and `(10, 48)` is water, so walk South on column 9 to `(9, 51)`.
-   - Walk West to `(8, 51)`, then South to Row 53 at `(8, 53)` (bypassing Fisherman Barney at `(9, 52)`).
-   - Walk East along Row 53 to columns 14-15 at `(15, 53)`.
+3. **Row 48 to Row 57 Slalom (Bypassing Barney and water blocks):**
+   - Row 54 and Row 55 are completely blocked by water with railings across columns 8-15.
+   - Bypassing this requires walking north/south along columns 4-5:
+     - If going South from row 53: from `(8, 53)` walk Up to `(8, 49)`, walk West to columns 4-5 at `(4, 49)`.
+     - Walk South on columns 4-5 to Row 57.
+     - At `(4, 57)`, walk East along Row 57 to columns 10-11 at `(10, 57)` / `(11, 57)`.
+   - From `(11, 57)`, columns 10-11 form a continuous vertical dock going South.
 
-4. **Row 53 to Route 13 (y=53 to y=107):**
-   - Walk South on columns 14-15 to Row 72.
-   - Walk West along Row 72 to columns 10-11 at `(10, 72)`.
-   - Walk South on columns 10-11 to Row 82.
+4. **Row 57 to Route 13 (y=57 to y=107):**
+   - Walk South on columns 10-11 from Row 57 directly to Row 72.
+   - At Row 72, continue navigating south on the docks to the Route 13 entrance at `(11, 107)`.
    - Walk West along Row 82 to the main western dock at columns 4-5 at `(4, 82)`.
    - Walk South on columns 4-5 to Row 104.
    - Walk East to columns 12-13 on Row 103, and then South to Route 13 at `(11, 107)`.
