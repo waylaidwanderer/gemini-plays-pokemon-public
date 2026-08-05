@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 37541)
-- Location: Route 8 Badge House (5, 4) -> Taking North doorway at (2, 0)
-- Active Protocol: B to close Badge Man dialogue -> Walk Left 3 to (2, 4) -> Walk Up 4 along Col 2 into North door at (2, 0) -> Inspect destination map.
+## CURRENT STATUS & DASHBOARD (Turn 37554)
+- Location: Route 8 (18, 9) -> Reversing Left to Col 9 to descend to Row 16 Lower Highway
+- Active Protocol: Left 9 to (9, 9) -> Down 7 to Row 16 (9, 16) -> East along Row 16 Lower Highway to (26, 16) -> East to Eastern Sector.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
