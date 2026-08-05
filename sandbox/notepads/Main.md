@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 39277)
-- Location: Rock Tunnel 1F (15, 8)
-- Active Protocol: From (15, 8), walk Up 5 steps along Col 15 to exit Rock Tunnel 1F onto Route 10 South at (15, 3).
+## CURRENT STATUS & DASHBOARD (Turn 39279)
+- Location: Rock Tunnel 1F (15, 3)
+- Active Protocol: From (15, 3), walk Up 1 step to exit Rock Tunnel 1F onto Route 10 South at (15, 2).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
