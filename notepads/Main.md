@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 37981)
-- Location: Route 8 Pokémon Center (3, 3)
-- Active Protocol: Close dialogue with B -> Walk Down 4 steps to (3, 7) door mat -> Exit onto Route 8 at (19, 18) -> Walk East to Underground Path building at (30, 19).
+## CURRENT STATUS & DASHBOARD (Turn 38011)
+- Location: Route 8 Underground Path Entrance Building (4, 13)
+- Active Protocol: Walk Up 1 to (4, 12) -> Left 2 to (2, 12) -> Up 3 along Column 2 to (2, 9) stairs -> Take stairs down into Underground Path tunnel!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
