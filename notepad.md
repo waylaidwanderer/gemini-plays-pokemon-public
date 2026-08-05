@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 37492)
-- Location: Route 8 (33, 20) -> Column 34 open gap -> (38, 17) doorway
-- Active Protocol: Right 1 to (34, 20) -> Up 3 to (34, 17) -> Right 4 into (38, 17) Underground Path Entrance Building Doorway.
+## CURRENT STATUS & DASHBOARD (Turn 37499)
+- Location: Saffron Gatehouse (7, 3) -> Exiting south to Route 8 (30, 20)
+- Active Protocol: Down 2 to (7, 5) -> Left 2 to (5, 5) -> Down 9 to exit door onto Route 8 at (30, 20) -> Search Route 8 for Underground Path Entrance Building.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -400,6 +400,7 @@
 - Verified (Turn 37476): Doorway at (13, 15) on Route 8 is the TRUE Underground Path Entrance Building!
 - Correction (Turn 37485): (13, 15) is the Trade House ("Poliwhirl for Jynx"). The TRUE Underground Path Entrance Building doorway is at (38, 17) on Route 8!
 - Verified (Turn 37494): Doorway at (30, 19) under blue striped roof IS the Underground Path Entrance Building on Route 8!
+- Correction (Turn 37499): Doorway at (30, 19) on Route 8 is the Saffron Gatehouse checkpoint. Exiting to Route 8 at (30, 20) to find the Underground Path Entrance Building!
 
 <hr>
 

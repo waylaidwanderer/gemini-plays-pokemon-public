@@ -20,3 +20,4 @@
 - Verified (Turn 37476): Doorway at (13, 15) on Route 8 is the TRUE Underground Path Entrance Building!
 - Correction (Turn 37485): (13, 15) is the Trade House ("Poliwhirl for Jynx"). The TRUE Underground Path Entrance Building doorway is at (38, 17) on Route 8!
 - Verified (Turn 37494): Doorway at (30, 19) under blue striped roof IS the Underground Path Entrance Building on Route 8!
+- Correction (Turn 37499): Doorway at (30, 19) on Route 8 is the Saffron Gatehouse checkpoint. Exiting to Route 8 at (30, 20) to find the Underground Path Entrance Building!
