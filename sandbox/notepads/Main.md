@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 37512)
-- Location: Route 8 Mart (2, 3) -> Exiting to Route 8 (25, 26)
-- Active Protocol: Exit Mart at (25, 25) -> Walk East along Route 8 to inspect final building doorway at (38, 17) (Underground Path Entrance Building).
+## CURRENT STATUS & DASHBOARD (Turn 37513)
+- Location: Route 8 (25, 26) -> Walking East along Row 27 pavement to (30, 27)
+- Active Protocol: Down 1 to (25, 27) -> Right 5 to (30, 27) -> East to (38, 18) -> Up 1 into (38, 17) Underground Path Entrance Building Doorway.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
