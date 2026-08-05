@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 39386)
+## CURRENT STATUS & DASHBOARD (Turn 39388)
 - Location: Rock Tunnel B1F (4, 24)
-- Active Protocol: From (4, 24) in Western Cavern Bypass, walk North 4 steps along Col 4 to Row 20 Highway at (4, 20).
+- Active Protocol: From (4, 24), walk West 3 steps along Row 24 to Col 1 at (1, 24), probe North along Col 1 to Row 20 Highway.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
