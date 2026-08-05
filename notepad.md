@@ -553,12 +553,6 @@
 
 <hr>
 
-<h1><code>notepads/Locations/CeladonCity.md</code></h1>
-
-
-
-<hr>
-
 <h1><code>notepads/Locations/RocketHideout</code></h1>
 
 # Temporary Duplicate
@@ -567,7 +561,7 @@
 
 <h1><code>notepads/Locations/RocketHideout.md</code></h1>
 
-
+# Temporary Duplicate MD.MD
 
 <hr>
 
@@ -826,5 +820,17 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 
 ## Defeated Trainers
 - **Beauty:** Standing at `(53, 10)` or `(53, 11)` (challenged from `(53, 12)` on Turn 20081). Defeated on Turn 20101. Roster: Pidgeotto Lv 29, Wigglytuff Lv 29. Prize money: ¥2030.
+
+<hr>
+
+<h1><code>Locations/CeladonCity.md</code></h1>
+
+# Temporary Duplicate MD.MD
+
+<hr>
+
+<h1><code>Locations/RocketHideout.md</code></h1>
+
+# Temporary Duplicate MD.MD
 
 <hr>
