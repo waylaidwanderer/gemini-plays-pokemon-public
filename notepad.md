@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 38851)
-- Location: Route 9 (45, 7)
-- Active Protocol: Walking West to West Sector entrance at (0, 8)/(0, 3) to enter Row 3 Uppermost Highway, then walking East along Row 3 continuously to Route 10 Entrance at (59, 8)!
+## CURRENT STATUS & DASHBOARD (Turn 38856)
+- Location: Route 9 (20, 11)
+- Active Protocol: Walking Down 1 to (20, 12), Left 10 steps to West Sector (10, 12), then entering Row 3 Uppermost Highway to Route 10 Entrance at (59, 8)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
