@@ -1008,7 +1008,7 @@ To transition from the northwestern ground level to the southwestern exit of Are
 
 ## Run Statistics (Current Run)
 - **Start Turn:** 21659 (Fresh run, paid ¥500, received 30 Safari Balls, 500 step budget)
-- **Current Turn:** 21661 (2 turns elapsed)
+- **Current Turn:** 21675 (16 turns elapsed)
 - **Estimated Steps Taken:** 0 steps
 - **Estimated Remaining Steps:** 500 steps (Resource monitored carefully to prevent unexpected eviction)
 
@@ -1033,13 +1033,12 @@ To transition from the northwestern ground level to the southwestern exit of Are
 
 ## Gold-Standard Speedrun Route to Area 3 (West)
 
-To transition from the northern/northwestern ground level to the southwestern exit of Area 2 (North) (which connects to Area 3 (West) and the Secret House), the player must use the eastern plateau stairs:
+To transition from the northwestern ground level to the southwestern exit of Area 2 (North) (which connects to Area 3 (West) and the Secret House), the player must use the eastern plateau stairs:
 
 1. **Circumvent Rest House 2:** From column 19, walk Up to row 9 (open grass), then walk East to column 35 (bypassing the row 10 tree line).
 2. **Access the East Stairs:** Walk Down column 35 to row 13, then walk west and climb UP onto the plateau using the stairs at `(32, 13)` or `(33, 13)`.
 3. **Traverse the Plateau:** Walk south and west along the plateau structure to reach the southern cliffside.
 4. **Reach Southern Ground Level:** Walk down the stairs or jump down the south-facing ledges at the south-eastern/south-middle part of the plateau to land on the southern ground level (rows 25-35).
 5. **Walk West to Area 3:** Follow the open southern grass corridor (around row 30) all the way west to the bottom-left corner of Area 2 (North) (columns 0-4, rows 30-35) to transition to **Area 3 (West)**.
-
 
 <hr>
