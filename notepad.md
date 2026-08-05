@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 38311)
-- Location: East Cerulean City Overworld (33, 9)
-- Active Protocol: Walk Down 4 to Row 13 (33, 13) -> East 6 along Row 13 to Col 39 (39, 13) -> Route 9 Entrance -> Route 10 -> Rock Tunnel -> Lavender Town -> Route 8 -> Underground Path -> Celadon City!
+## CURRENT STATUS & DASHBOARD (Turn 38341)
+- Location: Route 9 Upper Highway (29, 8)
+- Active Protocol: Walk West along Row 8 to Col 23/24 -> Ascend North to Row 4 Top Highway -> East to Route 10 Entrance (59, 2/3/4) -> Rock Tunnel -> Lavender Town -> Route 8 -> Underground Path -> Celadon City!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
