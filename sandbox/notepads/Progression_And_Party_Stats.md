@@ -24,25 +24,25 @@
 
    - Level: 15
 
-   - Status: Poisoned (as of Turn 20164)
+   - Status: Healthy
 
 3. **GUSTY** (Pidgey)
 
    - Level: 5
 
-   - Status: Poisoned (as of Turn 20164)
+   - Status: Healthy
 
 4. **NIBBLES** (Rattata)
 
    - Level: 7
 
-   - Status: Poisoned (as of Turn 20164)
+   - Status: Healthy
 
 5. **TESLA** (Pikachu)
 
    - Level: 20
 
-   - Status: Poisoned (as of Turn 20164)
+   - Status: Healthy
 
 ## Major Milestones and Items
 
@@ -73,7 +73,7 @@
 
 - **Escape Rope:** Obtained on Turn 13977, consumed on Turn 16964.
 
-## Verified Inventory (as of Turn 19081)
+## Verified Inventory (as of Turn 20199)
 
 - **Town Map:** 1
 - **TM01 (Mega Punch):** 1
