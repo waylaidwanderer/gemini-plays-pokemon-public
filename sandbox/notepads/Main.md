@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 38147)
-- Location: Cerulean City (13, 16)
-- Active Protocol: Walk Left 4 steps along Row 16 to (9, 16) to bring West Cerulean (x=0..8) onto screen and locate Northbound passage to Burglarized House at (30, 11)!
+## CURRENT STATUS & DASHBOARD (Turn 38150)
+- Location: Cerulean City (9, 16)
+- Active Protocol: Walk Down 4 to (9, 20) -> Right 13 to (22, 20) -> Up 3 to probe (22, 17) Northbound passage to Burglarized House at (30, 11)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
