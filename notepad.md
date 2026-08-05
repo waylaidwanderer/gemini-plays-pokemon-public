@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 37754)
-- Location: Route 8 (13, 12)
-- Active Protocol: Left 1 to (12, 12) -> Up 4 along Col 12 to Row 8 pavement at (12, 8) -> Left 12 along Row 8 pavement to West Entrance at (0, 8) -> Warp into Underground Path Entrance Building -> Celadon City!
+## CURRENT STATUS & DASHBOARD (Turn 37762)
+- Location: Route 8 (46, 14)
+- Active Protocol: Walk Left 17 steps along Row 14 to Col 29 at (29, 14) -> Up 5 through gap to Row 9 at (29, 9) -> Down 1 to (29, 10) -> Left 9 along Row 10 to Col 20 at (20, 10) -> Down 2 to Row 12 green grass at (20, 12) -> Left 20 steps along Row 12 green grass to Col 0 at (0, 12) / West Entrance -> Celadon City!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
