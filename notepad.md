@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 38071)
-- Location: Route 8 overworld (30, 20)
-- Active Protocol: Probe the Underground Path Entrance Building at (30, 19) or Route 8 overworld to locate the stairwell warp into the Underground Path long horizontal tunnel to Route 7.
+## CURRENT STATUS & DASHBOARD (Turn 38077)
+- Location: Route 8 overworld (30, 20) / Building (3, 3)
+- Active Protocol: Exit building onto Route 8 at (30, 20) -> Walk West to Cut tree at (5, 8) -> Pass through (0, 8) warp to Underground Path Entrance Building at (39, 16) -> Take (30, 19) warp into Underground Path long tunnel -> Walk West to Route 7 & Celadon City!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
