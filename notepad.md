@@ -672,11 +672,11 @@
 - Room (Cols 13-21, Rows 16-21): Large open cavern bounded North by Row 15 rock wall, South by Row 22-23 rock wall, East by Col 22 rock wall.
 - Secondary Ladder Warp: Tile (3, 3) in 1F connects directly to B1F at (37, 17).
 - Secondary Ladder Alcove (Cols 2-5, Rows 0-4): Enclosed dead-end alcove in 1F Western Sector. Ladder at (3, 3) connects to B1F (37, 17).
-### Verified 1F Master Exit Route to Route 10
-- Secondary Ladder Arrival: (5, 3) in Western Sector.
-- Central Wall: Columns 12 and 13 are solid rock wall from Row 6 down to Row 13.
-- Column 11 Wall Barrier: Tile (11, 5) is a solid rock wall blocking northbound movement past Row 6 on Column 11.
-- Row 14 East-West Corridor: Row 14 (Cols 11-17) is an open floor corridor connecting West and East sectors.
+### Verified 1F Master Topography & Complete Solution
+- Central Divider Wall: Columns 12 and 13 form a solid vertical rock wall across ALL Rows 0-20 completely dividing 1F into West Cavern (Cols 0-11) and East Cavern (Cols 14-37).
+- West Cavern (Cols 0-11): Contains Ladder at (3, 3) leading to B1F (37, 17).
+- East Cavern (Cols 14-37): Contains Route 10 Exit at (15, 3) and Ladder at (37, 3) leading to B1F (27, 3).
+- Passage between West Cavern and East Cavern is via B1F.
 - Rock Wall Barrier at Row 15: Tile (17, 15) and Rows 14-15 across Columns 18-22 are solid rock walls.
 - Southern Cavern: Rows 18-20 across Columns 13-21 form a dead-end cavern bounded East by Col 22 rock wall.
 - Tile (13, 10) is solid rock wall on 1F.
