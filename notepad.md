@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 37426)
-- Location: Underground Path (5, 2)
-- Active Protocol: Standing at (5, 2) in Upper Sector -> Open Start Menu -> ITEM -> Inspect Bag inventory for TM11 / Key Items.
+## CURRENT STATUS & DASHBOARD (Turn 37431)
+- Location: Underground Path (4, 3)
+- Active Protocol: At (4, 3) in Upper Sector -> Retracing South to (4, 13) entrance pad -> Walk East on Row 12 to Col 9 -> North on Col 9 to Row 8 -> West on Row 8 to Col 0 -> North on Col 0 to (0, 0) Route 7 warp mat.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
