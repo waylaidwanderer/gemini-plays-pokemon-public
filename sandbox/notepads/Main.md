@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 38911)
-- Location: Route 9 (13, 12)
-- Active Protocol: Inspecting Col 13 / West Sector northbound passage to Row 3 Upper Grass Highway!
+## CURRENT STATUS & DASHBOARD (Turn 38920)
+- Location: Route 9 (34, 12)
+- Active Protocol: Walking East 18 steps along Row 12 grass from (34, 12) to Col 52 pavement corridor at (52, 12)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
