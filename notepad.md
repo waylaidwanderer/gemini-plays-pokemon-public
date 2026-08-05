@@ -967,9 +967,9 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 
 ## Run Statistics (Current Run)
 - **Start Turn:** 21902 (Fresh run, paid ¥500, received 30 Safari Balls, 500 step budget)
-- **Current Turn:** 21926 (24 turns elapsed)
-- **Estimated Steps Taken:** 34 steps
-- **Estimated Remaining Steps:** 466 steps
+- **Current Turn:** 21933 (31 turns elapsed)
+- **Estimated Steps Taken:** 48 steps
+- **Estimated Remaining Steps:** 452 steps
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
