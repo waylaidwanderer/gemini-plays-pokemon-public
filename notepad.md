@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 37509)
-- Location: Route 8 (25, 27) -> Entering doorway at (25, 25)
-- Active Protocol: Up 2 into doorway at (25, 25) -> Inspect interior map and single-step probe to verify building type.
+## CURRENT STATUS & DASHBOARD (Turn 37511)
+- Location: Underground Path Entrance Building (3, 7) -> Taking stairs at (2, 3)
+- Active Protocol: Left 1 to (2, 7) -> Up 4 along Col 2 to stairs at (2, 3) -> Warp down into Underground Path tunnel -> Walk West to Route 7 -> Enter Celadon City.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -398,7 +398,7 @@
 - Building Doorway Audit (Turn 37501):
   - (13, 15): Trade House ("Poliwhirl for Jynx").
   - (30, 19): Saffron Gatehouse checkpoint (Thirsty Guard).
-  - Search Target: Locate remaining doorway at (38, 17) on Route 8 to verify Underground Path entrance.
+- Verified (Turn 37511): Doorway at (25, 25) on Route 8 IS THE TRUE UNDERGROUND PATH ENTRANCE BUILDING! South exit mats at (3, 7)/(4, 7). Stairs leading down into tunnel are at (2, 3)/(3, 3)!
 
 <hr>
 

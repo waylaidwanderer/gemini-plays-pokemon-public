@@ -18,4 +18,4 @@
 - Building Doorway Audit (Turn 37501):
   - (13, 15): Trade House ("Poliwhirl for Jynx").
   - (30, 19): Saffron Gatehouse checkpoint (Thirsty Guard).
-  - Search Target: Locate remaining doorway at (38, 17) on Route 8 to verify Underground Path entrance.
+- Verified (Turn 37511): Doorway at (25, 25) on Route 8 IS THE TRUE UNDERGROUND PATH ENTRANCE BUILDING! South exit mats at (3, 7)/(4, 7). Stairs leading down into tunnel are at (2, 3)/(3, 3)!
