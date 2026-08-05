@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 38586)
-- Location: Route 9 Row 6 Highway (41, 6)
-- Active Protocol: Left 5 along Row 6 from (41, 6) to (36, 6) -> Continue West along Row 6 to locate open northbound passage to Row 3 Top Highway!
+## CURRENT STATUS & DASHBOARD (Turn 38593)
+- Location: Route 9 Column 32 Ledge (32, 6)
+- Active Protocol: Right 2 to (34, 6) -> Down 6 to Row 12 (34, 12) -> Left 6 to (28, 12) -> Up 1 to (28, 11) -> Left 8 to (20, 11) -> Down 1 to (20, 12) -> Left 10 to Western Sector (10, 12)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -165,6 +165,7 @@
 - EMPIRICAL PROBE RESULT (Turn 38571): Tile (42, 8) is a solid rock wall blocking Eastbound movement from (41, 8).
 - Verified Top Highway Ascent Passage: Columns 32 & 33 at (32, 6) / (33, 6) connect UP through (32, 5) / (33, 5) green grass directly to Row 3 Top Highway at (32, 3) / (33, 3)!
 - Route 10 Entrance Route: From (32, 3) Row 3 Top Highway, walk East along Row 3 / Row 4 green grass across Columns 32-59 directly to Route 10 Entrance at (59, 8)!
+- EMPIRICAL PROBE RESULT (Turn 38592): Tile (32, 5) is a solid south-facing ledge wall blocking Northbound movement from (32, 6).
 
 <hr>
 

@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 38586)
-- Location: Route 9 Row 6 Highway (41, 6)
-- Active Protocol: Left 5 along Row 6 from (41, 6) to (36, 6) -> Continue West along Row 6 to locate open northbound passage to Row 3 Top Highway!
+## CURRENT STATUS & DASHBOARD (Turn 38593)
+- Location: Route 9 Column 32 Ledge (32, 6)
+- Active Protocol: Right 2 to (34, 6) -> Down 6 to Row 12 (34, 12) -> Left 6 to (28, 12) -> Up 1 to (28, 11) -> Left 8 to (20, 11) -> Down 1 to (20, 12) -> Left 10 to Western Sector (10, 12)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
