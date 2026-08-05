@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 37351)
-- Location: Route 8 (25, 4)
-- Active Protocol: At (25, 4) on Topmost Highway -> Walk West to (6, 3) -> Hop south over (6, 7) ledge to (6, 8) -> Face West at (5, 8) Cut tree and use CUT -> Walk West through (5, 8) into Western Sector to Underground Path building doorway at (3, 5)/(2, 5).
+## CURRENT STATUS & DASHBOARD (Turn 37366)
+- Location: Underground Path Entrance Building (39, 16)
+- Active Protocol: Warped into Underground Path Entrance Building at (39, 16) -> Walk Up 2 to (39, 14), Left 4 to (35, 14), Down 6 to (35, 20) stairs to enter Underground Path.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
