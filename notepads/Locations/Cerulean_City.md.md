@@ -1,7 +1,7 @@
 ## Verified Cerulean City Topology & Boundaries (Turn 30944)
 
 ### Route 9 East Exit Passage
-- Row 16 Corridor: Row 16 is an elevated corridor above the Row 19 ledge running continuously from Col 17 all the way East to Col 38/39.
+- Row 16 Corridor: Row 16 at x=18..21 is blocked by the back of the Cerulean Pokemon Center. Open East-West highway runs along Row 19 / Row 20 in front of Pokemon Center (door at 19, 17).
 - Route 9 Entrance: Open passage into Route 9 is at Row 16 / Row 17 at (38, 16) / (39, 16) and (38, 17).
 - Col 38 Wall: Solid rock wall from y=18 down through y=33.
 
