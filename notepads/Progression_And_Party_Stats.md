@@ -106,3 +106,5 @@
 
 - **Pokémon Tower Exploration:** Started Turn 18258 (Entered Pokémon Tower, engaged Rival JACK on 2F on Turn 18281).
 - **Safari Zone Entered:** Entered on Turn 20957. Paid ¥500 entrance fee (cash reduced from ¥73588 to ¥73088). Received 30 SAFARI BALLS.
+
+- **Safari Zone Re-entered (Fresh Run):** Re-entered on Turn 21140. Paid �500 entrance fee (cash reduced from �73088 to �72588). Received 30 SAFARI BALLS.
