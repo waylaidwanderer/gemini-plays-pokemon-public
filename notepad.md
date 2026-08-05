@@ -159,6 +159,7 @@
 - Ledge Boundaries: Row 9 (Cols 21-25) and Row 5 (Cols 20-25) are solid south-facing ledges (cannot walk North across them).
 - Rock Cliff Boundary: Tile (28, 7) is a solid mountain rock cliff barrier (not a northbound ascent route).
 - Tile (41, 13) is a solid one-way south-facing ledge (can hop Down from 41, 12 to 41, 14, but cannot walk Up from 41, 14). Exit from Row 14 Lower Basin is WEST at (29, 14) -> UP through (29, 13) gap to (29, 12) Middle Highway!
+- Eastbound Highway Corridor: From Row 6 pavement at (45, 6), walk Down 2 to (45, 8) -> Right 1 to (46, 8) onto open Eastbound Pavement Highway (Rows 8..10, Cols 46-59) directly to Route 10 Entrance at (59, 8)!
 
 <hr>
 
