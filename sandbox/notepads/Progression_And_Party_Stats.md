@@ -14,7 +14,7 @@
 
 1. **SHELLBY** (Blastoise)
 
-   - Level: 53
+   - Level: 54
 
    - Status: Poisoned (as of Turn 20164)
 
