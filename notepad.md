@@ -747,6 +747,7 @@
 - Verified Collision Barrier (Turn 35248): Row 28 at (14, 28) is a solid rock wall blocking Northbound movement on Column 14. Open bypass to Row 16 Highway is via Row 30 -> Col 8 / Col 4 Western Cavern!
 - Verified Collision Barrier (Turn 35279): Tile (26, 30) is a solid rock wall separating (25, 30) and (27, 30) on Row 30. Sector Bypass is via Row 31 at (26, 31)!
 - Verified Collision Barrier (Turn 35359): Tile (27, 25) is a solid rock wall blocking Westbound movement from (28, 25).
+- VERIFIED (Turn 39397): Rows 21-23 across Cols 0-13 form solid rock wall. Column 14 Highway at x=14 is the open Northbound highway connecting Western Cavern (14, 24-27) directly North through Row 16/12 to Row 4 Exit Chamber at (14, 4)!
 
 <hr>
 
