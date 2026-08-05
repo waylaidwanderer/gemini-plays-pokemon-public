@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 39376)
-- Location: Rock Tunnel B1F (14, 27)
-- Active Protocol: From (14, 27) in West Sector, walk North 5 steps along Col 14 Highway to (14, 22).
+## CURRENT STATUS & DASHBOARD (Turn 39379)
+- Location: Rock Tunnel B1F (14, 24)
+- Active Protocol: From (14, 24), walk West 5 steps along Row 24 to Col 9 at (9, 24), West 5 steps to Western Cavern Bypass at (4, 24), North along Col 4 to Exit Chamber.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
