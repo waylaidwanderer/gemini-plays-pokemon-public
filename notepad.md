@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 37924)
-- Location: Route 7 (7, 5)
-- Active Protocol: Walk Left 6 to Col 1 -> Up 2 to Row 3 -> Left 2 into Celadon City!
+## CURRENT STATUS & DASHBOARD (Turn 37929)
+- Location: Route 7 (3, 3)
+- Active Protocol: Down 2 to Row 5 -> Left 3 through (0, 5) doorway into Celadon City!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
