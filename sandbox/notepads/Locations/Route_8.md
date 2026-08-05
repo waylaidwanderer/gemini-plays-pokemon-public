@@ -88,8 +88,6 @@
 - Tile (19, 10) is a solid rock wall (empirically confirmed turn 35853).
 - Tile (20, 9) is a south-facing ledge wall (empirically confirmed turn 35854).
 - Row 11 across Cols 10-19 is a south-facing ledge wall blocking northbound movement from Row 12 green grass (empirically confirmed turns 35847 & 35870).
-- Underground Path Entrance Building Doorway: Verified red doorway frame located on Row 5 at (14, 5)!
-
 - EMPIRICAL PROBE RESULT (Turn 35960): Tile (20, 9) is a south-facing ledge wall blocking northbound movement from Row 10 to Row 9 at Col 20.
 
 - EMPIRICAL PROBE RESULT (Turn 36042): Tile (19, 13) is a south-facing ledge wall blocking northbound movement from Row 14 to Row 12 at Col 19.
