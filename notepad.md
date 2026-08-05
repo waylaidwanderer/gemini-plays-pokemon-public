@@ -36,9 +36,9 @@
 
    - Level: 54
 
-   - Status: Poisoned (as of Turn 20164)
+   - Status: Poisoned (as of Turn 20164, current HP: 104/171 as of Turn 20410)
 
-   - Moveset: HYDRO PUMP (Max PP: 5), ICE BEAM (Max PP: 10) (Taught on Turn 13537, forgot TAIL WHIP), BITE (Max PP: 25), WATER GUN (Max PP: 25)
+   - Moveset: HYDRO PUMP (PP: 3/5), ICE BEAM (PP: 0/10), BITE (PP: 9/25), WATER GUN (PP: 19/25)
 
 2. **TRUFFLE** (Paras)
 
@@ -808,6 +808,8 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 
 ## Map Transitions & Connections
 - **East Connection (Route 14):** Transition at Route 15 `(59, 12)` connects directly to Route 14 at `(0, 48)` / `(0, 49)`. Player entered Route 15 on Turn 20078.
+- **West Connection (Fuchsia City):** Transition at Route 15 `(0, 9)` connects directly to Fuchsia City at `(39, 17)`. (Player entered Fuchsia City on Turn 20389).
+- **West Gatehouse (Route 15 Gate):** Located at rows 8-9, columns 8-12 on Route 15, with the west exit at `(7, 9)`. Inside the gatehouse, the warp mats are at `(7, 5)` (east) and `(0, 5)` (west).
 
 ## Physical Layout & Navigation
 - A horizontal route extending west towards Fuchsia City.
@@ -845,5 +847,26 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
   1. Complete Route 15 and enter Fuchsia City.
   2. Walk directly west to the Pokémon Center.
   3. Heal party and cure SHELLBY's poison.
+
+<hr>
+
+<h1><code>Locations/FuchsiaCity</code></h1>
+
+# Fuchsia City - Overworld Layout & Points of Interest
+
+## Map Transitions & Connections
+- **East Connection (Route 15):** Transition at Fuchsia City `(39, 17)` connects directly to Route 15 `(0, 9)` on the western corridor (Player entered Fuchsia City on Turn 20389).
+- **East Gatehouse (Route 15 Gate):** Located at rows 8-9, columns 8-12 on Route 15, with west exit at `(7, 9)`. Inside, the mat is at `(7, 5)` (east) and `(0, 5)` (west).
+
+## Physical Layout & Exploration
+- The eastern part of Fuchsia City has a Zoo/Safari Zone area with walled pens (bordered by grey Rhydon statues).
+- Columns 18-22 on Rows 22-23 form the roof of a house.
+- Column 23 has a solid vertical wall/fence running from Row 22 to Row 31, blocking direct westward movement to the Pokemon Center.
+- Row 33 has a horizontal row of grey Rhydon statues (columns 24-35).
+- Row 34 has trees blocking southern movement at columns 30-35.
+
+## Landmarks & Points of Interest
+- **Pok�mon Center:** Identified with "POKE" sign at `(20, 27)` with pink roof at columns 18-21 on Rows 24-25. Entrance door expected on row 28.
+
 
 <hr>

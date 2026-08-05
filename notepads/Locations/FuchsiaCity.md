@@ -1,38 +1,15 @@
-# Fuchsia City Verified Location Records (Map 0_7)
-- **Map Connections**:
-  - Connected to Route 18 East (Map 0_29) at the western boundary (Row 17, Col 0).
-- **Physical Landmarks & Obstacles**:
-  - The entrance from Route 18 has a stone fence layout with white pillars.
-  - Pillars at Column 4 (Rows 16-19) block direct Eastward movement.
-  - Pillars at Column 0 (Rows 18-21) block Southward movement at Column 0.
-  - Path around the pillars: from (0, 17) go East to Column 3, South to Row 20, and then East into Fuchsia City.
-  - **Cuttable Buses (Verified)**:
-    - (18, 19) (TYPE_5519) - Cut on Turn 44265. Unlocks the central vertical corridor on Column 18 leading north.
-    - (16, 11) (TYPE_5519) - Cut on Turn 44278. Unlocks access to the north-western open lawn (Columns 12-16, Rows 5-10) to reach the Safari Zone.
-  - **Safari Entrance Blockage & Bypass**:
-    - Column 18 is blocked at Row 7 by a solid tree (18, 7) (TYPE_2889).
-    - To bypass this and reach the gatehouse entrance at (18, 3), we must walk Left to Column 16 on Row 12, walk Up to Row 6, and walk Right back to Column 18 to proceed Up.
-- **Eastern Path Exploration (Turn 43332)**:
-  - Row 20/21 is blocked at Column 25 by a wooden fence (TYPE_2889).
-  - To bypass, go North to Row 18 or 17 and continue Eastward.
-  - A wandering NPC is present around (28, 17).
-- **Fuchsia Meeting Room (Map 0_158)**:
-  - Entered on Turn 43345 from (22, 13) in Fuchsia City. Featuring a lobby layout and several staff members. This has often been misidentified as the Warden's House historically.
-  - Inside features a counter desk layout on Row 5 with openings at Columns 2-4, leading to Row 4 in front of another counter on Row 3.
-- **Warden's House (Map 0_155)**:
-  - Located in south-eastern Fuchsia City with its door at (27, 27) and a signpost outside at (27, 29). Entered on Turn 73908. Inside features a small house layout, the Warden at (2, 3), and a pushable boulder at (8, 4) blocking an item at (8, 3).
-- **Western Ledge Barrier Exploration (Turn 43371)**:
-  - The vertical ledge on Column 2 (Rows 26-30) is a one-way ledge facing West (impassable from West to East).
-  - The horizontal ledge on Row 31 is a one-way ledge facing South.
-  - To bypass these barriers and enter the main city from the Western corridor (Column 1), walk all the way South to Row 32, and then walk East. Row 32 is completely open and passable.
-- **Fuchsia Resident House (Map 0_153)**:
-  - Entered on Turn 43377 from (11, 27) in Fuchsia City (previously mistaken for the Pokémon Center).
-  - Inside features a lady at (2, 3) who explicitly states: "SAFARI ZONE's WARDEN is old, but still active! All his teeth are false, though." This provides a vital hint about the Warden's missing teeth.
-  - A youngster at (0, 2) mentions that "SLOWPOKE is very knowledgeable about POKéMON! He even has some fossils of rare, extinct POKéMON!" confirming the Warden's nickname and fossils.
-- **Fuchsia Pokémon Center (Map 0_154)**:
-  - Entered on Turn 43386 from (19, 27) in Fuchsia City.
-  - Registered and healed our party on Turn 43392, setting our active Fly point!
-- **Central Partition and Ledge Gaps (Turn 43403)**:
-  - Row 33/32 is blocked East-West at Column 15 by a solid vertical city wall (TYPE_2889).
-  - Column 16 features a flat, passable gap (TYPE_3fe2) on Row 31 through the horizontal ledge.
-  - This allows seamless vertical transition between the southern Row 32 corridor and the main Row 28 street.
+# Fuchsia City - Overworld Layout & Points of Interest
+
+## Map Transitions & Connections
+- **East Connection (Route 15):** Transition at Fuchsia City `(39, 17)` connects directly to Route 15 `(0, 9)` on the western corridor (Player entered Fuchsia City on Turn 20389).
+- **East Gatehouse (Route 15 Gate):** Located at rows 8-9, columns 8-12 on Route 15, with west exit at `(7, 9)`. Inside, the mat is at `(7, 5)` (east) and `(0, 5)` (west).
+
+## Physical Layout & Exploration
+- The eastern part of Fuchsia City has a Zoo/Safari Zone area with walled pens (bordered by grey Rhydon statues).
+- Columns 18-22 on Rows 22-23 form the roof of a house.
+- Column 23 has a solid vertical wall/fence running from Row 22 to Row 31, blocking direct westward movement to the Pokemon Center.
+- Row 33 has a horizontal row of grey Rhydon statues (columns 24-35).
+- Row 34 has trees blocking southern movement at columns 30-35.
+
+## Landmarks & Points of Interest
+- **Pok�mon Center:** Identified with "POKE" sign at `(20, 27)` with pink roof at columns 18-21 on Rows 24-25. Entrance door expected on row 28.

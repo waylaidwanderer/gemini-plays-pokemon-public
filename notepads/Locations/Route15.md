@@ -2,6 +2,8 @@
 
 ## Map Transitions & Connections
 - **East Connection (Route 14):** Transition at Route 15 `(59, 12)` connects directly to Route 14 at `(0, 48)` / `(0, 49)`. Player entered Route 15 on Turn 20078.
+- **West Connection (Fuchsia City):** Transition at Route 15 `(0, 9)` connects directly to Fuchsia City at `(39, 17)`. (Player entered Fuchsia City on Turn 20389).
+- **West Gatehouse (Route 15 Gate):** Located at rows 8-9, columns 8-12 on Route 15, with the west exit at `(7, 9)`. Inside the gatehouse, the warp mats are at `(7, 5)` (east) and `(0, 5)` (west).
 
 ## Physical Layout & Navigation
 - A horizontal route extending west towards Fuchsia City.
