@@ -231,7 +231,7 @@
 ### Verified 1F Master Solution to B1F Ladder (37, 3) (Turn 39113)
 - Column 32/33 (x=32..33, y=0..8) is a solid rock wall separating West Sector (Cols 0-31) from East Sector (Cols 34-37).
 - Master Route: From (31, 4), walk West to Col 11 (11, 4) -> Down Col 11 to Row 13 Highway (11, 13) -> East along Row 13 Highway across Cols 11-37 to (37, 13) -> North along Col 37 to B1F Ladder at (37, 3)!
-- EMPIRICAL CORRECTION (Turn 39145): Tile (11, 8) is a rock wall. The open Southbound highway is Column 7 (x=7)! The verified master route to B1F Ladder (37, 3) from (31, 4) is: West 24 steps to (7, 4) -> Down 9 steps along Col 7 to Row 13 Highway at (7, 13) -> East 30 steps along Row 13 Highway to (37, 13) -> North 10 steps along Col 37 to B1F Ladder at (37, 3)!
+- EMPIRICAL CORRECTION (Turn 39155): Tile (13, 4) is a rock wall blocking Westbound movement on Row 4. Row 7 is open! The verified master route from (14, 4) to B1F Ladder (37, 3) is: Down 3 steps to Row 7 at (14, 7) -> West 7 steps along Row 7 to Col 7 at (7, 7) -> Down 6 steps along Col 7 to Row 13 Highway at (7, 13) -> East 30 steps along Row 13 Highway to (37, 13) -> North 10 steps along Col 37 to B1F Ladder at (37, 3)!
 
 <hr>
 
