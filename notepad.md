@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 38600)
-- Location: Route 9 Column 29 Ascent Gap (29, 13)
-- Active Protocol: Up 4 along Col 29 from (29, 13) to Row 9 (29, 9) -> East along Row 10/12 to Col 41!
+## CURRENT STATUS & DASHBOARD (Turn 38602)
+- Location: Route 9 Upper Highway (29, 9)
+- Active Protocol: Down 1 to (29, 10) -> Left 5 to Col 24 (24, 10) -> Up 4 along Col 24 to Row 6 pavement at (24, 6)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
