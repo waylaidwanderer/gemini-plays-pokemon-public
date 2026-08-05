@@ -44,4 +44,4 @@
 - Column 26 Mountain Bypass (Turn 38811): Row 12 at x=24..27 is a mountain rock cliff wall, but Row 10/11 at x=24..27 is open Light Grey Pavement connecting (23, 10) directly East to East Sector at (28, 10)!
 - EMPIRICAL PROBE RESULT (Turn 38865): Tile (30, 5) is a solid south-facing ledge wall blocking Northbound movement from (30, 6).
 - Column 33/34 Slope (Turn 38867): Row 6 pavement (33, 6) -> Down 2 through (33, 8) slope connects East to Row 7 pavement at (34, 7)/(35, 7) and Row 8/9 pavement at (34, 8)/(35, 8)!
-- Master Route to Route 10 Entrance (59, 8): From (34, 7) -> Down 3 to Row 10 green grass (34, 10) -> Down through (34, 11) ledge to Row 12 grass (34, 12) -> Right 7 to Col 41 (41, 12) -> Up 5 through Col 41 gap to Row 7 pavement (41, 7) -> Right 4 to (45, 7) -> Down 1 & Right 1 to (46, 8) Eastbound Highway -> Right 13 to Route 10 Entrance at (59, 8)!
+- Tile (45, 8) is a solid rock wall slope blocking Down movement from (45, 7). Row 6/7 pavement (Cols 30-45) is a complete dead end.
