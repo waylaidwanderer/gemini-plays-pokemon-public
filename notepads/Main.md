@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 37942)
-- Location: Route 8 (19, 18)
-- Active Protocol: Walk Down 1 to Row 19 -> Right 11 along Row 19 to Underground Path Entrance Building at (30, 19) -> Underground Path -> Celadon City!
+## CURRENT STATUS & DASHBOARD (Turn 37948)
+- Location: Underground Path Tunnel (4, 13)
+- Active Protocol: Up 1 to (4, 12) -> Left 4 to Col 0 at (0, 12) -> Down 1 to (0, 13) -> Right 4 to (4, 13) -> Down to Route 7 Entrance Building -> Route 7 -> Celadon City!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
