@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 38791)
-- Location: Route 9 (21, 10)
-- Active Protocol: Testing Up steps at Col 22 and Col 23 onto Row 9 to find the ascent gap into Row 6 Light Grey Pavement Highway!
+## CURRENT STATUS & DASHBOARD (Turn 38798)
+- Location: Route 9 (10, 12)
+- Active Protocol: Walking Right 3 to (13, 12), Up 1 through (13, 11) gravel gap to NPC at (13, 10), passing NPC to Row 8 Pavement Highway at (13, 8), and walking East to Route 10 Entrance at (59, 8)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
