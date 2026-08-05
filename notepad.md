@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 38578)
+## CURRENT STATUS & DASHBOARD (Turn 38583)
 - Location: Route 9 Middle Corridor (20, 11)
-- Active Protocol: Down 1 to (20, 12) -> Left 10 along Row 12 green grass to Western Sector at (10, 12)!
+- Active Protocol: Right 8 to (28, 11) -> Down 1 to (28, 12) -> East 13 to (41, 12) -> Up 6 to (41, 6) -> West along Row 6 with single-step probing on each column to find Row 3 Top Highway entrance!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -145,12 +145,6 @@
   1. From (10, 12), walk East along Row 12 to (29, 12).
   2. Step UP 3 steps through (29, 11)/(29, 10) to (29, 9) Row 9 Pavement Highway.
 
-### Verified Master Route to Route 10
-1. Retrace West along Row 14 from (23, 14) through (10, 14) to Cerulean City East Exit / Route 9 Entrance at (0, 8/16).
-2. Re-enter Route 9 at (0, 8) on Middle/Upper Highway tier.
-3. Cut tree at (5, 8) and walk East along Row 11/12 across Columns 24-27 to (29, 11).
-4. Row 9 across Cols 21-29 is a solid south-facing ledge. From (29, 10), step DOWN 2 steps to Row 12 (29, 12) Green Grass Highway, then walk East along Row 12 towards Column 38/41 Ascent Gap.
-5. Walk East continuously along Row 4/3/2 Top Highway to Route 10 Entrance at (59, 2/3/4).
 - West Basin Bound: Solid rock wall at x=9 (y=10..18). Row 14 lower basin begins at x=10.
 - Basin Exit Ledge Gap Verified: (19, 14) -> UP 2 steps through (19, 13) gap to (19, 12) Middle Highway grass!
 - Row 6/7 Pavement Corridor (Cols 30-45) is a dead-end middle highway bounded North by Row 5 ledge and West/East by rock walls. Exit is DOWN through Col 41 gap at (41, 8) to Row 12 (41, 12).
