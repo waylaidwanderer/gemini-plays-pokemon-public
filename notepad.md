@@ -327,6 +327,7 @@
 - Route 8 West Access via Row 22: Row 22 is an open light grey pavement corridor from x=7 left through x=0 / x=-1 onto Route 8 West.
 - EMPIRICAL PROBE RESULT (Turn 36626): Row 10 at Column 1 (1, 10) is a solid mountain rock cliff wall blocking Westbound movement on Row 10. Open passage to Route 8 Upper Highway is via Row 9 at (2, 9) -> (1, 9) -> (0, 9).
 - VERIFIED (Turn 39495): Column 11 (x=11) is open Northbound Highway connecting Row 26 (11, 26) through Row 20 directly to Row 9 Highway at (11, 9)!
+- VERIFIED (Turn 39513): Cols 6-7 tree barrier spans Rows 5-9 in Lavender Town. Open Westbound bypass is via Row 10 (8, 10 -> 2, 10) -> Up to Row 9 (2, 9) -> West to Route 8 at (0, 9)!
 
 <hr>
 
