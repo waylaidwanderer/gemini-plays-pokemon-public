@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 39364)
-- Location: Rock Tunnel B1F (26, 31)
-- Active Protocol: From (26, 31), walk Up 4 steps along Col 26 to Row 27 Passage at (26, 27), West 12 steps along Row 27 Passage across Cols 25-14 into West Sector at (14, 27).
+## CURRENT STATUS & DASHBOARD (Turn 39367)
+- Location: Rock Tunnel B1F (26, 27)
+- Active Protocol: From (26, 27), walk West 4 steps along Row 27 Passage to (22, 27).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
