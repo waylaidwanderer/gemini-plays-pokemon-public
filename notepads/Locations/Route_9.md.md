@@ -38,5 +38,4 @@
 - EMPIRICAL PROBE RESULT (Turn 38571): Tile (42, 8) is a solid rock wall blocking Eastbound movement from (41, 8).
 - EMPIRICAL PROBE RESULT (Turn 38592): Tile (32, 5) is a solid south-facing ledge wall blocking Northbound movement from (32, 6).
 - EMPIRICAL PROBE RESULT (Turn 38604): Tile (24, 9) is a solid south-facing ledge wall blocking Northbound movement from (24, 10).
-- VERIFIED COL 41 NORTHBOUND GAP (Turn 38755): Tile (41, 11) is an open two-way northbound gap connecting Row 12 (41, 12) directly UP through (41, 10), (41, 9), (41, 8) to Row 7 pavement highway at (41, 7)!
-- Route to Route 10 Entrance (59, 8): From (41, 11) -> Up 4 to (41, 7) -> Right 4 to (45, 7) -> Down 1 & Right 1 to (46, 8) Eastbound Highway -> Right 13 to Route 10 Entrance at (59, 8)!
+- VERIFIED COL 41 NORTHBOUND GAP (Turn 38755): Tile (41, 11) is an open two-way northbound gap connecting Row 12 (41, 12) directly UP through (41, 10), (41, 9), (41, 8) to Row 7 pavement highway at (41, 7) (note: Row 7 pavement ends at 45, 7 solid rock wall).
