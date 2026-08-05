@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 39095)
-- Location: Rock Tunnel 1F (31, 4)
-- Active Protocol: Currently running from wild encounter at (31, 4). Next: walk Right 6 steps along Row 4 to (37, 4), then Up 1 step to B1F Ladder at (37, 3).
+## CURRENT STATUS & DASHBOARD (Turn 39108)
+- Location: Rock Tunnel 1F (26, 4)
+- Active Protocol: Currently running from wild encounter at (26, 4). Next: walk Left 3 steps to Col 23 at (23, 4) -> Down 3 steps to Row 7 Highway at (23, 7) -> East 10 steps to (37, 7) -> Up 4 steps to B1F Ladder at (37, 3).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
