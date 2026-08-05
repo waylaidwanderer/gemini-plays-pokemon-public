@@ -16,6 +16,6 @@
 - Row 4 at (19, 4) drops into a rock wall, but Row 2 / Row 3 (Cols 14-25) is the TOPMOST HIGHWAY TIER (where NPC at 22, 2 is located).
 - Building Doorway Audit (Turn 37563):
   - (13, 15): Trade House ("Poliwhirl for Jynx").
-  - (25, 25): Route 8 Mart / Vending Machine Building.
-  - (30, 19): Saffron Gatehouse checkpoint (Thirsty Guard).
-  - (9, 9): TRUE Underground Path Entrance Building (North doorway connects to 2, 0; stairs at 7, 3 / 6, 3 lead down to subterranean tunnel).
+  - (25, 25): Saffron Gatehouse checkpoint / Mart area.
+  - (30, 19): TRUE Underground Path Entrance Building (stairs lead down to tunnel connecting Route 8 to Route 7 / Celadon City!).
+  - (9, 9): Badge Man House (NPC explains Pokemon Badges).
