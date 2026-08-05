@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 38608)
-- Location: Route 9 Western Sector (10, 12)
-- Active Protocol: Down 1 to hop (10, 13) ledge to Row 14 pavement (10, 14) -> West 10 along Row 14 to Cerulean City Exit (0, 16/8)!
+## CURRENT STATUS & DASHBOARD (Turn 38641)
+- Location: Route 9 Lower Basin East (44, 14)
+- Active Protocol: Walk East along Row 14 Lower Basin to x=59 -> Up to Route 10 Entrance at (59, 8)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
