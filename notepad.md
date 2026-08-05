@@ -565,12 +565,6 @@
 
 <hr>
 
-<h1><code>notepads/Locations/CeladonCity</code></h1>
-
-# Temporary Duplicate
-
-<hr>
-
 <h1><code>notepads/Locations/RocketHideout.md</code></h1>
 
 
