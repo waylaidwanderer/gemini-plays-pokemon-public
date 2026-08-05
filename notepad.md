@@ -810,6 +810,7 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 - **Beauty:** Standing at `(53, 10)` or `(53, 11)` (challenged from `(53, 12)` on Turn 20081). Defeated on Turn 20101. Roster: Pidgeotto Lv 29, Wigglytuff Lv 29. Prize money: ¥2030.
 - **Biker:** Standing at `(48, 11)` (challenged from `(48, 12)` on Turn 20121). Defeated on Turn 20185. Prize money: ¥500.
 - **Biker:** Standing at `(46, 11)` (challenged from `(46, 12)` on Turn 20202). Defeated on Turn 20227. Roster: Koffing Lv 28, Grimer Lv 28, Weezing Lv 28. Prize money: ¥560.
+- **Jr. Trainer♀:** Standing at `(41, 11)` (challenged from `(41, 12)` on Turn 20232). Defeated on Turn 20262. Roster: Gloom Lv 28, Oddish Lv 28, Oddish Lv 28. Prize money: ¥560.
 
 <hr>
 
