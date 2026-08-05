@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 38761)
-- Location: Route 9 (43, 14)
-- Active Protocol: Walking Right to (46, 14) and testing Up step onto (46, 13) light grey pavement gap to enter Eastbound Highway!
+## CURRENT STATUS & DASHBOARD (Turn 38791)
+- Location: Route 9 (21, 10)
+- Active Protocol: Testing Up steps at Col 22 and Col 23 onto Row 9 to find the ascent gap into Row 6 Light Grey Pavement Highway!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
