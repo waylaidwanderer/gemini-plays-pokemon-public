@@ -385,6 +385,8 @@
 - **West Exit to Route 8:** Walk west on row 8 past column 0 to transition to Route 8 at (59, 8).
 - **South Exit to Route 12:** Walk south on columns 8-9 on row 16 to transition to Route 12 at `(8, 0)`.
 
+## Defeated Trainers
+- **Lass:** Standing at `(9, 10)` (challenged on Turn 19884). Defeated on Turn 19884.
 
 <hr>
 
