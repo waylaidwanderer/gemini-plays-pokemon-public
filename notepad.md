@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 39290)
-- Location: Rock Tunnel 1F (15, 11)
-- Active Protocol: From (15, 11), walk Down 5 steps to Row 16 (15, 16), West 8 steps to Col 7 (7, 16), North 13 steps along Col 7 to (7, 3), West 2 steps to South Exit at (5, 3).
+## CURRENT STATUS & DASHBOARD (Turn 39294)
+- Location: Rock Tunnel 1F (15, 15)
+- Active Protocol: From (15, 15), walk Down 1 step to Row 16 (15, 16), West 8 steps to Col 7 (7, 16), North 13 steps along Col 7 to (7, 3), West 2 steps to South Exit at (5, 3).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
