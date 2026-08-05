@@ -19,6 +19,6 @@
 - EMPIRICAL PROBE RESULT (Turn 38116): Tile (34, 28) is a solid dark green hedge tree blocking Southbound movement on Column 34. Row 28 (Cols 30-35) + Column 35 Fence (Rows 20-27) form a complete solid enclosure. The ONLY path to East Cerulean / Route 9 is through the Burglarized House at (30, 11)!
 - Cerulean House 1 (Badge Man House): Front Door at (13, 15) in Central Cerulean City. Single front door (no back door).
 - EMPIRICAL PROBE RESULT (Turn 38157): Tile (22, 17) is a solid wooden fence post blocking Northbound movement on Column 22. Row 17 (Cols 18-27) is a solid barrier.
-- Column 32 Highway: Open Northbound pavement highway at (32, 16..21) connects Central Cerulean (Row 20/21) past Badge Man House directly UP to North Cerulean (Row 11-16)!
+- Column 32 Ledge: Row 19 is a south-facing one-way ledge across Cols 32-37 (cannot walk North from Row 20 to Row 19).
 - Column 8 Northbound Highway: Open Northbound pavement highway at (8, 11..16) connects West Cerulean (Row 16) directly UP to North Cerulean street (Row 11)!
 - Route 9 Entrance Gap: Open passage into Route 9 is at Row 16 at (38, 16) -> (39, 16) -> Route 9!
