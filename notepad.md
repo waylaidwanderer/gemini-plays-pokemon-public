@@ -553,12 +553,6 @@
 
 <hr>
 
-<h1><code>notepads/Locations/RocketHideout.md</code></h1>
-
-# Temporary Duplicate MD.MD
-
-<hr>
-
 <h1><code>Locations/PokemonTower</code></h1>
 
 # Pokémon Tower - Exploration & Layout
