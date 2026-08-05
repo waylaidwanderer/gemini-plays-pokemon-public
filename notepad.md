@@ -1,7 +1,7 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 38269)
-- Location: Cerulean City Overworld (22, 18) -> Ascending Column 24 Stairs to Row 14 Highway
+## CURRENT STATUS & DASHBOARD (Turn 38270)
+- Location: Cerulean City Overworld (23, 18) -> Walking Down to Row 20 Highway -> East toward Col 30
 - Active Protocol: Walk Down 4 to (0, 12) -> Walk East along Row 12 to (30, 12) -> Enter Burglarized House at (30, 11) -> Exit back wall -> Route 9 -> Route 10 -> Rock Tunnel -> Lavender Town -> Route 8 -> Underground Path -> Celadon City!
 
 ## KEY ITEMS & INVENTORY
