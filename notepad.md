@@ -571,7 +571,8 @@
 5. Walk East continuously along Row 4/3/2 Top Highway to Route 10 Entrance at (59, 2/3/4).
 - West Basin Bound: Solid rock wall at x=9 (y=10..18). Row 14 lower basin begins at x=10.
 - Basin Exit Ledge Gap Verified: (19, 14) -> UP 2 steps through (19, 13) gap to (19, 12) Middle Highway grass!
-- Top Highway Ascent Gap Verified: (38, 6) -> UP through (39, 5/4/3/2) to Top Highway, then East to x=51 and DOWN across (51, 5) ledge to (51, 6/8) East Highway!
+- Row 6/7 Pavement Corridor (Cols 30-45) is a dead-end middle highway bounded North by Row 5 ledge and West/East by rock walls. Exit is DOWN through Col 41 gap at (41, 8) to Row 12 (41, 12).
+- Route 10 Entrance: (59, 8) reached via Row 14 Lower Basin / East Highway running East to x=59!
 - Column 26 Mountain Wall Verified (Turn 32796): Solid rock wall from y=2 through y=6 at x=26. Row 1 across Cols 21-25 is a one-way south-facing ledge. Route to East Sector is via Row 12/14 Lower Highway to Col 38/41 Ascent Gap!
 - Ledge Boundaries: Row 9 (Cols 21-25) and Row 5 (Cols 20-25) are solid south-facing ledges (cannot walk North across them).
 - Rock Cliff Boundary: Tile (28, 7) is a solid mountain rock cliff barrier (not a northbound ascent route).
