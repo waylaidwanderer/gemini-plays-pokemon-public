@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 38673)
-- Location: Route 9 (45, 7)
-- Active Protocol: Traversing to Row 14 Lower Basin East at (46, 14) to systematically probe Northbound ascent gaps across Cols 46-52 to reach Eastbound Highway (Rows 8-10) -> Route 10 Entrance at (59, 8)!
+## CURRENT STATUS & DASHBOARD (Turn 38691)
+- Location: Route 9 (52, 14)
+- Active Protocol: Returning to Cerulean City via Row 14 West Basin Exit (0, 16) to re-enter Route 9 on Row 8 Upper Pavement Tier at (0, 8) to traverse directly to Route 10 Entrance at (59, 8)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
