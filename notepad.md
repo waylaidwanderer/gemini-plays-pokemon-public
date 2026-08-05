@@ -822,6 +822,8 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 - **Jr. Trainer♀:** Standing at `(41, 11)` (challenged from `(41, 12)` on Turn 20232). Defeated on Turn 20262. Roster: Gloom Lv 28, Oddish Lv 28, Oddish Lv 28. Prize money: ¥560.
 - **Bird Keeper:** Standing at `(35, 13)` (challenged from `(35, 12)` on Turn 20266). Defeated on Turn 20294. Roster: Dodrio Lv 28, Doduo Lv 28, Doduo Lv 28. Prize money: ¥700.
 - **Bird Keeper:** Standing at `(31, 13)` (challenged from `(31, 12)` on Turn 20300). Defeated on Turn 20338. Roster: Pidgeotto Lv 26, Doduo Lv 26, Farfetch'd Lv 26, Doduo Lv 26, Pidgey Lv 26. Prize money: ¥624.
+- **Jr. Trainer♀:** Standing at `(18, 13)` (challenged from `(18, 12)` on Turn 20348). Defeated on Turn 20378. Roster: Bellsprout Lv 29, Oddish Lv 29, Tangela Lv 29. Prize money: ¥580.
+
 
 <hr>
 
