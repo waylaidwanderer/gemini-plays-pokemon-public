@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 38920)
-- Location: Route 9 (34, 12)
-- Active Protocol: Walking East 18 steps along Row 12 grass from (34, 12) to Col 52 pavement corridor at (52, 12)!
+## CURRENT STATUS & DASHBOARD (Turn 38923)
+- Location: Route 9 (41, 12)
+- Active Protocol: Walking Left 12 steps along Row 12 grass from (41, 12) to (29, 12) toward Col 25 ascent gap!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
