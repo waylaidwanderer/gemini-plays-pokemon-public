@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 39061)
-- Location: Route 10 (5, 26)
-- Active Protocol: Reached Column 5 below tree line at (5, 26). Walking Up Column 5 to Row 18 at (5, 18), then Right 3 to (8, 18), then Up 1 to enter Rock Tunnel 1F Entrance at (8, 17).
+## CURRENT STATUS & DASHBOARD (Turn 39066)
+- Location: Rock Tunnel 1F (15, 3)
+- Active Protocol: Entered Rock Tunnel 1F! Navigating East along Row 3 Top Highway to (32, 3), then North corridor bypass to B1F Ladder at (37, 3).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
