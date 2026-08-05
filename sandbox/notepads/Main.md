@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 39031)
-- Location: Route 10 (13, 9)
-- Active Protocol: Traversed Route 9 to Route 10! Currently running from wild encounter at (13, 9), then walking Down to (13, 17) -> Left to Rock Tunnel 1F Entrance at (8, 17).
+## CURRENT STATUS & DASHBOARD (Turn 39061)
+- Location: Route 10 (5, 26)
+- Active Protocol: Reached Column 5 below tree line at (5, 26). Walking Up Column 5 to Row 18 at (5, 18), then Right 3 to (8, 18), then Up 1 to enter Rock Tunnel 1F Entrance at (8, 17).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
