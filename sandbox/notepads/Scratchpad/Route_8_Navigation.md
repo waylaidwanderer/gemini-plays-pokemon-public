@@ -1,21 +1,15 @@
-# Route 8 Exploration & Top Northern Highway Access
+# Route 8 Verified Master Topology & Boundary Collision Map
 
-## Key Physical Facts & Collision Boundaries
-- Route 8 Entrance from Lavender Town (0, 9) lands player at (59, 9) on Upper Highway pavement (Row 8/9).
-- Column 60 on Route 8 is the eastern map border tile that warps back to Lavender Town at (0, 8)/(0, 9). Playable grid is Cols 0 to 59.
-- Column 45 Rock Wall spans Rows 8-13 across x=42-45.
-- Column 27 Rock Wall spans Rows 12-15 across x=24-27.
-- Lower Basin (Rows 14-15, Cols 28-45) is a one-way lower enclosure bounded North by Row 13 south-facing ledge wall and West by Column 27 rock wall.
-- Saffron Gatehouse building roof/wall extends continuously across Cols 26-53 on Rows 16-19.
+## Verified Physical Collision Boundaries (Empirically Tested)
+- Column 9 (x=9) across Rows 10-18: SOLID MOUNTAIN ROCK CLIFF WALL (Tested turns 37756, 37768, 37777). Blocks Westbound movement past Col 10 on Rows 10-18.
+- Column 19 (x=19) across Rows 6-10: SOLID MOUNTAIN ROCK CLIFF WALL (Tested turns 37734, 37774). Blocks Westbound movement on Rows 6-10 between Sector A and Upper Highway.
+- Row 11 across Cols 10-15: ONE-WAY SOUTH-FACING LEDGE (Tested turns 37755, 37757). Blocks Northbound movement from Row 12 to Row 10 in Western Sector.
+- Row 13 across Cols 28-53: ONE-WAY SOUTH-FACING LEDGE (Tested turns 37709, 37730, 37746, 37748).
+- Building Roof / Wall (Rows 16-19, Cols 10-53): Solid obstacle forming southern boundary of Sector A and Sector B.
 
-## Active Protocol: Upper Highway Passages (Cols 48-58)
-1. From Lavender Town (4, 9): Walk Left 5 steps to Route 8 entrance at (0, 9) -> warps to Route 8 at (59, 9).
-2. Probe Rows 8 & 9 West across Columns 58 down to 48.
-3. Probe Rows 7, 6, 5 northbound gaps across Columns 52-58 to find the two-way northbound passage connecting Upper Highway directly to Row 4 Top Northern Highway.
-### Master Northern Highway Row 2/3 Route Discovery (Turn 37095)
-- Row 4 at (19, 4) drops into a rock wall, but Row 2 / Row 3 (Cols 14-25) is the TOPMOST HIGHWAY TIER (where NPC at 22, 2 is located).
-- Building Doorway Audit (Turn 37563):
-  - (13, 15): Trade House ("Poliwhirl for Jynx").
-  - (25, 25): Saffron Gatehouse checkpoint / Mart area.
-  - (30, 19): TRUE Underground Path Entrance Building (stairs lead down to tunnel connecting Route 8 to Route 7 / Celadon City!).
-  - (9, 9): Badge Man House (NPC explains Pokemon Badges).
+## Verified Two-Way Ascent Passages
+- Column 19 Gap at (19, 13): Connects Sector A Row 14 pavement at (19, 14) UP to Row 12 green grass at (19, 12).
+- Column 28 Gap at (28, 13): Connects Sector B Row 14 green grass at (28, 14) UP to Row 10 pavement at (28, 10).
+
+## Active Master Route
+- Navigating East to Sector B (52, 14) / Column 60 Northern Highway Corridor to reach West Entrance at (0, 8) / Celadon City.
