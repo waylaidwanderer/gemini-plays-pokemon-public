@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 38150)
-- Location: Cerulean City (9, 16)
-- Active Protocol: Walk Down 4 to (9, 20) -> Right 13 to (22, 20) -> Up 3 to probe (22, 17) Northbound passage to Burglarized House at (30, 11)!
+## CURRENT STATUS & DASHBOARD (Turn 38158)
+- Location: Cerulean City (22, 18)
+- Active Protocol: Walk Down 2 to (22, 20) -> Right 8 to (30, 20) to inspect East Cerulean passage to Burglarized House at (30, 11)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge

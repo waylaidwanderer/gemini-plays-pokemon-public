@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 38150)
-- Location: Cerulean City (9, 16)
-- Active Protocol: Walk Down 4 to (9, 20) -> Right 13 to (22, 20) -> Up 3 to probe (22, 17) Northbound passage to Burglarized House at (30, 11)!
+## CURRENT STATUS & DASHBOARD (Turn 38158)
+- Location: Cerulean City (22, 18)
+- Active Protocol: Walk Down 2 to (22, 20) -> Right 8 to (30, 20) to inspect East Cerulean passage to Burglarized House at (30, 11)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -62,6 +62,7 @@
 - From (27, 9): Walk East along Row 9/16 corridor directly into Route 9 entrance at (39, 16)!
 - EMPIRICAL PROBE RESULT (Turn 38116): Tile (34, 28) is a solid dark green hedge tree blocking Southbound movement on Column 34. Row 28 (Cols 30-35) + Column 35 Fence (Rows 20-27) form a complete solid enclosure. The ONLY path to East Cerulean / Route 9 is through the Burglarized House at (30, 11)!
 - Cerulean House 1 (Badge Man House): Front Door at (13, 15) in Central Cerulean City. Single front door (no back door).
+- EMPIRICAL PROBE RESULT (Turn 38157): Tile (22, 17) is a solid wooden fence post blocking Northbound movement on Column 22. Row 17 (Cols 18-27) is a solid barrier.
 
 <hr>
 
