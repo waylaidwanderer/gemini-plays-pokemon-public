@@ -1010,13 +1010,12 @@ To transition from the northwestern ground level to the southwestern exit of Are
 # Safari Zone - Overworld Layout & Navigation Guide
 
 ## Run Statistics (Current Run)
-- **Start Turn:** 21659 (Fresh run, paid ¥500, received 30 Safari Balls, 500 step budget)
-- **Current Turn:** 21693 (34 turns elapsed)
-- **Estimated Steps Taken:** 392 steps
-- **Estimated Remaining Steps:** 108 steps
+- **Start Turn:** 21902 (Fresh run, paid ¥500, received 30 Safari Balls, 500 step budget)
+- **Current Turn:** 21902
+- **Estimated Steps Taken:** 0 steps
+- **Estimated Remaining Steps:** 500 steps
 
 ## Area 1 (East) Map & Transitions
-- **Entry from Center:** Entered Area 1 at (0, 22) on Turn 21693.
 - **Exit to Area 2 (North):** Located at (0, 5).
 
 ## Area 2 (North) Map & Collision Structures
@@ -1061,15 +1060,16 @@ To transition from the northwestern ground level to the southwestern exit of Are
 4. Walk East 1 step to enter Area 1 (East) at (0, 22).
 Total steps for Part 1: 15 steps.
 
-## Part 2: Safari Zone Area 1 (East)
+## Part 2: Safari Zone Area 1 (East) (HYPOTHESIS - UNVERIFIED)
+*Note: The walkability and continuity of the northern ground-level corridor from column 12 to column 0 is an unverified hypothesis and must be tested.*
 1. Enter at (0, 22).
 2. Walk East 12 steps to (12, 22).
 3. Walk Up 2 steps to climb the western plateau stairs:
    - Up to (12, 21) (staircase)
    - Up to (12, 20) (plateau)
-4. Walk North 9 steps to (12, 11) (or until the northern edge is reached).
-5. Walk Down 1 step to descend the northern stairs to row 10 (ground).
-6. From row 10 (ground), walk West to column 0 to transition to Area 2 (North) at (0, 5)!
+4. Walk North 9 steps to (12, 11) (or until the northern edge is reached - HYPOTHESIS).
+5. Walk Down 1 step to descend the northern stairs to row 10 (ground - HYPOTHESIS).
+6. From row 10 (ground), walk West to column 0 to transition to Area 2 (North) at (0, 5) (HYPOTHESIS).
 Total steps for Part 2: ~35-40 steps.
 
 ## Part 3: Safari Zone Area 2 (North)
