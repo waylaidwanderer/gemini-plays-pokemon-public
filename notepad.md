@@ -561,12 +561,6 @@
 
 <hr>
 
-<h1><code>Locations/RocketHideout</code></h1>
-
-# Temporary
-
-<hr>
-
 <h1><code>Locations/PokemonTower</code></h1>
 
 # Pokémon Tower - Exploration & Layout
