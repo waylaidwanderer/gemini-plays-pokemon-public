@@ -1,5 +1,5 @@
 ## CURRENT STATUS & DASHBOARD (Turn 38216)
-- Location: Cerulean City (5, 12)
+- Location: Cerulean City (9, 12)
 - Active Protocol: Walk Down 4 to (0, 12) -> Walk East along Row 12 to (30, 12) -> Enter Burglarized House at (30, 11) -> Exit back wall -> Route 9 -> Route 10 -> Rock Tunnel -> Lavender Town -> Route 8 -> Underground Path -> Celadon City!
 
 ## KEY ITEMS & INVENTORY
