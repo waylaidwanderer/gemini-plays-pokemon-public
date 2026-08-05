@@ -169,6 +169,7 @@
 - EMPIRICAL PROBE RESULT (Turns 38763-38767): Row 13 across Cols 43, 46, 47, 52, 53 are solid south-facing ledge walls / rock walls blocking Northbound movement from Row 14. Exit from Row 14 Lower Basin is WEST at (29, 14) -> UP through (29, 13) gap to (29, 12) Middle Highway!
 - EMPIRICAL PROBE RESULT (Turns 38789-38794): Row 9 across Cols 20, 21, 22, 23, 24, 25 are solid south-facing ledge walls blocking Northbound movement from Row 10. Access to Upper Highway is via West Sector (Cols 0-10)!
 - Column 26 Mountain Bypass (Turn 38811): Row 12 at x=24..27 is a mountain rock cliff wall, but Row 10/11 at x=24..27 is open Light Grey Pavement connecting (23, 10) directly East to East Sector at (28, 10)!
+- EMPIRICAL PROBE RESULT (Turn 38865): Tile (30, 5) is a solid south-facing ledge wall blocking Northbound movement from (30, 6).
 
 <hr>
 
