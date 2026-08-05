@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 37861)
-- Location: Underground Path Tunnel (7, 3)
-- Active Protocol: Retrace via Col 7 -> Row 5 -> Col 5 to Row 12 -> Col 0 -> North along Col 0 to Route 7 Exit Stairs at (0, 0) -> Celadon City!
+## CURRENT STATUS & DASHBOARD (Turn 37887)
+- Location: Route 7 (3, 7)
+- Active Protocol: Walk Left 1, Up 2, Left 3 into Celadon City -> Celadon Department Store 6F Vending Machines -> Buy Drinks!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
