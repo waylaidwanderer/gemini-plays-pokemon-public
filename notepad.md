@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 38399)
-- Location: Route 9 Top Highway (25, 4)
-- Active Protocol: Walk East along Row 4 Top Highway to Route 10 Entrance (59, 2/3/4) -> Rock Tunnel -> Lavender Town -> Route 8 -> Underground Path -> Celadon City!
+## CURRENT STATUS & DASHBOARD (Turn 38431)
+- Location: Route 9 Lower Basin (29, 14)
+- Active Protocol: Ascend (29, 14) -> (29, 12) -> Top Highway (25, 2) -> Test Row 1/2 passage across Col 26 to East Sector -> Route 10 Entrance (59, 2/3/4/8)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
