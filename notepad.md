@@ -89,6 +89,7 @@
    - Status: Healthy
 
 ## Major Milestones and Items
+- **Koga Battle Engaged:** Challenged Gym Leader Koga in Fuchsia Gym on Turn 20749.
 
 - **Giovanni Defeated:** Defeated on Turn 18056 on B4F.
 
@@ -894,7 +895,8 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 - **Column 8:** `(8, 3)`, `(8, 4)`, `(8, 5)`, `(8, 6)`, `(8, 9)`, `(8, 10)`, `(8, 11)`, `(8, 12)` are open and walkable.
 - **Column 7:** `(7, 6)`, `(7, 7)`, `(7, 8)`, `(7, 9)` are open and walkable.
 - **Column 5:** `(5, 13)`, `(5, 14)`, `(5, 15)`, `(5, 16)` are open and walkable.
-- **Column 1:** `(1, 1)`, `(1, 2)`, `(1, 3)`, `(1, 5)`, `(1, 6)`, `(1, 7)`, `(1, 15)`, `(1, 16)` are open and walkable.
+- **Column 1:** `(1, 1)`, `(1, 2)`, `(1, 3)`, `(1, 5)`, `(1, 6)`, `(1, 7)`, `(1, 8)`, `(1, 9)`, `(1, 10)`, `(1, 15)`, `(1, 16)` are open and walkable.
+- **Koga Access Pathway (Rows 9-10):** `(2, 9)`, `(3, 9)`, `(3, 10)` are open and walkable.
 - **Row 13:** `(2, 13)`, `(3, 13)`, `(4, 13)`, `(5, 13)` are open and walkable.
 - **Top-Left Corridor / Rows 3-5:** `(2, 3)`, `(2, 4)`, `(2, 5)` are open and walkable.
 - **Row 8:** `(9, 8)` is open and walkable.
@@ -923,6 +925,16 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 - **Juggler Kay:** Standing at `(2, 7)` (challenged from `(1, 7)` on Turn 20698). Defeated on Turn 20723. Roster: Drowzee Lv 34, Hypno Lv 34, Drowzee Lv 34. Prize money: ¥1190.
 ## Methodology & Burden of Proof for Invisible Walls
 - **Invisible Wall Visual Signature:** Empirically verified that grey horizontal tile dashes represent Koga's Gym's invisible walls. Solid boundaries were directly proven by colliding/bumping when attempting to walk across them at `(5,12)`, `(1,4)`, `(4,12)`, `(3,12)`, and `(8,5)`. Tiles without these grey horizontal dashes are verified open pathways.
+## Gym Leader Koga
+- **Leader Koga:** Standing at `(4, 10)` facing south/down.
+- **Battle Engagement:** Successfully engaged from `(3, 10)` facing Right/East on Turn 20749.
+- **Koga Enclosure Room Boundaries:**
+  - Bounded on the North by a solid invisible wall at Row 9: `(4, 9)`, `(5, 9)`, `(6, 9)`.
+  - Bounded on the South by solid invisible walls at Row 11: `(5, 11)`, `(6, 11)`, `(7, 11)` and Row 12: `(4, 12)`, `(5, 12)`.
+  - Bounded on the West by solid invisible walls at Column 3: `(3, 11)`, `(3, 12)`.
+  - Bounded on the East by solid invisible walls at Column 7: `(7, 10)`, `(7, 11)`.
+  - **The Gaps / Open Pathway:** Walkable from `(1, 10)` Up to `(1, 9)`, East through `(2, 9)` and `(3, 9)` to row 9 Column 3, and Down to `(3, 10)` to stand directly to the left of Koga.
+
 
 <hr>
 
