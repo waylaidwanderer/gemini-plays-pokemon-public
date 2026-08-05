@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 37556)
-- Location: Underground Path Entrance Building (7, 5) -> Step to (5, 4) to speak with NPC at (5, 3)
-- Active Protocol: Left 2 to (5, 5) -> Up 1 to (5, 4) -> Press A to speak with NPC at (5, 3) blocking stairs at (6, 3).
+## CURRENT STATUS & DASHBOARD (Turn 37567)
+- Location: Underground Path Entrance Building (2, 1) -> Taking stairs at (7, 3)
+- Active Protocol: Down 4 to (2, 5) -> Right 5 to (7, 5) -> Up 2 along Col 7 to stairs at (7, 3) -> Warp down into Underground Path tunnel -> Walk West to Route 7 -> Enter Celadon City.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
