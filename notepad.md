@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 38523)
-- Location: Route 9 Lower Basin (46, 14)
-- Active Protocol: Left 17 to (29, 14) -> Ascend Col 29 UP through (29, 13..3) to Row 3 Top Highway (29, 3) -> Walk East along Row 3 to Route 10 Entrance at (59, 3)!
+## CURRENT STATUS & DASHBOARD (Turn 38526)
+- Location: Route 9 Lower Basin Ascent Gap (29, 14)
+- Active Protocol: Up 5 along Col 29 to Row 9 (29, 9) -> Continue Up to Row 3 Top Highway (29, 3) -> Walk East along Row 3 to Route 10 Entrance at (59, 3)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
