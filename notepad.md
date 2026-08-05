@@ -393,6 +393,8 @@
 
 ## Active Master Route
 - Navigating East to Sector B (52, 14) / Column 60 Northern Highway Corridor to reach West Entrance at (0, 8) / Celadon City.
+- Column 54 (x=54) across Rows 10-19: SOLID MOUNTAIN ROCK CLIFF WALL (Tested turns 37803-37806). Binds Sector B on the East with NO southbound exit.
+- Sector B (Cols 28-53) is completely enclosed. Only exit is West via Col 29 gap at (29, 13).
 
 <hr>
 
