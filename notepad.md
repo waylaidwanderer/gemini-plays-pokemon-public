@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 38815)
-- Location: Route 9 (41, 7)
-- Active Protocol: Probing Up step from (41, 6) onto (41, 5) to enter Row 3/4 Upper Grass Highway!
+## CURRENT STATUS & DASHBOARD (Turn 38821)
+- Location: Route 9 (30, 6)
+- Active Protocol: Walking Right 11 steps along Row 6 to (41, 6), Down 8 steps along Col 41 to Row 14 green grass at (41, 14), and testing Up steps at Cols 48-51 to enter Eastbound Highway!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
