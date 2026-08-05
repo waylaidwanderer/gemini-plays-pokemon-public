@@ -682,6 +682,7 @@
 
 <h1><code>Scratchpad/Route_8_Navigation.md</code></h1>
 
-
+- Column 5 (x=5) across Rows 2-7: SOLID STONE WALL / PILLARS (Tested turn 37831). Bounded garden area at x=2..4, y=2..6.
+- Westbound passage across Col 5 is via Row 8 at (5, 8) Cut Tree.
 
 <hr>
