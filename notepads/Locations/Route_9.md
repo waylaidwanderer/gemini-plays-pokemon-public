@@ -31,3 +31,4 @@
 - Column 26 Mountain Wall Verified (Turn 32796): Solid rock wall from y=2 through y=6 at x=26. Row 1 across Cols 21-25 is a one-way south-facing ledge. Route to East Sector is via Row 12/14 Lower Highway to Col 38/41 Ascent Gap!
 - Ledge Boundaries: Row 9 (Cols 21-25) and Row 5 (Cols 20-25) are solid south-facing ledges (cannot walk North across them).
 - Rock Cliff Boundary: Tile (28, 7) is a solid mountain rock cliff barrier (not a northbound ascent route).
+- Tile (41, 13) is a solid one-way south-facing ledge (can hop Down from 41, 12 to 41, 14, but cannot walk Up from 41, 14). Exit from Row 14 Lower Basin is WEST at (29, 14) -> UP through (29, 13) gap to (29, 12) Middle Highway!
