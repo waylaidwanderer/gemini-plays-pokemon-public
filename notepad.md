@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 38563)
-- Location: Route 9 Lower Basin (46, 14)
-- Active Protocol: Left 17 to (29, 14) -> Up 2 to Row 12 (29, 12) -> East 12 to Col 41 (41, 12) -> Up 6 to Row 6 (41, 6) -> West along Row 6 to test northbound gaps to Row 3 Top Highway!
+## CURRENT STATUS & DASHBOARD (Turn 38566)
+- Location: Route 9 Lower Basin Ascent Gap (29, 14)
+- Active Protocol: Up 2 to (29, 12) -> East 12 to (41, 12) -> Up 6 to (41, 6) -> West along Row 6 with single-step probing to locate Row 3 Top Highway!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
