@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 37424)
-- Location: Underground Path (7, 3)
-- Active Protocol: Start menu open. Press B to close menu -> Walk Left 2 to (5, 3), Up 1 to (5, 2), Left 1 into (4, 2), Up 2 into (4, 0) warp mat to exit Underground Path to Route 7.
+## CURRENT STATUS & DASHBOARD (Turn 37426)
+- Location: Underground Path (5, 2)
+- Active Protocol: Standing at (5, 2) in Upper Sector -> Open Start Menu -> ITEM -> Inspect Bag inventory for TM11 / Key Items.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
