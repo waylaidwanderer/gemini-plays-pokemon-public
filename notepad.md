@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 38481)
-- Location: Route 9 Lower Basin (13, 14)
-- Active Protocol: East along Row 14 to (29, 14) -> Up through (29, 13) gap to Row 12 Highway -> East to Route 10 Entrance at (59, 8)!
+## CURRENT STATUS & DASHBOARD (Turn 38497)
+- Location: Route 9 Row 12 Highway (34, 12)
+- Active Protocol: East along Row 12 to (41, 12) -> Up through Col 41 Ascent Gap to Row 8 Pavement Highway -> East to Route 10 Entrance at (59, 8)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
