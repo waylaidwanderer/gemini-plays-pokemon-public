@@ -15,7 +15,7 @@
 1. **SHELLBY** (Blastoise)
    - Level: 55
    - Status: Healthy (HP: 178/178)
-   - Moveset: HYDRO PUMP (PP: 5/5), ICE BEAM (PP: 2/10), BITE (PP: 24/25), WATER GUN (PP: 25/25)
+   - Moveset: HYDRO PUMP (PP: 5/5), ICE BEAM (PP: 10/10), BITE (PP: 25/25), WATER GUN (PP: 25/25)
 
 2. **TRUFFLE** (Paras)
 
