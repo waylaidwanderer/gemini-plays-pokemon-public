@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 38135)
-- Location: Cerulean House 1 Interior (2, 7)
-- Active Protocol: Walk Up 7 steps along Column 2 to exit back door at (2, 0) into North Cerulean City -> Enter Burglarized House at (30, 11)!
+## CURRENT STATUS & DASHBOARD (Turn 38145)
+- Location: Cerulean House 1 Exit Mat (3, 7)
+- Active Protocol: Step Down 1 to exit into Cerulean City at (13, 15) -> Locate Northbound passage to Burglarized House at (30, 11)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
