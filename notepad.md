@@ -1016,3 +1016,9 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 
 
 <hr>
+
+<h1><code>Locations/SafariZone.md</code></h1>
+
+- **Turn 21003:** Reached (21, 15) on the plateau. Preparing to move north towards the ledge at row 12.
+
+<hr>
