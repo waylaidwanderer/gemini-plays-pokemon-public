@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 37887)
-- Location: Route 7 (3, 7)
-- Active Protocol: Walk Left 1, Up 2, Left 3 into Celadon City -> Celadon Department Store 6F Vending Machines -> Buy Drinks!
+## CURRENT STATUS & DASHBOARD (Turn 37921)
+- Location: Route 7 (6, 5)
+- Active Protocol: Walk Right to Col 11 -> Down along Col 11 to Celadon City Entrance Gatehouse at (11, 7) -> Celadon City!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
