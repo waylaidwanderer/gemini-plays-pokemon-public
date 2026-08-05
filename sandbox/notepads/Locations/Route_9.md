@@ -34,3 +34,5 @@
 - Tile (41, 13) is a solid one-way south-facing ledge (can hop Down from 41, 12 to 41, 14, but cannot walk Up from 41, 14). Exit from Row 14 Lower Basin is WEST at (29, 14) -> UP through (29, 13) gap to (29, 12) Middle Highway!
 - Eastbound Highway Corridor: From Row 6 pavement at (45, 6), walk Down 2 to (45, 8) -> Right 1 to (46, 8) onto open Eastbound Pavement Highway (Rows 8..10, Cols 46-59) directly to Route 10 Entrance at (59, 8)!
 - EMPIRICAL PROBE RESULT (Turn 38486): Tile (23, 13) is a solid south-facing ledge wall blocking Northbound movement from (23, 14).
+- EMPIRICAL PROBE RESULT (Turn 38491): Tile (19, 13) is a verified open Northbound gap connecting Row 14 (19, 14) UP to Row 12 (19, 12) green grass!
+- Bypass to East Sector: From (19, 12), walk Right 1 to (20, 12) -> Up 1 to Row 11 (20, 11) -> East 8 along Row 11 open pavement across Cols 20-27 to East Sector at (28, 11)!
