@@ -834,7 +834,8 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 
 <h1><code>Locations/RocketHideout.md</code></h1>
 
-# Temporary Duplicate MD.MD
+# Dummy file to clean up ghost entry
+
 
 <hr>
 
