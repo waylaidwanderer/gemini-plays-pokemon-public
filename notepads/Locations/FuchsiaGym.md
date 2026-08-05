@@ -17,4 +17,4 @@
 - **Row 31:** Outside the gym, the log fence is solid at columns 4, 5, 6, 7.
 
 ## Defeated Gym Trainers
-- None yet defeated (Currently battling Juggler Kay at `(8, 8)`).
+- **Juggler Kirk:** Standing at `(8, 8)` (challenged from `(9, 8)` on Turn 20456). Defeated on Turn 20492. Roster: DROWZEE Lv 31, DROWZEE Lv 31, KADABRA Lv 31, DROWZEE Lv 31. Prize money: To Be Logged.
