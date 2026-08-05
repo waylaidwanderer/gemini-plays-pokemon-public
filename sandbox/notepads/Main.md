@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 38201)
+## CURRENT STATUS & DASHBOARD (Turn 38204)
 - Location: East Cerulean Exit at (9, 13)
-- Active Protocol: Step Down 1 into Route 9 at (0, 8) -> Cut tree at (5, 8) -> Traverse Route 9 to Route 10 -> Rock Tunnel -> Lavender Town -> Route 8 -> Underground Path -> Celadon City!
+- Active Protocol: Walk Left 4 steps along Row 13 to red transition gateway at (5, 13) -> Enter Route 9 at (0, 8) -> Cut tree at (5, 8) -> Traverse Route 9 to Route 10 -> Rock Tunnel -> Lavender Town -> Route 8 -> Underground Path -> Celadon City!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
