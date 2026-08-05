@@ -39,3 +39,4 @@
 - Verified Top Highway Ascent Passage: Columns 32 & 33 at (32, 6) / (33, 6) connect UP through (32, 5) / (33, 5) green grass directly to Row 3 Top Highway at (32, 3) / (33, 3)!
 - Route 10 Entrance Route: From (32, 3) Row 3 Top Highway, walk East along Row 3 / Row 4 green grass across Columns 32-59 directly to Route 10 Entrance at (59, 8)!
 - EMPIRICAL PROBE RESULT (Turn 38592): Tile (32, 5) is a solid south-facing ledge wall blocking Northbound movement from (32, 6).
+- EMPIRICAL PROBE RESULT (Turn 38604): Tile (24, 9) is a solid south-facing ledge wall blocking Northbound movement from (24, 10).
