@@ -134,8 +134,8 @@
 - **TM30 (Teleport):** 1
 - **TM48 (Rock Slide):** 1
 - **TM49 (Tri Attack):** 1
-- **Super Potion:** 3 (1 stack)
-- **TM07 (Horn Drill):** 1
+- **Super Potion:** 2 (1 stack)
+- **TM06 (Toxic):** 1
 - **Lift Key:** 1
 - **Silph Scope:** 1
 - **Poké Flute:** 1
