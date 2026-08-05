@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 38536)
-- Location: Route 9 Column 41 Gap (41, 6)
-- Active Protocol: Down 6 to (41, 12) -> Left 13 to (28, 12) -> Up to Row 11 -> West through Col 20 to (19, 12) -> West to Western Sector (Cols 5..15) to access Row 3 Top Highway!
+## CURRENT STATUS & DASHBOARD (Turn 38539)
+- Location: Route 9 East Sector (28, 12)
+- Active Protocol: Up 1 to (28, 11) -> Left 8 to (20, 11) -> Down 1 to (20, 12) -> Left 10 to Western Sector (10, 12) -> West to (5, 8) Cut Tree area!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
