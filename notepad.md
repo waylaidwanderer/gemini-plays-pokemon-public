@@ -969,8 +969,8 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 - **Step Limit:** 500 steps total. Every step taken on foot (Up, Down, Left, Right) reduces the remaining step count by 1.
 - **Entry Fee:** Paid ¥500 on Turn 20957 (cash is now ¥73088). Received 30 SAFARI BALLS.
 - **Step Tracking Dashboard:**
-  - Current Turn: Turn 21062
-  - Estimated Steps Remaining: 335
+  - Current Turn: Turn 21091
+  - Estimated Steps Remaining: 257
 
 ## Map Layout & Transitions
 
@@ -995,7 +995,15 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 - **Target Exit to Area 2 (North):** Located on the far north-west edge of the map, around rows 6-8 on columns 0-4.
 
 ### Safari Zone Area 2 (North)
-- To Be Discovered.
+- **Entrance from Area 1 (East):** (39, 31). Entered on Turn 21081.
+- **Physical Layout & Boundaries:**
+  - **Southern Corridor:** A narrow open grass corridor along row 31 extending from the east transition at (39, 31) west to column 29.
+  - **Eastern Plateau:** Accessed via a staircase at (28, 27) leading up to the plateau surface at row 26.
+    - Plateau dimensions: West edge at column 27, south edge at row 26 (from column 27 to 33).
+    - At column 36, the plateau extends north as a narrow ridge (columns 37-38) running north from row 26 to at least row 16.
+    - East cliff face of this ridge runs vertically along column 39. West cliff face of this ridge runs vertically along column 36.
+    - Stairs at (38, 27) go down to the south-east ground level.
+- **Target Exit to Area 3 (West):** Located on the south-west of Area 2.
 
 ### Safari Zone Area 3 (West)
 - To Be Discovered.
