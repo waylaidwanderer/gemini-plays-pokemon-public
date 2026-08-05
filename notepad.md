@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 38467)
-- Location: Route 9 Row 12 West Highway (16, 12)
-- Active Protocol: Left 10 to (6, 12) -> West to (0, 8/16) Cerulean City!
+## CURRENT STATUS & DASHBOARD (Turn 38469)
+- Location: Route 9 West Sector (10, 12)
+- Active Protocol: Up 4 to (10, 8) -> Left 5 to (5, 8) Cut Tree -> West to (0, 8) Cerulean City!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
