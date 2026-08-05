@@ -516,6 +516,10 @@
 - Column 24 Railing: West railing at (24, 18) blocks entry from (23, 18).
 - Row 20 Highway: Row 20 is open light grey pavement from Col 28 West to Col 17 slope (bypasses Col 27 signboard and Col 31 NPC via Row 21). Column 35 Fence spans Rows 20 through 25.
 - Column 17 Slope: Open North-South pavement from (17, 26) up to Row 16 (17, 16).
+### Burglarized House Route to Route 9
+- Burglarized House Front Door: Located at (30, 11) in North Cerulean City.
+- Passage: Enter front door at (30, 11), walk UP through the hole in back wall at (3, 0) to exit into East Cerulean backyard at (27, 9).
+- From (27, 9): Walk East along Row 9/16 corridor directly into Route 9 entrance at (39, 16)!
 
 <hr>
 
