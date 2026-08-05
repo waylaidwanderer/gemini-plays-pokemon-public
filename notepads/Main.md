@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 38958)
-- Location: Route 9 (53, 14)
-- Active Protocol: Walking Left 24 along Row 14 grass to (29, 14), Up 4 through (29, 13)/(29, 9) gaps to (29, 8) upper grass!
+## CURRENT STATUS & DASHBOARD (Turn 38961)
+- Location: Route 9 (41, 14)
+- Active Protocol: Walking Left 12 steps along Row 14 grass from (41, 14) to (29, 14) exit gap!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
