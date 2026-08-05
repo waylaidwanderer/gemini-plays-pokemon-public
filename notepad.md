@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 37389)
-- Location: Underground Path (0, 11)
-- Active Protocol: Standing at (0, 11). x=0 is the East end wall. Corridor runs East (increasing X) from x=4. Step Down 1 to (0, 12) -> Walk East 10 steps along Row 12 pavement toward Route 7 exit building.
+## CURRENT STATUS & DASHBOARD (Turn 37391)
+- Location: Underground Path (9, 12)
+- Active Protocol: Standing at (9, 12). The Northbound corridor is at (4, 8)/(5, 8). Walk Left 5 to (4, 12) -> Walk Up 4 through (4, 8) North into the main Underground Path tunnel.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
