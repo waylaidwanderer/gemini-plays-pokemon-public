@@ -20,3 +20,4 @@
 - Cerulean House 1 (Badge Man House): Front Door at (13, 15) in Central Cerulean City. Single front door (no back door).
 - EMPIRICAL PROBE RESULT (Turn 38157): Tile (22, 17) is a solid wooden fence post blocking Northbound movement on Column 22. Row 17 (Cols 18-27) is a solid barrier.
 - Column 32 Highway: Open Northbound pavement highway at (32, 16..21) connects Central Cerulean (Row 20/21) past Badge Man House directly UP to North Cerulean (Row 11-16)!
+- Column 8 Northbound Highway: Open Northbound pavement highway at (8, 11..16) connects West Cerulean (Row 16) directly UP to North Cerulean street (Row 11)!
