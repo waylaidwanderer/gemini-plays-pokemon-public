@@ -34,7 +34,7 @@
 
 1. **SHELLBY** (Blastoise)
 
-   - Level: 53
+   - Level: 54
 
    - Status: Poisoned (as of Turn 20164)
 
@@ -827,6 +827,7 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 - **Biker:** Standing at `(48, 11)` (challenged from `(48, 12)` on Turn 20121). Defeated on Turn 20185. Prize money: ¥500.
 - **Biker:** Standing at `(46, 11)` (challenged from `(46, 12)` on Turn 20202). Defeated on Turn 20227. Roster: Koffing Lv 28, Grimer Lv 28, Weezing Lv 28. Prize money: ¥560.
 - **Jr. Trainer♀:** Standing at `(41, 11)` (challenged from `(41, 12)` on Turn 20232). Defeated on Turn 20262. Roster: Gloom Lv 28, Oddish Lv 28, Oddish Lv 28. Prize money: ¥560.
+- **Bird Keeper:** Standing at `(35, 13)` (challenged from `(35, 12)` on Turn 20266). Defeated on Turn 20294. Roster: Dodrio Lv 28, Doduo Lv 28, Doduo Lv 28. Prize money: ¥700.
 
 <hr>
 
