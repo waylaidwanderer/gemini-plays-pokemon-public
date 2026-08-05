@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 39066)
-- Location: Rock Tunnel 1F (15, 3)
-- Active Protocol: Entered Rock Tunnel 1F! Navigating East along Row 3 Top Highway to (32, 3), then North corridor bypass to B1F Ladder at (37, 3).
+## CURRENT STATUS & DASHBOARD (Turn 39091)
+- Location: Rock Tunnel 1F (27, 7)
+- Active Protocol: Currently running from wild encounter at (27, 7). Next: walk East 10 steps along Row 7 to (37, 7), then Up 4 steps to B1F Ladder at (37, 3).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
