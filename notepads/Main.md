@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 37391)
-- Location: Underground Path (9, 12)
-- Active Protocol: Standing at (9, 12). The Northbound corridor is at (4, 8)/(5, 8). Walk Left 5 to (4, 12) -> Walk Up 4 through (4, 8) North into the main Underground Path tunnel.
+## CURRENT STATUS & DASHBOARD (Turn 37411)
+- Location: Underground Path (3, 3)
+- Active Protocol: Standing at (3, 3) in Upper Sector -> Testing NPC interaction at (4, 2) / (2, 3) or checking Column 0 corridor at (0, 3) to reach (0, 0) warp mat to Route 7.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
