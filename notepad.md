@@ -1,5 +1,32 @@
 <h1><code>Main</code></h1>
 
+# Pokémon Blue - Adventure High-Level Index & Status
+
+## Active Objectives & Milestones
+- **Primary Goal:** Defeat Gym Leader Koga in Fuchsia City Gym to earn the Soul Badge.
+- **Secondary Goal:** Locate and verify the Fuchsia City Poké Mart coordinates.
+- **Last Gym Completed:** Defeated Gym Leader Erika in Celadon City Gym on Turn 13682 (Rainbow Badge).
+
+## Notepads Directory
+### 🌍 Locations & Overworld Mapping
+- `Locations/PalletTown_And_Route1` - Pallet Town, Professor Oak's Lab, Daisy's House.
+- `Locations/ViridianCity` - Viridian City, Pokémon Center, Poké Mart.
+- `Locations/PewterCity` - Pewter City, Gym Leader Brock.
+- `Locations/CeruleanCity` - Cerulean City, Gym Leader Misty, Burgled House.
+- `Locations/VermilionCity` - Vermilion City, Gym Leader Lt. Surge, S.S. Anne.
+- `Locations/LavenderTown` - Lavender Town, Mr. Fuji's House.
+- `Locations/CeladonCity` - Celadon City, Rocket Hideout, Gym Leader Erika.
+- `Locations/FuchsiaCity` - Fuchsia City, Gym, Safari Zone, Warden's House.
+- `Locations/FuchsiaGym` - Fuchsia Gym Invisible Wall Maze, remaining trainers.
+- Routes: `Route2`, `Route3`, `Route4`, `Route5`, `Route6`, `Route7`, `Route8`, `Route9`, `Route10`, `Route12`, `Route13`, `Route14`, `Route15`.
+
+### ⚔️ Progression, Battle, & Mechanics
+- `Progression_And_Party_Stats` - Current Party (SHELLBY Lv 54), Badges, Key Items, Inventory.
+- `Mechanics/UI_And_Border_Rendering` - Tile graphics, coordinate overlays.
+- `Mechanics/Search_Scripting_Pitfalls` - Tips for robust scripting and tool usage.
+
+## Current Party Status (Blastoise Solo Runner)
+- **SHELLBY** (Blastoise) - Level 54, healthy. Movepool: Hydro Pump, Ice Beam, Bite, Water Gun.
 
 
 <hr>
@@ -866,7 +893,10 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 - **Column 9:** Completely walkable from `(9, 16)` up to `(9, 1)`. Specifically: `(9, 15)`, `(9, 14)`, `(9, 13)`, `(9, 12)`, `(9, 11)`, `(9, 10)`, `(9, 9)`, `(9, 8)`, `(9, 7)`, `(9, 6)`, `(9, 5)`, `(9, 4)`, `(9, 3)`, `(9, 2)`, `(9, 1)` are walkable.
 - **Column 8:** `(8, 3)`, `(8, 4)`, `(8, 5)`, `(8, 6)`, `(8, 9)`, `(8, 10)`, `(8, 11)`, `(8, 12)` are open and walkable.
 - **Column 7:** `(7, 6)`, `(7, 7)`, `(7, 8)`, `(7, 9)` are open and walkable.
-- **Column 1:** `(1, 15)`, `(1, 16)` are open and walkable.
+- **Column 5:** `(5, 13)`, `(5, 14)`, `(5, 15)`, `(5, 16)` are open and walkable.
+- **Column 1:** `(1, 1)`, `(1, 2)`, `(1, 3)`, `(1, 15)`, `(1, 16)` are open and walkable.
+- **Row 13:** `(2, 13)`, `(3, 13)`, `(4, 13)`, `(5, 13)` are open and walkable.
+- **Top-Left Corridor / Rows 3-5:** `(2, 3)`, `(2, 4)`, `(2, 5)` are open and walkable.
 - **Row 8:** `(9, 8)` is open and walkable.
 
 ## Collision Points & Invisible Walls
@@ -877,6 +907,12 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 - **Column 7 to Column 6 barriers:** Blocked moving Left from `(7, 6)` to `(6, 6)`, from `(7, 7)` to `(6, 7)`, from `(7, 8)` to `(6, 8)`, and from `(7, 9)` to `(6, 9)`.
 - **Row 10 barriers:** Blocked moving Down from `(7, 9)` to `(7, 10)`.
 - **Row 5 barriers:** Blocked moving Up from `(7, 6)` to `(7, 5)`.
+- **Row 12 barriers:**
+  - Blocked moving Up from `(5, 13)` to `(5, 12)`.
+  - Blocked moving Up from `(4, 13)` to `(4, 12)`.
+  - Blocked moving Up from `(3, 13)` to `(3, 12)`.
+- **Row 4 barriers:**
+  - Blocked moving Down from `(1, 3)` to `(1, 4)`.
 
 ## Defeated Gym Trainers
 - **Juggler Kirk:** Standing at `(8, 8)` (challenged from `(9, 8)` on Turn 20456). Defeated on Turn 20492. Roster: DROWZEE Lv 31, DROWZEE Lv 31, KADABRA Lv 31, DROWZEE Lv 31. Prize money: ¥1085.
