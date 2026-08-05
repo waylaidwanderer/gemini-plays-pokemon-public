@@ -593,6 +593,7 @@
 - EMPIRICAL PROBE RESULT (Turn 38516): Tile (45, 5) is a solid south-facing ledge wall blocking Northbound movement from Row 6.
 - EMPIRICAL PROBE RESULT (Turn 38535): Tile (41, 5) is a solid south-facing ledge wall blocking Northbound movement from (41, 6).
 - EMPIRICAL PROBE RESULT (Turn 38545): Tile (10, 11) is a solid south-facing ledge wall blocking Northbound movement from (10, 12).
+- EMPIRICAL PROBE RESULT (Turn 38549): Tile (20, 9) is a solid south-facing ledge wall blocking Northbound movement from (20, 10).
 
 <hr>
 
