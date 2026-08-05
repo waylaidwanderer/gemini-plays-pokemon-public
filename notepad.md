@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 38575)
-- Location: Route 9 East Sector (28, 12)
-- Active Protocol: Up 1 to (28, 11) -> Left 8 to (20, 11) -> Probe West along Row 11 / Row 10 to Western Sector!
+## CURRENT STATUS & DASHBOARD (Turn 38578)
+- Location: Route 9 Middle Corridor (20, 11)
+- Active Protocol: Down 1 to (20, 12) -> Left 10 along Row 12 green grass to Western Sector at (10, 12)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
