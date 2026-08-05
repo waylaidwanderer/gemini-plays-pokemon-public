@@ -919,6 +919,7 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 - **Tamer Phil:** Standing at `(8, 2)` (challenged from `(9, 2)` on Turn 20504). Defeated on Turn 20534. Roster: Arbok Lv 33, Sandslash Lv 33, Arbok Lv 33. Prize money: ¥1320.
 - **Juggler Edgar:** Standing at `(8, 13)` (challenged from `(8, 12)` on Turn 20572). Defeated on Turn 20593. Roster: Hypno Lv 38. Prize money: ¥1330.
 - **Juggler Shawn:** Standing at `(1, 14)` (challenged from `(1, 15)` on Turn 20607). Defeated on Turn 20625. Roster: Drowzee Lv 34, Kadabra Lv 34. Prize money: ¥1190.
+- **Tamer Cole:** Standing at `(3, 5)` (challenged from `(2, 5)` on Turn 20676). Defeated on Turn 20696. Roster: Sandslash Lv 34, Arbok Lv 34. Prize money: ¥1360.
 
 <hr>
 
