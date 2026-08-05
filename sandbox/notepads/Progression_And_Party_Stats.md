@@ -10,12 +10,12 @@
 
 - **Rainbow Badge:** Earned by defeating Gym Leader Erika in Celadon City Gym on Turn 13682.
 
-## Current Party Stats (as of Turn 19621)
+## Current Party Stats (as of Turn 20732)
 
 1. **SHELLBY** (Blastoise)
-   - Level: 54
-   - Status: Healthy
-   - Moveset: HYDRO PUMP (PP: 5/5), ICE BEAM (PP: 10/10), BITE (PP: 25/25), WATER GUN (PP: 25/25)
+   - Level: 55
+   - Status: Poisoned (HP: 140/175)
+   - Moveset: HYDRO PUMP (PP: 5/5), ICE BEAM (PP: 2/10), BITE (PP: 24/25), WATER GUN (PP: 25/25)
 
 2. **TRUFFLE** (Paras)
 
@@ -86,7 +86,7 @@
 - **TM30 (Teleport):** 1
 - **TM48 (Rock Slide):** 1
 - **TM49 (Tri Attack):** 1
-- **Super Potion:** 4 (1 stack)
+- **Super Potion:** 3 (1 stack)
 - **TM07 (Horn Drill):** 1
 - **Lift Key:** 1
 - **Silph Scope:** 1
