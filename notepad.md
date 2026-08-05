@@ -969,7 +969,7 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 
 ## Step-Tracking Dashboard
 - **Turn 21140:** Re-entered Safari Zone (Fresh Run). Paid ¥500. Received 30 SAFARI BALLS.
-- **Turn 21273 (Current):** Approximately 258 steps remaining (356 remaining on Turn 21239, ~98 steps taken since).
+- **Turn 21302 (Current):** Exactly 176 steps remaining (356 remaining on Turn 21239, ~180 steps taken since, including collisions/menus).
 
 ## Safari Zone Area 1 (East)
 
