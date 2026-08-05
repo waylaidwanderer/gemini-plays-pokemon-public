@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 38434)
-- Location: Route 9 Upper Highway (25, 8)
-- Active Protocol: Ascend (25, 8) -> (25, 2) Top Highway -> Test Row 1/2 passage across Col 26 to East Sector -> Route 10 Entrance (59, 2/3/4/8)!
+## CURRENT STATUS & DASHBOARD (Turn 38441)
+- Location: Route 9 Lower Basin (29, 14)
+- Active Protocol: Ascend (29, 14) -> (29, 12) -> Walk East along Row 12 light grey pavement corridor directly to Route 10 Entrance (59, 12)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
