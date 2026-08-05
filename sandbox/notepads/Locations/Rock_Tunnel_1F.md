@@ -39,3 +39,4 @@
   3. North 13 steps along Column 21 to Row 3 Top Highway at (21, 3).
   4. West 6 steps along Row 3 Top Highway to Route 10 Exit at (15, 3)!
 - VERIFIED (Turn 39458): Cols 6-7 rock wall spans Rows 14-20 on 1F. Row 12/13 (x=1..21) is the open East-West highway connecting West Sector to Col 21 Highway at (21, 13)!
+- VERIFIED (Turn 39465): Cols 18-19 rock wall spans Rows 14-20. Row 13 (x=17..21) is open East-West connecting Col 17 directly to Col 21 Highway at (21, 13)!
