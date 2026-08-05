@@ -217,7 +217,6 @@
 - Southern Cavern: Rows 18-20 across Columns 13-21 form a dead-end cavern bounded East by Col 22 rock wall.
 - Tile (13, 10) is solid rock wall on 1F.
 - Columns 20-21 (x=20, 21) form open Northbound corridor connecting Row 10 (20, 10) to Row 3 Top Highway (20, 3).
-- Column 7 (x=7) is continuous open Northbound highway connecting Row 14 all the way UP through Row 5 to Row 3 Top Highway!
 - Column 5 (x=5) is open Northbound corridor from Row 6 (5, 6) directly to Ladder at (5, 3)!
 - Row 5 across Cols 7-12 is solid rock wall (blocking Up from 7, 6).
 - Column 5 (x=5) and Column 6 (x=6) are open Northbound corridor through Row 5 to Ladder (5, 3) and Row 3 Top Highway!
