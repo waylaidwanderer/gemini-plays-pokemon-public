@@ -561,13 +561,13 @@
 
 <h1><code>notepads/Locations/RocketHideout</code></h1>
 
-
+# Temporary Duplicate
 
 <hr>
 
 <h1><code>notepads/Locations/CeladonCity</code></h1>
 
-
+# Temporary Duplicate
 
 <hr>
 
