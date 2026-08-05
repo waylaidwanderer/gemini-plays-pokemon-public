@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 37511)
-- Location: Underground Path Entrance Building (3, 7) -> Taking stairs at (2, 3)
-- Active Protocol: Left 1 to (2, 7) -> Up 4 along Col 2 to stairs at (2, 3) -> Warp down into Underground Path tunnel -> Walk West to Route 7 -> Enter Celadon City.
+## CURRENT STATUS & DASHBOARD (Turn 37512)
+- Location: Route 8 Mart (2, 3) -> Exiting to Route 8 (25, 26)
+- Active Protocol: Exit Mart at (25, 25) -> Walk East along Route 8 to inspect final building doorway at (38, 17) (Underground Path Entrance Building).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
