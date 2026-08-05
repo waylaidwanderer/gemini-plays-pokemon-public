@@ -6,9 +6,10 @@
 - **South Exit (Route 19 Connection):** Transition at Fuchsia City `(23, 35)` connects directly to Route 19 at `(13, 0)` (verified on Turn 20873).
 
 ## Physical Layout & Exploration
+- **Overworld Cut-able Bush (26, 13):** This bush blocks the path going north along the left side of the Zoo pens. It was successfully CUT on Turn 21624 using TRUFFLE (Paras), making the vertical path on Column 26 fully walkable.
 - The eastern part of Fuchsia City has a Zoo/Safari Zone area with walled pens (bordered by grey Rhydon statues).
 - Columns 18-22 on Rows 22-23 form the roof of a house.
-- Column 23 has a solid vertical wall/fence running from Row 22 to Row 31, blocking direct westward movement to the Pokemon Center.
+- Column 23 has a walkable paved corridor running from Row 17 to Row 31 connecting the east and west sides.
 - Row 33 has a horizontal row of grey Rhydon statues (columns 24-35).
 - Row 34 has trees blocking southern movement at columns 30-35.
 - Column 2 has a solid vertical wall/fence running from Row 24 to Row 31, dividing the western Gym area from the eastern center. Bypassed by walking south to Row 32.
