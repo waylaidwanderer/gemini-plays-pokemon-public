@@ -806,5 +806,10 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 ## Mechanics & Collision
 - **Log Fences:** Log fences on Row 3 and Row 5 are solid and impassable, completely sealing Row 4 into a corridor except for the gap at columns 4-5 on Row 5.
 
+## Detailed Layout Constraints & Obstacles
+- **Vertical Barrier (Column 3):** Column 3 serves as the western boundary wall/cliff separating the eastern paved corridor from the western grass lanes of Route 14. However, at the bottom of the route (around Row 48), the wall ends, allowing horizontal traversal between the east and west sides of the route.
+- **Row 11 Blockage:** Row 11 is completely blocked by solid log fences across columns 4 to 19, except for a single-tile gap at `(13, 11)`.
+- **Row 12 Ledge:** Located at `(13, 12)`. Passing south through the `(13, 11)` gap requires jumping down this one-way ledge to `(13, 13)`.
+- **Row 50 Stone Wall:** Row 50 is completely blocked by an unbroken solid stone wall/fence across columns 4 to 17, preventing direct southern passage from the paved side. To proceed south towards Route 15, players must bypass the Bikers/Bird Keepers (such as the one at `(6, 49)`) on the west side of column 12 to reach the southwest corner of Route 14 (columns 0-2, rows 48-49), which transitions directly west into Route 15.
 
 <hr>
