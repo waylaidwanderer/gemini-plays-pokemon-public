@@ -14,7 +14,7 @@
 - Column 17 Slope: Open North-South pavement from (17, 26) up to Row 16 (17, 16).
 ### Burglarized House Route to Route 9
 - Burglarized House Front Door: Located at (30, 11) in North Cerulean City.
-- Passage: Enter front door at (30, 11), walk UP through the hole in back wall at (3, 0) to exit into East Cerulean backyard at (27, 9).
+- Passage: Enter Burglarized House, walk UP through the hole in back wall at (5, 6) to exit into East Cerulean backyard.
 - From (27, 9): Walk East along Row 9/16 corridor directly into Route 9 entrance at (39, 16)!
 - EMPIRICAL PROBE RESULT (Turn 38116): Tile (34, 28) is a solid dark green hedge tree blocking Southbound movement on Column 34. Row 28 (Cols 30-35) + Column 35 Fence (Rows 20-27) form a complete solid enclosure. The ONLY path to East Cerulean / Route 9 is through the Burglarized House at (30, 11)!
 - Cerulean House 1 (Badge Man House): Front Door at (13, 15) in Central Cerulean City. Single front door (no back door).
