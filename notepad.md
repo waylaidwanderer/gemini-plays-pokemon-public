@@ -34,9 +34,9 @@
 
 1. **SHELLBY** (Blastoise)
 
-   - Level: 52
+   - Level: 53
 
-   - Status: Healthy
+   - Status: Poisoned (as of Turn 20164)
 
    - Moveset: HYDRO PUMP (Max PP: 5), ICE BEAM (Max PP: 10) (Taught on Turn 13537, forgot TAIL WHIP), BITE (Max PP: 25), WATER GUN (Max PP: 25)
 
@@ -44,25 +44,25 @@
 
    - Level: 15
 
-   - Status: Healthy
+   - Status: Poisoned (as of Turn 20164)
 
 3. **GUSTY** (Pidgey)
 
    - Level: 5
 
-   - Status: Healthy
+   - Status: Poisoned (as of Turn 20164)
 
 4. **NIBBLES** (Rattata)
 
    - Level: 7
 
-   - Status: Healthy
+   - Status: Poisoned (as of Turn 20164)
 
 5. **TESLA** (Pikachu)
 
    - Level: 20
 
-   - Status: Healthy
+   - Status: Poisoned (as of Turn 20164)
 
 ## Major Milestones and Items
 
@@ -109,7 +109,7 @@
 - **TM30 (Teleport):** 1
 - **TM48 (Rock Slide):** 1
 - **TM49 (Tri Attack):** 1
-- **Super Potion:** 6 (1 stack)
+- **Super Potion:** 4 (1 stack)
 - **TM07 (Horn Drill):** 1
 - **Lift Key:** 1
 - **Silph Scope:** 1
