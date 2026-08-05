@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 37412)
-- Location: Underground Path (3, 3)
-- Active Protocol: Standing at (3, 3) in Upper Sector -> Walk Right 2 to (5, 3), Up 1 to (5, 2), and probe Left into (4, 2) NPC.
+## CURRENT STATUS & DASHBOARD (Turn 37415)
+- Location: Underground Path (5, 2)
+- Active Protocol: Standing at (5, 2). Probing Down 2 steps to test if (5, 4) is open southbound toward Row 8 pavement (5, 8).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
