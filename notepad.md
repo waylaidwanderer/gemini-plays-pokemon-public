@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 37711)
-- Location: Route 8 (24, 10)
-- Active Protocol: Walk Down 10 steps along Col 24 to Row 20 pavement at (24, 20) -> Walk Right 6 steps along Row 20 pavement to Col 30 at (30, 20) -> Step Up into Underground Path Entrance Building doorway at (30, 19) -> Take stairs down to Underground Path tunnel -> Celadon City!
+## CURRENT STATUS & DASHBOARD (Turn 37741)
+- Location: Route 8 (23, 8)
+- Active Protocol: Walk East 37 steps along Row 8 pavement to Col 60 Northern Highway Corridor at (60, 8) -> Walk Up 4 steps along Col 60 through gap to Row 4 Northern Highway at (60, 4) -> Walk Left along Row 3/4 Northern Highway across Route 8 to West Entrance at (0, 8) -> Warp into Underground Path Entrance Building -> Celadon City!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
