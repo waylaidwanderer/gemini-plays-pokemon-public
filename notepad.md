@@ -33,12 +33,9 @@
 ## Current Party Stats (as of Turn 19621)
 
 1. **SHELLBY** (Blastoise)
-
    - Level: 54
-
-   - Status: Poisoned (as of Turn 20164, current HP: 104/171 as of Turn 20410)
-
-   - Moveset: HYDRO PUMP (PP: 3/5), ICE BEAM (PP: 0/10), BITE (PP: 9/25), WATER GUN (PP: 19/25)
+   - Status: Healthy
+   - Moveset: HYDRO PUMP (PP: 5/5), ICE BEAM (PP: 10/10), BITE (PP: 25/25), WATER GUN (PP: 25/25)
 
 2. **TRUFFLE** (Paras)
 
@@ -835,21 +832,6 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 
 <hr>
 
-<h1><code>Scratchpad/Fuchsia_Route_Planning</code></h1>
-
-# Fuchsia City Immediate Route Planning
-
-## Fuchsia City Layout and Center Location
-- **Entrance:** The transition from Route 15 (west end) leads directly into the east gatehouse/entrance of Fuchsia City.
-- **Pokémon Center:** Located in the southeastern quadrant of the city. Upon exiting the Route 15 gatehouse, we should walk directly west to locate and enter the Pokémon Center.
-- **Poison Steps:** SHELLBY is poisoned and loses 1 HP every 4 steps in the overworld. She currently has 133 HP (approx 532 steps). Minimizing unnecessary steps is crucial.
-- **Plan:**
-  1. Complete Route 15 and enter Fuchsia City.
-  2. Walk directly west to the Pokémon Center.
-  3. Heal party and cure SHELLBY's poison.
-
-<hr>
-
 <h1><code>Locations/FuchsiaCity</code></h1>
 
 # Fuchsia City - Overworld Layout & Points of Interest
@@ -864,9 +846,12 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 - Column 23 has a solid vertical wall/fence running from Row 22 to Row 31, blocking direct westward movement to the Pokemon Center.
 - Row 33 has a horizontal row of grey Rhydon statues (columns 24-35).
 - Row 34 has trees blocking southern movement at columns 30-35.
+- Column 2 has a solid vertical wall/fence running from Row 24 to Row 31, dividing the western Gym area from the eastern center. Bypassed by walking south to Row 32.
 
 ## Landmarks & Points of Interest
-- **Pok�mon Center:** Identified with "POKE" sign at `(20, 27)` with pink roof at columns 18-21 on Rows 24-25. Entrance door expected on row 28.
+- **Pok�mon Center:** Located in the southeast quadrant. Verified entrance door is at `(19, 27)`. Inside, entrance mat is at `(3, 7)` and Nurse Joy is at `(3, 2)`.
+- **Fuchsia City Gym:** Located in the southwest quadrant at columns 4-6, rows 26-27. Verified entrance door is at `(5, 27)` facing south. Gym signpost is at `(5, 29)`.
+- **Pok� Mart (Unverified Pink Roof Building):** Located in the west-central quadrant at columns 4-9 on rows 24-25. Entrance is expected on row 27.
 
 
 <hr>

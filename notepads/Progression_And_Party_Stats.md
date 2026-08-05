@@ -13,12 +13,9 @@
 ## Current Party Stats (as of Turn 19621)
 
 1. **SHELLBY** (Blastoise)
-
    - Level: 54
-
-   - Status: Poisoned (as of Turn 20164, current HP: 104/171 as of Turn 20410)
-
-   - Moveset: HYDRO PUMP (PP: 3/5), ICE BEAM (PP: 0/10), BITE (PP: 9/25), WATER GUN (PP: 19/25)
+   - Status: Healthy
+   - Moveset: HYDRO PUMP (PP: 5/5), ICE BEAM (PP: 10/10), BITE (PP: 25/25), WATER GUN (PP: 25/25)
 
 2. **TRUFFLE** (Paras)
 
