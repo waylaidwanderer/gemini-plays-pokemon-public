@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 38583)
-- Location: Route 9 Middle Corridor (20, 11)
-- Active Protocol: Right 8 to (28, 11) -> Down 1 to (28, 12) -> East 13 to (41, 12) -> Up 6 to (41, 6) -> West along Row 6 with single-step probing on each column to find Row 3 Top Highway entrance!
+## CURRENT STATUS & DASHBOARD (Turn 38586)
+- Location: Route 9 Row 6 Highway (41, 6)
+- Active Protocol: Left 5 along Row 6 from (41, 6) to (36, 6) -> Continue West along Row 6 to locate open northbound passage to Row 3 Top Highway!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
