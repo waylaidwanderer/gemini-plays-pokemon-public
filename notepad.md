@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 38672)
+## CURRENT STATUS & DASHBOARD (Turn 38673)
 - Location: Route 9 (45, 7)
-- Active Protocol: Auditing Route 9 Northbound gap locations along Row 5/6 to reach Top Highway (Row 3/4) / East Sector (Cols 50-59) to Route 10 Entrance at (59, 8)!
+- Active Protocol: Traversing to Row 14 Lower Basin East at (46, 14) to systematically probe Northbound ascent gaps across Cols 46-52 to reach Eastbound Highway (Rows 8-10) -> Route 10 Entrance at (59, 8)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
