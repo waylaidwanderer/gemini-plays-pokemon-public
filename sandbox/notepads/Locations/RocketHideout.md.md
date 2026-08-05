@@ -1,1 +1,1 @@
-# Temporary Duplicate MD.MD
+# Dummy file to clean up ghost entry
