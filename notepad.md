@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 37477)
-- Location: Underground Path Entrance Building (2, 7) -> Taking stairs at (2, 3)
-- Active Protocol: Take stairs at (2, 3) down into Underground Path tunnel -> Walk West through tunnel to Route 7 -> Enter Celadon City.
+## CURRENT STATUS & DASHBOARD (Turn 37485)
+- Location: Trade House (1, 3) -> Exiting to Route 8 (13, 16)
+- Active Protocol: Exit Trade House -> Walk East along Row 18 pavement to (38, 18) -> Step Up into (38, 17) Underground Path Entrance Building Doorway.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -398,6 +398,7 @@
 - (30, 19) on Route 8 is the doorway to Underground Path Entrance Building. Inside, south mat (4, 13)/(5, 13) exits to (30, 19). North stairs lead down to Underground Path tunnel.
 - Verified: Underground Path (Route 7 - Route 8) is a single subterranean map. East entrance (30, 19) from Route 8 enters directly into the East chamber. West tunnel corridor leads directly to Route 7!
 - Verified (Turn 37476): Doorway at (13, 15) on Route 8 is the TRUE Underground Path Entrance Building!
+- Correction (Turn 37485): (13, 15) is the Trade House ("Poliwhirl for Jynx"). The TRUE Underground Path Entrance Building doorway is at (38, 17) on Route 8!
 
 <hr>
 
