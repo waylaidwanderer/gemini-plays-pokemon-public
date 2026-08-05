@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 37444)
-- Location: Underground Path (7, 5)
-- Active Protocol: Reached (7, 5) on Row 5 -> Walk Left 2 to (5, 5) -> Down 4 along Col 5 to Row 9 pavement at (5, 9) -> Right 4 along Row 9 to (9, 9) -> Up 9 along Col 9 directly into (9, 0) warp mat to exit Underground Path to Route 7.
+## CURRENT STATUS & DASHBOARD (Turn 37471)
+- Location: Route 8 House (5, 10) -> Exiting to Route 8 (30, 20)
+- Active Protocol: Exit house at (30, 19) -> Walk North to Row 4 Northern Highway at (25, 4) -> Ascend to Row 2 Topmost Highway at (25, 2) -> Walk Left to (15, 5) Underground Path Entrance Building Doorway.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
