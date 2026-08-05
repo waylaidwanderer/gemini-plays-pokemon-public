@@ -863,13 +863,15 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 ## Verified Walkable Path & Coordinates
 - **Row 17:** `(4, 17)`, `(5, 17)`, `(6, 17)`, `(7, 17)` are open and walkable.
 - **Row 16:** `(7, 16)`, `(8, 16)`, `(9, 16)` are open and walkable.
-- **Column 9:** Completely walkable from `(9, 16)` up to `(9, 2)`. Specifically: `(9, 15)`, `(9, 14)`, `(9, 13)`, `(9, 12)`, `(9, 11)`, `(9, 10)`, `(9, 9)`, `(9, 8)`, `(9, 7)`, `(9, 6)`, `(9, 5)`, `(9, 4)`, `(9, 3)`, `(9, 2)` are walkable.
+- **Column 9:** Completely walkable from `(9, 16)` up to `(9, 1)`. Specifically: `(9, 15)`, `(9, 14)`, `(9, 13)`, `(9, 12)`, `(9, 11)`, `(9, 10)`, `(9, 9)`, `(9, 8)`, `(9, 7)`, `(9, 6)`, `(9, 5)`, `(9, 4)`, `(9, 3)`, `(9, 2)`, `(9, 1)` are walkable.
+- **Column 8:** `(8, 3)`, `(8, 4)`, `(8, 5)` are open and walkable.
 - **Row 8:** `(9, 8)` is open and walkable.
 
 ## Collision Points & Invisible Walls
 - **(4, 17) boundaries:** Walking Up from `(4, 17)` is blocked by an invisible wall. Walking Right from `(4, 17)` is blocked by an invisible wall? No, we successfully walked Right to `(5, 17)`.
 - **(5, 30) signpost:** Outside the gym, the signpost is at `(5, 29)`, which blocks direct northern movement.
 - **Row 31:** Outside the gym, the log fence is solid at columns 4, 5, 6, 7.
+- **Column 8 to Column 7 barriers:** Blocked moving Left from `(8, 3)` to `(7, 3)`, from `(8, 4)` to `(7, 4)`, and from `(8, 5)` to `(7, 5)`.
 
 ## Defeated Gym Trainers
 - **Juggler Kirk:** Standing at `(8, 8)` (challenged from `(9, 8)` on Turn 20456). Defeated on Turn 20492. Roster: DROWZEE Lv 31, DROWZEE Lv 31, KADABRA Lv 31, DROWZEE Lv 31. Prize money: ¥1085.
