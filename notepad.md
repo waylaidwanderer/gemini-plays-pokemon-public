@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 38605)
-- Location: Route 9 Middle Highway (24, 10)
-- Active Protocol: Left 4 to (20, 10) -> Down 2 to Row 12 (20, 12) -> Left 10 to Western Sector (10, 12) -> Down 2 to Row 14 (10, 14) -> West to Cerulean City Exit (0, 16/8)!
+## CURRENT STATUS & DASHBOARD (Turn 38608)
+- Location: Route 9 Western Sector (10, 12)
+- Active Protocol: Down 1 to hop (10, 13) ledge to Row 14 pavement (10, 14) -> West 10 along Row 14 to Cerulean City Exit (0, 16/8)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
