@@ -1,5 +1,11 @@
 # Safari Zone - Overworld Layout & Navigation Guide
 
+## Run Statistics (Current Run)
+- **Start Turn:** 21659 (Fresh run, paid ¥500, received 30 Safari Balls, 500 step budget)
+- **Current Turn:** 21661 (2 turns elapsed)
+- **Estimated Steps Taken:** 0 steps
+- **Estimated Remaining Steps:** 500 steps (Resource monitored carefully to prevent unexpected eviction)
+
 ## Area 2 (North) Map & Collision Structures
 
 ### Key Landmarks & Buildings
