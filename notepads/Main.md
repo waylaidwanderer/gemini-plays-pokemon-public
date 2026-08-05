@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 37366)
-- Location: Underground Path Entrance Building (39, 16)
-- Active Protocol: Warped into Underground Path Entrance Building at (39, 16) -> Walk Up 2 to (39, 14), Left 4 to (35, 14), Down 6 to (35, 20) stairs to enter Underground Path.
+## CURRENT STATUS & DASHBOARD (Turn 37368)
+- Location: Underground Path Entrance Building (35, 19)
+- Active Protocol: Standing at (35, 19) in front of stairs -> Step Down 1 to (35, 20) to enter Underground Path -> Walk West through Underground Path corridor to Route 7 exit building.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
