@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 38546)
-- Location: Route 9 Western Sector (10, 12)
-- Active Protocol: Right 10 to (20, 12) -> Up 4 through Col 20 gap to Row 8 pavement (20, 8) -> Left 10 to Row 8 pavement at (10, 8)!
+## CURRENT STATUS & DASHBOARD (Turn 38549)
+- Location: Route 9 Middle Highway (20, 10)
+- Active Protocol: Right 8 along Row 10 highway from (20, 10) to (28, 10) -> East along Row 10/12 to Col 41!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
