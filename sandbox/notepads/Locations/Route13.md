@@ -40,3 +40,4 @@
 
 ## Mechanics
 - **Off-Screen Tree Respawning:** CUT-able trees (such as the one at `(34, 4)`) regenerate automatically when they are scrolled off-screen. Plan routing with tree respawns in mind.
+- **Biker:** Standing at `(10, 7)` (challenged from `(10, 6)` on Turn 19988). Defeated on Turn 20011.
