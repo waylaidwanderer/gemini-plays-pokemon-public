@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 38863)
-- Location: Route 9 (41, 7)
-- Active Protocol: Walking Up 1 to (41, 6), Left 11 along Row 6 pavement to (30, 6), and testing Up step onto (30, 5) to enter Row 3/4 Upper Grass Highway!
+## CURRENT STATUS & DASHBOARD (Turn 38881)
+- Location: Route 9 (46, 14)
+- Active Protocol: Walking East along Row 14 Lower Basin grass highway from (46, 14) directly to Route 10 Entrance at (59, 8)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
