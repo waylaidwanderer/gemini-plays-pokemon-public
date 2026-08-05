@@ -1,10 +1,6 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 39453)
-- Location: Rock Tunnel 1F (3, 3)
-- Primary Goal: Reach Celadon City (Obtain Fresh Water / Soda Pop / Lemonade from Celadon Dept Store)
-- Secondary Goal: Exit Rock Tunnel 1F to Route 10 South
-- Active Protocol: At (3, 3) on Rock Tunnel 1F. Walk East 2 steps to Col 5 at (5, 3) -> South 3 steps along Col 5 to (5, 6) -> South along Col 5/11 to Row 16 Bypass -> East to Col 21 -> North to Row 3 -> West to Route 10 Exit at (15, 3).
+
 
 <hr>
 
@@ -701,6 +697,7 @@
   4. West 6 steps along Row 3 Top Highway to Route 10 Exit at (15, 3)!
 - VERIFIED (Turn 39458): Cols 6-7 rock wall spans Rows 14-20 on 1F. Row 12/13 (x=1..21) is the open East-West highway connecting West Sector to Col 21 Highway at (21, 13)!
 - VERIFIED (Turn 39465): Cols 18-19 rock wall spans Rows 14-20. Row 13 (x=17..21) is open East-West connecting Col 17 directly to Col 21 Highway at (21, 13)!
+- VERIFIED (Turn 39468): Column 15 (x=15) is the open Northbound Exit Highway connecting Row 9 at (15, 9) directly North to Route 10 South Exit at (15, 3)!
 
 <hr>
 
