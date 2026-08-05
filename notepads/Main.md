@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 38596)
-- Location: Route 9 Lower Basin (28, 15)
-- Active Protocol: Right 1 to (29, 15) -> Up 2 steps to test (29, 13) ascent gap!
+## CURRENT STATUS & DASHBOARD (Turn 38600)
+- Location: Route 9 Column 29 Ascent Gap (29, 13)
+- Active Protocol: Up 4 along Col 29 from (29, 13) to Row 9 (29, 9) -> East along Row 10/12 to Col 41!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
