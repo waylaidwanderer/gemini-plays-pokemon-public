@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 37554)
-- Location: Route 8 (18, 9) -> Reversing Left to Col 9 to descend to Row 16 Lower Highway
-- Active Protocol: Left 9 to (9, 9) -> Down 7 to Row 16 (9, 16) -> East along Row 16 Lower Highway to (26, 16) -> East to Eastern Sector.
+## CURRENT STATUS & DASHBOARD (Turn 37555)
+- Location: Underground Path Entrance Building (2, 1) -> Taking stairs at (7, 3)
+- Active Protocol: Down 4 to (2, 5) -> Right 5 to (7, 5) -> Up 2 along Col 7 to stairs at (7, 3) -> Warp down into Underground Path tunnel -> Walk West to Route 7 -> Enter Celadon City.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
