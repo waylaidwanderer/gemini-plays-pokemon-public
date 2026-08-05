@@ -876,3 +876,9 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 
 
 <hr>
+
+<h1><code>notepads/Locations/FuchsiaGym.md</code></h1>
+
+
+
+<hr>
