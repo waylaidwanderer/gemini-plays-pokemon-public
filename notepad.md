@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 37958)
-- Location: Route 7 Entrance Building (20, 20)
-- Active Protocol: Left 1 to (19, 20) -> Up 3 to exit doorway at (19, 17) -> Exit onto Route 7 -> Celadon City!
+## CURRENT STATUS & DASHBOARD (Turn 37981)
+- Location: Route 8 Pokémon Center (3, 3)
+- Active Protocol: Close dialogue with B -> Walk Down 4 steps to (3, 7) door mat -> Exit onto Route 8 at (19, 18) -> Walk East to Underground Path building at (30, 19).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
