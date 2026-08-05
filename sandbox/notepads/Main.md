@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 38996)
-- Location: Route 9 (29, 14)
-- Active Protocol: Reached (29, 14). Walking Up 6, Left 6, Up 2, Right 2, Up 2 to Row 4 Northern Grass (25, 4), then Left 15 to West Sector (10, 3)!
+## CURRENT STATUS & DASHBOARD (Turn 39031)
+- Location: Route 10 (13, 9)
+- Active Protocol: Traversed Route 9 to Route 10! Currently running from wild encounter at (13, 9), then walking Down to (13, 17) -> Left to Rock Tunnel 1F Entrance at (8, 17).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
