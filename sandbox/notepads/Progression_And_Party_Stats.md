@@ -42,7 +42,7 @@
    - Status: Healthy
 
 ## Major Milestones and Items
-- **Koga Battle Engaged:** Challenged Gym Leader Koga in Fuchsia Gym on Turn 20749.
+- **Soul Badge:** Earned by defeating Gym Leader Koga in Fuchsia City Gym on Turn 20797.
 
 - **Giovanni Defeated:** Defeated on Turn 18056 on B4F.
 
