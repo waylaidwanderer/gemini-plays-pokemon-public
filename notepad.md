@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 39344)
-- Location: Rock Tunnel B1F (26, 16)
-- Active Protocol: From (26, 16), walk West 5 steps along Row 16 Highway to (21, 16).
+## CURRENT STATUS & DASHBOARD (Turn 39348)
+- Location: Rock Tunnel B1F (24, 16)
+- Active Protocol: From (24, 16), walk Right 2 steps to Col 26 (26, 16), Down 14 steps along Col 26/25 to Row 30 Sector Bypass at (26, 30), West 12 steps along Row 30 passage to Col 14 at (14, 30).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -254,12 +254,11 @@
 - Upper Northern Passage (Cols 34-37): Open northbound corridor from Row 12 at (35, 12) North to Row 4 Upper Exit Chamber.
 - Upper Exit Cavern & 1F Exit Ladder: Ladder to 1F is located at (27, 3)!
 
-### Master Route to 1F Exit Ladder (27, 3)
-1. From Western Cavern (2, 24): Walk East to (26, 24) -> Down 3 to Row 27 (26, 27) -> East to East Sector at (33, 27).
-2. From East Sector (33, 27): Walk North 11 steps along Column 33 to Row 16 Highway at (33, 16).
-3. From (33, 16): Walk North 4 steps through North Ascent Bypass to Row 12 at (33, 12).
-4. From (33, 12): Walk Right 2 steps to (35, 12) -> North 8 steps through Upper Northern Passage to Row 4 at (35, 4).
-5. From (35, 4): Walk Left 8 steps, Up 1 step to 1F Exit Ladder at (27, 3)!
+### Complete Master Route to Exit Ladder (27, 3) (Turn 39347)
+1. From East Sector / Row 16 Highway (24, 16): Walk Right 2 steps to Col 26 (26, 16) -> Down 14 steps along Col 26/25 to Row 30 Sector Bypass at (26, 30).
+2. From (26, 30): Walk West 12 steps along Row 30 Sector Bypass to Column 14 in West Sector at (14, 30).
+3. From (14, 30): Walk North 26 steps along Column 14 Highway through Row 16/12 to Row 4 Exit Chamber at (14, 4).
+4. From (14, 4): Walk East 13 steps along Row 4 to Column 27 at (27, 4) -> North 1 step to Exit Ladder at (27, 3)!
 ### Verified B1F Complete Topography & Exit Route (Turn 33636)
 - 1F Main Arrival Ladder: (33, 25) in East Sector.
 - Central Barrier (Cols 26-27): Solid rock wall from y=20 down to y=29 separating East and West sectors.
