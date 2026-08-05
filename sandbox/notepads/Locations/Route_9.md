@@ -54,3 +54,4 @@
 - EMPIRICAL PROBE RESULT (Turn 38988): Tile (54, 15) is a solid mountain rock wall blocking Eastbound movement from (53, 15). Lower Basin (x=28..53, y=14..15) is fully enclosed East by Column 54 mountain wall.
 - EMPIRICAL PROBE RESULT (Turn 38991): Tile (46, 13) is a solid south-facing ledge wall blocking Northbound movement from (46, 14).
 - EMPIRICAL BYPASS PROOF (Turn 39002): Column 26 at Row 8 (26, 8) is an OPEN TWO-WAY EASTBOUND HIGHWAY connecting Row 8 pavement (25, 8) directly East through (26, 8), (27, 8), (28, 8), (29, 8) -> Down through (29, 9) slope gap to (29, 12) Row 12 Green Grass Highway!
+- VERIFIED ROUTE 9 MASTER SOLUTION (Turn 39019): Row 5 at (39, 5) is an OPEN NORTHBOUND TAN SLOPE GAP connecting Row 6 pavement (39, 6) directly UP to Row 3/2 Northern Grass Highway at (39, 3)/(39, 2)! Row 2 grass (y=2) runs continuously East across Cols 39-59 directly to Route 10 Entrance at (59, 8)!
