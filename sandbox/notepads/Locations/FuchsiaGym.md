@@ -12,7 +12,7 @@
 - **Column 8:** `(8, 3)`, `(8, 4)`, `(8, 5)`, `(8, 6)`, `(8, 9)`, `(8, 10)`, `(8, 11)`, `(8, 12)` are open and walkable.
 - **Column 7:** `(7, 6)`, `(7, 7)`, `(7, 8)`, `(7, 9)` are open and walkable.
 - **Column 5:** `(5, 13)`, `(5, 14)`, `(5, 15)`, `(5, 16)` are open and walkable.
-- **Column 1:** `(1, 1)`, `(1, 2)`, `(1, 3)`, `(1, 15)`, `(1, 16)` are open and walkable.
+- **Column 1:** `(1, 1)`, `(1, 2)`, `(1, 3)`, `(1, 5)`, `(1, 6)`, `(1, 7)`, `(1, 15)`, `(1, 16)` are open and walkable.
 - **Row 13:** `(2, 13)`, `(3, 13)`, `(4, 13)`, `(5, 13)` are open and walkable.
 - **Top-Left Corridor / Rows 3-5:** `(2, 3)`, `(2, 4)`, `(2, 5)` are open and walkable.
 - **Row 8:** `(9, 8)` is open and walkable.
@@ -38,3 +38,6 @@
 - **Juggler Edgar:** Standing at `(8, 13)` (challenged from `(8, 12)` on Turn 20572). Defeated on Turn 20593. Roster: Hypno Lv 38. Prize money: ¥1330.
 - **Juggler Shawn:** Standing at `(1, 14)` (challenged from `(1, 15)` on Turn 20607). Defeated on Turn 20625. Roster: Drowzee Lv 34, Kadabra Lv 34. Prize money: ¥1190.
 - **Tamer Cole:** Standing at `(3, 5)` (challenged from `(2, 5)` on Turn 20676). Defeated on Turn 20696. Roster: Sandslash Lv 34, Arbok Lv 34. Prize money: ¥1360.
+- **Juggler Kay:** Standing at `(2, 7)` (challenged from `(1, 7)` on Turn 20698). Defeated on Turn 20723. Roster: Drowzee Lv 34, Hypno Lv 34, Drowzee Lv 34. Prize money: ¥1190.
+## Methodology & Burden of Proof for Invisible Walls
+- **Invisible Wall Visual Signature:** Empirically verified that grey horizontal tile dashes represent Koga's Gym's invisible walls. Solid boundaries were directly proven by colliding/bumping when attempting to walk across them at `(5,12)`, `(1,4)`, `(4,12)`, `(3,12)`, and `(8,5)`. Tiles without these grey horizontal dashes are verified open pathways.
