@@ -1,5 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 39516)
-- Location: Lavender Town (7, 10)
-- Primary Goal: Reach Celadon City (Obtain Fresh Water / Soda Pop / Lemonade from Celadon Dept Store)
-- Secondary Goal: Traverse Route 8 West to Underground Path Entrance
-- Active Protocol: At (7, 10) on Row 10. Walk West 5 steps to (2, 10) -> North 1 step to (2, 9) -> West 2 steps to (0, 9) onto Route 8 West.
+## CURRENT STATUS & DASHBOARD (Turn 39525)
+- Location: Rock Tunnel 1F (7, 10)
+- Primary Goal: Exit Rock Tunnel 1F to Route 10 South at (15, 3) -> Lavender Town -> Route 8 West -> Underground Path -> Celadon City.
+- Active Navigation Route: From (7, 10) in West Sector: Down 2 steps to Row 12 (7, 12) -> East 14 steps along Row 12 to Col 21 (21, 12) -> North 9 steps along Col 21 to Row 3 (21, 3) -> West 6 steps along Row 3 to Route 10 Exit at (15, 3).
