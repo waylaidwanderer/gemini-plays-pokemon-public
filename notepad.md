@@ -534,6 +534,7 @@
 - EMPIRICAL PROBE RESULT (Turn 38157): Tile (22, 17) is a solid wooden fence post blocking Northbound movement on Column 22. Row 17 (Cols 18-27) is a solid barrier.
 - Column 32 Highway: Open Northbound pavement highway at (32, 16..21) connects Central Cerulean (Row 20/21) past Badge Man House directly UP to North Cerulean (Row 11-16)!
 - Column 8 Northbound Highway: Open Northbound pavement highway at (8, 11..16) connects West Cerulean (Row 16) directly UP to North Cerulean street (Row 11)!
+- Route 9 Entrance Gap: Open passage into Route 9 is at Row 16 at (38, 16) -> (39, 16) -> Route 9!
 
 <hr>
 
