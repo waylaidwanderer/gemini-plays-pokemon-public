@@ -553,12 +553,6 @@
 
 <hr>
 
-<h1><code>notepads/Locations/RocketHideout</code></h1>
-
-# Temporary Duplicate
-
-<hr>
-
 <h1><code>notepads/Locations/RocketHideout.md</code></h1>
 
 # Temporary Duplicate MD.MD
@@ -830,6 +824,12 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 <hr>
 
 <h1><code>Locations/RocketHideout.md</code></h1>
+
+# Temporary Duplicate MD.MD
+
+<hr>
+
+<h1><code>notepads/Locations/CeladonCity.md</code></h1>
 
 # Temporary Duplicate MD.MD
 
