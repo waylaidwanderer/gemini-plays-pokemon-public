@@ -1039,7 +1039,7 @@ To transition from the northwestern ground level to the southwestern exit of Are
 
 ---
 
-## Gold-Standard Speedrun Route to Area 3 (West)
+## ## [UNVERIFIED / HYPOTHESIS] Gold-Standard Speedrun Route to Area 3 (West)
 
 To transition from the northwestern ground level to the southwestern exit of Area 2 (North) (which connects to Area 3 (West) and the Secret House), the player must use the eastern plateau stairs:
 
