@@ -827,13 +827,6 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 
 <hr>
 
-<h1><code>Locations/RocketHideout.md</code></h1>
-
-# Dummy file to clean up ghost entry
-
-
-<hr>
-
 <h1><code>Locations/FuchsiaCity</code></h1>
 
 # Fuchsia City - Overworld Layout & Points of Interest
