@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 38946)
-- Location: Route 9 (10, 3)
-- Active Protocol: Reached Row 3 Northern Grass Highway at (10, 3). Walking East 20 steps along Row 3 grass highway to (30, 3)!
+## CURRENT STATUS & DASHBOARD (Turn 38955)
+- Location: Route 9 (41, 14)
+- Active Protocol: Reached Row 14 Lower Basin grass at (41, 14). Walking East 18 steps along Row 14 grass highway to (59, 14)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
