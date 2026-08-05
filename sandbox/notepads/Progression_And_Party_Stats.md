@@ -16,9 +16,9 @@
 
    - Level: 54
 
-   - Status: Poisoned (as of Turn 20164)
+   - Status: Poisoned (as of Turn 20164, current HP: 104/171 as of Turn 20410)
 
-   - Moveset: HYDRO PUMP (Max PP: 5), ICE BEAM (Max PP: 10) (Taught on Turn 13537, forgot TAIL WHIP), BITE (Max PP: 25), WATER GUN (Max PP: 25)
+   - Moveset: HYDRO PUMP (PP: 3/5), ICE BEAM (PP: 0/10), BITE (PP: 9/25), WATER GUN (PP: 19/25)
 
 2. **TRUFFLE** (Paras)
 
