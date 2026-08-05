@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 38011)
-- Location: Route 8 Underground Path Entrance Building (4, 13)
-- Active Protocol: Walk Up 1 to (4, 12) -> Left 2 to (2, 12) -> Up 3 along Column 2 to (2, 9) stairs -> Take stairs down into Underground Path tunnel!
+## CURRENT STATUS & DASHBOARD (Turn 38041)
+- Location: Route 8 Underground Path Entrance Building (2, 13)
+- Active Protocol: Execute Python script to systematically probe every open tile and locate the exact stairwell entrance.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
