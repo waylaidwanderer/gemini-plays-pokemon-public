@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 38528)
-- Location: Route 9 Upper Highway (29, 9)
-- Active Protocol: Down 3 to Row 12 (29, 12) -> East 12 to Col 41 Gap (41, 12) -> Up 6 to Row 6 (41, 6) -> Test Up 2 to Row 4/3 Top Highway (41, 4/3) -> East along Row 3 to Route 10 Entrance at (59, 3)!
+## CURRENT STATUS & DASHBOARD (Turn 38536)
+- Location: Route 9 Column 41 Gap (41, 6)
+- Active Protocol: Down 6 to (41, 12) -> Left 13 to (28, 12) -> Up to Row 11 -> West through Col 20 to (19, 12) -> West to Western Sector (Cols 5..15) to access Row 3 Top Highway!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -164,6 +164,7 @@
 - EMPIRICAL PROBE RESULT (Turn 38491): Tile (19, 13) is a verified open Northbound gap connecting Row 14 (19, 14) UP to Row 12 (19, 12) green grass!
 - Bypass to East Sector: From (19, 12), walk Right 1 to (20, 12) -> Up 1 to Row 11 (20, 11) -> East 8 along Row 11 open pavement across Cols 20-27 to East Sector at (28, 11)!
 - EMPIRICAL PROBE RESULT (Turn 38516): Tile (45, 5) is a solid south-facing ledge wall blocking Northbound movement from Row 6.
+- EMPIRICAL PROBE RESULT (Turn 38535): Tile (41, 5) is a solid south-facing ledge wall blocking Northbound movement from (41, 6).
 
 <hr>
 
