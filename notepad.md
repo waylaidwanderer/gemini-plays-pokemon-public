@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 38555)
-- Location: Route 9 Middle Highway (25, 10)
-- Active Protocol: Right 3 to (28, 10) -> Down 2 to Row 12 (28, 12) -> East 13 to Col 41 Gap (41, 12)!
+## CURRENT STATUS & DASHBOARD (Turn 38557)
+- Location: Route 9 Column 41 Gap (41, 12)
+- Active Protocol: Down 1 to (41, 14) -> Right 5 to (46, 14) -> Test Up 1 to (46, 13)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
