@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 37431)
-- Location: Underground Path (4, 3)
-- Active Protocol: At (4, 3) in Upper Sector -> Retracing South to (4, 13) entrance pad -> Walk East on Row 12 to Col 9 -> North on Col 9 to Row 8 -> West on Row 8 to Col 0 -> North on Col 0 to (0, 0) Route 7 warp mat.
+## CURRENT STATUS & DASHBOARD (Turn 37433)
+- Location: Underground Path (5, 5)
+- Active Protocol: Standing at (5, 5) -> Left 3 to (2, 5) -> Down 4 to (2, 9) -> Right 7 along Row 9 to (9, 9) -> Up 9 along Col 9 directly into (9, 0) warp mat to exit Underground Path to Route 7.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
