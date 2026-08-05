@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 37499)
-- Location: Saffron Gatehouse (7, 3) -> Exiting south to Route 8 (30, 20)
-- Active Protocol: Down 2 to (7, 5) -> Left 2 to (5, 5) -> Down 9 to exit door onto Route 8 at (30, 20) -> Search Route 8 for Underground Path Entrance Building.
+## CURRENT STATUS & DASHBOARD (Turn 37501)
+- Location: Route 8 (30, 20)
+- Active Protocol: Bypass Super Nerd at (31, 20) via Row 21 -> Walk East via Col 34 gap to inspect doorway at (38, 17).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -395,12 +395,10 @@
 ### Master Northern Highway Row 2/3 Route Discovery (Turn 37095)
 - Row 4 at (19, 4) drops into a rock wall, but Row 2 / Row 3 (Cols 14-25) is the TOPMOST HIGHWAY TIER (where NPC at 22, 2 is located).
 - Access to Row 2/3: From (25, 4) Northern Highway -> Up 2 to (25, 2) Row 2 Topmost Highway -> Walk Left along Row 2/3 to (14, 2)/(14, 5) Underground Path Entrance Building Doorway!
-- (30, 19) on Route 8 is the doorway to Underground Path Entrance Building. Inside, south mat (4, 13)/(5, 13) exits to (30, 19). North stairs lead down to Underground Path tunnel.
-- Verified: Underground Path (Route 7 - Route 8) is a single subterranean map. East entrance (30, 19) from Route 8 enters directly into the East chamber. West tunnel corridor leads directly to Route 7!
-- Verified (Turn 37476): Doorway at (13, 15) on Route 8 is the TRUE Underground Path Entrance Building!
-- Correction (Turn 37485): (13, 15) is the Trade House ("Poliwhirl for Jynx"). The TRUE Underground Path Entrance Building doorway is at (38, 17) on Route 8!
-- Verified (Turn 37494): Doorway at (30, 19) under blue striped roof IS the Underground Path Entrance Building on Route 8!
-- Correction (Turn 37499): Doorway at (30, 19) on Route 8 is the Saffron Gatehouse checkpoint. Exiting to Route 8 at (30, 20) to find the Underground Path Entrance Building!
+- Building Doorway Audit (Turn 37501):
+  - (13, 15): Trade House ("Poliwhirl for Jynx").
+  - (30, 19): Saffron Gatehouse checkpoint (Thirsty Guard).
+  - Search Target: Locate remaining doorway at (38, 17) on Route 8 to verify Underground Path entrance.
 
 <hr>
 

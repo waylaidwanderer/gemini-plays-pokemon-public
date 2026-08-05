@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 37499)
-- Location: Saffron Gatehouse (7, 3) -> Exiting south to Route 8 (30, 20)
-- Active Protocol: Down 2 to (7, 5) -> Left 2 to (5, 5) -> Down 9 to exit door onto Route 8 at (30, 20) -> Search Route 8 for Underground Path Entrance Building.
+## CURRENT STATUS & DASHBOARD (Turn 37501)
+- Location: Route 8 (30, 20)
+- Active Protocol: Bypass Super Nerd at (31, 20) via Row 21 -> Walk East via Col 34 gap to inspect doorway at (38, 17).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
