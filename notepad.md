@@ -880,6 +880,7 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 ## Defeated Gym Trainers
 - **Juggler Kirk:** Standing at `(8, 8)` (challenged from `(9, 8)` on Turn 20456). Defeated on Turn 20492. Roster: DROWZEE Lv 31, DROWZEE Lv 31, KADABRA Lv 31, DROWZEE Lv 31. Prize money: ¥1085.
 - **Tamer Phil:** Standing at `(8, 2)` (challenged from `(9, 2)` on Turn 20504). Defeated on Turn 20534. Roster: Arbok Lv 33, Sandslash Lv 33, Arbok Lv 33. Prize money: ¥1320.
+- **Juggler Edgar:** Standing at `(8, 13)` (challenged from `(8, 12)` on Turn 20572). Defeated on Turn 20593. Roster: Hypno Lv 38. Prize money: ¥1330.
 
 <hr>
 
