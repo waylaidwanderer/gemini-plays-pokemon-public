@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 38602)
-- Location: Route 9 Upper Highway (29, 9)
-- Active Protocol: Down 1 to (29, 10) -> Left 5 to Col 24 (24, 10) -> Up 4 along Col 24 to Row 6 pavement at (24, 6)!
+## CURRENT STATUS & DASHBOARD (Turn 38605)
+- Location: Route 9 Middle Highway (24, 10)
+- Active Protocol: Left 4 to (20, 10) -> Down 2 to Row 12 (20, 12) -> Left 10 to Western Sector (10, 12) -> Down 2 to Row 14 (10, 14) -> West to Cerulean City Exit (0, 16/8)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -166,6 +166,7 @@
 - Verified Top Highway Ascent Passage: Columns 32 & 33 at (32, 6) / (33, 6) connect UP through (32, 5) / (33, 5) green grass directly to Row 3 Top Highway at (32, 3) / (33, 3)!
 - Route 10 Entrance Route: From (32, 3) Row 3 Top Highway, walk East along Row 3 / Row 4 green grass across Columns 32-59 directly to Route 10 Entrance at (59, 8)!
 - EMPIRICAL PROBE RESULT (Turn 38592): Tile (32, 5) is a solid south-facing ledge wall blocking Northbound movement from (32, 6).
+- EMPIRICAL PROBE RESULT (Turn 38604): Tile (24, 9) is a solid south-facing ledge wall blocking Northbound movement from (24, 10).
 
 <hr>
 
