@@ -2,9 +2,9 @@
 
 ## Run Statistics (Current Run)
 - **Start Turn:** 21659 (Fresh run, paid ¥500, received 30 Safari Balls, 500 step budget)
-- **Current Turn:** 21675 (16 turns elapsed)
-- **Estimated Steps Taken:** 0 steps
-- **Estimated Remaining Steps:** 500 steps (Resource monitored carefully to prevent unexpected eviction)
+- **Current Turn:** 21691 (32 turns elapsed)
+- **Estimated Steps Taken:** 31 steps (Precisely tracked: 4 to 15,21 + 5 to 15,16 + 11 to 24,16 + 6 to 28,14 + 5 to 29,10)
+- **Estimated Remaining Steps:** 469 steps (Resource monitored carefully to prevent unexpected eviction)
 
 ## Area 2 (North) Map & Collision Structures
 
