@@ -167,6 +167,7 @@
 - EMPIRICAL PROBE RESULT (Turn 38604): Tile (24, 9) is a solid south-facing ledge wall blocking Northbound movement from (24, 10).
 - VERIFIED COL 41 NORTHBOUND GAP (Turn 38755): Tile (41, 11) is an open two-way northbound gap connecting Row 12 (41, 12) directly UP through (41, 10), (41, 9), (41, 8) to Row 7 pavement highway at (41, 7) (note: Row 7 pavement ends at 45, 7 solid rock wall).
 - EMPIRICAL PROBE RESULT (Turns 38763-38767): Row 13 across Cols 43, 46, 47, 52, 53 are solid south-facing ledge walls / rock walls blocking Northbound movement from Row 14. Exit from Row 14 Lower Basin is WEST at (29, 14) -> UP through (29, 13) gap to (29, 12) Middle Highway!
+- EMPIRICAL PROBE RESULT (Turns 38789-38794): Row 9 across Cols 20, 21, 22, 23, 24, 25 are solid south-facing ledge walls blocking Northbound movement from Row 10. Access to Upper Highway is via West Sector (Cols 0-10)!
 
 <hr>
 
