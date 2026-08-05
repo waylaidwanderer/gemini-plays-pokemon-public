@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 38566)
-- Location: Route 9 Lower Basin Ascent Gap (29, 14)
-- Active Protocol: Up 2 to (29, 12) -> East 12 to (41, 12) -> Up 6 to (41, 6) -> West along Row 6 with single-step probing to locate Row 3 Top Highway!
+## CURRENT STATUS & DASHBOARD (Turn 38572)
+- Location: Route 9 Column 41 Gap (41, 8)
+- Active Protocol: Down 4 to (41, 12) -> Left 13 to (28, 12) -> Up 1 to (28, 11) -> Left 8 to (20, 11) -> Down 1 to (20, 12) -> West to Cols 5..15 to locate Row 3 Top Highway entrance!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -168,6 +168,7 @@
 - EMPIRICAL PROBE RESULT (Turn 38545): Tile (10, 11) is a solid south-facing ledge wall blocking Northbound movement from (10, 12).
 - EMPIRICAL PROBE RESULT (Turn 38549): Tile (20, 9) is a solid south-facing ledge wall blocking Northbound movement from (20, 10).
 - EMPIRICAL PROBE RESULT (Turn 38562): Tile (46, 13) is a solid south-facing ledge wall blocking Northbound movement from (46, 14).
+- EMPIRICAL PROBE RESULT (Turn 38571): Tile (42, 8) is a solid rock wall blocking Eastbound movement from (41, 8).
 
 <hr>
 
