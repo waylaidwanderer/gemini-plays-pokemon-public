@@ -706,10 +706,10 @@
 - Upper Northern Passage (Cols 34-37): Open northbound corridor from Row 12 at (35, 12) North to Row 4 Upper Exit Chamber.
 - Upper Exit Cavern & 1F Exit Ladder: Ladder to 1F is located at (27, 3)!
 
-### Complete Master Route to Exit Ladder (27, 3) (Turn 39347)
-1. From East Sector / Row 16 Highway (24, 16): Walk Right 2 steps to Col 26 (26, 16) -> Down 14 steps along Col 26/25 to Row 30 Sector Bypass at (26, 30).
-2. From (26, 30): Walk West 12 steps along Row 30 Sector Bypass to Column 14 in West Sector at (14, 30).
-3. From (14, 30): Walk North 26 steps along Column 14 Highway through Row 16/12 to Row 4 Exit Chamber at (14, 4).
+### Complete Master Route to Exit Ladder (27, 3) (Turn 39363)
+1. From East Sector (26, 31): Walk Up 4 steps along Col 26 to Row 27 Passage at (26, 27).
+2. From (26, 27): Walk West 12 steps along Row 27 Passage across Cols 25-14 into West Sector at (14, 27).
+3. From (14, 27): Walk North 23 steps along Column 14 Highway through Row 16/12 to Row 4 Exit Chamber at (14, 4).
 4. From (14, 4): Walk East 13 steps along Row 4 to Column 27 at (27, 4) -> North 1 step to Exit Ladder at (27, 3)!
 ### Verified B1F Complete Topography & Exit Route (Turn 33636)
 - 1F Main Arrival Ladder: (33, 25) in East Sector.
