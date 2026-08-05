@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 37536)
-- Location: Route 8 (16, 9) -> Reversing Left to Col 9 to descend to Row 16 Lower Highway
-- Active Protocol: Left 7 to (9, 9) -> Down 7 to Row 16 (9, 16) -> East along Row 16 Lower Highway to (26, 16) -> East to Eastern Sector.
+## CURRENT STATUS & DASHBOARD (Turn 37540)
+- Location: Underground Path Entrance Building (7, 5) -> Step to (5, 4) next to stairs
+- Active Protocol: Left 2 to (5, 5) -> Up 1 to (5, 4) -> Press A to speak with NPC at (5, 3) / step into (6, 3) stairs.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
