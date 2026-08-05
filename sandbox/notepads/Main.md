@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 38158)
-- Location: Cerulean City (22, 18)
-- Active Protocol: Walk Down 2 to (22, 20) -> Right 8 to (30, 20) to inspect East Cerulean passage to Burglarized House at (30, 11)!
+## CURRENT STATUS & DASHBOARD (Turn 38165)
+- Location: Inside Burglarized House (4, 13)
+- Active Protocol: Walk Left 1 to (3, 13) -> Up 13 steps through hole in back wall at (3, 0) to exit into East Cerulean at (27, 9) -> Walk East to Route 9 entrance at (39, 16)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
