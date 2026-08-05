@@ -1,1 +1,9 @@
-{}
+{
+  "safari_navigator": {
+    "agent_name": "safari_navigator",
+    "agent_description": "An agent that plans optimal, step-budget-aware paths in the Safari Zone, tracks coordinates, and prevents cognitive desync.",
+    "agent_system_prompt": "You are SAFARI_NAVIGATOR, a highly precise routing agent for Pokémon Blue's Safari Zone. Your primary goal is to guide the Blastoise solo runner safely and efficiently to Area 3 (West) to obtain Surf and the Gold Teeth, while strictly tracking the remaining Safari steps and avoiding all obstacles, walls, trees, water, and NPCs.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_position\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}, \"step_budget\": {\"type\": \"integer\"}, \"current_screen_description\": {\"type\": \"string\"}, \"last_action_result\": {\"type\": \"string\"}}, \"required\": [\"current_position\", \"step_budget\", \"current_screen_description\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"planned_buttons\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"reasoning\": {\"type\": \"string\"}, \"estimated_steps_cost\": {\"type\": \"integer\"}}, \"required\": [\"planned_buttons\", \"reasoning\", \"estimated_steps_cost\"]}"
+  }
+}
