@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 38514)
-- Location: Route 9 Pavement Corridor (45, 7)
-- Active Protocol: Test Up 2 steps to (45, 5) to access Row 3 Top Highway -> East along Row 3 to Route 10 Entrance at (59, 3/8)!
+## CURRENT STATUS & DASHBOARD (Turn 38517)
+- Location: Route 9 Pavement Corridor (45, 6)
+- Active Protocol: Down 1 to (45, 7) -> Left 4 to (41, 7) -> Down 6 to (41, 14) -> Right 5 to (46, 14) -> Up 6 to (46, 8) Eastbound Highway -> East to Route 10 Entrance at (59, 8)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
@@ -163,6 +163,8 @@
 - EMPIRICAL PROBE RESULT (Turn 38486): Tile (23, 13) is a solid south-facing ledge wall blocking Northbound movement from (23, 14).
 - EMPIRICAL PROBE RESULT (Turn 38491): Tile (19, 13) is a verified open Northbound gap connecting Row 14 (19, 14) UP to Row 12 (19, 12) green grass!
 - Bypass to East Sector: From (19, 12), walk Right 1 to (20, 12) -> Up 1 to Row 11 (20, 11) -> East 8 along Row 11 open pavement across Cols 20-27 to East Sector at (28, 11)!
+- EMPIRICAL PROBE RESULT (Turn 38516): Tile (45, 5) is a solid south-facing ledge wall blocking Northbound movement from Row 6.
+- Verified Highway Passage: Column 46 at (46, 14) connects UP through (46, 13..8) light grey pavement directly onto the Eastbound Highway to Route 10 Entrance at (59, 8)!
 
 <hr>
 

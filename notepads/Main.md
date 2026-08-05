@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 38514)
-- Location: Route 9 Pavement Corridor (45, 7)
-- Active Protocol: Test Up 2 steps to (45, 5) to access Row 3 Top Highway -> East along Row 3 to Route 10 Entrance at (59, 3/8)!
+## CURRENT STATUS & DASHBOARD (Turn 38517)
+- Location: Route 9 Pavement Corridor (45, 6)
+- Active Protocol: Down 1 to (45, 7) -> Left 4 to (41, 7) -> Down 6 to (41, 14) -> Right 5 to (46, 14) -> Up 6 to (46, 8) Eastbound Highway -> East to Route 10 Entrance at (59, 8)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
