@@ -56,6 +56,5 @@
 ### Complete Verified Master Route to Exit Ladder (27, 3) (Turn 39425)
 1. From (14, 24): Walk East 12 steps along Row 24 to Col 26 at (26, 24) -> South 3 steps to Row 27 Passage at (26, 27).
 2. Walk East 7 steps along Row 27 Passage across Cols 26-33 into East Sector at (33, 27).
-3. Walk North 23 steps along Column 33 Highway through Row 20/16/12 to Row 4 Exit Chamber at (33, 4).
 4. Walk West 6 steps along Row 4 to Column 27 at (27, 4) -> North 1 step to Exit Ladder at (27, 3)!
 - VERIFIED (Turn 39428): Vertical rock wall at Cols 30-31 spans Rows 16-27. Row 28 (x=28..33) is the open East-West Sector Bypass Corridor connecting West Sector to East Sector at (33, 28)!
