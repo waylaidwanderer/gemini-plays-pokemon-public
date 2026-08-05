@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 37384)
-- Location: Underground Path Entrance Building (32, 20)
-- Active Protocol: Standing at (32, 20) -> Down 1 to (32, 21) -> Left 2 to (30, 21) -> Up 2 through (30, 20) into (30, 19) lit doorway warp to enter Underground Path -> Walk West through Underground Path corridor to Route 7 exit building.
+## CURRENT STATUS & DASHBOARD (Turn 37386)
+- Location: Underground Path (4, 13)
+- Active Protocol: Entered Underground Path at (4, 13) -> Walk Up 2 to (4, 11) -> Walk West through Underground Path corridor toward Route 7 exit building.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
