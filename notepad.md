@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 38178)
-- Location: East Cerulean Backyard (5, 2)
-- Active Protocol: Down 1 to (5, 3) -> Right 2 to (7, 3) -> Down 2 to (7, 5) -> Right 2 to (9, 5) -> Up 5 along Col 9 through (9, 0) exit into Route 9!
+## CURRENT STATUS & DASHBOARD (Turn 38181)
+- Location: East Cerulean Backyard (5, 6)
+- Active Protocol: Down 1 to (5, 7) -> Right 2 to (7, 7) -> Check NPC at (8, 7) / walk Right to Col 9 highway at (9, 7) -> Up to Route 9 exit at (9, 0)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
