@@ -1,2 +1,0 @@
-- **Turn 21003:** Reached (21, 15) on the plateau. Preparing to move north towards the ledge at row 12.
-- **Turn 21024:** Discovered that columns 9 and 10 form a completely open ground-level vertical path north-south that completely bypasses the plateau! Walked north to (9, 18) and preparing to walk north to row 14.
