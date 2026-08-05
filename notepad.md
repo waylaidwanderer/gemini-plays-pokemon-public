@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 39646)
-- Location: Rock Tunnel B1F (24, 26)
+## CURRENT STATUS & DASHBOARD (Turn 39751)
+- Location: Rock Tunnel B1F (14, 27)
 - Primary Goal: Exit Rock Tunnel B1F -> 1F East Cavern -> Route 10 South -> Lavender Town -> Route 8 West -> Underground Path -> Celadon City.
-- Active Navigation Route: From (24, 26) on Row 26 Highway: Walk East 5 steps along Row 26 to Col 29 at (29, 26) -> North 14 steps along Col 29 Highway to Row 12 at (29, 12) -> West 2 steps to Col 27 at (27, 12) -> North 9 steps along Col 27 to Exit Ladder at (27, 3) -> Warp to 1F East Cavern (37, 3) -> Route 10 Exit (15, 3).
+- Active Navigation Route: From (14, 27) on Row 27 Passage: Walk East 19 steps along Row 27 Passage to Column 33 at (33, 27) -> North 15 steps along Col 33 Highway/North Ascent Bypass to Row 12 at (33, 12) -> East 2 steps to Col 35 at (35, 12) -> North 8 steps along Col 35 Upper Northern Passage to Row 4 Exit Chamber at (35, 4) -> West 8 steps to Col 27 at (27, 4) -> North 1 step to Exit Ladder at (27, 3) -> Warp to 1F East Cavern (37, 3) -> Route 10 Exit (15, 3).
 
 <hr>
 
