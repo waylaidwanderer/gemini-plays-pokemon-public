@@ -15,3 +15,4 @@
 ### Master Northern Highway Row 2/3 Route Discovery (Turn 37095)
 - Row 4 at (19, 4) drops into a rock wall, but Row 2 / Row 3 (Cols 14-25) is the TOPMOST HIGHWAY TIER (where NPC at 22, 2 is located).
 - Access to Row 2/3: From (25, 4) Northern Highway -> Up 2 to (25, 2) Row 2 Topmost Highway -> Walk Left along Row 2/3 to (14, 2)/(14, 5) Underground Path Entrance Building Doorway!
+- (30, 19) on Route 8 is the doorway to Underground Path Entrance Building. Inside, south mat (4, 13)/(5, 13) exits to (30, 19). North stairs lead down to Underground Path tunnel.
