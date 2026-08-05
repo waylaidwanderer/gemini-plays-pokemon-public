@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 38539)
-- Location: Route 9 East Sector (28, 12)
-- Active Protocol: Up 1 to (28, 11) -> Left 8 to (20, 11) -> Down 1 to (20, 12) -> Left 10 to Western Sector (10, 12) -> West to (5, 8) Cut Tree area!
+## CURRENT STATUS & DASHBOARD (Turn 38542)
+- Location: Route 9 Western Sector (10, 12)
+- Active Protocol: Up 4 along Col 10 to Row 8 pavement (10, 8) -> Test Up along Col 10/11 to Row 3 Top Highway -> East along Row 3 to Route 10 Entrance at (59, 3)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
