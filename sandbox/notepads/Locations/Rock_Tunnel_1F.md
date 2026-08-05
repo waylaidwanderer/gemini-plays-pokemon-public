@@ -28,7 +28,12 @@
 - Vertical Wall Barrier at Cols 18-19: Cols 18-19 across Rows 14-20 are solid rock walls blocking Westbound movement from Col 20.
 - Column 38 (x=38) across Rows 13-22 is a solid rock wall blocking Eastbound movement from Col 37.
 - Verified Collision Barrier (Turn 35398): Tile (37, 14) is a solid rock wall blocking Southbound movement on Column 37.
-### Verified 1F Master Solution to B1F Ladder (37, 3) (Turn 39113)
-- Column 32/33 (x=32..33, y=0..8) is a solid rock wall separating West Sector (Cols 0-31) from East Sector (Cols 34-37).
-- Master Route: From (31, 4), walk West to Col 11 (11, 4) -> Down Col 11 to Row 13 Highway (11, 13) -> East along Row 13 Highway across Cols 11-37 to (37, 13) -> North along Col 37 to B1F Ladder at (37, 3)!
-- EMPIRICAL CORRECTION (Turn 39155): Tile (13, 4) is a rock wall blocking Westbound movement on Row 4. Row 7 is open! The verified master route from (14, 4) to B1F Ladder (37, 3) is: Down 3 steps to Row 7 at (14, 7) -> West 7 steps along Row 7 to Col 7 at (7, 7) -> Down 6 steps along Col 7 to Row 13 Highway at (7, 13) -> East 30 steps along Row 13 Highway to (37, 13) -> North 10 steps along Col 37 to B1F Ladder at (37, 3)!
+### Verified 1F Master Topography & Exit Route (Turn 39258)
+- Central Divider Wall: Columns 12 and 13 form a solid vertical rock wall across Rows 2-13 separating West Sector (Cols 0-11) from Central/East Sector (Cols 14-37).
+- Row 14 East-West Highway: Row 14 (y=14) is the verified open East-West highway across Columns 11-33 connecting West Sector directly to East Sector!
+- Column 33 Northbound Highway: Column 33 (x=33) is open from Row 14 (33, 14) North to Row 3 Top Highway at (33, 3)!
+- Master Route from (11, 13) to Route 10 Exit (15, 3):
+  1. Down 1 step to Row 14 Highway at (11, 14).
+  2. East 22 steps along Row 14 Highway to Column 33 at (33, 14).
+  3. North 11 steps along Column 33 to Row 3 Top Highway at (33, 3).
+  4. West 18 steps along Row 3 Top Highway to Route 10 Exit at (15, 3)!
