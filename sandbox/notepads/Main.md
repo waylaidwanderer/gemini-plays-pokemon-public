@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 39239)
-- Location: Rock Tunnel 1F (7, 9)
-- Active Protocol: From (7, 9), walk Down 4 steps along Col 7 to Row 13 Highway at (7, 13), East 26 steps to Col 33 at (33, 13), North 10 steps to Row 3 Top Highway at (33, 3), West 18 steps to Route 10 Exit at (15, 3).
+## CURRENT STATUS & DASHBOARD (Turn 39246)
+- Location: Rock Tunnel 1F (5, 13)
+- Active Protocol: From (5, 13), walk East 28 steps along Row 13 Highway to Col 33 at (33, 13), North 10 steps along Col 33 to Row 3 Top Highway at (33, 3), West 18 steps to Route 10 Exit at (15, 3).
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
