@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 38798)
-- Location: Route 9 (10, 12)
-- Active Protocol: Walking Right 3 to (13, 12), Up 1 through (13, 11) gravel gap to NPC at (13, 10), passing NPC to Row 8 Pavement Highway at (13, 8), and walking East to Route 10 Entrance at (59, 8)!
+## CURRENT STATUS & DASHBOARD (Turn 38815)
+- Location: Route 9 (41, 7)
+- Active Protocol: Probing Up step from (41, 6) onto (41, 5) to enter Row 3/4 Upper Grass Highway!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
