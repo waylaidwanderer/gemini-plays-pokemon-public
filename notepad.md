@@ -118,7 +118,9 @@
 
 - **Escape Rope:** Obtained on Turn 13977, consumed on Turn 16964.
 
-## Verified Inventory (as of Turn 20199)
+## Verified Inventory
+
+- **Safari Balls:** 30 (temporary stack) (as of Turn 20199)
 
 - **Town Map:** 1
 - **TM01 (Mega Punch):** 1
@@ -150,6 +152,7 @@
 - **Route 8 Eastward Journey:** Started Turn 18197, Completed on Turn 18244. (Exited building, walked east, entered Lavender Town).
 
 - **Pokémon Tower Exploration:** Started Turn 18258 (Entered Pokémon Tower, engaged Rival JACK on 2F on Turn 18281).
+- **Safari Zone Entered:** Entered on Turn 20957. Paid ¥500 entrance fee (cash reduced from ¥73588 to ¥73088). Received 30 SAFARI BALLS.
 
 <hr>
 
@@ -878,7 +881,11 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 - **Poké Mart:** Entrance door is at `(11, 27)` (verified on Turn 20864). Inside, the entrance mat is at `(2, 7)`, and the clerk is behind the counter at `(2, 3)`.
 - **Warden's House:** Located in the southeast at `(27, 27)` (verified on Turn 20885). Inside, Warden resides and speaks in gibberish until his Gold Teeth are returned.
 - **Regular House (Slowpoke Fan):** Entrance at `(22, 13)` (verified on Turn 20903). The resident inside says: "We nicknamed the WARDEN SLOWPOKE. He and SLOWPOKE both look vacant!"
-- **Safari Zone Gatehouse:** Entrance door coordinates to be verified. It is located at the far north of the city, accessible by walking north along Column 23.
+- **Safari Zone Gatehouse:** Located at columns 18-21, rows 0-3 on Fuchsia City map. The verified entrance door is at `(18, 3)` facing south.
+- **Empirical Northern Route to Safari Gatehouse:** Column 23 is completely blocked at row 13 by the Slowpoke Fan's house. To reach the gatehouse from the central city:
+  1. Walk east to column 35 on Row 20 or Row 21 (completely open grass).
+  2. Walk north along Column 35 to Row 15, then step right to Column 37 on Row 6 (via the gap at `(37, 7)`).
+  3. Walk north along Column 37 to Row 2, then walk west along Row 2 to column 18 or 22 to access the Gatehouse door.
 
 
 <hr>

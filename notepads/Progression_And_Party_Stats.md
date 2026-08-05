@@ -71,7 +71,9 @@
 
 - **Escape Rope:** Obtained on Turn 13977, consumed on Turn 16964.
 
-## Verified Inventory (as of Turn 20199)
+## Verified Inventory
+
+- **Safari Balls:** 30 (temporary stack) (as of Turn 20199)
 
 - **Town Map:** 1
 - **TM01 (Mega Punch):** 1
@@ -103,3 +105,4 @@
 - **Route 8 Eastward Journey:** Started Turn 18197, Completed on Turn 18244. (Exited building, walked east, entered Lavender Town).
 
 - **Pokémon Tower Exploration:** Started Turn 18258 (Entered Pokémon Tower, engaged Rival JACK on 2F on Turn 18281).
+- **Safari Zone Entered:** Entered on Turn 20957. Paid ¥500 entrance fee (cash reduced from ¥73588 to ¥73088). Received 30 SAFARI BALLS.
