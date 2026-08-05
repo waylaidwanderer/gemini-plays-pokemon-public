@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 38441)
-- Location: Route 9 Lower Basin (29, 14)
-- Active Protocol: Ascend (29, 14) -> (29, 12) -> Walk East along Row 12 light grey pavement corridor directly to Route 10 Entrance (59, 12)!
+## CURRENT STATUS & DASHBOARD (Turn 38461)
+- Location: Route 9 Lower Basin (28, 14)
+- Active Protocol: Right 1 to (29, 14) -> Up 4 through (29, 13) gap to (29, 10) -> West along Row 10 Pavement Highway to West Route 9 / Cerulean!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
