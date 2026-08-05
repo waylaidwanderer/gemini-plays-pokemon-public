@@ -19,4 +19,4 @@
 - **Poké Mart:** Entrance door is at `(11, 27)` (verified on Turn 20864). Inside, the entrance mat is at `(2, 7)`, and the clerk is behind the counter at `(2, 3)`.
 - **Warden's House:** Located in the southeast at `(27, 27)` (verified on Turn 20885). Inside, Warden resides and speaks in gibberish until his Gold Teeth are returned.
 - **Regular House (Slowpoke Fan):** Entrance at `(22, 13)` (verified on Turn 20903). The resident inside says: "We nicknamed the WARDEN SLOWPOKE. He and SLOWPOKE both look vacant!"
-- **Safari Zone Gatehouse:** Located in the north-central area of the city. Entrance door is at `(22, 13)` of the northern Zoo sector (verified on Turn 20903).
+- **Safari Zone Gatehouse:** Entrance door coordinates to be verified. It is located at the far north of the city, accessible by walking north along Column 23.
