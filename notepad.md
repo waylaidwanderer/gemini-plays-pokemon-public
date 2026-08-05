@@ -397,6 +397,7 @@
 - Access to Row 2/3: From (25, 4) Northern Highway -> Up 2 to (25, 2) Row 2 Topmost Highway -> Walk Left along Row 2/3 to (14, 2)/(14, 5) Underground Path Entrance Building Doorway!
 - (30, 19) on Route 8 is the doorway to Underground Path Entrance Building. Inside, south mat (4, 13)/(5, 13) exits to (30, 19). North stairs lead down to Underground Path tunnel.
 - Verified: Underground Path (Route 7 - Route 8) is a single subterranean map. East entrance (30, 19) from Route 8 enters directly into the East chamber. West tunnel corridor leads directly to Route 7!
+- Verified (Turn 37476): Doorway at (13, 15) on Route 8 is the TRUE Underground Path Entrance Building!
 
 <hr>
 
