@@ -155,6 +155,7 @@
 - Basin Exit Ledge Gap Verified: (19, 14) -> UP 2 steps through (19, 13) gap to (19, 12) Middle Highway grass!
 - Top Highway Ascent Gap Verified: (38, 6) -> UP through (39, 5/4/3/2) to Top Highway, then East to x=51 and DOWN across (51, 5) ledge to (51, 6/8) East Highway!
 - Column 26 Mountain Wall Verified (Turn 32796): Solid rock wall from y=2 through y=6 at x=26. Row 1 across Cols 21-25 is a one-way south-facing ledge. Route to East Sector is via Row 12/14 Lower Highway to Col 38/41 Ascent Gap!
+- Ledge Boundaries: Row 9 (Cols 21-25) and Row 5 (Cols 20-25) are solid south-facing ledges (cannot walk North across them).
 
 <hr>
 
