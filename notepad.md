@@ -837,12 +837,6 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 
 <hr>
 
-<h1><code>Locations/RocketHideout_temp</code></h1>
-
-# Temporary
-
-<hr>
-
 <h1><code>Scratchpad/Fuchsia_Route_Planning</code></h1>
 
 # Fuchsia City Immediate Route Planning
