@@ -37,3 +37,4 @@
 - EMPIRICAL PROBE RESULT (Turn 38491): Tile (19, 13) is a verified open Northbound gap connecting Row 14 (19, 14) UP to Row 12 (19, 12) green grass!
 - Bypass to East Sector: From (19, 12), walk Right 1 to (20, 12) -> Up 1 to Row 11 (20, 11) -> East 8 along Row 11 open pavement across Cols 20-27 to East Sector at (28, 11)!
 - EMPIRICAL PROBE RESULT (Turn 38516): Tile (45, 5) is a solid south-facing ledge wall blocking Northbound movement from Row 6.
+- EMPIRICAL PROBE RESULT (Turn 38535): Tile (41, 5) is a solid south-facing ledge wall blocking Northbound movement from (41, 6).
