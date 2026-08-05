@@ -394,12 +394,11 @@
 3. Probe Rows 7, 6, 5 northbound gaps across Columns 52-58 to find the two-way northbound passage connecting Upper Highway directly to Row 4 Top Northern Highway.
 ### Master Northern Highway Row 2/3 Route Discovery (Turn 37095)
 - Row 4 at (19, 4) drops into a rock wall, but Row 2 / Row 3 (Cols 14-25) is the TOPMOST HIGHWAY TIER (where NPC at 22, 2 is located).
-- Access to Row 2/3: From (25, 4) Northern Highway -> Up 2 to (25, 2) Row 2 Topmost Highway -> Walk Left along Row 2/3 to (14, 2)/(14, 5) Underground Path Entrance Building Doorway!
-- Building Doorway Audit (Turn 37559):
+- Building Doorway Audit (Turn 37563):
   - (13, 15): Trade House ("Poliwhirl for Jynx").
   - (25, 25): Route 8 Mart / Vending Machine Building.
   - (30, 19): Saffron Gatehouse checkpoint (Thirsty Guard).
-  - (9, 11): Route 8 Badge House (North door at 2, 0 exits outdoors to Route 8 at 9, 9).
+  - (9, 9): TRUE Underground Path Entrance Building (North doorway connects to 2, 0; stairs at 7, 3 / 6, 3 lead down to subterranean tunnel).
 
 <hr>
 
