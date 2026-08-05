@@ -495,7 +495,21 @@
 
 <h1><code>Locations/CeladonCity</code></h1>
 
-# Temporary
+# Celadon City - Points of Interest & Overworld Layout
+
+## Map Transitions & Connections
+- **East Exit (Route 7):** Connects to Route 7 at `(49, 11)`.
+- **West Exit (Route 16):** Connects to Route 16.
+
+## Points of Interest
+- **Pokémon Center:** Located in the center/north.
+- **Department Store:** Large multi-story store with vending machines on the roof.
+- **Celadon Mansion:** Located in the north.
+- **Game Corner:** Secret headquarters of Team Rocket. secret switch behind the poster at `(9, 4)` reveals the stairs to Rocket Hideout.
+- **Celadon Gym:** Grass-type gym led by Erika. Earned Rainbow Badge on Turn 13682.
+- **Diner:** Located in the south.
+- **Hotel:** Located in the southeast.
+
 
 <hr>
 
@@ -789,6 +803,8 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 - **Row 12 Ledge:** Located at `(13, 12)`. Passing south through the `(13, 11)` gap requires jumping down this one-way ledge to `(13, 13)`.
 - **Row 50 Stone Wall:** Row 50 is completely blocked by an unbroken solid stone wall/fence across columns 4 to 17, preventing direct southern passage from the paved side. To proceed south towards Route 15, players must bypass the Bikers/Bird Keepers (such as the one at `(6, 49)`) on the west side of column 12 to reach the southwest corner of Route 14 (columns 0-2, rows 48-49), which transitions directly west into Route 15.
 - **Bird Keeper:** Standing at `(6, 49)` (challenged on Turn 20058). Defeated on Turn 20076. Roster: Spearow Lv 29, Fearow Lv 29. Prize money: ¥725.
+- **Route 15 Connection Turn:** Transition to Route 15 occurred on Turn 20078.
+
 
 <hr>
 
