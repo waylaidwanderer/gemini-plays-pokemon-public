@@ -2,7 +2,7 @@
 - Route 10 Entrance: (15, 3) (North Entrance from Route 10 North)
 - Secondary Ladder: (3, 3) in Western Sector connects down to B1F at (37, 17).
 - Main B1F Ladder (37, 3) East Chamber: Bounded by rock wall at x=33 (y=3) and y=1 (x=34-37). Open exit corridor is at Column 33 running North through (33, 2), (33, 1), (33, 0).
-- B1F Secondary Ladder / Exit Arrival: (5, 3) (in western sector of 1F).
+
 - Row 16 & Row 22-23 Barriers: Solid rock walls in western sector.
 
 - Room (Cols 13-21, Rows 16-21): Large open cavern bounded North by Row 15 rock wall, South by Row 22-23 rock wall, East by Col 22 rock wall.
