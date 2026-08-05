@@ -609,6 +609,7 @@
 - Tile (45, 8) is a solid rock wall slope blocking Down movement from (45, 7). Row 6/7 pavement (Cols 30-45) is a complete dead end.
 - EMPIRICAL PROBE RESULT (Turn 38887): Tile (53, 13) is a solid south-facing ledge wall blocking Northbound movement from (53, 14). Exit from Row 14 Lower Basin is WEST at (29, 14) -> UP through (29, 13) gap to (29, 12) Middle Highway!
 - EMPIRICAL PROBE RESULT (Turn 38901): Tile (23, 5) is a solid south-facing ledge wall blocking Northbound movement from (23, 6). Access to Row 3 Upper Highway is via West Sector (Cols 0-10)!
+- EMPIRICAL PROBE RESULT (Turn 38919): Tile (34, 11) is a solid south-facing ledge wall blocking Northbound movement from (34, 12). Row 12 green grass connects East continuously to Col 52 (52, 12) pavement corridor!
 
 <hr>
 
