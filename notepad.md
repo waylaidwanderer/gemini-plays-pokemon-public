@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
 ## CURRENT STATUS & DASHBOARD (Turn 38216)
-- Location: Route Transition Edge (0, 13)
-- Active Protocol: Step Left 1 onto (-1, 13) to enter Route 9 at (0, 8) -> Cut tree at (5, 8) -> Traverse Route 9 to Route 10 -> Rock Tunnel -> Lavender Town -> Route 8 -> Underground Path -> Celadon City!
+- Location: Route 9 (0, 13)
+- Active Protocol: Walk Up 5 to (0, 8) -> Walk Right 5 to (5, 8) -> Cut tree -> Traverse Route 9 to Route 10 -> Rock Tunnel -> Lavender Town -> Route 8 -> Underground Path -> Celadon City!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
