@@ -613,6 +613,7 @@
 - EMPIRICAL PROBE RESULT (Turn 38901): Tile (23, 5) is a solid south-facing ledge wall blocking Northbound movement from (23, 6). Access to Row 3 Upper Highway is via West Sector (Cols 0-10)!
 - EMPIRICAL PROBE RESULT (Turn 38919): Tile (34, 11) is a solid south-facing ledge wall blocking Northbound movement from (34, 12). Row 12 green grass connects East continuously to Col 52 (52, 12) pavement corridor!
 - EMPIRICAL PROBE RESULT (Turn 38933): Tile (26, 2) is a solid mountain rock wall slope blocking Eastbound movement from (25, 2).
+- EMPIRICAL PROBE RESULT (Turn 38943): Tile (19, 4) is a solid mountain rock wall slope blocking Westbound movement on Row 4. Row 3 (20, 3) -> (19, 3) is the open light green grass highway bypassing Col 19 mountain wall!
 
 <hr>
 
