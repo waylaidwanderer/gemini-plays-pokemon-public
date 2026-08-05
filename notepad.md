@@ -713,8 +713,13 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
    - From `(11, 57)`, columns 10-11 form a continuous vertical dock going South.
 
 4. **Row 57 to Route 13 (y=57 to y=107):**
-   - Walk South on columns 10-11 from Row 57 directly to Row 72.
-   - At Row 72, continue navigating south on the docks to the Route 13 entrance at `(11, 107)`.
+   - Walk South on columns 10-11 from Row 57 directly to Row 95. (Note: detour around Snorlax at Row 62 by walking Left onto column 10 to bypass the signpost at `(11, 63)`).
+   - At Row 95, columns 10-11 are blocked by water. Walk East to columns 14-15.
+   - Walk South on columns 14-15 to Row 99.
+   - At Row 99, columns 14-15 are blocked by water. Walk West to columns 12-13.
+   - Walk South on columns 12-13 to Row 105.
+   - At Row 105, columns 12-13 are blocked by water. Walk West to columns 10-11.
+   - Walk South on columns 10-11 to Row 107 to enter Route 13 at `(11, 107)`.
    - Walk West along Row 82 to the main western dock at columns 4-5 at `(4, 82)`.
    - Walk South on columns 4-5 to Row 104.
    - Walk East to columns 12-13 on Row 103, and then South to Route 13 at `(11, 107)`.
