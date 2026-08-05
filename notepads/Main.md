@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 38721)
-- Location: Route 9 (20, 8)
-- Active Protocol: Walking Down 4 to (20, 12), Left 10 to (10, 12), Down 2 to (10, 14), then Left 10 to Cerulean Exit at (0, 16) to re-enter Route 9 on Row 8 Upper Tier at (0, 8)!
+## CURRENT STATUS & DASHBOARD (Turn 38724)
+- Location: Route 9 (10, 14)
+- Active Protocol: Walking Right 19 to (29, 14), Up 6 to Row 8 Pavement Highway at (29, 8), then traversing East via Row 6 Pavement (34, 6)-(45, 6) -> Col 41 -> Row 14 Lower Basin East -> Route 10 Entrance at (59, 8)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
