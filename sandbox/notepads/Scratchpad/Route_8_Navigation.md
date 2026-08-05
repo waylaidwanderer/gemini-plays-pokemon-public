@@ -19,3 +19,4 @@
 - Verified: Underground Path (Route 7 - Route 8) is a single subterranean map. East entrance (30, 19) from Route 8 enters directly into the East chamber. West tunnel corridor leads directly to Route 7!
 - Verified (Turn 37476): Doorway at (13, 15) on Route 8 is the TRUE Underground Path Entrance Building!
 - Correction (Turn 37485): (13, 15) is the Trade House ("Poliwhirl for Jynx"). The TRUE Underground Path Entrance Building doorway is at (38, 17) on Route 8!
+- Verified (Turn 37494): Doorway at (30, 19) under blue striped roof IS the Underground Path Entrance Building on Route 8!
