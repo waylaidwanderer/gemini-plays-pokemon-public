@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 37823)
-- Location: Route 8 (25, 6)
-- Active Protocol: Up 4 through gap to Row 2 Topmost Highway at (25, 2) -> Left 25 along Row 2 to (0, 2) -> Down 6 to West Entrance at (0, 8) -> Warp into Underground Path Entrance Building -> Celadon City!
+## CURRENT STATUS & DASHBOARD (Turn 37825)
+- Location: Route 8 (25, 2) Row 2 Topmost Highway
+- Active Protocol: Down 1 to Row 3 at (25, 3) -> Left 25 along Row 3 to (0, 3) -> Down 5 to West Entrance at (0, 8) -> Warp into Underground Path Entrance Building -> Celadon City!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
