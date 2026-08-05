@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 38881)
-- Location: Route 9 (46, 14)
-- Active Protocol: Walking East along Row 14 Lower Basin grass highway from (46, 14) directly to Route 10 Entrance at (59, 8)!
+## CURRENT STATUS & DASHBOARD (Turn 38885)
+- Location: Route 9 (53, 14)
+- Active Protocol: Testing Up step onto (53, 13) to check if Col 53 pavement corridor is accessible from Row 14!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
