@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 38923)
-- Location: Route 9 (41, 12)
-- Active Protocol: Walking Left 12 steps along Row 12 grass from (41, 12) to (29, 12) toward Col 25 ascent gap!
+## CURRENT STATUS & DASHBOARD (Turn 38930)
+- Location: Route 9 (25, 4)
+- Active Protocol: Reached Row 4 Northern Grass at (25, 4). Walking Up 2 to (25, 2) to bypass Col 26 mountain wall via Row 2 slope at (26, 2)!
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
