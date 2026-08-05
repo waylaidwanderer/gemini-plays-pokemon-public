@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 37534)
-- Location: Route 8 (9, 9) -> Navigating Col 16 Southbound Highway to (16, 19)
-- Active Protocol: Right 7 to (16, 9) -> Down 10 to (16, 19) -> Down 7 to (16, 26) -> Right past Col 35 barrier to Eastern Sector.
+## CURRENT STATUS & DASHBOARD (Turn 37536)
+- Location: Route 8 (16, 9) -> Reversing Left to Col 9 to descend to Row 16 Lower Highway
+- Active Protocol: Left 7 to (9, 9) -> Down 7 to Row 16 (9, 16) -> East along Row 16 Lower Highway to (26, 16) -> East to Eastern Sector.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
