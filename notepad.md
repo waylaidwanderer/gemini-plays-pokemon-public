@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 37767)
-- Location: Route 8 (13, 15)
-- Active Protocol: Walk Left 13 steps along Row 15 pavement to Col 0 West Exit at (0, 15) -> Enter Saffron Gatehouse / Celadon City!
+## CURRENT STATUS & DASHBOARD (Turn 37801)
+- Location: Route 8 (40, 14)
+- Active Protocol: Walk Right 12 steps along Row 14 green grass to Col 52 at (52, 14) -> Probe Col 52/53 southbound passage to Row 20 pavement.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
