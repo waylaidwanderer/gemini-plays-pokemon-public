@@ -1,7 +1,7 @@
 <h1><code>Main</code></h1>
 
 ## CURRENT STATUS & DASHBOARD (Turn 38251)
-- Location: Cerulean City (3, 1) -> Retracing West to Col 0, then South toward Row 19 Highway
+- Location: Cerulean City (0, 1) -> Heading Down Col 0 to (0, 5)
 - Active Protocol: Walk Down 4 to (0, 12) -> Walk East along Row 12 to (30, 12) -> Enter Burglarized House at (30, 11) -> Exit back wall -> Route 9 -> Route 10 -> Rock Tunnel -> Lavender Town -> Route 8 -> Underground Path -> Celadon City!
 
 ## KEY ITEMS & INVENTORY
