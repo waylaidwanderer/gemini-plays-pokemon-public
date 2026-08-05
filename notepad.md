@@ -1011,9 +1011,9 @@ To transition from the northwestern ground level to the southwestern exit of Are
 
 ## Run Statistics (Current Run)
 - **Start Turn:** 21902 (Fresh run, paid ¥500, received 30 Safari Balls, 500 step budget)
-- **Current Turn:** 21954 (52 turns elapsed)
-- **Estimated Steps Taken:** 113 steps
-- **Estimated Remaining Steps:** 387 steps
+- **Current Turn:** 21991 (89 turns elapsed)
+- **Estimated Steps Taken:** 157 steps
+- **Estimated Remaining Steps:** 343 steps
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
@@ -1060,17 +1060,19 @@ To transition from the northwestern ground level to the southwestern exit of Are
 4. Walk East 1 step to enter Area 1 (East) at (0, 22).
 Total steps for Part 1: 15 steps.
 
-## Part 2: Safari Zone Area 1 (East) (HYPOTHESIS - UNVERIFIED)
-*Note: The walkability and continuity of the northern ground-level corridor from column 12 to column 0 is an unverified hypothesis and must be tested.*
+## Part 2: Safari Zone Area 1 (East) (VERIFIED ROUTE)
+*Note: The ground-level corridor is blocked by a south-facing impassable one-way ledge on row 23 and Rhydon statues, requiring plateau traversal.*
 1. Enter at (0, 22).
 2. Walk East 12 steps to (12, 22).
 3. Walk Up 2 steps to climb the western plateau stairs:
    - Up to (12, 21) (staircase)
    - Up to (12, 20) (plateau)
-4. Walk North 9 steps to (12, 11) (or until the northern edge is reached - HYPOTHESIS).
-5. Walk Down 1 step to descend the northern stairs to row 10 (ground - HYPOTHESIS).
-6. From row 10 (ground), walk West to column 0 to transition to Area 2 (North) at (0, 5) (HYPOTHESIS).
-Total steps for Part 2: ~35-40 steps.
+4. Walk East and North along the plateau to the eastern staircase at (24, 14).
+5. Walk Down 1 step to descend the eastern staircase:
+   - Down to (24, 15) (staircase)
+   - Down to (24, 16) (ground on east side of plateau)
+6. From (24, 16), walk South to row 24 (24, 24).
+7. Walk East to column 29 (the far eastern edge), then North along the far eastern ground corridor (columns 28-29) to reach the north edge of the map, and then walk West to transition to Area 2 (North) at (0, 5).
 
 ## Part 3: Safari Zone Area 2 (North)
 1. Enter Area 2. We need to reach the southern ground corridor to go to Area 3 (West).
