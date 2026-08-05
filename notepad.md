@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 38041)
-- Location: Route 8 Underground Path Entrance Building (2, 13)
-- Active Protocol: Execute Python script to systematically probe every open tile and locate the exact stairwell entrance.
+## CURRENT STATUS & DASHBOARD (Turn 38071)
+- Location: Route 8 overworld (30, 20)
+- Active Protocol: Probe the Underground Path Entrance Building at (30, 19) or Route 8 overworld to locate the stairwell warp into the Underground Path long horizontal tunnel to Route 7.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
