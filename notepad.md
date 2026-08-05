@@ -587,6 +587,8 @@
 - EMPIRICAL PROBE RESULT (Turn 38549): Tile (20, 9) is a solid south-facing ledge wall blocking Northbound movement from (20, 10).
 - EMPIRICAL PROBE RESULT (Turn 38562): Tile (46, 13) is a solid south-facing ledge wall blocking Northbound movement from (46, 14).
 - EMPIRICAL PROBE RESULT (Turn 38571): Tile (42, 8) is a solid rock wall blocking Eastbound movement from (41, 8).
+- Verified Top Highway Ascent Passage: Columns 32 & 33 at (32, 6) / (33, 6) connect UP through (32, 5) / (33, 5) green grass directly to Row 3 Top Highway at (32, 3) / (33, 3)!
+- Route 10 Entrance Route: From (32, 3) Row 3 Top Highway, walk East along Row 3 / Row 4 green grass across Columns 32-59 directly to Route 10 Entrance at (59, 8)!
 
 <hr>
 
