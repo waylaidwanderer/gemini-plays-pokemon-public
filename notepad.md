@@ -671,6 +671,9 @@
 - Vertical Wall Barrier at Cols 18-19: Cols 18-19 across Rows 14-20 are solid rock walls blocking Westbound movement from Col 20.
 - Column 38 (x=38) across Rows 13-22 is a solid rock wall blocking Eastbound movement from Col 37.
 - Verified Collision Barrier (Turn 35398): Tile (37, 14) is a solid rock wall blocking Southbound movement on Column 37.
+### Verified 1F Master Solution to B1F Ladder (37, 3) (Turn 39113)
+- Column 32/33 (x=32..33, y=0..8) is a solid rock wall separating West Sector (Cols 0-31) from East Sector (Cols 34-37).
+- Master Route: From (31, 4), walk West to Col 11 (11, 4) -> Down Col 11 to Row 13 Highway (11, 13) -> East along Row 13 Highway across Cols 11-37 to (37, 13) -> North along Col 37 to B1F Ladder at (37, 3)!
 
 <hr>
 
