@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 37540)
-- Location: Underground Path Entrance Building (7, 5) -> Step to (5, 4) next to stairs
-- Active Protocol: Left 2 to (5, 5) -> Up 1 to (5, 4) -> Press A to speak with NPC at (5, 3) / step into (6, 3) stairs.
+## CURRENT STATUS & DASHBOARD (Turn 37541)
+- Location: Route 8 Badge House (5, 4) -> Taking North doorway at (2, 0)
+- Active Protocol: B to close Badge Man dialogue -> Walk Left 3 to (2, 4) -> Walk Up 4 along Col 2 into North door at (2, 0) -> Inspect destination map.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
