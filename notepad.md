@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 37411)
+## CURRENT STATUS & DASHBOARD (Turn 37412)
 - Location: Underground Path (3, 3)
-- Active Protocol: Standing at (3, 3) in Upper Sector -> Testing NPC interaction at (4, 2) / (2, 3) or checking Column 0 corridor at (0, 3) to reach (0, 0) warp mat to Route 7.
+- Active Protocol: Standing at (3, 3) in Upper Sector -> Walk Right 2 to (5, 3), Up 1 to (5, 2), and probe Left into (4, 2) NPC.
 
 ## KEY ITEMS & INVENTORY
 - Badges: Cascade Badge, Thunder Badge
