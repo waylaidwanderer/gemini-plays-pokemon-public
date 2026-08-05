@@ -33,11 +33,8 @@
 - Rows 14-15 Wall Barrier (Cols 18-21): Rock wall blocks y=14..15 at x=18..21.
 - Row 16 Bypass Cavern: Row 16 (y=16) across Cols 13-21 is OPEN floor connecting West/Central Sector to Col 21 Northbound corridor.
 - Column 21 Northbound Highway: Column 21 (x=21) connects Row 16 (21, 16) North through Row 10 (21, 10) to Row 3 Top Highway at (21, 3).
-- Master Shortest Route from (17, 14) to Route 10 Exit (15, 3):
-  1. Down 2 steps to Row 16 Bypass at (17, 16).
-  2. East 4 steps along Row 16 to Column 21 at (21, 16).
-  3. North 10 steps along Column 21 to Row 3 Top Highway at (21, 3).
-  4. West 6 steps along Row 3 Top Highway to Route 10 Exit at (15, 3)!
+- Master Exit Route from East Cavern (37, 3) to Route 10 Exit (15, 3):
+  1. From Ladder arrival at (37, 3) in East Cavern: Walk West 22 steps along Row 3 Top Highway directly to Route 10 Exit at (15, 3)!
 - VERIFIED (Turn 39458): Cols 6-7 rock wall spans Rows 14-20 on 1F. Row 12/13 (x=1..21) is the open East-West highway connecting West Sector to Col 21 Highway at (21, 13)!
 - VERIFIED (Turn 39465): Cols 18-19 rock wall spans Rows 14-20. Row 13 (x=17..21) is open East-West connecting Col 17 directly to Col 21 Highway at (21, 13)!
 - VERIFIED (Turn 39468): Column 15 (x=15) is the open Northbound Exit Highway connecting Row 9 at (15, 9) directly North to Route 10 South Exit at (15, 3)!
