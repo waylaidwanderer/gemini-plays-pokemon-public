@@ -292,8 +292,8 @@
 - Verified Collision Barrier (Turn 35248): Row 28 at (14, 28) is a solid rock wall blocking Northbound movement on Column 14. Open bypass to Row 16 Highway is via Row 30 -> Col 8 / Col 4 Western Cavern!
 - Verified Collision Barrier (Turn 35279): Tile (26, 30) is a solid rock wall separating (25, 30) and (27, 30) on Row 30. Sector Bypass is via Row 31 at (26, 31)!
 - Verified Collision Barrier (Turn 35359): Tile (27, 25) is a solid rock wall blocking Westbound movement from (28, 25).
-- VERIFIED (Turn 39397): Rows 21-23 across Cols 0-13 form solid rock wall. Column 14 Highway at x=14 is the open Northbound highway connecting Western Cavern (14, 24-27) directly North through Row 16/12 to Row 4 Exit Chamber at (14, 4)!
-- VERIFIED (Turn 39408): Tile (30, 16) is a solid rock wall blocking Eastbound movement on Row 16. Row 20 Highway (25-34, 20) is open East-West connecting Col 25 to Col 33 North Ascent Bypass!
+- CORRECTION (Turn 39580): Rows 21-23 across Cols 10-19 form a solid rock wall blocking Northbound movement on Column 14. Western Cavern (14, 27) connects EAST along Row 27 Passage across Cols 15-33 directly to Column 33 Highway at (33, 27)!
+- Column 33 Highway (x=33) runs continuously North from Row 27 at (33, 27) up to Row 16 Highway at (33, 16)!
 - VERIFIED (Turn 39411): Row 16 at (29, 16) is a dead end bounded North by (29, 15) rock, East by (30, 16) rock, South by (29, 17) rock. West exit is Row 16 (Cols 25-28) -> South through Cols 25-28 to Row 20 Highway!
 ### Complete Verified Master Route to Exit Ladder (27, 3) (Turn 39425)
 1. From (14, 24): Walk East 12 steps along Row 24 to Col 26 at (26, 24) -> South 3 steps to Row 27 Passage at (26, 27).
