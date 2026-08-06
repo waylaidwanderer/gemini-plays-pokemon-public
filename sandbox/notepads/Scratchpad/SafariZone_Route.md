@@ -27,9 +27,13 @@ This is the verified, 100% accurate, most step-efficient route to reach Area 3 (
 - Walk South 2 steps to climb down the stairs at (17, 7) to ground level: lands at (17, 8). (2 steps)
 - Walk East to Column 20 on Row 8: (20, 8). (3 steps)
 - Walk North to Row 3: (20, 3). (5 steps)
-- Walk West along Row 3 to Column 0: (0, 3). (20 steps)
-- Walk South to Row 5: (0, 5) to transition to Area 2. (2 steps)
-- Total steps: 89 steps (Cumulative: 118 steps).
+- Walk West along Row 3 to Column 6: (6, 3). (14 steps)
+- Walk Up to Row 2: (6, 2). (1 step)
+- Walk West along Row 2 to Column 1: (1, 2). (5 steps)
+- Walk Right to Column 2 on Row 2: (2, 2). (1 step)
+- Walk Down to Row 5: (2, 5). (3 steps)
+- Walk West to Column 0 on Row 5: (0, 5) to transition to Area 2. (2 steps)
+- Total steps: 101 steps (Cumulative: 130 steps).
 
 ## Part 3: Safari Zone Area 2 (North)
 - Enter at (39, 31) on the southern ground level.
@@ -43,5 +47,5 @@ This is the verified, 100% accurate, most step-efficient route to reach Area 3 (
 - Walk West to Column 2: (2, 9). (14 steps)
 - Walk South to Row 31: (2, 31). (22 steps)
 - Walk West to Column 0: (0, 31) to transition to Area 3 (West). (2 steps)
-- Total steps: 94 steps (Cumulative: 212 steps).
-- Steps remaining upon entering Area 3: **293 steps**.
+- Total steps: 94 steps (Cumulative: 224 steps).
+- Steps remaining upon entering Area 3: **281 steps**.
