@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41504)
-- Location: Saffron City (5, 14) [Outdoors]
-- Primary Goal: Teleport to Lavender Town Pokemon Center -> Route 8 West -> Saffron East Gatehouse -> Central Saffron City.
-- Active Navigation Plan: Open Start menu -> POKEMON -> Select LUNA -> Select TELEPORT to fast travel to Lavender Town Pokemon Center.
+## CURRENT STATUS & DASHBOARD (Turn 41510)
+- Location: Celadon City (41, 10) [Outside Celadon Pokemon Center door]
+- Primary Goal: Heal party at Celadon Pokemon Center -> Route 7 -> Underground Path to Route 8 -> Saffron East Gatehouse -> Central Saffron City.
+- Active Navigation Plan: Press Up 1 to enter Celadon Pokemon Center at (41, 9), heal party with Nurse Joy, then head East to Route 7.
 
 <hr>
 
