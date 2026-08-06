@@ -907,10 +907,10 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 # Safari Zone - Overworld Layout & Navigation Guide
 
 ## Run Statistics (Current Run)
-- **Start Turn:** 23161 (Fresh run, paid ¥500, received 30 Safari Balls, 500 step budget)
-- **Current Turn:** 23271
-- **Steps Taken:** 228 steps
-- **Remaining Steps:** 272 steps
+- **Start Turn:** 23448 (Fresh run, paid ¥500, received 30 Safari Balls, 500 step budget)
+- **Current Turn:** 23702
+- **Steps Taken:** 307 steps
+- **Remaining Steps:** 193 steps
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
