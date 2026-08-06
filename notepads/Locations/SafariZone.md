@@ -2,12 +2,14 @@
 
 ## Run Statistics (Current Run)
 - **Start Turn:** 23448 (Fresh run, paid ¥500, received 30 Safari Balls, 500 step budget)
-- **Current Turn:** 23621
-- **Steps Taken:** 206 steps
-- **Remaining Steps:** 294 steps
+- **Current Turn:** 23641
+- **Steps Taken:** 222 steps
+- **Remaining Steps:** 278 steps
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
+- **Exit to Safari Zone Center (West):** Located at `(0, 23)`.
+  - **Connection Constraint:** The transition to the west is ONLY active on Row 23 Column 0 `(0, 23)`. Walking Left from Row 24 Column 0 `(0, 24)` or Row 21 Column 0 `(0, 21)` will result in a collision and does NOT trigger a transition.
 
 ### Geographical Constraints & Closed Pockets
 - **Southeastern Ground-Level Pocket:** The area around columns 24-28, rows 16-24 is a **completely closed pocket** with no ground-level exit.
