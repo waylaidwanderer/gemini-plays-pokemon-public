@@ -754,10 +754,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41372)
-- Location: Saffron West Gatehouse 1F (4, 4)
+## CURRENT STATUS & DASHBOARD (Turn 41377)
+- Location: Saffron City (5, 14) [Party Menu]
 - Primary Goal: Reach Central Saffron City via Saffron East Gatehouse
-- Active Navigation Plan: Walk Left 1 to (3, 4), Left 1 to probe counter/guard at (2, 4), Left 1 to (1, 4), Left 1 to (0, 4) to exit West to Route 7.
+- Active Navigation Plan: Inspect party moves for Teleport/Dig/Fly to exit Saffron West sector.
 
 <hr>
 
