@@ -754,10 +754,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 40836)
-- Location: Celadon City Courtyard (1, 3)
+## CURRENT STATUS & DASHBOARD (Turn 40838)
+- Location: Celadon City Courtyard (2, 3)
 - Primary Goal: Give Fresh Water to Saffron Guards to Open Saffron City
-- Active Navigation Plan: Standing at (1, 3) in Celadon City Courtyard facing UP. Testing Right to (2, 3) to step off side door landing tile onto courtyard pavement.
+- Active Navigation Plan: Successfully stepped off side door landing tile onto courtyard pavement at (2, 3). Walking Down 7 along Col 2 to Row 10 Main Street Highway at (2, 10), then East across Celadon City to Route 7 (49, 11).
 
 <hr>
 
