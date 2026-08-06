@@ -71,30 +71,25 @@
 
 - **Escape Rope:** Obtained on Turn 13977, consumed on Turn 16964.
 
-## Verified Inventory
-
-- **Safari Balls:** 30 (temporary stack) (as of Turn 20199)
-
+## Verified Inventory (18/20 slots used - 2 empty slots)
 - **Town Map:** 1
-- **TM01 (Mega Punch):** 1
 - **Moon Stone:** 2 (1 stack)
 - **Helix Fossil:** 1
 - **S.S. Ticket:** 1
-- **TM11 (BubbleBeam):** 1
 - **Ether:** 1
 - **TM44 (Rest):** 1
 - **Max Ether:** 1
 - **HM01 (Cut):** 1
 - **TM24 (Thunderbolt):** 1
-- **TM30 (Teleport):** 1
 - **TM48 (Rock Slide):** 1
-- **TM49 (Tri Attack):** 1
 - **Super Potion:** 2 (1 stack)
-- **TM06 (Toxic):** 1
 - **Lift Key:** 1
 - **Silph Scope:** 1
 - **Poké Flute:** 1
 - **Super Rod:** 1
+- **TM06 (Toxic):** 1
+- **Max Potion:** 1
+- **Full Restore:** 1
 
 ## Major Exploration Phases and Timestamps
 
