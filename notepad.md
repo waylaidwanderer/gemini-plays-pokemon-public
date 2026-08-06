@@ -964,22 +964,12 @@ To transition from the northwestern ground level to the southwestern exit of Are
 
 ## Run Statistics (Current Run)
 - **Start Turn:** 23448 (Fresh run, paid ¥500, received 30 Safari Balls, 500 step budget)
-- **Current Turn:** 23660
-- **Steps Taken:** 246 steps
-- **Remaining Steps:** 254 steps
+- **Current Turn:** 23702
+- **Steps Taken:** 307 steps
+- **Remaining Steps:** 193 steps
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
-- **Exit to Safari Zone Center (West):** Located at `(0, 23)`.
-  - **Connection Constraint:** The transition to the west is ONLY active on Row 23 Column 0 `(0, 23)`. Walking Left from Row 24 Column 0 `(0, 24)` or Row 21 Column 0 `(0, 21)` will result in a collision and does NOT trigger a transition.
-
-### Geographical Constraints & Closed Pockets
-- **Southeastern Ground-Level Pocket:** The area around columns 24-28, rows 16-24 is a **completely closed pocket** with no ground-level exit.
-  - **Boundaries:** Bounded by impassable sand cliffs of the plateau on the north and west, a solid row of Rhydon statues and trees at Row 25 on the south, and a solid tree wall at Column 29 on the east.
-  - **Navigation Note:** Entering this pocket requires backtracking up the staircase at `(24, 15)` to return to the plateau. Never go down this staircase if trying to reach Area 2 (North).
-- **Western Ground-Level Closed Pocket:** The horizontal corridor from Column 7 to Column 15 on Row 22 is an impassable, closed dead-end pocket.
-  - **Boundaries:** Bounded by the plateau's cliff wall on Row 21 to the north, a solid log fence at Row 23 (columns 5-15) to the south, a solid tree/statue barrier at Column 6 to the west, and a pine tree at `(16, 22)` to the east.
-  - **Navigation Note:** If you descend the western staircase at `(12, 21)`, you enter this pocket and must immediately backtrack up the staircase to escape.
 
 ## Area 2 (North) Map & Collision Structures
 
@@ -1006,9 +996,9 @@ To transition from the northwestern ground level to the southwestern exit of Are
 
 1. **Circumvent Rest House 2:** From column 19, walk Up to row 9 (open grass), then walk East to column 35 (bypassing the row 10 tree line).
 2. **Access the East Stairs:** Walk Down column 35 to row 13, then walk west and climb UP onto the plateau using the stairs at `(32, 13)` or `(33, 13)`.
-3. **Traverse the Plateau [UNVERIFIED HYPOTHESIS]:** Walk west along Row 14 on top of the plateau to Column 3 (approx. 31 steps), then walk south along Column 3 to Row 26. *Burden of Proof: This segment is an unverified hypothesis until we physically stand on it and traverse it.*
-4. **Reach Southern Ground Level (West Side):** Jump down the southern ledge of the plateau at `(3, 27)` to land on the western ground level.
-5. **Walk West to Area 3:** Walk south along Column 3 to Row 31, then walk Left along Row 31 to Column 0 to transition into **Area 3 (West)**. Note: Direct ground level traversal from East to West is blocked by a solid tree barrier at Column 17 on Rows 28-33, making plateau traversal mandatory.
+3. **Traverse the Plateau:** Walk south and west along the plateau structure to reach the southern cliffside.
+4. **Reach Southern Ground Level:** Walk down the stairs or jump down the south-facing ledges at the south-eastern/south-middle part of the plateau to land on the southern ground level (rows 25-35).
+5. **Walk West to Area 3:** Follow the open southern grass corridor (around row 30) all the way west to the bottom-left corner of Area 2 (North) (columns 0-4, rows 30-35) to transition to **Area 3 (West)**.
 
 <hr>
 
