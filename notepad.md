@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41181)
-- Location: Route 7 (49, 11)
+## CURRENT STATUS & DASHBOARD (Turn 41183)
+- Location: Saffron Gatehouse (0, 3)
 - Primary Goal: Give Fresh Water to Saffron Gatehouse Guard
-- Active Navigation Plan: Walk Right 1 to (50, 11), Up 1 to (50, 10), and Right along grey pavement corridor to enter Saffron Gatehouse.
+- Active Navigation Plan: Walk Right 2 to (2, 3), press A to talk to Guard, give Fresh Water, and enter Saffron City.
 
 <hr>
 
