@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 40745)
-- Location: Celadon Department Store 1F (1, 2)
+## CURRENT STATUS & DASHBOARD (Turn 40748)
+- Location: Celadon City Courtyard (1, 3)
 - Primary Goal: Give Fresh Water to Saffron Guards to Open Saffron City
-- Active Navigation Plan: Inside 1F at (1, 2). Walking Down 3 to Row 5 (1, 5), Right 11 to (12, 5) to systematically probe candidate exit columns (12-17) along Row 7/8 for Main Front Entrance.
+- Active Navigation Plan: Exited Department Store into Celadon City Courtyard at (1, 3). Walking Left to (0, 3) pavement and Up to (0, 1) North Celadon Highway.
 
 <hr>
 
@@ -754,10 +754,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 40748)
-- Location: Celadon City Courtyard (1, 3)
+## CURRENT STATUS & DASHBOARD (Turn 40749)
+- Location: Celadon City North Highway (0, 1)
 - Primary Goal: Give Fresh Water to Saffron Guards to Open Saffron City
-- Active Navigation Plan: Exited Department Store into Celadon City Courtyard at (1, 3). Walking Left to (0, 3) pavement and Up to (0, 1) North Celadon Highway.
+- Active Navigation Plan: Standing at (0, 1) on North Celadon Highway. Walking East across Celadon City pavement highway toward Route 7 Entrance at (49, 11).
 
 <hr>
 
@@ -790,6 +790,7 @@
 - Department Store 1F Geography: Side Door Warp inside 1F is at (1, 1) (connects to Celadon City Courtyard 1, 3). Reception counter is at x=5..9, y=6. Row 5 (y=5) is open corridor connecting West (x=1) to East (x=19).
 - Master Exit Highway: Row 2 (y=2) is open yellow floor across Cols 1-14 connecting Col 10 (10, 2) directly West to Side Door Warp at (1, 1).
 - Empirical Observation: Tile (9, 7) is a solid reception counter corner wall.
+- West Courtyard Highway Exit: Row 1 & Row 2 pavement at (0, 1) / (0, 2) connects directly East across Celadon City North Highway to East Celadon City and Route 7 (49, 11).
 
 <hr>
 
