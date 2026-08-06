@@ -1011,9 +1011,9 @@ This is the verified, 100% accurate, most step-efficient route to reach Area 3 (
 
 ## Run Statistics (Current Run)
 - **Start Turn:** 22640 (Fresh run, paid ¥500, received 30 Safari Balls, 500 step budget)
-- **Current Turn:** 22734 (94 turns elapsed)
-- **Steps Taken:** 181 steps
-- **Remaining Steps:** 319 steps
+- **Current Turn:** 22738 (98 turns elapsed)
+- **Steps Taken:** 190 steps
+- **Remaining Steps:** 310 steps
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
