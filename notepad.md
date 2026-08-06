@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41189)
-- Location: Saffron Gatehouse (3, 2)
+## CURRENT STATUS & DASHBOARD (Turn 41191)
+- Location: Saffron City (8, 2)
 - Primary Goal: Explore Saffron City and Silph Co
-- Active Navigation Plan: Walk Right 4 through (7, 2) exit warp into Saffron City.
+- Active Navigation Plan: Walk East along Row 2 into Central Saffron City to locate Pokemon Center and Silph Co.
 
 <hr>
 
@@ -814,6 +814,21 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 <hr>
 
 <h1><code>Locations/Saffron_City.md</code></h1>
+
+## Saffron City Topology & Points of Interest
+
+### West Gatehouse Connection
+- West Gatehouse Entrance/Exit: (7, 2) / (7, 3) connects West to Route 7 Gatehouse. Unlocked by giving Fresh Water to Guard on turn 41188.
+- Gatehouse Exit Arrival: Player lands at Saffron City (8, 2) when exiting West Gatehouse.
+
+### Points of Interest (Under Active Exploration)
+- Saffron Pokemon Center: Roof visible at (8, 6) / (9, 6).
+- Silph Co Headquarters: Located in Central Saffron City.
+- Saffron Gym / Fighting Dojo: Located in North Saffron City.
+
+<hr>
+
+<h1><code>Locations/Saffron_City</code></h1>
 
 ## Saffron City Topology & Points of Interest
 
