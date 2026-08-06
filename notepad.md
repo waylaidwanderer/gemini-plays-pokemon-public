@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 40771)
-- Location: Celadon City Courtyard (0, 3)
+## CURRENT STATUS & DASHBOARD (Turn 40772)
+- Location: Celadon Department Store 1F (1, 2)
 - Primary Goal: Give Fresh Water to Saffron Guards to Open Saffron City
-- Active Navigation Plan: Re-entering 1F at (1, 1) via side door. Walking across 1F to front center lobby (Cols 6-8, Row 7/8) to test Main Front Entrance Exit Warp.
+- Active Navigation Plan: Inside 1F at (1, 2). Walking Down 3 to Row 5 (1, 5), Right 9 to (10, 5), and Down 2 to (10, 7) to reach front center lobby (Cols 6-8, Row 7/8).
 
 <hr>
 
@@ -754,10 +754,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 40772)
+## CURRENT STATUS & DASHBOARD (Turn 40773)
 - Location: Celadon Department Store 1F (1, 2)
 - Primary Goal: Give Fresh Water to Saffron Guards to Open Saffron City
-- Active Navigation Plan: Inside 1F at (1, 2). Walking Down 3 to Row 5 (1, 5), Right 9 to (10, 5), and Down 2 to (10, 7) to reach front center lobby (Cols 6-8, Row 7/8).
+- Active Navigation Plan: Standing at (1, 2) facing Down in 1F. Walking Down 3 steps to (1, 5) on Row 5 corridor.
 
 <hr>
 
