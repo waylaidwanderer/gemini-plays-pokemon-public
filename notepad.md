@@ -964,9 +964,9 @@ To transition from the northwestern ground level to the southwestern exit of Are
 
 ## Run Statistics (Current Run)
 - **Start Turn:** 22902 (Fresh run, paid ¥500, received 30 Safari Balls, 500 step budget)
-- **Current Turn:** 23099 (408 steps taken)
-- **Steps Taken:** 408 steps
-- **Remaining Steps:** 92 steps
+- **Current Turn:** 23111 (433 steps taken)
+- **Steps Taken:** 433 steps
+- **Remaining Steps:** 67 steps
 
 ## Area 0 (Center) Map & Collision Structures
 - **Counter Barrier (Row 25):** Solid counters block columns 2-13.
