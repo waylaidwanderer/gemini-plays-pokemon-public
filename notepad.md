@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 40151)
-- Location: Rock Tunnel B1F (25, 27)
+## CURRENT STATUS & DASHBOARD (Turn 40171)
+- Location: Rock Tunnel B1F (33, 16)
 - Primary Goal: Exit Rock Tunnel B1F/1F -> Route 10 South -> Lavender Town -> Route 8 West -> Underground Path -> Celadon City.
-- Active Navigation Route: From (25, 27): Up 11 steps along Col 25 to Row 16 Highway at (25, 16) -> Right 10 steps along Row 16 to Col 35 Upper Northern Passage at (35, 16) -> Up 12 steps along Col 35 to Row 4 Chamber at (35, 4) -> Left 8 to Col 27 at (27, 4) -> Up 1 step into Main Exit Ladder at (27, 3)!
+- Active Navigation Plan: Re-evaluate B1F topography to find passage to Upper Exit Cavern / Ladder at (27, 3).
 
 <hr>
 
@@ -756,13 +756,8 @@
 - CORRECTION (Turn 39580): Rows 21-23 across Cols 10-19 form a solid rock wall blocking Northbound movement on Column 14. Western Cavern (14, 27) connects EAST along Row 27 Passage across Cols 15-33 directly to Column 33 Highway at (33, 27)!
 - Column 33 Highway (x=33) runs continuously North from Row 27 at (33, 27) up to Row 16 Highway at (33, 16)!
 - VERIFIED (Turn 39411): Row 16 at (29, 16) is a dead end bounded North by (29, 15) rock, East by (30, 16) rock, South by (29, 17) rock. West exit is Row 16 (Cols 25-28) -> South through Cols 25-28 to Row 20 Highway!
-### Complete Master Route to Exit Ladder (27, 3) (Turn 40149)
-1. From (17, 24): Walk East 8 steps along Row 24 to Col 25 at (25, 24).
-2. Walk North 8 steps along Col 25 through Rows 23-17 to Row 16 Highway at (25, 16).
-3. Walk East 10 steps along Row 16 Highway to Col 35 Upper Northern Passage at (35, 16).
-4. Walk North 12 steps along Col 35 Upper Northern Passage to Row 4 Exit Chamber at (35, 4).
-5. Walk Left 8 steps along Row 4 Exit Chamber to Column 27 at (27, 4).
-6. Step Up 1 step into Main Exit Ladder at (27, 3)!
+### Complete Master Route to Exit Ladder (27, 3)
+- Under Investigation (Re-evaluating B1F passages to Upper Exit Cavern / Ladder at 27, 3).
 - VERIFIED (Turn 39428): Vertical rock wall at Cols 30-31 spans Rows 16-27. Row 28 (x=28..33) is the open East-West Sector Bypass Corridor connecting West Sector to East Sector at (33, 28)!
 ### Verified East Cavern Enclosure & Sector Bypass (Turn 39995)
 - East Cavern (x=32..37, y=16..28) is a closed cavern bounded North by y=13..15 rock wall, West by x=30..31 vertical rock wall (y=16..27), East by x=38 rock wall, South by y=29 rock wall.
