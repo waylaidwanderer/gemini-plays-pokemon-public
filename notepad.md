@@ -985,9 +985,9 @@ Total steps for Part 1: 15 steps.
 
 ## Run Statistics (Current Run)
 - **Start Turn:** 22375 (Fresh run, paid ¥500, received 30 Safari Balls, 500 step budget)
-- **Current Turn:** 22612 (239 turns elapsed)
-- **Steps Taken:** 440 steps
-- **Remaining Steps:** 60 steps
+- **Current Turn:** 22613 (240 turns elapsed)
+- **Steps Taken:** 444 steps
+- **Remaining Steps:** 56 steps
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
