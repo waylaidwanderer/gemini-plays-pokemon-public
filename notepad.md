@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 40441)
-- Location: Route 7 (8, 2)
+## CURRENT STATUS & DASHBOARD (Turn 40471)
+- Location: Route 7 (5, 5)
 - Primary Goal: Reach Celadon City
-- Active Navigation Plan: Player at (8, 2) on Route 7 East Sector. Walking Down 6 to Row 8 pavement at (8, 8), then Left 8 steps through Col 7 gap at (7, 8) into West Sector highway at (2, 8) -> (0, 8) Celadon City.
+- Active Navigation Plan: Player at (5, 5) on Route 7 Upper West Sector. Walking Up 2 steps to Row 3 pavement at (5, 3), then Left 6 steps through (1, 3) to (0, 3) into Celadon City.
 
 <hr>
 
