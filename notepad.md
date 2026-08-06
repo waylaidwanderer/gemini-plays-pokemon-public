@@ -756,8 +756,8 @@
 - CORRECTION (Turn 39580): Rows 21-23 across Cols 10-19 form a solid rock wall blocking Northbound movement on Column 14. Western Cavern (14, 27) connects EAST along Row 27 Passage across Cols 15-33 directly to Column 33 Highway at (33, 27)!
 - Column 33 Highway (x=33) runs continuously North from Row 27 at (33, 27) up to Row 16 Highway at (33, 16)!
 - VERIFIED (Turn 39411): Row 16 at (29, 16) is a dead end bounded North by (29, 15) rock, East by (30, 16) rock, South by (29, 17) rock. West exit is Row 16 (Cols 25-28) -> South through Cols 25-28 to Row 20 Highway!
-### Complete Master Route to Exit Ladder (27, 3) (Turn 40145)
-1. From (19, 24): Walk East 6 steps along Row 24 to Col 25 at (25, 24).
+### Complete Master Route to Exit Ladder (27, 3) (Turn 40149)
+1. From (17, 24): Walk East 8 steps along Row 24 to Col 25 at (25, 24).
 2. Walk North 8 steps along Col 25 through Rows 23-17 to Row 16 Highway at (25, 16).
 3. Walk East 10 steps along Row 16 Highway to Col 35 Upper Northern Passage at (35, 16).
 4. Walk North 12 steps along Col 35 Upper Northern Passage to Row 4 Exit Chamber at (35, 4).
