@@ -758,9 +758,9 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 40241)
-- Location: Lavender Town (2, 62)
+## CURRENT STATUS & DASHBOARD (Turn 40253)
+- Location: Lavender Town (8, 0)
 - Primary Goal: Reach Celadon City
-- Active Navigation Plan: Walk South into Lavender Town -> Route 8 West at (0, 9) -> Underground Path -> Celadon City.
+- Active Navigation Plan: Walk South through Lavender Town -> Route 8 West at (0, 9) -> Underground Path -> Celadon City.
 
 <hr>
