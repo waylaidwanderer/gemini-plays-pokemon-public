@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 40786)
-- Location: Celadon Department Store 1F (18, 7)
+## CURRENT STATUS & DASHBOARD (Turn 40787)
+- Location: Celadon Department Store 1F (10, 2)
 - Primary Goal: Give Fresh Water to Saffron Guards to Open Saffron City
-- Active Navigation Plan: Standing at (18, 7) in 1F. Navigating via Row 2 Highway to (1, 1) side door warp to exit to Celadon City Courtyard at (1, 3).
+- Active Navigation Plan: Standing at (10, 2) on Row 2 Highway. Walking Left 9 to (1, 2), Up 1 to (1, 1) side door warp to exit to Celadon City Courtyard at (1, 3).
 
 <hr>
 
@@ -754,10 +754,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 40787)
-- Location: Celadon Department Store 1F (10, 2)
+## CURRENT STATUS & DASHBOARD (Turn 40788)
+- Location: Celadon City Courtyard (1, 3)
 - Primary Goal: Give Fresh Water to Saffron Guards to Open Saffron City
-- Active Navigation Plan: Standing at (10, 2) on Row 2 Highway. Walking Left 9 to (1, 2), Up 1 to (1, 1) side door warp to exit to Celadon City Courtyard at (1, 3).
+- Active Navigation Plan: Exited Department Store into Celadon City Courtyard at (1, 3). Walking Left to (0, 3) pavement and Up 2 to (0, 1) North Celadon Highway.
 
 <hr>
 
