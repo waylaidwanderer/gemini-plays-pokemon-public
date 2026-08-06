@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 40171)
-- Location: Rock Tunnel B1F (33, 16)
+## CURRENT STATUS & DASHBOARD (Turn 40201)
+- Location: Rock Tunnel B1F (5, 27)
 - Primary Goal: Exit Rock Tunnel B1F/1F -> Route 10 South -> Lavender Town -> Route 8 West -> Underground Path -> Celadon City.
-- Active Navigation Plan: Re-evaluate B1F topography to find passage to Upper Exit Cavern / Ladder at (27, 3).
+- Active Navigation Plan: Walk Up 23 steps along Column 5 from (5, 27) to Row 4 Chamber at (5, 4) -> East 22 steps to (27, 4) -> Up 1 step to Main Exit Ladder at (27, 3).
 
 <hr>
 
@@ -716,11 +716,6 @@
 - 1F Main Arrival Ladder: (33, 25) in East Sector.
 - Central Barrier (Cols 26-27): Solid rock wall from y=20 down to y=29 separating East and West sectors.
 - Sector Bypass Passage (Rows 30-31): Row 31 (Cols 26-27) is the verified open East-West pavement/grass corridor connecting West Sector to East Sector!
-- Master Route to Exit Ladder (27, 3):
-  1. From (33, 25) Arrival: Walk South down Col 29 to Row 30 at (29, 30).
-  2. Walk Left 15 steps along Row 30/31 passage into West Sector at (14, 30).
-  3. Walk Up through Col 14 to Row 26 -> East along Row 26 to Col 25 -> North along Col 25 to Row 16 Highway!
-  4. Walk East along Row 16 Highway to Col 33 -> North through North Ascent Bypass to Row 12 -> Upper Northern Passage to Row 4 Chamber -> Exit Ladder at (27, 3)!
 
 - Column 19 Southbound Passage: Column 19 is open through Rows 8-9 down to Row 11.
 
