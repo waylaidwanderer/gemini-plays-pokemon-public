@@ -306,7 +306,6 @@
 - Cols 8 & 9 (Rows 18-25) form a central tree barrier separating West Lavender (Cols 0-7) from East Lavender (Cols 10-13).
 - Row 26 (Cols 5-13) is open pavement/grass below the tree barrier, connecting West Lavender to East Lavender!
 - Column 13 (Rows 20-26) connects to Pokemon Center at (11..13, 18..19). Column 14 (x=14) is the open Northbound bypass corridor running from Row 20 to Row 9!
-- Route 8 Entrance at (0,9) path from (7,22): West to Col 5 -> South to Row 26 -> East along Row 26 to Col 13 -> North along Col 13 to Row 13 -> Up through (13,11) gravel gap to Row 9 -> West along Row 9 to (0,9).
 
 ### Verified Map Transitions & Topography (Turn 32102)
 - Route 10 South Two-Way Warp: Lavender Town (8, 17) / (8, 18) <-> Route 10 South (15, 3). Stepping UP into (8, 17) in Lavender Town warps player back to Route 10 South at (15, 3).
