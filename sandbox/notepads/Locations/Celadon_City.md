@@ -12,4 +12,4 @@
 - Department Store 5F Stairs: Stairs UP to Rooftop located at (12, 1), accessed from (12, 2).
 - Department Store 1F Geography: Side Door leads to isolated 4x3 lobby (Cols 0-3, Rows 1-3) bounded East by wall at Col 4. Exit mat at (2, 3) warps to Courtyard (1, 3). Main store floor is accessed via main entrance at (10, 13) / (16, 7).
 - Department Store 1F Front Door Exit: Located at (16, 7) (warps to Celadon City 10, 14). Courtyard (1, 3) is indoor map header where Teleport is disabled.
-- West Courtyard: Enclosed 4x3 dead-end alcove (Cols 0-3, Rows 1-3) serving the side door entrance. Tile (0, 4) is a solid boundary wall.
+- West Courtyard: Outdoor map at x=0..5, y=1..5 with yellow diamond pavement. Row 6 is open light brown pavement highway. Teleport works outdoors in West Courtyard!
