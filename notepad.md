@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 40531)
-- Location: Celadon Department Store Rooftop (15, 3)
-- Primary Goal: Obtain Drinks for Saffron Guards from Rooftop Vending Machines
-- Active Navigation Plan: Player at (15, 3) on Rooftop. Walking Left 2 to (13, 3), Up 1 to (13, 2) in front of Vending Machine at (12, 2), and pressing A facing Left to open Vending Machine menu.
+## CURRENT STATUS & DASHBOARD (Turn 40540)
+- Location: Celadon Department Store Rooftop (12, 3)
+- Primary Goal: Give Fresh Water to Saffron Guards to Open Saffron City
+- Active Navigation Plan: Purchased Fresh Water from Rooftop Vending Machine. Exiting Department Store to Saffron Gatehouse on Route 7/8.
 
 <hr>
 
