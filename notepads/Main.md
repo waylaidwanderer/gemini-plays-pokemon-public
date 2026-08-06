@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 40748)
-- Location: Celadon City Courtyard (1, 3)
+## CURRENT STATUS & DASHBOARD (Turn 40749)
+- Location: Celadon City North Highway (0, 1)
 - Primary Goal: Give Fresh Water to Saffron Guards to Open Saffron City
-- Active Navigation Plan: Exited Department Store into Celadon City Courtyard at (1, 3). Walking Left to (0, 3) pavement and Up to (0, 1) North Celadon Highway.
+- Active Navigation Plan: Standing at (0, 1) on North Celadon Highway. Walking East across Celadon City pavement highway toward Route 7 Entrance at (49, 11).
