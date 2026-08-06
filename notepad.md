@@ -1062,3 +1062,9 @@ To transition from the northwestern ground level to the southwestern exit of Are
 
 
 <hr>
+
+<h1><code>Scratchpad/SafariZone_Route.md</code></h1>
+
+
+
+<hr>
