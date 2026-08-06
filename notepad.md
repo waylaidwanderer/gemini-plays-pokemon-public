@@ -1002,10 +1002,10 @@ This is the verified, 100% accurate, most step-efficient route to reach Area 3 (
 # Safari Zone - Overworld Layout & Navigation Guide
 
 ## Run Statistics (Current Run)
-- **Start Turn:** 22375 (Fresh run, paid ¥500, received 30 Safari Balls, 500 step budget)
-- **Current Turn:** 22613 (240 turns elapsed)
-- **Steps Taken:** 444 steps
-- **Remaining Steps:** 56 steps
+- **Start Turn:** 22640 (Fresh run, paid ¥500, received 30 Safari Balls, 500 step budget)
+- **Current Turn:** 22640 (0 turns elapsed)
+- **Steps Taken:** 0 steps
+- **Remaining Steps:** 500 steps
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
