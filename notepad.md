@@ -1007,9 +1007,9 @@ To transition from the northwestern ground level to the southwestern exit of Are
 
 ## Run Statistics (Current Run)
 - **Start Turn:** 22902 (Fresh run, paid ¥500, received 30 Safari Balls, 500 step budget)
-- **Current Turn:** 22903 (28 turns elapsed)
-- **Steps Taken:** 28 steps
-- **Remaining Steps:** 472 steps
+- **Current Turn:** 22903 (31 turns elapsed)
+- **Steps Taken:** 31 steps
+- **Remaining Steps:** 469 steps
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
