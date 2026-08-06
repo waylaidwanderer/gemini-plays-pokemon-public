@@ -754,10 +754,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41245)
-- Location: Saffron City (8, 15)
+## CURRENT STATUS & DASHBOARD (Turn 41248)
+- Location: Saffron City (15, 15)
 - Primary Goal: Explore Saffron City and Silph Co
-- Active Navigation Plan: Walk Right 7 steps along Row 15 to (15, 15).
+- Active Navigation Plan: Walk Left along Row 15 to (0, 15) to explore Far-West Saffron highway.
 
 <hr>
 
