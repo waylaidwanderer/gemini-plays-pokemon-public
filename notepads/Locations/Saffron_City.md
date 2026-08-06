@@ -17,3 +17,5 @@
 - Row 15 Main Street: Open East-West pavement corridor on Row 15 connecting West Saffron (x=4) to Central Saffron (x=14+).
 - Column 17 Wooden Fence: Vertical wooden fence at x=17 across y=11..15 separating Northwest street from East grass plaza.
 - Northwest Plaza Alley: Open pavement at Cols 15..16 running North along the East side of Northwest building.
+- Northwest Courtyard: Enclosed area at x=8..16, y=12..15 bounded South by Row 16 tree wall and East by Column 17 wooden fence.
+- Northern Highway (Row 2): Main open East-West highway running along Row 2 above the Northwest building (x=8..25+) connecting West Gatehouse directly to Central Saffron City, Pokemon Center, Silph Co, Fighting Dojo, and Saffron Gym!
