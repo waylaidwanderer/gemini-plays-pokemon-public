@@ -13,3 +13,6 @@
 - Column 17 Wooden Fence: EMPIRICALLY CONFIRMED SOLID barrier across Rows 2..15 (bumped at 17, 2 on turn 41234).
 - Row 16 Tree Wall: Solid dark green tree wall across Rows 16..19 spanning Cols 4..19.
 - Northwest Enclosed Courtyard: Northwest sector (Cols 4..16, Rows 2..15) is bounded North by Row 1 trees, East by Col 17 fence, South by Row 16 tree wall, and West by Gatehouse.
+- West City Boundary: Cols 0..1 are solid dark green tree wall spanning y=11..19.
+- South Tree Boundary: Rows 16..19 are solid dark green tree wall spanning Cols 0..19.
+- Empirical Result: The Northwest sector (Cols 2..16, Rows 2..15) is fully enclosed by trees (North/South/West) and Column 17 wooden fence (East).
