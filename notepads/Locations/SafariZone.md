@@ -9,6 +9,11 @@
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
 
+### Geographical Constraints & Closed Pockets
+- **Southeastern Ground-Level Pocket:** The area around columns 24-28, rows 16-24 is a **completely closed pocket** with no ground-level exit.
+  - **Boundaries:** Bounded by impassable sand cliffs of the plateau on the north and west, a solid row of Rhydon statues and trees at Row 25 on the south, and a solid tree wall at Column 29 on the east.
+  - **Navigation Note:** Entering this pocket requires backtracking up the staircase at `(24, 15)` to return to the plateau. Never go down this staircase if trying to reach Area 2 (North).
+
 ## Area 2 (North) Map & Collision Structures
 
 ### Key Landmarks & Buildings
