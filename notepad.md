@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41491)
-- Location: Saffron City (8, 10)
-- Primary Goal: Verify Eastbound passage along Row 12/14 in Saffron City to reach Central Saffron City (Pokemon Center, Silph Co, Gyms).
-- Active Navigation Plan: Walk South to Row 12/14 pavement, then East towards Column 17/18 to test if Central Saffron City is directly accessible.
+## CURRENT STATUS & DASHBOARD (Turn 41504)
+- Location: Saffron City (5, 14) [Outdoors]
+- Primary Goal: Teleport to Lavender Town Pokemon Center -> Route 8 West -> Saffron East Gatehouse -> Central Saffron City.
+- Active Navigation Plan: Open Start menu -> POKEMON -> Select LUNA -> Select TELEPORT to fast travel to Lavender Town Pokemon Center.
 
 <hr>
 
