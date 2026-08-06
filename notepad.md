@@ -754,10 +754,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41297)
-- Location: Saffron West Gatehouse 2F (2, 5)
-- Primary Goal: Explore Gatehouse 2F for NPCs, Binoculars, or trade opportunities.
-- Active Navigation Plan: Walk Right 3 to (5, 5), Up 3 to (5, 2) to check 2F interior.
+## CURRENT STATUS & DASHBOARD (Turn 41304)
+- Location: Saffron West Gatehouse 2F (3, 1)
+- Primary Goal: Exit Gatehouse to Route 7 and take Underground Path to Saffron East Gatehouse.
+- Active Navigation Plan: Walk Down 4 to (3, 5), Left 1 to (2, 5) to descend stairs to 1F.
 
 <hr>
 
