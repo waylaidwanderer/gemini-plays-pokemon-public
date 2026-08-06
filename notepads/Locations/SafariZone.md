@@ -2,9 +2,9 @@
 
 ## Run Statistics (Current Run)
 - **Start Turn:** 22902 (Fresh run, paid ¥500, received 30 Safari Balls, 500 step budget)
-- **Current Turn:** 23003 (134 steps taken)
-- **Steps Taken:** 134 steps
-- **Remaining Steps:** 366 steps
+- **Current Turn:** 23041 (253 steps taken)
+- **Steps Taken:** 253 steps
+- **Remaining Steps:** 247 steps
 
 ## Area 0 (Center) Map & Collision Structures
 - **Counter Barrier (Row 25):** Solid counters block columns 2-13.
@@ -40,4 +40,4 @@ To transition from the northwestern ground level to the southwestern exit of Are
 2. **Access the East Stairs:** Walk Down column 35 to row 13, then walk west and climb UP onto the plateau using the stairs at `(32, 13)` or `(33, 13)`.
 3. **Traverse the Plateau:** Walk south and west along the plateau structure to reach the southern cliffside.
 4. **Reach Southern Ground Level:** Walk down the stairs or jump down the south-facing ledges at the south-eastern/south-middle part of the plateau to land on the southern ground level (rows 25-35).
-5. **Walk West to Area 3:** Follow the open southern grass corridor (around row 30) all the way west to the bottom-left corner of Area 2 (North) (columns 0-4, rows 30-35) to transition to **Area 3 (West)**.
+5. **Walk West to Area 3:** Follow the open southern grass corridor west, detouring South to Row 34 or 35 to bypass the solid Column 5 tree barrier, then walk West past Column 5 and transition to **Area 3 (West)** at columns 0-4, rows 30-35.
