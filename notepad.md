@@ -754,10 +754,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41401)
-- Location: Saffron West Gatehouse 1F (3, 7)
-- Primary Goal: Reach Central Saffron City (locate Pokemon Center, Silph Co, Gyms)
-- Active Navigation Plan: Exit Gatehouse East to Saffron City (8, 2), walk South down Column 8, and probe Eastbound rows to reach Central Saffron City.
+## CURRENT STATUS & DASHBOARD (Turn 41404)
+- Location: Saffron West Gatehouse 1F (4, 2)
+- Primary Goal: Locate Pokemon Center and Gyms in Central Saffron City
+- Active Navigation Plan: Walk Up 1 to (4, 1), Right 3 to (7, 1), Down 1 to (7, 2), Right 1 to (8, 2) to exit East onto Saffron City North Street.
 
 <hr>
 
