@@ -21,3 +21,5 @@
 - Northern Highway (Row 2): Main open East-West highway running along Row 2 above the Northwest building (x=8..25+) connecting West Gatehouse directly to Central Saffron City, Pokemon Center, Silph Co, Fighting Dojo, and Saffron Gym!
 - Column 17 Wooden Fence: EMPIRICALLY CONFIRMED SOLID barrier across Rows 2..15 (bumped at 17, 2 on turn 41234).
 - Row 16 Tree Wall Gap (x=14..16): Open Southbound street corridor at (14, 16), (15, 16), (16, 16) bypassing the Row 16 tree wall (x=4..13) and leading directly into Central & South Saffron City!
+- Northwest Building Dimensions: Yellow roof at y=8..9, windows at y=10, brick wall at y=11 across x=12..17. Column 16 ends at (16, 8) building roof.
+- Column 8 Connecting Street: Open North-South street at x=8 connecting North Street (Rows 2..7) directly DOWN to South Street (Rows 12..15).
