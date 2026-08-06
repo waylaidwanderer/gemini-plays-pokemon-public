@@ -742,7 +742,6 @@
 - Column 33 Highway (x=33) runs continuously North from Row 27 at (33, 27) up to Row 16 Highway at (33, 16)!
 - VERIFIED (Turn 39411): Row 16 at (29, 16) is a dead end bounded North by (29, 15) rock, East by (30, 16) rock, South by (29, 17) rock. West exit is Row 16 (Cols 25-28) -> South through Cols 25-28 to Row 20 Highway!
 ### Complete Master Route to Exit Ladder (27, 3)
-- Under Investigation (Re-evaluating B1F passages to Upper Exit Cavern / Ladder at 27, 3).
 - VERIFIED (Turn 39428): Vertical rock wall at Cols 30-31 spans Rows 16-27. Row 28 (x=28..33) is the open East-West Sector Bypass Corridor connecting West Sector to East Sector at (33, 28)!
 ### Verified East Cavern Enclosure & Sector Bypass (Turn 39995)
 - East Cavern (x=32..37, y=16..28) is a closed cavern bounded North by y=13..15 rock wall, West by x=30..31 vertical rock wall (y=16..27), East by x=38 rock wall, South by y=29 rock wall.
