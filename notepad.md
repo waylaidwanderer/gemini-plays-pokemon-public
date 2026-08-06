@@ -754,10 +754,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41443)
-- Location: Saffron City (8, 7) [North Street Junction]
+## CURRENT STATUS & DASHBOARD (Turn 41446)
+- Location: Saffron City (16, 2) [Outdoors]
 - Primary Goal: Locate Pokemon Center and Gyms in Central Saffron City
-- Active Navigation Plan: Walk Up 5 to Row 2 North Street at (8, 2), then Right 10 into Central Saffron City.
+- Active Navigation Plan: Walk Down 4 to Row 6 pavement at (16, 6), then probe Right into (17, 6) / (18, 6) into Central Saffron City.
 
 <hr>
 
