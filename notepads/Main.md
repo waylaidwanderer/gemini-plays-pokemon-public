@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 41187)
+## CURRENT STATUS & DASHBOARD (Turn 41189)
 - Location: Saffron Gatehouse (3, 2)
-- Primary Goal: Give Fresh Water to Saffron Gatehouse Guard
-- Active Navigation Plan: Press A through Guard dialogue to give Fresh Water, unlock Saffron City, and walk East through (7, 2) exit into Saffron City.
+- Primary Goal: Explore Saffron City and Silph Co
+- Active Navigation Plan: Walk Right 4 through (7, 2) exit warp into Saffron City.
