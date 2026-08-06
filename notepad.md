@@ -770,3 +770,9 @@
 - West Sector (Cols 0-6): Open pavement highway leading West into Celadon City!
 
 <hr>
+
+<h1><code>Locations/Route_7.md</code></h1>
+
+
+
+<hr>
