@@ -972,14 +972,9 @@ Total steps for Part 1: 15 steps.
 7. From (12, 22), walk West to Column 8, North to Row 11, West to Column 0, and North to reach the transition to Area 2 (North) at (0, 5).
 
 ## Part 3: Safari Zone Area 2 (North)
-1. Enter Area 2. We need to reach the southern ground corridor to go to Area 3 (West).
-2. Follow the "Gold-Standard Speedrun Route to Area 3 (West)":
-   - Walk East to column 35 (around Rest House 2).
-   - Walk Down column 35 to row 13.
-   - Walk West and climb UP the eastern plateau stairs at (32, 13) or (33, 13).
-   - Walk south and west along the plateau to reach the southern cliffside.
-   - Walk down the stairs or jump down the south-facing ledges to land on the southern ground level (rows 25-35).
-   - Walk West along the southern grass corridor to the bottom-left corner of Area 2 (columns 0-4, rows 30-35) to transition to Area 3 (West).
+1. Enter Area 2 (North) at (39, 31) on the southern ground level.
+2. Since we enter on the southern ground level, we do not need to use the plateau!
+3. Walk West along the southern grass corridor (around Row 31) from Column 39 directly to the transition to Area 3 (West) at the bottom-left corner (columns 0-4, rows 30-35).
 
 <hr>
 
