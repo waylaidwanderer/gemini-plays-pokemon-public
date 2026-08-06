@@ -2,9 +2,9 @@
 
 ## Run Statistics (Current Run)
 - **Start Turn:** 23448 (Fresh run, paid ¥500, received 30 Safari Balls, 500 step budget)
-- **Current Turn:** 23649
-- **Steps Taken:** 235 steps
-- **Remaining Steps:** 265 steps
+- **Current Turn:** 23652
+- **Steps Taken:** 242 steps
+- **Remaining Steps:** 258 steps
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
