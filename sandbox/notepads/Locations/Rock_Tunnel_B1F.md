@@ -60,5 +60,4 @@
 ### Verified East Cavern Enclosure & Sector Bypass (Turn 39995)
 - East Cavern (x=32..37, y=16..28) is a closed cavern bounded North by y=13..15 rock wall, West by x=30..31 vertical rock wall (y=16..27), East by x=38 rock wall, South by y=29 rock wall.
 - Secondary Ladder at (37, 17) connects to 1F West Cavern (3, 3) (dead-end cavern).
-- ONLY exit from East Cavern to West Sector is via Row 28 Sector Bypass Corridor: (33, 16) -> Down 12 steps to (33, 28) -> Left 5 steps through (32, 28), (31, 28), (30, 28), (29, 28) to (28, 28) in West Sector!
-- From (28, 28) in West Sector: Walk Up 12 steps along Col 28 to Row 16 Highway at (28, 16) -> North to Row 12 / Row 4 Exit Ladder at (27, 3)!
+- Exit from East Cavern to West Sector is via Row 28 Sector Bypass Corridor at (33, 28) -> Left 5 steps to (28, 28) in West Sector.
