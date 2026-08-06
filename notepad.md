@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41311)
-- Location: Saffron City (5, 14)
-- Primary Goal: Re-enter West Gatehouse at (5, 13) to take West exit to Route 7.
-- Active Navigation Plan: Step Up to (5, 13) to enter Saffron West Gatehouse.
+## CURRENT STATUS & DASHBOARD (Turn 41314)
+- Location: Saffron West Gatehouse 1F (3, 7)
+- Primary Goal: Test West exit / counter access to reach Route 7.
+- Active Navigation Plan: Walk Left 2 to (1, 7) to probe southwest corner of Gatehouse.
 
 <hr>
 
