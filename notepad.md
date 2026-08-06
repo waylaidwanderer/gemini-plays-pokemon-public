@@ -754,9 +754,9 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 40351)
-- Location: Route 8 (5, 15)
+## CURRENT STATUS & DASHBOARD (Turn 40381)
+- Location: Route 8 Underground Path Entrance Building (13, 5)
 - Primary Goal: Reach Celadon City
-- Active Navigation Plan: Walk Up 4 steps from (5, 15) to (5, 11) to enter Underground Path Building -> Traverse Underground Path to Route 7 -> Celadon City.
+- Active Navigation Plan: Finish Gambler battle -> Walk Up 2 to (13, 3) to take stairs into Underground Path tunnel -> Traverse Underground Path to Route 7 -> Celadon City.
 
 <hr>
