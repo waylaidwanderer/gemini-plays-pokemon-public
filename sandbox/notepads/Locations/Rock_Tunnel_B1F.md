@@ -10,8 +10,6 @@
 - Upper Exit Cavern & 1F Exit Ladder: Ladder to 1F is located at (27, 3)!
 
 ### Complete Master Route to Exit Ladder (27, 3) (Turn 39363)
-1. From East Sector (26, 31): Walk Up 4 steps along Col 26 to Row 27 Passage at (26, 27).
-2. From (26, 27): Walk West 12 steps along Row 27 Passage across Cols 25-14 into West Sector at (14, 27).
 
 ### Verified B1F Complete Topography & Exit Route (Turn 33636)
 - 1F Main Arrival Ladder: (33, 25) in East Sector.
