@@ -1060,16 +1060,19 @@ To transition from the northwestern ground level to the southwestern exit of Are
 4. Enter Area 1 (East) at (0, 23).
 Total steps for Part 1: 15 steps.
 
-## Part 2: Safari Zone Area 1 (East) (PLATEAU CROSSING HYPOTHESIS)
-*Note: The eastern ground corridor (columns 28-29) was physically proven on Turn 22055 to be completely blocked by a solid wall of trees at Row 15. Therefore, the eastern corridor is a dead end. We must traverse the plateau and descend the western stairs to reach the west side ground level.*
-1. Enter at (0, 22).
-2. Walk East 12 steps to (12, 22).
-3. Walk Up 2 steps to climb the western plateau stairs:
-   - Up to (12, 21) (staircase)
-   - Up to (12, 20) (plateau)
-4. Walk East and North along the plateau land bridge (rows 13-14) to the eastern staircase at (24, 14).
-5. Backtrack West along the plateau to (12, 14), walk South to (12, 20), and descend the western stairs at (12, 21) to (12, 22) on the ground level.
-6. From the ground level at (12, 22), walk West and North to reach the transition to Area 2 (North) at (0, 5).
+## Part 2: Safari Zone Area 1 (East) (VERIFIED ROUTE)
+*Note: The eastern ground corridor (columns 28-29) was physically proven on Turn 22055 to be completely blocked by a solid wall of trees at Row 15, and the southern/western ground corridors are divided by fences and ledges. Therefore, we must climb the southern stairs to bypass Row 23, cross the plateau directly on Row 20 to the western stairs, and descend to the north-west ground level.*
+1. Enter at (0, 23).
+2. Walk Down 1 step to (0, 24).
+3. Walk East along Row 24 to Column 20: (20, 24).
+4. Walk Up 4 steps to climb the southern stairs:
+   - Up to (20, 21) (staircase)
+   - Up to (20, 20) (plateau)
+5. Walk West 8 steps on Row 20 to the western stairs: (12, 20).
+6. Walk Down 2 steps to descend the western stairs to the ground level:
+   - Down to (12, 21) (staircase)
+   - Down to (12, 22) (ground level)
+7. From (12, 22), walk West to Column 8, North to Row 11, West to Column 0, and North to reach the transition to Area 2 (North) at (0, 5).
 
 ## Part 3: Safari Zone Area 2 (North)
 1. Enter Area 2. We need to reach the southern ground corridor to go to Area 3 (West).
