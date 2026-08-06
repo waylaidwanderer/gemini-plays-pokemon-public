@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 40259)
-- Location: Route 10 South (10, 64) [Trainer Battle vs PokeManiac]
+## CURRENT STATUS & DASHBOARD (Turn 40271)
+- Location: Lavender Town (10, 68)
 - Primary Goal: Reach Celadon City
-- Active Navigation Plan: Defeat PokeManiac -> Walk Down 3 steps to (10, 67) into Lavender Town -> Route 8 West -> Underground Path -> Celadon City.
+- Active Navigation Plan: Walk South along Column 10 -> West across Row 26 to West Lavender -> North to Route 8 West Entrance at (0, 9) -> Underground Path -> Celadon City.
