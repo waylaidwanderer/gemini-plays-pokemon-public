@@ -825,6 +825,9 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Saffron Pokemon Center: Roof visible at (8, 6) / (9, 6).
 - Silph Co Headquarters: Located in Central Saffron City.
 - Saffron Gym / Fighting Dojo: Located in North Saffron City.
+- Northwest Building: Yellow roof building located at x=12..17, y=8..11.
+- Gatehouse Building (West): Yellow roof building located at x=4..7, y=10..11.
+- Open Street Corridor: Columns 8..10 form open North-South street corridor connecting Row 2 down past Row 11.
 
 <hr>
 
