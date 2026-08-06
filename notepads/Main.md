@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 40591)
-- Location: Celadon Department Store 1F (1, 5)
+## CURRENT STATUS & DASHBOARD (Turn 40594)
+- Location: Celadon City Overworld (1, 3)
 - Primary Goal: Give Fresh Water to Saffron Guards to Open Saffron City
-- Active Navigation Plan: Exiting Department Store via (1, 1) door to Celadon City.
+- Active Navigation Plan: Walking East across Celadon City to Route 7 entrance at (49, 11).
