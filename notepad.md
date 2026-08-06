@@ -786,6 +786,7 @@
 - Department Store 2F Stairs: Stairs UP to 3F located at (16, 1), accessed from (16, 2).
 - Department Store 3F Stairs: Stairs UP to 4F located at (12, 1), accessed from (12, 2).
 - Department Store 4F Stairs: Stairs UP to 5F located at (16, 1), accessed from (16, 2).
+- Department Store 5F Stairs: Stairs UP to Rooftop located at (12, 1), accessed from (12, 2).
 
 <hr>
 
