@@ -11,3 +11,5 @@
 - Northwest Building: Yellow roof building located at x=12..17, y=8..11.
 - Gatehouse Building (West): Yellow roof building located at x=4..7, y=10..11.
 - Open Street Corridor: Columns 8..10 form open North-South street corridor connecting Row 2 down past Row 11.
+- West Gatehouse Door (Saffron Side): Front door located at (5, 13).
+- Northwest Street Highway: Open grey pavement highway on Cols 8..11 running South through Rows 12..15.
