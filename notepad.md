@@ -830,6 +830,8 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Open Street Corridor: Columns 8..10 form open North-South street corridor connecting Row 2 down past Row 11.
 - West Gatehouse Door (Saffron Side): Front door located at (5, 13).
 - Northwest Street Highway: Open grey pavement highway on Cols 8..11 running South through Rows 12..15.
+- Row 16 Tree Barrier: Dark green tree wall spans Rows 16..19 across x=4..13.
+- Row 15 Main Street: Open East-West pavement corridor on Row 15 connecting West Saffron (x=4) to Central Saffron (x=14+).
 
 <hr>
 
