@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 39929)
-- Location: Rock Tunnel 1F (3, 9)
+## CURRENT STATUS & DASHBOARD (Turn 39931)
+- Location: Rock Tunnel 1F (3, 8)
 - Primary Goal: Exit Rock Tunnel B1F/1F -> Route 10 South -> Lavender Town -> Route 8 West -> Underground Path -> Celadon City.
-- Active Navigation Route: From (3, 9) on Col 3: Dismiss text -> Walk North 6 steps along Col 3 to Ladder at (3, 3) -> warp to B1F (37, 17).
+- Active Navigation Route: At (3, 8) in 1F West Cavern: Advance dialogue text ("You have a POKéDEX?") -> walk North to Ladder at (3, 3) -> warp to B1F (37, 17) -> execute B1F Master Route to Main Exit Ladder at (27, 3).
 
 <hr>
 
@@ -253,7 +253,6 @@
 1. From East Sector (26, 31): Walk Up 4 steps along Col 26 to Row 27 Passage at (26, 27).
 2. From (26, 27): Walk West 12 steps along Row 27 Passage across Cols 25-14 into West Sector at (14, 27).
 
-4. From (14, 4): Walk East 13 steps along Row 4 to Column 27 at (27, 4) -> North 1 step to Exit Ladder at (27, 3)!
 ### Verified B1F Complete Topography & Exit Route (Turn 33636)
 - 1F Main Arrival Ladder: (33, 25) in East Sector.
 - Central Barrier (Cols 26-27): Solid rock wall from y=20 down to y=29 separating East and West sectors.
