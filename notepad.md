@@ -754,10 +754,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41279)
-- Location: Saffron West Gatehouse (3, 7)
-- Primary Goal: Exit West to Route 7, take Underground Path to Route 8, enter Saffron East Gatehouse.
-- Active Navigation Plan: Walk Up 4 to (3, 3), Left 3 to (0, 3) to exit West to Route 7.
+## CURRENT STATUS & DASHBOARD (Turn 41290)
+- Location: Saffron West Gatehouse (1, 1)
+- Primary Goal: Speak to Guard at (2, 4) to verify gatehouse passage mechanics.
+- Active Navigation Plan: Walk Right 2 to (3, 1), Down 3 to (3, 4), Left 1 to face Guard at (2, 4) and press A.
 
 <hr>
 
