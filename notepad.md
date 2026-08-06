@@ -856,5 +856,7 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Northwest Street Highway: Open grey pavement highway on Cols 8..11 running South through Rows 12..15.
 - Row 16 Tree Barrier: Dark green tree wall spans Rows 16..19 across x=4..13.
 - Row 15 Main Street: Open East-West pavement corridor on Row 15 connecting West Saffron (x=4) to Central Saffron (x=14+).
+- Column 17 Wooden Fence: Vertical wooden fence at x=17 across y=11..15 separating Northwest street from East grass plaza.
+- Northwest Plaza Alley: Open pavement at Cols 15..16 running North along the East side of Northwest building.
 
 <hr>
