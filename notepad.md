@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 40134)
-- Location: Rock Tunnel B1F (23, 28)
+## CURRENT STATUS & DASHBOARD (Turn 40135)
+- Location: Rock Tunnel B1F (17, 27)
 - Primary Goal: Exit Rock Tunnel B1F/1F -> Route 10 South -> Lavender Town -> Route 8 West -> Underground Path -> Celadon City.
-- Active Navigation Route: From (23, 28): Left 6 steps along Row 28 to Col 17 at (17, 28) -> North 24 steps along Col 17 Highway to Row 4 Exit Chamber at (17, 4) -> Right 10 steps along Row 4 to Col 27 at (27, 4) -> Up 1 step into Main Exit Ladder at (27, 3)!
+- Active Navigation Route: From (17, 27) on Col 17 Highway: Walk North 23 steps along Col 17 Highway to Row 4 Exit Chamber at (17, 4) -> Right 10 steps along Row 4 to Col 27 at (27, 4) -> Up 1 step into Main Exit Ladder at (27, 3)!
 
 <hr>
 
@@ -774,9 +774,9 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 40135)
-- Location: Rock Tunnel B1F (17, 27)
+## CURRENT STATUS & DASHBOARD (Turn 40136)
+- Location: Rock Tunnel B1F (17, 24)
 - Primary Goal: Exit Rock Tunnel B1F/1F -> Route 10 South -> Lavender Town -> Route 8 West -> Underground Path -> Celadon City.
-- Active Navigation Route: From (17, 27) on Col 17 Highway: Walk North 23 steps along Col 17 Highway to Row 4 Exit Chamber at (17, 4) -> Right 10 steps along Row 4 to Col 27 at (27, 4) -> Up 1 step into Main Exit Ladder at (27, 3)!
+- Active Navigation Route: From (17, 24): East 8 steps along Row 24 to Col 25 at (25, 24) -> North 8 steps along Col 25/26 to Row 16 Highway at (25, 16) -> East 10 steps along Row 16 to Col 35 Upper Northern Passage at (35, 16) -> North 12 steps along Col 35 to Row 4 Exit Chamber at (35, 4) -> Left 8 steps along Row 4 to Col 27 at (27, 4) -> Up 1 step into Main Exit Ladder at (27, 3)!
 
 <hr>
