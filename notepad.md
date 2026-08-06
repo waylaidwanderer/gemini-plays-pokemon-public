@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 40891)
-- Location: Celadon Department Store 5F (16, 2)
+## CURRENT STATUS & DASHBOARD (Turn 40895)
+- Location: Celadon Department Store Rooftop (16, 2)
 - Primary Goal: Give Fresh Water to Saffron Guards to Open Saffron City
-- Active Navigation Plan: Standing at (16, 2) on 5F. Stepping Up 1 into (16, 1) stairs to Rooftop.
+- Active Navigation Plan: Walking Left 12 along Row 2 yellow check floor to (4, 2) to explore West sector of Rooftop for Elevator/Doorways.
 
 <hr>
 
