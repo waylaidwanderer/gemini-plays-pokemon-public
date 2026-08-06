@@ -754,10 +754,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41131)
-- Location: Celadon Department Store 1F (1, 3)
+## CURRENT STATUS & DASHBOARD (Turn 41134)
+- Location: Celadon Department Store 1F (0, 3)
 - Primary Goal: Give Fresh Water to Saffron Gatehouse Guard
-- Active Navigation Plan: Walk Up 1 to (1, 2) off exit mat, Right 2 to (3, 2), Right 1 to probe (4, 2) corridor to main store floor, then Down to front exit (16, 7) to warp to lower Main Street (10, 14).
+- Active Navigation Plan: Exit side lobby to Courtyard (1, 2), walk Right to x=10, Up 3 to Row 2 highway (10, 2), Right to (16, 2), and Up 1 to (16, 1) stairs passage to East Celadon City.
 
 <hr>
 
