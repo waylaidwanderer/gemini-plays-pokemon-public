@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 40504)
-- Location: Celadon Department Store 1F (16, 7)
+## CURRENT STATUS & DASHBOARD (Turn 40526)
+- Location: Celadon Department Store Rooftop (15, 3)
 - Primary Goal: Obtain Drinks for Saffron Guards from Rooftop Vending Machines
-- Active Navigation Plan: Inside Department Store 1F at (16, 7). Walking Up 4 to (16, 3) and Right 3 to (19, 3) to take the Elevator/Stairs to 5F/Rooftop.
+- Active Navigation Plan: Arrived on Rooftop at (15, 3). Walking Up 1 to (15, 2), Left 2 to (13, 2), and pressing A facing Left to buy Fresh Water from Vending Machine at (12, 2).
 
 <hr>
 
