@@ -754,10 +754,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41248)
-- Location: Saffron City (15, 15)
-- Primary Goal: Explore Saffron City and Silph Co
-- Active Navigation Plan: Walk Left along Row 15 to (0, 15) to explore Far-West Saffron highway.
+## CURRENT STATUS & DASHBOARD (Turn 41259)
+- Location: Saffron City (4, 15)
+- Primary Goal: Systematically probe Col 17 (y=2..15) for open gap or Cut tree to reach Central Saffron City.
+- Active Navigation Plan: Walk Right to (16, 15) to begin Col 16 vertical probe of Col 17.
 
 <hr>
 
@@ -853,5 +853,8 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Column 17 Wooden Fence: EMPIRICALLY CONFIRMED SOLID barrier across Rows 2..15 (bumped at 17, 2 on turn 41234).
 - Row 16 Tree Wall: Solid dark green tree wall across Rows 16..19 spanning Cols 4..19.
 - Northwest Enclosed Courtyard: Northwest sector (Cols 4..16, Rows 2..15) is bounded North by Row 1 trees, East by Col 17 fence, South by Row 16 tree wall, and West by Gatehouse.
+- West City Boundary: Cols 0..1 are solid dark green tree wall spanning y=11..19.
+- South Tree Boundary: Rows 16..19 are solid dark green tree wall spanning Cols 0..19.
+- Empirical Result: The Northwest sector (Cols 2..16, Rows 2..15) is fully enclosed by trees (North/South/West) and Column 17 wooden fence (East).
 
 <hr>
