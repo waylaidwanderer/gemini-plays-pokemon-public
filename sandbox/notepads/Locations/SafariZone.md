@@ -34,10 +34,10 @@
 
 ## Gold-Standard Speedrun Route to Area 3 (West)
 
-To transition from the northwestern ground level to the southwestern exit of Area 2 (North) (which connects to Area 3 (West) and the Secret House), the player must use the eastern plateau stairs:
+To transition from the southeast entrance of Area 2 (North) at `(39, 31)` to the southwestern exit at columns 0-4, the player must climb the Eastern Plateau Stairs and traverse the northern plateau bridge horizontally:
 
-1. **Circumvent Rest House 2:** From column 19, walk Up to row 9 (open grass), then walk East to column 35 (bypassing the row 10 tree line).
-2. **Access the East Stairs:** Walk Down column 35 to row 13, then walk west and climb UP onto the plateau using the stairs at `(32, 13)` or `(33, 13)`.
-3. **Traverse the Plateau:** Walk south and west along the plateau structure to reach the southern cliffside.
-4. **Reach Southern Ground Level:** Walk down the stairs or jump down the south-facing ledges at the south-eastern/south-middle part of the plateau to land on the southern ground level (rows 25-35).
-5. **Walk West to Area 3:** Walk West along the southern grass corridor to Column 13. Since Column 5 is blocked by a solid tree barrier on Row 26-33 and Row 34 is blocked by posts, walk Up along Column 13 to Row 9, walk West along Row 9 to Column 0, walk Down along Column 0 to Row 31, and walk Left to transition and enter **Area 3 (West)** at columns 0-4, rows 30-35.
+1. **Reach the East Stairs:** Walk North along Column 39 to Row 16, then walk West to Column 34 and climb the stairs at `(34, 15)` to stand on the plateau at `(34, 14)` -> **22 steps**.
+2. **Cross the Northern Plateau Bridge:** Walk West on top of the plateau along Row 14 to Column 3 -> **31 steps**.
+3. **Descend to Southwestern Ground Level:** Walk South along Column 3 to Row 26, and walk South to jump down the southern ledge onto ground level at `(3, 27)` -> **13 steps**.
+4. **Transition to Area 3 (West):** Walk South to Row 31 and walk Left to Column 0 to transition to **Area 3 (West)** -> **7 steps**.
+*Total Steps in Area 2 (North):* **73 steps**.

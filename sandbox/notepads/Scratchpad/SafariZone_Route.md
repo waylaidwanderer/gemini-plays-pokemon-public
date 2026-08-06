@@ -1,16 +1,15 @@
-# Safari Zone - Verified Speedrun Route Guide
+# Safari Zone - Master-Class Speedrun Route Guide
 
 ## Run Preparation & Budget
 - **Cost:** ¥500 (Pay gatekeeper inside the Fuchsia City Safari Zone Gatehouse).
 - **Initial Budget:** 500 Steps, 30 Safari Balls.
-- **Eviction Rule:** If steps taken reaches 500, player is automatically warped back to the lobby.
 - **Combat Strategy:** RUN from every wild encounter immediately to save steps and real-time turns.
 
 ---
 
 ## Part 1: Area 0 (Center) to Area 1 (East)
 1. Spawn in Center at `(15, 25)` on ground level.
-2. Walk North and East to the eastern transition at `(29, 23)` -> **14 steps**.
+2. Walk North to `(15, 23)` and East to the transition at `(29, 23)` -> **14 steps**.
 3. Transition into Area 1 (East) at `(0, 11)`.
 
 ---
@@ -30,18 +29,19 @@
 ---
 
 ## Part 3: Area 2 (North) to Area 3 (West)
-*Note: This path assumes player enters Area 2 from Area 1's western transition at (0, 5) which warps the player to Area 2 at (39, 31).*
-1. Walk West on Row 31 to Column 22 -> **17 steps** (17 West).
-2. Walk Up Column 22 to Row 23 and climb Southern Stairs to the plateau at `(22, 22)` -> **9 steps** (9 North).
-3. Walk West on top of the plateau to Column 16, Row 22 -> **6 steps** (6 West).
-4. Walk Down Column 16 and descend Western Stairs to ground level at `(16, 28)` -> **6 steps** (6 South).
-5. Walk Left to Column 13, Row 28 -> **3 steps** (3 West).
-6. Walk Up Column 13 to Row 14 -> **14 steps** (14 North).
-7. Walk Left along Row 14 to Column 0 (crossing the open grass corridor between northern/western ponds!) -> **13 steps** (13 West).
-8. Walk Down Column 0 to Row 31 (transition row) -> **17 steps** (17 South).
-9. Walk Left to transition into Area 3 (West) -> **1 step** (1 West).
-*Total Steps from Area 2 entrance to Area 3 transition:* **86 steps**.
-*Cumulative Steps from Safari Zone entrance to Area 3:* **184 steps** (leaving 316 steps for Area 3!).
+*Note: This is the fully optimized, verified 73-step route that uses the northern plateau bridge to cross between the disconnected east and west sides, completely bypassing the southern ponds and Column 5 tree barrier!*
+
+1. Spawn in Area 2 (North) at `(39, 31)`.
+2. Walk North along Column 39 to Row 16 -> **15 steps** (15 North).
+3. Walk Left along Row 16 to Column 34 -> **5 steps** (5 West).
+4. Walk Up onto the East Stairs at `(34, 15)` to stand on the plateau at `(34, 14)` -> **2 steps** (2 North).
+5. Walk West along Row 14 on top of the plateau to Column 3 -> **31 steps** (31 West).
+6. Walk South along Column 3 to Row 26 on top of the plateau -> **12 steps** (12 South).
+7. Walk South to jump down the southern ledge onto the ground level at `(3, 27)` -> **1 step** (1 South).
+8. Walk South along Column 3 on the ground to Row 31 -> **4 steps** (4 South).
+9. Walk Left along Row 31 to Column 0 to transition into Area 3 (West) -> **3 steps** (3 West).
+*Total Steps in Area 2 (North) to Area 3 transition:* **73 steps**.
+*Cumulative Steps from Safari Zone entrance to Area 3:* **171 steps** (leaving 329 steps for Area 3!).
 
 ---
 
