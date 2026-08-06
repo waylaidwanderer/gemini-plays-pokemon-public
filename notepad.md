@@ -1033,3 +1033,9 @@ To transition from the northwestern ground level to the southwestern exit of Are
 
 
 <hr>
+
+<h1><code>Locations/FuchsiaGym</code></h1>
+
+
+
+<hr>
