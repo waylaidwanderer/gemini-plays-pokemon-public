@@ -754,10 +754,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41268)
-- Location: Saffron City (16, 13)
-- Primary Goal: Test Northwest Building doors at y=11 across x=12..15.
-- Active Navigation Plan: Walk Row 12 testing UP at x=15, 14, 13, 12 for Copycat house entrance.
+## CURRENT STATUS & DASHBOARD (Turn 41274)
+- Location: Saffron City (12, 12)
+- Primary Goal: Exit Northwest Sector via West Gatehouse to enter Saffron City through East Gatehouse.
+- Active Navigation Plan: Walk Left to (5, 12), Down to (5, 13) to enter Saffron West Gatehouse.
 
 <hr>
 
@@ -858,5 +858,7 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - West City Boundary: Cols 0..1 are solid dark green tree wall spanning y=11..19.
 - South Tree Boundary: Rows 16..19 are solid dark green tree wall spanning Cols 0..19.
 - Empirical Result: The Northwest sector (Cols 2..16, Rows 2..15) is fully enclosed by trees (North/South/West) and Column 17 wooden fence (East).
+- Northwest Building Facade: (12..17, 11) is solid brick wall with no door facing Row 12.
+- Central City Route Strategy: The Northwest Sector is an isolated courtyard. To access Central Saffron City (Pokemon Center, Silph Co, Gyms), exit West Gatehouse back to Route 7, take Underground Path to Route 8 / Route 5 / Route 6, and enter Saffron City through the East, South, or North Gatehouse!
 
 <hr>

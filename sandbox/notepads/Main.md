@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 41268)
-- Location: Saffron City (16, 13)
-- Primary Goal: Test Northwest Building doors at y=11 across x=12..15.
-- Active Navigation Plan: Walk Row 12 testing UP at x=15, 14, 13, 12 for Copycat house entrance.
+## CURRENT STATUS & DASHBOARD (Turn 41274)
+- Location: Saffron City (12, 12)
+- Primary Goal: Exit Northwest Sector via West Gatehouse to enter Saffron City through East Gatehouse.
+- Active Navigation Plan: Walk Left to (5, 12), Down to (5, 13) to enter Saffron West Gatehouse.
