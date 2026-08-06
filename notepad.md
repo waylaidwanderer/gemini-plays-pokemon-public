@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 40282)
-- Location: Lavender Town (0, 7) [Route 8 Entrance]
+## CURRENT STATUS & DASHBOARD (Turn 40321)
+- Location: Route 8 (28, 6)
 - Primary Goal: Reach Celadon City
-- Active Navigation Plan: Walk Down 2 to (0, 9) -> Left 1 to (-1, 9) onto Route 8 West -> Underground Path -> Celadon City.
+- Active Navigation Plan: Defeat Lass at (28, 6) -> Walk Down 4 to (28, 10) -> Left 3 to (25, 10) -> West to Underground Path Entrance.
 
 <hr>
 
