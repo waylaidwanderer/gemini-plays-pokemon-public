@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 40765)
-- Location: Celadon Department Store 1F (1, 2)
+## CURRENT STATUS & DASHBOARD (Turn 40771)
+- Location: Celadon City Courtyard (0, 3)
 - Primary Goal: Give Fresh Water to Saffron Guards to Open Saffron City
-- Active Navigation Plan: Inside 1F at (1, 2). Walking Down 3 to Row 5 (1, 5), Right 11 to (12, 5) to systematically probe candidate exit columns (12-17) along Row 7/8 for Main Front Entrance.
+- Active Navigation Plan: Re-entering 1F at (1, 1) via side door. Walking across 1F to front center lobby (Cols 6-8, Row 7/8) to test Main Front Entrance Exit Warp.
 
 <hr>
 
@@ -754,10 +754,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 40771)
-- Location: Celadon City Courtyard (0, 3)
+## CURRENT STATUS & DASHBOARD (Turn 40772)
+- Location: Celadon Department Store 1F (1, 2)
 - Primary Goal: Give Fresh Water to Saffron Guards to Open Saffron City
-- Active Navigation Plan: Re-entering 1F at (1, 1) via side door. Walking across 1F to front center lobby (Cols 6-8, Row 7/8) to test Main Front Entrance Exit Warp.
+- Active Navigation Plan: Inside 1F at (1, 2). Walking Down 3 to Row 5 (1, 5), Right 9 to (10, 5), and Down 2 to (10, 7) to reach front center lobby (Cols 6-8, Row 7/8).
 
 <hr>
 
@@ -811,6 +811,6 @@
 - Department Store 1F Geography: Side Door Warp inside 1F is at (1, 1) (connects to Celadon City Courtyard 1, 3). Reception counter is at x=5..9, y=6. Row 5 (y=5) is open corridor connecting West (x=1) to East (x=19).
 - Master Exit Highway: Row 2 (y=2) is open yellow floor across Cols 1-14 connecting Col 10 (10, 2) directly West to Side Door Warp at (1, 1).
 - Empirical Observation: Tile (9, 7) is a solid reception counter corner wall.
-- West Courtyard Highway Exit: Row 1 & Row 2 pavement at (0, 1) / (0, 2) connects directly East across Celadon City North Highway to East Celadon City and Route 7 (49, 11).
+- West Courtyard: Enclosed 4x3 dead-end alcove (Cols 0-3, Rows 1-3) serving the side door entrance. Tile (0, 4) is a solid boundary wall.
 
 <hr>
