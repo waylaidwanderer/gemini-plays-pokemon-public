@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41456)
-- Location: Saffron City (8, 2) [Outside West Gatehouse East door]
-- Primary Goal: Exit West Gatehouse to Route 7 -> Underground Path to Route 8 -> enter Saffron East Gatehouse to reach Central Saffron City.
-- Active Navigation Plan: Press Left 1 to enter Saffron West Gatehouse East door at (7, 2).
+## CURRENT STATUS & DASHBOARD (Turn 41491)
+- Location: Saffron City (8, 10)
+- Primary Goal: Verify Eastbound passage along Row 12/14 in Saffron City to reach Central Saffron City (Pokemon Center, Silph Co, Gyms).
+- Active Navigation Plan: Walk South to Row 12/14 pavement, then East towards Column 17/18 to test if Central Saffron City is directly accessible.
 
 <hr>
 
@@ -835,7 +835,7 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Empirical Result: The Northwest sector (Cols 2..16, Rows 2..15) is fully enclosed by trees (North/South/West) and Column 17 wooden fence (East).
 - Central City Route Strategy: The Northwest Sector is an isolated courtyard. To access Central Saffron City (Pokemon Center, Silph Co, Gyms), exit West Gatehouse back to Route 7, take Underground Path to Route 8 / Route 5 / Route 6, and enter Saffron City through the East, South, or North Gatehouse!
 - EMPIRICAL PROBE RESULT (Turn 41333): Column 17 is a solid wooden fence across ALL Rows 2 through 15 (bumped at 17, 15 on turn 41333). The West Saffron sector (Cols 2..16) is completely isolated from Central Saffron City.
-- CENTRAL SAFFRON ACCESS CONFIRMED (Turn 41426): Row 12/14 light grey pavement highway spanning Cols 8..16 is OPEN and connects directly East into Central Saffron City!
+- UNVERIFIED ROUTE HYPOTHESIS: Row 12/14 light grey pavement highway spanning Cols 8..16 is being tested to verify if it connects directly East into Central Saffron City past Col 17.
 
 <hr>
 
