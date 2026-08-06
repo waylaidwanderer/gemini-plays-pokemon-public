@@ -960,18 +960,21 @@ This is the verified, 100% accurate, most step-efficient route to reach Area 3 (
   - Walk East 1 step to transition: (29, 11) -> (0, 23) in Area 1.
 - Total steps: 29 steps.
 
-## Part 2: Safari Zone Area 1 (East)
+## Part 2: Safari Zone Area 1 (East) (VERIFIED PLATEAU ROUTE)
 - Enter at (0, 23).
 - Walk Down 1 step to (0, 24).
-- Walk East to Column 8: (8, 24). (8 steps)
-- Walk North to Row 8: (8, 8). (16 steps)
-- Walk East to Column 12: (12, 8). (4 steps)
-- Walk North 2 steps to climb the stairs at (12, 7) onto the plateau: ends at (12, 6). (2 steps)
-- Walk East to Column 17: (17, 6). (5 steps)
-- Walk South 2 steps to climb down the stairs at (17, 7) to ground level: ends at (17, 8). (2 steps)
-- Walk West to Column 0: (0, 8). (17 steps)
+- Walk East to Column 20: (20, 24). (20 steps)
+- Walk North to Row 21: (20, 21). (3 steps)
+- Walk North 1 step onto the southern stairs at (20, 21) to climb onto the plateau: lands at (20, 20). (1 step)
+- Walk West on the plateau to Column 12: (12, 20). (8 steps)
+- Walk South 1 step onto the western stairs at (12, 21) to climb down to ground level: lands at (12, 22). (1 step)
+- Walk North on the ground level to Row 7: (12, 7). (15 steps)
+- Walk North 1 step onto the stairs at (12, 7) to climb onto the northern plateau: lands at (12, 6). (1 step)
+- Walk East on the northern plateau to Column 17: (17, 6). (5 steps)
+- Walk South 1 step onto the stairs at (17, 7) to climb down to ground level: lands at (17, 8). (1 step)
+- Walk West on the ground level to Column 0: (0, 8). (17 steps)
 - Walk North to Row 5: (0, 5) to transition to Area 2. (3 steps)
-- Total steps: 58 steps (Cumulative: 87 steps).
+- Total steps: 76 steps (Cumulative: 105 steps).
 
 ## Part 3: Safari Zone Area 2 (North)
 - Enter at (39, 31) on the southern ground level.
@@ -985,8 +988,8 @@ This is the verified, 100% accurate, most step-efficient route to reach Area 3 (
 - Walk West to Column 2: (2, 9). (14 steps)
 - Walk South to Row 31: (2, 31). (22 steps)
 - Walk West to Column 0: (0, 31) to transition to Area 3 (West). (2 steps)
-- Total steps: 94 steps (Cumulative: 181 steps).
-- Steps remaining upon entering Area 3: **319 steps**.
+- Total steps: 94 steps (Cumulative: 199 steps).
+- Steps remaining upon entering Area 3: **301 steps**.
 
 
 <hr>
