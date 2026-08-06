@@ -962,7 +962,7 @@ To transition from the northwestern ground level to the southwestern exit of Are
 1. Spawn in Center at `(15, 25)`.
 2. Walk North to `(15, 23)`.
 3. Walk East along Row 23 to Column 29 `(29, 23)`.
-4. Walk North to `(29, 11)` or `(29, 12)` and step Right to transition to **Area 1 (East)** at `(0, 11)`.
+4. Walk East along Row 23 (or Row 26) to Column 29 and step Right to transition to **Area 1 (East)** at `(0, 11)`.
 
 ## Part 3: Route through Area 1 (East) to Area 2 (North)
 1. Enter Area 1 (East) at `(0, 11)`.
