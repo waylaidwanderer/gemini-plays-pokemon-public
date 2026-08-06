@@ -5,3 +5,4 @@
 - Celadon Pokemon Center Interior: Entrance at (3, 7), Nurse Joy at (3, 2), PC at (11, 3).
 - Celadon Mansion (Condominiums): Front door at (24, 9) in Central Celadon City.
 - Celadon Department Store: Located in West Celadon City at x=8..13, y=7..12. Front entrance door at (10, 13), accessed from Row 14 pavement at (10, 14).
+- Department Store 1F Stairs: Stairs located at (12, 1), accessed from (12, 2).
