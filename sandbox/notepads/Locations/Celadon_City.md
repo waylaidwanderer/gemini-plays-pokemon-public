@@ -12,5 +12,4 @@
 - Department Store 5F Stairs: Stairs UP to Rooftop located at (12, 1), accessed from (12, 2).
 - Department Store 1F Geography: Side Door Warp inside 1F is at (1, 1) (connects to Celadon City Courtyard 1, 3). Reception counter is at x=5..9, y=6. Row 5 (y=5) is open corridor connecting West (x=1) to East (x=19).
 - Master Exit Highway: Row 2 (y=2) is open yellow floor across Cols 1-14 connecting Col 10 (10, 2) directly West to Side Door Warp at (1, 1).
-- Empirical Observation: Tile (9, 7) is a solid reception counter corner wall.
 - West Courtyard: Enclosed 4x3 dead-end alcove (Cols 0-3, Rows 1-3) serving the side door entrance. Tile (0, 4) is a solid boundary wall.
