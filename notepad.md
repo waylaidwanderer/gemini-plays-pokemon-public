@@ -754,10 +754,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 40905)
-- Location: Celadon Department Store 3F (6, 5)
+## CURRENT STATUS & DASHBOARD (Turn 40908)
+- Location: Celadon Department Store 4F (11, 2)
 - Primary Goal: Give Fresh Water to Saffron Guards to Open Saffron City
-- Active Navigation Plan: Textbox 'A sports game!' open on 3F. Dismissing textbox with B, then walking Right 10 to (16, 5), Up 3 to (16, 2), and Up 1 to (16, 1) stairs to 4F.
+- Active Navigation Plan: Walking Right 5 along Row 2 yellow check floor to (16, 2), then Up 1 to (16, 1) stairs to 5F.
 
 <hr>
 
