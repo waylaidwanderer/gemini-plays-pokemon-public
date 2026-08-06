@@ -906,11 +906,10 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 
 # Safari Zone - Overworld Layout & Navigation Guide
 
-## Run Statistics (Current Run)
-- **Start Turn:** 23448 (Fresh run, paid ¥500, received 30 Safari Balls, 500 step budget)
-- **Current Turn:** 23761
-- **Steps Taken:** 417 steps
-- **Remaining Steps:** 83 steps
+## Run Statistics (Previous Run - Ended)
+- **Start Turn:** 23448 (Run ended due to step budget exhaustion on Turn 23787)
+- **End Turn:** 23787
+- **Result:** Explored Area 1 (East) and entered Area 2 (North) up to Column 25. Fully mapped the island plateau bypass in Area 1.
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
