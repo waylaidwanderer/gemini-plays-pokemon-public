@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 41153)
-- Location: Celadon City East (16, 2)
+## CURRENT STATUS & DASHBOARD (Turn 41155)
+- Location: Celadon City (19, 3)
 - Primary Goal: Give Fresh Water to Saffron Gatehouse Guard
-- Active Navigation Plan: Step Down 1 to Row 3 highway (16, 3), then walk Right across Row 3 toward Route 7 Entrance at (49, 11).
+- Active Navigation Plan: Walk Left 3 to (16, 3) and Down 3 into Celadon Mansion front door at (16, 6) to pass through to East Celadon City and Route 7 Entrance at (49, 11).
