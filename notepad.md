@@ -754,10 +754,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 40872)
-- Location: Celadon Department Store 2F (12, 2)
+## CURRENT STATUS & DASHBOARD (Turn 40876)
+- Location: Celadon Department Store 2F (10, 2)
 - Primary Goal: Give Fresh Water to Saffron Guards to Open Saffron City
-- Active Navigation Plan: Standing at (12, 2) on 2F. Walking Left 4 to (8, 2) and Up 1 to (8, 1) Elevator Door to test elevator floors (1F, 1F Exit, B1F).
+- Active Navigation Plan: Standing at (10, 2) facing UP towards Elevator Door at (10, 1). Stepping Up into (10, 1) to enter the Elevator.
 
 <hr>
 
