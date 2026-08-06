@@ -835,6 +835,7 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Empirical Result: The Northwest sector (Cols 2..16, Rows 2..15) is fully enclosed by trees (North/South/West) and Column 17 wooden fence (East).
 - Central City Route Strategy: The Northwest Sector is an isolated courtyard. To access Central Saffron City (Pokemon Center, Silph Co, Gyms), exit West Gatehouse back to Route 7, take Underground Path to Route 8 / Route 5 / Route 6, and enter Saffron City through the East, South, or North Gatehouse!
 - EMPIRICAL PROBE RESULT (Turn 41333): Column 17 is a solid wooden fence across ALL Rows 2 through 15 (bumped at 17, 15 on turn 41333). The West Saffron sector (Cols 2..16) is completely isolated from Central Saffron City.
+- CENTRAL SAFFRON ACCESS CONFIRMED (Turn 41426): Row 12/14 light grey pavement highway spanning Cols 8..16 is OPEN and connects directly East into Central Saffron City!
 
 <hr>
 
