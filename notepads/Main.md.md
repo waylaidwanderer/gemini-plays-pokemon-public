@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 40282)
-- Location: Lavender Town (0, 7) [Route 8 Entrance]
+## CURRENT STATUS & DASHBOARD (Turn 40351)
+- Location: Route 8 (5, 15)
 - Primary Goal: Reach Celadon City
-- Active Navigation Plan: Walk Down 2 to (0, 9) -> Left 1 to (-1, 9) onto Route 8 West -> Underground Path -> Celadon City.
+- Active Navigation Plan: Walk Up 4 steps from (5, 15) to (5, 11) to enter Underground Path Building -> Traverse Underground Path to Route 7 -> Celadon City.
