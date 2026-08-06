@@ -754,10 +754,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41060)
-- Location: Celadon Department Store 1F (1, 2)
+## CURRENT STATUS & DASHBOARD (Turn 41063)
+- Location: Celadon Department Store 1F (5, 5)
 - Primary Goal: Give Fresh Water to Saffron Gatehouse Guard
-- Active Navigation Plan: Walk Down 3 to (1, 5), East along Row 5 to Column 16, then Down to front exit door warp.
+- Active Navigation Plan: Walk Left 4 to (1, 5), Up 4 through (1, 1) side door warp to enter Courtyard, then use Teleport to warp to Celadon Pokemon Center.
 
 <hr>
 
