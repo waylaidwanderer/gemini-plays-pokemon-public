@@ -964,9 +964,9 @@ To transition from the northwestern ground level to the southwestern exit of Are
 
 ## Run Statistics (Current Run)
 - **Start Turn:** 23448 (Fresh run, paid ¥500, received 30 Safari Balls, 500 step budget)
-- **Current Turn:** 23593
-- **Steps Taken:** 145 steps
-- **Remaining Steps:** 355 steps
+- **Current Turn:** 23611
+- **Steps Taken:** 194 steps
+- **Remaining Steps:** 306 steps
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
@@ -975,6 +975,9 @@ To transition from the northwestern ground level to the southwestern exit of Are
 - **Southeastern Ground-Level Pocket:** The area around columns 24-28, rows 16-24 is a **completely closed pocket** with no ground-level exit.
   - **Boundaries:** Bounded by impassable sand cliffs of the plateau on the north and west, a solid row of Rhydon statues and trees at Row 25 on the south, and a solid tree wall at Column 29 on the east.
   - **Navigation Note:** Entering this pocket requires backtracking up the staircase at `(24, 15)` to return to the plateau. Never go down this staircase if trying to reach Area 2 (North).
+- **Western Ground-Level Closed Pocket:** The horizontal corridor from Column 7 to Column 15 on Row 22 is an impassable, closed dead-end pocket.
+  - **Boundaries:** Bounded by the plateau's cliff wall on Row 21 to the north, a solid log fence at Row 23 (columns 5-15) to the south, a solid tree/statue barrier at Column 6 to the west, and a pine tree at `(16, 22)` to the east.
+  - **Navigation Note:** If you descend the western staircase at `(12, 21)`, you enter this pocket and must immediately backtrack up the staircase to escape.
 
 ## Area 2 (North) Map & Collision Structures
 
