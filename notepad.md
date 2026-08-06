@@ -754,10 +754,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41456)
-- Location: Saffron City (8, 2) [Outside West Gatehouse East door]
-- Primary Goal: Exit West Gatehouse to Route 7 -> Underground Path to Route 8 -> enter Saffron East Gatehouse to reach Central Saffron City.
-- Active Navigation Plan: Press Left 1 to enter Saffron West Gatehouse East door at (7, 2).
+## CURRENT STATUS & DASHBOARD (Turn 41491)
+- Location: Saffron City (8, 10)
+- Primary Goal: Verify Eastbound passage along Row 12/14 in Saffron City to reach Central Saffron City (Pokemon Center, Silph Co, Gyms).
+- Active Navigation Plan: Walk South to Row 12/14 pavement, then East towards Column 17/18 to test if Central Saffron City is directly accessible.
 
 <hr>
 
