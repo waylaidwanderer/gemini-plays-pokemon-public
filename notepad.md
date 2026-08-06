@@ -754,10 +754,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 40761)
-- Location: Celadon Department Store 1F (10, 7)
+## CURRENT STATUS & DASHBOARD (Turn 40764)
+- Location: Celadon City Courtyard (0, 3)
 - Primary Goal: Give Fresh Water to Saffron Guards to Open Saffron City
-- Active Navigation Plan: Standing at (10, 7) in 1F. Walking Up 2, Left 9 to (1, 5), Up 4 to (1, 1) side door warp to exit to Celadon City Courtyard (1, 3), then Left to (0, 3) and South along Col 0 to Row 14 Main Street.
+- Active Navigation Plan: Standing at (0, 3) in Courtyard. Re-entering 1F at (1, 1) via side door to systematically probe candidate exit columns (6-8, 12-17) on Row 7/8 for Main Front Exit.
 
 <hr>
 
