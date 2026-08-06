@@ -8,7 +8,7 @@
 Total steps for Part 1: 15 steps.
 
 ## Part 2: Safari Zone Area 1 (East) (VERIFIED ROUTE)
-*Note: The eastern ground corridor (columns 28-29) was physically proven on Turn 22055 to be completely blocked by a solid wall of trees at Row 15, and the southern/western ground corridors are divided by fences and ledges. Therefore, we must climb the southern stairs to bypass Row 23, cross the plateau directly on Row 20 to the western stairs, and descend to the north-west ground level.*
+*Note: The plateau route is our verified route to cross Area 1 (East) to the northwestern ground level where the transition to Area 2 (North) is located.*
 1. Enter at (0, 23).
 2. Walk Down 1 step to (0, 24).
 3. Walk East along Row 24 to Column 20: (20, 24).
