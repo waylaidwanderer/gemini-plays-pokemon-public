@@ -754,10 +754,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41382)
-- Location: Saffron City (5, 14) [Oak Dialogue]
-- Primary Goal: Enter Gatehouse, use Dig inside Gatehouse to warp to last Pokemon Center, then enter Central Saffron via East Gatehouse.
-- Active Navigation Plan: Press B 3 times to close menus, Up 1 into West Gatehouse (5, 13), then use Dig inside Gatehouse.
+## CURRENT STATUS & DASHBOARD (Turn 41384)
+- Location: Saffron City (5, 14) [Start Menu]
+- Primary Goal: Enter West Gatehouse and use Dig inside building to warp to last Pokemon Center.
+- Active Navigation Plan: B to close menu, Up 1 into Gatehouse (5, 13), Start, Down 1 to Pokemon, A on Shellshock, A on Dig.
 
 <hr>
 
