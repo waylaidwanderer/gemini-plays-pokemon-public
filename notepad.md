@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 39901)
+## CURRENT STATUS & DASHBOARD (Turn 39903)
 - Location: Rock Tunnel B1F (33, 16)
 - Primary Goal: Exit Rock Tunnel B1F -> 1F East Cavern -> Route 10 South -> Lavender Town -> Route 8 West -> Underground Path -> Celadon City.
-- Active Navigation Route: At (33, 16) on Row 16 Highway: Run from Zubat -> explore East/North passage to Row 4 Exit Chamber / Main Exit Ladder at (27, 3).
+- Active Navigation Route: At (33, 16) on Row 16 Highway: Dismiss text -> Right 1 to (34, 16) -> probe North 3 steps along Col 34 to evaluate passage.
 
 <hr>
 
@@ -772,9 +772,9 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 39903)
-- Location: Rock Tunnel B1F (33, 16)
+## CURRENT STATUS & DASHBOARD (Turn 39904)
+- Location: Rock Tunnel B1F (34, 16)
 - Primary Goal: Exit Rock Tunnel B1F -> 1F East Cavern -> Route 10 South -> Lavender Town -> Route 8 West -> Underground Path -> Celadon City.
-- Active Navigation Route: At (33, 16) on Row 16 Highway: Dismiss text -> Right 1 to (34, 16) -> probe North 3 steps along Col 34 to evaluate passage.
+- Active Navigation Route: From (34, 16): Walk Left 1 step to Col 33 (33, 16) -> South 14 steps to Row 30 Sector Bypass at (33, 30) -> Left 16 steps along Row 30 to Col 17 Highway at (17, 30) -> North 26 steps along Col 17 Highway to Row 4 Exit Chamber at (17, 4) -> East 10 steps to (27, 4) -> North 1 step to Main Exit Ladder at (27, 3) -> Warp to 1F East Cavern (37, 3) -> West 22 steps along Row 3 Top Highway to Route 10 South Exit at (15, 3).
 
 <hr>
