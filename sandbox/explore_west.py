@@ -1,24 +1,19 @@
 import mgba
 import time
 
-def step(direction):
-    pos_before = mgba.get_coordinates()
-    mgba.press_buttons([direction])
-    time.sleep(0.5)
-    pos_after = mgba.get_coordinates()
-    print(f"Step {direction}: {pos_before} -> {pos_after}")
-    return pos_before != pos_after
+def explore_west():
+    print("Starting exploration west from (16, 28)...")
+    for i in range(16):
+        pos_before = mgba.get_coordinates()
+        mgba.press_buttons(["Left"])
+        time.sleep(0.3)
+        pos_after = mgba.get_coordinates()
+        print(f"Step {i+1}: Tried Left from {pos_before} -> ended at {pos_after}")
+        if pos_before == pos_after:
+            print("Blocked! Taking screenshot...")
+            screenshot = mgba.take_screenshot()
+            print(f"Screenshot saved to: {screenshot}")
+            break
 
-# Let's walk back to the left from (24, 23)
-# To go left:
-# First we need to go down to row 24 or 25 since row 23 has those rocks/bars?
-# Wait, at (24, 23), can we walk Left? 
-# Let's try to walk Left 5 times and see what happens.
-for i in range(15):
-    if not step("Left"):
-        print("Blocked walking Left.")
-        break
-
-# Let's see what coordinates we are at now
-print(f"Final coordinates: {mgba.get_coordinates()}")
-mgba.take_screenshot()
+if __name__ == "__main__":
+    explore_west()
