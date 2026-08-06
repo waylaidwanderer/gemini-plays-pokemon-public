@@ -1085,3 +1085,9 @@ Total steps for Part 1: 15 steps.
    - Walk West along the southern grass corridor to the bottom-left corner of Area 2 (columns 0-4, rows 30-35) to transition to Area 3 (West).
 
 <hr>
+
+<h1><code>Locations/SafariZone_Area1_East_Boundaries</code></h1>
+
+
+
+<hr>
