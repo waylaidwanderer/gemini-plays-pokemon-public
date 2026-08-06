@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41259)
-- Location: Saffron City (4, 15)
-- Primary Goal: Systematically probe Col 17 (y=2..15) for open gap or Cut tree to reach Central Saffron City.
-- Active Navigation Plan: Walk Right to (16, 15) to begin Col 16 vertical probe of Col 17.
+## CURRENT STATUS & DASHBOARD (Turn 41268)
+- Location: Saffron City (16, 13)
+- Primary Goal: Test Northwest Building doors at y=11 across x=12..15.
+- Active Navigation Plan: Walk Row 12 testing UP at x=15, 14, 13, 12 for Copycat house entrance.
 
 <hr>
 
