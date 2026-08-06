@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 39852)
-- Location: Rock Tunnel B1F (33, 28)
+## CURRENT STATUS & DASHBOARD (Turn 39853)
+- Location: Rock Tunnel B1F (33, 18)
 - Primary Goal: Exit Rock Tunnel B1F -> 1F East Cavern -> Route 10 South -> Lavender Town -> Route 8 West -> Underground Path -> Celadon City.
-- Active Navigation Route: From (33, 28) on Col 33 Highway: Walk North 12 steps along Col 33 Highway to Row 16 at (33, 16) -> East 2 steps to Col 35 at (35, 16) -> North 12 steps along Col 35 Upper Northern Passage to Row 4 Exit Chamber at (35, 4) -> West 8 steps to Col 27 at (27, 4) -> North 1 step to Main Exit Ladder at (27, 3) -> Warp to 1F East Cavern (37, 3) -> West 22 steps along Row 3 Top Highway to Route 10 South Exit at (15, 3).
+- Active Navigation Route: From (33, 18) on Col 33 Highway: Walk North 2 steps along Col 33 Highway to Row 16 at (33, 16) -> East 2 steps to Col 35 at (35, 16) -> North 12 steps along Col 35 Upper Northern Passage to Row 4 Exit Chamber at (35, 4) -> West 8 steps to Col 27 at (27, 4) -> North 1 step to Main Exit Ladder at (27, 3) -> Warp to 1F East Cavern (37, 3) -> West 22 steps along Row 3 Top Highway to Route 10 South Exit at (15, 3).
 
 <hr>
 
@@ -772,9 +772,9 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 39853)
-- Location: Rock Tunnel B1F (33, 18)
+## CURRENT STATUS & DASHBOARD (Turn 39854)
+- Location: Rock Tunnel B1F (35, 16)
 - Primary Goal: Exit Rock Tunnel B1F -> 1F East Cavern -> Route 10 South -> Lavender Town -> Route 8 West -> Underground Path -> Celadon City.
-- Active Navigation Route: From (33, 18) on Col 33 Highway: Walk North 2 steps along Col 33 Highway to Row 16 at (33, 16) -> East 2 steps to Col 35 at (35, 16) -> North 12 steps along Col 35 Upper Northern Passage to Row 4 Exit Chamber at (35, 4) -> West 8 steps to Col 27 at (27, 4) -> North 1 step to Main Exit Ladder at (27, 3) -> Warp to 1F East Cavern (37, 3) -> West 22 steps along Row 3 Top Highway to Route 10 South Exit at (15, 3).
+- Active Navigation Route: From (35, 16) on Row 16: Walk West 8 steps along Row 16 to Col 27 Highway at (27, 16) -> West 10 steps to Col 17 Highway at (17, 16) -> North 12 steps along Col 17 Highway to Row 4 Exit Chamber at (17, 4) -> East 10 steps to Main Exit Ladder at (27, 3) -> Warp to 1F East Cavern (37, 3) -> West 22 steps along Row 3 Top Highway to Route 10 South Exit at (15, 3).
 
 <hr>
