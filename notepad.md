@@ -758,9 +758,9 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 40231)
-- Location: Route 10 South (3, 56) [Trainer Battle vs Hiker]
+## CURRENT STATUS & DASHBOARD (Turn 40241)
+- Location: Lavender Town (2, 62)
 - Primary Goal: Reach Celadon City
-- Active Navigation Plan: Defeat Hiker -> Walk Left to Col 2 at (2, 56) -> Walk Down 5 steps into Lavender Town -> Route 8 West -> Underground Path -> Celadon City.
+- Active Navigation Plan: Walk South into Lavender Town -> Route 8 West at (0, 9) -> Underground Path -> Celadon City.
 
 <hr>
