@@ -806,6 +806,6 @@
 - Department Store 3F Stairs: Stairs UP to 4F located at (12, 1), accessed from (12, 2).
 - Department Store 4F Stairs: Stairs UP to 5F located at (16, 1), accessed from (16, 2).
 - Department Store 5F Stairs: Stairs UP to Rooftop located at (12, 1), accessed from (12, 2).
-- Department Store 1F Geography: Main Front Door Warp inside 1F is at (16, 7) (connects to Celadon City 10, 14). Side Door Warp inside 1F is at (1, 1) (connects to Celadon City Courtyard 1, 3). Row 5 (y=5) is open yellow tile hallway connecting West (x=1) to East (x=16).
+- Department Store 1F Geography: Main Front Door Warp inside 1F is at (18, 7) / (19, 7) (connects to Celadon City 10, 14). Side Door Warp inside 1F is at (1, 1) (connects to Celadon City Courtyard 1, 3). Row 5 (y=5) is open yellow tile hallway connecting West (x=1) to East (x=18).
 
 <hr>
