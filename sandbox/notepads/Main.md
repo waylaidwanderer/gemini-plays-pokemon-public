@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 41420)
-- Location: Saffron West Gatehouse 1F (6, 1)
+## CURRENT STATUS & DASHBOARD (Turn 41423)
+- Location: Saffron City (5, 14) [Outdoors]
 - Primary Goal: Locate Pokemon Center and Gyms in Central Saffron City
-- Active Navigation Plan: Walk Left 3 to (3, 1), Down 7 to exit south door to Saffron City outdoors (5, 14), then Right 3 to Column 8 street at (8, 14).
+- Active Navigation Plan: Walk Right 3 to (8, 14), Up 4 to (8, 10), Right 3 to (11, 10) on Row 10 highway into Central Saffron City.
