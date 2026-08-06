@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41391)
-- Location: Saffron West Gatehouse 1F (3, 7) [Trainer Card]
-- Primary Goal: Inspect Item Bag for escape/warp items or Teleport TM
-- Active Navigation Plan: Press B to close Trainer Card, Up 1 to Item, A to open Item Bag.
+## CURRENT STATUS & DASHBOARD (Turn 41394)
+- Location: Saffron West Gatehouse 1F (3, 7) [Item Bag Menu]
+- Primary Goal: Inspect Item Bag for Escape Rope / Antidote / TMs / Key Items
+- Active Navigation Plan: Scroll Down through Item Bag to view full list of items.
 
 <hr>
 
