@@ -754,10 +754,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41387)
-- Location: Saffron West Gatehouse 1F (3, 7)
-- Primary Goal: Enter Central Saffron City via Saffron East Gatehouse
-- Active Navigation Plan: Press Start, Down to Pokemon, A on Shellshock, A on Dig to warp to last Pokemon Center.
+## CURRENT STATUS & DASHBOARD (Turn 41391)
+- Location: Saffron West Gatehouse 1F (3, 7) [Trainer Card]
+- Primary Goal: Inspect Item Bag for escape/warp items or Teleport TM
+- Active Navigation Plan: Press B to close Trainer Card, Up 1 to Item, A to open Item Bag.
 
 <hr>
 
