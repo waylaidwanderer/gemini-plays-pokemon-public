@@ -1026,9 +1026,9 @@ This guide documents the exact coordinate layout and verified physical boundarie
 
 ## Run Statistics (Current Run)
 - **Start Turn:** 22140 (Fresh run, paid ¥500, received 30 Safari Balls, 500 step budget)
-- **Current Turn:** 22331 (191 turns elapsed)
-- **Steps Taken:** 403 steps
-- **Remaining Steps:** 97 steps
+- **Current Turn:** 22334 (194 turns elapsed)
+- **Steps Taken:** 406 steps
+- **Remaining Steps:** 94 steps
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
