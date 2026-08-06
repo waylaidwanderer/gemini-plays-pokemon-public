@@ -963,10 +963,10 @@ To transition from the northwestern ground level to the southwestern exit of Are
 # Safari Zone - Overworld Layout & Navigation Guide
 
 ## Run Statistics (Current Run)
-- **Start Turn:** 23161 (Fresh run, paid ¥500, received 30 Safari Balls, 500 step budget)
-- **Current Turn:** 23572
-- **Steps Taken:** 140 steps
-- **Remaining Steps:** 360 steps
+- **Start Turn:** 23448 (Fresh run, paid ¥500, received 30 Safari Balls, 500 step budget)
+- **Current Turn:** 23581
+- **Steps Taken:** 150 steps
+- **Remaining Steps:** 350 steps
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
