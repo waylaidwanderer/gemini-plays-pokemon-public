@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41406)
-- Location: Saffron West Gatehouse 2F (2, 5)
+## CURRENT STATUS & DASHBOARD (Turn 41408)
+- Location: Saffron West Gatehouse 1F (4, 4)
 - Primary Goal: Locate Pokemon Center and Gyms in Central Saffron City
-- Active Navigation Plan: Descend to 1F (4, 4), walk Up to (4, 3), Right to (5, 3), and Right to (6, 3) / (7, 3) to reach Saffron City East exit.
+- Active Navigation Plan: Walk Up 1 to (4, 3), Right 1 to (5, 3), Right 3 to exit East door to Saffron City North Street at (8, 2).
 
 <hr>
 
@@ -754,10 +754,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41408)
-- Location: Saffron West Gatehouse 1F (4, 4)
-- Primary Goal: Locate Pokemon Center and Gyms in Central Saffron City
-- Active Navigation Plan: Walk Up 1 to (4, 3), Right 1 to (5, 3), Right 3 to exit East door to Saffron City North Street at (8, 2).
+## CURRENT STATUS & DASHBOARD (Turn 41409)
+- Location: Saffron West Gatehouse 2F (4, 4)
+- Primary Goal: Exit West Gatehouse south door to Saffron City outdoors (5, 14)
+- Active Navigation Plan: Walk Left 2 to (2, 4), Down 1 to descend stairs to 1F (4, 4), then Down 4 to exit south door to Saffron City (5, 14).
 
 <hr>
 
