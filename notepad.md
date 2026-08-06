@@ -968,7 +968,9 @@ This is the verified, 100% accurate, most step-efficient route to reach Area 3 (
 - Walk North 1 step onto the southern stairs at (20, 21) to climb onto the plateau: lands at (20, 20). (1 step)
 - Walk West on the plateau to Column 12: (12, 20). (8 steps)
 - Walk South 1 step onto the western stairs at (12, 21) to climb down to ground level: lands at (12, 22). (1 step)
-- Walk North on the ground level to Row 7: (12, 7). (15 steps)
+- Walk Left to Column 8 on Row 22: (8, 22). (4 steps)
+- Walk North on the ground level to Row 8: (8, 8). (14 steps)
+- Walk East to Column 12: (12, 8). (4 steps)
 - Walk North 1 step onto the stairs at (12, 7) to climb onto the northern plateau: lands at (12, 6). (1 step)
 - Walk East on the northern plateau to Column 17: (17, 6). (5 steps)
 - Walk South 1 step onto the stairs at (17, 7) to climb down to ground level: lands at (17, 8). (1 step)
@@ -1006,9 +1008,9 @@ This is the verified, 100% accurate, most step-efficient route to reach Area 3 (
 
 ## Run Statistics (Current Run)
 - **Start Turn:** 22640 (Fresh run, paid ¥500, received 30 Safari Balls, 500 step budget)
-- **Current Turn:** 22678 (38 turns elapsed)
-- **Steps Taken:** 59 steps
-- **Remaining Steps:** 441 steps
+- **Current Turn:** 22681 (41 turns elapsed)
+- **Steps Taken:** 64 steps
+- **Remaining Steps:** 436 steps
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
