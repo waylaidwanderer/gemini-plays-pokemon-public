@@ -23,3 +23,10 @@ This guide documents the exact coordinate layout and verified physical boundarie
 ## Routing Implications
 1. **Trapped Southern Pocket:** The ground area bounded by columns 24-28 and rows 16-24 is a completely closed pocket (bounded by row 15 cliff, row 25 statues, column 23 plateau cliff, and column 29 vertical bush wall). The only exit is climbing the stairs at (24, 15).
 2. **West-to-East Plateau Crossing:** Since the central pond blocks columns 12-19 on rows 14-17, the only way to cross from the west stairs (12, 21) to the east stairs (24, 15) is using the narrow plateau land bridge on the north bank (row 13 and above) or the south bank (row 18).
+
+## Northern Plateau Cliffs & Obstacles (Rows 4-6)
+- **Column 10 West Cliff Face (Rows 4-7):** Bounded on the west by a solid vertical cliff face across column 10, rows 4-7. Walking Left (West) from the plateau (column 11) to the ground level (column 10) is physically blocked.
+- **Column 19 East Cliff Face (Rows 4-6):** Bounded on the east by a solid vertical cliff face across column 19, rows 4-6. Walking Right (East) from the plateau (column 18) is physically blocked.
+- **Row 6 Ground South Bush Barrier:** Bounded on the south by a solid unbroken line of dark green bushes from Column 2 to Column 9 on Row 6. Walking UP from Row 7 to Row 5 is completely blocked across these columns on ground level.
+- **Row 4 Plateau North Cliff Face:** Bounded on the north by a solid horizontal cliff face along Row 4. Walking UP (North) from Row 4 on the plateau to Row 3 on the ground is physically blocked.
+- **Plateau Eastern Stairs (17, 7):** Connects the plateau at (17, 6) to the ground at (17, 8).
