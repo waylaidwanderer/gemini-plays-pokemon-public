@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 40632)
-- Location: Celadon City Overworld (1, 3)
+## CURRENT STATUS & DASHBOARD (Turn 40635)
+- Location: Celadon City Overworld (0, 3)
 - Primary Goal: Give Fresh Water to Saffron Guards to Open Saffron City
-- Active Navigation Plan: Stepping Left to (0, 3) sidewalk to clear warp zone, then South along Column 0 to Row 11 highway and East to Route 7 entrance at (49, 11).
+- Active Navigation Plan: Walking Down 8 steps along Column 0 to Row 11 highway, then East across Celadon City to Route 7 entrance at (49, 11).
