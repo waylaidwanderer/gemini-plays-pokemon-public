@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 40934)
-- Location: Celadon City Courtyard (1, 3)
-- Primary Goal: Give Fresh Water to Saffron Guards to Open Saffron City
-- Active Navigation Plan: Standing at (1, 3) on red door mat facing DOWN. Walking Right 2 to (3, 3) onto pavement, then Up 3 to (3, 0) archway passage.
+## CURRENT STATUS & DASHBOARD (Turn 40951)
+- Location: Celadon Department Store 1F (10, 7)
+- Primary Goal: Give Fresh Water to Saffron Gatehouse Guard
+- Active Navigation Plan: Walk Up 2 to (10, 5) on Row 5 corridor, walk East to Column 16, then Down to front door exit warp at (16, 7).
 
 <hr>
 
@@ -788,7 +788,7 @@
 - Department Store 4F Stairs: Stairs UP to 5F located at (16, 1), accessed from (16, 2).
 - Department Store 5F Stairs: Stairs UP to Rooftop located at (12, 1), accessed from (12, 2).
 - Department Store 1F Geography: Side Door Warp inside 1F is at (1, 1) (connects to Celadon City Courtyard 1, 3). Reception counter is at x=5..9, y=6. Row 5 (y=5) is open corridor connecting West (x=1) to East (x=19).
-- Master Exit Highway: Row 2 (y=2) is open yellow floor across Cols 1-14 connecting Col 10 (10, 2) directly West to Side Door Warp at (1, 1).
+- Department Store 1F Front Door Exit: Located at (16, 7) inside 1F (warps to Celadon City 10, 14).
 - West Courtyard: Enclosed 4x3 dead-end alcove (Cols 0-3, Rows 1-3) serving the side door entrance. Tile (0, 4) is a solid boundary wall.
 
 <hr>
