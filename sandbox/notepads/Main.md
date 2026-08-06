@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 40932)
-- Location: Celadon Department Store 1F (2, 2)
+## CURRENT STATUS & DASHBOARD (Turn 40934)
+- Location: Celadon City Courtyard (1, 3)
 - Primary Goal: Give Fresh Water to Saffron Guards to Open Saffron City
-- Active Navigation Plan: Standing at (2, 2) on 1F facing UP. Stepping Left 1 to (1, 2) and Up 1 to (1, 1) Side Door Exit Warp.
+- Active Navigation Plan: Standing at (1, 3) on red door mat facing DOWN. Walking Right 2 to (3, 3) onto pavement, then Up 3 to (3, 0) archway passage.
