@@ -197,7 +197,6 @@
 
 ## Rock Tunnel 1F Topography & Coordinates
 - Route 10 Entrance: (15, 3) (North Entrance from Route 10 North)
-- Secondary Ladder: (3, 3) in Western Sector connects down to B1F at (37, 17).
 - Main B1F Ladder (37, 3) East Chamber: Bounded by rock wall at x=33 (y=3) and y=1 (x=34-37). Open exit corridor is at Column 33 running North through (33, 2), (33, 1), (33, 0).
 
 - Row 16 & Row 22-23 Barriers: Solid rock walls in western sector.
