@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 40476)
-- Location: Celadon City (49, 11)
+## CURRENT STATUS & DASHBOARD (Turn 40501)
+- Location: Celadon City (14, 13)
 - Primary Goal: Explore Celadon City & Obtain Drinks for Saffron Guards
-- Active Navigation Plan: Arrived in Celadon City at (49, 11). Walking West along Row 11 sidewalk to explore Central Celadon City (Pokemon Center, Dept Store, Celadon Gym, Game Corner).
+- Active Navigation Plan: Player at (14, 13) outside Celadon Department Store. Walking Down 1 to Row 14 sidewalk at (14, 14), Left 4 steps to (10, 14), and Up 1 step into Department Store door at (10, 13).
 
 <hr>
 
