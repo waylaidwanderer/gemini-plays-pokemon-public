@@ -1056,8 +1056,8 @@ To transition from the northwestern ground level to the southwestern exit of Are
 ## Part 1: Safari Zone Center (Area 0)
 1. Start at (18, 25) in Center.
 2. Walk North 3 steps to (18, 22).
-3. Walk East 11 steps to (29, 22).
-4. Walk East 1 step to enter Area 1 (East) at (0, 22).
+3. Walk Up to (18, 11), then East to (29, 11) to enter Area 1.
+4. Enter Area 1 (East) at (0, 23).
 Total steps for Part 1: 15 steps.
 
 ## Part 2: Safari Zone Area 1 (East) (PLATEAU CROSSING HYPOTHESIS)
