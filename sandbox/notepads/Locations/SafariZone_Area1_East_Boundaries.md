@@ -27,6 +27,6 @@ This guide documents the exact coordinate layout and verified physical boundarie
 ## Northern Plateau Cliffs & Obstacles (Rows 4-6)
 - **Column 10 West Cliff Face (Rows 4-7):** Bounded on the west by a solid vertical cliff face across column 10, rows 4-7. Walking Left (West) from the plateau (column 11) to the ground level (column 10) is physically blocked.
 - **Column 19 East Cliff Face (Rows 4-6):** Bounded on the east by a solid vertical cliff face across column 19, rows 4-6. Walking Right (East) from the plateau (column 18) is physically blocked.
-- **Row 6 Ground South Bush Barrier:** Bounded on the south by a solid unbroken line of dark green bushes from Column 2 to Column 9 on Row 6. Walking UP from Row 7 to Row 5 is completely blocked across these columns on ground level.
+- **Row 6 Ground South Bush Barrier:** Bounded on the south by a line of dark green bushes on Row 6, but with a walkable gap at Column 7.
 - **Row 4 Plateau North Cliff Face:** Bounded on the north by a solid horizontal cliff face along Row 4. Walking UP (North) from Row 4 on the plateau to Row 3 on the ground is physically blocked.
 - **Plateau Eastern Stairs (17, 7):** Connects the plateau at (17, 6) to the ground at (17, 8).
