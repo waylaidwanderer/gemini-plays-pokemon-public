@@ -2,9 +2,9 @@
 
 ## Run Statistics (Current Run)
 - **Start Turn:** 22902 (Fresh run, paid ¥500, received 30 Safari Balls, 500 step budget)
-- **Current Turn:** 23041 (253 steps taken)
-- **Steps Taken:** 253 steps
-- **Remaining Steps:** 247 steps
+- **Current Turn:** 23071 (334 steps taken)
+- **Steps Taken:** 334 steps
+- **Remaining Steps:** 166 steps
 
 ## Area 0 (Center) Map & Collision Structures
 - **Counter Barrier (Row 25):** Solid counters block columns 2-13.
