@@ -29,11 +29,11 @@
    - Note: Traversal along Column 16 from Row 28 to Row 9 is impossible on the ground level because Column 16 is blocked by a solid cliff wall at Row 15.
    - Instead, the northward traversal along Column 16 to Row 9 occurs entirely **ON TOP of the plateau**.
    - Descend from the plateau using the western stairs at `(16, 27)` to land on the ground level at `(16, 28)`.
-4. Walk North and West to reach the northwestern area (near Rest House 2 at `(22, 13)`).
+4. Walk West along Row 28 to Column 13, walk North along Column 13 to Row 9 to reach the northwestern ground level north of Rest House 2 (circumventing the blocked Column 16 on the ground).
 5. From the northwestern ground level, walk North of Rest House 2 on Row 9 to Column 35 to bypass the Row 10 tree line.
 6. Walk South on Column 35 to Row 13, and climb the eastern plateau stairs at `(32, 13)` or `(33, 13)`.
 7. Traverse the plateau South and West, then walk down the West stairs or jump down the south-facing ledges to the southern ground level (Rows 25-35).
-8. Walk West along the southern grass corridor (around Row 30) to the transition at columns 0-4, Rows 30-35 to enter **Area 3 (West)**.
+8. Walk West along the southern grass corridor, detouring South to Row 34 or 35 to bypass the solid Column 5 tree barrier, then walk West past Column 5 and enter **Area 3 (West)** at columns 0-4, rows 30-35.
 
 ## Part 5: Area 3 (West) to Secret House (HM03 & Gold Teeth)
 1. Enter Area 3 (West) from Area 2 (North).
