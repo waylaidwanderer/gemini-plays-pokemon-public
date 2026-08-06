@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41134)
-- Location: Celadon Department Store 1F (0, 3)
+## CURRENT STATUS & DASHBOARD (Turn 41136)
+- Location: Celadon City (9, 5)
 - Primary Goal: Give Fresh Water to Saffron Gatehouse Guard
-- Active Navigation Plan: Exit side lobby to Courtyard (1, 2), walk Right to x=10, Up 3 to Row 2 highway (10, 2), Right to (16, 2), and Up 1 to (16, 1) stairs passage to East Celadon City.
+- Active Navigation Plan: Walk Right 1 to (10, 5), Up 3 to Row 2 highway (10, 2), Right 2 to (12, 2), and Up 1 to (12, 1) stairs passage to East Celadon City.
 
 <hr>
 
@@ -754,10 +754,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41136)
-- Location: Celadon City (9, 5)
+## CURRENT STATUS & DASHBOARD (Turn 41137)
+- Location: Celadon City East (12, 2)
 - Primary Goal: Give Fresh Water to Saffron Gatehouse Guard
-- Active Navigation Plan: Walk Right 1 to (10, 5), Up 3 to Row 2 highway (10, 2), Right 2 to (12, 2), and Up 1 to (12, 1) stairs passage to East Celadon City.
+- Active Navigation Plan: Walk Right along Row 2 highway to x=49, then Down to Route 7 Entrance at (49, 11).
 
 <hr>
 
