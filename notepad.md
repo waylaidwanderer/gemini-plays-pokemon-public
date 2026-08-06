@@ -1064,3 +1064,9 @@ To transition from the northwestern ground level to the southwestern exit of Are
 5. **Walk West to Area 3:** Follow the open southern grass corridor (around row 30) all the way west to the bottom-left corner of Area 2 (North) (columns 0-4, rows 30-35) to transition to **Area 3 (West)**.
 
 <hr>
+
+<h1><code>Locations/SafariZone_Area1_East_Boundaries.md</code></h1>
+
+
+
+<hr>
