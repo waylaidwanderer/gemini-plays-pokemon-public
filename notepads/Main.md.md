@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 40137)
-- Location: Rock Tunnel B1F (21, 24)
+## CURRENT STATUS & DASHBOARD (Turn 40138)
+- Location: Rock Tunnel B1F (17, 27)
 - Primary Goal: Exit Rock Tunnel B1F/1F -> Route 10 South -> Lavender Town -> Route 8 West -> Underground Path -> Celadon City.
-- Active Navigation Route: From (21, 24): Down 4 steps along Col 21 to Row 28 Sector Bypass Corridor at (21, 28) -> Left 4 steps along Row 28 to Col 17 at (17, 28) -> North 24 steps along Col 17 Highway to Row 4 Exit Chamber at (17, 4) -> Right 10 steps along Row 4 to Col 27 at (27, 4) -> Up 1 step into Main Exit Ladder at (27, 3)!
+- Active Navigation Route: From (17, 27) on Col 17 Highway: Walk North 23 steps along Col 17 Highway to Row 4 Exit Chamber at (17, 4) -> Right 10 steps along Row 4 to Col 27 at (27, 4) -> Up 1 step into Main Exit Ladder at (27, 3)!
