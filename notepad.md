@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 39923)
+## CURRENT STATUS & DASHBOARD (Turn 39924)
 - Location: Rock Tunnel 1F (11, 3)
-- Primary Goal: Exit Rock Tunnel 1F -> Route 10 South -> Lavender Town -> Route 8 West -> Underground Path -> Celadon City.
-- Active Navigation Route: From (11, 3) on Row 3 Top Highway: Walk Right 4 steps to Route 10 South Exit at (15, 3) -> warp to Route 10 South.
+- Primary Goal: Exit Rock Tunnel B1F/1F -> Route 10 South -> Lavender Town -> Route 8 West -> Underground Path -> Celadon City.
+- Active Navigation Route: From (11, 3) in 1F West Cavern: Walk Left 8 steps to Ladder at (3, 3) -> warp to B1F (37, 17) -> Left 4 to Col 33 Highway (33, 17) -> South 13 to Row 30 (33, 30) -> Left 16 to Col 17 Highway (17, 30) -> North 26 to Row 4 (17, 4) -> East 10 to Main Exit Ladder (27, 3) -> warp to 1F East Cavern (37, 3) -> West 22 to Route 10 South Exit (15, 3).
 
 <hr>
 
@@ -772,9 +772,9 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 39924)
-- Location: Rock Tunnel 1F (11, 3)
+## CURRENT STATUS & DASHBOARD (Turn 39925)
+- Location: Rock Tunnel 1F (8, 3)
 - Primary Goal: Exit Rock Tunnel B1F/1F -> Route 10 South -> Lavender Town -> Route 8 West -> Underground Path -> Celadon City.
-- Active Navigation Route: From (11, 3) in 1F West Cavern: Walk Left 8 steps to Ladder at (3, 3) -> warp to B1F (37, 17) -> Left 4 to Col 33 Highway (33, 17) -> South 13 to Row 30 (33, 30) -> Left 16 to Col 17 Highway (17, 30) -> North 26 to Row 4 (17, 4) -> East 10 to Main Exit Ladder (27, 3) -> warp to 1F East Cavern (37, 3) -> West 22 to Route 10 South Exit (15, 3).
+- Active Navigation Route: From (8, 3): Walk South 9 steps along Col 8 to Row 12 Highway at (8, 12) -> Left 5 steps along Row 12 to Col 3 (3, 12) -> North 9 steps to Ladder at (3, 3) -> warp to B1F (37, 17).
 
 <hr>
