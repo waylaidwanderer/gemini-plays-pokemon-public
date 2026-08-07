@@ -57,3 +57,4 @@
 - Building Location: Southeast Saffron City at x=28..31, y=27..29 with door at (29, 29).
 - Interior (1F): Door mat at (2, 7)/(3, 7). Mr. Psychic at (5, 3).
 - TM29 (Psychic): Spoke to Mr. Psychic at (5, 3) to receive TM29!
+- TM29 (Psychic) OBTAINED: Received TM29 (Psychic) from Mr. Psychic at turn 41749!

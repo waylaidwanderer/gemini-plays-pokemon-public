@@ -1,9 +1,10 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41748)
+## CURRENT STATUS & DASHBOARD (Turn 41749)
 - Location: Mr. Psychic's House 1F (5, 4)
-- Primary Goal: Obtain TM29 (Psychic) from Mr. Psychic.
-- Active Navigation Plan: Press A to advance dialogue and receive TM29 (Psychic).
+- VICTORY MILESTONE: Obtained TM29 (Psychic) from Mr. Psychic!
+- Primary Goal: Explore Fighting Dojo at (28, 5) in Northeast Saffron City.
+- Active Navigation Plan: Press B to close dialogue, exit house to (29, 29), and navigate East to Col 36 Highway.
 
 <hr>
 
@@ -754,7 +755,7 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41749)
+## CURRENT STATUS & DASHBOARD (Turn 41750)
 - Location: Mr. Psychic's House 1F (5, 4)
 - VICTORY MILESTONE: Obtained TM29 (Psychic) from Mr. Psychic!
 - Primary Goal: Explore Fighting Dojo at (28, 5) in Northeast Saffron City.
@@ -940,5 +941,6 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Building Location: Southeast Saffron City at x=28..31, y=27..29 with door at (29, 29).
 - Interior (1F): Door mat at (2, 7)/(3, 7). Mr. Psychic at (5, 3).
 - TM29 (Psychic): Spoke to Mr. Psychic at (5, 3) to receive TM29!
+- TM29 (Psychic) OBTAINED: Received TM29 (Psychic) from Mr. Psychic at turn 41749!
 
 <hr>

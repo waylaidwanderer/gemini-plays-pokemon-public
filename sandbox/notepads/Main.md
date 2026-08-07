@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 41749)
+## CURRENT STATUS & DASHBOARD (Turn 41750)
 - Location: Mr. Psychic's House 1F (5, 4)
 - VICTORY MILESTONE: Obtained TM29 (Psychic) from Mr. Psychic!
 - Primary Goal: Explore Fighting Dojo at (28, 5) in Northeast Saffron City.
