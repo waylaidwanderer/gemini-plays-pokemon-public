@@ -948,9 +948,9 @@ To transition from the northwestern ground level to the southwestern exit of Are
 # Safari Zone - Active Path Routing
 
 ## Current Run Status
-- **Current Position:** `(17, 24)` (Safari Zone Area 1 East ground)
-- **Steps Taken:** 200
-- **Steps Remaining:** 300
+- **Current Position:** `(20, 22)` (Safari Zone Area 1 East ground)
+- **Steps Taken:** 205
+- **Steps Remaining:** 295
 - **Start Turn:** 25136
 
 ## Active Route to Area 2 (North) [HYPOTHESIS - UNVERIFIED]:
