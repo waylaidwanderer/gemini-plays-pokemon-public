@@ -754,10 +754,11 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41759)
-- Location: Fighting Dojo 1F (4, 7)
+## CURRENT STATUS & DASHBOARD (Turn 41762)
+- Location: Fighting Dojo 1F - Battle vs Karate Black Belt 1
+- Opponent: Machop L31 (1st of 3 Pokemon) | Player: SHELLSHOCK L49 (171/171 HP)
 - Primary Goal: Defeat Karate Black Belt 1 and advance through Fighting Dojo 1F.
-- Active Navigation Plan: Press A to advance trainer dialogue ("Hoohah!") into battle.
+- Active Navigation Plan: Select FIGHT (A) and Move 1 (A) to KO Machop L31.
 
 <hr>
 
@@ -956,6 +957,7 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Interior (1F): Entrance mat at (4, 11)/(5, 11). Statues at (3, 8) and (6, 8).
 - Karate Black Belt Trainer 1: Located at (5, 7).
 - Primary Objective: Defeat Karate Master at the top of 1F to earn Hitmonlee or Hitmonchan!
+- Karate Black Belt 1 (5, 7): Pokemon 1: Machop L31. Total Pokemon: 3.
 
 <hr>
 
