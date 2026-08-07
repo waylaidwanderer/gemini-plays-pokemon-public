@@ -1205,5 +1205,6 @@ The main Game Corner building entrance at (14, 0)/(15, 0) on the Game Corner Pla
 - Turn 42322: Entered Main Game Corner Hall at (3, 7)!
 - Entrance door mat at (3, 7) / (4, 7). Central walkway runs North-South along Cols 2..5. Top aisle runs East-West along Row 2 towards Rocket Grunt at top-right wall!
 - Discovery (Turn 42329): Column 7 in West Room is a solid barrier separated by golden statues. The East Room (x=8..19) containing the Rocket Grunt at (15, 2) is accessed via the East Entrance Door outside in Game Corner Plaza / Celadon City!
+- TOPOLOGY BREAKTHROUGH (Turn 42358): Game Corner West Room (3, 0) door exits to Game Corner Plaza (10, 0), which warps to Celadon City (20, 35). Main Celadon Game Corner Entrance is located at Celadon City (29, 29), accessed via Row 30 street at (29, 30), which enters the Main Hall East Room directly!
 
 <hr>
