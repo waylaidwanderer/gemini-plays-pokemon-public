@@ -967,7 +967,7 @@ To transition from the northwestern ground level to the southwestern exit of Are
 ### Run 4 (Active)
 - **Start Turn:** 25592 (paid 500)
 - **Current Turn:** 25592
-- **Current Position:** `(14, 34)` (Safari Zone Center)
+- **Current Position:** `(16, 24)` (Safari Zone Area 1 (East))
 - **Steps Taken:** 0
 - **Steps Remaining:** 500
 
@@ -981,7 +981,6 @@ To transition from the northwestern ground level to the southwestern exit of Are
 6. **In Area 3 (West):**
    - **Secret House:** Search the northwest region to locate and enter the Secret House.
    - **Gold Teeth:** Search the south and west pathways for a solid Pok� Ball sprite representing the Gold Teeth. *Note: Coordinates are currently UNVERIFIED (player previously stood on (19, 16) and found nothing, so a systematic sweep of the grass/dirt paths in Area 3 is required under the Burden of Proof).*
-
 
 <hr>
 
