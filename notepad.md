@@ -1,7 +1,7 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 42751)
-- Location: Saffron West Gatehouse 2F at (37, 5).
+## CURRENT STATUS & DASHBOARD (Turn 42781)
+- Location: Route 7 outdoors at (8, 10).
 - Primary Goal: Clear Rocket Hideout B1F-B4F and defeat Giovanni to obtain Silph Scope.
 
 <hr>
