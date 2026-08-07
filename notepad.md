@@ -934,18 +934,10 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Allows seamless travel between East/Central Saffron (Cols 18..39) and West Saffron (Cols 2..16).
 - Building at x=10..13, y=3..5 (Copycat's House). Door at (13, 5).
 - Building at x=10..15, y=9..11 (Northwest Residence). Door at (13, 11).
-### Saffron City Pokémon Center Warp Registered (Turn 41740)
-- Saffron Pokémon Center Building: Located in Southwest sector at x=9..11, y=29..31 with door at (9, 29).
-- Interior (1F): Entrance door at (3, 8)/(4, 8), Nurse Joy counter at (3, 3)/(4, 3) with Nurse Joy at (3, 2).
-- WARP POINT REGISTERED: Stepped inside at turn 41740. Teleport / blacking out now warps directly to Saffron City!
-### Mr. Psychic's House & TM29 (Psychic) (Turn 41748)
-- Building Location: Southeast Saffron City at x=28..31, y=27..29 with door at (29, 29).
-- Interior (1F): Door mat at (2, 7)/(3, 7). Mr. Psychic at (5, 3).
-- TM29 (Psychic): Spoke to Mr. Psychic at (5, 3) to receive TM29!
-- TM29 (Psychic) OBTAINED: Received TM29 (Psychic) from Mr. Psychic at turn 41749!
-- Fighting Dojo Entrance Correction: Door is at (28, 5), not (29, 5). Doorway is open and clear!
-- Fighting Dojo Courtyard Discovery (Turn 41756): Fence gap at (30, 5)/(31, 5) gives access to Row 4 courtyard! Fighting Dojo door is at (28, 3).
-- Fighting Dojo Door Correction (Turn 41757): Fighting Dojo door is located at (26, 3)!
+### Saffron City Points of Interest
+- Saffron Pokémon Center: Southwest sector x=9..11, y=29..31 with door at (9, 29) (Warp registered).
+- Mr. Psychic's House: Southeast sector x=28..31, y=27..29 with door at (29, 29) (TM29 Psychic obtained).
+- Fighting Dojo: Door located at (26, 3) accessed via fence gap at (30, 5)/(31, 5) to Row 4 courtyard.
 
 <hr>
 
