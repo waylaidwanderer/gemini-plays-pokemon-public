@@ -1,7 +1,7 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 42828)
-- Location: Underground Path (Route 7-8) at (0, 4).
+## CURRENT STATUS & DASHBOARD (Turn 42833)
+- Location: Route 7 outdoors at (2, 15).
 - Primary Goal: Clear Rocket Hideout B1F-B4F and defeat Giovanni to obtain Silph Scope.
 
 <hr>
