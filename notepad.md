@@ -792,6 +792,13 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Column 28 Boundary: Solid wall at x=28 across y=26..28.
 - East Highway Passage: Column 36 is an open North-South street running from Row 22/25 down to Row 30.
 
+### Verified Game Corner & Plaza Topology (Turn 42312)
+- Game Corner Building: Located in South Celadon at x=24..30, y=33..35.
+- Game Corner Plaza Warp: Tile (20, 36) in Celadon City warps directly into Game Corner Plaza at (10, 0).
+- Game Corner Entrance Door: Tile (10, 2) in Game Corner Plaza (accessed by stepping Down to (10, 1) then Down into (10, 2)) WARPS DIRECTLY INSIDE CELADON GAME CORNER AT (3, 0)!
+- Celadon Diner: Entrance door at (29, 29) on Row 29.
+- Celadon PokéMart: Entrance door at (25, 11) on Row 11.
+
 <hr>
 
 <h1><code>Locations/Celadon_City</code></h1>
