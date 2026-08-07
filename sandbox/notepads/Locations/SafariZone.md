@@ -6,9 +6,9 @@
 - **Result:** Explored Area 1 (East) and entered Area 2 (North) up to Column 25. Fully mapped the island plateau bypass in Area 1.
 
 ## Active Run Statistics (Current Run)
-- **Current Position:** `(2, 23)` (Safari Zone Area 3 (West))
-- **Steps Taken:** 437
-- **Steps Remaining:** 63
+- **Current Position:** `(14, 25)` (Safari Zone Center)
+- **Steps Taken:** 450
+- **Steps Remaining:** 44
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
