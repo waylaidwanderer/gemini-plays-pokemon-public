@@ -1,9 +1,9 @@
 # Safari Zone - Active Path Routing
 
 ## Current Run Status
-- **Current Position:** `(12, 20)` (Safari Zone Area 1 East plateau)
-- **Steps Taken:** 66
-- **Steps Remaining:** 434
+- **Current Position:** `(12, 7)` (Safari Zone Area 1 East plateau stairs)
+- **Steps Taken:** 90
+- **Steps Remaining:** 410
 - **Start Turn:** 25136
 
 ## Active Route to Area 2 (North):
