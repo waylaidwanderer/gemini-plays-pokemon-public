@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41745)
-- Location: Saffron City South Highway (28, 31)
-- Primary Goal: Obtain TM29 (Psychic) from Mr. Psychic at (29, 29).
-- Active Navigation Plan: Walk Right 1 step to (29, 31) and Up 2 steps to (29, 29) to enter Mr. Psychic's House.
+## CURRENT STATUS & DASHBOARD (Turn 41747)
+- Location: Mr. Psychic's House 1F (2, 4)
+- Primary Goal: Obtain TM29 (Psychic) from Mr. Psychic at (5, 3).
+- Active Navigation Plan: Walk Down to (2, 5), Right 3 steps to (5, 5), Up to (5, 4), and press A to receive TM29.
 
 <hr>
 
@@ -754,10 +754,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41747)
-- Location: Mr. Psychic's House 1F (2, 4)
-- Primary Goal: Obtain TM29 (Psychic) from Mr. Psychic at (5, 3).
-- Active Navigation Plan: Walk Down to (2, 5), Right 3 steps to (5, 5), Up to (5, 4), and press A to receive TM29.
+## CURRENT STATUS & DASHBOARD (Turn 41748)
+- Location: Mr. Psychic's House 1F (5, 4)
+- Primary Goal: Obtain TM29 (Psychic) from Mr. Psychic.
+- Active Navigation Plan: Press A to advance dialogue and receive TM29 (Psychic).
 
 <hr>
 
@@ -870,6 +870,10 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Saffron Pokémon Center Building: Located in Southwest sector at x=9..11, y=29..31 with door at (9, 29).
 - Interior (1F): Entrance door at (3, 8)/(4, 8), Nurse Joy counter at (3, 3)/(4, 3) with Nurse Joy at (3, 2).
 - WARP POINT REGISTERED: Stepped inside at turn 41740. Teleport / blacking out now warps directly to Saffron City!
+### Mr. Psychic's House & TM29 (Psychic) (Turn 41748)
+- Building Location: Southeast Saffron City at x=28..31, y=27..29 with door at (29, 29).
+- Interior (1F): Door mat at (2, 7)/(3, 7). Mr. Psychic at (5, 3).
+- TM29 (Psychic): Spoke to Mr. Psychic at (5, 3) to receive TM29!
 
 <hr>
 
