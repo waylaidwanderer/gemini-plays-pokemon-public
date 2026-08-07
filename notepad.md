@@ -1000,9 +1000,9 @@ To transition from the northwestern ground level to the southwestern exit of Are
 - **Result:** Explored Area 1 (East) and entered Area 2 (North) up to Column 25. Fully mapped the island plateau bypass in Area 1.
 
 ## Active Run Statistics (Current Run)
-- **Current Position:** `(24, 14)` (Safari Zone Area 1 (East))
-- **Steps Taken:** 146
-- **Steps Remaining:** 354
+- **Current Position:** `(24, 12)` (Safari Zone Area 1 (East))
+- **Steps Taken:** 148
+- **Steps Remaining:** 352
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
