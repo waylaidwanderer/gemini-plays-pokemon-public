@@ -1297,5 +1297,6 @@ Systematically probe every potential building doorway and alleyway warp in South
 ## Floor Layout & Exploration
 - Column 2 Corridor: Runs South from landing mat at (2, 41) down to y=45+.
 - Objective: Clear Rocket Grunts on B1F, collect items, locate Lift Key / stairs down to B2F.
+- Staircase Discovered (Turn 42433): Tile (5, 4) in Rocket Hideout B1F is a staircase!
 
 <hr>
