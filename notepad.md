@@ -1,9 +1,10 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41738)
-- Location: South Saffron Highway (26, 31)
-- Primary Goal: Register Saffron City Pokemon Center warp point.
-- Active Navigation Plan: Walk Left 10 steps along Row 31 to (16, 31) heading West toward Pokemon Center (9, 29).
+## CURRENT STATUS & DASHBOARD (Turn 41740)
+- Location: Saffron City Pokemon Center 1F (3, 7)
+- VICTORY MILESTONE: Registered Saffron City Pokemon Center warp point!
+- Primary Goal: Heal team, then explore Silph Co., Fighting Dojo, and Saffron Gym.
+- Active Navigation Plan: Walk Up 4 steps to (3, 3) and press A to heal team with Nurse Joy.
 
 <hr>
 
@@ -927,5 +928,9 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Allows seamless travel between East/Central Saffron (Cols 18..39) and West Saffron (Cols 2..16).
 - Building at x=10..13, y=3..5 (Copycat's House). Door at (13, 5).
 - Building at x=10..15, y=9..11 (Northwest Residence). Door at (13, 11).
+### Saffron City Pokémon Center Warp Registered (Turn 41740)
+- Saffron Pokémon Center Building: Located in Southwest sector at x=9..11, y=29..31 with door at (9, 29).
+- Interior (1F): Entrance door at (3, 8)/(4, 8), Nurse Joy counter at (3, 3)/(4, 3) with Nurse Joy at (3, 2).
+- WARP POINT REGISTERED: Stepped inside at turn 41740. Teleport / blacking out now warps directly to Saffron City!
 
 <hr>

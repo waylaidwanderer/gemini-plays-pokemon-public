@@ -49,3 +49,7 @@
 - Allows seamless travel between East/Central Saffron (Cols 18..39) and West Saffron (Cols 2..16).
 - Building at x=10..13, y=3..5 (Copycat's House). Door at (13, 5).
 - Building at x=10..15, y=9..11 (Northwest Residence). Door at (13, 11).
+### Saffron City Pokémon Center Warp Registered (Turn 41740)
+- Saffron Pokémon Center Building: Located in Southwest sector at x=9..11, y=29..31 with door at (9, 29).
+- Interior (1F): Entrance door at (3, 8)/(4, 8), Nurse Joy counter at (3, 3)/(4, 3) with Nurse Joy at (3, 2).
+- WARP POINT REGISTERED: Stepped inside at turn 41740. Teleport / blacking out now warps directly to Saffron City!
