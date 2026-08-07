@@ -754,10 +754,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 42173)
-- Location: Celadon City at (20, 34).
+## CURRENT STATUS & DASHBOARD (Turn 42175)
+- Location: Game Corner Plaza at (10, 0).
 - Primary Goal: Infiltrate Rocket Hideout in Celadon City Game Corner.
-- Active Navigation Plan: Walk Down 4 steps along Column 20 to Row 38 plaza at (20, 38), Right 3 steps to (23, 38), Up 2 steps to (23, 36), Right 1 step onto red mat at (24, 36), and Up 1 step into Game Corner door at (24, 35).
+- Active Navigation Plan: Walk Up 3 steps along Column 10 to Row -3 street at (10, -3), Right 4 steps to (14, -3), and Down 2 steps into Game Corner door at (14, -1).
 
 <hr>
 
