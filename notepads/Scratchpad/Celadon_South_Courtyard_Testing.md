@@ -20,3 +20,4 @@ Systematically probe every potential building doorway and alleyway warp in South
 - Celadon City (29, 29) -> Celadon Diner 1F (2, 7) [VERIFIED].
 - Celadon City (20, 36) -> Game Corner Plaza (10, 0) -> West Room (3, 0) / (3, 7) [VERIFIED].
 - In progress (Turn 42392).
+- Discovery (Turn 42396): Column 13 (x=13, y=24..27) is the bridge walkway over the pond leading to the South exit warp into Celadon City main map!
