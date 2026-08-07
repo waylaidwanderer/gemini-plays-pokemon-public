@@ -906,8 +906,8 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 
 ## Active Run Statistics (Current Run)
 - **Current Position:** `(28, 3)` (Safari Zone Area 1 (East))
-- **Steps Taken:** 218
-- **Steps Remaining:** 282
+- **Steps Taken:** 474
+- **Steps Remaining:** 26
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
