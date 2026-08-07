@@ -44,3 +44,8 @@
 - PokéMart Door: Located at (25, 11).
 - Copycat / Northwest Residence: Located at x=24..27, y=3..5. Door at (26, 3).
 - Row 7 Street: Open East-West street running across x=22..37.
+### Row 7 Central-West Passage Discovered (Turn 41728)
+- Row 7 at (17, 7) is an OPEN light grey pavement passage through the Column 17 fence!
+- Allows seamless travel between East/Central Saffron (Cols 18..39) and West Saffron (Cols 2..16).
+- Building at x=10..13, y=3..5 (Copycat's House). Door at (13, 5).
+- Building at x=10..15, y=9..11 (Northwest Residence). Door at (13, 11).
