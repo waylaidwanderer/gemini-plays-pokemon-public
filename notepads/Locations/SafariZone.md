@@ -6,9 +6,9 @@
 - **Result:** Explored Area 1 (East) and entered Area 2 (North) up to Column 25. Fully mapped the island plateau bypass in Area 1.
 
 ## Active Run Statistics (Current Run)
-- **Current Position:** `(8, 10) (Safari Zone Area 1 - East, Ground Level)`
-- **Steps Taken:** 216
-- **Steps Remaining:** 284
+- **Current Position:** `(8, 7) (Safari Zone Area 1 - East, Ground Level)`
+- **Steps Taken:** 219
+- **Steps Remaining:** 281
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
@@ -59,3 +59,5 @@ We have systematically traversed and verified the following segments, establishi
    - Walked Left to `(21, 14)`, Down Column 21 to `(21, 18)`, Left to `(20, 18)`, Down to `(20, 19)`, and Left along Row 19 to `(14, 19)`.
 8. **Southwest Stairs Descent:** Reached the top of the southwest stairs at `(12, 20)`. Walked Down through the stairs at `(12, 21)` to reach the western ground level at `(12, 22)`.
    - *Socratic Collision Proof:* Walking Up from `(11, 18)` to `(11, 17)` bumps because the staircase facing West has a solid southern cliff face on Row 18. Entering the stairs must be done from the East at Column 12 or the West at Column 10.
+9. **Northwest Exit Passage:** Walked Left to `(8, 22)`, and walked North along Column 8: walked Up from `(8, 22)` to `(8, 14)` (passing through tall grass at `(8, 18)`), Up to `(8, 10)`, and Up to `(8, 7)` (regular grass). Row 6 has a solid tree wall from Column 4 to the East, but Row 7 is completely open to the West.
+
