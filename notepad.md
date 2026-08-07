@@ -948,18 +948,22 @@ To transition from the northwestern ground level to the southwestern exit of Are
 # Safari Zone - Active Path Routing
 
 ## Current Run Status
-- **Current Position:** `(8, 8)` (Safari Zone Area 1 (East))
-- **Steps Taken:** 98
-- **Steps Remaining:** 402
+- **Current Position:** `(18, 31)` (Safari Zone Area 2 (North))
+- **Steps Taken:** 186
+- **Steps Remaining:** 314
+
+## Area 2 (North) Newly Discovered Layout & Barriers
+- **Column 17 Tree Barrier:** A solid vertical tree line on rows 28-34, column 17. This connects the southern tree line to the southern cliff of the central plateau (at row 27). This completely splits the southern ground level (rows 25-35) into an East side (columns 18-39) and a West side (columns 0-16).
+- **Rhydon Statues and Tree Wall:** Row 34 is blocked by Rhydon statues and a solid tree wall from column 22 eastward.
+- **Plateau Traversal Requirement:** Because of the Column 17 Tree Barrier, the player CANNOT walk directly west on the ground. We must climb the eastern plateau stairs, walk across the plateau westward, and jump down/descend on the west side to reach Area 3 (West).
 
 ## Live Route & Goal
-Our goal is to reach Area 2 (North) transition at `(0, 5)` via the (12, 7) plateau bypass.
+Our goal is to reach Area 3 (West) by traversing the central plateau in Area 2 (North).
 
-### Current Planned Segment
-1. **Walk to Stairs at (12, 7):** From `(8, 8)`, walk `Right` to `(12, 8)` -> `Up` to `(12, 7)` (warp to plateau `(12, 6)`).
-2. **Traverse the Plateau Westward:** Walk `Left` along Row 4 to `(6, 4)` (stairs).
-3. **Descend to Northwest Ground:** Walk `Down` to `(6, 5)` (descend to ground level).
-4. **Transition to Area 2 (North):** Walk `Left` along Row 5 to Column 0.
+### Step-by-Step Pathing to the East Stairs (33, 13)
+1. **Backtrack East along Row 31:** From `(18, 31)`, walk `Right` to Column 35 `(35, 31)` -> 17 steps.
+2. **Walk North along Column 35:** From `(35, 31)`, walk `Up` to Row 13 `(35, 13)` -> 18 steps.
+3. **Climb East Stairs:** From `(35, 13)`, walk `Left` 2 steps to `(33, 13)` (climb stairs onto the plateau).
 
 
 <hr>
@@ -980,9 +984,9 @@ Our goal is to reach Area 2 (North) transition at `(0, 5)` via the (12, 7) plate
 - **Result:** Explored Area 1 (East) and entered Area 2 (North) up to Column 25. Fully mapped the island plateau bypass in Area 1.
 
 ## Active Run Statistics (Current Run)
-- **Current Position:** `(27, 31)` (Safari Zone Area 2 (North))
-- **Steps Taken:** 174
-- **Steps Remaining:** 326
+- **Current Position:** `(18, 31)` (Safari Zone Area 2 (North))
+- **Steps Taken:** 186
+- **Steps Remaining:** 314
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
