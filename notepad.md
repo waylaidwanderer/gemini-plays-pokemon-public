@@ -948,15 +948,13 @@ To transition from the northwestern ground level to the southwestern exit of Are
 # Safari Zone - Active Path Routing
 
 ## Current Run Status
-- **Current Position:** `(6, 7)` (Safari Zone Area 1 East ground)
-- **Steps Taken:** 472
-- **Steps Remaining:** 28
-- **Start Turn:** 24837
+- **Current Position:** `(15, 25)` (Safari Zone Center)
+- **Steps Taken:** 0
+- **Steps Remaining:** 500
+- **Start Turn:** 25136
 
 ## Active Route to Area 2 (North):
-1. Walk Down 4 times to descend stairs at `(17, 7)` to ground `(17, 8)`. (4 steps)
-2. Walk Right 13 times to reach `(30, 8)`. (13 steps)
-3. Walk Down 22 times on column 30 to row 30 (bypassing statues via the gap at `(30, 25)`). (22 steps)
+
 4. Walk East on row 30 to column 35.
 5. Walk North on column 35 to row 3.
 6. Walk West on row 3 to column 6.
