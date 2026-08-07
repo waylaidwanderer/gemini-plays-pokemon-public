@@ -13,3 +13,4 @@
 - Karate Black Belt 2 (3, 5): Pokemon 1: Machop L32 (fainted).
 - Karate Black Belt 2 (3, 5): Pokemon 2: Machoke (2nd/final Pokemon).
 - Karate Black Belt 2 (3, 5) DEFEATED: Machoke fainted!
+- Karate Black Belt 2 (3, 5) DEFEATED: Machoke fainted!
