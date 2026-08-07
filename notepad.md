@@ -948,9 +948,9 @@ To transition from the northwestern ground level to the southwestern exit of Are
 # Safari Zone - Active Path Routing
 
 ## Current Run Status
-- **Current Position:** `(12, 20)` (Safari Zone Area 1 (East))
-- **Steps Taken:** 67
-- **Steps Remaining:** 433
+- **Current Position:** `(1, 8)` (Safari Zone Area 1 (East))
+- **Steps Taken:** 78
+- **Steps Remaining:** 422
 - **Status:** Traversing Area 1 (East) plateau land bridge.
 
 ## Active Route & Plan
@@ -984,7 +984,10 @@ To transition from the northwestern ground level to the southwestern exit of Are
 - **Status:** Traversing Area 1 (East) plateau.
 
 ## Area 1 (East) Map & Transitions
-- **Exit to Area 2 (North):** Located at (0, 5).
+- **Exit to Area 2 (North):** Located at `(0, 5)`.
+- **Western Plateau Stairs:** Located at `(1, 6)` facing SOUTH.
+  - To traverse Area 1 (East) from West to East: We climb UP at `(1, 6)` onto the western plateau, and walk Left to transition at `(0, 5)`.
+  - This is completely verified and open!
 
 ## Area 2 (North) Map & Collision Structures
 

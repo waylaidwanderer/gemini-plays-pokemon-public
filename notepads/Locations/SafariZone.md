@@ -7,7 +7,10 @@
 - **Status:** Traversing Area 1 (East) plateau.
 
 ## Area 1 (East) Map & Transitions
-- **Exit to Area 2 (North):** Located at (0, 5).
+- **Exit to Area 2 (North):** Located at `(0, 5)`.
+- **Western Plateau Stairs:** Located at `(1, 6)` facing SOUTH.
+  - To traverse Area 1 (East) from West to East: We climb UP at `(1, 6)` onto the western plateau, and walk Left to transition at `(0, 5)`.
+  - This is completely verified and open!
 
 ## Area 2 (North) Map & Collision Structures
 

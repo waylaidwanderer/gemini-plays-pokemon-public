@@ -1,9 +1,9 @@
 # Safari Zone - Active Path Routing
 
 ## Current Run Status
-- **Current Position:** `(12, 20)` (Safari Zone Area 1 (East))
-- **Steps Taken:** 67
-- **Steps Remaining:** 433
+- **Current Position:** `(1, 8)` (Safari Zone Area 1 (East))
+- **Steps Taken:** 78
+- **Steps Remaining:** 422
 - **Status:** Traversing Area 1 (East) plateau land bridge.
 
 ## Active Route & Plan
