@@ -1174,25 +1174,33 @@ The main Game Corner building entrance at (14, 0)/(15, 0) on the Game Corner Pla
 
 # Celadon Game Corner Topology & Mechanics
 
-## Entrance & Plaza Navigation
-- Celadon City (20, 36) -> Warps into Game Corner Plaza at (10, 0).
-- Game Corner Plaza (10, 0) / (10, 1):
-  - Step Down 1 step from (10, 0) to (10, 1) [facing South].
-  - Step Down 1 step from (10, 1) into (10, 2) [building facade/doorway].
-  - WARPS DIRECTLY INSIDE CELADON GAME CORNER WEST ROOM AT (3, 0)!
+## Building Access & Exits
+- West Entrance (Celadon City 20, 36 / Courtyard Plaza): Enters West Room at (3, 0) / (3, 7).
+- Main Entrance (Celadon City 29, 29): Located in South Celadon along Row 30 street at (29, 30), leading directly into Main Game Corner Hall (East Room).
 
-## Game Corner Interior (West Room / Main Hall)
-- Entrance mat: (3, 0) and (4, 0).
-- Central Aisle: Column 3 and Column 4 run vertically from y=0 down to y=5 (red mats at y=5).
-- West Aisle: Column 1 runs vertically from y=1 down to y=5.
-- Slot Machine Rows: Column 2 (y=1..4) and Column 5 (y=1..4).
-- East Wall / Barrier: Column 7 consists of golden statues separating the West Room from the East Room.
-- Objective: Locate Rocket Grunt guarding the poster at the top-right wall (x=15, y=2) to open secret stairs to Rocket Hideout B1F.
-- Turn 42317: Stepping Down at (3, 5) in West Room exits back into Game Corner Plaza at (10, 8).
-- Game Corner Plaza Row 8 (y=8) is an open East-West grass corridor spanning x=6..15+ south of the building facade/fence at y=7. Allows easy walking East to main Game Corner building doors!
-- Turn 42322: Entered Main Game Corner Hall at (3, 7)!
-- Entrance door mat at (3, 7) / (4, 7). Central walkway runs North-South along Cols 2..5. Top aisle runs East-West along Row 2 towards Rocket Grunt at top-right wall!
-- Discovery (Turn 42329): Column 7 in West Room is a solid barrier separated by golden statues. The East Room (x=8..19) containing the Rocket Grunt at (15, 2) is accessed via the East Entrance Door outside in Game Corner Plaza / Celadon City!
-- TOPOLOGY BREAKTHROUGH (Turn 42358): Game Corner West Room (3, 0) door exits to Game Corner Plaza (10, 0), which warps to Celadon City (20, 35). Main Celadon Game Corner Entrance is located at Celadon City (29, 29), accessed via Row 30 street at (29, 30), which enters the Main Hall East Room directly!
+## Game Corner Interior Layout
+- West Room: Columns 0..7, Rows 0..5. Entrance mats at (3, 0)/(4, 0) and (3, 7)/(4, 7).
+- Aisle Layout: Central aisle runs along Columns 3 and 4. Slot machine rows located at Column 2 and Column 5.
+- Main Objective: Locate Rocket Grunt guarding poster on top-right wall (x=15, y=2) to reveal secret stairs to Rocket Hideout B1F.
+
+<hr>
+
+<h1><code>Scratchpad/Game_Corner_Interior_Testing.md</code></h1>
+
+# Game Corner Interior Systematic Empirical Testing Plan
+
+## Objective
+Empirically map every aisle on Columns 5, 6, and 7 across Rows 1..6 to verify if the room scrolls horizontally to reveal the East Room (Cols 8..19) and the Rocket Grunt/poster at (15, 2).
+
+## Step-by-Step Test Execution Plan
+1. Start at (3, 1). Step Down to (3, 3).
+2. Step Right to (4, 3) and (5, 3).
+3. Test 1 (Row 3): Press Right at (5, 3) facing (6, 3). Document if (6, 3) is passable or solid.
+4. Test 2 (Row 4): Step Down to (5, 4). Press Right at (5, 4) facing (6, 4). Document if (6, 4) is passable or solid.
+5. Test 3 (Row 5): Step Down to (5, 5). Press Right at (5, 5) facing (6, 5). Document if (6, 5) is passable or solid.
+6. Test 4 (Row 6 / Bottom Walkway): Step Down to (5, 6). Press Right at (5, 6) facing (6, 6) to test bottom crosswise walkway onto Column 7 (7, 6) and Column 8.
+
+## Results & Log
+- In progress (Turn 42364).
 
 <hr>
