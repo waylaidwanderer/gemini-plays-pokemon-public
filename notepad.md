@@ -1,10 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41728)
-- Location: Saffron City Row 7 Street (14, 7)
-- Discovery: Row 7 at (17, 7) is an OPEN passage through Column 17 connecting East and West Saffron!
+## CURRENT STATUS & DASHBOARD (Turn 41729)
+- Location: Saffron City Column 8 Highway (8, 7)
 - Primary Goal: Register Saffron City Pokemon Center warp point.
-- Active Navigation Plan: Walk Left 6 steps to (8, 7) on Column 8 North-South Highway, then walk South to y=29.
+- Active Navigation Plan: Walk Down 10 steps along Column 8 to (8, 17) heading South towards Pokemon Center (9, 29).
 
 <hr>
 
@@ -755,10 +754,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41729)
-- Location: Saffron City Column 8 Highway (8, 7)
+## CURRENT STATUS & DASHBOARD (Turn 41732)
+- Location: Saffron City Row 7 Street (8, 7)
 - Primary Goal: Register Saffron City Pokemon Center warp point.
-- Active Navigation Plan: Walk Down 10 steps along Column 8 to (8, 17) heading South towards Pokemon Center (9, 29).
+- Active Navigation Plan: Walk Right 10 steps along Row 7 to (18, 7) to test Southbound streets in Central Saffron.
 
 <hr>
 
