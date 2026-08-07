@@ -753,8 +753,8 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 43171)
-- Location: Celadon Game Corner West Room at (2, 7).
+## CURRENT STATUS & DASHBOARD (Turn 43201)
+- Location: Saffron West Gatehouse 2F at (4, 0).
 - Primary Goal: Clear Rocket Hideout B1F-B4F and defeat Giovanni to obtain Silph Scope.
 
 <hr>
