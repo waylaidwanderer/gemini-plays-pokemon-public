@@ -1,10 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41786)
+## CURRENT STATUS & DASHBOARD (Turn 41787)
 - Location: Fighting Dojo 1F (4, 5)
-- VICTORY: Karate Black Belt 3 defeated!
-- Primary Goal: Challenge remaining Black Belt 4 at (5, 5) and Karate Master at (5, 2).
-- Active Navigation Plan: Press A 3 times to close victory dialogue and return to overworld at (4, 5).
+- Primary Goal: Defeat Karate Black Belt 4 at (5, 5) and Karate Master at (5, 2).
+- Active Navigation Plan: Turn Right and press A to challenge Karate Black Belt 4 at (5, 5).
 
 <hr>
 
@@ -755,10 +754,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41787)
-- Location: Fighting Dojo 1F (4, 5)
+## CURRENT STATUS & DASHBOARD (Turn 41788)
+- Location: Fighting Dojo 1F (4, 5) - Battle vs Karate Black Belt 4
 - Primary Goal: Defeat Karate Black Belt 4 at (5, 5) and Karate Master at (5, 2).
-- Active Navigation Plan: Turn Right and press A to challenge Karate Black Belt 4 at (5, 5).
+- Active Navigation Plan: Press A 4 times to advance trainer dialogue into battle menu.
 
 <hr>
 
@@ -998,5 +997,6 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Karate Black Belt 3 (3, 4): Total Pokemon: 1.
 - Karate Black Belt 3 (3, 4): Pokemon 1: Primeape L36.
 - Karate Black Belt 3 (3, 4) DEFEATED: Primeape L36 fainted!
+- Karate Black Belt 4 (5, 5): Challenging trainer!
 
 <hr>

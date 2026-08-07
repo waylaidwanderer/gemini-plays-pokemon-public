@@ -18,3 +18,4 @@
 - Karate Black Belt 3 (3, 4): Total Pokemon: 1.
 - Karate Black Belt 3 (3, 4): Pokemon 1: Primeape L36.
 - Karate Black Belt 3 (3, 4) DEFEATED: Primeape L36 fainted!
+- Karate Black Belt 4 (5, 5): Challenging trainer!
