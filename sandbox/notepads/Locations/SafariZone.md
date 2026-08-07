@@ -7,8 +7,8 @@
 
 ## Active Run Statistics (Current Run)
 - **Current Position:** `(7, 22)`
-- **Steps Taken:** 350
-- **Steps Remaining:** 150
+- **Steps Taken:** 352
+- **Steps Remaining:** 148
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
