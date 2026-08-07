@@ -7,8 +7,8 @@
 
 ## Active Run Statistics (Current Run)
 - **Current Position:** `(11, 20)` (Safari Zone Area 1 (East))
-- **Steps Taken:** 165
-- **Steps Remaining:** 335
+- **Steps Taken:** 193
+- **Steps Remaining:** 307
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
