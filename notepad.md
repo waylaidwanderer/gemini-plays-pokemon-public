@@ -792,6 +792,9 @@
 - Celadon Department Store Entrance: Located at (10, 13) in West Celadon City.
 - West Courtyard: Outdoor map at x=0..5, y=1..5 with yellow diamond pavement. Row 6 is open light brown pavement highway. Teleport works outdoors in West Courtyard!
 Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Store plaza from Mansion plaza. Eastbound passage across Celadon City is via Row 10/14 Main Street highway!
+- Game Corner Location: Located at x=28..31, y=26..29 in South Celadon. Entrance door at (29, 29), accessed from Row 30 at (29, 30).
+- Column 28 Boundary: Solid wall at x=28 across y=26..28.
+- East Highway Passage: Column 36 is an open North-South street running from Row 22/25 down to Row 30.
 
 <hr>
 
