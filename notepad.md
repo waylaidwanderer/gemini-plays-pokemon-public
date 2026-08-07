@@ -980,9 +980,9 @@ Our goal is to reach Area 2 (North) transition at `(0, 5)` via the (12, 7) plate
 - **Result:** Explored Area 1 (East) and entered Area 2 (North) up to Column 25. Fully mapped the island plateau bypass in Area 1.
 
 ## Active Run Statistics (Current Run)
-- **Current Position:** `(0, 5)` (Safari Zone Area 1 (East))
-- **Steps Taken:** 161
-- **Steps Remaining:** 339
+- **Current Position:** `(39, 31)` (Safari Zone Area 2 (North))
+- **Steps Taken:** 162
+- **Steps Remaining:** 338
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
