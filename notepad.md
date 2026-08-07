@@ -969,7 +969,7 @@ To transition from the northwestern ground level to the southwestern exit of Are
 - **Current Turn:** 25661
 - **Current Position:** `(10, 24)` (Safari Zone Area 1 (East))
 - **Steps Taken:** 98
-- **Steps Remaining:** 452
+- **Steps Remaining:** 402
 
 ## Golden-Standard Speedrun Route to Area 3 (West) via Area 2 (North) Plateau Ledges
 
