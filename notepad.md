@@ -947,28 +947,15 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 
 <h1><code>Locations/Fighting_Dojo.md</code></h1>
 
-## Fighting Dojo 1F Topology & Trainers (Turn 41758)
+## Fighting Dojo 1F Topology & Trainers
 - Entrance Door: Located at Saffron City (26, 3).
 - Interior (1F): Entrance mat at (4, 11)/(5, 11). Statues at (3, 8) and (6, 8).
-- Karate Black Belt Trainer 1: Located at (5, 7).
-- Primary Objective: Defeat Karate Master at the top of 1F to earn Hitmonlee or Hitmonchan!
-- Karate Black Belt 1 (5, 7): Pokemon 1: Machop L31. Total Pokemon: 3.
-- Karate Black Belt 1 (5, 7): Pokemon 2: Mankey L31 (fainted).
-- Karate Black Belt 1 (5, 7): Pokemon 3: Primeape L31.
-- Karate Black Belt 1 (5, 7) DEFEATED: Primeape L31 fainted!
-- Karate Black Belt 2 (3, 5): Engaged in battle!
-- Karate Black Belt 2 (3, 5): Total Pokemon: 2.
-- Karate Black Belt 2 (3, 5): Pokemon 1: Machop L32.
-- Karate Black Belt 2 (3, 5): Pokemon 1: Machop L32 (fainted).
-- Karate Black Belt 2 (3, 5): Pokemon 2: Machoke (2nd/final Pokemon).
-- Karate Black Belt 2 (3, 5) DEFEATED: Machoke fainted!
-- Karate Black Belt 3 (3, 4): Engaged in battle!
-- Karate Black Belt 3 (3, 4): Total Pokemon: 1.
-- Karate Black Belt 3 (3, 4): Pokemon 1: Primeape L36.
-- Karate Black Belt 3 (3, 4) DEFEATED: Primeape L36 fainted!
-- Karate Black Belt 4 (5, 5): Challenging trainer!
-- Karate Master (5, 2): Approaching for final boss battle!
-- Karate Master (5, 2): Engaged in final boss battle! Total Pokemon: 3.
+- Pedestals: Left Poké Ball at (4, 1) [Hitmonlee], Right Poké Ball at (5, 1) [Hitmonchan].
+- Karate Black Belt 1 (5, 7): DEFEATED (Machop L31, Mankey L31, Primeape L31).
+- Karate Black Belt 2 (3, 5): DEFEATED (Machop L32, Machoke L32).
+- Karate Black Belt 3 (3, 4): DEFEATED (Primeape L36).
+- Karate Black Belt 4 (5, 5): DEFEATED (Mankey L31, Mankey L31, Primeape L31).
+- Karate Master (5, 3): DEFEATED on Turn 41825 (Hitmonlee L37, Hitmonchan L37)!
 
 <hr>
 
