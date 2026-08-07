@@ -754,10 +754,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41789)
+## CURRENT STATUS & DASHBOARD (Turn 41791)
 - Location: Fighting Dojo 1F (4, 5) - Battle vs Karate Black Belt 4
 - Primary Goal: Defeat Karate Black Belt 4 at (5, 5) and Karate Master at (5, 2).
-- Active Navigation Plan: Press A 5 times to advance dialogue into battle menu.
+- Active Navigation Plan: Press A A to advance dialogue into battle intro.
 
 <hr>
 
@@ -833,9 +833,7 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - West City Boundary: Cols 0..1 are solid dark green tree wall spanning y=11..19.
 - South Tree Boundary: Rows 16..19 are solid dark green tree wall spanning Cols 0..19.
 - Empirical Result: The Northwest sector (Cols 2..16, Rows 2..15) is fully enclosed by trees (North/South/West) and Column 17 wooden fence (East).
-- Central City Route Strategy: The Northwest Sector is an isolated courtyard. To access Central Saffron City (Pokemon Center, Silph Co, Gyms), exit West Gatehouse back to Route 7, take Underground Path to Route 8 / Route 5 / Route 6, and enter Saffron City through the East, South, or North Gatehouse!
-- EMPIRICAL PROBE RESULT (Turn 41333): Column 17 is a solid wooden fence across ALL Rows 2 through 15 (bumped at 17, 15 on turn 41333). The West Saffron sector (Cols 2..16) is completely isolated from Central Saffron City.
-- EMPIRICAL PROBE RESULT (Turn 41497): Column 17 wooden fence is solid across Row 12 (bumped at 17, 12). The Northwest Saffron courtyard (Cols 2..16) is fully isolated from Central Saffron City.
+- Row 7 Central-West Passage Discovered (Turn 41728): Row 7 at (17, 7) is an OPEN light grey pavement passage through Column 17 fence, allowing seamless travel between East/Central Saffron (Cols 18..39) and West Saffron (Cols 2..16).
 ### East Gatehouse Connection & Central Saffron Access
 - Verified Passage (Turn 41716): Exiting Saffron East Gatehouse west door lands player at Central Saffron City (1, 9) on open pavement!
 - East Gatehouse Building: Yellow roof building located at x=2..6, y=8..11 with front entrance at (0, 11) / (1, 11).
@@ -965,7 +963,6 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Karate Black Belt 2 (3, 5): Pokemon 1: Machop L32.
 - Karate Black Belt 2 (3, 5): Pokemon 1: Machop L32 (fainted).
 - Karate Black Belt 2 (3, 5): Pokemon 2: Machoke (2nd/final Pokemon).
-- Karate Black Belt 2 (3, 5) DEFEATED: Machoke fainted!
 - Karate Black Belt 2 (3, 5) DEFEATED: Machoke fainted!
 - Karate Black Belt 3 (3, 4): Engaged in battle!
 - Karate Black Belt 3 (3, 4): Total Pokemon: 1.
