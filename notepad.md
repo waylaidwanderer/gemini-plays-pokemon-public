@@ -1,10 +1,10 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41771)
+## CURRENT STATUS & DASHBOARD (Turn 41772)
 - Location: Fighting Dojo 1F (4, 7)
 - VICTORY: Karate Black Belt 1 defeated!
-- Primary Goal: Advance North in Fighting Dojo 1F to challenge the remaining Black Belt trainers and Karate Master.
-- Active Navigation Plan: Press A 3 times to finish victory dialogue, then walk Up along Column 4.
+- Primary Goal: Advance North in Fighting Dojo 1F to challenge remaining Black Belt trainers and Karate Master.
+- Active Navigation Plan: Press A A to close victory dialogue, then walk Up 4 steps to (4, 3).
 
 <hr>
 
@@ -755,11 +755,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41772)
-- Location: Fighting Dojo 1F (4, 7)
-- VICTORY: Karate Black Belt 1 defeated!
-- Primary Goal: Advance North in Fighting Dojo 1F to challenge remaining Black Belt trainers and Karate Master.
-- Active Navigation Plan: Press A A to close victory dialogue, then walk Up 4 steps to (4, 3).
+## CURRENT STATUS & DASHBOARD (Turn 41773)
+- Location: Fighting Dojo 1F (4, 6) - Battle vs Karate Black Belt 2
+- Primary Goal: Defeat Karate Black Belt 2 and advance through Fighting Dojo 1F.
+- Active Navigation Plan: Press A 3 times to advance trainer dialogue ("Show me!") into battle.
 
 <hr>
 
@@ -962,6 +961,7 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Karate Black Belt 1 (5, 7): Pokemon 2: Mankey L31 (fainted).
 - Karate Black Belt 1 (5, 7): Pokemon 3: Primeape L31.
 - Karate Black Belt 1 (5, 7) DEFEATED: Primeape L31 fainted!
+- Karate Black Belt 2 (3, 5): Engaged in battle!
 
 <hr>
 
