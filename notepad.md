@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41735)
-- Location: Central Saffron City East Highway (36, 17)
+## CURRENT STATUS & DASHBOARD (Turn 41736)
+- Location: South Saffron Highway (36, 29)
 - Primary Goal: Register Saffron City Pokemon Center warp point.
-- Active Navigation Plan: Walk Down 12 steps along Column 36 to (36, 29) at South Saffron Highway, then walk Left to Pokemon Center at (9, 29).
+- Active Navigation Plan: Walk Left 10 steps along Row 29 to (26, 29) heading West toward Pokemon Center (9, 29).
 
 <hr>
 
@@ -754,10 +754,11 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41736)
-- Location: South Saffron Highway (36, 29)
+## CURRENT STATUS & DASHBOARD (Turn 41737)
+- Location: Saffron City East Highway (36, 29)
+- Discovery: Building wall at (35, 29) blocks Row 29. Row 31 (y=31) is the open South Saffron East-West Highway!
 - Primary Goal: Register Saffron City Pokemon Center warp point.
-- Active Navigation Plan: Walk Left 10 steps along Row 29 to (26, 29) heading West toward Pokemon Center (9, 29).
+- Active Navigation Plan: Walk Down 2 steps to Row 31 at (36, 31), then walk Left 10 steps to (26, 31) heading West toward Pokemon Center (9, 31).
 
 <hr>
 
