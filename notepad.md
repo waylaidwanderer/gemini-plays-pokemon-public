@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41724)
-- Location: Saffron City Northern Highway (30, 8)
+## CURRENT STATUS & DASHBOARD (Turn 41725)
+- Location: Saffron City Row 7 Street (26, 7)
 - Primary Goal: Explore Central Saffron City to locate Pokemon Center, Silph Co., Fighting Dojo, and Saffron Gym.
-- Active Navigation Plan: Walk Left to (29, 8), Up to (29, 7), and Left 3 steps to (26, 7) outside PokéMart.
+- Active Navigation Plan: Walk Left 4 steps along Row 7 to (22, 7) to reach the Western North-South street.
 
 <hr>
 
@@ -754,10 +754,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41725)
-- Location: Saffron City Row 7 Street (26, 7)
+## CURRENT STATUS & DASHBOARD (Turn 41726)
+- Location: Saffron City Row 7 Street (22, 7)
 - Primary Goal: Explore Central Saffron City to locate Pokemon Center, Silph Co., Fighting Dojo, and Saffron Gym.
-- Active Navigation Plan: Walk Left 4 steps along Row 7 to (22, 7) to reach the Western North-South street.
+- Active Navigation Plan: Walk Left 4 steps along Row 7 to (18, 7) to explore Central/West Saffron.
 
 <hr>
 
@@ -908,5 +908,9 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Fighting Dojo: Located at x=28..29, y=3..5. Door at (28, 5)/(29, 5) is OPEN and clear!
 - Saffron PokéMart: Located at x=26..27, y=9..11.
 - Row 7 Street: Open East-West street running across x=26..37 at y=7.
+### Northwest Saffron Landmarks Identified (Turn 41725)
+- PokéMart Door: Located at (25, 11).
+- Copycat / Northwest Residence: Located at x=24..27, y=3..5. Door at (26, 3).
+- Row 7 Street: Open East-West street running across x=22..37.
 
 <hr>
