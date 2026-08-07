@@ -948,31 +948,21 @@ To transition from the northwestern ground level to the southwestern exit of Are
 # Safari Zone - Active Path Routing
 
 ## Current Run Status
-- **Current Position:** `(15, 25)` (Safari Zone Center)
-- **Steps Taken:** 0
-- **Steps Remaining:** 500
-- **Status:** Fresh run started!
+- **Current Position:** `(12, 20)` (Safari Zone Area 1 (East))
+- **Steps Taken:** 67
+- **Steps Remaining:** 433
+- **Status:** Traversing Area 1 (East) plateau land bridge.
 
-## Next Run Plan (Full 500 Steps)
-Goal: Reach Area 3 (West) / Secret House in minimal steps.
-
-### Step-by-Step Optimized Route:
-1. **Safari Zone Center (Start):**
-   - Walk from `(15, 25)` directly northeast to the Area 1 (East) transition at `(29, 11)`.
-2. **Area 1 (East):**
-   - Walk from `(0, 23)` to `(20, 21)` (southern plateau stairs).
-   - Climb stairs to `(20, 19)`.
-   - Walk on plateau to `(12, 21)` (western plateau stairs).
-   - Descend stairs to `(12, 22)`.
-   - Walk north on ground to the northern plateau stairs at `(12, 7)`.
-   - Climb stairs to `(12, 6)`.
-   - Walk west to the Area 2 (North) transition at `(0, 5)`.
-3. **Area 2 (North):**
-   - Transition in at `(39, 31)` on the southern ground level.
-   - Walk to `(28, 27)` (stairs) and climb to `(28, 26)` (plateau).
-   - Walk west and north on the plateau, but DO NOT descend to the eastern basin!
-   - Wait, where does the plateau go west?
-     Let's map and verify the western connection on our next run.
+## Active Route & Plan
+1. **Descend Southern Plateau:** From `(12, 20)`, walk `Down` 2 steps to `(12, 22)` (ground level).
+2. **Walk North to Northern Plateau Stairs:** From `(12, 22)`, walk `Up` to `(12, 7)`.
+3. **Climb Northern Plateau Stairs:** From `(12, 7)`, walk `Up` to `(12, 6)` (on top of the northern plateau).
+4. **Walk West to Area 2 (North) Transition:** From `(12, 6)`, walk `Left` to the map connection at `(0, 5)`.
+5. **Transition into Area 2 (North):** Arrive at `(39, 31)` on the southern ground level of Area 2 (North).
+6. **Navigate Area 2 (North) to Area 3 (West):**
+   - Walk west to the stairs at `(28, 27)` and climb to `(28, 26)`.
+   - Traverse the plateau westward and reach the western ground level.
+   - Walk west to transition to Area 3 (West) at `(0, 31)`.
 
 
 <hr>
@@ -987,23 +977,16 @@ Goal: Reach Area 3 (West) / Secret House in minimal steps.
 
 # Safari Zone - Overworld Layout & Navigation Guide
 
-## Active Run Statistics (Current Run - Near End)
-- **Current Position:** `(15, 25)` (Safari Zone Center)
-- **Steps Taken:** 0
-- **Steps Remaining:** 500
-- **Status:** Fresh run started!
+## Active Run Statistics (Current Run)
+- **Current Position:** `(12, 20)` (Safari Zone Area 1 (East))
+- **Steps Taken:** 67
+- **Steps Remaining:** 433
+- **Status:** Traversing Area 1 (East) plateau.
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
 
 ## Area 2 (North) Map & Collision Structures
-
-### 🔴 CRITICAL HORIZONTAL CROSSING BREAKTHROUGH
-- **Row 16 Ground Crossing:** Row 16 on the ground level (at columns 25-27) is COMPLETELY WALKABLE and open!
-- There is NO unbroken vertical tree barrier or plateau wall blocking row 16.
-- This allows the player to walk directly west from the East ground basin (e.g. from column 34) all the way to the West ground level (column 20 and below) on Row 16, bypassing the entire central plateau and the column 23-25 tree walls!
-- This discovery saves hundreds of steps and eliminates the need to climb/navigate the plateau to cross from East to West!
-
 
 ### Key Landmarks & Buildings
 - **Rest House 2:** Located at columns 21-25, rows 12-13. The entrance door is at `(22, 13)`.
@@ -1013,6 +996,7 @@ Goal: Reach Area 3 (West) / Secret House in minimal steps.
   - **West Stairs:** Located at `(20, 15)` facing west on column 20.
 
 ### Major Boundaries & Blockages
+- **Column 16 Tree Wall:** A solid, unbroken wall of trees on column 16, row 12-24. It separates the East and West sides of the ground level. The ONLY way to cross column 16 is by walking on top of the Southern Plateau at Row 20 (which connects the two sides).
 - **Row 10 Tree Line:** A solid barrier of pine trees across columns 27-31, blocking direct southern traversal on columns 28-29.
 - **Row 15-19 Isolation Barrier:**
   - Columns 2-11 on Row 15 have a solid tree wall.
