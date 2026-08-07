@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 41701)
-- Location: Saffron East Gatehouse 1F (0, 2)
-- Primary Goal: Enter Central Saffron City via Saffron East Gatehouse north exit.
-- Active Navigation Plan: Walk Up 2 steps to (0, 0) north exit doorway to enter Central Saffron City.
+## CURRENT STATUS & DASHBOARD (Turn 41720)
+- Location: Central Saffron City (39, 17)
+- Primary Goal: Explore Central Saffron City to locate Pokemon Center, Silph Co., Fighting Dojo, and Saffron Gym.
+- Active Navigation Plan: Walk Left 3 steps to (36, 17) onto North-South street.

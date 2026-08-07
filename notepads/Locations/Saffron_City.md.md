@@ -23,3 +23,7 @@
 - Verified Passage (Turn 41716): Exiting Saffron East Gatehouse west door lands player at Central Saffron City (1, 9) on open pavement!
 - East Gatehouse Building: Yellow roof building located at x=2..6, y=8..11 with front entrance at (0, 11) / (1, 11).
 - Row 9 Westbound Highway: Open light grey pavement running West from (1, 9) across x=0, -1, -2 directly into Central Saffron City!
+### East Saffron Connection & Street Topology (Turn 41720)
+- Exiting Saffron East Gatehouse lands player at Saffron City (39, 17).
+- Row 16-17 east-west corridor spans x=36..39.
+- Column 36-37 forms a North-South street spanning y=13..21+.
