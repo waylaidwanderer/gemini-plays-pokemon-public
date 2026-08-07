@@ -984,9 +984,9 @@ Our goal is to reach Area 3 (West) by traversing the central plateau in Area 2 (
 - **Result:** Explored Area 1 (East) and entered Area 2 (North) up to Column 25. Fully mapped the island plateau bypass in Area 1.
 
 ## Active Run Statistics (Current Run)
-- **Current Position:** `(20, 16)` (Safari Zone Area 2 (North))
-- **Steps Taken:** 261
-- **Steps Remaining:** 239
+- **Current Position:** `(32, 16)` (Safari Zone Area 2 (North))
+- **Steps Taken:** 277
+- **Steps Remaining:** 223
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
