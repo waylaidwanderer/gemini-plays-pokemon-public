@@ -1,10 +1,10 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41763)
+## CURRENT STATUS & DASHBOARD (Turn 41764)
 - Location: Fighting Dojo 1F - Battle vs Karate Black Belt 1
-- Opponent: Machop L31 (1st of 3 Pokemon) | Player: SHELLSHOCK L49 (171/171 HP)
-- Primary Goal: Defeat Karate Black Belt 1 and advance through Fighting Dojo 1F.
-- Active Navigation Plan: Press A to advance Skull Bash charging dialogue ("lowered its head!").
+- Victory: Machop L31 fainted! | Player: SHELLSHOCK L49 (162/171 HP)
+- Primary Goal: Defeat Karate Black Belt 1 (2nd & 3rd Pokemon) and advance through Fighting Dojo 1F.
+- Active Navigation Plan: Press A to advance EXP text and battle Black Belt 1's 2nd Pokemon.
 
 <hr>
 
@@ -755,11 +755,11 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41764)
+## CURRENT STATUS & DASHBOARD (Turn 41765)
 - Location: Fighting Dojo 1F - Battle vs Karate Black Belt 1
-- Victory: Machop L31 fainted! | Player: SHELLSHOCK L49 (162/171 HP)
-- Primary Goal: Defeat Karate Black Belt 1 (2nd & 3rd Pokemon) and advance through Fighting Dojo 1F.
-- Active Navigation Plan: Press A to advance EXP text and battle Black Belt 1's 2nd Pokemon.
+- Victory: Machop L31 fainted! Black Belt 1 sending out 2nd Pokemon.
+- Primary Goal: Defeat Karate Black Belt 1 and advance through Fighting Dojo 1F.
+- Active Navigation Plan: Decline switch (B) and advance into battle vs Black Belt 1's 2nd Pokemon.
 
 <hr>
 
