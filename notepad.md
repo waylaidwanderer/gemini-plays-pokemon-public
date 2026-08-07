@@ -1161,7 +1161,6 @@ The main Game Corner building entrance at (14, 0)/(15, 0) on the Game Corner Pla
 
 ## Building Access & Exits
 - West Entrance (Celadon City 20, 36 / Courtyard Plaza): Enters West Room at (3, 0) / (3, 7).
-- Main Entrance (Celadon City 29, 29): Located in South Celadon along Row 30 street at (29, 30), leading directly into Main Game Corner Hall (East Room).
 
 ## Game Corner Interior Layout
 - West Room: Columns 0..7, Rows 0..5. Entrance mats at (3, 0)/(4, 0) and (3, 7)/(4, 7).
