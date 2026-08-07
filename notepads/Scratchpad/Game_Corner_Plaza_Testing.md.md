@@ -15,3 +15,8 @@ From (10, 1), lateral East/West movements along Row 1 (e.g. testing Right to (11
 
 ## Test Results
 - Test 1: Pressed Right at (10, 1) facing (11, 1). BUMPED! Tile (11, 1) is a SOLID statue obstacle.
+- Test 2: Pressed Left at (10, 1) facing (9, 1). BUMPED! Tile (9, 1) is a SOLID statue obstacle.
+
+## Conclusion & Discovery
+Position (10, 1) in Game Corner Plaza is a 1x1 trapped pocket bounded by solid statues at x=9 and x=11, building wall at y=2, and warp tile at (10, 0).
+The main Game Corner building entrance at (14, 0)/(15, 0) on the Game Corner Plaza map is accessed via the eastern warp at (24, 36)/(25, 36) in Celadon City!
