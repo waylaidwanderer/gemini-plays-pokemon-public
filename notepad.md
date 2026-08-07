@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41559)
-- Location: Route 8 (10, 15)
-- Primary Goal: Walk Right to Col 12 (12, 15) -> Down to Row 19 dirt road -> West along Row 19 to Saffron East Gatehouse -> Enter Central Saffron City.
-- Active Navigation Plan: Walk Right 2 to (12, 15), then Down 4 to Row 19 dirt road at (12, 19).
+## CURRENT STATUS & DASHBOARD (Turn 41561)
+- Location: Route 8 (5, 15)
+- Primary Goal: Down 2 to Row 17 dirt road at (5, 17) -> Left along Row 17 dirt road through (4, 17) gap into Saffron East Gatehouse -> Enter Central Saffron City.
+- Active Navigation Plan: Press Down 2 to (5, 17), then Left 6 along Row 17 dirt road.
 
 <hr>
 
