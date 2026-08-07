@@ -966,7 +966,7 @@ To transition from the northwestern ground level to the southwestern exit of Are
 
 ### Run 4 (Active)
 - **Start Turn:** 25592 (paid 500)
-- **Current Turn:** 25592
+- **Current Turn:** 25661
 - **Current Position:** `(16, 24)` (Safari Zone Area 1 (East))
 - **Steps Taken:** 48
 - **Steps Remaining:** 452
