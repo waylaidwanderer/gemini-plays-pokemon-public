@@ -836,6 +836,10 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Central City Route Strategy: The Northwest Sector is an isolated courtyard. To access Central Saffron City (Pokemon Center, Silph Co, Gyms), exit West Gatehouse back to Route 7, take Underground Path to Route 8 / Route 5 / Route 6, and enter Saffron City through the East, South, or North Gatehouse!
 - EMPIRICAL PROBE RESULT (Turn 41333): Column 17 is a solid wooden fence across ALL Rows 2 through 15 (bumped at 17, 15 on turn 41333). The West Saffron sector (Cols 2..16) is completely isolated from Central Saffron City.
 - EMPIRICAL PROBE RESULT (Turn 41497): Column 17 wooden fence is solid across Row 12 (bumped at 17, 12). The Northwest Saffron courtyard (Cols 2..16) is fully isolated from Central Saffron City.
+### East Gatehouse Connection & Central Saffron Access
+- Verified Passage (Turn 41716): Exiting Saffron East Gatehouse west door lands player at Central Saffron City (1, 9) on open pavement!
+- East Gatehouse Building: Yellow roof building located at x=2..6, y=8..11 with front entrance at (0, 11) / (1, 11).
+- Row 9 Westbound Highway: Open light grey pavement running West from (1, 9) across x=0, -1, -2 directly into Central Saffron City!
 
 <hr>
 
