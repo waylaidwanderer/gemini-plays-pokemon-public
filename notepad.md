@@ -948,9 +948,9 @@ To transition from the northwestern ground level to the southwestern exit of Are
 # Safari Zone - Active Path Routing
 
 ## Current Run Status
-- **Current Position:** `(18, 31)` (Safari Zone Area 2 (North))
-- **Steps Taken:** 186
-- **Steps Remaining:** 314
+- **Current Position:** `(20, 12)` (Safari Zone Area 2 (North))
+- **Steps Taken:** 161
+- **Steps Remaining:** 339
 
 ## Area 2 (North) Newly Discovered Layout & Barriers
 - **Column 17 Tree Barrier:** A solid vertical tree line on rows 28-34, column 17. This connects the southern tree line to the southern cliff of the central plateau (at row 27). This completely splits the southern ground level (rows 25-35) into an East side (columns 18-39) and a West side (columns 0-16).
