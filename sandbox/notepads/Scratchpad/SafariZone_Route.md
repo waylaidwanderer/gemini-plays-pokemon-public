@@ -1,10 +1,10 @@
 # Safari Zone - Active Path Routing
 
 ## Current Run Status
-- **Current Position:** `(37, 12)` (Safari Zone Area 2 (North))
-- **Steps Taken:** 477
-- **Steps Remaining:** 23
-- **Status:** Stale run. Walking until eviction.
+- **Current Position:** `(24, 16)` (Safari Zone Area 2 (North))
+- **Steps Taken:** 176
+- **Steps Remaining:** 324
+- **Status:** Active run. Bypassed divide via Row 16 Ground Crossing!
 
 ## Next Run Plan (Full 500 Steps)
 Goal: Reach Area 3 (West) / Secret House in minimal steps.
