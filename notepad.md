@@ -1,10 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 42051)
-- Location: Route 7 / Celadon City Highway at (18, 10).
+## CURRENT STATUS & DASHBOARD (Turn 42091)
+- Location: Celadon City at (27, 32).
 - Primary Goal: Infiltrate Rocket Hideout in Celadon City Game Corner.
-- Story Requirement: Silph Co. guard blocks entrance ("Suspicious kids I don't allow in!") until Celadon Game Corner Rocket Hideout is cleared and Giovanni is defeated!
-- Active Navigation Plan: Walk Right 10 steps to (28, 10), Down 9 steps to Celadon Game Corner at (28, 19), inspect poster at (15, 2) to open secret stairs, and defeat Giovanni.
+- Active Navigation Plan: Return North 2 steps to (29, 30), step Up into Celadon Game Corner door at (29, 29), navigate to top-right corner (15, 2), defeat Rocket Grunt, inspect poster to reveal hidden stairs.
 
 <hr>
 
