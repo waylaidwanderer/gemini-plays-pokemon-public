@@ -1,7 +1,7 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 42490)
-- Location: Rocket Hideout B1F at (5, 4).
+## CURRENT STATUS & DASHBOARD (Turn 42510)
+- Location: Courtyard Plaza at (19, 27).
 - Primary Goal: Clear Rocket Hideout B1F-B4F and defeat Giovanni to obtain Silph Scope.
 
 <hr>
@@ -1173,7 +1173,6 @@ Systematically probe every potential building doorway and alleyway warp in South
 ## Game Corner Interior Layout
 - West Room: Columns 0..7, Rows 0..5. Entrance mats at (3, 0)/(4, 0) and (3, 7)/(4, 7).
 - Aisle Layout: Central aisle runs along Columns 3 and 4. Slot machine rows located at Column 2 and Column 5.
-- Main Objective: Locate Rocket Grunt guarding poster on top-right wall (x=15, y=2) to reveal secret stairs to Rocket Hideout B1F.
 - Secret Staircase: Tile (4, 4) in Game Corner West Room is a two-way staircase connecting directly to Rocket Hideout B1F at (5, 4) and (2, 41).
 
 <hr>
