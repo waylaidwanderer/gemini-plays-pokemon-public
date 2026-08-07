@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 41823)
-- Location: Fighting Dojo 1F - Karate Master Defeated!
-- Primary Goal: Claim Hitmonlee or Hitmonchan prize Pokemon from pedestal at (4, 1) or (5, 1).
-- Active Navigation Plan: Advance victory dialogue, inspect Poké Balls at (4, 1) [Hitmonlee] and (5, 1) [Hitmonchan], and choose prize.
+## CURRENT STATUS & DASHBOARD (Turn 41840)
+- Location: Fighting Dojo 1F - Prize Claimed!
+- Primary Goal: Infiltrate Silph Co. skyscraper in central Saffron City.
+- Active Navigation Plan: Step Down 9 times from (4, 2) to exit Fighting Dojo at (4, 11) to Saffron City (26, 3).
