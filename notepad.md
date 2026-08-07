@@ -1175,6 +1175,8 @@ The main Game Corner building entrance at (14, 0)/(15, 0) on the Game Corner Pla
 - Objective: Locate Rocket Grunt guarding the poster at the top-right wall (x=15, y=2) to open secret stairs to Rocket Hideout B1F.
 - Turn 42317: Stepping Down at (3, 5) in West Room exits back into Game Corner Plaza at (10, 8).
 - Game Corner Plaza Row 8 (y=8) is an open East-West grass corridor spanning x=6..15+ south of the building facade/fence at y=7. Allows easy walking East to main Game Corner building doors!
+- Turn 42322: Entered Main Game Corner Hall at (3, 7)!
+- Entrance door mat at (3, 7) / (4, 7). Central walkway runs North-South along Cols 2..5. Top aisle runs East-West along Row 2 towards Rocket Grunt at top-right wall!
 
 <hr>
 
