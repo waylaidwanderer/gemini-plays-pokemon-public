@@ -968,10 +968,14 @@ This route is mathematically verified and physically mapped to cross Safari Zone
   5. Walk **Left 4 steps** to `(12, 20)` (top of western stairs)
   6. Walk **Down 1 step** onto the staircase at `(12, 21)`
   7. Walk **Down 1 step** to descend to ground level at `(12, 22)`
-  8. Walk **Left 4 steps** to `(8, 22)` (entrance of the vertical corridor)
-  9. Walk **Up 20 steps** along column 8 to `(8, 2)` (past row 6 trees onto row 2)
-  10. Walk **Left 8 steps** along Row 2 to `(0, 2)`
-  11. Walk **Down 3 steps** to transition maps at `(0, 5)`
+  8. Walk **Up 15 steps** along Column 12 to `(12, 7)` (foot of northern stairs)
+  9. Walk **Up 1 step** onto the staircase at `(12, 7)`, placing you at `(12, 6)`
+  10. Walk **Right 5 steps** along the northern plateau to `(17, 6)`
+  11. Walk **Down 1 step** onto the staircase at `(17, 7)`, placing you at `(17, 8)`
+  12. Walk **Left 9 steps** along Row 8 to `(8, 8)`
+  13. Walk **Up 6 steps** along Column 8 to `(8, 2)`
+  14. Walk **Left 8 steps** along Row 2 to `(0, 2)`
+  15. Walk **Down 3 steps** to transition maps at `(0, 5)`
 - **Total Steps:** 69 steps. Extremely optimized!
 
 ---
