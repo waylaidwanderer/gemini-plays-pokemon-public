@@ -4,3 +4,4 @@
 - Karate Black Belt Trainer 1: Located at (5, 7).
 - Primary Objective: Defeat Karate Master at the top of 1F to earn Hitmonlee or Hitmonchan!
 - Karate Black Belt 1 (5, 7): Pokemon 1: Machop L31. Total Pokemon: 3.
+- Karate Black Belt 1 (5, 7): Pokemon 2: Mankey L31 (fainted).
