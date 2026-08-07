@@ -948,10 +948,10 @@ To transition from the northwestern ground level to the southwestern exit of Are
 # Safari Zone - Active Path Routing
 
 ## Current Run Status
-- **Current Position:** `(37, 12)` (Safari Zone Area 2 (North))
-- **Steps Taken:** 477
-- **Steps Remaining:** 23
-- **Status:** Stale run. Walking until eviction.
+- **Current Position:** `(24, 16)` (Safari Zone Area 2 (North))
+- **Steps Taken:** 176
+- **Steps Remaining:** 324
+- **Status:** Active run. Bypassed divide via Row 16 Ground Crossing!
 
 ## Next Run Plan (Full 500 Steps)
 Goal: Reach Area 3 (West) / Secret House in minimal steps.
@@ -997,6 +997,13 @@ Goal: Reach Area 3 (West) / Secret House in minimal steps.
 - **Exit to Area 2 (North):** Located at (0, 5).
 
 ## Area 2 (North) Map & Collision Structures
+
+### 🔴 CRITICAL HORIZONTAL CROSSING BREAKTHROUGH
+- **Row 16 Ground Crossing:** Row 16 on the ground level (at columns 25-27) is COMPLETELY WALKABLE and open!
+- There is NO unbroken vertical tree barrier or plateau wall blocking row 16.
+- This allows the player to walk directly west from the East ground basin (e.g. from column 34) all the way to the West ground level (column 20 and below) on Row 16, bypassing the entire central plateau and the column 23-25 tree walls!
+- This discovery saves hundreds of steps and eliminates the need to climb/navigate the plateau to cross from East to West!
+
 
 ### Key Landmarks & Buildings
 - **Rest House 2:** Located at columns 21-25, rows 12-13. The entrance door is at `(22, 13)`.
