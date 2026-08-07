@@ -60,3 +60,4 @@
 - TM29 (Psychic) OBTAINED: Received TM29 (Psychic) from Mr. Psychic at turn 41749!
 - Fighting Dojo Entrance Correction: Door is at (28, 5), not (29, 5). Doorway is open and clear!
 - Fighting Dojo Courtyard Discovery (Turn 41756): Fence gap at (30, 5)/(31, 5) gives access to Row 4 courtyard! Fighting Dojo door is at (28, 3).
+- Fighting Dojo Door Correction (Turn 41757): Fighting Dojo door is located at (26, 3)!
