@@ -22,7 +22,7 @@ def walk_step(direction):
     print(f"Stepping {direction}")
     mgba.press_buttons([direction, "sleep 600"])
 
-def navigate_to(target_x, target_y, max_attempts=5):
+def navigate_to(target_x, target_y):
     """
     Navigates to a specific target coordinate.
     Handles battles and obstacles by retrying.
@@ -30,6 +30,9 @@ def navigate_to(target_x, target_y, max_attempts=5):
     print(f"Navigating to ({target_x}, {target_y})...")
     
     stuck_count = 0
+    non_battle_stuck = 0
+    last_x, last_y = None, None
+    
     while True:
         curr_x, curr_y = get_pos()
         print(f"Current Pos: ({curr_x}, {curr_y}) | Target: ({target_x}, {target_y})")
@@ -59,10 +62,21 @@ def navigate_to(target_x, target_y, max_attempts=5):
         if new_x == curr_x and new_y == curr_y:
             stuck_count += 1
             if stuck_count >= 2:
+                # Let's check if we are at the exact same coordinate as the previous loop's stuck detection
+                if (curr_x, curr_y) == (last_x, last_y):
+                    non_battle_stuck += 1
+                    if non_battle_stuck >= 3:
+                        print(f"ERROR: Physically stuck at ({curr_x}, {curr_y}) trying to go {direction}! Obstacle detected.")
+                        raise RuntimeError(f"Physical obstacle at ({curr_x}, {curr_y}) going {direction}")
+                else:
+                    non_battle_stuck = 1
+                    last_x, last_y = curr_x, curr_y
+                
                 escape_battle()
                 stuck_count = 0
         else:
             stuck_count = 0
+            non_battle_stuck = 0
             
         # Small sleep between steps
         time.sleep(0.1)
