@@ -1,7 +1,7 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 43034)
-- Location: Route 7 Row 7 Highway at (15, 7).
+## CURRENT STATUS & DASHBOARD (Turn 43035)
+- Location: Route 7 Row 14 Highway at (8, 14).
 - Primary Goal: Clear Rocket Hideout B1F-B4F and defeat Giovanni to obtain Silph Scope.
 
 <hr>
@@ -753,8 +753,8 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 43035)
-- Location: Route 7 Row 14 Highway at (8, 14).
+## CURRENT STATUS & DASHBOARD (Turn 43036)
+- Location: Route 7 Row 14 Highway at (16, 14).
 - Primary Goal: Clear Rocket Hideout B1F-B4F and defeat Giovanni to obtain Silph Scope.
 
 <hr>
