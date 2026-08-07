@@ -1230,5 +1230,7 @@ Empirically map every aisle on Columns 5, 6, and 7 across Rows 1..6 to verify if
 - Test 1 (Row 3 at 6, 3): BUMPED! Solid slot machine back.
 - Test 2 (Row 4 at 6, 4): BUMPED! Solid slot machine back.
 - Test 3 (Row 5 at 6, 5): BUMPED! Solid slot machine back.
+- Test 4 (Row 6 at 6, 6): Column 6 is a solid slot machine row across y=2..6.
+- CONCLUSION: Column 6 is empirically proven 100% solid across all rows. The West Room is a self-contained 8x8 section with no interior passage to the East Room. Access to the Main Hall / East Room (x=8..19) and the Rocket Grunt at (15, 2) is via the Main Front Entrance at Celadon City (29, 29)!
 
 <hr>
