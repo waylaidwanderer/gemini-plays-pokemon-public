@@ -1,7 +1,7 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 42565)
-- Location: Inside Building (1F) at (2, 7) via Courtyard door mat (10, 21).
+## CURRENT STATUS & DASHBOARD (Turn 42567)
+- Location: Daycare House (1F) at (2, 4).
 - Primary Goal: Clear Rocket Hideout B1F-B4F and defeat Giovanni to obtain Silph Scope.
 
 <hr>
