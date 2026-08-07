@@ -6,9 +6,9 @@
 - **Result:** Explored Area 1 (East) and entered Area 2 (North) up to Column 25. Fully mapped the island plateau bypass in Area 1.
 
 ## Active Run Statistics (Current Run)
-- **Current Position:** `(14, 25)` (Safari Zone Center)
-- **Steps Taken:** 476
-- **Steps Remaining:** 24
+- **Current Position:** `(14, 34)` (Safari Zone Center)
+- **Steps Taken:** 0
+- **Steps Remaining:** 500
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
@@ -46,4 +46,5 @@ To transition from the northwestern ground level to the southwestern exit of Are
 |---|---|---|---|---|
 | Run 1 | 23448 | 23787 | 500 | Ended due to step budget exhaustion. Explored Area 1 & Area 2. |
 | Run 2 | 24454 | 25228 | 321 | Aborted due to accidental DIG usage in Pokémon party menu. |
-| Run 3 | 25135 | Active | - | Active exploration of Area 1 (East) towards Area 2 (North). |
+| Run 3 | 25135 | 25588 | 500 | Ended due to step budget exhaustion. Successfully mapped Center-Area 1-Area 2 loop. |
+| Run 4 | 25592 | Active | - | Active run: executing golden route to climb plateau, jump south-facing ledges to reach rows 25-35, transition to Area 3, and obtain Surf + Gold Teeth. |
