@@ -1,10 +1,10 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41971)
-- Location: Route 7 at (15, 12).
+## CURRENT STATUS & DASHBOARD (Turn 42001)
+- Location: Saffron West Gatehouse 1F at (4, 4).
 - Primary Goal: Infiltrate Rocket Hideout in Celadon City Game Corner.
 - Story Requirement: Silph Co. guard blocks entrance ("Suspicious kids I don't allow in!") until Celadon Game Corner Rocket Hideout is cleared and Giovanni is defeated!
-- Active Navigation Plan: Walk West to Underground Path Entrance door at (5, 13), travel through Underground Path to Route 8, enter Saffron City via East Gatehouse, cross Saffron City to West Gatehouse, exit onto Route 7 Upper Highway, walk West into Celadon City, enter Game Corner at (28, 19), inspect poster at (15, 2) to open secret stairs, and defeat Giovanni.
+- Active Navigation Plan: Step Down out of Gatehouse to Route 7 at (5, 14), walk to (8, 14), ascend through (8, 11) ledge to Upper Highway at (8, 10), walk to (10, 4), and systematically probe rows 2, 3, 4, 5, 6 going West to enter Celadon City at (0, y), then head to Game Corner at (28, 19).
 
 <hr>
 
@@ -831,10 +831,7 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Row 15 South Street: Open East-West pavement corridor on Row 15 spanning x=5..16.
 - Column 17 Wooden Fence: EMPIRICALLY CONFIRMED SOLID barrier across Rows 2..15 (bumped at 17, 2 on turn 41234).
 - Row 16 Tree Wall: Solid dark green tree wall across Rows 16..19 spanning Cols 4..19.
-- Northwest Enclosed Courtyard: Northwest sector (Cols 4..16, Rows 2..15) is bounded North by Row 1 trees, East by Col 17 fence, South by Row 16 tree wall, and West by Gatehouse.
-- West City Boundary: Cols 0..1 are solid dark green tree wall spanning y=11..19.
-- South Tree Boundary: Rows 16..19 are solid dark green tree wall spanning Cols 0..19.
-- Empirical Result: The Northwest sector (Cols 2..16, Rows 2..15) is fully enclosed by trees (North/South/West) and Column 17 wooden fence (East).
+
 - Row 7 Central-West Passage Discovered (Turn 41728): Row 7 at (17, 7) is an OPEN light grey pavement passage through Column 17 fence, allowing seamless travel between East/Central Saffron (Cols 18..39) and West Saffron (Cols 2..16).
 ### East Gatehouse Connection & Central Saffron Access
 - Verified Passage (Turn 41716): Exiting Saffron East Gatehouse west door lands player at Central Saffron City (1, 9) on open pavement!

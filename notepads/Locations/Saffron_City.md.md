@@ -12,10 +12,7 @@
 - Row 15 South Street: Open East-West pavement corridor on Row 15 spanning x=5..16.
 - Column 17 Wooden Fence: EMPIRICALLY CONFIRMED SOLID barrier across Rows 2..15 (bumped at 17, 2 on turn 41234).
 - Row 16 Tree Wall: Solid dark green tree wall across Rows 16..19 spanning Cols 4..19.
-- Northwest Enclosed Courtyard: Northwest sector (Cols 4..16, Rows 2..15) is bounded North by Row 1 trees, East by Col 17 fence, South by Row 16 tree wall, and West by Gatehouse.
-- West City Boundary: Cols 0..1 are solid dark green tree wall spanning y=11..19.
-- South Tree Boundary: Rows 16..19 are solid dark green tree wall spanning Cols 0..19.
-- Empirical Result: The Northwest sector (Cols 2..16, Rows 2..15) is fully enclosed by trees (North/South/West) and Column 17 wooden fence (East).
+
 - Row 7 Central-West Passage Discovered (Turn 41728): Row 7 at (17, 7) is an OPEN light grey pavement passage through Column 17 fence, allowing seamless travel between East/Central Saffron (Cols 18..39) and West Saffron (Cols 2..16).
 ### East Gatehouse Connection & Central Saffron Access
 - Verified Passage (Turn 41716): Exiting Saffron East Gatehouse west door lands player at Central Saffron City (1, 9) on open pavement!
