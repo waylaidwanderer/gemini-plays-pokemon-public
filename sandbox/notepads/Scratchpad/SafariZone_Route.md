@@ -1,9 +1,9 @@
 # Safari Zone - Active Path Routing
 
 ## Current Run Status
-- **Current Position:** `(9, 22)` (Safari Zone Area 1 East ground)
-- **Steps Taken:** 452
-- **Steps Remaining:** 48
+- **Current Position:** `(7, 21)` (Safari Zone Area 1 East ground)
+- **Steps Taken:** 455
+- **Steps Remaining:** 45
 - **Start Turn:** 24837
 
 ## Active Route to Area 2 (North):
