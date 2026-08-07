@@ -1,10 +1,10 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41768)
+## CURRENT STATUS & DASHBOARD (Turn 41769)
 - Location: Fighting Dojo 1F - Battle vs Karate Black Belt 1
-- Victory: Mankey L31 fainted! Black Belt 1 sending out 3rd (final) Pokemon.
-- Primary Goal: Defeat Karate Black Belt 1's final Pokemon and advance through Fighting Dojo 1F.
-- Active Navigation Plan: Advance EXP text (A), decline switch (B), and select FIGHT (A) / Move 1 (A) to KO final Pokemon.
+- Opponent: Primeape L31 (3rd of 3 Pokemon) | Player: SHELLSHOCK L49 (162/171 HP)
+- Primary Goal: Defeat Karate Black Belt 1's Primeape L31 to win trainer battle.
+- Active Navigation Plan: Cancel party menu (B), advance into battle, and select FIGHT (A) / Move 1 (A) to KO Primeape.
 
 <hr>
 
@@ -961,6 +961,7 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Karate Black Belt 1 (5, 7): Pokemon 1: Machop L31. Total Pokemon: 3.
 - Karate Black Belt 1 (5, 7): Pokemon 2: Mankey L31 (fainted).
 - Karate Black Belt 1 (5, 7): Pokemon 3: Primeape L31.
+- Karate Black Belt 1 (5, 7) DEFEATED: Primeape L31 fainted!
 
 <hr>
 
@@ -973,5 +974,6 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Primary Objective: Defeat Karate Master at the top of 1F to earn Hitmonlee or Hitmonchan!
 - Karate Black Belt 1 (5, 7): Pokemon 1: Machop L31. Total Pokemon: 3.
 - Karate Black Belt 1 (5, 7): Pokemon 2: Mankey L31 (fainted).
+- Karate Black Belt 1 (5, 7): Pokemon 3: Primeape L31.
 
 <hr>
