@@ -948,9 +948,9 @@ To transition from the northwestern ground level to the southwestern exit of Are
 # Safari Zone - Active Path Routing
 
 ## Current Run Status
-- **Current Position:** `(29, 11)` (Safari Zone Center)
-- **Steps Taken:** 15
-- **Steps Remaining:** 485
+- **Current Position:** `(19, 22)` (Safari Zone Area 1 East ground)
+- **Steps Taken:** 49
+- **Steps Remaining:** 451
 - **Start Turn:** 25136
 
 ## Active Route to Area 2 (North):
@@ -977,9 +977,9 @@ To transition from the northwestern ground level to the southwestern exit of Are
 - **Result:** Explored Area 1 (East) and entered Area 2 (North) up to Column 25. Fully mapped the island plateau bypass in Area 1.
 
 ## Active Run Statistics (Current Run)
-- **Current Position:** `(29, 11)` (Safari Zone Center)
-- **Steps Taken:** 15
-- **Steps Remaining:** 485
+- **Current Position:** `(19, 22)` (Safari Zone Area 1 East ground)
+- **Steps Taken:** 49
+- **Steps Remaining:** 451
 - **Start Turn:** 25136
 
 ## Area 1 (East) Map & Transitions
@@ -1018,7 +1018,6 @@ To transition from the northwestern ground level to the southwestern exit of Are
 - **Status:** Partially Verified
 - **Proven Segment:** Columns 13 to 28 on Row 3 are completely open, flat ground with no vertical tree lines, fences, or cliffs.
 - **Hypothetical/Unverified Segment:** Columns 0 to 12 on Row 3 remain unverified (but hypothesized open).
-
 
 <hr>
 
