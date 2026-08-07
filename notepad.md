@@ -753,8 +753,8 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 42271)
-- Location: Celadon City at (27, 12).
+## CURRENT STATUS & DASHBOARD (Turn 42273)
+- Location: Celadon Mansion 1F at (3, 7).
 - Primary Goal: Infiltrate Rocket Hideout in Celadon City Game Corner.
 
 <hr>
