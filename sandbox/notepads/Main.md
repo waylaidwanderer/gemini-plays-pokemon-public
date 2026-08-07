@@ -1,5 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 41792)
-- Location: Fighting Dojo 1F (4, 5)
-- VICTORY MILESTONE: All 4 Black Belt trainers defeated!
+## CURRENT STATUS & DASHBOARD (Turn 41793)
+- Location: Fighting Dojo 1F - FINAL BOSS BATTLE vs Karate Master (5, 2)
 - Primary Goal: Defeat Karate Master at (5, 2) to earn Hitmonlee or Hitmonchan!
-- Active Navigation Plan: Walk Up 3 steps to (4, 2), turn Right, and press A to challenge Karate Master.
+- Active Navigation Plan: Press A 5 times to advance send-out text, select FIGHT, and execute Move 1.

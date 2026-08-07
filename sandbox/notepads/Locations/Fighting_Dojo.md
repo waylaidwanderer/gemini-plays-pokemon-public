@@ -19,3 +19,4 @@
 - Karate Black Belt 3 (3, 4) DEFEATED: Primeape L36 fainted!
 - Karate Black Belt 4 (5, 5): Challenging trainer!
 - Karate Master (5, 2): Approaching for final boss battle!
+- Karate Master (5, 2): Engaged in final boss battle! Total Pokemon: 3.

@@ -1,9 +1,10 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41791)
-- Location: Fighting Dojo 1F (4, 5) - Battle vs Karate Black Belt 4
-- Primary Goal: Defeat Karate Black Belt 4 at (5, 5) and Karate Master at (5, 2).
-- Active Navigation Plan: Press A A to advance dialogue into battle intro.
+## CURRENT STATUS & DASHBOARD (Turn 41792)
+- Location: Fighting Dojo 1F (4, 5)
+- VICTORY MILESTONE: All 4 Black Belt trainers defeated!
+- Primary Goal: Defeat Karate Master at (5, 2) to earn Hitmonlee or Hitmonchan!
+- Active Navigation Plan: Walk Up 3 steps to (4, 2), turn Right, and press A to challenge Karate Master.
 
 <hr>
 
@@ -754,11 +755,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41792)
-- Location: Fighting Dojo 1F (4, 5)
-- VICTORY MILESTONE: All 4 Black Belt trainers defeated!
+## CURRENT STATUS & DASHBOARD (Turn 41793)
+- Location: Fighting Dojo 1F - FINAL BOSS BATTLE vs Karate Master (5, 2)
 - Primary Goal: Defeat Karate Master at (5, 2) to earn Hitmonlee or Hitmonchan!
-- Active Navigation Plan: Walk Up 3 steps to (4, 2), turn Right, and press A to challenge Karate Master.
+- Active Navigation Plan: Press A 5 times to advance send-out text, select FIGHT, and execute Move 1.
 
 <hr>
 
@@ -969,6 +969,7 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Karate Black Belt 3 (3, 4) DEFEATED: Primeape L36 fainted!
 - Karate Black Belt 4 (5, 5): Challenging trainer!
 - Karate Master (5, 2): Approaching for final boss battle!
+- Karate Master (5, 2): Engaged in final boss battle! Total Pokemon: 3.
 
 <hr>
 
@@ -994,5 +995,6 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Karate Black Belt 3 (3, 4): Pokemon 1: Primeape L36.
 - Karate Black Belt 3 (3, 4) DEFEATED: Primeape L36 fainted!
 - Karate Black Belt 4 (5, 5): Challenging trainer!
+- Karate Master (5, 2): Approaching for final boss battle!
 
 <hr>
