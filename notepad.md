@@ -1,10 +1,10 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41784)
-- Location: Fighting Dojo 1F - Battle vs Karate Black Belt 3
-- Opponent: Primeape L36 (1 of 1 Pokemon) | Player: SHELLSHOCK L49 (147/171 HP)
-- Primary Goal: Defeat Karate Black Belt 3 and advance to Karate Master.
-- Active Navigation Plan: Press A 5 times to select Skull Bash, KO Primeape L36, and win trainer battle.
+## CURRENT STATUS & DASHBOARD (Turn 41785)
+- Location: Fighting Dojo 1F (4, 5)
+- VICTORY: Karate Black Belt 3 defeated!
+- Primary Goal: Challenge remaining Black Belt trainer and Karate Master in Fighting Dojo 1F.
+- Active Navigation Plan: Press A 3 times to finish victory dialogue, then challenge Karate Master / Black Belt 4.
 
 <hr>
 
@@ -755,11 +755,11 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41785)
+## CURRENT STATUS & DASHBOARD (Turn 41786)
 - Location: Fighting Dojo 1F (4, 5)
 - VICTORY: Karate Black Belt 3 defeated!
-- Primary Goal: Challenge remaining Black Belt trainer and Karate Master in Fighting Dojo 1F.
-- Active Navigation Plan: Press A 3 times to finish victory dialogue, then challenge Karate Master / Black Belt 4.
+- Primary Goal: Challenge remaining Black Belt 4 at (5, 5) and Karate Master at (5, 2).
+- Active Navigation Plan: Press A 3 times to close victory dialogue and return to overworld at (4, 5).
 
 <hr>
 
@@ -997,5 +997,6 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Karate Black Belt 3 (3, 4): Engaged in battle!
 - Karate Black Belt 3 (3, 4): Total Pokemon: 1.
 - Karate Black Belt 3 (3, 4): Pokemon 1: Primeape L36.
+- Karate Black Belt 3 (3, 4) DEFEATED: Primeape L36 fainted!
 
 <hr>
