@@ -948,10 +948,10 @@ To transition from the northwestern ground level to the southwestern exit of Are
 # Safari Zone - Active Path Routing
 
 ## Current Run Status
-- **Current Position:** `(24, 16)` (Safari Zone Area 2 (North))
-- **Steps Taken:** 176
-- **Steps Remaining:** 324
-- **Status:** Active run. Bypassed divide via Row 16 Ground Crossing!
+- **Current Position:** `(15, 25)` (Safari Zone Center)
+- **Steps Taken:** 0
+- **Steps Remaining:** 500
+- **Status:** Fresh run started!
 
 ## Next Run Plan (Full 500 Steps)
 Goal: Reach Area 3 (West) / Secret House in minimal steps.
@@ -988,10 +988,10 @@ Goal: Reach Area 3 (West) / Secret House in minimal steps.
 # Safari Zone - Overworld Layout & Navigation Guide
 
 ## Active Run Statistics (Current Run - Near End)
-- **Current Position:** `(37, 12)` (Safari Zone Area 2 (North))
-- **Steps Taken:** 477 (Audited by Overwatch)
-- **Steps Remaining:** 23
-- **Status:** Expected eviction soon. Preparing for next run.
+- **Current Position:** `(15, 25)` (Safari Zone Center)
+- **Steps Taken:** 0
+- **Steps Remaining:** 500
+- **Status:** Fresh run started!
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
