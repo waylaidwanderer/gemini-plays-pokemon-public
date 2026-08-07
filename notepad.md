@@ -984,9 +984,9 @@ The route uses the Southern Plateau pond bypass along Column 14.
 - **Result:** Explored Area 1 (East) and entered Area 2 (North) up to Column 25. Fully mapped the island plateau bypass in Area 1.
 
 ## Active Run Statistics (Current Run)
-- **Current Position:** `(0, 24)`
-- **Steps Taken:** 400
-- **Steps Remaining:** 100
+- **Current Position:** `(29, 10)` (Safari Zone Center)
+- **Steps Taken:** 403
+- **Steps Remaining:** 97
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
