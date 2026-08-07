@@ -1,28 +1,18 @@
 # Safari Zone - Active Path Routing
 
 ## Current Run Status
-- **Current Position:** `(15, 25)` (Safari Zone Center)
-- **Steps Taken:** 0
-- **Steps Remaining:** 500
-- **Status:** Fresh run started!
+- **Current Position:** `(12, 20)` (Safari Zone Area 1 (East))
+- **Steps Taken:** 67
+- **Steps Remaining:** 433
+- **Status:** Traversing Area 1 (East) plateau land bridge.
 
-## Next Run Plan (Full 500 Steps)
-Goal: Reach Area 3 (West) / Secret House in minimal steps.
-
-### Step-by-Step Optimized Route:
-1. **Safari Zone Center (Start):**
-   - Walk from `(15, 25)` directly northeast to the Area 1 (East) transition at `(29, 11)`.
-2. **Area 1 (East):**
-   - Walk from `(0, 23)` to `(20, 21)` (southern plateau stairs).
-   - Climb stairs to `(20, 19)`.
-   - Walk on plateau to `(12, 21)` (western plateau stairs).
-   - Descend stairs to `(12, 22)`.
-   - Walk north on ground to the northern plateau stairs at `(12, 7)`.
-   - Climb stairs to `(12, 6)`.
-   - Walk west to the Area 2 (North) transition at `(0, 5)`.
-3. **Area 2 (North):**
-   - Transition in at `(39, 31)` on the southern ground level.
-   - Walk to `(28, 27)` (stairs) and climb to `(28, 26)` (plateau).
-   - Walk west and north on the plateau, but DO NOT descend to the eastern basin!
-   - Wait, where does the plateau go west?
-     Let's map and verify the western connection on our next run.
+## Active Route & Plan
+1. **Descend Southern Plateau:** From `(12, 20)`, walk `Down` 2 steps to `(12, 22)` (ground level).
+2. **Walk North to Northern Plateau Stairs:** From `(12, 22)`, walk `Up` to `(12, 7)`.
+3. **Climb Northern Plateau Stairs:** From `(12, 7)`, walk `Up` to `(12, 6)` (on top of the northern plateau).
+4. **Walk West to Area 2 (North) Transition:** From `(12, 6)`, walk `Left` to the map connection at `(0, 5)`.
+5. **Transition into Area 2 (North):** Arrive at `(39, 31)` on the southern ground level of Area 2 (North).
+6. **Navigate Area 2 (North) to Area 3 (West):**
+   - Walk west to the stairs at `(28, 27)` and climb to `(28, 26)`.
+   - Traverse the plateau westward and reach the western ground level.
+   - Walk west to transition to Area 3 (West) at `(0, 31)`.
