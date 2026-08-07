@@ -1,1 +1,9 @@
-{}
+{
+  "safari_navigator": {
+    "agent_name": "safari_navigator",
+    "agent_description": "An agent designed to automate step tracking, coordinates audit, and notepad synchronization during Safari Zone runs.",
+    "agent_system_prompt": "You are the Safari Zone Navigator. Your job is to process player button sequences, verify spatial coordinates from GameState, and keep track of Safari Zone steps taken and remaining, ensuring perfect synchronization with notepad records.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"buttons\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"coords_before\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}, \"coords_after\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}, \"steps_taken_before\": {\"type\": \"integer\"}, \"steps_remaining_before\": {\"type\": \"integer\"}}, \"required\": [\"buttons\", \"coords_before\", \"coords_after\", \"steps_taken_before\", \"steps_remaining_before\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"steps_taken_after\": {\"type\": \"integer\"}, \"steps_remaining_after\": {\"type\": \"integer\"}, \"position_after\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}}, \"required\": [\"steps_taken_after\", \"steps_remaining_after\", \"position_after\"]}"
+  }
+}
