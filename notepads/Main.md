@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 41510)
-- Location: Celadon City (41, 10) [Outside Celadon Pokemon Center door]
-- Primary Goal: Heal party at Celadon Pokemon Center -> Route 7 -> Underground Path to Route 8 -> Saffron East Gatehouse -> Central Saffron City.
-- Active Navigation Plan: Press Up 1 to enter Celadon Pokemon Center at (41, 9), heal party with Nurse Joy, then head East to Route 7.
+## CURRENT STATUS & DASHBOARD (Turn 41521)
+- Location: Route 7 (0, 2)
+- Primary Goal: Traverse Route 7 Underground Path -> Route 8 -> Saffron East Gatehouse -> Central Saffron City.
+- Active Navigation Plan: Walk Right 3 steps to (3, 2), then Down 5 steps to enter Underground Path building door at (3, 7).
