@@ -1108,4 +1108,7 @@ From (10, 1), lateral East/West movements along Row 1 (e.g. testing Right to (11
 5. Press Right at (10, 1) to empirically test collision / movement onto (11, 1).
 6. Document result and continue East along Row 1 towards (14, 1) red door mat.
 
+## Test Results
+- Test 1: Pressed Right at (10, 1) facing (11, 1). BUMPED! Tile (11, 1) is a SOLID statue obstacle.
+
 <hr>
