@@ -8,3 +8,4 @@
 - Karate Black Belt 1 (5, 7): Pokemon 3: Primeape L31.
 - Karate Black Belt 1 (5, 7) DEFEATED: Primeape L31 fainted!
 - Karate Black Belt 2 (3, 5): Engaged in battle!
+- Karate Black Belt 2 (3, 5): Total Pokemon: 2.
