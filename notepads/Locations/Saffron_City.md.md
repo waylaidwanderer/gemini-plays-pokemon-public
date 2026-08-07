@@ -35,3 +35,8 @@
 - Fighting Dojo & Saffron Gym buildings located along y=3..5 above Row 8 pavement.
 - Rocket Grunt NPC observed at (34, 4) guarding building entrance.
 - Row 8 open pavement highway connects East Saffron to Central/West Saffron across x=30..37+.
+### Northern Saffron Landmarks Identified (Turn 41724)
+- Saffron Gym: Located at x=32..34, y=3..5. Door at (34, 5) blocked by Rocket Grunt at (34, 4).
+- Fighting Dojo: Located at x=28..29, y=3..5. Door at (28, 5)/(29, 5) is OPEN and clear!
+- Saffron PokéMart: Located at x=26..27, y=9..11.
+- Row 7 Street: Open East-West street running across x=26..37 at y=7.
