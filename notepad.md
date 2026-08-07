@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41753)
-- Location: Central Saffron City East Highway (36, 21)
+## CURRENT STATUS & DASHBOARD (Turn 41755)
+- Location: Saffron City (29, 6) outside Fighting Dojo
 - Primary Goal: Explore Fighting Dojo at (28, 5) in Northeast Saffron City.
-- Active Navigation Plan: Walk Up 14 steps along Column 36 to (36, 7) at Northern street intersection.
+- Active Navigation Plan: Walk Left 1 step to (28, 6) and Up 1 step to (28, 5) to enter Fighting Dojo 1F.
 
 <hr>
 
@@ -754,10 +754,11 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41755)
-- Location: Saffron City (29, 6) outside Fighting Dojo
-- Primary Goal: Explore Fighting Dojo at (28, 5) in Northeast Saffron City.
-- Active Navigation Plan: Walk Left 1 step to (28, 6) and Up 1 step to (28, 5) to enter Fighting Dojo 1F.
+## CURRENT STATUS & DASHBOARD (Turn 41756)
+- Location: Saffron City (28, 6) outside Fighting Dojo fence
+- Discovery: Fence gap is at (30, 5)/(31, 5)! Courtyard is at y=4; Fighting Dojo door is at (28, 3)!
+- Primary Goal: Explore Fighting Dojo at (28, 3) in Northeast Saffron City.
+- Active Navigation Plan: Walk Right to (30, 6), Up through gap to (30, 4), Left to (28, 4), and Up to (28, 3) to enter Fighting Dojo 1F.
 
 <hr>
 
@@ -876,6 +877,7 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - TM29 (Psychic): Spoke to Mr. Psychic at (5, 3) to receive TM29!
 - TM29 (Psychic) OBTAINED: Received TM29 (Psychic) from Mr. Psychic at turn 41749!
 - Fighting Dojo Entrance Correction: Door is at (28, 5), not (29, 5). Doorway is open and clear!
+- Fighting Dojo Courtyard Discovery (Turn 41756): Fence gap at (30, 5)/(31, 5) gives access to Row 4 courtyard! Fighting Dojo door is at (28, 3).
 
 <hr>
 
@@ -941,5 +943,6 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Interior (1F): Door mat at (2, 7)/(3, 7). Mr. Psychic at (5, 3).
 - TM29 (Psychic): Spoke to Mr. Psychic at (5, 3) to receive TM29!
 - TM29 (Psychic) OBTAINED: Received TM29 (Psychic) from Mr. Psychic at turn 41749!
+- Fighting Dojo Entrance Correction: Door is at (28, 5), not (29, 5). Doorway is open and clear!
 
 <hr>

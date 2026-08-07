@@ -58,3 +58,4 @@
 - Interior (1F): Door mat at (2, 7)/(3, 7). Mr. Psychic at (5, 3).
 - TM29 (Psychic): Spoke to Mr. Psychic at (5, 3) to receive TM29!
 - TM29 (Psychic) OBTAINED: Received TM29 (Psychic) from Mr. Psychic at turn 41749!
+- Fighting Dojo Entrance Correction: Door is at (28, 5), not (29, 5). Doorway is open and clear!
