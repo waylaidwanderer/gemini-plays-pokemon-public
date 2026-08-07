@@ -15,9 +15,9 @@
 ### Run 3 (Active)
 - **Start Turn:** 25135 (paid 500)
 - **Current Turn:** 25352
-- **Current Position:** `(19, 12)` (Safari Zone Area 1 (East))
-- **Steps Taken:** 165
-- **Steps Remaining:** 335
+- **Current Position:** `(21, 16)` (Safari Zone Area 1 (East))
+- **Steps Taken:** 167
+- **Steps Remaining:** 333
 ## Active Hypotheses & Route Planning (Area 1 East to Area 2 North)
 1. **Vertical Corridor (Columns 27-28):** Walk North (UP) along Column 27/28 to reach Row 5/8 (unverified hypothesis).
 2. **Horizontal Northern Walk:** Walk West (LEFT) from Column 27 to Column 0 on Row 5 to reach the exit to Area 2 (North) at `(0, 5)` (unverified hypothesis).
