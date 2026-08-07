@@ -947,7 +947,7 @@ To transition from the northwestern ground level to the southwestern exit of Are
 
 # Safari Zone Active Routing Guide & Run Log
 
-## Chronological Run History (Current Run: Run 3)
+## Chronological Run History (Current Run: Run 4)
 
 ### Run 1 (Ended)
 - **Start Turn:** 23448
@@ -957,17 +957,29 @@ To transition from the northwestern ground level to the southwestern exit of Are
 ### Run 2 (Ended - Aborted)
 - **Start Turn:** 24454 (paid 500)
 - **End Turn:** 25228
-- **Result:** Aborted on Turn 25228 due to accidental DIG usage in the Pokmon party menu instead of CUT.
+- **Result:** Aborted on Turn 25228 due to accidental DIG usage in the Pok�mon party menu instead of CUT.
 
-### Run 3 (Active)
+### Run 3 (Ended)
 - **Start Turn:** 25135 (paid 500)
-- **Current Turn:** 25582
-- **Current Position:** `(14, 25)` (Safari Zone Center)
-- **Steps Taken:** 476
-- **Steps Remaining:** 24
-## Active Hypotheses & Route Planning (Area 1 East to Area 2 North)
-1. **Vertical Corridor (Columns 27-28):** Walk North (UP) [UNVERIFIED HYPOTHESIS] along Column 27/28 to reach Row 5/8 (unverified hypothesis).
-2. **Horizontal Northern Walk:** Walk West (LEFT) [UNVERIFIED HYPOTHESIS] from Column 27 to Column 0 on Row 5 to reach the exit to Area 2 (North) at `(0, 5)` (unverified hypothesis).
+- **End Turn:** 25588
+- **Result:** Ended due to step budget exhaustion. Successfully mapped Center-Area 1-Area 2 loop, but accidentally took southwest transition in Area 2 back to Center instead of going to Area 3.
+
+### Run 4 (Active)
+- **Start Turn:** 25592 (paid 500)
+- **Current Turn:** 25592
+- **Current Position:** `(14, 34)` (Safari Zone Center)
+- **Steps Taken:** 0
+- **Steps Remaining:** 500
+
+## Golden-Standard Speedrun Route to Area 3 (West) via Area 2 (North) Plateau Ledges
+
+1. **Center to Area 1 (East):** Walk east to transition to Area 1 (East).
+2. **Area 1 (East) to Area 2 (North):** Walk north/east through Area 1 to reach Area 2 (North).
+3. **Area 2 (North) Plateau Access:** Climb the East Stairs of the plateau at `(32, 13)` or `(33, 13)` facing east on row 13.
+4. **Plateau Traverse & Southern Ledge Jump:** Walk west along the plateau, and **jump down the south-facing ledges** (around columns 25-30) to land on the southern ground level (rows 25-35, south of the Rhydon statue fence).
+5. **Walk West to Area 3 (West):** Follow the southern open grass corridor (around row 30-35) all the way west to transition to Area 3 (West) on columns 0-4, rows 30-35.
+6. **In Area 3 (West):** Walk west to find the Gold Teeth and the Secret House (Surf).
+
 
 <hr>
 
@@ -987,9 +999,9 @@ To transition from the northwestern ground level to the southwestern exit of Are
 - **Result:** Explored Area 1 (East) and entered Area 2 (North) up to Column 25. Fully mapped the island plateau bypass in Area 1.
 
 ## Active Run Statistics (Current Run)
-- **Current Position:** `(14, 25)` (Safari Zone Center)
-- **Steps Taken:** 476
-- **Steps Remaining:** 24
+- **Current Position:** `(14, 34)` (Safari Zone Center)
+- **Steps Taken:** 0
+- **Steps Remaining:** 500
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
@@ -1027,7 +1039,8 @@ To transition from the northwestern ground level to the southwestern exit of Are
 |---|---|---|---|---|
 | Run 1 | 23448 | 23787 | 500 | Ended due to step budget exhaustion. Explored Area 1 & Area 2. |
 | Run 2 | 24454 | 25228 | 321 | Aborted due to accidental DIG usage in Pokémon party menu. |
-| Run 3 | 25135 | Active | - | Active exploration of Area 1 (East) towards Area 2 (North). |
+| Run 3 | 25135 | 25588 | 500 | Ended due to step budget exhaustion. Successfully mapped Center-Area 1-Area 2 loop. |
+| Run 4 | 25592 | Active | - | Active run: executing golden route to climb plateau, jump south-facing ledges to reach rows 25-35, transition to Area 3, and obtain Surf + Gold Teeth. |
 
 
 <hr>
