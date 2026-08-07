@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41721)
-- Location: East Saffron City street (36, 17)
+## CURRENT STATUS & DASHBOARD (Turn 41722)
+- Location: East Saffron City street (36, 12)
 - Primary Goal: Explore Central Saffron City to locate Pokemon Center, Silph Co., Fighting Dojo, and Saffron Gym.
-- Active Navigation Plan: Walk Up 5 steps to (36, 12) heading North along East Saffron street.
+- Active Navigation Plan: Walk Up 4 steps to (36, 8) at the Northern street intersection.
 
 <hr>
 
@@ -754,10 +754,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41722)
-- Location: East Saffron City street (36, 12)
+## CURRENT STATUS & DASHBOARD (Turn 41723)
+- Location: Saffron City Northern Highway (36, 8)
 - Primary Goal: Explore Central Saffron City to locate Pokemon Center, Silph Co., Fighting Dojo, and Saffron Gym.
-- Active Navigation Plan: Walk Up 4 steps to (36, 8) at the Northern street intersection.
+- Active Navigation Plan: Walk Left 6 steps to (30, 8) along the Northern highway.
 
 <hr>
 
@@ -848,6 +848,10 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - North-South street runs along x=36..37 from y=8 down to y=21+.
 - Yellow building at x=32..35, y=9..11 with open pavement on Row 8 above it.
 - Row 8 is an open East-West street connecting x=32..37+.
+### Northern Saffron Sector (Turn 41723)
+- Fighting Dojo & Saffron Gym buildings located along y=3..5 above Row 8 pavement.
+- Rocket Grunt NPC observed at (34, 4) guarding building entrance.
+- Row 8 open pavement highway connects East Saffron to Central/West Saffron across x=30..37+.
 
 <hr>
 
@@ -882,5 +886,9 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Exiting Saffron East Gatehouse lands player at Saffron City (39, 17).
 - Row 16-17 east-west corridor spans x=36..39.
 - Column 36-37 forms a North-South street spanning y=13..21+.
+### East Saffron Street Topology (Turns 41721-41722)
+- North-South street runs along x=36..37 from y=8 down to y=21+.
+- Yellow building at x=32..35, y=9..11 with open pavement on Row 8 above it.
+- Row 8 is an open East-West street connecting x=32..37+.
 
 <hr>

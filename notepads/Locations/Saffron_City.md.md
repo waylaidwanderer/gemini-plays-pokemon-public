@@ -31,3 +31,7 @@
 - North-South street runs along x=36..37 from y=8 down to y=21+.
 - Yellow building at x=32..35, y=9..11 with open pavement on Row 8 above it.
 - Row 8 is an open East-West street connecting x=32..37+.
+### Northern Saffron Sector (Turn 41723)
+- Fighting Dojo & Saffron Gym buildings located along y=3..5 above Row 8 pavement.
+- Rocket Grunt NPC observed at (34, 4) guarding building entrance.
+- Row 8 open pavement highway connects East Saffron to Central/West Saffron across x=30..37+.
