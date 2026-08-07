@@ -1018,14 +1018,9 @@ This leaves a massive **308 steps remaining** for navigating Area 3 (West) to gr
 ## Run Statistics (Current Run)
 - **Start Turn:** 23820
 - **Starting Cash:** ¥72,088
-- **Steps Taken:** 78
-- **Current Position:** (8, 12) (Safari Zone Area 1 - East)
+- **Steps Taken:** 83 (417 steps remaining)
+- **Current Position:** (8, 7) (Safari Zone Area 1 - East)
 - **Goal:** Reach Area 3 (West) to obtain HM03 (Surf) and Gold Teeth.
-
-## Run Statistics (Previous Run - Ended)
-- **Start Turn:** 23448 (Run ended due to step budget exhaustion on Turn 23787)
-- **End Turn:** 23787
-- **Result:** Explored Area 1 (East) and entered Area 2 (North) up to Column 25. Fully mapped the island plateau bypass in Area 1.
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
