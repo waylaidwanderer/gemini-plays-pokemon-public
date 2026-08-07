@@ -987,9 +987,9 @@ Row 6 has a solid tree line from Column 0 to Column 9, but we suspect there is a
 - **Result:** Explored Area 1 (East) and entered Area 2 (North) up to Column 25. Fully mapped the island plateau bypass in Area 1.
 
 ## Active Run Statistics (Current Run)
-- **Current Position:** `(12, 4)`
-- **Steps Taken:** 254
-- **Steps Remaining:** 246
+- **Current Position:** `(13, 4)`
+- **Steps Taken:** 289
+- **Steps Remaining:** 211
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
