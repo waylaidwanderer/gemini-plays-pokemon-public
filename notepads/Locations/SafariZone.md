@@ -3,8 +3,8 @@
 ## Run Statistics (Current Run)
 - **Start Turn:** 23820
 - **Starting Cash:** ¥72,088
-- **Steps Taken:** 158 (342 steps remaining)
-- **Current Position:** (25, 31) (Safari Zone Area 2 - North) (Safari Zone Area 1 - East)
+- **Steps Taken:** 165 (335 steps remaining)
+- **Current Position:** (25, 24) (Safari Zone Area 2 - North) (Safari Zone Area 1 - East)
 - **Goal:** Reach Area 3 (West) to obtain HM03 (Surf) and Gold Teeth.
 
 ## Area 1 (East) Map & Transitions
