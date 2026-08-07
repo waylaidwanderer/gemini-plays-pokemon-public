@@ -1,10 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41744)
-- Location: Central Saffron City South Highway (18, 31)
-- VICTORY MILESTONE: Pokémon team 100% healed & Saffron City warp point registered!
-- Primary Goal: Obtain TM29 (Psychic) from Mr. Psychic at (29, 29), then explore Fighting Dojo and Silph Co.
-- Active Navigation Plan: Walk Right 10 steps along Row 31 to (28, 31) outside Mr. Psychic's House.
+## CURRENT STATUS & DASHBOARD (Turn 41745)
+- Location: Saffron City South Highway (28, 31)
+- Primary Goal: Obtain TM29 (Psychic) from Mr. Psychic at (29, 29).
+- Active Navigation Plan: Walk Right 1 step to (29, 31) and Up 2 steps to (29, 29) to enter Mr. Psychic's House.
 
 <hr>
 
@@ -755,10 +754,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41745)
-- Location: Saffron City South Highway (28, 31)
-- Primary Goal: Obtain TM29 (Psychic) from Mr. Psychic at (29, 29).
-- Active Navigation Plan: Walk Right 1 step to (29, 31) and Up 2 steps to (29, 29) to enter Mr. Psychic's House.
+## CURRENT STATUS & DASHBOARD (Turn 41747)
+- Location: Mr. Psychic's House 1F (2, 4)
+- Primary Goal: Obtain TM29 (Psychic) from Mr. Psychic at (5, 3).
+- Active Navigation Plan: Walk Down to (2, 5), Right 3 steps to (5, 5), Up to (5, 4), and press A to receive TM29.
 
 <hr>
 
