@@ -753,8 +753,8 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 42631)
-- Location: Route 7 Underground Path Building (1F) at (4, 14).
+## CURRENT STATUS & DASHBOARD (Turn 42661)
+- Location: Saffron West Gatehouse 1F at (1, 1).
 - Primary Goal: Clear Rocket Hideout B1F-B4F and defeat Giovanni to obtain Silph Scope.
 
 <hr>
