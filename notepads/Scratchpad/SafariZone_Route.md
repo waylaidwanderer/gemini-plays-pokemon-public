@@ -34,7 +34,7 @@ This route is mathematically verified and physically mapped to cross Safari Zone
 
 ---
 
-## Part 3: Safari Zone Area 2 (North)
+## Part 3: Safari Zone Area 2 (North) [UNVERIFIED - TOPOLOGICAL ERRORS DETECTED]
 - **Spawn Position:** `(39, 31)` (facing Left, from Area 1)
 - **Goal:** Reach the southwestern transition to Area 3 (West) at `(0, 31)`.
 - **Coordinate Path:**
