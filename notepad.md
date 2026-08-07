@@ -1,10 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41756)
-- Location: Saffron City (28, 6) outside Fighting Dojo fence
-- Discovery: Fence gap is at (30, 5)/(31, 5)! Courtyard is at y=4; Fighting Dojo door is at (28, 3)!
-- Primary Goal: Explore Fighting Dojo at (28, 3) in Northeast Saffron City.
-- Active Navigation Plan: Walk Right to (30, 6), Up through gap to (30, 4), Left to (28, 4), and Up to (28, 3) to enter Fighting Dojo 1F.
+## CURRENT STATUS & DASHBOARD (Turn 41758)
+- Location: Fighting Dojo 1F (4, 11)
+- Primary Goal: Defeat the Karate Master and Black Belts in Fighting Dojo 1F.
+- Active Navigation Plan: Walk Up 4 steps along Column 4 to (4, 7) to challenge the first Karate Black Belt.
 
 <hr>
 
@@ -755,10 +754,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41758)
-- Location: Fighting Dojo 1F (4, 11)
-- Primary Goal: Defeat the Karate Master and Black Belts in Fighting Dojo 1F.
-- Active Navigation Plan: Walk Up 4 steps along Column 4 to (4, 7) to challenge the first Karate Black Belt.
+## CURRENT STATUS & DASHBOARD (Turn 41759)
+- Location: Fighting Dojo 1F (4, 7)
+- Primary Goal: Defeat Karate Black Belt 1 and advance through Fighting Dojo 1F.
+- Active Navigation Plan: Press A to advance trainer dialogue ("Hoohah!") into battle.
 
 <hr>
 
@@ -951,6 +950,16 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 <hr>
 
 <h1><code>Locations/Fighting_Dojo.md</code></h1>
+
+## Fighting Dojo 1F Topology & Trainers (Turn 41758)
+- Entrance Door: Located at Saffron City (26, 3).
+- Interior (1F): Entrance mat at (4, 11)/(5, 11). Statues at (3, 8) and (6, 8).
+- Karate Black Belt Trainer 1: Located at (5, 7).
+- Primary Objective: Defeat Karate Master at the top of 1F to earn Hitmonlee or Hitmonchan!
+
+<hr>
+
+<h1><code>Locations/Fighting_Dojo</code></h1>
 
 ## Fighting Dojo 1F Topology & Trainers (Turn 41758)
 - Entrance Door: Located at Saffron City (26, 3).
