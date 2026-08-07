@@ -27,3 +27,7 @@
 - Exiting Saffron East Gatehouse lands player at Saffron City (39, 17).
 - Row 16-17 east-west corridor spans x=36..39.
 - Column 36-37 forms a North-South street spanning y=13..21+.
+### East Saffron Street Topology (Turns 41721-41722)
+- North-South street runs along x=36..37 from y=8 down to y=21+.
+- Yellow building at x=32..35, y=9..11 with open pavement on Row 8 above it.
+- Row 8 is an open East-West street connecting x=32..37+.
