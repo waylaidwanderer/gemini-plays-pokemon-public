@@ -954,12 +954,10 @@ To transition from the northwestern ground level to the southwestern exit of Are
 - **Start Turn:** 25136
 
 ## Active Route to Area 2 (North):
-
-4. Walk East on row 30 to column 35.
-5. Walk North on column 35 to row 3.
-6. Walk West on row 3 to column 6.
-7. Climb western plateau stairs at `(6, 4)` to `(6, 5)`.
-8. Walk Left to transition to Area 2 (North) at `(0, 5)`.
+1. Walk Right 20 times to (20, 23), then Up 2 times to climb stairs at (20, 21), reaching the plateau at (20, 19). (22 steps)
+2. Walk Left 8 times to (12, 19), then Down 2 times to descend stairs at (12, 21), reaching the ground at (12, 22). (10 steps)
+3. Walk Up 14 times to (12, 8), then Up 1 time to climb stairs at (12, 7), reaching the northern plateau at (12, 6). (15 steps)
+4. Walk Left 12 times to (0, 6), then Down 1 time to (0, 5) to transition to Area 2 (North) at (39, 31). (13 steps)
 
 <hr>
 
