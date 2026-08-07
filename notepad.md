@@ -905,9 +905,9 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 - **Result:** Explored Area 1 (East) and entered Area 2 (North) up to Column 25. Fully mapped the island plateau bypass in Area 1.
 
 ## Active Run Statistics (Current Run)
-- **Current Position:** `(17, 24)`
-- **Steps Taken:** 380
-- **Steps Remaining:** 120
+- **Current Position:** `(0, 24)`
+- **Steps Taken:** 400
+- **Steps Remaining:** 100
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
