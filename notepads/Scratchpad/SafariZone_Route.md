@@ -20,7 +20,7 @@
 ### Run 4 (Active)
 - **Start Turn:** 25592 (paid 500)
 - **Current Turn:** 25685
-- **Current Position:** `(10, 24)` (Safari Zone Area 1 (East))
+- **Current Position:** `(9, 24)` (Safari Zone Area 1 (East))
 - **Steps Taken:** 98
 - **Steps Remaining:** 402
 
