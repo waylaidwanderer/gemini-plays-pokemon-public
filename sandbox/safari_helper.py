@@ -1,0 +1,71 @@
+import mgba
+import time
+
+def get_pos():
+    pos = mgba.get_coordinates()
+    return pos['x'], pos['y']
+
+def escape_battle():
+    print("Coordinates did not change. Checking for battle or text box...")
+    # Press B to dismiss any dialogue or "Wild pokemon appeared" text
+    mgba.press_buttons(["B", "sleep 300", "B", "sleep 300"])
+    
+    # Try to RUN: from Fight, Down moves to Item, Right moves to Run, A selects Run.
+    print("Attempting to RUN...")
+    mgba.press_buttons(["Down", "sleep 100", "Right", "sleep 100", "A", "sleep 800"])
+    
+    # Press B to dismiss "Got away safely!" or retry if it failed
+    mgba.press_buttons(["B", "sleep 300", "B", "sleep 300"])
+
+def walk_step(direction):
+    print(f"Stepping {direction}")
+    mgba.press_buttons([direction, "sleep 300"])
+
+def navigate_to(target_x, target_y, max_attempts=5):
+    """
+    Navigates to a specific target coordinate.
+    Handles battles and obstacles by retrying.
+    """
+    print(f"Navigating to ({target_x}, {target_y})...")
+    
+    stuck_count = 0
+    while True:
+        curr_x, curr_y = get_pos()
+        print(f"Current Pos: ({curr_x}, {curr_y}) | Target: ({target_x}, {target_y})")
+        
+        if curr_x == target_x and curr_y == target_y:
+            print("Reached target!")
+            return True
+            
+        dx = target_x - curr_x
+        dy = target_y - curr_y
+        
+        # Determine next step direction
+        if dx > 0:
+            direction = "Right"
+        elif dx < 0:
+            direction = "Left"
+        elif dy > 0:
+            direction = "Down"
+        elif dy < 0:
+            direction = "Up"
+        else:
+            break
+            
+        walk_step(direction)
+        new_x, new_y = get_pos()
+        
+        if new_x == curr_x and new_y == curr_y:
+            stuck_count += 1
+            if stuck_count >= 2:
+                escape_battle()
+                stuck_count = 0
+        else:
+            stuck_count = 0
+            
+        # Small sleep between steps
+        time.sleep(0.1)
+
+if __name__ == "__main__":
+    # Test getting coordinates
+    print("Current coordinates:", get_pos())
