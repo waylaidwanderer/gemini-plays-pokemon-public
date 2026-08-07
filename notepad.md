@@ -754,10 +754,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41551)
-- Location: Route 8 (8, 7)
-- Primary Goal: Bypass rock wall via Column 12 -> Walk West along Row 12 pavement to Saffron East Gatehouse -> Enter Central Saffron City.
-- Active Navigation Plan: Walk Right 4 steps to (12, 7), then Down 5 steps along Column 12 to Row 12 pavement.
+## CURRENT STATUS & DASHBOARD (Turn 41559)
+- Location: Route 8 (10, 15)
+- Primary Goal: Walk Right to Col 12 (12, 15) -> Down to Row 19 dirt road -> West along Row 19 to Saffron East Gatehouse -> Enter Central Saffron City.
+- Active Navigation Plan: Walk Right 2 to (12, 15), then Down 4 to Row 19 dirt road at (12, 19).
 
 <hr>
 
