@@ -1,9 +1,10 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41727)
-- Location: Saffron City Row 7 Street (18, 7)
-- Primary Goal: Explore Central Saffron City to locate Pokemon Center, Silph Co., Fighting Dojo, and Saffron Gym.
-- Active Navigation Plan: Walk Left 4 steps along Row 7 to (14, 7) to explore West Saffron.
+## CURRENT STATUS & DASHBOARD (Turn 41728)
+- Location: Saffron City Row 7 Street (14, 7)
+- Discovery: Row 7 at (17, 7) is an OPEN passage through Column 17 connecting East and West Saffron!
+- Primary Goal: Register Saffron City Pokemon Center warp point.
+- Active Navigation Plan: Walk Left 6 steps to (8, 7) on Column 8 North-South Highway, then walk South to y=29.
 
 <hr>
 
@@ -918,5 +919,10 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - PokéMart Door: Located at (25, 11).
 - Copycat / Northwest Residence: Located at x=24..27, y=3..5. Door at (26, 3).
 - Row 7 Street: Open East-West street running across x=22..37.
+### Row 7 Central-West Passage Discovered (Turn 41728)
+- Row 7 at (17, 7) is an OPEN light grey pavement passage through the Column 17 fence!
+- Allows seamless travel between East/Central Saffron (Cols 18..39) and West Saffron (Cols 2..16).
+- Building at x=10..13, y=3..5 (Copycat's House). Door at (13, 5).
+- Building at x=10..15, y=9..11 (Northwest Residence). Door at (13, 11).
 
 <hr>
