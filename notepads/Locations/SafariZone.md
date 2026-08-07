@@ -41,3 +41,8 @@ To transition from the northwestern ground level to the southwestern exit of Are
 3. **Traverse the Plateau:** Walk south and west along the plateau structure to reach the southern cliffside.
 4. **Reach Southern Ground Level:** Walk down the stairs or jump down the south-facing ledges at the south-eastern/south-middle part of the plateau to land on the southern ground level (rows 25-35).
 5. **Walk West to Area 3:** Follow the open southern grass corridor (around row 30) all the way west to the bottom-left corner of Area 2 (North) (columns 0-4, rows 30-35) to transition to **Area 3 (West)**.
+
+## Row 3 Empirical Verification
+- **Status:** Partially Verified
+- **Proven Segment:** Columns 13 to 28 on Row 3 are completely open, flat ground with no vertical tree lines, fences, or cliffs.
+- **Hypothetical/Unverified Segment:** Columns 0 to 12 on Row 3 remain unverified (but hypothesized open).
