@@ -948,24 +948,21 @@ To transition from the northwestern ground level to the southwestern exit of Are
 # Safari Zone - Active Path Routing
 
 ## Current Run Status
-- **Current Position:** `(10, 22)` (Safari Zone Area 1)
-- **Steps Taken:** 244
-- **Steps Remaining:** 256
-- **Start Turn:** 24837
+- **Current Position:** `(12, 22)` (Safari Zone Area 1 East)
+- **Steps Taken:** 255
+- **Steps Remaining:** 245
+- **Start Turn:** 24832
 
-## Active Route to Area 1 (East) Transition:
-1. Walk Right 7 times to reach `(28, 23)`.
-2. Walk Up 12 times to `(28, 11)`.
-3. Walk Right 1 time to transition to Area 1 (East) at `(29, 11)`.
-
-## Active Route in Area 1 (East) to Area 2 (North):
-1. Walk South on column 20 or 21 (ground) to the bottom plain on row 30.
-2. Walk East on row 30 to column 35.
-3. Walk North on column 35 to row 3.
-4. Walk West on row 3 to column 6 (`(6, 3)`).
-5. Walk Down 2 times into the stairs at `(6, 4)` to climb onto the western plateau at `(6, 5)`.
-6. Walk Left 6 times to transition at `(0, 5)`.
-
+## Active Route to Area 2 (North):
+1. Climb stairs at `(12, 21)` to reach plateau at `(12, 20)`. (1 step)
+2. Walk Right 8 times to `(20, 20)`. (8 steps)
+3. Walk Down 1 time to descend stairs at `(20, 21)` to ground `(20, 22)`. (1 step)
+4. Walk Down 8 times on column 20 to row 30. (8 steps)
+5. Walk East on row 30 to column 35.
+6. Walk North on column 35 to row 3.
+7. Walk West on row 3 to column 6.
+8. Climb western plateau stairs at `(6, 4)` to `(6, 5)`.
+9. Walk Left to transition to Area 2 (North) at `(0, 5)`.
 
 <hr>
 
