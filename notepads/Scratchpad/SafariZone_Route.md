@@ -22,7 +22,7 @@
 - **Current Turn:** 25720
 - **Current Position:** `(9, 22)` (Safari Zone Area 1 (East))
 - **Steps Taken:** 133
-- **Steps Remaining:** 375
+- **Steps Remaining:** 367
 
 ## Golden-Standard Speedrun Route to Area 3 (West) via Area 2 (North) Plateau Ledges
 
