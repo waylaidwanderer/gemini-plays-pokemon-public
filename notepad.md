@@ -1016,5 +1016,9 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Tile (13, 11): Solid brick wall (bumped on Turn 42020). Probing (14, 11)...
 - Tile (14, 11): Solid brick wall (bumped on Turn 42022). Probing (15, 11)...
 - Tile (15, 11): Solid brick wall (bumped on Turn 42024). Probing (16, 11)...
+- Tile (16, 11): Solid brick wall (bumped on Turn 42026).
+- Tile (17, 11): Right corner wall tile.
+- Conclusion: Building 2 (x=12..17, y=8..11) is 100% solid brick wall on row 11 with NO door.
+- Active Strategy: Take Upper Highway at (8, 10) East along Row 10 to Saffron West Gatehouse at (21, 10) / (21, 11) to enter Saffron City / Celadon City.
 
 <hr>
