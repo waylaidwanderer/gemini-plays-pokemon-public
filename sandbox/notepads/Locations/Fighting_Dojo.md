@@ -11,3 +11,4 @@
 - Karate Black Belt 2 (3, 5): Total Pokemon: 2.
 - Karate Black Belt 2 (3, 5): Pokemon 1: Machop L32.
 - Karate Black Belt 2 (3, 5): Pokemon 1: Machop L32 (fainted).
+- Karate Black Belt 2 (3, 5): Pokemon 2: Machoke (2nd/final Pokemon).

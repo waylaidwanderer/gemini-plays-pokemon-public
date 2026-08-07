@@ -1,10 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41775)
+## CURRENT STATUS & DASHBOARD (Turn 41776)
 - Location: Fighting Dojo 1F - Battle vs Karate Black Belt 2
 - Opponent: Machop L32 (1st of 2 Pokemon) | Player: SHELLSHOCK L49 (147/171 HP)
-- Primary Goal: Defeat Karate Black Belt 2 and advance through Fighting Dojo 1F.
-- Active Navigation Plan: Press A to select Skull Bash and KO Machop L32.
+- Active Navigation Plan: Press A to advance Skull Bash execution and KO Machop L32.
 
 <hr>
 
@@ -755,10 +754,11 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41776)
+## CURRENT STATUS & DASHBOARD (Turn 41778)
 - Location: Fighting Dojo 1F - Battle vs Karate Black Belt 2
-- Opponent: Machop L32 (1st of 2 Pokemon) | Player: SHELLSHOCK L49 (147/171 HP)
-- Active Navigation Plan: Press A to advance Skull Bash execution and KO Machop L32.
+- Opponent: Machoke (2nd of 2 Pokemon) | Player: SHELLSHOCK L49 (147/171 HP)
+- Primary Goal: Defeat Karate Black Belt 2's Machoke to win trainer battle.
+- Active Navigation Plan: Cancel party menu (B), advance into battle, and select FIGHT (A) / Move 1 (A) to KO Machoke.
 
 <hr>
 
@@ -965,6 +965,7 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Karate Black Belt 2 (3, 5): Total Pokemon: 2.
 - Karate Black Belt 2 (3, 5): Pokemon 1: Machop L32.
 - Karate Black Belt 2 (3, 5): Pokemon 1: Machop L32 (fainted).
+- Karate Black Belt 2 (3, 5): Pokemon 2: Machoke (2nd/final Pokemon).
 
 <hr>
 
@@ -982,5 +983,6 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Karate Black Belt 2 (3, 5): Engaged in battle!
 - Karate Black Belt 2 (3, 5): Total Pokemon: 2.
 - Karate Black Belt 2 (3, 5): Pokemon 1: Machop L32.
+- Karate Black Belt 2 (3, 5): Pokemon 1: Machop L32 (fainted).
 
 <hr>

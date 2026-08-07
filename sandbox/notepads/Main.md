@@ -1,4 +1,5 @@
-## CURRENT STATUS & DASHBOARD (Turn 41776)
+## CURRENT STATUS & DASHBOARD (Turn 41778)
 - Location: Fighting Dojo 1F - Battle vs Karate Black Belt 2
-- Opponent: Machop L32 (1st of 2 Pokemon) | Player: SHELLSHOCK L49 (147/171 HP)
-- Active Navigation Plan: Press A to advance Skull Bash execution and KO Machop L32.
+- Opponent: Machoke (2nd of 2 Pokemon) | Player: SHELLSHOCK L49 (147/171 HP)
+- Primary Goal: Defeat Karate Black Belt 2's Machoke to win trainer battle.
+- Active Navigation Plan: Cancel party menu (B), advance into battle, and select FIGHT (A) / Move 1 (A) to KO Machoke.
