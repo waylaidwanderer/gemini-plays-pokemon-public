@@ -8,18 +8,19 @@ def get_pos():
 def escape_battle():
     print("Coordinates did not change. Checking for battle or text box...")
     # Press B to dismiss any dialogue or "Wild pokemon appeared" text
-    mgba.press_buttons(["B", "sleep 300", "B", "sleep 300"])
+    # Mash B a few times to be safe
+    mgba.press_buttons(["B", "sleep 200", "B", "sleep 200", "B", "sleep 200", "B", "sleep 200"])
     
     # Try to RUN: from Fight, Down moves to Item, Right moves to Run, A selects Run.
     print("Attempting to RUN...")
-    mgba.press_buttons(["Down", "sleep 100", "Right", "sleep 100", "A", "sleep 800"])
+    mgba.press_buttons(["Down", "sleep 200", "Right", "sleep 200", "A", "sleep 1200"])
     
     # Press B to dismiss "Got away safely!" or retry if it failed
-    mgba.press_buttons(["B", "sleep 300", "B", "sleep 300"])
+    mgba.press_buttons(["B", "sleep 200", "B", "sleep 200", "B", "sleep 200"])
 
 def walk_step(direction):
     print(f"Stepping {direction}")
-    mgba.press_buttons([direction, "sleep 300"])
+    mgba.press_buttons([direction, "sleep 600"])
 
 def navigate_to(target_x, target_y, max_attempts=5):
     """
