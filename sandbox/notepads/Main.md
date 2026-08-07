@@ -1,4 +1,5 @@
-## CURRENT STATUS & DASHBOARD (Turn 41779)
-- Location: Fighting Dojo 1F - Battle vs Karate Black Belt 2
-- Opponent: Machoke L32 (2nd of 2 Pokemon) | Player: SHELLSHOCK L49 (147/171 HP)
-- Active Navigation Plan: Press A 5 times to execute Skull Bash, KO Machoke L32, and win trainer battle.
+## CURRENT STATUS & DASHBOARD (Turn 41781)
+- Location: Fighting Dojo 1F (4, 6)
+- VICTORY: Karate Black Belt 2 defeated!
+- Primary Goal: Advance North in Fighting Dojo 1F to challenge remaining Black Belt trainers and Karate Master.
+- Active Navigation Plan: Press A A to close victory dialogue, then walk Up 4 steps to (4, 2).
