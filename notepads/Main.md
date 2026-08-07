@@ -1,4 +1,5 @@
-## CURRENT STATUS & DASHBOARD (Turn 41889)
-- Location: Saffron City (8, 6)
+## CURRENT STATUS & DASHBOARD (Turn 41911)
+- Location: Route 7 (5, 14) outside Underground Path Entrance Building.
 - Primary Goal: Infiltrate Rocket Hideout in Celadon City Game Corner.
-- Active Navigation Plan: Travel East along Row 7 street to Saffron East Gatehouse at (39, 17), exit to Route 8, and use Underground Path to Route 7 / Celadon City.
+- Story Requirement: Silph Co. guard blocks entrance ("Suspicious kids I don't allow in!") until Celadon Game Corner Rocket Hideout is cleared and Giovanni is defeated!
+- Active Navigation Plan: Walk West along Route 7 into Celadon City at (49, 11), head to Game Corner at (28, 19), inspect poster at (15, 2) to open secret stairs, and defeat Giovanni.
