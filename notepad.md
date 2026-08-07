@@ -822,6 +822,13 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Column 28 Boundary: Solid wall at x=28 across y=26..28.
 - East Highway Passage: Column 36 is an open North-South street running from Row 22/25 down to Row 30.
 
+### Verified Game Corner & Plaza Topology (Turn 42312)
+- Game Corner Building: Located in South Celadon at x=24..30, y=33..35.
+- Game Corner Plaza Warp: Tile (20, 36) in Celadon City warps directly into Game Corner Plaza at (10, 0).
+- Game Corner Entrance Door: Tile (10, 2) in Game Corner Plaza (accessed by stepping Down to (10, 1) then Down into (10, 2)) WARPS DIRECTLY INSIDE CELADON GAME CORNER AT (3, 0)!
+- Celadon Diner: Entrance door at (29, 29) on Row 29.
+- Celadon PokéMart: Entrance door at (25, 11) on Row 11.
+
 <hr>
 
 <h1><code>Locations/Saffron_City.md</code></h1>
@@ -1145,5 +1152,26 @@ The main Game Corner building entrance at (14, 0)/(15, 0) on the Game Corner Pla
 1. Test Southbound passages across Columns 29, 30, 31, 32, 33, 34, 35 from Row 32 street down to Row 36.
 2. Verify if a passable alleyway exists between the Game Corner (x=24..28) and Hotel (x=36..39).
 
+
+<hr>
+
+<h1><code>Locations/Celadon_Game_Corner.md</code></h1>
+
+# Celadon Game Corner Topology & Mechanics
+
+## Entrance & Plaza Navigation
+- Celadon City (20, 36) -> Warps into Game Corner Plaza at (10, 0).
+- Game Corner Plaza (10, 0) / (10, 1):
+  - Step Down 1 step from (10, 0) to (10, 1) [facing South].
+  - Step Down 1 step from (10, 1) into (10, 2) [building facade/doorway].
+  - WARPS DIRECTLY INSIDE CELADON GAME CORNER WEST ROOM AT (3, 0)!
+
+## Game Corner Interior (West Room / Main Hall)
+- Entrance mat: (3, 0) and (4, 0).
+- Central Aisle: Column 3 and Column 4 run vertically from y=0 down to y=5 (red mats at y=5).
+- West Aisle: Column 1 runs vertically from y=1 down to y=5.
+- Slot Machine Rows: Column 2 (y=1..4) and Column 5 (y=1..4).
+- East Wall / Barrier: Column 7 consists of golden statues separating the West Room from the East Room.
+- Objective: Locate Rocket Grunt guarding the poster at the top-right wall (x=15, y=2) to open secret stairs to Rocket Hideout B1F.
 
 <hr>
