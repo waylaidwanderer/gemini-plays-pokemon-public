@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41701)
-- Location: Saffron East Gatehouse 1F (0, 2)
-- Primary Goal: Enter Central Saffron City via Saffron East Gatehouse north exit.
-- Active Navigation Plan: Walk Up 2 steps to (0, 0) north exit doorway to enter Central Saffron City.
+## CURRENT STATUS & DASHBOARD (Turn 41720)
+- Location: Central Saffron City (39, 17)
+- Primary Goal: Explore Central Saffron City to locate Pokemon Center, Silph Co., Fighting Dojo, and Saffron Gym.
+- Active Navigation Plan: Walk Left 3 steps to (36, 17) onto North-South street.
 
 <hr>
 
@@ -754,10 +754,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41720)
-- Location: Central Saffron City (39, 17)
+## CURRENT STATUS & DASHBOARD (Turn 41721)
+- Location: East Saffron City street (36, 17)
 - Primary Goal: Explore Central Saffron City to locate Pokemon Center, Silph Co., Fighting Dojo, and Saffron Gym.
-- Active Navigation Plan: Walk Left 3 steps to (36, 17) onto North-South street.
+- Active Navigation Plan: Walk Up 5 steps to (36, 12) heading North along East Saffron street.
 
 <hr>
 
@@ -874,5 +874,9 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Verified Passage (Turn 41716): Exiting Saffron East Gatehouse west door lands player at Central Saffron City (1, 9) on open pavement!
 - East Gatehouse Building: Yellow roof building located at x=2..6, y=8..11 with front entrance at (0, 11) / (1, 11).
 - Row 9 Westbound Highway: Open light grey pavement running West from (1, 9) across x=0, -1, -2 directly into Central Saffron City!
+### East Saffron Connection & Street Topology (Turn 41720)
+- Exiting Saffron East Gatehouse lands player at Saffron City (39, 17).
+- Row 16-17 east-west corridor spans x=36..39.
+- Column 36-37 forms a North-South street spanning y=13..21+.
 
 <hr>
