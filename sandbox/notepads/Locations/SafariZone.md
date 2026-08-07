@@ -6,9 +6,9 @@
 - **Result:** Explored Area 1 (East) and entered Area 2 (North) up to Column 25. Fully mapped the island plateau bypass in Area 1.
 
 ## Active Run Statistics (Current Run)
-- **Current Position:** `(21, 16)` (Safari Zone Area 1 (East))
-- **Steps Taken:** 167
-- **Steps Remaining:** 333
+- **Current Position:** `(28, 22)` (Safari Zone Area 1 (East))
+- **Steps Taken:** 198
+- **Steps Remaining:** 302
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
@@ -41,3 +41,9 @@ To transition from the northwestern ground level to the southwestern exit of Are
 3. **Traverse the Plateau:** Walk south and west along the plateau structure to reach the southern cliffside.
 4. **Reach Southern Ground Level:** Walk down the stairs or jump down the south-facing ledges at the south-eastern/south-middle part of the plateau to land on the southern ground level (rows 25-35).
 5. **Walk West to Area 3:** Follow the open southern grass corridor (around row 30) all the way west to the bottom-left corner of Area 2 (North) (columns 0-4, rows 30-35) to transition to **Area 3 (West)**.
+## Safari Zone Run History
+| Run | Start Turn | End Turn | Steps Consumed | Outcome / Failure Reason |
+|---|---|---|---|---|
+| Run 1 | 23448 | 23787 | 500 | Ended due to step budget exhaustion. Explored Area 1 & Area 2. |
+| Run 2 | 24454 | 25228 | 321 | Aborted due to accidental DIG usage in Pokémon party menu. |
+| Run 3 | 25135 | Active | - | Active exploration of Area 1 (East) towards Area 2 (North). |
