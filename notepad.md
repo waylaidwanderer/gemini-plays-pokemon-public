@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41579)
-- Location: Route 8 (27, 10)
-- Primary Goal: Walk Up to Row 6 (27, 6) -> Right over Col 29 rock wall to (30, 6) -> Down to Col 30 Ledge Gap at (30, 16) -> Hop down to Lower Highway -> Walk West to Saffron East Gatehouse -> Enter Central Saffron City.
-- Active Navigation Plan: Walk Up 4 steps to (27, 6), then Right 3 steps to (30, 6).
+## CURRENT STATUS & DASHBOARD (Turn 41583)
+- Location: Route 8 (30, 6)
+- Primary Goal: Walk Left to Col 25 (25, 6) -> Down 10 steps along Col 25 to Ledge Gap at (25, 16) -> Hop down to Lower Highway -> Walk West along Row 18/19 dirt road to Saffron East Gatehouse -> Enter Central Saffron City.
+- Active Navigation Plan: Walk Left 5 steps to (25, 6), then Down 10 steps along Col 25 to Ledge Gap at (25, 16).
 
 <hr>
 
