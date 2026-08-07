@@ -985,6 +985,7 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
   1. Exit Building 1 door at (3, 7) -> Route 7 at (5, 14).
   2. Walk East to (12, 14), Up to (12, 12).
   3. Systematically probe (12, 11), (13, 11), (14, 11), (15, 11), (16, 11), (17, 11) by pressing Up at each position to identify the door warp to Underground Path.
+- Tile (12, 11): Solid brick wall (bumped on Turn 42018). Probing (13, 11)...
 
 <hr>
 
