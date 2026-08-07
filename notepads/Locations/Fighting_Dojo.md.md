@@ -16,3 +16,4 @@
 - Karate Black Belt 2 (3, 5) DEFEATED: Machoke fainted!
 - Karate Black Belt 3 (3, 4): Engaged in battle!
 - Karate Black Belt 3 (3, 4): Total Pokemon: 1.
+- Karate Black Belt 3 (3, 4): Pokemon 1: Primeape L36.

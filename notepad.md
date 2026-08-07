@@ -1,9 +1,10 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41782)
-- Location: Fighting Dojo 1F (4, 5) - Battle vs Karate Black Belt 3
+## CURRENT STATUS & DASHBOARD (Turn 41783)
+- Location: Fighting Dojo 1F - Battle vs Karate Black Belt 3
+- Opponent: Black Belt 3 (1 of 1 Pokemon) | Player: SHELLSHOCK L49 (147/171 HP)
 - Primary Goal: Defeat Karate Black Belt 3 and advance to Karate Master.
-- Active Navigation Plan: Press A 3 times to advance trainer dialogue ("frightens me!") into battle.
+- Active Navigation Plan: Press A 5 times to advance send-out text, select FIGHT, and execute Move 1.
 
 <hr>
 
@@ -754,11 +755,11 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41783)
+## CURRENT STATUS & DASHBOARD (Turn 41784)
 - Location: Fighting Dojo 1F - Battle vs Karate Black Belt 3
-- Opponent: Black Belt 3 (1 of 1 Pokemon) | Player: SHELLSHOCK L49 (147/171 HP)
+- Opponent: Primeape L36 (1 of 1 Pokemon) | Player: SHELLSHOCK L49 (147/171 HP)
 - Primary Goal: Defeat Karate Black Belt 3 and advance to Karate Master.
-- Active Navigation Plan: Press A 5 times to advance send-out text, select FIGHT, and execute Move 1.
+- Active Navigation Plan: Press A 5 times to select Skull Bash, KO Primeape L36, and win trainer battle.
 
 <hr>
 
@@ -970,6 +971,7 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Karate Black Belt 2 (3, 5) DEFEATED: Machoke fainted!
 - Karate Black Belt 3 (3, 4): Engaged in battle!
 - Karate Black Belt 3 (3, 4): Total Pokemon: 1.
+- Karate Black Belt 3 (3, 4): Pokemon 1: Primeape L36.
 
 <hr>
 
@@ -992,5 +994,6 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Karate Black Belt 2 (3, 5) DEFEATED: Machoke fainted!
 - Karate Black Belt 2 (3, 5) DEFEATED: Machoke fainted!
 - Karate Black Belt 3 (3, 4): Engaged in battle!
+- Karate Black Belt 3 (3, 4): Total Pokemon: 1.
 
 <hr>
