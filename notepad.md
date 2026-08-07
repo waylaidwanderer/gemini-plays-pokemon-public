@@ -1,10 +1,10 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41765)
+## CURRENT STATUS & DASHBOARD (Turn 41766)
 - Location: Fighting Dojo 1F - Battle vs Karate Black Belt 1
-- Victory: Machop L31 fainted! Black Belt 1 sending out 2nd Pokemon.
+- Opponent: Mankey (2nd of 3 Pokemon) | Player: SHELLSHOCK L49 (162/171 HP)
 - Primary Goal: Defeat Karate Black Belt 1 and advance through Fighting Dojo 1F.
-- Active Navigation Plan: Decline switch (B) and advance into battle vs Black Belt 1's 2nd Pokemon.
+- Active Navigation Plan: Cancel party menu (B), advance into battle, and select FIGHT (A) to KO Mankey.
 
 <hr>
 
@@ -755,11 +755,11 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41766)
+## CURRENT STATUS & DASHBOARD (Turn 41767)
 - Location: Fighting Dojo 1F - Battle vs Karate Black Belt 1
-- Opponent: Mankey (2nd of 3 Pokemon) | Player: SHELLSHOCK L49 (162/171 HP)
+- Opponent: Mankey L31 (2nd of 3 Pokemon) | Player: SHELLSHOCK L49 (162/171 HP)
 - Primary Goal: Defeat Karate Black Belt 1 and advance through Fighting Dojo 1F.
-- Active Navigation Plan: Cancel party menu (B), advance into battle, and select FIGHT (A) to KO Mankey.
+- Active Navigation Plan: Press A to advance Skull Bash execution and KO Mankey L31.
 
 <hr>
 
