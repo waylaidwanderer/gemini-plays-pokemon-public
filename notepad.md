@@ -1203,5 +1203,6 @@ The main Game Corner building entrance at (14, 0)/(15, 0) on the Game Corner Pla
 - Game Corner Plaza Row 8 (y=8) is an open East-West grass corridor spanning x=6..15+ south of the building facade/fence at y=7. Allows easy walking East to main Game Corner building doors!
 - Turn 42322: Entered Main Game Corner Hall at (3, 7)!
 - Entrance door mat at (3, 7) / (4, 7). Central walkway runs North-South along Cols 2..5. Top aisle runs East-West along Row 2 towards Rocket Grunt at top-right wall!
+- Discovery (Turn 42329): Column 7 in West Room is a solid barrier separated by golden statues. The East Room (x=8..19) containing the Rocket Grunt at (15, 2) is accessed via the East Entrance Door outside in Game Corner Plaza / Celadon City!
 
 <hr>
