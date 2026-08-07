@@ -948,16 +948,20 @@ To transition from the northwestern ground level to the southwestern exit of Are
 # Safari Zone - Active Path Routing
 
 ## Current Run Status
-- **Current Position:** `(12, 7)` (Safari Zone Area 1 East plateau stairs)
-- **Steps Taken:** 90
-- **Steps Remaining:** 410
+- **Current Position:** `(12, 8)` (Safari Zone Area 1 East ground)
+- **Steps Taken:** 95
+- **Steps Remaining:** 405
 - **Start Turn:** 25136
 
 ## Active Route to Area 2 (North):
-1. Walk Right 20 times to (20, 23), then Up 2 times to climb stairs at (20, 21), reaching the plateau at (20, 19). (22 steps)
-2. Walk Left 8 times to (12, 19), then Down 2 times to descend stairs at (12, 21), reaching the ground at (12, 22). (10 steps)
-3. Walk Up 14 times to (12, 8), then Up 1 time to climb stairs at (12, 7), reaching the northern plateau at (12, 6). (15 steps)
-4. Walk Left 12 times to (0, 6), then Down 1 time to (0, 5) to transition to Area 2 (North) at (39, 31). (13 steps)
+1. From `(12, 8)` on the ground, walk Right 18 times to `(30, 8)`. (18 steps)
+2. Walk Down 22 times on column 30 to row 30 (bypassing statues via the gap at `(30, 25)`). (22 steps)
+3. Walk East on row 30 from column 30 to column 35. (5 steps)
+4. Walk North on column 35 from row 30 to row 3. (27 steps)
+5. Walk West on row 3 from column 35 to column 6. (29 steps)
+6. Walk Down onto stairs at `(6, 4)` to reach the western plateau at `(6, 5)`. (2 steps)
+7. Walk Left from `(6, 5)` to transition to Area 2 (North) at `(0, 5)`. (6 steps)
+
 
 <hr>
 
