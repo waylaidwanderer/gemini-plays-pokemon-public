@@ -1175,7 +1175,6 @@ The main Game Corner building entrance at (14, 0)/(15, 0) on the Game Corner Pla
 
 ## Building Access & Exits
 - West Entrance (Celadon City 20, 36 / Courtyard Plaza): Enters West Room at (3, 0) / (3, 7).
-- Main Entrance (Celadon City 29, 29): Located in South Celadon along Row 30 street at (29, 30), leading directly into Main Game Corner Hall (East Room).
 
 ## Game Corner Interior Layout
 - West Room: Columns 0..7, Rows 0..5. Entrance mats at (3, 0)/(4, 0) and (3, 7)/(4, 7).
@@ -1231,5 +1230,32 @@ Empirically map every aisle on Columns 5, 6, and 7 across Rows 1..6 to verify if
 - Test 3 (Row 5 at 6, 5): BUMPED! Solid slot machine back.
 - Test 4 (Row 6 at 6, 6): Column 6 is a solid slot machine row across y=2..6.
 - CONCLUSION: Column 6 is empirically proven 100% solid across all rows. The West Room is a self-contained 8x8 section with no interior passage to the East Room. Access to the Main Hall / East Room (x=8..19) and the Rocket Grunt at (15, 2) is via the Main Front Entrance at Celadon City (29, 29)!
+
+<hr>
+
+<h1><code>Scratchpad/Celadon_South_Courtyard_Testing.md</code></h1>
+
+# Celadon South Courtyard & Game Corner Entrance Empirical Testing Plan
+
+## Objective
+Systematically probe every potential building doorway and alleyway warp in South Celadon City (Rows 26..36, Cols 20..36) to identify the true main entrance to the Celadon Game Corner Main Hall (East Room).
+
+## Systematic Probing Procedure
+1. Exit Game Corner West Room at (3, 7) to Game Corner Plaza (17, 14).
+2. Walk South through exit warp to Celadon City main outdoor map at (20, 35).
+3. Probe Building Facade 1 (x=24..28, y=33..35):
+   - Test (24, 36) / (25, 36) door mat.
+   - Test (28, 36) door mat.
+4. Probe Building Facade 2 (x=28..31, y=26..29):
+   - Test (28, 29) door tile.
+   - Test (29, 29) door tile [VERIFIED: Celadon Diner].
+   - Test (30, 29) / (31, 29) door tiles.
+5. Probe Building Facade 3 (x=36..39, y=32..35):
+   - Test (36, 36) / (37, 36) door mat.
+
+## Verification Log
+- Celadon City (29, 29) -> Celadon Diner 1F (2, 7) [VERIFIED].
+- Celadon City (20, 36) -> Game Corner Plaza (10, 0) -> West Room (3, 0) / (3, 7) [VERIFIED].
+- In progress (Turn 42392).
 
 <hr>
