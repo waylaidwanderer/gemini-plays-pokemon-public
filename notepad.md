@@ -753,8 +753,8 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 42549)
-- Location: Celadon City at (16, 34).
+## CURRENT STATUS & DASHBOARD (Turn 42563)
+- Location: Courtyard Plaza at (6, 22).
 - Primary Goal: Clear Rocket Hideout B1F-B4F and defeat Giovanni to obtain Silph Scope.
 
 <hr>
