@@ -1,14 +1,10 @@
 # Safari Zone - Overworld Layout & Navigation Guide
 
-## Run Statistics (Previous Run - Ended)
-- **Start Turn:** 23448 (Run ended due to step budget exhaustion on Turn 23787)
-- **End Turn:** 23787
-- **Result:** Explored Area 1 (East) and entered Area 2 (North) up to Column 25. Fully mapped the island plateau bypass in Area 1.
-
-## Active Run Statistics (Current Run)
-- **Current Position:** `(20, 12)` (Safari Zone Area 2 (North))
-- **Steps Taken:** 161
-- **Steps Remaining:** 339
+## Active Run Statistics (Current Run - Near End)
+- **Current Position:** `(37, 12)` (Safari Zone Area 2 (North))
+- **Steps Taken:** 477 (Audited by Overwatch)
+- **Steps Remaining:** 23
+- **Status:** Expected eviction soon. Preparing for next run.
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
