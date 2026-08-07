@@ -1016,7 +1016,7 @@ This leaves a massive **308 steps remaining** for navigating Area 3 (West) to gr
 ## Run Statistics (Current Run)
 - **Start Turn:** 23820
 - **Starting Cash:** ¥72,088
-- **Steps Taken:** 367 (133 steps remaining)
+- **Steps Taken:** 372 (128 steps remaining)
 - **Current Position:** (6, 26) (Safari Zone Area 2 - North, Western Ground Level Pocket)
 - **Goal:** Reach Area 3 (West) to obtain HM03 (Surf) and Gold Teeth.
 
