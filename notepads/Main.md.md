@@ -1,3 +1,3 @@
-## CURRENT STATUS & DASHBOARD (Turn 42510)
-- Location: Courtyard Plaza at (19, 27).
+## CURRENT STATUS & DASHBOARD (Turn 42516)
+- Location: Rocket Hideout B1F at (5, 4).
 - Primary Goal: Clear Rocket Hideout B1F-B4F and defeat Giovanni to obtain Silph Scope.
