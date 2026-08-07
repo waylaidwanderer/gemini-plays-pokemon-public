@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 42389)
-- Location: Celadon Game Corner (3, 7).
-- Primary Goal: Infiltrate Rocket Hideout in Celadon City Game Corner.
+## CURRENT STATUS & DASHBOARD (Turn 42423)
+- Location: Rocket Hideout B1F at (2, 41).
+- Primary Goal: Clear Rocket Hideout B1F-B4F and defeat Giovanni to obtain Silph Scope.
 
 <hr>
 
@@ -1268,5 +1268,19 @@ Systematically probe every potential building doorway and alleyway warp in South
 - Celadon City (20, 36) -> Game Corner Plaza (10, 0) -> West Room (3, 0) / (3, 7) [VERIFIED].
 - In progress (Turn 42392).
 - Discovery (Turn 42396): Column 13 (x=13, y=24..27) is the bridge walkway over the pond leading to the South exit warp into Celadon City main map!
+
+<hr>
+
+<h1><code>Locations/Rocket_Hideout_B1F.md</code></h1>
+
+# Rocket Hideout B1F Topology & Mechanics
+
+## Entrance & Stairs
+- Game Corner Staircase (Celadon Game Corner West Room 4, 4) -> Warps directly down to Rocket Hideout B1F at (2, 41).
+- Landing Mat: (2, 41).
+
+## Floor Layout & Exploration
+- Column 2 Corridor: Runs South from landing mat at (2, 41) down to y=45+.
+- Objective: Clear Rocket Grunts on B1F, collect items, locate Lift Key / stairs down to B2F.
 
 <hr>
