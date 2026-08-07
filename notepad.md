@@ -948,9 +948,9 @@ To transition from the northwestern ground level to the southwestern exit of Are
 # Safari Zone - Active Path Routing
 
 ## Current Run Status
-- **Current Position:** `(12, 8)` (Safari Zone Area 1 East ground)
-- **Steps Taken:** 95
-- **Steps Remaining:** 405
+- **Current Position:** `(23, 8)` (Safari Zone Area 1 East ground)
+- **Steps Taken:** 110
+- **Steps Remaining:** 390
 - **Start Turn:** 25136
 
 ## Active Route to Area 2 (North):
@@ -961,7 +961,6 @@ To transition from the northwestern ground level to the southwestern exit of Are
 5. Walk West on row 3 from column 35 to column 6. (29 steps)
 6. Walk Down onto stairs at `(6, 4)` to reach the western plateau at `(6, 5)`. (2 steps)
 7. Walk Left from `(6, 5)` to transition to Area 2 (North) at `(0, 5)`. (6 steps)
-
 
 <hr>
 
