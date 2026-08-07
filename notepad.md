@@ -755,11 +755,11 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41769)
-- Location: Fighting Dojo 1F - Battle vs Karate Black Belt 1
-- Opponent: Primeape L31 (3rd of 3 Pokemon) | Player: SHELLSHOCK L49 (162/171 HP)
-- Primary Goal: Defeat Karate Black Belt 1's Primeape L31 to win trainer battle.
-- Active Navigation Plan: Cancel party menu (B), advance into battle, and select FIGHT (A) / Move 1 (A) to KO Primeape.
+## CURRENT STATUS & DASHBOARD (Turn 41771)
+- Location: Fighting Dojo 1F (4, 7)
+- VICTORY: Karate Black Belt 1 defeated!
+- Primary Goal: Advance North in Fighting Dojo 1F to challenge the remaining Black Belt trainers and Karate Master.
+- Active Navigation Plan: Press A 3 times to finish victory dialogue, then walk Up along Column 4.
 
 <hr>
 
@@ -975,5 +975,6 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Karate Black Belt 1 (5, 7): Pokemon 1: Machop L31. Total Pokemon: 3.
 - Karate Black Belt 1 (5, 7): Pokemon 2: Mankey L31 (fainted).
 - Karate Black Belt 1 (5, 7): Pokemon 3: Primeape L31.
+- Karate Black Belt 1 (5, 7) DEFEATED: Primeape L31 fainted!
 
 <hr>
