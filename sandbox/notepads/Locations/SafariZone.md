@@ -1,10 +1,10 @@
 # Safari Zone - Overworld Layout & Navigation Guide
 
 ## Active Run Statistics (Current Run - Near End)
-- **Current Position:** `(37, 12)` (Safari Zone Area 2 (North))
-- **Steps Taken:** 477 (Audited by Overwatch)
-- **Steps Remaining:** 23
-- **Status:** Expected eviction soon. Preparing for next run.
+- **Current Position:** `(15, 25)` (Safari Zone Center)
+- **Steps Taken:** 0
+- **Steps Remaining:** 500
+- **Status:** Fresh run started!
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
