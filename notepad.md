@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 41542)
-- Location: Route 8 (13, 4) [Outside Underground Path building]
-- Primary Goal: Walk West along Route 8 -> Enter Saffron East Gatehouse -> Enter Central Saffron City.
-- Active Navigation Plan: Walk West along Row 4 pavement corridor towards Saffron East Gatehouse.
+## CURRENT STATUS & DASHBOARD (Turn 41551)
+- Location: Route 8 (8, 7)
+- Primary Goal: Bypass rock wall via Column 12 -> Walk West along Row 12 pavement to Saffron East Gatehouse -> Enter Central Saffron City.
+- Active Navigation Plan: Walk Right 4 steps to (12, 7), then Down 5 steps along Column 12 to Row 12 pavement.
 
 <hr>
 
