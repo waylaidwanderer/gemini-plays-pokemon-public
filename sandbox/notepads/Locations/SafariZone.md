@@ -71,3 +71,9 @@
 - **Center Pond & Dock (Columns 18-21):** The center pond is a water hazard at rows 10-13, columns 18-20. Column 21 is a decorative vertical wooden dock/pier running from row 10 to row 13, which is impassable from the west.
 - **Column 6 Vertical Barrier & Row 24 Bypass (Verified):** Column 6 contains a vertical barrier of trees (rows 18-21) and solid Rhydon statues/signposts (rows 22-23), blocking direct ground crossing on row 22. However, **Row 24 is completely walkable** from column 1 to column 20, allowing a ground-level bypass to the east side.
 - **Column 24 Tree Wall & Row 10 Bypass (Verified):** Column 24 has a vertical tree wall on rows 0-9. However, **Row 10 is completely walkable** horizontally across column 24, enabling direct ground access to the eastern area.
+
+
+### 4. Eastern Plateau & Connecting Land Bridge (Turn 27433-27449)
+- **Land Bridge (Cols 37-38, Rows 20-24):** The Eastern Plateau is completely continuous on columns 37-38, rows 20-24, connecting the Southern Plateau (East Stairs at 28, 27) directly to the Northern Plateau on the north side.
+- **Descending Stairs at (34, 15):** A set of wooden stairs facing DOWN that connects the Eastern Plateau on row 14 to the ground level on row 16 at `(34, 16)`.
+- **Open Ground Corridor (Row 16):** Row 16 is completely open ground level grass, extending horizontally west from column 34 past column 30, providing ground level travel.
