@@ -1015,7 +1015,7 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 ## Area 3 (West) Map & Transitions
 - **North Connection (Area 2 North):** Entered Area 3 (West) at `(14, 0)` from Area 2 (North) at `(20, 36)` on Turn 27108.
 - **Pond Barrier:** A massive water pond starts around rows 8 and 9, extending horizontally from column 12 to at least column 19. It completely blocks direct southern traversal on columns 12-19.
-- **Eastward Corridor:** Row 1, columns 15-20 are open grass, providing the route to go east to bypass the pond.
+- **Eastward Corridor (OBSTRUCTED):** The corridor going east along Row 1 is blocked by trees and fences at Column 29, and Row 8/9 is blocked by a massive water pond on columns 12-21 and a solid tree barrier on columns 22-29. Therefore, this northeastern entrance at (14, 0) leads to a completely isolated, dead-end enclave. You cannot reach the main part of Area 3 (West) (Secret House and Gold Teeth) from this entrance. You must instead transition to the main Area 3 (West) by walking west to the bottom-left of Area 2 (North) (columns 0-4) and then descending.
 
 
 <hr>
