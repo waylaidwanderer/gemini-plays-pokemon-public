@@ -71,7 +71,7 @@
 
 - **Escape Rope:** Obtained on Turn 13977, consumed on Turn 16964.
 
-## Verified Inventory (18/20 slots used - 2 empty slots)
+## Verified Inventory (19/20 slots used - 1 empty slot)
 - **In-Game Verification:** Verified on Turn 26597 (perfect match, 18 slots used, 2 empty slots).
 - **Town Map:** 1
 - **Moon Stone:** 2 (1 stack)
@@ -91,6 +91,7 @@
 - **TM06 (Toxic):** 1
 - **Max Potion:** 1
 - **Full Restore:** 1
+- **Max Revive:** 1
 
 ## Major Exploration Phases and Timestamps
 
