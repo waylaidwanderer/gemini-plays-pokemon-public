@@ -1,9 +1,9 @@
 # Safari Zone - Active Run Log (Run 10)
 
 - **Start Turn:** 26792
-- **Current Position:** (9, 12) in Safari Zone Area 1 (East)
-- **Steps Taken:** 80
-- **Steps Remaining:** 420
+- **Current Position:** (20, 3) in Safari Zone Area 1 (East)
+- **Steps Taken:** 97
+- **Steps Remaining:** 403
 - **Gold Teeth Obtained:** No
 - **HM03 (Surf) Obtained:** No
 
@@ -27,3 +27,5 @@
 - Turn 26808: 1 dismiss (A), Right 6 steps to (20, 24), Up 4 steps to climb southern plateau at (20, 20) (consumed 10 steps)
 - Turn 26811: Walked Left 8 steps to (12, 20), Down 2 steps to (12, 22), Left 3 steps to (9, 22) (consumed 13 steps)
 - Turn 26812-26813: Walked UP 10 steps to (9, 12) (consumed 10 steps)
+- Turn 26819: Walked Up 2, Right 5, Down 2 to (17, 8) (consumed 9 steps)
+- Turn 26820: Walked Right 3, Up 5 to (20, 3) (consumed 8 steps)
