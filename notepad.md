@@ -1100,6 +1100,8 @@ Empirically map every aisle on Columns 5, 6, and 7 across Rows 1..6 to verify if
 ### Empirically Verified B1F Topology
 - Game Corner Staircase Exit/Entrance: Staircase at (5, 4) in Rocket Hideout B1F leads up to Celadon Game Corner.
 - North Entrance Corridor: Red crosshatch floor spans x=2..5, y=3..8+. North wall at y=2, East wall at x=6, West wall at x=1.
+- South Corridor End: Row 41 is the southern wall boundary (wall at y=42).
+- Staircase to B2F: Located at (2, 41) at the south-west corner of the main entrance corridor.
 
 <hr>
 
