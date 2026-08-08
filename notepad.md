@@ -967,8 +967,6 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - Walk Up 5 steps to `(15, 17)`.
 - Walk Left 13 steps along row 17 to `(2, 17)`.
 
-## Upcoming Walk Tests:
-- Currently walk-testing column 1 on rows 10-15 to locate the true walkable transition corridor to Area 3 (West).
 
 
 <hr>
