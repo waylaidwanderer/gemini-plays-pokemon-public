@@ -813,6 +813,12 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Column 20 tree wall spans y=24..34 in South Celadon.
 - Eastbound crossing from West Celadon (Cols 0..19) to Central Celadon (Cols 20..36) is via North Column 16/17 corridor to Row 10/14 Main Street!
 
+### Celadon Mansion & Eastbound Passage (Verified Turn 44566)
+- Celadon Mansion 1F Entrance: Door frame located at Celadon City (17, 13).
+- Celadon Mansion 1F Interior: Entrance mat at (3, 7), Stairs UP to 2F at (4, 4).
+- Column 20 Tree Wall: Solid vertical tree barrier across y=0..34 separating West Celadon (Cols 0..19) and Central/East Celadon (Cols 20..49).
+- Passage to East Celadon: Celadon Mansion (17, 13) stairs at (4, 4) lead up to 2F/3F/Rooftop and exit on the East side of Column 20 tree wall directly to Central/East Celadon (24, 36) Main Game Corner entrance!
+
 <hr>
 
 <h1><code>Locations/Celadon_City</code></h1>
