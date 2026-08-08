@@ -1,12 +1,13 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 44536)
-- Location: Celadon City at (19, 3).
+## CURRENT STATUS & DASHBOARD (Turn 44551)
+- Location: Celadon City at (16, 19) in battle.
 - Primary Goal: Infiltrate Rocket Hideout via Celadon Game Corner and obtain Silph Scope.
 - Immediate Steps:
-  1. Open Start Menu -> PKMN menu to check if a Pokemon knows Teleport to warp to Saffron/Lavender/Cerulean.
-  2. Travel to East Celadon via Route 7 / Saffron Gatehouse to reach Main Game Corner entrance at (24, 36).
-  3. Defeat poster Rocket Grunt at North Wall (15, 2), inspect poster, descend to Rocket Hideout B1F.
+  1. Flee wild Bellsprout battle, walk North on Col 16 to (16, 14) Main Street.
+  2. Walk West to Col 7 fence gap at (7, 11), North to field at (7, 9).
+  3. Walk East to Col 19, North to Route 7 Gatehouse at (19, 2) to enter East Celadon at (49, 11).
+  4. Walk to Main Game Corner entrance at (24, 36).
 
 <hr>
 
