@@ -949,9 +949,9 @@ To transition from the northwestern ground level to the southwestern exit of Are
 
 ## Active Run Statistics
 - **Start Turn:** 25625
-- **Current Position:** `(9, 18)` (Safari Zone Area 1 (East))
-- **Steps Taken:** 94
-- **Steps Remaining:** 406
+- **Current Position:** `(9, 14)` (Safari Zone Area 1 (East))
+- **Steps Taken:** 98
+- **Steps Remaining:** 402
 
 ## Progress Log
 - **Turn 25625:** Started Run 5 at `(15, 25)` in Safari Zone Center.
@@ -970,6 +970,7 @@ To transition from the northwestern ground level to the southwestern exit of Are
 - **Turn 25952:** Walked East along Row 24 to `(20, 24)`.
 - **Turn 25954:** Climbed plateau at `(20, 21)`, walked west, and descended at `(12, 21)` to `(12, 22)`.
 - **Turn 25956:** Walked Left to `(9, 22)` and North to `(9, 18)`.
+- **Turn 25958:** Walked UP to `(9, 14)`.
 
 ## Upcoming Route
 1. Continue East on Row 24 to Column 20.
@@ -998,9 +999,9 @@ To transition from the northwestern ground level to the southwestern exit of Are
 - **Result:** Explored Area 1 (East) and entered Area 2 (North) up to Column 39. Ended by step budget exhaustion.
 
 ## Active Run Statistics (Run 5)
-- **Current Position:** `(9, 18)` (Safari Zone Area 1 (East))
-- **Steps Taken:** 94
-- **Steps Remaining:** 406
+- **Current Position:** `(9, 14)` (Safari Zone Area 1 (East))
+- **Steps Taken:** 98
+- **Steps Remaining:** 402
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
