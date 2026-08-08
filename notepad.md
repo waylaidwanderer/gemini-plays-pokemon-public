@@ -980,9 +980,10 @@ To transition from the northwestern ground level to the southwestern exit of Are
 
 
 ## Upcoming Route
-1. Walk South to Row 32 at `(28, 32)`.
-2. Walk directly West along Row 32 to `(20, 32)` to completely bypass the tall grass on columns 24-27.
-3. Continue walking West along Row 31/32 to transition to Area 3 (West) at columns 0-4.
+1. Walk East on Row 32 to `(28, 32)` (10 steps).
+2. Walk North to `(28, 26)` to climb back onto the eastern plateau (6 steps).
+3. Walk North on the plateau to Row 24 or 25 at column 28.
+4. Try walking West on Row 24 or 25 to cross column 27 and verify if we can bypass the blockage seen on row 26.
 
 
 <hr>
