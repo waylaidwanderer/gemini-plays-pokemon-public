@@ -53,10 +53,11 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - **Eastern Land Bridge (Cols 37-38, Rows 14-26):** Empirically verified as a completely continuous, flat brown plateau land bridge on columns 37-38, rows 14-26. It connects the Eastern Southern Plateau (stairs at 28, 27) directly to the Northern Plateau on the north side.
 - **Plateau Separation (Column 26):** The Eastern Southern Plateau and Western Southern Plateau do **NOT** connect horizontally on rows 24-26. They are separated by column 26 cliff wall and columns 22-25 ground-level tall grass.
 
-## Area 3 (West) - Overworld Layout & Navigation Guide
+## Area 3 (West) Layout & Discoveries
 
 ### Map Transitions & Connections
-- **Entered from Area 2 (North):** Transition from Area 2 (North) at `(4, 35)` leads directly into Area 3 (West) at `(26, 0)`.
+- **Entered from Area 2 (North):** Transition from Area 2 (North) at `(4, 35)` leads directly into Area 3 (West) at `(26, 0)` (Turn 27591).
+- **East Edge Map Transition:** The far-right edge of Area 3 (West) at column 30, row 23 connects directly to Safari Zone Center at `(0, 11)` (Turn 27658).
 
 ### Overworld Obstacles & Paths
 - **Vertical Hedge Wall (Column 24):** A solid vertical line of green hedge/bush tiles running from row 0 down to row 13 on column 24. This completely blocks horizontal ground-level passage in the north.
@@ -64,8 +65,14 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - **The Plateau (Rows 14-18, Columns 9-22):** A large, continuous raised plateau structure.
   - **East Stairs (Plateau Access):** Located at `(21, 17)`. Facing Left/Right, these stairs allow the player to climb UP onto the plateau from ground level row 18, column 21.
   - **West Stairs (Plateau Descent):** Located at `(6, 19)`. Facing Down, these stairs allow the player to descend from the plateau onto the western ground level grass.
+  - **Note:** The Plateau completely blocks ground-level horizontal crossing on rows 14-18.
+- **Column 18 Vertical Barrier (Rows 20-23):** A solid tree/wall structure running vertically on Column 18 across rows 20-23, blocking horizontal ground-level passage.
+- **Horizontal Cliff Wall (Rows 24-25):** Runs horizontally across the map, separating the north ground level from the south ground level:
+  - Row 24 on Columns 2-9 is solid cliff wall.
+  - Row 25 on Columns 10-21 is solid cliff wall.
+  - Row 24 on Columns 22-29 is solid cliff wall.
 
 ### Western Ground Level & Items
 - **Western Ground Grass (Rows 20-24, Columns 2-12):** A large patch of tall grass where wild battles can occur.
-- **Max Potion:** Located on the ground at `(8, 20)`. This is a solid overworld item ball sprite. It can be picked up by standing adjacent to it (e.g. at `(7, 20)` facing Right) and pressing A (obtained on Turn 27623).
-- **Southwest Open Grass (Rows 25-26, Columns 2-9):** A completely open ground level path below the tall grass area, leading further west.
+- **Max Potion:** Located on the ground at `(8, 20)`. This is a solid overworld item ball sprite. It was successfully picked up by standing at `(7, 20)` facing Right on Turn 27623.
+- **Signpost at (24, 22):** Reads "AREA 3 EAST: CENTER AREA" (Turn 27655).
