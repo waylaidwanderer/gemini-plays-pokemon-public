@@ -50,7 +50,7 @@ To transition from the northwestern ground level to the southwestern exit of Are
 - **Area 2 (North) West Stairs:** `(20, 15)` (leads onto plateau).
 
 ### Verified Barriers in Area 1 (East)
-- **West Area Rhydon Statues:** Continuous vertical line of Rhydon statues on columns 0 and 1, rows 0 to 3, blocking western horizontal traversal on those rows.
+- **West Area Rhydon Statues (Pocket):** A U-shaped pocket of solid Rhydon statues located at `(0, 0)`, `(1, 0)`, `(0, 1)`, `(0, 2)`, `(0, 3)`, and `(1, 3)`. The interior tiles at `(1, 1)` and `(1, 2)` are open, walkable short grass. This pocket is open only to the East (Right).
 - **Row 3 West Trees:** Dense trees on columns 2, 3, 5 at row 3, blocking horizontal traversal. Only column 4 is open between row 2 and row 4 on the west side.
 - **Column 5 Row 3 Tree:** `(5, 3)` is a solid dense tree blocking horizontal traversal on row 3. Bypassed by walking through row 2.
 - **Column 6 Row 4 Signpost:** `(6, 4)` is a solid signpost blocking vertical traversal on column 6.
