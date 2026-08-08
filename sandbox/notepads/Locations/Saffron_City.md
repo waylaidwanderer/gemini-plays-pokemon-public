@@ -6,7 +6,7 @@
 
 ### Points of Interest & Verified Topology
 - Northwest Building: Yellow roof at y=8..9, windows at y=10, brick wall at y=11 across x=12..17.
-- West Gatehouse Entrance/Exit: Located at Saffron City (7, 2) / (7, 3) on Row 2 Northern Highway. Gatehouse exit arrival lands at (8, 2).
+- West Gatehouse Building: Yellow roof building at x=5..9, y=3..5 with true front door at (7, 5) / side approach at (6, 5).
 - Northern Highway (Row 2): Main open East-West highway running along Row 2 above Northwest building across x=8..16.
 - Column 8 Connecting Street: Open North-South street at x=8 connecting Row 2 North Street down to Row 15 South Street.
 - Row 15 South Street: Open East-West pavement corridor on Row 15 spanning x=5..16.
