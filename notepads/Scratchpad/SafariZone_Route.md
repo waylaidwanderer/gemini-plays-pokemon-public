@@ -1,7 +1,7 @@
 # Safari Zone Active Run Log (Run 5)
 
 ## Active Run Statistics
-- **Start Turn:** 25625
+- **Start Turn:** 25906
 - **Current Position:** `(28, 26)` (Safari Zone Area 2 (North))
 - **Steps Taken:** 181
 - **Steps Remaining:** 319
