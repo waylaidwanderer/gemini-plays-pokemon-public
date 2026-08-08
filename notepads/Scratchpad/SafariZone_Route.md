@@ -2,7 +2,7 @@
 
 ## Active Run Statistics
 - **Start Turn:** 25906
-- **Current Position:** `(28, 26)` (Safari Zone Area 2 (North))
+- **Current Position:** `(18, 4)` (Safari Zone Area 3 (West))
 - **Steps Taken:** 181
 - **Steps Remaining:** 319
 
