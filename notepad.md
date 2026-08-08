@@ -1036,6 +1036,13 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
   - **West Tree Wall (Column 0):** Solid vertical tree line from row 19 to row 25 (and beyond), blocking direct left transition on those rows.
 
 
+## Verified Safari Zone Center Corridors & Boundaries (Turn 27249)
+- **South-to-North West Ground Corridor (BLOCKED):** Row 15/16 forms a solid, impassable barrier from Column 0 to Column 19 on the ground level. Tree crowns block rows 16 (cols 0-5) and 15 (cols 6-9), while fences block row 15 (cols 10-19). This means you CANNOT walk directly from the south ground level to the north ground level on the west side on foot.
+- **Center Pond & Dock (Columns 18-21):** The center pond is a water hazard at rows 10-13, columns 18-20. Column 21 is a decorative vertical wooden dock/pier running from row 10 to row 13, which is impassable from the west.
+- **Column 6 Vertical Barrier & Row 24 Bypass (Verified):** Column 6 contains a vertical barrier of trees (rows 18-21) and solid Rhydon statues/signposts (rows 22-23), blocking direct ground crossing on row 22. However, **Row 24 is completely walkable** from column 1 to column 20, allowing a ground-level bypass to the east side.
+- **Column 24 Tree Wall & Row 10 Bypass (Verified):** Column 24 has a vertical tree wall on rows 0-9. However, **Row 10 is completely walkable** horizontally across column 24, enabling direct ground access to the eastern area.
+
+
 <hr>
 
 <h1><code>Locations/SafariZone_Area1_East_Boundaries.md</code></h1>
