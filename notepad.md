@@ -958,10 +958,7 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - **Path:** Spawn -> Area 1 (East) -> Area 2 (North) -> Safari Zone Center -> Exited via steps exhaustion.
 - **Key Outcomes:** Mapped parts of Safari Zone Center. Found Max Revive at (18, 18).
 
-## Run 11 Active Plan (Unverified Hypothesis)
-- **Goal:** Obtain HM03 (Surf) and Gold Teeth.
-- **Hypothesis:** Walk directly Left 15 steps from Safari Zone Center spawn point at (15, 25) to column 0, transition directly to Area 3 (West), retrieve Gold Teeth, and visit Secret House for HM03.
-- **Testing Status:** Unverified. To be walk-tested on Run 11.
+
 
 ## Run 11 Empirical Discoveries & Map Boundaries
 - **Fuchsia PC Deposit:** Stored 10 items in PC on Turn 27003, verifying that all key items are depositable in Gen 1, successfully freeing up 11 inventory slots.
@@ -971,7 +968,6 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - **Column 1 Barrier (1, 17):** Confirmed Row 17, Column 1 is blocked by a tree.
 - **Column 6 Barrier (6, 15):** Confirmed Row 15, Column 6 is blocked by a tree.
 - **Current Strategy:** Bypassed the west obstacles, returned to the standard gold-standard speedrun route. Entered Area 1 (East) at (0, 22).
-
 
 <hr>
 
