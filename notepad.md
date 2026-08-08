@@ -1097,9 +1097,9 @@ Empirically map every aisle on Columns 5, 6, and 7 across Rows 1..6 to verify if
 - B1F Corridor Layout: Columns 2..5 span y=4 down to y=41. Column 1 (West wall) and Column 6 (East wall) form vertical boundaries.
 - Probing Procedure: Walk North along Column 2 from (2, 41) to (2, 4). At every 4 rows, probe Column 1 (Left) and Column 6 (Right) to identify any open doorways, passages into main B1F chambers, Rocket Grunts, items, or stairs to B2F.
 
-### Empirically Verified B1F Topology (Pending Re-Survey)
-- Note: Prior coordinates were collected in Rock Tunnel by mistake and have been purged.
-- True survey of Rocket Hideout B1F will be documented upon arrival at Celadon Game Corner secret staircase.
+### Empirically Verified B1F Topology
+- Game Corner Staircase Exit/Entrance: Staircase at (5, 4) in Rocket Hideout B1F leads up to Celadon Game Corner.
+- North Entrance Corridor: Red crosshatch floor spans x=2..5, y=3..8+. North wall at y=2, East wall at x=6, West wall at x=1.
 
 <hr>
 
