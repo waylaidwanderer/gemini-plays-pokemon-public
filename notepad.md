@@ -1032,6 +1032,12 @@ Systematically probe every potential building doorway and alleyway warp in South
 - Main Entrance: Main Game Corner entrance door located in South Celadon City at (24, 36)/(25, 36).
 - Secret Staircase: Located in the Main Game Corner building behind the poster switch guarded by the Rocket Grunt on the North Wall. Defeat the Grunt, press A on the poster to reveal the secret staircase to Rocket Hideout B1F.
 
+### Verified Main Hall Topology & Poster Probing (Turn 44673)
+- Main Entrance (25, 25): Enters Game Corner at (3, 7).
+- Column 3 Aisle: Open vertical corridor at y=2..7.
+- Row 2 North Wall Posters (x=2..5): Standard decorative posters at (2, 1)..(5, 1).
+- Main Horizontal Aisle (Row 6): Open horizontal corridor running East across x=2..18 to the East sector (Rocket Grunt at North Wall x=15..18).
+
 <hr>
 
 <h1><code>Locations/Celadon_Game_Corner</code></h1>
