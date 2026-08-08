@@ -953,9 +953,9 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 
 ## Active Run Statistics (Run 8)
 - **Start Turn:** 26396
-- **Current Position:** `(1, 7)` in Safari Zone Area 1 (East)
-- **Steps Taken:** 243
-- **Steps Remaining:** 257
+- **Current Position:** `(22, 2)` in Safari Zone Area 1 (East)
+- **Steps Taken:** 340
+- **Steps Remaining:** 160
 - **Safari Balls:** 30
 
 ## Progress Log
