@@ -971,7 +971,7 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - Walk Up 7 steps to `(22, 10)` (bypassing center pond on the east side).
 - Walk Right 7 steps to `(29, 10)` to transition to Area 1 (East) at `(0, 22)`.
 
-### 2. Safari Zone Area 1 (East) (72 steps)
+### 2. Safari Zone Area 1 (East) (Verified Real Corridor Path)
 - Enter at `(0, 22)` facing RIGHT.
 - Walk Right 20 steps to `(20, 22)`.
 - Walk Up 1 step to `(20, 21)` (stairs).
@@ -979,9 +979,19 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - Walk Down 2 steps to descend stairs at `(12, 21)` to `(12, 22)` (ground).
 - Walk Left 4 steps to `(8, 22)`.
 - Walk Up 14 steps along western ground corridor to `(8, 8)`.
-- Walk Right 11 steps on the ground to `(19, 8)`.
-- Walk Up 3 steps on column 19 to `(19, 5)` (bypassing row 6-7 cliff and row 6 tree wall).
-- Walk Left 19 steps on row 5 to `(0, 5)` to transition to Area 2 (North) at `(39, 31)`.
+- Walk Right 10 steps along row 8 to `(18, 8)` (Note: row 8 column 14 has a tree crown, but we can walk Up to (12, 7) stairs and cross the plateau to bypass it).
+- **Plateau Bypass for row 8 column 14 tree:**
+  - Walk Left 1 step from `(13, 8)` to `(12, 8)`.
+  - Walk Up 3 steps to climb onto the plateau at `(12, 5)`.
+  - Walk Right 5 steps along row 5 to `(17, 5)`.
+  - Walk Down 3 steps to descend stairs at `(17, 7)` to `(17, 8)` (ground).
+  - Walk Right 2 steps to `(19, 8)`.
+- **Corridor Bypass to Northwest Transition:**
+  - Walk Up 3 steps to row 5 on column 19: `(19, 7)` -> `(19, 6)` -> `(19, 5)`.
+  - Walk Up 3 steps to row 2 on column 19: `(19, 4)` (cliff corner) -> `(19, 3)` -> `(19, 2)`.
+  - Walk Left 11 steps along row 2 to column 8: `(18, 2)` -> `(8, 2)`.
+  - Walk Down 3 steps to row 5 on column 8: `(8, 3)` -> `(8, 4)` -> `(8, 5)`.
+  - Walk Left 8 steps along row 5 to column 0: `(7, 5)` to `(0, 5)` (transition to Area 2 (North) at `(39, 31)`!).
 
 
 <hr>
@@ -1005,6 +1015,11 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 ## Map Structure & Boundaries
 
 ### 1. Area 1 (East) Map & Transitions
+- **Exit to Area 2 (North):** Located at `(0, 5)` which connects to `(39, 31)` of Area 2 (North).
+- **Plateau Land Bridge (Middle-to-East):** Columns 12-17, rows 5-7. Connecting middle ground `(12, 8)` to northeast ground `(17, 8)` via climbing stairs at `(12, 7)` and descending stairs at `(17, 7)`. Row 5 is completely open grass, while row 6 has a solid rock wall at `(13, 6)` blocking horizontal passage on row 6.
+- **Pond & Tree Barrier:** A massive water pond on rows 10-12 (cols 11-15) and tree crown at `(14, 8)` completely blocks direct southern traversal on row 8.
+- **Northeastern Ground Passage to row 2:** Column 19 is open vertically from row 8 up to row 1. Cliff wall on column 19 ends at row 4, allowing walk past the cliff at row 2.
+- **Northern Open Corridor:** Rows 1 and 2 are completely open horizontally from column 22 all the way west to column 1. Shrub wall on row 3 blocks direct descent to row 5 on columns 1-5, but columns 6-9 on row 3 and row 4 are completely open, allowing vertical ground passage down to row 5 on column 8.
 - **Exit to Area 2 (North):** Located at (0, 5) which connects to (39, 5) of Area 2 (North).
 
 ### 2. Area 2 (North) Plateau Systems

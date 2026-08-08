@@ -9,6 +9,11 @@
 ## Map Structure & Boundaries
 
 ### 1. Area 1 (East) Map & Transitions
+- **Exit to Area 2 (North):** Located at `(0, 5)` which connects to `(39, 31)` of Area 2 (North).
+- **Plateau Land Bridge (Middle-to-East):** Columns 12-17, rows 5-7. Connecting middle ground `(12, 8)` to northeast ground `(17, 8)` via climbing stairs at `(12, 7)` and descending stairs at `(17, 7)`. Row 5 is completely open grass, while row 6 has a solid rock wall at `(13, 6)` blocking horizontal passage on row 6.
+- **Pond & Tree Barrier:** A massive water pond on rows 10-12 (cols 11-15) and tree crown at `(14, 8)` completely blocks direct southern traversal on row 8.
+- **Northeastern Ground Passage to row 2:** Column 19 is open vertically from row 8 up to row 1. Cliff wall on column 19 ends at row 4, allowing walk past the cliff at row 2.
+- **Northern Open Corridor:** Rows 1 and 2 are completely open horizontally from column 22 all the way west to column 1. Shrub wall on row 3 blocks direct descent to row 5 on columns 1-5, but columns 6-9 on row 3 and row 4 are completely open, allowing vertical ground passage down to row 5 on column 8.
 - **Exit to Area 2 (North):** Located at (0, 5) which connects to (39, 5) of Area 2 (North).
 
 ### 2. Area 2 (North) Plateau Systems
