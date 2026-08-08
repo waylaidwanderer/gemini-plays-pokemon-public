@@ -49,6 +49,8 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 
 ## Area 2 (North) - East-West Plateau Connections (Turn 27563-27565)
 - **The Western Southern Plateau:** Raised cliff system at columns 14-24, rows 20-22.
+  - **East Climbing Stairs:** Located at `(22, 23)` (verified on Turn 27584).
+  - **West Descending Stairs:** Located at `(16, 27)` (verified on Turn 27588).
 - **The Eastern Southern Plateau:** Raised cliff system at columns 27-36, rows 24-26.
 - **Eastern Land Bridge (Cols 37-38, Rows 14-26):** Empirically verified as a completely continuous, flat brown plateau land bridge on columns 37-38, rows 14-26. It connects the Eastern Southern Plateau (stairs at 28, 27) directly to the Northern Plateau on the north side.
 - **Plateau Separation (Column 26):** The Eastern Southern Plateau and Western Southern Plateau do **NOT** connect horizontally on rows 24-26. They are separated by column 26 cliff wall and columns 22-25 ground-level tall grass.
