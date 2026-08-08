@@ -1,8 +1,8 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 44063)
-- Location: Route 7 at (18, 0).
-- Primary Goal: Travel to Celadon City, heal at Pokemon Center, and clear Rocket Hideout.
+## CURRENT STATUS & DASHBOARD (Turn 44064)
+- Location: Celadon City at (8, 35).
+- Primary Goal: Heal at Celadon Pokemon Center and clear Rocket Hideout.
 
 <hr>
 
@@ -753,9 +753,9 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 44064)
-- Location: Celadon City at (8, 35).
-- Primary Goal: Heal at Celadon Pokemon Center and clear Rocket Hideout.
+## CURRENT STATUS & DASHBOARD (Turn 44065)
+- Location: Route 7 at (18, 0).
+- Primary Goal: Travel to Celadon City, heal at Pokemon Center, and clear Rocket Hideout.
 
 <hr>
 
