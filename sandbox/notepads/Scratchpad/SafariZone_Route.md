@@ -1,10 +1,10 @@
 # Safari Zone - Active Run Log (Run 9)
 
 - **Start Turn:** 26591
-- **Current Turn:** 26651
-- **Current Position:** (6, 3) in Safari Zone Area 1 (East)
-- **Steps Taken:** 112
-- **Steps Remaining:** 388
+- **Current Turn:** 26653
+- **Current Position:** (1, 2) in Safari Zone Area 1 (East)
+- **Steps Taken:** 118
+- **Steps Remaining:** 382
 - **Gold Teeth Obtained:** No
 - **HM03 (Surf) Obtained:** No
 
@@ -29,3 +29,4 @@
 - Turn 26645: 1 step RIGHT, 5 steps UP to (20, 3) (consumed 6 steps)
 - Turn 26647: 10 steps LEFT to (10, 3) (consumed 10 steps)
 - Turn 26649: 4 steps LEFT to (6, 3) (bumped into tree at (5, 3)) (consumed 4 steps)
+- Turn 26652: 1 step UP, 5 steps LEFT to (1, 2) (bumped into statue at (0, 2)) (consumed 6 steps)
