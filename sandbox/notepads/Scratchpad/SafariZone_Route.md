@@ -2,9 +2,9 @@
 
 ## Active Run Statistics
 - **Start Turn:** 25906
-- **Current Position:** `(20, 2)` (Safari Zone Area 3 (West))
-- **Steps Taken:** 316
-- **Steps Remaining:** 184
+- **Current Position:** `(21, 2)` (Safari Zone Area 3 (West))
+- **Steps Taken:** 317
+- **Steps Remaining:** 183
 
 ## Progress Log
 - **Turn 25625:** Started Run 5 at `(15, 25)` in Safari Zone Center.
