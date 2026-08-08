@@ -953,9 +953,9 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 # Safari Zone - Active Run Log (Run 10)
 
 - **Start Turn:** 26792
-- **Current Position:** (20, 20) on top of Southern Plateau in Safari Zone Area 1 (East)
-- **Steps Taken:** 52
-- **Steps Remaining:** 448
+- **Current Position:** (9, 22) in Safari Zone Area 1 (East)
+- **Steps Taken:** 65
+- **Steps Remaining:** 435
 - **Gold Teeth Obtained:** No
 - **HM03 (Surf) Obtained:** No
 
@@ -966,7 +966,6 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 
 ## Step Log
 - Spawned at (15, 25) in Safari Zone Center
-
 - Turn 26796: Warp to Safari Zone Center at (15, 25)
 - Turn 26797: Walked UP 9 steps to (15, 16) (blocked by fence on row 15) (consumed 9 steps)
 - Turn 26798: Walked Right 5 steps to (20, 16) and Up 2 steps to (20, 14) (blocked by water at (20, 13)) (consumed 7 steps)
@@ -978,6 +977,7 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - Turn 26804: Walked Left 1 step to (4, 22), Down 2 steps to (4, 24), Right 8 steps to (12, 24) (consumed 11 steps)
 - Turn 26805: Walked Right 2 steps to (14, 24) (interrupted by wild battle) (consumed 2 steps)
 - Turn 26808: 1 dismiss (A), Right 6 steps to (20, 24), Up 4 steps to climb southern plateau at (20, 20) (consumed 10 steps)
+- Turn 26811: Walked Left 8 steps to (12, 20), Down 2 steps to (12, 22), Left 3 steps to (9, 22) (consumed 13 steps)
 
 <hr>
 
