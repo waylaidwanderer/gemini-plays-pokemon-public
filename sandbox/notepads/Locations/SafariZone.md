@@ -73,3 +73,8 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - **Western Ground Grass (Rows 20-24, Columns 2-12):** A large patch of tall grass where wild battles can occur.
 - **Max Potion:** Located on the ground at `(8, 20)`. This is a solid overworld item ball sprite. It was successfully picked up by standing at `(7, 20)` facing Right on Turn 27623.
 - **Signpost at (24, 22):** Reads "AREA 3 EAST: CENTER AREA" (Turn 27655).
+
+## Rest House 3 (Area 3 West)
+- **Location:** Entrance is at `(11, 11)`.
+- **Signpost:** Located at `(12, 12)` and reads "REST HOUSE".
+- **NPC Dialogue:** The clerk inside explains Safari Zone mechanics: "Tossing ROCKs at POKéMON might make them run, but they'll be easier to catch."
