@@ -25,7 +25,7 @@
 - **The Southern Plateau (Southeastern Crossing):**
   - Raised cliff system at columns 14-24, rows 20-25.
   - **East Climbing Stairs:** (22, 23) (wooden stairs) - climbs UP onto the plateau.
-  - **West Descending Stairs:** (16, 27) (wooden stairs) - descends DOWN onto the ground at (16, 28).
+  - **West Descending Stairs:** (16, 23) (wooden stairs) - descends DOWN onto the ground at (16, 24).
   - Used to bypass the column 17 tree barrier on rows 28-33 when traveling from east to west.
 
 ### 3. Area 2 (North) Ground-Level Pathways & Barriers
