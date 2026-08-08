@@ -45,3 +45,13 @@
 4. Walk West across the plateau to Column 20 (13 steps).
 5. Descend the West Stairs at `(20, 15)` to the western ground level.
 6. From `(20, 16)`, walk West and South to transition to Area 3 (West) at the bottom-left corner.
+## Empirical Map of Area 3 (West)
+- **Column 11 Vertical Tree Barrier:** Blocks rows 3-7 (visually and physically).
+- **Southern Pond:** Blocks rows 8-9 on columns 10-21 (visually and physically).
+- **Row 9 Horizontal Tree Barrier:** Blocks columns 22-29 (physically).
+- **Column 29 Vertical Tree Barrier:** Blocks rows 2-9 (physically and visually).
+- **Poké Ball Item at (14, 10):** Detected on the ground (visually), currently separated from the north by the rows 8-9 pond.
+
+## Unverified Transition Hypothesis (In Progress)
+- **Hypothesis:** Walking UP to `(14, -1)` (bottom of Area 2 (North)), walking LEFT on row -1 to column 4, and walking DOWN will successfully bypass the column 11 tree barrier and reach the western ground level of Area 3 (West).
+- **Verification Status:** Unverified. Currently walking towards `(14, -1)` to test.
