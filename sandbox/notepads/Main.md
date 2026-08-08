@@ -1,3 +1,3 @@
-## CURRENT STATUS & DASHBOARD (Turn 43848)
-- Location: Rock Tunnel 1F at (5, 7).
-- Primary Goal: Exit Rock Tunnel to Route 10, travel to Celadon City, and clear Rocket Hideout.
+## CURRENT STATUS & DASHBOARD (Turn 43855)
+- Location: Route 10 South at (12, 10) (Exited Rock Tunnel!).
+- Primary Goal: Travel to Celadon City, heal at Pokemon Center, and clear Rocket Hideout.
