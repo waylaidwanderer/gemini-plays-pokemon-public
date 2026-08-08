@@ -950,84 +950,23 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 
 <h1><code>Scratchpad/SafariZone_Route</code></h1>
 
-# Safari Zone - Active Run Log (Run 9)
+# Safari Zone - Active Run Log (Run 10)
 
-- **Start Turn:** 26591
-- **Current Turn:** 26762
-- **Current Position:** (12, 28) in Safari Zone Area 2 (North)
-- **Steps Taken:** 406
-- **Steps Remaining:** 94
+- **Start Turn:** 26792
+- **Current Position:** (15, 25) in Safari Zone Center
+- **Steps Taken:** 0
+- **Steps Remaining:** 500
 - **Gold Teeth Obtained:** No
 - **HM03 (Surf) Obtained:** No
 
-## Step Log
-- Turn 26591: Spawned at (15, 25) in Safari Zone Center
-- Turn 26606: 4 steps UP to (15, 21)
-- Turn 26607: 4 steps UP to (15, 17)
-- Turn 26608: 5 steps RIGHT to (20, 17)
-- Turn 26609: 3 steps UP, 5 steps RIGHT to (25, 14) (consumed 8 steps)
-- Turn 26612: 3 steps RIGHT, 4 steps UP to (28, 10) (consumed 7 steps)
-- Turn 26615: 1 step RIGHT to transition to Area 1 (East) at (0, 22)
-- Turn 26617: 5 steps RIGHT to (5, 22)
-- Turn 26619: 1 step LEFT, 2 steps DOWN, 6 steps RIGHT to (10, 24) (consumed 9 steps)
-- Turn 26621: 5 steps RIGHT to (15, 24)
-- Turn 26623: 2 steps RIGHT to (17, 24) (interrupted by wild battle)
-- Turn 26628: 1 dismiss (A), 3 steps RIGHT, 4 steps UP to (20, 20) (consumed 7 steps)
-- Turn 26630: 8 steps LEFT, 2 steps DOWN to (12, 22) (consumed 10 steps)
-- Turn 26632: 3 steps LEFT, 5 steps UP to (9, 17) (consumed 8 steps)
-- Turn 26634: 9 steps UP, 3 steps RIGHT to (12, 8) (consumed 12 steps)
-- Turn 26636: 2 steps UP, 5 steps RIGHT, 2 steps DOWN to (17, 8) (consumed 9 steps)
-- Turn 26638: 2 steps RIGHT to (19, 8) (consumed 2 steps)
-- Turn 26645: 1 step RIGHT, 5 steps UP to (20, 3) (consumed 6 steps)
-- Turn 26647: 10 steps LEFT to (10, 3) (consumed 10 steps)
-- Turn 26649: 4 steps LEFT to (6, 3) (bumped into tree at (5, 3)) (consumed 4 steps)
-- Turn 26652: 1 step UP, 5 steps LEFT to (1, 2) (bumped into statue at (0, 2)) (consumed 6 steps)
-- Turn 26654: 6 steps RIGHT, 3 steps DOWN, 7 steps LEFT to (0, 5) (consumed 16 steps)
-- Turn 26656: 1 step LEFT to transition to Area 2 (North) at (39, 31) (consumed 1 step)
-- Turn 26659: 4 steps LEFT to (35, 31) (consumed 4 steps)
-- Turn 26661: 3 steps LEFT, 1 step DOWN, 6 steps LEFT to (26, 32) (interrupted by wild battle) (consumed 10 steps)
-- Turn 26664: 1 step LEFT, 5 steps DOWN to (20, 36) to transition to Area 3 (West) at (14, 0) (consumed 11 steps)
-- Turn 26668: 1 step RIGHT to (15, 0) (consumed 1 step)
-- Turn 26671: 1 step LEFT, 4 steps DOWN to (14, 4) (consumed 5 steps)
-- Turn 26672: 1 step RIGHT to (15, 4) (interrupted by wild battle) (consumed 1 step)
-- Turn 26675: 3 steps RIGHT to (18, 4) (interrupted by wild battle) (consumed 3 steps)
-- Turn 26678: 1 dismiss (A), 1 step RIGHT, 3 steps DOWN to (19, 7) (bumped into water at (19, 8)) (consumed 4 steps)
-- Turn 26680: 3 steps RIGHT to (22, 7) (consumed 3 steps)
+## Summary of Run 9
+- **Start Turn:** 26591
+- **End Turn:** 26775
+- **Outcome:** Explored southeastern ground level of Area 2 (North). Bypassed column 17 tree line by climbing Southern Plateau at (22, 23) and descending wooden stairs at (16, 27). Discovered column 5 is a solid vertical barrier of bushes from row 26 to row 34, blocking ground access to the west side. Discovered columns 12-13 form a vertical open grass corridor connecting the southern ground level to the northern ground level, allowing easy routing to the western side of the map without getting trapped. Ran out of steps on row 21.
 
-- Turn 26687: 5 steps RIGHT to (27, 8) (consumed 5 steps)
-- Turn 26690: Blocked by trees at (27, 8)
-- Turn 26691: 5 steps LEFT to (22, 8) (consumed 5 steps)
-- Turn 26692: 4 steps UP, 2 steps LEFT to (20, 4) (interrupted by wild battle) (consumed 6 steps)
-- Turn 26695: 1 dismiss (A), 6 steps LEFT to (14, 4) (consumed 6 steps)
-- Turn 26696: 2 steps LEFT to (12, 4) (consumed 2 steps)
-- Turn 26697: 3 steps UP to (12, 1) (consumed 3 steps)
-- Turn 26698: 3 steps DOWN, 3 steps RIGHT to (15, 4) (interrupted by wild battle) (consumed 6 steps)
-- Turn 26710: 4 steps RIGHT to (28, 7) (blocked by bushes) (consumed 4 steps)
-- Turn 26711: 5 steps UP to (28, 2) (consumed 5 steps)
-- Turn 26712: 7 steps LEFT to (21, 2) (interrupted by wild battle) (consumed 7 steps)
-- Turn 26715: 1 dismiss (A), 9 steps LEFT to (12, 2) (consumed 9 steps)
-- Turn 26716: 2 steps RIGHT, 2 steps UP to (14, 0) (consumed 4 steps)
-- Turn 26717: 1 step UP to transition back to Area 2 (North) at (20, 35) (consumed 1 step)
-- Turn 26718: 4 steps UP, 1 step LEFT to (20, 31) (interrupted by wild battle) (consumed 5 steps)
-- Turn 26735: 9 steps LEFT to (20, 30) (interrupted by wild battle) (consumed 9 steps)
-- Turn 26738: 1 dismiss (A), 6 steps DOWN to (20, 36) to transition to Area 3 (West) at (14, 0) (consumed 7 steps)
-- Turn 26740: 9 steps DOWN column 14 to (14, 7) (blocked by water at (14, 8)) (consumed 7 steps)
-- Turn 26741: 3 steps UP, 5 steps RIGHT, 7 steps DOWN column 19 to (19, 7) (blocked by water at (19, 8)) (consumed 11 steps)
-- Turn 26742: 3 steps RIGHT, 1 step DOWN to (22, 8) (interrupted by wild battle) (consumed 4 steps)
-- Turn 26745: 1 dismiss (A), 5 steps DOWN but only 1 step DOWN was taken to (22, 8) (blocked by trees on row 9) (consumed 2 steps)
-- Turn 26746: 4 steps UP to (22, 4), 8 steps LEFT to (14, 4), 4 steps UP to (14, 0) to transition (consumed 16 steps)
-- Turn 26747: 1 step UP to transition back to Area 2 (North) at (20, 35) (consumed 1 step)
-- Turn 26748: 1 step UP to (20, 34) (interrupted by Rhydon statue at (19, 34)) (consumed 1 step)
-- Turn 26749: 4 steps UP to (20, 31), 2 steps RIGHT to (22, 31) (interrupted by wild battle) (consumed 6 steps)
-- Turn 26751: 1 dismiss (A), 5 steps UP to (22, 26) (consumed 5 steps)
-- Turn 26752: 4 steps UP to climb Southern Plateau at (22, 22) (consumed 4 steps)
-- Turn 26753: 2 steps UP to (22, 20) (blocked by northern cliff wall of plateau) (consumed 2 steps)
-- Turn 26754: 4 steps LEFT to (18, 20) (consumed 4 steps)
-- Turn 26755: 1 step DOWN to (18, 21) (consumed 1 step)
-- Turn 26756: 4 steps DOWN to (18, 25) (consumed 4 steps)
-- Turn 26757: 3 steps LEFT to (15, 25), 1 step DOWN to (15, 26) (blocked by cliff on row 27) (consumed 4 steps)
-- Turn 26758: 1 step RIGHT to (16, 26), 2 steps DOWN via stairs to descend plateau to (16, 28) (consumed 3 steps)
-- Turn 26759: 4 steps LEFT to (12, 28) (blocked by water at (11, 28)) (consumed 4 steps)
+## Step Log
+- Spawned at (15, 25) in Safari Zone Center
+
 
 <hr>
 
@@ -1041,66 +980,46 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 
 # Safari Zone - Overworld Layout & Navigation Guide
 
-## Run Statistics (Previous Run - Ended)
-- **Start Turn:** 23448 (Run ended due to step budget exhaustion on Turn 23787)
-- **End Turn:** 23787
-- **Result:** Explored Area 1 (East) and entered Area 2 (North) up to Column 25. Fully mapped the island plateau bypass in Area 1.
+## Run Statistics (Previous Runs)
+- **Run 8 (Ended):** Explored Area 1 (East) and entered Area 2 (North) up to Column 25. Mapped the eastern plateau.
+- **Run 9 (Ended):** Entered Area 3 (West) northeastern enclave. Confirmed (14, 8) is water (no bridge). Mapped the Southern Plateau in Area 2 (North) and the central/western grass lanes.
 
-## Area 1 (East) Map & Transitions
-- **Exit to Area 2 (North):** Located at (0, 5).
+---
 
-## Area 2 (North) Map & Collision Structures
+## Map Structure & Boundaries
 
-### Key Landmarks & Buildings
-- **Rest House 2:** Located at columns 21-25, rows 12-13. The entrance door is at `(22, 13)`.
-- **Plateau Land Bridge:** A raised cliff system that provides the ONLY path connecting the northern/eastern sections of the map to the southern/western ground level (which leads to Area 3).
-  - Central Plateau Area: Columns 22-23, rows 14-16.
-  - **East Stairs (Plateau Entrance):** Located at `(32, 13)` and `(33, 13)` facing east on row 13.
-  - **West Stairs:** Located at `(20, 15)` facing west on column 20.
+### 1. Area 1 (East) Map & Transitions
+- **Exit to Area 2 (North):** Located at (0, 5) which connects to (39, 5) of Area 2 (North).
 
-### Major Boundaries & Blockages
-- **Row 10 Tree Line:** A solid barrier of pine trees across columns 27-31, blocking direct southern traversal on columns 28-29.
-- **Row 15-19 Isolation Barrier:**
-  - Columns 2-11 on Row 15 have a solid tree wall.
-  - Columns 12-18 on Row 15 are open grass, but they lead to the middle pond on rows 17-18 (columns 9-11) and a fenced animal pen bordered by grey Rhydon statues on row 19 (columns 10-17).
-  - Because of this, the northwest area (Rest House 2, columns 1-14) is a physical dead end on the ground level. You cannot walk directly south or southwest to Area 3 from column 2.
-- **Column 19 Tree Barrier:** A continuous vertical line of trees on rows 14-18, column 19, blocking direct horizontal passage on row 14. But row 12 and row 13 are open on column 19.
+### 2. Area 2 (North) Plateau Systems
+- **The Northern Plateau (Central Land Bridge):**
+  - Raised cliff system connecting the northeast/middle to the northwest.
+  - **East Stairs:** (32, 13) or (33, 13) facing east on row 13.
+  - **West Stairs:** (20, 15) facing west on column 20.
+  - Useful for accessing the northern/western ground level on rows 0-15.
+- **The Southern Plateau (Southeastern Crossing):**
+  - Raised cliff system at columns 14-24, rows 20-25.
+  - **East Climbing Stairs:** (22, 23) (wooden stairs) - climbs UP onto the plateau.
+  - **West Descending Stairs:** (16, 27) (wooden stairs) - descends DOWN onto the ground at (16, 28).
+  - Used to bypass the column 17 tree barrier on rows 28-33 when traveling from east to west.
 
-## Macro-Level Layout Connection in Area 1 (East)
-To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)`, the player must navigate the map in a spiral/zig-zag topology:
-1. **Southern Ground Level:** Walk east from `(0, 22)` on the ground to `(20, 21)`.
-2. **Southern Plateau Crossing:** Climb stairs at `(20, 21)` to `(20, 20)`. Walk west on the plateau to `(12, 20)`. Descend stairs at `(12, 21)` to ground level at `(12, 22)`.
-3. **Western/Middle Ground Level:** Walk north on columns 8-9 to row 8, then east to `(12, 8)`.
-4. **Northern Plateau Crossing (East-Bound):** Climb stairs at `(12, 7)` to `(12, 6)` on the northern plateau. Walk east on the plateau to `(17, 6)`. Descend stairs at `(17, 7)` to the northeastern ground level at `(17, 8)`.
-5. **Northeastern/Northern Ground Passage:** From `(17, 8)`, walk right to column 18/19/20, then walk UP past the row 6-7 barrier to row 5 (northern ground level).
-6. **Northwest Ground Level Exit:** From the northern ground level, walk west all the way to the top-left corner at `(0, 5)` to transition to Area 2 (North) at `(39, 31)`.
-## Safari Game Over Dialogue Flow & Reset Mechanics
-When the 500 step budget expires:
-1. **Dialogue Box 1:** `PA: Ding-dong!` -> press `A` or `B` to advance.
-2. **Dialogue Box 2:** `Time's up! Your SAFARI GAME is over!` -> press `A` or `B` to advance.
-3. **Automatic Warp:** Warps player to Safari Zone Gatehouse at `(4, 0)` facing DOWN.
-4. **Dialogue Box 3:** `Did you get a good haul? Come again!` (renders in two chunks: "Did you get a good haul?" and "Come again!"). -> Press `A` or `B` to completely dismiss dialogue and return to overworld.
-5. **Fuchsia City Reset:** Walk DOWN to Fuchsia City to reset the gatekeeper, then walk UP to re-enter. Speak to clerk at `(6, 2)` or counter at `(4, 2)` to start a new Safari run.
+### 3. Area 2 (North) Ground-Level Pathways & Barriers
+- **Column 17 Tree Barrier:** Solid vertical tree line on rows 28-33, column 17. Completely blocks direct ground-level horizontal crossing on the south side.
+- **Column 5 Bush Barrier:** Solid vertical bush line on rows 26-33, column 5. Complemented by the Rest House roof at columns 4-5 rows 24-25. Completely blocks ground-level horizontal crossing on the west side.
+- **Central Grass Corridor (Columns 12-13):** Completely open vertical grass lane extending from row 33 up to row 15. Connects the southern ground level (row 28) directly to the northern ground level (row 15), bypassing all horizontal plateau barriers.
+- **Southern Grass Corridor (Rows 30-32):** Open corridor extending horizontally across columns 6 to 11. Bypasses the column 11 water pond on the south side.
 
+---
 
-## Area 3 (West) Map & Collision Structures (Under Exploration)
+## Verified Speedrun Route to Area 3 (West) (Run 10 Optimal Path)
 
-### Verified Landmarks & Barriers
-- **Entrance Warp from Area 2 (North):** Located at `(14, 0)`.
-- **Top Row Barrier (Row 0):** Row 0 is entirely blocked by trees except for the entrance at `(14, 0)` and `(15, 0)`.
-- **Northern Pond (Row 8):** A large body of water extending from Column 12 to at least Column 21 on Row 8.
-- **Tree Barrier (Row 9):** A continuous line of trees from Column 22 to Column 27 on Row 9.
-- **Signpost at (29, 10):** Located next to row of trees, likely indicating a Rest House is nearby.
-- **Columns 9-10 Passage:** Verified open ground on columns 9 and 10 between rows 2 and 7.
-
-
-## Area 2 (North) Southern Corridor & Plateau Mapping (Verified)
-
-### Pathing Barriers
-- **Southern Corridor Blockage (Row 34-35):** Row 35 is blocked by Rhydon statues at `(19, 35)` and `(22, 35)`, and row 34 is blocked at `(19, 34)` and `(22, 34)`. There is NO direct ground connection between the southeastern ground level (columns 20-39) and southwestern ground level (columns 0-16).
-- **Southern Plateau Bypass:** To navigate from the southeastern ground to the southwestern ground, the player must climb the southern plateau at `(22, 23)` (via wooden stairs), walk west along the plateau rows 20-25 to column 16, and walk down the wooden stairs at `(16, 27)` to descend to ground level at `(16, 28)`.
-- **West Side Water Obstacle (Column 11, Row 25-29):** The pond extends all the way to column 11, blocking direct westward movement on rows 25-29. Row 28 ends at `(12, 28)`.
-- **Southern Grass Corridor (Rows 30-32):** Rows 30-32 are completely open and lead horizontally west past column 11 all the way to columns 0-4 (the bottom-left exit to Area 3 (West)).
+1. **Center to Area 2 (North):** From spawn at (15, 25) in Safari Zone Center, walk straight UP column 15 to row 0 (25 steps) to transition directly to Area 2 (North) on the west side of the tree barrier (spawning at columns 10-20, row 35).
+2. **Area 2 (North) to Area 3 (West) Main Section:**
+   - Walk UP to row 31 (4 steps UP).
+   - Walk LEFT along the southern grass corridor on row 31 past column 11 (we can walk left on row 31 to column 3 directly).
+   - Walk DOWN column 3 to transition to Area 3 (West) (columns 0-4, rows 30-35).
+3. **Area 3 (West) to Gold Teeth & Secret House:**
+   - Walk directly to the Gold Teeth on the ground and the Secret House to obtain HM03 (Surf).
 
 
 <hr>
