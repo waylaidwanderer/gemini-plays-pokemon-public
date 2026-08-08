@@ -30,3 +30,6 @@
 3. **Area 1 (East) to Area 2 (North):** Exit Area 1 (East) at `(0, 5)` to enter Area 2 (North) at `(39, 31)`.
 4. **Area 2 (North) Southern Corridor:** Walk Left 19 steps on the ground to `(20, 31)`, then walk Down 5 steps to `(20, 36)`. Transition to Area 3 (West) at `(14, 0)`. (Estimated: 24 steps)
 5. **Enter Area 3 (West) with 371 steps remaining!** Walk to the Gold Teeth and Secret House (Surf).
+
+- **Wandering NPC / Transition Resets:** Note that because we exited back into the Gatehouse during Run 7, the Safari Zone game state was not officially terminated. We must walk Down out of the gatehouse to Fuchsia City to trigger the "PA: Your SAFARI GAME is over!" script and officially end the game before the clerk re-appears.
+- **Unverified Row 18 Hypothesis:** The planned route on Row 18 inside Safari Zone Center is an unverified hypothesis. Under the Burden of Proof, we must systematically test and document its walkability coordinate-by-coordinate when we execute it.
