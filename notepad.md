@@ -953,10 +953,10 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 # Safari Zone - Active Run Log (Run 9)
 
 - **Start Turn:** 26591
-- **Current Turn:** 26719
-- **Current Position:** (20, 31) in Safari Zone Area 2 (North)
-- **Steps Taken:** 257
-- **Steps Remaining:** 243
+- **Current Turn:** 26762
+- **Current Position:** (12, 28) in Safari Zone Area 2 (North)
+- **Steps Taken:** 406
+- **Steps Remaining:** 94
 - **Gold Teeth Obtained:** No
 - **HM03 (Surf) Obtained:** No
 
@@ -1009,6 +1009,25 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - Turn 26716: 2 steps RIGHT, 2 steps UP to (14, 0) (consumed 4 steps)
 - Turn 26717: 1 step UP to transition back to Area 2 (North) at (20, 35) (consumed 1 step)
 - Turn 26718: 4 steps UP, 1 step LEFT to (20, 31) (interrupted by wild battle) (consumed 5 steps)
+- Turn 26735: 9 steps LEFT to (20, 30) (interrupted by wild battle) (consumed 9 steps)
+- Turn 26738: 1 dismiss (A), 6 steps DOWN to (20, 36) to transition to Area 3 (West) at (14, 0) (consumed 7 steps)
+- Turn 26740: 9 steps DOWN column 14 to (14, 7) (blocked by water at (14, 8)) (consumed 7 steps)
+- Turn 26741: 3 steps UP, 5 steps RIGHT, 7 steps DOWN column 19 to (19, 7) (blocked by water at (19, 8)) (consumed 11 steps)
+- Turn 26742: 3 steps RIGHT, 1 step DOWN to (22, 8) (interrupted by wild battle) (consumed 4 steps)
+- Turn 26745: 1 dismiss (A), 5 steps DOWN but only 1 step DOWN was taken to (22, 8) (blocked by trees on row 9) (consumed 2 steps)
+- Turn 26746: 4 steps UP to (22, 4), 8 steps LEFT to (14, 4), 4 steps UP to (14, 0) to transition (consumed 16 steps)
+- Turn 26747: 1 step UP to transition back to Area 2 (North) at (20, 35) (consumed 1 step)
+- Turn 26748: 1 step UP to (20, 34) (interrupted by Rhydon statue at (19, 34)) (consumed 1 step)
+- Turn 26749: 4 steps UP to (20, 31), 2 steps RIGHT to (22, 31) (interrupted by wild battle) (consumed 6 steps)
+- Turn 26751: 1 dismiss (A), 5 steps UP to (22, 26) (consumed 5 steps)
+- Turn 26752: 4 steps UP to climb Southern Plateau at (22, 22) (consumed 4 steps)
+- Turn 26753: 2 steps UP to (22, 20) (blocked by northern cliff wall of plateau) (consumed 2 steps)
+- Turn 26754: 4 steps LEFT to (18, 20) (consumed 4 steps)
+- Turn 26755: 1 step DOWN to (18, 21) (consumed 1 step)
+- Turn 26756: 4 steps DOWN to (18, 25) (consumed 4 steps)
+- Turn 26757: 3 steps LEFT to (15, 25), 1 step DOWN to (15, 26) (blocked by cliff on row 27) (consumed 4 steps)
+- Turn 26758: 1 step RIGHT to (16, 26), 2 steps DOWN via stairs to descend plateau to (16, 28) (consumed 3 steps)
+- Turn 26759: 4 steps LEFT to (12, 28) (blocked by water at (11, 28)) (consumed 4 steps)
 
 <hr>
 
@@ -1073,6 +1092,15 @@ When the 500 step budget expires:
 - **Tree Barrier (Row 9):** A continuous line of trees from Column 22 to Column 27 on Row 9.
 - **Signpost at (29, 10):** Located next to row of trees, likely indicating a Rest House is nearby.
 - **Columns 9-10 Passage:** Verified open ground on columns 9 and 10 between rows 2 and 7.
+
+
+## Area 2 (North) Southern Corridor & Plateau Mapping (Verified)
+
+### Pathing Barriers
+- **Southern Corridor Blockage (Row 34-35):** Row 35 is blocked by Rhydon statues at `(19, 35)` and `(22, 35)`, and row 34 is blocked at `(19, 34)` and `(22, 34)`. There is NO direct ground connection between the southeastern ground level (columns 20-39) and southwestern ground level (columns 0-16).
+- **Southern Plateau Bypass:** To navigate from the southeastern ground to the southwestern ground, the player must climb the southern plateau at `(22, 23)` (via wooden stairs), walk west along the plateau rows 20-25 to column 16, and walk down the wooden stairs at `(16, 27)` to descend to ground level at `(16, 28)`.
+- **West Side Water Obstacle (Column 11, Row 25-29):** The pond extends all the way to column 11, blocking direct westward movement on rows 25-29. Row 28 ends at `(12, 28)`.
+- **Southern Grass Corridor (Rows 30-32):** Rows 30-32 are completely open and lead horizontally west past column 11 all the way to columns 0-4 (the bottom-left exit to Area 3 (West)).
 
 
 <hr>

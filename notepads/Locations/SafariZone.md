@@ -51,3 +51,12 @@ When the 500 step budget expires:
 - **Tree Barrier (Row 9):** A continuous line of trees from Column 22 to Column 27 on Row 9.
 - **Signpost at (29, 10):** Located next to row of trees, likely indicating a Rest House is nearby.
 - **Columns 9-10 Passage:** Verified open ground on columns 9 and 10 between rows 2 and 7.
+
+
+## Area 2 (North) Southern Corridor & Plateau Mapping (Verified)
+
+### Pathing Barriers
+- **Southern Corridor Blockage (Row 34-35):** Row 35 is blocked by Rhydon statues at `(19, 35)` and `(22, 35)`, and row 34 is blocked at `(19, 34)` and `(22, 34)`. There is NO direct ground connection between the southeastern ground level (columns 20-39) and southwestern ground level (columns 0-16).
+- **Southern Plateau Bypass:** To navigate from the southeastern ground to the southwestern ground, the player must climb the southern plateau at `(22, 23)` (via wooden stairs), walk west along the plateau rows 20-25 to column 16, and walk down the wooden stairs at `(16, 27)` to descend to ground level at `(16, 28)`.
+- **West Side Water Obstacle (Column 11, Row 25-29):** The pond extends all the way to column 11, blocking direct westward movement on rows 25-29. Row 28 ends at `(12, 28)`.
+- **Southern Grass Corridor (Rows 30-32):** Rows 30-32 are completely open and lead horizontally west past column 11 all the way to columns 0-4 (the bottom-left exit to Area 3 (West)).
