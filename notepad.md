@@ -1,7 +1,7 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 43921)
-- Location: Route 10 South at (15, 21).
+## CURRENT STATUS & DASHBOARD (Turn 43923)
+- Location: Saffron City at (9, 30) outside Pokemon Center.
 - Primary Goal: Travel to Celadon City, heal at Pokemon Center, and clear Rocket Hideout.
 
 <hr>
