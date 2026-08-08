@@ -22,3 +22,8 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Game Corner Entrance Door: Tile (10, 2) in Game Corner Plaza (accessed by stepping Down to (10, 1) then Down into (10, 2)) WARPS DIRECTLY INSIDE CELADON GAME CORNER AT (3, 0)!
 - Celadon Diner: Entrance door at (29, 29) on Row 29.
 - Celadon PokéMart: Entrance door at (25, 11) on Row 11.
+
+### Column 20 Tree Wall & Passage Survey (Verified Turn 44410)
+- Column 20 at Row 28/29 is empirically proven SOLID TREE WALL (bumped at 20, 28).
+- Column 20 tree wall spans y=24..34 in South Celadon.
+- Eastbound crossing from West Celadon (Cols 0..19) to Central Celadon (Cols 20..36) is via North Column 16/17 corridor to Row 10/14 Main Street!
