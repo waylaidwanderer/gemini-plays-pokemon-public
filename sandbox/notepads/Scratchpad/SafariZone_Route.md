@@ -52,3 +52,5 @@
 5. **Second Plateau Crossing (West):** Walk to the East Stairs at `(33, 13)` and climb onto the main plateau. Walk West across it to Column 20, and descend the West Stairs at `(20, 15)` to the western ground level. (UNVERIFIED HYPOTHESIS)
 6. **Enter Area 3 (West):** Walk West/South to transition to Area 3 (West) at the bottom-left corner.
 7. **Obtain Surf & Gold Teeth:** Navigate Area 3 (West) to the Secret House and pick up the Gold Teeth.
+- **Turn 26331:** Explored the southern ground level. Confirmed column 17 has a solid vertical line of shrubs from row 27 to 33, blocking all westward ground movement.
+- **Turn 26331:** Discovered that the first plateau at rows 20-23 is the Land Bridge connecting the east side to the west side. The entrance stairs are at `(22, 23)` facing south. We will walk there next to cross over to the west side.
