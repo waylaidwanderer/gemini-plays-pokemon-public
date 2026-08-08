@@ -2,15 +2,13 @@
 
 ## Building Access & Exits
 - West Entrance (Celadon City 20, 36 / Courtyard Plaza): Enters West Room at (3, 0) / (3, 7).
+- Main Entrance: Located at Celadon City (17, 27) / (25, 25), enters Main Casino Floor at (3, 7).
 
-## Game Corner Interior Layout
-- West Room: Columns 0..7, Rows 0..5. Entrance mats at (3, 0)/(4, 0) and (3, 7)/(4, 7).
-- Aisle Layout: Central aisle runs along Columns 3 and 4. Slot machine rows located at Column 2 and Column 5.
-- Main Entrance: Main Game Corner entrance door located in South Celadon City at (24, 36)/(25, 36).
-- Secret Staircase: Located in the Main Game Corner building behind the poster switch guarded by the Rocket Grunt on the North Wall. Defeat the Grunt, press A on the poster to reveal the secret staircase to Rocket Hideout B1F.
-
-### Verified Main Hall Topology & Poster Probing (Turn 44673)
-- Main Entrance (25, 25): Enters Game Corner at (3, 7).
-- Column 3 Aisle: Open vertical corridor at y=2..7.
-- Row 2 North Wall Posters (x=2..5): Standard decorative posters at (2, 1)..(5, 1).
-- Main Horizontal Aisle (Row 6): Open horizontal corridor running East across x=2..18 to the East sector (Rocket Grunt at North Wall x=15..18).
+## Game Corner Interior Layout & Topology
+- Central Aisle (Cols 3..4): Open vertical corridor running from North Wall at y=2 down past y=33.
+- Slot Machine Banks:
+  - Bank 1 (Cols 1..2, y=2..6)
+  - Bank 2 (Cols 5..6, y=2..6)
+  - Note: Row 6 is blocked at x=5/6 by counter walls.
+- Horizontal Cross-Aisles: Row 1/Row 2 and Row 8/Row 33+ provide open horizontal passages across the casino floor.
+- Secret Staircase: Located in the Main Game Corner building behind the poster switch guarded by the Rocket Grunt on the North Wall in the East sector (x=15..18). Defeat the Grunt, press A on the poster to reveal the secret staircase to Rocket Hideout B1F.
