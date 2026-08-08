@@ -72,6 +72,7 @@
 - **Escape Rope:** Obtained on Turn 13977, consumed on Turn 16964.
 
 ## Verified Inventory (18/20 slots used - 2 empty slots)
+- **In-Game Verification:** Verified on Turn 26597 (perfect match, 18 slots used, 2 empty slots).
 - **Town Map:** 1
 - **Moon Stone:** 2 (1 stack)
 - **Helix Fossil:** 1
