@@ -989,6 +989,19 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
   - Walk Down 3 steps to row 5 on column 8: `(8, 5)`.
   - Walk Left 8 steps along row 5 to column 0: `(0, 5)` -> transition to Area 2 (North) at `(39, 31)`.
 
+## 3. Safari Zone Area 2 (North) Southern Ground Bypass to Area 3 (West)
+- Enter Area 2 (North) at `(39, 31)` on the ground.
+- Walk Left 11 steps to `(28, 31)`.
+- Walk Up 5 steps to climb stairs at `(28, 27)` onto the Eastern Southern Plateau at `(28, 26)`.
+- Walk Left 1 step to `(27, 26)` and verify column 26 is blocked by a cliff face.
+- Walk Right 1 step to `(28, 26)`, Down 2 steps to descend stairs to the ground at `(28, 28)`.
+- Walk Left 8 steps along row 28 to `(20, 28)`.
+- Walk Left 11 steps to column 20 on row 33: `(20, 33)`.
+- Walk Right 2 steps to `(22, 33)`, and Up 11 steps along column 22 to climb onto the Western Southern Plateau at `(22, 22)`.
+- Walk Left 6 steps to `(16, 22)`, Down 5 steps to descend stairs at `(16, 27)` to the ground at `(16, 28)`.
+- Walk Left 4 steps to column 12: `(12, 28)`.
+- Walk Down 5 steps along column 12 to `(12, 33)`, Left 3 steps to column 9: `(9, 33)`, Down 2 steps to `(9, 35)`, Left 5 steps to `(4, 35)`.
+- Walk Down 1 step to transition directly to Area 3 (West) at `(26, 0)`.
 
 <hr>
 
