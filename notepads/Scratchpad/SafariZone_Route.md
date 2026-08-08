@@ -2,9 +2,9 @@
 
 ## Active Run Statistics
 - **Start Turn:** 25625
-- **Current Position:** `(17, 3)` (Safari Zone Area 1 (East))
-- **Steps Taken:** 131
-- **Steps Remaining:** 369
+- **Current Position:** `(10, 3)` (Safari Zone Area 1 (East))
+- **Steps Taken:** 138
+- **Steps Remaining:** 362
 
 ## Progress Log
 - **Turn 25625:** Started Run 5 at `(15, 25)` in Safari Zone Center.
@@ -27,6 +27,7 @@
 - **Turn 25960:** Walked Left to `(7, 14)` and UP to `(7, 10)`.
 - **Turn 25962:** Climbed stairs at `(12, 7)` to `(12, 6)`, walked East to `(17, 6)`, and descended at `(17, 7)` to `(17, 8)`.
 - **Turn 25964:** Walked Right to `(20, 8)`, UP to `(20, 3)`, and Left to `(17, 3)`.
+- **Turn 25966:** Walked Left to `(10, 3)`, where a wild Paras encounter was triggered.
 
 ## Upcoming Route
 1. Continue East on Row 24 to Column 20.
