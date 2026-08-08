@@ -944,9 +944,9 @@ To transition from the northwestern ground level to the southwestern exit of Are
 
 ## Active Run Statistics (Run 8)
 - **Start Turn:** 26396
-- **Current Position:** `(7, 22)` in Safari Zone Area 1 (East)
-- **Steps Taken:** 144
-- **Steps Remaining:** 356
+- **Current Position:** `(1, 7)` in Safari Zone Area 1 (East)
+- **Steps Taken:** 243
+- **Steps Remaining:** 257
 - **Safari Balls:** 30
 
 ## Progress Log
