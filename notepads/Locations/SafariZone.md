@@ -43,3 +43,9 @@ To transition from the northwestern ground level to the southwestern exit of Are
 - **Land Bridge Corridor:** Walk west across rows 20-23 to column 16 (e.g., `(22, 22)` -> `(16, 22)`). The bridge physically spans the vertical tree line on column 16.
 - **Plateau South Corridor:** Walk south along column 16 to row 26 (`(16, 22)` -> `(16, 26)`).
 - **Stairs off Land Bridge (West Side):** Located at `(16, 27)` facing south. Walk DOWN onto `(16, 28)` to reach the western ground level.
+
+## Verified Overworld Transitions & Boundaries
+- **Gatehouse to Safari Zone Center:** Walk UP columns 3-4 inside the gatehouse to trigger ticket purchase and warp to `(15, 25)` in the Center.
+- **Center to Area 1 (East) Transition:** Walk Right from `(29, 10)` inside Safari Zone Center to transition to Area 1 (East) at `(0, 22)`.
+- **Area 1 (East) to Area 2 (North) Transition:** Exit Area 1 (East) at the northern boundary `(0, 5)` to enter Area 2 (North) at `(39, 31)`.
+- **Area 2 (North) to Area 3 (West) Transition:** Located at `(20, 36)` inside Area 2 (North) (accessible through a gap on row 34 columns 20-21). Warps the player to `(14, 0)` at the northern boundary of Area 3 (West).
