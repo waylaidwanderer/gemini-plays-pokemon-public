@@ -941,7 +941,7 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
   - **Note:** The Plateau completely blocks ground-level horizontal crossing on rows 14-18.
 - **Column 18 Vertical Barrier (Rows 20-23):** A solid tree/wall structure running vertically on Column 18 across rows 20-23, blocking horizontal ground-level passage.
 - **Horizontal Cliff Wall (Rows 24-25):** Runs horizontally across the map, separating the north ground level from the south ground level:
-  - Row 24 on Columns 2-8 is solid cliff wall (Column 9 is an open gap).
+  - Row 24 on Columns 2-9 is solid cliff wall/trees (Column 19 is the open gap to the south).
   - Row 25 on Columns 10-21 is solid cliff wall.
   - Row 24 on Columns 22-29 is solid cliff wall.
 
