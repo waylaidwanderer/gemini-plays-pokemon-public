@@ -2,9 +2,9 @@
 
 ## Active Run Statistics
 - **Start Turn:** 25625
-- **Current Position:** `(35, 31)` (Safari Zone Area 2 (North))
-- **Steps Taken:** 169
-- **Steps Remaining:** 331
+- **Current Position:** `(30, 31)` (Safari Zone Area 2 (North))
+- **Steps Taken:** 174
+- **Steps Remaining:** 326
 
 ## Progress Log
 - **Turn 25625:** Started Run 5 at `(15, 25)` in Safari Zone Center.
@@ -33,9 +33,7 @@
 
 
 ## Upcoming Route
-1. Continue East on Row 24 to Column 20.
-2. Walk North to `(20, 21)` and climb the eastern plateau stairs.
-3. Walk West on the plateau to `(12, 21)` and descend.
-4. Walk North-West to `(12, 7)` and climb the western plateau stairs.
-5. Walk East on the plateau to `(17, 7)` and descend.
-6. Walk North-West to the exit at `(0, 5)` to transition to Area 2 (North).
+1. Climb the newly discovered plateau stairs at `(28, 27)` to reach the plateau.
+2. Traverse the plateau West and South to find the West Stairs at `(20, 15)` or ledges.
+3. Descend to the southern ground level (rows 25-35).
+4. Walk West along row 30 to transition to Area 3 (West).
