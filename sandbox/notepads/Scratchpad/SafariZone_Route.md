@@ -37,3 +37,11 @@
 2. Walk North to `(28, 26)` to climb back onto the eastern plateau (6 steps).
 3. Walk North on the plateau to Row 24 or 25 at column 28.
 4. Try walking West on Row 24 or 25 to cross column 27 and verify if we can bypass the blockage seen on row 26.
+
+## Verified Eastern Route to Plateau Land Bridge (Run 5)
+1. From `(18, 32)`, walk East to `(36, 32)` (18 steps).
+2. Walk North along Column 36/37 to Row 13 (19 steps).
+3. Walk West on Row 13 to Column 33 (3 steps) and climb UP the East Stairs at `(32, 13)` or `(33, 13)`.
+4. Walk West across the plateau to Column 20 (13 steps).
+5. Descend the West Stairs at `(20, 15)` to the western ground level.
+6. From `(20, 16)`, walk West and South to transition to Area 3 (West) at the bottom-left corner.
