@@ -31,12 +31,13 @@
 
 ---
 
-## Verified Speedrun Route to Area 3 (West) (Run 10 Optimal Path)
+## Verified Optimal Path to Area 3 (West) Main Section (Run 11 Path)
 
-1. **Center to Area 2 (North):** From spawn at (15, 25) in Safari Zone Center, the path straight UP is blocked by a fence at row 15. We must walk Right and around the fences to columns 26-29 to reach the top edge, or use other routes. (Note: Entering Area 2 (North) on the east side at (39, 31) allows traversing the Southern Plateau to reach column 13 on the ground.)
-2. **Area 2 (North) to Area 3 (West) Main Section:**
-   - Walk UP to row 31 (4 steps UP).
-   - Walk LEFT along the southern grass corridor on row 31 past column 11 (we can walk left on row 31 to column 3 directly).
-   - Walk DOWN column 3 to transition to Area 3 (West) (columns 0-4, rows 30-35).
-3. **Area 3 (West) to Gold Teeth & Secret House:**
-   - Walk directly to the Gold Teeth on the ground and the Secret House to obtain HM03 (Surf).
+1. **Start the Safari Game:** Pay 500 Poké Dollars and spawn at `(15, 25)` in Safari Zone Center.
+2. **Transition directly to Area 3 (West) Main Section:**
+   - Walk directly Left 15 steps from spawn `(15, 25)` to column 0 on row 25.
+   - This transitions us directly and unobstructed to the main, non-isolated section of Area 3 (West) at `(29, 25)` (consuming only 15 steps!).
+3. **Obtain the Gold Teeth:**
+   - Gold Teeth are located on the ground in Area 3 (West).
+4. **Obtain HM03 (Surf):**
+   - Enter the Secret House in the southwest part of Area 3 (West) and speak to the attendant to receive HM03 (Surf).
