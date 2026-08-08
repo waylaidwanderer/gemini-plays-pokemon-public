@@ -949,9 +949,9 @@ To transition from the northwestern ground level to the southwestern exit of Are
 
 ## Active Run Statistics
 - **Start Turn:** 25625
-- **Current Position:** `(1, 2)` (Safari Zone Area 1 (East))
-- **Steps Taken:** 148
-- **Steps Remaining:** 352
+- **Current Position:** `(2, 2)` (Safari Zone Area 1 (East))
+- **Steps Taken:** 149
+- **Steps Remaining:** 351
 
 ## Progress Log
 - **Turn 25625:** Started Run 5 at `(15, 25)` in Safari Zone Center.
@@ -977,6 +977,7 @@ To transition from the northwestern ground level to the southwestern exit of Are
 - **Turn 25966:** Walked Left to `(10, 3)`, where a wild Paras encounter was triggered.
 - **Turn 25971:** Walked Left along Row 3 to `(6, 3)`, where we were blocked by the tree at `(5, 3)`.
 - **Turn 25973:** Walked UP to `(6, 2)` and Left to `(1, 2)`, where we bumped into the Rhydon statue at `(0, 2)`.
+- **Turn 25983:** Walked Right to `(2, 2)`.
 
 ## Upcoming Route
 1. Continue East on Row 24 to Column 20.
@@ -1005,9 +1006,9 @@ To transition from the northwestern ground level to the southwestern exit of Are
 - **Result:** Explored Area 1 (East) and entered Area 2 (North) up to Column 39. Ended by step budget exhaustion.
 
 ## Active Run Statistics (Run 5)
-- **Current Position:** `(1, 2)` (Safari Zone Area 1 (East))
-- **Steps Taken:** 148
-- **Steps Remaining:** 352
+- **Current Position:** `(2, 2)` (Safari Zone Area 1 (East))
+- **Steps Taken:** 149
+- **Steps Remaining:** 351
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
