@@ -36,10 +36,4 @@ To transition from the northwestern ground level to the southwestern exit of Are
 3. **Traverse the Plateau:** Walk south and west along the plateau structure to reach the southern cliffside.
 4. **Reach Southern Ground Level:** Walk down the stairs or jump down the south-facing ledges at the south-eastern/south-middle part of the plateau to land on the southern ground level (rows 25-35).
 5. **Walk West to Area 3:** Follow the open southern grass corridor (around row 30) all the way west to the bottom-left corner of Area 2 (North) (columns 0-4, rows 30-35) to transition to **Area 3 (West)**.
-### Verified Spatial Isolation of Southeastern Ground Level
-- **Southeastern Ground Level Isolation:** The southeastern ground level of Area 2 (North) (rows 28-35, columns 28-39), accessed from Area 1 (East) at `(39, 31)`, is completely isolated from the rest of the Safari Zone.
-  - **West Barrier:** Column 17 is a solid cliff wall (rows 24-33), and rows 34-35 are blocked by Rhydon statues on columns 17-19, preventing horizontal ground-level traversal to the western ground level.
-  - **North Barrier:** Row 27 is a solid horizontal cliff wall (columns 32-39), preventing northern ground-level traversal.
-  - **Plateau Dead End:** The plateau accessed from `(28, 27)` is a dead end at row 24 due to a solid horizontal cliff wall.
-  - **Transition Behavior:** Stepping on row 36 immediately transitions the player to Area 3 (West) at `(14, 0)`, where column 11 is blocked by a vertical tree barrier on rows 3-7, completely trapping the player in a small northern pocket.
-- **Correct Progression Path:** To reach Area 3 (West) and the Secret House, the player MUST enter Area 2 (North) from the **Center Area** north exit to access the western ground level, then perform the double plateau-crossing route.
+
