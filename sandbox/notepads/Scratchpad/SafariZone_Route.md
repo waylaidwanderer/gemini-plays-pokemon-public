@@ -33,6 +33,6 @@
 
 
 ## Upcoming Route
-1. Descend the plateau stairs at `(28, 27)` back to the southern ground level at `(28, 28)`.
-2. Walk South to row 31 at `(28, 31)`.
-3. Walk directly West along row 31 to transition to Area 3 (West) at columns 0-4.
+1. Walk South to Row 32 at `(28, 32)`.
+2. Walk directly West along Row 32 to `(20, 32)` to completely bypass the tall grass on columns 24-27.
+3. Continue walking West along Row 31/32 to transition to Area 3 (West) at columns 0-4.
