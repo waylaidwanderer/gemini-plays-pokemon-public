@@ -1084,10 +1084,24 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - **Max Potion:** Located on the ground at `(8, 20)`. This is a solid overworld item ball sprite. It was successfully picked up by standing at `(7, 20)` facing Right on Turn 27623.
 - **Signpost at (24, 22):** Reads "AREA 3 EAST: CENTER AREA" (Turn 27655).
 
-## Rest House 3 (Area 3 West)
-- **Location:** Entrance is at `(11, 11)`.
-- **Signpost:** Located at `(12, 12)` and reads "REST HOUSE".
-- **NPC Dialogue:** The clerk inside explains Safari Zone mechanics: "Tossing ROCKs at POKéMON might make them run, but they'll be easier to catch."
+## Area 1 (East) Detailed Overworld Layout & Barriers
+
+### Vertical & Horizontal Barriers
+- **Column 6 Rhydon Statue Barrier:** Grey Rhydon statues at `(6, 22)` and `(6, 23)` completely block ground-level horizontal crossing on row 22.
+- **Western Row 6 Tree Barrier:** A continuous vertical barrier of trees at columns 0-10 on row 6, blocking all direct northern traversal on the west ground level.
+- **Row 12 NPC Block:** A stationary NPC at `(15, 12)` completely blocks row 12 ground traversal, making it impossible to walk directly from the west ground to the east ground on rows 12-13.
+- **Middle Pond Separator:** A large water pond at columns 11-17, rows 10-14, which completely divides the west ground level from the east ground level.
+- **Northeastern/Northern Barriers:**
+  - Row 4 is blocked by trees at columns 20-27.
+  - Row 3 is blocked by a tree at `(28, 3)`.
+
+### Key Bridges & Plateaus
+- **The Northern Plateau Island:** Raised cliff system at columns 11-18, rows 4-7. This serves as the ONLY physical bridge connecting the western ground level to the eastern ground level.
+  - **West Climbing Stairs:** Located at `(12, 7)` facing UP on column 12.
+  - **East Climbing Stairs:** Located at `(17, 7)` facing UP on column 17.
+
+### Map Transitions & Exits
+- **Exit to Area 2 (North):** Located at `(0, 5)` on row 5, which is reachable from the northern ground corridor (rows 1-3) on the west side.
 
 <hr>
 
