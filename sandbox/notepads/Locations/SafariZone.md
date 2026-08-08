@@ -31,7 +31,7 @@
 
 ---
 
-## Verified Optimal Path to Area 3 (West) Main Section (Run 11 Path)
+## Unverified Route Hypothesis to Area 3 (West) Main Section (To Be Tested on Run 11)
 
 1. **Start the Safari Game:** Pay 500 Poké Dollars and spawn at `(15, 25)` in Safari Zone Center.
 2. **Transition directly to Area 3 (West) Main Section:**
