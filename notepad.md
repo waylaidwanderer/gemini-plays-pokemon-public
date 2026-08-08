@@ -953,9 +953,9 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 # Safari Zone - Active Run Log (Run 10)
 
 - **Start Turn:** 26792
-- **Current Position:** (1, 2) in Safari Zone Area 1 (East)
-- **Steps Taken:** 109
-- **Steps Remaining:** 391
+- **Current Position:** (0, 5) in Safari Zone Area 1 (East)
+- **Steps Taken:** 125
+- **Steps Remaining:** 375
 - **Gold Teeth Obtained:** No
 - **HM03 (Surf) Obtained:** No
 
@@ -983,6 +983,7 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - Turn 26820: Walked Right 3, Up 5 to (20, 3) (consumed 8 steps)
 - Turn 26828: Walked Left 6 steps to (6, 3) (blocked by tree at 5, 3) (consumed 6 steps)
 - Turn 26830: Walked Up 1, Left 5 to (1, 2) (blocked by Rhydon statue at (0, 2)) (consumed 6 steps)
+- Turn 26832: Walked Right 6, Down 3, Left 7 to (0, 5) (consumed 16 steps)
 
 <hr>
 
