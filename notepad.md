@@ -753,8 +753,8 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 43501)
-- Location: Celadon City East Sector at (10, 15).
+## CURRENT STATUS & DASHBOARD (Turn 43531)
+- Location: Celadon City East Sector at (44, 16).
 - Primary Goal: Clear Rocket Hideout B1F-B4F and defeat Giovanni to obtain Silph Scope.
 
 <hr>
