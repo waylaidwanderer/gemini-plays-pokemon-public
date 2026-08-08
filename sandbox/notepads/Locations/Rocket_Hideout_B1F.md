@@ -1,8 +1,7 @@
 # Rocket Hideout B1F Topology & Mechanics
 
 ## Entrance & Stairs
-- Game Corner Staircase (Celadon Game Corner West Room 4, 4) -> Warps directly down to Rocket Hideout B1F at (2, 41).
-- Landing Mat: (2, 41).
+- Main Game Corner Secret Staircase: Located in the Main Game Corner building (South Celadon 24, 36) behind the poster switch guarded by the Rocket Grunt on the North Wall. Defeat the Grunt and press A on the poster to reveal the secret staircase to Rocket Hideout B1F.
 
 ## Systematic Floor Probing Plan
 - B1F Corridor Layout: Columns 2..5 span y=4 down to y=41. Column 1 (West wall) and Column 6 (East wall) form vertical boundaries.
