@@ -949,9 +949,9 @@ To transition from the northwestern ground level to the southwestern exit of Are
 
 ## Active Run Statistics
 - **Start Turn:** 25625
-- **Current Position:** `(6, 3)` (Safari Zone Area 1 (East))
-- **Steps Taken:** 142
-- **Steps Remaining:** 358
+- **Current Position:** `(1, 2)` (Safari Zone Area 1 (East))
+- **Steps Taken:** 148
+- **Steps Remaining:** 352
 
 ## Progress Log
 - **Turn 25625:** Started Run 5 at `(15, 25)` in Safari Zone Center.
@@ -976,6 +976,7 @@ To transition from the northwestern ground level to the southwestern exit of Are
 - **Turn 25964:** Walked Right to `(20, 8)`, UP to `(20, 3)`, and Left to `(17, 3)`.
 - **Turn 25966:** Walked Left to `(10, 3)`, where a wild Paras encounter was triggered.
 - **Turn 25971:** Walked Left along Row 3 to `(6, 3)`, where we were blocked by the tree at `(5, 3)`.
+- **Turn 25973:** Walked UP to `(6, 2)` and Left to `(1, 2)`, where we bumped into the Rhydon statue at `(0, 2)`.
 
 ## Upcoming Route
 1. Continue East on Row 24 to Column 20.
@@ -1004,9 +1005,9 @@ To transition from the northwestern ground level to the southwestern exit of Are
 - **Result:** Explored Area 1 (East) and entered Area 2 (North) up to Column 39. Ended by step budget exhaustion.
 
 ## Active Run Statistics (Run 5)
-- **Current Position:** `(6, 3)` (Safari Zone Area 1 (East))
-- **Steps Taken:** 142
-- **Steps Remaining:** 358
+- **Current Position:** `(1, 2)` (Safari Zone Area 1 (East))
+- **Steps Taken:** 148
+- **Steps Remaining:** 352
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
@@ -1048,6 +1049,8 @@ To transition from the northwestern ground level to the southwestern exit of Are
 - **Area 2 (North) West Stairs:** `(20, 15)` (leads onto plateau).
 
 ### Verified Barriers in Area 1 (East)
+- **West Area Rhydon Statues:** Continuous vertical line of Rhydon statues on columns 0 and 1, rows 0 to 3, blocking western horizontal traversal on those rows.
+- **Row 3 West Trees:** Dense trees on columns 2, 3, 5 at row 3, blocking horizontal traversal. Only column 4 is open between row 2 and row 4 on the west side.
 - **Column 5 Row 3 Tree:** `(5, 3)` is a solid dense tree blocking horizontal traversal on row 3. Bypassed by walking through row 2.
 - **Column 6 Row 4 Signpost:** `(6, 4)` is a solid signpost blocking vertical traversal on column 6.
 - **Column 6 Tree/Rhydon Barrier:** Continuous vertical barrier of dense trees and Rhydon statues on column 6 (rows 18 to 23), blocking direct horizontal traversal between West and East sides on those rows.

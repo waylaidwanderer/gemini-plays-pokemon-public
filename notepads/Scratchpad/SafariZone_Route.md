@@ -2,9 +2,9 @@
 
 ## Active Run Statistics
 - **Start Turn:** 25625
-- **Current Position:** `(6, 3)` (Safari Zone Area 1 (East))
-- **Steps Taken:** 142
-- **Steps Remaining:** 358
+- **Current Position:** `(1, 2)` (Safari Zone Area 1 (East))
+- **Steps Taken:** 148
+- **Steps Remaining:** 352
 
 ## Progress Log
 - **Turn 25625:** Started Run 5 at `(15, 25)` in Safari Zone Center.
@@ -29,6 +29,7 @@
 - **Turn 25964:** Walked Right to `(20, 8)`, UP to `(20, 3)`, and Left to `(17, 3)`.
 - **Turn 25966:** Walked Left to `(10, 3)`, where a wild Paras encounter was triggered.
 - **Turn 25971:** Walked Left along Row 3 to `(6, 3)`, where we were blocked by the tree at `(5, 3)`.
+- **Turn 25973:** Walked UP to `(6, 2)` and Left to `(1, 2)`, where we bumped into the Rhydon statue at `(0, 2)`.
 
 ## Upcoming Route
 1. Continue East on Row 24 to Column 20.
