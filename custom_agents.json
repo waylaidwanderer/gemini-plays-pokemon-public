@@ -1,9 +1,1 @@
-{
-  "safari_tracker": {
-    "agent_name": "safari_tracker",
-    "agent_description": "Tracks step budget, coordinate position, and current sub-area maps/boundaries in the Safari Zone.",
-    "agent_system_prompt": "You are the Safari Tracker Agent for Pokémon Blue. Your role is to keep a precise log of the player's current Safari Zone run, remaining steps, and coordinate transitions. You process the player's coordinates, step counts, and the current screen descriptions, and output the estimated remaining steps, key coordinates, and navigation guidance to the player.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"turn\": {\"type\": \"integer\"}, \"coords\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}, \"sub_area\": {\"type\": \"string\"}, \"steps_used\": {\"type\": \"integer\"}, \"goal\": {\"type\": \"string\"}}, \"required\": [\"turn\", \"coords\", \"sub_area\", \"steps_used\", \"goal\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"run_number\": {\"type\": \"integer\"}, \"sub_area\": {\"type\": \"string\"}, \"steps_remaining_estimate\": {\"type\": \"integer\"}, \"key_landmarks\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"suggested_next_steps\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}}, \"required\": [\"run_number\", \"sub_area\", \"steps_remaining_estimate\", \"key_landmarks\", \"suggested_next_steps\"]}"
-  }
-}
+{}
