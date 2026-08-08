@@ -30,14 +30,3 @@
 - **Southern Grass Corridor (Rows 30-32):** Open corridor extending horizontally across columns 6 to 11. Bypasses the column 11 water pond on the south side.
 
 ---
-
-## Unverified Route Hypothesis to Area 3 (West) Main Section (To Be Tested on Run 11)
-
-1. **Start the Safari Game:** Pay 500 Poké Dollars and spawn at `(15, 25)` in Safari Zone Center.
-2. **Transition directly to Area 3 (West) Main Section:**
-   - Walk directly Left 15 steps from spawn `(15, 25)` to column 0 on row 25.
-   - This transitions us directly and unobstructed to the main, non-isolated section of Area 3 (West) at `(29, 25)` (consuming only 15 steps!).
-3. **Obtain the Gold Teeth:**
-   - Gold Teeth are located on the ground in Area 3 (West).
-4. **Obtain HM03 (Surf):**
-   - Enter the Secret House in the southwest part of Area 3 (West) and speak to the attendant to receive HM03 (Surf).
