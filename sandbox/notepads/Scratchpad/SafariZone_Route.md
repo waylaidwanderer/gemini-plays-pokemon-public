@@ -1,9 +1,9 @@
 # Safari Zone - Active Run Log (Run 10)
 
 - **Start Turn:** 26792
-- **Current Position:** (0, 5) in Safari Zone Area 1 (East)
-- **Steps Taken:** 125
-- **Steps Remaining:** 375
+- **Current Position:** (29, 31) in Safari Zone Area 2 (North)
+- **Steps Taken:** 136
+- **Steps Remaining:** 364
 - **Gold Teeth Obtained:** No
 - **HM03 (Surf) Obtained:** No
 
@@ -32,3 +32,5 @@
 - Turn 26828: Walked Left 6 steps to (6, 3) (blocked by tree at 5, 3) (consumed 6 steps)
 - Turn 26830: Walked Up 1, Left 5 to (1, 2) (blocked by Rhydon statue at (0, 2)) (consumed 6 steps)
 - Turn 26832: Walked Right 6, Down 3, Left 7 to (0, 5) (consumed 16 steps)
+- Turn 26836: Walked Left 1 step to Area 2 at (39, 31) (consumed 1 step)
+- Turn 26837: Walked Left 10 steps to (29, 31) (consumed 10 steps)
