@@ -1,10 +1,10 @@
 # Safari Zone - Active Run Log (Run 9)
 
 - **Start Turn:** 26591
-- **Current Turn:** 26631
-- **Current Position:** (12, 22) in Safari Zone Area 1 (East)
-- **Steps Taken:** 61
-- **Steps Remaining:** 439
+- **Current Turn:** 26633
+- **Current Position:** (9, 17) in Safari Zone Area 1 (East)
+- **Steps Taken:** 69
+- **Steps Remaining:** 431
 - **Gold Teeth Obtained:** No
 - **HM03 (Surf) Obtained:** No
 
@@ -22,3 +22,4 @@
 - Turn 26623: 2 steps RIGHT to (17, 24) (interrupted by wild battle)
 - Turn 26628: 1 dismiss (A), 3 steps RIGHT, 4 steps UP to (20, 20) (consumed 7 steps)
 - Turn 26630: 8 steps LEFT, 2 steps DOWN to (12, 22) (consumed 10 steps)
+- Turn 26632: 3 steps LEFT, 5 steps UP to (9, 17) (consumed 8 steps)
