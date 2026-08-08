@@ -953,10 +953,10 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 # Safari Zone - Active Run Log (Run 9)
 
 - **Start Turn:** 26591
-- **Current Turn:** 26622
-- **Current Position:** (15, 24) in Safari Zone Area 1 (East)
-- **Steps Taken:** 42
-- **Steps Remaining:** 458
+- **Current Turn:** 26624
+- **Current Position:** (17, 24) in Safari Zone Area 1 (East)
+- **Steps Taken:** 44
+- **Steps Remaining:** 456
 - **Gold Teeth Obtained:** No
 - **HM03 (Surf) Obtained:** No
 
@@ -971,6 +971,7 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - Turn 26617: 5 steps RIGHT to (5, 22)
 - Turn 26619: 1 step LEFT, 2 steps DOWN, 6 steps RIGHT to (10, 24) (consumed 9 steps)
 - Turn 26621: 5 steps RIGHT to (15, 24)
+- Turn 26623: 2 steps RIGHT to (17, 24) (interrupted by wild battle)
 
 
 <hr>
