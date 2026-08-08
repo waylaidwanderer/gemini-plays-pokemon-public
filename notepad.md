@@ -60,7 +60,7 @@
 ## Current Party Stats (as of Turn 20732)
 
 1. **SHELLBY** (Blastoise)
-   - Level: 55
+   - Level: 56
    - Status: Healthy (HP: 178/178)
    - Moveset: HYDRO PUMP (PP: 5/5), ICE BEAM (PP: 10/10), BITE (PP: 25/25), WATER GUN (PP: 25/25)
 
