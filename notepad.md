@@ -948,6 +948,12 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 5. **Northeastern/Northern Ground Passage:** From `(17, 8)`, walk right to column 18/19/20, then walk UP past the row 6-7 barrier to row 5 (northern ground level).
 6. **Northwest Ground Level Exit:** From the northern ground level, walk west all the way to the top-left corner at `(0, 5)` to transition to Area 2 (North) at `(39, 31)`.
 
+## Area 2 (North) - East-West Plateau Connections (Turn 27563-27565)
+- **The Western Southern Plateau:** Raised cliff system at columns 14-24, rows 20-22.
+- **The Eastern Southern Plateau:** Raised cliff system at columns 27-36, rows 24-26.
+- **Eastern Land Bridge (Cols 37-38, Rows 14-26):** Empirically verified as a completely continuous, flat brown plateau land bridge on columns 37-38, rows 14-26. It connects the Eastern Southern Plateau (stairs at 28, 27) directly to the Northern Plateau on the north side.
+- **Plateau Separation (Column 26):** The Eastern Southern Plateau and Western Southern Plateau do **NOT** connect horizontally on rows 24-26. They are separated by column 26 cliff wall and columns 22-25 ground-level tall grass.
+
 <hr>
 
 <h1><code>Scratchpad/SafariZone_Route</code></h1>
