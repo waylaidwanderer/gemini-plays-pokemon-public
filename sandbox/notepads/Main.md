@@ -1,9 +1,9 @@
-## CURRENT STATUS & DASHBOARD (Turn 44161)
-- Location: Celadon City at (10, 13).
+## CURRENT STATUS & DASHBOARD (Turn 44191)
+- Location: Celadon City at (17, 22).
 - Primary Goal: Clear Rocket Hideout in Celadon Game Corner and obtain Silph Scope.
 - Immediate Steps:
-  1. Walk East along Row 13 street from (10, 13) to Column 24 at (24, 13).
-  2. Walk South along Column 24 to Main Game Corner entrance at (24, 36).
-  3. Enter Main Game Corner building at (24, 36) / (25, 36).
-  4. Locate poster Rocket Grunt, defeat Grunt, inspect poster to reveal secret stairs.
+  1. Walk Up 2 steps to Row 20 Street at (17, 20).
+  2. Walk West along Row 20 Street to West Celadon at (10, 20).
+  3. Explore West Celadon open street to access South Celadon / Game Corner Plaza at (20, 36).
+  4. Enter Celadon Game Corner, locate poster Rocket Grunt, inspect poster to reveal secret stairs.
   5. Descend to Rocket Hideout B1F.
