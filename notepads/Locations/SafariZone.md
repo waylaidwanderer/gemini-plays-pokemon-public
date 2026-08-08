@@ -35,3 +35,19 @@
 - **North Connection (Area 2 North):** Entered Area 3 (West) at `(14, 0)` from Area 2 (North) at `(20, 36)` on Turn 27108.
 - **Pond Barrier:** A massive water pond starts around rows 8 and 9, extending horizontally from column 12 to at least column 19. It completely blocks direct southern traversal on columns 12-19.
 - **Eastward Corridor (OBSTRUCTED):** The corridor going east along Row 1 is blocked by trees and fences at Column 29, and Row 8/9 is blocked by a massive water pond on columns 12-21 and a solid tree barrier on columns 22-29. Therefore, this northeastern entrance at (14, 0) leads to a completely isolated, dead-end enclave. You cannot reach the main part of Area 3 (West) (Secret House and Gold Teeth) from this entrance. You must instead transition to the main Area 3 (West) by walking west to the bottom-left of Area 2 (North) (columns 0-4) and then descending.
+
+## Safari Zone Center - Layout & Boundaries
+- **Spawning/Entrance Coordinate:** Spawns from Fuchsia City gatehouse at `(15, 25)`.
+- **Northeastern Exit:** Leads to Area 1 (East) at `(29, 10)` (transitions at `(0, 22)` of Area 1).
+- **Northern Exit (to Area 2 North):** Located at rows 0-1, columns 26-28. Transitions directly to Area 2 (North) at columns 8-9 on row 36.
+- **Western Exit (to main Area 3 West):** Located at rows 10-15 on column 0. Steps left from `(0, 15)` to transition into the main Area 3 (West).
+- **Central Plateau:**
+  - Located at columns 14-22, rows 15-17.
+  - **East Climbing Stairs:** Located at `(21, 17)` and `(22, 17)`. Walks Up onto the stairs from the south ground level (row 18) to climb onto the plateau.
+- **Central Obstacles & Barriers:**
+  - **Column 24 Tree Wall:** Solid vertical line of trees from row 0 to row 13, completely blocking direct ground-level horizontal crossing in the northern area.
+  - **Flower Bed (26, 4):** A solid 1x1 brick-bordered flower bed, completely impassable from all four sides.
+  - **Picket Fence (Row 19):** Solid horizontal picket fence separating row 19 from row 20 on columns 18-23.
+  - **Center Fence (Row 25):** Solid horizontal fence from column 2 to column 20 on row 25.
+  - **Early Exit Gate:** Located at `(14, 25)`. Stepping Down onto row 26 at column 14 triggers the "Leaving early?" exit warp prompt.
+  - **West Tree Wall (Column 0):** Solid vertical tree line from row 19 to row 25 (and beyond), blocking direct left transition on those rows.
