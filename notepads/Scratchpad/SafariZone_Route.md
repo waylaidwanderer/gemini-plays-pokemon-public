@@ -2,9 +2,9 @@
 
 ## Active Run Statistics
 - **Start Turn:** 25625
-- **Current Position:** `(14, 24)` (Safari Zone Area 1 (East))
-- **Steps Taken:** 67
-- **Steps Remaining:** 433
+- **Current Position:** `(20, 24)` (Safari Zone Area 1 (East))
+- **Steps Taken:** 73
+- **Steps Remaining:** 427
 
 ## Progress Log
 - **Turn 25625:** Started Run 5 at `(15, 25)` in Safari Zone Center.
@@ -20,6 +20,7 @@
 - **Turn 25947:** Walked Up/Right to `(5, 21)` (West side of column 6 wall).
 - **Turn 25948:** Walked back Down/Left to `(4, 24)` (Row 24 ground level).
 - **Turn 25949:** Walked East along Row 24 to `(14, 24)`.
+- **Turn 25952:** Walked East along Row 24 to `(20, 24)`.
 
 ## Upcoming Route
 1. Continue East on Row 24 to Column 20.
