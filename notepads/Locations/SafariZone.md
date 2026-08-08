@@ -30,3 +30,8 @@
 - **Southern Grass Corridor (Rows 30-32):** Open corridor extending horizontally across columns 6 to 11. Bypasses the column 11 water pond on the south side.
 
 ---
+
+## Area 3 (West) Map & Transitions
+- **North Connection (Area 2 North):** Entered Area 3 (West) at `(14, 0)` from Area 2 (North) at `(20, 36)` on Turn 27108.
+- **Pond Barrier:** A massive water pond starts around rows 8 and 9, extending horizontally from column 12 to at least column 19. It completely blocks direct southern traversal on columns 12-19.
+- **Eastward Corridor:** Row 1, columns 15-20 are open grass, providing the route to go east to bypass the pond.
