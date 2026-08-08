@@ -1116,6 +1116,19 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 ### Map Transitions & Exits
 - **Exit to Area 2 (North):** Located at `(0, 5)` on row 5, which is reachable from the northern ground corridor (rows 1-3) on the west side.
 
+## Safari Zone Center - Detailed Layout & Obstacles
+
+### Key Discoveries & Pathways
+- **The Column 11 Tree Wall:** A solid vertical line of pine trees on Column 11 across Rows 0-7, completely blocking direct ground-level horizontal crossing on those rows.
+- **The Southern Ground Corridor:** Rows 10-22 are open ground, allowing players to walk Left to Column 0 around the central water pond.
+- **Western Edge Transition to Area 3 (West):** Located on Column 0, Row 11 (`(0, 11)`), transitioning directly to Area 3 (West) at `(30, 23)`. This ground-level path completely bypasses Area 2 (North).
+
+## Gold-Standard Speedrun Route from Area 1 (East) to Area 3 (West)
+1. **Northeast Channel:** From Area 1 (East) ground level, walk UP Column 20 (which is completely open and walkable, including the tree graphic at `(20, 4)`) to Row 3 (`(20, 3)`).
+2. **Northern Corridor:** Walk LEFT along Row 3 to Column 0, then walk DOWN to `(0, 5)` to transition to Area 2 (North) at `(39, 31)`.
+3. **Area 2 Southern Corridor:** Walk LEFT to Column 21, walk DOWN to Row 36, and walk DOWN into Safari Zone Center at `(15, 0)`.
+4. **Safari Zone Center South Crossing:** Walk DOWN to Row 10/11 (or Row 22), walk LEFT to Column 0, and walk UP to `(0, 11)` to transition directly into **Area 3 (West)**!
+
 <hr>
 
 <h1><code>Scratchpad/SafariZone_Route</code></h1>
