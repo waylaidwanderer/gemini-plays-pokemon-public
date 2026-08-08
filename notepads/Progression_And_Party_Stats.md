@@ -71,21 +71,11 @@
 
 - **Escape Rope:** Obtained on Turn 13977, consumed on Turn 16964.
 
-## Verified Inventory (19/20 slots used - 1 empty slot)
-- **In-Game Verification:** Verified on Turn 26597 (perfect match, 18 slots used, 2 empty slots).
-- **Town Map:** 1
+## Verified Inventory (9/20 slots used - 11 empty slots)
+- **In-Game Verification:** Verified on Turn 27003 (after depositing 10 items in Fuchsia PC).
 - **Moon Stone:** 2 (1 stack)
-- **Helix Fossil:** 1
-- **S.S. Ticket:** 1
-- **Ether:** 1
-- **TM44 (Rest):** 1
-- **Max Ether:** 1
 - **HM01 (Cut):** 1
-- **TM24 (Thunderbolt):** 1
-- **TM48 (Rock Slide):** 1
 - **Super Potion:** 2 (1 stack)
-- **Lift Key:** 1
-- **Silph Scope:** 1
 - **Poké Flute:** 1
 - **Super Rod:** 1
 - **TM06 (Toxic):** 1
