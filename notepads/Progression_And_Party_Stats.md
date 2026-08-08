@@ -79,7 +79,7 @@
 - **Poké Flute:** 1
 - **Super Rod:** 1
 - **TM06 (Toxic):** 1
-- **Max Potion:** 1
+- **Max Potion:** 2
 - **Full Restore:** 1
 - **Max Revive:** 1
 
