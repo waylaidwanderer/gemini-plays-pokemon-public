@@ -6,9 +6,9 @@
 - **Result:** Explored Area 1 (East) and entered Area 2 (North) up to Column 39. Ended by step budget exhaustion.
 
 ## Active Run Statistics (Run 5)
-- **Current Position:** `(10, 3)` (Safari Zone Area 1 (East))
-- **Steps Taken:** 138
-- **Steps Remaining:** 362
+- **Current Position:** `(6, 3)` (Safari Zone Area 1 (East))
+- **Steps Taken:** 142
+- **Steps Remaining:** 358
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
@@ -50,5 +50,7 @@ To transition from the northwestern ground level to the southwestern exit of Are
 - **Area 2 (North) West Stairs:** `(20, 15)` (leads onto plateau).
 
 ### Verified Barriers in Area 1 (East)
+- **Column 5 Row 3 Tree:** `(5, 3)` is a solid dense tree blocking horizontal traversal on row 3. Bypassed by walking through row 2.
+- **Column 6 Row 4 Signpost:** `(6, 4)` is a solid signpost blocking vertical traversal on column 6.
 - **Column 6 Tree/Rhydon Barrier:** Continuous vertical barrier of dense trees and Rhydon statues on column 6 (rows 18 to 23), blocking direct horizontal traversal between West and East sides on those rows.
 - **Row 23 Horizontal Ledge:** Horizontal one-way ledge on the East side (columns 7-15, row 23), preventing players on row 24 (ground level) from walking UP to row 23. Players must go east to column 20 to bypass this ledge.
