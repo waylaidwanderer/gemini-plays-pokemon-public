@@ -1,7 +1,7 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 44011)
-- Location: Route 7 at (19, 8).
+## CURRENT STATUS & DASHBOARD (Turn 44041)
+- Location: Saffron City at (5, 12).
 - Primary Goal: Travel to Celadon City, heal at Pokemon Center, and clear Rocket Hideout.
 
 <hr>
@@ -839,7 +839,7 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 
 ### Points of Interest & Verified Topology
 - Northwest Building: Yellow roof at y=8..9, windows at y=10, brick wall at y=11 across x=12..17.
-- Gatehouse Building (West): Yellow roof building located at x=4..7, y=10..13 with front door at (5, 13).
+- Gatehouse Building (West): Yellow roof building located at x=4..9, y=10..13 with true front door at (8, 11) / entrance mat at (8, 12).
 - Northern Highway (Row 2): Main open East-West highway running along Row 2 above Northwest building across x=8..16.
 - Column 8 Connecting Street: Open North-South street at x=8 connecting Row 2 North Street down to Row 15 South Street.
 - Row 15 South Street: Open East-West pavement corridor on Row 15 spanning x=5..16.
