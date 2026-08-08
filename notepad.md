@@ -758,14 +758,13 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 44551)
-- Location: Celadon City at (16, 19) in battle.
+## CURRENT STATUS & DASHBOARD (Turn 44611)
+- Location: Celadon City at (16, 30).
 - Primary Goal: Infiltrate Rocket Hideout via Celadon Game Corner and obtain Silph Scope.
 - Immediate Steps:
-  1. Flee wild Bellsprout battle, walk North on Col 16 to (16, 14) Main Street.
-  2. Walk West to Col 7 fence gap at (7, 11), North to field at (7, 9).
-  3. Walk East to Col 19, North to Route 7 Gatehouse at (19, 2) to enter East Celadon at (49, 11).
-  4. Walk to Main Game Corner entrance at (24, 36).
+  1. Walk East along Row 30 pavement from (16, 30) towards x=22..30.
+  2. Test Up probes to find the open passage from Row 30 through Row 28 to Row 26/27 pavement.
+  3. Enter Main Game Corner building at (25, 25) / (29, 25).
 
 <hr>
 
