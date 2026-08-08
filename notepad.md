@@ -1000,15 +1000,10 @@ To transition from the northwestern ground level to the southwestern exit of Are
 
 # Safari Zone - Overworld Layout & Navigation Guide
 
-## Run Statistics (Previous Run 4 - Ended)
-- **Start Turn:** 25625 (Run ended due to step budget exhaustion on Turn 25891)
-- **End Turn:** 25891
-- **Result:** Explored Area 1 (East) and entered Area 2 (North) up to Column 39. Ended by step budget exhaustion.
-
-## Active Run Statistics (Run 5)
-- **Current Position:** `(28, 26)` (Safari Zone Area 2 (North))
-- **Steps Taken:** 181
-- **Steps Remaining:** 319
+## Run Statistics (Previous Run - Ended)
+- **Start Turn:** 23448 (Run ended due to step budget exhaustion on Turn 23787)
+- **End Turn:** 23787
+- **Result:** Explored Area 1 (East) and entered Area 2 (North) up to Column 25. Fully mapped the island plateau bypass in Area 1.
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
@@ -1041,25 +1036,6 @@ To transition from the northwestern ground level to the southwestern exit of Are
 3. **Traverse the Plateau:** Walk south and west along the plateau structure to reach the southern cliffside.
 4. **Reach Southern Ground Level:** Walk down the stairs or jump down the south-facing ledges at the south-eastern/south-middle part of the plateau to land on the southern ground level (rows 25-35).
 5. **Walk West to Area 3:** Follow the open southern grass corridor (around row 30) all the way west to the bottom-left corner of Area 2 (North) (columns 0-4, rows 30-35) to transition to **Area 3 (West)**.
-## Verified Map Landmarks
-- **Area 2 (North) Eastern Plateau Blockage:** The plateau accessed from `(28, 27)` (columns 27-33, rows 24-26) is a complete dead end with solid cliff walls blocking western traversal at column 27.
-
-- **Area 2 (North) South Stairs:** `(28, 27)` (leads onto plateau facing South).
-- **Area 2 (North) Row 19 Fence:** Columns 10-17.
-- **Area 2 (North) Column 16 Tree Line:** Blocking direct north-south traversal.
-- **Area 2 (North) Row 24 Cliff:** Columns 26-35.
-- **Area 2 (North) Rest House 2:** Entrance at `(22, 13)`.
-- **Area 2 (North) East Stairs:** `(32, 13)` / `(33, 13)` (leads onto plateau).
-- **Area 2 (North) West Stairs:** `(20, 15)` (leads onto plateau).
-
-### Verified Barriers in Area 1 (East)
-- **West Area Rhydon Statues (Pocket):** A U-shaped pocket of solid Rhydon statues located at `(0, 0)`, `(1, 0)`, `(0, 1)`, `(0, 2)`, `(0, 3)`, and `(1, 3)`. The interior tiles at `(1, 1)` and `(1, 2)` are open, walkable short grass. This pocket is open only to the East (Right).
-- **Row 3 West Trees:** Dense trees on columns 2, 3, 5 at row 3, blocking horizontal traversal. Only column 4 is open between row 2 and row 4 on the west side.
-- **Column 5 Row 3 Tree:** `(5, 3)` is a solid dense tree blocking horizontal traversal on row 3. Bypassed by walking through row 2.
-- **Column 6 Row 4 Signpost:** `(6, 4)` is a solid signpost blocking vertical traversal on column 6.
-- **Column 6 Tree/Rhydon Barrier:** Continuous vertical barrier of dense trees and Rhydon statues on column 6 (rows 18 to 23), blocking direct horizontal traversal between West and East sides on those rows.
-- **Row 23 Horizontal Ledge:** Horizontal one-way ledge on the East side (columns 7-15, row 23), preventing players on row 24 (ground level) from walking UP to row 23. Players must go east to column 20 to bypass this ledge.
-
 
 <hr>
 
