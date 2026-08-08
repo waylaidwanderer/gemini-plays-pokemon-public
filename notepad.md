@@ -1024,6 +1024,14 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
   - Used to bypass the column 17 tree barrier on rows 28-33 when traveling from east to west.
 
 ### 3. Area 2 (North) Ground-Level Pathways & Barriers
+- **Pond Barrier at (8-11, 28-29):** A massive water pond blocks Row 28 at Column 8, requiring players traveling east-west on the southern ground to bypass on **Row 30** (rows 30-32 are completely open).
+- **Column 5 Solid Wall (Rows 16-34):** Column 5 is completely blocked horizontally on rows 16-34 by:
+  - Rows 16-19: Water pond.
+  - Rows 20-23: Solid vertical bush/hedge crowns.
+  - Rows 24-25: Rest House building.
+  - Rows 26-33: Solid vertical bush/hedge crowns.
+  - Row 34: Rest House building roof.
+  This completely separates the Eastern and Western ground levels. The only way to traverse between them is via the Plateau systems.
 - **Column 17 Tree Barrier:** Solid vertical tree line on rows 28-33, column 17. Completely blocks direct ground-level horizontal crossing on the south side.
 - **Column 5 Bush Barrier:** Solid vertical bush line on rows 26-33, column 5. Complemented by the Rest House roof at columns 4-5 rows 24-25. Completely blocks ground-level horizontal crossing on the west side.
 - **Central Grass Corridor (Columns 12-13):** Completely open vertical grass lane extending from row 33 up to row 15. Connects the southern ground level (row 28) directly to the northern ground level (row 15), bypassing all horizontal plateau barriers.
