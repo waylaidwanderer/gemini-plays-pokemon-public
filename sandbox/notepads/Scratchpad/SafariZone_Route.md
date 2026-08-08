@@ -2,9 +2,9 @@
 
 ## Active Run Statistics (Run 6)
 - **Start Turn:** 26218
-- **Current Position:** `(34, 16)` in Safari Zone Area 2 (North)
-- **Steps Taken:** 291
-- **Steps Remaining:** 209
+- **Current Position:** `(28, 28)` in Safari Zone Area 2 (North)
+- **Steps Taken:** 319
+- **Steps Remaining:** 181
 - **Safari Balls:** 30
 
 ## Progress Log
