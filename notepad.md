@@ -1047,6 +1047,12 @@ To transition from the northwestern ground level to the southwestern exit of Are
 5. **Walk West to Area 3:** Follow the open southern grass corridor (around row 30) all the way west to the bottom-left corner of Area 2 (North) (columns 0-4, rows 30-35) to transition to **Area 3 (West)**.
 
 
+## Verified Land Bridge Route (East to West Crossing)
+- **Stairs onto Land Bridge (East Side):** Located at `(22, 23)` facing south. Walk UP from `(22, 24)` on the ground to climb onto the plateau at `(22, 22)`.
+- **Land Bridge Corridor:** Walk west across rows 20-23 to column 16 (e.g., `(22, 22)` -> `(16, 22)`). The bridge physically spans the vertical tree line on column 16.
+- **Plateau South Corridor:** Walk south along column 16 to row 26 (`(16, 22)` -> `(16, 26)`).
+- **Stairs off Land Bridge (West Side):** Located at `(16, 27)` facing south. Walk DOWN onto `(16, 28)` to reach the western ground level.
+
 
 <hr>
 
