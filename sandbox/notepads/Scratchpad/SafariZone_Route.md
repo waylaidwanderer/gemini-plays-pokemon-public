@@ -55,3 +55,12 @@
 ## Unverified Transition Hypothesis (In Progress)
 - **Hypothesis:** Walking UP to `(14, -1)` (bottom of Area 2 (North)), walking LEFT on row -1 to column 4, and walking DOWN will successfully bypass the column 11 tree barrier and reach the western ground level of Area 3 (West).
 - **Verification Status:** Unverified. Currently walking towards `(14, -1)` to test.
+
+## Verified Route Back to Center Area (Run 5)
+1. From `(6, 5)` in Area 1 (East), walk UP 2 steps to `(6, 3)` (row 3 is the ground-level northern corridor).
+2. Walk East on Row 3 from `(6, 3)` to `(20, 3)` (14 steps East).
+3. Walk Down on Column 20 from `(20, 3)` to `(20, 8)` (5 steps Down).
+4. Walk Left to `(17, 8)` (3 steps Left).
+5. Walk UP to `(17, 7)` and climb stairs at `(12, 7)` to `(12, 6)`? No, the stairs are at `(12, 7)` and climb UP onto the plateau to `(12, 6)`. Walk Left to `(12, 8)` then UP to `(12, 7)` and climb to `(12, 6)`.
+6. Walk East across the plateau to `(20, 20)`, descend the stairs at `(20, 21)` to `(20, 22)`.
+7. Walk to `(0, 24)` to transition back to the Center Area.
