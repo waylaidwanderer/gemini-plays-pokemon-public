@@ -953,10 +953,10 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 # Safari Zone - Active Run Log (Run 9)
 
 - **Start Turn:** 26591
-- **Current Turn:** 26681
-- **Current Position:** (22, 7) in Safari Zone Area 3 (West)
-- **Steps Taken:** 177
-- **Steps Remaining:** 323
+- **Current Turn:** 26701
+- **Current Position:** (15, 4) in Safari Zone Area 3 (West)
+- **Steps Taken:** 210
+- **Steps Remaining:** 290
 - **Gold Teeth Obtained:** No
 - **HM03 (Surf) Obtained:** No
 
@@ -994,6 +994,14 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - Turn 26678: 1 dismiss (A), 1 step RIGHT, 3 steps DOWN to (19, 7) (bumped into water at (19, 8)) (consumed 4 steps)
 - Turn 26680: 3 steps RIGHT to (22, 7) (consumed 3 steps)
 
+- Turn 26687: 5 steps RIGHT to (27, 8) (consumed 5 steps)
+- Turn 26690: Blocked by trees at (27, 8)
+- Turn 26691: 5 steps LEFT to (22, 8) (consumed 5 steps)
+- Turn 26692: 4 steps UP, 2 steps LEFT to (20, 4) (interrupted by wild battle) (consumed 6 steps)
+- Turn 26695: 1 dismiss (A), 6 steps LEFT to (14, 4) (consumed 6 steps)
+- Turn 26696: 2 steps LEFT to (12, 4) (consumed 2 steps)
+- Turn 26697: 3 steps UP to (12, 1) (consumed 3 steps)
+- Turn 26698: 3 steps DOWN, 3 steps RIGHT to (15, 4) (interrupted by wild battle) (consumed 6 steps)
 
 <hr>
 
@@ -1047,6 +1055,17 @@ When the 500 step budget expires:
 3. **Automatic Warp:** Warps player to Safari Zone Gatehouse at `(4, 0)` facing DOWN.
 4. **Dialogue Box 3:** `Did you get a good haul? Come again!` (renders in two chunks: "Did you get a good haul?" and "Come again!"). -> Press `A` or `B` to completely dismiss dialogue and return to overworld.
 5. **Fuchsia City Reset:** Walk DOWN to Fuchsia City to reset the gatekeeper, then walk UP to re-enter. Speak to clerk at `(6, 2)` or counter at `(4, 2)` to start a new Safari run.
+
+
+## Area 3 (West) Map & Collision Structures (Under Exploration)
+
+### Verified Landmarks & Barriers
+- **Entrance Warp from Area 2 (North):** Located at `(14, 0)`.
+- **Top Row Barrier (Row 0):** Row 0 is entirely blocked by trees except for the entrance at `(14, 0)` and `(15, 0)`.
+- **Northern Pond (Row 8):** A large body of water extending from Column 12 to at least Column 21 on Row 8.
+- **Tree Barrier (Row 9):** A continuous line of trees from Column 22 to Column 27 on Row 9.
+- **Signpost at (29, 10):** Located next to row of trees, likely indicating a Rest House is nearby.
+- **Columns 9-10 Passage:** Verified open ground on columns 9 and 10 between rows 2 and 7.
 
 
 <hr>

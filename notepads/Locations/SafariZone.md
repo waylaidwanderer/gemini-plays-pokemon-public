@@ -40,3 +40,14 @@ When the 500 step budget expires:
 3. **Automatic Warp:** Warps player to Safari Zone Gatehouse at `(4, 0)` facing DOWN.
 4. **Dialogue Box 3:** `Did you get a good haul? Come again!` (renders in two chunks: "Did you get a good haul?" and "Come again!"). -> Press `A` or `B` to completely dismiss dialogue and return to overworld.
 5. **Fuchsia City Reset:** Walk DOWN to Fuchsia City to reset the gatekeeper, then walk UP to re-enter. Speak to clerk at `(6, 2)` or counter at `(4, 2)` to start a new Safari run.
+
+
+## Area 3 (West) Map & Collision Structures (Under Exploration)
+
+### Verified Landmarks & Barriers
+- **Entrance Warp from Area 2 (North):** Located at `(14, 0)`.
+- **Top Row Barrier (Row 0):** Row 0 is entirely blocked by trees except for the entrance at `(14, 0)` and `(15, 0)`.
+- **Northern Pond (Row 8):** A large body of water extending from Column 12 to at least Column 21 on Row 8.
+- **Tree Barrier (Row 9):** A continuous line of trees from Column 22 to Column 27 on Row 9.
+- **Signpost at (29, 10):** Located next to row of trees, likely indicating a Rest House is nearby.
+- **Columns 9-10 Passage:** Verified open ground on columns 9 and 10 between rows 2 and 7.
