@@ -949,28 +949,50 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 
 <h1><code>Scratchpad/SafariZone_Route</code></h1>
 
-# Safari Zone Run 8 Tracker
+# Safari Zone Run 9 Tracker
 
-## Active Run Statistics (Run 8)
-- **Start Turn:** 26396
-- **Current Position:** `(14, 2)` in Safari Zone Area 3 (West)
-- **Steps Taken:** 400
-- **Steps Remaining:** 100
+## Active Run Statistics (Run 9)
+- **Start Turn:** To Be Started
+- **Current Position:** `(4, 0)` in Safari Zone Gatehouse
+- **Steps Taken:** 0
+- **Steps Remaining:** 500
 - **Safari Balls:** 30
 
 ## Progress Log
-- **Turn 26396:** Started Run 8.
-- **Turn 26425:** Exited Rest House 1.
-- **Turn 26436:** Entered Area 1 (East) at `(0, 22)`.
-- **Turn 26441:** Escaped wild Paras at `(16, 24)`.
-- **Turn 26444:** Climbed southern plateau stairs at `(20, 21)`.
-- **Turn 26457:** Descended southern plateau stairs at `(12, 21)`.
-- **Turn 26461:** Located at `(7, 22)` facing LEFT.
+- **Turn 26547:** Run 8 ended via step budget expiration. Warp to Gatehouse at `(4, 0)`.
 
-## Remaining Speedrun Route to Area 3 (West)
-1. **Area 1 (East) Northward Passage:** Walk UP column 7 to row 10, walk LEFT to column 0, then walk UP to the northern exit at `(0, 5)` to enter Area 2 (North) at `(39, 31)`.
-2. **Area 2 (North) Southern Corridor:** Walk Left 19 steps on the ground to `(20, 31)`, then walk Down 5 steps to `(20, 36)`. Transition to Area 3 (West) at `(14, 0)`.
-3. **Enter Area 3 (West) with ~300 steps remaining!** Walk to the Gold Teeth and Secret House (Surf).
+## Run 9 Planned Speedrun Route to Area 3 (West)
+1. **Center to Area 1 (East):** Walk from `(15, 25)` in Safari Zone Center.
+   - Walk UP 7 steps to `(15, 18)`.
+   - Walk RIGHT 14 steps to `(29, 18)`.
+   - Walk UP 8 steps to `(29, 10)`.
+   - Walk RIGHT 1 step to `(30, 10)` (transition to Area 1 (East) at `(0, 22)`).
+   - Total steps in Center: 30 steps.
+2. **Area 1 (East) Northeast Plateau Route:**
+   - Walk Right 5, Down 2, Right 5, Down 2 to row 26. (14 steps)
+   - Walk Right 6 to column 18, Up 5 to row 21, Right 2 to `(20, 21)` (stairs). (13 steps)
+   - Climb UP onto the southern plateau. (1 step)
+   - Walk Left 8 to `(12, 20)`. (8 steps)
+   - Descend stairs at `(12, 21)` to the west ground level `(12, 22)`. (2 steps)
+   - Walk Left 10, Up 4 (through row 13 gap) to `(2, 8)`. (14 steps)
+   - Walk Right 10 to `(12, 8)`. (10 steps)
+   - Climb stairs at `(12, 7)` to `(12, 6)` (northern plateau). (2 steps)
+   - Walk Right 5 on plateau to `(17, 6)`. (5 steps)
+   - Descend stairs at `(17, 7)` to `(17, 8)`. (2 steps)
+   - Walk Right 6, Down 3, Right 5 to `(28, 11)`. (14 steps)
+   - Walk UP column 28 all the way to `(28, 2)` (ground). (9 steps)
+   - Walk Left 14 steps along row 2 to `(14, 2)`. (14 steps)
+   - Walk Down 8 steps to `(14, 10)` to cross the bridge and pick up the Gold Teeth! (8 steps)
+   - Total steps to Gold Teeth in Area 1: ~93 steps!
+3. **Area 1 (East) to Area 2 (North):**
+   - From `(14, 2)`, walk Left 14 steps to `(0, 2)`. (14 steps)
+   - Walk Down 3 steps to `(0, 5)` (exit to Area 2 (North)). (3 steps)
+4. **Area 2 (North) to Area 3 (West):**
+   - Walk Left 19 steps to `(20, 31)`. (19 steps)
+   - Walk Down 5 steps to `(20, 36)` (exit to Area 3 (West)). (5 steps)
+5. **Area 3 (West) to Secret House (Surf):**
+   - Grab the Gold Teeth on column 14, then walk to the northwest to find the Secret House.
+
 
 <hr>
 
@@ -1029,6 +1051,14 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 4. **Northern Plateau Crossing (East-Bound):** Climb stairs at `(12, 7)` to `(12, 6)` on the northern plateau. Walk east on the plateau to `(17, 6)`. Descend stairs at `(17, 7)` to the northeastern ground level at `(17, 8)`.
 5. **Northeastern/Northern Ground Passage:** From `(17, 8)`, walk right to column 18/19/20, then walk UP past the row 6-7 barrier to row 5 (northern ground level).
 6. **Northwest Ground Level Exit:** From the northern ground level, walk west all the way to the top-left corner at `(0, 5)` to transition to Area 2 (North) at `(39, 31)`.
+## Safari Game Over Dialogue Flow & Reset Mechanics
+When the 500 step budget expires:
+1. **Dialogue Box 1:** `PA: Ding-dong!` -> press `A` or `B` to advance.
+2. **Dialogue Box 2:** `Time's up! Your SAFARI GAME is over!` -> press `A` or `B` to advance.
+3. **Automatic Warp:** Warps player to Safari Zone Gatehouse at `(4, 0)` facing DOWN.
+4. **Dialogue Box 3:** `Did you get a good haul? Come again!` (renders in two chunks: "Did you get a good haul?" and "Come again!"). -> Press `A` or `B` to completely dismiss dialogue and return to overworld.
+5. **Fuchsia City Reset:** Walk DOWN to Fuchsia City to reset the gatekeeper, then walk UP to re-enter. Speak to clerk at `(6, 2)` or counter at `(4, 2)` to start a new Safari run.
+
 
 <hr>
 
