@@ -2,9 +2,9 @@
 
 ## Active Run Statistics (Run 8)
 - **Start Turn:** 26396
-- **Current Position:** `(22, 2)` in Safari Zone Area 1 (East)
-- **Steps Taken:** 340
-- **Steps Remaining:** 160
+- **Current Position:** `(39, 31)` in Safari Zone Area 2 (North)
+- **Steps Taken:** 345
+- **Steps Remaining:** 155
 - **Safari Balls:** 30
 
 ## Progress Log
