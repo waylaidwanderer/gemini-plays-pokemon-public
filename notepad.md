@@ -949,9 +949,9 @@ To transition from the northwestern ground level to the southwestern exit of Are
 
 ## Active Run Statistics
 - **Start Turn:** 25625
-- **Current Position:** `(35, 31)` (Safari Zone Area 2 (North))
-- **Steps Taken:** 169
-- **Steps Remaining:** 331
+- **Current Position:** `(30, 31)` (Safari Zone Area 2 (North))
+- **Steps Taken:** 174
+- **Steps Remaining:** 326
 
 ## Progress Log
 - **Turn 25625:** Started Run 5 at `(15, 25)` in Safari Zone Center.
@@ -980,12 +980,10 @@ To transition from the northwestern ground level to the southwestern exit of Are
 
 
 ## Upcoming Route
-1. Continue East on Row 24 to Column 20.
-2. Walk North to `(20, 21)` and climb the eastern plateau stairs.
-3. Walk West on the plateau to `(12, 21)` and descend.
-4. Walk North-West to `(12, 7)` and climb the western plateau stairs.
-5. Walk East on the plateau to `(17, 7)` and descend.
-6. Walk North-West to the exit at `(0, 5)` to transition to Area 2 (North).
+1. Climb the newly discovered plateau stairs at `(28, 27)` to reach the plateau.
+2. Traverse the plateau West and South to find the West Stairs at `(20, 15)` or ledges.
+3. Descend to the southern ground level (rows 25-35).
+4. Walk West along row 30 to transition to Area 3 (West).
 
 
 <hr>
@@ -1006,9 +1004,9 @@ To transition from the northwestern ground level to the southwestern exit of Are
 - **Result:** Explored Area 1 (East) and entered Area 2 (North) up to Column 39. Ended by step budget exhaustion.
 
 ## Active Run Statistics (Run 5)
-- **Current Position:** `(35, 31)` (Safari Zone Area 2 (North))
-- **Steps Taken:** 169
-- **Steps Remaining:** 331
+- **Current Position:** `(30, 31)` (Safari Zone Area 2 (North))
+- **Steps Taken:** 174
+- **Steps Remaining:** 326
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
@@ -1042,6 +1040,7 @@ To transition from the northwestern ground level to the southwestern exit of Are
 4. **Reach Southern Ground Level:** Walk down the stairs or jump down the south-facing ledges at the south-eastern/south-middle part of the plateau to land on the southern ground level (rows 25-35).
 5. **Walk West to Area 3:** Follow the open southern grass corridor (around row 30) all the way west to the bottom-left corner of Area 2 (North) (columns 0-4, rows 30-35) to transition to **Area 3 (West)**.
 ## Verified Map Landmarks
+- **Area 2 (North) South Stairs:** `(28, 27)` (leads onto plateau facing South).
 - **Area 2 (North) Row 19 Fence:** Columns 10-17.
 - **Area 2 (North) Column 16 Tree Line:** Blocking direct north-south traversal.
 - **Area 2 (North) Row 24 Cliff:** Columns 26-35.
