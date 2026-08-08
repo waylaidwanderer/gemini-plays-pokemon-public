@@ -33,7 +33,7 @@
 
 ## Verified Speedrun Route to Area 3 (West) (Run 10 Optimal Path)
 
-1. **Center to Area 2 (North):** From spawn at (15, 25) in Safari Zone Center, walk straight UP column 15 to row 0 (25 steps) to transition directly to Area 2 (North) on the west side of the tree barrier (spawning at columns 10-20, row 35).
+1. **Center to Area 2 (North):** From spawn at (15, 25) in Safari Zone Center, the path straight UP is blocked by a fence at row 15. We must walk Right and around the fences to columns 26-29 to reach the top edge, or use other routes. (Note: Entering Area 2 (North) on the east side at (39, 31) allows traversing the Southern Plateau to reach column 13 on the ground.)
 2. **Area 2 (North) to Area 3 (West) Main Section:**
    - Walk UP to row 31 (4 steps UP).
    - Walk LEFT along the southern grass corridor on row 31 past column 11 (we can walk left on row 31 to column 3 directly).
