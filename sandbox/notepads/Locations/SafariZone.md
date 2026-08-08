@@ -6,9 +6,9 @@
 - **Result:** Explored Area 1 (East) and entered Area 2 (North) up to Column 39. Ended by step budget exhaustion.
 
 ## Active Run Statistics (Run 5)
-- **Current Position:** `(14, 24)` (Safari Zone Area 1 (East))
-- **Steps Taken:** 67
-- **Steps Remaining:** 433
+- **Current Position:** `(20, 24)` (Safari Zone Area 1 (East))
+- **Steps Taken:** 73
+- **Steps Remaining:** 427
 
 ## Area 1 (East) Map & Transitions
 - **Exit to Area 2 (North):** Located at (0, 5).
