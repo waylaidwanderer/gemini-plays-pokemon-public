@@ -984,8 +984,6 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - Walk Up 6 steps along column 1 to `(1, 14)` (completely open grass, 0% battles).
 - Walk Right 10 steps to column 11 on row 14: `(11, 14)`.
 - Walk Up 3 steps to enter Rest House 3 at `(11, 11)` (where we can verify/talk to the clerk).
-- **Find Gold Teeth:**
-  - From the Secret House exit at `(11, 11)`, walk Right to column 19, then walk Up to row 7 (Gold Teeth at `(19, 7)`!).
 
 <hr>
 
