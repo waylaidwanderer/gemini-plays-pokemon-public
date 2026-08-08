@@ -1,3 +1,3 @@
-## CURRENT STATUS & DASHBOARD (Turn 44069)
-- Location: Saffron City at (14, 3).
-- Primary Goal: Travel to Celadon City, heal at Pokemon Center, and clear Rocket Hideout.
+## CURRENT STATUS & DASHBOARD (Turn 44071)
+- Location: Celadon City at (8, 35).
+- Primary Goal: Heal at Celadon Pokemon Center and clear Rocket Hideout.
