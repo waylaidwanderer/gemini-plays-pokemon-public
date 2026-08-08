@@ -1,9 +1,9 @@
 # Safari Zone - Active Run Log (Run 10)
 
 - **Start Turn:** 26792
-- **Current Position:** (22, 22) in Safari Zone Area 2 (North)
-- **Steps Taken:** 158
-- **Steps Remaining:** 342
+- **Current Position:** (16, 22) in Safari Zone Area 2 (North)
+- **Steps Taken:** 164
+- **Steps Remaining:** 336
 - **Gold Teeth Obtained:** No
 - **HM03 (Surf) Obtained:** No
 
@@ -39,3 +39,4 @@
 - Turn 26844: Walked Left 1 step to (27, 28) (blocked by cliff wall at 26, 28) (consumed 1 step)
 - Turn 26845: Walked Down 1, Left 5 to (22, 29) (consumed 6 steps)
 - Turn 26847: Walked Up 7 steps to (22, 22) (climb plateau) (consumed 7 steps)
+- Turn 26849: Walked Left 6 steps to (16, 22) (consumed 6 steps)
