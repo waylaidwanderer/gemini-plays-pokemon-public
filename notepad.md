@@ -848,6 +848,14 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Rhydon Statues: Column 4 statues span y=20..28, Row 20 statues span x=1..4 and x=8..9.
 - Central Pavement Highway: Columns 6 and 7 (x=6, x=7) form a continuous open light grey pavement corridor from Row 18 (y=18) down to Row 27 (y=27).
 - Route: From (5, 21), step Right 1 to (6, 21), then South along Column 6 to (6, 27) to inspect Row 28/29 Southbound passages.
+## Row 18/19 Northern Highway & Column 36 Bypass Route Discovered (Turn 45854)
+- Row 18/19 Highway: Rows 18 and 19 (y=18, y=19) form a continuous open light grey pavement highway spanning across the entire city from West Celadon (x=-2) to Column 36 East Highway (x=36) ABOVE all fence posts and statues.
+- Complete Game Corner Plaza Route:
+  1. From (2, 19), walk East 34 steps along Row 19 to Column 36 East Highway at (36, 19).
+  2. Walk South 11 steps down Column 36 to Row 30 South Street at (36, 30).
+  3. Walk West 16 steps along Row 30 to Column 20 at (20, 30).
+  4. Walk South 6 steps along Column 20 to (20, 36) warp into Game Corner Plaza.
+  5. In Plaza (10, 0), step Down to (10, 1) and Down into door (10, 2) to enter Main Game Corner Casino floor.
 
 <hr>
 
