@@ -57,3 +57,7 @@
 ## EMPIRICAL PROOF (Turn 46561)
 - Door (10, 33) in Game Corner Plaza enters ONLY the 8x6 Prize Exchange room (x=0..7, y=0..5) with exit carpets at (3, 5)/(4, 5).
 - Door (20, -3) in Game Corner Plaza (x=20, y=-3) is the TRUE MAIN ENTRANCE DOORWAY to the Main Game Corner Casino Floor (building with "GAME" sign at 25, 2).
+## EMPIRICAL PROOF (Turn 46575)
+- Bank 2 (x=5..6, y=1..4) is 100% SOLID counter wall (bumped at 5,1; 5,2; 5,3; 5,4).
+- The Prize Exchange room (x=0..7, y=0..5) is completely self-contained with no internal passage to the Main Casino floor.
+- True Main Casino entrance is door (10, 2) in Game Corner Plaza at North entrance (10, 0).
