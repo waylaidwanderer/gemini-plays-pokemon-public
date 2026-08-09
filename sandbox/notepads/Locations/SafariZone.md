@@ -68,14 +68,14 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - **Column 18 Vertical Barrier (Rows 20-23):** A solid tree/wall structure running vertically on Column 18 across rows 20-23, blocking horizontal ground-level passage.
 - **Horizontal Cliff Wall & Barriers (Rows 24-25):** Separates the middle/east ground level from the south ground level:
   - Columns 10-17, 19, and 22-29 are blocked by cliff walls/trees/bushes.
-  - Columns 2-8 (Western ground level) are completely open, allowing players to walk straight DOWN from Row 20 to the southern ground level (Rows 26-29) containing the Secret House and the Gold Teeth! (Unverified Spatial Hypothesis, to be empirically verified this run)
+  - Columns 2-8: Verified to be blocked on Row 24 by a solid hedge wall.
 
 ### Western Ground Level & Items
 - **Western Ground Grass (Rows 20-24, Columns 2-12):** A large patch of tall grass where wild battles can occur.
 - **Max Potion:** Located on the ground at `(8, 20)`. This is a solid overworld item ball sprite. It was successfully picked up by standing at `(7, 20)` facing Right on Turn 27623.
 - **Signpost at (24, 22):** Reads "AREA 3 EAST: CENTER AREA" (Turn 27655).
 
-- **The Row 13 Map Transition (Unverified Spatial Hypothesis):** Walking LEFT at Column 0, Row 13 in Safari Zone Center is hypothesized to transition the player directly onto the southern ground level at Column 29, Row 25 in Area 3 (West). From there, they can walk DOWN to Row 26 and walk LEFT all the way to find the Gold Teeth and the Secret House!
+- **Row 13 Map Transition:** Blocked on Column 0 in Center by a bush (refuted Turn 30062).
 
 ## Area 1 (East) Detailed Overworld Layout & Barriers
 
