@@ -1,11 +1,11 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 46891)
-- Location: Route 7 at (0, 13) facing Up.
+## CURRENT STATUS & DASHBOARD (Turn 46895)
+- Location: Route 7 at (2, 6) facing Up.
 - Primary Goal: Travel to Celadon City Game Corner and obtain Silph Scope.
 - Persistent Facts:
-  - West boundary loop warp formula (-1, Y) -> (19, Y - 8) for Y=13..18 fully logged in Locations/Route_7.md.
-  - Navigating via Column 2 (x=2) North to Northern Highway Row 3 (2, 3) and Left to Celadon City entrance (0, 3).
+  - Bypassing building via Column 1 grass (x=1) North to Row 2 Northern Highway at (1, 2).
+  - Crossing West boundary at (0, 2) / (0, 3) into Celadon City East Entrance at (49, 11).
 
 <hr>
 
