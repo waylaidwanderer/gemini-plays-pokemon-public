@@ -1045,8 +1045,8 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed (Current Run):** 184
-- **Steps Remaining:** 316
+- **Steps Consumed (Current Run):** 186
+- **Steps Remaining:** 314
 
 ## 🗺️ Step-by-Step Route Log
 ### Phase 1: Safari Zone Center starting area to East Land
@@ -1071,6 +1071,7 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 ### Phase 4: Escape Dead-end Pocket
 - Walked down to `(14, 6)` in Area 3 (West) (184 steps)
 - Walked back up to transition back to Area 2 (North) at `(20, 35)` on Turn 30016
+- Walked up to `(20, 33)` in Area 2 (North) on Turn 30028 (186 steps)
 
 
 <hr>
