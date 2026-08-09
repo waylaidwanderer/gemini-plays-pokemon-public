@@ -51,3 +51,7 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Celadon Game Corner (West Entrance): Door located at East Celadon City (25, 25) on Row 25. Warps directly to (3, 7) inside West Room.
 - Facade Tile (30, 25): Empirically confirmed SOLID window facade (bumped on turn 45777).
 - Facade Tile (19, 25): Empirically confirmed SOLID window facade (bumped on turn 45798).
+## Row 25 Window Facades & Column 36 Southbound Route Audit (Turn 45843)
+- Facade Tiles (19, 25), (21, 25), (22, 25): Empirically confirmed SOLID window facades under blue striped awning roof (bumped at 19, 25 on turn 45843). They are NOT doors.
+- Row 29 Obstacles (x=16..17): Tile (16, 29) is solid fence post and (17, 29) is solid building sign.
+- Route to Game Corner Plaza (20, 36): Walk East along Row 26 pavement corridor to Column 36 East Highway, then South along Column 36 to Row 30 South Street, then West/South to (20, 36) Game Corner Plaza warp!
