@@ -879,6 +879,7 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Signpost Obstacle at (17, 29): Signpost at (17, 29) blocks Column 17 at Row 29. Use Column 16 (x=16) open pavement corridor (16, 28..32) to bypass going South!
 - Row 33 Fence: Solid brown fence posts across x=14..17 at y=33.
 - Pillar Obstacle at (11, 28): Brown pillar at (11, 28) blocks Row 28 pavement West of x=12.
+- Building Front at y=27: Brick wall spans x=16..19 at y=27 with entrance door frame at (17, 27). Door approach is from Row 28 pavement at (17, 28).
 
 <hr>
 
