@@ -50,3 +50,4 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Facade Tile (32, 25): Empirically confirmed SOLID window facade (bumped on turn 45765).
 - Celadon PokéMart: Door located at (25, 25) on Row 25.
 - Main Celadon Game Corner Casino: Door located at East Celadon City (25, 25) on Row 25. Warps directly to (3, 7) inside Main Game Corner Casino floor!
+- Facade Tile (30, 25): Empirically confirmed SOLID window facade (bumped on turn 45777).
