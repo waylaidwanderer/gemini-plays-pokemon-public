@@ -1,7 +1,7 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 45384)
-- Location: Game Corner Plaza at (30, 8). Stepping Left to (29, 8) and Up into doorway warp at (29, 7).
+## CURRENT STATUS & DASHBOARD (Turn 45385)
+- Location: Game Corner Plaza at (29, 7). Stepping Up into doorway opening at (29, 6) to warp inside.
 - Primary Goal: Locate Rocket Grunt at North Wall Poster Switch in Main Casino floor and obtain Silph Scope.
 - Casino Floor Plan & Rocket Hideout Infiltration Protocol:
   1. From Central Aisle (x=3, y=3), navigate to North Wall cross-aisle (Row 1).
@@ -759,8 +759,8 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 45385)
-- Location: Game Corner Plaza at (29, 7). Stepping Up into doorway opening at (29, 6) to warp inside.
+## CURRENT STATUS & DASHBOARD (Turn 45386)
+- Location: Game Corner Plaza at (29, 6). Stepping Up to (29, 5) in front of red sprite at (29, 4).
 - Primary Goal: Locate Rocket Grunt at North Wall Poster Switch in Main Casino floor and obtain Silph Scope.
 - Casino Floor Plan & Rocket Hideout Infiltration Protocol:
   1. From Central Aisle (x=3, y=3), navigate to North Wall cross-aisle (Row 1).
