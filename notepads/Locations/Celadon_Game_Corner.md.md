@@ -22,6 +22,7 @@
 - Tile (1,5) Counter: Empirically confirmed SOLID (bumped at 2,5->1,5 on turn 45161).
 ## Verified Wall Boundaries & Topology Audit (Turn 45561)
 - Column 6 Wall: Empirically confirmed SOLID counter wall across y=2..5 (bumped at 6, 2 on turn 45561).
+- Stool at (7, 1): Empirically confirmed SOLID (bumped at 6, 1 -> 7, 1 on turn 45706).
 - Column 7 Aisle: Enclosed vertical aisle spanning y=2..5 bounded by solid stool at (7, 1) and solid green plant at (7, 6).
 - Central Aisle (Cols 3..4): Open vertical corridor connecting Row 1 (y=1) down to Row 7 exit carpet.
 - Staircase (4, 4): Entrance to Rocket Hideout B1F (5, 4).
