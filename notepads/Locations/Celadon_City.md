@@ -93,3 +93,7 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
   3. Walk East 5 along Row 30 to Column 20 at (20, 30).
   4. Walk South 6 along Column 20 to (20, 36) warp into Game Corner Plaza.
   5. In Plaza (10, 0), step Down to (10, 1) and Down into door (10, 2) to enter Main Game Corner Casino floor.
+## Row 20 Pavement Highway Westbound Route Audit (Turn 45862)
+- Tile (27, 21) Obstacle: Tile (27, 21) is a solid building facade block.
+- Row 20 Highway: Row 20 (y=20) is a wide open light grey pavement highway spanning East-West across x=22..30+.
+- Route from (28, 21): Step Up 1 to Row 20 (28, 20), then Left 6 along Row 20 pavement highway to (22, 20).
