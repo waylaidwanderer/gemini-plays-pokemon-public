@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 46835)
+## CURRENT STATUS & DASHBOARD (Turn 46848)
 - Location: Route 7 at (0, 18) facing Left.
 - Primary Goal: Travel to Celadon City Game Corner and obtain Silph Scope.
 - Persistent Facts:
