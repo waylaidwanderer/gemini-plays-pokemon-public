@@ -1022,37 +1022,35 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 
 <h1><code>Scratchpad/SafariZone_Route.md</code></h1>
 
-# Safari Zone - Active Route & Step Log
+# Safari Zone - Active Route & Step Log (Current Run)
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 0
-- **Steps Remaining:** 500 (As of Turn 28727 - New Run Starting)
+- **Steps Consumed:** 60
+- **Steps Remaining:** 440 (As of Turn 28952 - Standing at (22, 12))
 
-## 🗺️ Step-by-Step Route to Secret House (Run starting Turn 28727)
+## 🗺️ Step-by-Step Route Log (Run starting Turn 28908)
 
-### Phase 1: Safari Zone Center (South) -> Area 1 (East)
-- Start at `(15, 25)`
-- **Next:** Walk to transition `(29, 10)` -> enter Area 1 (East) at `(0, 22)`.
-- Walked Up to `(15, 24)` (1 step).
-- Walked Up to `(15, 22)` (2 steps).
-- Walked Right to `(21, 22)` (6 steps).
-- Walked Right to `(23, 22)` (2 steps).
-- Walked Right to Column 28, Up to Row 10, Right to transition: `(23, 22) -> (29, 10)` (18 steps).
-- **Total in Center:** 29 steps.
+### Phase 1: Safari Zone Center (South-East Path)
+- **Start:** `(15, 25)`
+- Walked Left to `(14, 25)` (1 step)
+- Walked Up 2 to `(14, 23)` (2 steps)
+- Walked Left 2 to `(12, 23)` (2 steps)
+- Walked Down 1, Left 4 to `(8, 24)` (5 steps)
+- Walked Right 4, Up 1, Right 1 to `(13, 23)` (6 steps)
+- Walked Up 4 to `(13, 19)` (4 steps)
+- Walked Up 3, Left 4 to `(9, 16)` (7 steps)
+- Walked Left 3 to `(6, 16)` (3 steps)
+- Walked Down 1, Left 3 to `(3, 17)` (4 steps)
+- Walked Right 10 to `(13, 17)` (10 steps)
+- Walked Right 5 to `(18, 17)` (5 steps)
+- Walked Right 4 to `(22, 17)` (4 steps)
+- Walked Up 1 to `(22, 16)` (1 step) - Battle Nidorino, ran away.
+- Walked Up 5 to `(22, 11)` (5 steps)
+- Walked Down 1 to `(22, 12)` (1 step) - Battle Nidorina, ran away.
 
-### Phase 2: Area 1 (East) -> Southern Plateau
-- Confirm transition at Area 1 `(0, 22)`.
-- Walked Right to Column 5: `(0, 22) -> (5, 22)` (5 steps).
-- Bypassed Rhydon statues: Left to Column 4, Down 2 to Row 24: `(5, 22) -> (4, 24)` (3 steps).
-- Walked Right to Column 10: `(4, 24) -> (10, 24)` (6 steps).
-- Walked Right to Column 13: `(10, 24) -> (13, 24)` (3 steps).
-- Walked Right to Column 19: `(13, 24) -> (19, 24)` (6 steps). Battle Nidoran♀.
-- Cleared battle and walked to `(20, 24)` (1 step).
-- Walked Up to `(20, 22)` (2 steps).
-- Walked Up onto stairs: `(20, 22) -> (20, 21)` (1 step).
-- **Steps Consumed so far:** 56 steps (444 steps remaining).
-- **Current Position:** Standing on Southern Plateau East stairs at `(20, 21)`.
+- **Current Position:** Standing at `(22, 12)`.
+- **Next Goal:** Walk to `(22, 11)` and test walking Left on Row 11 to verify if there is a collision block on Column 21.
 
 <hr>
 
