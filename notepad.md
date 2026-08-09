@@ -1026,8 +1026,8 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 82
-- **Steps Remaining:** 418 (As of Turn 28964 - Standing at (29, 10))
+- **Steps Consumed:** 249
+- **Steps Remaining:** 251 (As of Turn 29012 - Standing at (28, 17))
 
 ## 🗺️ Step-by-Step Route Log (Run starting Turn 28908)
 
