@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 46895)
-- Location: Route 7 at (2, 6) facing Up.
-- Primary Goal: Travel to Celadon City Game Corner and obtain Silph Scope.
+## CURRENT STATUS & DASHBOARD (Turn 46900)
+- Location: Celadon City at (11, 35) facing Up.
+- Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
 - Persistent Facts:
-  - Bypassing building via Column 1 grass (x=1) North to Row 2 Northern Highway at (1, 2).
-  - Crossing West boundary at (0, 2) / (0, 3) into Celadon City East Entrance at (49, 11).
+  - Successfully arrived in Celadon City at (11, 35).
+  - Navigating East along Row 35 to Game Corner Plaza entrance at (28, 35) / (20, 36).
