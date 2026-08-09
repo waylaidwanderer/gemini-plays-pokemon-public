@@ -64,3 +64,4 @@
 - Row 0 (y=0) North Wall and Column 9 Counter Bank (x=9, y=0..5): Empirically confirmed SOLID (bumped at 8,1->8,0 and 8,1->9,1 on Turn 46649).
 - Tile (4, 11) / (5, 11) red carpet in Celadon Game Corner: EMPIRICALLY CONFIRMED EXIT WARP MAT that warps directly outdoors to Celadon City (26, 3) (discovered Turn 46657).
 - Tile (9, 4) is solid wall box (bumped at 8,4 -> 9,4 on Turn 46666).
+- Column 9 (x=9) is the East outer wall boundary (y=0..11) of this 10x12 casino sub-map. x>=10 is off-map void (verified Turn 46669).
