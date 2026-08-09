@@ -1169,6 +1169,15 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
   3. Walk East along Row 17 to Column 31 (ground level).
   4. Walk UP Column 31 to Row 13, and walk RIGHT onto the East Stairs at `(32, 13)` to climb onto the plateau!
 
+## 🔬 Empirical Ground Truth & Mapping Discoveries (Current Playthrough)
+
+### Area 1 (East) Overworld Realities (Turns 29354-29426)
+1. **The Eastern Plateau is a Dead End:** Located around rows 12-15, columns 20-27. It has ONLY ONE set of stairs at `(24, 15)`. It is surrounded by solid cliff walls on the north, west, and east. Sloped cliff at `(27, 12)` is solid/impassable.
+2. **Ground-Level South-East Traversals are Blocked:** Row 25 is blocked by solid trees at columns 10-13 and solid grey Rhydon statues at columns 14-20. You cannot walk directly south or southeast around column 10.
+3. **Mandatory Southern Plateau Crossing:** Because of these barriers, the Southern Plateau Crossing (climbing stairs at `(20, 21)` to `(20, 20)`, walking west to `(12, 20)`, and descending to `(12, 22)`) is the ONLY physical way to traverse between the western ground and southeastern ground of Area 1 (East).
+4. **Column 20 Hedges are 100% Walkable:** Hedges on Column 20 at Rows 4 and 6 have 0% collision and are completely passable, enabling players to walk directly UP Column 20 to Row 3 (verified on Turn 29426).
+
+
 <hr>
 
 <h1><code>Scratchpad/SafariZone_Route</code></h1>
@@ -1214,5 +1223,6 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - Walked UP Column 8 to `(8, 8)` (5 steps)
 - Walked RIGHT 4 steps to `(12, 8)`, then UP 2 steps to plateau at `(12, 6)` (6 steps)
 - Walked RIGHT 5 steps on the plateau to `(17, 6)`, then DOWN 2 steps to `(17, 8)` (7 steps)
+- Walked RIGHT 3 steps to `(20, 8)`, then UP 4 steps to `(20, 4)` (7 steps)
 
 <hr>
