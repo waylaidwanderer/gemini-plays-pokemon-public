@@ -1,14 +1,13 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 45452)
-- Location: West Room at (13, 5) in Celadon Game Corner. Facing Right at Column 13 East boundary wall.
-- Primary Goal: Locate Rocket Grunt at North Wall Poster Switch in Main Casino floor (accessed via Celadon City 17, 27) and obtain Silph Scope.
-- Protocol:
-  1. Walk to South exit warp at (3, 7) in West Room.
-  2. Exit to Game Corner Plaza / Celadon City.
-  3. Enter Main Casino floor via Celadon City (17, 27) Main Entrance door.
-  4. Challenge and defeat Rocket Grunt at North Wall Poster Switch.
-  5. Press A on Poster Switch to reveal secret staircase to Main Rocket Hideout B1F.
+## CURRENT STATUS & DASHBOARD (Turn 45481)
+- Location: Celadon City at (8, 28). Facing Left at Column 8 street intersect.
+- Primary Goal: Defeat Rocket Grunt at (11, 2) Poster Switch in Celadon Game Corner to reveal secret staircase to Rocket Hideout B1F.
+- Verified Route:
+  1. Walk Down 7 steps along Column 8 street to (8, 35).
+  2. Walk Right 3, Down 1 into Celadon Game Corner entrance door at (11, 36) to enter Casino floor at (3, 7).
+  3. Walk to (11, 3) facing Up and challenge Rocket Grunt at (11, 2) poster switch.
+  4. Defeat Rocket Grunt and press A on Poster Switch at (11, 2) to open secret staircase.
 
 <hr>
 
