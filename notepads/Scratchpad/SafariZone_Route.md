@@ -2,8 +2,8 @@
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 269
-- **Steps Remaining:** 231 (As of Turn 28831 - At (10, 21) in Safari Zone Area 3 (West))
+- **Steps Consumed:** 298
+- **Steps Remaining:** 202 (As of Turn 28847 - At (14, 23) in Safari Zone Area 3 (West))
 
 ## 🗺️ Step-by-Step Route to Secret House (Run starting Turn 28727)
 
@@ -53,10 +53,16 @@
 - Walked Down to row 18, Left to `(21, 18)` (9 steps).
 - Climbed East stairs and crossed plateau to `(6, 16)`, descended West stairs to `(6, 20)` (21 steps).
 - Walked Right to `(10, 20)`, Down to `(10, 21)` before wild battle (5 steps).
+- Walked Down to `(10, 22)` (1 step). Blocked by Row 25 cliff wall.
+- Probed western boundary: Walked Left to `(1, 21)` (9 steps) and verified Column 1 is blocked at Row 24 by trees.
+- Returned: Walked Right to `(10, 21)` (9 steps), Down to `(10, 22)` (1 step).
+- Explored Row 24-25 barrier: Walked Down to `(10, 24)` (2 steps) and verified Row 25 Columns 10-15 is solid cliff.
+- Walked Right to `(15, 24)` (5 steps) and verified Column 16 Row 24 is a solid hedge.
+- Backtracked to reach plateau: Walked Up to `(15, 23)` (1 step), Left to `(14, 23)` before wild battle (1 step).
 
 ---
 
 ## 🔬 Spatial Hypotheses (Unverified)
 - **The Secret House:** Hypothesis: Located in southernmost ground level (Rows 26-29) on the west side. Inside, the host gives you HM03 (Surf).
 - **The Gold Teeth:** Hypothesis: Located in southernmost ground level (Rows 26-29) on the east side (coordinate hypothesis: likely (19, 27) or similar).
-- **Southern Descent Corridor:** Hypothesis: Located on the absolute western edge (Column 0 or 1), running Down past Row 24/25.
+- **Southern Descent Corridor:** Hypothesis: Located on the absolute eastern edge of Column 18, specifically Column 19 and Column 20, running Down past Row 25.
