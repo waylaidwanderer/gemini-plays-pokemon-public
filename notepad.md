@@ -1192,8 +1192,8 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 150
-- **Steps Remaining:** 350 (As of Turn 28801 - At (14, 6) in Safari Zone Center)
+- **Steps Consumed:** 187
+- **Steps Remaining:** 313 (As of Turn 28813 - At (22, 26) in Safari Zone Area 2 (North))
 
 ## 🗺️ Step-by-Step Route to Secret House (Run starting Turn 28727)
 
@@ -1218,9 +1218,19 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - Walked Left along row 31 to `(21, 31)` (18 steps total, 2 before battle at (27,31), 6 after).
 - Walked Down to `(21, 36)` and transitioned to Safari Zone Center at `(15, 0)` (6 steps).
 
-### Phase 5: Safari Zone Center -> Area 3 (West)
+### Phase 5: Safari Zone Center (North) exploration & Backtrack
 - Walked Down column 15 to `(15, 6)` (6 steps).
 - Walked Left towards column 12 to bypass pond, reached `(14, 6)` before battle (1 step).
+- Walked Down to `(22, 8)` (1 step). Bounded by solid hedge.
+- Walked Right to `(27, 8)` (5 steps). Bounded by solid tree wall.
+- Realized Center ground level is disjointed and a dead end.
+- Backtracked: Up to `(27, 7)` (1 step), Left to `(15, 7)` (12 steps).
+- Walked Up column 15 and transitioned back to Area 2 (North) at `(21, 35)` (8 steps).
+
+### Phase 6: Area 2 (North) -> Area 3 (West)
+- Walked Up to `(21, 32)` (3 steps). Bypassed horizontal fence.
+- Walked Right to `(22, 32)` (1 step).
+- Walked Up column 22 to `(22, 26)` before battle (6 steps).
 
 
 <hr>
