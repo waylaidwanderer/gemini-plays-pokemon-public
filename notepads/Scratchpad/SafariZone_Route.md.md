@@ -2,8 +2,8 @@
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 328 (Turn 29222, standing at (21, 16) on the plateau in Area 3 (West))
-- **Steps Remaining:** 172
+- **Steps Consumed:** 395 (Turn 29258, standing at (4, 20) in Area 3 (West))
+- **Steps Remaining:** 105
 
 ## 🗺️ Step-by-Step Route Log
 
@@ -80,4 +80,6 @@
 12. Walked LEFT 1 step to `(18, 24)` (1 step).
 13. Walked DOWN 1 step (bumped, 0 steps).
 14. Walked RIGHT 1 step, UP 1 step, RIGHT 2 steps, UP 7 steps back onto plateau at `(21, 16)` (11 steps).
-15. **Active Goal:** Walk LEFT across the plateau, descend at `(6, 19)`, and enter the Secret House at `(3, 19)`.
+15. Walked LEFT 15 steps to `(6, 16)` (15 steps).
+16. Walked DOWN 4 steps, LEFT 3 steps (aborted at index 5 due to Venonat). Standing at `(4, 20)`. (6 steps).
+17. **Active Goal:** Walk LEFT 1 step to `(3, 20)` and systematically test Columns 2, 3, 4, 5 on the west side for a southern gap on Row 24.
