@@ -773,7 +773,7 @@
 
 <h1><code>Locations/Route_7.md</code></h1>
 
-
+- Row 17 (0, 17): Stepping onto (-1, 17) triggers loop warp to (19, 9) (empirically confirmed turn 46864).
 
 <hr>
 

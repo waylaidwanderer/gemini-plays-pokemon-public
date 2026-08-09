@@ -1,0 +1,1 @@
+- Row 17 (0, 17): Stepping onto (-1, 17) triggers loop warp to (19, 9) (empirically confirmed turn 46864).
