@@ -45,3 +45,4 @@
 - Master Casino Route: Walk South down Column 9 (x=9) to Row 13 (9, 13), East along Row 13 to Column 18 (18, 13), and North along Column 18 to Rocket Grunt at North Wall (18, 2).
 - West Room Boundary (Turn 46044): Tile (10, 13) is solid wall. West Room (x=0..9, y=0..13) has no internal passage to Main Casino floor. Exit carpet is at (4, 13)/(5, 13) warping outdoors to East Celadon City (13, 25).
 - Master Route to True Main Casino Floor: Exit West Room to East Celadon City (13, 25), walk East to Column 17 South Avenue (17, 26), South to Row 30 (17, 30), East to Column 20 (20, 30), and South along Column 20 to tile (20, 36) warp into Game Corner Plaza. In Plaza (10, 0), enter door (10, 2) to enter True Main Casino Floor at (3, 7).
+- Tile (6, 11): Slot machine counter (bumped at 5, 11 -> 6, 11 on Turn 46058). Row 12 (y=12) is the main open Southern Cross-Highway connecting Column 5 (x=5) to Column 9 (x=9).
