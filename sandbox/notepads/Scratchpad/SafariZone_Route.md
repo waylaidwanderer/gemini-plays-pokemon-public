@@ -30,3 +30,4 @@
 - Walked DOWN Column 24 off the plateau to `(24, 16)` (4 steps)
 - Walked DOWN Column 24 to `(24, 22)` (6 steps)
 - Walked LEFT to `(20, 22)` (4 steps)
+- Climbed UP stairs to plateau at `(20, 20)` (2 steps)
