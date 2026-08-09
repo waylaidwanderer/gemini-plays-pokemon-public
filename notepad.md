@@ -1042,7 +1042,9 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 # Safari Zone - Overworld Layout & Navigation Guide
 
 ## Area 1 (East) Map & Transitions
-- **Exit to Area 2 (North):** Located at (0, 5).
+- **Exit to Area 2 (North):** Located at `(0, 5)`.
+  - **CRITICAL WARNING:** You must transition at Row 5 (`(0, 5)`), which warps you to Column 39, Row 31 of Area 2 (North) (leading to the walkable southern corridor).
+  - Transitioning at Row 3 (`(0, 3)`) is a trap: it warps you to Column 39, Row 2 of Area 2 (North), which is an isolated ground-level dead end!
 
 ## Area 2 (North) Map & Collision Structures
 
