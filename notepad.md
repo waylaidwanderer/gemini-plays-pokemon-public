@@ -1265,6 +1265,8 @@ Systematically probe every potential building doorway and alleyway warp in South
 - Tile (5, 4): Slot machine counter (bumped at 5, 5 -> 5, 4 on Turn 46026). Bypass to Row 2 is via Row 5 cross-aisle to Column 7 at (7, 5) -> (7, 2).
 - Tile (7, 2): Slot machine counter (bumped at 7, 3 -> 7, 2 on Turn 46028). Horizontal cross-aisle to East sector is Row 8 at y=8.
 - Tile (7, 6): Slot machine counter (bumped at 7, 5 -> 7, 6 on Turn 46030). Southbound bypass to Row 8 is via Row 5 cross-aisle to Column 5 at (5, 5) -> (5, 8).
+- Tile (6, 8): Slot machine counter (bumped at 5, 8 -> 6, 8 on Turn 46033). Row 12 (y=12) is the main open Southern Horizontal Cross-Highway connecting West and East sectors across x=1..18.
+- Casino Topology: Vertical aisles at Column 5 (x=5), Column 9 (x=9), Column 13 (x=13), and Column 18 (x=18) connect Row 12 Cross-Highway directly North to Row 2 North Wall.
 
 <hr>
 
