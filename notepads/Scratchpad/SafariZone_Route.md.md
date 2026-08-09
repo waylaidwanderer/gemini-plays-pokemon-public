@@ -71,4 +71,4 @@
 4. Walk RIGHT 4 steps to `(10, 23)` (4 steps).
 5. Walk DOWN 1 step to `(10, 24)` (1 step).
    - *Empirical Test at (10, 24):* Attempted to walk DOWN into (10, 25). Confirmed blocked/collision. This empirically proves that Row 25 Column 10 is indeed a solid cliff wall (confirming our notes that Row 25 Columns 10-21 is a solid cliff wall).
-6. **Active Goal:** Walk RIGHT along Row 24 to reach Column 19, then walk DOWN to transition to the southernmost ground level.
+6. **Active Goal:** Walk back UP the West Stairs, cross the plateau to the east, descend, and walk DOWN the Column 19 gap to reach the southernmost ground level.
