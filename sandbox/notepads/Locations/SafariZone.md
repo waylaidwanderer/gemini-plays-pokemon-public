@@ -105,3 +105,15 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 2. **Northern Corridor:** Walk LEFT along Row 5 to Column 0, then walk LEFT to transition to Area 2 (North) at `(39, 31)`.
 3. **Area 2 Southern Corridor:** Walk LEFT to Column 21, walk DOWN to Row 36, and walk DOWN into Safari Zone Center at `(15, 0)`.
 4. **Safari Zone Center South Crossing:** Walk DOWN to Row 10/11 (or Row 22), walk LEFT to Column 0, and walk UP to `(0, 11)` to transition directly into **Area 3 (West)**!
+### Complete Cliff Wall Verification (Turn 28216)
+- We systematically tested every single column on Rows 24 and 25 across the entire width of Area 3 (West) (columns 2-29).
+- Columns 1-9: Blocked by tree at (1, 24) and solid cliff wall on row 24.
+- Columns 10-21: Blocked by solid cliff wall on row 25.
+- Columns 22-29: Blocked by solid cliff wall or bushes on row 24.
+- Conclusion: There is 100% no ground-level vertical passage from the northern half of Area 3 (West) to the southern half. The only way to access the southern ground level (Gold Teeth and Secret House) is to transition into Area 3 (West) on the southern side of the cliff by walking left from Safari Zone Center's southern corridor.
+
+### Safari Zone Center Western Edge Verification (Turn 28228)
+- Row 15 on Columns 6-8 are solid dark green bushes.
+- Row 16 on Columns 0-5 are solid trees/bushes.
+- This forms a completely continuous, impassable barrier separating the north-west and south-west of Safari Zone Center at ground level.
+- The plateau in Area 2 (North) is the only bridge that allows the player to cross over Column 17 and access the east/south sides.
