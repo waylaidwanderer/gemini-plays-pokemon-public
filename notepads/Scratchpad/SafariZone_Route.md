@@ -2,8 +2,8 @@
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 139 (Turn 29131, standing at (20, 3) in Area 1)
-- **Steps Remaining:** 361
+- **Steps Consumed:** 152 (Turn 29139, entered Area 2 (North))
+- **Steps Remaining:** 348
 
 ## 🗺️ Step-by-Step Route Log
 
