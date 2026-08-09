@@ -2,8 +2,8 @@
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 207 (Turn 29161, standing at (16, 27) in Area 2 (North))
-- **Steps Remaining:** 293
+- **Steps Consumed:** 212 (Turn 29166, standing at (12, 33) in Area 2 (North))
+- **Steps Remaining:** 288
 
 ## 🗺️ Active Route (Phase 3: Area 2 (North) to Area 3 (West))
 1. Currently standing at (16, 27) on descending stairs.
