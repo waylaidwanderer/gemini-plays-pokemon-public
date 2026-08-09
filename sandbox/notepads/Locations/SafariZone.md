@@ -78,8 +78,10 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 
 ### Key Buildings & Landmarks
 - **Rest House 3:** Located in the north-west at columns 10-13, rows 10-11, with the entrance door at `(11, 11)` (verified on Turn 28674). A signpost at `(12, 12)` reads "REST HOUSE". Inside, a clerk at `(6, 3)` only gives basic gameplay advice about throwing rocks. **This is NOT the Secret House!**
-- **The Secret House:** Located in the southernmost ground level (Rows 26-29) on the west side. Inside, the host gives you HM03 (Surf).
-- **The Gold Teeth:** Located on the ground in the southernmost ground level (Rows 26-29) on the east side (coordinate hypothesis: `(19, 7)` is unverified, likely `(19, 27)` or similar).
+
+### 🔬 Spatial Hypotheses (UNVERIFIED)
+- **The Secret House (Hypothesis):** Believed to be in the southernmost ground level (Rows 26-29) on the west side. Inside, the host gives you HM03 (Surf). Status: UNVERIFIED.
+- **The Gold Teeth (Hypothesis):** Believed to be on the ground in the southernmost ground level (Rows 26-29) on the east side. Status: UNVERIFIED.
 
 ## Area 1 (East) Detailed Overworld Layout & Barriers
 

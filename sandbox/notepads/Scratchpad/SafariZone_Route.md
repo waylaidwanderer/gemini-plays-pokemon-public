@@ -2,8 +2,8 @@
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 187
-- **Steps Remaining:** 313 (As of Turn 28813 - At (22, 26) in Safari Zone Area 2 (North))
+- **Steps Consumed:** 269
+- **Steps Remaining:** 231 (As of Turn 28831 - At (10, 21) in Safari Zone Area 3 (West))
 
 ## 🗺️ Step-by-Step Route to Secret House (Run starting Turn 28727)
 
@@ -41,3 +41,22 @@
 - Walked Up to `(21, 32)` (3 steps). Bypassed horizontal fence.
 - Walked Right to `(22, 32)` (1 step).
 - Walked Up column 22 to `(22, 26)` before battle (6 steps).
+- Walked Up onto plateau at `(22, 22)` (4 steps).
+- Crossed plateau, descended at `(16, 27)` to `(16, 28)` (12 steps).
+- Walked Left to `(12, 28)`, Down to `(12, 33)` (9 steps).
+- Walked Left, Down, Left to transition into Area 3 (West) at `(26, 0)` (6 steps).
+
+### Phase 7: Area 3 (West) Northern Ground & Plateau Crossing
+- Walked Down column 26 to `(26, 3)` before being blocked by signpost (3 steps).
+- Bypassed signpost: Right to `(27, 3)`, Down to `(27, 7)`, Left to `(26, 7)` (6 steps).
+- Walked Down column 26 to `(26, 14)` (7 steps).
+- Walked Down to row 18, Left to `(21, 18)` (9 steps).
+- Climbed East stairs and crossed plateau to `(6, 16)`, descended West stairs to `(6, 20)` (21 steps).
+- Walked Right to `(10, 20)`, Down to `(10, 21)` before wild battle (5 steps).
+
+---
+
+## 🔬 Spatial Hypotheses (Unverified)
+- **The Secret House:** Hypothesis: Located in southernmost ground level (Rows 26-29) on the west side. Inside, the host gives you HM03 (Surf).
+- **The Gold Teeth:** Hypothesis: Located in southernmost ground level (Rows 26-29) on the east side (coordinate hypothesis: likely (19, 27) or similar).
+- **Southern Descent Corridor:** Hypothesis: Located on the absolute western edge (Column 0 or 1), running Down past Row 24/25.
