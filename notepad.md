@@ -1020,8 +1020,8 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 63
-- **Steps Remaining:** 437 (As of Turn 28545 at Safari Zone Center `(28, 10)`)
+- **Steps Consumed:** 180
+- **Steps Remaining:** 320 (As of Turn 28579 at Area 2 (North) `(22, 31)`)
 
 ## 🗺️ Step-by-Step Route to Secret House
 
