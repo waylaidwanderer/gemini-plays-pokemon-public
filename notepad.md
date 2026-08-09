@@ -1,11 +1,12 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 46848)
-- Location: Route 7 at (0, 18) facing Left.
+## CURRENT STATUS & DASHBOARD (Turn 46850)
+- Location: Route 7 at (19, 10) facing Down.
 - Primary Goal: Travel to Celadon City Game Corner and obtain Silph Scope.
 - Persistent Facts:
-  - Reached Route 7 West boundary at (0, 18).
-  - Stepping Left onto (-1, 18) warps into Celadon City East Entrance at (49, 11).
+  - Tile (0, 18) on Route 7 is a loop warp tile back to (19, 10).
+  - Celadon City entrance is at Northern Highway Route 7 (0, 3) / (0, 2).
+  - Navigating via Column 23 (x=23) up to Row 3 (y=3) to reach (0, 3) warp.
 
 <hr>
 
