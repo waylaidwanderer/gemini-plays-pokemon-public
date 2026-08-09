@@ -1077,7 +1077,7 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 5. **Northeastern/Northern Ground Passage:** From `(17, 8)`, walk right to column 18/19/20, then walk UP past the row 6-7 barrier to row 5 (northern ground level).
 6. **Northwest Ground Level Exit:** From the northern ground level, walk west all the way to the top-left corner at `(0, 5)` to transition to Area 2 (North) at `(39, 31)`.
 
-## Area 2 (North) - East-West Plateau Connections
+## Area 2 (North) - East-West Plateau Connections (Turn 27563-27565)
 - **The Western Southern Plateau:** Raised cliff system at columns 14-24, rows 20-22.
   - **East Climbing Stairs:** Located at `(22, 23)` (verified on Turn 27584).
   - **West Descending Stairs:** Located at `(16, 27)` (verified on Turn 27588).
@@ -1100,19 +1100,18 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
   - **Note:** The Plateau completely blocks ground-level horizontal crossing on rows 14-18.
 - **Column 18 Vertical Barrier (Rows 20-23):** A solid tree/wall structure running vertically on Column 18 across rows 20-23, blocking horizontal ground-level passage.
 - **Horizontal Cliff Wall (Rows 24-25):** Runs horizontally across the map, separating the north ground level from the south ground level:
-  - Row 24 on Columns 2-9 is solid cliff wall/trees.
+  - Row 24 on Columns 2-9 is solid cliff wall/trees (Column 19 is the open gap to the south).
   - Row 25 on Columns 10-21 is solid cliff wall.
   - Row 24 on Columns 22-29 is solid cliff wall.
 
 ### Western Ground Level & Items
 - **Western Ground Grass (Rows 20-24, Columns 2-12):** A large patch of tall grass where wild battles can occur.
-- **Max Potion:** Located on the ground at `(8, 20)`. Successfully picked up on Turn 27623.
+- **Max Potion:** Located on the ground at `(8, 20)`. This is a solid overworld item ball sprite. It was successfully picked up by standing at `(7, 20)` facing Right on Turn 27623.
 - **Signpost at (24, 22):** Reads "AREA 3 EAST: CENTER AREA" (Turn 27655).
 
 ## Area 1 (East) Detailed Overworld Layout & Barriers
 
 ### Vertical & Horizontal Barriers
-- **Row 3 Forest Wall:** Rows 1-3 on columns 0-5 are blocked by a solid forest wall/bush barrier, making it impossible to walk directly DOWN to Row 4/5 from Row 2 on those columns. Players must walk East to Column 6 or 7 to bypass this barrier and access the southern transition corridor on Row 5.
 - **Column 6 Rhydon Statue Barrier:** Grey Rhydon statues at `(6, 22)` and `(6, 23)` completely block ground-level horizontal crossing on row 22.
 - **Western Row 6 Tree Barrier:** A continuous vertical barrier of trees at columns 0-10 on row 6, blocking all direct northern traversal on the west ground level.
 - **Row 12 NPC Block:** A stationary NPC at `(15, 12)` completely blocks row 12 ground traversal, making it impossible to walk directly from the west ground to the east ground on rows 12-13.
@@ -1133,11 +1132,26 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 
 ### Key Discoveries & Pathways
 - **The Column 11 Tree Wall:** A solid vertical line of pine trees on Column 11 across Rows 0-7, completely blocking direct ground-level horizontal crossing on those rows.
-- **Central Pond Blockage (Rows 8-9):** A large central water pond spans from Column 9 to Column 21 on Rows 8-9, completely blocking direct ground-level vertical crossing between the northern and southern halves of Safari Zone Center.
-- **North-East Bush Barrier (Rows 4-7, Columns 21-25):** Solid dark green bushes completely block ground-level horizontal crossing on these rows, separating the north-east and north-west.
-- **Western Edge Transition to Area 3 (West):** Located on Column 0, Row 11 (`(0, 11)`), transitioning directly to Area 3 (West) at `(29, 23)`.
-- **Note on East/West Isolation:** The central water pond and vertical/horizontal barriers isolate the north-east/north-west of Safari Zone Center from the south-west at ground level (without Surf).
+- **The Southern Ground Corridor:** Rows 10-22 are open ground, allowing players to walk Left to Column 0 around the central water pond.
+- **Western Edge Transition to Area 3 (West):** Located on Column 0, Row 11 (`(0, 11)`), transitioning directly to Area 3 (West) at `(30, 23)`. This ground-level path completely bypasses Area 2 (North).
 
+## Gold-Standard Speedrun Route from Area 1 (East) to Area 3 (West)
+1. **Northeast Channel:** From Area 1 (East) ground level, walk UP Column 20 (which is completely open and walkable, including the tree graphic at `(20, 4)`) to Row 5 (`(20, 5)`).
+2. **Northern Corridor:** Walk LEFT along Row 5 to Column 0, then walk LEFT to transition to Area 2 (North) at `(39, 31)`.
+3. **Area 2 Southern Corridor:** Walk LEFT to Column 21, walk DOWN to Row 36, and walk DOWN into Safari Zone Center at `(15, 0)`.
+4. **Safari Zone Center South Crossing:** Walk DOWN to Row 10/11 (or Row 22), walk LEFT to Column 0, and walk UP to `(0, 11)` to transition directly into **Area 3 (West)**!
+## Area 2 (North) - Completed Spatial Map & Route to East Stairs
+- Ground Level is on Rows 0-11 (North) and Rows 16-35 (South).
+- Rows 12-15 is the Northern Plateau (East side, columns 32-38).
+- Column 16 Bush Barrier (Rows 12-19) and Row 11 barriers (Rhydon statues at cols 21-31, trees at 16-17) completely divide the Northwest ground level from the Northeast and South ground levels.
+- The ONLY way to go from the Northwest ground level (Rest House 2, cols 1-15) to the South/East is to walk UP to Row 9, walk East along Row 9 (which is completely open and has 0% trees), and then walk back down.
+- On the East side, Columns 32-38 row 12-15 is the Northern Plateau. The East Stairs at `(32, 13)` and `(33, 13)` face WEST (accessed from Column 31 on the ground, walking RIGHT/EAST onto the stairs).
+- Column 31 is completely open on rows 12-13.
+- To reach Column 31 from the Southern Corridor (Row 30/31):
+  1. Walk to Column 25 (ground level separation between Eastern and Western Southern Plateaus).
+  2. Walk UP Column 25 past the plateaus to Row 17 (ground level).
+  3. Walk East along Row 17 to Column 31 (ground level).
+  4. Walk UP Column 31 to Row 13, and walk RIGHT onto the East Stairs at `(32, 13)` to climb onto the plateau!
 
 <hr>
 
