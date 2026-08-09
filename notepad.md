@@ -781,9 +781,9 @@
 
 <h1><code>Locations/Celadon_City.md</code></h1>
 
-## Verified Celadon City Topography & Points of Interest
+# Verified Celadon City Topography & Points of Interest
 
-### Key Buildings & Warps
+## Key Buildings & Warps
 - Route 7 Entrance: (49, 11) connects East to Route 7.
 - Celadon Pokemon Center: Door at (41, 9).
 - Celadon Department Store: Door at (10, 13).
@@ -792,22 +792,25 @@
 - Game Corner Plaza Warp: Tile (20, 36) in Celadon City warps directly into Game Corner Plaza at (10, 0).
 - Main Game Corner Casino Floor: Door at (10, 2) in Game Corner Plaza enters True Main Casino Floor at (3, 7).
 
-### Master Unblocked Route to Game Corner Plaza (20, 36) via Column 10 Avenue & Row 26 Highway
-1. From (17, 13), walk Left 7 steps along Row 13 to Column 10 Avenue at (10, 13).
-2. Walk Down 13 steps along Column 10 Avenue through (10, 14..25) to Row 26 Highway at (10, 26).
-3. Walk Right (East) 26 steps along Row 26 Highway across x=11..36 to Column 36 at (36, 26).
-4. Walk South 4 steps down Column 36 through the tree gap at (36, 28) to Row 30 South Street at (36, 30).
-5. Walk Left (West) 16 steps along Row 30 South Street across x=35..20 to Column 20 at (20, 30).
-6. Walk South 6 steps along Column 20 to tile (20, 36) warp into Game Corner Plaza.
-7. In Game Corner Plaza (10, 0), step Down into door (10, 2) to enter True Main Casino Floor at (3, 7).
+## Master Unblocked Route to Game Corner Plaza (20, 36)
+1. From Row 26 Highway at (26, 26), walk Left 17 steps along Row 26 Highway across x=25..9 to Column 9 at (9, 26).
+2. Walk Up 2 steps along Column 9 to (9, 24), step Right 1 to Column 10 Avenue at (10, 24), and walk Up 11 steps along Column 10 Avenue to (10, 13) in front of Department Store.
+3. Step Up 1 to (10, 12) on Row 12 Northern Highway.
+4. Walk Right (East) 26 steps along Row 12 Northern Highway across x=11..36 to Column 36 at (36, 12).
+5. Walk South 18 steps down Column 36 through the tree gap at (36, 28) to Row 30 South Street at (36, 30).
+6. Walk Left (West) 16 steps along Row 30 South Street across x=35..20 to Column 20 at (20, 30).
+7. Walk South 6 steps along Column 20 to tile (20, 36) warp into Game Corner Plaza.
+8. In Game Corner Plaza (10, 0), step Down into door (10, 2) to enter True Main Casino Floor at (3, 7).
 
-### Verified Obstacle Log
+## Verified Obstacle Log
 - Tile (24, 18): Solid Gym wall left edge.
 - Tile (23, 19): Solid Gym corner block.
 - Tile (33, 19): Solid fence base.
 - Tile (34, 19): Solid fence post.
 - Tile (34, 28): Solid tree.
 - Tile (27, 21): Solid signboard.
+- Tile (10, 25): Double brown wooden logs/barrels.
+- Tile (17, 29): Solid signboard.
 
 <hr>
 
