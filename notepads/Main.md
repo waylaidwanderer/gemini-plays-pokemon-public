@@ -1,7 +1,7 @@
-## CURRENT STATUS & DASHBOARD (Turn 46952)
-- Location: Saffron City at (1, 2) facing Left.
+## CURRENT STATUS & DASHBOARD (Turn 46956)
+- Location: Saffron City at (7, 2) facing Left on Row 2 Northern Highway.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Test West Gatehouse doorway access on Row 2 at (7, 2) / (8, 2) to enter Route 7 Gatehouse and proceed West to Celadon City.
+- Active Objective: Walk South to Row 17 West Gatehouse at (0, 17) / (1, 17) to enter Route 7 Gatehouse and proceed West to Celadon City.
 - Persistent Facts:
-  - Column 0 (x=0) is a solid stone wall / arch across y=1..6 (bumped at 0,2).
-  - Row 2 Northern Highway is open across x=1..16.
+  - Saffron West Gatehouse is located at Row 17 on the West boundary (x=0..2, y=17), perfectly symmetrical to East Gatehouse at (42, 17).
+  - Row 2 is the Northern Highway (not the West Gatehouse).
