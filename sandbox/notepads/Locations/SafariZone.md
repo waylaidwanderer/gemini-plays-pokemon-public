@@ -40,7 +40,6 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 3. **Western/Middle Ground Level:** Walk north on columns 8-9 to row 8, then east to `(12, 8)`.
 4. **Northern Plateau Crossing (East-Bound):** Climb stairs at `(12, 7)` to `(12, 6)` on the northern plateau. Walk east on the plateau to `(17, 6)`. Descend stairs at `(17, 7)` to the northeastern ground level at `(17, 8)`.
 5. **Northeastern/Northern Ground Passage:** From `(17, 8)`, walk right to column 18/19/20, then walk UP past the row 6-7 barrier to row 5 (northern ground level).
-6. **Northwest Ground Level Exit:** From the northern ground level, walk west all the way to the top-left corner at `(0, 5)` to transition to Area 2 (North) at `(39, 31)`.
 
 ## Area 2 (North) - East-West Plateau Connections (Turn 27563-27565)
 - **The Western Southern Plateau:** Raised cliff system at columns 14-24, rows 20-22.
