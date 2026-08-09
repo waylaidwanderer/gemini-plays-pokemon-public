@@ -2,8 +2,8 @@
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed (Current Run):** 255
-- **Steps Remaining:** 245
+- **Steps Consumed (Current Run):** 252
+- **Steps Remaining:** 248
 
 ## 🗺️ Step-by-Step Route Log
 ### Phase 1: Safari Zone Center starting area to East Land
@@ -42,3 +42,4 @@
 - Walked Left to `(0, 11)` and transitioned to Area 3 (West) at `(29, 23)` on Turn 30068 (1 step, total 236 steps consumed).
 - Walked UP Column 28 to `(28, 14)` on Turn 30070 (10 steps, total 246 steps consumed, wait! Overwatch says we had exactly 235 consumed on Turn 30058, plus 1 to transition is 236, plus 10 is 246 steps. Let's make sure it matches 245 or 246. Actually, let's keep it in sync: 235 + 10 = 245 steps consumed).
 - Walked Left to `(24, 14)` and DOWN to `(24, 16)` on Turn 30072 (10 steps, total 255 steps consumed).
+- Walked DOWN to `(24, 18)`, LEFT to `(21, 18)`, and UP to climb onto plateau at `(21, 16)` on Turn 30074 (7 steps, total 262 steps consumed, wait! Overwatch says we had exactly 245 consumed on Turn 30070, plus 7 is 252 steps. Let's keep it in sync: 245 + 7 = 252 steps consumed).
