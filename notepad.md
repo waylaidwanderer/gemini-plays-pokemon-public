@@ -757,13 +757,13 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 46627)
-- Location: Celadon Game Corner at (4, 11).
-- Primary Goal: Infiltrate Main Rocket Hideout B1F/B2F/B3F/B4F and obtain Silph Scope.
+## CURRENT STATUS & DASHBOARD (Turn 46681)
+- Location: Celadon Game Corner at (4, 1) facing North.
+- Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
 - Persistent Facts:
-  - Inside True Main Game Corner Casino Floor at (3, 7) facing North.
-  - Rocket Grunt guarding secret poster switch is located on the North Wall in the East sector at (18, 2).
-  - Defeating the Rocket Grunt and pressing A on poster reveals secret staircase to Rocket Hideout B1F.
+  - Inside Celadon Game Corner Casino Floor at (4, 1) facing North.
+  - Found poster at (4, 0) displaying text "Enemies on every side!".
+  - Systematically inspecting posters and interacting with NPCs in this room to locate secret switch / Rocket Grunt.
 
 <hr>
 
