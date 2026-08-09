@@ -903,6 +903,9 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Rhydon Statues: Located at Cols 3..4, Rows 20..24.
 - Northern Highway (Rows 18..19): Rows 18 and 19 (y=18, y=19) are open light grey pavement spanning East-West across Cols 3..12 ABOVE the Rhydon statues.
 - Route to Column 2: From (7, 20), step Up 1 to (7, 19), Left 5 steps along Row 19 highway across (4, 19) and (3, 19) directly into Column 2 at (2, 19).
+## Empirically Verified Row 19 Boundary & Column 32/33 Test (Turn 45943)
+- Tile (32, 19) Signboard: EMPIRICALLY CONFIRMED SOLID OBSTACLE (bumped at 32, 20 -> 32, 19 on Turn 45943).
+- Row 19 Passage Audit: The ONLY open northbound passage through Row 19 across Central Celadon is Column 17 South Avenue at (17, 19) -> Row 18 Northern Highway at (17, 18).
 
 <hr>
 
