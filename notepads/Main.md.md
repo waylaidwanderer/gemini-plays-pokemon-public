@@ -1,5 +1,5 @@
-## CURRENT STATUS & DASHBOARD (Turn 45381)
-- Location: Game Corner Plaza at (25, 4). Walking to building entrance doorway at (29, 7).
+## CURRENT STATUS & DASHBOARD (Turn 45382)
+- Location: Game Corner Plaza at (28, 7). Bypassing NPC to enter doorway warp at (29, 8).
 - Primary Goal: Locate Rocket Grunt at North Wall Poster Switch in Main Casino floor and obtain Silph Scope.
 - Casino Floor Plan & Rocket Hideout Infiltration Protocol:
   1. From Central Aisle (x=3, y=3), navigate to North Wall cross-aisle (Row 1).
