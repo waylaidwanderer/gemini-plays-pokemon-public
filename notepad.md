@@ -823,6 +823,7 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Column 16/17 South Avenue: Columns 16 and 17 (x=16, x=17) form an open light grey pavement street running South along y=20..36 between tree walls.
 - Eastbound Crossing to Game Corner: Walk South along Column 17 avenue to Row 30 South Street at (17, 30), then Right 3 to (20, 30), then Down along Column 20 to (20, 36) warp into Game Corner Plaza.
 - Celadon South Pond: Blue water pond spans x=9..13 across y=25..27. South pavement at Row 28 connects East to Column 16/17 South Avenue at (16, 28). Column 16/17 pavement avenue (x=16, 17) runs North-South between y=20 and y=28.
+- Signpost Obstacle at (17, 29): Signpost at (17, 29) blocks Column 17 at Row 29. Use Column 16 (x=16) open pavement corridor (16, 28..32) to bypass going South!
 
 <hr>
 
