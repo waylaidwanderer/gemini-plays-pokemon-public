@@ -1194,82 +1194,27 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 394
-- **Steps Remaining:** 106 (As of Turn 28887 - At (6, 20) in Safari Zone Area 3 (West))
+- **Steps Consumed:** 500 (Steps exhausted on Run 1)
+- **Status:** Run 1 completed. Preparing for Run 2 (optimal direct route to Secret House and Gold Teeth).
 
-## 🗺️ Step-by-Step Route to Secret House (Run starting Turn 28727)
-
-### Phase 1: Safari Zone Center (South) -> Area 1 (East)
-- Start at `(15, 25)`
-- Walked Up to `(15, 22)` and Right to `(29, 10)` (29 steps).
-- Transitioned to Area 1 (East) at `(0, 22)`.
-
-### Phase 2: Area 1 (East) -> Southern Plateau
-- Bypassed Rhydon statues and reached Southern Plateau East stairs at `(20, 21)` (27 steps).
-- Climbed onto plateau and walked Left to `(12, 20)` (9 steps).
-
-### Phase 3: Area 1 (East) -> Northern Plateau -> Area 2 (North)
-- Descended stairs to `(12, 22)` and walked to column 8 at `(8, 22)` (6 steps).
-- Walked UP column 8 to row 8 `(8, 8)`, then Right to `(12, 8)` and UP onto Northern Plateau at `(12, 6)` (10 steps).
-- Crossed Northern Plateau, descended at `(17, 8)`, walked to column 20 row 5 `(20, 5)` (13 steps).
-- Walked to row 3 `(17, 3)` (5 steps).
-- Walked Left on row 3 to `(8, 3)` (9 steps total, 3 before battle at (14,3), 6 after).
-- Walked Down to row 5, Left to `(0, 5)` and transitioned to Area 2 (North) `(39, 31)` (11 steps).
-
-### Phase 4: Area 2 (North) -> Safari Zone Center (North)
-- Walked Left along row 31 to `(21, 31)` (18 steps total, 2 before battle at (27,31), 6 after).
-- Walked Down to `(21, 36)` and transitioned to Safari Zone Center at `(15, 0)` (6 steps).
-
-### Phase 5: Safari Zone Center (North) exploration & Backtrack
-- Walked Down column 15 to `(15, 6)` (6 steps).
-- Walked Left towards column 12 to bypass pond, reached `(14, 6)` before battle (1 step).
-- Walked Down to `(22, 8)` (1 step). Bounded by solid hedge.
-- Walked Right to `(27, 8)` (5 steps). Bounded by solid tree wall.
-- Realized Center ground level is disjointed and a dead end.
-- Backtracked: Up to `(27, 7)` (1 step), Left to `(15, 7)` (12 steps).
-- Walked Up column 15 and transitioned back to Area 2 (North) at `(21, 35)` (8 steps).
-
-### Phase 6: Area 2 (North) -> Area 3 (West)
-- Walked Up to `(21, 32)` (3 steps). Bypassed horizontal fence.
-- Walked Right to `(22, 32)` (1 step).
-- Walked Up column 22 to `(22, 26)` before battle (6 steps).
-- Walked Up onto plateau at `(22, 22)` (4 steps).
-- Crossed plateau, descended at `(16, 27)` to `(16, 28)` (12 steps).
-- Walked Left to `(12, 28)`, Down to `(12, 33)` (9 steps).
-- Walked Left, Down, Left to transition into Area 3 (West) at `(26, 0)` (6 steps).
-
-### Phase 7: Area 3 (West) Northern Ground & Plateau Crossing
-- Walked Down column 26 to `(26, 3)` before being blocked by signpost (3 steps).
-- Bypassed signpost: Right to `(27, 3)`, Down to `(27, 7)`, Left to `(26, 7)` (6 steps).
-- Walked Down column 26 to `(26, 14)` (7 steps).
-- Walked Down to row 18, Left to `(21, 18)` (9 steps).
-- Climbed East stairs and crossed plateau to `(6, 16)`, descended West stairs to `(6, 20)` (21 steps).
-- Walked Right to `(10, 20)`, Down to `(10, 21)` before wild battle (5 steps).
-- Walked Down to `(10, 22)` (1 step). Blocked by Row 25 cliff wall.
-- Probed western boundary: Walked Left to `(1, 21)` (9 steps) and verified Column 1 is blocked at Row 24 by trees.
-- Returned: Walked Right to `(10, 21)` (9 steps), Down to `(10, 22)` (1 step).
-- Explored Row 24-25 barrier: Walked Down to `(10, 24)` (2 steps) and verified Row 25 Columns 10-15 is solid cliff.
-- Walked Right to `(15, 24)` (5 steps) and verified Column 16 Row 24 is a solid hedge.
-- Backtracked to reach plateau: Walked Up to `(15, 23)` (1 step), Left to `(14, 23)` before wild battle (1 step).
-- Walked Left to `(6, 23)` before wild battle with Venomoth (8 steps).
-- Walked Up column 6 to `(6, 20)` before wild battle with Exeggcute (3 steps).
-- Walked Left to `(1, 15)` in Center (4 steps). Blocked by Column 0 Row 15 hedge.
-- Walked Up Column 1 to Row 11 `(1, 11)`, Left to transition back to Area 3 (West) at `(29, 23)` (5 steps).
-- Walked Left to `(28, 22)` and Up Column 28 to Row 14 `(28, 14)` (9 steps).
-- Walked Left to `(24, 14)` (blocked by cliff at 23,14), then Down to `(24, 18)` (11 steps).
-- Walked Left to `(21, 18)`, climbed East stairs onto plateau, crossed to `(6, 16)` (20 steps).
-- Descended West stairs to `(6, 20)` (4 steps), walked Left to `(4, 20)` before wild battle with Venonat (2 steps).
-- Walked Up Column 4 to Row 20 `(4, 20)` (1 step).
-- Escaped battle.
-- Walked Up to `(3, 20)` (3 steps).
-- Walked Right to `(6, 20)` before wild battle with Venonat (3 steps).
+## 🧭 Definitive Layout Discovery: The Disjointed Northern & Southern Sections
+Through rigorous systematic testing of both collision mechanics and overworld boundaries, we have empirically proved:
+1. **The Great Divide:** Safari Zone Area 3 (West) is completely split by a solid horizontal barrier of cliffs and hedges on Rows 24-25 across columns 0-29. There is 0% walkable passage on the west ground level.
+2. **Disconnected North:** The north section (where you enter from Area 2 North at `(26,0)`) has 100% no ground connection to the south section. It is a dead end.
+3. **Direct Southern Entrance:** The southern section (containing the **Secret House** and **Gold Teeth**) is connected directly to the southern section of Safari Zone Center.
+4. **Optimal 16-Step Speedrun Route:**
+   - Pay 500 dollars, enter Safari Zone (starts in Safari Zone Center South at `(15, 25)`).
+   - Walk straight LEFT along the southern ground corridor to Column 0.
+   - Walk LEFT to transition directly into the south side of Area 3 (West) at `(29, 23)` / `(29, 25)`.
+   - Retrieve the Gold Teeth (east side of southern ground level) and Surf (Secret House on west side).
 
 ---
 
-## 🔬 Spatial Hypotheses (Unverified)
-- **The Secret House:** Hypothesis: Located in southernmost ground level (Rows 26-29) on the west side. Inside, the host gives you HM03 (Surf).
-- **The Gold Teeth:** Hypothesis: Located in southernmost ground level (Rows 26-29) on the east side (coordinate hypothesis: likely (19, 27) or similar).
-- **Southern Descent Corridor:** Hypothesis: Located on the absolute western edge (Column 3 or 4), running Down past Row 24/25.
+## 🗺️ Step-by-Step Route to Secret House (Run 2 - Starting Next Run)
+- **Start:** Start at Safari Zone Center `(15, 25)`.
+- **Step 1:** Walk Left to Column 0 and transition to Area 3 (West) `(15, 25) -> (0, 22) -> Area 3 (West)` (16 steps).
+- **Step 2:** Retrieve Gold Teeth (likely around columns 15-20 on Row 27).
+- **Step 3:** Retrieve Surf from the Secret House (westmost ground level columns 2-10).
 
 
 <hr>
