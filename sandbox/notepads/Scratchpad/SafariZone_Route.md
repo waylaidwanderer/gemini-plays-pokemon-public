@@ -2,8 +2,8 @@
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed (Current Run):** 420
-- **Steps Remaining:** 80
+- **Steps Consumed (Current Run):** 424
+- **Steps Remaining:** 76
 
 ## 🗺️ Step-by-Step Route Log
 ### Phase 1: Return to Center Entrance and Go to Area 1 (East) [VERIFIED ACTUALLY WALKED]
