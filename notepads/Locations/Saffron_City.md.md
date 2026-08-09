@@ -22,3 +22,4 @@
 - Mr. Psychic's House: Southeast sector x=28..31, y=27..29 with door at (29, 29) (TM29 Psychic obtained).
 - Fighting Dojo: Door located at (26, 3) accessed via fence gap at (30, 5)/(31, 5) to Row 4 courtyard.
 - Building at x=2..9, y=3..5 (Northwest Residence). Open North-South street is Column 10..16 (x>=10) connecting Row 6/7 to Row 2 Northern Highway.
+- Saffron West Gatehouse Map Warp: Located at Row 2 West boundary (0, 2) / (0, 3) on the Northern Highway.
