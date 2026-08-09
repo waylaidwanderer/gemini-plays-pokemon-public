@@ -910,6 +910,7 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Awning Roof Boundary (y=24): Blue striped awning roof spans x=18..33 across y=24..25.
 - Column 34 Open Passage: Column 34 (x=34) is open light grey pavement running North-South past the awning roof directly from Row 20/23 down to Row 27 Pavement Highway at (34, 27).
 - Route from (28, 23): Walk Right 6 steps along Row 23 flower grass to Column 34 at (34, 23), then Down 4 steps along Column 34 pavement corridor directly to Row 27 Pavement Highway at (34, 27).
+- Tile (34, 19) Fence Post: Empirically confirmed SOLID OBSTACLE (bumped at 34, 20 -> 34, 19 on Turn 45999). Northbound bypass to Row 18 is via Column 32 pavement at (32, 20) -> (32, 18).
 
 <hr>
 
