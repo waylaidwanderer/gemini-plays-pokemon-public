@@ -834,6 +834,7 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Column 19 Statue Line: Statues span Column 19 (x=19) vertically from y=-3 down to y=18.
 - West Celadon Highway: Column 15 (x=15) is an open light grey pavement street running North-South across the west side of Celadon City.
 - Column 14 Brown Posts (y=16..24): Empirically confirmed SOLID (bumped at 14, 16 on turn 45099). Passage South to Row 28 is via Column 12/13 pavement corridor!
+- Column 19 Statues at y=28..31: Empirically confirmed SOLID (bumped at 19, 30 on turn 45107). Northbound passage to (17,-1) transition warp is via Column 15/16 pavement corridor!
 
 <hr>
 
