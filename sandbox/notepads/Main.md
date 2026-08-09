@@ -1,5 +1,5 @@
-## CURRENT STATUS & DASHBOARD (Turn 45386)
-- Location: Game Corner Plaza at (29, 6). Stepping Up to (29, 5) in front of red sprite at (29, 4).
+## CURRENT STATUS & DASHBOARD (Turn 45388)
+- Location: Game Corner Plaza at (29, 5). Discovered Machop at (29, 4). Heading to (10, 0) exit warp.
 - Primary Goal: Locate Rocket Grunt at North Wall Poster Switch in Main Casino floor and obtain Silph Scope.
 - Casino Floor Plan & Rocket Hideout Infiltration Protocol:
   1. From Central Aisle (x=3, y=3), navigate to North Wall cross-aisle (Row 1).
