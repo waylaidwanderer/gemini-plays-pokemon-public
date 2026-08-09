@@ -1202,3 +1202,9 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 
 
 <hr>
+
+<h1><code>notepads/Scratchpad/SafariZone_Route</code></h1>
+
+
+
+<hr>
