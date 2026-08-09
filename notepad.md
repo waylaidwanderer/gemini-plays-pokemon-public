@@ -868,6 +868,16 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Column 35 Fence: Spans y=19..27.
 - Row 18 Crossing: Tile (35, 18) on Row 18 is open light green grass (above the Column 35 fence), providing an unblocked passage from Column 34 to Column 36 East Highway.
 - Route from (34, 26): Walk Up 8 to Row 18 (34, 18), Right 2 across (35, 18) to Column 36 (36, 18), then South 12 down Column 36 to Row 30 South Street (36, 30).
+## Row 21 Pavement Highway & Column 15 Southbound Route Audit (Turn 45861)
+- Celadon Hotel Wall (y=19): Tile (34, 19) is solid building wall base. Column 35 Fence spans y=19..27.
+- Row 21 Highway: Row 21 (y=21) is a wide open light grey pavement highway spanning East-West across x=6..34.
+- Column 15 Southbound Passage: Column 15 (x=15) connects Row 21 down through Row 29 grass to Row 30 South Street (15, 30).
+- Complete Master Route to Game Corner Plaza (20, 36):
+  1. From (34, 20), step Down 1 to Row 21 (34, 21), Left 19 along Row 21 to Column 15 (15, 21).
+  2. Walk South 9 down Column 15 through Row 29 grass to Row 30 South Street at (15, 30).
+  3. Walk East 5 along Row 30 to Column 20 at (20, 30).
+  4. Walk South 6 along Column 20 to (20, 36) warp into Game Corner Plaza.
+  5. In Plaza (10, 0), step Down to (10, 1) and Down into door (10, 2) to enter Main Game Corner Casino floor.
 
 <hr>
 
@@ -954,6 +964,10 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Column 35 Fence: Brown dual-post fence spans y=20..25 at x=35.
 - Row 19 Crossing: Tile (35, 19) on Row 19 is open light green grass (above the Column 35 fence), providing a clear passage from Column 34 to Column 36 East Highway.
 - Route from (34, 21): Walk Up 2 to Row 19 (34, 19), Right 2 across (35, 19) to Column 36 (36, 19), then South down Column 36 to Row 30 South Street (36, 30).
+## Row 18 Fence Crossing & Column 36 Southbound Route (Turn 45860)
+- Column 35 Fence: Spans y=19..27.
+- Row 18 Crossing: Tile (35, 18) on Row 18 is open light green grass (above the Column 35 fence), providing an unblocked passage from Column 34 to Column 36 East Highway.
+- Route from (34, 26): Walk Up 8 to Row 18 (34, 18), Right 2 across (35, 18) to Column 36 (36, 18), then South 12 down Column 36 to Row 30 South Street (36, 30).
 
 <hr>
 
