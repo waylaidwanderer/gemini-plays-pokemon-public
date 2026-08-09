@@ -33,3 +33,7 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Celadon Mansion 1F Interior: Entrance mat at (3, 7), Stairs UP to 2F at (4, 4).
 - Column 20 Tree Wall: Solid vertical tree barrier across y=0..34 separating West Celadon (Cols 0..19) and Central/East Celadon (Cols 20..49).
 - Passage to East Celadon: Celadon Mansion (17, 13) stairs at (4, 4) lead up to 2F/3F/Rooftop and exit on the East side of Column 20 tree wall directly to Central/East Celadon (24, 36) Main Game Corner entrance!
+### Empirically Verified Column 20 Boundary & South Avenue Passage
+- Column 20 Tree Wall: Solid green tree forest spanning x=20..24 across y=4..24.
+- Column 16/17 South Avenue: Columns 16 and 17 (x=16, x=17) form an open light grey pavement street running South along y=20..36 between tree walls.
+- Eastbound Crossing to Game Corner: Walk South along Column 17 avenue to Row 30 South Street at (17, 30), then Right 3 to (20, 30), then Down along Column 20 to (20, 36) warp into Game Corner Plaza.
