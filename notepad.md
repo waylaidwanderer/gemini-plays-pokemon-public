@@ -1019,8 +1019,8 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 199
-- **Steps Remaining:** 301 (As of Turn 28653 at Area 3 (West) `(21, 17)`)
+- **Steps Consumed:** 244
+- **Steps Remaining:** 256 (As of Turn 28685 at Area 3 (West) `(11, 12)`)
 
 ## 🗺️ Step-by-Step Route to Secret House (Run starting Turn 28513)
 
@@ -1045,12 +1045,31 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - Entered Area 2 (North) at `(21, 35)`.
 - Walked Left to `(4, 35)` -> entered Area 3 (West) at `(26, 0)`.
 
-### Phase 5: Area 3 (West) -> Secret House
+### Phase 5: Area 3 (West) -> Rest House 3
 - Confirm transition at Area 3 `(26, 0)`.
 - Walked Down Column 25 to Row 14, Left to Column 24: `(26, 0) -> (24, 14)` (16 steps).
 - Walked Down to Row 18, Left to Column 21, Up to climb East stairs: `(24, 14) -> (21, 17)` (8 steps).
-- **Current Position:** Standing on East stairs at `(21, 17)`.
-- **Next:** Walk Up to `(21, 16)`, walk Left along plateau to `(6, 16)`, descend West stairs at `(6, 19)` to `(6, 20)`.
+- Climbed East stairs: `(21, 17) -> (21, 16)` (1 step).
+- Walked West along plateau: `(21, 16) -> (6, 16)` (15 steps).
+- Descended West stairs: `(6, 16) -> (6, 20)` (4 steps).
+- Battle: Doduo (Ran away safely).
+- Walked Left to Column 1: `(6, 20) -> (1, 20)` (5 steps).
+- Walked Up Column 1 to Row 16 (bumped at Row 15 tree): `(1, 20) -> (1, 16)` (4 steps).
+- Walked Right to Column 2: `(1, 16) -> (2, 16)` (1 step).
+- Walked Up to Row 14: `(2, 16) -> (2, 14)` (2 steps).
+- Walked Right to Column 11: `(2, 14) -> (11, 14)` (9 steps).
+- Walked Up into Rest House 3: `(11, 14) -> (11, 11)` (3 steps).
+- Inside Rest House 3: Spoke to clerk (confirmed it is NOT the Secret House).
+- Walked out of Rest House 3 to overworld: `(11, 11) -> (11, 12)` (1 step).
+
+### Phase 6: Rest House 3 -> Gold Teeth & Secret House (Planned)
+- Current position: `(11, 12)`.
+- Need to find and obtain the Gold Teeth (unverified coordinates) and Secret House.
+- Proposed route to southern ground level:
+  - From `(11, 12)`, walk Left to Column 10: `(11, 12) -> (10, 12)`.
+  - Walk Down Column 10 to Row 24: `(10, 12) -> (10, 24)`.
+  - Walk East on Row 24 to Column 19: `(10, 24) -> (19, 24)`.
+  - Walk Down Column 19 through the gap at Row 25 to south ground level: `(19, 24) -> (19, 26)`.
 
 <hr>
 
