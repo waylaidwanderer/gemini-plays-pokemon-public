@@ -1,7 +1,7 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 45350)
-- Location: Celadon Game Corner Main Casino Floor at (11, 3).
+## CURRENT STATUS & DASHBOARD (Turn 45353)
+- Location: Celadon Game Corner Main Casino Floor at (3, 3).
 - Primary Goal: Infiltrate Main Game Corner Casino in East Celadon and obtain Silph Scope from Giovanni in Rocket Hideout.
 - Master Highway Route to East Celadon & Door Inspection Protocol:
   1. From West Celadon at (2, 8), walk South 20 steps along Column 2 highway to Row 28 South Highway at (2, 28).
@@ -761,8 +761,8 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 45353)
-- Location: Celadon Game Corner Main Casino Floor at (3, 3).
+## CURRENT STATUS & DASHBOARD (Turn 45354)
+- Location: Celadon Game Corner Main Casino Floor at (12, 3).
 - Primary Goal: Infiltrate Main Game Corner Casino in East Celadon and obtain Silph Scope from Giovanni in Rocket Hideout.
 - Master Highway Route to East Celadon & Door Inspection Protocol:
   1. From West Celadon at (2, 8), walk South 20 steps along Column 2 highway to Row 28 South Highway at (2, 28).
