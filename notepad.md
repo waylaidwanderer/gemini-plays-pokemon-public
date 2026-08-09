@@ -834,6 +834,10 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 ### Column 7 Fence Gap & Row 6 Highway Connection (Discovered Turn 45283)
 - Row 11 Fence Boundary: Brown fence spans x=8..15 across Row 11.
 - Column 7 Fence Gap at (7, 11): Tile (7, 11) is open light brown pavement (NO FENCE!), providing a clear North-South passage between Row 12 pavement (x=7, y=12) and Row 6 Highway (x=7, y=6) through Row 10/9/8 grass.
+### Celadon South Pond Navigation Sequence (Verified Turn 45302)
+- From (2, 23) north of South Pond: Walk Right 2 to (4, 23), Up 2 to (4, 21) [light grey pavement corridor above pond].
+- From (4, 21): Walk East 12 steps along Row 21 pavement corridor to Column 16 South Avenue at (16, 21).
+- From (16, 21): Walk North along Column 16/17 South Avenue to (17, -1) transition warp into East Celadon (28, 35) directly in front of Main Game Corner Casino.
 
 <hr>
 
