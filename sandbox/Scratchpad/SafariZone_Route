@@ -2,8 +2,8 @@
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed (Current Run):** 169
-- **Steps Remaining:** 331
+- **Steps Consumed (Current Run):** 184
+- **Steps Remaining:** 316
 
 ## 🗺️ Step-by-Step Route Log
 ### Phase 1: Safari Zone Center starting area to East Land
@@ -23,3 +23,8 @@
 ### Phase 3: Traverse Area 2 (North)
 - Transitioned to Area 2 (North) at `(39, 31)` on Turn 30006 (158 steps)
 - Walked Left to `(27, 31)` on Turn 30007 (Total Consumed: 169 steps)
+- Completed traverse to Safari Zone Center (North) at `(15, 0)` on Turn 30012 (180 steps)
+
+### Phase 4: Escape Dead-end Pocket
+- Walked down to `(14, 6)` in Area 3 (West) (184 steps)
+- Walked back up to transition back to Area 2 (North) at `(20, 35)` on Turn 30016
