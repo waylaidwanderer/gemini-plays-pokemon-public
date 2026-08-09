@@ -1,7 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 46681)
-- Location: Celadon Game Corner at (4, 1) facing North.
-- Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
+## CURRENT STATUS & DASHBOARD (Turn 46700)
+- Location: Saffron City Fighting Dojo (4, 6) -> Exiting to Saffron City (26, 3).
+- Primary Goal: Travel to Celadon City Game Corner and obtain Silph Scope.
 - Persistent Facts:
-  - Inside Celadon Game Corner Casino Floor at (4, 1) facing North.
-  - Found poster at (4, 0) displaying text "Enemies on every side!".
-  - Systematically inspecting posters and interacting with NPCs in this room to locate secret switch / Rocket Grunt.
+  - Discovered player was inside Saffron City Fighting Dojo (door 26, 3), NOT Celadon Game Corner.
+  - Exiting Fighting Dojo to Saffron City (26, 3) to travel West via Saffron West Gatehouse and Route 7 to Celadon City.
