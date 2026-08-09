@@ -1,12 +1,13 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 45826)
-- Location: East Celadon City at (16, 28).
+## CURRENT STATUS & DASHBOARD (Turn 45841)
+- Location: East Celadon City at (13, 26).
 - Primary Goal: Infiltrate Main Rocket Hideout B1F/B2F/B3F/B4F and obtain Silph Scope.
 - Persistent Strategy:
-  - Step Up 2, Left 3 to (13, 26), then Up into door (13, 25) to enter Celadon Game Corner Casino floor.
-  - Inside Celadon Game Corner, locate Rocket Grunt guarding North Wall poster switch, defeat Grunt, press poster switch to reveal secret staircase to Main Rocket Hideout B1F.
-  - Defeat Giovanni for Silph Scope.
+  - Walk East 4 steps to Column 17 South Avenue at (17, 26), then South to Row 30 South Street.
+  - Walk East to Column 20, then South to tile (20, 36) warp into Game Corner Plaza.
+  - In Game Corner Plaza, enter door (10, 2) to access the Main Game Corner Casino floor where the Rocket Grunt and poster switch are located.
+  - Defeat Rocket Grunt, press poster switch to reveal secret staircase to Rocket Hideout B1F, defeat Giovanni.
 
 <hr>
 
@@ -1123,15 +1124,9 @@ Systematically probe every potential building doorway and alleyway warp in South
 - Column 7 Aisle: Enclosed vertical aisle spanning y=2..5 bounded by solid stool at (7, 1) and solid green plant at (7, 6).
 - Central Aisle (Cols 3..4): Open vertical corridor connecting Row 1 (y=1) down to Row 7 exit carpet.
 - Staircase (4, 4): Entrance to Rocket Hideout B1F (5, 4).
-## Row 4 Horizontal Cross-Aisle Discovered (Turn 45835)
-- Row 4 (y=4) is an open light blue checked horizontal cross-aisle spanning across Cols 4..9+ (and beyond to the East sector).
-- Passage: From Central Aisle (4, 2), step Down 2 to (4, 4), then Right along Row 4 to reach the East sector and locate the Rocket Grunt guarding the North Wall poster switch.
-## Slot Machine Bank 3 Boundary & Lower Corridor Navigation (Turn 45837)
-- Tile (8, 4) is a solid slot machine (Bank 3 spans x=8..9, y=2..6). Row 4 is blocked at x=8.
-- Lower Corridor Routing: To cross East past Bank 3, walk South along Central Aisle (x=4) down past Row 7 to Row 9/10 (y=9..10), then walk East across the open lower cross-corridor to reach the East sector (x=15..18).
-## West Room Topology & Main Casino Access Clarification (Turn 45838)
+## West Room Topology & Main Casino Access (Turn 45841)
 - West Room Interior: Small 8x8 room (x=0..7, y=0..7). Exit red carpet at (2,7)/(3,7) warps to East Celadon City (13,25).
-- Door (13, 25) in East Celadon City enters this West Room only, NOT the Main Casino Floor!
+- Door (13, 25) in East Celadon City enters this small 8x8 West Room only, NOT the Main Casino Floor!
 - True Main Casino Access: From East Celadon City (13, 26), walk East to Column 17 South Avenue, South to Row 30, East to Column 20, and South to tile (20, 36) warp into Game Corner Plaza. Then enter door (10, 2) in Game Corner Plaza to access the Main Casino floor where the Rocket Grunt and poster switch are located.
 
 <hr>
