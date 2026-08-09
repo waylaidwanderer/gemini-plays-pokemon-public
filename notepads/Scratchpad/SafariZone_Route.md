@@ -2,8 +2,8 @@
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** ~60 (estimated)
-- **Steps Remaining:** ~440
+- **Steps Consumed:** 66 (Turn 29099, entered Area 1)
+- **Steps Remaining:** 434
 
 ## 🗺️ Step-by-Step Route Log
 
