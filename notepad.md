@@ -887,6 +887,7 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - From (2, 23) north of South Pond: Walk Right 2 to (4, 23), Up 2 to (4, 21) [light grey pavement corridor above pond].
 - From (4, 21): Walk East 12 steps along Row 21 pavement corridor to Column 16 South Avenue at (16, 21).
 - From (16, 21): Walk North along Column 16/17 South Avenue to (17, -1) transition warp into East Celadon (28, 35) directly in front of Main Game Corner Casino.
+- Facade Tile (32, 25): Empirically confirmed SOLID window facade (bumped on turn 45765).
 
 <hr>
 
