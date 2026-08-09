@@ -42,7 +42,7 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 5. **Northeastern/Northern Ground Passage:** From `(17, 8)`, walk right to column 18/19/20, then walk UP past the row 6-7 barrier to row 5 (northern ground level).
 6. **Northwest Ground Level Exit:** From the northern ground level, walk west all the way to the top-left corner at `(0, 5)` to transition to Area 2 (North) at `(39, 31)`.
 
-## Area 2 (North) - East-West Plateau Connections (Turn 27563-27565)
+## Area 2 (North) - East-West Plateau Connections
 - **The Western Southern Plateau:** Raised cliff system at columns 14-24, rows 20-22.
   - **East Climbing Stairs:** Located at `(22, 23)` (verified on Turn 27584).
   - **West Descending Stairs:** Located at `(16, 27)` (verified on Turn 27588).
@@ -68,10 +68,11 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
   - Row 24 on Columns 2-9 is solid cliff wall/trees.
   - Row 25 on Columns 10-21 is solid cliff wall.
   - Row 24 on Columns 22-29 is solid cliff wall.
+  - *Active Hypothesis:* Is there a vertical passage on Column 0 or Column 1 on Rows 24/25 to reach the southern part from the western ground level? We must test Column 0 and Column 1 on the west side of Area 3 (West).
 
 ### Western Ground Level & Items
 - **Western Ground Grass (Rows 20-24, Columns 2-12):** A large patch of tall grass where wild battles can occur.
-- **Max Potion:** Located on the ground at `(8, 20)`. This is a solid overworld item ball sprite. It was successfully picked up by standing at `(7, 20)` facing Right on Turn 27623.
+- **Max Potion:** Located on the ground at `(8, 20)`. Successfully picked up on Turn 27623.
 - **Signpost at (24, 22):** Reads "AREA 3 EAST: CENTER AREA" (Turn 27655).
 
 ## Area 1 (East) Detailed Overworld Layout & Barriers
@@ -97,23 +98,7 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 
 ### Key Discoveries & Pathways
 - **The Column 11 Tree Wall:** A solid vertical line of pine trees on Column 11 across Rows 0-7, completely blocking direct ground-level horizontal crossing on those rows.
-- **The Southern Ground Corridor:** Rows 10-22 are open ground, allowing players to walk Left to Column 0 around the central water pond.
-- **Western Edge Transition to Area 3 (West):** Located on Column 0, Row 11 (`(0, 11)`), transitioning directly to Area 3 (West) at `(30, 23)`. This ground-level path completely bypasses Area 2 (North).
-
-## Gold-Standard Speedrun Route from Area 1 (East) to Area 3 (West)
-1. **Northeast Channel:** From Area 1 (East) ground level, walk UP Column 20 (which is completely open and walkable, including the tree graphic at `(20, 4)`) to Row 5 (`(20, 5)`).
-2. **Northern Corridor:** Walk LEFT along Row 5 to Column 0, then walk LEFT to transition to Area 2 (North) at `(39, 31)`.
-3. **Area 2 Southern Corridor:** Walk LEFT to Column 21, walk DOWN to Row 36, and walk DOWN into Safari Zone Center at `(15, 0)`.
-4. **Safari Zone Center South Crossing:** Walk DOWN to Row 10/11 (or Row 22), walk LEFT to Column 0, and walk UP to `(0, 11)` to transition directly into **Area 3 (West)**!
-### Complete Cliff Wall Verification (Turn 28216)
-- We systematically tested every single column on Rows 24 and 25 across the entire width of Area 3 (West) (columns 2-29).
-- Columns 1-9: Blocked by tree at (1, 24) and solid cliff wall on row 24.
-- Columns 10-21: Blocked by solid cliff wall on row 25.
-- Columns 22-29: Blocked by solid cliff wall or bushes on row 24.
-- Conclusion: There is 100% no ground-level vertical passage from the northern half of Area 3 (West) to the southern half. The only way to access the southern ground level (Gold Teeth and Secret House) is to transition into Area 3 (West) on the southern side of the cliff by walking left from Safari Zone Center's southern corridor.
-
-### Safari Zone Center Western Edge Verification (Turn 28228)
-- Row 15 on Columns 6-8 are solid dark green bushes.
-- Row 16 on Columns 0-5 are solid trees/bushes.
-- This forms a completely continuous, impassable barrier separating the north-west and south-west of Safari Zone Center at ground level.
-- The plateau in Area 2 (North) is the only bridge that allows the player to cross over Column 17 and access the east/south sides.
+- **Central Pond Blockage (Rows 8-9):** A large central water pond spans from Column 9 to Column 21 on Rows 8-9, completely blocking direct ground-level vertical crossing between the northern and southern halves of Safari Zone Center.
+- **North-East Bush Barrier (Rows 4-7, Columns 21-25):** Solid dark green bushes completely block ground-level horizontal crossing on these rows, separating the north-east and north-west.
+- **Western Edge Transition to Area 3 (West):** Located on Column 0, Row 11 (`(0, 11)`), transitioning directly to Area 3 (West) at `(29, 23)`.
+- **Note on East/West Isolation:** The central water pond and vertical/horizontal barriers isolate the north-east/north-west of Safari Zone Center from the south-west at ground level (without Surf).
