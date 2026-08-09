@@ -1248,8 +1248,8 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 395 (Turn 29258, standing at (4, 20) in Area 3 (West))
-- **Steps Remaining:** 105
+- **Steps Consumed:** 415 (Turn 29272, standing at (6, 16) on the plateau in Area 3 (West))
+- **Steps Remaining:** 85
 
 ## 🗺️ Step-by-Step Route Log
 
