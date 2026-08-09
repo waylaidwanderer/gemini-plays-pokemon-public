@@ -757,7 +757,7 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 46585)
+## CURRENT STATUS & DASHBOARD (Turn 46588)
 - Location: Game Corner Plaza at (20, 0).
 - Primary Goal: Infiltrate Main Rocket Hideout B1F/B2F/B3F/B4F and obtain Silph Scope.
 - Persistent Facts:
