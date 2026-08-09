@@ -1,14 +1,13 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 44851)
-- Location: Celadon City at (17, 14) outside Celadon Mansion.
+## CURRENT STATUS & DASHBOARD (Turn 44881)
+- Location: Celadon City at (17, 20) on Column 17 South Avenue.
 - Primary Goal: Infiltrate Rocket Hideout via Main Game Corner Casino and obtain Silph Scope.
 - Immediate Plan:
-  1. Step Up into Celadon Mansion 1F door at (17, 13).
-  2. Take stairs at (4, 4) UP to 2F, then stairs at (5, 4) UP to 3F.
-  3. Exit 3F door at (3, 7) to warp into Central/East Celadon City (East of Column 20 tree wall).
-  4. Enter Main Game Corner Casino building at Central/East Celadon (24..30, 33..36).
-  5. Defeat Rocket Grunt guarding poster switch, press A on poster, and enter true secret staircase to Rocket Hideout B1F.
+  1. Walk Down along Column 17 avenue (x=17) from y=20 down to Row 30 South Street at (17, 30).
+  2. Walk Right 3 steps to (20, 30), then Down along Column 20 to (20, 36) Game Corner Plaza warp.
+  3. Enter Main Game Corner Casino door at (10, 2) in Game Corner Plaza.
+  4. Defeat Rocket Grunt guarding poster switch, press A on poster, and enter true secret staircase to Rocket Hideout B1F.
 
 <hr>
 
@@ -819,6 +818,10 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Celadon Mansion 1F Interior: Entrance mat at (3, 7), Stairs UP to 2F at (4, 4).
 - Column 20 Tree Wall: Solid vertical tree barrier across y=0..34 separating West Celadon (Cols 0..19) and Central/East Celadon (Cols 20..49).
 - Passage to East Celadon: Celadon Mansion (17, 13) stairs at (4, 4) lead up to 2F/3F/Rooftop and exit on the East side of Column 20 tree wall directly to Central/East Celadon (24, 36) Main Game Corner entrance!
+### Empirically Verified Column 20 Boundary & South Avenue Passage
+- Column 20 Tree Wall: Solid green tree forest spanning x=20..24 across y=4..24.
+- Column 16/17 South Avenue: Columns 16 and 17 (x=16, x=17) form an open light grey pavement street running South along y=20..36 between tree walls.
+- Eastbound Crossing to Game Corner: Walk South along Column 17 avenue to Row 30 South Street at (17, 30), then Right 3 to (20, 30), then Down along Column 20 to (20, 36) warp into Game Corner Plaza.
 
 <hr>
 
