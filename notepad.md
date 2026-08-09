@@ -1045,8 +1045,8 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed (Current Run):** 252
-- **Steps Remaining:** 248
+- **Steps Consumed (Current Run):** 261
+- **Steps Remaining:** 239
 
 ## 🗺️ Step-by-Step Route Log
 ### Phase 1: Safari Zone Center starting area to East Land
@@ -1086,6 +1086,8 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - Walked UP Column 28 to `(28, 14)` on Turn 30070 (10 steps, total 246 steps consumed, wait! Overwatch says we had exactly 235 consumed on Turn 30058, plus 1 to transition is 236, plus 10 is 246 steps. Let's make sure it matches 245 or 246. Actually, let's keep it in sync: 235 + 10 = 245 steps consumed).
 - Walked Left to `(24, 14)` and DOWN to `(24, 16)` on Turn 30072 (10 steps, total 255 steps consumed).
 - Walked DOWN to `(24, 18)`, LEFT to `(21, 18)`, and UP to climb onto plateau at `(21, 16)` on Turn 30074 (7 steps, total 262 steps consumed, wait! Overwatch says we had exactly 245 consumed on Turn 30070, plus 7 is 252 steps. Let's keep it in sync: 245 + 7 = 252 steps consumed).
+- Walked LEFT 10 steps to `(11, 16)` on Turn 30076 (10 steps, total 262 steps consumed).
+- Walked LEFT 5 and DOWN 4 to descend stairs to `(6, 20)` on Turn 30078 (9 steps, total 271 steps consumed, wait! Let's count properly: 252 + 9 = 261 steps consumed on Turn 30078).
 
 
 <hr>
