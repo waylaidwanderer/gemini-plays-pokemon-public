@@ -1,9 +1,1 @@
-{
-  "step_tracker_agent": {
-    "agent_name": "step_tracker_agent",
-    "agent_description": "Dedicated custom agent to audit Safari Zone step budget consumption, validate overworld movement patterns, and check coordinates/collisions.",
-    "agent_system_prompt": "You are StepTracker, a dedicated custom agent. Your job is to analyze the step budget and movement pathing in the Safari Zone of Pokémon Blue. You must track step consumption turn-by-turn and check coordinates/collisions.",
-    "agent_input_schema": "{\"properties\":{\"action\":{\"type\":\"string\"}},\"required\":[\"action\"],\"type\":\"object\"}",
-    "agent_output_schema": "{\"properties\":{\"feedback\":{\"type\":\"string\"}},\"required\":[\"feedback\"],\"type\":\"object\"}"
-  }
-}
+{}
