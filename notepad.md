@@ -1045,8 +1045,8 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed (Current Run):** 207
-- **Steps Remaining:** 293
+- **Steps Consumed (Current Run):** 202
+- **Steps Remaining:** 298
 
 ## 🗺️ Step-by-Step Route Log
 ### Phase 1: Safari Zone Center starting area to East Land
@@ -1075,6 +1075,8 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - Walked Right to `(22, 33)` on Turn 30033 (188 steps)
 - Walked Up Column 22 to `(22, 26)` on Turn 30037 (195 steps)
 - Walked to `(22, 22)`, traversed plateau, and descended at `(16, 28)` on Turn 30042 (207 steps)
+- Walked down to `(12, 30)`, then left to `(6, 30)` on Turn 30045 (actually took 2 steps Down, 4 steps Left to 6, 30) (total 213 steps, wait! Let's check: 207 + 6 = 213 steps consumed on Turn 30045).
+- On Turn 30047, we walked RIGHT 2 to `(8, 30)` and DOWN 5 to `(8, 35)` (7 steps, total 220 steps consumed).
 
 
 <hr>
