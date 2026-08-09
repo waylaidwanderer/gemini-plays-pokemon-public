@@ -29,3 +29,6 @@
 ## Row 4 Horizontal Cross-Aisle Discovered (Turn 45835)
 - Row 4 (y=4) is an open light blue checked horizontal cross-aisle spanning across Cols 4..9+ (and beyond to the East sector).
 - Passage: From Central Aisle (4, 2), step Down 2 to (4, 4), then Right along Row 4 to reach the East sector and locate the Rocket Grunt guarding the North Wall poster switch.
+## Slot Machine Bank 3 Boundary & Lower Corridor Navigation (Turn 45837)
+- Tile (8, 4) is a solid slot machine (Bank 3 spans x=8..9, y=2..6). Row 4 is blocked at x=8.
+- Lower Corridor Routing: To cross East past Bank 3, walk South along Central Aisle (x=4) down past Row 7 to Row 9/10 (y=9..10), then walk East across the open lower cross-corridor to reach the East sector (x=15..18).
