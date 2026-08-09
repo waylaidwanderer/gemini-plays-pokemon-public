@@ -1,12 +1,12 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 46922)
-- Location: Game Corner Main Casino Floor at (4, 11) facing Up.
+## CURRENT STATUS & DASHBOARD (Turn 46927)
+- Location: Fighting Dojo 1F (Saffron City) at (5, 8) facing Up.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Confront Rocket Grunt at (5, 7) on Main Casino floor, defeat him, press secret poster switch on North Wall to reveal staircase to Rocket Hideout B1F.
+- Active Objective: Exit Fighting Dojo to Saffron City, travel West through West Gatehouse / Route 7 to Celadon City, and enter Game Corner.
 - Persistent Facts:
-  - Inside Game Corner Main Casino floor (4, 11).
-  - Rocket Grunt standing at (5, 7) facing Down.
+  - Discovered player is currently inside Saffron City Fighting Dojo 1F at (5, 8) via on-screen dialogue text "The prime fighters across the land".
+  - Need to exit Fighting Dojo at (4, 11), head West to Saffron West Gatehouse (7, 2), enter Route 7, and walk West to Celadon City.
 
 <hr>
 
