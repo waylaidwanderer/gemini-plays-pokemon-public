@@ -1,15 +1,13 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 45781)
-- Location: East Celadon City at (17, 27).
+## CURRENT STATUS & DASHBOARD (Turn 45785)
+- Location: Main Celadon Game Corner Casino Floor at (2, 7).
 - Primary Goal: Infiltrate Main Rocket Hideout B1F/B2F/B3F/B4F and obtain Silph Scope.
 - Persistent Strategy:
-  - Systematically test candidate building doors in East Celadon City using single-step movement protocol.
-  - Candidate 1: Door at (13, 25).
-  - Candidate 2: Doors at (19, 25), (20, 25), (21, 25).
-  - Document each verified building warp in Locations/Celadon_City.md.
-  - Locate Main Game Corner Casino floor door, enter casino, locate Rocket Grunt guarding North Wall poster switch.
-  - Defeat Grunt, press poster switch to reveal secret staircase to Rocket Hideout B1F, defeat Giovanni for Silph Scope.
+  - Entered Main Game Corner Casino Floor via East Celadon door (13, 25).
+  - Walk to (5, 5) directly South of Rocket Grunt at (5, 4).
+  - Defeat Rocket Grunt at (5, 4), press A on North Wall poster behind him to reveal secret staircase to Rocket Hideout B1F.
+  - Enter secret staircase to Rocket Hideout B1F, defeat Giovanni for Silph Scope.
 
 <hr>
 
