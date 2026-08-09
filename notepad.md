@@ -1,6 +1,6 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 45277)
+## CURRENT STATUS & DASHBOARD (Turn 45280)
 - Location: Celadon City at (10, 12).
 - Primary Goal: Infiltrate Main Game Corner Casino in East Celadon and obtain Silph Scope from Giovanni in Rocket Hideout.
 - Master Highway Route to East Celadon & Door Inspection Protocol:
