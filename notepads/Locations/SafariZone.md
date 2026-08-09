@@ -68,9 +68,7 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
   - **Cliff Boundary (Row 16, Column 4):** Row 16 is blocked on Column 4 by the plateau's western cliff face, preventing direct horizontal traversal off the plateau. Players must use the West Stairs at `(6, 19)` to descend.
 - **Column 18 Vertical Barrier (Rows 20-23):** A solid tree/wall structure running vertically on Column 18 across rows 20-23, blocking horizontal ground-level passage.
 - **Horizontal Cliff Wall (Rows 24-25):** Runs horizontally across the map, separating the north ground level from the south ground level:
-  - Row 24 on Columns 2-9 is solid cliff wall/trees (Column 19 is the open gap to the south).
-  - Row 25 on Columns 10-21 is solid cliff wall.
-  - Row 24 on Columns 22-29 is solid cliff wall.
+  - Row 24-25 has solid cliff wall/trees across columns 2-29. Column 19 was hypothesized to be a gap, but it was empirically verified on Turn 29735 and Turn 29878 to be blocked by a solid bush/tree at (19, 25). The westernmost edge (Column 0) remains to be tested as the possible true pathway to the south.
 
 ### Western Ground Level & Items
 - **Western Ground Grass (Rows 20-24, Columns 2-12):** A large patch of tall grass where wild battles can occur.
