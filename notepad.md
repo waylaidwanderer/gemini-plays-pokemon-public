@@ -757,13 +757,13 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 46932)
-- Location: Saffron City at (26, 4) facing Down (outside Fighting Dojo).
+## CURRENT STATUS & DASHBOARD (Turn 46952)
+- Location: Saffron City at (1, 2) facing Left.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Navigate West across Saffron City through West Gatehouse (7, 2) / Route 7 to Celadon City.
+- Active Objective: Test West Gatehouse doorway access on Row 2 at (7, 2) / (8, 2) to enter Route 7 Gatehouse and proceed West to Celadon City.
 - Persistent Facts:
-  - Exited Fighting Dojo into Saffron City at (26, 4).
-  - Need to navigate West to West Gatehouse at (7, 2), pass through to Route 7, and walk West to Celadon City.
+  - Column 0 (x=0) is a solid stone wall / arch across y=1..6 (bumped at 0,2).
+  - Row 2 Northern Highway is open across x=1..16.
 
 <hr>
 
