@@ -110,3 +110,7 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
   3. Walk South 9 down Column 2 to Row 30 South Street at (2, 30).
   4. Walk Right 18 along Row 30 South Street to Column 20 at (20, 30).
   5. Walk South 6 along Column 20 to (20, 36) warp into Game Corner Plaza.
+## Northern Highway Row 18/19 Bypass to West Celadon Highway (Turn 45912)
+- Rhydon Statues: Located at Cols 3..4, Rows 20..24.
+- Northern Highway (Rows 18..19): Rows 18 and 19 (y=18, y=19) are open light grey pavement spanning East-West across Cols 3..12 ABOVE the Rhydon statues.
+- Route to Column 2: From (7, 20), step Up 1 to (7, 19), Left 5 steps along Row 19 highway across (4, 19) and (3, 19) directly into Column 2 at (2, 19).
