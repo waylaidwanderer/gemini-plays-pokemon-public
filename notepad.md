@@ -1019,8 +1019,8 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 256
-- **Steps Remaining:** 244 (As of Turn 28606 at Area 3 (West) `(21, 16)`)
+- **Steps Consumed:** 281
+- **Steps Remaining:** 219 (As of Turn 28610 at Area 3 (West) `(6, 20)`)
 
 ## 🗺️ Step-by-Step Route to Secret House
 
