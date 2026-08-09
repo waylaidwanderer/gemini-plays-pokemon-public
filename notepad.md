@@ -1320,6 +1320,8 @@ Systematically probe every potential building doorway and alleyway warp in South
 - Tile (10, 12): Solid slot machine bank wall (bumped at 9, 12 -> 10, 12 on Turn 46036). Northbound vertical aisle is Column 9 at x=9.
 - Column 9 (x=9): Main open vertical floor aisle running North from Row 12 (9, 12) up to Row 2 North Wall aisle (9, 2).
 - Tile (10, 2): Solid wall block (bumped at 9, 2 -> 10, 2 on Turn 46039). Single-step inspection of Row 1 / Row 3 / Row 5 Eastbound passages along Column 9.
+- Tile (10, 1): Solid wall block (bumped at 9, 1 -> 10, 1 on Turn 46041). Row 13 / Row 14 is the main open South Entrance Highway running East-West across all casino sectors.
+- Master Casino Route: Walk South down Column 9 (x=9) to Row 13 (9, 13), East along Row 13 to Column 18 (18, 13), and North along Column 18 to Rocket Grunt at North Wall (18, 2).
 
 <hr>
 
