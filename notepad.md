@@ -1212,5 +1212,6 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - Walked UP Column 8 to `(8, 18)` (4 steps)
 - Walked UP Column 8 to `(8, 13)` (5 steps)
 - Walked UP Column 8 to `(8, 8)` (5 steps)
+- Walked RIGHT 4 steps to `(12, 8)`, then UP 2 steps to plateau at `(12, 6)` (6 steps)
 
 <hr>
