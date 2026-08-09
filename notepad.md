@@ -1298,6 +1298,8 @@ Systematically probe every potential building doorway and alleyway warp in South
 - West Room Interior: Small 8x8 room (x=0..7, y=0..7). Exit red carpet at (2,7)/(3,7) warps to East Celadon City (13,25).
 - Door (13, 25) in East Celadon City enters this small 8x8 West Room only, NOT the Main Casino Floor!
 - True Main Casino Access: From East Celadon City (13, 26), walk East to Column 17 South Avenue, South to Row 30, East to Column 20, and South to tile (20, 36) warp into Game Corner Plaza. Then enter door (10, 2) in Game Corner Plaza to access the Main Casino floor where the Rocket Grunt and poster switch are located.
+- Column 5 (x=5): Open vertical floor aisle running North from Row 12 (5, 12) up to North Wall (5, 2).
+- Tile (4, 7): Slot machine counter (bumped at 4, 8 -> 4, 7 on Turn 46024). Vertical aisle to North Wall is Column 5 at x=5.
 
 <hr>
 
