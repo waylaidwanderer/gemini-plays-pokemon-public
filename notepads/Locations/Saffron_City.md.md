@@ -5,13 +5,11 @@
 - Gatehouse Exit Arrival: Player lands at Saffron City (8, 2) when exiting West Gatehouse.
 
 ### Points of Interest & Verified Topology
-- Northwest Building: Yellow roof at y=8..9, windows at y=10, brick wall at y=11 across x=12..17.
-- Saffron West Gatehouse: Connects Saffron City to Route 7 via Northern Highway at (7, 2)/(8, 2).
-- Northern Highway (Row 2): Main open East-West highway running along Row 2 above Northwest building across x=8..16.
-- Column 8 Connecting Street: Open North-South street at x=8 connecting Row 2 North Street down to Row 15 South Street.
-- Row 15 South Street: Open East-West pavement corridor on Row 15 spanning x=5..16.
-- Column 17 Wooden Fence: EMPIRICALLY CONFIRMED SOLID barrier across Rows 2..15 (bumped at 17, 2 on turn 41234).
-- Row 16 Tree Wall: Solid dark green tree wall across Rows 16..19 spanning Cols 4..19.
+- Saffron West Gatehouse: Located at Northern Highway (Row 2). Gatehouse building spans x=2..6, y=3..6. Column 0 is a solid stone wall across y=1..6 (bumped at 0,2 on turn 46800). Doorway entrance/warp is accessed at (7, 2) / (7, 3) / (8, 2).
+- Northern Highway (Row 2): Main open East-West pavement highway running along Row 2 across x=1..16.
+- Northwest Residence: Located at x=4..13, y=3..5 with door at (7, 5). Rocket Grunt at (8, 5) blocks direct northbound passage through Column 8.
+- Column 2 West Highway: Open North-South pavement passage at x=2, y=6..7 and Column 1 grass at x=1, y=2..6 connecting Row 7 to Row 2 Northern Highway.
+- Column 17 Wooden Fence: Open passage at (17, 7) allows seamless travel between East/Central Saffron and West Saffron.
 
 ### Row 7 Central-West Passage Discovered (Turn 41728)
 - Row 7 at (17, 7) is an OPEN light grey pavement passage through Column 17 fence, allowing seamless travel between East/Central Saffron (Cols 18..39) and West Saffron (Cols 2..16).
