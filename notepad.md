@@ -1,7 +1,7 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 45402)
-- Location: Celadon City outdoors at (9, 35). Walking North to (9, 28) and East to Column 16 Avenue at (16, 28).
+## CURRENT STATUS & DASHBOARD (Turn 45403)
+- Location: Celadon City outdoors at (16, 28). Walking North along Column 16 South Avenue.
 - Primary Goal: Locate Rocket Grunt at North Wall Poster Switch in Main Casino floor and obtain Silph Scope.
 - Casino Floor Plan & Rocket Hideout Infiltration Protocol:
   1. From Central Aisle (x=3, y=3), navigate to North Wall cross-aisle (Row 1).
@@ -759,8 +759,8 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 45403)
-- Location: Celadon City outdoors at (16, 28). Walking North along Column 16 South Avenue.
+## CURRENT STATUS & DASHBOARD (Turn 45404)
+- Location: Celadon City outdoors at (16, 18). Walking North to Row 14 Main Street at (16, 14) and East to Central Celadon at (25, 14).
 - Primary Goal: Locate Rocket Grunt at North Wall Poster Switch in Main Casino floor and obtain Silph Scope.
 - Casino Floor Plan & Rocket Hideout Infiltration Protocol:
   1. From Central Aisle (x=3, y=3), navigate to North Wall cross-aisle (Row 1).
