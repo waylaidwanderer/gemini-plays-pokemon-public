@@ -1201,6 +1201,7 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
   - **East Stairs (Plateau Access):** Located at `(21, 17)`. Facing Left/Right, these stairs allow the player to climb UP onto the plateau from ground level row 18, column 21.
   - **West Stairs (Plateau Descent):** Located at `(6, 19)`. Facing Down, these stairs allow the player to descend from the plateau onto the western ground level grass.
   - **Note:** The Plateau completely blocks ground-level horizontal crossing on rows 15-18.
+  - **Cliff Boundary (Row 16, Column 4):** Row 16 is blocked on Column 4 by the plateau's western cliff face, preventing direct horizontal traversal off the plateau. Players must use the West Stairs at `(6, 19)` to descend.
 - **Column 18 Vertical Barrier (Rows 20-23):** A solid tree/wall structure running vertically on Column 18 across rows 20-23, blocking horizontal ground-level passage.
 - **Horizontal Cliff Wall (Rows 24-25):** Runs horizontally across the map, separating the north ground level from the south ground level:
   - Row 24 on Columns 2-9 is solid cliff wall/trees (Column 19 is the open gap to the south).
@@ -1212,8 +1213,8 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - **Max Potion:** Located on the ground at `(8, 20)`. This is a solid overworld item ball sprite. It was successfully picked up by standing at `(7, 20)` facing Right on Turn 27623.
 - **Signpost at (24, 22):** Reads "AREA 3 EAST: CENTER AREA" (Turn 27655).
 
-- **The Secret House:** Located in the southernmost ground level (Rows 26-29) on the west side. Inside, the host gives you HM03 (Surf).
-- **The Gold Teeth:** Located on the ground in the southernmost ground level (Rows 26-29) on the east side (coordinate hypothesis: `(19, 7)` is unverified, likely `(19, 27)` or similar).
+- **The Secret House (Unverified Spatial Hypothesis):** Hypothesized to be located in the southernmost ground level (Rows 26-29) on the west side. Inside, the host gives you HM03 (Surf).
+- **The Gold Teeth (Unverified Spatial Hypothesis):** Hypothesized to be located on the ground in the southernmost ground level (Rows 26-29) on the east side (coordinate hypothesis: `(19, 7)` is unverified, likely `(19, 27)` or similar).
 
 ## Area 1 (East) Detailed Overworld Layout & Barriers
 
