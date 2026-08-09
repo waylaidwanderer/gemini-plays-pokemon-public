@@ -1049,8 +1049,10 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - Walked Right to Column 13: `(10, 24) -> (13, 24)` (3 steps).
 - Walked Right to Column 19: `(13, 24) -> (19, 24)` (6 steps). Battle Nidoran♀.
 - Cleared battle and walked to `(20, 24)` (1 step).
-- **Steps Consumed so far:** 53 steps (447 steps remaining).
-- **Current Position:** standing at `(20, 24)`.
+- Walked Up to `(20, 22)` (2 steps).
+- Walked Up onto stairs: `(20, 22) -> (20, 21)` (1 step).
+- **Steps Consumed so far:** 56 steps (444 steps remaining).
+- **Current Position:** Standing on Southern Plateau East stairs at `(20, 21)`.
 
 <hr>
 
