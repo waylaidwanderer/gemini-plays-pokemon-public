@@ -2,8 +2,8 @@
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 298
-- **Steps Remaining:** 202 (As of Turn 28847 - At (14, 23) in Safari Zone Area 3 (West))
+- **Steps Consumed:** 306
+- **Steps Remaining:** 194 (As of Turn 28852 - At (6, 23) in Safari Zone Area 3 (West))
 
 ## 🗺️ Step-by-Step Route to Secret House (Run starting Turn 28727)
 
@@ -59,6 +59,7 @@
 - Explored Row 24-25 barrier: Walked Down to `(10, 24)` (2 steps) and verified Row 25 Columns 10-15 is solid cliff.
 - Walked Right to `(15, 24)` (5 steps) and verified Column 16 Row 24 is a solid hedge.
 - Backtracked to reach plateau: Walked Up to `(15, 23)` (1 step), Left to `(14, 23)` before wild battle (1 step).
+- Walked Left to `(6, 23)` before wild battle with Venomoth (8 steps).
 
 ---
 
