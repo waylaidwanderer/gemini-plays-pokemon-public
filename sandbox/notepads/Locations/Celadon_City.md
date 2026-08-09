@@ -37,3 +37,4 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Column 20 Tree Wall: Solid green tree forest spanning x=20..24 across y=4..24.
 - Column 16/17 South Avenue: Columns 16 and 17 (x=16, x=17) form an open light grey pavement street running South along y=20..36 between tree walls.
 - Eastbound Crossing to Game Corner: Walk South along Column 17 avenue to Row 30 South Street at (17, 30), then Right 3 to (20, 30), then Down along Column 20 to (20, 36) warp into Game Corner Plaza.
+- Column 13 Pond Bridge (Verified Turn 44887): Tile (13, 28) leads UP across Column 13 bridge walkway (13, 27..24) to map transition warp at (13, 23) directly connecting West Celadon to Central/East Celadon (Main Game Corner plaza).
