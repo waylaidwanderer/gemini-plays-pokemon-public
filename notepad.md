@@ -1192,32 +1192,35 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 0
-- **Steps Remaining:** 500 (As of Turn 28727 - New Run Starting)
+- **Steps Consumed:** 150
+- **Steps Remaining:** 350 (As of Turn 28801 - At (14, 6) in Safari Zone Center)
 
 ## 🗺️ Step-by-Step Route to Secret House (Run starting Turn 28727)
 
 ### Phase 1: Safari Zone Center (South) -> Area 1 (East)
 - Start at `(15, 25)`
-- **Next:** Walk to transition `(29, 10)` -> enter Area 1 (East) at `(0, 22)`.
-- Walked Up to `(15, 24)` (1 step).
-- Walked Up to `(15, 22)` (2 steps).
-- Walked Right to `(21, 22)` (6 steps).
-- Walked Right to `(23, 22)` (2 steps).
-- Walked Right to Column 28, Up to Row 10, Right to transition: `(23, 22) -> (29, 10)` (18 steps).
-- **Total in Center:** 29 steps.
+- Walked Up to `(15, 22)` and Right to `(29, 10)` (29 steps).
+- Transitioned to Area 1 (East) at `(0, 22)`.
 
 ### Phase 2: Area 1 (East) -> Southern Plateau
-- Confirm transition at Area 1 `(0, 22)`.
-- Walked Right to Column 5: `(0, 22) -> (5, 22)` (5 steps).
-- Bypassed Rhydon statues: Left to Column 4, Down 2 to Row 24: `(5, 22) -> (4, 24)` (3 steps).
-- Walked Right to Column 10: `(4, 24) -> (10, 24)` (6 steps).
-- Walked Right to Column 13: `(10, 24) -> (13, 24)` (3 steps).
-- Walked Right to Column 19: `(13, 24) -> (19, 24)` (6 steps). Battle Nidoran♀.
-- Cleared battle and walked to `(20, 24)` (1 step).
-- Walked Up to `(20, 22)` (2 steps).
-- Walked Up onto stairs: `(20, 22) -> (20, 21)` (1 step).
-- **Steps Consumed so far:** 56 steps (444 steps remaining).
-- **Current Position:** Standing on Southern Plateau East stairs at `(20, 21)`.
+- Bypassed Rhydon statues and reached Southern Plateau East stairs at `(20, 21)` (27 steps).
+- Climbed onto plateau and walked Left to `(12, 20)` (9 steps).
+
+### Phase 3: Area 1 (East) -> Northern Plateau -> Area 2 (North)
+- Descended stairs to `(12, 22)` and walked to column 8 at `(8, 22)` (6 steps).
+- Walked UP column 8 to row 8 `(8, 8)`, then Right to `(12, 8)` and UP onto Northern Plateau at `(12, 6)` (10 steps).
+- Crossed Northern Plateau, descended at `(17, 8)`, walked to column 20 row 5 `(20, 5)` (13 steps).
+- Walked to row 3 `(17, 3)` (5 steps).
+- Walked Left on row 3 to `(8, 3)` (9 steps total, 3 before battle at (14,3), 6 after).
+- Walked Down to row 5, Left to `(0, 5)` and transitioned to Area 2 (North) `(39, 31)` (11 steps).
+
+### Phase 4: Area 2 (North) -> Safari Zone Center (North)
+- Walked Left along row 31 to `(21, 31)` (18 steps total, 2 before battle at (27,31), 6 after).
+- Walked Down to `(21, 36)` and transitioned to Safari Zone Center at `(15, 0)` (6 steps).
+
+### Phase 5: Safari Zone Center -> Area 3 (West)
+- Walked Down column 15 to `(15, 6)` (6 steps).
+- Walked Left towards column 12 to bypass pond, reached `(14, 6)` before battle (1 step).
+
 
 <hr>
