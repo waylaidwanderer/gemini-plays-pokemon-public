@@ -1,3 +1,4 @@
 - Row 17 (0, 17): Stepping onto (-1, 17) triggers loop warp to (19, 9) (empirically confirmed turn 46864).
 - Row 16 (0, 16): Stepping onto (-1, 16) triggers loop warp to (19, 8) (empirically confirmed turn 46870).
 - Row 15 (0, 15): Stepping onto (-1, 15) triggers loop warp to (19, 7) (empirically confirmed turn 46876).
+- Row 14 (0, 14): Stepping onto (-1, 14) triggers loop warp to (19, 6) (empirically confirmed turn 46882).
