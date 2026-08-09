@@ -2,8 +2,8 @@
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 309
-- **Steps Remaining:** 191 (As of Turn 28857 - At (6, 20) in Safari Zone Area 3 (West))
+- **Steps Consumed:** 353
+- **Steps Remaining:** 147 (As of Turn 28874 - At (29, 23) in Safari Zone Area 3 (West))
 
 ## 🗺️ Step-by-Step Route to Secret House (Run starting Turn 28727)
 
@@ -61,10 +61,12 @@
 - Backtracked to reach plateau: Walked Up to `(15, 23)` (1 step), Left to `(14, 23)` before wild battle (1 step).
 - Walked Left to `(6, 23)` before wild battle with Venomoth (8 steps).
 - Walked Up column 6 to `(6, 20)` before wild battle with Exeggcute (3 steps).
+- Walked Left to `(1, 15)` in Center (4 steps). Blocked by Column 0 Row 15 hedge.
+- Walked Up Column 1 to Row 11 `(1, 11)`, Left to transition back to Area 3 (West) at `(29, 23)` (5 steps).
 
 ---
 
 ## 🔬 Spatial Hypotheses (Unverified)
 - **The Secret House:** Hypothesis: Located in southernmost ground level (Rows 26-29) on the west side. Inside, the host gives you HM03 (Surf).
 - **The Gold Teeth:** Hypothesis: Located in southernmost ground level (Rows 26-29) on the east side (coordinate hypothesis: likely (19, 27) or similar).
-- **Southern Descent Corridor:** Hypothesis: Located on the absolute eastern edge of Column 18, specifically Column 19 and Column 20, running Down past Row 25.
+- **Southern Descent Corridor:** Hypothesis: Located on the absolute western edge (Column 3 or 4), running Down past Row 24/25.
