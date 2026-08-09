@@ -2,8 +2,8 @@
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 253 (Turn 29181, standing at (9, 16) in Area 3 (West))
-- **Steps Remaining:** 247
+- **Steps Consumed:** 268 (Turn 29191, standing at (10, 24) in Area 3 (West))
+- **Steps Remaining:** 232
 
 ## 🗺️ Step-by-Step Route Log
 
@@ -66,6 +66,9 @@
 
 ### Phase 5: Plateau Descent and Southern Ground Level (In Progress)
 1. Walk LEFT 3 steps to `(6, 16)`.
-2. Walk DOWN 4 steps to `(6, 20)` to descend the West Stairs.
-3. Walk DOWN to the southernmost ground level.
-4. Locate the Gold Teeth (eastern southernmost ground) and HM03 Surf (Secret House in the western southernmost ground).
+2. Walk DOWN 4 steps to `(6, 20)` to descend the West Stairs (7 steps).
+3. Walk DOWN 3 steps to `(6, 23)` (3 steps).
+4. Walk RIGHT 4 steps to `(10, 23)` (4 steps).
+5. Walk DOWN 1 step to `(10, 24)` (1 step).
+   - *Empirical Test at (10, 24):* Attempted to walk DOWN into (10, 25). Confirmed blocked/collision. This empirically proves that Row 25 Column 10 is indeed a solid cliff wall (confirming our notes that Row 25 Columns 10-21 is a solid cliff wall).
+6. **Active Goal:** Walk RIGHT along Row 24 to reach Column 19, then walk DOWN to transition to the southernmost ground level.
