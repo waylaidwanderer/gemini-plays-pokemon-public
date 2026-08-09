@@ -1,7 +1,7 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 46588)
-- Location: Game Corner Plaza at (20, 0).
+## CURRENT STATUS & DASHBOARD (Turn 46591)
+- Location: Game Corner Plaza at (10, 35).
 - Primary Goal: Infiltrate Main Rocket Hideout B1F/B2F/B3F/B4F and obtain Silph Scope.
 - Persistent Facts:
   - Inside True Main Game Corner Casino Floor at (3, 7) facing North.
@@ -1138,13 +1138,10 @@ Systematically probe every potential building doorway and alleyway warp in South
 ## Verified Unblocked Route Through Game Corner Plaza (Turn 46394)
 - Column 10 at y=23 is blocked by a brick wall ledge.
 - Column 15 (x=15) is an OPEN vertical grass corridor running all the way North from Row 28 (15, 28) past Row 19 (15, 19) to Row 0 (15, 0) warp back into Celadon City (20, 36).
-## EMPIRICAL PROOF (Turn 46561)
+## EMPIRICAL MAP FACTS (Turn 46591)
 - Door (10, 33) in Game Corner Plaza enters ONLY the 8x6 Prize Exchange room (x=0..7, y=0..5) with exit carpets at (3, 5)/(4, 5).
-- Door (20, -3) in Game Corner Plaza (x=20, y=-3) is the TRUE MAIN ENTRANCE DOORWAY to the Main Game Corner Casino Floor (building with "GAME" sign at 25, 2).
-## EMPIRICAL PROOF (Turn 46575)
-- Bank 2 (x=5..6, y=1..4) is 100% SOLID counter wall (bumped at 5,1; 5,2; 5,3; 5,4).
-- The Prize Exchange room (x=0..7, y=0..5) is completely self-contained with no internal passage to the Main Casino floor.
-- True Main Casino entrance is door (10, 2) in Game Corner Plaza at North entrance (10, 0).
+- Tiles (20, -3) / (20, 0) and (10, 40) are MAP BOUNDARY WARPS between Game Corner Plaza and Celadon City.
+- Main Casino Floor entrance door is located along the South building facade (Row 38 / Row 39, x=13..25).
 
 <hr>
 
