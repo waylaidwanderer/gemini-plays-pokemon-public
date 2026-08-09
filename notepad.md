@@ -1,7 +1,7 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 45361)
-- Location: Celadon Game Corner Main Casino Floor at (6, 3).
+## CURRENT STATUS & DASHBOARD (Turn 45372)
+- Location: Celadon Game Corner West Room at (9, 7). Exiting to Celadon City to enter Main Casino at (25, 25).
 - Primary Goal: Locate Rocket Grunt at North Wall Poster Switch in Main Casino floor and obtain Silph Scope.
 - Casino Floor Plan & Rocket Hideout Infiltration Protocol:
   1. From Central Aisle (x=3, y=3), navigate to North Wall cross-aisle (Row 1).
