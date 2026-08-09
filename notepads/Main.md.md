@@ -1,7 +1,7 @@
-## CURRENT STATUS & DASHBOARD (Turn 46486)
-- Location: Celadon Game Corner at (3, 7).
+## CURRENT STATUS & DASHBOARD (Turn 46490)
+- Location: Celadon City at (17, 28) directly in front of Main Casino Door at (17, 27).
 - Primary Goal: Infiltrate Main Rocket Hideout B1F/B2F/B3F/B4F and obtain Silph Scope.
 - Persistent Facts:
-  - Inside True Main Game Corner Casino Floor.
-  - Rocket Grunt guarding secret poster switch is located on the North Wall in the East sector at (18, 2).
-  - Defeating the Rocket Grunt and pressing A on poster reveals secret staircase to Rocket Hideout B1F.
+  - Main Game Corner Casino entrance is located at Celadon City (17, 27).
+  - Standing at Celadon City (17, 28) facing North directly in front of doorway (17, 27).
+  - Secret poster switch on Main Casino Floor North Wall reveals secret staircase to Rocket Hideout B1F.
