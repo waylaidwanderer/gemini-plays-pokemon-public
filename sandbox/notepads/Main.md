@@ -1,11 +1,10 @@
-## CURRENT STATUS & DASHBOARD (Turn 46051)
-- Location: Celadon City at (34, 27).
+## CURRENT STATUS & DASHBOARD (Turn 46055)
+- Location: Celadon Game Corner at (4, 13).
 - Primary Goal: Infiltrate Main Rocket Hideout B1F/B2F/B3F/B4F and obtain Silph Scope.
 - Current Strategy:
-  - Return North along Column 34 (x=34) to Row 20 Highway at (34, 20).
-  - Walk West along Row 20 Highway via Column 22 Gym bypass to Column 17 South Avenue at (17, 20).
-  - Walk North along Column 17 South Avenue to Row 18 Northern Highway at (17, 18).
-  - Walk East along Row 18 Northern Highway across Column 35 grass gap at (35, 18) to Column 36 East Highway at (36, 18).
-  - Walk South down Column 36 East Highway to Row 30 South Street at (36, 30).
-  - Walk West along Row 30 South Street to Column 20 at (20, 30) and South along Column 20 to Game Corner Plaza (20, 36).
-  - Enter door (10, 2) in Game Corner Plaza into True Main Casino Floor, defeat Rocket Grunt at North Wall poster, press switch to enter Rocket Hideout B1F, and defeat Giovanni.
+  - Inside Celadon Game Corner Main Casino Floor at (4, 13).
+  - Walk Up 5 along Column 4 to (4, 8), Right 1 to Column 5 (5, 8), Down 4 to Row 12 Cross-Highway at (5, 12).
+  - Walk Right 13 along Row 12 to Column 18 at (18, 12), North 10 along Column 18 to Rocket Grunt at North Wall (18, 2).
+  - Talk to Rocket Grunt to initiate battle and defeat him.
+  - Press A facing poster switch at (18, 2) to reveal secret staircase to Rocket Hideout B1F.
+  - Enter Rocket Hideout B1F, navigate to B4F, defeat Giovanni, and obtain Silph Scope.
