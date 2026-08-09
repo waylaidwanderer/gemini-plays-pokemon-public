@@ -2,8 +2,8 @@
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 388
-- **Steps Remaining:** 112 (As of Turn 28880 - At (4, 20) in Safari Zone Area 3 (West))
+- **Steps Consumed:** 394
+- **Steps Remaining:** 106 (As of Turn 28887 - At (6, 20) in Safari Zone Area 3 (West))
 
 ## 🗺️ Step-by-Step Route to Secret House (Run starting Turn 28727)
 
@@ -67,6 +67,10 @@
 - Walked Left to `(24, 14)` (blocked by cliff at 23,14), then Down to `(24, 18)` (11 steps).
 - Walked Left to `(21, 18)`, climbed East stairs onto plateau, crossed to `(6, 16)` (20 steps).
 - Descended West stairs to `(6, 20)` (4 steps), walked Left to `(4, 20)` before wild battle with Venonat (2 steps).
+- Walked Up Column 4 to Row 20 `(4, 20)` (1 step).
+- Escaped battle.
+- Walked Up to `(3, 20)` (3 steps).
+- Walked Right to `(6, 20)` before wild battle with Venonat (3 steps).
 
 ---
 
