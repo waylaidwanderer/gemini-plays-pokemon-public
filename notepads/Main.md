@@ -1,6 +1,7 @@
-## CURRENT STATUS & DASHBOARD (Turn 46741)
-- Location: Saffron City at (11, 2) facing East.
+## CURRENT STATUS & DASHBOARD (Turn 46771)
+- Location: Saffron City at (39, 17) facing East.
 - Primary Goal: Travel to Celadon City Game Corner and obtain Silph Scope.
 - Persistent Facts:
-  - Saffron West Gatehouse door (7, 5) is blocked by Team Rocket Grunt (7, 6).
-  - Traveling East across Row 2 Northern Highway to Column 20, South to Row 7 passage, East to Saffron East Gatehouse (39, 17) -> Route 8 -> Underground Path -> Route 7 -> Celadon City.
+  - Stepping Right 3 times from Saffron City (39, 17) warps onto Route 8 at (0, 9).
+  - Tile (-1, 9) on Route 8 is the map warp tile back to Saffron City (39, 17). DO NOT STEP LEFT from (0, 9)!
+  - From Route 8 (0, 9), test EASTWARD movement (Right) to navigate Route 8 towards Underground Path entrance building at (13, 6).
