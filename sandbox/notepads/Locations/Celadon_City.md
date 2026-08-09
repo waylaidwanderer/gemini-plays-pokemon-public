@@ -131,3 +131,4 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
   5. Walk South 12 down Column 36 East Highway to Row 30 South Street at (36, 30).
   6. Walk West 16 along Row 30 South Street to Column 20 at (20, 30).
   7. Walk South 6 along Column 20 to (20, 36) warp into Game Corner Plaza.
+- Tile (27, 21) Signboard: Empirically confirmed SOLID OBSTACLE (bumped at 28, 21 -> 27, 21 on Turn 46003). Westbound highway travel across Central Celadon is via Row 20 Pavement Highway at (28, 20) -> (17, 20).
