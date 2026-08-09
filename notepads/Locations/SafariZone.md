@@ -68,7 +68,15 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
   - **Cliff Boundary (Row 16, Column 4):** Row 16 is blocked on Column 4 by the plateau's western cliff face, preventing direct horizontal traversal off the plateau. Players must use the West Stairs at `(6, 19)` to descend.
 - **Column 18 Vertical Barrier (Rows 20-23):** A solid tree/wall structure running vertically on Column 18 across rows 20-23, blocking horizontal ground-level passage.
 - **Horizontal Cliff Wall (Rows 24-25):** Runs horizontally across the map, separating the north ground level from the south ground level:
-  - Row 24-25 has solid cliff wall/trees across columns 2-29. Column 19 was hypothesized to be a gap, but it was empirically verified on Turn 29735 and Turn 29878 to be blocked by a solid bush/tree at (19, 25). The westernmost edge (Column 0) remains to be tested as the possible true pathway to the south.
+  - Row 24-25 has a solid, continuous cliff wall and tree barrier across all columns on the west ground level.
+  - Empirical tests on Turn 29888 and 29889 confirmed Column 0 is blocked at Row 20, and Column 1 is blocked by a solid tree wall at (1, 24).
+  - Systematic tests on Turn 29919, 29920, and 29922 confirmed Column 10, Column 12, Column 13, Column 14, and Column 15 are completely blocked at Row 25 by the solid cliff wall.
+  - Column 19 was verified on Turn 29735 and 29878 to be blocked by a solid bush/tree at (19, 25).
+  - This proves that there is NO ground-level path in Area 3 (West) connecting the northern and southern ground levels.
+- **Plateau Map Dimensions & True Southern Entry:**
+  - The map height of Area 3 (West) is indeed 30 rows (Rows 0-29), physically housing the southern ground level (Rows 26-29) containing the Secret House (HM03 Surf) and Gold Teeth.
+  - Because of the solid Row 24-25 barrier, the southern ground level can ONLY be accessed by utilizing the Y-coordinate offset (+12 rows) on the map transition from Safari Zone Center to Area 3 (West).
+  - By walking LEFT at Column 0, Row 13 in Safari Zone Center, the player transitions directly onto the southern ground level at Column 29, Row 25 in Area 3 (West). From there, they can walk DOWN to Row 26 and walk LEFT all the way to find the Gold Teeth and the Secret House!
 
 ### Western Ground Level & Items
 - **Western Ground Grass (Rows 20-24, Columns 2-12):** A large patch of tall grass where wild battles can occur.
