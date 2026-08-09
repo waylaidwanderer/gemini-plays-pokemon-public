@@ -1074,6 +1074,8 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Tile (34, 28) Tree: Empirically confirmed SOLID TREE (bumped at 34, 27 -> 34, 28 on Turn 46049). Northbound bypass to Row 18 Northern Highway is via Column 34 (34, 27) -> (34, 20) -> Column 17 Avenue (17, 20) -> Row 18 (17, 18) -> Column 36 East Highway (36, 18) -> Row 30 South Street (36, 30).
 - Tile (33, 19) Fence Base: Empirically confirmed SOLID OBSTACLE (bumped at 33, 20 -> 33, 19 on Turn 46063). Row 18/19 across x=24..34 is a solid continuous building/fence barrier.
 - Master West Route to Game Corner Plaza (20, 36): From (34, 20), walk West along Row 20/21 Highway to Column 2 (2, 21), South 9 down Column 2 to Row 30 South Street (2, 30), East 18 along Row 30 to Column 20 (20, 30), and South 6 along Column 20 to (20, 36) Game Corner Plaza warp.
+- Row 19 Northern Highway Gap (Verified Turn 46068): Row 19 (y=19) is an open light grey pavement highway spanning East-West across x=1..8 above all Rhydon statues (x=1..4, y=20..28).
+- Master Route via West Celadon Highway: From (5, 20), step Up 1 to Row 19 Highway at (5, 19), Left 3 across (4, 19) pavement to Column 2 (2, 19), South 11 down Column 2 to Row 30 South Street (2, 30), East 18 along Row 30 to Column 20 (20, 30), and South 6 along Column 20 to (20, 36) Game Corner Plaza warp.
 
 <hr>
 
