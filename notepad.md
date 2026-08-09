@@ -1134,6 +1134,10 @@ Systematically probe every potential building doorway and alleyway warp in South
 ## Slot Machine Bank 3 Boundary & Lower Corridor Navigation (Turn 45837)
 - Tile (8, 4) is a solid slot machine (Bank 3 spans x=8..9, y=2..6). Row 4 is blocked at x=8.
 - Lower Corridor Routing: To cross East past Bank 3, walk South along Central Aisle (x=4) down past Row 7 to Row 9/10 (y=9..10), then walk East across the open lower cross-corridor to reach the East sector (x=15..18).
+## West Room Topology & Main Casino Access Clarification (Turn 45838)
+- West Room Interior: Small 8x8 room (x=0..7, y=0..7). Exit red carpet at (2,7)/(3,7) warps to East Celadon City (13,25).
+- Door (13, 25) in East Celadon City enters this West Room only, NOT the Main Casino Floor!
+- True Main Casino Access: From East Celadon City (13, 26), walk East to Column 17 South Avenue, South to Row 30, East to Column 20, and South to tile (20, 36) warp into Game Corner Plaza. Then enter door (10, 2) in Game Corner Plaza to access the Main Casino floor where the Rocket Grunt and poster switch are located.
 
 <hr>
 
