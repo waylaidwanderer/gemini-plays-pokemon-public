@@ -1191,3 +1191,9 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
   4. Walk UP Column 31 to Row 13, and walk RIGHT onto the East Stairs at `(32, 13)` to climb onto the plateau!
 
 <hr>
+
+<h1><code>notepads/Scratchpad/SafariZone_Route.md</code></h1>
+
+
+
+<hr>
