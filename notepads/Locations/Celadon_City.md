@@ -38,3 +38,4 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Celadon South Pond: Blue water pond spans x=9..13 across y=25..27. South pavement at Row 28 connects East to Column 16/17 South Avenue at (16, 28). Column 16/17 pavement avenue (x=16, 17) runs North-South between y=20 and y=28.
 - Column 19 Statue Line: Statues span Column 19 (x=19) vertically from y=-3 down to y=18.
 - West Celadon Highway: Column 15 (x=15) is an open light grey pavement street running North-South across the west side of Celadon City.
+- Column 14 Brown Posts (y=16..24): Empirically confirmed SOLID (bumped at 14, 16 on turn 45099). Passage South to Row 28 is via Column 12/13 pavement corridor!
