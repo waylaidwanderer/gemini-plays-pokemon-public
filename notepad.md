@@ -1046,8 +1046,8 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed (Current Run):** 445
-- **Steps Remaining:** 55
+- **Steps Consumed (Current Run):** 448
+- **Steps Remaining:** 52
 
 ## 🗺️ Step-by-Step Route Log
 ### Phase 1: Return to Center Entrance and Go to Area 1 (East) [VERIFIED ACTUALLY WALKED]
