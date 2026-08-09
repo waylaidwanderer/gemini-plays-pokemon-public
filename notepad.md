@@ -1064,6 +1064,9 @@ Systematically probe every potential building doorway and alleyway warp in South
 - Game Corner West Room (x=0..7, y=0..7): A self-contained 8x8 interior room. Both Plaza Door A (10, 21) and Door B (17, 27) warp into the exact same indoor exit mat at (3, 7).
 - Game Corner Plaza Outdoor Barriers: Double barrels at Column 11 (x=11, y=28..29) and Column 14 (x=14, y=18..23).
 - Unblocked Outdoor North Route: From (12, 28), walk Up 2 to Row 26 (12, 26), Left 2 to Column 10 (10, 26), and North along Column 10 to tile (10, 0) warp back to Celadon City (20, 36).
+## Verified Unblocked Route Through Game Corner Plaza (Turn 46394)
+- Column 10 at y=23 is blocked by a brick wall ledge.
+- Column 15 (x=15) is an OPEN vertical grass corridor running all the way North from Row 28 (15, 28) past Row 19 (15, 19) to Row 0 (15, 0) warp back into Celadon City (20, 36).
 
 <hr>
 
