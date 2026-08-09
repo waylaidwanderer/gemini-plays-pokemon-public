@@ -133,3 +133,5 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
   7. Walk South 6 along Column 20 to (20, 36) warp into Game Corner Plaza.
 - Tile (27, 21) Signboard: Empirically confirmed SOLID OBSTACLE (bumped at 28, 21 -> 27, 21 on Turn 46003). Westbound highway travel across Central Celadon is via Row 20 Pavement Highway at (28, 20) -> (17, 20).
 - Tile (23, 19) Gym Corner Block: Empirically confirmed SOLID OBSTACLE (bumped at 23, 18 -> 23, 19 on Turn 46014). Southbound bypass to Row 20 Highway is via Column 22 pavement at (22, 18) -> (22, 20).
+- Column 34 Southbound Highway (Verified Turn 46047): Column 34 (x=34) is an open, unblocked southbound pavement/grass corridor running directly from Row 20 (34, 20) down through Row 28/29 grass to Row 30 South Street at (34, 30).
+- Master Route to Game Corner Plaza (20, 36): From (34, 20), walk South 10 down Column 34 to Row 30 South Street at (34, 30), West 14 along Row 30 to Column 20 at (20, 30), and South 6 along Column 20 to (20, 36) warp into Game Corner Plaza.
