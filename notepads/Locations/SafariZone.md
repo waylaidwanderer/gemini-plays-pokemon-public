@@ -104,14 +104,12 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 1. **Northeast Channel:** From Area 1 (East) ground level, walk UP Column 20 (which is completely open and walkable, including the tree graphic at `(20, 4)`) to Row 5 (`(20, 5)`).
 2. **Northern Corridor:** Walk LEFT along Row 5 to Column 0, then walk LEFT to transition to Area 2 (North) at `(39, 31)`.
 3. **Area 2 Southern Corridor:** Walk LEFT to Column 21, walk DOWN to Row 36, and walk DOWN into Safari Zone Center at `(15, 0)`.
-4. **Safari Zone Center South Crossing:** Walk DOWN to Row 10/11 (or Row 22), walk LEFT to Column 0, and walk UP to `(0, 11)` to transition directly into **Area 3 (West)**!
 ## Area 2 (North) - Completed Spatial Map & Route to East Stairs
 - Ground Level is on Rows 0-11 (North) and Rows 16-35 (South).
 - Rows 12-15 is the Northern Plateau (East side, columns 32-38).
 - Column 16 Bush Barrier (Rows 12-19) and Row 11 barriers (Rhydon statues at cols 21-31, trees at 16-17) completely divide the Northwest ground level from the Northeast and South ground levels.
 - The ONLY way to go from the Northwest ground level (Rest House 2, cols 1-15) to the South/East is to walk UP to Row 9, walk East along Row 9 (which is completely open and has 0% trees), and then walk back down.
 - On the East side, Columns 32-38 row 12-15 is the Northern Plateau. The East Stairs at `(32, 13)` and `(33, 13)` face WEST (accessed from Column 31 on the ground, walking RIGHT/EAST onto the stairs).
-- Column 31 is completely open on rows 12-13.
 - To reach Column 31 from the Southern Corridor (Row 30/31):
   1. Walk to Column 25 (ground level separation between Eastern and Western Southern Plateaus).
   2. Walk UP Column 25 past the plateaus to Row 17 (ground level).
