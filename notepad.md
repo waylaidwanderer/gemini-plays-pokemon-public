@@ -1188,31 +1188,34 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 
 <h1><code>Scratchpad/SafariZone_Route</code></h1>
 
-# Safari Zone - Active Route & Step Log
+# Safari Zone - Active Route & Step Log (Current Run)
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 500 (Steps exhausted on Run 1)
-- **Status:** Run 1 completed. Preparing for Run 2 (optimal direct route to Secret House and Gold Teeth).
+- **Steps Consumed:** 60
+- **Steps Remaining:** 440 (As of Turn 28952 - Standing at (22, 12))
 
-## 🧭 Definitive Layout Discovery: The Disjointed Northern & Southern Sections
-Through rigorous systematic testing of both collision mechanics and overworld boundaries, we have empirically proved:
-1. **The Great Divide:** Safari Zone Area 3 (West) is completely split by a solid horizontal barrier of cliffs and hedges on Rows 24-25 across columns 0-29. There is 0% walkable passage on the west ground level.
-2. **Disconnected North:** The north section (where you enter from Area 2 North at `(26,0)`) has 100% no ground connection to the south section. It is a dead end.
-3. **Direct Southern Entrance:** The southern section (containing the **Secret House** and **Gold Teeth**) is connected directly to the southern section of Safari Zone Center.
-4. **Optimal 16-Step Speedrun Route:**
-   - Pay 500 dollars, enter Safari Zone (starts in Safari Zone Center South at `(15, 25)`).
-   - Walk straight LEFT along the southern ground corridor to Column 0.
-   - Walk LEFT to transition directly into the south side of Area 3 (West) at `(29, 23)` / `(29, 25)`.
-   - Retrieve the Gold Teeth (east side of southern ground level) and Surf (Secret House on west side).
+## 🗺️ Step-by-Step Route Log (Run starting Turn 28908)
 
----
+### Phase 1: Safari Zone Center (South-East Path)
+- **Start:** `(15, 25)`
+- Walked Left to `(14, 25)` (1 step)
+- Walked Up 2 to `(14, 23)` (2 steps)
+- Walked Left 2 to `(12, 23)` (2 steps)
+- Walked Down 1, Left 4 to `(8, 24)` (5 steps)
+- Walked Right 4, Up 1, Right 1 to `(13, 23)` (6 steps)
+- Walked Up 4 to `(13, 19)` (4 steps)
+- Walked Up 3, Left 4 to `(9, 16)` (7 steps)
+- Walked Left 3 to `(6, 16)` (3 steps)
+- Walked Down 1, Left 3 to `(3, 17)` (4 steps)
+- Walked Right 10 to `(13, 17)` (10 steps)
+- Walked Right 5 to `(18, 17)` (5 steps)
+- Walked Right 4 to `(22, 17)` (4 steps)
+- Walked Up 1 to `(22, 16)` (1 step) - Battle Nidorino, ran away.
+- Walked Up 5 to `(22, 11)` (5 steps)
+- Walked Down 1 to `(22, 12)` (1 step) - Battle Nidorina, ran away.
 
-## 🗺️ Step-by-Step Route to Secret House (Run 2 - Starting Next Run)
-- **Start:** Start at Safari Zone Center `(15, 25)`.
-- **Step 1:** Walk Left to Column 0 and transition to Area 3 (West) `(15, 25) -> (0, 22) -> Area 3 (West)` (16 steps).
-- **Step 2:** Retrieve Gold Teeth (likely around columns 15-20 on Row 27).
-- **Step 3:** Retrieve Surf from the Secret House (westmost ground level columns 2-10).
-
+- **Current Position:** Standing at `(22, 12)`.
+- **Next Goal:** Walk to `(22, 11)` and test walking Left on Row 11 to verify if there is a collision block on Column 21.
 
 <hr>
