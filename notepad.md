@@ -1,11 +1,13 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 45751)
-- Location: East Celadon City at (32, 20).
+## CURRENT STATUS & DASHBOARD (Turn 45781)
+- Location: East Celadon City at (17, 27).
 - Primary Goal: Infiltrate Main Rocket Hideout B1F/B2F/B3F/B4F and obtain Silph Scope.
 - Persistent Strategy:
-  - In East Celadon (x=24..35, y=15..35), use single-step door inspection protocol to test candidate building doors.
-  - Document each building entrance warp destination in Locations/Celadon_City.md.
+  - Systematically test candidate building doors in East Celadon City using single-step movement protocol.
+  - Candidate 1: Door at (13, 25).
+  - Candidate 2: Doors at (19, 25), (20, 25), (21, 25).
+  - Document each verified building warp in Locations/Celadon_City.md.
   - Locate Main Game Corner Casino floor door, enter casino, locate Rocket Grunt guarding North Wall poster switch.
   - Defeat Grunt, press poster switch to reveal secret staircase to Rocket Hideout B1F, defeat Giovanni for Silph Scope.
 
@@ -835,8 +837,7 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - From (4, 21): Walk East 12 steps along Row 21 pavement corridor to Column 16 South Avenue at (16, 21).
 - From (16, 21): Walk North along Column 16/17 South Avenue to (17, -1) transition warp into East Celadon (28, 35) directly in front of Main Game Corner Casino.
 - Facade Tile (32, 25): Empirically confirmed SOLID window facade (bumped on turn 45765).
-- Celadon PokéMart: Door located at (25, 25) on Row 25.
-- Main Celadon Game Corner Casino: Door located at East Celadon City (25, 25) on Row 25. Warps directly to (3, 7) inside Main Game Corner Casino floor!
+- Celadon Game Corner (West Entrance): Door located at East Celadon City (25, 25) on Row 25. Warps directly to (3, 7) inside West Room.
 - Facade Tile (30, 25): Empirically confirmed SOLID window facade (bumped on turn 45777).
 
 <hr>
