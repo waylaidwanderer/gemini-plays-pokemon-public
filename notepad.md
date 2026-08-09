@@ -1029,8 +1029,8 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 268 (Turn 29191, standing at (10, 24) in Area 3 (West))
-- **Steps Remaining:** 232
+- **Steps Consumed:** 328 (Turn 29222, standing at (21, 16) on the plateau in Area 3 (West))
+- **Steps Remaining:** 172
 
 ## 🗺️ Step-by-Step Route Log
 
@@ -1098,7 +1098,16 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 4. Walk RIGHT 4 steps to `(10, 23)` (4 steps).
 5. Walk DOWN 1 step to `(10, 24)` (1 step).
    - *Empirical Test at (10, 24):* Attempted to walk DOWN into (10, 25). Confirmed blocked/collision. This empirically proves that Row 25 Column 10 is indeed a solid cliff wall (confirming our notes that Row 25 Columns 10-21 is a solid cliff wall).
-6. **Active Goal:** Walk back UP the West Stairs, cross the plateau to the east, descend, and walk DOWN the Column 19 gap to reach the southernmost ground level.
+6. Walked RIGHT 5 steps on Row 24 to `(15, 24)` (5 steps).
+7. Baffled by interlocking tree barrier at `(16, 24)` and `(15, 25)`. Backtracked: walked UP 1 step, LEFT 5 steps to `(10, 23)` (6 steps).
+8. Encountered and escaped wild Exeggcute. Walked LEFT 4 steps, UP 1 step to `(6, 22)` (5 steps).
+9. Encountered and escaped wild Exeggcute. Walked UP 3 steps to `(6, 20)` (3 steps).
+10. Walked UP 4 steps, RIGHT 15 steps onto plateau and across to East Stairs at `(21, 16)` (19 steps).
+11. Walked DOWN 7 steps to `(21, 23)`, LEFT 2 steps to `(19, 23)`, DOWN 1 step to `(19, 24)` (10 steps).
+12. Walked LEFT 1 step to `(18, 24)` (1 step).
+13. Walked DOWN 1 step (bumped, 0 steps).
+14. Walked RIGHT 1 step, UP 1 step, RIGHT 2 steps, UP 7 steps back onto plateau at `(21, 16)` (11 steps).
+15. **Active Goal:** Walk LEFT across the plateau, descend at `(6, 19)`, and enter the Secret House at `(3, 19)`.
 
 <hr>
 
