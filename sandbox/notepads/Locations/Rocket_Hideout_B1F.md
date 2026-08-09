@@ -13,3 +13,8 @@
 - Test Protocol: From any position (2, y) on Column 2, step Right onto (3, y) to test row trajectory.
 - Row y=3 (3,3; 4,3; 5,3): Spin tiles spin UP, bumping into counter wall at y=2. Pressing Left 3 times from (5, 3) returns safely to Column 2 at (2, 3).
 - Entrance/Exit Staircase: Located at (5, 4) connecting to Celadon Game Corner (4, 4).
+### B1F Western Spin Loop Audit & True Entrance Protocol (Verified Turn 45259)
+- West Spin Loop (Cols 2..5, Rows 3..41): Entirely self-contained trap loop bounded by wall x=1 on Left and wall x=6 on Right.
+- All spin tiles (3, 3..40) spin UP to row 3 counter wall (3, 2).
+- Staircase (2, 41) and Staircase (5, 4) both connect back to Celadon Game Corner (4, 4) local building.
+- TRUE MAIN HIDEOUT ACCESS: Located in Main Game Corner Casino floor on North Wall. Defeat the Rocket Grunt guarding the poster on the North Wall, press A on the poster switch to reveal the true secret staircase to Main Rocket Hideout B1F/B2F!
