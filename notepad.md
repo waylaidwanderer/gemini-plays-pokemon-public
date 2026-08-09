@@ -989,6 +989,9 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Tile (27, 21) Obstacle: Tile (27, 21) is a solid building facade block.
 - Row 20 Highway: Row 20 (y=20) is a wide open light grey pavement highway spanning East-West across x=22..30+.
 - Route from (28, 21): Step Up 1 to Row 20 (28, 20), then Left 6 along Row 20 pavement highway to (22, 20).
+## Row 21 Highway & Column 15 Southbound Junction Confirmed (Turn 45863)
+- From (22, 20), step Down 1 to Row 21 (22, 21), then Left 7 along Row 21 to Column 15 (15, 21).
+- Column 15 connects Row 21 directly South through Row 29 grass to Row 30 South Street at (15, 30).
 
 <hr>
 
