@@ -71,3 +71,7 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
   3. Walk West 16 steps along Row 30 to Column 20 at (20, 30).
   4. Walk South 6 steps along Column 20 to (20, 36) warp into Game Corner Plaza.
   5. In Plaza (10, 0), step Down to (10, 1) and Down into door (10, 2) to enter Main Game Corner Casino floor.
+## Celadon Gym Building Facade & Row 20 Highway Route (Turn 45857)
+- Celadon Gym Facade: Located at x=24..28, y=16..18. Tile (24, 18) is the solid left wall edge of the Gym building.
+- Row 20 Pavement Highway: Row 20 (y=20) is a wide open light grey pavement highway spanning East-West across x=22..28+ directly below the Gym building.
+- Bypass Route: From (23, 18), step Left 1 to (22, 18), Down 2 to Row 20 (22, 20), then Right along Row 20 toward Column 36.
