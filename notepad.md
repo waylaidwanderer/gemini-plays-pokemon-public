@@ -1151,6 +1151,7 @@ Systematically probe every potential building doorway and alleyway warp in South
 - Bank 3 (x=9..10, y=2..6) is a solid slot machine counter wall (bumped at 9, 2).
 - Row 11 (y=11) / Row 12 (y=12) is the open Southern Horizontal Cross-Highway connecting West and East sectors across x=0..18+.
 - Row 0 (y=0) North Wall and Column 9 Counter Bank (x=9, y=0..5): Empirically confirmed SOLID (bumped at 8,1->8,0 and 8,1->9,1 on Turn 46649).
+- Tile (4, 11) / (5, 11) red carpet in Celadon Game Corner: EMPIRICALLY CONFIRMED EXIT WARP MAT that warps directly outdoors to Celadon City (26, 3) (discovered Turn 46657).
 
 <hr>
 
