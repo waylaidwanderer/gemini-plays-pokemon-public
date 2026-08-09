@@ -32,3 +32,4 @@
 - Walked LEFT to `(20, 22)` (4 steps)
 - Climbed UP stairs to plateau at `(20, 20)` (2 steps)
 - Walked LEFT on plateau to `(12, 20)` (8 steps)
+- Walked DOWN stairs to ground level at `(12, 22)` (2 steps)
