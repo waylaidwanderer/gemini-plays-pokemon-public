@@ -849,9 +849,9 @@
 - Tile (27, 21): Solid signboard.
 - Tile (10, 25): Double brown wooden logs/barrels.
 - Tile (17, 29): Solid signboard.
-## Game Corner Plaza Warp Discovery (Turn 46417)
-- Celadon City outdoor tile (28, 35) is the primary warp tile entering Game Corner Plaza / Patio sub-map at (18, 0).
-- From Game Corner Plaza (18, 0), Column 18 runs North alongside the Main Game Corner building facade and Red Carpet Patio at x=20..23, y=-2..-1.
+## Game Corner Plaza Access (Turn 46443)
+- Outdoor tile (28, 35) in Celadon City enters Game Corner Plaza sub-map.
+- In Game Corner Plaza, Main Casino entrance doorway is located at (17, 27). Approach via (15, 28) -> (16, 28) -> (17, 28) -> (17, 27).
 
 <hr>
 
