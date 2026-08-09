@@ -39,3 +39,4 @@
 - Walked UP Column 8 to `(8, 8)` (5 steps)
 - Walked RIGHT 4 steps to `(12, 8)`, then UP 2 steps to plateau at `(12, 6)` (6 steps)
 - Walked RIGHT 5 steps on the plateau to `(17, 6)`, then DOWN 2 steps to `(17, 8)` (7 steps)
+- Walked RIGHT 3 steps to `(20, 8)`, then UP 4 steps to `(20, 4)` (7 steps)
