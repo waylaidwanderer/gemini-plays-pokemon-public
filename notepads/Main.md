@@ -1,5 +1,5 @@
-## CURRENT STATUS & DASHBOARD (Turn 45430)
-- Location: Game Corner Plaza at (29, 7). Walking to Main Casino entrance door at (34, 4).
+## CURRENT STATUS & DASHBOARD (Turn 45432)
+- Location: Game Corner Plaza at (33, 4). Stepping Right into door mats at (34, 4).
 - Primary Goal: Locate Rocket Grunt at North Wall Poster Switch in Main Casino floor and obtain Silph Scope.
 - Empirical Single-Step Plaza Door Inspection Protocol:
   1. Walk East along Row 4 pavement across Game Corner Plaza (Cols 11..30).
