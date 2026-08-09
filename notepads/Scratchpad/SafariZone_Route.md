@@ -36,3 +36,4 @@
 - Walked LEFT to `(8, 22)` on ground (4 steps)
 - Walked UP Column 8 to `(8, 18)` (4 steps)
 - Walked UP Column 8 to `(8, 13)` (5 steps)
+- Walked UP Column 8 to `(8, 8)` (5 steps)
