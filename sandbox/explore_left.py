@@ -1,22 +1,19 @@
-import time
 import mgba
+import time
 
-def move(buttons):
-    mgba.press_buttons(buttons)
-    time.sleep(0.3)
-    pos = mgba.get_coordinates()
-    print(f"Moved {buttons}, now at: {pos}")
-    return pos
+print("Starting explore_left.py")
+curr = mgba.get_coordinates()
+print(f"Start coordinates: {curr}")
 
-pos = mgba.get_coordinates()
-print(f"Current pos: {pos}")
+# Let's try to walk:
+# 1. UP 2 steps to (15, 23)
+for _ in range(2):
+    mgba.press_buttons(["Up", "sleep 350"])
+    print(f"Moved Up. Current: {mgba.get_coordinates()}")
 
-# Walk Left as far as possible on Row 15
-while True:
-    next_pos = move(['Left'])
-    if next_pos['x'] == pos['x']:
-        print("Blocked going Left!")
-        break
-    pos = next_pos
+# 2. LEFT 5 steps
+for _ in range(5):
+    mgba.press_buttons(["Left", "sleep 350"])
+    print(f"Moved Left. Current: {mgba.get_coordinates()}")
 
-mgba.take_screenshot()
+print("Done with sequence.")
