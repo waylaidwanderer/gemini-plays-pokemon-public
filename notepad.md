@@ -952,8 +952,7 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - **Max Potion:** Located on the ground at `(8, 20)`. This is a solid overworld item ball sprite. It was successfully picked up by standing at `(7, 20)` facing Right on Turn 27623.
 - **Signpost at (24, 22):** Reads "AREA 3 EAST: CENTER AREA" (Turn 27655).
 
-- **The Secret House:** Located in the southernmost ground level (Rows 26-29) on the west side. Inside, the host gives you HM03 (Surf).
-- **The Gold Teeth:** Located on the ground in the southernmost ground level (Rows 26-29) on the east side (coordinate hypothesis: `(19, 7)` is unverified, likely `(19, 27)` or similar).
+- **The Row 13 Map Transition (Unverified Spatial Hypothesis):** Walking LEFT at Column 0, Row 13 in Safari Zone Center is hypothesized to transition the player directly onto the southern ground level at Column 29, Row 25 in Area 3 (West). From there, they can walk DOWN to Row 26 and walk LEFT all the way to find the Gold Teeth and the Secret House!
 
 ## Area 1 (East) Detailed Overworld Layout & Barriers
 
