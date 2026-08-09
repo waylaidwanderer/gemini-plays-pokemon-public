@@ -757,8 +757,8 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 46379)
-- Location: Game Corner West Room at (5, 7) (Exiting outdoors to reach Celadon City (29, 29) Main Casino Entrance).
+## CURRENT STATUS & DASHBOARD (Turn 46385)
+- Location: Game Corner Plaza at (12, 28).
 - Primary Goal: Infiltrate Main Rocket Hideout B1F/B2F/B3F/B4F and obtain Silph Scope.
 - Persistent Facts:
   - Game Corner Plaza (20, 36) outdoor warp leads into Main Game Corner Casino Floor door (10, 2).
@@ -1117,6 +1117,11 @@ Systematically probe every potential building doorway and alleyway warp in South
 - West Room Boundary (Turn 46044): Tile (10, 13) is solid wall. West Room (x=0..9, y=0..13) has no internal passage to Main Casino floor. Exit carpet is at (4, 13)/(5, 13) warping outdoors to East Celadon City (13, 25).
 - Master Route to True Main Casino Floor: Exit West Room to East Celadon City (13, 25), walk East to Column 17 South Avenue (17, 26), South to Row 30 (17, 30), East to Column 20 (20, 30), and South along Column 20 to tile (20, 36) warp into Game Corner Plaza. In Plaza (10, 0), enter door (10, 2) to enter True Main Casino Floor at (3, 7).
 - Tile (6, 11): Slot machine counter (bumped at 5, 11 -> 6, 11 on Turn 46058). Row 12 (y=12) is the main open Southern Cross-Highway connecting Column 5 (x=5) to Column 9 (x=9).
+
+## Verified Outdoor Plaza & West Room Topography (Turn 46384)
+- Game Corner West Room (x=0..7, y=0..7): A self-contained 8x8 interior room. Both Plaza Door A (10, 21) and Door B (17, 27) warp into the exact same indoor exit mat at (3, 7).
+- Game Corner Plaza Outdoor Barriers: Double barrels at Column 11 (x=11, y=28..29) and Column 14 (x=14, y=18..23).
+- Unblocked Outdoor North Route: From (12, 28), walk Up 2 to Row 26 (12, 26), Left 2 to Column 10 (10, 26), and North along Column 10 to tile (10, 0) warp back to Celadon City (20, 36).
 
 <hr>
 
