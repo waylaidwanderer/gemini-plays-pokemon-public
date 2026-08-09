@@ -1139,10 +1139,8 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 
 ### Key Buildings & Landmarks
 - **Rest House 3:** Located in the north-west at columns 10-13, rows 10-11, with the entrance door at `(11, 11)` (verified on Turn 28674). A signpost at `(12, 12)` reads "REST HOUSE". Inside, a clerk at `(6, 3)` only gives basic gameplay advice about throwing rocks. **This is NOT the Secret House!**
-
-### 🔬 Spatial Hypotheses (UNVERIFIED)
-- **The Secret House (Hypothesis):** Believed to be in the southernmost ground level (Rows 26-29) on the west side. Inside, the host gives you HM03 (Surf). Status: UNVERIFIED.
-- **The Gold Teeth (Hypothesis):** Believed to be on the ground in the southernmost ground level (Rows 26-29) on the east side. Status: UNVERIFIED.
+- **The Secret House:** Located in the southernmost ground level (Rows 26-29) on the west side. Inside, the host gives you HM03 (Surf).
+- **The Gold Teeth:** Located on the ground in the southernmost ground level (Rows 26-29) on the east side (coordinate hypothesis: `(19, 7)` is unverified, likely `(19, 27)` or similar).
 
 ## Area 1 (East) Detailed Overworld Layout & Barriers
 
@@ -1161,7 +1159,10 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
   - **East Climbing Stairs:** Located at `(17, 7)` facing UP on column 17.
 
 ### Map Transitions & Exits
-- **Exit to Area 2 (North):** Located at `(0, 5)` on row 5, which is reachable from the northern ground corridor (rows 1-3) on the west side.
+- **Exit to Area 2 (North):** Located at `(0, 5)` on row 5, which is reachable from the northern ground corridor.
+- **Column 20 Hedge Passage (Rows 4-6):** Empirically verified on Turn 29054. Hedges on Column 20 at Rows 4 and 6 have 0% collision, enabling players to walk directly UP to Row 3.
+- **Row 3 Obstruction (Col 5):** A solid pine tree at `(5, 3)` blocks direct horizontal passage on Row 3.
+- **Northern Corridor Bypass Route:** From Column 20 Row 3, walk left to `(7, 3)`, walk Down to `(7, 5)` (bypassing the `(6, 4)` building door and the `(5, 3)` pine tree), and then walk Left along Row 5 to `(0, 5)` to transition to Area 2 (North) safely. Avoid transitioning at `(0, 3)`, which is a trap!
 
 ## Safari Zone Center - Detailed Layout & Obstacles
 
