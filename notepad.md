@@ -1,7 +1,7 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 45148)
-- Location: Celadon Game Corner at (3, 7).
+## CURRENT STATUS & DASHBOARD (Turn 45151)
+- Location: Celadon Game Corner at (5, 3).
 - Primary Goal: Infiltrate Main Game Corner Casino in East Celadon and obtain Silph Scope from Giovanni in Rocket Hideout.
 - Master Highway Route to East Celadon & Door Inspection Protocol:
   1. From warp arrival at (6, 0), walk Right 4 steps to (10, 0).
@@ -1086,6 +1086,12 @@ Systematically probe every potential building doorway and alleyway warp in South
   - Note: Row 6 is blocked at x=5/6 by counter walls.
 - Horizontal Cross-Aisles: Row 1/Row 2 and Row 8/Row 33+ provide open horizontal passages across the casino floor.
 - Secret Staircase: Located in the Main Game Corner building behind the poster switch guarded by the Rocket Grunt on the North Wall in the East sector (x=15..18). Defeat the Grunt, press A on the poster to reveal the secret staircase to Rocket Hideout B1F.
+
+## Verified Topology & Obstacle Audit (Turn 45151)
+- Bank 2 Counters (x=5..6, y=2..6): Empirically confirmed SOLID (bumped at 6,1->7,1; 6,1->6,2; 5,3->6,3; 5,5->6,5; 5,5->5,6).
+- Exit Warp Zone: Row 7 at x=2..4 (red carpet) warps directly outside to Celadon City (17,13).
+- Central Aisle (x=3..4, y=1..6): Open floor corridor running North-South.
+- Staircase at (4,4): Local exit loop staircase connecting to B1F (5,4) and back to (4,4).
 
 <hr>
 
