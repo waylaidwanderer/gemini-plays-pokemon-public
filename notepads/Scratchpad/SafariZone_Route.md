@@ -2,8 +2,8 @@
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed (Current Run):** 68
-- **Steps Remaining:** 432
+- **Steps Consumed (Current Run):** 107
+- **Steps Remaining:** 393
 
 ## 🗺️ Step-by-Step Route Log
 ### Phase 1: Safari Zone Center starting area to East Land
