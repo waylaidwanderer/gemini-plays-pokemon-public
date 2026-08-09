@@ -26,3 +26,6 @@
 - Column 7 Aisle: Enclosed vertical aisle spanning y=2..5 bounded by solid stool at (7, 1) and solid green plant at (7, 6).
 - Central Aisle (Cols 3..4): Open vertical corridor connecting Row 1 (y=1) down to Row 7 exit carpet.
 - Staircase (4, 4): Entrance to Rocket Hideout B1F (5, 4).
+## Row 4 Horizontal Cross-Aisle Discovered (Turn 45835)
+- Row 4 (y=4) is an open light blue checked horizontal cross-aisle spanning across Cols 4..9+ (and beyond to the East sector).
+- Passage: From Central Aisle (4, 2), step Down 2 to (4, 4), then Right along Row 4 to reach the East sector and locate the Rocket Grunt guarding the North Wall poster switch.
