@@ -885,6 +885,16 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 ## Row 21 Highway & Column 15 Southbound Junction Confirmed (Turn 45863)
 - From (22, 20), step Down 1 to Row 21 (22, 21), then Left 7 along Row 21 to Column 15 (15, 21).
 - Column 15 connects Row 21 directly South through Row 29 grass to Row 30 South Street at (15, 30).
+## Empirically Verified Row 28/29 Boundary & West Highway Route (Turn 45905)
+- Tile (16, 29) Fence Posts: EMPIRICALLY CONFIRMED SOLID OBSTACLE (bumped at 16, 28 -> 16, 29 on Turn 45905). It is NOT a jumpable ledge.
+- Tile (17, 29) Signboard: EMPIRICALLY CONFIRMED SOLID OBSTACLE.
+- Row 28/29 Boundary: Solid barrier across x=11..35 (trees x=11..15, posts x=16, sign x=17, trees x=18..35).
+- Master West Route to Game Corner Plaza (20, 36):
+  1. From (16, 28), walk Up 7 to Row 21 at (16, 21).
+  2. Walk Left 14 along Row 21 pavement highway to Column 2 at (2, 21).
+  3. Walk South 9 down Column 2 to Row 30 South Street at (2, 30).
+  4. Walk Right 18 along Row 30 South Street to Column 20 at (20, 30).
+  5. Walk South 6 along Column 20 to (20, 36) warp into Game Corner Plaza.
 
 <hr>
 
