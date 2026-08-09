@@ -864,6 +864,10 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Column 35 Fence: Brown dual-post fence spans y=20..25 at x=35.
 - Row 19 Crossing: Tile (35, 19) on Row 19 is open light green grass (above the Column 35 fence), providing a clear passage from Column 34 to Column 36 East Highway.
 - Route from (34, 21): Walk Up 2 to Row 19 (34, 19), Right 2 across (35, 19) to Column 36 (36, 19), then South down Column 36 to Row 30 South Street (36, 30).
+## Row 18 Fence Crossing & Column 36 Southbound Route (Turn 45860)
+- Column 35 Fence: Spans y=19..27.
+- Row 18 Crossing: Tile (35, 18) on Row 18 is open light green grass (above the Column 35 fence), providing an unblocked passage from Column 34 to Column 36 East Highway.
+- Route from (34, 26): Walk Up 8 to Row 18 (34, 18), Right 2 across (35, 18) to Column 36 (36, 18), then South 12 down Column 36 to Row 30 South Street (36, 30).
 
 <hr>
 
@@ -946,6 +950,10 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Celadon Gym Facade: Located at x=24..28, y=16..18. Tile (24, 18) is the solid left wall edge of the Gym building.
 - Row 20 Pavement Highway: Row 20 (y=20) is a wide open light grey pavement highway spanning East-West across x=22..28+ directly below the Gym building.
 - Bypass Route: From (23, 18), step Left 1 to (22, 18), Down 2 to Row 20 (22, 20), then Right along Row 20 toward Column 36.
+## Column 35 Fence Boundary & Row 19 Crossing Route (Turn 45859)
+- Column 35 Fence: Brown dual-post fence spans y=20..25 at x=35.
+- Row 19 Crossing: Tile (35, 19) on Row 19 is open light green grass (above the Column 35 fence), providing a clear passage from Column 34 to Column 36 East Highway.
+- Route from (34, 21): Walk Up 2 to Row 19 (34, 19), Right 2 across (35, 19) to Column 36 (36, 19), then South down Column 36 to Row 30 South Street (36, 30).
 
 <hr>
 
