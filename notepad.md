@@ -1269,6 +1269,7 @@ Systematically probe every potential building doorway and alleyway warp in South
 - Casino Topology: Vertical aisles at Column 5 (x=5), Column 9 (x=9), Column 13 (x=13), and Column 18 (x=18) connect Row 12 Cross-Highway directly North to Row 2 North Wall.
 - Tile (10, 12): Solid slot machine bank wall (bumped at 9, 12 -> 10, 12 on Turn 46036). Northbound vertical aisle is Column 9 at x=9.
 - Column 9 (x=9): Main open vertical floor aisle running North from Row 12 (9, 12) up to Row 2 North Wall aisle (9, 2).
+- Tile (10, 2): Solid wall block (bumped at 9, 2 -> 10, 2 on Turn 46039). Single-step inspection of Row 1 / Row 3 / Row 5 Eastbound passages along Column 9.
 
 <hr>
 
