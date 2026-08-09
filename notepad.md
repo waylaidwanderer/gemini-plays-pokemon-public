@@ -1307,6 +1307,7 @@ Systematically probe every potential building doorway and alleyway warp in South
 - Column 7 (x=7): Main open vertical floor aisle running North from Row 9 (7, 9) up to Row 2 North Wall aisle (7, 2).
 - Tile (5, 4): Slot machine counter (bumped at 5, 5 -> 5, 4 on Turn 46026). Bypass to Row 2 is via Row 5 cross-aisle to Column 7 at (7, 5) -> (7, 2).
 - Tile (7, 2): Slot machine counter (bumped at 7, 3 -> 7, 2 on Turn 46028). Horizontal cross-aisle to East sector is Row 8 at y=8.
+- Tile (7, 6): Slot machine counter (bumped at 7, 5 -> 7, 6 on Turn 46030). Southbound bypass to Row 8 is via Row 5 cross-aisle to Column 5 at (5, 5) -> (5, 8).
 
 <hr>
 
