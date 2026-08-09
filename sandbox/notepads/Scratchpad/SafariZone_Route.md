@@ -2,8 +2,8 @@
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 247
-- **Steps Remaining:** 253 (As of Turn 28601 at Area 3 (West) `(26, 0)`)
+- **Steps Consumed:** 250
+- **Steps Remaining:** 250 (As of Turn 28604 at Area 3 (West) `(26, 3)`)
 
 ## 🗺️ Step-by-Step Route to Secret House
 
