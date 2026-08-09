@@ -844,6 +844,10 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Column 4 Rhydon Statues span y=22..28.
 - Row 21 Crossing: Tile (4, 21) above the Rhydon statues is open light grey pavement, providing an unblocked East-West passage between West Celadon (Cols 1..3) and Central Celadon (Cols 5..17).
 - Route to Game Corner Plaza (20, 36): From (5, 26), walk Up 5 to (5, 21), Left 3 to (2, 21), South 9 down West Celadon Highway to Row 30 (2, 30), East to Column 20 (20, 30), then South along Column 20 to (20, 36) warp into Game Corner Plaza.
+## Central Celadon Columns 6/7 Pavement Highway Audit (Turn 45852)
+- Rhydon Statues: Column 4 statues span y=20..28, Row 20 statues span x=1..4 and x=8..9.
+- Central Pavement Highway: Columns 6 and 7 (x=6, x=7) form a continuous open light grey pavement corridor from Row 18 (y=18) down to Row 27 (y=27).
+- Route: From (5, 21), step Right 1 to (6, 21), then South along Column 6 to (6, 27) to inspect Row 28/29 Southbound passages.
 
 <hr>
 
@@ -906,6 +910,10 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Facade Tiles (19, 25), (21, 25), (22, 25): Empirically confirmed SOLID window facades under blue striped awning roof (bumped at 19, 25 on turn 45843). They are NOT doors.
 - Row 29 Obstacles (x=16..17): Tile (16, 29) is solid fence post and (17, 29) is solid building sign.
 - Route to Game Corner Plaza (20, 36): Walk East along Row 26 pavement corridor to Column 36 East Highway, then South along Column 36 to Row 30 South Street, then West/South to (20, 36) Game Corner Plaza warp!
+## West Celadon Column 4 Statue Line & Row 21 Crossing Route (Turn 45851)
+- Column 4 Rhydon Statues span y=22..28.
+- Row 21 Crossing: Tile (4, 21) above the Rhydon statues is open light grey pavement, providing an unblocked East-West passage between West Celadon (Cols 1..3) and Central Celadon (Cols 5..17).
+- Route to Game Corner Plaza (20, 36): From (5, 26), walk Up 5 to (5, 21), Left 3 to (2, 21), South 9 down West Celadon Highway to Row 30 (2, 30), East to Column 20 (20, 30), then South along Column 20 to (20, 36) warp into Game Corner Plaza.
 
 <hr>
 
