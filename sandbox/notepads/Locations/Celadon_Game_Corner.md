@@ -38,3 +38,5 @@
 - Tile (7, 6): Slot machine counter (bumped at 7, 5 -> 7, 6 on Turn 46030). Southbound bypass to Row 8 is via Row 5 cross-aisle to Column 5 at (5, 5) -> (5, 8).
 - Tile (6, 8): Slot machine counter (bumped at 5, 8 -> 6, 8 on Turn 46033). Row 12 (y=12) is the main open Southern Horizontal Cross-Highway connecting West and East sectors across x=1..18.
 - Casino Topology: Vertical aisles at Column 5 (x=5), Column 9 (x=9), Column 13 (x=13), and Column 18 (x=18) connect Row 12 Cross-Highway directly North to Row 2 North Wall.
+- Tile (10, 12): Solid slot machine bank wall (bumped at 9, 12 -> 10, 12 on Turn 46036). Northbound vertical aisle is Column 9 at x=9.
+- Column 9 (x=9): Main open vertical floor aisle running North from Row 12 (9, 12) up to Row 2 North Wall aisle (9, 2).
