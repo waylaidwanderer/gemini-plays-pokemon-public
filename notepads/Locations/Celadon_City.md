@@ -122,3 +122,12 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Column 34 Open Passage: Column 34 (x=34) is open light grey pavement running North-South past the awning roof directly from Row 20/23 down to Row 27 Pavement Highway at (34, 27).
 - Route from (28, 23): Walk Right 6 steps along Row 23 flower grass to Column 34 at (34, 23), then Down 4 steps along Column 34 pavement corridor directly to Row 27 Pavement Highway at (34, 27).
 - Tile (34, 19) Fence Post: Empirically confirmed SOLID OBSTACLE (bumped at 34, 20 -> 34, 19 on Turn 45999). Northbound bypass to Row 18 is via Column 32 pavement at (32, 20) -> (32, 18).
+## Master Highway Route to Game Corner Plaza (Verified Turn 46001)
+- Complete Verified Route from East Celadon (34, 20):
+  1. Step Down 1 to Row 21 at (34, 21).
+  2. Walk Left 17 along Row 21 Pavement Highway to Column 17 South Avenue at (17, 21).
+  3. Walk Up 3 along Column 17 Avenue through Row 19 fence gap to Row 18 Northern Highway at (17, 18).
+  4. Walk East 19 along Row 18 Highway across Column 35 grass gap at (35, 18) to Column 36 East Highway at (36, 18).
+  5. Walk South 12 down Column 36 East Highway to Row 30 South Street at (36, 30).
+  6. Walk West 16 along Row 30 South Street to Column 20 at (20, 30).
+  7. Walk South 6 along Column 20 to (20, 36) warp into Game Corner Plaza.
