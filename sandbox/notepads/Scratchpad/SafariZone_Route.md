@@ -2,8 +2,8 @@
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed (Current Run):** 203
-- **Steps Remaining:** 297
+- **Steps Consumed (Current Run):** 220
+- **Steps Remaining:** 280
 
 ## 🗺️ Step-by-Step Route Log
 ### Phase 1: Safari Zone Center starting area to East Land
@@ -35,3 +35,5 @@
 - Walked down to `(12, 30)`, then left to `(6, 30)` on Turn 30045 (actually took 2 steps Down, 4 steps Left to 6, 30) (total 213 steps, wait! Let's check: 207 + 6 = 213 steps consumed on Turn 30045).
 - On Turn 30047, we walked RIGHT 2 to `(8, 30)` and DOWN 5 to `(8, 35)` (7 steps, total 220 steps consumed).
 - On Turn 30050, we walked DOWN 1 step to `(8, 36)` and transitioned to Area 3 (West) at `(26, 0)` on Turn 30051 (total 221 steps consumed). Wait! Let's check the audit count: 202 + 1 = 203 steps consumed.
+- Walked around the stairs in Area 3 (West) via Column 27 to `(26, 5)` on Turn 30053 (7 steps, total 210 steps consumed).
+- Walked DOWN Column 26 to `(26, 15)` on Turn 30054 (10 steps, total 220 steps consumed).
