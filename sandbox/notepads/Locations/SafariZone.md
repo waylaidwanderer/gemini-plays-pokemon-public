@@ -68,7 +68,6 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
   - Row 24 on Columns 2-9 is solid cliff wall/trees.
   - Row 25 on Columns 10-21 is solid cliff wall.
   - Row 24 on Columns 22-29 is solid cliff wall.
-  - *Active Hypothesis:* Is there a vertical passage on Column 0 or Column 1 on Rows 24/25 to reach the southern part from the western ground level? We must test Column 0 and Column 1 on the west side of Area 3 (West).
 
 ### Western Ground Level & Items
 - **Western Ground Grass (Rows 20-24, Columns 2-12):** A large patch of tall grass where wild battles can occur.
