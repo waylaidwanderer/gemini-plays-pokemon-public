@@ -1,12 +1,11 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 46801)
-- Location: Saffron City at (1, 2) facing Left.
+## CURRENT STATUS & DASHBOARD (Turn 46831)
+- Location: Route 7 at (0, 18) facing Left.
 - Primary Goal: Travel to Celadon City Game Corner and obtain Silph Scope.
 - Persistent Facts:
-  - Saffron West Gatehouse is permanently unlocked (Fresh Water given on turn 41188).
-  - Column 0 is solid stone wall across Rows 1..6.
-  - Row 2 Northern Highway (y=2) connects x=1 East towards (7, 2) / (8, 2) gatehouse doorway.
+  - Reached Route 7 West boundary at (0, 18).
+  - Stepping Left onto (-1, 18) warps into Celadon City East Entrance at (49, 11).
 
 <hr>
 
