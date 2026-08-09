@@ -938,7 +938,7 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - **The Plateau (Rows 14-18, Columns 9-22):** A large, continuous raised plateau structure.
   - **East Stairs (Plateau Access):** Located at `(21, 17)`. Facing Left/Right, these stairs allow the player to climb UP onto the plateau from ground level row 18, column 21.
   - **West Stairs (Plateau Descent):** Located at `(6, 19)`. Facing Down, these stairs allow the player to descend from the plateau onto the western ground level grass.
-  - **Note:** The Plateau completely blocks ground-level horizontal crossing on rows 14-18.
+  - **Note:** The Plateau completely blocks ground-level horizontal crossing on rows 15-18.
 - **Column 18 Vertical Barrier (Rows 20-23):** A solid tree/wall structure running vertically on Column 18 across rows 20-23, blocking horizontal ground-level passage.
 - **Horizontal Cliff Wall (Rows 24-25):** Runs horizontally across the map, separating the north ground level from the south ground level:
   - Row 24 on Columns 2-9 is solid cliff wall/trees (Column 19 is the open gap to the south).
