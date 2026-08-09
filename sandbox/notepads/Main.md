@@ -1,5 +1,5 @@
-## CURRENT STATUS & DASHBOARD (Turn 45249)
-- Location: Rocket Hideout B1F at (3, 29).
+## CURRENT STATUS & DASHBOARD (Turn 45252)
+- Location: Rocket Hideout B1F at (3, 32).
 - Primary Goal: Infiltrate Main Game Corner Casino in East Celadon and obtain Silph Scope from Giovanni in Rocket Hideout.
 - Master Highway Route to East Celadon & Door Inspection Protocol:
   1. From warp arrival at (6, 0), walk Right 4 steps to (10, 0).
