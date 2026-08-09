@@ -1193,7 +1193,7 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 ## Safari Zone Center - Detailed Layout & Obstacles
 
 ### Key Discoveries & Pathways
-- **The Column 11 Tree Wall:** A solid vertical line of pine trees on Column 11 across Rows 0-7, completely blocking direct ground-level horizontal crossing on those rows.
+- **The Column 11 Tree Wall:** A solid vertical line of pine trees on Column 11 across Rows 4-7, completely blocking direct ground-level horizontal crossing on those rows. (Note: Rows 1-3 are open, as verified by successful leftward traversal from (19, 3) to (9, 3) on Turn 29057).
 - **The Southern Ground Corridor:** Rows 10-22 are open ground, allowing players to walk Left to Column 0 around the central water pond.
 - **Western Edge Transition to Area 3 (West):** Located on Column 0, Row 11 (`(0, 11)`), transitioning directly to Area 3 (West) at `(30, 23)`. This ground-level path completely bypasses Area 2 (North).
 
@@ -1222,8 +1222,8 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 66 (Turn 29099, entered Area 1)
-- **Steps Remaining:** 434
+- **Steps Consumed:** 139 (Turn 29131, standing at (20, 3) in Area 1)
+- **Steps Remaining:** 361
 
 ## 🗺️ Step-by-Step Route Log
 
