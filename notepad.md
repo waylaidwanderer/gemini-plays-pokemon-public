@@ -1100,6 +1100,7 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 ## Area 1 (East) Detailed Overworld Layout & Barriers
 
 ### Vertical & Horizontal Barriers
+- **Row 3 Forest Wall:** Rows 1-3 on columns 0-5 are blocked by a solid forest wall/bush barrier, making it impossible to walk directly DOWN to Row 4/5 from Row 2 on those columns. Players must walk East to Column 6 or 7 to bypass this barrier and access the southern transition corridor on Row 5.
 - **Column 6 Rhydon Statue Barrier:** Grey Rhydon statues at `(6, 22)` and `(6, 23)` completely block ground-level horizontal crossing on row 22.
 - **Western Row 6 Tree Barrier:** A continuous vertical barrier of trees at columns 0-10 on row 6, blocking all direct northern traversal on the west ground level.
 - **Row 12 NPC Block:** A stationary NPC at `(15, 12)` completely blocks row 12 ground traversal, making it impossible to walk directly from the west ground to the east ground on rows 12-13.
@@ -1139,6 +1140,56 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - Walk Down 4 steps to descend stairs at `(6, 19)` to west ground level at `(6, 20)`.
 - Walk Left 5 steps to Column 1 at `(1, 20)`.
 - Walk Down to Row 28/29 to find the Gold Teeth and the Secret House on the southern ground path!
+
+## 🧭 Safari Zone Run Step Tracker (Active Session)
+- **Start Turn of Session:** 28324
+- **Start Steps:** 500
+- **Turn 28324 (Gatehouse Spawn):** 500 steps remaining
+- **Turn 28325-28326 (Walk Up Column 15):** 9 steps used (491 remaining)
+- **Turn 28327 (Walk Right to Col 20):** 5 steps used (486 remaining)
+- **Turn 28328 (Walk to Col 24):** 6 steps used (480 remaining)
+- **Turn 28329 (Walk to Transition):** 9 steps used (471 remaining)
+- **Turn 28330 (Transition to Area 1 East):** 1 step used (470 remaining)
+- **Turn 28331 (Walk to Row 24 Col 5):** 7 steps used (463 remaining)
+- **Turn 28332-28333 (Walk to Row 24 Col 15):** 10 steps used (453 remaining)
+- **Turn 28334 (Encounter, Flee, Walk to Col 20):** 5 steps used (448 remaining)
+- **Turn 28337 (Climb Stairs & Walk Left to Col 16):** 8 steps used (440 remaining)
+- **Turn 28338 (Walk Left to Col 12, Descend Stairs, Left to Col 8):** 10 steps used (430 remaining)
+- **Turn 28339 (Walk North on Col 8 to Row 12):** 10 steps used (420 remaining)
+- **Turn 28340 (Walk to Plateau Top at 12, 6):** 10 steps used (410 remaining)
+- **Turn 28341 (Walk across Plateau, Descend to 17, 8):** 7 steps used (403 remaining)
+- **Turn 28342 (Walk Right to Col 20, Up to Row 5, Left to Col 16):** 10 steps used (393 remaining)
+- **Turn 28343 (Walk to Row 2 Col 15):** 8 steps used (385 remaining)
+- **Turn 28344 (Walk Left 5 steps):** 5 steps used (380 remaining)
+- **Turn 28345 (Encounter & Flee):** 0 steps used (380 remaining)
+- **Turn 28347 (Walk Left 5 steps):** 5 steps used (375 remaining)
+- **Turn 28348 (Walk Left 4 steps):** 4 steps used (370 remaining)
+- **Turn 28349 (Walk Down & Left, BUMPED):** 2 steps used (368 remaining)
+- **Turn 28351 (Walk Right & Down to 6, 4, BUMPED):** 6 steps used (362 remaining)
+- **Turn 28352 (Walk to Area 2 North Transition):** 11 steps used (351 remaining)
+- **Turn 28353 (Transition to Area 2 North):** 1 step used (350 remaining)
+- **Turn 28354 (Walk Left 10 steps):** 10 steps used (340 remaining)
+- **Turn 28355 (Walk Left 5 steps):** 5 steps used (335 remaining)
+- **Turn 28356 (Chansey Encounter & Ball Throw):** 0 steps used (335 remaining)
+- **Turn 28359 (Walk Left 5 steps):** 5 steps used (330 remaining)
+- **Turn 28360 (Nidoran Encounter & Flee):** 0 steps used (330 remaining)
+- **Turn 28362 (Walk Left 1 step, Up 8 steps, BUMPED):** 9 steps used (321 remaining)
+- **Turn 28363 (Climb Stairs & Walk Left to 18, 22):** 7 steps used (314 remaining)
+- **Turn 28364 (Walk Left & Descend Stairs to 16, 28):** 8 steps used (306 remaining)
+- **Turn 28365 (Walk Left 4 steps to 12, 28):** 4 steps used (302 remaining)
+- **Turn 28366 (Walk to 6, 30):** 8 steps used (294 remaining)
+- **Turn 28367 (Walk Up 6 steps to 6, 24):** 6 steps used (288 remaining)
+- **Turn 28368 (Walk Up & Left to 6, 23, BUMPED):** 1 step used (287 remaining)
+- **Turn 28369 (Walk Right to 12, 23):** 6 steps used (281 remaining)
+- **Turn 28370 (Walk Up 4 steps to 12, 19):** 4 steps used (277 remaining)
+- **Turn 28371 (Walk Up 4 steps to 12, 15):** 4 steps used (273 remaining)
+- **Turn 28374 (Walk Up 2 steps to 12, 13):** 2 steps used (271 remaining)
+- **Turn 28375 (Walk Up 4 steps to 12, 9):** 4 steps used (267 remaining)
+- **Turn 28376 (Walk Up 4 steps to 12, 5):** 4 steps used (263 remaining)
+- **Turn 28377 (Walk Up 1 step, BUMPED):** 0 steps used (263 remaining)
+- **Turn 28378 (Walk Down 9 steps to 12, 14):** 9 steps used (254 remaining)
+
+*Step Budget Audit: We have ~254 steps remaining in this session, which is plenty of steps to reach Area 3!*
 
 
 <hr>
