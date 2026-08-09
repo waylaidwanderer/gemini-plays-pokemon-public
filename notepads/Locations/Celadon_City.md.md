@@ -3,7 +3,7 @@
 ## Key Buildings & Warps
 - Route 7 Entrance: (49, 11) connects East to Route 7.
 - Celadon Pokemon Center: Door at (41, 9).
-- Celadon Department Store: Door at (10, 13).
+- Celadon Department Store: Door at (13, 15).
 - Celadon Diner: Door at (29, 29).
 - Prize Exchange (West Room): Door at East Celadon City (13, 25) / (25, 25) enters Prize Exchange 8x8 West Room only.
 - Game Corner Plaza Warp: Tile (20, 36) in Celadon City warps directly into Game Corner Plaza at (10, 0).
