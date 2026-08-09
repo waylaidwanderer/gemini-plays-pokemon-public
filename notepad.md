@@ -893,6 +893,7 @@ Column 20 Wall: Solid vertical wall at x=20 across Rows 1-7 separating Dept Stor
 - Facade Tile (32, 25): Empirically confirmed SOLID window facade (bumped on turn 45765).
 - Celadon Game Corner (West Entrance): Door located at East Celadon City (25, 25) on Row 25. Warps directly to (3, 7) inside West Room.
 - Facade Tile (30, 25): Empirically confirmed SOLID window facade (bumped on turn 45777).
+- Facade Tile (19, 25): Empirically confirmed SOLID window facade (bumped on turn 45798).
 
 <hr>
 
