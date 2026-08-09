@@ -58,3 +58,6 @@
 - Door (10, 33) in Game Corner Plaza enters ONLY the 8x6 Prize Exchange room (x=0..7, y=0..5) with exit carpets at (3, 5)/(4, 5).
 - Tiles (20, -3) / (20, 0) and (10, 40) are MAP BOUNDARY WARPS between Game Corner Plaza and Celadon City.
 - Main Casino Floor entrance door is located along the South building facade (Row 38 / Row 39, x=13..25).
+## EMPIRICAL PROOF (Turn 46642)
+- Bank 3 (x=9..10, y=2..6) is a solid slot machine counter wall (bumped at 9, 2).
+- Row 11 (y=11) / Row 12 (y=12) is the open Southern Horizontal Cross-Highway connecting West and East sectors across x=0..18+.
