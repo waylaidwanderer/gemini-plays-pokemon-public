@@ -1025,35 +1025,38 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 
 <h1><code>Scratchpad/SafariZone_Route.md</code></h1>
 
-# Safari Zone - Active Route & Step Log (Current Run)
+# Safari Zone - Ultimate Speedrun Route (Next Run)
 
-## ⏱️ Step Budget Tracker
+## ⏱️ Step Budget Plan
 - **Total Steps Available:** 500
-- **Steps Consumed:** 249
-- **Steps Remaining:** 251 (As of Turn 29012 - Standing at (28, 17))
+- **Estimated Steps Required:** < 100 steps (enormous safety margin!)
 
-## 🗺️ Step-by-Step Route Log (Run starting Turn 28908)
+## 🗺️ Step-by-Step Golden Path (Start from Entrance)
 
-### Phase 1: Safari Zone Center (South-East Path)
-- **Start:** `(15, 25)`
-- Walked Left to `(14, 25)` (1 step)
-- Walked Up 2 to `(14, 23)` (2 steps)
-- Walked Left 2 to `(12, 23)` (2 steps)
-- Walked Down 1, Left 4 to `(8, 24)` (5 steps)
-- Walked Right 4, Up 1, Right 1 to `(13, 23)` (6 steps)
-- Walked Up 4 to `(13, 19)` (4 steps)
-- Walked Up 3, Left 4 to `(9, 16)` (7 steps)
-- Walked Left 3 to `(6, 16)` (3 steps)
-- Walked Down 1, Left 3 to `(3, 17)` (4 steps)
-- Walked Right 10 to `(13, 17)` (10 steps)
-- Walked Right 5 to `(18, 17)` (5 steps)
-- Walked Right 4 to `(22, 17)` (4 steps)
-- Walked Up 1 to `(22, 16)` (1 step) - Battle Nidorino, ran away.
-- Walked Up 5 to `(22, 11)` (5 steps)
-- Walked Down 1 to `(22, 12)` (1 step) - Battle Nidorina, ran away.
+### Phase 1: Direct Entry to Area 3 (West) from Entrance
+1. Start at Gatehouse exit in Safari Zone Center: `(15, 25)`
+2. Walk UP 3 steps to `(15, 22)`
+3. Walk LEFT 15 steps to `(0, 22)`
+4. Walk UP 11 steps to `(0, 11)`
+5. Walk LEFT 1 step to transition directly to Area 3 (West) at `(29, 23)`
+*Total steps used: 30*
 
-- **Current Position:** Standing at `(22, 12)`.
-- **Next Goal:** Walk to `(22, 11)` and test walking Left on Row 11 to verify if there is a collision block on Column 21.
+### Phase 2: Southern Ground Level Access in Area 3 (West)
+1. Stand at transition entry: `(29, 23)`
+2. Walk LEFT 10 steps to Column 19: `(19, 23)`
+3. Walk DOWN 3 steps to Row 26 (bypassing horizontal cliff wall): `(19, 26)`
+*Total steps used: 43*
+
+### Phase 3: Pick up Gold Teeth & HM03 (Surf)
+1. From `(19, 26)`, explore south-east ground level to pick up **Gold Teeth** (likely around Column 19 Row 27).
+2. Once Gold Teeth are obtained, walk LEFT along Row 28 to the far west side to locate the **Secret House** (likely around Column 3 Row 28).
+3. Enter the Secret House, speak to the host to obtain **HM03 (Surf)**.
+4. Exit the Secret House, and you can let the step timer run out or walk back to the entrance!
+
+## 📝 Important Facts
+- Overworld steps are NOT consumed inside buildings/Rest Houses.
+- Going through Area 1 (East) and Area 2 (North) is a massive detour that is completely unnecessary for obtaining HM03 and Gold Teeth.
+- Entering Area 3 (West) at `(29, 23)` places us immediately near the Column 19 southern gap, making southern ground access extremely simple.
 
 <hr>
 
