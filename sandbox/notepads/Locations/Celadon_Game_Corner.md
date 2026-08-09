@@ -34,3 +34,4 @@
 - Tile (4, 7): Slot machine counter (bumped at 4, 8 -> 4, 7 on Turn 46024). Vertical aisle to North Wall is Column 5 at x=5.
 - Column 7 (x=7): Main open vertical floor aisle running North from Row 9 (7, 9) up to Row 2 North Wall aisle (7, 2).
 - Tile (5, 4): Slot machine counter (bumped at 5, 5 -> 5, 4 on Turn 46026). Bypass to Row 2 is via Row 5 cross-aisle to Column 7 at (7, 5) -> (7, 2).
+- Tile (7, 2): Slot machine counter (bumped at 7, 3 -> 7, 2 on Turn 46028). Horizontal cross-aisle to East sector is Row 8 at y=8.
