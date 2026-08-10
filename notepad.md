@@ -1154,12 +1154,11 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 264
-- **Steps Remaining:** 236
+- **Steps Consumed:** 278
+- **Steps Remaining:** 222
 
 ## 🗺️ Step-by-Step Route Log
 - Started a new Safari Zone run on Turn 31982.
-- Goal: Retrieve the Gold Teeth and HM03 (Surf) inside Safari Zone Area 3 (West).
 - Turn 32174: Walked LEFT 7 steps to (0, 5) and transitioned to Area 2 (North) at (39, 31). [146 steps]
 - Turn 32175: Entered Area 2 (North) at (39, 31).
 - Turn 32180: Descended Western Southern Plateau to (16, 28). [172 steps]
@@ -1177,10 +1176,19 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 - Turn 32245: Walked to (3, 14) [258 steps]
 - Turn 32247: Walked to (3, 18) [262 steps]
 - Turn 32249: Walked to (3, 20) [264 steps]
-- Turn 32256: Reached (10, 20) [268 steps]
-- Turn 32261: Reached (17, 20) [270 steps]
-- Turn 32265: Reached (17, 21) after bump tests [271 steps]
-- Turn 32270: Reached (11, 23) [277 steps]
+- Turn 32255: Walked to (6, 20) [267 steps]
+- Turn 32258: Walked to (10, 20) [271 steps]
+- Turn 32260: Walked to (15, 20) [276 steps]
+- Turn 32261: Walked to (17, 20) [278 steps]
+- Turn 32265: Bounded and moved to (17, 21) [279 steps]
+- Turn 32268: Bounded and moved to (17, 23) [281 steps]
+- Turn 32270: Walked to (11, 23) [287 steps]
+- Turn 32276: Walked to (10, 23) [288 steps]
+
+## 🧪 Theoretical Routing Hypotheses (UNVERIFIED)
+The following paths are highly logical hypotheses but have NOT been fully traversed in the active session:
+1. **The Row 13 Corridor Hypothesis:** Row 13 is hypothesized to be a completely open ground-level corridor between Columns 10 and 22, bounded by Rest House 3 on the north and the plateau on the south.
+2. **The Column 25 / Column 19 Southern Bypass Hypothesis:** It is hypothesized that the player can walk from (25, 13) down to (25, 23) on the ground, then Left along Row 23 to Column 19, and then walk south through the open Column 19 gap at (19, 25) to reach the southern area of Area 3 (West).
 
 
 <hr>
@@ -1246,6 +1254,9 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
   - Row 25 is a completely solid fence/barrier from Column 2 to Column 27 (fences, fence posts, and trees), and Column 1 has solid boundary trees, meaning there is NO ground-level horizontal crossing on the south side of Area 3 (West).
   - **Direct Verification (Turn 31557-31559):** Confirmed Column 19, Row 25 is blocked (Turn 31557), Column 20, Row 25 is blocked (Turn 31558), and Column 21, Row 25 is blocked (Turn 31559).
   
+
+### Verified Physical Collision Barriers
+- **Row 24 Column 17 Tree Barrier (Area 3 West):** Physically verified on Turn 32268. Attempting to walk DOWN from (17, 23) to (17, 24) results in bumping, proving Row 24 Column 17 is a solid tree trunk barrier.
 
 ### Western Ground Level & Items
 - **Western Ground Grass (Rows 20-24, Columns 2-12):** A large patch of tall grass where wild battles can occur.
