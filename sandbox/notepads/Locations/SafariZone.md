@@ -23,11 +23,26 @@
 - **Column 19 Tree Barrier:** A continuous vertical line of trees on rows 14-18, column 19, blocking direct horizontal passage on row 14. But row 12 and row 13 are open on column 19.
 - **Column 16 Bush Barrier (Rows 12-19):** Solid vertical line of dark checkerboard bush/hedge tiles on column 16, rows 12-19. Completely blocks ground-level horizontal crossing on those rows.
 
+---
+
+## Macro-Level Layout Connection in Area 1 (East)
+To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)`, the player must navigate the map in a spiral/zig-zag topology:
+1. **Southern Ground Level:** Walk east from `(0, 22)` on the ground to `(20, 21)`.
+2. **Southern Plateau Crossing:** Climb stairs at `(20, 21)` to `(20, 20)`. Walk west on the plateau to `(12, 20)`. Descend stairs at `(12, 21)` to ground level at `(12, 22)`.
+3. **Western/Middle Ground Level:** Walk north on columns 8-9 to row 8, then east to `(12, 8)`.
+4. **Northern Plateau Crossing (East-Bound):** Climb stairs at `(12, 7)` to `(12, 6)` on the northern plateau. Walk east on the plateau to `(17, 6)`. Descend stairs at `(17, 7)` to the northeastern ground level at `(17, 8)`.
+5. **Northeastern/Northern Ground Passage:** From `(17, 8)`, walk right to column 18/19/20, then walk UP past the row 6-7 barrier to row 5 (northern ground level).
+6. **Northwest Ground Level Exit:** From the northern ground level, walk west all the way to the top-left corner at `(0, 5)` to transition to Area 2 (North) at `(39, 31)`.
+
+## Area 2 (North) - East-West Plateau Connections (Turn 27563-27565)
+- **Eastern Land Bridge (Cols 37-38, Rows 14-26):** Empirically verified as a completely continuous, flat brown plateau land bridge on columns 37-38, rows 14-26. It connects the Eastern Southern Plateau (stairs at 28, 27) directly to the Northern Plateau on the north side.
+- **Plateau Separation (Column 26):** The Eastern Southern Plateau and Western Southern Plateau do **NOT** connect horizontally on rows 24-26. They are separated by column 26 cliff wall and columns 22-25 ground-level tall grass.
+
 ## Area 3 (West) Layout & Discoveries
 
 ### Map Transitions & Connections
-- **Entered from Area 2 (North):** Transition from Area 2 (North) at `(4, 35)` leads directly into Area 3 (West) at `(26, 0)`.
-- **East Edge Map Transition:** The far-right edge of Area 3 (West) at column 30, row 23 connects directly to Safari Zone Center at `(0, 11)`.
+- **Entered from Area 2 (North):** Transition from Area 2 (North) at `(4, 35)` leads directly into Area 3 (West) at `(26, 0)` (Turn 27591).
+- **East Edge Map Transition:** The far-right edge of Area 3 (West) at column 30, row 23 connects directly to Safari Zone Center at `(0, 11)` (Turn 27658).
 
 ### Overworld Obstacles & Paths
 - **Vertical Hedge Wall (Column 24):** A solid vertical line of green hedge/bush tiles running from row 0 down to row 13 on column 24. This completely blocks horizontal ground-level passage in the north.
@@ -47,8 +62,7 @@
 - **Max Potion:** Located on the ground at `(8, 20)`. This is a solid overworld item ball sprite. It was successfully picked up by standing at `(7, 20)` facing Right on Turn 27623.
 - **Signpost at (24, 22):** Reads "AREA 3 EAST: CENTER AREA" (Turn 27655).
 
-### 🔍 The Southern Ground Level Hypothesis
-- **Theory:** The southern ground level of Area 3 (West) is hypothesized to contain the Gold Teeth and the Secret House (where HM03 Surf is obtained). It is a separate compartment in Area 3 (West). Its exact connection and access route from other Safari Zone areas (such as the southern corridor of Area 2 North or the West Compartment of Safari Zone Center) are currently unverified hypotheses that must be systematically tested and proven.
+- **The Southern Ground Level Hypothesis:** The southern ground level of Area 3 (West) contains the Gold Teeth and the Secret House (where HM03 Surf is obtained). It is a separate compartment in Area 3 (West). Its exact connection and access route from other Safari Zone areas (such as the southern corridor of Area 2 North or the West Compartment of Safari Zone Center) are currently unverified hypotheses that must be systematically tested in the next Safari Zone session.
 
 ## Area 1 (East) Detailed Overworld Layout & Barriers
 
@@ -79,6 +93,23 @@
 - **The Southern Ground Corridor:** Rows 10-22 are open ground, allowing players to walk Left to Column 0 around the central water pond.
 - **Western Edge Transition to Area 3 (West):** Located on Column 0, Row 11 (`(0, 11)`), transitioning directly to Area 3 (West) at `(30, 23)`. This ground-level path completely bypasses Area 2 (North).
 
+## Gold-Standard Speedrun Route from Area 1 (East) to Area 3 (West)
+1. **Northeast Channel:** From Area 1 (East) ground level, walk UP Column 20 (which is completely open and walkable, including the tree graphic at `(20, 4)`) to Row 5 (`(20, 5)`).
+2. **Northern Corridor:** Walk LEFT along Row 5 to Column 0, then walk LEFT to transition to Area 2 (North) at `(39, 31)`.
+3. **Area 2 Southern Corridor to Area 3 (West):** Walk LEFT along Row 31 to Column 22, walk UP to Row 23, climb Western Southern Plateau stairs at `(22, 23)` onto plateau, walk West to `(16, 23)`, walk DOWN to `(16, 27)` to descend stairs to `(16, 28)`. Walk Left to `(12, 33)`, bypass the Rhydon statues via Column 8-9 gap, and walk LEFT/DOWN to transition directly into **Area 3 (West)** at `(26, 0)`.
+## Area 2 (North) - Completed Spatial Map & Route to East Stairs
+- Ground Level is on Rows 0-11 (North) and Rows 16-35 (South).
+- Rows 12-15 is the Northern Plateau (East side, columns 32-38).
+- Column 16 Bush Barrier (Rows 12-19) and Row 11 barriers (Rhydon statues at cols 21-31, trees at 16-17) completely divide the Northwest ground level from the Northeast and South ground levels.
+- The ONLY way to go from the Northwest ground level (Rest House 2, cols 1-15) to the South/East is to walk UP to Row 9, walk East along Row 9 (which is completely open and has 0% trees), and then walk back down.
+- On the East side, Columns 32-38 row 12-15 is the Northern Plateau. The East Stairs at `(32, 13)` and `(33, 13)` face WEST (accessed from Column 31 on the ground, walking RIGHT/EAST onto the stairs).
+- Column 31 is completely open on rows 12-13.
+- To reach Column 31 from the Southern Corridor (Row 30/31):
+  1. Walk to Column 25 (ground level separation between Eastern and Western Southern Plateaus).
+  2. Walk UP Column 25 past the plateaus to Row 17 (ground level).
+  3. Walk East along Row 17 to Column 31 (ground level).
+  4. Walk UP Column 31 to Row 13, and walk RIGHT onto the East Stairs at `(32, 13)` to climb onto the plateau!
+
 ## 🧪 Empirical Proof of Safari Zone Center Compartmentalization (Turn 30402)
 We have systematically probed the horizontal and vertical boundaries of Safari Zone Center and proven that the map is divided into two completely unconnected ground-level compartments: the **South/East Entrance Compartment** and the **Northwest Area 3 Transition Compartment**. There is **NO DIRECT SHORTCUT** between them.
 
@@ -91,18 +122,3 @@ We have systematically probed the horizontal and vertical boundaries of Safari Z
 To reach Area 3 (West), the player **MUST** use the intended speedrun route across three maps:
 **Safari Zone Center -> Area 1 (East) -> Area 2 (North) -> Area 3 (West)**.
 Any attempt to find a ground-level shortcut within Safari Zone Center is mathematically blocked by map collision.
-
-## 🧭 The Gold-Standard Speedrun Route to Area 3 (West)
-1. **Safari Zone Center to Area 1 (East):** From (18, 25) entrance, walk to the transition to Area 1 (East) at (29, 11).
-2. **Area 1 (East) to Area 2 (North):**
-   - From (0, 23), walk Down/Right to (9, 24) to bypass the Rhydon statues.
-   - Walk east to Column 20, climb the Southern Plateau stairs at (20, 21), walk west to (12, 20), descend stairs at (12, 21) to (12, 22).
-   - Walk Left to Column 8, walk UP Column 8 to Row 8, walk East to (12, 8).
-   - Climb Northern Plateau stairs at (12, 7) to (12, 6), walk east on plateau to (17, 6), descend stairs at (17, 7) to (17, 8).
-   - Walk right to Column 20, walk UP Column 20 to Row 5, walk UP to Row 3.
-   - Walk left to (7, 3), walk Down to (7, 5) (bypassing the building door at (6, 4) and tree at (5, 3)), walk Left along Row 5 to (0, 5) to transition to Area 2 (North) at (39, 31).
-3. **Area 2 (North) to Area 3 (West):**
-   - Walk Left along Row 31 to Column 22.
-   - Walk UP Column 22 to (22, 23) and climb Western Southern Plateau stairs to (22, 22).
-   - Walk West on plateau to (16, 22), walk Down Column 16 to (16, 27) (descending stairs), and walk to (16, 28) (ground level).
-   - Walk Left to (12, 33), bypass Rhydon statues, and walk Left/Down to transition directly to Area 3 (West) at (26, 0).

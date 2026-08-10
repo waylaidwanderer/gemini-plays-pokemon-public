@@ -995,16 +995,6 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 
 ---
 
-## Gold-Standard Speedrun Route to Area 3 (West)
-
-To transition from the northwestern ground level to the southwestern exit of Area 2 (North) (which connects to Area 3 (West) and the Secret House), the player must use the eastern plateau stairs:
-
-1. **Circumvent Rest House 2:** From column 19, walk Up to row 9 (open grass), then walk East to column 35 (bypassing the row 10 tree line).
-2. **Access the East Stairs:** Walk Down column 35 to row 13, then walk west and climb UP onto the plateau using the stairs at `(32, 13)` or `(33, 13)`.
-3. **Traverse the Plateau:** Walk south and west along the plateau structure to reach the southern cliffside.
-4. **Reach Southern Ground Level:** Walk down the stairs or jump down the south-facing ledges at the south-eastern/south-middle part of the plateau to land on the southern ground level (rows 25-35).
-5. **Walk West to Area 3:** Follow the open southern grass corridor (around row 30) all the way west to the bottom-left corner of Area 2 (North) (columns 0-4, rows 30-35) to transition to **Area 3 (West)**.
-
 ## Macro-Level Layout Connection in Area 1 (East)
 To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)`, the player must navigate the map in a spiral/zig-zag topology:
 1. **Southern Ground Level:** Walk east from `(0, 22)` on the ground to `(20, 21)`.
@@ -1129,8 +1119,8 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 257
-- **Steps Remaining:** 243
+- **Steps Consumed:** 264
+- **Steps Remaining:** 236
 
 ## 🗺️ Step-by-Step Route Log
 - Started inside Safari Zone Center at (18, 25).
@@ -1150,7 +1140,8 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 - Walked north to (3, 20) on the western ground level.
 - Walked north on Column 3 to (3, 14).
 - Walked east along Row 14 to (10, 14) to bypass the pond.
-- Currently entering the Secret House at (11, 11).
+- Entered the Secret House at (11, 11) -> (2, 7).
+- Currently talking to the Secret House owner to get HM03 (Surf).
 
 <hr>
 
