@@ -145,3 +145,6 @@ The following physical barriers and collision coordinates have been verified thr
 1. **Column 25 Row 0 and Row 1 Blockage:** Completely blocked by solid overworld tree trunks (Turn 32034).
 2. **Column 24 Vertical Hedge Wall (Rows 3-13):** Verified as a continuous solid hedge wall with 100% collision, completely blocking horizontal passage (Turn 32035).
 3. **Column 23 Row 14 Cliff Collision:** Verified as a solid cliff corner face, blocking ground-level northward passage and preventing Column 23 from serving as a direct ground-level bypass (Turn 32007/32057).
+4. **Column 29 Row 22 (Safari Zone Center) Blockage:** Verified as a solid vertical line of bushes on Column 29, blocking direct ground-level horizontal crossing on Row 22 (Turn 32097).
+5. **Row 15 Column 28 (Area 1 East) Tree Blockage:** Solid tree trunk/canopy on Row 15, Column 28, completely blocking northward ground-level crossing on Column 28 (Turn 32122).
+6. **Row 12 Columns 24-26 (Area 1 East) Cliff Barrier:** Solid horizontal cliff face/edge, blocking northward ground-level crossing on Columns 24-26 and confirming the southeastern plateau (rows 12-15) is a dead end with no north-bound ground-level or stair-climb transitions (Turn 32125/32127).
