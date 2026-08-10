@@ -1,1 +1,9 @@
-{}
+{
+  "safari_step_tracker": {
+    "agent_name": "safari_step_tracker",
+    "agent_description": "Tracks the steps taken, remaining steps, map transitions, and location in the Safari Zone.",
+    "agent_system_prompt": "You are a Safari Zone Step Tracker. You calculate and track steps taken since the beginning of the active run. You output step budgets, remaining steps, and transition points.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"turn\": {\"type\": \"integer\"}, \"current_coordinates\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}, \"last_coordinates\": {\"type\": \"object\", \"properties\": {\"x\": {\"type\": \"integer\"}, \"y\": {\"type\": \"integer\"}}, \"required\": [\"x\", \"y\"]}, \"steps_consumed_before\": {\"type\": \"integer\"}}, \"required\": [\"turn\", \"current_coordinates\", \"last_coordinates\", \"steps_consumed_before\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"steps_taken_this_turn\": {\"type\": \"integer\"}, \"new_steps_consumed\": {\"type\": \"integer\"}, \"steps_remaining\": {\"type\": \"integer\"}}, \"required\": [\"steps_taken_this_turn\", \"new_steps_consumed\", \"steps_remaining\"]}"
+  }
+}
