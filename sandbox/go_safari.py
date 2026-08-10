@@ -32,10 +32,31 @@ def run_away():
     print("RUN sequence finished.")
 
 def run_safari_loop(max_steps=40):
-    print(f"Starting Golden Speedrun (limit: {max_steps} steps)...")
+    print(f"Starting Sequential Golden Speedrun (limit: {max_steps} steps)...")
     stuck_count = 0
     max_stuck = 3
     steps_taken = 0
+    
+    # Initialize index by searching the whole route for starting position
+    curr = bridge.get_coordinates()
+    while curr is None:
+        time.sleep(0.5)
+        curr = bridge.get_coordinates()
+        
+    # Apply offset if needed
+    if curr not in route:
+        offset_curr = (curr[0] - 18, curr[1])
+        if offset_curr in route:
+            curr = offset_curr
+            
+    # Search for curr globally at start
+    if curr not in route:
+        print(f"Error: Starting position {curr} not in route. Exiting.")
+        sys.exit(1)
+        
+    idx = route.index(curr)
+    print(f"Initialized route index to {idx}/{len(route)-1} at coordinate {curr}")
+    last_direction = None
     
     while True:
         if steps_taken >= max_steps:
@@ -48,11 +69,10 @@ def run_safari_loop(max_steps=40):
             time.sleep(0.5)
             continue
             
-        # Apply Northwest Compartment offset correction if needed
+        # Apply offset if needed
         if curr not in route:
             offset_curr = (curr[0] - 18, curr[1])
             if offset_curr in route:
-                print(f"Applying Northwest Compartment offset correction: {curr} -> {offset_curr}")
                 curr = offset_curr
                 
         print(f"Current Coordinates: {curr}")
@@ -66,27 +86,34 @@ def run_safari_loop(max_steps=40):
             print(f"Entered Secret House! New coordinates: {new_curr}")
             break
             
-        # Find index in route
-        if curr not in route:
-            print(f"Error: Current position {curr} not in route. Exiting.")
-            sys.exit(1)
+        # Match current coordinate in a small local window ahead of idx
+        # We search from idx to idx+4
+        found = False
+        for offset in range(5):
+            check_idx = idx + offset
+            if check_idx < len(route) and route[check_idx] == curr:
+                idx = check_idx
+                found = True
+                break
+                
+        if not found:
+            # If we didn't find the coordinate in the local window, it is a transient coordinate
+            print(f"Transient coordinate {curr} detected. Keeping index {idx} and last direction {last_direction}.")
+            direction = last_direction
+        else:
+            print(f"Matched route index: {idx}/{len(route)-1}")
+            target = route[idx + 1]
+            print(f"Next Target: {target}")
+            direction = get_dir(curr, target)
             
-        idx = route.index(curr)
-        print(f"Matched route index: {idx}/{len(route)-1}")
-        
-        # Determine next target
-        target = route[idx + 1]
-        print(f"Next Target: {target}")
-        
-        # Get direction
-        direction = get_dir(curr, target)
         if direction is None:
-            print(f"Error: Direction is None. Current {curr}, Target {target}. Exiting.")
+            print(f"Error: Direction is None. Current {curr}, target index {idx+1}. Exiting.")
             sys.exit(1)
             
-        print(f"Moving {direction} towards {target}...")
+        print(f"Moving {direction}...")
         bridge.press_buttons([direction])
         time.sleep(0.6) # Wait 600ms to ensure coordinates fully update in emulator
+        last_direction = direction
         steps_taken += 1
         
         # Verify if we successfully moved
