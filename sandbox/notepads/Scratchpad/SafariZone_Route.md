@@ -33,4 +33,4 @@
 - Walked to (19, 16) on the plateau.
 - Walked back to East Stairs and descended to (21, 18).
 - Walked to (19, 24) in the southern compartment.
-- Verified Gold Teeth is not in PACK. Currently walking south through S-curve to Column 19 Row 26.
+- Verified Gold Teeth is not in PACK. Currently walking south through S-curve (Columns 15-17) to Row 26.
