@@ -1185,6 +1185,9 @@ The following paths are highly logical hypotheses but have NOT been fully traver
 
 - Turn 32403: Reached (0, 5) after walking UP 1, LEFT 13, DOWN 2, LEFT 7 in Area 1 (East). [116 steps consumed in total]
 
+### Phase 3: Area 2 (North)
+- Entered Area 2 (North) at (39, 31) [Delta: +1 step, Cum: 117]
+
 <hr>
 
 <h1><code>Locations/SafariZone</code></h1>
