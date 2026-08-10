@@ -1,12 +1,12 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47047)
-- Location: Celadon City at (17, 26) facing Down.
+## CURRENT STATUS & DASHBOARD (Turn 47048)
+- Location: Celadon City at (17, 29) facing Down.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Down 3 steps along Column 17 Avenue to Row 29 street at (17, 29).
+- Active Objective: Walk Left 7 steps along Row 29 street to (10, 29).
 - Persistent Facts:
-  - Rows 28-29 (y=28..29) form open East-West paved cross-street.
-  - Column 17 Avenue continues South to Row 29 at (17, 29).
+  - Building facade sits at y=32 across x=13..19.
+  - Row 28/29 paved cross-street runs West across x=17..10.
 
 <hr>
 
@@ -757,13 +757,13 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47048)
-- Location: Celadon City at (17, 29) facing Down.
+## CURRENT STATUS & DASHBOARD (Turn 47049)
+- Location: Celadon City at (10, 29) facing Left.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Left 7 steps along Row 29 street to (10, 29).
+- Active Objective: Step Left 2 to Column 8 Avenue (8, 29) and walk Down 6 steps to (8, 35).
 - Persistent Facts:
-  - Building facade sits at y=32 across x=13..19.
-  - Row 28/29 paved cross-street runs West across x=17..10.
+  - Columns 8-9 (x=8..9) form an open paved West Avenue running South from Row 28 past y=33.
+  - Row 35/36 is the open South Courtyard street connecting West Avenue to Game Corner Plaza.
 
 <hr>
 
