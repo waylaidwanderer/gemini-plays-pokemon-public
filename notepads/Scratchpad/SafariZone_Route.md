@@ -36,3 +36,4 @@ The following paths are highly logical hypotheses but have NOT been fully traver
 ### Phase 3: Area 2 (North)
 - Entered Area 2 (North) at (39, 31) [Delta: +1 step, Cum: 117]
 - Turn 32408: Walked LEFT 15 steps to (24, 31) in Area 2 (North), where a wild Nidoran♀ appeared. [Delta: +15 steps, Cum: 132]
+- Turn 32411: Walked LEFT 2 steps to (22, 31), UP 1 step to (22, 30) in Area 2 (North), where a wild Exeggcute appeared. [Delta: +3 steps, Cum: 135]
