@@ -1,12 +1,13 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 48615)
-- Location: Main Game Corner Casino Floor at (4, 6).
+## CURRENT STATUS & DASHBOARD (Turn 48619)
+- Location: Rocket Hideout B1F at (2, 10).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Step onto Secret Staircase at (4, 4) to enter Rocket Hideout B1F.
+- Active Objective: Walk Up 1 to (2, 9) and Right across Row 9 normal floor to (6, 9) to enter main B1F maze.
 - Persistent Facts:
-  - Secret staircase at (4, 4) in Main Casino floor is the true entrance to Rocket Hideout B1F.
-  - Rocket Hideout progression: B1F -> B2F -> B3F (get Lift Key) -> Elevator to B4F -> defeat Giovanni for Silph Scope.
+  - Row y=9 (x=3..6, y=9) is normal floor with no spin tiles.
+  - Column 2 (x=2) is the stop tile highway.
+  - Exiting Row 9 at (6, 9) enters the main B1F maze and stairs to B2F.
 
 <hr>
 
