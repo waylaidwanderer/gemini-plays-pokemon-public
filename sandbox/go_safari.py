@@ -48,6 +48,13 @@ def run_safari_loop(max_steps=40):
             time.sleep(0.5)
             continue
             
+        # Apply Northwest Compartment offset correction if needed
+        if curr not in route:
+            offset_curr = (curr[0] - 18, curr[1])
+            if offset_curr in route:
+                print(f"Applying Northwest Compartment offset correction: {curr} -> {offset_curr}")
+                curr = offset_curr
+                
         print(f"Current Coordinates: {curr}")
         
         # Check if we arrived at the final target (5, 14)
@@ -84,6 +91,13 @@ def run_safari_loop(max_steps=40):
         
         # Verify if we successfully moved
         new_curr = bridge.get_coordinates()
+        if new_curr is not None:
+            # Apply same offset correction to new_curr
+            if new_curr not in route:
+                offset_new = (new_curr[0] - 18, new_curr[1])
+                if offset_new in route:
+                    new_curr = offset_new
+                    
         if new_curr == curr:
             stuck_count += 1
             print(f"Stuck! Didn't move. Current {curr}. Stuck count: {stuck_count}")
