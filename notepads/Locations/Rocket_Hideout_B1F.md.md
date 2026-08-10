@@ -56,3 +56,4 @@
 - Row y=31: Spins DOWN to (3, 31).
 - Row y=32: Spins DOWN to (3, 32).
 - Row y=33: Spins DOWN to (3, 33).
+- Row y=34: Spins DOWN to (3, 34).
