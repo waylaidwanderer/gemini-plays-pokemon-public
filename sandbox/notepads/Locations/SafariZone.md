@@ -84,6 +84,7 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 ### Map Transitions & Exits
 - **Exit to Area 2 (North):** Located at `(0, 5)` on row 5, which is reachable from the northern ground corridor.
 - **Column 20 Hedge Passage (Rows 4-6):** Empirically verified on Turn 29054. Hedges on Column 20 at Rows 4 and 6 have 0% collision, enabling players to walk directly UP to Row 3.
+- **Row 5 Column 19 Cliff Face Barrier (Area 1 East):** Empirically verified on Turn 32167. Row 5, Column 19 has a solid cliff face, blocking leftward ground-level crossing from (20, 5) and forcing the use of the Northern Corridor Bypass Route.
 - **Row 3 Obstruction (Col 5):** A solid pine tree at `(5, 3)` blocks direct horizontal passage on Row 3.
 - **Northern Corridor Bypass Route:** From Column 20 Row 3, walk left to `(7, 3)`, walk Down to `(7, 5)` (bypassing the `(6, 4)` building door and the `(5, 3)` pine tree), and then walk Left along Row 5 to `(0, 5)` to transition to Area 2 (North) safely. Avoid transitioning at `(0, 3)`, which is a trap!
 
