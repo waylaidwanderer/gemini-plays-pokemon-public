@@ -757,13 +757,13 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47077)
-- Location: True Main Game Corner Casino Floor at (1, 2) facing Down.
+## CURRENT STATUS & DASHBOARD (Turn 47086)
+- Location: Game Corner Sub-Room at (4, 7) facing Down on exit mat.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Right 2 to (3, 2), face Up, and press A to talk to character at (3, 1).
+- Active Objective: Warp out to Plaza (9, 14), Right 1 to (10, 14), and Up 12 to True Main Casino door (10, 2).
 - Persistent Facts:
-  - Dialogue box is closed completely; player at (1, 2) facing Down.
-  - Character sprite (blue hat / black shirt) stands at (3, 1) on North Wall.
+  - Standing on red striped exit mat at (4, 7).
+  - True Main Casino Floor door is located at (10, 2) on Column 10 in Game Corner Plaza.
 
 <hr>
 
