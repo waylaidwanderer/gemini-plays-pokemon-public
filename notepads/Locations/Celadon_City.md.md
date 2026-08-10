@@ -35,3 +35,8 @@
 - Empirically tested Row 28 (y=28) Eastward traversal on Turn 47192: Tile (20, 28) is a SOLID TREE TILE part of Column 20 (x=20..23) vertical tree wall.
 - Empirically tested Row 12 (y=12) Eastward traversal on Turn 47174: Tile (16, 12) is the front wall of Department Store.
 - Open Northern Highway is Row 8 / Row 9 (y=8, y=9) green lawn running East above Department Store roof across x=11..19+.
+
+## Empirically Verified Casino Entrance (Turn 47806)
+- Main Game Corner Casino Floor Entrance: Located in outdoor Celadon City at tile (30, 34) / (30, 35) (5 steps East of plaza warp exit at 25, 35).
+- Game Corner Plaza (17, 27) enters the 8x8 Nidoran Trade Sub-room.
+- Main Game Corner Casino is entered directly from outdoor Celadon City at door (30, 34) / (30, 35).
