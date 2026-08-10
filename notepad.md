@@ -863,6 +863,7 @@
 - Tile (32, 16): 100% open ground passage below barrels at (32, 12..15), connecting Central Celadon directly East to Column 36 (36, 16).
 - Main Game Corner Casino Entrance: Located in Celadon City at tile (30, 19) [approached via Row 18 at 30, 18].
 - Tile (31, 16): Solid blue building canopy / wall.
+- Tile (24, 16) & (24, 17): Blue outdoor staircase connecting Row 16 (23, 16) directly Down to Row 18 street at (24, 18).
 
 <hr>
 
