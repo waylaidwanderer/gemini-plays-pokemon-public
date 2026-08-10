@@ -1,12 +1,12 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47094)
-- Location: Celadon City at (14, 16) facing Up.
+## CURRENT STATUS & DASHBOARD (Turn 47095)
+- Location: Celadon City at (15, 12) facing Right.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Up 4 steps along Column 14 to (14, 12), then Right 1 to (15, 12).
+- Active Objective: Walk Down 2 to Row 14 (15, 14) and Right 4 to (19, 14) facing tree line at (20, 14).
 - Persistent Facts:
-  - Arrived at (14, 16) on Column 14 street.
-  - Column 14 connects North to Row 12 street at (14, 12).
+  - Row 12 East is blocked by Dept Store top wall at x=16.
+  - Column 20 (x=20) is a solid tree wall from y=8 down through y=16.
 
 <hr>
 
@@ -1029,12 +1029,12 @@ Systematically probe every potential building doorway and alleyway warp in South
 
 <h1><code>Locations/Celadon_Game_Corner.md</code></h1>
 
-# Celadon Game Corner & Prize Exchange Topology
+## Game Corner & Prize Exchange Topology
 
-## Building Access & Locations
-- Game Corner West Room: Door at East Celadon City (13, 25) enters small 8x8 West Room (x=0..7, y=0..7) with exit carpet at (2,7)/(3,7).
-- Game Corner Plaza Entrance: Tile (20, 36) in Celadon City warps directly into Game Corner Plaza at (10, 0).
-- True Main Casino Floor: Entrance located in Game Corner Plaza at (10, 2) / (17, 27).
+### Building Access & Locations
+- Game Corner Plaza Entrance: Tile (8, 36) / (20, 36) in Celadon City warps directly into Game Corner Plaza at (18, 0).
+- True Main Casino Floor: Entrance doorway located at (10, 2) on the NORTH building of Game Corner Plaza.
+- Prize Exchange Sub-Rooms: Entrance doorways located at (9, 13), (15, 13), and (23, 13) on the SOUTH buildings of Game Corner Plaza.
 
 ## Casino Floor & Secret Hideout Switch
 - Main Casino Floor Layout: North Wall poster switch guarded by Rocket Grunt. Defeating Grunt and pressing A on poster reveals secret staircase to Rocket Hideout B1F.
