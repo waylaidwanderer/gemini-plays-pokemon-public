@@ -1152,8 +1152,8 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 265
-- **Steps Remaining:** 235
+- **Steps Consumed:** 268
+- **Steps Remaining:** 232
 
 ## 🗺️ Step-by-Step Route Log
 - Started inside Safari Zone Center at (18, 25).
@@ -1174,6 +1174,7 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 - Walked north on Column 3 to (3, 14).
 - Walked east along Row 14 to (10, 14) to bypass the pond.
 - Entered the Secret House at (11, 11) -> (2, 7).
+- Walked over to the Secret House owner behind the counter at (0, 2).
 - Currently talking to the Secret House owner to get HM03 (Surf).
 
 <hr>
