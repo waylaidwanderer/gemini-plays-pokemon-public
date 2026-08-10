@@ -1,8 +1,7 @@
-## CURRENT STATUS & DASHBOARD (Turn 47211)
-- Location: Celadon City at (9, 15) facing Down (In Battle vs Wild Meowth).
+## CURRENT STATUS & DASHBOARD (Turn 47212)
+- Location: Celadon City at (9, 14) facing Down (In Battle vs Wild Meowth / Party Menu).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Run from wild Meowth, then walk Down 8 to (9, 23), Right 5 to Column 14 (14, 23), and Down to Row 28 Highway (14, 28).
+- Active Objective: Close Party Menu with B, select RUN with Down+A, then walk Down 12 along Column 9 to Row 26 Highway (9, 26).
 - Persistent Facts:
-  - Row 15 x=9..13 is tall grass triggering wild encounters.
-  - Row 28 (y=28) is an unblocked East-West pavement highway running across South Celadon below central pond.
+  - Column 9 (x=9) is open pavement/alley running South to Row 26 / Row 28 Highway.
   - Outdoor doorway at (28, 35) in Celadon City enters True Main Game Corner Casino Floor.
