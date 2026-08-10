@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47641)
-- Location: Rocket Hideout B1F at (5, 3) returning to Celadon Game Corner.
+## CURRENT STATUS & DASHBOARD (Turn 47646)
+- Location: Celadon Game Corner at (6, 7) entering Rocket Hideout B1F.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Re-ascend stairs at (5, 4) to Celadon Game Corner (4, 4), walk Left to Column 3 (3, 4), Down to South Cross-Aisle (3, 6), and East to East side of casino.
+- Active Objective: Walk Left to (4, 7), Up to staircase at (4, 4) to enter Rocket Hideout B1F at (5, 4), then explore West/South through B1F to reach lower levels.
 - Persistent Facts:
   - Game Corner Plaza is the outdoor Prize Exchange sub-map.
   - Column 12/13 in Celadon City is the open pavement street running North to Row 13.
@@ -1154,5 +1154,8 @@ Empirically map every aisle on Columns 5, 6, and 7 across Rows 1..6 to verify if
 - All spin tiles (3, 3..40) spin UP to row 3 counter wall (3, 2).
 - Staircase (2, 41) and Staircase (5, 4) both connect back to Celadon Game Corner (4, 4) local building.
 - TRUE MAIN HIDEOUT ACCESS: Located in Main Game Corner Casino floor on North Wall. Defeat the Rocket Grunt guarding the poster on the North Wall, press A on the poster switch to reveal the true secret staircase to Main Rocket Hideout B1F/B2F!
+### Main Hideout Staircase Access (Verified Turn 47646)
+- Staircase (4, 4) in Celadon Game Corner is the secret staircase leading directly down to Rocket Hideout B1F (5, 4).
+- From B1F (5, 4), explore West/South through B1F corridors to navigate through Rocket Hideout and reach lower floors B2F/B3F/B4F to battle Giovanni and obtain the Silph Scope.
 
 <hr>

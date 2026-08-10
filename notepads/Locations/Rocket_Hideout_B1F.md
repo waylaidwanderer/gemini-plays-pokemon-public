@@ -18,3 +18,6 @@
 - All spin tiles (3, 3..40) spin UP to row 3 counter wall (3, 2).
 - Staircase (2, 41) and Staircase (5, 4) both connect back to Celadon Game Corner (4, 4) local building.
 - TRUE MAIN HIDEOUT ACCESS: Located in Main Game Corner Casino floor on North Wall. Defeat the Rocket Grunt guarding the poster on the North Wall, press A on the poster switch to reveal the true secret staircase to Main Rocket Hideout B1F/B2F!
+### Main Hideout Staircase Access (Verified Turn 47646)
+- Staircase (4, 4) in Celadon Game Corner is the secret staircase leading directly down to Rocket Hideout B1F (5, 4).
+- From B1F (5, 4), explore West/South through B1F corridors to navigate through Rocket Hideout and reach lower floors B2F/B3F/B4F to battle Giovanni and obtain the Silph Scope.
