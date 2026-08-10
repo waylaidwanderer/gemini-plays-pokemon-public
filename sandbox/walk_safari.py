@@ -1,5 +1,62 @@
-import mgba
+import socket
+import json
+import os
 import time
+
+def send_bridge_request(endpoint, data=None):
+    host = "127.0.0.1"
+    port = int(os.environ.get("EMULATOR_BRIDGE_PORT", 9102))
+    
+    # Construct raw HTTP payload
+    if data is not None:
+        payload = json.dumps(data)
+        request = (
+            f"POST {endpoint} HTTP/1.1\r\n"
+            f"Host: {host}:{port}\r\n"
+            f"Content-Type: application/json\r\n"
+            f"Content-Length: {len(payload)}\r\n"
+            f"Connection: close\r\n\r\n"
+            f"{payload}"
+        )
+    else:
+        request = (
+            f"GET {endpoint} HTTP/1.1\r\n"
+            f"Host: {host}:{port}\r\n"
+            f"Connection: close\r\n\r\n"
+        )
+        
+    # Open socket and transmit
+    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    s.settimeout(5)
+    s.connect((host, port))
+    s.sendall(request.encode('utf-8'))
+    
+    # Read response
+    response = b""
+    while True:
+        chunk = s.recv(4096)
+        if not chunk:
+            break
+        response += chunk
+    s.close()
+    
+    # Parse JSON body
+    parts = response.split(b"\r\n\r\n", 1)
+    if len(parts) == 2:
+        return json.loads(parts[1].decode('utf-8'))
+    return {"error": "Invalid HTTP response format"}
+
+def get_coordinates():
+    res = send_bridge_request("/api/coordinates")
+    if "error" in res:
+        print(f"Error getting coordinates: {res['error']}")
+        return None
+    return (res.get("x"), res.get("y"))
+
+def press_buttons(buttons):
+    if isinstance(buttons, str):
+        buttons = [buttons]
+    return send_bridge_request("/api/press_buttons", {"buttons": buttons})
 
 # The complete route to Area 3 (West) (26, 0)
 route = [
@@ -40,11 +97,11 @@ def run_away():
     print("Wild battle/interaction detected! Executing RUN sequence...")
     # Gen 1 battle escape: B multiple times, then Down/Right/A to RUN
     for _ in range(3):
-        mgba.press_buttons(["B", "sleep 300"])
-    mgba.press_buttons(["Right", "sleep 200", "Down", "sleep 200", "A", "sleep 1200"])
+        press_buttons(["B", "sleep 300"])
+    press_buttons(["Right", "sleep 200", "Down", "sleep 200", "A", "sleep 1200"])
     # Clear got away safely text
     for _ in range(4):
-        mgba.press_buttons(["B", "sleep 300"])
+        press_buttons(["B", "sleep 300"])
     print("RUN sequence finished.")
 
 def get_dir(curr, target):
@@ -56,14 +113,13 @@ def get_dir(curr, target):
     if ty < cy: return "Up"
     return None
 
-def align_with_route(curr_pos):
+def align_with_route(curr):
     for idx, coord in enumerate(route):
-        if curr_pos == coord:
+        if curr == coord:
             return idx
     return None
 
-curr_pos = mgba.get_coordinates()
-curr = (curr_pos['x'], curr_pos['y'])
+curr = get_coordinates()
 print(f"Starting at overworld coordinate: {curr}")
 
 route_idx = align_with_route(curr)
@@ -78,8 +134,7 @@ max_stuck = 3
 
 while route_idx < len(route):
     target = route[route_idx]
-    curr_pos = mgba.get_coordinates()
-    curr = (curr_pos['x'], curr_pos['y'])
+    curr = get_coordinates()
     
     if curr == target:
         print(f"Arrived at target {target} (index {route_idx})")
@@ -101,10 +156,9 @@ while route_idx < len(route):
         break
         
     print(f"Moving {direction} from {curr} towards {target}")
-    mgba.press_buttons([direction, "sleep 300"])
+    press_buttons([direction, "sleep 300"])
     
-    new_pos = mgba.get_coordinates()
-    new_curr = (new_pos['x'], new_pos['y'])
+    new_curr = get_coordinates()
     
     if new_curr == curr:
         stuck_count += 1
@@ -112,8 +166,7 @@ while route_idx < len(route):
         if stuck_count >= max_stuck:
             run_away()
             # Recheck alignment
-            after_run_pos = mgba.get_coordinates()
-            after_run = (after_run_pos['x'], after_run_pos['y'])
+            after_run = get_coordinates()
             if after_run != curr:
                 print(f"Moved after run sequence! New position: {after_run}")
                 idx = align_with_route(after_run)
