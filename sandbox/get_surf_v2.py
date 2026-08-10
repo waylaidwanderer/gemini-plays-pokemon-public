@@ -63,26 +63,13 @@ def press_buttons(buttons):
         buttons = [buttons]
     return send_bridge_request("/api/press_buttons", {"buttons": buttons})
 
-# Clean up obsolete files as requested by critique
-for file in ['find_surf_test.py', 'go_back.py', 'test_up_columns.py', 'find_secret_house.py', 'get_surf.py']:
-    try:
-        if os.path.exists(file):
-            os.remove(file)
-            print(f"Cleaned up obsolete file: {file}")
-    except Exception as e:
-        print(f"Error deleting {file}: {e}")
-
-# Consolidated efficient route to Secret House door at (3, 8) from current (18, 6)
+# Path from current (8, 10) to Secret House door at (5, 13)
 route = [
-    (18, 6),
-    (17, 6), (16, 6), # LEFT on row 6
-    (16, 7), # DOWN to row 7
-    (16, 8), # DOWN to row 8
-    (15, 8), (14, 8), (13, 8), (12, 8), (11, 8), # LEFT to col 11
-    (11, 9), (11, 10), (11, 11), (11, 12), (11, 13), (11, 14), # DOWN to row 14
-    (10, 14), (9, 14), (8, 14), (7, 14), (6, 14), (5, 14), (4, 14), (3, 14), (2, 14), (1, 14), (0, 14), # LEFT to col 0
-    (0, 13), (0, 12), (0, 11), (0, 10), (0, 9), (0, 8), # UP to row 8
-    (1, 8), (2, 8), (3, 8) # RIGHT to Secret House door
+    (8, 10),
+    (8, 9), # UP
+    (7, 9), (6, 9), (5, 9), (4, 9), (3, 9), # LEFT to col 3
+    (3, 10), (3, 11), (3, 12), (3, 13), # DOWN to row 13
+    (4, 13), (5, 13) # RIGHT to the door
 ]
 
 def get_dir(curr, target):
@@ -140,8 +127,7 @@ while route_idx < len(route):
         stuck_count += 1
         print(f"Stuck! Stuck count: {stuck_count}")
         if stuck_count >= max_stuck:
-            # Check if we can enter the Secret House at (3, 8)
-            if target == (3, 8):
+            if target == (5, 13):
                 print("Trying to press UP to enter Secret House...")
                 press_buttons(["Up", "sleep 1000"])
                 after_up = get_coordinates()
@@ -161,12 +147,12 @@ while route_idx < len(route):
     else:
         stuck_count = 0
 
-# If we reached (3, 8), try entering
+# If we reached (5, 13), try entering
 curr = get_coordinates()
-if curr == (3, 8):
-    print("Arrived at (3, 8). Pressing UP to enter Secret House...")
+if curr == (5, 13):
+    print("Arrived at (5, 13). Pressing UP to enter Secret House...")
     press_buttons(["Up", "sleep 1000"])
     after_up = get_coordinates()
     print(f"Final coordinates: {after_up}")
 else:
-    print(f"Did not reach (3, 8). Current position: {curr}")
+    print(f"Did not reach (5, 13). Current position: {curr}")
