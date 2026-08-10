@@ -2,8 +2,8 @@
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 254
-- **Steps Remaining:** 246
+- **Steps Consumed:** 253
+- **Steps Remaining:** 247
 
 ## 🗺️ Step-by-Step Route Log
 - Started inside Safari Zone Center at (18, 25).
@@ -21,5 +21,5 @@
 - Walked west along the plateau to (6, 16).
 - Descended the West Stairs of the plateau to (6, 20).
 - Walked north to (3, 20) on the western ground level.
-- Walked north on Column 2 to (2, 8).
-- Currently transitioning into the Secret House at (3, 8).
+- Walked north on Column 3 to (3, 14).
+- Currently walking east along Row 14 to bypass the pond on the right.
