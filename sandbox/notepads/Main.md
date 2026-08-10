@@ -1,8 +1,8 @@
-## CURRENT STATUS & DASHBOARD (Turn 47202)
+## CURRENT STATUS & DASHBOARD (Turn 47203)
 - Location: Celadon City at (15, 12) facing Up.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Up 3 to Row 9 lawn (15, 9) above Department Store roof, then Right along Row 9 to East Celadon.
+- Active Objective: Walk Down 2 to Row 14 (15, 14), Left 6 to Column 9 Alley (9, 14), then Down to Row 26 Highway (9, 26).
 - Persistent Facts:
-  - Row 12 (y=12) at x=16..19 is Department Store front wall.
-  - Row 8 & Row 9 (y=8, y=9) across x=11..19 is open green lawn above Department Store roof.
+  - Row 11 (y=11) is a solid fence/ledge above Row 12.
+  - Column 9 (x=9) is open pavement/alley running South to Row 26 / Row 28 Highway.
   - Outdoor doorway at (28, 35) in Celadon City enters True Main Game Corner Casino Floor.
