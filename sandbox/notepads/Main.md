@@ -1,9 +1,9 @@
-## CURRENT STATUS & DASHBOARD (Turn 49759)
-- Location: Celadon City at (16, 28).
+## CURRENT STATUS & DASHBOARD (Turn 49767)
+- Location: Celadon City at (27, 12).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Walk West along Row 27 pavement (16, 27..8, 27) -> Column 8 Open Slope Gap (8, 15) -> Row 12 Highway (8, 12) -> East to Column 36 (36, 12) -> South to Row 30 South Street (36, 30) -> Plaza warp (20, 36).
+- Active Objective: Detour South around NPC (28, 12) via Row 13 (27, 13..31, 13) -> Column 31 (31, 16) -> Ground passage (32, 16) -> Column 36 Tree Gap -> Row 30 South Street -> Plaza warp (20, 36).
 - Persistent Facts:
   - Celadon Mansion 1F door (2, 0) exits directly onto the Rooftop Highway at (9, 9).
   - True Main Casino Floor is entered via outdoor door at (30, 34) / South Street or Plaza warp at (20, 36).
-  - Row 27 pavement (y=27) is 100% open running West across x=16..8.
-  - Column 8 (x=8) Open Slope Gap at (8, 15) connects Row 27 directly North to Row 12 Northern Highway at (8, 12).
+  - Row 13 green lawn (y=13) is 100% open, bypassing Green Shirt NPC at (28, 12).
+  - Tile (32, 16) is the verified open ground passage below barrels at (32, 12..15).
