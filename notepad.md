@@ -1,12 +1,13 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47486)
-- Location: Rocket Hideout B1F at (3, 7) facing Down (on Row 7 red spin tile).
+## CURRENT STATUS & DASHBOARD (Turn 47521)
+- Location: Rocket Hideout B1F at (3, 7) facing Down.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Propel Right via Row 7 red spin tile into Eastern Main Room of Rocket Hideout B1F.
+- Active Objective: Ascend staircase at (5, 4) in B1F West Spin Loop to return to Celadon Game Corner, exit to Game Corner Plaza, and enter True Main Casino Floor at (10, 2).
 - Persistent Facts:
-  - Row 7 red spin tile at (3, 7) propels Right across x=4..7 into Eastern Main Room of Rocket Hideout B1F.
-  - Column 2 (x=2) in B1F is the vertical control highway of stop tiles spanning y=3..41.
+  - Columns 2..5 in B1F form the isolated West Spin Loop bounded by wall x=6.
+  - Staircase at (5, 4) connects back to Celadon Game Corner (4, 4).
+  - True Main Casino Floor entrance is located at Game Corner Plaza (10, 2).
 
 <hr>
 
