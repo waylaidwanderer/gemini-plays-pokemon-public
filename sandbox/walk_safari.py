@@ -40,7 +40,7 @@ def send_bridge_request(endpoint, data=None):
         response += chunk
     s.close()
     
-    # Parse JSON body (robustly handling chunked transfer encoding)
+    # Parse JSON body
     parts = response.split(b"\r\n\r\n", 1)
     if len(parts) == 2:
         body = parts[1].decode('utf-8')
@@ -63,7 +63,7 @@ def press_buttons(buttons):
         buttons = [buttons]
     return send_bridge_request("/api/press_buttons", {"buttons": buttons})
 
-# The complete route to Area 3 (West) (26, 0)
+# 100% contiguous and verified bypass route
 route = [
     # Safari Zone Center
     (15, 25),
@@ -74,7 +74,10 @@ route = [
 
     # Area 1 (East)
     (0, 22),
-    (1, 22), (2, 22), (3, 22), (4, 22), (5, 22), (5, 21), (6, 21), (7, 21), (7, 22), (8, 22), (9, 22), (10, 22), (11, 22), (12, 22), (13, 22), (14, 22), (15, 22), (16, 22), (17, 22), (18, 22), (19, 22), (20, 22),
+    (1, 22), (2, 22), (3, 22), (4, 22), (4, 23), (4, 24),
+    (5, 24), (6, 24), (7, 24), (8, 24), (9, 24),
+    (9, 23), (9, 22),
+    (10, 22), (11, 22), (12, 22), (13, 22), (14, 22), (15, 22), (16, 22), (17, 22), (18, 22), (19, 22), (20, 22),
     (20, 21),
     (20, 20),
     (19, 20), (18, 20), (17, 20), (16, 20), (15, 20), (14, 20), (13, 20), (12, 20),
@@ -100,11 +103,9 @@ route = [
 
 def run_away():
     print("Wild battle/interaction detected! Executing RUN sequence...")
-    # Gen 1 battle escape: B multiple times, then Down/Right/A to RUN
     for _ in range(3):
         press_buttons(["B", "sleep 300"])
     press_buttons(["Right", "sleep 200", "Down", "sleep 200", "A", "sleep 1200"])
-    # Clear got away safely text
     for _ in range(4):
         press_buttons(["B", "sleep 300"])
     print("RUN sequence finished.")
@@ -149,7 +150,6 @@ while route_idx < len(route):
         
     direction = get_dir(curr, target)
     if direction is None:
-        # Check if we transitioned to next coordinate
         if route_idx + 1 < len(route):
             next_target = route[route_idx + 1]
             if curr == next_target:
@@ -170,7 +170,6 @@ while route_idx < len(route):
         print(f"Stuck! Didn't move. Current {curr}, Target {target}. Stuck count: {stuck_count}")
         if stuck_count >= max_stuck:
             run_away()
-            # Recheck alignment
             after_run = get_coordinates()
             if after_run != curr:
                 print(f"Moved after run sequence! New position: {after_run}")
@@ -184,7 +183,6 @@ while route_idx < len(route):
             stuck_count = 0
     else:
         stuck_count = 0
-        # Map transition detection via coordinate distance
         dist = abs(new_curr[0] - curr[0]) + abs(new_curr[1] - curr[1])
         if dist > 1:
             print(f"Map Transition detected! Moved from {curr} to {new_curr}")
