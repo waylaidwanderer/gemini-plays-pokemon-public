@@ -78,3 +78,4 @@
 - Main Game Corner Casino Entrance: Located in Celadon City at tile (30, 19) [approached via Row 18 at 30, 18].
 - Tile (31, 16): Solid blue building canopy / wall.
 - Tile (24, 16) & (24, 17): Blue outdoor staircase connecting Row 16 (23, 16) directly Down to Row 18 street at (24, 18).
+- Row 20 (x=22..30+): 100% open paved street running East-West directly in front of Main Game Corner Casino door at (30, 19).
