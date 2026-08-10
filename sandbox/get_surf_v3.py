@@ -63,12 +63,7 @@ def press_buttons(buttons):
         buttons = [buttons]
     return send_bridge_request("/api/press_buttons", {"buttons": buttons})
 
-# Clean up obsolete get_surf_v2.py
-if os.path.exists('get_surf_v2.py'):
-    os.remove('get_surf_v2.py')
-    print("Deleted obsolete get_surf_v2.py")
-
-# Correct, complete, and highly optimized Safari Speedrun Route V3
+# Correct, complete, and highly optimized Safari Speedrun Route V3 (with Column 12 detour)
 route = [
     # --- PHASE 1: Safari Zone Center (East) to Area 1 (East) ---
     (27, 0),
@@ -82,18 +77,18 @@ route = [
     (20, 23), (20, 22), (20, 21),
     (20, 20), # Climb stairs
     (19, 20), (18, 20), (17, 20), (16, 20), (15, 20), (14, 20), (13, 20), (12, 20),
-    (12, 21),
-    (12, 22),
-    (11, 22), (10, 22), (9, 22), (8, 22),
-    (8, 21), (8, 20), (8, 19), (8, 18), (8, 17), (8, 16), (8, 15), (8, 14), (8, 13), (8, 12), (8, 11), (8, 10), (8, 9), (8, 8),
-    (9, 8), (10, 8), (11, 8), (12, 8),
-    (12, 7), (12, 6),
-    (13, 6), (14, 6), (15, 6), (16, 6), (17, 6),
-    (17, 7), (17, 8),
-    (18, 8), (19, 8), (20, 8),
-    (20, 7), (20, 6), (20, 5), (20, 4), (20, 3),
+    (12, 21), (12, 22), # Descend stairs
+    (11, 22), (10, 22), (9, 22), (8, 22), (7, 22), # Walk left to col 7
+    (7, 21), (7, 20), (7, 19), (7, 18), (7, 17), (7, 16), # Walk DOWN column 7 to row 16
+    (8, 16), (9, 16), (10, 16), (11, 16), (12, 16), # Walk RIGHT on row 16 to col 12
+    (12, 15), (12, 14), (12, 13), (12, 12), (12, 11), (12, 10), (12, 9), (12, 8), # Walk UP column 12 to row 8
+    (12, 7), # Climb stairs to plateau
+    (12, 6), (13, 6), (14, 6), (15, 6), (16, 6), (17, 6), # Walk east on plateau
+    (17, 7), (17, 8), # Descend stairs
+    (18, 8), (19, 8), (20, 8), # Walk east
+    (20, 7), (20, 6), (20, 5), (20, 4), (20, 3), # Walk UP past the hedge block on column 20
     (19, 3), (18, 3), (17, 3), (16, 3), (15, 3), (14, 3), (13, 3), (12, 3), (11, 3), (10, 3), (9, 3), (8, 3), (7, 3),
-    (7, 4), (7, 5),
+    (7, 4), (7, 5), # Walk DOWN to row 5, bypassing the building door at (6, 4)
     (6, 5), (5, 5), (4, 5), (3, 5), (2, 5), (1, 5), (0, 5), (-1, 5),
 
     # --- PHASE 3: Area 2 (North) to Area 3 (West) Northern compartment ---
