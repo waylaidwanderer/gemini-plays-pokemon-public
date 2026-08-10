@@ -59,6 +59,9 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
   
 
 ### Verified Physical Collision Barriers
+- **Row 7 Column 13 Plateau Wall (Area 1 East):** Physically verified on Turn 32393. Attempting to walk RIGHT from (12, 7) to (13, 7) on the stairs results in bumping, proving the plateau side-walls are solid.
+- **Row 17 Column 29 Boundary (Safari Zone Center):** Physically verified on Turn 32381. Attempting to walk RIGHT from (28, 17) to (29, 17) results in bumping, proving Column 29 Row 17 is blocked.
+- **Row 24 Column 3 Tree Barrier (Area 3 West):** Physically verified on Turn 32352. Attempting to walk DOWN from (3, 23) to (3, 24) results in bumping, proving Row 24 Column 3 is a solid tree trunk barrier.
 - **Row 17 Column 29 Boundary (Safari Zone Center):** Physically verified on Turn 32381. Attempting to walk RIGHT from (28, 17) to (29, 17) results in bumping, proving Column 29 Row 17 is blocked.
 - **Row 24 Column 3 Tree Barrier (Area 3 West):** Physically verified on Turn 32352. Attempting to walk DOWN from (3, 23) to (3, 24) results in bumping, proving Row 24 Column 3 is a solid tree trunk barrier.
 - **Row 24 Column 3 Tree Barrier (Area 3 West):** Physically verified on Turn 32352. Attempting to walk DOWN from (3, 23) to (3, 24) results in bumping, proving Row 24 Column 3 is a solid tree trunk barrier.
