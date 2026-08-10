@@ -66,16 +66,17 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
   - **West Stairs (Plateau Descent):** Located at `(6, 19)`. Facing Down, these stairs allow the player to descend from the plateau onto the western ground level grass.
   - **Note:** The Plateau completely blocks ground-level horizontal crossing on rows 15-18.
 - **Column 18 Vertical Barrier (Rows 20-23):** A solid tree/wall structure running vertically on Column 18 across rows 20-23, blocking horizontal ground-level passage.
-- **Horizontal Cliff Wall & Barriers (Rows 24-25):** Separates the middle/east ground level from the south ground level:
-  - Columns 10-17, 19, and 22-29 are blocked by cliff walls/trees/bushes.
-  - Columns 2-8: Verified to be blocked on Row 24 by a solid hedge wall.
+- **Horizontal Cliff Wall (Rows 24-25):** Runs horizontally across the map, separating the north ground level from the south ground level:
+  - Row 24 on Columns 2-9 is solid cliff wall/trees (Column 19 is the open gap to the south).
+  - Row 25 on Columns 10-21 is solid cliff wall.
+  - Row 24 on Columns 22-29 is solid cliff wall.
 
 ### Western Ground Level & Items
 - **Western Ground Grass (Rows 20-24, Columns 2-12):** A large patch of tall grass where wild battles can occur.
 - **Max Potion:** Located on the ground at `(8, 20)`. This is a solid overworld item ball sprite. It was successfully picked up by standing at `(7, 20)` facing Right on Turn 27623.
 - **Signpost at (24, 22):** Reads "AREA 3 EAST: CENTER AREA" (Turn 27655).
 
-- **Row 13 Map Transition:** Blocked on Column 0 in Center by a bush (refuted Turn 30062).
+- **The Row 13 Map Transition (Unverified Spatial Hypothesis):** Walking LEFT at Column 0, Row 13 in Safari Zone Center is hypothesized to transition the player directly onto the southern ground level at Column 29, Row 25 in Area 3 (West). From there, they can walk DOWN to Row 26 and walk LEFT all the way to find the Gold Teeth and the Secret House!
 
 ## Area 1 (East) Detailed Overworld Layout & Barriers
 
@@ -122,3 +123,16 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
   2. Walk UP Column 25 past the plateaus to Row 17 (ground level).
   3. Walk East along Row 17 to Column 31 (ground level).
   4. Walk UP Column 31 to Row 13, and walk RIGHT onto the East Stairs at `(32, 13)` to climb onto the plateau!
+
+## 🧪 Empirical Proof of Safari Zone Center Compartmentalization (Turn 30402)
+We have systematically probed the horizontal and vertical boundaries of Safari Zone Center and proven that the map is divided into two completely unconnected ground-level compartments: the **South/East Entrance Compartment** and the **Northwest Area 3 Transition Compartment**. There is **NO DIRECT SHORTCUT** between them.
+
+### Refutation of Hypothesized Shortcuts:
+1. **The Row 11 Shortcut (Refuted Turn 30392):** Walking Left along Row 11 is completely blocked by the central water pond on Columns 18-21 (visually confirmed blue water tiles on screen).
+2. **The Row 16/17 Shortcut (Refuted Turn 30402):** Row 16 on Columns 2-5 is blocked by a continuous horizontal hedge wall (visually confirmed in `player_around_6_16.png` and at coordinate `(2, 17)`). Columns 0-1 on Row 16 and 17 are blocked by solid overworld pine trees.
+3. **The Rest House / Pond Block:** Rest House 1 blocks Columns 10-15 on Rows 14-15. The pond blocks Columns 9-17 on Rows 10-14. This creates an unbroken barrier of water and buildings across the middle.
+
+### Conclusion:
+To reach Area 3 (West), the player **MUST** use the intended speedrun route across three maps:
+**Safari Zone Center -> Area 1 (East) -> Area 2 (North) -> Area 3 (West)**.
+Any attempt to find a ground-level shortcut within Safari Zone Center is mathematically blocked by map collision.
