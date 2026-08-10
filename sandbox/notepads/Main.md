@@ -1,7 +1,7 @@
-## CURRENT STATUS & DASHBOARD (Turn 49921)
-- Location: Celadon City at (8, 20).
+## CURRENT STATUS & DASHBOARD (Turn 49951)
+- Location: Celadon City at (13, 20).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Walk East along Row 20 to Column 30/36 to reach Game Corner Plaza warp (28, 36) and enter door (17, 27).
+- Active Objective: Walk West to Column 8 (8, 20) and North through Slope Gap (7, 11) to reach Game Corner Plaza door (17, 27).
 - Persistent Facts:
   - Outdoor door (30, 19) in Celadon City enters the 8x13 Gambler sub-room.
   - True Main Casino Floor is entered via door (17, 27) inside Game Corner Plaza.
