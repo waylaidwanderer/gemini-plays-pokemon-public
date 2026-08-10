@@ -2,8 +2,8 @@
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 234
-- **Steps Remaining:** 266
+- **Steps Consumed:** 264
+- **Steps Remaining:** 236
 
 ## 🗺️ Step-by-Step Route Log
 - Started a new Safari Zone run on Turn 31982.
@@ -20,3 +20,8 @@
 - Turn 32215: Reached (3, 18) [227 steps]
 - Turn 32216: Reached (3, 14) [231 steps]
 - Turn 32218: Reached (10, 14) [238 steps]
+- Turn 32228: Entered Rest House 3 at (2, 7) via doorway mat at (11, 11) [242 steps]
+- Turn 32243: Exited Rest House 3, standing at (11, 12) [248 steps]
+- Turn 32245: Walked to (3, 14) [258 steps]
+- Turn 32247: Walked to (3, 18) [262 steps]
+- Turn 32249: Walked to (3, 20) [264 steps]
