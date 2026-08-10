@@ -2,8 +2,8 @@
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 276
-- **Steps Remaining:** 224
+- **Steps Consumed:** 280
+- **Steps Remaining:** 220
 
 ## 🗺️ Step-by-Step Route Log
 - Started inside Safari Zone Center at (18, 25).
@@ -25,4 +25,4 @@
 - Walked east along Row 14 to (10, 14) to bypass the pond.
 - Entered the Secret House at (11, 11) -> (2, 7).
 - Walked over to the Secret House owner behind the counter at (6, 2).
-- Currently talking to the Secret House owner to get HM03 (Surf).
+- Currently exiting Rest House 3 to Area 3 (West).
