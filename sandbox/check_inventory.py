@@ -1,22 +1,14 @@
-import mgba
 import time
+import bridge
 
-# Scroll down to see items 5-8
-mgba.press_buttons(["Down", "sleep 200", "Down", "sleep 200", "Down", "sleep 200", "Down", "sleep 200"])
-sc1 = mgba.take_screenshot()
-print(f"Screenshot 1 taken and saved to {sc1}")
+print("Opening item menu to check for Gold Teeth...")
 
-# Scroll down to see items 9-12
-mgba.press_buttons(["Down", "sleep 200", "Down", "sleep 200", "Down", "sleep 200", "Down", "sleep 200"])
-sc2 = mgba.take_screenshot()
-print(f"Screenshot 2 taken and saved to {sc2}")
+# Press Start to open menu
+bridge.press_buttons(["Start"])
+time.sleep(0.5)
 
-# Scroll down to see items 13-16
-mgba.press_buttons(["Down", "sleep 200", "Down", "sleep 200", "Down", "sleep 200", "Down", "sleep 200"])
-sc3 = mgba.take_screenshot()
-print(f"Screenshot 3 taken and saved to {sc3}")
+# Press Down 2 times, then A to open ITEM
+bridge.press_buttons(["Down", "sleep 200", "Down", "sleep 200", "A"])
+time.sleep(1.0)
 
-# Scroll down to see items 17-20
-mgba.press_buttons(["Down", "sleep 200", "Down", "sleep 200", "Down", "sleep 200", "Down", "sleep 200"])
-sc4 = mgba.take_screenshot()
-print(f"Screenshot 4 taken and saved to {sc4}")
+print("Menu opened. Checking screen next turn.")
