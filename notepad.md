@@ -757,13 +757,13 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 46995)
-- Location: Main Game Corner Casino Floor at (3, 0) facing Down.
+## CURRENT STATUS & DASHBOARD (Turn 46998)
+- Location: Saffron West Gatehouse 1F/2F at (4, 2) facing Right.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Confront Rocket Grunt at (6, 2) on Main Casino floor, defeat him, press secret poster switch on North Wall to reveal staircase to Rocket Hideout B1F.
+- Active Objective: Dismiss Guard text ("Hi, thanks for the cool drinks!"), exit Gatehouse West onto Route 7, walk West to Celadon City, and enter Game Corner.
 - Persistent Facts:
-  - Entered True Main Casino Floor at (3, 0) via Game Corner Plaza doorway (10, 2).
-  - Rocket Grunt standing at (6, 2) guarding North Wall poster.
+  - Discovered player is currently inside Saffron West Gatehouse at (4, 2) via on-screen Guard text "Hi, thanks for the cool drinks!".
+  - Need to exit West onto Route 7, walk West to Celadon City, and follow Master Route via Column 36 tree gap to Game Corner Plaza.
 
 <hr>
 
