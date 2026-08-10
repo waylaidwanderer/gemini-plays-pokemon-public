@@ -1271,3 +1271,15 @@ Empirically map every aisle on Columns 5, 6, and 7 across Rows 1..6 to verify if
 - AUDIT COMPLETE (Turn 47705): 100% of all 39 rows in West Spin Loop (Cols 2..5, Rows 3..41) audited. All spin tiles spin UP (Row 3) or DOWN (Rows 4..8, 10..38). No East spin tiles exist in this enclosure. Exiting via stairs at (2, 41).
 
 <hr>
+
+<h1><code>Scratchpad/Celadon_City_Topology.md</code></h1>
+
+### Plaza Obstacle Audit (Turn 48370)
+- Tile (14, 19): Solid Cut bush.
+- Tile (15, 18): Solid tree obstacle.
+- Tile (16..19, 18..21): Upper water pond.
+- Tile (20..29, 22..24): Lower water pond.
+- Tile (6, 19): Solid barrels.
+- Strategy: Auditing West Plaza columns 0..5 via Row 14 (4, 14) to locate unblocked South passage to Main Casino door (17, 27).
+
+<hr>
