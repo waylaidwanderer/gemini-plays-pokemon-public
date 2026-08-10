@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47223)
-- Location: Celadon City at (10, 12) facing Up.
+## CURRENT STATUS & DASHBOARD (Turn 47251)
+- Location: Exiting Cable Club sub-room at (11, 7) to Game Corner Plaza / Celadon City.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Down 2 to Row 14 (10, 14), Left 1 to Column 9 (9, 14), then Down 9 to (9, 23) above central pond.
+- Active Objective: Exit Game Corner Plaza to Celadon City, then navigate to Celadon City (17, 13) doorway to enter True Main Casino Floor.
 - Persistent Facts:
   - Row 11 (y=11) is a solid fence/ledge across x=6..15.
   - Column 14 (x=14) is open land bypass running South from (14, 23) to Row 28 Highway (14, 28).
@@ -1051,6 +1051,11 @@ Systematically probe every potential building doorway and alleyway warp in South
 ## Casino Floor & Secret Hideout Switch
 - Main Casino Floor Layout: North Wall poster switch guarded by Rocket Grunt. Defeating Grunt and pressing A on poster reveals secret staircase to Rocket Hideout B1F.
 - Secret Staircase (4, 4): Local staircase connecting to Rocket Hideout B1F (5, 4).
+
+## Verified Doorway Audit (Turn 47252)
+- Cable Club Sub-Room Doorway: Game Corner Plaza (11, 3) enters Cable Club / Entrance Building.
+- Prize Exchange Sub-Rooms: Game Corner Plaza (9, 13), (15, 13), (23, 13) enter Prize Exchange sub-rooms.
+- True Main Game Corner Casino Floor: Celadon City (17, 13) enters Main Casino Floor ("Celadon Game Corner") at (3, 7). Defeating the North Wall Rocket Grunt and pressing A on the poster reveals the true secret staircase at (4, 4) to Rocket Hideout B1F.
 
 <hr>
 
