@@ -27,3 +27,4 @@
 - Turn 32249: Walked to (3, 20) [264 steps]
 - Turn 32256: Reached (10, 20) [268 steps]
 - Turn 32261: Reached (17, 20) [270 steps]
+- Turn 32265: Reached (17, 21) after bump tests [271 steps]
