@@ -7,6 +7,7 @@
 
 ## 🗺️ Step-by-Step Route Log
 - Started a new Safari Zone run on Turn 32372.
+- Turn 32378: Entered Safari Zone Center at (15, 25), and walked UP 6 steps to (15, 19). [6 steps consumed]
 - Goal: Systematically test Columns 13, 14, 15, 16, and 17 on Row 25 of Area 3 (West) to find the gap to the southern compartment.
 
 ## 🧪 Theoretical Routing Hypotheses (UNVERIFIED)
