@@ -1,11 +1,12 @@
 import bridge
 import time
 
-# Walk from current position (11, 12) to the hypothesized Secret House entrance at (3, 8) / (3, 9)
+# Walk from current position (5, 14) left to Column 0 Row 14, up Column 0 past tree wall, and right to Secret House
 route = [
-    (11, 12),
-    (11, 11), (11, 10), (11, 9), # UP Column 11 to Row 9 (above pond)
-    (10, 9), (9, 9), (8, 9), (7, 9), (6, 9), (5, 9), (4, 9), (3, 9) # LEFT along Row 9 to Column 3
+    (5, 14),
+    (4, 14), (3, 14), (2, 14), (1, 14), (0, 14), # LEFT to Column 0 Row 14
+    (0, 13), (0, 12), (0, 11), (0, 10), (0, 9), (0, 8), # UP Column 0 to Row 8
+    (1, 8), (2, 8), (3, 8) # RIGHT along Row 8 to Column 3 (Secret House)
 ]
 
 def get_dir(curr, target):
@@ -27,7 +28,7 @@ def run_away():
     print("RUN sequence finished.")
 
 curr = bridge.get_coordinates()
-print(f"Starting Secret House path from {curr}")
+print(f"Starting Secret House path along Column 0 from {curr}")
 
 route_idx = 0
 for idx, coord in enumerate(route):
@@ -63,6 +64,15 @@ while route_idx < len(route):
         stuck_count += 1
         print(f"Stuck! Stuck count: {stuck_count}")
         if stuck_count >= max_stuck:
+            # Check if we can enter a building (if we are at the door at 3, 8)
+            if target == (3, 8):
+                print("Trying to press UP to enter Secret House...")
+                bridge.press_buttons(["Up", "sleep 1000"])
+                after_up = bridge.get_coordinates()
+                if after_up != curr:
+                    print(f"Entered Secret House successfully! New coordinates: {after_up}")
+                    break
+                    
             run_away()
             after_run = bridge.get_coordinates()
             if after_run != curr:
@@ -75,12 +85,12 @@ while route_idx < len(route):
     else:
         stuck_count = 0
 
-# Now try to enter the house at (3, 8) by walking UP from (3, 9)
+# Test entering the Secret House at (3, 8)
 curr = bridge.get_coordinates()
-if curr == (3, 9):
-    print("Arrived at (3, 9). Pressing UP to enter Secret House...")
+if curr == (3, 8):
+    print("Arrived at (3, 8). Pressing UP to enter Secret House...")
     bridge.press_buttons(["Up", "sleep 1000"])
     after_up = bridge.get_coordinates()
-    print(f"Coordinates after entering: {after_up}")
+    print(f"Final coordinates: {after_up}")
 else:
-    print(f"Did not reach (3, 9). Current: {curr}")
+    print(f"Did not reach (3, 8). Current position: {curr}")
