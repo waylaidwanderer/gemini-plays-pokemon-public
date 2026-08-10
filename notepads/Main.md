@@ -1,5 +1,5 @@
-## CURRENT STATUS & DASHBOARD (Turn 48691)
-- Location: Celadon City at (9, 14).
+## CURRENT STATUS & DASHBOARD (Turn 48713)
+- Location: Celadon Game Corner at (3, 7).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
 - Active Objective: Access Main Game Corner Casino Floor Entrance.
 - Persistent Facts:
