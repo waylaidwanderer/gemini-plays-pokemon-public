@@ -1,7 +1,7 @@
-## CURRENT STATUS & DASHBOARD (Turn 47041)
-- Location: Celadon City at (12, 14) facing Left.
+## CURRENT STATUS & DASHBOARD (Turn 47044)
+- Location: Celadon City at (10, 14) facing Down.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Move Up 1 to pavement (12, 13), Left 2 to Column 10 (10, 13), and Down 5 to (10, 18).
+- Active Objective: Walk Down 6 steps along Column 10 Avenue to pavement at (10, 20).
 - Persistent Facts:
-  - Rows 12-13 across x=8..15 are open paved street in front of Dept Store.
-  - Column 10 Avenue (x=10) runs South towards Row 26 Highway.
+  - Rows 14-18 on Column 10 are grass tiles; Row 19+ is paved street.
+  - Column 10 Avenue leads South to Row 26 Highway.
