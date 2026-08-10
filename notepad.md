@@ -847,6 +847,9 @@
 - Row 28 Tree Wall: Solid trees spanning x=6..35. Column 36 (36, 28) is the verified tree gap leading South to Row 30 South Street.
 - Tile (35, 23..27): Double brown wooden barrels blocking Eastward traversal along Row 26/27.
 - Column 7 (x=7, y=14..17): Solid vertical wall of grey statues/ruins.
+- Celadon Pokemon Center Entrance Door: Located at tile (19, 17).
+- Tile (17, 15): Solid blue building awning / roof canopy.
+- Row 18 (x=13..27+): 100% open street running East-West in front of Department Store (13, 15) and Pokemon Center (19, 17).
 
 <hr>
 
