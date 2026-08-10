@@ -72,7 +72,7 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - **Max Potion:** Located on the ground at `(8, 20)`. This is a solid overworld item ball sprite. It was successfully picked up by standing at `(7, 20)` facing Right on Turn 27623.
 - **Signpost at (24, 22):** Reads "AREA 3 EAST: CENTER AREA" (Turn 27655).
 
-- **The Row 13 Map Transition (VERIFIED SCIENTIFIC FACT):** Walking LEFT at Column 0, Row 13 in Safari Zone Center transitions the player directly onto the southern ground level at Column 29, Row 25 in Area 3 (West). The northern and southern ground levels of Area 3 (West) are completely separated by solid tree/cliff/Rhydon barriers across all Columns 2-29 on Row 24/25, with no walkable gaps or ledges. To reach the southern ground level and retrieve the Gold Teeth / HM03, the player must go back to Area 2 (North), transition DOWN at Column 8/9 into Safari Zone Center's West compartment, walk DOWN to Row 13, and transition LEFT into Area 3 (West) at (29, 25).
+- **The Southern Ground Level Hypothesis:** The southern ground level of Area 3 (West) contains the Gold Teeth and the Secret House (where HM03 Surf is obtained). It is a separate compartment in Area 3 (West). Its exact connection and access route from other Safari Zone areas (such as the southern corridor of Area 2 North or the West Compartment of Safari Zone Center) are currently unverified hypotheses that must be systematically tested in the next Safari Zone session.
 
 ## Area 1 (East) Detailed Overworld Layout & Barriers
 
