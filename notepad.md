@@ -1,12 +1,12 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47051)
-- Location: Game Corner Plaza at (18, 0) facing Down.
+## CURRENT STATUS & DASHBOARD (Turn 47052)
+- Location: Game Corner Plaza at (18, 10) facing Down.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Down 10 steps along Column 18 courtyard to (18, 10).
+- Active Objective: Walk Down 3, Left 3 to (15, 13) and step Up into West Casino building door.
 - Persistent Facts:
-  - Entered Game Corner Plaza sub-map at (18, 0).
-  - Courtyard runs South between building facades at x=14..17 and x=20..23.
+  - Golden entrance doorway on West building is at (15, 13).
+  - Golden entrance doorway on East building is at (23, 13).
 
 <hr>
 
@@ -757,13 +757,13 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47052)
-- Location: Game Corner Plaza at (18, 10) facing Down.
+## CURRENT STATUS & DASHBOARD (Turn 47053)
+- Location: Game Corner Plaza at (18, 12) facing Up.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Down 3, Left 3 to (15, 13) and step Up into West Casino building door.
+- Active Objective: Walk Down 1 to (18, 13), Left 3 to (15, 13), and step Up into West Casino building door.
 - Persistent Facts:
+  - Wandering NPC at (18, 13) has cleared away.
   - Golden entrance doorway on West building is at (15, 13).
-  - Golden entrance doorway on East building is at (23, 13).
 
 <hr>
 
