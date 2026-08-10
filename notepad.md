@@ -1154,25 +1154,35 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 0
-- **Steps Remaining:** 500
+- **Steps Consumed:** 112
+- **Steps Remaining:** 388
 
 ## 🗺️ Step-by-Step Route Log
 - Started a new Safari Zone run on Turn 32372.
-- Turn 32378: Entered Safari Zone Center at (15, 25), and walked UP 6 steps to (15, 19). [6 steps consumed]
 - Goal: Systematically test Columns 13, 14, 15, 16, and 17 on Row 25 of Area 3 (West) to find the gap to the southern compartment.
+
+### Phase 1: Safari Zone Center to Area 1 (East)
+- Start at (15, 25) [0 steps]
+- Walked UP 6 steps to (15, 19) [Delta: +6 steps, Cum: 6]
+- Walked UP 2, RIGHT 5 steps to (20, 17) [Delta: +7 steps, Cum: 13]
+- Walked RIGHT 9 steps (bumped on 9th at Column 29), standing at (28, 17) [Delta: +9 steps, Cum: 22]
+- Walked UP 6, RIGHT 1 step to transition at (29, 11) [Delta: +7 steps, Cum: 29]
+- Walked RIGHT 1 step to exit Safari Zone Center [Delta: +1 step, Cum: 30]
+
+### Phase 2: Area 1 (East)
+- Entered Area 1 (East) at (0, 23) [30 total steps]
+- Walked DOWN 1, RIGHT 9 steps to (9, 24) [Delta: +10 steps, Cum: 40]
+- Walked RIGHT 11, UP 3 steps to Southern Plateau east stairs at (20, 21) [Delta: +14 steps, Cum: 54]
+- Walked UP 1 (onto plateau), LEFT 8, DOWN 2 steps to ground level at (12, 22) [Delta: +11 steps, Cum: 65]
+- Walked LEFT 4, UP 14, RIGHT 4 steps to Northern Plateau west stairs at (12, 8) [Delta: +22 steps, Cum: 87]
+- Walked UP 1, RIGHT 5, DOWN 2 steps (bumped on plateau wall, ended at (12, 9)) [Delta: +8 steps, Cum: 95]
+- Walked UP 3 (onto plateau), RIGHT 5, DOWN 2 steps to ground level at (17, 8) [Delta: +10 steps, Cum: 105]
+- Walked RIGHT 3, UP 4 steps to (20, 4) where a wild battle with Doduo started [Delta: +7 steps, Cum: 112]
 
 ## 🧪 Theoretical Routing Hypotheses (UNVERIFIED)
 The following paths are highly logical hypotheses but have NOT been fully traversed in the active session:
 1. **The Columns 13-17 Row 25 Gap Hypothesis:** It is hypothesized that the horizontal barrier (Row 25) in Area 3 (West) has an open walkable gap on one of the columns between Column 13 and Column 17 (e.g., Column 15 or 16).
 
-- Turn 32380: Standing at (20, 17). [13 steps consumed]
-- Turn 32383: Reached (29, 11). [20 steps consumed]
-- Turn 32388: Reached (20, 21) after walking 11 Right, 3 Up in Area 1 (East). [47 steps consumed in total]
-- Turn 32390: Descended Southern Plateau to (12, 22). [58 steps consumed in total]
-- Turn 32392: Reached (12, 8) after walking LEFT 4, UP 14, RIGHT 4. [80 steps consumed in total]
-- Turn 32394: Reached (12, 9) after a failed climbing attempt on the stairs at (12, 7). [83 steps consumed in total]
-- Turn 32396: Reached (17, 8) after climbing and crossing the Northern Plateau. [93 steps consumed in total]
 
 <hr>
 
@@ -1239,6 +1249,8 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
   
 
 ### Verified Physical Collision Barriers
+- **Row 17 Column 29 Boundary (Safari Zone Center):** Physically verified on Turn 32381. Attempting to walk RIGHT from (28, 17) to (29, 17) results in bumping, proving Column 29 Row 17 is blocked.
+- **Row 24 Column 3 Tree Barrier (Area 3 West):** Physically verified on Turn 32352. Attempting to walk DOWN from (3, 23) to (3, 24) results in bumping, proving Row 24 Column 3 is a solid tree trunk barrier.
 - **Row 24 Column 3 Tree Barrier (Area 3 West):** Physically verified on Turn 32352. Attempting to walk DOWN from (3, 23) to (3, 24) results in bumping, proving Row 24 Column 3 is a solid tree trunk barrier.
 - **Row 24 Column 17 Tree Barrier (Area 3 West):** Physically verified on Turn 32268. Attempting to walk DOWN from (17, 23) to (17, 24) results in bumping, proving Row 24 Column 17 is a solid tree trunk barrier.
 - **Row 25 Columns 18-21 Barrier (Area 3 West):** Physically verified on this run. Row 25 at Columns 18, 19, 20, 21 is completely blocked going DOWN (Turn 32316 for Column 19, Turn 32324 for Column 18, Turn 32330 for Column 21, Turn 32331 for Column 20).
