@@ -1,12 +1,12 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47055)
-- Location: Main Game Corner Casino Floor at (2, 7) facing Down.
+## CURRENT STATUS & DASHBOARD (Turn 47056)
+- Location: Main Game Corner Casino Floor at (2, 2) facing Up.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Up 5 steps along Western aisle to North Wall at (2, 2).
+- Active Objective: Walk Right 5 steps along Row 2 North Wall aisle to (7, 2).
 - Persistent Facts:
-  - Entered Main Casino Floor at (2, 7).
-  - Secret Rocket Hideout poster switch is located on the North Wall.
+  - Row 2 (y=2) is an open East-West aisle running along the North Wall.
+  - Picture frame / poster is visible at (3, 0) on the North Wall.
 
 <hr>
 
@@ -757,13 +757,13 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47056)
-- Location: Main Game Corner Casino Floor at (2, 2) facing Up.
+## CURRENT STATUS & DASHBOARD (Turn 47057)
+- Location: Main Game Corner Casino Floor at (7, 2) facing Right.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Right 5 steps along Row 2 North Wall aisle to (7, 2).
+- Active Objective: Walk Right 5 steps along Row 2 North Wall aisle to (12, 2).
 - Persistent Facts:
   - Row 2 (y=2) is an open East-West aisle running along the North Wall.
-  - Picture frame / poster is visible at (3, 0) on the North Wall.
+  - Walking East along Row 2 scrolls the screen to inspect the Eastern North Wall for the Rocket Grunt.
 
 <hr>
 
