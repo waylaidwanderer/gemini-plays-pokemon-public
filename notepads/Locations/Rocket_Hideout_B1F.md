@@ -42,3 +42,4 @@
 - Row y=17: Spins DOWN to (3, 17).
 - Row y=18: Spins DOWN to (3, 18).
 - Row y=19: Spins DOWN to (3, 19).
+- Row y=20: Spins DOWN to (3, 20).
