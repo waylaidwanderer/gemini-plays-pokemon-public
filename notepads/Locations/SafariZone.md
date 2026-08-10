@@ -140,3 +140,8 @@ The following physical barriers and collision coordinates have been verified thr
 10. **Row 24 Column 24 Blockage:** Solid dark clumps block southward movement (Turn 32007).
 11. **Column 19 Row 25 Blockage:** Solid cliff face blocks southward movement (Turn 32013).
 12. **Columns 12-15 Row 25 Cliff Wall:** Solid horizontal cliff wall blocks southward ground-level movement (Turn 32021).
+
+### 🧪 Verified Physical Collisions & Barriers (Added Turn 32101)
+1. **Column 25 Row 0 and Row 1 Blockage:** Completely blocked by solid overworld tree trunks (Turn 32034).
+2. **Column 24 Vertical Hedge Wall (Rows 3-13):** Verified as a continuous solid hedge wall with 100% collision, completely blocking horizontal passage (Turn 32035).
+3. **Column 23 Row 14 Cliff Collision:** Verified as a solid cliff corner face, blocking ground-level northward passage and preventing Column 23 from serving as a direct ground-level bypass (Turn 32007/32057).

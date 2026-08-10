@@ -1154,13 +1154,19 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 0
-- **Steps Remaining:** 500
+- **Steps Consumed:** 24
+- **Steps Remaining:** 476
 
 ## 🗺️ Step-by-Step Route Log
 - Started a new Safari Zone run on Turn 32091.
 - Started at Safari Zone Center (15, 25).
 - Goal: Reach Safari Zone Area 3 (West) and obtain HM03 (Surf) and Gold Teeth.
+- Turn 32091: Entered Safari Zone Center at (15, 25).
+- Turn 32094: Walked UP 3 steps to (15, 22). [3 steps]
+- Turn 32095: Walked RIGHT 5 steps to (20, 22). [8 steps]
+- Turn 32096: Walked RIGHT 8 steps to (28, 22). [16 steps]
+- Turn 32098: Walked UP 4 steps to (28, 18). [20 steps]
+- Turn 32099: Walked UP 4 steps to (28, 14). [24 steps]
 
 
 <hr>
@@ -1309,6 +1315,11 @@ The following physical barriers and collision coordinates have been verified thr
 10. **Row 24 Column 24 Blockage:** Solid dark clumps block southward movement (Turn 32007).
 11. **Column 19 Row 25 Blockage:** Solid cliff face blocks southward movement (Turn 32013).
 12. **Columns 12-15 Row 25 Cliff Wall:** Solid horizontal cliff wall blocks southward ground-level movement (Turn 32021).
+
+### 🧪 Verified Physical Collisions & Barriers (Added Turn 32101)
+1. **Column 25 Row 0 and Row 1 Blockage:** Completely blocked by solid overworld tree trunks (Turn 32034).
+2. **Column 24 Vertical Hedge Wall (Rows 3-13):** Verified as a continuous solid hedge wall with 100% collision, completely blocking horizontal passage (Turn 32035).
+3. **Column 23 Row 14 Cliff Collision:** Verified as a solid cliff corner face, blocking ground-level northward passage and preventing Column 23 from serving as a direct ground-level bypass (Turn 32007/32057).
 
 
 <hr>
