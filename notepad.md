@@ -1154,8 +1154,8 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 292
-- **Steps Remaining:** 208
+- **Steps Consumed:** 302
+- **Steps Remaining:** 198
 
 ## 🗺️ Step-by-Step Route Log
 - Started inside Safari Zone Center at (18, 25).
@@ -1178,7 +1178,8 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 - Entered the Secret House at (11, 11) -> (2, 7).
 - Walked over to the Secret House owner behind the counter at (6, 2).
 - Exited Rest House 3 to (11, 12).
-- Currently walking west along Row 14 to check Columns 1 and 2.
+- Walked west along Row 14 to (2, 14).
+- Currently walking back to (6, 20) to climb onto the plateau.
 
 <hr>
 
