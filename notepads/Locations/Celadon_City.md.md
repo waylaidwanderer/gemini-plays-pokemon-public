@@ -64,3 +64,5 @@
 - Celadon Pokemon Center Entrance Door: Located at tile (19, 17).
 - Tile (17, 15): Solid blue building awning / roof canopy.
 - Row 18 (x=13..27+): 100% open street running East-West in front of Department Store (13, 15) and Pokemon Center (19, 17).
+- Celadon Gym: Located at x=24..28, y=18..21. Left edge / wall at x=24.
+- Column 23 (x=23): 100% open North-South street running from Row 18 (23, 18) straight North to Row 8/12 Northern Highway.
