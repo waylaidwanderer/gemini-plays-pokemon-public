@@ -25,3 +25,4 @@
 - Rocket Grunt & Poster Switch: Located on North Wall in East Casino Floor at (17, 1) / (18, 1).
 - Tile (4, 4): Solid slot machine / stool obstacle.
 - Column 10 (x=10, y=8..12): Solid dark grey wall divider separating West and Central Casino floor.
+- Column 10 (x=10, y=8..13): Solid dark grey wall divider spanning y=8..13. Passable East-West crossing is via Row 5 cross-aisle at y=5.
