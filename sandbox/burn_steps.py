@@ -1,18 +1,16 @@
 import time
 import bridge
 
-print("Burning 90 steps to run down the Safari step budget...")
+print("Burning final steps to trigger expulsion...")
 
 buttons = []
-for i in range(90):
+for i in range(10):
     direction = "Up" if i % 2 == 0 else "Down"
     buttons.append(direction)
-    # Adding a sleep to pace the taps
     buttons.append("sleep 50")
 
-# Press the buttons
 bridge.press_buttons(buttons)
-time.sleep(1.0)
+time.sleep(2.0) # Wait for expulsion warp and PA system dialogue to start
 
 coords = bridge.get_coordinates()
-print(f"Current Coordinates: {coords}")
+print(f"Current Coordinates after final burn: {coords}")
