@@ -30,3 +30,5 @@
 ## 🧪 Theoretical Routing Hypotheses (UNVERIFIED)
 The following paths are highly logical hypotheses but have NOT been fully traversed in the active session:
 1. **The Columns 13-17 Row 25 Gap Hypothesis:** It is hypothesized that the horizontal barrier (Row 25) in Area 3 (West) has an open walkable gap on one of the columns between Column 13 and Column 17 (e.g., Column 15 or 16).
+
+- Turn 32403: Reached (0, 5) after walking UP 1, LEFT 13, DOWN 2, LEFT 7 in Area 1 (East). [116 steps consumed in total]
