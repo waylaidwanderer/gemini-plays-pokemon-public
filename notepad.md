@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47182)
-- Location: Celadon City at (18, 26) facing Right.
+## CURRENT STATUS & DASHBOARD (Turn 47183)
+- Location: Celadon City at (18, 26) facing Left (In Battle vs Wild Bellsprout).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Left 8 along Row 26 to Column 10 (10, 26), then Up Column 10 Avenue to (10, 13).
+- Active Objective: Run from wild Bellsprout, then walk Left 8 along Row 26 to Column 10 Avenue (10, 26).
 - Persistent Facts:
   - Tree wall at x=20..23 blocks Central/South East-West passage.
   - Column 10 Avenue (x=10) runs North from Row 26 Highway (10, 26) to Department Store (10, 13).
