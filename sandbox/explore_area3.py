@@ -63,13 +63,11 @@ def run_away():
         press_buttons(["B", "sleep 300"])
     print("RUN sequence finished.")
 
-# Correct contiguous route from (26, 5) to (6, 20) using Column 27 bypass
+# Streamlined unblocked route from current position (25, 17) to (6, 20)
 route = [
-    (26, 5),
-    (27, 5),
-    (27, 6), (27, 7), (27, 8), (27, 9), (27, 10), (27, 11), (27, 12), (27, 13), (27, 14), # DOWN Column 27 to Row 14
-    (26, 14), (25, 14), (24, 14), (23, 14), (22, 14), (21, 14), # LEFT along Row 14 (crossing Column 24 at gap)
-    (21, 15), (21, 16), (21, 17), (21, 18), # DOWN Column 21 to Row 18
+    (25, 17),
+    (25, 18),
+    (24, 18), (23, 18), (22, 18), (21, 18), # LEFT to the stairs ground level
     (21, 17), # UP onto stairs
     (21, 16), # UP onto plateau
     (20, 16), (19, 16), (18, 16), (17, 16), (16, 16), (15, 16), (14, 16), (13, 16), (12, 16), (11, 16), (10, 16), (9, 16), (8, 16), (7, 16), (6, 16), # LEFT along plateau
