@@ -2,8 +2,8 @@
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 172
-- **Steps Remaining:** 328
+- **Steps Consumed:** 177
+- **Steps Remaining:** 323
 
 ## 🗺️ Step-by-Step Route Log
 - Started inside Safari Zone Center at (18, 25).
@@ -13,4 +13,5 @@
 - Climbed the Western Southern Plateau to (22, 22).
 - Walked west along the Western Southern Plateau to (16, 22).
 - Descended Western Southern Plateau stairs to (16, 28).
-- Currently walking south to reach southern corridor.
+- Walked south to (16, 32).
+- Currently walking west along the southern corridor toward (12, 33).
