@@ -1,7 +1,7 @@
-## CURRENT STATUS & DASHBOARD (Turn 47058)
-- Location: Game Corner West Room (8x8 Prize Exchange) at (7, 2) facing Right.
+## CURRENT STATUS & DASHBOARD (Turn 47059)
+- Location: Game Corner Plaza at (15, 14) facing Down.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Exit 8x8 West Room via mat (2, 7) back to Plaza, then enter East Casino door at (23, 13).
+- Active Objective: Walk Right 8 steps to (23, 14) and step Up into East Casino door (23, 13).
 - Persistent Facts:
-  - Door at (15, 13) in Game Corner Plaza enters 8x8 West Room / Prize Exchange.
-  - Door at (23, 13) in Game Corner Plaza enters True Main Casino Floor.
+  - Exited West Room back into Game Corner Plaza at (15, 14).
+  - Row 14 street is open pavement x=15..23 leading to East Casino door at (23, 13).
