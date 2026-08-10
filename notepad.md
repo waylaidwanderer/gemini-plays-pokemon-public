@@ -1,11 +1,11 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47221)
-- Location: Celadon City at (17, 20) facing Up.
+## CURRENT STATUS & DASHBOARD (Turn 47222)
+- Location: Celadon City at (15, 12) facing Up.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Up 6 to Row 14 (17, 14), Left 2 to Column 15 (15, 14), then Up 2 to Row 12 (15, 12).
+- Active Objective: Walk Left 5 to Column 10 (10, 12), then Up 3 to Row 9 Northern Lawn (10, 9).
 - Persistent Facts:
-  - Column 10 Avenue (x=10) runs North from Row 12 (10, 12) to Row 9 Northern Lawn (10, 9).
+  - Column 10 Avenue (x=10) is open passage running North from Row 12 (10, 12) to Row 9 Northern Lawn (10, 9).
   - Row 8 & Row 9 (y=8, y=9) green lawn runs East above Department Store roof to Column 36.
   - Outdoor doorway at (28, 35) in Celadon City enters True Main Game Corner Casino Floor.
 
@@ -758,13 +758,14 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47222)
-- Location: Celadon City at (15, 12) facing Up.
+## CURRENT STATUS & DASHBOARD (Turn 47223)
+- Location: Celadon City at (10, 12) facing Up.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Left 5 to Column 10 (10, 12), then Up 3 to Row 9 Northern Lawn (10, 9).
+- Active Objective: Walk Down 2 to Row 14 (10, 14), Left 1 to Column 9 (9, 14), then Down 9 to (9, 23) above central pond.
 - Persistent Facts:
-  - Column 10 Avenue (x=10) is open passage running North from Row 12 (10, 12) to Row 9 Northern Lawn (10, 9).
-  - Row 8 & Row 9 (y=8, y=9) green lawn runs East above Department Store roof to Column 36.
+  - Row 11 (y=11) is a solid fence/ledge across x=6..15.
+  - Column 14 (x=14) is open land bypass running South from (14, 23) to Row 28 Highway (14, 28).
+  - Row 28 (y=28) is an unblocked East-West pavement highway running across South Celadon below central pond.
   - Outdoor doorway at (28, 35) in Celadon City enters True Main Game Corner Casino Floor.
 
 <hr>
