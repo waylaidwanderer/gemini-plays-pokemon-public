@@ -1,7 +1,7 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 49279)
-- Location: Celadon City at (20, 30).
+## CURRENT STATUS & DASHBOARD (Turn 49282)
+- Location: Celadon City at (24, 30).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
 - Active Objective: Re-enter Celadon Game Corner door at (17, 27) in West Celadon City.
 - Persistent Facts:
