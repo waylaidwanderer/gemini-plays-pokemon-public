@@ -1069,8 +1069,8 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 87
-- **Steps Remaining:** 413
+- **Steps Consumed:** 93
+- **Steps Remaining:** 407
 
 ## 🗺️ Step-by-Step Route Log
 ### Phase 1: Safari Zone Center to Area 1 (East) (82 steps) [VERIFIED ACTUALLY WALKED]
