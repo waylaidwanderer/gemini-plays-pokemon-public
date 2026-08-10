@@ -74,3 +74,19 @@ if len(parts) == 2:
         json_str = body[start:end+1]
         return json.loads(json_str)
 ```
+
+## Double-Escaped Backslash Bug in raw socket construction
+When constructing raw HTTP request payloads using f-string literals in python scripts, writing double-escaped backslashes (e.g. `\\r\\n`) can result in those characters being transmitted as literal backslashes rather than actual carriage returns and line feeds. This causes the socket client to crash or the emulator bridge to reject the request.
+
+To avoid this, construct the request string with standard raw escape sequences (e.g., `\r\n`) and encode it using `.encode('utf-8')` before transmission:
+```python
+request = (
+    f"POST {endpoint} HTTP/1.1\r\n"
+    f"Host: {host}:{port}\r\n"
+    f"Content-Type: application/json\r\n"
+    f"Content-Length: {len(payload)}\r\n"
+    f"Connection: close\r\n\r\n"
+    f"{payload}"
+)
+```
+Do not double-escape the backslashes inside normal python string literals unless you are using literal raw strings (`r"..."`).
