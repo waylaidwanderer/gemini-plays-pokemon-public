@@ -63,7 +63,7 @@ def press_buttons(buttons):
         buttons = [buttons]
     return send_bridge_request("/api/press_buttons", {"buttons": buttons})
 
-# 100% contiguous, streamlined and verified speedrun route
+# 100% contiguous, streamlined speedrun route with Area 2 Southern Plateau crossing
 route = [
     # Safari Zone Center
     (15, 25),
@@ -95,8 +95,17 @@ route = [
 
     # Area 2 (North)
     (39, 31),
-    (38, 31), (37, 31), (36, 31), (35, 31), (34, 31), (33, 31), (32, 31), (31, 31), (30, 31), (29, 31), (28, 31), (27, 31), (26, 31), (25, 31), (24, 31), (23, 31), (22, 31), (21, 31), (20, 31), (19, 31), (18, 31), (17, 31), (16, 31), (15, 31), (14, 31), (13, 31), (12, 31), (11, 31), (10, 31), (9, 31), (8, 31),
-    (8, 32), (8, 33), (8, 34), (8, 35), (8, 36)
+    (38, 31), (37, 31), (36, 31), (35, 31), (34, 31), (33, 31), (32, 31), (31, 31), (30, 31), (29, 31), (28, 31), (27, 31), (26, 31), (25, 31), (24, 31), (23, 31),
+    (22, 31), (22, 32), (19, 32), (19, 31), # Allow alignment if we are at (19, 32)
+    (22, 31),
+    (22, 30), (22, 29), (22, 28), (22, 27), (22, 26), (22, 25), (22, 24), (22, 23),
+    (22, 22), # Climb stairs to plateau
+    (21, 22), (20, 22), (19, 22), (18, 22), (17, 22), (16, 22), # Left on plateau
+    (16, 23), (16, 24), (16, 25), (16, 26), (16, 27), # Down on plateau
+    (16, 28), # Descend stairs to ground
+    (16, 29), (16, 30), (16, 31), (16, 32), (16, 33), # Down to row 33
+    (15, 33), (14, 33), (13, 33), (12, 33), (11, 33), (10, 33), (9, 33), (8, 33), # Left to col 8
+    (8, 34), (8, 35), (8, 36) # Down to transition into Area 3 (West) at (26, 0)
 ]
 
 def run_away():
