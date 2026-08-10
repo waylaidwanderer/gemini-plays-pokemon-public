@@ -934,6 +934,7 @@
 - Column 35 (x=35, y=23..27): Continuous vertical wall of double brown barrels. Tile (35, 28) is a dark green tree. Blocks direct East-West crossing between Central Celadon (x<=34) and East Celadon (x>=36) at y=23..28.
 - Tile (12, 15) & (12, 14): Blue staircase / slope connecting Row 16 (12, 16) directly North to Row 12 Northern Highway at (12, 12).
 - Tile (12, 15): Solid blue building roof canopy / awning (empirically confirmed bump on turn 49572).
+- Main Game Corner Casino Entrance: Located in Southeast Celadon City / South Street at tile (30, 34) / (30, 35) or via Plaza warp (20, 36).
 
 <hr>
 
