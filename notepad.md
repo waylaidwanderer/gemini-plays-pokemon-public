@@ -1149,6 +1149,7 @@ Empirically map every aisle on Columns 5, 6, and 7 across Rows 1..6 to verify if
 - Row y=16: Spins DOWN to (3, 16).
 - Row y=17: Spins DOWN to (3, 17).
 - Row y=18: Spins DOWN to (3, 18).
+- Row y=19: Spins DOWN to (3, 19).
 
 <hr>
 
@@ -1196,5 +1197,6 @@ Empirically map every aisle on Columns 5, 6, and 7 across Rows 1..6 to verify if
 - Row y=15: Spins DOWN to (3, 15).
 - Row y=16: Spins DOWN to (3, 16).
 - Row y=17: Spins DOWN to (3, 17).
+- Row y=18: Spins DOWN to (3, 18).
 
 <hr>
