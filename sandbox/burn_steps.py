@@ -1,20 +1,16 @@
 import time
 import bridge
 
-print("Starting robust step burning...")
+print("Burning final 10 steps with 450ms delay to trigger Safari Zone expulsion...")
 
-# We will alternate UP and DOWN with a 400ms delay to ensure every step registers
-# We will do this in a loop up to 90 steps per script execution to avoid the 100 button limit.
 buttons = []
-for i in range(45): # 45 pairs = 90 buttons
-    buttons.append("Up")
-    buttons.append("sleep 400")
-    buttons.append("Down")
-    buttons.append("sleep 400")
+for i in range(10):
+    direction = "Up" if i % 2 == 0 else "Down"
+    buttons.append(direction)
+    buttons.append("sleep 450")
 
-print("Sending 90 paced step buttons to mGBA...")
 bridge.press_buttons(buttons)
-time.sleep(1.0)
+time.sleep(2.0) # Wait for expulsion warp and dialogue
 
 coords = bridge.get_coordinates()
-print(f"Coords after paced burn: {coords}")
+print(f"Coordinates after final expulsion: {coords}")
