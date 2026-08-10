@@ -23,11 +23,8 @@
 - Walked north to (3, 20) on the western ground level.
 - Walked north on Column 3 to (3, 14).
 - Walked east along Row 14 to (10, 14) to bypass the pond.
-- Walked west along Row 14 to (2, 14).
-- Walked south to (2, 19).
-- Walked to (6, 20).
-- Walked UP onto the plateau and walked EAST along Row 18 to (16, 18).
-- Walked to (19, 16) on the plateau.
-- Walked back to East Stairs and descended to (21, 18).
-- Walked to (19, 24) in the southern compartment.
-- Verified Row 25 Column 19 is blocked by solid hedges. Currently walking back to East Stairs at (21, 18) to climb plateau and jump down Column 16.
+- Walked to (19, 24) in the southeastern ground level.
+- Systematically tested Row 25: Column 12 is blocked (Turn 31664), Column 11 is blocked (Turn 31667), Column 10 is blocked (Turn 31668), Column 9 is blocked, Column 8 is blocked (Turn 31669), Column 7 Row 24 is blocked (Turn 31670), Column 6 is blocked, Column 5 is blocked, Column 4 is blocked, Column 3 is blocked (Turn 31673), Column 2 Row 24 is blocked (Turn 31674).
+- Systematically tested Row 25 on eastern columns: Column 23, 24, 25, 26 are blocked by fences.
+- Row 25 is 100% solid across the map.
+- Currently running away from wild VENONAT at (23, 22). Plan to walk to the East Stairs at (21, 18) to climb the plateau and walk back west.
