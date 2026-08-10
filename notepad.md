@@ -1180,6 +1180,7 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 - Turn 32256: Reached (10, 20) [268 steps]
 - Turn 32261: Reached (17, 20) [270 steps]
 - Turn 32265: Reached (17, 21) after bump tests [271 steps]
+- Turn 32270: Reached (11, 23) [277 steps]
 
 
 <hr>
