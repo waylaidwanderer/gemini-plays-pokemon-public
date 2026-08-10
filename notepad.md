@@ -1119,8 +1119,8 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 302
-- **Steps Remaining:** 198
+- **Steps Consumed:** 312
+- **Steps Remaining:** 188
 
 ## 🗺️ Step-by-Step Route Log
 - Started inside Safari Zone Center at (18, 25).
@@ -1145,7 +1145,8 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 - Exited Rest House 3 to (11, 12).
 - Walked west along Row 14 to (2, 14).
 - Walked south to (2, 19).
-- Currently walking to (6, 20) to climb onto the plateau.
+- Walked to (6, 20).
+- Currently walking across the plateau to Column 19 to jump down.
 
 <hr>
 
