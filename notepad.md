@@ -1160,8 +1160,8 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 288
-- **Steps Remaining:** 212
+- **Steps Consumed:** 290
+- **Steps Remaining:** 210
 
 ## 🗺️ Step-by-Step Route Log
 - Started inside Safari Zone Center at (18, 25).
@@ -1191,7 +1191,7 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 - Walked to (19, 16) on the plateau.
 - Walked back to East Stairs and descended to (21, 18).
 - Walked to (19, 24) in the southern compartment.
-- Verified Gold Teeth is not in PACK. Currently walking south through S-curve (Columns 15-17) to Row 26.
+- Verified Row 25 Column 19 is blocked by solid hedges. Currently walking back to East Stairs at (21, 18) to climb plateau and jump down Column 16.
 
 <hr>
 
