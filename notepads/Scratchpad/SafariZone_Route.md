@@ -2,10 +2,11 @@
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 129
-- **Steps Remaining:** 371
+- **Steps Consumed:** 134
+- **Steps Remaining:** 366
 
 ## 🗺️ Step-by-Step Route Log
 - Started inside Safari Zone Center at (18, 25).
 - Walked to transition to Area 1 (East) at Center (29, 11) -> Area 1 (0, 23).
-- Currently in Area 1 (East) transitioning to Area 2 (North).
+- Transitioned to Area 2 (North) at Area 1 (0, 5) -> Area 2 (39, 31).
+- Currently in Area 2 (North) walking west along the southern corridor.
