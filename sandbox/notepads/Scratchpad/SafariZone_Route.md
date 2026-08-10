@@ -2,13 +2,12 @@
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 85
-- **Steps Remaining:** 415
+- **Steps Consumed:** 139
+- **Steps Remaining:** 361
 
 ## 🗺️ Step-by-Step Route Log
 - Started a new Safari Zone run on Turn 32091.
 - Started at Safari Zone Center (15, 25).
-- Goal: Reach Safari Zone Area 3 (West) and obtain HM03 (Surf) and Gold Teeth.
 - Turn 32091: Entered Safari Zone Center at (15, 25).
 - Turn 32094: Walked UP 3 steps to (15, 22). [3 steps]
 - Turn 32095: Walked RIGHT 5 steps to (20, 22). [8 steps]
@@ -31,3 +30,14 @@
 - Turn 32128: Walked LEFT 2 steps to (24, 12). [77 steps]
 - Turn 32128: Walked DOWN 4 steps to (24, 16). [81 steps]
 - Turn 32129: Walked DOWN 4 steps to (24, 20) [Parasect battle]. [85 steps]
+- Turn 32136: Walked DOWN 4 steps to (24, 24). [89 steps]
+- Turn 32138: Walked LEFT 4 steps to (20, 24) [Parasect battle]. [93 steps]
+- Turn 32142: Walked LEFT 5 steps to (15, 24) [Doduo battle]. [98 steps]
+- Turn 32146: Walked LEFT 7 steps to (8, 24) [Tested Column 8, blocked at Row 23]. [105 steps]
+- Turn 32149: Walked RIGHT 1 step to (9, 24) [Tested Column 9, blocked at Row 23]. [106 steps]
+- Turn 32150: Walked RIGHT 3 steps to (12, 24) [Tested Column 12, blocked at Row 23]. [109 steps]
+- Turn 32152: Walked LEFT 8 steps to (4, 24), then UP 3 steps to (4, 21) [Tested Column 4, blocked at Row 20]. [120 steps]
+- Turn 32153: Walked DOWN 3 steps to (4, 24), RIGHT 4 steps to (8, 24), then UP 1 step [Blocked at Row 23]. [128 steps]
+- Turn 32154: Walked RIGHT 13 steps to (21, 24) [Nidoran F battle]. [141 steps]
+- Turn 32158: Walked LEFT 1 step to (20, 24), then UP 4 steps to climb Southern Plateau to (20, 20). [146 steps]
+- Turn 32159: Walked LEFT 8 steps to (12, 20), then DOWN 2 steps to descend Southern Plateau to (12, 22). [156 steps]   # Actually our turn ended at (12, 22).
