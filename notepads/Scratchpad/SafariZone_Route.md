@@ -23,9 +23,6 @@
 - Walked north to (3, 20) on the western ground level.
 - Walked north on Column 3 to (3, 14).
 - Walked east along Row 14 to (10, 14) to bypass the pond.
-- Entered the Secret House at (11, 11) -> (2, 7).
-- Walked over to the Secret House owner behind the counter at (6, 2).
-- Exited Rest House 3 to (11, 12).
 - Walked west along Row 14 to (2, 14).
 - Walked south to (2, 19).
 - Walked to (6, 20).
