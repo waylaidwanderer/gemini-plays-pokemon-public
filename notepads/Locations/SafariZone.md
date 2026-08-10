@@ -72,7 +72,7 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - **Max Potion:** Located on the ground at `(8, 20)`. This is a solid overworld item ball sprite. It was successfully picked up by standing at `(7, 20)` facing Right on Turn 27623.
 - **Signpost at (24, 22):** Reads "AREA 3 EAST: CENTER AREA" (Turn 27655).
 
-- **The Southern Ground Level Hypothesis:** The southern ground level of Area 3 (West) contains the Gold Teeth and the Secret House (where HM03 Surf is obtained). It is a separate compartment in Area 3 (West). Its exact connection and access route from other Safari Zone areas (such as the southern corridor of Area 2 North or the West Compartment of Safari Zone Center) are currently unverified hypotheses that must be systematically tested in the next Safari Zone session.
+- **Area 3 (West) Southern Ground Level:** Verified. Contains the Gold Teeth at (19, 25) and the Secret House at the far west (where HM03 Surf is obtained). Accessed by walking through the Hedge Wall Gap at row 14/15 column 24, climbing onto the plateau via Eastern Stairs at (21, 17), and descending via Western Stairs at (6, 19).
 
 ## Area 1 (East) Detailed Overworld Layout & Barriers
 

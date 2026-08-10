@@ -922,6 +922,8 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 - **South Exit (Route 19 Connection):** Transition at Fuchsia City `(23, 35)` connects directly to Route 19 at `(13, 0)` (verified on Turn 20873).
 
 ## Physical Layout & Exploration
+- **Regrowing Cut-able Bush (26, 13):** Crucial mechanic! This bush regrows immediately upon reloading the map or entering/exiting the Safari Zone. Always ensure TRUFFLE (Paras) is in the party to CUT it when navigating Column 26 down to row 14.
+- **Continuous House Roof Obstruction (Rows 22-23, Columns 12-23):** This massive horizontal roof completely blocks north-south traversal in the center-west of Fuchsia City. To go from north-middle to south-middle, you must walk left all the way to Column 1 (which is completely open going down) or walk right to Column 24.
 - **Overworld Cut-able Bush (26, 13):** This bush blocks the path going north along the left side of the Zoo pens. It was successfully CUT on Turn 21624 using TRUFFLE (Paras), making the vertical path on Column 26 fully walkable.
 - The eastern part of Fuchsia City has a Zoo/Safari Zone area with walled pens (bordered by grey Rhydon statues).
 - Columns 18-22 on Rows 22-23 form the roof of a house.
@@ -1141,9 +1143,8 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 405
-- **Steps Remaining:** 95
-
+- **Steps Consumed:** 0 (To be updated upon next entry)
+- **Steps Remaining:** 500 (To be updated upon next entry)
 ## 🗺️ Step-by-Step Route Log
 - Started fresh run on Turn 31137.
 - Turn 31146: Arrived at (15, 21) on route.
@@ -1239,7 +1240,7 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - **Max Potion:** Located on the ground at `(8, 20)`. This is a solid overworld item ball sprite. It was successfully picked up by standing at `(7, 20)` facing Right on Turn 27623.
 - **Signpost at (24, 22):** Reads "AREA 3 EAST: CENTER AREA" (Turn 27655).
 
-- **The Southern Ground Level Hypothesis:** The southern ground level of Area 3 (West) contains the Gold Teeth and the Secret House (where HM03 Surf is obtained). It is a separate compartment in Area 3 (West). Its exact connection and access route from other Safari Zone areas (such as the southern corridor of Area 2 North or the West Compartment of Safari Zone Center) are currently unverified hypotheses that must be systematically tested in the next Safari Zone session.
+- **Area 3 (West) Southern Ground Level:** Verified. Contains the Gold Teeth at (19, 25) and the Secret House at the far west (where HM03 Surf is obtained). Accessed by walking through the Hedge Wall Gap at row 14/15 column 24, climbing onto the plateau via Eastern Stairs at (21, 17), and descending via Western Stairs at (6, 19).
 
 ## Area 1 (East) Detailed Overworld Layout & Barriers
 

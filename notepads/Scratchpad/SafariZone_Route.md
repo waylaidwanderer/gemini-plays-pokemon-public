@@ -2,9 +2,8 @@
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 405
-- **Steps Remaining:** 95
-
+- **Steps Consumed:** 0 (To be updated upon next entry)
+- **Steps Remaining:** 500 (To be updated upon next entry)
 ## 🗺️ Step-by-Step Route Log
 - Started fresh run on Turn 31137.
 - Turn 31146: Arrived at (15, 21) on route.
