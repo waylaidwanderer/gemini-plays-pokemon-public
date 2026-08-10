@@ -1119,8 +1119,8 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 314
-- **Steps Remaining:** 186
+- **Steps Consumed:** 323
+- **Steps Remaining:** 177
 
 ## 🗺️ Step-by-Step Route Log
 - Started inside Safari Zone Center at (18, 25).
@@ -1148,7 +1148,8 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 - Walked to (6, 20).
 - Walked UP onto the plateau and walked EAST along Row 18 to (16, 18).
 - Walked to (19, 16) on the plateau.
-- Currently walking back to East Stairs at (21, 17) to descend to the ground.
+- Walked back to East Stairs and descended to (21, 18).
+- Currently walking to (19, 25) in the southern compartment to find the Gold Teeth.
 
 <hr>
 
