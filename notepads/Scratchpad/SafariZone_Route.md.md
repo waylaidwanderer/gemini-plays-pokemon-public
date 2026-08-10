@@ -27,4 +27,5 @@
 - Walked over to the Secret House owner behind the counter at (6, 2).
 - Exited Rest House 3 to (11, 12).
 - Walked west along Row 14 to (2, 14).
-- Currently walking back to (6, 20) to climb onto the plateau.
+- Walked south to (2, 19).
+- Currently walking to (6, 20) to climb onto the plateau.
