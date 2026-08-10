@@ -10,17 +10,17 @@ def send_bridge_request(endpoint, data=None):
         payload = json.dumps(data)
         request = (
             f"POST {endpoint} HTTP/1.1\\r\\n"
-            f"Host: {host}:{port}\\r\\n"
-            f"Content-Type: application/json\\r\\n"
-            f"Content-Length: {len(payload)}\\r\\n"
-            f"Connection: close\\r\\n\\r\\n"
+            f"Host: {host}:{port}\r\n"
+            f"Content-Type: application/json\r\n"
+            f"Content-Length: {len(payload)}\r\n"
+            f"Connection: close\r\n\r\n"
             f"{payload}"
         )
     else:
         request = (
             f"GET {endpoint} HTTP/1.1\\r\\n"
-            f"Host: {host}:{port}\\r\\n"
-            f"Connection: close\\r\\n\\r\\n"
+            f"Host: {host}:{port}\r\n"
+            f"Connection: close\r\n\r\n"
         )
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.settimeout(10)
@@ -33,7 +33,7 @@ def send_bridge_request(endpoint, data=None):
             break
         response += chunk
     s.close()
-    parts = response.split(b"\\r\\n\\r\\n", 1)
+    parts = response.split(b"\r\n\r\n", 1)
     if len(parts) == 2:
         body = parts[1].decode('utf-8')
         start = body.find('{')
