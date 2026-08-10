@@ -151,7 +151,14 @@ def align_with_route(curr):
     for idx, coord in enumerate(route):
         if curr == coord:
             return idx
-    return None
+    best_idx = None
+    min_dist = 999
+    for idx, coord in enumerate(route):
+        dist = abs(curr[0] - coord[0]) + abs(curr[1] - coord[1])
+        if dist <= 2 and dist < min_dist:
+            min_dist = dist
+            best_idx = idx
+    return best_idx
 
 curr = get_coordinates()
 print(f"Starting Golden Speedrun V3 from {curr}")
