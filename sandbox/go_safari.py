@@ -1,63 +1,45 @@
 import time
 import bridge
 
-print("Running go_safari.py (robust pathfinding around Safari Center barriers)...")
+print("Running shortcut_to_area3.py (directly transitioning to Area 3 West)...")
 
-# Current position: (18, 18) facing DOWN
-# Step 1: Walk LEFT to find a column where we can go DOWN
-print("Probing left to find a down-ward path...")
+# Current position: (13, 18) facing DOWN
+# Step 1: Walk RIGHT to Column 14
+print("Walking RIGHT to Column 14...")
+bridge.press_buttons(["Right"])
+time.sleep(0.6)
 coords = bridge.get_coordinates()
-curr_x = coords[0]
+print(f"Coords: {coords}")
 
-found_path = False
-for x in range(curr_x - 1, -1, -1):
-    # Walk left to column x on row 18
-    coords = bridge.get_coordinates()
-    while coords[0] > x:
-        bridge.press_buttons(["Left"])
-        time.sleep(0.5)
-        coords = bridge.get_coordinates()
-    print(f"At column {x}: coords {coords}")
-    
-    # Try to walk DOWN to row 23
-    print(f"Probing DOWN at column {x}...")
-    # Press Down 5 times to see if we can reach row 23
-    for _ in range(5):
-        bridge.press_buttons(["Down"])
-        time.sleep(0.5)
-    
-    coords_down = bridge.get_coordinates()
-    if coords_down[1] >= 22:
-        print(f"SUCCESS! Found down path at column {x}! Coords: {coords_down}")
-        found_path = True
-        break
-    else:
-        print(f"Column {x} is blocked. Returning UP to row 18 to continue left...")
-        # Walk back UP to row 18
-        coords = bridge.get_coordinates()
-        while coords[1] < 18:
-            bridge.press_buttons(["Up"])
-            time.sleep(0.5)
-            coords = bridge.get_coordinates()
+# Step 2: Walk UP to Row 14
+print("Walking UP to Row 14...")
+for _ in range(4):
+    bridge.press_buttons(["Up"])
+    time.sleep(0.6)
+coords = bridge.get_coordinates()
+print(f"Coords: {coords}")
 
-if found_path:
-    # We are at row 22 or 23 on some column x.
-    # Now walk DOWN to row 23 if we are not there yet
-    coords = bridge.get_coordinates()
-    while coords[1] < 23:
-        bridge.press_buttons(["Down"])
-        time.sleep(0.5)
-        coords = bridge.get_coordinates()
-    print(f"At Row 23: {coords}")
-    
-    # Now walk RIGHT all the way to column 29/30 to transition to Area 1 East
-    print("Walking RIGHT to transition to Area 1 East...")
-    for _ in range(30): # Walk plenty of steps to ensure transition
-        bridge.press_buttons(["Right"])
-        time.sleep(0.5)
-        
-    coords_final = bridge.get_coordinates()
-    print(f"Transitioned successfully! Coords inside Area 1 (East): {coords_final}")
-else:
-    print("ERROR: Could not find any down path on the left!")
+# Step 3: Walk LEFT to Column 0
+print("Walking LEFT to Column 0...")
+for _ in range(14):
+    bridge.press_buttons(["Left"])
+    time.sleep(0.6)
+coords = bridge.get_coordinates()
+print(f"Coords: {coords}")
+
+# Step 4: Walk UP to Row 11
+print("Walking UP to Row 11...")
+for _ in range(3):
+    bridge.press_buttons(["Up"])
+    time.sleep(0.6)
+coords = bridge.get_coordinates()
+print(f"Coords in front of Area 3 West transition: {coords}")
+
+# Step 5: Walk LEFT to transition to Area 3 West
+print("Transitioning to Area 3 West...")
+bridge.press_buttons(["Left"])
+time.sleep(2.0) # Wait for map transition loading
+
+coords = bridge.get_coordinates()
+print(f"Coords inside Area 3 West: {coords}")
 
