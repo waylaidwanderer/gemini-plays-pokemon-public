@@ -1,12 +1,13 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 48603)
-- Location: Rocket Hideout B1F at (2, 41).
+## CURRENT STATUS & DASHBOARD (Turn 48613)
+- Location: Main Game Corner Casino Floor at (4, 4).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk North along Column 2 Control Highway to explore B1F corridors.
+- Active Objective: Walk East along Row 6 aisle across x=5..14 to explore East Casino floor.
 - Persistent Facts:
-  - Column 2 (x=2, y=3..40) is a vertical column of stop tiles allowing safe North/South movement.
-  - Secret staircase at (2, 41) / (5, 4) connects to Celadon Game Corner (4, 4).
+  - Main Game Corner Casino floor extends East across x=8..17.
+  - Rocket Grunt / Poster Switch at (3, 1) / (2, 3).
+  - Secret staircase at (4, 4) connects to B1F West Spin Loop (2, 41).
 
 <hr>
 
