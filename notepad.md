@@ -757,13 +757,13 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 46998)
-- Location: Saffron West Gatehouse 1F/2F at (4, 2) facing Right.
+## CURRENT STATUS & DASHBOARD (Turn 47003)
+- Location: Saffron West Gatehouse (3, 5) on Red Exit Carpet facing Down.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Dismiss Guard text ("Hi, thanks for the cool drinks!"), exit Gatehouse West onto Route 7, walk West to Celadon City, and enter Game Corner.
+- Active Objective: Step Down into Route 7, walk West to Celadon City, and follow Master Route via Column 36 tree gap to Game Corner Plaza.
 - Persistent Facts:
-  - Discovered player is currently inside Saffron West Gatehouse at (4, 2) via on-screen Guard text "Hi, thanks for the cool drinks!".
-  - Need to exit West onto Route 7, walk West to Celadon City, and follow Master Route via Column 36 tree gap to Game Corner Plaza.
+  - Standing on red exit carpet at (3, 5) in Saffron West Gatehouse.
+  - Stepping Down exits West onto Route 7.
 
 <hr>
 
