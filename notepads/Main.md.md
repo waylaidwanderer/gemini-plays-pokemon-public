@@ -1,7 +1,7 @@
-## CURRENT STATUS & DASHBOARD (Turn 47024)
-- Location: Celadon City at (17, 30) facing Down.
+## CURRENT STATUS & DASHBOARD (Turn 47028)
+- Location: Celadon Department Store 1F at (3, 7) facing Up.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Up 2 to (17, 28), Right 3 to Column 20 (20, 28), and Down 8 along Column 20 to Game Corner Plaza warp (20, 36).
+- Active Objective: Step Down 1 to exit Dept Store to Celadon City (17, 14), walk Left 1 to Column 16 (16, 14), Up 2 to Row 12 Highway (16, 12), and East 20 to Column 36 (36, 12).
 - Persistent Facts:
-  - Arrived at Row 30 South Street at (17, 30).
-  - Column 20 going South leads directly into Game Corner Plaza warp at (20, 36).
+  - Accidentally stepped into Dept Store front door at (17, 13) while walking Up Column 17.
+  - Stepping Down from (3, 7) exits back outside to Celadon City.
