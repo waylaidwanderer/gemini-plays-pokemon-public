@@ -758,10 +758,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 48331)
-- Location: Celadon Pokemon Center at (2, 7).
+## CURRENT STATUS & DASHBOARD (Turn 48340)
+- Location: Outdoor Celadon City at (19, 28).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Exit Pokemon Center and Plaza to Outdoor Celadon City at (8, 35), then walk East along Row 34 street to Main Casino door at (30, 35).
+- Active Objective: Walk Left 2 to Column 17 pavement at (17, 28) and South down Column 17 to Row 34 South Street to reach Main Casino door at (30, 35).
 - Persistent Facts:
   - TRUE Main Game Corner Casino Floor entrance is at Outdoor Celadon City door (30, 35).
   - Secret poster switch on North Wall of Main Casino Floor reveals true staircase at (4, 4) to Rocket Hideout.
