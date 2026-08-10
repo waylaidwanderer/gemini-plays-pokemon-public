@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 48481)
-- Location: Outdoor Celadon City at (19, 9).
+## CURRENT STATUS & DASHBOARD (Turn 48498)
+- Location: Celadon Diner at (3, 5).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk North along Column 19 to Rows 0..4 to locate unblocked tree wall gap into East Celadon and reach door (30, 35).
+- Active Objective: Talk to the NPC at (3, 4) in Celadon Diner to receive the Coin Case, then exit to Outdoor Celadon City.
 - Persistent Facts:
   - Outdoor Celadon City door (17, 13) enters Main Casino Floor ("Celadon Game Corner").
   - Defeating Rocket Grunt at North Wall poster and pressing A on poster switch reveals the main staircase to Rocket Hideout.
