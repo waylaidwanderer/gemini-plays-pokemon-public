@@ -759,10 +759,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47646)
-- Location: Celadon Game Corner at (6, 7) entering Rocket Hideout B1F.
+## CURRENT STATUS & DASHBOARD (Turn 47671)
+- Location: Rocket Hideout B1F at (3, 8) testing spin tiles.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Left to (4, 7), Up to staircase at (4, 4) to enter Rocket Hideout B1F at (5, 4), then explore West/South through B1F to reach lower levels.
+- Active Objective: Test spin tiles (3, y) from Column 2 Control Highway to find East spin tile trajectory.
 - Persistent Facts:
   - Game Corner Plaza is the outdoor Prize Exchange sub-map.
   - Column 12/13 in Celadon City is the open pavement street running North to Row 13.
@@ -1129,6 +1129,13 @@ Empirically map every aisle on Columns 5, 6, and 7 across Rows 1..6 to verify if
 ### Main Hideout Staircase Access (Verified Turn 47646)
 - Staircase (4, 4) in Celadon Game Corner is the secret staircase leading directly down to Rocket Hideout B1F (5, 4).
 - From B1F (5, 4), explore West/South through B1F corridors to navigate through Rocket Hideout and reach lower floors B2F/B3F/B4F to battle Giovanni and obtain the Silph Scope.
+### Systematic Spin Tile Audit Protocol & Log (Turn 47671)
+- Method: From Column 2 Control Highway (2, y), step Right onto (3, y) to observe spin trajectory.
+- Row y=3: Spins UP to wall y=2.
+- Row y=8: Spins DOWN to (3, 8).
+- Row y=9: Normal floor (no spin).
+- Row y=39: Normal floor (no spin).
+- Row y=40: Normal floor (no spin).
 
 <hr>
 
