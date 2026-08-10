@@ -894,6 +894,11 @@
 - Celadon Mansion Entrance Door: Located at (17, 13).
 - Column 16 (x=16, y=20..28): 100% open paved, no-grass avenue connecting West Celadon to Row 28 Highway at (16, 28).
 
+### Empirical Slope Gap Discovery (Turn 48698)
+- Tile (7, 11) is the OPEN BEIGE DIRT SLOPE GAP in the Row 11 dirt/fence border.
+- Tiles (5, 11) and (9, 11) are solid dirt/fence borders (empirically confirmed by bump tests on turns 48694 and 48696).
+- Ascending through (7, 11) unlocks Row 8 / Row 9 Northern Highway (y=8, 9) running East across x=7..36 above all building roofs.
+
 <hr>
 
 <h1><code>Locations/Saffron_City.md</code></h1>
