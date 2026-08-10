@@ -49,3 +49,4 @@
 - Row y=24: Spins DOWN to (3, 24).
 - Row y=25: Spins DOWN to (3, 25).
 - Row y=26: Spins DOWN to (3, 26).
+- Row y=27: Spins DOWN to (3, 27).
