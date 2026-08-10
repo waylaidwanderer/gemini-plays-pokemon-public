@@ -125,3 +125,18 @@ We have systematically probed the horizontal and vertical boundaries of Safari Z
 To reach Area 3 (West), the player **MUST** use the intended speedrun route across three maps:
 **Safari Zone Center -> Area 1 (East) -> Area 2 (North) -> Area 3 (West)**.
 Any attempt to find a ground-level shortcut within Safari Zone Center is mathematically blocked by map collision.
+
+### 🧪 Empirically Verified Barriers and Collisions (Burden of Proof Verified)
+The following physical barriers and collision coordinates have been verified through direct physical testing in Safari Zone Area 3 (West):
+1. **Row 17 Column 19 Ledge:** Row 17 is a solid cliff wall on Column 19, blocking northward movement on Column 19 from Row 18 on the ground level (Turn 32009).
+2. **Column 18 Vertical Hedge (Rows 20-23):** Solid vertical barrier blocking horizontal crossing (Turn 31942).
+3. **Column 22 Row 24 Blockage:** Solid dark clumps block southward movement (Turn 31951).
+4. **Column 14 Rows 15-16 Tree Wall:** Solid vertical tree wall on Column 14, blocking horizontal crossing on Rows 15-16 of the plateau (Turn 31955).
+5. **Column 14 Row 14 Blockage:** Solid tree/cliff blocks horizontal crossing (Turn 31957).
+6. **Column 14 Row 10 Blockage:** Solid tree blocks horizontal crossing (Turn 31965).
+7. **Column 17 Rows 8-10 Cliff Wall:** Solid vertical cliff face blocking horizontal crossing (Turn 31968).
+8. **Column 10 Rows 7-8 Cliff Wall:** Solid cliff wall blocking horizontal crossing (Turn 31970/31973).
+9. **Column 11 Row 5 Blockage:** Solid cliff/hedge blocks upward movement (Turn 31975).
+10. **Row 24 Column 24 Blockage:** Solid dark clumps block southward movement (Turn 32007).
+11. **Column 19 Row 25 Blockage:** Solid cliff face blocks southward movement (Turn 32013).
+12. **Columns 12-15 Row 25 Cliff Wall:** Solid horizontal cliff wall blocks southward ground-level movement (Turn 32021).
