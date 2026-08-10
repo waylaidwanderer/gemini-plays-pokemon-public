@@ -148,3 +148,6 @@ The following physical barriers and collision coordinates have been verified thr
 4. **Column 29 Row 22 (Safari Zone Center) Blockage:** Verified as a solid vertical line of bushes on Column 29, blocking direct ground-level horizontal crossing on Row 22 (Turn 32097).
 5. **Row 15 Column 28 (Area 1 East) Tree Blockage:** Solid tree trunk/canopy on Row 15, Column 28, completely blocking northward ground-level crossing on Column 28 (Turn 32122).
 6. **Row 12 Columns 24-26 (Area 1 East) Cliff Barrier:** Solid horizontal cliff face/edge, blocking northward ground-level crossing on Columns 24-26 and confirming the southeastern plateau (rows 12-15) is a dead end with no north-bound ground-level or stair-climb transitions (Turn 32125/32127).
+7. **Row 23 Column 8 (Area 1 East) Blockage:** Verified as a solid cliff face, blocking northward ground-level traversal on Column 8 from Row 24 (Turn 32148).
+8. **Row 23 Column 9 (Area 1 East) Blockage:** Verified as a solid cliff face, blocking northward ground-level traversal on Column 9 from Row 24 (Turn 32149).
+9. **Row 23 Column 12 (Area 1 East) Blockage:** Verified as a solid cliff face, blocking northward ground-level traversal on Column 12 from Row 24 (Turn 32151).
