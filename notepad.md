@@ -1305,6 +1305,11 @@ We have systematically probed the horizontal and vertical boundaries of Safari Z
 To reach Area 3 (West), the player **MUST** use the intended speedrun route across three maps:
 **Safari Zone Center -> Area 1 (East) -> Area 2 (North) -> Area 3 (West)**.
 Any attempt to find a ground-level shortcut within Safari Zone Center is mathematically blocked by map collision.
+## 🧪 Verified Overworld Discoveries in Area 3 (West) (Turn 30800)
+- **Secret House Entrance:** Empirically verified on Turn 30776. The entrance door is at Column 5, Row 13 (`(5, 13)`), accessed from ground level at `(5, 14)` in the southwest part of the map.
+- **Gold Teeth Location Hypothesis:** The Gold Teeth are hypothesized to be located on the southern ground level around Column 19, Row 17 (unverified, to be tested on the next run).
+- **Column 0, Row 13 Safari Zone Center Transition:** Verified to warp directly onto the southern ground level at Column 29, Row 25 in Area 3 (West). Column 0, Row 11-12 is blocked by solid trees and cannot be used.
+
 
 <hr>
 
