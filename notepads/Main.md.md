@@ -1,7 +1,7 @@
-## CURRENT STATUS & DASHBOARD (Turn 47721)
-- Location: Game Corner Plaza at (13, 24) navigating East to Column 15 and North.
+## CURRENT STATUS & DASHBOARD (Turn 47722)
+- Location: Game Corner Plaza at (15, 14) navigating North along Column 15 to Row 1.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Right 2 steps to Column 15 (15, 24), North to Row 0/1, East to Column 20, and South to exit warp (20, 36) into outdoor Celadon City.
+- Active Objective: Walk North along Column 15 to Row 1 (15, 1), East 5 steps to Column 20 (20, 1), and South to exit warp (20, 36) into outdoor Celadon City.
 - Persistent Facts:
   - Game Corner Plaza is the outdoor Prize Exchange sub-map.
   - Column 12/13 in Celadon City is the open pavement street running North to Row 13.
