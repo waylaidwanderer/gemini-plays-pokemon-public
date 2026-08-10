@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47291)
-- Location: Celadon City at (7, 10) facing Up on Northern Lawn Highway.
+## CURRENT STATUS & DASHBOARD (Turn 47296)
+- Location: Celadon City at (19, 8) facing Right on Northern Lawn.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk East along Northern Lawn Highway (y=10) from (7, 10) to Column 36 (36, 10), then South down Column 36 to Row 30 South Street, West to Column 28, and South to Main Casino Floor doorway at (28, 35).
+- Active Objective: Walk Left 11 to Column 8 (8, 8), South down Column 8 to (8, 36) warp into Game Corner Plaza, then enter door (7, 3) to True Main Casino Floor.
 - Persistent Facts:
   - Row 11 (y=11) is a solid fence/ledge across x=6..15.
   - Column 14 (x=14) is open land bypass running South from (14, 23) to Row 28 Highway (14, 28).
