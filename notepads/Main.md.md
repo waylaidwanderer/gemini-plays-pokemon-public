@@ -1,7 +1,7 @@
-## CURRENT STATUS & DASHBOARD (Turn 47064)
-- Location: Game Corner East Room at (0, 7) facing Left.
+## CURRENT STATUS & DASHBOARD (Turn 47065)
+- Location: Game Corner Plaza at (23, 14) facing Down.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Right 3 to exit mat at (3, 7) and step Down to warp out to Plaza (23, 14).
+- Active Objective: Walk Left 13 steps along Row 14 street to Column 10 Avenue at (10, 14).
 - Persistent Facts:
-  - Red striped exit mat in 8x8 East Room is at (3, 7) / (4, 7).
-  - True Main Casino Floor door is at (10, 2) on Column 10 in Plaza.
+  - Exited East Room back into Game Corner Plaza at (23, 14).
+  - Column 10 Avenue at (10, 14) leads North to True Main Casino Floor door at (10, 2).
