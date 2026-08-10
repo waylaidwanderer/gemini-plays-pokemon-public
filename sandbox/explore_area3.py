@@ -9,18 +9,18 @@ def send_bridge_request(endpoint, data=None):
     if data is not None:
         payload = json.dumps(data)
         request = (
-            f"POST {endpoint} HTTP/1.1\\r\\n"
-            f"Host: {host}:{port}\r\n"
-            f"Content-Type: application/json\r\n"
-            f"Content-Length: {len(payload)}\r\n"
-            f"Connection: close\r\n\r\n"
-            f"{payload}"
+            f"POST {endpoint} HTTP/1.1" + "\r\n" +
+            f"Host: {host}:{port}" + "\r\n" +
+            "Content-Type: application/json" + "\r\n" +
+            f"Content-Length: {len(payload)}" + "\r\n" +
+            "Connection: close" + "\r\n\r\n" +
+            payload
         )
     else:
         request = (
-            f"GET {endpoint} HTTP/1.1\\r\\n"
-            f"Host: {host}:{port}\r\n"
-            f"Connection: close\r\n\r\n"
+            f"GET {endpoint} HTTP/1.1" + "\r\n" +
+            f"Host: {host}:{port}" + "\r\n" +
+            "Connection: close" + "\r\n\r\n"
         )
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.settimeout(10)
