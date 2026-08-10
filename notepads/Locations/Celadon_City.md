@@ -74,3 +74,4 @@
 - Tile (8, 15): 100% passable dirt/pavement connecting Column 8 (8, 18) directly North to Row 12 Northern Highway at (8, 12).
 - Column 28 (x=28, y=12): Green shirt NPC standing on Row 12 Highway.
 - Column 32 (x=32, y=12..15): Double brown wooden barrels (bypassed via Row 10 at x=31..36).
+- Tile (32, 16): 100% open ground passage below barrels at (32, 12..15), connecting Central Celadon directly East to Column 36 (36, 16).

@@ -75,3 +75,5 @@
 - Column 28 (x=28, y=12): Green shirt NPC standing on Row 12 Highway.
 - Column 32 (x=32, y=12..15): Double brown wooden barrels (bypassed via Row 10 at x=31..36).
 - Tile (32, 16): 100% open ground passage below barrels at (32, 12..15), connecting Central Celadon directly East to Column 36 (36, 16).
+- Main Game Corner Casino Entrance: Located in Celadon City at tile (30, 19) [approached via Row 18 at 30, 18].
+- Tile (31, 16): Solid blue building canopy / wall.
