@@ -1129,13 +1129,13 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 86
-- **Steps Remaining:** 414
+- **Steps Consumed:** 92
+- **Steps Remaining:** 408
 
 ## 🗺️ Step-by-Step Route Log
 - Started inside Safari Zone Center at (18, 25).
 - Walked to transition to Area 1 (East) at Center (29, 11) -> Area 1 (0, 23).
-- Currently in Area 1 (East) navigating Middle Ground Level (walking north).
+- Currently in Area 1 (East) navigating Northern Plateau Crossing.
 
 <hr>
 
@@ -1145,8 +1145,8 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 79
-- **Steps Remaining:** 421
+- **Steps Consumed:** 86
+- **Steps Remaining:** 414
 
 ## 🗺️ Step-by-Step Route Log
 - Started inside Safari Zone Center at (18, 25).
