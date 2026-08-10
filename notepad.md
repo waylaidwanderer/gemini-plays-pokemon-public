@@ -752,10 +752,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 49201)
-- Location: Celadon City (East) at (36, 25).
+## CURRENT STATUS & DASHBOARD (Turn 49231)
+- Location: Celadon City at (32, 30).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Navigate via Northern Highway (7, 11) to East Celadon City (30, 34) to enter Main Game Corner Casino.
+- Active Objective: Navigate to Main Casino door at (17, 13) in West Celadon City.
 - Persistent Facts:
   - Main Game Corner Casino in West Celadon is entered at (10, 21).
   - Row 25 pavement (x=5..10) passes above Column 8 barrels (8, 28) directly to Column 10 (10, 25) -> (10, 21).
