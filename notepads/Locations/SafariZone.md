@@ -54,9 +54,9 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - **Column 18 Vertical Barrier (Rows 20-23):** A solid tree/wall structure running vertically on Column 18 across rows 20-23, blocking horizontal ground-level passage.
 - **Horizontal Cliff Wall (Rows 24-25):** Runs horizontally across the map, separating the north ground level from the south ground level:
   - Row 24 on Columns 2-9 is solid cliff wall/trees (Column 19 is the open gap to the south).
-  - Row 25 on Columns 10-21 is solid cliff wall.
+  - Row 25 is a completely solid fence/barrier from Column 2 to Column 27 (fences, fence posts, and trees), and Column 1 has solid boundary trees, meaning there is NO ground-level horizontal crossing on the south side of Area 3 (West).
   - **Direct Verification (Turn 31557-31559):** Confirmed Column 19, Row 25 is blocked (Turn 31557), Column 20, Row 25 is blocked (Turn 31558), and Column 21, Row 25 is blocked (Turn 31559).
-  - Row 24 on Columns 22-29 is solid cliff wall.
+  
 
 ### Western Ground Level & Items
 - **Western Ground Grass (Rows 20-24, Columns 2-12):** A large patch of tall grass where wild battles can occur.
