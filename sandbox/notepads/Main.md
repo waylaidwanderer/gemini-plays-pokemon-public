@@ -1,7 +1,7 @@
-## CURRENT STATUS & DASHBOARD (Turn 47111)
-- Location: Celadon Game Corner (Main Casino Floor) at (3, 7).
+## CURRENT STATUS & DASHBOARD (Turn 47121)
+- Location: Game Corner Sub-Room (Cable Club) at (11, 3).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Up along Column 3 to North Wall (3, 1) to locate Rocket Grunt guarding poster switch.
+- Active Objective: Exit Cable Club room to Game Corner Plaza and walk to True Main Casino Floor door at (17, 27).
 - Persistent Facts:
-  - Celadon Game Corner (3, 7) is the entrance to True Main Casino Floor.
-  - Rocket Grunt guarding poster switch is on the North Wall of Main Casino Floor.
+  - Door at (11, 3) in Game Corner Plaza enters the Cable Club sub-room.
+  - True Main Casino Floor entrance in Game Corner Plaza is located at doorway (17, 27).
