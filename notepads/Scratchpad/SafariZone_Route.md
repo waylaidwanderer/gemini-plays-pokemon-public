@@ -46,3 +46,4 @@ The following paths are highly logical hypotheses but have NOT been fully traver
 - Turn 32298: Reached (3, 20) after 2 steps Down [314 steps]
 - Turn 32301: Reached (4, 20) [315 steps], encountered wild Exeggcute and ran away.
 - Turn 32304: Standing at (4, 20) in overworld [315 steps]
+- Turn 32306: Reached (6, 19) on the plateau [318 steps]
