@@ -30,12 +30,17 @@ def run_away():
     time.sleep(1.5)
     print("RUN sequence finished.")
 
-def run_safari_loop():
-    print("Starting Golden Speedrun...")
+def run_safari_loop(max_steps=40):
+    print(f"Starting Golden Speedrun (limit: {max_steps} steps)...")
     stuck_count = 0
     max_stuck = 3
+    steps_taken = 0
     
     while True:
+        if steps_taken >= max_steps:
+            print(f"Reached max steps limit of {max_steps}. Pausing to return control.")
+            break
+            
         curr = bridge.get_coordinates()
         if curr is None:
             print("Could not read coordinates (we are likely in a battle or transition). Waiting...")
@@ -44,8 +49,7 @@ def run_safari_loop():
             
         print(f"Current Coordinates: {curr}")
         
-        # Check if we arrived at the final target (the Secret House door or inside)
-        # Wait, the last coordinate is (5, 14). Let's check if we are at (5, 14)
+        # Check if we arrived at the final target (5, 14)
         if curr == (5, 14):
             print("Arrived at final target (5, 14) outside Secret House! Entering...")
             bridge.press_buttons(["Up"])
@@ -75,10 +79,12 @@ def run_safari_loop():
         print(f"Moving {direction} towards {target}...")
         bridge.press_buttons([direction])
         time.sleep(0.35)
+        steps_taken += 1
         
         # Verify if we successfully moved
         new_curr = bridge.get_coordinates()
         if new_curr == curr:
+            # We didn't move. But wait, if it was a transition, coordinates changed, but if they didn't:
             stuck_count += 1
             print(f"Stuck! Didn't move. Current {curr}. Stuck count: {stuck_count}")
             
@@ -94,6 +100,8 @@ def run_safari_loop():
                 # We are stuck, likely in a battle
                 run_away()
                 stuck_count = 0
+                # Don't count stuck/battle steps as successful movement steps
+                steps_taken = max(0, steps_taken - 1)
         else:
             stuck_count = 0
 
