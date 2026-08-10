@@ -1271,6 +1271,8 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
   
 
 ### Verified Physical Collision Barriers
+- **Row 19 Column 13 Plateau Wall (Area 3 West):** Physically verified on Turn 32506. Attempting to walk UP from (13, 20) to (13, 19) results in bumping, proving Row 19 Column 13 is a solid plateau cliff face.
+- **Row 18 Column 29 Boundary (Area 3 West):** Physically verified on Turn 32512/32513. Attempting to walk RIGHT from (28, 18) to (29, 18) results in bumping, proving Column 29 Row 18 is a solid tree.
 - **Row 25 Column 13 Barrier (Area 3 West):** Physically verified on Turn 32503. Attempting to walk DOWN from (13, 24) to (13, 25) results in bumping, proving Row 25 Column 13 is a solid tree.
 - **Row 24 Column 9 Barrier (Area 3 West):** Physically verified on Turn 32466. Attempting to walk DOWN from (9, 23) to (9, 24) results in bumping, proving Row 24 Column 9 is a solid tree.
 - **Row 24 Column 28 Barrier (Area 3 West):** Physically verified on Turn 32485. Attempting to walk DOWN from (28, 23) to (28, 24) results in bumping, proving Row 24 Column 28 is blocked by trees/fences.
