@@ -1,12 +1,12 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47791)
-- Location: Game Corner Plaza at (17, 28) outside Nidoran Trade Sub-room.
+## CURRENT STATUS & DASHBOARD (Turn 47821)
+- Location: Game Corner Plaza at (15, 16) on East Sector.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk to door (10, 2) in Game Corner Plaza to enter True Main Casino Floor ("Celadon Game Corner").
+- Active Objective: Find entrance into West Building Courtyard to reach door (10, 21) or enter Main Casino Floor.
 - Persistent Facts:
   - Doorway (17, 27) in Game Corner Plaza enters the 8x8 Nidoran Trade Sub-room.
-  - Doorway (10, 2) in Game Corner Plaza enters the True Main Casino Floor.
+  - Column 14 (x=14) in Game Corner Plaza is a continuous vertical wall of barrels/statues separating East and West sectors.
   - Secret poster switch on North Wall of Celadon Game Corner reveals true staircase to Main Rocket Hideout.
 
 <hr>
