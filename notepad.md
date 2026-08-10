@@ -759,10 +759,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47707)
-- Location: Celadon City at (17, 14) entering Celadon Game Corner door (17, 13).
+## CURRENT STATUS & DASHBOARD (Turn 47715)
+- Location: Game Corner Plaza at (17, 28) exiting South to outdoor Celadon City.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Step Up into door (17, 13) to enter Celadon Game Corner and locate North Wall poster switch.
+- Active Objective: Walk South to exit Game Corner Plaza into outdoor Celadon City, then walk East to Main Casino entrance at (28, 35).
 - Persistent Facts:
   - Game Corner Plaza is the outdoor Prize Exchange sub-map.
   - Column 12/13 in Celadon City is the open pavement street running North to Row 13.
