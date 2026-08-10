@@ -1000,6 +1000,19 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
   3. Walk East along Row 17 to Column 31 (ground level).
   4. Walk UP Column 31 to Row 13, and walk RIGHT onto the East Stairs at `(32, 13)` to climb onto the plateau!
 
+## 🧪 Empirical Proof of Safari Zone Center Compartmentalization (Turn 30402)
+We have systematically probed the horizontal and vertical boundaries of Safari Zone Center and proven that the map is divided into two completely unconnected ground-level compartments: the **South/East Entrance Compartment** and the **Northwest Area 3 Transition Compartment**. There is **NO DIRECT SHORTCUT** between them.
+
+### Refutation of Hypothesized Shortcuts:
+1. **The Row 11 Shortcut (Refuted Turn 30392):** Walking Left along Row 11 is completely blocked by the central water pond on Columns 18-21 (visually confirmed blue water tiles on screen).
+2. **The Row 16/17 Shortcut (Refuted Turn 30402):** Row 16 on Columns 2-5 is blocked by a continuous horizontal hedge wall (visually confirmed in `player_around_6_16.png` and at coordinate `(2, 17)`). Columns 0-1 on Row 16 and 17 are blocked by solid overworld pine trees.
+3. **The Rest House / Pond Block:** Rest House 1 blocks Columns 10-15 on Rows 14-15. The pond blocks Columns 9-17 on Rows 10-14. This creates an unbroken barrier of water and buildings across the middle.
+
+### Conclusion:
+To reach Area 3 (West), the player **MUST** use the intended speedrun route across three maps:
+**Safari Zone Center -> Area 1 (East) -> Area 2 (North) -> Area 3 (West)**.
+Any attempt to find a ground-level shortcut within Safari Zone Center is mathematically blocked by map collision.
+
 <hr>
 
 <h1><code>Locations/SafariZone_Area1_East_Boundaries</code></h1>
