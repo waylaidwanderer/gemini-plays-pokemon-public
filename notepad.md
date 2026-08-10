@@ -914,6 +914,7 @@
 - Row 27 East-West Highway: 100% open, clear ground running from x=7 through x=25+.
 - Row 28 Tree Wall: Solid trees spanning x=6..35. Column 36 (36, 28) is the verified tree gap leading South to Row 30 South Street.
 - Tile (35, 23..27): Double brown wooden barrels blocking Eastward traversal along Row 26/27.
+- Column 7 (x=7, y=14..17): Solid vertical wall of grey statues/ruins.
 
 <hr>
 
