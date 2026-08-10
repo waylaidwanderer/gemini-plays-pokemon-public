@@ -2,8 +2,8 @@
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 322
-- **Steps Remaining:** 178
+- **Steps Consumed:** 326
+- **Steps Remaining:** 174
 
 ## 🗺️ Step-by-Step Route Log
 - Started inside Safari Zone Center at (18, 25).
@@ -33,4 +33,4 @@
 - Walked to (19, 16) on the plateau.
 - Walked back to East Stairs and descended to (21, 18).
 - Walked to (19, 24) in the southern compartment.
-- Currently picking up the Gold Teeth at (19, 25).
+- Verified Gold Teeth is not in PACK. Currently walking south along Column 19 to locate the Gold Teeth.
