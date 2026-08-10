@@ -40,10 +40,15 @@ def send_bridge_request(endpoint, data=None):
         response += chunk
     s.close()
     
-    # Parse JSON body
+    # Parse JSON body (robustly handling chunked transfer encoding)
     parts = response.split(b"\r\n\r\n", 1)
     if len(parts) == 2:
-        return json.loads(parts[1].decode('utf-8'))
+        body = parts[1].decode('utf-8')
+        start = body.find('{')
+        end = body.rfind('}')
+        if start != -1 and end != -1:
+            json_str = body[start:end+1]
+            return json.loads(json_str)
     return {"error": "Invalid HTTP response format"}
 
 def get_coordinates():
