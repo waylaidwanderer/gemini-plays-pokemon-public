@@ -55,3 +55,7 @@
 - Celadon Game Corner Main Doorway: Located at Celadon City (17, 13) [approached via x=17, y=20..14 -> y=13].
 - Stepping into door (17, 13) enters Celadon Game Corner floor at (3, 7).
 - Empirical Boundary Testing Protocol: Perform single-step validation before issuing long macros to verify tile properties.
+### West Boundary & Row 27 Audit (Turn 49547)
+- Central Celadon West Boundary: Column 4 (x=4, y=23..31) is a continuous vertical wall of grey statues/ruins. Column 5 ends at y=27 (y=28 is a grey statue).
+- Row 27 East-West Highway: 100% open, clear ground running from x=7 through x=25+.
+- Row 28 Tree Wall: Solid trees spanning x=6..35. Column 36 (36, 28) is the verified tree gap leading South to Row 30 South Street.

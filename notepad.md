@@ -752,9 +752,9 @@
 <h1><code>Main.md</code></h1>
 
 ## CURRENT STATUS & DASHBOARD (Turn 49542)
-- Location: Celadon City at (26, 27).
+- Location: Celadon City at (7, 27).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Navigate West via Column 0/1 to Row 30 South Street (0, 30), East to Column 20 (20, 30), and Down to Game Corner Plaza warp (20, 36).
+- Active Objective: Navigate East along Row 27 to Column 36 (36, 27), South through tree gap at (36, 28) to Row 30, West to (20, 30), and Down to Game Corner Plaza warp (20, 36).
 - Persistent Facts:
   - Celadon Game Corner Main Casino Floor is entered via Game Corner Plaza or outdoor door.
   - North Wall poster switch guarded by Rocket Grunt in Main Casino Floor reveals secret staircase to true Main Rocket Hideout B1F-B4F.
@@ -841,6 +841,10 @@
 - Celadon Game Corner Main Doorway: Located at Celadon City (17, 13) [approached via x=17, y=20..14 -> y=13].
 - Stepping into door (17, 13) enters Celadon Game Corner floor at (3, 7).
 - Empirical Boundary Testing Protocol: Perform single-step validation before issuing long macros to verify tile properties.
+### West Boundary & Row 27 Audit (Turn 49547)
+- Central Celadon West Boundary: Column 4 (x=4, y=23..31) is a continuous vertical wall of grey statues/ruins. Column 5 ends at y=27 (y=28 is a grey statue).
+- Row 27 East-West Highway: 100% open, clear ground running from x=7 through x=25+.
+- Row 28 Tree Wall: Solid trees spanning x=6..35. Column 36 (36, 28) is the verified tree gap leading South to Row 30 South Street.
 
 <hr>
 
