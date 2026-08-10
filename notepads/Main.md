@@ -1,8 +1,8 @@
-## CURRENT STATUS & DASHBOARD (Turn 48092)
-- Location: Celadon Game Corner at (5, 1).
+## CURRENT STATUS & DASHBOARD (Turn 48110)
+- Location: Outdoor Celadon City at (19, 28) [In Battle with Wild Bellsprout].
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Inspect poster at (5, 0) or battle Rocket Grunt at (3, 5) to reveal secret staircase at (4, 4).
+- Active Objective: Defeat wild Bellsprout, walk East along Row 28 to Column 30, and enter Main Casino door at (30, 35).
 - Persistent Facts:
-  - Main Game Corner Casino Floor ("Celadon Game Corner") door is at Game Corner Plaza (15, 13).
+  - TRUE Main Game Corner Casino Floor entrance is at Outdoor Celadon City door (30, 35).
   - Secret poster switch on North Wall of Main Casino Floor reveals true staircase at (4, 4) to Rocket Hideout.
-  - Rocket Grunt is located at (3, 5) on the Casino Floor.
+  - Game Corner Plaza (15, 13) enters 8x8 Nidoran Trade Sub-room.
