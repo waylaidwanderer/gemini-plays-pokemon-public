@@ -1,12 +1,12 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47086)
-- Location: Game Corner Sub-Room at (4, 7) facing Down on exit mat.
+## CURRENT STATUS & DASHBOARD (Turn 47087)
+- Location: Game Corner Sub-Room at (5, 5) facing Up.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Warp out to Plaza (9, 14), Right 1 to (10, 14), and Up 12 to True Main Casino door (10, 2).
+- Active Objective: Walk Down 2 to (5, 7), Left 2 to exit mat (3, 7), and Down 1 to warp out to Plaza.
 - Persistent Facts:
-  - Standing on red striped exit mat at (4, 7).
-  - True Main Casino Floor door is located at (10, 2) on Column 10 in Game Corner Plaza.
+  - Red striped exit mat in 8x8 sub-room is at (2, 7) / (3, 7).
+  - Tile (4, 7) is regular floor tile.
 
 <hr>
 
@@ -757,13 +757,14 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47087)
-- Location: Game Corner Sub-Room at (5, 5) facing Up.
+## CURRENT STATUS & DASHBOARD (Turn 47088)
+- Location: South-West Sub-Map (Plaza/Gym) at (9, 14) facing Down.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Down 2 to (5, 7), Left 2 to exit mat (3, 7), and Down 1 to warp out to Plaza.
+- Active Objective: Walk Right 9 steps to (18, 14), then Up 14 to northern exit carpet at (18, 0).
 - Persistent Facts:
-  - Red striped exit mat in 8x8 sub-room is at (2, 7) / (3, 7).
-  - Tile (4, 7) is regular floor tile.
+  - South-West sub-map contains Celadon Gym at y=18 and Prize Exchange sub-rooms at y=13.
+  - Northern exit carpet at (18, 0) warps back to outdoor Celadon City at (8, 35).
+  - True Main Game Corner Casino building is in Central-South Celadon City at (28, 35).
 
 <hr>
 
