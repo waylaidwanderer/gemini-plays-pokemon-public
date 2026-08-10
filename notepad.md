@@ -751,14 +751,14 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 49021)
-- Location: Rocket Hideout B1F at (5, 11).
+## CURRENT STATUS & DASHBOARD (Turn 49051)
+- Location: Celadon City (East) at (26, 35).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Navigate B1F spin tile maze to locate staircase to B2F.
+- Active Objective: Enter Main Game Corner Casino at (30, 35) to access true Rocket Hideout.
 - Persistent Facts:
-  - Rocket Hideout B1F is accessed from Celadon Game Corner via secret stairs at (4, 4).
-  - Column 2 in B1F (x=2, y=3..40) is a vertical column of stop tiles ("Control Highway").
-  - B1F spin tile maze must be navigated to reach lower floors (B2F/B3F/B4F).
+  - Main Game Corner Casino in East Celadon is entered at (30, 35).
+  - North Wall poster switch guarded by Rocket Grunt reveals secret staircase to true Main Rocket Hideout B1F-B4F.
+  - B1F West Loop (Cols 2..5) accessed via sub-room (17, 27) is an isolated 4-column trap enclosure bounded by wall x=6.
 
 <hr>
 
