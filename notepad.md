@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47217)
-- Location: Celadon City at (14, 24) facing Down.
+## CURRENT STATUS & DASHBOARD (Turn 47218)
+- Location: Celadon City at (14, 28) facing Down.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Clear battle text with A, walk Down 4 steps along Column 14 to Row 28 Highway (14, 28), then Right along Row 28 to Column 28 (28, 28).
+- Active Objective: Walk Right 14 steps along Row 28 Highway to Column 28 (28, 28), then Down to doorway (28, 35).
 - Persistent Facts:
   - Row 28 (y=28) is an unblocked East-West pavement highway running across South Celadon below central pond.
   - Outdoor doorway at (28, 35) in Celadon City enters True Main Game Corner Casino Floor.
@@ -757,13 +757,14 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47218)
-- Location: Celadon City at (14, 28) facing Down.
+## CURRENT STATUS & DASHBOARD (Turn 47219)
+- Location: Celadon City at (19, 28) facing Right.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Right 14 steps along Row 28 Highway to Column 28 (28, 28), then Down to doorway (28, 35).
+- Active Objective: Walk Left 2 to Column 17 (17, 28) and Up along Column 17 to Row 12 Northern Highway (17, 12).
 - Persistent Facts:
-  - Row 28 (y=28) is an unblocked East-West pavement highway running across South Celadon below central pond.
-  - Outdoor doorway at (28, 35) in Celadon City enters True Main Game Corner Casino Floor.
+  - Row 28 at (20, 28) is blocked by solid tree wall x=20..23.
+  - Column 17 (x=17) is open pavement highway running North to Row 12 Northern Highway.
+  - Master route to East Celadon / Casino Doorway (28, 35) goes via Row 12 Northern Highway to Column 36.
 
 <hr>
 
