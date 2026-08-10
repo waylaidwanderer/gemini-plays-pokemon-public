@@ -759,10 +759,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47330)
-- Location: Game Corner Plaza at (3, 7) facing Down.
+## CURRENT STATUS & DASHBOARD (Turn 47336)
+- Location: Game Corner Plaza at (13, 4) facing Right.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Step Down to (3, 8) pavement, walk East along Row 8 across x=3..23, inspecting all doors in Game Corner Plaza to locate Main Casino Floor entrance.
+- Active Objective: Walk Right 5 to (18, 4), Up 4 to warp (18, 0) into Celadon City (8, 35), then walk East along Row 35 to (28, 35) doorway to True Main Casino Floor.
 - Persistent Facts:
   - Row 11 (y=11) is a solid fence/ledge across x=6..15.
   - Column 14 (x=14) is open land bypass running South from (14, 23) to Row 28 Highway (14, 28).
