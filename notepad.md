@@ -1159,7 +1159,7 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 
 ## 🗺️ Step-by-Step Route Log
 - Started a new Safari Zone run on Turn 32372.
-- Goal: Systematically test Columns 13, 14, 15, 16, and 17 on Row 25 of Area 3 (West) to find the gap to the southern compartment.
+- Goal: Escape the eastern ground pocket and find a walkable corridor to the southern compartment.
 
 ### Phase 1: Safari Zone Center to Area 1 (East)
 - Start at (15, 25)
@@ -1198,6 +1198,8 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 ## 🧪 Theoretical Routing Hypotheses (UNVERIFIED)
 The following paths are highly logical hypotheses but have NOT been fully traversed in the active session:
 1. **The Columns 13-17 Row 25 Gap Hypothesis:** It is hypothesized that the horizontal barrier (Row 25) in Area 3 (West) has an open walkable gap on one of the columns between Column 13 and Column 17 (e.g., Column 15 or 16).
+
+- Turn 32434-32442: Explored eastern pocket, verified Row 25 Columns 14-15 and Row 24 Column 16 are completely blocked by trees.
 
 
 <hr>
@@ -1265,6 +1267,7 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
   
 
 ### Verified Physical Collision Barriers
+- **Row 24 Column 16 Tree Barrier (Area 3 West):** Physically verified on Turn 32442. Attempting to walk RIGHT from (15, 24) to (16, 24) results in bumping, proving Row 24 Column 16 is blocked.
 - **Row 25 Column 14 Barrier (Area 3 West):** Physically verified on Turn 32438. Attempting to walk DOWN from (14, 24) to (14, 25) results in bumping, proving Row 25 Column 14 is blocked.
 - **Row 25 Column 15 Barrier (Area 3 West):** Physically verified on Turn 32436. Attempting to walk DOWN from (15, 24) to (15, 25) results in bumping, proving Row 25 Column 15 is blocked.
 - **Row 7 Column 13 Plateau Wall (Area 1 East):** Physically verified on Turn 32393. Attempting to walk RIGHT from (12, 7) to (13, 7) on the stairs results in bumping, proving the plateau side-walls are solid.
