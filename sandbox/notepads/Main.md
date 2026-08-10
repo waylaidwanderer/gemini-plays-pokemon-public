@@ -1,7 +1,7 @@
-## CURRENT STATUS & DASHBOARD (Turn 47049)
-- Location: Celadon City at (10, 29) facing Left.
+## CURRENT STATUS & DASHBOARD (Turn 47050)
+- Location: Celadon City at (8, 35) facing Down.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Step Left 2 to Column 8 Avenue (8, 29) and walk Down 6 steps to (8, 35).
+- Active Objective: Walk Down 4 steps along Column 8 Avenue to (8, 39).
 - Persistent Facts:
-  - Columns 8-9 (x=8..9) form an open paved West Avenue running South from Row 28 past y=33.
-  - Row 35/36 is the open South Courtyard street connecting West Avenue to Game Corner Plaza.
+  - Columns 8-9 (x=8..9) form open paved street running South through Rows 35-39.
+  - Red roofed building sits at x=10..13, y=36..37.
