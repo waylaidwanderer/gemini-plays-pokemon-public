@@ -63,11 +63,12 @@ def run_away():
         press_buttons(["B", "sleep 300"])
     print("RUN sequence finished.")
 
-# Correct contiguous route from (26, 3) to (6, 20) using the Row 14 Gap in Column 24
+# Correct contiguous route from (26, 5) to (6, 20) using Column 27 bypass
 route = [
-    (26, 3),
-    (26, 4), (26, 5), (26, 6), (26, 7), (26, 8), (26, 9), (26, 10), (26, 11), (26, 12), (26, 13), (26, 14), # DOWN Column 26 to Row 14
-    (25, 14), (24, 14), (23, 14), (22, 14), (21, 14), # LEFT along Row 14 (crossing Column 24 at gap)
+    (26, 5),
+    (27, 5),
+    (27, 6), (27, 7), (27, 8), (27, 9), (27, 10), (27, 11), (27, 12), (27, 13), (27, 14), # DOWN Column 27 to Row 14
+    (26, 14), (25, 14), (24, 14), (23, 14), (22, 14), (21, 14), # LEFT along Row 14 (crossing Column 24 at gap)
     (21, 15), (21, 16), (21, 17), (21, 18), # DOWN Column 21 to Row 18
     (21, 17), # UP onto stairs
     (21, 16), # UP onto plateau
