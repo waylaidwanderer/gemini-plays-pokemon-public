@@ -936,6 +936,7 @@
 - Tile (12, 15) & (12, 14): Blue staircase / slope connecting Row 16 (12, 16) directly North to Row 12 Northern Highway at (12, 12).
 - Tile (12, 15): Solid blue building roof canopy / awning (empirically confirmed bump on turn 49572).
 - Main Game Corner Casino Entrance: Located in Southeast Celadon City / South Street at tile (30, 34) / (30, 35) or via Plaza warp (20, 36).
+- Tile (8, 15): 100% passable dirt/pavement connecting Column 8 (8, 18) directly North to Row 12 Northern Highway at (8, 12).
 
 <hr>
 
