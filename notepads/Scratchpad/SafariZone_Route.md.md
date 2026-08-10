@@ -2,8 +2,8 @@
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 207
-- **Steps Remaining:** 293
+- **Steps Consumed:** 209
+- **Steps Remaining:** 291
 
 ## 🗺️ Step-by-Step Route Log
 - Started inside Safari Zone Center at (18, 25).
@@ -16,4 +16,5 @@
 - Walked south to (16, 32).
 - Walked west along the southern corridor to (12, 33).
 - Transitioned to Area 3 (West) at Area 2 (8, 36) -> Area 3 (26, 0).
-- Currently in Area 3 (West) navigating toward the East Stairs of the plateau.
+- Walked south to Row 18, and west to the East Stairs at (21, 18).
+- Currently climbing the East Stairs onto the plateau.
