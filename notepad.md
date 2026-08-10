@@ -1,12 +1,12 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47170)
-- Location: Rocket Hideout B1F at (2, 41) facing Up.
+## CURRENT STATUS & DASHBOARD (Turn 47171)
+- Location: Celadon Game Corner (Secondary Building) at (4, 4) facing Down.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Step Up 1 onto staircase (2, 41) to return to Celadon Game Corner, then exit to Celadon City.
+- Active Objective: Walk Down 4 steps onto exit mat (4, 7) to enter outdoor Celadon City, then navigate to True Main Casino Floor.
 - Persistent Facts:
-  - Staircase at (4, 4) in secondary building leads to B1F West Spin Trap Loop at (2, 41).
-  - True Main Hideout is accessed by defeating the Rocket Grunt guarding the poster on the North Wall of the True Main Casino Floor.
+  - Staircase at (4, 4) in secondary building leads to B1F West Spin Trap Loop.
+  - Outdoor doorway at (28, 35) or (17, 13) in Celadon City enters the True Main Game Corner Casino Floor.
 
 <hr>
 
@@ -757,13 +757,14 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47171)
-- Location: Celadon Game Corner (Secondary Building) at (4, 4) facing Down.
+## CURRENT STATUS & DASHBOARD (Turn 47172)
+- Location: Celadon City at (17, 14) facing Down.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Down 4 steps onto exit mat (4, 7) to enter outdoor Celadon City, then navigate to True Main Casino Floor.
+- Active Objective: Walk Left 2 to Column 15 (15, 14) and Up 2 to Row 12 Northern Highway (15, 12).
 - Persistent Facts:
-  - Staircase at (4, 4) in secondary building leads to B1F West Spin Trap Loop.
-  - Outdoor doorway at (28, 35) or (17, 13) in Celadon City enters the True Main Game Corner Casino Floor.
+  - Outdoor tile (17, 14) is in front of doorway (17, 13).
+  - Column 15 (x=15) is open pavement running North to Row 12 Northern Highway.
+  - Master route to East Celadon / Casino Doorway (28, 35) goes via Row 12 Northern Highway to Column 36.
 
 <hr>
 
