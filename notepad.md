@@ -1,12 +1,13 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47194)
-- Location: Celadon City at (17, 14) facing Up.
+## CURRENT STATUS & DASHBOARD (Turn 47195)
+- Location: Celadon City at (15, 12) facing Up.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Left 2 to Column 15 (15, 14) and Up 2 to Row 12 Northern Highway (15, 12).
+- Active Objective: Walk Up 3 to Row 9 lawn (15, 9) above Department Store roof, then Right along Row 9.
 - Persistent Facts:
-  - Doorway at (17, 13) is bypassed via Column 15 (x=15) to reach Row 12 Northern Highway.
-  - Master route to East Celadon / Casino Doorway (28, 35) goes via Row 12 Northern Highway to Column 36.
+  - Row 12 (y=12) at x=16..19 is Department Store front wall.
+  - Row 8 & Row 9 (y=8, y=9) across x=11..19 is open green lawn above Department Store roof.
+  - Outdoor doorway at (28, 35) in Celadon City enters True Main Game Corner Casino Floor.
 
 <hr>
 
@@ -757,13 +758,13 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47195)
+## CURRENT STATUS & DASHBOARD (Turn 47196)
 - Location: Celadon City at (15, 12) facing Up.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Up 3 to Row 9 lawn (15, 9) above Department Store roof, then Right along Row 9.
+- Active Objective: Walk Down 2 to Row 14 (15, 14), Left 6 to Column 9 (9, 14), then Down to Row 26 Highway (9, 26).
 - Persistent Facts:
-  - Row 12 (y=12) at x=16..19 is Department Store front wall.
-  - Row 8 & Row 9 (y=8, y=9) across x=11..19 is open green lawn above Department Store roof.
+  - Row 11 (y=11) is a solid fence/ledge above Row 12.
+  - Column 9 (x=9) is open pavement/alley running South to Row 26 / Row 28 Highway.
   - Outdoor doorway at (28, 35) in Celadon City enters True Main Game Corner Casino Floor.
 
 <hr>
@@ -865,6 +866,10 @@
 ## Game Corner Plaza Access (Turn 46443)
 - Outdoor tile (28, 35) in Celadon City enters Game Corner Plaza sub-map.
 - In Game Corner Plaza, Main Casino entrance doorway is located at (17, 27). Approach via (15, 28) -> (16, 28) -> (17, 28) -> (17, 27).
+## Verified Topography Audit (Turn 47192 - 47195)
+- Empirically tested Row 28 (y=28) Eastward traversal on Turn 47192: Tile (20, 28) is a SOLID TREE TILE part of Column 20 (x=20..23) vertical tree wall.
+- Empirically tested Row 12 (y=12) Eastward traversal on Turn 47174: Tile (16, 12) is the front wall of Department Store.
+- Open Northern Highway is Row 8 / Row 9 (y=8, y=9) green lawn running East above Department Store roof across x=11..19+.
 
 <hr>
 

@@ -31,3 +31,7 @@
 ## Game Corner Plaza Access (Turn 46443)
 - Outdoor tile (28, 35) in Celadon City enters Game Corner Plaza sub-map.
 - In Game Corner Plaza, Main Casino entrance doorway is located at (17, 27). Approach via (15, 28) -> (16, 28) -> (17, 28) -> (17, 27).
+## Verified Topography Audit (Turn 47192 - 47195)
+- Empirically tested Row 28 (y=28) Eastward traversal on Turn 47192: Tile (20, 28) is a SOLID TREE TILE part of Column 20 (x=20..23) vertical tree wall.
+- Empirically tested Row 12 (y=12) Eastward traversal on Turn 47174: Tile (16, 12) is the front wall of Department Store.
+- Open Northern Highway is Row 8 / Row 9 (y=8, y=9) green lawn running East above Department Store roof across x=11..19+.
