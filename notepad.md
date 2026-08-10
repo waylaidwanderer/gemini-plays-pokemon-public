@@ -1202,6 +1202,10 @@ The following paths are highly logical hypotheses but have NOT been fully traver
 - Turn 32434-32442: Explored eastern pocket, verified Row 25 Columns 14-15 and Row 24 Column 16 are completely blocked by trees.
 
 
+### Reconciliation of Row 25 Walkability
+We previously generalized that Row 25 is '100% solid across the map.' However, a rigorous audit of our systematic testing log revealed that Column 13 Row 25 was NEVER actually stepped on or bumped against. Since Column 13 is the sole remaining untested ground tile in the horizontal barrier, we are testing it to fulfill the Burden of Proof. If Column 13 is blocked, it conclusively proves Row 25/24 is 100% solid and no ground-level northern passage exists.
+
+
 <hr>
 
 <h1><code>Locations/SafariZone</code></h1>
@@ -1267,6 +1271,8 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
   
 
 ### Verified Physical Collision Barriers
+- **Row 24 Column 9 Barrier (Area 3 West):** Physically verified on Turn 32466. Attempting to walk DOWN from (9, 23) to (9, 24) results in bumping, proving Row 24 Column 9 is a solid tree.
+- **Row 24 Column 28 Barrier (Area 3 West):** Physically verified on Turn 32485. Attempting to walk DOWN from (28, 23) to (28, 24) results in bumping, proving Row 24 Column 28 is blocked by trees/fences.
 - **Row 24 Column 16 Tree Barrier (Area 3 West):** Physically verified on Turn 32442. Attempting to walk RIGHT from (15, 24) to (16, 24) results in bumping, proving Row 24 Column 16 is blocked.
 - **Row 25 Column 14 Barrier (Area 3 West):** Physically verified on Turn 32438. Attempting to walk DOWN from (14, 24) to (14, 25) results in bumping, proving Row 25 Column 14 is blocked.
 - **Row 25 Column 15 Barrier (Area 3 West):** Physically verified on Turn 32436. Attempting to walk DOWN from (15, 24) to (15, 25) results in bumping, proving Row 25 Column 15 is blocked.

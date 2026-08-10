@@ -59,6 +59,8 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
   
 
 ### Verified Physical Collision Barriers
+- **Row 24 Column 9 Barrier (Area 3 West):** Physically verified on Turn 32466. Attempting to walk DOWN from (9, 23) to (9, 24) results in bumping, proving Row 24 Column 9 is a solid tree.
+- **Row 24 Column 28 Barrier (Area 3 West):** Physically verified on Turn 32485. Attempting to walk DOWN from (28, 23) to (28, 24) results in bumping, proving Row 24 Column 28 is blocked by trees/fences.
 - **Row 24 Column 16 Tree Barrier (Area 3 West):** Physically verified on Turn 32442. Attempting to walk RIGHT from (15, 24) to (16, 24) results in bumping, proving Row 24 Column 16 is blocked.
 - **Row 25 Column 14 Barrier (Area 3 West):** Physically verified on Turn 32438. Attempting to walk DOWN from (14, 24) to (14, 25) results in bumping, proving Row 25 Column 14 is blocked.
 - **Row 25 Column 15 Barrier (Area 3 West):** Physically verified on Turn 32436. Attempting to walk DOWN from (15, 24) to (15, 25) results in bumping, proving Row 25 Column 15 is blocked.

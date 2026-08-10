@@ -48,3 +48,7 @@ The following paths are highly logical hypotheses but have NOT been fully traver
 1. **The Columns 13-17 Row 25 Gap Hypothesis:** It is hypothesized that the horizontal barrier (Row 25) in Area 3 (West) has an open walkable gap on one of the columns between Column 13 and Column 17 (e.g., Column 15 or 16).
 
 - Turn 32434-32442: Explored eastern pocket, verified Row 25 Columns 14-15 and Row 24 Column 16 are completely blocked by trees.
+
+
+### Reconciliation of Row 25 Walkability
+We previously generalized that Row 25 is '100% solid across the map.' However, a rigorous audit of our systematic testing log revealed that Column 13 Row 25 was NEVER actually stepped on or bumped against. Since Column 13 is the sole remaining untested ground tile in the horizontal barrier, we are testing it to fulfill the Burden of Proof. If Column 13 is blocked, it conclusively proves Row 25/24 is 100% solid and no ground-level northern passage exists.
