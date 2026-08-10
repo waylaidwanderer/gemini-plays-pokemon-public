@@ -885,6 +885,11 @@
 - Main Game Corner Casino Floor Entrance: Located in outdoor Celadon City at tile (30, 34) / (30, 35) (5 steps East of plaza warp exit at 25, 35).
 - Game Corner Plaza (17, 27) enters the 8x8 Nidoran Trade Sub-room.
 - Main Game Corner Casino is entered directly from outdoor Celadon City at door (30, 34) / (30, 35).
+## Verified Topography Audit (Turns 48133 - 48161)
+- Row 11 (x=6..15, y=11): Solid dirt/fence border blocking northbound access to Row 9 green lawn.
+- Tile (16, 12): Solid building wall of Celadon Mansion.
+- Celadon Mansion Entrance Door: Located at (17, 13).
+- Column 16 (x=16, y=20..28): 100% open paved, no-grass avenue connecting West Celadon to Row 28 Highway at (16, 28).
 
 <hr>
 
