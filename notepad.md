@@ -854,6 +854,7 @@
 - Column 23 (x=23): 100% open North-South street running from Row 18 (23, 18) straight North to Row 8/12 Northern Highway.
 - Tile (22, 24): Solid blue building roof canopy (empirically confirmed bump on turn 49561).
 - Column 35 (x=35, y=23..27): Continuous vertical wall of double brown barrels. Tile (35, 28) is a dark green tree. Blocks direct East-West crossing between Central Celadon (x<=34) and East Celadon (x>=36) at y=23..28.
+- Tile (12, 15) & (12, 14): Blue staircase / slope connecting Row 16 (12, 16) directly North to Row 12 Northern Highway at (12, 12).
 
 <hr>
 
