@@ -1,13 +1,13 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 49801)
-- Location: Celadon City at (8, 12).
+## CURRENT STATUS & DASHBOARD (Turn 49831)
+- Location: Celadon Game Corner (Gambler sub-room) at (5, 3).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Enter Main Game Corner Casino via door at (17, 13) in Celadon City.
+- Active Objective: Exit Gambler sub-room to Celadon City (30, 20), enter Game Corner Plaza door (17, 27) to reach True Main Casino Floor.
 - Persistent Facts:
-  - True Main Casino Floor (with Rocket Grunt & Poster Switch) is entered via outdoor door at (17, 13) in Celadon City.
-  - Door (17, 13) is accessed from Row 12 Northern Highway at (17, 12).
-  - Row 12 Northern Highway connects to Row 16 via open dirt slope gap at (8, 15).
+  - Outdoor door (30, 19) in Celadon City enters the Gambler sub-room at (4, 13) bounded by wall x=9.
+  - Game Corner Plaza door (17, 27) enters the True Main Casino Floor at (3, 7).
+  - Main Casino Floor poster switch is at (17, 1) guarded by Rocket Grunt.
 
 <hr>
 
