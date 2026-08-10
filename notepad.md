@@ -1141,8 +1141,8 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 315
-- **Steps Remaining:** 185
+- **Steps Consumed:** 405
+- **Steps Remaining:** 95
 
 ## 🗺️ Step-by-Step Route Log
 - Started fresh run on Turn 31137.
@@ -1156,6 +1156,7 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 - Turn 31215: Climbed stairs to (21, 16) on the plateau.
 - Turn 31220: Walked back down and arrived at (19, 24) to verify the Gold Teeth.
 - Turn 31239: Burned 90 steps at (19, 24).
+- Turn 31241: Burned another 90 steps at (19, 24) (total 180 steps burned).
 
 
 <hr>
