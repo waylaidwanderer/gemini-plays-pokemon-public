@@ -1,13 +1,12 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47186)
-- Location: Celadon City at (14, 26) facing Left.
+## CURRENT STATUS & DASHBOARD (Turn 47187)
+- Location: Celadon City at (14, 27) facing Down (In Battle vs Wild Meowth).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Down 2 to Row 28 pavement (14, 28), then Left 4 to Column 10 (10, 28).
+- Active Objective: Run from wild Meowth, then walk Down 1 to Row 28 (14, 28) and Left 4 to Column 10 Avenue (10, 28).
 - Persistent Facts:
-  - Central pond spans x=5..13 at y=24..27.
+  - Row 27 x=14 is tall grass triggering wild encounters.
   - Row 28 (y=28) is an unblocked East-West pavement highway below central pond.
-  - Column 10 Avenue (x=10) runs North from Row 28 (10, 28) to Department Store (10, 13).
   - Outdoor doorway at (28, 35) in Celadon City enters True Main Game Corner Casino Floor.
 
 <hr>
@@ -759,10 +758,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47187)
-- Location: Celadon City at (14, 27) facing Down (In Battle vs Wild Meowth).
+## CURRENT STATUS & DASHBOARD (Turn 47188)
+- Location: Celadon City at (14, 27) facing Down (In Battle vs Wild Meowth / Party Menu).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Run from wild Meowth, then walk Down 1 to Row 28 (14, 28) and Left 4 to Column 10 Avenue (10, 28).
+- Active Objective: Close Party Menu with B, select RUN from battle menu, then walk Down 1 to Row 28 (14, 28) and Left 4 to Column 10 Avenue (10, 28).
 - Persistent Facts:
   - Row 27 x=14 is tall grass triggering wild encounters.
   - Row 28 (y=28) is an unblocked East-West pavement highway below central pond.
