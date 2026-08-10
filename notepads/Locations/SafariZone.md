@@ -117,6 +117,7 @@ We have systematically probed the horizontal and vertical boundaries of Safari Z
 ### Refutation of Hypothesized Shortcuts:
 1. **The Row 11 Shortcut (Refuted Turn 30392):** Walking Left along Row 11 is completely blocked by the central water pond on Columns 18-21 (visually confirmed blue water tiles on screen).
 2. **The Row 16/17 Shortcut (Refuted Turn 30402):** Row 16 on Columns 2-5 is blocked by a continuous horizontal hedge wall (visually confirmed in `player_around_6_16.png` and at coordinate `(2, 17)`). Columns 0-1 on Row 16 and 17 are blocked by solid overworld pine trees.
+  - **Direct Verification (Turn 31591):** Confirmed Column 6, Row 15 is blocked by a hedge, and Row 16 has hedges on Columns 2-5, creating a perfect interlocking barrier with Columns 6-9 (Row 15 blocked, Row 16 open), preventing any ground-level horizontal crossing on the west side.
 3. **The Rest House / Pond Block:** Rest House 1 blocks Columns 10-15 on Rows 14-15. The pond blocks Columns 9-17 on Rows 10-14. This creates an unbroken barrier of water and buildings across the middle.
 
 ### Conclusion:
