@@ -1,12 +1,12 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47092)
-- Location: Celadon City at (9, 34) facing Up.
+## CURRENT STATUS & DASHBOARD (Turn 47093)
+- Location: Celadon City at (10, 28) facing Up.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Up 10 to (9, 24), Right 1 to (10, 24), and Up 10 to (10, 14).
+- Active Objective: Walk Right 4 to Column 14 (14, 28), then Up 12 steps along Column 14 to (14, 16).
 - Persistent Facts:
-  - Tile (10, 35) is building wall; Row 35 East is blocked at x=10.
-  - Following Master Unblocked Route via Column 9/10 North to Row 12 Highway, then East to Column 36.
+  - Celadon canal blocks y=25..27 at x=5..13; Column 14 (x=14) crosses canal.
+  - Following Column 14 North to Row 12 Northern Highway at (14, 12).
 
 <hr>
 
@@ -757,13 +757,13 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47093)
-- Location: Celadon City at (10, 28) facing Up.
+## CURRENT STATUS & DASHBOARD (Turn 47094)
+- Location: Celadon City at (14, 16) facing Up.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Right 4 to Column 14 (14, 28), then Up 12 steps along Column 14 to (14, 16).
+- Active Objective: Walk Up 4 steps along Column 14 to (14, 12), then Right 1 to (15, 12).
 - Persistent Facts:
-  - Celadon canal blocks y=25..27 at x=5..13; Column 14 (x=14) crosses canal.
-  - Following Column 14 North to Row 12 Northern Highway at (14, 12).
+  - Arrived at (14, 16) on Column 14 street.
+  - Column 14 connects North to Row 12 street at (14, 12).
 
 <hr>
 
