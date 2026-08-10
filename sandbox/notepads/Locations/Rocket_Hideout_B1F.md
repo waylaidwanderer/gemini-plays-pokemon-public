@@ -31,3 +31,4 @@
 - Row y=7: Spins DOWN to (3, 7).
 - Row y=6: Spins DOWN to (3, 6).
 - Row y=5: Spins DOWN to (3, 5).
+- Row y=4: Spins DOWN to (3, 4).
