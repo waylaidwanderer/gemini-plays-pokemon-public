@@ -1,12 +1,12 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47062)
-- Location: Game Corner East Room (8x8 Room) at (7, 2) facing Right.
+## CURRENT STATUS & DASHBOARD (Turn 47063)
+- Location: Game Corner East Room at (2, 7) facing Down on exit mat.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Exit 8x8 East Room via mat (2, 7) back to Plaza at (23, 14), then head to door (10, 2).
+- Active Objective: Warp out to Plaza at (23, 14), then walk Left 13 steps along Row 14 to Column 10 Avenue at (10, 14).
 - Persistent Facts:
-  - Doors at (15, 13) and (23, 13) in Game Corner Plaza enter 8x8 sub-rooms.
-  - True Main Casino Floor door is located at (10, 2) in Game Corner Plaza.
+  - Exit mat at (2, 7) warps out to Game Corner Plaza at (23, 14).
+  - True Main Casino Floor door is at (10, 2) on Column 10 in Plaza.
 
 <hr>
 
@@ -757,12 +757,12 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47063)
-- Location: Game Corner East Room at (2, 7) facing Down on exit mat.
+## CURRENT STATUS & DASHBOARD (Turn 47064)
+- Location: Game Corner East Room at (0, 7) facing Left.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Warp out to Plaza at (23, 14), then walk Left 13 steps along Row 14 to Column 10 Avenue at (10, 14).
+- Active Objective: Walk Right 3 to exit mat at (3, 7) and step Down to warp out to Plaza (23, 14).
 - Persistent Facts:
-  - Exit mat at (2, 7) warps out to Game Corner Plaza at (23, 14).
+  - Red striped exit mat in 8x8 East Room is at (3, 7) / (4, 7).
   - True Main Casino Floor door is at (10, 2) on Column 10 in Plaza.
 
 <hr>
