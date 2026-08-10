@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 49614)
-- Location: Celadon Game Corner at (9, 13).
+## CURRENT STATUS & DASHBOARD (Turn 49616)
+- Location: Celadon City at (30, 20).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Walk Left 4 steps to exit mat at (5, 13) to exit West Casino sub-room to outdoor Celadon City.
+- Active Objective: Navigate via Row 18 street to Column 8 (8, 18) to ascend to Row 12 Northern Highway.
 - Persistent Facts:
   - Celadon Game Corner Main Casino Floor is entered via Game Corner Plaza or outdoor door.
   - North Wall poster switch guarded by Rocket Grunt in Main Casino Floor reveals secret staircase to true Main Rocket Hideout B1F-B4F.
@@ -751,10 +751,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 49616)
-- Location: Celadon City at (30, 20).
+## CURRENT STATUS & DASHBOARD (Turn 49617)
+- Location: Celadon City at (20, 18).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Navigate via Row 18 street to Column 8 (8, 18) to ascend to Row 12 Northern Highway.
+- Active Objective: Navigate Left 12 steps along Row 18 street to Column 8 (8, 18).
 - Persistent Facts:
   - Celadon Game Corner Main Casino Floor is entered via Game Corner Plaza or outdoor door.
   - North Wall poster switch guarded by Rocket Grunt in Main Casino Floor reveals secret staircase to true Main Rocket Hideout B1F-B4F.
@@ -952,6 +952,7 @@
 - Tile (31, 16): Solid blue building canopy / wall.
 - Tile (24, 16) & (24, 17): Blue outdoor staircase connecting Row 16 (23, 16) directly Down to Row 18 street at (24, 18).
 - Row 20 (x=22..30+): 100% open paved street running East-West directly in front of Main Game Corner Casino door at (30, 19).
+- West Casino Sub-room Exit Mat (5, 13): Warps outside to Celadon City at tile (30, 19) / (30, 20).
 
 <hr>
 
