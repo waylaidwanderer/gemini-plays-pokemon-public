@@ -1151,8 +1151,8 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 264
-- **Steps Remaining:** 236
+- **Steps Consumed:** 265
+- **Steps Remaining:** 235
 
 ## 🗺️ Step-by-Step Route Log
 - Started inside Safari Zone Center at (18, 25).
