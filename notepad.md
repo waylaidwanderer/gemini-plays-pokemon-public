@@ -1,11 +1,10 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47183)
-- Location: Celadon City at (18, 26) facing Left (In Battle vs Wild Bellsprout).
+## CURRENT STATUS & DASHBOARD (Turn 47185)
+- Location: Celadon City at (18, 26) facing Left.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Run from wild Bellsprout, then walk Left 8 along Row 26 to Column 10 Avenue (10, 26).
+- Active Objective: Clear battle text with A, walk Left 8 along Row 26 to Column 10 Avenue (10, 26), then Up Column 10 Avenue to (10, 13).
 - Persistent Facts:
-  - Tree wall at x=20..23 blocks Central/South East-West passage.
   - Column 10 Avenue (x=10) runs North from Row 26 Highway (10, 26) to Department Store (10, 13).
   - Outdoor doorway at (28, 35) in Celadon City enters True Main Game Corner Casino Floor.
 
@@ -758,12 +757,14 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47185)
-- Location: Celadon City at (18, 26) facing Left.
+## CURRENT STATUS & DASHBOARD (Turn 47186)
+- Location: Celadon City at (14, 26) facing Left.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Clear battle text with A, walk Left 8 along Row 26 to Column 10 Avenue (10, 26), then Up Column 10 Avenue to (10, 13).
+- Active Objective: Walk Down 2 to Row 28 pavement (14, 28), then Left 4 to Column 10 (10, 28).
 - Persistent Facts:
-  - Column 10 Avenue (x=10) runs North from Row 26 Highway (10, 26) to Department Store (10, 13).
+  - Central pond spans x=5..13 at y=24..27.
+  - Row 28 (y=28) is an unblocked East-West pavement highway below central pond.
+  - Column 10 Avenue (x=10) runs North from Row 28 (10, 28) to Department Store (10, 13).
   - Outdoor doorway at (28, 35) in Celadon City enters True Main Game Corner Casino Floor.
 
 <hr>
