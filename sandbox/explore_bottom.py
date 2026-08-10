@@ -1,67 +1,5 @@
-import socket
-import json
-import os
+import bridge
 import time
-
-def send_bridge_request(endpoint, data=None):
-    host = "127.0.0.1"
-    port = int(os.environ.get("EMULATOR_BRIDGE_PORT", 9102))
-    if data is not None:
-        payload = json.dumps(data)
-        request = (
-            f"POST {endpoint} HTTP/1.1" + "\\r\\n" +
-            f"Host: {host}:{port}" + "\\r\\n" +
-            "Content-Type: application/json" + "\\r\\n" +
-            f"Content-Length: {len(payload)}" + "\\r\\n" +
-            "Connection: close" + "\\r\\n\\r\\n" +
-            payload
-        )
-    else:
-        request = (
-            f"GET {endpoint} HTTP/1.1" + "\\r\\n" +
-            f"Host: {host}:{port}" + "\\r\\n" +
-            "Connection: close" + "\\r\\n\\r\\n"
-        )
-    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    s.settimeout(10)
-    s.connect((host, port))
-    s.sendall(request.encode('utf-8'))
-    response = b""
-    while True:
-        chunk = s.recv(4096)
-        if not chunk:
-            break
-        response += chunk
-    s.close()
-    parts = response.split(b"\r\n\r\n", 1)
-    if len(parts) == 2:
-        body = parts[1].decode('utf-8')
-        start = body.find('{')
-        end = body.rfind('}')
-        if start != -1 and end != -1:
-            json_str = body[start:end+1]
-            return json.loads(json_str)
-    return {"error": "Invalid HTTP response format"}
-
-def get_coordinates():
-    res = send_bridge_request("/api/coordinates")
-    if "error" in res:
-        return None
-    return (res.get("x"), res.get("y"))
-
-def press_buttons(buttons):
-    if isinstance(buttons, str):
-        buttons = [buttons]
-    return send_bridge_request("/api/press_buttons", {"buttons": buttons})
-
-def run_away():
-    print("Wild battle/interaction detected! Executing RUN sequence...")
-    for _ in range(3):
-        press_buttons(["B", "sleep 300"])
-    press_buttons(["Right", "sleep 200", "Down", "sleep 200", "A", "sleep 1200"])
-    for _ in range(4):
-        press_buttons(["B", "sleep 300"])
-    print("RUN sequence finished.")
 
 # Explore southern grass towards the southeast where Gold Teeth is located
 route = [
@@ -81,7 +19,16 @@ def get_dir(curr, target):
     if ty < cy: return "Up"
     return None
 
-curr = get_coordinates()
+def run_away():
+    print("Wild battle/interaction detected! Executing RUN sequence...")
+    for _ in range(3):
+        bridge.press_buttons(["B", "sleep 300"])
+    bridge.press_buttons(["Right", "sleep 200", "Down", "sleep 200", "A", "sleep 1200"])
+    for _ in range(4):
+        bridge.press_buttons(["B", "sleep 300"])
+    print("RUN sequence finished.")
+
+curr = bridge.get_coordinates()
 print(f"Starting Southern Area exploration at {curr}")
 
 route_idx = 0
@@ -97,7 +44,7 @@ max_stuck = 3
 
 while route_idx < len(route):
     target = route[route_idx]
-    curr = get_coordinates()
+    curr = bridge.get_coordinates()
     
     if curr == target:
         print(f"Arrived at target {target} (index {route_idx})")
@@ -111,15 +58,15 @@ while route_idx < len(route):
         break
         
     print(f"Moving {direction} from {curr} towards {target}")
-    press_buttons([direction, "sleep 300"])
+    bridge.press_buttons([direction, "sleep 300"])
     
-    new_curr = get_coordinates()
+    new_curr = bridge.get_coordinates()
     if new_curr == curr:
         stuck_count += 1
         print(f"Stuck! Stuck count: {stuck_count}")
         if stuck_count >= max_stuck:
             run_away()
-            after_run = get_coordinates()
+            after_run = bridge.get_coordinates()
             if after_run != curr:
                 print(f"Moved after run sequence! New position: {after_run}")
                 for idx, coord in enumerate(route):
@@ -131,4 +78,4 @@ while route_idx < len(route):
     else:
         stuck_count = 0
 
-print(f"Finished exploration. Final position: {get_coordinates()}")
+print(f"Finished exploration. Final position: {bridge.get_coordinates()}")

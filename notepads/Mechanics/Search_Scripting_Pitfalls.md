@@ -59,3 +59,18 @@ def send_bridge_request(endpoint, data=None):
 ```
 
 Use this low-level socket implementation in any custom scripts (like `walk_safari.py`) instead of the standard `mgba` library!
+
+## Chunked Transfer-Encoding Parsing
+The mGBA emulator bridge returns HTTP responses using chunked transfer encoding (e.g., `Transfer-Encoding: chunked`). This prefixes and suffixes the raw JSON body with hex chunk-size indicators (e.g. `f\r\n{"x":15,"y":25}\r\n0\r\n\r\n`), which causes standard `json.loads` parsing on the raw body to fail with a `JSONDecodeError`.
+
+To parse the JSON body safely and robustly, extract the substring between the first opening curly brace `{` and the last closing curly brace `}`:
+```python
+parts = response.split(b"\r\n\r\n", 1)
+if len(parts) == 2:
+    body = parts[1].decode('utf-8')
+    start = body.find('{')
+    end = body.rfind('}')
+    if start != -1 and end != -1:
+        json_str = body[start:end+1]
+        return json.loads(json_str)
+```
