@@ -21,3 +21,10 @@
 ### Main Hideout Staircase Access (Verified Turn 47646)
 - Staircase (4, 4) in Celadon Game Corner is the secret staircase leading directly down to Rocket Hideout B1F (5, 4).
 - From B1F (5, 4), explore West/South through B1F corridors to navigate through Rocket Hideout and reach lower floors B2F/B3F/B4F to battle Giovanni and obtain the Silph Scope.
+### Systematic Spin Tile Audit Protocol & Log (Turn 47671)
+- Method: From Column 2 Control Highway (2, y), step Right onto (3, y) to observe spin trajectory.
+- Row y=3: Spins UP to wall y=2.
+- Row y=8: Spins DOWN to (3, 8).
+- Row y=9: Normal floor (no spin).
+- Row y=39: Normal floor (no spin).
+- Row y=40: Normal floor (no spin).
