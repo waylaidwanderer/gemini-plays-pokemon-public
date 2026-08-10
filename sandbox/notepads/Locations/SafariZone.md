@@ -58,6 +58,9 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
   - **Direct Verification (Turn 31557-31559):** Confirmed Column 19, Row 25 is blocked (Turn 31557), Column 20, Row 25 is blocked (Turn 31558), and Column 21, Row 25 is blocked (Turn 31559).
   
 
+### Verified Physical Collision Barriers
+- **Row 24 Column 17 Tree Barrier (Area 3 West):** Physically verified on Turn 32268. Attempting to walk DOWN from (17, 23) to (17, 24) results in bumping, proving Row 24 Column 17 is a solid tree trunk barrier.
+
 ### Western Ground Level & Items
 - **Western Ground Grass (Rows 20-24, Columns 2-12):** A large patch of tall grass where wild battles can occur.
 - **Max Potion:** Located on the ground at `(8, 20)`. This is a solid overworld item ball sprite. It was successfully picked up by standing at `(7, 20)` facing Right on Turn 27623.
