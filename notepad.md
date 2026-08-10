@@ -1,12 +1,12 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47053)
+## CURRENT STATUS & DASHBOARD (Turn 47054)
 - Location: Game Corner Plaza at (18, 12) facing Up.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Down 1 to (18, 13), Left 3 to (15, 13), and step Up into West Casino building door.
+- Active Objective: Walk Down 2 to Row 14 (18, 14), Left 3 to (15, 14), and Up into West Casino building door.
 - Persistent Facts:
-  - Wandering NPC at (18, 13) has cleared away.
-  - Golden entrance doorway on West building is at (15, 13).
+  - Row 13 (y=13) is the building wall line; Row 14 (y=14) is the open courtyard street.
+  - Golden entrance doorway on West building is at (15, 13), accessed from (15, 14).
 
 <hr>
 
@@ -757,13 +757,13 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47054)
-- Location: Game Corner Plaza at (18, 12) facing Up.
+## CURRENT STATUS & DASHBOARD (Turn 47055)
+- Location: Main Game Corner Casino Floor at (2, 7) facing Down.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Down 2 to Row 14 (18, 14), Left 3 to (15, 14), and Up into West Casino building door.
+- Active Objective: Walk Up 5 steps along Western aisle to North Wall at (2, 2).
 - Persistent Facts:
-  - Row 13 (y=13) is the building wall line; Row 14 (y=14) is the open courtyard street.
-  - Golden entrance doorway on West building is at (15, 13), accessed from (15, 14).
+  - Entered Main Casino Floor at (2, 7).
+  - Secret Rocket Hideout poster switch is located on the North Wall.
 
 <hr>
 
