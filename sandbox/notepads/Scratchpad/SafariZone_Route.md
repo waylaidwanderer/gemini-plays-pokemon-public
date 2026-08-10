@@ -41,3 +41,6 @@ The following paths are highly logical hypotheses but have NOT been fully traver
 - Turn 32286: Reached (3, 18) after 5 steps Up [290 steps]
 - Turn 32289: Reached (3, 14) after 4 steps Up [294 steps]
 - Turn 32292: Reached (10, 14) [301 steps]. Falsified the Row 13 corridor bypass hypothesis (plateau blocks Columns 14-15 on Rows 10-13).
+- Turn 32294: Reached (3, 14) after 7 steps Left [308 steps]
+- Turn 32295: Reached (3, 18) after 4 steps Down [312 steps]
+- Turn 32298: Reached (3, 20) after 2 steps Down [314 steps]
