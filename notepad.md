@@ -1163,6 +1163,8 @@ Systematically probe every potential building doorway and alleyway warp in South
 - Row 7 (x=0..5) is a solid row of STATUES.
 - Tile (5, 9) is an OPEN green carpet tile connecting Column 3/4 to Column 6 pavement corridor.
 - Columns 6, 7, 8, 9 (x=6..9) at Rows 8 and 9 (y=8, 9) is a continuous OPEN LIGHT GREY PAVEMENT CORRIDOR running East across the casino floor.
+- Row 5 (x=2..7, y=5): 100% open horizontal carpet cross-aisle.
+- Column 7 (x=7, y=4): Open carpet gap through Row 4 slot machine bank.
 
 <hr>
 
