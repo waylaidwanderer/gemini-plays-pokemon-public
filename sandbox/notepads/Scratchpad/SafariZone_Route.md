@@ -2,8 +2,8 @@
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 235
-- **Steps Remaining:** 265
+- **Steps Consumed:** 230
+- **Steps Remaining:** 270
 
 ## 🗺️ Step-by-Step Route Log
 - Started a new Safari Zone run on Turn 32372.
