@@ -1,140 +1,92 @@
-import socket
-import json
-import os
 import time
+import bridge
 
-def send_bridge_request(endpoint, data=None):
-    host = "127.0.0.1"
-    port = int(os.environ.get("EMULATOR_BRIDGE_PORT", 9102))
-    
-    # Construct raw HTTP payload
-    if data is not None:
-        payload = json.dumps(data)
-        request = (
-            f"POST {endpoint} HTTP/1.1\r\n"
-            f"Host: {host}:{port}\r\n"
-            f"Content-Type: application/json\r\n"
-            f"Content-Length: {len(payload)}\r\n"
-            f"Connection: close\r\n\r\n"
-            f"{payload}"
-        )
-    else:
-        request = (
-            f"GET {endpoint} HTTP/1.1\r\n"
-            f"Host: {host}:{port}\r\n"
-            f"Connection: close\r\n\r\n"
-        )
-        
-    # Open socket and transmit
-    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    s.settimeout(5)
-    s.connect((host, port))
-    s.sendall(request.encode('utf-8'))
-    
-    # Read response
-    response = b""
-    while True:
-        chunk = s.recv(4096)
-        if not chunk:
-            break
-        response += chunk
-    s.close()
-    
-    # Parse JSON body
-    parts = response.split(b"\r\n\r\n", 1)
-    if len(parts) == 2:
-        body = parts[1].decode('utf-8')
-        start = body.find('{')
-        end = body.rfind('}')
-        if start != -1 and end != -1:
-            json_str = body[start:end+1]
-            return json.loads(json_str)
-    return {"error": "Invalid HTTP response format"}
+print("Running go_to_gatehouse.py from (2, 11)...")
 
-def get_coordinates():
-    res = send_bridge_request("/api/coordinates")
-    if "error" in res:
-        print(f"Error getting coordinates: {res['error']}")
-        return None
-    return (res.get("x"), res.get("y"))
+# Current position: (2, 11) facing LEFT
+# Step 1: Walk LEFT to Column 1
+print("1. Walking LEFT to Column 1...")
+bridge.press_buttons(["Left"])
+time.sleep(0.6)
+coords = bridge.get_coordinates()
+print(f"Coords: {coords}")
 
-def press_buttons(buttons):
-    if isinstance(buttons, str):
-        buttons = [buttons]
-    return send_bridge_request("/api/press_buttons", {"buttons": buttons})
+# Step 2: Walk DOWN to Row 14
+print("2. Walking DOWN to Row 14...")
+for _ in range(3):
+    bridge.press_buttons(["Down"])
+    time.sleep(0.6)
+coords = bridge.get_coordinates()
+print(f"Coords: {coords}")
 
-# Path from current (5, 14) to Safari Zone Gatehouse door at (18, 3) in Fuchsia City
-route = [
-    (5, 14),
-    (4, 14), (3, 14), # LEFT to col 3
-    (3, 13), (3, 12), (3, 11), (3, 10), (3, 9), # UP to row 9
-    (4, 9), (5, 9), (6, 9), (7, 9), (8, 9), # RIGHT to col 8
-    (8, 8), # UP to row 8
-    (9, 8), (10, 8), (11, 8), (12, 8), (13, 8), (14, 8), (15, 8), (16, 8), # RIGHT to col 16
-    (16, 7), (16, 6), # UP to row 6
-    (17, 6), (18, 6), # RIGHT to col 18
-    (18, 5), (18, 4), # UP to row 4
-    (18, 3) # UP to enter Gatehouse door
-]
+# Step 3: Walk RIGHT to Column 26
+print("3. Walking RIGHT to Column 26...")
+for _ in range(25):
+    bridge.press_buttons(["Right"])
+    time.sleep(0.6)
+coords = bridge.get_coordinates()
+print(f"Coords: {coords}")
 
-def get_dir(curr, target):
-    cx, cy = curr
-    tx, ty = target
-    if tx > cx: return "Right"
-    if tx < cx: return "Left"
-    if ty > cy: return "Down"
-    if ty < cy: return "Up"
-    return None
+# Step 4: Walk UP Column 26 to Row 9
+print("4. Walking UP Column 26 to Row 9...")
+for _ in range(5):
+    bridge.press_buttons(["Up"])
+    time.sleep(0.6)
+coords = bridge.get_coordinates()
+print(f"Coords: {coords}")
 
-curr = get_coordinates()
-print(f"Starting Gatehouse run from {curr}")
+# Step 5: Walk LEFT to Column 19
+print("5. Walking LEFT along Row 9 to Column 19...")
+for _ in range(7):
+    bridge.press_buttons(["Left"])
+    time.sleep(0.6)
+coords = bridge.get_coordinates()
+print(f"Coords: {coords}")
 
-route_idx = 0
-for idx, coord in enumerate(route):
-    if curr == coord:
-        route_idx = idx
-        break
+# Step 6: Walk UP to Row 8
+print("6. Walking UP Column 19 to Row 8...")
+bridge.press_buttons(["Up"])
+time.sleep(0.6)
+coords = bridge.get_coordinates()
+print(f"Coords: {coords}")
 
-print(f"Matched route index: {route_idx}")
+# Step 7: Walk RIGHT to Column 37
+print("7. Walking RIGHT along Row 8/9 to Column 37...")
+for _ in range(18):
+    bridge.press_buttons(["Right"])
+    time.sleep(0.6)
+coords = bridge.get_coordinates()
+print(f"Coords: {coords}")
 
-stuck_count = 0
-max_stuck = 3
+# Step 8: Walk UP Column 37 to Row 2
+print("8. Walking UP Column 37 to Row 2...")
+for _ in range(6):
+    bridge.press_buttons(["Up"])
+    time.sleep(0.6)
+coords = bridge.get_coordinates()
+print(f"Coords: {coords}")
 
-while route_idx < len(route):
-    target = route[route_idx]
-    curr = get_coordinates()
-    
-    if curr == target:
-        print(f"Arrived at target {target} (index {route_idx})")
-        route_idx += 1
-        stuck_count = 0
-        continue
-        
-    direction = get_dir(curr, target)
-    if direction is None:
-        print(f"Error: Direction is None. Current {curr}, Target {target}. Exiting.")
-        break
-        
-    print(f"Moving {direction} from {curr} towards {target}")
-    press_buttons([direction, "sleep 350"])
-    
-    new_curr = get_coordinates()
-    if new_curr == curr:
-        stuck_count += 1
-        print(f"Stuck! Stuck count: {stuck_count}")
-        if stuck_count >= max_stuck:
-            if target == (18, 3):
-                print("Trying to press UP to enter Safari Gatehouse...")
-                press_buttons(["Up", "sleep 1000"])
-                after_up = get_coordinates()
-                if after_up != curr:
-                    print(f"Entered Gatehouse successfully! New coordinates: {after_up}")
-                    break
-                    
-            print("Trying to clear stuck state with a B press...")
-            press_buttons(["B", "sleep 300"])
-            stuck_count = 0
-    else:
-        stuck_count = 0
+# Step 9: Walk LEFT along Row 2 to Column 22
+print("9. Walking LEFT along Row 2 to Column 22...")
+for _ in range(15):
+    bridge.press_buttons(["Left"])
+    time.sleep(0.6)
+coords = bridge.get_coordinates()
+print(f"Coords: {coords}")
 
-print(f"Pathing finished. Current position: {get_coordinates()}")
+# Step 10: Walk DOWN Column 22 to Row 4
+print("10. Walking DOWN Column 22 to Row 4...")
+for _ in range(2):
+    bridge.press_buttons(["Down"])
+    time.sleep(0.6)
+coords = bridge.get_coordinates()
+print(f"Coords: {coords}")
+
+# Step 11: Walk UP to enter Gatehouse
+print("11. Entering Gatehouse...")
+bridge.press_buttons(["Up"])
+time.sleep(2.0) # Wait for transition loading
+
+coords = bridge.get_coordinates()
+print(f"Coords inside Gatehouse: {coords}")
+
