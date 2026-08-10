@@ -62,13 +62,13 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - **Vertical Hedge Wall (Column 24):** A solid vertical line of green hedge/bush tiles running from row 0 down to row 13 on column 24. This completely blocks horizontal ground-level passage in the north.
 - **Hedge Wall Gap (Rows 14-15):** The vertical hedge wall ends at row 13. There is a wide, walkable open grass gap on rows 14-15, column 24, allowing ground-level horizontal crossing.
 - **The Plateau (Rows 14-18, Columns 9-22):** A large, continuous raised plateau structure.
-  - **East Stairs (Plateau Access):** Located at `(21, 17)`. Facing Left/Right, these stairs allow the player to climb UP onto the plateau from ground level row 18, column 21.
+  - **East Stairs (Plateau Access):** Located at `(21, 17)`. These stairs face SOUTH. The player MUST approach them from the south at ground level `(21, 18)` and climb by walking UP (North) onto `(21, 17)` and then `(21, 16)` to reach the plateau. Direct horizontal access from the east at `(22, 17)` is completely blocked by the solid cliff wall.
   - **West Stairs (Plateau Descent):** Located at `(6, 19)`. Facing Down, these stairs allow the player to descend from the plateau onto the western ground level grass.
   - **Note:** The Plateau completely blocks ground-level horizontal crossing on rows 15-18.
 - **Column 18 Vertical Barrier (Rows 20-23):** A solid tree/wall structure running vertically on Column 18 across rows 20-23, blocking horizontal ground-level passage.
 - **Horizontal Cliff Wall (Rows 24-25):** Runs horizontally across the map, separating the north ground level from the south ground level:
-  - Row 24 on Columns 2-9 is solid cliff wall/trees.
-  - Row 25 on Columns 10-21 is solid cliff wall, which completely blocks Column 19 at Row 25 as proven by collision on Turn 30547.
+  - Row 24 on Columns 2-9 is solid cliff wall/trees (Column 19 is the open gap to the south).
+  - Row 25 on Columns 10-21 is solid cliff wall.
   - Row 24 on Columns 22-29 is solid cliff wall.
 
 ### Western Ground Level & Items
@@ -76,7 +76,7 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - **Max Potion:** Located on the ground at `(8, 20)`. This is a solid overworld item ball sprite. It was successfully picked up by standing at `(7, 20)` facing Right on Turn 27623.
 - **Signpost at (24, 22):** Reads "AREA 3 EAST: CENTER AREA" (Turn 27655).
 
-The Row 11/12 Map Transition: Walking LEFT at Column 0, Row 11 or 12 in Safari Zone Center transitions the player directly to Area 3 (West) at Column 29, Row 23. This is on the northern side of the southern compartment's separation barrier.
+- **The Row 13 Map Transition (VERIFIED SCIENTIFIC FACT):** Walking LEFT at Column 0, Row 13 in Safari Zone Center transitions the player directly onto the southern ground level at Column 29, Row 25 in Area 3 (West). The northern and southern ground levels of Area 3 (West) are completely separated by solid tree/cliff/Rhydon barriers across all Columns 2-29 on Row 24/25, with no walkable gaps or ledges. To reach the southern ground level and retrieve the Gold Teeth / HM03, the player must go back to Area 2 (North), transition DOWN at Column 8/9 into Safari Zone Center's West compartment, walk DOWN to Row 13, and transition LEFT into Area 3 (West) at (29, 25).
 
 ## Area 1 (East) Detailed Overworld Layout & Barriers
 
@@ -136,6 +136,3 @@ We have systematically probed the horizontal and vertical boundaries of Safari Z
 To reach Area 3 (West), the player **MUST** use the intended speedrun route across three maps:
 **Safari Zone Center -> Area 1 (East) -> Area 2 (North) -> Area 3 (West)**.
 Any attempt to find a ground-level shortcut within Safari Zone Center is mathematically blocked by map collision.
-## 🧪 Verified Overworld Discoveries in Area 3 (West) (Turn 30800)
-- **Gold Teeth Location Hypothesis:** The Gold Teeth are hypothesized to be located on the southern ground level around Column 19, Row 17 (unverified, to be tested on the next run).
-- **Column 0, Row 13 Safari Zone Center Transition:** Verified to warp directly onto the southern ground level at Column 29, Row 25 in Area 3 (West). Column 0, Row 11-12 is blocked by solid trees and cannot be used.
