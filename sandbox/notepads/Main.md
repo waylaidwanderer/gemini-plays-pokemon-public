@@ -1,7 +1,7 @@
-## CURRENT STATUS & DASHBOARD (Turn 47701)
-- Location: Rocket Hideout B1F at (3, 34) testing spin tiles.
+## CURRENT STATUS & DASHBOARD (Turn 47705)
+- Location: Rocket Hideout B1F at (3, 38) exiting via stairs at (2, 41).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Test spin tiles (3, y) along Column 2 Control Highway to locate East spin trajectory into main halls.
+- Active Objective: Re-ascend stairs at (2, 41) to return to Celadon Game Corner / Celadon City and locate Main Casino floor.
 - Persistent Facts:
   - Game Corner Plaza is the outdoor Prize Exchange sub-map.
   - Column 12/13 in Celadon City is the open pavement street running North to Row 13.
