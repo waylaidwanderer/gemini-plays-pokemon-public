@@ -2,8 +2,8 @@
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 228
-- **Steps Remaining:** 272
+- **Steps Consumed:** 233
+- **Steps Remaining:** 267
 
 ## 🗺️ Step-by-Step Route Log
 - Started inside Safari Zone Center at (18, 25).
@@ -19,4 +19,5 @@
 - Walked south to Row 18, and west to the East Stairs at (21, 18).
 - Climbed the East Stairs to (21, 16).
 - Walked west along the plateau to (6, 16).
-- Currently descending the West Stairs of the plateau to (6, 20).
+- Descended the West Stairs of the plateau to (6, 20).
+- Currently walking north toward the Secret House.
