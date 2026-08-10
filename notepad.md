@@ -1129,8 +1129,8 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 201
-- **Steps Remaining:** 299
+- **Steps Consumed:** 207
+- **Steps Remaining:** 293
 
 ## 🗺️ Step-by-Step Route Log
 - Started inside Safari Zone Center at (18, 25).
@@ -1153,8 +1153,8 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 195
-- **Steps Remaining:** 305
+- **Steps Consumed:** 201
+- **Steps Remaining:** 299
 
 ## 🗺️ Step-by-Step Route Log
 - Started inside Safari Zone Center at (18, 25).
@@ -1167,7 +1167,7 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 - Walked south to (16, 32).
 - Walked west along the southern corridor to (12, 33).
 - Transitioned to Area 3 (West) at Area 2 (8, 36) -> Area 3 (26, 0).
-- Currently in Area 3 (West) walking down Column 25.
+- Currently in Area 3 (West) navigating toward the East Stairs of the plateau.
 
 <hr>
 
