@@ -1267,6 +1267,8 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 
 ### Verified Physical Collision Barriers
 - **Row 24 Column 17 Tree Barrier (Area 3 West):** Physically verified on Turn 32268. Attempting to walk DOWN from (17, 23) to (17, 24) results in bumping, proving Row 24 Column 17 is a solid tree trunk barrier.
+- **Row 25 Columns 18-21 Barrier (Area 3 West):** Physically verified on this run. Row 25 at Columns 18, 19, 20, 21 is completely blocked going DOWN (Turn 32316 for Column 19, Turn 32324 for Column 18, Turn 32330 for Column 21, Turn 32331 for Column 20).
+- **Column 18 Vertical Barrier (Rows 20-23):** Completely blocks horizontal ground-level passage (Turn 32339).
 
 ### Western Ground Level & Items
 - **Western Ground Grass (Rows 20-24, Columns 2-12):** A large patch of tall grass where wild battles can occur.
