@@ -757,13 +757,13 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47164)
-- Location: Celadon City at (18, 29) facing Right.
+## CURRENT STATUS & DASHBOARD (Turn 47166)
+- Location: Celadon Game Corner (Main Casino Floor) at (3, 7).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Left 1 to Column 17 (17, 29) and Up along Column 17 to Row 12 Northern Highway (17, 12).
+- Active Objective: Walk Up along Column 3 aisle towards North Wall to locate Rocket Grunt guarding poster switch.
 - Persistent Facts:
-  - Tree wall at x=20..23 blocks Central/South East-West passage.
-  - Master route to East Celadon / Casino Doorway (28, 35) goes via Row 12 Northern Highway to Column 36.
+  - Celadon City doorway at (17, 13) enters the True Main Game Corner Casino Floor.
+  - Defeating the Rocket Grunt on North Wall and pressing the poster switch reveals stairs to Rocket Hideout.
 
 <hr>
 
