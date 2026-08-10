@@ -41,6 +41,7 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 ## Area 3 (West) Layout & Discoveries
 
 ### Map Transitions & Connections
+- **East-West Double-Warp Transition:** Transition from Area 3 (West) at `(28, 10)` leads directly to Area 1 (East) at `(0, 22)` (Turn 31724).
 - **Entered from Area 2 (North):** Transition from Area 2 (North) at `(4, 35)` leads directly into Area 3 (West) at `(26, 0)` (Turn 27591).
 - **East Edge Map Transition:** The far-right edge of Area 3 (West) at column 30, row 23 connects directly to Safari Zone Center at `(0, 11)` (Turn 27658).
 
