@@ -1,12 +1,12 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47071)
+## CURRENT STATUS & DASHBOARD (Turn 47072)
 - Location: True Main Game Corner Casino Floor at (1, 1) facing Up.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Clear text box, walk to (3, 2) facing Up, and talk to character at (3, 1).
+- Active Objective: Close text box with B, walk to (3, 2), and talk to character at (3, 1).
 - Persistent Facts:
-  - Poster at (1, 0) is a standard rule sign ("Let's all listen politely...").
   - Character sprite (blue hat / black shirt) stands at (3, 1) on North Wall.
+  - Floor tiles at (1, 2), (2, 2), (3, 2) are clear.
 
 <hr>
 
@@ -757,13 +757,13 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47072)
+## CURRENT STATUS & DASHBOARD (Turn 47073)
 - Location: True Main Game Corner Casino Floor at (1, 1) facing Up.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Close text box with B, walk to (3, 2), and talk to character at (3, 1).
+- Active Objective: Press B to close dialogue box cleanly and verify overworld position.
 - Persistent Facts:
-  - Character sprite (blue hat / black shirt) stands at (3, 1) on North Wall.
-  - Floor tiles at (1, 2), (2, 2), (3, 2) are clear.
+  - Dialogue box active with poster text.
+  - Minimal test protocol: close text box with B before taking movement actions.
 
 <hr>
 
