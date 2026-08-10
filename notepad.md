@@ -1,12 +1,12 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47046)
-- Location: Celadon City at (19, 20) facing Right.
+## CURRENT STATUS & DASHBOARD (Turn 47047)
+- Location: Celadon City at (17, 26) facing Down.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Step Left 2 to Column 17 (17, 20) and walk Down 6 steps along Column 17 Avenue to (17, 26).
+- Active Objective: Walk Down 3 steps along Column 17 Avenue to Row 29 street at (17, 29).
 - Persistent Facts:
-  - Column 20 (x=20) is a solid tree wall from y=16 to y=24+.
-  - Column 16 and Column 17 (x=16..17) form open North-South paved street running South from Row 20.
+  - Rows 28-29 (y=28..29) form open East-West paved cross-street.
+  - Column 17 Avenue continues South to Row 29 at (17, 29).
 
 <hr>
 
@@ -757,13 +757,13 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47047)
-- Location: Celadon City at (17, 26) facing Down.
+## CURRENT STATUS & DASHBOARD (Turn 47048)
+- Location: Celadon City at (17, 29) facing Down.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Down 3 steps along Column 17 Avenue to Row 29 street at (17, 29).
+- Active Objective: Walk Left 7 steps along Row 29 street to (10, 29).
 - Persistent Facts:
-  - Rows 28-29 (y=28..29) form open East-West paved cross-street.
-  - Column 17 Avenue continues South to Row 29 at (17, 29).
+  - Building facade sits at y=32 across x=13..19.
+  - Row 28/29 paved cross-street runs West across x=17..10.
 
 <hr>
 
