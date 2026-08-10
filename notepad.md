@@ -1,12 +1,12 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47067)
-- Location: True Main Game Corner Casino Floor at (2, 7) facing Up.
+## CURRENT STATUS & DASHBOARD (Turn 47068)
+- Location: True Main Game Corner Casino Floor at (0, 2) facing Up.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Left 2 to Column 0 (0, 7) and Up 5 steps to North Wall at (0, 2).
+- Active Objective: Walk Right 1 to (1, 2), Up 1 to (1, 1), and press A on North Wall poster (1, 0).
 - Persistent Facts:
-  - Entered True Main Game Corner Casino Floor at (2, 7).
-  - Column 0 (x=0) is an open North-South Western aisle running from y=7 up to North Wall at y=2.
+  - Picture frame / poster is located at (1, 0) on the North Wall.
+  - Clear floor tile sits directly in front of poster at (1, 1).
 
 <hr>
 
@@ -757,13 +757,13 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47068)
-- Location: True Main Game Corner Casino Floor at (0, 2) facing Up.
+## CURRENT STATUS & DASHBOARD (Turn 47069)
+- Location: True Main Game Corner Casino Floor at (1, 1) facing Up.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Right 1 to (1, 2), Up 1 to (1, 1), and press A on North Wall poster (1, 0).
+- Active Objective: Clear text box, walk to (3, 2) facing Up, and talk to character at (3, 1).
 - Persistent Facts:
-  - Picture frame / poster is located at (1, 0) on the North Wall.
-  - Clear floor tile sits directly in front of poster at (1, 1).
+  - Poster at (1, 0) is a standard rule sign ("Let's all listen politely...").
+  - Character sprite (blue hat / black shirt) stands at (3, 1) on North Wall.
 
 <hr>
 
