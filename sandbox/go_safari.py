@@ -20,14 +20,15 @@ def get_dir(curr, target):
 
 def run_away():
     print("Wild battle/interaction detected! Executing RUN sequence...")
-    # First press B to dismiss any dialogue or message box
-    bridge.press_buttons(["B"])
-    time.sleep(0.3)
-    bridge.press_buttons(["B"])
-    time.sleep(0.3)
+    # First press B multiple times to clear the wild battle dialogue
+    for i in range(5):
+        print(f"Dismissing battle intro text ({i+1}/5)...")
+        bridge.press_buttons(["B"])
+        time.sleep(0.4)
     # Perform RUN sequence: Right, Down, A
+    print("Pressing RUN options...")
     bridge.press_buttons(["Right", "sleep 200", "Down", "sleep 200", "A"])
-    time.sleep(1.5)
+    time.sleep(2.0)
     print("RUN sequence finished.")
 
 def run_safari_loop(max_steps=40):
@@ -78,13 +79,12 @@ def run_safari_loop(max_steps=40):
             
         print(f"Moving {direction} towards {target}...")
         bridge.press_buttons([direction])
-        time.sleep(0.35)
+        time.sleep(0.6) # Wait 600ms to ensure coordinates fully update in emulator
         steps_taken += 1
         
         # Verify if we successfully moved
         new_curr = bridge.get_coordinates()
         if new_curr == curr:
-            # We didn't move. But wait, if it was a transition, coordinates changed, but if they didn't:
             stuck_count += 1
             print(f"Stuck! Didn't move. Current {curr}. Stuck count: {stuck_count}")
             
