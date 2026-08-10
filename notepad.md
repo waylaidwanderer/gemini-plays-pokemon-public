@@ -1289,6 +1289,7 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - **The Column 11 Tree Wall:** A solid vertical line of pine trees on Column 11 across Rows 0-7, completely blocking direct ground-level horizontal crossing on those rows.
 - **The Southern Ground Corridor:** Rows 10-22 are open ground, allowing players to walk Left to Column 0 around the central water pond.
 - **Western Edge Transition to Area 3 (West):** Located on Column 0, Row 11 (`(0, 11)`), transitioning directly to Area 3 (West) at `(30, 23)`. This ground-level path completely bypasses Area 2 (North).
+  - **Direct Verification (Turn 31646-31647):** Confirmed Column 0, Row 21 is blocked by solid boundary trees (Turn 31646), and Column 0, Row 18 is blocked by solid boundary trees/bushes (Turn 31647). There is no ground-level transition south of Row 14.
 
 ## Gold-Standard Speedrun Route from Area 1 (East) to Area 3 (West)
 1. **Northeast Channel:** From Area 1 (East) ground level, walk UP Column 20 (which is completely open and walkable, including the tree graphic at `(20, 4)`) to Row 5 (`(20, 5)`).
