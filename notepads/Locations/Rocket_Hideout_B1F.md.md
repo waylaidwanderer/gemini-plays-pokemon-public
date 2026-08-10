@@ -36,3 +36,4 @@
 - Row y=11: Spins DOWN to (3, 11).
 - Row y=12: Spins DOWN to (3, 12).
 - Row y=13: Spins DOWN to (3, 13).
+- Row y=14: Spins DOWN to (3, 14).
