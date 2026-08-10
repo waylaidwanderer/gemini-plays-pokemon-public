@@ -1138,6 +1138,7 @@ Empirically map every aisle on Columns 5, 6, and 7 across Rows 1..6 to verify if
 - Row y=40: Normal floor (no spin).
 - Row y=7: Spins DOWN to (3, 7).
 - Row y=6: Spins DOWN to (3, 6).
+- Row y=5: Spins DOWN to (3, 5).
 
 <hr>
 
@@ -1174,5 +1175,6 @@ Empirically map every aisle on Columns 5, 6, and 7 across Rows 1..6 to verify if
 - Row y=39: Normal floor (no spin).
 - Row y=40: Normal floor (no spin).
 - Row y=7: Spins DOWN to (3, 7).
+- Row y=6: Spins DOWN to (3, 6).
 
 <hr>
