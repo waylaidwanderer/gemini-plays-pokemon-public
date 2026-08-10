@@ -1,12 +1,12 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47090)
-- Location: South-West Sub-Map (Plaza/Gym) at (18, 0) facing Up on exit carpet.
+## CURRENT STATUS & DASHBOARD (Turn 47091)
+- Location: Celadon City at (8, 35) facing Up.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Step Up to warp to outdoor Celadon City (8, 35), then walk Right 20 steps along Row 35 to (28, 35).
+- Active Objective: Walk Right 20 steps along Row 35 to (28, 35) and step Up into Main Casino door.
 - Persistent Facts:
-  - Northern exit carpet at (18, 0) warps back to outdoor Celadon City at (8, 35).
-  - True Main Game Corner Casino building is located at Central-South Celadon City (28, 35).
+  - Landed in outdoor Celadon City at (8, 35) facing Up.
+  - Row 35 street is clear open pavement running East to Main Game Corner Casino door at (28, 35).
 
 <hr>
 
@@ -757,13 +757,13 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47091)
-- Location: Celadon City at (8, 35) facing Up.
+## CURRENT STATUS & DASHBOARD (Turn 47092)
+- Location: Celadon City at (9, 34) facing Up.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Right 20 steps along Row 35 to (28, 35) and step Up into Main Casino door.
+- Active Objective: Walk Up 10 to (9, 24), Right 1 to (10, 24), and Up 10 to (10, 14).
 - Persistent Facts:
-  - Landed in outdoor Celadon City at (8, 35) facing Up.
-  - Row 35 street is clear open pavement running East to Main Game Corner Casino door at (28, 35).
+  - Tile (10, 35) is building wall; Row 35 East is blocked at x=10.
+  - Following Master Unblocked Route via Column 9/10 North to Row 12 Highway, then East to Column 36.
 
 <hr>
 
