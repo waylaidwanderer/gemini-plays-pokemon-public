@@ -1044,12 +1044,12 @@ Systematically probe every potential building doorway and alleyway warp in South
 
 <h1><code>Locations/Celadon_Game_Corner</code></h1>
 
-# Celadon Game Corner & Prize Exchange Topology
+## Game Corner & Prize Exchange Topology
 
-## Building Access & Locations
-- Game Corner West Room: Door at East Celadon City (13, 25) enters small 8x8 West Room (x=0..7, y=0..7) with exit carpet at (2,7)/(3,7).
-- Game Corner Plaza Entrance: Tile (20, 36) in Celadon City warps directly into Game Corner Plaza at (10, 0).
-- True Main Casino Floor: Entrance located in Game Corner Plaza at (10, 2) / (17, 27).
+### Building Access & Locations
+- Game Corner Plaza Entrance: Tile (8, 36) / (20, 36) in Celadon City warps directly into Game Corner Plaza at (18, 0).
+- True Main Casino Floor: Entrance doorway located at (10, 2) on the NORTH building of Game Corner Plaza.
+- Prize Exchange Sub-Rooms: Entrance doorways located at (9, 13), (15, 13), and (23, 13) on the SOUTH buildings of Game Corner Plaza.
 
 ## Casino Floor & Secret Hideout Switch
 - Main Casino Floor Layout: North Wall poster switch guarded by Rocket Grunt. Defeating Grunt and pressing A on poster reveals secret staircase to Rocket Hideout B1F.
