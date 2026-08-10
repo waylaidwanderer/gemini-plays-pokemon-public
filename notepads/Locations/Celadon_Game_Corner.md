@@ -23,3 +23,4 @@
 - Column 7 (x=7, y=4): Open carpet gap through Row 4 slot machine bank.
 - Tile (4, 2): Gambler NPC who gives TM11 BUBBLEBEAM dialogue.
 - Rocket Grunt & Poster Switch: Located on North Wall in East Casino Floor at (17, 1) / (18, 1).
+- Tile (4, 4): Solid slot machine / stool obstacle.
