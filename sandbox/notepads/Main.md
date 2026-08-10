@@ -1,7 +1,7 @@
-## CURRENT STATUS & DASHBOARD (Turn 47483)
-- Location: Rocket Hideout B1F at (3, 5) facing Down.
+## CURRENT STATUS & DASHBOARD (Turn 47486)
+- Location: Rocket Hideout B1F at (3, 7) facing Down (on Row 7 red spin tile).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Down 2 steps to (3, 7) spin tile to enter Eastern Main Room of Rocket Hideout B1F.
+- Active Objective: Propel Right via Row 7 red spin tile into Eastern Main Room of Rocket Hideout B1F.
 - Persistent Facts:
-  - Row 6 (y=6) has open floor at (3, 6) and (4, 6).
-  - Row 7 (y=7) has red spin tiles at (3, 7) and (4, 7) propelling RIGHT into the eastern main hideout section.
+  - Row 7 red spin tile at (3, 7) propels Right across x=4..7 into Eastern Main Room of Rocket Hideout B1F.
+  - Column 2 (x=2) in B1F is the vertical control highway of stop tiles spanning y=3..41.
