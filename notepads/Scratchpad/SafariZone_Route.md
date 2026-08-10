@@ -20,7 +20,3 @@
 - Climbed the East Stairs to (21, 16).
 - Walked west along the plateau to (6, 16).
 - Descended the West Stairs of the plateau to (6, 20).
-- Systematically tested Row 25: Column 12 is blocked (Turn 31664), Column 11 is blocked (Turn 31667), Column 10 is blocked (Turn 31668), Column 9 is blocked, Column 8 is blocked (Turn 31669), Column 7 Row 24 is blocked (Turn 31670), Column 6 is blocked, Column 5 is blocked, Column 4 is blocked, Column 3 is blocked (Turn 31673), Column 2 Row 24 is blocked (Turn 31674).
-- Systematically tested Row 25 on eastern columns: Column 23, 24, 25, 26 are blocked by fences.
-- Row 25 is 100% solid across the map.
-- Currently running away from wild VENONAT at (23, 22). Plan to walk to the East Stairs at (21, 18) to climb the plateau and walk back west.
