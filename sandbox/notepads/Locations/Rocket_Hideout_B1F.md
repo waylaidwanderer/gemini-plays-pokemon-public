@@ -29,3 +29,4 @@
 - Row y=39: Normal floor (no spin).
 - Row y=40: Normal floor (no spin).
 - Row y=7: Spins DOWN to (3, 7).
+- Row y=6: Spins DOWN to (3, 6).
