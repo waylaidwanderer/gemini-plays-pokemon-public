@@ -2,8 +2,8 @@
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 166
-- **Steps Remaining:** 334
+- **Steps Consumed:** 302
+- **Steps Remaining:** 198
 
 ## 🗺️ Step-by-Step Route Log
 ### Phase 1: Safari Zone Center to Area 1 (East) (30 steps) [PLAN]
