@@ -1154,8 +1154,8 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 230
-- **Steps Remaining:** 270
+- **Steps Consumed:** 232
+- **Steps Remaining:** 268
 
 ## 🗺️ Step-by-Step Route Log
 - Started a new Safari Zone run on Turn 32372.
@@ -1265,6 +1265,11 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
   
 
 ### Verified Physical Collision Barriers
+- **Row 25 Column 14 Barrier (Area 3 West):** Physically verified on Turn 32438. Attempting to walk DOWN from (14, 24) to (14, 25) results in bumping, proving Row 25 Column 14 is blocked.
+- **Row 25 Column 15 Barrier (Area 3 West):** Physically verified on Turn 32436. Attempting to walk DOWN from (15, 24) to (15, 25) results in bumping, proving Row 25 Column 15 is blocked.
+- **Row 7 Column 13 Plateau Wall (Area 1 East):** Physically verified on Turn 32393. Attempting to walk RIGHT from (12, 7) to (13, 7) on the stairs results in bumping, proving the plateau side-walls are solid.
+- **Row 17 Column 29 Boundary (Safari Zone Center):** Physically verified on Turn 32381. Attempting to walk RIGHT from (28, 17) to (29, 17) results in bumping, proving Column 29 Row 17 is blocked.
+- **Row 24 Column 3 Tree Barrier (Area 3 West):** Physically verified on Turn 32352. Attempting to walk DOWN from (3, 23) to (3, 24) results in bumping, proving Row 24 Column 3 is a solid tree trunk barrier.
 - **Row 25 Column 15 Barrier (Area 3 West):** Physically verified on Turn 32436. Attempting to walk DOWN from (15, 24) to (15, 25) results in bumping, proving Row 25 Column 15 is blocked.
 - **Row 7 Column 13 Plateau Wall (Area 1 East):** Physically verified on Turn 32393. Attempting to walk RIGHT from (12, 7) to (13, 7) on the stairs results in bumping, proving the plateau side-walls are solid.
 - **Row 17 Column 29 Boundary (Safari Zone Center):** Physically verified on Turn 32381. Attempting to walk RIGHT from (28, 17) to (29, 17) results in bumping, proving Column 29 Row 17 is blocked.
