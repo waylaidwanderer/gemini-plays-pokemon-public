@@ -50,3 +50,8 @@
 - Tile (7, 11) is the OPEN BEIGE DIRT SLOPE GAP in the Row 11 dirt/fence border.
 - Tiles (5, 11) and (9, 11) are solid dirt/fence borders (empirically confirmed by bump tests on turns 48694 and 48696).
 - Ascending through (7, 11) unlocks Row 8 / Row 9 Northern Highway (y=8, 9) running East across x=7..36 above all building roofs.
+## Building Doorway & Highway Verification (Turn 48941)
+- Column 17 (x=17, y=13..28) is a 100% open paved highway connecting Row 28 to building door at (17, 13).
+- Celadon Game Corner Main Doorway: Located at Celadon City (17, 13) [approached via x=17, y=20..14 -> y=13].
+- Stepping into door (17, 13) enters Celadon Game Corner floor at (3, 7).
+- Empirical Boundary Testing Protocol: Perform single-step validation before issuing long macros to verify tile properties.
