@@ -757,13 +757,13 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47028)
-- Location: Celadon Department Store 1F at (3, 7) facing Up.
+## CURRENT STATUS & DASHBOARD (Turn 47031)
+- Location: Celadon City at (17, 14) facing Down (outside Dept Store).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Step Down 1 to exit Dept Store to Celadon City (17, 14), walk Left 1 to Column 16 (16, 14), Up 2 to Row 12 Highway (16, 12), and East 20 to Column 36 (36, 12).
+- Active Objective: Walk Left 3 to Column 14 (14, 14), Up 12 along Column 14 to Row 2 Northern Highway (14, 2), East 22 along Row 2 to Column 36 (36, 2), and South 28 down Column 36 through tree gap (36, 28) to Game Corner Plaza.
 - Persistent Facts:
-  - Accidentally stepped into Dept Store front door at (17, 13) while walking Up Column 17.
-  - Stepping Down from (3, 7) exits back outside to Celadon City.
+  - Row 2 (y=2) is the Northern Highway above the Dept Store roof (y=10..11).
+  - Column 14 (x=14) is open vertical avenue on West side of Dept Store connecting Row 14 up to Row 2 Northern Highway.
 
 <hr>
 
