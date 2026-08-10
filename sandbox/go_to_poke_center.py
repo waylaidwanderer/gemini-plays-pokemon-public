@@ -1,29 +1,27 @@
 import time
 import bridge
 
-print("Running go_to_poke_center_v6.py from (9, 32)...")
+print("Running go_to_poke_center_v7.py from (8, 30)...")
 
-# Step 1: Walk UP 2 steps to row 30
-print("Walking UP 2 steps to row 30...")
+# Step 1: Walk UP 2 steps to row 28
+print("Walking UP 2 steps to row 28...")
 for _ in range(2):
     bridge.press_buttons(["Up"])
     time.sleep(0.6)
 coords = bridge.get_coordinates()
-print(f"Coords at row 30: {coords}")
+print(f"Coords: {coords}")
 
-# Step 2: Walk RIGHT 10 steps to column 19
-print("Walking RIGHT 10 steps to column 19...")
-for _ in range(10):
+# Step 2: Walk RIGHT 11 steps to column 19
+print("Walking RIGHT 11 steps to column 19...")
+for _ in range(11):
     bridge.press_buttons(["Right"])
     time.sleep(0.6)
 coords = bridge.get_coordinates()
-print(f"Coords at (19, 30): {coords}")
+print(f"Coords at (19, 28): {coords}")
 
-# Step 3: Enter Pokémon Center (UP 3 steps to 19, 27)
+# Step 3: Enter Pokémon Center (UP 1 step)
 print("Entering Pokémon Center...")
-for _ in range(3):
-    bridge.press_buttons(["Up"])
-    time.sleep(0.6)
+bridge.press_buttons(["Up"])
 time.sleep(2.0) # Wait for transition loading
 coords = bridge.get_coordinates()
 print(f"Coords inside Pokémon Center: {coords}")
