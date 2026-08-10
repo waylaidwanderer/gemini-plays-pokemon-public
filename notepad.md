@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47717)
-- Location: Game Corner Plaza at (16, 32) exiting South to outdoor Celadon City.
+## CURRENT STATUS & DASHBOARD (Turn 47719)
+- Location: Game Corner Plaza at (18, 28) navigating North via Column 16 to clear buildings.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Step Down to exit Game Corner Plaza into outdoor Celadon City, then walk East to Main Casino entrance at (28, 35).
+- Active Objective: Walk Left to Column 16 (16, 28), North to Row 0/1, East to Column 20, and South to exit warp (20, 36) into outdoor Celadon City.
 - Persistent Facts:
   - Game Corner Plaza is the outdoor Prize Exchange sub-map.
   - Column 12/13 in Celadon City is the open pavement street running North to Row 13.
@@ -759,10 +759,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47719)
-- Location: Game Corner Plaza at (18, 28) navigating North via Column 16 to clear buildings.
+## CURRENT STATUS & DASHBOARD (Turn 47720)
+- Location: Game Corner Plaza at (16, 28) navigating West & North to clear casino roof.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Left to Column 16 (16, 28), North to Row 0/1, East to Column 20, and South to exit warp (20, 36) into outdoor Celadon City.
+- Active Objective: Walk Left to Column 13 (13, 28), North to Row 0/1, East to Column 20, and South to exit warp (20, 36) into outdoor Celadon City.
 - Persistent Facts:
   - Game Corner Plaza is the outdoor Prize Exchange sub-map.
   - Column 12/13 in Celadon City is the open pavement street running North to Row 13.
