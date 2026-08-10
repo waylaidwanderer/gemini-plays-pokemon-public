@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 49609)
-- Location: Celadon Game Corner at (7, 5).
+## CURRENT STATUS & DASHBOARD (Turn 49610)
+- Location: Celadon Game Corner at (5, 9).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Navigate via Column 5 aisle (5, 9) to Row 9 Pavement Corridor, then East to Column 17 (17, 9).
+- Active Objective: Navigate via Row 12 Pavement Corridor (5, 12) East to Column 17 (17, 12), then Up to North Wall (17, 2).
 - Persistent Facts:
   - Celadon Game Corner Main Casino Floor is entered via Game Corner Plaza or outdoor door.
   - North Wall poster switch guarded by Rocket Grunt in Main Casino Floor reveals secret staircase to true Main Rocket Hideout B1F-B4F.
@@ -751,10 +751,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 49610)
-- Location: Celadon Game Corner at (5, 9).
+## CURRENT STATUS & DASHBOARD (Turn 49611)
+- Location: Celadon Game Corner at (9, 12).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Navigate via Row 12 Pavement Corridor (5, 12) East to Column 17 (17, 12), then Up to North Wall (17, 2).
+- Active Objective: Test South step along Column 9 to (9, 13) to locate open passage across Column 10 wall to East Casino Floor.
 - Persistent Facts:
   - Celadon Game Corner Main Casino Floor is entered via Game Corner Plaza or outdoor door.
   - North Wall poster switch guarded by Rocket Grunt in Main Casino Floor reveals secret staircase to true Main Rocket Hideout B1F-B4F.
@@ -1140,6 +1140,7 @@ Systematically probe every potential building doorway and alleyway warp in South
 - Tile (4, 2): Gambler NPC who gives TM11 BUBBLEBEAM dialogue.
 - Rocket Grunt & Poster Switch: Located on North Wall in East Casino Floor at (17, 1) / (18, 1).
 - Tile (4, 4): Solid slot machine / stool obstacle.
+- Column 10 (x=10, y=8..12): Solid dark grey wall divider separating West and Central Casino floor.
 
 <hr>
 
