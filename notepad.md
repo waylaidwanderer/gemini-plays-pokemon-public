@@ -1,13 +1,12 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47172)
-- Location: Celadon City at (17, 14) facing Down.
+## CURRENT STATUS & DASHBOARD (Turn 47173)
+- Location: Celadon City at (15, 12) facing Up.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Left 2 to Column 15 (15, 14) and Up 2 to Row 12 Northern Highway (15, 12).
+- Active Objective: Walk Right 21 steps along Row 12 Northern Highway to Column 36 (36, 12).
 - Persistent Facts:
-  - Outdoor tile (17, 14) is in front of doorway (17, 13).
-  - Column 15 (x=15) is open pavement running North to Row 12 Northern Highway.
-  - Master route to East Celadon / Casino Doorway (28, 35) goes via Row 12 Northern Highway to Column 36.
+  - Row 12 (y=12) is Northern Highway running East across Celadon City to Column 36.
+  - Column 36 (x=36) is the East Highway connecting Northern Highway (Row 12) to South Street (Row 30) and Casino Doorway (28, 35).
 
 <hr>
 
@@ -758,13 +757,13 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47173)
-- Location: Celadon City at (15, 12) facing Up.
+## CURRENT STATUS & DASHBOARD (Turn 47174)
+- Location: Celadon City at (15, 12) facing Right.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Right 21 steps along Row 12 Northern Highway to Column 36 (36, 12).
+- Active Objective: Walk Up 3 to Row 9 lawn (15, 9) above Department Store roof, then Right along Row 9.
 - Persistent Facts:
-  - Row 12 (y=12) is Northern Highway running East across Celadon City to Column 36.
-  - Column 36 (x=36) is the East Highway connecting Northern Highway (Row 12) to South Street (Row 30) and Casino Doorway (28, 35).
+  - Row 12 (y=12) at x=16..19 is Department Store front wall.
+  - Row 8 & Row 9 (y=8, y=9) across x=11..19 is open green lawn above Department Store roof.
 
 <hr>
 
