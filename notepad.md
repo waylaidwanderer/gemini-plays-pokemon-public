@@ -1,13 +1,13 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 48991)
-- Location: Outdoor Celadon City at (1, 26).
+## CURRENT STATUS & DASHBOARD (Turn 49021)
+- Location: Rocket Hideout B1F at (5, 11).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Exit West Celadon to Route 7, pass through Saffron City to East Celadon (x=48).
+- Active Objective: Navigate B1F spin tile maze to locate staircase to B2F.
 - Persistent Facts:
-  - Celadon City is split into West Celadon (x=0..19) and East Celadon (x=20..49) by Column 20 tree wall.
-  - Saffron West/East Gatehouses are unlocked (Fresh Water given turn 41188).
-  - Main Game Corner Casino at (30, 34) is accessed via East Celadon City (x=48).
+  - Rocket Hideout B1F is accessed from Celadon Game Corner via secret stairs at (4, 4).
+  - Column 2 in B1F (x=2, y=3..40) is a vertical column of stop tiles ("Control Highway").
+  - B1F spin tile maze must be navigated to reach lower floors (B2F/B3F/B4F).
 
 <hr>
 
@@ -1207,6 +1207,10 @@ Empirically map every aisle on Columns 5, 6, and 7 across Rows 1..6 to verify if
 - Row y=37: Spins DOWN to (3, 37).
 - Row y=38: Spins DOWN to (3, 38).
 - AUDIT COMPLETE (Turn 47705): 100% of all 39 rows in West Spin Loop (Cols 2..5, Rows 3..41) audited. All spin tiles spin UP (Row 3) or DOWN (Rows 4..8, 10..38). No East spin tiles exist in this enclosure. Exiting via stairs at (2, 41).
+## Master Topological Synthesis & Main Casino Strategy (Turn 49022)
+- Enclosed West Loop: Cols 2..5 (y=3..41) is a closed 4-column corridor bounded by x=1 (left) and x=6 (right). Stairs (5, 4) and (2, 41) both connect to the Nidoran Trade Sub-room at Celadon City (17, 27).
+- True Main Rocket Hideout Access: Located inside the Main Game Corner Casino at Central-South Celadon City (30, 34) / (30, 35).
+- Access to East Celadon (30, 34): Pass through Saffron West Gatehouse at (7, 2), cross Saffron City via Row 7 gap (17, 7), exit Saffron East Gatehouse onto Route 7 / Route 8, and enter East Celadon at (48, 11) -> (30, 34).
 
 <hr>
 
