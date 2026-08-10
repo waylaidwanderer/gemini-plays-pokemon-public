@@ -62,7 +62,7 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - **Vertical Hedge Wall (Column 24):** A solid vertical line of green hedge/bush tiles running from row 0 down to row 13 on column 24. This completely blocks horizontal ground-level passage in the north.
 - **Hedge Wall Gap (Rows 14-15):** The vertical hedge wall ends at row 13. There is a wide, walkable open grass gap on rows 14-15, column 24, allowing ground-level horizontal crossing.
 - **The Plateau (Rows 14-18, Columns 9-22):** A large, continuous raised plateau structure.
-  - **East Stairs (Plateau Access):** Located at `(21, 17)`. Facing Left/Right, these stairs allow the player to climb UP onto the plateau from ground level row 18, column 21.
+  - **East Stairs (Plateau Access):** Located at `(21, 17)`. These stairs face SOUTH. The player MUST approach them from the south at ground level `(21, 18)` and climb by walking UP (North) onto `(21, 17)` and then `(21, 16)` to reach the plateau. Direct horizontal access from the east at `(22, 17)` is completely blocked by the solid cliff wall.
   - **West Stairs (Plateau Descent):** Located at `(6, 19)`. Facing Down, these stairs allow the player to descend from the plateau onto the western ground level grass.
   - **Note:** The Plateau completely blocks ground-level horizontal crossing on rows 15-18.
 - **Column 18 Vertical Barrier (Rows 20-23):** A solid tree/wall structure running vertically on Column 18 across rows 20-23, blocking horizontal ground-level passage.
