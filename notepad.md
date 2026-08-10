@@ -1,12 +1,13 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47087)
-- Location: Game Corner Sub-Room at (5, 5) facing Up.
+## CURRENT STATUS & DASHBOARD (Turn 47088)
+- Location: South-West Sub-Map (Plaza/Gym) at (9, 14) facing Down.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Down 2 to (5, 7), Left 2 to exit mat (3, 7), and Down 1 to warp out to Plaza.
+- Active Objective: Walk Right 9 steps to (18, 14), then Up 14 to northern exit carpet at (18, 0).
 - Persistent Facts:
-  - Red striped exit mat in 8x8 sub-room is at (2, 7) / (3, 7).
-  - Tile (4, 7) is regular floor tile.
+  - South-West sub-map contains Celadon Gym at y=18 and Prize Exchange sub-rooms at y=13.
+  - Northern exit carpet at (18, 0) warps back to outdoor Celadon City at (8, 35).
+  - True Main Game Corner Casino building is in Central-South Celadon City at (28, 35).
 
 <hr>
 
@@ -757,14 +758,13 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47088)
-- Location: South-West Sub-Map (Plaza/Gym) at (9, 14) facing Down.
+## CURRENT STATUS & DASHBOARD (Turn 47089)
+- Location: South-West Sub-Map (Plaza/Gym) at (18, 14) facing Right.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Walk Right 9 steps to (18, 14), then Up 14 to northern exit carpet at (18, 0).
+- Active Objective: Walk Up 14 steps along Column 18 courtyard to northern exit carpet (18, 0) to warp to outdoor Celadon City (8, 35).
 - Persistent Facts:
-  - South-West sub-map contains Celadon Gym at y=18 and Prize Exchange sub-rooms at y=13.
+  - Column 18 courtyard is clear grey pavement running North to exit carpet at (18, 0).
   - Northern exit carpet at (18, 0) warps back to outdoor Celadon City at (8, 35).
-  - True Main Game Corner Casino building is in Central-South Celadon City at (28, 35).
 
 <hr>
 
@@ -799,7 +799,7 @@
 - Celadon Diner: Door at (29, 29).
 - Prize Exchange (West Room): Door at East Celadon City (13, 25) / (25, 25) enters Prize Exchange 8x8 West Room only.
 - Game Corner Plaza Warp: Tile (20, 36) in Celadon City warps directly into Game Corner Plaza at (10, 0).
-- Main Game Corner Casino Floor: Door at (10, 2) in Game Corner Plaza enters True Main Casino Floor at (3, 7).
+- Main Game Corner Casino: Entrance doorway located in Central-South Celadon City at (28, 35).
 
 ## Master Unblocked Route to Game Corner Plaza (20, 36)
 1. From Row 26 Highway at (26, 26), walk Left 17 steps along Row 26 Highway across x=25..9 to Column 9 at (9, 26).

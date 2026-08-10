@@ -7,7 +7,7 @@
 - Celadon Diner: Door at (29, 29).
 - Prize Exchange (West Room): Door at East Celadon City (13, 25) / (25, 25) enters Prize Exchange 8x8 West Room only.
 - Game Corner Plaza Warp: Tile (20, 36) in Celadon City warps directly into Game Corner Plaza at (10, 0).
-- Main Game Corner Casino Floor: Door at (10, 2) in Game Corner Plaza enters True Main Casino Floor at (3, 7).
+- Main Game Corner Casino: Entrance doorway located in Central-South Celadon City at (28, 35).
 
 ## Master Unblocked Route to Game Corner Plaza (20, 36)
 1. From Row 26 Highway at (26, 26), walk Left 17 steps along Row 26 Highway across x=25..9 to Column 9 at (9, 26).
