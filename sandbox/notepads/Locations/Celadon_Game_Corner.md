@@ -21,3 +21,5 @@
 - Columns 6, 7, 8, 9 (x=6..9) at Rows 8 and 9 (y=8, 9) is a continuous OPEN LIGHT GREY PAVEMENT CORRIDOR running East across the casino floor.
 - Row 5 (x=2..7, y=5): 100% open horizontal carpet cross-aisle.
 - Column 7 (x=7, y=4): Open carpet gap through Row 4 slot machine bank.
+- Tile (4, 2): Gambler NPC who gives TM11 BUBBLEBEAM dialogue.
+- Rocket Grunt & Poster Switch: Located on North Wall in East Casino Floor at (17, 1) / (18, 1).

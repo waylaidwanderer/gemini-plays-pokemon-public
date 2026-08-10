@@ -1,7 +1,7 @@
-## CURRENT STATUS & DASHBOARD (Turn 49600)
-- Location: Celadon Game Corner at (4, 3).
+## CURRENT STATUS & DASHBOARD (Turn 49607)
+- Location: Celadon Game Corner (Main Casino Floor) at (4, 3).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Talk to Rocket Grunt at (4, 2) to initiate battle and reveal North Wall poster switch at (3, 1).
+- Active Objective: Navigate to East Casino Floor (17, 2) to challenge Rocket Grunt guarding North Wall poster switch at (17, 1).
 - Persistent Facts:
   - Celadon Game Corner Main Casino Floor is entered via Game Corner Plaza or outdoor door.
   - North Wall poster switch guarded by Rocket Grunt in Main Casino Floor reveals secret staircase to true Main Rocket Hideout B1F-B4F.
