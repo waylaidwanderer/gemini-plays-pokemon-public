@@ -2,8 +2,8 @@
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 92
-- **Steps Remaining:** 408
+- **Steps Consumed:** 99
+- **Steps Remaining:** 401
 
 ## 🗺️ Step-by-Step Route Log
 - Started inside Safari Zone Center at (18, 25).
