@@ -1154,12 +1154,13 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 
 ## Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 0
-- **Steps Remaining:** 500
+- **Steps Consumed:** 46
+- **Steps Remaining:** 454
 
 ## Step-by-Step Route Log
 - Started a fresh Safari Zone run on Turn 32572.
 - Goal: Enter Safari Zone, cross to Area 3 (West), explore Column 15 and 16 on Row 19 of the building to find the Secret House door, and retrieve Surf and Gold Teeth.
+- Turn 32596: Entered Area 1 (East) at (0, 23). Walked along Row 24 corridor. Bypassed Rhydon barrier. Walked through hedges on Row 24 Column 14. Currently at (16, 24). Total steps: 46.
 
 
 <hr>
@@ -1269,6 +1270,9 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - **Northeastern/Northern Barriers:**
   - Row 4 is blocked by trees at columns 20-27.
   - Row 3 is blocked by a tree at `(28, 3)`.
+- **Hedge/Shrub Walkability:** Verified on Turn 32605. Hedges on Row 24 Columns 14-17 have 0% collision and behave like tall grass (fully traversable, can trigger wild encounters).
+- **Row 25 Solid Boundary:** Verified on Turns 32602 and 32604. Row 25 at Columns 9 and 12 is a solid barrier (bumping when attempting to walk DOWN from Row 24). Row 25 acts as a continuous solid boundary across the bottom of the map.
+- **Row 23 Cliff Face:** Verified on Turn 32601. Row 23 is a solid cliff face across Columns 8-12, blocking northward traversal from Row 24.
 
 ### Key Bridges & Plateaus
 - **The Northern Plateau Island:** Raised cliff system at columns 11-18, rows 4-7. This serves as the ONLY physical bridge connecting the western ground level to the eastern ground level.
