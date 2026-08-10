@@ -758,10 +758,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 48361)
-- Location: Game Corner Plaza at (18, 14).
+## CURRENT STATUS & DASHBOARD (Turn 48373)
+- Location: Game Corner Plaza at (6, 14).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Reach and enter Celadon Game Corner door at (17, 27) in Game Corner Plaza.
+- Active Objective: Walk to bush at (14, 19), use CUT to clear the central passage, and enter Celadon Game Corner door at (17, 27).
 - Persistent Facts:
   - TRUE Main Game Corner Casino Floor entrance is at Outdoor Celadon City door (30, 35).
   - Secret poster switch on North Wall of Main Casino Floor reveals true staircase at (4, 4) to Rocket Hideout.
@@ -990,6 +990,9 @@
 - Tile (20..29, 22..24): Lower water pond.
 - Tile (6, 19): Solid barrels.
 - Strategy: Auditing West Plaza columns 0..5 via Row 14 (4, 14) to locate unblocked South passage to Main Casino door (17, 27).
+### Cut Bush Solution Discovered (Turn 48372)
+- Tile (14, 19) is a Cuttable Bush blocking the central passage in Game Corner Plaza.
+- Using CUT on bush (14, 19) unlocks Column 14 pavement highway directly to Row 28 at (14, 28) and Main Casino door at (17, 27).
 
 <hr>
 
