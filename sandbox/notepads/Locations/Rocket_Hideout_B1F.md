@@ -46,3 +46,4 @@
 - Row y=21: Spins DOWN to (3, 21).
 - Row y=22: Spins DOWN to (3, 22).
 - Row y=23: Spins DOWN to (3, 23).
+- Row y=24: Spins DOWN to (3, 24).
