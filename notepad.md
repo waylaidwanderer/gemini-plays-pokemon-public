@@ -1154,45 +1154,24 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 139
-- **Steps Remaining:** 361
+- **Steps Consumed:** 234
+- **Steps Remaining:** 266
 
 ## 🗺️ Step-by-Step Route Log
-- Started a new Safari Zone run on Turn 32091.
-- Started at Safari Zone Center (15, 25).
-- Turn 32091: Entered Safari Zone Center at (15, 25).
-- Turn 32094: Walked UP 3 steps to (15, 22). [3 steps]
-- Turn 32095: Walked RIGHT 5 steps to (20, 22). [8 steps]
-- Turn 32096: Walked RIGHT 8 steps to (28, 22). [16 steps]
-- Turn 32098: Walked UP 4 steps to (28, 18). [20 steps]
-- Turn 32099: Walked UP 4 steps to (28, 14). [24 steps]
-- Turn 32102: Walked UP 3 steps to (28, 11), then RIGHT 1 step to transition to Area 1 (East) at (0, 23). [28 steps]
-- Turn 32106: Walked RIGHT 4 steps to (4, 23). [32 steps]
-- Turn 32108: Walked DOWN 1 step to (4, 24), then RIGHT 1 step to (5, 24). [34 steps]
-- Turn 32109: Walked RIGHT 5 steps to (10, 24). [39 steps]
-- Turn 32110: Walked RIGHT 4 steps to (14, 24) [Paras battle]. [43 steps]
-- Turn 32115: Walked RIGHT 3 steps to (17, 24) [Exeggcute battle]. [46 steps]
-- Turn 32119: Walked RIGHT 4 steps to (21, 24). [50 steps]
-- Turn 32120: Walked RIGHT 3 steps to (24, 24). [53 steps]
-- Turn 32121: Walked RIGHT 4 steps to (28, 24). [57 steps]
-- Turn 32122: Walked UP 8 steps to (28, 16) [Blocked by Row 15 tree]. [65 steps]
-- Turn 32123: Walked LEFT 4 steps to (24, 16), then UP 2 steps to climb stairs to (24, 14). [71 steps]
-- Turn 32124: Walked UP 2 steps to (24, 12). [73 steps]
-- Turn 32126: Walked RIGHT 2 steps to (26, 12). [75 steps]
-- Turn 32128: Walked LEFT 2 steps to (24, 12). [77 steps]
-- Turn 32128: Walked DOWN 4 steps to (24, 16). [81 steps]
-- Turn 32129: Walked DOWN 4 steps to (24, 20) [Parasect battle]. [85 steps]
-- Turn 32136: Walked DOWN 4 steps to (24, 24). [89 steps]
-- Turn 32138: Walked LEFT 4 steps to (20, 24) [Parasect battle]. [93 steps]
-- Turn 32142: Walked LEFT 5 steps to (15, 24) [Doduo battle]. [98 steps]
-- Turn 32146: Walked LEFT 7 steps to (8, 24) [Tested Column 8, blocked at Row 23]. [105 steps]
-- Turn 32149: Walked RIGHT 1 step to (9, 24) [Tested Column 9, blocked at Row 23]. [106 steps]
-- Turn 32150: Walked RIGHT 3 steps to (12, 24) [Tested Column 12, blocked at Row 23]. [109 steps]
-- Turn 32152: Walked LEFT 8 steps to (4, 24), then UP 3 steps to (4, 21) [Tested Column 4, blocked at Row 20]. [120 steps]
-- Turn 32153: Walked DOWN 3 steps to (4, 24), RIGHT 4 steps to (8, 24), then UP 1 step [Blocked at Row 23]. [128 steps]
-- Turn 32154: Walked RIGHT 13 steps to (21, 24) [Nidoran F battle]. [141 steps]
-- Turn 32158: Walked LEFT 1 step to (20, 24), then UP 4 steps to climb Southern Plateau to (20, 20). [146 steps]
-- Turn 32159: Walked LEFT 8 steps to (12, 20), then DOWN 2 steps to descend Southern Plateau to (12, 22). [156 steps]   # Actually our turn ended at (12, 22).
+- Started a new Safari Zone run on Turn 31982.
+- Goal: Retrieve the Gold Teeth and HM03 (Surf) inside Safari Zone Area 3 (West).
+- Turn 32174: Walked LEFT 7 steps to (0, 5) and transitioned to Area 2 (North) at (39, 31). [146 steps]
+- Turn 32175: Entered Area 2 (North) at (39, 31).
+- Turn 32180: Descended Western Southern Plateau to (16, 28). [172 steps]
+- Turn 32188: Transitioned to Area 3 (West) at (26, 0). [180 steps]
+- Turn 32197: Reached (25, 7) [185 steps]
+- Turn 32198: Reached (25, 14) [192 steps]
+- Turn 32199: Climbed onto plateau at (21, 16) [202 steps]
+- Turn 32201: Descended plateau stairs to (6, 20) [221 steps]
+- Turn 32214: Reached (3, 20) after 1 encounter [225 steps]
+- Turn 32215: Reached (3, 18) [227 steps]
+- Turn 32216: Reached (3, 14) [231 steps]
+- Turn 32218: Reached (10, 14) [238 steps]
 
 
 <hr>
@@ -1285,6 +1264,7 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 ### Map Transitions & Exits
 - **Exit to Area 2 (North):** Located at `(0, 5)` on row 5, which is reachable from the northern ground corridor.
 - **Column 20 Hedge Passage (Rows 4-6):** Empirically verified on Turn 29054. Hedges on Column 20 at Rows 4 and 6 have 0% collision, enabling players to walk directly UP to Row 3.
+- **Row 5 Column 19 Cliff Face Barrier (Area 1 East):** Empirically verified on Turn 32167. Row 5, Column 19 has a solid cliff face, blocking leftward ground-level crossing from (20, 5) and forcing the use of the Northern Corridor Bypass Route.
 - **Row 3 Obstruction (Col 5):** A solid pine tree at `(5, 3)` blocks direct horizontal passage on Row 3.
 - **Northern Corridor Bypass Route:** From Column 20 Row 3, walk left to `(7, 3)`, walk Down to `(7, 5)` (bypassing the `(6, 4)` building door and the `(5, 3)` pine tree), and then walk Left along Row 5 to `(0, 5)` to transition to Area 2 (North) safely. Avoid transitioning at `(0, 3)`, which is a trap!
 
