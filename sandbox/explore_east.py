@@ -1,13 +1,12 @@
 import bridge
 import time
 
-# Explore east along Row 24 to bypass the Column 18 Vertical Barrier (Rows 20-23)
+# Explore southern grass by going Left to Column 15, Down to Row 26, then Right
 route = [
     (17, 23),
-    (17, 24), # DOWN to Row 24
-    (18, 24), (19, 24), (20, 24), (21, 24), (22, 24), # RIGHT along Row 24
-    (22, 23), (22, 22), (22, 21), # Try going UP on Column 22 to explore the grass area
-    (21, 21), (20, 21), (19, 21), (18, 21) # Left into the grass area east of column 18
+    (16, 23), (15, 23), # LEFT to Column 15
+    (15, 24), (15, 25), (15, 26), # DOWN to Row 26
+    (16, 26), (17, 26), (18, 26), (19, 26), (20, 26), (21, 26), (22, 26), (23, 26), (24, 26), (25, 26) # RIGHT along Row 26
 ]
 
 def get_dir(curr, target):
@@ -29,7 +28,7 @@ def run_away():
     print("RUN sequence finished.")
 
 curr = bridge.get_coordinates()
-print(f"Starting Eastward Row 24 exploration at {curr}")
+print(f"Starting Eastward exploration via Column 15 at {curr}")
 
 route_idx = 0
 for idx, coord in enumerate(route):
@@ -78,4 +77,4 @@ while route_idx < len(route):
     else:
         stuck_count = 0
 
-print(f"Finished Row 24 exploration. Final position: {bridge.get_coordinates()}")
+print(f"Finished exploration. Final position: {bridge.get_coordinates()}")
