@@ -33,7 +33,7 @@ def send_bridge_request(endpoint, data=None):
             break
         response += chunk
     s.close()
-    parts = response.split(b"\\r\\n\\r\\n", 1)
+    parts = response.split(b"\r\n\r\n", 1)
     if len(parts) == 2:
         body = parts[1].decode('utf-8')
         start = body.find('{')
