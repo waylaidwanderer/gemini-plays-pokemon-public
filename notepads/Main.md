@@ -1,7 +1,7 @@
-## CURRENT STATUS & DASHBOARD (Turn 49560)
-- Location: Celadon City at (22, 23).
+## CURRENT STATUS & DASHBOARD (Turn 49566)
+- Location: Celadon City at (34, 27).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Single-step test tile (22, 24) to verify passability south to Row 26 Highway.
+- Active Objective: Navigate West along Row 27 to Column 7 (7, 27) to access Row 8 Northern Highway via Column 7 slope gap.
 - Persistent Facts:
   - Celadon Game Corner Main Casino Floor is entered via Game Corner Plaza or outdoor door.
   - North Wall poster switch guarded by Rocket Grunt in Main Casino Floor reveals secret staircase to true Main Rocket Hideout B1F-B4F.
