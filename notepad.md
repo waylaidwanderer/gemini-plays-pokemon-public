@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47701)
-- Location: Rocket Hideout B1F at (3, 34) testing spin tiles.
+## CURRENT STATUS & DASHBOARD (Turn 47705)
+- Location: Rocket Hideout B1F at (3, 38) exiting via stairs at (2, 41).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Test spin tiles (3, y) along Column 2 Control Highway to locate East spin trajectory into main halls.
+- Active Objective: Re-ascend stairs at (2, 41) to return to Celadon Game Corner / Celadon City and locate Main Casino floor.
 - Persistent Facts:
   - Game Corner Plaza is the outdoor Prize Exchange sub-map.
   - Column 12/13 in Celadon City is the open pavement street running North to Row 13.
@@ -759,10 +759,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47705)
-- Location: Rocket Hideout B1F at (3, 38) exiting via stairs at (2, 41).
+## CURRENT STATUS & DASHBOARD (Turn 47706)
+- Location: Celadon Game Corner at (4, 4) exiting South to outdoor Celadon City.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Re-ascend stairs at (2, 41) to return to Celadon Game Corner / Celadon City and locate Main Casino floor.
+- Active Objective: Exit Celadon Game Corner South via red mat (3, 7), exit Game Corner Plaza to outdoor Celadon City, and navigate to Main Casino floor entrance.
 - Persistent Facts:
   - Game Corner Plaza is the outdoor Prize Exchange sub-map.
   - Column 12/13 in Celadon City is the open pavement street running North to Row 13.
@@ -1237,5 +1237,7 @@ Empirically map every aisle on Columns 5, 6, and 7 across Rows 1..6 to verify if
 - Row y=35: Spins DOWN to (3, 35).
 - Row y=36: Spins DOWN to (3, 36).
 - Row y=37: Spins DOWN to (3, 37).
+- Row y=38: Spins DOWN to (3, 38).
+- AUDIT COMPLETE (Turn 47705): 100% of all 39 rows in West Spin Loop (Cols 2..5, Rows 3..41) audited. All spin tiles spin UP (Row 3) or DOWN (Rows 4..8, 10..38). No East spin tiles exist in this enclosure. Exiting via stairs at (2, 41).
 
 <hr>

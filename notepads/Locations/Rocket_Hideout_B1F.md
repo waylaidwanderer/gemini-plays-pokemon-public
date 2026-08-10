@@ -60,3 +60,5 @@
 - Row y=35: Spins DOWN to (3, 35).
 - Row y=36: Spins DOWN to (3, 36).
 - Row y=37: Spins DOWN to (3, 37).
+- Row y=38: Spins DOWN to (3, 38).
+- AUDIT COMPLETE (Turn 47705): 100% of all 39 rows in West Spin Loop (Cols 2..5, Rows 3..41) audited. All spin tiles spin UP (Row 3) or DOWN (Rows 4..8, 10..38). No East spin tiles exist in this enclosure. Exiting via stairs at (2, 41).
