@@ -758,14 +758,13 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 47153)
-- Location: Game Corner Plaza at (19, 27) facing Left.
+## CURRENT STATUS & DASHBOARD (Turn 47155)
+- Location: Game Corner Plaza at (19, 29) facing Down.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope in Celadon City.
-- Active Objective: Step Down 3 to doorway (19, 30) to enter True Main Casino Floor in Game Corner Plaza.
+- Active Objective: Return to exit warp (18, 0) in Game Corner Plaza to enter Celadon City, then walk to Main Casino doorway at (28, 35) in Celadon City.
 - Persistent Facts:
-  - Door at (11, 3) in Game Corner Plaza enters Cable Club sub-room.
-  - Door at (7, 3) in Game Corner Plaza enters Prize Exchange West Room.
-  - Doorway at (19, 30) in Game Corner Plaza is the True Main Casino Floor entrance!
+  - Game Corner Plaza (18, 0) exits back to Celadon City at (8, 35).
+  - Main Game Corner Casino doorway in Celadon City is located at tile (28, 35).
 
 <hr>
 
