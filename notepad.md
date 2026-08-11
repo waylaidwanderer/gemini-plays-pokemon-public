@@ -1159,8 +1159,8 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 289
-- **Steps Remaining:** 211
+- **Steps Consumed:** 302
+- **Steps Remaining:** 198
 
 ## 🗺️ Step-by-Step Route Log
 - Started inside Safari Zone Center at (18, 25).
@@ -1183,6 +1183,7 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 - Walked Left 3, Up 6, Right 9, Up 1 to reach in front of Secret House door at (12, 13). (19 steps consumed, total 241)
 - Entered Rest House 3, spoke to NPC, exited, and walked back across plateau to Column 19 Row 24. (48 steps consumed, total 289)
 - Walked Right 1, Up 5, Left 1 to (18, 19) on the plateau. (7 steps consumed, total 296)
+- Walked Right 3, Up 3 to climb East Stairs onto plateau at (21, 16). (6 steps consumed, total 302)
 
 <hr>
 
