@@ -1,26 +1,41 @@
 import time
 import bridge
 
-print("Running exit_center.py inside Pokémon Center...")
+print("Starting exit_center.py from inside...")
 
-# Start: (13, 4)
-print("1. Walking DOWN to row 7...")
-for _ in range(3):
-    bridge.press_buttons(["Down"])
-    time.sleep(0.6)
-coords = bridge.get_coordinates()
-print(f"Coords: {coords}")
+# Check current coordinates
+pos = bridge.get_coordinates()
+print(f"Current coordinates inside Pokémon Center: {pos}")
 
-print("2. Walking LEFT to column 3...")
-for _ in range(10):
-    bridge.press_buttons(["Left"])
-    time.sleep(0.6)
-coords = bridge.get_coordinates()
-print(f"Coords: {coords}")
-
-print("3. Exiting Pokémon Center (DOWN)...")
-bridge.press_buttons(["Down"])
-time.sleep(2.0) # Wait for transition loading
-
-coords = bridge.get_coordinates()
-print(f"Coords inside Fuchsia City overworld: {coords}")
+if pos is not None:
+    # Walk Left to Column 3 on Row 5 (or current row if we can)
+    # If we are on Row 4, let's walk Down to Row 5 first
+    if pos[1] == 4:
+        print("Walking DOWN to Row 5...")
+        bridge.press_buttons(["Down"])
+        time.sleep(0.6)
+        pos = bridge.get_coordinates()
+        
+    if pos is not None:
+        steps_left = pos[0] - 3
+        print(f"Walking LEFT {steps_left} steps to Column 3...")
+        for _ in range(steps_left):
+            bridge.press_buttons(["Left"])
+            time.sleep(0.6)
+            
+        pos = bridge.get_coordinates()
+        print(f"Coordinates: {pos}")
+        
+        # Walk Down 3 steps to exit
+        print("Walking DOWN to exit...")
+        for _ in range(3):
+            bridge.press_buttons(["Down"])
+            time.sleep(0.6)
+            
+        # Give a little extra time for the transition
+        time.sleep(1.5)
+        
+        pos = bridge.get_coordinates()
+        print(f"Coordinates outside: {pos}")
+else:
+    print("Failed to get coordinates.")
