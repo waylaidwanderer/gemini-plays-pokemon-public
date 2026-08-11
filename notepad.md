@@ -1338,7 +1338,7 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 
 ## Step-by-Step Route Log
 - Started a fresh Safari Zone run on Turn 32803.
-- Goal: Retrieve the Gold Teeth at (19, 7) or verify they are at another coordinate, and enter the Secret House in the southwest (columns 0-4, rows 16-24) to obtain HM03 (Surf).
+- Goal: Retrieve the Gold Teeth at (19, 25) (Southern ground level, accessed from Column 21) and enter the Secret House (west side) to obtain HM03 (Surf).
 
 <hr>
 
