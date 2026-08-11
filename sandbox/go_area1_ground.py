@@ -63,15 +63,12 @@ def walk_to_target(tx, ty):
             stuck_count = 0
     return True
 
-def run_south_bypass():
-    print("Starting ground-level South Compartment bypass to Area 1 (East)...")
+def run_south_bypass_v5():
+    print("Starting ground-level South Compartment bypass v5 to Area 1 (East)...")
     
-    # Dismiss any leftover "Got away safely" textbox first
-    print("Pressing B to close battle text...")
-    bridge.press_buttons(["B", "sleep 500"])
-    
+    # Path from current position (15, 24) to Area 1 (East) transition at (29, 26)
     path = [
-        (15, 26), (29, 26)
+        (12, 24), (12, 26), (29, 26)
     ]
     
     for tx, ty in path:
@@ -88,4 +85,4 @@ def run_south_bypass():
     return True
 
 if __name__ == "__main__":
-    run_south_bypass()
+    run_south_bypass_v5()
