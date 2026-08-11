@@ -32,7 +32,7 @@
   - To go from behind the Pokémon Center (row 21) to its entrance (19, 27):
     - Walk Right to Column 24 (or walk Left to Column 1).
     - Walk Down along Column 24 (or Column 1) to Row 28/32/34.
-    - Walk along Row 34 to Column 19, and walk Up to (19, 27) to enter. (Note: Row 28 and Row 32 are physically blocked by fences/Rhydon statues at Column 23/24).
+
     - Note: Columns 22-23 on rows 22-25 are blocked by the roof of the adjacent house, so you must use either Column 24 on the east or Column 1 on the west to transition south.
 
 
