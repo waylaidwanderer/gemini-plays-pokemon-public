@@ -63,12 +63,20 @@ def walk_to_target(tx, ty):
             stuck_count = 0
     return True
 
-def run_south_bypass_v5():
-    print("Starting ground-level South Compartment bypass v5 to Area 1 (East)...")
+def run_final():
+    print("Starting final ground-level route to Area 1 (East)...")
     
-    # Path from current position (15, 24) to Area 1 (East) transition at (29, 26)
+    # 1. Walk Left to Column 24 and descend stairs to (24, 16)
+    if not walk_to_target(24, 14):
+        return False
+    if not walk_to_target(24, 15):
+        return False
+    walk_step("Down")
+    time.sleep(1.0)
+    
+    # 2. Path to transition via Column 28 (which is fully walkable!)
     path = [
-        (12, 24), (12, 26), (29, 26)
+        (28, 16), (28, 11), (29, 11)
     ]
     
     for tx, ty in path:
@@ -76,7 +84,7 @@ def run_south_bypass_v5():
             print(f"Failed to reach target: ({tx}, {ty})")
             return False
             
-    print("At transition coordinate (29, 26). Walking Right to transition...")
+    print("At transition coordinate (29, 11). Walking Right to transition...")
     walk_step("Right")
     time.sleep(1.5)
     
@@ -85,4 +93,4 @@ def run_south_bypass_v5():
     return True
 
 if __name__ == "__main__":
-    run_south_bypass_v5()
+    run_final()
