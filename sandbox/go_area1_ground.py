@@ -66,9 +66,12 @@ def walk_to_target(tx, ty):
 def run_south_bypass():
     print("Starting ground-level South Compartment bypass to Area 1 (East)...")
     
-    # Path from current position (22, 24) to Area 1 (East) transition at (29, 26)
+    # Dismiss any leftover "Got away safely" textbox first
+    print("Pressing B to close battle text...")
+    bridge.press_buttons(["B", "sleep 500"])
+    
     path = [
-        (15, 24), (15, 26), (29, 26)
+        (15, 26), (29, 26)
     ]
     
     for tx, ty in path:
