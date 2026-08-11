@@ -109,6 +109,7 @@
 - **Full Restore:** 1
 - **Max Revive:** 1
 - **HM03 (Surf):** NOT YET OBTAINED (Verified on Turn 27754).
+- **Active PC Box Changed:** Changed active box from BOX 1 (full) to BOX 2 (empty, 0/20 used, 20 empty slots) on Turn 33202 to resolve Safari Zone entry block.
 
 ## Major Exploration Phases and Timestamps
 - **Saffron West/East Gatehouse Tests:** Turn 12616 (East Gatehouse tested), Turn 18179 to 18184 (West Gatehouse tested, confirmed Saffron City is blocked by thirsty guards).
