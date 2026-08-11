@@ -1429,5 +1429,6 @@ Empirically map every aisle on Columns 5, 6, and 7 across Rows 1..6 to verify if
 - Row 20 (y=20) is a 100% open street running East across x=22..28+ straight toward Column 36!
 - Column 35 (x=35) double brown barrels span y=20..25.
 - Row 17 (y=17) and Row 18 (y=18) at Column 35 (35, 17 / 35, 18) is an OPEN BRIGHT GREEN LAWN GAP connecting Central Celadon directly East to Column 36 at (36, 17 / 36, 18)!
+- Tile (8, 15) is the 100% PASSABLE DIRT SLOPE GAP in the Row 15 border, connecting Row 16 Avenue directly North to Column 8 Avenue (8, 12..14)!
 
 <hr>
