@@ -1,16 +1,16 @@
 import mgba
 import time
 
-print("Running walk_safari.py...")
+print("Running walk_safari.py to transition to Area 2 (North)...")
 
-# Path to the plateau stairs:
-# Start: (26, 3)
-# 1 step Left -> (25, 3)
-# 15 steps Down -> (25, 18)
-# 4 steps Left -> (21, 18)
-# 2 steps Up -> (21, 16) (climbs stairs onto plateau)
+# Path from Area 1 (East) (17, 8) to Area 2 (North):
+# 3 steps Right to (20, 8)
+# 5 steps Up to (20, 3)
+# 13 steps Left to (7, 3)
+# 2 steps Down to (7, 5)
+# 8 steps Left to transition at (0, 5) to Area 2 (39, 31)
 
-path = ["Left"] + ["Down"] * 15 + ["Left"] * 4 + ["Up"] * 2
+path = ["Right"] * 3 + ["Up"] * 5 + ["Left"] * 13 + ["Down"] * 2 + ["Left"] * 8
 
 def walk_path(path):
     for i, direction in enumerate(path):
