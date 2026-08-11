@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 50748)
-- Location: Celadon City at (30, 20).
+## CURRENT STATUS & DASHBOARD (Turn 50761)
+- Location: Celadon City at (34, 24).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Walk West along Row 27 to Column 9 (9, 27), Up to Row 16 Avenue (9, 16), East to Column 36 (36, 16), South down Column 36 through true tree gap (36, 28) to Row 30 South Street (36, 30), West to Column 20 (20, 30), and South 6 steps into Game Corner Plaza warp (20, 36).
+- Active Objective: Walk Up 6 steps along Column 34 to Row 18 Lawn Gap (34, 18), East 2 through (35, 18) to Column 36 (36, 18), South 12 through tree gap (36, 28) to Row 30 South Street (36, 30), West 16 to (20, 30), and South 6 to Game Corner Plaza warp (20, 36).
 - Persistent Facts:
   - Outdoor door (30, 19) in Celadon City enters 8x13 West Gambler Sub-room. Does NOT connect to Main Casino Floor.
   - Game Corner Plaza door (17, 27) enters True Main Casino Floor ("Celadon Game Corner").
@@ -751,10 +751,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 50761)
-- Location: Celadon City at (34, 24).
+## CURRENT STATUS & DASHBOARD (Turn 50762)
+- Location: Celadon City at (34, 20).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Walk Up 6 steps along Column 34 to Row 18 Lawn Gap (34, 18), East 2 through (35, 18) to Column 36 (36, 18), South 12 through tree gap (36, 28) to Row 30 South Street (36, 30), West 16 to (20, 30), and South 6 to Game Corner Plaza warp (20, 36).
+- Active Objective: Walk Down 7 to Row 27 (34, 27), West 25 to Column 9 (9, 27), North 11 to Row 16 (9, 16), East 3 to (12, 16), North 4 up staircase (12, 15) to Row 12 (12, 12), East 19 to (31, 12), North 1 to (31, 11), East 5 to Column 36 (36, 11), South 19 through tree gap (36, 28) to Row 30 South Street (36, 30), West 16 to (20, 30), and South 6 to Game Corner Plaza warp (20, 36).
 - Persistent Facts:
   - Outdoor door (30, 19) in Celadon City enters 8x13 West Gambler Sub-room. Does NOT connect to Main Casino Floor.
   - Game Corner Plaza door (17, 27) enters True Main Casino Floor ("Celadon Game Corner").
@@ -1053,21 +1053,21 @@
 # Verified Celadon City Outdoor Topology
 
 ## Key Obstacles & Barriers
+- Outdoor Door (30, 19): Enters the 8x13 West Gambler Sub-room ONLY (does NOT connect to Main Casino floor).
 - Row 15 (y=15, x=8..15): Continuous southbound-only ledge wall.
 - Row 19 (y=19, x=32..37): Continuous southbound-only ledge wall.
 - Row 25 (y=25, x=28..33): Solid building wall and windows of Dept Store / Diner.
-- Column 35 (x=35, y=20..27): Double brown wooden barrels.
+- Column 35 (x=35, y=20..27): Double brown wooden barrels (solid vertical barrier).
 - Tile (10, 25): Double brown wooden barrels.
 - Tile (17, 29): Solid grey building/signboard obstacle.
-- Rocket Grunt NPC at (30, 26): Standing on Row 26 in front of building wall.
 
-## Verified Master Route to Game Corner Door (30, 19)
-1. Column 34 (x=34, y=20..27) is a 100% open vertical pavement alleyway between building wall (x=33) and barrels (x=35).
-2. From (30, 26), walk Right 4 steps along Row 26 pavement to Column 34 at (34, 26).
-3. Walk North 6 steps along Column 34 alleyway to Row 20 Street at (34, 20).
-4. Walk West 4 steps along Row 20 Street to (30, 20) directly facing Casino Door (30, 19).
-5. Step Up 1 into Casino Door (30, 19).
-- Column 35 barrels span y=20..27 (solid wall). Open crossing to Column 36 is Row 18 Lawn Gap at (35, 18).
+## Verified Master Route to Game Corner Plaza (20, 36)
+1. Column 34 (x=34) is 100% open vertical pavement alleyway running North from Row 27 up to Row 18 Lawn Gap at (34, 18).
+2. Row 18 Lawn Gap at (35, 18) is the open crossing through Column 35 above the barrels (x=35, y=20..27).
+3. Column 36 (x=36) is 100% open vertical street running South from (36, 18) through tree gap (36, 28) to Row 30 South Street at (36, 30).
+4. Row 30 South Street (y=30) runs West across x=35..20 to Column 20 at (20, 30).
+5. Column 20 (x=20) runs South from (20, 30) down 6 steps into Game Corner Plaza warp tile at (20, 36).
+6. In Game Corner Plaza (10, 0), step Down 2 into door (10, 2) / (17, 27) to enter True Main Casino Floor at (3, 7).
 
 <hr>
 
@@ -1376,12 +1376,18 @@ Empirically map every aisle on Columns 5, 6, and 7 across Rows 1..6 to verify if
 - Tile (10, 25): Double brown wooden barrels.
 - Tile (17, 29): Solid grey building/signboard obstacle.
 
-## Verified Master Route to Game Corner Plaza (20, 36)
-1. Column 34 (x=34) is 100% open vertical pavement alleyway running North from Row 27 up to Row 18 Lawn Gap at (34, 18).
-2. Row 18 Lawn Gap at (35, 18) is the open crossing through Column 35 above the barrels (x=35, y=20..27).
-3. Column 36 (x=36) is 100% open vertical street running South from (36, 18) through tree gap (36, 28) to Row 30 South Street at (36, 30).
-4. Row 30 South Street (y=30) runs West across x=35..20 to Column 20 at (20, 30).
-5. Column 20 (x=20) runs South from (20, 30) down 6 steps into Game Corner Plaza warp tile at (20, 36).
-6. In Game Corner Plaza (10, 0), step Down 2 into door (10, 2) / (17, 27) to enter True Main Casino Floor at (3, 7).
+## Verified Northern Highway Route to Game Corner Plaza (20, 36)
+1. From (34, 20), walk Down 7 steps along Column 34 to Row 27 Highway at (34, 27).
+2. Walk West 25 steps along Row 27 Highway to Column 9 at (9, 27).
+3. Walk North 11 steps along Column 9 to Row 16 Avenue at (9, 16).
+4. Walk East 3 steps along Row 16 to Column 12 at (12, 16).
+5. Walk North 4 steps along Column 12 up staircase (12, 15) to Row 12 Northern Highway at (12, 12).
+6. Walk East 19 steps along Row 12 Northern Highway to (31, 12).
+7. Walk North 1 step to (31, 11) [open gap above barrels].
+8. Walk East 5 steps to Column 36 at (36, 11).
+9. Walk South 19 steps down Column 36 through tree gap (36, 28) to Row 30 South Street at (36, 30).
+10. Walk West 16 steps along South Street to Column 20 at (20, 30).
+11. Walk South 6 steps along Column 20 into Game Corner Plaza warp at (20, 36).
+12. In Game Corner Plaza (10, 0), step Down 2 into door (10, 2) / (17, 27) to enter True Main Casino Floor at (3, 7).
 
 <hr>
