@@ -1138,6 +1138,10 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 - Walked to Northern Plateau stairs, climbed to (12, 6). (7 steps consumed, total 84)
 - Walked east along Northern Plateau, descended stairs to (17, 8). (8 steps consumed, total 92)
 - Walked east and north on Column 20, encountered wild Nidoran♀ at (20, 4) and ran away. (8 steps attempted, 7 steps consumed, total 100)
+- Walked Up 1, Left 4 to (16, 3), encountered wild Nidorina and ran away. (5 steps consumed, total 105)
+- Walked Left 9, Down 2, Left 8 to transition to Area 2 (North) at (39, 31). (19 steps consumed, total 124)
+- Walked Left 17, Up 8 to (22, 23). (25 steps consumed, total 149)
+- Walked Up 1, Left 6, Down 5 to Western Southern Plateau stairs at (16, 27). (12 steps consumed, total 161)
 
 <hr>
 
