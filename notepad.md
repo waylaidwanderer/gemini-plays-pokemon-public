@@ -1125,6 +1125,16 @@
 8. Walk West 16 steps along Row 30 South Street to Column 20 at (20, 30).
 9. Walk South 6 steps along Column 20 into Game Corner Plaza warp at (20, 36).
 
+## MASTER NORTHERN HIGHWAY ROUTE TO GAME CORNER PLAZA (From 17, 16)
+1. Walk Left 8 steps along Row 16 Avenue to Column 9 at (9, 16).
+2. Walk Up 4 steps along Column 9 to Row 12 Avenue at (9, 12).
+3. Walk East 22 steps along Row 12 Avenue to (31, 12).
+4. Walk Up 1 step to (31, 11) [open gap above barrels].
+5. Walk East 5 steps to Column 36 at (36, 11).
+6. Walk South 19 steps down Column 36 through tree gap (36, 28) to Row 30 South Street at (36, 30).
+7. Walk West 16 steps along South Street to Column 20 at (20, 30).
+8. Walk South 6 steps along Column 20 into Game Corner Plaza warp at (20, 36).
+
 <hr>
 
 <h1><code>Scratchpad/Game_Corner_Plaza_Testing</code></h1>
@@ -1505,5 +1515,7 @@ Empirically map every aisle on Columns 5, 6, and 7 across Rows 1..6 to verify if
 6. Walk South 19 steps down Column 36 through tree gap (36, 28) to Row 30 South Street at (36, 30).
 7. Walk West 16 steps along South Street to Column 20 at (20, 30).
 8. Walk South 6 steps along Column 20 into Game Corner Plaza warp at (20, 36).
+- Tile (9, 15) is a ONE-WAY LEDGE hopping South.
+- Tile (8, 15) is the 100% PASSABLE DIRT/PAVEMENT GAP in Row 15, connecting Column 8 (8, 16) directly North to Row 12 Northern Highway at (8, 12).
 
 <hr>

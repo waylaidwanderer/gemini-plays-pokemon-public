@@ -82,3 +82,5 @@
 6. Walk South 19 steps down Column 36 through tree gap (36, 28) to Row 30 South Street at (36, 30).
 7. Walk West 16 steps along South Street to Column 20 at (20, 30).
 8. Walk South 6 steps along Column 20 into Game Corner Plaza warp at (20, 36).
+- Tile (9, 15) is a ONE-WAY LEDGE hopping South.
+- Tile (8, 15) is the 100% PASSABLE DIRT/PAVEMENT GAP in Row 15, connecting Column 8 (8, 16) directly North to Row 12 Northern Highway at (8, 12).
