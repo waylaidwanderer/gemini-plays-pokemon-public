@@ -62,7 +62,15 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - **Max Potion:** Located on the ground at `(8, 20)`. This is a solid overworld item ball sprite. It was successfully picked up by standing at `(7, 20)` facing Right on Turn 27623.
 - **Signpost at (24, 22):** Reads "AREA 3 EAST: CENTER AREA" (Turn 27655).
 
-- **The Southern Ground Level Hypothesis:** The southern ground level of Area 3 (West) contains the Gold Teeth and the Secret House (where HM03 Surf is obtained). It is a separate compartment in Area 3 (West). Its exact connection and access route from other Safari Zone areas (such as the southern corridor of Area 2 North or the West Compartment of Safari Zone Center) are currently unverified hypotheses that must be systematically tested in the next Safari Zone session.
+- **The Secret House Door Warp & Gen 1 Tileset Collision Quirk (VERIFIED Turn 33096):**
+  - The Secret House is located in the southwest corner of Area 3 (West).
+  - Crucially, its door warp is located at coordinate `(3, 19)`.
+  - On the overworld screen, `(3, 19)` is rendered as a dark green shrub (hedge) graphic. This is a classic Gen 1 tileset collision/warp rendering quirk!
+  - Walking UP Column 3 from Row 20 (`(3, 20)`) directly into `(3, 19)` triggers the warp into the Secret House, bypassing the visual shrub graphic.
+  - The building at `(11, 11)` is Rest House 3, which has three regular NPCs and does NOT contain Surf. The real Secret House is at `(3, 19)`.
+- **The Gold Teeth Location:**
+  - The Gold Teeth are located on the ground at `(19, 7)` or in the southern ground level.
+
 
 ## Area 1 (East) Detailed Overworld Layout & Barriers
 
