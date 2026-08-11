@@ -44,3 +44,4 @@
 - Attempted Right from (9, 32) to (10, 32) (solid diagonal ledge, Fuchsia City, Turn 33117).
 - Attempted Up from (9, 32) to (9, 31) (solid horizontal ledge, Fuchsia City, Turn 33118).
 - Attempted Left from (24, 27) to (23, 27) (solid fence/hedge, Fuchsia City, Turn 33166).
+- Attempted Left from (24, 29) to (23, 29) (solid fence/hedge, Fuchsia City, Turn 33169).
