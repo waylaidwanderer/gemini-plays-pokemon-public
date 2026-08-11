@@ -84,3 +84,4 @@
 8. Walk South 6 steps along Column 20 into Game Corner Plaza warp at (20, 36).
 - Tile (9, 15) is a ONE-WAY LEDGE hopping South.
 - Tile (8, 15) is the 100% PASSABLE DIRT/PAVEMENT GAP in Row 15, connecting Column 8 (8, 16) directly North to Row 12 Northern Highway at (8, 12).
+- Blue Outdoor Staircase (12, 15)/(12, 14): Passable northbound staircase connecting Row 16 at (12, 16) directly Up to Row 12 Northern Highway at (12, 12).
