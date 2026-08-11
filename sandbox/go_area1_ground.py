@@ -63,30 +63,19 @@ def walk_to_target(tx, ty):
             stuck_count = 0
     return True
 
-def run_bypass():
-    print("Starting optimized ground-level bypass to Area 1 (East) via Column 22...")
+def run_bypass_v3():
+    print("Starting optimized ground-level bypass v3 to Area 1 (East) via Column 22...")
     
-    # 1. Climb down stairs to ground level (24, 16)
-    if not walk_to_target(24, 14):
-        return False
-    if not walk_to_target(24, 15):
-        return False
-    # Walk DOWN onto ground level (24, 16)
-    walk_step("Down")
-    time.sleep(1.0)
+    # Path from current position (25, 20) to Area 1 (East) transition at (29, 26)
+    path = [
+        (24, 20), (24, 22), (22, 22), (22, 26), (29, 26)
+    ]
     
-    # 2. Walk Left to Column 22
-    if not walk_to_target(22, 16):
-        return False
-        
-    # 3. Walk DOWN Column 22 to Row 26 (bypassing the Row 25 barrier)
-    if not walk_to_target(22, 26):
-        return False
-        
-    # 4. Walk RIGHT along Row 26 to Column 29
-    if not walk_to_target(29, 26):
-        return False
-        
+    for tx, ty in path:
+        if not walk_to_target(tx, ty):
+            print(f"Failed to reach target: ({tx}, {ty})")
+            return False
+            
     print("At transition coordinate (29, 26). Walking Right to transition...")
     walk_step("Right")
     time.sleep(1.5)
@@ -96,4 +85,4 @@ def run_bypass():
     return True
 
 if __name__ == "__main__":
-    run_bypass()
+    run_bypass_v3()
