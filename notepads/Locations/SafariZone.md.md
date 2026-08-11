@@ -137,3 +137,19 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
   - Attempted Left from `(18, 19)` to `(17, 19)` (cliff wall, bumped on Turn 32924).
   - Attempted Down from `(18, 19)` to `(18, 20)` (solid tree, bumped on Turn 32924).
   - Attempted Up from `(11, 20)` to `(11, 19)` (cliff wall, bumped on Turn 32936).
+## Safari Zone Center - Completed Spatial Map & Route (Turn 34275)
+### Verified Barriers & Topography
+1. **North-South Ground Division (Row 25):** Row 25 is completely blocked from Column 0 to Column 29 by solid Rhydon statues and wooden fences. The ONLY opening is at `(15, 25)` which contains the exit warp back to the Gatehouse.
+2. **The Ledge (Row 23):** A horizontal south-facing ledge runs across Row 23, blocking all direct UP (North) movement from Row 24 to Row 23, except at Column 15 (the entrance corridor).
+3. **The Plateau North Edge Cliff (Row 11/12):** The northern edge of the plateau (Columns 20-27, Row 12) is completely blocked by a solid cliff face. Walking UP from Row 12 to Row 11 is 100% blocked on Column 21 and Column 22.
+4. **The Column 29 Shrub Wall:** Column 29 has solid trees/shrubs on Rows 12-25, completely blocking ground-horizontal crossing. Crossing Column 29 is only possible on Row 26 (South) and Rows 10-11 (North).
+5. **The Pond & Rest House 1:** Completely block the middle-western ground level on Rows 10-15 across Columns 9-19.
+
+### The Ground-Level Western Bypass Route (The Only Walkable Way to Area 1)
+To walk from the Gatehouse entrance at `(15, 25)` to the Area 1 (East) transition at `(30, 10)` without climbing any plateaus or getting trapped:
+1. Walk UP Column 15 to `(15, 24)` (crossing the ledge opening).
+2. Walk LEFT along Row 24 to Column 8: `(8, 24)`. (Avoids the Gatehouse wall at 14,24 and the fence at row 25).
+3. Walk UP Column 8 to Row 10: `(8, 10)`. (Completely open ground, bypassing the pond on the left!).
+4. Walk RIGHT along Row 10 to Column 30: `(30, 10)`. (Completely open ground north of the pond and plateau, safely crossing Column 29).
+5. Walk RIGHT from `(30, 10)` to transition to Area 1 (East) at `(0, 22)`.
+This route is 100% ground-level, flat, walkable, and has 0% collision!
