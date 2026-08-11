@@ -59,3 +59,5 @@
 - Row 21 (y=21) is 100% open pavement across x=28..34, bypassing the NPC at (31, 20).
 - Row 19 (y=19) across x=32..37 is a continuous ONE-WAY LEDGE hopping South (blocks Northbound traversal from Row 20 to Row 18).
 - Column 34 (x=34) going South below Row 20 (y=20..24+) is open light gray pavement.
+- Tile (35, 26) is OPEN PAVEMENT below the double barrels at (35, 20..25).
+- Verified Tree Gap (36, 28): Column 36 (x=36) through (36, 28) connects Row 26 directly South to Row 30 South Street at (36, 30).
