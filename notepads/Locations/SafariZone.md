@@ -126,5 +126,8 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 - **Southern Edge Wall (Row 25):** Solid green shrubs/hedges block southward movement at `(29, 24)`, `(21, 25)`, `(20, 25)`, `(19, 25)` (Wait, (19, 25) is hypothesized to be the Gold Teeth item ball, which physically bumps when walked into!).
 - **Column 18 Shrub Barrier:** Solid green shrubs run vertically on column 18, rows 20-23, causing a bump when walking Left from `(19, 23)` to `(18, 23)`.
 - **Row 24 Shrub Barrier:** Solid green shrubs run horizontally on row 24, columns 17-29 (with a corridor on row 24 columns 18-21), blocking Left movement from `(18, 24)` to `(17, 24)`.
-- **The Secret House:** Located at columns 11-13, rows 11-12 of Area 3 (West). The entrance door is at `(12, 12)` (facing south, accessed from `(12, 13)`).
+- **Rest House 3:** Located at columns 11-13, rows 11-12 of Area 3 (West). The entrance door is at `(11, 11)` (facing south, accessed from `(11, 12)`). This was verified on Turn 32747.
 - **The Gold Teeth:** Positioned exactly at `(19, 25)`. This is why attempting to walk Down into `(19, 25)` from `(19, 24)` resulted in a physical bump—because of the item ball sprite's solid collision!
+- **Row 24 Western Barrier Tests:**
+  - Column 4, Row 24 is a solid tree barrier (bumped from (4, 23) on Turn 32758).
+  - Column 5, Row 24 is a solid tree barrier (bumped from (5, 23) on Turn 32759).
