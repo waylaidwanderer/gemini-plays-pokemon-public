@@ -8,14 +8,17 @@ def get_pos():
     return pos[0], pos[1]
 
 def run_away():
-    print("Attempting to run away from battle...")
-    # Clear any battle start text first
-    bridge.press_buttons(["B", "sleep 300", "B", "sleep 300", "B", "sleep 300"])
+    print("Attempting robust run away from battle...")
+    # Wait for battle start transition to fully finish
+    time.sleep(1.5)
+    # Clear "Wild POKEMON appeared!" text
+    bridge.press_buttons(["B", "sleep 500", "B", "sleep 500", "B", "sleep 500"])
     # Press Down, Right, A to select RUN
-    bridge.press_buttons(["Down", "Right", "A", "sleep 500"])
+    bridge.press_buttons(["Down", "sleep 300", "Right", "sleep 300", "A", "sleep 1000"])
+    # Press B to clear any post-battle dialogue
+    bridge.press_buttons(["B", "sleep 500"])
 
 def walk_step(direction):
-    # Press direction button
     bridge.press_buttons([direction, "sleep 300"])
 
 def navigate_path(path):
@@ -67,8 +70,23 @@ def navigate_path(path):
 def run_safari_speedrun():
     print("Starting Safari Speedrun from Center to Area 3 (West)...")
     
-    # 1. PATH 1: Center to Area 1 (East)
-    path1 = [(15, 16), (29, 16), (29, 11)]
+    # Check current position
+    start_pos = get_pos()
+    print(f"Starting position: {start_pos}")
+    if start_pos is None:
+        print("Cannot read starting position!")
+        return False
+        
+    # Segment 1: Center to Area 1 (East)
+    # We walk to (29, 11) from wherever we are (e.g. 24, 16)
+    path1 = [(29, 16), (29, 11)]
+    # Filter path1 to only include targets that make sense based on where we are
+    # Since we are at (24, 16), we can walk to (29, 16) first, then (29, 11).
+    if start_pos[0] > 29 or start_pos[1] < 11:
+        # If we are somehow in a weird place, just head straight to (29, 11)
+        path1 = [(29, 11)]
+        
+    print("Executing Path 1 (Center)...")
     if not navigate_path(path1):
         print("Failed on Path 1.")
         return False
@@ -76,17 +94,11 @@ def run_safari_speedrun():
     # Take 1 extra step Right to transition into Area 1 (East)
     print("Transitioning into Area 1 (East)...")
     walk_step("Right")
-    time.sleep(1.0) # Wait for map transition
+    time.sleep(1.0)
     
-    # Verify we are in Area 1 (East)
-    pos = get_pos()
-    print(f"Area 1 Position: {pos}")
-    if pos is None or pos[0] > 5:
-        print("Transition failed or unexpected coordinates. Trying to realign...")
-        # If we got blocked or are not at (0, 23), handle it
-    
-    # 2. PATH 2: Area 1 (East) to Area 2 (North)
+    # Segment 2: Area 1 (East) to Area 2 (North)
     path2 = [(20, 23), (20, 3), (7, 3), (7, 5), (0, 5)]
+    print("Executing Path 2 (Area 1)...")
     if not navigate_path(path2):
         print("Failed on Path 2.")
         return False
@@ -94,17 +106,14 @@ def run_safari_speedrun():
     # Take 1 extra step Left to transition into Area 2 (North)
     print("Transitioning into Area 2 (North)...")
     walk_step("Left")
-    time.sleep(1.0) # Wait for map transition
+    time.sleep(1.0)
     
-    # Verify we are in Area 2 (North)
-    pos = get_pos()
-    print(f"Area 2 Position: {pos}")
-    
-    # 3. PATH 3: Area 2 (North) to Area 3 (West)
+    # Segment 3: Area 2 (North) to Area 3 (West)
     path3 = [
         (22, 31), (22, 23), (22, 22), (16, 22), (16, 27), (16, 28), 
         (12, 28), (12, 33), (8, 33), (4, 33), (4, 35)
     ]
+    print("Executing Path 3 (Area 2)...")
     if not navigate_path(path3):
         print("Failed on Path 3.")
         return False
@@ -112,10 +121,10 @@ def run_safari_speedrun():
     # Take 1 extra step Down to transition into Area 3 (West)
     print("Transitioning into Area 3 (West)...")
     walk_step("Down")
-    time.sleep(1.0) # Wait for map transition
+    time.sleep(1.0)
     
-    pos = get_pos()
-    print(f"Arrived in Area 3 (West)! Position: {pos}")
+    final_pos = get_pos()
+    print(f"Arrived in Area 3 (West)! Position: {final_pos}")
     return True
 
 run_safari_speedrun()
