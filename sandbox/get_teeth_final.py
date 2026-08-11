@@ -1,65 +1,112 @@
 import time
+import sys
 import bridge
 
-print("Starting get_teeth_final.py...")
+# Set stdout to use utf-8
+sys.stdout.reconfigure(encoding='utf-8')
 
-def handle_battle():
-    print("Wild battle detected! Attempting to escape...")
-    for _ in range(5):
-        bridge.press_buttons(["B"])
-        time.sleep(0.4)
-    
-    bridge.press_buttons(["Down", "sleep 250", "Right", "sleep 250", "A"])
-    time.sleep(3.5) # Wait for escape animation
-    
-    # Dismiss "Got away safely!"
-    bridge.press_buttons(["B"])
-    time.sleep(1.0)
+def get_pos():
+    pos = bridge.get_coordinates()
+    if pos is None:
+        return None
+    return pos[0], pos[1]
 
-def walk_safely(buttons_sequence):
-    idx = 0
-    while idx < len(buttons_sequence):
-        # Battle check
-        pos = bridge.get_coordinates()
+def walk_step(direction):
+    bridge.press_buttons([direction, "sleep 350"])
+
+def run_away():
+    print("Wild battle/interaction detected! Executing RUN sequence...")
+    bridge.press_buttons(["B", "sleep 300", "B", "sleep 300", "B", "sleep 300"])
+    bridge.press_buttons(["Right", "sleep 200", "Down", "sleep 200", "A", "sleep 1200"])
+    bridge.press_buttons(["B", "sleep 300"])
+
+def navigate():
+    print("Starting Gold Teeth retrieval from (13, 15)...")
+    
+    # 1. Walk Left to (3, 15)
+    for _ in range(10):
+        pos = get_pos()
         if pos is None:
-            handle_battle()
-            pos = bridge.get_coordinates()
-            if pos is None:
-                time.sleep(1.0)
-                pos = bridge.get_coordinates()
-                if pos is None:
-                    print("Coordinates still None, escaping again...")
-                    handle_battle()
-                    pos = bridge.get_coordinates()
+            run_away()
             continue
+        walk_step("Left")
         
-        btn = buttons_sequence[idx]
-        print(f"Step {idx+1}/{len(buttons_sequence)}: Pressing {btn} at {pos}")
-        bridge.press_buttons([btn])
-        time.sleep(0.7)
-        idx += 1
+    print(f"At Column 3: {get_pos()}")
+    
+    # 2. Walk Down to (3, 20)
+    for _ in range(5):
+        pos = get_pos()
+        if pos is None:
+            run_away()
+            continue
+        walk_step("Down")
+        
+    print(f"At Row 20: {get_pos()}")
+    
+    # 3. Walk Right to (6, 20)
+    for _ in range(3):
+        pos = get_pos()
+        if pos is None:
+            run_away()
+            continue
+        walk_step("Right")
+        
+    print(f"At West Stairs base: {get_pos()}")
+    
+    # 4. Climb West Stairs to (6, 16)
+    for _ in range(4):
+        pos = get_pos()
+        if pos is None:
+            run_away()
+            continue
+        walk_step("Up")
+        
+    print(f"On plateau: {get_pos()}")
+    
+    # 5. Walk East to (21, 16)
+    for _ in range(15):
+        pos = get_pos()
+        if pos is None:
+            run_away()
+            continue
+        walk_step("Right")
+        
+    print(f"At East Stairs top: {get_pos()}")
+    
+    # 6. Descend East Stairs to (21, 18)
+    for _ in range(2):
+        pos = get_pos()
+        if pos is None:
+            run_away()
+            continue
+        walk_step("Down")
+        
+    print(f"At East Stairs base: {get_pos()}")
+    
+    # 7. Walk Down to (21, 24)
+    for _ in range(6):
+        pos = get_pos()
+        if pos is None:
+            run_away()
+            continue
+        walk_step("Down")
+        
+    print(f"At southern Row 24: {get_pos()}")
+    
+    # 8. Walk Left to (19, 24)
+    for _ in range(2):
+        pos = get_pos()
+        if pos is None:
+            run_away()
+            continue
+        walk_step("Left")
+        
+    pos = get_pos()
+    print(f"Standing below Gold Teeth at: {pos}")
+    if pos == (19, 24):
+        print("Picking up Gold Teeth...")
+        bridge.press_buttons(["A", "sleep 1000", "A", "sleep 1000", "B", "sleep 500"])
+        print("Retrieval Complete!")
 
-# Check current coordinates
-pos = bridge.get_coordinates()
-print(f"Current coordinates on plateau: {pos}")
-
-# 1. Walk across plateau to (21, 16) - 15 Right
-# 2. Descend East Stairs to (21, 18) - 2 Down
-# 3. Walk Down Column 21 to (21, 24) - 6 Down
-# 4. Walk Left to (19, 24) - 2 Left
-route_to_teeth = (
-    ["Right"] * 15 +
-    ["Down"] * 2 +
-    ["Down"] * 6 +
-    ["Left"] * 2
-)
-
-print("Walking across plateau and down column 21 to (19, 24)...")
-walk_safely(route_to_teeth)
-
-# Turn down and pick up teeth
-print("Facing down and picking up GOLD TEETH...")
-bridge.press_buttons(["Down", "sleep 500", "A", "sleep 1000", "B", "sleep 500", "B"])
-
-pos = bridge.get_coordinates()
-print(f"Final coordinates: {pos}")
+if __name__ == "__main__":
+    navigate()
