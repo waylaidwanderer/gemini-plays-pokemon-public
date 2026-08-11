@@ -69,11 +69,16 @@ def walk_to(target_x, target_y):
             consecutive_bumps = 0
 
 def main():
-    print("Starting final speedrun sequence from Center (7, 13)...")
+    print("Starting final speedrun sequence from Center...")
     
-    # We are at (7, 13) in Safari Zone Center
-    # 1. Walk DOWN to Row 22
-    if not walk_to(7, 22):
+    pos = get_pos()
+    if pos is not None and pos[1] < 15:
+        # Walk LEFT to Column 5 to bypass the Row 15 hedge wall
+        if not walk_to(5, pos[1]):
+            return
+            
+    # 1. Walk DOWN Column 5 to Row 22
+    if not walk_to(5, 22):
         print("Failed to reach Row 22")
         return
         
