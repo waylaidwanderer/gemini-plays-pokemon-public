@@ -69,94 +69,44 @@ def walk_to(target_x, target_y):
             consecutive_bumps = 0
 
 def main():
-    print("Starting speedrun via Area 3 Plateau Crossing (East-bound)...")
+    print("Starting speedrun to Secret House via Plateau Crossing...")
     
-    # We are at (1, 23)
-    # Walk to Column 6
-    if not walk_to(6, 23):
-        print("Failed to reach Column 6")
+    # We are at (21, 24)
+    # 1. Walk UP Column 21 to Row 18
+    if not walk_to(21, 18):
+        print("Failed to reach Row 18")
         return
         
-    # Walk to stairs base (6, 20)
-    if not walk_to(6, 20):
-        print("Failed to reach stairs base (6, 20)")
-        return
-        
-    # Climb stairs UP onto Plateau (6, 16)
-    if not walk_to(6, 16):
+    # 2. Climb stairs UP onto Plateau (21, 16)
+    if not walk_to(21, 16):
         print("Failed to climb stairs")
         return
         
-    # Walk EAST across plateau to Column 21 (21, 16)
-    if not walk_to(21, 16):
+    # 3. Walk LEFT across plateau to Column 6 (6, 16)
+    if not walk_to(6, 16):
         print("Failed to cross plateau")
         return
         
-    # Descend stairs DOWN to ground (21, 18)
-    if not walk_to(21, 18):
+    # 4. Descend stairs DOWN to ground (6, 20)
+    if not walk_to(6, 20):
         print("Failed to descend stairs")
         return
         
-    # Walk to Row 23 (21, 23)
-    if not walk_to(21, 23):
-        print("Failed to reach (21, 23)")
+    # 5. Walk LEFT to Column 3 (3, 20)
+    if not walk_to(3, 20):
+        print("Failed to reach (3, 20)")
         return
         
-    # Walk RIGHT to Column 30 (30, 23)
-    if not walk_to(30, 23):
-        print("Failed to reach (30, 23)")
+    # 6. Walk UP Column 3 to Row 8 (3, 8)
+    if not walk_to(3, 8):
+        print("Failed to reach (3, 8)")
         return
         
-    print("Transitioning into Center...")
-    walk_step("Right")
-    time.sleep(1.5)
-    
-    pos = get_pos()
-    print(f"Position inside Center: {pos}")
-    
-    # Walk to (19, 26)
-    if not walk_to(19, 26):
-        print("Failed to reach (19, 26)")
-        return
-        
-    print("Standing below Gold Teeth. Picking them up...")
-    bridge.press_buttons(["A", "sleep 1000", "A", "sleep 1000", "B", "sleep 500"])
-    
-    # Walk back to transition into Area 3 at (0, 11) in Center
-    path_part3 = [
-        (28, 26),
-        (28, 22),
-        (0, 22),
-        (0, 11)
-    ]
-    for target in path_part3:
-        if not walk_to(target[0], target[1]):
-            print("Failed in Part 3")
-            return
-            
-    print("Transitioning back to Area 3...")
-    walk_step("Left")
-    time.sleep(1.5)
-    
-    pos = get_pos()
-    print(f"Position inside Area 3: {pos}")
-    
-    # Walk to Secret House door (3, 8)
-    path_part4 = [
-        (29, 26),
-        (3, 26),
-        (3, 8)
-    ]
-    for target in path_part4:
-        if not walk_to(target[0], target[1]):
-            print("Failed in Part 4")
-            return
-            
     print("Arrived at Secret House door. Entering...")
     walk_step("Up")
     time.sleep(1.5)
     
-    print(f"Speedrun complete! Current position: {get_pos()}")
+    print(f"Overworld part complete! Current position: {get_pos()}")
 
 if __name__ == "__main__":
     main()
