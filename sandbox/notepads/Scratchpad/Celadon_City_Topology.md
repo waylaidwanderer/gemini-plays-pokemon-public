@@ -61,3 +61,14 @@
 - Column 34 (x=34) going South below Row 20 (y=20..24+) is open light gray pavement.
 - Tile (35, 26) is OPEN PAVEMENT below the double barrels at (35, 20..25).
 - Verified Tree Gap (36, 28): Column 36 (x=36) through (36, 28) connects Row 26 directly South to Row 30 South Street at (36, 30).
+
+## MASTER VERIFIED ROUTE TO GAME CORNER PLAZA (From 34, 27)
+1. Walk West 25 steps along Row 27 Highway to Column 9 at (9, 27).
+2. Walk North 11 steps along Column 9 to Row 16 Avenue at (9, 16).
+3. Walk East 22 steps along Row 16 Avenue to Column 31 at (31, 16).
+4. Walk South 2 steps along Column 31 to Row 18 at (31, 18).
+5. Walk East 3 steps along Row 18 to (34, 18).
+6. Walk East 2 steps through Column 35 Lawn Gap (35, 18) to Column 36 at (36, 18).
+7. Walk South 12 steps down Column 36 through tree gap (36, 28) to Row 30 South Street at (36, 30).
+8. Walk West 16 steps along Row 30 South Street to Column 20 at (20, 30).
+9. Walk South 6 steps along Column 20 into Game Corner Plaza warp at (20, 36).
