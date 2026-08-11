@@ -867,6 +867,7 @@
 - Row 20 (x=22..30+): 100% open paved street running East-West directly in front of Main Game Corner Casino door at (30, 19).
 - West Casino Sub-room Exit Mat (5, 13): Warps outside to Celadon City at tile (30, 19) / (30, 20).
 - Tile (17, 14): One-way ledge hopping South onto Row 16 at (17, 16). Stay on Row 12 (y=12) to bypass.
+- Tile (12, 14): One-way blue slope hopping South from Row 12 onto Row 16. Ascend Column 9 to Row 8 (y=8) to stay above all slopes.
 
 <hr>
 
