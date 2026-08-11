@@ -1067,6 +1067,7 @@
 3. Walk North 6 steps along Column 34 alleyway to Row 20 Street at (34, 20).
 4. Walk West 4 steps along Row 20 Street to (30, 20) directly facing Casino Door (30, 19).
 5. Step Up 1 into Casino Door (30, 19).
+- Column 35 barrels span y=20..27 (solid wall). Open crossing to Column 36 is Row 18 Lawn Gap at (35, 18).
 
 <hr>
 
