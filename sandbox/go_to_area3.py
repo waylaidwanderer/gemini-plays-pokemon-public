@@ -68,7 +68,7 @@ def run_safari_speedrun():
     print("Starting Safari Speedrun from Center to Area 3 (West)...")
     
     # 1. PATH 1: Center to Area 1 (East)
-    path1 = [(15, 11), (29, 11)]
+    path1 = [(15, 16), (29, 16), (29, 11)]
     if not navigate_path(path1):
         print("Failed on Path 1.")
         return False
