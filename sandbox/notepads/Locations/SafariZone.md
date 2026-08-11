@@ -126,15 +126,9 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 - **Southern Edge Wall (Row 25):** Solid green shrubs/hedges block southward movement at `(29, 24)`, `(21, 25)`, `(20, 25)`, `(19, 25)` (Wait, (19, 25) is hypothesized to be the Gold Teeth item ball, which physically bumps when walked into!).
 - **Column 18 Shrub Barrier:** Solid green shrubs run vertically on column 18, rows 20-23, causing a bump when walking Left from `(19, 23)` to `(18, 23)`.
 - **Row 24 Shrub Barrier:** Solid green shrubs run horizontally on row 24, columns 17-29 (with a corridor on row 24 columns 18-21), blocking Left movement from `(18, 24)` to `(17, 24)`.
-- **Rest House 3:** Located at columns 11-13, rows 11-12 of Area 3 (West). The entrance door is at `(11, 11)` (facing south, accessed from `(11, 12)`). This was verified on Turn 32747.
-
-- **Row 24 Western Barrier Tests (Completed Turn 32766):**
-  - Columns 2, 3, 4, and 5 on Row 24 are systematically and physically verified to be 100% solid tree barriers (bumped on Turns 32766, 32765, 32758, and 32759 respectively).
-  - This mathematically proves that the Row 24/25 cliff/tree wall is 100% solid across the entire width of Map Area 3 (West), completely separating the northern compartment (including the plateau, Rest House 3, and western ground level) from the southern ground level compartment.
-- **Turn 32787 Collision Verification:** Column 24, Row 14 is the hedge gap, but walking Left to (23, 14) is blocked by the solid vertical eastern cliff face of the plateau (bumped on Turn 32787).
-
-- **Re-verified Physical Bumps in Area 3 (West) (Turns 32706 - 32724):**
-  - Attempted Down from `(29, 23)` to `(29, 24)` resulting in a physical bump on Turn 32706 (solid shrub).
-  - Attempted Left from `(19, 23)` to `(18, 23)` resulting in a physical bump on Turn 32720/32721 (solid shrub).
-  - Attempted Left from `(18, 24)` to `(17, 24)` resulting in a physical bump on Turn 32722/32723 (solid shrub).
-  - Attempted Down from `(21, 24)` to `(21, 25)` resulting in a physical bump on Turn 32724 (solid shrub).
+- **Verified Collisions (Turns 32923 - 32936):**
+  - Attempted Left from `(18, 24)` to `(17, 24)` (solid shrub, bumped on Turn 32923).
+  - Attempted Down from `(18, 24)` to `(18, 25)` (solid shrub, bumped on Turn 32923).
+  - Attempted Left from `(18, 19)` to `(17, 19)` (cliff wall, bumped on Turn 32924).
+  - Attempted Down from `(18, 19)` to `(18, 20)` (solid tree, bumped on Turn 32924).
+  - Attempted Up from `(11, 20)` to `(11, 19)` (cliff wall, bumped on Turn 32936).
