@@ -88,3 +88,4 @@
 - Row 15 (y=15) is a continuous ONE-WAY LEDGE wall across x=8..15 (blocks Northbound traversal).
 - Central Celadon flows South along Column 10 (x=10, y=16..27) to Row 27 Highway at (10, 27).
 - Verified Tree Gap at (16, 28) / (17, 28): Open light gray pavement gap in Row 28 tree wall at (16, 28) and (17, 28).
+- Tile (10, 25): Double brown wooden barrels (bypassed via Column 9 at 9, 25).
