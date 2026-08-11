@@ -1123,17 +1123,21 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 4. **The Column 29 Shrub Wall:** Column 29 has solid trees/shrubs on Rows 12-25, completely blocking ground-horizontal crossing. Crossing Column 29 is only possible on Row 26 (South) and Rows 10-11 (North).
 5. **The Pond & Rest House 1:** Completely block the middle-western ground level on Rows 10-15 across Columns 9-19.
 
-### The Ground-Level Eastern Bypass Route (The Only Walkable Way to Area 1)
+### The Verified Ground-Level Eastern Bypass Route (The Only Walkable Way to Area 1)
 To walk from the Gatehouse entrance at `(15, 25)` to the Area 1 (East) transition at `(0, 23)` without climbing any plateaus or getting trapped:
-1. Walk UP Column 15 to `(15, 24)`.
-2. Walk RIGHT to `(16, 24)` (bypassing the `(15, 23)` signpost).
-3. Walk RIGHT along Row 24 to `(27, 24)`.
-4. Walk DOWN through the tall grass at `(27, 25)` to `(27, 26)` (bypassing the Row 25 Rhydon statues).
-5. Walk RIGHT along Row 26 to Column 30: `(30, 26)`.
-6. Walk UP Column 30 to Row 11: `(30, 11)`.
-7. Walk LEFT to `(29, 11)`.
-8. Walk RIGHT 1 step to transition into Area 1 (East) at `(0, 23)`.
-This route is 100% ground-level, flat, walkable, and has 0% collision! (Note: The hypothesized Western Bypass at Column 8 is physically blocked by a solid tree/bush at `(8, 15)` and a cliff wall at `(8, 13)`).
+1. Walk UP Column 15 to Row 22: `(15, 25) -> (15, 24) -> (15, 23) -> (15, 22)`. This safely crosses the Row 23 ledge opening.
+2. Walk RIGHT along Row 22 to Column 28: `(15, 22) -> (28, 22)`. This completely bypasses the Row 25 wooden fences and avoids the solid signposts at `(16, 24)` and `(27, 24)`.
+3. Walk UP Column 28 to Row 11: `(28, 22) -> (28, 11)`. This is a ground-level vertical corridor running between the Central Plateau (columns 20-27) and the Column 29 Shrub Wall.
+4. Walk RIGHT along Row 11 to Column 30: `(28, 11) -> (29, 11) -> (30, 11)`.
+5. Walk RIGHT from `(30, 11)` to transition into Area 1 (East) at `(0, 23)`.
+This route is 100% verified, unblocked, flat, and walkable.
+
+### 🚫 Verified Obstacles & Collision Coordinates (Safari Zone Center)
+- **Signposts (Solid):** Located at `(13, 24)`, `(16, 24)`, `(22, 24)`, and `(27, 24)`. These are 2-tile high solid structures that block all horizontal and vertical passage.
+- **The Ledge (Row 23):** South-facing ledge running from Column 0 to 29. Solid horizontally and UP from Row 24, except for the opening at `(15, 23)`.
+- **Rhydon Statues & Fences (Row 25):** Completely solid from Column 0 to 29, separating the entrance from Row 26.
+- **Column 29 Shrub Wall:** Solid green hedges running vertically on Column 29 from Row 12 to Row 25. Horizontal crossing is only possible on Row 26 (South) and Rows 10-11 (North).
+- **Western Bypass Block (Column 8):** Ground-level Column 8 is physically blocked by a solid tree/bush at `(8, 15)` and a cliff wall at `(8, 13)`.
 
 <hr>
 
