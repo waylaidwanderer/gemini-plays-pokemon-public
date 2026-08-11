@@ -1,7 +1,7 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 50781)
-- Location: Celadon City at (7, 26).
+## CURRENT STATUS & DASHBOARD (Turn 50782)
+- Location: Celadon City at (7, 18).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
 - Active Objective: Walk Down 7 to Row 27 (34, 27), West 25 to Column 9 (9, 27), North 11 to Row 16 (9, 16), East 3 to (12, 16), North 4 up staircase (12, 15) to Row 12 (12, 12), East 19 to (31, 12), North 1 to (31, 11), East 5 to Column 36 (36, 11), South 19 through tree gap (36, 28) to Row 30 South Street (36, 30), West 16 to (20, 30), and South 6 to Game Corner Plaza warp (20, 36).
 - Persistent Facts:
@@ -751,7 +751,7 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 50782)
+## CURRENT STATUS & DASHBOARD (Turn 50783)
 - Location: Celadon City at (7, 18).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
 - Active Objective: Walk Down 7 to Row 27 (34, 27), West 25 to Column 9 (9, 27), North 11 to Row 16 (9, 16), East 3 to (12, 16), North 4 up staircase (12, 15) to Row 12 (12, 12), East 19 to (31, 12), North 1 to (31, 11), East 5 to Column 36 (36, 11), South 19 through tree gap (36, 28) to Row 30 South Street (36, 30), West 16 to (20, 30), and South 6 to Game Corner Plaza warp (20, 36).
@@ -1397,5 +1397,6 @@ Empirically map every aisle on Columns 5, 6, and 7 across Rows 1..6 to verify if
 11. Walk South 6 steps along Column 20 into Game Corner Plaza warp at (20, 36).
 12. In Game Corner Plaza (10, 0), step Down 2 into door (10, 2) / (17, 27) to enter True Main Casino Floor at (3, 7).
 - Celadon Diner Building (x=12..15, y=22..25): Solid building (bypassed via Column 9 at 9, 21..27).
+- Gray Statue Wall (x=3..7, y=14..17): Continuous solid statue barrier.
 
 <hr>
