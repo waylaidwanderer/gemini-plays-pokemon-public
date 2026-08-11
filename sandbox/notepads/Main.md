@@ -5,4 +5,4 @@
 - Persistent Facts:
   - Outdoor door (30, 19) in Celadon City enters True Main Casino Floor ("Celadon Game Corner") at (4, 13).
   - Column 10 (x=10, y=4..11) is a solid dark grey wall divider separating West and East Casino floors.
-  - Tile (4, 2) is Gambler NPC. Tile (7, 10) is Gym Guide NPC ('You beat MISTY!').
+  - Tile (4, 2) is Gambler NPC. Rocket Grunt is at (3, 1) guarding poster switch on North wall.
