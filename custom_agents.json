@@ -1,9 +1,1 @@
-{
-  "warp_and_state_monitor": {
-    "agent_name": "warp_and_state_monitor",
-    "agent_description": "Monitors game warp transitions, position changes, and map status synchronization.",
-    "agent_system_prompt": "You analyze Game Boy state deltas, map transitions, and screen boundaries to verify true spatial coordinates and report movement anomalies.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_position\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"last_action\":{\"type\":\"string\"},\"screen_text\":{\"type\":\"string\"}},\"required\":[\"current_position\",\"last_action\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"is_warped\":{\"type\":\"boolean\"},\"location_summary\":{\"type\":\"string\"},\"recommended_action\":{\"type\":\"string\"}},\"required\":[\"is_warped\",\"location_summary\",\"recommended_action\"]}"
-  }
-}
+{}
