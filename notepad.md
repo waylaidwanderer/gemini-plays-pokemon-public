@@ -7,7 +7,7 @@
 - Persistent Facts:
   - Outdoor door (30, 19) in Celadon City enters True Main Casino Floor ("Celadon Game Corner") at (4, 13).
   - Column 10 (x=10, y=0..13) is a solid dark grey wall divider separating West and East Casino floors.
-  - Column 7 (7, 11) is the verified open dirt slope gap to Row 8 Northern Highway. Plaza door (17, 27) loads active staircase warp at (4, 4).
+  - Column 8 (8, 15) is the verified open dirt slope gap to Row 8 Northern Highway. Plaza door (17, 27) loads active staircase warp at (4, 4).
 
 <hr>
 
@@ -751,10 +751,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 50071)
-- Location: Celadon Game Corner at (7, 5).
+## CURRENT STATUS & DASHBOARD (Turn 50089)
+- Location: Celadon City at (10, 12).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Exit via South door mat (5, 13) to Celadon City (30, 20) and navigate to Game Corner Plaza door (17, 27).
+- Active Objective: Walk East along Row 12 Northern Highway to Column 36 tree gap, then South to Game Corner Plaza door (17, 27).
 - Persistent Facts:
   - Outdoor door (30, 19) in Celadon City enters True Main Casino Floor ("Celadon Game Corner") at (4, 13).
   - Column 10 (x=10, y=0..13) is a solid dark grey wall divider separating West and East Casino floors.
