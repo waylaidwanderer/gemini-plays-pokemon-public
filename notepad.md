@@ -1266,15 +1266,11 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - **Max Potion:** Located on the ground at `(8, 20)`. This is a solid overworld item ball sprite. It was successfully picked up by standing at `(7, 20)` facing Right on Turn 27623.
 - **Signpost at (24, 22):** Reads "AREA 3 EAST: CENTER AREA" (Turn 27655).
 
-- **The Secret House Door Warp & Gen 1 Tileset Collision Quirk (HYPOTHESIS to be tested on this run):**
-  - The Secret House is hypothesized to be in the southwest corner of Area 3 (West).
-  - Crucially, its door warp is hypothesized to be located at coordinate `(3, 19)`.
-  - On the overworld screen, `(3, 19)` is rendered as a dark green shrub (hedge) graphic. This is a hypothesized Gen 1 tileset collision/warp rendering quirk!
-  - Walking UP Column 3 from Row 20 (`(3, 20)`) directly into `(3, 19)` is hypothesized to trigger the warp into the Secret House, bypassing the visual shrub graphic. This must be empirically tested on this run.
-  - The building at `(11, 11)` is Rest House 3, which has three regular NPCs and does NOT contain Surf. The real Secret House is hypothesized to be at `(3, 19)`.
-- **The Gold Teeth Location:**
-  - The Gold Teeth are located on the ground at `(19, 7)` or in the southern ground level.
-
+### 🔍 Verified Area 3 (West) Landmarks & Paths
+- **Gold Teeth:** Empirically verified to be located at `(19, 25)` on the southern ground level. The player can stand at `(19, 24)` facing Down to pick them up.
+- **Southwest Area:** Walked Column 3 from Row 20 up to Row 14 (`(3, 20)` to `(3, 14)`), proving `(3, 19)` and `(3, 18)` are walkable grass/trees with NO secret warp or door.
+- **Southern Passage Access:** The southern ground level (containing Row 24-28) is accessed from Column 21 on the east side. Walk south past the East Stairs on Column 21 to Row 24, and then walk west.
+- **The Row 26 Highway:** Row 26 is completely open and serves as a horizontal ground-level path connecting the eastern area (Column 19/21) to the western area (Columns 3-10), bypassing the hedge barriers on Rows 24 and 25.
 
 ## Area 1 (East) Detailed Overworld Layout & Barriers
 
@@ -1344,12 +1340,6 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
   - Attempted Left from `(18, 19)` to `(17, 19)` (cliff wall, bumped on Turn 32924).
   - Attempted Down from `(18, 19)` to `(18, 20)` (solid tree, bumped on Turn 32924).
   - Attempted Up from `(11, 20)` to `(11, 19)` (cliff wall, bumped on Turn 32936).
-### Verified Collisions (Turns 32950 - 33008)
-- Attempted Up from (1, 16) to (1, 15) (solid tree canopy, bumped on Turn 33008).
-- Attempted Left from (1, 20) to (0, 20) (solid tree, bumped on Turn 32950).
-- Attempted Left from (1, 19) to (0, 19) (solid tree, bumped on Turn 32953).
-- Attempted Up from (12, 20) to (12, 19) (solid cliff, bumped on Turn 32959).
-- Attempted Down from (11, 15) to (11, 16) (solid cliff, bumped on Turn 32992).
 
 <hr>
 
