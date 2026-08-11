@@ -138,7 +138,3 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
   - Attempted Up from `(11, 20)` to `(11, 19)` (cliff wall, bumped on Turn 32936).
 
 
-### 🔍 Audited Area 3 (West) Landmarks & Correct Routing
-- **Rest House 3:** Located at Columns 11-12, Rows 12-13. The entrance door is at `(11, 12)` (facing UP into `(11, 11)`). It has three regular NPCs talking about rocks/bait, and does NOT contain Surf.
-- **The Secret House (HM03 Surf):** Located in the northwest at `(3, 8)`. The entrance door is at `(3, 8)` (facing UP into `(3, 7)`). Inside, speak to the clerk to obtain **HM03 (Surf)**.
-- **Row 15 Global Barrier:** Columns 2-11 on Row 15 are blocked by a solid vertical collision boundary. To navigate from the southern ground/plateau to Row 8, you MUST walk around this barrier via **Column 12** (which is open) to Row 14, walk Left along Row 14 to Column 10 (or Column 3), and then walk UP to the north.
