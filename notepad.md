@@ -1094,6 +1094,12 @@
 - Tile (8, 15) is the 100% PASSABLE DIRT SLOPE GAP in the Row 15 border, connecting Row 16 Avenue directly North to Column 8 Avenue (8, 12..14)!
 - Tree at (19, 9) blocks direct Eastward traversal along Row 9 Northern Highway at x=19.
 - Bypass around tree at (19, 9): From (18, 9), walk Down 3 to (18, 12), Right 2 to (20, 12), Up 3 to (20, 9) on the East lawn!
+## Master Topological Proof & Unblocked Route (Turn 50368)
+1. Column 19 is a continuous North-South barrier (trees/slopes y=5..11).
+2. Celadon Northwest Building (9, 11 <-> 9, 9) connects Row 12 Avenue to West Northern Highway.
+3. Row 12 Avenue (y=12) is 100% open across x=9..31.
+4. Column 20 (x=20) connects Row 12 Avenue (20, 12) directly North to East Northern Highway at (20, 8).
+5. East Northern Highway (y=8, x=20..36) connects directly to Column 36 (x=36) and South Street tree gap (36, 28) -> Game Corner Plaza warp (20, 36)!
 
 <hr>
 
