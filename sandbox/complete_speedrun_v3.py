@@ -69,59 +69,63 @@ def walk_to(target_x, target_y):
             consecutive_bumps = 0
 
 def main():
-    print("Starting speedrun via Column 3 route...")
+    print("Starting optimized speedrun using flat-ground routes...")
     
-    # We are at (7, 17)
-    # Walk LEFT to Column 6
-    if not walk_to(6, 17):
-        print("Failed to reach Column 6")
-        return
-        
-    # Walk DOWN to descend stairs to (6, 20)
-    if not walk_to(6, 20):
-        print("Failed to descend stairs to (6, 20)")
-        return
-        
-    # Walk LEFT to Column 3 on Row 20
-    if not walk_to(3, 20):
-        print("Failed to reach (3, 20)")
-        return
-        
-    # Walk UP Column 3 to Row 14
-    if not walk_to(3, 14):
-        print("Failed to reach (3, 14)")
-        return
-        
-    # Walk LEFT along Row 14 to Column 0
-    if not walk_to(0, 14):
-        print("Failed to reach (0, 14)")
-        return
-        
-    # Walk UP Column 0 to Row 13
-    if not walk_to(0, 13):
-        print("Failed to reach (0, 13)")
-        return
-        
+    # --- Part 1: Walk in Area 3 (West) to East Edge Transition ---
+    print("--- PART 1: Navigating to Center Transition (30, 23) in Area 3 ---")
+    path_part1 = [
+        # Walk Down to Row 26 (Highway)
+        (1, 26),
+        # Walk Right along Row 26 to Column 21
+        (21, 26),
+        # Walk Up to Row 23
+        (21, 23),
+        # Walk Right to Column 30
+        (30, 23)
+    ]
+    for target in path_part1:
+        if not walk_to(target[0], target[1]):
+            print("Failed in Part 1")
+            return
+            
     print("Transitioning into Center...")
-    walk_step("Left")
+    walk_step("Right")
     time.sleep(1.5)
     
+    # --- Part 2: Walk in Center to get Gold Teeth ---
+    print("--- PART 2: Retrieving Gold Teeth ---")
     pos = get_pos()
     print(f"Position inside Center: {pos}")
     
-    # Walk to (19, 26)
-    if not walk_to(19, 26):
-        print("Failed to reach (19, 26)")
-        return
-        
+    path_part2 = [
+        # Walk Down to Row 22
+        (0, 22),
+        # Walk Right to Column 28
+        (28, 22),
+        # Walk Down to Row 26
+        (28, 26),
+        # Walk Left to Column 19
+        (19, 26)
+    ]
+    for target in path_part2:
+        if not walk_to(target[0], target[1]):
+            print("Failed in Part 2")
+            return
+            
     print("Standing below Gold Teeth. Picking them up...")
     bridge.press_buttons(["A", "sleep 1000", "A", "sleep 1000", "B", "sleep 500"])
     
-    # Walk back to transition into Area 3 at (0, 14)
+    # --- Part 3: Walk in Center to Transition back to Area 3 (West) ---
+    print("--- PART 3: Navigating to Area 3 Transition (0, 11) in Center ---")
     path_part3 = [
-        (5, 26),
-        (5, 14),
-        (0, 14)
+        # Walk Right to Column 28
+        (28, 26),
+        # Walk Up to Row 22
+        (28, 22),
+        # Walk Left to Column 0
+        (0, 22),
+        # Walk Up to Row 11
+        (0, 11)
     ]
     for target in path_part3:
         if not walk_to(target[0], target[1]):
@@ -132,13 +136,17 @@ def main():
     walk_step("Left")
     time.sleep(1.5)
     
+    # --- Part 4: Walk in Area 3 (West) to enter the Secret House ---
+    print("--- PART 4: Entering Secret House ---")
     pos = get_pos()
     print(f"Position inside Area 3: {pos}")
     
-    # Walk to Secret House door (3, 8)
     path_part4 = [
-        (0, 14),
-        (0, 8),
+        # Walk Down to Row 26
+        (29, 26),
+        # Walk Left to Column 3
+        (3, 26),
+        # Walk Up to Row 8
         (3, 8)
     ]
     for target in path_part4:
