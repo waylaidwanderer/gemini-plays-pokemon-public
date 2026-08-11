@@ -55,7 +55,7 @@ def walk_to_target(tx, ty):
             stuck_count += 1
             print(f"Blocked! Didn't move from ({cx}, {cy}) trying to go {dir_btn}. Stuck: {stuck_count}")
             if stuck_count > 3:
-                print("Running RUN sequence to clear possible battle/text.")
+                print("Running RUN sequence to clear.")
                 run_away()
                 stuck_count = 0
                 time.sleep(1.0)
@@ -63,25 +63,37 @@ def walk_to_target(tx, ty):
             stuck_count = 0
     return True
 
-def run_segment():
-    print("Starting ground level route with Row 23 bypass to Area 1 (East) from (27, 24)...")
+def run_bypass():
+    print("Starting optimized ground-level bypass to Area 1 (East) via Column 22...")
     
-    path = [
-        (27, 23), (30, 23), (30, 26), (30, 11), (29, 11)
-    ]
+    # 1. Climb down stairs to ground level (24, 16)
+    if not walk_to_target(24, 14):
+        return False
+    if not walk_to_target(24, 15):
+        return False
+    # Walk DOWN onto ground level (24, 16)
+    walk_step("Down")
+    time.sleep(1.0)
     
-    for tx, ty in path:
-        if not walk_to_target(tx, ty):
-            print(f"Failed to reach target: ({tx}, {ty})")
-            return False
-            
-    print("At transition coordinate (29, 11). Walking Right to transition...")
+    # 2. Walk Left to Column 22
+    if not walk_to_target(22, 16):
+        return False
+        
+    # 3. Walk DOWN Column 22 to Row 26 (bypassing the Row 25 barrier)
+    if not walk_to_target(22, 26):
+        return False
+        
+    # 4. Walk RIGHT along Row 26 to Column 29
+    if not walk_to_target(29, 26):
+        return False
+        
+    print("At transition coordinate (29, 26). Walking Right to transition...")
     walk_step("Right")
     time.sleep(1.5)
     
     new_pos = get_pos()
-    print(f"Transition complete. New position: {new_pos}")
+    print(f"Transition complete! New position: {new_pos}")
     return True
 
 if __name__ == "__main__":
-    run_segment()
+    run_bypass()
