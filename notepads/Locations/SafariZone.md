@@ -127,7 +127,8 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 - **Column 18 Shrub Barrier:** Solid green shrubs run vertically on column 18, rows 20-23, causing a bump when walking Left from `(19, 23)` to `(18, 23)`.
 - **Row 24 Shrub Barrier:** Solid green shrubs run horizontally on row 24, columns 17-29 (with a corridor on row 24 columns 18-21), blocking Left movement from `(18, 24)` to `(17, 24)`.
 - **Rest House 3:** Located at columns 11-13, rows 11-12 of Area 3 (West). The entrance door is at `(11, 11)` (facing south, accessed from `(11, 12)`). This was verified on Turn 32747.
-- **The Gold Teeth:** Positioned exactly at `(19, 25)`. This is why attempting to walk Down into `(19, 25)` from `(19, 24)` resulted in a physical bump—because of the item ball sprite's solid collision!
+
 - **Row 24 Western Barrier Tests (Completed Turn 32766):**
   - Columns 2, 3, 4, and 5 on Row 24 are systematically and physically verified to be 100% solid tree barriers (bumped on Turns 32766, 32765, 32758, and 32759 respectively).
   - This mathematically proves that the Row 24/25 cliff/tree wall is 100% solid across the entire width of Map Area 3 (West), completely separating the northern compartment (including the plateau, Rest House 3, and western ground level) from the southern ground level compartment.
+- **Turn 32787 Collision Verification:** Column 24, Row 14 is the hedge gap, but walking Left to (23, 14) is blocked by the solid vertical eastern cliff face of the plateau (bumped on Turn 32787).
