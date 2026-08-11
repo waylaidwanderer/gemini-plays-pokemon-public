@@ -959,6 +959,11 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 - **Verified spatial boundaries (Turn 33355):**
   - Up movement from (24, 27) to (24, 26) is blocked by a solid building wall (the Warden's House).
   - Column 25 has solid fence posts at Rows 28 and 29.
+## 🧪 Verified Northern Fuchsia City Collisions (Turns 34554 - 34559)
+- **Column 17 and Column 14 (Rows 6-12):** Continuous solid overworld tree walls that block horizontal ground traversal on the north side of Fuchsia City.
+- **Row 7 Barrier:** A continuous solid pine tree wall running horizontally from Column 13 to Column 35, completely blocking direct vertical traversal from the south to the northern corridor (Row 2).
+- **Column 37 Passage:** The ONLY walkable vertical gap in the Row 7 tree barrier, allowing players to walk UP from Row 8/9 to Row 2 to reach the northernmost corridor.
+- **Safari Gatehouse Roof/Wall Block (Rows 3-7, Columns 16-21):** Completely solid structure, preventing direct northern passage on Column 18 from Row 8. Players must detour east to Column 37, walk up to Row 2, walk left to Column 22, and then walk down to enter.
 
 <hr>
 
