@@ -1231,25 +1231,8 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - **Column 18 Vertical Barrier (Rows 20-23):** A solid tree/wall structure running vertically on Column 18 across rows 20-23, blocking horizontal ground-level passage.
 - **Horizontal Cliff Wall (Rows 24-25):** Runs horizontally across the map, separating the north ground level from the south ground level:
   - Row 24 on Columns 2-9 is solid cliff wall/trees (Column 19 is the open gap to the south).
-  - Row 25 is a completely solid fence/barrier from Column 2 to Column 27 (fences, fence posts, and trees), and Column 1 has solid boundary trees, meaning there is NO ground-level horizontal crossing on the south side of Area 3 (West).
-  - **Direct Verification (Turn 31557-31559):** Confirmed Column 19, Row 25 is blocked (Turn 31557), Column 20, Row 25 is blocked (Turn 31558), and Column 21, Row 25 is blocked (Turn 31559).
-  
-
-### Verified Physical Collision Barriers
-- **Row 19 Column 13 Plateau Wall (Area 3 West):** Physically verified on Turn 32506. Attempting to walk UP from (13, 20) to (13, 19) results in bumping, proving Row 19 Column 13 is a solid plateau cliff face.
-- **Row 18 Column 29 Boundary (Area 3 West):** Physically verified on Turn 32512/32513. Attempting to walk RIGHT from (28, 18) to (29, 18) results in bumping, proving Column 29 Row 18 is a solid tree.
-- **Row 25 Column 13 Barrier (Area 3 West):** Physically verified on Turn 32503. Attempting to walk DOWN from (13, 24) to (13, 25) results in bumping, proving Row 25 Column 13 is a solid tree.
-- **Row 24 Column 9 Barrier (Area 3 West):** Physically verified on Turn 32466. Attempting to walk DOWN from (9, 23) to (9, 24) results in bumping, proving Row 24 Column 9 is a solid tree.
-- **Row 24 Column 28 Barrier (Area 3 West):** Physically verified on Turn 32485. Attempting to walk DOWN from (28, 23) to (28, 24) results in bumping, proving Row 24 Column 28 is blocked by trees/fences.
-- **Row 24 Column 16 Tree Barrier (Area 3 West):** Physically verified on Turn 32442. Attempting to walk RIGHT from (15, 24) to (16, 24) results in bumping, proving Row 24 Column 16 is blocked.
-- **Row 25 Column 14 Barrier (Area 3 West):** Physically verified on Turn 32438. Attempting to walk DOWN from (14, 24) to (14, 25) results in bumping, proving Row 25 Column 14 is blocked.
-- **Row 25 Column 15 Barrier (Area 3 West):** Physically verified on Turn 32436. Attempting to walk DOWN from (15, 24) to (15, 25) results in bumping, proving Row 25 Column 15 is blocked.
-- **Row 7 Column 13 Plateau Wall (Area 1 East):** Physically verified on Turn 32393. Attempting to walk RIGHT from (12, 7) to (13, 7) on the stairs results in bumping, proving the plateau side-walls are solid.
-- **Row 17 Column 29 Boundary (Safari Zone Center):** Physically verified on Turn 32381. Attempting to walk RIGHT from (28, 17) to (29, 17) results in bumping, proving Column 29 Row 17 is blocked.
-- **Row 24 Column 3 Tree Barrier (Area 3 West):** Physically verified on Turn 32352. Attempting to walk DOWN from (3, 23) to (3, 24) results in bumping, proving Row 24 Column 3 is a solid tree trunk barrier.
-- **Row 24 Column 17 Tree Barrier (Area 3 West):** Physically verified on Turn 32268. Attempting to walk DOWN from (17, 23) to (17, 24) results in bumping, proving Row 24 Column 17 is a solid tree trunk barrier.
-- **Row 25 Columns 18-21 Barrier (Area 3 West):** Physically verified on this run. Row 25 at Columns 18, 19, 20, 21 is completely blocked going DOWN (Turn 32316 for Column 19, Turn 32324 for Column 18, Turn 32330 for Column 21, Turn 32331 for Column 20).
-- **Column 18 Vertical Barrier (Rows 20-23):** Completely blocks horizontal ground-level passage (Turn 32339).
+  - Row 25 on Columns 10-21 is solid cliff wall.
+  - Row 24 on Columns 22-29 is solid cliff wall.
 
 ### Western Ground Level & Items
 - **Western Ground Grass (Rows 20-24, Columns 2-12):** A large patch of tall grass where wild battles can occur.
@@ -1268,12 +1251,6 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - **Northeastern/Northern Barriers:**
   - Row 4 is blocked by trees at columns 20-27.
   - Row 3 is blocked by a tree at `(28, 3)`.
-- **Hedge/Shrub Walkability:** Verified on Turn 32605. Hedges on Row 24 Columns 14-17 have 0% collision and behave like tall grass (fully traversable, can trigger wild encounters).
-- **Row 25 Solid Boundary:** Verified on Turns 32602 and 32604. Row 25 at Columns 9 and 12 is a solid barrier (bumping when attempting to walk DOWN from Row 24). Row 25 acts as a continuous solid boundary across the bottom of the map.
-- **Row 23 Cliff Face:** Verified on Turn 32601. Row 23 is a solid cliff face across Columns 8-12, blocking northward traversal from Row 24.
-- **Row 22 Column 29 Barrier (Safari Zone Center):** Physically verified on Turn 32590. Attempting to walk RIGHT from (28, 22) to (29, 22) results in bumping, proving the pine tree graphic at (29, 22) is solid from the Center side.
-- **Row 24 Column 6 Tree Barrier (Area 3 West):** Physically verified on Turn 32676. Attempting to walk DOWN from (6, 23) to (6, 24) results in bumping, proving Row 24 Column 6 is a solid tree trunk/hedge barrier.
-- **Row 23 Column 0 Tree Barrier (Area 3 West):** Physically verified on Turn 32684. Attempting to walk LEFT from (1, 23) to (0, 23) results in bumping, proving Row 23 Column 0 is a solid tree trunk/boundary barrier.
 
 ### Key Bridges & Plateaus
 - **The Northern Plateau Island:** Raised cliff system at columns 11-18, rows 4-7. This serves as the ONLY physical bridge connecting the western ground level to the eastern ground level.
@@ -1283,7 +1260,6 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 ### Map Transitions & Exits
 - **Exit to Area 2 (North):** Located at `(0, 5)` on row 5, which is reachable from the northern ground corridor.
 - **Column 20 Hedge Passage (Rows 4-6):** Empirically verified on Turn 29054. Hedges on Column 20 at Rows 4 and 6 have 0% collision, enabling players to walk directly UP to Row 3.
-- **Row 5 Column 19 Cliff Face Barrier (Area 1 East):** Empirically verified on Turn 32167. Row 5, Column 19 has a solid cliff face, blocking leftward ground-level crossing from (20, 5) and forcing the use of the Northern Corridor Bypass Route.
 - **Row 3 Obstruction (Col 5):** A solid pine tree at `(5, 3)` blocks direct horizontal passage on Row 3.
 - **Northern Corridor Bypass Route:** From Column 20 Row 3, walk left to `(7, 3)`, walk Down to `(7, 5)` (bypassing the `(6, 4)` building door and the `(5, 3)` pine tree), and then walk Left along Row 5 to `(0, 5)` to transition to Area 2 (North) safely. Avoid transitioning at `(0, 3)`, which is a trap!
 
@@ -1293,7 +1269,6 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - **The Column 11 Tree Wall:** A solid vertical line of pine trees on Column 11 across Rows 0-7, completely blocking direct ground-level horizontal crossing on those rows.
 - **The Southern Ground Corridor:** Rows 10-22 are open ground, allowing players to walk Left to Column 0 around the central water pond.
 - **Western Edge Transition to Area 3 (West):** Located on Column 0, Row 11 (`(0, 11)`), transitioning directly to Area 3 (West) at `(30, 23)`. This ground-level path completely bypasses Area 2 (North).
-  - **Direct Verification (Turn 31646-31647):** Confirmed Column 0, Row 21 is blocked by solid boundary trees (Turn 31646), and Column 0, Row 18 is blocked by solid boundary trees/bushes (Turn 31647). There is no ground-level transition south of Row 14.
 
 ## Gold-Standard Speedrun Route from Area 1 (East) to Area 3 (West)
 1. **Northeast Channel:** From Area 1 (East) ground level, walk UP Column 20 (which is completely open and walkable, including the tree graphic at `(20, 4)`) to Row 5 (`(20, 5)`).
@@ -1318,40 +1293,18 @@ We have systematically probed the horizontal and vertical boundaries of Safari Z
 ### Refutation of Hypothesized Shortcuts:
 1. **The Row 11 Shortcut (Refuted Turn 30392):** Walking Left along Row 11 is completely blocked by the central water pond on Columns 18-21 (visually confirmed blue water tiles on screen).
 2. **The Row 16/17 Shortcut (Refuted Turn 30402):** Row 16 on Columns 2-5 is blocked by a continuous horizontal hedge wall (visually confirmed in `player_around_6_16.png` and at coordinate `(2, 17)`). Columns 0-1 on Row 16 and 17 are blocked by solid overworld pine trees.
-  - **Direct Verification (Turn 31591):** Confirmed Column 6, Row 15 is blocked by a hedge, and Row 16 has hedges on Columns 2-5, creating a perfect interlocking barrier with Columns 6-9 (Row 15 blocked, Row 16 open), preventing any ground-level horizontal crossing on the west side.
 3. **The Rest House / Pond Block:** Rest House 1 blocks Columns 10-15 on Rows 14-15. The pond blocks Columns 9-17 on Rows 10-14. This creates an unbroken barrier of water and buildings across the middle.
 
 ### Conclusion:
 To reach Area 3 (West), the player **MUST** use the intended speedrun route across three maps:
 **Safari Zone Center -> Area 1 (East) -> Area 2 (North) -> Area 3 (West)**.
 Any attempt to find a ground-level shortcut within Safari Zone Center is mathematically blocked by map collision.
-
-### 🧪 Empirically Verified Barriers and Collisions (Burden of Proof Verified)
-The following physical barriers and collision coordinates have been verified through direct physical testing in Safari Zone Area 3 (West):
-1. **Row 17 Column 19 Ledge:** Row 17 is a solid cliff wall on Column 19, blocking northward movement on Column 19 from Row 18 on the ground level (Turn 32009).
-2. **Column 18 Vertical Hedge (Rows 20-23):** Solid vertical barrier blocking horizontal crossing (Turn 31942).
-3. **Column 22 Row 24 Blockage:** Solid dark clumps block southward movement (Turn 31951).
-4. **Column 14 Rows 15-16 Tree Wall:** Solid vertical tree wall on Column 14, blocking horizontal crossing on Rows 15-16 of the plateau (Turn 31955).
-5. **Column 14 Row 14 Blockage:** Solid tree/cliff blocks horizontal crossing (Turn 31957).
-6. **Column 14 Row 10 Blockage:** Solid tree blocks horizontal crossing (Turn 31965).
-7. **Column 17 Rows 8-10 Cliff Wall:** Solid vertical cliff face blocking horizontal crossing (Turn 31968).
-8. **Column 10 Rows 7-8 Cliff Wall:** Solid cliff wall blocking horizontal crossing (Turn 31970/31973).
-9. **Column 11 Row 5 Blockage:** Solid cliff/hedge blocks upward movement (Turn 31975).
-10. **Row 24 Column 24 Blockage:** Solid dark clumps block southward movement (Turn 32007).
-11. **Column 19 Row 25 Blockage:** Solid cliff face blocks southward movement (Turn 32013).
-12. **Columns 12-15 Row 25 Cliff Wall:** Solid horizontal cliff wall blocks southward ground-level movement (Turn 32021).
-
-### 🧪 Verified Physical Collisions & Barriers (Added Turn 32101)
-1. **Column 25 Row 0 and Row 1 Blockage:** Completely blocked by solid overworld tree trunks (Turn 32034).
-2. **Column 24 Vertical Hedge Wall (Rows 3-13):** Verified as a continuous solid hedge wall with 100% collision, completely blocking horizontal passage (Turn 32035).
-3. **Column 23 Row 14 Cliff Collision:** Verified as a solid cliff corner face, blocking ground-level northward passage and preventing Column 23 from serving as a direct ground-level bypass (Turn 32007/32057).
-4. **Column 29 Row 22 (Safari Zone Center) Blockage:** Verified as a solid vertical line of bushes on Column 29, blocking direct ground-level horizontal crossing on Row 22 (Turn 32097).
-5. **Row 15 Column 28 (Area 1 East) Tree Blockage:** Solid tree trunk/canopy on Row 15, Column 28, completely blocking northward ground-level crossing on Column 28 (Turn 32122).
-6. **Row 12 Columns 24-26 (Area 1 East) Cliff Barrier:** Solid horizontal cliff face/edge, blocking northward ground-level crossing on Columns 24-26 and confirming the southeastern plateau (rows 12-15) is a dead end with no north-bound ground-level or stair-climb transitions (Turn 32125/32127).
-7. **Row 23 Column 8 (Area 1 East) Blockage:** Verified as a solid cliff face, blocking northward ground-level traversal on Column 8 from Row 24 (Turn 32148).
-8. **Row 23 Column 9 (Area 1 East) Blockage:** Verified as a solid cliff face, blocking northward ground-level traversal on Column 9 from Row 24 (Turn 32149).
-9. **Row 23 Column 12 (Area 1 East) Blockage:** Verified as a solid cliff face, blocking northward ground-level traversal on Column 12 from Row 24 (Turn 32151).
-
+### Verified Collisions & Landmarks in Area 3 (West) (Turns 32706 - 32738)
+- **Southern Edge Wall (Row 25):** Solid green shrubs/hedges block southward movement at `(29, 24)`, `(21, 25)`, `(20, 25)`, `(19, 25)` (Wait, (19, 25) is hypothesized to be the Gold Teeth item ball, which physically bumps when walked into!).
+- **Column 18 Shrub Barrier:** Solid green shrubs run vertically on column 18, rows 20-23, causing a bump when walking Left from `(19, 23)` to `(18, 23)`.
+- **Row 24 Shrub Barrier:** Solid green shrubs run horizontally on row 24, columns 17-29 (with a corridor on row 24 columns 18-21), blocking Left movement from `(18, 24)` to `(17, 24)`.
+- **The Secret House:** Located at columns 11-13, rows 11-12 of Area 3 (West). The entrance door is at `(12, 12)` (facing south, accessed from `(12, 13)`).
+- **The Gold Teeth:** Positioned exactly at `(19, 25)`. This is why attempting to walk Down into `(19, 25)` from `(19, 24)` resulted in a physical bump—because of the item ball sprite's solid collision!
 
 <hr>
 
