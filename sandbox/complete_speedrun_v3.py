@@ -68,29 +68,35 @@ def walk_to(target_x, target_y):
         else:
             consecutive_bumps = 0
 
-def run_segment_2_fixed():
-    print("=== SEGMENT 2 (Fixed): Area 1 (East) -> Area 2 (North) ===")
+def run_segment_3():
+    print("=== SEGMENT 3: Area 2 (North) -> Area 3 (West) ===")
     path_points = [
-        # Start at (20, 6)
-        # 1. Walk UP Column 20 to Row 3
-        (20, 3),
-        # 2. Walk LEFT Row 3 to Column 7
-        (7, 3),
-        # 3. Walk DOWN Column 7 to Row 5
-        (7, 5),
-        # 4. Walk LEFT Row 5 to Column 0
-        (0, 5),
-        # 5. Transition Left into Area 2 (North)
-        (-1, 5)
+        # Start at (18, 32)
+        # 1. Walk RIGHT to Column 22
+        (22, 32),
+        # 2. Walk UP to Row 23
+        (22, 23),
+        # 3. Climb stairs UP onto Western Southern Plateau (22, 22)
+        (22, 22),
+        # 4. Walk LEFT on plateau to Column 16
+        (16, 22),
+        # 5. Descend stairs DOWN to Row 33 (16, 33)
+        (16, 33),
+        # 6. Walk LEFT along Row 33 to Column 9
+        (9, 33),
+        # 7. Walk DOWN Column 9 to Row 36
+        (9, 36),
+        # 8. Transition DOWN into Area 3 (West)
+        (9, 37)
     ]
 
     for idx, target in enumerate(path_points):
         print(f"--- Sub-Segment {idx+1}: Navigating to target {target} ---")
         
-        # Check if we transitioned maps (detect x coordinate jump)
+        # Check if we transitioned maps (detect y coordinate jump or x coordinate jump)
         curr = get_pos()
-        if curr is not None and idx >= 3: # Near the end of Area 1
-            if curr[0] > 30 or curr[1] > 28: # Typical Area 2 coords e.g., (39, 31)
+        if curr is not None and idx >= 7: # Near the end of Area 2
+            if curr[1] < 5: # Area 3 coords are around row 0, e.g. (9, 0)
                 print(f"Map transition detected early at: {curr}")
                 break
                 
@@ -98,8 +104,8 @@ def run_segment_2_fixed():
             print(f"Failed at sub-segment {idx+1}")
             return False
             
-    print(f"Segment 2 complete. Position: {get_pos()}")
+    print(f"Segment 3 complete. Position: {get_pos()}")
     return True
 
 if __name__ == "__main__":
-    run_segment_2_fixed()
+    run_segment_3()
