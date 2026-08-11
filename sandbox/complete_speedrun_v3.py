@@ -69,45 +69,20 @@ def walk_to(target_x, target_y):
             consecutive_bumps = 0
 
 def main():
-    print("Starting speedrun via Area 3 Plateau Crossing...")
+    print("Starting speedrun via Western ground corridor...")
     
-    # We are at (25, 23)
-    # Walk to (21, 23)
-    if not walk_to(21, 23):
-        print("Failed to reach (21, 23)")
+    # We are at (10, 21)
+    # Walk LEFT to Column 6
+    if not walk_to(6, 21):
+        print("Failed to reach Column 6")
         return
         
-    # Walk UP Column 21 to Row 18
-    if not walk_to(21, 18):
-        print("Failed to reach (21, 18)")
+    # Walk UP Column 6 to Row 13
+    if not walk_to(6, 13):
+        print("Failed to reach Row 13 on Column 6")
         return
         
-    # Climb stairs UP onto Plateau to (21, 16)
-    if not walk_to(21, 16):
-        print("Failed to climb stairs")
-        return
-        
-    # Walk LEFT on plateau to Column 6 (6, 16)
-    if not walk_to(6, 16):
-        print("Failed to cross plateau")
-        return
-        
-    # Descend stairs DOWN to ground (6, 20)
-    if not walk_to(6, 20):
-        print("Failed to descend stairs")
-        return
-        
-    # Walk to (9, 20)
-    if not walk_to(9, 20):
-        print("Failed to reach (9, 20)")
-        return
-        
-    # Walk UP Column 9 to Row 13
-    if not walk_to(9, 13):
-        print("Failed to reach (9, 13)")
-        return
-        
-    # Walk LEFT to Column 0 Row 13
+    # Walk LEFT along Row 13 to Column 0
     if not walk_to(0, 13):
         print("Failed to reach (0, 13)")
         return
