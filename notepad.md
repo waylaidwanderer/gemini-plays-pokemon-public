@@ -758,7 +758,7 @@
 - Persistent Facts:
   - Outdoor door (30, 19) in Celadon City enters True Main Casino Floor ("Celadon Game Corner") at (4, 13).
   - Column 10 (x=10, y=4..11) is a solid dark grey wall divider separating West and East Casino floors.
-  - Main Casino Floor poster switch is at (17, 1) guarded by Rocket Grunt.
+  - Main Casino Floor poster switch is at (3, 3) guarded by Rocket Grunt at (3, 4).
 
 <hr>
 
