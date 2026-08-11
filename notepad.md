@@ -1531,5 +1531,6 @@ Empirically map every aisle on Columns 5, 6, and 7 across Rows 1..6 to verify if
 - Verified Tree Gap at (16, 28) / (17, 28): Open light gray pavement gap in Row 28 tree wall at (16, 28) and (17, 28).
 - Tile (10, 25): Double brown wooden barrels (bypassed via Column 9 at 9, 25).
 - Tile (17, 29): Solid grey building/signboard obstacle.
+- Rocket Grunt NPC at (30, 26): Blocks Column 30 at Row 26 (bypassed via Column 31 at 31, 26..20).
 
 <hr>
