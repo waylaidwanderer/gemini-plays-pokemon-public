@@ -1100,6 +1100,7 @@
 3. Row 12 Avenue (y=12) is 100% open across x=9..31.
 4. Column 20 (x=20) connects Row 12 Avenue (20, 12) directly North to East Northern Highway at (20, 8).
 5. East Northern Highway (y=8, x=20..36) connects directly to Column 36 (x=36) and South Street tree gap (36, 28) -> Game Corner Plaza warp (20, 36)!
+- Blue staircases/slopes at (8, 10), (13, 10), (19, 10) are ONE-WAY SLOPES going NORTH (from Row 12 up to Row 8/9 Northern Highway). They block southbound movement from Row 8/9 down to Row 12.
 
 <hr>
 
