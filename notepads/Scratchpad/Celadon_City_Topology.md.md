@@ -55,3 +55,5 @@
 - Column 26 blue outdoor staircase at (26, 10)/(26, 11) is entered from Row 12 at (26, 12) going NORTH up onto East Northern Highway at (26, 9) / (26, 8)!
 - Tile (32, 11) is the OPEN PAVEMENT GAP ABOVE BARRELS (32, 12..15).
 - Column 33 (x=33) is 100% open pavement vertically connecting Row 11 (33, 11) down to Row 18 (33, 18).
+- Row 19 wooden fence log spans x=32..37, blocking northbound movement from Row 20.
+- Row 21 (y=21) is 100% open pavement across x=28..34, bypassing the NPC at (31, 20).
