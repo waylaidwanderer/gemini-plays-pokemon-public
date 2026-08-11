@@ -132,3 +132,9 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
   - Columns 2, 3, 4, and 5 on Row 24 are systematically and physically verified to be 100% solid tree barriers (bumped on Turns 32766, 32765, 32758, and 32759 respectively).
   - This mathematically proves that the Row 24/25 cliff/tree wall is 100% solid across the entire width of Map Area 3 (West), completely separating the northern compartment (including the plateau, Rest House 3, and western ground level) from the southern ground level compartment.
 - **Turn 32787 Collision Verification:** Column 24, Row 14 is the hedge gap, but walking Left to (23, 14) is blocked by the solid vertical eastern cliff face of the plateau (bumped on Turn 32787).
+
+- **Re-verified Physical Bumps in Area 3 (West) (Turns 32706 - 32724):**
+  - Attempted Down from `(29, 23)` to `(29, 24)` resulting in a physical bump on Turn 32706 (solid shrub).
+  - Attempted Left from `(19, 23)` to `(18, 23)` resulting in a physical bump on Turn 32720/32721 (solid shrub).
+  - Attempted Left from `(18, 24)` to `(17, 24)` resulting in a physical bump on Turn 32722/32723 (solid shrub).
+  - Attempted Down from `(21, 24)` to `(21, 25)` resulting in a physical bump on Turn 32724 (solid shrub).
