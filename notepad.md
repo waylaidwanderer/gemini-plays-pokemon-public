@@ -1431,5 +1431,7 @@ Empirically map every aisle on Columns 5, 6, and 7 across Rows 1..6 to verify if
 - Column 35 (x=35) double brown barrels span y=20..25.
 - Row 17 (y=17) and Row 18 (y=18) at Column 35 (35, 17 / 35, 18) is an OPEN BRIGHT GREEN LAWN GAP connecting Central Celadon directly East to Column 36 at (36, 17 / 36, 18)!
 - Tile (8, 15) is the 100% PASSABLE DIRT SLOPE GAP in the Row 15 border, connecting Row 16 Avenue directly North to Column 8 Avenue (8, 12..14)!
+- Tree at (19, 9) blocks direct Eastward traversal along Row 9 Northern Highway at x=19.
+- Bypass around tree at (19, 9): From (18, 9), walk Down 3 to (18, 12), Right 2 to (20, 12), Up 3 to (20, 9) on the East lawn!
 
 <hr>
