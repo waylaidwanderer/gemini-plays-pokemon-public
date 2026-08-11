@@ -1186,6 +1186,11 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 - Turn 32757: Walked south on Column 2 to (2, 23).
 - Turn 32758 - 32761: Systematically tested Row 24: Columns 4 and 5 are solid tree barriers.
 
+- Turn 32807: Walked Up 3 steps to (15, 22).
+- Turn 32824: Walked Right 13 steps to (28, 22).
+- Turn 32825: Walked Up 11 steps to (28, 11) and Right 1 step to (29, 11).
+- Turn 32826: Walked Right 1 step to transition to Area 1 (East) at (0, 23). Total steps: 29.
+
 
 <hr>
 
