@@ -36,17 +36,6 @@
     - Note: Columns 22-23 on rows 22-25 are blocked by the roof of the adjacent house. Column 24 is blocked by a dead-end fence pocket at Row 28/29 on the south, so to go south to the Pokémon Center entrance, you MUST use Column 1 on the west and cross Row 32.
 
 ## Verified Physical Collisions
-- Attempted Down from (22, 6) to (22, 7) (solid hedges, Fuchsia City, Turn 33071).
-- Attempted Left from (26, 15) to (25, 15) (solid building wall, Fuchsia City, Turn 33086).
-- Attempted Down from (26, 15) to (26, 16) (solid tree, Fuchsia City, Turn 33086).
-
-- Attempted Right from (9, 32) to (10, 32) (solid diagonal ledge, Fuchsia City, Turn 33117).
-- Attempted Up from (9, 32) to (9, 31) (solid horizontal ledge, Fuchsia City, Turn 33118).
-- Attempted Left from (24, 27) to (23, 27) (solid fence/hedge, Fuchsia City, Turn 33166).
-- Attempted Left from (24, 29) to (23, 29) (solid fence/hedge, Fuchsia City, Turn 33169).
-- Attempted Left from (24, 30) to (23, 30) (solid fence/hedge, Fuchsia City, Turn 33171).
-- Attempted Up from (36, 24) to (36, 23) (solid tree, Fuchsia City, Turn 33175).
-- Attempted Up from (24, 16) to (24, 15) (solid fence post, Fuchsia City, Turn 33208).
 - Verified properties:
   - Column 8 ledge gap at Row 31/32 allows the player to jump down from Row 31 to Row 32 to reach the western area.
   - Column 22 vertical corridor allows walking north/south between Row 21 and Row 14, bypassing the horizontal fence at Row 22.
