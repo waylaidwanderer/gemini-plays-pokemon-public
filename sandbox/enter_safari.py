@@ -1,42 +1,23 @@
 import time
+import sys
 import bridge
 
-print("Running enter_safari.py to go through dialogue and enter Safari Zone...")
+# Set stdout to use utf-8
+sys.stdout.reconfigure(encoding='utf-8')
 
-# We are at (3, 2) with 'Welcome to the SAFARI ZONE!' text box open.
-# Step 1: Go through dialogue and pay 500
-print("1. Dismissing welcome message...")
-bridge.press_buttons(["A"])
-time.sleep(0.6)
+def enter_safari_game():
+    print("Enqueuing dialogue buttons to enter Safari Zone...")
+    # Send a single comprehensive sequence of A presses and sleeps to talk to clerk and enter!
+    bridge.press_buttons([
+        "A", "sleep 1000", # Talk to clerk
+        "A", "sleep 1000", # Welcome dialogue
+        "A", "sleep 1000", # Select YES to join
+        "A", "sleep 1000", # Pay ¥500 dialogue
+        "A", "sleep 1000", # Receive 30 Safari Balls
+        "A", "sleep 1000", # Receive rules explanation
+        "A", "sleep 2000"  # Have a great game and warp in!
+    ])
+    print("Buttons enqueued successfully!")
 
-# The YES/NO box is now open. Press A to select YES (default).
-print("2. Selecting YES...")
-bridge.press_buttons(["A"])
-time.sleep(0.6)
-
-print("3. Going through 'That'll be 500' message...")
-bridge.press_buttons(["A"])
-time.sleep(0.6)
-
-print("4. Going through 'ACE received 30 SAFARI BALLs' message...")
-bridge.press_buttons(["A"])
-time.sleep(0.6)
-
-print("5. Going through 'We'll call you on the PA' message...")
-bridge.press_buttons(["A"])
-time.sleep(0.6)
-
-print("6. Going through 'Best of luck!' message...")
-bridge.press_buttons(["A"])
-time.sleep(1.2) # Wait for text box to close completely
-
-# Step 2: Walk UP to enter the Safari Zone
-print("7. Walking UP to enter the Safari Zone...")
-for _ in range(3):
-    bridge.press_buttons(["Up"])
-    time.sleep(0.6)
-time.sleep(2.0) # Wait for transition warp
-
-coords = bridge.get_coordinates()
-print(f"Final coordinates inside Safari Zone: {coords}")
-
+if __name__ == "__main__":
+    enter_safari_game()
