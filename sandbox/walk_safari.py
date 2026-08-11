@@ -1,16 +1,14 @@
 import mgba
 import time
 
-print("Running walk_safari.py to transition to Area 2 (North)...")
+print("Running walk_safari.py to go to the Secret House...")
 
-# Path from Area 1 (East) (17, 8) to Area 2 (North):
-# 3 steps Right to (20, 8)
-# 5 steps Up to (20, 3)
-# 13 steps Left to (7, 3)
-# 2 steps Down to (7, 5)
-# 8 steps Left to transition at (0, 5) to Area 2 (39, 31)
+# From (11, 12) in Area 3 (West):
+# 8 steps Down to (11, 20)
+# 8 steps Left to (3, 20)
+# 1 step Up to (3, 19) (Secret House door)
 
-path = ["Right"] * 3 + ["Up"] * 5 + ["Left"] * 13 + ["Down"] * 2 + ["Left"] * 8
+path = ["Down"] * 8 + ["Left"] * 8 + ["Up"] * 1
 
 def walk_path(path):
     for i, direction in enumerate(path):
