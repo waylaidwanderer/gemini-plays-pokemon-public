@@ -145,11 +145,14 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 4. **The Column 29 Shrub Wall:** Column 29 has solid trees/shrubs on Rows 12-25, completely blocking ground-horizontal crossing. Crossing Column 29 is only possible on Row 26 (South) and Rows 10-11 (North).
 5. **The Pond & Rest House 1:** Completely block the middle-western ground level on Rows 10-15 across Columns 9-19.
 
-### The Ground-Level Western Bypass Route (The Only Walkable Way to Area 1)
-To walk from the Gatehouse entrance at `(15, 25)` to the Area 1 (East) transition at `(30, 10)` without climbing any plateaus or getting trapped:
-1. Walk UP Column 15 to `(15, 24)` (crossing the ledge opening).
-2. Walk LEFT along Row 24 to Column 8: `(8, 24)`. (Avoids the Gatehouse wall at 14,24 and the fence at row 25).
-3. Walk UP Column 8 to Row 10: `(8, 10)`. (Completely open ground, bypassing the pond on the left!).
-4. Walk RIGHT along Row 10 to Column 30: `(30, 10)`. (Completely open ground north of the pond and plateau, safely crossing Column 29).
-5. Walk RIGHT from `(30, 10)` to transition to Area 1 (East) at `(0, 22)`.
-This route is 100% ground-level, flat, walkable, and has 0% collision!
+### The Ground-Level Eastern Bypass Route (The Only Walkable Way to Area 1)
+To walk from the Gatehouse entrance at `(15, 25)` to the Area 1 (East) transition at `(0, 23)` without climbing any plateaus or getting trapped:
+1. Walk UP Column 15 to `(15, 24)`.
+2. Walk RIGHT to `(16, 24)` (bypassing the `(15, 23)` signpost).
+3. Walk RIGHT along Row 24 to `(27, 24)`.
+4. Walk DOWN through the tall grass at `(27, 25)` to `(27, 26)` (bypassing the Row 25 Rhydon statues).
+5. Walk RIGHT along Row 26 to Column 30: `(30, 26)`.
+6. Walk UP Column 30 to Row 11: `(30, 11)`.
+7. Walk LEFT to `(29, 11)`.
+8. Walk RIGHT 1 step to transition into Area 1 (East) at `(0, 23)`.
+This route is 100% ground-level, flat, walkable, and has 0% collision! (Note: The hypothesized Western Bypass at Column 8 is physically blocked by a solid tree/bush at `(8, 15)` and a cliff wall at `(8, 13)`).
