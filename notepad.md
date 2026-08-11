@@ -1445,7 +1445,7 @@ Systematically probe every potential building doorway and alleyway warp in South
 ## Key Connections & Points of Interest
 - North Boundary: Cerulean City south exit connects to Route 5 at (9, 0) / (19, 34).
 - Daycare House: Located at (2, 3) on Route 5 (Daycare Man offers to raise Pokémon).
-- Underground Path Entrance Building: Door located at (10, 27) on Route 5.
+- Underground Path Entrance Building: Door located at (10, 21) on Route 5 (roof spans x=8..11, y=18..20).
 
 ## Verified Topology & Ledges
 - Open Central Grass Field: Spans x=6..13 running North-South.
