@@ -132,7 +132,8 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
   - Attempted Left from `(18, 19)` to `(17, 19)` (cliff wall, bumped on Turn 32924).
   - Attempted Down from `(18, 19)` to `(18, 20)` (solid tree, bumped on Turn 32924).
   - Attempted Up from `(11, 20)` to `(11, 19)` (cliff wall, bumped on Turn 32936).
-### Verified Collisions (Turns 32950 - 32992)
+### Verified Collisions (Turns 32950 - 33008)
+- Attempted Up from (1, 16) to (1, 15) (solid tree canopy, bumped on Turn 33008).
 - Attempted Left from (1, 20) to (0, 20) (solid tree, bumped on Turn 32950).
 - Attempted Left from (1, 19) to (0, 19) (solid tree, bumped on Turn 32953).
 - Attempted Up from (12, 20) to (12, 19) (solid cliff, bumped on Turn 32959).
