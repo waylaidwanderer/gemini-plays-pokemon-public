@@ -63,12 +63,16 @@ def walk_to_target(tx, ty):
             stuck_count = 0
     return True
 
-def run_real_bypass():
+def run_real_bypass_v2():
     print("Starting real ground-level western bypass to Area 1 (East) via Column 8...")
     
-    # Path from current position (28, 16) to Area 1 (East) transition at (30, 10)
+    # Dismiss any leftover "Got away safely" textbox first
+    print("Pressing B to close battle text...")
+    bridge.press_buttons(["B", "sleep 500"])
+    
+    # Path from current position (18, 24) to Area 1 (East) transition at (30, 10)
     path = [
-        (24, 16), (24, 22), (8, 22), (8, 10), (30, 10)
+        (8, 24), (8, 10), (30, 10)
     ]
     
     for tx, ty in path:
@@ -85,4 +89,4 @@ def run_real_bypass():
     return True
 
 if __name__ == "__main__":
-    run_real_bypass()
+    run_real_bypass_v2()
