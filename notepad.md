@@ -1074,6 +1074,7 @@
 10. Walk West 16 steps along South Street to Column 20 at (20, 30).
 11. Walk South 6 steps along Column 20 into Game Corner Plaza warp at (20, 36).
 12. In Game Corner Plaza (10, 0), step Down 2 into door (10, 2) / (17, 27) to enter True Main Casino Floor at (3, 7).
+- Celadon Diner Building (x=12..15, y=22..25): Solid building (bypassed via Column 9 at 9, 21..27).
 
 <hr>
 
