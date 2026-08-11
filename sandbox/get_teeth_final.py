@@ -11,102 +11,132 @@ def get_pos():
         return None
     return pos[0], pos[1]
 
-def walk_step(direction):
-    bridge.press_buttons([direction, "sleep 350"])
-
 def run_away():
     print("Wild battle/interaction detected! Executing RUN sequence...")
     bridge.press_buttons(["B", "sleep 300", "B", "sleep 300", "B", "sleep 300"])
     bridge.press_buttons(["Right", "sleep 200", "Down", "sleep 200", "A", "sleep 1200"])
     bridge.press_buttons(["B", "sleep 300"])
 
-def navigate():
-    print("Starting Gold Teeth retrieval from (13, 15)...")
-    
-    # 1. Walk Left to (3, 15)
-    for _ in range(10):
+def walk_step(direction):
+    bridge.press_buttons([direction])
+    time.sleep(0.4)
+
+def walk_to(target_x, target_y):
+    consecutive_bumps = 0
+    while True:
         pos = get_pos()
         if pos is None:
             run_away()
             continue
-        walk_step("Left")
+            
+        cx, cy = pos
+        if cx == target_x and cy == target_y:
+            print(f"Arrived at target: ({cx}, {cy})")
+            return True
+            
+        dx = target_x - cx
+        dy = target_y - cy
         
-    print(f"At Column 3: {get_pos()}")
-    
-    # 2. Walk Down to (3, 20)
-    for _ in range(5):
-        pos = get_pos()
-        if pos is None:
+        direction = None
+        if dx > 0:
+            direction = "Right"
+        elif dx < 0:
+            direction = "Left"
+        elif dy > 0:
+            direction = "Down"
+        elif dy < 0:
+            direction = "Up"
+            
+        if direction is None:
+            return True
+            
+        print(f"Currently at ({cx}, {cy}). Walking {direction} towards ({target_x}, {target_y})...")
+        walk_step(direction)
+        
+        new_pos = get_pos()
+        if new_pos is None:
             run_away()
             continue
-        walk_step("Down")
-        
-    print(f"At Row 20: {get_pos()}")
+            
+        if new_pos == pos:
+            consecutive_bumps += 1
+            print(f"Bumped! (Count: {consecutive_bumps})")
+            if consecutive_bumps >= 5:
+                print("Stuck! Attempting RUN away to clear...")
+                run_away()
+                consecutive_bumps = 0
+        else:
+            consecutive_bumps = 0
+
+def main():
+    print("Starting final speedrun sequence from Center (7, 13)...")
     
-    # 3. Walk Right to (6, 20)
-    for _ in range(3):
-        pos = get_pos()
-        if pos is None:
-            run_away()
-            continue
-        walk_step("Right")
+    # We are at (7, 13) in Safari Zone Center
+    # 1. Walk DOWN to Row 22
+    if not walk_to(7, 22):
+        print("Failed to reach Row 22")
+        return
         
-    print(f"At West Stairs base: {get_pos()}")
+    # 2. Walk RIGHT to Column 28 on Row 22
+    if not walk_to(28, 22):
+        print("Failed to reach Column 28")
+        return
+        
+    # 3. Walk DOWN to Row 26
+    if not walk_to(28, 26):
+        print("Failed to reach Row 26")
+        return
+        
+    # 4. Walk LEFT to Column 19 on Row 26
+    if not walk_to(19, 26):
+        print("Failed to reach (19, 26)")
+        return
+        
+    print("Arrived below the Gold Teeth. Picking them up...")
+    bridge.press_buttons(["A", "sleep 1000", "A", "sleep 1000", "B", "sleep 500"])
     
-    # 4. Climb West Stairs to (6, 16)
-    for _ in range(4):
-        pos = get_pos()
-        if pos is None:
-            run_away()
-            continue
-        walk_step("Up")
-        
-    print(f"On plateau: {get_pos()}")
+    # 5. Walk in Center to Transition back to Area 3 (West) at (0, 11)
+    path_part3 = [
+        # Walk Right to Column 28
+        (28, 26),
+        # Walk Up to Row 22
+        (28, 22),
+        # Walk Left to Column 0
+        (0, 22),
+        # Walk Up to Row 11
+        (0, 11)
+    ]
+    for target in path_part3:
+        if not walk_to(target[0], target[1]):
+            print("Failed in Part 3")
+            return
+            
+    print("Transitioning back to Area 3...")
+    walk_step("Left")
+    time.sleep(1.5)
     
-    # 5. Walk East to (21, 16)
-    for _ in range(15):
-        pos = get_pos()
-        if pos is None:
-            run_away()
-            continue
-        walk_step("Right")
-        
-    print(f"At East Stairs top: {get_pos()}")
-    
-    # 6. Descend East Stairs to (21, 18)
-    for _ in range(2):
-        pos = get_pos()
-        if pos is None:
-            run_away()
-            continue
-        walk_step("Down")
-        
-    print(f"At East Stairs base: {get_pos()}")
-    
-    # 7. Walk Down to (21, 24)
-    for _ in range(6):
-        pos = get_pos()
-        if pos is None:
-            run_away()
-            continue
-        walk_step("Down")
-        
-    print(f"At southern Row 24: {get_pos()}")
-    
-    # 8. Walk Left to (19, 24)
-    for _ in range(2):
-        pos = get_pos()
-        if pos is None:
-            run_away()
-            continue
-        walk_step("Left")
-        
     pos = get_pos()
-    print(f"Standing below Gold Teeth at: {pos}")
-    if pos == (19, 24):
-        print("Picking up Gold Teeth...")
-        bridge.press_buttons(["A", "sleep 1000", "A", "sleep 1000", "B", "sleep 500"])
-        print("Retrieval Complete!")
+    print(f"Position inside Area 3: {pos}")
+    
+    # 6. Walk in Area 3 (West) to enter the Secret House
+    path_part4 = [
+        # Walk Down to Row 26
+        (29, 26),
+        # Walk Left to Column 3
+        (3, 26),
+        # Walk Up to Row 8
+        (3, 8)
+    ]
+    for target in path_part4:
+        if not walk_to(target[0], target[1]):
+            print("Failed in Part 4")
+            return
+            
+    print("Arrived at Secret House door. Entering...")
+    walk_step("Up")
+    time.sleep(1.5)
+    
+    print(f"Speedrun complete! Current position: {get_pos()}")
 
 if __name__ == "__main__":
-    navigate()
+    main()
