@@ -952,7 +952,6 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 
     - Note: Columns 22-23 on rows 22-25 are blocked by the roof of the adjacent house. Column 24 is blocked by a dead-end fence pocket at Row 28/29 on the south, so to go south to the Pokémon Center entrance, you MUST use Column 1 on the west and cross Row 32.
 
-
 ## Verified Physical Collisions
 - Attempted Down from (22, 6) to (22, 7) (solid hedges, Fuchsia City, Turn 33071).
 - Attempted Left from (26, 15) to (25, 15) (solid building wall, Fuchsia City, Turn 33086).
@@ -968,6 +967,9 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 - Verified properties:
   - Column 8 ledge gap at Row 31/32 allows the player to jump down from Row 31 to Row 32 to reach the western area.
   - Column 22 vertical corridor allows walking north/south between Row 21 and Row 14, bypassing the horizontal fence at Row 22.
+- **Verified spatial boundaries (Turn 33355):**
+  - Up movement from (24, 27) to (24, 26) is blocked by a solid building wall (the Warden's House).
+  - Column 25 has solid fence posts at Rows 28 and 29.
 
 <hr>
 
