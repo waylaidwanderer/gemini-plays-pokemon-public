@@ -2,8 +2,8 @@
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 302
-- **Steps Remaining:** 198
+- **Steps Consumed:** 327
+- **Steps Remaining:** 173
 
 ## 🗺️ Step-by-Step Route Log
 - Started inside Safari Zone Center at (18, 25).
@@ -27,3 +27,7 @@
 - Entered Rest House 3, spoke to NPC, exited, and walked back across plateau to Column 19 Row 24. (48 steps consumed, total 289)
 - Walked Right 1, Up 5, Left 1 to (18, 19) on the plateau. (7 steps consumed, total 296)
 - Walked Right 3, Up 3 to climb East Stairs onto plateau at (21, 16). (6 steps consumed, total 302)
+- Walked Left 15, Down 3 to descend plateau at (6, 19). (18 steps consumed, total 320)
+- Walked Down 1 to (6, 20), encountered wild Doduo and ran away. (1 step consumed, total 321)
+- Walked Right 5 to stand at (11, 20). (6 steps attempted, 5 steps consumed, total 326)
+- Attempted Up at (11, 20) and bumped into cliff. (0 steps consumed, total 327)
