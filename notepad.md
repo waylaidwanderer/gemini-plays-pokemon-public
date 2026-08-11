@@ -1162,6 +1162,7 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 - Goal: Enter Safari Zone, cross to Area 3 (West), explore Column 15 and 16 on Row 19 of the building to find the Secret House door, and retrieve Surf and Gold Teeth.
 - Turn 32596: Entered Area 1 (East) at (0, 23). Walked along Row 24 corridor. Bypassed Rhydon barrier. Walked through hedges on Row 24 Column 14. Currently at (16, 24). Total steps: 46.
 - Turn 32671: Descended West Stairs of the plateau in Area 3 (West) to ground level at (6, 20). Total steps consumed on this active run: 215. Steps remaining: 285.
+- Turn 32703: Re-entered Area 3 (West) at (29, 23) from Safari Zone Center. Total steps consumed: 267. Steps remaining: 233.
 
 
 <hr>
