@@ -1102,6 +1102,7 @@
 5. East Northern Highway (y=8, x=20..36) connects directly to Column 36 (x=36) and South Street tree gap (36, 28) -> Game Corner Plaza warp (20, 36)!
 - Blue staircases/slopes at (8, 10), (13, 10), (19, 10) are ONE-WAY SLOPES going NORTH (from Row 12 up to Row 8/9 Northern Highway). They block southbound movement from Row 8/9 down to Row 12.
 - Outdoor tile (9, 9) walking South enters Celadon Northwest Building back door -> warps inside to (2, 0).
+- Column 25 tree spans (25, 8) and (25, 9). Tile (25, 7) is an OPEN BRIGHT GREEN LAWN GAP connecting Row 7 Lawn directly East to Column 26 East Northern Highway (26, 8 / 26, 9)!
 
 <hr>
 
