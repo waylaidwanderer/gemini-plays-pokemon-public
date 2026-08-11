@@ -57,6 +57,7 @@ def navigate_path(path):
             if ncx == cx and ncy == cy:
                 print("Coordinates did not change. Possible battle or block. Attempting to run/clear...")
                 run_away()
+                time.sleep(2.0)
                 after_run_pos = get_pos()
                 if after_run_pos == pos:
                     print(f"BLOCKED! Stalled at ({cx}, {cy}) trying to go {dir_btn}")
