@@ -65,7 +65,7 @@ def navigate_path(path):
 
 def run_segment1():
     print("Running Segment 1: Center to Area 1 (East)...")
-    path1 = [(15, 16), (28, 16), (28, 11), (29, 11)]
+    path1 = [(16, 24), (16, 16), (28, 16), (28, 11), (29, 11)]
     if not navigate_path(path1):
         print("Failed Segment 1 path.")
         return False
