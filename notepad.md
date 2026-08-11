@@ -1465,5 +1465,7 @@ Empirically map every aisle on Columns 5, 6, and 7 across Rows 1..6 to verify if
 - Column 25 tree spans (25, 8) and (25, 9). Tile (25, 7) is an OPEN BRIGHT GREEN LAWN GAP connecting Row 7 Lawn directly East to Column 26 East Northern Highway (26, 8 / 26, 9)!
 - Column 25 tree wall spans y=6..9 (25, 6..9).
 - Column 26 blue outdoor staircase at (26, 10)/(26, 11) is entered from Row 12 at (26, 12) going NORTH up onto East Northern Highway at (26, 9) / (26, 8)!
+- Tile (32, 11) is the OPEN PAVEMENT GAP ABOVE BARRELS (32, 12..15).
+- Column 33 (x=33) is 100% open pavement vertically connecting Row 11 (33, 11) down to Row 18 (33, 18).
 
 <hr>
