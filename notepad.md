@@ -109,7 +109,7 @@
 - **Full Restore:** 1
 - **Max Revive:** 1
 - **HM03 (Surf):** NOT YET OBTAINED (Verified on Turn 27754).
-- **Active PC Box Changed:** Changed active box from BOX 1 (full) to BOX 2 (empty, 0/20 used, 20 empty slots) on Turn 33202 to resolve Safari Zone entry block.
+- **Active PC Box Change (FAILED Turn 33202):** Attempted to switch to BOX 2 on Turn 33202 but accidentally canceled it by selecting 'NO' on the YES/NO prompt. Must visit Pokémon Center PC to successfully switch to BOX 2.
 
 ## Major Exploration Phases and Timestamps
 - **Saffron West/East Gatehouse Tests:** Turn 12616 (East Gatehouse tested), Turn 18179 to 18184 (West Gatehouse tested, confirmed Saffron City is blocked by thirsty guards).
@@ -948,9 +948,9 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
   - The Pokémon Center is located at columns 18-21, rows 22-27.
   - To go from behind the Pokémon Center (row 21) to its entrance (19, 27):
     - Walk Right to Column 24 (or walk Left to Column 1).
-    - Walk Down along Column 24 (or Column 1) to Row 28/32/34.
+    - Walk Down along Column 1 to Row 32, then walk Right to Column 19 and Up to enter the Pokémon Center.
 
-    - Note: Columns 22-23 on rows 22-25 are blocked by the roof of the adjacent house, so you must use either Column 24 on the east or Column 1 on the west to transition south.
+    - Note: Columns 22-23 on rows 22-25 are blocked by the roof of the adjacent house. Column 24 is blocked by a dead-end fence pocket at Row 28/29 on the south, so to go south to the Pokémon Center entrance, you MUST use Column 1 on the west and cross Row 32.
 
 
 ## Verified Physical Collisions
