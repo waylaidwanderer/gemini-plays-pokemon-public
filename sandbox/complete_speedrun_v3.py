@@ -68,44 +68,88 @@ def walk_to(target_x, target_y):
         else:
             consecutive_bumps = 0
 
-def run_segment_3():
-    print("=== SEGMENT 3: Area 2 (North) -> Area 3 (West) ===")
-    path_points = [
-        # Start at (18, 32)
-        # 1. Walk RIGHT to Column 22
-        (22, 32),
-        # 2. Walk UP to Row 23
-        (22, 23),
-        # 3. Climb stairs UP onto Western Southern Plateau (22, 22)
-        (22, 22),
-        # 4. Walk LEFT on plateau to Column 16
-        (16, 22),
-        # 5. Descend stairs DOWN to Row 33 (16, 33)
-        (16, 33),
-        # 6. Walk LEFT along Row 33 to Column 9
-        (9, 33),
-        # 7. Walk DOWN Column 9 to Row 36
-        (9, 36),
-        # 8. Transition DOWN into Area 3 (West)
-        (9, 37)
+def main():
+    print("Starting remaining speedrun from current position...")
+    
+    # --- Part 1: Area 3 (West) to Center (East Compartment) ---
+    print("--- PART 1: Navigating to Center Transition (0, 13) ---")
+    path_part1 = [
+        # Walk down to Row 14 (Hedge Wall Gap)
+        (26, 14),
+        # Walk Left to Column 9
+        (9, 14),
+        # Walk Up to Row 13
+        (9, 13),
+        # Walk Left to Column 0
+        (0, 13)
     ]
-
-    for idx, target in enumerate(path_points):
-        print(f"--- Sub-Segment {idx+1}: Navigating to target {target} ---")
-        
-        # Check if we transitioned maps (detect y coordinate jump or x coordinate jump)
-        curr = get_pos()
-        if curr is not None and idx >= 7: # Near the end of Area 2
-            if curr[1] < 5: # Area 3 coords are around row 0, e.g. (9, 0)
-                print(f"Map transition detected early at: {curr}")
-                break
-                
+    for target in path_part1:
         if not walk_to(target[0], target[1]):
-            print(f"Failed at sub-segment {idx+1}")
-            return False
+            print("Failed in Part 1")
+            return
             
-    print(f"Segment 3 complete. Position: {get_pos()}")
-    return True
+    # Walk Left to transition into Center (East Compartment)
+    print("Transitioning into Center...")
+    walk_step("Left")
+    time.sleep(1.5)
+    
+    # --- Part 2: Inside Center (East Compartment) to get Gold Teeth ---
+    print("--- PART 2: Retrieving Gold Teeth ---")
+    pos = get_pos()
+    print(f"Position inside Center: {pos}")
+    
+    # Walk to (19, 26)
+    if not walk_to(19, 26):
+        print("Failed to reach (19, 26) for Gold Teeth")
+        return
+        
+    print("Standing below Gold Teeth. Picking them up...")
+    # Interaction sequence to pick up the Gold Teeth
+    bridge.press_buttons(["A", "sleep 1000", "A", "sleep 1000", "B", "sleep 500"])
+    
+    # --- Part 3: Center (East Compartment) to Area 3 (West) ---
+    print("--- PART 3: Navigating to Area 3 Transition (0, 14) ---")
+    path_part3 = [
+        # Walk to (5, 26)
+        (5, 26),
+        # Walk to (5, 14)
+        (5, 14),
+        # Walk to (0, 14)
+        (0, 14)
+    ]
+    for target in path_part3:
+        if not walk_to(target[0], target[1]):
+            print("Failed in Part 3")
+            return
+            
+    # Walk Left to transition into Area 3 (West)
+    print("Transitioning back to Area 3...")
+    walk_step("Left")
+    time.sleep(1.5)
+    
+    # --- Part 4: Area 3 (West) to Secret House door (3, 8) ---
+    print("--- PART 4: Entering Secret House ---")
+    pos = get_pos()
+    print(f"Position inside Area 3: {pos}")
+    
+    path_part4 = [
+        # Walk to (0, 14)
+        (0, 14),
+        # Walk to (0, 8)
+        (0, 8),
+        # Walk to (3, 8)
+        (3, 8)
+    ]
+    for target in path_part4:
+        if not walk_to(target[0], target[1]):
+            print("Failed in Part 4")
+            return
+            
+    print("Arrived at Secret House door. Entering...")
+    walk_step("Up")
+    time.sleep(1.5)
+    
+    print(f"Speedrun complete! Current position: {get_pos()}")
 
 if __name__ == "__main__":
-    run_segment_3()
+    main()
