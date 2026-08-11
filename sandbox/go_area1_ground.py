@@ -63,12 +63,12 @@ def walk_to_target(tx, ty):
             stuck_count = 0
     return True
 
-def run_bypass_v3():
-    print("Starting optimized ground-level bypass v3 to Area 1 (East) via Column 22...")
+def run_south_bypass():
+    print("Starting ground-level South Compartment bypass to Area 1 (East)...")
     
-    # Path from current position (25, 20) to Area 1 (East) transition at (29, 26)
+    # Path from current position (22, 24) to Area 1 (East) transition at (29, 26)
     path = [
-        (24, 20), (24, 22), (22, 22), (22, 26), (29, 26)
+        (15, 24), (15, 26), (29, 26)
     ]
     
     for tx, ty in path:
@@ -85,4 +85,4 @@ def run_bypass_v3():
     return True
 
 if __name__ == "__main__":
-    run_bypass_v3()
+    run_south_bypass()
