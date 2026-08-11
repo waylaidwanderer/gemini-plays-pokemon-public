@@ -1,14 +1,14 @@
 import time
-import mgba
+import bridge
 
-print("Burning all remaining Safari steps to get expelled...")
+print("Burning remaining steps with safe bridge library...")
 
-# Loop 350 times to press Up/Down to burn steps
-for i in range(350):
+# Alternate Up and Down to burn steps quickly
+for i in range(50):
     direction = "Up" if i % 2 == 0 else "Down"
-    mgba.press_buttons([direction, "sleep 100"])
+    bridge.press_buttons([direction, "sleep 100"])
 
-print("Successfully sent 350 steps. Waiting for expulsion warp...")
-time.sleep(2.0)
-coords = mgba.get_coordinates()
-print(f"Coordinates after expulsion: {coords}")
+print("Completed 50 steps. Checking coordinates...")
+time.sleep(1.0)
+coords = bridge.get_coordinates()
+print(f"Coordinates: {coords}")
