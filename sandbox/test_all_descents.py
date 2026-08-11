@@ -1,20 +1,24 @@
 import bridge
 import time
 
-print("Starting systematic descent search...")
+print("Starting systematic descent search v2...")
 
-# 1. Walk to (36, 26)
-print("Moving to Column 36...")
-bridge.press_buttons(["Right", "Right"])
+# 1. Walk UP to Row 18
+print("Moving UP to Row 18...")
+bridge.press_buttons(["Up", "Up", "Up"])
 time.sleep(0.5)
 
-# 2. Walk UP to Row 21
-print("Moving UP to Row 21...")
-for _ in range(5):
-    bridge.press_buttons(["Up"])
-    time.sleep(0.5)
+# 2. Walk LEFT to Column 24
+print("Moving LEFT to Column 24...")
+bridge.press_buttons(["Left"] * 11)
+time.sleep(0.5)
 
-# 3. Test columns from 23 down to 3
+# 3. Walk DOWN to Row 21
+print("Moving DOWN to Row 21...")
+bridge.press_buttons(["Down", "Down", "Down"])
+time.sleep(0.5)
+
+# 4. Test columns from 23 down to 3
 for col in range(23, 2, -1):
     current = bridge.get_coordinates()
     if current is None:
