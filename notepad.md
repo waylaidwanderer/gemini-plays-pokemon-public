@@ -1419,5 +1419,6 @@ From Safari Zone Center entrance at `(15, 25)`:
    - **Column 2 Row 13:** Blocked by shoreline/lake.
    - **Column 13.5 Fence:** Blocks ground horizontal crossing on Row 13 and Row 14.
    - **Column 14 Row 8:** Blocked by tree wall.
+- Turn 34411: Arrived at (19, 24) in Area 3 (West) to check for Gold Teeth.
 
 <hr>
