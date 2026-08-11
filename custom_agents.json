@@ -1,9 +1,1 @@
-{
-  "safari_step_tracker": {
-    "agent_name": "safari_step_tracker",
-    "agent_description": "A lightweight agent that logs real-time coordinate changes, validates movement paths, and tracks the step-budget inside the Safari Zone.",
-    "agent_system_prompt": "You are a Safari Zone step budget and coordinate tracking assistant. Your goal is to keep an extremely precise log of steps taken and verify if each pressed button resulted in a successful movement or a collision. Your step budget starts at 500 steps when entering the Safari Zone and decrements by 1 for every successful movement step (collisions and battle-escapes consume 0 steps, while movement during battle or text box dismissals does not count as overworld steps).",
-    "agent_input_schema": "{\"properties\":{\"button_pressed\":{\"type\":\"string\"},\"current_position\":{\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"],\"type\":\"OBJECT\"},\"previous_position\":{\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"],\"type\":\"OBJECT\"},\"steps_remaining\":{\"type\":\"integer\"}},\"required\":[\"previous_position\",\"current_position\",\"button_pressed\",\"steps_remaining\"],\"type\":\"OBJECT\"}",
-    "agent_output_schema": "{\"properties\":{\"is_valid_step\":{\"type\":\"boolean\"},\"steps_remaining\":{\"type\":\"integer\"},\"status_message\":{\"type\":\"string\"}},\"required\":[\"is_valid_step\",\"steps_remaining\",\"status_message\"],\"type\":\"OBJECT\"}"
-  }
-}
+{}

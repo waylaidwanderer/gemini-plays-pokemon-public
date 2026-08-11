@@ -1314,6 +1314,9 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
   - Attempted Down from `(18, 19)` to `(18, 20)` (solid tree, bumped on Turn 32924).
   - Attempted Up from `(11, 20)` to `(11, 19)` (cliff wall, bumped on Turn 32936).
 
+### 🔍 Verified Secret House Entrance
+- **Secret House Entrance:** Located at `(11, 12)` on the ground level. Walk UP into `(11, 11)` to transition inside. Inside, the player stands at `(2, 7)`. The mustache NPC is inside and gives HM03 (Surf) when spoken to.
+
 <hr>
 
 <h1><code>notepads/Scratchpad/SafariZone_Route.md</code></h1>
