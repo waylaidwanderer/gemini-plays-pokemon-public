@@ -95,6 +95,8 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - **Row 25 Solid Boundary:** Verified on Turns 32602 and 32604. Row 25 at Columns 9 and 12 is a solid barrier (bumping when attempting to walk DOWN from Row 24). Row 25 acts as a continuous solid boundary across the bottom of the map.
 - **Row 23 Cliff Face:** Verified on Turn 32601. Row 23 is a solid cliff face across Columns 8-12, blocking northward traversal from Row 24.
 - **Row 22 Column 29 Barrier (Safari Zone Center):** Physically verified on Turn 32590. Attempting to walk RIGHT from (28, 22) to (29, 22) results in bumping, proving the pine tree graphic at (29, 22) is solid from the Center side.
+- **Row 24 Column 6 Tree Barrier (Area 3 West):** Physically verified on Turn 32676. Attempting to walk DOWN from (6, 23) to (6, 24) results in bumping, proving Row 24 Column 6 is a solid tree trunk/hedge barrier.
+- **Row 23 Column 0 Tree Barrier (Area 3 West):** Physically verified on Turn 32684. Attempting to walk LEFT from (1, 23) to (0, 23) results in bumping, proving Row 23 Column 0 is a solid tree trunk/boundary barrier.
 
 ### Key Bridges & Plateaus
 - **The Northern Plateau Island:** Raised cliff system at columns 11-18, rows 4-7. This serves as the ONLY physical bridge connecting the western ground level to the eastern ground level.
