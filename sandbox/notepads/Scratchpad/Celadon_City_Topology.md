@@ -24,3 +24,6 @@
 12. In Game Corner Plaza (10, 0), step Down 2 into door (10, 2) / (17, 27) to enter True Main Casino Floor at (3, 7).
 - Celadon Diner Building (x=12..15, y=22..25): Solid building (bypassed via Column 9 at 9, 21..27).
 - Gray Statue Wall (x=3..7, y=14..17): Continuous solid statue barrier.
+## Northwest Building Highway Passageway (Turn 50790)
+- Door at Celadon City (9, 11) enters Northwest Building at (2, 7).
+- Exiting back door at (2, 0) warps player directly onto Celadon City Northern Highway at (9, 9)!
