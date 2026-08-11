@@ -1125,8 +1125,8 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 222
-- **Steps Remaining:** 278
+- **Steps Consumed:** 241
+- **Steps Remaining:** 259
 
 ## 🗺️ Step-by-Step Route Log
 - Started inside Safari Zone Center at (18, 25).
@@ -1145,6 +1145,8 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 - Walked Left 4, Down 5, Left 4, Down 3, Left 1 to transition to Area 3 (West) at (26, 0). (17 steps consumed, total 178)
 - Walked Down 3, Left 1, Down 15, Left 4, Up 2 to climb East Stairs onto plateau at (21, 16). (25 steps consumed, total 203)
 - Walked Left 15, Down 3 to descend plateau at (6, 19). (18 steps consumed, total 221)
+- Walked Down 1 to (6, 20), encountered wild Tauros and ran away. (1 step consumed, total 222)
+- Walked Left 3, Up 6, Right 9, Up 1 to reach in front of Secret House door at (12, 13). (19 steps consumed, total 241)
 
 <hr>
 
@@ -1154,8 +1156,8 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 100
-- **Steps Remaining:** 400
+- **Steps Consumed:** 222
+- **Steps Remaining:** 278
 
 ## 🗺️ Step-by-Step Route Log
 - Started inside Safari Zone Center at (18, 25).
