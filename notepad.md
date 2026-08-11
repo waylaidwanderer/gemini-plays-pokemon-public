@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 50835)
-- Location: Celadon Game Corner (Main Casino Floor) at (6, 7).
+## CURRENT STATUS & DASHBOARD (Turn 50838)
+- Location: Celadon Game Corner (Main Casino Floor) at (4, 7).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Unstun SPRITE_f0c4 at (5, 7), press B for 1 turn to let it move UP to (5, 6), then re-stun at (5, 6) and walk to Rocket Grunt / Poster Switch at (17, 9).
+- Active Objective: Walk Down 2 along Column 4 to (4, 9), Right 1 to (5, 9), and Right 12 along Row 9 corridor to Rocket Grunt / Poster Switch at (17, 9).
 - Persistent Facts:
   - North Wall poster switch at (17, 1) / (18, 1) guarded by Rocket Grunt reveals secret staircase (4, 4) down to Rocket Hideout B1F.
   - Secret Staircase at (4, 4) leads directly down to Rocket Hideout B1F.
@@ -750,10 +750,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 50838)
-- Location: Celadon Game Corner (Main Casino Floor) at (4, 7).
+## CURRENT STATUS & DASHBOARD (Turn 50839)
+- Location: Celadon Game Corner (Main Casino Floor) at (6, 7).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Walk Down 2 along Column 4 to (4, 9), Right 1 to (5, 9), and Right 12 along Row 9 corridor to Rocket Grunt / Poster Switch at (17, 9).
+- Active Objective: Walk Left 2 to (4, 7), Up 3 to Row 4 (4, 4), and Right 13 along Row 4 aisle to Rocket Grunt / Poster Switch at (17, 4) / (17, 1).
 - Persistent Facts:
   - North Wall poster switch at (17, 1) / (18, 1) guarded by Rocket Grunt reveals secret staircase (4, 4) down to Rocket Hideout B1F.
   - Secret Staircase at (4, 4) leads directly down to Rocket Hideout B1F.
