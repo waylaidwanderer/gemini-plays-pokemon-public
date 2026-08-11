@@ -964,6 +964,10 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 - Attempted Left from (24, 29) to (23, 29) (solid fence/hedge, Fuchsia City, Turn 33169).
 - Attempted Left from (24, 30) to (23, 30) (solid fence/hedge, Fuchsia City, Turn 33171).
 - Attempted Up from (36, 24) to (36, 23) (solid tree, Fuchsia City, Turn 33175).
+- Attempted Up from (24, 16) to (24, 15) (solid fence post, Fuchsia City, Turn 33208).
+- Verified properties:
+  - Column 8 ledge gap at Row 31/32 allows the player to jump down from Row 31 to Row 32 to reach the western area.
+  - Column 22 vertical corridor allows walking north/south between Row 21 and Row 14, bypassing the horizontal fence at Row 22.
 
 <hr>
 
