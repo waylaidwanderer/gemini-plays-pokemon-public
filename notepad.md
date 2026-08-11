@@ -1471,6 +1471,8 @@ Systematically probe every potential building doorway and alleyway warp in South
 - (5, 4) from (5, 3) facing Down: PASSABLE (player stands at 5, 4; no warp)
 - (4, 4) from (5, 4) facing Left: SOLID (bumped turn 51002)
 - Testing (5, 0) North wall archway warp via Column 5 (5, 4 -> 5, 3 -> 5, 2 -> 5, 1 -> 5, 0).
+- (4, 4) from (4, 5) facing Up: SOLID (bumped turn 51011)
+Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs inside). Exiting to explore Route 5 outdoors.
 
 <hr>
 
