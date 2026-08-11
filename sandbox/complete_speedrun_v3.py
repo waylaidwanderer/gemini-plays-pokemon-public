@@ -68,41 +68,19 @@ def walk_to(target_x, target_y):
         else:
             consecutive_bumps = 0
 
-def run_segment_2():
-    print("=== SEGMENT 2: Area 1 (East) -> Area 2 (North) ===")
+def run_segment_2_fixed():
+    print("=== SEGMENT 2 (Fixed): Area 1 (East) -> Area 2 (North) ===")
     path_points = [
-        # Start at (21, 19)
-        # 1. Walk Left to Column 20
-        (20, 19),
-        # 2. Walk Down to stairs base (20, 21)
-        (20, 21),
-        # 3. Climb stairs UP onto plateau (20, 20)
-        (20, 20),
-        # 4. Walk Left on plateau to Column 12
-        (12, 20),
-        # 5. Descend stairs DOWN to ground (12, 22)
-        (12, 22),
-        # 6. Walk Left to Column 8
-        (8, 22),
-        # 7. Walk UP Column 8 to Row 8
-        (8, 8),
-        # 8. Walk Right to Column 12
-        (12, 8),
-        # 9. Walk UP to stairs base (12, 7)
-        (12, 7),
-        # 10. Climb stairs UP onto Northern Plateau (12, 6)
-        (12, 6),
-        # 11. Walk Right on Northern Plateau to Column 17
-        (17, 6),
-        # 12. Descend stairs DOWN to ground (17, 8)
-        (17, 8),
-        # 13. Walk Right to Column 20
-        (20, 8),
-        # 14. Walk UP Column 20 to Row 5 (Northeast Channel)
-        (20, 5),
-        # 15. Walk Left to Column 0 (Northern Corridor)
+        # Start at (20, 6)
+        # 1. Walk UP Column 20 to Row 3
+        (20, 3),
+        # 2. Walk LEFT Row 3 to Column 7
+        (7, 3),
+        # 3. Walk DOWN Column 7 to Row 5
+        (7, 5),
+        # 4. Walk LEFT Row 5 to Column 0
         (0, 5),
-        # 16. Transition Left into Area 2 (North)
+        # 5. Transition Left into Area 2 (North)
         (-1, 5)
     ]
 
@@ -111,7 +89,7 @@ def run_segment_2():
         
         # Check if we transitioned maps (detect x coordinate jump)
         curr = get_pos()
-        if curr is not None and idx >= 14: # Near the end of Area 1
+        if curr is not None and idx >= 3: # Near the end of Area 1
             if curr[0] > 30 or curr[1] > 28: # Typical Area 2 coords e.g., (39, 31)
                 print(f"Map transition detected early at: {curr}")
                 break
@@ -124,4 +102,4 @@ def run_segment_2():
     return True
 
 if __name__ == "__main__":
-    run_segment_2()
+    run_segment_2_fixed()
