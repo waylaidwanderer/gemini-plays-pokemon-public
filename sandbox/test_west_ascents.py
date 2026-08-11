@@ -3,24 +3,11 @@ import time
 
 print("Starting systematic western ascent search...")
 
-# 1. Walk to Column 1, Row 32 (1, 32)
-print("Moving to Row 18...")
-bridge.press_buttons(["Up", "Up", "Up"])
-time.sleep(0.5)
-
-print("Moving LEFT to Column 1...")
-bridge.press_buttons(["Left"] * 34)
-time.sleep(0.5)
-
-print("Moving DOWN to Row 32...")
-bridge.press_buttons(["Down"] * 14)
-time.sleep(0.5)
-
 # Verify position is (1, 32)
 pos = bridge.get_coordinates()
 print(f"Current position: {pos}")
 if pos != (1, 32):
-    print("Error: Failed to reach (1, 32)")
+    print("Error: Not at (1, 32)")
     exit(1)
 
 # 2. Test columns 3 to 8
