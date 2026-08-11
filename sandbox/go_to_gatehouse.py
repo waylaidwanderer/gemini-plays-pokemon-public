@@ -73,7 +73,11 @@ def main():
         (19, 9),
         # 7. Walk UP Column 19 to Row 8
         (19, 8),
-        # 8. Walk RIGHT Row 8 to Column 37
+        # 8. Detour around NPC at 24,8
+        (23, 9),
+        (25, 9),
+        (25, 8),
+        # 8b. Walk RIGHT Row 8 to Column 37
         (37, 8),
         # 9. Walk UP Column 37 to Row 2
         (37, 2),
