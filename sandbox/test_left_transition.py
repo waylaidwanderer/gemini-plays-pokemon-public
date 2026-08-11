@@ -1,19 +1,56 @@
 import time
+import sys
 import bridge
 
-print("Running test_left_transition.py")
+# Set stdout to use utf-8
+sys.stdout.reconfigure(encoding='utf-8')
 
-# Walk Down to Row 36 from (6, 33)
-print("Walking Down to Row 36...")
-for i in range(3):
-    bridge.press_buttons(["Down"])
-    time.sleep(0.6)
-print(f"Coords on Row 36: {bridge.get_coordinates()}")
+def get_pos():
+    pos = bridge.get_coordinates()
+    if pos is None:
+        return None
+    return pos[0], pos[1]
 
-# Walk Left along Row 36 to Column 0 to transition
-print("Walking Left to transition to Area 3 (West)...")
-for i in range(12): # Walk Left up to 12 times to make sure we transition
-    bridge.press_buttons(["Left"])
-    time.sleep(0.6)
-    c = bridge.get_coordinates()
-    print(f"Step {i+1} Coords: {c}")
+def walk_step(direction):
+    bridge.press_buttons([direction, "sleep 350"])
+
+def test_moves():
+    print("Testing left-side paths from (2, 14)...")
+    pos = get_pos()
+    print(f"Start pos: {pos}")
+    
+    # Let's walk DOWN to (2, 16)
+    walk_step("Down")
+    walk_step("Down")
+    pos = get_pos()
+    print(f"At: {pos}")
+    
+    # Try Left to (1, 16)
+    walk_step("Left")
+    pos = get_pos()
+    print(f"At: {pos}")
+    
+    if pos == (1, 16):
+        # We are at (1, 16). Let's test going Left, Down, Up
+        for d in ["Left", "Down", "Up"]:
+            print(f"Testing {d} from (1, 16)...")
+            walk_step(d)
+            npos = get_pos()
+            print(f"Result: {npos}")
+            if npos != (1, 16) and npos is not None:
+                # Walk back
+                opp = {"Left": "Right", "Down": "Up", "Up": "Down"}[d]
+                walk_step(opp)
+                
+    # Walk back to (2, 14) to keep start position
+    pos = get_pos()
+    if pos == (1, 16):
+        walk_step("Right")
+    pos = get_pos()
+    if pos == (2, 16):
+        walk_step("Up")
+        walk_step("Up")
+    print(f"Back at start? {get_pos()}")
+
+if __name__ == "__main__":
+    test_moves()
