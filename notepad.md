@@ -1,13 +1,13 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 50911)
-- Location: Celadon Game Corner at (6, 4).
+## CURRENT STATUS & DASHBOARD (Turn 50918)
+- Location: Miracle Cycle Bike Shop (Cerulean City) at (2, 3).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Test passability of tile (7, 3) from (7, 4) to find passage to East Casino Floor.
+- Active Objective: Exit Miracle Cycle Bike Shop at door (2, 7) / (3, 7) to Cerulean City.
 - Persistent Facts:
-  - North/West Wall poster switch at (0, 0) guarded by Rocket Grunt at (0, 1) reveals secret staircase (4, 4) down to Rocket Hideout B1F.
-  - Secret Staircase at (4, 4) leads directly down to Rocket Hideout B1F.
-  - Solid obstacles verified: (5,1), (8,4), (8,5), (8,6), (4,8), (6,8), (6,3).
+  - Current indoor building is Miracle Cycle Bike Shop at (2, 3).
+  - Main Game Corner Casino in Celadon City is located at Celadon City door (17, 13).
+  - Secret Staircase at (4, 4) inside Main Game Corner Casino leads down to Rocket Hideout B1F.
 
 <hr>
 
