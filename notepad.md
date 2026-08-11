@@ -1121,36 +1121,23 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 
 <h1><code>Scratchpad/SafariZone_Route.md</code></h1>
 
-# Safari Zone - Speedrun Route (Current Run)
+# Safari Zone - Speedrun Route (Active Run)
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 290
-- **Steps Remaining:** 210
+- **Steps Consumed:** 100
+- **Steps Remaining:** 400
 
 ## 🗺️ Step-by-Step Route Log
 - Started inside Safari Zone Center at (18, 25).
-- Walked to transition to Area 1 (East) at Center (29, 11) -> Area 1 (0, 23).
-- Transitioned to Area 2 (North) at Area 1 (0, 5) -> Area 2 (39, 31).
-- Walked west along the southern corridor in Area 2 (North) to (22, 31).
-- Climbed the Western Southern Plateau to (22, 22).
-- Walked west along the Western Southern Plateau to (16, 22).
-- Descended Western Southern Plateau stairs to (16, 28).
-- Walked south to (16, 32).
-- Walked west along the southern corridor to (12, 33).
-- Transitioned to Area 3 (West) at Area 2 (8, 36) -> Area 3 (26, 0).
-- Walked south to Row 18, and west to the East Stairs at (21, 18).
-- Climbed the East Stairs to (21, 16).
-- Walked west along the plateau to (6, 16).
-- Descended the West Stairs of the plateau to (6, 20).
-- Walked north to (3, 20) on the western ground level.
-- Walked north on Column 3 to (3, 14).
-- Walked east along Row 14 to (10, 14) to bypass the pond.
-- Walked to (19, 24) in the southeastern ground level.
-- Systematically tested Row 25: Column 12 is blocked (Turn 31664), Column 11 is blocked (Turn 31667), Column 10 is blocked (Turn 31668), Column 9 is blocked, Column 8 is blocked (Turn 31669), Column 7 Row 24 is blocked (Turn 31670), Column 6 is blocked, Column 5 is blocked, Column 4 is blocked, Column 3 is blocked (Turn 31673), Column 2 Row 24 is blocked (Turn 31674).
-- Systematically tested Row 25 on eastern columns: Column 23, 24, 25, 26 are blocked by fences.
-- Row 25 is 100% solid across the map.
-- Currently running away from wild VENONAT at (23, 22). Plan to walk to the East Stairs at (21, 18) to climb the plateau and walk back west.
+- Walked to transition to Area 1 (East) at Center (29, 11) -> Area 1 (0, 23). (29 steps consumed)
+- Walked east along Southern Ground Level in Area 1 to (20, 21), climbed Southern Plateau to (20, 20). (23 steps consumed, total 52)
+- Walked west along Southern Plateau to (12, 20), descended stairs to ground level at (12, 22). (10 steps consumed, total 62)
+- Walked to (9, 17) via (9, 22). (9 steps consumed, total 71)
+- Walked north on Column 10 to (10, 12). (6 steps consumed, total 77)
+- Walked to Northern Plateau stairs, climbed to (12, 6). (7 steps consumed, total 84)
+- Walked east along Northern Plateau, descended stairs to (17, 8). (8 steps consumed, total 92)
+- Walked east and north on Column 20, encountered wild Nidoran♀ at (20, 4) and ran away. (8 steps attempted, 7 steps consumed, total 100)
 
 <hr>
 
