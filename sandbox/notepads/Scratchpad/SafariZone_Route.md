@@ -1,11 +1,10 @@
-# Safari Zone - Speedrun Route (Current Run)
+# Safari Zone - Speedrun Route (Current Run: Started Turn 33268+)
 
-## Step Budget Tracker
+## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
 - **Steps Consumed:** 0
 - **Steps Remaining:** 500
 
-## Step-by-Step Route Log
-- Fresh Safari Zone run scheduled.
-- Goal: Retrieve the Gold Teeth, and enter the Secret House to obtain HM03 (Surf).
-- Note: We will systematically test the physical tile and interaction at Column 3, Row 20/19 to verify the Secret House entrance.
+## 🗺️ Step-by-Step Route Log
+- Started a fresh Safari Zone run.
+- Goal: Retrieve the Gold Teeth at (19, 7) and enter the Secret House at (3, 19) in Area 3 (West) to obtain HM03 (Surf).
