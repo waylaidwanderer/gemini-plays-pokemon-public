@@ -64,10 +64,10 @@ def walk_to_target(tx, ty):
     return True
 
 def run_segment():
-    print("Starting ground level route to Area 1 (East) from (28, 24)...")
+    print("Starting ground level route with Row 23 bypass to Area 1 (East) from (27, 24)...")
     
     path = [
-        (27, 24), (27, 26), (30, 26), (30, 11), (29, 11)
+        (27, 23), (30, 23), (30, 26), (30, 11), (29, 11)
     ]
     
     for tx, ty in path:
