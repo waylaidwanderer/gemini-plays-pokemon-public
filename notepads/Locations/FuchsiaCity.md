@@ -34,3 +34,9 @@
     - Walk Down along Column 24 (or Column 1) to Row 28/32/34.
     - Walk along Row 28/32/34 to Column 19, and walk Up to (19, 27) to enter.
     - Note: Columns 22-23 on rows 22-25 are blocked by the roof of the adjacent house, so you must use either Column 24 on the east or Column 1 on the west to transition south.
+
+
+## Verified Physical Collisions
+- Attempted Down from (22, 6) to (22, 7) (solid hedges, Fuchsia City, Turn 33071).
+- Attempted Left from (26, 15) to (25, 15) (solid building wall, Fuchsia City, Turn 33086).
+- Attempted Down from (26, 15) to (26, 16) (solid tree, Fuchsia City, Turn 33086).
