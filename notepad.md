@@ -866,6 +866,7 @@
 - West Casino Sub-room Exit Mat (5, 13): Warps outside to Celadon City at tile (30, 19) / (30, 20).
 - Tile (17, 14): One-way ledge hopping South onto Row 16 at (17, 16). Stay on Row 12 (y=12) to bypass.
 - Tile (12, 14): One-way blue slope hopping South from Row 12 onto Row 16. Ascend Column 9 to Row 8 (y=8) to stay above all slopes.
+- Celadon Game Corner Main Doorway Verified (Turn 51045): Located at Celadon City (18, 21). Approached via (17, 22) -> (18, 22) -> Up into door (18, 21).
 
 <hr>
 
