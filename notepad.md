@@ -957,6 +957,8 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 - Attempted Left from (26, 15) to (25, 15) (solid building wall, Fuchsia City, Turn 33086).
 - Attempted Down from (26, 15) to (26, 16) (solid tree, Fuchsia City, Turn 33086).
 
+- Attempted Right from (9, 32) to (10, 32) (solid diagonal ledge, Fuchsia City, Turn 33117).
+- Attempted Up from (9, 32) to (9, 31) (solid horizontal ledge, Fuchsia City, Turn 33118).
 
 <hr>
 

@@ -40,3 +40,6 @@
 - Attempted Down from (22, 6) to (22, 7) (solid hedges, Fuchsia City, Turn 33071).
 - Attempted Left from (26, 15) to (25, 15) (solid building wall, Fuchsia City, Turn 33086).
 - Attempted Down from (26, 15) to (26, 16) (solid tree, Fuchsia City, Turn 33086).
+
+- Attempted Right from (9, 32) to (10, 32) (solid diagonal ledge, Fuchsia City, Turn 33117).
+- Attempted Up from (9, 32) to (9, 31) (solid horizontal ledge, Fuchsia City, Turn 33118).
