@@ -1109,6 +1109,9 @@
 - Column 33 (x=33) is 100% open pavement vertically connecting Row 11 (33, 11) down to Row 18 (33, 18).
 - Row 19 wooden fence log spans x=32..37, blocking northbound movement from Row 20.
 - Row 21 (y=21) is 100% open pavement across x=28..34, bypassing the NPC at (31, 20).
+- Tile (34, 19) is a ONE-WAY LEDGE hopping South (blocks Northbound traversal).
+- Column 33 (x=33, y=16..20) is a 100% OPEN PAVEMENT PASSAGE connecting Row 20 directly North to Row 16 Avenue at (33, 16).
+- Row 16 at (34, 16 / 35, 16) is an OPEN GREEN LAWN GAP connecting Column 33 directly East to Column 36 at (36, 16).
 
 <hr>
 
@@ -1465,8 +1468,7 @@ Empirically map every aisle on Columns 5, 6, and 7 across Rows 1..6 to verify if
 - Column 33 (x=33) is 100% open pavement vertically connecting Row 11 (33, 11) down to Row 18 (33, 18).
 - Row 19 wooden fence log spans x=32..37, blocking northbound movement from Row 20.
 - Row 21 (y=21) is 100% open pavement across x=28..34, bypassing the NPC at (31, 20).
-- Tile (34, 19) is a ONE-WAY LEDGE hopping South (blocks Northbound traversal).
-- Column 33 (x=33, y=16..20) is a 100% OPEN PAVEMENT PASSAGE connecting Row 20 directly North to Row 16 Avenue at (33, 16).
-- Row 16 at (34, 16 / 35, 16) is an OPEN GREEN LAWN GAP connecting Column 33 directly East to Column 36 at (36, 16).
+- Row 19 (y=19) across x=32..37 is a continuous ONE-WAY LEDGE hopping South (blocks Northbound traversal from Row 20 to Row 18).
+- Column 34 (x=34) going South below Row 20 (y=20..24+) is open light gray pavement.
 
 <hr>
