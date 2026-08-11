@@ -68,23 +68,20 @@ def walk_to(target_x, target_y):
         else:
             consecutive_bumps = 0
 
-def run_segment_1():
-    print("=== SEGMENT 1: Safari Zone Center -> Area 1 (East) ===")
-    # Verified Ground-Level Eastern Bypass Route
-    # 1. Walk UP Column 15 to Row 22
-    if not walk_to(15, 22): return False
-    # 2. Walk RIGHT along Row 22 to Column 28
-    if not walk_to(28, 22): return False
-    # 3. Walk UP Column 28 to Row 11
-    if not walk_to(28, 11): return False
-    # 4. Walk RIGHT along Row 11 to Column 30
-    if not walk_to(30, 11): return False
-    # 5. Transition Right into Area 1 (East)
-    print("Transitioning into Area 1 (East)...")
-    walk_step("Right")
+def run_segment_2():
+    print("=== SEGMENT 2: Area 1 (East) -> Area 2 (North) ===")
+    # 1. Walk LEFT to Column 20 Row 24
+    if not walk_to(20, 24): return False
+    # 2. Walk UP Column 20 to Row 5
+    if not walk_to(20, 5): return False
+    # 3. Walk LEFT Row 5 to Column 0
+    if not walk_to(0, 5): return False
+    # 4. Transition Left into Area 2 (North)
+    print("Transitioning into Area 2 (North)...")
+    walk_step("Left")
     time.sleep(1.0)
-    print(f"Inside Area 1 (East)? New position: {get_pos()}")
+    print(f"Inside Area 2 (North)? New position: {get_pos()}")
     return True
 
 if __name__ == "__main__":
-    run_segment_1()
+    run_segment_2()
