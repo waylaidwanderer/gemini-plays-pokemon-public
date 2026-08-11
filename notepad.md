@@ -1415,5 +1415,7 @@ Empirically map every aisle on Columns 5, 6, and 7 across Rows 1..6 to verify if
   3. Walk South 14 steps down Column 36 through tree gap (36, 28) to South Street at (36, 30).
   4. Walk West 16 steps along South Street to (20, 30).
   5. Walk South 6 steps to warp tile (20, 36) into Game Corner Plaza.
+- EMPIRICAL LESSON (Turn 50316): Blue staircases/slopes in Celadon City (e.g. at 13, 11) are ONE-WAY SLOPES going SOUTH. They block northbound movement from Row 12.
+- Column 9 (x=9, y=12..16) is a 100% open vertical street connecting Row 12 (9, 12) directly South down to Row 16 Avenue at (9, 16).
 
 <hr>
