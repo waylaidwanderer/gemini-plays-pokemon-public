@@ -109,7 +109,7 @@
 - **Full Restore:** 1
 - **Max Revive:** 1
 - **HM03 (Surf):** NOT YET OBTAINED (Verified on Turn 27754).
-- **Active PC Box Change (FAILED Turn 33202):** Attempted to switch to BOX 2 on Turn 33202 but accidentally canceled it by selecting 'NO' on the YES/NO prompt. Must visit Pokémon Center PC to successfully switch to BOX 2.
+- **Active PC Box Change:** Successfully changed active PC Box to BOX 2 on Turn 33375 at Fuchsia Pokémon Center.
 
 ## Major Exploration Phases and Timestamps
 - **Saffron West/East Gatehouse Tests:** Turn 12616 (East Gatehouse tested), Turn 18179 to 18184 (West Gatehouse tested, confirmed Saffron City is blocked by thirsty guards).
