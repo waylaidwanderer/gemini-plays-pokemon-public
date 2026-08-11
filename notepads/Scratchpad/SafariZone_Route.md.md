@@ -2,32 +2,39 @@
 
 ## ⏱️ Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 327
-- **Steps Remaining:** 173
+- **Steps Consumed:** 0
+- **Steps Remaining:** 500
 
-## 🗺️ Step-by-Step Route Log
-- Started inside Safari Zone Center at (18, 25).
-- Walked to transition to Area 1 (East) at Center (29, 11) -> Area 1 (0, 23). (29 steps consumed)
-- Walked east along Southern Ground Level in Area 1 to (20, 21), climbed Southern Plateau to (20, 20). (23 steps consumed, total 52)
-- Walked west along Southern Plateau to (12, 20), descended stairs to ground level at (12, 22). (10 steps consumed, total 62)
-- Walked to (9, 17) via (9, 22). (9 steps consumed, total 71)
-- Walked north on Column 10 to (10, 12). (6 steps consumed, total 77)
-- Walked to Northern Plateau stairs, climbed to (12, 6). (7 steps consumed, total 84)
-- Walked east along Northern Plateau, descended stairs to (17, 8). (8 steps consumed, total 92)
-- Walked east and north on Column 20, encountered wild Nidoran♀ at (20, 4) and ran away. (8 steps attempted, 7 steps consumed, total 100)
-- Walked Up 1, Left 4 to (16, 3), encountered wild Nidorina and ran away. (5 steps consumed, total 105)
-- Walked Left 9, Down 2, Left 8 to transition to Area 2 (North) at (39, 31). (19 steps consumed, total 124)
-- Walked Left 17, Up 8 to (22, 23). (25 steps consumed, total 149)
-- Walked Up 1, Left 6, Down 5 to Western Southern Plateau stairs at (16, 27). (12 steps consumed, total 161)
-- Walked Left 4, Down 5, Left 4, Down 3, Left 1 to transition to Area 3 (West) at (26, 0). (17 steps consumed, total 178)
-- Walked Down 3, Left 1, Down 15, Left 4, Up 2 to climb East Stairs onto plateau at (21, 16). (25 steps consumed, total 203)
-- Walked Left 15, Down 3 to descend plateau at (6, 19). (18 steps consumed, total 221)
-- Walked Down 1 to (6, 20), encountered wild Tauros and ran away. (1 step consumed, total 222)
-- Walked Left 3, Up 6, Right 9, Up 1 to reach in front of Secret House door at (12, 13). (19 steps consumed, total 241)
-- Entered Rest House 3, spoke to NPC, exited, and walked back across plateau to Column 19 Row 24. (48 steps consumed, total 289)
-- Walked Right 1, Up 5, Left 1 to (18, 19) on the plateau. (7 steps consumed, total 296)
-- Walked Right 3, Up 3 to climb East Stairs onto plateau at (21, 16). (6 steps consumed, total 302)
-- Walked Left 15, Down 3 to descend plateau at (6, 19). (18 steps consumed, total 320)
-- Walked Down 1 to (6, 20), encountered wild Doduo and ran away. (1 step consumed, total 321)
-- Walked Right 5 to stand at (11, 20). (6 steps attempted, 5 steps consumed, total 326)
-- Attempted Up at (11, 20) and bumped into cliff. (0 steps consumed, total 327)
+## 🗺️ Master Audited Speedrun Route (Surf & Gold Teeth in One Run)
+1. **Gatehouse to Safari Zone Center:**
+   - Pay 500 Poké Dollars to the Gatekeeper clerk at `(4, 2)`.
+   - Enter Safari Zone Center at `(18, 25)`.
+2. **Safari Zone Center to Area 1 (East):**
+   - Walk from `(18, 25)` to the transition to Area 1 (East) at `(29, 11)`. Land in Area 1 (East) at `(0, 23)`.
+3. **Area 1 (East) to Area 2 (North):**
+   - Walk along the southern corridor of Area 1 (East) to `(20, 21)`.
+   - Climb Southern Plateau to `(20, 20)`.
+   - Walk west on plateau to `(12, 20)`.
+   - Descend Southern Plateau stairs to ground at `(12, 22)`.
+   - Walk left/north to Northern Plateau stairs, climb to `(12, 6)`.
+   - Walk east on Northern Plateau, descend stairs to northeast ground at `(17, 8)`.
+   - Walk to Column 20, go UP to Row 5 `(20, 5)`.
+   - Walk Left along Row 5 to Column 0 `(0, 5)` to transition to Area 2 (North) at `(39, 31)`.
+4. **Area 2 (North) to Area 3 (West):**
+   - Walk Left along Row 31 of Area 2 (North) to Column 20 `(20, 31)`. (Bypass other transitions, which are traps!)
+   - Walk DOWN Column 20 to Row 36 `(20, 36)`.
+   - Walk DOWN 1 step to transition to Area 3 (West) at `(14, 0)`.
+5. **Retrieving HM03 (Surf) in Area 3 (West):**
+   - From `(14, 0)`: Walk DOWN Column 14 to `(14, 14)` (14 steps Down).
+   - Walk LEFT along Row 14 to Column 5 `(5, 14)` (9 steps Left). (Row 14 has no trees or cliffs!).
+   - Stand at `(5, 14)` and press UP to enter the Secret House at `(5, 13)`.
+   - Inside the Secret House, speak to the clerk to obtain **HM03 (Surf)**!
+   - Exit the Secret House back to `(5, 14)`.
+6. **Retrieving Gold Teeth in Area 3 (West):**
+   - From `(5, 14)`: Walk DOWN Column 5 on the ground to `(5, 26)`.
+   - Walk RIGHT along Row 26 (the highway) to Column 19 `(19, 26)`.
+   - Walk UP Column 19 to `(19, 24)`.
+   - Stand at `(19, 24)` facing Down and press `A` to retrieve the **Gold Teeth**!
+7. **Exiting Safari Zone:**
+   - From `(19, 24)`: Walk Right to Column 30 `(30, 23)` to transition back to Safari Zone Center at `(0, 11)`.
+   - Walk to the gatehouse and exit!
