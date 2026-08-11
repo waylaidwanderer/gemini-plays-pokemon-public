@@ -758,7 +758,7 @@
 - Persistent Facts:
   - Outdoor door (30, 19) in Celadon City enters True Main Casino Floor ("Celadon Game Corner") at (4, 13).
   - Column 10 (x=10, y=4..11) is a solid dark grey wall divider separating West and East Casino floors.
-  - Tile (4, 4) in Celadon Game Corner is the secret staircase warp directly into Rocket Hideout B1F (5, 4).
+  - Testing North wall posters at (5, 1) and (4, 1) in Celadon Game Corner to locate poster switch for staircase (4, 4).
 
 <hr>
 
