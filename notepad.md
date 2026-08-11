@@ -1091,6 +1091,16 @@
 7. Walk West 8 steps along South Street to (28, 36) warp -> Warps into Game Corner Plaza at (18, 0).
 8. In Game Corner Plaza, walk to door (17, 27) -> Warps into True Main Casino Floor at (3, 7).
 
+## Master Verified Row 16 Route (Turn 50186)
+- CORRECTION: Column 7 (x=7) is a continuous vertical wall of grey statues/ruins spanning y=8..17. There is NO slope gap at (7, 11).
+- Row 16 (y=16) is a 100% open horizontal avenue connecting West/Central Celadon (x=8) directly East to Column 36 (36, 16) via open passage at (32, 16).
+- Master Navigation Route to Game Corner Plaza:
+  1. From (8, 12), walk Down 4 steps to (8, 16).
+  2. Walk East 28 steps along Row 16 across x=8..36 to (36, 16).
+  3. Walk South 14 steps down Column 36 through tree gap (36, 28) to South Street at (36, 30).
+  4. Walk West 16 steps along South Street to (20, 30).
+  5. Walk South 6 steps to warp tile (20, 36) into Game Corner Plaza.
+
 <hr>
 
 <h1><code>Scratchpad/Game_Corner_Plaza_Testing</code></h1>
