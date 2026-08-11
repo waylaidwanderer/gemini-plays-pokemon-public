@@ -1163,39 +1163,20 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 
 <h1><code>Scratchpad/SafariZone_Route</code></h1>
 
-# Safari Zone - Speedrun Route (Active Run)
+# Safari Zone - Speedrun Route (Current Run)
 
-## ⏱️ Step Budget Tracker
+## Step Budget Tracker
 - **Total Steps Available:** 500
-- **Steps Consumed:** 327
-- **Steps Remaining:** 173
+- **Steps Consumed:** 403
+- **Steps Remaining:** 97
 
-## 🗺️ Step-by-Step Route Log
-- Started inside Safari Zone Center at (18, 25).
-- Walked to transition to Area 1 (East) at Center (29, 11) -> Area 1 (0, 23). (29 steps consumed)
-- Walked east along Southern Ground Level in Area 1 to (20, 21), climbed Southern Plateau to (20, 20). (23 steps consumed, total 52)
-- Walked west along Southern Plateau to (12, 20), descended stairs to ground level at (12, 22). (10 steps consumed, total 62)
-- Walked to (9, 17) via (9, 22). (9 steps consumed, total 71)
-- Walked north on Column 10 to (10, 12). (6 steps consumed, total 77)
-- Walked to Northern Plateau stairs, climbed to (12, 6). (7 steps consumed, total 84)
-- Walked east along Northern Plateau, descended stairs to (17, 8). (8 steps consumed, total 92)
-- Walked east and north on Column 20, encountered wild Nidoran♀ at (20, 4) and ran away. (8 steps attempted, 7 steps consumed, total 100)
-- Walked Up 1, Left 4 to (16, 3), encountered wild Nidorina and ran away. (5 steps consumed, total 105)
-- Walked Left 9, Down 2, Left 8 to transition to Area 2 (North) at (39, 31). (19 steps consumed, total 124)
-- Walked Left 17, Up 8 to (22, 23). (25 steps consumed, total 149)
-- Walked Up 1, Left 6, Down 5 to Western Southern Plateau stairs at (16, 27). (12 steps consumed, total 161)
-- Walked Left 4, Down 5, Left 4, Down 3, Left 1 to transition to Area 3 (West) at (26, 0). (17 steps consumed, total 178)
-- Walked Down 3, Left 1, Down 15, Left 4, Up 2 to climb East Stairs onto plateau at (21, 16). (25 steps consumed, total 203)
-- Walked Left 15, Down 3 to descend plateau at (6, 19). (18 steps consumed, total 221)
-- Walked Down 1 to (6, 20), encountered wild Tauros and ran away. (1 step consumed, total 222)
-- Walked Left 3, Up 6, Right 9, Up 1 to reach in front of Secret House door at (12, 13). (19 steps consumed, total 241)
-- Entered Rest House 3, spoke to NPC, exited, and walked back across plateau to Column 19 Row 24. (48 steps consumed, total 289)
-- Walked Right 1, Up 5, Left 1 to (18, 19) on the plateau. (7 steps consumed, total 296)
-- Walked Right 3, Up 3 to climb East Stairs onto plateau at (21, 16). (6 steps consumed, total 302)
-- Walked Left 15, Down 3 to descend plateau at (6, 19). (18 steps consumed, total 320)
-- Walked Down 1 to (6, 20), encountered wild Doduo and ran away. (1 step consumed, total 321)
-- Walked Right 5 to stand at (11, 20). (6 steps attempted, 5 steps consumed, total 326)
-- Attempted Up at (11, 20) and bumped into cliff. (0 steps consumed, total 327)
+## Step-by-Step Route Log
+- Started fresh Safari Zone run on Turn 32803.
+- Entered Safari Zone Center, walked to Area 1 (East), traversed to Area 2 (North), and entered Area 3 (West).
+- Visited Rest House 3 / Secret House at (11, 11).
+- Discovered southwest quadrant has no second building.
+- Re-routing back to (11, 11) to obtain HM03 (Surf) from the Safari Zone Patron behind the counter.
+
 
 <hr>
 
@@ -1335,6 +1316,12 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
   - Attempted Left from `(18, 19)` to `(17, 19)` (cliff wall, bumped on Turn 32924).
   - Attempted Down from `(18, 19)` to `(18, 20)` (solid tree, bumped on Turn 32924).
   - Attempted Up from `(11, 20)` to `(11, 19)` (cliff wall, bumped on Turn 32936).
+### Verified Collisions (Turns 32950 - 32992)
+- Attempted Left from (1, 20) to (0, 20) (solid tree, bumped on Turn 32950).
+- Attempted Left from (1, 19) to (0, 19) (solid tree, bumped on Turn 32953).
+- Attempted Up from (12, 20) to (12, 19) (solid cliff, bumped on Turn 32959).
+- Attempted Down from (11, 15) to (11, 16) (solid cliff, bumped on Turn 32992).
+
 
 <hr>
 
