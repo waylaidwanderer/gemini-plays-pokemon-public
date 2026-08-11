@@ -1,22 +1,22 @@
 import time
-import mgba
+import bridge
 
 def get_pos():
-    pos = mgba.get_coordinates()
+    pos = bridge.get_coordinates()
     if pos is None:
         return None
-    return pos.get('x'), pos.get('y')
+    return pos[0], pos[1]
 
 def run_away():
     print("Attempting to run away from battle...")
     # Clear any battle start text first
-    mgba.press_buttons(["B", "sleep 300", "B", "sleep 300", "B", "sleep 300"])
+    bridge.press_buttons(["B", "sleep 300", "B", "sleep 300", "B", "sleep 300"])
     # Press Down, Right, A to select RUN
-    mgba.press_buttons(["Down", "Right", "A", "sleep 500"])
+    bridge.press_buttons(["Down", "Right", "A", "sleep 500"])
 
 def walk_step(direction):
     print(f"Stepping {direction}...")
-    mgba.press_buttons([direction, "sleep 300"])
+    bridge.press_buttons([direction, "sleep 300"])
 
 def navigate_path(path):
     for target in path:
@@ -78,7 +78,7 @@ success = navigate_path(path)
 if success:
     print("Path navigation complete. Facing UP to retrieve teeth...")
     # Turn UP and press A to pick up the Gold Teeth
-    mgba.press_buttons(["Up", "sleep 300", "A", "sleep 500", "A", "sleep 500"])
+    bridge.press_buttons(["Up", "sleep 300", "A", "sleep 500", "A", "sleep 500"])
     print("Gold Teeth retrieval attempted!")
 else:
     print("Failed to reach the Gold Teeth path.")
