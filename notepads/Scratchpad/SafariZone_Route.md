@@ -21,3 +21,4 @@
 - Walked Up 1, Left 6, Down 5 to Western Southern Plateau stairs at (16, 27). (12 steps consumed, total 161)
 - Walked Left 4, Down 5, Left 4, Down 3, Left 1 to transition to Area 3 (West) at (26, 0). (17 steps consumed, total 178)
 - Walked Down 3, Left 1, Down 15, Left 4, Up 2 to climb East Stairs onto plateau at (21, 16). (25 steps consumed, total 203)
+- Walked Left 15, Down 3 to descend plateau at (6, 19). (18 steps consumed, total 221)
