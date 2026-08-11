@@ -758,7 +758,7 @@
 - Persistent Facts:
   - Outdoor door (30, 19) in Celadon City enters True Main Casino Floor ("Celadon Game Corner") at (4, 13).
   - Column 10 (x=10, y=0..13) is a solid dark grey wall divider separating West and East Casino floors.
-  - Entering Game Corner via Plaza door (17, 27) loads staircase warp at (4, 4) leading directly to Rocket Hideout B1F (5, 4).
+  - Column 9 (9, 15) is open dirt slope gap to Row 12 Northern Highway. Plaza door (17, 27) loads active staircase warp at (4, 4).
 
 <hr>
 
@@ -954,6 +954,7 @@
 - Tile (24, 16) & (24, 17): Blue outdoor staircase connecting Row 16 (23, 16) directly Down to Row 18 street at (24, 18).
 - Row 20 (x=22..30+): 100% open paved street running East-West directly in front of Main Game Corner Casino door at (30, 19).
 - West Casino Sub-room Exit Mat (5, 13): Warps outside to Celadon City at tile (30, 19) / (30, 20).
+- Tile (17, 14): One-way ledge hopping South onto Row 16 at (17, 16). Stay on Row 12 (y=12) to bypass.
 
 <hr>
 
