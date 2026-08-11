@@ -1086,6 +1086,9 @@
   5. Walk South 6 steps to warp tile (20, 36) into Game Corner Plaza.
 - EMPIRICAL LESSON (Turn 50316): Blue staircases/slopes in Celadon City (e.g. at 13, 11) are ONE-WAY SLOPES going SOUTH. They block northbound movement from Row 12.
 - Column 9 (x=9, y=12..16) is a 100% open vertical street connecting Row 12 (9, 12) directly South down to Row 16 Avenue at (9, 16).
+- Tile (23, 17) has a wooden fence log blocking northbound access from (23, 18).
+- Column 22 (x=22, y=18..22) is a 100% open vertical street connecting Row 18 directly South down to Row 20 Street at (22, 20).
+- Row 20 (y=20) is a 100% open street running East across x=22..28+ straight toward Column 36!
 
 <hr>
 
