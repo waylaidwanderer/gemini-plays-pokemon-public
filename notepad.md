@@ -116,14 +116,6 @@
 - (Cleaned up historic milestones to reduce context window bloat)
 
 
-
-
-## Active Safari Zone Session Info (Logged Turn 36451)
-- **Start Turn:** 36378
-- **Current Turn:** 36451
-- **Current Location:** Safari Zone Area 3 (West) at (19, 24)
-- **Estimated Steps Remaining:** ~50 steps (of 500)
-
 <hr>
 
 <h1><code>Mechanics/Search_Scripting_Pitfalls</code></h1>
