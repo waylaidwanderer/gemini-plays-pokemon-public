@@ -80,13 +80,18 @@ def run_path(path, check_warp=False):
 def run_area1_navigation():
     print("=== NAVIGATING AREA 1 TO AREA 2 ===")
     
-    # Explicitly flee battle if we are run
-    print("Fleeing active battle first...")
+    # Check if we are currently on the overworld (no need to flee if we are already out)
+    pos = get_pos()
+    print("Initial position checked:", pos)
+    
+    # If we are in a battle (screen is black or in battle, get_pos might be stale but let's check or handle)
+    # Actually, let's run handle_battle() anyway since B presses are completely harmless on overworld
+    print("Clearing any potential battle screen or text...")
     handle_battle()
     
     time.sleep(1.0)
     pos = get_pos()
-    print("Starting position after fleeing:", pos)
+    print("Starting position after clearing:", pos)
     
     if pos is None:
         print("Still in battle? Retrying flee...")
@@ -135,6 +140,14 @@ def run_area1_navigation():
         # Start from where we are currently standing on Turn 35967
         path_area1.append("Left")                # to (20, 6)
         path_area1.extend(["Up"] * 3)            # to (20, 3)
+        # Northern Corridor Bypass: Left to Col 7, Down to Row 5, Left to warp
+        path_area1.extend(["Left"] * 13)         # to (7, 3)
+        path_area1.extend(["Down"] * 2)          # to (7, 5)
+        path_area1.extend(["Left"] * 7)          # to (0, 5) (transition!)
+    elif pos[0] == 23 and pos[1] == 8:
+        # Start from where we are currently standing on Turn 35969
+        path_area1.extend(["Left"] * 3)          # to (20, 8)
+        path_area1.extend(["Up"] * 5)            # to (20, 3)
         # Northern Corridor Bypass: Left to Col 7, Down to Row 5, Left to warp
         path_area1.extend(["Left"] * 13)         # to (7, 3)
         path_area1.extend(["Down"] * 2)          # to (7, 5)
