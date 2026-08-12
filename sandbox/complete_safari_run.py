@@ -169,9 +169,17 @@ def run_campaign_to_area3():
         elif pos[0] == 20 and pos[1] <= 24 and pos[1] >= 5:
             is_area1 = True
             print(f"Resuming Area 1 navigation from Column 20: {pos}")
-            remaining_up = pos[1] - 5
-            path_area1.extend(["Up"] * remaining_up)
-            path_area1.extend(["Left"] * 20)
+            if pos[1] >= 17:
+                # Bypass the NPC at (20, 17) by walking Right to Column 21, Up, Left!
+                path_area1.append("Right") # to (21, pos[1])
+                remaining_up = pos[1] - 5
+                path_area1.extend(["Up"] * remaining_up) # to (21, 5)
+                path_area1.append("Left") # to (20, 5)
+                path_area1.extend(["Left"] * 20) # to (0, 5)
+            else:
+                remaining_up = pos[1] - 5
+                path_area1.extend(["Up"] * remaining_up)
+                path_area1.extend(["Left"] * 20)
         elif pos[1] == 5 and pos[0] <= 20:
             is_area1 = True
             print(f"Resuming Area 1 navigation from Row 5: {pos}")
