@@ -95,11 +95,10 @@ def run_surf_campaign():
         
     path_area1 = []
     
-    # We are currently at (17, 24) in Area 1 (East)
-    if pos is not None and pos[0] == 17 and pos[1] == 24:
-        # Continue Area 1 East route from (17, 24)
-        path_area1.extend(["Right"] * 3)   # to (20, 24)
-        path_area1.extend(["Up"] * 4)      # to (20, 20) (climb Southern Plateau)
+    # We are currently at (20, 23) in Area 1 (East)
+    if pos is not None and pos[0] == 20 and pos[1] == 23:
+        # Continue Area 1 East route from (20, 23)
+        path_area1.extend(["Up"] * 3)      # to (20, 20) (climb Southern Plateau)
         path_area1.extend(["Left"] * 8)    # to (12, 20) (walk West on plateau)
         path_area1.extend(["Down"] * 2)    # to (12, 22) (descend Southern Plateau stairs)
         path_area1.extend(["Left"] * 3)    # to (9, 22)
@@ -112,7 +111,7 @@ def run_surf_campaign():
         path_area1.extend(["Up"] * 3)      # to (20, 5)
         path_area1.extend(["Left"] * 20)   # to (0, 5) (transition!)
     else:
-        print(f"Error: Not at expected starting position (17, 24). Position is: {pos}")
+        print(f"Error: Not at expected starting position (20, 23). Position is: {pos}")
         return False
         
     print("=== STAGE 3: Walking Area 1 to Area 2 ===")
