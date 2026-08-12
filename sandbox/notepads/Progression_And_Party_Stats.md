@@ -69,10 +69,10 @@
 
 ## Active Safari Zone Session (Start Turn: 35655)
 - **Start Turn:** 35655
-- **Current Turn:** 35701
-- **Steps Used:** 205
-- **Steps Remaining:** 295
-- **Current Location:** Safari Zone Area 3 (West) at (27, 0)
+- **Current Turn:** 35765
+- **Steps Used:** ~250
+- **Steps Remaining:** ~250
+- **Current Location:** Safari Zone Area 2 (North) at (6, 23)
 - **Session Goals:** Enter Area 3 (West) northwest ground via Area 2 (North) southwest transition at (4, 36) to reach the Secret House and obtain Surf!
 - **Empirical Refutations:**
   - Verified Column 28 in Center is 100% open and walkable, saving 22 steps.
@@ -81,3 +81,6 @@
   - Verified Column 2 Rows 12-13 are blocked by a solid cliff wall in Area 3 (West).
   - Verified Column 3 Rows 12-13 are blocked by pond water in Area 3 (West).
   - Verified Column 23 Rows 14-17 are blocked by a solid cliff face in Area 3 (West).
+  - Verified Column 6 Row 22 is blocked in Area 2 (North) going UP.
+  - Verified Column 7 Row 28 is blocked in Area 2 (North) going UP.
+  - Verified Column 5 is blocked by a solid vertical hedge wall from Row 23 to Row 33 in Area 2 (North).
