@@ -39,7 +39,18 @@ def walk_step_robust(direction):
         if new_pos != pos:
             return new_pos
             
-    print(f"Bumping/stuck at {pos} walking {direction}!")
+    # Bumping/stuck! It could be a wall or a wild battle!
+    print(f"No movement detected after walking {direction} at {pos}. Checking for battle/dialogue...")
+    # Escape sequence
+    for _ in range(3):
+        bridge.press_buttons(["B", "sleep 150"])
+    bridge.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 1000"])
+    for _ in range(2):
+        bridge.press_buttons(["B", "sleep 200"])
+        
+    new_pos = get_pos()
+    if new_pos is not None:
+        return new_pos
     return pos
 
 def run_path(path, check_warp=False):
