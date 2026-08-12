@@ -87,7 +87,7 @@ def run_path(path, check_warp=False):
     return True
 
 def main():
-    print("=== CONTINUING TO AREA 3 (WEST) ===")
+    print("=== WALKING AREA 2 (NORTH) ===")
     
     pos = get_pos()
     print("Initial position:", pos)
@@ -97,22 +97,7 @@ def main():
         if pos is None:
             return
             
-    # PHASE 1: Walk the rest of Area 1 starting from (5, 5)
-    if pos == (5, 5):
-        path_area1_remaining = (
-            ["Left"] * 5                    # to transition at (0, 5)
-        )
-        print("Walking remaining path in Area 1 (East)...")
-        if not run_path(path_area1_remaining, check_warp=True):
-            return
-            
-    # Wait for map transition to stabilize
-    bridge.press_buttons(["sleep 1000"])
-    pos = get_pos()
-    print("Arrived in Area 2 (North):", pos)
-    
-    # PHASE 2: Area 2 (North) to Area 3 (West)
-    if pos is not None and pos[0] > 35:
+    if pos == (39, 31):
         path_area2 = (
             ["Left"] * 17 +                 # to (22, 31)
             ["Up"] * 9 +                    # to (22, 22) (climb plateau)
