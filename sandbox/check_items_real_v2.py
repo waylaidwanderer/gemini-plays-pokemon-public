@@ -1,6 +1,6 @@
 import mgba
 import time
-from PIL import Image
+import shutil
 
 def check():
     print("Closing any open dialogue first...")
@@ -10,14 +10,13 @@ def check():
     mgba.press_buttons(["Start", "sleep 500"])
     
     print("Moving to ITEM...")
-    # From top of start menu: ITEM is usually the second option (Below Pokedex)
-    # Let's press Down once and A
+    # Let's move down to ITEM (ITEM is 2nd in start menu, below Pokedex)
     mgba.press_buttons(["Down", "sleep 200", "A", "sleep 500"])
     
     print("Taking screenshot of inventory...")
     scr = mgba.take_screenshot()
-    img = Image.open(scr)
-    img.save("inventory_page_real.png")
+    print("Screenshot path returned:", scr)
+    shutil.copy(scr, "inventory_page_real.png")
     print("Saved to inventory_page_real.png")
     
     # Close menu
