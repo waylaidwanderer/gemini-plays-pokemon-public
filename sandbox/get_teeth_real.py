@@ -152,24 +152,22 @@ def get_area2_path(pos):
     path = []
     # If we are on the east side of Column 17 (meaning X >= 18)
     if pos[0] >= 18:
-        # If we are not yet on Column 22, walk horizontally to Column 22 first
-        if pos[0] != 22:
-            if pos[1] < 31:
-                path.extend(["Down"] * (31 - pos[1]))
-            elif pos[1] > 31:
-                path.extend(["Up"] * (pos[1] - 31))
-            if pos[0] < 22:
-                path.extend(["Right"] * (22 - pos[0]))
-            elif pos[0] > 22:
-                path.extend(["Left"] * (pos[0] - 22))
-        else:
-            # We are already on Column 22! Just walk to Row 24 directly
-            if pos[1] < 24:
-                path.extend(["Down"] * (24 - pos[1]))
-            elif pos[1] > 24:
-                path.extend(["Up"] * (pos[1] - 24))
+        # 1. Walk to Row 31
+        if pos[1] < 31:
+            path.extend(["Down"] * (31 - pos[1]))
+        elif pos[1] > 31:
+            path.extend(["Up"] * (pos[1] - 31))
             
-        # Now we are at (22, 24). Climb the plateau!
+        # 2. Walk to Column 22
+        if pos[0] < 22:
+            path.extend(["Right"] * (22 - pos[0]))
+        elif pos[0] > 22:
+            path.extend(["Left"] * (pos[0] - 22))
+            
+        # 3. Walk Up Column 22 to Row 24
+        path.extend(["Up"] * 7)  # 7 steps Up to (22, 24)
+        
+        # 4. Climb the Western Southern Plateau at (22, 23)
         path.extend(["Up"] * 2)            # to (22, 22) (climbs stairs)
         path.extend(["Left"] * 6)          # to (16, 22)
         path.extend(["Down"] * 6)          # to (16, 28) (descends stairs)
