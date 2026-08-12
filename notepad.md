@@ -953,7 +953,7 @@
 - Tile (32, 16): 100% open ground passage below barrels at (32, 12..15), connecting Central Celadon directly East to Column 36 (36, 16).
 - Main Game Corner Casino Entrance: Located in Celadon City at tile (30, 19) [approached via Row 18 at 30, 18].
 - Tile (31, 16): Solid blue building canopy / wall.
-- Tile (24, 16) & (24, 17): Blue outdoor staircase connecting Row 16 (23, 16) directly Down to Row 18 street at (24, 18).
+- Tile (24, 16) & (24, 17): Solid blue roof diagonal edge (empirically confirmed bump on turn 52517). One-way ledge at (23, 17) hops South from grass (23, 16) onto Row 18 street at (23, 18).
 - Row 20 (x=22..30+): 100% open paved street running East-West directly in front of Main Game Corner Casino door at (30, 19).
 - West Casino Sub-room Exit Mat (5, 13): Warps outside to Celadon City at tile (30, 19) / (30, 20).
 - Tile (17, 14): One-way ledge hopping South onto Row 16 at (17, 16). Stay on Row 12 (y=12) to bypass.
