@@ -75,8 +75,9 @@ def run_path(path):
     return True
 
 def main():
-    print("=== FAST STEP BURNING IN CENTER NW COMPARTMENT ===")
+    print("=== FAST STEP BURNING ===")
     
+    # We are currently at (6, 11). Let's walk Left to (2, 11) first.
     pos = get_pos()
     print("Starting position:", pos)
     if pos is None:
@@ -85,15 +86,13 @@ def main():
         if pos is None:
             return
             
-    # Align from (7, 12) to (1, 11)
-    if pos == (7, 12):
-        print("Aligning to Column 1 Row 11...")
-        align_path = ["Up", "Left", "Left", "Left", "Left", "Left", "Left"]
-        if not run_path(align_path):
+    if pos == (6, 11):
+        print("Walking Left to (2, 11)...")
+        if not run_path(["Left"] * 4):
             return
             
-    # Cycle path to burn steps
-    cycle_path = ["Right"] * 4 + ["Left"] * 4
+    # Cycle path to burn steps between Column 2 and Column 5 on Row 11
+    cycle_path = ["Right"] * 3 + ["Left"] * 3
     
     print("Burning steps back and forth...")
     while True:
