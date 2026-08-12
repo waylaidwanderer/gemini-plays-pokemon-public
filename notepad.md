@@ -751,14 +751,14 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 51272)
-- Location: Celadon City at (9, 35).
+## CURRENT STATUS & DASHBOARD (Turn 51301)
+- Location: Celadon Game Corner at (4, 4).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Walk from (9, 35) to (9, 27) -> (17, 27) -> door (17, 13) to enter Main Casino Floor. Empirically verify interior passability step-by-step to reach North Wall poster switch at (17, 1).
+- Active Objective: Step Left 1 to (3, 4), walk North to (3, 1) on North Wall Corridor, and navigate East along Row 1 to Rocket Grunt poster switch at (17, 1).
 - Persistent Facts:
-  - Game Corner Plaza (19, 0) warp connects to Celadon City (19, 36) / (9, 35).
-  - Main Casino floor doorway is located at Celadon City (17, 13).
-  - Poster switch on North Wall inside Main Casino floor reveals secret staircase to Rocket Hideout B1F.
+  - Staircase tile at (4, 4) in Celadon Game Corner warps to West Spin Loop in Rocket Hideout B1F.
+  - Column 3 (x=3) in Celadon Game Corner is open carpet bypassing staircase (4, 4).
+  - Main Rocket Hideout secret staircase is revealed by defeating Rocket Grunt and pressing A on North Wall poster switch at (17, 1).
 
 <hr>
 
