@@ -88,16 +88,14 @@ def run_surf_campaign_real():
         pos = get_pos()
         print("Position after B:", pos)
         
-    # We are at (26, 0) in Area 3 (West)
+    # We are at (25, 14) in Area 3 (West)
     path = []
     
-    # 1. Walk from (26, 0) to (24, 14)
-    path.extend(["Down"] * 14)    # To (26, 14)
-    path.extend(["Left"] * 2)     # To (24, 14)
+    # 1. Walk from (25, 14) to (21, 18)
+    path.extend(["Down"] * 4)     # To (25, 18)
+    path.extend(["Left"] * 4)     # To (21, 18)
     
     # 2. Walk across Plateau
-    path.extend(["Down"] * 4)     # To (24, 18)
-    path.extend(["Left"] * 3)     # To (21, 18)
     path.extend(["Up"] * 2)       # To (21, 16) (climb East Stairs)
     path.extend(["Left"] * 15)    # To (6, 16) (across the Plateau)
     path.extend(["Down"] * 4)     # To (6, 20) (descend West Stairs)
