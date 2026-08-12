@@ -1,5 +1,8 @@
 import bridge
 import time
+import sys
+
+sys.stdout.reconfigure(encoding='utf-8')
 
 def get_pos():
     pos = bridge.get_coordinates()
@@ -7,52 +10,53 @@ def get_pos():
         return None
     return pos[0], pos[1]
 
-def run_away():
-    print("Wild battle/interaction detected! Executing RUN sequence...")
-    bridge.press_buttons(["B", "sleep 300", "B", "sleep 300", "B", "sleep 300"])
-    bridge.press_buttons(["Right", "sleep 200", "Down", "sleep 200", "A", "sleep 1200"])
-    bridge.press_buttons(["B", "sleep 300"])
-
-def walk_to_warp():
-    # Start at (9, 35) in Area 2 (North)
-    # Walk to (20, 36) to warp to Area 3 (West) at (14, 0)
-    path = [
-        "Up", "Up", # (9, 33)
-        "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", # (20, 33)
-        "Down", "Down", "Down" # (20, 36) - Warp!
-    ]
+def test_area2_walkability():
+    print("=== PROBING AREA 2 NORTH GROUND WALKABILITY ===")
     
-    print("Walking from (9, 35) to the correct exit warp at (20, 36)...")
-    stuck_count = 0
-    idx = 0
+    # 1. Walk UP to transition into Area 2 North
+    print("Transitioning into Area 2 North...")
+    bridge.press_buttons(["Up", "sleep 1000"])
     
-    while idx < len(path):
-        pos = get_pos()
-        if pos is None:
-            run_away()
-            continue
-            
-        print(f"At {pos}, sending {path[idx]}")
-        bridge.press_buttons([path[idx], "sleep 350"])
+    pos = get_pos()
+    print("Coordinates after transition:", pos)
+    if pos is None or pos[1] != 35:
+        print("Error: Not at expected Row 35 of Area 2!")
+        return
         
+    # We are at pos (x, 35)
+    # Let's try to walk Right up to 4 times and see if we get blocked
+    stuck = False
+    for i in range(4):
+        curr_pos = get_pos()
+        print(f"Standing at {curr_pos}. Trying to walk Right...")
+        bridge.press_buttons(["Right", "sleep 400"])
         new_pos = get_pos()
-        if new_pos is None:
-            run_away()
-            continue
-            
-        if new_pos == pos:
-            stuck_count += 1
-            print(f"Stuck at {pos}! Stuck count: {stuck_count}")
-            if stuck_count > 3:
-                run_away()
-                stuck_count = 0
+        if new_pos == curr_pos:
+            print(f"BLOCKED! Cannot walk Right from {curr_pos}!")
+            stuck = True
+            break
         else:
-            stuck_count = 0
-            idx += 1
+            print(f"Successfully walked Right to {new_pos}!")
             
-    print("Transition complete!")
-    time.sleep(1.0)
-    print(f"Current position: {get_pos()}")
+    if stuck:
+        # If Right is blocked, let's try walking UP
+        curr_pos = get_pos()
+        print(f"Trying to walk Up from blocked position {curr_pos}...")
+        bridge.press_buttons(["Up", "sleep 400"])
+        new_pos = get_pos()
+        if new_pos == curr_pos:
+            print(f"BLOCKED! Cannot walk Up from {curr_pos}!")
+        else:
+            print(f"Successfully walked Up to {new_pos}!")
+            # Try walking Right from the new Up position
+            curr_pos = new_pos
+            print(f"Trying to walk Right from {curr_pos}...")
+            bridge.press_buttons(["Right", "sleep 400"])
+            new_pos = get_pos()
+            if new_pos == curr_pos:
+                print(f"BLOCKED! Cannot walk Right from {curr_pos}!")
+            else:
+                print(f"Successfully walked Right to {new_pos}!")
 
 if __name__ == "__main__":
-    walk_to_warp()
+    test_area2_walkability()
