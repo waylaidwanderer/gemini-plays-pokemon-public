@@ -91,7 +91,7 @@ def run_path(path, check_warp=False):
     return True
 
 def main():
-    print("=== RETRIEVING THE GOLD TEETH ===")
+    print("=== FINAL PHASE: ACQUIRING THE GOLD TEETH IN CENTER NW ===")
     
     pos = get_pos()
     print("Initial position:", pos)
@@ -101,51 +101,34 @@ def main():
         if pos is None:
             return
             
-    # 1. Backtrack to Row 23 in Area 3 (West)
-    if pos == (18, 24):
-        print("Backtracking to Column 21 Row 23...")
-        path_back = ["Right", "Right", "Right", "Up"]
-        if not run_path(path_back):
+    # 1. Walk from (0, 11) to the Gold Teeth at (19, 25) in Center NW Compartment
+    if pos == (0, 11):
+        path_center_nw = (
+            ["Up"] * 2 +                    # to (0, 9)
+            ["Right"] * 29 +                # to (29, 9)
+            ["Down"] * 17 +                 # to (29, 26)
+            ["Left"] * 10 +                  # to (19, 26)
+            ["Up"] * 1                      # to (19, 25) standing below teeth? Wait, (19, 25) is the teeth!
+            # Wait, if (19, 25) is the teeth, then we stand at (19, 26) and face UP!
+            # So walking to (19, 26) is enough! Let's stop at (19, 26).
+        )
+        # Let's adjust the path to end at (19, 26):
+        path_center_nw = (
+            ["Up"] * 2 +                    # to (0, 9)
+            ["Right"] * 29 +                # to (29, 9)
+            ["Down"] * 17 +                 # to (29, 26)
+            ["Left"] * 10                   # to (19, 26)
+        )
+        print("Walking to (19, 26) in Center NW Compartment...")
+        if not run_path(path_center_nw):
             return
             
     pos = get_pos()
-    # 2. Walk Right on Row 23 to transition to Center Northwest Compartment
-    if pos is not None and pos[1] == 23 and pos[0] < 30:
-        right_steps = ["Right"] * (31 - pos[0])
-        print(f"Walking Right {len(right_steps)} steps to transition into Center NW Compartment...")
-        if not run_path(right_steps, check_warp=True):
-            return
-            
-    # Wait for map transition to stabilize
-    bridge.press_buttons(["sleep 1000"])
-    pos = get_pos()
-    print("Arrived in Safari Zone Center:", pos)
-    
-    # 3. Inside Center (NW Compartment)
-    # Let's walk to the Gold Teeth at (19, 25)
-    # The map connects on Row 23. So we land at (29, 23) or (0, 23) or similar.
-    # Let's see our position and calculate path to (19, 25).
-    # Since we land at Center, let's walk:
-    # - Walk Left to Column 19 on Row 23 -> (19, 23).
-    # - Walk Down to Row 25 -> (19, 25).
-    if pos is not None and pos[1] == 23 and pos[0] > 19:
-        left_steps = ["Left"] * (pos[0] - 19)
-        print(f"Walking Left {len(left_steps)} steps to (19, 23)...")
-        if not run_path(left_steps):
-            return
-            
-    pos = get_pos()
-    if pos is not None and pos[0] == 19 and pos[1] == 23:
-        print("Walking Down 2 steps to Row 25...")
-        if not run_path(["Down", "Down"]):
-            return
-            
-    pos = get_pos()
-    # 4. Stand above Gold Teeth at (19, 25) (so player at 19, 24) and face DOWN
-    if pos == (19, 24):
-        print("=== STANDING ABOVE GOLD TEETH, INTERACTING ===")
-        # Press Down to face Down towards Gold Teeth at (19, 25)
-        bridge.press_buttons(["Down", "sleep 400"])
+    # 2. Stand below Gold Teeth at (19, 25) (so player at 19, 26) and face UP
+    if pos == (19, 26):
+        print("=== STANDING BELOW GOLD TEETH, INTERACTING ===")
+        # Press Up to face Up towards Gold Teeth at (19, 25)
+        bridge.press_buttons(["Up", "sleep 400"])
         # Press A to pick up item ball
         bridge.press_buttons(["A", "sleep 1200"])
         # Press A to dismiss "ACE found GOLD TEETH!" text box
