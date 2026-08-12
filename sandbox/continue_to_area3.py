@@ -97,13 +97,11 @@ def main():
         if pos is None:
             return
             
-    # Walk the rest of Area 1 starting from (7, 24)
+    # Walk the rest of Area 1 starting from (16, 20)
     # The target of the walk is transition at (0, 5) which goes to Area 2 (North) (39, 31)
-    if pos == (7, 24):
+    if pos == (16, 20):
         path_area1_remaining = (
-            ["Right"] * 13 +                # to (20, 24)
-            ["Up"] * 4 +                    # to (20, 20) (climb southern plateau)
-            ["Left"] * 8 +                  # to (12, 20)
+            ["Left"] * 4 +                  # to (12, 20)
             ["Down"] * 2 +                  # to (12, 22) (descend southern plateau)
             ["Left"] * 4 +                  # to (8, 22)
             ["Up"] * 14 +                   # to (8, 8)
