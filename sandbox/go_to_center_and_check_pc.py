@@ -55,33 +55,25 @@ def run_path(path, check_warp=False):
     return True
 
 def main():
-    print("=== BYPASSING HIKER AND WALKING TO POKEMON CENTER ===")
+    print("=== EXECUTING SYSTEMATIC POKEMON CENTER NAVIGATION ===")
     pos = get_pos()
     print("Starting pos:", pos)
     
-    if pos == (31, 14):
-        # Detour around Hiker at (30, 14):
-        # 1. Down to (31, 15)
-        # 2. Left 2 to (29, 15)
-        # 3. Up to (29, 14)
-        # 4. Left 6 to (23, 14)
-        # 5. Down 7 to (23, 21)
-        # 6. Right 1 to (24, 21)
-        # 7. Down 7 to (24, 28)
-        # 8. Left 5 to (19, 28)
-        # 9. Up to enter Center!
+    if pos == (24, 28):
+        # Path:
+        # 1. Up 7 steps to (24, 21)
+        # 2. Left 23 steps to (1, 21)
+        # 3. Down 11 steps to (1, 32)
+        # 4. Right 18 steps to (19, 32)
+        # 5. Up 5 steps to enter Pokémon Center (19, 27)
         path = (
-            ["Down"] +
-            ["Left"] * 2 +
-            ["Up"] +
-            ["Left"] * 6 +
-            ["Down"] * 7 +
-            ["Right"] * 1 +
-            ["Down"] * 7 +
-            ["Left"] * 5 +
-            ["Up"]
+            ["Up"] * 7 +
+            ["Left"] * 23 +
+            ["Down"] * 11 +
+            ["Right"] * 18 +
+            ["Up"] * 5
         )
-        print("Walking to Pokémon Center...")
+        print("Walking wide detour to Pokémon Center...")
         if not run_path(path, check_warp=True):
             print("Failed to reach Pokémon Center!")
             return
@@ -91,7 +83,7 @@ def main():
         print("Inside Pokémon Center:", pos)
         
     if pos is not None and pos[1] >= 5:
-        # Walk to PC at (13, 4) from entrance mat (usually (3, 7))
+        # We are inside the Pokémon Center. Walk to PC at (13, 4) from (3, 7)
         path_to_pc = []
         if pos[1] > 4:
             path_to_pc.extend(["Up"] * (pos[1] - 4))
@@ -106,10 +98,9 @@ def main():
         pos = get_pos()
         print("Aligned in front of PC:", pos)
         
-        # Access PC
+        # Access PC: A (PC on), A (Select PC), Down + A (Item Storage), A (Withdraw)
         print("Accessing PC...")
         bridge.press_buttons(["A", "sleep 800", "A", "sleep 800", "Down", "sleep 200", "A", "sleep 800", "A"])
-        # This will open ACE's PC -> ITEM STORAGE -> WITHDRAW ITEM
         time.sleep(1.5)
         print("Withdraw menu opened successfully!")
 
