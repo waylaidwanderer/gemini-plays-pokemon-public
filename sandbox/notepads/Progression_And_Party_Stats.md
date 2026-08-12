@@ -68,8 +68,8 @@
 ## Major Exploration Phases and Timestamps
 - (Cleaned up historic milestones to reduce context window bloat)
 
-
-- **Start Turn:** 36556
-- **Current Turn:** 36571
-- **Current Location:** Safari Zone Area 2 (North) at (39, 31)
-- **Estimated Steps Remaining:** ~480 steps (of 500)
+## Planned Movepool Optimization (Teaching HMs)
+- **HM03 (Surf):** Teach to SHELLBY (Blastoise) immediately upon verification of Gold Teeth / Strength acquisition.
+  - Move to replace: **WATER GUN** (Water Gun is obsolete next to Surf).
+- **HM04 (Strength):** Teach to SHELLBY (Blastoise) once obtained from the Warden.
+  - Move to replace: **BITE** (Strength has 80 Base Power vs Bite's 60, providing a stronger neutral Normal-type STAB-like physical coverage move).
