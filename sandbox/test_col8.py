@@ -17,34 +17,28 @@ def run_away():
 def walk_step(direction):
     bridge.press_buttons([direction, "sleep 400"])
 
-def test_col8_route():
-    # Currently at (24, 22) on the ground.
-    print("Clearing 'Got away safely!' text...")
-    bridge.press_buttons(["B", "sleep 500"])
+def test_v2_route():
+    # Currently at (17, 22)
+    print("Starting v2 ground route from (17, 22)...")
+    
+    # 1. Walk Down to Row 24
+    walk_step("Down") # To (17, 23)
+    print(f"Pos: {get_pos()}")
+    walk_step("Down") # To (17, 24)
+    print(f"Pos: {get_pos()}")
     
     pos = get_pos()
-    print(f"Starting position: {pos}")
     if pos is None:
-        # If position is None, maybe we didn't clear the text properly, try again
-        bridge.press_buttons(["B", "sleep 500"])
+        run_away()
         pos = get_pos()
-        print(f"Position retry: {pos}")
+    print(f"At Row 24: {pos}")
+    if pos[1] != 24:
+        print("Failed to reach Row 24.")
+        return
         
-    # We should be at (24, 22) or (24, 21) or similar.
-    # We will dynamically walk to Row 22 if needed.
-    cx, cy = pos
-    if cy < 22:
-        print(f"Walking DOWN to Row 22...")
-        for _ in range(22 - cy):
-            walk_step("Down")
-    elif cy > 22:
-        print(f"Walking UP to Row 22...")
-        for _ in range(cy - 22):
-            walk_step("Up")
-            
-    # Walk Left along Row 22 to Column 8
+    # 2. Walk Left to Column 8
     print("Walking Left to Column 8...")
-    for step in range(16):
+    for step in range(12):
         pos = get_pos()
         if pos is None:
             run_away()
@@ -61,9 +55,9 @@ def test_col8_route():
         print("Failed to reach Column 8.")
         return
         
-    # Walk UP Column 8 to Row 10
+    # 3. Walk UP Column 8 to Row 10
     print("Walking UP Column 8 to Row 10...")
-    for step in range(15):
+    for step in range(20):
         pos = get_pos()
         if pos is None:
             run_away()
@@ -80,8 +74,8 @@ def test_col8_route():
         print("Failed to reach (8, 10).")
         return
         
-    # Walk RIGHT along Row 10 to Column 30
-    print("Walking RIGHT along Row 10...")
+    # 4. Walk RIGHT along Row 10 to Column 30
+    print("Walking RIGHT along Row 10 to Column 30...")
     for step in range(25):
         pos = get_pos()
         if pos is None:
@@ -96,10 +90,10 @@ def test_col8_route():
     pos = get_pos()
     print(f"At transition: {pos}")
     if pos == (30, 10):
-        print("SUCCESS! Column 8 and Row 10 route is completely open and unblocked!")
+        print("SUCCESS! Column 8 and Row 10 ground route is completely open and unblocked!")
         # Transition to Area 1 (East)
         walk_step("Right")
         print(f"Transitioned! Pos: {get_pos()}")
 
 if __name__ == "__main__":
-    test_col8_route()
+    test_v2_route()
