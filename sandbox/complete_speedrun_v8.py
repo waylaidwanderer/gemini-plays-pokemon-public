@@ -88,36 +88,37 @@ def run_path(path, check_warp=False):
     return True
 
 def run_speedrun():
-    # We are currently at (15, 25) in Safari Zone Center
+    # Dismiss the "Got away safely!" screen
+    print("Dismissing 'Got away safely!' screen...")
+    bridge.press_buttons(["B", "sleep 500"])
     
-    # 1. Path in Center: To Area 1 East at (0, 23)
-    path_center = []
-    path_center.extend(["Up"] * 4)     # to (15, 21)
-    path_center.extend(["Right"] * 13) # to (28, 21)
-    path_center.extend(["Up"] * 10)    # to (28, 11)
-    path_center.extend(["Right"] * 2)  # to (30, 11) (transition!)
-    
-    # 2. Path in Area 1 East: To Area 2 North at (39, 31)
+    # 1. Path in Area 1 East: Navigate the 100% walkable spiral route to Area 2 North
+    # Starting at current position (20, 24)
     path_area1 = []
-    path_area1.extend(["Right"] * 20) # to (20, 23)
-    path_area1.extend(["Up"] * 18)    # to (20, 5)
-    path_area1.extend(["Left"] * 20)  # to (0, 5) (transition!)
+    path_area1.extend(["Up"] * 4)      # to (20, 20) (climb Southern Plateau)
+    path_area1.extend(["Left"] * 8)    # to (12, 20) (walk West on plateau)
+    path_area1.extend(["Down"] * 2)    # to (12, 22) (descend Southern Plateau stairs)
+    path_area1.extend(["Left"] * 3)    # to (9, 22)
+    path_area1.extend(["Up"] * 14)     # to (9, 8) (walk UP Column 9)
+    path_area1.extend(["Right"] * 3)   # to (12, 8)
+    path_area1.extend(["Up"] * 2)      # to (12, 6) (climb Northern Plateau at (12, 7))
+    path_area1.extend(["Right"] * 5)   # to (17, 6) (walk East on plateau)
+    path_area1.extend(["Down"] * 2)    # to (17, 8) (descend Northern Plateau stairs)
+    path_area1.extend(["Right"] * 3)   # to (20, 8)
+    path_area1.extend(["Up"] * 3)      # to (20, 5)
+    path_area1.extend(["Left"] * 20)   # to (0, 5) (transition!)
 
-    # 3. Path in Area 2 North: To Area 3 West northwest ground at (4, 36)
+    # 2. Path in Area 2 North: To Area 3 West northwest ground at (4, 36)
     path_area2 = []
     path_area2.extend(["Left"] * 35)  # to (4, 31)
     path_area2.extend(["Down"] * 5)   # to (4, 36) (transition!)
 
-    # 4. Path in Area 3 West: To Secret House door at (3, 8)
+    # 3. Path in Area 3 West: To Secret House door at (3, 8)
     path_area3 = []
     path_area3.append("Left")         # to (3, 0)
     path_area3.extend(["Down"] * 8)   # to (3, 8)
     path_area3.append("Up")           # to enter Secret House!
 
-    print("--- STAGE 1: Walking Center to Area 1 East ---")
-    if not run_path(path_center, check_warp=True):
-        return False
-        
     print("--- STAGE 2: Walking Area 1 East to Area 2 North ---")
     if not run_path(path_area1, check_warp=True):
         return False
