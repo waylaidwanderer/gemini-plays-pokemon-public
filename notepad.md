@@ -1129,14 +1129,8 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 4. **The Column 29 Shrub Wall:** Column 29 has solid trees/shrubs on Rows 12-25, completely blocking ground-horizontal crossing. Crossing Column 29 is only possible on Row 26 (South) and Rows 10-11 (North).
 5. **The Pond & Rest House 1:** Completely block the middle-western ground level on Rows 10-15 across Columns 9-19.
 
-### The Verified Ground-Level Eastern Bypass Route (The Only Walkable Way to Area 1)
-To walk from the Gatehouse entrance at `(15, 25)` to the Area 1 (East) transition at `(0, 23)` without climbing any plateaus or getting trapped:
-1. Walk UP Column 15 to Row 22: `(15, 25) -> (15, 24) -> (15, 23) -> (15, 22)`. This safely crosses the Row 23 ledge opening.
-2. Walk RIGHT along Row 22 to Column 28: `(15, 22) -> (28, 22)`. This completely bypasses the Row 25 wooden fences and avoids the solid signposts at `(16, 24)` and `(27, 24)`.
-3. Walk UP Column 28 to Row 11: `(28, 22) -> (28, 11)`. This is a ground-level vertical corridor running between the Central Plateau (columns 20-27) and the Column 29 Shrub Wall.
-4. Walk RIGHT along Row 11 to Column 30: `(28, 11) -> (29, 11) -> (30, 11)`.
-5. Walk RIGHT from `(30, 11)` to transition into Area 1 (East) at `(0, 23)`.
-This route is 100% verified, unblocked, flat, and walkable.
+### The Ground-Level Eastern Passage Status
+We have empirically verified that Column 28 is BLOCKED on rows 12-15 by a vertically stacked group of solid pine trees, and Column 29 is a completely solid unbroken vertical wall of green bushes on rows 12-25. Therefore, direct ground-level horizontal crossing on rows 12-25 is completely impossible. Crossing to the east can only be attempted by climbing the Central Plateau via the stairs at `(24, 15)`.
 
 ### 🚫 Verified Obstacles & Collision Coordinates (Safari Zone Center)
 - **Signposts (Solid):** Located at `(13, 24)`, `(16, 24)`, `(22, 24)`, and `(27, 24)`. These are 2-tile high solid structures that block all horizontal and vertical passage.
