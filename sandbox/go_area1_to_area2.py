@@ -125,69 +125,20 @@ def run_area1_navigation():
         path_area1.extend(["Down"] * 2)          # to (17, 8) (descends stairs at 17, 7)
         # 13. Walk Right to Column 20
         path_area1.extend(["Right"] * 3)         # to (20, 8)
-        # 14. Walk Up Column 20 to Row 5
-        path_area1.extend(["Up"] * 3)            # to (20, 5)
-        # 15. Walk Left along Row 5 to Column 0 (transition!)
-        path_area1.extend(["Left"] * 20)         # to (0, 5)
-    elif pos[0] == 5 and pos[1] == 22:
-        # Walk Left to avoid the fence at (5, 23), Down, and then Right
-        path_area1.append("Left")                # to (4, 22)
-        path_area1.extend(["Down"] * 2)          # to (4, 24)
-        path_area1.extend(["Right"] * 16)        # to (20, 24)
-        path_area1.extend(["Up"] * 3)            # to (20, 21)
-        # 4. Climb Southern Plateau
-        path_area1.append("Up")                  # to (20, 20) (climb stairs)
-        # 5. Walk West across Plateau
-        path_area1.extend(["Left"] * 8)          # to (12, 20)
-        # 6. Descend Southern Plateau
-        path_area1.extend(["Down"] * 2)          # to (12, 22) (descends stairs at 12, 21)
-        # 7. Walk Left to Column 9
-        path_area1.extend(["Left"] * 3)          # to (9, 22)
-        # 8. Walk Up Column 9 to Row 8
-        path_area1.extend(["Up"] * 14)           # to (9, 8)
-        # 9. Walk Right to Column 12
-        path_area1.extend(["Right"] * 3)         # to (12, 8)
-        # 10. Climb Northern Plateau
-        path_area1.extend(["Up"] * 2)            # to (12, 6) (climbs stairs at 12, 7)
-        # 11. Walk East across Plateau
-        path_area1.extend(["Right"] * 5)         # to (17, 6)
-        # 12. Descend Northern Plateau
-        path_area1.extend(["Down"] * 2)          # to (17, 8) (descends stairs at 17, 7)
-        # 13. Walk Right to Column 20
-        path_area1.extend(["Right"] * 3)         # to (20, 8)
-        # 14. Walk Up Column 20 to Row 5
-        path_area1.extend(["Up"] * 3)            # to (20, 5)
-        # 15. Walk Left along Row 5 to Column 0 (transition!)
-        path_area1.extend(["Left"] * 20)         # to (0, 5)
-    elif pos[0] == 14 and pos[1] == 24:
-        # Walk Right to Column 20 (6 steps Right)
-        path_area1.extend(["Right"] * 6)         # to (20, 24)
-        # Walk Up to (20, 21)
-        path_area1.extend(["Up"] * 3)            # to (20, 21)
-        # 4. Climb Southern Plateau
-        path_area1.append("Up")                  # to (20, 20) (climb stairs)
-        # 5. Walk West across Plateau
-        path_area1.extend(["Left"] * 8)          # to (12, 20)
-        # 6. Descend Southern Plateau
-        path_area1.extend(["Down"] * 2)          # to (12, 22) (descends stairs at 12, 21)
-        # 7. Walk Left to Column 9
-        path_area1.extend(["Left"] * 3)          # to (9, 22)
-        # 8. Walk Up Column 9 to Row 8
-        path_area1.extend(["Up"] * 14)           # to (9, 8)
-        # 9. Walk Right to Column 12
-        path_area1.extend(["Right"] * 3)         # to (12, 8)
-        # 10. Climb Northern Plateau
-        path_area1.extend(["Up"] * 2)            # to (12, 6) (climbs stairs at 12, 7)
-        # 11. Walk East across Plateau
-        path_area1.extend(["Right"] * 5)         # to (17, 6)
-        # 12. Descend Northern Plateau
-        path_area1.extend(["Down"] * 2)          # to (17, 8) (descends stairs at 17, 7)
-        # 13. Walk Right to Column 20
-        path_area1.extend(["Right"] * 3)         # to (20, 8)
-        # 14. Walk Up Column 20 to Row 5
-        path_area1.extend(["Up"] * 3)            # to (20, 5)
-        # 15. Walk Left along Row 5 to Column 0 (transition!)
-        path_area1.extend(["Left"] * 20)         # to (0, 5)
+        # 14. Walk Up Column 20 to Row 3 (Bypassing Row 5 block!)
+        path_area1.extend(["Up"] * 5)            # to (20, 3)
+        # 15. Northern Corridor Bypass: Left to Col 7, Down to Row 5, Left to warp
+        path_area1.extend(["Left"] * 13)         # to (7, 3)
+        path_area1.extend(["Down"] * 2)          # to (7, 5)
+        path_area1.extend(["Left"] * 7)          # to (0, 5) (transition!)
+    elif pos[0] == 21 and pos[1] == 6:
+        # Start from where we are currently standing on Turn 35967
+        path_area1.append("Left")                # to (20, 6)
+        path_area1.extend(["Up"] * 3)            # to (20, 3)
+        # Northern Corridor Bypass: Left to Col 7, Down to Row 5, Left to warp
+        path_area1.extend(["Left"] * 13)         # to (7, 3)
+        path_area1.extend(["Down"] * 2)          # to (7, 5)
+        path_area1.extend(["Left"] * 7)          # to (0, 5) (transition!)
     else:
         print(f"Unexpected starting position: {pos}.")
         return False
