@@ -69,25 +69,21 @@ def run_path(path, check_warp=False):
     return True
 
 def main():
-    print("=== EXECUTING ESCAPE FROM SOUTHERN AREA TO GATEHOUSE ===")
+    print("=== NAVIGATING VIA COLUMN 1 TO SAFARI GATEHOUSE ===")
     
     pos = get_pos()
     print("Initial position:", pos)
-    if pos != (16, 32):
-        print("Not at starting position (16, 32)!")
+    if pos != (16, 28):
+        print("Not at starting position (16, 28)!")
         return
         
-    # Path from (16, 32) to (26, 14) (just south of the bush)
-    # 1. Walk Up 2 to (16, 30) (to get past the ledge)
-    # 2. Walk Up 9 to (16, 21)
-    # 3. Walk Right 6 to (22, 21)
-    # 4. Walk Up 7 to (22, 14)
-    # 5. Walk Right 4 to (26, 14)
+    # 1. Walk Left to Column 1 -> (1, 28)
+    # 2. Walk Up to Row 14 -> (1, 14)
+    # 3. Walk Right to Column 26 -> (26, 14)
     escape_path = (
-        ["Up"] * 11 +
-        ["Right"] * 6 +
-        ["Up"] * 7 +
-        ["Right"] * 4
+        ["Left"] * 15 +
+        ["Up"] * 14 +
+        ["Right"] * 25
     )
     
     if not run_path(escape_path):
