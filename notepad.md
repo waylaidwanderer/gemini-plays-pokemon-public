@@ -1,11 +1,11 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 51453)
-- Location: Game Corner Plaza at (10, 8).
+## CURRENT STATUS & DASHBOARD (Turn 51454)
+- Location: Game Corner Plaza at (10, 13).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Walk Down 4 steps to Row 12 street (10, 12), East to Plaza exit (19, 12), then East in Celadon City to Main Casino entrance at (30, 34).
+- Active Objective: Walk Right 9 steps along Row 13 street to Plaza exit (19, 13), then East 10 steps in Celadon City to Main Casino entrance at (30, 34).
 - Persistent Facts:
-  - Game Corner Plaza (10, 8) connects South to Row 12 street at (10, 12) and East to Plaza exit at (19, 12).
+  - Game Corner Plaza Row 13 (y=13) connects East to Plaza exit at (19, 13).
   - Main Game Corner Casino Floor Entrance is located in outdoor Celadon City at tile (30, 34)/(30, 35).
   - Rocket Grunt and poster switch are located on North Wall in East Casino Floor.
   - Defeating Grunt and pressing A on poster reveals secret staircase at (4, 4).
@@ -753,15 +753,15 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 51454)
-- Location: Game Corner Plaza at (10, 13).
+## CURRENT STATUS & DASHBOARD (Turn 51455)
+- Location: Game Corner Plaza at (15, 13).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Walk Right 9 steps along Row 13 street to Plaza exit (19, 13), then East 10 steps in Celadon City to Main Casino entrance at (30, 34).
+- Active Objective: Walk Right 2 steps via (16, 13) into Main Casino entrance door at (17, 13) to enter Main Casino Floor.
 - Persistent Facts:
-  - Game Corner Plaza Row 13 (y=13) connects East to Plaza exit at (19, 13).
-  - Main Game Corner Casino Floor Entrance is located in outdoor Celadon City at tile (30, 34)/(30, 35).
+  - In Game Corner Plaza, Main Casino entrance doorway is located at (17, 13) [approached via 15, 13 -> 16, 13 -> Right into 17, 13].
   - Rocket Grunt and poster switch are located on North Wall in East Casino Floor.
   - Defeating Grunt and pressing A on poster reveals secret staircase at (4, 4).
+  - Staircase tile at (4, 4) in Celadon Game Corner warps directly to Rocket Hideout B1F (5, 4).
   - Column 2 (x=2) in Rocket Hideout B1F is a continuous highway of stop tiles spanning y=3..40.
 
 <hr>
