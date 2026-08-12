@@ -97,14 +97,10 @@ def main():
         if pos is None:
             return
             
-    # PHASE 1: Walk the rest of Area 2 starting from (22, 27)
-    if pos == (22, 27):
+    # PHASE 1: Walk the rest of Area 2 starting from (12, 30)
+    if pos == (12, 30):
         path_area2_remaining = (
-            ["Up"] * 5 +                    # to (22, 22) (climb plateau)
-            ["Left"] * 6 +                  # to (16, 22)
-            ["Down"] * 6 +                  # to (16, 28) (descend plateau)
-            ["Left"] * 4 +                  # to (12, 28)
-            ["Down"] * 5 +                  # to (12, 33)
+            ["Down"] * 3 +                  # to (12, 33)
             ["Left"] * 4 +                  # to (8, 33)
             ["Down"] * 3                    # to transition warp at (8, 36)
         )
