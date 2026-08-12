@@ -52,28 +52,24 @@ def run_path(path):
     return True
 
 def main():
-    print("=== NAVIGATING TO GATEHOUSE (V2) ===")
+    print("=== NAVIGATING TO GATEHOUSE VIA COLUMN 22 ===")
     pos = get_pos()
     print("Starting position:", pos)
     
-    # We are at (33, 28) in Fuchsia City.
+    # We are at (35, 17) in Fuchsia City.
     # Route:
-    # 1. Walk Left to Column 31 -> (31, 28) (2 steps Left)
-    # 2. Walk Down to Row 30 -> (31, 30) (2 steps Down)
-    # 3. Walk Right to Column 35 -> (35, 30) (4 steps Right)
-    # 4. Walk Up Column 35 to Row 14 -> (35, 14) (16 steps Up)
-    # 5. Walk Left along Row 14 to Column 23 -> (23, 14) (12 steps Left)
-    # 6. Walk Up Column 23 to Row 2 -> (23, 2) (12 steps Up)
-    # 7. Walk Left along Row 2 to Column 18 -> (18, 2) (5 steps Left)
-    # 8. Walk Down 1 step to enter Gatehouse -> (18, 3) (1 step Down)
+    # 1. Walk Left to Column 30 on Row 17 -> (30, 17) (5 steps Left)
+    # 2. Walk Down to Row 18 -> (30, 18) (1 step Down)
+    # 3. Walk Left to Column 22 on Row 18 -> (22, 18) (8 steps Left)
+    # 4. Walk Up Column 22 to Row 2 -> (22, 2) (16 steps Up)
+    # 5. Walk Left along Row 2 to Column 18 -> (18, 2) (4 steps Left)
+    # 6. Walk Down 1 step to enter Gatehouse -> (18, 3) (1 step Down)
     path = (
-        ["Left"] * 2 +
-        ["Down"] * 2 +
-        ["Right"] * 4 +
-        ["Up"] * 16 +
-        ["Left"] * 12 +
-        ["Up"] * 12 +
         ["Left"] * 5 +
+        ["Down"] +
+        ["Left"] * 8 +
+        ["Up"] * 16 +
+        ["Left"] * 4 +
         ["Down"]
     )
     
