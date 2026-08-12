@@ -5,18 +5,18 @@ import sys
 sys.stdout.reconfigure(encoding='utf-8')
 
 def burn_steps():
-    print("=== BURNING SAFARI STEPS SAFELY ===")
+    print("=== BURNING SAFARI STEPS FAST ===")
     
-    # We will send batches of 30 buttons (15 steps Left/Right)
-    # This takes 30 * 150ms = 4.5 seconds to execute, well under the 10-second socket timeout!
+    # We will send a batch of 80 buttons (40 steps Left/Right with 100ms sleeps)
+    # This takes 80 * 100ms = 8 seconds of sleep, well under our new 25-second socket timeout!
     
     batch = []
-    # Left 5, Right 5, Left 5 (15 steps total)
-    batch.extend(["Left", "sleep 150"] * 5)
-    batch.extend(["Right", "sleep 150"] * 5)
-    batch.extend(["Left", "sleep 150"] * 5)
+    # Left 5, Right 5, repeated 4 times (40 steps total)
+    for _ in range(4):
+        batch.extend(["Left", "sleep 100"] * 5)
+        batch.extend(["Right", "sleep 100"] * 5)
         
-    print(f"Sending batch of {len(batch)} actions to burn 15 steps...")
+    print(f"Sending batch of {len(batch)} actions to burn 40 steps...")
     res = bridge.press_buttons(batch)
     print(f"Response: {res}")
     
