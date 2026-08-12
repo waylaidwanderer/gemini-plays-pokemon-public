@@ -138,13 +138,9 @@ def run_chunk():
     
     print("Determining current position...")
     pos = get_pos()
-    
     if pos is None:
-        run_away()
-        pos = get_pos()
-        if pos is None:
-            print("Could not get coordinates even after running away. Exiting.")
-            return False
+        print("Dialogue or battle detected on start! Exiting chunk safely.")
+        return True
             
     cx, cy = pos
     print(f"Current position: ({cx}, {cy})")
