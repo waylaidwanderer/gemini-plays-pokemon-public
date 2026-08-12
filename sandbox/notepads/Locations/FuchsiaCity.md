@@ -52,3 +52,8 @@
 - **Row 16 Tree Barrier (Columns 27-35):** Solid horizontal line of trees running across Columns 27-35 on Row 16, blocking direct vertical ground crossing (Turn 36325).
 - **Column 22/23 Corridor:** Completely open and walkable vertical corridor on Columns 22 and 23 from Row 14 down to Row 21, connecting the north-middle area to the south-middle area (Turn 36328).
 - **Row 22 South-Facing Ledge (Column 23):** South-facing one-way ledge at Column 23 Row 22. Walking DOWN jumps over the ledge to Row 23, but walking UP is blocked (Turn 36329).
+
+## Newly Verified Collisions & Barriers (Turn 36482)
+- **Row 29 Horizontal Fence (Columns 25-29):** A solid horizontal fence running across Columns 25-29 on Row 29, blocking vertical ground crossing.
+- **Column 27 Row 29 Solid Signpost:** A solid 2-tile high signpost located at `(27, 29)`, which blocks passage.
+- **Column 30 Row 14 Wandering NPC:** A wandering NPC who can block traversal on Column 30 Row 14.
