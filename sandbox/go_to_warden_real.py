@@ -57,7 +57,7 @@ def run_path(path):
     return True
 
 def main():
-    print("=== EXECUTING SAFE DETOUR ROUTE TO WARDEN'S HOUSE V9 ===")
+    print("=== EXECUTING SAFE DETOUR ROUTE TO WARDEN'S HOUSE V10 ===")
     
     pos = get_pos()
     print("Initial position:", pos)
@@ -65,16 +65,13 @@ def main():
         print("Failed to get starting position!")
         return
         
-    if pos == (37, 14):
-        # Walk Left to Column 35 to bypass the tree at (37, 15), Down to Row 16,
-        # Right to Column 37, Down Column 37 to Row 27, Left to Column 27,
-        # and Up to enter Warden's House
+    if pos == (35, 15):
+        # Walk Left to Column 26 on Row 15, Down Column 26 to Row 27,
+        # then Right to Column 27, and Up to enter Warden's House
         path = (
-            ["Left"] * 2 +                                                    # to (35, 14)
-            ["Down"] * 2 +                                                    # to (35, 16)
-            ["Right"] * 2 +                                                   # to (37, 16)
-            ["Down"] * 11 +                                                   # to (37, 27)
-            ["Left"] * 10 +                                                   # to (27, 27)
+            ["Left"] * 9 +                                                    # to (26, 15)
+            ["Down"] * 12 +                                                   # to (26, 27)
+            ["Right"] * 1 +                                                   # to (27, 27)
             ["Up"]                                                            # Enter Warden's House!
         )
         print("Walking to Warden's House...")
