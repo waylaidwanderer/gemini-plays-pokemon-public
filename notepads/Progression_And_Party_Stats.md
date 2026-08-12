@@ -70,10 +70,10 @@
 - **Route 8 Eastward Journey:** Started Turn 18197, Completed on Turn 18244. (Exited building, walked east, entered Lavender Town).
 - **Pokémon Tower Exploration:** Started Turn 18258 (Entered Pokémon Tower, engaged Rival JACK on 2F on Turn 18281).
 
-## Active Safari Zone Session (Start Turn: 35059)
-- **Start Turn:** 35059
-- **Current Turn:** 35068
-- **Steps Used:** 9
-- **Steps Remaining:** 491
-- **Current Location:** Safari Zone Center at (14, 25)
-- **Session Goals:** Successfully execute the corrected golden route using Column 8 and Row 10 to Area 1 (East).
+## Active Safari Zone Session (Start Turn: 35108)
+- **Start Turn:** 35108
+- **Current Turn:** 35108
+- **Steps Used:** 0
+- **Steps Remaining:** 500
+- **Current Location:** Safari Zone Gatehouse at (4, 3)
+- **Session Goals:** Enter the Safari Zone, execute the corrected golden route to Area 1 (East), then navigate to Area 2 (North) and Area 3 (West) to obtain the Gold Teeth and Surf.
