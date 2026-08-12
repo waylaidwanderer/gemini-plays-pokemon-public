@@ -17,82 +17,96 @@ def run_away():
 def walk_step(direction):
     bridge.press_buttons([direction, "sleep 400"])
 
-def test_new_route():
-    print("Starting new golden route from (12, 24)...")
+def test_row26_route():
+    # Reconstructed route from go_area1_row26.pyc
+    # We are starting at (14, 25)
+    row26_route = [
+        (14, 25), (15, 25), (15, 24), (15, 23), (16, 23), (17, 23), (17, 24),
+        (18, 24), (19, 24), (20, 24), (21, 24), (22, 24), (23, 24), (24, 24),
+        (25, 24), (26, 24), (27, 24), (27, 25), (27, 26), (28, 26), (29, 26),
+        (30, 26), (30, 25), (30, 24), (30, 23), (30, 22), (30, 21), (30, 20),
+        (30, 19), (30, 18), (30, 17), (30, 16), (30, 15), (30, 14), (30, 13),
+        (30, 12), (30, 11), (29, 11)
+    ]
     
-    # Starting at (12, 24)
-    # 1. Walk UP to (12, 23)
-    walk_step("Up")
-    print(f"Pos after Up: {get_pos()}")
+    print("Starting exact go_area1_row26 route...")
+    current_idx = 0
+    stuck_count = 0
     
-    # 2. Walk RIGHT 2 steps to (14, 23)
-    walk_step("Right")
-    print(f"Pos after Right 1: {get_pos()}")
-    walk_step("Right")
-    print(f"Pos after Right 2: {get_pos()}")
-    
-    pos = get_pos()
-    if pos != (14, 23):
-        print("Failed to reach (14, 23).")
-        return
-        
-    # 3. Walk DOWN to (14, 26)
-    walk_step("Down") # To (14, 24)
-    print(f"Pos: {get_pos()}")
-    walk_step("Down") # To (14, 25)
-    print(f"Pos: {get_pos()}")
-    walk_step("Down") # To (14, 26)
-    print(f"Pos: {get_pos()}")
-    
-    pos = get_pos()
-    if pos != (14, 26):
-        print("Failed to reach (14, 26).")
-        return
-        
-    # 4. Walk RIGHT along Row 26 to Column 30
-    print("Walking RIGHT along Row 26 to Column 30...")
-    for step in range(20):
+    while current_idx < len(row26_route) - 1:
         pos = get_pos()
         if pos is None:
             run_away()
             pos = get_pos()
+            if pos is None:
+                print("Could not get position.")
+                return
+                
         cx, cy = pos
-        if cx == 30:
-            break
-        walk_step("Right")
-        print(f"Step {step}: Pos={get_pos()}")
+        print(f"Current pos: ({cx}, {cy}). Target: {row26_route[current_idx + 1]}")
         
-    pos = get_pos()
-    print(f"At Column 30 Row 26: {pos}")
-    if pos[0] != 30:
-        print("Failed to reach Column 30.")
-        return
+        # Verify alignment with expected current coordinate
+        ex, ey = row26_route[current_idx]
+        if cx != ex or cy != ey:
+            # Try to find if we matched the next coordinate
+            nx, ny = row26_route[current_idx + 1]
+            if cx == nx and cy == ny:
+                print(f"Already at next target: ({cx}, {cy})")
+                current_idx += 1
+                continue
+            else:
+                # Fuzzy match to realign
+                found = False
+                for idx, (rx, ry) in enumerate(row26_route):
+                    if rx == cx and ry == cy:
+                        print(f"Realigned with route at index {idx}: ({cx}, {cy})")
+                        current_idx = idx
+                        found = True
+                        break
+                if not found:
+                    print(f"ERROR: Desynchronized! Expected ({ex}, {ey}) but at ({cx}, {cy})")
+                    return
+                    
+        tx, ty = row26_route[current_idx + 1]
+        dx = tx - cx
+        dy = ty - cy
         
-    # 5. Walk UP Column 30 to Row 11
-    print("Walking UP Column 30 to Row 11...")
-    for step in range(20):
-        pos = get_pos()
-        if pos is None:
+        direction = None
+        if dx > 0:
+            direction = "Right"
+        elif dx < 0:
+            direction = "Left"
+        elif dy > 0:
+            direction = "Down"
+        elif dy < 0:
+            direction = "Up"
+            
+        if direction is None:
+            current_idx += 1
+            continue
+            
+        print(f"Walking {direction} to reach {row26_route[current_idx + 1]}")
+        walk_step(direction)
+        
+        new_pos = get_pos()
+        if new_pos is None:
             run_away()
-            pos = get_pos()
-        cx, cy = pos
-        if cy == 11:
-            break
-        walk_step("Up")
-        print(f"Step {step}: Pos={get_pos()}")
-        
-    pos = get_pos()
-    print(f"At Row 11: {pos}")
-    if pos != (30, 11):
-        print("Failed to reach (30, 11).")
-        return
-        
-    # 6. Walk LEFT to (29, 11) and then RIGHT to (30, 11) to transition
-    print("Aligning and transitioning to Area 1...")
-    walk_step("Left")
-    print(f"Pos after Left: {get_pos()}")
+            new_pos = get_pos()
+            
+        if new_pos == pos:
+            stuck_count += 1
+            print(f"Stuck at {pos}! Stuck count: {stuck_count}")
+            if stuck_count >= 3:
+                print("Running run_away() to clear battle/dialog.")
+                run_away()
+                stuck_count = 0
+        else:
+            stuck_count = 0
+            current_idx += 1
+
+    print("Transitioning to Area 1...")
     walk_step("Right")
-    print(f"Pos after transition: {get_pos()}")
+    print(f"Transitioned! Pos: {get_pos()}")
 
 if __name__ == "__main__":
-    test_new_route()
+    test_row26_route()
