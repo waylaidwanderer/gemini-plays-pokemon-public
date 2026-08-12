@@ -90,20 +90,23 @@ def run_path(path, check_warp=False):
     return True
 
 def go_back_to_area2():
-    print("=== WALKING BACK TO AREA 2 (NORTH) ===")
+    print("=== WALKING BACK TO AREA 2 (NORTH) FROM (16, 18) ===")
     pos = get_pos()
     print("Starting position:", pos)
     
     path = []
-    # If we are on Row 17 (above Row 20), walk Down to Row 20 first to bypass cliff
-    if pos[1] < 20:
-        path.extend(["Down"] * (20 - pos[1]))
-    if pos[0] < 25:
-        path.extend(["Right"] * (25 - pos[0]))
-    path.extend(["Up"] * 17) # to Row 3 from Row 20
-    path.append("Right") # to (26, 3)
-    path.extend(["Up"] * 3) # warp to Area 2!
-    
+    # 1. Walk Left on the plateau to (6, 18)
+    if pos == (16, 18):
+        path.extend(["Left"] * 10) # to (6, 18)
+        path.extend(["Down"] * 2)  # to (6, 20) (descends West Stairs)
+        path.extend(["Right"] * 19) # to (25, 20)
+        path.extend(["Up"] * 17)    # to (25, 3)
+        path.append("Right")        # to (26, 3)
+        path.extend(["Up"] * 3)     # warp to Area 2!
+    else:
+        print(f"Unexpected starting position: {pos}. Aligning...")
+        return False
+        
     print("Executing path...")
     if not run_path(path, check_warp=True):
         print("Failed to transition back!")
