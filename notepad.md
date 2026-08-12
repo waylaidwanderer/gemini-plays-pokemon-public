@@ -110,7 +110,6 @@
 - **Max Revive:** 1
 - **HM03 (Surf):** NOT YET OBTAINED (Verified on Turn 31338-31789, Audited in Bag on Turn 34425).
 - **Gold Teeth:** NOT YET OBTAINED (Verified on Turn 31338-31789, Audited in Bag on Turn 34425).
-- **Active PC Box Change:** Successfully changed active PC Box to BOX 2 on Turn 33375 at Fuchsia Pokémon Center.
 
 ## Major Exploration Phases and Timestamps
 - **Saffron West/East Gatehouse Tests:** Turn 12616 (East Gatehouse tested), Turn 18179 to 18184 (West Gatehouse tested, confirmed Saffron City is blocked by thirsty guards).
