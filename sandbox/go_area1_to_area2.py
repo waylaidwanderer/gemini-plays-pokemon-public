@@ -92,12 +92,20 @@ def run_area1_navigation():
     # We are currently at (0, 23) in Area 1 (East)
     path_area1 = []
     if pos[0] == 0 and pos[1] == 23:
-        # 1. Walk UP to Row 22 to align with Southern corridor
-        path_area1.append("Up")                  # to (0, 22)
+        # 1. Walk Down to Row 24 to avoid fence
+        path_area1.append("Down")                # to (0, 24)
         # 2. Walk Right to Column 20
-        path_area1.extend(["Right"] * 20)        # to (20, 22)
+        path_area1.extend(["Right"] * 20)        # to (20, 24)
         # 3. Walk Up to (20, 21)
-        path_area1.append("Up")                  # to (20, 21)
+        path_area1.extend(["Up"] * 3)            # to (20, 21)
+        # 4. Climb Southern Plateau
+        path_area1.append("Up")                  # to (20, 20) (climb stairs)
+    elif pos[0] == 5 and pos[1] == 22:
+        # Walk Left to avoid the fence at (5, 23), Down, and then Right
+        path_area1.append("Left")                # to (4, 22)
+        path_area1.extend(["Down"] * 2)          # to (4, 24)
+        path_area1.extend(["Right"] * 16)        # to (20, 24)
+        path_area1.extend(["Up"] * 3)            # to (20, 21)
         # 4. Climb Southern Plateau
         path_area1.append("Up")                  # to (20, 20) (climb stairs)
         # 5. Walk West across Plateau
