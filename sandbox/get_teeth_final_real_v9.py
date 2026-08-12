@@ -106,11 +106,12 @@ def main():
             print("Failed to get starting position!")
             return
             
-    # Walk from current (15, 24) back across the plateau to the east side, then south to Gold Teeth
+    # Walk from current (15, 24) detouring around NPC at (15, 23)
+    # Left 1 to Col 14, Up 3 to Row 21, Left 8 to Col 6, climb plateau, cross, descend East Stairs, and walk south to teeth
     path_to_teeth = [
-        "Up", "Up", "Up",                                                 # to (15, 21)
-        "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
-        "Left",                                                           # to (6, 21) (9 steps Left)
+        "Left",                                                           # to (14, 24)
+        "Up", "Up", "Up",                                                 # to (14, 21)
+        "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",   # to (6, 21) (8 steps Left)
         "Up", "Up", "Up", "Up", "Up",                                     # climb West Stairs to (6, 16)
         "Right", "Right", "Right", "Right", "Right", "Right", "Right",
         "Right", "Right", "Right", "Right", "Right", "Right", "Right",
