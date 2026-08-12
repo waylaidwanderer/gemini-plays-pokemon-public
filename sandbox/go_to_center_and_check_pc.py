@@ -4,6 +4,9 @@ import sys
 
 sys.stdout.reconfigure(encoding='utf-8')
 
+# Global button count tracker to prevent exceeding 100 limit
+button_press_count = 0
+
 def get_pos():
     for _ in range(4):
         pos = bridge.get_coordinates()
@@ -12,15 +15,25 @@ def get_pos():
         bridge.press_buttons(["sleep 50"])
     return None
 
+def press_buttons_tracked(buttons):
+    global button_press_count
+    # Count buttons that are not sleeps
+    real_buttons = [b for f in buttons for b in [f] if b != "sleep" and not b.startswith("sleep")]
+    button_press_count += len(real_buttons)
+    if button_press_count > 95:
+        print(f"Approaching button limit! Count is {button_press_count}. Aborting script to prevent crash.")
+        sys.exit(0)
+    bridge.press_buttons(buttons)
+
 def walk_step_robust(direction):
     pos = get_pos()
     if pos is None:
         return None
         
-    bridge.press_buttons([direction])
+    press_buttons_tracked([direction])
     
     for _ in range(5):
-        bridge.press_buttons(["sleep 100"])
+        press_buttons_tracked(["sleep 100"])
         new_pos = get_pos()
         if new_pos is not None and new_pos != pos:
             return new_pos
@@ -37,7 +50,7 @@ def run_path(path, check_warp=False):
             time.sleep(0.5)
             continue
             
-        print(f"Step {idx}: At {pos}, walking {path[idx]}...")
+        print(f"Step {idx}: At {pos}, walking {path[idx]}... Total Buttons: {button_press_count}")
         new_pos = walk_step_robust(path[idx])
         
         if new_pos is None:
@@ -65,35 +78,27 @@ def run_path(path, check_warp=False):
     return True
 
 def main():
-    print("=== GOING TO POKEMON CENTER TO CHECK PC ITEMS ===")
-    
-    # 1. Dismiss dialogue boxes inside the Gatehouse
-    print("Dismissing Gatekeeper text boxes...")
-    # There are typically 2 text boxes
-    bridge.press_buttons(["A", "sleep 1200"])
-    bridge.press_buttons(["A", "sleep 1200"])
-    
-    # Walk DOWN to exit the Gatehouse
-    print("Exiting Gatehouse...")
-    bridge.press_buttons(["Down", "sleep 1000"])
+    print("=== NAVIGATING TO POKEMON CENTER AND CHECKING PC ===")
     
     pos = get_pos()
-    print("Position in Fuchsia City outside Gatehouse:", pos)
-    
-    # If we are at (18, 4) in Fuchsia City:
-    if pos == (18, 4):
+    print("Initial position outside Gatehouse:", pos)
+    if pos is None:
+        print("Failed to get starting position!")
+        return
+        
+    # We are at (18, 6) in Fuchsia City
+    if pos == (18, 6):
         print("Walking to Pokémon Center...")
         # Path to Pokémon Center:
-        # - Right 4 to (22, 4)
-        # - Down 17 to (22, 21)
+        # - Right 4 to (22, 6)
+        # - Down 15 to (22, 21)
         # - Left 21 to (1, 21)
         # - Down 11 to (1, 32)
         # - Right 18 to (19, 32)
-        # - Up 4 to (19, 28)
-        # - Up 1 to (19, 27) (transition)
+        # - Up 5 to (19, 27) (transition)
         path_to_center = (
             ["Right"] * 4 +
-            ["Down"] * 17 +
+            ["Down"] * 15 +
             ["Left"] * 21 +
             ["Down"] * 11 +
             ["Right"] * 18 +
@@ -103,16 +108,14 @@ def main():
             print("Failed to reach Pokémon Center!")
             return
             
-        time.sleep(1.5)
+        # Wait for map transition to load
+        press_buttons_tracked(["sleep 1500"])
         pos = get_pos()
         print("Position inside Pokémon Center:", pos)
         
     # 2. Inside Pokémon Center
-    # Entrance mat is usually around (3, 7)/(4, 7). PC is at (13, 4) facing UP.
-    # From (3, 7) or (4, 7):
-    # - Walk UP to Row 5
-    # - Walk RIGHT to Column 13
-    # - Walk UP to Row 4 facing UP
+    # We enter at (3, 8) or (4, 8) and stand at (3, 7) or (4, 7).
+    # Walk to the PC at (13, 4) facing UP.
     if pos is not None and pos[0] < 6 and pos[1] >= 7:
         print("Walking to the PC...")
         pc_path = (
@@ -129,29 +132,29 @@ def main():
         print("Standing in front of PC:", pos)
         
     # Ensure we face UP towards PC
-    bridge.press_buttons(["Up", "sleep 300"])
+    press_buttons_tracked(["Up", "sleep 300"])
     
     # 3. Boot PC and open ACE's PC WITHDRAW ITEM menu
     print("Booting PC...")
     # A to turn on PC
-    bridge.press_buttons(["A", "sleep 1000"])
+    press_buttons_tracked(["A", "sleep 1000"])
     # A to dismiss "ACE turned on the PC"
-    bridge.press_buttons(["A", "sleep 1000"])
+    press_buttons_tracked(["A", "sleep 1000"])
     
-    # Cursor starts on BILL's PC. Move Down once to ACE's PC, and press A!
+    # Select ACE's PC (Down once, then A)
     print("Selecting ACE's PC...")
-    bridge.press_buttons(["Down", "sleep 300", "A", "sleep 1000"])
+    press_buttons_tracked(["Down", "sleep 300", "A", "sleep 1000"])
     
-    # Inside ACE's PC menu, select WITHDRAW ITEM (first option)
+    # Select WITHDRAW ITEM
     print("Selecting WITHDRAW ITEM...")
-    bridge.press_buttons(["A", "sleep 1000"])
+    press_buttons_tracked(["A", "sleep 1000"])
     
-    # Scroll DOWN 10 times to show the rest of the PC items!
+    # Scroll DOWN 10 times to let us see the entire withdraw list
     print("Scrolling down PC storage list...")
     scroll_down_seq = ["Down", "sleep 150"] * 10
-    bridge.press_buttons(scroll_down_seq)
+    press_buttons_tracked(scroll_down_seq)
     
-    print("PC withdraw list open and scrolled to the bottom! Check the screen next turn!")
+    print("PC withdraw list open and scrolled to the bottom! Successfully finished!")
 
 if __name__ == "__main__":
     main()
