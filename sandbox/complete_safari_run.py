@@ -57,54 +57,19 @@ def run_path(path, check_warp=False):
                     break
     return True
 
-# Stage 2a from (15, 24) to (8, 22) (23 steps)
-path_stage2a = [
-    "Right", "Right", "Right", "Right", "Right", # (15, 24) -> (20, 24) (5 steps)
-    "Up", "Up", "Up", # (20, 24) -> (20, 21) (3 steps)
-    "Up", # (20, 21) -> (20, 20) (climb Southern Plateau) (1 step)
-    "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", # (20, 20) -> (12, 20) (8 steps)
-    "Down", "Down", # descend stairs to (12, 22) (2 steps)
-    "Left", "Left", "Left", "Left" # (12, 22) -> (8, 22) (4 steps)
-]
-
-# Stage 2b from (9, 7) to (17, 8) (13 steps)
-path_stage2b = [
-    "Down", # (9, 7) -> (9, 8) (1 step)
-    "Right", "Right", "Right", # (9, 8) -> (12, 8) (3 steps)
-    "Up", # (12, 8) -> (12, 7) (climb Northern Plateau stairs) (1 step)
-    "Up", # (12, 7) -> (12, 6) (on Northern Plateau) (1 step)
-    "Right", "Right", "Right", "Right", "Right", # (12, 6) -> (17, 6) (5 steps)
-    "Down", "Down" # descend stairs to (17, 8) (2 steps)
-]
-
-# Stage 2c from (10, 3) to Area 2 (North) transition (13 steps)
-path_stage2c = [
-    "Left", "Left", "Left", # (10, 3) -> (7, 3) (3 steps)
-    "Down", "Down", # (7, 3) -> (7, 5) (2 steps)
-    "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left" # (7, 5) -> warp (8 steps)
-]
-
-# Stage 3 from (22, 32) to Area 3 (West) (17 steps)
-path_stage3 = [
-    "Down", # (22, 32) -> (22, 33) (1 step)
-    "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", # (22, 33) -> (9, 33) (13 steps)
-    "Down", "Down", "Down" # (9, 33) -> (9, 36) (warp) (3 steps)
-]
-
-# Stage 4: Area 3 (West) Ascent and Descent (54 steps)
+# Stage 4 from (14, 0) Ascent and Descent (56 steps)
 path_stage4 = [
-    "Right", "Right", # (27, 0) -> (29, 0) (2 steps)
-    "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", # (29, 0) -> (29, 11) (11 steps)
-    "Left", "Left", "Left", "Left", "Left", "Left", "Left", # (29, 11) -> (22, 11) (7 steps)
-    "Down", "Down", "Down", "Down", "Down", "Down", "Down", # (22, 11) -> (22, 18) (7 steps)
-    "Left", # (22, 18) -> (21, 18) (1 step)
-    "Up", # (21, 18) -> (21, 17) (East Stairs)
+    "Down", # (14, 0) -> (14, 1) (1 step)
+    "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", # (14, 1) -> (23, 1) (9 steps)
+    "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", # (23, 1) -> (23, 18) (17 steps)
+    "Left", "Left", # (23, 18) -> (21, 18) (2 steps)
+    "Up", # (21, 18) -> (21, 17) (East Stairs) (1 step)
     "Up", "Up", "Up", # (21, 17) -> (21, 14) (3 steps)
     "Left", "Left", "Left", "Left", "Left", "Left", # (21, 14) -> (15, 14) (6 steps)
     "Down", "Down", # (15, 14) -> (15, 16) (2 steps)
     "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", # (15, 16) -> (5, 16) (10 steps)
     "Right", # (5, 16) -> (6, 16) (1 step)
-    "Down", "Down", "Down", # (6, 16) -> (6, 19) (West Stairs)
+    "Down", "Down", "Down", # (6, 16) -> (6, 19) (West Stairs) (3 steps)
     "Down" # (6, 19) -> (6, 20) (1 step)
 ]
 
@@ -138,28 +103,8 @@ path_stage6 = [
     "Up"
 ]
 
-def run_stage1():
-    print("=== STARTING STAGE 1: Center to Area 1 (East) ===")
-    return run_path(path_stage1, check_warp=True)
-
-def run_stage2a():
-    print("=== STARTING STAGE 2a: Southern Plateau Crossing ===")
-    return run_path(path_stage2a, check_warp=False)
-
-def run_stage2b():
-    print("=== STARTING STAGE 2b: Northern Plateau Crossing ===")
-    return run_path(path_stage2b, check_warp=False)
-
-def run_stage2c():
-    print("=== STARTING STAGE 2c: Area 1 (East) to Area 2 (North) ===")
-    return run_path(path_stage2c, check_warp=True)
-
-def run_stage3():
-    print("=== STARTING STAGE 3: Area 2 (North) to Area 3 (West) ===")
-    return run_path(path_stage3, check_warp=True)
-
 def run_stage4():
-    print("=== STARTING STAGE 4: Area 3 (West) Ascent and Descent ===")
+    print("=== STARTING STAGE 4 (REVISED): Ascent and Descent from (14, 0) ===")
     return run_path(path_stage4, check_warp=False)
 
 def run_stage5():
@@ -188,4 +133,4 @@ def run_stage6():
 
 if __name__ == "__main__":
     # Default execution
-    run_stage2b()
+    run_stage4()
