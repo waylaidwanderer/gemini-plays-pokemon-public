@@ -101,110 +101,46 @@ def main():
         if pos is None:
             return
             
-    # If we are currently at (21, 7), walk to (20, 8) first
-    if pos == (21, 7):
-        print("Walking from (21, 7) to (20, 8)...")
-        if not run_path(["Left", "Down"]):
-            return
-            
-    pos = get_pos()
-    # PHASE 1: Complete Area 1 (East)
-    # 1a. If at (11, 22) or similar on southern ground
-    if pos is not None and pos[1] == 22 and pos[0] <= 12 and pos[0] > 8:
-        left_steps = ["Left"] * (pos[0] - 8)
-        print(f"Walking Left {len(left_steps)} steps to (8, 22)...")
-        if not run_path(left_steps):
-            return
-            
-    pos = get_pos()
-    # 1b. If at (8, 22) on southern ground
-    if pos is not None and pos[0] == 8 and pos[1] == 22:
-        print("Walking Up Column 8 to (8, 8)...")
-        if not run_path(["Up"] * 14):
-            return
-            
-    pos = get_pos()
-    # 1c. If at (8, 8) or on row 8 (columns 8-12)
-    if pos is not None and pos[1] == 8 and pos[0] >= 8 and pos[0] < 12:
-        right_steps = ["Right"] * (12 - pos[0])
-        print(f"Walking Right {len(right_steps)} steps to (12, 8)...")
-        if not run_path(right_steps):
-            return
-            
-    pos = get_pos()
-    # 1d. If at (12, 8)
-    if pos is not None and pos[0] == 12 and pos[1] == 8:
-        print("Climbing onto northern plateau...")
-        if not run_path(["Up"] * 2):
-            return
-            
-    pos = get_pos()
-    # 1e. If on the northern plateau at (12, 6) or similar
-    if pos is not None and pos[1] == 6 and pos[0] >= 12 and pos[0] < 17:
-        right_steps = ["Right"] * (17 - pos[0])
-        print(f"Walking Right {len(right_steps)} steps to (17, 6)...")
-        if not run_path(right_steps):
-            return
-            
-    pos = get_pos()
-    # 1f. If at (17, 6)
-    if pos is not None and pos[0] == 17 and pos[1] == 6:
-        print("Descending to northeastern ground level...")
-        if not run_path(["Down"] * 2):
-            return
-            
-    pos = get_pos()
-    # 1g. If on northeastern ground level rows 8
-    if pos is not None and pos[1] == 8 and pos[0] >= 17 and pos[0] < 20:
-        right_steps = ["Right"] * (20 - pos[0])
-        print(f"Walking Right {len(right_steps)} steps to (20, 8)...")
-        if not run_path(right_steps):
-            return
-            
-    pos = get_pos()
-    # 1h. If at (20, 8)
-    if pos is not None and pos[0] == 20 and pos[1] == 8:
-        print("Walking Up to Row 3...")
-        if not run_path(["Up"] * 5):
-            return
-            
-    pos = get_pos()
-    # 1i. If on Row 3 (Northeastern corridor) heading left to Column 7
-    if pos is not None and pos[1] == 3 and pos[0] <= 20 and pos[0] > 7:
-        left_steps = ["Left"] * (pos[0] - 7)
-        print(f"Walking Left {len(left_steps)} steps to (7, 3)...")
-        if not run_path(left_steps):
-            return
-            
-    pos = get_pos()
-    # 1j. If at (7, 3)
-    if pos is not None and pos[0] == 7 and pos[1] == 3:
-        print("Walking Down to Row 5...")
-        if not run_path(["Down"] * 2):
-            return
-            
-    pos = get_pos()
-    # 1k. If on Row 5 (columns 0-7) heading left to transition
-    if pos is not None and pos[1] == 5 and pos[0] <= 7 and pos[0] > 0:
-        left_steps = ["Left"] * pos[0]
-        print(f"Walking Left {len(left_steps)} steps to transition...")
-        if not run_path(left_steps, check_warp=True):
-            return
-            
-    # Wait for map transition to stabilize
-    bridge.press_buttons(["sleep 1000"])
-    pos = get_pos()
-    print("Arrived in Area 2 (North):", pos)
+    # PHASE 1: Complete Area 1 (East) - skipped since we are in Area 2 (North)
     
     # PHASE 2: Area 2 (North) to Area 3 (West)
-    # We land at (39, 31) in Area 2 (North)
-    if pos is not None and pos[0] > 35:
-        path_area2 = (
-            ["Left"] * 31 +                 # to (8, 31)
-            ["Down"] * 5                    # to warp at (8, 36)
-        )
-        print("Walking the Southern Corridor in Area 2 (North)...")
-        if not run_path(path_area2, check_warp=True):
+    # If we are currently at (18, 31) (or near it on the ground), we must backtrack to Column 22 and use the Plateau!
+    if pos is not None and pos[0] < 22 and pos[1] == 31:
+        right_steps = ["Right"] * (22 - pos[0])
+        print(f"Backtracking Right {len(right_steps)} steps to Column 22...")
+        if not run_path(right_steps):
+            return
+            
+    pos = get_pos()
+    if pos is not None and pos[0] == 22 and pos[1] == 31:
+        print("Walking Up Column 22 to the Plateau stairs at (22, 23)...")
+        if not run_path(["Up"] * 8):
+            return
+            
+    pos = get_pos()
+    if pos is not None and pos[0] == 22 and pos[1] == 23:
+        print("Walking Left across the Western Southern Plateau...")
+        if not run_path(["Left"] * 6):
+            return
+            
+    pos = get_pos()
+    if pos is not None and pos[0] == 16 and pos[1] == 23:
+        print("Walking Down Column 16 to descend Plateau stairs...")
+        if not run_path(["Down"] * 5):
+            return
+            
+    pos = get_pos()
+    if pos is not None and pos[0] == 16 and pos[1] == 28:
+        print("Walking Left and Down to Column 12...")
+        path_left = ["Left"] * 4 + ["Down"] * 5
+        if not run_path(path_left):
+            return
+            
+    pos = get_pos()
+    if pos is not None and pos[0] == 12 and pos[1] == 33:
+        print("Walking Left and Down to transition warp at (8, 36)...")
+        path_transition = ["Left"] * 4 + ["Down"] * 3
+        if not run_path(path_transition, check_warp=True):
             return
             
     # Wait for map transition to stabilize
