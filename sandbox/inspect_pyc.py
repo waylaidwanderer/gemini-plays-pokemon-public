@@ -25,12 +25,14 @@ def inspect_pyc(path):
             code_obj = marshal.load(f)
             coords = extract_flat_consts(code_obj)
             print(f"  Found {len(coords)} flat coordinate tuples:")
-            print(coords)
+            # If there are coords, print them
+            if coords:
+                print(coords)
     except Exception as e:
         print(f"  Error: {e}")
 
 if __name__ == "__main__":
     pyc_dir = "__pycache__"
     for f in os.listdir(pyc_dir):
-        if "complete_speedrun_v5" in f and f.endswith(".pyc"):
+        if f.endswith(".pyc") and "complete_speedrun" in f:
             inspect_pyc(os.path.join(pyc_dir, f))
