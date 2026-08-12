@@ -87,7 +87,7 @@ def run_path(path, check_warp=False):
     return True
 
 def main():
-    print("=== CONTINUING TO AREA 2 (NORTH) ===")
+    print("=== CONTINUING TO AREA 3 (WEST) ===")
     
     pos = get_pos()
     print("Initial position:", pos)
@@ -97,19 +97,9 @@ def main():
         if pos is None:
             return
             
-    # Walk the rest of Area 1 starting from (16, 20)
-    # The target of the walk is transition at (0, 5) which goes to Area 2 (North) (39, 31)
-    if pos == (16, 20):
+    # PHASE 1: Walk the rest of Area 1 starting from (20, 8)
+    if pos == (20, 8):
         path_area1_remaining = (
-            ["Left"] * 4 +                  # to (12, 20)
-            ["Down"] * 2 +                  # to (12, 22) (descend southern plateau)
-            ["Left"] * 4 +                  # to (8, 22)
-            ["Up"] * 14 +                   # to (8, 8)
-            ["Right"] * 4 +                 # to (12, 8)
-            ["Up"] * 2 +                    # to (12, 6) (climb northern plateau)
-            ["Right"] * 5 +                 # to (17, 6)
-            ["Down"] * 2 +                  # to (17, 8) (descend northern plateau)
-            ["Right"] * 3 +                 # to (20, 8)
             ["Up"] * 5 +                    # to (20, 3) (Row 3 bypass)
             ["Left"] * 13 +                 # to (7, 3)
             ["Down"] * 2 +                  # to (7, 5)
@@ -117,6 +107,27 @@ def main():
         )
         print("Walking remaining path in Area 1 (East)...")
         if not run_path(path_area1_remaining, check_warp=True):
+            return
+            
+    # Wait for map transition to stabilize
+    bridge.press_buttons(["sleep 1000"])
+    pos = get_pos()
+    print("Arrived in Area 2 (North):", pos)
+    
+    # PHASE 2: Area 2 (North) to Area 3 (West)
+    if pos is not None and pos[0] > 35:
+        path_area2 = (
+            ["Left"] * 17 +                 # to (22, 31)
+            ["Up"] * 9 +                    # to (22, 22) (climb plateau)
+            ["Left"] * 6 +                  # to (16, 22)
+            ["Down"] * 6 +                  # to (16, 28) (descend plateau)
+            ["Left"] * 4 +                  # to (12, 28)
+            ["Down"] * 5 +                  # to (12, 33)
+            ["Left"] * 4 +                  # to (8, 33)
+            ["Down"] * 3                    # to transition warp at (8, 36)
+        )
+        print("Walking Area 2 (North) path...")
+        if not run_path(path_area2, check_warp=True):
             return
             
     # Wait for map transition to stabilize
