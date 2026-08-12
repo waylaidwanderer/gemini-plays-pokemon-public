@@ -104,9 +104,22 @@ def get_area1_path(pos):
     if pos[0] == 0 and (pos[1] == 22 or pos[1] == 23):
         path.append("Down") # to (0, 24)
         path.extend(["Right"] * 20) # to (20, 24)
+        path.extend(["Up"] * 3)            # to (20, 21)
+        path.append("Up")                  # to (20, 20) (climb stairs)
+        path.extend(["Left"] * 8)          # to (12, 20)
+    elif pos[1] <= 20 and pos[0] >= 12:
+        # We are already on the Eastern Plateau!
+        # Walk to (12, 20)
+        if pos[1] < 20:
+            path.extend(["Down"] * (20 - pos[1]))
+        elif pos[1] > 20:
+            path.extend(["Up"] * (pos[1] - 20))
+        if pos[0] > 12:
+            path.extend(["Left"] * (pos[0] - 12))
+        elif pos[0] < 12:
+            path.extend(["Right"] * (12 - pos[0]))
     else:
-        # We are at some intermediate position on the lower ground
-        # Walk to (20, 24)
+        # Intermediate on the lower ground
         if pos[1] < 24:
             path.extend(["Down"] * (24 - pos[1]))
         elif pos[1] > 24:
@@ -115,11 +128,11 @@ def get_area1_path(pos):
             path.extend(["Right"] * (20 - pos[0]))
         elif pos[0] > 20:
             path.extend(["Left"] * (pos[0] - 20))
+        path.extend(["Up"] * 3)            # to (20, 21)
+        path.append("Up")                  # to (20, 20) (climb stairs)
+        path.extend(["Left"] * 8)          # to (12, 20)
             
-    # Now we are at (20, 24). Let's climb and do the standard path!
-    path.extend(["Up"] * 3)            # to (20, 21)
-    path.append("Up")                  # to (20, 20) (climb stairs)
-    path.extend(["Left"] * 8)          # to (12, 20)
+    # Now we are at (12, 20) on the Plateau. Descend and do the rest!
     path.extend(["Down"] * 2)          # to (12, 22) (descends stairs)
     path.extend(["Left"] * 3)          # to (9, 22)
     path.extend(["Up"] * 14)           # to (9, 8)
@@ -151,7 +164,7 @@ def run_campaign_to_area3():
     path_area2 = []
     path_area3 = []
     
-    # 1. Check if we are in Safari Zone Center
+    # 1. Check if we are in Safari Zone Center (only if start at (15,25))
     if pos == (15, 25):
         path_center = [
             "Up", "Up", "Up", "Up",                               # to (15, 21)
@@ -160,17 +173,6 @@ def run_campaign_to_area3():
             "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up",   # to (28, 11) (10 steps Up)
             "Right", "Right", "Right"                              # to Area 1 warp!
         ]
-    elif pos[1] == 21 and pos[0] >= 15 and pos[0] <= 28:
-        print(f"Resuming Center navigation from Row 21: {pos}")
-        remaining_right = 28 - pos[0]
-        path_center.extend(["Right"] * remaining_right)
-        path_center.extend(["Up"] * 10)
-        path_center.extend(["Right"] * 3)
-    elif pos[0] == 28 and pos[1] <= 21 and pos[1] >= 11:
-        print(f"Resuming Center navigation from Column 28: {pos}")
-        remaining_up = pos[1] - 11
-        path_center.extend(["Up"] * remaining_up)
-        path_center.extend(["Right"] * 3)
         
     if len(path_center) > 0:
         print("Walking across Center to Area 1 (East)...")
@@ -182,12 +184,8 @@ def run_campaign_to_area3():
         print("Position inside Area 1 (East):", pos)
         
     # 2. Check if we are in Area 1 (East)
-    # If we are anywhere in Area 1 (East), let's use the dynamic spiral generator!
-    # Area 1 coordinates typically have x <= 20 with y <= 24 (or similar)
-    # We can detect Area 1 based on known intermediate states
-    if pos is not None and (
-        (pos[1] == 22 or pos[1] == 23 or pos[1] == 24 or pos[1] == 12 or pos[1] == 18) and pos[0] <= 25
-    ):
+    # Detect based on typical coordinates in Area 1 (East)
+    if pos is not None and pos[0] <= 38 and pos[1] <= 24:
         print("Using dynamic spiral generator for Area 1 (East)...")
         path_area1 = get_area1_path(pos)
             
