@@ -84,24 +84,30 @@ def run_surf_campaign():
     
     path_area2 = []
     
-    # We are currently at (39, 31) in Area 2 (North)
-    if pos is not None and pos[0] == 39 and pos[1] == 31:
-        # Walk Column 25 and Row 9 ground-level route to Southwest Transition
-        path_area2 = [
-            "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
-            "Left", "Left", "Left", "Left", # (39, 31) -> (25, 31) (14 steps Left)
-            "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up",
-            "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up",
-            "Up", "Up",                     # (25, 31) -> (25, 9) (22 steps Up)
-            "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
-            "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
-            "Left",                         # (25, 9) -> (4, 9) (21 steps Left)
-            "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down",
-            "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down",
-            "Down", "Down", "Down", "Down", "Down", "Down", "Down" # (4, 9) -> (4, 36) (27 steps Down, warp!)
-        ]
+    # We are currently at (18, 31) in Area 2 (North)
+    if pos is not None and pos[0] == 18 and pos[1] == 31:
+        # 1. Walk UP Column 18 to Row 28: (18, 28)
+        path_area2.extend(["Up"] * 3)
+        # 2. Walk Right to Column 20 on Row 28: (20, 28)
+        path_area2.extend(["Right"] * 2)
+        # 3. Walk UP to Row 27: (20, 27)
+        path_area2.append("Up")
+        # 4. Walk LEFT onto stairs at (19, 27)
+        path_area2.append("Left")
+        # 5. Walk LEFT across plateau to (16, 26) (onto plateau top)
+        path_area2.extend(["Left"] * 3)
+        # 6. Walk DOWN to descend stairs to (16, 28)
+        path_area2.extend(["Down"] * 2)
+        # 7. Walk LEFT to Column 15 on Row 28: (15, 28) (ground)
+        path_area2.append("Left")
+        # 8. Walk UP Column 15 to Row 22: (15, 22) (ground)
+        path_area2.extend(["Up"] * 6)
+        # 9. Walk LEFT to Column 4 on Row 22: (4, 22) (bypassing Column 5 shrub wall!)
+        path_area2.extend(["Left"] * 11)
+        # 10. Walk DOWN Column 4 to Row 36: (4, 36) (transition!)
+        path_area2.extend(["Down"] * 14)
     else:
-        print(f"Error: Not at expected starting position (39, 31). Position is: {pos}")
+        print(f"Error: Not at expected starting position (18, 31). Position is: {pos}")
         return False
         
     print("=== STAGE 4: Walking Area 2 to Southwest Transition ===")
