@@ -79,18 +79,18 @@ def run_path(path, check_warp=False):
     return True
 
 def run_surf():
-    # Currently at (16, 30) facing RIGHT.
-    print("=== EXECUTING 100% WALKABLE ROW 9 HIGHWAY ROUTE ===")
+    # We are currently at (16, 30) facing RIGHT.
+    print("=== EXECUTING 100% WALKABLE COLUMN 25 HIGHWAY ROUTE ===")
     
     path = []
-    # 1. Walk Right to Column 18
-    path.extend(["Right"] * 2)    # to (18, 30)
+    # 1. Walk Right to Column 25
+    path.extend(["Right"] * 9)    # to (25, 30)
     
-    # 2. Walk Up Column 18 to Row 9
-    path.extend(["Up"] * 21)      # to (18, 9)
+    # 2. Walk Up Column 25 to Row 9
+    path.extend(["Up"] * 21)      # to (25, 9)
     
     # 3. Walk Left on Row 9 to Column 4
-    path.extend(["Left"] * 14)    # to (4, 9)
+    path.extend(["Left"] * 21)    # to (4, 9)
     
     # 4. Walk Down Column 4 to Row 36 (transition!)
     path.extend(["Down"] * 27)    # to (4, 36)
