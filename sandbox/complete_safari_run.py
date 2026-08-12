@@ -57,10 +57,10 @@ def run_path(path, check_warp=False):
                     break
     return True
 
-# 1. From (21, 7) to (6, 20) via Row 1 (40 steps)
+# 1. From (18, 3) to (6, 20) via Row 1 (33 steps)
 path_to_ground = [
-    "Up", "Up", "Up", "Up", "Up", "Up",
-    "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
+    "Up", "Up",
+    "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
     "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down"
 ]
 
@@ -90,7 +90,7 @@ path_to_house = [
 ]
 
 def run_all():
-    print("=== STARTING RETRIEVAL FROM CURRENT BATTLE ===")
+    print("=== STARTING RETRIEVAL FROM CURRENT BATTLE AT (18, 3) ===")
     
     # First, flee the active battle
     run_away()
