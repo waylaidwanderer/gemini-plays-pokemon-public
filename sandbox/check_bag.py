@@ -2,25 +2,38 @@ import mgba
 import time
 
 def main():
-    print("Opening menu...")
+    print("Opening Start Menu...")
     mgba.press_buttons(["Start", "sleep 500"])
     
-    # Let's take a screenshot of the main menu first to see where the cursor is
-    img1 = mgba.take_screenshot()
-    print(f"Main menu screenshot saved to: {img1}")
+    # Take screenshot of menu
+    print("Taking menu screenshot...")
+    img = mgba.take_screenshot()
+    print("Menu opened.")
     
-    # Press Down twice and A to open Item menu
-    print("Navigating to ITEM...")
-    mgba.press_buttons(["Down", "sleep 200", "Down", "sleep 200", "A", "sleep 500"])
+    print("Moving cursor to PACK...")
+    mgba.press_buttons(["Down", "sleep 200", "A", "sleep 800"])
     
-    # Take screenshot of Item menu
-    img2 = mgba.take_screenshot()
-    print(f"Item menu screenshot saved to: {img2}")
+    # Take screenshot of first pack page
+    print("Taking page 1 screenshot...")
+    mgba.take_screenshot()
     
-    # Close menu to restore state
+    # Scroll down 3 times
+    print("Scrolling down...")
+    mgba.press_buttons(["Down", "sleep 150", "Down", "sleep 150", "Down", "sleep 150", "Down", "sleep 150"])
+    
+    print("Taking page 2 screenshot...")
+    mgba.take_screenshot()
+    
+    # Scroll down more
+    print("Scrolling down further...")
+    mgba.press_buttons(["Down", "sleep 150", "Down", "sleep 150", "Down", "sleep 150", "Down", "sleep 150"])
+    
+    print("Taking page 3 screenshot...")
+    mgba.take_screenshot()
+    
+    # Close menu
     print("Closing menu...")
     mgba.press_buttons(["B", "sleep 200", "B", "sleep 200", "B", "sleep 200"])
-    print("Done!")
-
+    
 if __name__ == "__main__":
     main()
