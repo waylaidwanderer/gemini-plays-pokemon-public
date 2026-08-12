@@ -44,14 +44,13 @@ def walk_step_robust(direction):
     return pos
 
 def go_to_surf_under():
-    print("=== EXECUTING ULTRAROBUST ROUTE B VIA EAST STAIRS ===")
+    print("=== EXECUTING FINAL SURF ROUTE FROM (24, 16) ===")
     
-    # Target path from (6, 16) on the plateau
+    # Path from (24, 16) to Secret House
     path = []
-    path.extend(["Right"] * 15)  # To (21, 16)
-    path.extend(["Down"] * 2)    # To (21, 18) (descend East Stairs)
-    path.extend(["Right"] * 2)   # To (23, 18)
-    path.extend(["Up"] * 5)      # To (23, 13)
+    path.extend(["Up"] * 2)      # To (24, 14)
+    path.extend(["Left"])        # To (23, 14)
+    path.extend(["Up"])          # To (23, 13)
     path.extend(["Left"] * 12)   # To (11, 13)
     path.extend(["Up"] * 2)      # To (11, 11) (Secret House!)
 
@@ -67,7 +66,6 @@ def go_to_surf_under():
         new_pos = walk_step_robust(path[idx])
         
         if new_pos is None:
-            # Entered a battle
             handle_battle()
             continue
             
