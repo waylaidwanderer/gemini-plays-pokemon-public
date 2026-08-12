@@ -74,6 +74,14 @@ def run_path(path, check_warp=False):
                 continue
             
         if new_pos == pos:
+            # Let's wait a moment and check if we are actually in a battle transition
+            time.sleep(0.5)
+            check_pos = get_pos()
+            if check_pos is None:
+                print("Battle transition detected during stuck check! Handling battle...")
+                handle_battle()
+                stuck_count = 0
+                continue
             stuck_count += 1
             print(f"Stuck at {pos}! Stuck count: {stuck_count}")
             if stuck_count > 3:
@@ -90,18 +98,25 @@ def run_path(path, check_warp=False):
     return True
 
 def go_back_to_area2():
-    print("=== WALKING BACK TO AREA 2 (NORTH) FROM (17, 23) ===")
+    print("=== WALKING BACK TO AREA 2 (NORTH) FROM (15, 24) ===")
     pos = get_pos()
     print("Starting position:", pos)
     
     path = []
-    if pos == (17, 23):
-        path.extend(["Left", "Left"])          # to (15, 23)
-        path.extend(["Down", "Down", "Down"])  # to (15, 26)
-        path.extend(["Right"] * 10)            # to (25, 26)
-        path.extend(["Up"] * 23)               # to (25, 3)
-        path.append("Right")                   # to (26, 3)
-        path.extend(["Up"] * 3)                # warp to Area 2!
+    if pos == (15, 24):
+        path.append("Up")                     # to (15, 23)
+        path.extend(["Right"] * 2)            # to (17, 23)
+        path.extend(["Up"] * 3)               # to (17, 20)
+        path.extend(["Left"] * 11)            # to (6, 20)
+        path.extend(["Up"] * 4)               # to (6, 16) (climbs West Stairs)
+        path.extend(["Right"] * 9)            # to (15, 16)
+        path.extend(["Up"] * 2)               # to (15, 14)
+        path.extend(["Right"] * 6)            # to (21, 14)
+        path.extend(["Down"] * 4)             # to (21, 18) (descends East Stairs)
+        path.extend(["Right"] * 4)            # to (25, 18)
+        path.extend(["Up"] * 15)              # to (25, 3)
+        path.append("Right")                  # to (26, 3)
+        path.extend(["Up"] * 3)               # warp to Area 2!
     else:
         print(f"Unexpected starting position: {pos}. Cannot run fixed path.")
         return False
