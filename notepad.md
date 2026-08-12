@@ -1060,7 +1060,8 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 
 ### 🔍 Verified Area 3 (West) Landmarks & Paths
 - **Gold Teeth:** Empirically verified to be located at `(19, 25)` on the southern ground level. The player can stand at `(19, 24)` facing Down to pick them up.
-- **The Secret House:** Located on the western ground level. The verified entrance door (doormat) is at `(11, 11)`. The player stands at `(11, 12)` facing UP and presses UP to enter, which warps the player inside the Secret House at `(2, 7)`.
+- **Rest House 3:** Located on the western ground level. The verified entrance door (doormat) is at `(11, 11)`. Inside is a Hiker NPC who gives standard Hiker dialogue (Rest House 3 does NOT contain Surf).
+- **The Secret House:** Located in the isolated northwest ground section of Area 3 (West). The entrance door is at `(3, 8)`. The player can only reach this section by entering through the southwest ground-level transition of Area 2 (North) at `(4, 36)`. Inside the Secret House is the NPC who gives HM03 (Surf) at `(2, 7)`.
 - **Southwest Area:** Walked Column 3 from Row 20 up to Row 14 (`(3, 20)` to `(3, 14)`), proving `(3, 19)` and `(3, 18)` are walkable grass/trees with NO secret warp or door.
 - **Southern Passage Access:** The southern ground level (containing Row 24-28) is accessed from Column 21 on the east side. Walk south past the East Stairs on Column 21 to Row 24, and then walk west.
 - **The Row 26 Highway:** Row 26 is completely open and serves as a horizontal ground-level path connecting the eastern area (Column 19/21) to the western area (Columns 3-10), bypassing the hedge barriers on Rows 24 and 25.
