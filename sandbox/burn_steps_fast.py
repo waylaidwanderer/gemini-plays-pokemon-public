@@ -10,13 +10,13 @@ def burn_fast_safe():
     cx, cy = pos
     print(f"Starting at: ({cx}, {cy})")
     
-    # We will burn exactly 30 steps (60 actions)
+    # We will burn exactly 20 steps (40 actions)
     # Each step is either Left or Right depending on where we are
     buttons = []
     curr_x = cx
     direction = "Right" if cx == 17 else "Left"
     
-    for _ in range(30):
+    for _ in range(20):
         if curr_x == 17:
             direction = "Right"
         elif curr_x == 21:
