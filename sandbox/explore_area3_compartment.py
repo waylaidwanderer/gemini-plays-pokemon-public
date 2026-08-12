@@ -76,12 +76,12 @@ def find_path_dfs(target):
                 visited.add(pos)
                 
         # Try moving to neighbors
-        # Prefer Down and Left to get to (21, 18)
+        # Prefer Up and Right to get to (3, 8) from (1, 16)
         moves = []
-        moves.append(("Down", (pos[0], pos[1] + 1)))
-        moves.append(("Left", (pos[0] - 1, pos[1])))
-        moves.append(("Right", (pos[0] + 1, pos[1])))
         moves.append(("Up", (pos[0], pos[1] - 1)))
+        moves.append(("Right", (pos[0] + 1, pos[1])))
+        moves.append(("Left", (pos[0] - 1, pos[1])))
+        moves.append(("Down", (pos[0], pos[1] + 1)))
         
         moved = False
         for direction, next_pos in moves:
@@ -90,6 +90,10 @@ def find_path_dfs(target):
                 res_pos = walk_step(direction)
                 
                 if res_pos is None:
+                    # Transition might occur when walking UP onto target (3, 8)
+                    if direction == "Up" and next_pos == target:
+                        print("Map Transition detected on target tile! SUCCESS!")
+                        return True
                     continue  # Battle handled, retry loop
                     
                 if res_pos == pos:
@@ -135,4 +139,4 @@ def find_path_dfs(target):
                 blocked.remove(curr_pos)
 
 if __name__ == "__main__":
-    find_path_dfs((21, 18))
+    find_path_dfs((3, 8))
