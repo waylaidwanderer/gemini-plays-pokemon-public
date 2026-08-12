@@ -148,13 +148,19 @@ def run_surf_campaign():
     pos = get_pos()
     print("Coordinates in Area 2 North:", pos)
     
-    # 4. Path in Area 2 (North) to southwest transition at (4, 36)
+    # 4. Path in Area 2 (North) using Column 25 and Row 9 ground-level route
     path_area2 = [
         "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
+        "Left", "Left", "Left", "Left", # (39, 31) -> (25, 31) (14 steps Left)
+        "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up",
+        "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up",
+        "Up", "Up",                     # (25, 31) -> (25, 9) (22 steps Up)
         "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
         "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
-        "Left", "Left", "Left", "Left", "Left", # (39, 31) -> (4, 31)
-        "Down", "Down", "Down", "Down", "Down"  # (4, 31) -> (4, 36) (warp!)
+        "Left",                         # (25, 9) -> (4, 9) (21 steps Left)
+        "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down",
+        "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down",
+        "Down", "Down", "Down", "Down", "Down", "Down", "Down" # (4, 9) -> (4, 36) (27 steps Down, warp!)
     ]
     
     print("=== STAGE 4: Walking Area 2 to Southwest Transition ===")
