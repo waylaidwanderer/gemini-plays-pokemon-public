@@ -84,7 +84,7 @@ def run_path(path, check_warp=False):
     return True
 
 def main():
-    print("=== EXPLORING THE SAFARI ZONE CENTER NORTHWEST COMPARTMENT ===")
+    print("=== EXPLORING THE SAFARI ZONE CENTER NORTHWEST COMPARTMENT VIA ROW 23 ===")
     
     pos = get_pos()
     print("Starting position in Area 3:", pos)
@@ -94,17 +94,9 @@ def main():
         if pos is None:
             return
             
-    # From (19, 24), we can go:
-    # - Up 1 step to (19, 23)
-    # - Right 3 steps to (22, 23) (bypassing the Row 24 Column 22 solid bush)
-    # - Down 3 steps to (22, 26) (bypassing the Row 25 Column 18-21 hedge)
-    # - Right 8 steps to (30, 26) (warp)
-    path_to_center = [
-        "Up",
-        "Right", "Right", "Right",
-        "Down", "Down", "Down",
-        "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right"
-    ]
+    # From (22, 23), walk straight Right along Row 23 to Column 30 to transition
+    # Path: Right 8 steps to (30, 23) (warp)
+    path_to_center = ["Right"] * 8
     
     if not run_path(path_to_center, check_warp=True):
         print("Failed to transition to Safari Zone Center!")
@@ -117,15 +109,15 @@ def main():
     if pos is None:
         pos = get_pos()
         
-    # Once inside Safari Zone Center (Northwest Compartment):
+    # Inside Safari Zone Center (Northwest Compartment):
     # Walk to (19, 25) inside Safari Zone Center and look for the item ball!
+    # If we are at Column 0, Row 11:
+    # Path: Right 19 steps to Column 19, Down 14 steps to Row 25
     if pos is not None and pos[0] < 5:
         print("Walking to (19, 25) in Safari Zone Center...")
-        # Since we warp at Row 26, we will likely be at Column 0 Row 26
-        # Path: Right 19 steps to (19, 26), Up 1 step to (19, 25)
         path_to_teeth = (
             ["Right"] * (19 - pos[0]) +
-            ["Up"] * (pos[1] - 25)
+            ["Down"] * (25 - pos[1])
         )
         if not run_path(path_to_teeth):
             print("Failed to reach target!")
@@ -135,9 +127,9 @@ def main():
         pos = get_pos()
         print("Arrived at target in Center:", pos)
         
-        # Interact to pick up the Gold Teeth
+        # Look around or interact
         if pos == (19, 25):
-            print("=== PICKING UP GOLD TEETH IN CENTER ===")
+            print("=== CHECKING FOR GOLD TEETH IN CENTER ===")
             bridge.press_buttons(["Up", "sleep 300"])
             bridge.press_buttons(["A", "sleep 1200"])
             bridge.press_buttons(["A", "sleep 1200"])
@@ -150,12 +142,6 @@ def main():
             bridge.press_buttons(["A", "sleep 3000"])
             bridge.press_buttons(["A", "sleep 500"])
             print("Save completed!")
-            
-            # Verify in Bag
-            bridge.press_buttons(["Start", "sleep 500"])
-            bridge.press_buttons(["Up", "sleep 150", "Up", "sleep 150", "Up", "sleep 150", "Up", "sleep 150", "Up", "sleep 150", "Up", "sleep 150"])
-            bridge.press_buttons(["Down", "sleep 150", "Down", "sleep 150", "A", "sleep 1000"])
-            print("BAG menu opened! Check if the Gold Teeth are there.")
 
 if __name__ == "__main__":
     main()
