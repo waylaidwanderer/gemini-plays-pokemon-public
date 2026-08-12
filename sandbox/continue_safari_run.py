@@ -101,6 +101,20 @@ def main():
         if pos is None:
             return
             
+    # If we are currently at (26, 3), walk the corrected path to Gold Teeth!
+    if pos == (26, 3):
+        path_area3_corrected = (
+            ["Left"] * 1 +                  # to (25, 3)
+            ["Down"] * 20 +                 # to (25, 23)
+            ["Left"] * 4 +                  # to (21, 23)
+            ["Down"] * 1 +                  # to (21, 24)
+            ["Left"] * 2                    # to (19, 24) standing above teeth
+        )
+        print("Walking the corrected ground level to Gold Teeth in Area 3...")
+        if not run_path(path_area3_corrected):
+            return
+            
+    pos = get_pos()
     # If we are currently at (21, 24), walk to (22, 22) to get on the plateau
     if pos == (21, 24):
         print("Walking from (21, 24) to (22, 22) to get on the plateau...")
@@ -108,7 +122,7 @@ def main():
             return
             
     pos = get_pos()
-    # PHASE 1: Complete Area 1 (East) - skipped since we are in Area 2 (North)
+    # PHASE 1: Complete Area 1 (East) - skipped since we are in Area 2 (North) or 3 (West)
     
     # PHASE 2: Area 2 (North) to Area 3 (West)
     # If we are currently at (18, 31) (or near it on the ground), we must backtrack to Column 22 and use the Plateau!
@@ -159,8 +173,10 @@ def main():
     # We land at (26, 0) in Area 3 (West)
     if pos is not None and pos[0] == 26 and pos[1] == 0:
         path_area3 = (
-            ["Down"] * 23 +                 # to (26, 23)
-            ["Left"] * 5 +                  # to (21, 23)
+            ["Down"] * 3 +                  # to (26, 3)
+            ["Left"] * 1 +                  # to (25, 3)
+            ["Down"] * 20 +                 # to (25, 23)
+            ["Left"] * 4 +                  # to (21, 23)
             ["Down"] * 1 +                  # to (21, 24)
             ["Left"] * 2                    # to (19, 24) standing above teeth at (19, 25)
         )
@@ -192,7 +208,7 @@ def main():
         bridge.press_buttons(["Down", "sleep 150", "Down", "sleep 150", "Down", "sleep 150", "Down", "sleep 150", "A", "sleep 1200"])
         # Confirm SAVE (YES)
         bridge.press_buttons(["A", "sleep 3000"])
-        # Dismiss "ACE saved the game."
+        # Dismiss \"ACE saved the game.\"
         bridge.press_buttons(["A", "sleep 500"])
         print("Game saved successfully!")
         
