@@ -84,20 +84,32 @@ def run_path(path, check_warp=False):
     return True
 
 def main():
-    print("=== FINAL STEP TO GET SURF FROM (39, 31) ===")
+    print("=== FINAL SURF MASTER PLAN RESUME FROM (18, 31) ===")
     
     pos = get_pos()
     print("Starting position:", pos)
     
-    if pos is not None and pos[0] == 39 and pos[1] == 31:
-        print("=== STEP 3: NAVIGATING AREA 2 TO SW TRANSITION ===")
+    if pos == (18, 31):
+        print("=== STEP 3 RESUME: NAVIGATING AREA 2 TO SW TRANSITION VIA PLATEAU ===")
+        # Path:
+        # - Walk Right to Column 22 (4 steps Right) -> (22, 31)
+        # - Walk Up Column 22 to Row 22 (9 steps Up - climbs stairs) -> (22, 22)
+        # - Walk Left across Plateau to Column 16 (6 steps Left) -> (16, 22)
+        # - Walk Down Column 16 to Row 28 (6 steps Down - descends stairs) -> (16, 28)
+        # - Walk Left to Column 12 (4 steps Left) -> (12, 28)
+        # - Walk Up Column 12 to Row 16 (12 steps Up) -> (12, 16)
+        # - Walk Right to Column 13 (1 step Right) -> (13, 16)
+        # - Walk Up Column 13 to Row 9 (7 steps Up) -> (13, 9)
+        # - Walk Left along Row 9 to Column 4 (9 steps Left) -> (4, 9)
+        # - Walk Down Column 4 to Row 36 (27 steps Down - Warp!) -> (4, 36)
         path_across_area2 = [
-            "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
-            "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
-            "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
-            "Left", "Left", "Left",                                          # to (12, 31) (27 steps Left)
+            "Right", "Right", "Right", "Right",                              # to (22, 31) (4 steps Right)
+            "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up",            # to (22, 22) (9 steps Up - climbs stairs)
+            "Left", "Left", "Left", "Left", "Left", "Left",                  # to (16, 22) (6 steps Left)
+            "Down", "Down", "Down", "Down", "Down", "Down",                  # to (16, 28) (6 steps Down - descends stairs)
+            "Left", "Left", "Left", "Left",                                  # to (12, 28) (4 steps Left)
             "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up",
-            "Up", "Up", "Up", "Up", "Up",                                    # to (12, 16) (15 steps Up)
+            "Up", "Up",                                                      # to (12, 16) (12 steps Up)
             "Right",                                                         # to (13, 16) (1 step Right)
             "Up", "Up", "Up", "Up", "Up", "Up", "Up",                        # to (13, 9) (7 steps Up)
             "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
