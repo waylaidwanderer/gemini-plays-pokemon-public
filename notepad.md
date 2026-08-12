@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 51462)
-- Location: Rocket Hideout B1F at (2, 15).
+## CURRENT STATUS & DASHBOARD (Turn 51463)
+- Location: Rocket Hideout B1F at (2, 27).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Descend Column 2 Control Highway South 12 steps to (2, 27) towards staircase (2, 41) to exit West Loop.
+- Active Objective: Descend Column 2 Control Highway South 14 steps to staircase (2, 41) to exit West Loop into Celadon City (17, 27).
 - Persistent Facts:
   - Enclosed West Loop (Cols 2..5, y=3..41) is a closed local loop; stairs (2, 41) connect back to Celadon City (17, 27).
   - True Main Rocket Hideout is entered via outdoor Celadon City door (30, 34)/(30, 35) -> defeat Rocket Grunt on North Wall -> press A on poster switch to reveal true secret staircase.
@@ -751,14 +751,16 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 51463)
-- Location: Rocket Hideout B1F at (2, 27).
+## CURRENT STATUS & DASHBOARD (Turn 51464)
+- Location: Celadon Game Corner at (4, 4).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Descend Column 2 Control Highway South 14 steps to staircase (2, 41) to exit West Loop into Celadon City (17, 27).
+- Active Objective: Walk Down 4 steps to exit casino outdoors to Game Corner Plaza (10, 7), East to Plaza exit (19, 13), then East in Celadon City to Main Casino entrance at (30, 34).
 - Persistent Facts:
-  - Enclosed West Loop (Cols 2..5, y=3..41) is a closed local loop; stairs (2, 41) connect back to Celadon City (17, 27).
-  - True Main Rocket Hideout is entered via outdoor Celadon City door (30, 34)/(30, 35) -> defeat Rocket Grunt on North Wall -> press A on poster switch to reveal true secret staircase.
-  - Column 2 (x=2) in West Loop is a continuous highway of stop tiles spanning y=3..41 (no spinning).
+  - Celadon Game Corner tile (4, 7) is the exit mat to Game Corner Plaza (10, 7).
+  - Main Game Corner Casino Floor Entrance is located in outdoor Celadon City at tile (30, 34)/(30, 35).
+  - Rocket Grunt and poster switch are located on North Wall in East Casino Floor.
+  - Defeating Grunt and pressing A on poster reveals secret staircase at (4, 4).
+  - Column 2 (x=2) in Rocket Hideout B1F is a continuous highway of stop tiles spanning y=3..40.
 
 <hr>
 
