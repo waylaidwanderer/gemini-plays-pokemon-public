@@ -1,10 +1,9 @@
-## CURRENT STATUS & DASHBOARD (Turn 52141)
-- Location: Game Corner Plaza at (4, 22).
+## CURRENT STATUS & DASHBOARD (Turn 52162)
+- Location: Celadon City at (25, 35).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Reached Row 22 via Column 4 bypass (above ledge Row 23). Navigate North to Row 18/19 and East around barrels (x=5) to reach Doorway (10, 21).
+- Active Objective: Walk East from plaza warp (25, 35) across x=26..30 to enter Main Game Corner Casino door at (30, 34)/(30, 35).
 - Persistent Facts:
-  - Game Corner Plaza warp (20, 36) in Celadon City enters Game Corner Plaza (10, 0).
-  - Secret staircase at interior (4, 4) in Celadon Game Corner connects to local loop (5, 4) in B1F.
-  - Row 23 at x=6..13 in Game Corner Plaza is a southbound one-way jump ledge. Column 4 (x=4, y=23) is an open, passable gap through Row 23.
-  - Column 5 (x=5, y=20..23) has double barrels blocking direct East-West crossing at Rows 20..23.
-  - Giovanni on B4F holds the Silph Scope needed for Pokemon Tower.
+  - Game Corner Plaza East Warp at (15, 0) exits to outdoor Celadon City at (25, 35).
+  - Main Game Corner Casino Floor Entrance is at Celadon City (30, 34) / (30, 35).
+  - Inside Main Game Corner Casino: Defeat Rocket Grunt on North Wall, press poster switch to reveal secret staircase, descend to Rocket Hideout B1F.
+  - Giovanni on B4F holds the Silph Scope.
