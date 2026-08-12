@@ -124,6 +124,24 @@ def run_surf_campaign_final_real():
         path_across_area2.extend(["Left"] * 9)          # to (4, 9)
         # 10. Walk Down Column 4 to Row 36 (transition!)
         path_across_area2.extend(["Down"] * 27)         # to (4, 36)
+    elif pos[0] == 22 and pos[1] == 31:
+        print("Starting from (22, 31) in Area 2. Walking to Plateau...")
+        # 1. Walk Up to Row 24
+        path_across_area2.extend(["Up"] * 7)            # to (22, 24)
+        # 2. Climb East Stairs onto Plateau
+        path_across_area2.extend(["Up"] * 2)            # to (22, 22) (climbs stairs)
+        # 3. Walk Left across Plateau to Column 16
+        path_across_area2.extend(["Left"] * 6)          # to (16, 22)
+        # 4. Descend West Stairs to ground level on the west side
+        path_across_area2.extend(["Down"] * 6)          # to (16, 28) (descends stairs)
+        # 5. Walk Left to Column 13
+        path_across_area2.extend(["Left"] * 3)          # to (13, 28)
+        # 6. Walk Up Column 13 to Row 9
+        path_across_area2.extend(["Up"] * 19)           # to (13, 9)
+        # 7. Walk Left along Row 9 to Column 4
+        path_across_area2.extend(["Left"] * 9)          # to (4, 9)
+        # 8. Walk Down Column 4 to Row 36
+        path_across_area2.extend(["Down"] * 27)         # to (4, 36)
     elif pos[0] == 20 and pos[1] == 31:
         print("Already in Area 2 (North) at (20, 31).")
         # Align to Column 15 Row 31
