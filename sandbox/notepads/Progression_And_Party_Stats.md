@@ -69,3 +69,11 @@
 - **Underground Path Traversal (West to East):** Turn 18186 to 18193 (Entered Route 7 building, walked tunnel, exited Route 8 building).
 - **Route 8 Eastward Journey:** Started Turn 18197, Completed on Turn 18244. (Exited building, walked east, entered Lavender Town).
 - **Pokémon Tower Exploration:** Started Turn 18258 (Entered Pokémon Tower, engaged Rival JACK on 2F on Turn 18281).
+
+## Active Safari Zone Session (Start Turn: 35059)
+- **Start Turn:** 35059
+- **Current Turn:** 35068
+- **Steps Used:** 9
+- **Steps Remaining:** 491
+- **Current Location:** Safari Zone Center at (14, 25)
+- **Session Goals:** Successfully execute the corrected golden route using Column 8 and Row 10 to Area 1 (East).
