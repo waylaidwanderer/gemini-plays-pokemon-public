@@ -67,11 +67,11 @@
 ## Major Exploration Phases and Timestamps
 - (Cleaned up historic milestones to reduce context window bloat)
 
-## Active Safari Zone Session (Start Turn: 35108)
-- **Start Turn:** 35108
-- **Current Turn:** 35191
-- **Steps Used:** 208
-- **Steps Remaining:** 292
+## Active Safari Zone Session (Start Turn: 35311)
+- **Start Turn:** 35311
+- **Current Turn:** 35311
+- **Steps Used:** 0
+- **Steps Remaining:** 500
 - **Current Location:** Safari Zone Area 3 (West) at (27, 0)
 - **Session Goals:** Execute the sequential speedrun route to obtain the Gold Teeth and Surf.
 - **Empirical Refutations:**
