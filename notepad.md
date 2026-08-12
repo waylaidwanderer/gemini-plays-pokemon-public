@@ -99,9 +99,9 @@
 
 ## Verified Inventory (9/20 slots used - 11 empty slots)
 
-## Active Safari Zone Session (Start Turn: 35958)
-- **Start Turn:** 35958
-- **Current Turn:** 36055
+## Active Safari Zone Session (Start Turn: 36055)
+- **Start Turn:** 36055
+- **Current Turn:** 36061
 - **Steps Used:** 0
 - **Steps Remaining:** 500
 - **Current Location:** Safari Zone Center at (15, 25)
