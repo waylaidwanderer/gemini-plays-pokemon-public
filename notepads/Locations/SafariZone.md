@@ -173,3 +173,11 @@ We have empirically verified that Column 28 is 100% OPEN and walkable on Rows 12
 - **Column 5 Shrub Barrier (Area 2 North):** Continuous dark green hedge/shrub wall from Row 20 to Row 33, completely blocking direct ground-horizontal crossing.
 - **Row 34/35 Statue Barriers (Area 2 North):** Row 34 is blocked by statues across Columns 4-7 and Columns 10-11, with a walkable gap on Columns 8-9. Row 35 is blocked by statues at `(7, 35)` and `(10, 35)`.
 - **Row 4 Column 26 Ledge (Area 3 West):** Solid horizontal ledge at `(26, 4)` preventing direct ground-level downward passage from `(26, 3)`.
+
+### Newly Verified Physical Boundaries & Collisions (Turns 36253-36283)
+- **Column 11 Row 9 Water (Area 2 North):** Solid water tile on Row 9 Column 11, blocking direct horizontal passage on Row 9 (Turn 36253).
+- **Row 4 Column 11-15 Tree Wall (Area 2 North):** Solid pine tree wall running horizontally across Columns 11-15 on Row 4, blocking vertical passage (Turn 36260).
+- **Column 7 Vertical Corridor (Area 2 North):** Completely open and walkable vertical corridor on Column 7 from Row 2 to Row 10, connecting the northern ground to the southern ground (Turn 36277).
+- **Column 4 Row 14 Cliff face (Area 2 North):** Solid brown cliff face on Row 14 Column 4, blocking downward traversal on Column 4 (Turn 36282).
+- **Columns 0-3 Northwest Ground (Area 2 North):** Completely open and walkable grass area on Columns 0-3 from Row 13 to Row 35 (Turn 36282).
+- **Transition at Column 3 Row 36 (Area 2 North):** Transition on the bottom row of the Northwest compartment of Area 2 (North) warps the player directly to Area 3 (West) at `(21, 0)` (Turn 36283).
