@@ -52,29 +52,35 @@ def run_path(path):
     return True
 
 def main():
-    print("=== WALKING VIA COLUMN 30 TO WARDEN'S HOUSE ===")
+    print("=== DIALOGUE SEQUENCE WITH THE WARDEN ===")
     pos = get_pos()
     print("Starting position:", pos)
     
-    # We are at (27, 30) in Fuchsia City.
+    # We are at (4, 7) inside the Warden's House.
     # Route:
-    # 1. Walk Right to Column 30 -> (30, 30) (3 steps Right)
-    # 2. Walk Up Column 30 to Row 28 -> (30, 28) (2 steps Up)
-    # 3. Walk Left along Row 28 to Column 27 -> (27, 28) (3 steps Left)
-    # 4. Walk Up to enter Warden's House! (up to 2 steps)
+    # 1. Walk Up to Row 4 -> (4, 4) (3 steps Up)
+    # 2. Walk Left to Column 2 -> (2, 4) (2 steps Left)
+    # 3. Walk Up to face Warden at (2, 3) (1 step Up)
     path = (
-        ["Right"] * 3 +
-        ["Up"] * 2 +
-        ["Left"] * 3 +
-        ["Up"] * 2
+        ["Up"] * 3 +
+        ["Left"] * 2 +
+        ["Up"]
     )
-    
     if run_path(path):
-        print("Successfully reached and entered Warden's House!")
+        print("Aligned in front of the Warden! Interacting...")
+        # Press A to start talking
+        bridge.press_buttons(["A"])
         time.sleep(1.0)
-        print("Final Position:", get_pos())
+        
+        # Press A/B multiple times to progress dialogue and give Gold Teeth -> receive HM04
+        for i in range(12):
+            print(f"Dialogue step {i+1}...")
+            bridge.press_buttons(["A"])
+            time.sleep(1.2)
+            
+        print("Dialogue sequence completed!")
     else:
-        print("Failed to reach Warden's House!")
+        print("Failed to reach the Warden!")
 
 if __name__ == "__main__":
     main()
