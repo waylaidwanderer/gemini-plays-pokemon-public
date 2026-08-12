@@ -84,19 +84,22 @@ def run_path(path, check_warp=False):
     return True
 
 def main():
-    print("=== STARTING THE MASTER TEETH THEN SURF PLAN FROM CURRENT POSITION ===")
+    print("=== STARTING THE MASTER TEETH THEN SURF PLAN FROM CURRENT POSITION (16, 20) ===")
     
     pos = get_pos()
     print("Starting position:", pos)
     
-    # We are currently at (17, 23) in Area 3 (West)
-    if pos == (17, 23):
+    # We are currently at (16, 20) in Area 3 (West)
+    if pos == (16, 20):
         print("=== STAGE 0: WALKING BACK ACROSS PLATEAU TO TRANSITION ===")
         path_to_warp_back = [
-            "Up",                                                            # to (17, 22) (1 step Up)
-            "Left",                                                          # to (16, 22) (1 step Left)
-            "Up", "Up", "Up", "Up", "Up", "Up",                              # to (16, 16) (6 steps Up - climbs stairs)
-            "Right", "Right", "Right", "Right", "Right",                     # to (21, 16) (5 steps Right)
+            "Left", "Left", "Left", "Left", "Left", "Left", "Left",
+            "Left", "Left", "Left",                                          # to (6, 20) (10 steps Left)
+            "Up",                                                            # to (6, 19) (1 step Up - climbs stairs)
+            "Up", "Up", "Up",                                                # to (6, 16) (3 steps Up - onto plateau)
+            "Right", "Right", "Right", "Right", "Right", "Right", "Right",
+            "Right", "Right", "Right", "Right", "Right", "Right", "Right",
+            "Right",                                                         # to (21, 16) (15 steps Right)
             "Down", "Down",                                                  # to (21, 18) (2 steps Down)
             "Right", "Right", "Right", "Right",                              # to (25, 18) (4 steps Right)
             "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up",
@@ -128,21 +131,6 @@ def main():
     if pos is not None and pos[0] == 26 and pos[1] == 0:
         print("=== STAGE 2: WALKING TO GOLD TEETH IN AREA 3 ===")
         # Walk down Column 21 all the way to Row 24 on the southern ground level
-        path_to_teeth = [
-            "Down", "Down", "Down",                                           # to (26, 3) (3 steps Down)
-            "Left",                                                           # to (25, 3) (1 step Left)
-            "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down",
-            "Down", "Down", "Down", "Down", "Down", "Down", "Down",           # to (25, 18) (15 steps Down)
-            "Left", "Left", "Left", "Left",                                   # to (21, 18) (4 steps Left)
-            "Down", "Down", "Down", "Down", "Down", "Down",                  # to (21, 24) (6 steps Down)
-            "Left", "Left",                                                   # to (19, 24) (2 steps Left)
-            "Down", "Down",                                                   # to (19, 26) (2 steps Down)
-            "Left", "Left"                                                    # to (17, 26) (Wait, Gold Teeth are at (19, 25)!)
-        ]
-        # Wait, Gold Teeth are at (19, 25).
-        # To stand below them: we need to stand at (19, 26) facing Up!
-        # So we only need to walk to (19, 26)!
-        # Let's fix the path_to_teeth list to end at (19, 26):
         path_to_teeth = [
             "Down", "Down", "Down",                                           # to (26, 3)
             "Left",                                                           # to (25, 3)
