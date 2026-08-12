@@ -68,7 +68,7 @@
 ## Major Exploration Phases and Timestamps
 - (Cleaned up historic milestones to reduce context window bloat)
 
-## Active Safari Zone Session Info (Logged Turn 36571)
+
 - **Start Turn:** 36556
 - **Current Turn:** 36571
 - **Current Location:** Safari Zone Area 2 (North) at (39, 31)
