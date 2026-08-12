@@ -88,15 +88,15 @@ def run_path(path, check_warp=False):
     return True
 
 def run_plateau():
-    # We are currently at (18, 32) on the ground in Area 2 North
+    # We are currently at (20, 25) on the ground in Area 2 North
     
-    # 1. Path to climb the Western Southern Plateau at (22, 23)
+    # 1. Path to climb the Western Southern Plateau at (22, 23) and cross on Row 22
     path_to_climb = []
-    path_to_climb.append("Up")       # to (18, 31)
-    path_to_climb.extend(["Right"] * 4) # to (22, 31)
-    path_to_climb.extend(["Up"] * 8)    # to (22, 23) (climb stairs)
-    path_to_climb.extend(["Left"] * 6)  # to (16, 23) on Plateau
-    path_to_climb.extend(["Down"] * 5)  # to (16, 28) on ground (descend stairs at 16, 27)
+    path_to_climb.extend(["Right"] * 2) # to (22, 25)
+    path_to_climb.extend(["Up"] * 2)    # to (22, 23) (climb stairs)
+    path_to_climb.append("Up")          # to (22, 22) (flat plateau)
+    path_to_climb.extend(["Left"] * 6)  # to (16, 22) on Plateau
+    path_to_climb.extend(["Down"] * 6)  # to (16, 28) on ground (descend stairs at 16, 27)
 
     # 2. Path on ground to northwest transition at (4, 36)
     path_to_transition = []
@@ -109,7 +109,7 @@ def run_plateau():
     path_to_house.extend(["Down"] * 8)   # to (3, 8)
     path_to_house.append("Up")           # to enter Secret House!
 
-    print("--- STAGE 1: Climbing and Descending Western Southern Plateau ---")
+    print("--- STAGE 1: Climbing and Descending Western Southern Plateau on Row 22 ---")
     if not run_path(path_to_climb, check_warp=False):
         return False
         
