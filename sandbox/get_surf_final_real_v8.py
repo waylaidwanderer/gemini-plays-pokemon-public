@@ -100,12 +100,13 @@ def run_surf_campaign_final_real():
     pos_area2 = None
     path_across_area2 = []
     
-    if pos[0] == 18 and pos[1] == 32:
-        print("Starting from (18, 32) inside Area 2. Walking to Plateau...")
-        # 1. Walk Up to Row 31 to avoid Row 32 blockages
-        path_across_area2.append("Up")                  # to (18, 31)
+    if pos[0] == 18 and (pos[1] == 32 or pos[1] == 33):
+        print(f"Starting from {pos} inside Area 2. Walking to Plateau...")
+        # 1. Walk Up to Row 31 to avoid Row 32/33 blockages
+        if pos[1] > 31:
+            path_across_area2.extend(["Up"] * (pos[1] - 31))  # to (18, 31)
         # 2. Walk Right to Column 22
-        path_across_area2.extend(["Right"] * 4)          # to (22, 31)
+        path_across_area2.extend(["Right"] * 4)          # to (22, 31)          # to (22, 31)
         # 3. Walk Up to Row 24
         path_across_area2.extend(["Up"] * 7)            # to (22, 24)
         # 4. Climb East Stairs onto Plateau
