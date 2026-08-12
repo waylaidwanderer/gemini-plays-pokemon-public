@@ -4,6 +4,9 @@ import sys
 
 sys.stdout.reconfigure(encoding='utf-8')
 
+# Global button count tracker to prevent exceeding 100 limit
+button_press_count = 0
+
 def get_pos():
     for _ in range(4):
         pos = bridge.get_coordinates()
@@ -12,66 +15,127 @@ def get_pos():
         bridge.press_buttons(["sleep 50"])
     return None
 
+def press_buttons_tracked(buttons):
+    global button_press_count
+    # Count buttons that are not sleeps
+    real_buttons = [b for f in buttons for b in [f] if b != "sleep" and not b.startswith("sleep")]
+    button_press_count += len(real_buttons)
+    if button_press_count > 95:
+        print(f"Approaching button limit! Count is {button_press_count}. Aborting script to prevent crash.")
+        sys.exit(0)
+    bridge.press_buttons(buttons)
+
 def handle_battle():
     print("Wild battle detected! Escaping...")
     # Escapes from Safari Zone battle
-    bridge.press_buttons(["B", "sleep 300", "B", "sleep 300"])
+    press_buttons_tracked(["B", "sleep 300", "B", "sleep 300"])
     escape_sequence = [
         "Down", "sleep 200",
         "Right", "sleep 200",
         "A", "sleep 1500"
     ]
-    bridge.press_buttons(escape_sequence)
+    press_buttons_tracked(escape_sequence)
     for _ in range(3):
-        bridge.press_buttons(["B", "sleep 200"])
-    bridge.press_buttons(["sleep 500"])
+        press_buttons_tracked(["B", "sleep 200"])
+    press_buttons_tracked(["sleep 500"])
 
-def main():
-    print("=== FAST STEP BURNING TO EXIT SAFARI ZONE ===")
-    
-    # We are currently at (19, 24) in Area 3 (West).
-    # First, let's walk back to (0, 11) in Safari Zone Center to be safe from grass and walls.
-    # Path: Right to (21, 24) -> Right 2 steps.
-    # Up to (21, 23) -> Up 1 step.
-    # Right to (30, 23) -> Right 9 steps (transition to Center at (0, 11)).
+def walk_step_robust(direction):
     pos = get_pos()
-    print("Starting pos:", pos)
+    if pos is None:
+        handle_battle()
+        return None
+        
+    press_buttons_tracked([direction])
     
-    if pos == (19, 24):
-        print("Walking to transition...")
-        path = ["Right", "Right", "Up", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right"]
-        for step in path:
-            curr = get_pos()
-            if curr is None:
-                handle_battle()
-                continue
-            bridge.press_buttons([step])
-            bridge.press_buttons(["sleep 150"])
+    for _ in range(5):
+        press_buttons_tracked(["sleep 100"])
+        new_pos = get_pos()
+        if new_pos is None:
+            handle_battle()
+            return None
+        if new_pos != pos:
+            return new_pos
             
-    # Now we are inside Center, likely around (0, 11) or (1, 11)
-    # Let's burn the remaining steps by walking back and forth between Column 1 and Column 2 on Row 11.
-    print("Burning remaining steps...")
-    step_toggle = True
-    
-    # We will press buttons up to 90 times per script execution to stay under the 100 limit.
-    for i in range(85):
+    print(f"Bumping/stuck at {pos} walking {direction}!")
+    return pos
+
+def run_path(path):
+    idx = 0
+    stuck_count = 0
+    while idx < len(path):
         pos = get_pos()
         if pos is None:
             handle_battle()
             continue
             
-        # If we get warped out, pos will be inside the Gatehouse (around (4, 3))
+        # If we warped out, stop
         if pos[1] < 10 or pos[0] > 10:
-            # We warped out!
+            print(f"We have warped out of Safari Zone! Position is {pos}")
+            sys.exit(0)
+            
+        print(f"Step {idx}: At {pos}, walking {path[idx]}... Total Buttons: {button_press_count}")
+        new_pos = walk_step_robust(path[idx])
+        
+        if new_pos is None:
+            continue
+            
+        if new_pos == pos:
+            time.sleep(0.5)
+            check_pos = get_pos()
+            if check_pos is None:
+                handle_battle()
+                stuck_count = 0
+                continue
+            stuck_count += 1
+            print(f"Stuck at {pos}! Stuck count: {stuck_count}")
+            if stuck_count > 3:
+                print("Stuck! Pressing B and retrying...")
+                press_buttons_tracked(["B", "sleep 300"])
+                stuck_count = 0
+        else:
+            stuck_count = 0
+            idx += 1
+    return True
+
+def main():
+    print("=== RELIABLE STEP BURNING BY WALKING A CORRIDOR ===")
+    
+    pos = get_pos()
+    print("Starting pos:", pos)
+    if pos is None:
+        handle_battle()
+        pos = get_pos()
+        if pos is None:
+            return
+            
+    # We are inside Center Northwest Compartment.
+    # Columns 1 to 5 on Row 11 are open grass.
+    # Let's walk to Column 1 first if needed
+    if pos[0] > 1 and pos[1] == 11:
+        path_to_start = ["Left"] * (pos[0] - 1)
+        if not run_path(path_to_start):
+            print("Failed to align to Column 1")
+            return
+            
+    # Now we walk back and forth between Column 1 and Column 5 (4 steps each way)
+    # This will consume 8 steps per cycle, ensuring they are actual steps!
+    cycle_path = ["Right"] * 4 + ["Left"] * 4
+    
+    print("Walking corridor to burn steps...")
+    # Run cycles until we hit button limit
+    while True:
+        pos = get_pos()
+        if pos is None:
+            handle_battle()
+            continue
+            
+        if pos[1] < 10 or pos[0] > 10:
             print(f"We have warped out of Safari Zone! Position is {pos}")
             break
             
-        direction = "Right" if step_toggle else "Left"
-        bridge.press_buttons([direction])
-        bridge.press_buttons(["sleep 150"])
-        step_toggle = not step_toggle
-        
-    print("Step burning cycle completed. Current position:", get_pos())
+        if not run_path(cycle_path):
+            print("Failed cycle path!")
+            break
 
 if __name__ == "__main__":
     main()
