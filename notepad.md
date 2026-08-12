@@ -1208,16 +1208,17 @@ Systematically probe every potential building doorway and alleyway warp in South
 # Game Corner Interior Empirical Testing Log
 
 ## Single-Stepping Tile Passability Protocol (Turn 51091)
-- Current Position: (5, 4) facing Right in Celadon Game Corner.
+- Current Position: (5, 3) facing Right in Celadon Game Corner.
 - Goal: Systematically test tile passability 1 step at a time across Columns 3 through 9 to reach East Casino floor (x>=10).
 - Rules: Never issue 'Down' while at y=7 (exit mat). Always verify tile passability before issuing multi-step macros.
 
 ## Verified Tile Log
 - (3, 7) / (4, 7): Exit mats (warps outside if 'Down' is pressed).
 - (3, 6) / (4, 6): Open carpet.
-- (3, 5), (4, 5), (5, 5), (5, 4): Open carpet.
+- (3, 5), (4, 5), (5, 5), (5, 4), (5, 3): Open carpet.
 - (6, 5): Solid brown slot machine counter (bumped turn 51072).
-- Testing (6, 4) from (5, 4).
+- (6, 4): Solid brown slot machine counter (bumped turn 51094).
+- Testing (6, 3) from (5, 3).
 
 <hr>
 
@@ -1405,18 +1406,17 @@ Systematically probe every potential building doorway and alleyway warp in South
 
 # Game Corner Interior Empirical Testing Log
 
-## Single-Stepping Tile Passability Protocol (Turn 51091)
+## Single-Stepping Tile Passability Protocol (Turn 51095)
 - Current Position: (5, 3) facing Right in Celadon Game Corner.
-- Goal: Systematically test tile passability 1 step at a time across Columns 3 through 9 to reach East Casino floor (x>=10).
-- Rules: Never issue 'Down' while at y=7 (exit mat). Always verify tile passability before issuing multi-step macros.
-
-## Verified Tile Log
-- (3, 7) / (4, 7): Exit mats (warps outside if 'Down' is pressed).
-- (3, 6) / (4, 6): Open carpet.
-- (3, 5), (4, 5), (5, 5), (5, 4), (5, 3): Open carpet.
-- (6, 5): Solid brown slot machine counter (bumped turn 51072).
-- (6, 4): Solid brown slot machine counter (bumped turn 51094).
-- Testing (6, 3) from (5, 3).
+- Verified Column 6 Barrier:
+  - (6, 0): Solid brown wall (bumped turn 51080)
+  - (6, 1): Open carpet, but (7, 1) is solid urn statue (bumped turn 51076)
+  - (6, 2): Solid brown slot machine counter
+  - (6, 3): Solid brown slot machine counter (bumped turn 51095)
+  - (6, 4): Solid brown slot machine counter (bumped turn 51094)
+  - (6, 5): Solid brown slot machine counter (bumped turn 51072)
+  - (6, 6): Solid brown slot machine counter
+- Conclusion: West Slot Aisle (x=0..6) is an enclosed bay. Exiting via south exit mat (3, 7) to outdoor Celadon City to enter Main East Casino floor via door (18, 21) / (30, 19).
 
 <hr>
 
