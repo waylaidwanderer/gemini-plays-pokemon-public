@@ -36,8 +36,6 @@ def walk_step_robust(direction):
             return new_pos
             
     print(f"Bumping/stuck at {pos} walking {direction}!")
-    # Check if we transitioned maps (coordinates became None)
-    # If not, try to escape battle just in case
     handle_battle()
     # Retry walking
     print(f"Retrying: walking {direction}...")
@@ -64,11 +62,9 @@ def run_path(path, check_warp=False):
         new_pos = walk_step_robust(path[idx])
         
         if new_pos is None:
-            # We transitioned or entered a battle
             time.sleep(0.5)
             new_pos = get_pos()
             if new_pos is None:
-                # If we are checking for warp, this is success!
                 if check_warp:
                     print("SUCCESS! Transition occurred!")
                     return True
@@ -84,7 +80,6 @@ def run_path(path, check_warp=False):
         else:
             stuck_count = 0
             idx += 1
-            # If checking for warp and we see a large coordinate jump
             if check_warp:
                 dist = abs(new_pos[0] - pos[0]) + abs(new_pos[1] - pos[1])
                 if dist > 5:
@@ -97,9 +92,9 @@ def run_speedrun():
     
     # 1. Path in Center: To Area 1 East at (0, 23)
     path_center = []
-    path_center.append("Up")       # to (15, 24)
-    path_center.extend(["Right"] * 13) # to (28, 24)
-    path_center.extend(["Up"] * 13)    # to (28, 11)
+    path_center.extend(["Up"] * 4)     # to (15, 21)
+    path_center.extend(["Right"] * 13) # to (28, 21)
+    path_center.extend(["Up"] * 10)    # to (28, 11)
     path_center.extend(["Right"] * 2)  # to (30, 11) (transition!)
     
     # 2. Path in Area 1 East: To Area 2 North at (39, 31)
