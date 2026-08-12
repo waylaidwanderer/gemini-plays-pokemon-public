@@ -69,33 +69,39 @@ def run_path(path, check_warp=False):
     return True
 
 def main():
-    print("=== CONTINUING TO SAFARI ZONE GATEHOUSE FROM BUSH ===")
-    
-    # First, dismiss the "TRUFFLE hacked away with CUT!" text box
-    print("Dismissing CUT text box...")
-    bridge.press_buttons(["A", "sleep 600"])
+    print("=== EXECUTING detoured path around NPC at (24, 8) ===")
     
     pos = get_pos()
-    print("Position after text box dismiss:", pos)
-    
-    # Path from (26, 14) through the cut bush to the Safari Gatehouse
-    path_from_bush = (
-        ["Up"] * 5 +                                                      # to (26, 9)
-        ["Left"] * 7 +                                                     # to (19, 9)
-        ["Up"] * 1 +                                                      # to (19, 8)
-        ["Right"] * 18 +                                                   # to (37, 8)
-        ["Up"] * 6 +                                                       # to (37, 2)
-        ["Left"] * 19 +                                                    # to (18, 2)
-        ["Down"]                                                          # to (18, 3) (Gatehouse warp)
+    print("Initial position:", pos)
+    if pos != (23, 8):
+        print("Not at starting position (23, 8)!")
+        return
+        
+    # Detour around NPC at (24, 8):
+    # 1. Walk Down 1 step to (23, 9)
+    # 2. Walk Right 3 steps to (26, 9)
+    # 3. Walk Up 1 step to (26, 8)
+    # 4. Walk Right 11 steps to (37, 8)
+    # 5. Walk Up 6 steps to (37, 2)
+    # 6. Walk Left 19 steps to (18, 2)
+    # 7. Walk Down 1 step to enter the Gatehouse at (18, 3) (Gatehouse warp)
+    detour_path = (
+        ["Down"] * 1 +
+        ["Right"] * 3 +
+        ["Up"] * 1 +
+        ["Right"] * 11 +
+        ["Up"] * 6 +
+        ["Left"] * 19 +
+        ["Down"]
     )
     
-    if run_path(path_from_bush, check_warp=True):
+    if run_path(detour_path, check_warp=True):
         print("Successfully reached Safari Zone Gatehouse!")
         time.sleep(1.0)
         pos = get_pos()
         print("Inside Gatehouse position:", pos)
     else:
-        print("Failed to reach Safari Zone Gatehouse from bush!")
+        print("Failed to reach Safari Zone Gatehouse from detour!")
 
 if __name__ == "__main__":
     main()
