@@ -84,7 +84,7 @@ def run_path(path, check_warp=False):
     return True
 
 def main():
-    print("=== RESUMING SURF MASTER PLAN (V13) FROM (20, 22) ===")
+    print("=== RESUMING SURF MASTER PLAN (V13) FROM (20, 6) ===")
     
     # 1. Escape the wild battle first
     handle_battle()
@@ -94,23 +94,11 @@ def main():
     pos = get_pos()
     print("Position after battle escape:", pos)
     
-    # We are currently in Area 1 (East) at (20, 22)
-    if pos == (20, 22):
+    # We are currently in Area 1 (East) at (20, 6)
+    if pos == (20, 6):
         print("=== STEP 2 RESUME: NAVIGATING AREA 1 CORRIDOR ===")
-        # Walk Up 2 steps to (20, 20), then continue standard corridor route
         path_area1 = [
-            "Up", "Up",                         # to (20, 20) (climbs stairs)
-            "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", # to (12, 20)
-            "Down", "Down",                     # to (12, 22) (descends stairs)
-            "Left", "Left", "Left",             # to (9, 22)
-            "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up",
-            "Up", "Up", "Up", "Up",             # to (9, 8) (14 steps Up)
-            "Right", "Right", "Right",          # to (12, 8)
-            "Up", "Up",                         # to (12, 6) (climbs stairs)
-            "Right", "Right", "Right", "Right", "Right", # to (17, 6)
-            "Down", "Down",                     # to (17, 8) (descends stairs)
-            "Right", "Right", "Right",          # to (20, 8)
-            "Up", "Up", "Up",                   # to (20, 5)
+            "Up",                               # to (20, 5)
             "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
             "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
             "Left", "Left", "Left", "Left",     # to (0, 5) (Warp!) (20 steps Left)
