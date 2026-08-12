@@ -161,8 +161,8 @@ def run_chunk():
     while buttons_pressed < MAX_BUTTONS_PER_RUN:
         pos = get_pos()
         if pos is None:
-            run_away()
-            continue
+            print("Dialogue or battle detected! Exiting chunk safely.")
+            return True
             
         cx, cy = pos
         last_idx = load_last_idx()
