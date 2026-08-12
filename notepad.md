@@ -99,8 +99,6 @@
 
 ## Verified Inventory (9/20 slots used - 11 empty slots)
 
-
-
 - **In-Game Verification:** Verified on Turn 27754 (PACK audited inside Safari Rest House 3).
 - **Moon Stone:** 2 (1 stack)
 - **HM01 (Cut):** 1
@@ -118,6 +116,13 @@
 - (Cleaned up historic milestones to reduce context window bloat)
 
 
+
+
+## Active Safari Zone Session Info (Logged Turn 36421)
+- **Start Turn:** 36378
+- **Current Turn:** 36421
+- **Current Location:** Safari Zone Area 3 (West) at (6, 21)
+- **Estimated Steps Remaining:** ~458 steps (of 500)
 
 
 <hr>
