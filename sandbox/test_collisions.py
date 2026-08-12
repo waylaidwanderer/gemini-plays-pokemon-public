@@ -22,7 +22,7 @@ def walk_and_return(direction, opposite):
     return False
 
 def test_all():
-    print("Testing all directions from (27, 24)...")
+    print("Testing all directions from (8, 24)...")
     # Test LEFT
     test_left = walk_and_return("Left", "Right")
     # Test RIGHT
