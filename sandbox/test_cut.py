@@ -2,7 +2,6 @@ import bridge
 import time
 import sys
 import mgba
-from PIL import Image
 
 sys.stdout.reconfigure(encoding='utf-8')
 
