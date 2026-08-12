@@ -1,38 +1,36 @@
-import importlib.util
+import marshal
 import os
-import sys
+import types
 
-def inspect_module(path):
-    print(f"=== Inspecting {path} ===")
+def is_coordinate_tuple(item):
+    return (isinstance(item, tuple) and len(item) == 2 and 
+            isinstance(item[0], int) and isinstance(item[1], int) and
+            0 <= item[0] <= 40 and 0 <= item[1] <= 40)
+
+def extract_flat_consts(co_obj):
+    coords = []
+    if hasattr(co_obj, "co_consts"):
+        for const in co_obj.co_consts:
+            if is_coordinate_tuple(const):
+                coords.append(const)
+            elif isinstance(const, types.CodeType):
+                coords.extend(extract_flat_consts(const))
+    return coords
+
+def inspect_pyc(path):
+    print(f"=== Flat Coords in {path} ===")
     try:
-        # Load the .pyc file as a module
-        name = os.path.basename(path).split(".")[0]
-        spec = importlib.util.spec_from_file_location(name, path)
-        module = importlib.util.module_from_spec(spec)
-        spec.loader.exec_module(module)
-        
-        # Check for ROUTE variable
-        if hasattr(module, "ROUTE"):
-            route = getattr(module, "ROUTE")
-            print(f"  Found ROUTE with length: {len(route)}")
-            print(f"  First 35 coordinates: {route[:35]}")
-            # print transitions if any
-            for i, coord in enumerate(route):
-                if i > 0:
-                    prev = route[i-1]
-                    dist = abs(coord[0] - prev[0]) + abs(coord[1] - prev[1])
-                    if dist > 5:
-                        print(f"  Transition at index {i}: {prev} -> {coord}")
-        else:
-            print("  No ROUTE variable found.")
-            # Print public attributes
-            attrs = [attr for attr in dir(module) if not attr.startswith("__")]
-            print(f"  Attributes: {attrs}")
+        with open(path, "rb") as f:
+            f.read(16)
+            code_obj = marshal.load(f)
+            coords = extract_flat_consts(code_obj)
+            print(f"  Found {len(coords)} flat coordinate tuples:")
+            print(coords)
     except Exception as e:
         print(f"  Error: {e}")
 
 if __name__ == "__main__":
     pyc_dir = "__pycache__"
     for f in os.listdir(pyc_dir):
-        if f.endswith(".pyc"):
-            inspect_module(os.path.join(pyc_dir, f))
+        if "complete_speedrun_v5" in f and f.endswith(".pyc"):
+            inspect_pyc(os.path.join(pyc_dir, f))
