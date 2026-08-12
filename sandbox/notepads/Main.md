@@ -1,4 +1,4 @@
-## CURRENT STATUS & DASHBOARD (Turn 51444)
+## CURRENT STATUS & DASHBOARD (Turn 51445)
 - Location: Celadon Game Corner at (4, 2).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
 - Active Objective: Walk Up 2 to Row 0 entrance mat cross-aisle (4, 0), step Right 1 to (5, 0) to navigate towards Column 6/17 and Rocket Grunt at poster switch.
