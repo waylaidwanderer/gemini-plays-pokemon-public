@@ -106,8 +106,12 @@ def run_surf_campaign():
         path_area2.extend(["Up"] * 6)      # to Row 22: (15, 22) (ground)
         path_area2.extend(["Left"] * 11)   # to Column 4 on Row 22: (4, 22) (bypassing Column 5 shrub wall!)
         path_area2.extend(["Down"] * 14)  # to Row 36: (4, 36) (transition!)
+    elif pos is not None and pos[0] == 15 and pos[1] == 28:
+        path_area2.extend(["Up"] * 6)      # to Row 22: (15, 22) (ground)
+        path_area2.extend(["Left"] * 11)   # to Column 4 on Row 22: (4, 22) (bypassing Column 5 shrub wall!)
+        path_area2.extend(["Down"] * 14)  # to Row 36: (4, 36) (transition!)
     else:
-        print(f"Error: Not at expected starting position (22, 26). Position is: {pos}")
+        print(f"Error: Not at expected starting position (22, 26) or (15, 28). Position is: {pos}")
         return False
         
     print("=== STAGE 4: Walking Area 2 to Southwest Transition ===")
