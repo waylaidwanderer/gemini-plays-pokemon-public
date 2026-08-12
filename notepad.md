@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 51459)
-- Location: Rocket Hideout B1F at (2, 29).
+## CURRENT STATUS & DASHBOARD (Turn 51460)
+- Location: Rocket Hideout B1F at (2, 17).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Ascend Column 2 Control Highway North 12 steps to (2, 17) towards y=3 to explore lower B1F/B2F floor connections.
+- Active Objective: Ascend Column 2 Control Highway North 14 steps to (2, 3) at top of highway to explore B1F floor exit / B2F staircase connections.
 - Persistent Facts:
   - Arrived in Rocket Hideout B1F at (2, 41) via secret staircase (4, 4).
   - Column 2 (x=2) is the continuous Control Highway of stop tiles spanning y=3..41 (no spinning).
@@ -750,13 +750,14 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 51460)
-- Location: Rocket Hideout B1F at (2, 17).
+## CURRENT STATUS & DASHBOARD (Turn 51461)
+- Location: Rocket Hideout B1F at (2, 3).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Ascend Column 2 Control Highway North 14 steps to (2, 3) at top of highway to explore B1F floor exit / B2F staircase connections.
+- Active Objective: Descend Column 2 Control Highway South 38 steps to staircase (2, 41) to exit enclosed West Loop, return to outdoor Celadon City, and enter True Main Casino door at (30, 34) to defeat Rocket Grunt and activate secret poster switch.
 - Persistent Facts:
-  - Arrived in Rocket Hideout B1F at (2, 41) via secret staircase (4, 4).
-  - Column 2 (x=2) is the continuous Control Highway of stop tiles spanning y=3..41 (no spinning).
+  - Enclosed West Loop (Cols 2..5, y=3..41) is a closed local loop; stairs (2, 41) connect back to Celadon City (17, 27).
+  - True Main Rocket Hideout is entered via outdoor Celadon City door (30, 34)/(30, 35) -> defeat Rocket Grunt on North Wall -> press A on poster switch to reveal true secret staircase.
+  - Column 2 (x=2) in West Loop is a continuous highway of stop tiles spanning y=3..41 (no spinning).
 
 <hr>
 
