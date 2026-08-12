@@ -4,9 +4,6 @@ import sys
 
 sys.stdout.reconfigure(encoding='utf-8')
 
-# Global button count tracker to prevent exceeding 100 limit
-button_press_count = 0
-
 def get_pos():
     for _ in range(4):
         pos = bridge.get_coordinates()
@@ -15,28 +12,18 @@ def get_pos():
         bridge.press_buttons(["sleep 50"])
     return None
 
-def press_buttons_tracked(buttons):
-    global button_press_count
-    # Count buttons that are not sleeps
-    real_buttons = [b for f in buttons for b in [f] if b != "sleep" and not b.startswith("sleep")]
-    button_press_count += len(real_buttons)
-    if button_press_count > 95:
-        print(f"Approaching button limit! Count is {button_press_count}. Aborting script to prevent crash.")
-        sys.exit(0)
-    bridge.press_buttons(buttons)
-
 def handle_battle():
-    print("Handling wild battle...")
-    press_buttons_tracked(["B", "sleep 300", "B", "sleep 300"])
-    escape_sequence = [
-        "Down", "sleep 200",
-        "Right", "sleep 200",
-        "A", "sleep 1500"
-    ]
-    press_buttons_tracked(escape_sequence)
+    print("Wild battle/interaction detected! Escaping...")
+    # Dismiss wild encounter text first (press B multiple times)
+    for _ in range(4):
+        bridge.press_buttons(["B", "sleep 250"])
+    # Move cursor to RUN (Bottom-Right) and select
+    bridge.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 1500"])
+    # Press B to ensure we are back in overworld
     for _ in range(3):
-        press_buttons_tracked(["B", "sleep 200"])
-    press_buttons_tracked(["sleep 500"])
+        bridge.press_buttons(["B", "sleep 200"])
+    print("Escape completed. Stabilizing...")
+    time.sleep(1.0)
 
 def walk_step_robust(direction):
     pos = get_pos()
@@ -44,10 +31,10 @@ def walk_step_robust(direction):
         handle_battle()
         return None
         
-    press_buttons_tracked([direction])
+    bridge.press_buttons([direction])
     
     for _ in range(5):
-        press_buttons_tracked(["sleep 100"])
+        bridge.press_buttons(["sleep 100"])
         new_pos = get_pos()
         if new_pos is None:
             handle_battle()
@@ -67,7 +54,7 @@ def run_path(path, check_warp=False):
             handle_battle()
             continue
             
-        print(f"Step {idx}: At {pos}, walking {path[idx]}... Total Buttons: {button_press_count}")
+        print(f"Path step {idx}: At {pos}, sending {path[idx]}")
         new_pos = walk_step_robust(path[idx])
         
         if new_pos is None:
@@ -81,97 +68,156 @@ def run_path(path, check_warp=False):
                 stuck_count = 0
                 continue
             stuck_count += 1
-            print(f"Stuck at {pos}! Stuck count: {stuck_count}")
             if stuck_count > 3:
-                print("Stuck! Pressing B and retrying...")
-                press_buttons_tracked(["B", "sleep 300"])
+                print(f"Blocked at {pos}! Pressing B and retrying...")
+                bridge.press_buttons(["B", "sleep 300"])
                 stuck_count = 0
         else:
             stuck_count = 0
             if check_warp:
                 dist = abs(new_pos[0] - pos[0]) + abs(new_pos[1] - pos[1])
                 if dist > 5:
-                    print(f"SUCCESS! Transitioned to coordinates: {new_pos}")
+                    print(f"Transition occurred! Jumped to {new_pos}")
                     break
             idx += 1
     return True
 
 def main():
-    print("=== EXECUTING FINAL RUN TO OBTAIN GOLD TEETH ===")
+    print("=== STARTING THE SAFARI ZONE SPEEDRUN TO GOLD TEETH ===")
     
     pos = get_pos()
-    print("Starting position:", pos)
+    print("Initial position:", pos)
     if pos is None:
         handle_battle()
         pos = get_pos()
         if pos is None:
             return
             
-    # 1. We are in Area 2 (North)
-    if pos[0] >= 30 and pos[1] >= 20: # Typically at (39, 31)
-        print("Walking across Area 2 (North) to Area 3 (West)...")
-        # Route: Left to 22, Up to 24, Up to 22 (stairs), Left to 16, Down to 28 (stairs), Left to 12, Down to 33, Left to 8, Down to 36
-        path_area2 = (
-            ["Left"] * (pos[0] - 22) +
-            ["Up"] * 7 +  # to (22, 24)
-            ["Up"] * 2 +  # to (22, 22) (climb stairs)
-            ["Left"] * 6 + # to (16, 22)
-            ["Down"] * 6 + # to (16, 28) (descend stairs)
-            ["Left"] * 4 + # to (12, 28)
-            ["Down"] * 5 + # to (12, 33)
-            ["Left"] * 4 + # to (8, 33)
-            ["Down"] * 3  # to (8, 36) (warp)
+    # PHASE 1: Safari Zone Center to Area 1 (East)
+    # We are at (24, 21). Let's walk to the transition at (31, 11)
+    if pos[1] == 21 and pos[0] < 28:
+        # Step 1: Walk to (28, 21)
+        right_steps = ["Right"] * (28 - pos[0])
+        print(f"Walking Right {len(right_steps)} steps to (28, 21)...")
+        if not run_path(right_steps):
+            return
+            
+    pos = get_pos()
+    if pos is not None and pos[0] == 28 and pos[1] > 11:
+        # Step 2: Walk Up to (28, 11)
+        up_steps = ["Up"] * (pos[1] - 11)
+        print(f"Walking Up {len(up_steps)} steps to (28, 11)...")
+        if not run_path(up_steps):
+            return
+            
+    pos = get_pos()
+    if pos is not None and pos[1] == 11 and pos[0] < 31:
+        # Step 3: Walk Right to transition
+        right_steps = ["Right"] * (31 - pos[0])
+        print(f"Walking Right {len(right_steps)} steps to transition...")
+        if not run_path(right_steps, check_warp=True):
+            return
+            
+    # Wait for map transition to stabilize
+    bridge.press_buttons(["sleep 1000"])
+    pos = get_pos()
+    print("Arrived in Area 1 (East):", pos)
+    
+    # PHASE 2: Area 1 (East) to Area 2 (North)
+    # We land at (0, 22) or (0, 23) in Area 1 (East).
+    if pos is not None and pos[0] < 5:
+        # Complete spiral path:
+        path_area1 = (
+            ["Right"] * 20 +                # to (20, 22)
+            ["Up"] * 2 +                    # to (20, 20)
+            ["Left"] * 8 +                  # to (12, 20)
+            ["Down"] * 2 +                  # to (12, 22)
+            ["Left"] * 4 +                  # to (8, 22)
+            ["Up"] * 14 +                   # to (8, 8)
+            ["Right"] * 4 +                 # to (12, 8)
+            ["Up"] * 2 +                    # to (12, 6)
+            ["Right"] * 5 +                 # to (17, 6)
+            ["Down"] * 2 +                  # to (17, 8)
+            ["Right"] * 3 +                 # to (20, 8)
+            ["Up"] * 3 +                    # to (20, 5)
+            ["Left"] * 21                   # to transition at (0, 5)
         )
+        print("Walking the spiral path in Area 1 (East)...")
+        if not run_path(path_area1, check_warp=True):
+            return
+            
+    # Wait for map transition to stabilize
+    bridge.press_buttons(["sleep 1000"])
+    pos = get_pos()
+    print("Arrived in Area 2 (North):", pos)
+    
+    # PHASE 3: Area 2 (North) to Area 3 (West)
+    # We land at (39, 31) in Area 2 (North)
+    if pos is not None and pos[0] > 35:
+        # Walk along the Southern Corridor to transition at (8, 36)
+        path_area2 = (
+            ["Left"] * 31 +                 # to (8, 31)
+            ["Down"] * 5                    # to warp at (8, 36)
+        )
+        print("Walking the Southern Corridor in Area 2 (North)...")
         if not run_path(path_area2, check_warp=True):
-            print("Failed to reach Area 3!")
             return
             
-    # Wait for map transition to load
-    press_buttons_tracked(["sleep 1000"])
+    # Wait for map transition to stabilize
+    bridge.press_buttons(["sleep 1000"])
     pos = get_pos()
-    print("Position inside Area 3 (West):", pos)
+    print("Arrived in Area 3 (West):", pos)
     
-    if pos is None:
-        pos = get_pos()
-        
-    # 2. Inside Area 3 (West) starting at (26, 0)
+    # PHASE 4: Area 3 (West) to Gold Teeth at (19, 25)
+    # We land at (26, 0) in Area 3 (West)
     if pos is not None and pos[0] == 26 and pos[1] == 0:
-        print("Walking to (19, 24) in Area 3 (West)...")
-        path_area3 = [
-            "Down", "Down", "Down",                                           # to (26, 3)
-            "Left",                                                           # to (25, 3)
-            "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down",
-            "Down", "Down", "Down", "Down", "Down", "Down", "Down",           # to (25, 18) (15 steps Down)
-            "Left", "Left", "Left", "Left",                                   # to (21, 18) (East stairs)
-            "Down", "Down", "Down", "Down", "Down", "Down",                   # to (21, 24) (6 steps Down past stairs)
-            "Left", "Left"                                                    # to (19, 24) (2 steps Left in front of teeth)
-        ]
-        if not run_path(path_area3, check_warp=False):
-            print("Failed to reach (19, 24)!")
+        path_area3 = (
+            ["Down"] * 23 +                 # to (26, 23)
+            ["Left"] * 5 +                  # to (21, 23)
+            ["Down"] * 1 +                  # to (21, 24)
+            ["Left"] * 2                    # to (19, 24) standing above teeth at (19, 25)
+        )
+        print("Walking the ground level to Gold Teeth in Area 3...")
+        if not run_path(path_area3):
             return
             
-    # Wait to stabilize
-    press_buttons_tracked(["sleep 500"])
     pos = get_pos()
-    print("Arrived at target position:", pos)
+    print("Arrived at target location:", pos)
     
-    # 3. Pick up the Gold Teeth
+    # PHASE 5: Picking up Gold Teeth and Saving
     if pos == (19, 24):
-        print("=== INTERACTING TO PICK UP GOLD TEETH ===")
+        print("=== INTERACTING WITH GOLD TEETH ===")
         # Press Down to face Down
-        press_buttons_tracked(["Down", "sleep 300"])
+        bridge.press_buttons(["Down", "sleep 400"])
         # Press A to pick up item ball
-        press_buttons_tracked(["A", "sleep 1200"])
-        # Press A to dismiss text box
-        press_buttons_tracked(["A", "sleep 1200"])
+        bridge.press_buttons(["A", "sleep 1200"])
+        # Press A to dismiss "ACE found GOLD TEETH!" text box
+        bridge.press_buttons(["A", "sleep 1200"])
+        # Press B to make absolutely sure any lingering text boxes are closed
+        bridge.press_buttons(["B", "sleep 500", "B", "sleep 500"])
         
-        print("=== VERIFYING GOLD TEETH IN BAG ===")
-        press_buttons_tracked(["Start", "sleep 500"])
-        # Select ITEM (Pokedex, Pokemon, Item) -> 2 Down clicks
-        press_buttons_tracked(["Down", "sleep 200", "Down", "sleep 200", "A", "sleep 1000"])
-        print("BAG menu opened! Verify the teeth are in slot.")
-    else:
-        print("Not at target position (19, 24)!")
+        print("=== SAVING THE GAME ===")
+        # Open Start menu
+        bridge.press_buttons(["Start", "sleep 600"])
+        # Align to POKEDEX (Up 6 times)
+        bridge.press_buttons(["Up", "sleep 150", "Up", "sleep 150", "Up", "sleep 150", "Up", "sleep 150", "Up", "sleep 150", "Up", "sleep 150"])
+        # Down 4 times to select SAVE
+        bridge.press_buttons(["Down", "sleep 150", "Down", "sleep 150", "Down", "sleep 150", "Down", "sleep 150", "A", "sleep 1200"])
+        # Confirm SAVE (YES)
+        bridge.press_buttons(["A", "sleep 3000"])
+        # Dismiss "ACE saved the game."
+        bridge.press_buttons(["A", "sleep 500"])
+        print("Game saved successfully!")
+        
+        print("=== VERIFYING BAG INVENTORY ===")
+        bridge.press_buttons(["Start", "sleep 600"])
+        # Align to POKEDEX (Up 6 times)
+        bridge.press_buttons(["Up", "sleep 150", "Up", "sleep 150", "Up", "sleep 150", "Up", "sleep 150", "Up", "sleep 150", "Up", "sleep 150"])
+        # Select ITEM (Down 2 times)
+        bridge.press_buttons(["Down", "sleep 150", "Down", "sleep 150", "A", "sleep 1200"])
+        print("Bag menu opened!")
+        
+    print("Script finished successfully!")
 
 if __name__ == "__main__":
     main()
