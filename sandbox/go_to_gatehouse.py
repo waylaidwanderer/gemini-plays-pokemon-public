@@ -52,18 +52,24 @@ def run_path(path):
     return True
 
 def main():
-    print("=== NAVIGATING TO GATEHOUSE (FINAL REAL) ===")
+    print("=== NAVIGATING DETOUR TO GATEHOUSE ===")
     pos = get_pos()
     print("Starting position:", pos)
     
-    # We are at (22, 14) in Fuchsia City.
-    # Route:
-    # 1. Walk Right along Row 14 to Column 37 -> (37, 14) (15 steps Right)
-    # 2. Walk Up Column 37 to Row 2 -> (37, 2) (12 steps Up)
-    # 3. Walk Left along Row 2 to Column 18 -> (18, 2) (19 steps Left)
-    # 4. Walk Down 1 step to enter Gatehouse -> (18, 3) (1 step Down - enter!)
+    # We are at (29, 14) in Fuchsia City.
+    # Detour around NPC at (30, 14):
+    # 1. Walk Down to (29, 15) (1 step Down)
+    # 2. Walk Right to (31, 15) (2 steps Right)
+    # 3. Walk Up to Row 14 -> (31, 14) (1 step Up)
+    # 4. Walk Right to Column 37 -> (37, 14) (6 steps Right)
+    # 5. Walk Up Column 37 to Row 2 -> (37, 2) (12 steps Up)
+    # 6. Walk Left along Row 2 to Column 18 -> (18, 2) (19 steps Left)
+    # 7. Walk Down 1 step to enter Gatehouse -> (18, 3) (1 step Down)
     path = (
-        ["Right"] * 15 +
+        ["Down"] +
+        ["Right"] * 2 +
+        ["Up"] +
+        ["Right"] * 6 +
         ["Up"] * 12 +
         ["Left"] * 19 +
         ["Down"]
