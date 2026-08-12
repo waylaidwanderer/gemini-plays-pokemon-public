@@ -67,11 +67,11 @@ path_stage2a = [
     "Left", "Left", "Left", "Left" # (12, 22) -> (8, 22) (4 steps)
 ]
 
-# Stage 2b: Area 1 (East) Northern Plateau Crossing (27 steps)
+# Stage 2b from (8, 9) to (17, 8) (14 steps)
 path_stage2b = [
-    "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", # (8, 22) -> (8, 7) (15 steps)
+    "Up", "Up", # (8, 9) -> (8, 7) (2 steps)
     "Right", "Right", "Right", "Right", # (8, 7) -> (12, 7) (4 steps)
-    "Up", # climb stairs to (12, 6)
+    "Up", # climb Northern Plateau to (12, 6) (1 step)
     "Right", "Right", "Right", "Right", "Right", # (12, 6) -> (17, 6) (5 steps)
     "Down", "Down" # descend stairs to (17, 8) (2 steps)
 ]
