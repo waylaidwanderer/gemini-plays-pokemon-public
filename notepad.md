@@ -1265,7 +1265,7 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 
 ### 🔍 Verified Area 3 (West) Landmarks & Paths
 - **Gold Teeth:** NOT in Area 3 (West). It is located in Safari Zone Center (East Compartment) at `(19, 25)`, reached via the Area 3 to Center warp transition.
-- **The Secret House:** Located on the western ground level. The verified entrance door (doormat) is at `(11, 11)`. The player stands at `(11, 12)` facing UP and presses UP to enter, which warps the player inside the Secret House at `(2, 7)`.
+- **The Secret House:** Located on the western ground level. The verified entrance door (doormat) is at `(3, 8)`. The player stands at `(3, 9)` facing UP and presses UP to enter, which warps the player inside the Secret House at `(2, 7)`.
 - **Southwest Area:** Walked Column 3 from Row 20 up to Row 14 (`(3, 20)` to `(3, 14)`), proving `(3, 19)` and `(3, 18)` are walkable grass/trees with NO secret warp or door.
 - **Southern Passage Access:** The southern ground level (containing Row 24-28) is accessed from Column 21 on the east side. Walk south past the East Stairs on Column 21 to Row 24, and then walk west.
 - **The Row 26 Highway:** Row 26 is completely open and serves as a horizontal ground-level path connecting the eastern area (Column 19/21) to the western area (Columns 3-10), bypassing the hedge barriers on Rows 24 and 25.
@@ -1347,6 +1347,8 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 5. **The Pond & Rest House 1:** Completely block the middle-western ground level on Rows 10-15 across Columns 9-19.
 
 ### 🚫 Verified Obstacles & Collision Coordinates (Safari Zone Center)
+- **(28, 15):** Solid overworld pine tree blocking Column 28 vertical ground traversal.
+- **(29, 22):** Solid green circular shrub blocking Row 22 horizontal ground traversal on Column 29.
 - **(28, 15):** Solid overworld pine tree blocking Column 28 vertical ground traversal.
 - **(28, 23):** Ledge/blocked tile preventing direct southern descent on Column 28.
 - **(24, 12):** Plateau edge/blocked cliff preventing vertical descent from Row 12 to 11 on Column 24.
