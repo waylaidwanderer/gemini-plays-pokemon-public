@@ -20,18 +20,41 @@ def run_away():
 def walk_step(direction):
     bridge.press_buttons([direction, "sleep 400"])
 
-def go_to_surf():
-    print("=== WALKING TO SECRET HOUSE ===")
+def go_to_surf_complete():
+    print("=== EXECUTING COMPLETE SURF ACQUISITION ROUTE ===")
     
-    # We are at (2, 18)
-    # 1. Walk Right 9 times to (11, 18)
-    # 2. Walk Up 6 times to (11, 12)
-    # 3. Walk Up once more to enter the door at (11, 11)
+    # Path starting from (3, 18)
     path = []
-    path.extend(["Right"] * 9)
-    path.extend(["Up"] * 6)
-    path.extend(["Up"])
     
+    # 1. Walk down to Row 20
+    path.extend(["Down"] * 2) # To (3, 20)
+    
+    # 2. Walk Right to Column 21
+    path.extend(["Right"] * 18) # To (21, 20)
+    
+    # 3. Walk Up to (21, 18)
+    path.extend(["Up"] * 2) # To (21, 18)
+    
+    # 4. Climb onto the plateau at (21, 16)
+    path.extend(["Up"] * 2) # To (21, 16) (East Stairs)
+    
+    # 5. Walk on the plateau to (6, 16)
+    path.extend(["Up"] * 2)    # To (21, 14)
+    path.extend(["Left"] * 6)  # To (15, 14)
+    path.extend(["Down"] * 2)  # To (15, 16)
+    path.extend(["Left"] * 10) # To (5, 16)
+    path.extend(["Right"])     # To (6, 16)
+    
+    # 6. Descend West Stairs to (6, 20)
+    path.extend(["Down"] * 4)  # To (6, 20) (West Stairs)
+    
+    # 7. Walk to the Secret House doormat (11, 12)
+    path.extend(["Right"] * 5) # To (11, 20)
+    path.extend(["Up"] * 8)    # To (11, 12)
+    
+    # 8. Enter the Secret House
+    path.extend(["Up"]) # To (11, 11)
+
     idx = 0
     while idx < len(path):
         pos = get_pos()
@@ -47,9 +70,7 @@ def go_to_surf():
             time.sleep(0.5)
             new_pos = get_pos()
             if new_pos is None:
-                # We might have transitioned inside the Secret House!
-                # Inside the Secret House, the map name or coordinates change drastically.
-                print("Warp detected! We are inside the Secret House!")
+                print("SUCCESS! Transitioned inside the Secret House!")
                 return True
                 
         if new_pos == pos:
@@ -59,11 +80,11 @@ def go_to_surf():
         # Check if we transitioned maps (large coordinate jump)
         dist = abs(new_pos[0] - pos[0]) + abs(new_pos[1] - pos[1])
         if dist > 5:
-            print(f"SUCCESS! Transitioned to: {new_pos}")
+            print(f"SUCCESS! Transitioned to coordinates: {new_pos}")
             return True
             
         idx += 1
     return True
 
 if __name__ == "__main__":
-    go_to_surf()
+    go_to_surf_complete()
