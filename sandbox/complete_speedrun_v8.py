@@ -13,9 +13,11 @@ ROUTE = [
     (15, 25), (15, 24), (15, 23), (15, 22),
     (16, 22), (17, 22), (18, 22), (19, 22), (20, 22), (21, 22), (22, 22), (23, 22), (24, 22),
     (25, 22), (26, 22), (27, 22),
-    (27, 24), # Jumps down the Row 23 ledge
-    (27, 25), (27, 26), # Bypasses Row 25 Rhydon statues through grass
-    (28, 26), (29, 26), (30, 26), # Walk right on row 26
+    (27, 23),
+    (28, 23),
+    (28, 25), # Jumps down the Row 23 ledge on Column 28
+    (28, 26),
+    (29, 26), (30, 26), # Walk right on row 26
     (30, 25), (30, 24), (30, 23), (30, 22), (30, 21), (30, 20), (30, 19), (30, 18), (30, 17), (30, 16), (30, 15), (30, 14), (30, 13), (30, 12), (30, 11), # Walk up column 30
     (29, 11), # Walk left to align for horizontal transition
     (30, 11), # Walk right to transition
