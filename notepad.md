@@ -101,12 +101,11 @@
 
 ## Active Safari Zone Session (Start Turn: 35958)
 - **Start Turn:** 35958
-- **Current Turn:** 35986
-- **Steps Used:** ~115
-- **Steps Remaining:** ~385
-- **Current Location:** Safari Zone Area 2 (North) at (18, 32)
+- **Current Turn:** 36036
+- **Steps Used:** 248
+- **Steps Remaining:** 252
+- **Current Location:** Safari Zone Area 3 (West) at (26, 0)
 - **Session Goals:** Retrieve BOTH the Gold Teeth and HM03 (Surf) in this single run.
-
 
 - **In-Game Verification:** Verified on Turn 27754 (PACK audited inside Safari Rest House 3).
 - **Moon Stone:** 2 (1 stack)
