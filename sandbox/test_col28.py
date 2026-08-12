@@ -1,5 +1,5 @@
-import time
 import bridge
+import time
 
 def get_pos():
     pos = bridge.get_coordinates()
@@ -7,47 +7,46 @@ def get_pos():
         return None
     return pos[0], pos[1]
 
-def run_away():
-    print("Wild battle/interaction detected! Executing RUN sequence...")
-    for _ in range(4):
-        bridge.press_buttons(["B", "sleep 250"])
-    bridge.press_buttons(["Right", "sleep 250", "Down", "sleep 250", "A", "sleep 1200"])
-    bridge.press_buttons(["B", "sleep 300"])
-
-def walk_step(direction):
-    bridge.press_buttons([direction, "sleep 400"])
-
-def test_col28():
-    # Currently at (19, 12)
-    print("Walking from (19, 12) to (28, 16)...")
+def walk_up_col28():
+    print("Starting Column 28 upward probe...")
+    stuck_count = 0
+    target_y = 10
     
-    # 1. Walk Down to row 16
-    for _ in range(4):
-        walk_step("Down")
-        print(f"Pos: {get_pos()}")
+    while True:
+        pos = get_pos()
+        if pos is None:
+            print("Dialogue or battle detected! Exiting safely.")
+            return True
+            
+        cx, cy = pos
+        print(f"Current position: ({cx}, {cy})")
         
-    # 2. Walk Right to column 28
-    for _ in range(9):
-        walk_step("Right")
-        print(f"Pos: {get_pos()}")
-        
-    # We should be at (28, 16)
-    pos = get_pos()
-    print(f"Arrived at: {pos}")
-    if pos != (28, 16):
-        print("Failed to reach (28, 16).")
-        return
-        
-    # 3. Walk UP column 28 and print positions
-    print("Testing UP column 28...")
-    for i in range(7):
-        cx, cy = get_pos()
-        walk_step("Up")
-        pos_after = get_pos()
-        print(f"Step {i}: before=({cx}, {cy}), after={pos_after}")
-        if pos_after == (cx, cy):
-            print(f"BLOCKED at ({cx}, {cy})!")
+        if cy == target_y:
+            print("REACHED ROW 10! The ground corridor to the East is open!")
             break
+            
+        if cy < target_y:
+            print("Overshot target row!")
+            break
+            
+        # Walk 1 step Up
+        print("Walking Up...")
+        bridge.press_buttons(["Up", "sleep 350"])
+        
+        new_pos = get_pos()
+        if new_pos is None:
+            print("Dialogue or battle detected after movement! Exiting safely.")
+            return True
+            
+        ncx, ncy = new_pos
+        if ncx == cx and ncy == cy:
+            stuck_count += 1
+            print(f"Stuck! Didn't move from ({cx}, {cy}). Stuck count: {stuck_count}")
+            if stuck_count > 3:
+                print("Stuck too long. Blocked by solid obstacle or battle started. Exiting safely.")
+                return True
+        else:
+            stuck_count = 0
 
 if __name__ == "__main__":
-    test_col28()
+    walk_up_col28()
