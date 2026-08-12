@@ -18,40 +18,33 @@ def walk_step(direction):
     bridge.press_buttons([direction, "sleep 400"])
 
 def test_col8_route():
-    # Currently at (19, 12) on the Plateau.
-    # 1. Walk back to ground level at (24, 16)
-    print("Walking back to ground level...")
-    # Walk Right to Column 24
-    for _ in range(5):
-        walk_step("Right")
-        print(f"Pos: {get_pos()}")
-        
-    # Walk Down stairs
-    for _ in range(4):
+    # Currently at (24, 16) on the ground.
+    print("Walking down Column 24 to Row 22...")
+    for _ in range(6):
         walk_step("Down")
         print(f"Pos: {get_pos()}")
         
     pos = get_pos()
-    print(f"Back on ground: {pos}")
-    if pos != (24, 16):
-        print("Failed to reach (24, 16).")
+    print(f"At Row 22: {pos}")
+    if pos[1] != 22:
+        print("Failed to reach Row 22.")
         return
         
-    # 2. Walk Left along Row 16 to Column 8
+    # Walk Left along Row 22 to Column 8
     print("Walking Left to Column 8...")
     for _ in range(16):
         walk_step("Left")
         print(f"Pos: {get_pos()}")
         
     pos = get_pos()
-    print(f"At column 8: {pos}")
+    print(f"At Column 8: {pos}")
     if pos[0] != 8:
         print("Failed to reach Column 8.")
         return
         
-    # 3. Walk UP Column 8 to Row 10
+    # Walk UP Column 8 to Row 10
     print("Walking UP Column 8...")
-    for _ in range(10):
+    for _ in range(12):
         pos = get_pos()
         if pos[1] == 10:
             break
@@ -59,12 +52,12 @@ def test_col8_route():
         print(f"Pos: {get_pos()}")
         
     pos = get_pos()
-    print(f"At row 10: {pos}")
+    print(f"At Row 10: {pos}")
     if pos != (8, 10):
         print("Failed to reach (8, 10).")
         return
         
-    # 4. Walk RIGHT along Row 10 to Column 30
+    # Walk RIGHT along Row 10 to Column 30
     print("Walking RIGHT along Row 10...")
     for _ in range(25):
         pos = get_pos()
