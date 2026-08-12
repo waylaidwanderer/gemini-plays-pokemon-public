@@ -101,6 +101,13 @@ def main():
         if pos is None:
             return
             
+    # If we are currently at (21, 7), walk to (20, 8) first
+    if pos == (21, 7):
+        print("Walking from (21, 7) to (20, 8)...")
+        if not run_path(["Left", "Down"]):
+            return
+            
+    pos = get_pos()
     # PHASE 1: Complete Area 1 (East)
     # 1a. If at (11, 22) or similar on southern ground
     if pos is not None and pos[1] == 22 and pos[0] <= 12 and pos[0] > 8:
@@ -157,13 +164,28 @@ def main():
     pos = get_pos()
     # 1h. If at (20, 8)
     if pos is not None and pos[0] == 20 and pos[1] == 8:
-        print("Walking Up to Row 5...")
-        if not run_path(["Up"] * 3):
+        print("Walking Up to Row 3...")
+        if not run_path(["Up"] * 5):
             return
             
     pos = get_pos()
-    # 1i. If on Row 5 (Northeastern corridor) heading left to transition
-    if pos is not None and pos[1] == 5 and pos[0] <= 20 and pos[0] > 0:
+    # 1i. If on Row 3 (Northeastern corridor) heading left to Column 7
+    if pos is not None and pos[1] == 3 and pos[0] <= 20 and pos[0] > 7:
+        left_steps = ["Left"] * (pos[0] - 7)
+        print(f"Walking Left {len(left_steps)} steps to (7, 3)...")
+        if not run_path(left_steps):
+            return
+            
+    pos = get_pos()
+    # 1j. If at (7, 3)
+    if pos is not None and pos[0] == 7 and pos[1] == 3:
+        print("Walking Down to Row 5...")
+        if not run_path(["Down"] * 2):
+            return
+            
+    pos = get_pos()
+    # 1k. If on Row 5 (columns 0-7) heading left to transition
+    if pos is not None and pos[1] == 5 and pos[0] <= 7 and pos[0] > 0:
         left_steps = ["Left"] * pos[0]
         print(f"Walking Left {len(left_steps)} steps to transition...")
         if not run_path(left_steps, check_warp=True):
