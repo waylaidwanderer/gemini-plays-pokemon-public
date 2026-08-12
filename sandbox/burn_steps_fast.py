@@ -1,25 +1,37 @@
 import bridge
 
-def burn_fast():
-    # Start at (20, 24)
-    # 1. Walk Right to (21, 24) (2 actions)
-    # 2. Walk Left to (17, 24) (8 actions)
-    # 3. Walk Right to (21, 24) (8 actions)
-    # We can repeat the Left-Right sequence 5 times.
-    # Total actions: 2 + 5 * 16 = 82 actions.
-    # Total steps: 1 + 5 * 8 = 41 steps.
+def burn_fast_safe():
+    # Start at current position
+    # Let's read current coordinates
+    pos = bridge.get_coordinates()
+    if pos is None:
+        print("Could not get position.")
+        return
+    cx, cy = pos
+    print(f"Starting at: ({cx}, {cy})")
     
-    buttons = ["Right", "sleep 150"]
-    for _ in range(5):
-        # 4 steps Left
-        buttons.extend(["Left", "sleep 150"] * 4)
-        # 4 steps Right
-        buttons.extend(["Right", "sleep 150"] * 4)
-        
-    print(f"Sending sequence of {len(buttons)} button actions to burn {1 + 5*8} steps...")
+    # We will burn exactly 30 steps (60 actions)
+    # Each step is either Left or Right depending on where we are
+    buttons = []
+    curr_x = cx
+    direction = "Right" if cx == 17 else "Left"
+    
+    for _ in range(30):
+        if curr_x == 17:
+            direction = "Right"
+        elif curr_x == 21:
+            direction = "Left"
+            
+        buttons.extend([direction, "sleep 150"])
+        if direction == "Right":
+            curr_x += 1
+        else:
+            curr_x -= 1
+            
+    print(f"Sending sequence of {len(buttons)} actions to burn 30 steps safely...")
     res = bridge.press_buttons(buttons)
     print(f"Response: {res}")
     print(f"New coordinates: {bridge.get_coordinates()}")
 
 if __name__ == "__main__":
-    burn_fast()
+    burn_fast_safe()
