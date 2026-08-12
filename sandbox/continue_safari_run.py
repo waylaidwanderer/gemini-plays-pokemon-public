@@ -101,10 +101,11 @@ def main():
         if pos is None:
             return
             
-    # 1. Walk to Row 26 in Area 3 (West)
+    # 1. Walk from (21, 24) to Row 26 via Column 18
     if pos == (21, 24):
-        print("Walking to Row 26...")
-        if not run_path(["Right", "Down", "Down"]):
+        print("Walking to Row 26 via Column 18...")
+        path_to_highway = ["Left", "Left", "Left", "Down", "Down"]
+        if not run_path(path_to_highway):
             return
             
     pos = get_pos()
