@@ -69,39 +69,58 @@ def run_path(path, check_warp=False):
     return True
 
 def main():
-    print("=== EXECUTING detoured path around NPC at (24, 8) ===")
+    print("=== ENTERING GATEHOUSE AND ENTERING SAFARI ZONE ===")
     
     pos = get_pos()
     print("Initial position:", pos)
-    if pos != (23, 8):
-        print("Not at starting position (23, 8)!")
+    if pos != (22, 2):
+        print("Not at starting position (22, 2)!")
         return
         
-    # Detour around NPC at (24, 8):
-    # 1. Walk Down 1 step to (23, 9)
-    # 2. Walk Right 3 steps to (26, 9)
-    # 3. Walk Up 1 step to (26, 8)
-    # 4. Walk Right 11 steps to (37, 8)
-    # 5. Walk Up 6 steps to (37, 2)
-    # 6. Walk Left 19 steps to (18, 2)
-    # 7. Walk Down 1 step to enter the Gatehouse at (18, 3) (Gatehouse warp)
-    detour_path = (
-        ["Down"] * 1 +
-        ["Right"] * 3 +
-        ["Up"] * 1 +
-        ["Right"] * 11 +
-        ["Up"] * 6 +
-        ["Left"] * 19 +
-        ["Down"]
-    )
+    # 1. Walk from (22, 2) into the Gatehouse at (18, 3)
+    gatehouse_entry_path = ["Down", "Down", "Left", "Left", "Left", "Left", "Up"]
+    if not run_path(gatehouse_entry_path, check_warp=True):
+        print("Failed to enter Gatehouse!")
+        return
+        
+    # Wait for map transition to load
+    time.sleep(1.0)
+    pos = get_pos()
+    print("Position inside Gatehouse:", pos)
     
-    if run_path(detour_path, check_warp=True):
-        print("Successfully reached Safari Zone Gatehouse!")
+    # 2. Inside the Gatehouse, align in front of the clerk counter
+    # Typically we are at (4, 5) upon entering
+    if pos is not None and abs(pos[0] - 4) <= 1 and abs(pos[1] - 5) <= 1:
+        # Align to (4, 5) if needed, or just walk UP to (4, 3)
+        print("Walking to clerk...")
+        clerk_path = ["Up", "Up"]
+        if not run_path(clerk_path):
+            print("Failed to reach clerk counter!")
+            return
+            
+        pos = get_pos()
+        print("At clerk counter:", pos)
+        
+        # Ensure we face UP to talk to the clerk
+        bridge.press_buttons(["Up", "sleep 300"])
+        
+        # 3. Talk to clerk and buy ticket
+        print("Talking to clerk to enter Safari Zone...")
+        bridge.press_buttons(["A", "sleep 1200"])
+        
+        # Dialogue sequence to pay 500 and enter
+        for i in range(8):
+            print(f"Dialogue step {i+1}...")
+            bridge.press_buttons(["A", "sleep 1200"])
+            
         time.sleep(1.0)
         pos = get_pos()
-        print("Inside Gatehouse position:", pos)
-    else:
-        print("Failed to reach Safari Zone Gatehouse from detour!")
+        print("Warp position:", pos)
+        
+        if pos == (15, 25):
+            print("SUCCESSFULLY ENTERED SAFARI ZONE CENTER!")
+        else:
+            print("Did not warp. Current position:", pos)
 
 if __name__ == "__main__":
     main()
