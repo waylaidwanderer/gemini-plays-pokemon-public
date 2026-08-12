@@ -114,23 +114,20 @@
 ## Major Exploration Phases and Timestamps
 - (Cleaned up historic milestones to reduce context window bloat)
 
-## Active Safari Zone Session (Start Turn: 35479)
-- **Start Turn:** 35479
-- **Current Turn:** 35590
-- **Steps Used:** 334
-- **Steps Remaining:** 166
-- **Current Location:** Safari Zone Area 3 (West) at (16, 20)
-- **Session Goals:** Execute the fully optimized, 100% walkable speedrun route (ground-level bypass of Central Plateau via Column 28, and Southern Corridor of Area 2 to Area 3).
+## Active Safari Zone Session (Start Turn: 35655)
+- **Start Turn:** 35655
+- **Current Turn:** 35674
+- **Steps Used:** 61
+- **Steps Remaining:** 439
+- **Current Location:** Safari Zone Area 1 (East) at (12, 20)
+- **Session Goals:** Walk the 100% verified spiral route through Area 1 (East) to Area 2 (North), then enter the northwest ground of Area 3 (West) to obtain Surf!
 - **Empirical Refutations:**
-  - Bypassed the Central Plateau entirely. Verified Column 28 is 100% walkable and NOT blocked by trees on Turn 35165. This saved 22 steps.
-  - Verified Column 27 Row 24 contains a solid signpost, which blocks direct horizontal crossing from (26, 24) on the ground.
-  - Verified Column 23 on Row 24 can be traversed UP to Row 22/23 because there is no ledge line there.
-  - Safely escaped battles using the refined sequential speedrun script.
-  - Verified Column 11 has a solid Tree Wall on Rows 1-7 in Area 3 (West), blocking Row 1-7 horizontal crossing.
-  - Verified Column 18 has a solid Vertical Barrier on Rows 20-23 in Area 3 (West).
-  - Verified Column 21 at Row 8 has a pond shoreline block in Area 3 (West).
-  - Verified Column 12 at Row 8 has a pond shoreline block in Area 3 (West).
-  - Verified Row 9 has a solid Tree Wall on Columns 22-29 in Area 3 (West), forming an isolated northern ground-level compartment.
+  - Verified Column 28 in Center is 100% open and walkable, saving 22 steps.
+  - Verified Column 0 Row 16 and Row 20 are blocked by solid hedges/shrubs in Area 3 (West).
+  - Verified Column 1 Row 15 is blocked by a solid tree in Area 3 (West).
+  - Verified Column 2 Rows 12-13 are blocked by a solid cliff wall in Area 3 (West).
+  - Verified Column 3 Rows 12-13 are blocked by pond water in Area 3 (West).
+  - Verified Column 23 Rows 14-17 are blocked by a solid cliff face in Area 3 (West).
 
 
 <hr>
