@@ -101,97 +101,41 @@ def main():
         if pos is None:
             return
             
-    # If we are currently at (26, 3), walk the corrected path to Gold Teeth!
-    if pos == (26, 3):
-        path_area3_corrected = (
-            ["Left"] * 1 +                  # to (25, 3)
-            ["Down"] * 20 +                 # to (25, 23)
-            ["Left"] * 4 +                  # to (21, 23)
-            ["Down"] * 1 +                  # to (21, 24)
-            ["Left"] * 2                    # to (19, 24) standing above teeth
-        )
-        print("Walking the corrected ground level to Gold Teeth in Area 3...")
-        if not run_path(path_area3_corrected):
+    # 1. We are at (19, 24) in Area 3 (West).
+    # We must walk Down 2 to Row 26 -> (19, 26).
+    if pos == (19, 24):
+        print("Walking Down to Row 26...")
+        if not run_path(["Down", "Down"]):
             return
             
     pos = get_pos()
-    # If we are currently at (21, 24), walk to (22, 22) to get on the plateau
-    if pos == (21, 24):
-        print("Walking from (21, 24) to (22, 22) to get on the plateau...")
-        if not run_path(["Right", "Up", "Up"]):
-            return
-            
-    pos = get_pos()
-    # PHASE 1: Complete Area 1 (East) - skipped since we are in Area 2 (North) or 3 (West)
-    
-    # PHASE 2: Area 2 (North) to Area 3 (West)
-    # If we are currently at (18, 31) (or near it on the ground), we must backtrack to Column 22 and use the Plateau!
-    if pos is not None and pos[0] < 22 and pos[1] == 31:
-        right_steps = ["Right"] * (22 - pos[0])
-        print(f"Backtracking Right {len(right_steps)} steps to Column 22...")
-        if not run_path(right_steps):
-            return
-            
-    pos = get_pos()
-    if pos is not None and pos[0] == 22 and pos[1] == 31:
-        print("Walking Up Column 22 to the Plateau surface at (22, 22)...")
-        if not run_path(["Up"] * 9): # 9 steps Up to reach Row 22 (plateau surface)
-            return
-            
-    pos = get_pos()
-    if pos is not None and pos[0] == 22 and pos[1] == 22:
-        print("Walking Left across the Western Southern Plateau...")
-        if not run_path(["Left"] * 6):
-            return
-            
-    pos = get_pos()
-    if pos is not None and pos[0] == 16 and pos[1] == 22:
-        print("Walking Down Column 16 to descend Plateau stairs...")
-        if not run_path(["Down"] * 6): # 6 steps Down to descend from Row 22 to Row 28
-            return
-            
-    pos = get_pos()
-    if pos is not None and pos[0] == 16 and pos[1] == 28:
-        print("Walking Left and Down to Column 12...")
-        path_left = ["Left"] * 4 + ["Down"] * 5
-        if not run_path(path_left):
-            return
-            
-    pos = get_pos()
-    if pos is not None and pos[0] == 12 and pos[1] == 33:
-        print("Walking Left and Down to transition warp at (8, 36)...")
-        path_transition = ["Left"] * 4 + ["Down"] * 3
-        if not run_path(path_transition, check_warp=True):
+    # 2. Walk Right on Row 26 to transition to Safari Zone Center (NW Compartment)
+    if pos is not None and pos[1] == 26 and pos[0] < 30:
+        right_steps = ["Right"] * (31 - pos[0])
+        print(f"Walking Right {len(right_steps)} steps to transition into Center NW Compartment...")
+        if not run_path(right_steps, check_warp=True):
             return
             
     # Wait for map transition to stabilize
     bridge.press_buttons(["sleep 1000"])
     pos = get_pos()
-    print("Arrived in Area 3 (West):", pos)
+    print("Arrived in Safari Zone Center:", pos)
     
-    # PHASE 3: Area 3 (West) to Gold Teeth at (19, 25)
-    # We land at (26, 0) in Area 3 (West)
-    if pos is not None and pos[0] == 26 and pos[1] == 0:
-        path_area3 = (
-            ["Down"] * 3 +                  # to (26, 3)
-            ["Left"] * 1 +                  # to (25, 3)
-            ["Down"] * 20 +                 # to (25, 23)
-            ["Left"] * 4 +                  # to (21, 23)
-            ["Down"] * 1 +                  # to (21, 24)
-            ["Left"] * 2                    # to (19, 24) standing above teeth at (19, 25)
-        )
-        print("Walking the ground level to Gold Teeth in Area 3...")
-        if not run_path(path_area3):
+    # 3. Inside Center (NW Compartment)
+    # We land at (29, 26) or similar on Row 26.
+    # We must walk Left to Column 19 on Row 26 -> (19, 26).
+    if pos is not None and pos[1] == 26 and pos[0] > 19:
+        left_steps = ["Left"] * (pos[0] - 19)
+        print(f"Walking Left {len(left_steps)} steps to (19, 26)...")
+        if not run_path(left_steps):
             return
             
     pos = get_pos()
-    print("Arrived at target location:", pos)
-    
-    # PHASE 4: Picking up Gold Teeth and Saving
-    if pos == (19, 24):
-        print("=== INTERACTING WITH GOLD TEETH ===")
-        # Press Down to face Down
-        bridge.press_buttons(["Down", "sleep 400"])
+    # 4. Stand below Gold Teeth at (19, 25) (so player at 19, 26) and face UP
+    if pos == (19, 26):
+        print("=== STANDING BELOW GOLD TEETH, INTERACTING ===")
+        # Press Up to face Up towards Gold Teeth at (19, 25)
+        bridge.press_buttons(["Up", "sleep 400"])
         # Press A to pick up item ball
         bridge.press_buttons(["A", "sleep 1200"])
         # Press A to dismiss "ACE found GOLD TEETH!" text box
@@ -208,7 +152,7 @@ def main():
         bridge.press_buttons(["Down", "sleep 150", "Down", "sleep 150", "Down", "sleep 150", "Down", "sleep 150", "A", "sleep 1200"])
         # Confirm SAVE (YES)
         bridge.press_buttons(["A", "sleep 3000"])
-        # Dismiss \"ACE saved the game.\"
+        # Dismiss "ACE saved the game."
         bridge.press_buttons(["A", "sleep 500"])
         print("Game saved successfully!")
         
