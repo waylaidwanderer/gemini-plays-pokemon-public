@@ -15,8 +15,8 @@ def get_pos():
 def handle_battle():
     print("Wild battle/interaction detected! Escaping...")
     for _ in range(4):
-        bridge.press_buttons(["B", "sleep 200"])
-    bridge.press_buttons(["Down", "sleep 200", "Right", "sleep 200", "A", "sleep 1200"])
+        bridge.press_buttons(["B", "sleep 250"])
+    bridge.press_buttons(["Down", "sleep 250", "Right", "sleep 250", "A", "sleep 1200"])
     for _ in range(3):
         bridge.press_buttons(["B", "sleep 200"])
 
@@ -68,66 +68,49 @@ def run_path(path):
             idx += 1
     return True
 
-def scan_column5():
-    print("=== SCANNING COLUMN 5 GAPS ===")
+def test_column5_rows():
+    print("=== SCALING COLUMN 6 TO TEST COLUMN 5 ===")
     
-    # Currently at (7, 33).
-    # We will walk UP to Row 16 on Column 7.
-    # At each row, we will try to walk Left up to Column 4.
-    
-    # Let's walk UP to Row 16 on Column 7.
-    pos = get_pos()
-    steps_up = pos[1] - 16
-    print(f"Walking UP {steps_up} steps on Column 7...")
-    for _ in range(steps_up):
-        run_path(["Up"])
+    # 1. Walk Left to Column 6 from (7, 28) -> (6, 28)
+    if not run_path(["Left"]):
+        print("Failed to reach (6, 28).")
+        return
         
-    # Now we are at (7, 16). Let's scan DOWN from row 16 to 33
-    row = 16
-    while row <= 33:
-        # Move player to (7, row) if not already there
+    # We will test rows from row 28 up to 23, and then row 29
+    rows_to_test = [28, 27, 26, 25, 24, 23, 29]
+    for row in rows_to_test:
         pos = get_pos()
+        # Move to (6, row)
         if pos[1] != row:
             if pos[1] < row:
                 run_path(["Down"] * (row - pos[1]))
             else:
                 run_path(["Up"] * (pos[1] - row))
                 
-        # Try to walk Left to Column 4
-        print(f"Probing LEFT on Row {row}...")
-        stuck = False
         pos = get_pos()
-        steps_left = pos[0] - 4
-        for _ in range(steps_left):
+        print(f"Testing LEFT on row {pos[1]} at {pos}...")
+        curr_pos = get_pos()
+        new_pos = walk_step_robust("Left")
+        if new_pos is None:
+            handle_battle()
+            new_pos = get_pos()
+            
+        if new_pos[0] == 5:
+            print(f"=== SUCCESS! Column 5 is open on Row {row}! Landed at {new_pos} ===")
+            # Walk Left to Column 4
+            walk_step_robust("Left")
             curr_pos = get_pos()
-            new_pos = walk_step_robust("Left")
-            if new_pos is None:
-                handle_battle()
-                new_pos = get_pos()
-            if new_pos == curr_pos:
-                print(f"BLOCKED at {curr_pos} walking Left!")
-                stuck = True
-                break
-                
-        if not stuck:
-            print(f"=== SUCCESS! FOUND OPEN PATH TO COL 4 ON ROW {row} ===")
+            print("Landed at:", curr_pos)
             # Walk Down to (4, 36) to transition!
-            curr_pos = get_pos()
             down_steps = 36 - curr_pos[1]
             print(f"Walking Down {down_steps} steps to transition...")
             run_path(["Down"] * down_steps)
             return True
+        else:
+            print(f"Row {row} is BLOCKED on Column 5.")
             
-        # Walk back to Column 7 if we moved
-        pos = get_pos()
-        if pos[0] < 7:
-            print(f"Returning to Col 7...")
-            run_path(["Right"] * (7 - pos[0]))
-            
-        row += 1
-        
-    print("Scan completed. No open gap found on Column 5 from Row 16 to 33!")
+    print("All tested rows on Column 5 are blocked.")
     return False
 
 if __name__ == "__main__":
-    scan_column5()
+    test_column5_rows()
