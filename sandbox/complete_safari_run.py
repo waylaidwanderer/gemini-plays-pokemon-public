@@ -84,16 +84,11 @@ path_stage2c = [
     "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left" # (7, 5) -> warp (8 steps)
 ]
 
-# Stage 3: Area 2 (North) to Area 3 (West) at (27, 0) via (9, 36) (35 steps)
+# Stage 3 from (22, 32) to Area 3 (West) (17 steps)
 path_stage3 = [
-    # Warp in at (39, 31). Walk Left to (22, 31) (17 steps Left)
-    "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
-    # Walk Down to (22, 33) (2 steps Down)
-    "Down", "Down",
-    # Walk Left to (9, 33) (13 steps Left)
-    "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
-    # Walk Down to (9, 36) (3 steps Down - Warp to (27, 0) in Area 3!)
-    "Down", "Down", "Down"
+    "Down", # (22, 32) -> (22, 33) (1 step)
+    "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", # (22, 33) -> (9, 33) (13 steps)
+    "Down", "Down", "Down" # (9, 33) -> (9, 36) (warp) (3 steps)
 ]
 
 # Stage 4: Area 3 (West) Ascent and Descent (54 steps)
