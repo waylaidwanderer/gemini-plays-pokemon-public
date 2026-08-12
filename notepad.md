@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 51427)
-- Location: Celadon City at (27, 30).
+## CURRENT STATUS & DASHBOARD (Turn 51428)
+- Location: Celadon City at (25, 30).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Walk West 10 steps along Row 30 South Street to Column 17 at (17, 30), North 17 steps along Column 17 to door (17, 13) to enter Main Casino Floor.
+- Active Objective: Walk West 8 steps along Row 30 South Street to Column 17 at (17, 30), North 17 steps along Column 17 to door (17, 13) to enter Main Casino Floor.
 - Persistent Facts:
   - NPC at (7, 6) blocks door (7, 5) ("What do you want? Get lost!").
   - Celadon Game Corner door (17, 13) is accessed via Column 17 (x=17, y=13..28) from Row 30 South Street Highway.
@@ -753,10 +753,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 51428)
-- Location: Celadon City at (25, 30).
+## CURRENT STATUS & DASHBOARD (Turn 51429)
+- Location: Celadon City at (23, 30).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Walk West 8 steps along Row 30 South Street to Column 17 at (17, 30), North 17 steps along Column 17 to door (17, 13) to enter Main Casino Floor.
+- Active Objective: Walk West 6 steps along Row 30 South Street to Column 17 at (17, 30), North 17 steps along Column 17 to door (17, 13) to enter Main Casino Floor.
 - Persistent Facts:
   - NPC at (7, 6) blocks door (7, 5) ("What do you want? Get lost!").
   - Celadon Game Corner door (17, 13) is accessed via Column 17 (x=17, y=13..28) from Row 30 South Street Highway.
