@@ -101,6 +101,13 @@ def main():
         if pos is None:
             return
             
+    # If we are currently at (21, 24), walk to (22, 22) to get on the plateau
+    if pos == (21, 24):
+        print("Walking from (21, 24) to (22, 22) to get on the plateau...")
+        if not run_path(["Right", "Up", "Up"]):
+            return
+            
+    pos = get_pos()
     # PHASE 1: Complete Area 1 (East) - skipped since we are in Area 2 (North)
     
     # PHASE 2: Area 2 (North) to Area 3 (West)
@@ -113,20 +120,20 @@ def main():
             
     pos = get_pos()
     if pos is not None and pos[0] == 22 and pos[1] == 31:
-        print("Walking Up Column 22 to the Plateau stairs at (22, 23)...")
-        if not run_path(["Up"] * 8):
+        print("Walking Up Column 22 to the Plateau surface at (22, 22)...")
+        if not run_path(["Up"] * 9): # 9 steps Up to reach Row 22 (plateau surface)
             return
             
     pos = get_pos()
-    if pos is not None and pos[0] == 22 and pos[1] == 23:
+    if pos is not None and pos[0] == 22 and pos[1] == 22:
         print("Walking Left across the Western Southern Plateau...")
         if not run_path(["Left"] * 6):
             return
             
     pos = get_pos()
-    if pos is not None and pos[0] == 16 and pos[1] == 23:
+    if pos is not None and pos[0] == 16 and pos[1] == 22:
         print("Walking Down Column 16 to descend Plateau stairs...")
-        if not run_path(["Down"] * 5):
+        if not run_path(["Down"] * 6): # 6 steps Down to descend from Row 22 to Row 28
             return
             
     pos = get_pos()
