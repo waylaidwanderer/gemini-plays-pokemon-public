@@ -753,10 +753,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 51721)
-- Location: Rocket Hideout B1F at (4, 31).
+## CURRENT STATUS & DASHBOARD (Turn 51751)
+- Location: Celadon City at (17, 18).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Systematically test B1F spin tile rows (3, y) from Column 2 Control Highway to find Eastward trajectory into main B1F floor.
+- Active Objective: Reach Main Game Corner Casino Entrance at (30, 19) via Northern Highway bypass route.
 - Persistent Facts:
   - Celadon Game Corner tile (4, 7) is the exit mat to Game Corner Plaza (10, 7).
   - Main Game Corner Casino Floor Entrance is located in outdoor Celadon City at tile (30, 34)/(30, 35).
