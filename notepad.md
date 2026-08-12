@@ -116,11 +116,11 @@
 
 ## Active Safari Zone Session (Start Turn: 35655)
 - **Start Turn:** 35655
-- **Current Turn:** 35674
-- **Steps Used:** 61
-- **Steps Remaining:** 439
-- **Current Location:** Safari Zone Area 1 (East) at (12, 20)
-- **Session Goals:** Walk the 100% verified spiral route through Area 1 (East) to Area 2 (North), then enter the northwest ground of Area 3 (West) to obtain Surf!
+- **Current Turn:** 35701
+- **Steps Used:** 205
+- **Steps Remaining:** 295
+- **Current Location:** Safari Zone Area 3 (West) at (27, 0)
+- **Session Goals:** Enter Area 3 (West) northwest ground via Area 2 (North) southwest transition at (4, 36) to reach the Secret House and obtain Surf!
 - **Empirical Refutations:**
   - Verified Column 28 in Center is 100% open and walkable, saving 22 steps.
   - Verified Column 0 Row 16 and Row 20 are blocked by solid hedges/shrubs in Area 3 (West).
