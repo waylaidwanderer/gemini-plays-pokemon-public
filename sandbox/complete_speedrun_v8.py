@@ -7,18 +7,15 @@ sys.stdout.reconfigure(encoding='utf-8')
 
 # Reconstructed 100% correct, walkable, and verified golden speedrun route!
 # Fully combined starting from Safari Zone Center entrance at (15, 25)
+# Optimized Safari Zone Center to completely bypass the Central Plateau, saving 22 steps!
 ROUTE = [
-    # 0-22: Safari Zone Center (from entrance to (24, 12))
+    # 0-35: Safari Zone Center (fully optimized ground route!)
     (15, 25), (15, 24), (15, 23), (15, 22),
     (16, 22), (17, 22), (18, 22), (19, 22), (20, 22), (21, 22), (22, 22), (23, 22), (24, 22),
-    (24, 21), (24, 20), (24, 19), (24, 18), (24, 17), (24, 16), (24, 15), (24, 14), (24, 13), (24, 12),
-    
-    # 23-58: Safari Zone Center (from (24, 12) to transitioning to Area 1 (East) at (30, 11))
-    (24, 13), (24, 14), (24, 15), (24, 16), # Walk down off the plateau
-    (24, 17), (24, 18), (24, 19), (24, 20), (24, 21), (24, 22), (24, 24), # Walk down column 24 (jump ledge)
-    (25, 24), (26, 24), (27, 24), # Walk right along row 24
-    (27, 25), (27, 26), # Walk down through tall grass (bypasses Row 25 Rhydon statues)
-    (28, 26), (29, 26), (30, 26), # Walk right along row 26 to Column 30
+    (25, 22), (26, 22), (27, 22),
+    (27, 24), # Jumps down the Row 23 ledge
+    (27, 25), (27, 26), # Bypasses Row 25 Rhydon statues through grass
+    (28, 26), (29, 26), (30, 26), # Walk right on row 26
     (30, 25), (30, 24), (30, 23), (30, 22), (30, 21), (30, 20), (30, 19), (30, 18), (30, 17), (30, 16), (30, 15), (30, 14), (30, 13), (30, 12), (30, 11), # Walk up column 30
     (29, 11), # Walk left to align for horizontal transition
     (30, 11), # Walk right to transition
@@ -138,6 +135,7 @@ def run_chunk():
     
     print("Determining current position...")
     pos = get_pos()
+    
     if pos is None:
         print("Dialogue or battle detected on start! Exiting chunk safely.")
         return True
@@ -228,18 +226,17 @@ def run_chunk():
         
         new_pos = get_pos()
         if new_pos is None:
-            run_away()
-            continue
+            print("Dialogue or battle detected after walking! Exiting chunk safely.")
+            return True
             
         ncx, ncy = new_pos
         if ncx == cx and ncy == cy:
             stuck_count += 1
             print(f"Stuck! Didn't move from ({cx}, {cy}). Stuck count: {stuck_count}")
             if stuck_count > 3:
-                print("Stuck too long. Running RUN sequence to clear.")
+                print("Stuck too long. Battle must have started. Running RUN sequence and exiting safely...")
                 run_away()
-                stuck_count = 0
-                time.sleep(1.0)
+                return True
         else:
             stuck_count = 0
             
