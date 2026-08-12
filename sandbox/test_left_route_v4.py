@@ -22,11 +22,13 @@ def walk_step(direction):
 
 def walk_to_area3():
     # We are at (8, 14)
-    # 1. Walk Left 5 times to (3, 14)
-    # 2. Walk Down 22 times to (3, 36) (transition)
+    # 1. Walk Down 17 times to (8, 31)
+    # 2. Walk Right 12 times to (20, 31)
+    # 3. Walk Down 5 times to (20, 36) (transition to Area 3 at 14, 0)
     path = []
-    path.extend(["Left"] * 5)
-    path.extend(["Down"] * 22)
+    path.extend(["Down"] * 17)
+    path.extend(["Right"] * 12)
+    path.extend(["Down"] * 5)
     
     idx = 0
     while idx < len(path):
