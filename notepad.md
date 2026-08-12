@@ -1359,7 +1359,7 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 5. **The Pond & Rest House 1:** Completely block the middle-western ground level on Rows 10-15 across Columns 9-19.
 
 ### The Ground-Level Eastern Passage Status
-We have empirically verified that Column 28 is BLOCKED on rows 12-15 by a vertically stacked group of solid pine trees, and Column 29 is a completely solid unbroken vertical wall of green bushes on rows 12-25. Therefore, direct ground-level horizontal crossing on rows 12-25 is completely impossible. Crossing to the east can only be attempted by climbing the Central Plateau via the stairs at `(24, 15)`.
+We have empirically verified that Column 28 is 100% OPEN and walkable on Rows 12-15 (verified on Turn 35165). This allows a highly optimized ground-level bypass route that completely circumvents the Central Plateau detour, saving 22 steps!
 
 ### 🚫 Verified Obstacles & Collision Coordinates (Safari Zone Center)
 - **Signposts (Solid):** Located at `(13, 24)`, `(16, 24)`, `(22, 24)`, and `(27, 24)`. These are 2-tile high solid structures that block all horizontal and vertical passage.
