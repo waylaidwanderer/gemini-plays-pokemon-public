@@ -33,8 +33,13 @@ def walk_step_robust(direction):
         time.sleep(0.15)
         new_pos = get_pos()
         if new_pos is None:
-            # We transition maps or enter battle
-            return None
+            time.sleep(1.0)
+            new_pos = get_pos()
+            if new_pos is None:
+                handle_battle()
+                return None
+            else:
+                return new_pos
         if new_pos != pos:
             return new_pos
             
@@ -54,7 +59,7 @@ def run_path(path, check_warp=False):
         new_pos = walk_step_robust(path[idx])
         
         if new_pos is None:
-            # Transition or battle occurred
+            # Transition occurred or battle
             time.sleep(1.0)
             new_pos = get_pos()
             if new_pos is None:
@@ -64,12 +69,20 @@ def run_path(path, check_warp=False):
                 if check_warp:
                     dist = abs(new_pos[0] - pos[0]) + abs(new_pos[1] - pos[1])
                     if dist > 5:
-                        print(f"SUCCESS! Transitioned to: {new_pos}")
+                        print(f"SUCCESS! Transitioned to coordinates: {new_pos}")
                         break
                 idx += 1
                 continue
             
         if new_pos == pos:
+            # Let's wait a moment and check if we are actually in a battle transition
+            time.sleep(0.5)
+            check_pos = get_pos()
+            if check_pos is None:
+                print("Battle transition detected during stuck check! Handling battle...")
+                handle_battle()
+                stuck_count = 0
+                continue
             stuck_count += 1
             print(f"Stuck at {pos}! Stuck count: {stuck_count}")
             if stuck_count > 3:
@@ -80,68 +93,44 @@ def run_path(path, check_warp=False):
             if check_warp:
                 dist = abs(new_pos[0] - pos[0]) + abs(new_pos[1] - pos[1])
                 if dist > 5:
-                    print(f"SUCCESS! Transitioned to: {new_pos}")
+                    print(f"SUCCESS! Transitioned to coordinates: {new_pos}")
                     break
             idx += 1
     return True
 
-def obtain_surf():
-    print("=== EXECUTING SURF ACQUISITION CAMPAIGN FROM (21, 18) ===")
+def walk_to_staging_point():
+    print("=== WALKING TO STAGING POINT (11, 12) IN AREA 3 ===")
     pos = get_pos()
     print("Starting position:", pos)
-    
-    if pos is None:
-        handle_battle()
-        pos = get_pos()
-        
-    # We are at (21, 18)
-    path = []
-    # 1. Walk Up to climb East Stairs
-    path.extend(["Up"] * 4)       # to (21, 14) (climbs stairs at (21, 17) and goes to (21, 14))
-    # 2. Walk Left to Column 15
-    path.extend(["Left"] * 6)     # to (15, 14)
-    # 3. Walk Down to Row 16
-    path.extend(["Down"] * 2)     # to (15, 16)
-    # 4. Walk Left to Column 5
-    path.extend(["Left"] * 10)    # to (5, 16)
-    # 5. Walk Right to Column 6
-    path.append("Right")          # to (6, 16)
-    # 6. Walk Down to Row 20
-    path.extend(["Down"] * 4)     # to (6, 20) (descends West Stairs at (6, 19))
-    # 7. Walk Left to Column 1
-    path.extend(["Left"] * 5)     # to (1, 20)
-    # 8. Walk Up to Row 8
-    path.extend(["Up"] * 12)      # to (1, 8)
-    # 9. Walk Right to Column 3
-    path.extend(["Right"] * 2)    # to (3, 8)
-    # 10. Walk Up to enter Secret House (warp)
-    path.append("Up")
-    
-    print("Walking to Secret House...")
-    if not run_path(path, check_warp=True):
-        print("Failed to reach Secret House!")
+    if pos != (21, 18):
+        print("Expected starting position (21, 18)!")
         return False
         
-    time.sleep(1.5)
-    pos = get_pos()
-    print("Position inside Secret House:", pos)
-    
-    # 11. Walk to NPC inside Secret House
-    path_inside = [
-        "Up", "Up", "Up", "Left", "Up"
+    path = [
+        "Up", "Up", "Up", "Up",                                           # to (21, 14) (climbs stairs)
+        "Left", "Left", "Left", "Left", "Left", "Left",                   # to (15, 14)
+        "Down", "Down",                                                   # to (15, 16)
+        "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
+        "Left", "Left",                                                   # to (5, 16) (10 steps Left)
+        "Right",                                                          # to (6, 16)
+        "Down", "Down", "Down", "Down",                                   # to (6, 20) (descends West Stairs)
+        "Left", "Left", "Left", "Left", "Left",                           # to (1, 20) (5 steps Left)
+        "Up", "Up", "Up", "Up",                                           # to (1, 16) (4 steps Up)
+        "Right",                                                          # to (2, 16)
+        "Up", "Up",                                                       # to (2, 14)
+        "Right", "Right", "Right", "Right", "Right", "Right", "Right",
+        "Right",                                                          # to (10, 14) (8 steps Right)
+        "Up", "Up",                                                       # to (10, 12)
+        "Right"                                                           # to (11, 12)
     ]
-    print("Walking to NPC...")
-    for step in path_inside:
-        bridge.press_buttons([step, "sleep 350"])
+    
+    print("Executing path...")
+    if not run_path(path):
+        print("Failed to reach staging point (11, 12)!")
+        return False
         
-    print("Interacting with NPC to obtain HM03 (Surf)...")
-    for _ in range(8):
-        bridge.press_buttons(["A", "sleep 1200"])
-    for _ in range(3):
-        bridge.press_buttons(["B", "sleep 500"])
-        
-    print("=== SURF RETRIEVED SUCCESSFULLY ===")
+    print("SUCCESS! Standing at (11, 12).")
     return True
 
 if __name__ == "__main__":
-    obtain_surf()
+    walk_to_staging_point()
