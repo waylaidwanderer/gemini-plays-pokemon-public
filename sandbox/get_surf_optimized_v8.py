@@ -82,36 +82,17 @@ def run_surf_campaign():
     pos = get_pos()
     print("Starting campaign from position:", pos)
     
-    # Dismiss the "Got away safely!" screen
-    print("Dismissing 'Got away safely!' screen...")
-    bridge.press_buttons(["B", "sleep 500"])
-    
-    time.sleep(0.5)
-    pos = get_pos()
-    print("Overworld position after dismissing:", pos)
-    if pos is None:
-        print("Failed to get position, let's retry...")
-        pos = get_pos()
-        
     path_area1 = []
     
-    # We are currently at (20, 23) in Area 1 (East)
-    if pos is not None and pos[0] == 20 and pos[1] == 23:
-        # Continue Area 1 East route from (20, 23)
-        path_area1.extend(["Up"] * 3)      # to (20, 20) (climb Southern Plateau)
-        path_area1.extend(["Left"] * 8)    # to (12, 20) (walk West on plateau)
-        path_area1.extend(["Down"] * 2)    # to (12, 22) (descend Southern Plateau stairs)
-        path_area1.extend(["Left"] * 3)    # to (9, 22)
-        path_area1.extend(["Up"] * 14)     # to (9, 8) (walk UP Column 9)
-        path_area1.extend(["Right"] * 3)   # to (12, 8)
-        path_area1.extend(["Up"] * 2)      # to (12, 6) (climb Northern Plateau)
-        path_area1.extend(["Right"] * 5)   # to (17, 6) (walk East on plateau)
-        path_area1.extend(["Down"] * 2)    # to (17, 8) (descend Northern Plateau stairs)
-        path_area1.extend(["Right"] * 3)   # to (20, 8)
-        path_area1.extend(["Up"] * 3)      # to (20, 5)
-        path_area1.extend(["Left"] * 20)   # to (0, 5) (transition!)
+    # We are currently at (20, 5) in Area 1 (East)
+    if pos is not None and pos[0] == 20 and pos[1] == 5:
+        # Walk UP to Row 3, LEFT to Column 7, DOWN to Row 5, LEFT to Column 0
+        path_area1.extend(["Up"] * 2)      # to (20, 3)
+        path_area1.extend(["Left"] * 13)   # to (7, 3)
+        path_area1.extend(["Down"] * 2)    # to (7, 5)
+        path_area1.extend(["Left"] * 7)    # to (0, 5) (transition!)
     else:
-        print(f"Error: Not at expected starting position (20, 23). Position is: {pos}")
+        print(f"Error: Not at expected starting position (20, 5). Position is: {pos}")
         return False
         
     print("=== STAGE 3: Walking Area 1 to Area 2 ===")
