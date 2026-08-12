@@ -24,7 +24,7 @@ def send_request(endpoint, data=None):
         ).encode('utf-8')
         
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    s.settimeout(10)
+    s.settimeout(25)
     s.connect((host, port))
     s.sendall(request)
     
