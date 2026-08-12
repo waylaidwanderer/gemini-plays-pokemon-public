@@ -52,7 +52,7 @@ def find_path_dfs(target):
     # Path of coordinates visited
     path = [start]
     visited = {start}
-    blocked = set()
+    blocked = {(11, 10), (11, 11)}
     
     while True:
         pos = get_pos()
