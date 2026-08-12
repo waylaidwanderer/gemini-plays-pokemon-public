@@ -78,66 +78,122 @@ def run_path(path, check_warp=False):
                     break
     return True
 
-def run_surf():
-    # Currently at (25, 24) facing DOWN.
-    print("=== EXECUTING 100% WALKABLE LAND-BRIDGE AND ROW 9 ROUTE ===")
+def run_surf_campaign():
+    # 1. Dialogue Loop to Enter Safari Zone
+    print("=== STAGE 1: Progressing Dialogue to Enter Safari Zone ===")
+    warped = False
+    for i in range(15):
+        pos = get_pos()
+        if pos is not None and pos[0] == 15 and pos[1] == 25:
+            print("Successfully entered Safari Zone Center!")
+            warped = True
+            break
+        print(f"Dialogue Progress Press {i+1}...")
+        bridge.press_buttons(["A", "sleep 1200"])
+        
+    if not warped:
+        pos = get_pos()
+        if pos is not None and pos[0] == 15 and pos[1] == 25:
+            print("Successfully entered Safari Zone Center!")
+        else:
+            print(f"Error: Did not enter Safari Zone. Coordinates are: {pos}")
+            return False
+
+    # 2. Path in Safari Zone Center to Area 1 (East)
+    path_center = [
+        "Up", "Up",               # (15, 25) -> (15, 23)
+        "Right", "Right",         # (15, 23) -> (17, 23)
+        "Down",                   # (17, 23) -> (17, 24)
+        "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", # (17, 24) -> (27, 24)
+        "Down", "Down",           # (27, 24) -> (27, 26)
+        "Right", "Right", "Right", # (27, 26) -> (30, 26)
+        "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", # (30, 26) -> (30, 11)
+        "Left",                   # (30, 11) -> (29, 11)
+        "Right"                   # transition to Area 1 (East)
+    ]
     
-    path = []
-    # 1. Walk Down to Row 30: (25, 30)
-    path.extend(["Down"] * 6)
-    
-    # 2. Walk Right to Column 28: (28, 30)
-    path.extend(["Right"] * 3)
-    
-    # 3. Walk Up to (28, 28) and up onto Eastern Southern Plateau at (28, 26)
-    path.extend(["Up"] * 4)
-    
-    # 4. Walk Right to Column 37 on Row 26: (37, 26)
-    path.extend(["Right"] * 9)
-    
-    # 5. Walk Up on Land Bridge (Column 37) to Row 14: (37, 14)
-    path.extend(["Up"] * 12)
-    
-    # 6. Walk Left across Northern Plateau to Column 20: (20, 14)
-    path.extend(["Left"] * 17)
-    
-    # 7. Walk Down onto stairs (20, 15) and Left to descend to Column 19 (ground) on Row 15: (19, 15)
-    path.append("Down")           # to (20, 15) (stair tile)
-    path.append("Left")           # to (19, 15) (ground level)
-    
-    # 8. Walk Up to Row 9 on Column 19: (19, 9)
-    path.extend(["Up"] * 6)
-    
-    # 9. Walk Left on Row 9 to Column 4: (4, 9)
-    path.extend(["Left"] * 15)
-    
-    # 10. Walk Down Column 4 to Row 36 (transition!)
-    path.extend(["Down"] * 27)    # to (4, 36)
-    
-    print("--- STAGE 1: Crossing Land Bridge to Southwest Transition ---")
-    if not run_path(path, check_warp=True):
+    print("=== STAGE 2: Walking Safari Zone Center to Area 1 ===")
+    if not run_path(path_center, check_warp=True):
         return False
         
     time.sleep(1.0)
     pos = get_pos()
-    print("Landed in Area 3 West northwest ground at:", pos)
+    print("Coordinates in Area 1 East:", pos)
     
-    # 11. From northwest ground landing spot in Area 3 West: to Secret House door at (3, 8)
-    path_to_house = []
-    if pos is not None and pos[0] == 2:
-        path_to_house.append("Right")
-    elif pos is not None and pos[0] == 4:
-        path_to_house.append("Left")
-        
-    path_to_house.extend(["Down"] * 8)   # to (3, 8)
-    path_to_house.append("Up")           # to enter Secret House!
+    # 3. Path in Area 1 (East) to Area 2 (North)
+    path_area1 = [
+        "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right",
+        "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", # (0, 23) -> (20, 23)
+        "Up", "Up",               # (20, 23) -> (20, 21) (climb Southern Plateau)
+        "Up",                     # (20, 21) -> (20, 20) (onto Southern Plateau)
+        "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", # (20, 20) -> (12, 20)
+        "Down", "Down",           # (12, 20) -> (12, 22) (descend plateau)
+        "Left", "Left", "Left",   # (12, 22) -> (9, 22)
+        "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", # (9, 22) -> (9, 8)
+        "Right", "Right", "Right", # (9, 8) -> (12, 8)
+        "Up", "Up",               # (12, 8) -> (12, 6) (climb Northern Plateau)
+        "Right", "Right", "Right", "Right", "Right", # (12, 6) -> (17, 6)
+        "Down", "Down",           # (17, 6) -> (17, 8) (descend Northern Plateau)
+        "Right", "Right", "Right", # (17, 8) -> (20, 8)
+        "Up", "Up", "Up",         # (20, 8) -> (20, 5)
+        "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
+        "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left"  # (20, 5) -> (0, 5) (warp!)
+    ]
     
-    print("--- STAGE 2: Walking to Secret House ---")
-    if not run_path(path_to_house, check_warp=True):
+    print("=== STAGE 3: Walking Area 1 to Area 2 ===")
+    if not run_path(path_area1, check_warp=True):
         return False
         
-    print("=== SUCCESS! INSIDE SECRET HOUSE ===")
+    time.sleep(1.0)
+    pos = get_pos()
+    print("Coordinates in Area 2 North:", pos)
+    
+    # 4. Path in Area 2 (North) to southwest transition at (4, 36)
+    path_area2 = [
+        "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
+        "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
+        "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
+        "Left", "Left", "Left", "Left", "Left", # (39, 31) -> (4, 31)
+        "Down", "Down", "Down", "Down", "Down"  # (4, 31) -> (4, 36) (warp!)
+    ]
+    
+    print("=== STAGE 4: Walking Area 2 to Southwest Transition ===")
+    if not run_path(path_area2, check_warp=True):
+        return False
+        
+    time.sleep(1.0)
+    pos = get_pos()
+    print("Coordinates in Area 3 West northwest ground:", pos)
+    
+    # 5. Path inside Area 3 (West) northwest ground to Secret House
+    path_area3 = []
+    if pos is not None and pos[0] == 2:
+        path_area3.append("Right")
+    elif pos is not None and pos[0] == 4:
+        path_area3.append("Left")
+        
+    path_area3.extend(["Down"] * 8)   # to (3, 8)
+    path_area3.append("Up")           # enter Secret House!
+    
+    print("=== STAGE 5: Walking to Secret House ===")
+    if not run_path(path_area3, check_warp=True):
+        return False
+        
+    time.sleep(1.0)
+    pos = get_pos()
+    print("Coordinates inside Secret House:", pos)
+    
+    # 6. Interact with NPC at (2, 7)
+    path_inside = [
+        "Up", "Up", "Up"  # stand in front of NPC at (2, 7) or similar
+    ]
+    print("=== STAGE 6: Walking to NPC inside Secret House ===")
+    run_path(path_inside)
+    
+    print("Talking to NPC to obtain Surf...")
+    bridge.press_buttons(["A", "sleep 1000", "A", "sleep 1000", "A", "sleep 1000", "B", "sleep 500"])
+    print("=== CAMPAIGN COMPLETE! SURF SHOULD BE OBTAINED ===")
     return True
 
 if __name__ == "__main__":
-    run_surf()
+    run_surf_campaign()
