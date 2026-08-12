@@ -16,12 +16,17 @@ def walk_step_robust(direction):
     pos = get_pos()
     if pos is None:
         return None
+        
     bridge.press_buttons([direction])
+    
+    # Wait for position to change
     for _ in range(5):
         time.sleep(0.15)
         new_pos = get_pos()
         if new_pos is not None and new_pos != pos:
             return new_pos
+            
+    print(f"Bumping/stuck at {pos} walking {direction}!")
     return pos
 
 def run_path(path):
@@ -34,17 +39,29 @@ def run_path(path):
             continue
             
         print(f"Step {idx}: At {pos}, walking {path[idx]}...")
+        
+        # Handle ledge jump specially: if we are at (23, 22) and walk Down, coordinate changes by 2
+        is_ledge_jump = (pos == (23, 22) and path[idx] == "Down")
+        
         new_pos = walk_step_robust(path[idx])
         
         if new_pos is None:
             time.sleep(0.5)
             continue
             
-        if new_pos == pos:
+        # Verify movement
+        expected_change = (new_pos != pos)
+        if is_ledge_jump:
+            # For ledge jump, coordinate must change
+            expected_change = (new_pos == (23, 24))
+            if expected_change:
+                print("Ledge jump successful!")
+                
+        if not expected_change:
             stuck_count += 1
             print(f"Stuck at {pos}! Stuck count: {stuck_count}")
             if stuck_count > 3:
-                print("Path blocked!")
+                print("Path blocked. Exiting path.")
                 return False
         else:
             stuck_count = 0
@@ -52,35 +69,29 @@ def run_path(path):
     return True
 
 def main():
-    print("=== DIALOGUE SEQUENCE WITH THE WARDEN ===")
-    pos = get_pos()
-    print("Starting position:", pos)
+    print("=== EXECUTING SAFE ROUTE TO WARDEN'S HOUSE ===")
     
-    # We are at (4, 7) inside the Warden's House.
-    # Route:
-    # 1. Walk Up to Row 4 -> (4, 4) (3 steps Up)
-    # 2. Walk Left to Column 2 -> (2, 4) (2 steps Left)
-    # 3. Walk Up to face Warden at (2, 3) (1 step Up)
-    path = (
-        ["Up"] * 3 +
-        ["Left"] * 2 +
-        ["Up"]
-    )
-    if run_path(path):
-        print("Aligned in front of the Warden! Interacting...")
-        # Press A to start talking
-        bridge.press_buttons(["A"])
-        time.sleep(1.0)
+    pos = get_pos()
+    print("Initial position:", pos)
+    if pos is None:
+        print("Failed to get starting position!")
+        return
         
-        # Press A/B multiple times to progress dialogue and give Gold Teeth -> receive HM04
-        for i in range(12):
-            print(f"Dialogue step {i+1}...")
-            bridge.press_buttons(["A"])
-            time.sleep(1.2)
-            
-        print("Dialogue sequence completed!")
-    else:
-        print("Failed to reach the Warden!")
+    if pos == (18, 4):
+        # Walk to Column 23, then Down Column 23 to Row 27, then Right to Column 27, and Up to enter Warden's House
+        path = (
+            ["Right"] * 5 +                                                   # to (23, 4)
+            ["Down"] * 22 +                                                   # to (23, 27) (including ledge jump at row 22)
+            ["Right"] * 4 +                                                   # to (27, 27)
+            ["Up"]                                                            # Enter Warden's House!
+        )
+        print("Walking to Warden's House...")
+        if run_path(path):
+            print("Successfully reached and entered Warden's House!")
+            time.sleep(1.0)
+            print("Final Position:", get_pos())
+        else:
+            print("Failed to reach Warden's House!")
 
 if __name__ == "__main__":
     main()
