@@ -1179,6 +1179,8 @@ Systematically probe every potential building doorway and alleyway warp in South
 - Tile (6, 8): Solid wall/statue border (empirically confirmed bump turn 52107).
 - Tile (1, 8): Solid wall/statue border (empirically confirmed bump turn 52113).
 - Exit Doorway: Located strictly at x=3, 4, y=7 (facing Down).
+- Tile (2, 8): Solid wall/statue border (empirically confirmed bump turn 52116).
+- Conclusion: Sub-room (Cols 0..7, Rows 0..7) is an enclosed 8x8 Trade Sub-room with exit strictly at door mats (3, 7)/(4, 7).
 
 <hr>
 
