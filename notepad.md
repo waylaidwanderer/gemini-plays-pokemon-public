@@ -110,7 +110,7 @@
 - **Full Restore:** 1
 - **Max Revive:** 1
 - **HM03 (Surf):** OBTAINED on Turn 36291 (Verified inside Secret House).
-- **Gold Teeth:** OBTAINED on Turn 36440 (Verified in Bag)
+- **Gold Teeth:** NOT YET OBTAINED
 
 ## Major Exploration Phases and Timestamps
 - (Cleaned up historic milestones to reduce context window bloat)
@@ -123,7 +123,6 @@
 - **Current Turn:** 36451
 - **Current Location:** Safari Zone Area 3 (West) at (19, 24)
 - **Estimated Steps Remaining:** ~50 steps (of 500)
-
 
 <hr>
 

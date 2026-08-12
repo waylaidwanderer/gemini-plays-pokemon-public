@@ -63,7 +63,7 @@
 - **Full Restore:** 1
 - **Max Revive:** 1
 - **HM03 (Surf):** OBTAINED on Turn 36291 (Verified inside Secret House).
-- **Gold Teeth:** OBTAINED on Turn 36440 (Verified in Bag)
+- **Gold Teeth:** NOT YET OBTAINED
 
 ## Major Exploration Phases and Timestamps
 - (Cleaned up historic milestones to reduce context window bloat)
