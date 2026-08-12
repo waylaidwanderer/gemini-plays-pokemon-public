@@ -98,6 +98,42 @@ def run_path(path, check_warp=False):
             idx += 1
     return True
 
+def get_area1_path(pos):
+    path = []
+    # If we are at the very start (0, 22) or (0, 23)
+    if pos[0] == 0 and (pos[1] == 22 or pos[1] == 23):
+        path.append("Down") # to (0, 24)
+        path.extend(["Right"] * 20) # to (20, 24)
+    else:
+        # We are at some intermediate position on the lower ground
+        # Walk to (20, 24)
+        if pos[1] < 24:
+            path.extend(["Down"] * (24 - pos[1]))
+        elif pos[1] > 24:
+            path.extend(["Up"] * (pos[1] - 24))
+        if pos[0] < 20:
+            path.extend(["Right"] * (20 - pos[0]))
+        elif pos[0] > 20:
+            path.extend(["Left"] * (pos[0] - 20))
+            
+    # Now we are at (20, 24). Let's climb and do the standard path!
+    path.extend(["Up"] * 3)            # to (20, 21)
+    path.append("Up")                  # to (20, 20) (climb stairs)
+    path.extend(["Left"] * 8)          # to (12, 20)
+    path.extend(["Down"] * 2)          # to (12, 22) (descends stairs)
+    path.extend(["Left"] * 3)          # to (9, 22)
+    path.extend(["Up"] * 14)           # to (9, 8)
+    path.extend(["Right"] * 3)         # to (12, 8)
+    path.extend(["Up"] * 2)            # to (12, 6) (climbs stairs)
+    path.extend(["Right"] * 5)         # to (17, 6)
+    path.extend(["Down"] * 2)          # to (17, 8) (descends stairs)
+    path.extend(["Right"] * 3)         # to (20, 8)
+    path.extend(["Up"] * 5)            # to (20, 3)
+    path.extend(["Left"] * 13)         # to (7, 3)
+    path.extend(["Down"] * 2)          # to (7, 5)
+    path.extend(["Left"] * 7)          # to (0, 5) (warp!)
+    return path
+
 def run_campaign_to_area3():
     print("=== EXECUTING MASTER SPEEDRUN TO AREA 3 (WEST) ===")
     
@@ -146,56 +182,14 @@ def run_campaign_to_area3():
         print("Position inside Area 1 (East):", pos)
         
     # 2. Check if we are in Area 1 (East)
-    # We are in Area 1 if we are on Row 22/23/24 with X <= 20, or Row 5, etc.
-    # Let's detect based on coordinates
-    if pos is not None:
-        is_area1 = False
-        if pos[1] == 23 and pos[0] <= 20:
-            is_area1 = True
-            print(f"Resuming Area 1 navigation from Row 23: {pos}")
-            # Detour down to Row 24 first
-            path_area1.append("Down")
-            remaining_right = 20 - pos[0]
-            path_area1.extend(["Right"] * remaining_right)
-            path_area1.extend(["Up"] * 19) # to (20, 5)
-            path_area1.extend(["Left"] * 20) # to (0, 5) (warp)
-        elif pos[1] == 24 and pos[0] <= 20:
-            is_area1 = True
-            print(f"Resuming Area 1 navigation from Row 24: {pos}")
-            remaining_right = 20 - pos[0]
-            path_area1.extend(["Right"] * remaining_right)
-            path_area1.extend(["Up"] * 19) # to (20, 5)
-            path_area1.extend(["Left"] * 20) # to (0, 5) (warp)
-        elif pos[0] == 20 and pos[1] <= 24 and pos[1] >= 5:
-            is_area1 = True
-            print(f"Resuming Area 1 navigation from Column 20: {pos}")
-            if pos[1] >= 11:
-                # Bypass the NPC at (20, 17) by walking Right to Column 21, Up, Left!
-                path_area1.append("Right") # to (21, pos[1])
-                remaining_up = pos[1] - 5
-                path_area1.extend(["Up"] * remaining_up) # to (21, 5)
-                path_area1.append("Left") # to (20, 5)
-                path_area1.extend(["Left"] * 20) # to (0, 5)
-            else:
-                remaining_up = pos[1] - 5
-                path_area1.extend(["Up"] * remaining_up)
-                path_area1.extend(["Left"] * 20)
-        elif pos == (20, 12):
-            is_area1 = True
-            print("Resuming Area 1 navigation from (20, 12)...")
-            path_area1.append("Right") # to (21, 12)
-            path_area1.extend(["Up"] * 7) # to (21, 5)
-            path_area1.extend(["Left"] * 21) # to (0, 5)
-        elif pos == (21, 12):
-            is_area1 = True
-            print("Resuming Area 1 navigation from (21, 12)...")
-            path_area1.append("Left") # to (20, 12)
-            path_area1.extend(["Up"] * 7) # to (20, 5)
-            path_area1.extend(["Left"] * 20) # to (0, 5)
-        elif pos[1] == 5 and pos[0] <= 20:
-            is_area1 = True
-            print(f"Resuming Area 1 navigation from Row 5: {pos}")
-            path_area1.extend(["Left"] * pos[0])
+    # If we are anywhere in Area 1 (East), let's use the dynamic spiral generator!
+    # Area 1 coordinates typically have x <= 20 with y <= 24 (or similar)
+    # We can detect Area 1 based on known intermediate states
+    if pos is not None and (
+        (pos[1] == 22 or pos[1] == 23 or pos[1] == 24 or pos[1] == 12 or pos[1] == 18) and pos[0] <= 25
+    ):
+        print("Using dynamic spiral generator for Area 1 (East)...")
+        path_area1 = get_area1_path(pos)
             
     if len(path_area1) > 0:
         print("Walking across Area 1 (East) to Area 2 (North)...")
