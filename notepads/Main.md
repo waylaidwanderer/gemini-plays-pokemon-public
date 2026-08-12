@@ -1,7 +1,7 @@
-## CURRENT STATUS & DASHBOARD (Turn 51253)
-- Location: Game Corner Plaza at (20, 21).
+## CURRENT STATUS & DASHBOARD (Turn 51255)
+- Location: Game Corner Plaza at (14, 16).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Navigate around water pond via Row 16 pavement to test door (17, 27) in Game Corner Plaza.
+- Active Objective: Navigate South to Row 27 to test door (17, 27) at South Plaza building.
 - Persistent Facts:
   - Game Corner Plaza (19, 0) warp connects to Celadon City (19, 36).
   - Un-entered Door in Game Corner Plaza: Door (17, 27) at South Plaza building.
