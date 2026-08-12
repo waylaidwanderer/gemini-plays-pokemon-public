@@ -105,13 +105,15 @@ def run_surf_campaign_v3():
         # 7. Walk Down Column 4 to Row 36 (transition to Area 3 Northwest!)
         path_across_area2.extend(["Down"] * 27)  # to (4, 36)
     elif pos[0] == 22 and pos[1] == 24:
-        # 4. Walk Right to Column 31
-        path_across_area2.extend(["Right"] * 9)  # to (31, 24)
-        # 5. Walk Up Column 31 to Row 9
-        path_across_area2.extend(["Up"] * 15)    # to (31, 9)
-        # 6. Walk Left along Row 9 to Column 4
+        # 1. Walk Down Column 22 to Row 31 (7 steps Down)
+        path_across_area2.extend(["Down"] * 7)   # to (22, 31) (Southern Corridor)
+        # 2. Walk Right to Column 31 (9 steps Right)
+        path_across_area2.extend(["Right"] * 9)  # to (31, 31)
+        # 3. Walk Up Column 31 to Row 9 (22 steps Up)
+        path_across_area2.extend(["Up"] * 22)    # to (31, 9)
+        # 4. Walk Left along Row 9 to Column 4 (27 steps Left)
         path_across_area2.extend(["Left"] * 27)  # to (4, 9)
-        # 7. Walk Down Column 4 to Row 36 (transition to Area 3 Northwest!)
+        # 5. Walk Down Column 4 to Row 36 (27 steps Down - transition to Area 3 Northwest!)
         path_across_area2.extend(["Down"] * 27)  # to (4, 36)
     else:
         print(f"Unexpected starting position: {pos}.")
