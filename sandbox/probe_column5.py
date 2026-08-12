@@ -17,23 +17,37 @@ def run_away():
 def walk_step(direction):
     bridge.press_buttons([direction, "sleep 400"])
 
-def test_column5():
-    # Currently at (8, 24).
-    # 1. Walk Left to (5, 24)
-    print("Walking Left to Column 5...")
-    for _ in range(3):
-        walk_step("Left")
-        print(f"Pos: {get_pos()}")
-        
+def test_bypass():
+    # Currently at (5, 24)
+    print("Testing Column 5 bypass via Column 4...")
+    
+    # 1. Walk Left to Column 4
+    walk_step("Left") # To (4, 24)
+    print(f"Pos: {get_pos()}")
+    
+    # 2. Walk UP to Row 22
+    walk_step("Up") # To (4, 23)
+    print(f"Pos: {get_pos()}")
+    walk_step("Up") # To (4, 22)
+    print(f"Pos: {get_pos()}")
+    
     pos = get_pos()
-    print(f"At Column 5: {pos}")
-    if pos is None or pos[0] != 5:
-        print("Failed to reach Column 5.")
+    if pos != (4, 22):
+        print("Failed to reach (4, 22).")
         return
         
-    # 2. Walk UP Column 5 as far as possible
-    print("Probing UP on Column 5...")
-    for step in range(15):
+    # 3. Walk Right to Column 5
+    walk_step("Right") # To (5, 22)
+    print(f"Pos: {get_pos()}")
+    
+    pos = get_pos()
+    if pos != (5, 22):
+        print("Failed to reach (5, 22).")
+        return
+        
+    # 4. Probing UP on Column 5 as far as possible
+    print("Probing UP on Column 5 from (5, 22)...")
+    for step in range(12):
         cx, cy = get_pos()
         walk_step("Up")
         pos_after = get_pos()
@@ -46,4 +60,4 @@ def test_column5():
             break
 
 if __name__ == "__main__":
-    test_column5()
+    test_bypass()
