@@ -1202,10 +1202,7 @@ From Safari Zone Center entrance at `(15, 25)`:
 4. Walk LEFT to `(10, 23)`.
 5. Walk DOWN to `(10, 24)`.
 6. Walk LEFT to Column 8 at `(8, 24)`.
-7. Walk UP Column 8 to Row 10: `(8, 24) -> (8, 10)` (This is the ground corridor between the pond and the north border).
-8. Walk RIGHT along Row 10 to Column 30: `(8, 10) -> (30, 10)`.
-9. Walk RIGHT to transition to Area 1 (East) at `(30, 10)` (warping to `(0, 22)`).
-This is the only working, unblocked ground-level route.
+This was a hypothesized shortcut, but Column 8 is blocked on the north.
 
 <hr>
 
