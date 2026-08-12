@@ -69,21 +69,23 @@ def run_path(path, check_warp=False):
     return True
 
 def main():
-    print("=== NAVIGATING VIA COLUMN 1 TO SAFARI GATEHOUSE ===")
+    print("=== NAVIGATING FROM (1, 16) TO SAFARI GATEHOUSE ===")
     
     pos = get_pos()
     print("Initial position:", pos)
-    if pos != (16, 28):
-        print("Not at starting position (16, 28)!")
+    if pos != (1, 16):
+        print("Not at starting position (1, 16)!")
         return
         
-    # 1. Walk Left to Column 1 -> (1, 28)
-    # 2. Walk Up to Row 14 -> (1, 14)
-    # 3. Walk Right to Column 26 -> (26, 14)
+    # 1. Walk Down to Row 21 -> (1, 21)
+    # 2. Walk Right to Column 22 -> (22, 21)
+    # 3. Walk Up to Row 14 -> (22, 14)
+    # 4. Walk Right to Column 26 -> (26, 14)
     escape_path = (
-        ["Left"] * 15 +
-        ["Up"] * 14 +
-        ["Right"] * 25
+        ["Down"] * 5 +
+        ["Right"] * 21 +
+        ["Up"] * 7 +
+        ["Right"] * 4
     )
     
     if not run_path(escape_path):
