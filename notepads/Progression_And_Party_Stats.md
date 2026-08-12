@@ -54,10 +54,10 @@
 
 ## Active Safari Zone Session (Start Turn: 35958)
 - **Start Turn:** 35958
-- **Current Turn:** 35958
-- **Steps Used:** 0
-- **Steps Remaining:** 500
-- **Current Location:** Safari Zone Center at (15, 25)
+- **Current Turn:** 35971
+- **Steps Used:** ~50
+- **Steps Remaining:** ~450
+- **Current Location:** Safari Zone Area 1 (East) at (23, 8)
 - **Session Goals:** Retrieve BOTH the Gold Teeth and HM03 (Surf) in this single run.
 
 
@@ -77,14 +77,4 @@
 ## Major Exploration Phases and Timestamps
 - (Cleaned up historic milestones to reduce context window bloat)
 
-- **Session Goals:** Enter Area 3 (West) northwest ground via Area 2 (North) southwest transition at (4, 36) to reach the Secret House and obtain Surf!
-- **Empirical Refutations:**
-  - Verified Column 28 in Center is 100% open and walkable, saving 22 steps.
-  - Verified Column 0 Row 16 and Row 20 are blocked by solid hedges/shrubs in Area 3 (West).
-  - Verified Column 1 Row 15 is blocked by a solid tree in Area 3 (West).
-  - Verified Column 2 Rows 12-13 are blocked by a solid cliff wall in Area 3 (West).
-  - Verified Column 3 Rows 12-13 are blocked by pond water in Area 3 (West).
-  - Verified Column 23 Rows 14-17 are blocked by a solid cliff face in Area 3 (West).
-  - Verified Column 6 Row 22 is blocked in Area 2 (North) going UP.
-  - Verified Column 7 Row 28 is blocked in Area 2 (North) going UP.
-  - Verified Column 5 is blocked by a solid vertical hedge wall from Row 23 to Row 33 in Area 2 (North).
+

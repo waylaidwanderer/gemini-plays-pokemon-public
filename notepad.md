@@ -101,10 +101,10 @@
 
 ## Active Safari Zone Session (Start Turn: 35958)
 - **Start Turn:** 35958
-- **Current Turn:** 35958
-- **Steps Used:** 0
-- **Steps Remaining:** 500
-- **Current Location:** Safari Zone Center at (15, 25)
+- **Current Turn:** 35971
+- **Steps Used:** ~50
+- **Steps Remaining:** ~450
+- **Current Location:** Safari Zone Area 1 (East) at (23, 8)
 - **Session Goals:** Retrieve BOTH the Gold Teeth and HM03 (Surf) in this single run.
 
 
@@ -124,17 +124,7 @@
 ## Major Exploration Phases and Timestamps
 - (Cleaned up historic milestones to reduce context window bloat)
 
-- **Session Goals:** Enter Area 3 (West) northwest ground via Area 2 (North) southwest transition at (4, 36) to reach the Secret House and obtain Surf!
-- **Empirical Refutations:**
-  - Verified Column 28 in Center is 100% open and walkable, saving 22 steps.
-  - Verified Column 0 Row 16 and Row 20 are blocked by solid hedges/shrubs in Area 3 (West).
-  - Verified Column 1 Row 15 is blocked by a solid tree in Area 3 (West).
-  - Verified Column 2 Rows 12-13 are blocked by a solid cliff wall in Area 3 (West).
-  - Verified Column 3 Rows 12-13 are blocked by pond water in Area 3 (West).
-  - Verified Column 23 Rows 14-17 are blocked by a solid cliff face in Area 3 (West).
-  - Verified Column 6 Row 22 is blocked in Area 2 (North) going UP.
-  - Verified Column 7 Row 28 is blocked in Area 2 (North) going UP.
-  - Verified Column 5 is blocked by a solid vertical hedge wall from Row 23 to Row 33 in Area 2 (North).
+
 
 
 <hr>
@@ -1387,7 +1377,8 @@ We have empirically verified that Column 28 is 100% OPEN and walkable on Rows 12
 - **Pond & Rest House 1 in Center:** Completely block the middle-western ground level on Rows 10-15 across Columns 9-19.
 - **Center Compartment Wrapping:** The Northwest Compartment of Center is completely isolated from the South/East Compartment. Transitioning RIGHT from Area 3 (West) on Row 23/26 always warps the player into this isolated Northwest Compartment of Center. To enter the South/East Compartment, we must enter directly from the Gatehouse entrance at (15, 25).
 
-### 🧪 Newly Verified Physical Boundaries & Collisions (Turns 35858-35916)
+### 🧪 Newly Verified Physical Boundaries & Collisions (Turns 35858-35971)
+- **Column 5 Row 23 Solid Fence (Area 1 East):** Solid white horizontal wood fence bordering Row 23 from Column 5 onwards, completely blocking direct downward/horizontal movement on Row 23 and forcing a detour to Row 24.
 - **Column 23 Row 24 Cliff Face (Area 2 North):** Solid cliff face bordering the Eastern Southern Plateau stairs on the East, completely blocking rightward movement at Row 24.
 - **Column 15 Row 27 Cliff Wall (Area 2 North):** Solid cliff wall tile causing a bump when walking Up from `(15, 28)`.
 - **Column 5 Shrub Barrier (Area 2 North):** Continuous dark green hedge/shrub wall from Row 20 to Row 33, completely blocking direct ground-horizontal crossing.
