@@ -1174,6 +1174,12 @@ Systematically probe every potential building doorway and alleyway warp in South
 - Column 10 (x=10, y=8..12): Solid dark grey wall divider separating West and Central Casino floor.
 - Column 10 (x=10, y=8..13): Solid dark grey wall divider spanning y=8..13. Passable East-West crossing is via Row 5 cross-aisle at y=5.
 
+### Verified South Row 8 Collision Log (Turns 52105 - 52113)
+- Tile (5, 8): Solid wall/statue border (empirically confirmed bump turn 52105).
+- Tile (6, 8): Solid wall/statue border (empirically confirmed bump turn 52107).
+- Tile (1, 8): Solid wall/statue border (empirically confirmed bump turn 52113).
+- Exit Doorway: Located strictly at x=3, 4, y=7 (facing Down).
+
 <hr>
 
 <h1><code>Locations/Celadon_Game_Corner</code></h1>
