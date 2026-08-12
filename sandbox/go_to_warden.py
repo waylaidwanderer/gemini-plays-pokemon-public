@@ -40,8 +40,8 @@ def run_path(path):
             
         print(f"Step {idx}: At {pos}, walking {path[idx]}...")
         
-        # Handle ledge jump specially: if we are at (22, 22) and walk Down, coordinate changes by 2
-        is_ledge_jump = (pos == (22, 22) and path[idx] == "Down")
+        # Handle ledge jump specially: if we are at (23, 22) and walk Down, coordinate changes by 2
+        is_ledge_jump = (pos == (23, 22) and path[idx] == "Down")
         
         new_pos = walk_step_robust(path[idx])
         
@@ -53,7 +53,7 @@ def run_path(path):
         expected_change = (new_pos != pos)
         if is_ledge_jump:
             # For ledge jump, coordinate must change
-            expected_change = (new_pos == (22, 24))
+            expected_change = (new_pos == (23, 24))
             if expected_change:
                 print("Ledge jump successful!")
                 
@@ -69,7 +69,7 @@ def run_path(path):
     return True
 
 def main():
-    print("=== EXECUTING SAFE DETOUR ROUTE TO WARDEN'S HOUSE ===")
+    print("=== EXECUTING SAFE ROUTE TO WARDEN'S HOUSE ===")
     
     pos = get_pos()
     print("Initial position:", pos)
@@ -77,17 +77,17 @@ def main():
         print("Failed to get starting position!")
         return
         
-    if pos == (22, 4):
-        # Walk Down Column 22 to Row 12, detour left to Column 21 to bypass (22, 13) door,
-        # return to Column 22 Row 14, walk down to ledge at Row 22, jump ledge, and walk to Warden's House
+    if pos == (22, 6):
+        # Walk Up to Row 2, Right to Column 37, Down Column 37 past Row 7 barrier to Row 8,
+        # Left to Column 23, Down Column 23 to ledge at Row 22, jump ledge, and walk to Warden's House
         path = (
-            ["Down"] * 8 +                                                    # to (22, 12)
-            ["Left"] +                                                        # to (21, 12)
-            ["Down"] * 2 +                                                    # to (21, 14)
-            ["Right"] +                                                       # to (22, 14)
-            ["Down"] * 8 +                                                    # to (22, 22)
-            ["Down"] * 4 +                                                    # to (22, 27) (including ledge jump)
-            ["Right"] * 5 +                                                   # to (27, 27)
+            ["Up"] * 4 +                                                      # to (22, 2)
+            ["Right"] * 15 +                                                  # to (37, 2)
+            ["Down"] * 6 +                                                    # to (37, 8) (crosses Row 7 barrier)
+            ["Left"] * 14 +                                                   # to (23, 8)
+            ["Down"] * 14 +                                                   # to (23, 22)
+            ["Down"] * 4 +                                                    # to (23, 27) (including ledge jump)
+            ["Right"] * 4 +                                                   # to (27, 27)
             ["Up"]                                                            # Enter Warden's House!
         )
         print("Walking to Warden's House...")
