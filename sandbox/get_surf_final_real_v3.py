@@ -104,9 +104,12 @@ def run_surf_campaign_v3():
         path_across_area2.extend(["Left"] * 27)  # to (4, 9)
         # 7. Walk Down Column 4 to Row 36 (transition to Area 3 Northwest!)
         path_across_area2.extend(["Down"] * 27)  # to (4, 36)
-    elif pos[0] == 22 and pos[1] == 24:
-        # 1. Walk Down Column 22 to Row 31 (7 steps Down)
-        path_across_area2.extend(["Down"] * 7)   # to (22, 31) (Southern Corridor)
+    elif pos[0] == 22 and pos[1] >= 24 and pos[1] <= 35:
+        # 1. Align to Row 31 (Southern Corridor)
+        if pos[1] < 31:
+            path_across_area2.extend(["Down"] * (31 - pos[1]))
+        elif pos[1] > 31:
+            path_across_area2.extend(["Up"] * (pos[1] - 31))
         # 2. Walk Right to Column 31 (9 steps Right)
         path_across_area2.extend(["Right"] * 9)  # to (31, 31)
         # 3. Walk Up Column 31 to Row 9 (22 steps Up)
