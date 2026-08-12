@@ -235,9 +235,8 @@ def run_chunk():
             stuck_count += 1
             print(f"Stuck! Didn't move from ({cx}, {cy}). Stuck count: {stuck_count}")
             if stuck_count > 3:
-                print("Stuck too long. Battle must have started. Running RUN sequence and exiting safely...")
-                run_away()
-                return True
+                print("Stuck too long (bumped into an overworld wall). Exiting to let player handle it.")
+                return False
         else:
             stuck_count = 0
             
