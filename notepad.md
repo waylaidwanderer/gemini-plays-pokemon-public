@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 51430)
-- Location: Celadon City at (21, 30).
+## CURRENT STATUS & DASHBOARD (Turn 51431)
+- Location: Celadon City at (19, 30).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Walk West 4 steps along Row 30 South Street to Column 17 at (17, 30), North 17 steps along Column 17 to door (17, 13) to enter Main Casino Floor.
+- Active Objective: Walk West 2 steps along Row 30 South Street to Column 17 at (17, 30), North 17 steps along Column 17 to door (17, 13) to enter Main Casino Floor.
 - Persistent Facts:
   - NPC at (7, 6) blocks door (7, 5) ("What do you want? Get lost!").
   - Celadon Game Corner door (17, 13) is accessed via Column 17 (x=17, y=13..28) from Row 30 South Street Highway.
@@ -753,15 +753,14 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 51431)
-- Location: Celadon City at (19, 30).
+## CURRENT STATUS & DASHBOARD (Turn 51432)
+- Location: Celadon City at (18, 30).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Walk West 2 steps along Row 30 South Street to Column 17 at (17, 30), North 17 steps along Column 17 to door (17, 13) to enter Main Casino Floor.
+- Active Objective: Walk Right 2 to Column 20 at (20, 30), Down 6 to warp tile (20, 36) into Game Corner Plaza, Down 2 into door (10, 2) to enter Main Casino Floor, step onto staircase (4, 4) into Rocket Hideout B1F.
 - Persistent Facts:
-  - NPC at (7, 6) blocks door (7, 5) ("What do you want? Get lost!").
-  - Celadon Game Corner door (17, 13) is accessed via Column 17 (x=17, y=13..28) from Row 30 South Street Highway.
-  - Celadon Game Corner door (17, 13) enters Main Casino Floor at (3, 7).
-  - Staircase tile at (4, 4) in Celadon Game Corner warps directly to Rocket Hideout B1F (2, 41).
+  - Celadon City tile (20, 36) warps directly into Game Corner Plaza at (10, 0).
+  - In Game Corner Plaza, door (10, 2) enters True Main Casino Floor ("Celadon Game Corner") at (3, 7).
+  - Staircase tile at (4, 4) in Celadon Game Corner warps directly to Rocket Hideout B1F (5, 4).
   - Column 2 (x=2) in Rocket Hideout B1F is a continuous highway of stop tiles spanning y=3..40.
 
 <hr>
