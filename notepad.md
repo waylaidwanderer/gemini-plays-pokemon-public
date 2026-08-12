@@ -753,16 +753,16 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 52471)
-- Location: Celadon City at (17, 27).
+## CURRENT STATUS & DASHBOARD (Turn 52501)
+- Location: Celadon Mansion 1F at (2, 7).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Identify and execute an unblocked path from Central Celadon to Game Corner Plaza warp (20, 36) or Main Casino floor.
-- Verified Topography:
+- Active Objective: Step South out door (2, 7) to Celadon City (27, 12), then probe unblocked passage to Game Corner Plaza warp (20, 36) or Casino floor.
+- Verified Master Topography:
+  - Celadon City door (27, 11) enters Celadon Mansion 1F floor at (2, 7).
+  - Celadon City door (13, 15) enters Prize Exchange 8x8 Room.
   - Game Corner Plaza door (17, 27) enters Celadon Game Corner floor at (3, 7).
   - Inside Celadon Game Corner (3, 7): Secret staircase at (4, 4) leads down to Rocket Hideout B1F (5, 4).
-  - Row 27 at (35, 27) has double barrels blocking direct Eastward access to Column 36.
-  - Column 34 at (34, 19) has a south-facing jump ledge blocking direct Northward access to Row 16.
-  - Saffron West Gatehouse at Saffron City (7, 2) is unlocked and connects West Saffron to Route 7.
+  - Single-step probing protocol required before issuing multi-step macros across unverified terrain features.
 
 <hr>
 
