@@ -90,22 +90,31 @@ def run_path(path, check_warp=False):
     return True
 
 def go_back_to_area2():
-    print("=== WALKING BACK TO AREA 2 (NORTH) FROM (16, 18) ===")
+    print("=== WALKING BACK TO AREA 2 (NORTH) FROM CURRENT POSITION ===")
     pos = get_pos()
     print("Starting position:", pos)
     
     path = []
-    # 1. Walk Left on the plateau to (6, 18)
-    if pos == (16, 18):
-        path.extend(["Left"] * 10) # to (6, 18)
-        path.extend(["Down"] * 2)  # to (6, 20) (descends West Stairs)
-        path.extend(["Right"] * 19) # to (25, 20)
-        path.extend(["Up"] * 17)    # to (25, 3)
-        path.append("Right")        # to (26, 3)
-        path.extend(["Up"] * 3)     # warp to Area 2!
-    else:
-        print(f"Unexpected starting position: {pos}. Aligning...")
-        return False
+    # If we are in Area 3 (West) and need to return to Area 2 via Row 26 Highway
+    if pos is not None:
+        # 1. Walk Down to Row 26
+        if pos[1] < 26:
+            path.extend(["Down"] * (26 - pos[1]))
+        elif pos[1] > 26:
+            path.extend(["Up"] * (pos[1] - 26))
+            
+        # 2. Walk Right to Column 25
+        if pos[0] < 25:
+            path.extend(["Right"] * (25 - pos[0]))
+        elif pos[0] > 25:
+            path.extend(["Left"] * (pos[0] - 25))
+            
+        # 3. Walk Up Column 25 to Row 3
+        path.extend(["Up"] * 23) # Row 26 to Row 3
+        
+        # 4. Walk Right to Column 26 and Up to transition
+        path.append("Right") # to (26, 3)
+        path.extend(["Up"] * 3) # warp to Area 2 North!
         
     print("Executing path...")
     if not run_path(path, check_warp=True):
