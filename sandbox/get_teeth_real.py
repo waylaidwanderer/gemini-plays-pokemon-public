@@ -108,9 +108,10 @@ def main():
             return
             
     # 1. Transition back to Area 3 (West) at (30, 23)
-    if pos[0] > 0 and pos[1] == 11:
-        print("Walking back to Area 3 transition...")
-        path_to_warp = ["Left"] * pos[0]
+    # We are currently at (0, 11) inside Safari Zone Center (NW)
+    if pos == (0, 11):
+        print("Walking Left to transition back to Area 3...")
+        path_to_warp = ["Left"]
         if not run_path(path_to_warp, check_warp=True):
             print("Failed to transition back to Area 3!")
             return
