@@ -84,43 +84,11 @@ def run_path(path, check_warp=False):
     return True
 
 def main():
-    print("=== STARTING THE MASTER PLAN FOR SURF (V13) ===")
+    print("=== STARTING THE SEQUENTIAL MASTER PLAN FOR SURF (V13) ===")
     
-    # 1. Clear "Did you get a good haul?" dialogue
-    print("Clearing dialogue...")
-    for _ in range(4):
-        bridge.press_buttons(["B", "sleep 500"])
-        
     pos = get_pos()
-    print("Position after clearing:", pos)
+    print("Initial position:", pos)
     
-    # 2. Walk to (4, 3)
-    if pos == (4, 0):
-        print("Walking Down to (4, 3)...")
-        run_path(["Down", "Down", "Down"])
-        pos = get_pos()
-        
-    if pos == (4, 3):
-        # 3. Buy ticket and enter
-        print("Walking Up to (4, 2)...")
-        bridge.press_buttons(["Up", "sleep 300"])
-        print("Turning Right...")
-        bridge.press_buttons(["Right", "sleep 300"])
-        print("Interacting with clerk...")
-        bridge.press_buttons(["A", "sleep 1200"])
-        
-        # Entrance dialogue sequence
-        for i in range(8):
-            bridge.press_buttons(["A", "sleep 1200"])
-            
-        time.sleep(1.0)
-        pos = get_pos()
-        if pos is None:
-            time.sleep(1.0)
-            pos = get_pos()
-            
-        print("Safari start position:", pos)
-        
     if pos == (15, 25):
         print("=== STEP 1: CROSSING CENTER TO AREA 1 ===")
         path_center = [
@@ -224,7 +192,7 @@ def main():
         print("Arrived inside Secret House:", pos)
         
     # Standard coordinates inside Secret House starting point (usually (3, 8) or similar)
-    if pos is not None:
+    if pos is not None and pos[0] <= 3 and pos[1] <= 8:
         print("=== STEP 5: TALKING TO NPC FOR SURF ===")
         # Walk Left to stand below NPC and interact
         path_inside = [
