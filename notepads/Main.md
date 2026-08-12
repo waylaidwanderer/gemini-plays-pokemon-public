@@ -1,7 +1,7 @@
-## CURRENT STATUS & DASHBOARD (Turn 52624)
-- Location: Celadon City at (25, 27).
+## CURRENT STATUS & DASHBOARD (Turn 52626)
+- Location: Celadon City at (30, 27).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Walk East along Row 27 Highway to Column 36 at (36, 27), then South through tree gap to Row 30 South Street.
+- Active Objective: Walk West 14 along Row 27 Highway to Column 16 at (16, 27), North 11 to Row 16 at (16, 16), East 20 to Column 36 at (36, 16), then South down Column 36.
 - Verified Master Topography:
   - Game Corner Plaza door (17, 27) enters Celadon Game Corner floor at (3, 7).
   - Inside Celadon Game Corner (3, 7): Secret staircase at (4, 4) leads down to Rocket Hideout B1F (5, 4).
