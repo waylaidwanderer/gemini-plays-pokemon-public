@@ -166,7 +166,8 @@ We have empirically verified that Column 28 is 100% OPEN and walkable on Rows 12
 - **Pond & Rest House 1 in Center:** Completely block the middle-western ground level on Rows 10-15 across Columns 9-19.
 - **Center Compartment Wrapping:** The Northwest Compartment of Center is completely isolated from the South/East Compartment. Transitioning RIGHT from Area 3 (West) on Row 23/26 always warps the player into this isolated Northwest Compartment of Center. To enter the South/East Compartment, we must enter directly from the Gatehouse entrance at (15, 25).
 
-### 🧪 Newly Verified Physical Boundaries & Collisions (Turns 35858-35916)
+### 🧪 Newly Verified Physical Boundaries & Collisions (Turns 35858-35971)
+- **Column 5 Row 23 Solid Fence (Area 1 East):** Solid white horizontal wood fence bordering Row 23 from Column 5 onwards, completely blocking direct downward/horizontal movement on Row 23 and forcing a detour to Row 24.
 - **Column 23 Row 24 Cliff Face (Area 2 North):** Solid cliff face bordering the Eastern Southern Plateau stairs on the East, completely blocking rightward movement at Row 24.
 - **Column 15 Row 27 Cliff Wall (Area 2 North):** Solid cliff wall tile causing a bump when walking Up from `(15, 28)`.
 - **Column 5 Shrub Barrier (Area 2 North):** Continuous dark green hedge/shrub wall from Row 20 to Row 33, completely blocking direct ground-horizontal crossing.
