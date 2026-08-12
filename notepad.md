@@ -1,13 +1,13 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 51331)
-- Location: Celadon City at (17, 18).
+## CURRENT STATUS & DASHBOARD (Turn 51357)
+- Location: Celadon City (Northern Highway) at (10, 1).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Walk East along Row 28 Highway to East Celadon / South Street, enter Main Casino Floor at East door (30, 34)/(30, 35), defeat Rocket Grunt at North Wall poster (17, 1), and reveal secret staircase to Rocket Hideout B1F.
+- Active Objective: Walk East along Row 0 Grass Highway from (10, 1) to Column 36 at (36, 0), descend down Column 36 to Row 30 South Street, and enter Main Casino Floor at East door (30, 34)/(30, 35).
 - Persistent Facts:
-  - Row 28 Highway (x=16..25+) is the open East-West highway connecting West Celadon to East Celadon South Street.
-  - Column 20 (x=20) tree wall spans y=4..13. Do NOT try to cross East at y=9.
-  - Secret staircase to Main Rocket Hideout is behind Rocket Grunt poster switch at (17, 1) on North Wall of East Casino Floor.
+  - Exiting back door of Northwest Building warps player to Celadon City Northern Highway at (10, 1), completely bypassing Column 20 tree wall.
+  - Row 0 / Row 1 Grass Highway (x=10..36) runs unobstructed East to Column 36.
+  - Column 36 (x=36, y=0..30) leads South through tree gap (36, 28) directly to South Street (36, 30) and Main Casino Floor door (30, 34)/(30, 35).
 
 <hr>
 
