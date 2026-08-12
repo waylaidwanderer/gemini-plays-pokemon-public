@@ -89,18 +89,55 @@ def run_surf_campaign_final_real():
         if pos is None:
             return False
             
-    # We are currently at (1, 5) in Area 2 (North) Northwest Ground
-    path_across_area2 = []
-    if pos[0] == 1 and pos[1] == 5:
-        # 1. Walk Right to Column 4 (3 steps Right)
-        path_across_area2.extend(["Right"] * 3)   # to (4, 5)
-        # 2. Walk Down Column 4 to Row 36 (31 steps Down)
-        path_across_area2.extend(["Down"] * 31)   # to (4, 36) (transition to Area 3 Northwest!)
+    # 1. We are in Area 1 (East) at (9, 5)
+    # We walk Left 10 steps to transition to Area 2 (North) at (39, 31)
+    path_area1 = []
+    if pos[0] == 9 and pos[1] == 5:
+        path_area1.extend(["Left"] * 10)         # to (0, 5) and warp!
     else:
-        print(f"Unexpected starting position: {pos}.")
+        print(f"Unexpected starting position: {pos}. Directing to Column 0 Row 5...")
+        if pos[0] > 0:
+            path_area1.extend(["Left"] * pos[0])
+        if pos[1] > 5:
+            path_area1.extend(["Up"] * (pos[1] - 5))
+        elif pos[1] < 5:
+            path_area1.extend(["Down"] * (5 - pos[1]))
+        path_area1.append("Left")
+        
+    print("Walking Left to transition to Area 2...")
+    if not run_path(path_area1, check_warp=True):
+        print("Failed to transition to Area 2!")
         return False
         
-    print("Walking Down Column 4 to Southwest transition...")
+    time.sleep(1.0)
+    pos = get_pos()
+    print("Position inside Area 2 (North):", pos)
+    
+    # 2. Path across Area 2 (North)
+    path_across_area2 = []
+    if pos is not None:
+        # Align to Column 15 Row 31
+        if pos[0] > 15:
+            path_across_area2.extend(["Left"] * (pos[0] - 15))
+        elif pos[0] < 15:
+            path_across_area2.extend(["Right"] * (15 - pos[0]))
+        if pos[1] < 31:
+            path_across_area2.extend(["Down"] * (31 - pos[1]))
+        elif pos[1] > 31:
+            path_across_area2.extend(["Up"] * (pos[1] - 31))
+            
+        # At (15, 31), walk Up to Row 16
+        path_across_area2.extend(["Up"] * 15)    # to (15, 16)
+        # Walk Left to Column 13
+        path_across_area2.extend(["Left"] * 2)   # to (13, 16)
+        # Walk Up Column 13 to Row 9
+        path_across_area2.extend(["Up"] * 7)     # to (13, 9)
+        # Walk Left along Row 9 to Column 4
+        path_across_area2.extend(["Left"] * 9)   # to (4, 9)
+        # Walk Down Column 4 to Row 36
+        path_across_area2.extend(["Down"] * 27)  # to (4, 36) (transition to Area 3 Northwest!)
+        
+    print("Walking across Area 2 to Southwest transition...")
     if not run_path(path_across_area2, check_warp=True):
         print("Failed to reach Area 3 Northwest transition!")
         return False
