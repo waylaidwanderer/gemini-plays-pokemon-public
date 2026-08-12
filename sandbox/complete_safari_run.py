@@ -67,11 +67,12 @@ path_stage2a = [
     "Left", "Left", "Left", "Left" # (12, 22) -> (8, 22) (4 steps)
 ]
 
-# Stage 2b from (8, 9) to (17, 8) (14 steps)
+# Stage 2b from (9, 7) to (17, 8) (13 steps)
 path_stage2b = [
-    "Up", "Up", # (8, 9) -> (8, 7) (2 steps)
-    "Right", "Right", "Right", "Right", # (8, 7) -> (12, 7) (4 steps)
-    "Up", # climb Northern Plateau to (12, 6) (1 step)
+    "Down", # (9, 7) -> (9, 8) (1 step)
+    "Right", "Right", "Right", # (9, 8) -> (12, 8) (3 steps)
+    "Up", # (12, 8) -> (12, 7) (climb Northern Plateau stairs) (1 step)
+    "Up", # (12, 7) -> (12, 6) (on Northern Plateau) (1 step)
     "Right", "Right", "Right", "Right", "Right", # (12, 6) -> (17, 6) (5 steps)
     "Down", "Down" # descend stairs to (17, 8) (2 steps)
 ]
@@ -194,4 +195,4 @@ def run_stage6():
 
 if __name__ == "__main__":
     # Default execution
-    run_stage2a()
+    run_stage2b()
