@@ -5,57 +5,69 @@ import sys
 sys.stdout.reconfigure(encoding='utf-8')
 
 def get_pos():
-    for _ in range(4):
-        pos = bridge.get_coordinates()
-        if pos is not None:
-            return pos[0], pos[1]
-        time.sleep(0.1)
+    pos = bridge.get_coordinates()
+    if pos is not None:
+        return pos[0], pos[1]
     return None
 
-def walk_step_robust(direction):
-    pos = get_pos()
-    if pos is None:
-        return None
-    bridge.press_buttons([direction])
-    for _ in range(5):
-        time.sleep(0.15)
-        new_pos = get_pos()
-        if new_pos != pos:
-            return new_pos
-    return pos
-
 def main():
-    print("=== TESTING LEDGE UP ON COLUMNS 8 DOWN TO 1 ===")
-    
-    # We are at (9, 32)
+    print("Testing paths...")
+    # Walk back to (19, 28)
+    # Current is (16, 32)
+    # Walk Right 3 to (19, 32)
+    # Walk Up 4 to (19, 28)
+    for _ in range(3):
+        bridge.press_buttons(["Right"])
+        time.sleep(0.5)
+    for _ in range(4):
+        bridge.press_buttons(["Up"])
+        time.sleep(0.5)
+        
     pos = get_pos()
-    print("Start pos:", pos)
+    print("At:", pos)
+    if pos != (19, 28):
+        print("Failed to return to (19, 28)")
+        return
+        
+    # Test Left on Row 28
+    print("Testing Left on Row 28...")
+    # We are at (19, 28). Let's try walking Left.
+    bridge.press_buttons(["Left"])
+    time.sleep(0.6)
+    pos28 = get_pos()
+    print("Position after Left on Row 28:", pos28)
     
-    # We will walk Left to column 8, try Up.
-    # If blocked, walk Left to column 7, try Up...
-    # until we find a column that lets us walk Up to Row 31!
-    for col in range(8, 0, -1):
-        pos = get_pos()
-        if pos is None:
-            continue
-            
-        # Walk Left to the target column
-        while pos[0] > col:
-            print(f"Walking Left from {pos} to target Column {col}...")
-            new_pos = walk_step_robust("Left")
-            if new_pos == pos:
-                print("Left movement blocked!")
-                return
-            pos = new_pos
-            
-        # Try walking Up
-        print(f"Testing Up on Column {col} at {pos}...")
-        new_pos = walk_step_robust("Up")
-        if new_pos != pos:
-            print(f"SUCCESS! Walked Up on Column {col} to {new_pos}!")
-            return
-        else:
-            print(f"Column {col} is blocked/solid.")
+    if pos28 == (18, 28):
+        # We can walk left on row 28! Let's try walking further left
+        print("Walking further left on Row 28...")
+        for _ in range(10):
+            bridge.press_buttons(["Left"])
+            time.sleep(0.5)
+        print("Position after walking left on Row 28:", get_pos())
+    else:
+        # Go back to (19, 28)
+        bridge.press_buttons(["Right"])
+        time.sleep(0.5)
+        
+        # Test Left on Row 29
+        print("Testing Left on Row 29...")
+        bridge.press_buttons(["Down", "Left"])
+        time.sleep(0.6)
+        pos29 = get_pos()
+        print("Position after Left on Row 29:", pos29)
+        # return to (19, 28)
+        bridge.press_buttons(["Right", "Up"])
+        time.sleep(0.6)
+        
+        # Test Left on Row 30
+        print("Testing Left on Row 30...")
+        bridge.press_buttons(["Down", "Down", "Left"])
+        time.sleep(0.6)
+        pos30 = get_pos()
+        print("Position after Left on Row 30:", pos30)
+        # return to (19, 28)
+        bridge.press_buttons(["Right", "Up", "Up"])
+        time.sleep(0.6)
 
 if __name__ == "__main__":
     main()
