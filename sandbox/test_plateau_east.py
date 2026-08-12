@@ -8,7 +8,7 @@ def get_pos():
     return pos[0], pos[1]
 
 def run_away():
-    print("Interaction/Battle detected. Clearing...")
+    print("Wild battle/interaction detected! Executing RUN sequence...")
     for _ in range(4):
         bridge.press_buttons(["B", "sleep 250"])
     bridge.press_buttons(["Right", "sleep 250", "Down", "sleep 250", "A", "sleep 1200"])
@@ -17,50 +17,56 @@ def run_away():
 def walk_step(direction):
     bridge.press_buttons([direction, "sleep 400"])
 
-def test_east_plateau():
-    # Currently at (28, 22).
-    # 1. Walk to stairs at (24, 15) and climb
-    # 2. Walk to row 12 and try to go Right
-    # 3. Walk to row 13 and try to go Right
-    # 4. Walk to row 14 and try to go Right
+def test_boundaries():
+    # Currently at (25, 21).
+    # Let's walk UP to row 14 to see if we can go Right.
+    # Rows 12-14 is where the Central Plateau is supposed to be.
     
-    # Walk to (24, 16)
-    path_to_stairs = ["Left", "Left", "Left", "Left", "Up"]
-    for direction in path_to_stairs:
-        walk_step(direction)
-        print(f"Current pos: {get_pos()}")
-        
-    # Walk Up to row 12
-    for _ in range(3):
+    # 1. Walk UP to row 14
+    for _ in range(7): # 21 to 14 is 7 steps
+        pos = get_pos()
+        if pos is None:
+            run_away()
+            pos = get_pos()
+        print(f"Current pos before walking Up: {pos}")
         walk_step("Up")
-        print(f"Current pos: {get_pos()}")
         
-    # We should be at (24, 12)
-    # Walk Right to Column 26
-    for _ in range(2):
+    pos = get_pos()
+    print(f"Reached row: {pos}")
+    
+    # 2. Walk Right to column 26
+    while True:
+        pos = get_pos()
+        if pos is None:
+            run_away()
+            pos = get_pos()
+        cx, cy = pos
+        if cx >= 26:
+            break
+        print(f"Walking Right from {pos}...")
         walk_step("Right")
-        print(f"Current pos: {get_pos()}")
         
-    # Now we are at (26, 12). Try to walk Right!
-    print("Trying to walk Right from (26, 12) to (27, 12)...")
-    walk_step("Right")
-    print(f"Position after trying Right from (26, 12): {get_pos()}")
+    pos = get_pos()
+    print(f"Standing at {pos}. Let's test walking RIGHT...")
     
-    # Try row 13
-    print("Moving to row 13...")
-    walk_step("Down")
-    print(f"Current pos: {get_pos()}")
-    print("Trying to walk Right from (26, 13) to (27, 13)...")
-    walk_step("Right")
-    print(f"Position after trying Right from (26, 13): {get_pos()}")
-    
-    # Try row 14
-    print("Moving to row 14...")
-    walk_step("Down")
-    print(f"Current pos: {get_pos()}")
-    print("Trying to walk Right from (26, 14) to (27, 14)...")
-    walk_step("Right")
-    print(f"Position after trying Right from (26, 14): {get_pos()}")
+    # Try walking Right 3 times
+    for i in range(3):
+        pos = get_pos()
+        if pos is None:
+            run_away()
+            pos = get_pos()
+        print(f"Test {i}: before = {pos}")
+        walk_step("Right")
+        pos2 = get_pos()
+        if pos2 is None:
+            run_away()
+            pos2 = get_pos()
+        print(f"Test {i}: after = {pos2}")
+        if pos2[0] > pos[0]:
+            print("SUCCESS! We walked Right off the plateau!")
+            return
+
+    print("BLOCKED! Could not walk Right off the plateau.")
 
 if __name__ == "__main__":
-    test_east_plateau()
+    test_boundaries()
