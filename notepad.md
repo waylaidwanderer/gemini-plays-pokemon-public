@@ -1,15 +1,15 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 52051)
-- Location: Celadon Game Corner (Main Casino Floor) at (4, 3).
+## CURRENT STATUS & DASHBOARD (Turn 52081)
+- Location: Rocket Hideout B1F at (2, 6).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Probe tile (5, 4) from (4, 4) to complete empirical passability audit of Column 5 partition wall.
+- Active Objective: Systematically step Right from Column 2 Control Highway onto Column 3 spin tiles to test row trajectories and locate Eastward spin passage.
 - Persistent Facts:
   - Game Corner Plaza warp (20, 36) in Celadon City enters Game Corner Plaza (10, 0).
-  - Door (10, 2)/(10, 7) in Game Corner Plaza enters Main Casino Floor ("Celadon Game Corner") at interior (3, 0)/(3, 5).
-  - Tiles (3, 5) and (4, 5) in Celadon Game Corner are exit mat warp tiles leading outside to Game Corner Plaza.
-  - Rocket Grunt and poster switch are located on North Wall in East Casino Floor at interior (17, 1).
-  - Defeating Grunt and pressing A on poster reveals secret staircase to Rocket Hideout.
+  - Main Casino Floor door (17, 13) in outdoor Celadon City enters interior (3, 7).
+  - Secret staircase at interior (4, 4) in Celadon Game Corner descends into Rocket Hideout B1F at (5, 4).
+  - Column 2 (x=2, y=3..41) in Rocket Hideout B1F is a continuous control highway of stop tiles.
+  - Giovanni on B4F holds the Silph Scope needed for Pokemon Tower.
 
 <hr>
 
