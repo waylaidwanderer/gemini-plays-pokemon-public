@@ -56,19 +56,21 @@ def run_path(path):
     return True
 
 def main():
-    print("=== WALKING NORTH ROUTE TO WARDEN'S HOUSE ===")
+    print("=== WALKING DYNAMIC NORTH ROUTE TO WARDEN'S HOUSE ===")
     pos = get_pos()
     print("Starting position:", pos)
     
-    # We are at (18, 6) in Fuchsia City.
+    # We are at (22, 6) in Fuchsia City.
     # Route:
-    # 1. Walk Right along Row 6 from Column 18 to Column 37 (19 steps Right) -> (37, 6)
-    # 2. Walk Down Column 37 from Row 6 to Row 27 (21 steps Down) -> (37, 27)
-    # 3. Walk Left along Row 27 to Column 27 (10 steps Left) -> (27, 27)
-    # 4. Walk Up to enter Warden's House!
+    # 1. Walk Up Column 22 to Row 2 -> (22, 2) (4 steps Up)
+    # 2. Walk Right along Row 2 to Column 37 -> (37, 2) (15 steps Right)
+    # 3. Walk Down Column 37 to Row 27 -> (37, 27) (25 steps Down)
+    # 4. Walk Left along Row 27 to Column 27 -> (27, 27) (10 steps Left)
+    # 5. Walk Up to enter Warden's House!
     path = (
-        ["Right"] * 19 +
-        ["Down"] * 21 +
+        ["Up"] * 4 +
+        ["Right"] * 15 +
+        ["Down"] * 25 +
         ["Left"] * 10 +
         ["Up"]
     )
