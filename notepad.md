@@ -1,12 +1,11 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 51062)
-- Location: Game Corner Center Sub-room (3, 5).
+## CURRENT STATUS & DASHBOARD (Turn 51069)
+- Location: Celadon Game Corner (Main Casino Floor) at (3, 7).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Exit sub-room and Plaza to Celadon City (20, 36), navigate Column 17 highway to True Main Casino door at (17, 13).
+- Active Objective: Reach Rocket Grunt & Poster Switch on North Wall at (17, 1).
 - Persistent Facts:
-  - Game Corner Plaza door (10, 2) is the 8x6 Center Sub-room.
-  - True Main Casino Floor is entered from outdoor Celadon City door (17, 13).
+  - Main Game Corner Casino in Celadon City is located at Celadon City door (17, 13).
   - Secret Staircase at (4, 4) inside Main Game Corner Casino leads down to Rocket Hideout B1F.
 
 <hr>
@@ -751,10 +750,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 51069)
-- Location: Celadon Game Corner (Main Casino Floor) at (3, 7).
+## CURRENT STATUS & DASHBOARD (Turn 51070)
+- Location: Celadon City at (17, 14).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Reach Rocket Grunt & Poster Switch on North Wall at (17, 1).
+- Active Objective: Re-enter Game Corner at (17, 13) and walk Up 2 to Row 5 cross-aisle -> Right 14 to North Wall poster switch at (17, 1).
 - Persistent Facts:
   - Main Game Corner Casino in Celadon City is located at Celadon City door (17, 13).
   - Secret Staircase at (4, 4) inside Main Game Corner Casino leads down to Rocket Hideout B1F.
