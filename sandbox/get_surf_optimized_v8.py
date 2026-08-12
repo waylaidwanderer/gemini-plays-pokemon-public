@@ -82,53 +82,28 @@ def run_surf_campaign():
     pos = get_pos()
     print("Starting campaign from position:", pos)
     
-    # Dismiss the "Got away safely!" screen
-    print("Dismissing 'Got away safely!' screen...")
-    bridge.press_buttons(["B", "sleep 500"])
+    path_area2 = []
     
-    time.sleep(0.5)
-    pos = get_pos()
-    print("Overworld position after dismissing:", pos)
-    if pos is None:
-        print("Failed to get position, let's retry...")
-        pos = get_pos()
-        
-    path_area1 = []
-    
-    # We are currently at (20, 4) in Area 1 (East)
-    if pos is not None and pos[0] == 20 and pos[1] == 4:
-        # Continue Area 1 East route from (20, 4)
-        path_area1.append("Up")            # to (20, 3)
-        path_area1.extend(["Left"] * 13)   # to (7, 3)
-        path_area1.extend(["Down"] * 2)    # to (7, 5)
-        path_area1.extend(["Left"] * 7)    # to (0, 5) (transition!)
+    # We are currently at (39, 31) in Area 2 (North)
+    if pos is not None and pos[0] == 39 and pos[1] == 31:
+        # Walk Column 25 and Row 9 ground-level route to Southwest Transition
+        path_area2 = [
+            "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
+            "Left", "Left", "Left", "Left", # (39, 31) -> (25, 31) (14 steps Left)
+            "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up",
+            "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up",
+            "Up", "Up",                     # (25, 31) -> (25, 9) (22 steps Up)
+            "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
+            "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
+            "Left",                         # (25, 9) -> (4, 9) (21 steps Left)
+            "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down",
+            "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down",
+            "Down", "Down", "Down", "Down", "Down", "Down", "Down" # (4, 9) -> (4, 36) (27 steps Down, warp!)
+        ]
     else:
-        print(f"Error: Not at expected starting position (20, 4). Position is: {pos}")
+        print(f"Error: Not at expected starting position (39, 31). Position is: {pos}")
         return False
         
-    print("=== STAGE 3: Walking Area 1 to Area 2 ===")
-    if not run_path(path_area1, check_warp=True):
-        return False
-        
-    time.sleep(1.0)
-    pos = get_pos()
-    print("Coordinates in Area 2 North:", pos)
-    
-    # 4. Path in Area 2 (North) using Column 25 and Row 9 ground-level route
-    path_area2 = [
-        "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
-        "Left", "Left", "Left", "Left", # (39, 31) -> (25, 31) (14 steps Left)
-        "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up",
-        "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up",
-        "Up", "Up",                     # (25, 31) -> (25, 9) (22 steps Up)
-        "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
-        "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
-        "Left",                         # (25, 9) -> (4, 9) (21 steps Left)
-        "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down",
-        "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down",
-        "Down", "Down", "Down", "Down", "Down", "Down", "Down" # (4, 9) -> (4, 36) (27 steps Down, warp!)
-    ]
-    
     print("=== STAGE 4: Walking Area 2 to Southwest Transition ===")
     if not run_path(path_area2, check_warp=True):
         return False
