@@ -1,25 +1,18 @@
-import time
 import bridge
 
-def get_pos():
-    pos = bridge.get_coordinates()
-    if pos is None:
-        return None
-    return pos[0], pos[1]
-
-def enter_from_counter():
-    print("Executing safe A presses to complete entry dialogue...")
-    
-    # We are at (4, 2) with "Welcome to the SAFARI ZONE!" active.
-    # We need 7 A presses to clear dialogue and warp in.
-    for step in range(7):
-        print(f"Pressing A for step {step}...")
-        bridge.press_buttons(["A", "sleep 850"])
-        
-    print("Done! Checking position...")
-    pos = get_pos()
-    print(f"Position: {pos}")
-    return pos
+def enter_safari():
+    print("Turning UP and enqueuing safari entry dialogue...")
+    bridge.press_buttons([
+        "Up", "sleep 500",
+        "A", "sleep 1000", # Talk to clerk
+        "A", "sleep 1000", # Welcome dialogue
+        "A", "sleep 1000", # Select YES to join
+        "A", "sleep 1000", # Pay ¥500 dialogue
+        "A", "sleep 1000", # Receive 30 Safari Balls
+        "A", "sleep 1000", # Receive rules explanation
+        "A", "sleep 2000"  # Have a great game and warp in!
+    ])
+    print("Dialogue buttons enqueued successfully!")
 
 if __name__ == "__main__":
-    enter_from_counter()
+    enter_safari()
