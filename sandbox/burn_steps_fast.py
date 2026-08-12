@@ -11,7 +11,7 @@ def burn_steps():
     # This is under the 100-button limit of a single execution!
     batch = []
     # Left 5, Right 5, repeated 9 times (90 buttons total)
-    for _ in range(9):
+    for _ in range(45):
         batch.append("Left")
         batch.append("Right")
         
