@@ -57,11 +57,11 @@ def run_path(path, check_warp=False):
                     break
     return True
 
-# 1. From (21, 7) to (6, 20) via Row 3 (36 steps)
+# 1. From (21, 7) to (6, 20) via Row 1 (40 steps)
 path_to_ground = [
-    "Up", "Up", "Up", "Up",
+    "Up", "Up", "Up", "Up", "Up", "Up",
     "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
-    "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down"
+    "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down"
 ]
 
 # 2. From (6, 20) to Gold Teeth Warp (13 steps)
@@ -90,7 +90,7 @@ path_to_house = [
 ]
 
 def run_all():
-    print("=== STARTING RETRIEVAL FROM (21, 7) ===")
+    print("=== STARTING RETRIEVAL FROM CURRENT BATTLE ===")
     
     # First, flee the active battle
     run_away()
@@ -98,11 +98,9 @@ def run_all():
     # Wait a bit for overworld to load
     time.sleep(1.0)
     
-    # Verify we are back in overworld at (21, 7)
+    # Verify we are back in overworld
     pos = get_pos()
     print(f"Back in overworld at: {pos}")
-    if pos != (21, 7):
-        print("Warning: Expected to be at (21, 7) after fleeing.")
         
     print("=== PHASE 4 (REVISED): Walk to West Ground Level ===")
     if not run_path(path_to_ground, check_warp=False):
