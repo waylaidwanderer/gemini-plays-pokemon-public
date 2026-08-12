@@ -17,53 +17,26 @@ def run_away():
 def walk_step(direction):
     bridge.press_buttons([direction, "sleep 400"])
 
-def test_west_plateau_cols():
-    # Currently at (25, 16)
-    print("Walking to the stairs from (25, 16)...")
-    walk_step("Left") # To (24, 16)
-    walk_step("Up")   # To (24, 15) (stairs)
-    walk_step("Up")   # To (24, 14) (plateau)
-    walk_step("Up")   # To (24, 13)
-    walk_step("Up")   # To (24, 12)
-    
+def test_west_plateau():
+    print("Testing LEFT from (20, 12)...")
     pos = get_pos()
-    print(f"At position: {pos}")
-    if pos != (24, 12):
-        print("Failed to reach (24, 12).")
-        return
-        
-    # We will test Columns 23, 22, 21, 20 by walking Left and trying UP
-    for col in range(23, 19, -1):
-        # Walk Left to the target column
-        pos = get_pos()
-        if pos is None:
-            run_away()
-            pos = get_pos()
-        cx, cy = pos
-        dx = col - cx
-        if dx < 0:
-            for _ in range(-dx):
-                walk_step("Left")
-                
-        pos = get_pos()
-        print(f"Testing Column {col} from pos {pos}...")
+    print(f"Current pos: {pos}")
+    
+    # Try Left
+    walk_step("Left")
+    pos2 = get_pos()
+    print(f"Pos after Left: {pos2}")
+    
+    if pos2 == (19, 12):
+        # Try Left again
+        walk_step("Left")
+        pos3 = get_pos()
+        print(f"Pos after second Left: {pos3}")
         
         # Try UP
+        print("Trying UP from new pos...")
         walk_step("Up")
-        pos_after = get_pos()
-        if pos_after is None:
-            run_away()
-            pos_after = get_pos()
-            
-        print(f"  Result of UP on column {col}: {pos_after}")
-        if pos_after[1] < pos[1]:
-            print(f"  SUCCESS! Column {col} is OPEN UP to row 11!")
-            # Walk back Down to Plateau row 12
-            walk_step("Down")
-            return True
-            
-    print("All western columns blocked on north edge.")
-    return False
+        print(f"Pos after UP: {get_pos()}")
 
 if __name__ == "__main__":
-    test_west_plateau_cols()
+    test_west_plateau()
