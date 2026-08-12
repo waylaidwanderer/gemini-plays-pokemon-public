@@ -51,6 +51,16 @@
 - **Escape Rope:** Obtained on Turn 13977, consumed on Turn 16964.
 
 ## Verified Inventory (9/20 slots used - 11 empty slots)
+
+## Active Safari Zone Session (Start Turn: 35958)
+- **Start Turn:** 35958
+- **Current Turn:** 35958
+- **Steps Used:** 0
+- **Steps Remaining:** 500
+- **Current Location:** Safari Zone Center at (15, 25)
+- **Session Goals:** Retrieve BOTH the Gold Teeth and HM03 (Surf) in this single run.
+
+
 - **In-Game Verification:** Verified on Turn 27754 (PACK audited inside Safari Rest House 3).
 - **Moon Stone:** 2 (1 stack)
 - **HM01 (Cut):** 1
