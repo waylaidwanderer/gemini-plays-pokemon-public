@@ -18,23 +18,42 @@ def walk_step(direction):
     bridge.press_buttons([direction, "sleep 400"])
 
 def test_col8_route():
-    # Currently at (24, 16) on the ground.
-    print("Walking down Column 24 to Row 22...")
-    for _ in range(6):
-        walk_step("Down")
-        print(f"Pos: {get_pos()}")
-        
+    # Currently at (24, 22) on the ground.
+    print("Clearing 'Got away safely!' text...")
+    bridge.press_buttons(["B", "sleep 500"])
+    
     pos = get_pos()
-    print(f"At Row 22: {pos}")
-    if pos[1] != 22:
-        print("Failed to reach Row 22.")
-        return
+    print(f"Starting position: {pos}")
+    if pos is None:
+        # If position is None, maybe we didn't clear the text properly, try again
+        bridge.press_buttons(["B", "sleep 500"])
+        pos = get_pos()
+        print(f"Position retry: {pos}")
         
+    # We should be at (24, 22) or (24, 21) or similar.
+    # We will dynamically walk to Row 22 if needed.
+    cx, cy = pos
+    if cy < 22:
+        print(f"Walking DOWN to Row 22...")
+        for _ in range(22 - cy):
+            walk_step("Down")
+    elif cy > 22:
+        print(f"Walking UP to Row 22...")
+        for _ in range(cy - 22):
+            walk_step("Up")
+            
     # Walk Left along Row 22 to Column 8
     print("Walking Left to Column 8...")
-    for _ in range(16):
+    for step in range(16):
+        pos = get_pos()
+        if pos is None:
+            run_away()
+            pos = get_pos()
+        cx, cy = pos
+        if cx == 8:
+            break
         walk_step("Left")
-        print(f"Pos: {get_pos()}")
+        print(f"Step {step}: Pos={get_pos()}")
         
     pos = get_pos()
     print(f"At Column 8: {pos}")
@@ -43,13 +62,17 @@ def test_col8_route():
         return
         
     # Walk UP Column 8 to Row 10
-    print("Walking UP Column 8...")
-    for _ in range(12):
+    print("Walking UP Column 8 to Row 10...")
+    for step in range(15):
         pos = get_pos()
-        if pos[1] == 10:
+        if pos is None:
+            run_away()
+            pos = get_pos()
+        cx, cy = pos
+        if cy == 10:
             break
         walk_step("Up")
-        print(f"Pos: {get_pos()}")
+        print(f"Step {step}: Pos={get_pos()}")
         
     pos = get_pos()
     print(f"At Row 10: {pos}")
@@ -59,12 +82,16 @@ def test_col8_route():
         
     # Walk RIGHT along Row 10 to Column 30
     print("Walking RIGHT along Row 10...")
-    for _ in range(25):
+    for step in range(25):
         pos = get_pos()
-        if pos[0] == 30:
+        if pos is None:
+            run_away()
+            pos = get_pos()
+        cx, cy = pos
+        if cx == 30:
             break
         walk_step("Right")
-        print(f"Pos: {get_pos()}")
+        print(f"Step {step}: Pos={get_pos()}")
         
     pos = get_pos()
     print(f"At transition: {pos}")
