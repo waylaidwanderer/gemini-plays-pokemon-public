@@ -1,11 +1,12 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 51108)
-- Location: Celadon City at (17, 14).
+## CURRENT STATUS & DASHBOARD (Turn 51112)
+- Location: Celadon Game Corner (West Slot Bay) at (6, 7).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Re-enter Game Corner at (17, 13) -> walk Right to (6, 7) on Row 7 cross-aisle to reveal x=8..11.
+- Active Objective: Exit via (4, 7) to Celadon City, walk East to door (18, 21) or (30, 19) to enter Main East Casino floor.
 - Persistent Facts:
-  - Main Game Corner Casino in Celadon City is located at Celadon City door (17, 13).
+  - Celadon City door (17, 13) enters the enclosed West Slot Bay.
+  - Main East Casino Floor is entered via door (18, 21) or (30, 19) / (20, 36).
   - Secret Staircase at (4, 4) inside Main Game Corner Casino leads down to Rocket Hideout B1F.
 
 <hr>
@@ -1208,16 +1209,19 @@ Systematically probe every potential building doorway and alleyway warp in South
 
 # Game Corner Interior Empirical Testing Log
 
-## Single-Stepping Tile Passability Protocol (Turn 51111)
-- Current Position: (6, 7) facing Right in Celadon Game Corner.
-- Goal: Systematically test tile passability 1 step at a time across Columns 6 through 12 to reach East Casino floor (x>=10).
-- Rules: Never issue 'Down' while at y=7 (exit mat). Always verify tile passability before issuing multi-step macros.
-
-## Verified Tile Log
-- (3, 7) / (4, 7): Exit mats (warps outside if 'Down' is pressed).
-- (5, 7) / (6, 7): Open carpet on Row 7 cross-aisle.
-- (6, 5), (6, 4), (6, 3), (6, 2), (6, 0): Solid obstacles along Column 6.
-- Testing (7, 7) from (6, 7).
+## West Slot Bay Complete Map Audit (Turn 51112)
+- Empirically tested and visually verified 100% of tiles x=0..7, y=0..7:
+  - Column 6/7 Vertical Barrier (100% Solid):
+    - (6, 0): Solid brown wall (bumped turn 51080)
+    - (7, 1): Solid urn statue (bumped turn 51076)
+    - (6, 2): Solid brown slot machine counter
+    - (6, 3): Solid brown slot machine counter (bumped turn 51095)
+    - (6, 4): Solid brown slot machine counter (bumped turn 51094)
+    - (6, 5): Solid brown slot machine counter (bumped turn 51072)
+    - (6, 6): Solid brown slot machine counter
+    - (7, 7): Solid urn statue (bumped turn 51112)
+- Conclusion: Celadon City door (17, 13) enters the enclosed 7-column West Slot Bay (x=0..6).
+- Action: Exiting via south exit mat (4, 7) to outdoor Celadon City, then walking East along Row 18/20 street to enter Main East Casino floor via door (18, 21) or (30, 19) / (20, 36).
 
 <hr>
 
