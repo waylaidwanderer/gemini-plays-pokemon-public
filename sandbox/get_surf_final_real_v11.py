@@ -175,7 +175,7 @@ def main():
         print("Arrived in Area 2:", pos)
         
     # We should be at Column 39, Row 2 of Area 2 (North)
-    if pos is not None and pos[1] == 2:
+    if pos is not None and pos[1] == 2 and pos[0] != 4:
         print("=== STEP 3: TRAVERSING AREA 2 NORTH CORRIDOR ===")
         # Walk Left along Row 2 to Column 4, then Down Column 4 to transition
         path_area2 = [
