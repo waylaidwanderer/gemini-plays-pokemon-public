@@ -97,36 +97,22 @@ def run_path(path, check_warp=False):
     return True
 
 def main():
-    print("=== CONTINUING SAFARI RUN TO GOLD TEETH ===")
-    
-    # 1. Escape current battle
-    handle_battle()
+    print("=== FINAL PHASE: RETRIEVING THE GOLD TEETH ===")
     
     pos = get_pos()
     print("Starting position:", pos)
     if pos is None:
-        print("Still in battle or transition failed. Trying again...")
         handle_battle()
         pos = get_pos()
         if pos is None:
             return
             
-    # 2. We are in Area 2 (North)
-    if pos[0] >= 18 and pos[1] >= 20: # Typically around (22, 31)
-        print("Walking across Area 2 (North) to Area 3 (West)...")
-        # Route from current pos to (8, 36)
-        path_area2 = (
-            ["Up"] * (pos[1] - 24) +  # to (22, 24)
-            ["Up"] * 2 +  # to (22, 22) (climb stairs)
-            ["Left"] * (pos[0] - 16) + # to (16, 22)
-            ["Down"] * 6 + # to (16, 28) (descend stairs)
-            ["Left"] * 4 + # to (12, 28)
-            ["Down"] * 5 + # to (12, 33)
-            ["Left"] * 4 + # to (8, 33)
-            ["Down"] * 3  # to (8, 36) (warp)
-        )
-        if not run_path(path_area2, check_warp=True):
-            print("Failed to reach Area 3!")
+    # 1. Walk from (9, 33) to Area 3 transition at (8, 36)
+    if pos == (9, 33):
+        print("Walking to Area 3 transition...")
+        path_to_warp = ["Left", "Down", "Down", "Down"]
+        if not run_path(path_to_warp, check_warp=True):
+            print("Failed to transition to Area 3!")
             return
             
     # Wait for map transition to load
@@ -137,7 +123,7 @@ def main():
     if pos is None:
         pos = get_pos()
         
-    # 3. Inside Area 3 (West) starting at (26, 0)
+    # 2. Inside Area 3 (West) starting at (26, 0)
     if pos is not None and pos[0] == 26 and pos[1] == 0:
         print("Walking to (19, 24) in Area 3 (West)...")
         path_area3 = [
@@ -158,7 +144,7 @@ def main():
     pos = get_pos()
     print("Arrived at target position:", pos)
     
-    # 4. Pick up the Gold Teeth
+    # 3. Pick up the Gold Teeth
     if pos == (19, 24):
         print("=== INTERACTING TO PICK UP GOLD TEETH ===")
         # Press Down to face Down
