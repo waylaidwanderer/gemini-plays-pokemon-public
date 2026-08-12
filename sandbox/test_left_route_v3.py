@@ -21,17 +21,16 @@ def walk_step(direction):
     bridge.press_buttons([direction, "sleep 400"])
 
 def walk_route_v3():
-    # We are at (6, 28)
-    # We walk UP to Row 9, LEFT to Column 3, and DOWN to Row 36 (transition)
+    # We are at (6, 20)
+    # 1. Walk Right to (8, 20)
+    # 2. Walk Up Column 8 to (8, 9)
+    # 3. Walk Left on Row 9 to (3, 9)
+    # 4. Walk Down Column 3 to (3, 36) (transition)
     path = []
     
-    # 1. UP from Row 28 to Row 9 (19 steps UP)
-    path.extend(["Up"] * 19)
-    
-    # 2. LEFT from Column 6 to Column 3 (3 steps LEFT)
-    path.extend(["Left"] * 3)
-    
-    # 3. DOWN from Row 9 to Row 36 (27 steps DOWN)
+    path.extend(["Right"] * 2)
+    path.extend(["Up"] * 11)
+    path.extend(["Left"] * 5)
     path.extend(["Down"] * 27)
     
     idx = 0
