@@ -69,10 +69,10 @@
 
 ## Active Safari Zone Session (Start Turn: 35479)
 - **Start Turn:** 35479
-- **Current Turn:** 35493
-- **Steps Used:** 16
-- **Steps Remaining:** 484
-- **Current Location:** Safari Zone Center at (27, 23)
+- **Current Turn:** 35515
+- **Steps Used:** 63
+- **Steps Remaining:** 437
+- **Current Location:** Safari Zone Area 1 (East) at (8, 15)
 - **Session Goals:** Execute the fully optimized, 100% walkable speedrun route (ground-level bypass of Central Plateau, Column 28 ledge jump, and Southwest Area 2 transition to Area 3).
 - **Empirical Refutations:**
   - Bypassed the Central Plateau entirely. Verified Column 28 is 100% walkable and NOT blocked by trees on Turn 35165. This saved 22 steps.
