@@ -752,14 +752,14 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 51152)
-- Location: Celadon City at (9, 12).
+## CURRENT STATUS & DASHBOARD (Turn 51182)
+- Location: Game Corner Plaza at (19, 4).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Walk South to Row 18 street at (9, 18), walk East along Row 18 to (30, 18), and enter Main Game Corner Casino door at (30, 19).
+- Active Objective: Walk South along x=19 pavement to locate Main Casino Door at (17, 27) in Game Corner Plaza.
 - Persistent Facts:
-  - Column 20 (x=20) at y=5..13 is a solid tree wall blocking Row 9 Eastward traversal beyond x=19.
-  - Door (17, 13) in Celadon City enters 8x8 Nidoran Trade Sub-room (NOT Main Casino).
-  - Main Game Corner Casino Entrance: Located on Row 18/20 street at tile (30, 19).
+  - Game Corner Plaza (19, 0) warp connects to Celadon City (19, 36).
+  - Main Game Corner Casino entrance in Game Corner Plaza is located at (17, 27).
+  - Door (7, 3) in Game Corner Plaza enters Prize Exchange. Door (11, 3) enters Pokemon Center.
   - Secret Staircase at North Wall (17, 1) / (18, 1) inside Main Game Corner Casino leads down to True Main Rocket Hideout B1F.
 
 <hr>
