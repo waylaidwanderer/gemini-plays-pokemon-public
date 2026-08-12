@@ -753,10 +753,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 51691)
-- Location: Celadon Game Corner at (4, 4).
+## CURRENT STATUS & DASHBOARD (Turn 51721)
+- Location: Rocket Hideout B1F at (4, 31).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Re-enter Rocket Hideout B1F via staircase (4, 4) and systematically test B1F spin tile rows from Column 2 Control Highway.
+- Active Objective: Systematically test B1F spin tile rows (3, y) from Column 2 Control Highway to find Eastward trajectory into main B1F floor.
 - Persistent Facts:
   - Celadon Game Corner tile (4, 7) is the exit mat to Game Corner Plaza (10, 7).
   - Main Game Corner Casino Floor Entrance is located in outdoor Celadon City at tile (30, 34)/(30, 35).
@@ -1285,7 +1285,7 @@ Systematically probe every potential building doorway and alleyway warp in South
 - Row y=36: Spins DOWN to (3, 36).
 - Row y=37: Spins DOWN to (3, 37).
 - Row y=38: Spins DOWN to (3, 38).
-- AUDIT COMPLETE (Turn 47705): 100% of all 39 rows in West Spin Loop (Cols 2..5, Rows 3..41) audited. All spin tiles spin UP (Row 3) or DOWN (Rows 4..8, 10..38). No East spin tiles exist in this enclosure. Exiting via stairs at (2, 41).
+- RE-AUDIT IN PROGRESS (Turn 51721): Re-testing all 38 rows (Cols 2..5, Rows 3..40) from Column 2 Control Highway to verify if an Eastward spin tile or passage exists leading to the main eastern B1F floor / lower stairs.
 ## Master Topological Synthesis & Main Casino Strategy (Turn 49022)
 - Enclosed West Loop: Cols 2..5 (y=3..41) is a closed 4-column corridor bounded by x=1 (left) and x=6 (right). Stairs (5, 4) and (2, 41) both connect to the Nidoran Trade Sub-room at Celadon City (17, 27).
 - True Main Rocket Hideout Access: Located inside the Main Game Corner Casino at Central-South Celadon City (30, 34) / (30, 35).
