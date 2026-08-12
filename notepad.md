@@ -114,13 +114,13 @@
 ## Major Exploration Phases and Timestamps
 - (Cleaned up historic milestones to reduce context window bloat)
 
-## Active Safari Zone Session (Start Turn: 35311)
-- **Start Turn:** 35311
-- **Current Turn:** 35461
-- **Steps Used:** 317
-- **Steps Remaining:** 183
-- **Current Location:** Safari Zone Area 3 (West) at (27, 8)
-- **Session Goals:** Burn remaining steps, warp back to Gatehouse, and start a fresh, flawless run.
+## Active Safari Zone Session (Start Turn: 35479)
+- **Start Turn:** 35479
+- **Current Turn:** 35493
+- **Steps Used:** 16
+- **Steps Remaining:** 484
+- **Current Location:** Safari Zone Center at (27, 23)
+- **Session Goals:** Execute the fully optimized, 100% walkable speedrun route (ground-level bypass of Central Plateau, Column 28 ledge jump, and Southwest Area 2 transition to Area 3).
 - **Empirical Refutations:**
   - Bypassed the Central Plateau entirely. Verified Column 28 is 100% walkable and NOT blocked by trees on Turn 35165. This saved 22 steps.
   - Verified Column 27 Row 24 contains a solid signpost, which blocks direct horizontal crossing from (26, 24) on the ground.
