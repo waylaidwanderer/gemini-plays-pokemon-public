@@ -1273,6 +1273,11 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - **Signpost at (24, 22):** Reads "AREA 3 EAST: CENTER AREA" (Turn 27655).
 
 ### 🔍 Verified Area 3 (West) Landmarks & Paths
+- **Column 11 Tree Wall (Rows 1-7):** Solid vertical line of pine trees on Column 11, Rows 1-7, completely blocking horizontal ground-level passage in the north-middle.
+- **Column 18 Vertical Barrier (Rows 20-23):** Solid tree/wall structure running vertically on Column 18 across Rows 20-23, blocking horizontal ground-level passage.
+- **Row 9 Tree Wall (Columns 22-29):** Solid, continuous horizontal barrier of trees on Row 9, Columns 22-29, blocking all downward ground-level vertical passage on the east side of Area 3 (West).
+- **Row 8 Column 12 Pond Shoreline Block:** The pond shoreline cliff corner blocks Row 8, Column 12, preventing downward ground-level vertical passage past Row 7 on Column 12.
+- **Row 8 Column 21 Pond Shoreline Block:** The pond shoreline cliff corner blocks Row 8, Column 21, preventing downward ground-level vertical passage past Row 7 on Column 21.
 - **Gold Teeth:** Empirically verified to be located at `(19, 25)` on the southern ground level. The player can stand at `(19, 24)` facing Down to pick them up.
 - **The Secret House:** Located on the western ground level. The verified entrance door (doormat) is at `(11, 11)`. The player stands at `(11, 12)` facing UP and presses UP to enter, which warps the player inside the Secret House at `(2, 7)`.
 - **Southwest Area:** Walked Column 3 from Row 20 up to Row 14 (`(3, 20)` to `(3, 14)`), proving `(3, 19)` and `(3, 18)` are walkable grass/trees with NO secret warp or door.
