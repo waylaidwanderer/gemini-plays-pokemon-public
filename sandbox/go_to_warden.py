@@ -56,30 +56,29 @@ def run_path(path):
     return True
 
 def main():
-    print("=== WALKING TO WARDEN'S HOUSE ===")
+    print("=== WALKING NORTH ROUTE TO WARDEN'S HOUSE ===")
     pos = get_pos()
-    print("Starting from:", pos)
+    print("Starting position:", pos)
     
-    if pos == (18, 4):
-        # Step-by-step route:
-        # - Down 5 to (18, 9)
-        # - Right 19 to (37, 9)
-        # - Down 18 to (37, 27)
-        # - Left 10 to (27, 27)
-        path = (
-            ["Down"] * 5 +
-            ["Right"] * 19 +
-            ["Down"] * 18 +
-            ["Left"] * 10
-        )
-        if run_path(path):
-            print("Successfully arrived outside Warden's House!")
-            # Enter the house by walking Up!
-            walk_step_robust("Up")
-            time.sleep(1.0)
-            print("Entered Warden's House! Current pos:", get_pos())
-        else:
-            print("Failed to reach Warden's House!")
+    # We are at (18, 6) in Fuchsia City.
+    # Route:
+    # 1. Walk Right along Row 6 from Column 18 to Column 37 (19 steps Right) -> (37, 6)
+    # 2. Walk Down Column 37 from Row 6 to Row 27 (21 steps Down) -> (37, 27)
+    # 3. Walk Left along Row 27 to Column 27 (10 steps Left) -> (27, 27)
+    # 4. Walk Up to enter Warden's House!
+    path = (
+        ["Right"] * 19 +
+        ["Down"] * 21 +
+        ["Left"] * 10 +
+        ["Up"]
+    )
+    
+    if run_path(path):
+        print("Successfully reached and entered Warden's House!")
+        time.sleep(1.0)
+        print("Final Position:", get_pos())
+    else:
+        print("Failed to reach Warden's House!")
 
 if __name__ == "__main__":
     main()
