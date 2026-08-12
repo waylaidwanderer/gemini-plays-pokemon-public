@@ -69,7 +69,7 @@ def run_path(path):
     return True
 
 def main():
-    print("=== EXECUTING SAFE DETOUR ROUTE TO WARDEN'S HOUSE V3 ===")
+    print("=== EXECUTING SAFE DETOUR ROUTE TO WARDEN'S HOUSE V4 ===")
     
     pos = get_pos()
     print("Initial position:", pos)
@@ -77,13 +77,13 @@ def main():
         print("Failed to get starting position!")
         return
         
-    if pos == (23, 9):
-        # Walk Left to Column 19, Down to Row 14, Right to Column 23,
+    if pos == (19, 13):
+        # Walk Left to Column 18, Down to Row 14, Right to Column 23,
         # then Down Column 23 to ledge, jump ledge, and walk to Warden's House
         path = (
-            ["Left"] * 4 +                                                    # to (19, 9)
-            ["Down"] * 5 +                                                    # to (19, 14)
-            ["Right"] * 4 +                                                   # to (23, 14)
+            ["Left"] +                                                        # to (18, 13)
+            ["Down"] +                                                        # to (18, 14)
+            ["Right"] * 5 +                                                   # to (23, 14)
             ["Down"] * 8 +                                                    # to (23, 22)
             ["Down"] * 4 +                                                    # to (23, 27) (including ledge jump)
             ["Right"] * 4 +                                                   # to (27, 27)
