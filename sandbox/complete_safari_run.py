@@ -57,59 +57,120 @@ def run_path(path, check_warp=False):
                     break
     return True
 
-# 1. From (28, 2) to (6, 20) via Column 23 (50 steps)
-path_to_ground = [
-    "Left", "Left", "Left", "Left", "Left", # 5 steps Left to (23, 2)
-    "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", # 16 steps Down to (23, 18)
-    "Left", "Left", # 2 steps Left to (21, 18)
-    "Up", # 1 step Up to (21, 17) (East Stairs)
-    "Up", "Up", "Up", # 3 steps Up to (21, 14)
-    "Left", "Left", "Left", "Left", "Left", "Left", # 6 steps Left to (15, 14)
-    "Down", "Down", # 2 steps Down to (15, 16)
-    "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", # 10 steps Left to (5, 16)
-    "Right", # 1 step Right to (6, 16)
-    "Down", "Down", "Down", # 3 steps Down to (6, 19) (West Stairs)
-    "Down" # 1 step Down to (6, 20)
+# Define paths for each stage
+
+# Stage 1: Center to Area 1 (East) (27 steps)
+path_stage1 = [
+    "Up", "Up", # (15, 23) -> (15, 21)
+    "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", # (15, 21) -> (28, 21) (13 steps)
+    "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", # (28, 21) -> (28, 11) (10 steps)
+    "Right", "Right" # (28, 11) -> (30, 11) (warp to Area 1 (0, 23))
 ]
 
-# 2. From (6, 20) to Gold Teeth Warp (13 steps)
-path_to_teeth = [
+# Stage 2: Area 1 (East) to Area 2 (North) (95 steps)
+path_stage2 = [
+    # Warp in at (0, 23). Walk to Southern Plateau stairs at (20, 21)
+    "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right",
+    "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", # (0, 23) -> (20, 23) (20 steps)
+    "Up", "Up", # (20, 23) -> (20, 21)
+    "Up", # climb stairs to (20, 20)
+    "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", # (20, 20) -> (12, 20) (8 steps)
+    "Down", "Down", # descend stairs to (12, 22)
+    "Left", "Left", "Left", "Left", # (12, 22) -> (8, 22) (4 steps)
+    "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", # (8, 22) -> (8, 7) (15 steps)
+    "Right", "Right", "Right", "Right", # (8, 7) -> (12, 7) (4 steps)
+    "Up", # climb stairs to (12, 6)
+    "Right", "Right", "Right", "Right", "Right", # (12, 6) -> (17, 6) (5 steps)
+    "Down", "Down", # descend stairs to (17, 8)
+    "Right", "Right", "Right", # (17, 8) -> (20, 8) (3 steps)
+    "Up", "Up", "Up", "Up", "Up", # (20, 8) -> (20, 3) (5 steps)
+    "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", # (20, 3) -> (7, 3) (13 steps)
+    "Down", "Down", # (7, 3) -> (7, 5) (2 steps)
+    "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left" # (7, 5) -> warp (8 steps)
+]
+
+# Stage 3: Area 2 (North) to Area 3 (West) at (27, 0) via (9, 36) (35 steps)
+path_stage3 = [
+    # Warp in at (39, 31). Walk Left to (22, 31) (17 steps Left)
+    "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
+    # Walk Down to (22, 33) (2 steps Down)
+    "Down", "Down",
+    # Walk Left to (9, 33) (13 steps Left)
+    "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
+    # Walk Down to (9, 36) (3 steps Down - Warp to (27, 0) in Area 3!)
+    "Down", "Down", "Down"
+]
+
+# Stage 4: Area 3 (West) Ascent and Descent (54 steps)
+path_stage4 = [
+    "Right", "Right", # (27, 0) -> (29, 0) (2 steps)
+    "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", # (29, 0) -> (29, 11) (11 steps)
+    "Left", "Left", "Left", "Left", "Left", "Left", "Left", # (29, 11) -> (22, 11) (7 steps)
+    "Down", "Down", "Down", "Down", "Down", "Down", "Down", # (22, 11) -> (22, 18) (7 steps)
+    "Left", # (22, 18) -> (21, 18) (1 step)
+    "Up", # (21, 18) -> (21, 17) (East Stairs)
+    "Up", "Up", "Up", # (21, 17) -> (21, 14) (3 steps)
+    "Left", "Left", "Left", "Left", "Left", "Left", # (21, 14) -> (15, 14) (6 steps)
+    "Down", "Down", # (15, 14) -> (15, 16) (2 steps)
+    "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", # (15, 16) -> (5, 16) (10 steps)
+    "Right", # (5, 16) -> (6, 16) (1 step)
+    "Down", "Down", "Down", # (6, 16) -> (6, 19) (West Stairs)
+    "Down" # (6, 19) -> (6, 20) (1 step)
+]
+
+# Stage 5: Retrieve the Gold Teeth (35 steps)
+path_stage5_to_teeth = [
+    # Walk Left to (0, 20) (6 steps Left)
     "Left", "Left", "Left", "Left", "Left", "Left",
+    # Walk Up Column 0 to Row 13 (7 steps Up - Warp to Center!)
     "Up", "Up", "Up", "Up", "Up", "Up", "Up"
 ]
 
-# 3. From (29, 25) in Center to (19, 26) (11 steps)
-path_center_teeth = [
-    "Down",
+path_stage5_center = [
+    "Down", # To Row 26 (29, 26)
+    # Walk Left to Column 19 (10 steps Left)
     "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left"
 ]
 
-# 4. From (19, 26) back to Warp (29, 25) (11 steps)
-path_back_to_warp = [
+path_stage5_back = [
+    # Walk Right to Column 29 (10 steps Right)
     "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right",
-    "Up"
+    "Up" # To warp (29, 25) -> transitions back to Area 3 (West) at (0, 13)
 ]
 
-# 5. From (0, 13) to Secret House (3, 8) (9 steps)
-path_to_house = [
+# Stage 6: Retrieve Surf (9 steps)
+path_stage6 = [
+    # Walk Up Column 0 to Row 8 (5 steps Up)
     "Up", "Up", "Up", "Up", "Up",
+    # Walk Right to Column 3 (3 steps Right)
     "Right", "Right", "Right",
+    # Walk Up to (3, 8) (enter Secret House!)
     "Up"
 ]
 
-def run_all():
-    print("=== STARTING THE ULTIMATE RETRIEVAL FROM (28, 2) ===")
-    
-    print("=== PHASE 4: Ascent & Descent via Column 23 ===")
-    if not run_path(path_to_ground, check_warp=False):
+def run_stage1():
+    print("=== STARTING STAGE 1: Center to Area 1 (East) ===")
+    return run_path(path_stage1, check_warp=True)
+
+def run_stage2():
+    print("=== STARTING STAGE 2: Area 1 (East) to Area 2 (North) ===")
+    return run_path(path_stage2, check_warp=True)
+
+def run_stage3():
+    print("=== STARTING STAGE 3: Area 2 (North) to Area 3 (West) ===")
+    return run_path(path_stage3, check_warp=True)
+
+def run_stage4():
+    print("=== STARTING STAGE 4: Area 3 (West) Ascent and Descent ===")
+    return run_path(path_stage4, check_warp=False)
+
+def run_stage5():
+    print("=== STARTING STAGE 5: Walk to Gold Teeth Warp ===")
+    if not run_path(path_stage5_to_teeth, check_warp=True):
         return False
         
-    print("=== PHASE 5: Walk to Gold Teeth Warp ===")
-    if not run_path(path_to_teeth, check_warp=True):
-        return False
-        
-    print("=== PHASE 5b: Picking up Gold Teeth inside Center ===")
-    if not run_path(path_center_teeth, check_warp=False):
+    print("=== STARTING STAGE 5b: Picking up Gold Teeth inside Center ===")
+    if not run_path(path_stage5_center, check_warp=False):
         return False
         
     # Stand below Gold Teeth and interact
@@ -120,16 +181,13 @@ def run_all():
     bridge.press_buttons(["A", "sleep 1000", "A", "sleep 1000", "B", "sleep 500"])
     print("Gold Teeth picked up!")
     
-    print("=== PHASE 5c: Walking back to warp to Area 3 (West) ===")
-    if not run_path(path_back_to_warp, check_warp=True):
-        return False
-        
-    print("=== PHASE 6: Walking to Secret House ===")
-    if not run_path(path_to_house, check_warp=True):
-        return False
-        
-    print("Arrived inside Secret House! Coordinates:", get_pos())
-    return True
+    print("=== STARTING STAGE 5c: Walking back to warp to Area 3 (West) ===")
+    return run_path(path_stage5_back, check_warp=True)
+
+def run_stage6():
+    print("=== STARTING STAGE 6: Walking to Secret House ===")
+    return run_path(path_stage6, check_warp=True)
 
 if __name__ == "__main__":
-    run_all()
+    # Test Stage 1
+    run_stage1()
