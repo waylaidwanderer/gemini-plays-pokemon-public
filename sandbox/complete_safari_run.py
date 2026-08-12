@@ -180,6 +180,12 @@ def run_campaign_to_area3():
                 remaining_up = pos[1] - 5
                 path_area1.extend(["Up"] * remaining_up)
                 path_area1.extend(["Left"] * 20)
+        elif pos == (21, 12):
+            is_area1 = True
+            print("Resuming Area 1 navigation from (21, 12)...")
+            path_area1.append("Left") # to (20, 12)
+            path_area1.extend(["Up"] * 7) # to (20, 5)
+            path_area1.extend(["Left"] * 20) # to (0, 5)
         elif pos[1] == 5 and pos[0] <= 20:
             is_area1 = True
             print(f"Resuming Area 1 navigation from Row 5: {pos}")
