@@ -57,9 +57,10 @@ def run_path(path, check_warp=False):
                     break
     return True
 
-# 1. From (23, 5) to (6, 20) via Column 23 (42 steps)
+# 1. From (28, 2) to (6, 20) via Column 23 (50 steps)
 path_to_ground = [
-    "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", # 13 steps Down to (23, 18)
+    "Left", "Left", "Left", "Left", "Left", # 5 steps Left to (23, 2)
+    "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", # 16 steps Down to (23, 18)
     "Left", "Left", # 2 steps Left to (21, 18)
     "Up", # 1 step Up to (21, 17) (East Stairs)
     "Up", "Up", "Up", # 3 steps Up to (21, 14)
@@ -97,7 +98,7 @@ path_to_house = [
 ]
 
 def run_all():
-    print("=== STARTING THE ULTIMATE RETRIEVAL FROM (23, 5) ===")
+    print("=== STARTING THE ULTIMATE RETRIEVAL FROM (28, 2) ===")
     
     print("=== PHASE 4: Ascent & Descent via Column 23 ===")
     if not run_path(path_to_ground, check_warp=False):
