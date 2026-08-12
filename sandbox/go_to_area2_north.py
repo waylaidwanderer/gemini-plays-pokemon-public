@@ -95,11 +95,12 @@ def go_back_to_area2():
     print("Starting position:", pos)
     
     path = []
-    # From (12, 17) to (26, 0)
+    # If we are on Row 17 (above Row 20), walk Down to Row 20 first to bypass cliff
+    if pos[1] < 20:
+        path.extend(["Down"] * (20 - pos[1]))
     if pos[0] < 25:
         path.extend(["Right"] * (25 - pos[0]))
-    if pos[1] > 3:
-        path.extend(["Up"] * (pos[1] - 3))
+    path.extend(["Up"] * 17) # to Row 3 from Row 20
     path.append("Right") # to (26, 3)
     path.extend(["Up"] * 3) # warp to Area 2!
     
