@@ -82,46 +82,39 @@ def run_surf_campaign():
     pos = get_pos()
     print("Starting campaign from position:", pos)
     
-    path_center = []
+    # Dismiss the "Got away safely!" screen
+    print("Dismissing 'Got away safely!' screen...")
+    bridge.press_buttons(["B", "sleep 500"])
     
-    # We are currently at (28, 23) in Safari Zone Center
-    if pos is not None and pos[0] == 28 and pos[1] == 23:
-        path_center.extend(["Up"] * 13)              # to (28, 10)
-        path_center.extend(["Right"] * 2)            # to (30, 10)
-        path_center.append("Right")                  # transition to Area 1 (East) at (0, 22)
-    else:
-        print(f"Error: Not at expected starting position (28, 23). Position is: {pos}")
-        return False
-        
-    print("=== STAGE 2: Walking Safari Zone Center to Area 1 ===")
-    if not run_path(path_center, check_warp=True):
-        return False
-        
-    time.sleep(1.0)
+    time.sleep(0.5)
     pos = get_pos()
-    print("Coordinates in Area 1 East:", pos)
+    print("Overworld position after dismissing:", pos)
+    if pos is None:
+        print("Failed to get position, let's retry...")
+        pos = get_pos()
+        
+    path_area1 = []
     
-    # 3. Path in Area 1 (East) to Area 2 (North)
-    path_area1 = [
-        "Down", "Down",           # (0, 22) -> (0, 24)
-        "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right",
-        "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", # (0, 24) -> (20, 24)
-        "Up", "Up",               # (20, 24) -> (20, 22) (climb Southern Plateau)
-        "Up", "Up",               # (20, 22) -> (20, 20) (onto Southern Plateau)
-        "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", # (20, 20) -> (12, 20)
-        "Down", "Down",           # (12, 20) -> (12, 22) (descend plateau)
-        "Left", "Left", "Left",   # (12, 22) -> (9, 22)
-        "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", # (9, 22) -> (9, 8)
-        "Right", "Right", "Right", # (9, 8) -> (12, 8)
-        "Up", "Up",               # (12, 8) -> (12, 6) (climb Northern Plateau)
-        "Right", "Right", "Right", "Right", "Right", # (12, 6) -> (17, 6)
-        "Down", "Down",           # (17, 6) -> (17, 8) (descend Northern Plateau)
-        "Right", "Right", "Right", # (17, 8) -> (20, 8)
-        "Up", "Up", "Up",         # (20, 8) -> (20, 5)
-        "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
-        "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left"  # (20, 5) -> (0, 5) (warp!)
-    ]
-    
+    # We are currently at (17, 24) in Area 1 (East)
+    if pos is not None and pos[0] == 17 and pos[1] == 24:
+        # Continue Area 1 East route from (17, 24)
+        path_area1.extend(["Right"] * 3)   # to (20, 24)
+        path_area1.extend(["Up"] * 4)      # to (20, 20) (climb Southern Plateau)
+        path_area1.extend(["Left"] * 8)    # to (12, 20) (walk West on plateau)
+        path_area1.extend(["Down"] * 2)    # to (12, 22) (descend Southern Plateau stairs)
+        path_area1.extend(["Left"] * 3)    # to (9, 22)
+        path_area1.extend(["Up"] * 14)     # to (9, 8) (walk UP Column 9)
+        path_area1.extend(["Right"] * 3)   # to (12, 8)
+        path_area1.extend(["Up"] * 2)      # to (12, 6) (climb Northern Plateau)
+        path_area1.extend(["Right"] * 5)   # to (17, 6) (walk East on plateau)
+        path_area1.extend(["Down"] * 2)    # to (17, 8) (descend Northern Plateau stairs)
+        path_area1.extend(["Right"] * 3)   # to (20, 8)
+        path_area1.extend(["Up"] * 3)      # to (20, 5)
+        path_area1.extend(["Left"] * 20)   # to (0, 5) (transition!)
+    else:
+        print(f"Error: Not at expected starting position (17, 24). Position is: {pos}")
+        return False
+        
     print("=== STAGE 3: Walking Area 1 to Area 2 ===")
     if not run_path(path_area1, check_warp=True):
         return False
