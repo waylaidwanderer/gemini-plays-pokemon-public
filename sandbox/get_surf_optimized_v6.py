@@ -79,39 +79,55 @@ def run_path(path, check_warp=False):
     return True
 
 def run_surf_campaign():
-    # 1. Dialogue Loop to Enter Safari Zone
-    print("=== STAGE 1: Progressing Dialogue to Enter Safari Zone ===")
-    warped = False
-    for i in range(15):
-        pos = get_pos()
-        if pos is not None and pos[0] == 15 and pos[1] == 25:
-            print("Successfully entered Safari Zone Center!")
-            warped = True
-            break
-        print(f"Dialogue Progress Press {i+1}...")
-        bridge.press_buttons(["A", "sleep 1200"])
-        
-    if not warped:
-        pos = get_pos()
-        if pos is not None and pos[0] == 15 and pos[1] == 25:
-            print("Successfully entered Safari Zone Center!")
-        else:
-            print(f"Error: Did not enter Safari Zone. Coordinates are: {pos}")
-            return False
-
-    # 2. Path in Safari Zone Center to Area 1 (East)
-    path_center = [
-        "Up", "Up",               # (15, 25) -> (15, 23)
-        "Right", "Right",         # (15, 23) -> (17, 23)
-        "Down",                   # (17, 23) -> (17, 24)
-        "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", # (17, 24) -> (27, 24)
-        "Down", "Down",           # (27, 24) -> (27, 26)
-        "Right", "Right", "Right", # (27, 26) -> (30, 26)
-        "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", # (30, 26) -> (30, 11)
-        "Left",                   # (30, 11) -> (29, 11)
-        "Right"                   # transition to Area 1 (East)
-    ]
+    pos = get_pos()
+    print("Starting campaign from position:", pos)
     
+    # Check if we are still in the Gatehouse
+    if pos is not None and pos[0] == 4 and pos[1] == 2:
+        print("=== STAGE 1: Progressing Dialogue to Enter Safari Zone ===")
+        warped = False
+        for i in range(15):
+            pos = get_pos()
+            if pos is not None and pos[0] == 15 and pos[1] == 25:
+                print("Successfully entered Safari Zone Center!")
+                warped = True
+                break
+            print(f"Dialogue Progress Press {i+1}...")
+            bridge.press_buttons(["A", "sleep 1200"])
+            
+        if not warped:
+            pos = get_pos()
+            if pos is not None and pos[0] == 15 and pos[1] == 25:
+                print("Successfully entered Safari Zone Center!")
+            else:
+                print(f"Error: Did not enter Safari Zone. Coordinates are: {pos}")
+                return False
+                
+    pos = get_pos()
+    path_center = []
+    
+    # If we are at the entrance of Center
+    if pos is not None and pos[0] == 15 and pos[1] == 25:
+        path_center.extend(["Up"] * 2)               # to (15, 23)
+        path_center.extend(["Right"] * 12)           # to (27, 23) (using Row 23 highway to bypass signposts!)
+        path_center.extend(["Down"] * 3)             # to (27, 26)
+        path_center.extend(["Right"] * 3)            # to (30, 26)
+        path_center.extend(["Up"] * 15)              # to (30, 11)
+        path_center.append("Left")                   # to (29, 11)
+        path_center.append("Right")                  # transition to Area 1 (East)
+    # If we are currently at (21, 24)
+    elif pos is not None and pos[0] == 21 and pos[1] == 24:
+        path_center.append("Up")                     # to (21, 23)
+        path_center.extend(["Right"] * 6)            # to (27, 23)
+        path_center.extend(["Down"] * 3)             # to (27, 26)
+        path_center.extend(["Right"] * 3)            # to (30, 26)
+        path_center.extend(["Up"] * 15)              # to (30, 11)
+        path_center.append("Left")                   # to (29, 11)
+        path_center.append("Right")                  # transition to Area 1 (East)
+    else:
+        print(f"Unknown starting position: {pos}")
+        return False
+        
     print("=== STAGE 2: Walking Safari Zone Center to Area 1 ===")
     if not run_path(path_center, check_warp=True):
         return False
