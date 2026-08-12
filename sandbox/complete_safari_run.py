@@ -14,12 +14,9 @@ def get_pos():
 
 def handle_battle():
     print("Wild battle/interaction detected! Escaping...")
-    # Dismiss wild encounter text first (press B multiple times)
     for _ in range(4):
         bridge.press_buttons(["B", "sleep 250"])
-    # Move cursor to RUN (Bottom-Right) and select
     bridge.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 1500"])
-    # Press B to ensure we are back in overworld
     for _ in range(3):
         bridge.press_buttons(["B", "sleep 200"])
     print("Escape completed. Stabilizing...")
@@ -96,7 +93,6 @@ def main():
     # PHASE 1: Safari Zone Center to Area 1 (East)
     # We are at (24, 21). Let's walk to the transition at (31, 11)
     if pos[1] == 21 and pos[0] < 28:
-        # Step 1: Walk to (28, 21)
         right_steps = ["Right"] * (28 - pos[0])
         print(f"Walking Right {len(right_steps)} steps to (28, 21)...")
         if not run_path(right_steps):
@@ -104,7 +100,6 @@ def main():
             
     pos = get_pos()
     if pos is not None and pos[0] == 28 and pos[1] > 11:
-        # Step 2: Walk Up to (28, 11)
         up_steps = ["Up"] * (pos[1] - 11)
         print(f"Walking Up {len(up_steps)} steps to (28, 11)...")
         if not run_path(up_steps):
@@ -112,7 +107,6 @@ def main():
             
     pos = get_pos()
     if pos is not None and pos[1] == 11 and pos[0] < 31:
-        # Step 3: Walk Right to transition
         right_steps = ["Right"] * (31 - pos[0])
         print(f"Walking Right {len(right_steps)} steps to transition...")
         if not run_path(right_steps, check_warp=True):
@@ -124,12 +118,32 @@ def main():
     print("Arrived in Area 1 (East):", pos)
     
     # PHASE 2: Area 1 (East) to Area 2 (North)
-    # We land at (0, 22) or (0, 23) in Area 1 (East).
-    if pos is not None and pos[0] < 5:
-        # Complete spiral path:
-        path_area1 = (
-            ["Right"] * 20 +                # to (20, 22)
-            ["Up"] * 2 +                    # to (20, 20)
+    # Dynamic navigation around the Rhydon statues and climb onto southern plateau
+    if pos is not None and pos[0] < 20 and pos[1] >= 20:
+        # Step 1: Walk to Row 24
+        if pos[1] < 24:
+            print("Stepping Down to Row 24...")
+            if not run_path(["Down"] * (24 - pos[1])):
+                return
+        pos = get_pos()
+        # Step 2: Walk Right to Column 20
+        if pos is not None and pos[0] < 20:
+            print(f"Walking Right to Column 20...")
+            if not run_path(["Right"] * (20 - pos[0])):
+                return
+                
+    pos = get_pos()
+    if pos is not None and pos[0] == 20 and pos[1] == 24:
+        # Step 3: Climb the Southern Plateau
+        print("Climbing the southern plateau...")
+        if not run_path(["Up"] * 4):
+            return
+            
+    pos = get_pos()
+    # Now we are at (20, 20) on the plateau.
+    # The remaining Area 1 path from (20, 20) is:
+    if pos == (20, 20):
+        path_area1_remaining = (
             ["Left"] * 8 +                  # to (12, 20)
             ["Down"] * 2 +                  # to (12, 22)
             ["Left"] * 4 +                  # to (8, 22)
@@ -142,8 +156,8 @@ def main():
             ["Up"] * 3 +                    # to (20, 5)
             ["Left"] * 21                   # to transition at (0, 5)
         )
-        print("Walking the spiral path in Area 1 (East)...")
-        if not run_path(path_area1, check_warp=True):
+        print("Walking the remaining path in Area 1 (East)...")
+        if not run_path(path_area1_remaining, check_warp=True):
             return
             
     # Wait for map transition to stabilize
@@ -154,7 +168,6 @@ def main():
     # PHASE 3: Area 2 (North) to Area 3 (West)
     # We land at (39, 31) in Area 2 (North)
     if pos is not None and pos[0] > 35:
-        # Walk along the Southern Corridor to transition at (8, 36)
         path_area2 = (
             ["Left"] * 31 +                 # to (8, 31)
             ["Down"] * 5                    # to warp at (8, 36)
@@ -219,5 +232,5 @@ def main():
         
     print("Script finished successfully!")
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
