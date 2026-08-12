@@ -21,36 +21,22 @@ def walk_step(direction):
     bridge.press_buttons([direction, "sleep 400"])
 
 def go_to_surf_complete():
-    print("=== EXECUTING SURF ACQUISITION ROUTE FROM (4, 20) ===")
+    print("=== EXECUTING SURF ACQUISITION ROUTE FROM (16, 20) ===")
     
-    # Path starting from (4, 20)
+    # Path starting from (16, 20)
     path = []
-    
-    # 1. Walk Right to Column 21
-    path.extend(["Right"] * 17) # To (21, 20)
-    
-    # 2. Walk Up to (21, 18)
-    path.extend(["Up"] * 2) # To (21, 18)
-    
-    # 3. Climb onto the plateau at (21, 16)
-    path.extend(["Up"] * 2) # To (21, 16) (East Stairs)
-    
-    # 4. Walk on the plateau to (6, 16)
-    path.extend(["Up"] * 2)    # To (21, 14)
-    path.extend(["Left"] * 6)  # To (15, 14)
-    path.extend(["Down"] * 2)  # To (15, 16)
-    path.extend(["Left"] * 10) # To (5, 16)
-    path.extend(["Right"])     # To (6, 16)
-    
-    # 5. Descend West Stairs to (6, 20)
-    path.extend(["Down"] * 4)  # To (6, 20) (West Stairs)
-    
-    # 6. Walk to the Secret House doormat (11, 12)
-    path.extend(["Right"] * 5) # To (11, 20)
-    path.extend(["Up"] * 8)    # To (11, 12)
-    
-    # 7. Enter the Secret House
-    path.extend(["Up"]) # To (11, 11)
+    path.extend(["Right"] * 5) # To (21, 20)
+    path.extend(["Up"] * 2)     # To (21, 18)
+    path.extend(["Up"] * 2)     # To (21, 16) (East Stairs)
+    path.extend(["Up"] * 2)     # To (21, 14)
+    path.extend(["Left"] * 6)   # To (15, 14)
+    path.extend(["Down"] * 2)   # To (15, 16)
+    path.extend(["Left"] * 10)  # To (5, 16)
+    path.extend(["Right"])      # To (6, 16)
+    path.extend(["Down"] * 4)   # To (6, 20) (West Stairs)
+    path.extend(["Right"] * 5)  # To (11, 20)
+    path.extend(["Up"] * 8)     # To (11, 12)
+    path.extend(["Up"])         # To (11, 11) (Secret House!)
 
     idx = 0
     while idx < len(path):
