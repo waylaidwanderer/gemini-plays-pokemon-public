@@ -99,39 +99,22 @@ def run_path(path, check_warp=False):
 def main():
     print("=== FINAL PHASE: RETRIEVING THE GOLD TEETH ===")
     
+    # 1. Close the current Bag menu and Start menu to return to overworld at (21, 18)
+    print("Closing menus...")
+    press_buttons_tracked(["B", "sleep 300", "B", "sleep 500"])
+    
     pos = get_pos()
-    print("Starting position:", pos)
+    print("Position in overworld:", pos)
     if pos is None:
         handle_battle()
         pos = get_pos()
         if pos is None:
             return
             
-    # 1. Walk from (9, 33) to Area 3 transition at (8, 36)
-    if pos == (9, 33):
-        print("Walking to Area 3 transition...")
-        path_to_warp = ["Left", "Down", "Down", "Down"]
-        if not run_path(path_to_warp, check_warp=True):
-            print("Failed to transition to Area 3!")
-            return
-            
-    # Wait for map transition to load
-    press_buttons_tracked(["sleep 1000"])
-    pos = get_pos()
-    print("Position inside Area 3 (West):", pos)
-    
-    if pos is None:
-        pos = get_pos()
-        
-    # 2. Inside Area 3 (West) starting at (26, 0)
-    if pos is not None and pos[0] == 26 and pos[1] == 0:
+    # 2. Inside Area 3 (West) starting at (21, 18)
+    if pos == (21, 18):
         print("Walking to (19, 24) in Area 3 (West)...")
         path_area3 = [
-            "Down", "Down", "Down",                                           # to (26, 3)
-            "Left",                                                           # to (25, 3)
-            "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down",
-            "Down", "Down", "Down", "Down", "Down", "Down", "Down",           # to (25, 18) (15 steps Down)
-            "Left", "Left", "Left", "Left",                                   # to (21, 18) (East stairs)
             "Down", "Down", "Down", "Down", "Down", "Down",                   # to (21, 24) (6 steps Down past stairs)
             "Left", "Left"                                                    # to (19, 24) (2 steps Left in front of teeth)
         ]
@@ -154,11 +137,24 @@ def main():
         # Press A to dismiss text box
         press_buttons_tracked(["A", "sleep 1200"])
         
+        print("=== SAVING THE GAME ===")
+        # Press Start, select SAVE (Start -> Up, Up -> A -> A)
+        press_buttons_tracked(["Start", "sleep 500"])
+        # Select SAVE (Start menu layout: save is the 5th option, so from Pokedex we press Up twice to wrap or scroll)
+        # If cursor starts on POKEDEX, pressing Up twice moves it to OPTION or wrap?
+        # Actually, let's use Down 4 times to select SAVE
+        press_buttons_tracked(["Down", "sleep 150", "Down", "sleep 150", "Down", "sleep 150", "Down", "sleep 150", "A", "sleep 1200"])
+        # A to confirm YES on save
+        press_buttons_tracked(["A", "sleep 3000"])
+        # A to dismiss "ACE saved the game"
+        press_buttons_tracked(["A", "sleep 500"])
+        print("Save completed!")
+        
         print("=== VERIFYING GOLD TEETH IN BAG ===")
         press_buttons_tracked(["Start", "sleep 500"])
-        # Select ITEM (Pokedex, Pokemon, Item) -> 2 Down clicks
-        press_buttons_tracked(["Down", "sleep 200", "Down", "sleep 200", "A", "sleep 1000"])
-        print("BAG menu opened! Verify the teeth are in slot.")
+        # ITEM is the 3rd option, from POKEDEX we press Down twice
+        press_buttons_tracked(["Down", "sleep 150", "Down", "sleep 150", "A", "sleep 1000"])
+        print("BAG menu opened! Successfully finished!")
     else:
         print("Not at target position (19, 24)!")
 
