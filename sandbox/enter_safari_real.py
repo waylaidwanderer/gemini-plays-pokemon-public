@@ -9,7 +9,7 @@ def get_pos():
         pos = bridge.get_coordinates()
         if pos is not None:
             return pos[0], pos[1]
-        time.sleep(0.1)
+        bridge.press_buttons(["sleep 50"])
     return None
 
 def walk_step_robust(direction):
@@ -20,9 +20,9 @@ def walk_step_robust(direction):
     bridge.press_buttons([direction])
     
     for _ in range(5):
-        time.sleep(0.15)
+        bridge.press_buttons(["sleep 100"])
         new_pos = get_pos()
-        if new_pos != pos:
+        if new_pos is not None and new_pos != pos:
             return new_pos
             
     print(f"Bumping/stuck at {pos} walking {direction}!")
@@ -34,13 +34,10 @@ def run_path(path, check_warp=False):
     while idx < len(path):
         pos = get_pos()
         if pos is None:
-            if check_warp:
-                print("Transition occurred!")
-                return True
             time.sleep(0.5)
             continue
             
-        print(f"Step {idx}: At {pos}, walking {path[idx]}...")
+        print(f"Step {idx}: At {pos}, walking {path[idx]}")
         new_pos = walk_step_robust(path[idx])
         
         if new_pos is None:
@@ -55,7 +52,7 @@ def run_path(path, check_warp=False):
         if new_pos == pos:
             stuck_count += 1
             if stuck_count > 3:
-                print("Blocked!")
+                print(f"Blocked at {pos}! Exiting path.")
                 return False
         else:
             stuck_count = 0
@@ -67,61 +64,43 @@ def run_path(path, check_warp=False):
             idx += 1
     return True
 
-def buy_ticket_and_enter_real():
-    print("=== STARTING REAL SAFARI ZONE SESSION ===")
-    pos = get_pos()
-    print("Starting position:", pos)
+def main():
+    print("=== FINISHING DIALOGUE AND ENTERING SAFARI ===")
     
-    if pos == (4, 3):
-        # 1. Walk Up to (4, 2)
-        print("Walking Up to (4, 2)...")
-        bridge.press_buttons(["Up", "sleep 300"])
+    # Press A to dismiss "ACE received 30 SAFARI BALLS!"
+    bridge.press_buttons(["A", "sleep 1500"])
+    
+    pos = get_pos()
+    print("Coordinates after warp:", pos)
+    
+    if pos == (15, 25):
+        print("Successfully entered Safari Zone Center!")
         
-        # 2. Turn Right to face the clerk at (6, 2) across counter (5, 2)
-        print("Turning Right...")
-        bridge.press_buttons(["Right", "sleep 300"])
-        
-        # 3. Talk to the clerk
-        print("Interacting with clerk...")
-        bridge.press_buttons(["A", "sleep 1200"])
-        
-        # Dialogue prompts:
-        # "Would you like to join..." -> YES (Press A)
-        # "That'll be ¥500..." -> Press A
-        # "We only use SAFARI BALLS..." -> Press A
-        # Let's press A 8 times with 1.2s delay to complete entry warp
-        for i in range(8):
-            bridge.press_buttons(["A", "sleep 1200"])
-            
-        time.sleep(1.0)
-        pos = get_pos()
-        print("Coordinates after entry dialogue:", pos)
-        
-        if pos is None:
-            print("Successfully entered Safari overworld! Waiting for load...")
+        # We need to transition to Area 1 (East)
+        # Golden Route to Area 1 (East) transition at (30, 11)
+        # From (15, 25):
+        # Walk Up 4 steps to (15, 21)
+        # Walk Right 13 steps to (28, 21)
+        # Walk Up 10 steps to (28, 11)
+        # Walk Right 2 steps to (30, 11)
+        # Walk Right 1 step to warp to Area 1 (East) at (0, 22) or (0, 23)
+        path_center = (
+            ["Up"] * 4 +
+            ["Right"] * 13 +
+            ["Up"] * 10 +
+            ["Right"] * 3
+        )
+        print("Walking to Area 1 (East) transition...")
+        if run_path(path_center, check_warp=True):
+            print("Successfully transitioned to Safari Zone Area 1 (East)!")
             time.sleep(1.0)
-            pos = get_pos()
-            print("Safari overworld position:", pos)
             
-        if pos == (15, 25):
-            print("=== STAGE 1: NAVIGATING CENTER MAP ===")
-            path_center = [
-                "Up", "Up", "Up", "Up",                               # to (15, 21)
-                "Right", "Right", "Right", "Right", "Right", "Right", 
-                "Right", "Right", "Right", "Right", "Right", "Right", "Right", # to (28, 21) (13 steps Right)
-                "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up",   # to (28, 11) (10 steps Up)
-                "Right", "Right",                                      # to (30, 11) (2 steps Right)
-                "Right"                                                # warp transition to Area 1!
-            ]
-            if run_path(path_center, check_warp=True):
-                print("SUCCESS! Transitioned to Area 1 (East)!")
-                return True
-        else:
-            print("Error: Not at expected Safari start position (15, 25).")
-            return False
+            # Let's verify we are in Area 1 (East)
+            new_pos = get_pos()
+            print("Position in Area 1:", new_pos)
+            
     else:
-        print("Error: Not at expected starting position (4, 3) inside Gatehouse.")
-        return False
+        print("Not at expected start position (15, 25)!")
 
 if __name__ == "__main__":
-    buy_ticket_and_enter_real()
+    main()
