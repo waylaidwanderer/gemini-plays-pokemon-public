@@ -91,7 +91,7 @@ def run_path(path, check_warp=False):
     return True
 
 def main():
-    print("=== STARTING THE SAFARI ZONE SPEEDRUN TO GOLD TEETH ===")
+    print("=== STARTING THE SAFARI ZONE GOLDEN RUN ===")
     
     pos = get_pos()
     print("Initial position:", pos)
@@ -102,25 +102,16 @@ def main():
             return
             
     # PHASE 1: Safari Zone Center to Area 1 (East)
-    # We are at (24, 21). Let's walk to the transition at (31, 11)
-    if pos[1] == 21 and pos[0] < 28:
-        right_steps = ["Right"] * (28 - pos[0])
-        print(f"Walking Right {len(right_steps)} steps to (28, 21)...")
-        if not run_path(right_steps):
-            return
-            
-    pos = get_pos()
-    if pos is not None and pos[0] == 28 and pos[1] > 11:
-        up_steps = ["Up"] * (pos[1] - 11)
-        print(f"Walking Up {len(up_steps)} steps to (28, 11)...")
-        if not run_path(up_steps):
-            return
-            
-    pos = get_pos()
-    if pos is not None and pos[1] == 11 and pos[0] < 31:
-        right_steps = ["Right"] * (31 - pos[0])
-        print(f"Walking Right {len(right_steps)} steps to transition...")
-        if not run_path(right_steps, check_warp=True):
+    # We start at (15, 25).
+    if pos == (15, 25):
+        path_center = (
+            ["Up"] * 4 +
+            ["Right"] * 13 +
+            ["Up"] * 10 +
+            ["Right"] * 3
+        )
+        print("Walking to Area 1 (East) transition...")
+        if not run_path(path_center, check_warp=True):
             return
             
     # Wait for map transition to stabilize
@@ -129,46 +120,28 @@ def main():
     print("Arrived in Area 1 (East):", pos)
     
     # PHASE 2: Area 1 (East) to Area 2 (North)
-    # Dynamic navigation around the Rhydon statues and climb onto southern plateau
-    if pos is not None and pos[0] < 20 and pos[1] >= 20:
-        # Step 1: Walk to Row 24
-        if pos[1] < 24:
-            print("Stepping Down to Row 24...")
-            if not run_path(["Down"] * (24 - pos[1])):
-                return
-        pos = get_pos()
-        # Step 2: Walk Right to Column 20
-        if pos is not None and pos[0] < 20:
-            print(f"Walking Right to Column 20...")
-            if not run_path(["Right"] * (20 - pos[0])):
-                return
-                
-    pos = get_pos()
-    if pos is not None and pos[0] == 20 and pos[1] == 24:
-        # Step 3: Climb the Southern Plateau
-        print("Climbing the southern plateau...")
-        if not run_path(["Up"] * 4):
-            return
-            
-    pos = get_pos()
-    # Now we are at (20, 20) on the plateau.
-    # The remaining Area 1 path from (20, 20) is:
-    if pos == (20, 20):
-        path_area1_remaining = (
+    # We land at (0, 22) or (0, 23) in Area 1 (East).
+    if pos is not None and pos[0] < 5:
+        path_area1 = (
+            ["Down"] * 1 +                  # to (0, 24)
+            ["Right"] * 20 +                # to (20, 24)
+            ["Up"] * 4 +                    # to (20, 20) (climb southern plateau)
             ["Left"] * 8 +                  # to (12, 20)
-            ["Down"] * 2 +                  # to (12, 22)
+            ["Down"] * 2 +                  # to (12, 22) (descend southern plateau)
             ["Left"] * 4 +                  # to (8, 22)
             ["Up"] * 14 +                   # to (8, 8)
             ["Right"] * 4 +                 # to (12, 8)
-            ["Up"] * 2 +                    # to (12, 6)
+            ["Up"] * 2 +                    # to (12, 6) (climb northern plateau)
             ["Right"] * 5 +                 # to (17, 6)
-            ["Down"] * 2 +                  # to (17, 8)
+            ["Down"] * 2 +                  # to (17, 8) (descend northern plateau)
             ["Right"] * 3 +                 # to (20, 8)
-            ["Up"] * 3 +                    # to (20, 5)
-            ["Left"] * 21                   # to transition at (0, 5)
+            ["Up"] * 5 +                    # to (20, 3) (Row 3 bypass)
+            ["Left"] * 13 +                 # to (7, 3)
+            ["Down"] * 2 +                  # to (7, 5)
+            ["Left"] * 7                    # to transition at (0, 5)
         )
-        print("Walking the remaining path in Area 1 (East)...")
-        if not run_path(path_area1_remaining, check_warp=True):
+        print("Walking the spiral path in Area 1 (East)...")
+        if not run_path(path_area1, check_warp=True):
             return
             
     # Wait for map transition to stabilize
@@ -180,10 +153,16 @@ def main():
     # We land at (39, 31) in Area 2 (North)
     if pos is not None and pos[0] > 35:
         path_area2 = (
-            ["Left"] * 31 +                 # to (8, 31)
-            ["Down"] * 5                    # to warp at (8, 36)
+            ["Left"] * 17 +                 # to (22, 31)
+            ["Up"] * 9 +                    # to (22, 22) (climb plateau)
+            ["Left"] * 6 +                  # to (16, 22)
+            ["Down"] * 6 +                  # to (16, 28) (descend plateau)
+            ["Left"] * 4 +                  # to (12, 28)
+            ["Down"] * 5 +                  # to (12, 33)
+            ["Left"] * 4 +                  # to (8, 33)
+            ["Down"] * 3                    # to transition warp at (8, 36)
         )
-        print("Walking the Southern Corridor in Area 2 (North)...")
+        print("Walking the Southern Corridor and Plateau in Area 2 (North)...")
         if not run_path(path_area2, check_warp=True):
             return
             
@@ -196,8 +175,10 @@ def main():
     # We land at (26, 0) in Area 3 (West)
     if pos is not None and pos[0] == 26 and pos[1] == 0:
         path_area3 = (
-            ["Down"] * 23 +                 # to (26, 23)
-            ["Left"] * 5 +                  # to (21, 23)
+            ["Down"] * 3 +                  # to (26, 3)
+            ["Left"] * 1 +                  # to (25, 3) (bypass signpost)
+            ["Down"] * 20 +                 # to (25, 23)
+            ["Left"] * 4 +                  # to (21, 23)
             ["Down"] * 1 +                  # to (21, 24)
             ["Left"] * 2                    # to (19, 24) standing above teeth at (19, 25)
         )
@@ -208,38 +189,11 @@ def main():
     pos = get_pos()
     print("Arrived at target location:", pos)
     
-    # PHASE 5: Picking up Gold Teeth and Saving
+    # PHASE 5: Aligning and stopping for manual pickup!
     if pos == (19, 24):
-        print("=== INTERACTING WITH GOLD TEETH ===")
-        # Press Down to face Down
-        bridge.press_buttons(["Down", "sleep 400"])
-        # Press A to pick up item ball
-        bridge.press_buttons(["A", "sleep 1200"])
-        # Press A to dismiss "ACE found GOLD TEETH!" text box
-        bridge.press_buttons(["A", "sleep 1200"])
-        # Press B to make absolutely sure any lingering text boxes are closed
-        bridge.press_buttons(["B", "sleep 500", "B", "sleep 500"])
-        
-        print("=== SAVING THE GAME ===")
-        # Open Start menu
-        bridge.press_buttons(["Start", "sleep 600"])
-        # Align to POKEDEX (Up 6 times)
-        bridge.press_buttons(["Up", "sleep 150", "Up", "sleep 150", "Up", "sleep 150", "Up", "sleep 150", "Up", "sleep 150", "Up", "sleep 150"])
-        # Down 4 times to select SAVE
-        bridge.press_buttons(["Down", "sleep 150", "Down", "sleep 150", "Down", "sleep 150", "Down", "sleep 150", "A", "sleep 1200"])
-        # Confirm SAVE (YES)
-        bridge.press_buttons(["A", "sleep 3000"])
-        # Dismiss "ACE saved the game."
-        bridge.press_buttons(["A", "sleep 500"])
-        print("Game saved successfully!")
-        
-        print("=== VERIFYING BAG INVENTORY ===")
-        bridge.press_buttons(["Start", "sleep 600"])
-        # Align to POKEDEX (Up 6 times)
-        bridge.press_buttons(["Up", "sleep 150", "Up", "sleep 150", "Up", "sleep 150", "Up", "sleep 150", "Up", "sleep 150", "Up", "sleep 150"])
-        # Select ITEM (Down 2 times)
-        bridge.press_buttons(["Down", "sleep 150", "Down", "sleep 150", "A", "sleep 1200"])
-        print("Bag menu opened!")
+        print("=== STANDING DIRECTLY ABOVE GOLD TEETH, FACING DOWN ===")
+        print("Now press Down and then A manually to pick them up and prevent abort!")
+        bridge.press_buttons(["Down", "sleep 300"])
         
     print("Script finished successfully!")
 
