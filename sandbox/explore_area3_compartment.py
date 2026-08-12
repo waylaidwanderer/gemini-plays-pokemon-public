@@ -95,13 +95,16 @@ def main():
             return
             
     # We are currently at (19, 24) in Area 3 (West)
-    # Let's walk to Row 26, then Right to transition to Safari Zone Center
+    # Let's walk to Column 22 on Row 24 to bypass the Row 25 hedge on Columns 18-21
+    # Then walk Down to Row 26, then Right to transition to Safari Zone Center
     # Path:
-    # - Down 2 steps to (19, 26)
-    # - Right 11 steps to (30, 26) (warp)
+    # - Right 3 steps to (22, 24)
+    # - Down 2 steps to (22, 26)
+    # - Right 8 steps to (30, 26) (warp)
     path_to_center = [
+        "Right", "Right", "Right",
         "Down", "Down",
-        "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right"
+        "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right"
     ]
     
     if not run_path(path_to_center, check_warp=True):
