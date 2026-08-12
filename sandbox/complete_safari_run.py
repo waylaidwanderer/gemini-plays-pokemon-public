@@ -77,10 +77,9 @@ path_stage2b = [
     "Down", "Down" # descend stairs to (17, 8) (2 steps)
 ]
 
-# Stage 2c from (20, 6) to Area 2 (North) transition (26 steps)
+# Stage 2c from (10, 3) to Area 2 (North) transition (13 steps)
 path_stage2c = [
-    "Up", "Up", "Up", # (20, 6) -> (20, 3) (3 steps)
-    "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", # (20, 3) -> (7, 3) (13 steps)
+    "Left", "Left", "Left", # (10, 3) -> (7, 3) (3 steps)
     "Down", "Down", # (7, 3) -> (7, 5) (2 steps)
     "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left" # (7, 5) -> warp (8 steps)
 ]
