@@ -1,13 +1,14 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 52384)
-- Location: Game Corner Plaza at (12, 28).
+## CURRENT STATUS & DASHBOARD (Turn 52411)
+- Location: Celadon City at (13, 16).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Walk Up 1 to (12, 27), Left 2 to (10, 27), North up Column 10 to (10, 24), East along Row 24 to Column 15 (15, 24), North up Column 15 to Row 16 (15, 16), West along Row 16 to Column 11 (11, 16), and South down Column 11 to Main Casino door (11, 21).
+- Active Objective: Walk West to Column 8 (8, 16), North along Column 8 to Row 12 (8, 12), East along Row 12 to Column 17 (17, 12), and South 1 into door (17, 13) to enter Celadon Game Corner main casino floor.
 - Persistent Facts:
-  - Main Game Corner Casino Floor Entrance is at Celadon City (30, 34) / (30, 35).
-  - Column 36 (x=36) at (36, 19) is an open paved gap through Row 19 jump ledge connecting South Celadon to Row 17.
-  - Inside Main Game Corner Casino: Defeat Rocket Grunt on North Wall, press poster switch to reveal secret staircase, descend to Rocket Hideout B1F.
+  - Celadon City door (13, 15) enters Prize Exchange 8x8 Room.
+  - Celadon Game Corner Main Casino Floor door is located at Celadon City (17, 13) [accessed via Row 12 Northern Highway at 17, 12].
+  - Column 8 (x=8) at (8, 15) is open ground connecting Row 16/18 directly North to Row 12 Northern Highway.
+  - Inside Celadon Game Corner: Take secret staircase at (4, 4) down to Rocket Hideout B1F (5, 4).
   - Giovanni on B4F holds the Silph Scope.
 
 <hr>
