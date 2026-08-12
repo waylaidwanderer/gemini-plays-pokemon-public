@@ -854,8 +854,7 @@
 - Column 23 (x=23): 100% open North-South street running from Row 18 (23, 18) straight North to Row 8/12 Northern Highway.
 - Tile (22, 24): Solid blue building roof canopy (empirically confirmed bump on turn 49561).
 - Column 35 (x=35, y=23..27): Continuous vertical wall of double brown barrels. Tile (35, 28) is a dark green tree. Blocks direct East-West crossing between Central Celadon (x<=34) and East Celadon (x>=36) at y=23..28.
-- Tile (12, 15) & (12, 14): Blue staircase / slope connecting Row 16 (12, 16) directly North to Row 12 Northern Highway at (12, 12).
-- Tile (12, 15): Solid blue building roof canopy / awning (empirically confirmed bump on turn 49572).
+- Tile (12, 15): Solid blue building roof canopy / awning (empirically confirmed bump on turns 49572, 52525). Column 8 (8, 15) is the true open North-South highway passage.
 - Main Game Corner Casino Entrance: Located in Southeast Celadon City / South Street at tile (30, 34) / (30, 35) or via Plaza warp (20, 36).
 - Tile (8, 15): 100% passable dirt/pavement connecting Column 8 (8, 18) directly North to Row 12 Northern Highway at (8, 12).
 - Column 28 (x=28, y=12): Green shirt NPC standing on Row 12 Highway.
