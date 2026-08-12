@@ -9,18 +9,12 @@ sys.stdout.reconfigure(encoding='utf-8')
 # Fully combined starting from Safari Zone Center entrance at (15, 25)
 # Optimized Safari Zone Center to completely bypass the Central Plateau, saving 22 steps!
 ROUTE = [
-    # 0-35: Safari Zone Center (fully optimized ground route!)
+    # 0-35: Safari Zone Center (ultra-optimized Column 28 ground route!)
     (15, 25), (15, 24), (15, 23), (15, 22),
     (16, 22), (17, 22), (18, 22), (19, 22), (20, 22), (21, 22), (22, 22), (23, 22), (24, 22),
-    (25, 22), (26, 22), (27, 22),
-    (27, 23),
-    (28, 23),
-    (28, 25), # Jumps down the Row 23 ledge on Column 28
-    (28, 26),
-    (29, 26), (30, 26), # Walk right on row 26
-    (30, 25), (30, 24), (30, 23), (30, 22), (30, 21), (30, 20), (30, 19), (30, 18), (30, 17), (30, 16), (30, 15), (30, 14), (30, 13), (30, 12), (30, 11), # Walk up column 30
-    (29, 11), # Walk left to align for horizontal transition
-    (30, 11), # Walk right to transition
+    (25, 22), (26, 22), (27, 22), (28, 22),
+    (28, 21), (28, 20), (28, 19), (28, 18), (28, 17), (28, 16), (28, 15), (28, 14), (28, 13), (28, 12), (28, 11),
+    (29, 11), (30, 11)
     
     # Warp Transition to Area 1 (East) at (0, 23)
     (0, 23), (0, 24), (1, 24), (2, 24), (3, 24), (4, 24), (5, 24),
