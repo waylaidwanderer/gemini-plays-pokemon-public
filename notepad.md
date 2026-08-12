@@ -1359,6 +1359,16 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 - **Row 25 Fence/Rhydon Barrier:** Completely solid from Column 0 to Column 29, except for the exit warp at (15, 25) and the hidden walkable grass gap at (27, 25).
 - **(27, 25):** Solid green circular shrub, empirically tested and verified as completely blocked on Turn 34772.
 
+## 🧪 Verified Obstacles & Absolute Collision Truths (Safari Zone Center)
+- **Column 28 Row 15:** 100% Solid pine tree trunk. Walk UP Column 28 is completely blocked at Row 15.
+- **Column 29:** Unbroken vertical wall of solid shrubs and Rhydon statues from Row 12 to Row 25. Horizontal crossing of Column 29 is completely blocked on all Rows 12-25.
+- **The Plateau North Edge (Row 12):** Completely blocked by a solid cliff face across all Columns 20-27. Walking UP (North) from Row 12 to Row 11 is 100% blocked on all Columns 20-27.
+- **Row 22 Column 16:** Solid green circular shrub. Walking LEFT on Row 22 is completely blocked at Column 16.
+- **Row 25 Barrier:** Solid fences, Rhydon statues, and green circular shrubs (including at `(26, 25)` and `(27, 25)`) completely block Row 25 from Column 0 to Column 29, except for the exit warp at `(15, 25)`. There is no ground-level south passage to Row 26 without exiting the Safari Zone.
+- **Area 1 Layout Contrast:** Area 1 (East) shares the same coordinate space but has a completely different layout! In Area 1 (East), Column 28 is completely open and walkable from Row 17 to Row 11.
+- **Seamless Map Connections:** Safari Zone Center's right edge connects seamlessly to Area 1 (East)'s left edge. Walking RIGHT from `(29, 10)` in Center transitions to Area 1 (East) at `(0, 22)`. Walking LEFT from `(0, 23)` in Area 1 (East) transitions to Center at `(29, 10)`.
+- **Bag Audit:** Verified on Turn 34928. No Gold Teeth and no Surf are currently in our possession.
+
 
 <hr>
 
