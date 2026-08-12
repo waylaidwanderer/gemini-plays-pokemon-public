@@ -10,61 +10,68 @@ def get_pos():
         return None
     return pos[0], pos[1]
 
-def run_away():
-    print("Wild battle/interaction detected! Executing RUN sequence...")
+def handle_battle():
+    print("Wild battle detected! Escaping...")
     for _ in range(4):
-        bridge.press_buttons(["B", "sleep 300"])
-    bridge.press_buttons(["Right", "sleep 250", "Down", "sleep 250", "A", "sleep 1200"])
-    bridge.press_buttons(["B", "sleep 400"])
+        bridge.press_buttons(["B", "sleep 200"])
+    bridge.press_buttons(["Down", "sleep 200", "Right", "sleep 200", "A", "sleep 1200"])
+    for _ in range(3):
+        bridge.press_buttons(["B", "sleep 200"])
 
-def walk_step(direction):
-    bridge.press_buttons([direction, "sleep 400"])
-
-def run_plateau():
-    print("=== RUNNING AREA 3 PLATEAU CROSSING FROM (21, 24) ===")
+def walk_step_robust(direction):
+    pos = get_pos()
+    if pos is None:
+        handle_battle()
+        return None
+        
+    bridge.press_buttons([direction])
     
-    # Path list starting from (21, 24)
+    # Wait for position to change (up to 750 ms)
+    for _ in range(5):
+        time.sleep(0.15)
+        new_pos = get_pos()
+        if new_pos is None:
+            return None
+        if new_pos != pos:
+            return new_pos
+            
+    print(f"Bumping/stuck at {pos} walking {direction}!")
+    return pos
+
+def walk_to_plateau():
+    # Start at (2, 19)
     path = []
-    path.extend(["Up"] * 8)    # To (21, 16) (East Stairs)
-    path.extend(["Up"] * 2)    # To (21, 14)
-    path.extend(["Left"] * 6)  # To (15, 14)
-    path.extend(["Down"] * 2)  # To (15, 16)
-    path.extend(["Left"] * 10) # To (5, 16)
-    path.extend(["Right"])     # To (6, 16)
-    path.extend(["Down"] * 4)  # To (6, 20) (West Stairs)
-    path.extend(["Left"] * 6)  # To (0, 20)
-    path.extend(["Up"] * 7)    # To (0, 13) (transition)
+    path.append("Down")      # to (2, 20)
+    path.extend(["Right"] * 4) # to (6, 20)
+    path.extend(["Up"] * 4)   # to (6, 16) (climb West Stairs and walk north on Plateau)
 
     idx = 0
+    stuck_count = 0
     while idx < len(path):
         pos = get_pos()
         if pos is None:
-            run_away()
+            handle_battle()
             continue
             
         print(f"Step {idx}: Standing at {pos}. Walking {path[idx]}...")
-        walk_step(path[idx])
+        new_pos = walk_step_robust(path[idx])
         
-        new_pos = get_pos()
         if new_pos is None:
-            time.sleep(0.5)
-            new_pos = get_pos()
-            if new_pos is None:
-                run_away()
-                continue
-                
+            handle_battle()
+            continue
+            
         if new_pos == pos:
-            print(f"Stuck at {pos}! Bumping/blocked.")
-            return False
+            stuck_count += 1
+            print(f"Stuck at {pos}! Stuck count: {stuck_count}")
+            if stuck_count > 3:
+                print("Path blocked! Exiting.")
+                return False
+        else:
+            stuck_count = 0
+            idx += 1
             
-        # Check if we transitioned maps (large coordinate jump)
-        dist = abs(new_pos[0] - pos[0]) + abs(new_pos[1] - pos[1])
-        if dist > 5:
-            print(f"SUCCESS! Transitioned to coordinates: {new_pos}")
-            return True
-            
-        idx += 1
+    print(f"SUCCESS! Reached plateau coordinates: {get_pos()}")
     return True
 
 if __name__ == "__main__":
-    run_plateau()
+    walk_to_plateau()
