@@ -1,7 +1,7 @@
-## CURRENT STATUS & DASHBOARD (Turn 51451)
-- Location: Celadon Game Corner at (2, 5).
+## CURRENT STATUS & DASHBOARD (Turn 51452)
+- Location: Celadon Game Corner at (3, 5).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Step Right 1 to (3, 5), Down 1 onto exit mat (3, 5) to exit outdoors, then navigate to East Casino entrance at (30, 34)/(30, 35) to reach Rocket Grunt at poster switch.
+- Active Objective: Step Down 1 to exit West Casino Floor outdoors to Game Corner Plaza (10, 7), then navigate to East Casino entrance at (30, 34)/(30, 35) to reach Rocket Grunt at poster switch.
 - Persistent Facts:
   - Tile (1, 5) and Tile (6, 5) on Row 5 are solid counter bases; West Casino floor spans x=1..4, y=0..4.
   - Rocket Grunt and poster switch are located on North Wall in East Casino Floor.
