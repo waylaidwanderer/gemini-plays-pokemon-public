@@ -21,13 +21,13 @@ def walk_step(direction):
     bridge.press_buttons([direction, "sleep 400"])
 
 def run_plateau():
-    print("=== RUNNING AREA 3 PLATEAU CROSSING FROM (27, 23) ===")
+    print("=== RUNNING AREA 3 PLATEAU CROSSING FROM (19, 24) ===")
     
-    # Path list starting from (27, 23)
+    # Path list starting from (19, 24)
     path = []
-    path.extend(["Left"] * 8)  # To (19, 23)
-    path.extend(["Down"] * 3)  # To (19, 26)
-    path.extend(["Right"] * 2) # To (21, 26)
+    path.extend(["Right"] * 3) # To (22, 24)
+    path.extend(["Down"] * 2)  # To (22, 26)
+    path.extend(["Left"])      # To (21, 26)
     path.extend(["Up"] * 8)    # To (21, 18)
     path.extend(["Up"] * 2)    # To (21, 16) (East Stairs)
     path.extend(["Up"] * 2)    # To (21, 14)
