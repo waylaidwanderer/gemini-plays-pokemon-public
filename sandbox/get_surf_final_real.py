@@ -14,11 +14,14 @@ def get_pos():
 
 def handle_battle():
     print("Wild battle/interaction detected! Escaping...")
+    # Advance the text of "Wild XXX appeared!"
     for _ in range(4):
-        bridge.press_buttons(["B", "sleep 250"])
-    bridge.press_buttons(["Down", "sleep 250", "Right", "sleep 250", "A", "sleep 1200"])
+        bridge.press_buttons(["B", "sleep 300"])
+    # Press Down, Right, A to run
+    bridge.press_buttons(["Down", "sleep 250", "Right", "sleep 250", "A", "sleep 1500"])
+    # Dismiss "Got away safely!"
     for _ in range(3):
-        bridge.press_buttons(["B", "sleep 200"])
+        bridge.press_buttons(["B", "sleep 300"])
 
 def walk_step_robust(direction):
     pos = get_pos()
@@ -33,7 +36,15 @@ def walk_step_robust(direction):
         time.sleep(0.15)
         new_pos = get_pos()
         if new_pos is None:
-            return None
+            time.sleep(1.0) # Wait for fade
+            new_pos = get_pos()
+            if new_pos is None:
+                # Still None, must be a battle!
+                handle_battle()
+                return None
+            else:
+                # Coordinate changed after fade, must be a transition!
+                return new_pos
         if new_pos != pos:
             return new_pos
             
@@ -53,15 +64,8 @@ def run_path(path, check_warp=False):
         new_pos = walk_step_robust(path[idx])
         
         if new_pos is None:
-            time.sleep(0.5)
-            new_pos = get_pos()
-            if new_pos is None:
-                if check_warp:
-                    print("SUCCESS! Transition occurred!")
-                    return True
-                handle_battle()
-                continue
-                
+            continue
+            
         if new_pos == pos:
             stuck_count += 1
             print(f"Stuck at {pos}! Stuck count: {stuck_count}")
@@ -70,70 +74,119 @@ def run_path(path, check_warp=False):
                 return False
         else:
             stuck_count = 0
-            idx += 1
             if check_warp:
                 dist = abs(new_pos[0] - pos[0]) + abs(new_pos[1] - pos[1])
                 if dist > 5:
                     print(f"SUCCESS! Transitioned to coordinates: {new_pos}")
+                    # Consume the step and break out of the path segment
                     break
+            idx += 1
     return True
 
-def run_surf_campaign_real():
+def run_surf_and_teeth_campaign():
+    # 1. Flee from the active battle first
+    print("=== STARTING THE ULTIMATE SURF & TEETH CAMPAIGN ===")
+    print("Fleeing from the active battle first...")
+    handle_battle()
+    
+    time.sleep(1.0)
     pos = get_pos()
-    print("Starting campaign from position:", pos)
-    
+    print("Overworld position after fleeing:", pos)
     if pos is None:
-        print("Dismissing any active screen...")
-        bridge.press_buttons(["B", "sleep 500"])
+        # Retry dismissing if still in battle
+        print("Still in battle? Retrying flee...")
+        handle_battle()
         pos = get_pos()
-        print("Position after B:", pos)
+        print("Position after retry:", pos)
+        if pos is None:
+            return False
+            
+    # 2. Stage 5: Walk to Gold Teeth Warp (from current position, should be (2, 20))
+    print("=== STAGE 5: Walk to Gold Teeth Warp ===")
+    path_to_teeth_warp = []
+    if pos[0] == 2 and pos[1] == 20:
+        path_to_teeth_warp.extend(["Left"] * 2)     # To (0, 20)
+        path_to_teeth_warp.extend(["Up"] * 7)       # To (0, 13) (transition!)
+    else:
+        # Fallback if position varies slightly
+        print(f"Unexpected starting position: {pos}. Aligning...")
+        if pos[0] > 0:
+            path_to_teeth_warp.extend(["Left"] * pos[0])
+        if pos[1] > 13:
+            path_to_teeth_warp.extend(["Up"] * (pos[1] - 13))
+            
+    if not run_path(path_to_teeth_warp, check_warp=True):
+        print("Failed to reach transition to Center!")
+        return False
         
-    # We are at (25, 14) in Area 3 (West)
-    path = []
+    time.sleep(1.0)
+    pos = get_pos()
+    print("Position inside Safari Zone Center northwest:", pos)
     
-    # 1. Walk from (25, 14) to (21, 18)
-    path.extend(["Down"] * 4)     # To (25, 18)
-    path.extend(["Left"] * 4)     # To (21, 18)
+    # 3. Walk to Gold Teeth inside Center
+    print("=== STAGE 5b: Walk to Gold Teeth ===")
+    path_to_teeth = [
+        "Down", # to (29, 26)
+        "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left" # to (19, 26)
+    ]
+    if not run_path(path_to_teeth, check_warp=False):
+        print("Failed to walk to Gold Teeth location!")
+        return False
+        
+    pos = get_pos()
+    print(f"Standing below Gold Teeth at {pos}. Picking them up...")
+    # Walk Up to bump into item and face it
+    walk_step_robust("Up")
+    time.sleep(0.5)
+    # Interact and pick up Gold Teeth
+    bridge.press_buttons(["A", "sleep 1000", "A", "sleep 1000", "B", "sleep 500"])
+    print("Gold Teeth successfully picked up!")
     
-    # 2. Walk across Plateau
-    path.extend(["Up"] * 2)       # To (21, 16) (climb East Stairs)
-    path.extend(["Left"] * 15)    # To (6, 16) (across the Plateau)
-    path.extend(["Down"] * 4)     # To (6, 20) (descend West Stairs)
-    path.extend(["Left"] * 5)     # To (1, 20)
+    # 4. Walk back to transition back to Area 3 (West)
+    print("=== STAGE 5c: Walking back to Area 3 Warp ===")
+    path_back_to_warp = [
+        "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", # to (29, 26)
+        "Up" # to warp at (29, 25) (transition!)
+    ]
+    if not run_path(path_back_to_warp, check_warp=True):
+        print("Failed to transition back to Area 3!")
+        return False
+        
+    time.sleep(1.0)
+    pos = get_pos()
+    print("Arrived back in Area 3 northwest:", pos)
     
-    # 3. Walk to the Secret House door at (3, 8)
-    path.extend(["Up"] * 11)      # To (1, 9)
-    path.extend(["Right"] * 2)    # To (3, 9)
-    path.extend(["Up"] * 1)       # To (3, 8) (transition into Secret House!)
-    
-    print("=== EXECUTING REAL GOLDEN PATH TO SECRET HOUSE ===")
-    if not run_path(path, check_warp=True):
-        print("Failed to reach Secret House door!")
+    # 5. Walk to Secret House
+    print("=== STAGE 6: Walking to Secret House ===")
+    path_to_secret_house = [
+        "Up", "Up", "Up", "Up", "Up", # Walk Up Column 0 to Row 8
+        "Right", "Right", "Right",     # Walk Right to Column 3
+        "Up"                           # Enter Secret House! (transition!)
+    ]
+    if not run_path(path_to_secret_house, check_warp=True):
+        print("Failed to enter Secret House!")
         return False
         
     time.sleep(1.0)
     pos = get_pos()
     print("Coordinates inside Secret House:", pos)
     
-    # 4. Stand in front of NPC at (2, 7) inside Secret House
-    # Typically, inside Secret House, we warp to somewhere near the entrance, e.g. (3, 8) or similar.
-    # We walk to (2, 7) or walk up to face the NPC.
-    path_inside = [
+    # 6. Stand in front of NPC and get Surf
+    print("=== STAGE 6b: Talking to NPC to get Surf ===")
+    path_inside_house = [
         "Up", "Up", "Up", "Left", "Up"
     ]
-    print("=== WALKING INSIDE SECRET HOUSE ===")
-    # Let's walk robustly inside (no battles, so standard steps are fine)
-    for step in path_inside:
+    for step in path_inside_house:
         bridge.press_buttons([step, "sleep 300"])
         
-    print("Interacting with NPC to obtain HM03 (Surf)...")
+    print("Interacting with NPC...")
     for _ in range(8):
         bridge.press_buttons(["A", "sleep 1200"])
     for _ in range(3):
         bridge.press_buttons(["B", "sleep 500"])
         
-    print("=== REAL CAMPAIGN COMPLETE ===")
+    print("=== CAMPAIGN FULLY COMPLETE! SURF & TEETH OBTAINED ===")
     return True
 
 if __name__ == "__main__":
-    run_surf_campaign_real()
+    run_surf_and_teeth_campaign()
