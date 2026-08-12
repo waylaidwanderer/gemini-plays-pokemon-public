@@ -69,46 +69,14 @@ def run_path(path, check_warp=False):
     return True
 
 def main():
-    print("=== NAVIGATING FROM (1, 16) TO SAFARI GATEHOUSE ===")
+    print("=== CONTINUING TO SAFARI ZONE GATEHOUSE FROM BUSH ===")
+    
+    # First, dismiss the "TRUFFLE hacked away with CUT!" text box
+    print("Dismissing CUT text box...")
+    bridge.press_buttons(["A", "sleep 600"])
     
     pos = get_pos()
-    print("Initial position:", pos)
-    if pos != (1, 16):
-        print("Not at starting position (1, 16)!")
-        return
-        
-    # 1. Walk Down to Row 21 -> (1, 21)
-    # 2. Walk Right to Column 22 -> (22, 21)
-    # 3. Walk Up to Row 14 -> (22, 14)
-    # 4. Walk Right to Column 26 -> (26, 14)
-    escape_path = (
-        ["Down"] * 5 +
-        ["Right"] * 21 +
-        ["Up"] * 7 +
-        ["Right"] * 4
-    )
-    
-    if not run_path(escape_path):
-        print("Failed to reach the cut-able bush!")
-        return
-        
-    print("At (26, 14). Facing UP...")
-    bridge.press_buttons(["Up", "sleep 300"])
-    
-    print("Using CUT...")
-    cut_sequence = [
-        "Start", "sleep 600",
-        "Up", "Up", "Up", "Up", "Up", "Up", "sleep 300", # Align to POKEDEX
-        "Down", "A", "sleep 1000",                       # Select POKEMON
-        "Down", "A", "sleep 1000",                       # Select Paras (2nd slot)
-        "A", "sleep 1500",                               # Select CUT
-        "B", "sleep 500", "B", "sleep 500"               # Close any lingering menus
-    ]
-    bridge.press_buttons(cut_sequence)
-    time.sleep(2.0)
-    
-    pos = get_pos()
-    print("Position after CUT attempt:", pos)
+    print("Position after text box dismiss:", pos)
     
     # Path from (26, 14) through the cut bush to the Safari Gatehouse
     path_from_bush = (
