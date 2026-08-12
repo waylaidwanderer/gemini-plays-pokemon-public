@@ -118,7 +118,7 @@
 - **Full Restore:** 1
 - **Max Revive:** 1
 - **HM03 (Surf):** NOT YET OBTAINED (Verified on Turn 31338-31789, Audited in Bag on Turn 34425).
-- **Gold Teeth:** NOT YET OBTAINED (Verified on Turn 31338-31789, Audited in Bag on Turn 34425).
+- **Gold Teeth:** OBTAINED on Turn 36218 (Verified in Bag).
 
 ## Major Exploration Phases and Timestamps
 - (Cleaned up historic milestones to reduce context window bloat)
