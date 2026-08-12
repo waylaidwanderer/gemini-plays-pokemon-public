@@ -82,33 +82,21 @@ def run_surf_campaign():
     pos = get_pos()
     print("Starting campaign from position:", pos)
     
-    # Dismiss the "Got away safely!" screen
-    print("Dismissing 'Got away safely!' screen...")
-    bridge.press_buttons(["B", "sleep 500"])
-    
-    time.sleep(0.5)
-    pos = get_pos()
-    print("Overworld position after dismissing:", pos)
-    if pos is None:
-        print("Failed to get position, let's retry...")
-        pos = get_pos()
-        
     path_area2 = []
     
-    # We are currently at (19, 28) in Area 2 (North)
-    if pos is not None and pos[0] == 19 and pos[1] == 28:
-        # Continue Area 2 North route from (19, 28)
-        path_area2.append("Right")         # to (20, 28)
-        path_area2.append("Up")            # to (20, 27)
-        path_area2.append("Left")          # onto stairs at (19, 27)
-        path_area2.extend(["Left"] * 3)    # across plateau to (16, 26) (onto plateau top)
-        path_area2.extend(["Down"] * 2)    # descend stairs to (16, 28)
+    # We are currently at (20, 27) in Area 2 (North)
+    if pos is not None and pos[0] == 20 and pos[1] == 27:
+        path_area2.extend(["Right"] * 2)   # to (22, 27)
+        path_area2.extend(["Up"] * 3)      # to (22, 24) (climb stairs)
+        path_area2.append("Up")            # to (22, 22) (onto plateau top)
+        path_area2.extend(["Left"] * 6)    # to (16, 22) (across plateau)
+        path_area2.extend(["Down"] * 6)    # to (16, 28) (descend stairs)
         path_area2.append("Left")          # to Column 15 on Row 28: (15, 28) (ground)
         path_area2.extend(["Up"] * 6)      # to Row 22: (15, 22) (ground)
         path_area2.extend(["Left"] * 11)   # to Column 4 on Row 22: (4, 22) (bypassing Column 5 shrub wall!)
         path_area2.extend(["Down"] * 14)  # to Row 36: (4, 36) (transition!)
     else:
-        print(f"Error: Not at expected starting position (19, 28). Position is: {pos}")
+        print(f"Error: Not at expected starting position (20, 27). Position is: {pos}")
         return False
         
     print("=== STAGE 4: Walking Area 2 to Southwest Transition ===")
