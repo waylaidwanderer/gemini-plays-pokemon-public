@@ -1346,7 +1346,7 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 4. **The Column 29 Shrub Wall:** Column 29 has solid trees/shrubs on Rows 12-25, completely blocking ground-horizontal crossing. Crossing Column 29 is only possible on Row 26 (South) and Rows 10-11 (North).
 5. **The Pond & Rest House 1:** Completely block the middle-western ground level on Rows 10-15 across Columns 9-19.
 
-### The Verified Ground-Level Eastern Bypass Route (The Only Walkable Way to Area 1)
+### [REFUTED] Ground-Level Eastern Bypass Route (Column 28 is Blocked)
 To walk from the Gatehouse entrance at `(15, 25)` to the Area 1 (East) transition at `(0, 23)` without climbing any plateaus or getting trapped:
 1. Walk UP Column 15 to Row 22: `(15, 25) -> (15, 24) -> (15, 23) -> (15, 22)`. This safely crosses the Row 23 ledge opening.
 2. Walk RIGHT along Row 22 to Column 28: `(15, 22) -> (28, 22)`. This completely bypasses the Row 25 wooden fences and avoids the solid signposts at `(16, 24)` and `(27, 24)`.
