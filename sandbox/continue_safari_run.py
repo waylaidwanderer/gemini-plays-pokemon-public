@@ -91,7 +91,7 @@ def run_path(path, check_warp=False):
     return True
 
 def main():
-    print("=== DYNAMIC SAFARI ZONE RUN TO RETRIEVE GOLD TEETH ===")
+    print("=== FINAL PHASE: ACQUIRING THE GOLD TEETH ===")
     
     pos = get_pos()
     print("Initial position:", pos)
@@ -101,15 +101,14 @@ def main():
         if pos is None:
             return
             
-    # 1. We are at (19, 24) in Area 3 (West).
-    # We must walk Down 2 to Row 26 -> (19, 26).
-    if pos == (19, 24):
-        print("Walking Down to Row 26...")
-        if not run_path(["Down", "Down"]):
+    # 1. Walk to Row 26 in Area 3 (West)
+    if pos == (21, 24):
+        print("Walking to Row 26...")
+        if not run_path(["Right", "Down", "Down"]):
             return
             
     pos = get_pos()
-    # 2. Walk Right on Row 26 to transition to Safari Zone Center (NW Compartment)
+    # 2. Walk Right to transition to Safari Zone Center
     if pos is not None and pos[1] == 26 and pos[0] < 30:
         right_steps = ["Right"] * (31 - pos[0])
         print(f"Walking Right {len(right_steps)} steps to transition into Center NW Compartment...")
@@ -122,8 +121,7 @@ def main():
     print("Arrived in Safari Zone Center:", pos)
     
     # 3. Inside Center (NW Compartment)
-    # We land at (29, 26) or similar on Row 26.
-    # We must walk Left to Column 19 on Row 26 -> (19, 26).
+    # We must walk Left to Column 19 on Row 26 -> (19, 26)
     if pos is not None and pos[1] == 26 and pos[0] > 19:
         left_steps = ["Left"] * (pos[0] - 19)
         print(f"Walking Left {len(left_steps)} steps to (19, 26)...")
