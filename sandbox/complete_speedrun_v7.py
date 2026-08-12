@@ -9,7 +9,7 @@ sys.stdout.reconfigure(encoding='utf-8')
 ROUTE = [
     # 0-35: Safari Zone Center (using verified ground-level eastern bypass!)
     (24, 12), (24, 13), (24, 14), (24, 15), (24, 16), # Walk down off the plateau
-    (24, 17), (24, 18), (24, 19), (24, 20), (24, 21), (24, 22), (24, 23), (24, 24), # Walk down column 24
+    (24, 17), (24, 18), (24, 19), (24, 20), (24, 21), (24, 22), (24, 24), # Walk down column 24 (jump ledge)
     (25, 24), (26, 24), (27, 24), # Walk right along row 24
     (27, 25), (27, 26), # Walk down through tall grass (bypasses Row 25 Rhydon statues)
     (28, 26), (29, 26), (30, 26), # Walk right along row 26 to Column 30
