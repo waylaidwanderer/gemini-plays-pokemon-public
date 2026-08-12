@@ -84,7 +84,7 @@ def run_path(path, check_warp=False):
     return True
 
 def main():
-    print("=== RESUMING SURF MASTER PLAN (V13) FROM (20, 3) ===")
+    print("=== RESUMING SURF MASTER PLAN (V13) FROM (9, 3) ===")
     
     # 1. Escape the wild battle first
     handle_battle()
@@ -94,12 +94,11 @@ def main():
     pos = get_pos()
     print("Position after battle escape:", pos)
     
-    # We are currently in Area 1 (East) at (20, 3)
-    if pos == (20, 3):
+    # We are currently in Area 1 (East) at (9, 3)
+    if pos == (9, 3):
         print("=== STEP 2 RESUME: NAVIGATING AREA 1 CORRIDOR BYPASS ROUTE ===")
         path_area1 = [
-            "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
-            "Left", "Left", "Left", "Left", "Left", # to (7, 3) (13 steps Left)
+            "Left", "Left",                     # to (7, 3) (2 steps Left)
             "Down", "Down",                     # to (7, 5) (2 steps Down)
             "Left", "Left", "Left", "Left", "Left", "Left", "Left" # to (0, 5) (Warp!) (7 steps Left)
         ]
