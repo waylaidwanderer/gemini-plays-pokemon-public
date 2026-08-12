@@ -52,21 +52,16 @@ def run_path(path):
     return True
 
 def main():
-    print("=== LEAVING WARDEN'S AND WALKING TO POKEMON CENTER ===")
+    print("=== LEAVING WARDEN'S AND WALKING TO POKEMON CENTER (V2) ===")
     
-    # 1. Close Menu/PACK
-    print("Closing PACK menu...")
-    for _ in range(4):
-        bridge.press_buttons(["B"])
-        time.sleep(0.3)
-        
     pos = get_pos()
-    print("Position inside Warden's:", pos)
+    print("Starting position:", pos)
     
-    # 2. Exit Warden's House
-    if pos is not None and pos[1] <= 8:
-        print("Walking Down to exit house...")
-        path_exit = ["Down"] * 4
+    # 1. We are at (2, 7) inside Warden's House.
+    # Walk Right 2 steps to Column 4, then Down 1 step to exit!
+    if pos is not None and pos[0] == 2 and pos[1] == 7:
+        print("Walking to exit door...")
+        path_exit = ["Right", "Right", "Down"]
         if run_path(path_exit):
             print("Successfully exited Warden's House!")
             time.sleep(1.0)
@@ -101,7 +96,6 @@ def main():
         # From entrance mat (3, 7):
         # - Up 3 to (3, 4)
         # - Right 10 to (13, 4)
-        # If we landed at a different entrance coord, let's align
         path_to_pc = []
         if pos[1] > 4:
             path_to_pc.extend(["Up"] * (pos[1] - 4))
