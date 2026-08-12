@@ -165,3 +165,9 @@ We have empirically verified that Column 28 is 100% OPEN and walkable on Rows 12
   - This forms an interlocking hedge maze that completely prevents ground-level vertical passage from the Northwest Compartment of Center to the South/East Compartment.
 - **Pond & Rest House 1 in Center:** Completely block the middle-western ground level on Rows 10-15 across Columns 9-19.
 - **Center Compartment Wrapping:** The Northwest Compartment of Center is completely isolated from the South/East Compartment. Transitioning RIGHT from Area 3 (West) on Row 23/26 always warps the player into this isolated Northwest Compartment of Center. To enter the South/East Compartment (containing the Gold Teeth), we must enter directly from the Gatehouse entrance at (15, 25).
+
+### 🧪 Newly Verified Physical Boundaries & Collisions (Turns 35858-35882)
+- **Column 15 Row 27 Cliff Wall (Area 2 North):** Solid cliff wall tile causing a bump when walking Up from `(15, 28)`.
+- **Column 5 Shrub Barrier (Area 2 North):** Continuous dark green hedge/shrub wall from Row 20 to Row 33, completely blocking direct ground-horizontal crossing.
+- **Row 34/35 Statue Barriers (Area 2 North):** Row 34 is blocked by statues across Columns 4-7 and Columns 10-11, with a walkable gap on Columns 8-9. Row 35 is blocked by statues at `(7, 35)` and `(10, 35)`.
+- **Row 4 Column 26 Ledge (Area 3 West):** Solid horizontal ledge at `(26, 4)` preventing direct ground-level downward passage from `(26, 3)`.
