@@ -116,11 +116,16 @@
 
 ## Active Safari Zone Session (Start Turn: 35108)
 - **Start Turn:** 35108
-- **Current Turn:** 35149
-- **Steps Used:** 16
-- **Steps Remaining:** 484
-- **Current Location:** Safari Zone Center at (28, 23)
-- **Session Goals:** Enter the Safari Zone, execute the corrected golden route to Area 1 (East), then navigate to Area 2 (North) and Area 3 (West) to obtain the Gold Teeth and Surf.
+- **Current Turn:** 35191
+- **Steps Used:** 208
+- **Steps Remaining:** 292
+- **Current Location:** Safari Zone Area 3 (West) at (27, 0)
+- **Session Goals:** Execute the sequential speedrun route to obtain the Gold Teeth and Surf.
+- **Empirical Refutations:**
+  - Bypassed the Central Plateau entirely. Verified Column 28 is 100% walkable and NOT blocked by trees on Turn 35165. This saved 22 steps.
+  - Verified Column 27 Row 24 contains a solid signpost, which blocks direct horizontal crossing from (26, 24) on the ground.
+  - Verified Column 23 on Row 24 can be traversed UP to Row 22/23 because there is no ledge line there.
+  - Safely escaped battles using the refined sequential speedrun script.
 
 <hr>
 
