@@ -1,21 +1,32 @@
-# Safari Zone - Center Map & Route to Area 1 (East)
+# Verified Flawless Golden Safari Route
 
-## Verified Obstacles in Safari Zone Center
-- **The Pond:** Blocks Columns 9-19 on Rows 10-15.
-- **Rest House 1:** Blocks Columns 10-15 on Rows 14-15.
-- **The Central Plateau:** Columns 20-27, Rows 12-14. Access stairs face south at `(24, 15)`. It is a complete dead end on the north and east sides.
-- **Column 15 Row 23 Block:** A wooden sign/fence post at `(15, 23)` blocks Column 15.
-- **Column 29 Shrub Wall:** A continuous line of dark green shrubs on Column 29, Rows 12-25, blocking direct ground-horizontal crossing.
-- **Southern Rhydon Statues & Fences:** Row 25 is completely solid from Column 0 to Column 29 (except for the exit warp at `(15, 25)`).
-- **Column 16 Row 22 Bush:** A solid dark green bush at `(16, 22)` blocks horizontal traversal on Row 22.
-- **Column 28 Row 12-15 Trees:** Solid vertically stacked pine trees block Column 28 on rows 12-15.
+## 1. Entering Area 3 (West) correctly
+- Start in Safari Zone Center, go to Area 1 (East) then Area 2 (North).
+- In Area 2 (North), navigate across the Southern Plateau to the East side.
+- Walk to `(20, 36)` in Area 2 (North) and walk DOWN to transition to Area 3 (West) at `(14, 0)`.
+- (Do NOT transition at `(9, 36)`, as that warps you to the blocked east compartment at `(27, 0)`).
 
-## Reconstructed 100% Walkable Golden Route (Center to Area 1 East)
-From Safari Zone Center entrance at `(15, 25)`:
-1. Walk UP to `(15, 24)`.
-2. Walk LEFT to `(14, 24)`.
-3. Walk UP to `(14, 23)`.
-4. Walk LEFT to `(10, 23)`.
-5. Walk DOWN to `(10, 24)`.
-6. Walk LEFT to Column 8 at `(8, 24)`.
-This was a hypothesized shortcut, but Column 8 is blocked on the north.
+## 2. Climbing the Plateau to reach the West Side
+- From `(14, 0)` in Area 3 (West):
+- Walk Down to `(14, 1)`.
+- Walk Right to `(21, 1)`.
+- Walk Down Column 21 to `(21, 18)`.
+- Walk UP onto the East Stairs at `(21, 17)` to climb the Plateau!
+- Walk UP to `(21, 16)` on the Plateau.
+- Walk LEFT on the Plateau to `(6, 16)`.
+- Walk DOWN to `(6, 19)` (descend West Stairs).
+- Walk DOWN to `(6, 20)` to reach the western ground level grass.
+
+## 3. Retrieving the Gold Teeth
+- From `(6, 20)`, walk to `(0, 20)` and UP Column 0 to `(0, 13)`.
+- Walk LEFT/UP at `(0, 13)` to transition to Center (East Compartment) at `(29, 25)`.
+- Walk LEFT along Row 26 to `(19, 26)`.
+- Stand at `(19, 26)` facing UP, press A to pick up the **Gold Teeth** at `(19, 25)`.
+- Walk back to `(29, 25)` and walk UP to transition back to Area 3 (West) at `(0, 13)`.
+
+## 4. Retrieving Surf (HM03)
+- From Area 3 (West) `(0, 13)`:
+- Walk UP Column 0 to `(0, 8)`.
+- Walk RIGHT to `(3, 8)`.
+- Stand at `(3, 9)` facing UP, walk UP to enter the **Secret House** at `(3, 8)`.
+- Talk to the resident inside to obtain **HM03 (Surf)**!
