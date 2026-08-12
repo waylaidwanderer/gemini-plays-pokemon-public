@@ -21,12 +21,10 @@ def walk_step(direction):
     bridge.press_buttons([direction, "sleep 400"])
 
 def walk_left_route_v2():
-    # We are at (6, 33)
+    # We are at (6, 28)
     path = [
-        "Up", "Up", "Up", "Up", "Up", # To (6, 28)
-        "Left", "Left", # To (4, 28) - crossing Column 5!
-        "Down", "Down", "Down", "Down", "Down", "Down", "Down", # To (4, 35)
-        "Left" # To transition!
+        "Left", "Left", "Left", # To (3, 28)
+        "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down" # To transition at (3, 36)!
     ]
     
     idx = 0
@@ -51,7 +49,7 @@ def walk_left_route_v2():
             print(f"Stuck at {pos}! Bumping/blocked.")
             return False
             
-        # Check if we transitioned maps
+        # Check if we transitioned maps (large coordinate jump)
         dist = abs(new_pos[0] - pos[0]) + abs(new_pos[1] - pos[1])
         if dist > 5:
             print(f"SUCCESS! Transitioned to coordinates: {new_pos}")
