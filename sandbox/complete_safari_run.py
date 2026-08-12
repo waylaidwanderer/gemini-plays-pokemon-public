@@ -147,6 +147,44 @@ def get_area1_path(pos):
     path.extend(["Left"] * 7)          # to (0, 5) (warp!)
     return path
 
+def get_area2_path(pos):
+    path = []
+    # If we are on the east side of Column 17 (meaning X >= 18)
+    if pos[0] >= 18:
+        # Walk to Column 22 on Row 31
+        if pos[1] < 31:
+            path.extend(["Down"] * (31 - pos[1]))
+        elif pos[1] > 31:
+            path.extend(["Up"] * (pos[1] - 31))
+        if pos[0] < 22:
+            path.extend(["Right"] * (22 - pos[0]))
+        elif pos[0] > 22:
+            path.extend(["Left"] * (pos[0] - 22))
+            
+        # Now we are at (22, 31). Climb the plateau!
+        path.extend(["Up"] * 7)            # to (22, 24)
+        path.extend(["Up"] * 2)            # to (22, 22) (climbs stairs)
+        path.extend(["Left"] * 6)          # to (16, 22)
+        path.extend(["Down"] * 6)          # to (16, 28) (descends stairs)
+        path.extend(["Left"] * 4)          # to (12, 28)
+        path.extend(["Down"] * 5)          # to (12, 33)
+        path.extend(["Left"] * 4)          # to (8, 33)
+        path.extend(["Down"] * 3)          # to Area 3 warp!
+    else:
+        # We are already on the west side of Column 17 (meaning X < 18)
+        # Walk to (12, 33)
+        if pos[1] < 33:
+            path.extend(["Down"] * (33 - pos[1]))
+        elif pos[1] > 33:
+            path.extend(["Up"] * (pos[1] - 33))
+        if pos[0] > 12:
+            path.extend(["Left"] * (pos[0] - 12))
+        elif pos[0] < 12:
+            path.extend(["Right"] * (12 - pos[0]))
+        path.extend(["Left"] * 4)          # to (8, 33)
+        path.extend(["Down"] * 3)          # to Area 3 warp!
+    return path
+
 def run_campaign_to_area3():
     print("=== EXECUTING MASTER SPEEDRUN TO AREA 3 (WEST) ===")
     
@@ -184,7 +222,6 @@ def run_campaign_to_area3():
         print("Position inside Area 1 (East):", pos)
         
     # 2. Check if we are in Area 1 (East)
-    # Detect based on typical coordinates in Area 1 (East)
     if pos is not None and pos[0] <= 38 and pos[1] <= 24:
         print("Using dynamic spiral generator for Area 1 (East)...")
         path_area1 = get_area1_path(pos)
@@ -199,16 +236,12 @@ def run_campaign_to_area3():
         print("Position inside Area 2 (North):", pos)
         
     # 3. Check if we are in Area 2 (North)
-    if pos is not None and pos[0] == 39 and pos[1] == 31:
-        path_area2 = [
-            "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
-            "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
-            "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
-            "Left", "Left", "Left",                                           # to (12, 31) (27 steps Left)
-            "Down", "Down",                                                   # to (12, 33) (2 steps Down)
-            "Left", "Left", "Left", "Left",                                   # to (8, 33) (4 steps Left)
-            "Down", "Down", "Down"                                            # to Area 3 warp!
-        ]
+    # Detect based on typical coordinates in Area 2 (North)
+    # Area 2 is generally x >= 0 with y <= 36. If we have not transitioned to Area 3 yet, we are in Area 2.
+    # Area 3 starts at (26, 0)
+    if pos is not None and not (pos[0] == 26 and pos[1] == 0):
+        print("Using dynamic path generator for Area 2 (North)...")
+        path_area2 = get_area2_path(pos)
         
     if len(path_area2) > 0:
         print("Walking across Area 2 (North) to Area 3 (West)...")
