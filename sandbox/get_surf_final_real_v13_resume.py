@@ -84,24 +84,21 @@ def run_path(path, check_warp=False):
     return True
 
 def main():
-    print("=== RESUMING SURF MASTER PLAN (V13) FROM (20, 6) ===")
+    print("=== RESUMING SURF MASTER PLAN (V13) FROM (20, 5) ===")
     
-    # 1. Escape the wild battle first
-    handle_battle()
-    
-    # Wait for battle to fully end and overworld to load
-    time.sleep(1.0)
     pos = get_pos()
-    print("Position after battle escape:", pos)
+    print("Starting position:", pos)
     
-    # We are currently in Area 1 (East) at (20, 6)
-    if pos == (20, 6):
-        print("=== STEP 2 RESUME: NAVIGATING AREA 1 CORRIDOR ===")
+    # We are currently in Area 1 (East) at (20, 5)
+    if pos == (20, 5):
+        print("=== STEP 2 RESUME: NAVIGATING AREA 1 CORRIDOR BYPASS ROUTE ===")
+        # Walk Up to Row 3, Left to (7, 3), Down to (7, 5), Left to (0, 5)
         path_area1 = [
-            "Up",                               # to (20, 5)
+            "Up", "Up",                         # to (20, 3) (2 steps Up)
             "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
-            "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
-            "Left", "Left", "Left", "Left",     # to (0, 5) (Warp!) (20 steps Left)
+            "Left", "Left", "Left", "Left", "Left", # to (7, 3) (13 steps Left)
+            "Down", "Down",                     # to (7, 5) (2 steps Down)
+            "Left", "Left", "Left", "Left", "Left", "Left", "Left" # to (0, 5) (Warp!) (7 steps Left)
         ]
         if not run_path(path_area1, check_warp=True):
             print("Failed to reach Area 2!")
