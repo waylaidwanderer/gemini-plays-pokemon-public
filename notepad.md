@@ -116,10 +116,10 @@
 
 ## Active Safari Zone Session (Start Turn: 35655)
 - **Start Turn:** 35655
-- **Current Turn:** 35765
-- **Steps Used:** ~250
-- **Steps Remaining:** ~250
-- **Current Location:** Safari Zone Area 2 (North) at (6, 23)
+- **Current Turn:** 35793
+- **Steps Used:** ~300
+- **Steps Remaining:** ~200
+- **Current Location:** Safari Zone Area 2 (North) at (25, 24)
 - **Session Goals:** Enter Area 3 (West) northwest ground via Area 2 (North) southwest transition at (4, 36) to reach the Secret House and obtain Surf!
 - **Empirical Refutations:**
   - Verified Column 28 in Center is 100% open and walkable, saving 22 steps.
