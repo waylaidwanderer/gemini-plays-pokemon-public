@@ -16,16 +16,12 @@ def walk_step_robust(direction):
     pos = get_pos()
     if pos is None:
         return None
-        
     bridge.press_buttons([direction])
-    
     for _ in range(5):
         time.sleep(0.15)
         new_pos = get_pos()
         if new_pos is not None and new_pos != pos:
             return new_pos
-            
-    print(f"Bumping/stuck at {pos} walking {direction}!")
     return pos
 
 def run_path(path):
@@ -56,35 +52,29 @@ def run_path(path):
     return True
 
 def main():
-    print("=== JUMPING LEDGE AND WALKING TO WARDEN'S HOUSE ===")
+    print("=== WALKING VIA COLUMN 30 TO WARDEN'S HOUSE ===")
     pos = get_pos()
     print("Starting position:", pos)
     
-    if pos == (23, 21):
-        print("Jumping down the ledge...")
-        bridge.press_buttons(["Down"])
-        time.sleep(0.8) # Wait for jump animation to fully complete
-        
-        pos = get_pos()
-        print("Position after jump:", pos)
-        
-    # We should have landed at (23, 23)
-    if pos is not None and pos[0] == 23 and pos[1] == 23:
-        # Route to Warden's House:
-        # 1. Walk Down 4 steps to Row 27 -> (23, 27)
-        # 2. Walk Right 4 steps to Column 27 -> (27, 27)
-        # 3. Walk Up to enter!
-        path = (
-            ["Down"] * 4 +
-            ["Right"] * 4 +
-            ["Up"]
-        )
-        if run_path(path):
-            print("Successfully entered Warden's House!")
-            time.sleep(1.0)
-            print("Final Position:", get_pos())
-        else:
-            print("Failed to reach Warden's House door!")
+    # We are at (27, 30) in Fuchsia City.
+    # Route:
+    # 1. Walk Right to Column 30 -> (30, 30) (3 steps Right)
+    # 2. Walk Up Column 30 to Row 28 -> (30, 28) (2 steps Up)
+    # 3. Walk Left along Row 28 to Column 27 -> (27, 28) (3 steps Left)
+    # 4. Walk Up to enter Warden's House! (up to 2 steps)
+    path = (
+        ["Right"] * 3 +
+        ["Up"] * 2 +
+        ["Left"] * 3 +
+        ["Up"] * 2
+    )
+    
+    if run_path(path):
+        print("Successfully reached and entered Warden's House!")
+        time.sleep(1.0)
+        print("Final Position:", get_pos())
+    else:
+        print("Failed to reach Warden's House!")
 
 if __name__ == "__main__":
     main()
