@@ -67,12 +67,12 @@ def execute_safari_run():
         "Up", "Up", "Up",
         # Walk Right to (27, 22) (12 steps Right)
         "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right",
-        # Walk Down to (27, 24) (2 steps Down, jumps row 23 ledge)
-        "Down", "Down",
-        # Walk Down to (27, 26) (2 steps Down, bypasses row 25 statues)
-        "Down", "Down",
-        # Walk Right to (30, 26) (3 steps Right)
+        # Walk Down to (27, 23) (1 step Down)
+        "Down",
+        # Walk Right to (30, 23) (3 steps Right)
         "Right", "Right", "Right",
+        # Walk Down to (30, 26) (3 steps Down)
+        "Down", "Down", "Down",
         # Walk Up Column 30 to (30, 11) (15 steps Up)
         "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up",
         # Align Left (30, 11) -> (29, 11)
