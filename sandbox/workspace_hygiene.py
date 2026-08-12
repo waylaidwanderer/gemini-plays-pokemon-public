@@ -34,7 +34,7 @@ def update_safari_zone_md():
         return False
 
 def update_progression_stats():
-    path = "notepads/Progression_And_Party_Stats"
+    path = "notepads/Progression_And_Party_Stats.md"
     if not os.path.exists(path):
         print(f"Error: {path} does not exist.")
         return False
