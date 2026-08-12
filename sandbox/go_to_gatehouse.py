@@ -52,20 +52,28 @@ def run_path(path):
     return True
 
 def main():
-    print("=== NAVIGATING TO SAFARI ZONE GATEHOUSE FROM WARDEN'S ===")
+    print("=== NAVIGATING TO GATEHOUSE (V2) ===")
     pos = get_pos()
     print("Starting position:", pos)
     
-    # We are at (27, 28) outside the Warden's House.
+    # We are at (33, 28) in Fuchsia City.
     # Route:
-    # 1. Walk Right along Row 28 from Column 27 to Column 37 -> (37, 28) (10 steps Right)
-    # 2. Walk Up Column 37 from Row 28 to Row 2 -> (37, 2) (26 steps Up)
-    # 3. Walk Left along Row 2 from Column 37 to Column 18 -> (18, 2) (19 steps Left)
-    # 4. Walk Down 1 step to Row 3 to enter the Gatehouse -> (18, 3) (1 step Down - enter!)
+    # 1. Walk Left to Column 31 -> (31, 28) (2 steps Left)
+    # 2. Walk Down to Row 30 -> (31, 30) (2 steps Down)
+    # 3. Walk Right to Column 35 -> (35, 30) (4 steps Right)
+    # 4. Walk Up Column 35 to Row 14 -> (35, 14) (16 steps Up)
+    # 5. Walk Left along Row 14 to Column 23 -> (23, 14) (12 steps Left)
+    # 6. Walk Up Column 23 to Row 2 -> (23, 2) (12 steps Up)
+    # 7. Walk Left along Row 2 to Column 18 -> (18, 2) (5 steps Left)
+    # 8. Walk Down 1 step to enter Gatehouse -> (18, 3) (1 step Down)
     path = (
-        ["Right"] * 10 +
-        ["Up"] * 26 +
-        ["Left"] * 19 +
+        ["Left"] * 2 +
+        ["Down"] * 2 +
+        ["Right"] * 4 +
+        ["Up"] * 16 +
+        ["Left"] * 12 +
+        ["Up"] * 12 +
+        ["Left"] * 5 +
         ["Down"]
     )
     
