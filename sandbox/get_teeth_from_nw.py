@@ -1,21 +1,21 @@
-import mgba
+import bridge
 import time
 
 def get_pos():
     for _ in range(4):
-        pos = mgba.get_coordinates()
+        pos = bridge.get_coordinates()
         if pos is not None:
-            return pos.get('x'), pos.get('y')
-        mgba.press_buttons(["sleep 50"])
+            return pos
+        bridge.press_buttons(["sleep 50"])
     return None
 
 def walk_step_robust(direction):
     pos = get_pos()
     if pos is None:
         return None
-    mgba.press_buttons([direction])
+    bridge.press_buttons([direction])
     for _ in range(5):
-        mgba.press_buttons(["sleep 100"])
+        bridge.press_buttons(["sleep 100"])
         new_pos = get_pos()
         if new_pos is not None and new_pos != pos:
             return new_pos
@@ -37,7 +37,7 @@ def run_path(path, check_warp=False):
             stuck_count += 1
             if stuck_count > 3:
                 print("Stuck! Pressing B...")
-                mgba.press_buttons(["B", "sleep 300"])
+                bridge.press_buttons(["B", "sleep 300"])
                 stuck_count = 0
         else:
             stuck_count = 0
@@ -61,7 +61,7 @@ def main():
             return
             
     # Wait for map transition
-    mgba.press_buttons(["sleep 1000"])
+    bridge.press_buttons(["sleep 1000"])
     pos = get_pos()
     print("Position in Area 3:", pos)
     
@@ -87,7 +87,7 @@ def main():
     # 4. Stand at (19, 24) facing Down and pick up Gold Teeth
     if pos == (19, 24):
         print("=== INTERACTING TO PICK UP GOLD TEETH ===")
-        mgba.press_buttons(["Down", "sleep 500", "A", "sleep 1000", "A", "sleep 1000", "B", "sleep 500"])
+        bridge.press_buttons(["Down", "sleep 500", "A", "sleep 1000", "A", "sleep 1000", "B", "sleep 500"])
         print("Pickup interaction sent.")
 
 if __name__ == "__main__":
