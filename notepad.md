@@ -116,10 +116,10 @@
 
 ## Active Safari Zone Session (Start Turn: 35479)
 - **Start Turn:** 35479
-- **Current Turn:** 35551
-- **Steps Used:** 192
-- **Steps Remaining:** 308
-- **Current Location:** Safari Zone Area 2 (North) at (8, 14)
+- **Current Turn:** 35586
+- **Steps Used:** 322
+- **Steps Remaining:** 178
+- **Current Location:** Safari Zone Area 3 (West) at (4, 20)
 - **Session Goals:** Execute the fully optimized, 100% walkable speedrun route (ground-level bypass of Central Plateau via Column 28, and Southern Corridor of Area 2 to Area 3).
 - **Empirical Refutations:**
   - Bypassed the Central Plateau entirely. Verified Column 28 is 100% walkable and NOT blocked by trees on Turn 35165. This saved 22 steps.
@@ -1349,6 +1349,9 @@ To reach Area 3 (West), the player **MUST** use the intended speedrun route acro
 **Safari Zone Center -> Area 1 (East) -> Area 2 (North) -> Area 3 (West)**.
 Any attempt to find a ground-level shortcut within Safari Zone Center is mathematically blocked by map collision.
 ### Verified Collisions & Landmarks in Area 3 (West) (Turns 32706 - 32738)
+- **Column 1 Row 15 Tree Barrier:** Solid tree trunk on Row 15, and tree top on Row 14, completely blocking Column 1 vertical ground traversal.
+- **Column 2 Row 12 Cliff Barrier:** Solid vertical cliff face of the pond on Column 2, Rows 10-13, blocking Column 2 vertical ground traversal.
+- **Column 4 Row 18 Pond Shoreline Barrier:** Solid diagonal cliff/shore corner at Column 4, Row 18, blocking Column 4 horizontal crossing.
 - **Southern Edge Wall (Row 25):** Solid green shrubs/hedges block southward movement at `(29, 24)`, `(21, 25)`, `(20, 25)`, `(19, 25)` (Wait, (19, 25) is hypothesized to be the Gold Teeth item ball, which physically bumps when walked into!).
 - **Column 18 Shrub Barrier:** Solid green shrubs run vertically on column 18, rows 20-23, causing a bump when walking Left from `(19, 23)` to `(18, 23)`.
 - **Row 24 Shrub Barrier:** Solid green shrubs run horizontally on row 24, columns 17-29 (with a corridor on row 24 columns 18-21), blocking Left movement from `(18, 24)` to `(17, 24)`.
