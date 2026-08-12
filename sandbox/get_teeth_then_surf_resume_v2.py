@@ -84,28 +84,20 @@ def run_path(path, check_warp=False):
     return True
 
 def main():
-    print("=== RESUMING TEETH THEN SURF MASTER PLAN FROM ROW 20 ===")
+    print("=== RESUMING TEETH THEN SURF MASTER PLAN FROM (17, 20) ===")
     
-    # 1. Escape the wild battle first
-    handle_battle()
-    
-    # Wait for battle to fully end and overworld to load
-    time.sleep(1.0)
     pos = get_pos()
-    print("Position after battle escape:", pos)
+    print("Starting position:", pos)
     
-    # If we are on Row 20 in Area 3 (West)
-    if pos is not None and pos[1] == 20 and pos[0] <= 21:
-        print("=== STAGE 1: WALKING TO GOLD TEETH IN AREA 3 ===")
-        # Walk Right to Column 21
-        path_to_teeth = []
-        if pos[0] < 21:
-            path_to_teeth.extend(["Right"] * (21 - pos[0]))
-        # Walk Down to Row 26
-        path_to_teeth.extend(["Down"] * 6)
-        # Walk Left to Column 19
-        path_to_teeth.extend(["Left"] * 2)
-        
+    if pos == (17, 20):
+        print("=== STAGE 1 RESUME: NAVIGATING AROUND COLUMN 18 BARRIER ===")
+        # Walk Down to Row 24, Right to Column 21, Down to Row 26, Left to Column 19
+        path_to_teeth = [
+            "Down", "Down", "Down", "Down",                                  # to (17, 24) (4 steps Down)
+            "Right", "Right", "Right", "Right",                              # to (21, 24) (4 steps Right)
+            "Down", "Down",                                                  # to (21, 26) (2 steps Down)
+            "Left", "Left"                                                   # to (19, 26) (2 steps Left)
+        ]
         if not run_path(path_to_teeth, check_warp=False):
             print("Failed to reach Gold Teeth!")
             return
