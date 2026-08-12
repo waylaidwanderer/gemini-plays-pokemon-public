@@ -79,25 +79,24 @@ def run_path(path, check_warp=False):
     return True
 
 def run_surf():
-    # Currently at (16, 30) facing RIGHT.
-    print("=== EXECUTING 100% WALKABLE LAND-BRIDGE AND COLUMN 25 ROUTE ===")
+    # Currently at (18, 26) facing RIGHT (or UP).
+    print("=== EXECUTING 100% WALKABLE LAND-BRIDGE AND COLUMN 25 ROUTE V2 ===")
     
     path = []
-    # 1. Walk UP Column 16 to (16, 27) and (16, 26) (onto plateau)
-    path.extend(["Up"] * 4)       # to (16, 26)
+    # 1. Walk UP Column 18 to Row 22: (18, 22)
+    path.extend(["Up"] * 4)       # to (18, 22)
     
-    # 2. Walk Right on plateau to (19, 26)
-    path.extend(["Right"] * 3)    # to (19, 26)
+    # 2. Walk Right on plateau on Row 22 to Column 22: (22, 22)
+    path.extend(["Right"] * 4)    # to (22, 22)
     
-    # 3. Walk Down and Right to descend stairs to Column 20 (ground)
-    path.append("Down")           # to (19, 27) (stair tile)
-    path.append("Right")          # to (20, 27) (ground)
+    # 3. Walk Down 2 steps to descend stairs to (22, 24) (ground)
+    path.extend(["Down"] * 2)     # to (22, 24)
     
     # 4. Walk Right to Column 25
-    path.extend(["Right"] * 5)    # to (25, 27)
+    path.extend(["Right"] * 3)    # to (25, 24)
     
     # 5. Walk Up Column 25 to Row 9
-    path.extend(["Up"] * 18)      # to (25, 9)
+    path.extend(["Up"] * 15)      # to (25, 9)
     
     # 6. Walk Left on Row 9 to Column 4
     path.extend(["Left"] * 21)    # to (4, 9)
