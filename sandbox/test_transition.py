@@ -1,47 +1,53 @@
-import time
 import bridge
+import time
+import sys
+
+sys.stdout.reconfigure(encoding='utf-8')
 
 def get_pos():
     pos = bridge.get_coordinates()
-    if pos is None:
-        return None
-    return pos[0], pos[1]
+    if pos is not None:
+        return pos[0], pos[1]
+    return None
 
-def run_away():
-    print("Wild battle/interaction detected! Executing RUN sequence...")
+def main():
+    print("=== EXPLORING ROUTE 19 TRANSITION ===")
+    
+    # Let's walk to (23, 35) and see if we can transition to Route 19
+    # From (19, 35), walk Right to (23, 35)
     for _ in range(4):
-        bridge.press_buttons(["B", "sleep 250"])
-    bridge.press_buttons(["Right", "sleep 250", "Down", "sleep 250", "A", "sleep 1200"])
-    bridge.press_buttons(["B", "sleep 300"])
-
-def walk_step(direction):
-    bridge.press_buttons([direction, "sleep 400"])
-
-def test_shortcut():
-    print("Testing direct horizontal transition on Row 22...")
+        bridge.press_buttons(["Right"])
+        time.sleep(0.5)
+        
+    pos = get_pos()
+    print("At:", pos)
     
-    # Starting at (27, 24)
-    path = ["Up", "Up", "Right", "Right", "Right"]
+    # Now walk Down to transition
+    print("Walking Down to transition...")
+    for _ in range(4):
+        bridge.press_buttons(["Down"])
+        time.sleep(0.5)
+        
+    pos_outside = get_pos()
+    print("Position after transition:", pos_outside)
     
-    for i, direction in enumerate(path):
-        pos = get_pos()
-        if pos is None:
-            run_away()
-            pos = get_pos()
-        print(f"Step {i}: pos before = {pos}")
+    # If we transitioned to Route 19, let's see if we can walk Left and then Up!
+    if pos_outside is not None:
+        # In Route 19, let's try walking Left
+        print("Testing Left on Route 19...")
+        for _ in range(15):
+            bridge.press_buttons(["Left"])
+            time.sleep(0.5)
+        pos_left = get_pos()
+        print("Position after walking Left:", pos_left)
         
-        walk_step(direction)
-        
-        pos2 = get_pos()
-        if pos2 is None:
-            run_away()
-            pos2 = get_pos()
-        print(f"Step {i}: pos after = {pos2}")
-        
-        # If we transitioned to Area 1 (East), the coordinate will be (0, 22)
-        if pos2 == (0, 22) or pos2 == (0, 23):
-            print("SUCCESS! Transitioned to Area 1 (East) successfully!")
-            break
+        # Now try walking Up to re-enter Fuchsia City on the west side
+        print("Testing Up to re-enter Fuchsia City...")
+        for _ in range(10):
+            bridge.press_buttons(["Up"])
+            time.sleep(0.5)
+        pos_up = get_pos()
+        print("Position after walking Up:", pos_up)
 
 if __name__ == "__main__":
-    test_shortcut()
+    main()
