@@ -7,59 +7,67 @@ def get_pos():
         return None
     return pos[0], pos[1]
 
+def run_away():
+    print("Wild battle/interaction detected! Executing RUN sequence...")
+    for _ in range(4):
+        bridge.press_buttons(["B", "sleep 250"])
+    bridge.press_buttons(["Right", "sleep 250", "Down", "sleep 250", "A", "sleep 1200"])
+    bridge.press_buttons(["B", "sleep 300"])
+
 def walk_step(direction):
     bridge.press_buttons([direction, "sleep 400"])
 
-def probe():
-    # Currently at (26, 12)
-    print("Starting probe...")
-    
-    # 1. Walk Left to Column 25
-    walk_step("Left")
-    print(f"Pos after Left: {get_pos()}")
-    
-    # 2. Walk UP 2 steps to row 10 (Wait, (25, 12) to (25, 11) to (25, 10))
-    # Wait, can we walk UP from (25, 12) to (25, 11)?
-    # In our previous script, we tried UP on column 25 from (25, 12) and it stayed at (25, 12)!
-    # Let's see if column 25 is blocked on the north edge too.
-    # If column 25 is blocked, can we walk Left more on the Plateau?
-    # Column 24 is the stairs. Let's walk Left to column 24: (25, 12) -> (24, 12).
-    # And then walk Down the stairs: (24, 12) -> (24, 15) -> (24, 16) (ground level).
-    # Then walk to row 10 on the ground!
-    # Yes! Walk down to (24, 16), then walk:
-    # Left to Column 23, then walk UP to Row 10 on column 23?
-    # Wait, is column 23 open on rows 10-15?
-    # Let's check!
-    
-    # Let's just walk back to ground level first
+def probe_all_crossings():
+    # Currently at (26, 14) on top of the Plateau.
+    # 1. Walk back to ground level at (24, 16)
     print("Walking back to ground level at (24, 16)...")
-    walk_step("Left") # To (25, 12)
-    walk_step("Left") # To (24, 12)
-    walk_step("Down") # To (24, 13)
-    walk_step("Down") # To (24, 14)
+    walk_step("Left") # To (25, 14)
+    walk_step("Left") # To (24, 14)
     walk_step("Down") # To (24, 15)
     walk_step("Down") # To (24, 16)
-    print(f"Back on ground: {get_pos()}")
+    print(f"Pos on ground: {get_pos()}")
     
-    # Now we are at (24, 16).
-    # We want to go to the building at row 10 on column 25 or 26.
-    # Can we walk to the left of the Plateau?
-    # Let's try walking Left and see where we can go UP!
-    # Let's walk Left 4 steps: to column 20.
-    for _ in range(4):
-        walk_step("Left")
+    # 2. Walk to column 28
+    walk_step("Right")
+    walk_step("Right")
+    walk_step("Right")
+    walk_step("Right")
     print(f"Pos: {get_pos()}")
     
-    # Walk UP column 20 as far as possible!
-    print("Walking UP column 20...")
-    for i in range(12):
+    # We should be at (28, 16).
+    # We will test walking RIGHT on rows 16 to 22.
+    for row in range(16, 23):
+        # Walk to the target row on column 28
         pos = get_pos()
-        walk_step("Up")
-        new_pos = get_pos()
-        print(f"Step {i}: before={pos}, after={new_pos}")
-        if new_pos == pos:
-            print("Blocked!")
-            break
-
+        if pos is None:
+            run_away()
+            pos = get_pos()
+        cx, cy = pos
+        dy = row - cy
+        
+        # Adjust Y coordinate
+        if dy > 0:
+            for _ in range(dy):
+                walk_step("Down")
+        elif dy < 0:
+            for _ in range(-dy):
+                walk_step("Up")
+                
+        pos = get_pos()
+        print(f"Testing row {row} from pos {pos}...")
+        
+        # Try to walk RIGHT
+        walk_step("Right")
+        pos_after = get_pos()
+        if pos_after is None:
+            run_away()
+            pos_after = get_pos()
+            
+        print(f"  Result of trying Right on row {row}: {pos_after}")
+        if pos_after[0] > pos[0]:
+            print(f"  SUCCESS! Row {row} is OPEN to Column 29!")
+            # Walk back Left
+            walk_step("Left")
+        
 if __name__ == "__main__":
-    probe()
+    probe_all_crossings()
