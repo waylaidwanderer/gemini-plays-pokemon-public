@@ -75,6 +75,14 @@ def run_path(path, check_warp=False):
                 continue
             
         if new_pos == pos:
+            # Let's wait a moment and check if we are actually in a battle transition
+            time.sleep(0.5)
+            check_pos = get_pos()
+            if check_pos is None:
+                print("Battle transition detected during stuck check! Handling battle...")
+                handle_battle()
+                stuck_count = 0
+                continue
             stuck_count += 1
             print(f"Stuck at {pos}! Stuck count: {stuck_count}")
             if stuck_count > 3:
@@ -93,88 +101,112 @@ def run_path(path, check_warp=False):
 def run_campaign_to_area3():
     print("=== EXECUTING MASTER SPEEDRUN TO AREA 3 (WEST) ===")
     
-    # 1. Start at (15, 25) in Center
     pos = get_pos()
     print("Starting position:", pos)
-    if pos != (15, 25):
-        print("Expected starting position (15, 25) in Center!")
+    if pos is None:
+        handle_battle()
+        pos = get_pos()
         if pos is None:
-            handle_battle()
-            pos = get_pos()
-            if pos != (15, 25):
-                return False
-        else:
             return False
             
-    # Center map to Area 1 (East)
-    path_center = [
-        "Up", "Up", "Up", "Up",                               # to (15, 21)
-        "Right", "Right", "Right", "Right", "Right", "Right", 
-        "Right", "Right", "Right", "Right", "Right", "Right", "Right", # to (28, 21) (13 steps Right)
-        "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up",   # to (28, 11) (10 steps Up)
-        "Right", "Right", "Right"                              # to Area 1 warp!
-    ]
-    print("Walking across Center to Area 1 (East)...")
-    if not run_path(path_center, check_warp=True):
-        print("Failed to reach Area 1!")
-        return False
-        
-    time.sleep(1.0)
-    pos = get_pos()
-    print("Position inside Area 1 (East):", pos)
+    # Determine where we are and set up paths
+    path_center = []
+    path_area1 = []
+    path_area2 = []
+    path_area3 = []
     
-    # Area 1 (East) to Area 2 (North)
-    path_area1 = [
-        "Right", "Right", "Right", "Right", "Right", "Right", 
-        "Right", "Right", "Right", "Right", "Right", "Right", 
-        "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", # to (20, 22)
-        "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up",
-        "Up", "Up", "Up", "Up", "Up", "Up", "Up",                         # to (20, 5)
-        "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
-        "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
-        "Left", "Left", "Left", "Left"                                    # to (0, 5) (warp!)
-    ]
-    print("Walking across Area 1 (East) to Area 2 (North)...")
-    if not run_path(path_area1, check_warp=True):
-        print("Failed to reach Area 2!")
-        return False
+    # 1. Check if we are in Safari Zone Center (assume Center if we are at (15,25) or on Row 21/11 in Center coordinates)
+    # We can detect this based on starting x, y and local knowledge
+    if pos == (15, 25):
+        path_center = [
+            "Up", "Up", "Up", "Up",                               # to (15, 21)
+            "Right", "Right", "Right", "Right", "Right", "Right", 
+            "Right", "Right", "Right", "Right", "Right", "Right", "Right", # to (28, 21) (13 steps Right)
+            "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up",   # to (28, 11) (10 steps Up)
+            "Right", "Right", "Right"                              # to Area 1 warp!
+        ]
+    elif pos[1] == 21 and pos[0] >= 15 and pos[0] <= 28:
+        print(f"Resuming Center navigation from Row 21: {pos}")
+        remaining_right = 28 - pos[0]
+        path_center.extend(["Right"] * remaining_right)
+        path_center.extend(["Up"] * 10)
+        path_center.extend(["Right"] * 3)
+    elif pos[0] == 28 and pos[1] <= 21 and pos[1] >= 11:
+        print(f"Resuming Center navigation from Column 28: {pos}")
+        remaining_up = pos[1] - 11
+        path_center.extend(["Up"] * remaining_up)
+        path_center.extend(["Right"] * 3)
         
-    time.sleep(1.0)
-    pos = get_pos()
-    print("Position inside Area 2 (North):", pos)
-    
-    # Area 2 (North) to Area 3 (West)
-    path_area2 = [
-        "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
-        "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
-        "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
-        "Left", "Left", "Left",                                           # to (12, 31) (27 steps Left)
-        "Down", "Down",                                                   # to (12, 33) (2 steps Down)
-        "Left", "Left", "Left", "Left",                                   # to (8, 33) (4 steps Left)
-        "Down", "Down", "Down"                                            # to Area 3 warp!
-    ]
-    print("Walking across Area 2 (North) to Area 3 (West)...")
-    if not run_path(path_area2, check_warp=True):
-        print("Failed to reach Area 3!")
-        return False
+    if len(path_center) > 0:
+        print("Walking across Center to Area 1 (East)...")
+        if not run_path(path_center, check_warp=True):
+            print("Failed to reach Area 1!")
+            return False
+        time.sleep(1.0)
+        pos = get_pos()
+        print("Position inside Area 1 (East):", pos)
         
-    time.sleep(1.0)
-    pos = get_pos()
-    print("Position inside Area 3 (West):", pos)
-    
-    # Area 3 (West) to (21, 18) (East Stairs)
-    path_area3 = [
-        "Down", "Down", "Down",                                           # to (26, 3)
-        "Left",                                                           # to (25, 3)
-        "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down",
-        "Down", "Down", "Down", "Down", "Down", "Down", "Down",           # to (25, 18) (15 steps Down)
-        "Left", "Left", "Left", "Left"                                    # to (21, 18) (East Stairs)
-    ]
-    print("Walking to East Stairs in Area 3 (West) at (21, 18)...")
-    if not run_path(path_area3, check_warp=False):
-        print("Failed to reach East Stairs!")
-        return False
+    # 2. Check if we are in Area 1 (East)
+    # Area 1 (East) starts at warp-in (0, 22) or (0, 23)
+    if pos is not None and (pos[0] == 0 and (pos[1] == 22 or pos[1] == 23)):
+        path_area1 = [
+            "Right", "Right", "Right", "Right", "Right", "Right", 
+            "Right", "Right", "Right", "Right", "Right", "Right", 
+            "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", # to (20, 22)
+            "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up",
+            "Up", "Up", "Up", "Up", "Up", "Up", "Up",                         # to (20, 5)
+            "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
+            "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
+            "Left", "Left", "Left", "Left"                                    # to (0, 5) (warp!)
+        ]
         
+    if len(path_area1) > 0:
+        print("Walking across Area 1 (East) to Area 2 (North)...")
+        if not run_path(path_area1, check_warp=True):
+            print("Failed to reach Area 2!")
+            return False
+        time.sleep(1.0)
+        pos = get_pos()
+        print("Position inside Area 2 (North):", pos)
+        
+    # 3. Check if we are in Area 2 (North)
+    # Area 2 (North) starts at warp-in (39, 31)
+    if pos is not None and pos[0] == 39 and pos[1] == 31:
+        path_area2 = [
+            "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
+            "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
+            "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
+            "Left", "Left", "Left",                                           # to (12, 31) (27 steps Left)
+            "Down", "Down",                                                   # to (12, 33) (2 steps Down)
+            "Left", "Left", "Left", "Left",                                   # to (8, 33) (4 steps Left)
+            "Down", "Down", "Down"                                            # to Area 3 warp!
+        ]
+        
+    if len(path_area2) > 0:
+        print("Walking across Area 2 (North) to Area 3 (West)...")
+        if not run_path(path_area2, check_warp=True):
+            print("Failed to reach Area 3!")
+            return False
+        time.sleep(1.0)
+        pos = get_pos()
+        print("Position inside Area 3 (West):", pos)
+        
+    # 4. Check if we are in Area 3 (West) starting at (26, 0)
+    if pos is not None and pos[0] == 26 and pos[1] == 0:
+        path_area3 = [
+            "Down", "Down", "Down",                                           # to (26, 3)
+            "Left",                                                           # to (25, 3)
+            "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down",
+            "Down", "Down", "Down", "Down", "Down", "Down", "Down",           # to (25, 18) (15 steps Down)
+            "Left", "Left", "Left", "Left"                                    # to (21, 18) (East Stairs)
+        ]
+        
+    if len(path_area3) > 0:
+        print("Walking to East Stairs in Area 3 (West) at (21, 18)...")
+        if not run_path(path_area3, check_warp=False):
+            print("Failed to reach East Stairs!")
+            return False
+            
     print("=== CAMPAIGN SUCCESS! ARRIVED AT (21, 18) IN AREA 3 ===")
     return True
 
