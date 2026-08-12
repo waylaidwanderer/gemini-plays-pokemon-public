@@ -57,10 +57,11 @@ def run_path(path, check_warp=False):
                     break
     return True
 
-# Stage 2a from (4, 23) to (8, 22) (33 steps)
+# Stage 2a from (5, 21) to (8, 22) (36 steps)
 path_stage2a = [
-    "Up", "Up", # (4, 23) -> (4, 21) (2 steps)
-    "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", # (4, 21) -> (20, 21) (16 steps)
+    "Down", "Down", "Down", # (5, 21) -> (5, 24) (3 steps)
+    "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", # (5, 24) -> (20, 24) (15 steps)
+    "Up", "Up", "Up", # (20, 24) -> (20, 21) (3 steps)
     "Up", # (20, 21) -> (20, 20) (climb Southern Plateau) (1 step)
     "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", # (20, 20) -> (12, 20) (8 steps)
     "Down", "Down", # descend stairs to (12, 22) (2 steps)
