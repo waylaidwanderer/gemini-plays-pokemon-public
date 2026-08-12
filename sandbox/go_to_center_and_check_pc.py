@@ -81,41 +81,56 @@ def main():
     print("=== NAVIGATING TO POKEMON CENTER AND CHECKING PC ===")
     
     pos = get_pos()
-    print("Initial position outside Gatehouse:", pos)
-    if pos is None:
-        print("Failed to get starting position!")
+    print("Initial position:", pos)
+    if pos != (22, 6):
+        print("Not at (22, 6)!")
         return
         
-    # We are at (18, 6) in Fuchsia City
-    if pos == (18, 6):
-        print("Walking to Pokémon Center...")
-        # Path to Pokémon Center:
-        # - Right 4 to (22, 6)
-        # - Down 15 to (22, 21)
-        # - Left 21 to (1, 21)
-        # - Down 11 to (1, 32)
-        # - Right 18 to (19, 32)
-        # - Up 5 to (19, 27) (transition)
-        path_to_center = (
-            ["Right"] * 4 +
-            ["Down"] * 15 +
-            ["Left"] * 21 +
-            ["Down"] * 11 +
-            ["Right"] * 18 +
-            ["Up"] * 5
-        )
-        if not run_path(path_to_center, check_warp=True):
-            print("Failed to reach Pokémon Center!")
-            return
-            
-        # Wait for map transition to load
-        press_buttons_tracked(["sleep 1500"])
-        pos = get_pos()
-        print("Position inside Pokémon Center:", pos)
+    # 1. Face DOWN and use CUT on the bush at (22, 7)
+    print("Facing DOWN...")
+    press_buttons_tracked(["Down", "sleep 300"])
+    
+    print("Using CUT...")
+    # Open Start menu, align to POKEDEX, go to POKEMON, select Paras, select CUT (option 2!)
+    cut_sequence = [
+        "Start", "sleep 600",
+        "Up", "Up", "Up", "Up", "Up", "Up", "sleep 300", # Align to POKEDEX
+        "Down", "A", "sleep 1000",                       # Select POKEMON
+        "Down", "A", "sleep 1000",                       # Select Paras (slot 2)
+        "Down", "A", "sleep 1500",                       # Select CUT (option 2, since option 1 is DIG!)
+        "A", "sleep 800",                                # Clear "TRUFFLE cut it down!" text box
+        "sleep 500"
+    ]
+    press_buttons_tracked(cut_sequence)
+    
+    pos = get_pos()
+    print("Position after CUT:", pos)
+    
+    # 2. Walk to the Pokémon Center
+    # We are at (22, 6). The bush is cut.
+    # Walk:
+    # - Down 15 to Row 21 -> (22, 21)
+    # - Left 21 to Column 1 -> (1, 21)
+    # - Down 11 to Row 32 -> (1, 32)
+    # - Right 18 to Column 19 -> (19, 32)
+    # - Up 5 to enter Pokémon Center -> (19, 27) (transition)
+    path_to_center = (
+        ["Down"] * 15 +
+        ["Left"] * 21 +
+        ["Down"] * 11 +
+        ["Right"] * 18 +
+        ["Up"] * 5
+    )
+    if not run_path(path_to_center, check_warp=True):
+        print("Failed to reach Pokémon Center!")
+        return
         
-    # 2. Inside Pokémon Center
-    # We enter at (3, 8) or (4, 8) and stand at (3, 7) or (4, 7).
-    # Walk to the PC at (13, 4) facing UP.
+    # Wait for map transition to load
+    press_buttons_tracked(["sleep 1500"])
+    pos = get_pos()
+    print("Position inside Pokémon Center:", pos)
+    
+    # 3. Inside Pokémon Center
     if pos is not None and pos[0] < 6 and pos[1] >= 7:
         print("Walking to the PC...")
         pc_path = (
@@ -134,7 +149,7 @@ def main():
     # Ensure we face UP towards PC
     press_buttons_tracked(["Up", "sleep 300"])
     
-    # 3. Boot PC and open ACE's PC WITHDRAW ITEM menu
+    # 4. Boot PC and open ACE's PC WITHDRAW ITEM menu
     print("Booting PC...")
     # A to turn on PC
     press_buttons_tracked(["A", "sleep 1000"])
