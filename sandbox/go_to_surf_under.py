@@ -10,79 +10,76 @@ def get_pos():
         return None
     return pos[0], pos[1]
 
-def run_away():
-    print("Executing RUN sequence...")
-    # First press B a few times to dismiss text
+def handle_battle():
+    print("Wild battle detected! Escaping...")
+    # Press B a few times to dismiss text
     for _ in range(4):
         bridge.press_buttons(["B", "sleep 200"])
     # Press Down, Right, A to run
-    bridge.press_buttons(["Down", "sleep 200", "Right", "sleep 200", "A", "sleep 1000"])
-    # Press B to dismiss any leftover text
+    bridge.press_buttons(["Down", "sleep 200", "Right", "sleep 200", "A", "sleep 1200"])
+    # Press B to dismiss "Got away safely!"
     for _ in range(3):
         bridge.press_buttons(["B", "sleep 200"])
 
-def walk_step(direction):
-    bridge.press_buttons([direction, "sleep 400"])
+def walk_step_robust(direction):
+    pos = get_pos()
+    if pos is None:
+        handle_battle()
+        return None
+        
+    bridge.press_buttons([direction])
+    
+    # Wait for position to change (up to 750 ms)
+    for _ in range(5):
+        time.sleep(0.15)
+        new_pos = get_pos()
+        if new_pos is None:
+            # Entered battle or transition
+            return None
+        if new_pos != pos:
+            # Successfully moved
+            return new_pos
+            
+    print(f"Bumping/stuck at {pos} walking {direction}!")
+    return pos
 
 def go_to_surf_under():
-    print("=== EXECUTING ULTRAROBUST UNDERGROUND GROUND-LEVEL SURF ROUTE ===")
+    print("=== EXECUTING ULTRAROBUST ROUTE B VIA EAST STAIRS ===")
     
-    # Path starting from (6, 20)
-    # We are currently at (6, 20)
-    # The remaining steps of the path from (6, 20) are:
-    # Walk Left from (6, 20) to (3, 20) -> 3 steps Left
-    # Walk Up from (3, 20) to (3, 12) -> 8 steps Up
-    # Walk Right from (3, 12) to (11, 12) -> 8 steps Right
-    # Walk Up from (11, 12) to (11, 11) -> 1 step Up
-    
+    # Target path from (6, 16) on the plateau
     path = []
-    path.extend(["Left"] * 3)   # To (3, 20)
-    path.extend(["Up"] * 8)     # To (3, 12)
-    path.extend(["Right"] * 8)  # To (11, 12)
-    path.extend(["Up"])         # To (11, 11) (Secret House!)
+    path.extend(["Right"] * 15)  # To (21, 16)
+    path.extend(["Down"] * 2)    # To (21, 18) (descend East Stairs)
+    path.extend(["Right"] * 2)   # To (23, 18)
+    path.extend(["Up"] * 5)      # To (23, 13)
+    path.extend(["Left"] * 12)   # To (11, 13)
+    path.extend(["Up"] * 2)      # To (11, 11) (Secret House!)
 
     idx = 0
     stuck_count = 0
     while idx < len(path):
         pos = get_pos()
         if pos is None:
-            run_away()
+            handle_battle()
             continue
             
         print(f"Step {idx}: Standing at {pos}. Walking {path[idx]}...")
-        walk_step(path[idx])
+        new_pos = walk_step_robust(path[idx])
         
-        new_pos = get_pos()
         if new_pos is None:
-            time.sleep(0.5)
-            new_pos = get_pos()
-            if new_pos is None:
-                run_away()
-                continue
-                
-        if new_pos == pos:
-            print(f"Stuck at {pos}! Trying to run away in case of wild battle...")
-            run_away()
-            print(f"Retrying Step {idx}: Walking {path[idx]}...")
-            walk_step(path[idx])
+            # Entered a battle
+            handle_battle()
+            continue
             
-            new_pos = get_pos()
-            if new_pos is None:
-                time.sleep(0.5)
-                new_pos = get_pos()
-                
-            if new_pos == pos:
-                stuck_count += 1
-                print(f"Still stuck at {pos}! Stuck count: {stuck_count}")
-                if stuck_count > 3:
-                    print("Path blocked. Exiting.")
-                    return False
-            else:
-                stuck_count = 0
-                idx += 1
+        if new_pos == pos:
+            stuck_count += 1
+            print(f"Stuck at {pos}! Stuck count: {stuck_count}")
+            if stuck_count > 3:
+                print("Path blocked. Exiting.")
+                return False
         else:
             stuck_count = 0
-            # Check if we transitioned inside Secret House
+            # Check if we transitioned maps (large coordinate jump or inside Secret House coordinates)
             if new_pos[0] < 5 and new_pos[1] > 5 and new_pos[1] < 10:
                 print(f"SUCCESS! Transitioned inside the Secret House at {new_pos}!")
                 return True
