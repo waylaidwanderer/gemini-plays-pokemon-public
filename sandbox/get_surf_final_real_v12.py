@@ -84,30 +84,39 @@ def run_path(path, check_warp=False):
     return True
 
 def main():
-    print("=== STARTING THE FINAL SURF PATH FROM (8, 35) ===")
+    print("=== STARTING THE ULTIMATE SURF PATH FROM (12, 9) ===")
     
     pos = get_pos()
     print("Starting position:", pos)
     
-    # We land at (8, 35) in Area 2 (North)
-    if pos == (8, 35):
-        print("=== STAGE 4: NAVIGATING AREA 2 TO SW TRANSITION ===")
-        # Walk to Column 4 Row 36 (Warp!)
-        path_across_area2 = [
-            "Up", "Up",                                                      # to (8, 33) (2 steps Up)
-            "Right", "Right", "Right", "Right",                              # to (12, 33) (4 steps Right)
+    # We are currently at (12, 9) in Area 2 (North)
+    if pos == (12, 9):
+        print("=== STAGE 4: NAVIGATING AREA 2 TO SW TRANSITION VIA COLUMN 25 ===")
+        # Path to SW transition:
+        # - Walk Down Column 12 to Row 28 (19 steps Down)
+        # - Walk Right along Row 28 to Column 25 (13 steps Right)
+        # - Walk Up Column 25 to Row 2 (26 steps Up)
+        # - Walk Left along Row 2 to Column 4 (21 steps Left)
+        # - Walk Down Column 4 to Row 36 (34 steps Down - Warp!)
+        path_to_warp = [
+            "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down",
+            "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down",
+            "Down", "Down", "Down",                                          # to (12, 28) (19 steps Down)
+            "Right", "Right", "Right", "Right", "Right", "Right", "Right",
+            "Right", "Right", "Right", "Right", "Right", "Right",            # to (25, 28) (13 steps Right)
             "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up",
-            "Up", "Up", "Up", "Up", "Up", "Up", "Up",                        # to (12, 16) (17 steps Up)
-            "Right",                                                         # to (13, 16) (1 step Right)
-            "Up", "Up", "Up", "Up", "Up", "Up", "Up",                        # to (13, 9) (7 steps Up)
+            "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up",
+            "Up", "Up", "Up", "Up", "Up", "Up",                              # to (25, 2) (26 steps Up)
             "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
-            "Left",                                                          # to (4, 9) (9 steps Left)
+            "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
+            "Left", "Left", "Left", "Left", "Left",                          # to (4, 2) (21 steps Left)
             "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down",
             "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down",
             "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down",
-            "Down", "Down", "Down"                                           # to (4, 36) (27 steps Down)
+            "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down",
+            "Down", "Down"                                                   # to (4, 36) (34 steps Down - Warp!)
         ]
-        if not run_path(path_across_area2, check_warp=True):
+        if not run_path(path_to_warp, check_warp=True):
             print("Failed to reach SW transition!")
             return
             
