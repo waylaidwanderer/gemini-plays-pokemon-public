@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 51640)
-- Location: Celadon Game Corner at (2, 7).
+## CURRENT STATUS & DASHBOARD (Turn 51655)
+- Location: Celadon Game Corner at (3, 0).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Navigate East across Casino Floor to North Wall (17, 1) to defeat Rocket Grunt guarding poster switch.
+- Active Objective: Navigate East across Casino Floor to East North Wall (17, 1) to defeat Rocket Grunt guarding poster switch.
 - Persistent Facts:
   - Celadon Game Corner tile (4, 7) is the exit mat to Game Corner Plaza (10, 7).
   - Main Game Corner Casino Floor Entrance is located in outdoor Celadon City at tile (30, 34)/(30, 35).
