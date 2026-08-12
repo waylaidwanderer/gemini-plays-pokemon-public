@@ -62,7 +62,7 @@
 1. **SHELLBY** (Blastoise)
    - Level: 56
    - Status: Healthy (HP: 178/178)
-   - Moveset: HYDRO PUMP (PP: 5/5), ICE BEAM (PP: 10/10), BITE (PP: 25/25), WATER GUN (PP: 25/25)
+   - Moveset: HYDRO PUMP (PP: 5/5), ICE BEAM (PP: 10/10), BITE (PP: 25/25), SURF (PP: 15/15)
 
 2. **TRUFFLE** (Paras)
    - Level: 15
@@ -116,8 +116,7 @@
 - (Cleaned up historic milestones to reduce context window bloat)
 
 ## Planned Movepool Optimization (Teaching HMs)
-- **HM03 (Surf):** Teach to SHELLBY (Blastoise) immediately upon verification of Gold Teeth / Strength acquisition.
-  - Move to replace: **WATER GUN** (Water Gun is obsolete next to Surf).
+- **HM03 (Surf):** TAUGHT to SHELLBY (Blastoise) on Turn 36980, successfully replacing WATER GUN.
 - **HM04 (Strength):** Teach to SHELLBY (Blastoise) once obtained from the Warden.
   - Move to replace: **BITE** (Strength has 80 Base Power vs Bite's 60, providing a stronger neutral Normal-type STAB-like physical coverage move).
 
