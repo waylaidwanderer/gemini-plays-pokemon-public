@@ -87,7 +87,7 @@ def run_path(path, check_warp=False):
     return True
 
 def main():
-    print("=== WALKING AREA 2 (NORTH) ===")
+    print("=== CONTINUING TO GOLD TEETH AT (19, 24) ===")
     
     pos = get_pos()
     print("Initial position:", pos)
@@ -97,10 +97,10 @@ def main():
         if pos is None:
             return
             
-    if pos == (39, 31):
-        path_area2 = (
-            ["Left"] * 17 +                 # to (22, 31)
-            ["Up"] * 9 +                    # to (22, 22) (climb plateau)
+    # PHASE 1: Walk the rest of Area 2 starting from (22, 27)
+    if pos == (22, 27):
+        path_area2_remaining = (
+            ["Up"] * 5 +                    # to (22, 22) (climb plateau)
             ["Left"] * 6 +                  # to (16, 22)
             ["Down"] * 6 +                  # to (16, 28) (descend plateau)
             ["Left"] * 4 +                  # to (12, 28)
@@ -108,14 +108,36 @@ def main():
             ["Left"] * 4 +                  # to (8, 33)
             ["Down"] * 3                    # to transition warp at (8, 36)
         )
-        print("Walking Area 2 (North) path...")
-        if not run_path(path_area2, check_warp=True):
+        print("Walking remaining path in Area 2 (North)...")
+        if not run_path(path_area2_remaining, check_warp=True):
             return
             
     # Wait for map transition to stabilize
     bridge.press_buttons(["sleep 1000"])
     pos = get_pos()
     print("Arrived in Area 3 (West):", pos)
+    
+    # PHASE 2: Area 3 (West) to (19, 24)
+    if pos is not None and pos[0] == 26 and pos[1] == 0:
+        path_area3 = (
+            ["Down"] * 3 +                  # to (26, 3)
+            ["Left"] * 1 +                  # to (25, 3) (bypass signpost)
+            ["Down"] * 20 +                 # to (25, 23)
+            ["Left"] * 4 +                  # to (21, 23)
+            ["Down"] * 1 +                  # to (21, 24)
+            ["Left"] * 2                    # to (19, 24) standing above teeth at (19, 25)
+        )
+        print("Walking Area 3 (West) path...")
+        if not run_path(path_area3, check_warp=False):
+            return
+            
+    # Stabilize
+    bridge.press_buttons(["sleep 500"])
+    pos = get_pos()
+    print("Arrived at target location:", pos)
+    if pos == (19, 24):
+        print("SUCCESS! Stood directly above Gold Teeth at (19, 24) facing Down.")
+        print("Aborting script to let player pick up and save manually!")
 
 if __name__ == '__main__':
     main()
