@@ -84,36 +84,34 @@ def run_surf():
     
     time.sleep(1.0)
     pos = get_pos()
-    print("Oveworld coordinates after escape:", pos)
+    print("Overworld coordinates after escape:", pos)
     if pos is None:
         print("Failed to get overworld position.")
         return False
         
-    # In case escaping didn't land us at (6, 27), adjust to Row 31
-    path_to_row31 = []
-    if pos[1] < 31:
-        path_to_row31.extend(["Down"] * (31 - pos[1]))
-    elif pos[1] > 31:
-        path_to_row31.extend(["Up"] * (pos[1] - 31))
-        
-    # Walk Left to Column 4
-    if pos[0] > 4:
-        path_to_row31.extend(["Left"] * (pos[0] - 4))
-    elif pos[0] < 4:
-        path_to_row31.extend(["Right"] * (4 - pos[0]))
-        
-    # Walk Down to (4, 36) to transition
-    path_to_row31.extend(["Down"] * 5)
+    # We are currently at (6, 27).
+    # 2. Path to climb, cross and descend the Western Southern Plateau, then transition:
+    path = []
+    path.extend(["Down"] * 3)     # to (6, 30)
+    path.extend(["Right"] * 16)   # to (22, 30)
+    path.extend(["Up"] * 7)       # to (22, 23) (climbing stairs)
+    path.append("Up")             # to (22, 22) (onto plateau)
+    path.extend(["Left"] * 6)     # to (16, 22) (across plateau)
+    path.extend(["Down"] * 6)     # to (16, 28) (descending stairs)
+    path.extend(["Down"] * 3)     # to (16, 31) (to southern corridor)
+    path.extend(["Left"] * 12)    # to (4, 31) (along southern corridor)
+    path.extend(["Down"] * 5)     # to (4, 36) (transition!)
     
-    print("--- STAGE 1: Transitioning to Area 3 West northwest ground ---")
-    if not run_path(path_to_row31, check_warp=True):
+    print("--- STAGE 1: Crossing Plateau to Southwest Transition ---")
+    if not run_path(path, check_warp=True):
         return False
         
     time.sleep(1.0)
     pos = get_pos()
     print("Landed in Area 3 West northwest ground at:", pos)
     
-    # 2. To Secret House door at (3, 8)
+    # 3. From northwest ground landing spot in Area 3 West: to Secret House door at (3, 8)
+    # If we land at (2,0), walk Right to (3,0) first, or if (4,0), walk Left to (3,0)
     path_to_house = []
     if pos is not None and pos[0] == 2:
         path_to_house.append("Right")
