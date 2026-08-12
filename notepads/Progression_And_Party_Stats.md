@@ -54,10 +54,10 @@
 
 ## Active Safari Zone Session (Start Turn: 35958)
 - **Start Turn:** 35958
-- **Current Turn:** 35973
+- **Current Turn:** 35975
 - **Steps Used:** ~60
 - **Steps Remaining:** ~440
-- **Current Location:** Safari Zone Area 1 (East) at (24, 10)
+- **Current Location:** Safari Zone Area 1 (East) at (26, 11)
 - **Session Goals:** Retrieve BOTH the Gold Teeth and HM03 (Surf) in this single run.
 
 

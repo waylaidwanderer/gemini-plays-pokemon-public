@@ -167,6 +167,14 @@ def run_area1_navigation():
         path_area1.extend(["Left"] * 13)         # to (7, 3)
         path_area1.extend(["Down"] * 2)          # to (7, 5)
         path_area1.extend(["Left"] * 7)          # to (0, 5) (transition!)
+    elif pos[0] == 28 and pos[1] == 11:
+        # Start from where we are currently standing on Turn 35976
+        path_area1.extend(["Left"] * 8)          # to (20, 11)
+        path_area1.extend(["Up"] * 8)            # to (20, 3)
+        # Northern Corridor Bypass: Left to Col 7, Down to Row 5, Left to warp
+        path_area1.extend(["Left"] * 13)         # to (7, 3)
+        path_area1.extend(["Down"] * 2)          # to (7, 5)
+        path_area1.extend(["Left"] * 7)          # to (0, 5) (transition!)
     else:
         print(f"Unexpected starting position: {pos}.")
         return False
