@@ -1346,33 +1346,17 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 4. **The Column 29 Shrub Wall:** Column 29 has solid trees/shrubs on Rows 12-25, completely blocking ground-horizontal crossing. Crossing Column 29 is only possible on Row 26 (South) and Rows 10-11 (North).
 5. **The Pond & Rest House 1:** Completely block the middle-western ground level on Rows 10-15 across Columns 9-19.
 
-### [REFUTED] Ground-Level Eastern Bypass Route (Column 28 is Blocked)
-To walk from the Gatehouse entrance at `(15, 25)` to the Area 1 (East) transition at `(0, 23)` without climbing any plateaus or getting trapped:
-1. Walk UP Column 15 to Row 22: `(15, 25) -> (15, 24) -> (15, 23) -> (15, 22)`. This safely crosses the Row 23 ledge opening.
-2. Walk RIGHT along Row 22 to Column 28: `(15, 22) -> (28, 22)`. This completely bypasses the Row 25 wooden fences and avoids the solid signposts at `(16, 24)` and `(27, 24)`.
-3. Walk UP Column 28 to Row 11: `(28, 22) -> (28, 11)`. This is a ground-level vertical corridor running between the Central Plateau (columns 20-27) and the Column 29 Shrub Wall.
-4. Walk RIGHT along Row 11 to Column 30: `(28, 11) -> (29, 11) -> (30, 11)`.
-5. Walk RIGHT from `(30, 11)` to transition into Area 1 (East) at `(0, 23)`.
-This route is 100% verified, unblocked, flat, and walkable.
-
 ### 🚫 Verified Obstacles & Collision Coordinates (Safari Zone Center)
-- **Signposts (Solid):** Located at `(13, 24)`, `(16, 24)`, `(22, 24)`, and `(27, 24)`. These are 2-tile high solid structures that block all horizontal and vertical passage.
-- **The Ledge (Row 23):** South-facing ledge running from Column 0 to 29. Solid horizontally and UP from Row 24, except for the opening at `(15, 23)`.
-- **Rhydon Statues & Fences (Row 25):** Completely solid from Column 0 to 29, separating the entrance from Row 26.
-- **Column 29 Shrub Wall:** Solid green hedges running vertically on Column 29 from Row 12 to Row 25. Horizontal crossing is only possible on Row 26 (South) and Rows 10-11 (North).
-- **Western Bypass Block (Column 8):** Ground-level Column 8 is physically blocked by a solid tree/bush at `(8, 15)` and a cliff wall at `(8, 13)`.
-### 🧪 Verified Physical Boundaries & Collision Coordinates (Area 3 & Center)
-- **Column 24 Hedge Wall (Area 3 West):** Solid vertical line of green hedges on Column 24 from Row 0 to Row 13. Rows 14-17 on Column 24 are open grass.
-- **Row 19 Cliff Wall (Area 3 West):** Solid horizontal cliff face running across Rows 19-20 on Columns 9-22. Prevents any vertical ground-level traversal from south to north across Row 19.
-- **Column 18 Vertical Barrier (Area 3 West):** Solid vertical tree barrier on Column 18 across Rows 20-23, blocking horizontal ground-level passage.
-- **Row 24 Hedge Wall (Area 3 West):** Solid green hedges running horizontally on Row 24 across Columns 22-29, blocking all downward ground-level vertical passage.
-- **Column 0-1 Tree Barrier (Area 3 West):** Solid tree trunks on Columns 0 and 1, Rows 24 and 25, blocking downward ground-level vertical passage.
-- **Hedge-Maze Compartmentalization in Center:**
-  - Row 15 has solid green hedges on Columns 6, 7, 8, 9.
-  - Row 16 has solid green hedges on Columns 1, 2, 3, 4, 5.
-  - This forms an interlocking hedge maze that completely prevents ground-level vertical passage from the Northwest Compartment of Center to the South/East Compartment.
-- **Pond & Rest House 1 in Center:** Completely block the middle-western ground level on Rows 10-15 across Columns 9-19.
-- **Center Compartment Wrapping:** The Northwest Compartment of Center is completely isolated from the South/East Compartment. Transitioning RIGHT from Area 3 (West) on Row 23/26 always warps the player into this isolated Northwest Compartment of Center. To enter the South/East Compartment (containing the Gold Teeth), we must enter directly from the Gatehouse entrance at (15, 25).
+- **(28, 15):** Solid overworld pine tree blocking Column 28 vertical ground traversal.
+- **(28, 23):** Ledge/blocked tile preventing direct southern descent on Column 28.
+- **(24, 12):** Plateau edge/blocked cliff preventing vertical descent from Row 12 to 11 on Column 24.
+- **(27, 12):** Diagonal cliff corner with solid collision from the left, preventing horizontal crossing from Column 26 to 28.
+- **(16, 22):** Solid green circular shrub blocking Row 22 horizontal ground traversal.
+- **(29, 10) & (29, 11):** Solid green shrubs blocking horizontal crossing across Column 29 on Rows 10-11.
+- **Column 29 Shrub/Statue Wall:** Completely blocked from Row 0 to Row 25 by Rhydon statues (Rows 0-5) and solid green shrubs (Rows 6-25). Crossing is ONLY possible via Row 26 (South).
+- **Row 25 Fence/Rhydon Barrier:** Completely solid from Column 0 to Column 29, except for the exit warp at (15, 25) and the hidden walkable grass gap at (27, 25).
+- **The grass gap at (27, 25):** Fully walkable. Walking DOWN from (27, 25) to (27, 26) completely bypasses the Row 25 barrier!
+
 
 <hr>
 
