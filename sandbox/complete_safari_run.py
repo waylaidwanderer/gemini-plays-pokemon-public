@@ -1,5 +1,9 @@
 import bridge
 import time
+import sys
+
+# Set stdout to use utf-8
+sys.stdout.reconfigure(encoding='utf-8')
 
 def get_pos():
     pos = bridge.get_coordinates()
@@ -18,76 +22,6 @@ def run_away():
 
 def walk_step(direction):
     bridge.press_buttons([direction, "sleep 400"])
-
-def execute_safari():
-    # 1. Path from Area 3 (29, 23) to transition (0, 13) via Row 26 Highway and Column 30
-    path_to_east_warp = [
-        "Right", # (30, 23)
-        "Down", "Down", "Down", # (30, 26)
-        # 25 steps Left to (5, 26)
-        "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
-        # 12 steps Up to (5, 14)
-        "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up",
-        # 5 steps Left to (0, 14)
-        "Left", "Left", "Left", "Left", "Left",
-        # 1 step Up to (0, 13) (warp!)
-        "Up"
-    ]
-    
-    # 2. Path in Center (East Compartment) to Gold Teeth at (19, 25).
-    # We warp to Center at (29, 25) (or (29, 26)). Let's align to (29, 26) and walk left.
-    path_to_teeth = [
-        "Down", # To Row 26 (29, 26)
-        # Walk Left to Column 19 (10 steps Left)
-        "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left"
-    ]
-    
-    # 3. From (19, 26), walk back to transition at (29, 25) (or (29, 26))
-    path_back_to_warp = [
-        # Walk Right to Column 29 (10 steps Right)
-        "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right",
-        "Up" # To warp (29, 25) -> transitions back to Area 3 (West) at (0, 13)
-    ]
-    
-    # 4. From Area 3 (0, 13), walk to Secret House door at (3, 8)
-    path_to_house = [
-        # Walk Up Column 0 to Row 8 (5 steps Up)
-        "Up", "Up", "Up", "Up", "Up",
-        # Walk Right to Column 3 (3 steps Right)
-        "Right", "Right", "Right"
-    ]
-
-    print("--- STEP 1: Walking to East Warp at (0, 13) ---")
-    if not run_path(path_to_east_warp, check_warp=True):
-        return False
-        
-    print("--- STEP 2: Aligned in Center (East Compartment). Walking to Gold Teeth ---")
-    if not run_path(path_to_teeth, check_warp=False):
-        return False
-        
-    # Stand at (19, 26) facing UP and press A to pick up Gold Teeth!
-    pos = get_pos()
-    print(f"Standing below Gold Teeth at {pos}. Interacting...")
-    # First make sure we are facing UP
-    walk_step("Up") # Bumps into the item, turning us UP
-    time.sleep(0.5)
-    bridge.press_buttons(["A", "sleep 1000", "A", "sleep 1000", "B", "sleep 500"])
-    print("Gold Teeth picked up!")
-    
-    print("--- STEP 3: Walking back to warp to Area 3 (West) ---")
-    if not run_path(path_back_to_warp, check_warp=True):
-        return False
-        
-    print("--- STEP 4: Aligned in Area 3 (West). Walking to Secret House ---")
-    if not run_path(path_to_house, check_warp=False):
-        return False
-        
-    # Arrived at (3, 8). Walk UP to enter the Secret House!
-    print("Arrived at the Secret House door! Entering...")
-    walk_step("Up")
-    time.sleep(1.0)
-    print("Inside Secret House! Coordinates:", get_pos())
-    return True
 
 def run_path(path, check_warp=False):
     idx = 0
@@ -120,12 +54,156 @@ def run_path(path, check_warp=False):
             stuck_count = 0
             idx += 1
             if check_warp:
-                # Check for warp
                 dist = abs(new_pos[0] - pos[0]) + abs(new_pos[1] - pos[1])
                 if dist > 5:
                     print(f"Transition occurred! Jumped to {new_pos}")
                     break
     return True
 
+def execute_safari_run():
+    # Phase 1: Safari Zone Center to Area 1 (East)
+    path_center = [
+        # Walk Up from (15, 25) to (15, 22) (3 steps Up)
+        "Up", "Up", "Up",
+        # Walk Right to (27, 22) (12 steps Right)
+        "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right",
+        # Walk Down to (27, 24) (2 steps Down, jumps row 23 ledge)
+        "Down", "Down",
+        # Walk Down to (27, 26) (2 steps Down, bypasses row 25 statues)
+        "Down", "Down",
+        # Walk Right to (30, 26) (3 steps Right)
+        "Right", "Right", "Right",
+        # Walk Up Column 30 to (30, 11) (15 steps Up)
+        "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up",
+        # Align Left (30, 11) -> (29, 11)
+        "Left",
+        # Transition Right (29, 11) -> (30, 11) (warp!)
+        "Right"
+    ]
+
+    # Phase 2: Area 1 (East) to Area 2 (North)
+    path_area1 = [
+        # Warp in at (0, 23). Walk Right/Up across plateaus to (0, 5) exit
+        "Right", "Down", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right",
+        "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right",
+        "Up", "Up", "Up", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Down",
+        "Down", "Left", "Left", "Left", "Left", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up",
+        "Up", "Up", "Up", "Up", "Right", "Right", "Right", "Right", "Up", "Up", "Up", "Right",
+        "Right", "Right", "Up", "Up", "Up", "Up", "Left", "Left", "Left", "Left", "Left", "Left",
+        "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Down", "Down", "Left",
+        "Left", "Left", "Left", "Left", "Left", "Left", "Left"
+    ]
+
+    # Phase 3: Area 2 (North) to Area 3 (West) at (14, 0) via (20, 36)
+    path_area2 = [
+        # Warp in at (39, 31). Walk Left to (22, 31) (17 steps Left)
+        "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
+        # Walk Down to (22, 33) (2 steps Down)
+        "Down", "Down",
+        # Walk Left to (20, 33) (2 steps Left)
+        "Left", "Left",
+        # Walk Down to (20, 36) (3 steps Down - Warp!)
+        "Down", "Down", "Down"
+    ]
+
+    # Phase 4: Area 3 (West) - Climb Plateau and reach West Side
+    path_area3_ascent = [
+        # Warp in at (14, 0). Walk Down to (14, 1)
+        "Down",
+        # Walk Right to (21, 1) (7 steps Right)
+        "Right", "Right", "Right", "Right", "Right", "Right", "Right",
+        # Walk Down Column 21 to (21, 18) (17 steps Down)
+        "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down",
+        # Walk UP to (21, 17) (climb East Stairs onto Plateau!)
+        "Up",
+        # Walk UP to (21, 14) (3 steps Up)
+        "Up", "Up", "Up",
+        # Walk Left to (15, 14) (6 steps Left)
+        "Left", "Left", "Left", "Left", "Left", "Left",
+        # Walk Down to (15, 16) (2 steps Down)
+        "Down", "Down",
+        # Walk Left to (5, 16) (10 steps Left)
+        "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
+        # Walk Right to (6, 16) (1 step Right)
+        "Right",
+        # Walk Down to (6, 19) (3 steps Down, stairs)
+        "Down", "Down", "Down",
+        # Walk Down to (6, 20) (descend to western ground level!)
+        "Down"
+    ]
+
+    # Phase 5: Retrieve the Gold Teeth
+    path_to_teeth = [
+        # Walk Left to (0, 20) (6 steps Left)
+        "Left", "Left", "Left", "Left", "Left", "Left",
+        # Walk Up Column 0 to Row 13 (7 steps Up - Transition!)
+        "Up", "Up", "Up", "Up", "Up", "Up", "Up"
+    ]
+
+    path_center_teeth = [
+        "Down", # To Row 26 (29, 26)
+        # Walk Left to Column 19 (10 steps Left)
+        "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left"
+    ]
+
+    path_back_to_warp = [
+        # Walk Right to Column 29 (10 steps Right)
+        "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right",
+        "Up" # To warp (29, 25) -> transitions back to Area 3 (West) at (0, 13)
+    ]
+
+    # Phase 6: Retrieve Surf
+    path_to_house = [
+        # Walk Up Column 0 to Row 8 (5 steps Up)
+        "Up", "Up", "Up", "Up", "Up",
+        # Walk Right to Column 3 (3 steps Right)
+        "Right", "Right", "Right",
+        # Walk Up to (3, 8) (enter Secret House!)
+        "Up"
+    ]
+
+    print("=== PHASE 1: Center to Area 1 (East) ===")
+    if not run_path(path_center, check_warp=True):
+        return False
+
+    print("=== PHASE 2: Area 1 (East) to Area 2 (North) ===")
+    if not run_path(path_area1, check_warp=True):
+        return False
+
+    print("=== PHASE 3: Area 2 (North) to Area 3 (West) ===")
+    if not run_path(path_area2, check_warp=True):
+        return False
+
+    print("=== PHASE 4: Area 3 (West) Ascent and Descent ===")
+    if not run_path(path_area3_ascent, check_warp=False):
+        return False
+
+    print("=== PHASE 5: Walk to Gold Teeth Warp ===")
+    if not run_path(path_to_teeth, check_warp=True):
+        return False
+
+    print("=== PHASE 5b: Picking up Gold Teeth inside Center ===")
+    if not run_path(path_center_teeth, check_warp=False):
+        return False
+
+    # Stand below Gold Teeth and interact
+    pos = get_pos()
+    print(f"Standing below Gold Teeth at {pos}. Interacting...")
+    walk_step("Up") # Bumps into item, facing us UP
+    time.sleep(0.5)
+    bridge.press_buttons(["A", "sleep 1000", "A", "sleep 1000", "B", "sleep 500"])
+    print("Gold Teeth picked up!")
+
+    print("=== PHASE 5c: Walking back to warp to Area 3 (West) ===")
+    if not run_path(path_back_to_warp, check_warp=True):
+        return False
+
+    print("=== PHASE 6: Walking to Secret House ===")
+    if not run_path(path_to_house, check_warp=True):
+        return False
+
+    print("Arrived inside Secret House! Coordinates:", get_pos())
+    return True
+
 if __name__ == "__main__":
-    execute_safari()
+    execute_safari_run()
