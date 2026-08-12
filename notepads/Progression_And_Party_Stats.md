@@ -69,8 +69,8 @@
 
 ## Active Safari Zone Session (Start Turn: 35108)
 - **Start Turn:** 35108
-- **Current Turn:** 35108
-- **Steps Used:** 0
-- **Steps Remaining:** 500
-- **Current Location:** Safari Zone Gatehouse at (4, 3)
+- **Current Turn:** 35149
+- **Steps Used:** 16
+- **Steps Remaining:** 484
+- **Current Location:** Safari Zone Center at (28, 23)
 - **Session Goals:** Enter the Safari Zone, execute the corrected golden route to Area 1 (East), then navigate to Area 2 (North) and Area 3 (West) to obtain the Gold Teeth and Surf.
