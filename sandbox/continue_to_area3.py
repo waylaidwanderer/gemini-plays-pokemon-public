@@ -97,13 +97,10 @@ def main():
         if pos is None:
             return
             
-    # PHASE 1: Walk the rest of Area 1 starting from (20, 8)
-    if pos == (20, 8):
+    # PHASE 1: Walk the rest of Area 1 starting from (5, 5)
+    if pos == (5, 5):
         path_area1_remaining = (
-            ["Up"] * 5 +                    # to (20, 3) (Row 3 bypass)
-            ["Left"] * 13 +                 # to (7, 3)
-            ["Down"] * 2 +                  # to (7, 5)
-            ["Left"] * 7                    # to transition at (0, 5)
+            ["Left"] * 5                    # to transition at (0, 5)
         )
         print("Walking remaining path in Area 1 (East)...")
         if not run_path(path_area1_remaining, check_warp=True):
@@ -133,7 +130,7 @@ def main():
     # Wait for map transition to stabilize
     bridge.press_buttons(["sleep 1000"])
     pos = get_pos()
-    print("Arrived at:", pos)
+    print("Arrived in Area 3 (West):", pos)
 
 if __name__ == '__main__':
     main()
