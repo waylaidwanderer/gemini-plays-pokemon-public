@@ -10,30 +10,25 @@ def get_pos():
     return None
 
 def main():
-    print("=== BURNING STEPS FROM (19, 24) ===")
+    print("=== BURNING STEPS SAFELY (MAX 50 BUTTONS) ===")
     
-    # Walk back and forth between Up and Down
-    # We start at (19, 24).
-    # Up goes to (19, 23).
-    # Down goes to (19, 24).
-    
-    while True:
+    # We will press a maximum of 40 buttons in this execution to be safe.
+    for i in range(20):
         pos = get_pos()
         if pos is None:
-            # We warped out of Safari Zone!
             print("Warped out!")
             break
             
-        print(f"At {pos}, walking Up...")
-        bridge.press_buttons(["Up", "sleep 150"])
+        print(f"Cycle {i}: At {pos}, walking Up...")
+        bridge.press_buttons(["Up", "sleep 120"])
         
         pos = get_pos()
         if pos is None:
             print("Warped out!")
             break
             
-        print(f"At {pos}, walking Down...")
-        bridge.press_buttons(["Down", "sleep 150"])
+        print(f"Cycle {i}: At {pos}, walking Down...")
+        bridge.press_buttons(["Down", "sleep 120"])
 
 if __name__ == "__main__":
     main()
