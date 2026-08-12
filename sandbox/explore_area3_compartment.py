@@ -94,16 +94,15 @@ def main():
         if pos is None:
             return
             
-    # We are currently at (19, 24) in Area 3 (West)
-    # Let's walk to Column 22 on Row 24 to bypass the Row 25 hedge on Columns 18-21
-    # Then walk Down to Row 26, then Right to transition to Safari Zone Center
-    # Path:
-    # - Right 3 steps to (22, 24)
-    # - Down 2 steps to (22, 26)
+    # From (19, 24), we can go:
+    # - Up 1 step to (19, 23)
+    # - Right 3 steps to (22, 23) (bypassing the Row 24 Column 22 solid bush)
+    # - Down 3 steps to (22, 26) (bypassing the Row 25 Column 18-21 hedge)
     # - Right 8 steps to (30, 26) (warp)
     path_to_center = [
+        "Up",
         "Right", "Right", "Right",
-        "Down", "Down",
+        "Down", "Down", "Down",
         "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right"
     ]
     
@@ -119,12 +118,11 @@ def main():
         pos = get_pos()
         
     # Once inside Safari Zone Center (Northwest Compartment):
-    # Walk to (19, 24) or (19, 25)
-    # If we are at Column 0, Row 26:
-    # - Walk Right to Column 19 -> Right 19 steps to (19, 26)
-    # - Walk Up 1 step -> (19, 25) (Gold Teeth!)
+    # Walk to (19, 25) inside Safari Zone Center and look for the item ball!
     if pos is not None and pos[0] < 5:
         print("Walking to (19, 25) in Safari Zone Center...")
+        # Since we warp at Row 26, we will likely be at Column 0 Row 26
+        # Path: Right 19 steps to (19, 26), Up 1 step to (19, 25)
         path_to_teeth = (
             ["Right"] * (19 - pos[0]) +
             ["Up"] * (pos[1] - 25)
@@ -144,9 +142,19 @@ def main():
             bridge.press_buttons(["A", "sleep 1200"])
             bridge.press_buttons(["A", "sleep 1200"])
             
+            # Save the game
+            print("=== SAVING THE GAME ===")
+            bridge.press_buttons(["Start", "sleep 500"])
+            bridge.press_buttons(["Up", "sleep 150", "Up", "sleep 150", "Up", "sleep 150", "Up", "sleep 150", "Up", "sleep 150", "Up", "sleep 150"])
+            bridge.press_buttons(["Down", "sleep 150", "Down", "sleep 150", "Down", "sleep 150", "Down", "sleep 150", "A", "sleep 1200"])
+            bridge.press_buttons(["A", "sleep 3000"])
+            bridge.press_buttons(["A", "sleep 500"])
+            print("Save completed!")
+            
             # Verify in Bag
             bridge.press_buttons(["Start", "sleep 500"])
-            bridge.press_buttons(["Down", "sleep 200", "Down", "sleep 200", "A", "sleep 1000"])
+            bridge.press_buttons(["Up", "sleep 150", "Up", "sleep 150", "Up", "sleep 150", "Up", "sleep 150", "Up", "sleep 150", "Up", "sleep 150"])
+            bridge.press_buttons(["Down", "sleep 150", "Down", "sleep 150", "A", "sleep 1000"])
             print("BAG menu opened! Check if the Gold Teeth are there.")
 
 if __name__ == "__main__":
