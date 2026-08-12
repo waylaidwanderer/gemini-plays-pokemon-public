@@ -79,52 +79,64 @@ def run_path(path, check_warp=False):
 
 def run_surf_campaign_final_real():
     print("=== STARTING THE FINAL SURF ACQUISITION CAMPAIGN ===")
+    
+    # 1. Flee from the active battle first
+    print("Fleeing active battle first...")
+    handle_battle()
+    
+    time.sleep(1.0)
     pos = get_pos()
-    print("Starting position:", pos)
+    print("Starting position after clearing:", pos)
     
     if pos is None:
+        print("Still in battle? Retrying flee...")
         handle_battle()
         pos = get_pos()
-        print("Position after battle recovery:", pos)
+        print("Position after retry:", pos)
         if pos is None:
             return False
             
-    # 1. We are in Area 1 (East) at (9, 5)
-    # We walk Left 10 steps to transition to Area 2 (North) at (39, 31)
-    path_area1 = []
-    if pos[0] == 9 and pos[1] == 5:
-        path_area1.extend(["Left"] * 10)         # to (0, 5) and warp!
+    # Stage 1: Transition check
+    pos_area2 = None
+    if pos[0] == 20 and pos[1] == 31:
+        print("Already in Area 2 (North) at (20, 31). Skipping transition Stage 1!")
+        pos_area2 = pos
     else:
-        print(f"Unexpected starting position: {pos}. Directing to Column 0 Row 5...")
-        if pos[0] > 0:
-            path_area1.extend(["Left"] * pos[0])
-        if pos[1] > 5:
-            path_area1.extend(["Up"] * (pos[1] - 5))
-        elif pos[1] < 5:
-            path_area1.extend(["Down"] * (5 - pos[1]))
-        path_area1.append("Left")
-        
-    print("Walking Left to transition to Area 2...")
-    if not run_path(path_area1, check_warp=True):
-        print("Failed to transition to Area 2!")
-        return False
-        
-    time.sleep(1.0)
-    pos = get_pos()
-    print("Position inside Area 2 (North):", pos)
+        # We are in Area 1 (East) at (9, 5)
+        path_area1 = []
+        if pos[0] == 9 and pos[1] == 5:
+            path_area1.extend(["Left"] * 10)         # to (0, 5) and warp!
+        else:
+            print(f"Unexpected starting position: {pos}. Directing to Column 0 Row 5...")
+            if pos[0] > 0:
+                path_area1.extend(["Left"] * pos[0])
+            if pos[1] > 5:
+                path_area1.extend(["Up"] * (pos[1] - 5))
+            elif pos[1] < 5:
+                path_area1.extend(["Down"] * (5 - pos[1]))
+            path_area1.append("Left")
+            
+        print("Walking Left to transition to Area 2...")
+        if not run_path(path_area1, check_warp=True):
+            print("Failed to transition to Area 2!")
+            return False
+            
+        time.sleep(1.0)
+        pos_area2 = get_pos()
+        print("Position inside Area 2 (North):", pos_area2)
     
     # 2. Path across Area 2 (North)
     path_across_area2 = []
-    if pos is not None:
+    if pos_area2 is not None:
         # Align to Column 15 Row 31
-        if pos[0] > 15:
-            path_across_area2.extend(["Left"] * (pos[0] - 15))
-        elif pos[0] < 15:
-            path_across_area2.extend(["Right"] * (15 - pos[0]))
-        if pos[1] < 31:
-            path_across_area2.extend(["Down"] * (31 - pos[1]))
-        elif pos[1] > 31:
-            path_across_area2.extend(["Up"] * (pos[1] - 31))
+        if pos_area2[0] > 15:
+            path_across_area2.extend(["Left"] * (pos_area2[0] - 15))
+        elif pos_area2[0] < 15:
+            path_across_area2.extend(["Right"] * (15 - pos_area2[0]))
+        if pos_area2[1] < 31:
+            path_across_area2.extend(["Down"] * (31 - pos_area2[1]))
+        elif pos_area2[1] > 31:
+            path_across_area2.extend(["Up"] * (pos_area2[1] - 31))
             
         # At (15, 31), walk Up to Row 16
         path_across_area2.extend(["Up"] * 15)    # to (15, 16)
