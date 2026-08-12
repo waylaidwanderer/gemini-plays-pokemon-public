@@ -160,3 +160,15 @@ This route is 100% verified, unblocked, flat, and walkable.
 - **Rhydon Statues & Fences (Row 25):** Completely solid from Column 0 to 29, separating the entrance from Row 26.
 - **Column 29 Shrub Wall:** Solid green hedges running vertically on Column 29 from Row 12 to Row 25. Horizontal crossing is only possible on Row 26 (South) and Rows 10-11 (North).
 - **Western Bypass Block (Column 8):** Ground-level Column 8 is physically blocked by a solid tree/bush at `(8, 15)` and a cliff wall at `(8, 13)`.
+### 🧪 Verified Physical Boundaries & Collision Coordinates (Area 3 & Center)
+- **Column 24 Hedge Wall (Area 3 West):** Solid vertical line of green hedges on Column 24 from Row 0 to Row 13. Rows 14-17 on Column 24 are open grass.
+- **Row 19 Cliff Wall (Area 3 West):** Solid horizontal cliff face running across Rows 19-20 on Columns 9-22. Prevents any vertical ground-level traversal from south to north across Row 19.
+- **Column 18 Vertical Barrier (Area 3 West):** Solid vertical tree barrier on Column 18 across Rows 20-23, blocking horizontal ground-level passage.
+- **Row 24 Hedge Wall (Area 3 West):** Solid green hedges running horizontally on Row 24 across Columns 22-29, blocking all downward ground-level vertical passage.
+- **Column 0-1 Tree Barrier (Area 3 West):** Solid tree trunks on Columns 0 and 1, Rows 24 and 25, blocking downward ground-level vertical passage.
+- **Hedge-Maze Compartmentalization in Center:**
+  - Row 15 has solid green hedges on Columns 6, 7, 8, 9.
+  - Row 16 has solid green hedges on Columns 1, 2, 3, 4, 5.
+  - This forms an interlocking hedge maze that completely prevents ground-level vertical passage from the Northwest Compartment of Center to the South/East Compartment.
+- **Pond & Rest House 1 in Center:** Completely block the middle-western ground level on Rows 10-15 across Columns 9-19.
+- **Center Compartment Wrapping:** The Northwest Compartment of Center is completely isolated from the South/East Compartment. Transitioning RIGHT from Area 3 (West) on Row 23/26 always warps the player into this isolated Northwest Compartment of Center. To enter the South/East Compartment (containing the Gold Teeth), we must enter directly from the Gatehouse entrance at (15, 25).
