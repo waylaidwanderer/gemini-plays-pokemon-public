@@ -56,29 +56,35 @@ def run_path(path):
     return True
 
 def main():
-    print("=== WALKING OPEN ROW 15 ROUTE TO WARDEN'S HOUSE ===")
+    print("=== JUMPING LEDGE AND WALKING TO WARDEN'S HOUSE ===")
     pos = get_pos()
     print("Starting position:", pos)
     
-    # We are at (31, 15) in Fuchsia City.
-    # Route:
-    # 1. Walk Left 5 steps to Column 26 -> (26, 15)
-    # 2. Walk Down Column 26 to Row 27 -> (26, 27) (12 steps Down)
-    # 3. Walk Right to Column 27 -> (27, 27) (1 step Right)
-    # 4. Walk Up to enter Warden's House!
-    path = (
-        ["Left"] * 5 +
-        ["Down"] * 12 +
-        ["Right"] +
-        ["Up"]
-    )
-    
-    if run_path(path):
-        print("Successfully reached and entered Warden's House!")
-        time.sleep(1.0)
-        print("Final Position:", get_pos())
-    else:
-        print("Failed to reach Warden's House!")
+    if pos == (23, 21):
+        print("Jumping down the ledge...")
+        bridge.press_buttons(["Down"])
+        time.sleep(0.8) # Wait for jump animation to fully complete
+        
+        pos = get_pos()
+        print("Position after jump:", pos)
+        
+    # We should have landed at (23, 23)
+    if pos is not None and pos[0] == 23 and pos[1] == 23:
+        # Route to Warden's House:
+        # 1. Walk Down 4 steps to Row 27 -> (23, 27)
+        # 2. Walk Right 4 steps to Column 27 -> (27, 27)
+        # 3. Walk Up to enter!
+        path = (
+            ["Down"] * 4 +
+            ["Right"] * 4 +
+            ["Up"]
+        )
+        if run_path(path):
+            print("Successfully entered Warden's House!")
+            time.sleep(1.0)
+            print("Final Position:", get_pos())
+        else:
+            print("Failed to reach Warden's House door!")
 
 if __name__ == "__main__":
     main()
