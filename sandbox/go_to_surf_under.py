@@ -12,12 +12,9 @@ def get_pos():
 
 def handle_battle():
     print("Wild battle detected! Escaping...")
-    # Press B a few times to dismiss text
     for _ in range(4):
         bridge.press_buttons(["B", "sleep 200"])
-    # Press Down, Right, A to run
     bridge.press_buttons(["Down", "sleep 200", "Right", "sleep 200", "A", "sleep 1200"])
-    # Press B to dismiss "Got away safely!"
     for _ in range(3):
         bridge.press_buttons(["B", "sleep 200"])
 
@@ -34,26 +31,25 @@ def walk_step_robust(direction):
         time.sleep(0.15)
         new_pos = get_pos()
         if new_pos is None:
-            # Entered battle or transition
             return None
         if new_pos != pos:
-            # Successfully moved
             return new_pos
             
     print(f"Bumping/stuck at {pos} walking {direction}!")
+    handle_battle()
+    # Retry walking
+    print(f"Retrying: walking {direction}...")
+    bridge.press_buttons([direction])
+    for _ in range(5):
+        time.sleep(0.15)
+        new_pos = get_pos()
+        if new_pos is None:
+            return None
+        if new_pos != pos:
+            return new_pos
     return pos
 
-def go_to_surf_under():
-    print("=== EXECUTING FINAL SURF ROUTE FROM (24, 16) ===")
-    
-    # Path from (24, 16) to Secret House
-    path = []
-    path.extend(["Up"] * 2)      # To (24, 14)
-    path.extend(["Left"])        # To (23, 14)
-    path.extend(["Up"])          # To (23, 13)
-    path.extend(["Left"] * 12)   # To (11, 13)
-    path.extend(["Up"] * 2)      # To (11, 11) (Secret House!)
-
+def run_path(path, check_warp=False):
     idx = 0
     stuck_count = 0
     while idx < len(path):
@@ -62,33 +58,56 @@ def go_to_surf_under():
             handle_battle()
             continue
             
-        print(f"Step {idx}: Standing at {pos}. Walking {path[idx]}...")
+        print(f"Path step {idx}: At {pos}, walking {path[idx]}...")
         new_pos = walk_step_robust(path[idx])
         
         if new_pos is None:
-            handle_battle()
-            continue
-            
+            time.sleep(0.5)
+            new_pos = get_pos()
+            if new_pos is None:
+                if check_warp:
+                    print("SUCCESS! Transition occurred!")
+                    return True
+                handle_battle()
+                continue
+                
         if new_pos == pos:
             stuck_count += 1
             print(f"Stuck at {pos}! Stuck count: {stuck_count}")
             if stuck_count > 3:
-                print("Path blocked. Exiting.")
+                print("Path blocked. Exiting path.")
                 return False
         else:
             stuck_count = 0
-            # Check if we transitioned maps (large coordinate jump or inside Secret House coordinates)
-            if new_pos[0] < 5 and new_pos[1] > 5 and new_pos[1] < 10:
-                print(f"SUCCESS! Transitioned inside the Secret House at {new_pos}!")
-                return True
-                
-            dist = abs(new_pos[0] - pos[0]) + abs(new_pos[1] - pos[1])
-            if dist > 5:
-                print(f"SUCCESS! Map Transition Detected to {new_pos}")
-                return True
             idx += 1
-            
+            if check_warp:
+                dist = abs(new_pos[0] - pos[0]) + abs(new_pos[1] - pos[1])
+                if dist > 5:
+                    print(f"SUCCESS! Transitioned to coordinates: {new_pos}")
+                    break
+    return True
+
+def run_area2():
+    # 1. Walk Left to trigger the transition to Area 2 North
+    print("Triggering transition to Area 2 North...")
+    if not run_path(["Left"], check_warp=True):
+        return False
+        
+    time.sleep(1.0)
+    pos = get_pos()
+    print("Coordinates in Area 2 North:", pos)
+    
+    # 2. Path in Area 2 North: To Area 3 West northwest ground at (4, 36)
+    path_area2 = []
+    path_area2.extend(["Left"] * 35)  # to (4, 31)
+    path_area2.extend(["Down"] * 5)   # to (4, 36) (transition!)
+
+    print("--- STAGE 3: Walking Area 2 North to Area 3 West northwest ground ---")
+    if not run_path(path_area2, check_warp=True):
+        return False
+        
+    print("SUCCESS! Arrived at Area 3 West northwest ground!")
     return True
 
 if __name__ == "__main__":
-    go_to_surf_under()
+    run_area2()
