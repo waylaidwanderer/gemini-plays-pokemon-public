@@ -63,7 +63,7 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - **Signpost at (24, 22):** Reads "AREA 3 EAST: CENTER AREA" (Turn 27655).
 
 ### 🔍 Verified Area 3 (West) Landmarks & Paths
-- **Gold Teeth:** Empirically verified to be located at `(19, 25)` on the southern ground level. The player can stand at `(19, 24)` facing Down to pick them up.
+- **Gold Teeth:** NOT in Area 3 (West). It is located in Safari Zone Center (East Compartment) at `(19, 25)`, reached via the Area 3 to Center warp transition.
 - **The Secret House:** Located on the western ground level. The verified entrance door (doormat) is at `(11, 11)`. The player stands at `(11, 12)` facing UP and presses UP to enter, which warps the player inside the Secret House at `(2, 7)`.
 - **Southwest Area:** Walked Column 3 from Row 20 up to Row 14 (`(3, 20)` to `(3, 14)`), proving `(3, 19)` and `(3, 18)` are walkable grass/trees with NO secret warp or door.
 - **Southern Passage Access:** The southern ground level (containing Row 24-28) is accessed from Column 21 on the east side. Walk south past the East Stairs on Column 21 to Row 24, and then walk west.
@@ -154,4 +154,4 @@ Any attempt to find a ground-level shortcut within Safari Zone Center is mathema
 - **(29, 10) & (29, 11):** Solid green shrubs blocking horizontal crossing across Column 29 on Rows 10-11.
 - **Column 29 Shrub/Statue Wall:** Completely blocked from Row 0 to Row 25 by Rhydon statues (Rows 0-5) and solid green shrubs (Rows 6-25). Crossing is ONLY possible via Row 26 (South).
 - **Row 25 Fence/Rhydon Barrier:** Completely solid from Column 0 to Column 29, except for the exit warp at (15, 25) and the hidden walkable grass gap at (27, 25).
-- **The grass gap at (27, 25):** Fully walkable. Walking DOWN from (27, 25) to (27, 26) completely bypasses the Row 25 barrier!
+- **(27, 25):** Solid green circular shrub, empirically tested and verified as completely blocked on Turn 34772.
