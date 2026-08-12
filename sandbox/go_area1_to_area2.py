@@ -84,8 +84,7 @@ def run_area1_navigation():
     pos = get_pos()
     print("Initial position checked:", pos)
     
-    # If we are in a battle (screen is black or in battle, get_pos might be stale but let's check or handle)
-    # Actually, let's run handle_battle() anyway since B presses are completely harmless on overworld
+    # Clean any potential battle screen
     print("Clearing any potential battle screen or text...")
     handle_battle()
     
@@ -148,6 +147,14 @@ def run_area1_navigation():
         # Start from where we are currently standing on Turn 35969
         path_area1.extend(["Left"] * 3)          # to (20, 8)
         path_area1.extend(["Up"] * 5)            # to (20, 3)
+        # Northern Corridor Bypass: Left to Col 7, Down to Row 5, Left to warp
+        path_area1.extend(["Left"] * 13)         # to (7, 3)
+        path_area1.extend(["Down"] * 2)          # to (7, 5)
+        path_area1.extend(["Left"] * 7)          # to (0, 5) (transition!)
+    elif pos[0] == 24 and pos[1] == 10:
+        # Start from where we are currently standing on Turn 35973
+        path_area1.extend(["Left"] * 4)          # to (20, 10)
+        path_area1.extend(["Up"] * 7)            # to (20, 3)
         # Northern Corridor Bypass: Left to Col 7, Down to Row 5, Left to warp
         path_area1.extend(["Left"] * 13)         # to (7, 3)
         path_area1.extend(["Down"] * 2)          # to (7, 5)
