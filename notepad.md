@@ -1277,13 +1277,9 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - **Signpost at (24, 22):** Reads "AREA 3 EAST: CENTER AREA" (Turn 27655).
 
 ### 🔍 Verified Area 3 (West) Landmarks & Paths
-- **Column 11 Tree Wall (Rows 1-7):** Solid vertical line of pine trees on Column 11, Rows 1-7, completely blocking horizontal ground-level passage in the north-middle.
-- **Column 18 Vertical Barrier (Rows 20-23):** Solid tree/wall structure running vertically on Column 18 across Rows 20-23, blocking horizontal ground-level passage.
-- **Row 9 Tree Wall (Columns 22-29):** Solid, continuous horizontal barrier of trees on Row 9, Columns 22-29, blocking all downward ground-level vertical passage on the east side of Area 3 (West).
-- **Row 8 Column 12 Pond Shoreline Block:** The pond shoreline cliff corner blocks Row 8, Column 12, preventing downward ground-level vertical passage past Row 7 on Column 12.
-- **Row 8 Column 21 Pond Shoreline Block:** The pond shoreline cliff corner blocks Row 8, Column 21, preventing downward ground-level vertical passage past Row 7 on Column 21.
 - **Gold Teeth:** Empirically verified to be located at `(19, 25)` on the southern ground level. The player can stand at `(19, 24)` facing Down to pick them up.
-- **The Secret House:** Located on the western ground level. The verified entrance door (doormat) is at `(11, 11)`. The player stands at `(11, 12)` facing UP and presses UP to enter, which warps the player inside the Secret House at `(2, 7)`.
+- **Rest House 3:** Located on the western ground level. The verified entrance door (doormat) is at `(11, 11)`. Inside is a Hiker NPC who gives standard Hiker dialogue (Rest House 3 does NOT contain Surf).
+- **The Secret House:** Located in the isolated northwest ground section of Area 3 (West). The entrance door is at `(3, 8)`. The player can only reach this section by entering through the southwest ground-level transition of Area 2 (North) at `(4, 36)`. Inside the Secret House is the NPC who gives HM03 (Surf) at `(2, 7)`.
 - **Southwest Area:** Walked Column 3 from Row 20 up to Row 14 (`(3, 20)` to `(3, 14)`), proving `(3, 19)` and `(3, 18)` are walkable grass/trees with NO secret warp or door.
 - **Southern Passage Access:** The southern ground level (containing Row 24-28) is accessed from Column 21 on the east side. Walk south past the East Stairs on Column 21 to Row 24, and then walk west.
 - **The Row 26 Highway:** Row 26 is completely open and serves as a horizontal ground-level path connecting the eastern area (Column 19/21) to the western area (Columns 3-10), bypassing the hedge barriers on Rows 24 and 25.
@@ -1347,9 +1343,6 @@ To reach Area 3 (West), the player **MUST** use the intended speedrun route acro
 **Safari Zone Center -> Area 1 (East) -> Area 2 (North) -> Area 3 (West)**.
 Any attempt to find a ground-level shortcut within Safari Zone Center is mathematically blocked by map collision.
 ### Verified Collisions & Landmarks in Area 3 (West) (Turns 32706 - 32738)
-- **Column 1 Row 15 Tree Barrier:** Solid tree trunk on Row 15, and tree top on Row 14, completely blocking Column 1 vertical ground traversal.
-- **Column 2 Row 12 Cliff Barrier:** Solid vertical cliff face of the pond on Column 2, Rows 10-13, blocking Column 2 vertical ground traversal.
-- **Column 4 Row 18 Pond Shoreline Barrier:** Solid diagonal cliff/shore corner at Column 4, Row 18, blocking Column 4 horizontal crossing.
 - **Southern Edge Wall (Row 25):** Solid green shrubs/hedges block southward movement at `(29, 24)`, `(21, 25)`, `(20, 25)`, `(19, 25)` (Wait, (19, 25) is hypothesized to be the Gold Teeth item ball, which physically bumps when walked into!).
 - **Column 18 Shrub Barrier:** Solid green shrubs run vertically on column 18, rows 20-23, causing a bump when walking Left from `(19, 23)` to `(18, 23)`.
 - **Row 24 Shrub Barrier:** Solid green shrubs run horizontally on row 24, columns 17-29 (with a corridor on row 24 columns 18-21), blocking Left movement from `(18, 24)` to `(17, 24)`.
