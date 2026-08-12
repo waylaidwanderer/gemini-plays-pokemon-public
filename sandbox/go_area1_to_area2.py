@@ -79,13 +79,20 @@ def run_path(path, check_warp=False):
 
 def run_area1_navigation():
     print("=== NAVIGATING AREA 1 TO AREA 2 ===")
+    
+    # Explicitly flee battle if we are run
+    print("Fleeing active battle first...")
+    handle_battle()
+    
+    time.sleep(1.0)
     pos = get_pos()
-    print("Starting position:", pos)
+    print("Starting position after fleeing:", pos)
     
     if pos is None:
+        print("Still in battle? Retrying flee...")
         handle_battle()
         pos = get_pos()
-        print("Position after battle recovery:", pos)
+        print("Position after retry:", pos)
         if pos is None:
             return False
             
@@ -100,11 +107,62 @@ def run_area1_navigation():
         path_area1.extend(["Up"] * 3)            # to (20, 21)
         # 4. Climb Southern Plateau
         path_area1.append("Up")                  # to (20, 20) (climb stairs)
+        # 5. Walk West across Plateau
+        path_area1.extend(["Left"] * 8)          # to (12, 20)
+        # 6. Descend Southern Plateau
+        path_area1.extend(["Down"] * 2)          # to (12, 22) (descends stairs at 12, 21)
+        # 7. Walk Left to Column 9
+        path_area1.extend(["Left"] * 3)          # to (9, 22)
+        # 8. Walk Up Column 9 to Row 8
+        path_area1.extend(["Up"] * 14)           # to (9, 8)
+        # 9. Walk Right to Column 12
+        path_area1.extend(["Right"] * 3)         # to (12, 8)
+        # 10. Climb Northern Plateau
+        path_area1.extend(["Up"] * 2)            # to (12, 6) (climbs stairs at 12, 7)
+        # 11. Walk East across Plateau
+        path_area1.extend(["Right"] * 5)         # to (17, 6)
+        # 12. Descend Northern Plateau
+        path_area1.extend(["Down"] * 2)          # to (17, 8) (descends stairs at 17, 7)
+        # 13. Walk Right to Column 20
+        path_area1.extend(["Right"] * 3)         # to (20, 8)
+        # 14. Walk Up Column 20 to Row 5
+        path_area1.extend(["Up"] * 3)            # to (20, 5)
+        # 15. Walk Left along Row 5 to Column 0 (transition!)
+        path_area1.extend(["Left"] * 20)         # to (0, 5)
     elif pos[0] == 5 and pos[1] == 22:
         # Walk Left to avoid the fence at (5, 23), Down, and then Right
         path_area1.append("Left")                # to (4, 22)
         path_area1.extend(["Down"] * 2)          # to (4, 24)
         path_area1.extend(["Right"] * 16)        # to (20, 24)
+        path_area1.extend(["Up"] * 3)            # to (20, 21)
+        # 4. Climb Southern Plateau
+        path_area1.append("Up")                  # to (20, 20) (climb stairs)
+        # 5. Walk West across Plateau
+        path_area1.extend(["Left"] * 8)          # to (12, 20)
+        # 6. Descend Southern Plateau
+        path_area1.extend(["Down"] * 2)          # to (12, 22) (descends stairs at 12, 21)
+        # 7. Walk Left to Column 9
+        path_area1.extend(["Left"] * 3)          # to (9, 22)
+        # 8. Walk Up Column 9 to Row 8
+        path_area1.extend(["Up"] * 14)           # to (9, 8)
+        # 9. Walk Right to Column 12
+        path_area1.extend(["Right"] * 3)         # to (12, 8)
+        # 10. Climb Northern Plateau
+        path_area1.extend(["Up"] * 2)            # to (12, 6) (climbs stairs at 12, 7)
+        # 11. Walk East across Plateau
+        path_area1.extend(["Right"] * 5)         # to (17, 6)
+        # 12. Descend Northern Plateau
+        path_area1.extend(["Down"] * 2)          # to (17, 8) (descends stairs at 17, 7)
+        # 13. Walk Right to Column 20
+        path_area1.extend(["Right"] * 3)         # to (20, 8)
+        # 14. Walk Up Column 20 to Row 5
+        path_area1.extend(["Up"] * 3)            # to (20, 5)
+        # 15. Walk Left along Row 5 to Column 0 (transition!)
+        path_area1.extend(["Left"] * 20)         # to (0, 5)
+    elif pos[0] == 14 and pos[1] == 24:
+        # Walk Right to Column 20 (6 steps Right)
+        path_area1.extend(["Right"] * 6)         # to (20, 24)
+        # Walk Up to (20, 21)
         path_area1.extend(["Up"] * 3)            # to (20, 21)
         # 4. Climb Southern Plateau
         path_area1.append("Up")                  # to (20, 20) (climb stairs)
