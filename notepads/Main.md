@@ -1,8 +1,9 @@
-## CURRENT STATUS & DASHBOARD (Turn 51122)
-- Location: Celadon Game Corner (West Slot Bay) at (5, 7).
+## CURRENT STATUS & DASHBOARD (Turn 51125)
+- Location: Celadon City (Northern Highway) at (15, 10).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Exit via (3, 7) to Celadon City (17, 14) and take Northern Highway East to door (18, 21) or (30, 19).
+- Active Objective: Walk East along Northern Highway to Col 36 -> South to Row 30 -> West to Col 20 -> Game Corner Plaza warp (20, 36).
 - Persistent Facts:
-  - Door (17, 13) enters enclosed 7-column West Slot Bay (x=0..6, y=0..7).
-  - Main East Casino Floor is entered via door (18, 21) or (30, 19) / (20, 36).
+  - Slope Gap at (7, 11) unlocks Northern Highway (Row 10) running East across x=7..36.
+  - Master Route: Col 36 South to Row 30 -> West to Col 20 -> South to Game Corner Plaza warp (20, 36).
+  - Game Corner Plaza door (10, 2) / (17, 27) enters True Main Casino Floor.
   - Secret Staircase at (4, 4) inside Main Game Corner Casino leads down to Rocket Hideout B1F.
