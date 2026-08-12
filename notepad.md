@@ -1,6 +1,6 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 51444)
+## CURRENT STATUS & DASHBOARD (Turn 51445)
 - Location: Celadon Game Corner at (4, 2).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
 - Active Objective: Walk Up 2 to Row 0 entrance mat cross-aisle (4, 0), step Right 1 to (5, 0) to navigate towards Column 6/17 and Rocket Grunt at poster switch.
@@ -753,10 +753,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 51445)
-- Location: Celadon Game Corner at (4, 2).
+## CURRENT STATUS & DASHBOARD (Turn 51446)
+- Location: Celadon Game Corner at (5, 0).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Walk Up 2 to Row 0 entrance mat cross-aisle (4, 0), step Right 1 to (5, 0) to navigate towards Column 6/17 and Rocket Grunt at poster switch.
+- Active Objective: Test Right step from (5, 0) to (6, 0) on Row 0 cross-aisle to reach Rocket Grunt at (6, 2).
 - Persistent Facts:
   - Row 0 (y=0) across x=2..5 is the open entrance mat cross-aisle above slot machine banks.
   - Rocket Grunt at (6, 2) guards secret poster switch on North Wall at (6, 1).
