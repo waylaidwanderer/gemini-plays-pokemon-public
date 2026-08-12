@@ -7,20 +7,19 @@ sys.stdout.reconfigure(encoding='utf-8')
 def burn_steps():
     print("=== BURNING SAFARI STEPS SAFELY ===")
     
-    # We will send batches of 80 buttons (40 steps Left/Right)
-    # This is well under the 100 buttons limit per press_buttons call
-    # We will do this in a loop until we get warped back to the Gatehouse,
-    # or until our steps run out!
+    # We will send batches of 30 buttons (15 steps Left/Right)
+    # This takes 30 * 150ms = 4.5 seconds to execute, well under the 10-second socket timeout!
     
     batch = []
-    for _ in range(40):
-        batch.extend(["Left", "sleep 150", "Right", "sleep 150"])
+    # Left 5, Right 5, Left 5 (15 steps total)
+    batch.extend(["Left", "sleep 150"] * 5)
+    batch.extend(["Right", "sleep 150"] * 5)
+    batch.extend(["Left", "sleep 150"] * 5)
         
-    print(f"Sending batch of {len(batch)} actions to burn steps...")
+    print(f"Sending batch of {len(batch)} actions to burn 15 steps...")
     res = bridge.press_buttons(batch)
     print(f"Response: {res}")
     
-    # Get coordinates to see where we are
     pos = bridge.get_coordinates()
     print(f"Current coordinates: {pos}")
     
