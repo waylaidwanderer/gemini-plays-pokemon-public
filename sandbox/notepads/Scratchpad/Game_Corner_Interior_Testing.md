@@ -1,15 +1,13 @@
-# Empirical Testing Log - Celadon Game Corner Floor Passability
+# Game Corner Interior Empirical Testing Log
 
-## Solid Boundaries (Verified by Bumps)
-- (5, 1): Solid brown wall divider (turn 50868)
-- (6, 3): Solid brown counter (turn 50909)
-- (7, 3): Solid brown counter (turn 50913)
-- (8, 4): Solid vertical wall divider (turn 50898)
-- (8, 5): Solid vertical wall divider (turn 50903)
-- (8, 6): Solid vertical wall divider (turn 50905)
-- (4, 8): Solid south boundary (turn 50901)
-- (6, 8): Solid south boundary (turn 50907)
-
-## Next Single-Step Test Protocol
-1. From (7, 4), walk Left 3 to (4, 4), Up 1 to (4, 3), Left 2 to (2, 3).
-2. Issue 1 single Up step from (2, 3) to test passability of (2, 2).
+## West Slot Aisle (Entered via Celadon City door 17, 13)
+- Enclosed 7x8 aisle bounded by x=0..6, y=0..7.
+- Row 0: Brown wall across x=1..6, potted plants at (0,0) and (7,0).
+- Row 1: Green carpet x=1..6, urn statues at (0,1) and (7,1).
+- Column 6/7 Vertical Barrier:
+  - (6, 0): Solid brown wall
+  - (7, 1): Solid urn statue
+  - (6, 2..6): Solid brown slot machine bank
+  - (7, 6): Solid potted plant
+  - (7, 7): Solid urn statue
+- Conclusion: West Slot Aisle is a self-contained bay. Exiting via south mat at (3, 7) to access East Main Casino floor via Celadon City door at (18, 21) / (30, 19).
