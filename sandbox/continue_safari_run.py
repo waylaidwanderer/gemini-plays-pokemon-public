@@ -138,11 +138,11 @@ def main():
         press_buttons_tracked(["A", "sleep 1200"])
         
         print("=== SAVING THE GAME ===")
-        # Press Start, select SAVE (Start -> Up, Up -> A -> A)
+        # Press Start, select SAVE (Start -> Up 6 times -> Down 4 times -> A -> A -> A)
         press_buttons_tracked(["Start", "sleep 500"])
-        # Select SAVE (Start menu layout: save is the 5th option, so from Pokedex we press Up twice to wrap or scroll)
-        # If cursor starts on POKEDEX, pressing Up twice moves it to OPTION or wrap?
-        # Actually, let's use Down 4 times to select SAVE
+        # Align to POKEDEX by pressing Up 6 times
+        press_buttons_tracked(["Up", "sleep 150", "Up", "sleep 150", "Up", "sleep 150", "Up", "sleep 150", "Up", "sleep 150", "Up", "sleep 150"])
+        # Press Down 4 times to select SAVE
         press_buttons_tracked(["Down", "sleep 150", "Down", "sleep 150", "Down", "sleep 150", "Down", "sleep 150", "A", "sleep 1200"])
         # A to confirm YES on save
         press_buttons_tracked(["A", "sleep 3000"])
@@ -152,6 +152,8 @@ def main():
         
         print("=== VERIFYING GOLD TEETH IN BAG ===")
         press_buttons_tracked(["Start", "sleep 500"])
+        # Align to POKEDEX by pressing Up 6 times
+        press_buttons_tracked(["Up", "sleep 150", "Up", "sleep 150", "Up", "sleep 150", "Up", "sleep 150", "Up", "sleep 150", "Up", "sleep 150"])
         # ITEM is the 3rd option, from POKEDEX we press Down twice
         press_buttons_tracked(["Down", "sleep 150", "Down", "sleep 150", "A", "sleep 1000"])
         print("BAG menu opened! Successfully finished!")
