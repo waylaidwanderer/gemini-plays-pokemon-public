@@ -79,20 +79,30 @@ def run_path(path, check_warp=False):
     return True
 
 def run_surf():
-    # We are currently at (16, 30) facing RIGHT.
-    print("=== EXECUTING 100% WALKABLE COLUMN 25 HIGHWAY ROUTE ===")
+    # Currently at (16, 30) facing RIGHT.
+    print("=== EXECUTING 100% WALKABLE LAND-BRIDGE AND COLUMN 25 ROUTE ===")
     
     path = []
-    # 1. Walk Right to Column 25
-    path.extend(["Right"] * 9)    # to (25, 30)
+    # 1. Walk UP Column 16 to (16, 27) and (16, 26) (onto plateau)
+    path.extend(["Up"] * 4)       # to (16, 26)
     
-    # 2. Walk Up Column 25 to Row 9
-    path.extend(["Up"] * 21)      # to (25, 9)
+    # 2. Walk Right on plateau to (19, 26)
+    path.extend(["Right"] * 3)    # to (19, 26)
     
-    # 3. Walk Left on Row 9 to Column 4
+    # 3. Walk Down and Right to descend stairs to Column 20 (ground)
+    path.append("Down")           # to (19, 27) (stair tile)
+    path.append("Right")          # to (20, 27) (ground)
+    
+    # 4. Walk Right to Column 25
+    path.extend(["Right"] * 5)    # to (25, 27)
+    
+    # 5. Walk Up Column 25 to Row 9
+    path.extend(["Up"] * 18)      # to (25, 9)
+    
+    # 6. Walk Left on Row 9 to Column 4
     path.extend(["Left"] * 21)    # to (4, 9)
     
-    # 4. Walk Down Column 4 to Row 36 (transition!)
+    # 7. Walk Down Column 4 to Row 36 (transition!)
     path.extend(["Down"] * 27)    # to (4, 36)
     
     print("--- STAGE 1: Ground Navigation to Southwest Transition ---")
@@ -103,7 +113,7 @@ def run_surf():
     pos = get_pos()
     print("Landed in Area 3 West northwest ground at:", pos)
     
-    # 5. From northwest ground landing spot in Area 3 West: to Secret House door at (3, 8)
+    # 8. To Secret House door at (3, 8)
     path_to_house = []
     if pos is not None and pos[0] == 2:
         path_to_house.append("Right")
