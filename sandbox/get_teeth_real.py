@@ -71,7 +71,8 @@ def run_path(path, check_warp=False):
                     if dist > 5:
                         print(f"SUCCESS! Transitioned to coordinates: {new_pos}")
                         break
-                idx += 1
+                if new_pos != pos:
+                    idx += 1
                 continue
             
         if new_pos == pos:
