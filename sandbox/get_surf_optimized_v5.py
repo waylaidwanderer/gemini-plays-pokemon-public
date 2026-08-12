@@ -79,30 +79,23 @@ def run_path(path, check_warp=False):
     return True
 
 def run_surf():
-    # 1. Escape from active battle
-    handle_battle()
+    # Currently at (16, 30) facing RIGHT.
+    print("=== EXECUTING 100% WALKABLE ROW 9 HIGHWAY ROUTE ===")
     
-    time.sleep(1.0)
-    pos = get_pos()
-    print("Overworld coordinates after escape:", pos)
-    if pos is None:
-        print("Failed to get overworld position.")
-        return False
-        
-    # We are currently at (6, 27).
-    # 2. Path to climb, cross and descend the Western Southern Plateau, then transition:
     path = []
-    path.extend(["Down"] * 3)     # to (6, 30)
-    path.extend(["Right"] * 16)   # to (22, 30)
-    path.extend(["Up"] * 7)       # to (22, 23) (climbing stairs)
-    path.append("Up")             # to (22, 22) (onto plateau)
-    path.extend(["Left"] * 6)     # to (16, 22) (across plateau)
-    path.extend(["Down"] * 6)     # to (16, 28) (descending stairs)
-    path.extend(["Down"] * 3)     # to (16, 31) (to southern corridor)
-    path.extend(["Left"] * 12)    # to (4, 31) (along southern corridor)
-    path.extend(["Down"] * 5)     # to (4, 36) (transition!)
+    # 1. Walk Right to Column 18
+    path.extend(["Right"] * 2)    # to (18, 30)
     
-    print("--- STAGE 1: Crossing Plateau to Southwest Transition ---")
+    # 2. Walk Up Column 18 to Row 9
+    path.extend(["Up"] * 21)      # to (18, 9)
+    
+    # 3. Walk Left on Row 9 to Column 4
+    path.extend(["Left"] * 14)    # to (4, 9)
+    
+    # 4. Walk Down Column 4 to Row 36 (transition!)
+    path.extend(["Down"] * 27)    # to (4, 36)
+    
+    print("--- STAGE 1: Ground Navigation to Southwest Transition ---")
     if not run_path(path, check_warp=True):
         return False
         
@@ -110,8 +103,7 @@ def run_surf():
     pos = get_pos()
     print("Landed in Area 3 West northwest ground at:", pos)
     
-    # 3. From northwest ground landing spot in Area 3 West: to Secret House door at (3, 8)
-    # If we land at (2,0), walk Right to (3,0) first, or if (4,0), walk Left to (3,0)
+    # 5. From northwest ground landing spot in Area 3 West: to Secret House door at (3, 8)
     path_to_house = []
     if pos is not None and pos[0] == 2:
         path_to_house.append("Right")
