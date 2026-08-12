@@ -109,14 +109,13 @@ def run_campaign_to_area3():
         if pos is None:
             return False
             
-    # Determine where we are and set up paths
+    # Determine where we are and set up paths dynamically!
     path_center = []
     path_area1 = []
     path_area2 = []
     path_area3 = []
     
-    # 1. Check if we are in Safari Zone Center (assume Center if we are at (15,25) or on Row 21/11 in Center coordinates)
-    # We can detect this based on starting x, y and local knowledge
+    # 1. Check if we are in Safari Zone Center
     if pos == (15, 25):
         path_center = [
             "Up", "Up", "Up", "Up",                               # to (15, 21)
@@ -147,19 +146,37 @@ def run_campaign_to_area3():
         print("Position inside Area 1 (East):", pos)
         
     # 2. Check if we are in Area 1 (East)
-    # Area 1 (East) starts at warp-in (0, 22) or (0, 23)
-    if pos is not None and (pos[0] == 0 and (pos[1] == 22 or pos[1] == 23)):
-        path_area1 = [
-            "Right", "Right", "Right", "Right", "Right", "Right", 
-            "Right", "Right", "Right", "Right", "Right", "Right", 
-            "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", # to (20, 22)
-            "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up",
-            "Up", "Up", "Up", "Up", "Up", "Up", "Up",                         # to (20, 5)
-            "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
-            "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
-            "Left", "Left", "Left", "Left"                                    # to (0, 5) (warp!)
-        ]
-        
+    # We are in Area 1 if we are on Row 22/23/24 with X <= 20, or Row 5, etc.
+    # Let's detect based on coordinates
+    if pos is not None:
+        is_area1 = False
+        if pos[1] == 23 and pos[0] <= 20:
+            is_area1 = True
+            print(f"Resuming Area 1 navigation from Row 23: {pos}")
+            # Detour down to Row 24 first
+            path_area1.append("Down")
+            remaining_right = 20 - pos[0]
+            path_area1.extend(["Right"] * remaining_right)
+            path_area1.extend(["Up"] * 19) # to (20, 5)
+            path_area1.extend(["Left"] * 20) # to (0, 5) (warp)
+        elif pos[1] == 24 and pos[0] <= 20:
+            is_area1 = True
+            print(f"Resuming Area 1 navigation from Row 24: {pos}")
+            remaining_right = 20 - pos[0]
+            path_area1.extend(["Right"] * remaining_right)
+            path_area1.extend(["Up"] * 19) # to (20, 5)
+            path_area1.extend(["Left"] * 20) # to (0, 5) (warp)
+        elif pos[0] == 20 and pos[1] <= 24 and pos[1] >= 5:
+            is_area1 = True
+            print(f"Resuming Area 1 navigation from Column 20: {pos}")
+            remaining_up = pos[1] - 5
+            path_area1.extend(["Up"] * remaining_up)
+            path_area1.extend(["Left"] * 20)
+        elif pos[1] == 5 and pos[0] <= 20:
+            is_area1 = True
+            print(f"Resuming Area 1 navigation from Row 5: {pos}")
+            path_area1.extend(["Left"] * pos[0])
+            
     if len(path_area1) > 0:
         print("Walking across Area 1 (East) to Area 2 (North)...")
         if not run_path(path_area1, check_warp=True):
@@ -170,7 +187,6 @@ def run_campaign_to_area3():
         print("Position inside Area 2 (North):", pos)
         
     # 3. Check if we are in Area 2 (North)
-    # Area 2 (North) starts at warp-in (39, 31)
     if pos is not None and pos[0] == 39 and pos[1] == 31:
         path_area2 = [
             "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
