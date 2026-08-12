@@ -1421,18 +1421,18 @@ From Safari Zone Center entrance at `(15, 25)`:
 # Safari Zone - Active Hypotheses & Exploration
 
 ## ⏱️ Step Budget Tracker
-- **Steps Remaining:** Fresh Run Active
+- **Steps Remaining:** ~208 steps (as of Turn 34801)
+- **Start Turn of current run:** Turn 34681
 
-## 🗺️ Hypothesized Route to Secret House (Surf) & Gold Teeth
-1. **Secret House Door Hypothesis:**
-   - The Secret House is located on the western ground level in Area 3 (West) at (3, 8).
-   - We must systematically test the boundaries of the lake, fences, and buildings to locate the walkable path.
-2. **Current Collision Discoveries:**
-   - **Column 24 Row 13:** Blocked by Hedge Wall.
-   - **Column 23 Row 14:** Blocked by Plateau Cliff.
-   - **Column 2 Row 13:** Blocked by shoreline/lake.
-   - **Column 13.5 Fence:** Blocks ground horizontal crossing on Row 13 and Row 14.
-   - **Column 14 Row 8:** Blocked by tree wall.
+## 🗺️ Path to Area 3 (West) from Current Position (8, 18)
+- Walk UP Column 8 to Row 11: `(8, 18) -> (8, 11)` (7 steps UP)
+- Walk LEFT along Row 11 to Column 0: `(8, 11) -> (0, 11)` (8 steps LEFT)
+- Walk LEFT from `(0, 11)` to transition to Area 3 (West) at `(30, 23)`!
+
+## 🔍 Secret House Door Verification
+- Secret House door (doormat) is at `(3, 8)` in Area 3 (West).
+- Trehouse inside coordinates: `(2, 7)`.
+- Rest House 3 is at `(11, 11)` (not the Secret House).
 
 <hr>
 
