@@ -1,32 +1,28 @@
-import bridge
 import time
+import bridge
 
-curr = bridge.get_coordinates()
-print(f"Current position: {curr}")
+def get_pos():
+    pos = bridge.get_coordinates()
+    if pos is None:
+        return None
+    return pos[0], pos[1]
 
-# Try to move Left
-print("Trying to move Left...")
-bridge.press_buttons(["Left", "sleep 350"])
-curr = bridge.get_coordinates()
-print(f"Now at: {curr}")
+def walk_step(direction):
+    bridge.press_buttons([direction, "sleep 400"])
 
-# Try to move Up from (4, 5) or current
-print("Trying to move Up...")
-bridge.press_buttons(["Up", "sleep 350"])
-curr = bridge.get_coordinates()
-print(f"Now at: {curr}")
-
-# Try to move Left from current
-print("Trying to move Left...")
-bridge.press_buttons(["Left", "sleep 350"])
-curr = bridge.get_coordinates()
-print(f"Now at: {curr}")
-
-# Try to move Up
-print("Trying to move Up...")
-bridge.press_buttons(["Up", "sleep 350"])
-curr = bridge.get_coordinates()
-print(f"Now at: {curr}")
-
-# Let's see what is walkable and try to talk to the clerk!
-print("Test complete.")
+def test_walk_up():
+    print("Testing walk UP through the Gatehouse corridor...")
+    
+    # Starting at (4, 3)
+    for step in range(5):
+        pos = get_pos()
+        print(f"Step {step}: pos before UP = {pos}")
+        walk_step("Up")
+        pos_after = get_pos()
+        print(f"Step {step}: pos after UP = {pos_after}")
+        if pos_after == pos:
+            print("BLOCKED!")
+            break
+            
+if __name__ == "__main__":
+    test_walk_up()
