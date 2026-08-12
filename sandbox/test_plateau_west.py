@@ -19,6 +19,8 @@ def walk_step(direction):
 
 def test_west_plateau_cols():
     # Currently at (27, 22)
+    print("Clearing battle text...")
+    bridge.press_buttons(["B", "sleep 500"])
     print("Continuing walk to the stairs from (27, 22)...")
     walk_step("Left") # To (26, 22)
     walk_step("Left") # To (25, 22)
