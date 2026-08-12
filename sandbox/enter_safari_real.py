@@ -65,11 +65,14 @@ def run_path(path, check_warp=False):
     return True
 
 def main():
-    print("=== FINISHING DIALOGUE AND ENTERING SAFARI ===")
+    print("=== FINISHING ALL DIALOGUE AND ENTERING SAFARI ===")
     
-    # Press A to dismiss "ACE received 30 SAFARI BALLS!"
-    bridge.press_buttons(["A", "sleep 1500"])
-    
+    # We are still in the dialogue. Let's press A 5 times to be absolutely sure we clear everything and warp.
+    for i in range(5):
+        print(f"Dismissing box {i+1}...")
+        bridge.press_buttons(["A", "sleep 1200"])
+        
+    time.sleep(2.0)
     pos = get_pos()
     print("Coordinates after warp:", pos)
     
