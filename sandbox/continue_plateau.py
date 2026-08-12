@@ -88,17 +88,24 @@ def run_path(path, check_warp=False):
     return True
 
 def run_plateau():
-    # We are currently at (26, 0) inside Area 3 West
+    # We are currently at (27, 0) inside Area 3 West
     
     # 1. Path to transition back to Area 2 North
-    path_to_area2 = ["Up"] # to Row -1 of Area 3 (West) which transitions to Area 2 North at (8, 35) or (9, 35)
+    path_to_area2 = ["Up"] # to Area 2 North at (9, 35)
 
-    # 2. Path in Area 2 North to southwest transition at (4, 36)
-    path_area2 = []
-    path_area2.extend(["Left"] * 5)  # to (4, 35) (or 5 Left from 9,35)
-    path_area2.append("Down")        # to (4, 36) (transition!)
+    # 2. Path in Area 2 North: Walk Right to Column 22, Up onto Plateau, cross, and descend
+    path_area2_plateau = []
+    path_area2_plateau.extend(["Right"] * 13) # to (22, 35)
+    path_area2_plateau.extend(["Up"] * 13)    # to (22, 22) (climb stairs at 22,23 and up to 22,22)
+    path_area2_plateau.extend(["Left"] * 6)   # to (16, 22) on Plateau
+    path_area2_plateau.extend(["Down"] * 6)   # to (16, 28) on ground (descend stairs at 16, 27)
 
-    # 3. Path inside northwest ground of Area 3 West: To Secret House door at (3, 8)
+    # 3. Path on ground to northwest transition at (4, 36)
+    path_to_transition = []
+    path_to_transition.extend(["Left"] * 12) # to (4, 28)
+    path_to_transition.extend(["Down"] * 8)  # to (4, 36) (transition!)
+
+    # 4. Path inside northwest ground of Area 3 West: To Secret House door at (3, 8)
     path_to_house = []
     path_to_house.append("Left")         # to (3, 0) (in case we land at 2,0)
     path_to_house.extend(["Down"] * 8)   # to (3, 8)
@@ -112,19 +119,22 @@ def run_plateau():
     pos = get_pos()
     print("Landing coordinates in Area 2 North:", pos)
     
-    # Adjust left steps based on actual landing position
-    # (usually we land at 8,35 or 9,35)
-    left_steps = 5
+    # In case we land at (8,35) instead of (9,35), adjust the Right steps
+    right_steps = 13
     if pos is not None and pos[0] == 8:
-        left_steps = 4
+        right_steps = 14
         
-    path_area2_adjusted = ["Left"] * left_steps + ["Down"]
+    path_area2_adjusted = ["Right"] * right_steps + ["Up"] * 13 + ["Left"] * 6 + ["Down"] * 6
 
-    print("--- STAGE 2: Walking Area 2 North to Northwest Transition ---")
-    if not run_path(path_area2_adjusted, check_warp=True):
+    print("--- STAGE 2: Climbing and Descending Western Southern Plateau ---")
+    if not run_path(path_area2_adjusted, check_warp=False):
         return False
         
-    print("--- STAGE 3: Walking northwest ground of Area 3 West to Secret House ---")
+    print("--- STAGE 3: Walking Ground to Northwest Transition ---")
+    if not run_path(path_to_transition, check_warp=True):
+        return False
+        
+    print("--- STAGE 4: Walking northwest ground of Area 3 West to Secret House ---")
     if not run_path(path_to_house, check_warp=True):
         return False
         
