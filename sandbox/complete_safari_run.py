@@ -57,11 +57,18 @@ def run_path(path, check_warp=False):
                     break
     return True
 
-# 1. From (18, 3) to (6, 20) via Row 1 (33 steps)
+# 1. From (23, 5) to (6, 20) via Column 23 (42 steps)
 path_to_ground = [
-    "Up", "Up",
-    "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
-    "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down"
+    "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", # 13 steps Down to (23, 18)
+    "Left", "Left", # 2 steps Left to (21, 18)
+    "Up", # 1 step Up to (21, 17) (East Stairs)
+    "Up", "Up", "Up", # 3 steps Up to (21, 14)
+    "Left", "Left", "Left", "Left", "Left", "Left", # 6 steps Left to (15, 14)
+    "Down", "Down", # 2 steps Down to (15, 16)
+    "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", # 10 steps Left to (5, 16)
+    "Right", # 1 step Right to (6, 16)
+    "Down", "Down", "Down", # 3 steps Down to (6, 19) (West Stairs)
+    "Down" # 1 step Down to (6, 20)
 ]
 
 # 2. From (6, 20) to Gold Teeth Warp (13 steps)
@@ -90,19 +97,9 @@ path_to_house = [
 ]
 
 def run_all():
-    print("=== STARTING RETRIEVAL FROM CURRENT BATTLE AT (18, 3) ===")
+    print("=== STARTING THE ULTIMATE RETRIEVAL FROM (23, 5) ===")
     
-    # First, flee the active battle
-    run_away()
-    
-    # Wait a bit for overworld to load
-    time.sleep(1.0)
-    
-    # Verify we are back in overworld
-    pos = get_pos()
-    print(f"Back in overworld at: {pos}")
-        
-    print("=== PHASE 4 (REVISED): Walk to West Ground Level ===")
+    print("=== PHASE 4: Ascent & Descent via Column 23 ===")
     if not run_path(path_to_ground, check_warp=False):
         return False
         
