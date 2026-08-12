@@ -7,48 +7,52 @@ def get_pos():
         return None
     return pos[0], pos[1]
 
-def walk_to_row22():
-    print("Walking down column 24 to reach Row 22 safely...")
+def run_away():
+    print("Wild battle/interaction detected! Executing RUN sequence...")
+    bridge.press_buttons(["B", "sleep 300", "B", "sleep 300", "B", "sleep 300"])
+    bridge.press_buttons(["Right", "sleep 200", "Down", "sleep 200", "A", "sleep 1200"])
+    bridge.press_buttons(["B", "sleep 300"])
+
+def walk_to_warp():
+    # Start at (9, 35) in Area 2 (North)
+    # Walk to (20, 36) to warp to Area 3 (West) at (14, 0)
+    path = [
+        "Up", "Up", # (9, 33)
+        "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", # (20, 33)
+        "Down", "Down", "Down" # (20, 36) - Warp!
+    ]
+    
+    print("Walking from (9, 35) to the correct exit warp at (20, 36)...")
     stuck_count = 0
+    idx = 0
     
-    # We want to reach (24, 22)
-    target_y = 22
-    
-    while True:
+    while idx < len(path):
         pos = get_pos()
         if pos is None:
-            print("Dialogue or battle detected! Exiting safely.")
-            return True
+            run_away()
+            continue
             
-        cx, cy = pos
-        print(f"Current position: ({cx}, {cy})")
-        
-        if cy == target_y:
-            print(f"Reached Row {target_y} successfully!")
-            break
-            
-        if cy > target_y:
-            print("ERROR: Overshot target y!")
-            return False
-            
-        # Walk 1 step Down
-        print("Walking Down...")
-        bridge.press_buttons(["Down", "sleep 350"])
+        print(f"At {pos}, sending {path[idx]}")
+        bridge.press_buttons([path[idx], "sleep 350"])
         
         new_pos = get_pos()
         if new_pos is None:
-            print("Dialogue or battle detected after movement! Exiting safely.")
-            return True
+            run_away()
+            continue
             
-        ncx, ncy = new_pos
-        if ncx == cx and ncy == cy:
+        if new_pos == pos:
             stuck_count += 1
-            print(f"Stuck! Didn't move from ({cx}, {cy}). Stuck count: {stuck_count}")
+            print(f"Stuck at {pos}! Stuck count: {stuck_count}")
             if stuck_count > 3:
-                print("Stuck too long. Battle must have started. Exiting safely.")
-                return True
+                run_away()
+                stuck_count = 0
         else:
             stuck_count = 0
+            idx += 1
+            
+    print("Transition complete!")
+    time.sleep(1.0)
+    print(f"Current position: {get_pos()}")
 
 if __name__ == "__main__":
-    walk_to_row22()
+    walk_to_warp()
