@@ -1179,6 +1179,9 @@ Systematically probe every potential building doorway and alleyway warp in South
 - Exit Doorway: Located strictly at x=3, 4, y=7 (facing Down).
 - Tile (2, 8): Solid wall/statue border (empirically confirmed bump turn 52116).
 - Conclusion: Sub-room (Cols 0..7, Rows 0..7) is an enclosed 8x8 Trade Sub-room with exit strictly at door mats (3, 7)/(4, 7).
+### North Wall Corridor & Column 0 Topography (Turn 53522)
+- Column 0 (x=0, y=2..9) is separated from Casino carpet floor (x=1) by a continuous solid wall divider.
+- Open Passage: Row 1 (y=1) is the North Wall Corridor connecting Column 0 at (0, 1) East across (1, 1), (2, 1), (3, 1), (4, 1) to East Casino Floor and poster switch at (17, 1).
 
 <hr>
 
