@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 53221)
-- Location: Celadon City at (27, 12).
+## CURRENT STATUS & DASHBOARD (Turn 53222)
+- Location: Celadon City at (31, 13).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Bypass Green Shirt NPC at (28, 12) via Row 13 grass to (31, 13), then ascend to Row 10 passage at (31, 10) to reach Column 36 at (36, 10).
+- Active Objective: Walk Up 3 steps along Column 31 to Row 10 passage at (31, 10), then Right 5 steps to Column 36 at (36, 10).
 - Verified Master Topography:
   - Route 7 Passages: Open Westbound route connecting Saffron West Gatehouse (7, 2) through Saffron City to Celadon City.
   - Saffron/Route 7 Connection: Open route connecting West Celadon (0, 9) through Route 7, Saffron West Gatehouse, Saffron Row 7 gap (17, 7), Saffron East Gatehouse, Route 7, to East Celadon (49, 11).
@@ -752,10 +752,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 53222)
-- Location: Celadon City at (31, 13).
+## CURRENT STATUS & DASHBOARD (Turn 53223)
+- Location: Celadon City at (31, 12).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Walk Up 3 steps along Column 31 to Row 10 passage at (31, 10), then Right 5 steps to Column 36 at (36, 10).
+- Active Objective: Walk Down 4 steps along Column 31 to Row 16 passage at (31, 16), then Right 5 steps through (32, 16) below barrels to Column 36 at (36, 16).
 - Verified Master Topography:
   - Route 7 Passages: Open Westbound route connecting Saffron West Gatehouse (7, 2) through Saffron City to Celadon City.
   - Saffron/Route 7 Connection: Open route connecting West Celadon (0, 9) through Route 7, Saffron West Gatehouse, Saffron Row 7 gap (17, 7), Saffron East Gatehouse, Route 7, to East Celadon (49, 11).
