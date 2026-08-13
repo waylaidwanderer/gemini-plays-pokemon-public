@@ -65,7 +65,7 @@
 - Tile (17, 15): Solid blue building awning / roof canopy.
 - Row 18 (x=13..27+): 100% open street running East-West in front of Department Store (13, 15) and Pokemon Center (19, 17).
 - Celadon Gym: Located at x=24..28, y=18..21. Left edge / wall at x=24.
-- Column 23 (x=23): 100% open North-South street running from Row 18 (23, 18) straight North to Row 8/12 Northern Highway.
+- Column 23 (x=23): Row 18 (23, 18) connects East-West. Tile (23, 17) is a South-facing ledge.
 - Tile (22, 24): Solid blue building roof canopy (empirically confirmed bump on turn 49561).
 - Column 35 (x=35, y=23..27): Continuous vertical wall of double brown barrels. Tile (35, 28) is a dark green tree. Blocks direct East-West crossing between Central Celadon (x<=34) and East Celadon (x>=36) at y=23..28.
 - Tile (12, 15): Solid blue building roof canopy / awning (empirically confirmed bump on turns 49572, 52525). Column 8 (8, 15) is the true open North-South highway passage.
