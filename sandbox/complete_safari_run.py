@@ -152,8 +152,19 @@ def main():
     if pos is not None and pos[0] < 5 and pos[1] >= 20 and pos[1] <= 24:
         print("=== Phase 2: Area 1 (East) to Area 2 (North) ===")
         path_area1 = (
-            ["Right"] * 20 +   # (20, 22)
-            ["Up"] * 17 +      # (20, 5)
+            ["Down"] * 1 +     # to (4, 24)
+            ["Right"] * 16 +   # to (20, 24)
+            ["Up"] * 4 +       # to (20, 20) (climb stairs)
+            ["Left"] * 8 +     # to (12, 20)
+            ["Down"] * 2 +     # to (12, 22) (descend stairs)
+            ["Left"] * 4 +     # to (8, 22)
+            ["Up"] * 14 +      # to (8, 8)
+            ["Right"] * 4 +    # to (12, 8)
+            ["Up"] * 2 +       # to (12, 6) (climb stairs)
+            ["Right"] * 5 +    # to (17, 6)
+            ["Down"] * 2 +     # to (17, 8) (descend stairs)
+            ["Right"] * 3 +    # to (20, 8)
+            ["Up"] * 3 +       # to (20, 5)
             ["Left"] * 21      # (0, 5) transition
         )
         if not run_path(path_area1, check_warp=True):
