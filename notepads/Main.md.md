@@ -1,7 +1,7 @@
-## CURRENT STATUS & DASHBOARD (Turn 53251)
-- Location: Celadon City at (8, 17).
+## CURRENT STATUS & DASHBOARD (Turn 53253)
+- Location: Celadon City at (18, 12).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Walk Up 5 steps along Column 8 Avenue from (8, 17) to Row 12 Northern Highway at (8, 12), then East to Column 36 at (36, 12).
+- Active Objective: Walk East 9 steps along Row 12 Northern Highway to (27, 12), then bypass NPC via Row 27 to Column 36 at (36, 27).
 - Verified Master Topography:
   - Column 8 Avenue: 100% open Northbound street at x=8 connecting Row 26 (8, 26) straight North to Row 12 Northern Highway at (8, 12).
   - Column 36 Gap: Tree gap at (36, 28) connects Northern Highway to Row 30 South Street at (36, 30).
