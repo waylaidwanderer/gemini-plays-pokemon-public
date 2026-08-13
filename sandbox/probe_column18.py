@@ -1,4 +1,4 @@
-# Script to probe Columns 2 to 11 on Row 21 to find if any are open going DOWN.
+# Script to test walking UP Column 8 or Column 9 from Row 32 to Row 28 and reach Pokemon Center.
 import time
 import sys
 import bridge
@@ -15,90 +15,96 @@ def walk_step(direction):
     bridge.press_buttons([direction, "sleep 250"])
     return get_pos()
 
-def test_descent_on_col(col):
-    print(f"\n--- Testing descent on Column {col} ---")
-    pos = get_pos()
-    current_x = pos[0]
-    
-    # Move horizontally to the target column on Row 21
-    if current_x < col:
-        print(f"Moving Right to Column {col}...")
-        for _ in range(col - current_x):
-            walk_step("Right")
-    elif current_x > col:
-        print(f"Moving Left to Column {col}...")
-        for _ in range(current_x - col):
-            walk_step("Left")
-            
-    pos = get_pos()
-    print(f"At {pos} on Row 21")
-    if pos[0] != col:
-        print(f"Failed to reach Column {col} on Row 21")
-        return False
-        
-    # Attempt to walk Down (first turns us, second steps)
-    print("Attempting to walk Down...")
-    pos_before = get_pos()
-    walk_step("Down") # Turn Down
-    pos_after = walk_step("Down") # Step Down
-    
-    if pos_after[1] > pos_before[1]:
-        print(f"SUCCESS! Column {col} is open to Row {pos_after[1]}!")
-        # Continue descending to Row 28
-        current_y = pos_after[1]
-        blocked = False
-        while current_y < 28:
-            pos_before = get_pos()
-            pos = walk_step("Down")
-            print(f"Down to: {pos}")
-            if pos == pos_before:
-                print(f"Blocked at Row {pos_before[1]}!")
-                blocked = True
-                break
-            current_y = pos[1]
-            
-        if not blocked:
-            print("Successfully descended to Row 28! Walking to Pokemon Center...")
-            # Walk to Column 19
-            pos = get_pos()
-            steps_right = 19 - pos[0]
-            if steps_right > 0:
-                for _ in range(steps_right):
-                    walk_step("Right")
-            elif steps_right < 0:
-                for _ in range(-steps_right):
-                    walk_step("Left")
-            # Enter
-            print("Entering Pokemon Center...")
-            walk_step("Up")
-            time.sleep(1.0)
-            print(f"Inside? Coords: {get_pos()}")
-            return True
-            
-    # If blocked, walk back UP to Row 21
-    pos = get_pos()
-    current_y = pos[1]
-    if current_y > 21:
-        print("Walking back Up to Row 21...")
-        for _ in range(current_y - 21):
-            walk_step("Up")
-    return False
-
 def main():
-    print("=== PROBING COLUMNS 2-11 FROM ROW 21 ===")
+    print("=== TESTING UPWARD WALK ON COLUMNS 8 & 9 ===")
     pos = get_pos()
     print(f"Starting at {pos}")
     if pos is None:
         return
         
-    # We are at (17, 21)
-    # Test Columns 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
-    for col in [2, 3, 4, 5, 6, 7, 8, 9, 10, 11]:
-        if test_descent_on_col(col):
-            print("Successfully entered Pokemon Center!")
-            return
-            
-    print("All Columns 2-11 are blocked. Script finished.")
+    # We are at (11, 21)
+    # Step 1: Walk Left to Column 1 Row 21
+    print("Walking Left to Column 1...")
+    for _ in range(10):
+        walk_step("Left")
+    pos = get_pos()
+    print(f"At {pos}")
+    if pos != (1, 21):
+        print("Failed to reach (1, 21)")
+        return
+        
+    # Step 2: Walk Down Column 1 to Row 32
+    print("Walking Down Column 1 to Row 32...")
+    for _ in range(11):
+        walk_step("Down")
+    pos = get_pos()
+    print(f"At {pos}")
+    if pos != (1, 32):
+        print("Failed to reach (1, 32)")
+        return
+        
+    # Step 3: Walk Right to Column 8 Row 32
+    print("Walking Right to Column 8...")
+    for _ in range(7):
+        walk_step("Right")
+    pos = get_pos()
+    print(f"At {pos}")
+    if pos != (8, 32):
+        print("Failed to reach (8, 32)")
+        return
+        
+    # Step 4: Try walking UP Column 8 (first turns, second steps)
+    print("Trying Up on Column 8...")
+    walk_step("Up") # Turn Up
+    pos = walk_step("Up") # Step Up
+    print(f"Pos after Up on Col 8: {pos}")
+    
+    if pos == (8, 31):
+        print("SUCCESS on Column 8! Walking to Pokemon Center...")
+        # Walk Up to Row 28 (3 more steps)
+        for _ in range(3):
+            walk_step("Up")
+        # Walk Right to Column 19 (11 steps)
+        for _ in range(11):
+            walk_step("Right")
+        # Enter
+        print("Entering Pokemon Center...")
+        walk_step("Up")
+        time.sleep(1.0)
+        print(f"Inside? Coords: {get_pos()}")
+        return
+        
+    # Step 5: Try Column 9
+    print("Walking to Column 9 on Row 32...")
+    walk_step("Down") # Turn Down (in case we turned Up)
+    walk_step("Right") # Step Right to Column 9
+    pos = get_pos()
+    print(f"At {pos}")
+    if pos != (9, 32):
+        print("Failed to reach (9, 32)")
+        return
+        
+    print("Trying Up on Column 9...")
+    walk_step("Up") # Turn Up
+    pos = walk_step("Up") # Step Up
+    print(f"Pos after Up on Col 9: {pos}")
+    
+    if pos == (9, 31):
+        print("SUCCESS on Column 9! Walking to Pokemon Center...")
+        # Walk Up to Row 28 (3 more steps)
+        for _ in range(3):
+            walk_step("Up")
+        # Walk Right to Column 19 (10 steps)
+        for _ in range(10):
+            walk_step("Right")
+        # Enter
+        print("Entering Pokemon Center...")
+        walk_step("Up")
+        time.sleep(1.0)
+        print(f"Inside? Coords: {get_pos()}")
+        return
+        
+    print("Both Columns 8 and 9 are blocked going UP. Script finished.")
 
 if __name__ == "__main__":
     main()
