@@ -1,4 +1,4 @@
-# Robust script to walk to the PC using a detoured path to avoid the NPC and plants, then open ACE's PC and withdraw.
+# Smart detoured script that dynamically waits/paces if the NPC is blocking (7, 5), then reaches the PC.
 import time
 import sys
 import bridge
@@ -51,40 +51,51 @@ def walk_to(target_x, target_y):
             
     return True
 
+def is_npc_blocking():
+    # If we are at (5, 5) and try to walk to (7, 5), let's see if we get stuck or if we can test it.
+    # Actually, we can just try to walk to (9, 5).
+    # If we get stuck, we walk back to (5, 5), pace to (5, 6) and try again.
+    pass
+
 def main():
-    print("=== NAVIGATING TO PC AND OPENING ACE'S STORAGE ===")
+    print("=== SMART DYNAMIC PATHING TO PC ===")
     pos = get_pos()
     print(f"Starting at {pos}")
     if pos is None:
         return
         
     # We are at (5, 6)
-    
-    # Waypoint 1: Walk to (5, 5)
+    # Step 1: Walk to (5, 5)
     if not walk_to(5, 5):
         return
         
-    # Waypoint 2: Walk to (9, 5)
-    if not walk_to(9, 5):
+    # We want to walk to (9, 5). If we get stuck because of NPC at (7, 5),
+    # we will walk back to (5, 5), walk to (5, 6), and repeat to let the NPC wander.
+    attempts = 0
+    while attempts < 15:
+        print(f"Attempt {attempts+1} to reach (9, 5)...")
+        if walk_to(9, 5):
+            print("Successfully bypassed (7, 5)!")
+            break
+        else:
+            # We got stuck! Walk back to (5, 5) and pace to (5, 6) to burn time
+            print("Path to (9, 5) is blocked. Pacing to let NPC move...")
+            walk_to(5, 5)
+            walk_to(5, 6)
+            walk_to(5, 5)
+            attempts += 1
+            time.sleep(1.0)
+            
+    if attempts >= 15:
+        print("Failed to bypass NPC after 15 attempts.")
         return
         
-    # Waypoint 3: Walk to (9, 6)
-    if not walk_to(9, 6):
-        return
-        
-    # Waypoint 4: Walk to (11, 6)
-    if not walk_to(11, 6):
-        return
-        
-    # Waypoint 5: Walk to (11, 5)
-    if not walk_to(11, 5):
-        return
-        
-    # Waypoint 6: Walk to (13, 5)
+    # Once we are at (9, 5), Koga's plants are behind us, and NPC is behind us or to the left!
+    # Let's walk to (13, 5)
     if not walk_to(13, 5):
         return
         
-    # Waypoint 7: Walk to (13, 4)
+    # Walk to (13, 4)
     if not walk_to(13, 4):
         return
         
