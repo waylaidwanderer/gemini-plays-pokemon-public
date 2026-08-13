@@ -1,4 +1,4 @@
-# Script to continue the Safari Zone run from current position (20, 6) to the Gold Teeth in Area 3 (West).
+# Script to continue the Safari Zone run to retrieve the Gold Teeth, with dynamic starting positions.
 import time
 import sys
 import bridge
@@ -83,15 +83,14 @@ def main():
         if pos is None:
             return
             
-    # Phase 2: From (20, 6) in Area 1 (East) to Area 2 (North)
-    if pos[0] >= 15 and pos[1] <= 10:
+    # Phase 2: From (10, 3) or similar in Area 1 (East) to Area 2 (North)
+    if pos[1] == 3 and pos[0] >= 1 and pos[0] <= 20:
         print("=== Phase 2: Area 1 (East) to Area 2 (North) ===")
-        # Walk Up to (20, 5), then Left to (0, 5) transition
+        left_steps = pos[0] - 7
         path_area1_rem = (
-            ["Up"] * 2 +       # to (20, 3)
-            ["Left"] * 13 +    # to (7, 3)
-            ["Down"] * 2 +     # to (7, 5)
-            ["Left"] * 8       # to (0, 5) transition
+            ["Left"] * left_steps + # to (7, 3)
+            ["Down"] * 2 +          # to (7, 5)
+            ["Left"] * 8            # to (0, 5) transition
         )
         if not run_path(path_area1_rem, check_warp=True):
             return
