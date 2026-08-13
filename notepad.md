@@ -950,12 +950,11 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 - **Row 31 Walkability:** Row 31 is NOT a solid horizontal ledge on Columns 1-9. It is fully walkable going UP (and Down). It is merely a decorative border tile of the path, not an impassable cliff ledge.
 - **Path Around the Pokémon Center (Corrected):**
   - The Pokémon Center is located at columns 18-21, rows 22-27 with the entrance door at `(19, 27)`.
-  - The hypothesized route via Column 1 and Row 32 is BLOCKED because the Slowpoke pen on Row 32 (Columns 10-14) is impassable.
-  - **Actual Verified Path to Pokémon Center from North:**
-    - From the northern zoo/path area, walk to Column 24 (or Column 22/23 corridor) and walk DOWN to Row 21.
-    - From `(24, 21)`, walk DOWN Column 24 to `(24, 28)`. Column 24 is completely open and free of fence blockages down to Row 28.
-    - From `(24, 28)`, walk LEFT horizontally along Row 28 to `(19, 28)`.
-    - Walk UP from `(19, 28)` to `(19, 27)` to enter the Pokémon Center.
+  - The hypothesized route via Column 1 and Row 32 is BLOCKED because the Slowpoke pen on Row 32 (Columns 10-14) is impassable.  - **Actual Verified Path to Pokémon Center from North:**
+    - Walk Left to Column 1, and walk DOWN Column 1 to Row 32 (bypassing the solid Column 2 vertical wall/fence).
+    - Walk Right along Row 32 to Column 8.
+    - Walk UP Column 8 through the walkable ledge gap at Column 8 Row 31/32 to Row 28.
+    - Walk Right along Row 28 to Column 19, and walk UP to `(19, 27)` to enter the Pokémon Center.
 
 ## Verified Physical Collisions
 - Verified properties:
