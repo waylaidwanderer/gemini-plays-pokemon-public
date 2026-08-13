@@ -1,4 +1,4 @@
-# Ultimate, correct, complete script to retrieve the Gold Teeth from (26, 0) in Area 3 (West)
+# Complete robust script to retrieve the Gold Teeth using the plateau path from (2, 9)
 import time
 import sys
 import bridge
@@ -80,7 +80,7 @@ def run_path(path, check_warp=False):
     return True
 
 def main():
-    print("=== THE ULTIMATE GOLDEN TEETH RETRIEVAL SCRIPT ===")
+    print("=== THE ULTIMATE GOLDEN TEETH PLATEAU RETRIEVAL SCRIPT ===")
     
     pos = get_pos()
     print(f"Current Position: {pos}")
@@ -90,49 +90,13 @@ def main():
         if pos is None:
             return
 
-    # Step 1: Walk to transition to Area 2 (North) via Column 26
-    if pos[1] >= 1 and pos[0] >= 15:
-        print("=== Step 1: Walking to Area 2 (North) Transition ===")
-        # We are at (26, 1) or similar.
-        path_to_area2 = (
-            ["Up"] * 2         # to (26, 0) -> transition to Area 2 (North) at (8, 35)
-        )
-        if not run_path(path_to_area2, check_warp=True):
-            return
-            
-        time.sleep(1.0)
-        pos = get_pos()
-        print("Transitioned back to Area 2 (North):", pos)
-
-    # Step 2: Navigate Area 3 (West) across the plateau to the west ground level
-    pos = get_pos()
-    if pos is not None and pos[0] >= 15 and pos[1] <= 15:
-        print("=== Step 2: Navigating Area 3 (West) to West Ground Level ===")
-        # Walk around the tree barrier at (25, 0) and (25, 1)
-        path_across_plateau = (
-            ["Down"] * 2 +     # to (26, 2)
-            ["Left"] * 1 +     # to (25, 2)
-            ["Down"] * 16 +    # to (25, 18)
-            ["Left"] * 4 +     # to (21, 18)
-            ["Up"] * 2 +       # to (21, 16) (stairs onto plateau)
-            ["Left"] * 15 +    # to (6, 16) (across plateau)
-            ["Down"] * 4 +     # to (6, 20) (stairs off plateau)
-            ["Left"] * 5       # to (1, 20)
-        )
-        if not run_path(path_across_plateau):
-            return
-        pos = get_pos()
-        print("Arrived on West Ground Level:", pos)
-
-    # Step 3: Run the verified zig-zag path to warp transition
-    pos = get_pos()
-    if pos is not None and pos[0] < 5 and pos[1] >= 15:
-        print("=== Step 3: Zig-zagging to Warp Transition ===")
+    # Step 3: Run the verified path from (2, 9) to warp transition
+    if pos[1] == 9 and pos[0] == 2:
+        print("=== Step 3: Navigating to Warp Transition via Row 8 Gap ===")
         path_to_warp = (
-            ["Up"] * 2 +       # to (1, 18)
-            ["Right"] * 2 +    # to (3, 18) (zig)
-            ["Up"] * 5 +       # to (3, 13) (climb onto Row 13 bridge!)
-            ["Left"] * 3       # to (0, 13) warp transition
+            ["Up"] * 1 +       # to (2, 8)
+            ["Left"] * 2 +     # to (0, 8) (going through Row 8 gap at 1, 8)
+            ["Down"] * 5       # transition to Center (East Compartment) at (0, 13)
         )
         if not run_path(path_to_warp, check_warp=True):
             return
