@@ -748,7 +748,7 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 53614)
+## CURRENT STATUS & DASHBOARD (Turn 53622)
 - Location: Celadon Game Corner at (5, 2).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
 - Secondary Goal: Reach Rocket Grunt & Poster Switch at (17, 1) on North Wall via Row 3 cross-aisle and Column 9 aisle.
