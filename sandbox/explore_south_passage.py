@@ -47,8 +47,8 @@ def walk_path(directions):
                 
         if new_pos == pos:
             # We didn't move. Could be a battle transition delay, or a bump.
-            print("Position did not change. Waiting 1.0s to check if battle is starting...")
-            time.sleep(1.0)
+            print("Position did not change. Waiting 3.0s to check if battle is starting...")
+            time.sleep(3.0)
             new_pos = get_pos()
             if new_pos is None:
                 handle_battle()
