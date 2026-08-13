@@ -965,6 +965,10 @@
 - Tile (17, 14): One-way ledge hopping South onto Row 16 at (17, 16). Stay on Row 12 (y=12) to bypass.
 - Tile (12, 14): One-way blue slope hopping South from Row 12 onto Row 16. Ascend Column 9 to Row 8 (y=8) to stay above all slopes.
 - Celadon Game Corner Main Doorway Verified (Turn 51134): Located at Celadon City (17, 13). Approached via Row 14 pavement: (15, 14) -> (16, 14) -> (17, 14) -> Up into door (17, 13). Row 12 at x>=16 is solid building window/wall.
+### Column 19 Barrier & Roof Topography Audit (Turn 53071)
+- Column 19 (x=19, y=5..11): Continuous vertical wall of trees, statues, and blue canopy slants blocking Eastward traversal across x=19 on Northern Highway.
+- Blue roof canopies at (12, 15), (18, 25), (33, 25), and (18, 10) are SOLID BUILDING ROOF EDGES / CANOPIES (NOT open staircases).
+- West-East Traversal: West Celadon (x<=18) connects to East Celadon (x>=36) via Route 7 / Saffron West Gatehouse / Saffron Row 7 gap (17, 7) / Saffron East Gatehouse / Route 7 to East Celadon (49, 11).
 
 <hr>
 
