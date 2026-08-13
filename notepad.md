@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 53253)
-- Location: Celadon City at (18, 12).
+## CURRENT STATUS & DASHBOARD (Turn 53254)
+- Location: Celadon City at (27, 12).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Walk East 9 steps along Row 12 Northern Highway to (27, 12), then bypass NPC via Row 27 to Column 36 at (36, 27).
+- Active Objective: Step Down 1 to (27, 13) and Right 4 steps along Row 13 grass to (31, 13) to bypass Green Shirt NPC at (28, 12).
 - Verified Master Topography:
   - Column 8 Avenue: 100% open Northbound street at x=8 connecting Row 26 (8, 26) straight North to Row 12 Northern Highway at (8, 12).
   - Column 36 Gap: Tree gap at (36, 28) connects Northern Highway to Row 30 South Street at (36, 30).
@@ -752,10 +752,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 53254)
-- Location: Celadon City at (27, 12).
+## CURRENT STATUS & DASHBOARD (Turn 53255)
+- Location: Celadon City at (31, 13).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Step Down 1 to (27, 13) and Right 4 steps along Row 13 grass to (31, 13) to bypass Green Shirt NPC at (28, 12).
+- Active Objective: Walk Left 8 steps along Row 13 grass to Column 23 at (23, 13), Down 5 to hop ledge (23, 17) onto Row 18 at (23, 18), Left 3 to Column 20 at (20, 18), and Down to Game Corner Plaza warp at (20, 36).
 - Verified Master Topography:
   - Column 8 Avenue: 100% open Northbound street at x=8 connecting Row 26 (8, 26) straight North to Row 12 Northern Highway at (8, 12).
   - Column 36 Gap: Tree gap at (36, 28) connects Northern Highway to Row 30 South Street at (36, 30).
