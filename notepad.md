@@ -1182,6 +1182,9 @@ Systematically probe every potential building doorway and alleyway warp in South
 ### North Wall Corridor & Column 0 Topography (Turn 53522)
 - Column 0 (x=0, y=2..9) is separated from Casino carpet floor (x=1) by a continuous solid wall divider.
 - Open Passage: Row 1 (y=1) is the North Wall Corridor connecting Column 0 at (0, 1) East across (1, 1), (2, 1), (3, 1), (4, 1) to East Casino Floor and poster switch at (17, 1).
+### Sub-room vs Main Casino Floor Correction (Turn 53525)
+- Door at Celadon City (30, 19) enters the West Gambler Sub-room ONLY (Cols 0..3, Rows 0..13) bounded by solid walls on x=0 and x=3. Exit mat is at (4, 13).
+- TRUE Main Casino Floor (with Rocket Grunt & Poster Switch at 17, 1) is entered strictly via Celadon City Door at (17, 13) [approached via Celadon City Row 20 street (17, 20) -> North up Column 17 highway (17, 13)].
 
 <hr>
 
