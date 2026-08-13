@@ -1,13 +1,9 @@
-# Complete robust script to walk from current position (24, 31) to Fuchsia Pokemon Center (19, 27) and enter it.
+# Complete robust script to walk from current position (24, 31) to Fuchsia Pokemon Center (19, 27) via the Western Route.
 import time
 import sys
 import bridge
 
-# Set stdout to use utf-8
 sys.stdout.reconfigure(encoding='utf-8')
-
-def walk_step(direction):
-    bridge.press_buttons([direction, "sleep 250"])
 
 def get_pos():
     pos = bridge.get_coordinates()
@@ -15,53 +11,60 @@ def get_pos():
         return None
     return pos[0], pos[1]
 
-def navigate():
-    print("Starting navigation to Fuchsia Pokemon Center...")
-    
-    # We are at (24, 31)
+def walk_step(direction):
+    bridge.press_buttons([direction, "sleep 250"])
+    return get_pos()
+
+def main():
+    print("=== WESTERN ROUTE TO FUCHSIA POKEMON CENTER ===")
     pos = get_pos()
-    print(f"Current position: {pos}")
+    print(f"Starting at {pos}")
     if pos is None:
         return
         
-    # Step 1: Walk UP to (24, 21) (10 steps)
+    # We are at (24, 31)
+    # Step 1: Walk UP to Row 21
     print("Step 1: Walking Up to Row 21...")
-    for _ in range(10):
-        walk_step("Up")
-    time.sleep(0.5)
-    print(f"Position: {get_pos()}")
-    
-    # Step 2: Walk LEFT to (23, 21) (1 step)
-    print("Step 2: Walking Left to Column 23...")
-    walk_step("Left")
-    time.sleep(0.5)
-    print(f"Position: {get_pos()}")
-    
-    # Step 3: Walk DOWN to jump over the ledge on Column 23 Row 22 to Row 23 (1 step)
-    print("Step 3: Jumping down the ledge at (23, 22)...")
-    walk_step("Down")
-    time.sleep(0.5)
-    print(f"Position: {get_pos()}")
-    
-    # Step 4: Walk DOWN Column 23 to Row 28 (5 steps)
-    print("Step 4: Walking Down Column 23 to Row 28...")
-    for _ in range(5):
-        walk_step("Down")
-    time.sleep(0.5)
-    print(f"Position: {get_pos()}")
-    
-    # Step 5: Walk LEFT to Column 19 Row 28 (4 steps)
-    print("Step 5: Walking Left Row 28 to Column 19...")
-    for _ in range(4):
-        walk_step("Left")
-    time.sleep(0.5)
-    print(f"Position: {get_pos()}")
-    
-    # Step 6: Walk UP to (19, 27) (1 step) to enter
-    print("Step 6: Entering Pokemon Center...")
-    walk_step("Up")
-    time.sleep(1.5)
+    for i in range(10):
+        pos = walk_step("Up")
+        print(f"Up {i+1}: {pos}")
+        
+    # Step 2: Walk LEFT to Column 1 on Row 21
+    print("Step 2: Walking Left to Column 1...")
+    for i in range(23):
+        pos = walk_step("Left")
+        print(f"Left {i+1}: {pos}")
+        
+    # Step 3: Walk DOWN Column 1 to Row 34
+    print("Step 3: Walking Down Column 1 to Row 34...")
+    for i in range(13):
+        pos = walk_step("Down")
+        print(f"Down {i+1}: {pos}")
+        
+    # Step 4: Walk RIGHT to Column 16 on Row 34
+    print("Step 4: Walking Right to Column 16...")
+    for i in range(15):
+        pos = walk_step("Right")
+        print(f"Right {i+1}: {pos}")
+        
+    # Step 5: Walk UP Column 16 to Row 28
+    print("Step 5: Walking Up Column 16 to Row 28...")
+    for i in range(6):
+        pos = walk_step("Up")
+        print(f"Up {i+1}: {pos}")
+        
+    # Step 6: Walk RIGHT to Column 19 on Row 28
+    print("Step 6: Walking Right to Column 19...")
+    for i in range(3):
+        pos = walk_step("Right")
+        print(f"Right {i+1}: {pos}")
+        
+    # Step 7: Enter Pokemon Center
+    print("Step 7: Entering Pokemon Center...")
+    pos = walk_step("Up")
+    print(f"Final Coords: {pos}")
+    time.sleep(1.0)
     print(f"Inside? Coords: {get_pos()}")
 
 if __name__ == "__main__":
-    navigate()
+    main()
