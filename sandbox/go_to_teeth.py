@@ -1,4 +1,4 @@
-# Updated script to retrieve the Gold Teeth from (26, 1) inside Area 3 (West)
+# Complete robust script to retrieve the Gold Teeth using the plateau path from (6, 31) in Area 2 (North)
 import time
 import sys
 import bridge
@@ -80,7 +80,7 @@ def run_path(path, check_warp=False):
     return True
 
 def main():
-    print("=== THE ULTIMATE GOLDEN TEETH RETRIEVAL SCRIPT ===")
+    print("=== THE ULTIMATE GOLDEN TEETH PLATEAU RETRIEVAL SCRIPT ===")
     
     pos = get_pos()
     print(f"Current Position: {pos}")
@@ -90,42 +90,47 @@ def main():
         if pos is None:
             return
 
-    # Step 1: Walk to transition to Area 2 (North) via Column 26
-    if pos[1] >= 1 and pos[0] >= 15:
-        print("=== Step 1: Walking to Area 2 (North) Transition ===")
-        # We are at (26, 1) or similar.
-        path_to_area2 = (
-            ["Up"] * 2         # to (26, 0) -> transition to Area 2 (North) at (8, 35)
+    # Step 1: Walk from (6, 31) to transition to Area 3 (West) at (26, 0)
+    if pos[1] >= 30 and pos[0] >= 5 and pos[0] <= 10:
+        print("=== Step 1: Walking to Area 3 (West) Transition ===")
+        # Walk to Column 8, down to Row 35, and down to transition
+        right_steps = 8 - pos[0]
+        path_to_area3 = (
+            ["Right"] * right_steps +
+            ["Down"] * 4 +     # to (8, 35)
+            ["Down"] * 1       # transition to Area 3 (West) at (26, 0)
         )
-        if not run_path(path_to_area2, check_warp=True):
+        if not run_path(path_to_area3, check_warp=True):
             return
             
         time.sleep(1.0)
         pos = get_pos()
-        print("Transitioned back to Area 2 (North):", pos)
+        print("Transitioned back to Area 3 (West):", pos)
 
-    # Step 2: Navigate Area 2 (North) to southwest transition at (4, 36)
+    # Step 2: Navigate Area 3 (West) across the plateau to the west ground level
     pos = get_pos()
-    if pos is not None and pos[1] >= 30 and pos[0] >= 5:
-        print("=== Step 2: Navigating Area 2 (North) to Southwest Transition ===")
-        path_to_sw = (
-            ["Up"] * 4 +       # to (8, 31)
-            ["Left"] * 4 +     # to (4, 31)
-            ["Down"] * 5       # transition to Area 3 (West) northwest compartment
+    if pos is not None and pos[0] >= 15 and pos[1] <= 15:
+        print("=== Step 2: Navigating Area 3 (West) to West Ground Level ===")
+        # Assuming we are at (26, 0)
+        path_across_plateau = (
+            ["Left"] * 1 +     # to (25, 0)
+            ["Down"] * 18 +    # to (25, 18)
+            ["Left"] * 4 +     # to (21, 18)
+            ["Up"] * 2 +       # to (21, 16) (stairs onto plateau)
+            ["Left"] * 15 +    # to (6, 16) (across plateau)
+            ["Down"] * 4 +     # to (6, 20) (stairs off plateau)
+            ["Left"] * 5       # to (1, 20)
         )
-        if not run_path(path_to_sw, check_warp=True):
+        if not run_path(path_across_plateau):
             return
-            
-        time.sleep(1.0)
         pos = get_pos()
-        print("Emerged in Area 3 (West) Northwest Compartment:", pos)
+        print("Arrived on West Ground Level:", pos)
 
-    # Step 3: Run the verified zig-zag path from (4, 20) to (0, 13) warp
+    # Step 3: Run the verified zig-zag path to warp transition
     pos = get_pos()
     if pos is not None and pos[0] < 5 and pos[1] >= 15:
         print("=== Step 3: Zig-zagging to Warp Transition ===")
         path_to_warp = (
-            ["Left"] * 3 +     # to (1, 20)
             ["Up"] * 2 +       # to (1, 18)
             ["Right"] * 2 +    # to (3, 18) (zig)
             ["Up"] * 5 +       # to (3, 13) (climb onto Row 13 bridge!)
