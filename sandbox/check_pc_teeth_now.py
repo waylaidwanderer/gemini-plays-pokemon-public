@@ -1,4 +1,4 @@
-# Script to recover from Bill's PC and open Ace's PC item withdrawal menu
+# Script to select ACE's PC and open Withdraw Item menu
 import time
 import sys
 import bridge
@@ -6,28 +6,21 @@ import bridge
 sys.stdout.reconfigure(encoding='utf-8')
 
 def main():
-    print("=== RECOVERING FROM BILL'S PC TO ACE'S PC ===")
+    print("=== PC AUDIT: SELECTING ACE'S PC ===")
     
-    # Dismiss "There are no Pokemon here!" popup
-    bridge.press_buttons(["B", "sleep 800"])
+    # 1. Select ACE's PC (since we are already pointing at it, and the 'Accessed Item Storage System' text is open)
+    # We must press A to advance dialogue first!
+    # Wait, let's look at the screen: "Accessed Item Storage System." is at the bottom with a black arrow.
+    # So we must press A to advance the text first, then A to select ACE's PC, then A to select WITHDRAW ITEM!
+    # Let's do:
+    # A (advance dialogue) -> sleep 800
+    # A (select ACE's PC) -> sleep 800
+    # A (select WITHDRAW ITEM) -> sleep 800
+    bridge.press_buttons(["A", "sleep 800"])
+    bridge.press_buttons(["A", "sleep 800"])
+    bridge.press_buttons(["A", "sleep 800"])
     
-    # Exit Bill's PC (either by pressing B or selecting SEE YA!)
-    bridge.press_buttons(["B", "sleep 1200"])
-    
-    # We should be back at the main PC menu:
-    # BILL's PC
-    # ACE's PC
-    # PROF. OAK's PC
-    # LOG OFF
-    
-    # Move down to ACE's PC and select it
-    bridge.press_buttons(["Down", "sleep 200"])
-    bridge.press_buttons(["A", "sleep 1000"])
-    
-    # Select WITHDRAW ITEM
-    bridge.press_buttons(["A", "sleep 1000"])
-    
-    print("Ace's PC item withdraw list should now be open!")
+    print("Withdraw list should be open!")
 
 if __name__ == "__main__":
     main()
