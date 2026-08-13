@@ -77,9 +77,9 @@ def run_path(path):
 def main():
     print("=== FINAL STAGE: RETRIEVING GOLD TEETH FROM (3, 14) ===")
     
-    # Path from (3, 14) to (19, 24)
+    # Path from (3, 18) to (19, 24)
     path = (
-        ["Down"] * 6 +     # to (3, 20)
+        ["Down"] * 2 +     # to (3, 20)
         ["Right"] * 3 +    # to (6, 20)
         ["Up"] * 4 +       # to (6, 16) (stairs onto plateau)
         ["Right"] * 15 +   # to (21, 16) (across plateau)
