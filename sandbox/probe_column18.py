@@ -1,4 +1,4 @@
-# Script to probe descending Columns 12 to 17 from Row 21 to Row 28 to find the path to the Pokemon Center.
+# Script to probe Columns 2 to 11 on Row 21 to find if any are open going DOWN.
 import time
 import sys
 import bridge
@@ -36,8 +36,7 @@ def test_descent_on_col(col):
         print(f"Failed to reach Column {col} on Row 21")
         return False
         
-    # Face Down and take a step Down.
-    # To handle the turn-in-place, we do walk_step twice or check coordinate change
+    # Attempt to walk Down (first turns us, second steps)
     print("Attempting to walk Down...")
     pos_before = get_pos()
     walk_step("Down") # Turn Down
@@ -86,39 +85,20 @@ def test_descent_on_col(col):
     return False
 
 def main():
-    print("=== PROBING CENTRAL COLUMNS FROM ROW 21 ===")
+    print("=== PROBING COLUMNS 2-11 FROM ROW 21 ===")
     pos = get_pos()
     print(f"Starting at {pos}")
     if pos is None:
         return
         
-    # We are at (6, 32)
-    # Walk Left to Column 1
-    print("Walking Left to Column 1...")
-    for _ in range(5):
-        walk_step("Left")
-    pos = get_pos()
-    print(f"At {pos}")
-    if pos != (1, 32):
-        print("Failed to reach (1, 32)")
-        return
-        
-    # Walk Up Column 1 to Row 21
-    print("Walking Up to Row 21...")
-    for i in range(11):
-        pos = walk_step("Up")
-        print(f"Up {i+1}: {pos}")
-    if pos != (1, 21):
-        print("Failed to reach (1, 21)")
-        return
-        
-    # Test Columns 12, 13, 14, 15, 16, 17
-    for col in [12, 13, 14, 15, 16, 17]:
+    # We are at (17, 21)
+    # Test Columns 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+    for col in [2, 3, 4, 5, 6, 7, 8, 9, 10, 11]:
         if test_descent_on_col(col):
             print("Successfully entered Pokemon Center!")
             return
             
-    print("All Columns 12-17 are blocked. Script finished.")
+    print("All Columns 2-11 are blocked. Script finished.")
 
 if __name__ == "__main__":
     main()
