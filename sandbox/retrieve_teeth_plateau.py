@@ -96,24 +96,34 @@ def main():
             return
 
     # Check if we are in Area 2 (North)
-    # We should be at (18, 31) or similar.
+    # We should be at (12, 28) or similar.
     if pos[1] >= 28 and pos[0] >= 10:
         print("=== Phase 3: Area 2 (North) to Area 3 (West) ===")
-        # Calculate steps to (22, 31)
-        right_steps = 22 - pos[0]
-        
-        path_area2 = (
-            ["Right"] * right_steps + # to (22, 31)
-            ["Up"] * 8 +               # to (22, 23)
-            ["Up"] * 1 +               # to (22, 22) (climb plateau)
-            ["Left"] * 6 +             # to (16, 22)
-            ["Down"] * 6 +             # to (16, 28) (descend plateau stairs to (16, 28))
-            ["Left"] * 4 +             # to (12, 28)
-            ["Down"] * 2 +             # to (12, 30) (bypass pond)
-            ["Left"] * 4 +             # to (8, 30)
-            ["Down"] * 5 +             # to (8, 35) through statue gap
-            ["Down"] * 2               # to transition at (8, 37)
-        )
+        if pos[0] >= 16:
+            # We are on the east side, must climb plateau
+            right_steps = 22 - pos[0]
+            path_area2 = (
+                ["Right"] * right_steps + # to (22, 31)
+                ["Up"] * 8 +               # to (22, 23)
+                ["Up"] * 1 +               # to (22, 22) (climb plateau)
+                ["Left"] * 6 +             # to (16, 22)
+                ["Down"] * 6 +             # to (16, 28) (descend plateau stairs to (16, 28))
+                ["Left"] * 4 +             # to (12, 28)
+                ["Down"] * 2 +             # to (12, 30) (bypass pond)
+                ["Left"] * 4 +             # to (8, 30)
+                ["Down"] * 5 +             # to (8, 35) through statue gap
+                ["Down"] * 2               # to transition at (8, 37)
+            )
+        else:
+            # We are on the west side, just walk to transition
+            down_steps = 30 - pos[1]
+            left_steps = pos[0] - 8
+            path_area2 = (
+                ["Down"] * down_steps +    # to (pos[0], 30)
+                ["Left"] * left_steps +    # to (8, 30)
+                ["Down"] * 5 +             # to (8, 35)
+                ["Down"] * 2               # to transition at (8, 37)
+            )
         if not run_path(path_area2, check_warp=True):
             return
         time.sleep(1.0)
