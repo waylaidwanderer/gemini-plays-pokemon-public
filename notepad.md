@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 53258)
-- Location: Celadon City at (20, 23).
+## CURRENT STATUS & DASHBOARD (Turn 53259)
+- Location: Celadon City at (23, 23).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Walk Right 4 to Column 24 at (24, 23), Down 4 to Row 27 at (24, 27), Right 12 to Column 36 at (36, 27), and Down 3 through tree gap (36, 28) to Row 30 South Street at (36, 30).
+- Active Objective: Walk Left 3 to (20, 23), Up 1 to (20, 22), Left 4 to Column 16 Avenue at (16, 22), then Down 4 to Row 26 Highway at (16, 26).
 - Verified Master Topography:
   - Column 8 Avenue: 100% open Northbound street at x=8 connecting Row 26 (8, 26) straight North to Row 12 Northern Highway at (8, 12).
   - Column 36 Gap: Tree gap at (36, 28) connects Northern Highway to Row 30 South Street at (36, 30).
@@ -752,10 +752,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 53259)
-- Location: Celadon City at (23, 23).
+## CURRENT STATUS & DASHBOARD (Turn 53260)
+- Location: Celadon City at (16, 22).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Walk Left 3 to (20, 23), Up 1 to (20, 22), Left 4 to Column 16 Avenue at (16, 22), then Down 4 to Row 26 Highway at (16, 26).
+- Active Objective: Walk Down 4 steps along Column 16 Avenue to Row 26 Highway at (16, 26), then East to Column 36 at (36, 26).
 - Verified Master Topography:
   - Column 8 Avenue: 100% open Northbound street at x=8 connecting Row 26 (8, 26) straight North to Row 12 Northern Highway at (8, 12).
   - Column 36 Gap: Tree gap at (36, 28) connects Northern Highway to Row 30 South Street at (36, 30).
