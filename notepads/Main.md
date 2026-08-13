@@ -1,12 +1,9 @@
-## CURRENT STATUS & DASHBOARD (Turn 52831)
-- Location: Celadon City at (34, 20).
+## CURRENT STATUS & DASHBOARD (Turn 52837)
+- Location: Celadon Game Corner (Casino Main Floor) at (4, 13).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Bypass Row 19 fence via Column 29 Avenue to reach Column 36 (East Celadon) and descend to Game Corner Plaza warp (20, 36).
+- Active Objective: Walk North along Column 4 central aisle to North Wall (4, 4), locate Rocket Grunt guarding poster switch, defeat Grunt, press A on poster to reveal secret staircase, and descend to Rocket Hideout B1F.
 - Verified Master Topography:
-  - Row 19 Fence (x=32..37): Continuous fence/border. Open gap is located at x<=29 (Column 29 Avenue).
-  - Column 35 (x=35, y=20..27): Double brown wooden barrels blocking Eastward crossing at y=20..27.
-  - Row 16 Highway: 100% open East-West passage across x=29..36 above barrels, connecting Column 29 Avenue to Column 36 Avenue.
-  - Column 36 Avenue: 100% open Southbound from Row 16 (36, 16) through tree gap (36, 28) to Row 30 South Street at (36, 30).
-  - Game Corner Plaza Warp: Tile (20, 36) warps into Game Corner Plaza. Door (17, 27) in plaza enters Celadon Game Corner floor at (3, 7).
-  - Inside Celadon Game Corner (3, 7): Secret staircase at (4, 4) leads down to Rocket Hideout B1F (5, 4).
-  - Single-step probing protocol active across all overworld movements.
+  - Main Casino Floor Entrance Mat: (4, 13) & (5, 13) [exits to Celadon City door 30, 19].
+  - Column 4 & 5 (x=4, x=5): 100% open central carpet aisle running North across y=12..1.
+  - Secret Poster Switch: Located on North Wall, guarded by Rocket Grunt. Defeating Grunt and pressing A on poster reveals secret staircase at (4, 4).
+  - Secret Staircase (4, 4): Leads directly down to Rocket Hideout B1F (5, 4).
