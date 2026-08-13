@@ -928,7 +928,7 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 
 ## Physical Layout & Exploration
 - **Regrowing Cut-able Bush (26, 13):** Crucial mechanic! This bush regrows immediately upon reloading the map or entering/exiting the Safari Zone. Always ensure TRUFFLE (Paras) is in the party to CUT it when navigating Column 26 down to row 14.
-- **Continuous House Roof Obstruction (Rows 22-23, Columns 12-23):** This massive horizontal roof completely blocks north-south traversal in the center-west of Fuchsia City. To go from north-middle to south-middle, you must walk left to Column 1, walk right to Column 24, or use the walkable ledge gap at Column 8 Row 31/32.
+- **Continuous House Roof Obstruction (Rows 22-23, Columns 12-23):** This massive horizontal roof completely blocks north-south traversal in the center-west of Fuchsia City. To go from north-middle to south-middle, you can walk Left to Column 1, walk Right to Column 24, or use the walkable ledge gaps at Column 8 Row 31/32 and Column 16 Row 31/32.
 - **Overworld Cut-able Bush (26, 13):** This bush blocks the path going north along the left side of the Zoo pens. It was successfully CUT on Turn 21624 using TRUFFLE (Paras), making the vertical path on Column 26 fully walkable.
 - The eastern part of Fuchsia City has a Zoo/Safari Zone area with walled pens (bordered by grey Rhydon statues).
 - Columns 18-22 on Rows 22-23 form the roof of a house.
