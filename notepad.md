@@ -748,11 +748,11 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 53491)
-- Location: Route 7 at (69, 15) [Wild Battle].
+## CURRENT STATUS & DASHBOARD (Turn 53501)
+- Location: Celadon City at (0, 19).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Secondary Goal: Return East to (89, 11) on Route 7 to enter Celadon City and access Main Casino.
-- Active Strategy: Flee wild battle, walk East along Row 15 to (77, 15), ascend through dirt gap at (77, 13) to Row 11, walk East to (89, 11) map warp into Celadon City.
+- Secondary Goal: Walk East along Row 18 street to Main Casino entrance at (30, 19).
+- Active Strategy: Walk Up 1 step to (0, 18), walk Right 30 steps along Row 18 to (30, 18), and step Down into Main Casino doorway at (30, 19).
 
 <hr>
 
