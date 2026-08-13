@@ -1,132 +1,130 @@
-import bridge
+# Robust script to navigate Fuchsia City from Pokemon Center (19, 28) to the Safari Zone Gatehouse.
+# It handles cutting the overworld bush at (26, 13) using TRUFFLE (Paras).
 import time
 import sys
+import bridge
 
 sys.stdout.reconfigure(encoding='utf-8')
 
 def get_pos():
-    for _ in range(4):
-        pos = bridge.get_coordinates()
-        if pos is not None:
-            return pos[0], pos[1]
-        bridge.press_buttons(["sleep 50"])
-    return None
-
-def walk_step_robust(direction):
-    pos = get_pos()
+    pos = bridge.get_coordinates()
     if pos is None:
         return None
-        
-    bridge.press_buttons([direction])
-    
-    for _ in range(5):
-        bridge.press_buttons(["sleep 100"])
-        new_pos = get_pos()
-        if new_pos is not None and new_pos != pos:
-            return new_pos
-            
-    print(f"Bumping/stuck at {pos} walking {direction}!")
-    return pos
+    return pos[0], pos[1]
 
-def run_path(path, check_warp=False):
-    idx = 0
+def walk_step(direction):
+    bridge.press_buttons([direction, "sleep 250"])
+    return get_pos()
+
+def walk_to(target_x, target_y):
+    print(f"Navigating to ({target_x}, {target_y})...")
     stuck_count = 0
-    while idx < len(path):
+    last_pos = None
+    
+    while True:
         pos = get_pos()
         if pos is None:
             time.sleep(0.5)
             continue
             
-        print(f"Step {idx}: At {pos}, walking {path[idx]}")
-        new_pos = walk_step_robust(path[idx])
-        
-        if new_pos is None:
-            time.sleep(0.5)
-            new_pos = get_pos()
-            if new_pos is None:
-                if check_warp:
-                    print("Transition occurred!")
-                    return True
-                continue
-                
-        if new_pos == pos:
+        if pos == (target_x, target_y):
+            print(f"Arrived at {pos}")
+            break
+            
+        if pos == last_pos:
             stuck_count += 1
-            if stuck_count > 3:
-                print(f"Blocked at {pos}! Exiting path.")
+            if stuck_count > 4:
+                print(f"Stuck at {pos} while trying to reach ({target_x}, {target_y})!")
                 return False
         else:
             stuck_count = 0
-            if check_warp:
-                dist = abs(new_pos[0] - pos[0]) + abs(new_pos[1] - pos[1])
-                if dist > 5:
-                    print(f"Transition occurred! New pos: {new_pos}")
-                    break
-            idx += 1
+            last_pos = pos
+            
+        curr_x, curr_y = pos
+        if curr_x < target_x:
+            walk_step("Right")
+        elif curr_x > target_x:
+            walk_step("Left")
+        elif curr_y < target_y:
+            walk_step("Down")
+        elif curr_y > target_y:
+            walk_step("Up")
+            
     return True
 
 def main():
-    print("=== NAVIGATING TO SAFARI ZONE GATEHOUSE ===")
-    
+    print("=== FUCHSIA CITY TO SAFARI ZONE GATEHOUSE ===")
     pos = get_pos()
-    print("Initial position:", pos)
+    print(f"Starting at {pos}")
     if pos is None:
         return
         
-    # We are at (19, 8). Let's go to (19, 9) first to avoid the NPC at (24, 8)
-    if pos == (19, 8):
-        print("Stepping Down to Row 9...")
-        if not run_path(["Down"]):
-            return
-            
-    pos = get_pos()
-    print("Position on Row 9:", pos)
-    
-    # Path to Column 37 along Row 9
-    if pos is not None and pos[1] == 9 and pos[0] < 37:
-        right_steps = ["Right"] * (37 - pos[0])
-        print(f"Walking Right {len(right_steps)} steps to Column 37...")
-        if not run_path(right_steps):
-            return
-            
-    pos = get_pos()
-    print("Position at Column 37:", pos)
-    
-    # Path to Row 2 along Column 37
-    if pos is not None and pos[0] == 37 and pos[1] > 2:
-        up_steps = ["Up"] * (pos[1] - 2)
-        print(f"Walking Up {len(up_steps)} steps to Row 2...")
-        if not run_path(up_steps):
-            return
-            
-    pos = get_pos()
-    print("Position at Row 2:", pos)
-    
-    # Path to Column 18 along Row 2
-    if pos is not None and pos[1] == 2 and pos[0] > 18:
-        left_steps = ["Left"] * (pos[0] - 18)
-        print(f"Walking Left {len(left_steps)} steps to Column 18...")
-        if not run_path(left_steps):
-            return
-            
-    pos = get_pos()
-    print("Position at (18, 2):", pos)
-    
-    # Walk Down to (18, 4) to align with Gatehouse entrance
-    if pos == (18, 2):
-        print("Walking Down to Row 4...")
-        if not run_path(["Down", "Down"]):
-            return
-            
-    pos = get_pos()
-    print("Position at (18, 4):", pos)
-    
-    # Walk Up to enter Gatehouse at (18, 3) (warp)
-    if pos == (18, 4):
-        print("Entering Gatehouse...")
-        run_path(["Up"], check_warp=True)
-        time.sleep(1.5)
+    # Step 1: Walk to (24, 28)
+    if not walk_to(24, 28):
+        return
         
-    print("Navigation script finished!")
+    # Step 2: Walk to (24, 21)
+    if not walk_to(24, 21):
+        return
+        
+    # Step 3: Walk to (22, 21)
+    if not walk_to(22, 21):
+        return
+        
+    # Step 4: Walk to (22, 14)
+    if not walk_to(22, 14):
+        return
+        
+    # Step 5: Walk to (26, 14)
+    if not walk_to(26, 14):
+        return
+        
+    # Face UP towards the bush at (26, 13)
+    print("Facing Up towards the bush at (26, 13)...")
+    walk_step("Up")
+    time.sleep(0.5)
+    
+    # Step 6: Cut the bush using TRUFFLE (Paras)
+    print("Using CUT...")
+    bridge.press_buttons(["Start", "sleep 1000"])
+    bridge.press_buttons(["Down", "sleep 300", "A", "sleep 1000"])  # PKMN
+    bridge.press_buttons(["Down", "sleep 300", "A", "sleep 1000"])  # TRUFFLE (Paras)
+    bridge.press_buttons(["A", "sleep 2000"])                       # CUT
+    bridge.press_buttons(["A", "sleep 1000"])                       # Advance text
+    bridge.press_buttons(["B", "sleep 500"])                        # Back out of menu if any left
+    
+    # Step 7: Continue walk up Column 26 to Row 9
+    if not walk_to(26, 9):
+        return
+        
+    # Step 8: Walk Left to (19, 9)
+    if not walk_to(19, 9):
+        return
+        
+    # Step 9: Walk Up to (19, 8)
+    if not walk_to(19, 8):
+        return
+        
+    # Step 10: Walk Right to (37, 8)
+    if not walk_to(37, 8):
+        return
+        
+    # Step 11: Walk Up to (37, 2)
+    if not walk_to(37, 2):
+        return
+        
+    # Step 12: Walk Left to (22, 2)
+    if not walk_to(22, 2):
+        return
+        
+    # Step 13: Walk Down to (22, 4)
+    if not walk_to(22, 4):
+        return
+        
+    # Step 14: Walk Up to enter Gatehouse at (22, 3)
+    print("Entering Gatehouse...")
+    bridge.press_buttons(["Up", "sleep 1000"])
+    print(f"Inside? Coordinates: {get_pos()}")
 
 if __name__ == "__main__":
     main()
