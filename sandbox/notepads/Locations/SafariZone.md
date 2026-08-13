@@ -63,6 +63,7 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - **Signpost at (24, 22):** Reads "AREA 3 EAST: CENTER AREA" (Turn 27655).
 
 ### 🔍 Verified Area 3 (West) Landmarks & Paths
+- **Gold Teeth:** Empirically verified to be located at `(19, 25)` on the southern ground level. The player can stand at `(19, 24)` facing Down to pick them up.
 - **Rest House 3:** Located on the western ground level. The verified entrance door (doormat) is at `(11, 11)`. Inside is a Hiker NPC who gives standard Hiker dialogue (Rest House 3 does NOT contain Surf).
 - **The Secret House:** Located in the isolated northwest ground section of Area 3 (West). The entrance door is at `(3, 8)`. The player can only reach this section by entering through the southwest ground-level transition of Area 2 (North) at `(4, 36)`. Inside the Secret House is the NPC who gives HM03 (Surf) at `(2, 7)`.
 - **Southwest Area:** Walked Column 3 from Row 20 up to Row 14 (`(3, 20)` to `(3, 14)`), proving `(3, 19)` and `(3, 18)` are walkable grass/trees with NO secret warp or door.
@@ -128,6 +129,7 @@ To reach Area 3 (West), the player **MUST** use the intended speedrun route acro
 **Safari Zone Center -> Area 1 (East) -> Area 2 (North) -> Area 3 (West)**.
 Any attempt to find a ground-level shortcut within Safari Zone Center is mathematically blocked by map collision.
 ### Verified Collisions & Landmarks in Area 3 (West) (Turns 32706 - 32738)
+- **Southern Edge Wall (Row 25):** Solid green shrubs/hedges block southward movement at `(29, 24)`, `(21, 25)`, `(20, 25)`, `(19, 25)` (Wait, (19, 25) is hypothesized to be the Gold Teeth item ball, which physically bumps when walked into!).
 - **Column 18 Shrub Barrier:** Solid green shrubs run vertically on column 18, rows 20-23, causing a bump when walking Left from `(19, 23)` to `(18, 23)`.
 - **Row 24 Shrub Barrier:** Solid green shrubs run horizontally on row 24, columns 17-29 (with a corridor on row 24 columns 18-21), blocking Left movement from `(18, 24)` to `(17, 24)`.
 - **Verified Collisions (Turns 32923 - 32936):**
@@ -164,20 +166,4 @@ We have empirically verified that Column 28 is 100% OPEN and walkable on Rows 12
   - Row 16 has solid green hedges on Columns 1, 2, 3, 4, 5.
   - This forms an interlocking hedge maze that completely prevents ground-level vertical passage from the Northwest Compartment of Center to the South/East Compartment.
 - **Pond & Rest House 1 in Center:** Completely block the middle-western ground level on Rows 10-15 across Columns 9-19.
-- **Center Compartment Wrapping:** The Northwest Compartment of Center is completely isolated from the South/East Compartment. Transitioning RIGHT from Area 3 (West) on Row 23/26 always warps the player into this isolated Northwest Compartment of Center. To enter the South/East Compartment, we must enter directly from the Gatehouse entrance at (15, 25).
-
-### 🧪 Newly Verified Physical Boundaries & Collisions (Turns 35858-35971)
-- **Column 5 Row 23 Solid Fence (Area 1 East):** Solid white horizontal wood fence bordering Row 23 from Column 5 onwards, completely blocking direct downward/horizontal movement on Row 23 and forcing a detour to Row 24.
-- **Column 23 Row 24 Cliff Face (Area 2 North):** Solid cliff face bordering the Eastern Southern Plateau stairs on the East, completely blocking rightward movement at Row 24.
-- **Column 15 Row 27 Cliff Wall (Area 2 North):** Solid cliff wall tile causing a bump when walking Up from `(15, 28)`.
-- **Column 5 Shrub Barrier (Area 2 North):** Continuous dark green hedge/shrub wall from Row 20 to Row 33, completely blocking direct ground-horizontal crossing.
-- **Row 34/35 Statue Barriers (Area 2 North):** Row 34 is blocked by statues across Columns 4-7 and Columns 10-11, with a walkable gap on Columns 8-9. Row 35 is blocked by statues at `(7, 35)` and `(10, 35)`.
-- **Row 4 Column 26 Ledge (Area 3 West):** Solid horizontal ledge at `(26, 4)` preventing direct ground-level downward passage from `(26, 3)`.
-
-### Newly Verified Physical Boundaries & Collisions (Turns 36253-36283)
-- **Column 11 Row 9 Water (Area 2 North):** Solid water tile on Row 9 Column 11, blocking direct horizontal passage on Row 9 (Turn 36253).
-- **Row 4 Column 11-15 Tree Wall (Area 2 North):** Solid pine tree wall running horizontally across Columns 11-15 on Row 4, blocking vertical passage (Turn 36260).
-- **Column 7 Vertical Corridor (Area 2 North):** Completely open and walkable vertical corridor on Column 7 from Row 2 to Row 10, connecting the northern ground to the southern ground (Turn 36277).
-- **Column 4 Row 14 Cliff face (Area 2 North):** Solid brown cliff face on Row 14 Column 4, blocking downward traversal on Column 4 (Turn 36282).
-- **Columns 0-3 Northwest Ground (Area 2 North):** Completely open and walkable grass area on Columns 0-3 from Row 13 to Row 35 (Turn 36282).
-- **Transition at Column 3 Row 36 (Area 2 North):** Transition on the bottom row of the Northwest compartment of Area 2 (North) warps the player directly to Area 3 (West) at `(21, 0)` (Turn 36283).
+- **Center Compartment Wrapping:** The Northwest Compartment of Center is completely isolated from the South/East Compartment. Transitioning RIGHT from Area 3 (West) on Row 23/26 always warps the player into this isolated Northwest Compartment of Center. To enter the South/East Compartment (containing the Warden's Gatehouse warp), we must enter directly from the Gatehouse entrance at (15, 25).
