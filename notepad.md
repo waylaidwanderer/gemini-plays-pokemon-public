@@ -751,14 +751,14 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 53349)
-- Location: Celadon Game Corner at (9, 1).
+## CURRENT STATUS & DASHBOARD (Turn 53352)
+- Location: Celadon Game Corner (West Gambler Sub-room) at (9, 12).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
 - Verified Master Topography:
-  - Column 10 Divider: Solid dark grey wall divider at x=10 spanning y=1..11 separating West and East Casino floors.
-  - Main Bottom Cross-Aisle: Located at Row 12 / Row 13 (y=12, 13) running East-West across x=0..17 below all slot machines and wall dividers.
-  - Column 17 East Avenue: Open North-South aisle at x=17 running from Row 12 (17, 12) North to Poster Switch at (17, 1).
-- Active Strategy: Walk Down 11 steps along Column 9 Avenue to (9, 12), Right 8 steps along Row 12 bottom cross-aisle to (17, 12), and Up 11 steps along Column 17 East Avenue to confront Rocket Grunt at (17, 1).
+  - West Gambler Sub-room (9, 12): Entered from door (30, 19). Enclosed by Column 10 solid wall at x=10.
+  - Main Casino Floor Entrance: Located in outdoor Celadon City at tile (30, 34) / (30, 35) [or via Plaza entrance (28, 35) -> door (17, 27)].
+  - Poster Switch: Located on North Wall of Main Casino Floor at (17, 1), guarded by Rocket Grunt.
+- Active Strategy: Exit West Sub-room via red exit mat at (5, 13) onto outdoor Celadon City (30, 20), walk South 14 steps along Column 30 to Main Casino door at (30, 34), and enter Main Casino Floor.
 
 <hr>
 
