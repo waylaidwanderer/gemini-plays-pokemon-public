@@ -1,7 +1,7 @@
-## CURRENT STATUS & DASHBOARD (Turn 52901)
-- Location: Celadon City at (34, 27).
+## CURRENT STATUS & DASHBOARD (Turn 52921)
+- Location: Celadon City at (8, 12).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Walk West along Row 27 Highway to Column 9 at (9, 27), North along Column 9 to Row 12 Northern Highway, East along Row 12 to Column 36 (36, 12), South down Column 36 through tree gap (36, 28) to Row 30 South Street at (36, 30), West along Row 30 to Column 20 (20, 30), and South into Game Corner Plaza warp at (20, 36).
+- Active Objective: Enter Northwest Building door at (9, 11) to exit back door onto Northern Highway (9, 9), walk East to Column 36 (36, 9), South to Row 30 (36, 30), West to (20, 30), and South to Game Corner Plaza warp at (20, 36).
 - Verified Master Topography:
   - Column 35 Barrels (y=20..27): Continuous barrel wall blocking Eastward crossing at y=20..27.
   - Row 19 Fence (x=32..37): Continuous fence/border. Open gap is located at x<=29 (Column 29 Avenue).
