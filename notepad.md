@@ -754,15 +754,17 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 52773)
-- Location: Celadon City at (9, 9).
+## CURRENT STATUS & DASHBOARD (Turn 52801)
+- Location: Northwest Building 1F at (6, 7).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Pass through Northwest Building (9, 11) -> (2, 0) onto Northern Highway (9, 9), walk East to Column 33 (33, 9), South down Column 33 to Row 30 (33, 30), West to Column 20 (20, 30), and South into Game Corner Plaza warp (20, 36).
+- Active Objective: Exit Northwest Building front door onto Celadon City (9, 12), walk East along Row 12 to Column 20 (20, 12), ascend Column 20 North to Row 9 (20, 9), walk East along Row 9 to Column 33 (33, 9), South down Column 33 to Row 30 (33, 30), West to Column 20 (20, 30), and South to Game Corner Plaza warp (20, 36).
 - Verified Master Topography:
-  - Northwest Building back door (2, 0) / (9, 11) connects directly to Northern Highway (9, 9).
-  - Row 9 Northern Highway is 100% open Eastbound across x=9..33 to Column 33.
-  - Column 33 is 100% open Southbound from Row 9 (33, 9) to Row 30 South Street at (33, 30).
-  - Game Corner Plaza door (17, 27) enters Celadon Game Corner floor at (3, 7).
+  - Northwest Building 1F doors: Back door (2, 0) / (9, 11) connects to Northern Highway (9, 9). Front door mats (2, 7) & (3, 7) exit to Row 12 Highway at (9, 12).
+  - Column 19 (x=19) Tree Wall: Row 9 at (19, 9) is blocked by a tree. Row 12 at (19, 12) is open pavement connecting West Celadon to Column 20 Avenue.
+  - Column 20 Avenue: 100% open North-South passage across y=5..12, connecting Row 12 Highway (20, 12) straight North to Row 9 / Row 8 Northern Highway (20, 9).
+  - Row 9 Northern Highway (East Sector): 100% open Eastbound across x=20..33 from Column 20 to Column 33.
+  - Column 33 Avenue: 100% open Southbound from Row 8/9 (33, 9) down to Row 30 South Street at (33, 30).
+  - Game Corner Plaza Warp: Tile (20, 36) warps into Game Corner Plaza. Door (17, 27) in plaza enters Celadon Game Corner floor at (3, 7).
   - Inside Celadon Game Corner (3, 7): Secret staircase at (4, 4) leads down to Rocket Hideout B1F (5, 4).
   - Single-step probing protocol active across all overworld movements.
 
