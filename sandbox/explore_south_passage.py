@@ -1,4 +1,4 @@
-# Script to explore the southern ground level and reach (19, 26) to pick up the Gold Teeth
+# Script to cross the Plateau, descend East Stairs, and test the Row 13 ground corridor
 import time
 import sys
 import bridge
@@ -27,7 +27,6 @@ def walk_step_robust(direction):
         handle_battle()
         return None
         
-    # Press direction once
     bridge.press_buttons([direction])
     bridge.press_buttons(["sleep 300"])
     
@@ -39,7 +38,7 @@ def walk_step_robust(direction):
     if new_pos != pos:
         return new_pos
         
-    # Check for battle transition
+    # Check if in battle transition
     bridge.press_buttons(["sleep 800"])
     new_pos = get_pos()
     if new_pos is None:
@@ -65,6 +64,7 @@ def run_path(path):
             continue
             
         if new_pos == pos:
+            # We bumped
             stuck_count += 1
             if stuck_count > 3:
                 print(f"Blocked at {pos}! Pressing B and retrying.")
@@ -76,7 +76,7 @@ def run_path(path):
     return True
 
 def main():
-    print("=== EXPLORING TO SOUTH PASSAGE ===")
+    print("=== CROSSING PLATEAU & TESTING ROW 13 ===")
     
     pos = get_pos()
     print(f"Starting at {pos}")
@@ -86,53 +86,37 @@ def main():
         if pos is None:
             return
 
-    # Path from current (18, 24) to (21, 18)
-    path_to_21_18 = (
-        ["Right"] * 3 +   # to (21, 24)
-        ["Up"] * 6        # to (21, 18)
+    # From (6, 16):
+    # Walk Right 15 steps to (21, 16)
+    # Walk Down 2 steps to (21, 18)
+    # Walk Right 4 steps to (25, 18)
+    # Walk Up 5 steps to (25, 13)
+    path = (
+        ["Right"] * 15 +
+        ["Down"] * 2 +
+        ["Right"] * 4 +
+        ["Up"] * 5
     )
-    if not run_path(path_to_21_18):
+    if not run_path(path):
         return
 
     pos = get_pos()
-    print(f"At {pos}, checking right movement...")
+    print(f"Arrived at {pos}. We are standing at (25, 13). Now testing Row 13 ground-level horizontal corridor!")
     
-    # Let's walk right to column 25
-    path_to_25_18 = ["Right"] * 4
-    if not run_path(path_to_25_18):
-        return
-
-    pos = get_pos()
-    print(f"At {pos}, trying to go DOWN Column 25...")
-    
-    # Try to go DOWN Column 25 as far as possible
-    # Row 18 to Row 26 is 8 steps Down
-    for i in range(8):
+    # Try to walk LEFT as far as possible along Row 13 to see if it is open!
+    # Row 13 goes from Column 25 to Column 0 (25 steps Left)
+    for i in range(25):
         pos = get_pos()
         if pos is None:
             handle_battle()
             continue
-        print(f"Down Step {i}: At {pos}")
-        new_pos = walk_step_robust("Down")
+        print(f"Row 13 Left Test Step {i}: At {pos}, walking Left")
+        new_pos = walk_step_robust("Left")
         if new_pos is None:
             continue
         if new_pos == pos:
-            print(f"Blocked going Down at {pos}!")
+            print(f"BLOCKED walking Left on Row 13 at {pos}!")
             break
-
-    pos = get_pos()
-    print(f"Final Position after Down test: {pos}")
-    
-    # If we are at row 26, walk left to (19, 26)
-    if pos is not None and pos[1] == 26:
-        left_steps = pos[0] - 19
-        path_to_teeth = ["Left"] * left_steps
-        if run_path(path_to_teeth):
-            pos = get_pos()
-            print(f"Successfully reached {pos}! Facing UP to interact...")
-            bridge.press_buttons(["Up", "sleep 200", "A", "sleep 1200"])
-            bridge.press_buttons(["A", "sleep 1200"])
-            print("Interaction complete.")
 
 if __name__ == "__main__":
     main()
