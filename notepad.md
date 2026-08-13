@@ -748,11 +748,11 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 53517)
-- Location: Celadon Game Corner Casino Floor at (0, 8).
+## CURRENT STATUS & DASHBOARD (Turn 53551)
+- Location: Route 7 at (63, 14).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Secondary Goal: Reach Rocket Grunt & Poster Switch at (17, 1) on North Wall.
-- Active Strategy: Walk Up 3 steps along Column 0 West Corridor to Row 5 cross-aisle at (0, 5), walk Right 17 steps to Column 17 at (17, 5), and walk Up 4 steps to poster switch at (17, 1).
+- Secondary Goal: Traverse Route 7 West through Saffron City to East Celadon City (49, 11) -> Main Casino Floor entrance (30, 34).
+- Active Strategy: Walk Down 2 to Row 16 dirt path at (63, 16), walk Left 10 steps along Row 16 path past Column 62 tree to (53, 16), and head West to Saffron West Gatehouse.
 
 <hr>
 
