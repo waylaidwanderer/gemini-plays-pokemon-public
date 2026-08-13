@@ -109,7 +109,8 @@ def main():
     if pos is not None and pos[1] >= 30 and pos[0] >= 5:
         print("=== Step 2: Navigating Area 2 (North) to Southwest Transition ===")
         path_to_sw = (
-            ["Left"] * 4 +     # to (4, 35)
+            ["Down"] * 1 +     # to (8, 36)
+            ["Left"] * 4 +     # to (4, 36)
             ["Down"] * 2       # transition to Area 3 (West) northwest compartment
         )
         if not run_path(path_to_sw, check_warp=True):
