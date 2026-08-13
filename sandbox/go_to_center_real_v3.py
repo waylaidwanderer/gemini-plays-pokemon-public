@@ -1,4 +1,4 @@
-# Script to walk from current position (1, 23) to Fuchsia Pokemon Center (19, 27) and enter.
+# Master script to walk back to Gatehouse, exit to Fuchsia, and enter Pokémon Center from (22, 10)
 import time
 import sys
 import bridge
@@ -11,48 +11,123 @@ def get_pos():
         return None
     return pos[0], pos[1]
 
-def walk_step(direction):
-    bridge.press_buttons([direction, "sleep 250"])
-    return get_pos()
+def handle_battle():
+    print("Wild battle detected! Fleeing...")
+    bridge.press_buttons(["B", "sleep 150"])
+    bridge.press_buttons(["B", "sleep 150"])
+    bridge.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 1200"])
+    bridge.press_buttons(["B", "sleep 150"])
+    bridge.press_buttons(["B", "sleep 150"])
+    print("Fled from battle.")
+    time.sleep(0.5)
+
+def walk_step_robust(direction):
+    pos = get_pos()
+    if pos is None:
+        handle_battle()
+        return None
+        
+    bridge.press_buttons([direction, "sleep 350"])
+    
+    new_pos = get_pos()
+    if new_pos is None:
+        handle_battle()
+        return None
+        
+    if new_pos != pos:
+        return new_pos
+        
+    print("Position did not change. Waiting 3.0s to check if battle is starting...")
+    time.sleep(3.0)
+    new_pos = get_pos()
+    if new_pos is None:
+        handle_battle()
+        return None
+    elif new_pos == pos:
+        print(f"Bumping/stuck at {pos} walking {direction}!")
+        return pos
+
+def run_path(path, check_warp=False):
+    idx = 0
+    stuck_count = 0
+    while idx < len(path):
+        pos = get_pos()
+        if pos is None:
+            handle_battle()
+            continue
+            
+        print(f"Step {idx}/{len(path)}: At {pos}, walking {path[idx]}")
+        new_pos = walk_step_robust(path[idx])
+        
+        if new_pos is None:
+            continue
+            
+        if new_pos == pos:
+            stuck_count += 1
+            if stuck_count > 3:
+                print(f"Blocked at {pos}! Clearing with B.")
+                bridge.press_buttons(["B", "sleep 300"])
+                stuck_count = 0
+        else:
+            stuck_count = 0
+            if check_warp:
+                dist = abs(new_pos[0] - pos[0]) + abs(new_pos[1] - pos[1])
+                if dist > 5:
+                    print(f"Transition occurred! Settled at {new_pos}")
+                    return True
+            idx += 1
+    return True
 
 def main():
-    print("=== WESTERN GYM CORRIDOR PATH TO FUCHSIA POKEMON CENTER ===")
+    print("=== GO TO CENTER V3 ===")
     pos = get_pos()
-    print(f"Starting at {pos}")
+    print("Initial Position:", pos)
     if pos is None:
-        return
-        
-    # We are at (1, 23)
-    # Step 1: Walk Down Column 1 to Row 26
-    print("Step 1: Walking Down Column 1 to Row 26...")
-    for i in range(3):
-        pos = walk_step("Down")
-        print(f"Down {i+1}: {pos}")
-        
-    # Step 2: Walk Right to Column 4 Row 26
-    print("Step 2: Walking Right to Column 4...")
-    for i in range(3):
-        pos = walk_step("Right")
-        print(f"Right {i+1}: {pos}")
-        
-    # Step 3: Walk Down to Row 28
-    print("Step 3: Walking Down to Row 28...")
-    for i in range(2):
-        pos = walk_step("Down")
-        print(f"Down {i+1}: {pos}")
-        
-    # Step 4: Walk Right to Column 19 on Row 28
-    print("Step 4: Walking Right to Column 19...")
-    for i in range(15):
-        pos = walk_step("Right")
-        print(f"Right {i+1}: {pos}")
-        
-    # Step 5: Enter Pokemon Center
-    print("Step 5: Entering Pokemon Center...")
-    pos = walk_step("Up")
-    print(f"Final Coords: {pos}")
-    time.sleep(1.0)
-    print(f"Inside? Coords: {get_pos()}")
+        handle_battle()
+        pos = get_pos()
+        if pos is None:
+            return
+
+    # 1. Walk from (22, 10) to Gatehouse exit in Center
+    if pos[1] == 10 and pos[0] >= 15 and pos[0] <= 24:
+        print("=== Step 1: Walking to Gatehouse ===")
+        path_to_gatehouse = (
+            ["Right"] * (28 - pos[0]) + # to (28, 10)
+            ["Down"] * 12 +             # to (28, 22)
+            ["Left"] * 13 +             # to (15, 22)
+            ["Down"] * 3                # Gatehouse transition
+        )
+        if not run_path(path_to_gatehouse, check_warp=True):
+            return
+        time.sleep(1.0)
+        pos = get_pos()
+        print("Emerged in Gatehouse:", pos)
+
+    # 2. Exit Gatehouse
+    pos = get_pos()
+    if pos is not None and pos[0] < 10 and pos[1] < 10:
+        print("=== Step 2: Exiting Gatehouse ===")
+        path_exit = ["Down"] * 3
+        if not run_path(path_exit, check_warp=True):
+            return
+        time.sleep(1.0)
+        pos = get_pos()
+        print("Emerged in Fuchsia City:", pos)
+
+    # 3. Fuchsia City to Pokémon Center
+    pos = get_pos()
+    if pos is not None and pos[0] == 18 and pos[1] == 4:
+        print("=== Step 3: Fuchsia City to Pokémon Center ===")
+        path_to_pc = (
+            ["Down"] * 24 + # to (18, 28)
+            ["Right"] * 1 + # to (19, 28)
+            ["Up"] * 1      # PC transition
+        )
+        if not run_path(path_to_pc, check_warp=True):
+            return
+        time.sleep(1.0)
+        pos = get_pos()
+        print("Emerged in Pokémon Center:", pos)
 
 if __name__ == "__main__":
     main()
