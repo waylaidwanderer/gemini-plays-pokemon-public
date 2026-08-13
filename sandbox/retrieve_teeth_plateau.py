@@ -27,17 +27,29 @@ def walk_step_robust(direction):
         handle_battle()
         return None
         
+    # Press direction once
     bridge.press_buttons([direction])
     
-    for _ in range(5):
-        bridge.press_buttons(["sleep 100"])
-        new_pos = get_pos()
-        if new_pos is None:
-            handle_battle()
-            return None
-        if new_pos != pos:
-            return new_pos
-            
+    # Sleep 300ms to let the movement complete
+    bridge.press_buttons(["sleep 300"])
+    
+    new_pos = get_pos()
+    if new_pos is None:
+        handle_battle()
+        return None
+        
+    if new_pos != pos:
+        return new_pos
+        
+    # If position didn't change, we might be in a battle transition.
+    # Sleep another 800ms and check again.
+    bridge.press_buttons(["sleep 800"])
+    new_pos = get_pos()
+    if new_pos is None:
+        handle_battle()
+        return None
+        
+    # If it still hasn't changed, it's a real bump.
     print(f"Bumping/stuck at {pos} walking {direction}!")
     return pos
 
