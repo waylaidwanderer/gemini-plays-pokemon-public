@@ -751,14 +751,14 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 53281)
-- Location: Route 7 West at (0, 19).
+## CURRENT STATUS & DASHBOARD (Turn 53311)
+- Location: Saffron City West Courtyard at (9, 9).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
 - Verified Master Topography:
-  - Celadon City Separation: West Celadon (x<=18) and East Celadon (x>=20) are separated by Column 19 tree wall and Column 35 barrel wall.
-  - Inter-city Highway Route: West Celadon -> Route 7 West -> Saffron West Gatehouse -> Saffron City -> Saffron East Gatehouse -> Route 7 East -> East Celadon (49, 11).
-  - East Celadon Casino Access: Entering East Celadon at (49, 11) lands at (48, 11), leading directly to Main Casino floor door at (30, 34) / Plaza warp (20, 36).
-- Active Strategy: Walk East across Route 7 into Saffron West Gatehouse at (7, 2), transit Saffron City to East Celadon (49, 11), and enter Main Game Corner Casino at (30, 34).
+  - West Saffron Courtyard (9, 9) connects South via Saffron West Gatehouse (9, 11) to Route 7 Highway at (9, 12).
+  - Route 7 Highway (y=12) runs East across x=9..48 to Saffron East Gatehouse and East Celadon entrance at (49, 11).
+  - Entering East Celadon at (49, 11) lands at (48, 11) in East Celadon, leading directly to Main Casino door at (30, 34).
+- Active Strategy: Step Down into door (9, 11), exit South through gatehouse onto Route 7 (9, 12), and walk East along Route 7 highway across x=9..48 to East Celadon (49, 11).
 
 <hr>
 
