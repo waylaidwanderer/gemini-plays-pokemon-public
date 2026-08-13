@@ -1,4 +1,4 @@
-# Complete robust script to retrieve the Gold Teeth using the plateau path from (6, 31) in Area 2 (North)
+# Ultimate, correct, complete script to retrieve the Gold Teeth from (26, 0) in Area 3 (West)
 import time
 import sys
 import bridge
@@ -80,7 +80,7 @@ def run_path(path, check_warp=False):
     return True
 
 def main():
-    print("=== THE ULTIMATE GOLDEN TEETH PLATEAU RETRIEVAL SCRIPT ===")
+    print("=== THE ULTIMATE GOLDEN TEETH RETRIEVAL SCRIPT ===")
     
     pos = get_pos()
     print(f"Current Position: {pos}")
@@ -90,31 +90,29 @@ def main():
         if pos is None:
             return
 
-    # Step 1: Walk from (6, 31) to transition to Area 3 (West) at (26, 0)
-    if pos[1] >= 30 and pos[0] >= 5 and pos[0] <= 10:
-        print("=== Step 1: Walking to Area 3 (West) Transition ===")
-        # Walk to Column 8, down to Row 35, and down to transition
-        right_steps = 8 - pos[0]
-        path_to_area3 = (
-            ["Right"] * right_steps +
-            ["Down"] * 4 +     # to (8, 35)
-            ["Down"] * 1       # transition to Area 3 (West) at (26, 0)
+    # Step 1: Walk to transition to Area 2 (North) via Column 26
+    if pos[1] >= 1 and pos[0] >= 15:
+        print("=== Step 1: Walking to Area 2 (North) Transition ===")
+        # We are at (26, 1) or similar.
+        path_to_area2 = (
+            ["Up"] * 2         # to (26, 0) -> transition to Area 2 (North) at (8, 35)
         )
-        if not run_path(path_to_area3, check_warp=True):
+        if not run_path(path_to_area2, check_warp=True):
             return
             
         time.sleep(1.0)
         pos = get_pos()
-        print("Transitioned back to Area 3 (West):", pos)
+        print("Transitioned back to Area 2 (North):", pos)
 
     # Step 2: Navigate Area 3 (West) across the plateau to the west ground level
     pos = get_pos()
     if pos is not None and pos[0] >= 15 and pos[1] <= 15:
         print("=== Step 2: Navigating Area 3 (West) to West Ground Level ===")
-        # Assuming we are at (26, 0)
+        # Walk around the tree barrier at (25, 0) and (25, 1)
         path_across_plateau = (
-            ["Left"] * 1 +     # to (25, 0)
-            ["Down"] * 18 +    # to (25, 18)
+            ["Down"] * 2 +     # to (26, 2)
+            ["Left"] * 1 +     # to (25, 2)
+            ["Down"] * 16 +    # to (25, 18)
             ["Left"] * 4 +     # to (21, 18)
             ["Up"] * 2 +       # to (21, 16) (stairs onto plateau)
             ["Left"] * 15 +    # to (6, 16) (across plateau)
