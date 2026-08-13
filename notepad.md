@@ -1188,27 +1188,72 @@ We have empirically verified that Column 28 is 100% OPEN and walkable on Rows 12
 
 <h1><code>Scratchpad/SafariZone_Route.md</code></h1>
 
-# Safari Zone - Center Map & Route to Area 1 (East)
+# Safari Zone - Complete Golden Route to Gold Teeth
 
-## Verified Obstacles in Safari Zone Center
-- **The Pond:** Blocks Columns 9-19 on Rows 10-15.
-- **Rest House 1:** Blocks Columns 10-15 on Rows 14-15.
-- **The Central Plateau:** Columns 20-27, Rows 12-14. Access stairs face south at `(24, 15)`. It is a complete dead end on the north and east sides.
-- **Column 15 Row 23 Block:** A wooden sign/fence post at `(15, 23)` blocks Column 15.
-- **Column 29 Shrub Wall:** A continuous line of dark green shrubs on Column 29, Rows 12-25, blocking direct ground-horizontal crossing.
-- **Southern Rhydon Statues & Fences:** Row 25 is completely solid from Column 0 to Column 29 (except for the exit warp at `(15, 25)`).
-- **Column 16 Row 22 Bush:** A solid dark green bush at `(16, 22)` blocks horizontal traversal on Row 22.
-- **Column 28 Row 12-15 Trees:** Solid vertically stacked pine trees block Column 28 on rows 12-15.
+## Gold Teeth Location
+- **Gold Teeth:** Located at `(19, 25)` inside **Area 3 (West)** on the southern ground level!
+- **CRITICAL STEP:** To pick them up, the player MUST stand at `(19, 24)` (directly above the teeth), face **DOWN** (south), and press **A**!
+- *Note:* In previous runs, we stood at `(19, 24)` but faced UP instead of DOWN, which caused the pick up to fail. Always ensure you face DOWN!
 
-## Reconstructed 100% Walkable Golden Route (Center to Area 1 East)
-From Safari Zone Center entrance at `(15, 25)`:
-1. Walk UP to `(15, 24)`.
-2. Walk LEFT to `(14, 24)`.
-3. Walk UP to `(14, 23)`.
-4. Walk LEFT to `(10, 23)`.
-5. Walk DOWN to `(10, 24)`.
-6. Walk LEFT to Column 8 at `(8, 24)`.
-This was a hypothesized shortcut, but Column 8 is blocked on the north.
+## Step-by-Step Walkable Golden Route (Start to Teeth)
+
+### Phase 1: Safari Zone Center to Area 1 (East)
+1. Start at Gatehouse entrance `(15, 25)`.
+2. Walk UP 3 steps to `(15, 22)`.
+3. Walk RIGHT 13 steps along Row 22 to `(28, 22)`.
+4. Walk UP 12 steps along Column 28 to `(28, 10)`.
+5. Walk RIGHT 2 steps to transition to Area 1 (East) at `(30, 10)`.
+
+### Phase 2: Area 1 (East) to Area 2 (North)
+1. Emerge in Area 1 (East) at `(0, 22)`.
+2. Walk DOWN 1 step to `(0, 23)` then `(0, 24)`.
+3. Walk RIGHT 20 steps to `(20, 24)`.
+4. Walk UP 2 steps to `(20, 22)`.
+5. Walk UP 2 steps to climb plateau stairs to `(20, 20)`.
+6. Walk LEFT 8 steps on the plateau to `(12, 20)`.
+7. Walk DOWN 2 steps to descend stairs to `(12, 22)`.
+8. Walk LEFT 4 steps to Column 8 at `(8, 22)`.
+9. Walk UP 14 steps along Column 8 to `(8, 8)`.
+10. Walk RIGHT 4 steps to climb northern plateau stairs at `(12, 8)` to `(12, 6)`.
+11. Walk RIGHT 5 steps on plateau to `(17, 6)`.
+12. Walk DOWN 2 steps to descend plateau stairs to `(17, 8)`.
+13. Walk RIGHT 3 steps to Column 20 at `(20, 8)`.
+14. Walk UP 5 steps along Column 20 to Row 3 at `(20, 3)`.
+15. Walk LEFT 13 steps along Row 3 to `(7, 3)`.
+16. Walk DOWN 2 steps to `(7, 5)`.
+17. Walk LEFT 7 steps to transition to Area 2 (North) at `(0, 5)`.
+
+### Phase 3: Area 2 (North) to Area 3 (West)
+1. Emerge in Area 2 (North) at `(39, 31)`.
+2. Walk LEFT 17 steps along Row 31 to Column 22 at `(22, 31)`.
+3. Walk UP 9 steps along Column 22 (climbing Western Southern Plateau stairs at `(22, 23)`) to `(22, 22)`.
+4. Walk LEFT 6 steps on the plateau to `(16, 22)`.
+5. Walk DOWN 6 steps (descending stairs at `(16, 27)`) to grass at `(16, 28)`.
+6. Walk LEFT 4 steps to `(12, 28)`.
+7. Walk DOWN 2 steps to `(12, 30)` (to bypass the pond!).
+8. Walk LEFT 4 steps to `(8, 30)`.
+9. Walk DOWN 5 steps through the statue gap at `(8, 34)` to `(8, 35)`.
+10. Walk DOWN 1 step to transition to Area 3 (West) at `(26, 0)`.
+
+### Phase 4: Area 3 (West) to Gold Teeth
+1. Emerge in Area 3 (West) at `(26, 0)`.
+2. Walk DOWN 2 steps to `(26, 2)`.
+3. Walk LEFT 1 step to `(25, 2)`.
+4. Walk DOWN 16 steps along Column 25 to `(25, 18)`.
+5. Walk LEFT 4 steps to `(21, 18)`.
+6. Walk UP 2 steps (climbing East Stairs) to `(21, 16)` on the plateau.
+7. Walk LEFT 15 steps across the plateau to `(6, 16)`.
+8. Walk DOWN 4 steps (descending West Stairs) to `(6, 20)`.
+9. Walk LEFT 5 steps to `(1, 20)`.
+10. Walk UP 2 steps to `(1, 18)`.
+11. Walk RIGHT 2 steps to `(3, 18)`.
+12. Walk UP 5 steps to `(3, 13)` (climb onto Row 13 bridge/water).
+    - Since we have Surf, we can Surf on `(3, 13)` water!
+13. Surf LEFT 3 steps to `(0, 13)` warp.
+14. Emerge in Center (East Compartment) at `(29, 25)`.
+15. Walk DOWN 1 step to `(29, 26)`.
+16. Walk LEFT 10 steps along Row 26 to `(19, 26)`.
+17. Face UP, press A, pick up the Gold Teeth!
 
 <hr>
 
