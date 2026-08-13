@@ -1,86 +1,57 @@
-import bridge
+# Script to probe rows 28-32 on Column 23 to find the exact gap to the west side
 import time
 import sys
+import bridge
 
 sys.stdout.reconfigure(encoding='utf-8')
 
 def get_pos():
     pos = bridge.get_coordinates()
-    if pos is not None:
-        return pos[0], pos[1]
-    return None
+    if pos is None:
+        return None
+    return pos[0], pos[1]
+
+def walk_step(direction):
+    bridge.press_buttons([direction, "sleep 350"])
+    return get_pos()
+
+def walk_to(tx, ty):
+    # simple walk_to assuming clear ground on Column 24 and Rows 28-32
+    while True:
+        pos = get_pos()
+        if pos == (tx, ty):
+            break
+        cx, cy = pos
+        if cx < tx:
+            walk_step("Right")
+        elif cx > tx:
+            walk_step("Left")
+        elif cy < ty:
+            walk_step("Down")
+        elif cy > ty:
+            walk_step("Up")
 
 def main():
-    print("=== TESTING SOUTHERN CORRIDOR FOR PATH WEST ===")
+    print("=== PROBING GAP IN COLUMN 23 ===")
     
-    # We are currently at (19, 32)
-    # Let's try walking Left on Row 33
-    # First, let's walk Down to (19, 33)
-    bridge.press_buttons(["Down"])
-    time.sleep(0.5)
-    pos = get_pos()
-    print("At:", pos)
-    
-    if pos == (19, 33):
-        # Walk Left up to 10 steps to see if we can cross column 15
-        print("Walking Left on Row 33...")
-        for i in range(10):
-            bridge.press_buttons(["Left"])
-            time.sleep(0.5)
-        pos_after = get_pos()
-        print(f"Position after Left on Row 33: {pos_after}")
+    # We are at (24, 27)
+    for row in [28, 29, 30, 31, 32]:
+        print(f"Probing Row {row}...")
+        walk_to(24, row)
         
-        # Go back to (19, 33)
-        if pos_after is not None and pos_after[0] < 19:
-            # We moved! Walk back Right
-            steps = 19 - pos_after[0]
-            for _ in range(steps):
-                bridge.press_buttons(["Right"])
-                time.sleep(0.5)
-                
-    # Next, let's walk Down to (19, 34)
-    bridge.press_buttons(["Down"])
-    time.sleep(0.5)
-    pos = get_pos()
-    print("At:", pos)
-    
-    if pos == (19, 34):
-        # Walk Left up to 10 steps
-        print("Walking Left on Row 34...")
-        for i in range(10):
-            bridge.press_buttons(["Left"])
-            time.sleep(0.5)
-        pos_after = get_pos()
-        print(f"Position after Left on Row 34: {pos_after}")
+        # Try to step Left
+        pos_before = get_pos()
+        pos_after = walk_step("Left")
         
-        # Go back to (19, 34)
-        if pos_after is not None and pos_after[0] < 19:
-            steps = 19 - pos_after[0]
-            for _ in range(steps):
-                bridge.press_buttons(["Right"])
-                time.sleep(0.5)
-                
-    # Next, let's walk Down to (19, 35)
-    bridge.press_buttons(["Down"])
-    time.sleep(0.5)
-    pos = get_pos()
-    print("At:", pos)
-    
-    if pos == (19, 35):
-        # Walk Left up to 10 steps
-        print("Walking Left on Row 35...")
-        for i in range(10):
-            bridge.press_buttons(["Left"])
-            time.sleep(0.5)
-        pos_after = get_pos()
-        print(f"Position after Left on Row 35: {pos_after}")
-        
-        # Go back to (19, 35)
-        if pos_after is not None and pos_after[0] < 19:
-            steps = 19 - pos_after[0]
-            for _ in range(steps):
-                bridge.press_buttons(["Right"])
-                time.sleep(0.5)
+        if pos_after != pos_before and pos_after[0] == 23:
+            print(f"SUCCESS! Walkable gap found at Row {row}! Position reached: {pos_after}")
+            return
+        else:
+            print(f"Row {row} is BLOCKED.")
+            # walk back to 24 if we somehow moved elsewhere
+            walk_to(24, row)
+            
+    print("Probing finished. No gap found on rows 28-32 Column 23.")
 
 if __name__ == "__main__":
     main()
