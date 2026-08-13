@@ -1,4 +1,4 @@
-# Robust script to walk to the PC using a detoured path to avoid the NPC, then open ACE's PC and withdraw.
+# Robust script to walk to the PC using a detoured path to avoid the NPC and plants, then open ACE's PC and withdraw.
 import time
 import sys
 import bridge
@@ -58,30 +58,33 @@ def main():
     if pos is None:
         return
         
-    # We are at (7, 5)
-    # Detour around the NPC (8, 5) and potted plant (7, 6)
+    # We are at (5, 6)
     
     # Waypoint 1: Walk to (5, 5)
     if not walk_to(5, 5):
         return
         
-    # Waypoint 2: Walk to (5, 6)
-    if not walk_to(5, 6):
+    # Waypoint 2: Walk to (9, 5)
+    if not walk_to(9, 5):
         return
         
     # Waypoint 3: Walk to (9, 6)
     if not walk_to(9, 6):
         return
         
-    # Waypoint 4: Walk to (9, 5)
-    if not walk_to(9, 5):
+    # Waypoint 4: Walk to (11, 6)
+    if not walk_to(11, 6):
         return
         
-    # Waypoint 5: Walk to (13, 5)
+    # Waypoint 5: Walk to (11, 5)
+    if not walk_to(11, 5):
+        return
+        
+    # Waypoint 6: Walk to (13, 5)
     if not walk_to(13, 5):
         return
         
-    # Waypoint 6: Walk to (13, 4)
+    # Waypoint 7: Walk to (13, 4)
     if not walk_to(13, 4):
         return
         
