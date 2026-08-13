@@ -1,4 +1,4 @@
-# Ultimate, correct, complete script to retrieve the Gold Teeth from (19, 24) in Area 3 (West)
+# Updated script to retrieve the Gold Teeth from (25, 2) inside Area 3 (West)
 import time
 import sys
 import bridge
@@ -90,17 +90,12 @@ def main():
         if pos is None:
             return
 
-    # Step 1: Walk back to (26, 0) to return to Area 2 (North)
-    if pos[1] >= 20 and pos[0] >= 15:
-        print("=== Step 1: Walking back to Area 2 (North) Transition ===")
-        # Exact path from (19, 24) to (26, 0) return transition
+    # Step 1: Walk to transition to Area 2 (North) via Column 26
+    if pos[1] >= 1 and pos[0] >= 15:
+        print("=== Step 1: Walking to Area 2 (North) Transition ===")
         path_to_area2 = (
-            ["Right"] * 2 +    # to (21, 24)
-            ["Up"] * 6 +       # to (21, 18)
-            ["Right"] * 4 +    # to (25, 18)
-            ["Up"] * 18 +      # to (25, 0)
-            ["Right"] * 1 +    # to (26, 0)
-            ["Up"] * 1         # transition to Area 2 (North)
+            ["Right"] * 1 +    # to (26, 2)
+            ["Up"] * 3         # to (26, 1) -> (26, 0) -> transition to Area 2 (North)
         )
         if not run_path(path_to_area2, check_warp=True):
             return
@@ -113,8 +108,6 @@ def main():
     pos = get_pos()
     if pos is not None and pos[1] >= 30 and pos[0] >= 5:
         print("=== Step 2: Navigating Area 2 (North) to Southwest Transition ===")
-        # We are at (8, 35) or similar.
-        # Walk left to column 4, and down to transition
         path_to_sw = (
             ["Left"] * 4 +     # to (4, 35)
             ["Down"] * 2       # transition to Area 3 (West) northwest compartment
@@ -168,7 +161,7 @@ def main():
         # Open bag to verify
         print("Opening BAG to verify...")
         bridge.press_buttons(["Start", "sleep 500", "Down", "Down", "A", "sleep 800"])
-        print("BAG is open.")
+        print("BAG is open. Please verify Gold Teeth on next turn!")
 
 if __name__ == "__main__":
     main()
