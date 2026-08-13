@@ -754,16 +754,15 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 53033)
-- Location: Celadon City at (13, 27).
+## CURRENT STATUS & DASHBOARD (Turn 53071)
+- Location: Celadon City at (18, 9).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Walk West along Row 27 Highway to Column 9 Avenue at (9, 27), North through Northwest Building to Northern Highway (9, 9), West along Northern Highway to Route 7 / Saffron West Gatehouse, enter East Celadon (49, 11), walk to Column 36 (36, 12), South down Column 36 through tree gap (36, 28) to Row 30 (36, 30), West to (20, 30), South to Plaza warp (20, 36), enter Celadon Game Corner, and descend secret staircase at (4, 4) to Rocket Hideout B1F.
+- Active Objective: Walk West along Northern Highway to West Boundary (0, 9), transition through Route 7 and Saffron City to East Celadon (49, 11), access Column 36 Avenue to descend to Row 30 South Street, enter Game Corner Plaza warp at (20, 36), enter Celadon Game Corner, and descend secret staircase at (4, 4) to Rocket Hideout B1F.
 - Verified Master Topography:
-  - Column 35 Barrels (y=20..27): Continuous barrel wall blocking Eastward crossing at y=20..27.
-  - Row 19 Fence (x=32..37): Continuous fence/border. Open gap is located at x<=29 (Column 29 Avenue).
-  - Row 18 Highway: 100% open East-West passage across x=29..36 above barrels/fence, connecting Column 29 Avenue directly to Column 36 Avenue.
-  - Column 36 Avenue: 100% open Southbound from Row 18 (36, 18) through tree gap (36, 28) to Row 30 South Street at (36, 30).
-  - Game Corner Plaza Warp: Tile (20, 36) warps into Game Corner Plaza. Door (17, 27) in plaza enters Celadon Game Corner floor at (3, 7).
+  - Column 19 Wall (y=5..11): Continuous vertical barrier of trees, statues, and blue roof canopy slants blocking Eastward traversal across x=19 on Northern Highway.
+  - Column 35 Barrels (y=20..27): Continuous barrel wall blocking Eastward crossing at y=20..27 in Central Celadon.
+  - Saffron/Route 7 Connection: Open route connecting West Celadon (0, 9) through Route 7, Saffron West Gatehouse, Saffron Row 7 gap (17, 7), Saffron East Gatehouse, Route 7, to East Celadon (49, 11).
+  - Game Corner Plaza Warp: Tile (20, 36) in Celadon City warps into Game Corner Plaza. Door (17, 27) in plaza enters Celadon Game Corner floor at (3, 7).
   - Inside Celadon Game Corner (3, 7): Secret staircase at (4, 4) leads down to Rocket Hideout B1F (5, 4).
 
 <hr>
