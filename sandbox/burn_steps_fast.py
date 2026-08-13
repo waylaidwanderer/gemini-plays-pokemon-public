@@ -19,11 +19,11 @@ def main():
         # Check if we warped to Gatehouse
         # Gatehouse coordinates are usually (3, 2) or (4, 2).
         # We check if we are no longer in the Northwest Compartment of Center.
-        if not (0 <= pos['x'] <= 10 and 5 <= pos['y'] <= 20):
+        if not (0 <= pos[0] <= 10 and 5 <= pos[1] <= 20):
             print(f"Warp out detected! Current position: {pos}")
             break
             
-        if pos['y'] == 11:
+        if pos[1] == 11:
             mgba.press_buttons(["Down"])
         else:
             mgba.press_buttons(["Up"])
