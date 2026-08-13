@@ -80,7 +80,7 @@ def walk_to(target_x, target_y, check_warp=False):
         if curr_x < target_x:
             walk_step_robust("Right")
         elif curr_x > target_x:
-            walk_step("Left")
+            walk_step_robust("Left")
         elif curr_y < target_y:
             walk_step_robust("Down")
         elif curr_y > target_y:
