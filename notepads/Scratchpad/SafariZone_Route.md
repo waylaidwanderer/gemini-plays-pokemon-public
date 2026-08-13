@@ -2,7 +2,7 @@
 
 ## Phase 1: Center to Area 1 (East)
 - Start at Gatehouse entrance at `(15, 25)`.
-- Walk UP to `(15, 21)`, RIGHT to Column 28, UP to Row 11, RIGHT to Column 30 to transition to Area 1 (East) at `(0, 22)`.
+
 
 ## Phase 2: Area 1 (East) to Area 2 (North)
 - From `(0, 22)`:
