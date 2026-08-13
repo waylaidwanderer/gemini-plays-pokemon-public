@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 53233)
-- Location: Celadon City at (16, 28).
+## CURRENT STATUS & DASHBOARD (Turn 53234)
+- Location: Celadon City at (20, 26).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Walk Up 2 to Row 26 Highway at (16, 26), Right 4 to Column 20 at (20, 26), and Down 10 to Game Corner Plaza warp at (20, 36).
+- Active Objective: Walk Down 10 steps along Column 20 Avenue to (20, 36) warp into Game Corner Plaza.
 - Verified Master Topography:
   - Route 7 Passages: Open Westbound route connecting Saffron West Gatehouse (7, 2) through Saffron City to Celadon City.
   - Saffron/Route 7 Connection: Open route connecting West Celadon (0, 9) through Route 7, Saffron West Gatehouse, Saffron Row 7 gap (17, 7), Saffron East Gatehouse, Route 7, to East Celadon (49, 11).
@@ -752,10 +752,14 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 53234)
-- Location: Celadon City at (20, 26).
+## CURRENT STATUS & DASHBOARD (Turn 53235)
+- Location: Celadon City at (20, 27).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Walk Down 10 steps along Column 20 Avenue to (20, 36) warp into Game Corner Plaza.
+- Active Objective: Walk Left 11 steps to Column 9 at (9, 27), Down 3 along Column 9 to Row 30 South Street at (9, 30), and East 11 to Column 20 at (20, 30).
+- Verified Master Topography:
+  - Column 9 Avenue: 100% open Southbound street at x=9 connecting Row 27 (9, 27) straight South to Row 30 South Street at (9, 30).
+  - Game Corner Plaza Warp: Tile (20, 36) in Celadon City warps into Game Corner Plaza. Door (17, 27) in plaza enters Celadon Game Corner floor at (3, 7).
+  - Inside Celadon Game Corner (3, 7): Secret staircase at (4, 4) leads down to Rocket Hideout B1F (5, 4).
 - Verified Master Topography:
   - Route 7 Passages: Open Westbound route connecting Saffron West Gatehouse (7, 2) through Saffron City to Celadon City.
   - Saffron/Route 7 Connection: Open route connecting West Celadon (0, 9) through Route 7, Saffron West Gatehouse, Saffron Row 7 gap (17, 7), Saffron East Gatehouse, Route 7, to East Celadon (49, 11).
