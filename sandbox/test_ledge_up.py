@@ -1,58 +1,75 @@
-import bridge
+# Script to test if we can walk UP on Column 4, 3, or 2 from Row 32 to Row 31.
 import time
 import sys
+import bridge
 
 sys.stdout.reconfigure(encoding='utf-8')
 
 def get_pos():
     pos = bridge.get_coordinates()
-    if pos is not None:
-        return pos[0], pos[1]
-    return None
+    if pos is None:
+        return None
+    return pos[0], pos[1]
 
-def test_up_at_col(col):
-    print(f"--- Testing UP at Column {col} ---")
+def walk_step(direction):
+    bridge.press_buttons([direction, "sleep 250"])
+    return get_pos()
+
+def main():
+    print("=== TESTING LEDGE GAPS ON COLUMNS 4, 3, 2 ===")
     pos = get_pos()
+    print(f"Starting at {pos}")
     if pos is None:
         return
         
-    # Align to the target column on Row 32
-    current_col = pos[0]
-    steps = col - current_col
-    if steps > 0:
-        for _ in range(steps):
-            bridge.press_buttons(["Right"])
-            time.sleep(0.5)
-    elif steps < 0:
-        for _ in range(-steps):
-            bridge.press_buttons(["Left"])
-            time.sleep(0.5)
-            
+    # We are at (9, 32)
+    # Let's walk Left to Column 4
+    print("Walking Left to Column 4...")
+    for _ in range(5):
+        walk_step("Left")
     pos = get_pos()
-    if pos is not None and pos[0] == col and pos[1] == 32:
-        # Try to walk UP
-        bridge.press_buttons(["Up"])
-        time.sleep(0.6)
-        pos_after = get_pos()
-        if pos_after is not None and pos_after[1] < 32:
-            print(f"SUCCESS! Walked UP at Column {col} to {pos_after}!")
-            # Walk back down
-            bridge.press_buttons(["Down"])
-            time.sleep(0.5)
-            return True
-        else:
-            print(f"Blocked at Column {col}!")
-    else:
-        print(f"Failed to align to ({col}, 32). Current pos: {pos}")
-    return False
+    print(f"At {pos}")
+    
+    # Try UP on Column 4
+    print("Trying Up on Column 4...")
+    pos_before = get_pos()
+    walk_step("Up")
+    pos_after = get_pos()
+    if pos_after != pos_before:
+        print(f"SUCCESS! Walked UP on Column 4 to {pos_after}!")
+        return
+        
+    # Walk Left to Column 3
+    print("Walking Left to Column 3...")
+    walk_step("Left")
+    pos = get_pos()
+    print(f"At {pos}")
+    
+    # Try UP on Column 3
+    print("Trying Up on Column 3...")
+    pos_before = get_pos()
+    walk_step("Up")
+    pos_after = get_pos()
+    if pos_after != pos_before:
+        print(f"SUCCESS! Walked UP on Column 3 to {pos_after}!")
+        return
+        
+    # Walk Left to Column 2
+    print("Walking Left to Column 2...")
+    walk_step("Left")
+    pos = get_pos()
+    print(f"At {pos}")
+    
+    # Try UP on Column 2
+    print("Trying Up on Column 2...")
+    pos_before = get_pos()
+    walk_step("Up")
+    pos_after = get_pos()
+    if pos_after != pos_before:
+        print(f"SUCCESS! Walked UP on Column 2 to {pos_after}!")
+        return
 
-def main():
-    # We are currently at (23, 32)
-    # Let's test Columns 23 down to 16
-    for col in range(23, 15, -1):
-        if test_up_at_col(col):
-            print(f"Found a walkable gap at Column {col}!")
-            break
+    print("Columns 4, 3, 2 are all blocked going UP.")
 
 if __name__ == "__main__":
     main()
