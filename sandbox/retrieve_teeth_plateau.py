@@ -135,8 +135,9 @@ def main():
     if pos is not None and pos[1] < 5:
         print("=== Phase 4: Area 3 (West) to Gold Teeth ===")
         path_area3 = (
-            ["Left"] * 1 +     # to (25, 0)
-            ["Down"] * 18 +    # to (25, 18)
+            ["Down"] * 2 +     # to (26, 2)
+            ["Left"] * 1 +     # to (25, 2)
+            ["Down"] * 16 +    # to (25, 18)
             ["Left"] * 4 +     # to (21, 18)
             ["Down"] * 6 +     # to (21, 24)
             ["Left"] * 2       # to (19, 24)
