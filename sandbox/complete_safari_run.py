@@ -1,4 +1,4 @@
-# Complete script to run the Safari Zone Golden Route to retrieve the Gold Teeth from Area 3 (West).
+# Complete robust script to run the Safari Zone Golden Route to retrieve the Gold Teeth starting from the current position.
 import time
 import sys
 import bridge
@@ -13,11 +13,8 @@ def get_pos():
 
 def handle_battle():
     print("Wild battle detected! Fleeing...")
-    # Standard Gen 1 escape sequence: press B, select RUN
     for _ in range(4):
         bridge.press_buttons(["B", "sleep 150"])
-    # Move cursor to RUN and select it
-    # Inside battle: cursor defaults to Fight. We can press Down, Right, and A to RUN.
     bridge.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 1200"])
     for _ in range(3):
         bridge.press_buttons(["B", "sleep 150"])
@@ -43,50 +40,6 @@ def walk_step_robust(direction):
             
     print(f"Bumping/stuck at {pos} walking {direction}!")
     return pos
-
-def walk_to(target_x, target_y, check_warp=False):
-    print(f"Navigating to ({target_x}, {target_y})...")
-    stuck_count = 0
-    last_pos = None
-    
-    while True:
-        pos = get_pos()
-        if pos is None:
-            handle_battle()
-            continue
-            
-        if pos == (target_x, target_y):
-            print(f"Arrived at {pos}")
-            break
-            
-        if pos == last_pos:
-            stuck_count += 1
-            if stuck_count > 4:
-                print(f"Stuck at {pos} while trying to reach ({target_x}, {target_y})!")
-                # Try a random turn-and-step or press B to clear any menu/text
-                bridge.press_buttons(["B", "sleep 250"])
-                stuck_count = 0
-        else:
-            stuck_count = 0
-            last_pos = pos
-            
-        curr_x, curr_y = pos
-        
-        # Check warp transition
-        if check_warp:
-            # We check if a map transition occurred by verifying if position jumped far away
-            pass
-            
-        if curr_x < target_x:
-            walk_step_robust("Right")
-        elif curr_x > target_x:
-            walk_step_robust("Left")
-        elif curr_y < target_y:
-            walk_step_robust("Down")
-        elif curr_y > target_y:
-            walk_step_robust("Up")
-            
-    return True
 
 def run_path(path, check_warp=False):
     idx = 0
@@ -120,7 +73,7 @@ def run_path(path, check_warp=False):
     return True
 
 def main():
-    print("=== THE SAFARI ZONE GOLDEN TEETH RUN ===")
+    print("=== THE SAFARI ZONE GOLDEN TEETH RUN (CONTINUING) ===")
     
     pos = get_pos()
     print(f"Starting at {pos}")
@@ -130,44 +83,24 @@ def main():
         if pos is None:
             return
             
-    # Phase 1: Center to Area 1 (East) transition at (30, 11)
-    if pos[0] >= 10 and pos[0] <= 20 and pos[1] >= 20 and pos[1] <= 26:
-        print("=== Phase 1: Center to Area 1 (East) ===")
-        # Build path to Area 1 (East) transition
-        path_center = (
-            ["Up"] * 4 +       # (15, 21)
-            ["Right"] * 13 +   # (28, 21)
-            ["Up"] * 10 +      # (28, 11)
-            ["Right"] * 3      # (31, 11) transition
-        )
-        if not run_path(path_center, check_warp=True):
-            return
-        time.sleep(1.0)
-        pos = get_pos()
-        print("Arrived in Area 1 (East):", pos)
-        
-    # Phase 2: Area 1 (East) to Area 2 (North) transition at (0, 5)
-    # We should be at (0, 22) or (0, 23).
+    # Phase 2: Continuing Area 1 (East) to Area 2 (North) transition at (0, 5)
+    # We should be on column 8 or 9 on row >= 8.
     pos = get_pos()
-    if pos is not None and pos[0] < 5 and pos[1] >= 20 and pos[1] <= 24:
-        print("=== Phase 2: Area 1 (East) to Area 2 (North) ===")
-        path_area1 = (
-            ["Down"] * 1 +     # to (4, 24)
-            ["Right"] * 16 +   # to (20, 24)
-            ["Up"] * 4 +       # to (20, 20) (climb stairs)
-            ["Left"] * 8 +     # to (12, 20)
-            ["Down"] * 2 +     # to (12, 22) (descend stairs)
-            ["Left"] * 4 +     # to (8, 22)
-            ["Up"] * 14 +      # to (8, 8)
-            ["Right"] * 4 +    # to (12, 8)
-            ["Up"] * 2 +       # to (12, 6) (climb stairs)
-            ["Right"] * 5 +    # to (17, 6)
-            ["Down"] * 2 +     # to (17, 8) (descend stairs)
-            ["Right"] * 3 +    # to (20, 8)
-            ["Up"] * 3 +       # to (20, 5)
-            ["Left"] * 21      # (0, 5) transition
+    if pos is not None and pos[0] >= 5 and pos[0] <= 10 and pos[1] >= 8 and pos[1] <= 24:
+        print("=== Phase 2: Continuing Area 1 (East) to Area 2 (North) ===")
+        # Calculate remaining steps to (8, 8)
+        up_steps = pos[1] - 8
+        path_area1_rem = (
+            ["Up"] * up_steps +      # to (8, 8)
+            ["Right"] * 4 +          # to (12, 8)
+            ["Up"] * 2 +             # to (12, 6) (climb stairs)
+            ["Right"] * 5 +          # to (17, 6)
+            ["Down"] * 2 +           # to (17, 8) (descend stairs)
+            ["Right"] * 3 +          # to (20, 8)
+            ["Up"] * 3 +             # to (20, 5)
+            ["Left"] * 21            # to (0, 5) transition
         )
-        if not run_path(path_area1, check_warp=True):
+        if not run_path(path_area1_rem, check_warp=True):
             return
         time.sleep(1.0)
         pos = get_pos()
