@@ -1,4 +1,4 @@
-# Robust script to walk to the PC, boot it up, go to ACE's PC, and select WITHDRAW ITEM.
+# Robust script to walk to the PC using a detoured path to avoid the NPC, then open ACE's PC and withdraw.
 import time
 import sys
 import bridge
@@ -32,7 +32,7 @@ def walk_to(target_x, target_y):
             
         if pos == last_pos:
             stuck_count += 1
-            if stuck_count > 5:
+            if stuck_count > 4:
                 print(f"Stuck at {pos} while trying to reach ({target_x}, {target_y})!")
                 return False
         else:
@@ -58,16 +58,30 @@ def main():
     if pos is None:
         return
         
-    # We are at (3, 7)
-    # Walk to (3, 5)
-    if not walk_to(3, 5):
+    # We are at (7, 5)
+    # Detour around the NPC (8, 5) and potted plant (7, 6)
+    
+    # Waypoint 1: Walk to (5, 5)
+    if not walk_to(5, 5):
         return
         
-    # Walk to (13, 5)
+    # Waypoint 2: Walk to (5, 6)
+    if not walk_to(5, 6):
+        return
+        
+    # Waypoint 3: Walk to (9, 6)
+    if not walk_to(9, 6):
+        return
+        
+    # Waypoint 4: Walk to (9, 5)
+    if not walk_to(9, 5):
+        return
+        
+    # Waypoint 5: Walk to (13, 5)
     if not walk_to(13, 5):
         return
         
-    # Walk to (13, 4)
+    # Waypoint 6: Walk to (13, 4)
     if not walk_to(13, 4):
         return
         
