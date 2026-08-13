@@ -1,9 +1,9 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 53218)
-- Location: Celadon City at (8, 12).
+## CURRENT STATUS & DASHBOARD (Turn 53221)
+- Location: Celadon City at (27, 12).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Walk East along Row 12 Northern Highway to Column 36 at (36, 12), then descend Column 36 to Game Corner Plaza warp at (20, 36).
+- Active Objective: Bypass Green Shirt NPC at (28, 12) via Row 13 grass to (31, 13), then ascend to Row 10 passage at (31, 10) to reach Column 36 at (36, 10).
 - Verified Master Topography:
   - Route 7 Passages: Open Westbound route connecting Saffron West Gatehouse (7, 2) through Saffron City to Celadon City.
   - Saffron/Route 7 Connection: Open route connecting West Celadon (0, 9) through Route 7, Saffron West Gatehouse, Saffron Row 7 gap (17, 7), Saffron East Gatehouse, Route 7, to East Celadon (49, 11).
@@ -752,10 +752,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 53221)
-- Location: Celadon City at (27, 12).
+## CURRENT STATUS & DASHBOARD (Turn 53222)
+- Location: Celadon City at (31, 13).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Bypass Green Shirt NPC at (28, 12) via Row 13 grass to (31, 13), then ascend to Row 10 passage at (31, 10) to reach Column 36 at (36, 10).
+- Active Objective: Walk Up 3 steps along Column 31 to Row 10 passage at (31, 10), then Right 5 steps to Column 36 at (36, 10).
 - Verified Master Topography:
   - Route 7 Passages: Open Westbound route connecting Saffron West Gatehouse (7, 2) through Saffron City to Celadon City.
   - Saffron/Route 7 Connection: Open route connecting West Celadon (0, 9) through Route 7, Saffron West Gatehouse, Saffron Row 7 gap (17, 7), Saffron East Gatehouse, Route 7, to East Celadon (49, 11).
@@ -946,7 +946,7 @@
 - Tile (17, 15): Solid blue building awning / roof canopy.
 - Row 18 (x=13..27+): 100% open street running East-West in front of Department Store (13, 15) and Pokemon Center (19, 17).
 - Celadon Gym: Located at x=24..28, y=18..21. Left edge / wall at x=24.
-- Column 23 (x=23): 100% open North-South street running from Row 18 (23, 18) straight North to Row 8/12 Northern Highway.
+- Column 23 (x=23): Row 18 (23, 18) connects East-West. Tile (23, 17) is a South-facing ledge.
 - Tile (22, 24): Solid blue building roof canopy (empirically confirmed bump on turn 49561).
 - Column 35 (x=35, y=23..27): Continuous vertical wall of double brown barrels. Tile (35, 28) is a dark green tree. Blocks direct East-West crossing between Central Celadon (x<=34) and East Celadon (x>=36) at y=23..28.
 - Tile (12, 15): Solid blue building roof canopy / awning (empirically confirmed bump on turns 49572, 52525). Column 8 (8, 15) is the true open North-South highway passage.
