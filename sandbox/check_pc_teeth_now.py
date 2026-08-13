@@ -1,4 +1,4 @@
-# Script to select ACE's PC and open Withdraw Item menu
+# Script to advance the PC withdrawal text and scroll down to audit remaining PC items
 import time
 import sys
 import bridge
@@ -6,21 +6,16 @@ import bridge
 sys.stdout.reconfigure(encoding='utf-8')
 
 def main():
-    print("=== PC AUDIT: SELECTING ACE'S PC ===")
+    print("=== PC AUDIT: SCROLLING THROUGH PC ITEMS ===")
     
-    # 1. Select ACE's PC (since we are already pointing at it, and the 'Accessed Item Storage System' text is open)
-    # We must press A to advance dialogue first!
-    # Wait, let's look at the screen: "Accessed Item Storage System." is at the bottom with a black arrow.
-    # So we must press A to advance the text first, then A to select ACE's PC, then A to select WITHDRAW ITEM!
-    # Let's do:
-    # A (advance dialogue) -> sleep 800
-    # A (select ACE's PC) -> sleep 800
-    # A (select WITHDRAW ITEM) -> sleep 800
-    bridge.press_buttons(["A", "sleep 800"])
-    bridge.press_buttons(["A", "sleep 800"])
+    # 1. Press A to dismiss "Withdrew TOWN MAP." popup
     bridge.press_buttons(["A", "sleep 800"])
     
-    print("Withdraw list should be open!")
+    # 2. Press Down 5 times to scroll the PC list down and reveal other items
+    for i in range(5):
+        bridge.press_buttons(["Down", "sleep 400"])
+        
+    print("Done! Check the screen next turn to see the rest of the PC inventory.")
 
 if __name__ == "__main__":
     main()
