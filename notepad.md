@@ -754,10 +754,10 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 53011)
-- Location: Celadon City at (34, 27).
+## CURRENT STATUS & DASHBOARD (Turn 53029)
+- Location: Celadon City at (17, 27).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Walk West along Row 27 Highway to Column 9 (9, 27), North through Northwest Building to Northern Highway (9, 9), then West along Northern Highway to Route 7 / Saffron West Gatehouse.
+- Active Objective: Walk West along Row 27 Highway to Column 9 Avenue at (9, 27), North through Northwest Building to Northern Highway (9, 9), then West along Northern Highway to Route 7 / Saffron West Gatehouse.
 - Verified Master Topography:
   - Column 35 Barrels (y=20..27): Continuous barrel wall blocking Eastward crossing at y=20..27.
   - Row 19 Fence (x=32..37): Continuous fence/border. Open gap is located at x<=29 (Column 29 Avenue).
