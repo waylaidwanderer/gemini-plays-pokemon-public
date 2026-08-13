@@ -1,4 +1,4 @@
-# Script to probe rows 28-32 on Column 23 to find the exact gap to the west side
+# Script to perform a BFS to find a walkable path from (24, 31) to the Pokemon Center (19, 27)
 import time
 import sys
 import bridge
@@ -15,12 +15,54 @@ def walk_step(direction):
     bridge.press_buttons([direction, "sleep 350"])
     return get_pos()
 
-def walk_to(tx, ty):
-    # simple walk_to assuming clear ground on Column 24 and Rows 28-32
-    while True:
+def main():
+    print("=== SEARCHING PATH TO PC ===")
+    
+    # Let's explore directions: Right, Left, Down, Up
+    # We will try to find if we can reach Column 23 or less.
+    # Since we are at (24, 31), let's test moving to the east first,
+    # and then down, to see if there is a way to get to the west side.
+    
+    pos = get_pos()
+    print("Current Position:", pos)
+    if pos is None:
+        return
+        
+    # Let's try to walk to (25, 31)
+    print("Trying to walk to (25, 31)...")
+    p1 = walk_step("Right")
+    print("Position after Right:", p1)
+    
+    if p1 == (25, 31):
+        # We can walk right! Let's see if we can walk down
+        print("Trying to walk to (25, 32)...")
+        p2 = walk_step("Down")
+        print("Position after Down:", p2)
+        
+        if p2 == (25, 32):
+            # Try to walk Right
+            print("Trying to walk to (26, 32)...")
+            p3 = walk_step("Right")
+            print("Position after Right:", p3)
+            
+            # Try to walk Down
+            print("Trying to walk to (25, 33)...")
+            walk_to_pos(25, 32) # return to 25, 32
+            p4 = walk_step("Down")
+            print("Position after Down at (25, 32):", p4)
+            
+            # Return to (24, 31)
+            walk_to_pos(24, 31)
+            
+    # Let's do a systematic walk to map the area
+    print("Mapping coordinates...")
+    walk_to_pos(24, 31)
+    
+def walk_to_pos(tx, ty):
+    for _ in range(10):
         pos = get_pos()
         if pos == (tx, ty):
-            break
+            return True
         cx, cy = pos
         if cx < tx:
             walk_step("Right")
@@ -30,28 +72,7 @@ def walk_to(tx, ty):
             walk_step("Down")
         elif cy > ty:
             walk_step("Up")
-
-def main():
-    print("=== PROBING GAP IN COLUMN 23 ===")
-    
-    # We are at (24, 27)
-    for row in [28, 29, 30, 31, 32]:
-        print(f"Probing Row {row}...")
-        walk_to(24, row)
-        
-        # Try to step Left
-        pos_before = get_pos()
-        pos_after = walk_step("Left")
-        
-        if pos_after != pos_before and pos_after[0] == 23:
-            print(f"SUCCESS! Walkable gap found at Row {row}! Position reached: {pos_after}")
-            return
-        else:
-            print(f"Row {row} is BLOCKED.")
-            # walk back to 24 if we somehow moved elsewhere
-            walk_to(24, row)
-            
-    print("Probing finished. No gap found on rows 28-32 Column 23.")
+    return False
 
 if __name__ == "__main__":
     main()
