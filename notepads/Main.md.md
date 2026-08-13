@@ -1,7 +1,7 @@
-## CURRENT STATUS & DASHBOARD (Turn 53233)
-- Location: Celadon City at (16, 28).
+## CURRENT STATUS & DASHBOARD (Turn 53234)
+- Location: Celadon City at (20, 26).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Active Objective: Walk Up 2 to Row 26 Highway at (16, 26), Right 4 to Column 20 at (20, 26), and Down 10 to Game Corner Plaza warp at (20, 36).
+- Active Objective: Walk Down 10 steps along Column 20 Avenue to (20, 36) warp into Game Corner Plaza.
 - Verified Master Topography:
   - Route 7 Passages: Open Westbound route connecting Saffron West Gatehouse (7, 2) through Saffron City to Celadon City.
   - Saffron/Route 7 Connection: Open route connecting West Celadon (0, 9) through Route 7, Saffron West Gatehouse, Saffron Row 7 gap (17, 7), Saffron East Gatehouse, Route 7, to East Celadon (49, 11).
