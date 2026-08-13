@@ -86,3 +86,4 @@
 - Column 19 (x=19, y=5..11): Continuous vertical wall of trees, statues, and blue canopy slants blocking Eastward traversal across x=19 on Northern Highway.
 - Blue roof canopies at (12, 15), (18, 25), (33, 25), and (18, 10) are SOLID BUILDING ROOF EDGES / CANOPIES (NOT open staircases).
 - West-East Traversal: West Celadon (x<=18) connects to East Celadon (x>=36) via Route 7 / Saffron West Gatehouse / Saffron Row 7 gap (17, 7) / Saffron East Gatehouse / Route 7 to East Celadon (49, 11).
+- Turn 53404 Empirical Bump Test: Tile (18, 10) is a SOLID BUILDING ROOF EDGE (player bumped facing Down at 18, 9). Confirms Northern Highway terminates at (18, 9).
