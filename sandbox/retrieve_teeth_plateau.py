@@ -108,8 +108,10 @@ def main():
             ["Up"] * 1 +               # to (22, 22) (climb plateau)
             ["Left"] * 6 +             # to (16, 22)
             ["Down"] * 6 +             # to (16, 28) (descend plateau stairs to (16, 28))
-            ["Left"] * 8 +             # to (8, 28)
-            ["Down"] * 7 +             # to (8, 35) through statue gap
+            ["Left"] * 4 +             # to (12, 28)
+            ["Down"] * 2 +             # to (12, 30) (bypass pond)
+            ["Left"] * 4 +             # to (8, 30)
+            ["Down"] * 5 +             # to (8, 35) through statue gap
             ["Down"] * 2               # to transition at (8, 37)
         )
         if not run_path(path_area2, check_warp=True):
