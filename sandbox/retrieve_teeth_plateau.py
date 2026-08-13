@@ -95,7 +95,7 @@ def main():
             ["Up"] * 8 +               # to (22, 23)
             ["Up"] * 1 +               # to (22, 22) (climb plateau)
             ["Left"] * 6 +             # to (16, 22)
-            ["Down"] * 5 +             # to (16, 27) (descend plateau stairs to (16, 28))
+            ["Down"] * 6 +             # to (16, 28) (descend plateau stairs to (16, 28))
             ["Left"] * 8 +             # to (8, 28)
             ["Down"] * 7 +             # to (8, 35) through statue gap
             ["Down"] * 2               # to transition at (8, 37)
