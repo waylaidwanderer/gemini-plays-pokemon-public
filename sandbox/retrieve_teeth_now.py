@@ -1,4 +1,4 @@
-# Correct script to walk back across the plateau and retrieve the Gold Teeth from (19, 24) in Area 3 (West)
+# Correct script to walk back across the plateau and retrieve the Gold Teeth from (6, 15) in Area 3 (West)
 import time
 import sys
 import bridge
@@ -90,12 +90,13 @@ def main():
         if pos is None:
             return
 
-    # Path from (2, 14) to (19, 24)
-    if pos == (2, 14):
+    # Path from (6, 15) to (19, 24)
+    if pos == (6, 15):
         print("=== Step 1: Navigating to Gold Teeth via Plateau ===")
         path = (
-            ["Right"] * 4 +    # to (6, 14)
-            ["Down"] * 6 +     # to (6, 20)
+            ["Left"] * 3 +     # to (3, 15)
+            ["Down"] * 5 +     # to (3, 20)
+            ["Right"] * 3 +    # to (6, 20)
             ["Up"] * 4 +       # to (6, 16) (stairs onto plateau)
             ["Right"] * 15 +   # to (21, 16) (across plateau)
             ["Down"] * 2 +     # to (21, 18) (stairs off plateau)
