@@ -1,4 +1,4 @@
-# Updated script to retrieve the Gold Teeth from (25, 2) inside Area 3 (West)
+# Updated script to retrieve the Gold Teeth from (26, 1) inside Area 3 (West)
 import time
 import sys
 import bridge
@@ -93,9 +93,9 @@ def main():
     # Step 1: Walk to transition to Area 2 (North) via Column 26
     if pos[1] >= 1 and pos[0] >= 15:
         print("=== Step 1: Walking to Area 2 (North) Transition ===")
+        # We are at (26, 1) or similar.
         path_to_area2 = (
-            ["Right"] * 1 +    # to (26, 2)
-            ["Up"] * 3         # to (26, 1) -> (26, 0) -> transition to Area 2 (North)
+            ["Up"] * 2         # to (26, 0) -> transition to Area 2 (North) at (8, 35)
         )
         if not run_path(path_to_area2, check_warp=True):
             return
@@ -109,9 +109,9 @@ def main():
     if pos is not None and pos[1] >= 30 and pos[0] >= 5:
         print("=== Step 2: Navigating Area 2 (North) to Southwest Transition ===")
         path_to_sw = (
-            ["Down"] * 1 +     # to (8, 36)
-            ["Left"] * 4 +     # to (4, 36)
-            ["Down"] * 2       # transition to Area 3 (West) northwest compartment
+            ["Up"] * 4 +       # to (8, 31)
+            ["Left"] * 4 +     # to (4, 31)
+            ["Down"] * 5       # transition to Area 3 (West) northwest compartment
         )
         if not run_path(path_to_sw, check_warp=True):
             return
