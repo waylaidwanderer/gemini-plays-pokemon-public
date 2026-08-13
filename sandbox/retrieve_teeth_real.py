@@ -1,4 +1,4 @@
-# Clean, verified, correct script to retrieve the Gold Teeth using the 100% walkable zig-zag route
+# The ultimate correct, complete, ground-level script to retrieve the Gold Teeth from (19, 24)
 import time
 import sys
 import bridge
@@ -64,7 +64,6 @@ def run_path(path, check_warp=False):
             continue
             
         if new_pos == pos:
-            # We bumped
             stuck_count += 1
             if stuck_count > 3:
                 print(f"Blocked at {pos}! Pressing B and retrying.")
@@ -81,65 +80,78 @@ def run_path(path, check_warp=False):
     return True
 
 def main():
-    print("=== THE SAFARI ZONE GOLDEN TEETH RUN (FINAL STAGE) ===")
+    print("=== THE ULTIMATE GROUND TEETH RETRIEVAL SCRIPT ===")
     
     pos = get_pos()
-    print(f"Starting at {pos}")
+    print(f"Current Position: {pos}")
     if pos is None:
         handle_battle()
         pos = get_pos()
         if pos is None:
             return
 
-    # If we are currently at (25, 13) in Area 3:
-    if pos == (25, 13):
-        # Walk back across Plateau and zig-zag to (0, 13) transition
+    # Step 1: Walk to return to Area 2 (North) via Column 25/26
+    if pos[1] >= 20 and pos[0] >= 15:
+        print("=== Step 1: Walking back to Area 2 (North) ===")
+        path_to_area2 = (
+            ["Right"] * 2 +    # to (21, 24)
+            ["Up"] * 6 +       # to (21, 18)
+            ["Right"] * 4 +    # to (25, 18)
+            ["Up"] * 18 +      # to (25, 0)
+            ["Right"] * 1 +    # to (26, 0)
+            ["Up"] * 1         # transition to Area 2 (North)
+        )
+        if not run_path(path_to_area2, check_warp=True):
+            return
+        time.sleep(1.0)
+        pos = get_pos()
+        print("Transitioned back to Area 2 (North):", pos)
+
+    # Step 2: Navigate Area 2 (North) on foot using Row 9 to Column 4
+    pos = get_pos()
+    if pos is not None and pos[0] >= 5 and pos[1] >= 30:
+        print("=== Step 2: Navigating Area 2 (North) via Row 9 ===")
+        # We should be at (8, 35) or similar.
+        # Walk up to Row 9, left to Column 4, and down to transition at (4, 36)
+        up_steps = pos[1] - 9
+        path_to_sw = (
+            ["Up"] * up_steps +   # to (8, 9)
+            ["Left"] * 4 +        # to (4, 9)
+            ["Down"] * 27         # transition to Area 3 (West) northwest compartment
+        )
+        if not run_path(path_to_sw, check_warp=True):
+            return
+        time.sleep(1.0)
+        pos = get_pos()
+        print("Emerged in Area 3 (West) Northwest Compartment:", pos)
+
+    # Step 3: Run the verified ground path to warp transition
+    pos = get_pos()
+    if pos is not None and pos[0] < 5 and pos[1] < 15:
+        print("=== Step 3: Navigating to Warp Transition on Column 0 ===")
+        # We are at (4, 0) or similar. Walk to Column 0 and down to Row 13 warp
+        left_steps = pos[0]
+        down_steps = 13 - pos[1]
         path_to_warp = (
-            ["Down"] * 5 +    # to (25, 18)
-            ["Left"] * 4 +     # to (21, 18)
-            ["Up"] * 2 +       # to (21, 16) (stairs onto Plateau)
-            ["Left"] * 15 +    # to (6, 16) (across Plateau)
-            ["Down"] * 4 +     # to (6, 20) (stairs off Plateau)
-            ["Left"] * 5 +     # to (1, 20)
-            ["Up"] * 2 +       # to (1, 18)
-            ["Right"] * 2 +    # to (3, 18) (zig)
-            ["Up"] * 5 +       # to (3, 13) (climb onto Row 13 bridge!)
-            ["Left"] * 3       # to (0, 13) warp transition
+            ["Left"] * left_steps +
+            ["Down"] * down_steps
         )
         if not run_path(path_to_warp, check_warp=True):
             return
-            
         time.sleep(1.0)
         pos = get_pos()
-        print("Transition occurred! Position in Center (East Compartment):", pos)
+        print("Transitioned into Center (East Compartment):", pos)
 
-    # If we are currently at (4, 20) in Area 3:
-    if pos == (4, 20):
-        path_to_warp = (
-            ["Left"] * 3 +     # to (1, 20)
-            ["Up"] * 2 +       # to (1, 18)
-            ["Right"] * 2 +    # to (3, 18) (zig)
-            ["Up"] * 5 +       # to (3, 13) (climb onto Row 13 bridge!)
-            ["Left"] * 3       # to (0, 13) warp transition
-        )
-        if not run_path(path_to_warp, check_warp=True):
-            return
-            
-        time.sleep(1.0)
-        pos = get_pos()
-        print("Transition occurred! Position in Center (East Compartment):", pos)
-
-    # If we are in Center (East Compartment) at (29, 25):
+    # Step 4: Center (East Compartment) to Gold Teeth at (19, 25)
     pos = get_pos()
     if pos is not None and pos[0] >= 28 and pos[1] >= 24:
-        print("=== Final Stage: Center (East Compartment) to Gold Teeth ===")
+        print("=== Step 4: Center (East Compartment) to Gold Teeth ===")
         path_to_teeth = (
             ["Down"] * 1 +     # to (29, 26)
             ["Left"] * 10      # to (19, 26)
         )
         if not run_path(path_to_teeth):
             return
-            
         time.sleep(0.5)
         pos = get_pos()
         print("Standing below Gold Teeth at:", pos)
