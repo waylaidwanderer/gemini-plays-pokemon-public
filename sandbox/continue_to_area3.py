@@ -87,10 +87,11 @@ def main():
     if pos[0] >= 15 and pos[1] <= 10:
         print("=== Phase 2: Area 1 (East) to Area 2 (North) ===")
         # Walk Up to (20, 5), then Left to (0, 5) transition
-        up_steps = pos[1] - 5
         path_area1_rem = (
-            ["Up"] * up_steps +
-            ["Left"] * 21
+            ["Up"] * 2 +       # to (20, 3)
+            ["Left"] * 13 +    # to (7, 3)
+            ["Down"] * 2 +     # to (7, 5)
+            ["Left"] * 8       # to (0, 5) transition
         )
         if not run_path(path_area1_rem, check_warp=True):
             return
