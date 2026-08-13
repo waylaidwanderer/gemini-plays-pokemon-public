@@ -1,84 +1,124 @@
-import bridge
+# Script to probe descending Columns 12 to 17 from Row 21 to Row 28 to find the path to the Pokemon Center.
 import time
 import sys
+import bridge
 
 sys.stdout.reconfigure(encoding='utf-8')
 
 def get_pos():
-    for _ in range(4):
-        pos = bridge.get_coordinates()
-        if pos is not None:
-            return pos[0], pos[1]
-        time.sleep(0.1)
-    return None
-
-def handle_battle():
-    print("Wild battle detected! Escaping...")
-    for _ in range(4):
-        bridge.press_buttons(["B", "sleep 250"])
-    bridge.press_buttons(["Down", "sleep 250", "Right", "sleep 250", "A", "sleep 1200"])
-    for _ in range(3):
-        bridge.press_buttons(["B", "sleep 200"])
-
-def walk_step_robust(direction):
-    pos = get_pos()
+    pos = bridge.get_coordinates()
     if pos is None:
-        handle_battle()
         return None
-        
-    bridge.press_buttons([direction])
+    return pos[0], pos[1]
+
+def walk_step(direction):
+    bridge.press_buttons([direction, "sleep 250"])
+    return get_pos()
+
+def test_descent_on_col(col):
+    print(f"\n--- Testing descent on Column {col} ---")
+    pos = get_pos()
+    current_x = pos[0]
     
-    # Wait for position to change
-    for _ in range(5):
-        time.sleep(0.15)
-        new_pos = get_pos()
-        if new_pos is None:
-            time.sleep(1.0)
-            new_pos = get_pos()
-            if new_pos is None:
-                handle_battle()
-                return None
-            else:
-                return new_pos
-        if new_pos != pos:
-            return new_pos
+    # Move horizontally to the target column on Row 21
+    if current_x < col:
+        print(f"Moving Right to Column {col}...")
+        for _ in range(col - current_x):
+            walk_step("Right")
+    elif current_x > col:
+        print(f"Moving Left to Column {col}...")
+        for _ in range(current_x - col):
+            walk_step("Left")
             
-    print(f"Bumping/stuck at {pos} walking {direction}!")
-    return pos
+    pos = get_pos()
+    print(f"At {pos} on Row 21")
+    if pos[0] != col:
+        print(f"Failed to reach Column {col} on Row 21")
+        return False
+        
+    # Face Down and take a step Down.
+    # To handle the turn-in-place, we do walk_step twice or check coordinate change
+    print("Attempting to walk Down...")
+    pos_before = get_pos()
+    walk_step("Down") # Turn Down
+    pos_after = walk_step("Down") # Step Down
+    
+    if pos_after[1] > pos_before[1]:
+        print(f"SUCCESS! Column {col} is open to Row {pos_after[1]}!")
+        # Continue descending to Row 28
+        current_y = pos_after[1]
+        blocked = False
+        while current_y < 28:
+            pos_before = get_pos()
+            pos = walk_step("Down")
+            print(f"Down to: {pos}")
+            if pos == pos_before:
+                print(f"Blocked at Row {pos_before[1]}!")
+                blocked = True
+                break
+            current_y = pos[1]
+            
+        if not blocked:
+            print("Successfully descended to Row 28! Walking to Pokemon Center...")
+            # Walk to Column 19
+            pos = get_pos()
+            steps_right = 19 - pos[0]
+            if steps_right > 0:
+                for _ in range(steps_right):
+                    walk_step("Right")
+            elif steps_right < 0:
+                for _ in range(-steps_right):
+                    walk_step("Left")
+            # Enter
+            print("Entering Pokemon Center...")
+            walk_step("Up")
+            time.sleep(1.0)
+            print(f"Inside? Coords: {get_pos()}")
+            return True
+            
+    # If blocked, walk back UP to Row 21
+    pos = get_pos()
+    current_y = pos[1]
+    if current_y > 21:
+        print("Walking back Up to Row 21...")
+        for _ in range(current_y - 21):
+            walk_step("Up")
+    return False
 
 def main():
-    print("=== PROBING WALKABILITY FROM (6, 23) TO THE EAST ===")
-    
-    # Close battle first
-    print("Dismissing 'Got away safely!' screen...")
-    bridge.press_buttons(["B", "sleep 500"])
-    time.sleep(1.0)
-    
+    print("=== PROBING CENTRAL COLUMNS FROM ROW 21 ===")
     pos = get_pos()
-    print("Initial position after battle:", pos)
+    print(f"Starting at {pos}")
     if pos is None:
-        handle_battle()
-        pos = get_pos()
-        if pos is None:
-            print("Failed to get starting position!")
+        return
+        
+    # We are at (6, 32)
+    # Walk Left to Column 1
+    print("Walking Left to Column 1...")
+    for _ in range(5):
+        walk_step("Left")
+    pos = get_pos()
+    print(f"At {pos}")
+    if pos != (1, 32):
+        print("Failed to reach (1, 32)")
+        return
+        
+    # Walk Up Column 1 to Row 21
+    print("Walking Up to Row 21...")
+    for i in range(11):
+        pos = walk_step("Up")
+        print(f"Up {i+1}: {pos}")
+    if pos != (1, 21):
+        print("Failed to reach (1, 21)")
+        return
+        
+    # Test Columns 12, 13, 14, 15, 16, 17
+    for col in [12, 13, 14, 15, 16, 17]:
+        if test_descent_on_col(col):
+            print("Successfully entered Pokemon Center!")
             return
             
-    # Try to walk Right along Row 23
-    current_pos = pos
-    for i in range(15):
-        print(f"Walking Right from {current_pos}...")
-        new_pos = walk_step_robust("Right")
-        if new_pos is None:
-            # Battle occurred, let's wait
-            time.sleep(1.0)
-            new_pos = get_pos()
-            if new_pos is None:
-                handle_battle()
-                continue
-        if new_pos == current_pos:
-            print(f"BUMPED! Cannot walk Right past {current_pos} on Row {current_pos[1]}")
-            break
-        current_pos = new_pos
-        
+    print("All Columns 12-17 are blocked. Script finished.")
+
 if __name__ == "__main__":
     main()
