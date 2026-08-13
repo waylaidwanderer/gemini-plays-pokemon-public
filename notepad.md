@@ -965,6 +965,10 @@
 - Blue roof canopies at (12, 15), (18, 25), (33, 25), and (18, 10) are SOLID BUILDING ROOF EDGES / CANOPIES (NOT open staircases).
 - West-East Traversal: West Celadon (x<=18) connects to East Celadon (x>=36) via Route 7 / Saffron West Gatehouse / Saffron Row 7 gap (17, 7) / Saffron East Gatehouse / Route 7 to East Celadon (49, 11).
 - Turn 53404 Empirical Bump Test: Tile (18, 10) is a SOLID BUILDING ROOF EDGE (player bumped facing Down at 18, 9). Confirms Northern Highway terminates at (18, 9).
+### Game Corner Door Approach Topology (Turn 53530)
+- Door at Celadon City (17, 13) faces NORTH onto Row 12/13 ground.
+- Rows 14 and 15 (x=13..21, y=14..15) are the SOLID blue building roof canopy.
+- Master Approach to Door (17, 13): From Row 16 street (x=17..22, y=16), walk East to Column 22 at (22, 16), walk North 4 steps along Column 22 to Row 12 at (22, 12), walk West 5 steps along Row 12 to (17, 12), and step Down into door at (17, 13).
 
 <hr>
 
