@@ -31,14 +31,6 @@
 - Walk LEFT to Column 0 Row 20: `(0, 20)`.
 - Walk UP Column 0 to Row 13: `(0, 13)` (transitions to Safari Zone Center northwest compartment at `(29, 25)`).
 
-## Phase 5: Retrieve Gold Teeth (Center Northwest Compartment)
-- From `(29, 25)` inside Center:
-- Walk DOWN to `(29, 26)`.
-- Walk LEFT to Column 19: `(19, 26)`.
-- Walk UP to `(19, 25)` to pick up the **Gold Teeth**!
-- Walk RIGHT to Column 29: `(29, 26)`.
-- Walk UP to `(29, 25)` to transition back to Area 3 (West) at `(0, 13)`.
-
 ## Phase 6: Retrieve Surf (Secret House)
 - From `(0, 13)` inside Area 3 (West):
 - Walk UP Column 0 to Row 8: `(0, 8)`.
