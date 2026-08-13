@@ -1,4 +1,4 @@
-# Complete robust script to retrieve the Gold Teeth using the plateau path from (2, 9)
+# Ultimate ground-level script to retrieve the Gold Teeth from (2, 8) inside Area 3 (West)
 import time
 import sys
 import bridge
@@ -90,13 +90,13 @@ def main():
         if pos is None:
             return
 
-    # Step 3: Run the verified path from (2, 9) to warp transition
-    if pos[1] == 9 and pos[0] == 2:
-        print("=== Step 3: Navigating to Warp Transition via Row 8 Gap ===")
+    # Step 3: Run the verified path from (2, 8) to warp transition via Row 6 Gap
+    if pos[1] == 8 and pos[0] == 2:
+        print("=== Step 3: Navigating to Warp Transition via Row 6 Gap ===")
         path_to_warp = (
-            ["Up"] * 1 +       # to (2, 8)
-            ["Left"] * 2 +     # to (0, 8) (going through Row 8 gap at 1, 8)
-            ["Down"] * 5       # transition to Center (East Compartment) at (0, 13)
+            ["Up"] * 2 +       # to (2, 6)
+            ["Left"] * 2 +     # to (0, 6) (going through Row 6 gap at 1, 6)
+            ["Down"] * 7       # transition to Center (East Compartment) at (0, 13)
         )
         if not run_path(path_to_warp, check_warp=True):
             return
