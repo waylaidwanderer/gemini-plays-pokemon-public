@@ -1,41 +1,93 @@
+# Robust script to exit the Fuchsia Pokemon Center using waypoints to avoid potted plants.
 import time
+import sys
 import bridge
 
-print("Starting exit_center.py from inside...")
+sys.stdout.reconfigure(encoding='utf-8')
 
-# Check current coordinates
-pos = bridge.get_coordinates()
-print(f"Current coordinates inside Pokémon Center: {pos}")
+def get_pos():
+    pos = bridge.get_coordinates()
+    if pos is None:
+        return None
+    return pos[0], pos[1]
 
-if pos is not None:
-    # Walk Left to Column 3 on Row 5 (or current row if we can)
-    # If we are on Row 4, let's walk Down to Row 5 first
-    if pos[1] == 4:
-        print("Walking DOWN to Row 5...")
-        bridge.press_buttons(["Down"])
-        time.sleep(0.6)
-        pos = bridge.get_coordinates()
-        
-    if pos is not None:
-        steps_left = pos[0] - 3
-        print(f"Walking LEFT {steps_left} steps to Column 3...")
-        for _ in range(steps_left):
-            bridge.press_buttons(["Left"])
-            time.sleep(0.6)
+def walk_step(direction):
+    bridge.press_buttons([direction, "sleep 250"])
+    return get_pos()
+
+def walk_to(target_x, target_y):
+    print(f"Navigating to ({target_x}, {target_y})...")
+    stuck_count = 0
+    last_pos = None
+    
+    while True:
+        pos = get_pos()
+        if pos is None:
+            time.sleep(0.5)
+            continue
             
-        pos = bridge.get_coordinates()
-        print(f"Coordinates: {pos}")
-        
-        # Walk Down 3 steps to exit
-        print("Walking DOWN to exit...")
-        for _ in range(3):
-            bridge.press_buttons(["Down"])
-            time.sleep(0.6)
+        if pos == (target_x, target_y):
+            print(f"Arrived at {pos}")
+            break
             
-        # Give a little extra time for the transition
-        time.sleep(1.5)
+        if pos == last_pos:
+            stuck_count += 1
+            if stuck_count > 4:
+                print(f"Stuck at {pos} while trying to reach ({target_x}, {target_y})!")
+                return False
+        else:
+            stuck_count = 0
+            last_pos = pos
+            
+        curr_x, curr_y = pos
+        if curr_x < target_x:
+            walk_step("Right")
+        elif curr_x > target_x:
+            walk_step("Left")
+        elif curr_y < target_y:
+            walk_step("Down")
+        elif curr_y > target_y:
+            walk_step("Up")
+            
+    return True
+
+def main():
+    print("=== EXITING POKEMON CENTER ===")
+    pos = get_pos()
+    print(f"Starting at {pos}")
+    if pos is None:
+        return
         
-        pos = bridge.get_coordinates()
-        print(f"Coordinates outside: {pos}")
-else:
-    print("Failed to get coordinates.")
+    # We are at (13, 4)
+    # Waypoint 1: Walk to (11, 5) (bypasses PC counter)
+    if not walk_to(11, 5):
+        return
+        
+    # Waypoint 2: Walk to (11, 6)
+    if not walk_to(11, 6):
+        return
+        
+    # Waypoint 3: Walk to (8, 6)
+    if not walk_to(8, 6):
+        return
+        
+    # Waypoint 4: Walk to (8, 5)
+    if not walk_to(8, 5):
+        return
+        
+    # Waypoint 5: Walk to (3, 5)
+    if not walk_to(3, 5):
+        return
+        
+    # Waypoint 6: Walk to (3, 7) (entrance mat)
+    if not walk_to(3, 7):
+        return
+        
+    # Step 7: Step DOWN to exit
+    print("Stepping DOWN to exit...")
+    bridge.press_buttons(["Down", "sleep 1000"])
+    pos = get_pos()
+    print(f"Final coords outside: {pos}")
+
+if __name__ == "__main__":
+    main()
