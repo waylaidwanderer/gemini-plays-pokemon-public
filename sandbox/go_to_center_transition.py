@@ -87,7 +87,7 @@ def run_path(path, check_warp=False):
     return True
 
 def main():
-    print("=== TRANSITIONING TO SAFARI ZONE CENTER ===")
+    print("=== WEST DETOUR TO SAFARI ZONE CENTER ===")
     
     pos = get_pos()
     print("Initial position in Area 3:", pos)
@@ -97,16 +97,18 @@ def main():
         if pos is None:
             return
             
-    # Walk to the Row 26 transition
-    if pos == (19, 24):
-        path_to_transition = (
-            ["Up"] * 1 +                    # to (19, 23)
-            ["Right"] * 2 +                 # to (21, 23)
-            ["Down"] * 3 +                  # to (21, 26)
-            ["Right"] * 9                   # to (30, 26)
+    # Walk the west detour path starting from (21, 24)
+    if pos == (21, 24):
+        path_detour = (
+            ["Up"] * 6 +                    # to (21, 18)
+            ["Up"] * 2 +                    # climb East Stairs onto plateau at (21, 16)
+            ["Left"] * 15 +                 # west across plateau to (6, 16)
+            ["Down"] * 4 +                  # descend West Stairs onto western ground at (6, 20)
+            ["Down"] * 6 +                  # down to Row 26 at (6, 26)
+            ["Right"] * 24                  # right along Row 26 Highway to (30, 26) transition
         )
-        print("Walking to transition at (30, 26)...")
-        if not run_path(path_to_transition, check_warp=True):
+        print("Walking the detour path to transition...")
+        if not run_path(path_detour, check_warp=True):
             return
             
     # Wait for map transition to stabilize
