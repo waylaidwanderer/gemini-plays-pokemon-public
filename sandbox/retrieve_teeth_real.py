@@ -113,6 +113,22 @@ def main():
         pos = get_pos()
         print("Transition occurred! Position in Center (East Compartment):", pos)
 
+    # If we are currently at (4, 20) in Area 3:
+    if pos == (4, 20):
+        path_to_warp = (
+            ["Left"] * 3 +     # to (1, 20)
+            ["Up"] * 2 +       # to (1, 18)
+            ["Right"] * 2 +    # to (3, 18) (zig)
+            ["Up"] * 5 +       # to (3, 13) (climb onto Row 13 bridge!)
+            ["Left"] * 3       # to (0, 13) warp transition
+        )
+        if not run_path(path_to_warp, check_warp=True):
+            return
+            
+        time.sleep(1.0)
+        pos = get_pos()
+        print("Transition occurred! Position in Center (East Compartment):", pos)
+
     # If we are in Center (East Compartment) at (29, 25):
     pos = get_pos()
     if pos is not None and pos[0] >= 28 and pos[1] >= 24:
