@@ -90,16 +90,12 @@ def main():
         if pos is None:
             return
 
-    # Step 1: Walk to return to Area 2 (North) via Column 25/26
-    if pos[1] >= 20 and pos[0] >= 15:
+    # Step 1: Walk to return to Area 2 (North) via Column 26
+    if pos == (25, 2):
         print("=== Step 1: Walking back to Area 2 (North) ===")
         path_to_area2 = (
-            ["Right"] * 2 +    # to (21, 24)
-            ["Up"] * 6 +       # to (21, 18)
-            ["Right"] * 4 +    # to (25, 18)
-            ["Up"] * 18 +      # to (25, 0)
-            ["Right"] * 1 +    # to (26, 0)
-            ["Up"] * 1         # transition to Area 2 (North)
+            ["Right"] * 1 +    # to (26, 2)
+            ["Up"] * 3         # transition to Area 2 (North) at (8, 35)
         )
         if not run_path(path_to_area2, check_warp=True):
             return
