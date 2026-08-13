@@ -1296,6 +1296,9 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - **Northeastern/Northern Barriers:**
   - Row 4 is blocked by trees at columns 20-27.
   - Row 3 is blocked by a tree at `(28, 3)`.
+  - Row 5 Column 19 is a solid cliff face, completely blocking horizontal Left traversal from Column 20.
+  - Column 20 Hedge/Tree at Row 4 and Row 6 has 0% collision, allowing players to walk UP through it from Row 5 to Row 3.
+  - Row 3 is completely open horizontally from Column 20 to Column 7, serving as the northern ground bypass corridor.
 
 ### Key Bridges & Plateaus
 - **The Northern Plateau Island:** Raised cliff system at columns 11-18, rows 4-7. This serves as the ONLY physical bridge connecting the western ground level to the eastern ground level.
