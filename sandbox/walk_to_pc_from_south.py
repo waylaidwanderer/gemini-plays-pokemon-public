@@ -1,4 +1,4 @@
-# Script to walk to the PC from the south-east area via Column 24 and Column 22
+# Script to walk to the PC from (24, 16) in Fuchsia City
 import time
 import sys
 import bridge
@@ -6,16 +6,10 @@ import bridge
 sys.stdout.reconfigure(encoding='utf-8')
 
 PATH_TO_PC = [
-    # Walk Up Column 24 to Row 14
-    "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", # to (24, 14)
-    # Walk Left to Column 22
-    "Left", "Left", # to (22, 14)
-    # Walk Down Column 22 to Row 28 (jumps the ledge at (22, 22))
-    "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", # to (22, 28)
-    # Walk Left to Column 19
+    "Left", "Left", # to (22, 16)
+    "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", # to (22, 28)
     "Left", "Left", "Left", # to (19, 28)
-    # Enter PC
-    "Up"
+    "Up" # enter PC
 ]
 
 def get_pos():
@@ -81,7 +75,7 @@ def main():
     pos = get_pos()
     print("Starting at:", pos)
     
-    if pos == (24, 31):
+    if pos == (24, 16):
         run_path(PATH_TO_PC, check_warp=True)
         time.sleep(2.0)
         
