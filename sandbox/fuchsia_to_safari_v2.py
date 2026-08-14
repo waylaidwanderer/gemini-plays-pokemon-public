@@ -1,4 +1,4 @@
-# Script to walk from (26, 14) to the Safari Gatehouse
+# Script to walk from (23, 8) around the NPC to the Safari Gatehouse
 import time
 import sys
 import bridge
@@ -6,15 +6,15 @@ import bridge
 sys.stdout.reconfigure(encoding='utf-8')
 
 PATH_TO_GATEHOUSE = [
-    # Walk Up Column 26 to Row 9
-    "Up", "Up", "Up", "Up", "Up", # to (26, 9)
-    # Walk Left to Column 19
-    "Left", "Left", "Left", "Left", "Left", "Left", "Left", # to (19, 9)
+    # Walk Down to Row 9
+    "Down", # to (23, 9)
+    # Walk Right to Column 26
+    "Right", "Right", "Right", # to (26, 9)
     # Walk Up to Row 8
-    "Up", # to (19, 8)
+    "Up", # to (26, 8)
     # Walk Right along Row 8 to Column 37
     "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right",
-    "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", # to (37, 8)
+    "Right", # to (37, 8)
     # Walk Up Column 37 to Row 2
     "Up", "Up", "Up", "Up", "Up", "Up", # to (37, 2)
     # Walk Left along Row 2 to Column 22
@@ -91,7 +91,7 @@ def main():
     pos = get_pos()
     print("Starting at:", pos)
     
-    if pos == (26, 14):
+    if pos == (23, 8):
         run_path(PATH_TO_GATEHOUSE, check_warp=True)
         time.sleep(2.0)
         
