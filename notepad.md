@@ -748,11 +748,11 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 54222)
-- Location: Celadon City at (20, 11).
+## CURRENT STATUS & DASHBOARD (Turn 54225)
+- Location: West Celadon City at (33, 8).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Secondary Goal: Ascend Column 20 to Row 9 Northern Highway -> cross East to Column 36 -> South to Main Casino at (30, 35).
-- Active Strategy: Up 2 to Row 9 at (20, 9) -> Right 16 to Column 36 at (36, 9) -> Down 21 through tree gap (36, 28) to Row 30 at (36, 30) -> Left 6 to (30, 30) -> Down 5 into Main Casino door at (30, 35).
+- Secondary Goal: Travel West through Route 7 & Saffron City to East Celadon -> Main Casino at (30, 35).
+- Active Strategy: Left 13 along Row 8 Highway to Column 20 at (20, 8) -> Left 10 to Column 10 at (10, 8) -> Up 3 to Row 5 (10, 5) -> Left 10 to Route 7 boundary (0, 5).
 
 <hr>
 
