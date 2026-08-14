@@ -1156,47 +1156,12 @@ Systematically probe every potential building doorway and alleyway warp in South
 ### Main Hideout Staircase Access (Verified Turn 47646)
 - Staircase (4, 4) in Celadon Game Corner is the secret staircase leading directly down to Rocket Hideout B1F (5, 4).
 - From B1F (5, 4), explore West/South through B1F corridors to navigate through Rocket Hideout and reach lower floors B2F/B3F/B4F to battle Giovanni and obtain the Silph Scope.
-### Systematic Spin Tile Audit Protocol & Log (Turn 47671)
-- Method: From Column 2 Control Highway (2, y), step Right onto (3, y) to observe spin trajectory.
+### Systematic Spin Tile Audit Summary (Turns 47671 - 51721)
+- Method: Stepping Right onto (3, y) from Column 2 Control Highway (2, y).
 - Row y=3: Spins UP to wall y=2.
-- Row y=8: Spins DOWN to (3, 8).
-- Row y=9: Normal floor (no spin).
-- Row y=39: Normal floor (no spin).
-- Row y=40: Normal floor (no spin).
-- Row y=7: Spins DOWN to (3, 7).
-- Row y=6: Spins DOWN to (3, 6).
-- Row y=5: Spins DOWN to (3, 5).
-- Row y=4: Spins DOWN to (3, 4).
-- Row y=10: Spins DOWN to (3, 10).
-- Row y=11: Spins DOWN to (3, 11).
-- Row y=12: Spins DOWN to (3, 12).
-- Row y=13: Spins DOWN to (3, 13).
-- Row y=14: Spins DOWN to (3, 14).
-- Row y=15: Spins DOWN to (3, 15).
-- Row y=16: Spins DOWN to (3, 16).
-- Row y=17: Spins DOWN to (3, 17).
-- Row y=18: Spins DOWN to (3, 18).
-- Row y=19: Spins DOWN to (3, 19).
-- Row y=20: Spins DOWN to (3, 20).
-- Row y=21: Spins DOWN to (3, 21).
-- Row y=22: Spins DOWN to (3, 22).
-- Row y=23: Spins DOWN to (3, 23).
-- Row y=24: Spins DOWN to (3, 24).
-- Row y=25: Spins DOWN to (3, 25).
-- Row y=26: Spins DOWN to (3, 26).
-- Row y=27: Spins DOWN to (3, 27).
-- Row y=28: Spins DOWN to (3, 28).
-- Row y=29: Spins DOWN to (3, 29).
-- Row y=30: Spins DOWN to (3, 30).
-- Row y=31: Spins DOWN to (3, 31).
-- Row y=32: Spins DOWN to (3, 32).
-- Row y=33: Spins DOWN to (3, 33).
-- Row y=34: Spins DOWN to (3, 34).
-- Row y=35: Spins DOWN to (3, 35).
-- Row y=36: Spins DOWN to (3, 36).
-- Row y=37: Spins DOWN to (3, 37).
-- Row y=38: Spins DOWN to (3, 38).
-- RE-AUDIT IN PROGRESS (Turn 51721): Re-testing all 38 rows (Cols 2..5, Rows 3..40) from Column 2 Control Highway to verify if an Eastward spin tile or passage exists leading to the main eastern B1F floor / lower stairs.
+- Rows y=4..8 & y=10..38: All spin DOWN to south landing tiles.
+- Rows y=9, y=39, y=40: Normal floor tiles (no spin).
+- Conclusion: West spin corridor is an enclosed loop with no Eastward exit. Access to main hideout is via Main Game Corner Casino.
 ## Master Topological Synthesis & Main Casino Strategy (Turn 49022)
 - Enclosed West Loop: Cols 2..5 (y=3..41) is a closed 4-column corridor bounded by x=1 (left) and x=6 (right). Stairs (5, 4) and (2, 41) both connect to the Nidoran Trade Sub-room at Celadon City (17, 27).
 - True Main Rocket Hideout Access: Located inside the Main Game Corner Casino at Central-South Celadon City (30, 34) / (30, 35).
