@@ -80,9 +80,6 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - **Northeastern/Northern Barriers:**
   - Row 4 is blocked by trees at columns 20-27.
   - Row 3 is blocked by a tree at `(28, 3)`.
-  - Row 5 Column 19 is a solid cliff face, completely blocking horizontal Left traversal from Column 20.
-  - Column 20 Hedge/Tree at Row 4 and Row 6 has 0% collision, allowing players to walk UP through it from Row 5 to Row 3.
-  - Row 3 is completely open horizontally from Column 20 to Column 7, serving as the northern ground bypass corridor.
 
 ### Key Bridges & Plateaus
 - **The Northern Plateau Island:** Raised cliff system at columns 11-18, rows 4-7. This serves as the ONLY physical bridge connecting the western ground level to the eastern ground level.
@@ -170,3 +167,8 @@ We have empirically verified that Column 28 is 100% OPEN and walkable on Rows 12
   - This forms an interlocking hedge maze that completely prevents ground-level vertical passage from the Northwest Compartment of Center to the South/East Compartment.
 - **Pond & Rest House 1 in Center:** Completely block the middle-western ground level on Rows 10-15 across Columns 9-19.
 - **Center Compartment Wrapping:** The Northwest Compartment of Center is completely isolated from the South/East Compartment. Transitioning RIGHT from Area 3 (West) on Row 23/26 always warps the player into this isolated Northwest Compartment of Center. To enter the South/East Compartment (containing the Warden's Gatehouse warp), we must enter directly from the Gatehouse entrance at (15, 25).
+
+## ⚡ Super-Optimized Ground-Level Transition Route (Bypass Route)
+- **Area 3 (West) to Safari Zone Center direct warp:** Emerge at (30, 23) in Area 3 (West), walk RIGHT 1 step to transition directly to (0, 11) in Safari Zone Center.
+- **Safari Zone Center to Area 3 (West) direct warp:** Stand at (0, 11) in Safari Zone Center, walk LEFT 1 step to transition directly to (29, 23) in Area 3 (West).
+- This shortcut completely bypasses the Area 1 (East) and Area 2 (North) plateau detours for subsequent trips once inside the Northwest Compartment of Safari Zone Center.
