@@ -1193,7 +1193,6 @@ We have empirically verified that Column 28 is 100% OPEN and walkable on Rows 12
 ## Gold Teeth Location
 - **Gold Teeth:** Located at `(19, 25)` inside **Area 3 (West)** on the southern ground level!
 - **CRITICAL STEP:** To pick them up, the player MUST stand at `(19, 24)` (directly above the teeth), face **DOWN** (south), and press **A**!
-- *Note:* In previous runs, we stood at `(19, 24)` but faced UP instead of DOWN, which caused the pick up to fail. Always ensure you face DOWN!
 
 ## Step-by-Step Walkable Golden Route (Start to Teeth)
 
@@ -1235,25 +1234,22 @@ We have empirically verified that Column 28 is 100% OPEN and walkable on Rows 12
 9. Walk DOWN 5 steps through the statue gap at `(8, 34)` to `(8, 35)`.
 10. Walk DOWN 1 step to transition to Area 3 (West) at `(26, 0)`.
 
-### Phase 4: Area 3 (West) to Gold Teeth
+### Phase 4: Area 3 (West) to Gold Teeth & Back
 1. Emerge in Area 3 (West) at `(26, 0)`.
 2. Walk DOWN 2 steps to `(26, 2)`.
 3. Walk LEFT 1 step to `(25, 2)`.
 4. Walk DOWN 16 steps along Column 25 to `(25, 18)`.
 5. Walk LEFT 4 steps to `(21, 18)`.
-6. Walk UP 2 steps (climbing East Stairs) to `(21, 16)` on the plateau.
-7. Walk LEFT 15 steps across the plateau to `(6, 16)`.
-8. Walk DOWN 4 steps (descending West Stairs) to `(6, 20)`.
-9. Walk LEFT 5 steps to `(1, 20)`.
-10. Walk UP 2 steps to `(1, 18)`.
-11. Walk RIGHT 2 steps to `(3, 18)`.
-12. Walk UP 5 steps to `(3, 13)` (climb onto Row 13 bridge/water).
-    - Since we have Surf, we can Surf on `(3, 13)` water!
-13. Surf LEFT 3 steps to `(0, 13)` warp.
-14. Emerge in Center (East Compartment) at `(29, 25)`.
-15. Walk DOWN 1 step to `(29, 26)`.
-16. Walk LEFT 10 steps along Row 26 to `(19, 26)`.
-17. Face UP, press A, pick up the Gold Teeth!
+6. Walk DOWN 6 steps along Column 21 to `(21, 24)`.
+7. Walk LEFT 2 steps to Column 19 at `(19, 24)`.
+8. Stand at `(19, 24)` facing **DOWN** (south).
+9. Press **A** to pick up the Gold Teeth!
+
+### Phase 5: Super-Optimized Ground-Level Transition Route (Between Center & Area 3)
+- From `(0, 11)` in Safari Zone Center, walk LEFT 1 step to transition directly to `(29, 23)` in Area 3 (West).
+- From `(29, 23)` in Area 3 (West), walk LEFT 10 steps to `(19, 23)`.
+- Walk DOWN 1 step to `(19, 24)`.
+- Face DOWN and press **A** to pick up the Gold Teeth!
 
 <hr>
 
