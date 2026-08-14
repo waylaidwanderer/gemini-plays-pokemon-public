@@ -1,10 +1,10 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 53911)
-- Location: Route 7 West at (73, 15).
+## CURRENT STATUS & DASHBOARD (Turn 53924)
+- Location: Celadon City at (11, 4) outside Celadon Pokémon Center.
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Secondary Goal: Probe Row 16 south passage at (79, 16) -> (80, 16) around Column 80 statue wall to access Underground Path Entrance Building / Row 10 Pavement Highway.
-- Active Strategy: Run from battle -> walk Right from (73, 15) along Row 15 to (79, 15) -> step Down 1 to Row 16 at (79, 16) -> step Right to probe (80, 16) to bypass Column 80 statue wall and enter Underground Path Entrance Building or East Route 7 highway.
+- Secondary Goal: Enter Main Game Corner Casino Floor at Celadon City (17, 13).
+- Active Strategy: Walk Down 12 to Row 16 at (11, 16) -> Right 11 to Column 22 at (22, 16) -> Up 4 to Row 12 at (22, 12) -> Left 5 to (17, 12) -> Down into door at (17, 13) to enter Main Casino Floor at (3, 7).
 
 <hr>
 
