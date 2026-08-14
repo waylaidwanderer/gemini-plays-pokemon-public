@@ -1,10 +1,10 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 54074)
-- Location: Route 7 West boundary at (0, 7) [exited Celadon City East boundary].
+## CURRENT STATUS & DASHBOARD (Turn 54078)
+- Location: Route 7 at (0, 7).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Secondary Goal: Re-enter East Celadon at (49, 15) -> South to Row 30 South Street -> West to Game Corner Plaza warp (20, 36).
-- Active Strategy: Walk Left 1 step into Celadon City (49, 15) -> South 15 steps to Row 30 South Street (49, 30) -> Left 29 steps to Column 20 (20, 30) -> South 6 steps to warp (20, 36).
+- Secondary Goal: Travel East along Route 7 to (89, 11) -> enter Celadon City South Street at (0, 18) -> Game Corner Plaza warp (20, 36).
+- Active Strategy: Walk Right 9 steps along Row 7 to (9, 7) -> Down 10 steps to Row 17 (9, 17) -> East to (89, 11) -> enter Celadon South Street (0, 18) -> Game Corner Plaza warp (20, 36).
 
 <hr>
 
