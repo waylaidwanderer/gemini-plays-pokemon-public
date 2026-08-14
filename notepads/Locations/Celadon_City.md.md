@@ -1,16 +1,16 @@
 # Verified Celadon City Topography & Points of Interest
 
-## Key Buildings & Warps
-- Route 7 Entrance (West): Tile (0, 5) / (0, 7) connects West to Route 7.
-- Route 7 Entrance (East): Tile (49, 11) / (49, 15) connects East to Route 7.
+## Key Buildings & Warps (Verified Turn 54414)
+- Celadon Gym: Door at (12, 19) accessed via Cut tree at (15, 18) -> (15, 20) -> (12, 20) -> (12, 19).
+- Celadon Poke Mart: Door at (23, 13) [sign "MART" at (24, 13)].
+- Celadon Prize Exchange: Door at (23, 19).
+- Celadon Mansion 1F: Door at (9, 13).
+- Celadon Trade House (Farfetch'd trade): Door at (15, 13).
+- Northwest House: Door at (7, 3) / (11, 3).
 - Celadon Pokemon Center: Door at (41, 9).
-- Celadon Department Store: Door at (13, 15).
-- Celadon Diner: Door at (29, 29).
-- Celadon Mansion: Door at (17, 13).
-- Prize Exchange Room: Door at (25, 25).
-- Northwest Building: Door at (7, 3) / (11, 3).
-- Main Game Corner Casino Entrance: Located in South Celadon City at tile (30, 35) [approached via Column 36 tree gap at (36, 28) -> Row 30 South Street at (36, 30) -> West to Column 30 at (30, 30) -> South into door (30, 35)].
-- Game Corner Plaza Warp: Tile (20, 36) in Celadon City warps directly into Game Corner Plaza at (10, 0).
+- East Gatehouse (to Route 7): Door at (44, 13).
+- Route 7 Entrance (West): Tile (0, 18) / (0, 19).
+- Route 7 Entrance (East): Tile (39, 14) / (40, 14).
 
 ## City Sector Separation
 - Central/West Celadon (x<=34) and East Celadon (x>=35) are separated outdoors by a continuous barrier of double barrels, pond water, and statues.
