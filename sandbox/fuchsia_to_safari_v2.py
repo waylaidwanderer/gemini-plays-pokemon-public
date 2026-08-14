@@ -1,17 +1,16 @@
-# Part 2A of fuchsia_to_safari: Walk from current (1, 23) to (19, 8)
+# Corrected Part 2A of fuchsia_to_safari: Walk from current (24, 16) to (19, 8)
 import time
 import sys
 import bridge
 
 sys.stdout.reconfigure(encoding='utf-8')
 
-# Coordinates from current (1, 23) to (19, 8)
-# We are currently at (1, 23)
+# Coordinates from current (24, 16) to (19, 8)
+# We are currently at (24, 16)
 PATH_2A = [
-    "Up", "Up", # to (1, 21)
-    "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", # to (24, 21)
-    "Up", "Up", "Up", "Up", "Up", "Up", "Up", # to (24, 14)
-    "Right", "Right", # to (26, 14)
+    "Left", "Left", # to (22, 16)
+    "Up", "Up",     # to (22, 14)
+    "Right", "Right", "Right", "Right", # to (26, 14)
     "Up", "Up", "Up", "Up", "Up", # to (26, 9) (passing through (26, 13) cut bush)
     "Left", "Left", "Left", "Left", "Left", "Left", "Left", # to (19, 9)
     "Up" # to (19, 8)
@@ -72,13 +71,12 @@ def run_path(path):
     return True
 
 def main():
-    print("=== FUCHSIA TO SAFARI: PART 2A ===")
+    print("=== FUCHSIA TO SAFARI: PART 2A (CORRECTED) ===")
     pos = get_pos()
     print("Starting at:", pos)
     if pos is None:
         return
         
-    # Walk the path
     run_path(PATH_2A)
     
     pos = get_pos()
