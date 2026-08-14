@@ -1,10 +1,10 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 54330)
-- Location: Celadon City at (6, 7) [East Sector].
+## CURRENT STATUS & DASHBOARD (Turn 54361)
+- Location: Celadon City at (30, 15) [East Sector Highway].
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Secondary Goal: Walk Right 5 to Column 11 at (11, 7) -> South down Column 11 Avenue past the pond -> Row 30 South Street -> Main Game Corner Casino at (30, 35).
-- Active Strategy: Right 5 along Row 7 to Column 11 (11, 7) -> Down along Column 11 Avenue past y=11 -> Row 30 South Street -> West to Column 30 -> South to Main Casino door at (30, 35).
+- Secondary Goal: Walk West along Row 14 Highway to Column 17 at (17, 14) -> North into Main Casino door at (17, 13).
+- Active Strategy: Row 14 Highway West to Column 17 at (17, 14) -> Step Up into Main Casino door at (17, 13) -> Defeat Rocket Grunt at (17, 1) -> Press poster switch -> Enter secret staircase at (4, 4) to Rocket Hideout B1F.
 
 <hr>
 
