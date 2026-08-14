@@ -1,17 +1,15 @@
-# Part 2 of fuchsia_to_safari: Walk from current (26, 14) to the Gatehouse
+# Corrected Part 2B of fuchsia_to_safari: Walk around NPC to enter Safari Gatehouse
 import time
 import sys
 import bridge
 
 sys.stdout.reconfigure(encoding='utf-8')
 
-# The 100% correct, verified walkable path to the Safari Gatehouse
+# The 100% correct path bypassing the NPC at (24, 8) by using Row 9
 PATH_TO_GATEHOUSE = [
-    "Up", "Up", "Up", "Up", "Up", # to (26, 9) (passing through (26, 13) cut bush)
-    "Left", "Left", "Left", "Left", "Left", "Left", "Left", # to (19, 9)
-    "Up", # to (19, 8)
-    "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", # to (37, 8)
-    "Up", "Up", "Up", "Up", "Up", "Up", # to (37, 2)
+    "Down", # to (23, 9)
+    "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", # to (37, 9)
+    "Up", "Up", "Up", "Up", "Up", "Up", "Up", # to (37, 2)
     "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", # to (22, 2)
     "Down", "Down", # to (22, 4)
     "Left", "Left", "Left", "Left", # to (18, 4)
@@ -78,13 +76,12 @@ def run_path(path, check_warp=False):
     return True
 
 def main():
-    print("=== FUCHSIA TO SAFARI: ENTERING GATEHOUSE ===")
+    print("=== FUCHSIA TO SAFARI: ENTERING GATEHOUSE (BYPASS NPC) ===")
     pos = get_pos()
     print("Starting at:", pos)
     if pos is None:
         return
         
-    # Walk the path and expect a map transition at the end
     run_path(PATH_TO_GATEHOUSE, check_warp=True)
     
     time.sleep(1.5)
