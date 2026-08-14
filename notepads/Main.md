@@ -1,5 +1,5 @@
-## CURRENT STATUS & DASHBOARD (Turn 53731)
-- Location: Route 7 at (76, 15).
+## CURRENT STATUS & DASHBOARD (Turn 53755)
+- Location: Route 7 West at (79, 14).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Secondary Goal: Reach Row 16 Highway at (76, 16) via single-step probe on Route 7 West.
-- Active Strategy: From (76, 15), single-step probe Down 1 step onto Row 16 Highway at (76, 16), then walk West along Row 16 Highway to Saffron West Gatehouse at (9, 16).
+- Secondary Goal: Reach Row 11 Northern Highway via Column 76 Dirt Gap (76, 13) -> (76, 11).
+- Active Strategy: From (79, 14), walk Left 3 steps to Column 76 at (76, 14), Up 3 steps through gap (76, 13) to Row 11 Northern Highway at (76, 11), Right 13 steps along Row 11 Highway to (89, 11), Down 6 steps to Row 17/18 Main Highway at (89, 17), and Left 80 steps along Main Highway to Saffron West Gatehouse Entrance at (9, 16).
