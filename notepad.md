@@ -748,11 +748,11 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 54091)
-- Location: Route 7 outside Saffron West Gatehouse at (11, 15).
+## CURRENT STATUS & DASHBOARD (Turn 54102)
+- Location: Saffron City at (15, 11).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Secondary Goal: Enter Saffron West Gatehouse door at (11, 17) -> exit East door (7, 2) into Saffron City (8, 2).
-- Active Strategy: Step Down 2 steps into gatehouse door (11, 17) -> Right 5 steps, Up 5 steps to East door (7, 2) -> exit into Saffron City (8, 2) -> Saffron East Gatehouse -> East Celadon South Street (0, 18).
+- Secondary Goal: Cross Saffron City via Row 7 gap (17, 7) -> Saffron East Gatehouse (42, 17) -> East Celadon South Street (0, 18).
+- Active Strategy: Walk Up 4 steps to Row 7 (15, 7) -> Right 2 steps through fence gap (17, 7) to East Saffron -> South 10 steps to Row 17 -> East to Saffron East Gatehouse (42, 17).
 
 <hr>
 
