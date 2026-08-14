@@ -2,7 +2,7 @@
 
 ## Active Objectives & Milestones
 - **Primary Goal:** Obtain HM04 (Strength) from the Warden in Fuchsia City.
-- **Secondary Goal:** Give the Gold Teeth to the Warden in Fuchsia City to obtain HM04 (Strength).
+
 - **Last Gym Completed:** Defeated Gym Leader Koga in Fuchsia City Gym on Turn 20797 (Soul Badge).
 
 ## Notepads Directory
