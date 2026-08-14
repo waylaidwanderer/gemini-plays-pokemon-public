@@ -1,6 +1,6 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 53761)
+## CURRENT STATUS & DASHBOARD (Turn 53791)
 - Location: Route 7 West at (72, 11).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
 - Secondary Goal: Travel West along Row 11 Northern Highway from (72, 11) to Saffron West Gatehouse Entrance at (9, 11).
