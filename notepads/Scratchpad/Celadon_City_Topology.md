@@ -27,3 +27,7 @@
 ## Northwest Building Highway Passageway (Turn 50790)
 - Door at Celadon City (9, 11) enters Northwest Building at (2, 7).
 - Exiting back door at (2, 0) warps player directly onto Celadon City Northern Highway at (9, 9)!
+## Verified Column 34 Outdoor Separation Barrier (Turn 54281)
+- Column 34 (x=34) contains a continuous solid barrier of double barrels at y=5..11 and statue at y=12.
+- Outdoor traversal between West Celadon (x<=34) and East Celadon (x>=35) is 100% BLOCKED outdoors.
+- Master Route to East Celadon: Exit West Celadon at (0, 5) -> Route 7 -> Saffron West Gatehouse -> Saffron City Row 7 gap (17, 7) -> Saffron East Gatehouse -> East Celadon (49, 15) -> Column 36 at (36, 15) -> South through tree gap (36, 28) to Row 30 South Street.
