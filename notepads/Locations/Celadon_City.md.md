@@ -24,3 +24,8 @@
 4. Walk South down Column 36 through tree gap at (36, 28) to Row 30 South Street at (36, 30).
 5. Walk West 6 steps along Row 30 South Street to Column 30 at (30, 30).
 6. Walk South 5 steps along Column 30 directly into Main Game Corner Casino door at (30, 35).
+
+### Empirical Warp & Column 30 Highway Discovery (Turn 54349)
+- Exiting West Celadon via West map boundary at (0, 7) / (0, 5) warps directly to East Celadon at (39, 15).
+- Column 30 & Column 31 (x=30, x=31) is a continuous, open light gray pavement highway running South past the pond from y=15 all the way down to y=30.
+- Column 30 (x=30) aligns directly with the Main Game Corner Casino door at (30, 35).
