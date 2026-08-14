@@ -1,5 +1,5 @@
-## CURRENT STATUS & DASHBOARD (Turn 54208)
-- Location: Northwest Building 1F at (2, 1).
+## CURRENT STATUS & DASHBOARD (Turn 54213)
+- Location: Northwest Building 1F at (2, 3).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Secondary Goal: Exit South door to Celadon City -> walk West on Row 5 to Route 7 boundary (0, 5) -> Saffron City -> East Celadon -> Main Casino (30, 35).
-- Active Strategy: Left 1 to (1, 1) -> Down 6 to (1, 7) -> Right 1 to exit mat (2, 7) -> Down 1 to warp outside to Celadon City (7, 4) -> walk West along Row 5 to Route 7 boundary at (0, 5).
+- Secondary Goal: Walk to Row 2 at (2, 2) -> East to Column 6 (6, 2) -> South to Row 7 (6, 7) -> West to exit mat (3, 7) -> warp outside to Celadon City (7, 4).
+- Active Strategy: Up 1 to (2, 2) -> Right 4 to (6, 2) -> Down 5 to (6, 7) -> Left 3 to exit mat (3, 7) -> Down 1 to warp outside to Celadon City (7, 4).
