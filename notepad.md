@@ -1,10 +1,10 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 54422)
-- Location: Vermilion City at (12, 20) [Vermilion Gym Courtyard].
+## CURRENT STATUS & DASHBOARD (Turn 54451)
+- Location: Route 7 at (19, 2) [Route 7 East Gatehouse Approach].
 - Primary Goal: Infiltrate Main Rocket Hideout in Celadon City to obtain Silph Scope.
-- Secondary Goal: Travel from Vermilion City -> Route 6 -> Saffron City -> Route 7 -> Celadon City.
-- Active Strategy: Cut tree at (15, 18) to exit Vermilion Gym courtyard -> Walk north to Vermilion City north exit at (19, 0) -> Enter Route 6 -> Pass through Saffron City (guards already pacified with Fresh Water) -> West Gate -> Route 7 -> Celadon City -> Heal at Celadon Pokémon Center -> Infiltrate Game Corner Rocket Hideout.
+- Secondary Goal: Travel West across Route 7 into Celadon City.
+- Active Strategy: Walk South around barrel barrier at (17, 2..6) to Row 7 -> Walk West along Route 7 highway directly into Celadon City -> Heal at Celadon Pokémon Center -> Infiltrate Game Corner Rocket Hideout.
 
 <hr>
 
