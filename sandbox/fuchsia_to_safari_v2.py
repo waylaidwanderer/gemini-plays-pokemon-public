@@ -1,19 +1,31 @@
-# Corrected Part 2B of fuchsia_to_safari: Walk around NPC to enter Safari Gatehouse
+# Script to walk from (26, 14) to the Safari Gatehouse
 import time
 import sys
 import bridge
 
 sys.stdout.reconfigure(encoding='utf-8')
 
-# The 100% correct path bypassing the NPC at (24, 8) by using Row 9
 PATH_TO_GATEHOUSE = [
-    "Down", # to (23, 9)
-    "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", # to (37, 9)
-    "Up", "Up", "Up", "Up", "Up", "Up", "Up", # to (37, 2)
-    "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", # to (22, 2)
+    # Walk Up Column 26 to Row 9
+    "Up", "Up", "Up", "Up", "Up", # to (26, 9)
+    # Walk Left to Column 19
+    "Left", "Left", "Left", "Left", "Left", "Left", "Left", # to (19, 9)
+    # Walk Up to Row 8
+    "Up", # to (19, 8)
+    # Walk Right along Row 8 to Column 37
+    "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right",
+    "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", # to (37, 8)
+    # Walk Up Column 37 to Row 2
+    "Up", "Up", "Up", "Up", "Up", "Up", # to (37, 2)
+    # Walk Left along Row 2 to Column 22
+    "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left",
+    "Left", "Left", "Left", "Left", "Left", # to (22, 2)
+    # Walk Down to Row 4
     "Down", "Down", # to (22, 4)
+    # Walk Left to Column 18
     "Left", "Left", "Left", "Left", # to (18, 4)
-    "Up" # to (18, 3) (enter Gatehouse!)
+    # Enter Gatehouse
+    "Up" # to (18, 3) (enters Gatehouse at (3, 5))
 ]
 
 def get_pos():
@@ -76,17 +88,15 @@ def run_path(path, check_warp=False):
     return True
 
 def main():
-    print("=== FUCHSIA TO SAFARI: ENTERING GATEHOUSE (BYPASS NPC) ===")
     pos = get_pos()
     print("Starting at:", pos)
-    if pos is None:
-        return
-        
-    run_path(PATH_TO_GATEHOUSE, check_warp=True)
     
-    time.sleep(1.5)
+    if pos == (26, 14):
+        run_path(PATH_TO_GATEHOUSE, check_warp=True)
+        time.sleep(2.0)
+        
     pos = get_pos()
-    print("Transition complete. Current Position inside Gatehouse:", pos)
+    print("Final Position:", pos)
 
 if __name__ == "__main__":
     main()
