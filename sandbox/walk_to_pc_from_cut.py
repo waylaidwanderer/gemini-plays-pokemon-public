@@ -1,16 +1,34 @@
-# Script to walk to the Pokemon Center from (26, 12) after bush is cut
+# Script to exit the PC, exit the Pokemon Center, and walk back to the Safari Gatehouse
 import time
 import sys
 import bridge
 
 sys.stdout.reconfigure(encoding='utf-8')
 
-PATH_TO_PC = [
-    "Down", "Down", # to (26, 14)
-    "Left", "Left", "Left", # to (23, 14)
-    "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", "Down", # to (23, 28)
-    "Left", "Left", "Left", "Left", # to (19, 28)
-    "Up" # enter PC
+# Path from (19, 28) outside Pokemon Center to (26, 12) in Fuchsia City
+PATH_TO_BUSH = [
+    # Walk Left to Column 8
+    "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", # to (8, 28)
+    # Walk Down to Row 32 (ledge jump at (8, 31/32))
+    "Down", "Down", "Down", "Down", # to (8, 32)
+    # Walk Left to Column 1
+    "Left", "Left", "Left", "Left", "Left", "Left", "Left", # to (1, 32)
+    # Walk Up Column 1 to Row 21
+    "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", "Up", # to (1, 21)
+    # Walk Right along Row 21 to Column 24
+    "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right",
+    "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right",
+    "Right", "Right", "Right", # to (24, 21)
+    # Walk Up Column 24 to Row 16 (below the Rhydon statue at 24, 15)
+    "Up", "Up", "Up", "Up", "Up", # to (24, 16)
+    # Walk Left to Column 22
+    "Left", "Left", # to (22, 16)
+    # Walk Up Column 22 to Row 14
+    "Up", "Up", # to (22, 14)
+    # Walk Right along Row 14 to Column 26
+    "Right", "Right", "Right", "Right", # to (26, 14)
+    # Walk Up Column 26 to Row 12 (below the bush at 26, 13)
+    "Up", "Up" # to (26, 12)
 ]
 
 def get_pos():
@@ -73,15 +91,40 @@ def run_path(path, check_warp=False):
     return True
 
 def main():
-    pos = get_pos()
-    print("Starting at:", pos)
+    # 1. Exit PC
+    print("Exiting PC...")
+    bridge.press_buttons(["B", "sleep 1000"])
     
-    if pos == (26, 12):
-        run_path(PATH_TO_PC, check_warp=True)
-        time.sleep(2.0)
-        
+    # 2. Walk to door mat (3, 7)
     pos = get_pos()
-    print("Final Position:", pos)
+    print("PC Exit complete. Position:", pos)
+    
+    # Walk to (3, 7)
+    path_to_mat = [
+        "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", "Left", # Left 10 to column 3
+        "Down", "Down", "Down" # Down 3 to row 7
+    ]
+    if not run_path(path_to_mat):
+        return
+        
+    # Exit Pokémon Center
+    print("Exiting Pokemon Center...")
+    bridge.press_buttons(["Down", "sleep 2000"]) # transition out
+    
+    pos = get_pos()
+    print("Emerged in Fuchsia City:", pos)
+    
+    # We should be at (19, 28) in Fuchsia City!
+    # Let's chunk the path to avoid 100 button sequence limit
+    if pos == (19, 28):
+        # We will walk the first 30 steps of PATH_TO_BUSH to reach (1, 21) or similar
+        print("Walking Phase 1 of path...")
+        part1 = PATH_TO_BUSH[:33] # Up to (1, 21)
+        if run_path(part1):
+            print("Successfully reached (1, 21)!")
+            
+    pos = get_pos()
+    print("End of script. Position reached:", pos)
 
 if __name__ == "__main__":
     main()
