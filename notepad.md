@@ -870,31 +870,27 @@
 
 <h1><code>Locations/Saffron_City.md</code></h1>
 
-## Saffron City Topology & Points of Interest
+# Saffron City Verified Topography & Points of Interest
 
-### West Gatehouse Connection
-- West Gatehouse Entrance/Exit: (7, 2) / (7, 3) connects West to Route 7 Gatehouse. Unlocked by giving Fresh Water to Guard on turn 41188.
-- Gatehouse Exit Arrival: Player lands at Saffron City (8, 2) when exiting West Gatehouse.
+## Key Gatehouses (Symmetrical 4 Cardinal Gates)
+- Saffron North Gatehouse: (20, 0) connects North to Route 5.
+- Saffron South Gatehouse: (20, 35) / (20, 36) connects South to Route 6.
+- Saffron East Gatehouse: (39, 17) connects East to Route 8.
+- Saffron West Gatehouse: (0, 17) / (0, 18) connects West to Route 7.
+- Guards: All gatehouse guards were pacified with Fresh Water on turn 41188, allowing free travel in all 4 directions.
 
-### Points of Interest & Verified Topology
-- Saffron West Gatehouse: Located at Northern Highway (Row 2). Gatehouse building spans x=2..6, y=3..6. Column 0 is a solid stone wall across y=1..6 (bumped at 0,2 on turn 46800). Doorway entrance/warp is accessed at (7, 2) / (7, 3) / (8, 2).
-- Northern Highway (Row 2): Main open East-West pavement highway running along Row 2 across x=1..16.
-- Northwest Residence: Located at x=4..13, y=3..5 with door at (7, 5). Rocket Grunt at (8, 5) blocks direct northbound passage through Column 8.
-- Column 2 West Highway: Open North-South pavement passage at x=2, y=6..7 and Column 1 grass at x=1, y=2..6 connecting Row 7 to Row 2 Northern Highway.
-- Column 17 Wooden Fence: Open passage at (17, 7) allows seamless travel between East/Central Saffron and West Saffron.
+## Key Buildings & Points of Interest
+- Saffron Pokémon Center: Southwest sector at (9, 29) [door at 9, 29]. Registered Teleport anchor on turn 54443.
+- Fighting Dojo: Door located at (26, 3) in Northeast sector.
+- Silph Co. Headquarters: Located in central Saffron City (currently blocked by Rocket guard).
+- Mr. Psychic's House: Southeast sector at (29, 29) [TM29 Psychic obtained].
+- Northwest Residence: Located at x=2..6, y=3..5 with door at (7, 5).
 
-### Row 7 Central-West Passage Discovered (Turn 41728)
-- Row 7 at (17, 7) is an OPEN light grey pavement passage through Column 17 fence, allowing seamless travel between East/Central Saffron (Cols 18..39) and West Saffron (Cols 2..16).
-- Building at x=10..13, y=3..5 (Copycat's House). Door at (13, 5).
-- Building at x=10..15, y=9..11 (Northwest Residence). Door at (13, 11).
-### Saffron City Points of Interest
-- Saffron Pokémon Center: Southwest sector x=9..11, y=29..31 with door at (9, 29) (Warp registered).
-- Mr. Psychic's House: Southeast sector x=28..31, y=27..29 with door at (29, 29) (TM29 Psychic obtained).
-- Fighting Dojo: Door located at (26, 3) accessed via fence gap at (30, 5)/(31, 5) to Row 4 courtyard.
-- Building at x=2..9, y=3..5 (Northwest Residence). Open North-South street is Column 10..16 (x>=10) connecting Row 6/7 to Row 2 Northern Highway.
-- Saffron West Gatehouse Map Warp: Located at Row 2 West boundary (0, 2) / (0, 3) on the Northern Highway.
-- Saffron East Gatehouse Doorway: Located at (42, 17) on Row 17.
-- Tile (-1, 9) on Route 8 is the map boundary warp tile back to Saffron City (39, 17). Row 20 (y=20) is the open southern passage across x=37..44+ into Route 8.
+## Major Connecting Thoroughfares
+- Column 1 & Column 2 West Highway: Continuous North-South passage along the western border (x=1 grass, x=2 pavement) connecting Row 2 down past Row 17 West Gatehouse to Row 30 Pokémon Center.
+- Row 2 Northern Highway: Open East-West pavement across x=1..16.
+- Row 7 Central-West Gap: Open passage at (17, 7) through the Column 17 fence connecting East Saffron to West Saffron.
+- Row 30 Southern Street: Open East-West pavement running from Saffron Pokémon Center (9, 29) East to (25, 30).
 
 <hr>
 
