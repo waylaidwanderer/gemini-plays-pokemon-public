@@ -1,5 +1,5 @@
-## CURRENT STATUS & DASHBOARD (Turn 54249)
-- Location: West Celadon City at (6, 4).
+## CURRENT STATUS & DASHBOARD (Turn 54251)
+- Location: Celadon City at (16, 4).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Secondary Goal: Empirically probe Southwest Celadon Route: Right to Column 16 (16, 4) -> Down Column 16 to Row 28 (16, 28) -> Left along Row 28 to test exit tile (0, 28).
-- Active Strategy: Right 10 along Row 4 to Column 16 at (16, 4) -> Down Column 16 to Row 28 (16, 28) -> Left along Row 28 to empirically test tile (0, 28).
+- Secondary Goal: Travel South down Column 18 Avenue (18, 4..20) -> South Celadon Street (20, 30) -> Main Casino at (30, 35).
+- Active Strategy: Right 2 to Column 18 at (18, 4) -> Down 16 along Column 18 to Row 20 (18, 20) -> Right 2 to Column 20 (20, 20) -> South down Column 20 to Row 30 South Street at (20, 30) -> Right 10 to Column 30 -> South into Main Casino door at (30, 35).
