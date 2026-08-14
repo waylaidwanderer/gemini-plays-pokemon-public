@@ -1251,18 +1251,6 @@ We have empirically verified that Column 28 is 100% OPEN and walkable on Rows 12
 - Walk DOWN 1 step to `(19, 24)`.
 - Face DOWN and press **A** to pick up the Gold Teeth!
 
-### Phase 6: Quick In-Center Gold Teeth Verification Test
-1. Fresh start at Gatehouse entrance `(15, 25)`.
-2. Walk UP 3 steps to `(15, 22)`.
-3. Walk RIGHT 13 steps along Row 22 to `(28, 22)`.
-4. Walk DOWN 4 steps along Column 28 to `(28, 26)`.
-5. Walk LEFT 9 steps along Row 26 to `(19, 26)`.
-6. Face **UP** (north) towards `(19, 25)`.
-7. Press **A** to pick up the Gold Teeth!
-- *Verification Outcome:*
-  - If there is an item ball there, we pick up the Gold Teeth immediately (30 steps used total!).
-  - If the tile is empty or blocked by a fence, we walk LEFT 19 steps along Row 26 from `(19, 26)` to `(0, 26)` to transition to Area 3 (West) on Row 26, or we walk back to `(0, 11)` to use the Phase 5 Ground-Level Transition Route!
-
 <hr>
 
 <h1><code>Locations/SafariZone</code></h1>
