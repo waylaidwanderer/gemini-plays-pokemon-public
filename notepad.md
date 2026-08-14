@@ -748,11 +748,11 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 54244)
-- Location: West Celadon City at (20, 5).
+## CURRENT STATUS & DASHBOARD (Turn 54247)
+- Location: West Celadon City at (10, 5).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Secondary Goal: Empirically probe West Celadon Route: Left to Column 10 (10, 5) -> Down to Row 18 (10, 18) -> West along Row 18 to test exit tile (0, 18).
-- Active Strategy: Walk Left 10 steps along Row 5 pavement to Column 10 at (10, 5) -> Down 13 down Column 10 to Row 18 (10, 18) -> Left along Row 18 to test (0, 18).
+- Secondary Goal: Empirically probe Row 4 street: Up to (10, 4) -> Left along Row 4 to test exit tile (0, 4) into Route 7.
+- Active Strategy: Up 1 to Row 4 at (10, 4) -> Left 10 steps along Row 4 pavement to empirically probe exit tile (0, 4).
 
 <hr>
 
