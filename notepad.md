@@ -748,11 +748,11 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 54380)
-- Location: Celadon City at (22, 14) [Row 14 Highway].
-- Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Secondary Goal: Travel via Row 14 Highway to Column 9 Avenue at (9, 14) -> South down Column 9 to Central-South Celadon (Game Corner, Prize Exchange, Diner).
-- Active Strategy: Walk West along Row 14 Highway to Column 9 (9, 14) -> Walk South along Column 9 to explore Game Corner Casino -> Defeat Rocket Grunt -> Press poster switch -> Infiltrate Hideout to obtain Silph Scope.
+## CURRENT STATUS & DASHBOARD (Turn 54422)
+- Location: Vermilion City at (12, 20) [Vermilion Gym Courtyard].
+- Primary Goal: Infiltrate Main Rocket Hideout in Celadon City to obtain Silph Scope.
+- Secondary Goal: Travel from Vermilion City -> Route 6 -> Saffron City -> Route 7 -> Celadon City.
+- Active Strategy: Cut tree at (15, 18) to exit Vermilion Gym courtyard -> Walk north to Vermilion City north exit at (19, 0) -> Enter Route 6 -> Pass through Saffron City (guards already pacified with Fresh Water) -> West Gate -> Route 7 -> Celadon City -> Heal at Celadon Pokémon Center -> Infiltrate Game Corner Rocket Hideout.
 
 <hr>
 
