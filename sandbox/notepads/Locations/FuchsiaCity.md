@@ -58,3 +58,6 @@
 - **Column 27 Row 29 Solid Signpost:** A solid 2-tile high signpost located at `(27, 29)`, which blocks passage.
 - **Column 30 Row 14 Wandering NPC:** A wandering NPC who can block traversal on Column 30 Row 14.
 - **Column 16 Row 31/32 Walkable Ledge Gap:** Column 16 Row 31/32 contains a fully walkable gap in the south-facing ledge going UP (and Down). This allows players below the ledge in the southern area to walk UP to Row 31, Row 30, and Row 28, and return to the main/northern areas of Fuchsia City safely without being stuck.
+
+## Warden Gibberish Verification
+- As of Turn 38820, talking to the Warden at (2, 3) inside his house results in gibberish dialogue ('Hif fuff hefifoo!'), verifying that we do not have the Gold Teeth active in our inventory or the game has not registered the handover.
