@@ -52,11 +52,9 @@
 5. Walk LEFT 4 steps to `(21, 18)`.
 6. Walk DOWN 6 steps along Column 21 to `(21, 24)`.
 7. Walk LEFT 2 steps to Column 19 at `(19, 24)`.
-8. Stand at `(19, 24)` facing **DOWN** (south).
-9. Press **A** to pick up the Gold Teeth!
+8. Search the southern ground area systematically.
+9. Search and interact with any item balls found.
 
 ### Phase 5: Super-Optimized Ground-Level Transition Route (Between Center & Area 3)
 - From `(0, 11)` in Safari Zone Center, walk LEFT 1 step to transition directly to `(29, 23)` in Area 3 (West).
-- From `(29, 23)` in Area 3 (West), walk LEFT 10 steps to `(19, 23)`.
-- Walk DOWN 1 step to `(19, 24)`.
-- Face DOWN and press **A** to pick up the Gold Teeth!
+- From `(29, 23)` in Area 3 (West), walk LEFT and search the southern area systematically for the item ball.
