@@ -1328,7 +1328,7 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - **Signpost at (24, 22):** Reads "AREA 3 EAST: CENTER AREA" (Turn 27655).
 
 ### 🔍 Verified Area 3 (West) Landmarks & Paths
-- **Gold Teeth:** Empirically verified to be located at `(19, 25)` on the southern ground level. The player can stand at `(19, 24)` facing Down to pick them up.
+- **Gold Teeth:** Empirically verified to be located at `(19, 25)` on the southern ground level. On Turn 38936, we stood at `(19, 24)` facing Down and pressed A, but confirmed that no item ball is present on the ground, meaning the Gold Teeth have already been picked up.
 - **Rest House 3:** Located on the western ground level. The verified entrance door (doormat) is at `(11, 11)`. Inside is a Hiker NPC who gives standard Hiker dialogue (Rest House 3 does NOT contain Surf).
 - **The Secret House:** Located in the isolated northwest ground section of Area 3 (West). The entrance door is at `(3, 8)`. The player can only reach this section by entering through the southwest ground-level transition of Area 2 (North) at `(4, 36)`. Inside the Secret House is the NPC who gives HM03 (Surf) at `(2, 7)`.
 - **Southwest Area:** Walked Column 3 from Row 20 up to Row 14 (`(3, 20)` to `(3, 14)`), proving `(3, 19)` and `(3, 18)` are walkable grass/trees with NO secret warp or door.
