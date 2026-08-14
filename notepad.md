@@ -1428,3 +1428,20 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs inside). Exiting to explore Route 5 outdoors.
 
 <hr>
+
+<h1><code>Locations/Celadon_Gym.md</code></h1>
+
+# Celadon Gym Topology & Trainers
+
+## Key Information
+- Gym Type: Grass
+- Gym Leader: Erika (Rainbow Badge, TM21 Mega Drain)
+- Entrance: Door at Celadon City (12, 19) [accessed via Cut tree at (15, 18)].
+- Entrance Mat: (4, 17) / (5, 17).
+- Gym Guide: Located at (4, 14).
+- Statues: Located at (3, 13..14) and (6, 13..14).
+
+## Gym Trainers & Layout
+- Gym Guide (4, 14): Speaking with guide.
+
+<hr>
