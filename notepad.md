@@ -1365,10 +1365,7 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - **The Southern Ground Corridor:** Rows 10-22 are open ground, allowing players to walk Left to Column 0 around the central water pond.
 - **Western Edge Transition to Area 3 (West):** Located on Column 0, Row 11 (`(0, 11)`), transitioning directly to Area 3 (West) at `(30, 23)`. This ground-level path completely bypasses Area 2 (North).
 
-## Gold-Standard Speedrun Route from Area 1 (East) to Area 3 (West)
-1. **Northeast Channel:** From Area 1 (East) ground level, walk UP Column 20 (which is completely open and walkable, including the tree graphic at `(20, 4)`) to Row 5 (`(20, 5)`).
-2. **Northern Corridor:** Walk LEFT along Row 5 to Column 0, then walk LEFT to transition to Area 2 (North) at `(39, 31)`.
-3. **Area 2 Southern Corridor to Area 3 (West):** Walk LEFT along Row 31 to Column 22, walk UP to Row 23, climb Western Southern Plateau stairs at `(22, 23)` onto plateau, walk West to `(16, 23)`, walk DOWN to `(16, 27)` to descend stairs to `(16, 28)`. Walk Left to `(12, 33)`, bypass the Rhydon statues via Column 8-9 gap, and walk LEFT/DOWN to transition directly into **Area 3 (West)** at `(26, 0)`.
+
 ## Area 2 (North) - Completed Spatial Map & Route to East Stairs
 - Ground Level is on Rows 0-11 (North) and Rows 16-35 (South).
 - Rows 12-15 is the Northern Plateau (East side, columns 32-38).
