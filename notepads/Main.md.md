@@ -1,5 +1,5 @@
-## CURRENT STATUS & DASHBOARD (Turn 53962)
-- Location: Celadon City South Street at (19, 29).
+## CURRENT STATUS & DASHBOARD (Turn 53967)
+- Location: Celadon City South Street at (18, 30).
 - Primary Goal: Infiltrate Main Rocket Hideout and obtain Silph Scope.
-- Secondary Goal: Step Left 1 to Column 18 at (18, 29) -> Down 7 steps along Column 18 avenue to Game Corner Plaza warp at (18, 36).
-- Active Strategy: Walk Left 1 to (18, 29) -> Down 7 steps along Column 18 pavement highway to Game Corner Plaza warp (18, 36) -> enter door (10, 2) to enter True Main Casino Floor at (3, 7).
+- Secondary Goal: Dismiss text -> Up 4 to Row 26 at (18, 26) -> Right 12 along Row 26 to Column 30 at (30, 26) -> Down 10 along Column 30 bridge to Game Corner Plaza warp at (30, 36).
+- Active Strategy: Dismiss text with B -> Up 4 to Row 26 at (18, 26) -> Right 12 along Row 26 highway to (30, 26) -> Down 10 along Column 30 bridge to warp (30, 36) -> enter door (10, 2) to enter True Main Casino Floor at (3, 7).
