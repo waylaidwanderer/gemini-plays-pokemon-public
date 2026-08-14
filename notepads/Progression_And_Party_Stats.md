@@ -50,9 +50,9 @@
 - **TM07 (Horn Drill):** Obtained on Turn 14097.
 - **Escape Rope:** Obtained on Turn 13977, consumed on Turn 16964.
 
-## Verified Inventory (9/20 slots used - 11 empty slots)
+## Verified Inventory (11/20 slots used - 9 empty slots)
 
-- **In-Game Verification:** Verified on Turn 27754 (PACK audited inside Safari Rest House 3).
+- **In-Game Verification:** Verified on Turn 39014 (BAG audited) and Turn 39024 (PC Item Storage audited).
 - **Moon Stone:** 2 (1 stack)
 - **HM01 (Cut):** 1
 - **Super Potion:** 2 (1 stack)
@@ -63,7 +63,8 @@
 - **Full Restore:** 1
 - **Max Revive:** 1
 - **HM03 (Surf):** OBTAINED on Turn 36291 (Verified inside Secret House).
-- **Gold Teeth:** NOT YET OBTAINED (Verified NOT in Bag on Turn 38756 and Turn 38827, and Warden still speaks gibberish on Turn 38820)
+- **Town Map:** 1
+- **Gold Teeth:** NOT YET OBTAINED (Verified NOT in Bag on Turn 39014, NOT in PC Item Storage on Turn 39024, and Warden still speaks gibberish on Turn 38820)
 
 ## Major Exploration Phases and Timestamps
 - (Cleaned up historic milestones to reduce context window bloat)
