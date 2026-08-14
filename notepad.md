@@ -1545,19 +1545,11 @@ From Safari Zone Center entrance at `(15, 25)`:
 3. Walk LEFT 1 step to `(25, 2)`.
 4. Walk DOWN 16 steps along Column 25 to `(25, 18)`.
 5. Walk LEFT 4 steps to `(21, 18)`.
-6. Walk UP 2 steps (climbing East Stairs) to `(21, 16)` on the plateau.
-7. Walk LEFT 15 steps across the plateau to `(6, 16)`.
-8. Walk DOWN 4 steps (descending West Stairs) to `(6, 20)`.
-9. Walk LEFT 5 steps to `(1, 20)`.
-10. Walk UP 2 steps to `(1, 18)`.
-11. Walk RIGHT 2 steps to `(3, 18)`.
-12. Walk UP 5 steps to `(3, 13)` (climb onto Row 13 bridge/water).
-    - Since we have Surf, we can Surf on `(3, 13)` water!
-13. Surf LEFT 3 steps to `(0, 13)` warp.
-14. Emerge in Center (East Compartment) at `(29, 25)`.
-15. Walk DOWN 1 step to `(29, 26)`.
-16. Walk LEFT 10 steps along Row 26 to `(19, 26)`.
-17. Face UP, press A, pick up the Gold Teeth!
+6. Walk DOWN 8 steps along Column 21 to `(21, 26)`.
+7. Walk LEFT 2 steps to Column 19 at `(19, 26)`.
+8. Walk UP 2 steps to `(19, 24)` (standing directly above the Gold Teeth at `(19, 25)`).
+9. Face DOWN (south), press A to pick up the Gold Teeth!
+
 
 <hr>
 
