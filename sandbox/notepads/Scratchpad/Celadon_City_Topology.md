@@ -12,3 +12,4 @@
 ## Direct Central-South Highway (Discovered Turn 54655)
 - Columns 22..25 across Rows 22..31 form a wide, completely open light brown pavement avenue connecting Row 22/23 North Avenue directly South into the South Celadon Courtyard!
 - Column 36 Pass: Passable gap at (36, 15) between barrels.
+- Main Game Corner Building (x=12..17, y=24..27): Door located at (12, 27).
