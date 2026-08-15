@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Route 3 (x=53, y=11)
+- Location: Route 3 (x=50, y=11)
 - Current Objective: Traverse Route 3, defeat trainers, catch new Pokémon, and proceed towards Mt. Moon / Cerulean City
 
 ## Notepads Index
@@ -186,8 +186,7 @@
 
 ## NPCs & Points of Interest
 - Rest Boy NPC: Located at (57, 11) [Observed Turn 417]. Mentions resting outside the tunnel from Cerulean.
-- Pokémon Center: Located on eastern Route 3 outside Mt. Moon entrance.
-- Mt. Moon Entrance: Located at (58, 9).
+- Cave Opening / Entrance Landmark: Visually observed on northeast cliff face around columns 56-58, rows 8-9.
 
 ## Layout & Landmarks
 - Mountain path flanked by rock cliffs on north and south
@@ -198,9 +197,8 @@
   - Upper one-way ledge: Runs horizontally along row 7 from column 11 eastward.
   - Passable north-south gaps around upper ledge: Located at column 10 (x=10, y=7) and column 37 (x=37, y=7) [Verified Turn 407].
   - Lower one-way ledge: Runs horizontally along row 11 from column 10 eastward.
-  - Hopped upper ledge south from (26, 6) to (26, 8) [Turn 388].
 - Tall grass patch at columns 24-37, rows 10-12 [Observed Turn 389, 405].
-- East mountain boundary at column 38 (rows 7-12). Upper passage visible on rows 4-6 (columns 34-41+).
+- East mountain boundary at column 38 (rows 7-12). Upper passage on rows 4-5 (columns 34-47).
 
 ## Verified Trainers
 - Youngster #1: Located at (10, 6) facing East [Observed Turn 327]
