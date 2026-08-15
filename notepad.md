@@ -115,7 +115,7 @@
 
 ## Verified Trainers
 - Bug Catcher #1: Located at (30, 33) facing west, triggered at (26, 33) [Turn 145, Defeated Turn 155]. Team: Weedle Lv 6 (observed moves: String Shot, Poison Sting), Caterpie Lv 6 (observed moves: String Shot). Reward: ¥60.
-- Bug Catcher #2: Located at (30, 19) facing west, triggered at (26, 19) [Turn 163]. Team: Weedle Lv 7, Kakuna Lv 7, Weedle Lv 7.
+- Bug Catcher #2: Located at (30, 19) facing west, triggered at (26, 19) [Turn 163, Defeated Turn 229]. Team: Weedle Lv 7, Kakuna Lv 7, Weedle Lv 7. Reward: ¥70.
 
 ## Empirical Wild Encounters
 - Caterpie Lv 3 [Turn 129], Lv 4 [Turn 156]
