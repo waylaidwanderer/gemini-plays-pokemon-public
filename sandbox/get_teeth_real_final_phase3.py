@@ -1,6 +1,7 @@
 import time
 import sys
 import bridge
+import mgba
 
 sys.stdout.reconfigure(encoding='utf-8')
 
@@ -86,16 +87,35 @@ def navigate_to(tx, ty):
             stuck_count = 0
         time.sleep(0.4)
 
+def use_dig_safe():
+    print("Using DIG to warp out of Safari Zone...")
+    bridge.press_buttons(["B", "sleep 300", "B", "sleep 300"])
+    bridge.press_buttons(["Start", "sleep 500"])
+    for _ in range(6):
+        bridge.press_buttons(["Up", "sleep 200"])
+    bridge.press_buttons(["Down", "sleep 250", "Down", "sleep 250", "A", "sleep 1000"]) # POKÉMON
+    for _ in range(5):
+        bridge.press_buttons(["Up", "sleep 250"])
+    bridge.press_buttons(["Down", "sleep 250", "A", "sleep 800"]) # TRUFFLE (slot 2)
+    bridge.press_buttons(["A", "sleep 4000"]) # Select DIG and wait for warp!
+
 def main():
     pos = get_pos()
-    print(f"Starting Phase 3 Finish at: {pos}")
+    print(f"Starting Phase 4 at: {pos}")
     
-    # We are currently at (8, 32)
+    # We are currently at (25, 3)
     waypoints = [
-        (8, 36)   # Transition Down to Area 3 (West) at (26, 0)
+        (25, 18),  # Walk Down Column 25
+        (21, 18),  # Walk Left
+        (21, 23),  # Walk Down Column 21
+        (19, 23),  # Walk Left along Row 23
+        (19, 24),  # Walk Down
+        (18, 24),  # Walk Left
+        (18, 26),  # Walk Down Column 18
+        (19, 26)   # Walk Right to stand directly below teeth
     ]
     
-    print("Executing Safari Phase 3 Finish: Area 2 to Area 3 (West)...")
+    print("Executing Safari Phase 4: Walk to Gold Teeth...")
     for i, wp in enumerate(waypoints, 1):
         pos = get_pos()
         if pos is None:
@@ -103,18 +123,31 @@ def main():
             if pos is None:
                 print("Map changed or battle occurred, stopping script.")
                 break
-        
-        # If we successfully transitioned to Area 3 (West), coordinates will warp to (26, 0)
-        if pos[0] == 26 and pos[1] <= 2:
-            print("Transition to Area 3 (West) detected! Stopping script.")
-            break
-            
         print(f"\n--- WAYPOINT {i}/{len(waypoints)}: {wp} ---")
         navigate_to(wp[0], wp[1])
         
+    pos = get_pos()
+    if pos == (19, 26):
+        print("At Gold Teeth location. Facing UP...")
+        bridge.press_buttons(["Up", "sleep 500"])
+        
+        print("Picking up Gold Teeth...")
+        bridge.press_buttons(["A", "sleep 1500"])
+        
+        print("Clearing textbox...")
+        for _ in range(5):
+            bridge.press_buttons(["B", "sleep 250"])
+            
+        # Use DIG to exit
+        use_dig_safe()
+        
     time.sleep(2.0)
     pos = get_pos()
-    print(f"Final position at end of Phase 3 Finish: {pos}")
+    print(f"Final position after DIG: {pos}")
+    
+    # Take screenshot of final overworld position
+    img = mgba.take_screenshot()
+    print(f"Screenshot: {img}")
 
 if __name__ == "__main__":
     main()
