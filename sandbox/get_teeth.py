@@ -86,27 +86,26 @@ def navigate_to(tx, ty):
 
 def main():
     pos = get_pos()
-    print(f"Starting Phase 2B (Area 1 to Area 2) from: {pos}")
+    print(f"Starting Phase 3 (Area 2 to Area 3) from: {pos}")
     
     waypoints = [
-        (12, 8),
-        (12, 6),
-        (17, 6),
-        (17, 8),
-        (20, 8),
-        (20, 3),
-        (7, 3),
-        (7, 5),
-        (0, 5)
+        (22, 31), # Walk LEFT along Row 31 to Column 22
+        (22, 22), # Walk UP to climb Western Southern Plateau stairs
+        (16, 22), # Walk LEFT on Western Southern Plateau
+        (16, 28), # Walk DOWN to descend stairs
+        (12, 28), # Walk LEFT to Column 12
+        (12, 30), # Walk DOWN to bypass pond
+        (8, 30),  # Walk LEFT to Column 8
+        (8, 35)   # Walk DOWN to Row 35
     ]
     
     for wp in waypoints:
         navigate_to(wp[0], wp[1])
         
-    print("Transitioning LEFT to Area 2...")
-    walk_step_robust("Left")
+    print("Stepping DOWN to transition to Area 3...")
+    walk_step_robust("Down")
     time.sleep(1.5)
-    print(f"Final position: {get_pos()}")
+    print(f"Final position inside Area 3: {get_pos()}")
 
 if __name__ == "__main__":
     main()
