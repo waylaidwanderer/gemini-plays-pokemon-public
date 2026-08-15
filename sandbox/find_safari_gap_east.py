@@ -88,7 +88,7 @@ def navigate_to(tx, ty):
         time.sleep(0.4)
 
 def main():
-    print("Starting eastern gap search script...")
+    print("Resuming eastern gap search script...")
     # Clear any menus
     for _ in range(3):
         bridge.press_buttons(["B", "sleep 300"])
@@ -96,14 +96,10 @@ def main():
     pos = get_pos()
     print(f"Current Position: {pos}")
     
-    # We are currently at (10, 24).
-    # First, let's walk UP to (10, 23) (open grass).
-    navigate_to(10, 23)
+    # We are currently at (17, 23)
+    # Let's walk Right on Row 23 and try to go DOWN at each column from 18 to 29.
     
-    # Let's walk Right on Row 23 and try to go DOWN at each column from 16 to 29.
-    # If we succeed in going Down, we print SUCCESS and the coordinates!
-    
-    for col in range(16, 30):
+    for col in range(18, 30):
         pos = get_pos()
         if pos is None:
             pos = handle_textbox_or_battle()
