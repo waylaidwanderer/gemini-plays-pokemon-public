@@ -36,7 +36,7 @@
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
 ## Inventory & Resources (Verified Turn 341)
-- Money: ¥713 (¥489 + ¥224 from Youngster #2)
+- Money: ¥654 (¥489 + ¥165 from Youngster #2)
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Pokémon Attack)
 - Key Items: Town Map, Pokédex
 - TMs / HMs: TM34 (Bide)
@@ -44,7 +44,6 @@
   - 1x Antidote (Status cure: Poison)
   - 3x Potion (Restores 20 HP)
   - 11x Poké Ball (Standard catch rate)
-
 
 <hr>
 
