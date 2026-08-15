@@ -84,42 +84,30 @@ def navigate_to(tx, ty):
         time.sleep(0.4)
 
 def main():
-    print("Executing Real Safari Golden Route to Gold Teeth...")
+    print("Executing final 6 steps to Gold Teeth...")
+    # Starting at (17, 21)
+    waypoints = [
+        (17, 24),  # Walk DOWN to Row 24
+        (19, 24)   # Walk RIGHT to Column 19
+    ]
     
-    # We are at (18, 19) in Area 3 (West) on the ground level
-    # Step 1: Navigate to (21, 18) (ground below East Stairs)
-    print("\n--- STEP 1: Navigating to (21, 18) ---")
-    navigate_to(21, 18)
+    for i, wp in enumerate(waypoints, 1):
+        pos = get_pos()
+        if pos is None:
+            print("Battle or dialogue occurred, stopping.")
+            break
+        print(f"\n--- WAYPOINT {i}/{len(waypoints)}: {wp} ---")
+        navigate_to(wp[0], wp[1])
+        
+    # Stand facing DOWN towards (19, 25)
+    print("\nFacing DOWN towards Gold Teeth...")
+    bridge.press_buttons(["Down", "sleep 500"])
     
-    # Step 2: Climb completely onto the flat top of Plateau at (21, 16)
-    print("\n--- STEP 2: Climbing onto flat top of Plateau at (21, 16) ---")
-    walk_step_robust("Up")  # to (21, 17)
-    walk_step_robust("Up")  # to (21, 16)
-    pos = get_pos()
-    print(f"Position on Plateau: {pos}")
-    
-    # Step 3: Navigate across flat top of Plateau to (6, 16)
-    print("\n--- STEP 3: Navigating to (6, 16) on Plateau ---")
-    navigate_to(6, 16)
-    
-    # Step 4: Walk DOWN to descend West Stairs onto ground at (6, 20)
-    print("\n--- STEP 4: Descending West Stairs ---")
-    walk_step_robust("Down")  # to (6, 17)
-    walk_step_robust("Down")  # to (6, 18)
-    walk_step_robust("Down")  # to (6, 19) (stair tile)
-    walk_step_robust("Down")  # to (6, 20) (ground level)
-    pos = get_pos()
-    print(f"Position on Ground: {pos}")
-    
-    # Step 5: Navigate to (19, 26) on the Row 26 Highway
-    print("\n--- STEP 5: Navigating to (19, 26) ---")
-    navigate_to(19, 26)
-    
-    # Step 6: Stand facing UP and press A to pick up the Gold Teeth!
-    print("\n--- STEP 6: Facing UP and picking up Gold Teeth ---")
-    bridge.press_buttons(["Up", "sleep 500"])
+    # Press A to retrieve Gold Teeth
+    print("Pressing A to pick up Gold Teeth...")
     bridge.press_buttons(["A", "sleep 1500"])
     
+    # Print final position to verify
     pos = get_pos()
     print(f"Final position: {pos}")
 
