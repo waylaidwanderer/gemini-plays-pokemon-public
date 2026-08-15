@@ -12,3 +12,17 @@
 
 ## Verified Connections
 - Verified Warp: Staircase (21, 8) connects directly down to Rocket Hideout B3F at (25, 6).
+## NPCs & Trainers
+- Rocket Grunt: Defeated at (20, 13) on Turn 54864.
+
+## Items & Pickups
+- Floor Item 1: Located at (1, 11) in B2F Northwest room [Collected Turn 54869].
+- Floor Item 2: Located at (6, 12) in B2F West-Central room.
+- Floor Item 3: Located at (16, 8) in B2F Northeast room.
+
+## Spin Maze Topology & Stop Tiles
+- Entrance Stop Tile: Located at (16, 13).
+- Central Stop Tile: Located at (14, 12).
+- Northwest Stop Tile: Located at (2, 9).
+- Central-West Stop Tile: Located at (8, 11).
+- East-to-West Transition Route: (17, 10) LEFT-spin tile -> slides through (13, 10) DOWN-spin and (13, 12) RIGHT-spin onto (14, 12) stop tile -> (12, 11) UP-spin tile -> slides through (12, 9) and (10, 9) LEFT-spin tiles onto (2, 9) northwest stop tile.

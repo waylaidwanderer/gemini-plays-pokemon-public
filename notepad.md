@@ -750,13 +750,13 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 54841)
-- Location: Rocket Hideout B1F at (20, 15) [Heading to B2F staircase at (23, 2) to solve B2F maze].
+## CURRENT STATUS & DASHBOARD (Turn 54871)
+- Location: Rocket Hideout B2F at (8, 11) [Exploring B2F Spin Maze / Collecting floor items].
 - Primary Goal: Infiltrate Main Rocket Hideout in Celadon City to obtain Silph Scope.
-- Secondary Goal: Descend to B2F and solve the B2F Spin Maze to reach the staircase up to B1F Elevator lobby.
-- Active Strategy: Take stairs at (23, 2) down to B2F -> Enter B2F Spin Maze -> Solve maze to find stairs up to B1F South Wing / Elevator -> Ride Elevator to B4F East Wing -> Defeat Boss Giovanni -> Obtain Silph Scope.
-- Inventory Status: LIFT KEY [ACQUIRED], B4F Northwest item [ACQUIRED], B4F Southwest item [ACQUIRED].
-- Party Status: SHELLSHOCK (Blastoise Lv52), LUNA (Clefable Lv36 with Teleport), CUTTER (Cut).
+- Secondary Goal: Navigate B2F Spin Maze to collect items and find staircase to B1F Elevator lobby.
+- Active Strategy: Collect item at (6, 12) -> Navigate southern B2F maze to find staircase up to B1F Elevator lobby -> Take Elevator to B4F East Wing -> Defeat Boss Giovanni -> Obtain Silph Scope.
+- Inventory Status: LIFT KEY [ACQUIRED], B4F items [ACQUIRED], B2F (1, 11) item [ACQUIRED].
+- Party Status: SHELLSHOCK (Blastoise Lv52), LUNA (Clefable Lv10 with Teleport), CUTTER (Cut).
 
 <hr>
 
@@ -1188,6 +1188,20 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 
 ## Verified Connections
 - Verified Warp: Staircase (21, 8) connects directly down to Rocket Hideout B3F at (25, 6).
+## NPCs & Trainers
+- Rocket Grunt: Defeated at (20, 13) on Turn 54864.
+
+## Items & Pickups
+- Floor Item 1: Located at (1, 11) in B2F Northwest room [Collected Turn 54869].
+- Floor Item 2: Located at (6, 12) in B2F West-Central room.
+- Floor Item 3: Located at (16, 8) in B2F Northeast room.
+
+## Spin Maze Topology & Stop Tiles
+- Entrance Stop Tile: Located at (16, 13).
+- Central Stop Tile: Located at (14, 12).
+- Northwest Stop Tile: Located at (2, 9).
+- Central-West Stop Tile: Located at (8, 11).
+- East-to-West Transition Route: (17, 10) LEFT-spin tile -> slides through (13, 10) DOWN-spin and (13, 12) RIGHT-spin onto (14, 12) stop tile -> (12, 11) UP-spin tile -> slides through (12, 9) and (10, 9) LEFT-spin tiles onto (2, 9) northwest stop tile.
 
 <hr>
 
