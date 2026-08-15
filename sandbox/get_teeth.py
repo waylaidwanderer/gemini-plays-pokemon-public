@@ -232,10 +232,8 @@ def main():
             (25, 18),
             (21, 18),
             (21, 23),
-            (19, 23),
-            (19, 24),
-            (18, 24),
-            (18, 26),
+            (22, 23),
+            (22, 26),
             (19, 26)
         ]
         
@@ -243,7 +241,10 @@ def main():
         current_p = get_pos()
         if current_p is not None:
             cx, cy = current_p
-            if cx == 25 and cy <= 18 and cy >= 2:
+            if cy == 24 and cx <= 22:
+                print(f"Bypassing completed Area 3 waypoints as we are at {current_p}")
+                waypoints_area3 = waypoints_area3[6:] # Start directly from (22, 26)
+            elif cx == 25 and cy <= 18 and cy >= 2:
                 print(f"Bypassing completed Area 3 waypoints as we are at {current_p}")
                 waypoints_area3 = waypoints_area3[2:] # Start directly from (25, 18)
                 
