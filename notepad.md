@@ -1556,6 +1556,9 @@ Locate and verify the active warp tile leading to Pokémon Tower 7F.
 - Signpost: Located at (27, 11) next to Snorlax.
 - Secret House (Northwest): Home of the recluse who gives HM02 Fly.
 - Route 16 Gatehouse: West gatehouse leading to Cycling Road (Route 17).
+## Mechanics Note: Awakening Snorlax (Gen 1)
+- Pressing 'A' on Snorlax only says "A sleeping POKéMON blocks the way!".
+- To awaken Snorlax: Open Bag (`Start` -> `ITEM`), select `POKé FLUTE`, and choose `USE` while facing Snorlax.
 
 <hr>
 
