@@ -1,4 +1,8 @@
 import time
+import sys
+import os
+
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 import bridge
 
 def get_pos():
@@ -45,10 +49,7 @@ def walk_step_robust(direction):
     new_pos = get_pos()
     if new_pos is None:
         return handle_textbox_or_battle()
-    if new_pos != pos:
-        return new_pos
-        
-    return handle_textbox_or_battle()
+    return new_pos
 
 def navigate_to(tx, ty):
     stuck_count = 0
@@ -63,7 +64,6 @@ def navigate_to(tx, ty):
             break
             
         print(f"Current: {pos}, Target: ({tx}, {ty})")
-        # Determine direction
         if pos[0] < tx:
             direction = "Right"
         elif pos[0] > tx:
@@ -77,51 +77,56 @@ def navigate_to(tx, ty):
         if new_pos == pos:
             stuck_count += 1
             if stuck_count > 3:
-                print("Stuck trying to move! Clearing with B...")
+                print("Stuck! Clearing with B...")
                 bridge.press_buttons(["B", "sleep 500"])
                 stuck_count = 0
         else:
             stuck_count = 0
-        time.sleep(0.5)
+        time.sleep(0.1)
+
+def use_dig_safe():
+    print("Using DIG to warp out of Safari Zone...")
+    bridge.press_buttons(["B", "sleep 300", "B", "sleep 300"])
+    bridge.press_buttons(["Start", "sleep 500"])
+    # Open POKEMON menu (second item slot)
+    bridge.press_buttons(["Down", "sleep 250", "A", "sleep 1000"]) # POKÉMON
+    # Select TRUFFLE (slot 2)
+    bridge.press_buttons(["Down", "sleep 250", "A", "sleep 800"])
+    # Select DIG and warp!
+    bridge.press_buttons(["A", "sleep 4000"])
 
 def main():
-    # Starting at (25, 2) in Area 3 (West)
-    # Waypoints:
-    # 1. (25, 18) - Down Column 25 to row 18
-    # 2. (21, 18) - Left Row 18 to Column 21
-    # 3. (21, 24) - Down Column 21 to Row 24
-    # 4. (19, 24) - Left Row 24 to Column 19 (the open gap to southern corridor)
-    # 5. (19, 26) - Down Column 19 to Row 26 (Row 26 Highway)
+    pos = get_pos()
+    print(f"Starting Golden Route to Gold Teeth from: {pos}")
+    
     waypoints = [
+        (26, 2),
+        (25, 2),
         (25, 18),
         (21, 18),
-        (21, 24),
+        (21, 23),
+        (19, 23),
         (19, 24),
+        (18, 24),
+        (18, 26),
         (19, 26)
     ]
     
-    print("Navigating to Gold Teeth location...")
     for i, wp in enumerate(waypoints, 1):
-        print(f"\n--- WAYPOINT {i}/{len(waypoints)}: {wp} ---")
         navigate_to(wp[0], wp[1])
         
-    print("\nFacing UP towards Gold Teeth at (19, 25)...")
+    # Arrived at (19, 26). Interact UP to retrieve Gold Teeth!
+    print("Standing directly below Gold Teeth. Facing UP...")
     bridge.press_buttons(["Up", "sleep 500"])
     
-    print("Pressing A to retrieve Gold Teeth...")
-    bridge.press_buttons(["A", "sleep 1000"])
+    print("Interacting to retrieve Gold Teeth...")
+    bridge.press_buttons(["A", "sleep 1500"])
     
-    # Clear dialogue
+    print("Clearing textbox after picking up Gold Teeth...")
     for _ in range(5):
-        bridge.press_buttons(["B", "sleep 300"])
+        bridge.press_buttons(["B", "sleep 250"])
         
-    time.sleep(2.0)
-    pos = get_pos()
-    print(f"Final position after teeth pickup: {pos}")
-    
-    # Take screenshot of the screen to confirm
-    img_path = bridge.take_screenshot()
-    print(f"Final screenshot saved: {img_path}")
+    use_dig_safe()
 
 if __name__ == "__main__":
     main()
