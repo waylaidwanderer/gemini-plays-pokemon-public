@@ -100,6 +100,8 @@ def main():
     
     # Phase 2: Area 1 (East)
     waypoints_area1 = [
+        (0, 24),
+        (20, 24),
         (20, 22),
         (20, 20),
         (12, 20),
