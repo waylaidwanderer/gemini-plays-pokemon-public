@@ -27,16 +27,22 @@ def main():
     pos = get_pos()
     print(f"Starting at: {pos}")
     
-    if pos == (18, 24):
-        # Walk Right 1 step to (19, 24)
-        print("Walking Right to (19, 24)...")
-        bridge.press_buttons(["Right", "sleep 500"])
-        
+    # We are currently at (19, 24)
+    # To go around to (19, 26):
+    # Walk Right to Column 22
+    bridge.press_buttons(["Right", "sleep 400", "Right", "sleep 400", "Right", "sleep 400"]) # (22, 24)
+    # Walk Down to Row 26
+    bridge.press_buttons(["Down", "sleep 400", "Down", "sleep 400"]) # (22, 26)
+    # Walk Left to Column 19
+    bridge.press_buttons(["Left", "sleep 400", "Left", "sleep 400", "Left", "sleep 400"]) # (19, 26)
+    
     pos = get_pos()
-    if pos == (19, 24):
-        # Face DOWN towards the Gold Teeth at (19, 25)
-        print("Facing DOWN towards Gold Teeth...")
-        bridge.press_buttons(["Down", "sleep 500"])
+    print(f"Arrived at: {pos}")
+    
+    if pos == (19, 26):
+        # Face UP towards the Gold Teeth at (19, 25)
+        print("Facing UP towards Gold Teeth...")
+        bridge.press_buttons(["Up", "sleep 500"])
         
         # Interact to pick up the Gold Teeth!
         print("Interacting to retrieve Gold Teeth...")
