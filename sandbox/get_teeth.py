@@ -98,12 +98,15 @@ def use_dig_safe():
 
 def main():
     pos = get_pos()
-    print(f"Starting Row 23 East Walk to Gold Teeth from: {pos}")
+    print(f"Starting actual walkable route to Gold Teeth from: {pos}")
     
     waypoints = [
-        (17, 23),  # Step 1: Walk DOWN to Row 23
-        (19, 23),  # Step 2: Walk RIGHT to Column 19 on Row 23
-        (19, 24)   # Step 3: Walk DOWN to Row 24 (directly above Gold Teeth)
+        (6, 23),   # Step 1: Walk LEFT to Column 6
+        (6, 16),   # Step 2: Climb West Stairs onto Plateau (climb via UP)
+        (21, 16),  # Step 3: Walk RIGHT along Plateau to Column 21
+        (21, 23),  # Step 4: Descend East Stairs and walk DOWN to Row 23
+        (19, 23),  # Step 5: Walk LEFT along Row 23 to Column 19
+        (19, 24)   # Step 6: Walk DOWN to Row 24 (directly above Gold Teeth)
     ]
     
     for i, wp in enumerate(waypoints, 1):
@@ -116,10 +119,6 @@ def main():
     # Pick up Gold Teeth!
     print("Interacting to retrieve Gold Teeth...")
     bridge.press_buttons(["A", "sleep 1500"])
-    
-    # Take screenshot to verify
-    img = mgba.take_screenshot()
-    print(f"INTERACTION_SCREENSHOT: {img}")
     
     print("Dismissing textboxes...")
     for _ in range(5):
