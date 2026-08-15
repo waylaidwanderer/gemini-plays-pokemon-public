@@ -4,12 +4,12 @@
 
 ## Current Status
 - Player: BLUE
-- Badges: 0/8
-- Location: Pewter Gym (x=4, y=6)
-- Current Objective: Defeat Gym trainer and Gym Leader Brock for the Boulder Badge
+- Badges: 1/8 (Boulder Badge)
+- Location: Pewter Gym (x=4, y=2)
+- Current Objective: Restock at Pokémon Center & Mart, then proceed east along Route 3 towards Mt. Moon
 
 ## Notepads Index
-- `Team`: Current Pokémon party, movesets, stats, nicknames
+- `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
 - `Quests`: Story progression and side tasks
 - `Locations/PalletTown`: Points of interest, NPC dialogues, items
 - `Locations/Route1`: Route 1 layout, points of interest, wild encounters
@@ -25,21 +25,23 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. HYDROS (Squirtle) - Lv 14
-   - Stats (Verified at Lv 14): Max HP 40 (HP: 40/40, Healthy - Restored with Potion Turn 305)
+1. HYDROS (Squirtle) - Lv 15
+   - Stats (Verified at Lv 15): Max HP 42 (HP: 17/42, Healthy - Grew to Lv 15 Turn 310)
    - Type: Water
-   - Moves: Tackle (35/35), Tail Whip (30/30), Bubble (25/30)
-   - Role: Starter & primary Water/Ice special attacker
+   - Moves: Tackle (35/35), Tail Whip (30/30), Bubble (23/30), Water Gun (25/25)
+   - Role: Starter & primary Water special attacker
 
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
-## Inventory & Resources (Verified Turn 305)
-- Money: ¥1003
+## Inventory & Resources (Verified Turn 310)
+- Money: ¥2389 (¥1003 + ¥1386 from Brock)
+- Badges: Boulder Badge (Enables Flash outside battle, boosts Pokémon Attack)
 - Key Items: Town Map, Pokédex
+- TMs / HMs: TM34 (Bide)
 - Consumables:
   - 1x Antidote (Status cure: Poison)
-  - 0x Potion (1 used Turn 305 to reach 40/40 HP)
+  - 0x Potion
   - 5x Poké Ball (Standard catch rate)
 
 
@@ -68,10 +70,13 @@
 - [x] Receive Starter Pokémon from Oak (Squirtle nicknamed HYDROS)
 - [x] Deliver Oak's Parcel to Oak & receive Pokédex + 5 Poké Balls
 - [x] Obtain Town Map from Daisy in Pallet Town
-- [ ] Defeat Gym Leader Brock in Pewter City (Boulder Badge)
+- [x] Defeat Gym Leader Brock in Pewter City (Boulder Badge & TM34 Bide) [Turn 310]
+- [ ] Travel east along Route 3 and navigate Mt. Moon towards Cerulean City
+- [ ] Defeat Gym Leader Misty in Cerulean City (Cascade Badge)
 
 ## Side Quests & Deliveries
-- (None yet)
+- (None active)
+
 
 <hr>
 
@@ -147,7 +152,7 @@
 
 ## Connections
 - South: Route 2 / Viridian Forest (y=35) [Entered Turn 285]
-- East: Unexplored path to the east
+- East: Route 3 path heading east
 
 ## Buildings & Verified Points of Interest
 - Pokémon Center: Located at (13, 25) [Verified Turn 286] - Free party healing & PC access
@@ -156,13 +161,14 @@
   - Interior Entrance: (4, 13)
   - Statues at (3, 10) and (6, 10)
   - Gym Guide NPC at (7, 10)
-  - Gym Leader: Brock (at north end platform)
+  - Gym Leader: Brock [Defeated Turn 310] (Boulder Badge, TM34 Bide, ¥1386 prize money)
 
 ## Verified Trainers & NPCs
 - Citizen NPC: Located at (17, 25) outside Pokémon Center [Observed Turn 286]
 - Nurse Joy: Located at (3, 1) inside Pokémon Center [Healed party Turn 287]
 - Gym Guide NPC: Located at (7, 10) inside Pewter Gym [Turn 296]
-- Jr. Trainer ♂: Located at (3, 6) inside Pewter Gym, triggered at (4, 6) [Turn 297, Defeated Turn 302]. Team: Diglett Lv 11, Sandshrew Lv 11. Reward: ¥220.
+- Jr. Trainer ♂: Located at (3, 6) inside Pewter Gym [Defeated Turn 302]. Team: Diglett Lv 11, Sandshrew Lv 11. Reward: ¥220.
+- Gym Leader Brock: Located at (4, 1) inside Pewter Gym [Defeated Turn 310]. Team: Geodude Lv 12, Onix Lv 14. Reward: Boulder Badge, TM34 Bide, ¥1386.
 
 
 <hr>
