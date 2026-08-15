@@ -750,11 +750,11 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 54827)
-- Location: Rocket Hideout B3F at (19, 19) [Heading to Elevator at (17, 23)].
+## CURRENT STATUS & DASHBOARD (Turn 54841)
+- Location: Rocket Hideout B1F at (26, 7) [Heading to Elevator in East Wing corridor].
 - Primary Goal: Infiltrate Main Rocket Hideout in Celadon City to obtain Silph Scope.
-- Secondary Goal: Return to B2F/B1F Elevator and take it to B4F Giovanni Chamber using Lift Key.
-- Active Strategy: Navigate back to B2F/B1F -> Enter Elevator -> Select B4F -> Arrive at B4F East Wing -> Defeat Rocket Grunts -> Defeat Boss Giovanni -> Obtain Silph Scope.
+- Secondary Goal: Navigate B1F East Wing corridor to Elevator and take it to B4F Giovanni Chamber using Lift Key.
+- Active Strategy: Bypass Grunt at (26, 8) via (25, 8) -> Follow East corridor south to Elevator -> Enter Elevator -> Select B4F -> Defeat Door Grunts -> Defeat Boss Giovanni -> Obtain Silph Scope.
 - Inventory Status: LIFT KEY [ACQUIRED], B4F Northwest item [ACQUIRED], B4F Southwest item [ACQUIRED].
 - Party Status: SHELLSHOCK (Blastoise Lv52), LUNA (Clefable Lv36 with Teleport), CUTTER (Cut).
 
@@ -1002,8 +1002,6 @@ Systematically probe every potential building doorway and alleyway warp in South
 - Main Entry Room: Spans x=19..24, y=1..4.
 - South Corridor Gap: Located at (20..23, 4) connecting South to lower floor corridors at y>=5.
 
-## Exploration & Objectives
-- Objective: Navigate B1F to find Rocket Grunts, items, and stairs leading down to B2F.
 ## Floor Layout & Corridor Connections
 - Upper West Wall: Located at Column 8 (x=8, y=4..9).
 - North Grunt: Defeated at (13, 6).
@@ -1184,8 +1182,7 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 - Connecting Passage: Rows 14..15 (x=22..24) connects East Landing directly West into Central Room.
 - Central Room: Spans Columns 20..22, Rows 7..15. Contains DOWN stairs to B3F at (21, 8).
 
-## Objectives
-- Descend staircase at (21, 8) to enter Rocket Hideout B3F -> Locate Giovanni and Silph Scope.
+## Verified Connections
 - Verified Warp: Staircase (21, 8) connects directly down to Rocket Hideout B3F at (25, 6).
 
 <hr>
@@ -1229,8 +1226,7 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 ## Items & Pickups
 - Floor Item: Located at (20, 14) in West corridor.
 
-## Objectives
-- Navigate Row 5 into West Wing -> Collect item at (20, 14) -> Explore West Wing -> Find Lift Key / Stairs to B4F -> Defeat Giovanni.
+## Warps & Staircases
 - Downward Staircase (Down to B4F): Located at (19, 18).
 ## Spin Maze Complete Verified Solution to B4F Stairs (Discovered Turn 54800)
 1. From (18, 15) stop tile: Walk Left to (17, 15), Up to (17, 13), Left onto (16, 13) UP-spin tile -> slides Up to (16, 11) stop tile.
@@ -1319,10 +1315,9 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 - Northwest Room Item: Collected at (9, 4) on Turn 54818 [IN BAG].
 - Southwest Room Item: Collected at (10, 12) on Turn 54826 [IN BAG].
 
-## Objectives
-- Return up stairs at (19, 10) to B3F.
-- Enter Elevator on B3F at (17, 23) using Lift Key -> Select B4F to enter Giovanni's chamber.
-- Defeat Giovanni and obtain the SILPH SCOPE!
+## Objectives & Layout Strategy
+- West Wing (Stairs at 19, 10): Contains Lift Key Grunt (11, 2) and pickup items.
+- East Wing (Giovanni's Chamber): Separated by solid walls; accessible exclusively via Elevator from upper floors.
 
 <hr>
 
