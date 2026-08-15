@@ -11,7 +11,7 @@
 - Bush/tree obstacle at (9, 10..11)
 - Elevation & Ledge Mapping:
   - Upper one-way ledge: Runs horizontally along row 7 from column 11 eastward.
-  - Passable north-south gap around upper ledge: Located at column 10 (x=10, y=7).
+  - Passable north-south gaps around upper ledge: Located at column 10 (x=10, y=7) and column 37 (x=37, y=7) [Verified Turn 407].
   - Lower one-way ledge: Runs horizontally along row 11 from column 10 eastward.
   - Hopped upper ledge south from (26, 6) to (26, 8) [Turn 388].
 - Tall grass patch at columns 24-37, rows 10-12 [Observed Turn 389, 405].
