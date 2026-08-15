@@ -98,11 +98,11 @@ def use_dig_safe():
 
 def main():
     pos = get_pos()
-    print(f"Starting actual walkable route to Gold Teeth from: {pos}")
+    print(f"Starting Row 23 East Walk to Gold Teeth from: {pos}")
     
     waypoints = [
-        (17, 19),  # Step 1: Walk UP to Row 19 (bypassing Column 18 barrier)
-        (19, 19),  # Step 2: Walk RIGHT to Column 19
+        (17, 23),  # Step 1: Walk DOWN to Row 23
+        (19, 23),  # Step 2: Walk RIGHT to Column 19 on Row 23
         (19, 24)   # Step 3: Walk DOWN to Row 24 (directly above Gold Teeth)
     ]
     
@@ -117,7 +117,7 @@ def main():
     print("Interacting to retrieve Gold Teeth...")
     bridge.press_buttons(["A", "sleep 1500"])
     
-    # Take screenshot of the screen to see what textbox or dialogue opened!
+    # Take screenshot to verify
     img = mgba.take_screenshot()
     print(f"INTERACTION_SCREENSHOT: {img}")
     
