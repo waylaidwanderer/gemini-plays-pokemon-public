@@ -11,10 +11,10 @@
   - Interior Entrance: (4, 13)
   - Statues at (3, 10) and (6, 10)
   - Gym Guide NPC at (7, 10)
-  - Gym Leader: Brock (at north end)
+  - Gym Leader: Brock (at north end platform)
 
 ## Verified Trainers & NPCs
 - Citizen NPC: Located at (17, 25) outside Pokémon Center [Observed Turn 286]
 - Nurse Joy: Located at (3, 1) inside Pokémon Center [Healed party Turn 287]
 - Gym Guide NPC: Located at (7, 10) inside Pewter Gym [Turn 296]
-- Jr. Trainer ♂: Located at (3, 6) inside Pewter Gym, triggered at (4, 6) [Turn 297, In Battle Turn 297-301]. Team: Diglett Lv 11, Sandshrew Lv 11.
+- Jr. Trainer ♂: Located at (3, 6) inside Pewter Gym, triggered at (4, 6) [Turn 297, Defeated Turn 302]. Team: Diglett Lv 11, Sandshrew Lv 11. Reward: ¥220.
