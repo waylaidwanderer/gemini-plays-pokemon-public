@@ -32,13 +32,13 @@ def walk_step_robust(direction):
 
 def main():
     print("Mapping Row 25/26 access from Row 23...")
-    # Starting at (7, 23).
-    # We will walk Right along Row 23 from Column 7 to Column 18.
+    # Starting at (8, 23).
+    # We will walk Right along Row 23 from Column 8 to Column 20.
     # At each column, we will try to step Down to Row 26.
     
     open_paths = []
     
-    for col in range(7, 19):
+    for col in range(8, 21):
         # Navigate to (col, 23)
         pos = get_pos()
         if pos is None:
