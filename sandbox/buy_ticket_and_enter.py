@@ -13,35 +13,17 @@ def get_pos():
     return pos[0], pos[1]
 
 def main():
-    print("Advancing dialogue to purchase Safari Zone ticket...")
+    print("Mashing B to clear dialogue...")
+    # Press B 8 times to clear any remaining dialogue boxes
+    for _ in range(8):
+        bridge.press_buttons(["B", "sleep 300"])
+        
+    print("Walking UP to enter the Safari Zone...")
+    # Walk UP 2 steps to enter the warp at (4, 0)
+    bridge.press_buttons(["Up", "sleep 450", "Up", "sleep 2000"])
     
-    # We are at "Welcome to the SAFARI ZONE!"
-    # Press A to advance
-    bridge.press_buttons(["A", "sleep 1000"])
-    
-    # Next text: "For just ¥500, you can catch all the POKéMON..."
-    # Press A to advance
-    bridge.press_buttons(["A", "sleep 1000"])
-    
-    # Next text: "Would you like to join the hunt?" [YES/NO]
-    # Select YES by pressing A
-    bridge.press_buttons(["A", "sleep 1500"])
-    
-    # Next text: "That'll be ¥500, please!..."
-    # Press A to advance
-    bridge.press_buttons(["A", "sleep 1000"])
-    
-    # Next text: "Here are 30 SAFARI BALLS!..."
-    # Press A to advance
-    bridge.press_buttons(["A", "sleep 1000"])
-    
-    # Next text: "We'll call you when you run out of time..."
-    # Press A to advance and trigger the walk-in transition
-    bridge.press_buttons(["A", "sleep 4000"])
-    
-    # Let's check our position after transition!
     pos = get_pos()
-    print(f"Position after transition: {pos}")
+    print(f"Current position after entering Safari Zone: {pos}")
     
     screenshot = mgba.take_screenshot()
     print(f"Screenshot taken: {screenshot}")
