@@ -84,16 +84,13 @@ def navigate_to(tx, ty):
         time.sleep(0.4)
 
 def main():
-    # Starting at (26, 0) inside Area 3 (West)
+    # Starting at (21, 20) in Area 3 (West)
     waypoints = [
-        (25, 2),   # Walk DOWN 2 to Row 2, LEFT 1 to Column 25
-        (25, 18),  # Down Column 25 to Row 18
-        (21, 18),  # Left 4 to Column 21
-        (21, 26),  # Down Column 21 to Row 26 (The Row 26 Highway)
-        (19, 26)   # Left 2 along Row 26 Highway to Column 19
+        (21, 26),  # Down Column 21 to Row 26
+        (19, 26)   # Left to Column 19 on Row 26
     ]
     
-    print("Executing Safari Phase 4: Navigating to Gold Teeth...")
+    print("Executing Safari Phase 4 Resume: Navigating to Gold Teeth...")
     for i, wp in enumerate(waypoints, 1):
         pos = get_pos()
         if pos is None:
@@ -116,7 +113,7 @@ def main():
         
     time.sleep(2.0)
     pos = get_pos()
-    print(f"Position after pickup: {pos}")
+    print(f"Final position after pickup: {pos}")
 
 if __name__ == "__main__":
     main()
