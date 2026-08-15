@@ -1,10 +1,10 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 55187)
-- Location: Pokémon Tower 6F at (10, 16) [Staircase to 7F at (9, 16)].
+## CURRENT STATUS & DASHBOARD (Turn 55193)
+- Location: Pokémon Tower 6F at (9, 16) [Navigating to 7F Staircase at (3, 9)].
 - Primary Goal: Clear Pokémon Tower in Lavender Town using the Silph Scope to rescue Mr. Fuji.
 - Secondary Goal: Ascend to Pokémon Tower 7F and defeat Team Rocket Grunts.
-- Active Strategy: Ghost Marowak pacified with Silph Scope -> Ascend to 7F at (9, 16) -> Defeat Team Rocket Grunts -> Rescue Mr. Fuji -> Obtain Poké Flute.
+- Active Strategy: Ghost Marowak pacified -> Navigate to (3, 9) staircase on West side -> Ascend to 7F -> Defeat Team Rocket Grunts -> Rescue Mr. Fuji -> Obtain Poké Flute.
 - Key Items: SILPH SCOPE [ACQUIRED & VERIFIED], LIFT KEY [ACQUIRED], TM07 Horn Drill [ACQUIRED], BICYCLE [EQUIPPED].
 - Party Status: SHELLSHOCK (Blastoise Lv53, HP 29/185), LUNA (Clefable Lv10), CUTTER (Paras Lv14), SPROUT (Bellsprout Lv15).
 
@@ -1578,8 +1578,9 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 # Pokémon Tower 6F Verified Topography & Probing Log
 
 ## Key Warps & Stairs
-- Staircase (Down to 5F): Located at (18, 9).
-- Staircase (Up to 7F): Located at (9, 16) in the south corridor (Ghost Marowak PACIFIED on Turn 55186).
+- Staircase (Down to 5F): Located at (18, 9) [East].
+- Staircase (Up to 7F): Located at (3, 9) [West] (alternating tower staircase pattern).
+- Note: Ghost Marowak guarded the approach on 6F and was pacified on Turn 55186.
 
 ## Floor Layout & NPCs
 - East Landing: Spans Columns 14..18, Rows 7..10.
@@ -1590,6 +1591,7 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 - Channeler 3: Located at (12, 10).
 - Floor Item 1: Collected at (6, 8) on Turn 55178 [IN BAG].
 - Floor Item 2: Located at (14, 14) in Southeast alcove.
-- South Corridor: Open corridor along Row 14 (x=6..11) connecting down through Column 10 (Rows 14..16) to the 7F stairs at (9, 16).
+- South Corridor: Open corridor along Row 14 (x=6..11) connecting west to Column 6 (Rows 10..14).
+- West Landing: Open floor at (3..5, 10) leading up to 7F staircase at (3, 9).
 
 <hr>
