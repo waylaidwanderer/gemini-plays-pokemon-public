@@ -73,6 +73,8 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 ## Area 1 (East) Detailed Overworld Layout & Barriers
 
 ### Vertical & Horizontal Barriers
+- **Column 6 Rhydon Statue Barrier:** Grey Rhydon statues at `(6, 22)` and `(6, 23)` completely block ground-level horizontal crossing on Row 22. (Requires detour DOWN to Row 24).
+- **Column 5 Row 23 Wall:** Solid fence/wall tile at `(5, 23)` blocks DOWN passage on Column 5. (Requires detour LEFT to Column 4).
 - **Column 6 Rhydon Statue Barrier:** Grey Rhydon statues at `(6, 22)` and `(6, 23)` completely block ground-level horizontal crossing on row 22.
 - **Western Row 6 Tree Barrier:** A continuous vertical barrier of trees at columns 0-10 on row 6, blocking all direct northern traversal on the west ground level.
 - **Row 12 NPC Block:** A stationary NPC at `(15, 12)` completely blocks row 12 ground traversal, making it impossible to walk directly from the west ground to the east ground on rows 12-13.
