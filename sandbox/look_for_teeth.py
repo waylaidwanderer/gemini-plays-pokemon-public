@@ -8,9 +8,17 @@ def get_pos():
     return pos[0], pos[1]
 
 def main():
-    print("Beginning buy ticket sequence from catch them!...")
-    for i in range(1, 10):
-        print(f"Pressing A {i}/9...")
+    # Stand at (3, 4) in dialogue: "Hi! Is it your first time here?" with YES/NO
+    # Press Down to highlight NO, then press A 8 times to buy ticket and warp!
+    print("Beginning buy ticket sequence via NO...")
+    
+    # 1. Down
+    bridge.press_buttons(["Down", "sleep 600"])
+    time.sleep(0.4)
+    
+    # 2. A * 8
+    for i in range(1, 9):
+        print(f"Pressing A {i}/8...")
         bridge.press_buttons(["A", "sleep 600"])
         time.sleep(0.4)
         
