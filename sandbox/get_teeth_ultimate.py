@@ -89,20 +89,24 @@ def navigate_to(tx, ty):
 
 def main():
     pos = get_pos()
-    print(f"Starting Safari Center to Area 1 Run from: {pos}")
+    print(f"Starting Area 1 Phase A Run from: {pos}")
     
-    # Starting at (15, 25). Walk to (15, 22).
-    navigate_to(15, 22)
-    # Walk to (27, 22).
-    navigate_to(27, 22)
-    # Walk to (27, 10).
-    navigate_to(27, 10)
-    # Walk to (29, 10) to trigger transition to Area 1 (East).
-    print("Transitioning to Area 1 (East)...")
-    navigate_to(29, 10)
+    # Emerge at (0, 22)
+    # 1. Walk RIGHT to (20, 22)
+    navigate_to(20, 22)
+    # 2. Walk UP 2 to climb plateau stairs to (20, 20)
+    navigate_to(20, 20)
+    # 3. Walk LEFT 8 to (12, 20)
+    navigate_to(12, 20)
+    # 4. Walk DOWN 2 to descend stairs to (12, 22)
+    navigate_to(12, 22)
+    # 5. Walk LEFT 4 to Column 8 at (8, 22)
+    navigate_to(8, 22)
+    # 6. Walk UP 14 along Column 8 to (8, 8)
+    navigate_to(8, 8)
     
     pos = get_pos()
-    print(f"Current position: {pos}")
+    print(f"Area 1 Phase A Run complete! Position: {pos}")
 
 if __name__ == "__main__":
     main()
