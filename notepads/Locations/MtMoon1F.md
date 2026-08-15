@@ -12,10 +12,10 @@
 - Rock formations and walls dividing cavern chambers
 
 ## Items & Discoveries
-- (Documenting item balls as collected)
+- Item Ball at (17, 7) [Collecting Turn 455]
 
 ## Verified Trainers
-- (Documenting trainers as encountered)
+- Trainer #1: Located at (9, 8) facing South [Observed Turn 455]
 
 ## Empirical Wild Encounters
 - (Documenting wild Pokémon encountered)
