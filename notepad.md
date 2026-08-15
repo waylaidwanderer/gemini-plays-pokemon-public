@@ -1563,8 +1563,9 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 - North Corridor (Row 3): Spans Columns 10..15, connecting east and central wings.
 - Central Hall: Spans Columns 4..11, Rows 5..7.
 - Channeler 1: Defeated at (15, 5) on Turn 55164 [Gastly Lv24].
-- Channeler 2: Engaged at (9, 5) on Turn 55171.
-- Floor Item: Visible in Southwest sector at (3, 9) / (4, 9).
+- Channeler 2: Defeated at (9, 6) on Turn 55177 [Gastly Lv24].
+- Channeler 3: Located at (12, 10).
+- Floor Item: Located at (6, 8).
 
 <hr>
 
