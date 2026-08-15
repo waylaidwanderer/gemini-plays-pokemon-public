@@ -10,130 +10,106 @@ def get_pos():
         return None
     return pos[0], pos[1]
 
-def handle_textbox_or_battle():
-    print("Coordinates are None. Handling potential battle or dialogue...")
-    for _ in range(5):
-        bridge.press_buttons(["B", "sleep 150"])
-    
-    print("Attempting to RUN from battle...")
-    bridge.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 1000"])
-    
-    for _ in range(3):
-        bridge.press_buttons(["B", "sleep 150"])
-        
-    pos = get_pos()
-    print(f"Coordinates after battle handling: {pos}")
-    return pos
-
 def walk_step_robust(direction):
     pos = get_pos()
     if pos is None:
-        return handle_textbox_or_battle()
-        
-    print(f"Walking {direction} from {pos}")
+        bridge.press_buttons(["B", "sleep 200"])
+        return get_pos()
     bridge.press_buttons([direction, "sleep 400"])
+    new_pos = get_pos()
+    if new_pos is None:
+        bridge.press_buttons(["B", "sleep 200"])
+        return get_pos()
+    return new_pos
+
+def try_cut_combination(pkmn_idx, option_idx):
+    print(f"\n--- Testing Pokémon {pkmn_idx} with Option {option_idx} ---")
     
-    new_pos = get_pos()
-    if new_pos is None:
-        return handle_textbox_or_battle()
+    # Ensure menu is closed
+    for _ in range(3):
+        bridge.press_buttons(["B", "sleep 200"])
         
-    if new_pos != pos:
-        return new_pos
-        
-    print("Position didn't change, pressing B...")
-    bridge.press_buttons(["B", "sleep 200"])
-    new_pos = get_pos()
-    if new_pos is None:
-        return handle_textbox_or_battle()
-    if new_pos != pos:
-        return new_pos
-        
-    return handle_textbox_or_battle()
-
-def navigate_to(tx, ty):
-    stuck_count = 0
-    while True:
-        pos = get_pos()
-        if pos is None:
-            handle_textbox_or_battle()
-            continue
-            
-        if pos == (tx, ty):
-            print(f"Arrived at waypoint ({tx}, {ty})")
-            break
-            
-        print(f"Current: {pos}, Target: ({tx}, {ty})")
-        if pos[0] < tx:
-            direction = "Right"
-        elif pos[0] > tx:
-            direction = "Left"
-        elif pos[1] < ty:
-            direction = "Down"
-        elif pos[1] > ty:
-            direction = "Up"
-            
-        new_pos = walk_step_robust(direction)
-        if new_pos == pos:
-            stuck_count += 1
-            if stuck_count > 3:
-                print("Stuck! Clearing with B...")
-                bridge.press_buttons(["B", "sleep 500"])
-                stuck_count = 0
-        else:
-            stuck_count = 0
-        time.sleep(0.3)
-
-def use_cut():
-    print("Executing CUT menu sequence...")
-    bridge.press_buttons(["Start", "sleep 500"])
+    # Face UP
+    bridge.press_buttons(["Up", "sleep 400"])
+    
+    # Open Start menu
+    bridge.press_buttons(["Start", "sleep 400"])
+    
+    # Align cursor to POKÉDEX
     for _ in range(6):
-        bridge.press_buttons(["Up", "sleep 200"])
-    bridge.press_buttons(["Down", "sleep 400", "A", "sleep 1000"]) # POKÉMON
-    bridge.press_buttons(["Down", "sleep 400", "A", "sleep 800"]) # Select TRUFFLE
-    bridge.press_buttons(["Down", "sleep 400", "A", "sleep 1500"]) # Select CUT
+        bridge.press_buttons(["Up", "sleep 150"])
+        
+    # Select POKÉMON (Down once, then A)
+    bridge.press_buttons(["Down", "sleep 200", "A", "sleep 800"])
+    
+    # Select Pokémon pkmn_idx
+    for _ in range(pkmn_idx):
+        bridge.press_buttons(["Down", "sleep 150"])
+    bridge.press_buttons(["A", "sleep 500"])
+    
+    # Select option_idx
+    for _ in range(option_idx):
+        bridge.press_buttons(["Down", "sleep 150"])
+    bridge.press_buttons(["A", "sleep 2000"]) # Wait for potential CUT animation
+    
+    # Close any open dialogue boxes or menus
     for _ in range(5):
         bridge.press_buttons(["B", "sleep 300"])
+        
+    # Test if tree is cut by trying to walk UP
+    print("Testing if tree is cut...")
+    pos_before = get_pos()
+    if pos_before is None:
+        return False
+        
+    pos_after = walk_step_robust("Up")
+    if pos_after is not None and pos_after[1] < pos_before[1]:
+        print(f"SUCCESS!!! Pokémon {pkmn_idx} Option {option_idx} CUT the tree! Arrived at {pos_after}")
+        return True
+    else:
+        print("Tree is NOT cut.")
+        return False
 
 def main():
     pos = get_pos()
-    print(f"Initial Position: {pos}")
+    if pos != (26, 14):
+        print(f"Not at (26, 14), navigating there first. Currently at {pos}")
+        # Navigate to (26, 14)
+        # Assuming we are very close
+        bridge.press_buttons(["B", "sleep 200"])
+        # Walk to (26, 14)
+        if pos is not None:
+            if pos[0] < 26: bridge.press_buttons(["Right", "sleep 400"])
+            elif pos[0] > 26: bridge.press_buttons(["Left", "sleep 400"])
+            pos = get_pos()
+            if pos is not None:
+                if pos[1] < 14: bridge.press_buttons(["Down", "sleep 400"])
+                elif pos[1] > 14: bridge.press_buttons(["Up", "sleep 400"])
     
-    # 1. Exit Pokémon Center
-    if pos is not None and pos[0] == 5 and pos[1] == 7:
-        print("Walking to exit mat (4, 7)...")
-        navigate_to(4, 7)
-        print("Stepping DOWN to exit...")
-        bridge.press_buttons(["Down", "sleep 1500"])
-        time.sleep(1.0)
-        
-    pos = get_pos()
-    print(f"Position after exiting Pokémon Center: {pos}")
+    # Try all combinations of Pokémon (0-4) and options (0-2)
+    # Total combinations = 15. Each takes about 6-8 seconds.
+    # To avoid exceeding 100 buttons, we can test 3-4 combinations per run,
+    # but we can do it strategically.
+    # Let's test pkmn 1 (TRUFFLE) option 0 and 1 first.
+    # pkmn 1 is index 1.
+    # Let's run a focused search!
     
-    # 2. Walk to CUT bush in Fuchsia City and CUT it
-    if pos == (19, 28):
-        print("Walking to CUT bush...")
-        waypoints_fuchsia = [
-            (24, 28),
-            (24, 21),
-            (22, 21),
-            (22, 14),
-            (26, 14)
-        ]
-        for wp in waypoints_fuchsia:
-            navigate_to(wp[0], wp[1])
-            
-        print("Facing UP towards CUT bush...")
-        bridge.press_buttons(["Up", "sleep 500"])
-        use_cut()
-        time.sleep(1.0)
-        
-        # Step UP through the cut bush
-        print("Stepping UP through CUT bush...")
-        walk_step_robust("Up")
-        time.sleep(1.0)
-        
-    pos = get_pos()
-    print(f"Final position of Phase 1: {pos}")
+    # Standard order:
+    # Index 1 is TRUFFLE. Let's test index 1 option 0, 1, 2.
+    # Index 2 is GUSTY. Let's test index 2 option 0, 1.
+    # Index 3 is NIBBLES. Let's test index 3 option 0, 1.
+    
+    test_list = [
+        (1, 0), # TRUFFLE option 0
+        (1, 1), # TRUFFLE option 1 (likely CUT)
+        (1, 2), # TRUFFLE option 2
+        (2, 0), # GUSTY option 0
+        (2, 1), # GUSTY option 1
+    ]
+    
+    for pkmn_idx, option_idx in test_list:
+        if try_cut_combination(pkmn_idx, option_idx):
+            break
 
 if __name__ == "__main__":
     main()
