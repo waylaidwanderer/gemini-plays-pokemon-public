@@ -52,14 +52,12 @@ def navigate_to(tx, ty):
         time.sleep(0.4)
 
 def main():
-    # Waypoints to enter Warden's House from (26, 12)
+    # Starting at (25, 26)
     waypoints = [
-        (26, 14),  # Down Column 26 to Row 14
-        (22, 14),  # Left Row 14 to Column 22
-        (22, 21),  # Down Column 22 to Row 21
-        (24, 21),  # Right Row 21 to Column 24
-        (24, 28),  # Down Column 24 to Row 28
-        (27, 28)   # Right Row 28 to Column 27 (Warden's House door mat)
+        (24, 26),  # Left to Column 24
+        (24, 30),  # Down to Row 30
+        (27, 30),  # Right along Row 30 to Column 27 (bypassing the fence at Column 25!)
+        (27, 28)   # Up Column 27 to Row 28 (Warden's House door mat)
     ]
     
     for wp in waypoints:
