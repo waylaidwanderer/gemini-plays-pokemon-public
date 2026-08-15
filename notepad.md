@@ -780,21 +780,18 @@
 
 <h1><code>Locations/Route_7.md</code></h1>
 
-# Route 7 Empirical Topography & Barrier Log
+# Route 7 Empirical Topography & Verified Passages
 
-## Key Warps & Connections
-- Celadon East Entrance: Tile (89, 10) / (89, 11) connects East to Celadon City (0, 18).
-- Saffron West Gatehouse Entrance: Tile (9, 11) / (9, 17) connects West to Saffron West Gatehouse (2, 7).
-- Underground Path Entrance Building: Door located at Route 7 East.
+## Master Connection & Highway Access (Discovered Turn 54639)
+- **Ascent Ledge Gap at (4, 7)**: Tile (4, 7) is a PASSABLE two-way gap in the Row 7 ledge! Walking Up from (4, 8) steps directly onto (4, 7) and Up to (4, 6), granting direct northbound access from Saffron West Gatehouse / Row 8 road directly to the Upper West Highway (Rows 2..6).
+- **Upper West Highway (Rows 2..6)**: Continuous open pavement spanning Columns 0..6 across Rows 2..6.
+- **Celadon City West Connection**: Walking Left along Row 6 across (3, 6) -> (2, 6) -> (1, 6) -> (0, 6) enters Celadon City at (39, 14).
+- **East Saffron Gatehouse Connection**: Exiting Celadon City at (39, 14) onto Route 7 (0, 6) allows walking East across Upper Highway to Column 4/5, hopping South over ledge at (4..6, 7) to Row 8, and walking East to Saffron West Gatehouse at (11, 10).
 
-## Verified Empirical Barriers & Passages (Turns 53750 - 53882)
-- Column 62 (x=62): Solid vertical tree wall spanning y=9..15.
-- Column 75 (x=75): Solid vertical tree wall spanning y=10..13. Open passable green grass gap at y=14..15 (75, 14; 75, 15).
-- Column 80 (x=80): Solid vertical statue wall spanning y=12..15. Open pavement highway at y=10..11 and y=17.
-- Row 16 (y=16): Solid fence/wall spanning x=70..84.
-- Row 13 (y=13): Solid fence/ledge spanning x=76..79.
-- Row 9 (y=9): Solid South-facing dirt ledge spanning x=67..73. Open light grey pavement slope gap at (61, 9).
-- Row 8 (y=8): Open horizontal grass highway spanning x=59..89 above Column 62 tree wall.
+## Key Warps & Buildings
+- Saffron West Gatehouse: Door at (11, 10) / (17, 10) connects to Saffron City (0, 17).
+- Underground Path Entrance Building: Door at (5, 13) with stairs at (4, 4) connecting underground to Route 8.
+- Celadon East Entrance: Tile (0, 6) connects directly to Celadon City (39, 14).
 
 <hr>
 
