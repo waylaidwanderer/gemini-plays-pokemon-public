@@ -11,44 +11,92 @@ def get_pos():
         return None
     return pos[0], pos[1]
 
-def use_dig_from_overworld():
-    print("Using DIG to return to Fuchsia Pokemon Center...")
-    # Open Start menu
-    bridge.press_buttons(["Start", "sleep 500"])
-    
-    # Align to POKÉDEX (press UP 6 times)
-    for _ in range(6):
-        bridge.press_buttons(["Up", "sleep 150"])
-        
-    # Select POKÉMON (Down once from POKÉDEX, A)
-    bridge.press_buttons(["Down", "sleep 300", "A", "sleep 1200"])
-    
-    # Select TRUFFLE slot 2 (press Down once, A)
-    bridge.press_buttons(["Down", "sleep 300", "A", "sleep 800"])
-    
-    # Select DIG (which is the first option for TRUFFLE, press A)
-    bridge.press_buttons(["A", "sleep 4000"]) # Use DIG and wait for warp!
+def handle_textbox_or_battle():
+    # If in text box, clear it
+    for _ in range(5):
+        bridge.press_buttons(["B", "sleep 200"])
+    return get_pos()
+
+def walk_step_robust(direction):
+    pos = get_pos()
+    if pos is None:
+        return handle_textbox_or_battle()
+    bridge.press_buttons([direction, "sleep 450"])
+    new_pos = get_pos()
+    if new_pos is None:
+        return handle_textbox_or_battle()
+    return new_pos
 
 def main():
-    # 1. Clear "Got away safely!" text by pressing B
-    print("Clearing battle text...")
-    bridge.press_buttons(["B", "sleep 300", "B", "sleep 300"])
+    print("Starting automatic Safari step exhaustion...")
     
-    # 2. Use DIG
-    use_dig_from_overworld()
-    
+    # Loop walking back and forth between (19, 24) and (21, 24)
+    # until warped to Gatehouse at (4, 3)
+    step_count = 0
+    while True:
+        pos = get_pos()
+        if pos is None:
+            pos = handle_textbox_or_battle()
+            
+        # Check if we are inside the Gatehouse
+        # Gatehouse coordinates: x=4, y=3
+        if pos is not None and pos[0] < 10 and pos[1] < 10:
+            print(f"Successfully arrived in Safari Gatehouse! Position: {pos}")
+            break
+            
+        # Walk back and forth on Row 24
+        # Walk Left to (19, 24)
+        while pos is not None and pos[0] > 19:
+            pos = walk_step_robust("Left")
+            if pos is None:
+                pos = handle_textbox_or_battle()
+                
+        # Walk Right to (21, 24)
+        while pos is not None and pos[0] < 21:
+            pos = walk_step_robust("Right")
+            if pos is None:
+                pos = handle_textbox_or_battle()
+                
+        step_count += 1
+        if step_count % 10 == 0:
+            print(f"Exhausted {step_count * 2} steps...")
+            
+    # We are in the Gatehouse! Let's exit to Fuchsia City
     pos = get_pos()
-    print(f"Position after DIG: {pos}")
+    print(f"Current Position inside Gatehouse: {pos}")
     
-    # We should be at (19, 28) outside the Pokemon Center. Enter it.
-    if pos == (19, 28):
-        print("Entering Pokémon Center...")
+    # Walk DOWN to exit mat at (4, 7) or (4, 5)
+    # Inside the Gatehouse, we warp at (4, 3).
+    # To exit, walk DOWN to (4, 7) or (3, 7) or (4, 5).
+    # Let's walk Down 4 steps:
+    print("Exiting Gatehouse to Fuchsia City...")
+    for _ in range(5):
+        bridge.press_buttons(["Down", "sleep 500"])
+        
+    # Wait for map transition to Fuchsia City
+    time.sleep(2.0)
+    pos = get_pos()
+    print(f"Position outside in Fuchsia City: {pos}")
+    
+    # We should be at (18, 4) in Fuchsia City.
+    # Walk to the Pokémon Center door at (19, 27) and enter it.
+    if pos == (18, 4):
+        print("Navigating to Pokémon Center...")
+        # Walk DOWN to (18, 8)
+        for _ in range(4):
+            bridge.press_buttons(["Down", "sleep 500"])
+        # Walk RIGHT to Column 19 on Row 8
+        bridge.press_buttons(["Right", "sleep 500"])
+        # Walk DOWN to Row 27
+        for _ in range(19):
+            bridge.press_buttons(["Down", "sleep 450"])
+        # We should be standing directly below Pokémon Center at (19, 27). Enter it.
         bridge.press_buttons(["Up", "sleep 1500"])
         
     pos = get_pos()
     print(f"Inside Pokémon Center: {pos}")
     
-    # 3. Walk to PC at (13, 4)
+    # Walk to PC at (13, 4)
     # Inside Pokemon Center, we start at (3, 7) or (4, 7) on the doormat.
     if pos is not None and pos[1] >= 6:
         print("Navigating to PC...")
@@ -79,7 +127,7 @@ def main():
     
     # Scroll down 10 times to see every single item in the PC, taking screenshots
     for i in range(5):
-        bridge.press_buttons(["Down", "sleep 300"])
+        bridge.press_buttons(["Down", "sleep 400"])
         p = mgba.take_screenshot()
         print(f"PC Scroll {i+1}: {p}")
         
