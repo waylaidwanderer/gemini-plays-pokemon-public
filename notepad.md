@@ -93,3 +93,23 @@
 - North path: Old Man located at (18, 5) [Observed Turn 105] unblocks Route 2 north.
 
 <hr>
+
+<h1><code>Locations/ViridianForest</code></h1>
+
+# Viridian Forest - Points of Interest & Notes
+
+## Connections
+- South: Route 2 Gatehouse (y=47)
+- North: Route 2 North Gatehouse / Pewter City
+
+## Verified Trainers
+- (None fought yet)
+
+## Empirical Wild Encounters
+- Caterpie Lv 3 [Turn 129]
+
+## Items & Layout
+- Entrance at south-east (17, 47)
+- Western path runs north along columns 6-7
+
+<hr>
