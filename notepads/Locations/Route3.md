@@ -17,7 +17,7 @@
 ## Verified Trainers
 - Youngster #1: Located at (10, 6) facing East [Observed Turn 327]
 - Bug Catcher #1: Located at (14, 4) facing South [Defeated Turn 334-335]. Team: Caterpie Lv 10, Weedle Lv 10, Caterpie Lv 10. Reward: ¥100.
-- Youngster #2 (Shorts Guy): Located at (14, 5) facing South, triggered at (14, 6) [Defeated Turn 341]. Team: Rattata Lv 11, Ekans Lv 11. Reward: ¥224.
+- Youngster #2 (Shorts Guy): Located at (14, 5) facing South, triggered at (14, 6) [Defeated Turn 341]. Team: Rattata Lv 11, Ekans Lv 11. Reward: ¥165.
 - Trainer (Lass / Jr. Trainer ♀): Located at (19, 5) facing South/West [Observed Turn 336]
 - Trainer (East): Located at (16, 8..9) facing West [Observed Turn 329]
 
