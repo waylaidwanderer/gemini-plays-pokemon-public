@@ -85,12 +85,13 @@ def navigate_to(tx, ty):
         time.sleep(0.5)
 
 def main():
-    # Starting at (19, 24) on the north side
-    # We walk to (22, 24) -> (22, 26) -> (19, 26)
+    # Starting at (20, 23)
+    # We walk to (20, 24) -> (17, 24) -> (17, 26) -> (19, 26)
     waypoints = [
-        (22, 24),  # Right to Column 22
-        (22, 26),  # Down to Row 26
-        (19, 26)   # Left to Column 19
+        (20, 24),  # Down to Row 24
+        (17, 24),  # Left to Column 17
+        (17, 26),  # Down to Row 26
+        (19, 26)   # Right to Column 19
     ]
     
     for wp in waypoints:
