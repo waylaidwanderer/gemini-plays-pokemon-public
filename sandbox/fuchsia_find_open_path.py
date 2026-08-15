@@ -18,39 +18,36 @@ def walk_step_robust(direction):
     return get_pos()
 
 def main():
-    print("Scanning Row 22 collisions from Columns 18 to 22...")
+    print("Scanning Row 25-31 on Column 24 for Leftward openings...")
     
-    # We are currently at (22, 21)
-    # Let's walk Left along Row 21 to Column 18, and try to step Down at each column!
+    # We are currently at (24, 25)
+    # Let's walk Down Column 24 and try to step Left at each row.
     
-    open_cols = []
-    
-    for col in range(22, 17, -1):
-        # Walk Left to the target column
+    for row in range(25, 32):
+        # Walk Down to target row
         pos = get_pos()
-        while pos[0] > col:
-            pos = walk_step_robust("Left")
+        while pos[1] < row:
+            pos = walk_step_robust("Down")
             if pos is None:
                 break
                 
         pos = get_pos()
-        if pos is None or pos[0] != col:
-            print(f"Failed to reach column {col}")
+        if pos is None or pos[1] != row:
+            print(f"Failed to reach row {row}")
             continue
             
-        print(f"At ({col}, 21). Probing Down...")
-        new_pos = walk_step_robust("Down")
-        if new_pos is not None and new_pos[1] == 22:
-            print(f"-> Column {col} is OPEN to Row 22!")
-            open_cols.append(col)
-            # Step back Up to continue probing
-            walk_step_robust("Up")
+        print(f"At (24, {row}). Probing Left...")
+        new_pos = walk_step_robust("Left")
+        if new_pos is not None and new_pos[0] < 24:
+            print(f"-> Row {row} is OPEN to the Left! Position reached: {new_pos}")
+            # Step back Right to continue probing
+            walk_step_robust("Right")
         else:
-            print(f"-> Column {col} is BLOCKED.")
+            print(f"-> Row {row} is BLOCKED.")
             
         time.sleep(0.3)
         
-    print(f"Scan complete. Open columns on Row 22: {open_cols}")
+    print("Scan complete.")
 
 if __name__ == "__main__":
     main()
