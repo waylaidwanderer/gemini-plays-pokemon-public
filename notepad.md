@@ -113,7 +113,7 @@
 - South-west area (x=1..8, y=30..43) is an enclosed pocket/dead end with tall grass
 - Central-west area (x=11..16, y=32..33) has signpost at (16, 32) and item ball visible at (12, 29) accessible from north
 - Main path leads east from entrance (x=18+) and winds north along the east side
-- Bug Catcher trainer located at (27, 40) facing west
+- Friendly NPC located at (27, 40) (advises carrying extra Poké Balls)
 - Signpost at (24, 40)
 - Main eastern highway runs north along columns 26-27
 
