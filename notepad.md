@@ -5,8 +5,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon Exterior Plaza (x=16, y=7)
-- Current Objective: Enter Pokémon Center at (11, 5) to heal HYDROS, then enter Mt. Moon cave at (18, 5)
+- Location: Route 3 Pokémon Center (x=3, y=7)
+- Current Objective: Heal party with Nurse Joy, then exit to (18, 5) and enter Mt. Moon cave
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -28,9 +28,9 @@
 
 ## Active Party
 1. HYDROS (Wartortle) - Lv 18
-   - Stats (Verified at Lv 18): Max HP 54 (HP: 28/54, Healthy - Attack 32, Defense 36, Speed 33, Special 34)
+   - Stats (Verified at Lv 18): Max HP 54 (HP: 54/54, Healthy - Attack 32, Defense 36, Speed 33, Special 34)
    - Type: Water
-   - Moves: Tackle (31/35), Tail Whip (30/30), Bubble (26/30), Water Gun (6/25)
+   - Moves: Tackle (35/35), Tail Whip (30/30), Bubble (30/30), Water Gun (25/25)
    - Role: Starter & primary Water special attacker
 
 ## Planned Nicknaming Strategy
