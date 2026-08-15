@@ -1175,6 +1175,7 @@ We have empirically verified that Column 28 is 100% OPEN and walkable on Rows 12
   - This forms an interlocking hedge maze that completely prevents ground-level vertical passage from the Northwest Compartment of Center to the South/East Compartment.
 - **Pond & Rest House 1 in Center:** Completely block the middle-western ground level on Rows 10-15 across Columns 9-19.
 - **Center Compartment Wrapping:** The Northwest Compartment of Center is completely isolated from the South/East Compartment. Transitioning RIGHT from Area 3 (West) on Row 23/26 always warps the player into this isolated Northwest Compartment of Center. To enter the South/East Compartment (containing the Warden's Gatehouse warp), we must enter directly from the Gatehouse entrance at (15, 25).
+- **Row 25 Solid Fence in Center:** Completely solid and impassable across all Columns 0 to 29 (except the Gatehouse entrance doormat warp at (15, 25)), physically separating the northern ground area from the southern corridor (Row 26-28) in Safari Zone Center.
 
 ## ⚡ Super-Optimized Ground-Level Transition Route (Bypass Route)
 - **Area 3 (West) to Safari Zone Center direct warp:** Emerge at (30, 23) in Area 3 (West), walk RIGHT 1 step to transition directly to (0, 11) in Safari Zone Center.
