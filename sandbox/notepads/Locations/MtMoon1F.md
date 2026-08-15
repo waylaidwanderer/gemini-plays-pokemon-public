@@ -13,7 +13,7 @@
 - (Documenting item balls as collected inside Mt. Moon)
 
 ## Verified Trainers
-- (Documenting trainers as encountered inside Mt. Moon)
+- Trainer #1: Located at (16, 23) facing West/North [Observed Turn 469]
 
 ## Empirical Wild Encounters
 - (Documenting wild Pokémon encountered)
