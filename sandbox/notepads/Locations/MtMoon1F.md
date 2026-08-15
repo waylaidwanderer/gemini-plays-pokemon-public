@@ -1,21 +1,20 @@
-# Mt. Moon 1F - Points of Interest & Notes
+# Mt. Moon Area - Points of Interest & Notes
+
+## Exterior Plaza (Route 3 / Mt. Moon Entrance)
+- Pokémon Center: Located at (11, 5) with 'POKÉ' sign at (12, 5) [Verified Turn 457].
+- Signpost: Located at (17, 7). Text: 'MT. MOON Tunnel Entrance' [Verified Turn 457].
+- Mt. Moon Cave Entrance: Located at (18, 5) [Verified Turn 457].
+- NPC: Located at (12, 7) / (13, 7).
 
 ## Connections
-- South Exit: Warp to Route 3 at (8, 18) [Entered Turn 447 at (8, 17)]
-- Ladders: (Documenting ladders to B1F/B2F as discovered)
-
-## Layout & Landmarks
-- Entrance chamber at (8, 17)
-- Southwest corridor along rows 12-13 (columns 4-13) scouted to western wall at (4, 13)
-- Main northbound passage located at columns 12-16 (rows 9-13)
-- Cavern corridors wind north and east through the mountain
-- Rock formations and walls dividing cavern chambers
+- South Exit: Warp to Route 3 at (8, 18)
+- North-East: Mt. Moon Cave Entrance at (18, 5)
 
 ## Items & Discoveries
-- Item Ball at (17, 7) [Collecting Turn 455]
+- (Documenting item balls as collected inside Mt. Moon)
 
 ## Verified Trainers
-- Trainer #1: Located at (9, 8) facing South [Observed Turn 455]
+- (Documenting trainers as encountered inside Mt. Moon)
 
 ## Empirical Wild Encounters
 - (Documenting wild Pokémon encountered)
