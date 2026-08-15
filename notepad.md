@@ -186,6 +186,7 @@
 
 ## NPCs & Points of Interest
 - Rest Boy NPC: Located at (57, 11) [Observed Turn 417]. Mentions resting outside the tunnel from Cerulean.
+- Signpost: Located at (59, 9) [Verified Turn 441]. Text: 'ROUTE 3 MT. MOON AHEAD'.
 - Cave Opening / Entrance Landmark: Visually observed on northeast cliff face around columns 56-58, rows 8-9.
 
 ## Layout & Landmarks
