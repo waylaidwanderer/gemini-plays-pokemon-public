@@ -89,22 +89,16 @@ def navigate_to(tx, ty):
 
 def main():
     pos = get_pos()
-    print(f"Starting Area 1 (East) Chunk 1 overworld walk. Position: {pos}")
+    print(f"Starting Area 1 (East) detour walk to Northern Plateau. Position: {pos}")
     
-    # 2. Walk to northern plateau at (12, 6)
-    if pos is not None and pos == (0, 22):
-        navigate_to(0, 24)
-        navigate_to(20, 24)
-        navigate_to(20, 22)
-        navigate_to(20, 20)  # climb plateau
-        navigate_to(12, 20)
-        navigate_to(12, 22)  # descend plateau
-        navigate_to(8, 22)
-        navigate_to(8, 8)
+    # 2. Walk to northern plateau at (12, 6) using Column 10 detour (since Column 8/9 is blocked by a ledge on row 11)
+    if pos is not None and pos == (8, 12):
+        navigate_to(10, 12)
+        navigate_to(10, 8)
         navigate_to(12, 8)
         navigate_to(12, 6)   # climb northern plateau
         
-    print(f"Area 1 Chunk 1 finished. Final position: {get_pos()}")
+    print(f"Area 1 Chunk 1 detour finished. Final position: {get_pos()}")
 
 if __name__ == "__main__":
     main()
