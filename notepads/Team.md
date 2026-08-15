@@ -2,9 +2,9 @@
 
 ## Active Party
 1. HYDROS (Squirtle) - Lv 15
-   - Stats (Verified at Lv 15): Max HP 42 (HP: 17/42, Healthy - Grew to Lv 15 Turn 310)
+   - Stats (Verified at Lv 15): Max HP 42 (HP: 42/42, Healthy - Full heal Turn 317)
    - Type: Water
-   - Moves: Tackle (35/35), Tail Whip (30/30), Bubble (23/30), Water Gun (25/25)
+   - Moves: Tackle (35/35), Tail Whip (30/30), Bubble (30/30), Water Gun (25/25)
    - Role: Starter & primary Water special attacker
 
 ## Planned Nicknaming Strategy
