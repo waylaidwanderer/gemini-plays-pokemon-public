@@ -1551,3 +1551,9 @@ We have empirically verified that Column 28 is 100% OPEN and walkable on Rows 12
 - This shortcut completely bypasses the Area 1 (East) and Area 2 (North) plateau detours for subsequent trips once inside the Northwest Compartment of Safari Zone Center.
 
 <hr>
+
+<h1><code>notepads/Locations/SafariZone</code></h1>
+
+13. **Column 0-1 Row 23/24 Tree Wall:** Physically verified that Column 0, Row 23 is a solid tree trunk (blocking horizontal movement to Column 0) and Column 1, Row 24 is a solid tree trunk (blocking southward movement on Column 1), completely blocking southward ground-level passage at the far-western edge (Turn 32045).
+
+<hr>
