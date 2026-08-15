@@ -86,14 +86,11 @@ def navigate_to(tx, ty):
 
 def main():
     pos = get_pos()
-    print(f"Starting direct route from {pos} to Area 3")
+    print(f"Starting corrected walk to Area 3 from {pos}")
     
     waypoints = [
-        (38, 26), # Walk DOWN Column 38 to Eastern Southern Plateau
-        (28, 26), # Walk LEFT to Column 28
-        (28, 28), # Walk DOWN to descend stairs to ground level
-        (28, 31), # Walk DOWN to Southern Corridor
-        (22, 31), # Walk LEFT along Southern Corridor
+        (38, 31), # Step DOWN to Row 31 (Southern Corridor)
+        (22, 31), # Walk LEFT to Column 22
         (22, 22), # Walk UP to climb Western Southern Plateau stairs
         (16, 22), # Walk LEFT on Western Southern Plateau
         (16, 28), # Walk DOWN to descend stairs
