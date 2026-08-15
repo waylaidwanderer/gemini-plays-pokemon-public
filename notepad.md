@@ -5,8 +5,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Route 3 (x=39, y=18)
-- Current Objective: Traverse Route 3, battle trainers for EXP, catch new Pokémon, and navigate Mt. Moon
+- Location: Route 3 (x=11, y=6)
+- Current Objective: Traverse Route 3, defeat trainers, catch new Pokémon, and proceed towards Cerulean City
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -153,7 +153,7 @@
 
 ## Connections
 - South: Route 2 / Viridian Forest (y=35) [Entered Turn 285]
-- East: Route 3 path heading east towards Mt. Moon
+- East: Route 3 [Verified Turn 325]
 
 ## Buildings & Verified Points of Interest
 - Pokémon Center: Located at (13, 25) [Verified Turn 286] - Free party healing & PC access
@@ -164,7 +164,6 @@
   - Statues at (3, 10) and (6, 10)
   - Gym Guide NPC at (7, 10)
   - Gym Leader: Brock [Defeated Turn 310] (Boulder Badge, TM34 Bide, ¥1386 prize money)
-- Pewter Museum of Science: Located at north
 
 ## Verified Trainers & NPCs
 - Citizen NPC: Located at (17, 25) outside Pokémon Center [Observed Turn 286]
@@ -183,17 +182,22 @@
 
 ## Connections
 - West: Pewter City [Entered Turn 325]
-- East: Mt. Moon
+- East: (Path leads east through mountain corridors)
 
 ## Layout & Landmarks
 - Mountain path flanked by rock cliffs on north and south
-- Tall grass patch at entrance (columns 2-8, rows 8-11)
+- Entrance tall grass patch at columns 2-8, rows 8-11
 - Rocky boulders at (4, 8) and (4, 11)
 - Bush/tree obstacle at (9, 10..11)
-- One-way ledges running horizontally at row 7 and row 11
+- Elevation & Ledge Mapping:
+  - Upper one-way ledge: Runs horizontally along row 7 from column 11 eastward.
+  - Passable north-south gap around upper ledge: Located at column 10 (x=10, y=7).
+  - Lower one-way ledge: Runs horizontally along row 11 from column 10 eastward.
 
 ## Verified Trainers
-- Youngster #1: Located at (10, 6) facing East [Observed Turn 327-328]
+- Youngster #1: Located at (10, 6) facing East [Observed Turn 327]
+- Trainer (Bug Catcher): Located at (14, 4) facing South [Observed Turn 329]
+- Trainer (East): Located at (16, 8..9) facing West [Observed Turn 329]
 
 ## Empirical Wild Encounters
 - (Documenting upon encounter)

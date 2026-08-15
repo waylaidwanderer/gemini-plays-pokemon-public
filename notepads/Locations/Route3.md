@@ -2,17 +2,22 @@
 
 ## Connections
 - West: Pewter City [Entered Turn 325]
-- East: Mt. Moon
+- East: (Path leads east through mountain corridors)
 
 ## Layout & Landmarks
 - Mountain path flanked by rock cliffs on north and south
-- Tall grass patch at entrance (columns 2-8, rows 8-11)
+- Entrance tall grass patch at columns 2-8, rows 8-11
 - Rocky boulders at (4, 8) and (4, 11)
 - Bush/tree obstacle at (9, 10..11)
-- One-way ledges running horizontally at row 7 and row 11
+- Elevation & Ledge Mapping:
+  - Upper one-way ledge: Runs horizontally along row 7 from column 11 eastward.
+  - Passable north-south gap around upper ledge: Located at column 10 (x=10, y=7).
+  - Lower one-way ledge: Runs horizontally along row 11 from column 10 eastward.
 
 ## Verified Trainers
-- Youngster #1: Located at (10, 6) facing East [Observed Turn 327-328]
+- Youngster #1: Located at (10, 6) facing East [Observed Turn 327]
+- Trainer (Bug Catcher): Located at (14, 4) facing South [Observed Turn 329]
+- Trainer (East): Located at (16, 8..9) facing West [Observed Turn 329]
 
 ## Empirical Wild Encounters
 - (Documenting upon encounter)
