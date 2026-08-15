@@ -750,12 +750,12 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 54966)
-- Location: Saffron City Pokémon Center [Healed] -> Heading to Route 8 & Lavender Town.
+## CURRENT STATUS & DASHBOARD (Turn 54993)
+- Location: Route 8 at (0, 8) [Heading East to Lavender Town].
 - Primary Goal: Clear Pokémon Tower in Lavender Town using the Silph Scope to rescue Mr. Fuji.
-- Secondary Goal: Travel East through Saffron East Gatehouse (39, 18) to Route 8 and Lavender Town.
-- Active Strategy: Full party healed at Saffron Pokémon Center -> Exit to Saffron City -> Walk East to East Gatehouse (39, 18) -> Route 8 -> Lavender Town -> Ascend Pokémon Tower with Silph Scope.
-- Key Items: SILPH SCOPE [ACQUIRED & VERIFIED], LIFT KEY [ACQUIRED], TM07 Horn Drill [ACQUIRED], BICYCLE [ACQUIRED].
+- Secondary Goal: Ride East across Route 8 to Lavender Town at (59, 8).
+- Active Strategy: Exit Saffron complete -> On Route 8 highway at (0, 8) riding Bicycle East -> Lavender Town at (59, 8) -> Enter Pokémon Tower at (15, 5) -> Ascend tower with Silph Scope -> Rescue Mr. Fuji -> Obtain Poké Flute.
+- Key Items: SILPH SCOPE [ACQUIRED & VERIFIED], LIFT KEY [ACQUIRED], TM07 Horn Drill [ACQUIRED], BICYCLE [EQUIPPED].
 - Party Status: SHELLSHOCK (Blastoise Lv52, HP 182/182, HEALTHY), LUNA (Clefable Lv10), CUTTER (Paras Lv14), SPROUT (Bellsprout Lv15).
 
 <hr>
@@ -1232,16 +1232,9 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 - Floor Item 3: Located at (16, 8) in B2F Northeast room.
 
 ## Spin Maze Topology & Stop Tiles
-- Entrance Stop Tile: Located at (16, 13).
-- Central Stop Tile: Located at (14, 12).
-- Northwest Stop Tile: Located at (2, 9).
-- Central-West Stop Tile: Located at (8, 11).
+- Northern Maze Stop Tiles: (16, 13), (14, 12), (2, 9), (8, 11).
+- Southern Maze Stop Tiles: (9, 16), (15, 18), (11, 20), (9, 24), (14, 25).
 - East-to-West Transition Route: (17, 10) LEFT-spin tile -> slides through (13, 10) DOWN-spin and (13, 12) RIGHT-spin onto (14, 12) stop tile -> (12, 11) UP-spin tile -> slides through (12, 9) and (10, 9) LEFT-spin tiles onto (2, 9) northwest stop tile.
-## Additional Verified Stop Tiles & Southern Maze
-- Stop Tile: (9, 16)
-- Stop Tile: (15, 18)
-- Stop Tile: (11, 20)
-- Southern Spin Route: (9, 16) stop tile -> (11, 16) RIGHT-spin -> slides through (13, 16) and (15, 16) DOWN-spin onto (15, 18) stop tile -> (13, 18) LEFT-spin -> (11, 18) DOWN-spin onto (11, 20) stop tile.
 - Complete Southern Exit Route: From (15, 18) stop tile -> (13, 18) LEFT-spin -> (11, 18) DOWN-spin onto (11, 20) stop tile -> Walk to (14, 22) -> (13, 22) LEFT-spin -> (9, 22) DOWN-spin onto (9, 24) stop tile -> Walk to (10, 24) -> (10, 25) RIGHT-spin -> slides onto (14, 25) stop tile -> Walk East via Column 16 / Row 20 to East Wing.
 ## Elevator & Southeast Wing
 - Elevator Entrance: Located at (24, 19) with red checkered entrance mat, accessible via open corridor along Row 18 (x=19..24).
