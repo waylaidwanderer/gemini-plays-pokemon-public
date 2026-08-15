@@ -5,8 +5,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 0/8
-- Location: Professor Oak's Pokémon Research Lab (Pallet Town)
-- Current Objective: Win introductory battle against Rival RED
+- Location: Pallet Town
+- Current Objective: Travel north along Route 1 to Viridian City Pokémart for Oak's Parcel
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames
@@ -21,10 +21,10 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. HYDROS (Squirtle) - Lv 5
-   - HP: 20/20 (Empirically verified)
+1. HYDROS (Squirtle) - Lv 6
+   - Stats (Verified at Lv 6): Atk 11, Def 13, Spe 12, Spc 12
    - Type: Water
-   - Moves: Tackle (PP 35/35), Tail Whip (PP 30/30)
+   - Moves: Tackle, Tail Whip
    - Role: Starter & primary Water/Ice special attacker
 
 ## Battle Strategy Notes
