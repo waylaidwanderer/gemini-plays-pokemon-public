@@ -11,82 +11,6 @@ def get_pos():
         return None
     return pos[0], pos[1]
 
-def handle_textbox_or_battle():
-    print("Coordinates are None. Handling potential battle or dialog...")
-    # Clear text boxes with B
-    for _ in range(5):
-        bridge.press_buttons(["B", "sleep 150"])
-    
-    # Try to RUN
-    print("Attempting to RUN from battle...")
-    bridge.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 1000"])
-    
-    # Clear post-flee text
-    for _ in range(3):
-        bridge.press_buttons(["B", "sleep 150"])
-        
-    pos = get_pos()
-    print(f"Coordinates after battle handling: {pos}")
-    return pos
-
-def walk_step_robust(direction):
-    pos = get_pos()
-    if pos is None:
-        return handle_textbox_or_battle()
-        
-    print(f"Walking {direction} from {pos}")
-    bridge.press_buttons([direction, "sleep 450"])
-    
-    new_pos = get_pos()
-    if new_pos is None:
-        return handle_textbox_or_battle()
-        
-    if new_pos != pos:
-        return new_pos
-        
-    print("Position didn't change, pressing B...")
-    bridge.press_buttons(["B", "sleep 200"])
-    new_pos = get_pos()
-    if new_pos is None:
-        return handle_textbox_or_battle()
-    if new_pos != pos:
-        return new_pos
-        
-    return handle_textbox_or_battle()
-
-def navigate_to(tx, ty):
-    stuck_count = 0
-    while True:
-        pos = get_pos()
-        if pos is None:
-            handle_textbox_or_battle()
-            continue
-            
-        if pos == (tx, ty):
-            print(f"Arrived at waypoint ({tx}, {ty})")
-            break
-            
-        print(f"Current: {pos}, Target: ({tx}, {ty})")
-        if pos[0] < tx:
-            direction = "Right"
-        elif pos[0] > tx:
-            direction = "Left"
-        elif pos[1] < ty:
-            direction = "Down"
-        elif pos[1] > ty:
-            direction = "Up"
-            
-        new_pos = walk_step_robust(direction)
-        if new_pos == pos:
-            stuck_count += 1
-            if stuck_count > 3:
-                print("Stuck! Clearing with B...")
-                bridge.press_buttons(["B", "sleep 500"])
-                stuck_count = 0
-        else:
-            stuck_count = 0
-        time.sleep(0.4)
-
 def use_dig_safe():
     print("Using DIG to warp out of Safari Zone...")
     bridge.press_buttons(["B", "sleep 300", "B", "sleep 300"])
@@ -101,51 +25,36 @@ def use_dig_safe():
 
 def main():
     pos = get_pos()
-    print(f"Starting Phase 4 at: {pos}")
+    print(f"Starting at: {pos}")
     
-    # We are currently at (25, 3)
-    waypoints = [
-        (25, 18),  # Walk Down Column 25
-        (21, 18),  # Walk Left
-        (21, 23),  # Walk Down Column 21
-        (19, 23),  # Walk Left along Row 23
-        (19, 24),  # Walk Down
-        (18, 24),  # Walk Left
-        (18, 26),  # Walk Down Column 18
-        (19, 26)   # Walk Right to stand directly below teeth
-    ]
-    
-    print("Executing Safari Phase 4: Walk to Gold Teeth...")
-    for i, wp in enumerate(waypoints, 1):
-        pos = get_pos()
-        if pos is None:
-            pos = handle_textbox_or_battle()
-            if pos is None:
-                print("Map changed or battle occurred, stopping script.")
-                break
-        print(f"\n--- WAYPOINT {i}/{len(waypoints)}: {wp} ---")
-        navigate_to(wp[0], wp[1])
+    if pos == (18, 24):
+        # Walk Right 1 step to (19, 24)
+        print("Walking Right to (19, 24)...")
+        bridge.press_buttons(["Right", "sleep 500"])
         
     pos = get_pos()
-    if pos == (19, 26):
-        print("At Gold Teeth location. Facing UP...")
-        bridge.press_buttons(["Up", "sleep 500"])
+    if pos == (19, 24):
+        # Face DOWN towards the Gold Teeth at (19, 25)
+        print("Facing DOWN towards Gold Teeth...")
+        bridge.press_buttons(["Down", "sleep 500"])
         
-        print("Picking up Gold Teeth...")
+        # Interact to pick up the Gold Teeth!
+        print("Interacting to retrieve Gold Teeth...")
         bridge.press_buttons(["A", "sleep 1500"])
         
-        print("Clearing textbox...")
+        # Clear textbox
+        print("Clearing textboxes...")
         for _ in range(5):
             bridge.press_buttons(["B", "sleep 250"])
             
-        # Use DIG to exit
+        # Use DIG to exit back to Fuchsia City
         use_dig_safe()
         
     time.sleep(2.0)
     pos = get_pos()
-    print(f"Final position after DIG: {pos}")
+    print(f"Final Position: {pos}")
     
-    # Take screenshot of final overworld position
+    # Take screenshot of final position
     img = mgba.take_screenshot()
     print(f"Screenshot: {img}")
 
