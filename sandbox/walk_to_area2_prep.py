@@ -89,17 +89,28 @@ def navigate_to(tx, ty):
 
 def main():
     pos = get_pos()
-    print(f"Starting Area 2 (North) optimized ground bypass walk. Position: {pos}")
+    print(f"Starting Area 2 (North) ground-level walk. Position: {pos}")
     
-    # Walk to (22, 31) starting from the stairs at (34, 15)
-    if pos is not None and pos == (34, 15):
-        navigate_to(34, 16)  # explicitly step down onto the ground!
-        navigate_to(31, 16)
-        navigate_to(31, 12)
-        navigate_to(22, 12)
+    # Walk to (22, 31) starting from the ground corridor at (22, 19)
+    if pos is not None and pos == (22, 19):
+        # Walk RIGHT to Column 25 and DOWN to Row 31 (bypassing the plateau wall at 22, 20)
+        navigate_to(25, 19)
+        navigate_to(25, 31)
         navigate_to(22, 31)
         
-    print(f"Walk to (22, 31) finished. Final position: {get_pos()}")
+        # Now walk LEFT to transition to Area 3 (West) at (26, 0)
+        navigate_to(12, 28)
+        navigate_to(12, 30)
+        navigate_to(8, 30)
+        navigate_to(8, 35)
+        print("Warping to Area 3 (West)...")
+        navigate_to(8, 36)
+        pos = get_pos()
+        if pos == (8, 36):
+            walk_step_robust("Down")
+        time.sleep(1.5)
+        
+    print(f"Walk to Area 3 finished. Final position: {get_pos()}")
 
 if __name__ == "__main__":
     main()
