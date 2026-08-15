@@ -7,7 +7,7 @@
 ## NPCs & Points of Interest
 - Rest Boy NPC: Located at (57, 11) [Observed Turn 417]. Mentions resting outside the tunnel from Cerulean.
 - Signpost: Located at (59, 9) [Verified Turn 441]. Text: 'ROUTE 3 MT. MOON AHEAD'.
-- Cave Opening / Entrance Landmark: Visually observed on northeast cliff face around columns 56-58, rows 8-9.
+- Mt. Moon Cave Entrance: Located at (58, 4..5) and (59, 4..5) [Verified Turn 443].
 
 ## Layout & Landmarks
 - Mountain path flanked by rock cliffs on north and south
@@ -15,6 +15,7 @@
 - Rocky boulders at (4, 8) and (4, 11)
 - Bush/tree obstacle at (9, 10..11)
 - Elevation & Ledge Mapping:
+  - Passable north-south gap at eastern terminus: Located at column 59 (x=59, y=7) [Verified Turn 443].
   - Upper one-way ledge: Runs horizontally along row 7 from column 11 eastward.
   - Passable north-south gaps around upper ledge: Located at column 10 (x=10, y=7) and column 37 (x=37, y=7) [Verified Turn 407].
   - Lower one-way ledge: Runs horizontally along row 11 from column 10 eastward.
