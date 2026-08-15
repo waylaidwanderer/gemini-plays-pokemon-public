@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 54571)
-- Location: Route 7 at (2, 13) [Signpost outside Underground Path Building].
+## CURRENT STATUS & DASHBOARD (Turn 54585)
+- Location: Saffron City at (9, 30) [Outside Saffron Pokémon Center].
 - Primary Goal: Infiltrate Main Rocket Hideout in Celadon City to obtain Silph Scope.
 - Secondary Goal: Travel to Celadon City and heal at Celadon Pokémon Center.
-- Active Strategy: Survey Route 7 layout systematically -> Dismiss signpost textbox -> Probe south tall grass area (y=15..18, x=2..10) and west border for Celadon City transition -> Enter Celadon City -> Heal at Celadon Pokémon Center -> Infiltrate Game Corner.
-- Note: LUNA (Clefable) knows Teleport (TM30) which warps to last visited Pokémon Center (currently Saffron City Pokémon Center).
+- Active Strategy: Walk west to Column 2 (2, 30) -> Walk North up Column 2 to (2, 17) -> Enter Saffron West Gatehouse at (0, 17) -> Exit onto Route 7 -> Navigate Route 7 North Lawn to Celadon City -> Heal at Celadon Pokémon Center -> Infiltrate Game Corner.
+- Note: LUNA (Clefable) knows Teleport (TM30); SHELLSHOCK knows Dig; CUTTER knows Cut.
