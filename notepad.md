@@ -6,7 +6,7 @@
 - Player: BLUE
 - Badges: 0/8
 - Location: Pallet Town
-- Current Objective: Deliver Oak's Parcel to Professor Oak in Oak's Lab
+- Current Objective: Obtain Town Map from Daisy in Pallet Town
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames
@@ -58,8 +58,7 @@
 
 ## Main Quests
 - [x] Receive Starter Pokémon from Oak (Squirtle nicknamed HYDROS)
-- [ ] Deliver Oak's Parcel from Viridian City Pokémart to Oak (Parcel retrieved)
-- [ ] Obtain Pokédex and Poké Balls from Oak
+- [x] Deliver Oak's Parcel to Oak & receive Pokédex + 5 Poké Balls
 - [ ] Obtain Town Map from Daisy in Pallet Town
 - [ ] Defeat Gym Leader Brock in Pewter City (Boulder Badge)
 
