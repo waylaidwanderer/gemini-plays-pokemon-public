@@ -1,21 +1,21 @@
 <h1><code>Main</code></h1>
 
-# Pokémon Blue - Main Dashboard
+# Pok�mon Blue - Main Dashboard
 
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Route 3 (x=14, y=6)
-- Current Objective: Traverse Route 3, defeat trainers, catch new Pokémon, and proceed towards Cerulean City
+- Location: Route 3 (x=18, y=5)
+- Current Objective: Traverse Route 3, defeat trainers, catch new Pok�mon, and proceed towards Mt. Moon / Cerulean City
 
 ## Notepads Index
-- `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
+- `Team`: Current Pok�mon party, movesets, stats, nicknames, inventory
 - `Quests`: Story progression and side tasks
 - `Locations/PalletTown`: Points of interest, NPC dialogues, items
 - `Locations/Route1`: Route 1 layout, points of interest, wild encounters
 - `Locations/ViridianCity`: Viridian City buildings, Mart catalog, Old Man
 - `Locations/ViridianForest`: Forest layout, 3 Bug Catchers, items
-- `Locations/PewterCity`: Pewter City points of interest, Pokémon Center, Pewter Gym
+- `Locations/PewterCity`: Pewter City points of interest, Pok�mon Center, Pewter Gym
 - `Locations/Route3`: Route 3 layout, trainers, wild encounters
 
 
@@ -26,24 +26,25 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. HYDROS (Wartortle) - Lv 16
-   - Stats (Verified at Lv 16): Max HP 49 (HP: 32/49, Healthy - Evolved Turn 341)
+1. HYDROS (Wartortle) - Lv 17
+   - Stats (Verified at Lv 17): Max HP 51 (HP: 34/51, Healthy - Attack 30, Defense 34, Speed 31, Special 33)
    - Type: Water
    - Moves: Tackle (34/35), Tail Whip (30/30), Bubble (26/30), Water Gun (14/25)
    - Role: Starter & primary Water special attacker
 
 ## Planned Nicknaming Strategy
-- Every captured Pokémon will receive a thoughtful, unique nickname.
+- Every captured Pok�mon will receive a thoughtful, unique nickname.
 
-## Inventory & Resources (Verified Turn 341)
-- Money: ¥654 (¥489 + ¥165 from Youngster #2)
-- Badges: Boulder Badge (Enables Flash outside battle, boosts Pokémon Attack)
-- Key Items: Town Map, Pokédex
+## Inventory & Resources (Verified Turn 359)
+- Money: �744 (�654 + �90 from Bug Catcher #2)
+- Badges: Boulder Badge (Enables Flash outside battle, boosts Pok�mon Attack)
+- Key Items: Town Map, Pok�dex
 - TMs / HMs: TM34 (Bide)
 - Consumables:
   - 1x Antidote (Status cure: Poison)
   - 3x Potion (Restores 20 HP)
-  - 11x Poké Ball (Standard catch rate)
+  - 11x Pok� Ball (Standard catch rate)
+
 
 <hr>
 
@@ -181,7 +182,7 @@
 
 ## Connections
 - West: Pewter City [Entered Turn 325]
-- East: (Path leads east through mountain corridors)
+- East: Mt. Moon & Route 4 (path leads east through mountain corridors)
 
 ## Layout & Landmarks
 - Mountain path flanked by rock cliffs on north and south
@@ -195,12 +196,15 @@
 
 ## Verified Trainers
 - Youngster #1: Located at (10, 6) facing East [Observed Turn 327]
-- Bug Catcher #1: Located at (14, 4) facing South [Defeated Turn 334-335]. Team: Caterpie Lv 10, Weedle Lv 10, Caterpie Lv 10. Reward: ¥100.
-- Youngster #2 (Shorts Guy): Located at (14, 5) facing South, triggered at (14, 6) [Defeated Turn 341]. Team: Rattata Lv 11, Ekans Lv 11. Reward: ¥165.
-- Bug Catcher #2: Located at (19, 5) facing South [Engaged Turn 348]. Team: 4 Pokémon (Weedle Lv 9, Kakuna Lv 9, Caterpie Lv 9, Metapod Lv 9).
-- Trainer (East): Located at (16, 8..9) facing West [Observed Turn 329]
+- Bug Catcher #1: Located at (14, 4) facing South [Defeated Turn 334-335]. Team: Caterpie Lv 10, Weedle Lv 10, Caterpie Lv 10. Reward: �100.
+- Youngster #2 (Shorts Guy): Located at (14, 5) facing South, triggered at (14, 6) [Defeated Turn 341]. Team: Rattata Lv 11, Ekans Lv 11. Reward: �165.
+- Bug Catcher #2: Located at (19, 5) facing South [Defeated Turn 358]. Team: Weedle Lv 9, Kakuna Lv 9, Caterpie Lv 9, Metapod Lv 9. Reward: �90.
+- Bug Catcher #3 (or Trainer): Located at (23, 4) facing South/West [Observed Turn 361]
+- Trainer (Lass): Located at (16, 9) facing North [Observed Turn 347]
+- Trainer (Youngster): Located at (22, 9) facing North/Left [Observed Turn 361]
 
 ## Empirical Wild Encounters
 - (Documenting upon encounter)
+
 
 <hr>
