@@ -11,6 +11,82 @@ def get_pos():
         return None
     return pos[0], pos[1]
 
+def handle_textbox_or_battle():
+    print("Coordinates are None. Handling potential battle or dialog...")
+    # Clear text boxes with B
+    for _ in range(5):
+        bridge.press_buttons(["B", "sleep 150"])
+    
+    # Try to RUN
+    print("Attempting to RUN from battle...")
+    bridge.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 1000"])
+    
+    # Clear post-flee text
+    for _ in range(3):
+        bridge.press_buttons(["B", "sleep 150"])
+        
+    pos = get_pos()
+    print(f"Coordinates after battle handling: {pos}")
+    return pos
+
+def walk_step_robust(direction):
+    pos = get_pos()
+    if pos is None:
+        return handle_textbox_or_battle()
+        
+    print(f"Walking {direction} from {pos}")
+    bridge.press_buttons([direction, "sleep 450"])
+    
+    new_pos = get_pos()
+    if new_pos is None:
+        return handle_textbox_or_battle()
+        
+    if new_pos != pos:
+        return new_pos
+        
+    print("Position didn't change, pressing B...")
+    bridge.press_buttons(["B", "sleep 200"])
+    new_pos = get_pos()
+    if new_pos is None:
+        return handle_textbox_or_battle()
+    if new_pos != pos:
+        return new_pos
+        
+    return handle_textbox_or_battle()
+
+def navigate_to(tx, ty):
+    stuck_count = 0
+    while True:
+        pos = get_pos()
+        if pos is None:
+            handle_textbox_or_battle()
+            continue
+            
+        if pos == (tx, ty):
+            print(f"Arrived at waypoint ({tx}, {ty})")
+            break
+            
+        print(f"Current: {pos}, Target: ({tx}, {ty})")
+        if pos[0] < tx:
+            direction = "Right"
+        elif pos[0] > tx:
+            direction = "Left"
+        elif pos[1] < ty:
+            direction = "Down"
+        elif pos[1] > ty:
+            direction = "Up"
+            
+        new_pos = walk_step_robust(direction)
+        if new_pos == pos:
+            stuck_count += 1
+            if stuck_count > 3:
+                print("Stuck! Clearing with B...")
+                bridge.press_buttons(["B", "sleep 500"])
+                stuck_count = 0
+        else:
+            stuck_count = 0
+        time.sleep(0.4)
+
 def use_dig_safe():
     print("Using DIG to warp out of Safari Zone...")
     bridge.press_buttons(["B", "sleep 300", "B", "sleep 300"])
@@ -25,20 +101,30 @@ def use_dig_safe():
 
 def main():
     pos = get_pos()
-    print(f"Starting at: {pos}")
+    print(f"Starting Golden Route at: {pos}")
     
-    # We are currently at (19, 24)
-    # To go around to (19, 26):
-    # Walk Right to Column 22
-    bridge.press_buttons(["Right", "sleep 400", "Right", "sleep 400", "Right", "sleep 400"]) # (22, 24)
-    # Walk Down to Row 26
-    bridge.press_buttons(["Down", "sleep 400", "Down", "sleep 400"]) # (22, 26)
-    # Walk Left to Column 19
-    bridge.press_buttons(["Left", "sleep 400", "Left", "sleep 400", "Left", "sleep 400"]) # (19, 26)
+    # Golden Plateau Route to Gold Teeth (starting from 18, 24)
+    waypoints = [
+        (21, 18),  # Step 1: Walk to East Stairs base
+        (21, 16),  # Step 2: Climb stairs onto Plateau flat top
+        (6, 16),   # Step 3: Walk across Plateau to West Stairs
+        (6, 20),   # Step 4: Descend stairs to ground level
+        (6, 26),   # Step 5: Walk DOWN to Row 26 Highway
+        (19, 26)   # Step 6: Walk East to stand directly below teeth
+    ]
     
+    print("Executing Safari Golden Plateau Route to stand below Gold Teeth...")
+    for i, wp in enumerate(waypoints, 1):
+        pos = get_pos()
+        if pos is None:
+            pos = handle_textbox_or_battle()
+            if pos is None:
+                print("Map changed or battle occurred, stopping script.")
+                break
+        print(f"\n--- WAYPOINT {i}/{len(waypoints)}: {wp} ---")
+        navigate_to(wp[0], wp[1])
+        
     pos = get_pos()
-    print(f"Arrived at: {pos}")
-    
     if pos == (19, 26):
         # Face UP towards the Gold Teeth at (19, 25)
         print("Facing UP towards Gold Teeth...")
