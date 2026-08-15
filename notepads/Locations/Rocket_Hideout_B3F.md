@@ -15,8 +15,7 @@
 ## Items & Pickups
 - Floor Item: Located at (20, 14) in West corridor.
 
-## Objectives
-- Navigate Row 5 into West Wing -> Collect item at (20, 14) -> Explore West Wing -> Find Lift Key / Stairs to B4F -> Defeat Giovanni.
+## Warps & Staircases
 - Downward Staircase (Down to B4F): Located at (19, 18).
 ## Spin Maze Complete Verified Solution to B4F Stairs (Discovered Turn 54800)
 1. From (18, 15) stop tile: Walk Left to (17, 15), Up to (17, 13), Left onto (16, 13) UP-spin tile -> slides Up to (16, 11) stop tile.
