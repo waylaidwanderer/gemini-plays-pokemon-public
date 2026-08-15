@@ -4,7 +4,7 @@
 - Player: BLUE
 - Badges: 0/8
 - Location: Pallet Town
-- Current Objective: Deliver Oak's Parcel to Professor Oak in Oak's Lab
+- Current Objective: Obtain Town Map from Daisy in Pallet Town
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames
