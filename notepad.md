@@ -818,19 +818,25 @@
 
 <h1><code>Locations/Celadon_City</code></h1>
 
-# Celadon City Topography & Points of Interest
+# Verified Celadon City Topography & Points of Interest
 
-## Access Route
-- Celadon City is located directly West of Route 7 through the Celadon East Gatehouse.
+## Key Buildings & Warps (Verified)
+- Celadon Dept Store (Mart): Door at (23, 13) [sign "MART" at (24, 13)].
+- Celadon Mansion 1F: Door at (9, 13).
+- Celadon Pokémon Center: Door at (41, 9).
+- Celadon Diner: Door at (35, 27).
+- Celadon Hotel: Door at (31, 27).
+- Rocket Game Corner: Door at (28, 19) with signpost at (27, 21).
+- Celadon Prize Exchange: Door at (33, 19) with signpost at (33, 21).
+- Northwest Residence: Door at (7, 3) / (11, 3).
+- East Entrance / Exit to Route 7: Tile (49, 11) / (49, 15).
+- West Entrance / Exit to Route 7: Tile (0, 6) / (0, 7).
 
-## Major Landmarks (To Explore)
-- Celadon Department Store
-- Celadon Pok�mon Center
-- Celadon Mansion
-- Celadon Game Corner & Rocket Hideout (North Wall poster switch)
-- Celadon Gym (Erika - Grass type, Rainbow Badge)
-- Celadon Diner / Prize Exchange
-
+## Major City Corridors & Streets
+- North Avenue (Row 13/14): Open horizontal street connecting Mansion, Mart, and West Route 7.
+- Central-South Passage (Columns 22..25, Rows 22..31): Wide, open pavement avenue connecting North Avenue directly South into the South Courtyard (Hotel & Diner).
+- Game Corner Alley (Columns 36..37): Open vertical passage connecting South Avenue into the Game Corner gravel plaza (Row 20).
+- East Celadon: Contains Pokémon Center at (41, 9) and connection to East Route 7.
 
 <hr>
 
