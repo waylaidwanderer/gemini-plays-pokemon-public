@@ -101,55 +101,17 @@ def buy_safari_ticket():
     time.sleep(1.0)
 
 def main():
-    print("Executing Unified Safari Master Route...")
+    print("Executing Safari Master Route Post-Cut...")
     
     pos = get_pos()
     if pos is None:
         pos = handle_textbox_or_battle()
     print(f"Initial Position: {pos}")
     
-    # State 1: inside Fuchsia City (outside Pokemon Center or east side)
-    if pos is not None and pos[1] >= 14 and pos[0] < 38 and pos != (3, 7) and pos[0] != 13:
-        print("Navigating Fuchsia City to Safari Gatehouse via Column 24 & Cut-bush...")
-        # Navigate to Column 24 Row 28 to bypass Row 29 fence
-        navigate_to(24, 28)
-        navigate_to(24, 21)
-        navigate_to(22, 21)
-        navigate_to(22, 14)
-        navigate_to(26, 14)
-        
-        # Face UP and use CUT
-        print("Facing UP at CUT bush...")
-        bridge.press_buttons(["Up", "sleep 500"])
-        # Cut menu sequence
-        print("Using CUT...")
-        # Open Start menu
-        bridge.press_buttons(["Start", "sleep 500"])
-        # Guarantee cursor at POKÉDEX
-        for _ in range(6):
-            bridge.press_buttons(["Up", "sleep 200"])
-        # Move to POKÉMON (2nd)
-        bridge.press_buttons(["Down", "sleep 400"])
-        # Open POKÉMON
-        bridge.press_buttons(["A", "sleep 1000"])
-        # Select TRUFFLE (2nd Pokémon slot)
-        bridge.press_buttons(["Down", "sleep 400"])
-        # Select TRUFFLE
-        bridge.press_buttons(["A", "sleep 800"])
-        # Move cursor to CUT (2nd field move under DIG)
-        bridge.press_buttons(["Down", "sleep 400"])
-        # Select CUT
-        bridge.press_buttons(["A", "sleep 1500"])
-        # Clear text and menus with B
-        for _ in range(5):
-            bridge.press_buttons(["B", "sleep 300"])
-            
-        time.sleep(1.0)
-        
-        # Walk UP through cut bush to Row 9
+    # State 1: We are in Fuchsia City, standing at (26, 14) after cutting the bush
+    if pos is not None and pos[1] >= 9 and pos[0] == 26:
+        print("Navigating from cut bush to Gatehouse...")
         navigate_to(26, 9)
-        
-        # Now navigate from Row 9 to the Gatehouse entrance (18, 4)
         navigate_to(19, 9)
         navigate_to(19, 8)
         navigate_to(37, 8)
