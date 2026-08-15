@@ -1557,3 +1557,16 @@ Locate and verify the active warp tile leading to Pokémon Tower 7F.
 - Route 16 Gatehouse: West gatehouse leading to Cycling Road (Route 17).
 
 <hr>
+
+<h1><code>Locations/Route_16</code></h1>
+
+# Route 16 Topography & Key Points of Interest
+
+## Key Features & Warps
+- East Connection: Connects directly into Celadon City at (42..44, 10) / (0, 18).
+- Main Highway (Row 10): Open road running west from (39, 10).
+- Snorlax: Sleeping Pokemon blocking the road on Route 16 (Awaken using Poké Flute).
+- Secret House (Northwest): Home of the recluse who gives HM02 Fly.
+- Route 16 Gatehouse: West gatehouse leading to Cycling Road (Route 17).
+
+<hr>
