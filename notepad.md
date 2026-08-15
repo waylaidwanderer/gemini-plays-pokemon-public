@@ -1,12 +1,12 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 54940)
-- Location: Rocket Hideout B4F East Wing at (24, 3) [Boss Giovanni Battle].
-- Primary Goal: Infiltrate Main Rocket Hideout in Celadon City to obtain Silph Scope.
-- Secondary Goal: Defeat Boss Giovanni at (25, 3) and collect Silph Scope.
-- Active Strategy: Battling Boss Giovanni -> Onix & Rhyhorn KO'd -> Kangaskhan at 1 HP -> Deliver finishing Bite -> Giovanni flees -> Pick up and verify Silph Scope at (25, 3).
-- Inventory Status: LIFT KEY [ACQUIRED], TM07 Horn Drill [ACQUIRED], 1 free slot (19/20) for Silph Scope.
-- Party Status: SHELLSHOCK (Blastoise Lv52, HP 54/182, PSN), LUNA (Clefable Lv10 with Teleport), CUTTER (Cut).
+## CURRENT STATUS & DASHBOARD (Turn 54958)
+- Location: Rocket Hideout B4F East Wing at (24, 2) [Giovanni's Chamber].
+- Primary Goal: Clear Pokémon Tower in Lavender Town using the Silph Scope to rescue Mr. Fuji.
+- Secondary Goal: Teleport to Pokémon Center to cure Blastoise's poison and restore full HP.
+- Active Strategy: SILPH SCOPE [ACQUIRED & VERIFIED] -> Using Clefable's Teleport to warp to Pokémon Center -> Heal party -> Proceed to Lavender Town / Pokémon Tower.
+- Key Items: SILPH SCOPE [ACQUIRED], LIFT KEY [ACQUIRED], TM07 Horn Drill [ACQUIRED], BICYCLE [ACQUIRED].
+- Party Status: SHELLSHOCK (Blastoise Lv52, HP 54/182, PSN), LUNA (Clefable Lv10 with Teleport), CUTTER (Paras Lv14 with Cut), SPROUT (Bellsprout Lv15).
 
 <hr>
 
