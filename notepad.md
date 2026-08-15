@@ -1023,21 +1023,21 @@ Systematically probe every potential building doorway and alleyway warp in South
 
 ## Key Warps & Stairs
 - Entrance Staircase (Up to Game Corner): Located at (21, 2).
+- Downward Staircase (Down to B2F): Located at (23, 2), connects to B2F at (27, 8).
+- Elevator Entrance: Located on B1F at (24, 19) / (25, 19) on the red checkered entrance mat.
 - Main Entry Room: Spans x=19..24, y=1..4.
 - South Corridor Gap: Located at (20..23, 4) connecting South to lower floor corridors at y>=5.
 
 ## Floor Layout & Corridor Connections
 - Upper West Wall: Located at Column 8 (x=8, y=4..9).
 - North Grunt: Defeated at (13, 6).
+- East Grunt: Located at (26, 8) guarding the East Wing corridor.
 - South Passage Gap: Located at Columns 11..12 at Row 8 (11..12, 8), connecting Upper Corridor down into South Wing (y>=9).
+- Elevator Lobby Access: Reached via Central/Southwest corridor (Rows 17..18) connecting east into elevator lobby. Guarded by Rocket Grunt at (28, 18).
+
 ## Items & Pickups
 - Floor Item 1: Located at (11, 14) in B1F Central Table Room [ESCAPE ROPE - Collected Turn 54720].
 - Floor Item 2: Located at (9, 17) in B1F Southwest Room.
-- East Grunt: Located at (26, 8) guarding the East Wing corridor.
-- Downward Staircase (Down to B2F): Located at (23, 2), connects to B2F at (27, 8).
-## Elevator & Lower Lobby
-- Elevator Entrance: Located on B1F at (24, 19) / (25, 19) on the red checkered entrance mat.
-- Access Route: Reached via the Central/Southwest corridor (Rows 17..18) connecting east into the elevator lobby. Guarded by Rocket Grunt at (28, 18).
 
 <hr>
 
@@ -1197,16 +1197,9 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 - Floor Item 3: Located at (16, 8) in B2F Northeast room.
 
 ## Spin Maze Topology & Stop Tiles
-- Entrance Stop Tile: Located at (16, 13).
-- Central Stop Tile: Located at (14, 12).
-- Northwest Stop Tile: Located at (2, 9).
-- Central-West Stop Tile: Located at (8, 11).
+- Northern Maze Stop Tiles: (16, 13), (14, 12), (2, 9), (8, 11).
+- Southern Maze Stop Tiles: (9, 16), (15, 18), (11, 20), (9, 24), (14, 25).
 - East-to-West Transition Route: (17, 10) LEFT-spin tile -> slides through (13, 10) DOWN-spin and (13, 12) RIGHT-spin onto (14, 12) stop tile -> (12, 11) UP-spin tile -> slides through (12, 9) and (10, 9) LEFT-spin tiles onto (2, 9) northwest stop tile.
-## Additional Verified Stop Tiles & Southern Maze
-- Stop Tile: (9, 16)
-- Stop Tile: (15, 18)
-- Stop Tile: (11, 20)
-- Southern Spin Route: (9, 16) stop tile -> (11, 16) RIGHT-spin -> slides through (13, 16) and (15, 16) DOWN-spin onto (15, 18) stop tile -> (13, 18) LEFT-spin -> (11, 18) DOWN-spin onto (11, 20) stop tile.
 - Complete Southern Exit Route: From (15, 18) stop tile -> (13, 18) LEFT-spin -> (11, 18) DOWN-spin onto (11, 20) stop tile -> Walk to (14, 22) -> (13, 22) LEFT-spin -> (9, 22) DOWN-spin onto (9, 24) stop tile -> Walk to (10, 24) -> (10, 25) RIGHT-spin -> slides onto (14, 25) stop tile -> Walk East via Column 16 / Row 20 to East Wing.
 ## Elevator & Southeast Wing
 - Elevator Entrance: Located at (24, 19) with red checkered entrance mat, accessible via open corridor along Row 18 (x=19..24).
