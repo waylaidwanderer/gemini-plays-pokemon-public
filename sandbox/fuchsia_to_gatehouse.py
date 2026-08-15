@@ -23,27 +23,15 @@ def navigate_to(tx, ty):
     while True:
         pos = get_pos()
         if pos is None:
-            # Maybe map transition occurred!
+            # Map transition or menu active
             print("Position is None. Possibly map transition occurred.")
             break
             
-        # If we successfully transitioned to the Gatehouse, coordinates will change dramatically 
-        # or we will be on a different map layout (e.g. x < 10, y < 10).
-        # Fuchsia City has y up to 35, and we were at y=4. Gatehouse has coordinates like (3, 5).
-        # Let's check if we transitioned. We will check if the script is still running but position is inside Gatehouse.
-        if pos[1] > 15 and (tx, ty) == (18, 3):
-            # If our target was the gatehouse entrance, but we are suddenly at y > 15, we are not in Fuchsia's north side anymore!
-            # But wait, gatehouse coordinates are small, like (3, 5). Fuchsia is (18, 4).
-            # So if x changes significantly away from 18, we probably transitioned.
-            pass
-
         if pos == (tx, ty):
             print(f"Arrived at waypoint ({tx}, {ty})")
             break
             
         print(f"Current: {pos}, Target: ({tx}, {ty})")
-        
-        # Simple pathfinding: horizontal first, then vertical
         if pos[0] < tx:
             direction = "Right"
         elif pos[0] > tx:
@@ -65,42 +53,41 @@ def navigate_to(tx, ty):
         time.sleep(0.4)
 
 def main():
-    # Starting at (26, 9) in Fuchsia City.
-    # Waypoints:
-    # 1. (37, 9) - Walk East along Row 9 to Column 37 (to bypass Row 7 tree barrier)
-    # 2. (37, 2) - Walk North along Column 37 to Row 2
-    # 3. (22, 2) - Walk West along Row 2 to Column 22
-    # 4. (22, 4) - Walk South along Column 22 to Row 4
-    # 5. (18, 4) - Walk West along Row 4 to Column 18
-    # 6. (18, 3) - Enter Gatehouse door
+    # Starting at (19, 28) in Fuchsia City (outside Pokemon Center).
+    # Waypoints to enter the Safari Zone Gatehouse at (18, 3):
     waypoints = [
-        (37, 9),
-        (37, 2),
-        (22, 2),
-        (22, 4),
-        (18, 4),
-        (18, 3)
+        (19, 30),  # Down to Row 30
+        (24, 30),  # Right to Column 24
+        (24, 21),  # Up to Row 21
+        (22, 21),  # Left to Column 22
+        (22, 14),  # Up to Row 14
+        (26, 14),  # Right to Column 26
+        (26, 9),   # Up through the cut bush to Row 9
+        (37, 9),   # Right along Row 9 to Column 37 (bypassing horizontal barrier)
+        (37, 2),   # Up Column 37 to Row 2
+        (22, 2),   # Left along Row 2 to Column 22
+        (22, 4),   # Down Column 22 to Row 4
+        (18, 4),   # Left along Row 4 to Column 18
+        (18, 3)    # Enter Safari Gatehouse door!
     ]
     
-    for wp in waypoints:
-        print(f"\nMoving to Waypoint: {wp}")
+    print("Navigating from Fuchsia Pokemon Center to Safari Gatehouse...")
+    for i, wp in enumerate(waypoints, 1):
+        print(f"\n--- WAYPOINT {i}/{len(waypoints)}: {wp} ---")
         pos = get_pos()
         if pos is None:
             print("Map changed or menu active.")
             break
-        # If we are already on a different map (e.g. inside Gatehouse), we can stop.
-        # Gatehouse maps usually have width < 10. Fuchsia has width 40.
-        # Let's check if the current coordinate is valid for Fuchsia's north corridor.
-        # If we transitioned to Gatehouse, the x coordinate will likely be < 10.
-        if pos[0] < 10 and pos[1] < 10:
-            print("Detected gatehouse coordinates. Exiting fuchsia_to_gatehouse.")
+        # If we successfully enter the Gatehouse, we will warp to Gatehouse coordinates (usually x < 10)
+        if pos[0] < 10 and pos[1] < 10 and i > 10:
+            print("Detected gatehouse coordinates. Stopping navigation.")
             break
             
         navigate_to(wp[0], wp[1])
         
     time.sleep(2.0)
     pos = get_pos()
-    print(f"Final coordinate: {pos}")
+    print(f"Final position: {pos}")
 
 if __name__ == "__main__":
     main()
