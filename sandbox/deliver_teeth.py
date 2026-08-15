@@ -2,12 +2,9 @@ import time
 import sys
 import os
 
-# Add current path to import bridge
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 import bridge
 import mgba
-
-sys.stdout.reconfigure(encoding='utf-8')
 
 def get_pos():
     pos = bridge.get_coordinates()
@@ -18,9 +15,20 @@ def get_pos():
 def walk_step_robust(direction):
     pos = get_pos()
     if pos is None:
-        return None
+        print("Position is None. Pressing B...")
+        bridge.press_buttons(["B", "sleep 200"])
+        pos = get_pos()
+        if pos is None:
+            return None
+            
     print(f"Walking {direction} from {pos}")
     bridge.press_buttons([direction, "sleep 450"])
+    new_pos = get_pos()
+    if new_pos != pos:
+        return new_pos
+        
+    print("Position didn't change, pressing B...")
+    bridge.press_buttons(["B", "sleep 200"])
     return get_pos()
 
 def navigate_to(tx, ty):
@@ -28,10 +36,13 @@ def navigate_to(tx, ty):
     while True:
         pos = get_pos()
         if pos is None:
-            return None
+            bridge.press_buttons(["B", "sleep 200"])
+            continue
+            
         if pos == (tx, ty):
             print(f"Arrived at waypoint ({tx}, {ty})")
             break
+            
         print(f"Current: {pos}, Target: ({tx}, {ty})")
         if pos[0] < tx:
             direction = "Right"
@@ -51,48 +62,58 @@ def navigate_to(tx, ty):
                 stuck_count = 0
         else:
             stuck_count = 0
-        time.sleep(0.1)
+        time.sleep(0.05)
 
 def main():
     pos = get_pos()
-    print(f"Starting overworld walk to Warden's House. Position: {pos}")
+    print(f"Starting walk to Warden's House from: {pos}")
     
-    # 1. Walk to Warden's House from (25, 27) via the Row 30 bypass
-    if pos is not None and pos == (25, 27):
-        navigate_to(24, 27)
-        navigate_to(24, 30)
-        navigate_to(30, 30)
-        navigate_to(30, 28)
-        navigate_to(27, 28)
-        print("Entering Warden's House...")
-        walk_step_robust("Up")
-        time.sleep(1.5)
-        
-    # Check if we are inside Warden's House
-    pos = get_pos()
-    print(f"Position check inside: {pos}")
+    # 1. Walk to the Warden's House door at (27, 27)
+    waypoints_to_house = [
+        (19, 30),
+        (30, 30),
+        (30, 28),
+        (27, 28),
+        (27, 27) # Door transition
+    ]
     
-    # Inside Warden's House (warp lands us at (4, 7) or similar)
-    if pos is not None and pos[1] == 7 and pos[0] < 10:
-        navigate_to(2, 7)
-        navigate_to(2, 4)
+    for wp in waypoints_to_house:
+        navigate_to(wp[0], wp[1])
         
-        # Face UP
-        print("Facing UP towards the Warden...")
-        bridge.press_buttons(["Up", "sleep 250"])
+    print("Entered Warden's House! Waiting for map transition...")
+    time.sleep(2.0)
+    
+    pos_inside = get_pos()
+    print(f"Inside Warden's House at: {pos_inside}")
+    
+    # 2. Walk to the Warden at (2, 4) facing UP
+    waypoints_inside = [
+        (2, 7),
+        (2, 4)
+    ]
+    
+    for wp in waypoints_inside:
+        navigate_to(wp[0], wp[1])
         
-        # Talk to the Warden
-        print("Talking to the Warden to deliver Gold Teeth...")
-        bridge.press_buttons(["A", "sleep 1000"])
+    # Stand at (2, 4) and face UP
+    print("Standing at (2, 4). Facing UP...")
+    bridge.press_buttons(["Up", "sleep 500"])
+    
+    # Talk to the Warden!
+    print("Interacting with the Warden...")
+    bridge.press_buttons(["A", "sleep 1500"])
+    
+    # Mash B to advance through all dialogue boxes and receive HM04
+    print("Mashing B to clear dialogue and receive HM04 (Strength)...")
+    for _ in range(12):
+        bridge.press_buttons(["B", "sleep 300"])
         
-        # Mash through dialogue to get HM04 (Strength)
-        print("Mashing through dialogue...")
-        for _ in range(12):
-            bridge.press_buttons(["A", "sleep 500"])
-            bridge.press_buttons(["B", "sleep 200"])
-            
-    pos = get_pos()
-    print(f"Final Position: {pos}")
+    # Open START menu to verify Bag
+    print("Opening START menu to verify HM04...")
+    bridge.press_buttons(["Start", "sleep 500"])
+    
+    img = mgba.take_screenshot()
+    print(f"FINAL_WARDEN_HM04_VERIFICATION: {img}")
 
 if __name__ == "__main__":
     main()
