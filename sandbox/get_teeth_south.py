@@ -85,16 +85,14 @@ def navigate_to(tx, ty):
         time.sleep(0.5)
 
 def main():
-    # Starting at (18, 24)
+    # Starting at (28, 23)
     # Waypoints:
-    # 1. (19, 23) (Right 1, Up 1)
-    # 2. (27, 23) (Right 8)
-    # 3. (27, 26) (Down 3)
-    # 4. (19, 26) (Left 8)
+    # 1. (31, 23) (Right to Column 31)
+    # 2. (31, 26) (Down to Row 26)
+    # 3. (19, 26) (Left to Column 19 on Row 26)
     waypoints = [
-        (19, 23),
-        (27, 23),
-        (27, 26),
+        (31, 23),
+        (31, 26),
         (19, 26)
     ]
     
@@ -114,6 +112,7 @@ def main():
     print(f"Position after pickup attempt: {pos}")
     if pos is None:
         print("We found a dialog box! Successfully picked up the Gold Teeth!")
+        # Clear the dialog box
         for _ in range(5):
             bridge.press_buttons(["B", "sleep 300"])
             
