@@ -2,7 +2,7 @@
 
 ## Active Party
 1. HYDROS (Squirtle) - Lv 7
-   - HP: 18/24 (Empirically verified at Lv 7)
+   - HP: 24/24 (Fully restored)
    - Type: Water
    - Moves: Tackle, Tail Whip
    - Role: Starter & primary Water/Ice special attacker

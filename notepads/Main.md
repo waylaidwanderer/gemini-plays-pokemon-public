@@ -3,8 +3,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 0/8
-- Location: Viridian City Pokémart
-- Current Objective: Deliver Oak's Parcel to Professor Oak in Pallet Town
+- Location: Pallet Town
+- Current Objective: Deliver Oak's Parcel to Professor Oak in Oak's Lab
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames
