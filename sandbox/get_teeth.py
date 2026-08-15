@@ -206,6 +206,15 @@ def main():
             (8, 30),
             (8, 35)
         ]
+        
+        # Filter waypoints that we have already completed in Area 2 North
+        current_p = get_pos()
+        if current_p is not None:
+            cx, cy = current_p
+            if cx == 22 and cy <= 31 and cy >= 23:
+                print(f"Bypassing completed Area 2 waypoints as we are at {current_p}")
+                waypoints_area2 = waypoints_area2[1:] # Start directly from (22, 23)
+                
         for wp in waypoints_area2:
             navigate_to(wp[0], wp[1])
         print("At warp tile (8, 35). Warping to Area 3...")
