@@ -936,7 +936,7 @@
 - Celadon Prize Exchange: Door at (23, 19).
 - Celadon Mansion: Door at (9, 13) / (17, 13).
 - Celadon Diner: Door at (35, 27) [NPC mentions no secret switch behind poster].
-- Building (31, 27): Door at (31, 27).
+- Celadon Hotel: Door at (31, 27) [NPC reveals: "Psst! There's a basement under the GAME CORNER!"].
 - Cut Tree at (35, 32): Leads south to lower grass area.
 
 ## Direct Central-South Highway (Discovered Turn 54655)
