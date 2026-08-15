@@ -5,8 +5,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 0/8
-- Location: Pallet Town
-- Current Objective: Travel north to Viridian City and through Viridian Forest to Pewter City
+- Location: Viridian City
+- Current Objective: Travel north through Viridian City past the catching tutorial onto Route 2 towards Viridian Forest
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames
@@ -76,5 +76,22 @@
 ## Empirical Wild Encounters
 - Rattata: Lv 2 [Turn 50], Lv 4 [Turn 81]
 - Pidgey: Lv 2 [Turn 59], Lv 5 [Turn 72]
+
+<hr>
+
+<h1><code>Locations/ViridianCity</code></h1>
+
+# Viridian City - Points of Interest & Notes
+
+## Connections
+- South: Route 1 (y=35)
+- West: Route 22 (x=0, y=18)
+- North: Route 2 / Viridian Forest (y=0)
+
+## Buildings & Points of Interest
+- Pokémon Center: Located at (23, 25). Heals party for free.
+- Pokémart: Located at (29, 19). Sells Poké Balls and Potions.
+- Viridian Gym: Located at (32, 7) [Currently locked].
+- Old Man: Located at (19, 8). Teaches Pokémon catching and unblocks Route 2 north.
 
 <hr>
