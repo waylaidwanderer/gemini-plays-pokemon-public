@@ -89,27 +89,33 @@ def navigate_to(tx, ty):
 
 def main():
     pos = get_pos()
-    print(f"Starting Area 1 Phase A Corrected (Row 24 via Col 4) Run from: {pos}")
+    print(f"Starting Area 1 Phase B Run from: {pos}")
     
-    # Standing at (5, 22). Walk left to Col 4 to bypass the fence
-    navigate_to(4, 22)
-    # Walk DOWN to Row 24
-    navigate_to(4, 24)
-    # Walk RIGHT to (20, 24)
-    navigate_to(20, 24)
-    # Walk UP to (20, 20) (climbing plateau stairs)
-    navigate_to(20, 20)
-    # Walk LEFT to (12, 20) on the plateau
-    navigate_to(12, 20)
-    # Walk DOWN to (12, 22) (descending stairs)
-    navigate_to(12, 22)
-    # Walk LEFT to (8, 22)
-    navigate_to(8, 22)
-    # Walk UP along Column 8 to (8, 8)
+    # Standing at (8, 9).
+    # 1. Walk UP to (8, 8)
     navigate_to(8, 8)
+    # 2. Walk RIGHT to (12, 8)
+    navigate_to(12, 8)
+    # 3. Walk UP 2 to climb northern plateau stairs to (12, 6)
+    navigate_to(12, 6)
+    # 4. Walk RIGHT 5 to (17, 6)
+    navigate_to(17, 6)
+    # 5. Walk DOWN 2 to descend stairs to (17, 8)
+    navigate_to(17, 8)
+    # 6. Walk RIGHT 3 to Column 20: (20, 8)
+    navigate_to(20, 8)
+    # 7. Walk UP 5 along Column 20 to Row 3: (20, 3)
+    navigate_to(20, 3)
+    # 8. Walk LEFT 13 along Row 3 to Column 7: (7, 3)
+    navigate_to(7, 3)
+    # 9. Walk DOWN 2 to Row 5: (7, 5)
+    navigate_to(7, 5)
+    # 10. Walk LEFT to (0, 5) to transition to Area 2 (North)
+    print("Transitioning to Area 2 (North)...")
+    navigate_to(0, 5)
     
     pos = get_pos()
-    print(f"Area 1 Phase A Corrected (Col 4) Run complete! Position: {pos}")
+    print(f"Area 1 Phase B Run complete! Position: {pos}")
 
 if __name__ == "__main__":
     main()
