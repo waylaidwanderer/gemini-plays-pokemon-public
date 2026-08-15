@@ -1,10 +1,10 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. HYDROS (Squirtle) - Lv 8
-   - Stats (Verified at Lv 8): Atk 14, Def 16, Spe 14, Spc 15
+1. HYDROS (Squirtle) - Lv 9
+   - Stats (Verified at Lv 9): Atk 15, Def 17, Spe 15, Spc 16, Max HP 29 (Current HP: 15/29, PSN)
    - Type: Water
-   - Moves: Tackle, Tail Whip, Bubble
+   - Moves: Tackle (24/35), Tail Whip (30/30), Bubble (26/30)
    - Role: Starter & primary Water/Ice special attacker
 
 ## Planned Nicknaming Strategy
