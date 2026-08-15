@@ -1137,7 +1137,7 @@ To reach Area 3 (West), the player **MUST** use the intended speedrun route acro
 **Safari Zone Center -> Area 1 (East) -> Area 2 (North) -> Area 3 (West)**.
 Any attempt to find a ground-level shortcut within Safari Zone Center is mathematically blocked by map collision.
 ### Verified Collisions & Landmarks in Area 3 (West) (Turns 32706 - 32738)
-- **Southern Edge Wall (Row 25):** Solid green shrubs/hedges block southward movement at `(29, 24)`, `(21, 25)`, `(20, 25)`, `(19, 25)` (Wait, (19, 25) is hypothesized to be the Gold Teeth item ball, which physically bumps when walked into!).
+- **Southern Edge Wall (Row 25):** Solid green shrubs/hedges block southward movement at `(29, 24)`, `(21, 25)`, `(20, 25)`. The Gold Teeth item ball is physically present at `(19, 25)`, acting as a solid, impassable obstacle.
 - **Column 18 Shrub Barrier:** Solid green shrubs run vertically on column 18, rows 20-23, causing a bump when walking Left from `(19, 23)` to `(18, 23)`.
 - **Row 24 Shrub Barrier:** Solid green shrubs run horizontally on row 24, columns 17-29 (with a corridor on row 24 columns 18-21), blocking Left movement from `(18, 24)` to `(17, 24)`.
 - **Verified Collisions (Turns 32923 - 32936):**
@@ -1337,8 +1337,7 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - **Signpost at (24, 22):** Reads "AREA 3 EAST: CENTER AREA" (Turn 27655).
 
 ### 🔍 Verified Area 3 (West) Landmarks & Paths
-- **Column 3 Block:** Column 3 is empirically verified to be blocked at Row 24 by a solid hedge.
-- **Gold Teeth:** Empirically verified to be located at `(19, 25)` on the southern ground level. On Turn 38936, we stood at `(19, 24)` facing Down and pressed A, but confirmed that no item ball is present on the ground, meaning the Gold Teeth have already been picked up.
+- **Gold Teeth:** Located at `(19, 25)` on the southern ground level. The overworld item ball is physically present and solid, and can be retrieved by standing at `(19, 24)` facing DOWN and pressing A.
 - **Rest House 3:** Located on the western ground level. The verified entrance door (doormat) is at `(11, 11)`. Inside is a Hiker NPC who gives standard Hiker dialogue (Rest House 3 does NOT contain Surf).
 - **The Secret House:** Located in the isolated northwest ground section of Area 3 (West). The entrance door is at `(3, 8)`. The player can only reach this section by entering through the southwest ground-level transition of Area 2 (North) at `(4, 36)`. Inside the Secret House is the NPC who gives HM03 (Surf) at `(2, 7)`.
 - **Southwest Area:** Walked Column 3 from Row 20 up to Row 14 (`(3, 20)` to `(3, 14)`), proving `(3, 19)` and `(3, 18)` are walkable grass/trees with NO secret warp or door.
@@ -1374,7 +1373,10 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - **The Southern Ground Corridor:** Rows 10-22 are open ground, allowing players to walk Left to Column 0 around the central water pond.
 - **Western Edge Transition to Area 3 (West):** Located on Column 0, Row 11 (`(0, 11)`), transitioning directly to Area 3 (West) at `(30, 23)`. This ground-level path completely bypasses Area 2 (North).
 
-
+## Gold-Standard Speedrun Route from Area 1 (East) to Area 3 (West)
+1. **Northeast Channel:** From Area 1 (East) ground level, walk UP Column 20 (which is completely open and walkable, including the tree graphic at `(20, 4)`) to Row 5 (`(20, 5)`).
+2. **Northern Corridor:** Walk LEFT along Row 5 to Column 0, then walk LEFT to transition to Area 2 (North) at `(39, 31)`.
+3. **Area 2 Southern Corridor to Area 3 (West):** Walk LEFT along Row 31 to Column 22, walk UP to Row 23, climb Western Southern Plateau stairs at `(22, 23)` onto plateau, walk West to `(16, 23)`, walk DOWN to `(16, 27)` to descend stairs to `(16, 28)`. Walk Left to `(12, 33)`, bypass the Rhydon statues via Column 8-9 gap, and walk LEFT/DOWN to transition directly into **Area 3 (West)** at `(26, 0)`.
 ## Area 2 (North) - Completed Spatial Map & Route to East Stairs
 - Ground Level is on Rows 0-11 (North) and Rows 16-35 (South).
 - Rows 12-15 is the Northern Plateau (East side, columns 32-38).
