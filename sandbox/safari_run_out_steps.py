@@ -26,23 +26,19 @@ def handle_textbox_or_battle():
     return pos
 
 def main():
-    print("Running out Safari steps on Row 23...")
+    print("Running out Safari steps on Row 23 (Columns 2-17)...")
     
-    # We will walk Left and Right on Row 23 between Column 2 and Column 25.
-    direction = "Right"
+    # We will walk Left and Right on Row 23 between Column 2 and Column 17.
+    direction = "Left" # Start by walking Left since we are at (17, 23)
     
     while True:
         pos = get_pos()
         if pos is None:
             pos = handle_textbox_or_battle()
             if pos is None:
-                # Still in dialogue or battle? Let's check if we warped to the Gatehouse.
-                # Gatehouse coordinates are usually x around 3-4, y around 3-5.
-                # But when dialogue "Ding-dong! Time's up!" is active, coordinates will be None.
-                # So we continue clearing it.
                 continue
                 
-        # If we warped back to the Gatehouse (x <= 10 and y >= 3)
+        # If we warped back to the Gatehouse (usually x near 3-4, y near 3-5)
         if pos[0] <= 10 and pos[1] <= 5:
             print(f"Successfully warped out of Safari Zone! Position: {pos}")
             break
@@ -50,7 +46,7 @@ def main():
         print(f"Current Position: {pos}. Walking {direction}...")
         
         # Check boundary to change direction
-        if pos[0] >= 25 and direction == "Right":
+        if pos[0] >= 17 and direction == "Right":
             direction = "Left"
         elif pos[0] <= 3 and direction == "Left":
             direction = "Right"
