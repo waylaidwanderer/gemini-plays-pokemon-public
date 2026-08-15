@@ -750,13 +750,13 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 54877)
-- Location: Rocket Hideout B2F at (15, 18) [Navigating Southern Spin Maze].
+## CURRENT STATUS & DASHBOARD (Turn 54901)
+- Location: Rocket Hideout B4F East Wing at (25, 12) [Boss Giovanni's Chamber Gate].
 - Primary Goal: Infiltrate Main Rocket Hideout in Celadon City to obtain Silph Scope.
-- Secondary Goal: Navigate B2F Southern maze to find staircase up to B1F Elevator lobby.
-- Active Strategy: Slide via (13, 18) LEFT and (11, 18) DOWN to (11, 20) stop tile -> Navigate east along Row 20/22 corridor to find staircase up to B1F Elevator lobby -> Take Elevator to B4F East Wing -> Defeat Boss Giovanni -> Obtain Silph Scope.
+- Secondary Goal: Defeat Guard Grunts blocking Giovanni's Chamber doors.
+- Active Strategy: Battle Guard Grunt at (26, 12) (Ekans & Sandshrew defeated, battling Arbok) -> Defeat West Guard at (23, 12) -> Enter Chamber at (24..25, 11) -> Defeat Boss Giovanni -> Obtain Silph Scope.
 - Inventory Status: LIFT KEY [ACQUIRED], TM07 Horn Drill [ACQUIRED], 1 free slot (19/20) for Silph Scope.
-- Party Status: SHELLSHOCK (Blastoise Lv52, HP 180/182), LUNA (Clefable Lv10 with Teleport), CUTTER (Cut).
+- Party Status: SHELLSHOCK (Blastoise Lv52, HP 173/182), LUNA (Clefable Lv10 with Teleport), CUTTER (Cut).
 
 <hr>
 
