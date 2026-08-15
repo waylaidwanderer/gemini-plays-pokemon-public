@@ -26,20 +26,20 @@
 
 ## Active Party
 1. HYDROS (Squirtle) - Lv 13
-   - Stats (Verified at Lv 13): Max HP 37 (HP: ~25/37 in battle, Healthy - Grew to Lv 13 Turn 299)
+   - Stats (Verified at Lv 13): Max HP 37 (HP: 17/37, Healthy - Grew to Lv 13 Turn 299)
    - Type: Water
-   - Moves: Tackle (35/35), Tail Whip (30/30), Bubble (~26/30)
+   - Moves: Tackle (35/35), Tail Whip (30/30), Bubble (26/30)
    - Role: Starter & primary Water/Ice special attacker
 
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
-## Inventory & Resources (Verified Turn 273)
-- Money: ¥783 (Prize money from Jr. Trainer pending)
+## Inventory & Resources (Verified Turn 302)
+- Money: ¥1003
 - Key Items: Town Map, Pokédex
 - Consumables:
-  - 1x Antidote (Status cure: Poison - 1 consumed Turn 237, 1 found at (25, 11) Turn 239, 1 consumed Turn 273)
-  - 1x Potion (Restores 20 HP)
+  - 1x Antidote (Status cure: Poison)
+  - 1x Potion (Restores 20 HP - to use before Brock)
   - 5x Poké Ball (Standard catch rate)
 
 
@@ -156,13 +156,13 @@
   - Interior Entrance: (4, 13)
   - Statues at (3, 10) and (6, 10)
   - Gym Guide NPC at (7, 10)
-  - Gym Leader: Brock (at north end)
+  - Gym Leader: Brock (at north end platform)
 
 ## Verified Trainers & NPCs
 - Citizen NPC: Located at (17, 25) outside Pokémon Center [Observed Turn 286]
 - Nurse Joy: Located at (3, 1) inside Pokémon Center [Healed party Turn 287]
 - Gym Guide NPC: Located at (7, 10) inside Pewter Gym [Turn 296]
-- Jr. Trainer ♂: Located at (3, 6) inside Pewter Gym, triggered at (4, 6) [Turn 297, In Battle Turn 297-301]. Team: Diglett Lv 11, Sandshrew Lv 11.
+- Jr. Trainer ♂: Located at (3, 6) inside Pewter Gym, triggered at (4, 6) [Turn 297, Defeated Turn 302]. Team: Diglett Lv 11, Sandshrew Lv 11. Reward: ¥220.
 
 
 <hr>
