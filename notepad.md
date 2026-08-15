@@ -1312,13 +1312,14 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 - Lift Key Grunt: Located at (11, 2) in Northwest Computer Room.
 
 ## Items & Pickups
+- Lift Key: Dropped on floor at (10, 2) in Northwest Room.
 - Floor Item: Located at (9, 4) in Northwest Room.
 
 ## Objectives
-- Defeat Lift Key Grunt at (11, 2) and pick up the LIFT KEY (dropped upon defeat).
-- Collect item at (9, 4).
-- Use Lift Key in Elevator to reach Giovanni's Chamber.
-- Defeat Giovanni and obtain the SILPH SCOPE!
+- Pick up LIFT KEY at (10, 2).
+- Collect floor item at (9, 4).
+- Navigate back to Elevator at (24, 11) using Lift Key.
+- Defeat Giovanni in his chamber and obtain the SILPH SCOPE!
 
 <hr>
 
