@@ -1,12 +1,12 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 55132)
-- Location: Pokémon Tower 5F at (11, 9) [Purified Zone - Fully Healed].
+## CURRENT STATUS & DASHBOARD (Turn 55171)
+- Location: Pokémon Tower 6F at (9, 7).
 - Primary Goal: Clear Pokémon Tower in Lavender Town using the Silph Scope to rescue Mr. Fuji.
-- Secondary Goal: Navigate across Pokémon Tower 5F to the 6F staircase at (18, 9).
-- Active Strategy: Fully healed party at 5F Purified Zone -> Walk East via Row 6 corridor -> Defeat/bypass Channeler at (17, 7) -> Step onto (18, 9) staircase to 6F -> Identify & pacify Ghost Marowak with Silph Scope on 6F -> Defeat Team Rocket Grunts on 7F -> Rescue Mr. Fuji -> Obtain Poké Flute.
+- Secondary Goal: Defeat / pacify Ghost Marowak on 6F and ascend to 7F.
+- Active Strategy: Defeat Channeler on 6F -> Navigate southwest to (3, 11) / (9, 16) -> Pacify Ghost Marowak with Silph Scope -> Ascend to 7F -> Defeat Team Rocket Grunts -> Rescue Mr. Fuji -> Obtain Poké Flute.
 - Key Items: SILPH SCOPE [ACQUIRED & VERIFIED], LIFT KEY [ACQUIRED], TM07 Horn Drill [ACQUIRED], BICYCLE [EQUIPPED].
-- Party Status: SHELLSHOCK (Blastoise Lv53, HP 185/185, FULL HEALTH), LUNA (Clefable Lv10), CUTTER (Paras Lv14), SPROUT (Bellsprout Lv15).
+- Party Status: SHELLSHOCK (Blastoise Lv53, HP 113/185), LUNA (Clefable Lv10), CUTTER (Paras Lv14), SPROUT (Bellsprout Lv15).
 
 <hr>
 
@@ -1574,16 +1574,14 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 
 ## Key Warps & Stairs
 - Staircase (Down to 5F): Located at (18, 9).
-- Staircase (Up to 7F): Located in the west/southwest wing (guarded by Ghost Marowak).
+- Staircase (Up to 7F): Located in the southwest wing (guarded by Ghost Marowak).
 
 ## Floor Layout & NPCs
 - East Landing: Spans Columns 14..18, Rows 7..10.
-- Channeler: Located at (16, 5).
-
-## Objectives
-1. Navigate west through 6F corridors towards the 7F stairs.
-2. Defeat any Channelers in the way.
-3. Unmask and pacify the Ghost of Marowak with the Silph Scope at the 7F staircase approach.
-4. Ascend to 7F to rescue Mr. Fuji.
+- North Corridor (Row 3): Spans Columns 10..15, connecting east and central wings.
+- Central Hall: Spans Columns 4..11, Rows 5..7.
+- Channeler 1: Defeated at (15, 5) on Turn 55164 [Gastly Lv24].
+- Channeler 2: Engaged at (9, 5) on Turn 55171.
+- Floor Item: Visible in Southwest sector at (3, 9) / (4, 9).
 
 <hr>
