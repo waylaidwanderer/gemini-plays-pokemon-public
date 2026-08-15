@@ -1,5 +1,5 @@
-## CURRENT STATUS & DASHBOARD (Turn 55637)
-- Location: Route 16 Secret House at (2, 4).
+## CURRENT STATUS & DASHBOARD (Turn 55653)
+- Location: Route 7 at (8, 4) heading into Celadon City.
 - Primary Goal: Defeat Gym Leader Erika at Celadon Gym for the Rainbow Badge (Badge #4).
 - Secondary Goal: Catch a bird Pokémon (Doduo/Spearow) and teach HM02 Fly.
 - Tertiary Goal: Explore Route 12 Snorlax & obtain Super Rod from Silence Bridge.
