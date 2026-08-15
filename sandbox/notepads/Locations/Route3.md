@@ -16,7 +16,7 @@
 
 ## Verified Trainers
 - Youngster #1: Located at (10, 6) facing East [Observed Turn 327]
-- Trainer (Bug Catcher): Located at (14, 4) facing South [Observed Turn 329]
+- Bug Catcher #1: Located at (14, 4) facing South [Defeated Turn 334]. Team: Caterpie Lv 10, Weedle Lv 10, Caterpie Lv 10.
 - Trainer (East): Located at (16, 8..9) facing West [Observed Turn 329]
 
 ## Empirical Wild Encounters
