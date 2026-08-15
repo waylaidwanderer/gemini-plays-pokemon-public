@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon 1F (x=14, y=29)
+- Location: Mt. Moon 1F (x=14, y=23)
 - Current Objective: Explore Mt. Moon 1F, defeat trainers, collect items, catch wild Pokémon, and navigate towards Cerulean City
 
 ## Notepads Index
@@ -238,7 +238,7 @@
 - (Documenting item balls as collected inside Mt. Moon)
 
 ## Verified Trainers
-- (Documenting trainers as encountered inside Mt. Moon)
+- Trainer #1: Located at (16, 23) facing West/North [Observed Turn 469]
 
 ## Empirical Wild Encounters
 - (Documenting wild Pokémon encountered)
