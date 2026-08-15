@@ -5,8 +5,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon Exterior Plaza (x=11, y=6)
-- Current Objective: Enter Mt. Moon cave at (18, 5) and navigate towards Route 4 / Cerulean City
+- Location: Mt. Moon 1F (x=14, y=35)
+- Current Objective: Explore Mt. Moon 1F, defeat trainers, collect items, catch wild Pokémon, and navigate towards Cerulean City
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -223,17 +223,16 @@
 
 <h1><code>Locations/MtMoon1F</code></h1>
 
-# Mt. Moon Area - Points of Interest & Notes
-
-## Exterior Plaza (Route 3 / Mt. Moon Entrance)
-- Pokémon Center: Located at (11, 5) with 'POKÉ' sign at (12, 5) [Verified Turn 457].
-- Signpost: Located at (17, 7). Text: 'MT. MOON Tunnel Entrance' [Verified Turn 457].
-- Mt. Moon Cave Entrance: Located at (18, 5) [Verified Turn 457].
-- NPC: Located at (12, 7) / (13, 7).
+# Mt. Moon 1F - Points of Interest & Notes
 
 ## Connections
-- South Exit: Warp to Route 3 at (8, 18)
-- North-East: Mt. Moon Cave Entrance at (18, 5)
+- South Exit: Warp to Route 3 exterior plaza at (14, 35) / (15, 35) [Entered Turn 465 at (14, 35)]
+- Ladders: (Documenting ladders to B1F/B2F as discovered)
+
+## Layout & Landmarks
+- Entrance threshold at (14, 35) / (15, 35)
+- Main southern corridor runs north along columns 14-15 (rows 31-35)
+- Cavern corridors wind north, west, and east through the mountain
 
 ## Items & Discoveries
 - (Documenting item balls as collected inside Mt. Moon)
