@@ -1509,7 +1509,7 @@ From Safari Zone Center entrance at `(15, 25)`:
 
 ## Gold Teeth Location
 - **Gold Teeth:** Located at `(19, 25)` inside **Area 3 (West)** on the southern ground level!
-- **CRITICAL STEP:** To pick them up, the player MUST stand at `(19, 24)` (directly above the teeth), face **DOWN** (south), and press **A**!
+- **CRITICAL STEP:** To pick them up, the player MUST stand at `(19, 26)` (directly below the teeth), face **UP** (north), and press **A**!
 
 ## Step-by-Step Walkable Golden Route (Start to Teeth)
 
