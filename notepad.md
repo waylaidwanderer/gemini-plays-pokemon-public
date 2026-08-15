@@ -81,6 +81,6 @@
 
 ## Empirical Wild Encounters
 - Rattata: Lv 2 [Turn 50]
-- Pidgey: Lv 2 [Turn 59]
+- Pidgey: Lv 2 [Turn 59], Lv 5 [Turn 72]
 
 <hr>
