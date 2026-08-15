@@ -30,86 +30,60 @@ def walk_step_robust(direction):
     if pos is None:
         return handle_textbox_or_battle()
         
-    print(f"Walking {direction} from {pos}")
     bridge.press_buttons([direction, "sleep 450"])
-    
     new_pos = get_pos()
     if new_pos is None:
         return handle_textbox_or_battle()
-        
-    if new_pos != pos:
-        return new_pos
-        
-    print("Position didn't change, pressing B...")
-    bridge.press_buttons(["B", "sleep 200"])
-    new_pos = get_pos()
-    if new_pos is None:
-        return handle_textbox_or_battle()
-    if new_pos != pos:
-        return new_pos
-        
-    return handle_textbox_or_battle()
+    return new_pos
 
-def navigate_to(tx, ty):
-    stuck_count = 0
-    while True:
-        pos = get_pos()
-        if pos is None:
-            handle_textbox_or_battle()
-            continue
-            
-        if pos == (tx, ty):
-            print(f"Arrived at waypoint ({tx}, {ty})")
-            break
-            
-        print(f"Current: {pos}, Target: ({tx}, {ty})")
-        if pos[0] < tx:
-            direction = "Right"
-        elif pos[0] > tx:
-            direction = "Left"
-        elif pos[1] < ty:
-            direction = "Down"
-        elif pos[1] > ty:
-            direction = "Up"
-            
-        new_pos = walk_step_robust(direction)
-        if new_pos == pos:
-            stuck_count += 1
-            if stuck_count > 3:
-                print("Stuck! Clearing with B...")
-                bridge.press_buttons(["B", "sleep 500"])
-                stuck_count = 0
-        else:
-            stuck_count = 0
-        time.sleep(0.4)
+def try_move(direction):
+    pos = get_pos()
+    new_pos = walk_step_robust(direction)
+    if new_pos == pos:
+        return False, new_pos
+    return True, new_pos
 
 def main():
-    print("Executing final 6 steps to Gold Teeth...")
-    # Starting at (17, 21)
-    waypoints = [
-        (17, 24),  # Walk DOWN to Row 24
-        (19, 24)   # Walk RIGHT to Column 19
-    ]
+    print("Probing all columns to find a way to Row 26...")
+    # We are at (17, 23).
+    # First, let's try to walk RIGHT and probe Column 18, 19, 20, 21, 22 on Row 23
+    # Wait, we know Column 18 is a vertical wall of bushes on Row 23.
+    # So we must go UP to Row 22 to walk past Column 18!
+    walk_step_robust("Up") # to (17, 22)
+    print(f"Current: {get_pos()}")
     
-    for i, wp in enumerate(waypoints, 1):
-        pos = get_pos()
-        if pos is None:
-            print("Battle or dialogue occurred, stopping.")
+    # Walk RIGHT to Column 21 Row 22
+    for _ in range(4):
+        walk_step_robust("Right")
+    print(f"Current: {get_pos()}") # should be (21, 22)
+    
+    # Now probe DOWN on Column 21, 22, 23, 24, 25, 26, 27, 28, 29...
+    for col in range(21, 30):
+        print(f"\nProbing DOWN at column {get_pos()[0]} Row {get_pos()[1]}...")
+        success, p = try_move("Down")
+        if success:
+            print(f"SUCCESS! Walked DOWN to {p}")
+            # Try to walk DOWN more
+            success2, p2 = try_move("Down")
+            if success2:
+                print(f"SUCCESS! Walked DOWN to {p2}")
+                # Walk back UP
+                walk_step_robust("Up")
+            walk_step_robust("Up")
+        else:
+            print(f"DOWN is BLOCKED")
+            
+        # Move Right to next column
+        print("Moving Right...")
+        success, p = try_move("Right")
+        if not success:
+            print(f"Blocked going Right at {get_pos()}")
             break
-        print(f"\n--- WAYPOINT {i}/{len(waypoints)}: {wp} ---")
-        navigate_to(wp[0], wp[1])
-        
-    # Stand facing DOWN towards (19, 25)
-    print("\nFacing DOWN towards Gold Teeth...")
-    bridge.press_buttons(["Down", "sleep 500"])
-    
-    # Press A to retrieve Gold Teeth
-    print("Pressing A to pick up Gold Teeth...")
-    bridge.press_buttons(["A", "sleep 1500"])
-    
-    # Print final position to verify
+            
+    # Now let's go back and probe the WEST side: Columns 2 to 16
+    # Let's walk LEFT to Column 10 Row 22
     pos = get_pos()
-    print(f"Final position: {pos}")
+    print(f"\nFinal eastern probe position: {pos}")
 
 if __name__ == "__main__":
     main()
