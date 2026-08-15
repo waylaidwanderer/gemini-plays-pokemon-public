@@ -88,14 +88,15 @@ def navigate_to(tx, ty):
         time.sleep(0.1)
 
 def main():
+    # 1. Dismiss battle text box first (pressing B once)
+    print("Dismissing 'Got away safely!' text box...")
+    bridge.press_buttons(["B", "sleep 500"])
+    
     pos = get_pos()
-    print(f"Starting Chunk 3 overworld walk. Position: {pos}")
+    print(f"Starting overworld walk from: {pos}")
     
     # --- Inside Area 1 East ---
     if pos is not None and pos[0] >= 5 and pos[1] <= 10:
-        navigate_to(17, 6)
-        navigate_to(17, 8)  # Descend stairs
-        navigate_to(20, 8)
         navigate_to(20, 3)
         navigate_to(7, 3)
         navigate_to(7, 5)
