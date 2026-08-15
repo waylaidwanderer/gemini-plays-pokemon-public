@@ -1,6 +1,6 @@
-## CURRENT STATUS & DASHBOARD (Turn 54666)
-- Location: Inside Main Rocket Game Corner at (15, 17).
+## CURRENT STATUS & DASHBOARD (Turn 54691)
+- Location: Game Corner North Wall at (10, 5).
 - Primary Goal: Infiltrate Main Rocket Hideout in Celadon City to obtain Silph Scope.
-- Secondary Goal: Locate Rocket Grunt on North Wall guarding the poster switch and defeat him.
-- Active Strategy: Walk straight North up Column 15 aisle to North wall corridor -> Find Grunt/Poster -> Defeat Grunt -> Flip switch -> Enter secret stairs to B1F.
+- Secondary Goal: Defeat Rocket Grunt at (9, 5) and flip secret poster switch at (9, 4).
+- Active Strategy: Finish battle against Rocket Grunt (SHELLSHOCK vs Zubat Lv. 20) -> Grunt flees -> Interact with poster at (9, 4) -> Flip switch to reveal stairs -> Descend to Rocket Hideout B1F.
 - Note: Celadon Pokémon Center registered as Teleport anchor. LUNA (Clefable) knows Teleport (TM30); SHELLSHOCK knows Dig; CUTTER knows Cut.
