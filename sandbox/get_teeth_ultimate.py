@@ -88,22 +88,32 @@ def navigate_to(tx, ty):
         time.sleep(0.4)
 
 def main():
-    print("First, closing Start menu to return to overworld...")
-    bridge.press_buttons(["B", "sleep 500"])
+    pos = get_pos()
+    print(f"Starting Area 2 Run from: {pos}")
+    
+    # Emerge at (39, 31)
+    # 1. Walk LEFT to (22, 31)
+    navigate_to(22, 31)
+    # 2. Walk UP to (22, 22) (climbing Western Southern Plateau stairs at 22,23)
+    navigate_to(22, 22)
+    # 3. Walk LEFT to (16, 22)
+    navigate_to(16, 22)
+    # 4. Walk DOWN to (16, 28) (descending stairs at 16,27)
+    navigate_to(16, 28)
+    # 5. Walk LEFT to (12, 28)
+    navigate_to(12, 28)
+    # 6. Walk DOWN to (12, 30)
+    navigate_to(12, 30)
+    # 7. Walk LEFT to (8, 30)
+    navigate_to(8, 30)
+    # 8. Walk DOWN to (8, 35) (through Rhydon statue gap)
+    navigate_to(8, 35)
+    # 9. Walk DOWN 1 to transition to Area 3 (West) at (26, 0)
+    print("Transitioning to Area 3 (West)...")
+    navigate_to(8, 36)
     
     pos = get_pos()
-    print(f"Starting Area 1 Phase C Run from: {pos}")
-    
-    # Standing at (9, 3). Walk to (7, 3)
-    navigate_to(7, 3)
-    # Walk to (7, 5)
-    navigate_to(7, 5)
-    # Walk LEFT to (0, 5) to transition to Area 2 (North)
-    print("Transitioning to Area 2 (North)...")
-    navigate_to(0, 5)
-    
-    pos = get_pos()
-    print(f"Area 1 Phase C Run complete! Position: {pos}")
+    print(f"Area 2 Run complete! Position: {pos}")
 
 if __name__ == "__main__":
     main()
