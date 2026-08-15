@@ -89,12 +89,14 @@ def navigate_to(tx, ty):
 
 def main():
     pos = get_pos()
-    print(f"Starting Area 1 Phase A Corrected (Row 21) Run from: {pos}")
+    print(f"Starting Area 1 Phase A Corrected (Row 24 via Col 4) Run from: {pos}")
     
-    # Standing at (5, 22). Walk to Row 21 first to bypass all barriers
-    navigate_to(5, 21)
-    # Walk RIGHT to (20, 21)
-    navigate_to(20, 21)
+    # Standing at (5, 22). Walk left to Col 4 to bypass the fence
+    navigate_to(4, 22)
+    # Walk DOWN to Row 24
+    navigate_to(4, 24)
+    # Walk RIGHT to (20, 24)
+    navigate_to(20, 24)
     # Walk UP to (20, 20) (climbing plateau stairs)
     navigate_to(20, 20)
     # Walk LEFT to (12, 20) on the plateau
@@ -107,7 +109,7 @@ def main():
     navigate_to(8, 8)
     
     pos = get_pos()
-    print(f"Area 1 Phase A Corrected (Row 21) Run complete! Position: {pos}")
+    print(f"Area 1 Phase A Corrected (Col 4) Run complete! Position: {pos}")
 
 if __name__ == "__main__":
     main()
