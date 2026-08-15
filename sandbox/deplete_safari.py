@@ -1,17 +1,36 @@
 import bridge
 import time
 
-print("Starting Safari step depletion script...")
+print("Starting Safari step depletion script with a 90-button safety limit...")
 
-while True:
+buttons_pressed = 0
+while buttons_pressed < 90:
     pos = bridge.get_coordinates()
-    print(f"Current position: {pos}")
+    print(f"Current position: {pos}, buttons pressed: {buttons_pressed}")
     if pos is None:
-        time.sleep(1)
+        # We are in a battle or textbox. Let's run from battle or clear text.
+        print("Coordinates are None. Handling battle/textbox...")
+        # Clear textbox
+        for _ in range(5):
+            bridge.press_buttons(["B", "sleep 150"])
+            buttons_pressed += 1
+            if buttons_pressed >= 90: break
+        if buttons_pressed >= 90: break
+        
+        # Try to run
+        bridge.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 1000"])
+        buttons_pressed += 3
+        if buttons_pressed >= 90: break
+        
+        # Clear post-flee text
+        for _ in range(3):
+            bridge.press_buttons(["B", "sleep 150"])
+            buttons_pressed += 1
+            if buttons_pressed >= 90: break
         continue
         
     x, y = pos
-    # Stop if we are no longer in the walking area
+    # Stop if we are no longer in the walking area (meaning we warped out!)
     if x != 19 or y not in [23, 24]:
         print(f"Position shifted to {pos}. Stopping script.")
         break
@@ -22,19 +41,8 @@ while True:
         next_step = "Down"
         
     # Press the next button
-    bridge.press_buttons(next_step)
-    
-    # Get new position
-    new_pos = bridge.get_coordinates()
-    if new_pos is None:
-        continue
-        
-    new_x, new_y = new_pos
-    if new_x == x and new_y == y:
-        print("Detected no movement. Attempting to clear textbox...")
-        # Press A, then B, to make sure we clear the text and any potential menus
-        bridge.press_buttons(["A", "B"])
-        time.sleep(0.5)
-        # Check again
-        new_pos = bridge.get_coordinates()
-        print(f"Position after clearing textbox: {new_pos}")
+    bridge.press_buttons([next_step, "sleep 150"])
+    buttons_pressed += 1
+    time.sleep(0.1)
+
+print(f"Script finished. Total buttons pressed: {buttons_pressed}")
