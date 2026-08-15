@@ -6,8 +6,7 @@
 - Professor Oak's Pokémon Research Lab (Oak, 3 Poké Balls on table, Rival)
 
 ## Key Items & Triggers
-- PC in Bedroom: Withdrew 1x Potion [Obtained]
-- Northern exit (tall grass towards Route 1): Triggers Oak stopping player and escorting to lab
-- Starter Pokémon choice: Bulbasaur (Grass/Poison), Squirtle (Water), Charmander (Fire)
-- Rival battle: Occurs upon attempting to leave lab after choosing starter
-- Route 1 / Viridian City: Pokémart clerk gives Oak's Parcel to deliver back to Oak
+- PC in Bedroom: Item storage (Potion obtained)
+- Northern exit (Route 1 grass boundary): Triggers Oak encounter escorting to lab
+- Starter Pokémon: 3 Poké Balls on research table
+- Lab exit trigger: Rival battle initiates when walking towards exit
