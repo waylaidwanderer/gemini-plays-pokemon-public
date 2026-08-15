@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Route 3 (x=31, y=8)
+- Location: Route 3 (x=36, y=8)
 - Current Objective: Traverse Route 3, defeat trainers, catch new Pokémon, and proceed towards Mt. Moon / Cerulean City
 
 ## Notepads Index
@@ -35,8 +35,8 @@
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
-## Inventory & Resources (Verified Turn 403)
-- Money: ¥1154 (¥1004 + ¥150 from Lass #2)
+## Inventory & Resources (Verified Turn 405)
+- Money: ¥1214 (¥1004 + ¥210 from Lass #2)
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Pokémon Attack)
 - Key Items: Town Map, Pokédex
 - TMs / HMs: TM34 (Bide)
@@ -194,7 +194,8 @@
   - Passable north-south gap around upper ledge: Located at column 10 (x=10, y=7).
   - Lower one-way ledge: Runs horizontally along row 11 from column 10 eastward.
   - Hopped upper ledge south from (26, 6) to (26, 8) [Turn 388].
-- Tall grass patch at columns 24-31, rows 10-12 [Observed Turn 389].
+- Tall grass patch at columns 24-37, rows 10-12 [Observed Turn 389, 405].
+- East mountain boundary at column 38 (rows 7-12). Upper passage visible on rows 4-6 (columns 34-41+).
 
 ## Verified Trainers
 - Youngster #1: Located at (10, 6) facing East [Observed Turn 327]
@@ -203,10 +204,9 @@
 - Bug Catcher #2: Located at (19, 5) facing South [Defeated Turn 358]. Team: Weedle Lv 9, Kakuna Lv 9, Caterpie Lv 9, Metapod Lv 9. Reward: ¥90.
 - Lass #1: Located at (23, 4) facing West, triggered at (19, 4) [Defeated Turn 371]. Team: Rattata Lv 10, Nidoran (Male) Lv 10. Reward: ¥150.
 - Bug Catcher #3: Located at (24, 6) facing West, engaged at (24, 5) [Defeated Turn 387]. Team: Caterpie Lv 11, Metapod Lv 11. Reward: ¥110.
+- Lass #2: Located at (33, 10) in tall grass, triggered at (33, 8) [Defeated Turn 404]. Team: Jigglypuff Lv 14. Reward: ¥210.
 - Youngster #4: Located at (22, 9) facing North/Left [Observed Turn 361]
 - Trainer (Lass): Located at (16, 9) facing North [Observed Turn 347]
-
-- Lass #2: Located at (33, 10) in tall grass, triggered at (33, 8) [Defeated Turn 399]. Team: Jigglypuff Lv 14.
 
 ## Empirical Wild Encounters
 - (Documenting upon encounter in tall grass)
