@@ -85,11 +85,11 @@ def navigate_to(tx, ty):
         time.sleep(0.5)
 
 def main():
-    # Starting at (28, 23)
+    # Starting at (29, 23) in Area 3 (West)
     # Waypoints:
     # 1. (31, 23) (Right to Column 31)
     # 2. (31, 26) (Down to Row 26)
-    # 3. (19, 26) (Left to Column 19 on Row 26)
+    # 3. (19, 26) (Left along Row 26 to Column 19)
     waypoints = [
         (31, 23),
         (31, 26),
@@ -100,14 +100,15 @@ def main():
         print(f"\nMoving to Waypoint: {wp}")
         navigate_to(wp[0], wp[1])
         
-    # Face UP and press A
+    # Stand at (19, 26) facing UP
     print("\nFacing UP...")
     bridge.press_buttons(["Up", "sleep 500"])
     
+    # Press A to pick up Gold Teeth
     print("Pressing A to pick up item...")
     bridge.press_buttons(["A", "sleep 1000"])
     
-    # Check if a dialog box popped up
+    # Check if a dialog box popped up (position is None)
     pos = get_pos()
     print(f"Position after pickup attempt: {pos}")
     if pos is None:
