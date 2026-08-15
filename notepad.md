@@ -111,7 +111,7 @@
 - **Max Revive:** 1
 - **HM03 (Surf):** OBTAINED on Turn 36291 (Verified inside Secret House).
 - **Town Map:** 1
-- **Gold Teeth:** NOT YET OBTAINED (Verified NOT in Bag on Turn 39014, NOT in PC Item Storage on Turn 39024, and Warden still speaks gibberish on Turn 38820)
+- **Gold Teeth:** OBTAINED (Retrieved from Safari Zone Area 3 (West) at (19, 25) on Turn 40659/40667, verified in Bag on Turn 40668)
 
 ## Major Exploration Phases and Timestamps
 - (Cleaned up historic milestones to reduce context window bloat)
@@ -120,7 +120,6 @@
 - **HM03 (Surf):** TAUGHT to SHELLBY (Blastoise) on Turn 36980, successfully replacing WATER GUN.
 - **HM04 (Strength):** Teach to SHELLBY (Blastoise) once obtained from the Warden.
   - Move to replace: **BITE** (Strength has 80 Base Power vs Bite's 60, providing a stronger neutral Normal-type STAB-like physical coverage move).
-
 
 <hr>
 
