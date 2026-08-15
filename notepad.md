@@ -4,7 +4,7 @@
 - Location: Volunteer Pokémon House (Lavender Town) at (3, 2).
 - Primary Goal: Obtain Poké Flute from Mr. Fuji at (3, 1).
 - Secondary Goal: Plan route to Route 16 Snorlax / HM02 Fly / Celadon Gym.
-- Active Strategy: Bag open on ETHER -> Toss ETHER -> Close menus -> Talk to Mr. Fuji -> Receive Poké Flute -> Exit to Lavender Town.
+- Active Strategy: Confirm YES to toss Ether -> Close menus -> Speak to Mr. Fuji -> Receive Poké Flute -> Exit to Lavender Town.
 - Key Items: SILPH SCOPE [ACQUIRED & VERIFIED], LIFT KEY [ACQUIRED], TM07 Horn Drill [ACQUIRED], BICYCLE [EQUIPPED].
 - Party Status: SHELLSHOCK (Blastoise Lv54, HP 186/189), LUNA (Clefable Lv11, HP 40/40), CUTTER (Paras Lv14, HP 39/39), SPROUT (Bellsprout Lv15, HP 40/40), BRUDF (Hitmonlee Lv30, HP 73/73).
 
@@ -750,12 +750,12 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 55536)
-- Location: Volunteer Pokémon House (Lavender Town) at (3, 2).
-- Primary Goal: Obtain Poké Flute from Mr. Fuji at (3, 1).
-- Secondary Goal: Plan route to Route 16 Snorlax / HM02 Fly / Celadon Gym.
-- Active Strategy: Confirm YES to toss Ether -> Close menus -> Speak to Mr. Fuji -> Receive Poké Flute -> Exit to Lavender Town.
-- Key Items: SILPH SCOPE [ACQUIRED & VERIFIED], LIFT KEY [ACQUIRED], TM07 Horn Drill [ACQUIRED], BICYCLE [EQUIPPED].
+## CURRENT STATUS & DASHBOARD (Turn 55538)
+- Location: Volunteer Pokémon House (Lavender Town) at (3, 2) -> Exiting to Lavender Town.
+- Primary Goal: Travel to Route 16 to awaken Snorlax with Poké Flute and obtain HM02 Fly.
+- Secondary Goal: Defeat Gym Leader Erika at Celadon Gym for the Rainbow Badge.
+- Active Strategy: Exit Pokémon House -> Ride Bicycle West across Route 8 -> Pass through Saffron City -> Exit West to Route 7 / Celadon / Route 16 -> Use Poké Flute on Snorlax -> Obtain HM02 Fly!
+- Key Items: POKÉ FLUTE [ACQUIRED & VERIFIED], SILPH SCOPE [ACQUIRED], LIFT KEY [ACQUIRED], TM07 Horn Drill [ACQUIRED], BICYCLE [EQUIPPED].
 - Party Status: SHELLSHOCK (Blastoise Lv54, HP 186/189), LUNA (Clefable Lv11, HP 40/40), CUTTER (Paras Lv14, HP 39/39), SPROUT (Bellsprout Lv15, HP 40/40), BRUDF (Hitmonlee Lv30, HP 73/73).
 
 <hr>
