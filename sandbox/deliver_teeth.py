@@ -43,6 +43,11 @@ def navigate_to(tx, ty):
             print(f"Arrived at waypoint ({tx}, {ty})")
             break
             
+        # If we enter the Warden's house, the coordinates will shift from (27, 27) to (4, 7)
+        if (tx, ty) == (27, 27) and pos == (4, 7):
+            print("Detected transition into Warden's House!")
+            break
+            
         print(f"Current: {pos}, Target: ({tx}, {ty})")
         if pos[0] < tx:
             direction = "Right"
@@ -66,18 +71,23 @@ def navigate_to(tx, ty):
 
 def main():
     pos = get_pos()
-    print(f"Starting walk to Warden's House from: {pos}")
+    print(f"Starting delivery walk from: {pos}")
     
-    # 1. Walk to the Warden's House door at (27, 27)
-    waypoints_to_house = [
-        (19, 30),
-        (30, 30),
-        (30, 28),
-        (27, 28),
+    # 1. Walk to (22, 28)
+    navigate_to(22, 28)
+    
+    # 2. Try walking UP Column 22 to (22, 14)
+    # If we are blocked by a ledge on Row 22, we will notice immediately!
+    navigate_to(22, 14)
+    
+    # 3. Walk to the Warden's House door
+    waypoints = [
+        (26, 14),
+        (26, 27),
         (27, 27) # Door transition
     ]
     
-    for wp in waypoints_to_house:
+    for wp in waypoints:
         navigate_to(wp[0], wp[1])
         
     print("Entered Warden's House! Waiting for map transition...")
@@ -86,7 +96,7 @@ def main():
     pos_inside = get_pos()
     print(f"Inside Warden's House at: {pos_inside}")
     
-    # 2. Walk to the Warden at (2, 4) facing UP
+    # 4. Walk to the Warden at (2, 4) facing UP
     waypoints_inside = [
         (2, 7),
         (2, 4)
