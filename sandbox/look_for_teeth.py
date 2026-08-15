@@ -9,14 +9,9 @@ def get_pos():
 
 def handle_textbox_or_battle():
     print("No movement detected. Checking for text box or battle...")
-    # Try to clear any dialogue text with B
     bridge.press_buttons(["B", "sleep 200", "B", "sleep 200"])
-    
-    # Try to flee: press Down, then A
     print("Attempting to run from battle...")
     bridge.press_buttons(["Down", "sleep 100", "A", "sleep 1000"])
-    
-    # Check if we are back in the overworld
     pos = get_pos()
     print(f"Coordinates after flee attempt: {pos}")
     return pos
@@ -36,7 +31,6 @@ def walk_step_robust(direction):
     if new_pos != pos:
         return new_pos
         
-    # If position is same, wait a bit and check again
     time.sleep(1.0)
     new_pos = get_pos()
     if new_pos == pos:
@@ -44,57 +38,38 @@ def walk_step_robust(direction):
     return new_pos
 
 def main():
-    # Start at (15, 23)
-    # Path to (19, 24) via Plateau:
-    # 1. Left 9 to (6, 23)
-    # 2. Up 7 to (6, 16)
-    # 3. Right 15 to (21, 16)
-    # 4. Down 8 to (21, 24)
-    # 5. Left 2 to (19, 24)
-    path = (
-        ["Left"] * 9 +
-        ["Up"] * 7 +
-        ["Right"] * 15 +
-        ["Down"] * 8 +
-        ["Left"] * 2
-    )
+    # Start at (19, 24)
+    # We want to walk Right along Row 24 (up to Col 29)
+    # At each column, try to walk DOWN.
+    # If we manage to walk down (y > 24), we succeed and stop!
     
-    idx = 0
-    stuck_count = 0
-    while idx < len(path):
+    start_pos = get_pos()
+    print(f"Grid search started from: {start_pos}")
+    
+    current_col = start_pos[0]
+    while current_col < 29:
+        # Try to walk Down
         pos = get_pos()
-        if pos is None:
-            handle_textbox_or_battle()
-            continue
+        print(f"Trying to walk Down from {pos}...")
+        new_pos = walk_step_robust("Down")
+        if new_pos is not None and new_pos[1] > 24:
+            print(f"SUCCESS! Walked Down to {new_pos}")
+            return
             
-        print(f"Path step {idx+1}/{len(path)}: currently at {pos}, target direction {path[idx]}")
-        new_pos = walk_step_robust(path[idx])
-        if new_pos is not None:
-            if new_pos != pos:
-                idx += 1
-                stuck_count = 0
-            else:
-                print("No progress made. Retrying step...")
-                stuck_count += 1
-                if stuck_count > 3:
-                    print("Repeated stuck! Clearing with B.")
-                    bridge.press_buttons(["B", "sleep 300"])
-                    stuck_count = 0
-        time.sleep(0.5)
-        
-    print(f"Arrived at (19, 24): {get_pos()}")
-    
-    # Face Down
-    print("Facing Down...")
-    bridge.press_buttons(["Down", "sleep 500"])
-    
-    # Press A
-    print("Pressing A...")
-    bridge.press_buttons(["A", "sleep 1000"])
-    
-    # Take screenshot
-    bridge.send_request("/api/screenshot")
-    print("Finished.")
+        # If we couldn't walk Down, walk Right
+        pos = get_pos()
+        if pos[0] >= 29:
+            break
+            
+        print(f"Walking Right from {pos}...")
+        new_pos = walk_step_robust("Right")
+        if new_pos is not None and new_pos != pos:
+            current_col = new_pos[0]
+        else:
+            print("Could not walk Right, stuck!")
+            break
+            
+    print(f"Finished search. Final pos: {get_pos()}")
 
 if __name__ == "__main__":
     main()
