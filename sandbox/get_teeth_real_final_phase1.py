@@ -22,13 +22,16 @@ def walk_step_robust(direction):
         return get_pos()
     return new_pos
 
-def try_cut_combination(pkmn_idx, option_idx):
-    print(f"\n--- Testing Pokémon {pkmn_idx} with Option {option_idx} ---")
-    
-    # Ensure menu is closed
-    for _ in range(3):
-        bridge.press_buttons(["B", "sleep 200"])
+def main():
+    pos = get_pos()
+    print(f"Initial Position: {pos}")
+    if pos != (26, 14):
+        print("Error: We must start at (26, 14)!")
+        return
         
+    # Let's test Pokémon 1 (TRUFFLE) with Option 1 (which should be CUT)
+    print("Testing Pokémon 1 with Option 1...")
+    
     # Face UP
     bridge.press_buttons(["Up", "sleep 400"])
     
@@ -39,77 +42,28 @@ def try_cut_combination(pkmn_idx, option_idx):
     for _ in range(6):
         bridge.press_buttons(["Up", "sleep 150"])
         
-    # Select POKÉMON (Down once, then A)
+    # Select POKÉMON
     bridge.press_buttons(["Down", "sleep 200", "A", "sleep 800"])
     
-    # Select Pokémon pkmn_idx
-    for _ in range(pkmn_idx):
-        bridge.press_buttons(["Down", "sleep 150"])
-    bridge.press_buttons(["A", "sleep 500"])
+    # Select 2nd Pokémon (TRUFFLE)
+    bridge.press_buttons(["Down", "sleep 200", "A", "sleep 500"])
     
-    # Select option_idx
-    for _ in range(option_idx):
-        bridge.press_buttons(["Down", "sleep 150"])
-    bridge.press_buttons(["A", "sleep 2000"]) # Wait for potential CUT animation
+    # Select Option 1 (Down once, then A)
+    bridge.press_buttons(["Down", "sleep 200", "A", "sleep 3000"]) # Wait 3s for CUT animation
     
-    # Close any open dialogue boxes or menus
+    # Dismiss any text
     for _ in range(5):
         bridge.press_buttons(["B", "sleep 300"])
         
-    # Test if tree is cut by trying to walk UP
+    # Try to walk UP
     print("Testing if tree is cut...")
-    pos_before = get_pos()
-    if pos_before is None:
-        return False
-        
     pos_after = walk_step_robust("Up")
-    if pos_after is not None and pos_after[1] < pos_before[1]:
-        print(f"SUCCESS!!! Pokémon {pkmn_idx} Option {option_idx} CUT the tree! Arrived at {pos_after}")
-        return True
+    print(f"Position after testing: {pos_after}")
+    
+    if pos_after == (26, 13):
+        print("SUCCESS!!! Pokémon 1 Option 1 CUT the tree!")
     else:
-        print("Tree is NOT cut.")
-        return False
-
-def main():
-    pos = get_pos()
-    if pos != (26, 14):
-        print(f"Not at (26, 14), navigating there first. Currently at {pos}")
-        # Navigate to (26, 14)
-        # Assuming we are very close
-        bridge.press_buttons(["B", "sleep 200"])
-        # Walk to (26, 14)
-        if pos is not None:
-            if pos[0] < 26: bridge.press_buttons(["Right", "sleep 400"])
-            elif pos[0] > 26: bridge.press_buttons(["Left", "sleep 400"])
-            pos = get_pos()
-            if pos is not None:
-                if pos[1] < 14: bridge.press_buttons(["Down", "sleep 400"])
-                elif pos[1] > 14: bridge.press_buttons(["Up", "sleep 400"])
-    
-    # Try all combinations of Pokémon (0-4) and options (0-2)
-    # Total combinations = 15. Each takes about 6-8 seconds.
-    # To avoid exceeding 100 buttons, we can test 3-4 combinations per run,
-    # but we can do it strategically.
-    # Let's test pkmn 1 (TRUFFLE) option 0 and 1 first.
-    # pkmn 1 is index 1.
-    # Let's run a focused search!
-    
-    # Standard order:
-    # Index 1 is TRUFFLE. Let's test index 1 option 0, 1, 2.
-    # Index 2 is GUSTY. Let's test index 2 option 0, 1.
-    # Index 3 is NIBBLES. Let's test index 3 option 0, 1.
-    
-    test_list = [
-        (1, 0), # TRUFFLE option 0
-        (1, 1), # TRUFFLE option 1 (likely CUT)
-        (1, 2), # TRUFFLE option 2
-        (2, 0), # GUSTY option 0
-        (2, 1), # GUSTY option 1
-    ]
-    
-    for pkmn_idx, option_idx in test_list:
-        if try_cut_combination(pkmn_idx, option_idx):
-            break
+        print("Option 1 did NOT cut the tree.")
 
 if __name__ == "__main__":
     main()
