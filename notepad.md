@@ -1,12 +1,12 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 55126)
-- Location: Pokémon Tower 5F at (3, 9) [Ascended from 4F].
+## CURRENT STATUS & DASHBOARD (Turn 55132)
+- Location: Pokémon Tower 5F at (11, 9) [Purified Zone - Fully Healed].
 - Primary Goal: Clear Pokémon Tower in Lavender Town using the Silph Scope to rescue Mr. Fuji.
-- Secondary Goal: Heal party at 5F Purified Zone and ascend to 6F.
-- Active Strategy: Arrived on 5F at (3, 9) -> Walk East along Row 7 to Purified Zone -> Heal Blastoise & party to 100% -> Navigate to 6F staircase at (18, 9) -> Ascend to 6F -> Identify & pacify Ghost Marowak with Silph Scope -> Defeat Team Rocket on 7F -> Rescue Mr. Fuji -> Obtain Poké Flute.
+- Secondary Goal: Navigate across Pokémon Tower 5F to the 6F staircase at (18, 9).
+- Active Strategy: Fully healed party at 5F Purified Zone -> Walk East via Row 6 corridor -> Defeat/bypass Channeler at (17, 7) -> Step onto (18, 9) staircase to 6F -> Identify & pacify Ghost Marowak with Silph Scope on 6F -> Defeat Team Rocket Grunts on 7F -> Rescue Mr. Fuji -> Obtain Poké Flute.
 - Key Items: SILPH SCOPE [ACQUIRED & VERIFIED], LIFT KEY [ACQUIRED], TM07 Horn Drill [ACQUIRED], BICYCLE [EQUIPPED].
-- Party Status: SHELLSHOCK (Blastoise Lv53, HP 97/185, HEALTHY), LUNA (Clefable Lv10), CUTTER (Paras Lv14), SPROUT (Bellsprout Lv15).
+- Party Status: SHELLSHOCK (Blastoise Lv53, HP 185/185, FULL HEALTH), LUNA (Clefable Lv10), CUTTER (Paras Lv14), SPROUT (Bellsprout Lv15).
 
 <hr>
 
