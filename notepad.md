@@ -6,7 +6,7 @@
 - Player: BLUE
 - Badges: 0/8
 - Location: Viridian Forest (Heading North to Pewter City)
-- Current Objective: Navigate Viridian Forest with Lv 11 HYDROS (2 Antidotes in bag), defeat Bug Catcher #2, and defeat Brock in Pewter City
+- Current Objective: Navigate northern Viridian Forest with Lv 12 HYDROS, defeat remaining trainers, and defeat Brock in Pewter City
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames
@@ -22,7 +22,7 @@
 
 ## Active Party
 1. HYDROS (Squirtle) - Lv 12
-   - Stats (Verified at Lv 12): Atk 19, Def 21, Spe 19, Spc 20, Max HP 35 (HP: 29/35, PSN - curing with Antidote)
+   - Stats (Verified at Lv 12): Atk 19, Def 21, Spe 19, Spc 20, Max HP 35 (HP: 29/35, Healthy)
    - Type: Water
    - Moves: Tackle, Tail Whip, Bubble
    - Role: Starter & primary Water/Ice special attacker
@@ -34,7 +34,7 @@
 - Money: ¥693
 - Key Items: Town Map, Pokédex
 - Consumables:
-  - 2x Antidote (Status cure: Poison - 1 about to be used)
+  - 1x Antidote (Status cure: Poison - 1 consumed Turn 237, verifying bag)
   - 1x Potion (Restores 20 HP)
   - 5x Poké Ball (Standard catch rate)
 
