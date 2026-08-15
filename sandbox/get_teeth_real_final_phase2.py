@@ -88,27 +88,17 @@ def navigate_to(tx, ty):
 
 def main():
     pos = get_pos()
-    print(f"Starting Phase 2 at: {pos}")
+    print(f"Starting Phase 2 Finish at: {pos}")
     
-    # We are at (20, 22)
+    # We are currently at (20, 4)
     waypoints = [
-        (20, 20),  # Climb stairs to southern plateau
-        (12, 20),  # Walk West on plateau
-        (12, 22),  # Descend stairs to ground level
-        (8, 22),   # Walk Left to Column 8
-        (8, 8),    # Walk Up along Column 8
-        (12, 8),   # Walk Right
-        (12, 6),   # Climb northern plateau stairs
-        (17, 6),   # Walk East on northern plateau
-        (17, 8),   # Descend plateau stairs
-        (20, 8),   # Walk Right
         (20, 3),   # Walk Up to Row 3
         (7, 3),    # Walk Left along Row 3
         (7, 5),    # Walk Down to Row 5
         (0, 5)     # Transition Left to Area 2 (North)
     ]
     
-    print("Executing Safari Phase 2: Area 1 to Area 2 (North)...")
+    print("Executing Safari Phase 2 Finish: Area 1 to Area 2 (North)...")
     for i, wp in enumerate(waypoints, 1):
         pos = get_pos()
         if pos is None:
@@ -117,7 +107,7 @@ def main():
                 print("Map changed or battle occurred, stopping script.")
                 break
         
-        # If we successfully transitioned to Area 2, the coordinates will be around (39, 31)
+        # If we transitioned to Area 2 (North), the position will warp to around (39, 31)
         if pos[0] == 39 and pos[1] == 31:
             print("Transition to Area 2 (North) detected! Stopping script.")
             break
@@ -127,7 +117,7 @@ def main():
         
     time.sleep(2.0)
     pos = get_pos()
-    print(f"Final position at end of Phase 2: {pos}")
+    print(f"Final position at end of Phase 2 Finish: {pos}")
 
 if __name__ == "__main__":
     main()
