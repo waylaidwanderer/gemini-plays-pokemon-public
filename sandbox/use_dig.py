@@ -1,42 +1,52 @@
 import time
 import bridge
 
+def get_pos():
+    pos = bridge.get_coordinates()
+    if pos is None:
+        return None
+    return pos[0], pos[1]
+
 def main():
-    print("Opening main menu...")
-    bridge.press_buttons(["Start", "sleep 300"])
+    print("Executing automatic DIG search and use...")
     
-    # Cursor starts on POKEDEX. Pokémon is Down, Down, A
-    print("Navigating to POKÉMON...")
-    bridge.press_buttons(["Down", "sleep 150", "Down", "sleep 150", "A", "sleep 600"])
+    # Ensure menu is closed
+    bridge.press_buttons(["B", "sleep 300", "B", "sleep 300"])
     
-    # We are in the Pokémon menu. Let's try to find DIG on each Pokémon (1 to 5)
-    # The party size is 5.
     for i in range(5):
-        print(f"Checking Pokémon {i+1}...")
-        # Select Pokémon i
+        print(f"\n--- Checking Pokémon {i+1} ---")
+        
+        # Open main menu
+        bridge.press_buttons(["Start", "sleep 400"])
+        
+        # Select POKÉMON (Down twice, then A)
+        bridge.press_buttons(["Down", "sleep 150", "Down", "sleep 150", "A", "sleep 800"])
+        
+        # Move cursor to Pokémon i
+        for _ in range(i):
+            bridge.press_buttons(["Down", "sleep 150"])
+            
+        # Press A to open option menu
         bridge.press_buttons(["A", "sleep 500"])
         
-        # Take a screenshot of the menu options (e.g. DIG, HP, etc.)
-        img = bridge.take_screenshot()
-        print(f"Option menu for Pokémon {i+1} saved: {img}")
+        # Press A to select first option (either DIG/field move or STATS)
+        print("Selecting first option...")
+        bridge.press_buttons(["A", "sleep 1500"])
         
-        # In Gen 1, when you select a Pokémon in the overworld, if they have an HM/field move,
-        # it is listed at the top (e.g., CUT, DIG, SURF, FLASH, TELEPORT, SOFTBOILED, MILK DRINK).
-        # We can press Down twice and press B to cancel if they don't have DIG,
-        # or we can check if DIG is there.
-        # Let's cancel and try the next one.
-        # But wait! If they have DIG, it will be the first option!
-        # If they don't, the first option might be "STATS" or "SWITCH".
-        # Let's press B to close the option menu for this Pokémon
-        bridge.press_buttons(["B", "sleep 300"])
-        
-        # Move cursor to the next Pokémon (Down once)
-        bridge.press_buttons(["Down", "sleep 200"])
-        
-    # Exit Pokémon menu
-    bridge.press_buttons(["B", "sleep 300"])
-    bridge.press_buttons(["Start", "sleep 300"])
-    print("Party check complete.")
+        # Check if we warped to Fuchsia City (y near 28, x near 19)
+        pos = get_pos()
+        print(f"Coordinates: {pos}")
+        if pos is not None and pos[1] == 28:
+            print("SUCCESS! Warped out of Safari Zone using DIG!")
+            return
+            
+        # If we didn't warp, we are probably in the Stats screen or still in the menu.
+        # Press B twice to cancel out back to overworld
+        print("Not warped, cancelling...")
+        bridge.press_buttons(["B", "sleep 300", "B", "sleep 300", "B", "sleep 300"])
+        time.sleep(0.5)
+
+    print("Checked all 5 Pokémon. None of them used DIG.")
 
 if __name__ == "__main__":
     main()
