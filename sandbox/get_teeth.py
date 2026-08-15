@@ -58,12 +58,6 @@ def navigate_to(tx, ty):
             handle_textbox_or_battle()
             continue
             
-        # Detect if map transition to Area 1 (East) has occurred.
-        # Warp lands us at (0, 22) in Area 1 (East).
-        if pos[0] < 5 and pos[1] == 22:
-            print("Successfully transitioned to Area 1 (East)!")
-            break
-            
         if pos == (tx, ty):
             print(f"Arrived at waypoint ({tx}, {ty})")
             break
@@ -91,26 +85,43 @@ def navigate_to(tx, ty):
         time.sleep(0.5)
 
 def main():
-    # Phase 1: Safari Zone Center to Area 1 (East)
+    # Starting at (25, 2) in Area 3 (West)
+    # Waypoints:
+    # 1. (25, 18) - Down Column 25 to row 18
+    # 2. (21, 18) - Left Row 18 to Column 21
+    # 3. (21, 24) - Down Column 21 to Row 24
+    # 4. (19, 24) - Left Row 24 to Column 19 (the open gap to southern corridor)
+    # 5. (19, 26) - Down Column 19 to Row 26 (Row 26 Highway)
     waypoints = [
-        (15, 22),
-        (28, 22),
-        (28, 10),
-        (30, 10) # transitions to Area 1 (East) at (0, 22)
+        (25, 18),
+        (21, 18),
+        (21, 24),
+        (19, 24),
+        (19, 26)
     ]
     
-    print("Beginning Safari Zone Golden Route - Phase 1...")
+    print("Navigating to Gold Teeth location...")
     for i, wp in enumerate(waypoints, 1):
         print(f"\n--- WAYPOINT {i}/{len(waypoints)}: {wp} ---")
-        pos = get_pos()
-        if pos is not None and pos[0] < 5 and pos[1] == 22:
-            print("Already transitioned to Area 1 (East)!")
-            break
         navigate_to(wp[0], wp[1])
+        
+    print("\nFacing UP towards Gold Teeth at (19, 25)...")
+    bridge.press_buttons(["Up", "sleep 500"])
+    
+    print("Pressing A to retrieve Gold Teeth...")
+    bridge.press_buttons(["A", "sleep 1000"])
+    
+    # Clear dialogue
+    for _ in range(5):
+        bridge.press_buttons(["B", "sleep 300"])
         
     time.sleep(2.0)
     pos = get_pos()
-    print(f"Final position at end of Phase 1: {pos}")
+    print(f"Final position after teeth pickup: {pos}")
+    
+    # Take screenshot of the screen to confirm
+    img_path = bridge.take_screenshot()
+    print(f"Final screenshot saved: {img_path}")
 
 if __name__ == "__main__":
     main()
