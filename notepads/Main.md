@@ -3,8 +3,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Route 3 (x=58, y=8)
-- Current Objective: Traverse Route 3, defeat trainers, catch new Pokémon, and proceed towards Mt. Moon / Cerulean City
+- Location: Mt. Moon Entrance (x=58, y=5)
+- Current Objective: Enter Mt. Moon 1F, explore the cavern, defeat trainers, collect items, and navigate towards Cerulean City
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory

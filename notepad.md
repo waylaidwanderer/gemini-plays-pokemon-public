@@ -5,8 +5,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Route 3 (x=58, y=8)
-- Current Objective: Traverse Route 3, defeat trainers, catch new Pokémon, and proceed towards Mt. Moon / Cerulean City
+- Location: Mt. Moon Entrance (x=58, y=5)
+- Current Objective: Enter Mt. Moon 1F, explore the cavern, defeat trainers, collect items, and navigate towards Cerulean City
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -72,7 +72,8 @@
 - [x] Deliver Oak's Parcel to Oak & receive Pokédex + 5 Poké Balls
 - [x] Obtain Town Map from Daisy in Pallet Town
 - [x] Defeat Gym Leader Brock in Pewter City (Boulder Badge & TM34 Bide) [Turn 310]
-- [ ] Travel east along Route 3 and navigate Mt. Moon towards Cerulean City
+- [x] Travel east along Route 3 and reach Mt. Moon [Turn 443]
+- [ ] Navigate Mt. Moon towards Route 4 and Cerulean City
 - [ ] Defeat Gym Leader Misty in Cerulean City (Cascade Badge)
 
 ## Side Quests & Deliveries
@@ -187,7 +188,7 @@
 ## NPCs & Points of Interest
 - Rest Boy NPC: Located at (57, 11) [Observed Turn 417]. Mentions resting outside the tunnel from Cerulean.
 - Signpost: Located at (59, 9) [Verified Turn 441]. Text: 'ROUTE 3 MT. MOON AHEAD'.
-- Cave Opening / Entrance Landmark: Visually observed on northeast cliff face around columns 56-58, rows 8-9.
+- Mt. Moon Cave Entrance: Located at (58, 4..5) and (59, 4..5) [Verified Turn 443].
 
 ## Layout & Landmarks
 - Mountain path flanked by rock cliffs on north and south
@@ -195,6 +196,7 @@
 - Rocky boulders at (4, 8) and (4, 11)
 - Bush/tree obstacle at (9, 10..11)
 - Elevation & Ledge Mapping:
+  - Passable north-south gap at eastern terminus: Located at column 59 (x=59, y=7) [Verified Turn 443].
   - Upper one-way ledge: Runs horizontally along row 7 from column 11 eastward.
   - Passable north-south gaps around upper ledge: Located at column 10 (x=10, y=7) and column 37 (x=37, y=7) [Verified Turn 407].
   - Lower one-way ledge: Runs horizontally along row 11 from column 10 eastward.
