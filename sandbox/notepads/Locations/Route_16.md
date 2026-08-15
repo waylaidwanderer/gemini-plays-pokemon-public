@@ -10,3 +10,5 @@
 ## Mechanics Note: Awakening Snorlax (Gen 1)
 - Pressing 'A' on Snorlax only says "A sleeping POKéMON blocks the way!".
 - To awaken Snorlax: Open Bag (`Start` -> `ITEM`), select `POKé FLUTE`, and choose `USE` while facing Snorlax.
+- Cut Tree: Located at (34, 9). Cutting this tree opens access from Row 10 highway to the Upper Highway (Rows 6-7).
+- Upper Highway (Rows 6-7): Open road running west from (35, 7) through the upper gatehouse to the Secret House.
