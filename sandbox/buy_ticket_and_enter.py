@@ -4,6 +4,7 @@ import os
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 import bridge
+import mgba
 
 def get_pos():
     pos = bridge.get_coordinates()
@@ -11,27 +12,98 @@ def get_pos():
         return None
     return pos[0], pos[1]
 
+def handle_textbox_or_battle():
+    print("Coordinates are None. Handling potential dialogue...")
+    # Clear text boxes with B
+    for _ in range(5):
+        bridge.press_buttons(["B", "sleep 150"])
+    pos = get_pos()
+    print(f"Coordinates after dialogue handling: {pos}")
+    return pos
+
+def walk_step_robust(direction):
+    pos = get_pos()
+    if pos is None:
+        return handle_textbox_or_battle()
+        
+    print(f"Walking {direction} from {pos}")
+    bridge.press_buttons([direction, "sleep 450"])
+    
+    new_pos = get_pos()
+    if new_pos is None:
+        return handle_textbox_or_battle()
+        
+    if new_pos != pos:
+        return new_pos
+        
+    print("Position didn't change, pressing B...")
+    bridge.press_buttons(["B", "sleep 200"])
+    new_pos = get_pos()
+    if new_pos is None:
+        return handle_textbox_or_battle()
+    return new_pos
+
+def navigate_to(tx, ty):
+    stuck_count = 0
+    while True:
+        pos = get_pos()
+        if pos is None:
+            handle_textbox_or_battle()
+            continue
+            
+        if pos == (tx, ty):
+            print(f"Arrived at waypoint ({tx}, {ty})")
+            break
+            
+        print(f"Current: {pos}, Target: ({tx}, {ty})")
+        if pos[0] < tx:
+            direction = "Right"
+        elif pos[0] > tx:
+            direction = "Left"
+        elif pos[1] < ty:
+            direction = "Down"
+        elif pos[1] > ty:
+            direction = "Up"
+            
+        new_pos = walk_step_robust(direction)
+        if new_pos == pos:
+            stuck_count += 1
+            if stuck_count > 3:
+                print("Stuck! Clearing with B...")
+                bridge.press_buttons(["B", "sleep 500"])
+                stuck_count = 0
+        else:
+            stuck_count = 0
+        time.sleep(0.1)
+
 def main():
     pos = get_pos()
-    print(f"Starting final entry phase from: {pos}")
+    print(f"Starting walk to Safari Gatehouse from: {pos}")
     
-    # 1. Clear "We'll call you..." text box
-    print("Clearing 'We'll call you...' text box...")
-    bridge.press_buttons(["B", "sleep 500"])
+    # Walk to the Gatehouse at (18, 3) in Fuchsia City
+    waypoints_to_gatehouse = [
+        (26, 9),
+        (19, 9),
+        (19, 8),
+        (37, 8),
+        (37, 2),
+        (22, 2),
+        (22, 4),
+        (18, 4),
+        (18, 3)
+    ]
     
-    # 2. Clear "Our Safari Game..." text box (if any)
-    print("Clearing potential final text box...")
-    bridge.press_buttons(["B", "sleep 500"])
+    for wp in waypoints_to_gatehouse:
+        navigate_to(wp[0], wp[1])
+        
+    print("Entered Gatehouse! Waiting for map transition...")
+    time.sleep(2.0)
     
-    # 3. Walk LEFT to Column 3
-    print("Walking LEFT to Column 3...")
-    bridge.press_buttons(["Left", "sleep 500"])
+    pos_inside = get_pos()
+    print(f"Position inside Gatehouse: {pos_inside}")
     
-    # 4. Walk UP through the warp to enter Safari Zone Center
-    print("Walking UP into the Safari Zone warp...")
-    bridge.press_buttons(["Up", "sleep 450", "Up", "sleep 1000"])
-    
-    print(f"Final position inside Safari Zone Center: {get_pos()}")
+    screenshot = mgba.take_screenshot()
+    print(f"Screenshot taken: {screenshot}")
 
 if __name__ == "__main__":
     main()
