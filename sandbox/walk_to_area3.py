@@ -1,83 +1,114 @@
-import mgba
 import time
+import sys
+import os
+
+# Add current path to import bridge
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+import bridge
+
+sys.stdout.reconfigure(encoding='utf-8')
 
 def get_pos():
-    pos = mgba.get_coordinates()
-    return pos['x'], pos['y']
+    pos = bridge.get_coordinates()
+    if pos is None:
+        return None
+    return pos[0], pos[1]
 
-def run_away():
-    print("Wild battle detected! Running away...")
-    # Clear any battle entrance animation text
-    for _ in range(3):
-        mgba.press_buttons(["B", "sleep 350"])
-    
-    # Try running away using Right-Down-A
-    # (The RUN button is in the bottom right corner of the battle menu)
-    mgba.press_buttons(["Down", "sleep 200", "Right", "sleep 200", "A", "sleep 1500"])
-    
-    # Press B to clear "Got away safely!" or handle failed run attempts
+def handle_textbox_or_battle():
+    print("Coordinates are None. Handling potential battle or dialog...")
+    # Clear text boxes with B
     for _ in range(5):
-        mgba.press_buttons(["B", "sleep 350"])
-
-# Target path nodes:
-# Start: (26, 16)
-# Node 1: (22, 16)  (Walk Left)
-# Node 2: (22, 18)  (Walk Down)
-# Node 3: (6, 18)   (Walk Left)
-# Node 4: (6, 11)   (Walk Up)
-# Node 5: (0, 11)   (Walk Left) - this should trigger transition to Area 3 (West) at (29, 23)
-
-path = [
-    (22, 16),
-    (22, 18),
-    (6, 18),
-    (6, 11),
-    (0, 11)
-]
-
-print("Starting walk_to_area3.py...")
-node_idx = 0
-
-while node_idx < len(path):
-    tx, ty = path[node_idx]
-    cx, cy = get_pos()
-    print(f"Current: ({cx}, {cy}) -> Target: ({tx}, {ty})")
+        bridge.press_buttons(["B", "sleep 150"])
     
-    if cx == tx and cy == ty:
-        print(f"Reached node {node_idx}: ({tx}, {ty})")
-        node_idx += 1
-        continue
-        
-    # Check if we transitioned to Area 3 (West).
-    # If cx is around 29 or 30 and cy is around 23, we transitioned!
-    if cx >= 28 and cy == 23:
-        print(f"Transitioned to Area 3 (West)! Position: ({cx}, {cy})")
-        break
-        
-    # Determine next move direction
-    if cx < tx:
-        btn = "Right"
-    elif cx > tx:
-        btn = "Left"
-    elif cy < ty:
-        btn = "Down"
-    else:
-        btn = "Up"
-        
-    print(f"Pressing {btn}...")
-    mgba.press_buttons([btn, "sleep 400"])
+    # Try to RUN from battle
+    print("Attempting to RUN from battle...")
+    bridge.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 1000"])
     
-    nx, ny = get_pos()
-    if nx == cx and ny == cy:
-        # We didn't move!
-        print("Did not move. Checking for wild battle...")
-        # Take a screenshot to help debug if needed
-        mgba.take_screenshot()
-        run_away()
-        # Check coordinates again
-        ax, ay = get_pos()
-        if ax == cx and ay == cy:
-            print("Still stuck. Pressing B...")
-            mgba.press_buttons(["B", "sleep 300"])
+    # Clear post-flee text
+    for _ in range(3):
+        bridge.press_buttons(["B", "sleep 150"])
+        
+    pos = get_pos()
+    print(f"Coordinates after battle handling: {pos}")
+    return pos
 
-print("Finished walk_to_area3.py.")
+def walk_step_robust(direction):
+    pos = get_pos()
+    if pos is None:
+        return handle_textbox_or_battle()
+        
+    print(f"Walking {direction} from {pos}")
+    bridge.press_buttons([direction, "sleep 450"])
+    
+    new_pos = get_pos()
+    if new_pos is None:
+        return handle_textbox_or_battle()
+        
+    if new_pos != pos:
+        return new_pos
+        
+    print("Position didn't change, pressing B...")
+    bridge.press_buttons(["B", "sleep 200"])
+    new_pos = get_pos()
+    if new_pos is None:
+        return handle_textbox_or_battle()
+    return new_pos
+
+def navigate_to(tx, ty):
+    stuck_count = 0
+    while True:
+        pos = get_pos()
+        if pos is None:
+            handle_textbox_or_battle()
+            continue
+            
+        if pos == (tx, ty):
+            print(f"Arrived at waypoint ({tx}, {ty})")
+            break
+            
+        print(f"Current: {pos}, Target: ({tx}, {ty})")
+        # To avoid cutting corners, change x first, then y (or vice-versa depending on terrain, but we guide with safe waypoints)
+        if pos[0] < tx:
+            direction = "Right"
+        elif pos[0] > tx:
+            direction = "Left"
+        elif pos[1] < ty:
+            direction = "Down"
+        elif pos[1] > ty:
+            direction = "Up"
+            
+        new_pos = walk_step_robust(direction)
+        if new_pos == pos:
+            stuck_count += 1
+            if stuck_count > 3:
+                print("Stuck! Clearing with B...")
+                bridge.press_buttons(["B", "sleep 500"])
+                stuck_count = 0
+        else:
+            stuck_count = 0
+        time.sleep(0.1)
+
+def main():
+    pos = get_pos()
+    print(f"Starting Area 2 (North) ground-level walk from {pos}")
+    
+    # Trace to Area 3
+    navigate_to(27, 31)
+    navigate_to(22, 31)
+    navigate_to(22, 22)
+    navigate_to(16, 22)
+    navigate_to(16, 28)
+    navigate_to(12, 28)
+    navigate_to(12, 30)
+    navigate_to(8, 30)
+    navigate_to(8, 35)
+    
+    print("Stepping DOWN to transition to Area 3...")
+    walk_step_robust("Down")
+    time.sleep(1.5)
+    
+    final_pos = get_pos()
+    print(f"Walk to Area 3 finished. Final position: {final_pos}")
+
+if __name__ == "__main__":
+    main()
