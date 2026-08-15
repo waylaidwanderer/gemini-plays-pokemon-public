@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon 1F (x=8, y=17)
+- Location: Mt. Moon 1F (x=11, y=13)
 - Current Objective: Explore Mt. Moon 1F, defeat trainers, collect items (Moon Stone, TMs), catch wild Pokémon, and navigate towards Cerulean City
 
 ## Notepads Index
