@@ -1332,42 +1332,60 @@ From Safari Zone Center entrance at `(15, 25)`:
 # Safari Zone - Complete Golden Route to Gold Teeth
 
 ## Gold Teeth Location
-- **Gold Teeth:** Located at `(19, 25)` inside **Area 3 (West)** on the southern ground level.
-- **CRITICAL RETRIEVAL METHOD:** The horizontal cliff wall at Row 25 completely blocks all item interaction from the north side at `(19, 24)`. To pick up the Gold Teeth, the player MUST stand on the southern ground level (the Row 26 Highway) at `(19, 26)`, face **UP** (north) towards `(19, 25)`, and press **A**!
+- **Gold Teeth:** Located at `(19, 25)` inside **Area 3 (West)** on the southern ground level!
+- **RETRIEVAL METHOD:** Stand at `(19, 26)` (directly below the teeth), face **UP** (north), and press **A** to pick up the Gold Teeth!
 
-## Step-by-Step Walkable Golden Highway Route (Start to Teeth)
-
-The southern corridor (Row 26) of Safari Zone Center and Area 3 (West) is a completely open, continuous horizontal highway connecting all the way to the Gold Teeth. However, because Row 25 in Center is completely blocked by solid Rhydon statues/fences, and Row 24/25 in Area 3 is blocked by cliff walls/bushes, Row 26 is completely inaccessible from the north in those maps. The ONLY way to access Row 26 is to detour through Area 1 (East) and walk south to Row 26, where the boundary is completely open.
+## Step-by-Step Verified Plateau Route (Start to Teeth)
 
 ### Phase 1: Safari Zone Center to Area 1 (East)
-1. Start at the Gatehouse entrance `(15, 25)`.
+1. Start at Gatehouse entrance `(15, 25)`.
 2. Walk UP 3 steps to `(15, 22)`.
-3. Walk RIGHT 13 steps along Row 22 to `(28, 22)`.
-4. Walk UP 12 steps along Column 28 to `(28, 10)` (ground level).
-5. Walk RIGHT 2 steps to transition to Area 1 (East) at `(0, 22)`.
+3. Walk RIGHT 12 steps along Row 22 to `(27, 22)`.
+4. Walk UP 12 steps along Column 27 to `(27, 10)` (bypassing the Column 28/29 tree wall).
+5. Walk RIGHT 2 steps to transition to Area 1 (East) at `(29, 10)`.
 
-### Phase 2: Area 1 (East) Ground-Level Descent to Row 26
+### Phase 2: Area 1 (East) to Area 2 (North)
 1. Emerge in Area 1 (East) at `(0, 22)`.
-2. Walk RIGHT 20 steps along Row 22 to `(20, 22)` (ground level below the southern plateau stairs).
-3. Walk DOWN 4 steps along Column 20 to Row 26 at `(20, 26)`. (Columns 0-20 on Rows 22-26 are completely open, flat, walkable ground grass).
+2. Walk RIGHT to `(20, 22)` on the ground.
+3. Walk UP 2 steps to climb plateau stairs to `(20, 20)`.
+4. Walk LEFT 8 steps on the plateau to `(12, 20)`.
+5. Walk DOWN 2 steps to descend stairs to `(12, 22)`.
+6. Walk LEFT 4 steps to Column 8 at `(8, 22)`.
+7. Walk UP 14 steps along Column 8 to `(8, 8)`.
+8. Walk RIGHT 4 steps to climb northern plateau stairs at `(12, 8)` to `(12, 6)`.
+9. Walk RIGHT 5 steps on plateau to `(17, 6)`.
+10. Walk DOWN 2 steps to descend plateau stairs to `(17, 8)`.
+11. Walk RIGHT 3 steps to Column 20 at `(20, 8)`.
+12. Walk UP Column 20 to Row 3 at `(20, 3)` (bypassing the house).
+13. Walk LEFT along Row 3 to Column 7 at `(7, 3)` (bypassing the tree at (5,3)).
+14. Walk DOWN to Row 5 at `(7, 5)`.
+15. Walk LEFT along Row 5 to Column 0 to transition to Area 2 (North) at `(0, 5)`.
 
-### Phase 3: Transition to Safari Zone Center Row 26
-1. From `(20, 26)` in Area 1 (East), walk LEFT 20 steps along Row 26 to Column 0 at `(0, 26)`.
-2. Walk LEFT 1 step to transition directly to Safari Zone Center at `(29, 26)`.
+### Phase 3: Area 2 (North) to Area 3 (West)
+1. Emerge in Area 2 (North) at `(39, 31)`.
+2. Walk LEFT 17 steps along Row 31 to Column 22 at `(22, 31)`.
+3. Walk UP 9 steps along Column 22 (climbing plateau stairs at (22, 23)) to `(22, 22)`.
+4. Walk LEFT 6 steps on the plateau to `(16, 22)`.
+5. Walk DOWN 6 steps (descending stairs at (16, 27)) to grass at `(16, 28)`.
+6. Walk LEFT 4 steps to `(12, 28)`.
+7. Walk DOWN 2 steps to `(12, 30)` (to bypass the pond).
+8. Walk LEFT 4 steps to `(8, 30)`.
+9. Walk DOWN 5 steps through the statue gap to `(8, 35)`.
+10. Walk DOWN 1 step to transition to Area 3 (West) at `(26, 0)`.
 
-### Phase 4: Safari Zone Center Row 26 Highway to Area 3 (West)
-1. Emerge in Safari Zone Center at `(29, 26)`.
-2. Walk LEFT 29 steps along the completely open Row 26 Highway to Column 0 at `(0, 26)`.
-3. Walk LEFT 1 step to transition directly to Area 3 (West) at `(29, 26)`.
-
-### Phase 5: Area 3 (West) Row 26 Highway to Gold Teeth Retrieval
-1. Emerge in Area 3 (West) at `(29, 26)`.
-2. Walk LEFT 10 steps along Row 26 to Column 19 at `(19, 26)`.
-3. Stand at `(19, 26)` facing **UP** (north).
-4. Press **A** to pick up the Gold Teeth!
-
-### Phase 6: Escape
-1. After picking up the Gold Teeth, use DIG (known by TRUFFLE) to warp directly outside the Fuchsia City Pokémon Center!
+### Phase 4: Area 3 (West) to Gold Teeth
+1. Emerge in Area 3 (West) at `(26, 0)`.
+2. Walk DOWN 2 steps to `(26, 2)`.
+3. Walk LEFT 1 step to `(25, 2)`.
+4. Walk DOWN 16 steps along Column 25 to `(25, 18)`.
+5. Walk LEFT 4 steps to `(21, 18)`.
+6. Walk DOWN 5 steps along Column 21 to `(21, 23)`.
+7. Walk LEFT 2 steps along Row 23 to `(19, 23)`.
+8. Walk DOWN 1 step to `(19, 24)`.
+9. Walk LEFT 1 step to `(18, 24)`.
+10. Walk DOWN 2 steps to `(18, 26)`.
+11. Walk RIGHT 1 step to `(19, 26)`.
+12. Face UP and press A to retrieve the Gold Teeth!
 
 
 <hr>
