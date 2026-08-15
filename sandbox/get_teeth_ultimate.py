@@ -1,7 +1,10 @@
 import time
 import sys
+import os
+
+# Add current path to import bridge
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 import bridge
-import mgba
 
 sys.stdout.reconfigure(encoding='utf-8')
 
@@ -17,7 +20,7 @@ def handle_textbox_or_battle():
     for _ in range(5):
         bridge.press_buttons(["B", "sleep 150"])
     
-    # Try to RUN
+    # Try to RUN from battle
     print("Attempting to RUN from battle...")
     bridge.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 1000"])
     
@@ -49,10 +52,7 @@ def walk_step_robust(direction):
     new_pos = get_pos()
     if new_pos is None:
         return handle_textbox_or_battle()
-    if new_pos != pos:
-        return new_pos
-        
-    return handle_textbox_or_battle()
+    return new_pos
 
 def navigate_to(tx, ty):
     stuck_count = 0
@@ -85,41 +85,57 @@ def navigate_to(tx, ty):
                 stuck_count = 0
         else:
             stuck_count = 0
-        time.sleep(0.4)
+        time.sleep(0.1)
 
 def main():
     pos = get_pos()
-    print(f"Starting overworld walk to Safari Gatehouse from: {pos}")
+    print(f"Starting Phase 4 overworld walk. Position: {pos}")
     
-    if pos == (20, 16):
-        # Walk RIGHT to Column 22: (22, 16)
-        navigate_to(22, 16)
-        # Walk UP Column 22 to Row 14: (22, 14)
-        navigate_to(22, 14)
-        # Walk RIGHT to Column 26: (26, 14)
-        navigate_to(26, 14)
-        # Walk UP Column 26 to Row 9: (26, 9)
-        navigate_to(26, 9)
-        # Walk LEFT to Column 19 on Row 9: (19, 9)
-        navigate_to(19, 9)
-        # Walk UP Column 19 to Row 8: (19, 8)
-        navigate_to(19, 8)
-        # Walk RIGHT to Column 37: (37, 8)
-        navigate_to(37, 8)
-        # Walk UP to Row 2: (37, 2)
-        navigate_to(37, 2)
-        # Walk LEFT to Column 22: (22, 2)
-        navigate_to(22, 2)
-        # Walk DOWN to Row 4: (22, 4)
-        navigate_to(22, 4)
-        # Walk LEFT to Column 18: (18, 4)
-        navigate_to(18, 4)
-        # Step UP into the Gatehouse at (18, 3)
-        print("Entering Safari Gatehouse...")
-        bridge.press_buttons(["Up", "sleep 1500"])
+    # --- Inside Area 2 North ---
+    if pos is not None and pos[1] >= 25 and pos[0] < 20:
+        navigate_to(12, 28)
+        navigate_to(12, 30)
+        navigate_to(8, 30)
+        navigate_to(8, 35)
+        # Warp to Area 3 (West)
+        print("Warping to Area 3 (West)...")
+        navigate_to(8, 36)
+        pos = get_pos()
+        if pos == (8, 36):
+            walk_step_robust("Down")
+        time.sleep(1.5)
         
     pos = get_pos()
-    print(f"Final position: {pos}")
+    print(f"Position inside Area 3 West: {pos}")
+    
+    # --- Inside Area 3 West ---
+    if pos is not None and pos[1] <= 5:
+        navigate_to(26, 2)
+        navigate_to(25, 2)
+        navigate_to(25, 18)
+        navigate_to(21, 18)
+        navigate_to(21, 23)
+        navigate_to(19, 23)
+        navigate_to(19, 24)
+        navigate_to(18, 24)
+        navigate_to(18, 26)
+        navigate_to(19, 26)
+        
+        pos = get_pos()
+        if pos == (19, 26):
+            print("Arrived at Gold Teeth pick-up location!")
+            # Face UP
+            bridge.press_buttons(["Up", "sleep 250"])
+            # Retrieve Gold Teeth
+            print("Pressing A to retrieve Gold Teeth...")
+            bridge.press_buttons(["A", "sleep 1200"])
+            
+            # Mash B to dismiss any dialog
+            for _ in range(4):
+                bridge.press_buttons(["B", "sleep 300"])
+                
+    pos = get_pos()
+    print(f"Phase 4 finished. Final position: {pos}")
 
 if __name__ == "__main__":
     main()
