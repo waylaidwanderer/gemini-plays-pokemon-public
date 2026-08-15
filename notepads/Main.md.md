@@ -1,5 +1,5 @@
 ## CURRENT STATUS & DASHBOARD (Turn 55553)
-- Location: Saffron Mart (3, 7) -> Exiting to Saffron City (25, 12) -> Up Col 24 to Row 7 fence gap at (17, 7).
+- Location: Saffron City at (25, 12) -> Right to Col 28 -> Up to Row 7 -> West through (17, 7) fence gap to West Saffron.
 - Primary Goal: Travel to Route 16 to awaken Snorlax with Poké Flute and obtain HM02 Fly.
 - Secondary Goal: Defeat Gym Leader Erika at Celadon Gym for the Rainbow Badge.
 - Active Strategy: Exit Mart -> Col 24 to Row 7 -> Pass through (17, 7) fence gap -> West Gatehouse -> Route 7 -> Celadon -> Route 16 -> Use Poké Flute on Snorlax -> Obtain HM02 Fly!
