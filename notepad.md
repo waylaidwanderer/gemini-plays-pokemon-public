@@ -749,11 +749,11 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 54691)
-- Location: Game Corner North Wall at (10, 5).
+## CURRENT STATUS & DASHBOARD (Turn 54701)
+- Location: Secret Staircase at (17, 5) in Celadon Game Corner.
 - Primary Goal: Infiltrate Main Rocket Hideout in Celadon City to obtain Silph Scope.
-- Secondary Goal: Defeat Rocket Grunt at (9, 5) and flip secret poster switch at (9, 4).
-- Active Strategy: Finish battle against Rocket Grunt (SHELLSHOCK vs Zubat Lv. 20) -> Grunt flees -> Interact with poster at (9, 4) -> Flip switch to reveal stairs -> Descend to Rocket Hideout B1F.
+- Secondary Goal: Infiltrate Rocket Hideout B1F and find stairs to B2F.
+- Active Strategy: Step Up onto (17, 4) staircase -> Enter Rocket Hideout B1F -> Navigate corridors, defeat Rocket Grunts, and locate stairs to B2F.
 - Note: Celadon Pokémon Center registered as Teleport anchor. LUNA (Clefable) knows Teleport (TM30); SHELLSHOCK knows Dig; CUTTER knows Cut.
 
 <hr>
@@ -1023,7 +1023,7 @@ Systematically probe every potential building doorway and alleyway warp in South
 
 ## Casino Floor & Secret Hideout Access
 - Entrance/Exit Mat: Located at (15, 17) and (16, 17) in Main Game Corner.
-- North Wall Poster Switch: Located on North Wall at (9, 4), guarded by Rocket Grunt at (9, 5). Defeating Grunt and pressing A reveals secret staircase to Rocket Hideout B1F.
+- North Wall Poster Switch: Located on North Wall at (9, 4), guarded by Rocket Grunt at (9, 5). Defeating Grunt and pressing A reveals secret staircase to Rocket Hideout B1F at (17, 4).
 - Row 5 Corridor (x=8..19, y=5): Open horizontal cross-aisle providing direct access to the Grunt at (9, 5) and poster at (9, 4).
 - Safe Floor Corridors: Row 8 (x=11..19, y=8) is an open horizontal cross-aisle; Column 11 (y=5..8) connects Row 8 to Row 5.
 
