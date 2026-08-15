@@ -1,7 +1,10 @@
 # Current Party & Team Strategy
 
 ## Active Party
-(None yet - about to choose starter in Pallet Town)
+1. HYDROS (Squirtle) - Lv 5
+   - Type: Water
+   - Moves: Tackle, Tail Whip
+   - Role: Starter & primary Water/Ice special attacker
 
 ## Starter Choice Considerations
 - Bulbasaur: Strong early game (Brock, Misty, Surge resist), Leech Seed + Toxic bug in Gen 1, Sleep Powder, Razor Leaf high crit rate.
