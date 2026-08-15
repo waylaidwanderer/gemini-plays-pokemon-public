@@ -11,104 +11,33 @@ def get_pos():
         return None
     return pos[0], pos[1]
 
-def handle_textbox_or_battle():
-    print("Coordinates are None. Handling potential battle or dialog...")
-    # Clear text boxes with B
-    for _ in range(5):
-        bridge.press_buttons(["B", "sleep 150"])
-    
-    # Try to RUN
-    print("Attempting to RUN from battle...")
-    bridge.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 1000"])
-    
-    # Clear post-flee text
-    for _ in range(3):
-        bridge.press_buttons(["B", "sleep 150"])
-        
-    pos = get_pos()
-    print(f"Coordinates after battle handling: {pos}")
-    return pos
-
-def walk_step_robust(direction):
-    pos = get_pos()
-    if pos is None:
-        return handle_textbox_or_battle()
-        
-    print(f"Walking {direction} from {pos}")
-    bridge.press_buttons([direction, "sleep 450"])
-    
-    new_pos = get_pos()
-    if new_pos is None:
-        return handle_textbox_or_battle()
-        
-    if new_pos != pos:
-        return new_pos
-        
-    print("Position didn't change, pressing B...")
-    bridge.press_buttons(["B", "sleep 200"])
-    new_pos = get_pos()
-    if new_pos is None:
-        return handle_textbox_or_battle()
-    if new_pos != pos:
-        return new_pos
-        
-    return handle_textbox_or_battle()
-
-def navigate_to(tx, ty):
-    stuck_count = 0
-    while True:
-        pos = get_pos()
-        if pos is None:
-            handle_textbox_or_battle()
-            continue
-            
-        if pos == (tx, ty):
-            print(f"Arrived at waypoint ({tx}, {ty})")
-            break
-            
-        print(f"Current: {pos}, Target: ({tx}, {ty})")
-        if pos[0] < tx:
-            direction = "Right"
-        elif pos[0] > tx:
-            direction = "Left"
-        elif pos[1] < ty:
-            direction = "Down"
-        elif pos[1] > ty:
-            direction = "Up"
-            
-        new_pos = walk_step_robust(direction)
-        if new_pos == pos:
-            stuck_count += 1
-            if stuck_count > 3:
-                print("Stuck! Clearing with B...")
-                bridge.press_buttons(["B", "sleep 500"])
-                stuck_count = 0
-        else:
-            stuck_count = 0
-        time.sleep(0.4)
-
 def main():
+    print("Talking to Gatekeeper clerk...")
+    # Walk to (3, 2)
+    # Since we are at (3, 5), walk UP 3 steps
+    bridge.press_buttons(["Up", "sleep 450", "Up", "sleep 450", "Up", "sleep 450"])
+    
+    # Talk to clerk (A)
+    bridge.press_buttons(["A", "sleep 1000"])
+    
+    # Yes to "join the hunt for 500?" (A)
+    bridge.press_buttons(["A", "sleep 1200"])
+    
+    # Progress dialogue text:
+    # "That'll be 500 please!" (A or B)
+    # "We only use special SAFARI BALLS." (A or B)
+    # "ACE received 30 SAFARI BALLS!" (A or B)
+    # "We'll call you when you run out of time or SAFARI BALLS!" (A or B)
+    # "Best of luck!" (A or B)
+    for _ in range(8):
+        bridge.press_buttons(["A", "sleep 800"])
+        
+    time.sleep(2.0)
     pos = get_pos()
-    print(f"Starting Phase 3 from: {pos}")
+    print(f"Position after Gatekeeper transaction: {pos}")
     
-    # We are currently at (37, 2). Walk to (22, 2).
-    print("Walking LEFT to (22, 2)...")
-    navigate_to(22, 2)
-    
-    # Walk DOWN to Row 4: (22, 4)
-    print("Walking DOWN to Row 4...")
-    navigate_to(22, 4)
-    
-    # Walk LEFT to (18, 4)
-    print("Walking LEFT to (18, 4)...")
-    navigate_to(18, 4)
-    
-    # Step into Gatehouse at (18, 3)
-    print("Stepping into Safari Gatehouse...")
-    bridge.press_buttons(["Up", "sleep 1500"])
-    
-    pos = get_pos()
-    print(f"Phase 3 complete! Final position: {pos}")
+    img = mgba.take_screenshot()
+    print(f"Screenshot: {img}")
 
 if __name__ == "__main__":
     main()
