@@ -1338,10 +1338,15 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 
 ## NPCs & Grunts
 - Grunt: Located at (23, 12) near the elevator area.
+- Lift Key Grunt: Located at (11, 2) in Northwest Computer Room.
+
+## Items & Pickups
+- Floor Item: Located at (9, 4) in Northwest Room.
 
 ## Objectives
-- Explore B4F to locate the Rocket Grunt holding the LIFT KEY.
-- Obtain Lift Key -> Access elevator / Giovanni's chamber.
+- Defeat Lift Key Grunt at (11, 2) and pick up the LIFT KEY (dropped upon defeat).
+- Collect item at (9, 4).
+- Use Lift Key in Elevator to reach Giovanni's Chamber.
 - Defeat Giovanni and obtain the SILPH SCOPE!
 
 <hr>
