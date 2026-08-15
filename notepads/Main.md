@@ -1,7 +1,7 @@
 # Pokémon Blue - Main Dashboard
 
 ## Current Status
-- Player: Red/Blue (Intro in progress)
+- Player: BLUE (Intro in progress)
 - Badges: 0/8
 - Location: Intro Sequence (Pallet Town)
 - Current Objective: Complete intro, meet Oak, choose starter Pokémon
