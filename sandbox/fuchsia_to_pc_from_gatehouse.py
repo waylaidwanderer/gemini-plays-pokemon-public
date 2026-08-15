@@ -76,8 +76,7 @@ def use_cut():
     bridge.press_buttons(["Down", "sleep 200", "Down", "sleep 200", "A", "sleep 800"])
     # TRUFFLE (Paras) is Pokémon 2. Move Down once, then A
     bridge.press_buttons(["Down", "sleep 200", "A", "sleep 600"])
-    # Select CUT (which is the first option for Paras if they know CUT)
-    # Wait, Paras knows CUT! So CUT is the first option.
+    # Select CUT
     bridge.press_buttons(["A", "sleep 2000"])
     
     # Progress text "TRUFFLE hacked away with CUT!"
@@ -87,16 +86,8 @@ def use_cut():
     time.sleep(1.0)
 
 def main():
-    print("Walking from Safari Gatehouse exit to PC...")
+    print("Walking from Safari Gatehouse exit to the regrown bush at (26, 12)...")
     
-    # 1. Exit Gatehouse completely (we are currently inside, let's walk Down)
-    pos = get_pos()
-    if pos is not None and pos[1] == 4 and pos[0] == 4:
-        # We are at (4, 4) inside the Gatehouse. Let's walk Down to exit
-        print("Stepping Down to exit Gatehouse...")
-        bridge.press_buttons(["Down", "sleep 1200"])
-        time.sleep(1.0)
-        
     pos = get_pos()
     print(f"Emerged in Fuchsia City at: {pos}")
     
@@ -115,28 +106,7 @@ def main():
         
     # Cut the bush
     use_cut()
-    
-    # Continue to Pokémon Center
-    pc_waypoints = [
-        (26, 14), # Walk through cut bush
-        (22, 14),
-        (22, 21),
-        (24, 21),
-        (24, 28),
-        (19, 28),
-        (19, 27) # Outside Pokémon Center door
-    ]
-    
-    for wp in pc_waypoints:
-        navigate_to(wp[0], wp[1])
-        
-    # Enter Pokémon Center
-    print("Entering Pokémon Center...")
-    walk_step_robust("Up")
-    time.sleep(1.5)
-    
-    pos = get_pos()
-    print(f"Inside Pokémon Center: {pos}")
+    print("Phase 1 complete.")
 
 if __name__ == "__main__":
     main()
