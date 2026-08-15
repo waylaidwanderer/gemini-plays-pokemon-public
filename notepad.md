@@ -1,12 +1,12 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 55381)
-- Location: Pokémon Tower 2F at (3, 9) [Full party healed; ascending to 7F].
+## CURRENT STATUS & DASHBOARD (Turn 55411)
+- Location: Pokémon Tower 4F at (6, 7) [In wild battle; heading to 5F Purified Zone].
 - Primary Goal: Clear Pokémon Tower in Lavender Town to rescue Mr. Fuji and obtain Poké Flute.
-- Secondary Goal: Ascend to Pokémon Tower 7F and defeat 3 Team Rocket Grunts.
-- Active Strategy: Full HP team with Lv54 Blastoise -> Ascend 2F -> 3F -> 4F -> 5F -> 6F -> 7F -> Sweep 3 Rocket Grunts -> Rescue Mr. Fuji -> Receive Poké Flute!
+- Secondary Goal: Ascend to 5F Purified Zone at (11, 9) to revive and full-heal Lv54 Blastoise, then climb to 7F.
+- Active Strategy: Flee battle -> Walk (6, 7) Down to (6, 8) -> Left to (3, 8) -> Down to (3, 9) 5F stairs -> Enter Purified Zone at (11, 9) on 5F -> Full party revived & healed -> Climb 6F -> 7F -> Sweep 3 Rocket Grunts with Blastoise Lv54 -> Rescue Mr. Fuji -> Receive Poké Flute!
 - Key Items: SILPH SCOPE [ACQUIRED & VERIFIED], LIFT KEY [ACQUIRED], TM07 Horn Drill [ACQUIRED], BICYCLE [EQUIPPED].
-- Party Status: SHELLSHOCK (Blastoise Lv54, HP 189/189), BRUDF (Hitmonlee Lv30, HP 73/73), LUNA (Clefable Lv11, HP 40/40), CUTTER (Paras Lv14, HP 39/39), SPROUT (Bellsprout Lv15, HP 40/40).
+- Party Status: SHELLSHOCK (Blastoise Lv54, FNT [Will revive at 5F Purified Zone]), LUNA (Clefable Lv11, HP 40/40), CUTTER (Paras Lv14, HP 39/39), SPROUT (Bellsprout Lv15, HP 40/40), BRUDF (Hitmonlee Lv30, HP 65/73).
 
 <hr>
 
@@ -1499,15 +1499,20 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 - Staircase (Down to 3F): Located at (18, 9) on the East wall.
 - Staircase (Up to 5F): Located at (3, 9) on the West wall.
 
-## Floor Layout & Corridors
+## Floor Layout & Verified Corridors
 - East Wing Landing: (18, 9) down-stairs landing.
-- Row 9 / Row 8 Main Highway: Open diamond grid floor extending West across Columns 18..3.
-- Tombstone Clusters: Located along Rows 6, 10, 11, 12, 13 across middle columns.
+- North Corridor (Row 6): Spans Columns 6..9 and 11..14 connecting east to west.
+- Row 8 Bypass: Open diamond floor at (3..6, 8) and (7..9, 8).
+- South Corridor (Row 12): Open diamond floor across Columns 7..10 connecting south aisles.
+- Tombstone Clusters: Located at (12..13, 9), (10, 8), (8..9, 9), (8..9, 7), (6, 6).
+- Item Balls: Located at (9, 10) and (12, 10).
+
+## Verified Safe Route to 5F Stairs (3, 9)
+- From East Stairs (18, 9): Walk West along Row 9 to (14, 9) -> Up to (14, 8) -> Left to (11, 8) -> Down to (11, 9) -> Left to (10, 9) -> Down to (10, 12) -> Left to (7, 12) -> Up to (7, 8) -> Left to (3, 8) -> Down to (3, 9) 5F Stairs!
 
 ## NPCs & Trainers
-- Channeler: Located at (15, 7) / (15, 8). Gastly Lv23, Gastly Lv23. Defeated Turn 55112.
-- Channeler / NPC: Located at (14, 12).
-
+- Channeler: Located at (15, 8). Defeated Turn 55112.
+- Channeler: Located at (6, 10). Defeated Turn 55121.
 
 <hr>
 
