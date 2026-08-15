@@ -38,11 +38,11 @@ def walk_step_robust(direction):
     return new_pos
 
 def main():
-    # Start at current position (9, 23)
+    # Start at current position (13, 24)
     pos = get_pos()
-    print(f"Starting systematic search from current pos: {pos}")
+    print(f"Starting search for Columns 14-17 from current pos: {pos}")
     
-    for col in range(10, 18):
+    for col in range(14, 18):
         pos = get_pos()
         print(f"\n--- TESTING COLUMN {col} at {pos} ---")
         
@@ -77,7 +77,7 @@ def main():
         else:
             print(f"Blocked at Row 23 -> 24 on Column {col}.")
             
-    print("Search finished, no open column found between 10 and 17.")
+    print("Search finished, no open column found between 14 and 17.")
 
 if __name__ == "__main__":
     main()
