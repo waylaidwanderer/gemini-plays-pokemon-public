@@ -21,35 +21,28 @@ def try_move(direction):
     return True, new_pos
 
 def main():
-    print("Probing west of Column 19...")
-    # Stand at (19, 24)
-    # Walk UP to (19, 23)
-    walk_step_robust("Up")
-    print(f"Current: {get_pos()}")
-    
-    # Walk LEFT to Column 15 on Row 23
+    print("Probing northern path around the pond...")
+    # Stand at (9, 14)
+    # Walk LEFT to Column 5
     for _ in range(4):
         walk_step_robust("Left")
-    print(f"Current at Column 15 Row 23: {get_pos()}")
+    print(f"Current at Column 5 Row 14: {get_pos()}")
     
-    # Walk DOWN to Row 24
-    walk_step_robust("Down")
-    print(f"Current at Column 15 Row 24: {get_pos()}")
-    
-    # Probe DOWN to Row 25
-    success, p = try_move("Down")
-    if success:
-        print(f"SUCCESS! Walked DOWN to {p}")
-        # Probe DOWN further
-        success2, p2 = try_move("Down")
-        if success2:
-            print(f"SUCCESS! Walked DOWN to {p2}")
-            walk_step_robust("Up")
+    # Walk UP Column 5 to Row 8
+    for _ in range(6):
         walk_step_robust("Up")
-    else:
-        print(f"DOWN is BLOCKED at Column 15")
+    print(f"Current at Column 5: {get_pos()}")
+    
+    # Try to walk RIGHT to see how far we can go
+    print("Probing RIGHT...")
+    for col in range(5, 30):
+        success, p = try_move("Right")
+        if not success:
+            print(f"Blocked at {get_pos()}")
+            break
+        print(f"Walked Right to {p}")
         
-    print(f"Final probe position: {get_pos()}")
+    print(f"Final position: {get_pos()}")
 
 if __name__ == "__main__":
     main()
