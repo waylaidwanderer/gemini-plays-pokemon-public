@@ -91,12 +91,12 @@ def use_cut_robust():
     print("Executing CUT on bush at (26, 13)...")
     # Open Start menu
     bridge.press_buttons(["Start", "sleep 500"])
-    # Align to POKÉDEX
+    # Align to POKÉDEX (press UP 6 times to wrap/ensure starting point)
     for _ in range(6):
         bridge.press_buttons(["Up", "sleep 150"])
     # Select POKÉMON (Down once from POKÉDEX, A)
     bridge.press_buttons(["Down", "sleep 300", "A", "sleep 1200"])
-    # Select TRUFFLE slot 2 (assuming cursor starts on slot 1, press Down once, A)
+    # Select TRUFFLE slot 2 (press Down once, A)
     bridge.press_buttons(["Down", "sleep 300", "A", "sleep 800"])
     # Select CUT (first option in menu, press A)
     bridge.press_buttons(["A", "sleep 3000"])
@@ -106,54 +106,34 @@ def use_cut_robust():
 
 def main():
     pos = get_pos()
-    print(f"Starting end-to-end teeth run from: {pos}")
+    print(f"Starting Phase 1 from: {pos}")
     
-    if pos == (5, 5):
-        # We are inside the Pokemon Center. Walk to the exit mat.
-        print("Walking to exit...")
-        navigate_to(3, 5)
-        navigate_to(3, 7)
-        # Take the step down to exit
-        print("Stepping out of Pokemon Center...")
-        bridge.press_buttons(["Down", "sleep 1500"])
-        
-    pos = get_pos()
-    print(f"Coordinates outside: {pos}")
+    # Walk around the horizontal fence:
+    # 1. Left to Column 24
+    # 2. Up to Row 21
+    # 3. Left to Column 22
+    # 4. Up to Row 14
+    # 5. Right to Column 26 (standing directly below the bush at 26,13)
+    print("Navigating to Cut-able bush at (26, 14)...")
+    navigate_to(24, 30)
+    navigate_to(24, 21)
+    navigate_to(22, 21)
+    navigate_to(22, 14)
+    navigate_to(26, 14)
     
-    # 2. Walk to Cut-able bush at (26, 14)
-    if pos is not None and pos[0] < 26:
-        print("Navigating to Cut-able bush...")
-        navigate_to(19, 30)
-        navigate_to(26, 30)
-        navigate_to(26, 14)
-        
     # We should be standing at (26, 14) facing UP. Use CUT.
     pos = get_pos()
     if pos == (26, 14):
         use_cut_robust()
         
-    # Walk through the cut path
+    # Walk through the cut path to (26, 9)
     pos = get_pos()
     if pos == (26, 14):
         print("Walking UP past the cut bush...")
         navigate_to(26, 9)
         
-    # Walk to the Safari Gatehouse at (18, 3)
     pos = get_pos()
-    if pos is not None and pos[1] == 9:
-        print("Walking to Safari Gatehouse...")
-        navigate_to(19, 9)
-        navigate_to(19, 8)
-        navigate_to(37, 8)
-        navigate_to(37, 2)
-        navigate_to(22, 2)
-        navigate_to(22, 4)
-        navigate_to(18, 4)
-        print("Stepping into Safari Gatehouse...")
-        bridge.press_buttons(["Up", "sleep 1500"])
-
-    pos = get_pos()
-    print(f"Position in Safari Gatehouse: {pos}")
+    print(f"Phase 1 complete! Final position: {pos}")
 
 if __name__ == "__main__":
     main()
