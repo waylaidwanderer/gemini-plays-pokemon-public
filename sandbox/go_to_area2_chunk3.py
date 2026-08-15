@@ -71,13 +71,8 @@ def walk_path(path_steps):
             time.sleep(0.5)
 
 def main():
-    # Clear "Got away safely!"
-    print("Clearing initial text box...")
-    bridge.press_buttons(["B", "sleep 300"])
-    
-    # Starting at (8, 8) in Area 1 (East)
+    # Starting at (12, 8) in Area 1 (East)
     path = (
-        ["Right"] * 4 +
         ["Up"] * 2 +
         ["Right"] * 5 +
         ["Down"] * 2 +
