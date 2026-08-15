@@ -1,4 +1,8 @@
 import time
+import sys
+import os
+
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 import bridge
 
 def get_pos():
@@ -7,50 +11,52 @@ def get_pos():
         return None
     return pos[0], pos[1]
 
-def walk_step_robust(direction):
+def walk(direction):
+    print(f"Pressing {direction}...")
+    res = bridge.press_buttons([direction, "sleep 500"])
     pos = get_pos()
-    bridge.press_buttons([direction, "sleep 450"])
-    new_pos = get_pos()
-    return new_pos
-
-def try_move(direction):
-    pos = get_pos()
-    new_pos = walk_step_robust(direction)
-    if new_pos == pos:
-        return False, new_pos
-    return True, new_pos
+    print(f"Resulting pos: {pos}")
+    return pos
 
 def main():
-    print("Probing east side of Area 3 (West)...")
-    # Stand at (19, 24)
-    # Walk UP to (19, 23)
-    walk_step_robust("Up")
-    print(f"Current: {get_pos()}")
+    pos = get_pos()
+    print(f"Starting east probe from {pos}")
     
-    # Walk RIGHT to Column 29
+    # We are at (17, 19). Walk RIGHT to Column 27
     for _ in range(10):
-        walk_step_robust("Right")
-    print(f"Current at Column 29: {get_pos()}")
-    
-    # Now probe DOWN from (29, 23) to see if we can reach Row 26!
-    success, p = try_move("Down")
-    if success:
-        print(f"SUCCESS! Walked DOWN to {p}")
-        # Try to walk down more to Row 26
-        success2, p2 = try_move("Down")
-        if success2:
-            print(f"SUCCESS! Walked DOWN to {p2}")
-            success3, p3 = try_move("Down")
-            if success3:
-                print(f"SUCCESS! Walked DOWN to {p3}")
-            else:
-                print("DOWN blocked at Row 25")
+        pos = walk("Right")
+        if pos is None:
+            return
+            
+    # Now try going RIGHT to Column 31 and checking if we can walk DOWN at any column (27, 28, 29, 30, 31)
+    for col in range(27, 32):
+        print(f"Checking column {col} for DOWN passage...")
+        # Make sure we are at (col, 19)
+        while pos[0] < col:
+            pos = walk("Right")
+        while pos[0] > col:
+            pos = walk("Left")
+            
+        # Try walking DOWN
+        down_pos = walk("Down")
+        if down_pos is not None and down_pos[1] > 19:
+            print(f"Column {col} is OPEN going DOWN! Walked to {down_pos}")
+            # Try to walk down to Row 31
+            for _ in range(12):
+                old_y = down_pos[1]
+                down_pos = walk("Down")
+                if down_pos is None or down_pos[1] == old_y:
+                    print(f"Blocked at {down_pos}")
+                    break
+            if down_pos is not None and down_pos[1] >= 31:
+                print(f"SUCCESS! Reached Row 31 on Column {col}!")
+                return
+            # Walk back UP to Row 19 to continue probing
+            while down_pos[1] > 19:
+                down_pos = walk("Up")
+            pos = down_pos
         else:
-            print("DOWN blocked at Row 24")
-    else:
-        print("DOWN blocked at Row 23")
-        
-    print(f"Final probe position: {get_pos()}")
+            print(f"Column {col} is BLOCKED going DOWN")
 
 if __name__ == "__main__":
     main()
