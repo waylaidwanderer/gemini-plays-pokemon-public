@@ -63,18 +63,16 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - **Signpost at (24, 22):** Reads "AREA 3 EAST: CENTER AREA" (Turn 27655).
 
 ### 🔍 Verified Area 3 (West) Landmarks & Paths
-
-- **Gold Teeth:** Located at `(19, 25)` on the southern ground level. The overworld item ball is physically present and solid, and is retrieved by standing at `(19, 26)` facing UP and pressing A.
+- **Gold Teeth:** Located at `(19, 25)` on the southern ground level. The overworld item ball is physically present and solid, and can be retrieved by standing at `(19, 26)` facing UP and pressing A.
 - **Rest House 3:** Located on the western ground level. The verified entrance door (doormat) is at `(11, 11)`. Inside is a Hiker NPC who gives standard Hiker dialogue (Rest House 3 does NOT contain Surf).
 - **The Secret House:** Located in the isolated northwest ground section of Area 3 (West). The entrance door is at `(3, 8)`. The player can only reach this section by entering through the southwest ground-level transition of Area 2 (North) at `(4, 36)`. Inside the Secret House is the NPC who gives HM03 (Surf) at `(2, 7)`.
 - **Southwest Area:** Walked Column 3 from Row 20 up to Row 14 (`(3, 20)` to `(3, 14)`), proving `(3, 19)` and `(3, 18)` are walkable grass/trees with NO secret warp or door.
+- **Southern Passage Access:** The southern ground level (containing Row 24-28) is accessed from Column 21 on the east side. Walk south past the East Stairs on Column 21 to Row 24, and then walk west.
 - **The Row 26 Highway:** Row 26 is completely open and serves as a horizontal ground-level path connecting the eastern area (Column 19/21) to the western area (Columns 3-10), bypassing the hedge barriers on Rows 24 and 25.
 
 ## Area 1 (East) Detailed Overworld Layout & Barriers
 
 ### Vertical & Horizontal Barriers
-- **Column 6 Rhydon Statue Barrier:** Grey Rhydon statues at `(6, 22)` and `(6, 23)` completely block ground-level horizontal crossing on Row 22. (Requires detour DOWN to Row 24).
-- **Column 5 Row 23 Wall:** Solid fence/wall tile at `(5, 23)` blocks DOWN passage on Column 5. (Requires detour LEFT to Column 4).
 - **Column 6 Rhydon Statue Barrier:** Grey Rhydon statues at `(6, 22)` and `(6, 23)` completely block ground-level horizontal crossing on row 22.
 - **Western Row 6 Tree Barrier:** A continuous vertical barrier of trees at columns 0-10 on row 6, blocking all direct northern traversal on the west ground level.
 - **Row 12 NPC Block:** A stationary NPC at `(15, 12)` completely blocks row 12 ground traversal, making it impossible to walk directly from the west ground to the east ground on rows 12-13.
@@ -175,8 +173,3 @@ We have empirically verified that Column 28 is 100% OPEN and walkable on Rows 12
 - **Area 3 (West) to Safari Zone Center direct warp:** Emerge at (30, 23) in Area 3 (West), walk RIGHT 1 step to transition directly to (0, 11) in Safari Zone Center.
 - **Safari Zone Center to Area 3 (West) direct warp:** Stand at (0, 11) in Safari Zone Center, walk LEFT 1 step to transition directly to (29, 23) in Area 3 (West).
 - This shortcut completely bypasses the Area 1 (East) and Area 2 (North) plateau detours for subsequent trips once inside the Northwest Compartment of Safari Zone Center.
-## 🧪 Newly Verified Physical Barriers & Shrub Blockages (Turns 40126 - 40291)
-- **Column 15 Shrub Block (Area 3 West):** Solid green checkerboard shrub located at `(15, 25)` completely blocks horizontal/vertical passage on Column 15. The '100% Battle-Free' Column 15 path is physically blocked by this shrub.
-- **Row 24/25 Eastern Shrub Block (Area 3 West):** Solid green shrubs run horizontally on Row 24/25 across Column 18 and Columns 20-22, completely blocking downward ground-level passage to Row 26.
-- **Column 19 Ground Path (Area 3 West):** Column 19 is open to Row 24, but is blocked at `(19, 25)` by the solid Gold Teeth item ball itself. It cannot be crossed from north to south.
-- **Accessing Row 26 (Area 3 West):** The southern ground-level Row 26 Highway must be approached by descending the plateau West Stairs at `(6, 19)` onto the western ground grass (Columns 2-9), and walking down/east from the west side, completely bypassing the blocked eastern passage.
