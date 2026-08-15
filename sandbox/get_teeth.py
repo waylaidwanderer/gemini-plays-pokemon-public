@@ -7,78 +7,68 @@ def get_pos():
         return None
     return pos[0], pos[1]
 
-def run_away():
-    print("Attempting to run away from battle...")
-    # Clear any battle start text first
-    bridge.press_buttons(["B", "sleep 300", "B", "sleep 300", "B", "sleep 300"])
-    # Press Down, Right, A to select RUN
-    bridge.press_buttons(["Down", "Right", "A", "sleep 500"])
+def handle_textbox_or_battle():
+    print("No movement detected. Checking for text box or battle...")
+    # First, try to clear any dialogue text with B
+    bridge.press_buttons(["B", "sleep 200", "B", "sleep 200"])
+    
+    # Try to flee: press Down, then A
+    print("Attempting to run from battle...")
+    bridge.press_buttons(["Down", "sleep 100", "A", "sleep 1000"])
+    
+    # Check if we are back in the overworld
+    pos = get_pos()
+    print(f"Coordinates after flee attempt: {pos}")
+    return pos
 
-def walk_step(direction):
-    print(f"Stepping {direction}...")
-    bridge.press_buttons([direction, "sleep 300"])
+def walk_step_robust(direction):
+    pos = get_pos()
+    if pos is None:
+        return None
+        
+    print(f"Walking {direction} from {pos}")
+    bridge.press_buttons([direction, "sleep 350"])
+    
+    new_pos = get_pos()
+    if new_pos is None:
+        return handle_textbox_or_battle()
+        
+    if new_pos != pos:
+        return new_pos
+        
+    # If position is same, wait a bit and check again
+    time.sleep(1.0)
+    new_pos = get_pos()
+    if new_pos == pos:
+        return handle_textbox_or_battle()
+    return new_pos
 
-def navigate_path(path):
-    for target in path:
-        tx, ty = target
-        print(f"Navigating to target: ({tx}, {ty})")
-        while True:
-            pos = get_pos()
-            if pos is None:
-                # We might be in a transition or battle where coordinates are None
-                run_away()
-                continue
+def main():
+    # Target path from (29, 23)
+    # 1. Right to (30, 23)
+    # 2. Down 3 steps to (30, 26)
+    # 3. Left 11 steps to (19, 26)
+    path = ["Right"] + ["Down"] * 3 + ["Left"] * 11
+    
+    idx = 0
+    while idx < len(path):
+        pos = get_pos()
+        if pos is None:
+            handle_textbox_or_battle()
+            continue
             
-            cx, cy = pos
-            if cx == tx and cy == ty:
-                print(f"Arrived at ({tx}, {ty})")
-                break
-                
-            dx = tx - cx
-            dy = ty - cy
-            
-            # Decide direction
-            if dx > 0:
-                dir_btn = "Right"
-            elif dx < 0:
-                dir_btn = "Left"
-            elif dy > 0:
-                dir_btn = "Down"
-            elif dy < 0:
-                dir_btn = "Up"
+        print(f"Path step {idx+1}/{len(path)}: currently at {pos}, target direction {path[idx]}")
+        new_pos = walk_step_robust(path[idx])
+        if new_pos is not None:
+            # Check if we actually made progress in the expected direction
+            # If we transitioned to a new position, advance the path
+            if new_pos != pos:
+                idx += 1
             else:
-                break
-                
-            # Try to walk
-            walk_step(dir_btn)
-            
-            # Check if we moved
-            new_pos = get_pos()
-            if new_pos is None:
-                run_away()
-                continue
-                
-            ncx, ncy = new_pos
-            if ncx == cx and ncy == cy:
-                # We didn't move! We might be in a battle or blocked
-                print("Coordinates did not change. Possible battle or block. Attempting to run/clear...")
-                run_away()
-                # Check again after trying to run
-                after_run_pos = get_pos()
-                if after_run_pos == pos:
-                    # Still didn't move, we are likely blocked by collision!
-                    print(f"BLOCKED! Stalled at ({cx}, {cy}) trying to go {dir_btn}")
-                    return False
+                print("Step failed, retrying...")
+        time.sleep(0.5)
+        
+    print(f"Arrived at destination! Final coordinates: {get_pos()}")
 
-    return True
-
-# Define path to the Gold Teeth (stand at 19, 26 facing UP to the teeth at 19, 25)
-path = [(24, 18), (21, 18), (21, 26), (19, 26)]
-success = navigate_path(path)
-if success:
-    print("Path navigation complete. Facing UP to retrieve teeth...")
-    # Turn UP and press A to pick up the Gold Teeth
-    bridge.press_buttons(["Up", "sleep 300", "A", "sleep 500", "A", "sleep 500"])
-    print("Gold Teeth retrieval attempted!")
-else:
-    print("Failed to reach the Gold Teeth path.")
+if __name__ == "__main__":
+    main()
