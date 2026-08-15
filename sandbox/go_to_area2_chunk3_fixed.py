@@ -71,16 +71,11 @@ def walk_path(path_steps):
             time.sleep(0.5)
 
 def main():
-    # Starting at (12, 3) inside Area 1 (East)
-    # This corrected path walks back to Column 20, down to Row 8, across the plateau to the west, 
-    # down to Column 8, up Column 8 to the open Row 5 corridor, and left to transition to Area 2 (North).
+    # Starting at (12, 8) inside Area 1 (East)
+    # 1. Walk LEFT 4 steps to (8, 8)
+    # 2. Walk UP 3 steps to (8, 5)
+    # 3. Walk LEFT 8 steps to (0, 5) (transition to Area 2)
     path = (
-        ["Right"] * 8 +
-        ["Down"] * 5 +
-        ["Left"] * 3 +
-        ["Up"] * 2 +
-        ["Left"] * 5 +
-        ["Down"] * 2 +
         ["Left"] * 4 +
         ["Up"] * 3 +
         ["Left"] * 8
@@ -89,7 +84,7 @@ def main():
     walk_path(path)
     time.sleep(2.0)
     pos = get_pos()
-    print(f"Final position at end of Chunk 3: {pos}")
+    print(f"Final position at end of Phase 2: {pos}")
 
 if __name__ == "__main__":
     main()
