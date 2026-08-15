@@ -84,10 +84,16 @@ def navigate_to(tx, ty):
         time.sleep(0.4)
 
 def main():
-    # Starting at (39, 31) in Area 2 (North)
+    # Starting at (22, 30) after fleeing Nidorina in Area 2 (North)
+    # We must first press B to clear the 'Got away safely!' text if needed
+    pos = get_pos()
+    if pos is None:
+        print("Clearing initial text box...")
+        bridge.press_buttons(["B", "sleep 300"])
+        time.sleep(1.0)
+        
     waypoints = [
-        (22, 31),  # Left 17 steps along Row 31 to Column 22
-        (22, 22),  # Up 9 steps along Column 22 (climbing stairs at 22,23)
+        (22, 22),  # Up 8 steps along Column 22 (climbing stairs at 22,23)
         (16, 22),  # Left 6 steps on the plateau
         (16, 28),  # Down 6 steps (descending stairs at 16,27) to grass
         (12, 28),  # Left 4 steps
@@ -97,14 +103,14 @@ def main():
         (8, 36)    # Down 1 step to Transition to Area 3 (West)
     ]
     
-    print("Executing Safari Chunk 4: Area 2 (North) to Area 3 (West)...")
+    print("Executing Safari Chunk 4 Resume: Area 2 (North) to Area 3 (West)...")
     for i, wp in enumerate(waypoints, 1):
         pos = get_pos()
         if pos is None:
-            print("Map changed, stopping script.")
+            print("Map changed or battle occurred, stopping script.")
             break
-        # If map transitions to Area 3, coordinates will change to Area 3 coordinates (like x=26, y=0)
-        if pos[1] < 5 and pos[0] < 30 and pos[0] > 10:
+        # If map transitions to Area 3, coordinates will wrap to Area 3 coordinates (like x=26, y=0)
+        if pos[0] < 30 and pos[0] > 10 and pos[1] < 5:
             print("Successfully inside Area 3 (West)!")
             break
         print(f"\n--- WAYPOINT {i}/{len(waypoints)}: {wp} ---")
@@ -112,7 +118,7 @@ def main():
         
     time.sleep(2.0)
     pos = get_pos()
-    print(f"Final position at end of Chunk 4: {pos}")
+    print(f"Final position at end of Chunk 4 Resume: {pos}")
 
 if __name__ == "__main__":
     main()
