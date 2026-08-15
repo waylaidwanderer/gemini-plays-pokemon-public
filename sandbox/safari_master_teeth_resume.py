@@ -94,19 +94,30 @@ def main():
     
     # Step 1: Traverse Area 2 (North)
     waypoints_area2 = [
-        (22, 31),  # Left along southern corridor Row 31
-        (22, 22),  # Up to climb Western Southern Plateau stairs to Row 22
-        (16, 22),  # Left on plateau Row 22 to Column 16
-        (16, 28),  # Down to descend stairs to Row 28
-        (12, 28),  # Left along Row 28 to Column 12
-        (12, 30),  # Down Column 12 to Row 30 (bypasses pond)
-        (8, 30),   # Left along Row 30 to Column 8
-        (8, 35),   # Down Column 8 past statue gap to Row 35
-        (8, 36)    # Down 1 step (enters Area 3 West)
+        (22, 31),  # 0: Left along southern corridor Row 31
+        (22, 22),  # 1: Up to climb Western Southern Plateau stairs to Row 22
+        (16, 22),  # 2: Left on plateau Row 22 to Column 16
+        (16, 28),  # 3: Down to descend stairs to Row 28
+        (12, 28),  # 4: Left along Row 28 to Column 12
+        (12, 30),  # 5: Down Column 12 to Row 30 (bypasses pond)
+        (8, 30),   # 6: Left along Row 30 to Column 8
+        (8, 35),   # 7: Down Column 8 past statue gap to Row 35
+        (8, 36)    # 8: Down 1 step (enters Area 3 West)
     ]
     
+    start_idx = 0
+    if pos is not None:
+        # Check if we are past the plateau (x <= 16 and y >= 27)
+        if pos[0] <= 16 and pos[1] >= 27:
+            start_idx = 4  # Resume to (12, 28)
+            print(f"Resuming to waypoint {start_idx} (target: (12, 28)) since we are past the plateau at {pos}")
+        elif pos[1] == 22 and 16 <= pos[0] <= 22:
+            start_idx = 2  # Resume to (16, 22)
+            print(f"Resuming to waypoint {start_idx} (target: (16, 22)) since we are on plateau at {pos}")
+            
     print("\n=== PHASE 1: NAVIGATING AREA 2 (NORTH) TO AREA 3 (WEST) ===")
-    for wp in waypoints_area2:
+    for i in range(start_idx, len(waypoints_area2)):
+        wp = waypoints_area2[i]
         pos = get_pos()
         if pos is None:
             pos = handle_textbox_or_battle()
