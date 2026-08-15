@@ -1247,6 +1247,8 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 
 ## Key Warps & Stairs
 - Staircase (Up to B2F): Located at (25, 6).
+- Staircase (Down to B4F): Located at (19, 18).
+- Elevator Door: Located at (17, 23).
 
 ## Floor Layout & Corridors
 - Landing: Spans Columns 21..28, Rows 5..8.
@@ -1288,5 +1290,23 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 ## Direct Central-South Highway (Discovered Turn 54655)
 - Columns 22..25 across Rows 22..31 form a wide, completely open light brown pavement avenue connecting Row 22/23 North Avenue directly South into the South Celadon Courtyard!
 - Column 36 Pass: Passable gap at (36, 15) between barrels.
+
+<hr>
+
+<h1><code>Locations/Rocket_Hideout_B4F.md</code></h1>
+
+# Rocket Hideout B4F Topography & Objectives
+
+## Key Warps & Stairs
+- Staircase (Up to B3F): Located at (19, 10).
+- Elevator: Located at (24, 11).
+
+## NPCs & Grunts
+- Grunt: Located at (23, 12) near the elevator area.
+
+## Objectives
+- Explore B4F to locate the Rocket Grunt holding the LIFT KEY.
+- Obtain Lift Key -> Access elevator / Giovanni's chamber.
+- Defeat Giovanni and obtain the SILPH SCOPE!
 
 <hr>
