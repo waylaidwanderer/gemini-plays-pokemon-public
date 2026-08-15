@@ -11,96 +11,84 @@ def get_pos():
         return None
     return pos[0], pos[1]
 
-def walk_step_robust(direction):
-    pos = get_pos()
-    if pos is None:
-        bridge.press_buttons(["B", "sleep 150"])
-        return get_pos()
-    print(f"Walking {direction} from {pos}")
-    bridge.press_buttons([direction, "sleep 450"])
-    new_pos = get_pos()
-    if new_pos is None:
-         bridge.press_buttons(["B", "sleep 150"])
-         return get_pos()
-    return new_pos
-
-def navigate_to(tx, ty):
-    stuck_count = 0
-    while True:
-        pos = get_pos()
-        if pos is None:
-            bridge.press_buttons(["B", "sleep 150"])
-            continue
-        if pos == (tx, ty):
-            print(f"Arrived at waypoint ({tx}, {ty})")
-            break
-        print(f"Current: {pos}, Target: ({tx}, {ty})")
-        if pos[0] < tx:
-            direction = "Right"
-        elif pos[0] > tx:
-            direction = "Left"
-        elif pos[1] < ty:
-            direction = "Down"
-        elif pos[1] > ty:
-            direction = "Up"
-            
-        new_pos = walk_step_robust(direction)
-        if new_pos == pos:
-            stuck_count += 1
-            if stuck_count > 3:
-                print("Stuck! Clearing with B...")
-                bridge.press_buttons(["B", "sleep 500"])
-                stuck_count = 0
-        else:
-            stuck_count = 0
-        time.sleep(0.4)
+def use_dig_from_overworld():
+    print("Using DIG to return to Fuchsia Pokemon Center...")
+    # Open Start menu
+    bridge.press_buttons(["Start", "sleep 500"])
+    
+    # Align to POKÉDEX (press UP 6 times)
+    for _ in range(6):
+        bridge.press_buttons(["Up", "sleep 150"])
+        
+    # Select POKÉMON (Down once from POKÉDEX, A)
+    bridge.press_buttons(["Down", "sleep 300", "A", "sleep 1200"])
+    
+    # Select TRUFFLE slot 2 (press Down once, A)
+    bridge.press_buttons(["Down", "sleep 300", "A", "sleep 800"])
+    
+    # Select DIG (which is the first option for TRUFFLE, press A)
+    bridge.press_buttons(["A", "sleep 4000"]) # Use DIG and wait for warp!
 
 def main():
+    # 1. Clear "Got away safely!" text by pressing B
+    print("Clearing battle text...")
+    bridge.press_buttons(["B", "sleep 300", "B", "sleep 300"])
+    
+    # 2. Use DIG
+    use_dig_from_overworld()
+    
     pos = get_pos()
-    print(f"Starting at: {pos}")
+    print(f"Position after DIG: {pos}")
     
-    # 1. Walk to PC at (13, 4)
-    waypoints = [
-        (13, 5),
-        (13, 4)
-    ]
-    print("Navigating to PC...")
-    for wp in waypoints:
-        navigate_to(wp[0], wp[1])
+    # We should be at (19, 28) outside the Pokemon Center. Enter it.
+    if pos == (19, 28):
+        print("Entering Pokémon Center...")
+        bridge.press_buttons(["Up", "sleep 1500"])
         
-    print("Facing UP towards PC...")
-    bridge.press_buttons(["Up", "sleep 500"])
+    pos = get_pos()
+    print(f"Inside Pokémon Center: {pos}")
     
-    # 2. Boot PC and open ACE's PC Withdraw menu
-    print("Opening PC Withdraw menu...")
+    # 3. Walk to PC at (13, 4)
+    # Inside Pokemon Center, we start at (3, 7) or (4, 7) on the doormat.
+    if pos is not None and pos[1] >= 6:
+        print("Navigating to PC...")
+        # Walk up to Row 5
+        bridge.press_buttons(["Up", "sleep 400", "Up", "sleep 400", "Up", "sleep 400"]) # to (3, 5) or (4, 5)
+        # Walk to Column 13
+        for _ in range(9):
+            bridge.press_buttons(["Right", "sleep 400"])
+        # Walk UP to stand in front of PC at (13, 4)
+        bridge.press_buttons(["Up", "sleep 400"])
+        # Face UP
+        bridge.press_buttons(["Up", "sleep 500"])
+        
+    pos = get_pos()
+    print(f"Standing in front of PC: {pos}")
+    
+    # 4. Turn on PC and open Withdraw menu
+    print("Opening ACE's PC Withdraw menu...")
     bridge.press_buttons(["A", "sleep 1200"]) # Turn on PC
-    bridge.press_buttons(["A", "sleep 1200"]) # Progress boot text
-    bridge.press_buttons(["Down", "sleep 500", "A", "sleep 1200"]) # Select ACE's PC
+    bridge.press_buttons(["A", "sleep 1200"]) # Progress boot text "ACE turned on the PC!"
+    bridge.press_buttons(["A", "sleep 1200"]) # Progress "Access whose PC?"
+    bridge.press_buttons(["A", "sleep 1500"]) # Select ACE's PC
     bridge.press_buttons(["A", "sleep 1500"]) # Select WITHDRAW ITEM
     
-    # 3. Take screenshots of PC Withdraw list and scroll down to see more!
-    img1 = mgba.take_screenshot()
-    print(f"PC Page 1: {img1}")
+    # Take screenshot of page 1 of PC Withdraw
+    p1 = mgba.take_screenshot()
+    print(f"PC Withdraw Page 1: {p1}")
     
-    # Scroll down 4 times
-    for _ in range(4):
-        bridge.press_buttons(["Down", "sleep 250"])
-    time.sleep(0.5)
-    img2 = mgba.take_screenshot()
-    print(f"PC Page 2: {img2}")
-    
-    # Scroll down 4 more times
-    for _ in range(4):
-        bridge.press_buttons(["Down", "sleep 250"])
-    time.sleep(0.5)
-    img3 = mgba.take_screenshot()
-    print(f"PC Page 3: {img3}")
-    
-    # Close PC
-    for _ in range(4):
-        bridge.press_buttons(["B", "sleep 300"])
+    # Scroll down 10 times to see every single item in the PC, taking screenshots
+    for i in range(5):
+        bridge.press_buttons(["Down", "sleep 300"])
+        p = mgba.take_screenshot()
+        print(f"PC Scroll {i+1}: {p}")
         
-    print("PC verification complete.")
+    # Close PC menu safely by pressing B multiple times
+    for _ in range(5):
+        bridge.press_buttons(["B", "sleep 400"])
+        
+    pos = get_pos()
+    print(f"Final overworld position: {pos}")
 
 if __name__ == "__main__":
     main()
