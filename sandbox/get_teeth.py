@@ -89,7 +89,8 @@ def main():
     print(f"Starting Phase 2A (Area 1 Ground/Plateau/Ground) from: {pos}")
     
     waypoints = [
-        (5, 24),
+        (4, 22),
+        (4, 24),
         (20, 24),
         (20, 22),
         (20, 20),
