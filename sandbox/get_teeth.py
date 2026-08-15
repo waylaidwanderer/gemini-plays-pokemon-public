@@ -84,48 +84,25 @@ def navigate_to(tx, ty):
             stuck_count = 0
         time.sleep(0.1)
 
-def use_dig_safe():
-    print("Using DIG to warp out of Safari Zone...")
-    bridge.press_buttons(["B", "sleep 300", "B", "sleep 300"])
-    bridge.press_buttons(["Start", "sleep 500"])
-    # Open POKEMON menu (second item slot)
-    bridge.press_buttons(["Down", "sleep 250", "A", "sleep 1000"]) # POKÉMON
-    # Select TRUFFLE (slot 2)
-    bridge.press_buttons(["Down", "sleep 250", "A", "sleep 800"])
-    # Select DIG and warp!
-    bridge.press_buttons(["A", "sleep 4000"])
-
 def main():
     pos = get_pos()
-    print(f"Starting actual walkable route to Gold Teeth from: {pos}")
+    print(f"Starting Phase 1 (Center to Area 1) from: {pos}")
     
     waypoints = [
-        (19, 23), # Walk UP to Row 23
-        (21, 23), # Walk RIGHT to Column 21
-        (21, 18), # Walk UP to Row 18
-        (21, 16), # Walk UP to climb East Stairs onto Plateau
-        (6, 16),  # Walk LEFT to Column 6 on Plateau
-        (6, 20),  # Walk DOWN to descend West Stairs to ground level
-        (6, 26),  # Walk DOWN to Row 26 Highway
-        (19, 26)  # Walk EAST along Row 26 Highway directly below Gold Teeth
+        (15, 24),
+        (15, 22),
+        (27, 22),
+        (27, 10),
+        (29, 10)
     ]
     
-    for i, wp in enumerate(waypoints, 1):
+    for wp in waypoints:
         navigate_to(wp[0], wp[1])
         
-    # Stand at (19, 26) facing UP
-    print("Standing at (19, 26). Facing UP...")
-    bridge.press_buttons(["Up", "sleep 500"])
-    
-    # Pick up Gold Teeth!
-    print("Interacting to retrieve Gold Teeth...")
-    bridge.press_buttons(["A", "sleep 1500"])
-    
-    print("Dismissing textboxes...")
-    for _ in range(5):
-        bridge.press_buttons(["B", "sleep 250"])
-        
-    use_dig_safe()
+    print("Transitioning LEFT to Area 1...")
+    walk_step_robust("Right")
+    time.sleep(1.5)
+    print(f"Final position: {get_pos()}")
 
 if __name__ == "__main__":
     main()
