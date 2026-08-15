@@ -109,9 +109,9 @@
 - Caterpie Lv 3 [Turn 129]
 
 ## Items & Layout
-- Entrance at south-east (17, 47)
+- Entrance at south-center (17, 47)
 - South-west area (x=1..8, y=30..43) is an enclosed pocket/dead end with tall grass
-- Main eastern path runs north along columns 16-17 to signpost at (16, 32)
-- Path turns west at y=33 through grass to column 11, then north into central forest
+- Central-west area (x=11..16, y=32..33) has signpost at (16, 32) and item ball visible at (12, 29) accessible from north
+- Main path leads east from entrance (x=18+) and winds north along the east side
 
 <hr>
