@@ -23,8 +23,15 @@ def navigate_to(tx, ty):
     while True:
         pos = get_pos()
         if pos is None:
-            bridge.press_buttons(["B", "sleep 200"])
-            continue
+            # Map transition or menu active
+            print("Position is None. Possibly map transition occurred.")
+            break
+            
+        # Detect if we successfully entered the Warden's House.
+        # Entrance lands us at (4, 7) or similar inside the house.
+        if pos[0] < 10 and pos[1] < 10:
+            print("Successfully entered Warden's House!")
+            break
             
         if pos == (tx, ty):
             print(f"Arrived at waypoint ({tx}, {ty})")
@@ -52,23 +59,32 @@ def navigate_to(tx, ty):
         time.sleep(0.4)
 
 def main():
-    # Waypoints to (26, 12) from (18, 4) detouring around the Gatehouse
+    # Starting at (19, 28) in Fuchsia City outside Pokemon Center.
+    # Waypoints to enter the Warden's House at (27, 27):
     waypoints = [
-        (22, 4),  # Right on Row 4 to Column 22
-        (22, 2),  # Up on Column 22 to Row 2
-        (37, 2),  # Right on Row 2 to Column 37
-        (37, 9),  # Down on Column 37 to Row 9
-        (26, 9),  # Left on Row 9 to Column 26
-        (26, 12)  # Down on Column 26 to Row 12
+        (19, 30),  # Down to Row 30
+        (30, 30),  # Right along Row 30 to Column 30
+        (30, 28),  # Up Column 30 to Row 28
+        (27, 28),  # Left along Row 28 to Column 27 (facing Warden's door)
+        (27, 27)   # Enter Warden's House!
     ]
     
-    for wp in waypoints:
-        print(f"\nMoving to Waypoint: {wp}")
+    print("Navigating to Warden's House door...")
+    for i, wp in enumerate(waypoints, 1):
+        print(f"\n--- WAYPOINT {i}/{len(waypoints)}: {wp} ---")
+        pos = get_pos()
+        if pos is None:
+            print("Map changed or menu active.")
+            break
+        if pos[0] < 10 and pos[1] < 10:
+            print("Detected Warden's House interior coordinates. Stopping navigation.")
+            break
+            
         navigate_to(wp[0], wp[1])
         
-    time.sleep(1.0)
+    time.sleep(2.0)
     pos = get_pos()
-    print(f"Arrived at cut bush face coordinate: {pos}")
+    print(f"Final position: {pos}")
 
 if __name__ == "__main__":
     main()
