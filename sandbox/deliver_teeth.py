@@ -75,7 +75,8 @@ def main():
     
     # 1. Walk to Warden's House door via Column 37 detour
     waypoints = [
-        (37, 15),
+        (35, 14),
+        (37, 14),
         (37, 28),
         (27, 28),
         (27, 27) # Door transition
