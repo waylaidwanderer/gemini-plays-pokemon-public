@@ -16,9 +16,10 @@
 - Rocket Grunt: Defeated at (20, 13) on Turn 54864.
 
 ## Items & Pickups
-- Floor Item 1: Located at (1, 11) in B2F Northwest room [Collected Turn 54869].
-- Floor Item 2: Located at (6, 12) in B2F West-Central room.
+- Floor Item 1: Located at (1, 11) in B2F Northwest room [Uncollected - Bag was full].
+- Floor Item 2: Located at (6, 12) in B2F West-Central room [Uncollected - Bag was full].
 - Floor Item 3: Located at (16, 8) in B2F Northeast room.
+- Bag Status: Full (20/20). Need to clear inventory space for Silph Scope.
 
 ## Spin Maze Topology & Stop Tiles
 - Entrance Stop Tile: Located at (16, 13).
