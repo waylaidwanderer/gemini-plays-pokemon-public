@@ -6,6 +6,8 @@
 
 ## Layout & Landmarks
 - Entrance chamber at (8, 17)
+- Southwest corridor along rows 12-13 (columns 4-13) scouted to western wall at (4, 13)
+- Main northbound passage located at columns 12-16 (rows 9-13)
 - Cavern corridors wind north and east through the mountain
 - Rock formations and walls dividing cavern chambers
 
