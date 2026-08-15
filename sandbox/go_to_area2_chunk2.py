@@ -50,42 +50,55 @@ def walk_step_robust(direction):
         
     return handle_textbox_or_battle()
 
-def walk_path(path_steps):
-    for i, step in enumerate(path_steps):
-        print(f"\nStep {i+1}/{len(path_steps)}: {step}")
+def navigate_to(tx, ty):
+    stuck_count = 0
+    while True:
         pos = get_pos()
         if pos is None:
             handle_textbox_or_battle()
-            pos = get_pos()
+            continue
             
-        stuck_count = 0
-        while True:
-            new_pos = walk_step_robust(step)
-            if new_pos is not None and new_pos != pos:
-                break
+        if pos == (tx, ty):
+            print(f"Arrived at waypoint ({tx}, {ty})")
+            break
+            
+        print(f"Current: {pos}, Target: ({tx}, {ty})")
+        # Determine direction
+        if pos[0] < tx:
+            direction = "Right"
+        elif pos[0] > tx:
+            direction = "Left"
+        elif pos[1] < ty:
+            direction = "Down"
+        elif pos[1] > ty:
+            direction = "Up"
+            
+        new_pos = walk_step_robust(direction)
+        if new_pos == pos:
             stuck_count += 1
             if stuck_count > 3:
-                print("Extremely stuck! Pressing B and retrying...")
+                print("Stuck trying to move! Clearing with B...")
                 bridge.press_buttons(["B", "sleep 500"])
                 stuck_count = 0
-            time.sleep(0.5)
+        else:
+            stuck_count = 0
+        time.sleep(0.5)
 
 def main():
-    # Starting at (8, 22) in Area 1 (East)
-    path = (
-        ["Up"] * 14 +
-        ["Right"] * 4 +
-        ["Up"] * 2 +
-        ["Right"] * 5 +
-        ["Down"] * 2 +
-        ["Right"] * 3 +
-        ["Up"] * 5 +
-        ["Left"] * 13 +
-        ["Down"] * 2 +
-        ["Left"] * 7
-    )
+    # Chunk 2 waypoints: from current (18, 20) to (12, 8)
+    waypoints = [
+        (12, 20), # left along plateau
+        (12, 22), # descend stairs
+        (8, 22),  # left ground
+        (8, 8),   # up column 8
+        (12, 8)   # base of northern stairs
+    ]
     
-    walk_path(path)
+    print("Beginning Safari Zone Golden Route - Phase 2 Chunk 2...")
+    for i, wp in enumerate(waypoints, 1):
+        print(f"\n--- WAYPOINT {i}/{len(waypoints)}: {wp} ---")
+        navigate_to(wp[0], wp[1])
+        
     time.sleep(2.0)
     pos = get_pos()
     print(f"Final position at end of Chunk 2: {pos}")
