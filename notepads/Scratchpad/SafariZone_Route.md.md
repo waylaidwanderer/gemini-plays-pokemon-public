@@ -50,13 +50,15 @@
 3. Walk LEFT 1 step to `(25, 2)`.
 4. Walk DOWN 16 steps along Column 25 to `(25, 18)`.
 5. Walk LEFT 4 steps to `(21, 18)`.
-6. Walk DOWN 6 steps along Column 21 to `(21, 24)`.
-7. Walk LEFT 2 steps to Column 19 at `(19, 24)`.
-8. Stand at `(19, 24)` facing **DOWN** (south).
+6. Walk DOWN 8 steps along Column 21 to `(21, 26)` (Row 26, the southern corridor).
+7. Walk LEFT 2 steps to Column 19 at `(19, 26)`.
+8. Stand at `(19, 26)` facing **UP** (north).
 9. Press **A** to pick up the Gold Teeth!
 
 ### Phase 5: Super-Optimized Ground-Level Transition Route (Between Center & Area 3)
 - From `(0, 11)` in Safari Zone Center, walk LEFT 1 step to transition directly to `(29, 23)` in Area 3 (West).
 - From `(29, 23)` in Area 3 (West), walk LEFT 10 steps to `(19, 23)`.
-- Walk DOWN 1 step to `(19, 24)`.
-- Face DOWN and press **A** to pick up the Gold Teeth!
+- From `(19, 23)`, walk RIGHT 10 steps to Column 29 at `(29, 23)`.
+- Walk RIGHT 1 step to transition to Safari Zone Center at `(0, 11)`.
+- Walk LEFT from `(29, 26)` in Area 3 (West) to `(19, 26)` on the Row 26 Highway.
+- Stand at `(19, 26)` facing **UP** (north) and press **A** to pick up the Gold Teeth!
