@@ -1,10 +1,10 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 55103)
-- Location: Pokémon Tower 4F at (18, 9) [Ascended from 3F].
+## CURRENT STATUS & DASHBOARD (Turn 55126)
+- Location: Pokémon Tower 5F at (3, 9) [Ascended from 4F].
 - Primary Goal: Clear Pokémon Tower in Lavender Town using the Silph Scope to rescue Mr. Fuji.
-- Secondary Goal: Navigate across Pokémon Tower 4F to the 5F staircase at (3, 9).
-- Active Strategy: Arrived on 4F at (18, 9) -> Navigate West along Row 9/8 -> Defeat/bypass Channelers using Dig/Hydro Pump -> Ascend stairs at (3, 9) to 5F -> Heal party at 5F Purified Zone -> Ascend to 6F -> Pacify Ghost Marowak with Silph Scope -> Defeat Team Rocket on 7F -> Rescue Mr. Fuji -> Obtain Poké Flute.
+- Secondary Goal: Heal party at 5F Purified Zone and ascend to 6F.
+- Active Strategy: Arrived on 5F at (3, 9) -> Walk East along Row 7 to Purified Zone -> Heal Blastoise & party to 100% -> Navigate to 6F staircase at (18, 9) -> Ascend to 6F -> Identify & pacify Ghost Marowak with Silph Scope -> Defeat Team Rocket on 7F -> Rescue Mr. Fuji -> Obtain Poké Flute.
 - Key Items: SILPH SCOPE [ACQUIRED & VERIFIED], LIFT KEY [ACQUIRED], TM07 Horn Drill [ACQUIRED], BICYCLE [EQUIPPED].
 - Party Status: SHELLSHOCK (Blastoise Lv53, HP 97/185, HEALTHY), LUNA (Clefable Lv10), CUTTER (Paras Lv14), SPROUT (Bellsprout Lv15).
 
@@ -1508,6 +1508,26 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 ## NPCs & Trainers
 - Channeler: Located at (15, 7) / (15, 8). Gastly Lv23, Gastly Lv23. Defeated Turn 55112.
 - Channeler / NPC: Located at (14, 12).
+
+
+<hr>
+
+<h1><code>Locations/Pokemon_Tower_5F</code></h1>
+
+# Pokémon Tower 5F Verified Topography
+
+## Key Warps & Stairs
+- Staircase (Down to 4F): Located at (3, 9) on the West wall.
+- Staircase (Up to 6F): Located at (18, 9) on the East wall.
+
+## Floor Layout & Key Landmarks
+- West Wing Landing: (3, 9) down-stairs landing.
+- North Corridor (Row 7): Open diamond grid floor across Columns 3..7.
+- Purified Zone: White magic healing circle in central room (Rows 9..11, Columns 9..11). Fully heals HP and PP.
+- East Wing Landing: (18, 9) up-stairs landing to 6F.
+
+## NPCs & Trainers
+- Channeler: Located at (6, 10).
 
 
 <hr>
