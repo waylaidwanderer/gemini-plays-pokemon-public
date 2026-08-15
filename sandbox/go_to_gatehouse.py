@@ -1,86 +1,144 @@
 import bridge
 import time
-import sys
 
-sys.stdout.reconfigure(encoding='utf-8')
+def cut_bush():
+    print("Cutting bush at (26, 13)...")
+    # Face UP towards the bush
+    bridge.press_buttons(["Up"])
+    time.sleep(0.4)
+    
+    # Open START menu
+    bridge.press_buttons(["Start"])
+    time.sleep(0.5)
+    
+    # Go to POKEMON (Down, A)
+    bridge.press_buttons(["Down", "A"])
+    time.sleep(0.5)
+    
+    # Select TRUFFLE (Paras) - press Down once to highlight TRUFFLE, then A
+    bridge.press_buttons(["Down", "A"])
+    time.sleep(0.5)
+    
+    # Select CUT (since we are facing a bush, CUT is the top option, so just press A)
+    bridge.press_buttons(["A"])
+    time.sleep(1.5) # Wait for cut animation
+    
+    # Clear "TRUFFLE hacked away with CUT!" text
+    bridge.press_buttons(["A"])
+    time.sleep(0.5)
+    print("Bush cut successfully.")
 
-def get_pos():
-    for _ in range(4):
-        pos = bridge.get_coordinates()
-        if pos is not None:
-            return pos[0], pos[1]
-        time.sleep(0.1)
-    return None
+# Walk from (19, 28) to (26, 14)
+print("Current position:", bridge.get_coordinates())
 
-def walk_step_robust(direction):
-    pos = get_pos()
-    if pos is None:
-        return None
-    bridge.press_buttons([direction])
-    for _ in range(5):
-        time.sleep(0.15)
-        new_pos = get_pos()
-        if new_pos is not None and new_pos != pos:
-            return new_pos
-    return pos
+steps1 = [
+    ("Right", (20, 28)),
+    ("Right", (21, 28)),
+    ("Right", (22, 28)),
+    ("Right", (23, 28)),
+    ("Right", (24, 28)),
+    ("Up", (24, 27)),
+    ("Up", (24, 26)),
+    ("Up", (24, 25)),
+    ("Up", (24, 24)),
+    ("Up", (24, 23)),
+    ("Up", (24, 22)),
+    ("Up", (24, 21)),
+    ("Left", (23, 21)),
+    ("Left", (22, 21)),
+    ("Up", (22, 20)),
+    ("Up", (22, 19)),
+    ("Up", (22, 18)),
+    ("Up", (22, 17)),
+    ("Up", (22, 16)),
+    ("Up", (22, 15)),
+    ("Up", (22, 14)),
+    ("Right", (23, 14)),
+    ("Right", (24, 14)),
+    ("Right", (25, 14)),
+    ("Right", (26, 14))
+]
 
-def run_path(path):
-    idx = 0
-    stuck_count = 0
-    while idx < len(path):
-        pos = get_pos()
-        if pos is None:
-            time.sleep(0.5)
-            continue
-            
-        print(f"Step {idx}: At {pos}, walking {path[idx]}...")
-        new_pos = walk_step_robust(path[idx])
-        
-        if new_pos is None:
-            time.sleep(0.5)
-            continue
-            
-        if new_pos == pos:
-            stuck_count += 1
-            print(f"Stuck at {pos}! Stuck count: {stuck_count}")
-            if stuck_count > 3:
-                print("Path blocked!")
-                return False
-        else:
-            stuck_count = 0
-            idx += 1
+def walk_steps(steps):
+    for button, expected in steps:
+        curr = bridge.get_coordinates()
+        bridge.press_buttons([button])
+        time.sleep(0.4)
+        new_coords = bridge.get_coordinates()
+        if new_coords != expected:
+            print(f"Failed to reach {expected}. Ended up at {new_coords} from {curr} via {button}")
+            return False
     return True
 
-def main():
-    print("=== NAVIGATING DETOUR TO GATEHOUSE ===")
-    pos = get_pos()
-    print("Starting position:", pos)
+if walk_steps(steps1):
+    cut_bush()
     
-    # We are at (29, 14) in Fuchsia City.
-    # Detour around NPC at (30, 14):
-    # 1. Walk Down to (29, 15) (1 step Down)
-    # 2. Walk Right to (31, 15) (2 steps Right)
-    # 3. Walk Up to Row 14 -> (31, 14) (1 step Up)
-    # 4. Walk Right to Column 37 -> (37, 14) (6 steps Right)
-    # 5. Walk Up Column 37 to Row 2 -> (37, 2) (12 steps Up)
-    # 6. Walk Left along Row 2 to Column 18 -> (18, 2) (19 steps Left)
-    # 7. Walk Down 1 step to enter Gatehouse -> (18, 3) (1 step Down)
-    path = (
-        ["Down"] +
-        ["Right"] * 2 +
-        ["Up"] +
-        ["Right"] * 6 +
-        ["Up"] * 12 +
-        ["Left"] * 19 +
-        ["Down"]
-    )
+    # Walk from (26, 14) through the cut bush to the Gatehouse entrance at (18, 3)
+    steps2 = [
+        ("Up", (26, 13)), # through cut bush
+        ("Up", (26, 12)),
+        ("Up", (26, 11)),
+        ("Up", (26, 10)),
+        ("Up", (26, 9)),
+        ("Left", (25, 9)),
+        ("Left", (24, 9)),
+        ("Left", (23, 9)),
+        ("Left", (22, 9)),
+        ("Left", (21, 9)),
+        ("Left", (20, 9)),
+        ("Left", (19, 9)),
+        ("Up", (19, 8)),
+        ("Right", (20, 8)),
+        ("Right", (21, 8)),
+        ("Right", (22, 8)),
+        ("Right", (23, 8)),
+        ("Right", (24, 8)),
+        ("Right", (25, 8)),
+        ("Right", (26, 8)),
+        ("Right", (27, 8)),
+        ("Right", (28, 8)),
+        ("Right", (29, 8)),
+        ("Right", (30, 8)),
+        ("Right", (31, 8)),
+        ("Right", (32, 8)),
+        ("Right", (33, 8)),
+        ("Right", (34, 8)),
+        ("Right", (35, 8)),
+        ("Right", (36, 8)),
+        ("Right", (37, 8)),
+        ("Up", (37, 7)),
+        ("Up", (37, 6)),
+        ("Up", (37, 5)),
+        ("Up", (37, 4)),
+        ("Up", (37, 3)),
+        ("Up", (37, 2)),
+        ("Left", (36, 2)),
+        ("Left", (35, 2)),
+        ("Left", (34, 2)),
+        ("Left", (33, 2)),
+        ("Left", (32, 2)),
+        ("Left", (31, 2)),
+        ("Left", (30, 2)),
+        ("Left", (29, 2)),
+        ("Left", (28, 2)),
+        ("Left", (27, 2)),
+        ("Left", (26, 2)),
+        ("Left", (25, 2)),
+        ("Left", (24, 2)),
+        ("Left", (23, 2)),
+        ("Left", (22, 2)),
+        ("Down", (22, 3)),
+        ("Down", (22, 4)),
+        ("Left", (21, 4)),
+        ("Left", (20, 4)),
+        ("Left", (19, 4)),
+        ("Left", (18, 4)),
+        ("Up", (18, 3)) # enters Gatehouse!
+    ]
     
-    if run_path(path):
-        print("Successfully reached and entered Safari Zone Gatehouse!")
-        time.sleep(1.0)
-        print("Final Position:", get_pos())
+    if walk_steps(steps2):
+        print("Successfully reached inside the Safari Gatehouse!")
     else:
-        print("Failed to reach Safari Zone Gatehouse!")
-
-if __name__ == "__main__":
-    main()
+        print("Failed steps2. Current:", bridge.get_coordinates())
+else:
+    print("Failed steps1. Current:", bridge.get_coordinates())
