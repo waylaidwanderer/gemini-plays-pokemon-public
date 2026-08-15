@@ -11,8 +11,8 @@
 4. Walk UP 2 steps to climb the East Stairs of the Plateau to `(21, 16)` (plateau level).
 5. Walk LEFT on the plateau to the West Stairs at `(6, 16)`.
 6. Walk DOWN to descend the West Stairs at `(6, 19)` to `(6, 20)` (western grass).
-7. Walk LEFT 3 steps to Column 3 at `(3, 20)`.
-8. Walk DOWN 6 steps along Column 3 to Row 26 at `(3, 26)` (the Row 26 Highway).
-9. Walk RIGHT 16 steps along Row 26 to Column 19 at `(19, 26)`.
+7. Walk LEFT/RIGHT to the verified open vertical column (to be found by grid-search of Columns 4 to 17).
+8. Walk DOWN the open column to Row 26 (the Row 26 Highway).
+9. Walk along Row 26 to Column 19 at `(19, 26)`.
 10. Stand at `(19, 26)` facing **UP** (north).
 11. Press **A** to pick up the Gold Teeth!
