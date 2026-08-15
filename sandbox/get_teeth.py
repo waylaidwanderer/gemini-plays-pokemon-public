@@ -89,8 +89,6 @@ def main():
     print(f"Starting Phase 1 (Center to Area 1) from: {pos}")
     
     waypoints = [
-        (15, 24),
-        (15, 22),
         (27, 22),
         (27, 10),
         (29, 10)
