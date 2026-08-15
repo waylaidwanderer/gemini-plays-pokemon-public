@@ -14,6 +14,7 @@
 - North-south passage connecting central and northern halls at columns 30-31 (rows 6-10)
 - Eastern chamber floor extends across rows 10-14 (cols 20-33+)
 - Rock obstacle at (32..33, 12..14)
+- Northeast sector open chamber around (35, 7)
 
 ## Items & Discoveries
 - (Documenting item balls as collected inside Mt. Moon)
@@ -23,3 +24,4 @@
 
 ## Empirical Wild Encounters
 - Zubat Lv 6 [Encountered Turn 477 at (22, 10), Defeated Turn 489 at (28, 10)]
+- Geodude [Encountered Turn 492 at (35, 7)]
