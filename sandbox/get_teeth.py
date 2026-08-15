@@ -44,12 +44,12 @@ def walk_step_robust(direction):
     return new_pos
 
 def main():
-    # Start at (3, 23)
-    # Path:
-    # 1. Right 18 to (21, 23)
-    # 2. Down 1 to (21, 24)
-    # 3. Left 2 to (19, 24)
-    path = ["Right"] * 18 + ["Down"] + ["Left"] * 2
+    # Start at (17, 23)
+    # Refined Path:
+    # 1. Left 2 to (15, 23)
+    # 2. Down 3 to (15, 26)
+    # 3. Right 4 to (19, 26)
+    path = ["Left"] * 2 + ["Down"] * 3 + ["Right"] * 4
     
     idx = 0
     stuck_count = 0
@@ -74,11 +74,11 @@ def main():
                     stuck_count = 0
         time.sleep(0.5)
         
-    print(f"Arrived at (19, 24): {get_pos()}")
+    print(f"Arrived at (19, 26): {get_pos()}")
     
-    # Force facing Down
-    print("Facing Down...")
-    bridge.press_buttons(["Down", "sleep 500"])
+    # Force facing Up
+    print("Facing Up...")
+    bridge.press_buttons(["Up", "sleep 500"])
     
     # Press A to pick up item
     print("Pressing A to pick up Gold Teeth...")
