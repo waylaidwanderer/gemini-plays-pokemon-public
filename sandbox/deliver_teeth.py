@@ -55,13 +55,14 @@ def navigate_to(tx, ty):
 
 def main():
     pos = get_pos()
-    print(f"Starting overworld walk from current position: {pos}")
+    print(f"Starting overworld walk to Warden's House. Position: {pos}")
     
-    # 1. Walk from (24, 21) to Warden's House via Column 24 and the Column 25 Row 27 Fence Gap
-    if pos is not None and pos == (24, 21):
+    # 1. Walk to Warden's House from (25, 27) via the Row 30 bypass
+    if pos is not None and pos == (25, 27):
         navigate_to(24, 27)
-        navigate_to(26, 27)
-        navigate_to(26, 28)
+        navigate_to(24, 30)
+        navigate_to(30, 30)
+        navigate_to(30, 28)
         navigate_to(27, 28)
         print("Entering Warden's House...")
         walk_step_robust("Up")
