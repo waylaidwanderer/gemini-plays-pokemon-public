@@ -1346,7 +1346,6 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 - Silph Scope: Collected at (25, 2) on Turn 54957 after defeating Boss Giovanni [IN BAG].
 
 ## Objectives & Layout Strategy
-- West Wing (Stairs at 19, 10): Contains Lift Key Grunt (11, 2) and pickup items.
 - East Wing (Giovanni's Chamber): Separated by solid walls; accessible exclusively via Elevator from upper floors.
 ## East Wing & Giovanni's Chamber Approach
 - Guard Grunt West: Located at (23, 12).
@@ -1465,6 +1464,31 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 - Rival RED: Located at (14, 5). Battle triggers when player approaches center from East stairs.
 - Rival's Team: Pidgeotto Lv25, Raticate Lv23, Growlithe Lv22, Kadabra Lv20, Ivysaur Lv25. Defeated Turn 55084.
 - Channeler NPC: Located at (3, 7).
+
+
+<hr>
+
+<h1><code>Locations/Pokemon_Tower_3F</code></h1>
+
+# Pokémon Tower 3F Verified Topography
+
+## Key Warps & Stairs
+- Staircase (Down to 2F): Located at (3, 9) on the West wall.
+- Staircase (Up to 4F): Located at (18, 9) on the East wall.
+
+## Floor Layout & Corridors
+- West Wing Landing: (3, 9) down-stairs landing.
+- West Vertical Corridor: Columns 4..6, Rows 6..13.
+- Central Tombstone Barrier: Column 7 (Rows 5..12).
+- South Bypass Corridor: Row 13 (Columns 5..8) connects West corridor to Central-East sector.
+- Central-East Aisles: Columns 8..18, Rows 8..15.
+- East Wing Landing: (18, 9) up-stairs landing to 4F. Reached via Row 14/13 -> Column 15..18 -> Column 18 (Rows 10..9).
+
+## NPCs & Trainers
+- Channeler: Located at (10, 13) facing Down. Gastly Lv22. Defeated Turn 55096.
+
+## Wild Pokémon (Silph Scope Verified)
+- Gastly (Lv18-24) [Identified by Silph Scope].
 
 
 <hr>

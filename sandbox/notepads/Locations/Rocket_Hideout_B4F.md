@@ -21,7 +21,6 @@
 - Silph Scope: Collected at (25, 2) on Turn 54957 after defeating Boss Giovanni [IN BAG].
 
 ## Objectives & Layout Strategy
-- West Wing (Stairs at 19, 10): Contains Lift Key Grunt (11, 2) and pickup items.
 - East Wing (Giovanni's Chamber): Separated by solid walls; accessible exclusively via Elevator from upper floors.
 ## East Wing & Giovanni's Chamber Approach
 - Guard Grunt West: Located at (23, 12).
