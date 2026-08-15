@@ -91,9 +91,11 @@ def main():
     pos = get_pos()
     print(f"Starting overworld walk to Safari Gatehouse from: {pos}")
     
-    if pos == (25, 31):
-        # Walk LEFT along Row 31 to Column 19: (19, 31)
-        navigate_to(19, 31)
+    if pos == (24, 31):
+        # Walk UP Column 24 to Row 21: (24, 21)
+        navigate_to(24, 21)
+        # Walk LEFT to Column 19 on Row 21: (19, 21)
+        navigate_to(19, 21)
         # Walk UP Column 19 to Row 8: (19, 8)
         navigate_to(19, 8)
         # Walk RIGHT to Column 37: (37, 8)
