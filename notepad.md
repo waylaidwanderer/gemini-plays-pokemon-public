@@ -1,7 +1,7 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 55637)
-- Location: Route 16 Secret House at (2, 4).
+## CURRENT STATUS & DASHBOARD (Turn 55653)
+- Location: Route 7 at (8, 4) heading into Celadon City.
 - Primary Goal: Defeat Gym Leader Erika at Celadon Gym for the Rainbow Badge (Badge #4).
 - Secondary Goal: Catch a bird Pokémon (Doduo/Spearow) and teach HM02 Fly.
 - Tertiary Goal: Explore Route 12 Snorlax & obtain Super Rod from Silence Bridge.
@@ -299,24 +299,24 @@
 
 <h1><code>Locations/Lavender_Town</code></h1>
 
-### Verified Overworld Highway to Route 8 (Turn 21738)
-- Ledge gap at (13,11) connects Lower Alley (Row 12/13) to NW Platform (Row 9/10).
-- Impassable boundaries: (14,11) is a stone pillar obstacle, (1,12) is a rock wall obstacle.
-- Route 8 Entrance at (0,9) is accessed via Row 13 open grass -> Up through (13,11) gravel gap to Row 9 -> West to (0,9).
+# Verified Lavender Town Topography & Key Points of Interest
 
-### Verified Physical Topology & Boundaries (Turn 25472)
-- Row 16 across Cols 2-8 is a south-facing one-way ledge (cannot walk Up from Row 17/18 to Row 15).
-- Cols 8 & 9 (Rows 18-25) form a central tree barrier separating West Lavender (Cols 0-7) from East Lavender (Cols 10-13).
-- Row 26 (Cols 5-13) is open pavement/grass below the tree barrier, connecting West Lavender to East Lavender!
-- Column 13 (Rows 20-26) connects to Pokemon Center at (11..13, 18..19). Column 14 (x=14) is the open Northbound bypass corridor running from Row 20 to Row 9!
+## Key Buildings & Warps
+- Pokémon Center: Door located at (11..13, 19).
+- Pokémon Tower 1F: Door located at (14, 5).
+- Mr. Fuji's Volunteer Pokémon House: Door located at (7, 9) [Poké Flute obtained].
+- Lavender Town Mart: Door located at (15, 13).
+- Name Rater's House: Door located at (3, 13).
 
-### Verified Map Transitions & Topography (Turn 32102)
-- Route 10 South Two-Way Warp: Lavender Town (8, 17) / (8, 18) <-> Route 10 South (15, 3). Stepping UP into (8, 17) in Lavender Town warps player back to Route 10 South at (15, 3).
-- Fence Boundary at x=1: Column 1 at Row 18 is a solid vertical fence/wall.
-- Route 8 West Access via Row 22: Row 22 is an open light grey pavement corridor from x=7 left through x=0 / x=-1 onto Route 8 West.
-- EMPIRICAL PROBE RESULT (Turn 36626): Row 10 at Column 1 (1, 10) is a solid mountain rock cliff wall blocking Westbound movement on Row 10. Open passage to Route 8 Upper Highway is via Row 9 at (2, 9) -> (1, 9) -> (0, 9).
-- VERIFIED (Turn 39495): Column 11 (x=11) is open Northbound Highway connecting Row 26 (11, 26) through Row 20 directly to Row 9 Highway at (11, 9)!
-- VERIFIED (Turn 39513): Cols 6-7 tree barrier spans Rows 5-9 in Lavender Town. Open Westbound bypass is via Row 10 (8, 10 -> 2, 10) -> Up to Row 9 (2, 9) -> West to Route 8 at (0, 9)!
+## Verified Topography & Thoroughfares
+- Route 10 South Boundary: Connects North at (8, 17) / (8, 18).
+- Central Tree Barrier: Spans Columns 8 & 9 (Rows 18-25), dividing West Lavender (Cols 0-7) from East Lavender (Cols 10-13).
+- Southern Pavement Bypass: Row 26 (Cols 5-13) is open pavement/grass below the central tree barrier connecting West and East Lavender.
+- Eastern Bypass Corridor: Column 14 (x=14) is an open Northbound corridor connecting Row 20 to Row 9.
+- Route 8 West Passage:
+  - Accessible via Row 9 at (2, 9) -> (1, 9) -> (0, 9) onto Route 8 Upper Highway.
+  - Lower Route 8 access via Row 22 open pavement from x=7 west to x=0.
+  - Column 1 at Row 10 is a solid rock cliff wall blocking westward movement on Row 10.
 
 <hr>
 
