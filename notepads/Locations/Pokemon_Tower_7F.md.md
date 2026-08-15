@@ -10,3 +10,6 @@
 - Rocket Grunt 2: Located at (11, 6) / (9, 7) facing Left. Team: Koffing Lv26, Drowzee Lv26.
 - Rocket Grunt 3: Located at (11, 3) guarding altar approach. Team: Zubat Lv23, Rattata Lv23, Raticate Lv23, Zubat Lv23.
 - Mr. Fuji: Located on the top altar dais at (10, 3).
+## Quest Completion
+- Defeated all 3 Rocket Grunts on 7F (Turns 55470-55498).
+- Rescued Mr. Fuji at (10, 3) on Turn 55501.
