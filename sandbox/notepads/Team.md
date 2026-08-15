@@ -9,3 +9,11 @@
 
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname.
+
+## Inventory & Resources (Verified Turn 200)
+- Money: ¥623
+- Key Items: Town Map, Pokédex
+- Consumables:
+  - 2x Antidote (Status cure: Poison)
+  - 1x Potion (Restores 20 HP)
+  - 5x Poké Ball (Standard catch rate)
