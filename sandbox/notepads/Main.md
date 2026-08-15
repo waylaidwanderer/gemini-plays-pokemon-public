@@ -3,8 +3,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Pewter Gym (x=4, y=2)
-- Current Objective: Restock at Pokémon Center & Mart, then proceed east along Route 3 towards Mt. Moon
+- Location: Route 3 (x=39, y=18)
+- Current Objective: Traverse Route 3, battle trainers for EXP, catch new Pokémon, and navigate Mt. Moon
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -14,3 +14,4 @@
 - `Locations/ViridianCity`: Viridian City buildings, Mart catalog, Old Man
 - `Locations/ViridianForest`: Forest layout, 3 Bug Catchers, items
 - `Locations/PewterCity`: Pewter City points of interest, Pokémon Center, Pewter Gym
+- `Locations/Route3`: Route 3 layout, trainers, wild encounters
