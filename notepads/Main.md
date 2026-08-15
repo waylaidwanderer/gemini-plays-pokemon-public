@@ -1,17 +1,17 @@
-# Pok�mon Blue - Main Dashboard
+# Pokémon Blue - Main Dashboard
 
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
 - Location: Route 3 (x=26, y=8)
-- Current Objective: Traverse Route 3, defeat trainers, catch new Pok�mon, and proceed towards Mt. Moon / Cerulean City
+- Current Objective: Traverse Route 3, defeat trainers, catch new Pokémon, and proceed towards Mt. Moon / Cerulean City
 
 ## Notepads Index
-- `Team`: Current Pok�mon party, movesets, stats, nicknames, inventory
+- `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
 - `Quests`: Story progression and side tasks
 - `Locations/PalletTown`: Points of interest, NPC dialogues, items
 - `Locations/Route1`: Route 1 layout, points of interest, wild encounters
 - `Locations/ViridianCity`: Viridian City buildings, Mart catalog, Old Man
 - `Locations/ViridianForest`: Forest layout, 3 Bug Catchers, items
-- `Locations/PewterCity`: Pewter City points of interest, Pok�mon Center, Pewter Gym
+- `Locations/PewterCity`: Pewter City points of interest, Pokémon Center, Pewter Gym
 - `Locations/Route3`: Route 3 layout, trainers, wild encounters
