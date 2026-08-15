@@ -89,16 +89,33 @@ def navigate_to(tx, ty):
 
 def main():
     pos = get_pos()
-    print(f"Starting Area 1 (East) detour walk to Northern Plateau. Position: {pos}")
+    print(f"Starting walk to Area 2 (North) southern corridor. Position: {pos}")
     
-    # 2. Walk to northern plateau at (12, 6) using Column 10 detour (since Column 8/9 is blocked by a ledge on row 11)
-    if pos is not None and pos == (8, 12):
-        navigate_to(10, 12)
-        navigate_to(10, 8)
-        navigate_to(12, 8)
-        navigate_to(12, 6)   # climb northern plateau
+    # --- Inside Area 1 East ---
+    if pos is not None and pos == (12, 6):
+        navigate_to(17, 6)
+        navigate_to(17, 8)  # descend stairs
+        navigate_to(20, 8)
+        navigate_to(20, 3)
+        navigate_to(7, 3)
+        navigate_to(7, 5)
+        # Warp to Area 2 (North)
+        print("Warping to Area 2 (North)...")
+        navigate_to(0, 5)
+        pos = get_pos()
+        if pos == (0, 5):
+            walk_step_robust("Left")
+        time.sleep(1.5)
         
-    print(f"Area 1 Chunk 1 detour finished. Final position: {get_pos()}")
+    pos = get_pos()
+    print(f"Position check after Area 1 walk: {pos}")
+    
+    # --- Inside Area 2 North ---
+    if pos is not None and pos[0] >= 30 and pos[1] >= 25:
+        print("Entering Area 2 (North) southern corridor walk...")
+        navigate_to(22, 31)
+        
+    print(f"Walk to (22, 31) finished. Final position: {get_pos()}")
 
 if __name__ == "__main__":
     main()
