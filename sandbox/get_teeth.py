@@ -44,27 +44,12 @@ def walk_step_robust(direction):
     return new_pos
 
 def main():
-    # Golden Route:
-    # 1. Left 8 to (21, 23)
-    # 2. Up 7 to (21, 16) (stairs)
-    # 3. Left 15 to (6, 16)
-    # 4. Down 4 to (6, 20) (stairs)
-    # 5. Left 3 to (3, 20)
-    # 6. Down 6 to (3, 26)
-    # 7. Right 16 to (19, 26)
-    # 8. Up 1 to face UP and bump (19, 25)
-    # 9. Press A to pick up Gold Teeth!
-    
-    path = (
-        ["Left"] * 8 +
-        ["Up"] * 7 +
-        ["Left"] * 15 +
-        ["Down"] * 4 +
-        ["Left"] * 3 +
-        ["Down"] * 6 +
-        ["Right"] * 16 +
-        ["Up"]
-    )
+    # Start at (3, 23)
+    # Path:
+    # 1. Right 18 to (21, 23)
+    # 2. Down 1 to (21, 24)
+    # 3. Left 2 to (19, 24)
+    path = ["Right"] * 18 + ["Down"] + ["Left"] * 2
     
     idx = 0
     stuck_count = 0
@@ -78,7 +63,6 @@ def main():
         new_pos = walk_step_robust(path[idx])
         if new_pos is not None:
             if new_pos != pos:
-                # We moved! Advance path index.
                 idx += 1
                 stuck_count = 0
             else:
@@ -90,9 +74,19 @@ def main():
                     stuck_count = 0
         time.sleep(0.5)
         
-    print(f"Arrived at destination: {get_pos()}. Pressing A to pick up teeth...")
-    bridge.press_buttons(["A", "sleep 1000", "B", "sleep 300"])
-    print(f"Done! Final coordinates: {get_pos()}")
+    print(f"Arrived at (19, 24): {get_pos()}")
+    
+    # Force facing Down
+    print("Facing Down...")
+    bridge.press_buttons(["Down", "sleep 500"])
+    
+    # Press A to pick up item
+    print("Pressing A to pick up Gold Teeth...")
+    bridge.press_buttons(["A", "sleep 1000"])
+    
+    # Take screenshot of the result to verify
+    screenshot = bridge.send_request("/api/screenshot")
+    print("Finished pickup attempt.")
 
 if __name__ == "__main__":
     main()
