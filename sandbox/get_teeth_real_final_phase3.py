@@ -101,19 +101,17 @@ def use_dig_safe():
 
 def main():
     pos = get_pos()
-    print(f"Starting Golden Route at: {pos}")
+    print(f"Starting Golden Route from: {pos}")
     
-    # Golden Plateau Route to Gold Teeth (starting from 18, 24)
+    # We are currently at (6, 23)
+    # Walk Right to Column 9, Down Column 9 to Row 26, then East to teeth
     waypoints = [
-        (21, 18),  # Step 1: Walk to East Stairs base
-        (21, 16),  # Step 2: Climb stairs onto Plateau flat top
-        (6, 16),   # Step 3: Walk across Plateau to West Stairs
-        (6, 20),   # Step 4: Descend stairs to ground level
-        (6, 26),   # Step 5: Walk DOWN to Row 26 Highway
-        (19, 26)   # Step 6: Walk East to stand directly below teeth
+        (9, 23),   # Step 1: Walk to Column 9
+        (9, 26),   # Step 2: Walk DOWN Column 9 to Row 26 Highway
+        (19, 26)   # Step 3: Walk East to stand directly below teeth
     ]
     
-    print("Executing Safari Golden Plateau Route to stand below Gold Teeth...")
+    print("Executing Safari Column 9 Golden Route to stand below Gold Teeth...")
     for i, wp in enumerate(waypoints, 1):
         pos = get_pos()
         if pos is None:
