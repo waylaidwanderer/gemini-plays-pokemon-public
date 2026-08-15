@@ -8,10 +8,10 @@ def get_pos():
     return pos[0], pos[1]
 
 def handle_textbox_or_battle():
-    # Clear text boxes with B
+    print("Coordinates are None. Handling potential battle or dialog...")
     for _ in range(5):
         bridge.press_buttons(["B", "sleep 150"])
-    # Try to RUN
+    print("Attempting to RUN from battle...")
     bridge.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 1000"])
     for _ in range(3):
         bridge.press_buttons(["B", "sleep 150"])
@@ -21,80 +21,73 @@ def walk_step_robust(direction):
     pos = get_pos()
     if pos is None:
         return handle_textbox_or_battle()
-    bridge.press_buttons([direction, "sleep 450"])
+        
+    bridge.press_buttons([direction, "sleep 400"])
+    
     new_pos = get_pos()
     if new_pos is None:
         return handle_textbox_or_battle()
-    if new_pos != pos:
-        return new_pos
-    bridge.press_buttons(["B", "sleep 200"])
-    new_pos = get_pos()
-    if new_pos is None:
-        return handle_textbox_or_battle()
-    if new_pos != pos:
-        return new_pos
-    return handle_textbox_or_battle()
-
-def navigate_to(tx, ty):
-    stuck_count = 0
-    while True:
-        pos = get_pos()
-        if pos is None:
-            handle_textbox_or_battle()
-            continue
-        if pos == (tx, ty):
-            break
-        if pos[0] < tx:
-            direction = "Right"
-        elif pos[0] > tx:
-            direction = "Left"
-        elif pos[1] < ty:
-            direction = "Down"
-        elif pos[1] > ty:
-            direction = "Up"
-        new_pos = walk_step_robust(direction)
-        if new_pos == pos:
-            stuck_count += 1
-            if stuck_count > 3:
-                bridge.press_buttons(["B", "sleep 500"])
-                stuck_count = 0
-        else:
-            stuck_count = 0
-        time.sleep(0.4)
-
-def try_move(direction):
-    pos = get_pos()
-    new_pos = walk_step_robust(direction)
-    if new_pos == pos:
-        return False, new_pos
-    return True, new_pos
+        
+    return new_pos
 
 def main():
-    print("PROBING ROW 25 FOR GAPS FROM COLUMN 20 DOWN TO 0...")
-    gaps = []
-    # Currently we are at (20, 24).
-    # We will walk left along Row 24 to Column 0, and at each column, we try to walk DOWN.
-    for col in range(20, -1, -1):
-        print(f"Navigating to ({col}, 24)...")
-        navigate_to(col, 24)
-        current = get_pos()
-        if current is None:
-            current = handle_textbox_or_battle()
-        if current[0] != col or current[1] != 24:
-            print(f"Could not reach ({col}, 24), we are at {current}")
-            continue
-            
-        print(f"Probing DOWN at ({col}, 24)...")
-        success, new_p = try_move("Down")
-        if success:
-            print(f"!!! GAP FOUND AT COLUMN {col}! Walked to {new_p}")
-            gaps.append(col)
-            # Walk back up to Row 24
+    print("Mapping Row 25 to find open columns...")
+    # We are at (19, 24).
+    # Let's walk Left along Row 24 and try to step Down at each column.
+    # We will go from Column 19 down to Column 2.
+    
+    open_columns = []
+    
+    # First, let's go left. We need to handle blocks on Row 24 (e.g. Columns 16-17 are blocked).
+    # If we hit a block while walking Left, we will detour Up to Row 23, walk Left, and come back Down to Row 24.
+    
+    col = 19
+    while col >= 2:
+        pos = get_pos()
+        if pos is None:
+            pos = handle_textbox_or_battle()
+            if pos is None:
+                continue
+                
+        # Update current column
+        col = pos[0]
+        row = pos[1]
+        print(f"At ({col}, {row}). Probing Down...")
+        
+        # Test Down
+        new_pos = walk_step_robust("Down")
+        if new_pos is not None and new_pos[1] > row:
+            print(f"-> Column {col} is OPEN to the south! Position reached: {new_pos}")
+            open_columns.append(col)
+            # Step back Up to continue probing
             walk_step_robust("Up")
         else:
-            print(f"Column {col} is BLOCKED")
+            print(f"-> Column {col} is BLOCKED.")
             
-    print(f"PROBING COMPLETE. Gaps found at columns: {gaps}")
+        # Try to walk Left to the next column
+        print(f"Trying to walk Left from ({col}, {row})...")
+        new_pos = walk_step_robust("Left")
+        if new_pos is not None and new_pos[0] < col:
+            # Succeeded walking Left
+            continue
+        else:
+            # Blocked walking Left! Let's try to detour Up to Row 23, walk Left, and come back Down
+            print("Blocked walking Left. Detouring Up...")
+            new_pos = walk_step_robust("Up")
+            if new_pos is not None and new_pos[1] < row:
+                # Walk Left on Row 23
+                print("Walking Left on Row 23...")
+                new_pos = walk_step_robust("Left")
+                # Try to come back Down
+                print("Stepping back Down to Row 24...")
+                walk_step_robust("Down")
+            else:
+                print("Could not detour Up! We might be stuck or blocked.")
+                break
+                
+        time.sleep(0.2)
+        
+    print(f"Probing complete. Open columns on Row 25: {open_columns}")
 
 if __name__ == "__main__":
     main()
