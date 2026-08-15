@@ -30,11 +30,58 @@ def walk_step_robust(direction):
     if pos is None:
         return handle_textbox_or_battle()
         
+    print(f"Walking {direction} from {pos}")
     bridge.press_buttons([direction, "sleep 450"])
+    
     new_pos = get_pos()
     if new_pos is None:
         return handle_textbox_or_battle()
-    return new_pos
+        
+    if new_pos != pos:
+        return new_pos
+        
+    print("Position didn't change, pressing B...")
+    bridge.press_buttons(["B", "sleep 200"])
+    new_pos = get_pos()
+    if new_pos is None:
+        return handle_textbox_or_battle()
+    if new_pos != pos:
+        return new_pos
+        
+    return handle_textbox_or_battle()
+
+def navigate_to(tx, ty):
+    stuck_count = 0
+    while True:
+        pos = get_pos()
+        if pos is None:
+            handle_textbox_or_battle()
+            continue
+            
+        if pos == (tx, ty):
+            print(f"Arrived at waypoint ({tx}, {ty})")
+            break
+            
+        print(f"Current: {pos}, Target: ({tx}, {ty})")
+        if pos[0] < tx:
+            direction = "Right"
+        elif pos[0] > tx:
+            direction = "Left"
+        elif pos[1] < ty:
+            direction = "Down"
+        elif pos[1] > ty:
+            direction = "Up"
+            
+        new_pos = walk_step_robust(direction)
+        if new_pos == pos:
+            stuck_count += 1
+            if stuck_count > 3:
+                print("Stuck! Clearing with B...")
+                bridge.press_buttons(["B", "sleep 500"])
+                stuck_count = 0
+        else:
+            stuck_count = 0
+        time.sleep(0.4)
 
 def try_move(direction):
     pos = get_pos()
@@ -44,22 +91,33 @@ def try_move(direction):
     return True, new_pos
 
 def main():
-    print("Probing eastern ground level for south-facing ledges on Row 23...")
-    # We are at (15, 24).
-    # First, let's walk UP to Row 23: (15, 23)
-    walk_step_robust("Up")
-    print(f"Current: {get_pos()}")
+    print("Probing eastern ground level via Row 14 bypass...")
+    # Stand at (17, 23).
+    # Step 1: Walk UP Column 17 to Row 14: (17, 14)
+    # Wait, can we walk UP Column 17 past the Plateau?
+    # No, Column 17 Rows 15-18 has the Plateau!
+    # So we cannot walk UP Column 17 directly!
+    # But we can walk:
+    # 1. LEFT to Column 15 Row 23: (15, 23)
+    # 2. UP to Column 15 Row 14: (15, 14) (this is the ground corridor!)
+    # 3. RIGHT to Column 29 Row 14: (29, 14)
+    # 4. DOWN to Column 29 Row 23: (29, 23)
+    # 5. LEFT along Row 23 to Column 22: (22, 23)
+    print("\n--- STEP 1: Navigating to Column 15 Row 14 ---")
+    navigate_to(15, 23)
+    navigate_to(15, 14)
     
-    # Now walk RIGHT to Column 21 Row 23
-    for _ in range(6):
-        walk_step_robust("Right")
-    print(f"Current at Column 21 Row 23: {get_pos()}")
+    print("\n--- STEP 2: Navigating to Column 29 Row 14 ---")
+    navigate_to(29, 14)
     
-    # Probe DOWN on Columns 21, 22, 23, 24, 25, 26, 27, 28, 29
-    # Wait, we know Column 21 Row 25 is blocked by a solid cliff wall.
-    # Let's probe DOWN on columns 22 to 29 on Row 23!
-    for col in range(21, 30):
-        print(f"\nProbing DOWN at column {get_pos()[0]} Row {get_pos()[1]}...")
+    print("\n--- STEP 3: Navigating to Column 29 Row 23 ---")
+    navigate_to(29, 23)
+    
+    # Step 4: Walk LEFT along Row 23 and probe DOWN on Columns 28 to 22
+    print("\n--- STEP 4: Probing DOWN on Columns 28 to 22 ---")
+    for col in range(28, 21, -1):
+        navigate_to(col, 23)
+        print(f"\nProbing DOWN at Column {get_pos()[0]} Row {get_pos()[1]}...")
         success, p = try_move("Down")
         if success:
             print(f"SUCCESS! Walked DOWN to {p}")
@@ -72,14 +130,7 @@ def main():
         else:
             print("DOWN is BLOCKED")
             
-        # Move Right to next column
-        print("Moving Right...")
-        success, p = try_move("Right")
-        if not success:
-            print(f"Blocked going Right at {get_pos()}")
-            break
-            
-    print(f"\nFinal probe position: {get_pos()}")
+    print(f"Final position: {get_pos()}")
 
 if __name__ == "__main__":
     main()
