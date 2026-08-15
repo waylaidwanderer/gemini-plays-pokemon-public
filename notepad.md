@@ -1380,7 +1380,6 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 - Silph Scope: Collected at (25, 2) on Turn 54957 after defeating Boss Giovanni [IN BAG].
 
 ## Objectives & Layout Strategy
-- West Wing (Stairs at 19, 10): Contains Lift Key Grunt (11, 2) and pickup items.
 - East Wing (Giovanni's Chamber): Separated by solid walls; accessible exclusively via Elevator from upper floors.
 ## East Wing & Giovanni's Chamber Approach
 - Guard Grunt West: Located at (23, 12).
@@ -1489,6 +1488,26 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 
 ## Wild Pokémon (Silph Scope Verified)
 - Gastly (Lv18-24) [Identified by Silph Scope].
+
+
+<hr>
+
+<h1><code>Locations/Pokemon_Tower_4F</code></h1>
+
+# Pokémon Tower 4F Verified Topography
+
+## Key Warps & Stairs
+- Staircase (Down to 3F): Located at (18, 9) on the East wall.
+- Staircase (Up to 5F): Located at (3, 9) on the West wall.
+
+## Floor Layout & Corridors
+- East Wing Landing: (18, 9) down-stairs landing.
+- Row 9 / Row 8 Main Highway: Open diamond grid floor extending West across Columns 18..3.
+- Tombstone Clusters: Located along Rows 6, 10, 11, 12, 13 across middle columns.
+
+## NPCs & Trainers
+- Channeler: Located at (15, 7) / (15, 8). Gastly Lv23, Gastly Lv23. Defeated Turn 55112.
+- Channeler / NPC: Located at (14, 12).
 
 
 <hr>
