@@ -2,7 +2,7 @@
 
 ## Connections
 - West: Pewter City [Entered Turn 325]
-- East: Path continues east along Route 3 [Exploring]
+- East: Mt. Moon 1F [Entered Turn 447 at (58, 4..5)]
 
 ## NPCs & Points of Interest
 - Rest Boy NPC: Located at (57, 11) [Observed Turn 417]. Mentions resting outside the tunnel from Cerulean.
