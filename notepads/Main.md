@@ -3,8 +3,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 0/8
-- Location: Viridian Forest (Heading North to Pewter City)
-- Current Objective: Navigate northern Viridian Forest with Lv 12 HYDROS, defeat remaining trainers, and defeat Brock in Pewter City
+- Location: Pewter City (x=18, y=35)
+- Current Objective: Heal HYDROS at Pokémon Center, navigate to Pewter Gym, and defeat Gym Leader Brock for the Boulder Badge
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames

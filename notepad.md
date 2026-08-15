@@ -5,8 +5,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 0/8
-- Location: Viridian Forest (Heading North to Pewter City)
-- Current Objective: Navigate northern Viridian Forest with Lv 12 HYDROS, defeat remaining trainers, and defeat Brock in Pewter City
+- Location: Pewter City (x=18, y=35)
+- Current Objective: Heal HYDROS at Pokémon Center, navigate to Pewter Gym, and defeat Gym Leader Brock for the Boulder Badge
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames
@@ -133,6 +133,26 @@
 - Main eastern highway runs north along columns 26-27
 - Item ball at (25, 11): Antidote [Collected Turn 239, Verified in Bag Turn 245]
 - Far-west exit corridor: Accessed via horizontal opening at row 22-24 (columns 2-8)
+
+
+<hr>
+
+<h1><code>Locations/PewterCity</code></h1>
+
+# Pewter City - Points of Interest & Notes
+
+## Connections
+- South: Route 2 / Viridian Forest (y=35) [Entered Turn 285]
+- East: Route 3 (Heading to Mt. Moon)
+
+## Buildings & Verified Points of Interest
+- Pokémon Center: Located around (13..15, 25) - Free healing & PC
+- Pokémart: Located around (23, 17)
+- Pewter Gym: Located around (16, 17) - Gym Leader Brock (Boulder Badge)
+- Pewter Museum of Science: Located at north (y=7)
+
+## Verified NPCs & Dialogue
+- (To be documented)
 
 
 <hr>
