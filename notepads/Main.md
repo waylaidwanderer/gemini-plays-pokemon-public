@@ -10,4 +10,4 @@
 - `Team`: Current Pokémon party, movesets, stats, nicknames
 - `Locations/PalletTown`: Points of interest, NPC dialogues, items
 - `Quests`: Story progression and side tasks
-- `Mechanics/Battle`: Gen 1 mechanics notes and verifications
+- `Locations/Route1`: Route 1 layout, points of interest, wild encounters

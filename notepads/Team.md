@@ -7,8 +7,5 @@
    - Moves: Tackle, Tail Whip
    - Role: Starter & primary Water/Ice special attacker
 
-## Battle Strategy Notes
-- (Rival Battle 1 completed: Victory against RED's Bulbasaur Lv 5)
-
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname.
