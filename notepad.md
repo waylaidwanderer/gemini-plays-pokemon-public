@@ -955,7 +955,6 @@ Systematically probe every potential building doorway and alleyway warp in South
 ## Key Entrances & Locations
 - Main Rocket Game Corner Casino: Outdoor Celadon City door at (28, 19) with signpost at (27, 21) "ROCKET GAME CORNER - The playground for grown-ups!".
 - Prize Exchange: Celadon City building adjacent to Game Corner.
-- Celadon Pokémon Center: Celadon City door at (41, 9).
 
 ## Casino Floor & Secret Hideout Access
 - Entrance/Exit Mat: Located at (15, 17) and (16, 17) in Main Game Corner.
@@ -1242,11 +1241,15 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 ## Floor Layout & Corridors
 - Landing: Spans Columns 21..28, Rows 5..8.
 - Dividing Wall: Horizontal wall at (22..25, 9).
+- Column 21 Dividing Wall: Vertical wall at Column 21 (x=21, y=8..14) separating East corridor from West Wing.
 - East Bypass: Column 27 (Rows 6..10) connects around the dividing wall into Row 10.
 - South Corridor Grunt: Defeated at (26, 11).
 
+## Items & Pickups
+- Floor Item: Located at (20, 14) in West corridor.
+
 ## Objectives
-- Defeat South Corridor Grunt -> Explore West across B3F -> Find Lift Key / Stairs to B4F -> Defeat Giovanni.
+- Navigate Row 5 into West Wing -> Collect item at (20, 14) -> Explore West Wing -> Find Lift Key / Stairs to B4F -> Defeat Giovanni.
 
 <hr>
 
