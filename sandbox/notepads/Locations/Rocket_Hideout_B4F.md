@@ -2,7 +2,7 @@
 
 ## Key Warps & Stairs
 - Staircase (Up to B3F): Located at (19, 10).
-- Elevator: Located at (24, 11).
+- Elevator (East Wing): Located at (24..25, 15).
 
 ## Floor Layout & Passages
 - Central Hall: Spans Columns 17..20, Rows 2..14.
