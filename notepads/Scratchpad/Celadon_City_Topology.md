@@ -32,3 +32,5 @@
 - Column 34 (x=34) contains a continuous solid barrier of double barrels at y=5..11 and statue at y=12.
 - Outdoor traversal between West Celadon (x<=34) and East Celadon (x>=35) is 100% BLOCKED outdoors.
 - Master Route to East Celadon: Exit West Celadon at (0, 5) -> Route 7 -> Saffron West Gatehouse -> Saffron City Row 7 gap (17, 7) -> Saffron East Gatehouse -> East Celadon (49, 15) -> Column 36 at (36, 15) -> South through tree gap (36, 28) to Row 30 South Street.
+## Direct Central-South Highway (Discovered Turn 54655)
+- Columns 22..25 across Rows 22..31 form a wide, completely open light brown pavement avenue connecting Row 22/23 North Avenue directly South into the South Celadon Game Corner plaza!
