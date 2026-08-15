@@ -255,8 +255,8 @@
 - Trainer #1: Located at (16, 23) facing West/North [Observed Turn 469]
 
 ## Empirical Wild Encounters
-- Zubat Lv 6 [Encountered Turn 477 at (22, 10), Defeated Turn 489 at (28, 10)]
-- Geodude [Encountered Turn 492 at (35, 7)]
-
+- Zubat Lv 6 [Encountered Turn 477 at (22, 10), Nicknamed ECHO]
+- Zubat Lv 6 [Encountered & Defeated Turn 489 at (28, 10)]
+- Geodude Lv 8 [Encountered Turn 492, Caught Turn 496 at (35, 7), Nicknamed TERRA]
 
 <hr>
