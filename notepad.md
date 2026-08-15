@@ -99,11 +99,11 @@
 # Viridian Forest - Points of Interest & Notes
 
 ## Connections
-- South: Route 2 Gatehouse (y=47)
-- North: Route 2 North Gatehouse / Pewter City
+- South: Route 2 Gatehouse (y=47) [Verified Turn 123]
+- North: Unverified northern exit (heading north)
 
 ## Verified Trainers
-- (None fought yet)
+- Bug Catcher #1: Located at (30, 33) facing west, triggers at (26, 33) [Turn 145]. Team: Weedle Lv 6 (observed moves: String Shot, Poison Sting), Caterpie Lv 6.
 
 ## Empirical Wild Encounters
 - Caterpie Lv 3 [Turn 129]
