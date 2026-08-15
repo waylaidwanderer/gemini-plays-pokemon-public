@@ -88,27 +88,15 @@ def navigate_to(tx, ty):
         time.sleep(0.1)
 
 def main():
-    pos = get_pos()
-    print(f"Starting Phase 1 overworld walk. Position: {pos}")
+    # 1. Dismiss battle text box first (pressing B once)
+    print("Dismissing 'Got away safely!' text box...")
+    bridge.press_buttons(["B", "sleep 500"])
     
-    # --- Inside Safari Center ---
-    if pos is not None and pos == (27, 12):
-        navigate_to(27, 10)
-        # Warp to Area 1 East at (0, 22)
-        print("Warping to Area 1 East...")
-        navigate_to(29, 10)
-        pos = get_pos()
-        if pos == (29, 10):
-            walk_step_robust("Right")
-        time.sleep(1.5)
-        
     pos = get_pos()
-    print(f"Position inside Area 1 East: {pos}")
+    print(f"Starting overworld walk. Position: {pos}")
     
     # --- Inside Area 1 East ---
-    if pos is not None and pos[0] <= 2 and pos[1] >= 20:
-        navigate_to(0, 24)
-        navigate_to(20, 24)
+    if pos is not None and pos[0] <= 21 and pos[1] >= 20:
         navigate_to(20, 22)
         navigate_to(20, 20)  # Climb plateau
         navigate_to(12, 20)
