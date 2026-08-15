@@ -3,8 +3,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon Exterior Plaza (x=16, y=7)
-- Current Objective: Enter Pokémon Center at (11, 5) to heal HYDROS, then enter Mt. Moon cave at (18, 5)
+- Location: Route 3 Pokémon Center (x=3, y=7)
+- Current Objective: Heal party with Nurse Joy, then exit to (18, 5) and enter Mt. Moon cave
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
