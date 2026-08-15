@@ -1023,8 +1023,8 @@ Systematically probe every potential building doorway and alleyway warp in South
 # Celadon Game Corner & Prize Exchange Verified Topography
 
 ## Key Entrances & Locations
-- Main Game Corner Casino Floor: Outdoor Celadon City door at (17, 13) enters True Main Casino Floor at (3, 7).
-- Prize Exchange: Celadon City door at (23, 19).
+- Main Rocket Game Corner Casino: Outdoor Celadon City door at (28, 19) with signpost at (27, 21) "ROCKET GAME CORNER - The playground for grown-ups!".
+- Prize Exchange: Celadon City building adjacent to Game Corner.
 - Celadon Pokémon Center: Celadon City door at (41, 9).
 
 ## Casino Floor & Secret Hideout Access
