@@ -1,5 +1,5 @@
 ## CURRENT STATUS & DASHBOARD (Turn 55545)
-- Location: Route 8 at (42, 14) -> Heading North to Row 10 pavement and West towards Saffron City.
+- Location: Route 8 at (41, 8) -> Moving Up to Row 6 Northern Corridor and West towards Saffron City.
 - Primary Goal: Travel to Route 16 to awaken Snorlax with Poké Flute and obtain HM02 Fly.
 - Secondary Goal: Defeat Gym Leader Erika at Celadon Gym for the Rainbow Badge.
 - Active Strategy: Walk Up to Row 10 -> Travel West across Route 8 -> Pass through Saffron City -> Exit West to Route 7 / Celadon / Route 16 -> Use Poké Flute on Snorlax -> Obtain HM02 Fly!
