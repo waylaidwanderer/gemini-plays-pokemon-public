@@ -97,19 +97,13 @@ def use_dig_safe():
 
 def main():
     pos = get_pos()
-    print(f"Starting Phase 4 (Area 3 to Gold Teeth) from: {pos}")
+    print(f"Starting Ledge Jump Shortcut to Gold Teeth from: {pos}")
     
     waypoints = [
-        (26, 2),   # Down to Row 2
-        (25, 2),   # Left to Column 25
-        (25, 18),  # Down along Column 25 to Row 18
-        (21, 18),  # Left along Row 18 to Column 21
-        (21, 16),  # Climb East Stairs to Plateau
-        (6, 16),   # Left on Plateau to Column 6
-        (6, 18),   # Align with West Stairs
-        (6, 20),   # Descend West Stairs to Row 20
-        (6, 26),   # Walk DOWN to Row 26 Highway
-        (19, 26)   # Walk EAST along Row 26 Highway directly below Gold Teeth
+        (12, 23),  # Step 1: Walk LEFT to Column 12
+        (12, 24),  # Step 2: Walk DOWN to Row 24
+        (12, 26),  # Step 3: Jump DOWN over the ledge onto Row 26
+        (19, 26)   # Step 4: Walk RIGHT along the Row 26 Highway
     ]
     
     for i, wp in enumerate(waypoints, 1):
