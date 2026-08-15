@@ -1565,6 +1565,12 @@ We have empirically verified that Column 28 is 100% OPEN and walkable on Rows 12
 - **Area 3 (West) to Safari Zone Center direct warp:** Emerge at (30, 23) in Area 3 (West), walk RIGHT 1 step to transition directly to (0, 11) in Safari Zone Center.
 - **Safari Zone Center to Area 3 (West) direct warp:** Stand at (0, 11) in Safari Zone Center, walk LEFT 1 step to transition directly to (29, 23) in Area 3 (West).
 - This shortcut completely bypasses the Area 1 (East) and Area 2 (North) plateau detours for subsequent trips once inside the Northwest Compartment of Safari Zone Center.
+## 🧪 Newly Verified Physical Barriers & Shrub Blockages (Turns 40126 - 40291)
+- **Column 15 Shrub Block (Area 3 West):** Solid green checkerboard shrub located at `(15, 25)` completely blocks horizontal/vertical passage on Column 15. The '100% Battle-Free' Column 15 path is physically blocked by this shrub.
+- **Row 24/25 Eastern Shrub Block (Area 3 West):** Solid green shrubs run horizontally on Row 24/25 across Column 18 and Columns 20-22, completely blocking downward ground-level passage to Row 26.
+- **Column 19 Ground Path (Area 3 West):** Column 19 is open to Row 24, but is blocked at `(19, 25)` by the solid Gold Teeth item ball itself. It cannot be crossed from north to south.
+- **Accessing Row 26 (Area 3 West):** The southern ground-level Row 26 Highway must be approached by descending the plateau West Stairs at `(6, 19)` onto the western ground grass (Columns 2-9), and walking down/east from the west side, completely bypassing the blocked eastern passage.
+
 
 <hr>
 
