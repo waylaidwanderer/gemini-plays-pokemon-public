@@ -1,10 +1,10 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 54721)
-- Location: Rocket Hideout B1F at (12, 14).
+## CURRENT STATUS & DASHBOARD (Turn 54751)
+- Location: Rocket Hideout B1F at (28, 9).
 - Primary Goal: Infiltrate Main Rocket Hideout in Celadon City to obtain Silph Scope.
-- Secondary Goal: Explore Rocket Hideout B1F and find stairs to B2F.
-- Active Strategy: Collected item at (11, 14) -> Check Bag -> Navigate around wall to reach lower room (item at 9, 17) and locate stairs to B2F.
+- Secondary Goal: Explore Rocket Hideout B1F Northeast sector to locate stairs down to B2F.
+- Active Strategy: Pass through (25, 8) gap -> Move North along Column 25 into Northeast sector (Rows 1..4, Columns 25..28) -> Locate and verify stairs down to B2F.
 - Note: Celadon Pokémon Center registered as Teleport anchor. LUNA (Clefable) knows Teleport (TM30); SHELLSHOCK knows Dig; CUTTER knows Cut.
 
 <hr>
@@ -920,25 +920,6 @@
 
 <hr>
 
-<h1><code>Scratchpad/Celadon_City_Topology</code></h1>
-
-# Verified Celadon City Outdoor Topology
-
-## Key Verified Buildings & Doors
-- Celadon Pokémon Center: Door at (41, 9).
-- Celadon Poké Mart / Dept Store: Door at (23, 13).
-- Celadon Prize Exchange: Door at (23, 19).
-- Celadon Mansion: Door at (9, 13) / (17, 13).
-- Celadon Diner: Door at (35, 27) [NPC mentions no secret switch behind poster].
-- Celadon Hotel: Door at (31, 27) [NPC reveals: "Psst! There's a basement under the GAME CORNER!"].
-- Cut Tree at (35, 32): Leads south to lower grass area.
-
-## Direct Central-South Highway (Discovered Turn 54655)
-- Columns 22..25 across Rows 22..31 form a wide, completely open light brown pavement avenue connecting Row 22/23 North Avenue directly South into the South Celadon Courtyard!
-- Column 36 Pass: Passable gap at (36, 15) between barrels.
-
-<hr>
-
 <h1><code>Scratchpad/Celadon_South_Courtyard_Testing</code></h1>
 
 # Celadon South Courtyard & Game Corner Entrance Empirical Testing Plan
@@ -1028,7 +1009,7 @@ Systematically probe every potential building doorway and alleyway warp in South
 - North Grunt: Defeated at (13, 6).
 - South Passage Gap: Located at Columns 11..12 at Row 8 (11..12, 8), connecting Upper Corridor down into South Wing (y>=9).
 ## Items & Pickups
-- Floor Item 1: Located at (11, 14) in B1F Central Table Room [Collected Turn 54720].
+- Floor Item 1: Located at (11, 14) in B1F Central Table Room [ESCAPE ROPE - Collected Turn 54720].
 - Floor Item 2: Located at (9, 17) in B1F Southwest Room.
 - East Grunt: Located at (26, 8) guarding the East Wing corridor.
 
