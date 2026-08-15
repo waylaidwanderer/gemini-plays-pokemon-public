@@ -5,8 +5,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Pewter Gym (x=4, y=2)
-- Current Objective: Restock at Pokémon Center & Mart, then proceed east along Route 3 towards Mt. Moon
+- Location: Route 3 (x=39, y=18)
+- Current Objective: Traverse Route 3, battle trainers for EXP, catch new Pokémon, and navigate Mt. Moon
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -16,6 +16,7 @@
 - `Locations/ViridianCity`: Viridian City buildings, Mart catalog, Old Man
 - `Locations/ViridianForest`: Forest layout, 3 Bug Catchers, items
 - `Locations/PewterCity`: Pewter City points of interest, Pokémon Center, Pewter Gym
+- `Locations/Route3`: Route 3 layout, trainers, wild encounters
 
 
 <hr>
@@ -172,6 +173,27 @@
 - Jr. Trainer ♂: Located at (3, 6) inside Pewter Gym [Defeated Turn 302]. Team: Diglett Lv 11, Sandshrew Lv 11. Reward: ¥220.
 - Gym Leader Brock: Located at (4, 1) inside Pewter Gym [Defeated Turn 310]. Team: Geodude Lv 12, Onix Lv 14. Reward: Boulder Badge, TM34 Bide, ¥1386.
 - Pokémart Clerk: Located at (0, 5) inside Pewter Pokémart [Turn 321]
+
+
+<hr>
+
+<h1><code>Locations/Route3</code></h1>
+
+# Route 3 - Points of Interest & Notes
+
+## Connections
+- West: Pewter City [Entered Turn 325]
+- East: Mt. Moon
+
+## Layout & Landmarks
+- Mountain path flanked by rock cliffs on north and south
+- Tall grass patch at entrance (columns 42+)
+
+## Verified Trainers
+- (Documenting upon encounter)
+
+## Empirical Wild Encounters
+- (Documenting upon encounter)
 
 
 <hr>
