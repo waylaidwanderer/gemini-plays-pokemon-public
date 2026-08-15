@@ -26,17 +26,17 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. HYDROS (Squirtle -> Wartortle) - Lv 16
-   - Stats (Verified at Lv 16): Atk 23, Def 27, Spe 25, Spc 26, Max HP 44 (HP: 30/44, Healthy - Grew to Lv 16 Turn 340)
+1. HYDROS (Wartortle) - Lv 16
+   - Stats (Verified at Lv 16): Max HP 44 (HP: 27/44, Healthy - Evolved Turn 341)
    - Type: Water
-   - Moves: Tackle (34/35), Tail Whip (30/30), Bubble (30/30), Water Gun (19/25)
+   - Moves: Tackle (34/35), Tail Whip (30/30), Bubble (27/30), Water Gun (18/25)
    - Role: Starter & primary Water special attacker
 
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
-## Inventory & Resources (Verified Turn 334)
-- Money: ¥489 (+ Youngster prize money pending)
+## Inventory & Resources (Verified Turn 341)
+- Money: ¥713 (¥489 + ¥224 from Youngster #2)
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Pokémon Attack)
 - Key Items: Town Map, Pokédex
 - TMs / HMs: TM34 (Bide)
@@ -197,7 +197,7 @@
 ## Verified Trainers
 - Youngster #1: Located at (10, 6) facing East [Observed Turn 327]
 - Bug Catcher #1: Located at (14, 4) facing South [Defeated Turn 334-335]. Team: Caterpie Lv 10, Weedle Lv 10, Caterpie Lv 10. Reward: ¥100.
-- Youngster #2 (Shorts Guy): Located at (14, 5) facing South, triggered at (14, 6) [Turn 336, In Battle Turn 337-338]. Team: Rattata Lv 11, Ekans Lv 11.
+- Youngster #2 (Shorts Guy): Located at (14, 5) facing South, triggered at (14, 6) [Defeated Turn 341]. Team: Rattata Lv 11, Ekans Lv 11. Reward: ¥224.
 - Trainer (Lass / Jr. Trainer ♀): Located at (19, 5) facing South/West [Observed Turn 336]
 - Trainer (East): Located at (16, 8..9) facing West [Observed Turn 329]
 
