@@ -89,27 +89,10 @@ def navigate_to(tx, ty):
 
 def main():
     pos = get_pos()
-    print(f"Starting Phase 4 overworld walk. Position: {pos}")
+    print(f"Starting Area 3 walk directly to Gold Teeth. Position: {pos}")
     
-    # --- Inside Area 2 North ---
-    if pos is not None and pos[1] >= 25 and pos[0] < 20:
-        navigate_to(12, 28)
-        navigate_to(12, 30)
-        navigate_to(8, 30)
-        navigate_to(8, 35)
-        # Warp to Area 3 (West)
-        print("Warping to Area 3 (West)...")
-        navigate_to(8, 36)
-        pos = get_pos()
-        if pos == (8, 36):
-            walk_step_robust("Down")
-        time.sleep(1.5)
-        
-    pos = get_pos()
-    print(f"Position inside Area 3 West: {pos}")
-    
-    # --- Inside Area 3 West ---
-    if pos is not None and pos[1] <= 5:
+    # We are at (26, 0)
+    if pos is not None and pos == (26, 0):
         navigate_to(26, 2)
         navigate_to(25, 2)
         navigate_to(25, 18)
@@ -124,9 +107,9 @@ def main():
         pos = get_pos()
         if pos == (19, 26):
             print("Arrived at Gold Teeth pick-up location!")
-            # Face UP
+            # Ensure we face UP
             bridge.press_buttons(["Up", "sleep 250"])
-            # Retrieve Gold Teeth
+            # Press A to retrieve Gold Teeth
             print("Pressing A to retrieve Gold Teeth...")
             bridge.press_buttons(["A", "sleep 1200"])
             
@@ -135,7 +118,7 @@ def main():
                 bridge.press_buttons(["B", "sleep 300"])
                 
     pos = get_pos()
-    print(f"Phase 4 finished. Final position: {pos}")
+    print(f"Final script position: {pos}")
 
 if __name__ == "__main__":
     main()
