@@ -88,23 +88,8 @@ def navigate_to(tx, ty):
         time.sleep(0.4)
 
 def main():
-    print("Closing Warden dialogue...")
-    # Clear the "Hif fuff hefifoo!" textbox
-    bridge.press_buttons(["B", "sleep 400", "B", "sleep 400"])
-    
     pos = get_pos()
-    print(f"Starting Phase 1 from: {pos}")
-    
-    if pos == (3, 3):
-        # Walk DOWN to (4, 7) (doormat)
-        navigate_to(4, 3)
-        navigate_to(4, 7)
-        # Exit Warden's House
-        print("Exiting Warden's House...")
-        bridge.press_buttons(["Down", "sleep 1500"])
-        
-    pos = get_pos()
-    print(f"Position outside: {pos}")
+    print(f"Starting overworld walk to Safari Gatehouse from: {pos}")
     
     if pos == (27, 28):
         # Walk DOWN to Row 30: (27, 30)
@@ -128,7 +113,7 @@ def main():
         bridge.press_buttons(["Up", "sleep 1500"])
         
     pos = get_pos()
-    print(f"Phase 1 complete! Final position: {pos}")
+    print(f"Final position: {pos}")
 
 if __name__ == "__main__":
     main()
