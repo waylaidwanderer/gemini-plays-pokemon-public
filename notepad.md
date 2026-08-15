@@ -750,13 +750,13 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 55305)
-- Location: Pokémon Tower 7F at (10, 9).
+## CURRENT STATUS & DASHBOARD (Turn 55321)
+- Location: Pokémon Tower 7F at (10, 9) [In combat vs Rocket Grunt 1].
 - Primary Goal: Clear Pokémon Tower in Lavender Town using the Silph Scope to rescue Mr. Fuji.
-- Secondary Goal: Defeat 3 Team Rocket Grunts on 7F.
-- Active Strategy: Arrived on 7F via (9, 16) stairs -> Engaged Rocket Grunt 1 at (11, 9) -> Defeat all 3 Grunts using Hitmonlee Lv30 / party -> Talk to Mr. Fuji at top of 7F -> Teleport to Lavender Town Pokémon House -> Receive Poké Flute!
+- Secondary Goal: Defeat all 3 Team Rocket Grunts on 7F.
+- Active Strategy: Battling Rocket Grunt 1 at (11, 9) -> Defeat Grunt 1's Drowzee using Cutter (Leech Life 2x SE) / party -> Defeat Grunt 2 at (9, 7) and Grunt 3 -> Talk to Mr. Fuji at (10, 3) altar -> Teleport to Lavender Town -> Receive Poké Flute!
 - Key Items: SILPH SCOPE [ACQUIRED & VERIFIED], LIFT KEY [ACQUIRED], TM07 Horn Drill [ACQUIRED], BICYCLE [EQUIPPED].
-- Party Status: LUNA (Clefable Lv10, HP 32/38), BRUDF (Hitmonlee Lv30, HP 73/73), SHELLSHOCK (Blastoise Lv54, FAINTED), CUTTER (Paras Lv14), SPROUT (Bellsprout Lv15).
+- Party Status: CUTTER (Paras Lv14, HP 39/39, ASLEEP), LUNA (Clefable Lv11, HP 16/40), SPROUT (Bellsprout Lv15, HP 40/40), SHELLSHOCK (Blastoise Lv54, FAINTED), BRUDF (Hitmonlee Lv30, FAINTED).
 
 <hr>
 
@@ -1623,5 +1623,26 @@ Locate and verify the active warp tile leading to Pokémon Tower 7F.
 - Warp Trigger Analysis: In Gen 1, warps trigger upon taking a valid step that lands on the warp coordinate (9, 16). Player at (11, 16) stepping Left to (10, 16) then Left onto (9, 16) will trigger the active warp to 7F.
 - Turn 55265: Stepping from (10, 16) Left onto (9, 16) did not trigger a warp. Testing West wing (3, 9) to verify if 6F follows the even-floor layout (2F/4F UP stairs at 3, 9). Routing from (10, 15) to (6, 6) to probe (3, 9).
 - Turns 55265-55275: Systematic probing confirmed: (3, 9) has tombstones (no stairs); (9..12, 16) South corridor is a dead-end floor alcove (no active warp). Moving via Row 10 to probe unexplored Southeast wing (Columns 15..18, Rows 10..16).
+
+<hr>
+
+<h1><code>Locations/Pokemon_Tower_7F.md</code></h1>
+
+# Pokémon Tower 7F Topography & Objectives
+
+## Key Warps & Stairs
+- Staircase (Down to 6F): Located at (9, 16) [South].
+
+## Floor Layout & NPCs
+- South Corridor: Column 10 (Rows 9..16) connects staircase at (9, 16) to central aisle.
+- Central Hallway: Spans Rows 3..9 along Columns 9..11.
+- Rocket Grunt 1: Located at (11, 9) [Engaged Turn 55305 - Koffing Lv26 defeated, Drowzee Lv26 in combat].
+- Rocket Grunt 2: Located at (9, 7).
+- Rocket Grunt 3: Located further North guarding the altar approach.
+- Mr. Fuji: Located at the top altar dais at (10, 3).
+
+## Objective
+- Defeat all 3 Team Rocket Grunts in sequence.
+- Speak to Mr. Fuji to liberate Pokémon Tower and receive the Poké Flute!
 
 <hr>
