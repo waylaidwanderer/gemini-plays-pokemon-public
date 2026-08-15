@@ -15,27 +15,23 @@ def get_pos():
     return pos[0], pos[1]
 
 def main():
-    print("Closing Trainer Card and using CUT...")
+    print("Currently on GUSTY's stats screen. Performing CUT sequence...")
     
-    # 1. Close Trainer Card (returns to START menu with cursor on ACE)
+    # 1. Close stats screen (returns to POKÉMON menu with cursor on GUSTY / slot 3)
     bridge.press_buttons(["B", "sleep 600"])
     
-    # 2. From ACE (4), move UP 2 times to POKÉMON (2)
-    print("Moving from ACE to POKÉMON...")
-    bridge.press_buttons(["Up", "sleep 200", "Up", "sleep 200"])
+    # 2. Press UP once to select TRUFFLE (slot 2)
+    print("Moving from GUSTY to TRUFFLE...")
+    bridge.press_buttons(["Up", "sleep 200"])
     
-    # 3. Open POKÉMON menu
-    bridge.press_buttons(["A", "sleep 1200"])
+    # 3. Press A to select TRUFFLE
+    bridge.press_buttons(["A", "sleep 1000"])
     
-    # 4. Move from SHELLBY (slot 1) to TRUFFLE (slot 2) and select
-    print("Selecting TRUFFLE...")
-    bridge.press_buttons(["Down", "sleep 300", "A", "sleep 1000"])
-    
-    # 5. Select CUT (first option)
+    # 4. Press A to select CUT (first option)
     print("Executing CUT...")
     bridge.press_buttons(["A", "sleep 3000"])
     
-    # 6. Walk UP through the cut bush to (26, 12)
+    # 5. Walk UP through the cut bush to (26, 12)
     print("Walking UP through the cut bush...")
     bridge.press_buttons(["Up", "sleep 500", "Up", "sleep 500"])
     
