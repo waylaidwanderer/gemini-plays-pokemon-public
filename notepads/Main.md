@@ -3,8 +3,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon 1F (x=12, y=9)
-- Current Objective: Explore Mt. Moon 1F, defeat trainers, collect items, catch wild Pokémon, and navigate towards Cerulean City
+- Location: Mt. Moon Exterior Plaza (x=16, y=7)
+- Current Objective: Enter Pokémon Center at (11, 5) to heal HYDROS, then enter Mt. Moon cave at (18, 5)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
