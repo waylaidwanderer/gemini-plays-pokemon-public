@@ -756,7 +756,7 @@
 - Secondary Goal: Defeat all 3 Team Rocket Grunts on 7F.
 - Active Strategy: Battling Rocket Grunt 1 at (11, 9) -> Defeat Grunt 1's Drowzee using Cutter (Leech Life 2x SE) / party -> Defeat Grunt 2 at (9, 7) and Grunt 3 -> Talk to Mr. Fuji at (10, 3) altar -> Teleport to Lavender Town -> Receive Poké Flute!
 - Key Items: SILPH SCOPE [ACQUIRED & VERIFIED], LIFT KEY [ACQUIRED], TM07 Horn Drill [ACQUIRED], BICYCLE [EQUIPPED].
-- Party Status: SPROUT (Bellsprout Lv15, HP 40/40), LUNA (Clefable Lv11, HP 16/40), CUTTER (Paras Lv14, FAINTED), SHELLSHOCK (Blastoise Lv54, FAINTED), BRUDF (Hitmonlee Lv30, FAINTED).
+- Party Status: LUNA (Clefable Lv11, HP 16/40), SPROUT (Bellsprout Lv15, FAINTED), CUTTER (Paras Lv14, FAINTED), SHELLSHOCK (Blastoise Lv54, FAINTED), BRUDF (Hitmonlee Lv30, FAINTED).
 
 <hr>
 
