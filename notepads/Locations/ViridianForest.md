@@ -21,5 +21,5 @@
 - Signpost at (24, 40)
 - Main eastern highway runs north along columns 26-27
 - Item ball at (25, 11): Antidote [Collected Turn 239, Verified in Bag Turn 245]
-- Bug Catcher #3: Located at (2, 18) facing south in far-west exit corridor [Spotted Turn 261]
+- Bug Catcher #3: Located at (2, 18) facing south in far-west exit corridor [Defeated Turn 267]. Team: Weedle Lv 9. Reward: �90.
 - Far-west exit corridor: Accessed via horizontal opening at row 22-24 (columns 2-8)

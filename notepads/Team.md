@@ -2,7 +2,7 @@
 
 ## Active Party
 1. HYDROS (Squirtle) - Lv 12
-   - Stats (Verified at Lv 12): Atk 19, Def 21, Spe 19, Spc 20, Max HP 35 (HP: 29/35, Healthy)
+   - Stats (Verified at Lv 12): Atk 19, Def 21, Spe 19, Spc 20, Max HP 35 (HP: 27/35, PSN - curing with Antidote)
    - Type: Water
    - Moves: Tackle, Tail Whip, Bubble
    - Role: Starter & primary Water/Ice special attacker
