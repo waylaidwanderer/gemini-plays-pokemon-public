@@ -1221,7 +1221,7 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 - Landing: Spans Columns 21..28, Rows 5..8.
 - Dividing Wall: Horizontal wall at (22..25, 9).
 - East Bypass: Column 27 (Rows 6..10) connects around the dividing wall into Row 10.
-- South Corridor Grunt: Engaged at (26, 11) facing North.
+- South Corridor Grunt: Defeated at (26, 11).
 
 ## Objectives
 - Defeat South Corridor Grunt -> Explore West across B3F -> Find Lift Key / Stairs to B4F -> Defeat Giovanni.
