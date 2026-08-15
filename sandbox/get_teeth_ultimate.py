@@ -59,8 +59,8 @@ def navigate_to(tx, ty):
     while True:
         pos = get_pos()
         if pos is None:
-            # Check if we transitioned or got warped
-            return
+            handle_textbox_or_battle()
+            continue
             
         if pos == (tx, ty):
             print(f"Arrived at waypoint ({tx}, {ty})")
@@ -88,46 +88,47 @@ def navigate_to(tx, ty):
         time.sleep(0.4)
 
 def main():
+    print("Closing Warden dialogue...")
+    # Clear the "Hif fuff hefifoo!" textbox
+    bridge.press_buttons(["B", "sleep 400", "B", "sleep 400"])
+    
     pos = get_pos()
-    print(f"Starting step exhaustion routine from: {pos}")
+    print(f"Starting Phase 1 from: {pos}")
     
-    # We are at (19, 24). Walk to Row 26: (19, 26)
-    navigate_to(19, 26)
+    if pos == (3, 3):
+        # Walk DOWN to (4, 7) (doormat)
+        navigate_to(4, 3)
+        navigate_to(4, 7)
+        # Exit Warden's House
+        print("Exiting Warden's House...")
+        bridge.press_buttons(["Down", "sleep 1500"])
+        
+    pos = get_pos()
+    print(f"Position outside: {pos}")
     
-    # Loop walking back and forth until warped to Gatehouse at (4, 3)
-    step_count = 0
-    while True:
-        pos = get_pos()
-        if pos is None:
-            # Potential warp or textbox
-            for _ in range(5):
-                bridge.press_buttons(["B", "sleep 250"])
-            pos = get_pos()
-            
-        if pos is not None and pos[1] < 10 and pos[0] < 10:
-            print(f"Successfully arrived in Gatehouse! Position: {pos}")
-            break
-            
-        # Walk back and forth on Row 26
-        print(f"Loop {step_count}: Walking to (25, 26)...")
-        navigate_to(25, 26)
+    if pos == (27, 28):
+        # Walk DOWN to Row 30: (27, 30)
+        navigate_to(27, 30)
+        # Walk LEFT to Column 19: (19, 30)
+        navigate_to(19, 30)
+        # Walk UP Column 19 to Row 8: (19, 8)
+        navigate_to(19, 8)
+        # Walk RIGHT to Column 37: (37, 8)
+        navigate_to(37, 8)
+        # Walk UP to Row 2: (37, 2)
+        navigate_to(37, 2)
+        # Walk LEFT to Column 22: (22, 2)
+        navigate_to(22, 2)
+        # Walk DOWN to Row 4: (22, 4)
+        navigate_to(22, 4)
+        # Walk LEFT to Column 18: (18, 4)
+        navigate_to(18, 4)
+        # Step UP into the Gatehouse at (18, 3)
+        print("Entering Safari Gatehouse...")
+        bridge.press_buttons(["Up", "sleep 1500"])
         
-        pos = get_pos()
-        if pos is not None and pos[1] < 10 and pos[0] < 10:
-            print(f"Successfully arrived in Gatehouse! Position: {pos}")
-            break
-            
-        print(f"Loop {step_count}: Walking to (19, 26)...")
-        navigate_to(19, 26)
-        
-        step_count += 1
-        if step_count > 25: # Safe break just in case
-            print("Step count limit reached inside script, pausing.")
-            break
-            
-    # Take screenshot of current position
-    img = mgba.take_screenshot()
-    print(f"Screenshot: {img}")
+    pos = get_pos()
+    print(f"Phase 1 complete! Final position: {pos}")
 
 if __name__ == "__main__":
     main()
