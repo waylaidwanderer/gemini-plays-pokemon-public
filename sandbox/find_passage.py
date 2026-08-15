@@ -9,13 +9,9 @@ def get_pos():
 
 def handle_textbox_or_battle():
     print("No movement detected. Checking for text box or battle...")
-    # Clear dialogue text with B
     bridge.press_buttons(["B", "sleep 200", "B", "sleep 200"])
-    
-    # Try to flee: press Down, then A
     print("Attempting to run from battle...")
     bridge.press_buttons(["Down", "sleep 100", "A", "sleep 1000"])
-    
     pos = get_pos()
     print(f"Coordinates after flee attempt: {pos}")
     return pos
@@ -42,11 +38,11 @@ def walk_step_robust(direction):
     return new_pos
 
 def main():
-    # Start at current position (4, 23)
+    # Start at current position (9, 23)
     pos = get_pos()
     print(f"Starting systematic search from current pos: {pos}")
     
-    for col in range(4, 18):
+    for col in range(10, 18):
         pos = get_pos()
         print(f"\n--- TESTING COLUMN {col} at {pos} ---")
         
@@ -81,7 +77,7 @@ def main():
         else:
             print(f"Blocked at Row 23 -> 24 on Column {col}.")
             
-    print("Search finished, no open column found between 4 and 17.")
+    print("Search finished, no open column found between 10 and 17.")
 
 if __name__ == "__main__":
     main()
