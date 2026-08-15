@@ -106,7 +106,7 @@
 - Bug Catcher #1: Located at (30, 33) facing west, triggered at (26, 33) [Turn 145, Defeated Turn 155]. Team: Weedle Lv 6 (observed moves: String Shot, Poison Sting), Caterpie Lv 6 (observed moves: String Shot). Reward: ¥60.
 
 ## Empirical Wild Encounters
-- Caterpie Lv 3 [Turn 129]
+- Caterpie Lv 3 [Turn 129], Lv 4 [Turn 156]
 
 ## Items & Layout
 - Entrance at south-center (17, 47)
