@@ -29,7 +29,7 @@
 1. HYDROS (Wartortle) - Lv 17
    - Stats (Verified at Lv 17): Max HP 51 (HP: 25/51, Healthy - Attack 30, Defense 34, Speed 31, Special 33)
    - Type: Water
-   - Moves: Tackle (31/35), Tail Whip (30/30), Bubble (26/30), Water Gun (9/25)
+   - Moves: Tackle (31/35), Tail Whip (30/30), Bubble (26/30), Water Gun (8/25)
    - Role: Starter & primary Water special attacker
 
 ## Planned Nicknaming Strategy
@@ -206,7 +206,7 @@
 - Youngster #4: Located at (22, 9) facing North/Left [Observed Turn 361]
 - Trainer (Lass): Located at (16, 9) facing North [Observed Turn 347]
 
-- Lass #2: Located at (33, 10) in tall grass, triggered at (33, 8) [Turn 395]. Dialogue: 'Eek! Did you touch me?'.
+- Lass #2: Located at (33, 10) in tall grass, triggered at (33, 8) [Engaged Turn 396]. Team: Jigglypuff Lv 14.
 
 ## Empirical Wild Encounters
 - (Documenting upon encounter in tall grass)
