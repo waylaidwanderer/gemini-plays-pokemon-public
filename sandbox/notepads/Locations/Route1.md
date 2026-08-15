@@ -8,5 +8,5 @@
 - Ledge boy NPC: Located at (17, 13) [Observed Turn 57]. Explains jumping down ledges to return south quickly.
 
 ## Empirical Wild Encounters
-- Rattata: Lv 2 [Turn 50]
+- Rattata: Lv 2 [Turn 50], Lv 4 [Turn 81]
 - Pidgey: Lv 2 [Turn 59], Lv 5 [Turn 72]
