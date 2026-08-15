@@ -3,7 +3,6 @@
 ## Key Entrances & Locations
 - Main Rocket Game Corner Casino: Outdoor Celadon City door at (28, 19) with signpost at (27, 21) "ROCKET GAME CORNER - The playground for grown-ups!".
 - Prize Exchange: Celadon City building adjacent to Game Corner.
-- Celadon Pokémon Center: Celadon City door at (41, 9).
 
 ## Casino Floor & Secret Hideout Access
 - Entrance/Exit Mat: Located at (15, 17) and (16, 17) in Main Game Corner.
