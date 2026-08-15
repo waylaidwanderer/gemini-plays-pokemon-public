@@ -12,7 +12,7 @@
 - `Team`: Current Pokémon party, movesets, stats, nicknames
 - `Locations/PalletTown`: Points of interest, NPC dialogues, items
 - `Quests`: Story progression and side tasks
-- `Mechanics/Battle`: Gen 1 mechanics notes and verifications
+- `Locations/Route1`: Route 1 layout, points of interest, wild encounters
 
 <hr>
 
@@ -26,9 +26,6 @@
    - Type: Water
    - Moves: Tackle, Tail Whip
    - Role: Starter & primary Water/Ice special attacker
-
-## Battle Strategy Notes
-- (Rival Battle 1 completed: Victory against RED's Bulbasaur Lv 5)
 
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname.
