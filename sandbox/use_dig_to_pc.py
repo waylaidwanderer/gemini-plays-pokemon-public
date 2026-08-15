@@ -1,7 +1,9 @@
 import time
 import sys
+import os
+
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 import bridge
-import mgba
 
 sys.stdout.reconfigure(encoding='utf-8')
 
@@ -11,94 +13,58 @@ def get_pos():
         return None
     return pos[0], pos[1]
 
-def use_dig_from_pokedex():
-    print("Closing POKÉDEX and opening POKÉMON menu...")
-    # Currently inside POKÉDEX. Press B twice to return to overworld.
-    bridge.press_buttons(["B", "sleep 400", "B", "sleep 400"])
+def attempt_dig_sequence(up_presses):
+    print(f"Attempting DIG sequence with {up_presses} UP presses from start menu...")
     
-    # Open Start menu (cursor is guaranteed to be on POKÉDEX)
-    bridge.press_buttons(["Start", "sleep 500"])
+    # Ensure any open menu is closed first
+    for _ in range(3):
+        bridge.press_buttons(["B", "sleep 200"])
+        
+    # Open START menu
+    bridge.press_buttons(["Start", "sleep 600"])
     
-    # Press DOWN once to select POKÉMON
-    bridge.press_buttons(["Down", "sleep 300", "A", "sleep 1200"])
+    # Move cursor up by specified presses
+    for _ in range(up_presses):
+        bridge.press_buttons(["Up", "sleep 200"])
+        
+    # Open selected option (hopefully POKéMON)
+    bridge.press_buttons(["A", "sleep 1000"])
     
-    # Now we are inside Choose a POKÉMON menu.
-    # To be 100% sure we select TRUFFLE (slot 2):
-    # Let's align party list cursor by pressing DOWN 5 times with sleep (loops back to SHELLBY slot 1)
-    # Actually, in the Choose a POKÉMON menu, the cursor memory is preserved.
-    # But since the menu wraps, let's do:
-    # Open TRUFFLE (slot 2): if the cursor was on SHELLBY, we press Down once and A.
-    # If the cursor was on TRUFFLE, we press A directly.
-    # To be safe, let's assume the cursor starts at the top (SHELLBY) as it does when freshly opened,
-    # or let's just use our knowledge that TRUFFLE is slot 2.
-    # If we press UP 5 times, it aligns to slot 1 (SHELLBY).
-    # Wait, if we press UP 5 times on Choose a POKÉMON, does it wrap?
-    # Yes, we saw "UP on slot 1 wraps to slot 5".
-    # But wait! If the cursor was on slot 5, pressing UP 5 times:
-    # 5 -> 4 (Up 1) -> 3 (Up 2) -> 2 (Up 3) -> 1 (Up 4) -> 5 (Up 5).
-    # So it wraps.
-    # But if we press UP 4 times from slot 5:
-    # 5 -> 4 -> 3 -> 2 -> 1. It lands on slot 1!
-    # If we start on slot 2, pressing UP 4 times:
-    # 2 -> 1 -> 5 -> 4 -> 3. It lands on slot 3.
-    # This is tricky because of cursor memory.
-    # But wait! There is an easier way.
-    # We can just select the first Pokémon (SHELLBY), open its menu, press B.
-    # And then we will know exactly where the cursor is!
-    # Actually, let's just press DOWN once and A.
-    # If the cursor starts on SHELLBY (slot 1), pressing Down once selects TRUFFLE (slot 2).
-    # Let's try this first:
+    # Inside POKÉMON menu: Select slot 2 (TRUFFLE / Paras)
+    # If we are in the correct menu, pressing DOWN and then A will select TRUFFLE.
+    # If we are in the wrong menu (like BAG or Trainer Card), pressing DOWN and A will just select something else or close it.
     bridge.press_buttons(["Down", "sleep 300", "A", "sleep 800"])
     
-    # Open options menu for the selected Pokémon.
-    # Press A to select first option (DIG or SURF/STATS)
-    bridge.press_buttons(["A", "sleep 4000"]) # Select DIG and wait for warp!
+    # If we successfully opened TRUFFLE's options, the cursor is on DIG.
+    # Press A to select DIG and use it.
+    bridge.press_buttons(["A", "sleep 4000"])
+    
+    # Check if we successfully warped to Fuchsia City (usually (19, 28) or close to PC)
+    pos = get_pos()
+    print(f"Position after attempt: {pos}")
+    if pos is not None and (pos[0] == 19 or pos[0] == 20 or pos[1] == 28):
+        print("DIG successful!")
+        return True
+        
+    print("DIG failed on this attempt. Cleaning up menus with B...")
+    return False
 
 def main():
     pos = get_pos()
-    print(f"Starting at: {pos}")
+    print(f"Starting DIG search at: {pos}")
     
-    # We are currently inside POKÉDEX menu (so pos is None or 10, 24)
-    use_dig_from_pokedex()
+    # We will try different starting menu assumptions.
+    # Since we checked Trainer Card (ACE, 4th item) last, the cursor is likely on ACE.
+    # To go to POKÉMON (2nd item) from ACE (4th item), we press UP 2 times.
+    # If the cursor was on POKÉDEX, we press DOWN 1 time (which is UP 6 times).
+    # We will try offsets: 2 UP presses, then 6 UP presses, then 0 UP presses, then 1 UP press, etc.
+    offsets = [2, 6, 0, 1, 3, 4, 5]
     
-    pos = get_pos()
-    print(f"Warped! Position outside: {pos}")
-    
-    # 2. Enter the Pokémon Center
-    if pos == (19, 28):
-        print("Entering Pokémon Center...")
-        bridge.press_buttons(["Up", "sleep 1500"])
-        
-    pos = get_pos()
-    print(f"Position inside Pokémon Center: {pos}")
-    
-    # 3. Navigate to the PC at (13, 4)
-    if pos is not None and pos[1] >= 7:
-        print("Navigating to PC...")
-        bridge.press_buttons(["Up", "sleep 400", "Up", "sleep 400", "Up", "sleep 400"]) # to (3, 5) or (4, 5)
-        # Walk to PC
-        bridge.press_buttons(["Right", "sleep 400", "Right", "sleep 400", "Right", "sleep 400", 
-                              "Right", "sleep 400", "Right", "sleep 400", "Right", "sleep 400",
-                              "Right", "sleep 400", "Right", "sleep 400", "Right", "sleep 400"]) # to (13, 5)
-        bridge.press_buttons(["Up", "sleep 500"]) # to (13, 4)
-        
-        print("Facing UP towards PC...")
-        bridge.press_buttons(["Up", "sleep 500"])
-        
-        # 4. Open the PC menu and go to Withdraw Item
-        print("Opening PC menu...")
-        bridge.press_buttons(["A", "sleep 1200"]) # Turn on PC
-        bridge.press_buttons(["A", "sleep 1200"]) # Progress boot text
-        bridge.press_buttons(["Down", "sleep 500", "A", "sleep 1200"]) # Select ACE's PC
-        bridge.press_buttons(["A", "sleep 1500"]) # Select WITHDRAW ITEM
-        
-    time.sleep(2.0)
-    pos = get_pos()
-    print(f"Final Position: {pos}")
-    
-    # Take screenshot of final screen
-    img = mgba.take_screenshot()
-    print(f"Screenshot of PC menu: {img}")
+    for up_press in offsets:
+        if attempt_dig_sequence(up_press):
+            print("Successfully returned to Fuchsia City!")
+            break
+        time.sleep(0.5)
 
 if __name__ == "__main__":
     main()
