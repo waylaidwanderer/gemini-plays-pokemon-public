@@ -87,7 +87,7 @@ def navigate_to(tx, ty):
 def main():
     print("Executing Safari Master Route to Gold Teeth...")
     
-    # We are currently at (19, 22) in Area 1 (East).
+    # We are currently at (20, 5) in Area 1 (East).
     # Step 1: Traverse Area 1 (East)
     waypoints_area1 = [
         (20, 22),  # Right to Column 20 (on ground)
@@ -101,7 +101,9 @@ def main():
         (17, 6),   # Right along Row 6 on plateau to Column 17
         (17, 8),   # Down to descend northern plateau stairs to Row 8
         (20, 8),   # Right to Column 20
-        (20, 5),   # Up Column 20 to Row 5 (Northeast channel)
+        (20, 3),   # Up Column 20 to Row 3 (bypassing building)
+        (7, 3),    # Left along Row 3 to Column 7 (bypassing building and pine tree at (5,3))
+        (7, 5),    # Down to Row 5 (below the pine tree)
         (0, 5)     # Left along Row 5 to Column 0 (enters Area 2 North)
     ]
     
@@ -113,9 +115,13 @@ def main():
         pos = handle_textbox_or_battle()
         
     start_idx = 0
-    # Let's check if we are on the plateau (row 20)
     if pos is not None:
-        if pos[1] == 20 and 12 <= pos[0] <= 20:
+        # Determine where we can resume in Area 1
+        if pos[1] == 5 and pos[0] == 20:
+            # We are at (20, 5), we can resume from (20, 3)
+            start_idx = 11
+            print(f"Resuming from (20, 5) to (20, 3) at index {start_idx}")
+        elif pos[1] == 20 and 12 <= pos[0] <= 20:
             # We are on the southern plateau, we can resume from (12, 20)
             start_idx = 2
             print(f"Resuming from plateau waypoint at index {start_idx} (target: (12, 20))")
