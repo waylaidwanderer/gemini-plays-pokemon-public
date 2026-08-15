@@ -52,12 +52,13 @@ def navigate_to(tx, ty):
         time.sleep(0.4)
 
 def main():
-    # Starting at (27, 28)
+    # Starting at (24, 30)
     waypoints = [
-        (30, 28),  # Right to Column 30
-        (30, 30),  # Down to Row 30
-        (19, 30),  # Left to Column 19
-        (19, 28)   # Up to Row 28 (pavement in front of Pokémon Center)
+        (24, 21),  # Up Column 24 to Row 21
+        (22, 21),  # Left to Column 22
+        (22, 14),  # Up Column 22 to Row 14
+        (19, 14),  # Left to Column 19
+        (19, 27)   # Down Column 19 to Pokémon Center door (19, 27)
     ]
     
     for wp in waypoints:
