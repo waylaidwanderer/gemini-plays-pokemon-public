@@ -68,45 +68,36 @@ def navigate_to(tx, ty):
             stuck_count = 0
         time.sleep(0.4)
 
-def use_cut():
-    print("Standing in front of bush, opening menu to use CUT...")
-    # Open menu
-    bridge.press_buttons(["Start", "sleep 500"])
-    # Select POKÉMON (Down twice, then A)
-    bridge.press_buttons(["Down", "sleep 200", "Down", "sleep 200", "A", "sleep 800"])
-    # TRUFFLE (Paras) is Pokémon 2. Move Down once, then A
-    bridge.press_buttons(["Down", "sleep 200", "A", "sleep 600"])
-    # Select CUT
-    bridge.press_buttons(["A", "sleep 2000"])
-    
-    # Progress text "TRUFFLE hacked away with CUT!"
-    for _ in range(5):
-        bridge.press_buttons(["B", "sleep 200"])
-    print("CUT sequence finished.")
-    time.sleep(1.0)
-
 def main():
-    print("Walking from Safari Gatehouse exit to the regrown bush at (26, 12)...")
+    print("Executing Phase 2: Walking from (26, 12) to Pokémon Center...")
     
+    # Dismiss the "TRUFFLE hacked away with CUT!" dialogue box
+    for _ in range(3):
+        bridge.press_buttons(["B", "sleep 250"])
+        
     pos = get_pos()
-    print(f"Emerged in Fuchsia City at: {pos}")
+    print(f"Current position in overworld: {pos}")
     
-    # Detour to (26, 12) to cut the bush
-    waypoints = [
-        (22, 4),
-        (22, 2),
-        (37, 2),
-        (37, 9),
-        (26, 9),
-        (26, 12) # Stand directly above the regrown bush
+    pc_waypoints = [
+        (26, 14), # Walk through cut bush
+        (22, 14),
+        (22, 21),
+        (24, 21),
+        (24, 28),
+        (19, 28),
+        (19, 27) # Outside Pokémon Center door
     ]
     
-    for wp in waypoints:
+    for wp in pc_waypoints:
         navigate_to(wp[0], wp[1])
         
-    # Cut the bush
-    use_cut()
-    print("Phase 1 complete.")
+    # Enter Pokémon Center
+    print("Entering Pokémon Center...")
+    walk_step_robust("Up")
+    time.sleep(1.5)
+    
+    pos = get_pos()
+    print(f"Inside Pokémon Center: {pos}")
 
 if __name__ == "__main__":
     main()
