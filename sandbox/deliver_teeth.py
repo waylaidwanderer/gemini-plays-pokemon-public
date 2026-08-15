@@ -73,17 +73,19 @@ def main():
     pos = get_pos()
     print(f"Starting delivery walk from: {pos}")
     
-    # 1. Walk to Warden's House door via Column 37 detour
+    # 1. Walk to Warden's House door via Row 32 detour to avoid Column 23 wall and Column 25 fence
     waypoints = [
-        (35, 14),
-        (37, 14),
-        (37, 28),
+        (22, 14),
+        (22, 21),
+        (24, 21),
+        (24, 26),
+        (19, 26),
+        (19, 32),
+        (30, 32),
+        (30, 28),
         (27, 28),
         (27, 27) # Door transition
     ]
-    
-    for wp in waypoints:
-        navigate_to(wp[0], wp[1])
     
     for wp in waypoints:
         navigate_to(wp[0], wp[1])
@@ -94,7 +96,7 @@ def main():
     pos_inside = get_pos()
     print(f"Inside Warden's House at: {pos_inside}")
     
-    # 4. Walk to the Warden at (2, 4) facing UP
+    # 2. Walk to the Warden at (2, 4) facing UP
     waypoints_inside = [
         (2, 7),
         (2, 4)
