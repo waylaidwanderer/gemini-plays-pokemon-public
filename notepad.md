@@ -76,6 +76,7 @@
 ## Empirical Wild Encounters
 - Rattata: Lv 2 [Turn 50], Lv 4 [Turn 81]
 - Pidgey: Lv 2 [Turn 59], Lv 5 [Turn 72]
+- Ledge opening at y=19: Pass-through opening located at (9, 19) allows northward passage past the central ledge. [Verified Turn 187]
 
 <hr>
 
