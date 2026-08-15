@@ -84,19 +84,27 @@ def navigate_to(tx, ty):
         time.sleep(0.4)
 
 def main():
+    # Starting at (5, 15) in Area 3 (West)
+    waypoints = [
+        (5, 14),   # Walk UP to Row 14
+        (9, 14),   # Walk RIGHT to Column 9
+        (9, 18),   # Walk DOWN Column 9 to Row 18
+        (8, 18),   # Walk LEFT to Column 8
+        (8, 26),   # Walk DOWN Column 8 past Row 19 to Row 26
+        (19, 26)   # Walk RIGHT along Row 26 to Column 19
+    ]
+    
     print("Executing Safari Route to Gold Teeth...")
-    
-    # We are at (9, 14) in Area 3 (West)
-    # Step 1: Navigate to (19, 14)
-    print("\n--- STEP 1: Navigating to (19, 14) ---")
-    navigate_to(19, 14)
-    
-    # Step 2: Navigate to (19, 26)
-    print("\n--- STEP 2: Navigating to (19, 26) ---")
-    navigate_to(19, 26)
-    
-    # Step 3: Stand facing UP and press A to pick up the teeth
-    print("\n--- STEP 3: Stand facing UP and press A ---")
+    for i, wp in enumerate(waypoints, 1):
+        pos = get_pos()
+        if pos is None:
+            print("Battle or dialogue occurred, stopping.")
+            break
+        print(f"\n--- WAYPOINT {i}/{len(waypoints)}: {wp} ---")
+        navigate_to(wp[0], wp[1])
+        
+    # Stand facing UP and press A to pick up the teeth
+    print("\n--- STAND FACING UP AND PRESS A ---")
     bridge.press_buttons(["Up", "sleep 500"])
     bridge.press_buttons(["A", "sleep 1500"])
     
