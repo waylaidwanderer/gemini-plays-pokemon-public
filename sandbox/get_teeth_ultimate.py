@@ -89,24 +89,25 @@ def navigate_to(tx, ty):
 
 def main():
     pos = get_pos()
-    print(f"Starting Area 1 Phase A Run from: {pos}")
+    print(f"Starting Area 1 Phase A Corrected Run from: {pos}")
     
-    # Emerge at (0, 22)
-    # 1. Walk RIGHT to (20, 22)
-    navigate_to(20, 22)
-    # 2. Walk UP 2 to climb plateau stairs to (20, 20)
+    # Standing at (5, 22). Walk to Row 24 first to bypass the Rhydon statues at (6, 22)
+    navigate_to(5, 24)
+    # Walk RIGHT to (20, 24)
+    navigate_to(20, 24)
+    # Walk UP to (20, 20) (climbing plateau stairs)
     navigate_to(20, 20)
-    # 3. Walk LEFT 8 to (12, 20)
+    # Walk LEFT to (12, 20) on the plateau
     navigate_to(12, 20)
-    # 4. Walk DOWN 2 to descend stairs to (12, 22)
+    # Walk DOWN to (12, 22) to descend
     navigate_to(12, 22)
-    # 5. Walk LEFT 4 to Column 8 at (8, 22)
+    # Walk LEFT to (8, 22)
     navigate_to(8, 22)
-    # 6. Walk UP 14 along Column 8 to (8, 8)
+    # Walk UP along Column 8 to (8, 8)
     navigate_to(8, 8)
     
     pos = get_pos()
-    print(f"Area 1 Phase A Run complete! Position: {pos}")
+    print(f"Area 1 Phase A Corrected Run complete! Position: {pos}")
 
 if __name__ == "__main__":
     main()
