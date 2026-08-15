@@ -6,7 +6,7 @@
 - Secondary Goal: Defeat all 3 Team Rocket Grunts on 7F.
 - Active Strategy: Battling Rocket Grunt 1 at (11, 9) -> Defeat Grunt 1's Drowzee using Cutter (Leech Life 2x SE) / party -> Defeat Grunt 2 at (9, 7) and Grunt 3 -> Talk to Mr. Fuji at (10, 3) altar -> Teleport to Lavender Town -> Receive Poké Flute!
 - Key Items: SILPH SCOPE [ACQUIRED & VERIFIED], LIFT KEY [ACQUIRED], TM07 Horn Drill [ACQUIRED], BICYCLE [EQUIPPED].
-- Party Status: SPROUT (Bellsprout Lv15, HP 40/40), LUNA (Clefable Lv11, HP 16/40), CUTTER (Paras Lv14, FAINTED), SHELLSHOCK (Blastoise Lv54, FAINTED), BRUDF (Hitmonlee Lv30, FAINTED).
+- Party Status: LUNA (Clefable Lv11, HP 16/40), SPROUT (Bellsprout Lv15, FAINTED), CUTTER (Paras Lv14, FAINTED), SHELLSHOCK (Blastoise Lv54, FAINTED), BRUDF (Hitmonlee Lv30, FAINTED).
 
 <hr>
 
@@ -750,13 +750,13 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 55321)
-- Location: Pokémon Tower 7F at (10, 9) [In combat vs Rocket Grunt 1].
+## CURRENT STATUS & DASHBOARD (Turn 55329)
+- Location: Saffron City at (9, 30) [Full party healed; returning to Pokémon Tower 7F with full HP Blastoise].
 - Primary Goal: Clear Pokémon Tower in Lavender Town using the Silph Scope to rescue Mr. Fuji.
-- Secondary Goal: Defeat all 3 Team Rocket Grunts on 7F.
-- Active Strategy: Battling Rocket Grunt 1 at (11, 9) -> Defeat Grunt 1's Drowzee using Cutter (Leech Life 2x SE) / party -> Defeat Grunt 2 at (9, 7) and Grunt 3 -> Talk to Mr. Fuji at (10, 3) altar -> Teleport to Lavender Town -> Receive Poké Flute!
+- Secondary Goal: Ascend to Pokémon Tower 7F and defeat all 3 Team Rocket Grunts.
+- Active Strategy: Respawned at Saffron Pokecenter with 100% full health team -> Equip Bicycle -> Ride East to Route 8 -> Enter Pokémon Tower in Lavender Town -> Fast-ascend to 7F via verified staircases -> Sweep 3 Rocket Grunts with Blastoise Lv54 Surf -> Rescue Mr. Fuji -> Obtain Poké Flute!
 - Key Items: SILPH SCOPE [ACQUIRED & VERIFIED], LIFT KEY [ACQUIRED], TM07 Horn Drill [ACQUIRED], BICYCLE [EQUIPPED].
-- Party Status: LUNA (Clefable Lv11, HP 16/40), SPROUT (Bellsprout Lv15, FAINTED), CUTTER (Paras Lv14, FAINTED), SHELLSHOCK (Blastoise Lv54, FAINTED), BRUDF (Hitmonlee Lv30, FAINTED).
+- Party Status: SHELLSHOCK (Blastoise Lv54, HP 189/189), BRUDF (Hitmonlee Lv30, HP 73/73), LUNA (Clefable Lv11, HP 40/40), CUTTER (Paras Lv14, HP 39/39), SPROUT (Bellsprout Lv15, HP 40/40).
 
 <hr>
 
