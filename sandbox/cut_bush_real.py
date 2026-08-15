@@ -15,29 +15,24 @@ def get_pos():
     return pos[0], pos[1]
 
 def main():
-    print("Clearing Oak warning and using CUT properly on TRUFFLE...")
+    print("Clearing Oak warning and using CUT from the current POKÉMON menu...")
     
-    # 1. Clear Oak text box (returns to overworld at (26, 14))
+    # 1. Clear Oak text box (remains on POKÉMON menu, cursor on TRUFFLE)
     bridge.press_buttons(["B", "sleep 1000"])
     
-    # 2. Open START menu (cursor is guaranteed to be on POKÉMON / slot 2)
-    bridge.press_buttons(["Start", "sleep 1000"])
-    
-    # 3. Press A to open POKÉMON menu (cursor is on TRUFFLE / slot 2)
+    # 2. Press A to select TRUFFLE (slot 2)
+    print("Selecting TRUFFLE...")
     bridge.press_buttons(["A", "sleep 1200"])
     
-    # 4. Press A to select TRUFFLE (slot 2)
-    bridge.press_buttons(["A", "sleep 1000"])
-    
-    # 5. Move DOWN once from DIG to CUT
+    # 3. Move DOWN once from DIG to CUT
     print("Moving cursor from DIG to CUT...")
     bridge.press_buttons(["Down", "sleep 300"])
     
-    # 6. Press A to execute CUT
+    # 4. Press A to execute CUT
     print("Executing CUT...")
-    bridge.press_buttons(["A", "sleep 3500"])
+    bridge.press_buttons(["A", "sleep 4000"])
     
-    # 7. Walk UP 2 steps through the cut bush to (26, 12)
+    # 5. Walk UP 2 steps through the cut bush to (26, 12)
     print("Walking UP through the cut bush...")
     bridge.press_buttons(["Up", "sleep 600", "Up", "sleep 600"])
     
