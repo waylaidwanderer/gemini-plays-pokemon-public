@@ -227,7 +227,9 @@
 
 ## Connections
 - South Exit: Warp to Route 3 exterior plaza at (14, 35) / (15, 35) [Entered Turn 465 at (14, 35)]
-- Ladders: (Documenting ladders to B1F/B2F as discovered)
+- Ladders:
+  - Ladder at (25, 15) [Discovered Turn 474]
+  - Ladder at (17, 11) [Discovered Turn 475]
 
 ## Layout & Landmarks
 - Entrance threshold at (14, 35) / (15, 35)
@@ -242,6 +244,5 @@
 
 ## Empirical Wild Encounters
 - (Documenting wild Pokémon encountered)
-
 
 <hr>
