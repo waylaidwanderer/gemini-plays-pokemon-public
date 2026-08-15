@@ -8,14 +8,14 @@
    - Role: Starter & primary Water special attacker
 
 ## Planned Nicknaming Strategy
-- Every captured Pok�mon will receive a thoughtful, unique nickname.
+- Every captured Pokémon will receive a thoughtful, unique nickname.
 
-## Inventory & Resources (Verified Turn 359)
-- Money: �744 (�654 + �90 from Bug Catcher #2)
-- Badges: Boulder Badge (Enables Flash outside battle, boosts Pok�mon Attack)
-- Key Items: Town Map, Pok�dex
+## Inventory & Resources (Verified Turn 387)
+- Money: ¥1004 (¥744 + ¥150 from Lass #1 + ¥110 from Bug Catcher #3)
+- Badges: Boulder Badge (Enables Flash outside battle, boosts Pokémon Attack)
+- Key Items: Town Map, Pokédex
 - TMs / HMs: TM34 (Bide)
 - Consumables:
   - 1x Antidote (Status cure: Poison)
   - 3x Potion (Restores 20 HP)
-  - 11x Pok� Ball (Standard catch rate)
+  - 11x Poké Ball (Standard catch rate)
