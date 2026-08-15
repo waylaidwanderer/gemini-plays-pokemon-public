@@ -42,55 +42,9 @@ def walk_step_robust(direction):
     return new_pos
 
 def main():
-    # Phase 1: Walk from (19, 24) to the western ground level at (4, 23) via Plateau
+    # Start at current position (4, 23)
     pos = get_pos()
-    print(f"Starting transition to western ground from {pos}...")
-    
-    # 1. Walk Right to (21, 24)
-    # 2. Walk Up to (21, 16)
-    # 3. Walk Left to (6, 16)
-    # 4. Walk Down to (6, 20)
-    # 5. Walk Left to (4, 20)
-    # 6. Walk Down to (4, 23)
-    transition_path = (
-        ["Right"] * 2 +
-        ["Up"] * 8 +
-        ["Left"] * 15 +
-        ["Down"] * 4 +
-        ["Left"] * 2 +
-        ["Down"] * 3
-    )
-    
-    idx = 0
-    stuck_count = 0
-    while idx < len(transition_path):
-        pos = get_pos()
-        if pos is None:
-            handle_textbox_or_battle()
-            continue
-            
-        print(f"Transition step {idx+1}/{len(transition_path)}: at {pos}, walking {transition_path[idx]}")
-        new_pos = walk_step_robust(transition_path[idx])
-        if new_pos is not None:
-            if new_pos != pos:
-                idx += 1
-                stuck_count = 0
-            else:
-                print("No progress made in transition. Retrying...")
-                stuck_count += 1
-                if stuck_count > 3:
-                    bridge.press_buttons(["B", "sleep 300"])
-                    stuck_count = 0
-        time.sleep(0.5)
-        
-    print(f"Successfully arrived at {get_pos()}. Starting systematic Column search...")
-    
-    # Phase 2: Systematic Column Search from Col 4 to Col 17
-    # For each column:
-    # We are at (col, 23).
-    # Try to walk Down. If success, try to walk Down further to Row 26.
-    # If we reach Row 26, we succeed!
-    # If blocked, walk back up to Row 23 (if needed), walk Right to (col+1, 23), and repeat.
+    print(f"Starting systematic search from current pos: {pos}")
     
     for col in range(4, 18):
         pos = get_pos()
@@ -99,16 +53,12 @@ def main():
         # Ensure we are at (col, 23)
         while pos[0] != col or pos[1] != 23:
             if pos[1] > 23:
-                # Walk Up to 23
                 pos = walk_step_robust("Up")
             elif pos[1] < 23:
-                # Walk Down to 23
                 pos = walk_step_robust("Down")
             elif pos[0] < col:
-                # Walk Right to col
                 pos = walk_step_robust("Right")
             elif pos[0] > col:
-                # Walk Left to col
                 pos = walk_step_robust("Left")
                 
         # Try to walk DOWN to Row 24
