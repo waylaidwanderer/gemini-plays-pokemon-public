@@ -2,11 +2,8 @@ import time
 import sys
 import os
 
-# Add current path to import bridge
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 import bridge
-
-sys.stdout.reconfigure(encoding='utf-8')
 
 def get_pos():
     pos = bridge.get_coordinates()
@@ -67,7 +64,6 @@ def navigate_to(tx, ty):
             break
             
         print(f"Current: {pos}, Target: ({tx}, {ty})")
-        # To avoid cutting corners, change x first, then y (or vice-versa depending on terrain, but we guide with safe waypoints)
         if pos[0] < tx:
             direction = "Right"
         elif pos[0] > tx:
@@ -90,19 +86,26 @@ def navigate_to(tx, ty):
 
 def main():
     pos = get_pos()
-    print(f"Starting Area 2 (North) ground-level walk from {pos}")
+    print(f"Starting Golden Ground-Level Route to Area 3 from {pos}")
     
-    # Trace to Area 3
-    navigate_to(27, 31)
-    navigate_to(22, 31)
-    navigate_to(22, 22)
-    navigate_to(16, 22)
-    navigate_to(16, 28)
-    navigate_to(12, 28)
-    navigate_to(12, 30)
-    navigate_to(8, 30)
-    navigate_to(8, 35)
+    # Waypoints:
+    # 1. Row 13 on plateau: (33, 13)
+    # 2. Descend stairs to ground level: (31, 13)
+    # 3. Climb to Row 9: (31, 9)
+    # 4. Walk LEFT along Row 9: (8, 9)
+    # 5. Walk DOWN Column 8: (8, 35)
     
+    waypoints = [
+        (33, 13),
+        (31, 13),
+        (31, 9),
+        (8, 9),
+        (8, 35)
+    ]
+    
+    for wp in waypoints:
+        navigate_to(wp[0], wp[1])
+        
     print("Stepping DOWN to transition to Area 3...")
     walk_step_robust("Down")
     time.sleep(1.5)
