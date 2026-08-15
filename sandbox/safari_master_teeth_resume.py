@@ -110,11 +110,12 @@ def main():
     
     # State 1: inside Fuchsia City (outside Pokemon Center or east side)
     if pos is not None and pos[1] >= 14 and pos[0] < 38 and pos != (3, 7) and pos[0] != 13:
-        print("Navigating Fuchsia City to Safari Gatehouse via Column 26 & Cut-bush...")
-        # Get to Column 26 Row 31 safely
-        navigate_to(36, 31)
-        navigate_to(26, 31)
-        # Up Column 26 to Row 14
+        print("Navigating Fuchsia City to Safari Gatehouse via Column 24 & Cut-bush...")
+        # Navigate to Column 24 Row 28 to bypass Row 29 fence
+        navigate_to(24, 28)
+        navigate_to(24, 21)
+        navigate_to(22, 21)
+        navigate_to(22, 14)
         navigate_to(26, 14)
         
         # Face UP and use CUT
