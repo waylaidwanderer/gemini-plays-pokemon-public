@@ -4,7 +4,7 @@
 1. HYDROS (Wartortle) - Lv 16
    - Stats (Verified at Lv 16): Max HP 49 (HP: 32/49, Healthy - Evolved Turn 341)
    - Type: Water
-   - Moves: Tackle (34/35), Tail Whip (30/30), Bubble (26/30), Water Gun (15/25)
+   - Moves: Tackle (34/35), Tail Whip (30/30), Bubble (26/30), Water Gun (14/25)
    - Role: Starter & primary Water special attacker
 
 ## Planned Nicknaming Strategy
