@@ -83,14 +83,28 @@ def navigate_to(tx, ty):
             stuck_count = 0
         time.sleep(0.4)
 
+def use_dig():
+    print("Using DIG to escape...")
+    bridge.press_buttons(["Start", "sleep 500"])
+    for _ in range(6):
+        bridge.press_buttons(["Up", "sleep 200"])
+    bridge.press_buttons(["Down", "sleep 400"])
+    bridge.press_buttons(["A", "sleep 1000"])
+    bridge.press_buttons(["Down", "sleep 400"])
+    bridge.press_buttons(["A", "sleep 800"])
+    bridge.press_buttons(["A", "sleep 1500"])
+
 def main():
-    # Starting at (21, 20) in Area 3 (West)
+    # Starting at (26, 0) inside Area 3 (West)
     waypoints = [
-        (21, 26),  # Down Column 21 to Row 26
-        (19, 26)   # Left to Column 19 on Row 26
+        (25, 2),   # Walk DOWN 2 to Row 2, LEFT 1 to Column 25
+        (25, 18),  # Down Column 25 to Row 18
+        (21, 18),  # Left 4 to Column 21
+        (21, 26),  # Down Column 21 to Row 26 (The Row 26 Highway)
+        (19, 26)   # Left 2 along Row 26 Highway to Column 19
     ]
     
-    print("Executing Safari Phase 4 Resume: Navigating to Gold Teeth...")
+    print("Executing Safari Phase 4: Navigating to Gold Teeth...")
     for i, wp in enumerate(waypoints, 1):
         pos = get_pos()
         if pos is None:
@@ -111,9 +125,14 @@ def main():
     for _ in range(5):
         bridge.press_buttons(["B", "sleep 300"])
         
+    time.sleep(1.0)
+    
+    # Use DIG to escape to Fuchsia City outside!
+    use_dig()
+    
     time.sleep(2.0)
     pos = get_pos()
-    print(f"Final position after pickup: {pos}")
+    print(f"Final position: {pos}")
 
 if __name__ == "__main__":
     main()
