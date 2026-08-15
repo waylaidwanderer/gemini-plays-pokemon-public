@@ -5,8 +5,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 0/8
-- Location: Viridian City Pokémart
-- Current Objective: Deliver Oak's Parcel to Professor Oak in Pallet Town
+- Location: Pallet Town
+- Current Objective: Deliver Oak's Parcel to Professor Oak in Oak's Lab
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames
@@ -22,7 +22,7 @@
 
 ## Active Party
 1. HYDROS (Squirtle) - Lv 7
-   - HP: 18/24 (Empirically verified at Lv 7)
+   - HP: 24/24 (Fully restored)
    - Type: Water
    - Moves: Tackle, Tail Whip
    - Role: Starter & primary Water/Ice special attacker
