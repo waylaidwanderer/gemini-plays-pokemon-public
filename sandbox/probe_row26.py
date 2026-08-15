@@ -9,70 +9,88 @@ def get_pos():
 
 def handle_textbox_or_battle():
     print("Coordinates are None. Handling potential battle or dialog...")
-    # Clear text boxes with B
     for _ in range(5):
         bridge.press_buttons(["B", "sleep 150"])
-    
-    # Try to RUN
     print("Attempting to RUN from battle...")
     bridge.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 1000"])
-    
-    # Clear post-flee text
     for _ in range(3):
         bridge.press_buttons(["B", "sleep 150"])
-        
-    pos = get_pos()
-    print(f"Coordinates after battle handling: {pos}")
-    return pos
+    return get_pos()
 
 def walk_step_robust(direction):
     pos = get_pos()
     if pos is None:
         return handle_textbox_or_battle()
         
-    bridge.press_buttons([direction, "sleep 450"])
+    bridge.press_buttons([direction, "sleep 400"])
+    
     new_pos = get_pos()
     if new_pos is None:
         return handle_textbox_or_battle()
+        
     return new_pos
 
-def try_move(direction):
-    pos = get_pos()
-    new_pos = walk_step_robust(direction)
-    if new_pos == pos:
-        return False, new_pos
-    return True, new_pos
-
 def main():
-    print("Probing path to Row 26...")
-    # Start at current position (should be (19, 24))
-    pos = get_pos()
-    print(f"Starting probe at: {pos}")
+    print("Mapping Row 25/26 access from Row 23...")
+    # Starting at (7, 23).
+    # We will walk Right along Row 23 from Column 7 to Column 18.
+    # At each column, we will try to step Down to Row 26.
     
-    # We want to check columns to the right: 20, 21, 22, 23, 24...
-    # Let's walk right to (21, 24)
-    for col in range(pos[0], 25):
-        print(f"Currently at {get_pos()}")
-        # Try to walk down from here
-        print(f"Probing DOWN from {get_pos()}...")
-        success, p = try_move("Down")
-        if success:
-            print(f"SUCCESS! Walked DOWN to {p}")
-            # Walk back UP to stay on Row 24 for probing
+    open_paths = []
+    
+    for col in range(7, 19):
+        # Navigate to (col, 23)
+        pos = get_pos()
+        if pos is None:
+            pos = handle_textbox_or_battle()
+            if pos is None:
+                continue
+                
+        # If we got into a battle and our position changed, navigate back to Row 23
+        if pos[1] != 23:
+            print(f"Off track at {pos}, returning to Row 23...")
+            if pos[1] < 23:
+                walk_step_robust("Down")
+            else:
+                walk_step_robust("Up")
+            continue
+            
+        # Walk horizontally to the target column on Row 23
+        while pos[0] < col:
+            pos = walk_step_robust("Right")
+            if pos is None:
+                pos = handle_textbox_or_battle()
+            if pos is None or pos[0] >= col:
+                break
+                
+        pos = get_pos()
+        if pos is None:
+            continue
+            
+        print(f"At ({pos[0]}, 23). Probing Down...")
+        # Try to step Down to Row 24
+        new_pos = walk_step_robust("Down")
+        if new_pos is not None and new_pos[1] == 24:
+            print(f"-> Column {pos[0]} is open on Row 24!")
+            # Try to step Down to Row 25
+            new_pos2 = walk_step_robust("Down")
+            if new_pos2 is not None and new_pos2[1] == 25:
+                print(f"-> Column {pos[0]} is open on Row 25!")
+                # Try to step Down to Row 26
+                new_pos3 = walk_step_robust("Down")
+                if new_pos3 is not None and new_pos3[1] == 26:
+                    print(f"-> SUCCESS! Column {pos[0]} is completely open to Row 26!")
+                    open_paths.append(pos[0])
+                    # Step back Up
+                    walk_step_robust("Up")
+                walk_step_robust("Up")
             walk_step_robust("Up")
         else:
-            print(f"DOWN is BLOCKED at column {get_pos()[0]}")
+            print(f"-> Column {pos[0]} is blocked on Row 24.")
             
-        # Move right to next column
-        print(f"Moving Right...")
-        success, p = try_move("Right")
-        if not success:
-            print(f"Could not move Right from {get_pos()}")
-            break
-            
-    # Let's see final position
-    pos = get_pos()
-    print(f"Final probe position: {pos}")
+        time.sleep(0.2)
+        
+    print(f"Probing complete. Completely open columns to Row 26: {open_paths}")
 
 if __name__ == "__main__":
     main()
