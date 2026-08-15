@@ -9,4 +9,7 @@
 - Statues: Located at (3, 13..14) and (6, 13..14).
 
 ## Gym Trainers & Layout
-- Gym Guide (4, 14): Speaking with guide.
+- Lass (2, 11) - Defeated.
+- Cut Tree (5, 7) - Cuttable.
+- Cooltrainer (5, 5) - Defeated.
+- Gym Leader Erika (4, 3) - Defeated on Turn 55731 (Rainbow Badge Acquired).
