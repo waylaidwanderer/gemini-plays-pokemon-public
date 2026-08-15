@@ -71,19 +71,10 @@ def walk_path(path_steps):
             time.sleep(0.5)
 
 def main():
-    # Starting at (3, 8) inside Area 1 (East)
-    # This path walks RIGHT along Row 8, climbs onto the northern plateau,
-    # crosses to the east, descends, goes up Column 20 to Row 3,
-    # walks LEFT above the plateau to Column 7, goes down to Row 5,
-    # and transitions LEFT to Area 2 (North) at (0, 5).
+    # Starting at (10, 3) inside Area 1 (East)
+    # We walk LEFT to Column 7, DOWN to Row 5, and LEFT along Row 5 to the transition door.
     path = (
-        ["Right"] * 9 +
-        ["Up"] * 2 +
-        ["Right"] * 5 +
-        ["Down"] * 2 +
-        ["Right"] * 3 +
-        ["Up"] * 5 +
-        ["Left"] * 13 +
+        ["Left"] * 3 +
         ["Down"] * 2 +
         ["Left"] * 7
     )
