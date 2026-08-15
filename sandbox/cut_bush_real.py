@@ -13,21 +13,12 @@ def get_pos():
     return pos[0], pos[1]
 
 def handle_textbox_or_battle():
-    print("Coordinates are None. Handling potential battle or dialog...")
+    print("Coordinates are None. Handling potential dialogue...")
     # Clear text boxes with B
     for _ in range(5):
         bridge.press_buttons(["B", "sleep 150"])
-    
-    # Try to RUN
-    print("Attempting to RUN from battle...")
-    bridge.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 1000"])
-    
-    # Clear post-flee text
-    for _ in range(3):
-        bridge.press_buttons(["B", "sleep 150"])
-        
     pos = get_pos()
-    print(f"Coordinates after battle handling: {pos}")
+    print(f"Coordinates after dialogue handling: {pos}")
     return pos
 
 def walk_step_robust(direction):
@@ -85,34 +76,62 @@ def navigate_to(tx, ty):
             stuck_count = 0
         time.sleep(0.1)
 
+def use_cut_menu():
+    print("Opening menu to use CUT...")
+    bridge.press_buttons(["B", "sleep 250", "B", "sleep 250"])
+    bridge.press_buttons(["Start", "sleep 500"])
+    # Open POKEMON (second option)
+    bridge.press_buttons(["Down", "sleep 250", "A", "sleep 1000"])
+    # Select TRUFFLE (slot 2)
+    bridge.press_buttons(["Down", "sleep 250", "A", "sleep 800"])
+    # Select CUT (usually first custom move or in menu)
+    bridge.press_buttons(["A", "sleep 3000"])
+    # Dismiss any leftover textboxes
+    for _ in range(3):
+        bridge.press_buttons(["B", "sleep 250"])
+
 def main():
     pos = get_pos()
-    print(f"Starting Golden Route to Gold Teeth from: {pos}")
+    print(f"Starting walk to cut bush and enter Safari Gatehouse from: {pos}")
     
-    waypoints = [
-        (19, 23), # Walk RIGHT to Column 19 on Row 23
-        (19, 24)  # Walk DOWN to Row 24 (directly above Gold Teeth)
+    # 1. Walk to the bush at (26, 14)
+    waypoints_to_bush = [
+        (26, 28),
+        (26, 30),
+        (24, 30),
+        (24, 21),
+        (22, 21),
+        (22, 14),
+        (26, 14)
     ]
     
-    for i, wp in enumerate(waypoints, 1):
+    for wp in waypoints_to_bush:
         navigate_to(wp[0], wp[1])
         
-    # Stand at (19, 24) facing DOWN
-    print("Standing at (19, 24). Facing DOWN...")
-    bridge.press_buttons(["Down", "sleep 500"])
+    # Stand at (26, 14) facing UP (north) towards the bush at (26, 13)
+    print("Standing at (26, 14). Facing UP...")
+    bridge.press_buttons(["Up", "sleep 500"])
     
-    # Pick up Gold Teeth!
-    print("Interacting (A) to retrieve Gold Teeth...")
-    bridge.press_buttons(["A", "sleep 1000"])
+    # Use CUT
+    use_cut_menu()
     
-    # Take screenshot of the screen to see what textbox or dialogue opened!
-    img = mgba.take_screenshot()
-    print(f"INTERACTION_SCREENSHOT: {img}")
+    # 2. Walk to the Gatehouse at (18, 3)
+    waypoints_to_gatehouse = [
+        (26, 9),
+        (19, 9),
+        (19, 8),
+        (37, 8),
+        (37, 2),
+        (22, 2),
+        (22, 4),
+        (18, 4),
+        (18, 3)
+    ]
     
-    # Dismiss any text box
-    print("Dismissing any text boxes...")
-    for _ in range(5):
-        bridge.press_buttons(["B", "sleep 250"])
+    for wp in waypoints_to_gatehouse:
+        navigate_to(wp[0], wp[1])
+        
+    print("Arrived at the Gatehouse entrance!")
 
 if __name__ == "__main__":
     main()
