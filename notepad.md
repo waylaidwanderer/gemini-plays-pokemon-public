@@ -1228,6 +1228,12 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 ## Objectives
 - Navigate Row 5 into West Wing -> Collect item at (20, 14) -> Explore West Wing -> Find Lift Key / Stairs to B4F -> Defeat Giovanni.
 - Downward Staircase (Down to B4F): Located at (19, 18).
+## Spin Maze Solution to B4F Stairs (Verified Turn 54794)
+1. From Row 11, walk East to (20, 11) and Up to (20, 9).
+2. Walk Left along Row 9 corridor to (13, 9) and Down to (13, 11).
+3. Step Left onto (12, 11) LEFT-spin tile -> spins Left to (11, 11).
+4. Walk Down Column 11 to (11, 18) -> East along Row 18 to (15, 18) DOWN-spin tile.
+5. Step onto (15, 18) -> spins Down to (15, 20) -> Walk East to (19, 19) -> Step Up onto (19, 18) B4F stairs!
 
 <hr>
 
