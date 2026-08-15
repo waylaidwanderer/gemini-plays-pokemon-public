@@ -83,45 +83,68 @@ def navigate_to(tx, ty):
             stuck_count = 0
         time.sleep(0.4)
 
-def use_dig():
-    print("Using DIG to escape...")
-    bridge.press_buttons(["Start", "sleep 500"])
-    for _ in range(6):
-        bridge.press_buttons(["Up", "sleep 200"])
-    bridge.press_buttons(["Down", "sleep 400"])
-    bridge.press_buttons(["A", "sleep 1000"])
-    bridge.press_buttons(["Down", "sleep 400"])
-    bridge.press_buttons(["A", "sleep 800"])
-    bridge.press_buttons(["A", "sleep 1500"])
-
 def main():
-    # Starting at (26, 0) inside Area 3 (West)
-    waypoints = [
-        (25, 2),   # Walk DOWN 2 to Row 2, LEFT 1 to Column 25
-        (25, 18),  # Down Column 25 to Row 18
-        (21, 18),  # Left 4 to Column 21
-        (21, 26),  # Down Column 21 to Row 26 (The Row 26 Highway)
-        (19, 26)   # Left 2 along Row 26 Highway to Column 19
-    ]
+    print("Executing Real Safari Golden Route to Gold Teeth...")
     
-    print("Executing Safari Phase 4: Navigating to Gold Teeth...")
-    for i, wp in enumerate(waypoints, 1):
-        pos = get_pos()
-        if pos is None:
-            print("Map changed or battle occurred, stopping navigation.")
-            break
-        print(f"\n--- WAYPOINT {i}/{len(waypoints)}: {wp} ---")
-        navigate_to(wp[0], wp[1])
-        
-    # Stand facing UP at (19, 26) towards (19, 25)
-    print("\nFacing UP...")
-    bridge.press_buttons(["Up", "sleep 500"])
-    
-    # Press A to retrieve Gold Teeth
-    print("Pressing A to pick up Gold Teeth...")
-    bridge.press_buttons(["A", "sleep 1000"])
-    
+    # We are at (9, 14) in Area 3 (West)
+    # Step 1: Walk LEFT to Column 0 Row 14 to transition to Center
+    print("\n--- STEP 1: Transitioning to Safari Zone Center ---")
+    navigate_to(0, 14)
+    # Give a step LEFT to transition
+    bridge.press_buttons(["Left", "sleep 1000"])
     time.sleep(1.0)
+    
+    pos = get_pos()
+    if pos is None:
+         pos = handle_textbox_or_battle()
+    print(f"Position in Center: {pos}")
+    
+    # Step 2: Navigate to (0, 11) in Center
+    print("\n--- STEP 2: Navigating to (0, 11) in Center ---")
+    navigate_to(0, 11)
+    # Give a step LEFT to transition to Area 3 (East side)
+    bridge.press_buttons(["Left", "sleep 1000"])
+    time.sleep(1.0)
+    
+    pos = get_pos()
+    if pos is None:
+         pos = handle_textbox_or_battle()
+    print(f"Position in Area 3 (East): {pos}")
+    
+    # Step 3: Navigate to (21, 18) (below East Stairs)
+    print("\n--- STEP 3: Navigating to (21, 18) ---")
+    navigate_to(21, 18)
+    
+    # Step 4: Climb East Stairs by walking UP onto (21, 17)
+    print("\n--- STEP 4: Climbing onto Plateau at (21, 17) ---")
+    walk_step_robust("Up")
+    pos = get_pos()
+    print(f"Position on Plateau: {pos}")
+    
+    # Step 5: Walk to (6, 18) on Plateau
+    print("\n--- STEP 5: Navigating to (6, 18) on Plateau ---")
+    # Walk left to Column 19
+    navigate_to(19, 17)
+    # Down to Row 18
+    navigate_to(19, 18)
+    # Left to Column 6
+    navigate_to(6, 18)
+    
+    # Step 6: Descend West Stairs by walking DOWN onto (6, 19)
+    print("\n--- STEP 6: Descending West Stairs ---")
+    walk_step_robust("Down")
+    pos = get_pos()
+    print(f"Position on ground: {pos}")
+    
+    # Step 7: Navigate to (19, 26) on Row 26 Highway
+    print("\n--- STEP 7: Navigating to (19, 26) ---")
+    navigate_to(19, 26)
+    
+    # Step 8: Stand facing UP and press A to pick up the teeth!
+    print("\n--- STEP 8: Stand facing UP and press A ---")
+    bridge.press_buttons(["Up", "sleep 500"])
+    bridge.press_buttons(["A", "sleep 1500"])
+    
     pos = get_pos()
     print(f"Final position: {pos}")
 
