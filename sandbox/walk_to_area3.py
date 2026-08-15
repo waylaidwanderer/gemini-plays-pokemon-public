@@ -86,21 +86,16 @@ def navigate_to(tx, ty):
 
 def main():
     pos = get_pos()
-    print(f"Starting Golden Ground-Level Route to Area 3 from {pos}")
-    
-    # Waypoints:
-    # 1. Row 13 on plateau: (33, 13)
-    # 2. Descend stairs to ground level: (31, 13)
-    # 3. Climb to Row 9: (31, 9)
-    # 4. Walk LEFT along Row 9: (8, 9)
-    # 5. Walk DOWN Column 8: (8, 35)
+    print(f"Starting direct route from {pos} to Area 3")
     
     waypoints = [
-        (33, 13),
-        (31, 13),
-        (31, 9),
-        (8, 9),
-        (8, 35)
+        (22, 22), # Walk UP to climb Western Southern Plateau stairs
+        (16, 22), # Walk LEFT on Western Southern Plateau
+        (16, 28), # Walk DOWN to descend stairs
+        (12, 28), # Walk LEFT to Column 12
+        (12, 30), # Walk DOWN to bypass pond
+        (8, 30),  # Walk LEFT to Column 8
+        (8, 35)   # Walk DOWN to Row 35
     ]
     
     for wp in waypoints:
@@ -111,7 +106,7 @@ def main():
     time.sleep(1.5)
     
     final_pos = get_pos()
-    print(f"Walk to Area 3 finished. Final position: {final_pos}")
+    print(f"Final position inside Area 3: {final_pos}")
 
 if __name__ == "__main__":
     main()
