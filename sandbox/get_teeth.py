@@ -55,7 +55,12 @@ def walk_step_robust(direction):
         return handle_textbox_or_battle()
         
     print(f"Walking {direction} from {pos}")
-    bridge.press_buttons([direction, "sleep 450"])
+    
+    # Dynamic sleep: 1100ms for stair tiles, 600ms for standard tiles
+    stair_tiles = [(20, 21), (12, 21), (12, 7), (17, 7), (22, 23), (16, 27), (21, 17), (6, 19)]
+    sleep_time = 1100 if pos in stair_tiles else 600
+    
+    bridge.press_buttons([direction, f"sleep {sleep_time}"])
     
     new_pos = get_pos()
     if new_pos is None:
@@ -105,7 +110,7 @@ def navigate_to(tx, ty):
         time.sleep(0.05)
 
 def main():
-    # Pre-emptively clear any "Got away safely!" battle screen
+    # Pre-emptively clear any active battle/textbox
     print("Dismissing any active battle or dialogue textbox...")
     bridge.press_buttons(["B", "sleep 300", "B", "sleep 300"])
     
@@ -119,6 +124,8 @@ def main():
         if x == 5 and y == 22:
             current_phase = 2
         elif x == 15 and y == 24:
+            current_phase = 2
+        elif x == 12 and (y == 21 or y == 22):
             current_phase = 2
         elif x == 0 and (y == 22 or y == 23 or y == 24):
             current_phase = 2
@@ -161,6 +168,15 @@ def main():
             (7, 5),
             (0, 5)
         ]
+        
+        # Filter waypoints that we have already completed in Area 1 East
+        current_p = get_pos()
+        if current_p is not None:
+            cx, cy = current_p
+            if (cy == 22 and cx <= 12 and cx >= 8) or (cy == 21 and cx == 12):
+                print(f"Bypassing completed Area 1 waypoints as we are at {current_p}")
+                waypoints_area1 = waypoints_area1[6:] # Start directly from (8, 22)
+                
         for wp in waypoints_area1:
             navigate_to(wp[0], wp[1])
         print("At warp tile (0, 5). Warping to Area 2...")
