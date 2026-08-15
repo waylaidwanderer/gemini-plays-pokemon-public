@@ -84,33 +84,30 @@ def navigate_to(tx, ty):
         time.sleep(0.4)
 
 def main():
-    # Starting at (12, 3) after fleeing Nidoran in Area 1 (East)
-    # We must first press B to clear the 'Got away safely!' text if needed
-    pos = get_pos()
-    if pos is None:
-        print("Clearing initial text box...")
-        bridge.press_buttons(["B", "sleep 300"])
-        time.sleep(1.0)
-        
+    print("Executing Safari Chunk 3: Area 1 Northern Plateau to Area 2...")
+    
     waypoints = [
-        (7, 3),    # Left along Row 3 to Column 7
-        (7, 5),    # Down to Row 5
-        (0, 5)     # Transition to Area 2 (North)
+        (8, 22),   # Left to Column 8
+        (8, 8),    # Up Column 8 to Row 8
+        (12, 8),   # Right along Row 8 to Column 12
+        (12, 6),   # Up to climb northern plateau stairs to Row 6
+        (17, 6),   # Right along Row 6 on plateau to Column 17
+        (17, 8),   # Down to descend northern plateau stairs to Row 8
+        (20, 8),   # Right along Row 8 to Column 20
+        (20, 5),   # Up Column 20 to Row 5 (Northeast channel)
+        (0, 5)     # Left along Row 5 to Column 0 (transition tile)
     ]
     
-    print("Executing Safari Chunk 3 Resume 2: transition to Area 2...")
     for i, wp in enumerate(waypoints, 1):
         pos = get_pos()
         if pos is None:
-            print("Map changed, stopping script.")
-            break
-        # If map transitions to Area 2, coordinates will wrap to Area 2
-        if pos[0] > 35 and pos[1] > 25:
-            print("Successfully inside Area 2 (North)!")
-            break
+            pos = handle_textbox_or_battle()
         print(f"\n--- WAYPOINT {i}/{len(waypoints)}: {wp} ---")
         navigate_to(wp[0], wp[1])
         
+    print("Transitioning Left to Area 2 (North)...")
+    bridge.press_buttons(["Left", "sleep 1500"])
+    
     time.sleep(2.0)
     pos = get_pos()
     print(f"Final position at end of Chunk 3: {pos}")
