@@ -1012,6 +1012,7 @@ Systematically probe every potential building doorway and alleyway warp in South
 - Floor Item 1: Located at (11, 14) in B1F Central Table Room [ESCAPE ROPE - Collected Turn 54720].
 - Floor Item 2: Located at (9, 17) in B1F Southwest Room.
 - East Grunt: Located at (26, 8) guarding the East Wing corridor.
+- Downward Staircase (Down to B2F): Located at (23, 2), connects to B2F at (27, 8).
 
 <hr>
 
