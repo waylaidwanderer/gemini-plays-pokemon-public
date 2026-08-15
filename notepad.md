@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Route 3 (x=11, y=6)
+- Location: Route 3 (x=14, y=6)
 - Current Objective: Traverse Route 3, defeat trainers, catch new Pokémon, and proceed towards Cerulean City
 
 ## Notepads Index
@@ -196,7 +196,9 @@
 
 ## Verified Trainers
 - Youngster #1: Located at (10, 6) facing East [Observed Turn 327]
-- Bug Catcher #1: Located at (14, 4) facing South [Defeated Turn 334]. Team: Caterpie Lv 10, Weedle Lv 10, Caterpie Lv 10.
+- Bug Catcher #1: Located at (14, 4) facing South [Defeated Turn 334-335]. Team: Caterpie Lv 10, Weedle Lv 10, Caterpie Lv 10. Reward: ¥100.
+- Youngster #2 (Shorts Guy): Located at (14, 5) facing South, triggered at (14, 6) [Turn 336]. Team: Rattata Lv 14, Ekans Lv 14.
+- Trainer (Lass / Jr. Trainer ♀): Located at (19, 5) facing South/West [Observed Turn 336]
 - Trainer (East): Located at (16, 8..9) facing West [Observed Turn 329]
 
 ## Empirical Wild Encounters
