@@ -1405,5 +1405,6 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 - Guard Grunt West: Located at (23, 12).
 - Guard Grunt East: Located at (26, 12).
 - Boss Chamber Doors: Located at (24..25, 11) leading directly into Giovanni's chamber.
+- Boss Giovanni: Located at (25, 3) in his private office chamber. Approached via Column 23 aisle (Rows 3..6) to (24, 3).
 
 <hr>
