@@ -58,6 +58,12 @@ def navigate_to(tx, ty):
             handle_textbox_or_battle()
             continue
             
+        # Detect if map transition to Area 1 (East) has occurred.
+        # Warp lands us at (0, 22) in Area 1 (East).
+        if pos[0] < 5 and pos[1] == 22:
+            print("Successfully transitioned to Area 1 (East)!")
+            break
+            
         if pos == (tx, ty):
             print(f"Arrived at waypoint ({tx}, {ty})")
             break
@@ -90,12 +96,16 @@ def main():
         (15, 22),
         (28, 22),
         (28, 10),
-        (30, 10) # transitions to Area 1 (East)
+        (30, 10) # transitions to Area 1 (East) at (0, 22)
     ]
     
     print("Beginning Safari Zone Golden Route - Phase 1...")
     for i, wp in enumerate(waypoints, 1):
         print(f"\n--- WAYPOINT {i}/{len(waypoints)}: {wp} ---")
+        pos = get_pos()
+        if pos is not None and pos[0] < 5 and pos[1] == 22:
+            print("Already transitioned to Area 1 (East)!")
+            break
         navigate_to(wp[0], wp[1])
         
     time.sleep(2.0)
