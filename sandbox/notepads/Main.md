@@ -3,8 +3,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 0/8
-- Location: Viridian City
-- Current Objective: Travel north through Viridian City past the catching tutorial onto Route 2 towards Viridian Forest
+- Location: Route 2 Gatehouse (Viridian Forest South Gate)
+- Current Objective: Navigate through Viridian Forest to reach Pewter City
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames
