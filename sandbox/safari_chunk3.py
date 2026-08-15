@@ -84,12 +84,8 @@ def navigate_to(tx, ty):
         time.sleep(0.4)
 
 def main():
-    # Starting on the southern plateau in Area 1 (East) at (19, 20)
+    # Starting at (9, 8) in Area 1 (East)
     waypoints = [
-        (12, 20),  # West on plateau
-        (12, 22),  # Descend stairs
-        (8, 22),   # Left to Column 8
-        (8, 8),    # Up along Column 8 to Row 8
         (12, 8),   # Right to Column 12 (base of northern stairs)
         (12, 6),   # Climb stairs to northern plateau
         (17, 6),   # East on northern plateau
@@ -101,7 +97,7 @@ def main():
         (0, 5)     # Transition to Area 2 (North)
     ]
     
-    print("Executing Safari Chunk 3: Area 1 Southern/Northern Plateau and transition to Area 2...")
+    print("Executing Safari Chunk 3 Resume: Area 1 Northern Plateau and transition to Area 2...")
     for i, wp in enumerate(waypoints, 1):
         pos = get_pos()
         if pos is None:
@@ -116,7 +112,7 @@ def main():
         
     time.sleep(2.0)
     pos = get_pos()
-    print(f"Final position at end of Chunk 3: {pos}")
+    print(f"Final position at end of Chunk 3 Resume: {pos}")
 
 if __name__ == "__main__":
     main()
