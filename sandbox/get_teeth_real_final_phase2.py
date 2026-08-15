@@ -10,21 +10,35 @@ def get_pos():
         return None
     return pos[0], pos[1]
 
+def handle_textbox_or_battle():
+    print("Coordinates are None. Handling potential battle or dialog...")
+    # Clear text boxes with B
+    for _ in range(5):
+        bridge.press_buttons(["B", "sleep 150"])
+    
+    # Try to RUN
+    print("Attempting to RUN from battle...")
+    bridge.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 1000"])
+    
+    # Clear post-flee text
+    for _ in range(3):
+        bridge.press_buttons(["B", "sleep 150"])
+        
+    pos = get_pos()
+    print(f"Coordinates after battle handling: {pos}")
+    return pos
+
 def walk_step_robust(direction):
     pos = get_pos()
     if pos is None:
-        print("Menu active, pressing B...")
-        bridge.press_buttons(["B", "sleep 200"])
-        return get_pos()
+        return handle_textbox_or_battle()
         
     print(f"Walking {direction} from {pos}")
-    bridge.press_buttons([direction, "sleep 400"])
+    bridge.press_buttons([direction, "sleep 450"])
     
     new_pos = get_pos()
     if new_pos is None:
-        print("Menu active, pressing B...")
-        bridge.press_buttons(["B", "sleep 200"])
-        return get_pos()
+        return handle_textbox_or_battle()
         
     if new_pos != pos:
         return new_pos
@@ -32,14 +46,19 @@ def walk_step_robust(direction):
     print("Position didn't change, pressing B...")
     bridge.press_buttons(["B", "sleep 200"])
     new_pos = get_pos()
-    return new_pos
+    if new_pos is None:
+        return handle_textbox_or_battle()
+    if new_pos != pos:
+        return new_pos
+        
+    return handle_textbox_or_battle()
 
 def navigate_to(tx, ty):
     stuck_count = 0
     while True:
         pos = get_pos()
         if pos is None:
-            bridge.press_buttons(["B", "sleep 200"])
+            handle_textbox_or_battle()
             continue
             
         if pos == (tx, ty):
@@ -65,46 +84,50 @@ def navigate_to(tx, ty):
                 stuck_count = 0
         else:
             stuck_count = 0
-        time.sleep(0.3)
-
-def buy_ticket_and_enter():
-    print("Talking to Gatekeeper clerk...")
-    # Walk UP to clerk
-    for _ in range(3):
-        bridge.press_buttons(["Up", "sleep 450"])
-    bridge.press_buttons(["Up", "sleep 500", "A", "sleep 1000"])
-    
-    # Progress dialog and buy ticket (always selecting YES)
-    for _ in range(5):
-        bridge.press_buttons(["A", "sleep 500"])
-    bridge.press_buttons(["A", "sleep 1200"]) # Select YES
-    for _ in range(5):
-        bridge.press_buttons(["A", "sleep 500"])
-    time.sleep(2.0)
+        time.sleep(0.4)
 
 def main():
     pos = get_pos()
-    print(f"Initial Position: {pos}")
+    print(f"Starting Phase 2 at: {pos}")
     
-    # 1. Walk from (26, 14) through the cut bush to the Gatehouse
-    waypoints_to_gate = [
-        (26, 8),
-        (37, 8),
-        (37, 2),
-        (22, 2),
-        (22, 4),
-        (18, 4)
+    # We are at (20, 22)
+    waypoints = [
+        (20, 20),  # Climb stairs to southern plateau
+        (12, 20),  # Walk West on plateau
+        (12, 22),  # Descend stairs to ground level
+        (8, 22),   # Walk Left to Column 8
+        (8, 8),    # Walk Up along Column 8
+        (12, 8),   # Walk Right
+        (12, 6),   # Climb northern plateau stairs
+        (17, 6),   # Walk East on northern plateau
+        (17, 8),   # Descend plateau stairs
+        (20, 8),   # Walk Right
+        (20, 3),   # Walk Up to Row 3
+        (7, 3),    # Walk Left along Row 3
+        (7, 5),    # Walk Down to Row 5
+        (0, 5)     # Transition Left to Area 2 (North)
     ]
     
-    print("Navigating to Safari Zone Gatehouse...")
-    for wp in waypoints_to_gate:
+    print("Executing Safari Phase 2: Area 1 to Area 2 (North)...")
+    for i, wp in enumerate(waypoints, 1):
+        pos = get_pos()
+        if pos is None:
+            pos = handle_textbox_or_battle()
+            if pos is None:
+                print("Map changed or battle occurred, stopping script.")
+                break
+        
+        # If we successfully transitioned to Area 2, the coordinates will be around (39, 31)
+        if pos[0] == 39 and pos[1] == 31:
+            print("Transition to Area 2 (North) detected! Stopping script.")
+            break
+            
+        print(f"\n--- WAYPOINT {i}/{len(waypoints)}: {wp} ---")
         navigate_to(wp[0], wp[1])
         
-    print("Entering Gatehouse and buying ticket...")
-    buy_ticket_and_enter()
-    
+    time.sleep(2.0)
     pos = get_pos()
-    print(f"Final Position inside Safari Zone Center: {pos}")
+    print(f"Final position at end of Phase 2: {pos}")
 
 if __name__ == "__main__":
     main()
