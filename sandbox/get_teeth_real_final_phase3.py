@@ -103,15 +103,17 @@ def main():
     pos = get_pos()
     print(f"Starting Golden Route from: {pos}")
     
-    # We are currently at (6, 23)
-    # Walk Right to Column 9, Down Column 9 to Row 26, then East to teeth
+    # We are currently at (9, 23)
+    # Optimized Column 10 bypass path to minimize tall grass steps!
     waypoints = [
-        (9, 23),   # Step 1: Walk to Column 9
-        (9, 26),   # Step 2: Walk DOWN Column 9 to Row 26 Highway
-        (19, 26)   # Step 3: Walk East to stand directly below teeth
+        (10, 23),  # Step 1: Walk to Column 10 (open grass)
+        (10, 24),  # Step 2: Walk to Row 24 (open grass)
+        (9, 24),   # Step 3: Walk Left onto Column 9 (tall grass - only 1 battle check!)
+        (9, 26),   # Step 4: Walk DOWN to Row 26 Highway (open grass)
+        (19, 26)   # Step 5: Walk East to stand directly below teeth
     ]
     
-    print("Executing Safari Column 9 Golden Route to stand below Gold Teeth...")
+    print("Executing Safari Column 10 Golden Route to stand below Gold Teeth...")
     for i, wp in enumerate(waypoints, 1):
         pos = get_pos()
         if pos is None:
