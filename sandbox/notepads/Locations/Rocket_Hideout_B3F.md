@@ -2,6 +2,8 @@
 
 ## Key Warps & Stairs
 - Staircase (Up to B2F): Located at (25, 6).
+- Staircase (Down to B4F): Located at (19, 18).
+- Elevator Door: Located at (17, 23).
 
 ## Floor Layout & Corridors
 - Landing: Spans Columns 21..28, Rows 5..8.
