@@ -84,16 +84,18 @@ def navigate_to(tx, ty):
         time.sleep(0.4)
 
 def main():
-    # Starting at (22, 30) after fleeing Nidorina in Area 2 (North)
-    # We must first press B to clear the 'Got away safely!' text if needed
+    # Starting at (22, 26) inside Area 2 (North)
+    # We are in a wild battle against Venomoth, we must first clear the text and RUN!
+    print("Clearing battle text and fleeing...")
+    bridge.press_buttons(["B", "sleep 400"])
+    time.sleep(1.0)
+    
     pos = get_pos()
     if pos is None:
-        print("Clearing initial text box...")
-        bridge.press_buttons(["B", "sleep 300"])
-        time.sleep(1.0)
+        handle_textbox_or_battle()
         
     waypoints = [
-        (22, 22),  # Up 8 steps along Column 22 (climbing stairs at 22,23)
+        (22, 22),  # Up along Column 22 (climbing stairs at 22,23) to Row 22
         (16, 22),  # Left 6 steps on the plateau
         (16, 28),  # Down 6 steps (descending stairs at 16,27) to grass
         (12, 28),  # Left 4 steps
@@ -107,7 +109,7 @@ def main():
     for i, wp in enumerate(waypoints, 1):
         pos = get_pos()
         if pos is None:
-            print("Map changed or battle occurred, stopping script.")
+            print("Map changed, stopping script.")
             break
         # If map transitions to Area 3, coordinates will wrap to Area 3 coordinates (like x=26, y=0)
         if pos[0] < 30 and pos[0] > 10 and pos[1] < 5:
