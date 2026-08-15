@@ -21,10 +21,10 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. HYDROS (Squirtle) - Lv 10
-   - Stats (Verified at Lv 10): Atk 16, Def 18, Spe 17, Spc 18, Max HP 31 (Current HP: 5/31, PSN)
+1. HYDROS (Squirtle) - Lv 11
+   - Stats (Verified at Lv 11): Atk 17, Def 20, Spe 18, Spc 19, Max HP 33 (Current HP: 4/33, PSN)
    - Type: Water
-   - Moves: Tackle (23/35), Tail Whip (30/30), Bubble (16/30)
+   - Moves: Tackle (23/35), Tail Whip (30/30), Bubble (13/30)
    - Role: Starter & primary Water/Ice special attacker
 
 ## Planned Nicknaming Strategy
@@ -104,7 +104,7 @@
 
 ## Verified Trainers
 - Bug Catcher #1: Located at (30, 33) facing west, triggered at (26, 33) [Turn 145, Defeated Turn 155]. Team: Weedle Lv 6 (observed moves: String Shot, Poison Sting), Caterpie Lv 6 (observed moves: String Shot). Reward: ¥60.
-- Bug Catcher #2: Located at (30, 19) facing west (challenges along row 19)
+- Bug Catcher #2: Located at (30, 19) facing west, triggered at (26, 19) [Turn 163, Defeated Turn 169]. Team: Weedle Lv 7, Kakuna Lv 7, Weedle Lv 7. Reward: ¥70.
 
 ## Empirical Wild Encounters
 - Caterpie Lv 3 [Turn 129], Lv 4 [Turn 156]
