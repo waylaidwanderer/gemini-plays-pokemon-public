@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 0/8
-- Location: Route 2 Gatehouse (Viridian Forest South Gate)
+- Location: Viridian Forest
 - Current Objective: Navigate through Viridian Forest to reach Pewter City
 
 ## Notepads Index
