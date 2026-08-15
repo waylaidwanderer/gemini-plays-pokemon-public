@@ -90,8 +90,10 @@ def main():
         (9, 14),   # Walk RIGHT to Column 9
         (9, 18),   # Walk DOWN Column 9 to Row 18
         (8, 18),   # Walk LEFT to Column 8
-        (8, 26),   # Walk DOWN Column 8 past Row 19 to Row 26
-        (19, 26)   # Walk RIGHT along Row 26 to Column 19
+        (8, 23),   # Walk DOWN Column 8 past the Row 19 Cliff Face to Row 23
+        (10, 23),  # Walk RIGHT to Column 10
+        (10, 24),  # Walk DOWN to Row 24
+        (19, 24)   # Walk RIGHT along Row 24 to Column 19
     ]
     
     print("Executing Safari Route to Gold Teeth...")
@@ -103,9 +105,9 @@ def main():
         print(f"\n--- WAYPOINT {i}/{len(waypoints)}: {wp} ---")
         navigate_to(wp[0], wp[1])
         
-    # Stand facing UP and press A to pick up the teeth
-    print("\n--- STAND FACING UP AND PRESS A ---")
-    bridge.press_buttons(["Up", "sleep 500"])
+    # Stand facing DOWN and press A to pick up the teeth
+    print("\n--- STAND FACING DOWN AND PRESS A ---")
+    bridge.press_buttons(["Down", "sleep 500"])
     bridge.press_buttons(["A", "sleep 1500"])
     
     pos = get_pos()
