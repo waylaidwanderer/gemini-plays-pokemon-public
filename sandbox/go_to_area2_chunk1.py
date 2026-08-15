@@ -85,17 +85,21 @@ def navigate_to(tx, ty):
         time.sleep(0.5)
 
 def main():
-    # Phase 2 - Chunk 1: starting from (5, 22) inside Area 1
+    # Phase 2 - Chunk 1: starting from (0, 22) inside Area 1
+    # 1. Walk DOWN 2 steps to (0, 24)
+    # 2. Walk RIGHT 20 steps to (20, 24)
+    # 3. Walk UP 4 steps to climb plateau stairs to (20, 20)
+    # 4. Walk LEFT 8 steps along plateau to (12, 20)
+    # 5. Walk DOWN 2 steps to descend stairs to (12, 22)
     waypoints = [
-        (4, 22),  # detour left to avoid fence at (5, 23)
-        (4, 24),  # walk down past fence line
-        (20, 24), # walk East to stairs
+        (0, 24),
+        (20, 24),
         (20, 20), # climb stairs
         (12, 20), # walk West along plateau
         (12, 22)  # descend stairs
     ]
     
-    print("Beginning Safari Zone Golden Route - Phase 2 Chunk 1 (Fixed Detour)...")
+    print("Beginning Safari Zone Golden Route - Phase 2 Chunk 1...")
     for i, wp in enumerate(waypoints, 1):
         print(f"\n--- WAYPOINT {i}/{len(waypoints)}: {wp} ---")
         navigate_to(wp[0], wp[1])
