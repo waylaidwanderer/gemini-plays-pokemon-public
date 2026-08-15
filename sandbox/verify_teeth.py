@@ -2,19 +2,22 @@ import mgba
 import time
 
 def main():
-    print("Verifying Bag items carefully...")
-    # Currently we are on TOWN MAP in the Bag.
-    # Let's scroll up 8 times to see the middle of the Bag list
-    mgba.press_buttons(["Up", "sleep 200"] * 8 + ["sleep 500"])
+    print("Verifying Bag items step-by-step...")
+    # Currently we are on MOON STONE x 2 (Page 1)
+    # Scroll down 4 times to Page 2
+    mgba.press_buttons(["Down", "sleep 200", "Down", "sleep 200", "Down", "sleep 200", "Down", "sleep 500"])
+    p2 = mgba.take_screenshot()
+    print(f"Bag Page 2: {p2}")
     
-    screenshot = mgba.take_screenshot()
-    print(f"Bag Middle Page Screenshot: {screenshot}")
+    # Scroll down 4 times to Page 3
+    mgba.press_buttons(["Down", "sleep 200", "Down", "sleep 200", "Down", "sleep 200", "Down", "sleep 500"])
+    p3 = mgba.take_screenshot()
+    print(f"Bag Page 3: {p3}")
     
-    # Scroll up 5 more times to hit the absolute top
-    mgba.press_buttons(["Up", "sleep 200"] * 5 + ["sleep 500"])
-    
-    screenshot_top = mgba.take_screenshot()
-    print(f"Bag Top Page Screenshot: {screenshot_top}")
+    # Scroll down 4 times to Page 4
+    mgba.press_buttons(["Down", "sleep 200", "Down", "sleep 200", "Down", "sleep 200", "Down", "sleep 500"])
+    p4 = mgba.take_screenshot()
+    print(f"Bag Page 4: {p4}")
 
 if __name__ == "__main__":
     main()
