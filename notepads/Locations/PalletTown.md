@@ -2,7 +2,7 @@
 
 ## Buildings
 - Player's House (2F Bedroom with PC containing 1x Potion; 1F Mom)
-- Rival's House (Rival's Sister / Daisy)
+- Rival's House (Daisy - gave Town Map)
 - Professor Oak's Pokémon Research Lab (Oak, 3 Poké Balls on table, Rival)
 
 ## Key Items & Triggers
