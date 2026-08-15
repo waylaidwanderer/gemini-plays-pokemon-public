@@ -1,39 +1,52 @@
-import mgba
 import time
+import sys
+import os
+
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+import bridge
+import mgba
+
+sys.stdout.reconfigure(encoding='utf-8')
 
 def main():
-    print("Opening Start Menu...")
-    mgba.press_buttons(["Start", "sleep 500"])
+    print("Checking BAG contents...")
     
-    # Take screenshot of menu
-    print("Taking menu screenshot...")
-    img = mgba.take_screenshot()
-    print("Menu opened.")
+    # 1. Dismiss dialogue by pressing B a few times
+    print("Dismissing dialogue...")
+    for _ in range(4):
+        bridge.press_buttons(["B", "sleep 300"])
+        
+    # 2. Open START menu (cursor is on POKÉMON or OPTION)
+    # Let's open the START menu and move to POKÉDEX first to reset
+    bridge.press_buttons(["Start", "sleep 600"])
     
-    print("Moving cursor to PACK...")
-    mgba.press_buttons(["Down", "sleep 200", "A", "sleep 800"])
+    # Press UP 7 times to wrap to POKÉDEX (1)
+    for _ in range(7):
+        bridge.press_buttons(["Up", "sleep 150"])
+        
+    # Move DOWN 2 times to ITEM (3)
+    bridge.press_buttons(["Down", "sleep 200", "Down", "sleep 200"])
     
-    # Take screenshot of first pack page
-    print("Taking page 1 screenshot...")
+    # Open ITEM menu
+    bridge.press_buttons(["A", "sleep 1000"])
+    
+    # Take screenshot of first page of BAG
     mgba.take_screenshot()
+    print("First page of BAG captured.")
     
-    # Scroll down 3 times
-    print("Scrolling down...")
-    mgba.press_buttons(["Down", "sleep 150", "Down", "sleep 150", "Down", "sleep 150", "Down", "sleep 150"])
-    
-    print("Taking page 2 screenshot...")
+    # Scroll down to see more items (Gen 1 BAG holds up to 20 items, showing 3-4 at a time)
+    for i in range(5):
+        bridge.press_buttons(["Down", "sleep 200"])
     mgba.take_screenshot()
+    print("Second page of BAG captured.")
     
-    # Scroll down more
-    print("Scrolling down further...")
-    mgba.press_buttons(["Down", "sleep 150", "Down", "sleep 150", "Down", "sleep 150", "Down", "sleep 150"])
-    
-    print("Taking page 3 screenshot...")
+    for i in range(5):
+        bridge.press_buttons(["Down", "sleep 200"])
     mgba.take_screenshot()
+    print("Third page of BAG captured.")
     
     # Close menu
-    print("Closing menu...")
-    mgba.press_buttons(["B", "sleep 200", "B", "sleep 200", "B", "sleep 200"])
-    
+    bridge.press_buttons(["B", "sleep 400", "Start", "sleep 400"])
+
 if __name__ == "__main__":
     main()
