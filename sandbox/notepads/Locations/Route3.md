@@ -2,7 +2,7 @@
 
 ## Connections
 - West: Pewter City [Entered Turn 325]
-- East: (Path leads east through mountain corridors)
+- East: Mt. Moon & Route 4 (path leads east through mountain corridors)
 
 ## Layout & Landmarks
 - Mountain path flanked by rock cliffs on north and south
@@ -16,10 +16,12 @@
 
 ## Verified Trainers
 - Youngster #1: Located at (10, 6) facing East [Observed Turn 327]
-- Bug Catcher #1: Located at (14, 4) facing South [Defeated Turn 334-335]. Team: Caterpie Lv 10, Weedle Lv 10, Caterpie Lv 10. Reward: ¥100.
-- Youngster #2 (Shorts Guy): Located at (14, 5) facing South, triggered at (14, 6) [Defeated Turn 341]. Team: Rattata Lv 11, Ekans Lv 11. Reward: ¥165.
-- Bug Catcher #2: Located at (19, 5) facing South [Engaged Turn 348]. Team: 4 Pokémon (Weedle Lv 9, Kakuna Lv 9, Caterpie Lv 9, Metapod Lv 9).
-- Trainer (East): Located at (16, 8..9) facing West [Observed Turn 329]
+- Bug Catcher #1: Located at (14, 4) facing South [Defeated Turn 334-335]. Team: Caterpie Lv 10, Weedle Lv 10, Caterpie Lv 10. Reward: �100.
+- Youngster #2 (Shorts Guy): Located at (14, 5) facing South, triggered at (14, 6) [Defeated Turn 341]. Team: Rattata Lv 11, Ekans Lv 11. Reward: �165.
+- Bug Catcher #2: Located at (19, 5) facing South [Defeated Turn 358]. Team: Weedle Lv 9, Kakuna Lv 9, Caterpie Lv 9, Metapod Lv 9. Reward: �90.
+- Bug Catcher #3 (or Trainer): Located at (23, 4) facing South/West [Observed Turn 361]
+- Trainer (Lass): Located at (16, 9) facing North [Observed Turn 347]
+- Trainer (Youngster): Located at (22, 9) facing North/Left [Observed Turn 361]
 
 ## Empirical Wild Encounters
 - (Documenting upon encounter)
