@@ -31,16 +31,13 @@ def walk_step_robust(direction):
     return new_pos
 
 def main():
-    print("Mapping Row 25/26 access on the far West (Columns 2-7)...")
-    # We are at (17, 23).
-    # Let's walk Left along Row 23 to Column 2.
-    # At each column, we will try to step Down to Row 26.
+    print("Mapping Row 25/26 access on the West (Columns 13-2)...")
+    # We are at (14, 23).
+    # Let's walk Left along Row 23 and probe Columns 13 down to 2.
     
     open_paths = []
     
-    # We go from Column 17 down to Column 2
-    for col in range(17, 1, -1):
-        # Navigate to (col, 23)
+    for col in range(13, 1, -1):
         pos = get_pos()
         if pos is None:
             pos = handle_textbox_or_battle()
@@ -55,7 +52,7 @@ def main():
                 walk_step_robust("Up")
             continue
             
-        # Walk horizontally to the target column on Row 23
+        # Walk Left to the target column
         while pos[0] > col:
             pos = walk_step_robust("Left")
             if pos is None:
@@ -68,15 +65,15 @@ def main():
             continue
             
         print(f"At ({pos[0]}, 23). Probing Down...")
-        # Try to step Down to Row 24
+        # Step Down to Row 24
         new_pos = walk_step_robust("Down")
         if new_pos is not None and new_pos[1] == 24:
             print(f"-> Column {pos[0]} is open on Row 24!")
-            # Try to step Down to Row 25
+            # Step Down to Row 25
             new_pos2 = walk_step_robust("Down")
             if new_pos2 is not None and new_pos2[1] == 25:
                 print(f"-> Column {pos[0]} is open on Row 25!")
-                # Try to step Down to Row 26
+                # Step Down to Row 26
                 new_pos3 = walk_step_robust("Down")
                 if new_pos3 is not None and new_pos3[1] == 26:
                     print(f"-> SUCCESS! Column {pos[0]} is completely open to Row 26!")
