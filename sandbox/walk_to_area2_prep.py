@@ -89,13 +89,13 @@ def navigate_to(tx, ty):
 
 def main():
     pos = get_pos()
-    print(f"Starting Area 2 (North) ground-level walk. Position: {pos}")
+    print(f"Starting Area 2 (North) ground-level walk from (25, 19). Position: {pos}")
     
-    # Walk to (22, 31) starting from the ground corridor at (22, 19)
-    if pos is not None and pos == (22, 19):
-        # Walk RIGHT to Column 25 and DOWN to Row 31 (bypassing the plateau wall at 22, 20)
-        navigate_to(25, 19)
-        navigate_to(25, 31)
+    # Walk over Column 27 and Row 11 to bypass the Western Southern Plateau wall
+    if pos is not None and pos == (25, 19):
+        navigate_to(27, 19)
+        navigate_to(27, 11)
+        navigate_to(22, 11)
         navigate_to(22, 31)
         
         # Now walk LEFT to transition to Area 3 (West) at (26, 0)
