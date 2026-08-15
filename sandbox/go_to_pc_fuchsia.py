@@ -52,19 +52,25 @@ def navigate_to(tx, ty):
         time.sleep(0.4)
 
 def main():
-    print("Navigating to (19, 31) to view Pokemon Center...")
+    print("Navigating from current (19, 20) to Pokemon Center via Column 8 highway...")
     
-    # Starting at current (19, 21)
     waypoints = [
-        (22, 21),  # Right to Column 22
-        (22, 31),  # Down to Row 31
-        (19, 31)   # Left to Column 19
+        (8, 20),   # Left along Row 20 to Column 8
+        (8, 32),   # Down Column 8 to Row 32 (jumping over ledge)
+        (19, 32),  # Right along Row 32 to Column 19
+        (19, 28),  # Up Column 19 to doormat
+        (19, 27)   # Enter Pokemon Center
     ]
     
     for wp in waypoints:
         navigate_to(wp[0], wp[1])
         
-    print("Arrived at viewing position. Standing at (19, 31).")
+    print("Entering Pokemon Center...")
+    walk_step_robust("Up")
+    time.sleep(1.5)
+    
+    pos = get_pos()
+    print(f"Final Position inside Pokemon Center: {pos}")
 
 if __name__ == "__main__":
     main()
