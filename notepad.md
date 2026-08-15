@@ -5,8 +5,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Route 3 Pokémon Center (x=3, y=7)
-- Current Objective: Heal party with Nurse Joy, then exit to (18, 5) and enter Mt. Moon cave
+- Location: Mt. Moon Exterior Plaza (x=11, y=6)
+- Current Objective: Enter Mt. Moon cave at (18, 5) and navigate towards Route 4 / Cerulean City
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
