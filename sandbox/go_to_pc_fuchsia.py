@@ -52,14 +52,13 @@ def navigate_to(tx, ty):
         time.sleep(0.4)
 
 def main():
-    print("Navigating from current (24, 31) to Pokemon Center via far West Column 1 corridor...")
+    print("Navigating from current position to Pokemon Center door...")
     
     waypoints = [
-        (24, 21),  # Up Column 24 to Row 21
-        (1, 21),   # Left Row 21 to Column 1 (bypassing roof on Rows 22-23)
-        (1, 32),   # Down Column 1 to Row 32 (bypassing building and Column 2 wall)
-        (19, 32),  # Right Row 32 to Column 19
-        (19, 27)   # Enter Pokemon Center
+        (8, 32),   # Left to Column 8 Row 32
+        (8, 28),   # Up Column 8 to Row 28 (through ledge gap)
+        (19, 28),  # Right along Row 28 to Column 19
+        (19, 27)   # Outside door
     ]
     
     for wp in waypoints:
@@ -70,7 +69,7 @@ def main():
     time.sleep(1.5)
     
     pos = get_pos()
-    print(f"Final Position inside Pokemon Center: {pos}")
+    print(f"Final Position: {pos}")
 
 if __name__ == "__main__":
     main()
