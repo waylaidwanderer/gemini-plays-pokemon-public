@@ -1,10 +1,10 @@
 <h1><code>Main</code></h1>
 
 ## CURRENT STATUS & DASHBOARD (Turn 55478)
-- Location: Pokémon Tower 7F at (10, 9) [Defeated Grunts 1 & 2; advancing to Grunt 3].
-- Primary Goal: Clear Pokémon Tower in Lavender Town to rescue Mr. Fuji and obtain Poké Flute.
-- Secondary Goal: Defeat final Team Rocket Grunt 3 at (11, 3) with Lv54 Blastoise.
-- Active Strategy: Walk North along Column 10 from (10, 9) to (10, 3) -> Defeat Rocket Grunt 3 at (11, 3) with Blastoise Lv54 Bite/Hydro Pump -> Speak to Mr. Fuji at (10, 3)/(10, 2) -> Teleport to Volunteer Pokémon House -> Receive Poké Flute!
+- Location: Pokémon Tower 7F at (10, 4) [Speaking to Mr. Fuji].
+- Primary Goal: Complete Pokémon Tower rescue and obtain Poké Flute from Mr. Fuji.
+- Secondary Goal: Receive Poké Flute in Volunteer Pokémon House, then head to Route 16 / Route 12 Snorlax.
+- Active Strategy: Advance Mr. Fuji's dialogue -> Warp to Volunteer Pokémon House -> Speak to Mr. Fuji to receive Poké Flute!
 - Key Items: SILPH SCOPE [ACQUIRED & VERIFIED], LIFT KEY [ACQUIRED], TM07 Horn Drill [ACQUIRED], BICYCLE [EQUIPPED].
 - Party Status: SHELLSHOCK (Blastoise Lv54, HP 186/189), LUNA (Clefable Lv11, HP 40/40), CUTTER (Paras Lv14, HP 39/39), SPROUT (Bellsprout Lv15, HP 40/40), BRUDF (Hitmonlee Lv30, HP 73/73).
 
@@ -1684,5 +1684,8 @@ Locate and verify the active warp tile leading to Pokémon Tower 7F.
 - Rocket Grunt 2: Located at (11, 6) / (9, 7) facing Left. Team: Koffing Lv26, Drowzee Lv26.
 - Rocket Grunt 3: Located at (11, 3) guarding altar approach. Team: Zubat Lv23, Rattata Lv23, Raticate Lv23, Zubat Lv23.
 - Mr. Fuji: Located on the top altar dais at (10, 3).
+## Quest Completion
+- Defeated all 3 Rocket Grunts on 7F (Turns 55470-55498).
+- Rescued Mr. Fuji at (10, 3) on Turn 55501.
 
 <hr>
