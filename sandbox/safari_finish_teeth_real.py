@@ -84,32 +84,52 @@ def navigate_to(tx, ty):
         time.sleep(0.4)
 
 def main():
-    print("Executing Legendary Ground-Level Golden Route to Gold Teeth...")
-    # Starting at (15, 25) inside Safari Zone Center
+    print("Executing Real Golden Highway Route to Gold Teeth...")
+    # Starting at (14, 25) inside Safari Zone Center
     
-    # Step 1: Walk LEFT to (14, 25)
-    print("\n--- STEP 1: Walking LEFT to (14, 25) ---")
-    walk_step_robust("Left")
+    # Step 1: Navigate to (29, 22) in Center
+    print("\n--- STEP 1: Navigating to (29, 22) ---")
+    navigate_to(29, 22)
+    # Transition to Area 1 (East)
+    print("Transitioning to Area 1...")
+    bridge.press_buttons(["Right", "sleep 1000"])
+    time.sleep(1.0)
     
-    # Step 2: Walk DOWN to (14, 26)
-    print("\n--- STEP 2: Walking DOWN to (14, 26) ---")
-    walk_step_robust("Down")
+    pos = get_pos()
+    if pos is None:
+         pos = handle_textbox_or_battle()
+    print(f"Position in Area 1 (East): {pos}")
     
-    # Step 3: Navigate LEFT along Row 26 to (0, 26)
-    print("\n--- STEP 3: Navigating to (0, 26) ---")
+    # Step 2: Navigate to (20, 26) in Area 1 (East)
+    print("\n--- STEP 2: Navigating to (20, 26) in Area 1 (East) ---")
+    navigate_to(20, 22)
+    navigate_to(20, 26)
+    
+    # Step 3: Navigate LEFT to transition to Safari Zone Center at Row 26
+    print("\n--- STEP 3: Navigating to Center Row 26 ---")
     navigate_to(0, 26)
-    
-    # Step 4: Step LEFT to transition to Area 3 (West) at (29, 26)
-    print("\n--- STEP 4: Transitioning to Area 3 (West) ---")
+    print("Transitioning to Center Row 26...")
     bridge.press_buttons(["Left", "sleep 1000"])
     time.sleep(1.0)
     
     pos = get_pos()
     if pos is None:
          pos = handle_textbox_or_battle()
-    print(f"Position in Area 3: {pos}")
+    print(f"Position in Center Row 26: {pos}")
     
-    # Step 5: Navigate to (19, 26)
+    # Step 4: Navigate LEFT to transition to Area 3 (West) at Row 26
+    print("\n--- STEP 4: Navigating to Area 3 Row 26 ---")
+    navigate_to(0, 26)
+    print("Transitioning to Area 3 Row 26...")
+    bridge.press_buttons(["Left", "sleep 1000"])
+    time.sleep(1.0)
+    
+    pos = get_pos()
+    if pos is None:
+         pos = handle_textbox_or_battle()
+    print(f"Position in Area 3 Row 26: {pos}")
+    
+    # Step 5: Navigate to (19, 26) on the Row 26 Highway
     print("\n--- STEP 5: Navigating to (19, 26) ---")
     navigate_to(19, 26)
     
@@ -118,7 +138,6 @@ def main():
     bridge.press_buttons(["Up", "sleep 500"])
     bridge.press_buttons(["A", "sleep 1500"])
     
-    # Print final position to verify
     pos = get_pos()
     print(f"Final position: {pos}")
 
