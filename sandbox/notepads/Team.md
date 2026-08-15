@@ -2,7 +2,7 @@
 
 ## Active Party
 1. HYDROS (Squirtle) - Lv 12
-   - Stats (Verified at Lv 12): Atk 19, Def 21, Spe 19, Spc 20, Max HP 35 (HP: 29/35, PSN - curing with Antidote)
+   - Stats (Verified at Lv 12): Atk 19, Def 21, Spe 19, Spc 20, Max HP 35 (HP: 29/35, Healthy)
    - Type: Water
    - Moves: Tackle, Tail Whip, Bubble
    - Role: Starter & primary Water/Ice special attacker
@@ -14,6 +14,6 @@
 - Money: ¥693
 - Key Items: Town Map, Pokédex
 - Consumables:
-  - 2x Antidote (Status cure: Poison - 1 about to be used)
+  - 1x Antidote (Status cure: Poison - 1 consumed Turn 237, verifying bag)
   - 1x Potion (Restores 20 HP)
   - 5x Poké Ball (Standard catch rate)

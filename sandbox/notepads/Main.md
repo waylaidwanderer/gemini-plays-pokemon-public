@@ -4,7 +4,7 @@
 - Player: BLUE
 - Badges: 0/8
 - Location: Viridian Forest (Heading North to Pewter City)
-- Current Objective: Navigate Viridian Forest with Lv 11 HYDROS (2 Antidotes in bag), defeat Bug Catcher #2, and defeat Brock in Pewter City
+- Current Objective: Navigate northern Viridian Forest with Lv 12 HYDROS, defeat remaining trainers, and defeat Brock in Pewter City
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames
