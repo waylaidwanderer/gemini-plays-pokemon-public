@@ -61,8 +61,8 @@ def walk_to_waypoint(target_x, target_y):
 
 # Waypoints starting from current position (9, 5) in Area 2 (North)
 waypoints = [
-    (9, 9),
-    (28, 9),
+    (9, 3),
+    (28, 3),
     (28, 11),
     (31, 11),
     (31, 13),
