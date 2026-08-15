@@ -50,58 +50,46 @@ def walk_step_robust(direction):
         
     return handle_textbox_or_battle()
 
-def navigate_to(tx, ty):
-    stuck_count = 0
-    while True:
+def walk_path(path_steps):
+    for i, step in enumerate(path_steps):
+        print(f"\nStep {i+1}/{len(path_steps)}: {step}")
         pos = get_pos()
         if pos is None:
             handle_textbox_or_battle()
-            continue
+            pos = get_pos()
             
-        if pos == (tx, ty):
-            print(f"Arrived at waypoint ({tx}, {ty})")
-            break
-            
-        print(f"Current: {pos}, Target: ({tx}, {ty})")
-        # Determine direction
-        if pos[0] < tx:
-            direction = "Right"
-        elif pos[0] > tx:
-            direction = "Left"
-        elif pos[1] < ty:
-            direction = "Down"
-        elif pos[1] > ty:
-            direction = "Up"
-            
-        new_pos = walk_step_robust(direction)
-        if new_pos == pos:
+        stuck_count = 0
+        while True:
+            new_pos = walk_step_robust(step)
+            if new_pos is not None and new_pos != pos:
+                break
             stuck_count += 1
             if stuck_count > 3:
-                print("Stuck trying to move! Clearing with B...")
+                print("Extremely stuck! Pressing B and retrying...")
                 bridge.press_buttons(["B", "sleep 500"])
                 stuck_count = 0
-        else:
-            stuck_count = 0
-        time.sleep(0.5)
+            time.sleep(0.5)
 
 def main():
-    # We are at (12, 3) inside Area 1 (East).
-    # Waypoints to Area 2 (North) transition at (0, 5):
-    # 1. (12, 5) - Walk Down 2 steps to reach the open Row 5 corridor
-    # 2. (0, 5)  - Walk Left along Row 5 to Column 0 (transition)
-    waypoints = [
-        (12, 5),
-        (0, 5)
-    ]
+    # Starting at (12, 3) inside Area 1 (East)
+    # This corrected path walks back to Column 20, down to Row 8, across the plateau to the west, 
+    # down to Column 8, up Column 8 to the open Row 5 corridor, and left to transition to Area 2 (North).
+    path = (
+        ["Right"] * 8 +
+        ["Down"] * 5 +
+        ["Left"] * 3 +
+        ["Up"] * 2 +
+        ["Left"] * 5 +
+        ["Down"] * 2 +
+        ["Left"] * 4 +
+        ["Up"] * 3 +
+        ["Left"] * 8
+    )
     
-    print("Completing Safari Zone Golden Route - Phase 2 (Fixed Row 5)...")
-    for i, wp in enumerate(waypoints, 1):
-        print(f"\n--- WAYPOINT {i}/{len(waypoints)}: {wp} ---")
-        navigate_to(wp[0], wp[1])
-        
+    walk_path(path)
     time.sleep(2.0)
     pos = get_pos()
-    print(f"Final position after Phase 2: {pos}")
+    print(f"Final position at end of Chunk 3: {pos}")
 
 if __name__ == "__main__":
     main()
