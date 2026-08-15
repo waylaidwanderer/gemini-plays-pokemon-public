@@ -53,24 +53,48 @@ def navigate_to(tx, ty):
             stuck_count = 0
         time.sleep(0.1)
 
+def buy_safari_ticket():
+    print("Buying Safari ticket...")
+    # Turn up to face clerk
+    bridge.press_buttons(["Up", "sleep 200"])
+    
+    # Press A to start dialog
+    bridge.press_buttons(["A", "sleep 600"])
+    
+    # Mash through dialogue and select YES (only pressing A, never B)
+    for _ in range(20):
+        bridge.press_buttons(["A", "sleep 400"])
+    
+    # Wait for the transition to finish
+    time.sleep(1.5)
+    print("Safari Zone ticket purchased. Checking position...")
+
 def main():
-    # 1. Dismiss CUT text box (pressing B once)
-    print("Dismissing 'TRUFFLE hacked away with CUT!' text box...")
-    bridge.press_buttons(["B", "sleep 1000"])
-    
     pos = get_pos()
-    print(f"Starting overworld walk. Position: {pos}")
+    print(f"Starting walk to Gatehouse. Position: {pos}")
     
-    # Walk to (37, 2) in Fuchsia City overworld
-    if pos is not None and pos == (26, 14):
-        navigate_to(26, 12)
-        navigate_to(26, 9)
-        navigate_to(19, 9)
-        navigate_to(19, 8)
-        navigate_to(37, 8)
+    # 1. Walk from (23, 8) in Fuchsia City to the Safari Gatehouse
+    if pos is not None and pos == (23, 8):
+        navigate_to(23, 9) # detour down to row 9
+        navigate_to(37, 9)
         navigate_to(37, 2)
+        navigate_to(22, 2)
+        navigate_to(22, 4)
+        navigate_to(18, 4)
+        print("Transitioning into the Gatehouse...")
+        walk_step_robust("Up")
+        time.sleep(1.5)
         
-    print(f"Chunk 1 finished. Final position: {get_pos()}")
+    pos = get_pos()
+    print(f"Position inside Gatehouse check: {pos}")
+    
+    # Inside Safari Gatehouse: Walk to clerk and buy ticket
+    if pos is not None and pos[1] > 3 and pos[0] < 10:
+        navigate_to(3, 3)
+        buy_safari_ticket()
+        
+    pos = get_pos()
+    print(f"Final position inside Safari Center: {pos}")
 
 if __name__ == "__main__":
     main()
