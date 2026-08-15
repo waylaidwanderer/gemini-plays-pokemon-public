@@ -5,6 +5,6 @@
 - North: Viridian City (y=0)
 
 ## Points of Interest
-- Mart Clerk NPC: Wandering clerk offering a free sample Potion.
-- Ledge boy NPC at (5, 24): Explains jumping down ledges.
+- Ledge boy NPC at (17, 13): Explains jumping down ledges.
+- Mart Clerk NPC: Wandering clerk offering free sample Potion (located on northern half of Route 1).
 - Wild Pokémon: Pidgey (Lv 2-5), Rattata (Lv 2-4).
