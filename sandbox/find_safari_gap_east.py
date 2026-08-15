@@ -88,7 +88,7 @@ def navigate_to(tx, ty):
         time.sleep(0.4)
 
 def main():
-    print("Resuming eastern gap search script...")
+    print("Starting western gap search script...")
     # Clear any menus
     for _ in range(3):
         bridge.press_buttons(["B", "sleep 300"])
@@ -97,9 +97,9 @@ def main():
     print(f"Current Position: {pos}")
     
     # We are currently at (17, 23)
-    # Let's walk Right on Row 23 and try to go DOWN at each column from 18 to 29.
+    # Let's walk Left on Row 23 and try to go DOWN at each column from 17 down to 3.
     
-    for col in range(18, 30):
+    for col in range(17, 2, -1):
         pos = get_pos()
         if pos is None:
             pos = handle_textbox_or_battle()
@@ -107,9 +107,9 @@ def main():
                 continue
                 
         print(f"\nProbing Column {col} Row 23...")
-        # Walk Right to target column
-        while pos[0] < col:
-            pos = walk_step_robust("Right")
+        # Walk Left to target column
+        while pos[0] > col:
+            pos = walk_step_robust("Left")
             if pos is None:
                 pos = handle_textbox_or_battle()
                 break
@@ -146,7 +146,7 @@ def main():
             
         time.sleep(0.3)
         
-    print("Eastern gap search completed.")
+    print("Western gap search completed.")
 
 if __name__ == "__main__":
     main()
