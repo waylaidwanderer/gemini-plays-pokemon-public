@@ -607,7 +607,7 @@
 ## Master Connection & Highway Access (Discovered Turn 54639)
 - **Ascent Ledge Gap at (4, 7)**: Tile (4, 7) is a PASSABLE two-way gap in the Row 7 ledge! Walking Up from (4, 8) steps directly onto (4, 7) and Up to (4, 6), granting direct northbound access from Saffron West Gatehouse / Row 8 road directly to the Upper West Highway (Rows 2..6).
 - **Upper West Highway (Rows 2..6)**: Continuous open pavement spanning Columns 0..6 across Rows 2..6.
-- **Celadon City West Connection**: Walking Left along Row 6 across (3, 6) -> (2, 6) -> (1, 6) -> (0, 6) enters Celadon City at (39, 14).
+- **Celadon City Connection (Rows 2..3)**: Walking Up from (2, 6) or (4, 6) to Row 3 (or Row 2) and heading West across (2, 3) -> (1, 3) -> (0, 3) -> (-1, 3) enters Celadon City (Row 6 is blocked by trees at x=1).
 - **East Saffron Gatehouse Connection**: Exiting Celadon City at (39, 14) onto Route 7 (0, 6) allows walking East across Upper Highway to Column 4/5, hopping South over ledge at (4..6, 7) to Row 8, and walking East to Saffron West Gatehouse at (11, 10).
 
 ## Key Warps & Buildings
