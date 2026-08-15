@@ -1031,7 +1031,7 @@ Systematically probe every potential building doorway and alleyway warp in South
 - North Grunt: Defeated at (13, 6).
 - South Passage Gap: Located at Columns 11..12 at Row 8 (11..12, 8), connecting Upper Corridor down into South Wing (y>=9).
 ## Items & Pickups
-- Floor Item 1: Located at (11, 14) in B1F Central Table Room [Collected Turn 54720].
+- Floor Item 1: Located at (11, 14) in B1F Central Table Room [ESCAPE ROPE - Collected Turn 54720].
 - Floor Item 2: Located at (9, 17) in B1F Southwest Room.
 - East Grunt: Located at (26, 8) guarding the East Wing corridor.
 
