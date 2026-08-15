@@ -18,6 +18,7 @@
 - Lift Key: Collected at (10, 2) on Turn 54817 [IN BAG].
 - Northwest Room Item: Collected at (9, 4) on Turn 54818 [IN BAG].
 - Southwest Room Item: Collected at (10, 12) on Turn 54826 [IN BAG].
+- Silph Scope: Collected at (25, 2) on Turn 54957 after defeating Boss Giovanni [IN BAG].
 
 ## Objectives & Layout Strategy
 - West Wing (Stairs at 19, 10): Contains Lift Key Grunt (11, 2) and pickup items.
