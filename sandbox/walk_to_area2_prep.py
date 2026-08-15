@@ -103,11 +103,8 @@ def main():
         navigate_to(12, 30)
         navigate_to(8, 30)
         navigate_to(8, 35)
-        print("Warping to Area 3 (West)...")
-        navigate_to(8, 36)
-        pos = get_pos()
-        if pos == (8, 36):
-            walk_step_robust("Down")
+        print("Stepping DOWN to warp to Area 3 (West)...")
+        walk_step_robust("Down")
         time.sleep(1.5)
         
     print(f"Walk to Area 3 finished. Final position: {get_pos()}")
