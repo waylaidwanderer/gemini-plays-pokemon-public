@@ -73,14 +73,11 @@ def main():
     pos = get_pos()
     print(f"Starting delivery walk from: {pos}")
     
-    # 1. Walk to Warden's House door
+    # 1. Walk to Warden's House door via Column 37 detour
     waypoints = [
-        (24, 26),
-        (24, 21),
-        (22, 21),
-        (22, 14),
-        (26, 14),
-        (26, 27),
+        (37, 15),
+        (37, 28),
+        (27, 28),
         (27, 27) # Door transition
     ]
     
