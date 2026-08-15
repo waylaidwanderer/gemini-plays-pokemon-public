@@ -5,7 +5,7 @@ def get_pos():
     pos = mgba.get_coordinates()
     if pos is None:
         return None
-    return pos["x"], pos[y] # Wait, get_coordinates returns {'x': int, 'y': int}
+    return pos["x"], pos["y"]
 
 def main():
     print("Starting visual diagnostic buy ticket sequence...")
