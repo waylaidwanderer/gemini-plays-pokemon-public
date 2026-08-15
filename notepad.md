@@ -29,7 +29,7 @@
 1. HYDROS (Wartortle) - Lv 17
    - Stats (Verified at Lv 17): Max HP 51 (HP: 29/51, Healthy - Attack 30, Defense 34, Speed 31, Special 33)
    - Type: Water
-   - Moves: Tackle (34/35), Tail Whip (30/30), Bubble (26/30), Water Gun (11/25)
+   - Moves: Tackle (34/35), Tail Whip (30/30), Bubble (26/30), Water Gun (10/25)
    - Role: Starter & primary Water special attacker
 
 ## Planned Nicknaming Strategy
