@@ -1,5 +1,5 @@
 ## CURRENT STATUS & DASHBOARD (Turn 55561)
-- Location: Route 7 at (2, 14) -> Col 4 Up through (4, 7) gap -> Row 6 West into Celadon City.
+- Location: Route 7 at (2, 14) -> Row 14 East to Gatehouse -> Route 7 (19, 10) -> Row 2 North Highway -> Celadon City.
 - Primary Goal: Travel to Route 16 to awaken Snorlax with Poké Flute and obtain HM02 Fly.
 - Secondary Goal: Defeat Gym Leader Erika at Celadon Gym for the Rainbow Badge.
 - Active Strategy: Ascend (4, 7) gap to Row 6 -> Walk West into Celadon City -> Traverse Celadon West to Route 16 -> Play Poké Flute on Snorlax -> Obtain HM02 Fly!
