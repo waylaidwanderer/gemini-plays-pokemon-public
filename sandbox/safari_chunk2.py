@@ -86,7 +86,8 @@ def navigate_to(tx, ty):
 def main():
     # Starting at (5, 22) in Area 1 (East).
     waypoints = [
-        (5, 24),   # Down to Row 24
+        (4, 22),   # Left to Column 4
+        (4, 24),   # Down to Row 24
         (20, 24),  # Right to Column 20
         (20, 22),  # Up to Row 22
         (20, 20),  # Climb stairs to plateau
