@@ -3,8 +3,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon Exterior Plaza (x=11, y=6)
-- Current Objective: Enter Mt. Moon cave at (18, 5) and navigate towards Route 4 / Cerulean City
+- Location: Mt. Moon 1F (x=14, y=35)
+- Current Objective: Explore Mt. Moon 1F, defeat trainers, collect items, catch wild Pokémon, and navigate towards Cerulean City
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
