@@ -18,8 +18,10 @@
 ## Items & Pickups
 - Lift Key: Collected at (10, 2) on Turn 54817 [IN BAG].
 - Northwest Room Item: Collected at (9, 4) on Turn 54818 [IN BAG].
+- Southwest Room Item: Located at (10, 12).
 
 ## Objectives
-- Navigate back to Elevator at (24, 11) using Lift Key.
-- Ride elevator to Giovanni's chamber.
-- Defeat Giovanni in his chamber and obtain the SILPH SCOPE!
+- Collect item at (10, 12).
+- Return up stairs at (19, 10) to B3F.
+- Enter Elevator on B3F at (17, 23) using Lift Key -> Select B4F to enter Giovanni's chamber.
+- Defeat Giovanni and obtain the SILPH SCOPE!
