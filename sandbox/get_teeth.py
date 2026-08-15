@@ -6,6 +6,25 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 import bridge
 import mgba
 
+PHASE_FILE = "current_phase.txt"
+
+def get_saved_phase():
+    if os.path.exists(PHASE_FILE):
+        try:
+            with open(PHASE_FILE, "r") as f:
+                return int(f.read().strip())
+        except Exception:
+            pass
+    return 1
+
+def save_phase(phase):
+    try:
+        with open(PHASE_FILE, "w") as f:
+            f.write(str(phase))
+        print(f"Saved phase {phase} to {PHASE_FILE}")
+    except Exception as e:
+        print(f"Error saving phase: {e}")
+
 def get_pos():
     pos = bridge.get_coordinates()
     if pos is None:
@@ -86,14 +105,20 @@ def navigate_to(tx, ty):
         time.sleep(0.05)
 
 def main():
+    # Pre-emptively clear any "Got away safely!" battle screen
+    print("Dismissing any active battle or dialogue textbox...")
+    bridge.press_buttons(["B", "sleep 300", "B", "sleep 300"])
+    
     pos = get_pos()
     print(f"Starting actual walkable route to Gold Teeth from: {pos}")
     
-    # Simple Map Detection
-    current_phase = 1
-    if pos is not None:
+    # Load or initialize phase
+    current_phase = get_saved_phase()
+    if not os.path.exists(PHASE_FILE) and pos is not None:
         x, y = pos
         if x == 5 and y == 22:
+            current_phase = 2
+        elif x == 15 and y == 24:
             current_phase = 2
         elif x == 0 and (y == 22 or y == 23 or y == 24):
             current_phase = 2
@@ -101,15 +126,16 @@ def main():
             current_phase = 3
         elif x == 26 and y == 0:
             current_phase = 4
-            
-    print(f"Detected starting Phase: {current_phase}")
+        save_phase(current_phase)
+        
+    print(f"Loaded starting Phase: {current_phase}")
     
     # Phase 1: Safari Zone Center
     if current_phase <= 1:
-        # Stand position is at (26, 10). Let's navigate to (29, 10) at warp edge
         navigate_to(29, 10)
         print("At warp tile (29, 10). Warping to Area 1...")
         bridge.press_buttons(["Right", "sleep 2000"])
+        save_phase(2)
         
         pos = get_pos()
         print(f"Emerged in Area 1 East at: {pos}")
@@ -139,6 +165,7 @@ def main():
             navigate_to(wp[0], wp[1])
         print("At warp tile (0, 5). Warping to Area 2...")
         bridge.press_buttons(["Left", "sleep 2000"])
+        save_phase(3)
         
         pos = get_pos()
         print(f"Emerged in Area 2 North at: {pos}")
@@ -161,6 +188,7 @@ def main():
             navigate_to(wp[0], wp[1])
         print("At warp tile (8, 35). Warping to Area 3...")
         bridge.press_buttons(["Down", "sleep 2000"])
+        save_phase(4)
         
         pos = get_pos()
         print(f"Emerged in Area 3 West at: {pos}")
@@ -199,6 +227,10 @@ def main():
         
         img = mgba.take_screenshot()
         print(f"START_MENU_VERIFICATION: {img}")
+        
+        # Delete the phase file as we are done
+        if os.path.exists(PHASE_FILE):
+            os.remove(PHASE_FILE)
 
 if __name__ == "__main__":
     main()
