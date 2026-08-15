@@ -26,5 +26,7 @@
 - Youngster #4: Located at (22, 9) facing North/Left [Observed Turn 361]
 - Trainer (Lass): Located at (16, 9) facing North [Observed Turn 347]
 
+- Lass #2: Located at (33, 10) in tall grass, triggered at (33, 8) [Turn 395]. Dialogue: 'Eek! Did you touch me?'.
+
 ## Empirical Wild Encounters
 - (Documenting upon encounter in tall grass)
