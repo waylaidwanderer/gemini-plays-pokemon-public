@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Route 3 (x=50, y=11)
+- Location: Route 3 (x=48, y=10)
 - Current Objective: Traverse Route 3, defeat trainers, catch new Pokémon, and proceed towards Mt. Moon / Cerulean City
 
 ## Notepads Index
