@@ -8,7 +8,7 @@
    - Role: Starter & primary Water/Ice special attacker
 
 ## Battle Strategy Notes
-- Rival Battle 1: RED has Bulbasaur Lv 5 (Tackle, Growl). Use Tail Whip on turn 1 to drop Bulbasaur's defense, then spam Tackle. Potion available if HP drops low.
+- (Rival Battle 1 completed: Victory against RED's Bulbasaur Lv 5)
 
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname.

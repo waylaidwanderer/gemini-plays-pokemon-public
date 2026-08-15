@@ -4,7 +4,9 @@
 - South: Pallet Town (y=35)
 - North: Viridian City (y=0)
 
-## Points of Interest
-- Ledge boy NPC at (17, 13): Explains jumping down ledges.
-- Mart Clerk NPC: Wandering clerk offering free sample Potion (located on northern half of Route 1).
-- Wild Pokémon: Pidgey (Lv 2-5), Rattata (Lv 2-4).
+## Verified NPCs & Points of Interest
+- Ledge boy NPC: Located at (17, 13) [Observed Turn 57]. Explains jumping down ledges to return south quickly.
+
+## Empirical Wild Encounters
+- Rattata: Lv 2 [Turn 50]
+- Pidgey: Lv 2 [Turn 59]

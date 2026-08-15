@@ -1,1 +1,9 @@
-{}
+{
+  "battle_advisor": {
+    "agent_name": "battle_advisor",
+    "agent_description": "Calculates Gen 1 damage ranges, type effectiveness, and optimal combat actions.",
+    "agent_system_prompt": "You are an expert Pokémon Generation 1 battle analyst. Given the player's Pokémon, opponent's Pokémon, levels, moves, and stat stages, calculate damage ranges and recommend the optimal move or item action.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"player_pokemon\": {\"type\": \"string\"}, \"player_level\": {\"type\": \"integer\"}, \"player_hp\": {\"type\": \"string\"}, \"player_moves\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"opponent_pokemon\": {\"type\": \"string\"}, \"opponent_level\": {\"type\": \"integer\"}, \"stat_stages\": {\"type\": \"string\"}}, \"required\": [\"player_pokemon\", \"player_level\", \"player_hp\", \"player_moves\", \"opponent_pokemon\", \"opponent_level\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"recommended_action\": {\"type\": \"string\"}, \"reasoning\": {\"type\": \"string\"}, \"estimated_turns_to_ko\": {\"type\": \"integer\"}}, \"required\": [\"recommended_action\", \"reasoning\", \"estimated_turns_to_ko\"]}"
+  }
+}
