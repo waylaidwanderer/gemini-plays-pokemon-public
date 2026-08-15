@@ -749,11 +749,11 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 54751)
-- Location: Rocket Hideout B1F at (28, 9).
+## CURRENT STATUS & DASHBOARD (Turn 54755)
+- Location: Rocket Hideout B2F at (27, 8) [Staircase Up to B1F].
 - Primary Goal: Infiltrate Main Rocket Hideout in Celadon City to obtain Silph Scope.
-- Secondary Goal: Explore Rocket Hideout B1F Northeast sector to locate stairs down to B2F.
-- Active Strategy: Pass through (25, 8) gap -> Move North along Column 25 into Northeast sector (Rows 1..4, Columns 25..28) -> Locate and verify stairs down to B2F.
+- Secondary Goal: Explore Rocket Hideout B2F and locate stairs to B3F.
+- Active Strategy: Move along Row 7 northern corridor westward into B2F main floor -> Map spin tile maze -> Defeat Grunts -> Find B3F stairs.
 - Note: Celadon Pokémon Center registered as Teleport anchor. LUNA (Clefable) knows Teleport (TM30); SHELLSHOCK knows Dig; CUTTER knows Cut.
 
 <hr>
@@ -1035,6 +1035,7 @@ Systematically probe every potential building doorway and alleyway warp in South
 - Floor Item 1: Located at (11, 14) in B1F Central Table Room [ESCAPE ROPE - Collected Turn 54720].
 - Floor Item 2: Located at (9, 17) in B1F Southwest Room.
 - East Grunt: Located at (26, 8) guarding the East Wing corridor.
+- Downward Staircase (Down to B2F): Located at (23, 2), connects to B2F at (27, 8).
 
 <hr>
 
