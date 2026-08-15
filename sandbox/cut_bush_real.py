@@ -15,24 +15,29 @@ def get_pos():
     return pos[0], pos[1]
 
 def main():
-    print("Clearing Oak warning and using CUT from the current POKÉMON menu...")
+    print("Starting CUT sequence from GUSTY's options sub-menu...")
     
-    # 1. Clear Oak text box (remains on POKÉMON menu, cursor on TRUFFLE)
+    # 1. Close GUSTY's sub-menu (returns to POKÉMON menu with cursor on GUSTY / slot 3)
+    print("Closing GUSTY sub-menu...")
     bridge.press_buttons(["B", "sleep 1000"])
     
-    # 2. Press A to select TRUFFLE (slot 2)
-    print("Selecting TRUFFLE...")
+    # 2. Press UP once to select TRUFFLE (slot 2)
+    print("Moving from GUSTY to TRUFFLE...")
+    bridge.press_buttons(["Up", "sleep 400"])
+    
+    # 3. Press A to open TRUFFLE's sub-menu (DIG, CUT, STATS...)
+    print("Opening TRUFFLE menu...")
     bridge.press_buttons(["A", "sleep 1200"])
     
-    # 3. Move DOWN once from DIG to CUT
-    print("Moving cursor from DIG to CUT...")
-    bridge.press_buttons(["Down", "sleep 300"])
+    # 4. Press DOWN once to select CUT (since DIG is above CUT)
+    print("Moving from DIG to CUT...")
+    bridge.press_buttons(["Down", "sleep 400"])
     
-    # 4. Press A to execute CUT
+    # 5. Press A to select and execute CUT
     print("Executing CUT...")
     bridge.press_buttons(["A", "sleep 4000"])
     
-    # 5. Walk UP 2 steps through the cut bush to (26, 12)
+    # 6. Walk UP 2 steps through the cut bush to (26, 12)
     print("Walking UP through the cut bush...")
     bridge.press_buttons(["Up", "sleep 600", "Up", "sleep 600"])
     
