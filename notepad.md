@@ -6,7 +6,7 @@
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
 - Location: Mt. Moon 1F (x=11, y=13)
-- Current Objective: Explore Mt. Moon 1F, defeat trainers, collect items (Moon Stone, TMs), catch wild Pokémon, and navigate towards Cerulean City
+- Current Objective: Explore Mt. Moon 1F, defeat trainers, collect items, catch wild Pokémon, and navigate towards Cerulean City
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -184,7 +184,7 @@
 
 ## Connections
 - West: Pewter City [Entered Turn 325]
-- East: Path continues east along Route 3 [Exploring]
+- East: Mt. Moon 1F [Entered Turn 447 at (58, 4..5)]
 
 ## NPCs & Points of Interest
 - Rest Boy NPC: Located at (57, 11) [Observed Turn 417]. Mentions resting outside the tunnel from Cerulean.
