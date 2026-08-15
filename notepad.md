@@ -1400,7 +1400,6 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 - West Wing (Stairs at 19, 10): Contains Lift Key Grunt (11, 2) and pickup items.
 - East Wing (Giovanni's Chamber): Separated by solid walls; accessible exclusively via Elevator from upper floors.
 ## East Wing & Giovanni's Chamber Approach
-- Elevator: Located at (24..25, 15).
 - Guard Grunt West: Located at (23, 12).
 - Guard Grunt East: Located at (26, 12).
 - Boss Chamber Doors: Located at (24..25, 11) leading directly into Giovanni's chamber.
