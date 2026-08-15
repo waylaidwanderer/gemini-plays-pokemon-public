@@ -53,16 +53,10 @@ def navigate_to(tx, ty):
         time.sleep(0.4)
 
 def main():
-    # Starting at (19, 28) in Fuchsia City (outside Pokemon Center).
+    # Starting at (26, 14) in Fuchsia City.
     # Waypoints to enter the Safari Zone Gatehouse at (18, 3):
     waypoints = [
-        (19, 30),  # Down to Row 30
-        (24, 30),  # Right to Column 24
-        (24, 21),  # Up to Row 21
-        (22, 21),  # Left to Column 22
-        (22, 14),  # Up to Row 14
-        (26, 14),  # Right to Column 26
-        (26, 9),   # Up through the cut bush to Row 9
+        (26, 9),   # Up to Row 9
         (37, 9),   # Right along Row 9 to Column 37 (bypassing horizontal barrier)
         (37, 2),   # Up Column 37 to Row 2
         (22, 2),   # Left along Row 2 to Column 22
@@ -71,7 +65,7 @@ def main():
         (18, 3)    # Enter Safari Gatehouse door!
     ]
     
-    print("Navigating from Fuchsia Pokemon Center to Safari Gatehouse...")
+    print("Navigating from (26, 14) to Safari Gatehouse...")
     for i, wp in enumerate(waypoints, 1):
         print(f"\n--- WAYPOINT {i}/{len(waypoints)}: {wp} ---")
         pos = get_pos()
@@ -79,7 +73,7 @@ def main():
             print("Map changed or menu active.")
             break
         # If we successfully enter the Gatehouse, we will warp to Gatehouse coordinates (usually x < 10)
-        if pos[0] < 10 and pos[1] < 10 and i > 10:
+        if pos[0] < 10 and pos[1] < 10:
             print("Detected gatehouse coordinates. Stopping navigation.")
             break
             
