@@ -95,28 +95,10 @@ def main():
     pos = get_pos()
     print(f"Starting overworld walk from: {pos}")
     
-    # --- Inside Area 1 East ---
-    if pos is not None and pos[0] >= 5 and pos[1] <= 10:
-        navigate_to(20, 3)
-        navigate_to(7, 3)
-        navigate_to(7, 5)
-        # Warp to Area 2 (North)
-        print("Warping to Area 2 (North)...")
-        navigate_to(0, 5)
-        pos = get_pos()
-        if pos == (0, 5):
-            walk_step_robust("Left")
-        time.sleep(1.5)
-        
-    pos = get_pos()
-    print(f"Position inside Area 2 North: {pos}")
-    
-    # --- Inside Area 2 North ---
-    if pos is not None and pos[0] >= 30 and pos[1] >= 25:
-        navigate_to(22, 31)
-        navigate_to(22, 22)  # Climb plateau
-        navigate_to(16, 22)
-        navigate_to(16, 28)  # Descend plateau
+    # Walk directly to (16, 28)
+    navigate_to(22, 22)  # Climb plateau
+    navigate_to(16, 22)  # Walk left on plateau
+    navigate_to(16, 28)  # Descend plateau
         
     print(f"Chunk 3 finished. Final position: {get_pos()}")
 
