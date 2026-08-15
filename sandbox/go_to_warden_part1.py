@@ -52,13 +52,14 @@ def navigate_to(tx, ty):
         time.sleep(0.4)
 
 def main():
-    # Waypoints to (26, 12) from (18, 4)
+    # Waypoints to (26, 12) from (18, 4) detouring around the Gatehouse
     waypoints = [
-        (18, 2),
-        (37, 2),
-        (37, 9),
-        (26, 9),
-        (26, 12)
+        (22, 4),  # Right on Row 4 to Column 22
+        (22, 2),  # Up on Column 22 to Row 2
+        (37, 2),  # Right on Row 2 to Column 37
+        (37, 9),  # Down on Column 37 to Row 9
+        (26, 9),  # Left on Row 9 to Column 26
+        (26, 12)  # Down on Column 26 to Row 12
     ]
     
     for wp in waypoints:
