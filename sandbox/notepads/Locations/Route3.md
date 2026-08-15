@@ -9,10 +9,10 @@
 - Tall grass patch at entrance (columns 2-8, rows 8-11)
 - Rocky boulders at (4, 8) and (4, 11)
 - Bush/tree obstacle at (9, 10..11)
-- One-way ledges running horizontally
+- One-way ledges running horizontally at row 7 and row 11
 
 ## Verified Trainers
-- Youngster #1: Located at (10, 6) facing south [Observed Turn 327]
+- Youngster #1: Located at (10, 6) facing East [Observed Turn 327-328]
 
 ## Empirical Wild Encounters
 - (Documenting upon encounter)
