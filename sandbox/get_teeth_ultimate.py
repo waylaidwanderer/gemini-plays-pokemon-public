@@ -59,8 +59,8 @@ def navigate_to(tx, ty):
     while True:
         pos = get_pos()
         if pos is None:
-            handle_textbox_or_battle()
-            continue
+            # Check if we transitioned or got warped
+            return
             
         if pos == (tx, ty):
             print(f"Arrived at waypoint ({tx}, {ty})")
@@ -89,44 +89,45 @@ def navigate_to(tx, ty):
 
 def main():
     pos = get_pos()
-    print(f"Starting Area 3 Gold Teeth Retrieval from: {pos}")
+    print(f"Starting step exhaustion routine from: {pos}")
     
-    # 1. Walk LEFT to Column 25: (25, 3)
-    navigate_to(25, 3)
-    # 2. Walk DOWN Column 25 to Row 18: (25, 18)
-    navigate_to(25, 18)
-    # 3. Walk LEFT to (21, 18)
-    navigate_to(21, 18)
-    # 4. Walk DOWN Column 21 to Row 23: (21, 23)
-    navigate_to(21, 23)
-    # 5. Walk LEFT to (19, 23)
-    navigate_to(19, 23)
-    # 6. Walk DOWN to (19, 24) (standing directly above the solid teeth)
-    navigate_to(19, 24)
-    # 7. Walk LEFT to (18, 24) (detour around teeth)
-    navigate_to(18, 24)
-    # 8. Walk DOWN to (18, 26)
-    navigate_to(18, 26)
-    # 9. Walk RIGHT to (19, 26) (standing directly below the teeth!)
+    # We are at (19, 24). Walk to Row 26: (19, 26)
     navigate_to(19, 26)
     
-    # Face UP
-    print("Facing UP towards Gold Teeth...")
-    bridge.press_buttons(["Up", "sleep 500"])
-    
-    # Press A to pick up Gold Teeth!
-    print("Pressing A to retrieve Gold Teeth...")
-    bridge.press_buttons(["A", "sleep 1200"])
-    
-    # Clear text boxes with B
-    for _ in range(5):
-        bridge.press_buttons(["B", "sleep 300"])
+    # Loop walking back and forth until warped to Gatehouse at (4, 3)
+    step_count = 0
+    while True:
+        pos = get_pos()
+        if pos is None:
+            # Potential warp or textbox
+            for _ in range(5):
+                bridge.press_buttons(["B", "sleep 250"])
+            pos = get_pos()
+            
+        if pos is not None and pos[1] < 10 and pos[0] < 10:
+            print(f"Successfully arrived in Gatehouse! Position: {pos}")
+            break
+            
+        # Walk back and forth on Row 26
+        print(f"Loop {step_count}: Walking to (25, 26)...")
+        navigate_to(25, 26)
         
-    pos = get_pos()
-    print(f"Retrieval complete! Final position: {pos}")
-    
+        pos = get_pos()
+        if pos is not None and pos[1] < 10 and pos[0] < 10:
+            print(f"Successfully arrived in Gatehouse! Position: {pos}")
+            break
+            
+        print(f"Loop {step_count}: Walking to (19, 26)...")
+        navigate_to(19, 26)
+        
+        step_count += 1
+        if step_count > 25: # Safe break just in case
+            print("Step count limit reached inside script, pausing.")
+            break
+            
+    # Take screenshot of current position
     img = mgba.take_screenshot()
-    print(f"Screenshot of Gold Teeth pickup: {img}")
+    print(f"Screenshot: {img}")
 
 if __name__ == "__main__":
     main()
