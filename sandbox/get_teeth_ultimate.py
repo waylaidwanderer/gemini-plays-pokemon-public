@@ -88,33 +88,36 @@ def navigate_to(tx, ty):
         time.sleep(0.4)
 
 def main():
-    # 1. Clear "Got away safely!" text by pressing B
-    print("Clearing battle text...")
-    bridge.press_buttons(["B", "sleep 300", "B", "sleep 300"])
-    
     pos = get_pos()
-    print(f"Starting remaining Area 2 Run from: {pos}")
+    print(f"Starting Area 2 to Area 3 Transition Run from: {pos}")
     
-    # Standing at (22, 27). Walk UP to (22, 22)
-    navigate_to(22, 22)
-    # Walk LEFT to (16, 22)
-    navigate_to(16, 22)
-    # Walk DOWN to (16, 28)
-    navigate_to(16, 28)
-    # Walk LEFT to (12, 28)
-    navigate_to(12, 28)
+    # We are currently at (12, 29) inside Area 2 (North).
     # Walk DOWN to (12, 30)
     navigate_to(12, 30)
     # Walk LEFT to (8, 30)
     navigate_to(8, 30)
-    # Walk DOWN to (8, 35) (through Rhydon statue gap)
+    # Walk DOWN to (8, 35) through Rhydon statue gap
     navigate_to(8, 35)
-    # Walk DOWN 1 to transition to Area 3 (West) at (26, 0)
-    print("Transitioning to Area 3 (West)...")
+    # Walk DOWN 1 step to (8, 36) to transition into Area 3 (West) at (26, 0)
+    print("Transitioning into Area 3 (West)...")
     navigate_to(8, 36)
     
+    # We should be in Area 3 (West). Check position.
     pos = get_pos()
-    print(f"Area 2 remaining Run complete! Position: {pos}")
+    print(f"Position in Area 3: {pos}")
+    
+    # 2. Walk DOWN 2 steps to (26, 2)
+    navigate_to(26, 2)
+    # 3. Walk LEFT 1 step to (25, 2)
+    navigate_to(25, 2)
+    # 4. Walk DOWN 16 steps to (25, 18)
+    navigate_to(25, 18)
+    
+    pos = get_pos()
+    print(f"Arrived at heart of Area 3! Position: {pos}")
+    
+    img = mgba.take_screenshot()
+    print(f"Screenshot of Area 3 (West) at (25, 18): {img}")
 
 if __name__ == "__main__":
     main()
