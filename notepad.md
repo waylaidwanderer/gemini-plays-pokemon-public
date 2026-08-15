@@ -5,8 +5,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 0/8
-- Location: Pallet Town (Heading North to Viridian Forest)
-- Current Objective: Travel through Route 1 to Viridian Forest with Lv 11 HYDROS and defeat Brock in Pewter City
+- Location: Viridian Forest (Heading North to Pewter City)
+- Current Objective: Navigate Viridian Forest with Lv 11 HYDROS (2 Antidotes in bag), defeat Bug Catcher #2, and defeat Brock in Pewter City
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames
@@ -29,6 +29,14 @@
 
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname.
+
+## Inventory & Resources (Verified Turn 200)
+- Money: ¥623
+- Key Items: Town Map, Pokédex
+- Consumables:
+  - 2x Antidote (Status cure: Poison)
+  - 1x Potion (Restores 20 HP)
+  - 5x Poké Ball (Standard catch rate)
 
 <hr>
 
@@ -90,7 +98,9 @@
 
 ## Buildings & Verified Points of Interest
 - Pokémon Center: Located at (23, 25) [Observed Turn 65]. Heals party for free.
-- Pokémart: Located at (29, 19) [Observed Turn 66]. Sells items and gave Oak's Parcel.
+- Pokémart: Located at (29, 19) [Observed Turn 66].
+  - Catalog: Poké Ball (¥200), Antidote (¥100), Parlyz Heal (¥200), Burn Heal (¥250).
+  - Purchased 2x Antidote for ¥200 [Turn 200].
 - North path: Old Man located at (18, 5) [Observed Turn 105] unblocks Route 2 north.
 
 <hr>

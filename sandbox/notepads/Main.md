@@ -3,8 +3,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 0/8
-- Location: Pallet Town (Heading North to Viridian Forest)
-- Current Objective: Travel through Route 1 to Viridian Forest with Lv 11 HYDROS and defeat Brock in Pewter City
+- Location: Viridian Forest (Heading North to Pewter City)
+- Current Objective: Navigate Viridian Forest with Lv 11 HYDROS (2 Antidotes in bag), defeat Bug Catcher #2, and defeat Brock in Pewter City
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames
