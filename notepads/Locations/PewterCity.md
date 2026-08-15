@@ -2,7 +2,7 @@
 
 ## Connections
 - South: Route 2 / Viridian Forest (y=35) [Entered Turn 285]
-- East: Route 3 path heading east towards Mt. Moon
+- East: Route 3 [Verified Turn 325]
 
 ## Buildings & Verified Points of Interest
 - Pokémon Center: Located at (13, 25) [Verified Turn 286] - Free party healing & PC access
@@ -13,7 +13,6 @@
   - Statues at (3, 10) and (6, 10)
   - Gym Guide NPC at (7, 10)
   - Gym Leader: Brock [Defeated Turn 310] (Boulder Badge, TM34 Bide, ¥1386 prize money)
-- Pewter Museum of Science: Located at north
 
 ## Verified Trainers & NPCs
 - Citizen NPC: Located at (17, 25) outside Pokémon Center [Observed Turn 286]
