@@ -85,13 +85,14 @@ def navigate_to(tx, ty):
         time.sleep(0.5)
 
 def main():
-    # Chunk 2 waypoints: from current (18, 20) to (12, 8)
+    # Phase 2 - Chunk 2: starting from (12, 22) inside Area 1
+    # 1. Walk LEFT 4 steps to (8, 22)
+    # 2. Walk UP 14 steps along Column 8 to (8, 8)
+    # 3. Walk RIGHT 4 steps to (12, 8) (base of northern stairs)
     waypoints = [
-        (12, 20), # left along plateau
-        (12, 22), # descend stairs
-        (8, 22),  # left ground
-        (8, 8),   # up column 8
-        (12, 8)   # base of northern stairs
+        (8, 22),
+        (8, 8),
+        (12, 8)
     ]
     
     print("Beginning Safari Zone Golden Route - Phase 2 Chunk 2...")
