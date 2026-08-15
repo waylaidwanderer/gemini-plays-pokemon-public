@@ -8,9 +8,9 @@ def get_pos():
     return pos[0], pos[1]
 
 def main():
-    print("Beginning buy ticket sequence...")
-    for i in range(1, 11):
-        print(f"Pressing A {i}/10...")
+    print("Beginning buy ticket sequence from catch them!...")
+    for i in range(1, 10):
+        print(f"Pressing A {i}/9...")
         bridge.press_buttons(["A", "sleep 600"])
         time.sleep(0.4)
         
