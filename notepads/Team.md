@@ -10,8 +10,8 @@
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
-## Inventory & Resources (Verified Turn 403)
-- Money: ¥1154 (¥1004 + ¥150 from Lass #2)
+## Inventory & Resources (Verified Turn 405)
+- Money: ¥1214 (¥1004 + ¥210 from Lass #2)
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Pokémon Attack)
 - Key Items: Town Map, Pokédex
 - TMs / HMs: TM34 (Bide)
