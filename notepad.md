@@ -5,8 +5,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 0/8
-- Location: Route 1
-- Current Objective: Travel north along Route 1 to Viridian City Pokémart for Oak's Parcel
+- Location: Viridian City
+- Current Objective: Enter Pokémart to retrieve Oak's Parcel
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames
