@@ -3,8 +3,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 0/8
-- Location: Pallet Town
-- Current Objective: Travel north to Viridian City and through Viridian Forest to Pewter City
+- Location: Viridian City
+- Current Objective: Travel north through Viridian City past the catching tutorial onto Route 2 towards Viridian Forest
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames
