@@ -1,10 +1,10 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 54764)
+## CURRENT STATUS & DASHBOARD (Turn 54781)
 - Location: Rocket Hideout B3F at (25, 6) [Staircase Up to B2F].
 - Primary Goal: Infiltrate Main Rocket Hideout in Celadon City to obtain Silph Scope.
 - Secondary Goal: Explore Rocket Hideout B3F and locate stairs to B4F / Lift Key.
-- Active Strategy: Move around wall via Column 27 (27, 6..10) into Row 10 -> Explore West into B3F main floor -> Defeat Grunts -> Find Lift Key / B4F stairs.
+- Active Strategy: Move along Row 5 (25, 5 -> 20, 5) into West corridor -> Walk down Column 20 to collect item at (20, 14) and explore West Wing -> Locate B4F stairs.
 - Note: Celadon Pokémon Center registered as Teleport anchor. LUNA (Clefable) knows Teleport (TM30); SHELLSHOCK knows Dig; CUTTER knows Cut.
 
 <hr>
@@ -1220,11 +1220,15 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 ## Floor Layout & Corridors
 - Landing: Spans Columns 21..28, Rows 5..8.
 - Dividing Wall: Horizontal wall at (22..25, 9).
+- Column 21 Dividing Wall: Vertical wall at Column 21 (x=21, y=8..14) separating East corridor from West Wing.
 - East Bypass: Column 27 (Rows 6..10) connects around the dividing wall into Row 10.
 - South Corridor Grunt: Defeated at (26, 11).
 
+## Items & Pickups
+- Floor Item: Located at (20, 14) in West corridor.
+
 ## Objectives
-- Defeat South Corridor Grunt -> Explore West across B3F -> Find Lift Key / Stairs to B4F -> Defeat Giovanni.
+- Navigate Row 5 into West Wing -> Collect item at (20, 14) -> Explore West Wing -> Find Lift Key / Stairs to B4F -> Defeat Giovanni.
 
 <hr>
 
