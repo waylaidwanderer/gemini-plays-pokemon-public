@@ -108,30 +108,12 @@ def main():
         pos = handle_textbox_or_battle()
     print(f"Initial Position: {pos}")
     
-    # State 1: We are in Fuchsia City, need to walk to Gatehouse
-    # We detect Fuchsia City by checking coordinates. Pokémon Center coordinates are (3, 7) inside.
-    # Fuchsia overworld has y coordinates up to 35. PC door is at (19, 27).
-    if pos is not None and (pos[1] > 5 or pos[0] < 15) and pos != (3, 7) and pos[0] != 13:
-        # Wait, if we are inside Pokémon Center, get_pos() will return coords like (13, 4) or (3, 7).
-        # We are currently at (13, 4) inside PC. Let's walk out!
-        if pos[0] == 13 or pos[1] <= 7 and pos[0] <= 13:
-            print("Walking out of Pokémon Center...")
-            navigate_to(3, 4)
-            navigate_to(3, 8)
-            time.sleep(1.5)
-            pos = get_pos()
-            print(f"Position after exiting Pokémon Center: {pos}")
-            
-        # Now we are outside in Fuchsia City. Let's walk to the Gatehouse entrance at (18, 4)
-        print("Navigating Fuchsia City to Safari Gatehouse...")
-        # Reverse path around Pokémon Center & Continuous Roof
-        navigate_to(8, 28)
-        navigate_to(8, 32)
-        navigate_to(1, 32)
-        navigate_to(1, 9)
-        navigate_to(19, 9)
-        navigate_to(19, 8)
-        navigate_to(37, 8)
+    # State 1: inside Fuchsia City (outside Pokemon Center)
+    if pos is not None and pos[1] >= 14 and pos[0] < 38 and pos != (3, 7) and pos[0] != 13:
+        print("Navigating Fuchsia City to Safari Gatehouse via Column 37 Passage...")
+        navigate_to(19, 30)
+        navigate_to(25, 30)
+        navigate_to(37, 30)
         navigate_to(37, 2)
         navigate_to(22, 2)
         navigate_to(22, 4)
@@ -169,11 +151,9 @@ def main():
         print(f"Position in Area 1 (East): {pos}")
         
     # State 4: inside Area 1 (East)
-    # Area 1 coordinates are around the eastern plateau
     pos = get_pos()
     if pos is not None and pos[0] <= 5 and pos[1] == 22:
         print("\n=== PHASE 2: NAVIGATING AREA 1 (EAST) TO AREA 2 (NORTH) ===")
-        # Standard Area 1 waypoints
         waypoints_area1 = [
             (20, 22),
             (20, 20),
