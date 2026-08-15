@@ -1,10 +1,10 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. HYDROS (Squirtle) - Lv 5
-   - HP: 20/20 (Empirically verified)
+1. HYDROS (Squirtle) - Lv 6
+   - Stats (Verified at Lv 6): Atk 11, Def 13, Spe 12, Spc 12
    - Type: Water
-   - Moves: Tackle (PP 35/35), Tail Whip (PP 30/30)
+   - Moves: Tackle, Tail Whip
    - Role: Starter & primary Water/Ice special attacker
 
 ## Battle Strategy Notes
