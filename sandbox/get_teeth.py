@@ -89,7 +89,6 @@ def main():
     print(f"Starting Phase 3 (Area 2 to Area 3) from: {pos}")
     
     waypoints = [
-        (22, 31), # Walk LEFT along Row 31 to Column 22
         (22, 22), # Walk UP to climb Western Southern Plateau stairs
         (16, 22), # Walk LEFT on Western Southern Plateau
         (16, 28), # Walk DOWN to descend stairs
