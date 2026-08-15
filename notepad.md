@@ -750,11 +750,11 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 54958)
-- Location: Rocket Hideout B4F East Wing at (24, 2) [Giovanni's Chamber].
+## CURRENT STATUS & DASHBOARD (Turn 54963)
+- Location: Saffron City at (9, 30) [Outside Pokémon Center].
 - Primary Goal: Clear Pokémon Tower in Lavender Town using the Silph Scope to rescue Mr. Fuji.
-- Secondary Goal: Teleport to Pokémon Center to cure Blastoise's poison and restore full HP.
-- Active Strategy: SILPH SCOPE [ACQUIRED & VERIFIED] -> Using Clefable's Teleport to warp to Pokémon Center -> Heal party -> Proceed to Lavender Town / Pokémon Tower.
+- Secondary Goal: Heal party with Nurse Joy inside Saffron Pokémon Center.
+- Active Strategy: SILPH SCOPE [ACQUIRED & VERIFIED] -> Dig out of Hideout successful -> Enter Saffron Pokémon Center at (9, 29) -> Heal party with Nurse Joy -> Travel East to Route 8 -> Lavender Town / Pokémon Tower.
 - Key Items: SILPH SCOPE [ACQUIRED], LIFT KEY [ACQUIRED], TM07 Horn Drill [ACQUIRED], BICYCLE [ACQUIRED].
 - Party Status: SHELLSHOCK (Blastoise Lv52, HP 54/182, PSN), LUNA (Clefable Lv10 with Teleport), CUTTER (Paras Lv14 with Cut), SPROUT (Bellsprout Lv15).
 
@@ -1305,8 +1305,6 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 ## Items & Pickups
 - Floor Item: Located at (20, 14) in West corridor.
 
-## Warps & Staircases
-- Downward Staircase (Down to B4F): Located at (19, 18).
 ## Spin Maze Complete Verified Solution to B4F Stairs (Discovered Turn 54800)
 1. From (18, 15) stop tile: Walk Left to (17, 15), Up to (17, 13), Left onto (16, 13) UP-spin tile -> slides Up to (16, 11) stop tile.
 2. From (16, 11) stop tile: Walk East along Row 11 to (20, 11), Up to (20, 9), West along Row 9 to (13, 9).
