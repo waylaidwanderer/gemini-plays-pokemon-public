@@ -3,10 +3,10 @@
 # Pokémon Blue - Main Dashboard
 
 ## Current Status
-- Player: BLUE (Intro in progress)
+- Player: BLUE
 - Badges: 0/8
-- Location: Intro Sequence (Pallet Town)
-- Current Objective: Complete intro, meet Oak, choose starter Pokémon
+- Location: Professor Oak's Pokémon Research Lab (Pallet Town)
+- Current Objective: Win introductory battle against Rival RED
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames
@@ -26,10 +26,8 @@
    - Moves: Tackle, Tail Whip
    - Role: Starter & primary Water/Ice special attacker
 
-## Starter Choice Considerations
-- Bulbasaur: Strong early game (Brock, Misty, Surge resist), Leech Seed + Toxic bug in Gen 1, Sleep Powder, Razor Leaf high crit rate.
-- Squirtle: Excellent all-around, Water Gun / Bubblebeam / Surf, Ice Beam coverage, Dig/Bite utility.
-- Charmander: High speed, Slash crit rate, Fire/Normal coverage, harder early game vs Brock/Misty.
+## Battle Strategy Notes
+- Rival Battle 1: Use Tail Whip on turn 1 to drop Charmander's defense, then spam Tackle. Potion available if HP drops low.
 
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname.
@@ -46,11 +44,10 @@
 - Professor Oak's Pokémon Research Lab (Oak, 3 Poké Balls on table, Rival)
 
 ## Key Items & Triggers
-- PC in Bedroom: Withdrew 1x Potion [Obtained]
-- Northern exit (tall grass towards Route 1): Triggers Oak stopping player and escorting to lab
-- Starter Pokémon choice: Bulbasaur (Grass/Poison), Squirtle (Water), Charmander (Fire)
-- Rival battle: Occurs upon attempting to leave lab after choosing starter
-- Route 1 / Viridian City: Pokémart clerk gives Oak's Parcel to deliver back to Oak
+- PC in Bedroom: Item storage (Potion obtained)
+- Northern exit (Route 1 grass boundary): Triggers Oak encounter escorting to lab
+- Starter Pokémon: 3 Poké Balls on research table
+- Lab exit trigger: Rival battle initiates when walking towards exit
 
 <hr>
 
@@ -59,7 +56,7 @@
 # Quest Log & Story Progression
 
 ## Main Quests
-- [ ] Receive Starter Pokémon from Oak
+- [x] Receive Starter Pokémon from Oak (Squirtle nicknamed HYDROS)
 - [ ] Deliver Oak's Parcel from Viridian City Pokémart to Oak
 - [ ] Obtain Pokédex and Poké Balls from Oak
 - [ ] Obtain Town Map from Daisy in Pallet Town

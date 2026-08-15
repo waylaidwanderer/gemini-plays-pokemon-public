@@ -1,10 +1,10 @@
 # Pokémon Blue - Main Dashboard
 
 ## Current Status
-- Player: BLUE (Intro in progress)
+- Player: BLUE
 - Badges: 0/8
-- Location: Intro Sequence (Pallet Town)
-- Current Objective: Complete intro, meet Oak, choose starter Pokémon
+- Location: Professor Oak's Pokémon Research Lab (Pallet Town)
+- Current Objective: Win introductory battle against Rival RED
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames
