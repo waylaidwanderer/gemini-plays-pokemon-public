@@ -3,7 +3,7 @@
 ## Key Warps & Stairs
 - Staircase (Up to B2F): Located at (25, 6).
 - Staircase (Down to B4F): Located at (19, 18).
-- Elevator Door: Located at (17, 23).
+- Note: Columns 17 and 22 have computer/generator server racks at Rows 21..23. Elevator is located on B1F/B2F connecting to B4F East Wing.
 
 ## Floor Layout & Corridors
 - Landing: Spans Columns 21..28, Rows 5..8.
