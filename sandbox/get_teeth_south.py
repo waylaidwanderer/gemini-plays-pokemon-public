@@ -9,15 +9,12 @@ def get_pos():
 
 def handle_textbox_or_battle():
     print("Coordinates are None. Handling potential battle or dialog...")
-    # Clear text boxes with B
     for _ in range(5):
         bridge.press_buttons(["B", "sleep 150"])
     
-    # Try to RUN
     print("Attempting to RUN from battle...")
     bridge.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 1000"])
     
-    # Clear post-flee text
     for _ in range(3):
         bridge.press_buttons(["B", "sleep 150"])
         
@@ -63,7 +60,6 @@ def navigate_to(tx, ty):
             break
             
         print(f"Current: {pos}, Target: ({tx}, {ty})")
-        # Determine direction
         if pos[0] < tx:
             direction = "Right"
         elif pos[0] > tx:
@@ -85,10 +81,9 @@ def navigate_to(tx, ty):
         time.sleep(0.5)
 
 def main():
-    # Starting at (20, 23)
-    # We walk to (20, 24) -> (17, 24) -> (17, 26) -> (19, 26)
+    # Starting at (18, 24)
+    # We walk to (17, 24) -> (17, 26) -> (19, 26)
     waypoints = [
-        (20, 24),  # Down to Row 24
         (17, 24),  # Left to Column 17
         (17, 26),  # Down to Row 26
         (19, 26)   # Right to Column 19
@@ -98,7 +93,6 @@ def main():
         print(f"\nMoving to Waypoint: {wp}")
         navigate_to(wp[0], wp[1])
         
-    # We are now at (19, 26)
     # Face UP and press A
     print("\nFacing UP...")
     bridge.press_buttons(["Up", "sleep 500"])
@@ -106,12 +100,10 @@ def main():
     print("Pressing A to pick up item...")
     bridge.press_buttons(["A", "sleep 1000"])
     
-    # Check if a dialog box popped up
     pos = get_pos()
     print(f"Position after pickup attempt: {pos}")
     if pos is None:
         print("We found a dialog box! Successfully picked up the Gold Teeth!")
-        # Clear the dialog box and print text
         for _ in range(5):
             bridge.press_buttons(["B", "sleep 300"])
             
