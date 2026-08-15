@@ -89,35 +89,44 @@ def navigate_to(tx, ty):
 
 def main():
     pos = get_pos()
-    print(f"Starting Area 2 to Area 3 Transition Run from: {pos}")
+    print(f"Starting Area 3 Gold Teeth Retrieval from: {pos}")
     
-    # We are currently at (12, 29) inside Area 2 (North).
-    # Walk DOWN to (12, 30)
-    navigate_to(12, 30)
-    # Walk LEFT to (8, 30)
-    navigate_to(8, 30)
-    # Walk DOWN to (8, 35) through Rhydon statue gap
-    navigate_to(8, 35)
-    # Walk DOWN 1 step to (8, 36) to transition into Area 3 (West) at (26, 0)
-    print("Transitioning into Area 3 (West)...")
-    navigate_to(8, 36)
-    
-    # We should be in Area 3 (West). Check position.
-    pos = get_pos()
-    print(f"Position in Area 3: {pos}")
-    
-    # 2. Walk DOWN 2 steps to (26, 2)
-    navigate_to(26, 2)
-    # 3. Walk LEFT 1 step to (25, 2)
-    navigate_to(25, 2)
-    # 4. Walk DOWN 16 steps to (25, 18)
+    # 1. Walk LEFT to Column 25: (25, 3)
+    navigate_to(25, 3)
+    # 2. Walk DOWN Column 25 to Row 18: (25, 18)
     navigate_to(25, 18)
+    # 3. Walk LEFT to (21, 18)
+    navigate_to(21, 18)
+    # 4. Walk DOWN Column 21 to Row 23: (21, 23)
+    navigate_to(21, 23)
+    # 5. Walk LEFT to (19, 23)
+    navigate_to(19, 23)
+    # 6. Walk DOWN to (19, 24) (standing directly above the solid teeth)
+    navigate_to(19, 24)
+    # 7. Walk LEFT to (18, 24) (detour around teeth)
+    navigate_to(18, 24)
+    # 8. Walk DOWN to (18, 26)
+    navigate_to(18, 26)
+    # 9. Walk RIGHT to (19, 26) (standing directly below the teeth!)
+    navigate_to(19, 26)
     
+    # Face UP
+    print("Facing UP towards Gold Teeth...")
+    bridge.press_buttons(["Up", "sleep 500"])
+    
+    # Press A to pick up Gold Teeth!
+    print("Pressing A to retrieve Gold Teeth...")
+    bridge.press_buttons(["A", "sleep 1200"])
+    
+    # Clear text boxes with B
+    for _ in range(5):
+        bridge.press_buttons(["B", "sleep 300"])
+        
     pos = get_pos()
-    print(f"Arrived at heart of Area 3! Position: {pos}")
+    print(f"Retrieval complete! Final position: {pos}")
     
     img = mgba.take_screenshot()
-    print(f"Screenshot of Area 3 (West) at (25, 18): {img}")
+    print(f"Screenshot of Gold Teeth pickup: {img}")
 
 if __name__ == "__main__":
     main()
