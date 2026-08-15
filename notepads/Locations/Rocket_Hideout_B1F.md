@@ -11,3 +11,6 @@
 - Upper West Wall: Located at Column 8 (x=8, y=4..9).
 - North Grunt: Defeated at (13, 6).
 - South Passage Gap: Located at Columns 11..12 at Row 8 (11..12, 8), connecting Upper Corridor down into South Wing (y>=9).
+## Items & Pickups
+- Floor Item 1: Located at (11, 14) in B1F Central Table Room [Collected Turn 54720].
+- Floor Item 2: Located at (9, 17) in B1F Southwest Room.

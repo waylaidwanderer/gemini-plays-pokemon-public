@@ -936,7 +936,6 @@
 ## Direct Central-South Highway (Discovered Turn 54655)
 - Columns 22..25 across Rows 22..31 form a wide, completely open light brown pavement avenue connecting Row 22/23 North Avenue directly South into the South Celadon Courtyard!
 - Column 36 Pass: Passable gap at (36, 15) between barrels.
-- Main Game Corner Building (x=12..17, y=24..27): Door located at (12, 27).
 
 <hr>
 
@@ -1049,6 +1048,9 @@ Systematically probe every potential building doorway and alleyway warp in South
 - Upper West Wall: Located at Column 8 (x=8, y=4..9).
 - North Grunt: Defeated at (13, 6).
 - South Passage Gap: Located at Columns 11..12 at Row 8 (11..12, 8), connecting Upper Corridor down into South Wing (y>=9).
+## Items & Pickups
+- Floor Item 1: Located at (11, 14) in B1F Central Table Room [Collected Turn 54720].
+- Floor Item 2: Located at (9, 17) in B1F Southwest Room.
 
 <hr>
 
