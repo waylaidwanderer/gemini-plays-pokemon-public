@@ -57,11 +57,14 @@ def main():
     pos = get_pos()
     print(f"Starting overworld walk to Warden's House. Position: {pos}")
     
-    # 1. Walk from outside PC to Warden's House
+    # 1. Walk from outside PC to Warden's House via the 100% open northern corridor
     if pos is not None and pos == (19, 28):
-        navigate_to(19, 32)
-        navigate_to(30, 32)
-        navigate_to(30, 28)
+        navigate_to(17, 28)
+        navigate_to(17, 21)
+        navigate_to(22, 21)
+        navigate_to(22, 14)
+        navigate_to(26, 14)
+        navigate_to(26, 28)
         navigate_to(27, 28)
         print("Entering Warden's House...")
         walk_step_robust("Up")
