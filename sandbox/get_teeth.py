@@ -4,6 +4,7 @@ import os
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 import bridge
+import mgba
 
 def get_pos():
     pos = bridge.get_coordinates()
@@ -97,13 +98,11 @@ def use_dig_safe():
 
 def main():
     pos = get_pos()
-    print(f"Starting Ledge Jump Shortcut to Gold Teeth from: {pos}")
+    print(f"Starting Column 17 Golden Passage to Gold Teeth from: {pos}")
     
     waypoints = [
-        (12, 23),  # Step 1: Walk LEFT to Column 12
-        (12, 24),  # Step 2: Walk DOWN to Row 24
-        (12, 26),  # Step 3: Jump DOWN over the ledge onto Row 26
-        (19, 26)   # Step 4: Walk RIGHT along the Row 26 Highway
+        (17, 26),  # Step 1: Walk DOWN Column 17 to Row 26 (Highway)
+        (19, 26)   # Step 2: Walk RIGHT along Row 26 directly below Gold Teeth
     ]
     
     for i, wp in enumerate(waypoints, 1):
