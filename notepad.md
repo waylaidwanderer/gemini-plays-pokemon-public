@@ -1275,8 +1275,6 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 ## Items & Pickups
 - Floor Item: Located at (20, 14) in West corridor.
 
-## Warps & Staircases
-- Downward Staircase (Down to B4F): Located at (19, 18).
 ## Spin Maze Complete Verified Solution to B4F Stairs (Discovered Turn 54800)
 1. From (18, 15) stop tile: Walk Left to (17, 15), Up to (17, 13), Left onto (16, 13) UP-spin tile -> slides Up to (16, 11) stop tile.
 2. From (16, 11) stop tile: Walk East along Row 11 to (20, 11), Up to (20, 9), West along Row 9 to (13, 9).
@@ -1396,6 +1394,7 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 - Lift Key: Collected at (10, 2) on Turn 54817 [IN BAG].
 - Northwest Room Item: Collected at (9, 4) on Turn 54818 [IN BAG].
 - Southwest Room Item: Collected at (10, 12) on Turn 54826 [IN BAG].
+- Silph Scope: Collected at (25, 2) on Turn 54957 after defeating Boss Giovanni [IN BAG].
 
 ## Objectives & Layout Strategy
 - West Wing (Stairs at 19, 10): Contains Lift Key Grunt (11, 2) and pickup items.
