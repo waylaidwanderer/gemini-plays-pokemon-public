@@ -243,7 +243,7 @@ def main():
             cx, cy = current_p
             if cy == 24 and cx <= 22:
                 print(f"Bypassing completed Area 3 waypoints as we are at {current_p}")
-                waypoints_area3 = waypoints_area3[6:] # Start directly from (22, 26)
+                waypoints_area3 = waypoints_area3[4:] # Start directly from (21, 23) to force UP first
             elif cx == 25 and cy <= 18 and cy >= 2:
                 print(f"Bypassing completed Area 3 waypoints as we are at {current_p}")
                 waypoints_area3 = waypoints_area3[2:] # Start directly from (25, 18)
