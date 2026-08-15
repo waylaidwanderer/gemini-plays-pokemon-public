@@ -8,26 +8,30 @@ def get_pos():
     return pos[0], pos[1]
 
 def handle_textbox_or_battle():
-    print("No movement detected. Checking for text box or battle...")
-    # Try to clear any dialogue text with B
-    bridge.press_buttons(["B", "sleep 200", "B", "sleep 200"])
+    print("Coordinates are None. Handling potential battle or dialog...")
+    # Clear text boxes with B
+    for _ in range(5):
+        bridge.press_buttons(["B", "sleep 150"])
     
-    # Try to flee: press Down, then A
-    print("Attempting to run from battle...")
-    bridge.press_buttons(["Down", "sleep 100", "A", "sleep 1000"])
+    # Try to RUN
+    print("Attempting to RUN from battle...")
+    bridge.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 1000"])
     
-    # Check if we are back in the overworld
+    # Clear post-flee text
+    for _ in range(3):
+        bridge.press_buttons(["B", "sleep 150"])
+        
     pos = get_pos()
-    print(f"Coordinates after flee attempt: {pos}")
+    print(f"Coordinates after battle handling: {pos}")
     return pos
 
 def walk_step_robust(direction):
     pos = get_pos()
     if pos is None:
-        return None
+        return handle_textbox_or_battle()
         
     print(f"Walking {direction} from {pos}")
-    bridge.press_buttons([direction, "sleep 350"])
+    bridge.press_buttons([direction, "sleep 450"])
     
     new_pos = get_pos()
     if new_pos is None:
@@ -36,57 +40,129 @@ def walk_step_robust(direction):
     if new_pos != pos:
         return new_pos
         
-    # If position is same, wait a bit and check again
-    time.sleep(1.0)
+    print("Position didn't change, pressing B...")
+    bridge.press_buttons(["B", "sleep 200"])
     new_pos = get_pos()
-    if new_pos == pos:
+    if new_pos is None:
         return handle_textbox_or_battle()
-    return new_pos
+    if new_pos != pos:
+        return new_pos
+        
+    return handle_textbox_or_battle()
 
-def main():
-    # Start at (17, 23)
-    # Refined Path:
-    # 1. Left 2 to (15, 23)
-    # 2. Down 3 to (15, 26)
-    # 3. Right 4 to (19, 26)
-    path = ["Left"] * 2 + ["Down"] * 3 + ["Right"] * 4
-    
-    idx = 0
+def navigate_to(tx, ty):
     stuck_count = 0
-    while idx < len(path):
+    while True:
         pos = get_pos()
         if pos is None:
             handle_textbox_or_battle()
             continue
             
-        print(f"Path step {idx+1}/{len(path)}: currently at {pos}, target direction {path[idx]}")
-        new_pos = walk_step_robust(path[idx])
-        if new_pos is not None:
-            if new_pos != pos:
-                idx += 1
+        if pos == (tx, ty):
+            print(f"Arrived at waypoint ({tx}, {ty})")
+            break
+            
+        print(f"Current: {pos}, Target: ({tx}, {ty})")
+        # Determine direction
+        if pos[0] < tx:
+            direction = "Right"
+        elif pos[0] > tx:
+            direction = "Left"
+        elif pos[1] < ty:
+            direction = "Down"
+        elif pos[1] > ty:
+            direction = "Up"
+            
+        new_pos = walk_step_robust(direction)
+        if new_pos == pos:
+            stuck_count += 1
+            if stuck_count > 3:
+                print("Stuck trying to move! Clearing with B...")
+                bridge.press_buttons(["B", "sleep 500"])
                 stuck_count = 0
-            else:
-                print("No progress made. Retrying step...")
-                stuck_count += 1
-                if stuck_count > 3:
-                    print("Repeated stuck! Clearing with B.")
-                    bridge.press_buttons(["B", "sleep 300"])
-                    stuck_count = 0
+        else:
+            stuck_count = 0
         time.sleep(0.5)
-        
-    print(f"Arrived at (19, 26): {get_pos()}")
+
+def main():
+    # We start at (15, 25) in Safari Zone Center.
     
-    # Force facing Up
-    print("Facing Up...")
+    # Phase 1: Safari Zone Center to Area 1 (East)
+    # Target transition is (30, 10). We use intermediate waypoints to avoid pond/fences.
+    phase1_waypoints = [
+        (15, 22),
+        (28, 22),
+        (28, 10),
+        (30, 10) # transitions to Area 1 (East)
+    ]
+    
+    # Phase 2: Area 1 (East) to Area 2 (North)
+    # Transition at (0, 5)
+    phase2_waypoints = [
+        (0, 24),
+        (20, 24),
+        (20, 20), # plateau climb
+        (12, 20),
+        (12, 22), # plateau descend
+        (8, 22),
+        (8, 8),
+        (12, 8),
+        (12, 6),  # northern plateau climb
+        (17, 6),
+        (17, 8),  # plateau descend
+        (20, 8),
+        (20, 3),
+        (7, 3),
+        (7, 5),
+        (0, 5)    # transition to Area 2 (North)
+    ]
+    
+    # Phase 3: Area 2 (North) to Area 3 (West)
+    # Transition at (8, 36)
+    phase3_waypoints = [
+        (22, 31),
+        (22, 22), # plateau climb
+        (16, 22),
+        (16, 28), # plateau descend
+        (12, 28),
+        (12, 30), # bypass pond
+        (8, 30),
+        (8, 35),
+        (8, 36)   # transition to Area 3 (West)
+    ]
+    
+    # Phase 4: Area 3 (West) to Gold Teeth (Southern Approach)
+    # Target is (19, 26) facing UP
+    phase4_waypoints = [
+        (26, 2),
+        (25, 2),
+        (25, 18),
+        (21, 18),
+        (21, 26), # Southern ground passage
+        (19, 26)  # Directly south of Gold Teeth
+    ]
+    
+    # Combine all waypoints in sequence
+    all_waypoints = phase1_waypoints + phase2_waypoints + phase3_waypoints + phase4_waypoints
+    
+    print("Beginning the Safari Zone Golden Route...")
+    for i, wp in enumerate(all_waypoints, 1):
+        print(f"\n--- WAYPOINT {i}/{len(all_waypoints)}: {wp} ---")
+        navigate_to(wp[0], wp[1])
+        
+    print("\nFacing UP towards Gold Teeth...")
     bridge.press_buttons(["Up", "sleep 500"])
     
-    # Press A to pick up item
-    print("Pressing A to pick up Gold Teeth...")
+    print("Pressing A to retrieve Gold Teeth...")
     bridge.press_buttons(["A", "sleep 1000"])
     
-    # Take screenshot of the result to verify
-    screenshot = bridge.send_request("/api/screenshot")
-    print("Finished pickup attempt.")
+    # Clear dialogue
+    for _ in range(5):
+        bridge.press_buttons(["B", "sleep 300"])
+        
+    time.sleep(2.0)
+    pos = get_pos()
+    print(f"Final position: {pos}")
 
 if __name__ == "__main__":
     main()
