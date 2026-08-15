@@ -956,38 +956,17 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
     - Walk UP Column 8 through the walkable ledge gap at Column 8 Row 31/32 to Row 28.
     - Walk Right along Row 28 to Column 19, and walk UP to `(19, 27)` to enter the Pokémon Center.
 
-## Verified Physical Collisions
-- Verified properties:
-  - Column 8 ledge gap at Row 31/32 allows the player to jump down from Row 31 to Row 32 to reach the western area.
-  - Column 22 vertical corridor allows walking north/south between Row 21 and Row 14, bypassing the horizontal fence at Row 22.
-- **Verified spatial boundaries (Turn 33355):**
-  - Up movement from (24, 27) to (24, 26) is blocked by a solid building wall (the Warden's House).
-  - Column 25 has solid fence posts at Rows 28 and 29.
-## 🧪 Verified Northern Fuchsia City Collisions (Turns 34554 - 34559)
-- **Column 17 and Column 14 (Rows 6-12):** Continuous solid overworld tree walls that block horizontal ground traversal on the north side of Fuchsia City.
-- **Row 7 Barrier:** A continuous solid pine tree wall running horizontally from Column 13 to Column 35, completely blocking direct vertical traversal from the south to the northern corridor (Row 2).
-- **Column 37 Passage:** The ONLY walkable vertical gap in the Row 7 tree barrier, allowing players to walk UP from Row 8/9 to Row 2 to reach the northernmost corridor.
-- **Safari Gatehouse Roof/Wall Block (Rows 3-7, Columns 16-21):** Completely solid structure, preventing direct northern passage on Column 18 from Row 8. Players must detour east to Column 37, walk up to Row 2, walk left to Column 22, and then walk down to enter.
-## Newly Verified Physical Barriers & walkable corridors (Turns 36315-36329)
-- **Column 18 Row 7 Tree Wall:** Solid overworld tree at `(18, 7)`, blocking downward traversal on Column 18 from Row 6 (Turn 36315).
-- **Row 16 Tree Barrier (Columns 27-35):** Solid horizontal line of trees running across Columns 27-35 on Row 16, blocking direct vertical ground crossing (Turn 36325).
-- **Column 22/23 Corridor:** Completely open and walkable vertical corridor on Columns 22 and 23 from Row 14 down to Row 21, connecting the north-middle area to the south-middle area (Turn 36328).
-- **Row 22 South-Facing Ledge (Column 23):** South-facing one-way ledge at Column 23 Row 22. Walking DOWN jumps over the ledge to Row 23, but walking UP is blocked (Turn 36329).
 
-## Newly Verified Collisions & Barriers (Turn 36482)
-- **Row 29 Horizontal Fence (Columns 25-29):** A solid horizontal fence running across Columns 25-29 on Row 29, blocking vertical ground crossing.
-- **Column 27 Row 29 Solid Signpost:** A solid 2-tile high signpost located at `(27, 29)`, which blocks passage.
-- **Column 30 Row 14 Wandering NPC:** A wandering NPC who can block traversal on Column 30 Row 14.
-- **Column 16 Row 31/32 Walkable Ledge Gap:** Column 16 Row 31/32 contains a fully walkable gap in the south-facing ledge going UP (and Down). This allows players below the ledge in the southern area to walk UP to Row 31, Row 30, and Row 28, and return to the main/northern areas of Fuchsia City safely without being stuck.
+## Consolidated Overworld Barriers & Layout Map
+- **Column 23 Solid Vertical Brick Wall (Rows 26-31):** Completely blocks all horizontal crossing on these rows.
+- **Column 25 Solid Fence Posts (Rows 23-26, and 28-29):** Completely blocks horizontal crossing. The ONLY open gaps in this fence are at Row 27 `(25, 27)` and Row 30 `(25, 30)`.
+- **Column 24 Vertical Corridor:** Completely open vertically from Row 20 down to Row 28. But blocked at Row 29 by a solid fence, and blocked at Row 25 by a south-facing one-way ledge (you can jump DOWN over Row 25 Column 24, but cannot walk back UP).
+- **Column 22/23 North-South Corridor Ledge:** Column 23 Row 22 has a horizontal ledge/fence that cannot be jumped down from the north (Row 21 to Row 22 is blocked on Columns 22-23).
+- **Row 16 Tree Barrier (Columns 27-35):** Solid horizontal line of trees blocking vertical crossing. Row 16 is open on Columns 23-26.
+- **Row 7 Horizontal Barrier (Columns 13-35):** Solid horizontal pine tree wall. The ONLY vertical gap in this barrier is at Column 37, allowing vertical movement between Row 8/9 and Row 2.
+- **Checkerboard Fence Posts (Rows 19-21, Columns 14-21):** An interlocking grid of solid fence posts (Row 19: odd columns blocked; Row 20: even columns blocked; Row 21: odd columns blocked). Completely prevents crossing between Row 20 and Row 21 across Columns 14-17. Column 18 Row 21 is open, but Row 22 on Columns 18-21 is blocked by the Pokémon Center building. Column 13 is open and bypasses the entire checkerboard!
+- **Row 32 Open Bypass:** Row 32 is completely open green grass from Column 25 to Column 19, bypassing the Column 23 wall and Pokémon Center from the south.
 
-## Warden Gibberish Verification
-- As of Turn 38820, talking to the Warden at (2, 3) inside his house results in gibberish dialogue ('Hif fuff hefifoo!'), verifying that we do not have the Gold Teeth active in our inventory or the game has not registered the handover.
-
-### 🛡️ Newly Discovered Overworld Obstacles & Routing (Turn 39393)
-- **Column 25 Solid Fence Posts (Rows 23-29):** Column 25 has solid vertical wooden fence posts on Rows 23, 24, 25, 26, 28, 29, completely blocking horizontal crossing. The ONLY open gap in this fence is at Row 27 `(25, 27)`, and Row 30 `(25, 30)`.
-- **Column 23 Solid Brick Wall (Row 30):** Column 23 has a solid vertical brown brick/stone wall from Row 26 down to Row 31, blocking all horizontal crossing.
-- **Column 27 Row 29 Solid Signpost:** A solid 2-tile high wooden signpost located at `(27, 29)` completely blocks vertical passage on Column 27.
-- **Warden's House Access:** Due to the fence posts at Column 25 and the signpost at `(27, 29)`, the Warden's House door at `(27, 27)` must be approached by detouring south to Row 30, walking right through the Column 25 fence gap at `(25, 30)` to Column 30, walking up Column 30 to Row 28, walking left along Row 28 to `(27, 28)`, and walking UP to enter.
 
 <hr>
 
