@@ -85,19 +85,16 @@ def navigate_to(tx, ty):
         time.sleep(0.5)
 
 def main():
-    # Starting at (1, 7) inside Area 1 (East).
-    # We must walk Right to Column 7 to bypass the Row 6 tree stumps/bushes.
-    # Waypoints:
-    # 1. (7, 7) - Walk Right to Column 7 on Row 7
-    # 2. (7, 5) - Walk Up 2 steps to Row 5 (ground corridor)
-    # 3. (0, 5) - Walk Left along Row 5 to Column 0 (transition)
+    # Starting at (7, 7) inside Area 1 (East)
+    # We must walk Left to Column 2 on Row 7 to bypass the Row 6 bushes,
+    # then walk Up to Row 5 (ground corridor) and Left to transition.
     waypoints = [
-        (7, 7),
-        (7, 5),
+        (2, 7),
+        (2, 5),
         (0, 5)
     ]
     
-    print("Completing Safari Zone Golden Route - Phase 2 (Row 7 detour to Row 5)...")
+    print("Completing Safari Zone Golden Route - Phase 2 (Row 7 Left detour)...")
     for i, wp in enumerate(waypoints, 1):
         print(f"\n--- WAYPOINT {i}/{len(waypoints)}: {wp} ---")
         navigate_to(wp[0], wp[1])
