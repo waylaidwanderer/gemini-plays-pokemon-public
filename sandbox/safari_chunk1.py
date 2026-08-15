@@ -87,20 +87,23 @@ def main():
     # Starting at (15, 25) in Safari Zone Center.
     waypoints = [
         (15, 22),  # Up 3 steps
-        (28, 22),  # Right 13 steps
-        (28, 10),  # Up 12 steps
-        (30, 10)   # Right 2 steps (enters Area 1 East)
+        (27, 22),  # Right 12 steps along Row 22
+        (27, 10),  # Up 12 steps along Column 27 (bypasses Column 28 tree)
+        (29, 10)   # Right 2 steps (transition tile)
     ]
     
     print("Executing Safari Chunk 1: Center to Area 1 (East)...")
     for i, wp in enumerate(waypoints, 1):
         pos = get_pos()
         if pos is None:
-            print("Map changed or battle occurred, stopping script.")
-            break
+            pos = handle_textbox_or_battle()
         print(f"\n--- WAYPOINT {i}/{len(waypoints)}: {wp} ---")
         navigate_to(wp[0], wp[1])
         
+    # Final step: transition Right
+    print("Transitioning Right to Area 1...")
+    bridge.press_buttons(["Right", "sleep 1500"])
+    
     time.sleep(2.0)
     pos = get_pos()
     print(f"Final position at end of Chunk 1: {pos}")
