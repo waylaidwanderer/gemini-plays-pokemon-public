@@ -4,7 +4,9 @@
 - [x] Receive Starter Pokémon from Oak (Squirtle nicknamed HYDROS)
 - [x] Deliver Oak's Parcel to Oak & receive Pokédex + 5 Poké Balls
 - [x] Obtain Town Map from Daisy in Pallet Town
-- [ ] Defeat Gym Leader Brock in Pewter City (Boulder Badge)
+- [x] Defeat Gym Leader Brock in Pewter City (Boulder Badge & TM34 Bide) [Turn 310]
+- [ ] Travel east along Route 3 and navigate Mt. Moon towards Cerulean City
+- [ ] Defeat Gym Leader Misty in Cerulean City (Cascade Badge)
 
 ## Side Quests & Deliveries
-- (None yet)
+- (None active)
