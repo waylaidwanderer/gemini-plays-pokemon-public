@@ -1600,6 +1600,8 @@ Locate and verify the active warp tile leading to Pokémon Tower 7F.
 - Next Tests:
   1. Test South wing corridor tiles: (10, 16), (11, 16), (12, 16), (11, 15), (10, 15).
   2. Test West wing landing: (3, 9) / (4, 9) [Pattern from 2F and 4F].
+- Turn 55263: Visual confirmation from CurrentScreen turn 55263: Tile (9, 16) is definitively the 3-step yellow staircase graphic.
+- Warp Trigger Analysis: In Gen 1, warps trigger upon taking a valid step that lands on the warp coordinate (9, 16). Player at (11, 16) stepping Left to (10, 16) then Left onto (9, 16) will trigger the active warp to 7F.
 
 <hr>
 
