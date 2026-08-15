@@ -14,8 +14,7 @@
 
 ## NPCs & Trainers
 - Channeler: Located at (10, 13) facing Down. Gastly Lv22. Defeated Turn 55096.
+- Channeler: Located at (9, 10). Gastly Lv24. Defeated Turn 55399.
 
 ## Wild Pokémon (Silph Scope Verified)
 - Gastly (Lv18-24) [Identified by Silph Scope].
-
-- Channeler: Located at (9, 10). Gastly Lv24. Defeated Turn 55399.

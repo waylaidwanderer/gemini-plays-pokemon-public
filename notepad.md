@@ -1484,11 +1484,10 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 
 ## NPCs & Trainers
 - Channeler: Located at (10, 13) facing Down. Gastly Lv22. Defeated Turn 55096.
+- Channeler: Located at (9, 10). Gastly Lv24. Defeated Turn 55399.
 
 ## Wild Pokémon (Silph Scope Verified)
 - Gastly (Lv18-24) [Identified by Silph Scope].
-
-- Channeler: Located at (9, 10). Gastly Lv24. Defeated Turn 55399.
 
 <hr>
 
@@ -1666,15 +1665,11 @@ Locate and verify the active warp tile leading to Pokémon Tower 7F.
 - Staircase (Down to 6F): Located at (9, 16) [South].
 
 ## Floor Layout & NPCs
-- South Corridor: Column 10 (Rows 9..16) connects staircase at (9, 16) to central aisle.
+- South Corridor: Column 10 / 11 (Rows 9..16) connects staircase at (9, 16) to central aisle.
 - Central Hallway: Spans Rows 3..9 along Columns 9..11.
-- Rocket Grunt 1: Located at (11, 9).
-- Rocket Grunt 2: Located at (9, 7).
-- Rocket Grunt 3: Located further North guarding the altar approach.
-- Mr. Fuji: Located at the top altar dais at (10, 3).
-
-## Objective
-- Defeat all 3 Team Rocket Grunts in sequence.
-- Speak to Mr. Fuji to liberate Pokémon Tower and receive the Poké Flute!
+- Rocket Grunt 1: Located at (11, 9) facing Left. Team: Zubat Lv25, Zubat Lv25, Golbat Lv25.
+- Rocket Grunt 2: Located at (11, 6) / (9, 7) facing Left. Team: Koffing Lv26, Drowzee Lv26.
+- Rocket Grunt 3: Located at (11, 3) guarding altar approach. Team: Zubat Lv23, Rattata Lv23, Raticate Lv23, Zubat Lv23.
+- Mr. Fuji: Located on the top altar dais at (10, 3).
 
 <hr>
