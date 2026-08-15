@@ -1227,6 +1227,7 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 
 ## Objectives
 - Navigate Row 5 into West Wing -> Collect item at (20, 14) -> Explore West Wing -> Find Lift Key / Stairs to B4F -> Defeat Giovanni.
+- Downward Staircase (Down to B4F): Located at (19, 18).
 
 <hr>
 
