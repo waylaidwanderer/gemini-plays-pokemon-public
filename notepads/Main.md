@@ -1,6 +1,6 @@
 ## CURRENT STATUS & DASHBOARD (Turn 54666)
-- Location: Celadon City at (16, 23) [Row 23 West Avenue].
+- Location: Inside Main Rocket Game Corner at (15, 17).
 - Primary Goal: Infiltrate Main Rocket Hideout in Celadon City to obtain Silph Scope.
-- Secondary Goal: Enter Main Game Corner Casino door at (12, 27).
-- Active Strategy: Walk West along Row 23 to Column 10/12 -> Enter Game Corner door at (12, 27) -> Infiltrate Hideout.
+- Secondary Goal: Locate Rocket Grunt on North Wall guarding the poster switch and defeat him.
+- Active Strategy: Walk straight North up Column 15 aisle to North wall corridor -> Find Grunt/Poster -> Defeat Grunt -> Flip switch -> Enter secret stairs to B1F.
 - Note: Celadon Pokémon Center registered as Teleport anchor. LUNA (Clefable) knows Teleport (TM30); SHELLSHOCK knows Dig; CUTTER knows Cut.
