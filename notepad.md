@@ -1237,7 +1237,6 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 - Floor Item 1: Located at (1, 11) in B2F Northwest room [Uncollected - Bag was full].
 - Floor Item 2: Located at (6, 12) in B2F West-Central room [TM07 Horn Drill - Collected Turn 54874].
 - Floor Item 3: Located at (16, 8) in B2F Northeast room.
-- Bag Status: Full (20/20). Need to clear inventory space for Silph Scope.
 
 ## Spin Maze Topology & Stop Tiles
 - Entrance Stop Tile: Located at (16, 13).
@@ -1356,7 +1355,6 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 - Lower West Passage: Open gap at (16, 13..15) connecting Central Hall into Lower West Wing and Row 17 Highway.
 
 ## NPCs & Grunts
-- Grunt: Located at (23, 12) near the elevator area.
 - Lift Key Grunt: Located at (11, 2) in Northwest Computer Room.
 
 ## Items & Pickups

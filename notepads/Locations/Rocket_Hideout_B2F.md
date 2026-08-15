@@ -19,7 +19,6 @@
 - Floor Item 1: Located at (1, 11) in B2F Northwest room [Uncollected - Bag was full].
 - Floor Item 2: Located at (6, 12) in B2F West-Central room [TM07 Horn Drill - Collected Turn 54874].
 - Floor Item 3: Located at (16, 8) in B2F Northeast room.
-- Bag Status: Full (20/20). Need to clear inventory space for Silph Scope.
 
 ## Spin Maze Topology & Stop Tiles
 - Entrance Stop Tile: Located at (16, 13).
