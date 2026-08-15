@@ -1052,6 +1052,7 @@ Systematically probe every potential building doorway and alleyway warp in South
 ## Items & Pickups
 - Floor Item 1: Located at (11, 14) in B1F Central Table Room [Collected Turn 54720].
 - Floor Item 2: Located at (9, 17) in B1F Southwest Room.
+- East Grunt: Located at (26, 8) guarding the East Wing corridor.
 
 <hr>
 
