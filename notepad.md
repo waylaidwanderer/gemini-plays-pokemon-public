@@ -1527,7 +1527,7 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 - Channeler: Defeated at (17, 7) on Turn 55139.
 
 ## Strategy to 6F
-- From (17, 6): Walk Left to Column 11 -> South to Row 11 -> East along Row 11 to Column 17 -> North to (17, 9) -> Step Right onto (18, 9) staircase to 6F.
+- From (11, 9) Purified Zone: Walk Left to (9, 9) -> Down to (9, 12) -> Right to (12, 12) -> Up to (12, 11) -> East along Row 11 to (17, 11) -> North to (17, 9) -> Step Right onto (18, 9) staircase to 6F.
 
 <hr>
 
