@@ -750,13 +750,13 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 54871)
-- Location: Rocket Hideout B2F at (8, 11) [Exploring B2F Spin Maze / Collecting floor items].
+## CURRENT STATUS & DASHBOARD (Turn 54877)
+- Location: Rocket Hideout B2F at (15, 18) [Navigating Southern Spin Maze].
 - Primary Goal: Infiltrate Main Rocket Hideout in Celadon City to obtain Silph Scope.
-- Secondary Goal: Navigate B2F Spin Maze to collect items and find staircase to B1F Elevator lobby.
-- Active Strategy: Navigate southern B2F maze to find staircase up to B1F Elevator lobby -> Take Elevator to B4F East Wing -> Defeat Boss Giovanni -> Obtain Silph Scope.
-- Inventory Status: LIFT KEY [ACQUIRED], B4F items [ACQUIRED], Bag full (20/20) - clearing space for Silph Scope.
-- Party Status: SHELLSHOCK (Blastoise Lv52), LUNA (Clefable Lv10 with Teleport), CUTTER (Cut).
+- Secondary Goal: Navigate B2F Southern maze to find staircase up to B1F Elevator lobby.
+- Active Strategy: Slide via (13, 18) LEFT and (11, 18) DOWN to (11, 20) stop tile -> Navigate east along Row 20/22 corridor to find staircase up to B1F Elevator lobby -> Take Elevator to B4F East Wing -> Defeat Boss Giovanni -> Obtain Silph Scope.
+- Inventory Status: LIFT KEY [ACQUIRED], TM07 Horn Drill [ACQUIRED], 1 free slot (19/20) for Silph Scope.
+- Party Status: SHELLSHOCK (Blastoise Lv52, HP 180/182), LUNA (Clefable Lv10 with Teleport), CUTTER (Cut).
 
 <hr>
 
@@ -1203,6 +1203,11 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 - Northwest Stop Tile: Located at (2, 9).
 - Central-West Stop Tile: Located at (8, 11).
 - East-to-West Transition Route: (17, 10) LEFT-spin tile -> slides through (13, 10) DOWN-spin and (13, 12) RIGHT-spin onto (14, 12) stop tile -> (12, 11) UP-spin tile -> slides through (12, 9) and (10, 9) LEFT-spin tiles onto (2, 9) northwest stop tile.
+## Additional Verified Stop Tiles & Southern Maze
+- Stop Tile: (9, 16)
+- Stop Tile: (15, 18)
+- Stop Tile: (11, 20)
+- Southern Spin Route: (9, 16) stop tile -> (11, 16) RIGHT-spin -> slides through (13, 16) and (15, 16) DOWN-spin onto (15, 18) stop tile -> (13, 18) LEFT-spin -> (11, 18) DOWN-spin onto (11, 20) stop tile.
 
 <hr>
 

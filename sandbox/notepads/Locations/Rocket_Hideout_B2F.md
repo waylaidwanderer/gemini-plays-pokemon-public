@@ -27,3 +27,8 @@
 - Northwest Stop Tile: Located at (2, 9).
 - Central-West Stop Tile: Located at (8, 11).
 - East-to-West Transition Route: (17, 10) LEFT-spin tile -> slides through (13, 10) DOWN-spin and (13, 12) RIGHT-spin onto (14, 12) stop tile -> (12, 11) UP-spin tile -> slides through (12, 9) and (10, 9) LEFT-spin tiles onto (2, 9) northwest stop tile.
+## Additional Verified Stop Tiles & Southern Maze
+- Stop Tile: (9, 16)
+- Stop Tile: (15, 18)
+- Stop Tile: (11, 20)
+- Southern Spin Route: (9, 16) stop tile -> (11, 16) RIGHT-spin -> slides through (13, 16) and (15, 16) DOWN-spin onto (15, 18) stop tile -> (13, 18) LEFT-spin -> (11, 18) DOWN-spin onto (11, 20) stop tile.
