@@ -73,19 +73,19 @@ def main():
     pos = get_pos()
     print(f"Starting delivery walk from: {pos}")
     
-    # 1. Walk to (22, 28)
-    navigate_to(22, 28)
-    
-    # 2. Try walking UP Column 22 to (22, 14)
-    # If we are blocked by a ledge on Row 22, we will notice immediately!
-    navigate_to(22, 14)
-    
-    # 3. Walk to the Warden's House door
+    # 1. Walk to Warden's House door
     waypoints = [
+        (24, 26),
+        (24, 21),
+        (22, 21),
+        (22, 14),
         (26, 14),
         (26, 27),
         (27, 27) # Door transition
     ]
+    
+    for wp in waypoints:
+        navigate_to(wp[0], wp[1])
     
     for wp in waypoints:
         navigate_to(wp[0], wp[1])
