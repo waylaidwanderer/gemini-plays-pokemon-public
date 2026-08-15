@@ -85,84 +85,22 @@ def navigate_to(tx, ty):
         time.sleep(0.5)
 
 def main():
-    # We start at (15, 25) in Safari Zone Center.
-    
     # Phase 1: Safari Zone Center to Area 1 (East)
-    # Target transition is (30, 10). We use intermediate waypoints to avoid pond/fences.
-    phase1_waypoints = [
+    waypoints = [
         (15, 22),
         (28, 22),
         (28, 10),
         (30, 10) # transitions to Area 1 (East)
     ]
     
-    # Phase 2: Area 1 (East) to Area 2 (North)
-    # Transition at (0, 5)
-    phase2_waypoints = [
-        (0, 24),
-        (20, 24),
-        (20, 20), # plateau climb
-        (12, 20),
-        (12, 22), # plateau descend
-        (8, 22),
-        (8, 8),
-        (12, 8),
-        (12, 6),  # northern plateau climb
-        (17, 6),
-        (17, 8),  # plateau descend
-        (20, 8),
-        (20, 3),
-        (7, 3),
-        (7, 5),
-        (0, 5)    # transition to Area 2 (North)
-    ]
-    
-    # Phase 3: Area 2 (North) to Area 3 (West)
-    # Transition at (8, 36)
-    phase3_waypoints = [
-        (22, 31),
-        (22, 22), # plateau climb
-        (16, 22),
-        (16, 28), # plateau descend
-        (12, 28),
-        (12, 30), # bypass pond
-        (8, 30),
-        (8, 35),
-        (8, 36)   # transition to Area 3 (West)
-    ]
-    
-    # Phase 4: Area 3 (West) to Gold Teeth (Southern Approach)
-    # Target is (19, 26) facing UP
-    phase4_waypoints = [
-        (26, 2),
-        (25, 2),
-        (25, 18),
-        (21, 18),
-        (21, 26), # Southern ground passage
-        (19, 26)  # Directly south of Gold Teeth
-    ]
-    
-    # Combine all waypoints in sequence
-    all_waypoints = phase1_waypoints + phase2_waypoints + phase3_waypoints + phase4_waypoints
-    
-    print("Beginning the Safari Zone Golden Route...")
-    for i, wp in enumerate(all_waypoints, 1):
-        print(f"\n--- WAYPOINT {i}/{len(all_waypoints)}: {wp} ---")
+    print("Beginning Safari Zone Golden Route - Phase 1...")
+    for i, wp in enumerate(waypoints, 1):
+        print(f"\n--- WAYPOINT {i}/{len(waypoints)}: {wp} ---")
         navigate_to(wp[0], wp[1])
-        
-    print("\nFacing UP towards Gold Teeth...")
-    bridge.press_buttons(["Up", "sleep 500"])
-    
-    print("Pressing A to retrieve Gold Teeth...")
-    bridge.press_buttons(["A", "sleep 1000"])
-    
-    # Clear dialogue
-    for _ in range(5):
-        bridge.press_buttons(["B", "sleep 300"])
         
     time.sleep(2.0)
     pos = get_pos()
-    print(f"Final position: {pos}")
+    print(f"Final position at end of Phase 1: {pos}")
 
 if __name__ == "__main__":
     main()
