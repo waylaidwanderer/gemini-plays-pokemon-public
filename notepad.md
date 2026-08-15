@@ -6,7 +6,7 @@
 - Player: BLUE
 - Badges: 0/8
 - Location: Pallet Town
-- Current Objective: Obtain Town Map from Daisy in Pallet Town
+- Current Objective: Travel north to Viridian City and through Viridian Forest to Pewter City
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames
@@ -38,7 +38,7 @@
 
 ## Buildings
 - Player's House (2F Bedroom with PC containing 1x Potion; 1F Mom)
-- Rival's House (Rival's Sister / Daisy)
+- Rival's House (Daisy - gave Town Map)
 - Professor Oak's Pokémon Research Lab (Oak, 3 Poké Balls on table, Rival)
 
 ## Key Items & Triggers
@@ -54,7 +54,7 @@
 ## Main Quests
 - [x] Receive Starter Pokémon from Oak (Squirtle nicknamed HYDROS)
 - [x] Deliver Oak's Parcel to Oak & receive Pokédex + 5 Poké Balls
-- [ ] Obtain Town Map from Daisy in Pallet Town
+- [x] Obtain Town Map from Daisy in Pallet Town
 - [ ] Defeat Gym Leader Brock in Pewter City (Boulder Badge)
 
 ## Side Quests & Deliveries

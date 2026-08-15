@@ -4,7 +4,7 @@
 - Player: BLUE
 - Badges: 0/8
 - Location: Pallet Town
-- Current Objective: Obtain Town Map from Daisy in Pallet Town
+- Current Objective: Travel north to Viridian City and through Viridian Forest to Pewter City
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames
