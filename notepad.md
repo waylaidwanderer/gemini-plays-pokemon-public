@@ -750,13 +750,13 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 55171)
-- Location: Pokémon Tower 6F at (9, 7).
+## CURRENT STATUS & DASHBOARD (Turn 55187)
+- Location: Pokémon Tower 6F at (10, 16) [Staircase to 7F at (9, 16)].
 - Primary Goal: Clear Pokémon Tower in Lavender Town using the Silph Scope to rescue Mr. Fuji.
-- Secondary Goal: Defeat / pacify Ghost Marowak on 6F and ascend to 7F.
-- Active Strategy: Defeat Channeler on 6F -> Navigate southwest to (3, 11) / (9, 16) -> Pacify Ghost Marowak with Silph Scope -> Ascend to 7F -> Defeat Team Rocket Grunts -> Rescue Mr. Fuji -> Obtain Poké Flute.
+- Secondary Goal: Ascend to Pokémon Tower 7F and defeat Team Rocket Grunts.
+- Active Strategy: Ghost Marowak pacified with Silph Scope -> Ascend to 7F at (9, 16) -> Defeat Team Rocket Grunts -> Rescue Mr. Fuji -> Obtain Poké Flute.
 - Key Items: SILPH SCOPE [ACQUIRED & VERIFIED], LIFT KEY [ACQUIRED], TM07 Horn Drill [ACQUIRED], BICYCLE [EQUIPPED].
-- Party Status: SHELLSHOCK (Blastoise Lv53, HP 113/185), LUNA (Clefable Lv10), CUTTER (Paras Lv14), SPROUT (Bellsprout Lv15).
+- Party Status: SHELLSHOCK (Blastoise Lv53, HP 29/185), LUNA (Clefable Lv10), CUTTER (Paras Lv14), SPROUT (Bellsprout Lv15).
 
 <hr>
 
@@ -1556,7 +1556,7 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 
 ## Key Warps & Stairs
 - Staircase (Down to 5F): Located at (18, 9).
-- Staircase (Up to 7F): Located at (9, 16) in the south corridor (guarded by Ghost Marowak).
+- Staircase (Up to 7F): Located at (9, 16) in the south corridor (Ghost Marowak PACIFIED on Turn 55186).
 
 ## Floor Layout & NPCs
 - East Landing: Spans Columns 14..18, Rows 7..10.
@@ -1565,7 +1565,8 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 - Channeler 1: Defeated at (15, 5) on Turn 55164 [Gastly Lv24].
 - Channeler 2: Defeated at (9, 6) on Turn 55177 [Gastly Lv24].
 - Channeler 3: Located at (12, 10).
-- Floor Item: Collected at (6, 8) on Turn 55178 [IN BAG].
+- Floor Item 1: Collected at (6, 8) on Turn 55178 [IN BAG].
+- Floor Item 2: Located at (14, 14) in Southeast alcove.
 - South Corridor: Open corridor along Row 14 (x=6..11) connecting down through Column 10 (Rows 14..16) to the 7F stairs at (9, 16).
 
 <hr>
