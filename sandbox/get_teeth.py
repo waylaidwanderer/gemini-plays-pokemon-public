@@ -84,27 +84,50 @@ def navigate_to(tx, ty):
             stuck_count = 0
         time.sleep(0.1)
 
+def use_dig_safe():
+    print("Using DIG to warp out of Safari Zone...")
+    bridge.press_buttons(["B", "sleep 300", "B", "sleep 300"])
+    bridge.press_buttons(["Start", "sleep 500"])
+    # Open POKEMON menu (second item slot)
+    bridge.press_buttons(["Down", "sleep 250", "A", "sleep 1000"]) # POKÉMON
+    # Select TRUFFLE (slot 2)
+    bridge.press_buttons(["Down", "sleep 250", "A", "sleep 800"])
+    # Select DIG and warp!
+    bridge.press_buttons(["A", "sleep 4000"])
+
 def main():
     pos = get_pos()
-    print(f"Starting Phase 3 (Area 2 to Area 3) from: {pos}")
+    print(f"Starting Phase 4 (Area 3 to Gold Teeth) from: {pos}")
     
     waypoints = [
-        (22, 22), # Walk UP to climb Western Southern Plateau stairs
-        (16, 22), # Walk LEFT on Western Southern Plateau
-        (16, 28), # Walk DOWN to descend stairs
-        (12, 28), # Walk LEFT to Column 12
-        (12, 30), # Walk DOWN to bypass pond
-        (8, 30),  # Walk LEFT to Column 8
-        (8, 35)   # Walk DOWN to Row 35
+        (26, 2),   # Down to Row 2
+        (25, 2),   # Left to Column 25
+        (25, 18),  # Down along Column 25 to Row 18
+        (21, 18),  # Left along Row 18 to Column 21
+        (21, 16),  # Climb East Stairs to Plateau
+        (6, 16),   # Left on Plateau to Column 6
+        (6, 18),   # Align with West Stairs
+        (6, 20),   # Descend West Stairs to Row 20
+        (6, 26),   # Walk DOWN to Row 26 Highway
+        (19, 26)   # Walk EAST along Row 26 Highway directly below Gold Teeth
     ]
     
-    for wp in waypoints:
+    for i, wp in enumerate(waypoints, 1):
         navigate_to(wp[0], wp[1])
         
-    print("Stepping DOWN to transition to Area 3...")
-    walk_step_robust("Down")
-    time.sleep(1.5)
-    print(f"Final position inside Area 3: {get_pos()}")
+    # Stand at (19, 26). Facing UP
+    print("Standing at (19, 26). Facing UP...")
+    bridge.press_buttons(["Up", "sleep 500"])
+    
+    # Pick up Gold Teeth!
+    print("Interacting to retrieve Gold Teeth...")
+    bridge.press_buttons(["A", "sleep 1500"])
+    
+    print("Dismissing textboxes...")
+    for _ in range(5):
+        bridge.press_buttons(["B", "sleep 250"])
+        
+    use_dig_safe()
 
 if __name__ == "__main__":
     main()
