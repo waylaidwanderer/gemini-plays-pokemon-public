@@ -173,7 +173,10 @@ def main():
         current_p = get_pos()
         if current_p is not None:
             cx, cy = current_p
-            if cx == 8 and cy == 8:
+            if cy == 3:
+                print(f"Bypassing completed Area 1 waypoints up to (20, 3) as we are on Row 3: {current_p}")
+                waypoints_area1 = waypoints_area1[14:] # Start directly from (7, 3)
+            elif cx == 8 and cy == 8:
                 print(f"Bypassing completed Area 1 waypoints up to (8, 8) as we are at {current_p}")
                 waypoints_area1 = waypoints_area1[8:] # Start directly from (12, 8)
             elif (cy == 22 and cx <= 12 and cx >= 8) or (cy == 21 and cx == 12):
