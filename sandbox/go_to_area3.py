@@ -85,6 +85,10 @@ def navigate_to(tx, ty):
         time.sleep(0.5)
 
 def main():
+    # Clear "Got away safely!"
+    print("Clearing initial text box...")
+    bridge.press_buttons(["B", "sleep 300"])
+    
     # Waypoints to reach Area 3 (West) from (39, 31)
     waypoints = [
         (22, 31),  # left along row 31
