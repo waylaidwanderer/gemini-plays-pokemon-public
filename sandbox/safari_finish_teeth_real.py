@@ -84,31 +84,36 @@ def navigate_to(tx, ty):
         time.sleep(0.4)
 
 def main():
-    print("Executing Super-Optimized Ground Route to Gold Teeth...")
+    print("Executing Golden Route to Gold Teeth...")
+    # We are at (2, 23) inside Area 3 (West) on the ground level
     
-    # We are at (15, 24) in Area 3 (West) on the ground level
-    # Step 1: Navigate to (15, 23)
-    print("\n--- STEP 1: Navigating to (15, 23) ---")
-    navigate_to(15, 23)
+    # Step 1: Walk UP to (2, 22)
+    print("\n--- STEP 1: Walking UP to (2, 22) ---")
+    walk_step_robust("Up")
+    pos = get_pos()
+    print(f"Current Position: {pos}")
     
-    # Step 2: Navigate to (8, 23)
-    print("\n--- STEP 2: Navigating to (8, 23) ---")
-    navigate_to(8, 23)
+    # Step 2: Navigate to (10, 22)
+    print("\n--- STEP 2: Navigating to (10, 22) ---")
+    navigate_to(10, 22)
     
-    # Step 3: Jump DOWN over the ledge at Row 24/25
-    print("\n--- STEP 3: Jumping DOWN over Row 24 Ledge ---")
-    walk_step_robust("Down")  # to (8, 24) (stair/ledge tile)
-    walk_step_robust("Down")  # jumps over ledge to (8, 26)
+    # Step 3: Navigate to (10, 24)
+    print("\n--- STEP 3: Navigating to (10, 24) ---")
+    navigate_to(10, 24)
     
+    # Step 4: Jump DOWN over the ledge at Column 10 Row 25
+    print("\n--- STEP 4: Jumping DOWN over Ledge ---")
+    walk_step_robust("Down")  # to (10, 25) (stair/ledge tile)
+    walk_step_robust("Down")  # jumps over ledge to (10, 26)
     pos = get_pos()
     print(f"Position after jump: {pos}")
     
-    # Step 4: Navigate to (19, 26) on the Row 26 Highway
-    print("\n--- STEP 4: Navigating to (19, 26) ---")
+    # Step 5: Navigate to (19, 26) on the Row 26 Highway
+    print("\n--- STEP 5: Navigating to (19, 26) ---")
     navigate_to(19, 26)
     
-    # Step 5: Stand facing UP and press A to pick up the Gold Teeth!
-    print("\n--- STEP 5: Facing UP and picking up Gold Teeth ---")
+    # Step 6: Stand facing UP and press A to pick up the Gold Teeth!
+    print("\n--- STEP 6: Facing UP and picking up Gold Teeth ---")
     bridge.press_buttons(["Up", "sleep 500"])
     bridge.press_buttons(["A", "sleep 1500"])
     
