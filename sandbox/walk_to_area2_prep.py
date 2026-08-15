@@ -89,19 +89,15 @@ def navigate_to(tx, ty):
 
 def main():
     pos = get_pos()
-    print(f"Starting Area 2 (North) Plateau detour walk. Position: {pos}")
+    print(f"Starting Area 2 (North) optimized ground bypass walk. Position: {pos}")
     
-    # Walk over the Eastern Southern Plateau and Northern Plateau to bypass Column 26 hedge
-    if pos is not None and pos == (27, 31):
-        navigate_to(28, 31)
-        navigate_to(28, 28)
-        navigate_to(28, 27)  # climb stairs
-        navigate_to(28, 26)
-        navigate_to(37, 26)
-        navigate_to(37, 13)
-        navigate_to(22, 13)
-        navigate_to(22, 22)
-        navigate_to(22, 24)  # descend stairs
+    # Walk to (22, 31) using the 100% open ground bypass route (descending stairs at 34, 15)
+    if pos is not None and pos == (33, 13):
+        navigate_to(34, 13)
+        navigate_to(34, 15)  # descend stairs onto ground at (34, 16)
+        navigate_to(31, 16)
+        navigate_to(31, 12)
+        navigate_to(22, 12)
         navigate_to(22, 31)
         
     print(f"Walk to (22, 31) finished. Final position: {get_pos()}")
