@@ -754,7 +754,7 @@
 - Location: Rocket Hideout B2F at (8, 11) [Exploring B2F Spin Maze / Collecting floor items].
 - Primary Goal: Infiltrate Main Rocket Hideout in Celadon City to obtain Silph Scope.
 - Secondary Goal: Navigate B2F Spin Maze to collect items and find staircase to B1F Elevator lobby.
-- Active Strategy: Collect item at (6, 12) -> Navigate southern B2F maze to find staircase up to B1F Elevator lobby -> Take Elevator to B4F East Wing -> Defeat Boss Giovanni -> Obtain Silph Scope.
+- Active Strategy: Navigate southern B2F maze to find staircase up to B1F Elevator lobby -> Take Elevator to B4F East Wing -> Defeat Boss Giovanni -> Obtain Silph Scope.
 - Inventory Status: LIFT KEY [ACQUIRED], B4F items [ACQUIRED], Bag full (20/20) - clearing space for Silph Scope.
 - Party Status: SHELLSHOCK (Blastoise Lv52), LUNA (Clefable Lv10 with Teleport), CUTTER (Cut).
 
@@ -1193,7 +1193,7 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 
 ## Items & Pickups
 - Floor Item 1: Located at (1, 11) in B2F Northwest room [Uncollected - Bag was full].
-- Floor Item 2: Located at (6, 12) in B2F West-Central room [Uncollected - Bag was full].
+- Floor Item 2: Located at (6, 12) in B2F West-Central room [TM07 Horn Drill - Collected Turn 54874].
 - Floor Item 3: Located at (16, 8) in B2F Northeast room.
 - Bag Status: Full (20/20). Need to clear inventory space for Silph Scope.
 
