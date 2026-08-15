@@ -1069,6 +1069,10 @@ Systematically probe every potential building doorway and alleyway warp in South
 
 ## Exploration & Objectives
 - Objective: Navigate B1F to find Rocket Grunts, items, and stairs leading down to B2F.
+## Floor Layout & Corridor Connections
+- Upper West Wall: Located at Column 8 (x=8, y=4..9).
+- North Grunt: Defeated at (13, 6).
+- South Passage Gap: Located at Columns 11..12 at Row 8 (11..12, 8), connecting Upper Corridor down into South Wing (y>=9).
 
 <hr>
 
