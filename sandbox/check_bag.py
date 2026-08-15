@@ -2,9 +2,10 @@ import mgba
 import time
 
 def main():
-    print("Dismissing dialogue and opening Start menu...")
-    # Press B 3 times to clear the dialogue
-    mgba.press_buttons(["B", "sleep 300", "B", "sleep 300", "B", "sleep 500"])
+    print("Mashing B to clear dialogue, then opening Start menu...")
+    # Press B 10 times with delay to guarantee exiting any dialogue/menus
+    for _ in range(10):
+        mgba.press_buttons(["B", "sleep 200"])
     
     # Press Start to open the menu
     mgba.press_buttons(["Start", "sleep 500"])
