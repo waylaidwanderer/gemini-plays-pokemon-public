@@ -87,11 +87,11 @@ def navigate_to(tx, ty):
 def main():
     print("Executing Safari Master Route to Gold Teeth...")
     
-    # Currently standing at (19, 24) in Area 1 (East).
+    # We are currently at (19, 22) in Area 1 (East).
     # Step 1: Traverse Area 1 (East)
     waypoints_area1 = [
-        (19, 21),  # Up to Row 21 next to stairs
-        (20, 21),  # Right to climb stairs
+        (20, 22),  # Right to Column 20 (on ground)
+        (20, 20),  # Up to Row 20 (climbing stairs to plateau)
         (12, 20),  # Left along plateau Row 20
         (12, 22),  # Down to descend stairs to Row 22
         (8, 22),   # Left along Row 22 to Column 8
@@ -106,7 +106,22 @@ def main():
     ]
     
     print("\n=== PHASE 1: NAVIGATING AREA 1 (EAST) TO AREA 2 (NORTH) ===")
-    for wp in waypoints_area1:
+    
+    # Find closest waypoint to start from, in case we are partially through
+    pos = get_pos()
+    if pos is None:
+        pos = handle_textbox_or_battle()
+        
+    start_idx = 0
+    # Let's check if we are on the plateau (row 20)
+    if pos is not None:
+        if pos[1] == 20 and 12 <= pos[0] <= 20:
+            # We are on the southern plateau, we can resume from (12, 20)
+            start_idx = 2
+            print(f"Resuming from plateau waypoint at index {start_idx} (target: (12, 20))")
+            
+    for i in range(start_idx, len(waypoints_area1)):
+        wp = waypoints_area1[i]
         pos = get_pos()
         if pos is None:
             pos = handle_textbox_or_battle()
