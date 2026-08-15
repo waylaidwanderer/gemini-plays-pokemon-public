@@ -749,12 +749,13 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 54811)
-- Location: Rocket Hideout B4F at (11, 3) [Northwest Computer Room].
+## CURRENT STATUS & DASHBOARD (Turn 54827)
+- Location: Rocket Hideout B3F at (19, 19) [Heading to Elevator at (17, 23)].
 - Primary Goal: Infiltrate Main Rocket Hideout in Celadon City to obtain Silph Scope.
-- Secondary Goal: Defeat Lift Key Grunt at (11, 2) and obtain Lift Key.
-- Active Strategy: Complete battle with Lift Key Grunt -> Collect dropped Lift Key and item at (9, 4) -> Navigate to B4F elevator at (24, 11) -> Take elevator to Giovanni's chamber -> Defeat Giovanni for Silph Scope.
-- Note: Celadon Pokémon Center registered as Teleport anchor. LUNA (Clefable) knows Teleport (TM30); SHELLSHOCK knows Dig; CUTTER knows Cut.
+- Secondary Goal: Take B3F elevator at (17, 23) to B4F Giovanni Chamber using Lift Key.
+- Active Strategy: Enter B3F elevator at (17, 23) -> Select B4F -> Arrive at B4F East Wing (24, 11) -> Defeat Rocket Grunts -> Defeat Boss Giovanni -> Obtain Silph Scope.
+- Inventory Status: LIFT KEY [ACQUIRED], B4F Northwest item [ACQUIRED], B4F Southwest item [ACQUIRED].
+- Party Status: SHELLSHOCK (Blastoise Lv52), LUNA (Clefable Lv36 with Teleport), CUTTER (Cut).
 
 <hr>
 
@@ -1346,10 +1347,9 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 ## Items & Pickups
 - Lift Key: Collected at (10, 2) on Turn 54817 [IN BAG].
 - Northwest Room Item: Collected at (9, 4) on Turn 54818 [IN BAG].
-- Southwest Room Item: Located at (10, 12).
+- Southwest Room Item: Collected at (10, 12) on Turn 54826 [IN BAG].
 
 ## Objectives
-- Collect item at (10, 12).
 - Return up stairs at (19, 10) to B3F.
 - Enter Elevator on B3F at (17, 23) using Lift Key -> Select B4F to enter Giovanni's chamber.
 - Defeat Giovanni and obtain the SILPH SCOPE!
