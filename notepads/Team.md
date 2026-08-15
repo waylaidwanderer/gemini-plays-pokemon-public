@@ -1,8 +1,8 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. HYDROS (Wartortle) - Lv 17
-   - Stats (Verified at Lv 17): Max HP 51 (HP: 25/51, Healthy - Attack 30, Defense 34, Speed 31, Special 33)
+1. HYDROS (Wartortle) - Lv 18
+   - Stats (Verified at Lv 18): Max HP 54 (HP: 28/54, Healthy - Attack 32, Defense 36, Speed 33, Special 34)
    - Type: Water
    - Moves: Tackle (31/35), Tail Whip (30/30), Bubble (26/30), Water Gun (6/25)
    - Role: Starter & primary Water special attacker
@@ -10,8 +10,8 @@
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
-## Inventory & Resources (Verified Turn 387)
-- Money: ¥1004 (¥744 + ¥150 from Lass #1 + ¥110 from Bug Catcher #3)
+## Inventory & Resources (Verified Turn 403)
+- Money: ¥1154 (¥1004 + ¥150 from Lass #2)
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Pokémon Attack)
 - Key Items: Town Map, Pokédex
 - TMs / HMs: TM34 (Bide)
