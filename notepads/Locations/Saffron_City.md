@@ -19,3 +19,10 @@
 - Row 2 Northern Highway: Open East-West pavement across x=1..16.
 - Row 7 Central-West Gap: Open passage at (17, 7) through the Column 17 fence connecting East Saffron to West Saffron.
 - Row 30 Southern Street: Open East-West pavement running from Saffron Pokémon Center (9, 29) East to (25, 30).
+
+## Verified Building Footprints & Collision Boundaries
+- Saffron Pokémon Mart: Footprint at Columns 24..27, Rows 8..11 with entrance door at (25, 11). Pavement street runs along Row 12/13.
+- Central-East Building: Footprint at Columns 20..23, Rows 10..16 with open dotted pavement at Rows 8..9.
+- East Gatehouse Sector Building: Footprint at Columns 32..35, Rows 14..21.
+- Central Vertical Fence: Runs north-south along Column 17, with verified gap at (17, 7).
+- Southern Plaza: Columns 24..29, Rows 14..15 form open tan sidewalk connecting East into Column 28 southbound avenue to Row 30.
