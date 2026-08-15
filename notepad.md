@@ -1186,6 +1186,7 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 
 ## Objectives
 - Descend staircase at (21, 8) to enter Rocket Hideout B3F -> Locate Giovanni and Silph Scope.
+- Verified Warp: Staircase (21, 8) connects directly down to Rocket Hideout B3F at (25, 6).
 
 <hr>
 
