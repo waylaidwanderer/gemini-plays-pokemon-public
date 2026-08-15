@@ -5,8 +5,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon Entrance (x=58, y=5)
-- Current Objective: Enter Mt. Moon 1F, explore the cavern, defeat trainers, collect items, and navigate towards Cerulean City
+- Location: Mt. Moon 1F (x=8, y=17)
+- Current Objective: Explore Mt. Moon 1F, defeat trainers, collect items (Moon Stone, TMs), catch wild Pokémon, and navigate towards Cerulean City
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -17,6 +17,7 @@
 - `Locations/ViridianForest`: Forest layout, 3 Bug Catchers, items
 - `Locations/PewterCity`: Pewter City points of interest, Pokémon Center, Pewter Gym
 - `Locations/Route3`: Route 3 layout, trainers, wild encounters
+- `Locations/MtMoon1F`: Mt. Moon 1F layout, items, wild encounters, trainers
 
 
 <hr>
@@ -216,6 +217,31 @@
 
 ## Empirical Wild Encounters
 - (Documenting upon encounter in tall grass)
+
+
+<hr>
+
+<h1><code>Locations/MtMoon1F</code></h1>
+
+# Mt. Moon 1F - Points of Interest & Notes
+
+## Connections
+- South Exit: Warp to Route 3 at (8, 18) [Entered Turn 447 at (8, 17)]
+- Ladders: (Documenting ladders to B1F/B2F as discovered)
+
+## Layout & Landmarks
+- Entrance chamber at (8, 17)
+- Cavern corridors wind north and east through the mountain
+- Rock formations and walls dividing cavern chambers
+
+## Items & Discoveries
+- (Documenting item balls as collected)
+
+## Verified Trainers
+- (Documenting trainers as encountered)
+
+## Empirical Wild Encounters
+- (Documenting wild Pokémon encountered)
 
 
 <hr>

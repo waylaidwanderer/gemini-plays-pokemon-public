@@ -3,8 +3,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon Entrance (x=58, y=5)
-- Current Objective: Enter Mt. Moon 1F, explore the cavern, defeat trainers, collect items, and navigate towards Cerulean City
+- Location: Mt. Moon 1F (x=8, y=17)
+- Current Objective: Explore Mt. Moon 1F, defeat trainers, collect items (Moon Stone, TMs), catch wild Pokémon, and navigate towards Cerulean City
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -15,3 +15,4 @@
 - `Locations/ViridianForest`: Forest layout, 3 Bug Catchers, items
 - `Locations/PewterCity`: Pewter City points of interest, Pokémon Center, Pewter Gym
 - `Locations/Route3`: Route 3 layout, trainers, wild encounters
+- `Locations/MtMoon1F`: Mt. Moon 1F layout, items, wild encounters, trainers
