@@ -1,33 +1,67 @@
 import time
-import mgba
+import bridge
 
 def get_pos():
-    pos = mgba.get_coordinates()
+    pos = bridge.get_coordinates()
     if pos is None:
         return None
-    return pos["x"], pos["y"]
+    return pos[0], pos[1]
 
 def main():
-    print("Starting visual diagnostic buy ticket sequence...")
+    print("Starting correct Safari Zone entry sequence...")
     
-    # We are already at (3, 4) in the overworld facing Left
-    print("Talking to clerk...")
-    mgba.press_buttons(["Left", "sleep 300", "A", "sleep 1200"])
+    # 1. We are currently in rules explanation. Let's press A 9 times to clear it and return to overworld.
+    print("Clearing current rules explanation...")
+    for i in range(1, 10):
+        bridge.press_buttons(["A", "sleep 600"])
+        time.sleep(1.1)
+        
+    time.sleep(2.0)
+    pos = get_pos()
+    print(f"Position in overworld (should be at 3, 4): {pos}")
+    
+    # 2. Talk to clerk again (Talk 1)
+    print("Talk 1: Initiating conversation...")
+    bridge.press_buttons(["Left", "sleep 300", "A", "sleep 1200"])
     time.sleep(2.0)
     
-    # Take screenshot of the initial YES/NO prompt
-    initial_scr = mgba.take_screenshot()
-    print(f"Initial prompt screenshot saved to: {initial_scr}")
+    # Select NO to "first time here?"
+    print("Talk 1: Selecting NO...")
+    bridge.press_buttons(["Down", "sleep 600", "A", "sleep 1000"])
+    time.sleep(1.5)
     
-    # We want to select YES (A), then press A and capture a screenshot at each step to see exactly what is drawn!
-    for step in range(1, 16):
-        print(f"\n--- STEP {step} ---")
-        mgba.press_buttons(["A", "sleep 800"])
-        time.sleep(1.2)
-        
-        scr = mgba.take_screenshot()
-        pos = mgba.get_coordinates()
-        print(f"Step {step}: Player at {pos}, screenshot: {scr}")
-        
+    # Clear "Sorry, you're a regular here!" and end dialogue
+    print("Talk 1: Clearing 'regular here' dialogue...")
+    bridge.press_buttons(["A", "sleep 800"])
+    time.sleep(2.0)
+    
+    # 3. Talk to clerk again (Talk 2 - should immediately offer the hunt!)
+    print("Talk 2: Initiating conversation for the hunt...")
+    bridge.press_buttons(["Left", "sleep 300", "A", "sleep 1200"])
+    time.sleep(2.0)
+    
+    # Press A to select YES to "Would you like to join the hunt?"
+    print("Talk 2: Selecting YES to join hunt...")
+    bridge.press_buttons(["A", "sleep 800"])
+    time.sleep(1.2)
+    
+    # Press A to advance "That'll be $500, please!"
+    print("Talk 2: Advancing $500 payment...")
+    bridge.press_buttons(["A", "sleep 800"])
+    time.sleep(1.2)
+    
+    # Press A to advance "We only use special SAFARI BALLS!"
+    print("Talk 2: Advancing special balls...")
+    bridge.press_buttons(["A", "sleep 800"])
+    time.sleep(1.2)
+    
+    # Press A to advance "I'll call you when your time is up!" and warp!
+    print("Talk 2: Advancing time is up and warping...")
+    bridge.press_buttons(["A", "sleep 800"])
+    time.sleep(3.0)
+    
+    pos = get_pos()
+    print(f"Final position after warp attempt: {pos}")
+
 if __name__ == "__main__":
     main()
