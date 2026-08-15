@@ -57,10 +57,11 @@ def main():
     pos = get_pos()
     print(f"Starting overworld walk to Warden's House. Position: {pos}")
     
-    # 1. Walk from outside PC to Warden's House via Column 1 (West Highway)
-    if pos is not None and pos == (17, 28):
-        navigate_to(1, 28)
-        navigate_to(1, 14)
+    # 1. Walk to Warden's House from (1, 16) via Row 21 and Column 22
+    if pos is not None and pos == (1, 16):
+        navigate_to(1, 21)
+        navigate_to(22, 21)
+        navigate_to(22, 14)
         navigate_to(26, 14)
         navigate_to(26, 28)
         navigate_to(27, 28)
