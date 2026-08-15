@@ -243,6 +243,6 @@
 - Trainer #1: Located at (16, 23) facing West/North [Observed Turn 469]
 
 ## Empirical Wild Encounters
-- (Documenting wild Pokémon encountered)
+- Zubat Lv 6 [Encountered Turn 477 at (22, 10)]
 
 <hr>
