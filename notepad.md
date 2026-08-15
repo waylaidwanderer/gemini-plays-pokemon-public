@@ -1488,6 +1488,7 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 ## Wild Pokémon (Silph Scope Verified)
 - Gastly (Lv18-24) [Identified by Silph Scope].
 
+- Channeler: Located at (9, 10). Gastly Lv24. Defeated Turn 55399.
 
 <hr>
 

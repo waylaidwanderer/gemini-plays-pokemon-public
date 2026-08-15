@@ -17,3 +17,5 @@
 
 ## Wild Pokémon (Silph Scope Verified)
 - Gastly (Lv18-24) [Identified by Silph Scope].
+
+- Channeler: Located at (9, 10). Gastly Lv24. Defeated Turn 55399.
