@@ -1334,8 +1334,9 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 ## Floor Layout & Passages
 - Central Hall: Spans Columns 17..20, Rows 2..14.
 - Column 16 Dividing Wall: Extends y=5..12.
-- Upper West Passage: Open gap at (16, 3..4) connecting Central Hall into West Wing.
-- Lower West Passage: Open gap at (16, 13..14) connecting Central Hall into West Wing.
+- Upper West Passage: Open gap at (16, 3..4) connecting Central Hall into Northwest Computer Room (Rows 2..6).
+- Row 7 Barrier: Counter barrier spanning (9..15, 7) separating Northwest room from lower floor.
+- Lower West Passage: Open gap at (16, 13..15) connecting Central Hall into Lower West Wing and Row 17 Highway.
 
 ## NPCs & Grunts
 - Grunt: Located at (23, 12) near the elevator area.
