@@ -340,6 +340,13 @@
 - Western Sector (Columns 8..16, Rows 8..12): Open pavement and grass highway connecting Row 10 directly into the Saffron East Gatehouse entrance at (8, 10).
 - Trainers: All trainers along Route 8 have been defeated.
 
+## Route 8 Tall Grass Topography & Transition Boundaries (Verified Turn 55801)
+- Map Transition to Lavender Town: Strictly located at Rows 8 & 9 (Columns 59/60 on Route 8 <-> Columns 0/1 on Lavender Town). Stepping across x=0 at other rows hits solid collision boundaries.
+- East-Central Tall Grass Patch: Spans Columns 44..46 (Rows 6..13) and extends East across Columns 47..50 (Rows 12..13). Open access from Column 43 pavement at Row 11.
+- North-East Tall Grass Patch: Columns 56..59, Rows 2..7. Accessible via northern dirt corridor at Row 1 (x=51..57) or eastern border at Row 8.
+- South-East Tall Grass Patch: Columns 56..59, Rows 11..15. Separated by vertical pole corridor at Columns 54..55.
+- Wild Encounters: Pidgey, Pidgeotto, Meowth, Bellsprout, Vulpix. Catching target: Pidgey/Pidgeotto for HM02 Fly.
+
 <hr>
 
 <h1><code>Locations/Route_8</code></h1>
@@ -591,13 +598,13 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 55771)
-- Location: Lavender Town at (12, 6)
+## CURRENT STATUS & DASHBOARD (Turn 55801)
+- Location: Route 8 at (45, 10) [East-Central Tall Grass Field]
 - Badges (4/8): Boulder Badge, Cascade Badge, Thunder Badge, RAINBOW BADGE [ACQUIRED]
-- Primary Goal: Buy Great Balls at Lavender Mart, catch a wild bird Pokémon (Pidgey/Pidgeotto on Route 8 / Route 16), nickname it, and teach HM02 Fly.
+- Primary Goal: Encounter and catch a wild bird Pokémon (Pidgey/Pidgeotto) in Route 8 tall grass, nickname it, and teach HM02 Fly.
 - Secondary Goal: Explore Route 12 Snorlax & obtain Super Rod from Silence Bridge.
 - Tertiary Goal: Travel via Cycling Road (Routes 16/17/18) to Fuchsia City for Soul Badge (Badge #5) & Safari Zone (HM03 Surf / HM04 Strength).
-- Key Items: RAINBOW BADGE [ACQUIRED], HM02 FLY [ACQUIRED], POKÉ FLUTE [ACQUIRED], SILPH SCOPE [ACQUIRED], LIFT KEY [ACQUIRED], TM07 Horn Drill [STORED PC], BICYCLE [EQUIPPED] (Note: TM21 Mega Drain pending bag space at Erika).
+- Key Items & Bag: 10 GREAT BALLS [ACQUIRED], RAINBOW BADGE [ACQUIRED], HM02 FLY [ACQUIRED], POKÉ FLUTE [ACQUIRED], SILPH SCOPE [ACQUIRED], LIFT KEY [ACQUIRED], TM07 Horn Drill [STORED PC], BICYCLE [EQUIPPED] (Note: TM21 Mega Drain pending bag space at Erika).
 - Party Status: SHELLSHOCK (Blastoise Lv55, HP 193/193), BRUDF (Hitmonlee Lv30, HP 73/73), LUNA (Clefable Lv12, HP 43/43), SPROUT (Bellsprout Lv17, HP 44/44), CUTTER (Meowth Lv14, HP 39/39) - ALL FULLY HEALED.
 
 <hr>
