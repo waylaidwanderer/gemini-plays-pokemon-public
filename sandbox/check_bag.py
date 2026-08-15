@@ -1,27 +1,16 @@
-import time
-import sys
-import os
-
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-import bridge
 import mgba
+import time
 
 def main():
-    print("Opening START menu...")
-    bridge.press_buttons(["Start", "sleep 500"])
+    print("Dismissing dialogue and opening Start menu...")
+    # Press B 3 times to clear the dialogue
+    mgba.press_buttons(["B", "sleep 300", "B", "sleep 300", "B", "sleep 500"])
     
-    print("Navigating to ITEM...")
-    # Cursor is at pokedex, ITEM is down 2
-    bridge.press_buttons(["Down", "sleep 200", "Down", "sleep 200", "A", "sleep 800"])
+    # Press Start to open the menu
+    mgba.press_buttons(["Start", "sleep 500"])
     
-    # Take screenshot of the Bag
-    print("Capturing screenshot of the BAG...")
-    img = mgba.take_screenshot()
-    print(f"BAG_SCREENSHOT: {img}")
-    
-    # Close BAG and START menu safely
-    print("Closing BAG and menu...")
-    bridge.press_buttons(["B", "sleep 400", "B", "sleep 400"])
+    screenshot = mgba.take_screenshot()
+    print(f"Screenshot of Start menu: {screenshot}")
 
 if __name__ == "__main__":
     main()
