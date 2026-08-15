@@ -61,3 +61,9 @@
 
 ## Warden Gibberish Verification
 - As of Turn 38820, talking to the Warden at (2, 3) inside his house results in gibberish dialogue ('Hif fuff hefifoo!'), verifying that we do not have the Gold Teeth active in our inventory or the game has not registered the handover.
+
+### 🛡️ Newly Discovered Overworld Obstacles & Routing (Turn 39393)
+- **Column 25 Solid Fence Posts (Rows 23-29):** Column 25 has solid vertical wooden fence posts on Rows 23, 24, 25, 26, 28, 29, completely blocking horizontal crossing. The ONLY open gap in this fence is at Row 27 `(25, 27)`, and Row 30 `(25, 30)`.
+- **Column 23 Solid Brick Wall (Row 30):** Column 23 has a solid vertical brown brick/stone wall from Row 26 down to Row 31, blocking all horizontal crossing.
+- **Column 27 Row 29 Solid Signpost:** A solid 2-tile high wooden signpost located at `(27, 29)` completely blocks vertical passage on Column 27.
+- **Warden's House Access:** Due to the fence posts at Column 25 and the signpost at `(27, 29)`, the Warden's House door at `(27, 27)` must be approached by detouring south to Row 30, walking right through the Column 25 fence gap at `(25, 30)` to Column 30, walking up Column 30 to Row 28, walking left along Row 28 to `(27, 28)`, and walking UP to enter.

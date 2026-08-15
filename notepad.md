@@ -984,6 +984,12 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 ## Warden Gibberish Verification
 - As of Turn 38820, talking to the Warden at (2, 3) inside his house results in gibberish dialogue ('Hif fuff hefifoo!'), verifying that we do not have the Gold Teeth active in our inventory or the game has not registered the handover.
 
+### 🛡️ Newly Discovered Overworld Obstacles & Routing (Turn 39393)
+- **Column 25 Solid Fence Posts (Rows 23-29):** Column 25 has solid vertical wooden fence posts on Rows 23, 24, 25, 26, 28, 29, completely blocking horizontal crossing. The ONLY open gap in this fence is at Row 27 `(25, 27)`, and Row 30 `(25, 30)`.
+- **Column 23 Solid Brick Wall (Row 30):** Column 23 has a solid vertical brown brick/stone wall from Row 26 down to Row 31, blocking all horizontal crossing.
+- **Column 27 Row 29 Solid Signpost:** A solid 2-tile high wooden signpost located at `(27, 29)` completely blocks vertical passage on Column 27.
+- **Warden's House Access:** Due to the fence posts at Column 25 and the signpost at `(27, 29)`, the Warden's House door at `(27, 27)` must be approached by detouring south to Row 30, walking right through the Column 25 fence gap at `(25, 30)` to Column 30, walking up Column 30 to Row 28, walking left along Row 28 to `(27, 28)`, and walking UP to enter.
+
 <hr>
 
 <h1><code>notepads/Locations/FuchsiaGym.md</code></h1>
@@ -1543,22 +1549,34 @@ From Safari Zone Center entrance at `(15, 25)`:
 9. Walk DOWN 5 steps through the statue gap at `(8, 34)` to `(8, 35)`.
 10. Walk DOWN 1 step to transition to Area 3 (West) at `(26, 0)`.
 
-### Phase 4: Area 3 (West) to Gold Teeth & Back
+### Phase 4: Area 3 (West) to Gold Teeth & Back (Southern Approach)
 1. Emerge in Area 3 (West) at `(26, 0)`.
 2. Walk DOWN 2 steps to `(26, 2)`.
 3. Walk LEFT 1 step to `(25, 2)`.
 4. Walk DOWN 16 steps along Column 25 to `(25, 18)`.
 5. Walk LEFT 4 steps to `(21, 18)`.
-6. Walk DOWN 6 steps along Column 21 to `(21, 24)`.
-7. Walk LEFT 2 steps to Column 19 at `(19, 24)`.
-8. Stand at `(19, 24)` facing DOWN (south).
-9. Press **A** to pick up the Gold Teeth!
+6. Walk DOWN 5 steps along Column 21 to `(21, 23)`.
+7. Walk LEFT 2 steps along Row 23 to Column 19 at `(19, 23)`.
+8. Walk UP 1 step to `(19, 22)`? No, Row 23 is open all the way to the east!
+9. Detour to Row 26 (the Row 26 Highway) to approach Column 19 from the south:
+   - From `(19, 23)`, walk RIGHT to Column 31 (Row 23) OR walk RIGHT to Column 21: `(21, 23)`.
+   - Walk UP to Row 21 (ground level): `(21, 21)`. Wait! Let's use the verified transition to Row 26:
+     - From `(21, 23)` (Row 23), walk UP to `(21, 21)` (ground level).
+     - Walk RIGHT along Row 21 to Column 24: `(24, 21)`.
+     - Walk DOWN Column 24 to Row 30: `(24, 30)`.
+     - Walk RIGHT along Row 30 to Column 27 (or Column 30): `(30, 30)`. Wait, we can go RIGHT to Column 30 and UP Column 30 to Row 26, then LEFT along Row 26 to `(19, 26)`!
+     - This is the exact walkable southern path to `(19, 26)`!
+10. Stand at `(19, 26)` facing UP (north).
+11. Press **A** to pick up the Gold Teeth!
 
-### Phase 5: Super-Optimized Ground-Level Transition Route (Between Center & Area 3)
-- From `(0, 11)` in Safari Zone Center, walk LEFT 1 step to transition directly to `(29, 23)` in Area 3 (West).
+### Phase 5: Super-Optimized Ground-Level Transition Route (Southern Approach)
+- From `(0, 11)` in Safari Zone Center, walk LEFT 10 steps (Wait, (0, 11) is the transition warp. We warp to (29, 23) in Area 3 (West) by walking LEFT).
 - From `(29, 23)` in Area 3 (West), walk LEFT 10 steps to `(19, 23)`.
-- Walk DOWN 1 step to `(19, 24)`.
-- Face DOWN and press **A** to pick up the Gold Teeth!
+- But since `(19, 25)` is blocked from the north, we must detour to the Row 26 Highway:
+  - From `(19, 23)`, walk RIGHT 10 steps to Column 29 at `(29, 23)`.
+  - Walk RIGHT 1 step to transition to Safari Zone Center at `(0, 11)`. (Wait, does Row 26 transition? Yes!).
+  - Walk LEFT from `(29, 26)` in Area 3 (West) to `(19, 26)` on the Row 26 Highway!
+  - Stand at `(19, 26)` facing UP (north) and press **A** to pick up the Gold Teeth!
 
 
 <hr>
