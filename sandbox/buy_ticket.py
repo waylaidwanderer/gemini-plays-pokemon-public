@@ -8,21 +8,37 @@ def get_pos():
     return pos[0], pos[1]
 
 def main():
-    print("Starting exact buy ticket sequence from Welcome prompt...")
-    # Press A 10 times with very safe 1.1 second delays to ensure warp
-    for i in range(1, 11):
-        print(f"Pressing A {i}/10...")
+    # Starting at (3, 5) inside Gatehouse
+    # Move to (4, 2) which is in front of the gatekeeper clerk
+    print("Moving to front of clerk at (4, 2)...")
+    bridge.press_buttons(["Right", "sleep 400"])
+    bridge.press_buttons(["Up", "sleep 400"])
+    bridge.press_buttons(["Up", "sleep 400"])
+    bridge.press_buttons(["Up", "sleep 400"])
+    
+    time.sleep(1.0)
+    pos = get_pos()
+    print(f"Position before speaking: {pos}")
+    
+    # Face UP and talk
+    print("Facing UP and speaking to clerk...")
+    bridge.press_buttons(["Up", "sleep 400"])
+    bridge.press_buttons(["A", "sleep 1000"])
+    
+    # Loop to buy ticket and transition
+    print("Starting buy ticket sequence...")
+    for i in range(1, 15):
+        print(f"Pressing A {i}/15...")
         bridge.press_buttons(["A", "sleep 600"])
-        time.sleep(1.1)
+        time.sleep(1.0)
         
         pos = get_pos()
-        print(f"Position: {pos}")
-        if pos is not None and pos != (3, 2):
-            # If we warp, our position will change from (3, 2) inside the Gatehouse
-            print(f"SUCCESS! Warp occurred to: {pos}")
+        print(f"Current Position: {pos}")
+        if pos == (15, 25) or pos == (14, 25) or pos == (15, 26):
+            print(f"SUCCESS! Warped into Safari Zone Center at: {pos}")
             return
             
-    print("Completed 10 presses without warp.")
+    print("Completed presses, did not detect warp.")
 
 if __name__ == "__main__":
     main()
