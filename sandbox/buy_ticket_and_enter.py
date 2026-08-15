@@ -78,14 +78,12 @@ def navigate_to(tx, ty):
 
 def main():
     pos = get_pos()
-    print(f"Starting walk to Safari Gatehouse from: {pos}")
+    print(f"Starting detour walk to Safari Gatehouse from: {pos}")
     
-    # Walk to the Gatehouse at (18, 3) in Fuchsia City
+    # Detoured path to bypass Hiker at (24, 8)
     waypoints_to_gatehouse = [
-        (26, 9),
-        (19, 9),
-        (19, 8),
-        (37, 8),
+        (23, 9),
+        (37, 9),
         (37, 2),
         (22, 2),
         (22, 4),
