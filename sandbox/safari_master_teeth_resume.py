@@ -84,97 +84,184 @@ def navigate_to(tx, ty):
             stuck_count = 0
         time.sleep(0.4)
 
-def main():
-    print("Executing Safari Master Route Resume from Area 2 (North)...")
-    
-    pos = get_pos()
-    if pos is None:
-        pos = handle_textbox_or_battle()
-    print(f"Starting Position in Area 2 (North): {pos}")
-    
-    # Step 1: Traverse Area 2 (North)
-    waypoints_area2 = [
-        (22, 31),  # 0: Left along southern corridor Row 31
-        (22, 22),  # 1: Up to climb Western Southern Plateau stairs to Row 22
-        (16, 22),  # 2: Left on plateau Row 22 to Column 16
-        (16, 28),  # 3: Down to descend stairs to Row 28
-        (12, 28),  # 4: Left along Row 28 to Column 12
-        (12, 30),  # 5: Down Column 12 to Row 30 (bypasses pond)
-        (8, 30),   # 6: Left along Row 30 to Column 8
-        (8, 35),   # 7: Down Column 8 past statue gap to Row 35
-        (8, 36)    # 8: Down 1 step (enters Area 3 West)
-    ]
-    
-    start_idx = 0
-    if pos is not None:
-        # Check if we are past the plateau (x <= 16 and y >= 27)
-        if pos[0] <= 16 and pos[1] >= 27:
-            start_idx = 4  # Resume to (12, 28)
-            print(f"Resuming to waypoint {start_idx} (target: (12, 28)) since we are past the plateau at {pos}")
-        elif pos[1] == 22 and 16 <= pos[0] <= 22:
-            start_idx = 2  # Resume to (16, 22)
-            print(f"Resuming to waypoint {start_idx} (target: (16, 22)) since we are on plateau at {pos}")
-            
-    print("\n=== PHASE 1: NAVIGATING AREA 2 (NORTH) TO AREA 3 (WEST) ===")
-    for i in range(start_idx, len(waypoints_area2)):
-        wp = waypoints_area2[i]
-        pos = get_pos()
-        if pos is None:
-            pos = handle_textbox_or_battle()
-        print(f"Moving to Waypoint: {wp}")
-        navigate_to(wp[0], wp[1])
-        
-    print("\nTransitioning to Area 3 (West)...")
-    bridge.press_buttons(["Down", "sleep 1500"])
-    time.sleep(1.0)
-    
-    pos = get_pos()
-    if pos is None:
-        pos = handle_textbox_or_battle()
-    print(f"Current Position in Area 3 (West): {pos}")
-    
-    # Step 2: Traverse Area 3 (West) to Gold Teeth
-    waypoints_area3 = [
-        (25, 2),   # Down to Row 2, Left to Column 25
-        (25, 18),  # Down Column 25 to Row 18
-        (21, 18),  # Left to Column 21 on Row 18
-        (21, 23),  # Down Column 21 to Row 23
-        (19, 23),  # Left to Column 19 on Row 23
-        (19, 24)   # Down to stand at (19, 24) facing DOWN
-    ]
-    
-    print("\n=== PHASE 2: NAVIGATING AREA 3 (WEST) TO GOLD TEETH ===")
-    for wp in waypoints_area3:
-        pos = get_pos()
-        if pos is None:
-            pos = handle_textbox_or_battle()
-        print(f"Moving to Waypoint: {wp}")
-        navigate_to(wp[0], wp[1])
-        
-    print("\nAttempting first pickup at (19, 24) facing DOWN...")
-    bridge.press_buttons(["A", "sleep 1500"])
-    
-    # Optional Step 3: Stand at (19, 26) facing UP and press A
-    print("\nNavigating to (19, 26) facing UP as a fallback...")
-    waypoints_area3_up = [
-        (21, 24),  # Back to Column 21 Row 24
-        (21, 26),  # Down to Row 26
-        (19, 26)   # Left to Column 19 on Row 26
-    ]
-    for wp in waypoints_area3_up:
-        pos = get_pos()
-        if pos is None:
-            pos = handle_textbox_or_battle()
-        print(f"Moving to Waypoint: {wp}")
-        navigate_to(wp[0], wp[1])
-        
-    print("\nAttempting second pickup at (19, 26) facing UP...")
+def buy_safari_ticket():
+    print("Talking to Safari Gatehouse clerk...")
+    # Stand facing UP
     bridge.press_buttons(["Up", "sleep 500"])
-    bridge.press_buttons(["A", "sleep 1500"])
+    # Talk
+    bridge.press_buttons(["A", "sleep 1200"])
+    # Progress text
+    for _ in range(5):
+        bridge.press_buttons(["A", "sleep 500"])
+    # Say YES (A)
+    bridge.press_buttons(["A", "sleep 1200"])
+    # Progress post-buy text
+    for _ in range(5):
+        bridge.press_buttons(["A", "sleep 500"])
+    time.sleep(1.0)
+
+def main():
+    print("Executing Unified Safari Master Route...")
     
     pos = get_pos()
-    print(f"\nFinal Position: {pos}")
-    print("Gold Teeth pickup attempt complete!")
+    if pos is None:
+        pos = handle_textbox_or_battle()
+    print(f"Initial Position: {pos}")
+    
+    # State 1: We are in Fuchsia City, need to walk to Gatehouse
+    # We detect Fuchsia City by checking coordinates. Pokémon Center coordinates are (3, 7) inside.
+    # Fuchsia overworld has y coordinates up to 35. PC door is at (19, 27).
+    if pos is not None and (pos[1] > 5 or pos[0] < 15) and pos != (3, 7) and pos[0] != 13:
+        # Wait, if we are inside Pokémon Center, get_pos() will return coords like (13, 4) or (3, 7).
+        # We are currently at (13, 4) inside PC. Let's walk out!
+        if pos[0] == 13 or pos[1] <= 7 and pos[0] <= 13:
+            print("Walking out of Pokémon Center...")
+            navigate_to(3, 4)
+            navigate_to(3, 8)
+            time.sleep(1.5)
+            pos = get_pos()
+            print(f"Position after exiting Pokémon Center: {pos}")
+            
+        # Now we are outside in Fuchsia City. Let's walk to the Gatehouse entrance at (18, 4)
+        print("Navigating Fuchsia City to Safari Gatehouse...")
+        # Reverse path around Pokémon Center & Continuous Roof
+        navigate_to(8, 28)
+        navigate_to(8, 32)
+        navigate_to(1, 32)
+        navigate_to(1, 9)
+        navigate_to(19, 9)
+        navigate_to(19, 8)
+        navigate_to(37, 8)
+        navigate_to(37, 2)
+        navigate_to(22, 2)
+        navigate_to(22, 4)
+        navigate_to(18, 4)
+        
+        # Enter Gatehouse
+        print("Entering Safari Gatehouse...")
+        bridge.press_buttons(["Up", "sleep 1500"])
+        time.sleep(1.0)
+        pos = get_pos()
+        print(f"Position in Gatehouse: {pos}")
+        
+    # State 2: inside Gatehouse (usually at (3, 5) or (4, 5))
+    pos = get_pos()
+    if pos is not None and pos[1] >= 4 and pos[0] <= 10:
+        print("Inside Safari Gatehouse, buying ticket...")
+        navigate_to(3, 3) # Stand in front of clerk
+        buy_safari_ticket()
+        time.sleep(1.5)
+        pos = get_pos()
+        print(f"Position after ticket purchase: {pos}")
+        
+    # State 3: inside Safari Zone Center (starts at (15, 25))
+    pos = get_pos()
+    if pos == (15, 25) or (pos is not None and pos[0] == 15 and pos[1] == 25):
+        print("\n=== PHASE 1: NAVIGATING CENTER TO AREA 1 (EAST) ===")
+        navigate_to(15, 22)
+        navigate_to(27, 22)
+        navigate_to(27, 10)
+        navigate_to(29, 10)
+        print("Transitioning to Area 1 (East)...")
+        bridge.press_buttons(["Right", "sleep 1500"])
+        time.sleep(1.0)
+        pos = get_pos()
+        print(f"Position in Area 1 (East): {pos}")
+        
+    # State 4: inside Area 1 (East)
+    # Area 1 coordinates are around the eastern plateau
+    pos = get_pos()
+    if pos is not None and pos[0] <= 5 and pos[1] == 22:
+        print("\n=== PHASE 2: NAVIGATING AREA 1 (EAST) TO AREA 2 (NORTH) ===")
+        # Standard Area 1 waypoints
+        waypoints_area1 = [
+            (20, 22),
+            (20, 20),
+            (12, 20),
+            (12, 22),
+            (8, 22),
+            (8, 8),
+            (12, 8),
+            (12, 6),
+            (17, 6),
+            (17, 8),
+            (20, 8),
+            (20, 3),
+            (7, 3),
+            (7, 5),
+            (0, 5)
+        ]
+        for wp in waypoints_area1:
+            pos = get_pos()
+            if pos is None:
+                pos = handle_textbox_or_battle()
+            navigate_to(wp[0], wp[1])
+            
+        print("Transitioning to Area 2 (North)...")
+        bridge.press_buttons(["Left", "sleep 1500"])
+        time.sleep(1.0)
+        pos = get_pos()
+        print(f"Position in Area 2 (North): {pos}")
+        
+    # State 5: inside Area 2 (North)
+    pos = get_pos()
+    if pos is not None and pos[0] >= 30 and pos[1] == 31:
+        print("\n=== PHASE 3: NAVIGATING AREA 2 (NORTH) TO AREA 3 (WEST) ===")
+        waypoints_area2 = [
+            (22, 31),
+            (22, 22),
+            (16, 22),
+            (16, 28),
+            (12, 28),
+            (12, 30),
+            (8, 30),
+            (8, 35),
+            (8, 36)
+        ]
+        for wp in waypoints_area2:
+            pos = get_pos()
+            if pos is None:
+                pos = handle_textbox_or_battle()
+            navigate_to(wp[0], wp[1])
+            
+        print("Transitioning to Area 3 (West)...")
+        bridge.press_buttons(["Down", "sleep 1500"])
+        time.sleep(1.0)
+        pos = get_pos()
+        print(f"Position in Area 3 (West): {pos}")
+        
+    # State 6: inside Area 3 (West)
+    pos = get_pos()
+    if pos is not None and pos[1] <= 5:
+        print("\n=== PHASE 4: NAVIGATING AREA 3 (WEST) TO GOLD TEETH ===")
+        waypoints_area3 = [
+            (25, 2),
+            (25, 18),
+            (21, 18),
+            (21, 23),
+            (19, 23),
+            (19, 24)
+        ]
+        for wp in waypoints_area3:
+            pos = get_pos()
+            if pos is None:
+                pos = handle_textbox_or_battle()
+            navigate_to(wp[0], wp[1])
+            
+        # Stand facing DOWN and pick up the teeth
+        print("Standing at (19, 24) facing DOWN, pressing A...")
+        bridge.press_buttons(["Down", "sleep 500"])
+        bridge.press_buttons(["A", "sleep 1500"])
+        
+        # Clear textbox "ACE found GOLD TEETH!"
+        print("Clearing textbox...")
+        for _ in range(5):
+            bridge.press_buttons(["B", "sleep 200"])
+            
+        print("Gold Teeth pickup sequence executed!")
+        time.sleep(1.0)
+        
+    print("Script main loop finished.")
 
 if __name__ == "__main__":
     main()
