@@ -89,27 +89,26 @@ def navigate_to(tx, ty):
 
 def main():
     pos = get_pos()
-    print(f"Starting Phase 2 from: {pos}")
+    print(f"Starting Phase 3 from: {pos}")
     
-    # Walk UP past the cut bush to Row 9
-    print("Walking UP Column 26 to Row 9...")
-    navigate_to(26, 9)
-    
-    # Walk to the Safari Gatehouse entrance at (18, 3)
-    print("Navigating to Safari Gatehouse...")
-    navigate_to(19, 9)
-    navigate_to(19, 8)
-    navigate_to(37, 8)
-    navigate_to(37, 2)
+    # We are currently at (37, 2). Walk to (22, 2).
+    print("Walking LEFT to (22, 2)...")
     navigate_to(22, 2)
+    
+    # Walk DOWN to Row 4: (22, 4)
+    print("Walking DOWN to Row 4...")
     navigate_to(22, 4)
+    
+    # Walk LEFT to (18, 4)
+    print("Walking LEFT to (18, 4)...")
     navigate_to(18, 4)
     
+    # Step into Gatehouse at (18, 3)
     print("Stepping into Safari Gatehouse...")
     bridge.press_buttons(["Up", "sleep 1500"])
     
     pos = get_pos()
-    print(f"Phase 2 complete! Final position: {pos}")
+    print(f"Phase 3 complete! Final position: {pos}")
 
 if __name__ == "__main__":
     main()
