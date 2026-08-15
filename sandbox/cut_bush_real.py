@@ -6,43 +6,113 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 import bridge
 import mgba
 
-sys.stdout.reconfigure(encoding='utf-8')
-
 def get_pos():
     pos = bridge.get_coordinates()
     if pos is None:
         return None
     return pos[0], pos[1]
 
-def main():
-    print("Starting CUT sequence from GUSTY's options sub-menu...")
+def handle_textbox_or_battle():
+    print("Coordinates are None. Handling potential battle or dialog...")
+    # Clear text boxes with B
+    for _ in range(5):
+        bridge.press_buttons(["B", "sleep 150"])
     
-    # 1. Close GUSTY's sub-menu (returns to POKÉMON menu with cursor on GUSTY / slot 3)
-    print("Closing GUSTY sub-menu...")
-    bridge.press_buttons(["B", "sleep 1000"])
+    # Try to RUN
+    print("Attempting to RUN from battle...")
+    bridge.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 1000"])
     
-    # 2. Press UP once to select TRUFFLE (slot 2)
-    print("Moving from GUSTY to TRUFFLE...")
-    bridge.press_buttons(["Up", "sleep 400"])
-    
-    # 3. Press A to open TRUFFLE's sub-menu (DIG, CUT, STATS...)
-    print("Opening TRUFFLE menu...")
-    bridge.press_buttons(["A", "sleep 1200"])
-    
-    # 4. Press DOWN once to select CUT (since DIG is above CUT)
-    print("Moving from DIG to CUT...")
-    bridge.press_buttons(["Down", "sleep 400"])
-    
-    # 5. Press A to select and execute CUT
-    print("Executing CUT...")
-    bridge.press_buttons(["A", "sleep 4000"])
-    
-    # 6. Walk UP 2 steps through the cut bush to (26, 12)
-    print("Walking UP through the cut bush...")
-    bridge.press_buttons(["Up", "sleep 600", "Up", "sleep 600"])
-    
+    # Clear post-flee text
+    for _ in range(3):
+        bridge.press_buttons(["B", "sleep 150"])
+        
     pos = get_pos()
-    print(f"Final Position after CUT: {pos}")
+    print(f"Coordinates after battle handling: {pos}")
+    return pos
+
+def walk_step_robust(direction):
+    pos = get_pos()
+    if pos is None:
+        return handle_textbox_or_battle()
+        
+    print(f"Walking {direction} from {pos}")
+    bridge.press_buttons([direction, "sleep 450"])
+    
+    new_pos = get_pos()
+    if new_pos is None:
+        return handle_textbox_or_battle()
+        
+    if new_pos != pos:
+        return new_pos
+        
+    print("Position didn't change, pressing B...")
+    bridge.press_buttons(["B", "sleep 200"])
+    new_pos = get_pos()
+    if new_pos is None:
+        return handle_textbox_or_battle()
+    return new_pos
+
+def navigate_to(tx, ty):
+    stuck_count = 0
+    while True:
+        pos = get_pos()
+        if pos is None:
+            handle_textbox_or_battle()
+            continue
+            
+        if pos == (tx, ty):
+            print(f"Arrived at waypoint ({tx}, {ty})")
+            break
+            
+        print(f"Current: {pos}, Target: ({tx}, {ty})")
+        if pos[0] < tx:
+            direction = "Right"
+        elif pos[0] > tx:
+            direction = "Left"
+        elif pos[1] < ty:
+            direction = "Down"
+        elif pos[1] > ty:
+            direction = "Up"
+            
+        new_pos = walk_step_robust(direction)
+        if new_pos == pos:
+            stuck_count += 1
+            if stuck_count > 3:
+                print("Stuck! Clearing with B...")
+                bridge.press_buttons(["B", "sleep 500"])
+                stuck_count = 0
+        else:
+            stuck_count = 0
+        time.sleep(0.1)
+
+def main():
+    pos = get_pos()
+    print(f"Starting Golden Route to Gold Teeth from: {pos}")
+    
+    waypoints = [
+        (19, 23), # Walk RIGHT to Column 19 on Row 23
+        (19, 24)  # Walk DOWN to Row 24 (directly above Gold Teeth)
+    ]
+    
+    for i, wp in enumerate(waypoints, 1):
+        navigate_to(wp[0], wp[1])
+        
+    # Stand at (19, 24) facing DOWN
+    print("Standing at (19, 24). Facing DOWN...")
+    bridge.press_buttons(["Down", "sleep 500"])
+    
+    # Pick up Gold Teeth!
+    print("Interacting (A) to retrieve Gold Teeth...")
+    bridge.press_buttons(["A", "sleep 1000"])
+    
+    # Take screenshot of the screen to see what textbox or dialogue opened!
+    img = mgba.take_screenshot()
+    print(f"INTERACTION_SCREENSHOT: {img}")
+    
+    # Dismiss any text box
+    print("Dismissing any text boxes...")
+    for _ in range(5):
+        bridge.press_buttons(["B", "sleep 250"])
 
 if __name__ == "__main__":
     main()
