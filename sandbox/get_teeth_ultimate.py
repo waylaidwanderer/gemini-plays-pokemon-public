@@ -88,34 +88,22 @@ def navigate_to(tx, ty):
         time.sleep(0.4)
 
 def main():
-    pos = get_pos()
-    print(f"Starting Area 1 Phase B Run from: {pos}")
+    print("First, closing Start menu to return to overworld...")
+    bridge.press_buttons(["B", "sleep 500"])
     
-    # Standing at (8, 9).
-    # 1. Walk UP to (8, 8)
-    navigate_to(8, 8)
-    # 2. Walk RIGHT to (12, 8)
-    navigate_to(12, 8)
-    # 3. Walk UP 2 to climb northern plateau stairs to (12, 6)
-    navigate_to(12, 6)
-    # 4. Walk RIGHT 5 to (17, 6)
-    navigate_to(17, 6)
-    # 5. Walk DOWN 2 to descend stairs to (17, 8)
-    navigate_to(17, 8)
-    # 6. Walk RIGHT 3 to Column 20: (20, 8)
-    navigate_to(20, 8)
-    # 7. Walk UP 5 along Column 20 to Row 3: (20, 3)
-    navigate_to(20, 3)
-    # 8. Walk LEFT 13 along Row 3 to Column 7: (7, 3)
+    pos = get_pos()
+    print(f"Starting Area 1 Phase C Run from: {pos}")
+    
+    # Standing at (9, 3). Walk to (7, 3)
     navigate_to(7, 3)
-    # 9. Walk DOWN 2 to Row 5: (7, 5)
+    # Walk to (7, 5)
     navigate_to(7, 5)
-    # 10. Walk LEFT to (0, 5) to transition to Area 2 (North)
+    # Walk LEFT to (0, 5) to transition to Area 2 (North)
     print("Transitioning to Area 2 (North)...")
     navigate_to(0, 5)
     
     pos = get_pos()
-    print(f"Area 1 Phase B Run complete! Position: {pos}")
+    print(f"Area 1 Phase C Run complete! Position: {pos}")
 
 if __name__ == "__main__":
     main()
