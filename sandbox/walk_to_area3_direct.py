@@ -2,11 +2,8 @@ import time
 import sys
 import os
 
-# Add current path to import bridge
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 import bridge
-
-sys.stdout.reconfigure(encoding='utf-8')
 
 def get_pos():
     pos = bridge.get_coordinates()
@@ -89,17 +86,19 @@ def navigate_to(tx, ty):
 
 def main():
     pos = get_pos()
-    print(f"Starting walk to Area 3 from {pos}")
+    print(f"Starting direct route from {pos} to Area 3")
     
-    # Define exact waypoints to avoid getting stuck or hitting corners
     waypoints = [
-        (26, 24), # Step DOWN to Row 24
-        (22, 24), # Walk LEFT to Column 22
-        (22, 22), # Walk UP to Row 22 (climbs stairs at 22,23)
-        (16, 22), # Walk LEFT to Column 16 on plateau
-        (16, 28), # Walk DOWN to Row 28 (descends stairs at 16,27)
+        (38, 26), # Walk DOWN Column 38 to Eastern Southern Plateau
+        (28, 26), # Walk LEFT to Column 28
+        (28, 28), # Walk DOWN to descend stairs to ground level
+        (28, 31), # Walk DOWN to Southern Corridor
+        (22, 31), # Walk LEFT along Southern Corridor
+        (22, 22), # Walk UP to climb Western Southern Plateau stairs
+        (16, 22), # Walk LEFT on Western Southern Plateau
+        (16, 28), # Walk DOWN to descend stairs
         (12, 28), # Walk LEFT to Column 12
-        (12, 30), # Walk DOWN to Row 30 to bypass pond
+        (12, 30), # Walk DOWN to bypass pond
         (8, 30),  # Walk LEFT to Column 8
         (8, 35)   # Walk DOWN to Row 35
     ]
@@ -112,7 +111,7 @@ def main():
     time.sleep(1.5)
     
     final_pos = get_pos()
-    print(f"Final position: {final_pos}")
+    print(f"Final position inside Area 3: {final_pos}")
 
 if __name__ == "__main__":
     main()
