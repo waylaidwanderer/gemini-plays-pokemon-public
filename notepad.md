@@ -1,12 +1,12 @@
 <h1><code>Main</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 55653)
-- Location: Route 7 at (8, 4) heading into Celadon City.
+## CURRENT STATUS & DASHBOARD (Turn 55681)
+- Location: Celadon Gym at (4, 11) battling Lass.
 - Primary Goal: Defeat Gym Leader Erika at Celadon Gym for the Rainbow Badge (Badge #4).
 - Secondary Goal: Catch a bird Pokémon (Doduo/Spearow) and teach HM02 Fly.
 - Tertiary Goal: Explore Route 12 Snorlax & obtain Super Rod from Silence Bridge.
 - Key Items: HM02 FLY [ACQUIRED & VERIFIED], POKÉ FLUTE [ACQUIRED], SILPH SCOPE [ACQUIRED], LIFT KEY [ACQUIRED], TM07 Horn Drill [ACQUIRED], BICYCLE [EQUIPPED].
-- Party Status: SHELLSHOCK (Blastoise Lv54, HP 119/189), LUNA (Clefable Lv12, HP 42/42), CUTTER (Meowth Lv14, HP 39/39), SPROUT (Bellsprout Lv16, HP 42/42), BRUDF (Hitmonlee Lv30, HP 73/73).
+- Party Status: SHELLSHOCK (Blastoise Lv54, HP 114/189), LUNA (Clefable Lv12, HP 42/42), CUTTER (Meowth Lv14, HP 39/39), SPROUT (Bellsprout Lv16, HP 42/42), BRUDF (Hitmonlee Lv30, HP 73/73).
 
 <hr>
 
@@ -648,7 +648,7 @@
 - Celadon Prize Exchange: Door at (33, 19) with signpost at (33, 21).
 - Northwest Residence: Door at (7, 3) / (11, 3).
 - East Entrance / Exit to Route 7: Tile (49, 11) / (49, 15).
-- West Entrance / Exit to Route 7: Tile (0, 6) / (0, 7).
+- West Entrance / Exit to Route 16: Tile (0, 18).
 
 ## Major City Corridors & Streets
 - North Avenue (Row 13/14): Open horizontal street connecting Mansion, Mart, and West Route 7.

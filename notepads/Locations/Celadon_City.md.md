@@ -10,7 +10,7 @@
 - Celadon Prize Exchange: Door at (33, 19) with signpost at (33, 21).
 - Northwest Residence: Door at (7, 3) / (11, 3).
 - East Entrance / Exit to Route 7: Tile (49, 11) / (49, 15).
-- West Entrance / Exit to Route 7: Tile (0, 6) / (0, 7).
+- West Entrance / Exit to Route 16: Tile (0, 18).
 
 ## Major City Corridors & Streets
 - North Avenue (Row 13/14): Open horizontal street connecting Mansion, Mart, and West Route 7.
