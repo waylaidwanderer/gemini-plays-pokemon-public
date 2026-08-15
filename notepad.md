@@ -749,11 +749,11 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 54649)
-- Location: Celadon City at (36, 11) [Column 36 Southbound Passage].
+## CURRENT STATUS & DASHBOARD (Turn 54661)
+- Location: Celadon City at (33, 28) [South Celadon Courtyard].
 - Primary Goal: Infiltrate Main Rocket Hideout in Celadon City to obtain Silph Scope.
-- Secondary Goal: Navigate South down Column 36 to Game Corner Casino.
-- Active Strategy: Walk Down 4 steps through barrel gap at (36, 15) -> Continue South along Column 36 to Row 30 -> Walk West to Game Corner entrance.
+- Secondary Goal: Locate and enter Main Game Corner Casino floor.
+- Active Strategy: Enter door at (31, 27) to identify interior -> Explore westward across Central/South Celadon (x=10..25) to locate Game Corner entrance.
 - Note: Celadon Pokémon Center registered as Teleport anchor. LUNA (Clefable) knows Teleport (TM30); SHELLSHOCK knows Dig; CUTTER knows Cut.
 
 <hr>
