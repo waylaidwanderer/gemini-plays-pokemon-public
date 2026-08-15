@@ -52,13 +52,14 @@ def navigate_to(tx, ty):
         time.sleep(0.4)
 
 def main():
-    print("Navigating from current (19, 20) to Pokemon Center via Column 8 highway...")
+    print("Navigating from current (8, 21) to Pokemon Center via Column 24 corridor...")
     
     waypoints = [
-        (8, 20),   # Left along Row 20 to Column 8
-        (8, 32),   # Down Column 8 to Row 32 (jumping over ledge)
-        (19, 32),  # Right along Row 32 to Column 19
-        (19, 28),  # Up Column 19 to doormat
+        (24, 21),  # Right to Column 24
+        (24, 25),  # Down Column 24 to Row 25
+        (22, 25),  # Left Row 25 to Column 22
+        (22, 28),  # Down Column 22 to Row 28
+        (19, 28),  # Left Row 28 to Column 19
         (19, 27)   # Enter Pokemon Center
     ]
     
