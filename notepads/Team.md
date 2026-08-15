@@ -6,16 +6,20 @@
    - Type: Water
    - Moves: Tackle (35/35), Tail Whip (30/30), Bubble (30/30), Water Gun (25/25)
    - Role: Starter & primary Water special attacker
+2. ECHO (Zubat) - Lv 6
+   - Type: Poison / Flying
+   - Moves: Leech Life
+   - Role: Fast Flying/Poison utility & future Golbat
 
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
-## Inventory & Resources (Verified Turn 405)
-- Money: ¥1214 (¥1004 + ¥210 from Lass #2)
+## Inventory & Resources (Verified Turn 486)
+- Money: ¥1214
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Pokémon Attack)
 - Key Items: Town Map, Pokédex
 - TMs / HMs: TM34 (Bide)
 - Consumables:
   - 1x Antidote (Status cure: Poison)
   - 3x Potion (Restores 20 HP)
-  - 11x Poké Ball (Standard catch rate)
+  - 10x Poké Ball (1 used to catch ECHO)
