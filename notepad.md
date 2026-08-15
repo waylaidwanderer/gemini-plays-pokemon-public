@@ -1,21 +1,21 @@
 <h1><code>Main</code></h1>
 
-# Pok�mon Blue - Main Dashboard
+# Pokémon Blue - Main Dashboard
 
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
 - Location: Route 3 (x=26, y=8)
-- Current Objective: Traverse Route 3, defeat trainers, catch new Pok�mon, and proceed towards Mt. Moon / Cerulean City
+- Current Objective: Traverse Route 3, defeat trainers, catch new Pokémon, and proceed towards Mt. Moon / Cerulean City
 
 ## Notepads Index
-- `Team`: Current Pok�mon party, movesets, stats, nicknames, inventory
+- `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
 - `Quests`: Story progression and side tasks
 - `Locations/PalletTown`: Points of interest, NPC dialogues, items
 - `Locations/Route1`: Route 1 layout, points of interest, wild encounters
 - `Locations/ViridianCity`: Viridian City buildings, Mart catalog, Old Man
 - `Locations/ViridianForest`: Forest layout, 3 Bug Catchers, items
-- `Locations/PewterCity`: Pewter City points of interest, Pok�mon Center, Pewter Gym
+- `Locations/PewterCity`: Pewter City points of interest, Pokémon Center, Pewter Gym
 - `Locations/Route3`: Route 3 layout, trainers, wild encounters
 
 
@@ -33,17 +33,17 @@
    - Role: Starter & primary Water special attacker
 
 ## Planned Nicknaming Strategy
-- Every captured Pok�mon will receive a thoughtful, unique nickname.
+- Every captured Pokémon will receive a thoughtful, unique nickname.
 
-## Inventory & Resources (Verified Turn 359)
-- Money: �744 (�654 + �90 from Bug Catcher #2)
-- Badges: Boulder Badge (Enables Flash outside battle, boosts Pok�mon Attack)
-- Key Items: Town Map, Pok�dex
+## Inventory & Resources (Verified Turn 387)
+- Money: ¥1004 (¥744 + ¥150 from Lass #1 + ¥110 from Bug Catcher #3)
+- Badges: Boulder Badge (Enables Flash outside battle, boosts Pokémon Attack)
+- Key Items: Town Map, Pokédex
 - TMs / HMs: TM34 (Bide)
 - Consumables:
   - 1x Antidote (Status cure: Poison)
   - 3x Potion (Restores 20 HP)
-  - 11x Pok� Ball (Standard catch rate)
+  - 11x Poké Ball (Standard catch rate)
 
 
 <hr>
@@ -178,6 +178,36 @@
 
 <h1><code>Locations/Route3</code></h1>
 
+# Route 3 - Points of Interest & Notes
+
+## Connections
+- West: Pewter City [Entered Turn 325]
+- East: Path continues east along Route 3 [Exploring]
+
+## Layout & Landmarks
+- Mountain path flanked by rock cliffs on north and south
+- Entrance tall grass patch at columns 2-8, rows 8-11
+- Rocky boulders at (4, 8) and (4, 11)
+- Bush/tree obstacle at (9, 10..11)
+- Elevation & Ledge Mapping:
+  - Upper one-way ledge: Runs horizontally along row 7 from column 11 eastward.
+  - Passable north-south gap around upper ledge: Located at column 10 (x=10, y=7).
+  - Lower one-way ledge: Runs horizontally along row 11 from column 10 eastward.
+  - Hopped upper ledge south from (26, 6) to (26, 8) [Turn 388].
+- Tall grass patch at columns 24-31, rows 10-12 [Observed Turn 389].
+
+## Verified Trainers
+- Youngster #1: Located at (10, 6) facing East [Observed Turn 327]
+- Bug Catcher #1: Located at (14, 4) facing South [Defeated Turn 335]. Team: Caterpie Lv 10, Weedle Lv 10, Caterpie Lv 10. Reward: ¥100.
+- Youngster #2 (Shorts Guy): Located at (14, 5) facing South, triggered at (14, 6) [Defeated Turn 341]. Team: Rattata Lv 11, Ekans Lv 11. Reward: ¥165.
+- Bug Catcher #2: Located at (19, 5) facing South [Defeated Turn 358]. Team: Weedle Lv 9, Kakuna Lv 9, Caterpie Lv 9, Metapod Lv 9. Reward: ¥90.
+- Lass #1: Located at (23, 4) facing West, triggered at (19, 4) [Defeated Turn 371]. Team: Rattata Lv 10, Nidoran (Male) Lv 10. Reward: ¥150.
+- Bug Catcher #3: Located at (24, 6) facing West, engaged at (24, 5) [Defeated Turn 387]. Team: Caterpie Lv 11, Metapod Lv 11. Reward: ¥110.
+- Youngster #4: Located at (22, 9) facing North/Left [Observed Turn 361]
+- Trainer (Lass): Located at (16, 9) facing North [Observed Turn 347]
+
+## Empirical Wild Encounters
+- (Documenting upon encounter in tall grass)
 
 
 <hr>
