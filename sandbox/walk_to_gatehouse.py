@@ -53,50 +53,24 @@ def navigate_to(tx, ty):
             stuck_count = 0
         time.sleep(0.1)
 
-def use_cut_truffle():
-    print("Using CUT on the bush...")
-    # Open START menu
-    bridge.press_buttons(["Start", "sleep 600"])
-    
-    # Press UP 7 times to guarantee we are at the top (POKÉDEX)
-    for _ in range(7):
-        bridge.press_buttons(["Up", "sleep 150"])
-        
-    # Move DOWN 1 time to POKÉMON (2)
-    bridge.press_buttons(["Down", "sleep 200", "A", "sleep 1200"])
-    
-    # Move DOWN 1 time to select TRUFFLE (slot 2)
-    bridge.press_buttons(["Down", "sleep 300", "A", "sleep 1000"])
-    
-    # Select CUT (which is the first option, so just press A)
-    bridge.press_buttons(["A", "sleep 3000"])
-    print("CUT executed.")
-
 def main():
-    pos = get_pos()
-    print(f"Starting walk to gatehouse. Position: {pos}")
+    # 1. Dismiss CUT text box (pressing B once)
+    print("Dismissing 'TRUFFLE hacked away with CUT!' text box...")
+    bridge.press_buttons(["B", "sleep 1000"])
     
-    # 1. Walk from (26, 28) to (26, 14) via Row 30 and Column 22
-    if pos is not None and pos == (26, 28):
-        navigate_to(27, 28)
-        navigate_to(30, 28)
-        navigate_to(30, 30)
-        navigate_to(24, 30)
-        navigate_to(24, 21)
-        navigate_to(22, 21)
-        navigate_to(22, 14)
-        navigate_to(26, 14)
-        
-        # Ensure we face UP towards (26, 13)
-        bridge.press_buttons(["Up", "sleep 250"])
-        
-        # Use CUT
-        use_cut_truffle()
-        
-        # Walk through the cut bush
+    pos = get_pos()
+    print(f"Starting overworld walk. Position: {pos}")
+    
+    # Walk to (37, 2) in Fuchsia City overworld
+    if pos is not None and pos == (26, 14):
         navigate_to(26, 12)
+        navigate_to(26, 9)
+        navigate_to(19, 9)
+        navigate_to(19, 8)
+        navigate_to(37, 8)
+        navigate_to(37, 2)
         
-    print(f"Script finished. Final position: {get_pos()}")
+    print(f"Chunk 1 finished. Final position: {get_pos()}")
 
 if __name__ == "__main__":
     main()
