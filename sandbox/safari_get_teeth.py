@@ -121,16 +121,7 @@ def main():
     print("Pressing A to pick up Gold Teeth...")
     bridge.press_buttons(["A", "sleep 1000"])
     
-    # Clear dialogue
-    for _ in range(5):
-        bridge.press_buttons(["B", "sleep 300"])
-        
     time.sleep(1.0)
-    
-    # Use DIG to escape to Fuchsia City outside!
-    use_dig()
-    
-    time.sleep(2.0)
     pos = get_pos()
     print(f"Final position: {pos}")
 
