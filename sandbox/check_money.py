@@ -9,37 +9,26 @@ import mgba
 sys.stdout.reconfigure(encoding='utf-8')
 
 def main():
-    print("Opening START menu to check trainer card...")
+    print("Opening START menu and moving cursor to top...")
     # Open START menu
     bridge.press_buttons(["Start", "sleep 500"])
     
-    # We are on the first menu item (usually POKeDEX or POKeMON).
-    # The menu layout is:
-    # POKéDEX
-    # POKéMON
-    # ITEM
-    # ACE (Trainer name)
-    # SAVE
-    # OPTION
-    # EXIT
-    # Let's move down to ACE. Since we usually don't have POKéDEX active? No, we got the POKéDEX on Turn 128!
-    # So the menu is:
-    # POKéDEX (1)
-    # POKéMON (2)
-    # ITEM (3)
-    # ACE (4)
-    # Save (5)
-    # Option (6)
-    # Exit (7)
-    # So we press Down 3 times to reach ACE, then press A.
-    bridge.press_buttons(["Down", "sleep 200", "Down", "sleep 200", "Down", "sleep 200", "A", "sleep 1500"])
+    # Press UP 7 times to guarantee we are at the top item (POKéDEX)
+    for _ in range(7):
+        bridge.press_buttons(["Up", "sleep 150"])
+        
+    print("Cursor at top (POKéDEX). Moving down 3 times to ACE...")
+    # Move DOWN 3 times to ACE
+    for _ in range(3):
+        bridge.press_buttons(["Down", "sleep 150"])
+        
+    print("Opening Trainer Card...")
+    # Press A to open Trainer Card
+    bridge.press_buttons(["A", "sleep 1500"])
     
-    # Capture screenshot of trainer card
+    # Take screenshot of Trainer Card
     mgba.take_screenshot()
-    print("Trainer card screenshot captured.")
-    
-    # Close trainer card
-    bridge.press_buttons(["B", "sleep 500", "Start", "sleep 500"])
+    print("Trainer card screenshot taken.")
 
 if __name__ == "__main__":
     main()
