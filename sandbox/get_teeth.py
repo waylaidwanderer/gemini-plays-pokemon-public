@@ -98,23 +98,28 @@ def use_dig_safe():
 
 def main():
     pos = get_pos()
-    print(f"Starting Column 17 Golden Passage to Gold Teeth from: {pos}")
+    print(f"Starting actual walkable route to Gold Teeth from: {pos}")
     
     waypoints = [
-        (17, 26),  # Step 1: Walk DOWN Column 17 to Row 26 (Highway)
-        (19, 26)   # Step 2: Walk RIGHT along Row 26 directly below Gold Teeth
+        (17, 19),  # Step 1: Walk UP to Row 19 (bypassing Column 18 barrier)
+        (19, 19),  # Step 2: Walk RIGHT to Column 19
+        (19, 24)   # Step 3: Walk DOWN to Row 24 (directly above Gold Teeth)
     ]
     
     for i, wp in enumerate(waypoints, 1):
         navigate_to(wp[0], wp[1])
         
-    # Stand at (19, 26). Facing UP
-    print("Standing at (19, 26). Facing UP...")
-    bridge.press_buttons(["Up", "sleep 500"])
+    # Stand at (19, 24) facing DOWN
+    print("Standing at (19, 24). Facing DOWN...")
+    bridge.press_buttons(["Down", "sleep 500"])
     
     # Pick up Gold Teeth!
     print("Interacting to retrieve Gold Teeth...")
     bridge.press_buttons(["A", "sleep 1500"])
+    
+    # Take screenshot of the screen to see what textbox or dialogue opened!
+    img = mgba.take_screenshot()
+    print(f"INTERACTION_SCREENSHOT: {img}")
     
     print("Dismissing textboxes...")
     for _ in range(5):
