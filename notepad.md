@@ -1545,6 +1545,20 @@ We have empirically verified that Column 28 is 100% OPEN and walkable on Rows 12
 - **Safari Zone Center to Area 3 (West) direct warp:** Stand at (0, 11) in Safari Zone Center, walk LEFT 1 step to transition directly to (29, 23) in Area 3 (West).
 - This shortcut completely bypasses the Area 1 (East) and Area 2 (North) plateau detours for subsequent trips once inside the Northwest Compartment of Safari Zone Center.
 
+### 🚫 Verified Collisions & Blockages in Area 3 (West) (Turns 40810-40828)
+- **Columns 2, 3, 4, 5 on Row 24:** Completely blocked by solid green shrubs (empirically verified on Turn 40827).
+- **Column 6 on Row 24:** Blocked by solid cliff wall/trees.
+- **Columns 10-15 on Row 25:** Blocked by solid cliff wall (Columns 11 and 15 verified on Turn 40813/40814).
+- **Column 16 on Row 24:** Blocked by solid green shrub.
+- **Column 17 on Row 24:** Blocked by solid green shrub.
+- **Column 18 on Row 25:** Blocked by solid green shrub (empirically verified on Turn 40818).
+- **Column 18 on Row 19-23:** Blocked by solid vertical shrub barrier (verified on Turn 40823).
+- **Column 20 on Row 24/25:** Blocked by solid green shrubs (verified on Turn 40821/40822).
+- **Column 21 on Row 24/25:** Blocked by solid green shrubs/cliffs (verified on Turn 40824).
+- **Row 19 Blockage:** Row 19 is blocked horizontally at Column 17 by the solid cliff wall of the Plateau (verified on Turn 40823).
+- **Conclusion:** The North and South ground levels of Area 3 (West) are completely separated. There is NO ground-level vertical path connecting them. To reach the south side (Row 26 Highway) from the North-East transition, one must use the Plateau and the West Stairs.
+
+
 <hr>
 
 <h1><code>notepads/Locations/SafariZone</code></h1>
