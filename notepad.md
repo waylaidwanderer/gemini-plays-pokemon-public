@@ -590,13 +590,13 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 55561)
-- Location: Route 7 at (8, 12) -> Teleport to Saffron -> West Gatehouse -> Route 7 North Highway -> Celadon City.
-- Primary Goal: Travel to Route 16 to awaken Snorlax with Poké Flute and obtain HM02 Fly.
+## CURRENT STATUS & DASHBOARD (Turn 55623)
+- Location: Route 16 Upper Highway at (24, 7) outside North Gatehouse.
+- Primary Goal: Obtain HM02 Fly from Secret House on Northwest Route 16.
 - Secondary Goal: Defeat Gym Leader Erika at Celadon Gym for the Rainbow Badge.
-- Active Strategy: Col 12 North to Row 2 -> Walk West into Celadon City -> Traverse Celadon West to Route 16 -> Play Poké Flute on Snorlax -> Obtain HM02 Fly!
-- Key Items: POKÉ FLUTE [ACQUIRED & VERIFIED], SILPH SCOPE [ACQUIRED], LIFT KEY [ACQUIRED], TM07 Horn Drill [ACQUIRED], BICYCLE [EQUIPPED].
-- Party Status: SHELLSHOCK (Blastoise Lv54, HP 186/189), LUNA (Clefable Lv11, HP 40/40), CUTTER (Paras Lv14, HP 39/39), SPROUT (Bellsprout Lv15, HP 40/40), BRUDF (Hitmonlee Lv30, HP 73/73).
+- Active Strategy: Ascend to Row 4/5 -> Enter North Gatehouse at (23, 5) -> Traverse gatehouse west to Northwest Route 16 -> Enter Secret House -> Obtain HM02 Fly!
+- Key Items: POKÉ FLUTE [ACQUIRED], SILPH SCOPE [ACQUIRED], LIFT KEY [ACQUIRED], TM07 Horn Drill [ACQUIRED], BICYCLE [EQUIPPED].
+- Party Status: SHELLSHOCK (Blastoise Lv54, HP 119/189), LUNA (Clefable Lv11, HP 40/40), CUTTER (Meowth Lv14, HP 39/39), SPROUT (Bellsprout Lv15, HP 40/40), BRUDF (Hitmonlee Lv30, HP 73/73).
 
 <hr>
 
