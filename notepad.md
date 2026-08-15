@@ -184,6 +184,11 @@
 - West: Pewter City [Entered Turn 325]
 - East: Path continues east along Route 3 [Exploring]
 
+## NPCs & Points of Interest
+- Rest Boy NPC: Located at (57, 11) [Observed Turn 417]. Mentions resting outside the tunnel from Cerulean.
+- Pokémon Center: Located on eastern Route 3 outside Mt. Moon entrance.
+- Mt. Moon Entrance: Located at (58, 9).
+
 ## Layout & Landmarks
 - Mountain path flanked by rock cliffs on north and south
 - Entrance tall grass patch at columns 2-8, rows 8-11
