@@ -5,14 +5,18 @@
 ## Current Status
 - Player: BLUE
 - Badges: 0/8
-- Location: Pewter City (x=18, y=35)
-- Current Objective: Heal HYDROS at Pokémon Center, navigate to Pewter Gym, and defeat Gym Leader Brock for the Boulder Badge
+- Location: Pewter Gym (x=4, y=6)
+- Current Objective: Defeat Gym trainer and Gym Leader Brock for the Boulder Badge
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames
-- `Locations/PalletTown`: Points of interest, NPC dialogues, items
 - `Quests`: Story progression and side tasks
+- `Locations/PalletTown`: Points of interest, NPC dialogues, items
 - `Locations/Route1`: Route 1 layout, points of interest, wild encounters
+- `Locations/ViridianCity`: Viridian City buildings, Mart catalog, Old Man
+- `Locations/ViridianForest`: Forest layout, 3 Bug Catchers, items
+- `Locations/PewterCity`: Pewter City points of interest, Pokémon Center, Pewter Gym
+
 
 <hr>
 
@@ -21,17 +25,17 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. HYDROS (Squirtle) - Lv 12
-   - Stats (Verified at Lv 12): Atk 19, Def 21, Spe 19, Spc 20, Max HP 35 (HP: 35/35, Healthy - Healed Turn 287)
+1. HYDROS (Squirtle) - Lv 13
+   - Stats (Verified at Lv 13): Max HP 37 (HP: ~25/37 in battle, Healthy - Grew to Lv 13 Turn 299)
    - Type: Water
-   - Moves: Tackle (35/35), Tail Whip (30/30), Bubble (30/30)
+   - Moves: Tackle (35/35), Tail Whip (30/30), Bubble (~26/30)
    - Role: Starter & primary Water/Ice special attacker
 
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
 ## Inventory & Resources (Verified Turn 273)
-- Money: ¥783
+- Money: ¥783 (Prize money from Jr. Trainer pending)
 - Key Items: Town Map, Pokédex
 - Consumables:
   - 1x Antidote (Status cure: Poison - 1 consumed Turn 237, 1 found at (25, 11) Turn 239, 1 consumed Turn 273)
@@ -143,17 +147,22 @@
 
 ## Connections
 - South: Route 2 / Viridian Forest (y=35) [Entered Turn 285]
-- East: Route 3 (Heading to Mt. Moon)
+- East: Unexplored path to the east
 
 ## Buildings & Verified Points of Interest
 - Pokémon Center: Located at (13, 25) [Verified Turn 286] - Free party healing & PC access
-- Pokémart: Located at (23, 17) [Verified Turn 291] - Sells items
-- Pewter Gym: Located at (16, 17) [Verified Turn 291] - Gym Leader Brock (Boulder Badge)
-- Pewter Museum of Science: Located at north (y=7)
+- Pokémart: Located at (23, 17) [Verified Turn 291]
+- Pewter Gym: Located at (16, 17) [Verified Turn 291, Entered Turn 296]
+  - Interior Entrance: (4, 13)
+  - Statues at (3, 10) and (6, 10)
+  - Gym Guide NPC at (7, 10)
+  - Gym Leader: Brock (at north end)
 
-## Verified NPCs & Dialogue
+## Verified Trainers & NPCs
 - Citizen NPC: Located at (17, 25) outside Pokémon Center [Observed Turn 286]
-- Nurse Joy: Located at (3, 1) inside Pokémon Center [Turn 287]
+- Nurse Joy: Located at (3, 1) inside Pokémon Center [Healed party Turn 287]
+- Gym Guide NPC: Located at (7, 10) inside Pewter Gym [Turn 296]
+- Jr. Trainer ♂: Located at (3, 6) inside Pewter Gym, triggered at (4, 6) [Turn 297, In Battle Turn 297-301]. Team: Diglett Lv 11, Sandshrew Lv 11.
 
 
 <hr>
