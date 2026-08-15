@@ -27,3 +27,4 @@
 - Zubat Lv 6 [Encountered & Defeated Turn 489 at (28, 10)]
 - Geodude Lv 8 [Encountered Turn 492, Caught Turn 496 at (35, 7), Nicknamed TERRA]
 - Zubat Lv 7 [Encountered Turn 502 at (35, 3)]
+- Northeast chamber layout: Extends eastward to col 37 (rows 2-7). East boundary rock wall at col 38, north rock wall at row 1. Northern corridor runs westward along rows 2-5.
