@@ -50,3 +50,19 @@
 - Route 1 / Viridian City: Pokémart clerk gives Oak's Parcel to deliver back to Oak
 
 <hr>
+
+<h1><code>Quests</code></h1>
+
+# Quest Log & Story Progression
+
+## Main Quests
+- [ ] Receive Starter Pokémon from Oak
+- [ ] Deliver Oak's Parcel from Viridian City Pokémart to Oak
+- [ ] Obtain Pokédex and Poké Balls from Oak
+- [ ] Obtain Town Map from Daisy in Pallet Town
+- [ ] Defeat Gym Leader Brock in Pewter City (Boulder Badge)
+
+## Side Quests & Deliveries
+- (None yet)
+
+<hr>
