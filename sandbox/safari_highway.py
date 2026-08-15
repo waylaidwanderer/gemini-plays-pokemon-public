@@ -86,17 +86,19 @@ def navigate_to(tx, ty):
 def main():
     print("Executing Safari Zone Complete Highway Route to Gold Teeth...")
     
-    # Step 1: Navigate Center starting at (15, 25)
-    print("\n--- STEP 1a: Navigating to (15, 22) in Center ---")
-    navigate_to(15, 22)
-    
-    print("\n--- STEP 1b: Navigating to (28, 22) in Center ---")
-    navigate_to(28, 22)
-    
-    print("\n--- STEP 1c: Navigating to (28, 10) in Center ---")
-    navigate_to(28, 10)
-    
-    print("\n--- STEP 1d: Navigating to (29, 10) in Center ---")
+    # Step 1: Navigate Center starting at (15, 25) or (28, 14)
+    pos = get_pos()
+    if pos is not None and pos[0] >= 27 and pos[1] >= 11:
+        print("Handling starting from Column 28 Row 14 detour...")
+        navigate_to(27, 14)
+        navigate_to(27, 10)
+    else:
+        print("Standard Center start...")
+        navigate_to(15, 22)
+        navigate_to(27, 22)
+        navigate_to(27, 10)
+        
+    print("\n--- Navigating to (29, 10) in Center ---")
     navigate_to(29, 10)
     
     # Transition to Area 1 (East)
