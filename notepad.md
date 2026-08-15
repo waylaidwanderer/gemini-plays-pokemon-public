@@ -1389,7 +1389,6 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 - Lower West Passage: Open gap at (16, 13..15) connecting Central Hall into Lower West Wing and Row 17 Highway.
 
 ## NPCs & Grunts
-- Grunt: Located at (23, 12) near the elevator area.
 - Lift Key Grunt: Located at (11, 2) in Northwest Computer Room.
 
 ## Items & Pickups
