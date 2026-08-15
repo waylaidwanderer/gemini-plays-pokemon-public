@@ -11,7 +11,7 @@
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
 ## Inventory & Resources (Verified Turn 230)
-- Money: ¥693
+- Money: ¥783
 - Key Items: Town Map, Pokédex
 - Consumables:
   - 2x Antidote (Status cure: Poison - 1 consumed Turn 237, 1 found at (25, 11) Turn 239 [Verified Turn 245])
