@@ -750,11 +750,11 @@
 
 <h1><code>Main.md</code></h1>
 
-## CURRENT STATUS & DASHBOARD (Turn 55553)
-- Location: Saffron City at (25, 12) -> Right to Col 28 -> Up to Row 7 -> West through (17, 7) fence gap to West Saffron.
+## CURRENT STATUS & DASHBOARD (Turn 55561)
+- Location: Saffron City at (24, 12) -> Moving Down to Row 15 Plaza -> Column 28 South to Row 30 Highway -> West to West Gatehouse.
 - Primary Goal: Travel to Route 16 to awaken Snorlax with Poké Flute and obtain HM02 Fly.
 - Secondary Goal: Defeat Gym Leader Erika at Celadon Gym for the Rainbow Badge.
-- Active Strategy: Exit Mart -> Col 24 to Row 7 -> Pass through (17, 7) fence gap -> West Gatehouse -> Route 7 -> Celadon -> Route 16 -> Use Poké Flute on Snorlax -> Obtain HM02 Fly!
+- Active Strategy: Row 15 Plaza -> Col 28 South to Row 30 -> West past Pokemon Center to Col 2 -> North to Row 18 -> Saffron West Gatehouse -> Route 7 -> Celadon -> Route 16 -> Use Poké Flute on Snorlax -> Obtain HM02 Fly!
 - Key Items: POKÉ FLUTE [ACQUIRED & VERIFIED], SILPH SCOPE [ACQUIRED], LIFT KEY [ACQUIRED], TM07 Horn Drill [ACQUIRED], BICYCLE [EQUIPPED].
 - Party Status: SHELLSHOCK (Blastoise Lv54, HP 186/189), LUNA (Clefable Lv11, HP 40/40), CUTTER (Paras Lv14, HP 39/39), SPROUT (Bellsprout Lv15, HP 40/40), BRUDF (Hitmonlee Lv30, HP 73/73).
 
@@ -865,6 +865,13 @@
 - Row 2 Northern Highway: Open East-West pavement across x=1..16.
 - Row 7 Central-West Gap: Open passage at (17, 7) through the Column 17 fence connecting East Saffron to West Saffron.
 - Row 30 Southern Street: Open East-West pavement running from Saffron Pokémon Center (9, 29) East to (25, 30).
+
+## Verified Building Footprints & Collision Boundaries
+- Saffron Pokémon Mart: Footprint at Columns 24..27, Rows 8..11 with entrance door at (25, 11). Pavement street runs along Row 12/13.
+- Central-East Building: Footprint at Columns 20..23, Rows 10..16 with open dotted pavement at Rows 8..9.
+- East Gatehouse Sector Building: Footprint at Columns 32..35, Rows 14..21.
+- Central Vertical Fence: Runs north-south along Column 17, with verified gap at (17, 7).
+- Southern Plaza: Columns 24..29, Rows 14..15 form open tan sidewalk connecting East into Column 28 southbound avenue to Row 30.
 
 <hr>
 
