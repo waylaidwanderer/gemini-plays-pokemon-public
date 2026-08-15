@@ -3,8 +3,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 0/8
-- Location: Viridian City
-- Current Objective: Enter Pokémart to retrieve Oak's Parcel
+- Location: Viridian City Pokémart
+- Current Objective: Deliver Oak's Parcel to Professor Oak in Pallet Town
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames
