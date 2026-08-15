@@ -48,8 +48,7 @@
 - Consumables:
   - 1x Antidote (Status cure: Poison)
   - 3x Potion (Restores 20 HP)
-  - 10x Poké Ball (1 used to catch ECHO)
-
+  - 9x Poké Ball (1 used for ECHO, 1 thrown at Geodude)
 
 <hr>
 
