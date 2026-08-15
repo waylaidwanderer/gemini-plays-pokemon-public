@@ -59,20 +59,19 @@ def walk_to_waypoint(target_x, target_y):
         bridge.press_buttons([btn])
         time.sleep(0.4)
 
-# Waypoints starting from current position (20, 5) in Area 1 (East)
+# Waypoints starting from current position (9, 5) in Area 2 (North)
 waypoints = [
-    (20, 3),
-    (7, 3),
-    (7, 5),
-    (0, 5), # Transitions to Area 2 (North) at (39, 31)
-    
-    # Phase 3: Area 2 (North) to Area 3 (West)
-    (22, 31),
-    (22, 22), # Climb stairs
-    (16, 22), # Walk left on plateau
-    (16, 28), # Descend stairs
+    (9, 9),
+    (28, 9),
+    (28, 11),
+    (31, 11),
+    (31, 13),
+    (33, 13), # Climb East Stairs onto plateau
+    (21, 15), # Walk to West Stairs top
+    (19, 15), # Descend West Stairs onto ground
+    (12, 15),
     (12, 28),
-    (12, 30), # Bypass the pond
+    (12, 30), # Bypass pond
     (8, 30),
     (8, 35),
     (8, 36),  # Transitions to Area 3 (West) at (26, 0)
@@ -87,7 +86,7 @@ waypoints = [
     (19, 24)
 ]
 
-print("Continuing golden route...")
+print("Continuing golden route from (9, 5)...")
 success = True
 for idx, (wx, wy) in enumerate(waypoints):
     print(f"Waypoint {idx+1}/{len(waypoints)}: ({wx}, {wy})")
