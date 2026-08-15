@@ -84,31 +84,34 @@ def navigate_to(tx, ty):
         time.sleep(0.4)
 
 def main():
-    print("Executing final ground-level route to Gold Teeth...")
-    # Starting at (17, 22) on the western ground level
-    waypoints = [
-        (10, 22),  # Walk LEFT to Column 10
-        (10, 24),  # Walk DOWN to Row 24
-        (19, 24)   # Walk RIGHT along Row 24 to Column 19
-    ]
+    print("Executing Super-Optimized Ground Route to Gold Teeth...")
     
-    for i, wp in enumerate(waypoints, 1):
-        pos = get_pos()
-        if pos is None:
-            print("Battle or dialogue occurred, stopping.")
-            break
-        print(f"\n--- WAYPOINT {i}/{len(waypoints)}: {wp} ---")
-        navigate_to(wp[0], wp[1])
-        
-    # Stand facing DOWN towards (19, 25)
-    print("\nFacing DOWN towards Gold Teeth...")
-    bridge.press_buttons(["Down", "sleep 500"])
+    # We are at (15, 24) in Area 3 (West) on the ground level
+    # Step 1: Navigate to (15, 23)
+    print("\n--- STEP 1: Navigating to (15, 23) ---")
+    navigate_to(15, 23)
     
-    # Press A to retrieve Gold Teeth
-    print("Pressing A to pick up Gold Teeth...")
+    # Step 2: Navigate to (8, 23)
+    print("\n--- STEP 2: Navigating to (8, 23) ---")
+    navigate_to(8, 23)
+    
+    # Step 3: Jump DOWN over the ledge at Row 24/25
+    print("\n--- STEP 3: Jumping DOWN over Row 24 Ledge ---")
+    walk_step_robust("Down")  # to (8, 24) (stair/ledge tile)
+    walk_step_robust("Down")  # jumps over ledge to (8, 26)
+    
+    pos = get_pos()
+    print(f"Position after jump: {pos}")
+    
+    # Step 4: Navigate to (19, 26) on the Row 26 Highway
+    print("\n--- STEP 4: Navigating to (19, 26) ---")
+    navigate_to(19, 26)
+    
+    # Step 5: Stand facing UP and press A to pick up the Gold Teeth!
+    print("\n--- STEP 5: Facing UP and picking up Gold Teeth ---")
+    bridge.press_buttons(["Up", "sleep 500"])
     bridge.press_buttons(["A", "sleep 1500"])
     
-    # Print final position to verify
     pos = get_pos()
     print(f"Final position: {pos}")
 
