@@ -84,27 +84,30 @@ def navigate_to(tx, ty):
         time.sleep(0.4)
 
 def main():
-    print("Executing Safari Route to Gold Teeth...")
+    print("Executing Real Safari Golden Route to Gold Teeth...")
     
-    # We are at (19, 18) in Area 3 (West) on the ground level
-    # Step 1: Navigate to (21, 18)
+    # We are at (18, 19) in Area 3 (West) on the ground level
+    # Step 1: Navigate to (21, 18) (ground below East Stairs)
     print("\n--- STEP 1: Navigating to (21, 18) ---")
     navigate_to(21, 18)
     
-    # Step 2: Walk UP to climb East Stairs onto Plateau at (21, 17)
-    print("\n--- STEP 2: Climbing onto Plateau at (21, 17) ---")
-    walk_step_robust("Up")
+    # Step 2: Climb completely onto the flat top of Plateau at (21, 16)
+    print("\n--- STEP 2: Climbing onto flat top of Plateau at (21, 16) ---")
+    walk_step_robust("Up")  # to (21, 17)
+    walk_step_robust("Up")  # to (21, 16)
     pos = get_pos()
     print(f"Position on Plateau: {pos}")
     
-    # Step 3: Navigate across Plateau to (6, 17)
-    print("\n--- STEP 3: Navigating to (6, 17) on Plateau ---")
-    navigate_to(6, 17)
+    # Step 3: Navigate across flat top of Plateau to (6, 16)
+    print("\n--- STEP 3: Navigating to (6, 16) on Plateau ---")
+    navigate_to(6, 16)
     
-    # Step 4: Walk DOWN to descend West Stairs onto ground at (6, 19)
+    # Step 4: Walk DOWN to descend West Stairs onto ground at (6, 20)
     print("\n--- STEP 4: Descending West Stairs ---")
-    walk_step_robust("Down")  # To (6, 18) or (6, 19)
-    walk_step_robust("Down")  # To (6, 20)
+    walk_step_robust("Down")  # to (6, 17)
+    walk_step_robust("Down")  # to (6, 18)
+    walk_step_robust("Down")  # to (6, 19) (stair tile)
+    walk_step_robust("Down")  # to (6, 20) (ground level)
     pos = get_pos()
     print(f"Position on Ground: {pos}")
     
