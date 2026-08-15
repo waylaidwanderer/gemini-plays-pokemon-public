@@ -84,47 +84,45 @@ def navigate_to(tx, ty):
         time.sleep(0.4)
 
 def main():
-    print("Executing Golden Route from (19, 22) to Gold Teeth...")
+    print("Executing Golden Route from current (20, 19) to Gold Teeth...")
     
-    # We are at (19, 22)
-    # Step 1: Navigate to (21, 18) (ground below East Stairs)
-    print("\n--- STEP 1: Navigating to (21, 18) ---")
+    # 1. Walk to (21, 18)
     navigate_to(21, 18)
     
-    # Step 2: Climb East Stairs by walking UP onto (21, 17)
-    print("\n--- STEP 2: Climbing East Stairs to Plateau ---")
-    walk_step_robust("Up")
+    # 2. Climb East Stairs to Plateau flat top (21, 16)
+    print("\n--- CLIMBING EAST STAIRS TO ROW 16 ---")
+    walk_step_robust("Up") # to (21, 17)
+    walk_step_robust("Up") # to (21, 16)
+    
     pos = get_pos()
-    print(f"Position on Plateau: {pos}")
+    if pos is None:
+        pos = handle_textbox_or_battle()
+    print(f"Position on Plateau flat top: {pos}")
     
-    # Step 3: Walk LEFT/DOWN across Plateau to (6, 18)
-    print("\n--- STEP 3: Navigating to (6, 18) on Plateau ---")
-    navigate_to(19, 17)
-    navigate_to(19, 18)
-    navigate_to(6, 18)
+    # 3. Walk across Plateau to (6, 16)
+    print("\n--- WALKING PLATEAU TO (6, 16) ---")
+    navigate_to(6, 16)
     
-    # Step 4: Descend West Stairs by walking DOWN onto (6, 19)
-    print("\n--- STEP 4: Descending West Stairs ---")
-    walk_step_robust("Down")
-    pos = get_pos()
-    print(f"Position on Ground: {pos}")
+    # 4. Descend West Stairs to Row 26
+    print("\n--- DESCENDING WEST STAIRS TO ROW 26 ---")
+    navigate_to(6, 26)
     
-    # Step 5: Navigate to (19, 26) on the Row 26 Highway
-    print("\n--- STEP 5: Navigating to (19, 26) ---")
+    # 5. Walk East along Row 26 Highway to (19, 26)
+    print("\n--- WALKING ROW 26 HIGHWAY TO (19, 26) ---")
     navigate_to(19, 26)
     
-    # Step 6: Stand facing UP and press A to pick up the Gold Teeth!
-    print("\n--- STEP 6: Facing UP and picking up Gold Teeth ---")
+    # 6. Stand facing UP and pick up the teeth
+    print("\n--- PICKING UP GOLD TEETH ---")
     bridge.press_buttons(["Up", "sleep 500"])
     bridge.press_buttons(["A", "sleep 1500"])
     
-    # Clear text "ACE found GOLD TEETH!"
-    print("Clearing text box...")
+    # Clear textbox "ACE found GOLD TEETH!"
+    print("Clearing textbox...")
     for _ in range(5):
         bridge.press_buttons(["B", "sleep 250"])
         
     pos = get_pos()
-    print(f"Finished. Current Position: {pos}")
+    print(f"Finished. Position: {pos}")
 
 if __name__ == "__main__":
     main()
