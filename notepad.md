@@ -1252,6 +1252,9 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 - Stop Tile: (11, 20)
 - Southern Spin Route: (9, 16) stop tile -> (11, 16) RIGHT-spin -> slides through (13, 16) and (15, 16) DOWN-spin onto (15, 18) stop tile -> (13, 18) LEFT-spin -> (11, 18) DOWN-spin onto (11, 20) stop tile.
 - Complete Southern Exit Route: From (15, 18) stop tile -> (13, 18) LEFT-spin -> (11, 18) DOWN-spin onto (11, 20) stop tile -> Walk to (14, 22) -> (13, 22) LEFT-spin -> (9, 22) DOWN-spin onto (9, 24) stop tile -> Walk to (10, 24) -> (10, 25) RIGHT-spin -> slides onto (14, 25) stop tile -> Walk East via Column 16 / Row 20 to East Wing.
+## Elevator & Southeast Wing
+- Elevator Entrance: Located at (24, 19) with red checkered entrance mat, accessible via open corridor along Row 18 (x=19..24).
+- Lower Staircase: Located at (21, 22).
 
 <hr>
 
