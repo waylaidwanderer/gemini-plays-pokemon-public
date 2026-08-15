@@ -75,12 +75,10 @@ def main():
     print("Clearing initial text box...")
     bridge.press_buttons(["B", "sleep 300"])
     
-    # Path from (20, 23) in Area 1 (East) to Area 2 (North)
+    # Path from (17, 24) in Area 1 (East) to Area 2 (North)
     path = (
-        ["Up"] * 3 +
-        ["Left"] * 8 +
-        ["Down"] * 2 +
-        ["Left"] * 4 +
+        ["Up"] * 2 +
+        ["Left"] * 9 +
         ["Up"] * 14 +
         ["Right"] * 4 +
         ["Up"] * 2 +
