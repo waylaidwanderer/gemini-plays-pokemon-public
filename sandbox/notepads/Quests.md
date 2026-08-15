@@ -2,7 +2,7 @@
 
 ## Main Quests
 - [x] Receive Starter Pokémon from Oak (Squirtle nicknamed HYDROS)
-- [ ] Deliver Oak's Parcel from Viridian City Pokémart to Oak
+- [ ] Deliver Oak's Parcel from Viridian City Pokémart to Oak (Parcel retrieved)
 - [ ] Obtain Pokédex and Poké Balls from Oak
 - [ ] Obtain Town Map from Daisy in Pallet Town
 - [ ] Defeat Gym Leader Brock in Pewter City (Boulder Badge)

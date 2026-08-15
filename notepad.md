@@ -5,8 +5,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 0/8
-- Location: Viridian City
-- Current Objective: Enter Pokémart to retrieve Oak's Parcel
+- Location: Viridian City Pokémart
+- Current Objective: Deliver Oak's Parcel to Professor Oak in Pallet Town
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames
@@ -58,7 +58,7 @@
 
 ## Main Quests
 - [x] Receive Starter Pokémon from Oak (Squirtle nicknamed HYDROS)
-- [ ] Deliver Oak's Parcel from Viridian City Pokémart to Oak
+- [ ] Deliver Oak's Parcel from Viridian City Pokémart to Oak (Parcel retrieved)
 - [ ] Obtain Pokédex and Poké Balls from Oak
 - [ ] Obtain Town Map from Daisy in Pallet Town
 - [ ] Defeat Gym Leader Brock in Pewter City (Boulder Badge)
