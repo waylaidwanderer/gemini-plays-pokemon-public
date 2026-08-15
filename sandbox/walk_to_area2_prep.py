@@ -91,10 +91,9 @@ def main():
     pos = get_pos()
     print(f"Starting Area 2 (North) optimized ground bypass walk. Position: {pos}")
     
-    # Walk to (22, 31) using the 100% open ground bypass route (descending stairs at 34, 15)
-    if pos is not None and pos == (33, 13):
-        navigate_to(34, 13)
-        navigate_to(34, 15)  # descend stairs onto ground at (34, 16)
+    # Walk to (22, 31) starting from the stairs at (34, 15)
+    if pos is not None and pos == (34, 15):
+        navigate_to(34, 16)  # explicitly step down onto the ground!
         navigate_to(31, 16)
         navigate_to(31, 12)
         navigate_to(22, 12)
