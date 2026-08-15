@@ -238,6 +238,15 @@ def main():
             (18, 26),
             (19, 26)
         ]
+        
+        # Filter waypoints that we have already completed in Area 3 West
+        current_p = get_pos()
+        if current_p is not None:
+            cx, cy = current_p
+            if cx == 25 and cy <= 18 and cy >= 2:
+                print(f"Bypassing completed Area 3 waypoints as we are at {current_p}")
+                waypoints_area3 = waypoints_area3[2:] # Start directly from (25, 18)
+                
         for wp in waypoints_area3:
             navigate_to(wp[0], wp[1])
             
