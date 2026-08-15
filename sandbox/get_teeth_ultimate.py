@@ -87,53 +87,29 @@ def navigate_to(tx, ty):
             stuck_count = 0
         time.sleep(0.4)
 
-def use_cut_robust():
-    print("Executing CUT on bush at (26, 13)...")
-    # Open Start menu
-    bridge.press_buttons(["Start", "sleep 500"])
-    # Align to POKÉDEX (press UP 6 times to wrap/ensure starting point)
-    for _ in range(6):
-        bridge.press_buttons(["Up", "sleep 150"])
-    # Select POKÉMON (Down once from POKÉDEX, A)
-    bridge.press_buttons(["Down", "sleep 300", "A", "sleep 1200"])
-    # Select TRUFFLE slot 2 (press Down once, A)
-    bridge.press_buttons(["Down", "sleep 300", "A", "sleep 800"])
-    # Select CUT (first option in menu, press A)
-    bridge.press_buttons(["A", "sleep 3000"])
-    # Clear any leftover textbox
-    for _ in range(3):
-        bridge.press_buttons(["B", "sleep 300"])
-
 def main():
     pos = get_pos()
-    print(f"Starting Phase 1 from: {pos}")
+    print(f"Starting Phase 2 from: {pos}")
     
-    # Walk around the horizontal fence:
-    # 1. Left to Column 24
-    # 2. Up to Row 21
-    # 3. Left to Column 22
-    # 4. Up to Row 14
-    # 5. Right to Column 26 (standing directly below the bush at 26,13)
-    print("Navigating to Cut-able bush at (26, 14)...")
-    navigate_to(24, 30)
-    navigate_to(24, 21)
-    navigate_to(22, 21)
-    navigate_to(22, 14)
-    navigate_to(26, 14)
+    # Walk UP past the cut bush to Row 9
+    print("Walking UP Column 26 to Row 9...")
+    navigate_to(26, 9)
     
-    # We should be standing at (26, 14) facing UP. Use CUT.
+    # Walk to the Safari Gatehouse entrance at (18, 3)
+    print("Navigating to Safari Gatehouse...")
+    navigate_to(19, 9)
+    navigate_to(19, 8)
+    navigate_to(37, 8)
+    navigate_to(37, 2)
+    navigate_to(22, 2)
+    navigate_to(22, 4)
+    navigate_to(18, 4)
+    
+    print("Stepping into Safari Gatehouse...")
+    bridge.press_buttons(["Up", "sleep 1500"])
+    
     pos = get_pos()
-    if pos == (26, 14):
-        use_cut_robust()
-        
-    # Walk through the cut path to (26, 9)
-    pos = get_pos()
-    if pos == (26, 14):
-        print("Walking UP past the cut bush...")
-        navigate_to(26, 9)
-        
-    pos = get_pos()
-    print(f"Phase 1 complete! Final position: {pos}")
+    print(f"Phase 2 complete! Final position: {pos}")
 
 if __name__ == "__main__":
     main()
