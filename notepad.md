@@ -197,7 +197,7 @@
 - Youngster #1: Located at (10, 6) facing East [Observed Turn 327]
 - Bug Catcher #1: Located at (14, 4) facing South [Defeated Turn 334-335]. Team: Caterpie Lv 10, Weedle Lv 10, Caterpie Lv 10. Reward: ¥100.
 - Youngster #2 (Shorts Guy): Located at (14, 5) facing South, triggered at (14, 6) [Defeated Turn 341]. Team: Rattata Lv 11, Ekans Lv 11. Reward: ¥165.
-- Bug Catcher #2: Located at (19, 5) facing South [Engaged Turn 348]. Team: 4 Pokémon (Weedle Lv 9, ...).
+- Bug Catcher #2: Located at (19, 5) facing South [Engaged Turn 348]. Team: 4 Pokémon (Weedle Lv 9, Kakuna Lv 9, ...).
 - Trainer (East): Located at (16, 8..9) facing West [Observed Turn 329]
 
 ## Empirical Wild Encounters
