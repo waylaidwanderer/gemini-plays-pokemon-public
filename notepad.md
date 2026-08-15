@@ -639,7 +639,7 @@
 # Verified Celadon City Topography & Points of Interest
 
 ## Key Buildings & Warps (Verified)
-- Celadon Dept Store (Mart): Door at (23, 13) [sign "MART" at (24, 13)].
+- Celadon Dept Store (Mart): Door at (10, 13) [sign "MART" at (12, 13)].
 - Celadon Mansion 1F: Door at (9, 13).
 - Celadon Pokémon Center: Door at (41, 9).
 - Celadon Diner: Door at (35, 27).
