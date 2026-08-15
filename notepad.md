@@ -129,5 +129,6 @@
 - Bug Catcher #1 located at (30, 33) facing west (challenges at x=26, y=33)
 - Signpost at (24, 40)
 - Main eastern highway runs north along columns 26-27
+- Item ball at (25, 11): Collected [Turn 239]
 
 <hr>
