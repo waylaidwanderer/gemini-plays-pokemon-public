@@ -88,21 +88,14 @@ def navigate_to(tx, ty):
 
 def main():
     pos = get_pos()
-    print(f"Starting Phase 3 at: {pos}")
+    print(f"Starting Phase 3 Finish at: {pos}")
     
-    # We are currently at (39, 31)
+    # We are currently at (8, 32)
     waypoints = [
-        (22, 31),  # Walk Left 17 steps along Row 31
-        (22, 22),  # Walk Up 9 steps (climbing Western Southern Plateau stairs)
-        (16, 22),  # Walk Left 6 steps on the plateau
-        (16, 28),  # Walk Down 6 steps (descending stairs)
-        (12, 28),  # Walk Left 4 steps
-        (12, 30),  # Walk Down 2 steps (bypass pond)
-        (8, 30),   # Walk Left 4 steps
-        (8, 36)    # Transition Down to Area 3 (West) at (26, 0)
+        (8, 36)   # Transition Down to Area 3 (West) at (26, 0)
     ]
     
-    print("Executing Safari Phase 3: Area 2 (North) to Area 3 (West)...")
+    print("Executing Safari Phase 3 Finish: Area 2 to Area 3 (West)...")
     for i, wp in enumerate(waypoints, 1):
         pos = get_pos()
         if pos is None:
@@ -111,9 +104,8 @@ def main():
                 print("Map changed or battle occurred, stopping script.")
                 break
         
-        # If we successfully transitioned to Area 3 (West), the position will warp to around (26, 0)
-        # We can check if pos[1] <= 2 (since the transition is on row 0 of Area 3)
-        if pos[1] <= 2 and pos[0] == 26:
+        # If we successfully transitioned to Area 3 (West), coordinates will warp to (26, 0)
+        if pos[0] == 26 and pos[1] <= 2:
             print("Transition to Area 3 (West) detected! Stopping script.")
             break
             
@@ -122,7 +114,7 @@ def main():
         
     time.sleep(2.0)
     pos = get_pos()
-    print(f"Final position at end of Phase 3: {pos}")
+    print(f"Final position at end of Phase 3 Finish: {pos}")
 
 if __name__ == "__main__":
     main()
