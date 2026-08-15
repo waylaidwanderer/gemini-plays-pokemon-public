@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 0/8
-- Location: Pallet Town
+- Location: Route 1
 - Current Objective: Travel north along Route 1 to Viridian City Pokémart for Oak's Parcel
 
 ## Notepads Index
@@ -28,7 +28,7 @@
    - Role: Starter & primary Water/Ice special attacker
 
 ## Battle Strategy Notes
-- Rival Battle 1: RED has Bulbasaur Lv 5 (Tackle, Growl). Use Tail Whip on turn 1 to drop Bulbasaur's defense, then spam Tackle. Potion available if HP drops low.
+- (Rival Battle 1 completed: Victory against RED's Bulbasaur Lv 5)
 
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname.
@@ -76,9 +76,11 @@
 - South: Pallet Town (y=35)
 - North: Viridian City (y=0)
 
-## Points of Interest
-- Ledge boy NPC at (17, 13): Explains jumping down ledges.
-- Mart Clerk NPC: Wandering clerk offering free sample Potion (located on northern half of Route 1).
-- Wild Pokémon: Pidgey (Lv 2-5), Rattata (Lv 2-4).
+## Verified NPCs & Points of Interest
+- Ledge boy NPC: Located at (17, 13) [Observed Turn 57]. Explains jumping down ledges to return south quickly.
+
+## Empirical Wild Encounters
+- Rattata: Lv 2 [Turn 50]
+- Pidgey: Lv 2 [Turn 59]
 
 <hr>

@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 0/8
-- Location: Pallet Town
+- Location: Route 1
 - Current Objective: Travel north along Route 1 to Viridian City Pokémart for Oak's Parcel
 
 ## Notepads Index
