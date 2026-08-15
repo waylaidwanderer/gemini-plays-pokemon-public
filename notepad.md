@@ -110,6 +110,7 @@
 
 ## Items & Layout
 - Entrance at south-east (17, 47)
-- Western path runs north along columns 6-7
+- South-west area (x=1..8, y=30..43) is an enclosed pocket/dead end with tall grass
+- Main path leads north through the central/eastern section from the entrance
 
 <hr>
