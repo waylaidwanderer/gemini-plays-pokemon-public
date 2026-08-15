@@ -1549,3 +1549,23 @@ Conclusion: Building at (10, 21) on Route 5 is 100% the Daycare House (no stairs
 - From (11, 9) Purified Zone: Walk Left to (9, 9) -> Down to (9, 12) -> Right to (12, 12) -> Up to (12, 11) -> East along Row 11 to (17, 11) -> North to (17, 9) -> Step Right onto (18, 9) staircase to 6F.
 
 <hr>
+
+<h1><code>Locations/Pokemon_Tower_6F.md</code></h1>
+
+# Pokémon Tower 6F Verified Topography & Probing Log
+
+## Key Warps & Stairs
+- Staircase (Down to 5F): Located at (18, 9).
+- Staircase (Up to 7F): Located in the west/southwest wing (guarded by Ghost Marowak).
+
+## Floor Layout & NPCs
+- East Landing: Spans Columns 14..18, Rows 7..10.
+- Channeler: Located at (16, 5).
+
+## Objectives
+1. Navigate west through 6F corridors towards the 7F stairs.
+2. Defeat any Channelers in the way.
+3. Unmask and pacify the Ghost of Marowak with the Silph Scope at the 7F staircase approach.
+4. Ascend to 7F to rescue Mr. Fuji.
+
+<hr>
