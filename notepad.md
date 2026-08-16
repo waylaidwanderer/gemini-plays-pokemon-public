@@ -357,5 +357,6 @@
 - Main B2F Cavern: Open cavern accessed from (15, 27), cols 11-20+ (rows 23-28+).
 - Rocket Grunt #2: Located at (15, 22) facing South [Defeated Turn 858]. Dialogue: "We, TEAM ROCKET, are POKéMON gangsters!" Team: Sandshrew Lv 11, Rattata Lv 11, Zubat Lv 11 (3 Pokémon).
 - Rock divider at rows 20-21 (cols 14-19) separates southern entrance room from northern cavern. Bypass passage is at cols 10-13 (rows 18-22).
+- Item Ball: Located at (25, 21) on ledge platform above south room.
 
 <hr>
