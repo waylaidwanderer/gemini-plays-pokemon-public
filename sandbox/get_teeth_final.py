@@ -1,120 +1,92 @@
+import mgba
 import time
-import sys
-import bridge
 
-# Set stdout to use utf-8
-sys.stdout.reconfigure(encoding='utf-8')
+def escape_battle():
+    print("Encountered a battle! Attempting to escape...")
+    for _ in range(6):
+        mgba.press_buttons(["B"])
+        time.sleep(0.1)
+    # Highlight RUN (Down, Right) and select
+    mgba.press_buttons(["Down", "Right", "A"])
+    time.sleep(1.0)
+    for _ in range(6):
+        mgba.press_buttons(["B"])
+        time.sleep(0.1)
+    print("Escape sequence complete.")
 
-def get_pos():
-    pos = bridge.get_coordinates()
-    if pos is None:
-        return None
-    return pos[0], pos[1]
-
-def run_away():
-    print("Wild battle/interaction detected! Executing RUN sequence...")
-    bridge.press_buttons(["B", "sleep 300", "B", "sleep 300", "B", "sleep 300"])
-    bridge.press_buttons(["Right", "sleep 200", "Down", "sleep 200", "A", "sleep 1200"])
-    bridge.press_buttons(["B", "sleep 300"])
-
-def walk_step(direction):
-    bridge.press_buttons([direction])
-    time.sleep(0.4)
-
-def walk_to(target_x, target_y):
-    consecutive_bumps = 0
+def walk_to_waypoint(target_x, target_y):
+    print(f"Navigating to waypoint ({target_x}, {target_y})...")
+    stuck_count = 0
+    last_coords = None
+    
     while True:
-        pos = get_pos()
-        if pos is None:
-            run_away()
+        curr = mgba.get_coordinates()
+        if curr is None:
+            print("Coordinates are None. Waiting...")
+            time.sleep(0.5)
             continue
             
-        cx, cy = pos
-        if cx == target_x and cy == target_y:
-            print(f"Arrived at target: ({cx}, {cy})")
+        x, y = curr['x'], curr['y']
+        if x == target_x and y == target_y:
+            print(f"Reached waypoint ({target_x}, {target_y})")
             return True
             
-        dx = target_x - cx
-        dy = target_y - cy
-        
-        direction = None
-        if dx > 0:
-            direction = "Right"
-        elif dx < 0:
-            direction = "Left"
-        elif dy > 0:
-            direction = "Down"
-        elif dy < 0:
-            direction = "Up"
-            
-        if direction is None:
-            return True
-            
-        print(f"Currently at ({cx}, {cy}). Walking {direction} towards ({target_x}, {target_y})...")
-        walk_step(direction)
-        
-        new_pos = get_pos()
-        if new_pos is None:
-            run_away()
-            continue
-            
-        if new_pos == pos:
-            consecutive_bumps += 1
-            print(f"Bumped! (Count: {consecutive_bumps})")
-            if consecutive_bumps >= 5:
-                print("Stuck! Attempting RUN away to clear...")
-                run_away()
-                consecutive_bumps = 0
+        if (x, y) == last_coords:
+            stuck_count += 1
+            if stuck_count > 4:
+                print(f"Stuck at ({x}, {y}) trying to reach ({target_x}, {target_y})")
+                escape_battle()
+                stuck_count = 0
+                time.sleep(0.5)
+                after_coords = mgba.get_coordinates()
+                if after_coords['x'] == x and after_coords['y'] == y:
+                    print("Coordinates still unchanged. Clearing text boxes...")
+                    mgba.press_buttons(["A", "B", "A", "B"])
+                    time.sleep(0.5)
         else:
-            consecutive_bumps = 0
-
-def main():
-    print("Starting Gold Teeth retrieval from Center entrance (15, 25)...")
-    
-    # 1. Walk UP Column 15 to Row 22
-    if not walk_to(15, 22):
-        print("Failed to reach Row 22")
-        return
-        
-    # 2. Walk RIGHT along Row 22 to Column 28
-    if not walk_to(28, 22):
-        print("Failed to reach Column 28")
-        return
-        
-    # 3. Walk DOWN Column 28 to Row 26
-    if not walk_to(28, 26):
-        print("Failed to reach Row 26")
-        return
-        
-    # 4. Walk LEFT along Row 26 to Column 19
-    if not walk_to(19, 26):
-        print("Failed to reach (19, 26)")
-        return
-        
-    print("Arrived below the Gold Teeth. Picking them up...")
-    bridge.press_buttons(["A", "sleep 1000", "A", "sleep 1000", "B", "sleep 500"])
-    
-    # 5. Walk to Transition to Area 1 (East) at (30, 11)
-    path_part2 = [
-        # Walk Right to Column 28
-        (28, 26),
-        # Walk Up to Row 22
-        (28, 22),
-        # Walk Up Column 28 to Row 11
-        (28, 11),
-        # Walk Right along Row 11 to Column 30
-        (30, 11)
-    ]
-    for target in path_part2:
-        if not walk_to(target[0], target[1]):
-            print("Failed in Part 2")
-            return
+            stuck_count = 0
+            last_coords = (x, y)
             
-    print("Transitioning into Area 1 (East)...")
-    walk_step("Right")
-    time.sleep(1.5)
-    
-    print(f"Teeth Segment complete! Current position: {get_pos()}")
+        # Choose direction to move
+        if x < target_x:
+            btn = "Right"
+        elif x > target_x:
+            btn = "Left"
+        elif y < target_y:
+            btn = "Down"
+        elif y > target_y:
+            btn = "Up"
+            
+        mgba.press_buttons([btn])
+        time.sleep(0.42)
 
-if __name__ == "__main__":
-    main()
+# ==========================================================
+# PHASE 4 (FINAL RETRIEVAL): (25, 23) -> Gold Teeth!
+# ==========================================================
+print("--- PHASE 4: FINAL RETRIEVAL ---")
+waypoints = [
+    (25, 26), # Walk DOWN to Row 26 (Highway)
+    (19, 26)  # Stand at (19, 26) directly below the teeth!
+]
+
+for wp in waypoints:
+    walk_to_waypoint(wp[0], wp[1])
+
+# Stand at (19, 26) facing UP (North)
+print("Facing UP...")
+mgba.press_buttons(["Up"])
+time.sleep(0.5)
+
+# Press A to pick up the Gold Teeth
+print("Pressing A to pick up the Gold Teeth!")
+mgba.press_buttons(["A"])
+time.sleep(1.5)
+
+# Clear dialogue "ACE picked up the GOLD TEETH!"
+print("Clearing dialogue...")
+mgba.press_buttons(["A"])
+time.sleep(1.0)
+mgba.press_buttons(["A"])
+time.sleep(1.0)
+
+print("Retrieval process fully complete! Current position:", mgba.get_coordinates())
