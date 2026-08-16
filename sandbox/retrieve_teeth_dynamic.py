@@ -6,9 +6,15 @@ def escape_battle():
     for _ in range(8):
         mgba.press_buttons(["B"])
         time.sleep(0.1)
-    # Highlight RUN (Down, Right) and select
-    mgba.press_buttons(["Down", "Right", "A"])
+    
+    # Highlight RUN slowly
+    mgba.press_buttons(["Down"])
+    time.sleep(0.3)
+    mgba.press_buttons(["Right"])
+    time.sleep(0.3)
+    mgba.press_buttons(["A"])
     time.sleep(1.5)
+    
     for _ in range(8):
         mgba.press_buttons(["B"])
         time.sleep(0.1)
@@ -42,12 +48,10 @@ def navigate_to_waypoint(target_x, target_y, blocked_edges):
     while True:
         curr = mgba.get_coordinates()
         if curr is None:
-            print("Coordinates are None. Escape battle or wait...")
+            print("Coordinates are None on loop start. Escaping...")
             escape_battle()
             time.sleep(0.5)
-            curr = mgba.get_coordinates()
-            if curr is None:
-                continue
+            continue
                 
         cx, cy = curr['x'], curr['y']
         if cx == target_x and cy == target_y:
@@ -76,15 +80,15 @@ def navigate_to_waypoint(target_x, target_y, blocked_edges):
         # Verify movement
         post = mgba.get_coordinates()
         if post is None:
+            # We hit a wild battle! Escape and try again without marking as blocked.
+            print("Battle encountered mid-step. Escaping...")
             escape_battle()
             time.sleep(0.5)
-            post = mgba.get_coordinates()
-            if post is None:
-                continue
+            continue
                 
         px, py = post['x'], post['y']
         if (px, py) == (cx, cy):
-            # Bumped! Add to blocked edges
+            # Bumped! This is a real wall. Add to blocked edges
             print(f"BUMPED! Edge {((cx, cy), next_step)} is blocked.")
             blocked_edges.add(((cx, cy), next_step))
             blocked_edges.add((next_step, (cx, cy)))
