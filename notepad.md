@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 2/8 (Boulder Badge, Cascade Badge)
-- Location: S.S. Anne Kitchen (x=6, y=1)
+- Location: S.S. Anne 2F (x=3, y=6)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -666,6 +666,24 @@
 - Trash cans at (2, 5), (6, 5), (10, 5), (13, 5), (13, 7), (13, 9).
 - Item: Great Ball found in bottom-right trash can at (13, 9) [Found Turn 1953].
 - Chefs preparing gourmet meals for passengers.
+
+
+<hr>
+
+<h1><code>Locations/SSAnne2F</code></h1>
+
+# S.S. Anne 2F - Points of Interest & Notes
+
+## Connections
+- West: Stairs down to 1F at (2, 6)
+- East: Upper deck corridor leading to Captain's Quarters
+
+## Layout & Landmarks
+- Main horizontal corridor across rows 6-7 (cols 2-36).
+- Cabins line the south (row 8) and north (row 5) walls.
+
+## Verified Rooms & Cabins
+- Stairs to 1F: Located at (2, 6).
 
 
 <hr>
