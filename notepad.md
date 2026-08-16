@@ -1002,6 +1002,7 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 
 ### Major Boundaries & Blockages
 - **Row 10 Tree Line:** A solid barrier of pine trees across columns 27-31, blocking direct southern traversal on columns 28-29.
+- **Row 23 Ground-Level Barrier:** Completely blocks vertical ground-level traversal between Column 6 and Column 15, separating the north/west ground section (which is a physical dead end) from the south/east ground corridor. Horizontal crossing is only possible via the Plateau Land Bridge.
 - **Row 15-19 Isolation Barrier:**
   - Columns 2-11 on Row 15 have a solid tree wall.
   - Columns 12-18 on Row 15 are open grass, but they lead to the middle pond on rows 17-18 (columns 9-11) and a fenced animal pen bordered by grey Rhydon statues on row 19 (columns 10-17).
