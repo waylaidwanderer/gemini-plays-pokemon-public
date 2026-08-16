@@ -6,6 +6,7 @@ def escape_battle():
     for _ in range(6):
         mgba.press_buttons(["B"])
         time.sleep(0.1)
+    # Highlight RUN (Down, Right) and select
     mgba.press_buttons(["Down", "Right", "A"])
     time.sleep(1.5)
     for _ in range(6):
@@ -32,14 +33,14 @@ def walk_to_waypoint(target_x, target_y):
             
         if (x, y) == last_coords:
             stuck_count += 1
-            if stuck_count > 3:
+            if stuck_count > 4:
                 print(f"Stuck at ({x}, {y}) trying to reach ({target_x}, {target_y})")
                 escape_battle()
-                time.sleep(0.5)
                 stuck_count = 0
-                after = mgba.get_coordinates()
-                if after['x'] == x and after['y'] == y:
-                    print("Coordinates unchanged. Pressing A/B...")
+                time.sleep(0.5)
+                after_coords = mgba.get_coordinates()
+                if after_coords['x'] == x and after_coords['y'] == y:
+                    print("Coordinates still unchanged. Clearing text boxes...")
                     mgba.press_buttons(["A", "B", "A", "B"])
                     time.sleep(0.5)
         else:
@@ -59,31 +60,122 @@ def walk_to_waypoint(target_x, target_y):
         mgba.press_buttons([btn])
         time.sleep(0.42)
 
-# Currently at (19, 24)
-print("--- NAVIGATING TO GOLD TEETH ---")
+# ==========================================================
+# 1. Enters Safari Zone from (18, 6) in Fuchsia City
+# ==========================================================
+print("--- STARTING JOURNEY TO GOLD TEETH ---")
 
-# 1. Walk UP to Row 18
-walk_to_waypoint(19, 18)
-
-# 2. Walk Right to Column 21
-walk_to_waypoint(21, 18)
-
-# 3. Walk DOWN Column 21 to Row 26
-walk_to_waypoint(21, 26)
-
-# 4. Walk Left to Column 19 on Row 26
-walk_to_waypoint(19, 26)
-
-# 5. Face UP (North)
-print("Facing UP...")
+# Walk UP to Gatehouse door at (18, 3)
+walk_to_waypoint(18, 3)
 mgba.press_buttons(["Up"])
+time.sleep(1.0)
+
+# Stand in front of clerk at (3, 4) in the Gatehouse
+walk_to_waypoint(3, 4)
+
+# Talk to clerk to pay 500 and enter
+print("Talking to clerk...")
+mgba.press_buttons(["A"])
+time.sleep(1.0)
+mgba.press_buttons(["A"])
+time.sleep(1.0)
+mgba.press_buttons(["A"])
+time.sleep(1.5)
+
+# Wait for transition into Safari Zone Center at (15, 25)
+print("Entering Safari Zone Center...")
+time.sleep(1.0)
+print("Position after entry:", mgba.get_coordinates())
+
+# ==========================================================
+# PHASE 1: Safari Zone Center -> Area 1 (East)
+# ==========================================================
+print("--- PHASE 1: Center to Area 1 (East) ---")
+center_waypoints = [
+    (15, 22),
+    (28, 22),
+    (28, 10),
+    (30, 10) # Walk RIGHT to transition to Area 1 (East)
+]
+for wp in center_waypoints:
+    walk_to_waypoint(wp[0], wp[1])
+time.sleep(1.0)
+
+# ==========================================================
+# PHASE 2: Area 1 (East) -> Area 2 (North)
+# ==========================================================
+print("--- PHASE 2: Area 1 to Area 2 (North) ---")
+area1_waypoints = [
+    (0, 24),
+    (20, 24),
+    (20, 22),
+    (20, 20), # Climb plateau stairs
+    (12, 20), # Walk LEFT on plateau
+    (12, 22), # Descend stairs
+    (8, 22),
+    (8, 8),
+    (12, 8),
+    (12, 6),  # Climb northern plateau stairs
+    (17, 6),  # Walk RIGHT on plateau
+    (17, 8),  # Descend plateau stairs
+    (20, 8),
+    (20, 3),
+    (7, 3),
+    (7, 5),
+    (0, 5)    # Walk LEFT to transition to Area 2 (North)
+]
+for wp in area1_waypoints:
+    walk_to_waypoint(wp[0], wp[1])
+time.sleep(1.0)
+
+# ==========================================================
+# PHASE 3: Area 2 (North) -> Area 3 (West)
+# ==========================================================
+print("--- PHASE 3: Area 2 to Area 3 (West) ---")
+area2_waypoints = [
+    (22, 31),
+    (22, 22), # Climb plateau stairs
+    (16, 22), # Walk LEFT on plateau
+    (16, 28), # Descend stairs
+    (12, 28),
+    (12, 30), # Bypass pond
+    (8, 30),
+    (8, 35)   # Adjacent to warp
+]
+for wp in area2_waypoints:
+    walk_to_waypoint(wp[0], wp[1])
+
+print("Walking DOWN to transition to Area 3 (West)...")
+mgba.press_buttons(["Down"])
+time.sleep(0.5)
+mgba.press_buttons(["Down"])
+time.sleep(1.0)
+
+# ==========================================================
+# PHASE 4: Area 3 (West) -> Retrieve Gold Teeth
+# ==========================================================
+print("--- PHASE 4: Area 3 to Gold Teeth ---")
+area3_waypoints = [
+    (26, 2),
+    (25, 2),
+    (25, 18),
+    (21, 18),
+    (19, 18),
+    (19, 24) # Stand directly above Gold Teeth
+]
+for wp in area3_waypoints:
+    walk_to_waypoint(wp[0], wp[1])
+
+# Stand at (19, 24) facing DOWN
+print("Facing DOWN...")
+mgba.press_buttons(["Down"])
 time.sleep(0.5)
 
-# Take screenshot to verify if we see the item ball at (19, 25)
+# Take screenshot to verify item ball is present
 screenshot_path = mgba.take_screenshot()
-print(f"Standing below teeth screenshot: {screenshot_path}")
+print(f"Standing above teeth screenshot: {screenshot_path}")
 
-# 6. Press A to pick up the Gold Teeth
+# Press A to pick up the Gold Teeth
 print("Pressing A to pick up the Gold Teeth...")
 mgba.press_buttons(["A"])
 time.sleep(1.5)
@@ -95,8 +187,7 @@ time.sleep(1.0)
 mgba.press_buttons(["A"])
 time.sleep(1.0)
 
-# Check coordinates
-curr = mgba.get_coordinates()
-print("Position after retrieval:", curr)
+final_pos = mgba.get_coordinates()
+print("Position after retrieval attempt:", final_pos)
 screenshot_path2 = mgba.take_screenshot()
 print(f"Final screenshot: {screenshot_path2}")
