@@ -17,3 +17,4 @@
 - Battle Log: Defeated RED's Abra Lv 15 with Bite (Turn 1514). Defeated RED's Rattata Lv 15 with Terra's Tackle (Turn 1520).
 - Rival RED Battle Complete: Defeated Pidgeotto Lv 18, Abra Lv 15, Rattata Lv 15, Bulbasaur Lv 17. Claimed prize money.
 - Rival RED Battle Result: Victory! Reward: ¥595. Team defeated: Pidgeotto Lv 18, Abra Lv 15, Rattata Lv 15, Bulbasaur Lv 17. Post-battle dialogue: RED informs player about Bill the Pokémaniac who invented the PC Storage System.
+- Nugget Bridge Trainer #1 (Bug Catcher Cale): Located at (11, 31) facing West [Defeated Turn 1548]. Team: Caterpie Lv 14, Weedle Lv 14. Reward: ¥140. Dialogue: "This is NUGGET BRIDGE! Beat us 5 trainers and win a fabulous prize! Think you got what it takes?" Defeat quote: "I did my best! I have no regrets!"
