@@ -1,59 +1,33 @@
-import time
-import sys
-import bridge
 import mgba
+import time
 
-sys.stdout.reconfigure(encoding='utf-8')
+def press_and_screenshot(btn, label, delay=1.0):
+    print(f"Pressing {btn} for {label}...")
+    mgba.press_buttons([btn])
+    time.sleep(delay)
+    path = mgba.take_screenshot()
+    print(f"Screenshot [{label}]: {path}")
 
-def main():
-    # Make sure we are in the overworld and menus are closed
-    for _ in range(4):
-        bridge.press_buttons(["B", "sleep 200"])
-        
-    # Open Start menu
-    bridge.press_buttons(["Start", "sleep 400"])
-    
-    # Align cursor to POKÉDEX
-    for _ in range(6):
-        bridge.press_buttons(["Up", "sleep 150"])
-        
-    # Select POKÉMON
-    bridge.press_buttons(["Down", "sleep 200", "A", "sleep 800"])
-    
-    # Align party cursor to SHELLBY (slot 1)
-    for _ in range(5):
-        bridge.press_buttons(["Up", "sleep 150"])
-        
-    # Move to TRUFFLE (slot 2)
-    bridge.press_buttons(["Down", "sleep 200", "A", "sleep 500"])
-    
-    # Let's test if STATS is the 1st, 2nd, or 3rd option in the pop-up menu.
-    # To do this, let's select Option 1 (Down once, A) first.
-    print("Opening Option 1...")
-    bridge.press_buttons(["Down", "sleep 200", "A", "sleep 1500"])
-    
-    # Take screenshot of Option 1 result
-    img1 = mgba.take_screenshot()
-    print(f"Option 1 screenshot: {img1}")
-    
-    # Press B to close whatever Option 1 opened (either Stats screen or overworld dialog)
-    bridge.press_buttons(["B", "sleep 400"])
-    
-    # Re-open TRUFFLE menu to test Option 2
-    bridge.press_buttons(["A", "sleep 500"])
-    
-    # Select Option 2 (Down twice, A)
-    print("Opening Option 2...")
-    bridge.press_buttons(["Down", "sleep 200", "Down", "sleep 200", "A", "sleep 1500"])
-    
-    # Take screenshot of Option 2 result
-    img2 = mgba.take_screenshot()
-    print(f"Option 2 screenshot: {img2}")
-    
-    # Press A to transition to moves screen if we are in Stats
-    bridge.press_buttons(["A", "sleep 1500"])
-    img_moves = mgba.take_screenshot()
-    print(f"Moves page screenshot: {img_moves}")
+print("--- CHECKING TRUFFLE'S MOVES ---")
+# Currently at (26, 14) facing UP.
+press_and_screenshot("Start", "start_menu")
+press_and_screenshot("Down", "highlight_pokemon")
+press_and_screenshot("A", "pokemon_menu")
+press_and_screenshot("Down", "highlight_truffle")
+press_and_screenshot("A", "truffle_submenu")
 
-if __name__ == "__main__":
-    main()
+# Press Down twice to highlight STATS (Option 3)
+press_and_screenshot("Down", "stats_down_1")
+press_and_screenshot("Down", "stats_down_2")
+press_and_screenshot("A", "stats_screen_1", delay=2.0)
+
+# Press A or B to go to page 2 of stats (moveset page)
+press_and_screenshot("A", "stats_screen_2", delay=2.0)
+
+# Press B to exit back to overworld
+press_and_screenshot("B", "exit_1")
+press_and_screenshot("B", "exit_2")
+press_and_screenshot("B", "exit_3")
+press_and_screenshot("B", "exit_4")
+
+print("Done!")
