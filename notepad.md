@@ -435,6 +435,7 @@
 - Trainer #2 (Jr. Trainer Female): Located at (2, 3) / (4, 3) [Defeated Turn 1263]. Dialogue: "I'm more than good enough for you! MISTY can wait!" Defeat quote: "You overwhelmed me!" Team: Goldeen Lv 19. Reward: ¥380.
 - Gym Leader Misty: Located at (4, 2) [Defeated Turn 1348]. Cascade Badge and TM11 (Bubblebeam) obtained.
 - Blue-Haired Boy (SPRITE_e4ed): Located at (24, 27) in southern avenue. Dialogue: "I want a bright red BICYCLE! I'll keep it at home, so it won't get dirty!"
+- Western Plaza Bearded NPC: Located at (15, 21). Dialogue: "That bush in front of the shop is in the way. There might be a way around."
 
 <hr>
 
