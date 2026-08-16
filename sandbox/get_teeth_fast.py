@@ -58,29 +58,21 @@ def walk_to_waypoint(target_x, target_y):
         time.sleep(0.44)
 
 # We are currently at (3, 4) in the Gatehouse, with "Hi! Is it your first time here?" (YES/NO) open
-print("Handling Safari Zone Clerk Dialogue from Turn 41056...")
+print("Handling Clerk Dialogue from Turn 41059...")
 
-# 1. "Is it your first time here?" (YES/NO, default YES) -> press A
+# Press A to select YES to "first time here?"
 bridge.press_buttons(["A"])
 time.sleep(1.0)
 
-# Mash A to clear rule explanations
-for _ in range(8):
+# Press A 8 times to clear descriptions, YES/NO to join, payment, and balls receipts
+print("Mashing A to clear descriptions, payment, and ball receipts...")
+for i in range(8):
     bridge.press_buttons(["A"])
     time.sleep(0.8)
-    
-# "Would you like to join?" (YES/NO, default YES) -> press A
-bridge.press_buttons(["A"])
-time.sleep(1.0)
 
-# Mash A to clear payment and ball receipts
-for _ in range(6):
-    bridge.press_buttons(["A"])
-    time.sleep(0.8)
-    
-# Walk UP to row 0 to transition to Safari Center (15, 25)
+# Dialogue should be completely closed. Let's walk UP to (3, 0) to warp
 print("Walking UP to warp...")
-for _ in range(5):
+for _ in range(4):
     bridge.press_buttons(["Up"])
     time.sleep(0.4)
     
