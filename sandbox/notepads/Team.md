@@ -11,10 +11,10 @@
    - Type: Poison / Flying
    - Moves: Leech Life (15/15)
    - Role: Fast Flying/Poison utility & Grass counter
-3. TERRA (Geodude) - Lv 14
-   - Stats (Verified at Lv 14): Max HP 38 (HP: 38/38, Healthy), Attack 31, Defense 34, Speed 15, Special 14
+3. TERRA (Geodude) - Lv 15
+   - Stats (Verified at Lv 15): Max HP 41 (HP: 31/41, Healthy), Attack 33, Defense 37, Speed 15, Special 15
    - Type: Rock / Ground
-   - Moves: Tackle (35/35), Defense Curl (40/40)
+   - Moves: Tackle (23/35), Defense Curl (40/40)
    - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist
 
 ## Planned Nicknaming Strategy
