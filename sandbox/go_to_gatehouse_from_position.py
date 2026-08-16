@@ -1,15 +1,55 @@
 import mgba
 import time
 
-print("--- DIRECT ATTEMPT TO ENTER GATEHOUSE VIA COLUMN 18 ---")
+print("--- NAVIGATING TO GATEHOUSE FROM (20, 16) ---")
 
 def get_pos():
     return mgba.get_coordinates()
 
 # Current position is (20, 16).
-# 1. Walk Left to Column 18.
-print("Step 1: Walking Left to Column 18")
+# 1. Walk Right to (22, 16).
+print("Step 1: Walking to (22, 16)")
 for _ in range(2):
+    pos = get_pos()
+    mgba.press_buttons(["Right"])
+    time.sleep(0.4)
+    if get_pos() == pos:
+        mgba.press_buttons(["Right"])
+        time.sleep(0.4)
+
+# 2. Walk UP to (22, 14).
+print("Step 2: Walking UP to (22, 14)")
+for _ in range(2):
+    pos = get_pos()
+    mgba.press_buttons(["Up"])
+    time.sleep(0.4)
+    if get_pos() == pos:
+        mgba.press_buttons(["Up"])
+        time.sleep(0.4)
+
+# 3. Walk Right along Row 14 to Column 37.
+print("Step 3: Walking Right along Row 14 to Column 37")
+for _ in range(15):
+    pos = get_pos()
+    mgba.press_buttons(["Right"])
+    time.sleep(0.4)
+    if get_pos() == pos:
+        mgba.press_buttons(["Right"])
+        time.sleep(0.4)
+
+# 4. Walk UP Column 37 to Row 2.
+print("Step 4: Walking UP Column 37 to Row 2")
+for _ in range(12):
+    pos = get_pos()
+    mgba.press_buttons(["Up"])
+    time.sleep(0.4)
+    if get_pos() == pos:
+        mgba.press_buttons(["Up"])
+        time.sleep(0.4)
+
+# 5. Walk Left along Row 2 to Column 22.
+print("Step 5: Walking Left along Row 2 to Column 22")
+for _ in range(15):
     pos = get_pos()
     mgba.press_buttons(["Left"])
     time.sleep(0.4)
@@ -17,41 +57,40 @@ for _ in range(2):
         mgba.press_buttons(["Left"])
         time.sleep(0.4)
 
-# 2. Walk UP Column 18 until we warp or hit a wall
-print("Step 2: Walking UP Column 18")
-for step in range(15):
+# 6. Walk Down to Row 4.
+print("Step 6: Walking Down to Row 4")
+for _ in range(2):
     pos = get_pos()
-    print(f"Current Position: {pos}. Pressing Up...")
-    
-    mgba.press_buttons(["Up"])
+    mgba.press_buttons(["Down"])
     time.sleep(0.4)
-    
-    new_pos = get_pos()
-    if new_pos == pos:
-        # Turned but didn't step, or bumped. Try once more.
-        print("Position unchanged. Pressing Up again...")
-        mgba.press_buttons(["Up"])
+    if get_pos() == pos:
+        mgba.press_buttons(["Down"])
         time.sleep(0.4)
-        new_pos = get_pos()
-        
-    print(f"New Position after Up: {new_pos}")
-    
-    # If we warped into the Gatehouse, x will be small (like 3 or 4)
-    if new_pos and new_pos['x'] < 10:
-        print("Successfully warped inside the Gatehouse!")
-        break
-        
-    # If we are stuck or bumped, let's stop and print
-    if new_pos == pos:
-        print(f"Blocked at {pos} on Column 18!")
-        break
 
-pos_now = get_pos()
-# 3. If we are inside the Gatehouse, speak to the clerk!
-if pos_now and pos_now['x'] < 10:
+# 7. Walk Left to Column 18.
+print("Step 7: Walking Left to Column 18")
+for _ in range(4):
+    pos = get_pos()
+    mgba.press_buttons(["Left"])
+    time.sleep(0.4)
+    if get_pos() == pos:
+        mgba.press_buttons(["Left"])
+        time.sleep(0.4)
+
+# 8. Enter the Gatehouse at (18, 3)
+print("Step 8: Entering Gatehouse")
+mgba.press_buttons(["Up"])
+time.sleep(0.4)
+mgba.press_buttons(["Up"])
+time.sleep(1.0) # wait for map transition
+
+pos_after_gate = get_pos()
+print("Position inside Gatehouse:", pos_after_gate)
+
+# 9. Walk to the clerk inside the Gatehouse
+if pos_after_gate and pos_after_gate['x'] < 10:
     print("Inside Gatehouse. Walking to clerk...")
-    # Walk to (3, 3) facing UP
-    # We enter at (3, 5). Walk UP 2 steps to (3, 3)
+    # Walk Up 2 steps to (3, 3)
     mgba.press_buttons(["Up"])
     time.sleep(0.4)
     mgba.press_buttons(["Up"])
