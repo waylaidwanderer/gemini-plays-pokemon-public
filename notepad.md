@@ -25,10 +25,10 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. HYDROS (Wartortle) - Lv 20
-   - Stats (Verified at Lv 20): Max HP 60 (HP: 60/60, Healthy)
+1. HYDROS (Wartortle) - Lv 21
+   - Stats (Verified at Lv 21): Max HP 62 (HP: 62/62, Healthy), Attack 37, Defense 42, Speed 38, Special 40
    - Type: Water
-   - Moves: Tackle (35/35), Tail Whip (30/30), Bubble (30/30), Water Gun (22/25)
+   - Moves: Tackle (35/35), Tail Whip (30/30), Bubble (30/30), Water Gun (21/25)
    - Role: Starter & primary Water special attacker (Active Lead)
 2. ECHO (Zubat) - Lv 8
    - Stats (Verified at Lv 8): Max HP 26 (HP: 26/26, Healthy)
@@ -45,7 +45,7 @@
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
 ## Inventory & Resources (Verified Turn 594)
-- Money: ¥3824 (Updated with +¥110 from Bug Catcher #8)
+- Money: ¥4034 (Updated with +¥110 from Bug Catcher #8 and +¥210 from Lass #7)
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Pokémon Attack)
 - Key Items: Town Map, Pokédex
 - TMs / HMs: TM34 (Bide)
