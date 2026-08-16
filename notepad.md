@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 2/8 (Boulder Badge, Cascade Badge)
-- Location: Vermilion City (x=19, y=0)
+- Location: Vermilion City (x=23, y=8)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -612,11 +612,11 @@
 
 ## Buildings & Points of Interest
 - Pokémon Center: Located at cols 10-13, rows 0-3 with entrance door at (11, 3) and "POKé" sign at (12, 3).
-- Pokémart: Located at cols 23-25, rows 10-13 with entrance door at (23, 13) and "MART" sign at (24, 13).
-- Pokémon Fan Club: West district
-- Fishing Guru's House: Fisherman gives Old Rod
-- Vermilion Gym: Gym Leader Lt. Surge (Thunder Badge - requires Cut)
-- Vermilion Port / S.S. Anne: Luxury cruise ship (requires S.S. Ticket)
+- Pokémart: Located at cols 22-25, rows 10-13 with entrance door at (23, 13) and "MART" sign at (24, 13).
+- Pokémon Fan Club: West district (To Explore)
+- Fishing Guru's House: (To Explore)
+- Vermilion Gym: (To Explore)
+- Vermilion Port / S.S. Anne: (To Explore)
 
 
 <hr>
