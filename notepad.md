@@ -26,9 +26,9 @@
 
 ## Active Party
 1. TERRA (Geodude) - Lv 13
-   - Stats (Verified at Lv 13): Max HP 36 (HP: 14/36), Attack 29, Defense 32, Speed 14, Special 13
+   - Stats (Verified at Lv 13): Max HP 36 (HP: 13/36), Attack 29, Defense 32, Speed 14, Special 13
    - Type: Rock / Ground
-   - Moves: Tackle, Defense Curl
+   - Moves: Tackle (0/35), Defense Curl (40/40)
    - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist (Active Lead)
 2. ECHO (Zubat) - Lv 8
    - Stats (Verified at Lv 8): Max HP 26 (HP: 22/26)
@@ -297,7 +297,7 @@
 - Zubat Lv 6 [Encountered & Defeated Turn 760 at (24, 16)]
 - Zubat Lv 6 [Encountered & Defeated Turn 765 at (25, 33)]
 - Vertical rock wall at col 19 (rows 29-35) separates main south corridor (cols 14-15) from south-central chamber (cols 20-25). Must route north around row 17-19 to connect.
-- Zubat [Encountered Turn 770 at (25, 33)]
+- Zubat Lv 9 [Encountered Turn 770 at (25, 33)]
 
 <hr>
 
