@@ -436,6 +436,9 @@
 - Gym Leader Misty: Located at (4, 2) [Defeated Turn 1348]. Cascade Badge and TM11 (Bubblebeam) obtained.
 - Blue-Haired Boy (SPRITE_e4ed): Located at (24, 27) in southern avenue. Dialogue: "I want a bright red BICYCLE! I'll keep it at home, so it won't get dirty!"
 - Western Plaza Bearded NPC: Located at (15, 21). Dialogue: "That bush in front of the shop is in the way. There might be a way around."
+- Badge Master House: Located at cols 8-13, rows 10-11 with entrance door at (9, 11).
+- Northern Highway: Wide open road across rows 12-13 connecting west passage (col 8) to Route 24 thoroughfare (cols 20-22).
+- NPC: Located at (4, 12) facing East.
 
 <hr>
 
