@@ -8,14 +8,12 @@
 ## Layout & Landmarks
 - Northern entrance avenue at (19, 0).
 - Wide northern thoroughfare across row 4 connecting east and west districts.
+- City Signpost at (27, 3): "VERMILION CITY - The Port of Exquisite Sunsets".
 
 ## Buildings & Points of Interest (To Explore)
-- Pokémon Center: North district
-- Pokémart: North-east district
-- Pokémon Fan Club: Chairman offers Bike Voucher
+- Pokémon Center: Located at cols 10-13, rows 0-3 with entrance door at (11, 3) and "POKé" sign at (12, 3).
+- Pokémart: East district
+- Pokémon Fan Club: West district
 - Fishing Guru's House: Fisherman gives Old Rod
 - Vermilion Gym: Gym Leader Lt. Surge (Thunder Badge - requires Cut)
 - Vermilion Port / S.S. Anne: Luxury cruise ship (requires S.S. Ticket)
-
-## Verified Landmarks & Buildings
-- Pokémon Center: Located at cols 10-13, rows 0-3 with entrance door at (11, 3) and "POKé" sign at (12, 3).
