@@ -1,27 +1,30 @@
 import mgba
 import time
 
-print("--- EXTREMELY SHORT DIRECT GATEHOUSE ENTRY ---")
+print("--- DIRECT ESCAPE TO GATEHOUSE FROM (25, 8) ---")
 
 def get_pos():
     return mgba.get_coordinates()
 
-# Current position is (20, 14).
-# 1. Walk UP to (20, 13).
-print("Step 1: Walking UP to (20, 13)")
-mgba.press_buttons(["Up", "sleep 100", "Up"])
+# Current position is (25, 8) facing UP.
+# 1. Walk Down 1 step to (25, 9).
+print("Step 1: Walking Down to (25, 9)")
+mgba.press_buttons(["Down", "sleep 100", "Down"])
 time.sleep(1.0)
 print("Position after Step 1:", get_pos())
 
-# 2. Walk Left 2 steps to (18, 13).
-print("Step 2: Walking Left to (18, 13)")
-mgba.press_buttons(["Left", "sleep 100", "Left", "sleep 100", "Left"])
-time.sleep(1.0)
+# 2. Walk Left 7 steps to Column 18 on Row 9: (18, 9).
+print("Step 2: Walking Left to (18, 9)")
+mgba.press_buttons(["Left"])
+time.sleep(0.4)
+for _ in range(6):
+    mgba.press_buttons(["Left"])
+    time.sleep(0.4)
 print("Position after Step 2:", get_pos())
 
 # 3. Walk UP Column 18 until we warp or hit a wall.
-print("Step 3: Walking UP Column 18")
-for step in range(12):
+print("Step 3: Walking UP Column 18 to enter Gatehouse")
+for step in range(10):
     pos = get_pos()
     print(f"Current Position: {pos}. Pressing Up...")
     mgba.press_buttons(["Up"])
