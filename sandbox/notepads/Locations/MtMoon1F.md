@@ -19,6 +19,7 @@
 - Cross passage connecting central hall to western corridor at row 17 (cols 11-14)
 - Western corridor runs along columns 10-11 heading north to northwest sector
 - Northwest chamber: cols 2-10, rows 2-10. Item Ball at (2, 2) [Moon Stone collected Turn 592], NPC at (5, 6). North wall at row 1, East wall at col 11+, West wall at col 1.
+- Horizontal rock wall at row 18 (cols 2-9). Western passage continues south along columns 10-11 (rows 18-20+).
 - Northeast sector open chamber around (35, 7) extending eastward to col 37 (rows 2-7). East boundary rock wall at col 38, north rock wall at row 1.
 - Northern corridor runs westward along rows 2-5 across columns 35 down towards northwest sector.
 
