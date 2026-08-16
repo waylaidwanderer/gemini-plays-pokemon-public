@@ -5,8 +5,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon 1F (x=25, y=4)
-- Current Objective: Navigate east along row 4 and south through col 31 corridor to eastern chamber at (31, 10)
+- Location: Mt. Moon 1F (x=27, y=4)
+- Current Objective: Flee wild Zubat, navigate east along row 4 and south through col 31 corridor to eastern chamber at (31, 10)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
