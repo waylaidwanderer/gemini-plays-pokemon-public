@@ -302,6 +302,7 @@
 - Zubat Lv 8 [Encountered Turn 773 at (24, 20)]
 - Zubat [Encountered Turn 775 at (14, 18)]
 - Zubat [Encountered Turn 781 at (20, 24)]
+- Zubat [Encountered Turn 890 at (28, 10)]
 
 <hr>
 
