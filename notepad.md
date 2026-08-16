@@ -6,7 +6,7 @@
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
 - Location: Mt. Moon 1F (x=5, y=5)
-- Current Objective: Interact with NPC at (5, 6) and explore eastern/southern Mt. Moon 1F for ladders
+- Current Objective: Explore southwest sector and eastern ladder at (25, 15) in Mt. Moon 1F
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -261,7 +261,7 @@
 - Trainer #1: Located at (16, 23) facing West/North [Observed Turn 469]
 - Trainer #2 (Bug Catcher): Located at (30, 4) facing South [Observed Turn 506]
 - Trainer #3 (Youngster): Located at (13, 16) facing East [Defeated Turn 578]. Team: Rattata Lv 10, Rattata Lv 10, Zubat Lv 10. Dialogue: "Did you come to explore too?"
-- Trainer #4 (Hiker): Located at (5, 6) facing North [Engaged Turn 603]. Team: Geodude Lv 10, Geodude Lv 10, Onix Lv 10. Dialogue: "WHOA! You shocked me! Oh, you're just a kid!"
+- Trainer #4 (Hiker): Located at (5, 6) facing North [Defeated Turn 610]. Team: Geodude Lv 10, Geodude Lv 10, Onix Lv 10. Dialogue: "WHOA! You shocked me! Oh, you're just a kid!"
 
 ## Empirical Wild Encounters
 - Zubat Lv 6 [Encountered Turn 477 at (22, 10), Nicknamed ECHO]

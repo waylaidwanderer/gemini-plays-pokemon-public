@@ -4,7 +4,7 @@
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
 - Location: Mt. Moon 1F (x=5, y=5)
-- Current Objective: Interact with NPC at (5, 6) and explore eastern/southern Mt. Moon 1F for ladders
+- Current Objective: Explore southwest sector and eastern ladder at (25, 15) in Mt. Moon 1F
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
