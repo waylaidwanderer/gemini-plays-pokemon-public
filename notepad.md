@@ -32,9 +32,10 @@
    - Moves: Tackle (31/35), Tail Whip (30/30), Bubble (22/30), Water Gun (14/25)
    - Role: Starter & primary Water special attacker
 2. ECHO (Zubat) - Lv 6
+   - Stats: HP 21/22
    - Type: Poison / Flying
-   - Moves: Leech Life
-   - Role: Fast Flying/Poison utility & future Golbat
+   - Moves: Leech Life (14/15)
+   - Role: Fast Flying/Poison utility & Grass counter
 3. TERRA (Geodude) - Lv 9
    - Stats: HP 18/28
    - Type: Rock / Ground
