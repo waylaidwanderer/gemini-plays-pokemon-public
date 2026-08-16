@@ -19,7 +19,7 @@
 - Vertical rock wall at columns 12-13 (rows 2-15) dividing north-central corridor (cols 14-17) from western corridor (cols 10-11)
 - Cross passage connecting central hall to western corridor at row 17 (cols 11-14)
 - Western corridor runs along columns 10-11 heading north to northwest sector
-- Northwest chamber: cols 2-10, rows 2-10. Item Ball at (2, 2) [Moon Stone collected Turn 592], NPC at (5, 6) [Hiker #4 defeated Turn 610]. North wall at row 1, East wall at col 11+, West wall at col 1. (No ladder in this room).
+- Northwest chamber: cols 2-10, rows 2-10. Ladder to B1F at (5, 5). Item Ball at (2, 2) [Moon Stone collected Turn 592], Hiker #4 at (5, 6) [Defeated Turn 610]. North wall at row 1, East wall at col 11+, West wall at col 1.
 - Horizontal rock wall at row 18 (cols 2-9). Western passage continues south along columns 10-11 (rows 18-20+).
 - Rock wall spans cols 18-19 (rows 10-21). Wide open passage at rows 22-25 connects Eastern area (cols 20-25) to Central/Main corridor (cols 14-17).
 - Friendly NPC at (30, 27): "Go through this cave to get to CERULEAN CITY!"
