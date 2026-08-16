@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 2/8 (Boulder Badge, Cascade Badge)
-- Location: Route 25 (x=32, y=2)
+- Location: Bill's Sea Cottage (x=2, y=7)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -18,3 +18,4 @@
 - `Locations/Route4`: Route 4 layout, ledges, wild encounters
 - `Locations/CeruleanCity`: Cerulean City layout, Gym, Mart, Bike Shop, NPCs
 - `Locations/Route24`: Route 24 layout, Nugget Bridge, Rival battle, trainers
+- `Locations/BillsHouse`: Bill's Sea Cottage layout, Cell Separator machine, Bill interactions
