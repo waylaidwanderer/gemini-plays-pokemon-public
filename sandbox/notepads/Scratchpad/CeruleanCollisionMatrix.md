@@ -18,7 +18,8 @@
 
 ### Rows 14–19 (Central Boundary Partition)
 - (0..7, 14..17): Canal Stone Barrier [W] & Water [C]
-- (8..9, 15): One-way Ledge Hopping South [L] (Tested Turn 1389)
+- (8, 15): Open Northbound Passage [P] (Verified Turn 1492)
+- (9, 15): One-way Ledge Hopping South [L] (Tested Turn 1389)
 - (10..11, 15): Fence [W] (Tested Turn 1408)
 - (12..17, 14..15): Trade House [W], Door at (13, 15) [D] (Tested Turn 1203/1444)
 - (18..21, 14..17): Pokémon Center [W], Door at (19, 17) [D] (Tested Turn 1210/1435)
