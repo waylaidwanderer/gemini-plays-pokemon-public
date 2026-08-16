@@ -365,5 +365,6 @@
 - Zubat [Encountered Turn 1043 at (21, 7)]
 - Zubat [Encountered Turn 1044 at (24, 13)]
 - Zubat [Encountered Turn 1058 at (35, 12)]
+- Rocket Grunt #4: Located at (11, 16) facing South [Engaged Turn 1068]. Dialogue: "TEAM ROCKET will find the fossils..."
 
 <hr>
