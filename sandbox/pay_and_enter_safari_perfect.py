@@ -109,46 +109,21 @@ blocked_edges.add(((32, 28), (32, 27))) # Slowpoke Fan's House
 blocked_edges.add(((32, 27), (32, 28)))
 blocked_edges.add(((27, 28), (27, 27))) # Warden's House
 blocked_edges.add(((27, 27), (27, 28)))
-
-# Step 1: Walk to Poké Mart door at (31, 24)
-navigate_to_waypoint(26, 24, blocked_edges)
-navigate_to_waypoint(31, 24, blocked_edges)
-
-# Step 2: Step DOWN to enter Poké Mart
-print("Entering Poké Mart...")
-mgba.press_buttons(["Down"])
-time.sleep(1.5)
-
-curr = mgba.get_coordinates()
-print("Coordinates inside Poké Mart:", curr)
-
-# Step 3: Exit Poké Mart
-print("Exiting Poké Mart...")
-# Exit is at (3, 8). Inside Poké Mart we normally start at (3, 7) or (2, 7)
-blocked_edges_mart = set()
-navigate_to_waypoint(3, 7, blocked_edges_mart)
-mgba.press_buttons(["Down"])
-time.sleep(1.5)
-
-curr = mgba.get_coordinates()
-print("Coordinates outside Poké Mart:", curr)
-
-# Reset blocked edges for Fuchsia City
-blocked_edges = set()
-blocked_edges.add(((19, 28), (19, 27))) # Pokémon Center
-blocked_edges.add(((19, 27), (19, 28)))
-blocked_edges.add(((32, 28), (32, 27))) # Slowpoke Fan's House
-blocked_edges.add(((32, 27), (32, 28)))
 blocked_edges.add(((31, 27), (31, 26))) # Block entering Poké Mart again
 blocked_edges.add(((31, 26), (31, 27)))
+# Also block Poké Mart door from (31, 24) to avoid entering on Row 24
+blocked_edges.add(((31, 24), (31, 25)))
+blocked_edges.add(((31, 25), (31, 24)))
 
-# Step 4: Walk LEFT through the Column 25 fence gap at (25, 27) to Column 24
-navigate_to_waypoint(24, 27, blocked_edges)
-
-# Step 5: Walk standard waypoints to Gatehouse via Row 14 and Column 37 Eastern Bypass
 fuchsia_waypoints = [
-    (24, 14), # Up Column 24 to the Row 14 horizontal highway
-    (37, 14), # Right along Row 14 to Column 37 (passes above Zoo fence)
+    (26, 24), # Down Column 26 to Row 24
+    (31, 24), # Right to Poké Mart door column
+    (31, 25), # Enter Poké Mart (Down)
+    # Exits Poké Mart to Fuchsia City (31, 27)
+    (26, 28), # Walk DOWN to (31, 28) and LEFT to (26, 28) on the safe street (Row 28)
+    (24, 27), # Walk UP to (26, 27) and LEFT to (24, 27) through the Column 25 fence gap
+    (24, 14), # UP Column 24 to the Row 14 horizontal corridor
+    (37, 14), # RIGHT along Row 14 to Column 37 (passes above Zoo fence)
     (37, 2),  # Up Column 37 to Row 2
     (22, 2),  # Left along Row 2 to Column 22
     (22, 4),  # Down Column 22 to Row 4
