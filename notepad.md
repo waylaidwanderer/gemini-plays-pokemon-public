@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon 1F (x=6, y=5)
+- Location: Mt. Moon B2F (x=29, y=16)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -282,7 +282,6 @@
 - Geodude (Lv 8) [Common across rock corridors, captured TERRA at (35, 7)]
 - Paras (Lv 8) [Uncommon, western and eastern chambers]
 - Clefairy (Lv 8) [Rare, central corridor at (14, 16)]
-- Paras [Encountered Turn 697 at (26, 17)]
 - Zubat Lv 8 [Encountered & Defeated Turn 729 at (30, 32)]
 
 <hr>
@@ -336,6 +335,7 @@
 - Rock divider at rows 20-21 (cols 14-19) separates southern entrance room from northern cavern. Cols 12-13 are elevated ledge/platform (blocked from col 14).
 - Southern room bypass corridor to eastern corridor at cols 24-33 (rows 24-27)
 - Eastern corridor at cols 32-35 dead-ends north at row 6.
+- Lower floor at rows 16-18 (cols 26-32) connects to NW corridor via wooden ledge at (26..27, 15) and connects to eastern corridor via stairs at (32, 15).
 - NW ladder at (21, 17) connects to open corridor (cols 20-22, rows 7-18) that dead-ends north at row 7; cross-passage at rows 12-14 connects east across cols 21-26+.
 - One-way ledge at row 11 (cols 24-28) allows jumping south into row 12, blocking northward return to ladder (25, 9).
 
@@ -344,6 +344,7 @@
 - Item Ball: Located at (25, 21) on ledge platform above south room [Discovered Turn 862]
 
 ## Verified Trainers
+- Rocket Grunt #3: Located at (29, 17) facing North [Engaged Turn 1049]. Dialogue: "Little kids should leave grown-ups alone!" Team: Raticate Lv 16.
 - Rocket Grunt #1: Located at (29, 10) facing North [Defeated Turn 541]. Team: Zubat Lv 12, Ekans Lv 12. Reward: ¥360.
 - Rocket Grunt #2: Located at (15, 22) facing South [Defeated Turn 858]. Dialogue: "We, TEAM ROCKET, are POKéMON gangsters!" Team: Sandshrew Lv 11, Rattata Lv 11, Zubat Lv 11 (3 Pokémon).
 
@@ -360,6 +361,8 @@
 - Clefairy [Encountered Turn 995 at (20, 17)]
 - Zubat [Encountered Turn 1010 at (29, 9)]
 - Zubat [Encountered Turn 1024 at (35, 8)]
-- Rocket Grunt #3: Located at (29, 17) facing North [Engaged Turn 1049]. Dialogue: "Little kids should leave..."
+
+- Zubat [Encountered Turn 1043 at (21, 7)]
+- Zubat [Encountered Turn 1044 at (24, 13)]
 
 <hr>

@@ -48,5 +48,4 @@
 - Geodude (Lv 8) [Common across rock corridors, captured TERRA at (35, 7)]
 - Paras (Lv 8) [Uncommon, western and eastern chambers]
 - Clefairy (Lv 8) [Rare, central corridor at (14, 16)]
-- Paras [Encountered Turn 697 at (26, 17)]
 - Zubat Lv 8 [Encountered & Defeated Turn 729 at (30, 32)]
