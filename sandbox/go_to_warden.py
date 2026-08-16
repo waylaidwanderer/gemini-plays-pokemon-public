@@ -1,102 +1,140 @@
 import bridge
 import time
-import sys
 
-sys.stdout.reconfigure(encoding='utf-8')
-
-def get_pos():
-    for _ in range(4):
-        pos = bridge.get_coordinates()
-        if pos is not None:
-            return pos[0], pos[1]
-        time.sleep(0.1)
-    return None
-
-def walk_step_robust(direction):
-    pos = get_pos()
-    if pos is None:
-        return None
-        
-    bridge.press_buttons([direction])
-    
-    # Wait for position to change
+def escape_battle():
+    print("Encountered a battle! Attempting to escape...")
     for _ in range(5):
-        time.sleep(0.15)
-        new_pos = get_pos()
-        if new_pos is not None and new_pos != pos:
-            return new_pos
-            
-    print(f"Bumping/stuck at {pos} walking {direction}!")
-    return pos
+        bridge.press_buttons(["B"])
+        time.sleep(0.1)
+    bridge.press_buttons(["Down", "Right", "A"])
+    time.sleep(1.2)
+    for _ in range(5):
+        bridge.press_buttons(["B"])
+        time.sleep(0.1)
+    print("Escape sequence complete.")
 
-def run_path(path):
-    idx = 0
+def walk_to_waypoint(target_x, target_y):
+    print(f"Navigating to waypoint ({target_x}, {target_y})...")
     stuck_count = 0
-    while idx < len(path):
-        pos = get_pos()
-        if pos is None:
+    last_coords = None
+    
+    while True:
+        curr = bridge.get_coordinates()
+        if curr is None:
+            print("Coordinates are None. Waiting...")
             time.sleep(0.5)
             continue
             
-        print(f"Step {idx}: At {pos}, walking {path[idx]}...")
-        
-        # Handle ledge jump specially: if we are at (23, 22) and walk Down, coordinate changes by 2
-        is_ledge_jump = (pos == (23, 22) and path[idx] == "Down")
-        
-        new_pos = walk_step_robust(path[idx])
-        
-        if new_pos is None:
-            time.sleep(0.5)
-            continue
+        x, y = curr
+        if x == target_x and y == target_y:
+            print(f"Reached waypoint ({target_x}, {target_y})")
+            return True
             
-        # Verify movement
-        expected_change = (new_pos != pos)
-        if is_ledge_jump:
-            # For ledge jump, coordinate must change
-            expected_change = (new_pos == (23, 24))
-            if expected_change:
-                print("Ledge jump successful!")
-                
-        if not expected_change:
+        if curr == last_coords:
             stuck_count += 1
-            print(f"Stuck at {pos}! Stuck count: {stuck_count}")
-            if stuck_count > 3:
-                print("Path blocked. Exiting path.")
-                return False
+            if stuck_count > 4:
+                print(f"Stuck at {curr} trying to reach ({target_x}, {target_y}). Attempting escape...")
+                escape_battle()
+                stuck_count = 0
+                time.sleep(0.5)
+                # Press B to recover any open menus
+                bridge.press_buttons(["B", "B"])
+                time.sleep(0.5)
         else:
             stuck_count = 0
-            idx += 1
-    return True
+            last_coords = curr
+            
+        # Choose direction to move
+        if x < target_x:
+            btn = "Right"
+        elif x > target_x:
+            btn = "Left"
+        elif y < target_y:
+            btn = "Down"
+        elif y > target_y:
+            btn = "Up"
+            
+        bridge.press_buttons([btn])
+        time.sleep(0.44)
 
-def main():
-    print("=== EXECUTING SAFE ROUTE TO WARDEN'S HOUSE ===")
+# 1. Open Menu and use DIG on TRUFFLE
+print("Opening Start Menu...")
+bridge.press_buttons(["Start"])
+time.sleep(1.0)
+
+# Select POKEMON (usually option 3 from top, but cursor defaults to last selected option which was SAVE)
+# Let's count options:
+# 1. POKEDEX
+# 2. POKEMON
+# 3. ITEM
+# 4. ACE
+# 5. SAVE (cursor should be here by default!)
+# To go from SAVE to POKEMON, we press UP 3 times, then A.
+print("Selecting POKEMON menu...")
+bridge.press_buttons(["Up", "Up", "Up", "A"])
+time.sleep(1.2)
+
+# Select TRUFFLE (Paras, usually slot 2)
+print("Selecting TRUFFLE (Paras)...")
+bridge.press_buttons(["Down", "A"])
+time.sleep(1.2)
+
+# Select DIG (usually option 2 or 1 if it's the only field move? Paras typically only has DIG as field move, so it's option 1 or 2).
+# Let's see: Paras movedex usually has DIG. Since we used DIG before, let's select DIG.
+# Typically, field moves are listed above CANCEL.
+# Let's press Down, A to select the field move.
+print("Selecting DIG...")
+bridge.press_buttons(["A"]) # Or "Down", "A" if DIG is second.
+time.sleep(1.0)
+bridge.press_buttons(["Down", "A"])
+time.sleep(3.0) # Wait for DIG animation and warp
+
+# Confirm we emerged in Fuchsia City outside Pokemon Center at (19, 28)
+curr = bridge.get_coordinates()
+print("Emerged after DIG at:", curr)
+
+if curr is not None and curr[0] == 19 and curr[1] == 28:
+    print("Successfully warped outside Fuchsia City Pokémon Center!")
     
-    pos = get_pos()
-    print("Initial position:", pos)
-    if pos is None:
-        print("Failed to get starting position!")
-        return
+    # 2. Walk to Warden's House at (27, 27)
+    # Let's define the path from (19, 28) to Warden's House at (27, 27).
+    # Is there any obstacle?
+    # Pokémon Center is at (18-21, 22-27). We are at (19, 28) (directly south of PC).
+    # Warden's House is at (27, 27) in the southeast quadrant.
+    # To walk to (27, 27):
+    # - Walk RIGHT along Row 28 to Column 27: (27, 28).
+    # - Walk UP Column 27 to Row 27: (27, 27).
+    # Let's walk there!
+    print("Walking to Warden's House at (27, 27)...")
+    walk_to_waypoint(27, 28)
+    walk_to_waypoint(27, 27)
+    
+    # Enter the Warden's House (triggers transition)
+    print("Entering Warden's House...")
+    bridge.press_buttons(["Up"])
+    time.sleep(1.0)
+    
+    # Check coordinates inside Warden's House (typically (4, 7) or similar)
+    curr_house = bridge.get_coordinates()
+    print("Inside Warden's House at:", curr_house)
+    
+    # 3. Walk to Warden at (2, 3) and talk to him!
+    print("Walking to Warden at (2, 3)...")
+    walk_to_waypoint(2, 4)
+    bridge.press_buttons(["Up"])
+    time.sleep(0.5)
+    
+    # Talk to Warden
+    print("Talking to Warden...")
+    bridge.press_buttons(["A"])
+    time.sleep(1.0)
+    
+    # Mash A to clear dialogue
+    print("Clearing dialogue...")
+    for _ in range(10):
+        bridge.press_buttons(["A"])
+        time.sleep(0.8)
         
-    if pos == (22, 6):
-        # Walk Up to Row 2, Right to Column 37, Down Column 37 past Row 7 barrier to Row 8,
-        # Left to Column 23, Down Column 23 to ledge at Row 22, jump ledge, and walk to Warden's House
-        path = (
-            ["Up"] * 4 +                                                      # to (22, 2)
-            ["Right"] * 15 +                                                  # to (37, 2)
-            ["Down"] * 6 +                                                    # to (37, 8) (crosses Row 7 barrier)
-            ["Left"] * 14 +                                                   # to (23, 8)
-            ["Down"] * 14 +                                                   # to (23, 22)
-            ["Down"] * 4 +                                                    # to (23, 27) (including ledge jump)
-            ["Right"] * 4 +                                                   # to (27, 27)
-            ["Up"]                                                            # Enter Warden's House!
-        )
-        print("Walking to Warden's House...")
-        if run_path(path):
-            print("Successfully reached and entered Warden's House!")
-            time.sleep(1.0)
-            print("Final Position:", get_pos())
-        else:
-            print("Failed to reach Warden's House!")
-
-if __name__ == "__main__":
-    main()
+    print("Warden Interaction Complete! Check position and inventory to confirm Strength.")
+else:
+    print("DIG failed or we emerged in wrong position.")
