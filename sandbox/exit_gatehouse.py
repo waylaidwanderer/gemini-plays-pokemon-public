@@ -1,34 +1,28 @@
 import mgba
 import time
+import os
 
-print("--- TESTING MOVEMENT WITH B PRESSES ---")
-pos_before = mgba.get_coordinates()
-print("Position before B presses:", pos_before)
+print("--- DIAGNOSING MOVEMENT STALL ---")
 
-# Press B multiple times to clear any possible text boxes
-for _ in range(3):
-    mgba.press_buttons(["B"])
-    time.sleep(0.3)
-
-# Now try moving Left
-mgba.press_buttons(["Left"])
-time.sleep(0.5)
-
-pos_after = mgba.get_coordinates()
-print("Position after Left:", pos_after)
-
-# If we successfully moved Left, let's walk down to the exit!
-if pos_after and pos_after['x'] == 7:
-    print("Move successful! Walking to exit...")
-    # Walk left again to (6, 12)
-    mgba.press_buttons(["Left"])
+def step_action(btn, step_num):
+    print(f"Step {step_num}: Pressing {btn}...")
+    mgba.press_buttons([btn])
     time.sleep(0.5)
-    
-    # Walk down to (6, 15)
-    for _ in range(3):
-        mgba.press_buttons(["Down"])
-        time.sleep(0.5)
-        
-    print("Final position after walking:", mgba.get_coordinates())
+    screenshot_path = mgba.take_screenshot()
+    pos = mgba.get_coordinates()
+    print(f"Step {step_num} complete. Position: {pos}, Screenshot: {screenshot_path}")
 
-mgba.take_screenshot()
+# Take initial screenshot
+initial_path = mgba.take_screenshot()
+print(f"Initial Position: {mgba.get_coordinates()}, Screenshot: {initial_path}")
+
+# Run sequence of actions
+step_action("B", 1)
+step_action("B", 2)
+step_action("A", 3)
+step_action("B", 4)
+step_action("Left", 5)
+step_action("Left", 6)
+step_action("Down", 7)
+
+print("Done diagnosing!")
