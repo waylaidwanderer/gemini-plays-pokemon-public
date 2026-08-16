@@ -14,6 +14,7 @@
 - North-south passage connecting central and northern halls at columns 30-31 (rows 6-10)
 - Eastern chamber floor extends across rows 10-14 (cols 20-33+)
 - Rock obstacle at (32..33, 12..14)
+- Vertical rock wall at columns 12-13 (rows 2-7+) dividing north-central corridor (cols 14-17) from northwest corridor (cols 10-11)
 - Northeast sector open chamber around (35, 7) extending eastward to col 37 (rows 2-7). East boundary rock wall at col 38, north rock wall at row 1.
 - Northern corridor runs westward along rows 2-5 across columns 35 down towards northwest sector.
 
