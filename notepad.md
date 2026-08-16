@@ -303,6 +303,7 @@
 - Zubat [Encountered Turn 775 at (14, 18)]
 - Zubat [Encountered Turn 781 at (20, 24)]
 - Zubat [Encountered Turn 890 at (28, 10)]
+- Zubat [Encountered Turn 895 at (14, 5)]
 
 <hr>
 
