@@ -41,3 +41,10 @@
 - Gym Leader Misty: Located at (4, 2) [Defeated Turn 1348]. Cascade Badge and TM11 (Bubblebeam) obtained.
 - Burglarized House: Located at cols 26-31, rows 8-12. Front entrance door at (27, 11). Formerly guarded by a police officer who moves aside to (28, 12) after player helps Bill at Sea Cottage. Interior features a broken hole in the rear north wall at (3, 0) that exits into the Backyard Courtyard at (27, 9).
 - Backyard Courtyard: Located behind the Burglarized House across rows 7-9 (cols 26-32). Team Rocket Grunt is positioned at (30, 8). Southern exit leads down past the canal toward Route 5.
+
+### Team Rocket Encounter (Backyard Courtyard)
+- Team Rocket Grunt: Located at (30, 8) in the backyard [Defeated Turn 1820].
+  - Team: Machop Lv 17, Drowzee Lv 17.
+  - Reward: TM28 (Dig).
+  - Pre-battle dialogue: "It's not your yard! Huh? Me? I'm an innocent bystander! Don't you believe me?"
+  - Defeat quote: "Stop! I give up! I'll leave quietly!"
