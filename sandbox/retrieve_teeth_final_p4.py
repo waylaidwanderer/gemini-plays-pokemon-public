@@ -147,19 +147,27 @@ def navigate_to_waypoint(target_x, target_y, blocked_edges):
 # Initialize blocked edges
 blocked_edges = set()
 
-# We start at current position (5, 23) in Area 3 (West)
+# We start at (17, 20) in Area 3 (West)
 curr = mgba.get_coordinates()
 print("Starting coordinates in Area 3 (West):", curr)
 
-# Set waypoints to the Gold Teeth
+# Set waypoints to the Gold Teeth via the Plateau route (West to East)
 area3_waypoints = [
-    (5, 26),  # Walk Down to Row 26 Highway
-    (19, 26)  # Walk East along Row 26 Highway directly below Gold Teeth
+    (6, 20),  # Walk Left to West Stairs of Plateau
+    (6, 16),  # Climb West Stairs onto Plateau
+    (21, 16), # Walk Right across plateau to East Stairs
+    (21, 18), # Descend East Stairs to ground level
+    (21, 24), # Walk Down to Row 24
+    (19, 24)  # Walk Left to Column 19 (directly above Teeth / Row 24 gap?)
 ]
 
-print("--- PHASE 4: Navigating Row 26 Highway to Gold Teeth ---")
+print("--- PHASE 4: Navigating to Gold Teeth ---")
 for wp in area3_waypoints:
     navigate_to_waypoint(wp[0], wp[1], blocked_edges)
+
+# Try walking Down to (19, 26) from (19, 24)
+print("Navigating to target below Gold Teeth at (19, 26)...")
+navigate_to_waypoint(19, 26, blocked_edges)
 
 print("--- PHASE 5: Retrieving Gold Teeth ---")
 # Face UP to look at the Gold Teeth at (19, 25)
