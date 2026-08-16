@@ -17,7 +17,7 @@ def escape_battle():
         time.sleep(0.1)
 
 def map_reachable():
-    print("--- MAPPING REACHABLE AREA FROM (27, 21) ---")
+    print("--- MAPPING REACHABLE AREA FROM (0, 21) ---")
     start = mgba.get_coordinates()
     if start is None:
         print("Could not get start coordinates.")
