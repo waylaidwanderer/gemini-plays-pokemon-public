@@ -36,9 +36,9 @@
 
 ## Active Party
 1. HYDROS (Wartortle) - Lv 30
-   - Stats (Verified at Lv 30): Max HP 86 (HP: 86/86, Healthy), Attack 51, Defense 58, Speed 52, Special 55
+   - Stats (Verified at Lv 30): Max HP 86 (HP: 86/86, Healthy), Attack 53, Defense 60, Speed 54, Special 57
    - Type: Water
-   - Moves: Tackle (35/35), Tail Whip (30/30), Bite (25/25), Bubblebeam (20/20)
+   - Moves: Tackle (33/35), Tail Whip (30/30), Bite (25/25), Bubblebeam (17/20)
    - Role: Starter & primary Water special attacker (Active Lead)
 2. ECHO (Zubat) - Lv 8
    - Stats (Verified at Lv 8): Max HP 26 (HP: 26/26, Healthy)
@@ -52,17 +52,18 @@
    - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist
 
 ## Planned Nicknaming Strategy
-- Every captured Pokémon will receive a thoughtful, unique nickname.
+- Every captured Pok�mon will receive a thoughtful, unique nickname.
 
-## Inventory & Resources (Verified Turn 1902)
-- Money: ¥3941
-- Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pokémon up to Lv 30 obey)
+## Inventory & Resources (Verified Turn 1953)
+- Money: �6531
+- Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pok�mon up to Lv 30 obey)
 - Key Items: Town Map, Helix Fossil, S.S. Ticket, Bike Voucher
 - TMs / HMs: TM34 (Bide), TM28 (Dig)
 - Valuables:
-  - 1x Nugget (Nugget Bridge completion prize - sellable for ¥5000)
+  - 1x Nugget (Nugget Bridge completion prize - sellable for �5000)
 - Consumables:
-  - 15x Poké Ball (Purchased at Vermilion Pokémart)
+  - 15x Pok� Ball (Purchased at Vermilion Pok�mart)
+  - 1x Great Ball (Found in S.S. Anne Kitchen trash can at 13, 9)
   - 1x Antidote (Status cure: Poison)
   - 1x Moon Stone (Evolution item found in Mt. Moon 1F)
   - 1x Rare Candy (Found at 35, 31 in Mt. Moon 1F)
@@ -660,5 +661,11 @@
 - Doorway exit at (20, 10).
 - NPC at (21, 13) / (20, 13).
 - Table at (20, 15)/(21, 15), Bed at (23, 14)/(23, 15).
+## Kitchen (Entrance at 3, 16 from SW hallway)
+- Layout: cols 0-14, rows 0-15. Door exit at (6, 0).
+- Trash cans at (2, 5), (6, 5), (10, 5), (13, 5), (13, 7), (13, 9).
+- Item: Great Ball found in bottom-right trash can at (13, 9) [Found Turn 1953].
+- Chefs preparing gourmet meals for passengers.
+
 
 <hr>
