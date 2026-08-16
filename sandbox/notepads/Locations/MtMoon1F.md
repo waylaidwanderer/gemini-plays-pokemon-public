@@ -67,3 +67,4 @@
 - Zubat Lv 8 [Encountered Turn 773 at (24, 20)]
 - Zubat [Encountered Turn 775 at (14, 18)]
 - Zubat [Encountered Turn 781 at (20, 24)]
+- Trainer #7 (Lass): Located near south corridor at (16, 24). Team: Clefairy Lv 14 (1 Pokémon).
