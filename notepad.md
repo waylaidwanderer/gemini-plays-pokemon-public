@@ -50,7 +50,7 @@
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
 ## Inventory & Resources (Verified Turn 1711)
-- Money: ¥5503
+- Money: ¥6013
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pokémon up to Lv 30 obey)
 - Key Items: Town Map, Pokédex, Helix Fossil, S.S. Ticket
 - TMs / HMs: TM34 (Bide), TM11 (Bubblebeam), TM28 (Dig)
@@ -61,7 +61,6 @@
   - 1x Antidote (Status cure: Poison)
   - 1x Moon Stone (Evolution item found in Mt. Moon 1F)
   - 1x Rare Candy (Found at 35, 31 in Mt. Moon 1F)
-
 
 <hr>
 
