@@ -46,3 +46,9 @@
 - Layout: cols 15-27, rows 4-5.
 - Doorways along north wall at (15, 3), (19, 3), (23, 3).
 - Connection to 2F East Corridor at (27, 5) <-> (37, 15).
+
+## North Cabin 3 (Upper Hallway Entrance at 15, 3)
+- Coordinates: cols 20-23, rows 1-5.
+- Doorway exit at (23, 5).
+- Trainer: Sailor at (22, 3) [Defeated Turn 1993]. Team: Horsea Lv 17, Horsea Lv 17.
+- Item: TM08 (Body Slam) found on floor at (20, 3) [Obtained Turn 1998, Verified Turn 2011].
