@@ -360,5 +360,6 @@
 - Clefairy [Encountered Turn 995 at (20, 17)]
 - Zubat [Encountered Turn 1010 at (29, 9)]
 - Zubat [Encountered Turn 1024 at (35, 8)]
+- Rocket Grunt #3: Located at (29, 17) facing North [Engaged Turn 1049]. Dialogue: "Little kids should leave..."
 
 <hr>
