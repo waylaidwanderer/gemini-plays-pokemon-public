@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 2/8 (Boulder Badge, Cascade Badge)
-- Location: Vermilion Gym (x=8, y=11)
+- Location: Vermilion Gym (x=6, y=7)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -770,21 +770,26 @@
 
 <h1><code>Scratchpad/VermilionGym_Hypotheses</code></h1>
 
-# Vermilion Gym - Switch Puzzle Log & Strategy
+# Vermilion Gym - Puzzle State & Strategy
 
-## Puzzle Mechanics (Gen 1 Red/Blue)
-- 15 Trash Cans in 5x3 Grid across rows 7, 9, 11 (cols 1, 3, 5, 7, 9).
-- Switch 1 is randomly assigned upon gym entry and re-randomized upon any failed Switch 2 check.
-- When Switch 1 is found at (cx, cy), Switch 2 is guaranteed to be in one of the cardinally adjacent cans.
-- Success requires activating Switch 1 and immediately checking the correct adjacent can.
+## Current Search Status
+- State: Sweeping cans for Switch 1 (Row 7 sweep in progress).
+- Checked on current reset:
+  - Can (9, 7): Empty
+  - Can (7, 7): Empty
+  - Can (5, 7): Empty
+  - Next: Can (3, 7)
 
-## Current State (Turn 2297)
-- Switch 1: FOUND at Can (9, 11) [Bottom-Right Corner]!
-- Switch 2 Candidates (Only 2 possible neighbors!):
-  1. Can (7, 11) [West Neighbor - checking now!]
-  2. Can (9, 9) [North Neighbor]
+## Protocol When Switch 1 is Found
+1. Note exact can coordinate (x, y).
+2. Cleanly advance dialogue until text closes.
+3. Immediately test an adjacent can in the 5x3 grid:
+   - Up: (x, y-2)
+   - Down: (x, y+2)
+   - Left: (x-2, y)
+   - Right: (x+2, y)
+4. If Switch 2 is found -> Door unlocks permanently! Proceed to Lt. Surge.
+5. If locks reset -> Resume systematic sweep for Switch 1.
 
-- Turn 2305: Switch 1 found at (9, 7)! Testing adjacent can at (7, 7) for Switch 2.
-- Turn 2307: Can (7, 7) was empty. Locks reset. Resuming systematic search starting at (9, 7).
 
 <hr>
