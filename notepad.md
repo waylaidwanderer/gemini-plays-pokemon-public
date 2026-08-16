@@ -357,6 +357,7 @@
 - Southern room bypass corridor to eastern corridor at cols 24-33 (rows 24-27)
 - Main progression corridor heading north is at columns 32-33 (rows 18-26+)
 - NW ladder at (21, 17) connects to open corridor (cols 20-22, rows 5-18) that dead-ends at row 5; cross-passage at row 12-13 connects east across cols 21-26+.
+- One-way ledge at row 11 (cols 24-28) allows jumping south into row 12, blocking northward return to ladder (25, 9).
 
 ## Items & Discoveries
 - Item Ball: Located at (29, 5) on the upper ledge [Observed Turn 525]
