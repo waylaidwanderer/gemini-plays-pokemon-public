@@ -23,7 +23,7 @@
 ## Inventory & Resources (Verified Turn 859)
 - Money: ¥5534 (Updated with +¥300 from Super Nerd Miguel)
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Pokémon Attack)
-- Key Items: Town Map, Pokédex
+- Key Items: Town Map, Pokédex, Helix Fossil
 - TMs / HMs: TM34 (Bide)
 - Consumables:
   - 1x Antidote (Status cure: Poison)
