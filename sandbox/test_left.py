@@ -1,24 +1,30 @@
 import mgba
 import time
 
+print("--- TESTING LEFT WALKABILITY ---")
+
 def get_pos():
-    for _ in range(5):
-        pos = mgba.get_coordinates()
-        if pos != {'x': 0, 'y': 0}:
-            return pos['x'], pos['y']
-        time.sleep(0.1)
-    return 0, 0
+    return mgba.get_coordinates()
 
-start_x, start_y = get_pos()
-print(f"Starting at: ({start_x}, {start_y})")
-
-x, y = start_x, start_y
-for i in range(40):
+# Start at (23, 23) facing DOWN.
+# Let's try to walk LEFT step-by-step
+print("Walking LEFT...")
+for step in range(15):
+    pos = get_pos()
     mgba.press_buttons(["Left"])
-    time.sleep(0.1)
-    nx, ny = get_pos()
-    if (nx, ny) == (x, y):
-        print(f"Blocked at: ({x}, {y}) after {i} steps")
+    time.sleep(0.4)
+    new_pos = get_pos()
+    print(f"Step {step+1}: from {pos} to {new_pos}")
+    if new_pos == pos:
+        # Try once more in case we just turned
+        mgba.press_buttons(["Left"])
+        time.sleep(0.4)
+        new_pos = get_pos()
+        print(f"Step {step+1} (retry): from {pos} to {new_pos}")
+        
+    if new_pos == pos:
+        print(f"BLOCKED at {pos} going Left!")
         break
-    x, y = nx, ny
-    print(f"Step {i+1}: ({x}, {y})")
+
+mgba.take_screenshot()
+print("Final Position:", get_pos())
