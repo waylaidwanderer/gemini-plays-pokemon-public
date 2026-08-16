@@ -24,7 +24,7 @@
 ## Verified Trainers
 - Trainer #1: Located at (16, 23) facing West/North [Observed Turn 469]
 - Trainer #2 (Bug Catcher): Located at (30, 4) facing South [Observed Turn 506]
-- Trainer #3 (Youngster): Located at (12, 16) facing East [Engaged Turn 563]. Team: Rattata Lv 10, [Pokemon 2], [Pokemon 3]. Dialogue: "Did you come to explore too?"
+- Trainer #3 (Youngster): Located at (12, 16) facing East [Engaged Turn 563]. Team: Rattata Lv 10, Rattata Lv 10, [Pokemon 3]. Dialogue: "Did you come to explore too?"
 
 ## Empirical Wild Encounters
 - Zubat Lv 6 [Encountered Turn 477 at (22, 10), Nicknamed ECHO]
