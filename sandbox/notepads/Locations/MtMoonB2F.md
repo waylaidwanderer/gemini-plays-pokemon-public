@@ -20,3 +20,6 @@
 ## Empirical Wild Encounters
 - Zubat Lv 9 [Encountered & Defeated Turn 529 at (24, 10)]
 - Clefairy Lv 10 [Encountered & Defeated Turn 545 at (32, 7)]
+
+- Ladder at (15, 27): Connects to Mt. Moon B1F southern tunnel [Discovered Turn 852]
+- Main B2F Cavern: Open cavern accessed from (15, 27), cols 11-20+ (rows 23-28+).
