@@ -1,26 +1,30 @@
 <h1><code>Main</code></h1>
 
-# Pokémon Blue - Main Dashboard
+# Pok�mon Blue - Main Dashboard
 
 ## Current Status
 - Player: BLUE
 - Badges: 2/8 (Boulder Badge, Cascade Badge)
-- Location: Cerulean City - Backyard Courtyard (x=29, y=8)
+- Location: Route 6 (x=17, y=21)
 
 ## Notepads Index
-- `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
+- `Team`: Current Pok�mon party, movesets, stats, nicknames, inventory
 - `Quests`: Story progression and side tasks
 - `Locations/PalletTown`: Points of interest, NPC dialogues, items
 - `Locations/Route1`: Route 1 layout, points of interest, wild encounters
 - `Locations/ViridianCity`: Viridian City buildings, Mart catalog, Old Man
-- `Locations/PewterCity`: Pewter City points of interest, Pokémon Center, Pewter Gym
+- `Locations/PewterCity`: Pewter City points of interest, Pok�mon Center, Pewter Gym
+- `Locations/Route3`: Route 3 layout, trainers, wild encounters
 - `Locations/MtMoon1F`: Mt. Moon 1F layout, items, wild encounters, trainers
 - `Locations/MtMoonB1F`: Mt. Moon B1F layout, ladders, wild encounters
 - `Locations/MtMoonB2F`: Mt. Moon B2F layout, Rocket Grunts, items, wild encounters
 - `Locations/Route4`: Route 4 layout, ledges, wild encounters
 - `Locations/CeruleanCity`: Cerulean City layout, Gym, Mart, Bike Shop, NPCs
 - `Locations/Route24`: Route 24 layout, Nugget Bridge, Rival battle, trainers
+- `Locations/Route25`: Route 25 layout, trainers, Bill interactions
 - `Locations/BillsHouse`: Bill's Sea Cottage layout, Cell Separator machine, Bill interactions
+- `Locations/Route5`: Route 5 layout, Daycare, Underground Path entrance
+- `Locations/Route6`: Route 6 layout, Underground Path exit, trainers, path to Vermilion City
 
 
 <hr>
@@ -30,10 +34,10 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. HYDROS (Wartortle) - Lv 28
-   - Stats (Verified at Lv 28): Max HP 81 (HP: 50/81, Healthy), Attack 49, Defense 55, Speed 50, Special 53
+1. HYDROS (Wartortle) - Lv 29
+   - Stats (Verified at Lv 29): Max HP 83 (HP: 52/83, Healthy), Attack 51, Defense 58, Speed 52, Special 55
    - Type: Water
-   - Moves: Tackle (35/35), Tail Whip (29/30), Bite (19/25), Bubblebeam (8/20)
+   - Moves: Tackle (34/35), Tail Whip (29/30), Bite (19/25), Bubblebeam (8/20)
    - Role: Starter & primary Water special attacker (Active Lead)
 2. ECHO (Zubat) - Lv 8
    - Stats (Verified at Lv 8): Max HP 26 (HP: 26/26, Healthy)
@@ -47,20 +51,20 @@
    - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist
 
 ## Planned Nicknaming Strategy
-- Every captured Pokémon will receive a thoughtful, unique nickname.
+- Every captured Pok�mon will receive a thoughtful, unique nickname.
 
-## Inventory & Resources (Verified Turn 1711)
-- Money: ¥6013
-- Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pokémon up to Lv 30 obey)
-- Key Items: Town Map, Pokédex, Helix Fossil, S.S. Ticket
-- TMs / HMs: TM34 (Bide), TM11 (Bubblebeam), TM28 (Dig)
+## Inventory & Resources (Verified Turn 1847)
+- Money: �6013
+- Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pok�mon up to Lv 30 obey)
+- Key Items: Town Map, Helix Fossil, S.S. Ticket
+- TMs / HMs: TM34 (Bide), TM28 (Dig)
 - Valuables:
-  - 1x Nugget (Nugget Bridge completion prize - sellable for ¥5000)
+  - 1x Nugget (Nugget Bridge completion prize - sellable for �5000)
 - Consumables:
-  - 10x Poké Ball (Purchased at Cerulean Pokémart)
   - 1x Antidote (Status cure: Poison)
   - 1x Moon Stone (Evolution item found in Mt. Moon 1F)
   - 1x Rare Candy (Found at 35, 31 in Mt. Moon 1F)
+
 
 <hr>
 
@@ -537,20 +541,6 @@
 
 <h1><code>Locations/Route5</code></h1>
 
-# Route 5 - Points of Interest & Notes
 
-## Connections
-- North: Cerulean City at (10, 0) [Entered Turn 1842]
-- South: Saffron City North Gate / Route 5-6 Underground Path Entrance
-
-## Layout & Landmarks
-- Northern entry point at (10, 0).
-- Ledge 1: Row 3 (cols 6-13) leading into grass patch at rows 4-5.
-- Middle lane: Row 6 (cols 6-12).
-- Ledge 2: Row 7 (cols 6-12) leading into grass patch at rows 8-9.
-- Row 10+: Southern section containing Daycare & Underground Path.
-
-## Wild Pokémon Encounters
-- Meowth (Normal type) [Encountered Turn 1844]
 
 <hr>
