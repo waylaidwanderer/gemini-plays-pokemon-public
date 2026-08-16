@@ -6,8 +6,9 @@ def escape_battle():
     for _ in range(6):
         mgba.press_buttons(["B"])
         time.sleep(0.1)
+    # Highlight RUN (Down, Right) and select
     mgba.press_buttons(["Down", "Right", "A"])
-    time.sleep(1.0)
+    time.sleep(1.5)
     for _ in range(6):
         mgba.press_buttons(["B"])
         time.sleep(0.1)
@@ -60,13 +61,14 @@ def walk_to_waypoint(target_x, target_y):
         time.sleep(0.42)
 
 print("--- PHASE 1: Safari Zone Center to Area 1 (East) ---")
-# Start at (28, 16)
+# First, escape the battle we are in!
+escape_battle()
+
+# Start at (23, 24) after escaping
 waypoints = [
-    (28, 22), # Down Column 28
-    (27, 22), # Left to Column 27 (bypasses (28, 25) Rhydon statue)
-    (27, 26), # Down Column 27 to Row 26 (southern corridor)
-    (30, 26), # Right to Column 30
-    (30, 10)  # Up Column 30 to Row 10 (transition warp)
+    (21, 24), # Left to Column 21
+    (21, 10), # Up Column 21 to Row 10
+    (30, 10)  # Right to Column 30 (transition warp)
 ]
 
 for wp in waypoints:
