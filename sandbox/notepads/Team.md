@@ -26,4 +26,4 @@
 - Consumables:
   - 1x Antidote (Status cure: Poison)
   - 3x Potion (Restores 20 HP)
-  - 2x Poké Ball (Verified remaining after catching Geodude)
+  - 0x Poké Ball (Exhausted in Mt. Moon)
