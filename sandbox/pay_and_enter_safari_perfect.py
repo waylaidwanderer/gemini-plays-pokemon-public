@@ -99,48 +99,30 @@ def navigate_to_waypoint(target_x, target_y, blocked_edges):
                     print("Map transition detected!")
                     return True
 
-print("--- EXITING CAGE AND GOING TO SAFARI GATEHOUSE ---")
+print("--- PAYING AND ENTERING SAFARI PERFECT ---")
 blocked_edges = set()
 
-# Walk to exit of the cage (which is the backdoor of the house at (31, 24))
-navigate_to_waypoint(31, 24, blocked_edges)
-
-print("Entering the house via the backdoor...")
-mgba.press_buttons(["Down"])
-time.sleep(1.5)
-
-curr = mgba.get_coordinates()
-print("Coordinates inside the house:", curr)
-
-# Inside the house, navigate to the front door at (3, 7) and exit
-blocked_edges_house = set()
-navigate_to_waypoint(3, 7, blocked_edges_house)
-
-print("Stepping DOWN to exit the house...")
-mgba.press_buttons(["Down"])
-time.sleep(1.5)
-
-curr = mgba.get_coordinates()
-print("Coordinates outside the house on Row 27:", curr)
-
-# Reset blocked edges for Fuchsia City
-blocked_edges = set()
+# Block doors we want to avoid entering in Fuchsia City overworld
 blocked_edges.add(((19, 28), (19, 27))) # Pokémon Center
 blocked_edges.add(((19, 27), (19, 28)))
 blocked_edges.add(((32, 28), (32, 27))) # Slowpoke Fan's House
 blocked_edges.add(((32, 27), (32, 28)))
-# Avoid door warp mats on Row 27
-blocked_edges.add(((31, 27), (31, 26))) # House we just exited
+blocked_edges.add(((27, 28), (27, 27))) # Warden's House
+blocked_edges.add(((27, 27), (27, 28)))
+blocked_edges.add(((31, 27), (31, 26))) # Block entering Poké Mart again
 blocked_edges.add(((31, 26), (31, 27)))
-blocked_edges.add(((30, 27), (30, 26)))
-blocked_edges.add(((30, 26), (30, 27)))
-blocked_edges.add(((32, 27), (32, 26)))
-blocked_edges.add(((32, 26), (32, 27)))
+
+# Block Warden's solid wall at (26, 27) and (28, 27) to avoid bumps
+blocked_edges.add(((26, 28), (26, 27)))
+blocked_edges.add(((26, 27), (26, 28)))
+blocked_edges.add(((28, 28), (28, 27)))
+blocked_edges.add(((28, 27), (28, 28)))
 
 fuchsia_waypoints = [
-    (26, 28), # Walk DOWN to Row 28 and LEFT to Column 26
-    (24, 27), # Walk UP to Row 27 and LEFT to Column 24 (through the fence gap)
-    (24, 14), # UP Column 24 to the Row 14 horizontal corridor
+    (26, 28), # Walk Left to Column 26 Row 28
+    (26, 30), # Walk DOWN Column 26 to Row 30 (Warden house wall bypass)
+    (24, 30), # Walk LEFT Row 30 through Column 25 fence gap to Column 24
+    (24, 14), # UP Column 24 to Row 14
     (37, 14), # RIGHT along Row 14 to Column 37 (passes above Zoo fence)
     (37, 2),  # Up Column 37 to Row 2
     (22, 2),  # Left along Row 2 to Column 22
