@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon 1F (x=16, y=12)
+- Location: Mt. Moon 1F (x=16, y=7)
 - Current Objective: Flee wild Zubat, walk north along col 16 to row 4 and east to eastern chamber and ladder at (25, 15)
 
 ## Notepads Index
