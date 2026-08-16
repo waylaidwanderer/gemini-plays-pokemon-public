@@ -307,6 +307,7 @@
 - Zubat [Encountered Turn 903 at (10, 9)]
 - Zubat [Encountered Turn 905 at (9, 5)]
 - Zubat [Encountered Turn 940 at (10, 15)]
+- Geodude [Encountered Turn 945 at (17, 19)]
 
 <hr>
 
