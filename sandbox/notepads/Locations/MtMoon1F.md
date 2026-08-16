@@ -71,3 +71,4 @@
 - Zubat [Encountered Turn 895 at (14, 5)]
 - Zubat [Encountered Turn 898 at (14, 10)]
 - Zubat [Encountered Turn 903 at (10, 9)]
+- Zubat [Encountered Turn 905 at (9, 5)]
