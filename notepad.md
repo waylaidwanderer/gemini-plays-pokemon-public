@@ -5,8 +5,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon B2F (x=25, y=9)
-- Current Objective: Explore Mt. Moon 1F, defeat trainers, collect items, catch wild Pokémon, and navigate towards Cerulean City
+- Location: Mt. Moon B2F (x=29, y=9)
+- Current Objective: Defeat Team Rocket Grunt, collect item ball at (29, 5), and navigate towards Cerulean City
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -14,10 +14,12 @@
 - `Locations/PalletTown`: Points of interest, NPC dialogues, items
 - `Locations/Route1`: Route 1 layout, points of interest, wild encounters
 - `Locations/ViridianCity`: Viridian City buildings, Mart catalog, Old Man
-- `Locations/ViridianForest`: Forest layout, 3 Bug Catchers, items
 - `Locations/PewterCity`: Pewter City points of interest, Pokémon Center, Pewter Gym
 - `Locations/Route3`: Route 3 layout, trainers, wild encounters
 - `Locations/MtMoon1F`: Mt. Moon 1F layout, items, wild encounters, trainers
+- `Locations/MtMoonB1F`: Mt. Moon B1F layout, ladders, wild encounters
+- `Locations/MtMoonB2F`: Mt. Moon B2F layout, Rocket Grunts, items, wild encounters
+
 
 <hr>
 
@@ -298,17 +300,19 @@
 ## Layout & Landmarks
 - Isolated B2F treasure chamber
 - Southern lower area: cols 24-33, rows 8-11
-- Eastern ascent passage: cols 32-33, rows 7-9 (bypasses rock wall at (30-31, 7))
-- Upper ledge / chamber: rows 5-6 (cols 27-32)
+- Dividing wall at col 23 running rows 5-11
+- Rock wall at (30-31, 7)
+- Visual Hypothesis: Eastern ascent passage around cols 32-33 (rows 7-9) leading to upper ledge (rows 5-6)
 - One-way ledge at (28, 7) and (29, 7) leading south back to lower area
 
 ## Items & Discoveries
 - Item Ball: Located at (29, 5) on the upper ledge [Observed Turn 525]
 
 ## Verified Trainers
-- Rocket Grunt #1: Located at (29, 10) facing North [Engaged Turn 533]. Team: Zubat Lv 12, Ekans Lv 12. Dialogue: "We're pulling a big job here! Get lost, kid!"
+- Rocket Grunt #1: Located at (29, 10) facing North [Defeated Turn 541]. Team: Zubat Lv 12, Ekans Lv 12. Dialogue: "We're pulling a big job here! Get lost, kid!"
 
 ## Empirical Wild Encounters
 - Zubat Lv 9 [Encountered & Defeated Turn 529 at (24, 10)]
+
 
 <hr>
