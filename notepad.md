@@ -785,5 +785,6 @@
   2. Can (9, 9) [North Neighbor]
 
 - Turn 2305: Switch 1 found at (9, 7)! Testing adjacent can at (7, 7) for Switch 2.
+- Turn 2307: Can (7, 7) was empty. Locks reset. Resuming systematic search starting at (9, 7).
 
 <hr>
