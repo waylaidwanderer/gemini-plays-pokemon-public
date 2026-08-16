@@ -3,8 +3,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon 1F (x=24, y=4)
-- Current Objective: Navigate east along row 4 towards col 30 passage and eastern chamber at (25, 15)
+- Location: Mt. Moon 1F (x=29, y=4)
+- Current Objective: Defeat Bug Catcher at (30, 4) and take col 30 passage to eastern chamber at (25, 15)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
