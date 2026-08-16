@@ -1,71 +1,79 @@
 import mgba
 import time
 
-print("--- WALK EAST GAP AND RETRIEVE GOLD TEETH ---")
+print("--- SELF-HEALING SAFARI ZONE NAVIGATOR (PART 3) ---")
+
+# Step-by-step path from Area 2 (North) (39, 31) to Area 3 (West) at (26, 0)
+path = []
+
+# (39, 31) -> (22, 31): LEFT 17 steps
+path += ["Left"] * 17
+# (22, 31) -> (22, 22): UP 9 steps (climbing Western Southern Plateau stairs at 22, 23)
+path += ["Up"] * 9
+# (22, 22) -> (16, 22): LEFT 6 steps on the plateau
+path += ["Left"] * 6
+# (16, 22) -> (16, 28): DOWN 6 steps (descending stairs at 16, 27)
+path += ["Down"] * 6
+# (16, 28) -> (12, 28): LEFT 4 steps
+path += ["Left"] * 4
+# (12, 28) -> (12, 30): DOWN 2 steps (bypassing the pond)
+path += ["Down"] * 2
+# (12, 30) -> (8, 30): LEFT 4 steps
+path += ["Left"] * 4
+# (8, 30) -> (8, 36): DOWN 6 steps (through statue gap at 8, 34 to 8, 35, and down to transition at 8, 36)
+path += ["Down"] * 6
+
+print(f"Total steps in path: {len(path)}")
 
 def get_pos():
     return mgba.get_coordinates()
 
-# Current position is (19, 23) facing LEFT.
-# 1. Walk to (21, 23): Right 3 times (1 turn + 2 steps).
-print("Step 1: Walking to (21, 23)")
-mgba.press_buttons(["Right"])
-time.sleep(0.4)
-for _ in range(2):
-    mgba.press_buttons(["Right"])
+def handle_battle():
+    print("Detected battle/blockage! Attempting to escape battle...")
+    # Press B a few times to clear "appeared!" text
+    for _ in range(3):
+        mgba.press_buttons(["B"])
+        time.sleep(0.3)
+    
+    # Press Down, Right, A to select RUN
+    print("Selecting RUN...")
+    mgba.press_buttons(["Down", "sleep 100", "Right", "sleep 100", "A"])
+    time.sleep(1.0)
+    
+    # Press B to clear "Got away safely!" text
+    mgba.press_buttons(["B"])
+    time.sleep(1.5) # Wait for overworld to load
+
+# Execute the path step-by-step
+step_idx = 0
+button_presses = 0
+
+while step_idx < len(path):
+    if button_presses >= 85:
+        print("Approaching 100-button limit for single script execution. Stopping to save state.")
+        break
+        
+    dir = path[step_idx]
+    pos_before = get_pos()
+    
+    print(f"Step {step_idx+1}/{len(path)}: Pressing {dir}")
+    mgba.press_buttons([dir])
+    button_presses += 1
     time.sleep(0.4)
-print("Position after Step 1:", get_pos())
+    
+    pos_after = get_pos()
+    
+    # Check if we successfully moved
+    if pos_before == pos_after:
+        # We didn't move. This must be a wild battle!
+        handle_battle()
+        button_presses += 6
+        # Let's check our position again after escaping
+        pos_check = get_pos()
+        print("Position after escaping battle:", pos_check)
+    else:
+        # Successfully moved! Advance to the next step
+        step_idx += 1
 
-# 2. Walk Down to (21, 26): Down 4 times (1 turn + 3 steps).
-print("Step 2: Walking Down Column 21 to Row 26")
-mgba.press_buttons(["Down"])
-time.sleep(0.4)
-for _ in range(3):
-    mgba.press_buttons(["Down"])
-    time.sleep(0.4)
-print("Position after Step 2:", get_pos())
-
-# 3. Walk Left to (19, 26): Left 3 times (1 turn + 2 steps).
-print("Step 3: Walking Left along Row 26 to Column 19")
-mgba.press_buttons(["Left"])
-time.sleep(0.4)
-for _ in range(2):
-    mgba.press_buttons(["Left"])
-    time.sleep(0.4)
-print("Position after Step 3:", get_pos())
-
-# 4. Face UP and press A to retrieve Gold Teeth
-print("Step 4: Retrieving Gold Teeth")
-mgba.press_buttons(["Up"])
-time.sleep(0.4)
-mgba.press_buttons(["A"])
-time.sleep(1.0)
-
-# Clear any text boxes
-mgba.press_buttons(["A"])
-time.sleep(0.6)
-
-# 5. Use DIG to warp back to Fuchsia City Pokémon Center!
-print("Step 5: Using DIG to warp out...")
-mgba.press_buttons(["Start"])
-time.sleep(0.6)
-
-# Force cursor to POKEDEX (top)
-for _ in range(7):
-    mgba.press_buttons(["Up"])
-    time.sleep(0.1)
-
-# Press Down once to POKEMON, and A
-mgba.press_buttons(["Down", "sleep 100", "A"])
-time.sleep(1.0)
-
-# Select TRUFFLE (first slot, cursor is already on him!)
-mgba.press_buttons(["A"])
-time.sleep(1.0)
-
-# Select DIG (Option 1 in submenu)
-mgba.press_buttons(["A"])
-time.sleep(3.0) # wait for DIG warp animation
-
+print("Navigation paused or completed. Current Position:", get_pos())
 mgba.take_screenshot()
-print("Final Position after DIG:", get_pos())
