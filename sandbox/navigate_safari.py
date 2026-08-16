@@ -1,113 +1,94 @@
 import mgba
 import time
 
-print("--- SELF-CORRECTING SAFARI NAVIGATION (PHASE 3 AREA 2 NORTH) ---")
+print("--- SELF-CORRECTING SAFARI NAVIGATION (PHASE 4 AREA 3 WEST) ---")
 
 def get_pos():
     return mgba.get_coordinates()
 
-# 0. Clear the "Got away safely!" text box
-print("Step 0: Clearing escape screen...")
-mgba.press_buttons(["A"])
-time.sleep(1.0)
-print("Position after clearing screen:", get_pos())
-
-# Current position is (22, 31) in Area 2 (North) facing UP.
-# 1. Walk Left to Column 22 on Row 31: (22, 31)
-print("Step 1: Walking Left to Column 22")
-for _ in range(25):
-    pos = get_pos()
-    if pos and pos['x'] == 22:
-        print("Arrived at Column 22!")
-        break
-    mgba.press_buttons(["Left"])
-    time.sleep(0.4)
-else:
-    print("Failed to reach Column 22!")
-
-# 2. Walk UP to Row 22 on Column 22: (22, 22) (climbing stairs at (22, 23))
-print("Step 2: Walking UP to Row 22 (climbing stairs)")
-for _ in range(15):
-    pos = get_pos()
-    if pos and pos['y'] == 22:
-        print("Arrived at Row 22!")
-        break
-    mgba.press_buttons(["Up"])
-    time.sleep(0.4)
-else:
-    print("Failed to reach Row 22!")
-
-# 3. Walk Left to Column 16 on Row 22: (16, 22)
-print("Step 3: Walking Left to Column 16")
-for _ in range(10):
-    pos = get_pos()
-    if pos and pos['x'] == 16:
-        print("Arrived at Column 16!")
-        break
-    mgba.press_buttons(["Left"])
-    time.sleep(0.4)
-else:
-    print("Failed to reach Column 16!")
-
-# 4. Walk Down to Row 28 on Column 16: (16, 28) (descending stairs at (16, 27))
-print("Step 4: Walking Down to Row 28 (descending stairs)")
-for _ in range(10):
-    pos = get_pos()
-    if pos and pos['y'] == 28:
-        print("Arrived at Row 28!")
-        break
-    mgba.press_buttons(["Down"])
-    time.sleep(0.4)
-else:
-    print("Failed to reach Row 28!")
-
-# 5. Walk Left to Column 12 on Row 28: (12, 28)
-print("Step 5: Walking Left to Column 12")
-for _ in range(10):
-    pos = get_pos()
-    if pos and pos['x'] == 12:
-        print("Arrived at Column 12!")
-        break
-    mgba.press_buttons(["Left"])
-    time.sleep(0.4)
-else:
-    print("Failed to reach Column 12!")
-
-# 6. Walk Down to Row 30 on Column 12: (12, 30) (bypassing pond)
-print("Step 6: Walking Down to Row 30")
+# Current position is (26, 0) inside Area 3 (West) facing DOWN.
+# 1. Walk DOWN to Row 2
+print("Step 1: Walking DOWN to Row 2")
 for _ in range(5):
     pos = get_pos()
-    if pos and pos['y'] == 30:
-        print("Arrived at Row 30!")
+    if pos and pos['y'] == 2:
+        print("Arrived at Row 2!")
         break
     mgba.press_buttons(["Down"])
     time.sleep(0.4)
 else:
-    print("Failed to reach Row 30!")
+    print("Failed to reach Row 2!")
 
-# 7. Walk Left to Column 8 on Row 30: (8, 30)
-print("Step 7: Walking Left to Column 8")
-for _ in range(10):
+# 2. Walk LEFT to Column 25
+print("Step 2: Walking LEFT to Column 25")
+for _ in range(5):
     pos = get_pos()
-    if pos and pos['x'] == 8:
-        print("Arrived at Column 8!")
+    if pos and pos['x'] == 25:
+        print("Arrived at Column 25!")
         break
     mgba.press_buttons(["Left"])
     time.sleep(0.4)
 else:
-    print("Failed to reach Column 8!")
+    print("Failed to reach Column 25!")
 
-# 8. Walk Down Column 8 to Row 34: (8, 34) (just above transition to verify!)
-print("Step 8: Walking Down Column 8 to Row 34")
-for _ in range(10):
+# 3. Walk DOWN Column 25 to Row 18
+print("Step 3: Walking DOWN to Row 18")
+for _ in range(25):
     pos = get_pos()
-    if pos and pos['y'] == 34:
-        print("Arrived at Row 34! Stopping to verify transition points!")
+    if pos and pos['y'] == 18:
+        print("Arrived at Row 18!")
         break
     mgba.press_buttons(["Down"])
     time.sleep(0.4)
 else:
-    print("Failed to reach Row 34!")
+    print("Failed to reach Row 18!")
+
+# 4. Walk LEFT to Column 21 on Row 18
+print("Step 4: Walking LEFT to Column 21")
+for _ in range(10):
+    pos = get_pos()
+    if pos and pos['x'] == 21:
+        print("Arrived at Column 21!")
+        break
+    mgba.press_buttons(["Left"])
+    time.sleep(0.4)
+else:
+    print("Failed to reach Column 21!")
+
+# 5. Walk DOWN Column 21 to Row 26
+print("Step 5: Walking DOWN to Row 26")
+for _ in range(15):
+    pos = get_pos()
+    if pos and pos['y'] == 26:
+        print("Arrived at Row 26!")
+        break
+    mgba.press_buttons(["Down"])
+    time.sleep(0.4)
+else:
+    print("Failed to reach Row 26!")
+
+# 6. Walk LEFT to Column 19 on Row 26 (directly below the teeth!)
+print("Step 6: Walking LEFT to Column 19")
+for _ in range(5):
+    pos = get_pos()
+    if pos and pos['x'] == 19:
+        print("Arrived at Column 19!")
+        break
+    mgba.press_buttons(["Left"])
+    time.sleep(0.4)
+else:
+    print("Failed to reach Column 19!")
+
+# 7. Face UP and press A to retrieve the Gold Teeth!
+print("Step 7: Facing UP and retrieving Gold Teeth")
+mgba.press_buttons(["Up"])
+time.sleep(0.4)
+mgba.press_buttons(["A"])
+time.sleep(1.0)
+
+# Clear any text boxes
+mgba.press_buttons(["A"])
+time.sleep(0.6)
 
 mgba.take_screenshot()
-print("Final Position before verification:", get_pos())
+print("Final Position after script:", get_pos())
