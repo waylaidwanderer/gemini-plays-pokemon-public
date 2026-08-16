@@ -11,4 +11,6 @@
 - [x] Defeat Rival RED on Route 24 [Defeated Turn 1528]
 - [x] Complete Nugget Bridge challenge (Defeat 5 trainers + Rocket recruiter, obtain Nugget) [Turn 1592]
 - [x] Travel east across Route 25 to visit Bill at Sea Cottage [Arrived Turn 1737]
-- [ ] Help Bill run the Cell Separation System
+- [x] Help Bill run the Cell Separation System & receive S.S. Ticket [Turn 1751]
+- [ ] Travel south from Cerulean City to Vermilion City
+- [ ] Board the S.S. Anne in Vermilion City to find HM01 Cut
