@@ -15,4 +15,4 @@
 - Item Ball: Located at (29, 5) on the upper ledge [Observed Turn 525]
 
 ## Empirical Wild Encounters
-- Zubat [Encountered Turn 528 at (24, 10)]
+- Zubat Lv 9 [Encountered & Defeated Turn 529 at (24, 10)]
