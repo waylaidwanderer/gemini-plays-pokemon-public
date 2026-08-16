@@ -45,7 +45,7 @@
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
 ## Inventory & Resources (Verified Turn 594)
-- Money: ¥3439 (Updated with +¥100 from Bug Catcher)
+- Money: ¥3714 (Updated with +¥275 from Super Nerd)
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Pokémon Attack)
 - Key Items: Town Map, Pokédex
 - TMs / HMs: TM34 (Bide)
@@ -274,7 +274,7 @@
 - Trainer #3 (Youngster): Located at (13, 16) facing East [Defeated Turn 578]. Team: Rattata Lv 10, Rattata Lv 10, Zubat Lv 10. Dialogue: "Did you come to explore too?"
 - Trainer #4 (Hiker): Located at (5, 6) facing North [Defeated Turn 610]. Team: Geodude Lv 10, Geodude Lv 10, Onix Lv 10. Dialogue: "WHOA! You shocked me! Oh, you're just a kid!"
 - Trainer #5 (Bug Catcher): Located at (30, 27) [Defeated Turn 721]. Team: Caterpie Lv 10, Metapod Lv 10, Caterpie Lv 10. Reward: ¥100. Dialogue: "ZUBAT is tough! But, it can be useful if you catch one."
-- Trainer #6 (Super Nerd): Located at (24, 31) facing North [Defeated Turn 753]. Team: Magnemite Lv 11, Voltorb Lv 11 (2 Pokémon total). Pre-battle dialogue: "What! Don't sneak up on me!"
+- Trainer #6 (Super Nerd): Located at (24, 31) facing North [Defeated Turn 753]. Team: Magnemite Lv 11, Voltorb Lv 11 (2 Pokémon total). Reward: ¥275. Pre-battle dialogue: "What! Don't sneak up on me!"
 
 ## Empirical Wild Encounters
 - Zubat Lv 6 [Encountered Turn 477 at (22, 10), Nicknamed ECHO]
