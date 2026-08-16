@@ -82,6 +82,7 @@
 
 ## Major Milestones and Items
 - **Soul Badge:** Earned by defeating Gym Leader Koga in Fuchsia City Gym on Turn 20797.
+- **Active PC Box Switched:** Switched active PC Box to BOX 4 (empty) on Turn 41000 at the Fuchsia City Pokémon Center to ensure room for Safari Zone catches.
 - **Giovanni Defeated:** Defeated on Turn 18056 on B4F.
 - **Silph Scope:** Obtained on Turn 18067 on B4F.
 - **Marowak Ghost Defeated:** Defeated the Level 30 Ghost of Marowak in Pokémon Tower 6F on Turn 18709 using SHELLBY's ICE BEAM (unmasked with the Silph Scope).
