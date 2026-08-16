@@ -4,7 +4,7 @@
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
 - Location: Mt. Moon 1F (x=29, y=4)
-- Current Objective: Take col 30 passage south to eastern chamber and explore ladder at (25, 15)
+- Current Objective: Take col 30-31 passage south to (31, 10) into eastern chamber and explore ladder at (25, 15)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
