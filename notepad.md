@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Cerulean City - Cerulean Gym (x=4, y=13)
+- Location: Cerulean City - Cerulean Gym (x=5, y=2)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -422,7 +422,7 @@
 ## Cerulean Gym Trainers
 - Trainer #1 (Swimmer): Located at (6, 7) [Defeated Turn 1252]. Dialogue: "Splash! I'm first up! Let's do it!" Defeat quote: "That can't be!" Team: Horsea Lv 16, Shellder Lv 16. Reward: �80.
 - Trainer #2 (Jr. Trainer Female): Located at (2, 3) / (4, 3) [Defeated Turn 1263]. Dialogue: "I'm more than good enough for you! MISTY can wait!" Defeat quote: "You overwhelmed me!" Team: Goldeen Lv 19. Reward: �380.
-- Gym Leader Misty: Located on north platform. Team: Staryu Lv 18, Starmie Lv 21.
+- Gym Leader Misty: Located at (4, 2) [Engaged Turn 1284]. Dialogue: "Hi, you're a new face! Trainers who want to turn pro have to have a policy about POKeMON! What is your approach when you catch POKeMON? My policy is an all-out offensive with water-type POKeMON!" Team: Staryu Lv 18 [Defeated Turn 1288], Starmie Lv 21.
 
 
 
