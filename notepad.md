@@ -6,7 +6,7 @@
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
 - Location: Mt. Moon 1F (x=24, y=28)
-- Current Objective: Defeat Trainer #6 at (24, 31), then navigate north and west towards southwest chamber (2, 20)
+- Current Objective: Defeat Super Nerd with TERRA, then navigate north and west towards southwest chamber (2, 20)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -268,7 +268,7 @@
 - Item Ball: Located at (2, 20) in southwest chamber [Discovered Turn 676]
 - Item Ball: Located at (35, 31) in southeast sector - Rare Candy [Collected Turn 725]
 - Item Ball: Located at (20, 33) in south-central sector [Collected Turn 733]
-- Trainer #6: Located at (24, 31) facing North [Engaged Turn 735]. Pre-battle dialogue: "What! Don't sneak up on me!"
+- Trainer #6 (Super Nerd): Located at (24, 31) facing North [Engaged Turn 735]. Team: Magnemite Lv 11, ??? (2 Pokémon total). Pre-battle dialogue: "What! Don't sneak up on me!"
 
 ## Verified Trainers
 - Trainer #1: Located at (16, 23) facing West/North [Observed Turn 469]
