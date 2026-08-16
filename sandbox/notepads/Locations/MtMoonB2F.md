@@ -37,3 +37,4 @@
 - Geodude [Encountered Turn 882 at (20, 27)]
 - Zubat [Encountered Turn 958 at (25, 27)]
 - Zubat [Encountered Turn 967 at (17, 27)]
+- Clefairy [Encountered Turn 995 at (20, 17)]
