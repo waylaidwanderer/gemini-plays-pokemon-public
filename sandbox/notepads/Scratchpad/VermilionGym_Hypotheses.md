@@ -1,15 +1,8 @@
 # Vermilion Gym - Hypotheses & Switch Tracking
 
-## Puzzle Status: In Progress (Active Search)
-- Gates are CLOSED at (4, 4) and (5, 4).
-- Electric locks were reset. Switch 1 is currently randomized among the 15 cans.
-
-## Search Strategy
-1. Check cans until Switch 1 is found ("The 1st electric lock opened!").
-2. Immediately check adjacent cans (North, South, East, West) for Switch 2.
-3. Verify passability past row 5 before declaring success.
-
-## 15 Trash Can Coordinates
-- Row 7: (1, 7), (3, 7), (5, 7), (7, 7), (9, 7)
-- Row 9: (1, 9), (3, 9), (5, 9), (7, 9), (9, 9)
-- Row 11: (1, 11), (3, 11), (5, 11), (7, 11), (9, 11)
+## Current Puzzle State
+- Switch 1: Found at Can (5, 11) on Turn 2258!
+- Switch 2 Candidates (Adjacent to 5, 11):
+  1. Can (3, 11) [West Neighbor] - Testing now!
+  2. Can (5, 9) [North Neighbor]
+  3. Can (7, 11) [East Neighbor]
