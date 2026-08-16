@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 2/8 (Boulder Badge, Cascade Badge)
-- Location: Route 6 entrance (heading to grass patch)
+- Location: Route 6 (x=9, y=35) entering tall grass
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
