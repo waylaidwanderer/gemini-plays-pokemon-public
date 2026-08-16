@@ -19,20 +19,20 @@ def get_textbox_ratio():
             
     return white_pixels / total_pixels
 
-# We are at (6, 2) inside the Safari Zone Gatehouse facing RIGHT.
-# Let's walk to (7, 2) facing RIGHT (directly adjacent to the clerk at 8, 2).
+# We are at (6, 2) facing RIGHT.
+# We press RIGHT once more to step onto (7, 2).
 
-print("--- STEPPING TO CLERK ---")
-# 1. Step RIGHT to (7, 2)
+print("--- STEPPING RIGHT TO (7, 2) ---")
 mgba.press_buttons(["Right"])
 time.sleep(0.5)
 
-# 2. Press A to speak to clerk
+# Press A to speak to clerk
+print("Speaking to clerk...")
 mgba.press_buttons(["A"])
 time.sleep(1.0)
 print("TextBox ratio after A:", get_textbox_ratio())
 
-# 3. Complete dialogue and pay 500 (A 12 times)
+# Complete payment dialogue (A 12 times)
 print("Completing dialogue...")
 for i in range(12):
     mgba.press_buttons(["A"])
