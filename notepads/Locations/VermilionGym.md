@@ -22,4 +22,6 @@
   - Defeat quote: "Wow! Surprised me!"
   - Team: Pikachu Lv 21, Pikachu Lv 21
   - Reward: ¥630
-- Trainer #2 at (3, 8) facing Down (unbattled)
+- Rocker (Trainer #2): Located at (3, 8) [Defeated Turn 2207].
+  - Pre-battle dialogue: "I'm a lightweight, but I'm good with electricity!"
+  - Team: Voltorb Lv 20, Magnemite Lv 20
