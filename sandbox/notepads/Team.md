@@ -18,15 +18,15 @@
    - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist
 
 ## Planned Nicknaming Strategy
-- Every captured Pok�mon will receive a thoughtful, unique nickname.
+- Every captured Pokémon will receive a thoughtful, unique nickname.
 
 ## Inventory & Resources (Verified Turn 1847)
-- Money: �6013
-- Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pok�mon up to Lv 30 obey)
+- Money: ¥6013
+- Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pokémon up to Lv 30 obey)
 - Key Items: Town Map, Helix Fossil, S.S. Ticket
 - TMs / HMs: TM34 (Bide), TM28 (Dig)
 - Valuables:
-  - 1x Nugget (Nugget Bridge completion prize - sellable for �5000)
+  - 1x Nugget (Nugget Bridge completion prize - sellable for ¥5000)
 - Consumables:
   - 1x Antidote (Status cure: Poison)
   - 1x Moon Stone (Evolution item found in Mt. Moon 1F)
