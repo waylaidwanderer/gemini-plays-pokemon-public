@@ -61,26 +61,25 @@ def walk_to_waypoint(target_x, target_y):
         time.sleep(0.42)
 
 # ==========================================================
-# We start at (16, 8) inside Safari Zone Area 2 (North)
+# We start at (9, 5) inside Safari Zone Area 2 (North)
 # ==========================================================
-print("--- RESUMING JOURNEY FROM AREA 2 (NORTH) (16, 8) ---")
+print("--- RESUMING JOURNEY FROM AREA 2 (NORTH) (9, 5) ---")
 
 area2_waypoints = [
-    (17, 8),   # Walk RIGHT 1 step
-    (17, 6),   # Walk UP climbing East Stairs of Northern Plateau to (17, 6)
-    (12, 6),   # Walk LEFT along Northern Plateau to (12, 6)
-    (12, 8),   # Walk DOWN descending West Stairs of Northern Plateau to (12, 8) ground level
-    (12, 14),  # Walk DOWN Column 12 (completely open ground) to Row 14
-    (19, 14),  # Walk RIGHT along Row 14 to Column 19
-    (19, 15),  # Walk DOWN to Row 15
-    (20, 15),  # Walk RIGHT climbing West Stairs onto the southern plateau
-    (33, 15),  # Walk RIGHT on plateau to Column 33
-    (33, 13),  # Walk UP to Row 13
-    (31, 13),  # Walk LEFT descending East Stairs to Column 31 ground level
-    (31, 17),  # Walk DOWN to Row 17
-    (25, 17),  # Walk LEFT along Row 17 (completely open!)
-    (25, 31),  # Walk DOWN Column 25 ground level to Row 31
-    (22, 31),  # Walk LEFT to Column 22
+    (9, 3),    # Walk UP Column 9 to Row 3 (northern horizontal corridor)
+    (20, 3),   # Walk RIGHT along Row 3 to Column 20 (completely open grass!)
+    (20, 11),  # Walk DOWN Column 20 to Row 11
+    (10, 11),  # Walk LEFT along Row 11 to Column 10 (completely open grass, bypassing the pond!)
+    (10, 8),   # Walk UP Column 10 to Row 8 (completely open grass!)
+    (12, 8),   # Walk RIGHT to Column 12
+    (12, 7),   # Walk UP climbing the West Stairs of the Northern Plateau to (12, 6)
+    (22, 6),   # Walk RIGHT along Northern Plateau to Column 22
+    (22, 15),  # Walk DOWN Column 22 on the plateau to Row 15 (Central/Southern Plateau)
+    (37, 15),  # Walk RIGHT along Row 15 on plateau to Column 37 (Eastern Land Bridge)
+    (37, 26),  # Walk DOWN Column 37 (Eastern Land Bridge) to Row 26
+    (28, 26),  # Walk LEFT on plateau to the Southern Plateau exit
+    (28, 28),  # Walk DOWN descending Southern Plateau stairs to ground level
+    (22, 31),  # Walk to Southern Corridor start
     (22, 22),  # Climb Western Southern Plateau stairs
     (16, 22),  # Walk LEFT on plateau
     (16, 28),  # Descend stairs
