@@ -23,7 +23,7 @@
 - **Warden's House:** Located in the southeast at `(27, 27)` (verified on Turn 20885). Inside, Warden resides and speaks in gibberish until his Gold Teeth are returned.
 - **Regular House (Slowpoke Fan):** Entrance at `(22, 13)` (verified on Turn 20903). The resident inside says: "We nicknamed the WARDEN SLOWPOKE. He and SLOWPOKE both look vacant!"
 - **Safari Zone Gatehouse:** Located at columns 18-21, rows 0-3 on Fuchsia City map. The verified entrance door is at `(18, 3)` facing south.
-- **Verified Northern Route to Safari Gatehouse:** Walk Up along Column 24 to Row 21, walk Left to Column 22 on Row 21/20, walk Up along Column 22 to Row 14, walk Right along Row 14 to Column 26, walk Up along Column 26 (through cut bush at 26,13) to Row 9, walk Left to Column 19 on Row 9, walk Up along Column 19 to Row 8, walk Right along Row 8/9 to Column 37, walk Up along Column 37 to Row 2, walk Left along Row 2 to Column 22, walk Down to Row 4, and Up to enter the Gatehouse at (22, 3) or (18, 3).
+- **Verified Northern Route to Safari Gatehouse (CUT-free Eastern Bypass):** Walk Left to Column 13 (bypassing the checkerboard fence posts), walk Up Column 13/14 to Row 14, walk Right along Row 14 (bypassing Row 15 trees) to Column 35, walk Right to Column 37, walk Up Column 37 to Row 2, walk Left along Row 2 to Column 22, walk Down to Row 4, and Left to enter the Gatehouse at (18, 3). This route is completely CUT-free and does not require any badges!
 
 ## Spatial Layout Clarifications & Routing
 - **Row 31 Walkability:** Row 31 is NOT a solid horizontal ledge on Columns 1-9. It is fully walkable going UP (and Down). It is merely a decorative border tile of the path, not an impassable cliff ledge.
