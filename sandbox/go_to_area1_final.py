@@ -146,40 +146,28 @@ def navigate_to_waypoint(target_x, target_y, blocked_edges):
 # Initialize blocked edges
 blocked_edges = set()
 
-# Block solid Rhydon statues on Row 22/23 Column 6 to guide the pathfinder to Row 21
-blocked_edges.add(((5, 22), (6, 22)))
-blocked_edges.add(((6, 22), (5, 22)))
-blocked_edges.add(((5, 23), (6, 23)))
-blocked_edges.add(((6, 23), (5, 23)))
-
-# Block solid fence posts on Row 24 Column 16 to avoid the pocket
-blocked_edges.add(((15, 24), (16, 24)))
-blocked_edges.add(((16, 24), (15, 24)))
-
 # ==========================================
 # PHASE 2: Area 1 (East) -> Area 2 (North)
 # ==========================================
 curr = mgba.get_coordinates()
 print("Starting coordinates in Area 1 (East):", curr)
 
+# Correct and verified waypoints in the proper order!
 area1_waypoints = [
-    (13, 24), # Walk Left to Column 13 Row 24 (Open area)
-    (13, 21), # Walk UP Column 13 to Row 21 (Open ground corridor!)
-    (20, 21), # Walk RIGHT along Row 21 to Column 20 (leads directly to stairs!)
-    (20, 20), # Climb southern plateau stairs
-    (12, 20), # Left along plateau
-    (12, 22), # Descend southern plateau stairs to Row 22 ground
-    (8, 22),  # Walk Left
-    (8, 8),   # Up Column 8 Row 8
-    (12, 8),  # Right to Column 12 Row 8
-    (12, 6),  # Climb northern plateau stairs
-    (17, 6),  # Right along plateau
-    (17, 8),  # Descend northern plateau stairs to Row 8 ground
-    (20, 8),  # Right to Column 20
-    (20, 3),  # Up Column 20 to Row 3 (above plateau)
-    (7, 3),   # Left along Row 3
-    (7, 5),   # Down Column 7 to Row 5 (northern ground corridor)
-    (0, 5)    # Left along Row 5 to transition
+    (12, 22), # Walk to the bottom of the western stairs (Row 22)
+    (12, 20), # Climb western stairs onto plateau
+    (20, 20), # Walk right along plateau
+    (20, 22), # Descend eastern stairs to ground
+    (20, 8),  # Walk UP Column 20
+    (17, 8),  # Walk Left to the bottom of northern plateau East Stairs
+    (17, 6),  # Climb stairs to northern plateau
+    (12, 6),  # Walk Left along plateau
+    (12, 8),  # Descend West Stairs to ground
+    (8, 8),   # Walk Left Column 8
+    (8, 3),   # Walk Up Column 8 to Row 3
+    (7, 3),   # Walk Left along Row 3
+    (7, 5),   # Walk Down Column 7 to Row 5
+    (0, 5)    # Walk Left Row 5 to transition
 ]
 
 print("--- PHASE 2: Navigating Area 1 (East) ---")
