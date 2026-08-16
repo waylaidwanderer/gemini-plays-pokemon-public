@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Cerulean City - Pokémart (x=3, y=7)
+- Location: Cerulean City (x=25, y=26)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -44,17 +44,17 @@
 ## Planned Nicknaming Strategy
 - Every captured Pok�mon will receive a thoughtful, unique nickname.
 
-## Inventory & Resources (Verified Turn 1213)
-- Money: �5534
+## Inventory & Resources (Verified Turn 1227)
+- Money: �1627
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Pok�mon Attack)
 - Key Items: Town Map, Pok�dex, Helix Fossil
 - TMs / HMs: TM34 (Bide)
 - Consumables:
+  - 10x Pok� Ball (Purchased at Cerulean Pok�mart)
   - 1x Antidote (Status cure: Poison)
   - 1x Moon Stone (Evolution item found in Mt. Moon 1F)
   - 1x Rare Candy (Found at 35, 31 in Mt. Moon 1F)
   - 1x Potion (Found at 2, 20 in Mt. Moon 1F southwest chamber)
-  - 0x Pok� Ball
 
 
 <hr>
