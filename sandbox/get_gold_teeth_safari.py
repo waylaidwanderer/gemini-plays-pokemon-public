@@ -61,58 +61,17 @@ def walk_to_waypoint(target_x, target_y):
         time.sleep(0.42)
 
 # ==========================================================
-# PHASE 0: Clear Entry Dialogue and Enter Safari Zone Center
-# ==========================================================
-print("Clearing gatehouse dialogue to enter Safari Zone...")
-# We received 30 Safari Balls. Let's clear the remaining lines of dialogue.
-for i in range(12):
-    mgba.press_buttons(["A"])
-    time.sleep(0.4)
-
-print("Waiting for map transition to Safari Zone Center...")
-time.sleep(2.0)
-
-# Verify we are in Safari Zone Center at (15, 25)
-coords = mgba.get_coordinates()
-print("Emerged at coordinates:", coords)
-
-# ==========================================================
-# PHASE 1: Safari Zone Center -> Area 1 (East)
-# ==========================================================
-print("--- PHASE 1: Safari Zone Center to Area 1 (East) ---")
-center_waypoints = [
-    (15, 22),
-    (28, 22),
-    (28, 10)  # Stop exactly at (28, 10) before transition
-]
-
-for wp in center_waypoints:
-    walk_to_waypoint(wp[0], wp[1])
-
-print("Walking RIGHT to transition to Area 1 (East)...")
-for _ in range(3):
-    mgba.press_buttons(["Right"])
-    time.sleep(0.5)
-
-# Wait for transition
-time.sleep(1.5)
-coords = mgba.get_coordinates()
-print("Emerged in Area 1 (East) at:", coords)
-
-# ==========================================================
 # PHASE 2: Area 1 (East) -> Area 2 (North)
 # ==========================================================
-print("--- PHASE 2: Area 1 (East) to Area 2 (North) ---")
-# Emerge at (0, 22) or (0, 23). First go to (0, 24)
+print("--- PHASE 2 (CONTINUED): Area 1 (East) to Area 2 (North) ---")
+# We start at (20, 24).
 area1_waypoints = [
-    (0, 24),
-    (20, 24),
     (20, 20), # Climb plateau stairs
     (12, 20),
     (12, 22), # Descend plateau stairs
     (8, 22),
     (8, 8),
-    (12, 8),  # Climb northern plateau stairs to (12, 6)
+    (12, 8),  # Climb northern plateau stairs
     (12, 6),
     (17, 6),
     (17, 8),  # Descend stairs to ground
