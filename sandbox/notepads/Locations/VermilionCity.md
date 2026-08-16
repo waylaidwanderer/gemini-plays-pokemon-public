@@ -10,9 +10,9 @@
 - Wide northern thoroughfare across row 4 connecting east and west districts.
 - City Signpost at (27, 3): "VERMILION CITY - The Port of Exquisite Sunsets".
 
-## Buildings & Points of Interest (To Explore)
+## Buildings & Points of Interest
 - Pokémon Center: Located at cols 10-13, rows 0-3 with entrance door at (11, 3) and "POKé" sign at (12, 3).
-- Pokémart: East district
+- Pokémart: Located at cols 23-25, rows 10-13 with entrance door at (23, 13) and "MART" sign at (24, 13).
 - Pokémon Fan Club: West district
 - Fishing Guru's House: Fisherman gives Old Rod
 - Vermilion Gym: Gym Leader Lt. Surge (Thunder Badge - requires Cut)
