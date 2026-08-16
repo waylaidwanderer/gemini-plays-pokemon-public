@@ -42,7 +42,7 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 ## Area 3 (West) Layout & Discoveries
 
 ### Map Transitions & Connections
-- **Entered from Area 2 (North):** Transition from Area 2 (North) at `(4, 35)` leads directly into Area 3 (West) at `(26, 0)` (Turn 27591).
+- **Entered from Area 2 (North):** Transition from Area 2 (North) at `(8, 35)` or `(4, 35)` leads directly into Area 3 (West) at `(26, 2)` or `(26, 0)` (verified on Turn 42064).
 - **East Edge Map Transition:** The far-right edge of Area 3 (West) at column 30, row 23 connects directly to Safari Zone Center at `(0, 11)` (Turn 27658).
 
 ### Overworld Obstacles & Paths

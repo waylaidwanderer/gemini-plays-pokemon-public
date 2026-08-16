@@ -1,27 +1,20 @@
-# Pokémon Blue - Adventure High-Level Index & Status
+# Pokémon Blue - Main Dashboard
 
-## Active Objectives & Milestones
-- **Primary Goal:** Obtain HM04 (Strength) from the Warden in Fuchsia City.
+## Current Status
+- Player: BLUE
+- Badges: 2/8 (Boulder Badge, Cascade Badge)
+- Location: Route 25 (x=22, y=9)
 
-- **Last Gym Completed:** Defeated Gym Leader Koga in Fuchsia City Gym on Turn 20797 (Soul Badge).
-
-## Notepads Directory
-### 🌍 Locations & Overworld Mapping
-- `Locations/PalletTown_And_Route1` - Pallet Town, Professor Oak's Lab, Daisy's House.
-- `Locations/ViridianCity` - Viridian City, Pokémon Center, Poké Mart.
-- `Locations/PewterCity` - Pewter City, Gym Leader Brock.
-- `Locations/CeruleanCity` - Cerulean City, Gym Leader Misty, Burgled House.
-- `Locations/VermilionCity` - Vermilion City, Gym Leader Lt. Surge, S.S. Anne.
-- `Locations/LavenderTown` - Lavender Town, Mr. Fuji's House.
-- `Locations/CeladonCity` - Celadon City, Rocket Hideout, Gym Leader Erika.
-- `Locations/FuchsiaCity` - Fuchsia City, Gym, Safari Zone, Warden's House.
-- `Locations/FuchsiaGym` - Fuchsia Gym Invisible Wall Maze, remaining trainers.
-- Routes: `Route2`, `Route3`, `Route4`, `Route5`, `Route6`, `Route7`, `Route8`, `Route9`, `Route10`, `Route12`, `Route13`, `Route14`, `Route15`.
-
-### ⚔️ Progression, Battle, & Mechanics
-- `Progression_And_Party_Stats` - Current Party (SHELLBY Lv 55), Badges, Key Items, Inventory.
-- `Mechanics/UI_And_Border_Rendering` - Tile graphics, coordinate overlays.
-- `Mechanics/Search_Scripting_Pitfalls` - Tips for robust scripting and tool usage.
-
-## Current Party Status (Blastoise Solo Runner)
-- **SHELLBY** (Blastoise) - Level 55, healthy. Movepool: Hydro Pump, Ice Beam, Bite, Water Gun.
+## Notepads Index
+- `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
+- `Quests`: Story progression and side tasks
+- `Locations/PalletTown`: Points of interest, NPC dialogues, items
+- `Locations/Route1`: Route 1 layout, points of interest, wild encounters
+- `Locations/ViridianCity`: Viridian City buildings, Mart catalog, Old Man
+- `Locations/PewterCity`: Pewter City points of interest, Pokémon Center, Pewter Gym
+- `Locations/MtMoon1F`: Mt. Moon 1F layout, items, wild encounters, trainers
+- `Locations/MtMoonB1F`: Mt. Moon B1F layout, ladders, wild encounters
+- `Locations/MtMoonB2F`: Mt. Moon B2F layout, Rocket Grunts, items, wild encounters
+- `Locations/Route4`: Route 4 layout, ledges, wild encounters
+- `Locations/CeruleanCity`: Cerulean City layout, Gym, Mart, Bike Shop, NPCs
+- `Locations/Route24`: Route 24 layout, Nugget Bridge, Rival battle, trainers
