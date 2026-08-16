@@ -22,5 +22,5 @@
 - Items: Checked table/trash.
 ## Cabin 3 (South Corridor - Entrance at 15, 8)
 - Girl NPC at (2, 11) with Pokémon at (3, 11).
-- Boy NPC at (0, 14).
-- Table at (0, 15)/(1, 15), Bed at (3, 14)/(3, 15).
+- Boy NPC at (0, 14). Dialogue: "A cruise is so elegant yet cozy!"
+- Table at (0, 15)/(1, 15), Bed at (3, 14)/(3, 15). Items: None.
