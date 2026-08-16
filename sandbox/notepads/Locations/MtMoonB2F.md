@@ -6,15 +6,16 @@
 ## Layout & Landmarks
 - Isolated B2F treasure chamber
 - Southern lower area: cols 24-33, rows 8-11
-- Eastern ascent passage: cols 32-33, rows 7-9 (bypasses rock wall at (30-31, 7))
-- Upper ledge / chamber: rows 5-6 (cols 27-32)
+- Dividing wall at col 23 running rows 5-11
+- Rock wall at (30-31, 7)
+- Visual Hypothesis: Eastern ascent passage around cols 32-33 (rows 7-9) leading to upper ledge (rows 5-6)
 - One-way ledge at (28, 7) and (29, 7) leading south back to lower area
 
 ## Items & Discoveries
 - Item Ball: Located at (29, 5) on the upper ledge [Observed Turn 525]
 
 ## Verified Trainers
-- Rocket Grunt #1: Located at (29, 10) facing North [Engaged Turn 533]. Team: Zubat Lv 12, Ekans Lv 12. Dialogue: "We're pulling a big job here! Get lost, kid!"
+- Rocket Grunt #1: Located at (29, 10) facing North [Defeated Turn 541]. Team: Zubat Lv 12, Ekans Lv 12. Dialogue: "We're pulling a big job here! Get lost, kid!"
 
 ## Empirical Wild Encounters
 - Zubat Lv 9 [Encountered & Defeated Turn 529 at (24, 10)]
