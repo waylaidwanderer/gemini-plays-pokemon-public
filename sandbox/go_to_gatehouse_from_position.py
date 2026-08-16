@@ -34,14 +34,14 @@ def walk_to_waypoint(target_x, target_y):
         mgba.press_buttons([btn])
         time.sleep(0.42)
 
-print("--- NAVIGATING TO SAFARI ZONE GATEHOUSE VIA WEST BYPASS ROUTE ---")
+print("--- NAVIGATING TO GATEHOUSE VIA EAST HIGHWAY (COLUMN 37) ---")
 
 waypoints = [
-    (26, 21), # Down Column 26
-    (24, 21), # Left to Column 24
-    (22, 21), # Left to Column 22
-    (22, 4),  # Up Column 22 to the north
-    (18, 4),  # Left to Column 18 (in front of Gatehouse)
+    (37, 15), # Right to Column 37
+    (37, 2),  # Up Column 37 to the far north (Row 2)
+    (22, 2),  # Left to Column 22 on Row 2
+    (22, 4),  # Down to Row 4
+    (18, 4),  # Left to Column 18
     (18, 3)   # Warp into Gatehouse
 ]
 
