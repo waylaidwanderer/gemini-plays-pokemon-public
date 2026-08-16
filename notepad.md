@@ -270,7 +270,7 @@
 - Trainer #2 (Lass): Located at (30, 4) facing South [Defeated Turn 649]. Dialogue: "Wow! It's way bigger in here than I thought!" Team: 2 Pokémon (Oddish Lv 11, Bellsprout Lv 11).
 - Trainer #3 (Youngster): Located at (13, 16) facing East [Defeated Turn 578]. Team: Rattata Lv 10, Rattata Lv 10, Zubat Lv 10. Dialogue: "Did you come to explore too?"
 - Trainer #4 (Hiker): Located at (5, 6) facing North [Defeated Turn 610]. Team: Geodude Lv 10, Geodude Lv 10, Onix Lv 10. Dialogue: "WHOA! You shocked me! Oh, you're just a kid!"
-- Trainer #5 (Bug Catcher): Located at (30, 27) [Engaged Turn 701]. Team: 3 Pokémon.
+- Trainer #5 (Bug Catcher): Located at (30, 27) [Defeated Turn 705]. Team: Caterpie Lv 10, Metapod Lv 10, Caterpie Lv 10.
 
 ## Empirical Wild Encounters
 - Zubat Lv 6 [Encountered Turn 477 at (22, 10), Nicknamed ECHO]
