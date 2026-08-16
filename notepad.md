@@ -1366,6 +1366,7 @@ From Safari Zone Center entrance at `(15, 25)`:
 
 ### Major Boundaries & Blockages
 - **Row 10 Tree Line:** A solid barrier of pine trees across columns 27-31, blocking direct southern traversal on columns 28-29.
+- **Row 23 Ground-Level Barrier:** Completely blocks vertical ground-level traversal between Column 6 and Column 15, separating the north/west ground section (which is a physical dead end) from the south/east ground corridor. Horizontal crossing is only possible via the Plateau Land Bridge.
 - **Row 15-19 Isolation Barrier:**
   - Columns 2-11 on Row 15 have a solid tree wall.
   - Columns 12-18 on Row 15 are open grass, but they lead to the middle pond on rows 17-18 (columns 9-11) and a fenced animal pen bordered by grey Rhydon statues on row 19 (columns 10-17).
@@ -1457,7 +1458,7 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - Ground Level is on Rows 0-11 (North) and Rows 16-35 (South).
 - Rows 12-15 is the Northern Plateau (East side, columns 32-38).
 - Column 16 Bush Barrier (Rows 12-19) and Row 11 barriers (Rhydon statues at cols 21-31, trees at 16-17) completely divide the Northwest ground level from the Northeast and South ground levels.
-- The ONLY way to go from the Northwest ground level (Rest House 2, cols 1-15) to the South/East is to walk UP to Row 9, walk East along Row 9, but note that Column 29 is completely blocked by hedges/trees on Rows 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15. The horizontal crossing of Column 29 is only possible on Row 17 (South ground level) and Row 26 (Southern corridor). Additionally, Column 19 is blocked on Rows 4, 5, and 6 by cliff faces, isolating the western Northern Plateau from the east.
+- The ONLY way to go from the Northwest ground level (Rest House 2, cols 1-15) to the South/East is to walk UP to Row 9, walk East along Row 9 (which is completely open and has 0% trees), and then walk back down.
 - On the East side, Columns 32-38 row 12-15 is the Northern Plateau. The East Stairs at `(32, 13)` and `(33, 13)` face WEST (accessed from Column 31 on the ground, walking RIGHT/EAST onto the stairs).
 - Column 31 is completely open on rows 12-13.
 - To reach Column 31 from the Southern Corridor (Row 30/31):
@@ -1523,20 +1524,6 @@ We have empirically verified that Column 28 is 100% OPEN and walkable on Rows 12
 - **Area 3 (West) to Safari Zone Center direct warp:** Emerge at (30, 23) in Area 3 (West), walk RIGHT 1 step to transition directly to (0, 11) in Safari Zone Center.
 - **Safari Zone Center to Area 3 (West) direct warp:** Stand at (0, 11) in Safari Zone Center, walk LEFT 1 step to transition directly to (29, 23) in Area 3 (West).
 - This shortcut completely bypasses the Area 1 (East) and Area 2 (North) plateau detours for subsequent trips once inside the Northwest Compartment of Safari Zone Center.
-
-### 🚫 Verified Collisions & Blockages in Area 3 (West) (Turns 40810-40828)
-- **Columns 2, 3, 4, 5 on Row 24:** Completely blocked by solid green shrubs (empirically verified on Turn 40827).
-- **Column 6 on Row 24:** Blocked by solid cliff wall/trees.
-- **Columns 10-15 on Row 25:** Blocked by solid cliff wall (Columns 11 and 15 verified on Turn 40813/40814).
-- **Column 16 on Row 24:** Blocked by solid green shrub.
-- **Column 17 on Row 24:** Blocked by solid green shrub.
-- **Column 18 on Row 25:** Blocked by solid green shrub (empirically verified on Turn 40818).
-- **Column 18 on Row 19-23:** Blocked by solid vertical shrub barrier (verified on Turn 40823).
-- **Column 20 on Row 24/25:** Blocked by solid green shrubs (verified on Turn 40821/40822).
-- **Column 21 on Row 24/25:** Blocked by solid green shrubs/cliffs (verified on Turn 40824).
-- **Row 19 Blockage:** Row 19 is blocked horizontally at Column 17 by the solid cliff wall of the Plateau (verified on Turn 40823).
-- **Conclusion:** The North and South ground levels of Area 3 (West) are completely separated. There is NO ground-level vertical path connecting them. To reach the south side (Row 26 Highway) from the North-East transition, one must use the Plateau and the West Stairs.
-
 
 <hr>
 
