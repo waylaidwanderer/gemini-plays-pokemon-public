@@ -16,7 +16,7 @@
 - Can (3, 9): Unchecked
 - Can (5, 9): Unchecked
 - Can (7, 9): Unchecked
-- Can (9, 9): Unchecked
+- Can (9, 9): "Nope, there's only trash here." [Checked Turn 2222]
 - Can (1, 7): Unchecked
 - Can (3, 7): Unchecked
 - Can (5, 7): Unchecked
