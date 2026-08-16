@@ -24,7 +24,6 @@
 
 ## Cerulean Gym Trainers
 - Trainer #1 (Swimmer): Located at (6, 7) [Defeated Turn 1252]. Dialogue: "Splash! I'm first up! Let's do it!" Defeat quote: "That can't be!" Team: Horsea Lv 16, Shellder Lv 16. Reward: �80.
-- Trainer #2 (Jr. Trainer Female): Located at (2, 3).
+- Trainer #2 (Jr. Trainer Female): Located at (2, 3) [Engaged Turn 1255]. Dialogue: "I'm more than good enough for you! MISTY can wait!" Team: Goldeen Lv 19.
 - Gym Leader Misty: Located on north platform. Team: Staryu Lv 18, Starmie Lv 21.
 
-## Items & Discoveries
