@@ -89,6 +89,11 @@ def navigate_to(target_x, target_y):
         for y in range(25, 28):
             blocked_tiles.add((x, y))
             
+    # Poké Mart at Columns 4-7, Rows 10-13
+    for x in range(4, 8):
+        for y in range(10, 14):
+            blocked_tiles.add((x, y))
+            
     stuck_count = 0
     
     while True:
