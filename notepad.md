@@ -5,8 +5,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon 1F (x=31, y=10)
-- Current Objective: Walk west to (25, 10) and south to descend ladder at (25, 15) into B1F
+- Location: Mt. Moon 1F (x=25, y=14)
+- Current Objective: Flee wild Geodude and step down onto ladder at (25, 15) to descend into B1F
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -285,6 +285,7 @@
 - Zubat [Encountered Turn 628 at (17, 12)]
 - Zubat [Encountered Turn 631 at (19, 4)]
 - Paras [Encountered Turn 678 at (10, 17)]
+- Geodude [Encountered Turn 692 at (25, 14)]
 
 <hr>
 
