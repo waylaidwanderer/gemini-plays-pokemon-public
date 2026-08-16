@@ -786,7 +786,7 @@
 - Can (9, 11): "Nope, there's only trash here." [Checked Turn 2224]
 - Can (1, 9): Unchecked
 - Can (3, 9): Unchecked
-- Can (5, 9): Unchecked
+- Can (5, 9): "Nope, there's only trash here." [Checked Turn 2227]
 - Can (7, 9): "Nope, there's only trash here." [Checked Turn 2223]
 - Can (9, 9): "Nope, there's only trash here." [Checked Turn 2222]
 - Can (1, 7): Unchecked
