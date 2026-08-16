@@ -1,18 +1,6 @@
 import bridge
 import time
 
-def escape_battle():
-    print("Encountered a battle! Attempting to escape...")
-    for _ in range(5):
-        bridge.press_buttons(["B"])
-        time.sleep(0.1)
-    bridge.press_buttons(["Down", "Right", "A"])
-    time.sleep(1.2)
-    for _ in range(5):
-        bridge.press_buttons(["B"])
-        time.sleep(0.1)
-    print("Escape sequence complete.")
-
 def walk_to_waypoint(target_x, target_y):
     print(f"Navigating to waypoint ({target_x}, {target_y})...")
     stuck_count = 0
@@ -33,15 +21,10 @@ def walk_to_waypoint(target_x, target_y):
         if curr == last_coords:
             stuck_count += 1
             if stuck_count > 4:
-                print(f"Stuck at {curr} trying to reach ({target_x}, {target_y}). Attempting escape...")
-                escape_battle()
-                stuck_count = 0
+                print(f"Stuck at {curr} trying to reach ({target_x}, {target_y}). Retrying movement...")
+                bridge.press_buttons(["A", "B"])
                 time.sleep(0.5)
-                after_coords = bridge.get_coordinates()
-                if after_coords == curr:
-                    print("Coordinates still unchanged. Retrying movement with A/B mash...")
-                    bridge.press_buttons(["A", "B", "A", "B"])
-                    time.sleep(0.5)
+                stuck_count = 0
         else:
             stuck_count = 0
             last_coords = curr
@@ -59,33 +42,70 @@ def walk_to_waypoint(target_x, target_y):
         bridge.press_buttons([btn])
         time.sleep(0.44)
 
-# 100% Physically Verified, Collision-Free Route to Pokemon Center from (36, 21)
-waypoints = [
-    (36, 17), # UP Column 36 to Row 17
-    (37, 17), # RIGHT to Column 37
-    (37, 9),  # UP Column 37 to Row 9
-    (26, 9),  # LEFT Row 9 to Column 26
-    (26, 14), # DOWN Column 26 to Row 14 (through cut bush at 26,13)
-    (22, 14), # LEFT Row 14 to Column 22
-    (22, 18), # DOWN Column 22 to Row 18
-    (1, 18),  # LEFT Row 18 to Column 1
-    (1, 32),  # DOWN Column 1 to Row 32
-    (8, 32),  # RIGHT Row 32 to Column 8
-    (8, 28),  # UP Column 8 through ledge gap to Row 28
-    (19, 28), # RIGHT Row 28 to Column 19
-    (19, 27)  # UP into the Pokémon Center!
-]
+# Starting at (3, 7) inside Fuchsia Pokemon Center
+print("Navigating to PC at (13, 3)...")
+walk_to_waypoint(3, 4)
+walk_to_waypoint(13, 4)
+walk_to_waypoint(13, 3)
 
-print("Starting manual route to Pokemon Center from (36, 21)...")
-success = True
-for idx, (wx, wy) in enumerate(waypoints):
-    print(f"Waypoint {idx+1}/{len(waypoints)}: ({wx}, {wy})")
-    if not walk_to_waypoint(wx, wy):
-        success = False
-        break
+# Face UP to access the PC
+print("Facing UP...")
+bridge.press_buttons(["Up"])
+time.sleep(0.5)
 
-if success:
-    print("Successfully entered Fuchsia City Pokémon Center!")
-    print("Position:", bridge.get_coordinates())
-else:
-    print("Failed manual route. Position:", bridge.get_coordinates())
+# Boot up the PC
+print("Booting up PC...")
+bridge.press_buttons(["A"])
+time.sleep(1.0)
+bridge.press_buttons(["A"]) # Confirm boot up text
+time.sleep(1.0)
+
+# Select BILL'S PC (usually option 1)
+print("Selecting BILL'S PC...")
+bridge.press_buttons(["A"])
+time.sleep(1.0)
+bridge.press_buttons(["A"]) # Clear "BILL'S PC was accessed" text
+time.sleep(1.0)
+
+# Select CHANGE BOX (usually option 4)
+# Let's count options:
+# 1. WITHDRAW PKMN
+# 2. DEPOSIT PKMN
+# 3. RELEASE PKMN
+# 4. CHANGE BOX
+# 5. CANCEL
+# So we need to press DOWN 3 times, then A.
+print("Selecting CHANGE BOX...")
+bridge.press_buttons(["Down", "Down", "Down", "A"])
+time.sleep(1.2)
+
+# Select Box 4
+# Currently Box 3 is active. The box list is:
+# BOX 1
+# BOX 2
+# BOX 3
+# BOX 4
+# ...
+# We need to press DOWN 3 times to highlight Box 4, then A.
+print("Selecting BOX 4...")
+bridge.press_buttons(["Down", "Down", "Down", "A"])
+time.sleep(1.2)
+
+# Select YES to confirm
+print("Confirming box change...")
+bridge.press_buttons(["A"]) # Select YES
+time.sleep(1.2)
+bridge.press_buttons(["A"]) # Clear "Changed BOX to BOX 4."
+time.sleep(1.2)
+
+# Exit BILL'S PC menu (press B to cancel)
+print("Exiting BILL's PC...")
+bridge.press_buttons(["B"])
+time.sleep(1.0)
+
+# Exit PC main menu (select CANCEL or press B)
+print("Exiting PC...")
+bridge.press_buttons(["B"])
+time.sleep(1.0)
+
+print("PC Box Switch process completed! Verification needed.")
