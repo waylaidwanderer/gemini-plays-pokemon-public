@@ -34,22 +34,34 @@ def walk_to_waypoint(target_x, target_y):
         mgba.press_buttons([btn])
         time.sleep(0.42)
 
-print("--- WALKING DIRECTLY TO GATEHOUSE (NO CUT REQUIRED!) ---")
-# Currently at (26, 14) in overworld.
-waypoints = [
-    (22, 14),
-    (22, 4),
-    (18, 4),
-    (18, 3) # Warp into Gatehouse
-]
+print("--- EXITING PC AND WALKING TO GATEHOUSE ---")
+# Currently at (3, 6) inside PC.
+# Step DOWN to (3, 7)
+walk_to_waypoint(3, 7)
 
-success = True
-for wp in waypoints:
-    if not walk_to_waypoint(wp[0], wp[1]):
-        success = False
-        break
+# Step DOWN to exit
+print("Stepping DOWN to exit...")
+mgba.press_buttons(["Down"])
+time.sleep(1.5)
 
-if success:
+curr = mgba.get_coordinates()
+print("Position outside PC:", curr)
+
+if curr and curr['x'] == 19 and curr['y'] == 28:
+    print("SUCCESS! Outside Pokémon Center.")
+    
+    # Step 2: Walk to Gatehouse entrance (18, 3)
+    waypoints = [
+        (24, 28),
+        (24, 21),
+        (22, 21),
+        (22, 4),
+        (18, 4),
+        (18, 3) # Warp into Gatehouse
+    ]
+    for wp in waypoints:
+        walk_to_waypoint(wp[0], wp[1])
+        
     print("Transitioning into Gatehouse...")
     time.sleep(1.5)
     
@@ -66,7 +78,7 @@ if success:
     time.sleep(0.5)
     
     final_pos = mgba.get_coordinates()
-    print("Final position:", final_pos)
+    print("Final position inside Gatehouse:", final_pos)
     mgba.take_screenshot()
 else:
-    print("Failed to reach Gatehouse.")
+    print("Failed to exit Pokémon Center. Verify current position.")
