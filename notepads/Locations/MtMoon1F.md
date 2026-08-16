@@ -39,3 +39,4 @@
 - Zubat Lv 8 [Encountered & Defeated Turn 513 at (18, 3)]
 - Zubat Lv 7 [Encountered & Defeated Turn 517 at (14, 3)]
 - Clefairy Lv 8 [Encountered Turn 554 at (14, 16)]
+- Zubat Lv 11 [Encountered & Defeated Turn 598 at (4, 2)]
