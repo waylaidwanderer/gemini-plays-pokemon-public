@@ -3,8 +3,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon 1F (x=10, y=17)
-- Current Objective: Flee wild Paras and walk east along row 17 to cross passage (14, 17) towards eastern wing and south entrance
+- Location: Mt. Moon 1F (x=14, y=17)
+- Current Objective: Swap Echo to lead, walk north along col 16 to row 4 and east to eastern chamber and ladder at (25, 15)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
