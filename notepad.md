@@ -5,8 +5,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon 1F (x=29, y=25)
-- Current Objective: Interact with NPC at (30, 27) and explore southern passage to south entrance corridor
+- Location: Mt. Moon 1F (x=30, y=26)
+- Current Objective: Walk south along col 31 to row 34 southern corridor towards southwest chamber item at (2, 20)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -256,6 +256,7 @@
 - Northwest chamber: cols 2-10, rows 2-10. Item Ball at (2, 2) [Moon Stone collected Turn 592], NPC at (5, 6) [Hiker #4 defeated Turn 610]. North wall at row 1, East wall at col 11+, West wall at col 1. (No ladder in this room).
 - Horizontal rock wall at row 18 (cols 2-9). Western passage continues south along columns 10-11 (rows 18-20+).
 - Horizontal rock divider at rows 20-21 (cols 10-15). Passage at row 19 connects East to central corridor (cols 14-16).
+- Friendly NPC at (30, 27): "Go through this cave to get to CERULEAN CITY!"
 - Observed NPC/Trainer at (7, 22) in southwest pocket.
 - Northeast sector open chamber around (35, 7) extending eastward to col 37 (rows 2-7). East boundary rock wall at col 38, north rock wall at row 1.
 - Northern corridor runs westward along rows 2-5 across columns 35 down towards northwest sector.
