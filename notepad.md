@@ -18,7 +18,8 @@
 - `Locations/MtMoonB1F`: Mt. Moon B1F layout, ladders, wild encounters
 - `Locations/MtMoonB2F`: Mt. Moon B2F layout, Rocket Grunts, items, wild encounters
 - `Locations/Route4`: Route 4 layout, ledges, wild encounters
-- `Locations/CeruleanCity`: Cerulean City layout, Gym, Mart, Bike Shop, NPCs- `Locations/Route24`: Route 24 layout, Nugget Bridge, Rival battle, trainers
+- `Locations/CeruleanCity`: Cerulean City layout, Gym, Mart, Bike Shop, NPCs
+- `Locations/Route24`: Route 24 layout, Nugget Bridge, Rival battle, trainers
 
 
 <hr>
