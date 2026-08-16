@@ -16,3 +16,4 @@
 - Battle Log: Defeated RED's Pidgeotto Lv 18 with critical hit Bubblebeam (Turn 1509). Hydros grew to Lv 25.
 - Battle Log: Defeated RED's Abra Lv 15 with Bite (Turn 1514). Defeated RED's Rattata Lv 15 with Terra's Tackle (Turn 1520).
 - Rival RED Battle Complete: Defeated Pidgeotto Lv 18, Abra Lv 15, Rattata Lv 15, Bulbasaur Lv 17. Claimed prize money.
+- Rival RED Battle Result: Victory! Reward: ¥595. Team defeated: Pidgeotto Lv 18, Abra Lv 15, Rattata Lv 15, Bulbasaur Lv 17. Post-battle dialogue: RED informs player about Bill the Pokémaniac who invented the PC Storage System.

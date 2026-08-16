@@ -39,7 +39,7 @@
    - Moves: Leech Life (15/15)
    - Role: Fast Flying/Poison utility & Grass counter
 3. TERRA (Geodude) - Lv 13
-   - Stats (Verified at Lv 13): Max HP 36 (HP: 36/36, Healthy), Attack 29, Defense 32, Speed 14, Special 13
+   - Stats (Verified at Lv 13): Max HP 36 (HP: 33/36, Healthy), Attack 29, Defense 32, Speed 14, Special 13
    - Type: Rock / Ground
    - Moves: Tackle (29/35), Defense Curl (40/40)
    - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist
@@ -48,7 +48,7 @@
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
 ## Inventory & Resources (Verified Turn 1354)
-- Money: ¥4122
+- Money: ¥4717 (Verified Turn 1527)
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pokémon up to Lv 30 obey)
 - Key Items: Town Map, Pokédex, Helix Fossil
 - TMs / HMs: TM34 (Bide), TM11 (Bubblebeam)
@@ -508,5 +508,6 @@
 - Battle Log: Defeated RED's Pidgeotto Lv 18 with critical hit Bubblebeam (Turn 1509). Hydros grew to Lv 25.
 - Battle Log: Defeated RED's Abra Lv 15 with Bite (Turn 1514). Defeated RED's Rattata Lv 15 with Terra's Tackle (Turn 1520).
 - Rival RED Battle Complete: Defeated Pidgeotto Lv 18, Abra Lv 15, Rattata Lv 15, Bulbasaur Lv 17. Claimed prize money.
+- Rival RED Battle Result: Victory! Reward: ¥595. Team defeated: Pidgeotto Lv 18, Abra Lv 15, Rattata Lv 15, Bulbasaur Lv 17. Post-battle dialogue: RED informs player about Bill the Pokémaniac who invented the PC Storage System.
 
 <hr>
