@@ -32,3 +32,17 @@
 - Doorway exit at (0, 0).
 - NPC at (2, 3).
 - Table at (0, 5)/(1, 5), Bed at (3, 4)/(3, 5).
+## North Cabin 1 (Upper Hallway Entrance at 23, 3)
+- Boy NPC at (10, 13).
+- Machoke NPC at (11, 12). Dialogue: "MACHOKE: Gwoh! Goggoh!"
+- Table at (10, 11)/(11, 11), Bed at (13, 11)/(13, 12).
+
+## North Cabin 2 (Upper Hallway Entrance at 19, 3)
+- Trainer: Sailor at (2, 13) [Defeated Turn 1977]. Team: Tentacool Lv 17. Reward: �510. Dialogue: "My sailor's pride is at stake!" Defeat: "Your spirit sank me!"
+- NPC: Sailor at (0, 13).
+- Table at (0, 11)/(1, 11), Bed at (3, 11)/(3, 12).
+
+## Upper Hallway (Connecting 2F at 37, 15)
+- Layout: cols 15-27, rows 4-5.
+- Doorways along north wall at (15, 3), (19, 3), (23, 3).
+- Connection to 2F East Corridor at (27, 5) <-> (37, 15).
