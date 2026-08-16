@@ -362,5 +362,6 @@
 - Zubat Lv 9 [Encountered Turn 863 at (28, 22)]
 - Geodude Lv 9 [Encountered Turn 867 at (23, 24)]
 - Paras [Encountered Turn 872 at (21, 24)]
+- Zubat [Encountered Turn 876 at (27, 24)]
 
 <hr>
