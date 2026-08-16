@@ -3,8 +3,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon 1F (x=25, y=14)
-- Current Objective: Walk south along col 26 to row 24 to explore southeast corridor and route to southwest chamber item at (2, 20)
+- Location: Mt. Moon 1F (x=26, y=17)
+- Current Objective: Flee wild Paras and walk south along col 26 to row 24 towards southwest chamber item at (2, 20)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
