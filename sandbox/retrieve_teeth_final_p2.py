@@ -147,27 +147,27 @@ def navigate_to_waypoint(target_x, target_y, blocked_edges):
 blocked_edges = set()
 
 # ==========================================
-# PHASE 2: Area 1 (East) -> Area 2 (North) (Resuming from (0, 21))
+# PHASE 2: Area 1 (East) -> Area 2 (North) (Resuming from current position)
 # ==========================================
 curr = mgba.get_coordinates()
 print("Starting coordinates in Area 1 (East):", curr)
 
 area1_waypoints = [
-    (20, 21), # Walk East along Row 21 to Column 20 (Open corridor)
-    (20, 20), # Climb southern plateau stairs
-    (12, 20), # Walk Left across plateau
-    (12, 22), # Descend stairs to ground
-    (8, 22),  # Walk Left
-    (8, 8),   # Walk Up Column 8
-    (12, 8),  # Walk Right
-    (12, 6),  # Climb northern plateau stairs
-    (17, 6),  # Walk Right across plateau
-    (17, 8),  # Descend stairs to ground
-    (20, 8),  # Walk Right
-    (20, 3),  # Walk Up Column 20
-    (7, 3),   # Walk Left along Row 3
-    (7, 5),   # Walk Down
-    (0, 5)    # Walk Left to transition
+    (20, 21), # Climb plateau stairs
+    (20, 20),
+    (12, 20), # Left along plateau
+    (12, 22), # Descend plateau
+    (8, 22),  # Left
+    (8, 8),   # Up Column 8
+    (12, 8),  # Right
+    (12, 6),  # Climb northern plateau
+    (17, 6),  # Right along plateau
+    (17, 8),  # Descend northern plateau
+    (20, 8),  # Right
+    (20, 3),  # Up Column 20
+    (7, 3),   # Left Row 3
+    (7, 5),   # Down
+    (0, 5)    # Left Row 5 transition
 ]
 
 print("--- PHASE 2: Navigating Area 1 (East) ---")
@@ -180,81 +180,7 @@ for _ in range(4):
     time.sleep(0.5)
 time.sleep(1.5)
 
-# ==========================================
-# PHASE 3: Area 2 (North) -> Area 3 (West)
-# ==========================================
-curr = mgba.get_coordinates()
-print("Coordinates in Area 2 (North):", curr)
-
-# Reset blocked edges for the new map
-blocked_edges = set()
-
-area2_waypoints = [
-    (22, 31),
-    (22, 22),
-    (16, 22),
-    (16, 28),
-    (12, 28),
-    (12, 30),
-    (8, 30),
-    (8, 35)
-]
-
-print("--- PHASE 3: Navigating Area 2 (North) ---")
-for wp in area2_waypoints:
-    navigate_to_waypoint(wp[0], wp[1], blocked_edges)
-
-print("At transition (8, 35). Transitioning to Area 3 (West)...")
-for _ in range(4):
-    mgba.press_buttons(["Down"])
-    time.sleep(0.5)
-time.sleep(1.5)
-
-# ==========================================
-# PHASE 4: Area 3 (West) -> (19, 26)
-# ==========================================
-curr = mgba.get_coordinates()
-print("Coordinates in Area 3 (West):", curr)
-
-# Reset blocked edges for the new map
-blocked_edges = set()
-
-area3_waypoints = [
-    (25, 2),
-    (25, 18),
-    (21, 18),
-    (21, 26),
-    (19, 26)
-]
-
-print("--- PHASE 4: Navigating Area 3 (West) to Gold Teeth ---")
-for wp in area3_waypoints:
-    navigate_to_waypoint(wp[0], wp[1], blocked_edges)
-
-print("--- PHASE 5: Retrieving Gold Teeth ---")
-# Face UP to look at the Gold Teeth at (19, 25)
-print("Facing UP...")
-mgba.press_buttons(["Up"])
-time.sleep(0.5)
-
-screenshot_path = mgba.take_screenshot()
-print(f"Verify screenshot before pickup: {screenshot_path}")
-
-# Press A to pick up the teeth
-print("Pressing A...")
-mgba.press_buttons(["A"])
-time.sleep(1.5)
-
-# Clear dialogues
-print("Clearing dialogue...")
-mgba.press_buttons(["A"])
-time.sleep(1.0)
-mgba.press_buttons(["A"])
-time.sleep(1.0)
-
 final_pos = mgba.get_coordinates()
-print("Final coordinates after pickup:", final_pos)
-
-final_screenshot = mgba.take_screenshot()
-print(f"Final screenshot: {final_screenshot}")
+print("Final coordinates inside Area 2 (North):", final_pos)
+mgba.take_screenshot()
 
