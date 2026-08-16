@@ -1,130 +1,51 @@
 import mgba
 import time
-from PIL import Image
 
-def get_textbox_ratio():
-    screenshot_path = mgba.take_screenshot()
-    img = Image.open(screenshot_path)
-    
-    white_pixels = 0
-    total_pixels = 0
-    
-    for x in range(60, 420):
-        for y in range(360, 405):
-            r, g, b, *a = img.getpixel((x, y))
-            if r > 220 and g > 220 and b > 220 and abs(r - g) < 15 and abs(g - b) < 15:
-                white_pixels += 1
-            total_pixels += 1
-            
-    return white_pixels / total_pixels
+print("--- WALKING TO WARDEN'S HOUSE ---")
 
-def check_and_handle_battle():
-    ratio = get_textbox_ratio()
-    if ratio < 0.70:
-        return False
+# Start at (5, 28) outside Gym.
+# 1. Walk Right 17 steps to (22, 28).
+# 2. Walk Up 3 steps on Column 22 to (22, 25).
+# 3. Walk Right 2 steps to (24, 25).
+# 4. Walk Down 2 steps to (24, 27).
+# 5. Walk Right 3 steps to (27, 27).
+# 6. Walk Up 1 step to enter the Warden's House!
+
+def get_pos():
+    return mgba.get_coordinates()
+
+start_pos = get_pos()
+print("Starting position:", start_pos)
+
+path_moves = [
+    ("Right", 17), # to (22, 28)
+    ("Up", 3),     # to (22, 25)
+    ("Right", 2),  # to (24, 25)
+    ("Down", 2),   # to (24, 27)
+    ("Right", 3),  # to (27, 27)
+    ("Up", 1),     # enter Warden's House!
+]
+
+for move, steps in path_moves:
+    for s in range(steps):
+        pos = get_pos()
+        print(f"Current Position: {pos}. Pressing {move}...")
         
-    print(f"Dialogue/TextBox detected. Pressing B to clear...")
-    for _ in range(4):
-        mgba.press_buttons(["B"])
-        time.sleep(0.2)
-    return True
-
-def get_path_bfs(start, target, blocked_edges):
-    queue = [[start]]
-    visited = {start}
-    
-    max_x, max_y = 39, 35
-    
-    while queue:
-        path = queue.pop(0)
-        curr = path[-1]
-        if curr == target:
-            return path
-            
-        for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:
-            neighbor = (curr[0] + dx, curr[1] + dy)
-            if 0 <= neighbor[0] <= max_x and 0 <= neighbor[1] <= max_y:
-                # Basic Fuchsia City overworld blockages
-                # Column 25 fence posts (rows 23-26, and 28-29)
-                if neighbor[0] == 25 and neighbor[1] in [23, 24, 25, 26, 28, 29]:
-                    continue
-                # Row 29 fence posts (columns 25-29)
-                if neighbor[1] == 29 and 25 <= neighbor[0] <= 29:
-                    continue
-                # Row 16 Tree Barrier (Columns 27-35)
-                if neighbor[1] == 16 and 27 <= neighbor[0] <= 35:
-                    continue
-                    
-                if neighbor not in visited:
-                    edge = (curr, neighbor)
-                    if edge not in blocked_edges:
-                        visited.add(neighbor)
-                        queue.append(path + [neighbor])
-    return None
-
-def navigate_to_target(target_x, target_y):
-    blocked_edges = set()
-    steps = 0
-    
-    print(f"Navigating to Warden's House doormat at ({target_x}, {target_y})...")
-    
-    while True:
-        if steps >= 35:
-            print("Step limit reached!")
-            return False
-            
-        check_and_handle_battle()
+        mgba.press_buttons([move])
+        time.sleep(0.4)
         
-        curr = mgba.get_coordinates()
-        if curr is None:
-            time.sleep(0.5)
-            continue
+        # In Gen 1, if we just turned, we need a second press.
+        # But wait, mgba.press_buttons automatically turns and steps if we hold/press,
+        # but let's check if the position changed.
+        new_pos = get_pos()
+        if new_pos == pos:
+            # We turned but didn't step, or bumped. Press again!
+            print(f"Position unchanged. Pressing {move} again...")
+            mgba.press_buttons([move])
+            time.sleep(0.4)
+            new_pos = get_pos()
             
-        cx, cy = curr['x'], curr['y']
-        if cx == target_x and cy == target_y:
-            print("Arrived at target!")
-            return True
-            
-        path = get_path_bfs((cx, cy), (target_x, target_y), blocked_edges)
-        if not path or len(path) < 2:
-            print("No path found!")
-            return False
-            
-        next_step = path[1]
-        dx = next_step[0] - cx
-        dy = next_step[1] - cy
-        
-        if dx == 1: btn = "Right"
-        elif dx == -1: btn = "Left"
-        elif dy == 1: btn = "Down"
-        else: btn = "Up"
-        
-        print(f"Step {steps+1}: At ({cx}, {cy}). Stepping {btn} to {next_step}...")
-        mgba.press_buttons([btn])
-        time.sleep(0.45)
-        steps += 1
-        
-        post = mgba.get_coordinates()
-        if post is None:
-            time.sleep(0.5)
-            continue
-            
-        px, py = post['x'], post['y']
-        if (px, py) == (cx, cy):
-            if check_and_handle_battle():
-                continue
-            else:
-                print(f"BUMPED! Blocking edge {((cx, cy), next_step)}")
-                blocked_edges.add(((cx, cy), next_step))
-                blocked_edges.add((next_step, (cx, cy)))
+        print(f"New Position after {move}: {new_pos}")
 
-# Run the navigation from current position (31, 17) to doormat (27, 28)
-navigate_to_target(27, 28)
-
-# Press UP to enter the Warden's House
-print("Entering Warden's House...")
-mgba.press_buttons(["Up"])
-time.sleep(1.5)
-
-print("Current coordinates inside:", mgba.get_coordinates())
 mgba.take_screenshot()
+print("Final Position:", get_pos())
