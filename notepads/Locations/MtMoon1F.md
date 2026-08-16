@@ -33,7 +33,7 @@
 - Item Ball: Located at (2, 20) in southwest chamber [Discovered Turn 676]
 - Item Ball: Located at (35, 31) in southeast sector - Rare Candy [Collected Turn 725]
 - Item Ball: Located at (20, 33) in south-central sector [Collected Turn 733]
-- NPC/Trainer: Located at (24, 31) in south-central sector [Observed Turn 732]
+- Trainer #6: Located at (24, 31) facing North [Engaged Turn 735]. Pre-battle dialogue: "What! Don't sneak up on me!"
 
 ## Verified Trainers
 - Trainer #1: Located at (16, 23) facing West/North [Observed Turn 469]
