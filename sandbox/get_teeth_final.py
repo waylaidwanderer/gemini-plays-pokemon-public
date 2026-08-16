@@ -62,12 +62,13 @@ def walk_to_waypoint(target_x, target_y):
         time.sleep(0.42)
 
 # ==========================================================
-# PHASE 4 (FINAL RETRIEVAL FROM (6, 23)): (6, 23) -> Gold Teeth!
+# PHASE 4 (STAIRS RETRIEVAL FROM (15, 24)): (15, 24) -> Gold Teeth!
 # ==========================================================
-print("--- PHASE 4: FINAL RETRIEVAL FROM (6, 23) ---")
+print("--- PHASE 4: STAIRS RETRIEVAL FROM (15, 24) ---")
 waypoints = [
-    (6, 26),  # Walk DOWN to Row 26 (Highway)
-    (19, 26)  # Stand at (19, 26) directly below the teeth!
+    (16, 24), # Step onto stairs at (16, 24)
+    (16, 26), # Walk down stairs onto Row 26
+    (19, 26)  # Walk right to (19, 26) below the teeth
 ]
 
 for wp in waypoints:
@@ -90,7 +91,7 @@ time.sleep(1.0)
 mgba.press_buttons(["A"])
 time.sleep(1.0)
 
-# Verify final position
+# Verify final position and items
 final_pos = mgba.get_coordinates()
 print("Final check of position:", final_pos)
 
@@ -98,7 +99,8 @@ print("Final check of position:", final_pos)
 obsolete_files = [
     "get_teeth_from_north.py",
     "get_teeth_from_east.py",
-    "get_teeth_fast.py"
+    "get_teeth_fast.py",
+    "check_stairs.py"
 ]
 for f in obsolete_files:
     if os.path.exists(f):
