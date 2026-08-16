@@ -251,12 +251,12 @@
 - Vertical rock wall at columns 12-13 (rows 2-15) dividing north-central corridor (cols 14-17) from western corridor (cols 10-11)
 - Cross passage connecting central hall to western corridor at row 17 (cols 11-14)
 - Western corridor runs along columns 10-11 heading north to northwest sector
-- Northwest chamber: cols 4-7, rows 4-10+. Ladder at (5, 5). North wall at row 3, East wall at col 8, West wall at col 3.
+- Northwest chamber: cols 2-7, rows 2-10+. Ladder at (5, 5), NPC at (5, 6). North wall at row 1, East wall at col 8, West wall at col 1.
 - Northeast sector open chamber around (35, 7) extending eastward to col 37 (rows 2-7). East boundary rock wall at col 38, north rock wall at row 1.
 - Northern corridor runs westward along rows 2-5 across columns 35 down towards northwest sector.
 
 ## Items & Discoveries
-- (Exploring Mt. Moon 1F item locations)
+- Item Ball: Located at (2, 2) in northwest chamber [Discovered Turn 591]
 
 ## Verified Trainers
 - Trainer #1: Located at (16, 23) facing West/North [Observed Turn 469]
