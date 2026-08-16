@@ -13,12 +13,58 @@ def escape_battle():
         time.sleep(0.1)
     print("Escape sequence complete.")
 
-# Currently at (3, 23).
-print("--- SEARCHING WESTERN COLUMNS FOR SOUTHWARD GAP ---")
+def walk_to_waypoint(target_x, target_y):
+    print(f"Navigating to waypoint ({target_x}, {target_y})...")
+    stuck_count = 0
+    last_coords = None
+    
+    while True:
+        curr = mgba.get_coordinates()
+        if curr is None:
+            print("Coordinates are None. Waiting...")
+            time.sleep(0.5)
+            continue
+            
+        x, y = curr['x'], curr['y']
+        if x == target_x and y == target_y:
+            print(f"Reached waypoint ({target_x}, {target_y})")
+            return True
+            
+        if (x, y) == last_coords:
+            stuck_count += 1
+            if stuck_count > 3:
+                print(f"Stuck at ({x}, {y}) trying to reach ({target_x}, {target_y})")
+                escape_battle()
+                time.sleep(0.5)
+                stuck_count = 0
+                after = mgba.get_coordinates()
+                if after['x'] == x and after['y'] == y:
+                    print("Coordinates unchanged. Pressing A/B...")
+                    mgba.press_buttons(["A", "B", "A", "B"])
+                    time.sleep(0.5)
+        else:
+            stuck_count = 0
+            last_coords = (x, y)
+            
+        # Choose direction to move
+        if x < target_x:
+            btn = "Right"
+        elif x > target_x:
+            btn = "Left"
+        elif y < target_y:
+            btn = "Down"
+        elif y > target_y:
+            btn = "Up"
+            
+        mgba.press_buttons([btn])
+        time.sleep(0.42)
+
+# Currently at (7, 23).
+print("--- SEARCHING WESTERN COLUMNS FROM COLUMN 8 ---")
 found_col = None
 
-# We will test columns from Column 2 up to Column 12
-for col in range(2, 13):
+# We will test columns from Column 8 up to Column 17
+for col in range(8, 18):
     # Walk to (col, 23)
     print(f"Moving horizontally to Column {col}...")
     while True:
@@ -119,4 +165,4 @@ if found_col is not None:
     screenshot_path = mgba.take_screenshot()
     print(f"Screenshot: {screenshot_path}")
 else:
-    print("FAILED: No open columns found on Columns 2-12 on Row 24!")
+    print("FAILED: No open columns found on Columns 8-17 on Row 24!")
