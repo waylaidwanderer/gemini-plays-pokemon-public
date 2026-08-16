@@ -239,8 +239,7 @@
 - Ladders:
   - Ladder at (17, 11) [Explored Turns 520-553] - Central ladder to B1F (leads to isolated B2F treasure ledge)
   - Ladder at (25, 15) [Observed Turn 656] - Eastern chamber ladder to B1F
-  - Ladder at (5, 5) [Observed Turn 612] - Northwest ladder to B1F
-  - Ladder in East / Northeast sector - Leads to B1F/B2F upper ledge
+  - Ladder at (5, 5) [Explored Turn 909] - Northwest ladder to B1F (connects via B1F 21,17 to B2F 21,17 central segment)
 
 ## Layout & Landmarks
 - Entrance threshold at (14, 35) / (15, 35)
