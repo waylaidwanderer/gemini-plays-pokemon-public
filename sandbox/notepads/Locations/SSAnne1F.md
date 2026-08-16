@@ -13,4 +13,4 @@
 - Cabins line the north and south sides of the corridor.
 
 ## Verified NPCs & Dialogue
-- Waiter / Steward: Located at (27, 5).
+- Steward: Located at (27, 5). Dialogue: "You might be challenged by the more restless passengers!"
