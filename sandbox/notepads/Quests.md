@@ -13,5 +13,6 @@
 - [x] Travel east across Route 25 to visit Bill at Sea Cottage [Arrived Turn 1737]
 - [x] Help Bill run the Cell Separation System & receive S.S. Ticket [Turn 1751]
 - [x] Defeat Team Rocket Grunt in Cerulean backyard & recover TM28 (Dig) [Turn 1820]
-- [ ] Travel south from Cerulean City to Vermilion City via Route 5
+- [x] Travel south from Cerulean City to Vermilion City via Route 5 & Route 6 [Arrived Turn 1876]
 - [ ] Board the S.S. Anne in Vermilion City
+- [ ] Defeat Gym Leader Lt. Surge in Vermilion Gym
