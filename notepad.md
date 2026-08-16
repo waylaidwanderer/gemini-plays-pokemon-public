@@ -5,8 +5,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon 1F (x=10, y=10)
-- Current Objective: Walk south along col 10 to row 19 and east towards south-central corridor to access southwest chamber (rows 20-35)
+- Location: Mt. Moon 1F (x=13, y=19)
+- Current Objective: Scout far western passage at (2, 17) to check direct access into southwest chamber
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
