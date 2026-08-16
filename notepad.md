@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 2/8 (Boulder Badge, Cascade Badge)
-- Location: Route 25 (x=32, y=2)
+- Location: Bill's Sea Cottage (x=2, y=7)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -20,6 +20,8 @@
 - `Locations/Route4`: Route 4 layout, ledges, wild encounters
 - `Locations/CeruleanCity`: Cerulean City layout, Gym, Mart, Bike Shop, NPCs
 - `Locations/Route24`: Route 24 layout, Nugget Bridge, Rival battle, trainers
+- `Locations/BillsHouse`: Bill's Sea Cottage layout, Cell Separator machine, Bill interactions
+
 
 <hr>
 
@@ -496,6 +498,29 @@
 - Trainer #6 (Jr. Trainer ♂): Located at (24, 4..5) [Defeated Turn 1709]. Team: Rattata Lv 14, Ekans Lv 14. Reward: ¥280. Dialogue: "I'm a cool guy. I've got a girl friend!" Defeat quote: "Aww, darn..."
 - Trainer #7 (Youngster): Located at (32, 3) [Defeated Turn 1719]. Team: Ekans Lv 14, Sandshrew Lv 14. Dialogue: "I knew I had to fight you!" Defeat quote: "I knew I'd lose too!"
 - Trainer #8 (Lass): Located at (37, 4) outside Bill's Sea Cottage [Defeated Turn 1732]. Team: Oddish Lv 13, Pidgey Lv 13, Oddish Lv 13. Reward: ¥195. Dialogue: "cute POKéMON. I'm so jealous!" Defeat quote: "I'm not so jealous!"
+
+
+<hr>
+
+<h1><code>Locations/BillsHouse</code></h1>
+
+# Bill's Sea Cottage (Route 25) - Points of Interest & Notes
+
+## Connections
+- South: Exit door at (2..3, 8) leading back to Route 25 exterior at (45, 3)
+
+## Layout & Objects
+- Interior dimensions: 8x8 room
+- Left Teleporter / Cell Separator capsule: (2, 4)
+- Bill's PC terminal / Cell Separation control system: (1, 4..5)
+- Right Teleporter / Cell Separator capsule: (6, 4)
+- Bill (fused Pokémon sprite): Located at (6, 5)
+
+## Quest Steps
+1. Speak with Bill (Pokemon form at 6, 5) and agree to help run the Cell Separation System.
+2. Bill enters the right teleporter.
+3. Interact with Bill's PC terminal at (1, 4..5) to initiate Cell Separation.
+4. Speak with human Bill to receive the S.S. Ticket!
 
 
 <hr>
