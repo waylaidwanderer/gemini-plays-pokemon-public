@@ -1,9 +1,12 @@
 import mgba
 import time
 
-def press_and_wait(btn, delay=0.8):
+def press_and_screenshot(btn, label, delay=1.0):
+    print(f"Pressing {btn} for {label}...")
     mgba.press_buttons([btn])
     time.sleep(delay)
+    path = mgba.take_screenshot()
+    print(f"Screenshot [{label}]: {path}")
 
 def walk_to_waypoint(target_x, target_y):
     print(f"Navigating to waypoint ({target_x}, {target_y})...")
@@ -38,37 +41,37 @@ def walk_to_waypoint(target_x, target_y):
         mgba.press_buttons([btn])
         time.sleep(0.42)
 
-# Step 1: Walk UP to (26, 14) so we are directly in front of the bush
-print("Walking to (26, 14)...")
-walk_to_waypoint(26, 14)
+print("--- ROBUST CUT BUSH AND GO ---")
 
-# Face UP
+# Step 1: Walk to (26, 14) and face UP
+walk_to_waypoint(26, 14)
 mgba.press_buttons(["Up"])
 time.sleep(0.5)
 
-# Step 2: Use CUT on the bush directly in front of us
-print("Executing CUT on bush at (26, 13)...")
-# Open Start menu
-mgba.press_buttons(["Start"])
-time.sleep(1.0)
+# Step 2: Open Start menu and force cursor to POKEDEX (top)
+press_and_screenshot("Start", "start_menu_open")
 
-# Select POKEMON (second option: Down, then A)
-mgba.press_buttons(["Down", "A"])
-time.sleep(1.0)
+# Press UP 7 times to force cursor to the very top
+for i in range(7):
+    mgba.press_buttons(["Up"])
+    time.sleep(0.2)
+print("Cursor forced to top (POKEDEX)")
+
+# Press Down once to highlight POKEMON, then A to select
+press_and_screenshot("Down", "highlight_pokemon")
+press_and_screenshot("A", "pokemon_menu")
 
 # Select TRUFFLE in Slot 2 (Down, then A)
-mgba.press_buttons(["Down", "A"])
-time.sleep(1.0)
+press_and_screenshot("Down", "highlight_truffle")
+press_and_screenshot("A", "truffle_submenu")
 
 # Select Option 2 (CUT is Option 2: Down, then A)
-mgba.press_buttons(["Down", "A"])
-time.sleep(3.0) # Wait for CUT animation and text
+press_and_screenshot("Down", "highlight_cut")
+press_and_screenshot("A", "cut_execution", delay=3.0)
 
-# Dismiss any leftover text by pressing B
-for _ in range(4):
-    mgba.press_buttons(["B"])
-    time.sleep(0.5)
-print("CUT execution complete.")
+# Clear dialogue and exit back to overworld
+for i in range(4):
+    press_and_screenshot("B", f"clear_text_{i+1}", delay=0.5)
 
 # Step 3: Walk to the Gatehouse
 waypoints = [
