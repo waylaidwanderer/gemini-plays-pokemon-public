@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 2/8 (Boulder Badge, Cascade Badge)
-- Location: S.S. Anne 1F (x=2, y=15)
+- Location: S.S. Anne Kitchen (x=6, y=1)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -620,7 +620,6 @@
 - Pokémon Fan Club: Located at cols 8-11, rows 10-13 with entrance door at (9, 13) and signpost at (7, 13).
   - Chairman at (3, 1) talks about Rapidash and Fearow and rewards player with BIKE VOUCHER [Obtained Turn 1902].
 - Vermilion Gym: Located at cols 8-13, rows 16-19 with "GYM" sign at (10..11, 18) and Cut bush at (15, 18).
-- Vermilion Port / S.S. Anne: (To Explore)
 
 ## Vermilion Port & S.S. Anne Entrance
 - Dock Entrance: Pier starts at (30, 15..26), turns west along rows 26-27 to column 18.
