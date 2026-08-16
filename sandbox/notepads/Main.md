@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon B2F (x=12, y=9)
+- Location: Mt. Moon B2F (x=16, y=3)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
