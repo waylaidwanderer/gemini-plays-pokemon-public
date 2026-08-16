@@ -28,10 +28,10 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. HYDROS (Wartortle) - Lv 24
-   - Stats (Verified at Lv 24): Max HP 70 (HP: 70/70, Healthy), Attack 42, Defense 47, Speed 43, Special 46
+1. HYDROS (Wartortle) - Lv 25
+   - Stats (Verified at Lv 25): Max HP 73 (HP: 21/73, Healthy), Attack 43, Defense 49, Speed 45, Special 47
    - Type: Water
-   - Moves: Tackle (35/35), Tail Whip (30/30), Bite (25/25), Bubblebeam (20/20)
+   - Moves: Tackle (35/35), Tail Whip (30/30), Bite (25/25), Bubblebeam (19/20)
    - Role: Starter & primary Water special attacker (Active Lead)
 2. ECHO (Zubat) - Lv 8
    - Stats (Verified at Lv 8): Max HP 26 (HP: 26/26, Healthy)
@@ -505,5 +505,6 @@
 ## Verified Encounters & Battles
 - Rival RED Encounter: Located at (20, 5) [Triggered Turn 1499]. Pre-battle dialogue: "Yo! BLUE! You're still struggling along back here? I'm doing great! I caught a bunch of smart and strong POKéMON! Here, let me see what you caught, BLUE!"
 
+- Battle Log: Defeated RED's Pidgeotto Lv 18 with critical hit Bubblebeam (Turn 1509). Hydros grew to Lv 25.
 
 <hr>
