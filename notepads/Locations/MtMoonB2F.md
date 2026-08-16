@@ -6,6 +6,7 @@
 - Ladder at (15, 27): Connects to Mt. Moon B1F southern tunnel [Discovered Turn 852]
 
 ## Layout & Landmarks
+- Western passage along cols 8-11 connects rows 20-32. Cols 12-13 form north bypass corridor through rows 8-17 leading into upper fossil chamber.
 - Isolated B2F treasure chamber (accessed via central ladder at 25, 9)
 - Lower floor: cols 24-35, rows 8-11
 - Dividing wall at col 23 running rows 5-11
@@ -46,4 +47,4 @@
 - Zubat [Encountered Turn 1043 at (21, 7)]
 - Zubat [Encountered Turn 1044 at (24, 13)]
 - Zubat [Encountered Turn 1058 at (35, 12)]
-- Rocket Grunt #4: Located at (11, 16) facing South [Engaged Turn 1068]. Dialogue: "TEAM ROCKET will find the fossils..."
+- Rocket Grunt #4: Located at (11, 16) facing South [Defeated Turn 1072]. Dialogue: "TEAM ROCKET will find the fossils, revive and sell them for cash!" Team: Rattata Lv 13, Zubat Lv 13. Reward: ¥390.
