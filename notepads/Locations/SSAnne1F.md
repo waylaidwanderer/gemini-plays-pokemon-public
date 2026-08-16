@@ -18,5 +18,5 @@
 - Trainer: Gentleman at (1, 3). Dialogue: "I travel alone on my journeys! My POKéMON are my only friends!" Team: 2 Pokémon.
 - Items: None.
 ## Cabin 2 (South Corridor - Entrance at 23, 8)
-- NPC: Lady / Girl at (2, 3).
-- Items: Searching table / trash.
+- Trainer: Gentleman at (11, 4). Team: Nidoran♂ Lv 19, Nidoran♀ Lv 19.
+- Items: Checked table/trash.
