@@ -19,12 +19,13 @@
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
-## Inventory & Resources (Verified Turn 571)
-- Money: ¥1724 (Updated with +¥150 prize money from Youngster #3)
+## Inventory & Resources (Verified Turn 594)
+- Money: ¥2724 (Verified on Trainer Card)
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Pokémon Attack)
 - Key Items: Town Map, Pokédex
 - TMs / HMs: TM34 (Bide)
 - Consumables:
   - 1x Antidote (Status cure: Poison)
+  - 1x Moon Stone (Evolution item found in Mt. Moon 1F)
   - 0x Potion (None remaining)
   - 0x Poké Ball (Exhausted in Mt. Moon)

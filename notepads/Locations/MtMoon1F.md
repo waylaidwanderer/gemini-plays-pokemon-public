@@ -23,7 +23,7 @@
 - Northern corridor runs westward along rows 2-5 across columns 35 down towards northwest sector.
 
 ## Items & Discoveries
-- Item Ball: Located at (2, 2) in northwest chamber [Discovered Turn 591]
+- Item Ball: Located at (2, 2) in northwest chamber - Moon Stone [Collected Turn 592]
 
 ## Verified Trainers
 - Trainer #1: Located at (16, 23) facing West/North [Observed Turn 469]
