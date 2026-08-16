@@ -5,7 +5,6 @@ from PIL import Image
 def get_textbox_ratio():
     screenshot_path = mgba.take_screenshot()
     img = Image.open(screenshot_path)
-    gray = img.convert("L")
     
     white_pixels = 0
     total_pixels = 0
@@ -13,8 +12,9 @@ def get_textbox_ratio():
     # Bottom region coordinates scaled for 3x (480 x 432 image size)
     for x in range(60, 420):
         for y in range(360, 405):
-            val = gray.getpixel((x, y))
-            if val > 200:
+            r, g, b, *a = img.getpixel((x, y))
+            # Color-based check for pure white/light gray textbox background
+            if r > 220 and g > 220 and b > 220 and abs(r - g) < 15 and abs(g - b) < 15:
                 white_pixels += 1
             total_pixels += 1
             
