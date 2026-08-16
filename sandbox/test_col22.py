@@ -1,22 +1,32 @@
+import mgba
 import time
-import bridge
 
-print("Starting test_col22.py")
+print("--- TESTING COLUMN 22 WALKABILITY ---")
 
-# Walk Left to (22, 15)
-print("Moving Left to (22, 15)...")
-bridge.press_buttons(["Left"])
-time.sleep(0.6)
-print(f"Coords: {bridge.get_coordinates()}")
+def get_pos():
+    return mgba.get_coordinates()
 
-# Walk Up to (22, 14)
-print("Moving Up to (22, 14)...")
-bridge.press_buttons(["Up"])
-time.sleep(0.6)
-print(f"Coords: {bridge.get_coordinates()}")
+# Start at (19, 22) facing UP.
+# Walk to Column 22 Row 22.
+print("Walking to (22, 22)...")
+mgba.press_buttons(["Right"])
+time.sleep(0.4)
+for _ in range(3):
+    mgba.press_buttons(["Right"])
+    time.sleep(0.4)
+print("Position:", get_pos())
 
-# Walk Up to (22, 13)
-print("Moving Up to (22, 13)...")
-bridge.press_buttons(["Up"])
-time.sleep(0.6)
-print(f"Coords: {bridge.get_coordinates()}")
+# Now walk DOWN Column 22 to Row 26 step-by-step
+print("Walking DOWN Column 22...")
+for step in range(5):
+    pos = get_pos()
+    mgba.press_buttons(["Down"])
+    time.sleep(0.4)
+    new_pos = get_pos()
+    print(f"Step {step+1}: from {pos} to {new_pos}")
+    if new_pos == pos:
+        print(f"BLOCKED at {pos} going Down!")
+        break
+
+mgba.take_screenshot()
+print("Final Position:", get_pos())
