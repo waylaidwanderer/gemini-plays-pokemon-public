@@ -696,5 +696,10 @@
 - Girl NPC at (2, 11) with Pokémon at (3, 11).
 - NPC at (0, 14).
 - Table at (0, 15)/(1, 15), Bed at (3, 14)/(3, 15).
+## Cabin 3 (South Corridor - Entrance at 23, 8)
+- Coordinates: cols 10-13, rows 0-5.
+- Doorway exit at (10, 0).
+- NPC at (11, 4).
+- Table at (10, 5)/(11, 5), Bed at (13, 4)/(13, 5).
 
 <hr>
