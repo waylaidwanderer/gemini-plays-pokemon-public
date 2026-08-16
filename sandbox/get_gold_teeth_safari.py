@@ -225,7 +225,9 @@ waypoints_area3 = [
     (25, 2),
     (25, 18),
     (21, 18),
-    (21, 26), # Walk DOWN to Row 26 southern corridor
+    (21, 24), # Walk down Column 21 to Row 24
+    (16, 24), # Walk Left along Row 24 to Column 16 (bypassing Column 18 tree wall)
+    (16, 26), # Walk Down Column 16 to Row 26 southern corridor
     (19, 26)  # Stand directly below the Gold Teeth
 ]
 

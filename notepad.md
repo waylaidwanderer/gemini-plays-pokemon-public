@@ -961,7 +961,7 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 ## Consolidated Overworld Barriers & Layout Map
 - **Column 23 Solid Vertical Brick Wall (Rows 26-31):** Completely blocks all horizontal crossing on these rows.
 - **Column 25 Solid Fence Posts (Rows 23-26, and 28-29):** Completely blocks horizontal crossing. The ONLY open gaps in this fence are at Row 27 `(25, 27)` and Row 30 `(25, 30)`.
-- **Column 24 Vertical Corridor:** Completely open vertically from Row 20 down to Row 28. But blocked at Row 29 by a solid fence, and blocked at Row 25 by a south-facing one-way ledge (you can jump DOWN over Row 25 Column 24, but cannot walk back UP).
+- **Column 24 Vertical Corridor:** Completely open vertically from Row 20 down to Row 28. But blocked at Row 29 by a solid fence, and completely open and walkable vertically without any ledge or obstacle (verified on Turn 41246).
 - **Column 22/23 North-South Corridor Ledge:** Column 23 Row 22 has a horizontal ledge/fence that cannot be jumped down from the north (Row 21 to Row 22 is blocked on Columns 22-23).
 - **Row 16 Tree Barrier (Columns 27-35):** Solid horizontal line of trees blocking vertical crossing. Row 16 is open on Columns 23-26.
 - **Row 7 Horizontal Barrier (Columns 13-35):** Solid horizontal pine tree wall. The ONLY vertical gap in this barrier is at Column 37, allowing vertical movement between Row 8/9 and Row 2.
