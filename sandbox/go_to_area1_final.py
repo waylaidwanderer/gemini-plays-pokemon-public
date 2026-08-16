@@ -59,15 +59,16 @@ def walk_to_waypoint(target_x, target_y):
         mgba.press_buttons([btn])
         time.sleep(0.42)
 
-print("--- PHASE 1: Safari Zone Center to Area 1 (East) (Robust West-Bypass) ---")
-# Start at (5, 22) or anywhere near
+print("--- PHASE 1: Safari Zone Center to Area 1 (East) (Signpost Bypass) ---")
+# Waypoints that bypass (5, 23) signpost and (6, 22)/(6, 23) Rhydon statues
 waypoints = [
-    (5, 24),
-    (15, 24),
-    (15, 22),
-    (28, 22),
-    (28, 10),
-    (30, 10) # Eastern transition
+    (4, 22),  # Left 1 step to Column 4 (bypasses (5, 23) signpost)
+    (4, 24),  # Down 2 steps to Row 24 (bypasses Column 6 Rhydon statue)
+    (15, 24), # Right to Column 15
+    (15, 22), # Up to Row 22
+    (28, 22), # Right to Column 28
+    (28, 10), # Up to Row 10
+    (30, 10)  # Eastern transition
 ]
 
 for wp in waypoints:
