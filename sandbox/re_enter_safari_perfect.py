@@ -10,7 +10,6 @@ def get_textbox_ratio():
     white_pixels = 0
     total_pixels = 0
     
-    # Bottom region coordinates scaled for 3x (480 x 432 image size)
     for x in range(60, 420):
         for y in range(360, 405):
             r, g, b, *a = img.getpixel((x, y))
@@ -35,6 +34,8 @@ def get_path_bfs(start, target, blocked_edges):
     queue = [[start]]
     visited = {start}
     
+    max_x, max_y = 39, 35
+    
     while queue:
         path = queue.pop(0)
         curr = path[-1]
@@ -43,7 +44,7 @@ def get_path_bfs(start, target, blocked_edges):
             
         for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:
             neighbor = (curr[0] + dx, curr[1] + dy)
-            if 0 <= neighbor[0] <= 40 and 0 <= neighbor[1] <= 40:
+            if 0 <= neighbor[0] <= max_x and 0 <= neighbor[1] <= max_y:
                 if neighbor not in visited:
                     edge = (curr, neighbor)
                     if edge not in blocked_edges:
@@ -53,8 +54,13 @@ def get_path_bfs(start, target, blocked_edges):
 
 def navigate_to_waypoint(target_x, target_y, blocked_edges):
     print(f"Navigating to waypoint ({target_x}, {target_y})...")
+    steps = 0
     
     while True:
+        if steps >= 45:
+            print("Waypoints step limit reached!")
+            return False
+            
         curr = mgba.get_coordinates()
         if curr is None:
             time.sleep(0.5)
@@ -81,7 +87,8 @@ def navigate_to_waypoint(target_x, target_y, blocked_edges):
         
         print(f"At ({cx}, {cy}). Stepping {btn} to {next_step}...")
         mgba.press_buttons([btn])
-        time.sleep(0.42)
+        time.sleep(0.45)
+        steps += 1
         
         post = mgba.get_coordinates()
         if post is None:
@@ -94,45 +101,51 @@ def navigate_to_waypoint(target_x, target_y, blocked_edges):
             blocked_edges.add(((cx, cy), next_step))
             blocked_edges.add((next_step, (cx, cy)))
         else:
-            if (px, py) != next_step:
-                if abs(px - cx) > 5 or abs(py - cy) > 5:
-                    print("Map transition detected!")
-                    return True
+            if abs(px - cx) > 5 or abs(py - cy) > 5:
+                print("Map transition detected!")
+                return True
 
-print("--- RESUMING SAFARI ENTRY VIA ROW 24 BYPASS ---")
+# Initialize blocked edges
 blocked_edges = set()
-
-# Block doors we want to avoid entering
+# Avoid entering other buildings
 blocked_edges.add(((19, 28), (19, 27))) # Pokémon Center
 blocked_edges.add(((19, 27), (19, 28)))
 blocked_edges.add(((31, 27), (31, 26))) # Poké Mart
 blocked_edges.add(((31, 26), (31, 27)))
-# Avoid walking directly down Column 31 onto Poké Mart door at (31, 25)
+blocked_edges.add(((32, 28), (32, 27)))
+blocked_edges.add(((32, 27), (32, 28)))
+blocked_edges.add(((31, 25), (31, 24))) # Super Rod Guru Backdoor
 blocked_edges.add(((31, 24), (31, 25)))
-blocked_edges.add(((31, 25), (31, 24)))
 
+# We are at (31, 24) in Fuchsia City overworld.
+# We will use the fully open and correct waypoints via Row 18!
 fuchsia_waypoints = [
-    (26, 24), # Down Column 26 to Row 24
-    (37, 24), # Right along Row 24 to Column 37 (passes above Poké Mart)
-    (37, 2),  # Up Column 37 to Row 2
+    (27, 24), # Left to Column 27
+    (27, 18), # Up Column 27 to Row 18 (completely open crossing!)
+    (35, 18), # Right along Row 18 to Column 35
+    (35, 2),  # Up Column 35 to Row 2
     (22, 2),  # Left along Row 2 to Column 22
-    (22, 4),  # Down Column 22 to Row 4
-    (18, 4),  # Left Row 4 to Column 18
+    (18, 4),  # Left/Down to Row 4 Column 18
     (18, 3)   # Up to enter Gatehouse
 ]
 
+print("--- PHASE 1: WALKING TO SAFARI ZONE GATEHOUSE ---")
 for wp in fuchsia_waypoints:
     navigate_to_waypoint(wp[0], wp[1], blocked_edges)
 
-print("Stepping UP to enter the Gatehouse...")
+print("Stepping UP to enter Gatehouse...")
 mgba.press_buttons(["Up"])
 time.sleep(1.5)
 
 curr = mgba.get_coordinates()
 print("Coordinates inside Gatehouse:", curr)
 
-print("Standing in front of clerk at (3, 2)...")
+# ==========================================
+# PHASE 2: PAY AND ENTER SAFARI ZONE
+# ==========================================
+print("--- PHASE 2: PAYING CLERK ---")
 blocked_edges = set()
+# Walk to the clerk at (3, 2)
 navigate_to_waypoint(3, 2, blocked_edges)
 
 print("Facing RIGHT to speak to clerk...")
@@ -143,35 +156,12 @@ print("Talking to clerk...")
 mgba.press_buttons(["A"])
 time.sleep(1.0)
 
-# Perform payment dialogue
 print("Completing dialogue...")
-for i in range(12):
+for _ in range(12):
     mgba.press_buttons(["A"])
-    time.sleep(1.2)
+    time.sleep(1.0)
 
-# Emerge in Safari Zone Center at (15, 25)
-curr = mgba.get_coordinates()
-print("Coordinates after warp (Safari Zone Center):", curr)
-
-# Navigate through Safari Zone Center to Area 1 (East) transition at (30, 10)
-blocked_edges = set()
-center_waypoints = [
-    (15, 22), # Up 3 steps
-    (28, 22), # Right to Column 28
-    (28, 10), # Up to Row 10
-    (30, 10)  # Transition to Area 1 (East)
-]
-
-for wp in center_waypoints:
-    navigate_to_waypoint(wp[0], wp[1], blocked_edges)
-
-print("Transitioning to Area 1 (East)...")
-for _ in range(4):
-    mgba.press_buttons(["Right"])
-    time.sleep(0.5)
 time.sleep(1.5)
-
 final_pos = mgba.get_coordinates()
-print("Final coordinates inside Area 1 (East):", final_pos)
+print("Position inside Safari Zone Center:", final_pos)
 mgba.take_screenshot()
-
