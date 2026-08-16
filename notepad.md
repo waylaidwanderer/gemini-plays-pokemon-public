@@ -5,8 +5,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon 1F (x=11, y=11)
-- Current Objective: Explore Mt. Moon 1F western corridor, defeat trainers, collect items, and locate the ladder to Route 4
+- Location: Mt. Moon 1F (x=5, y=5)
+- Current Objective: Collect item ball at (2, 2) in northwest chamber, then descend ladder at (5, 5) to Route 4 path
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -18,6 +18,7 @@
 - `Locations/MtMoon1F`: Mt. Moon 1F layout, items, wild encounters, trainers
 - `Locations/MtMoonB1F`: Mt. Moon B1F layout, ladders, wild encounters
 - `Locations/MtMoonB2F`: Mt. Moon B2F layout, Rocket Grunts, items, wild encounters
+
 
 <hr>
 
@@ -237,6 +238,7 @@
 - Ladders:
   - Ladder at (25, 15) [Discovered Turn 474]
   - Ladder at (17, 11) [Discovered Turn 475]
+  - Ladder at (5, 5) [Discovered Turn 581] - Main progression ladder to B1F
 
 ## Layout & Landmarks
 - Entrance threshold at (14, 35) / (15, 35)
@@ -249,11 +251,12 @@
 - Vertical rock wall at columns 12-13 (rows 2-15) dividing north-central corridor (cols 14-17) from western corridor (cols 10-11)
 - Cross passage connecting central hall to western corridor at row 17 (cols 11-14)
 - Western corridor runs along columns 10-11 heading north to northwest sector
+- Northwest chamber: cols 2-9, rows 2-7. Ladder at (5, 5), NPC at (5, 6).
 - Northeast sector open chamber around (35, 7) extending eastward to col 37 (rows 2-7). East boundary rock wall at col 38, north rock wall at row 1.
 - Northern corridor runs westward along rows 2-5 across columns 35 down towards northwest sector.
 
 ## Items & Discoveries
-- (Documenting item balls as collected inside Mt. Moon)
+- Item Ball: Located at (2, 2) in northwest chamber [Discovered Turn 581]
 
 ## Verified Trainers
 - Trainer #1: Located at (16, 23) facing West/North [Observed Turn 469]
