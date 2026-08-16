@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Cerulean City - Cerulean Gym (x=4, y=13)
+- Location: Cerulean City - Cerulean Gym (x=5, y=2)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -351,11 +351,11 @@
 - Helix Fossil: Located at (13, 6) in north chamber [Obtained Turn 1084]
 
 ## Verified Trainers
-- Rocket Grunt #3: Located at (29, 17) facing North [Engaged Turn 1049]. Dialogue: "Little kids should leave grown-ups alone!" Team: Raticate Lv 16. Reward: �480.
-- Rocket Grunt #1: Located at (29, 10) facing North [Defeated Turn 541]. Team: Zubat Lv 12, Ekans Lv 12. Reward: �360.
+- Rocket Grunt #3: Located at (29, 17) facing North [Engaged Turn 1049]. Dialogue: "Little kids should leave grown-ups alone!" Team: Raticate Lv 16. Reward: �¥480.
+- Rocket Grunt #1: Located at (29, 10) facing North [Defeated Turn 541]. Team: Zubat Lv 12, Ekans Lv 12. Reward: �¥360.
 - Rocket Grunt #2: Located at (15, 22) facing South [Defeated Turn 858]. Dialogue: "We, TEAM ROCKET, are POK�MON gangsters!" Team: Sandshrew Lv 11, Rattata Lv 11, Zubat Lv 11 (3 Pok�mon).
-- Rocket Grunt #4: Located at (11, 16) facing South [Defeated Turn 1072]. Dialogue: "TEAM ROCKET will find the fossils, revive and sell them for cash!" Team: Rattata Lv 13, Zubat Lv 13. Reward: �390.
-- Super Nerd Miguel: Located at (12, 8) facing South [Defeated Turn 1081]. Dialogue: "Hey, stop! I found these fossils! They're both mine!" Defeat quote: "OK! I'll share!" Team: Grimer Lv 12, Voltorb Lv 12, Koffing Lv 12. Reward: �300 + Choice of Fossil (Helix Fossil claimed).
+- Rocket Grunt #4: Located at (11, 16) facing South [Defeated Turn 1072]. Dialogue: "TEAM ROCKET will find the fossils, revive and sell them for cash!" Team: Rattata Lv 13, Zubat Lv 13. Reward: �¥390.
+- Super Nerd Miguel: Located at (12, 8) facing South [Defeated Turn 1081]. Dialogue: "Hey, stop! I found these fossils! They're both mine!" Defeat quote: "OK! I'll share!" Team: Grimer Lv 12, Voltorb Lv 12, Koffing Lv 12. Reward: �¥300 + Choice of Fossil (Helix Fossil claimed).
 
 ## Empirical Wild Encounters
 - Zubat (Lv 8-11, very common across all cavern sectors)
@@ -409,7 +409,7 @@
 - Trade House: Located at (13, 15). Home of the Pokemon Trader and his wife.
 - Pokemon Center: Located at (19, 17) with "POKe" sign at (20, 17).
 - Cerulean Gym: Located at cols 25-31, rows 16-19 with entrance door at (30, 19) and "GYM" sign at (26..29, 18).
-- Pokemart: Located at cols 24-27, rows 22-25 with south entrance door at (25, 25) and "MART" sign at (26, 25).
+- Pokémart: Located at cols 24-27, rows 22-25 with south entrance door at (25, 25) and "MART" sign at (26, 25).
   - Catalog: Poke Ball (200), Potion (300), Repel (350), Antidote (100), Burn Heal (250), Awakening (200), Paralyze Heal (200).
 
 ## Verified NPCs & Dialogue
@@ -421,7 +421,7 @@
 ## Cerulean Gym Trainers
 - Trainer #1 (Swimmer): Located at (6, 7) [Defeated Turn 1252]. Dialogue: "Splash! I'm first up! Let's do it!" Defeat quote: "That can't be!" Team: Horsea Lv 16, Shellder Lv 16. Reward: �80.
 - Trainer #2 (Jr. Trainer Female): Located at (2, 3) / (4, 3) [Defeated Turn 1263]. Dialogue: "I'm more than good enough for you! MISTY can wait!" Defeat quote: "You overwhelmed me!" Team: Goldeen Lv 19. Reward: �380.
-- Gym Leader Misty: Located at (4, 2) [Engaged Turn 1284]. Dialogue: "Hi, you're a new face! Trainers who want to turn pro have to have a policy about POKeMON! What is your approach when you catch POKeMON? My policy is an all-out offensive with water-type POKeMON!" Team: Staryu Lv 18 [Defeated Turn 1288], Starmie Lv 21.
+- Gym Leader Misty: Located at (4, 2) [Engaged Turn 1284]. Dialogue: "Hi, you're a new face! Trainers who want to turn pro have to have a policy about POKéMON! What is your approach when you catch POKéMON? My policy is an all-out offensive with water-type POKéMON!" Team: Staryu Lv 18 [Defeated Turn 1288], Starmie Lv 21.
 
 
 
