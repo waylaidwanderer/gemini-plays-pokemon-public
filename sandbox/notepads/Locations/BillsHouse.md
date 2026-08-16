@@ -5,13 +5,10 @@
 
 ## Layout & Objects
 - Interior dimensions: 8x8 room
-- Left Teleporter / Cell Separator capsule: (2, 4)
-- Bill's PC terminal / Cell Separation control system: (1, 4..5)
-- Right Teleporter / Cell Separator capsule: (6, 4)
-- Bill (fused Pokémon sprite): Located at (6, 5)
+- Left Teleporter capsule: Located at (2, 4)
+- PC terminal / control console: Located at (1, 4..5)
+- Right Teleporter capsule: Located at (6, 4)
+- Bill (Pokémon form): Located at (6, 5)
 
-## Quest Steps
-1. Speak with Bill (Pokemon form at 6, 5) and agree to help run the Cell Separation System.
-2. Bill enters the right teleporter.
-3. Interact with Bill's PC terminal at (1, 4..5) to initiate Cell Separation.
-4. Speak with human Bill to receive the S.S. Ticket!
+## Empirical Observations & Dialogue Log
+- Spoke with Bill at (6, 5) on Turn 1739: "Hiya! I'm a POKéMON... No I'm not! Call me BILL! I'm a real POKéMANIAC!"
