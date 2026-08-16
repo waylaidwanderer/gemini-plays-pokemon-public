@@ -112,7 +112,7 @@
 - **Max Revive:** 1
 - **HM03 (Surf):** OBTAINED on Turn 36291 (Verified inside Secret House).
 - **Town Map:** 1
-- **Gold Teeth:** OBTAINED on Turn 41069 (Verified inside Safari Zone Area 3 (West) at (19, 24) facing DOWN).
+- **Gold Teeth:** NOT YET OBTAINED (Our previous attempt stood at (19, 24) facing DOWN, which was blocked by the Row 24 hedge. The Gold Teeth are still on the ground at (19, 25) in Safari Zone Area 3 (West)).
 
 ## Major Exploration Phases and Timestamps
 - (Cleaned up historic milestones to reduce context window bloat)
