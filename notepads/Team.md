@@ -26,7 +26,7 @@
 - Every captured Pok�mon will receive a thoughtful, unique nickname.
 
 ## Inventory & Resources (Verified Turn 2011)
-- Money: �10586 (Verified Turn 2096 after RED: +�1300)
+- Money: ¥11216 (Verified Turn 2199 after Sailor: +¥630)
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pok�mon up to Lv 30 obey)
 - Key Items: Town Map, Helix Fossil, S.S. Ticket, Bike Voucher
 - TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM28 (Dig), TM34 (Bide), TM44 (Rest)
