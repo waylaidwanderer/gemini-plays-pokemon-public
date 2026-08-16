@@ -3,8 +3,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon B2F (x=29, y=9)
-- Current Objective: Defeat Team Rocket Grunt, collect item ball at (29, 5), and navigate towards Cerulean City
+- Location: Mt. Moon B1F (x=17, y=11)
+- Current Objective: Ascend ladder at (25, 9) back to 1F, then explore the western sector towards Route 4 exit
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
