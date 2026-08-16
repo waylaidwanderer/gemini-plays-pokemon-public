@@ -44,4 +44,4 @@
 - **Row 16 Tree Barrier (Columns 27-35):** Solid horizontal line of trees blocking vertical crossing. Row 16 is open on Columns 23-26.
 - **Row 7 Horizontal Barrier (Columns 13-35):** Solid horizontal pine tree wall. The ONLY vertical gap in this barrier is at Column 37, allowing vertical movement between Row 8/9 and Row 2.
 - **Checkerboard Fence Posts (Rows 19-21, Columns 14-21):** An interlocking grid of solid fence posts (Row 19: odd columns blocked; Row 20: even columns blocked; Row 21: odd columns blocked). Completely prevents crossing between Row 20 and Row 21 across Columns 14-17. Column 18 Row 21 is open, but Row 22 on Columns 18-21 is blocked by the Pokémon Center building. Column 13 is open and bypasses the entire checkerboard!
-- **Row 32 Open Bypass:** Row 32 is completely open green grass from Column 25 to Column 19, bypassing the Column 23 wall and Pokémon Center from the south.
+- **Row 32 Open Bypass (CORRECTED):** Row 32 is NOT open all the way from Column 25 to Column 19. It is blocked at Column 24/25 (by a solid fence/building and/or Hiker NPC), making it a dead end on the eastern side.
