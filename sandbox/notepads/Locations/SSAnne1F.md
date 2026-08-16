@@ -20,3 +20,7 @@
 ## Cabin 2 (South Corridor - Entrance at 23, 8)
 - Trainer: Gentleman at (11, 4). Team: Nidoran♂ Lv 19, Nidoran♀ Lv 19.
 - Items: Checked table/trash.
+## Cabin 3 (South Corridor - Entrance at 15, 8)
+- Girl NPC at (2, 11) with Pokémon at (3, 11).
+- Boy NPC at (0, 14).
+- Table at (0, 15)/(1, 15), Bed at (3, 14)/(3, 15).
