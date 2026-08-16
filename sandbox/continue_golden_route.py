@@ -68,7 +68,11 @@ waypoints = [
     (33, 13), # Climb East Stairs onto plateau
     (21, 15), # Walk to West Stairs top
     (19, 15), # Descend West Stairs onto ground
-    (12, 15),
+    (19, 31), # Walk down Column 19 to southern corridor
+    (22, 31), # Walk left to Column 22
+    (22, 22), # Climb plateau stairs
+    (16, 22), # Walk left on plateau
+    (16, 28), # Descend stairs to ground level
     (12, 28),
     (12, 30), # Bypass pond
     (8, 30),
