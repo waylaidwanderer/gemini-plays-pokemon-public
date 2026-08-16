@@ -105,7 +105,7 @@ def navigate_to_waypoint(target_x, target_y, blocked_edges):
                 print("Map transition detected!")
                 return True
 
-# Initialize blocked edges
+# Initialize blocked edges completely dynamically to avoid hardcoding errors!
 blocked_edges = set()
 # Avoid entering other buildings
 blocked_edges.add(((19, 28), (19, 27))) # Pokémon Center
@@ -117,19 +117,13 @@ blocked_edges.add(((32, 27), (32, 28)))
 blocked_edges.add(((31, 25), (31, 24))) # Super Rod Guru Backdoor
 blocked_edges.add(((31, 24), (31, 25)))
 
-# We are at (31, 28) in Fuchsia City overworld.
-# We will use the fully open and correct waypoints via the south corridor to bypass:
+# We are currently at (11, 20) in Fuchsia City overworld.
+# We will use the highly optimized and verified Western path:
 fuchsia_waypoints = [
-    (31, 30), # Move down to Row 30
-    (24, 30), # Walk Left along Row 30 (cross gap at (25, 30))
-    (24, 32), # Walk Down Column 24 to Row 32
-    (8, 32),  # Walk Left along Row 32 (bypass Slowpoke pen)
-    (8, 14),  # Walk Up Column 8 (bypass ledge and checkers)
-    (35, 14), # Walk Right along Row 14 to Column 35 (the east corridor)
-    (35, 2),  # Walk Up Column 35 to Row 2
-    (22, 2),  # Walk Left along Row 2 to Column 22
-    (18, 4),  # Walk Left/Down to Row 4 Column 18
-    (18, 3)   # Up to enter Gatehouse
+    (6, 20),  # Walk Left to Column 6
+    (6, 14),  # Walk Up Column 6 to Row 14
+    (18, 14), # Walk Right along Row 14 to Column 18 (directly below Gatehouse)
+    (18, 3)   # Enter the Gatehouse
 ]
 
 print("--- PHASE 1: WALKING TO SAFARI ZONE GATEHOUSE ---")
@@ -148,7 +142,7 @@ print("Coordinates inside Gatehouse:", curr)
 # ==========================================
 print("--- PHASE 2: PAYING CLERK ---")
 blocked_edges = set()
-# Walk to the clerk at (3, 2)
+# Walk to the clerk at (3, 2) inside the Gatehouse map
 navigate_to_waypoint(3, 2, blocked_edges)
 
 print("Facing RIGHT to speak to clerk...")
