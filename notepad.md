@@ -301,8 +301,9 @@
 - Isolated B2F treasure chamber
 - Southern lower area: cols 24-33, rows 8-11
 - Dividing wall at col 23 running rows 5-11
-- Rock wall at (30-31, 7)
-- Visual Hypothesis: Eastern ascent passage around cols 32-33 (rows 7-9) leading to upper ledge (rows 5-6)
+- Rock wall at (30-31, 5..7) dividing central ledge from eastern path
+- Eastern corridor: cols 36-37 (rows 2-7) heading north to upper bypass
+- Central item platform: rows 5-6 (cols 27-30)
 - One-way ledge at (28, 7) and (29, 7) leading south back to lower area
 
 ## Items & Discoveries
@@ -314,5 +315,6 @@
 ## Empirical Wild Encounters
 - Zubat Lv 9 [Encountered & Defeated Turn 529 at (24, 10)]
 - Clefairy Lv 10 [Encountered Turn 545 at (32, 7)]
+
 
 <hr>
