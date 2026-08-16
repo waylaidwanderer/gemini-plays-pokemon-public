@@ -10,12 +10,12 @@
    - Stats (Verified at Lv 8): Max HP 26 (HP: 22/26)
    - Type: Poison / Flying
    - Moves: Leech Life (0/15)
-   - Role: Fast Flying/Poison utility & Grass counter
+   - Role: Fast Flying/Poison utility & Grass counter (Active Lead)
 3. HYDROS (Wartortle) - Lv 20
-   - Stats (Verified at Lv 20): Max HP 60 (HP: 1/60, Asleep)
+   - Stats (Verified at Lv 20): Max HP 60 (HP: 0/60, Fainted)
    - Type: Water
    - Moves: Tackle (25/35), Tail Whip (29/30), Bubble (22/30), Water Gun (13/25)
-   - Role: Starter & primary Water special attacker (Active)
+   - Role: Starter & primary Water special attacker (Fainted)
 
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname.
