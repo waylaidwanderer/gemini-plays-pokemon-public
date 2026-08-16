@@ -33,7 +33,7 @@
 1. HYDROS (Wartortle) - Lv 28
    - Stats (Verified at Lv 28): Max HP 81 (HP: 50/81, Healthy), Attack 49, Defense 55, Speed 50, Special 53
    - Type: Water
-   - Moves: Tackle (35/35), Tail Whip (29/30), Bite (20/25), Bubblebeam (8/20)
+   - Moves: Tackle (35/35), Tail Whip (29/30), Bite (19/25), Bubblebeam (8/20)
    - Role: Starter & primary Water special attacker (Active Lead)
 2. ECHO (Zubat) - Lv 8
    - Stats (Verified at Lv 8): Max HP 26 (HP: 26/26, Healthy)
@@ -53,7 +53,7 @@
 - Money: ¥5503
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pokémon up to Lv 30 obey)
 - Key Items: Town Map, Pokédex, Helix Fossil, S.S. Ticket
-- TMs / HMs: TM34 (Bide), TM11 (Bubblebeam)
+- TMs / HMs: TM34 (Bide), TM11 (Bubblebeam), TM28 (Dig)
 - Valuables:
   - 1x Nugget (Nugget Bridge completion prize - sellable for ¥5000)
 - Consumables:
@@ -96,7 +96,8 @@
 - [x] Complete Nugget Bridge challenge (Defeat 5 trainers + Rocket recruiter, obtain Nugget) [Turn 1592]
 - [x] Travel east across Route 25 to visit Bill at Sea Cottage [Arrived Turn 1737]
 - [x] Help Bill run the Cell Separation System & receive S.S. Ticket [Turn 1751]
-- [ ] Travel south from Cerulean City to Vermilion City
+- [x] Defeat Team Rocket Grunt in Cerulean backyard & recover TM28 (Dig) [Turn 1820]
+- [ ] Travel south from Cerulean City to Vermilion City via Route 5
 - [ ] Board the S.S. Anne in Vermilion City
 
 
@@ -448,6 +449,13 @@
 - Gym Leader Misty: Located at (4, 2) [Defeated Turn 1348]. Cascade Badge and TM11 (Bubblebeam) obtained.
 - Burglarized House: Located at cols 26-31, rows 8-12. Front entrance door at (27, 11). Formerly guarded by a police officer who moves aside to (28, 12) after player helps Bill at Sea Cottage. Interior features a broken hole in the rear north wall at (3, 0) that exits into the Backyard Courtyard at (27, 9).
 - Backyard Courtyard: Located behind the Burglarized House across rows 7-9 (cols 26-32). Team Rocket Grunt is positioned at (30, 8). Southern exit leads down past the canal toward Route 5.
+
+### Team Rocket Encounter (Backyard Courtyard)
+- Team Rocket Grunt: Located at (30, 8) in the backyard [Defeated Turn 1820].
+  - Team: Machop Lv 17, Drowzee Lv 17.
+  - Reward: TM28 (Dig).
+  - Pre-battle dialogue: "It's not your yard! Huh? Me? I'm an innocent bystander! Don't you believe me?"
+  - Defeat quote: "Stop! I give up! I'll leave quietly!"
 
 
 <hr>
