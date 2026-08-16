@@ -99,21 +99,56 @@ def navigate_to_waypoint(target_x, target_y, blocked_edges):
                     print("Map transition detected!")
                     return True
 
-print("--- RESUMING GATEHOUSE NAVIGATION FROM (30, 22) ---")
+print("--- NAVIGATING TO GATEHOUSE BY PASSING THROUGH MART ---")
 blocked_edges = set()
 
-# Block doors we want to avoid entering
+# Block doors we want to avoid entering in Fuchsia City overworld
 blocked_edges.add(((19, 28), (19, 27))) # Pokémon Center
 blocked_edges.add(((19, 27), (19, 28)))
-blocked_edges.add(((31, 27), (31, 26))) # Poké Mart (emerge from outside Mart)
+blocked_edges.add(((32, 28), (32, 27))) # Slowpoke Fan's House
+blocked_edges.add(((32, 27), (32, 28)))
+blocked_edges.add(((27, 28), (27, 27))) # Warden's House
+blocked_edges.add(((27, 27), (27, 28)))
+
+# Step 1: Walk to Poké Mart door at (31, 24)
+navigate_to_waypoint(31, 24, blocked_edges)
+
+# Step 2: Step DOWN to enter Poké Mart
+print("Entering Poké Mart...")
+mgba.press_buttons(["Down"])
+time.sleep(1.5)
+
+curr = mgba.get_coordinates()
+print("Coordinates inside Poké Mart:", curr)
+
+# Step 3: Exit Poké Mart
+print("Exiting Poké Mart...")
+# Exit is at (3, 8). Inside Poké Mart we normally start at (3, 7) or (2, 7)
+blocked_edges_mart = set()
+navigate_to_waypoint(3, 7, blocked_edges_mart)
+mgba.press_buttons(["Down"])
+time.sleep(1.5)
+
+curr = mgba.get_coordinates()
+print("Coordinates outside Poké Mart:", curr)
+
+# Reset blocked edges for Fuchsia City
+blocked_edges = set()
+blocked_edges.add(((19, 28), (19, 27))) # Pokémon Center
+blocked_edges.add(((19, 27), (19, 28)))
+blocked_edges.add(((32, 28), (32, 27))) # Slowpoke Fan's House
+blocked_edges.add(((32, 27), (32, 28)))
+blocked_edges.add(((31, 27), (31, 26))) # Block entering Poké Mart again
 blocked_edges.add(((31, 26), (31, 27)))
 
+# Step 4: Walk DOWN to Row 28 (street level) to bypass the Slowpoke Fan door at (32, 27)
+navigate_to_waypoint(31, 28, blocked_edges)
+
+# Step 5: Walk standard waypoints to Gatehouse
 fuchsia_waypoints = [
-    (24, 22), # Walk Left along Row 22 to the Column 24 vertical corridor
-    (24, 27), # Down Column 24 to Row 27 (street level)
-    (37, 27), # Right along Row 27 to Column 37 (Eastern Bypass)
-    (37, 2),  # Up Column 37 to the far north (Row 2)
-    (22, 2),  # Left along Row 2 to Column 22
+    (37, 28), # Right along Row 28 to Column 37 (Eastern Bypass)
+    (37, 2),  # Up Column 37 to Row 2
+    (22, 2),  # Left Row 2 to Column 22
     (22, 4),  # Down Column 22 to Row 4
     (18, 4),  # Left Row 4 to Column 18
     (18, 3)   # Up to enter Gatehouse
