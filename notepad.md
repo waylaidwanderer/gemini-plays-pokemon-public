@@ -6,7 +6,7 @@
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
 - Location: Mt. Moon 1F (x=30, y=26)
-- Current Objective: Defeat Bug Catcher at (30, 27) with Terra's Tackle and navigate south along col 31 towards southwest chamber item at (2, 20)
+- Current Objective: Walk south along col 31 to row 34 southern corridor towards southwest chamber item at (2, 20)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -46,7 +46,7 @@
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
 ## Inventory & Resources (Verified Turn 594)
-- Money: ¥3239 (Updated with +¥165 from Lass)
+- Money: ¥3339 (Updated with +¥100 from Bug Catcher)
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Pokémon Attack)
 - Key Items: Town Map, Pokédex
 - TMs / HMs: TM34 (Bide)
