@@ -1,103 +1,71 @@
 import mgba
 import time
 
-def escape_battle():
-    print("Encountered a battle! Attempting to escape...")
-    for _ in range(6):
-        mgba.press_buttons(["B"])
-        time.sleep(0.1)
-    mgba.press_buttons(["Down", "Right", "A"])
-    time.sleep(1.2)
-    for _ in range(6):
-        mgba.press_buttons(["B"])
-        time.sleep(0.1)
-    print("Escape sequence complete.")
+print("--- SELF-HEALING SAFARI ZONE NAVIGATOR (PART 2) ---")
 
-def walk_to_waypoint(target_x, target_y):
-    print(f"Navigating to waypoint ({target_x}, {target_y})...")
-    stuck_count = 0
-    last_coords = None
+# Step-by-step path from current position (20, 4) to Area 2 (North) at (0, 5)
+path = []
+
+# (20, 4) -> (20, 3): UP 1 step
+path += ["Up"]
+# (20, 3) -> (7, 3): LEFT 13 steps
+path += ["Left"] * 13
+# (7, 3) -> (7, 5): DOWN 2 steps
+path += ["Down"] * 2
+# (7, 5) -> (0, 5): LEFT 7 steps
+path += ["Left"] * 7
+
+print(f"Total steps in path: {len(path)}")
+
+def get_pos():
+    return mgba.get_coordinates()
+
+def handle_battle():
+    print("Detected battle/blockage! Attempting to escape battle...")
+    # Press B a few times to clear "appeared!" text
+    for _ in range(3):
+        mgba.press_buttons(["B"])
+        time.sleep(0.3)
     
-    while True:
-        curr = mgba.get_coordinates()
-        if curr is None:
-            print("Coordinates are None. Waiting...")
-            time.sleep(0.5)
-            continue
-            
-        x, y = curr['x'], curr['y']
-        if x == target_x and y == target_y:
-            print(f"Reached waypoint ({target_x}, {target_y})")
-            return True
-            
-        if (x, y) == last_coords:
-            stuck_count += 1
-            if stuck_count > 3:
-                print(f"Stuck at ({x}, {y}) trying to reach ({target_x}, {target_y})")
-                escape_battle()
-                time.sleep(0.5)
-                stuck_count = 0
-                after = mgba.get_coordinates()
-                if after['x'] == x and after['y'] == y:
-                    print("Coordinates unchanged. Pressing A/B...")
-                    mgba.press_buttons(["A", "B", "A", "B"])
-                    time.sleep(0.5)
-        else:
-            stuck_count = 0
-            last_coords = (x, y)
-            
-        # Choose direction to move
-        if x < target_x:
-            btn = "Right"
-        elif x > target_x:
-            btn = "Left"
-        elif y < target_y:
-            btn = "Down"
-        elif y > target_y:
-            btn = "Up"
-            
-        mgba.press_buttons([btn])
-        time.sleep(0.42)
+    # Press Down, Right, A to select RUN
+    print("Selecting RUN...")
+    mgba.press_buttons(["Down", "sleep 100", "Right", "sleep 100", "A"])
+    time.sleep(1.0)
+    
+    # Press B to clear "Got away safely!" text
+    mgba.press_buttons(["B"])
+    time.sleep(1.5) # Wait for overworld to load
 
-# 1. We are at (29, 10) in Safari Zone Center. Step Right to transition to Area 1 (East)
-print("Transitioning to Area 1 (East)...")
-mgba.press_buttons(["Right", "sleep 500", "Right", "sleep 2000"])
+# Execute the path step-by-step
+step_idx = 0
+button_presses = 0
 
-# Check coords inside Area 1
-curr = mgba.get_coordinates()
-print("Position inside Area 1 (East):", curr)
+while step_idx < len(path):
+    if button_presses >= 85:
+        print("Approaching 100-button limit for single script execution. Stopping to save state.")
+        break
+        
+    dir = path[step_idx]
+    pos_before = get_pos()
+    
+    print(f"Step {step_idx+1}/{len(path)}: Pressing {dir}")
+    mgba.press_buttons([dir])
+    button_presses += 1
+    time.sleep(0.4)
+    
+    pos_after = get_pos()
+    
+    # Check if we successfully moved
+    if pos_before == pos_after:
+        # We didn't move. This must be a wild battle!
+        handle_battle()
+        button_presses += 6
+        # Let's check our position again after escaping
+        pos_check = get_pos()
+        print("Position after escaping battle:", pos_check)
+    else:
+        # Successfully moved! Advance to the next step
+        step_idx += 1
 
-# 2. Walk Phase 2 Waypoints in Area 1 (East)
-print("--- PHASE 2: Area 1 (East) to Area 2 (North) ---")
-waypoints = [
-    (0, 24),   # Walk Down to Row 24
-    (20, 24),  # Walk Right 20 steps to Column 20
-    (20, 20),  # Walk UP climbing South Plateau stairs to (20, 20)
-    (12, 20),  # Walk Left 8 steps on plateau
-    (12, 22),  # Walk Down descending stairs
-    (8, 22),   # Walk Left to Column 8
-    (8, 8),    # Walk UP Column 8 to Row 8
-    (12, 6),   # Walk Right & climb northern plateau stairs
-    (17, 6),   # Walk Right on plateau
-    (17, 8),   # Walk Down descending stairs
-    (20, 8),   # Walk Right to Column 20
-    (20, 3),   # Walk UP to Row 3
-    (7, 3),    # Walk Left along Row 3
-    (7, 5),    # Walk Down to Row 5
-    (0, 5)     # Transition to Area 2 (North)
-]
-
-for wp in waypoints:
-    walk_to_waypoint(wp[0], wp[1])
-
-# Step Left to transition to Area 2 (North)
-print("Transitioning to Area 2 (North)...")
-for _ in range(3):
-    mgba.press_buttons(["Left"])
-    time.sleep(0.5)
-
-time.sleep(1.5)
-final_pos = mgba.get_coordinates()
-print("Position inside Area 2 (North):", final_pos)
-screenshot_path = mgba.take_screenshot()
-print(f"Screenshot: {screenshot_path}")
+print("Navigation paused or completed. Current Position:", get_pos())
+mgba.take_screenshot()
