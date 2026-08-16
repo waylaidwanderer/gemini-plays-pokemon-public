@@ -16,4 +16,4 @@
 - Can (5, 9): SWITCH 2 FOUND! [Turn 2231]
 - Can (5, 7): "Nope, there's only trash here." [Checked Turn 2228]
 - Can (3, 7): "Nope, there's only trash here." [Checked Turn 2229]
-- Can (3, 9): SWITCH 1 FOUND! [Turn 2230]
+- Can (3, 9): "Nope, there's only trash here." [Checked Turn 2242]
