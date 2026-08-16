@@ -1,5 +1,7 @@
 import bridge
 import time
+import os
+from PIL import Image
 
 def escape_battle():
     print("Encountered a battle! Attempting to escape...")
@@ -58,7 +60,7 @@ def walk_to_waypoint(target_x, target_y):
         time.sleep(0.44)
 
 # ==========================================================
-# PHASE 0: Fuchsia City - Walk to (26, 14), CUT Bush, Walk to Gatehouse
+# PHASE 0: Fuchsia City - CUT Bush and Walk to (26, 9)
 # ==========================================================
 print("Walking to (26, 14)...")
 walk_to_waypoint(26, 14)
@@ -85,41 +87,69 @@ print("Selecting TRUFFLE...")
 bridge.press_buttons(["Down", "A"])
 time.sleep(1.0)
 
-# In the submenu, the options are:
-# 1. DIG (since DIG is listed before CUT in the moves list)
-# 2. CUT
-# Since the cursor defaults to DIG (Option 1), we press Down once to select CUT (Option 2)
-print("Selecting CUT...")
-bridge.press_buttons(["Down", "A"])
-time.sleep(2.0) # Wait for text/animation
+# Take screenshot of the submenu
+scr = bridge.send_request("/api/take_screenshot") # Mid-script screenshot
+screenshot_path = scr.get("screenshot_path")
+if not screenshot_path:
+    # Use mgba fallback if bridge request didn't return path
+    import mgba
+    screenshot_path = mgba.take_screenshot()
 
-# Now we are on the text box "TRUFFLE used CUT!".
-# Let's press A to clear it!
-print("Pressing A to clear 'used CUT' dialogue...")
+print("Analyzing submenu screenshot:", screenshot_path)
+img = Image.open(screenshot_path)
+gray = img.convert('L')
+width, height = gray.size
+
+scale_x = width / 160.0
+scale_y = height / 144.0
+
+cursor_x = int(83 * scale_x)
+found_y = None
+
+# Find the vertical coordinate of the black cursor arrow
+for y in range(int(10 * scale_y), int(120 * scale_y)):
+    val = gray.getpixel((cursor_x, y))
+    if val < 50: # Black cursor pixel found
+        found_y = y / scale_y
+        break
+
+if found_y is None:
+    print("Could not find cursor arrow! Defaulting to index 0.")
+    current_index = 0
+else:
+    print(f"Cursor arrow found at GBC y={found_y:.1f}")
+    if found_y < 26:
+        current_index = 0 # DIG
+    elif found_y < 42:
+        current_index = 1 # CUT
+    elif found_y < 58:
+        current_index = 2 # STATS
+    elif found_y < 74:
+        current_index = 3 # SWITCH
+    else:
+        current_index = 4 # CANCEL
+
+print(f"Current selected option index: {current_index}")
+downs_needed = (1 - current_index) % 5
+print(f"Downs needed to reach CUT (index 1): {downs_needed}")
+
+# Move to CUT
+for _ in range(downs_needed):
+    bridge.press_buttons(["Down"])
+    time.sleep(0.3)
+
+# Use CUT
+print("Using CUT...")
+bridge.press_buttons(["A"])
+time.sleep(2.0) # Wait for animation
+
+# Clear the dialogue box "TRUFFLE used CUT!"
+print("Pressing A to clear dialogue...")
 bridge.press_buttons(["A"])
 time.sleep(1.0)
 
-# The menu closes automatically in Gen 1, so we are in the overworld now.
-# Walk to Gatehouse
-print("Walking to Gatehouse...")
-fuchsia_gatehouse_waypoints = [
-    (26, 9),
-    (19, 9),
-    (19, 8),
-    (37, 8),
-    (37, 2),
-    (22, 2),
-    (22, 4),
-    (18, 4),
-    (18, 3) # Emerge in Gatehouse
-]
+# Walk past the cut bush to (26, 9)
+print("Walking UP to (26, 9)...")
+walk_to_waypoint(26, 9)
 
-for wx, wy in fuchsia_gatehouse_waypoints:
-    if not walk_to_waypoint(wx, wy):
-        print(f"Failed gatehouse entry waypoint: ({wx}, {wy})")
-        exit(1)
-
-# Wait for map transition to Gatehouse
-time.sleep(1.5)
-curr = bridge.get_coordinates()
-print("Entered Safari Gatehouse! Position:", curr)
+print("Phase 0 Completed successfully! Position:", bridge.get_coordinates())
