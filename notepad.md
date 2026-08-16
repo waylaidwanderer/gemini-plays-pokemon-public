@@ -335,6 +335,8 @@
 - Zubat [Encountered Turn 847 at (25, 17)]
 - Clefairy [Encountered Turn 886 at (25, 25)]
 - Zubat [Encountered Turn 913 at (5, 17)]
+- Zubat [Encountered Turn 987 at (5, 6)]
+- Zubat [Encountered Turn 989 at (5, 17)]
 
 <hr>
 
@@ -355,7 +357,7 @@
 - Central item platform: rows 5-6 (cols 27-30)
 - One-way ledge at (28, 7) and (29, 7) leading south back to lower floor
 - Main B2F Cavern: Open cavern accessed from (15, 27), cols 11-33+ (rows 18-28+)
-- Rock divider at rows 20-21 (cols 14-19) separates southern entrance room from northern cavern; bypass corridor is on the west at cols 11-13.
+- Rock divider at rows 20-21 (cols 14-19) separates southern entrance room from northern cavern. Cols 12-13 are elevated ledge/platform (blocked from col 14).
 - Southern room bypass corridor to eastern corridor at cols 24-33 (rows 24-27)
 - Main progression corridor heading north is at columns 32-33 (rows 18-26+)
 - NW ladder at (21, 17) connects to open corridor (cols 20-22, rows 5-18) that dead-ends at row 5; cross-passage at row 12-13 connects east across cols 21-26+.
