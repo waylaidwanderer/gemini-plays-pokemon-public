@@ -58,11 +58,56 @@ def walk_to_waypoint(target_x, target_y):
         time.sleep(0.44)
 
 # ==========================================================
-# PHASE 0: Fuchsia City to Safari Gatehouse
+# PHASE 0: Fuchsia City - CUT Bush and Walk to Gatehouse
 # ==========================================================
-print("PHASE 0: Navigating Fuchsia City to Safari Gatehouse...")
+print("Ensuring we face UP...")
+bridge.press_buttons(["Up"])
+time.sleep(0.5)
 
-fuchsia_waypoints = [
+print("Opening Start menu...")
+bridge.press_buttons(["Start"])
+time.sleep(1.0)
+
+print("Resetting Start menu cursor to POKEDEX...")
+for _ in range(7):
+    bridge.press_buttons(["Up"])
+    time.sleep(0.1)
+
+print("Selecting POKEMON...")
+bridge.press_buttons(["Down", "A"])
+time.sleep(1.0)
+
+print("Resetting POKEMON cursor to first Pokémon...")
+for _ in range(5):
+    bridge.press_buttons(["Up"])
+    time.sleep(0.1)
+
+print("Selecting TRUFFLE...")
+bridge.press_buttons(["Down", "A"])
+time.sleep(1.0)
+
+# Press A directly to select CUT (since the cursor defaults to the first option, which is CUT)
+print("Selecting CUT...")
+bridge.press_buttons(["A"])
+time.sleep(2.0) # Wait for text/animation
+
+# Now we are on the text box "TRUFFLE used CUT!".
+# Let's press A to clear it!
+print("Pressing A to clear 'used CUT' dialogue...")
+bridge.press_buttons(["A"])
+time.sleep(1.0)
+
+# Press B twice to safely close any remaining menus
+print("Closing menus...")
+bridge.press_buttons(["B", "B"])
+time.sleep(1.0)
+
+curr = bridge.get_coordinates()
+print("Bush Cut! Current Position:", curr)
+
+# Walk to Gatehouse
+print("Walking to Gatehouse...")
+fuchsia_gatehouse_waypoints = [
     (26, 9),
     (19, 9),
     (19, 8),
@@ -74,33 +119,12 @@ fuchsia_waypoints = [
     (18, 3) # Emerge in Gatehouse
 ]
 
-for wx, wy in fuchsia_waypoints:
+for wx, wy in fuchsia_gatehouse_waypoints:
     if not walk_to_waypoint(wx, wy):
-        print(f"Failed fuchsia waypoint: ({wx}, {wy})")
+        print(f"Failed gatehouse entry waypoint: ({wx}, {wy})")
         exit(1)
 
 # Wait for map transition to Gatehouse
 time.sleep(1.5)
 curr = bridge.get_coordinates()
 print("Entered Safari Gatehouse! Position:", curr)
-
-# Navigate to clerk at (1, 4) from (3, 4)
-walk_to_waypoint(3, 4)
-bridge.press_buttons(["Left"]) # Face clerk
-time.sleep(0.5)
-
-# Speak to clerk, pay 500, and receive balls
-print("Interacting with Gatekeeper clerk...")
-bridge.press_buttons(["A"])
-time.sleep(1.0)
-for _ in range(8):
-    bridge.press_buttons(["A"])
-    time.sleep(0.8)
-
-# Walk to Gatehouse exit at (3, 0)
-print("Walking to Safari Zone Center entrance warp at (3, 0)...")
-walk_to_waypoint(3, 0)
-time.sleep(1.5)
-
-curr = bridge.get_coordinates()
-print("Entered Safari Zone Center! Position:", curr)
