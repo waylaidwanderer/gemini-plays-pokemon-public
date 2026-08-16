@@ -747,5 +747,9 @@
 - North Cabin 3 (Entrance at 15, 3): Trainer Sailor at (22, 3) [Defeated]. Team: Horsea Lv 17, Horsea Lv 17. Item: TM08 (Body Slam) collected at (20, 3).
 - North Cabin 4 (Entrance at 11, 3): Trainer Sailor at (12, 3) [Defeated Turn 2043]. Team: Tentacool Lv 18, Staryu Lv 18. Reward: �540. Item on floor at (10, 3).
 
+- North Cabin 5 (Entrance at 7, 3):
+  - Trainer Fisherman at (0, 4) [Defeated Turn 2057]. Team: Tentacool Lv 17, Staryu Lv 17, Shellder Lv 17. Reward: �595. Dialogue: "All my POK�MON are from the sea!" Defeat: "Darn! I let that one get away!"
+  - Trainer Sailor at (0, 2).
+
 
 <hr>
