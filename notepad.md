@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 2/8 (Boulder Badge, Cascade Badge)
-- Location: Cerulean City (x=27, y=26)
+- Location: Cerulean City (x=20, y=27)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -402,7 +402,7 @@
 
 ## Connections
 - West: Route 4 entrance at (0, 18..19) [Entered Turn 1199]
-- North: Route 24 (Nugget Bridge) [Target Destination]
+- North: Route 24 (Nugget Bridge)
 
 ## Layout & Landmarks
 - West entrance connects via wide paved thoroughfare across rows 18-19.

@@ -2,7 +2,7 @@
 
 ## Connections
 - West: Route 4 entrance at (0, 18..19) [Entered Turn 1199]
-- North: Route 24 (Nugget Bridge) [Target Destination]
+- North: Route 24 (Nugget Bridge)
 
 ## Layout & Landmarks
 - West entrance connects via wide paved thoroughfare across rows 18-19.
