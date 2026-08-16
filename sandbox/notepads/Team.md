@@ -20,7 +20,7 @@
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
-## Inventory & Resources (Verified Turn 594)
+## Inventory & Resources (Verified Turn 859)
 - Money: ¥4364 (Updated with +¥330 from Rocket Grunt #2)
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Pokémon Attack)
 - Key Items: Town Map, Pokédex
