@@ -14,7 +14,7 @@
 3. HYDROS (Wartortle) - Lv 33
    - Stats (Verified at Lv 33): Max HP 94 (HP: 30/94), Attack 58, Defense 66, Speed 60, Special 63
    - Type: Water
-   - Moves: Tackle (30/35), Tail Whip (27/30), Bite (23/25), Bubblebeam (16/20) [Verified Turn 2318]
+   - Moves: Tackle (30/35), Tail Whip (27/30), Bite (23/25), Bubblebeam (15/20) [Verified Turn 2318]
    - Role: Starter & primary Water special attacker
 4. SPROUT (Bellsprout) - Lv 13
    - Type: Grass / Poison
