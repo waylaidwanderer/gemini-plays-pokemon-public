@@ -371,22 +371,23 @@
 
 ## Connections
 - West: Mt. Moon exit cave at (24, 5)
-- East: Leads to Cerulean City
+- East: Cerulean City border transition at (89, 11) [Connected to Cerulean City (0, 19)]
 
 ## Layout & Landmarks
-- Cave exit at (24, 5)
-- Signpost at (27, 7): "ROUTE 4 MT. MOON - CERULEAN CITY"
-- Plateau with wild grass to the south/east, leading to one-way ledges heading east towards Cerulean City.
-
-## Items & Discoveries
-- (Exploring)
-
-## Verified Trainers
-- (None yet)
+- Cave exit at (24, 5).
+- Signpost at (27, 7): "ROUTE 4 MT. MOON - CERULEAN CITY".
+- Upper corridor runs eastward along rows 6-8 across cols 24-45.
+- One-way ledge hopping east at (45, 6) into middle enclosure (cols 46-49, rows 2-10).
+- Row 10 connects eastward from col 49 past col 61.
+- Open gap at (61, 9) allows ascending north from row 10 to row 8 (cols 61-64).
+- Lower basin features tall grass across cols 64-74 (rows 10-15).
+- Tree column spans col 62 (rows 9-15) and col 75 (rows 9-13).
+- Verified pass-through step up to city lawn: Tile (77, 13) is an open elevation step connecting row 14 lawn to rows 10-12 avenue, leading to the eastern map transition at (89, 11).
 
 ## Empirical Wild Encounters
-- Spearow [Encountered Turn 1161 at (64, 11)]
+- Spearow [Encountered Turn 1161 at (64, 11), Turn 1174 at (66, 15), Turn 1189 at (65, 10)]
 - Rattata [Encountered Turn 1167 at (73, 14)]
+
 
 <hr>
 
@@ -395,22 +396,17 @@
 # Cerulean City - Points of Interest & Notes
 
 ## Connections
-- West: Route 4 (entered at x=77, y=13)
-- North: Route 24 (Nugget Bridge)
-- South: Route 5 (passage to Vermilion City)
-- East: Route 9 (passage to Rock Tunnel)
+- West: Route 4 entrance at (0, 18..19) [Entered Turn 1199]
 
-## Buildings & Points of Interest
-- Pokémon Center: Located in northwest/central sector (to locate and enter)
-- Pokémart: (to locate)
-- Cerulean Gym: Water-type Gym led by Misty (Cascade Badge)
-- Bike Shop: Located in southwest sector
-- Robbed House: (to locate in northeast)
+## Layout & Landmarks
+- West entrance connects via wide paved thoroughfare across rows 18-19.
+- Canal/waterway with stone barrier located north across rows 15-17 (cols 0-7).
+- Southern residential structure with stone fence and lawn located across rows 20-23 (cols 0-5).
 
 ## Verified NPCs & Dialogue
-- (Exploring)
+- NPC (SPRITE_cdfc): Located near (8, 21) in western plaza.
 
 ## Items & Discoveries
-- (Exploring)
+
 
 <hr>
