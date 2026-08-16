@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 2/8 (Boulder Badge, Cascade Badge)
-- Location: Route 6 (x=16, y=31) in tall grass patch
+- Location: Vermilion Gym (x=5, y=12)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
