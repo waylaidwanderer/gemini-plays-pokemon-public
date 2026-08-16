@@ -21,7 +21,7 @@
 - Every captured Pokemon will receive a thoughtful, unique nickname.
 
 ## Inventory & Resources (Verified Turn 1227)
-- Money: �1627
+- Money: �2087
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Pokemon Attack)
 - Key Items: Town Map, Pokedex, Helix Fossil
 - TMs / HMs: TM34 (Bide)
