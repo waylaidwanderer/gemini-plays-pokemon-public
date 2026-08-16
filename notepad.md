@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon 1F (x=17, y=11)
+- Location: Mt. Moon 1F (x=14, y=16)
 - Current Objective: Explore Mt. Moon 1F western corridor, defeat trainers, collect items, and locate the ladder to Route 4
 
 ## Notepads Index
@@ -15,7 +15,6 @@
 - `Locations/Route1`: Route 1 layout, points of interest, wild encounters
 - `Locations/ViridianCity`: Viridian City buildings, Mart catalog, Old Man
 - `Locations/PewterCity`: Pewter City points of interest, Pokémon Center, Pewter Gym
-- `Locations/Route3`: Route 3 layout, trainers, wild encounters
 - `Locations/MtMoon1F`: Mt. Moon 1F layout, items, wild encounters, trainers
 - `Locations/MtMoonB1F`: Mt. Moon B1F layout, ladders, wild encounters
 - `Locations/MtMoonB2F`: Mt. Moon B2F layout, Rocket Grunts, items, wild encounters
@@ -45,8 +44,8 @@
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
-## Inventory & Resources (Verified Turn 498)
-- Money: ¥1214
+## Inventory & Resources (Verified Turn 571)
+- Money: ¥1574 (Updated with +¥360 prize money from Rocket Grunt #1)
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Pokémon Attack)
 - Key Items: Town Map, Pokédex
 - TMs / HMs: TM34 (Bide)
@@ -54,6 +53,7 @@
   - 1x Antidote (Status cure: Poison)
   - 3x Potion (Restores 20 HP)
   - 0x Poké Ball (Exhausted in Mt. Moon)
+
 
 <hr>
 
