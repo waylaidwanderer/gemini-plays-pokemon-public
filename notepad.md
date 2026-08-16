@@ -685,5 +685,10 @@
 ## Verified Rooms & Cabins
 - Stairs to 1F: Located at (2, 6).
 
+## Cabin 1 (South Corridor - Entrance at 7, 8)
+- Coordinates: cols 20-23, rows 10-15.
+- Doorway exit at (20, 10).
+- NPC: Passenger / Gentleman at (23, 13).
+- Table at (20, 15)/(21, 15), Bed at (23, 14)/(23, 15).
 
 <hr>
