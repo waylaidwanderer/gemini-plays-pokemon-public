@@ -24,6 +24,7 @@
 ## Verified Trainers
 - Trainer #1: Located at (16, 23) facing West/North [Observed Turn 469]
 - Trainer #2 (Bug Catcher): Located at (30, 4) facing South [Observed Turn 506]
+- Trainer #3 (Bug Catcher): Located at (12, 16) facing East [Observed Turn 554]
 
 ## Empirical Wild Encounters
 - Zubat Lv 6 [Encountered Turn 477 at (22, 10), Nicknamed ECHO]
