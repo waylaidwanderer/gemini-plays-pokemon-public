@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 2/8 (Boulder Badge, Cascade Badge)
-- Location: Route 24 (x=10, y=15)
+- Location: Route 25 (x=0, y=8)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -513,6 +513,25 @@
 - Nugget Bridge Trainer #4 (Lass): Located at (10, 22) facing East [Defeated Turn 1580]. Team: Pidgey Lv 16, Nidoran♀ Lv 16. Reward: ¥240. Dialogue: "I'm No. 4! Getting tired?" Defeat quote: "I did my best! I have no regrets!"
 - Nugget Bridge Trainer #5 (Jr. Trainer Male): Located at (11, 19) facing West [Defeated Turn 1588]. Team: Mankey Lv 18. Reward: ¥360. Dialogue: "I'm No. 5! I'm the last one!" Defeat quote: "I did my best! I have no regrets!"
 - Nugget Bridge Team Rocket Recruiter: Located at (11, 15) [Defeated Turn 1591]. Team: Ekans Lv 15, Zubat Lv 15. Reward: Nugget prize + ¥450. Dialogue: "Congratulations! You beat the 5 of us! You've earned a fabulous prize!" / "By the way, would you like to join TEAM ROCKET?" Defeat quote: "Arrgh! You are good!"
+
+
+<hr>
+
+<h1><code>Locations/Route25</code></h1>
+
+# Route 25 - Points of Interest & Notes
+
+## Connections
+- West: Route 24 entrance at (0, 8..9) [Entered Turn 1604]
+- East: Bill's Sea Cottage
+
+## Layout & Landmarks
+- Main western entry thoroughfare runs eastward across rows 8-9 (cols 0-10+).
+- Northern bush barriers along rows 4-6.
+- Stone fence barrier at row 10 dividing upper highway from lower lawns.
+
+## Trainers & Encounters
+- (To be explored)
 
 
 <hr>
