@@ -62,4 +62,4 @@
 - Zubat [Encountered Turn 1131 at (36, 15)]
 - Zubat [Encountered Turn 1134 at (36, 24)]
 - Clefairy [Encountered Turn 1141 at (11, 31)]
-- Ladder at (3, 5): Northern exit ladder connecting to B1F exit path towards Route 4 [Discovered Turn 1149]
+- Ladder at (5, 7): Northern exit ladder connecting to B1F exit path towards Route 4 [Discovered Turn 1150]
