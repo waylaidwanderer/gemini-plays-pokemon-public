@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 2/8 (Boulder Badge, Cascade Badge)
-- Location: Route 24 (x=10, y=25)
+- Location: Route 24 (x=10, y=15)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -31,29 +31,31 @@
 1. HYDROS (Wartortle) - Lv 26
    - Stats (Verified at Lv 26): Max HP 75 (HP: 4/75, Critical), Attack 45, Defense 51, Speed 47, Special 49
    - Type: Water
-   - Moves: Tackle (27/35), Tail Whip (30/30), Bite (24/25), Bubblebeam (17/20)
+   - Moves: Tackle (27/35), Tail Whip (30/30), Bite (24/25), Bubblebeam (14/20)
    - Role: Starter & primary Water special attacker (Active Lead)
 2. ECHO (Zubat) - Lv 8
    - Stats (Verified at Lv 8): Max HP 26 (HP: 26/26, Healthy)
    - Type: Poison / Flying
    - Moves: Leech Life (15/15)
    - Role: Fast Flying/Poison utility & Grass counter
-3. TERRA (Geodude) - Lv 13
-   - Stats (Verified at Lv 13): Max HP 36 (HP: 33/36, Healthy), Attack 29, Defense 32, Speed 14, Special 13
+3. TERRA (Geodude) - Lv 14
+   - Stats (Verified at Lv 14): Max HP 38 (HP: 5/38, Healthy), Attack 31, Defense 34, Speed 15, Special 14
    - Type: Rock / Ground
-   - Moves: Tackle (29/35), Defense Curl (40/40)
+   - Moves: Tackle (28/35), Defense Curl (38/40)
    - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist
 
 ## Planned Nicknaming Strategy
-- Every captured Pok�mon will receive a thoughtful, unique nickname.
+- Every captured Pokémon will receive a thoughtful, unique nickname.
 
-## Inventory & Resources (Verified Turn 1565)
-- Money: �5177
-- Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pok�mon up to Lv 30 obey)
-- Key Items: Town Map, Pok�dex, Helix Fossil
+## Inventory & Resources (Verified Turn 1591)
+- Money: ¥6227
+- Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pokémon up to Lv 30 obey)
+- Key Items: Town Map, Pokédex, Helix Fossil
 - TMs / HMs: TM34 (Bide), TM11 (Bubblebeam)
+- Valuables:
+  - 1x Nugget (Nugget Bridge completion prize - sellable for ¥5000)
 - Consumables:
-  - 10x Pok� Ball (Purchased at Cerulean Pok�mart)
+  - 10x Poké Ball (Purchased at Cerulean Pokémart)
   - 1x Antidote (Status cure: Poison)
   - 1x Moon Stone (Evolution item found in Mt. Moon 1F)
   - 1x Rare Candy (Found at 35, 31 in Mt. Moon 1F)
@@ -503,12 +505,13 @@
 - Grass patches located along the western bank.
 
 ## Verified Encounters & Battles
-- Rival RED Encounter: Located at (20, 5) [Triggered Turn 1499, Defeated Turn 1528]. Reward: �595. Team defeated: Pidgeotto Lv 18, Abra Lv 15, Rattata Lv 15, Bulbasaur Lv 17. Post-battle dialogue: RED informs player about Bill the Pok�maniac who invented the PC Storage System.
-- Nugget Bridge Trainer #1 (Bug Catcher Cale): Located at (11, 31) facing West [Defeated Turn 1548]. Team: Caterpie Lv 14, Weedle Lv 14. Reward: �140. Dialogue: "This is NUGGET BRIDGE! Beat us 5 trainers and win a fabulous prize! Think you got what it takes?" Defeat quote: "I did my best! I have no regrets!"
-- Nugget Bridge Trainer #2 (Lass): Located at (10, 28) facing Down [Defeated Turn 1553]. Team: Pidgey Lv 12, Oddish Lv 12. Reward: �180. Dialogue: "I'm No. 2! Now it's serious!" Defeat quote: "How could I lose?"
-- Nugget Bridge Trainer #3 (Youngster Timmy): Located at (11, 25) facing West [Defeated Turn 1563]. Team: Rattata Lv 14, Ekans Lv 14, Zubat Lv 14. Reward: �140. Dialogue: "I'm No. 3! I'm not gonna be easy!" Defeat quote: "Ow! Stomped good thing!"
-
-- Nugget Bridge Trainer #4 (Lass): Located at (10, 22) facing East [Defeated Turn 1580]. Team: Pidgey Lv 16, Nidoran♀ Lv 16. Reward: ¥240. Dialogue: "I'm No. 4! Getting tired?" Defeat quote: "I did my best! I have no regrets!"- Nugget Bridge Trainer #5 (Jr. Trainer Male): Located at (11, 19) facing West [Defeated Turn 1588]. Team: Mankey Lv 18. Reward: ¥360. Dialogue: "I'm No. 5! I'm the last one!" Defeat quote: "I did my best! I have no regrets!"
+- Rival RED Encounter: Located at (20, 5) [Triggered Turn 1499, Defeated Turn 1528]. Reward: ¥595. Team defeated: Pidgeotto Lv 18, Abra Lv 15, Rattata Lv 15, Bulbasaur Lv 17. Post-battle dialogue: RED informs player about Bill the Pokémaniac who invented the PC Storage System.
+- Nugget Bridge Trainer #1 (Bug Catcher Cale): Located at (11, 31) facing West [Defeated Turn 1548]. Team: Caterpie Lv 14, Weedle Lv 14. Reward: ¥140. Dialogue: "This is NUGGET BRIDGE! Beat us 5 trainers and win a fabulous prize! Think you got what it takes?" Defeat quote: "I did my best! I have no regrets!"
+- Nugget Bridge Trainer #2 (Lass): Located at (10, 28) facing Down [Defeated Turn 1553]. Team: Pidgey Lv 12, Oddish Lv 12. Reward: ¥180. Dialogue: "I'm No. 2! Now it's serious!" Defeat quote: "How could I lose?"
+- Nugget Bridge Trainer #3 (Youngster Timmy): Located at (11, 25) facing West [Defeated Turn 1563]. Team: Rattata Lv 14, Ekans Lv 14, Zubat Lv 14. Reward: ¥140. Dialogue: "I'm No. 3! I'm not gonna be easy!" Defeat quote: "Ow! Stomped good thing!"
+- Nugget Bridge Trainer #4 (Lass): Located at (10, 22) facing East [Defeated Turn 1580]. Team: Pidgey Lv 16, Nidoran♀ Lv 16. Reward: ¥240. Dialogue: "I'm No. 4! Getting tired?" Defeat quote: "I did my best! I have no regrets!"
+- Nugget Bridge Trainer #5 (Jr. Trainer Male): Located at (11, 19) facing West [Defeated Turn 1588]. Team: Mankey Lv 18. Reward: ¥360. Dialogue: "I'm No. 5! I'm the last one!" Defeat quote: "I did my best! I have no regrets!"
+- Nugget Bridge Team Rocket Recruiter: Located at (11, 15) [Defeated Turn 1591]. Team: Ekans Lv 15, Zubat Lv 15. Reward: Nugget prize + ¥450. Dialogue: "Congratulations! You beat the 5 of us! You've earned a fabulous prize!" / "By the way, would you like to join TEAM ROCKET?" Defeat quote: "Arrgh! You are good!"
 
 
 <hr>
