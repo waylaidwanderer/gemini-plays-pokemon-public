@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Cerulean City - Cerulean Gym (x=4, y=13)
+- Location: Cerulean City - Cerulean Gym (x=5, y=3)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -26,9 +26,9 @@
 
 ## Active Party
 1. HYDROS (Wartortle) - Lv 23
-   - Stats (Verified at Lv 22): Max HP 67 (HP: 61/67, Healthy), Attack 40, Defense 46, Speed 42, Special 44
+   - Stats (Verified at Lv 22): Max HP 67 (HP: 42/67, Healthy), Attack 40, Defense 46, Speed 42, Special 44
    - Type: Water
-   - Moves: Tackle (30/35), Tail Whip (30/30), Bubble (30/30), Water Gun (25/25)
+   - Moves: Tackle (23/35), Tail Whip (30/30), Bubble (30/30), Water Gun (25/25)
    - Role: Starter & primary Water special attacker (Active Lead)
 2. ECHO (Zubat) - Lv 8
    - Stats (Verified at Lv 8): Max HP 26 (HP: 26/26, Healthy)
@@ -38,7 +38,7 @@
 3. TERRA (Geodude) - Lv 13
    - Stats (Verified at Lv 13): Max HP 36 (HP: 36/36, Healthy), Attack 29, Defense 32, Speed 14, Special 13
    - Type: Rock / Ground
-   - Moves: Tackle (30/35), Defense Curl (40/40)
+   - Moves: Tackle (23/35), Defense Curl (40/40)
    - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist
 
 ## Planned Nicknaming Strategy
@@ -421,10 +421,9 @@
 
 ## Cerulean Gym Trainers
 - Trainer #1 (Swimmer): Located at (6, 7) [Defeated Turn 1252]. Dialogue: "Splash! I'm first up! Let's do it!" Defeat quote: "That can't be!" Team: Horsea Lv 16, Shellder Lv 16. Reward: �80.
-- Trainer #2 (Jr. Trainer Female): Located at (2, 3).
+- Trainer #2 (Jr. Trainer Female): Located at (2, 3) [Engaged Turn 1255]. Dialogue: "I'm more than good enough for you! MISTY can wait!" Team: Goldeen Lv 19.
 - Gym Leader Misty: Located on north platform. Team: Staryu Lv 18, Starmie Lv 21.
 
-## Items & Discoveries
 
 
 <hr>
