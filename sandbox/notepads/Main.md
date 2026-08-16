@@ -3,8 +3,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon 1F (x=21, y=33)
-- Current Objective: Navigate north out of south-central pocket, then head west towards southwest chamber (2, 20)
+- Location: Mt. Moon 1F (x=21, y=28)
+- Current Objective: Navigate around rock divider via cols 24-25, then head west towards southwest chamber (2, 20)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory

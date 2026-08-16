@@ -5,8 +5,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon 1F (x=21, y=33)
-- Current Objective: Navigate north out of south-central pocket, then head west towards southwest chamber (2, 20)
+- Location: Mt. Moon 1F (x=21, y=28)
+- Current Objective: Navigate around rock divider via cols 24-25, then head west towards southwest chamber (2, 20)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -258,6 +258,7 @@
 - Horizontal rock wall at row 18 (cols 2-9). Western passage continues south along columns 10-11 (rows 18-20+).
 - Horizontal rock divider at rows 20-21 (cols 10-15). Passage at row 19 connects East to central corridor (cols 14-16).
 - Friendly NPC at (30, 27): "Go through this cave to get to CERULEAN CITY!"
+- South-central rock formation spans cols 20-23 (rows 26-27); bypass corridor is at cols 24-25.
 - Observed NPC/Trainer at (7, 22) in southwest pocket.
 - Northeast sector open chamber around (35, 7) extending eastward to col 37 (rows 2-7). East boundary rock wall at col 38, north rock wall at row 1.
 - Northern corridor runs westward along rows 2-5 across columns 35 down towards northwest sector.
