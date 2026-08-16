@@ -690,5 +690,11 @@
 - Doorway exit at (20, 10).
 - NPC: Passenger / Gentleman at (23, 13).
 - Table at (20, 15)/(21, 15), Bed at (23, 14)/(23, 15).
+## Cabin 2 (South Corridor - Entrance at 15, 8)
+- Coordinates: cols 0-3, rows 10-15.
+- Doorway exit at (0, 10).
+- Girl NPC at (2, 11) with Pokémon at (3, 11).
+- NPC at (0, 14).
+- Table at (0, 15)/(1, 15), Bed at (3, 14)/(3, 15).
 
 <hr>
