@@ -1,10 +1,10 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. HYDROS (Wartortle) - Lv 32
-   - Stats (Verified at Lv 32): Max HP 92 (HP: 92/92, Healthy), Attack 56, Defense 64, Speed 58, Special 61
+1. HYDROS (Wartortle) - Lv 33
+   - Stats (Verified at Lv 33): Max HP 94 (HP: 30/94), Attack 58, Defense 66, Speed 60, Special 63
    - Type: Water
-   - Moves: Tackle (35/35), Tail Whip (30/30), Bite (25/25), Bubblebeam (20/20)
+   - Moves: Tackle (32/35), Tail Whip (27/30), Bite (23/25), Bubblebeam (17/20)
    - Role: Starter & primary Water special attacker (Active Lead)
 2. ECHO (Zubat) - Lv 8
    - Stats (Verified at Lv 8): Max HP 26 (HP: 26/26, Healthy)
@@ -12,28 +12,27 @@
    - Moves: Leech Life (15/15), Supersonic (20/20)
    - Role: Fast Flying/Poison utility & Grass counter
 3. TERRA (Geodude) - Lv 15
-   - Stats (Verified at Lv 15): Max HP 41 (HP: 41/41, Healthy), Attack 33, Defense 37, Speed 15, Special 15
+   - Stats (Verified at Lv 15): Max HP 41 (HP: 21/41), Attack 33, Defense 37, Speed 15, Special 15
    - Type: Rock / Ground
-   - Moves: Tackle (35/35), Defense Curl (40/40)
+   - Moves: Tackle (35/35), Defense Curl (40/40), Dig (10/10)
    - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist
-
 4. SPROUT (Bellsprout) - Lv 13
    - Type: Grass / Poison
    - Moves: Vine Whip, Growth, Wrap, Cut
    - Role: Grass/Poison STAB, status utility & Field Cut user
 
 ## Planned Nicknaming Strategy
-- Every captured Pok�mon will receive a thoughtful, unique nickname.
+- Every captured Pokémon will receive a thoughtful, unique nickname.
 
-## Inventory & Resources (Verified Turn 2011)
-- Money: ¥11216 (Verified Turn 2199 after Sailor: +¥630)
-- Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pok�mon up to Lv 30 obey)
+## Inventory & Resources (Verified Turn 2212)
+- Money: ¥11716 (Verified Turn 2212 after Rocker: +¥500)
+- Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pokémon up to Lv 30 obey)
 - Key Items: Town Map, Helix Fossil, S.S. Ticket, Bike Voucher
-- TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM28 (Dig), TM34 (Bide), TM44 (Rest)
+- TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM34 (Bide), TM44 (Rest)
 - Valuables:
-  - 1x Nugget (Nugget Bridge completion prize - sellable for �5000)
+  - 1x Nugget (Nugget Bridge completion prize - sellable for ¥5000)
 - Consumables:
-  - 15x Pok� Ball (Purchased at Vermilion Pok�mart)
+  - 13x Poké Ball
   - 1x Great Ball (Found in S.S. Anne Kitchen trash can at 13, 9)
   - 1x Antidote (Status cure: Poison)
   - 1x Ether (Restores 10 PP to one move)

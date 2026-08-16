@@ -34,10 +34,10 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. HYDROS (Wartortle) - Lv 32
-   - Stats (Verified at Lv 32): Max HP 92 (HP: 92/92, Healthy), Attack 56, Defense 64, Speed 58, Special 61
+1. HYDROS (Wartortle) - Lv 33
+   - Stats (Verified at Lv 33): Max HP 94 (HP: 30/94), Attack 58, Defense 66, Speed 60, Special 63
    - Type: Water
-   - Moves: Tackle (35/35), Tail Whip (30/30), Bite (25/25), Bubblebeam (20/20)
+   - Moves: Tackle (32/35), Tail Whip (27/30), Bite (23/25), Bubblebeam (17/20)
    - Role: Starter & primary Water special attacker (Active Lead)
 2. ECHO (Zubat) - Lv 8
    - Stats (Verified at Lv 8): Max HP 26 (HP: 26/26, Healthy)
@@ -45,28 +45,27 @@
    - Moves: Leech Life (15/15), Supersonic (20/20)
    - Role: Fast Flying/Poison utility & Grass counter
 3. TERRA (Geodude) - Lv 15
-   - Stats (Verified at Lv 15): Max HP 41 (HP: 41/41, Healthy), Attack 33, Defense 37, Speed 15, Special 15
+   - Stats (Verified at Lv 15): Max HP 41 (HP: 21/41), Attack 33, Defense 37, Speed 15, Special 15
    - Type: Rock / Ground
-   - Moves: Tackle (35/35), Defense Curl (40/40)
+   - Moves: Tackle (35/35), Defense Curl (40/40), Dig (10/10)
    - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist
-
 4. SPROUT (Bellsprout) - Lv 13
    - Type: Grass / Poison
    - Moves: Vine Whip, Growth, Wrap, Cut
    - Role: Grass/Poison STAB, status utility & Field Cut user
 
 ## Planned Nicknaming Strategy
-- Every captured Pok�mon will receive a thoughtful, unique nickname.
+- Every captured Pokémon will receive a thoughtful, unique nickname.
 
-## Inventory & Resources (Verified Turn 2011)
-- Money: ¥11216 (Verified Turn 2199 after Sailor: +¥630)
-- Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pok�mon up to Lv 30 obey)
+## Inventory & Resources (Verified Turn 2212)
+- Money: ¥11716 (Verified Turn 2212 after Rocker: +¥500)
+- Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pokémon up to Lv 30 obey)
 - Key Items: Town Map, Helix Fossil, S.S. Ticket, Bike Voucher
-- TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM28 (Dig), TM34 (Bide), TM44 (Rest)
+- TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM34 (Bide), TM44 (Rest)
 - Valuables:
-  - 1x Nugget (Nugget Bridge completion prize - sellable for �5000)
+  - 1x Nugget (Nugget Bridge completion prize - sellable for ¥5000)
 - Consumables:
-  - 15x Pok� Ball (Purchased at Vermilion Pok�mart)
+  - 13x Poké Ball
   - 1x Great Ball (Found in S.S. Anne Kitchen trash can at 13, 9)
   - 1x Antidote (Status cure: Poison)
   - 1x Ether (Restores 10 PP to one move)
@@ -737,14 +736,15 @@
 ## Layout & Landmarks
 - Entrance mat at (4, 17) / (5, 17).
 - Gym Guide at (4, 14). Dialogue: "Yo! Champ in making! LT.SURGE has a nickname. People refer to him as the LIGHTNING AMERICAN! He's an expert on electric POKéMON! BIRDS and WATER POKéMON are at risk! Beware of paralysis too! LT.SURGE is very cautious! He locked himself behind two electric doors! A switch in the trash cans opens them! You'll have to break a code to get to him!"
-- Statues at (3, 14) and (6, 14).
+- Statues at (3, 14) and (6, 14). Brock & Misty's winning trainers listed.
 - Central floor contains 15 trash cans arranged in a 5x3 grid:
   - Rows: 7, 9, 11
   - Columns: 1, 3, 5, 7, 9
 - Passable aisles:
   - Vertical aisles: Columns 0, 2, 4, 6, 8
-  - Horizontal aisles: Rows 8, 10, 12
-- Electric fence barriers block access to Lt. Surge's northern platform across rows 4-6.
+  - Horizontal aisles: Rows 6, 8, 10, 12
+- Electric fence barriers block access to Lt. Surge's northern platform across rows 4-6 (consoles at 4,4 and 5,4).
+- Lt. Surge is located at (4, 2) / (5, 2) on the northern podium.
 
 ## Verified Trainers
 - Gym Guide at (4, 14) [Spoke Turn 2187]
@@ -753,9 +753,13 @@
   - Defeat quote: "Wow! Surprised me!"
   - Team: Pikachu Lv 21, Pikachu Lv 21
   - Reward: ¥630
-- Rocker (Trainer #2): Located at (3, 8) [Defeated Turn 2207].
+- Rocker (Trainer #2): Located at (3, 8) [Defeated Turn 2212].
   - Pre-battle dialogue: "I'm a lightweight, but I'm good with electricity!"
-  - Team: Voltorb Lv 20, Magnemite Lv 20
+  - Defeat quote: "Fried!"
+  - Post-battle dialogue: "OK, I'll talk! LT.SURGE said he hid door switches inside something!"
+  - Team: Voltorb Lv 20, Magnemite Lv 20, Voltorb Lv 20
+  - Reward: ¥500
+- Jr. Trainer ♂ (Trainer #3): Located at (9, 6) facing Left (unbattled).
 
 
 <hr>
