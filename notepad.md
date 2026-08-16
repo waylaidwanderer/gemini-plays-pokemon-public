@@ -1168,14 +1168,6 @@ We have empirically verified that Column 28 is 100% OPEN and walkable on Rows 12
 8. Stand at `(19, 26)` facing **UP** (north).
 9. Press **A** to pick up the Gold Teeth!
 
-### Phase 5: Super-Optimized Ground-Level Transition Route (Between Center & Area 3)
-- From `(0, 11)` in Safari Zone Center, walk LEFT 1 step to transition directly to `(29, 23)` in Area 3 (West).
-- From `(29, 23)` in Area 3 (West), walk LEFT 10 steps to `(19, 23)`.
-- From `(19, 23)`, walk RIGHT 10 steps to Column 29 at `(29, 23)`.
-- Walk RIGHT 1 step to transition to Safari Zone Center at `(0, 11)`.
-- Walk LEFT from `(29, 26)` in Area 3 (West) to `(19, 26)` on the Row 26 Highway.
-- Stand at `(19, 26)` facing **UP** (north) and press **A** to pick up the Gold Teeth!
-
 <hr>
 
 <h1><code>notepads/Scratchpad/SafariZone_Route.md</code></h1>
