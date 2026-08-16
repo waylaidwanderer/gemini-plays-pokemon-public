@@ -85,7 +85,7 @@ print("Selecting TRUFFLE...")
 bridge.press_buttons(["Down", "A"])
 time.sleep(1.0)
 
-# Press A directly to select CUT (since the cursor defaults to the first option, which is CUT)
+# Press A directly to select CUT (since the cursor is on CUT by default)
 print("Selecting CUT...")
 bridge.press_buttons(["A"])
 time.sleep(2.0) # Wait for text/animation
