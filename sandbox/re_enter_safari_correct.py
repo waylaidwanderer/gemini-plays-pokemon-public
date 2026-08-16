@@ -45,30 +45,6 @@ def get_path_bfs(start, target, blocked_edges):
         for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:
             neighbor = (curr[0] + dx, curr[1] + dy)
             if 0 <= neighbor[0] <= max_x and 0 <= neighbor[1] <= max_y:
-                # Fuchsia City overworld boundaries
-                # Column 25 fence posts (rows 23-26, and 28-29)
-                if neighbor[0] == 25 and neighbor[1] in [23, 24, 25, 26, 28, 29]:
-                    continue
-                # Row 29 fence posts (columns 25-29)
-                if neighbor[1] == 29 and 25 <= neighbor[0] <= 29:
-                    continue
-                # Column 23 wall (rows 26-31)
-                if neighbor[0] == 23 and 26 <= neighbor[1] <= 31:
-                    continue
-                # Column 2 wall (rows 24-31)
-                if neighbor[0] == 2 and 24 <= neighbor[1] <= 31:
-                    continue
-                # Slowpoke pen (Row 32, columns 10-14)
-                if neighbor[1] == 32 and 10 <= neighbor[0] <= 14:
-                    continue
-                # Row 16 Tree Barrier (Columns 27-35)
-                if neighbor[1] == 16 and 27 <= neighbor[0] <= 35:
-                    continue
-                # Checkerboard fence posts (Rows 19-21, Columns 14-21)
-                if 14 <= neighbor[0] <= 21 and 19 <= neighbor[1] <= 21:
-                    # Allow column 18 row 21 if needed, but safer to block the whole area
-                    continue
-                    
                 if neighbor not in visited:
                     edge = (curr, neighbor)
                     if edge not in blocked_edges:
@@ -129,7 +105,7 @@ def navigate_to_waypoint(target_x, target_y, blocked_edges):
                 print("Map transition detected!")
                 return True
 
-# Initialize blocked edges
+# Initialize blocked edges completely dynamically to avoid hardcoding errors!
 blocked_edges = set()
 # Avoid entering other buildings
 blocked_edges.add(((19, 28), (19, 27))) # Pokémon Center
@@ -142,23 +118,22 @@ blocked_edges.add(((32, 27), (32, 28)))
 blocked_edges.add(((31, 25), (31, 24)))
 blocked_edges.add(((31, 24), (31, 25)))
 
-# We are at (27, 22) in Fuchsia City overworld.
+# We are currently at (33, 23) in Fuchsia City overworld.
+# We will use the fully open and correct waypoints:
 fuchsia_waypoints = [
-    (27, 30), # Move down to Row 30
-    (24, 30), # Left along Row 30 to Column 24 (crossing fence gap at (25, 30))
-    (24, 32), # Down Column 24 to Row 32
-    (8, 32),  # Left along Row 32 to Column 8 (bypassing Slowpoke pen)
-    (8, 14),  # Up Column 8 to Row 14 (bypassing ledge gap and checkers)
-    (1, 14),  # Left along Row 14 to Column 1
-    (35, 14), # Right along Row 14 to Column 35 (the east corridor)
-    (35, 2),  # Up Column 35 to Row 2
-    (22, 2),  # Left along Row 2 to Column 22
-    (22, 4),  # Down Column 22 to Row 4
-    (18, 4),  # Left Row 4 to Column 18
-    (18, 3)   # Up to enter Gatehouse
+    (33, 30), # Move down Row 33 to Row 30
+    (24, 30), # Walk Left along Row 30 (cross gap at (25, 30))
+    (24, 32), # Walk Down Column 24 to Row 32
+    (8, 32),  # Walk Left along Row 32 (bypass Slowpoke pen)
+    (8, 14),  # Walk Up Column 8 (bypass ledge and checkers)
+    (35, 14), # Walk Right along Row 14 (east corridor)
+    (35, 2),  # Walk Up Column 35 to Row 2
+    (22, 2),  # Walk Left along Row 2 to Column 22
+    (18, 4),  # Walk Left/Down to (18, 4) in front of Gatehouse door
+    (18, 3)   # Enter the Gatehouse
 ]
 
-print("--- PHASE 1: WALKING TO SAFARI GATEHOUSE ---")
+print("--- PHASE 1: WALKING TO SAFARI ZONE GATEHOUSE ---")
 for wp in fuchsia_waypoints:
     navigate_to_waypoint(wp[0], wp[1], blocked_edges)
 
@@ -173,7 +148,6 @@ print("Coordinates inside Gatehouse:", curr)
 # PHASE 2: PAY AND ENTER SAFARI ZONE
 # ==========================================
 print("--- PHASE 2: PAYING CLERK ---")
-# Reset blocked edges for the gatehouse indoor map
 blocked_edges = set()
 # Walk to the clerk at (3, 2)
 navigate_to_waypoint(3, 2, blocked_edges)
