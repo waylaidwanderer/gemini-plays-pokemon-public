@@ -425,7 +425,7 @@
 - Western Plaza NPC (SPRITE_cdfc): Wanders near (8, 21) and (15, 18..21).
 - Gym Courtyard NPC: Located at (31, 20) near Cerulean Gym. Dialogue: "You're a trainer too? Collecting, fighting, it's a tough life."
 - Trader's Wife: Located at (5, 4) in Trade House (13, 15). Dialogue: "My husband likes trading POKEMON. If you are a collector, would you please trade with him?"
-- Trader (Husband): Located at (1, 2) in Trade House (13, 15).
+- Trader (Husband): Located at (1, 2) in Trade House (13, 15). Offers in-game trade: POLIWHIRL for JYNX (LOLA). Dialogue: "Hello there! Do you want to trade your POLIWHIRL for JYNX?"
 - Bike Shop Customer #1: Located at (1, 3) in Bike Shop. Dialogue: "These BIKES are cool, but they're way expensive!"
 - Bike Shop Clerk: Located at (6, 2) behind counter in Bike Shop. Dialogue: "Welcome to our BIKE SHOP... BICYCLE ¥1000000".
 - Slowbro & Trainer: Located in south courtyard at (28, 26) and (29, 26). Slowbro dialogue: "SLOWBRO ignored orders...", Trainer dialogue: "SLOWBRO punch! No! You blew it".
@@ -434,6 +434,5 @@
 - Trainer #1 (Swimmer): Located at (6, 7) [Defeated Turn 1252]. Dialogue: "Splash! I'm first up! Let's do it!" Defeat quote: "That can't be!" Team: Horsea Lv 16, Shellder Lv 16. Reward: ¥80.
 - Trainer #2 (Jr. Trainer Female): Located at (2, 3) / (4, 3) [Defeated Turn 1263]. Dialogue: "I'm more than good enough for you! MISTY can wait!" Defeat quote: "You overwhelmed me!" Team: Goldeen Lv 19. Reward: ¥380.
 - Gym Leader Misty: Located at (4, 2) [Defeated Turn 1348]. Cascade Badge and TM11 (Bubblebeam) obtained.
-
 
 <hr>
