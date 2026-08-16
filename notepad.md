@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon 1F (x=25, y=15)
+- Location: Mt. Moon 1F (x=31, y=10)
 - Current Objective: Return west via northern corridor (row 4) to northwest ladder at (5, 5) and descend to B1F towards Route 4
 
 ## Notepads Index
@@ -239,6 +239,7 @@
 - Ladders:
   - Ladder at (5, 5) [Verified Turn 612] - Northwest ladder to B1F (Main progression route to Route 4)
   - Ladder at (17, 11) [Explored Turns 520-553] - Central ladder to B1F (leads to isolated B2F treasure ledge)
+  - Ladder at (25, 15) [Observed Turn 656] - Eastern chamber ladder to B1F
   - Ladder in Northeast sector (cols 35-37) - Leads to B2F upper ledge
 
 ## Layout & Landmarks
