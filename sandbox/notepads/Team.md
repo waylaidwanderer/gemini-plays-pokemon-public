@@ -2,9 +2,9 @@
 
 ## Active Party
 1. HYDROS (Wartortle) - Lv 29
-   - Stats (Verified at Lv 29): Max HP 83 (HP: 52/83, Healthy), Attack 51, Defense 58, Speed 52, Special 55
+   - Stats (Verified at Lv 29): Max HP 83 (HP: 39/83, Healthy), Attack 51, Defense 58, Speed 52, Special 55
    - Type: Water
-   - Moves: Tackle (34/35), Tail Whip (29/30), Bite (19/25), Bubblebeam (5/20)
+   - Moves: Tackle (30/35), Tail Whip (29/30), Bite (18/25), Bubblebeam (4/20)
    - Role: Starter & primary Water special attacker (Active Lead)
 2. ECHO (Zubat) - Lv 8
    - Stats (Verified at Lv 8): Max HP 26 (HP: 26/26, Healthy)
@@ -20,8 +20,8 @@
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
-## Inventory & Resources (Verified Turn 1847)
-- Money: ¥6213
+## Inventory & Resources (Verified Turn 1875)
+- Money: ¥6533
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pokémon up to Lv 30 obey)
 - Key Items: Town Map, Helix Fossil, S.S. Ticket
 - TMs / HMs: TM34 (Bide), TM28 (Dig)
