@@ -1,28 +1,43 @@
 import mgba
 import time
-import os
 
-print("--- DIAGNOSING MOVEMENT STALL ---")
+print("--- MAPPING WARDEN'S HOUSE ---")
+start_pos = mgba.get_coordinates()
+print("Starting search at:", start_pos)
 
-def step_action(btn, step_num):
-    print(f"Step {step_num}: Pressing {btn}...")
-    mgba.press_buttons([btn])
-    time.sleep(0.5)
-    screenshot_path = mgba.take_screenshot()
-    pos = mgba.get_coordinates()
-    print(f"Step {step_num} complete. Position: {pos}, Screenshot: {screenshot_path}")
+# We want to test walkability of surrounding tiles.
+# We will try a move, see if our position changed, and if so, step back to start_pos.
 
-# Take initial screenshot
-initial_path = mgba.take_screenshot()
-print(f"Initial Position: {mgba.get_coordinates()}, Screenshot: {initial_path}")
+def test_direction(dir_name, back_dir):
+    pos_before = mgba.get_coordinates()
+    # Press B to ensure no textbox is active
+    mgba.press_buttons(["B"])
+    time.sleep(0.2)
+    
+    # Try the move (press twice to handle turn if needed)
+    mgba.press_buttons([dir_name])
+    time.sleep(0.4)
+    mgba.press_buttons([dir_name])
+    time.sleep(0.4)
+    
+    pos_after = mgba.get_coordinates()
+    if pos_after != pos_before:
+        print(f"Direction {dir_name} is WALKABLE! Reached: {pos_after}")
+        # Walk back
+        mgba.press_buttons([back_dir])
+        time.sleep(0.4)
+        mgba.press_buttons([back_dir])
+        time.sleep(0.4)
+        return True
+    else:
+        print(f"Direction {dir_name} is BLOCKED!")
+        return False
 
-# Run sequence of actions
-step_action("B", 1)
-step_action("B", 2)
-step_action("A", 3)
-step_action("B", 4)
-step_action("Left", 5)
-step_action("Left", 6)
-step_action("Down", 7)
+# Test all 4 directions from start_pos (9, 12)
+test_direction("Left", "Right")
+test_direction("Right", "Left")
+test_direction("Up", "Down")
+test_direction("Down", "Up")
 
-print("Done diagnosing!")
+mgba.take_screenshot()
+print("Final position:", mgba.get_coordinates())
