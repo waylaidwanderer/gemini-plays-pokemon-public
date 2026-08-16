@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 2/8 (Boulder Badge, Cascade Badge)
-- Location: S.S. Anne (x=27, y=5)
+- Location: S.S. Anne 2F (x=37, y=15)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -105,7 +105,7 @@
 - [x] Defeat Team Rocket Grunt in Cerulean backyard & recover TM28 (Dig) [Turn 1820]
 - [x] Travel south from Cerulean City to Vermilion City via Route 5 & Route 6 [Arrived Turn 1876]
 - [x] Obtain Bike Voucher from Pokémon Fan Club Chairman in Vermilion City [Turn 1902]
-- [ ] Board the S.S. Anne in Vermilion City
+- [x] Board the S.S. Anne in Vermilion City [Turn 1921]
 - [ ] Defeat Gym Leader Lt. Surge in Vermilion Gym
 
 
@@ -706,5 +706,20 @@
 - Doorway exit at (0, 0).
 - NPC at (2, 3).
 - Table at (0, 5)/(1, 5), Bed at (3, 4)/(3, 5).
+## North Cabin 1 (Upper Hallway Entrance at 23, 3)
+- Boy NPC at (10, 13).
+- Machoke NPC at (11, 12). Dialogue: "MACHOKE: Gwoh! Goggoh!"
+- Table at (10, 11)/(11, 11), Bed at (13, 11)/(13, 12).
+
+## North Cabin 2 (Upper Hallway Entrance at 19, 3)
+- Trainer: Sailor at (2, 13) [Defeated Turn 1977]. Team: Tentacool Lv 17. Reward: �510. Dialogue: "My sailor's pride is at stake!" Defeat: "Your spirit sank me!"
+- NPC: Sailor at (0, 13).
+- Table at (0, 11)/(1, 11), Bed at (3, 11)/(3, 12).
+
+## Upper Hallway (Connecting 2F at 37, 15)
+- Layout: cols 15-27, rows 4-5.
+- Doorways along north wall at (15, 3), (19, 3), (23, 3).
+- Connection to 2F East Corridor at (27, 5) <-> (37, 15).
+
 
 <hr>
