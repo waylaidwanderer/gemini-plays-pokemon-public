@@ -1,79 +1,53 @@
-import bridge
+import mgba
 import time
 
-def walk_to_waypoint(target_x, target_y):
-    print(f"Navigating to waypoint ({target_x}, {target_y})...")
-    stuck_count = 0
-    last_coords = None
-    
-    while True:
-        curr = bridge.get_coordinates()
-        if curr is None:
-            print("Coordinates are None. Waiting...")
-            time.sleep(0.5)
-            continue
-            
-        x, y = curr
-        if x == target_x and y == target_y:
-            print(f"Reached waypoint ({target_x}, {target_y})")
-            return True
-            
-        if curr == last_coords:
-            stuck_count += 1
-            if stuck_count > 4:
-                print(f"Stuck at {curr} trying to reach ({target_x}, {target_y}). Retrying...")
-                bridge.press_buttons(["A", "B"])
-                time.sleep(0.5)
-                stuck_count = 0
-        else:
-            stuck_count = 0
-            last_coords = curr
-            
-        # Choose direction to move
-        if x < target_x:
-            btn = "Right"
-        elif x > target_x:
-            btn = "Left"
-        elif y < target_y:
-            btn = "Down"
-        elif y > target_y:
-            btn = "Up"
-            
-        bridge.press_buttons([btn])
-        time.sleep(0.44)
+print("--- EXECUTING GATEHOUSE PATH PART 1 FROM (19, 28) TO (18, 9) ---")
 
-# 1. Exit Pokémon Center
-print("Exiting Pokémon Center...")
-walk_to_waypoint(3, 4)
-walk_to_waypoint(3, 7)
+def get_pos():
+    return mgba.get_coordinates()
 
-# Step down to exit
-print("Stepping DOWN to exit...")
-bridge.press_buttons(["Down"])
-time.sleep(1.0)
+# Current position is (19, 28) facing UP
+# 1. Walk LEFT 11 steps to (8, 28)
+print("Step 1: LEFT 11 steps")
+for _ in range(11):
+    mgba.press_buttons(["Left"])
+    time.sleep(0.3)
 
-# Check coordinates in overworld
-curr = bridge.get_coordinates()
-print("Emerged in Fuchsia City at:", curr)
+# 2. Walk DOWN 4 steps to (8, 32)
+print("Step 2: DOWN 4 steps")
+for _ in range(4):
+    mgba.press_buttons(["Down"])
+    time.sleep(0.3)
 
-# 2. Walk Part 1 Waypoints
-part1_waypoints = [
-    (8, 28),
-    (8, 32),
-    (1, 32),
-    (1, 18),
-    (22, 18),
-    (22, 14)
-]
+# 3. Walk LEFT 7 steps to (1, 32)
+print("Step 3: LEFT 7 steps")
+for _ in range(7):
+    mgba.press_buttons(["Left"])
+    time.sleep(0.3)
 
-success = True
-for idx, (wx, wy) in enumerate(part1_waypoints):
-    print(f"Part 1 Waypoint {idx+1}/{len(part1_waypoints)}: ({wx}, {wy})")
-    if not walk_to_waypoint(wx, wy):
-        success = False
-        break
+# 4. Walk UP 18 steps to (1, 14)
+print("Step 4: UP 18 steps")
+for _ in range(18):
+    mgba.press_buttons(["Up"])
+    time.sleep(0.3)
 
-if success:
-    print("Part 1 Navigation Complete! Current Position:", bridge.get_coordinates())
-else:
-    print("Part 1 Navigation Failed! Current Position:", bridge.get_coordinates())
+# 5. Walk RIGHT 12 steps to (13, 14)
+print("Step 5: RIGHT 12 steps")
+for _ in range(12):
+    mgba.press_buttons(["Right"])
+    time.sleep(0.3)
+
+# 6. Walk UP 5 steps to (13, 9)
+print("Step 6: UP 5 steps")
+for _ in range(5):
+    mgba.press_buttons(["Up"])
+    time.sleep(0.3)
+
+# 7. Walk RIGHT 5 steps to (18, 9)
+print("Step 7: RIGHT 5 steps")
+for _ in range(5):
+    mgba.press_buttons(["Right"])
+    time.sleep(0.3)
+
+print("Arrived at:", get_pos())
+mgba.take_screenshot()
