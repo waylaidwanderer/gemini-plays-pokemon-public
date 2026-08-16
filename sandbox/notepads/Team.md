@@ -1,10 +1,10 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. HYDROS (Wartortle) - Lv 28
-   - Stats (Verified at Lv 28): Max HP 81 (HP: 50/81, Healthy), Attack 49, Defense 55, Speed 50, Special 53
+1. HYDROS (Wartortle) - Lv 29
+   - Stats (Verified at Lv 29): Max HP 83 (HP: 52/83, Healthy), Attack 51, Defense 58, Speed 52, Special 55
    - Type: Water
-   - Moves: Tackle (35/35), Tail Whip (29/30), Bite (19/25), Bubblebeam (8/20)
+   - Moves: Tackle (34/35), Tail Whip (29/30), Bite (19/25), Bubblebeam (8/20)
    - Role: Starter & primary Water special attacker (Active Lead)
 2. ECHO (Zubat) - Lv 8
    - Stats (Verified at Lv 8): Max HP 26 (HP: 26/26, Healthy)
@@ -18,17 +18,16 @@
    - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist
 
 ## Planned Nicknaming Strategy
-- Every captured Pokémon will receive a thoughtful, unique nickname.
+- Every captured Pok�mon will receive a thoughtful, unique nickname.
 
-## Inventory & Resources (Verified Turn 1711)
-- Money: ¥6013
-- Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pokémon up to Lv 30 obey)
-- Key Items: Town Map, Pokédex, Helix Fossil, S.S. Ticket
-- TMs / HMs: TM34 (Bide), TM11 (Bubblebeam), TM28 (Dig)
+## Inventory & Resources (Verified Turn 1847)
+- Money: �6013
+- Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pok�mon up to Lv 30 obey)
+- Key Items: Town Map, Helix Fossil, S.S. Ticket
+- TMs / HMs: TM34 (Bide), TM28 (Dig)
 - Valuables:
-  - 1x Nugget (Nugget Bridge completion prize - sellable for ¥5000)
+  - 1x Nugget (Nugget Bridge completion prize - sellable for �5000)
 - Consumables:
-  - 10x Poké Ball (Purchased at Cerulean Pokémart)
   - 1x Antidote (Status cure: Poison)
   - 1x Moon Stone (Evolution item found in Mt. Moon 1F)
   - 1x Rare Candy (Found at 35, 31 in Mt. Moon 1F)
