@@ -5,8 +5,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon 1F (x=2, y=17)
-- Current Objective: Discovered item ball at (2, 20); walking east along row 17 towards cross passage (14, 17) to route to south entrance and eastern chamber
+- Location: Mt. Moon 1F (x=10, y=17)
+- Current Objective: Flee wild Paras and walk east along row 17 to cross passage (14, 17) towards eastern wing and south entrance
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -282,6 +282,7 @@
 - Geodude Lv 8 [Encountered & Defeated Turn 621 at (16, 19)]
 - Zubat [Encountered Turn 628 at (17, 12)]
 - Zubat [Encountered Turn 631 at (19, 4)]
+- Paras [Encountered Turn 678 at (10, 17)]
 
 <hr>
 
