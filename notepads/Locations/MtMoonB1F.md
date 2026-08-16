@@ -16,3 +16,4 @@
 - Eastern platform: cols 24-27 (rows 14-21+). Ladder at (25, 15) connects to 1F at (25, 15). Isolated from western ladder at (21, 17).
 - Zubat [Encountered Turn 847 at (25, 17)]
 - Eastern platform connects south to rows 26-27, where a corridor opens west across cols 21-27.
+- Clefairy [Encountered Turn 886 at (25, 25)]
