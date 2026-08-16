@@ -147,46 +147,21 @@ def navigate_to_waypoint(target_x, target_y, blocked_edges):
 # Initialize blocked edges
 blocked_edges = set()
 
-# ==========================================
-# PHASE 1: Center -> (0, 11) Transition
-# ==========================================
-print("--- PHASE 1: Navigating Center to Area 3 Transition ---")
-center_waypoints = [
-    (0, 11)
-]
-
-for wp in center_waypoints:
-    navigate_to_waypoint(wp[0], wp[1], blocked_edges)
-
-print("At transition (0, 11). Transitioning to Area 3 (West)...")
-for _ in range(4):
-    mgba.press_buttons(["Left"])
-    time.sleep(0.5)
-time.sleep(1.5)
-
-# ==========================================
-# PHASE 2: Area 3 (West) -> Gold Teeth (Plateau Route)
-# ==========================================
+# We start at current position (5, 23) in Area 3 (West)
 curr = mgba.get_coordinates()
 print("Starting coordinates in Area 3 (West):", curr)
 
-# Reset blocked edges for Area 3
-blocked_edges = set()
-
+# Set waypoints to the Gold Teeth
 area3_waypoints = [
-    (21, 18), # Walk to East Stairs of Plateau on Row 18
-    (21, 16), # Climb East Stairs onto Plateau
-    (6, 16),  # Walk Left across plateau
-    (6, 20),  # Descend West Stairs to ground level
-    (6, 26),  # Walk Down Column 6 to Row 26 Highway
-    (19, 26)  # Walk East along Row 26 directly below Gold Teeth
+    (5, 26),  # Walk Down to Row 26 Highway
+    (19, 26)  # Walk East along Row 26 Highway directly below Gold Teeth
 ]
 
-print("--- PHASE 2: Navigating Area 3 (West) via Plateau Route ---")
+print("--- PHASE 4: Navigating Row 26 Highway to Gold Teeth ---")
 for wp in area3_waypoints:
     navigate_to_waypoint(wp[0], wp[1], blocked_edges)
 
-print("--- PHASE 3: Retrieving Gold Teeth ---")
+print("--- PHASE 5: Retrieving Gold Teeth ---")
 # Face UP to look at the Gold Teeth at (19, 25)
 print("Facing UP...")
 mgba.press_buttons(["Up"])
