@@ -15,6 +15,7 @@
 - Pokémon Center: Located at cols 10-13, rows 0-3 with entrance door at (11, 3) and "POKé" sign at (12, 3).
 - Pokémart: Located at cols 22-25, rows 10-13 with entrance door at (23, 13) and "MART" sign at (24, 13).
   - Catalog (Verified Turn 1893): Poké Ball (¥200), Super Potion (¥700), Ice Heal (¥250), Awakening (¥200), Parlyz Heal (¥200), Repel (¥350).
-- Building at (9, 13): Located at cols 8-11, rows 10-13 with entrance door at (9, 13) and signpost at (7, 13). [Exploring Turn 1898]
+- Pokémon Fan Club: Located at cols 8-11, rows 10-13 with entrance door at (9, 13) and signpost at (7, 13). [Entered Turn 1899]
+  - Interior: Meeting room with members, Clefairy, Pikachu, and Chairman.
 - Vermilion Gym: Located at cols 8-13, rows 16-19 with "GYM" sign at (10..11, 18) and Cut bush at (15, 18).
 - Vermilion Port / S.S. Anne: (To Explore)
