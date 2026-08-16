@@ -13,4 +13,4 @@
 - [x] Travel east across Route 25 to visit Bill at Sea Cottage [Arrived Turn 1737]
 - [x] Help Bill run the Cell Separation System & receive S.S. Ticket [Turn 1751]
 - [ ] Travel south from Cerulean City to Vermilion City
-- [ ] Board the S.S. Anne in Vermilion City to find HM01 Cut
+- [ ] Board the S.S. Anne in Vermilion City
