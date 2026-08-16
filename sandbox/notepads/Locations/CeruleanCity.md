@@ -1,20 +1,14 @@
 # Cerulean City - Points of Interest & Notes
 
 ## Connections
-- West: Route 4 (entered at x=77, y=13)
-- North: Route 24 (Nugget Bridge)
-- South: Route 5 (passage to Vermilion City)
-- East: Route 9 (passage to Rock Tunnel)
+- West: Route 4 entrance at (0, 18..19) [Entered Turn 1199]
 
-## Buildings & Points of Interest
-- Pokémon Center: Located in northwest/central sector (to locate and enter)
-- Pokémart: (to locate)
-- Cerulean Gym: Water-type Gym led by Misty (Cascade Badge)
-- Bike Shop: Located in southwest sector
-- Robbed House: (to locate in northeast)
+## Layout & Landmarks
+- West entrance connects via wide paved thoroughfare across rows 18-19.
+- Canal/waterway with stone barrier located north across rows 15-17 (cols 0-7).
+- Southern residential structure with stone fence and lawn located across rows 20-23 (cols 0-5).
 
 ## Verified NPCs & Dialogue
-- (Exploring)
+- NPC (SPRITE_cdfc): Located near (8, 21) in western plaza.
 
 ## Items & Discoveries
-- (Exploring)
