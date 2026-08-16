@@ -39,3 +39,5 @@
 - Trainer #1 (Swimmer): Located at (6, 7) [Defeated Turn 1252]. Dialogue: "Splash! I'm first up! Let's do it!" Defeat quote: "That can't be!" Team: Horsea Lv 16, Shellder Lv 16. Reward: ¥80.
 - Trainer #2 (Jr. Trainer Female): Located at (2, 3) / (4, 3) [Defeated Turn 1263]. Dialogue: "I'm more than good enough for you! MISTY can wait!" Defeat quote: "You overwhelmed me!" Team: Goldeen Lv 19. Reward: ¥380.
 - Gym Leader Misty: Located at (4, 2) [Defeated Turn 1348]. Cascade Badge and TM11 (Bubblebeam) obtained.
+- Burglarized House: Located at cols 26-31, rows 8-12. Front entrance door at (27, 11). Formerly guarded by a police officer who moves aside to (28, 12) after player helps Bill at Sea Cottage. Interior features a broken hole in the rear north wall at (3, 0) that exits into the Backyard Courtyard at (27, 9).
+- Backyard Courtyard: Located behind the Burglarized House across rows 7-9 (cols 26-32). Team Rocket Grunt is positioned at (30, 8). Southern exit leads down past the canal toward Route 5.
