@@ -36,9 +36,9 @@
 
 ## Active Party
 1. HYDROS (Wartortle) - Lv 29
-   - Stats (Verified at Lv 29): Max HP 83 (HP: 39/83, Healthy), Attack 51, Defense 58, Speed 52, Special 55
+   - Stats (Verified at Lv 29): Max HP 83 (HP: 83/83, Healthy), Attack 51, Defense 58, Speed 52, Special 55
    - Type: Water
-   - Moves: Tackle (30/35), Tail Whip (29/30), Bite (18/25), Bubblebeam (4/20)
+   - Moves: Tackle (35/35), Tail Whip (30/30), Bite (25/25), Bubblebeam (20/20)
    - Role: Starter & primary Water special attacker (Active Lead)
 2. ECHO (Zubat) - Lv 8
    - Stats (Verified at Lv 8): Max HP 26 (HP: 26/26, Healthy)
