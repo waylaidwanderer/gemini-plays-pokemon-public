@@ -19,7 +19,8 @@
 
 4. SPROUT (Bellsprout) - Lv 13
    - Type: Grass / Poison
-   - Role: Grass/Poison STAB, status utility (Cut candidate)
+   - Moves: Vine Whip, Growth, Wrap, Cut
+   - Role: Grass/Poison STAB, status utility & Field Cut user
 
 ## Planned Nicknaming Strategy
 - Every captured Pok�mon will receive a thoughtful, unique nickname.
