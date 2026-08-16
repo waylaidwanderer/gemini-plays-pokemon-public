@@ -1,18 +1,6 @@
 import mgba
 import time
-
-def escape_battle():
-    print("Encountered a battle! Attempting to escape...")
-    for _ in range(6):
-        mgba.press_buttons(["B"])
-        time.sleep(0.1)
-    # Highlight RUN (Down, Right) and select
-    mgba.press_buttons(["Down", "Right", "A"])
-    time.sleep(1.0)
-    for _ in range(6):
-        mgba.press_buttons(["B"])
-        time.sleep(0.1)
-    print("Escape sequence complete.")
+import os
 
 def walk_to_waypoint(target_x, target_y):
     print(f"Navigating to waypoint ({target_x}, {target_y})...")
@@ -35,14 +23,10 @@ def walk_to_waypoint(target_x, target_y):
             stuck_count += 1
             if stuck_count > 4:
                 print(f"Stuck at ({x}, {y}) trying to reach ({target_x}, {target_y})")
-                escape_battle()
-                stuck_count = 0
+                # Fallback dialogue clearing just in case
+                mgba.press_buttons(["A", "B", "A", "B"])
                 time.sleep(0.5)
-                after_coords = mgba.get_coordinates()
-                if after_coords['x'] == x and after_coords['y'] == y:
-                    print("Coordinates still unchanged. Clearing text boxes...")
-                    mgba.press_buttons(["A", "B", "A", "B"])
-                    time.sleep(0.5)
+                stuck_count = 0
         else:
             stuck_count = 0
             last_coords = (x, y)
@@ -60,16 +44,15 @@ def walk_to_waypoint(target_x, target_y):
         mgba.press_buttons([btn])
         time.sleep(0.42)
 
-# ==========================================================
-# PHASE 4 (REVISED): Walk around the Row 24/25 Hedge to Teeth
-# ==========================================================
-print("--- RETRIEVING GOLD TEETH ---")
-# Current position is (21, 24).
+print("--- RETRIEVING GOLD TEETH VIA OPEN EASTERN CORRIDOR ---")
 waypoints = [
-    (21, 23), # Walk UP to Row 23
-    (25, 23), # Walk RIGHT to Column 25
-    (25, 26), # Walk DOWN to Row 26 (Highway)
-    (19, 26)  # Stand at (19, 26) directly below the teeth!
+    (16, 20), # Walk UP to Row 20 (completely grass-free)
+    (6, 20),  # Walk LEFT to Column 6 (completely grass-free)
+    (6, 16),  # Walk UP climbing West Stairs onto plateau to Row 16
+    (21, 16), # Walk RIGHT across plateau to Column 21
+    (21, 18), # Walk DOWN descending East Stairs onto ground to Row 18
+    (21, 26), # Walk DOWN Column 21 (completely grass-free and open!)
+    (19, 26)  # Walk LEFT along Row 26 (completely grass-free) to (19, 26)
 ]
 
 for wp in waypoints:
@@ -92,4 +75,21 @@ time.sleep(1.0)
 mgba.press_buttons(["A"])
 time.sleep(1.0)
 
-print("Retrieval process fully complete! Current position:", mgba.get_coordinates())
+# Verify final position and items
+final_pos = mgba.get_coordinates()
+print("Final check of position:", final_pos)
+
+# Obsolete files cleanup
+obsolete_files = [
+    "get_teeth_from_north.py",
+    "get_teeth_from_east.py",
+    "get_teeth_final.py",
+    "check_stairs.py"
+]
+for f in obsolete_files:
+    if os.path.exists(f):
+        try:
+            os.remove(f)
+            print(f"Successfully deleted obsolete file: {f}")
+        except Exception as e:
+            print(f"Error deleting {f}: {e}")
