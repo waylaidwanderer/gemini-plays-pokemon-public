@@ -5,8 +5,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon 1F (x=29, y=6)
-- Current Objective: Flee wild Zubat and navigate south through col 31 corridor to eastern chamber at (31, 10)
+- Location: Mt. Moon 1F (x=31, y=10)
+- Current Objective: Walk west to (25, 10) and south to descend ladder at (25, 15) into B1F
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -238,6 +238,8 @@
 - South Exit: Warp to Route 3 exterior plaza at (14, 35) / (15, 35) [Entered Turn 465 at (14, 35)]
 - Ladders:
   - Ladder at (17, 11) [Explored Turns 520-553] - Central ladder to B1F (leads to isolated B2F treasure ledge)
+  - Ladder at (25, 15) [Observed Turn 656] - Eastern chamber ladder to B1F
+  - Ladder at (5, 5) [Observed Turn 612] - Northwest ladder to B1F
   - Ladder in East / Northeast sector - Leads to B1F/B2F upper ledge
 
 ## Layout & Landmarks
