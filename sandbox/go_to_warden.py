@@ -46,7 +46,8 @@ def walk_to_waypoint(target_x, target_y):
 print("Starting journey to Warden's House...")
 
 # 1. Walk to Warden's House entrance at (27, 27)
-walk_to_waypoint(27, 28)
+walk_to_waypoint(19, 30)
+walk_to_waypoint(27, 30)
 walk_to_waypoint(27, 27)
 
 # Enter the Warden's House (triggers transition)
