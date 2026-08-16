@@ -784,5 +784,6 @@
   1. Can (7, 11) [West Neighbor - checking now!]
   2. Can (9, 9) [North Neighbor]
 
+- Turn 2305: Switch 1 found at (9, 7)! Testing adjacent can at (7, 7) for Switch 2.
 
 <hr>
