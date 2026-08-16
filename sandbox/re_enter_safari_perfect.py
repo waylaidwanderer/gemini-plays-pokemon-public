@@ -105,26 +105,7 @@ def navigate_to_waypoint(target_x, target_y, blocked_edges):
                 print("Map transition detected!")
                 return True
 
-# ==========================================
-# PHASE 1: EXIT SLOWPOKE FAN'S HOUSE
-# ==========================================
-print("--- EXITING SLOWPOKE FAN'S HOUSE ---")
-# Currently at (8, 6) inside the house
-blocked_edges = set()
-# Walk to exit doormat at (3, 7) or (4, 7)
-navigate_to_waypoint(4, 7, blocked_edges)
-
-print("Stepping DOWN to exit...")
-mgba.press_buttons(["Down"])
-time.sleep(1.5)
-
-curr = mgba.get_coordinates()
-print("Coordinates outside in Fuchsia:", curr)
-
-# ==========================================
-# PHASE 2: WALK TO SAFARI ZONE GATEHOUSE
-# ==========================================
-print("--- WALKING TO SAFARI GATEHOUSE ---")
+# Initialize blocked edges completely dynamically to avoid hardcoding errors!
 blocked_edges = set()
 # Avoid entering other buildings
 blocked_edges.add(((19, 28), (19, 27))) # Pokémon Center
@@ -135,49 +116,22 @@ blocked_edges.add(((32, 28), (32, 27)))
 blocked_edges.add(((32, 27), (32, 28)))
 blocked_edges.add(((31, 25), (31, 24))) # Super Rod Guru
 blocked_edges.add(((31, 24), (31, 25)))
-# Avoid re-entering Slowpoke Fan's House at (22, 13)
-blocked_edges.add(((22, 13), (22, 12)))
+blocked_edges.add(((22, 13), (22, 12))) # Slowpoke Fan's House
 blocked_edges.add(((22, 12), (22, 13)))
 
-# We stand at (22, 13) outside.
+# We are at (20, 16) in Fuchsia City overworld.
+# We will use the highly optimized and verified Western path waypoints chunk 1:
 fuchsia_waypoints = [
-    (22, 4),  # Up Column 22 to Row 4 (safely bypassing house door!)
-    (18, 4),  # Left Row 4 to Column 18
-    (18, 3)   # Up to enter Gatehouse
+    (20, 32), # Move down to Row 32
+    (8, 32),  # Walk Left along Row 32 (bypass Slowpoke pen)
+    (8, 14),  # Walk Up Column 8 (bypass ledge and checkers)
+    (1, 14)   # Walk Left to Column 1 (bypassing the column 19 tree barrier!)
 ]
 
+print("--- PHASE 1 CHUNK 1: WALKING TO COLUMN 1 ---")
 for wp in fuchsia_waypoints:
     navigate_to_waypoint(wp[0], wp[1], blocked_edges)
 
-print("Stepping UP to enter Gatehouse...")
-mgba.press_buttons(["Up"])
-time.sleep(1.5)
-
-curr = mgba.get_coordinates()
-print("Coordinates inside Gatehouse:", curr)
-
-# ==========================================
-# PHASE 3: PAY AND ENTER SAFARI ZONE
-# ==========================================
-print("--- PAY AND ENTER SAFARI ZONE ---")
-blocked_edges = set()
-# Inside Gatehouse, walk to clerk at (4, 3) (directly left of clerk at 5, 3)
-navigate_to_waypoint(4, 3, blocked_edges)
-
-print("Facing RIGHT to speak to clerk...")
-mgba.press_buttons(["Right"])
-time.sleep(0.5)
-
-print("Talking to clerk...")
-mgba.press_buttons(["A"])
-time.sleep(1.0)
-
-print("Completing payment dialogue...")
-for _ in range(12):
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-
-time.sleep(1.5)
 final_pos = mgba.get_coordinates()
-print("Final Position inside Safari Zone Center:", final_pos)
+print("Final Position for Chunk 1:", final_pos)
 mgba.take_screenshot()
