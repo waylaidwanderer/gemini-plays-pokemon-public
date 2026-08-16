@@ -533,6 +533,7 @@
 
 ## Verified Trainers & Encounters
 - Trainer #1 (Youngster Joey): Located at (13, 7) facing West [Defeated Turn 1605]. Team: Rattata Lv 15, Spearow Lv 15. Reward: ¥150 (approx). Dialogue: "Local trainers come here to practice!" Defeat quote: "You're decent."
+- Trainer #2 (Hiker Franklin): Located at (14, 7) facing West [Defeated Turn 1608]. Team: Onix Lv 17, Geodude Lv 17. Reward: ¥595. Dialogue: "You're going to see BILL? First, we fight!" Defeat quote: "You gave me your best!"
 
 
 <hr>
