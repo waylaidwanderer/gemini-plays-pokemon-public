@@ -12,7 +12,7 @@
 
 ## Verified Trainers & Encounters
 - Trainer #0 (Hiker): Located at (8, 4) facing East [Defeated Turn 1679]. Team: Machop Lv 15, Geodude Lv 15. Reward: ¥525. Dialogue: "I just got down from MT.MOON, but I'm ready!" Defeat quote: "You worked hard!"
-- Trainer (Youngster): Located at (14, 2) facing Down [Engaged Turn 1681]. Team: Rattata Lv 15, Ekans Lv 15.
+- Trainer (Youngster): Located at (14, 2) facing Down [Engaged Turn 1681]. Team: Rattata Lv 15, Spearow Lv 15.
 - Trainer #1 (Youngster Joey): Located at (13, 7) facing West [Defeated Turn 1605]. Team: Rattata Lv 15, Spearow Lv 15. Reward: ¥150 (approx). Dialogue: "Local trainers come here to practice!" Defeat quote: "You're decent."
 - Trainer #2 (Hiker Franklin): Located at (14, 7) facing West [Defeated Turn 1608]. Team: Onix Lv 17, Geodude Lv 17. Reward: ¥595. Dialogue: "You're going to see BILL? First, we fight!" Defeat quote: "You gave me your best!"
 - Trainer #3 (Youngster Dan): Located at (18, 4) facing West [Defeated Turn 1614]. Team: Slowpoke Lv 17. Reward: ¥255. Defeat quote: "I'm not mad!"
