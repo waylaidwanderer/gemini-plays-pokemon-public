@@ -1,6 +1,18 @@
 import bridge
 import time
 
+def escape_battle():
+    print("Encountered a battle! Attempting to escape...")
+    for _ in range(5):
+        bridge.press_buttons(["B"])
+        time.sleep(0.1)
+    bridge.press_buttons(["Down", "Right", "A"])
+    time.sleep(1.0)
+    for _ in range(5):
+        bridge.press_buttons(["B"])
+        time.sleep(0.1)
+    print("Escape sequence complete.")
+
 def walk_to_waypoint(target_x, target_y):
     print(f"Navigating to waypoint ({target_x}, {target_y})...")
     stuck_count = 0
@@ -43,12 +55,12 @@ def walk_to_waypoint(target_x, target_y):
 # Current: (13, 9)
 print("Current position:", bridge.get_coordinates())
 
-# Waypoints to climb onto the plateau at (17, 6)
+# Waypoints to climb onto the plateau at (18, 6) via West Stairs of Northern Plateau
 waypoints = [
-    (17, 9),
-    (17, 8),
-    (17, 7), # climb ladder
-    (17, 6)  # on plateau!
+    (12, 9),
+    (12, 8),
+    (12, 6),  # climb West Stairs of Northern Plateau!
+    (18, 6)  # on plateau!
 ]
 
 success = True
