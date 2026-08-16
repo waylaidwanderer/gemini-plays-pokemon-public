@@ -38,12 +38,10 @@ def move_to(target_x, target_y):
     print("Arrived at target destination!")
     return True
 
-# Plan the waypoints
+# New waypoints from current position (23, 8)
 waypoints = [
-    (26, 9),   # Walk UP to Row 9
-    (19, 9),   # Walk LEFT to Column 19
-    (19, 8),   # Walk UP to Row 8
-    (37, 8),   # Walk RIGHT to Column 37 (bypass Row 7 barrier)
+    (23, 9),   # Walk DOWN to Row 9 (bypass the NPC at 24, 8)
+    (37, 9),   # Walk RIGHT to Column 37 along Row 9
     (37, 2),   # Walk UP to Row 2
     (22, 2),   # Walk LEFT to Column 22
     (22, 4),   # Walk DOWN to Row 4 (to clear the gatehouse building boundary)
