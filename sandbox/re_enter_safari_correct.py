@@ -10,7 +10,6 @@ def get_textbox_ratio():
     white_pixels = 0
     total_pixels = 0
     
-    # Bottom region coordinates scaled for 3x (480 x 432 image size)
     for x in range(60, 420):
         for y in range(360, 405):
             r, g, b, *a = img.getpixel((x, y))
@@ -35,6 +34,8 @@ def get_path_bfs(start, target, blocked_edges):
     queue = [[start]]
     visited = {start}
     
+    max_x, max_y = 39, 35
+    
     while queue:
         path = queue.pop(0)
         curr = path[-1]
@@ -43,7 +44,15 @@ def get_path_bfs(start, target, blocked_edges):
             
         for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:
             neighbor = (curr[0] + dx, curr[1] + dy)
-            if 0 <= neighbor[0] <= 40 and 0 <= neighbor[1] <= 40:
+            if 0 <= neighbor[0] <= max_x and 0 <= neighbor[1] <= max_y:
+                # Fuchsia City overworld boundaries
+                if neighbor[0] == 25 and neighbor[1] in [23, 24, 25, 26, 28, 29]:
+                    continue
+                if neighbor[1] == 29 and 25 <= neighbor[0] <= 29:
+                    continue
+                if neighbor[1] == 16 and 27 <= neighbor[0] <= 35:
+                    continue
+                    
                 if neighbor not in visited:
                     edge = (curr, neighbor)
                     if edge not in blocked_edges:
@@ -53,8 +62,13 @@ def get_path_bfs(start, target, blocked_edges):
 
 def navigate_to_waypoint(target_x, target_y, blocked_edges):
     print(f"Navigating to waypoint ({target_x}, {target_y})...")
+    steps = 0
     
     while True:
+        if steps >= 35:
+            print("Waypoints step limit reached!")
+            return False
+            
         curr = mgba.get_coordinates()
         if curr is None:
             time.sleep(0.5)
@@ -81,7 +95,8 @@ def navigate_to_waypoint(target_x, target_y, blocked_edges):
         
         print(f"At ({cx}, {cy}). Stepping {btn} to {next_step}...")
         mgba.press_buttons([btn])
-        time.sleep(0.42)
+        time.sleep(0.45)
+        steps += 1
         
         post = mgba.get_coordinates()
         if post is None:
@@ -94,57 +109,75 @@ def navigate_to_waypoint(target_x, target_y, blocked_edges):
             blocked_edges.add(((cx, cy), next_step))
             blocked_edges.add((next_step, (cx, cy)))
         else:
-            if (px, py) != next_step:
-                if abs(px - cx) > 5 or abs(py - cy) > 5:
-                    print("Map transition detected!")
-                    return True
+            if abs(px - cx) > 5 or abs(py - cy) > 5:
+                print("Map transition detected!")
+                return True
 
-print("--- EXITING POKÉ MART ---")
-blocked_edges = set()
-# Walk to exit at (31, 25)
-navigate_to_waypoint(31, 24, blocked_edges)
+# ==========================================
+# PHASE 1: EXIT SUPER ROD GURU'S HOUSE
+# ==========================================
+print("--- EXITING SUPER ROD GURU'S HOUSE ---")
+# Currently inside dialogue
+for _ in range(3):
+    mgba.press_buttons(["B"])
+    time.sleep(0.5)
 
-print("Stepping DOWN to exit Mart...")
-for _ in range(2):
+# Walk down to the exit doormat at (3, 7) or (4, 7)
+# From (4, 3), walk Down 4 steps to (4, 7)
+for _ in range(4):
     mgba.press_buttons(["Down"])
     time.sleep(0.5)
+
+# Exit the house (Down once more)
+print("Stepping DOWN to exit the house...")
+mgba.press_buttons(["Down"])
 time.sleep(1.5)
 
 curr = mgba.get_coordinates()
-print("Coordinates outside Poké Mart:", curr)
+print("Coordinates outside in Fuchsia:", curr)
 
-# Reset blocked edges for Fuchsia City
+# ==========================================
+# PHASE 2: WALK TO SAFARI ZONE GATEHOUSE
+# ==========================================
+print("--- WALKING TO SAFARI GATEHOUSE ---")
 blocked_edges = set()
-# Block Pokémon Center door
-blocked_edges.add(((19, 28), (19, 27)))
+# Avoid entering other buildings
+blocked_edges.add(((19, 28), (19, 27))) # Pokémon Center
 blocked_edges.add(((19, 27), (19, 28)))
-# Block Poké Mart door
-blocked_edges.add(((31, 27), (31, 26)))
+blocked_edges.add(((31, 27), (31, 26))) # Poké Mart
 blocked_edges.add(((31, 26), (31, 27)))
+blocked_edges.add(((32, 28), (32, 27)))
+blocked_edges.add(((32, 27), (32, 28)))
+# Avoid re-entering the Super Rod Guru's House at (31, 25)
+blocked_edges.add(((31, 25), (31, 24)))
+blocked_edges.add(((31, 24), (31, 25)))
 
-# Navigate to Gatehouse via Eastern Bypass (starting outside Poké Mart)
 fuchsia_waypoints = [
-    (37, 27), # Right along Row 27 to Column 37 (to enter the Eastern Bypass)
-    (37, 2),  # Up Column 37 to the far north (Row 2)
+    (35, 25), # Move to Column 35
+    (35, 2),  # Up Column 35 to Row 2
     (22, 2),  # Left along Row 2 to Column 22
     (22, 4),  # Down Column 22 to Row 4
     (18, 4),  # Left Row 4 to Column 18
-    (18, 3)   # Entering Gatehouse
+    (18, 3)   # Up to enter Gatehouse
 ]
 
 for wp in fuchsia_waypoints:
     navigate_to_waypoint(wp[0], wp[1], blocked_edges)
 
-print("Stepping UP to enter the Gatehouse...")
+print("Stepping UP to enter Gatehouse...")
 mgba.press_buttons(["Up"])
 time.sleep(1.5)
 
 curr = mgba.get_coordinates()
 print("Coordinates inside Gatehouse:", curr)
 
-print("Standing in front of clerk at (3, 2)...")
+# ==========================================
+# PHASE 3: PAY AND ENTER SAFARI ZONE
+# ==========================================
+print("--- PAY AND ENTER SAFARI ZONE ---")
 blocked_edges = set()
-navigate_to_waypoint(3, 2, blocked_edges)
+# Inside Gatehouse, walk to clerk at (3, 2) from (4, 7) or (3, 7)
+navigate_to_waypoint(4, 3, blocked_edges)
 
 print("Facing RIGHT to speak to clerk...")
 mgba.press_buttons(["Right"])
@@ -154,35 +187,13 @@ print("Talking to clerk...")
 mgba.press_buttons(["A"])
 time.sleep(1.0)
 
-# Perform payment dialogue
-print("Completing dialogue...")
-for i in range(12):
+# Complete payment dialogue
+print("Completing payment dialogue...")
+for _ in range(12):
     mgba.press_buttons(["A"])
-    time.sleep(1.2)
+    time.sleep(1.0)
 
-# Emerge in Safari Zone Center at (15, 25)
-curr = mgba.get_coordinates()
-print("Coordinates after warp (Safari Zone Center):", curr)
-
-# Navigate through Safari Zone Center to Area 1 (East) transition at (30, 10)
-blocked_edges = set()
-center_waypoints = [
-    (15, 22), # Up 3 steps
-    (28, 22), # Right to Column 28
-    (28, 10), # Up to Row 10
-    (30, 10)  # Transition to Area 1 (East)
-]
-
-for wp in center_waypoints:
-    navigate_to_waypoint(wp[0], wp[1], blocked_edges)
-
-print("Transitioning to Area 1 (East)...")
-for _ in range(4):
-    mgba.press_buttons(["Right"])
-    time.sleep(0.5)
 time.sleep(1.5)
-
-final_pos = mgba.get_coordinates()
-print("Final coordinates inside Area 1 (East):", final_pos)
+curr = mgba.get_coordinates()
+print("Final Position inside Safari Zone Center:", curr)
 mgba.take_screenshot()
-
