@@ -377,5 +377,6 @@
 - Paras [Encountered Turn 872 at (21, 24)]
 - Zubat [Encountered Turn 876 at (27, 24)]
 - Geodude [Encountered Turn 882 at (20, 27)]
+- Zubat [Encountered Turn 958 at (25, 27)]
 
 <hr>
