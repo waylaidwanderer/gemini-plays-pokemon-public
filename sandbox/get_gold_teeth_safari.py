@@ -58,16 +58,15 @@ def walk_to_waypoint(target_x, target_y):
         time.sleep(0.44)
 
 # ==========================================================
-# PHASE 0: Fuchsia City Pokémon Center to Safari Gatehouse
+# PHASE 0: Fuchsia City to Safari Gatehouse
 # ==========================================================
 print("PHASE 0: Navigating Fuchsia City to Safari Gatehouse...")
 
 fuchsia_waypoints = [
-    (8, 28),
-    (8, 32),   # Descend ledge gap
-    (1, 32),
-    (1, 14),   # Walk UP Column 1 past house roofs
-    (26, 14)   # Walk to the cut-able bush at (26, 13)
+    (2, 20),
+    (13, 20),
+    (13, 14),
+    (26, 14)
 ]
 
 for wx, wy in fuchsia_waypoints:
@@ -259,10 +258,6 @@ time.sleep(1.0)
 bridge.press_buttons(["Down", "A"]) # Select TRUFFLE
 time.sleep(1.0)
 bridge.press_buttons(["Down", "A"]) # Choose DIG (usually second or third option under CUT)
-# Wait, let's check DIG menu option index for Paras.
-# Paras moves: Scratch, Stun Spore, Leech Life, Dig.
-# In the field menu: CUT, DIG are listed as special field moves.
-# Usually, CUT is first, DIG is second. So we press Down, A to select DIG.
 time.sleep(1.0)
 bridge.press_buttons(["A"])
 time.sleep(3.0) # Wait for DIG warp animation
