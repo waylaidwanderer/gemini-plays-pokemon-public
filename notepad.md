@@ -424,5 +424,6 @@
 - Trainer #2 (Jr. Trainer Female): Located at (2, 3) / (4, 3) [Defeated Turn 1263]. Dialogue: "I'm more than good enough for you! MISTY can wait!" Defeat quote: "You overwhelmed me!" Team: Goldeen Lv 19. Reward: �3¥80.
 - Gym Leader Misty: Located at (4, 2) [Engaged Turn 1284]. Dialogue: "Hi, you're a new face! Trainers who want to turn pro have to have a policy about POKéMON! What is your approach when you catch POKéMON? My policy is an all-out offensive with water-type POKéMON!" Team: Staryu Lv 18 [Defeated Turn 1288], Starmie Lv 21.
 - Bike Shop: Located at cols 12-15, rows 22-24 with entrance door at (13, 24).
+- Slowbro & Trainer: Located in south courtyard at (28, 26) and (29, 26). Slowbro dialogue: "SLOWBRO ignored orders..."
 
 <hr>
