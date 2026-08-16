@@ -6,117 +6,97 @@ def escape_battle():
     for _ in range(6):
         mgba.press_buttons(["B"])
         time.sleep(0.1)
-    # Highlight RUN (Down, Right) and select
     mgba.press_buttons(["Down", "Right", "A"])
-    time.sleep(1.0)
+    time.sleep(1.5)
     for _ in range(6):
         mgba.press_buttons(["B"])
         time.sleep(0.1)
     print("Escape sequence complete.")
 
-# Let's search from current column (18) down to 2 along Row 24
-curr = mgba.get_coordinates()
-cx, cy = curr['x'], curr['y']
-print(f"Starting open column search from ({cx}, {cy})")
-
-found = False
-target_x = 18
-
-while target_x >= 2:
-    # Walk to (target_x, 24)
-    print(f"Moving to ({target_x}, 24)...")
-    while cx != target_x or cy != 24:
-        if cx < target_x:
-            btn = "Right"
-        elif cx > target_x:
-            btn = "Left"
-        elif cy < 24:
-            btn = "Down"
+def walk_to_waypoint(target_x, target_y):
+    print(f"Navigating to waypoint ({target_x}, {target_y})...")
+    stuck_count = 0
+    last_coords = None
+    
+    while True:
+        curr = mgba.get_coordinates()
+        if curr is None:
+            print("Coordinates are None. Waiting...")
+            time.sleep(0.5)
+            continue
+            
+        x, y = curr['x'], curr['y']
+        if x == target_x and y == target_y:
+            print(f"Reached waypoint ({target_x}, {target_y})")
+            return True
+            
+        if (x, y) == last_coords:
+            stuck_count += 1
+            if stuck_count > 3:
+                print(f"Stuck at ({x}, {y}) trying to reach ({target_x}, {target_y})")
+                escape_battle()
+                time.sleep(0.5)
+                stuck_count = 0
+                after = mgba.get_coordinates()
+                if after['x'] == x and after['y'] == y:
+                    print("Coordinates unchanged. Pressing A/B...")
+                    mgba.press_buttons(["A", "B", "A", "B"])
+                    time.sleep(0.5)
         else:
+            stuck_count = 0
+            last_coords = (x, y)
+            
+        # Choose direction to move
+        if x < target_x:
+            btn = "Right"
+        elif x > target_x:
+            btn = "Left"
+        elif y < target_y:
+            btn = "Down"
+        elif y > target_y:
             btn = "Up"
             
         mgba.press_buttons([btn])
         time.sleep(0.42)
-        
-        # Verify position
-        new_pos = mgba.get_coordinates()
-        nx, ny = new_pos['x'], new_pos['y']
-        if nx == cx and ny == cy:
-            # Caught in a battle or blocked
-            escape_battle()
-            time.sleep(0.5)
-            # Recheck
-            new_pos = mgba.get_coordinates()
-            nx, ny = new_pos['x'], new_pos['y']
-            if nx == cx and ny == cy:
-                # Truly blocked horizontally, abort searching this way
-                print(f"Blocked horizontally at ({cx}, {cy}) trying to reach Column {target_x}")
-                break
-        cx, cy = nx, ny
 
-    if cy != 24:
-        print("Failed to stay on Row 24. Aborting.")
-        break
+# Currently at (19, 24)
+print("--- NAVIGATING TO GOLD TEETH ---")
 
-    # Now at (cx, 24). Try to step DOWN to 25
-    print(f"Testing DOWN from ({cx}, 24)...")
-    mgba.press_buttons(["Down"])
-    time.sleep(0.42)
-    
-    new_pos = mgba.get_coordinates()
-    nx, ny = new_pos['x'], new_pos['y']
-    if ny == 25:
-        print(f"SUCCESS! Found open vertical path at Column {cx}!")
-        found = True
-        cx, cy = nx, ny
-        break
-    elif nx == cx and ny == cy:
-        # Blocked, clear potential battle
-        escape_battle()
-        time.sleep(0.5)
-        new_pos = mgba.get_coordinates()
-        nx, ny = new_pos['x'], new_pos['y']
-        if ny == 25:
-            print(f"SUCCESS! Found open vertical path at Column {cx} (after battle)!")
-            found = True
-            cx, cy = nx, ny
-            break
-            
-    print(f"Column {cx} is blocked. Trying next column to the left...")
-    target_x = cx - 1
+# 1. Walk UP to Row 18
+walk_to_waypoint(19, 18)
 
-if found:
-    # Walk down to Row 26
-    print("Navigating to Row 26 Highway...")
-    while cy < 26:
-        mgba.press_buttons(["Down"])
-        time.sleep(0.42)
-        new_pos = mgba.get_coordinates()
-        cy = new_pos['y']
-        
-    # Walk to (19, 26)
-    print("Walking along Highway to (19, 26)...")
-    while cx != 19:
-        if cx < 19:
-            btn = "Right"
-        else:
-            btn = "Left"
-        mgba.press_buttons([btn])
-        time.sleep(0.42)
-        new_pos = mgba.get_coordinates()
-        cx = new_pos['x']
-        
-    # Stand at (19, 26) facing UP and press A to retrieve teeth!
-    print("Facing UP...")
-    mgba.press_buttons(["Up"])
-    time.sleep(0.5)
-    print("Retrieving Gold Teeth!")
-    mgba.press_buttons(["A"])
-    time.sleep(1.5)
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    mgba.press_buttons(["A"])
-    time.sleep(1.0)
-    print("Final position:", mgba.get_coordinates())
-else:
-    print("Search completed. No open columns found.")
+# 2. Walk Right to Column 21
+walk_to_waypoint(21, 18)
+
+# 3. Walk DOWN Column 21 to Row 26
+walk_to_waypoint(21, 26)
+
+# 4. Walk Left to Column 19 on Row 26
+walk_to_waypoint(19, 26)
+
+# 5. Face UP (North)
+print("Facing UP...")
+mgba.press_buttons(["Up"])
+time.sleep(0.5)
+
+# Take screenshot to verify if we see the item ball at (19, 25)
+screenshot_path = mgba.take_screenshot()
+print(f"Standing below teeth screenshot: {screenshot_path}")
+
+# 6. Press A to pick up the Gold Teeth
+print("Pressing A to pick up the Gold Teeth...")
+mgba.press_buttons(["A"])
+time.sleep(1.5)
+
+# Clear dialogue "ACE picked up the GOLD TEETH!"
+print("Clearing dialogue...")
+mgba.press_buttons(["A"])
+time.sleep(1.0)
+mgba.press_buttons(["A"])
+time.sleep(1.0)
+
+# Check coordinates
+curr = mgba.get_coordinates()
+print("Position after retrieval:", curr)
+screenshot_path2 = mgba.take_screenshot()
+print(f"Final screenshot: {screenshot_path2}")
