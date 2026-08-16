@@ -35,7 +35,7 @@
 - Item Ball: Located at (20, 33) in south-central sector - Potion [Collected Turn 733]
 
 ## Verified Trainers
-- Trainer #1: Located at (16, 23) facing West/North [Observed Turn 469]
+- Friendly NPC: Located at (16, 23) facing South. Dialogue: "What? I'm waiting for my friends to find me here." [Turn 784]
 - Trainer #2 (Lass): Located at (30, 4) facing South [Defeated Turn 649]. Dialogue: "Wow! It's way bigger in here than I thought!" Team: 2 Pokémon (Oddish Lv 11, Bellsprout Lv 11).
 - Trainer #3 (Youngster): Located at (13, 16) facing East [Defeated Turn 578]. Team: Rattata Lv 10, Rattata Lv 10, Zubat Lv 10. Dialogue: "Did you come to explore too?"
 - Trainer #4 (Hiker): Located at (5, 6) facing North [Defeated Turn 610]. Team: Geodude Lv 10, Geodude Lv 10, Onix Lv 10. Dialogue: "WHOA! You shocked me! Oh, you're just a kid!"
