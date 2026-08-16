@@ -512,5 +512,6 @@
 - Rival RED Battle Result: Victory! Reward: ¥595. Team defeated: Pidgeotto Lv 18, Abra Lv 15, Rattata Lv 15, Bulbasaur Lv 17. Post-battle dialogue: RED informs player about Bill the Pokémaniac who invented the PC Storage System.
 - Nugget Bridge Trainer #1 (Bug Catcher Cale): Located at (11, 31) facing West [Defeated Turn 1548]. Team: Caterpie Lv 14, Weedle Lv 14. Reward: ¥140. Dialogue: "This is NUGGET BRIDGE! Beat us 5 trainers and win a fabulous prize! Think you got what it takes?" Defeat quote: "I did my best! I have no regrets!"
 - Nugget Bridge Trainer #2 (Lass): Located at (10, 28) facing Down [Defeated Turn 1553]. Team: Pidgey Lv 12, Oddish Lv 12. Reward: ¥180. Dialogue: "I'm No. 2! Now it's serious!" Defeat quote: "How could I lose?"
+- Nugget Bridge Trainer #3 (Youngster Timmy): Located at (11, 25) facing West [Defeated Turn 1559]. Team: Rattata Lv 14, Ekans Lv 14. Reward: ¥140. Dialogue: "I'm No. 3! I'm not gonna be easy!" Defeat quote: "Ow! Stomped good thing!"
 
 <hr>
