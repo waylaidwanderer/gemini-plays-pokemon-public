@@ -20,10 +20,10 @@
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
-## Inventory & Resources (Verified Turn 1893)
+## Inventory & Resources (Verified Turn 1902)
 - Money: ¥3941
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pokémon up to Lv 30 obey)
-- Key Items: Town Map, Helix Fossil, S.S. Ticket
+- Key Items: Town Map, Helix Fossil, S.S. Ticket, Bike Voucher
 - TMs / HMs: TM34 (Bide), TM28 (Dig)
 - Valuables:
   - 1x Nugget (Nugget Bridge completion prize - sellable for ¥5000)
