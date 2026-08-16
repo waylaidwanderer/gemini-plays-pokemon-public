@@ -1,21 +1,11 @@
 # Vermilion Gym - Puzzle State & Strategy
 
 ## Current Search Status
-- State: Sweeping cans for Switch 1 (Row 7 sweep in progress).
-- Checked on current reset:
-  - Can (9, 7): Empty
-  - Can (7, 7): Empty
-  - Can (5, 7): Empty
-  - Can (3, 7): Empty
-  - Next: Can (1, 7)
+- Switch 1: FOUND at Can (1, 7) [Top-Left Corner]! (Turn 2313)
+- Switch 2 Candidates (Adjacent Neighbors):
+  1. Can (3, 7) [East Neighbor at x=3, y=7] - inspecting first from (2, 7)!
+  2. Can (1, 9) [South Neighbor at x=1, y=9]
 
-## Protocol When Switch 1 is Found
-1. Note exact can coordinate (x, y).
-2. Cleanly advance dialogue until text closes.
-3. Immediately test an adjacent can in the 5x3 grid:
-   - Up: (x, y-2)
-   - Down: (x, y+2)
-   - Left: (x-2, y)
-   - Right: (x+2, y)
-4. If Switch 2 is found -> Door unlocks permanently! Proceed to Lt. Surge.
-5. If locks reset -> Resume systematic sweep for Switch 1.
+## Execution Plan
+- Turn 2313: Advance and close Switch 1 text cleanly.
+- Turn 2314: Face Right toward (3, 7) and press A to inspect for Switch 2.
