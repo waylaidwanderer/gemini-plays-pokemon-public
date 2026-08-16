@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon 1F (x=21, y=3)
+- Location: Mt. Moon B2F (x=25, y=9)
 - Current Objective: Explore Mt. Moon 1F, defeat trainers, collect items, catch wild Pokémon, and navigate towards Cerulean City
 
 ## Notepads Index
@@ -18,7 +18,6 @@
 - `Locations/PewterCity`: Pewter City points of interest, Pokémon Center, Pewter Gym
 - `Locations/Route3`: Route 3 layout, trainers, wild encounters
 - `Locations/MtMoon1F`: Mt. Moon 1F layout, items, wild encounters, trainers
-
 
 <hr>
 
