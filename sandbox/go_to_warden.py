@@ -33,7 +33,6 @@ def get_path_bfs(start, target, blocked_edges):
     queue = [[start]]
     visited = {start}
     
-    # Map boundaries in Fuchsia City (0-39)
     max_x, max_y = 39, 35
     
     while queue:
@@ -45,11 +44,15 @@ def get_path_bfs(start, target, blocked_edges):
         for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:
             neighbor = (curr[0] + dx, curr[1] + dy)
             if 0 <= neighbor[0] <= max_x and 0 <= neighbor[1] <= max_y:
-                # Column 25 fence posts (blocked on rows 23-26, and 28-29)
+                # Basic Fuchsia City overworld blockages
+                # Column 25 fence posts (rows 23-26, and 28-29)
                 if neighbor[0] == 25 and neighbor[1] in [23, 24, 25, 26, 28, 29]:
                     continue
-                # Row 29 fence posts on columns 25-29
+                # Row 29 fence posts (columns 25-29)
                 if neighbor[1] == 29 and 25 <= neighbor[0] <= 29:
+                    continue
+                # Row 16 Tree Barrier (Columns 27-35)
+                if neighbor[1] == 16 and 27 <= neighbor[0] <= 35:
                     continue
                     
                 if neighbor not in visited:
@@ -63,10 +66,10 @@ def navigate_to_target(target_x, target_y):
     blocked_edges = set()
     steps = 0
     
-    print(f"Navigating to Warden's House at ({target_x}, {target_y})...")
+    print(f"Navigating to Warden's House doormat at ({target_x}, {target_y})...")
     
     while True:
-        if steps >= 30:
+        if steps >= 35:
             print("Step limit reached!")
             return False
             
@@ -115,10 +118,10 @@ def navigate_to_target(target_x, target_y):
                 blocked_edges.add(((cx, cy), next_step))
                 blocked_edges.add((next_step, (cx, cy)))
 
-# Run the navigation from current position (25, 26) to Warden's door (27, 27)
-navigate_to_target(27, 27)
+# Run the navigation from current position (31, 17) to doormat (27, 28)
+navigate_to_target(27, 28)
 
-# Press UP once more to ensure we cross the threshold and enter the house
+# Press UP to enter the Warden's House
 print("Entering Warden's House...")
 mgba.press_buttons(["Up"])
 time.sleep(1.5)
