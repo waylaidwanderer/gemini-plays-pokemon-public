@@ -59,13 +59,13 @@ def walk_to_waypoint(target_x, target_y):
         mgba.press_buttons([btn])
         time.sleep(0.42)
 
-print("--- PHASE 1: Safari Zone Center to Area 1 (East) (The Row 8 Northern Bypass) ---")
-# Start at (18, 18) on the plateau
+print("--- PHASE 1: Safari Zone Center to Area 1 (East) (Northern Plateau Route) ---")
+# Start at (13, 9)
 waypoints = [
-    (12, 18), # Left to Column 12 on plateau
-    (12, 22), # Down Column 12 (descend stairs to Row 22 ground)
-    (8, 22),  # Left along Row 22 to Column 8
-    (8, 8),   # Up Column 8 to Row 8 (bypasses western pond)
+    (12, 9),  # Left 1 step to Column 12
+    (12, 6),  # Up Column 12 (climb stairs to plateau Row 6)
+    (17, 6),  # Right 5 steps on plateau to Column 17
+    (17, 8),  # Down Column 17 (descend stairs to Row 8 ground)
     (30, 8),  # Right along Row 8 to Column 30 (bypasses all central trees/ponds)
     (30, 10)  # Down to Row 10 (transition warp)
 ]
