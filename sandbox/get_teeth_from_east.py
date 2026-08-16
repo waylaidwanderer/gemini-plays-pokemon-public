@@ -59,52 +59,32 @@ def walk_to_waypoint(target_x, target_y):
         bridge.press_buttons([btn])
         time.sleep(0.44)
 
-# Starting at (14, 3) in Safari Zone Area 1 (East)
-print("Resuming Golden Route from Area 1 (East) at (14, 3)...")
+# Starting at (9, 5) in Safari Zone Area 2 (North)
+print("Resuming Golden Route from Area 2 (North) at (9, 5)...")
 
-waypoints_area1 = [
-    (7, 3),
-    (7, 5),
-    (1, 5)    # Stop adjacent to warp at (0, 5)
+# ----------------------------------------------------
+# NAVIGATE AREA 2 (NORTH) TO AREA 3 (WEST)
+# ----------------------------------------------------
+waypoints_area2 = [
+    (9, 9),   # Walk DOWN to open horizontal Row 9
+    (39, 9),  # Walk RIGHT to Column 39
+    (39, 31), # Walk DOWN Column 39 to southern corridor Row 31
+    (22, 31), # Walk LEFT along southern corridor to Column 22
+    (22, 22), # Walk UP to climb Western Southern Plateau stairs
+    (16, 22), # Walk LEFT on the plateau to Column 16
+    (16, 28), # Walk DOWN to descend stairs to ground level
+    (12, 28),
+    (12, 30), # Bypass pond
+    (8, 30),
+    (8, 35)   # Stop adjacent to warp at (8, 36)
 ]
 
 success = True
-for wx, wy in waypoints_area1:
+for wx, wy in waypoints_area2:
     if not walk_to_waypoint(wx, wy):
-        print(f"Failed waypoint in Area 1: ({wx}, {wy})")
+        print(f"Failed waypoint in Area 2: ({wx}, {wy})")
         success = False
         break
-
-if success:
-    # Step Left onto the warp to Area 2 (North)
-    print("Transitioning to Area 2 (North)...")
-    bridge.press_buttons(["Left"])
-    time.sleep(1.0)
-
-    # Check coordinates in Area 2 (North)
-    curr = bridge.get_coordinates()
-    print("Emerged in Area 2 (North) at:", curr)
-
-    # ----------------------------------------------------
-    # AREA 2 (NORTH) TO AREA 3 (WEST)
-    # ----------------------------------------------------
-    print("Navigating Area 2 (North)...")
-    waypoints_area2 = [
-        (22, 31),
-        (22, 22), # Climbs Southern Plateau stairs
-        (16, 22),
-        (16, 28), # Descends plateau stairs
-        (12, 28),
-        (12, 30), # Bypasses pond
-        (8, 30),
-        (8, 35)   # Stop adjacent to warp at (8, 36)
-    ]
-
-    for wx, wy in waypoints_area2:
-        if not walk_to_waypoint(wx, wy):
-            print(f"Failed waypoint in Area 2: ({wx}, {wy})")
-            success = False
-            break
 
 if success:
     # Step Down onto the warp to Area 3 (West)
