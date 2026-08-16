@@ -1,3 +1,10 @@
+# S.S. Anne Upper Deck (Row 12 Corridor) - Points of Interest & Notes
+
+## Connections
+- West Stairwell: (2, 4) stairs to 1F, (2, 12) stairs to B1F
+- Upper Corridor: Extends east along rows 12-13 with cabins at row 11 (doors at 9, 11; 13, 11; 17, 11; 21, 11; etc.)
+- East: Path leading toward Captain's Quarters & Rival RED encounter
+
 # S.S. Anne 2F - Points of Interest & Notes
 
 ## Connections
