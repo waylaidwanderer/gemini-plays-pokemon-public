@@ -15,4 +15,4 @@
 - Trainer #1 (Bug Catcher): Located at (18, 26) facing West [Defeated Turn 1866]. Team: Butterfree Lv 20. Reward: ¥200. Pre-battle dialogue: "I've never seen you around! Are you good?" Defeat quote: "You are too good!"
 
 ## Wild Pokémon Encounters
-- TBD
+- Meowth (Normal type) [Encountered Turn 1868]
