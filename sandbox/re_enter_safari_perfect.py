@@ -117,15 +117,18 @@ blocked_edges.add(((32, 27), (32, 28)))
 blocked_edges.add(((31, 25), (31, 24))) # Super Rod Guru Backdoor
 blocked_edges.add(((31, 24), (31, 25)))
 
-# We are at (31, 24) in Fuchsia City overworld.
-# We will use the fully open and correct waypoints via Row 18!
+# We are at (31, 28) in Fuchsia City overworld.
+# We will use the fully open and correct waypoints via the south corridor to bypass:
 fuchsia_waypoints = [
-    (27, 24), # Left to Column 27
-    (27, 18), # Up Column 27 to Row 18 (completely open crossing!)
-    (35, 18), # Right along Row 18 to Column 35
-    (35, 2),  # Up Column 35 to Row 2
-    (22, 2),  # Left along Row 2 to Column 22
-    (18, 4),  # Left/Down to Row 4 Column 18
+    (31, 30), # Move down to Row 30
+    (24, 30), # Walk Left along Row 30 (cross gap at (25, 30))
+    (24, 32), # Walk Down Column 24 to Row 32
+    (8, 32),  # Walk Left along Row 32 (bypass Slowpoke pen)
+    (8, 14),  # Walk Up Column 8 (bypass ledge and checkers)
+    (35, 14), # Walk Right along Row 14 to Column 35 (the east corridor)
+    (35, 2),  # Walk Up Column 35 to Row 2
+    (22, 2),  # Walk Left along Row 2 to Column 22
+    (18, 4),  # Walk Left/Down to Row 4 Column 18
     (18, 3)   # Up to enter Gatehouse
 ]
 
