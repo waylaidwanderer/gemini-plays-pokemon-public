@@ -701,5 +701,10 @@
 - Doorway exit at (10, 0).
 - NPC at (11, 4).
 - Table at (10, 5)/(11, 5), Bed at (13, 4)/(13, 5).
+## Cabin 4 (South Corridor - Entrance at 31, 8)
+- Coordinates: cols 0-3, rows 0-5.
+- Doorway exit at (0, 0).
+- NPC at (2, 3).
+- Table at (0, 5)/(1, 5), Bed at (3, 4)/(3, 5).
 
 <hr>
