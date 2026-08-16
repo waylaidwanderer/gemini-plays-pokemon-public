@@ -1,79 +1,97 @@
-import time
 import bridge
+import time
 
-def get_pos():
-    pos = bridge.get_coordinates()
-    if pos is None:
-        return None
-    return pos[0], pos[1]
-
-def walk_step_robust(direction):
-    pos = get_pos()
-    if pos is None:
-        print("Menu or text box active, pressing B...")
-        bridge.press_buttons(["B", "sleep 200"])
-        return get_pos()
-        
-    print(f"Walking {direction} from {pos}")
-    bridge.press_buttons([direction, "sleep 400"])
-    return get_pos()
-
-def navigate_to(tx, ty):
+def walk_to_waypoint(target_x, target_y):
+    print(f"Navigating to waypoint ({target_x}, {target_y})...")
     stuck_count = 0
+    last_coords = None
+    
     while True:
-        pos = get_pos()
-        if pos is None:
-            bridge.press_buttons(["B", "sleep 200"])
+        curr = bridge.get_coordinates()
+        if curr is None:
+            print("Coordinates are None. Waiting...")
+            time.sleep(0.5)
             continue
             
-        if pos == (tx, ty):
-            print(f"Arrived at waypoint ({tx}, {ty})")
-            break
+        x, y = curr
+        if x == target_x and y == target_y:
+            print(f"Reached waypoint ({target_x}, {target_y})")
+            return True
             
-        print(f"Current: {pos}, Target: ({tx}, {ty})")
-        if pos[0] < tx:
-            direction = "Right"
-        elif pos[0] > tx:
-            direction = "Left"
-        elif pos[1] < ty:
-            direction = "Down"
-        elif pos[1] > ty:
-            direction = "Up"
-            
-        new_pos = walk_step_robust(direction)
-        if new_pos == pos:
+        if curr == last_coords:
             stuck_count += 1
-            if stuck_count > 3:
-                print("Stuck! Clearing with B...")
-                bridge.press_buttons(["B", "sleep 500"])
+            if stuck_count > 4:
+                print(f"Stuck at {curr} trying to reach ({target_x}, {target_y}). Retrying...")
+                bridge.press_buttons(["A", "B"])
+                time.sleep(0.5)
                 stuck_count = 0
         else:
             stuck_count = 0
-        time.sleep(0.4)
+            last_coords = curr
+            
+        # Choose direction to move
+        if x < target_x:
+            btn = "Right"
+        elif x > target_x:
+            btn = "Left"
+        elif y < target_y:
+            btn = "Down"
+        elif y > target_y:
+            btn = "Up"
+            
+        bridge.press_buttons([btn])
+        time.sleep(0.44)
 
-def main():
-    # Starting at (24, 30)
-    waypoints = [
-        (24, 21),  # Up Column 24 to Row 21
-        (22, 21),  # Left to Column 22
-        (22, 14),  # Up Column 22 to Row 14
-        (19, 14),  # Left to Column 19
-        (19, 27)   # Down Column 19 to Pokémon Center door (19, 27)
-    ]
-    
-    for wp in waypoints:
-        print(f"\nMoving to Waypoint: {wp}")
-        navigate_to(wp[0], wp[1])
-        
-    # Walk UP into Pokémon Center
-    print("\nEntering Pokémon Center...")
-    walk_step_robust("Up")
-    time.sleep(1.0)
-    walk_step_robust("Up")
-    
-    time.sleep(2.0)
-    pos = get_pos()
-    print(f"Position inside Pokémon Center: {pos}")
+print("Exiting BAG and Start Menu...")
+bridge.press_buttons(["B"])
+time.sleep(1.0)
+bridge.press_buttons(["B"])
+time.sleep(1.0)
 
-if __name__ == "__main__":
-    main()
+print("Exiting Warden's House...")
+walk_to_waypoint(4, 7)
+bridge.press_buttons(["Down"])
+time.sleep(1.0)
+
+print("Emerged outside Warden's House at:", bridge.get_coordinates())
+
+# Now in Fuchsia City overworld.
+# Route to Pokemon Center: (27, 30) -> (19, 30) -> (19, 27)
+walk_to_waypoint(27, 30)
+walk_to_waypoint(19, 30)
+walk_to_waypoint(19, 27)
+
+print("Entering Pokemon Center...")
+bridge.press_buttons(["Up"])
+time.sleep(1.0)
+
+print("Emerged inside PC at:", bridge.get_coordinates())
+
+# Inside Pokemon Center: (3, 7) -> (13, 4)
+walk_to_waypoint(13, 4)
+
+print("Opening PC...")
+bridge.press_buttons(["Up"])
+time.sleep(0.5)
+bridge.press_buttons(["A"])
+time.sleep(1.0)
+
+# Inside PC main menu:
+# 1. ACE's PC
+# 2. PROF. OAK'S PC
+# 3. PKMN LINK
+# 4. LOG OFF
+print("Opening ACE's PC...")
+bridge.press_buttons(["A"])
+time.sleep(1.0)
+
+# Inside ACE's PC menu:
+# 1. WITHDRAW ITEM
+# 2. DEPOSIT ITEM
+# 3. TOSS ITEM
+# 4. LOG OFF
+print("Choosing Withdraw Item...")
+bridge.press_buttons(["A"])
+time.sleep(1.0)
+
+print("PC Withdrawal screen open! Position:", bridge.get_coordinates())
