@@ -21,7 +21,7 @@
 - Western corridor runs along columns 10-11 heading north to northwest sector
 - Northwest chamber: cols 2-10, rows 2-10. Item Ball at (2, 2) [Moon Stone collected Turn 592], NPC at (5, 6) [Hiker #4 defeated Turn 610]. North wall at row 1, East wall at col 11+, West wall at col 1. (No ladder in this room).
 - Horizontal rock wall at row 18 (cols 2-9). Western passage continues south along columns 10-11 (rows 18-20+).
-- Horizontal rock divider at rows 20-21 (cols 10-15). Passage at row 19 connects East to central corridor (cols 14-16).
+- Rock wall spans cols 18-19 (rows 10-21). Wide open passage at rows 22-25 connects Eastern area (cols 20-25) to Central/Main corridor (cols 14-17).
 - Friendly NPC at (30, 27): "Go through this cave to get to CERULEAN CITY!"
 - South-central rock formation spans cols 20-23 (rows 26-27); bypass corridor is at cols 24-25.
 - Observed NPC/Trainer at (7, 22) in southwest pocket.
