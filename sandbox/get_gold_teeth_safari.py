@@ -58,11 +58,10 @@ def walk_to_waypoint(target_x, target_y):
         time.sleep(0.44)
 
 # ==========================================================
-# PHASE 0: Fuchsia City - CUT Bush and Walk to Gatehouse
+# PHASE 0: Fuchsia City - Walk to (26, 14), CUT Bush, Walk to Gatehouse
 # ==========================================================
-print("Ensuring we face UP...")
-bridge.press_buttons(["Up"])
-time.sleep(0.5)
+print("Walking to (26, 14)...")
+walk_to_waypoint(26, 14)
 
 print("Opening Start menu...")
 bridge.press_buttons(["Start"])
@@ -86,9 +85,9 @@ print("Selecting TRUFFLE...")
 bridge.press_buttons(["Down", "A"])
 time.sleep(1.0)
 
-# Press Down once to go to CUT (since the cursor defaults to DIG, which is the 1st option, and CUT is 2nd)
+# Press A directly to select CUT (since the cursor defaults to the first option, which is CUT)
 print("Selecting CUT...")
-bridge.press_buttons(["Down", "A"])
+bridge.press_buttons(["A"])
 time.sleep(2.0) # Wait for text/animation
 
 # Now we are on the text box "TRUFFLE used CUT!".
@@ -97,14 +96,7 @@ print("Pressing A to clear 'used CUT' dialogue...")
 bridge.press_buttons(["A"])
 time.sleep(1.0)
 
-# Press B twice to safely close any remaining menus
-print("Closing menus...")
-bridge.press_buttons(["B", "B"])
-time.sleep(1.0)
-
-curr = bridge.get_coordinates()
-print("Bush Cut! Current Position:", curr)
-
+# The menu closes automatically in Gen 1, so we are in the overworld now.
 # Walk to Gatehouse
 print("Walking to Gatehouse...")
 fuchsia_gatehouse_waypoints = [
