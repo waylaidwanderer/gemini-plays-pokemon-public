@@ -63,7 +63,8 @@ def walk_to_waypoint(target_x, target_y):
 print("PHASE 0: Navigating Fuchsia City to Safari Gatehouse...")
 
 fuchsia_waypoints = [
-    (24, 14),
+    (22, 17),
+    (22, 14),
     (26, 14)
 ]
 
