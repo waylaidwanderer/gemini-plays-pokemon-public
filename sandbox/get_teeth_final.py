@@ -1,5 +1,6 @@
 import mgba
 import time
+import os
 
 def escape_battle():
     print("Encountered a battle! Attempting to escape...")
@@ -61,11 +62,10 @@ def walk_to_waypoint(target_x, target_y):
         time.sleep(0.42)
 
 # ==========================================================
-# PHASE 4 (RETRIEVAL FROM (7, 23)): (7, 23) -> Gold Teeth!
+# PHASE 4 (FINAL RETRIEVAL FROM (6, 23)): (6, 23) -> Gold Teeth!
 # ==========================================================
-print("--- PHASE 4: RETRIEVAL FROM (7, 23) ---")
+print("--- PHASE 4: FINAL RETRIEVAL FROM (6, 23) ---")
 waypoints = [
-    (6, 23),  # Walk LEFT to Column 6
     (6, 26),  # Walk DOWN to Row 26 (Highway)
     (19, 26)  # Stand at (19, 26) directly below the teeth!
 ]
@@ -90,5 +90,20 @@ time.sleep(1.0)
 mgba.press_buttons(["A"])
 time.sleep(1.0)
 
-# Check if we got them
-print("Final check of position:", mgba.get_coordinates())
+# Verify final position
+final_pos = mgba.get_coordinates()
+print("Final check of position:", final_pos)
+
+# Obsolete files cleanup
+obsolete_files = [
+    "get_teeth_from_north.py",
+    "get_teeth_from_east.py",
+    "get_teeth_fast.py"
+]
+for f in obsolete_files:
+    if os.path.exists(f):
+        try:
+            os.remove(f)
+            print(f"Successfully deleted obsolete file: {f}")
+        except Exception as e:
+            print(f"Error deleting {f}: {e}")
