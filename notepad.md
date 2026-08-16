@@ -1478,7 +1478,7 @@ To reach the northern exit at `(0, 5)` from the bottom-left entrance at `(0, 22)
 - Ground Level is on Rows 0-11 (North) and Rows 16-35 (South).
 - Rows 12-15 is the Northern Plateau (East side, columns 32-38).
 - Column 16 Bush Barrier (Rows 12-19) and Row 11 barriers (Rhydon statues at cols 21-31, trees at 16-17) completely divide the Northwest ground level from the Northeast and South ground levels.
-- The ONLY way to go from the Northwest ground level (Rest House 2, cols 1-15) to the South/East is to walk UP to Row 9, walk East along Row 9 (which is completely open and has 0% trees), and then walk back down.
+- The ONLY way to go from the Northwest ground level (Rest House 2, cols 1-15) to the South/East is to walk UP to Row 9, walk East along Row 9, but note that Column 29 is completely blocked by hedges/trees on Rows 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15. The horizontal crossing of Column 29 is only possible on Row 17 (South ground level) and Row 26 (Southern corridor). Additionally, Column 19 is blocked on Rows 4, 5, and 6 by cliff faces, isolating the western Northern Plateau from the east.
 - On the East side, Columns 32-38 row 12-15 is the Northern Plateau. The East Stairs at `(32, 13)` and `(33, 13)` face WEST (accessed from Column 31 on the ground, walking RIGHT/EAST onto the stairs).
 - Column 31 is completely open on rows 12-13.
 - To reach Column 31 from the Southern Corridor (Row 30/31):
