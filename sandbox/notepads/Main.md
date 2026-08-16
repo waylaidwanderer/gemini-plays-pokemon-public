@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon 1F (x=16, y=17)
+- Location: Mt. Moon 1F (x=10, y=17)
 - Current Objective: Navigate to northwest ladder at (5, 5) and descend to B1F towards Route 4
 
 ## Notepads Index
