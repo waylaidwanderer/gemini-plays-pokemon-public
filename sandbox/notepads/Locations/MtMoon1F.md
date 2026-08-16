@@ -3,10 +3,9 @@
 ## Connections
 - South Exit: Warp to Route 3 exterior plaza at (14, 35) / (15, 35) [Entered Turn 465 at (14, 35)]
 - Ladders:
-  - Ladder at (5, 5) [Verified Turn 612] - Northwest ladder to B1F (progression route)
-  - Ladder at (25, 15) [Verified Turn 654] - East chamber ladder to B1F
-  - Ladder at (21, 17) [Discovered Turn 654] - East chamber southern ladder
-  - Ladder at (17, 11) [Discovered Turn 475] - Explored (leads to isolated B2F ledge)
+  - Ladder at (5, 5) [Verified Turn 612] - Northwest ladder to B1F (Main progression route to Route 4)
+  - Ladder at (17, 11) [Explored Turns 520-553] - Central ladder to B1F (leads to isolated B2F treasure ledge)
+  - Ladder in Northeast sector (cols 35-37) - Leads to B2F upper ledge
 
 ## Layout & Landmarks
 - Entrance threshold at (14, 35) / (15, 35)
