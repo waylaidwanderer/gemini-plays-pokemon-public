@@ -6,7 +6,13 @@ print("--- SELF-CORRECTING SAFARI NAVIGATION (PHASE 3 AREA 2 NORTH) ---")
 def get_pos():
     return mgba.get_coordinates()
 
-# Current position is (39, 31) in Area 2 (North) facing LEFT.
+# 0. Clear the "Got away safely!" text box
+print("Step 0: Clearing escape screen...")
+mgba.press_buttons(["A"])
+time.sleep(1.0)
+print("Position after clearing screen:", get_pos())
+
+# Current position is (22, 31) in Area 2 (North) facing UP.
 # 1. Walk Left to Column 22 on Row 31: (22, 31)
 print("Step 1: Walking Left to Column 22")
 for _ in range(25):
