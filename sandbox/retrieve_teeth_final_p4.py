@@ -147,32 +147,31 @@ def navigate_to_waypoint(target_x, target_y, blocked_edges):
 # Initialize blocked edges
 blocked_edges = set()
 
-# We start at (17, 20) in Area 3 (West)
+# We start at current position (0, 11) in Safari Zone Center
+print("Starting coordinates in Safari Zone Center: (0, 11)")
+
+print("At transition (0, 11). Transitioning LEFT to Area 3 (West)...")
+mgba.press_buttons(["Left"])
+time.sleep(1.5)
+
 curr = mgba.get_coordinates()
 print("Starting coordinates in Area 3 (West):", curr)
 
-# Set waypoints to the Gold Teeth via the Plateau route (West to East)
+# Set waypoints directly to (19, 24) above the Gold Teeth!
 area3_waypoints = [
-    (6, 20),  # Walk Left to West Stairs of Plateau
-    (6, 16),  # Climb West Stairs onto Plateau
-    (21, 16), # Walk Right across plateau to East Stairs
-    (21, 18), # Descend East Stairs to ground level
-    (21, 24), # Walk Down to Row 24
-    (19, 24)  # Walk Left to Column 19 (directly above Teeth / Row 24 gap?)
+    (21, 23), # Walk Left along Row 23
+    (21, 24), # Step Down Column 21 to Row 24
+    (19, 24)  # Walk Left along Row 24 directly above the Gold Teeth at (19, 25)
 ]
 
-print("--- PHASE 4: Navigating to Gold Teeth ---")
+print("--- PHASE 4: Navigating to ground directly above Gold Teeth ---")
 for wp in area3_waypoints:
     navigate_to_waypoint(wp[0], wp[1], blocked_edges)
 
-# Try walking Down to (19, 26) from (19, 24)
-print("Navigating to target below Gold Teeth at (19, 26)...")
-navigate_to_waypoint(19, 26, blocked_edges)
-
 print("--- PHASE 5: Retrieving Gold Teeth ---")
-# Face UP to look at the Gold Teeth at (19, 25)
-print("Facing UP...")
-mgba.press_buttons(["Up"])
+# Face DOWN to look at the Gold Teeth at (19, 25)
+print("Facing DOWN...")
+mgba.press_buttons(["Down"])
 time.sleep(0.5)
 
 screenshot_path = mgba.take_screenshot()
