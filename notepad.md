@@ -622,5 +622,8 @@
 - Vermilion Gym: Located at cols 8-13, rows 16-19 with "GYM" sign at (10..11, 18) and Cut bush at (15, 18).
 - Vermilion Port / S.S. Anne: (To Explore)
 
+## Vermilion Port & S.S. Anne Entrance
+- Dock Entrance: Pier starts at (30, 15..26), turns west along rows 26-27 to column 18.
+- Ticket Gate Sailor: Located at (19, 30). Checks for S.S. TICKET to permit passage south onto the S.S. Anne pier.
 
 <hr>
