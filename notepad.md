@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon B2F (x=32, y=15)
+- Location: Mt. Moon B1F (x=21, y=17)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -325,6 +325,7 @@
 - Ladder at (15, 27): Connects to Mt. Moon B1F southern tunnel [Discovered Turn 852]
 
 ## Layout & Landmarks
+- Vertical blue wall at cols 18-19 (rows 8-16) separates west fossil section from east section. Connection between west and east is the southern corridor at rows 31-32.
 - Western passage along cols 8-11 connects rows 20-32. Cols 12-13 form north bypass corridor through rows 8-17 leading into upper fossil chamber.
 - Isolated B2F treasure chamber (accessed via central ladder at 25, 9)
 - Lower floor: cols 24-35, rows 8-11
@@ -367,7 +368,12 @@
 - Zubat [Encountered Turn 1044 at (24, 13)]
 - Zubat [Encountered Turn 1058 at (35, 12)]
 - Rocket Grunt #4: Located at (11, 16) facing South [Defeated Turn 1072]. Dialogue: "TEAM ROCKET will find the fossils, revive and sell them for cash!" Team: Rattata Lv 13, Zubat Lv 13. Reward: ¥390.
-- Super Nerd Miguel: Located at (12, 8) facing South [Engaged Turn 1074]. Dialogue: "Hey, stop! I found these fossils! They're both mine!" Team: Grimer Lv 12, Voltorb Lv 12, Koffing Lv 12 (3 Pokémon).
-- Vertical blue wall at cols 18-19 (rows 8-16) separates west fossil section from east section. Connection between west and east is the southern corridor at rows 31-32.
+- Super Nerd Miguel: Located at (12, 8) facing South [Defeated Turn 1081]. Dialogue: "Hey, stop! I found these fossils! They're both mine!" Defeat quote: "OK! I'll share!" Team: Grimer Lv 12, Voltorb Lv 12, Koffing Lv 12. Reward: ¥300 + Choice of Fossil (Helix Fossil claimed).
+
+- Zubat [Encountered Turn 1092 at (18, 32)]
+- Zubat [Encountered Turn 1095 at (22, 32)]
+- Paras [Encountered Turn 1098 at (26, 32)]
+- Paras [Encountered Turn 1103 at (36, 14)]
+- Geodude [Encountered Turn 1106 at (32, 15)]
 
 <hr>
