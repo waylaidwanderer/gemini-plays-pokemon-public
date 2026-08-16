@@ -6,7 +6,7 @@
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
 - Location: Mt. Moon 1F (x=16, y=17)
-- Current Objective: Walk west through row 17 cross passage to (10, 17) and north to northwest ladder at (5, 5) to descend to B1F towards Route 4
+- Current Objective: Navigate to northwest ladder at (5, 5) and descend to B1F towards Route 4
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -299,7 +299,7 @@
 - North wall at row 7, South wall at row 12-13, West wall at col 16, East wall/void at col 26+
 
 ## Items & Discoveries
-- (Exploring pathway to B2F)
+- (None discovered yet)
 
 ## Empirical Wild Encounters
 - Zubat Lv 9 [Encountered & Defeated Turn 523 at (17, 9)]
