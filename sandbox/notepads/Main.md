@@ -4,7 +4,7 @@
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
 - Location: Mt. Moon 1F (x=29, y=4)
-- Current Objective: Defeat Lass at (30, 4) and take col 30 passage to eastern chamber at (25, 15)
+- Current Objective: Take col 30 passage south to eastern chamber and explore ladder at (25, 15)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
