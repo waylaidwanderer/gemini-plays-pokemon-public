@@ -18,15 +18,15 @@
    - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist
 
 ## Planned Nicknaming Strategy
-- Every captured Pok�mon will receive a thoughtful, unique nickname.
+- Every captured Pokemon will receive a thoughtful, unique nickname.
 
 ## Inventory & Resources (Verified Turn 1227)
 - Money: �1627
-- Badges: Boulder Badge (Enables Flash outside battle, boosts Pok�mon Attack)
-- Key Items: Town Map, Pok�dex, Helix Fossil
+- Badges: Boulder Badge (Enables Flash outside battle, boosts Pokemon Attack)
+- Key Items: Town Map, Pokedex, Helix Fossil
 - TMs / HMs: TM34 (Bide)
 - Consumables:
-  - 10x Pok� Ball (Purchased at Cerulean Pok�mart)
+  - 10x Poke Ball (Purchased at Cerulean Pokemart)
   - 1x Antidote (Status cure: Poison)
   - 1x Moon Stone (Evolution item found in Mt. Moon 1F)
   - 1x Rare Candy (Found at 35, 31 in Mt. Moon 1F)
