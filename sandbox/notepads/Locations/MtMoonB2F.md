@@ -19,5 +19,4 @@
 
 ## Empirical Wild Encounters
 - Zubat Lv 9 [Encountered & Defeated Turn 529 at (24, 10)]
-
-- Clefairy [Encountered Turn 545 at (32, 7)]
+- Clefairy Lv 10 [Encountered Turn 545 at (32, 7)]
