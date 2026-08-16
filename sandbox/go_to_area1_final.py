@@ -62,7 +62,8 @@ def walk_to_waypoint(target_x, target_y):
 print("--- PHASE 1: Safari Zone Center to Area 1 (East) ---")
 # Start at (28, 22)
 waypoints = [
-    (28, 26), # Down Column 28 to Row 26 (bypasses Row 12-25 Column 29 trees)
+    (27, 22), # Left 1 step to Column 27 (bypasses (28, 25) Rhydon statue)
+    (27, 26), # Down Column 27 to Row 26 (southern corridor)
     (30, 26), # Right to Column 30
     (30, 10)  # Up Column 30 to Row 10 (transition warp)
 ]
