@@ -1557,3 +1557,12 @@ We have empirically verified that Column 28 is 100% OPEN and walkable on Rows 12
 13. **Column 0-1 Row 23/24 Tree Wall:** Physically verified that Column 0, Row 23 is a solid tree trunk (blocking horizontal movement to Column 0) and Column 1, Row 24 is a solid tree trunk (blocking southward movement on Column 1), completely blocking southward ground-level passage at the far-western edge (Turn 32045).
 
 <hr>
+
+<h1><code>Progression_And_Party_Stats.md</code></h1>
+
+## TRUFFLE (Paras) Submenu Indices (Verified Turn 41337)
+- **Option 1:** DIG
+- **Option 2:** CUT
+Use these exact indices in all menu-based macro scripts to ensure correct move selection.
+
+<hr>
