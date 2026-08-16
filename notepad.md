@@ -57,13 +57,14 @@
 - Money: �7041
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pok�mon up to Lv 30 obey)
 - Key Items: Town Map, Helix Fossil, S.S. Ticket, Bike Voucher
-- TMs / HMs: TM08 (Body Slam), TM28 (Dig), TM34 (Bide)
+- TMs / HMs: TM08 (Body Slam), TM28 (Dig), TM34 (Bide), TM44 (Rest)
 - Valuables:
   - 1x Nugget (Nugget Bridge completion prize - sellable for �5000)
 - Consumables:
   - 15x Pok� Ball (Purchased at Vermilion Pok�mart)
   - 1x Great Ball (Found in S.S. Anne Kitchen trash can at 13, 9)
   - 1x Antidote (Status cure: Poison)
+  - 1x Ether (Restores 10 PP to one move)
   - 1x Moon Stone (Evolution item found in Mt. Moon 1F)
   - 1x Rare Candy (Found at 35, 31 in Mt. Moon 1F)
 
@@ -744,7 +745,7 @@
 - North Cabin 1 (Entrance at 23, 3): Boy NPC at (10, 13) with Machoke at (11, 12).
 - North Cabin 2 (Entrance at 19, 3): Trainer Sailor at (2, 13) [Defeated]. Team: Tentacool Lv 17. Reward: ¥510.
 - North Cabin 3 (Entrance at 15, 3): Trainer Sailor at (22, 3) [Defeated]. Team: Horsea Lv 17, Horsea Lv 17. Item: TM08 (Body Slam) collected at (20, 3).
-- North Cabin 4 (Entrance at 11, 3): Trainer Sailor at (12, 3) [Defeated Turn 2043]. Team: Tentacool Lv 18, Staryu Lv 18. Reward: �540. Item on floor at (10, 3).
+- North Cabin 4 (Entrance at 11, 3): Trainer Sailor at (12, 3) [Defeated Turn 2043]. Team: Tentacool Lv 18, Staryu Lv 18. Reward: �540. Item: TM44 (Rest) collected at (10, 2) [Turn 2045, Verified Turn 2075].
 
 - North Cabin 5 (Entrance at 7, 3):
   - Trainer Fisherman at (0, 4) [Defeated Turn 2057]. Team: Tentacool Lv 17, Staryu Lv 17, Shellder Lv 17. Reward: �595. Dialogue: "All my POK�MON are from the sea!" Defeat: "Darn! I let that one get away!"
