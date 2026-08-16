@@ -1,55 +1,42 @@
 import mgba
 import time
 
-print("--- SELF-CORRECTING CUT BUSH ROUTE ---")
+print("--- FINISHING CUT AND ENTERING SAFARI ---")
 
 def get_pos():
     return mgba.get_coordinates()
 
-# Current position is (20, 14) facing LEFT.
-# 1. Walk to Column 26 on Row 14.
-print("Step 1: Walking to Column 26")
-for _ in range(10):
-    pos = get_pos()
-    if pos and pos['x'] == 26:
-        print("Arrived at Column 26!")
-        break
-    mgba.press_buttons(["Right"])
-    time.sleep(0.4)
-else:
-    print("Failed to reach Column 26!")
-
-# 2. Face UP
-mgba.press_buttons(["Up"])
-time.sleep(0.4)
-
-# 3. Use CUT
-print("Step 2: Accessing POKEMON menu to use CUT...")
-mgba.press_buttons(["Start"])
-time.sleep(0.6)
-
-# Force cursor to POKEDEX (top)
-for _ in range(7):
+# Current position is (26, 14).
+# START menu is open, cursor is pointing at OPTION (index 6).
+# 1. Highlight POKEMON (index 2) by pressing Up 4 times.
+print("Step 1: Highlighting POKEMON")
+for _ in range(4):
     mgba.press_buttons(["Up"])
-    time.sleep(0.1)
+    time.sleep(0.2)
 
-# Press Down once to POKEMON, and A
-mgba.press_buttons(["Down", "sleep 100", "A"])
+# Select POKEMON
+mgba.press_buttons(["A"])
 time.sleep(1.0)
 
-# Press Down once to highlight TRUFFLE (2nd slot), and A
-mgba.press_buttons(["Down", "sleep 100", "A"])
+# 2. Highlight TRUFFLE (index 2 in party) by pressing Down once, and select A.
+print("Step 2: Selecting TRUFFLE")
+mgba.press_buttons(["Down"])
+time.sleep(0.2)
+mgba.press_buttons(["A"])
 time.sleep(1.0)
 
-# Press Down once to highlight CUT (Option 2), and A
-mgba.press_buttons(["Down", "sleep 100", "A"])
-time.sleep(2.5) # wait for CUT animation and text
+# 3. Highlight CUT (Option 2 in submenu) by pressing Down once, and select A.
+print("Step 3: Selecting CUT")
+mgba.press_buttons(["Down"])
+time.sleep(0.2)
+mgba.press_buttons(["A"])
+time.sleep(2.5) # wait for CUT animation and dialogue
 
-# Press A once to clear any residual CUT text box
+# Press A to clear text box
 mgba.press_buttons(["A"])
 time.sleep(0.6)
 
-print("Step 3: Walking through cut bush to Column 26 Row 4...")
+print("Step 4: Walking UP Column 26 to Row 4")
 # 4. Walk UP Column 26 to Row 4.
 for _ in range(15):
     pos = get_pos()
@@ -60,7 +47,7 @@ for _ in range(15):
     time.sleep(0.4)
 
 # 5. Walk Left to Column 18.
-print("Step 4: Walking Left to Column 18")
+print("Step 5: Walking Left to Column 18")
 for _ in range(15):
     pos = get_pos()
     if pos and pos['x'] == 18:
@@ -69,8 +56,8 @@ for _ in range(15):
     mgba.press_buttons(["Left"])
     time.sleep(0.4)
 
-# 6. Enter the Gatehouse at (18, 3)
-print("Step 5: Entering Gatehouse")
+# 6. Enter the Gatehouse at (18, 3).
+print("Step 6: Entering Gatehouse")
 mgba.press_buttons(["Up"])
 time.sleep(0.4)
 mgba.press_buttons(["Up"])
