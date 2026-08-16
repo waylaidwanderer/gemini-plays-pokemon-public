@@ -1,4 +1,4 @@
-# Pok�mon Blue - Main Dashboard
+# Pokémon Blue - Main Dashboard
 
 ## Current Status
 - Player: BLUE
@@ -6,12 +6,12 @@
 - Location: Route 6 (x=17, y=21)
 
 ## Notepads Index
-- `Team`: Current Pok�mon party, movesets, stats, nicknames, inventory
+- `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
 - `Quests`: Story progression and side tasks
 - `Locations/PalletTown`: Points of interest, NPC dialogues, items
 - `Locations/Route1`: Route 1 layout, points of interest, wild encounters
 - `Locations/ViridianCity`: Viridian City buildings, Mart catalog, Old Man
-- `Locations/PewterCity`: Pewter City points of interest, Pok�mon Center, Pewter Gym
+- `Locations/PewterCity`: Pewter City points of interest, Pokémon Center, Pewter Gym
 - `Locations/Route3`: Route 3 layout, trainers, wild encounters
 - `Locations/MtMoon1F`: Mt. Moon 1F layout, items, wild encounters, trainers
 - `Locations/MtMoonB1F`: Mt. Moon B1F layout, ladders, wild encounters

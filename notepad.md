@@ -1,6 +1,6 @@
 <h1><code>Main</code></h1>
 
-# Pok�mon Blue - Main Dashboard
+# Pokémon Blue - Main Dashboard
 
 ## Current Status
 - Player: BLUE
@@ -8,12 +8,12 @@
 - Location: Route 6 (x=17, y=21)
 
 ## Notepads Index
-- `Team`: Current Pok�mon party, movesets, stats, nicknames, inventory
+- `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
 - `Quests`: Story progression and side tasks
 - `Locations/PalletTown`: Points of interest, NPC dialogues, items
 - `Locations/Route1`: Route 1 layout, points of interest, wild encounters
 - `Locations/ViridianCity`: Viridian City buildings, Mart catalog, Old Man
-- `Locations/PewterCity`: Pewter City points of interest, Pok�mon Center, Pewter Gym
+- `Locations/PewterCity`: Pewter City points of interest, Pokémon Center, Pewter Gym
 - `Locations/Route3`: Route 3 layout, trainers, wild encounters
 - `Locations/MtMoon1F`: Mt. Moon 1F layout, items, wild encounters, trainers
 - `Locations/MtMoonB1F`: Mt. Moon B1F layout, ladders, wild encounters
@@ -51,15 +51,15 @@
    - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist
 
 ## Planned Nicknaming Strategy
-- Every captured Pok�mon will receive a thoughtful, unique nickname.
+- Every captured Pokémon will receive a thoughtful, unique nickname.
 
 ## Inventory & Resources (Verified Turn 1847)
-- Money: �6013
-- Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pok�mon up to Lv 30 obey)
+- Money: ¥6013
+- Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pokémon up to Lv 30 obey)
 - Key Items: Town Map, Helix Fossil, S.S. Ticket
 - TMs / HMs: TM34 (Bide), TM28 (Dig)
 - Valuables:
-  - 1x Nugget (Nugget Bridge completion prize - sellable for �5000)
+  - 1x Nugget (Nugget Bridge completion prize - sellable for ¥5000)
 - Consumables:
   - 1x Antidote (Status cure: Poison)
   - 1x Moon Stone (Evolution item found in Mt. Moon 1F)
@@ -541,6 +541,52 @@
 
 <h1><code>Locations/Route5</code></h1>
 
+# Route 5 - Points of Interest & Notes
+
+## Connections
+- North: Cerulean City at (10, 0) [Entered Turn 1842]
+- South: Saffron City North Gate / Route 5-6 Underground Path Entrance
+
+## Layout & Landmarks
+- Northern entry point at (10, 0).
+- Ledge 1: Row 3 (cols 6-13) leading into grass patch at rows 4-5.
+- Middle lane: Row 6 (cols 6-12).
+- Ledge 2: Row 7 (cols 6-12) leading into grass patch at rows 8-9.
+- Ledge 3: Row 15 (cols 6-12) hopping down to row 16.
+- Row 10+: Southern section containing Daycare & Underground Path.
+
+## Buildings & Points of Interest
+- Pokémon Daycare: Located at cols 8-11, rows 18-21 with entrance door at (10, 21). Daycare man raises 1 Pokémon for ¥100 + ¥100 per level (1 EXP per step).
+- Underground Path (Route 5-6) Entrance Building: Located at cols 16-18, rows 24-27 with entrance door at (17, 27).
+  - Interior: Stairs to underground tunnel at (4, 4).
+  - Trade NPC (Little Girl at 2, 3): Offers in-game trade NIDORAN♂ for NIDORAN♀ (SPOT). Dialogue: "I'm looking for the POKéMON NIDORAN♂! Wanna trade one for my NIDORAN♀?"
+
+## Wild Pokémon Encounters
+- Meowth (Normal type) [Encountered Turn 1844]
+
+
+<hr>
+
+<h1><code>Locations/Route6</code></h1>
+
+# Route 6 - Points of Interest & Notes
+
+## Connections
+- North: Saffron City South Gate / Route 5-6 Underground Path Exit Building at (17, 13) [Emerged Turn 1858]
+- South: Vermilion City entrance (around row 35)
+
+## Layout & Landmarks
+- Underground Path exit building at cols 16-19, rows 10-13 with exit door at (17, 13).
+- Central open pathway along columns 16-17 heading south.
+- Tall grass patches at rows 16-18 and rows 22-25.
+- Central pond located around cols 8-13 across rows 24-28.
+- Eastern tree boundary along column 20+.
+
+## Verified Trainers
+- TBD
+
+## Wild Pokémon Encounters
+- TBD
 
 
 <hr>
