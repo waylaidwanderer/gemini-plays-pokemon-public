@@ -62,7 +62,6 @@
 - Zubat Lv 8 [Encountered & Defeated Turn 729 at (30, 32)]
 - Zubat Lv 6 [Encountered & Defeated Turn 760 at (24, 16)]
 - Zubat Lv 6 [Encountered & Defeated Turn 765 at (25, 33)]
-- Vertical rock wall at col 19 (rows 29-35) separates main south corridor (cols 14-15) from south-central chamber (cols 20-25). Must route north around row 17-19 to connect.
 - Zubat Lv 9 [Encountered Turn 770 at (25, 33)]
 - Zubat Lv 8 [Encountered Turn 773 at (24, 20)]
 - Zubat [Encountered Turn 775 at (14, 18)]
