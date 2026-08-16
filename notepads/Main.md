@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 2/8 (Boulder Badge, Cascade Badge)
-- Location: Route 6 (x=10, y=30) -> Entering Vermilion City
+- Location: Vermilion City (x=19, y=0)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -23,3 +23,4 @@
 - `Locations/BillsHouse`: Bill's Sea Cottage layout, Cell Separator machine, Bill interactions
 - `Locations/Route5`: Route 5 layout, Daycare, Underground Path entrance
 - `Locations/Route6`: Route 6 layout, Underground Path exit, trainers, path to Vermilion City
+- `Locations/VermilionCity`: Vermilion City layout, Pokémon Center, Mart, Fan Club, Gym, Port, S.S. Anne

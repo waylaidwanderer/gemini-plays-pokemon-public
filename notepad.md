@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 2/8 (Boulder Badge, Cascade Badge)
-- Location: Route 6 (x=10, y=30) -> Entering Vermilion City
+- Location: Vermilion City (x=19, y=0)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -25,6 +25,7 @@
 - `Locations/BillsHouse`: Bill's Sea Cottage layout, Cell Separator machine, Bill interactions
 - `Locations/Route5`: Route 5 layout, Daycare, Underground Path entrance
 - `Locations/Route6`: Route 6 layout, Underground Path exit, trainers, path to Vermilion City
+- `Locations/VermilionCity`: Vermilion City layout, Pokémon Center, Mart, Fan Club, Gym, Port, S.S. Anne
 
 
 <hr>
@@ -592,5 +593,31 @@
 ## Wild Pokémon Encounters
 - Meowth (Normal type) [Encountered Turn 1868]
 
+
+<hr>
+
+<h1><code>Locations/VermilionCity</code></h1>
+
+# Vermilion City - Points of Interest & Notes
+
+## Connections
+- North: Route 6 at (18..19, 0) [Entered Turn 1881]
+- East: Route 11 / Diglett's Cave
+- South: Vermilion Harbor / S.S. Anne Port
+
+## Layout & Landmarks
+- Northern entrance avenue at (19, 0).
+- Wide northern thoroughfare across row 4 connecting east and west districts.
+
+## Buildings & Points of Interest (To Explore)
+- Pokémon Center: North district
+- Pokémart: North-east district
+- Pokémon Fan Club: Chairman offers Bike Voucher
+- Fishing Guru's House: Fisherman gives Old Rod
+- Vermilion Gym: Gym Leader Lt. Surge (Thunder Badge - requires Cut)
+- Vermilion Port / S.S. Anne: Luxury cruise ship (requires S.S. Ticket)
+
+## Verified Landmarks & Buildings
+- Pokémon Center: Located at cols 10-13, rows 0-3 with entrance door at (11, 3) and "POKé" sign at (12, 3).
 
 <hr>
