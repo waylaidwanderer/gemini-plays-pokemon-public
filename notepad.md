@@ -6,7 +6,6 @@
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
 - Location: Mt. Moon 1F (x=24, y=28)
-- Current Objective: Defeat Super Nerd with TERRA, then navigate north and west towards southwest chamber (2, 20)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -27,7 +26,7 @@
 
 ## Active Party
 1. TERRA (Geodude) - Lv 11
-   - Stats (Verified at Lv 11): Max HP 32 (HP: 13/32), Attack 25, Defense 28, Speed 12, Special 12
+   - Stats (Verified at Lv 11): Max HP 32 (HP: 12/32), Attack 25, Defense 28, Speed 12, Special 12
    - Type: Rock / Ground
    - Moves: Tackle, Defense Curl
    - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist (Active Lead)
@@ -268,7 +267,6 @@
 - Item Ball: Located at (2, 20) in southwest chamber [Discovered Turn 676]
 - Item Ball: Located at (35, 31) in southeast sector - Rare Candy [Collected Turn 725]
 - Item Ball: Located at (20, 33) in south-central sector [Collected Turn 733]
-- Trainer #6 (Super Nerd): Located at (24, 31) facing North [Engaged Turn 735]. Team: Magnemite Lv 11, Voltorb Lv 11 (2 Pokémon total). Pre-battle dialogue: "What! Don't sneak up on me!"
 
 ## Verified Trainers
 - Trainer #1: Located at (16, 23) facing West/North [Observed Turn 469]
@@ -276,6 +274,7 @@
 - Trainer #3 (Youngster): Located at (13, 16) facing East [Defeated Turn 578]. Team: Rattata Lv 10, Rattata Lv 10, Zubat Lv 10. Dialogue: "Did you come to explore too?"
 - Trainer #4 (Hiker): Located at (5, 6) facing North [Defeated Turn 610]. Team: Geodude Lv 10, Geodude Lv 10, Onix Lv 10. Dialogue: "WHOA! You shocked me! Oh, you're just a kid!"
 - Trainer #5 (Bug Catcher): Located at (30, 27) [Defeated Turn 721]. Team: Caterpie Lv 10, Metapod Lv 10, Caterpie Lv 10. Reward: ¥100. Dialogue: "ZUBAT is tough! But, it can be useful if you catch one."
+- Trainer #6 (Super Nerd): Located at (24, 31) facing North [Engaged Turn 735]. Team: Magnemite Lv 11, Voltorb Lv 11 (2 Pokémon total). Pre-battle dialogue: "What! Don't sneak up on me!"
 
 ## Empirical Wild Encounters
 - Zubat Lv 6 [Encountered Turn 477 at (22, 10), Nicknamed ECHO]

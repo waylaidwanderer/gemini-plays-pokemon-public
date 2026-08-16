@@ -4,7 +4,6 @@
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
 - Location: Mt. Moon 1F (x=24, y=28)
-- Current Objective: Defeat Super Nerd with TERRA, then navigate north and west towards southwest chamber (2, 20)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
