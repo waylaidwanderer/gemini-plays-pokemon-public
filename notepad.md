@@ -405,9 +405,10 @@
 
 ## Buildings & Points of Interest
 - Trade House: Located at (13, 15). Home of the Pok�mon Trader and his wife.
+- Pok�mon Center: Located at (19, 17) with "POK�" sign at (20, 17).
 
 ## Verified NPCs & Dialogue
-- NPC (SPRITE_cdfc): Located near (8, 21) in western plaza.
+- NPC (SPRITE_cdfc): Located near (8, 21) in western plaza and wandering (15, 18..21).
 - Trader's Wife: Located at (5, 4) in Trade House (13, 15). Dialogue: "My husband likes trading POK�MON. If you are a collector, would you please trade with him?"
 - Trader (Husband): Located at (1, 2) in Trade House (13, 15).
 
