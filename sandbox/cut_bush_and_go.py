@@ -1,20 +1,23 @@
 import mgba
 import time
 
-print("--- USING CUT ON BUSH AT (26, 13) ---")
+print("--- SELF-CORRECTING CUT BUSH ROUTE ---")
 
 def get_pos():
     return mgba.get_coordinates()
 
 # Current position is (20, 14) facing LEFT.
-# 1. Walk to (26, 14): Right 7 times (1 turn + 6 steps).
-print("Step 1: Walking to (26, 14)")
-mgba.press_buttons(["Right"])
-time.sleep(0.4)
-for _ in range(6):
+# 1. Walk to Column 26 on Row 14.
+print("Step 1: Walking to Column 26")
+for _ in range(10):
+    pos = get_pos()
+    if pos and pos['x'] == 26:
+        print("Arrived at Column 26!")
+        break
     mgba.press_buttons(["Right"])
     time.sleep(0.4)
-print("Position after Step 1:", get_pos())
+else:
+    print("Failed to reach Column 26!")
 
 # 2. Face UP
 mgba.press_buttons(["Up"])
@@ -46,25 +49,31 @@ time.sleep(2.5) # wait for CUT animation and text
 mgba.press_buttons(["A"])
 time.sleep(0.6)
 
-print("Step 3: Walking through cut bush to Gatehouse...")
-# 4. Walk UP Column 26 to Row 4: we need to walk UP 10 steps (14 - 4 = 10).
-# Since we are already facing UP, press Up 10 times.
-for _ in range(10):
+print("Step 3: Walking through cut bush to Column 26 Row 4...")
+# 4. Walk UP Column 26 to Row 4.
+for _ in range(15):
+    pos = get_pos()
+    if pos and pos['y'] == 4:
+        print("Arrived at Row 4!")
+        break
     mgba.press_buttons(["Up"])
     time.sleep(0.4)
-print("Position after walking UP:", get_pos())
 
-# 5. Walk Left to Column 18: Left 9 times (1 turn + 8 steps).
-mgba.press_buttons(["Left"])
-time.sleep(0.4)
-for _ in range(8):
+# 5. Walk Left to Column 18.
+print("Step 4: Walking Left to Column 18")
+for _ in range(15):
+    pos = get_pos()
+    if pos and pos['x'] == 18:
+        print("Arrived at Column 18!")
+        break
     mgba.press_buttons(["Left"])
     time.sleep(0.4)
-print("Position after walking Left:", get_pos())
 
 # 6. Enter the Gatehouse at (18, 3)
-# Since we are facing Left at (18, 4), press Up 2 times (1 turn + 1 step).
-mgba.press_buttons(["Up", "sleep 200", "Up"])
+print("Step 5: Entering Gatehouse")
+mgba.press_buttons(["Up"])
+time.sleep(0.4)
+mgba.press_buttons(["Up"])
 time.sleep(1.5)
 
 pos_inside = get_pos()
