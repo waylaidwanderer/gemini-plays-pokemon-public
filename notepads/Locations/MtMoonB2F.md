@@ -58,3 +58,4 @@
 - Geodude [Encountered Turn 1106 at (32, 15)]
 - Zubat [Encountered Turn 1120 at (26, 14)]
 - Zubat [Encountered Turn 1125 at (32, 18)]
+- Zubat [Encountered Turn 1128 at (32, 14)]
