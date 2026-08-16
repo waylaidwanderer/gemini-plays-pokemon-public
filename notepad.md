@@ -18,7 +18,8 @@
 - `Locations/MtMoonB1F`: Mt. Moon B1F layout, ladders, wild encounters
 - `Locations/MtMoonB2F`: Mt. Moon B2F layout, Rocket Grunts, items, wild encounters
 - `Locations/Route4`: Route 4 layout, ledges, wild encounters
-- `Locations/CeruleanCity`: Cerulean City layout, Gym, Mart, Bike Shop, NPCs
+- `Locations/CeruleanCity`: Cerulean City layout, Gym, Mart, Bike Shop, NPCs- `Locations/Route24`: Route 24 layout, Nugget Bridge, Rival battle, trainers
+
 
 <hr>
 
@@ -87,10 +88,9 @@
 - [x] Travel east along Route 3 and reach Mt. Moon [Turn 443]
 - [x] Navigate Mt. Moon towards Route 4 and Cerulean City [Turn 1152]
 - [x] Defeat Gym Leader Misty in Cerulean City (Cascade Badge & TM11 Bubblebeam) [Turn 1348]
+- [ ] Defeat Rival RED on Route 24 [In Progress Turn 1499+]
 - [ ] Travel north across Nugget Bridge (Route 24 & Route 25) to visit Bill at Sea Cottage
 
-## Side Quests & Deliveries
-- (None active)
 
 <hr>
 
@@ -409,6 +409,7 @@
 - Southern thoroughfare runs across rows 26-27 (cols 6-34) connecting Bike Shop, Pokémart, and residential areas.
 - Central crossroads located at (22, 19) connecting north, south, and east avenues.
 - East courtyard located at cols 30-34 across rows 20-27.
+- Northern Highway: Wide open road across rows 12-13 connecting west passage (col 8) to Route 24 thoroughfare (cols 20-22).
 
 ## Buildings & Points of Interest
 - Trade House: Located at (13, 15). Home of the Pokémon Trader and his wife.
@@ -419,6 +420,7 @@
 - Bike Shop: Located at cols 12-15, rows 22-25 with south entrance door at (13, 25) and sign at (11, 25).
   - Catalog: Bicycle (¥1,000,000 - requires Bike Voucher).
 - Slowbro House: Located at cols 28-33, rows 24-25. Backyard at cols 28-32 (rows 26-27).
+- Badge Master House: Located at cols 8-13, rows 10-11 with entrance door at (9, 11).
 
 ## Verified NPCs & Dialogue
 - Western Plaza NPC (SPRITE_cdfc): Wanders near (8, 21) and (15, 18..21).
@@ -428,16 +430,15 @@
 - Bike Shop Customer #1: Located at (1, 3) in Bike Shop. Dialogue: "These BIKES are cool, but they're way expensive!"
 - Bike Shop Clerk: Located at (6, 2) behind counter in Bike Shop. Dialogue: "Welcome to our BIKE SHOP... BICYCLE ¥1000000".
 - Slowbro & Trainer: Located in south courtyard at (28, 26) and (29, 26). Slowbro dialogue: "SLOWBRO ignored orders...", Trainer dialogue: "SLOWBRO punch! No! You blew it".
+- Blue-Haired Boy (SPRITE_e4ed): Located at (24, 27) in southern avenue. Dialogue: "I want a bright red BICYCLE! I'll keep it at home, so it won't get dirty!"
+- Western Plaza Bearded NPC: Located at (15, 21). Dialogue: "That bush in front of the shop is in the way. There might be a way around."
+- Northern Plaza NPC: Located at (4, 12) facing East.
 
 ## Cerulean Gym Trainers
 - Trainer #1 (Swimmer): Located at (6, 7) [Defeated Turn 1252]. Dialogue: "Splash! I'm first up! Let's do it!" Defeat quote: "That can't be!" Team: Horsea Lv 16, Shellder Lv 16. Reward: ¥80.
 - Trainer #2 (Jr. Trainer Female): Located at (2, 3) / (4, 3) [Defeated Turn 1263]. Dialogue: "I'm more than good enough for you! MISTY can wait!" Defeat quote: "You overwhelmed me!" Team: Goldeen Lv 19. Reward: ¥380.
 - Gym Leader Misty: Located at (4, 2) [Defeated Turn 1348]. Cascade Badge and TM11 (Bubblebeam) obtained.
-- Blue-Haired Boy (SPRITE_e4ed): Located at (24, 27) in southern avenue. Dialogue: "I want a bright red BICYCLE! I'll keep it at home, so it won't get dirty!"
-- Western Plaza Bearded NPC: Located at (15, 21). Dialogue: "That bush in front of the shop is in the way. There might be a way around."
-- Badge Master House: Located at cols 8-13, rows 10-11 with entrance door at (9, 11).
-- Northern Highway: Wide open road across rows 12-13 connecting west passage (col 8) to Route 24 thoroughfare (cols 20-22).
-- NPC: Located at (4, 12) facing East.
+
 
 <hr>
 
@@ -484,5 +485,25 @@
 - (16..17, 28): Open Pavement [P]
 - (16, 29): Barrels [W], (17, 29): Signpost [W]
 - (11..25, 30..31): South Dashed Pavement Avenue [P]
+
+<hr>
+
+<h1><code>Locations/Route24</code></h1>
+
+# Route 24 - Points of Interest & Notes
+
+## Connections
+- South: Cerulean City at (20, 6) / (21, 6)
+- North: Nugget Bridge leading towards Route 25
+
+## Layout & Landmarks
+- Entry point at south border (cols 20-21, rows 5-6).
+- Nugget Bridge extends northward along columns 20-21 across the water.
+- Waterway flanks the bridge on the left (cols 14-19) and right (cols 22-25).
+- Grass patches located along the western bank.
+
+## Verified Encounters & Battles
+- Rival RED Encounter: Located at (20, 5) [Triggered Turn 1499]. Pre-battle dialogue: "Yo! BLUE! You're still struggling along back here? I'm doing great! I caught a bunch of smart and strong POKéMON! Here, let me see what you caught, BLUE!"
+
 
 <hr>
