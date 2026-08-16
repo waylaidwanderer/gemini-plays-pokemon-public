@@ -9,7 +9,7 @@
 ## Switch Search Log
 - Can (1, 11): Unchecked
 - Can (3, 11): Unchecked
-- Can (5, 11): Unchecked
+- Can (5, 11): "Nope, there's only trash here." [Checked Turn 2226]
 - Can (7, 11): "Nope, there's only trash here." [Checked Turn 2225]
 - Can (9, 11): "Nope, there's only trash here." [Checked Turn 2224]
 - Can (1, 9): Unchecked
