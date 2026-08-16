@@ -32,9 +32,9 @@
    - Moves: Tackle, Defense Curl
    - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist (Lead)
 2. ECHO (Zubat) - Lv 7
-   - Stats: HP 24/24 (Leveled up to Lv 7 against Lass)
+   - Stats: HP 23/24 (Leveled up to Lv 7 against Lass)
    - Type: Poison / Flying
-   - Moves: Leech Life (9/15)
+   - Moves: Leech Life (0/15)
    - Role: Fast Flying/Poison utility & Grass counter
 3. HYDROS (Wartortle) - Lv 20
    - Stats (Verified at Lv 20): Max HP 60 (HP: 1/60, Healthy)
