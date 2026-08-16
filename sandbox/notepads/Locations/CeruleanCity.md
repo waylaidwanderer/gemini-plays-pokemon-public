@@ -12,8 +12,9 @@
 ## Buildings & Points of Interest
 - Trade House: Located at (13, 15). Home of the Pok�mon Trader and his wife.
 - Pok�mon Center: Located at (19, 17) with "POK�" sign at (20, 17).
-- Cerulean Gym: Located at (25..29, 17..19) with "GYM" sign at (26..29, 18) and entrance door at (30, 19).
-- Pok�mart: Located at (24..27, 22..25) with entrance door at (25, 25) and "MART" sign at (26, 25).
+- Cerulean Gym: Located at cols 25-31, rows 16-19 with entrance door at (30, 19) and "GYM" sign at (26..29, 18).
+- Pok�mart: Located at cols 24-27, rows 22-25 with south entrance door at (25, 25) and "MART" sign at (26, 25).
+  - Catalog: Pok� Ball (�200), Potion (�300), Repel (�350), Antidote (�100), Burn Heal (�250), Awakening (�200), Paralyze Heal (�200).
 
 ## Verified NPCs & Dialogue
 - NPC (SPRITE_cdfc): Located near (8, 21) in western plaza and wandering (15, 18..21).
