@@ -59,27 +59,17 @@ def walk_to_waypoint(target_x, target_y):
         mgba.press_buttons([btn])
         time.sleep(0.42)
 
-print("--- PHASE 1: Safari Zone Center to Area 1 (East) (The Great Ground Bypass V2) ---")
-# Start at (26, 24)
+print("--- ESCAPING BATTLE AND CLIMBING PLATEAU ---")
+escape_battle()
+
+# Start at (20, 24)
 waypoints = [
-    (17, 24), # Left along Row 24 to Column 17 (bypasses checkerboards and Rhydons)
-    (17, 20), # Up Column 17 to Row 20 (bypasses Row 23 tree line)
-    (21, 20), # Right along Row 20 to Column 21 (bypasses checkerboard wall)
-    (21, 10), # Up Column 21 to Row 10 (bypasses central pond)
-    (30, 10)  # Right to Column 30 (transition warp)
+    (20, 21), # Up Column 20 to the stairs
+    (20, 20)  # Climb onto the plateau
 ]
 
 for wp in waypoints:
     walk_to_waypoint(wp[0], wp[1])
 
-# Step Right to transition
-print("Transitioning to Area 1 (East)...")
-for _ in range(3):
-    mgba.press_buttons(["Right"])
-    time.sleep(0.5)
-
-time.sleep(1.5)
-pos = mgba.get_coordinates()
-print("Position after transition:", pos)
-screenshot_path = mgba.take_screenshot()
-print(f"Screenshot: {screenshot_path}")
+print("Now on the plateau! Coordinates:", mgba.get_coordinates())
+mgba.take_screenshot()
