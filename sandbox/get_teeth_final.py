@@ -61,12 +61,22 @@ def walk_to_waypoint(target_x, target_y):
         time.sleep(0.42)
 
 # ==========================================================
-# PHASE 4 (FINAL RETRIEVAL): (25, 23) -> Gold Teeth!
+# PHASE 4 (RE-ROUTE THROUGH PLATEAU): (19, 24) -> Gold Teeth!
 # ==========================================================
-print("--- PHASE 4: FINAL RETRIEVAL ---")
+print("Closing BAG and Start menus...")
+# Press B three times to exit BAG/menus completely and return to overworld
+mgba.press_buttons(["B", "B", "B"])
+time.sleep(1.5)
+
+print("--- PHASE 4: RE-ROUTING THROUGH PLATEAU ---")
 waypoints = [
-    (25, 26), # Walk DOWN to Row 26 (Highway)
-    (19, 26)  # Stand at (19, 26) directly below the teeth!
+    (19, 18), # Walk UP to Row 18
+    (21, 18), # Walk RIGHT to Column 21 (under East Stairs)
+    (21, 16), # Walk UP to climb East Stairs onto Plateau at (21, 16)
+    (6, 16),  # Walk LEFT all the way on Plateau to (6, 16)
+    (6, 20),  # Walk DOWN to descend West Stairs onto ground at (6, 20)
+    (6, 26),  # Walk DOWN to Row 26 (Highway)
+    (19, 26)  # Walk RIGHT to Column 19 (directly below the teeth!)
 ]
 
 for wp in waypoints:
