@@ -1,55 +1,32 @@
 import mgba
 import time
 
-print("Ensuring we face UP...")
-mgba.press_buttons(["Up"])
-time.sleep(0.5)
+def press_and_screenshot(btn, label, delay=1.0):
+    print(f"Pressing {btn} for {label}...")
+    mgba.press_buttons([btn])
+    time.sleep(delay)
+    path = mgba.take_screenshot()
+    print(f"Screenshot [{label}]: {path}")
 
-print("Opening Start menu...")
-mgba.press_buttons(["Start"])
-time.sleep(1.0)
+print("--- TEACHING CUT TO TRUFFLE ---")
+# Currently at overworld (26, 15) facing UP/DOWN.
+# Let's open start menu
+press_and_screenshot("Start", "start_menu")
 
-print("Resetting Start menu cursor to POKEDEX...")
-for _ in range(7):
-    mgba.press_buttons(["Up"])
-    time.sleep(0.1)
+# Select ITEM (third option: Down, Down, A)
+press_and_screenshot("Down", "item_down_1")
+press_and_screenshot("Down", "item_down_2")
+press_and_screenshot("A", "item_menu")
 
-print("Selecting POKEMON...")
-mgba.press_buttons(["Down", "A"])
-time.sleep(1.0)
-
-print("Resetting POKEMON cursor to first Pokémon...")
-for _ in range(5):
-    mgba.press_buttons(["Up"])
-    time.sleep(0.1)
-
-print("Selecting TRUFFLE...")
-mgba.press_buttons(["Down", "A"])
-time.sleep(1.0)
-
-# Since TRUFFLE has DIG and CUT:
-# Submenu has DIG first, then CUT second.
-# The cursor defaults to DIG (the 1st option).
-# We press Down once to highlight CUT, and A to use it!
-print("Selecting CUT...")
-mgba.press_buttons(["Down", "A"])
-time.sleep(2.0) # Wait for text/animation
-
-# Now we are on the text box "TRUFFLE used CUT!".
-# Let's press A to clear it!
-print("Pressing A to clear 'used CUT' dialogue...")
-mgba.press_buttons(["A"])
-time.sleep(1.0)
-
-# Press B twice to safely close any remaining menus
-print("Closing menus...")
-mgba.press_buttons(["B", "B"])
-time.sleep(1.0)
-
-# Walk UP 5 steps to (26, 9)
-print("Walking UP to (26, 9)...")
-for _ in range(5):
-    mgba.press_buttons(["Up"])
-    time.sleep(0.44)
-
-print("Position after walk:", mgba.get_coordinates())
+# Now we need to find HM01 in the bag.
+# Let's write a loop that scrolls DOWN and presses A, checking if it is HM01.
+# Usually, HM01 is near the top or bottom of the bag.
+# Let's do a loop where we scroll down and look at the item names.
+# Wait! Instead of scrolls, we can just press Down and A on each item to see its name,
+# or we can write a script that scrolls and takes screenshots, but we can do a simpler way:
+# Let's scroll down to look for HM01.
+# Let's scroll Down and press A to see if it is HM01 (if it's HM01, it will show options "USE", "TOSS").
+# Actually, HM01 cannot be tossed, only USED.
+# Let's scroll through the items.
+# Let's run a script that scrolls down, presses A on each slot, and if it's an HM, it will show "USE".
+# Let's test the items one-by-one!
