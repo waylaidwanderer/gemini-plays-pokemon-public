@@ -112,7 +112,7 @@ print("--- EXITING SLOWPOKE FAN'S HOUSE ---")
 # Currently at (8, 6) inside the house
 blocked_edges = set()
 # Walk to exit doormat at (3, 7) or (4, 7)
-navigate_to_waypoint(3, 7, blocked_edges)
+navigate_to_waypoint(4, 7, blocked_edges)
 
 print("Stepping DOWN to exit...")
 mgba.press_buttons(["Down"])
