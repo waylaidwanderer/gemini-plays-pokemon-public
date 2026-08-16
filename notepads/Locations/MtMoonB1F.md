@@ -22,3 +22,4 @@
 - Zubat [Encountered Turn 913 at (5, 17)]
 - Zubat [Encountered Turn 987 at (5, 6)]
 - Zubat [Encountered Turn 989 at (5, 17)]
+- Geodude [Encountered Turn 1116 at (15, 17)]
