@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 2/8 (Boulder Badge, Cascade Badge)
-- Location: Route 25 (x=22, y=9)
+- Location: Route 25 (x=24, y=6)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -34,21 +34,21 @@
    - Moves: Tackle (35/35), Tail Whip (29/30), Bite (23/25), Bubblebeam (11/20)
    - Role: Starter & primary Water special attacker (Active Lead)
 2. ECHO (Zubat) - Lv 8
-   - Stats (Verified at Lv 8): Max HP 26 (HP: 74/78, Healthy)
+   - Stats (Verified at Lv 8): Max HP 26 (HP: 26/26, Healthy)
    - Type: Poison / Flying
-   - Moves: Tackle (35/35), Tail Whip (30/30), Bite (24/25), Bubblebeam (12/20)
+   - Moves: Leech Life (15/15), Supersonic (20/20)
    - Role: Fast Flying/Poison utility & Grass counter
 3. TERRA (Geodude) - Lv 15
-   - Stats (Verified at Lv 15): Max HP 41 (HP: 74/78, Healthy), Attack 33, Defense 37, Speed 15, Special 15
+   - Stats (Verified at Lv 15): Max HP 41 (HP: 41/41, Healthy), Attack 33, Defense 37, Speed 15, Special 15
    - Type: Rock / Ground
-   - Moves: Tackle (35/35), Tail Whip (30/30), Bite (24/25), Bubblebeam (12/20)
+   - Moves: Tackle (35/35), Defense Curl (40/40)
    - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist
 
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
-## Inventory & Resources (Verified Turn 1668)
-- Money: ¥3613
+## Inventory & Resources (Verified Turn 1711)
+- Money: ¥5098
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pokémon up to Lv 30 obey)
 - Key Items: Town Map, Pokédex, Helix Fossil
 - TMs / HMs: TM34 (Bide), TM11 (Bubblebeam)
@@ -493,5 +493,7 @@
 - Trainer #3 (Youngster Dan): Located at (18, 4) facing West [Defeated Turn 1614]. Team: Slowpoke Lv 17. Reward: ¥255. Defeat quote: "I'm not mad!"
 - Trainer #4 (Lass): Located at (19, 8) facing East [Defeated Turn 1623]. Team: Nidoran♂ Lv 15, Nidoran♀ Lv 15. Reward: ¥225. Dialogue: "Hi! My boy friend is cool!" Defeat quote: "I was in bad condition!"
 - Trainer #5 (Hiker): Located at (23, 9) facing Down [Defeated Turn 1690]. Team: Geodude Lv 13, Geodude Lv 13, Machop Lv 13, Geodude Lv 13. Reward: ¥455. Dialogue: "I'm off to see a POKéMON collector at the cape!" Defeat quote: "You got me."
+- Trainer #6 (Jr. Trainer ♂): Located at (24, 4..5) [Defeated Turn 1709]. Team: Rattata Lv 14, Ekans Lv 14. Reward: ¥280. Dialogue: "I'm a cool guy. I've got a girl friend!" Defeat quote: "Aww, darn..."
+
 
 <hr>
