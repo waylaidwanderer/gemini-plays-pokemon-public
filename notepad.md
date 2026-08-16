@@ -749,7 +749,7 @@
 
 - North Cabin 5 (Entrance at 7, 3):
   - Trainer Fisherman at (0, 4) [Defeated Turn 2057]. Team: Tentacool Lv 17, Staryu Lv 17, Shellder Lv 17. Reward: �595. Dialogue: "All my POK�MON are from the sea!" Defeat: "Darn! I let that one get away!"
-  - Trainer Sailor at (0, 2).
+  - Trainer Sailor at (0, 2) [Defeated Turn 2061]. Team: Machop Lv 20. Reward: �600 (approx). Dialogue: "Matey, you're walking the plank if you lose!" Defeat: "Argh! Beaten by a kid!"
 
 
 <hr>
