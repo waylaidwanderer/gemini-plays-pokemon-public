@@ -67,8 +67,9 @@ print("--- RESUMING JOURNEY FROM AREA 1 (EAST) (5, 22) ---")
 
 # Step 1: Walk to the Southern Plateau at (20, 20) via open ground at Row 24
 area1_waypoints = [
-    (5, 24),
-    (20, 24),
+    (4, 22), # Walk left to Column 4 to bypass the solid fence at (5, 23)
+    (4, 24), # Walk down to Row 24
+    (20, 24), # Walk right along Row 24 to the plateau stairs
     (20, 22),
     (20, 20), # Climb plateau stairs
     (12, 20), # Walk LEFT on plateau
