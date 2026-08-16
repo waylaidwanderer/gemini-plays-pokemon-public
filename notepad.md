@@ -494,6 +494,7 @@
 - Trainer #4 (Lass): Located at (19, 8) facing East [Defeated Turn 1623]. Team: Nidoran♂ Lv 15, Nidoran♀ Lv 15. Reward: ¥225. Dialogue: "Hi! My boy friend is cool!" Defeat quote: "I was in bad condition!"
 - Trainer #5 (Hiker): Located at (23, 9) facing Down [Defeated Turn 1690]. Team: Geodude Lv 13, Geodude Lv 13, Machop Lv 13, Geodude Lv 13. Reward: ¥455. Dialogue: "I'm off to see a POKéMON collector at the cape!" Defeat quote: "You got me."
 - Trainer #6 (Jr. Trainer ♂): Located at (24, 4..5) [Defeated Turn 1709]. Team: Rattata Lv 14, Ekans Lv 14. Reward: ¥280. Dialogue: "I'm a cool guy. I've got a girl friend!" Defeat quote: "Aww, darn..."
+- Trainer #7 (Youngster): Located at (32, 3) [Defeated Turn 1719]. Team: Ekans Lv 14, Sandshrew Lv 14. Dialogue: "I knew I had to fight you!" Defeat quote: "I knew I'd lose too!"
 
 
 <hr>
