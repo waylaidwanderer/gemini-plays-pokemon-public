@@ -21,7 +21,7 @@
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
 ## Inventory & Resources (Verified Turn 594)
-- Money: ¥3714 (Updated with +¥275 from Super Nerd)
+- Money: ¥3824 (Updated with +¥110 from Bug Catcher #8)
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Pokémon Attack)
 - Key Items: Town Map, Pokédex
 - TMs / HMs: TM34 (Bide)
@@ -29,5 +29,5 @@
   - 1x Antidote (Status cure: Poison)
   - 1x Moon Stone (Evolution item found in Mt. Moon 1F)
   - 1x Rare Candy (Found at 35, 31 in Mt. Moon 1F)
-  - 0x Potion (Used on Hydros in Lass battle)
+  - 1x Potion (Found at 2, 20 in Mt. Moon 1F southwest chamber)
   - 0x Poké Ball (Exhausted in Mt. Moon)
