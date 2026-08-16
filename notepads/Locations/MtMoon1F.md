@@ -26,6 +26,7 @@
 
 ## Items & Discoveries
 - Item Ball: Located at (2, 2) in northwest chamber - Moon Stone [Collected Turn 592]
+- Item Ball: Located at (2, 20) in southwest chamber [Discovered Turn 676]
 
 ## Verified Trainers
 - Trainer #1: Located at (16, 23) facing West/North [Observed Turn 469]
