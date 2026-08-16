@@ -7,7 +7,7 @@
    - Moves: Tackle (12/35), Tail Whip (30/30), Bubble (30/30), Water Gun (25/25)
    - Role: Starter & primary Water special attacker (Active Lead)
 2. ECHO (Zubat) - Lv 8
-   - Stats (Verified at Lv 8): Max HP 26 (HP: 26/26, Healthy)
+   - Stats (Verified at Lv 8): Max HP 26 (HP: 0/26, Fainted)
    - Type: Poison / Flying
    - Moves: Leech Life (15/15)
    - Role: Fast Flying/Poison utility & Grass counter
