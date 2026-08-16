@@ -1,43 +1,36 @@
 import mgba
 import time
 
-print("--- FINISHING CUT AND ENTERING SAFARI ---")
+print("--- FINISHING CUT FROM PARTY MENU ---")
 
 def get_pos():
     return mgba.get_coordinates()
 
 # Current position is (26, 14).
-# START menu is open, cursor is pointing at OPTION (index 6).
-# 1. Highlight POKEMON (index 2) by pressing Up 4 times.
-print("Step 1: Highlighting POKEMON")
+# We are in the party menu, cursor is pointing at NIDORAN (index 5).
+# 1. Highlight TRUFFLE (index 1) by pressing Up 4 times.
+print("Step 1: Highlighting TRUFFLE")
 for _ in range(4):
     mgba.press_buttons(["Up"])
     time.sleep(0.2)
 
-# Select POKEMON
+# Select TRUFFLE
 mgba.press_buttons(["A"])
 time.sleep(1.0)
 
-# 2. Highlight TRUFFLE (index 2 in party) by pressing Down once, and select A.
-print("Step 2: Selecting TRUFFLE")
+# 2. Highlight CUT (Option 2 in submenu) by pressing Down once, and select A.
+print("Step 2: Selecting CUT")
 mgba.press_buttons(["Down"])
 time.sleep(0.2)
 mgba.press_buttons(["A"])
-time.sleep(1.0)
+time.sleep(2.5) # wait for CUT animation
 
-# 3. Highlight CUT (Option 2 in submenu) by pressing Down once, and select A.
-print("Step 3: Selecting CUT")
-mgba.press_buttons(["Down"])
-time.sleep(0.2)
-mgba.press_buttons(["A"])
-time.sleep(2.5) # wait for CUT animation and dialogue
-
-# Press A to clear text box
+# Press A once to clear any residual CUT text box
 mgba.press_buttons(["A"])
 time.sleep(0.6)
 
-print("Step 4: Walking UP Column 26 to Row 4")
-# 4. Walk UP Column 26 to Row 4.
+print("Step 3: Walking through cut bush to Column 26 Row 4...")
+# 3. Walk UP Column 26 to Row 4.
 for _ in range(15):
     pos = get_pos()
     if pos and pos['y'] == 4:
@@ -46,8 +39,8 @@ for _ in range(15):
     mgba.press_buttons(["Up"])
     time.sleep(0.4)
 
-# 5. Walk Left to Column 18.
-print("Step 5: Walking Left to Column 18")
+# 4. Walk Left to Column 18.
+print("Step 4: Walking Left to Column 18")
 for _ in range(15):
     pos = get_pos()
     if pos and pos['x'] == 18:
@@ -56,8 +49,8 @@ for _ in range(15):
     mgba.press_buttons(["Left"])
     time.sleep(0.4)
 
-# 6. Enter the Gatehouse at (18, 3).
-print("Step 6: Entering Gatehouse")
+# 5. Enter the Gatehouse at (18, 3).
+print("Step 5: Entering Gatehouse")
 mgba.press_buttons(["Up"])
 time.sleep(0.4)
 mgba.press_buttons(["Up"])
@@ -66,7 +59,7 @@ time.sleep(1.5)
 pos_inside = get_pos()
 print("Position inside Gatehouse:", pos_inside)
 
-# 7. Speak to the clerk and enter the Safari Zone
+# 6. Speak to the clerk and enter the Safari Zone
 if pos_inside and pos_inside['x'] < 10:
     print("Inside Gatehouse. Walking to clerk...")
     mgba.press_buttons(["Up", "sleep 100", "Up"])
