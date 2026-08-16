@@ -26,7 +26,7 @@
 
 ## Active Party
 1. TERRA (Geodude) - Lv 12
-   - Stats (Verified at Lv 12): Max HP 34 (HP: 13/34), Attack 27, Defense 30, Speed 13, Special 12
+   - Stats (Verified at Lv 12): Max HP 34 (HP: 12/34), Attack 27, Defense 30, Speed 13, Special 12
    - Type: Rock / Ground
    - Moves: Tackle, Defense Curl
    - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist (Active Lead)
@@ -295,7 +295,7 @@
 - Paras [Encountered Turn 697 at (26, 17)]
 - Zubat Lv 8 [Encountered & Defeated Turn 729 at (30, 32)]
 - Zubat Lv 6 [Encountered & Defeated Turn 760 at (24, 16)]
-- Zubat [Encountered Turn 765 at (25, 33)]
+- Zubat Lv 6 [Encountered & Defeated Turn 765 at (25, 33)]
 
 <hr>
 
