@@ -1,115 +1,92 @@
 import mgba
 import time
 
-def press_and_screenshot(btn, label, delay=1.0):
-    print(f"Pressing {btn} for {label}...")
-    mgba.press_buttons([btn])
-    time.sleep(delay)
-    path = mgba.take_screenshot()
-    print(f"Screenshot [{label}]: {path}")
+print("--- USING CUT ON BUSH AT (26, 13) ---")
 
-def walk_to_waypoint(target_x, target_y):
-    print(f"Navigating to waypoint ({target_x}, {target_y})...")
-    stuck_count = 0
-    last_coords = None
-    
-    while True:
-        curr = mgba.get_coordinates()
-        if curr is None:
-            time.sleep(0.5)
-            continue
-            
-        x, y = curr['x'], curr['y']
-        if x == target_x and y == target_y:
-            print(f"Reached waypoint ({target_x}, {target_y})")
-            return True
-            
-        if (x, y) == last_coords:
-            stuck_count += 1
-            if stuck_count > 4:
-                print(f"Stuck at ({x}, {y}) trying to reach ({target_x}, {target_y})")
-                return False
-        else:
-            stuck_count = 0
-            last_coords = (x, y)
-            
-        if x < target_x: btn = "Right"
-        elif x > target_x: btn = "Left"
-        elif y < target_y: btn = "Down"
-        else: btn = "Up"
-        
-        mgba.press_buttons([btn])
-        time.sleep(0.42)
+def get_pos():
+    return mgba.get_coordinates()
 
-print("--- EXECUTING OVERWORLD CUT & NAVIGATION TO GATEHOUSE ---")
+# Current position is (20, 14) facing LEFT.
+# 1. Walk to (26, 14): Right 7 times (1 turn + 6 steps).
+print("Step 1: Walking to (26, 14)")
+mgba.press_buttons(["Right"])
+time.sleep(0.4)
+for _ in range(6):
+    mgba.press_buttons(["Right"])
+    time.sleep(0.4)
+print("Position after Step 1:", get_pos())
 
-# Step 1: Walk UP to (26, 14) so we face the bush at (26, 13)
-walk_to_waypoint(26, 14)
-# Make sure we face UP
+# 2. Face UP
 mgba.press_buttons(["Up"])
-time.sleep(0.5)
+time.sleep(0.4)
 
-# Step 2: Open Start menu
-press_and_screenshot("Start", "start_menu_open")
+# 3. Use CUT
+print("Step 2: Accessing POKEMON menu to use CUT...")
+mgba.press_buttons(["Start"])
+time.sleep(0.6)
 
 # Force cursor to POKEDEX (top)
-for i in range(7):
+for _ in range(7):
     mgba.press_buttons(["Up"])
-    time.sleep(0.2)
-print("Cursor forced to top (POKEDEX)")
+    time.sleep(0.1)
 
-# Select POKEMON (Down once, then A)
-press_and_screenshot("Down", "highlight_pokemon")
-press_and_screenshot("A", "pokemon_menu")
+# Press Down once to POKEMON, and A
+mgba.press_buttons(["Down", "sleep 100", "A"])
+time.sleep(1.0)
 
-# Highlight TRUFFLE in Slot 2 (Down once, then A)
-press_and_screenshot("Down", "highlight_truffle")
-press_and_screenshot("A", "truffle_submenu")
+# Press Down once to highlight TRUFFLE (2nd slot), and A
+mgba.press_buttons(["Down", "sleep 100", "A"])
+time.sleep(1.0)
 
-# Select CUT (Option 1 - cursor is already on it! Press A)
-press_and_screenshot("A", "cut_execution_dialog", delay=3.0)
+# Press Down once to highlight CUT (Option 2), and A
+mgba.press_buttons(["Down", "sleep 100", "A"])
+time.sleep(2.5) # wait for CUT animation and text
 
-# Clear "TRUFFLE used CUT!" text boxes and return to overworld
-for i in range(4):
-    press_and_screenshot("B", f"clear_text_{i+1}", delay=0.5)
+# Press A once to clear any residual CUT text box
+mgba.press_buttons(["A"])
+time.sleep(0.6)
 
-# Step 3: Now navigate past the cut bush to the Gatehouse
-waypoints = [
-    (26, 9),
-    (19, 9),
-    (19, 8),
-    (37, 8),
-    (37, 2),
-    (22, 2),
-    (22, 4),
-    (18, 4),
-    (18, 3) # Warp into Gatehouse
-]
+print("Step 3: Walking through cut bush to Gatehouse...")
+# 4. Walk UP Column 26 to Row 4: we need to walk UP 10 steps (14 - 4 = 10).
+# Since we are already facing UP, press Up 10 times.
+for _ in range(10):
+    mgba.press_buttons(["Up"])
+    time.sleep(0.4)
+print("Position after walking UP:", get_pos())
 
-success = True
-for wp in waypoints:
-    if not walk_to_waypoint(wp[0], wp[1]):
-        success = False
-        break
-
-if success:
-    print("Transitioning into Gatehouse...")
-    time.sleep(1.5)
-    
-    # Check position inside Gatehouse (should be 3, 5)
-    curr = mgba.get_coordinates()
-    print("Position inside Gatehouse:", curr)
-    
-    # Walk to (3, 4)
-    walk_to_waypoint(3, 4)
-    
-    # Face LEFT to speak to clerk
-    print("Facing LEFT to speak to clerk...")
+# 5. Walk Left to Column 18: Left 9 times (1 turn + 8 steps).
+mgba.press_buttons(["Left"])
+time.sleep(0.4)
+for _ in range(8):
     mgba.press_buttons(["Left"])
-    time.sleep(0.5)
+    time.sleep(0.4)
+print("Position after walking Left:", get_pos())
+
+# 6. Enter the Gatehouse at (18, 3)
+# Since we are facing Left at (18, 4), press Up 2 times (1 turn + 1 step).
+mgba.press_buttons(["Up", "sleep 200", "Up"])
+time.sleep(1.5)
+
+pos_inside = get_pos()
+print("Position inside Gatehouse:", pos_inside)
+
+# 7. Speak to the clerk and enter the Safari Zone
+if pos_inside and pos_inside['x'] < 10:
+    print("Inside Gatehouse. Walking to clerk...")
+    mgba.press_buttons(["Up", "sleep 100", "Up"])
+    time.sleep(1.0)
     
-    final_pos = mgba.get_coordinates()
-    print("Final position:", final_pos)
-    mgba.take_screenshot()
-else:
-    print("Failed to reach Gatehouse.")
+    # Talk to clerk
+    mgba.press_buttons(["A"])
+    time.sleep(1.0)
+    
+    # Clear dialogue
+    print("Paying and entering Safari Zone...")
+    for _ in range(12):
+        mgba.press_buttons(["A"])
+        time.sleep(0.6)
+        
+    time.sleep(2.0) # wait for warp
+
+mgba.take_screenshot()
+print("Final Position inside Safari:", get_pos())
