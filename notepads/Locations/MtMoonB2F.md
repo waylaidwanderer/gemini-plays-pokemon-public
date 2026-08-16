@@ -59,3 +59,4 @@
 - Zubat [Encountered Turn 1120 at (26, 14)]
 - Zubat [Encountered Turn 1125 at (32, 18)]
 - Zubat [Encountered Turn 1128 at (32, 14)]
+- Zubat [Encountered Turn 1131 at (36, 15)]
