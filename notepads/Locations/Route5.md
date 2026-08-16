@@ -12,4 +12,4 @@
 - Row 10+: Southern section containing Daycare & Underground Path.
 
 ## Wild Pokémon Encounters
-- TBD
+- Meowth (Normal type) [Encountered Turn 1844]
