@@ -5,8 +5,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon 1F (x=14, y=17)
-- Current Objective: Swap Echo to lead, walk north along col 16 to row 4 and east to eastern chamber and ladder at (25, 15)
+- Location: Mt. Moon 1F (x=15, y=17)
+- Current Objective: Flee wild Zubat, walk north along col 16 to row 4 and east to eastern chamber and ladder at (25, 15)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -26,21 +26,21 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. ECHO (Zubat) - Lv 7
+1. TERRA (Geodude) - Lv 9
+   - Stats: HP 18/28
+   - Type: Rock / Ground
+   - Moves: Tackle, Defense Curl
+   - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist (Lead)
+2. ECHO (Zubat) - Lv 7
    - Stats: HP 24/24 (Leveled up to Lv 7 against Lass)
    - Type: Poison / Flying
    - Moves: Leech Life (9/15)
-   - Role: Fast Flying/Poison utility & Grass counter (Lead)
-2. HYDROS (Wartortle) - Lv 20
+   - Role: Fast Flying/Poison utility & Grass counter
+3. HYDROS (Wartortle) - Lv 20
    - Stats (Verified at Lv 20): Max HP 60 (HP: 4/60, Healthy)
    - Type: Water
    - Moves: Tackle (31/35), Tail Whip (30/30), Bubble (22/30), Water Gun (14/25)
    - Role: Starter & primary Water special attacker (Bench)
-3. TERRA (Geodude) - Lv 9
-   - Stats: HP 18/28
-   - Type: Rock / Ground
-   - Moves: Tackle, Defense Curl
-   - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist
 
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname.
