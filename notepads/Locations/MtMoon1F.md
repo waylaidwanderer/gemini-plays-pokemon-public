@@ -52,3 +52,4 @@
 - Zubat [Encountered Turn 631 at (19, 4)]
 - Paras [Encountered Turn 678 at (10, 17)]
 - Geodude [Encountered Turn 692 at (25, 14)]
+- Paras [Encountered Turn 697 at (26, 17)]
