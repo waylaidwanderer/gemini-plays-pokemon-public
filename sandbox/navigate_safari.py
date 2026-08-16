@@ -1,13 +1,21 @@
 import mgba
 import time
 
-print("--- EXECUTING PERFECT SAFARI ROUTE TO GOLD TEETH ---")
+print("--- EXECUTING SAFARI ESCAPE AND GOLD TEETH RETRIEVAL ---")
 
 def get_pos():
     return mgba.get_coordinates()
 
-# Current position is (19, 23) facing UP.
-# 1. Walk Right along Row 23 to Column 22: (22, 23)
+# Current position is (19, 22) inside Area 3 (West) with ITEM bag open.
+# 0. Close the bag and START menu (press B 2 times)
+print("Step 0: Closing menus to return to overworld...")
+mgba.press_buttons(["B"])
+time.sleep(0.5)
+mgba.press_buttons(["B"])
+time.sleep(0.5)
+print("Returned to overworld. Current Position:", get_pos())
+
+# 1. Walk Right along Row 22 to Column 22: (22, 22) (3 steps Right)
 print("Step 1: Walking Right to Column 22")
 for _ in range(10):
     pos = get_pos()
@@ -19,7 +27,7 @@ for _ in range(10):
 else:
     print("Failed to reach Column 22!")
 
-# 2. Walk Down Column 22 to Row 26: (22, 26)
+# 2. Walk Down Column 22 to Row 26: (22, 26) (4 steps Down)
 print("Step 2: Walking Down Column 22 to Row 26")
 for _ in range(10):
     pos = get_pos()
@@ -31,7 +39,7 @@ for _ in range(10):
 else:
     print("Failed to reach Row 26!")
 
-# 3. Walk Left along Row 26 to Column 19: (19, 26) (directly below the teeth!)
+# 3. Walk Left along Row 26 to Column 19: (19, 26) (3 steps Left)
 print("Step 3: Walking Left along Row 26 to Column 19")
 for _ in range(10):
     pos = get_pos()
