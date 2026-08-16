@@ -1,133 +1,103 @@
-import bridge
+import mgba
 import time
-import sys
 
-sys.stdout.reconfigure(encoding='utf-8')
-
-def get_pos():
-    for _ in range(4):
-        pos = bridge.get_coordinates()
-        if pos is not None:
-            return pos[0], pos[1]
+def escape_battle():
+    print("Encountered a battle! Attempting to escape...")
+    for _ in range(6):
+        mgba.press_buttons(["B"])
         time.sleep(0.1)
-    return None
+    mgba.press_buttons(["Down", "Right", "A"])
+    time.sleep(1.2)
+    for _ in range(6):
+        mgba.press_buttons(["B"])
+        time.sleep(0.1)
+    print("Escape sequence complete.")
 
-def handle_battle():
-    print("Wild battle detected! Escaping...")
-    for _ in range(4):
-        bridge.press_buttons(["B", "sleep 250"])
-    bridge.press_buttons(["Down", "sleep 250", "Right", "sleep 250", "A", "sleep 1200"])
-    for _ in range(3):
-        bridge.press_buttons(["B", "sleep 200"])
-
-def walk_step_robust(direction):
-    pos = get_pos()
-    if pos is None:
-        handle_battle()
-        return None
-        
-    bridge.press_buttons([direction])
-    
-    # Wait for position to change
-    for _ in range(5):
-        time.sleep(0.15)
-        new_pos = get_pos()
-        if new_pos is None:
-            time.sleep(1.0)
-            new_pos = get_pos()
-            if new_pos is None:
-                handle_battle()
-                return None
-            else:
-                return new_pos
-        if new_pos != pos:
-            return new_pos
-            
-    print(f"Bumping/stuck at {pos} walking {direction}!")
-    return pos
-
-def run_path(path, check_warp=False):
-    idx = 0
+def walk_to_waypoint(target_x, target_y):
+    print(f"Navigating to waypoint ({target_x}, {target_y})...")
     stuck_count = 0
-    while idx < len(path):
-        pos = get_pos()
-        if pos is None:
-            handle_battle()
+    last_coords = None
+    
+    while True:
+        curr = mgba.get_coordinates()
+        if curr is None:
+            print("Coordinates are None. Waiting...")
+            time.sleep(0.5)
             continue
             
-        print(f"Step {idx}: At {pos}, walking {path[idx]}...")
-        new_pos = walk_step_robust(path[idx])
-        
-        if new_pos is None:
-            time.sleep(1.0)
-            new_pos = get_pos()
-            if new_pos is None:
-                handle_battle()
-                continue
-            else:
-                if check_warp:
-                    dist = abs(new_pos[0] - pos[0]) + abs(new_pos[1] - pos[1])
-                    if dist > 5:
-                        print(f"SUCCESS! Transitioned to coordinates: {new_pos}")
-                        break
-                idx += 1
-                continue
+        x, y = curr['x'], curr['y']
+        if x == target_x and y == target_y:
+            print(f"Reached waypoint ({target_x}, {target_y})")
+            return True
             
-        if new_pos == pos:
-            # Let's wait a moment and check if we are actually in a battle transition
-            time.sleep(0.5)
-            check_pos = get_pos()
-            if check_pos is None:
-                print("Battle transition detected during stuck check! Handling battle...")
-                handle_battle()
-                stuck_count = 0
-                continue
+        if (x, y) == last_coords:
             stuck_count += 1
-            print(f"Stuck at {pos}! Stuck count: {stuck_count}")
             if stuck_count > 3:
-                print("Path blocked. Exiting path.")
-                return False
+                print(f"Stuck at ({x}, {y}) trying to reach ({target_x}, {target_y})")
+                escape_battle()
+                time.sleep(0.5)
+                stuck_count = 0
+                after = mgba.get_coordinates()
+                if after['x'] == x and after['y'] == y:
+                    print("Coordinates unchanged. Pressing A/B...")
+                    mgba.press_buttons(["A", "B", "A", "B"])
+                    time.sleep(0.5)
         else:
             stuck_count = 0
-            if check_warp:
-                dist = abs(new_pos[0] - pos[0]) + abs(new_pos[1] - pos[1])
-                if dist > 5:
-                    print(f"SUCCESS! Transitioned to coordinates: {new_pos}")
-                    break
-            idx += 1
-    return True
+            last_coords = (x, y)
+            
+        # Choose direction to move
+        if x < target_x:
+            btn = "Right"
+        elif x > target_x:
+            btn = "Left"
+        elif y < target_y:
+            btn = "Down"
+        elif y > target_y:
+            btn = "Up"
+            
+        mgba.press_buttons([btn])
+        time.sleep(0.42)
 
-def go_back_to_area2():
-    print("=== WALKING BACK TO AREA 2 (NORTH) FROM (15, 24) ===")
-    pos = get_pos()
-    print("Starting position:", pos)
-    
-    path = []
-    if pos == (15, 24):
-        path.append("Up")                     # to (15, 23)
-        path.extend(["Right"] * 2)            # to (17, 23)
-        path.extend(["Up"] * 3)               # to (17, 20)
-        path.extend(["Left"] * 11)            # to (6, 20)
-        path.extend(["Up"] * 4)               # to (6, 16) (climbs West Stairs)
-        path.extend(["Right"] * 9)            # to (15, 16)
-        path.extend(["Up"] * 2)               # to (15, 14)
-        path.extend(["Right"] * 6)            # to (21, 14)
-        path.extend(["Down"] * 4)             # to (21, 18) (descends East Stairs)
-        path.extend(["Right"] * 4)            # to (25, 18)
-        path.extend(["Up"] * 15)              # to (25, 3)
-        path.append("Right")                  # to (26, 3)
-        path.extend(["Up"] * 3)               # warp to Area 2!
-    else:
-        print(f"Unexpected starting position: {pos}. Cannot run fixed path.")
-        return False
-        
-    print("Executing path...")
-    if not run_path(path, check_warp=True):
-        print("Failed to transition back!")
-        return False
-        
-    print("Back in Area 2 North successfully!")
-    return True
+# 1. We are at (29, 10) in Safari Zone Center. Step Right to transition to Area 1 (East)
+print("Transitioning to Area 1 (East)...")
+mgba.press_buttons(["Right", "sleep 500", "Right", "sleep 2000"])
 
-if __name__ == "__main__":
-    go_back_to_area2()
+# Check coords inside Area 1
+curr = mgba.get_coordinates()
+print("Position inside Area 1 (East):", curr)
+
+# 2. Walk Phase 2 Waypoints in Area 1 (East)
+print("--- PHASE 2: Area 1 (East) to Area 2 (North) ---")
+waypoints = [
+    (0, 24),   # Walk Down to Row 24
+    (20, 24),  # Walk Right 20 steps to Column 20
+    (20, 20),  # Walk UP climbing South Plateau stairs to (20, 20)
+    (12, 20),  # Walk Left 8 steps on plateau
+    (12, 22),  # Walk Down descending stairs
+    (8, 22),   # Walk Left to Column 8
+    (8, 8),    # Walk UP Column 8 to Row 8
+    (12, 6),   # Walk Right & climb northern plateau stairs
+    (17, 6),   # Walk Right on plateau
+    (17, 8),   # Walk Down descending stairs
+    (20, 8),   # Walk Right to Column 20
+    (20, 3),   # Walk UP to Row 3
+    (7, 3),    # Walk Left along Row 3
+    (7, 5),    # Walk Down to Row 5
+    (0, 5)     # Transition to Area 2 (North)
+]
+
+for wp in waypoints:
+    walk_to_waypoint(wp[0], wp[1])
+
+# Step Left to transition to Area 2 (North)
+print("Transitioning to Area 2 (North)...")
+for _ in range(3):
+    mgba.press_buttons(["Left"])
+    time.sleep(0.5)
+
+time.sleep(1.5)
+final_pos = mgba.get_coordinates()
+print("Position inside Area 2 (North):", final_pos)
+screenshot_path = mgba.take_screenshot()
+print(f"Screenshot: {screenshot_path}")
