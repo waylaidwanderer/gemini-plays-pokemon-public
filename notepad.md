@@ -5,8 +5,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon 1F (x=30, y=32)
-- Current Objective: Swap TERRA to party lead, then continue west along southern corridor towards southwest chamber (2, 20)
+- Location: Mt. Moon 1F (x=21, y=33)
+- Current Objective: Navigate north out of south-central pocket, then head west towards southwest chamber (2, 20)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -266,7 +266,7 @@
 - Item Ball: Located at (2, 2) in northwest chamber - Moon Stone [Collected Turn 592]
 - Item Ball: Located at (2, 20) in southwest chamber [Discovered Turn 676]
 - Item Ball: Located at (35, 31) in southeast sector - Rare Candy [Collected Turn 725]
-- Item Ball: Located at (20, 33) in south-central sector [Discovered Turn 732]
+- Item Ball: Located at (20, 33) in south-central sector [Collected Turn 733]
 - NPC/Trainer: Located at (24, 31) in south-central sector [Observed Turn 732]
 
 ## Verified Trainers
