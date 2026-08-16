@@ -106,6 +106,8 @@
 - [x] Travel south from Cerulean City to Vermilion City via Route 5 & Route 6 [Arrived Turn 1876]
 - [x] Obtain Bike Voucher from Pokémon Fan Club Chairman in Vermilion City [Turn 1902]
 - [x] Board the S.S. Anne in Vermilion City [Turn 1921]
+- [x] Defeat Rival RED on S.S. Anne 2F [Defeated Turn 2095]
+- [ ] Obtain HM01 Cut from S.S. Anne Captain
 - [ ] Defeat Gym Leader Lt. Surge in Vermilion Gym
 
 
@@ -733,6 +735,11 @@
 - Doorway exit at (23, 5).
 - Trainer: Sailor at (22, 3) [Defeated Turn 1993]. Team: Horsea Lv 17, Horsea Lv 17.
 - Item: TM08 (Body Slam) found on floor at (20, 3) [Obtained Turn 1998, Verified Turn 2011].
+
+
+### Rival RED Encounter (Upper Deck East Hallway at 36, 7)
+- Defeated Turn 2095. Team: Pidgeotto Lv 19, Raticate Lv 16, Kadabra Lv 18, Ivysaur Lv 20.
+- Post-battle dialogue: RED mentions the seasick Captain has CUT and departs with "Smell ya!".
 
 
 <hr>
