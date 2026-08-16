@@ -797,7 +797,7 @@
 
 ## Trial History
 - Turn 2258: Switch 1 found at Can (5, 11). Tested neighbor (3, 11) -> Failed/Reset on Turn 2260.
-- Current Cycle: Can (1, 7) = Trash [Turn 2283], Can (1, 9) = Trash [Turn 2284]. Testing Can (1, 11).
+- Current Cycle: Can (1, 7) = Trash [Turn 2283], Can (1, 9) = Trash [Turn 2284], Can (1, 11) = Trash [Turn 2285]. Testing Can (3, 11).
 
 
 <hr>
