@@ -148,24 +148,45 @@ def navigate_to_waypoint(target_x, target_y, blocked_edges):
 blocked_edges = set()
 
 # ==========================================
-# PHASE 4: Area 3 (West) -> Retrieval (19, 26)
+# PHASE 1: Center -> (0, 11) Transition
+# ==========================================
+print("--- PHASE 1: Navigating Center to Area 3 Transition ---")
+center_waypoints = [
+    (0, 11)
+]
+
+for wp in center_waypoints:
+    navigate_to_waypoint(wp[0], wp[1], blocked_edges)
+
+print("At transition (0, 11). Transitioning to Area 3 (West)...")
+for _ in range(4):
+    mgba.press_buttons(["Left"])
+    time.sleep(0.5)
+time.sleep(1.5)
+
+# ==========================================
+# PHASE 2: Area 3 (West) -> Gold Teeth (Plateau Route)
 # ==========================================
 curr = mgba.get_coordinates()
 print("Starting coordinates in Area 3 (West):", curr)
 
+# Reset blocked edges for Area 3
+blocked_edges = set()
+
 area3_waypoints = [
-    (25, 2),
-    (25, 18),
-    (21, 18),
-    (21, 26),
-    (19, 26)
+    (21, 18), # Walk to East Stairs of Plateau on Row 18
+    (21, 16), # Climb East Stairs onto Plateau
+    (6, 16),  # Walk Left across plateau
+    (6, 20),  # Descend West Stairs to ground level
+    (6, 26),  # Walk Down Column 6 to Row 26 Highway
+    (19, 26)  # Walk East along Row 26 directly below Gold Teeth
 ]
 
-print("--- PHASE 4: Navigating Area 3 (West) to Gold Teeth ---")
+print("--- PHASE 2: Navigating Area 3 (West) via Plateau Route ---")
 for wp in area3_waypoints:
     navigate_to_waypoint(wp[0], wp[1], blocked_edges)
 
-print("--- PHASE 5: Retrieving Gold Teeth ---")
+print("--- PHASE 3: Retrieving Gold Teeth ---")
 # Face UP to look at the Gold Teeth at (19, 25)
 print("Facing UP...")
 mgba.press_buttons(["Up"])
@@ -208,7 +229,8 @@ obsolete_files = [
     "go_to_western_ground_v3.py", "go_to_western_ground_v4.py", "pay_and_enter_safari.py",
     "pay_and_enter_safari_chunk1.py", "re_enter_safari_from_36_2.py", "re_enter_safari_from_mart.py",
     "search_teeth.py", "teach_cut_forget.py", "teach_cut_now.py", "teach_cut_robust.py",
-    "test_cut.py", "test_row6_walk.py"
+    "test_cut.py", "test_row6_walk.py", "retrieve_teeth_dynamic.py", "retrieve_teeth_final.py",
+    "retrieve_teeth_final_p2.py", "retrieve_teeth_final_p3.py"
 ]
 
 for filename in obsolete_files:
@@ -218,6 +240,16 @@ for filename in obsolete_files:
             print(f"Deleted: {filename}")
         except Exception as e:
             print(f"Error deleting {filename}: {e}")
+
+# Cleanup the nested notepads directory
+nested_dir = "notepads/notepads/"
+if os.path.exists(nested_dir):
+    try:
+        import shutil
+        shutil.rmtree(nested_dir)
+        print(f"Deleted nested directory: {nested_dir}")
+    except Exception as e:
+        print(f"Error deleting {nested_dir}: {e}")
 
 print("Cleanup complete.")
 
