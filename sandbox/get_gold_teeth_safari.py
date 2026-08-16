@@ -86,12 +86,8 @@ print("Selecting TRUFFLE...")
 bridge.press_buttons(["Down", "A"])
 time.sleep(1.0)
 
-print("Resetting submenu cursor to first option...")
-for _ in range(4):
-    bridge.press_buttons(["Up"])
-    time.sleep(0.1)
-
-print("Using CUT...")
+# Press A directly to select CUT (since the cursor defaults to the first option, which is CUT)
+print("Selecting CUT...")
 bridge.press_buttons(["A"])
 time.sleep(3.0) # Wait for animation
 
