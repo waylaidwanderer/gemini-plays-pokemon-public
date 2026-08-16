@@ -33,3 +33,4 @@
 - Geodude Lv 8 [Encountered & Defeated Turn 507 at (26, 3)]
 
 - Zubat Lv 8 [Encountered & Defeated Turn 513 at (18, 3)]
+- Zubat Lv 7 [Encountered & Defeated Turn 517 at (14, 3)]
