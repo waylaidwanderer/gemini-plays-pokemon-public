@@ -60,3 +60,4 @@
 - Geodude [Encountered Turn 692 at (25, 14)]
 - Paras [Encountered Turn 697 at (26, 17)]
 - Zubat Lv 8 [Encountered & Defeated Turn 729 at (30, 32)]
+- Zubat Lv 6 [Encountered Turn 760 at (24, 16)]
