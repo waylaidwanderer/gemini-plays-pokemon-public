@@ -21,7 +21,7 @@
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
 ## Inventory & Resources (Verified Turn 594)
-- Money: ¥4034 (Updated with +¥110 from Bug Catcher #8 and +¥210 from Lass #7)
+- Money: ¥4364 (Updated with +¥330 from Rocket Grunt #2)
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Pokémon Attack)
 - Key Items: Town Map, Pokédex
 - TMs / HMs: TM34 (Bide)
