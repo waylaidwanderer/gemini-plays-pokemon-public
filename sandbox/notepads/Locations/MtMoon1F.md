@@ -30,7 +30,7 @@
 
 ## Verified Trainers
 - Trainer #1: Located at (16, 23) facing West/North [Observed Turn 469]
-- Trainer #2 (Bug Catcher): Located at (30, 4) facing South [Observed Turn 506]
+- Trainer #2 (Lass): Located at (30, 4) facing South [Engaged Turn 634]. Dialogue: "Wow! It's way bigger in here than I thought!" Team: 2 Pokémon (Oddish Lv 11, Bellsprout Lv 11).
 - Trainer #3 (Youngster): Located at (13, 16) facing East [Defeated Turn 578]. Team: Rattata Lv 10, Rattata Lv 10, Zubat Lv 10. Dialogue: "Did you come to explore too?"
 - Trainer #4 (Hiker): Located at (5, 6) facing North [Defeated Turn 610]. Team: Geodude Lv 10, Geodude Lv 10, Onix Lv 10. Dialogue: "WHOA! You shocked me! Oh, you're just a kid!"
 
@@ -45,3 +45,6 @@
 - Clefairy Lv 8 [Encountered Turn 554 at (14, 16)]
 - Zubat Lv 11 [Encountered & Defeated Turn 598 at (4, 2)]
 - Zubat [Encountered Turn 613 at (6, 11)]
+- Geodude Lv 8 [Encountered & Defeated Turn 621 at (16, 19)]
+- Zubat [Encountered Turn 628 at (17, 12)]
+- Zubat [Encountered Turn 631 at (19, 4)]
