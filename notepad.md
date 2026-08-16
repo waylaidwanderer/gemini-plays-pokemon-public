@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 2/8 (Boulder Badge, Cascade Badge)
-- Location: Route 6 (x=16, y=31) in tall grass patch
+- Location: Vermilion Gym (x=5, y=12)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -736,24 +736,49 @@
 
 ## Layout & Landmarks
 - Entrance mat at (4, 17) / (5, 17).
-- Gym Guide at (4, 14).
+- Gym Guide at (4, 14). Dialogue: "Yo! Champ in making! LT.SURGE has a nickname. People refer to him as the LIGHTNING AMERICAN! He's an expert on electric POKéMON! BIRDS and WATER POKéMON are at risk! Beware of paralysis too! LT.SURGE is very cautious! He locked himself behind two electric doors! A switch in the trash cans opens them! You'll have to break a code to get to him!"
 - Statues at (3, 14) and (6, 14).
-- Central floor contains 15 trash cans arranged in a grid across rows 7-11.
-- Electric fence barriers block access to Lt. Surge's platform at rows 4-6.
-- Lt. Surge is located at (4, 2) / (5, 2) on the northern podium.
+- Central floor contains 15 trash cans arranged in a 5x3 grid:
+  - Rows: 7, 9, 11
+  - Columns: 1, 3, 5, 7, 9
+- Passable aisles:
+  - Vertical aisles: Columns 0, 2, 4, 6, 8
+  - Horizontal aisles: Rows 8, 10, 12
+- Electric fence barriers block access to Lt. Surge's northern platform across rows 4-6.
 
-## Puzzle Mechanics: Dual Electric Switch
-- 15 trash cans across the gym floor.
-- Switch 1 is hidden under one random trash can.
+## Verified Trainers
+- Gym Guide at (4, 14) [Spoke Turn 2187]
+- Trainer #1 at (3, 8) facing Down (unbattled)
+
+
+<hr>
+
+<h1><code>Scratchpad/VermilionGym_Hypotheses</code></h1>
+
+# Vermilion Gym - Hypotheses & Switch Tracking
+
+## Puzzle Hypothesis
+- 15 trash cans across gym floor.
+- Switch 1 is randomly located under one of the 15 trash cans.
 - Switch 2 is in one of the 4 cardinally adjacent trash cans (North, South, East, West) to Switch 1.
-- Failing Switch 2 resets both locks.
+- Checking an incorrect can after Switch 1 resets the electric locks.
 
-## Trainers
-- Gym Guide at (4, 14)
-- Sailor Dwayne
-- Jr. Trainer ♂ Tucker
-- Engineer Baily
-- Gym Leader Lt. Surge (Voltorb Lv 21, Pikachu Lv 18, Raichu Lv 24) - Reward: Thunder Badge + TM24 (Thunderbolt)
+## Switch Search Log
+- Can (1, 11): Unchecked
+- Can (3, 11): Unchecked
+- Can (5, 11): Unchecked
+- Can (7, 11): Unchecked
+- Can (9, 11): Unchecked
+- Can (1, 9): Unchecked
+- Can (3, 9): Unchecked
+- Can (5, 9): Unchecked
+- Can (7, 9): Unchecked
+- Can (9, 9): Unchecked
+- Can (1, 7): Unchecked
+- Can (3, 7): Unchecked
+- Can (5, 7): Unchecked
+- Can (7, 7): Unchecked
+- Can (9, 7): Unchecked
 
 
 <hr>
