@@ -58,7 +58,7 @@
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
 ## Inventory & Resources (Verified Turn 2212)
-- Money: ¥11716 (Verified Turn 2212 after Rocker: +¥500)
+- Money: ¥13326 (Verified Turn 2217 after Gentleman: +¥1610)
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pokémon up to Lv 30 obey)
 - Key Items: Town Map, Helix Fossil, S.S. Ticket, Bike Voucher
 - TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM34 (Bide), TM44 (Rest)
@@ -759,7 +759,11 @@
   - Post-battle dialogue: "OK, I'll talk! LT.SURGE said he hid door switches inside something!"
   - Team: Voltorb Lv 20, Magnemite Lv 20, Voltorb Lv 20
   - Reward: ¥500
-- Gentleman Tucker (Trainer #3): Located at (9, 6) facing Left [Pre-battle: "When I was in the Army, LT.SURGE was my strict CO!"].
+- Gentleman Tucker (Trainer #3): Located at (9, 6) [Defeated Turn 2217].
+  - Pre-battle dialogue: "When I was in the Army, LT.SURGE was my strict CO!"
+  - Defeat quote: "Stop! You're very good!"
+  - Team: Pikachu Lv 23
+  - Reward: ¥1610
 
 
 <hr>
@@ -789,7 +793,7 @@
 - Can (3, 7): Unchecked
 - Can (5, 7): Unchecked
 - Can (7, 7): Unchecked
-- Can (9, 7): Unchecked
+- Can (9, 7): Trash only (Checked Turn 2218)
 
 
 <hr>
