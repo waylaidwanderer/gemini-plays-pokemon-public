@@ -14,5 +14,6 @@
 - [x] Help Bill run the Cell Separation System & receive S.S. Ticket [Turn 1751]
 - [x] Defeat Team Rocket Grunt in Cerulean backyard & recover TM28 (Dig) [Turn 1820]
 - [x] Travel south from Cerulean City to Vermilion City via Route 5 & Route 6 [Arrived Turn 1876]
+- [x] Obtain Bike Voucher from Pokémon Fan Club Chairman in Vermilion City [Turn 1902]
 - [ ] Board the S.S. Anne in Vermilion City
 - [ ] Defeat Gym Leader Lt. Surge in Vermilion Gym
