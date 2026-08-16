@@ -4,7 +4,7 @@
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
 - Location: Mt. Moon 1F (x=30, y=26)
-- Current Objective: Defeat Bug Catcher at (30, 27) with Echo's Leech Life and navigate south along col 31 towards southwest chamber item at (2, 20)
+- Current Objective: Defeat Bug Catcher at (30, 27) with Terra's Tackle and navigate south along col 31 towards southwest chamber item at (2, 20)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
