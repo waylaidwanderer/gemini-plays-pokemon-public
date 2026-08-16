@@ -14,3 +14,6 @@
 
 ## Verified NPCs & Dialogue
 - Steward: Located at (27, 5). Dialogue: "You might be challenged by the more restless passengers!"
+## Cabin 1 (Eastmost Cabin - Entrance at 31, 8)
+- NPC: Traveler / Gentleman at (1, 3). Dialogue: "I travel alone on my journeys! My POKéMON are my only friends!"
+- Items: None.
