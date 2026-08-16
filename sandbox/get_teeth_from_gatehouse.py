@@ -59,39 +59,44 @@ def walk_to_waypoint(target_x, target_y):
         bridge.press_buttons([btn])
         time.sleep(0.44)
 
-# We are currently at (3, 4) in the Gatehouse, facing left with "Is it your first time here?" (YES/NO) open
-print("Starting Safari Gatehouse Dialogue...")
+# We are currently at (4, 2) in the Gatehouse, with "For just P500, you can catch all" open
+print("Entering Safari Zone Entry Dialogue...")
 
-# Press A to select YES to "first time here?"
+# Let's advance dialogue
+# 1. "For just P500, you can catch all" -> press A
 bridge.press_buttons(["A"])
-time.sleep(0.8)
+time.sleep(1.0)
 
-# Now clerk explains rules. Let's press A multiple times to clear explanations
-print("Mashing A to clear rule explanations...")
-for i in range(8):
-    bridge.press_buttons(["A"])
-    time.sleep(0.8)
-
-# Now clerk says "That'll be 500... Would you like to join?" with YES/NO menu
-# Press A to select YES
-print("Selecting YES to paying 500...")
+# 2. "the POKéMON you want in the wild!" -> press A
 bridge.press_buttons(["A"])
-time.sleep(0.8)
+time.sleep(1.0)
 
-# Clear the rest of the text
-print("Clearing final payment text...")
-for _ in range(6):
-    bridge.press_buttons(["A"])
-    time.sleep(0.8)
+# 3. "Would you like to join?" YES/NO menu -> press A to select YES
+bridge.press_buttons(["A"])
+time.sleep(1.0)
 
-# Walk UP to row 0 to trigger the entrance warp
-print("Walking UP to warp...")
-for _ in range(5):
-    bridge.press_buttons(["Up"])
-    time.sleep(0.4)
+# 4. "That'll be P500 thanks!" -> press A
+bridge.press_buttons(["A"])
+time.sleep(1.0)
 
-# Clear welcome dialogue until we warp to Safari Center (15, 25)
-print("Clearing welcome dialogue and waiting for warp...")
+# 5. "We only use special Poké Balls here." -> press A
+bridge.press_buttons(["A"])
+time.sleep(1.0)
+
+# 6. "ACE received 30 SAFARI BALLs!" -> press A
+bridge.press_buttons(["A"])
+time.sleep(1.0)
+
+# 7. "We'll call you when you run out of time..." -> press A
+bridge.press_buttons(["A"])
+time.sleep(1.0)
+
+# 8. "Best of luck!" -> press A to transition to warp
+bridge.press_buttons(["A"])
+time.sleep(1.0)
+
+# Wait for warp to complete and we are at (15, 25) in Safari Center
+print("Waiting for warp to Safari Zone Center (15, 25)...")
 start_time = time.time()
 while True:
     curr = bridge.get_coordinates()
@@ -99,8 +104,8 @@ while True:
         if curr[0] == 15 and curr[1] == 25:
             print("Successfully entered Safari Zone Center! Current position:", curr)
             break
-    if time.time() - start_time > 15:
-        print("Timeout waiting for warp. Forcing A presses...")
+    if time.time() - start_time > 10:
+        print("Timeout waiting for warp. Forcing A press...")
         start_time = time.time()
     bridge.press_buttons(["A"])
     time.sleep(0.8)
@@ -114,7 +119,7 @@ waypoints_center = [
     (28, 22),
     (28, 8),
     (15, 8),
-    (15, 0) # transitions to Area 2 (North) at (21, 35) or (20, 35)
+    (15, 0) # transitions to Area 2 (North)
 ]
 
 success = True
@@ -124,7 +129,7 @@ for wx, wy in waypoints_center:
         break
 
 if success:
-    # We should have warped to Area 2 (North) southern corridor around (21, 35)
+    # We should have warped to Area 2 (North) southern corridor around (21, 35) or (20, 35)
     print("Entered Area 2 (North)! Position:", bridge.get_coordinates())
     
     # ----------------------------------------------------
@@ -133,7 +138,7 @@ if success:
     print("PHASE 2: Navigating Area 2 (North)...")
     waypoints_area2 = [
         (8, 35),
-        (8, 36) # transitions to Area 3 (West) at (26, 0)
+        (8, 36) # transitions to Area 3 (West)
     ]
     
     for wx, wy in waypoints_area2:
