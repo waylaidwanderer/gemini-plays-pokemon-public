@@ -24,7 +24,7 @@
 - Rock wall spans cols 18-19 (rows 10-21). Wide open passage at rows 22-25 connects Eastern area (cols 20-25) to Central/Main corridor (cols 14-17).
 - Friendly NPC at (30, 27): "Go through this cave to get to CERULEAN CITY!"
 - South-central rock formation spans cols 20-23 (rows 26-27); bypass corridor is at cols 24-25.
-- Observed NPC/Trainer at (7, 22) in southwest pocket.
+- Friendly NPC: Located at (7, 22) in southwest pocket. Dialogue: "Suspicious men are in the cave."
 - Northeast sector open chamber around (35, 7) extending eastward to col 37 (rows 2-7). East boundary rock wall at col 38, north rock wall at row 1.
 - Northern corridor runs westward along rows 2-5 across columns 35 down towards northwest sector.
 
