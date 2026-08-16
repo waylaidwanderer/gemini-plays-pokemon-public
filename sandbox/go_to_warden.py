@@ -1,82 +1,88 @@
-import bridge
+import mgba
 import time
+from PIL import Image
 
-def walk_to_waypoint(target_x, target_y):
+def get_path_bfs(start, target, blocked_edges):
+    queue = [[start]]
+    visited = {start}
+    
+    while queue:
+        path = queue.pop(0)
+        curr = path[-1]
+        if curr == target:
+            return path
+            
+        for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:
+            neighbor = (curr[0] + dx, curr[1] + dy)
+            # Fuchsia City boundaries are roughly 0 to 40
+            if 0 <= neighbor[0] <= 40 and 0 <= neighbor[1] <= 40:
+                if neighbor not in visited:
+                    edge = (curr, neighbor)
+                    if edge not in blocked_edges:
+                        visited.add(neighbor)
+                        queue.append(path + [neighbor])
+    return None
+
+def navigate_to_waypoint(target_x, target_y, blocked_edges):
     print(f"Navigating to waypoint ({target_x}, {target_y})...")
-    stuck_count = 0
-    last_coords = None
     
     while True:
-        curr = bridge.get_coordinates()
+        curr = mgba.get_coordinates()
         if curr is None:
-            print("Coordinates are None. Waiting...")
             time.sleep(0.5)
             continue
-            
-        x, y = curr
-        if x == target_x and y == target_y:
+                
+        cx, cy = curr['x'], curr['y']
+        if cx == target_x and cy == target_y:
             print(f"Reached waypoint ({target_x}, {target_y})")
             return True
             
-        if curr == last_coords:
-            stuck_count += 1
-            if stuck_count > 4:
-                print(f"Stuck at {curr} trying to reach ({target_x}, {target_y}). Retrying...")
-                bridge.press_buttons(["A", "B"])
-                time.sleep(0.5)
-                stuck_count = 0
-        else:
-            stuck_count = 0
-            last_coords = curr
+        path = get_path_bfs((cx, cy), (target_x, target_y), blocked_edges)
+        if not path or len(path) < 2:
+            print(f"No path found to ({target_x}, {target_y})!")
+            return False
             
-        # Choose direction to move
-        if x < target_x:
-            btn = "Right"
-        elif x > target_x:
-            btn = "Left"
-        elif y < target_y:
-            btn = "Down"
-        elif y > target_y:
-            btn = "Up"
-            
-        bridge.press_buttons([btn])
-        time.sleep(0.44)
-
-# Starting outside Fuchsia Pokemon Center at (19, 28)
-print("Starting journey to Warden's House...")
-
-# 1. Walk to Warden's House entrance at (27, 27)
-walk_to_waypoint(19, 30)
-walk_to_waypoint(27, 30)
-walk_to_waypoint(27, 27)
-
-# Enter the Warden's House (triggers transition)
-print("Entering Warden's House...")
-bridge.press_buttons(["Up"])
-time.sleep(1.0)
-
-# Check coordinates inside Warden's House (should emerge at (4, 7) or similar)
-curr_house = bridge.get_coordinates()
-print("Emerged inside Warden's House at:", curr_house)
-
-if curr_house is not None and curr_house[1] <= 8:
-    # 2. Walk to Warden at (2, 3)
-    print("Walking to Warden at (2, 3)...")
-    walk_to_waypoint(2, 4)
-    bridge.press_buttons(["Up"])
-    time.sleep(0.5)
-    
-    # 3. Talk to Warden and get HM04 (Strength)
-    print("Talking to Warden...")
-    bridge.press_buttons(["A"])
-    time.sleep(1.0)
-    
-    # Mash A to clear dialogue until we receive HM04 and dialogue completely closes
-    print("Mashing A to clear dialogue...")
-    for _ in range(12):
-        bridge.press_buttons(["A"])
-        time.sleep(0.8)
+        next_step = path[1]
+        dx = next_step[0] - cx
+        dy = next_step[1] - cy
         
-    print("Warden Dialogue Complete! Position:", bridge.get_coordinates())
-else:
-    print("Warp failed or coordinates incorrect.")
+        if dx == 1: btn = "Right"
+        elif dx == -1: btn = "Left"
+        elif dy == 1: btn = "Down"
+        else: btn = "Up"
+        
+        print(f"At ({cx}, {cy}). Stepping {btn} to {next_step}...")
+        mgba.press_buttons([btn])
+        time.sleep(0.42)
+        
+        post = mgba.get_coordinates()
+        if post is None:
+            time.sleep(0.5)
+            continue
+                
+        px, py = post['x'], post['y']
+        if (px, py) == (cx, cy):
+            print(f"BUMPED! Edge {((cx, cy), next_step)} is blocked.")
+            blocked_edges.add(((cx, cy), next_step))
+            blocked_edges.add((next_step, (cx, cy)))
+        else:
+            if (px, py) != next_step:
+                if abs(px - cx) > 5 or abs(py - cy) > 5:
+                    print("Map transition detected!")
+                    return True
+
+print("--- NAVIGATING TO WARDEN'S HOUSE ---")
+blocked_edges = set()
+
+# Target is the Warden's House door at (27, 27)
+navigate_to_waypoint(27, 27, blocked_edges)
+
+# Walk UP to enter the house
+print("Entering Warden's House...")
+mgba.press_buttons(["Up"])
+time.sleep(1.5)
+
+curr = mgba.get_coordinates()
+print("Position inside Warden's House:", curr)
+mgba.take_screenshot()
+
