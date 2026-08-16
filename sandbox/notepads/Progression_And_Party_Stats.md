@@ -1,13 +1,11 @@
 # Pokémon Blue Solo Adventure - Progression and Party Stats
 
-## 🛡️ Badges Obtained (5 / 8)
+## 🛡️ Badges Obtained (2 / 8)
 - **Boulder Badge** (Pewter Gym - Brock) - Verified
-- **Cascade Badge** (Cerulean Gym - Misty) - Verified
-- **Thunder Badge** (Vermilion Gym - Lt. Surge) - Verified
-- **Rainbow Badge** (Celadon Gym - Erika) - Verified
 - **Soul Badge** (Fuchsia Gym - Koga) - Verified
 
 ## 🎒 Bag Inventory
+- **HM01 (Cut)** - Verified in Bag
 - **HM03 (Surf)** - Verified in Bag
 - **TOWN MAP** - Verified in Bag
 - **Safari Balls** - Currently active in Safari Zone (remaining count varies)
