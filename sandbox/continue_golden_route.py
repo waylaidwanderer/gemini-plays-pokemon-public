@@ -61,8 +61,10 @@ def walk_to_waypoint(target_x, target_y):
 
 # Waypoints starting from current position (28, 11) in Area 2 (North)
 waypoints = [
-    (28, 12),
-    (31, 12),
+    (28, 5),
+    (39, 5),
+    (39, 17),
+    (31, 17),
     (31, 13),
     (33, 13), # Climb East Stairs onto plateau
     (21, 15), # Walk to West Stairs top
