@@ -17,4 +17,9 @@
 
 ## Verified Trainers
 - Gym Guide at (4, 14) [Spoke Turn 2187]
-- Trainer #1 at (3, 8) facing Down (unbattled)
+- Sailor (Trainer #1): Located at (2, 10) [Defeated Turn 2199].
+  - Pre-battle dialogue: "This is no place for kids!"
+  - Defeat quote: "Wow! Surprised me!"
+  - Team: Pikachu Lv 21, Pikachu Lv 21
+  - Reward: ¥630
+- Trainer #2 at (3, 8) facing Down (unbattled)
