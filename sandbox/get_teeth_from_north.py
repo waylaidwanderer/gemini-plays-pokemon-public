@@ -3,16 +3,11 @@ import time
 
 def escape_battle():
     print("Encountered a battle! Attempting to escape...")
-    # Mash B to clear any "appeared" text
     for _ in range(5):
         bridge.press_buttons(["B"])
         time.sleep(0.1)
-    
-    # Select RUN (Down, Right, A)
     bridge.press_buttons(["Down", "Right", "A"])
-    time.sleep(1.0)
-    
-    # Clear "Got away safely!" text
+    time.sleep(1.2)
     for _ in range(5):
         bridge.press_buttons(["B"])
         time.sleep(0.1)
@@ -38,16 +33,13 @@ def walk_to_waypoint(target_x, target_y):
         if curr == last_coords:
             stuck_count += 1
             if stuck_count > 4:
-                print(f"Unchanged position at {curr}. Checking if in battle...")
+                print(f"Stuck at {curr} trying to reach ({target_x}, {target_y}). Attempting escape...")
                 escape_battle()
                 stuck_count = 0
                 time.sleep(0.5)
-                # If we were in dialogue or battle, we cleared it.
-                # Let's see if coordinates changed.
                 after_coords = bridge.get_coordinates()
                 if after_coords == curr:
-                    print("Coordinates still unchanged. Retrying movement...")
-                    # Sometimes we need to clear random text or handle a different screen
+                    print("Coordinates still unchanged. Retrying movement with A/B mash...")
                     bridge.press_buttons(["A", "B", "A", "B"])
                     time.sleep(0.5)
         else:
@@ -65,45 +57,84 @@ def walk_to_waypoint(target_x, target_y):
             btn = "Up"
             
         bridge.press_buttons([btn])
-        time.sleep(0.4)
+        time.sleep(0.44)
 
-# Full Waypoint list from Safari Center entrance (15, 25) to (19, 24) in Area 3 (West)
-waypoints = [
-    # Phase 1: Center to Area 1 (East)
-    (15, 22),
-    (27, 22),
-    (27, 10),
-    (29, 10), # Transitions to Area 1 (East) at (0, 22)
-    
-    # Phase 2: Area 1 (East) to Area 2 (North)
+# Start at (29, 11) in Safari Zone Center
+print("Starting Golden Route to retrieve Gold Teeth from (29, 11)...")
+
+# Transition to Area 1 (East)
+print("Transitioning to Area 1 (East)...")
+walk_to_waypoint(29, 10)
+walk_to_waypoint(30, 10) # Warp to (0, 22) in Area 1 (East) or similar
+time.sleep(1.0)
+
+# Check coordinates in Area 1 (East)
+curr = bridge.get_coordinates()
+print("Emerged in Area 1 (East) at:", curr)
+
+# ----------------------------------------------------
+# AREA 1 (EAST) TO AREA 2 (NORTH)
+# ----------------------------------------------------
+print("Navigating Area 1 (East)...")
+waypoints_area1 = [
+    (0, 24),
+    (20, 24),
     (20, 22),
-    (20, 20), # Climb stairs
-    (12, 20), # Walk left on plateau
-    (12, 22), # Descend stairs
+    (20, 20), # Climbs plateau stairs
+    (12, 20),
+    (12, 22), # Descends plateau stairs
     (8, 22),
     (8, 8),
     (12, 8),
-    (12, 6),  # Climb northern stairs
-    (17, 6),  # Walk right on plateau
-    (17, 8),  # Descend northern stairs
+    (12, 6),  # Climbs northern stairs
+    (17, 6),
+    (17, 8),  # Descends northern stairs
     (20, 8),
-    (20, 3),  # Up to row 3
-    (7, 3),   # Walk left along row 3
-    (7, 5),   # Down to row 5
-    (0, 5),   # Transitions to Area 2 (North) at (39, 31)
-    
-    # Phase 3: Area 2 (North) to Area 3 (West)
-    (22, 31), # Walk left along row 31
-    (22, 22), # Climb plateau stairs
-    (16, 22), # Walk left on plateau
-    (16, 28), # Descend stairs to grass
+    (20, 3),
+    (7, 3),
+    (7, 5),
+    (0, 5)    # Warp to (39, 31) in Area 2 (North)
+]
+
+for wx, wy in waypoints_area1:
+    if not walk_to_waypoint(wx, wy):
+        print(f"Failed waypoint in Area 1: ({wx}, {wy})")
+        break
+
+# Check coordinates in Area 2 (North)
+curr = bridge.get_coordinates()
+print("Emerged in Area 2 (North) at:", curr)
+
+# ----------------------------------------------------
+# AREA 2 (NORTH) TO AREA 3 (WEST)
+# ----------------------------------------------------
+print("Navigating Area 2 (North)...")
+waypoints_area2 = [
+    (22, 31),
+    (22, 22), # Climbs Southern Plateau stairs
+    (16, 22),
+    (16, 28), # Descends plateau stairs
     (12, 28),
-    (12, 30), # Bypass the pond
+    (12, 30), # Bypasses pond
     (8, 30),
-    (8, 35),  # Through the statue gap
-    (8, 36),  # Transitions to Area 3 (West) at (26, 0)
-    
-    # Phase 4: Area 3 (West) to (19, 24)
+    (8, 35),
+    (8, 36)   # Warp to (26, 0) in Area 3 (West)
+]
+
+for wx, wy in waypoints_area2:
+    if not walk_to_waypoint(wx, wy):
+        print(f"Failed waypoint in Area 2: ({wx}, {wy})")
+        break
+
+# Check coordinates in Area 3 (West)
+curr = bridge.get_coordinates()
+print("Emerged in Area 3 (West) at:", curr)
+
+# ----------------------------------------------------
+# AREA 3 (WEST) TO GOLD TEETH AT (19, 24)
+# ----------------------------------------------------
+print("Navigating Area 3 (West)...")
+waypoints_area3 = [
     (26, 2),
     (25, 2),
     (25, 18),
@@ -113,34 +144,27 @@ waypoints = [
     (19, 24)
 ]
 
-print("Starting golden route to Gold Teeth...")
-success = True
-for idx, (wx, wy) in enumerate(waypoints):
-    # If the map transition occurs, we might temporarily get None or jump coordinates.
-    # The waypoint pathfinder handles this since it will navigate from whichever coordinate we currently are at.
-    print(f"Waypoints progress: {idx}/{len(waypoints)}")
+for wx, wy in waypoints_area3:
     if not walk_to_waypoint(wx, wy):
-        success = False
+        print(f"Failed waypoint in Area 3: ({wx}, {wy})")
         break
 
-if success:
-    print("Successfully reached (19, 24) facing DOWN!")
-    # Face DOWN
-    bridge.press_buttons(["Down"])
-    time.sleep(0.4)
-    
-    # Interact with Gold Teeth at (19, 25)
-    print("Pressing A to retrieve Gold Teeth...")
-    bridge.press_buttons(["A"])
-    time.sleep(1.0)
-    
-    # Clear text box dialogue
-    print("Clearing dialogue...")
-    bridge.press_buttons(["A"])
-    time.sleep(0.5)
-    bridge.press_buttons(["A"])
-    time.sleep(0.5)
-    
-    print("Retrieved Gold Teeth! Current position:", bridge.get_coordinates())
-else:
-    print("Failed golden route. Current position:", bridge.get_coordinates())
+# Retrieve Gold Teeth
+print("Successfully reached (19, 24) directly above Gold Teeth!")
+print("Facing DOWN...")
+bridge.press_buttons(["Down"])
+time.sleep(0.5)
+
+print("Pressing A to retrieve Gold Teeth...")
+bridge.press_buttons(["A"])
+time.sleep(1.0)
+
+# Clear dialogue
+print("Clearing dialogue...")
+bridge.press_buttons(["A"])
+time.sleep(0.5)
+bridge.press_buttons(["A"])
+time.sleep(0.5)
+
+final_pos = bridge.get_coordinates()
+print("Retrieval Process Complete! Position:", final_pos)
