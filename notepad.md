@@ -5,8 +5,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon 1F (x=5, y=5)
-- Current Objective: Explore south along western corridor to explore southwest chamber (rows 20-35) and locate items/ladders
+- Location: Mt. Moon 1F (x=6, y=8)
+- Current Objective: Flee wild Geodude and navigate south along western corridor to explore southwest chamber (rows 20-35)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
