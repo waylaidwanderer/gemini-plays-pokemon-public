@@ -12,7 +12,7 @@
    - Moves: Leech Life (0/15)
    - Role: Fast Flying/Poison utility & Grass counter
 3. TERRA (Geodude) - Lv 10
-   - Stats (Verified at Lv 10): Max HP 30 (HP: 20/30)
+   - Stats (Verified at Lv 10): Max HP 30 (HP: 19/30)
    - Type: Rock / Ground
    - Moves: Tackle, Defense Curl
    - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist (Active Lead)
@@ -21,7 +21,7 @@
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
 ## Inventory & Resources (Verified Turn 594)
-- Money: ¥3339 (Updated with +¥100 from Bug Catcher)
+- Money: ¥3439 (Updated with +¥100 from Bug Catcher)
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Pokémon Attack)
 - Key Items: Town Map, Pokédex
 - TMs / HMs: TM34 (Bide)
