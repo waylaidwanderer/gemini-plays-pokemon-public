@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 2/8 (Boulder Badge, Cascade Badge)
-- Location: S.S. Anne 1F (x=2, y=6)
+- Location: S.S. Anne 1F (x=37, y=10)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -26,7 +26,6 @@
 - `Locations/Route5`: Route 5 layout, Daycare, Underground Path entrance
 - `Locations/Route6`: Route 6 layout, Underground Path exit, trainers, path to Vermilion City
 - `Locations/VermilionCity`: Vermilion City layout, Pokémon Center, Mart, Fan Club, Gym, Port, S.S. Anne
-
 
 <hr>
 
