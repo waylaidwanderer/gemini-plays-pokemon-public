@@ -61,33 +61,6 @@ def walk_to_waypoint(target_x, target_y):
         time.sleep(0.42)
 
 # ==========================================================
-# 1. Enters Safari Zone from (18, 6) in Fuchsia City
-# ==========================================================
-print("--- STARTING JOURNEY TO GOLD TEETH ---")
-
-# Walk UP to Gatehouse door at (18, 3)
-walk_to_waypoint(18, 3)
-mgba.press_buttons(["Up"])
-time.sleep(1.0)
-
-# Stand in front of clerk at (3, 4) in the Gatehouse
-walk_to_waypoint(3, 4)
-
-# Talk to clerk to pay 500 and enter
-print("Talking to clerk...")
-mgba.press_buttons(["A"])
-time.sleep(1.0)
-mgba.press_buttons(["A"])
-time.sleep(1.0)
-mgba.press_buttons(["A"])
-time.sleep(1.5)
-
-# Wait for transition into Safari Zone Center at (15, 25)
-print("Entering Safari Zone Center...")
-time.sleep(1.0)
-print("Position after entry:", mgba.get_coordinates())
-
-# ==========================================================
 # PHASE 1: Safari Zone Center -> Area 1 (East)
 # ==========================================================
 print("--- PHASE 1: Center to Area 1 (East) ---")
@@ -152,28 +125,31 @@ mgba.press_buttons(["Down"])
 time.sleep(1.0)
 
 # ==========================================================
-# PHASE 4: Area 3 (West) -> Retrieve Gold Teeth
+# PHASE 4: Area 3 (West) -> Retrieve Gold Teeth (Corrected Route!)
 # ==========================================================
-print("--- PHASE 4: Area 3 to Gold Teeth ---")
+print("--- PHASE 4: Area 3 to Gold Teeth (Corrected Route!) ---")
 area3_waypoints = [
     (26, 2),
     (25, 2),
     (25, 18),
     (21, 18),
-    (19, 18),
-    (19, 24) # Stand directly above Gold Teeth
+    (21, 16), # Climb East Stairs onto plateau
+    (6, 16),  # Walk LEFT across plateau
+    (6, 20),  # Descend West Stairs to ground level
+    (6, 26),  # Walk DOWN Column 6 to the Row 26 Highway
+    (19, 26)  # Walk RIGHT along Row 26 directly below Gold Teeth
 ]
 for wp in area3_waypoints:
     walk_to_waypoint(wp[0], wp[1])
 
-# Stand at (19, 24) facing DOWN
-print("Facing DOWN...")
-mgba.press_buttons(["Down"])
+# Stand at (19, 26) facing UP
+print("Facing UP...")
+mgba.press_buttons(["Up"])
 time.sleep(0.5)
 
 # Take screenshot to verify item ball is present
 screenshot_path = mgba.take_screenshot()
-print(f"Standing above teeth screenshot: {screenshot_path}")
+print(f"Standing below teeth screenshot: {screenshot_path}")
 
 # Press A to pick up the Gold Teeth
 print("Pressing A to pick up the Gold Teeth...")
