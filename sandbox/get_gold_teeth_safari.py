@@ -85,17 +85,7 @@ print("Selecting TRUFFLE...")
 bridge.press_buttons(["Down", "A"])
 time.sleep(1.0)
 
-# Since TRUFFLE has DIG and CUT:
-# Submenu has:
-# 1. DIG (since DIG is listed before CUT in the moves list)
-# 2. CUT
-# Let's reset the submenu cursor to DIG by pressing Up 4 times
-print("Resetting submenu cursor to first option (DIG)...")
-for _ in range(4):
-    bridge.press_buttons(["Up"])
-    time.sleep(0.1)
-
-# Press Down once to go to CUT
+# Press Down once to select CUT (since DIG is 1st and CUT is 2nd in the submenu, and the cursor defaults to 1st)
 print("Selecting CUT...")
 bridge.press_buttons(["Down", "A"])
 time.sleep(2.0) # Wait for text/animation
