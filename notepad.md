@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon 1F (x=14, y=16)
+- Location: Mt. Moon 1F (x=11, y=11)
 - Current Objective: Explore Mt. Moon 1F western corridor, defeat trainers, collect items, and locate the ladder to Route 4
 
 ## Notepads Index
@@ -18,7 +18,6 @@
 - `Locations/MtMoon1F`: Mt. Moon 1F layout, items, wild encounters, trainers
 - `Locations/MtMoonB1F`: Mt. Moon B1F layout, ladders, wild encounters
 - `Locations/MtMoonB2F`: Mt. Moon B2F layout, Rocket Grunts, items, wild encounters
-
 
 <hr>
 
@@ -247,7 +246,9 @@
 - North-south passage connecting central and northern halls at columns 30-31 (rows 6-10)
 - Eastern chamber floor extends across rows 10-14 (cols 20-33+)
 - Rock obstacle at (32..33, 12..14)
-- Vertical rock wall at columns 12-13 (rows 2-7+) dividing north-central corridor (cols 14-17) from northwest corridor (cols 10-11)
+- Vertical rock wall at columns 12-13 (rows 2-15) dividing north-central corridor (cols 14-17) from western corridor (cols 10-11)
+- Cross passage connecting central hall to western corridor at row 17 (cols 11-14)
+- Western corridor runs along columns 10-11 heading north to northwest sector
 - Northeast sector open chamber around (35, 7) extending eastward to col 37 (rows 2-7). East boundary rock wall at col 38, north rock wall at row 1.
 - Northern corridor runs westward along rows 2-5 across columns 35 down towards northwest sector.
 
@@ -257,7 +258,7 @@
 ## Verified Trainers
 - Trainer #1: Located at (16, 23) facing West/North [Observed Turn 469]
 - Trainer #2 (Bug Catcher): Located at (30, 4) facing South [Observed Turn 506]
-- Trainer #3 (Youngster): Located at (12, 16) facing East [Engaged Turn 563]. Team: Rattata Lv 10, Rattata Lv 10, Zubat Lv 10. Dialogue: "Did you come to explore too?"
+- Trainer #3 (Youngster): Located at (13, 16) facing East [Defeated Turn 578]. Team: Rattata Lv 10, Rattata Lv 10, Zubat Lv 10. Dialogue: "Did you come to explore too?"
 
 ## Empirical Wild Encounters
 - Zubat Lv 6 [Encountered Turn 477 at (22, 10), Nicknamed ECHO]
@@ -265,10 +266,10 @@
 - Geodude Lv 8 [Encountered Turn 492, Caught Turn 496 at (35, 7), Nicknamed TERRA]
 - Zubat Lv 7 [Encountered & Defeated Turn 502 at (35, 3)]
 - Geodude Lv 8 [Encountered & Defeated Turn 507 at (26, 3)]
-
 - Zubat Lv 8 [Encountered & Defeated Turn 513 at (18, 3)]
 - Zubat Lv 7 [Encountered & Defeated Turn 517 at (14, 3)]
 - Clefairy Lv 8 [Encountered Turn 554 at (14, 16)]
+
 
 <hr>
 
