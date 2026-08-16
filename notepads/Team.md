@@ -10,7 +10,7 @@
    - Type: Poison / Flying
    - Moves: Leech Life
    - Role: Fast Flying/Poison utility & future Golbat
-3. TERRA (Geodude) - Lv 8
+3. TERRA (Geodude) - Lv 9
    - Type: Rock / Ground
    - Moves: Tackle, Defense Curl
    - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist
@@ -18,8 +18,8 @@
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
-## Inventory & Resources (Verified Turn 498)
-- Money: ¥1214
+## Inventory & Resources (Verified Turn 571)
+- Money: ¥1574 (Updated with +¥360 prize money from Rocket Grunt #1)
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Pokémon Attack)
 - Key Items: Town Map, Pokédex
 - TMs / HMs: TM34 (Bide)
