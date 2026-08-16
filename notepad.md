@@ -275,6 +275,8 @@
 - Trainer #4 (Hiker): Located at (5, 6) facing North [Defeated Turn 610]. Team: Geodude Lv 10, Geodude Lv 10, Onix Lv 10. Dialogue: "WHOA! You shocked me! Oh, you're just a kid!"
 - Trainer #5 (Bug Catcher): Located at (30, 27) [Defeated Turn 721]. Team: Caterpie Lv 10, Metapod Lv 10, Caterpie Lv 10. Reward: ¥100. Dialogue: "ZUBAT is tough! But, it can be useful if you catch one."
 - Trainer #6 (Super Nerd): Located at (24, 31) facing North [Defeated Turn 753]. Team: Magnemite Lv 11, Voltorb Lv 11 (2 Pokémon total). Reward: ¥275. Pre-battle dialogue: "What! Don't sneak up on me!"
+- Trainer #7 (Lass): Located near south corridor at (16, 24) [Defeated Turn 841]. Team: Clefairy Lv 14 (1 Pokémon).
+- Trainer #8 (Bug Catcher): Located in southwest sector at (7, 24) [Defeated Turn 833]. Team: Weedle Lv 11, Kakuna Lv 11.
 
 ## Empirical Wild Encounters
 - Zubat Lv 6 [Encountered Turn 477 at (22, 10), Nicknamed ECHO]
@@ -300,8 +302,6 @@
 - Zubat Lv 8 [Encountered Turn 773 at (24, 20)]
 - Zubat [Encountered Turn 775 at (14, 18)]
 - Zubat [Encountered Turn 781 at (20, 24)]
-- Trainer #7 (Lass): Located near south corridor at (16, 24) [Defeated Turn 839]. Team: Clefairy Lv 14 (1 Pokémon).
-- Trainer #8 (Bug Catcher): Located in southwest sector at (7, 24) [Defeated Turn 833]. Team: Weedle Lv 11, Kakuna Lv 11.
 
 <hr>
 
