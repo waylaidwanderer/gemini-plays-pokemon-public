@@ -5,8 +5,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon 1F (x=16, y=9)
-- Current Objective: Walk north along col 16 to (16, 4), then east along row 4 towards eastern chamber and ladder at (25, 15)
+- Location: Mt. Moon 1F (x=19, y=4)
+- Current Objective: Flee wild Zubat and navigate east along row 4 towards eastern chamber and ladder at (25, 15)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -278,6 +278,9 @@
 - Clefairy Lv 8 [Encountered Turn 554 at (14, 16)]
 - Zubat Lv 11 [Encountered & Defeated Turn 598 at (4, 2)]
 - Zubat [Encountered Turn 613 at (6, 11)]
+- Geodude Lv 8 [Encountered & Defeated Turn 621 at (16, 19)]
+- Zubat [Encountered Turn 628 at (17, 12)]
+- Zubat [Encountered Turn 631 at (19, 4)]
 
 <hr>
 

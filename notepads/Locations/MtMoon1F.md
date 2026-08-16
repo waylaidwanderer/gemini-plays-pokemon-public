@@ -45,3 +45,6 @@
 - Clefairy Lv 8 [Encountered Turn 554 at (14, 16)]
 - Zubat Lv 11 [Encountered & Defeated Turn 598 at (4, 2)]
 - Zubat [Encountered Turn 613 at (6, 11)]
+- Geodude Lv 8 [Encountered & Defeated Turn 621 at (16, 19)]
+- Zubat [Encountered Turn 628 at (17, 12)]
+- Zubat [Encountered Turn 631 at (19, 4)]
