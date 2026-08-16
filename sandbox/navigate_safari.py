@@ -1,27 +1,21 @@
 import mgba
 import time
 
-print("--- SELF-HEALING SAFARI ZONE NAVIGATOR (PART 3) ---")
+print("--- EXECUTING PHASE 4: RETRIEVING GOLD TEETH ---")
 
-# Step-by-step path from Area 2 (North) (39, 31) to Area 3 (West) at (26, 0)
+# Step-by-step path from Area 3 (West) (25, 2) to Gold Teeth at (19, 25)
 path = []
 
-# (39, 31) -> (22, 31): LEFT 17 steps
-path += ["Left"] * 17
-# (22, 31) -> (22, 22): UP 9 steps (climbing Western Southern Plateau stairs at 22, 23)
-path += ["Up"] * 9
-# (22, 22) -> (16, 22): LEFT 6 steps on the plateau
-path += ["Left"] * 6
-# (16, 22) -> (16, 28): DOWN 6 steps (descending stairs at 16, 27)
-path += ["Down"] * 6
-# (16, 28) -> (12, 28): LEFT 4 steps
+# (25, 2) -> (25, 18): DOWN 16 steps
+path += ["Down"] * 16
+# (25, 18) -> (21, 18): LEFT 4 steps
 path += ["Left"] * 4
-# (12, 28) -> (12, 30): DOWN 2 steps (bypassing the pond)
-path += ["Down"] * 2
-# (12, 30) -> (8, 30): LEFT 4 steps
-path += ["Left"] * 4
-# (8, 30) -> (8, 36): DOWN 6 steps (through statue gap at 8, 34 to 8, 35, and down to transition at 8, 36)
-path += ["Down"] * 6
+# (21, 18) -> (21, 26): DOWN 8 steps
+path += ["Down"] * 8
+# (21, 26) -> (19, 26): LEFT 2 steps
+path += ["Left"] * 2
+# Face UP
+path += ["Up"]
 
 print(f"Total steps in path: {len(path)}")
 
@@ -75,5 +69,15 @@ while step_idx < len(path):
         # Successfully moved! Advance to the next step
         step_idx += 1
 
-print("Navigation paused or completed. Current Position:", get_pos())
+# If we reached the end of the path successfully, pick up the teeth!
+if step_idx == len(path):
+    print("Successfully reached (19, 26) facing UP! Picking up Gold Teeth...")
+    mgba.press_buttons(["A"])
+    time.sleep(1.0)
+    # Press A again to clear the text "ACE picked up GOLD TEETH!"
+    mgba.press_buttons(["A"])
+    time.sleep(1.0)
+    print("Gold Teeth successfully retrieved!")
+
+print("Final Position:", get_pos())
 mgba.take_screenshot()
