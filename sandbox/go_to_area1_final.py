@@ -60,12 +60,10 @@ def walk_to_waypoint(target_x, target_y):
         time.sleep(0.42)
 
 print("--- PHASE 1: Safari Zone Center to Area 1 (East) ---")
-# Start at (16, 24)
+# Start at (28, 17)
 waypoints = [
-    (17, 24), # Right to Column 17 (bypasses Row 23 trees)
-    (17, 22), # Up to Row 22
-    (28, 22), # Right to Column 28
-    (28, 10), # Up to Row 10
+    (27, 17), # Left to Column 27 (bypasses (28, 16) tree)
+    (27, 10), # Up to Row 10
     (30, 10)  # Eastern transition
 ]
 
