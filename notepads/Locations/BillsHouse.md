@@ -18,3 +18,4 @@
   "BILL: Yeehah! Thanks, bud! I owe you one! ... Oh here, maybe this'll do."
   Received S.S. TICKET!
   Bill suggests boarding the S.S. Anne in Vermilion City.
+- Interacted with Bill's PC on Turn 1762: Viewed Pokédex entries for Eevee, Flareon, Jolteon, and Vaporeon (registered as "Seen" in Pokédex).
