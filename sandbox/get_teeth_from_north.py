@@ -61,13 +61,24 @@ def walk_to_waypoint(target_x, target_y):
         time.sleep(0.42)
 
 # ==========================================================
-# We start at (26, 11) inside Safari Zone Area 2 (North)
+# We start at (25, 11) inside Safari Zone Area 2 (North)
 # ==========================================================
-print("--- RESUMING JOURNEY FROM AREA 2 (NORTH) (26, 11) ---")
+print("--- RESUMING JOURNEY FROM AREA 2 (NORTH) (25, 11) ---")
 
 area2_waypoints = [
-    (25, 11),  # Move LEFT 1 step to Column 25
-    (25, 31),  # Walk DOWN Column 25 (ground level corridor) to Row 31
+    (28, 11),  # Walk RIGHT to Column 28 (bypassing the building)
+    (28, 5),   # Walk UP to Row 5 (the open corridor)
+    (14, 5),   # Walk LEFT along Row 5 to Column 14 (completely open!)
+    (14, 14),  # Walk DOWN Column 14 to Row 14 (completely open!)
+    (19, 14),  # Walk RIGHT along Row 14 to Column 19
+    (19, 15),  # Walk DOWN to Row 15
+    (20, 15),  # Walk RIGHT climbing West Stairs onto the plateau
+    (33, 15),  # Walk RIGHT on the plateau to Column 33
+    (33, 13),  # Walk UP to Row 13
+    (31, 13),  # Walk LEFT descending East Stairs to Column 31 ground level
+    (31, 17),  # Walk DOWN to Row 17
+    (25, 17),  # Walk LEFT along Row 17 (completely open!)
+    (25, 31),  # Walk DOWN Column 25 ground level to Row 31
     (22, 31),  # Walk LEFT to Column 22
     (22, 22),  # Climb Western Southern Plateau stairs
     (16, 22),  # Walk LEFT on plateau
