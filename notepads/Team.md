@@ -1,10 +1,10 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. HYDROS (Wartortle) - Lv 25
-   - Stats (Verified at Lv 25): Max HP 73 (HP: 21/73, Healthy), Attack 43, Defense 49, Speed 45, Special 47
+1. HYDROS (Wartortle) - Lv 26
+   - Stats (Verified at Lv 26): Max HP 75 (HP: 4/75, Critical), Attack 45, Defense 51, Speed 47, Special 49
    - Type: Water
-   - Moves: Tackle (35/35), Tail Whip (30/30), Bite (25/25), Bubblebeam (19/20)
+   - Moves: Tackle (27/35), Tail Whip (30/30), Bite (24/25), Bubblebeam (17/20)
    - Role: Starter & primary Water special attacker (Active Lead)
 2. ECHO (Zubat) - Lv 8
    - Stats (Verified at Lv 8): Max HP 26 (HP: 26/26, Healthy)
@@ -18,15 +18,15 @@
    - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist
 
 ## Planned Nicknaming Strategy
-- Every captured Pokémon will receive a thoughtful, unique nickname.
+- Every captured Pok�mon will receive a thoughtful, unique nickname.
 
-## Inventory & Resources (Verified Turn 1354)
-- Money: ¥4717 (Verified Turn 1527)
-- Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pokémon up to Lv 30 obey)
-- Key Items: Town Map, Pokédex, Helix Fossil
+## Inventory & Resources (Verified Turn 1565)
+- Money: �5177
+- Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pok�mon up to Lv 30 obey)
+- Key Items: Town Map, Pok�dex, Helix Fossil
 - TMs / HMs: TM34 (Bide), TM11 (Bubblebeam)
 - Consumables:
-  - 10x Poké Ball (Purchased at Cerulean Pokémart)
+  - 10x Pok� Ball (Purchased at Cerulean Pok�mart)
   - 1x Antidote (Status cure: Poison)
   - 1x Moon Stone (Evolution item found in Mt. Moon 1F)
   - 1x Rare Candy (Found at 35, 31 in Mt. Moon 1F)
