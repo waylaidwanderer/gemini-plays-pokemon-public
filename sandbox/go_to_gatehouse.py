@@ -1,144 +1,162 @@
 import bridge
 import time
+import json
+import os
 
-def cut_bush():
-    print("Cutting bush at (26, 13)...")
-    # Face UP towards the bush
-    bridge.press_buttons(["Up"])
-    time.sleep(0.4)
-    
-    # Open START menu
-    bridge.press_buttons(["Start"])
-    time.sleep(0.5)
-    
-    # Go to POKEMON (Down, A)
-    bridge.press_buttons(["Down", "A"])
-    time.sleep(0.5)
-    
-    # Select TRUFFLE (Paras) - press Down once to highlight TRUFFLE, then A
-    bridge.press_buttons(["Down", "A"])
-    time.sleep(0.5)
-    
-    # Select CUT (since we are facing a bush, CUT is the top option, so just press A)
-    bridge.press_buttons(["A"])
-    time.sleep(1.5) # Wait for cut animation
-    
-    # Clear "TRUFFLE hacked away with CUT!" text
-    bridge.press_buttons(["A"])
-    time.sleep(0.5)
-    print("Bush cut successfully.")
+STATE_FILE = "bfs_navigation_state.json"
 
-# Walk from (19, 28) to (26, 14)
-print("Current position:", bridge.get_coordinates())
+def load_navigation_state():
+    if os.path.exists(STATE_FILE):
+        try:
+            with open(STATE_FILE, "r") as f:
+                data = json.load(f)
+                # Convert list of lists back to sets of tuples
+                blocked_edges = set(tuple(tuple(x) for x in edge) for edge in data.get("blocked_edges", []))
+                blocked_tiles = set(tuple(x) for x in data.get("blocked_tiles", []))
+                print(f"Loaded state: {len(blocked_edges)} blocked edges, {len(blocked_tiles)} blocked tiles.")
+                return blocked_edges, blocked_tiles
+        except Exception as e:
+            print("Error loading state:", e)
+    return set(), set()
 
-steps1 = [
-    ("Right", (20, 28)),
-    ("Right", (21, 28)),
-    ("Right", (22, 28)),
-    ("Right", (23, 28)),
-    ("Right", (24, 28)),
-    ("Up", (24, 27)),
-    ("Up", (24, 26)),
-    ("Up", (24, 25)),
-    ("Up", (24, 24)),
-    ("Up", (24, 23)),
-    ("Up", (24, 22)),
-    ("Up", (24, 21)),
-    ("Left", (23, 21)),
-    ("Left", (22, 21)),
-    ("Up", (22, 20)),
-    ("Up", (22, 19)),
-    ("Up", (22, 18)),
-    ("Up", (22, 17)),
-    ("Up", (22, 16)),
-    ("Up", (22, 15)),
-    ("Up", (22, 14)),
-    ("Right", (23, 14)),
-    ("Right", (24, 14)),
-    ("Right", (25, 14)),
-    ("Right", (26, 14))
-]
+def save_navigation_state(blocked_edges, blocked_tiles):
+    try:
+        # Convert sets of tuples to lists for JSON serialization
+        data = {
+            "blocked_edges": [list(list(x) for x in edge) for edge in blocked_edges],
+            "blocked_tiles": [list(x) for x in blocked_tiles]
+        }
+        with open(STATE_FILE, "w") as f:
+            json.dump(data, f, indent=2)
+    except Exception as e:
+        print("Error saving state:", e)
 
-def walk_steps(steps):
-    for button, expected in steps:
+def solve_path(start, target, blocked_edges, blocked_tiles):
+    queue = [[start]]
+    visited = {start}
+    
+    while queue:
+        path = queue.pop(0)
+        curr = path[-1]
+        
+        if curr == target:
+            return path
+            
+        x, y = curr
+        neighbors = [
+            ((x, y-1), "Up"),
+            ((x, y+1), "Down"),
+            ((x-1, y), "Left"),
+            ((x+1, y), "Right")
+        ]
+        
+        for neighbor, direction in neighbors:
+            nx, ny = neighbor
+            if nx < 0 or nx > 39 or ny < 0 or ny > 35:
+                continue
+            if neighbor in blocked_tiles:
+                continue
+            edge = (curr, neighbor)
+            if edge in blocked_edges:
+                continue
+                
+            if neighbor not in visited:
+                visited.add(neighbor)
+                queue.append(path + [neighbor])
+                
+    return None
+
+def navigate_to(target_x, target_y):
+    target = (target_x, target_y)
+    blocked_edges, blocked_tiles = load_navigation_state()
+    
+    # Pre-populate known solid blocks in Fuchsia City to save steps
+    # Rooftops at Rows 22-23, Columns 12-23
+    for x in range(12, 24):
+        for y in range(22, 24):
+            blocked_tiles.add((x, y))
+            
+    # Regular house at (22, 13)
+    blocked_tiles.add((22, 13))
+    
+    # Pokémon Center at Columns 18-21, Rows 22-27
+    for x in range(18, 22):
+        for y in range(22, 27):
+            blocked_tiles.add((x, y))
+            
+    # Warden's House at Columns 26-29, Rows 25-27
+    for x in range(26, 30):
+        for y in range(25, 28):
+            blocked_tiles.add((x, y))
+            
+    stuck_count = 0
+    
+    while True:
         curr = bridge.get_coordinates()
-        bridge.press_buttons([button])
-        time.sleep(0.4)
-        new_coords = bridge.get_coordinates()
-        if new_coords != expected:
-            print(f"Failed to reach {expected}. Ended up at {new_coords} from {curr} via {button}")
+        if curr is None:
+            time.sleep(0.5)
+            continue
+            
+        # Detect if we have entered the Gatehouse map
+        # Gatehouse coordinates are typically x <= 7, y <= 8, but distinct from Fuchsia (e.g. start at (3,5) or (4,5) on red mat)
+        # Let's check if current map is different by looking at Fuchsia boundaries or Gatehouse characteristics
+        # Fuchsia City has y up to 35, Gatehouse has y up to 8.
+        # If we are in the Gatehouse, we are warped, so our coordinates will jump from near (18, 3) to (3,5) or (4,5).
+        # Let's check if the coordinates are in the Gatehouse range.
+        if curr[0] == 4 and curr[1] == 5:
+            print("Successfully entered the Safari Zone Gatehouse!")
+            return True
+            
+        curr_tuple = (curr[0], curr[1])
+        if curr_tuple == target:
+            print(f"Reached Fuchsia gatehouse entrance at {curr_tuple}! Walking UP to enter...")
+            bridge.press_buttons(["Up"])
+            time.sleep(1.0)
+            continue
+            
+        path = solve_path(curr_tuple, target, blocked_edges, blocked_tiles)
+        if path is None or len(path) < 2:
+            print("No path found to target! We might be completely blocked.")
             return False
-    return True
+            
+        next_tile = path[1]
+        
+        # Determine movement button
+        cx, cy = curr_tuple
+        nx, ny = next_tile
+        if nx > cx:
+            btn = "Right"
+        elif nx < cx:
+            btn = "Left"
+        elif ny > cy:
+            btn = "Down"
+        elif ny < cy:
+            btn = "Up"
+            
+        print(f"At {curr_tuple}, moving {btn} to {next_tile}...")
+        bridge.press_buttons([btn])
+        time.sleep(0.44)
+        
+        # Check if we moved
+        after = bridge.get_coordinates()
+        if after is None:
+            continue
+            
+        after_tuple = (after[0], after[1])
+        if after_tuple == curr_tuple:
+            # We bumped! Mark this edge as blocked
+            print(f"BUMPED! Transition from {curr_tuple} to {next_tile} is blocked.")
+            blocked_edges.add((curr_tuple, next_tile))
+            blocked_edges.add((next_tile, curr_tuple))
+            save_navigation_state(blocked_edges, blocked_tiles)
+            stuck_count += 1
+            if stuck_count > 5:
+                print("Stuck too many times, mashing B/A to clear possible text...")
+                bridge.press_buttons(["B", "A", "B"])
+                time.sleep(0.5)
+                stuck_count = 0
+        else:
+            stuck_count = 0
 
-if walk_steps(steps1):
-    cut_bush()
-    
-    # Walk from (26, 14) through the cut bush to the Gatehouse entrance at (18, 3)
-    steps2 = [
-        ("Up", (26, 13)), # through cut bush
-        ("Up", (26, 12)),
-        ("Up", (26, 11)),
-        ("Up", (26, 10)),
-        ("Up", (26, 9)),
-        ("Left", (25, 9)),
-        ("Left", (24, 9)),
-        ("Left", (23, 9)),
-        ("Left", (22, 9)),
-        ("Left", (21, 9)),
-        ("Left", (20, 9)),
-        ("Left", (19, 9)),
-        ("Up", (19, 8)),
-        ("Right", (20, 8)),
-        ("Right", (21, 8)),
-        ("Right", (22, 8)),
-        ("Right", (23, 8)),
-        ("Right", (24, 8)),
-        ("Right", (25, 8)),
-        ("Right", (26, 8)),
-        ("Right", (27, 8)),
-        ("Right", (28, 8)),
-        ("Right", (29, 8)),
-        ("Right", (30, 8)),
-        ("Right", (31, 8)),
-        ("Right", (32, 8)),
-        ("Right", (33, 8)),
-        ("Right", (34, 8)),
-        ("Right", (35, 8)),
-        ("Right", (36, 8)),
-        ("Right", (37, 8)),
-        ("Up", (37, 7)),
-        ("Up", (37, 6)),
-        ("Up", (37, 5)),
-        ("Up", (37, 4)),
-        ("Up", (37, 3)),
-        ("Up", (37, 2)),
-        ("Left", (36, 2)),
-        ("Left", (35, 2)),
-        ("Left", (34, 2)),
-        ("Left", (33, 2)),
-        ("Left", (32, 2)),
-        ("Left", (31, 2)),
-        ("Left", (30, 2)),
-        ("Left", (29, 2)),
-        ("Left", (28, 2)),
-        ("Left", (27, 2)),
-        ("Left", (26, 2)),
-        ("Left", (25, 2)),
-        ("Left", (24, 2)),
-        ("Left", (23, 2)),
-        ("Left", (22, 2)),
-        ("Down", (22, 3)),
-        ("Down", (22, 4)),
-        ("Left", (21, 4)),
-        ("Left", (20, 4)),
-        ("Left", (19, 4)),
-        ("Left", (18, 4)),
-        ("Up", (18, 3)) # enters Gatehouse!
-    ]
-    
-    if walk_steps(steps2):
-        print("Successfully reached inside the Safari Gatehouse!")
-    else:
-        print("Failed steps2. Current:", bridge.get_coordinates())
-else:
-    print("Failed steps1. Current:", bridge.get_coordinates())
+# Target the Safari Gatehouse entrance door at (18, 3) in Fuchsia City
+navigate_to(18, 3)
