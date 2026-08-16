@@ -408,5 +408,6 @@
 
 ## Empirical Wild Encounters
 - (To be tested in Route 4 grass)
+- Spearow [Encountered Turn 1161 at (64, 11)]
 
 <hr>
