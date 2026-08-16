@@ -57,75 +57,33 @@ def walk_to_waypoint(target_x, target_y):
         bridge.press_buttons([btn])
         time.sleep(0.44)
 
-# We are currently at (16, 3) inside Area 1 (East)
-print("Resuming Golden Route from (16, 3) in Area 1 (East)...")
+# We are currently at (18, 33) inside Area 2 (North) with the signpost textbox open
+print("Closing signpost textbox first...")
+for _ in range(3):
+    bridge.press_buttons(["B"])
+    time.sleep(0.8)
 
-# ----------------------------------------------------
-# PHASE 2: Area 1 (East) to Area 2 (North)
-# ----------------------------------------------------
-print("Navigating Area 1 (East)...")
-waypoints_area1 = [
-    (7, 3),
-    (7, 5),
-    (1, 5)    # Stop adjacent to warp at (0, 5)
+# Now we are in the overworld at (18, 33) facing RIGHT
+print("Resuming Golden Route in Area 2 (North) from (18, 33)...")
+
+waypoints_area2 = [
+    (18, 31), # Walk UP to Row 31 to bypass signpost
+    (22, 31), # Walk LEFT/RIGHT to Column 22 on Row 31
+    (22, 22), # Climb Western Southern Plateau stairs
+    (16, 22), # Walk LEFT on the plateau to Column 16
+    (16, 28), # Descend plateau stairs to ground level
+    (12, 28),
+    (12, 30), # Bypass pond
+    (8, 30),
+    (8, 35)   # Stop adjacent to warp at (8, 36)
 ]
 
 success = True
-for wx, wy in waypoints_area1:
+for wx, wy in waypoints_area2:
     if not walk_to_waypoint(wx, wy):
-        print(f"Failed waypoint in Area 1: ({wx}, {wy})")
+        print(f"Failed waypoint in Area 2: ({wx}, {wy})")
         success = False
         break
-
-if success:
-    # Step Left twice to transition to Area 2 (North)
-    print("Transitioning to Area 2 (North)...")
-    bridge.press_buttons(["Left"])
-    time.sleep(0.5)
-    bridge.press_buttons(["Left"])
-    time.sleep(1.0)
-
-    curr = bridge.get_coordinates()
-    print("Emerged in Area 2 (North) at:", curr)
-
-    # ----------------------------------------------------
-    # PHASE 3: Area 2 (North) to Area 3 (West)
-    # ----------------------------------------------------
-    print("PHASE 3: Navigating Area 2 (North) to Area 3 (West)...")
-    waypoints_area2 = [
-        (9, 3),   # Up to Row 3
-        (20, 3),  # Right to Column 20
-        (20, 9),  # Down to Row 9
-        (17, 9),  # Left to Column 17
-        (17, 8),  # Up to Row 8
-        (17, 6),  # Up onto plateau Column 17 Row 6
-        (12, 6),  # Left on plateau to Column 12 Row 6
-        (12, 9),  # Down to Row 9 (descending stairs)
-        (10, 9),  # Left to Column 10
-        (10, 17), # Down Column 10 to Row 17
-        (9, 17),  # Left to Column 9
-        (9, 22),  # Down to Row 22
-        (7, 22),  # Left to Column 7
-        (7, 17),  # Up Column 7 to Row 17
-        (6, 17),  # Left to Column 6
-        (6, 9),   # Up Column 6 to Row 9
-        (31, 9),  # Right Row 9 to Column 31
-        (31, 13), # Down Column 31 to Row 13
-        (33, 13), # Right to climb East Stairs
-        (22, 15), # Left/down on plateau
-        (20, 15), # Left to descend West Stairs
-        (12, 15), # Left to Column 12
-        (12, 28), # Down to Row 28
-        (12, 30), # Bypass pond
-        (8, 30),
-        (8, 35)   # Stop adjacent to warp at (8, 36)
-    ]
-
-    for wx, wy in waypoints_area2:
-        if not walk_to_waypoint(wx, wy):
-            print(f"Failed waypoint in Area 2: ({wx}, {wy})")
-            success = False
-            break
 
 if success:
     # Step Down twice to transition to Area 3 (West)
@@ -139,7 +97,7 @@ if success:
     print("Emerged in Area 3 (West) at:", curr)
 
     # ----------------------------------------------------
-    # PHASE 4: Area 3 (West) to Gold Teeth at (19, 24)
+    # AREA 3 (WEST) TO GOLD TEETH AT (19, 24)
     # ----------------------------------------------------
     print("PHASE 4: Navigating Area 3 (West) to Gold Teeth...")
     waypoints_area3 = [
