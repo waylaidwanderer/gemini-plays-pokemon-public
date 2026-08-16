@@ -14,7 +14,7 @@
 - Item Ball: Located at (29, 5) on the upper ledge [Observed Turn 525]
 
 ## Verified Trainers
-- Rocket Grunt #1: Located at (29, 10) facing North [Engaged Turn 533]. Team: Zubat Lv 12, [Pokemon 2]. Dialogue: "We're pulling a big job here! Get lost, kid!"
+- Rocket Grunt #1: Located at (29, 10) facing North [Engaged Turn 533]. Team: Zubat Lv 12, Ekans Lv 11. Dialogue: "We're pulling a big job here! Get lost, kid!"
 
 ## Empirical Wild Encounters
 - Zubat Lv 9 [Encountered & Defeated Turn 529 at (24, 10)]
