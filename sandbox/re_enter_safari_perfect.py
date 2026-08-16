@@ -105,7 +105,7 @@ def navigate_to_waypoint(target_x, target_y, blocked_edges):
                 print("Map transition detected!")
                 return True
 
-# Initialize blocked edges completely dynamically to avoid hardcoding errors!
+# Initialize blocked edges
 blocked_edges = set()
 # Avoid entering other buildings
 blocked_edges.add(((19, 28), (19, 27))) # Pokémon Center
@@ -119,19 +119,60 @@ blocked_edges.add(((31, 24), (31, 25)))
 blocked_edges.add(((22, 13), (22, 12))) # Slowpoke Fan's House
 blocked_edges.add(((22, 12), (22, 13)))
 
-# We are at (20, 16) in Fuchsia City overworld.
-# We will use the highly optimized and verified Western path waypoints chunk 1:
+# We are currently at (6, 10) in Fuchsia City overworld.
+# We will use the highly optimized and verified Western path waypoints:
 fuchsia_waypoints = [
-    (20, 32), # Move down to Row 32
-    (8, 32),  # Walk Left along Row 32 (bypass Slowpoke pen)
-    (8, 14),  # Walk Up Column 8 (bypass ledge and checkers)
-    (1, 14)   # Walk Left to Column 1 (bypassing the column 19 tree barrier!)
+    (6, 14),  # Walk Down Column 6 to Row 14 (bypassing building roof at (6, 9))
+    (18, 14), # Walk Right along Row 14 to Column 18 (directly below Gatehouse)
+    (18, 3)   # Up to enter Gatehouse
 ]
 
-print("--- PHASE 1 CHUNK 1: WALKING TO COLUMN 1 ---")
+print("--- PHASE 1: WALKING TO SAFARI ZONE GATEHOUSE ---")
 for wp in fuchsia_waypoints:
     navigate_to_waypoint(wp[0], wp[1], blocked_edges)
 
+print("Stepping UP to enter Gatehouse...")
+mgba.press_buttons(["Up"])
+time.sleep(1.5)
+
+curr = mgba.get_coordinates()
+print("Coordinates inside Gatehouse:", curr)
+
+# ==========================================
+# PHASE 2: PAY AND ENTER SAFARI ZONE
+# ==========================================
+print("--- PHASE 2: PAYING CLERK ---")
+blocked_edges = set()
+# Walk to (4, 3) (directly in front of the clerk counter)
+# To avoid the counter wall on Column 4 Row 5, we walk via Column 3:
+# Coords inside Gatehouse are (4, 6) on enter.
+# We walk:
+# - Left to (3, 6)
+# - Up to (3, 3)
+# - Right to (4, 3)
+gatehouse_waypoints = [
+    (3, 6),
+    (3, 3),
+    (4, 3)
+]
+
+for wp in gatehouse_waypoints:
+    navigate_to_waypoint(wp[0], wp[1], blocked_edges)
+
+print("Facing UP to speak to clerk...")
+mgba.press_buttons(["Up"])
+time.sleep(0.5)
+
+print("Talking to clerk...")
+mgba.press_buttons(["A"])
+time.sleep(1.0)
+
+print("Completing payment dialogue...")
+for _ in range(12):
+    mgba.press_buttons(["A"])
+    time.sleep(1.0)
+
+time.sleep(1.5)
 final_pos = mgba.get_coordinates()
-print("Final Position for Chunk 1:", final_pos)
+print("Position inside Safari Zone Center:", final_pos)
 mgba.take_screenshot()
