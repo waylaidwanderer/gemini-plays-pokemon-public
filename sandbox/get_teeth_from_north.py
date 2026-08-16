@@ -61,15 +61,14 @@ def walk_to_waypoint(target_x, target_y):
         time.sleep(0.42)
 
 # ==========================================================
-# We start at (0, 5) inside Safari Zone Area 2 (North)
+# We start at (9, 5) inside Safari Zone Area 2 (North)
 # ==========================================================
-print("--- RESUMING JOURNEY FROM AREA 2 (NORTH) (0, 5) ---")
+print("--- RESUMING JOURNEY FROM AREA 2 (NORTH) (9, 5) ---")
 
 area2_waypoints = [
-    (8, 5),    # Walk right to the open gap on Column 8
-    (8, 9),    # Walk DOWN through tall grass to Row 9
-    (31, 9),   # Walk RIGHT along Row 9 to Column 31 (bypassing barriers)
-    (31, 13),  # Walk DOWN to Row 13 in front of East Stairs
+    (9, 3),    # Walk UP to the open Row 3
+    (31, 3),   # Walk RIGHT along Row 3 to Column 31 (bypassing barriers)
+    (31, 13),  # Walk DOWN Column 31 to Row 13 in front of East Stairs
     (33, 13),  # Walk RIGHT climbing East Stairs onto plateau
     (37, 14),  # Walk onto the Eastern Land Bridge
     (37, 26),  # Walk DOWN the Eastern Land Bridge to Row 26
