@@ -16,4 +16,6 @@
 - [x] Travel south from Cerulean City to Vermilion City via Route 5 & Route 6 [Arrived Turn 1876]
 - [x] Obtain Bike Voucher from Pokémon Fan Club Chairman in Vermilion City [Turn 1902]
 - [x] Board the S.S. Anne in Vermilion City [Turn 1921]
+- [x] Defeat Rival RED on S.S. Anne 2F [Defeated Turn 2095]
+- [ ] Obtain HM01 Cut from S.S. Anne Captain
 - [ ] Defeat Gym Leader Lt. Surge in Vermilion Gym
