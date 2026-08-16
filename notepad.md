@@ -36,7 +36,7 @@
    - Type: Poison / Flying
    - Moves: Leech Life
    - Role: Fast Flying/Poison utility & future Golbat
-3. TERRA (Geodude) - Lv 8
+3. TERRA (Geodude) - Lv 9
    - Type: Rock / Ground
    - Moves: Tackle, Defense Curl
    - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist
@@ -53,7 +53,6 @@
   - 1x Antidote (Status cure: Poison)
   - 3x Potion (Restores 20 HP)
   - 0x Poké Ball (Exhausted in Mt. Moon)
-
 
 <hr>
 
