@@ -29,11 +29,11 @@
 - Helix Fossil: Located at (13, 6) in north chamber [Obtained Turn 1084]
 
 ## Verified Trainers
-- Rocket Grunt #3: Located at (29, 17) facing North [Engaged Turn 1049]. Dialogue: "Little kids should leave grown-ups alone!" Team: Raticate Lv 16. Reward: �480.
-- Rocket Grunt #1: Located at (29, 10) facing North [Defeated Turn 541]. Team: Zubat Lv 12, Ekans Lv 12. Reward: �360.
+- Rocket Grunt #3: Located at (29, 17) facing North [Engaged Turn 1049]. Dialogue: "Little kids should leave grown-ups alone!" Team: Raticate Lv 16. Reward: �¥480.
+- Rocket Grunt #1: Located at (29, 10) facing North [Defeated Turn 541]. Team: Zubat Lv 12, Ekans Lv 12. Reward: �¥360.
 - Rocket Grunt #2: Located at (15, 22) facing South [Defeated Turn 858]. Dialogue: "We, TEAM ROCKET, are POK�MON gangsters!" Team: Sandshrew Lv 11, Rattata Lv 11, Zubat Lv 11 (3 Pok�mon).
-- Rocket Grunt #4: Located at (11, 16) facing South [Defeated Turn 1072]. Dialogue: "TEAM ROCKET will find the fossils, revive and sell them for cash!" Team: Rattata Lv 13, Zubat Lv 13. Reward: �390.
-- Super Nerd Miguel: Located at (12, 8) facing South [Defeated Turn 1081]. Dialogue: "Hey, stop! I found these fossils! They're both mine!" Defeat quote: "OK! I'll share!" Team: Grimer Lv 12, Voltorb Lv 12, Koffing Lv 12. Reward: �300 + Choice of Fossil (Helix Fossil claimed).
+- Rocket Grunt #4: Located at (11, 16) facing South [Defeated Turn 1072]. Dialogue: "TEAM ROCKET will find the fossils, revive and sell them for cash!" Team: Rattata Lv 13, Zubat Lv 13. Reward: �¥390.
+- Super Nerd Miguel: Located at (12, 8) facing South [Defeated Turn 1081]. Dialogue: "Hey, stop! I found these fossils! They're both mine!" Defeat quote: "OK! I'll share!" Team: Grimer Lv 12, Voltorb Lv 12, Koffing Lv 12. Reward: �¥300 + Choice of Fossil (Helix Fossil claimed).
 
 ## Empirical Wild Encounters
 - Zubat (Lv 8-11, very common across all cavern sectors)
