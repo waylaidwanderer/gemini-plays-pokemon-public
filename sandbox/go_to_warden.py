@@ -74,6 +74,10 @@ def navigate_to_waypoint(target_x, target_y, blocked_edges):
 print("--- NAVIGATING TO WARDEN'S HOUSE ---")
 blocked_edges = set()
 
+# Block the Pokémon Center door so we don't walk into it
+blocked_edges.add(((19, 28), (19, 27)))
+blocked_edges.add(((19, 27), (19, 28)))
+
 # Target is the Warden's House door at (27, 27)
 navigate_to_waypoint(27, 27, blocked_edges)
 
