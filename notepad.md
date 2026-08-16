@@ -54,10 +54,10 @@
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
-## Inventory & Resources (Verified Turn 1893)
+## Inventory & Resources (Verified Turn 1902)
 - Money: ¥3941
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pokémon up to Lv 30 obey)
-- Key Items: Town Map, Helix Fossil, S.S. Ticket
+- Key Items: Town Map, Helix Fossil, S.S. Ticket, Bike Voucher
 - TMs / HMs: TM34 (Bide), TM28 (Dig)
 - Valuables:
   - 1x Nugget (Nugget Bridge completion prize - sellable for ¥5000)
@@ -103,6 +103,7 @@
 - [x] Help Bill run the Cell Separation System & receive S.S. Ticket [Turn 1751]
 - [x] Defeat Team Rocket Grunt in Cerulean backyard & recover TM28 (Dig) [Turn 1820]
 - [x] Travel south from Cerulean City to Vermilion City via Route 5 & Route 6 [Arrived Turn 1876]
+- [x] Obtain Bike Voucher from Pokémon Fan Club Chairman in Vermilion City [Turn 1902]
 - [ ] Board the S.S. Anne in Vermilion City
 - [ ] Defeat Gym Leader Lt. Surge in Vermilion Gym
 
@@ -616,8 +617,8 @@
 - Pokémon Center: Located at cols 10-13, rows 0-3 with entrance door at (11, 3) and "POKé" sign at (12, 3).
 - Pokémart: Located at cols 22-25, rows 10-13 with entrance door at (23, 13) and "MART" sign at (24, 13).
   - Catalog (Verified Turn 1893): Poké Ball (¥200), Super Potion (¥700), Ice Heal (¥250), Awakening (¥200), Parlyz Heal (¥200), Repel (¥350).
-- Pokémon Fan Club: Located at cols 8-11, rows 10-13 with entrance door at (9, 13) and signpost at (7, 13). [Entered Turn 1899]
-  - Interior: Meeting room with members, Clefairy, Pikachu, and Chairman.
+- Pokémon Fan Club: Located at cols 8-11, rows 10-13 with entrance door at (9, 13) and signpost at (7, 13).
+  - Chairman at (3, 1) talks about Rapidash and Fearow and rewards player with BIKE VOUCHER [Obtained Turn 1902].
 - Vermilion Gym: Located at cols 8-13, rows 16-19 with "GYM" sign at (10..11, 18) and Cut bush at (15, 18).
 - Vermilion Port / S.S. Anne: (To Explore)
 
