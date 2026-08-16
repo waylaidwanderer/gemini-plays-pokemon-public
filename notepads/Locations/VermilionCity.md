@@ -1,24 +1,26 @@
 # Vermilion City - Points of Interest & Notes
 
 ## Connections
-- North: Route 6 at (18..19, 0) [Entered Turn 1881]
-- East: Route 11 / Diglett's Cave
-- South: Vermilion Harbor / S.S. Anne Port
+- North: Route 6 at (18..20, 0)
+- East: Route 11 / Diglett's Cave at (34..35, 13)
+- South: Vermilion Harbor / S.S. Anne Port Pier at (30, 15..26)
 
 ## Layout & Landmarks
-- Northern entrance avenue at (19, 0).
-- Wide northern thoroughfare across row 4 connecting east and west districts.
+- Northern thoroughfare across rows 0-4 (cols 10-38).
+- Central Plaza Avenue: Open 4-tile wide vertical thoroughfare at cols 18-21 across rows 4-14 (between Trade House and Pok�mart).
+- Southern thoroughfare across rows 14-15 (cols 6-30).
 - City Signpost at (27, 3): "VERMILION CITY - The Port of Exquisite Sunsets".
-- Western thoroughfare across row 14 (cols 6-23).
 
 ## Buildings & Points of Interest
-- Pokémon Center: Located at cols 10-13, rows 0-3 with entrance door at (11, 3) and "POKé" sign at (12, 3).
-- Pokémart: Located at cols 22-25, rows 10-13 with entrance door at (23, 13) and "MART" sign at (24, 13).
-  - Catalog (Verified Turn 1893): Poké Ball (¥200), Super Potion (¥700), Ice Heal (¥250), Awakening (¥200), Parlyz Heal (¥200), Repel (¥350).
-- Pokémon Fan Club: Located at cols 8-11, rows 10-13 with entrance door at (9, 13) and signpost at (7, 13).
-  - Chairman at (3, 1) talks about Rapidash and Fearow and rewards player with BIKE VOUCHER [Obtained Turn 1902].
-- Vermilion Gym: Located at cols 8-13, rows 16-19 with "GYM" sign at (10..11, 18) and Cut bush at (15, 18).
+- Pok�mon Center: Located at cols 10-13, rows 0-3 with entrance door at (11, 3).
+- Pok�mart: Located at cols 22-25, rows 10-13 with entrance door at (23, 13).
+  - Catalog: Pok� Ball (�200), Super Potion (�700), Ice Heal (�250), Awakening (�200), Parlyz Heal (�200), Repel (�350).
+- Pok�mon Fan Club: Located at cols 8-11, rows 10-13 with entrance door at (9, 13).
+  - Chairman rewarded player with BIKE VOUCHER [Obtained Turn 1902].
+- Trade House: Located at cols 14-17, rows 10-13 with entrance door at (15, 13).
+- Vermilion Gym: Located at cols 8-13, rows 16-19 with Cut bush at (15, 18).
+- Diglett's Cave: Located at cols 34-35, rows 12-13.
 
-## Vermilion Port & S.S. Anne Entrance
-- Dock Entrance: Pier starts at (30, 15..26), turns west along rows 26-27 to column 18.
-- Ticket Gate Sailor: Located at (19, 30). Checks for S.S. TICKET to permit passage south onto the S.S. Anne pier.
+## Vermilion Port & S.S. Anne
+- Pier: Runs south from (30, 15..26), turns west along rows 26-27 to ticket gate at (19, 30) and dock at (18, 32).
+- S.S. Anne completed: Rival RED defeated, HM01 Cut obtained from Captain!
