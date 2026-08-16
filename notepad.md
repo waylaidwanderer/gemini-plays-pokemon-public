@@ -28,7 +28,7 @@
 1. HYDROS (Wartortle) - Lv 21
    - Stats (Verified at Lv 21): Max HP 62 (HP: 62/62, Healthy), Attack 37, Defense 42, Speed 38, Special 40
    - Type: Water
-   - Moves: Tackle (35/35), Tail Whip (30/30), Bubble (30/30), Water Gun (19/25)
+   - Moves: Tackle (35/35), Tail Whip (30/30), Bubble (30/30), Water Gun (18/25)
    - Role: Starter & primary Water special attacker (Active Lead)
 2. ECHO (Zubat) - Lv 8
    - Stats (Verified at Lv 8): Max HP 26 (HP: 26/26, Healthy)
