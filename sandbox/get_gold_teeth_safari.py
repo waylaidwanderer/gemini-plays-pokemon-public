@@ -58,44 +58,12 @@ def walk_to_waypoint(target_x, target_y):
         time.sleep(0.44)
 
 # ==========================================================
-# PHASE 0: Fuchsia City to Safari Gatehouse
+# PHASE 0: Fuchsia City to Safari Gatehouse (Bypass via Col 37)
 # ==========================================================
 print("PHASE 0: Navigating Fuchsia City to Safari Gatehouse...")
 
 fuchsia_waypoints = [
-    (8, 32),
-    (8, 30),   # Walk UP through ledge gap
-    (24, 30),
-    (26, 30),  # Through Column 25 fence gap
-    (26, 14)
-]
-
-for wx, wy in fuchsia_waypoints:
-    if not walk_to_waypoint(wx, wy):
-        print(f"Failed fuchsia waypoint: ({wx}, {wy})")
-        exit(1)
-
-# Cut the bush at (26, 13)
-print("Cutting bush at (26, 13)...")
-bridge.press_buttons(["Up"]) # Ensure we face UP towards (26, 13)
-time.sleep(0.5)
-bridge.press_buttons(["Start"])
-time.sleep(0.8)
-bridge.press_buttons(["Down", "A"]) # POKEMON menu
-time.sleep(1.0)
-bridge.press_buttons(["Down", "A"]) # Select TRUFFLE
-time.sleep(1.0)
-bridge.press_buttons(["A"]) # Choose CUT
-time.sleep(3.0) # Wait for animation
-bridge.press_buttons(["B", "B"]) # Exit any remaining menu safely
-time.sleep(1.0)
-
-# Continue path to Gatehouse
-fuchsia_gatehouse_waypoints = [
-    (26, 9),
-    (19, 9),
-    (19, 8),
-    (37, 8),
+    (37, 31),
     (37, 2),
     (22, 2),
     (22, 4),
@@ -103,9 +71,9 @@ fuchsia_gatehouse_waypoints = [
     (18, 3) # Emerge in Gatehouse
 ]
 
-for wx, wy in fuchsia_gatehouse_waypoints:
+for wx, wy in fuchsia_waypoints:
     if not walk_to_waypoint(wx, wy):
-        print(f"Failed gatehouse entry waypoint: ({wx}, {wy})")
+        print(f"Failed fuchsia waypoint: ({wx}, {wy})")
         exit(1)
 
 # Wait for map transition to Gatehouse
