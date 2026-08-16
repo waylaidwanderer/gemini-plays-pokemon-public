@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 2/8 (Boulder Badge, Cascade Badge)
-- Location: Cerulean City - Cerulean Gym (x=5, y=2)
+- Location: Cerulean City (x=30, y=20)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
