@@ -635,9 +635,9 @@
 ## Connections
 - North: Vermilion Port exit at (26, 0) / (27, 0)
 - West / East: Main deck corridors and cabin entrances
-- Stairs to 2F: (To Explore)
+- Stairs to 2F: Located at (2, 6)
 - Stairs to B1F: Located at (37, 15) at the southern end of the eastern corridor (cols 36-37)
-- Kitchen: (To Explore)
+- Kitchen: Entrance passage located at cols 2-3 (south from 2, 8)
 
 ## Layout & Landmarks
 - Entrance vestibule at cols 26-27, rows 0-5.
