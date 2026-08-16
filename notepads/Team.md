@@ -21,7 +21,7 @@
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
 ## Inventory & Resources (Verified Turn 859)
-- Money: ¥4364 (Updated with +¥330 from Rocket Grunt #2)
+- Money: ¥4844 (Updated with +¥480 from Rocket Grunt #3)
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Pokémon Attack)
 - Key Items: Town Map, Pokédex
 - TMs / HMs: TM34 (Bide)
