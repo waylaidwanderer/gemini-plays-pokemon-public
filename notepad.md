@@ -285,6 +285,6 @@
 - (Exploring pathway to B2F)
 
 ## Empirical Wild Encounters
-- Zubat [Encountered Turn 522 at (17, 9)]
+- Zubat Lv 9 [Encountered & Defeated Turn 523 at (17, 9)]
 
 <hr>
