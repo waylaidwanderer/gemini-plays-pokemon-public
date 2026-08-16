@@ -66,9 +66,10 @@ def walk_to_waypoint(target_x, target_y):
 # ==========================================================
 print("--- PHASE 4: STAIRS RETRIEVAL FROM (15, 24) ---")
 waypoints = [
-    (16, 24), # Step onto stairs at (16, 24)
-    (16, 26), # Walk down stairs onto Row 26
-    (19, 26)  # Walk right to (19, 26) below the teeth
+    (15, 23), # Walk UP to Row 23
+    (16, 23), # Walk RIGHT to Column 16 (above stairs)
+    (16, 26), # Walk DOWN to Row 26 (Highway, descending stairs)
+    (19, 26)  # Walk RIGHT to Column 19 (directly below the teeth!)
 ]
 
 for wp in waypoints:
