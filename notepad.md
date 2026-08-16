@@ -52,7 +52,7 @@
 - TMs / HMs: TM34 (Bide)
 - Consumables:
   - 1x Antidote (Status cure: Poison)
-  - 3x Potion (Restores 20 HP)
+  - 0x Potion (None remaining)
   - 0x Poké Ball (Exhausted in Mt. Moon)
 
 <hr>
