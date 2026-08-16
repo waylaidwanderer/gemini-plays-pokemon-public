@@ -52,7 +52,7 @@
 ## Inventory & Resources (Verified Turn 1711)
 - Money: ¥5503
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pokémon up to Lv 30 obey)
-- Key Items: Town Map, Pokédex, Helix Fossil
+- Key Items: Town Map, Pokédex, Helix Fossil, S.S. Ticket
 - TMs / HMs: TM34 (Bide), TM11 (Bubblebeam)
 - Valuables:
   - 1x Nugget (Nugget Bridge completion prize - sellable for ¥5000)
@@ -95,7 +95,9 @@
 - [x] Defeat Rival RED on Route 24 [Defeated Turn 1528]
 - [x] Complete Nugget Bridge challenge (Defeat 5 trainers + Rocket recruiter, obtain Nugget) [Turn 1592]
 - [x] Travel east across Route 25 to visit Bill at Sea Cottage [Arrived Turn 1737]
-- [ ] Help Bill run the Cell Separation System
+- [x] Help Bill run the Cell Separation System & receive S.S. Ticket [Turn 1751]
+- [ ] Travel south from Cerulean City to Vermilion City
+- [ ] Board the S.S. Anne in Vermilion City to find HM01 Cut
 
 
 <hr>
@@ -521,6 +523,10 @@
 - Spoke with Bill at (6, 5) on Turn 1739: "Hiya! I'm a POKéMON... No I'm not! Call me BILL! I'm a real POKéMANIAC!"
 - Interacted with PC terminal at (1, 4) on Turn 1748: "TELEPORTER's Cell Separator!" activated.
 - Cell Separation completed: Bill emerged in human form at (4, 4).
+- Spoke with human Bill at (4, 4) on Turn 1751:
+  "BILL: Yeehah! Thanks, bud! I owe you one! ... Oh here, maybe this'll do."
+  Received S.S. TICKET!
+  Bill suggests boarding the S.S. Anne in Vermilion City.
 
 
 <hr>
