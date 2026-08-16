@@ -3,8 +3,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon 1F (x=6, y=15)
-- Current Objective: Explore southwest sector of Mt. Moon 1F via (10, 18) for items before descending ladder (5, 5)
+- Location: Mt. Moon 1F (x=10, y=19)
+- Current Objective: Explore east along row 19 towards central corridor and unexplored ladder at (25, 15)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
