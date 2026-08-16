@@ -57,27 +57,14 @@ def walk_to_waypoint(target_x, target_y):
         bridge.press_buttons([btn])
         time.sleep(0.44)
 
-# We are currently at (17, 24) inside Area 1 (East)
-print("Resuming Golden Route from (17, 24) in Area 1 (East)...")
+# We are currently at (16, 3) inside Area 1 (East)
+print("Resuming Golden Route from (16, 3) in Area 1 (East)...")
 
 # ----------------------------------------------------
 # PHASE 2: Area 1 (East) to Area 2 (North)
 # ----------------------------------------------------
 print("Navigating Area 1 (East)...")
 waypoints_area1 = [
-    (20, 24),
-    (20, 22),
-    (20, 20), # Climbs plateau stairs
-    (12, 20),
-    (12, 22), # Descends plateau stairs
-    (8, 22),
-    (8, 8),
-    (12, 8),
-    (12, 6),  # Climbs northern stairs
-    (17, 6),
-    (17, 8),  # Descends northern stairs
-    (20, 8),
-    (20, 3),
     (7, 3),
     (7, 5),
     (1, 5)    # Stop adjacent to warp at (0, 5)
