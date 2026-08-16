@@ -59,3 +59,8 @@
 - Doorway exit at (23, 5).
 - Trainer: Sailor at (22, 3) [Defeated Turn 1993]. Team: Horsea Lv 17, Horsea Lv 17.
 - Item: TM08 (Body Slam) found on floor at (20, 3) [Obtained Turn 1998, Verified Turn 2011].
+
+
+### Rival RED Encounter (Upper Deck East Hallway at 36, 7)
+- Defeated Turn 2095. Team: Pidgeotto Lv 19, Raticate Lv 16, Kadabra Lv 18, Ivysaur Lv 20.
+- Post-battle dialogue: RED mentions the seasick Captain has CUT and departs with "Smell ya!".
