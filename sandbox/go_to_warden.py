@@ -2,91 +2,60 @@ import mgba
 import time
 from PIL import Image
 
-def get_path_bfs(start, target, blocked_edges):
-    queue = [[start]]
-    visited = {start}
-    
-    while queue:
-        path = queue.pop(0)
-        curr = path[-1]
-        if curr == target:
-            return path
-            
-        for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:
-            neighbor = (curr[0] + dx, curr[1] + dy)
-            # Fuchsia City boundaries are roughly 0 to 40
-            if 0 <= neighbor[0] <= 40 and 0 <= neighbor[1] <= 40:
-                if neighbor not in visited:
-                    edge = (curr, neighbor)
-                    if edge not in blocked_edges:
-                        visited.add(neighbor)
-                        queue.append(path + [neighbor])
-    return None
-
-def navigate_to_waypoint(target_x, target_y, blocked_edges):
+def walk_to_waypoint(target_x, target_y):
     print(f"Navigating to waypoint ({target_x}, {target_y})...")
+    stuck_count = 0
+    last_coords = None
     
     while True:
         curr = mgba.get_coordinates()
         if curr is None:
             time.sleep(0.5)
             continue
-                
-        cx, cy = curr['x'], curr['y']
-        if cx == target_x and cy == target_y:
+            
+        x, y = curr['x'], curr['y']
+        if x == target_x and y == target_y:
             print(f"Reached waypoint ({target_x}, {target_y})")
             return True
             
-        path = get_path_bfs((cx, cy), (target_x, target_y), blocked_edges)
-        if not path or len(path) < 2:
-            print(f"No path found to ({target_x}, {target_y})!")
-            return False
+        if (x, y) == last_coords:
+            stuck_count += 1
+            if stuck_count > 4:
+                print(f"Stuck at ({x}, {y})")
+                return False
+        else:
+            stuck_count = 0
+            last_coords = (x, y)
             
-        next_step = path[1]
-        dx = next_step[0] - cx
-        dy = next_step[1] - cy
-        
-        if dx == 1: btn = "Right"
-        elif dx == -1: btn = "Left"
-        elif dy == 1: btn = "Down"
+        if x < target_x: btn = "Right"
+        elif x > target_x: btn = "Left"
+        elif y < target_y: btn = "Down"
         else: btn = "Up"
         
-        print(f"At ({cx}, {cy}). Stepping {btn} to {next_step}...")
         mgba.press_buttons([btn])
         time.sleep(0.42)
-        
-        post = mgba.get_coordinates()
-        if post is None:
-            time.sleep(0.5)
-            continue
-                
-        px, py = post['x'], post['y']
-        if (px, py) == (cx, cy):
-            print(f"BUMPED! Edge {((cx, cy), next_step)} is blocked.")
-            blocked_edges.add(((cx, cy), next_step))
-            blocked_edges.add((next_step, (cx, cy)))
-        else:
-            if (px, py) != next_step:
-                if abs(px - cx) > 5 or abs(py - cy) > 5:
-                    print("Map transition detected!")
-                    return True
 
-print("--- NAVIGATING TO WARDEN'S HOUSE ---")
-blocked_edges = set()
+print("--- PHASE 1: WALKING TO WARDEN ---")
+# Stand at (2, 4) in front of the Warden at (2, 3)
+walk_to_waypoint(2, 4)
 
-# Block the Pokémon Center door so we don't walk into it
-blocked_edges.add(((19, 28), (19, 27)))
-blocked_edges.add(((19, 27), (19, 28)))
-
-# Target is the Warden's House door at (27, 27)
-navigate_to_waypoint(27, 27, blocked_edges)
-
-# Walk UP to enter the house
-print("Entering Warden's House...")
+# Face UP
+print("Facing UP to talk to Warden...")
 mgba.press_buttons(["Up"])
-time.sleep(1.5)
+time.sleep(0.5)
 
-curr = mgba.get_coordinates()
-print("Position inside Warden's House:", curr)
+print("Talking to Warden...")
+mgba.press_buttons(["A"])
+time.sleep(1.0)
+
+# Complete dialogue (press A 12 times to clear all pages and get HM04)
+print("Completing dialogue...")
+for i in range(12):
+    mgba.press_buttons(["A"])
+    time.sleep(1.2)
+
+# Take screenshot to verify we have the item
+final_pos = mgba.get_coordinates()
+print("Position after conversation:", final_pos)
 mgba.take_screenshot()
 
