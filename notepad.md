@@ -341,6 +341,7 @@
 # Mt. Moon B2F - Points of Interest & Notes
 
 ## Connections
+- Ladder at (21, 17): Connects to Mt. Moon B1F at (21, 17) [Discovered Turn 919]
 - Ladder at (25, 9): Connects to Mt. Moon B1F at (17, 11) [Discovered Turn 525]
 - Ladder at (15, 27): Connects to Mt. Moon B1F southern tunnel [Discovered Turn 852]
 
