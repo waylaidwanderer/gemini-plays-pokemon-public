@@ -1,23 +1,14 @@
 import mgba
 import time
 
-print("--- INSPECTING BAG FOR HM04 (STRENGTH) ---")
+print("--- INSPECTING ACTUAL BAG ---")
 
-# 1. Open START menu
-mgba.press_buttons(["Start"])
+# The cursor is currently pointing at POKEMON.
+# 1. Press Down to highlight ITEM
+mgba.press_buttons(["Down"])
 time.sleep(0.5)
 
-# 2. Force cursor to top (POKEDEX)
-for _ in range(7):
-    mgba.press_buttons(["Up"])
-    time.sleep(0.1)
-
-# 3. Go Down twice to highlight ITEM
-# POKEDEX -> POKEMON -> ITEM
-mgba.press_buttons(["Down", "sleep 200", "Down"])
-time.sleep(0.5)
-
-# 4. Select ITEM
+# 2. Select ITEM
 mgba.press_buttons(["A"])
 time.sleep(0.5)
 
@@ -46,4 +37,4 @@ print("Bag Page 3:", p3)
 # Exit menu
 mgba.press_buttons(["B", "sleep 200", "B"])
 time.sleep(0.5)
-print("Done inspecting bag!")
+print("Done!")
