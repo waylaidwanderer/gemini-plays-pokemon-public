@@ -13,6 +13,7 @@
 ## Buildings & Points of Interest
 - Pokémon Center: Located at cols 10-13, rows 0-3 with entrance door at (11, 3) and "POKé" sign at (12, 3).
 - Pokémart: Located at cols 22-25, rows 10-13 with entrance door at (23, 13) and "MART" sign at (24, 13).
+  - Catalog (Verified Turn 1893): Poké Ball (¥200), Super Potion (¥700), Ice Heal (¥250), Awakening (¥200), Parlyz Heal (¥200), Repel (¥350).
 - Pokémon Fan Club: West district (To Explore)
 - Fishing Guru's House: (To Explore)
 - Vermilion Gym: (To Explore)

@@ -54,14 +54,15 @@
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
-## Inventory & Resources (Verified Turn 1875)
-- Money: ¥6533
+## Inventory & Resources (Verified Turn 1893)
+- Money: ¥3941
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pokémon up to Lv 30 obey)
 - Key Items: Town Map, Helix Fossil, S.S. Ticket
 - TMs / HMs: TM34 (Bide), TM28 (Dig)
 - Valuables:
   - 1x Nugget (Nugget Bridge completion prize - sellable for ¥5000)
 - Consumables:
+  - 15x Poké Ball (Purchased at Vermilion Pokémart)
   - 1x Antidote (Status cure: Poison)
   - 1x Moon Stone (Evolution item found in Mt. Moon 1F)
   - 1x Rare Candy (Found at 35, 31 in Mt. Moon 1F)
@@ -613,6 +614,7 @@
 ## Buildings & Points of Interest
 - Pokémon Center: Located at cols 10-13, rows 0-3 with entrance door at (11, 3) and "POKé" sign at (12, 3).
 - Pokémart: Located at cols 22-25, rows 10-13 with entrance door at (23, 13) and "MART" sign at (24, 13).
+  - Catalog (Verified Turn 1893): Poké Ball (¥200), Super Potion (¥700), Ice Heal (¥250), Awakening (¥200), Parlyz Heal (¥200), Repel (¥350).
 - Pokémon Fan Club: West district (To Explore)
 - Fishing Guru's House: (To Explore)
 - Vermilion Gym: (To Explore)
