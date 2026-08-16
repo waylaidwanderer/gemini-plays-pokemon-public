@@ -18,7 +18,7 @@
 
 ## Verified NPCs & Dialogue
 - NPC (SPRITE_cdfc): Located near (8, 21) in western plaza and wandering (15, 18..21).
-- NPC: Located at (31, 20) near Cerulean Gym.
+- NPC: Located at (31, 20) near Cerulean Gym. Dialogue: "You're a trainer too? Collecting, fighting, it's a tough life."
 - Trader's Wife: Located at (5, 4) in Trade House (13, 15). Dialogue: "My husband likes trading POKEMON. If you are a collector, would you please trade with him?"
 - Trader (Husband): Located at (1, 2) in Trade House (13, 15).
 
@@ -26,4 +26,3 @@
 - Trainer #1 (Swimmer): Located at (6, 7) [Defeated Turn 1252]. Dialogue: "Splash! I'm first up! Let's do it!" Defeat quote: "That can't be!" Team: Horsea Lv 16, Shellder Lv 16. Reward: �80.
 - Trainer #2 (Jr. Trainer Female): Located at (2, 3) / (4, 3) [Defeated Turn 1263]. Dialogue: "I'm more than good enough for you! MISTY can wait!" Defeat quote: "You overwhelmed me!" Team: Goldeen Lv 19. Reward: �380.
 - Gym Leader Misty: Located at (4, 2) [Engaged Turn 1284]. Dialogue: "Hi, you're a new face! Trainers who want to turn pro have to have a policy about POKéMON! What is your approach when you catch POKéMON? My policy is an all-out offensive with water-type POKéMON!" Team: Staryu Lv 18 [Defeated Turn 1288], Starmie Lv 21.
-
