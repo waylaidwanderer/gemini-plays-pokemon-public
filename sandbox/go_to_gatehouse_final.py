@@ -1,67 +1,101 @@
 import mgba
 import time
 
-def walk_step(btn):
-    mgba.press_buttons([btn])
-    time.sleep(0.42)
-    pos = mgba.get_coordinates()
-    print(f"Step {btn}: currently at ({pos['x']}, {pos['y']})")
-    return pos
+def walk_to_waypoint(target_x, target_y):
+    print(f"Navigating to waypoint ({target_x}, {target_y})...")
+    stuck_count = 0
+    last_coords = None
+    
+    while True:
+        curr = mgba.get_coordinates()
+        if curr is None:
+            time.sleep(0.5)
+            continue
+            
+        x, y = curr['x'], curr['y']
+        if x == target_x and y == target_y:
+            print(f"Reached waypoint ({target_x}, {target_y})")
+            return True
+            
+        if (x, y) == last_coords:
+            stuck_count += 1
+            if stuck_count > 4:
+                print(f"Stuck at ({x}, {y}) trying to reach ({target_x}, {target_y})")
+                return False
+        else:
+            stuck_count = 0
+            last_coords = (x, y)
+            
+        if x < target_x: btn = "Right"
+        elif x > target_x: btn = "Left"
+        elif y < target_y: btn = "Down"
+        else: btn = "Up"
+        
+        mgba.press_buttons([btn])
+        time.sleep(0.42)
 
-# 1. Clear the CUT dialogue box by pressing A
-print("Clearing CUT dialogue...")
-mgba.press_buttons(["A"])
-time.sleep(1.0)
+def cut_bush_at_26_13():
+    print("Cutting bush at (26, 13)...")
+    # Face DOWN
+    mgba.press_buttons(["Down"])
+    time.sleep(0.5)
+    
+    # Open Start menu
+    mgba.press_buttons(["Start"])
+    time.sleep(1.0)
+    
+    # Select POKEMON (second option: Down, then A)
+    mgba.press_buttons(["Down", "A"])
+    time.sleep(1.0)
+    
+    # Select TRUFFLE in Slot 2 (Down, then A)
+    mgba.press_buttons(["Down", "A"])
+    time.sleep(1.0)
+    
+    # Select Option 2 (CUT is Option 2: Down, then A)
+    mgba.press_buttons(["Down", "A"])
+    time.sleep(3.0) # Wait for CUT animation and text
+    
+    # Dismiss any leftover text by pressing B
+    for _ in range(4):
+        mgba.press_buttons(["B"])
+        time.sleep(0.5)
+    print("CUT execution complete.")
 
-# Verify we are at (26, 14)
+print("--- CHUNK A: EXIT PC AND WALK TO BUSH ---")
+
+# Step 1: Exit Pokémon Center from (13, 4)
+walk_to_waypoint(3, 4)
+walk_to_waypoint(3, 7)
+
+# Step Down to exit
+print("Stepping DOWN to exit Pokémon Center...")
+mgba.press_buttons(["Down"])
+time.sleep(1.5)
+
 curr = mgba.get_coordinates()
-print("Starting overworld movement from:", curr)
+print("Position outside PC:", curr)
 
-# 2. Walk UP 5 steps to (26, 9)
-print("Walking UP to (26, 9)...")
-for _ in range(5):
-    curr = walk_step("Up")
-
-# 3. Walk Left to (19, 9)
-print("Walking Left to (19, 9)...")
-while curr['x'] > 19:
-    curr = walk_step("Left")
-
-# 4. Walk UP to (19, 8)
-print("Walking UP to (19, 8)...")
-curr = walk_step("Up")
-
-# 5. Walk Right to (37, 8)
-print("Walking Right to (37, 8)...")
-while curr['x'] < 37:
-    curr = walk_step("Right")
-
-# 6. Walk UP to (37, 2)
-print("Walking UP to (37, 2)...")
-while curr['y'] > 2:
-    curr = walk_step("Up")
-
-# 7. Walk Left to (22, 2)
-print("Walking Left to (22, 2)...")
-while curr['x'] > 22:
-    curr = walk_step("Left")
-
-# 8. Walk DOWN to (22, 4)
-print("Walking DOWN to (22, 4)...")
-while curr['y'] < 4:
-    curr = walk_step("Down")
-
-# 9. Walk Left to (18, 4)
-print("Walking Left to (18, 4)...")
-while curr['x'] > 18:
-    curr = walk_step("Left")
-
-# 10. Walk UP to enter Gatehouse at (18, 3)
-print("Entering Gatehouse...")
-mgba.press_buttons(["Up"])
-time.sleep(2.0)
-
-pos_gatehouse = mgba.get_coordinates()
-print("Inside Gatehouse position:", pos_gatehouse)
-screenshot_path = mgba.take_screenshot()
-print(f"Inside screenshot: {screenshot_path}")
+if curr and curr['x'] == 19 and curr['y'] == 28:
+    print("SUCCESS! Outside Pokémon Center.")
+    
+    # Step 2: Walk to (26, 12)
+    waypoints = [
+        (24, 28),
+        (24, 21),
+        (22, 21),
+        (22, 14),
+        (26, 14),
+        (26, 12)
+    ]
+    for wp in waypoints:
+        walk_to_waypoint(wp[0], wp[1])
+        
+    # Cut the bush
+    cut_bush_at_26_13()
+    
+    final_pos = mgba.get_coordinates()
+    print("Final position of Chunk A:", final_pos)
+    mgba.take_screenshot()
+else:
+    print("Failed to exit Pokémon Center. Verify current position.")
