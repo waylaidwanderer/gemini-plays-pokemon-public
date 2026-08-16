@@ -3,8 +3,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon 1F (x=29, y=25)
-- Current Objective: Interact with NPC at (30, 27) and explore southern passage to south entrance corridor
+- Location: Mt. Moon 1F (x=30, y=26)
+- Current Objective: Walk south along col 31 to row 34 southern corridor towards southwest chamber item at (2, 20)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
