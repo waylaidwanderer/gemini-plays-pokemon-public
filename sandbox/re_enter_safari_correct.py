@@ -99,31 +99,32 @@ def navigate_to_waypoint(target_x, target_y, blocked_edges):
                     print("Map transition detected!")
                     return True
 
-print("--- EXITING WARDEN'S HOUSE ---")
-# Currently at (2, 4) inside Warden's House
-# We need to walk down to exit
+print("--- EXITING POKÉ MART ---")
 blocked_edges = set()
-navigate_to_waypoint(2, 7, blocked_edges)
-navigate_to_waypoint(4, 7, blocked_edges)
+# Walk to exit at (31, 25)
+navigate_to_waypoint(31, 24, blocked_edges)
 
-print("Stepping DOWN to exit house...")
+print("Stepping DOWN to exit Mart...")
 for _ in range(2):
     mgba.press_buttons(["Down"])
     time.sleep(0.5)
 time.sleep(1.5)
 
 curr = mgba.get_coordinates()
-print("Coordinates outside Warden's House:", curr)
+print("Coordinates outside Poké Mart:", curr)
 
 # Reset blocked edges for Fuchsia City
 blocked_edges = set()
 # Block Pokémon Center door
 blocked_edges.add(((19, 28), (19, 27)))
 blocked_edges.add(((19, 27), (19, 28)))
+# Block Poké Mart door
+blocked_edges.add(((31, 27), (31, 26)))
+blocked_edges.add(((31, 26), (31, 27)))
 
-# Navigate to Gatehouse at (18, 3) via the Eastern Bypass
+# Navigate to Gatehouse via Eastern Bypass (starting outside Poké Mart)
 fuchsia_waypoints = [
-    (37, 28), # Right along Row 28 to Column 37 (to enter the Eastern Bypass)
+    (37, 27), # Right along Row 27 to Column 37 (to enter the Eastern Bypass)
     (37, 2),  # Up Column 37 to the far north (Row 2)
     (22, 2),  # Left along Row 2 to Column 22
     (22, 4),  # Down Column 22 to Row 4
