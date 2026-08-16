@@ -6,8 +6,9 @@ def escape_battle():
     for _ in range(6):
         mgba.press_buttons(["B"])
         time.sleep(0.1)
+    # Highlight RUN (Down, Right) and select
     mgba.press_buttons(["Down", "Right", "A"])
-    time.sleep(1.2)
+    time.sleep(1.5)
     for _ in range(6):
         mgba.press_buttons(["B"])
         time.sleep(0.1)
@@ -32,14 +33,14 @@ def walk_to_waypoint(target_x, target_y):
             
         if (x, y) == last_coords:
             stuck_count += 1
-            if stuck_count > 3:
+            if stuck_count > 4:
                 print(f"Stuck at ({x}, {y}) trying to reach ({target_x}, {target_y})")
                 escape_battle()
-                time.sleep(0.5)
                 stuck_count = 0
-                after = mgba.get_coordinates()
-                if after['x'] == x and after['y'] == y:
-                    print("Coordinates unchanged. Pressing A/B...")
+                time.sleep(0.5)
+                after_coords = mgba.get_coordinates()
+                if after_coords['x'] == x and after_coords['y'] == y:
+                    print("Coordinates still unchanged. Clearing text boxes...")
                     mgba.press_buttons(["A", "B", "A", "B"])
                     time.sleep(0.5)
         else:
@@ -59,58 +60,68 @@ def walk_to_waypoint(target_x, target_y):
         mgba.press_buttons([btn])
         time.sleep(0.42)
 
-# Start at (26, 1) inside Area 3 (West)
-print("--- PHASE 4: Area 3 (West) Navigation to Gold Teeth ---")
+# ==========================================================
+# We start at (9, 5) inside Safari Zone Area 2 (North)
+# ==========================================================
+print("--- STARTING JOURNEY FROM AREA 2 (NORTH) (9, 5) ---")
 
-# Walk to (25, 2)
-walk_to_waypoint(25, 2)
+area2_waypoints = [
+    (9, 9),    # Walk DOWN to Row 9
+    (31, 9),   # Walk RIGHT along Row 9 to Column 31 (bypassing barriers)
+    (31, 13),  # Walk DOWN to Row 13 in front of East Stairs
+    (33, 13),  # Walk RIGHT climbing East Stairs onto plateau
+    (37, 14),  # Walk onto the Eastern Land Bridge
+    (37, 26),  # Walk DOWN the Eastern Land Bridge to Row 26
+    (28, 26),  # Walk LEFT to the Southern Plateau exit
+    (28, 28),  # Walk DOWN descending Southern Plateau stairs
+    (22, 31),  # Walk to Southern Corridor start
+    (22, 22),  # Climb Western Southern Plateau stairs
+    (16, 22),  # Walk LEFT on plateau
+    (16, 28),  # Descend stairs
+    (12, 28),
+    (12, 30),  # Bypass pond
+    (8, 30),
+    (8, 35)    # Adjacent to warp
+]
 
-# Walk DOWN Column 25 to Row 18
-walk_to_waypoint(25, 18)
+for wp in area2_waypoints:
+    walk_to_waypoint(wp[0], wp[1])
 
-# Walk Left to Column 21
-walk_to_waypoint(21, 18)
+print("Walking DOWN to transition to Area 3 (West)...")
+mgba.press_buttons(["Down"])
+time.sleep(0.5)
+mgba.press_buttons(["Down"])
+time.sleep(1.0)
 
-# Now, we want to try walking DOWN Column 21 to Row 26.
-# If Column 21 is blocked, we will walk Left to Column 19 and walk DOWN Column 19.
-curr_pos = mgba.get_coordinates()
-cx, cy = curr_pos['x'], curr_pos['y']
+# ==========================================================
+# PHASE 4: Area 3 (West) -> Retrieve Gold Teeth (Corrected Route!)
+# ==========================================================
+print("--- PHASE 4: Area 3 to Gold Teeth (Corrected Route!) ---")
+area3_waypoints = [
+    (26, 2),
+    (25, 2),
+    (25, 18),
+    (21, 18),
+    (21, 16), # Climb East Stairs onto plateau
+    (6, 16),  # Walk LEFT across plateau
+    (6, 20),  # Descend West Stairs to ground level
+    (6, 26),  # Walk DOWN Column 6 to the Row 26 Highway
+    (19, 26)  # Walk RIGHT along Row 26 directly below Gold Teeth
+]
+for wp in area3_waypoints:
+    walk_to_waypoint(wp[0], wp[1])
 
-print("Attempting to walk DOWN Column 21...")
-blocked = False
-while cy < 26:
-    mgba.press_buttons(["Down"])
-    time.sleep(0.42)
-    new_pos = mgba.get_coordinates()
-    nx, ny = new_pos['x'], new_pos['y']
-    if ny == cy:
-        # Check if battle or blocked
-        escape_battle()
-        time.sleep(0.5)
-        after_pos = mgba.get_coordinates()
-        if after_pos['y'] == cy:
-            print("Column 21 is BLOCKED vertically! Trying Column 19...")
-            blocked = True
-            break
-    cx, cy = nx, ny
-
-if blocked:
-    # Walk Left to Column 19 on Row 18
-    walk_to_waypoint(19, 18)
-    
-    # Walk DOWN Column 19 to Row 26
-    walk_to_waypoint(19, 26)
-else:
-    # Walk Left from (21, 26) to (19, 26)
-    walk_to_waypoint(19, 26)
-
-# We are at (19, 26). Stand facing UP (North)
+# Stand at (19, 26) facing UP
 print("Facing UP...")
 mgba.press_buttons(["Up"])
 time.sleep(0.5)
 
-# Press A to pick up the Gold Teeth!
-print("Pressing A to pick up the Gold Teeth!")
+# Take screenshot to verify item ball is present
+screenshot_path = mgba.take_screenshot()
+print(f"Standing below teeth screenshot: {screenshot_path}")
+
+# Press A to pick up the Gold Teeth
+print("Pressing A to pick up the Gold Teeth...")
 mgba.press_buttons(["A"])
 time.sleep(1.5)
 
@@ -121,7 +132,7 @@ time.sleep(1.0)
 mgba.press_buttons(["A"])
 time.sleep(1.0)
 
-final_coords = mgba.get_coordinates()
-print("Position after picking up teeth:", final_coords)
-screenshot_path = mgba.take_screenshot()
-print(f"Screenshot: {screenshot_path}")
+final_pos = mgba.get_coordinates()
+print("Position after retrieval attempt:", final_pos)
+screenshot_path2 = mgba.take_screenshot()
+print(f"Final screenshot: {screenshot_path2}")
