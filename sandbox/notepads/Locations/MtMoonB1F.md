@@ -10,3 +10,6 @@
 
 ## Items & Discoveries
 - (Exploring pathway to B2F)
+
+## Empirical Wild Encounters
+- Zubat [Encountered Turn 522 at (17, 9)]
