@@ -1,43 +1,32 @@
 import mgba
 import time
 
-print("--- EXITING WARDEN'S HOUSE VIA ROW 16 ---")
-
-# We are at (9, 12).
-# Let's walk Down to (9, 16).
-# Then Left to (6, 16).
-# Then Up to (6, 15) to exit!
+print("--- EXITING GATEHOUSE AND GOING TO FUCHSIA CITY ---")
 
 def get_pos():
     return mgba.get_coordinates()
 
-path_moves = [
-    ("Down", 4), # Down 4 steps to (9, 16)
-    ("Left", 3), # Left 3 steps to (6, 16)
-    ("Up", 1),   # Up 1 step to (6, 15) (warp)
-]
+# Current position is (4, 0) with "Did you get a / good haul?" on screen.
+# 1. Clear clerk's dialogue
+print("Clearing clerk's dialogue...")
+mgba.press_buttons(["A"])
+time.sleep(1.0)
+mgba.press_buttons(["A"])
+time.sleep(1.0)
+mgba.press_buttons(["A"])
+time.sleep(1.0)
 
-for move, steps in path_moves:
-    for s in range(steps):
-        pos = get_pos()
-        print(f"Current Position: {pos}. Pressing {move}...")
-        
-        # Press twice to handle turn if needed, or sleep to let it step
-        mgba.press_buttons([move])
-        time.sleep(0.4)
-        mgba.press_buttons([move])
-        time.sleep(0.4)
-        
-        new_pos = get_pos()
-        print(f"New Position after {move}: {new_pos}")
-        
-        # Check if we successfully warped out (Fuchsia City coordinate space)
-        if new_pos and new_pos['x'] > 12:
-            print("Successfully warped out to Fuchsia City!")
-            break
-    else:
-        continue
-    break
+# 2. Walk to the exit at (3, 5):
+# - Walk Down 3 steps to (4, 3)
+# - Walk Left 1 step to (3, 3)
+# - Walk Down 2 steps to (3, 5) (warp)
+print("Walking to exit...")
+mgba.press_buttons(["Down", "sleep 350", "Down", "sleep 350", "Down"])
+time.sleep(1.0)
+mgba.press_buttons(["Left"])
+time.sleep(1.0)
+mgba.press_buttons(["Down", "sleep 350", "Down"])
+time.sleep(2.0) # wait for transition
 
+print("Position after transition:", get_pos())
 mgba.take_screenshot()
-print("Final Position:", get_pos())
