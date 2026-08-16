@@ -57,19 +57,10 @@ def walk_to_waypoint(target_x, target_y):
         bridge.press_buttons([btn])
         time.sleep(0.44)
 
-# Starting at (5, 5) inside the Safari Zone Gatehouse
-print("Walking to Clerk at (2, 4)...")
-walk_to_waypoint(2, 5)
-walk_to_waypoint(2, 4)
+# We are currently at (3, 4) in the Gatehouse, with "Hi! Is it your first time here?" (YES/NO) open
+print("Handling Safari Zone Clerk Dialogue from Turn 41056...")
 
-# Talk to clerk and pay 500
-print("Talking to clerk...")
-bridge.press_buttons(["Left"])
-time.sleep(0.5)
-bridge.press_buttons(["A"])
-time.sleep(1.0)
-
-# "Is it your first time here?" (YES/NO, default YES)
+# 1. "Is it your first time here?" (YES/NO, default YES) -> press A
 bridge.press_buttons(["A"])
 time.sleep(1.0)
 
@@ -78,7 +69,7 @@ for _ in range(8):
     bridge.press_buttons(["A"])
     time.sleep(0.8)
     
-# "Would you like to join?" (YES/NO, default YES)
+# "Would you like to join?" (YES/NO, default YES) -> press A
 bridge.press_buttons(["A"])
 time.sleep(1.0)
 
