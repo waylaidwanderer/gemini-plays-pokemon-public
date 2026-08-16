@@ -5,6 +5,7 @@ from PIL import Image
 def get_textbox_ratio():
     screenshot_path = mgba.take_screenshot()
     img = Image.open(screenshot_path)
+    gray = img.convert("L")
     
     white_pixels = 0
     total_pixels = 0
@@ -146,27 +147,27 @@ def navigate_to_waypoint(target_x, target_y, blocked_edges):
 blocked_edges = set()
 
 # ==========================================
-# PHASE 2: Area 1 (East) -> Area 2 (North)
+# PHASE 2: Area 1 (East) -> Area 2 (North) (Resuming from (0, 21))
 # ==========================================
 curr = mgba.get_coordinates()
 print("Starting coordinates in Area 1 (East):", curr)
 
 area1_waypoints = [
-    (20, 24),
-    (20, 20),
-    (12, 20),
-    (12, 22),
-    (8, 22),
-    (8, 8),
-    (12, 8),
-    (12, 6),
-    (17, 6),
-    (17, 8),
-    (20, 8),
-    (20, 3),
-    (7, 3),
-    (7, 5),
-    (0, 5)
+    (20, 21), # Walk East along Row 21 to Column 20 (Open corridor)
+    (20, 20), # Climb southern plateau stairs
+    (12, 20), # Walk Left across plateau
+    (12, 22), # Descend stairs to ground
+    (8, 22),  # Walk Left
+    (8, 8),   # Walk Up Column 8
+    (12, 8),  # Walk Right
+    (12, 6),  # Climb northern plateau stairs
+    (17, 6),  # Walk Right across plateau
+    (17, 8),  # Descend stairs to ground
+    (20, 8),  # Walk Right
+    (20, 3),  # Walk Up Column 20
+    (7, 3),   # Walk Left along Row 3
+    (7, 5),   # Walk Down
+    (0, 5)    # Walk Left to transition
 ]
 
 print("--- PHASE 2: Navigating Area 1 (East) ---")
