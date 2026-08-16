@@ -21,4 +21,4 @@
 - Can (3, 7): Unchecked
 - Can (5, 7): Unchecked
 - Can (7, 7): Unchecked
-- Can (9, 7): Unchecked
+- Can (9, 7): Trash only (Checked Turn 2218)
