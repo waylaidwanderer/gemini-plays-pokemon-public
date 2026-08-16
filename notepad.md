@@ -778,7 +778,8 @@
   - Can (9, 7): Empty
   - Can (7, 7): Empty
   - Can (5, 7): Empty
-  - Next: Can (3, 7)
+  - Can (3, 7): Empty
+  - Next: Can (1, 7)
 
 ## Protocol When Switch 1 is Found
 1. Note exact can coordinate (x, y).
