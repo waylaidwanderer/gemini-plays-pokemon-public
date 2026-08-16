@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 2/8 (Boulder Badge, Cascade Badge)
-- Location: Route 25 (x=45, y=4)
+- Location: Route 25 (x=19, y=8)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -97,7 +97,7 @@
 - [x] Travel east across Route 25 to visit Bill at Sea Cottage [Arrived Turn 1737]
 - [x] Help Bill run the Cell Separation System & receive S.S. Ticket [Turn 1751]
 - [ ] Travel south from Cerulean City to Vermilion City
-- [ ] Board the S.S. Anne in Vermilion City to find HM01 Cut
+- [ ] Board the S.S. Anne in Vermilion City
 
 
 <hr>
@@ -527,7 +527,7 @@
   "BILL: Yeehah! Thanks, bud! I owe you one! ... Oh here, maybe this'll do."
   Received S.S. TICKET!
   Bill suggests boarding the S.S. Anne in Vermilion City.
-- Interacted with Bill's PC on Turn 1762: Viewed Pokédex entries for Eevee, Flareon, Jolteon, and Vaporeon (registered as "Seen" in Pokédex).
+- Interacted with Bill's PC on Turn 1762: Viewed displays for Eevee, Flareon, Jolteon, and Vaporeon on the PC monitor.
 
 
 <hr>
