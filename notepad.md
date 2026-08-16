@@ -249,7 +249,7 @@
 - North-south passage connecting central and northern halls at columns 30-31 (rows 6-10)
 - Eastern chamber floor extends across rows 10-14 (cols 20-33+)
 - Rock obstacle at (32..33, 12..14)
-- Vertical rock wall at columns 12-13 (rows 2-15) dividing north-central corridor (cols 14-17) from western corridor (cols 10-11)
+- Vertical rock wall at columns 12-13 (rows 2-15) dividing north-central corridor (cols 14-17) from western corridor (cols 10-11). Note: in central corridor, cols 14-16 provide clear continuous north-south passage (rows 4-19); col 17 terminates at ladder (17, 11).
 - Cross passage connecting central hall to western corridor at row 17 (cols 11-14)
 - Western corridor runs along columns 10-11 heading north to northwest sector
 - Northwest chamber: cols 2-10, rows 2-10. Ladder to B1F at (5, 5). Item Ball at (2, 2) [Moon Stone collected Turn 592], Hiker #4 at (5, 6) [Defeated Turn 610]. North wall at row 1, East wall at col 11+, West wall at col 1.
