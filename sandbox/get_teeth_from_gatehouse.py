@@ -1,15 +1,18 @@
-import bridge
+import mgba
 import time
 
 def escape_battle():
     print("Encountered a battle! Attempting to escape...")
-    for _ in range(5):
-        bridge.press_buttons(["B"])
+    # Clear any battle start text
+    for _ in range(6):
+        mgba.press_buttons(["B"])
         time.sleep(0.1)
-    bridge.press_buttons(["Down", "Right", "A"])
-    time.sleep(1.2)
-    for _ in range(5):
-        bridge.press_buttons(["B"])
+    # Highlight RUN (Down, Right) and select
+    mgba.press_buttons(["Down", "Right", "A"])
+    time.sleep(1.5)
+    # Clear "ACE ran away" text
+    for _ in range(6):
+        mgba.press_buttons(["B"])
         time.sleep(0.1)
     print("Escape sequence complete.")
 
@@ -19,32 +22,32 @@ def walk_to_waypoint(target_x, target_y):
     last_coords = None
     
     while True:
-        curr = bridge.get_coordinates()
+        curr = mgba.get_coordinates()
         if curr is None:
             print("Coordinates are None. Waiting...")
             time.sleep(0.5)
             continue
             
-        x, y = curr
+        x, y = curr['x'], curr['y']
         if x == target_x and y == target_y:
             print(f"Reached waypoint ({target_x}, {target_y})")
             return True
             
-        if curr == last_coords:
+        if (x, y) == last_coords:
             stuck_count += 1
             if stuck_count > 4:
-                print(f"Stuck at {curr} trying to reach ({target_x}, {target_y}). Attempting escape...")
+                print(f"Stuck at ({x}, {y}) trying to reach ({target_x}, {target_y})")
                 escape_battle()
                 stuck_count = 0
                 time.sleep(0.5)
-                after_coords = bridge.get_coordinates()
-                if after_coords == curr:
-                    print("Coordinates still unchanged. Retrying movement with A/B mash...")
-                    bridge.press_buttons(["A", "B", "A", "B"])
+                after_coords = mgba.get_coordinates()
+                if after_coords['x'] == x and after_coords['y'] == y:
+                    print("Coordinates still unchanged. Clearing text boxes...")
+                    mgba.press_buttons(["A", "B", "A", "B"])
                     time.sleep(0.5)
         else:
             stuck_count = 0
-            last_coords = curr
+            last_coords = (x, y)
             
         # Choose direction to move
         if x < target_x:
@@ -56,138 +59,167 @@ def walk_to_waypoint(target_x, target_y):
         elif y > target_y:
             btn = "Up"
             
-        bridge.press_buttons([btn])
-        time.sleep(0.44)
+        mgba.press_buttons([btn])
+        time.sleep(0.42)
 
-# We are currently at (4, 2) in the Gatehouse, with "For just P500, you can catch all" open
-print("Entering Safari Zone Entry Dialogue...")
+print("--- PAYING AND ENTERING SAFARI ZONE ---")
+# Currently at (4, 3) in Gatehouse.
+# Walk to (3, 4)
+walk_to_waypoint(3, 4)
 
-# Let's advance dialogue
-# 1. "For just P500, you can catch all" -> press A
-bridge.press_buttons(["A"])
+# Face LEFT
+print("Facing LEFT to speak to clerk...")
+mgba.press_buttons(["Left"])
+time.sleep(0.5)
+
+# Talk to clerk to pay and enter
+print("Speaking to clerk...")
+mgba.press_buttons(["A"])
+time.sleep(1.0)
+# "Would you like to join the hunt?"
+mgba.press_buttons(["A"])
+time.sleep(1.0)
+# Select YES (default)
+mgba.press_buttons(["A"])
+time.sleep(1.0)
+# "That'll be 500. We only use special Pokeballs."
+mgba.press_buttons(["A"])
+time.sleep(1.0)
+# "ACE received 30 SAFARI BALLS!"
+mgba.press_buttons(["A"])
+time.sleep(1.0)
+# "We'll call you when you run out of time or SAFARI BALLS!"
+mgba.press_buttons(["A"])
+time.sleep(1.0)
+# "Good luck!"
+mgba.press_buttons(["A"])
 time.sleep(1.0)
 
-# 2. "the POKéMON you want in the wild!" -> press A
-bridge.press_buttons(["A"])
-time.sleep(1.0)
+# Walk into the warp door at (3, 0) or (4, 0)
+print("Entering Safari Zone Center...")
+walk_to_waypoint(3, 1)
+mgba.press_buttons(["Up"])
+time.sleep(1.5)
 
-# 3. "Would you like to join?" YES/NO menu -> press A to select YES
-bridge.press_buttons(["A"])
-time.sleep(1.0)
+curr_pos = mgba.get_coordinates()
+print("Position inside Safari Zone Center:", curr_pos)
 
-# 4. "That'll be P500 thanks!" -> press A
-bridge.press_buttons(["A"])
-time.sleep(1.0)
-
-# 5. "We only use special Poké Balls here." -> press A
-bridge.press_buttons(["A"])
-time.sleep(1.0)
-
-# 6. "ACE received 30 SAFARI BALLs!" -> press A
-bridge.press_buttons(["A"])
-time.sleep(1.0)
-
-# 7. "We'll call you when you run out of time..." -> press A
-bridge.press_buttons(["A"])
-time.sleep(1.0)
-
-# 8. "Best of luck!" -> press A to transition to warp
-bridge.press_buttons(["A"])
-time.sleep(1.0)
-
-# Wait for warp to complete and we are at (15, 25) in Safari Center
-print("Waiting for warp to Safari Zone Center (15, 25)...")
-start_time = time.time()
-while True:
-    curr = bridge.get_coordinates()
-    if curr is not None:
-        if curr[0] == 15 and curr[1] == 25:
-            print("Successfully entered Safari Zone Center! Current position:", curr)
-            break
-    if time.time() - start_time > 10:
-        print("Timeout waiting for warp. Forcing A press...")
-        start_time = time.time()
-    bridge.press_buttons(["A"])
-    time.sleep(0.8)
-
-# ----------------------------------------------------
-# PHASE 1: Safari Zone Center directly to Area 2 (North)
-# ----------------------------------------------------
-print("PHASE 1: Navigating Safari Zone Center...")
-waypoints_center = [
+# ==========================================================
+# PHASE 1: Safari Zone Center -> Area 1 (East)
+# ==========================================================
+print("--- PHASE 1: Center to Area 1 (East) ---")
+center_waypoints = [
     (15, 22),
     (28, 22),
-    (28, 8),
-    (15, 8),
-    (15, 0) # transitions to Area 2 (North)
+    (28, 10),
+    (30, 10) # Walk RIGHT to transition to Area 1 (East)
 ]
+for wp in center_waypoints:
+    walk_to_waypoint(wp[0], wp[1])
+time.sleep(1.0)
 
-success = True
-for wx, wy in waypoints_center:
-    if not walk_to_waypoint(wx, wy):
-        success = False
-        break
+# ==========================================================
+# PHASE 2: Area 1 (East) -> Area 2 (North)
+# ==========================================================
+print("--- PHASE 2: Area 1 to Area 2 (North) ---")
+area1_waypoints = [
+    (0, 24),
+    (20, 24),
+    (20, 22),
+    (20, 20), # Climb plateau stairs
+    (12, 20), # Walk LEFT on plateau
+    (12, 22), # Descend stairs
+    (8, 22),
+    (8, 8),
+    (12, 8),
+    (12, 6),  # Climb northern plateau stairs
+    (17, 6),  # Walk RIGHT on plateau
+    (17, 8),  # Descend plateau stairs
+    (20, 8),
+    (20, 3),
+    (7, 3),
+    (7, 5),
+    (0, 5)    # Walk LEFT to transition to Area 2 (North)
+]
+for wp in area1_waypoints:
+    walk_to_waypoint(wp[0], wp[1])
+time.sleep(1.0)
 
-if success:
-    # We should have warped to Area 2 (North) southern corridor around (21, 35) or (20, 35)
-    print("Entered Area 2 (North)! Position:", bridge.get_coordinates())
-    
-    # ----------------------------------------------------
-    # PHASE 2: Area 2 (North) to Area 3 (West)
-    # ----------------------------------------------------
-    print("PHASE 2: Navigating Area 2 (North)...")
-    waypoints_area2 = [
-        (8, 35),
-        (8, 36) # transitions to Area 3 (West)
-    ]
-    
-    for wx, wy in waypoints_area2:
-        if not walk_to_waypoint(wx, wy):
-            success = False
-            break
+# ==========================================================
+# PHASE 3: Area 2 (North) -> Area 3 (West) (Corrected Northwest Route!)
+# ==========================================================
+print("--- PHASE 3: Area 2 to Area 3 (West) ---")
+area2_waypoints = [
+    (9, 3),    # Walk UP Column 9 to Row 3
+    (20, 3),   # Walk RIGHT along Row 3 to Column 20
+    (20, 11),  # Walk DOWN Column 20 to Row 11
+    (25, 11),  # Walk RIGHT to Column 25
+    (25, 17),  # Walk DOWN to Row 17
+    (31, 17),  # Walk RIGHT to Column 31
+    (31, 13),  # Walk UP to Row 13
+    (32, 13),  # Climb East Stairs onto Northern Plateau
+    (37, 13),  # Walk RIGHT on plateau
+    (37, 26),  # Walk DOWN Eastern Land Bridge to Row 26
+    (28, 26),  # Walk LEFT on plateau
+    (28, 28),  # Descend Southern Plateau stairs to ground
+    (22, 31),  # Walk LEFT along southern corridor
+    (22, 22),  # Climb Western Southern Plateau stairs
+    (16, 22),  # Walk LEFT on plateau
+    (16, 28),  # Descend stairs to grass
+    (12, 28),
+    (12, 30),  # Bypass pond
+    (8, 30),
+    (8, 35)    # Adjacent to warp
+]
+for wp in area2_waypoints:
+    walk_to_waypoint(wp[0], wp[1])
 
-if success:
-    # We should have warped to Area 3 (West) at (26, 0)
-    print("Entered Area 3 (West)! Position:", bridge.get_coordinates())
-    
-    # ----------------------------------------------------
-    # PHASE 3: Area 3 (West) to Gold Teeth at (19, 24)
-    # ----------------------------------------------------
-    print("PHASE 3: Navigating Area 3 (West)...")
-    waypoints_area3 = [
-        (26, 2),
-        (25, 2),
-        (25, 18),
-        (21, 18),
-        (21, 23),
-        (19, 23),
-        (19, 24)
-    ]
-    
-    for wx, wy in waypoints_area3:
-        if not walk_to_waypoint(wx, wy):
-            success = False
-            break
+print("Walking DOWN to transition to Area 3 (West)...")
+mgba.press_buttons(["Down"])
+time.sleep(0.5)
+mgba.press_buttons(["Down"])
+time.sleep(1.0)
 
-if success:
-    print("Successfully reached (19, 24) directly above Gold Teeth!")
-    print("Facing DOWN...")
-    bridge.press_buttons(["Down"])
-    time.sleep(0.5)
-    
-    print("Pressing A to retrieve Gold Teeth...")
-    bridge.press_buttons(["A"])
-    time.sleep(1.0)
-    
-    # Clear dialogue
-    print("Clearing dialogue...")
-    bridge.press_buttons(["A"])
-    time.sleep(0.5)
-    bridge.press_buttons(["A"])
-    time.sleep(0.5)
-    
-    # Verify coordinates and item retrieval
-    final_pos = bridge.get_coordinates()
-    print("Final Position:", final_pos)
-else:
-    print("Failed journey. Position:", bridge.get_coordinates())
+# ==========================================================
+# PHASE 4: Area 3 (West) -> Retrieve Gold Teeth
+# ==========================================================
+print("--- PHASE 4: Area 3 to Gold Teeth ---")
+area3_waypoints = [
+    (26, 2),
+    (25, 2),
+    (25, 18),
+    (21, 18),
+    (21, 16), # Climb East Stairs onto plateau
+    (6, 16),  # Walk LEFT across plateau
+    (6, 20),  # Descend West Stairs to ground level
+    (6, 26),  # Walk DOWN Column 6 to the Row 26 Highway
+    (19, 26)  # Walk RIGHT along Row 26 directly below Gold Teeth
+]
+for wp in area3_waypoints:
+    walk_to_waypoint(wp[0], wp[1])
+
+# Stand at (19, 26) facing UP
+print("Facing UP...")
+mgba.press_buttons(["Up"])
+time.sleep(0.5)
+
+# Take screenshot to verify item ball is present
+screenshot_path = mgba.take_screenshot()
+print(f"Standing below teeth screenshot: {screenshot_path}")
+
+# Press A to pick up the Gold Teeth
+print("Pressing A to pick up the Gold Teeth...")
+mgba.press_buttons(["A"])
+time.sleep(1.5)
+
+# Clear dialogue "ACE picked up the GOLD TEETH!"
+print("Clearing dialogue...")
+mgba.press_buttons(["A"])
+time.sleep(1.0)
+mgba.press_buttons(["A"])
+time.sleep(1.0)
+
+final_pos = mgba.get_coordinates()
+print("Position after retrieval attempt:", final_pos)
+screenshot_path2 = mgba.take_screenshot()
+print(f"Final screenshot: {screenshot_path2}")
