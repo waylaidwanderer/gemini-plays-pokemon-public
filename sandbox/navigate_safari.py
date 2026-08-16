@@ -1,14 +1,26 @@
 import mgba
 import time
 
-print("--- EXECUTING PERFECT GOLD TEETH RETRIEVAL ---")
+print("--- EXECUTING OPTIMIZED GOLD TEETH RETRIEVAL ---")
 
 def get_pos():
     return mgba.get_coordinates()
 
 # Current position is (19, 23) facing UP.
-# 1. Walk LEFT to Column 15.
-print("Step 1: Walking LEFT to Column 15")
+# 1. Walk UP Column 19 to Row 19: (19, 19)
+print("Step 1: Walking UP Column 19 to Row 19")
+for _ in range(10):
+    pos = get_pos()
+    if pos and pos['y'] == 19:
+        print("Arrived at Row 19!")
+        break
+    mgba.press_buttons(["Up"])
+    time.sleep(0.4)
+else:
+    print("Failed to reach Row 19!")
+
+# 2. Walk LEFT along Row 19 to Column 15: (15, 19)
+print("Step 2: Walking LEFT along Row 19 to Column 15")
 for _ in range(10):
     pos = get_pos()
     if pos and pos['x'] == 15:
@@ -19,9 +31,9 @@ for _ in range(10):
 else:
     print("Failed to reach Column 15!")
 
-# 2. Walk DOWN to Row 26.
-print("Step 2: Walking DOWN Column 15 to Row 26")
-for _ in range(10):
+# 3. Walk DOWN Column 15 to Row 26: (15, 26)
+print("Step 3: Walking DOWN Column 15 to Row 26")
+for _ in range(15):
     pos = get_pos()
     if pos and pos['y'] == 26:
         print("Arrived at Row 26!")
@@ -31,8 +43,8 @@ for _ in range(10):
 else:
     print("Failed to reach Row 26!")
 
-# 3. Walk RIGHT to Column 19.
-print("Step 3: Walking RIGHT to Column 19")
+# 4. Walk RIGHT along Row 26 to Column 19: (19, 26) (directly below the teeth!)
+print("Step 4: Walking RIGHT along Row 26 to Column 19")
 for _ in range(10):
     pos = get_pos()
     if pos and pos['x'] == 19:
@@ -43,8 +55,8 @@ for _ in range(10):
 else:
     print("Failed to reach Column 19!")
 
-# 4. Face UP and press A to retrieve Gold Teeth
-print("Step 4: Retrieving Gold Teeth")
+# 5. Face UP and press A to retrieve Gold Teeth
+print("Step 5: Retrieving Gold Teeth")
 mgba.press_buttons(["Up"])
 time.sleep(0.4)
 mgba.press_buttons(["A"])
@@ -54,8 +66,8 @@ time.sleep(1.0)
 mgba.press_buttons(["A"])
 time.sleep(0.6)
 
-# 5. Use DIG to warp back to Fuchsia City Pokémon Center!
-print("Step 5: Using DIG to warp out...")
+# 6. Use DIG to warp back to Fuchsia City Pokémon Center!
+print("Step 6: Using DIG to warp out...")
 mgba.press_buttons(["Start"])
 time.sleep(0.6)
 
