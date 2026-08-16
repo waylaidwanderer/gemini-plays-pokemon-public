@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 2/8 (Boulder Badge, Cascade Badge)
-- Location: Route 25 (x=14, y=4)
+- Location: Route 25 (x=22, y=9)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -492,5 +492,6 @@
 - Trainer #2 (Hiker Franklin): Located at (14, 7) facing West [Defeated Turn 1608]. Team: Onix Lv 17, Geodude Lv 17. Reward: ¥595. Dialogue: "You're going to see BILL? First, we fight!" Defeat quote: "You gave me your best!"
 - Trainer #3 (Youngster Dan): Located at (18, 4) facing West [Defeated Turn 1614]. Team: Slowpoke Lv 17. Reward: ¥255. Defeat quote: "I'm not mad!"
 - Trainer #4 (Lass): Located at (19, 8) facing East [Defeated Turn 1623]. Team: Nidoran♂ Lv 15, Nidoran♀ Lv 15. Reward: ¥225. Dialogue: "Hi! My boy friend is cool!" Defeat quote: "I was in bad condition!"
+- Trainer #5 (Hiker): Located at (23, 9) facing Down [Engaged Turn 1686].
 
 <hr>
