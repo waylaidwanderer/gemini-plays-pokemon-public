@@ -29,3 +29,8 @@
 - Doorway exit at (20, 10).
 - NPC at (21, 13) / (20, 13).
 - Table at (20, 15)/(21, 15), Bed at (23, 14)/(23, 15).
+## Kitchen (Entrance at 3, 16 from SW hallway)
+- Layout: cols 0-14, rows 0-15. Door exit at (6, 0).
+- Trash cans at (2, 5), (6, 5), (10, 5), (13, 5), (13, 7), (13, 9).
+- Item: Great Ball found in bottom-right trash can at (13, 9) [Found Turn 1953].
+- Chefs preparing gourmet meals for passengers.
