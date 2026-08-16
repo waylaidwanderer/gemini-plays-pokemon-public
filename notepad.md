@@ -29,8 +29,8 @@
 1. HYDROS (Wartortle) - Lv 20
    - Stats (Verified at Lv 20): Max HP 60 (HP: 1/60, Healthy)
    - Type: Water
-   - Moves: Tackle (30/35), Tail Whip (30/30), Bubble (22/30), Water Gun (13/25)
-   - Role: Starter & primary Water special attacker (Bench)
+   - Moves: Tackle (26/35), Tail Whip (30/30), Bubble (22/30), Water Gun (13/25)
+   - Role: Starter & primary Water special attacker (Lead)
 2. ECHO (Zubat) - Lv 8
    - Stats (Verified at Lv 8): Max HP 26 (HP: 22/26)
    - Type: Poison / Flying
@@ -291,6 +291,7 @@
 - Paras [Encountered Turn 678 at (10, 17)]
 - Geodude [Encountered Turn 692 at (25, 14)]
 - Paras [Encountered Turn 697 at (26, 17)]
+- Zubat Lv 8 [Encountered & Defeated Turn 729 at (30, 32)]
 
 <hr>
 
