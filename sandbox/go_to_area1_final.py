@@ -59,8 +59,11 @@ def walk_to_waypoint(target_x, target_y):
         mgba.press_buttons([btn])
         time.sleep(0.42)
 
-print("--- PHASE 1: Safari Zone Center to Area 1 (East) ---")
+print("--- PHASE 1: Safari Zone Center to Area 1 (East) (Robust West-Bypass) ---")
+# Start at (5, 22) or anywhere near
 waypoints = [
+    (5, 24),
+    (15, 24),
     (15, 22),
     (28, 22),
     (28, 10),
