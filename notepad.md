@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 2/8 (Boulder Badge, Cascade Badge)
-- Location: Route 6 (x=17, y=26)
+- Location: Route 6 (x=10, y=30) -> Entering Vermilion City
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -35,9 +35,9 @@
 
 ## Active Party
 1. HYDROS (Wartortle) - Lv 29
-   - Stats (Verified at Lv 29): Max HP 83 (HP: 52/83, Healthy), Attack 51, Defense 58, Speed 52, Special 55
+   - Stats (Verified at Lv 29): Max HP 83 (HP: 39/83, Healthy), Attack 51, Defense 58, Speed 52, Special 55
    - Type: Water
-   - Moves: Tackle (34/35), Tail Whip (29/30), Bite (19/25), Bubblebeam (5/20)
+   - Moves: Tackle (30/35), Tail Whip (29/30), Bite (18/25), Bubblebeam (4/20)
    - Role: Starter & primary Water special attacker (Active Lead)
 2. ECHO (Zubat) - Lv 8
    - Stats (Verified at Lv 8): Max HP 26 (HP: 26/26, Healthy)
@@ -53,8 +53,8 @@
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
-## Inventory & Resources (Verified Turn 1847)
-- Money: ¥6213
+## Inventory & Resources (Verified Turn 1875)
+- Money: ¥6533
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pokémon up to Lv 30 obey)
 - Key Items: Town Map, Helix Fossil, S.S. Ticket
 - TMs / HMs: TM34 (Bide), TM28 (Dig)
@@ -100,8 +100,9 @@
 - [x] Travel east across Route 25 to visit Bill at Sea Cottage [Arrived Turn 1737]
 - [x] Help Bill run the Cell Separation System & receive S.S. Ticket [Turn 1751]
 - [x] Defeat Team Rocket Grunt in Cerulean backyard & recover TM28 (Dig) [Turn 1820]
-- [ ] Travel south from Cerulean City to Vermilion City via Route 5
+- [x] Travel south from Cerulean City to Vermilion City via Route 5 & Route 6 [Arrived Turn 1876]
 - [ ] Board the S.S. Anne in Vermilion City
+- [ ] Defeat Gym Leader Lt. Surge in Vermilion Gym
 
 
 <hr>
@@ -573,17 +574,20 @@
 
 ## Connections
 - North: Saffron City South Gate / Route 5-6 Underground Path Exit Building at (17, 13) [Emerged Turn 1858]
-- South: Vermilion City entrance (around row 35)
+- South: Vermilion City entrance at (9..10, 35) [Entered Turn 1876]
 
 ## Layout & Landmarks
 - Underground Path exit building at cols 16-19, rows 10-13 with exit door at (17, 13).
 - Central open pathway along columns 16-17 heading south.
+- Main western avenue along columns 8-9 heading south into Vermilion City (rows 28-35).
 - Tall grass patches at rows 16-18, rows 22-25, and row 30.
 - Central pond located around cols 8-13 across rows 24-28.
 - Eastern tree boundary along column 20+.
 
 ## Verified Trainers
 - Trainer #1 (Bug Catcher): Located at (18, 26) facing West [Defeated Turn 1866]. Team: Butterfree Lv 20. Reward: ¥200. Pre-battle dialogue: "I've never seen you around! Are you good?" Defeat quote: "You are too good!"
+- Trainer #2 (Jr. Trainer ♀): Located at (11, 30) facing West [Defeated Turn 1875]. Team: Pidgey Lv 16, Pidgey Lv 16, Pidgey Lv 16. Reward: ¥320. Pre-battle dialogue: "Me? Well, OK. I'll play!" Defeat quote: "Just didn't work!"
+- Trainer #3 (Jr. Trainer ♂): Located at (11, 31) facing Down.
 
 ## Wild Pokémon Encounters
 - Meowth (Normal type) [Encountered Turn 1868]
