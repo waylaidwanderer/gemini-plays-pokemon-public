@@ -12,9 +12,9 @@
    - Moves: Leech Life (9/15)
    - Role: Fast Flying/Poison utility & Grass counter
 3. HYDROS (Wartortle) - Lv 20
-   - Stats (Verified at Lv 20): Max HP 60 (HP: 4/60, Healthy)
+   - Stats (Verified at Lv 20): Max HP 60 (HP: 1/60, Healthy)
    - Type: Water
-   - Moves: Tackle (31/35), Tail Whip (30/30), Bubble (22/30), Water Gun (14/25)
+   - Moves: Tackle (30/35), Tail Whip (30/30), Bubble (22/30), Water Gun (13/25)
    - Role: Starter & primary Water special attacker (Bench)
 
 ## Planned Nicknaming Strategy
