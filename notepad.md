@@ -26,7 +26,7 @@
 
 ## Active Party
 1. HYDROS (Wartortle) - Lv 23
-   - Stats (Verified at Lv 22): Max HP 67 (HP: 14/67, Healthy), Attack 40, Defense 46, Speed 42, Special 44
+   - Stats (Verified at Lv 22): Max HP 67 (HP: 34/67, Healthy), Attack 40, Defense 46, Speed 42, Special 44
    - Type: Water
    - Moves: Tackle (17/35), Tail Whip (30/30), Bubble (30/30), Water Gun (25/25)
    - Role: Starter & primary Water special attacker (Active Lead)
@@ -54,7 +54,6 @@
   - 1x Antidote (Status cure: Poison)
   - 1x Moon Stone (Evolution item found in Mt. Moon 1F)
   - 1x Rare Candy (Found at 35, 31 in Mt. Moon 1F)
-  - 1x Potion (Found at 2, 20 in Mt. Moon 1F southwest chamber)
 
 
 <hr>
