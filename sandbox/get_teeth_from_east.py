@@ -1,8 +1,10 @@
 import bridge
 import time
+import json
+import os
 
 def escape_battle():
-    print("Encountered a battle! Attempting to escape...")
+    print("Encountered a battle or stuck! Attempting to escape...")
     for _ in range(5):
         bridge.press_buttons(["B"])
         time.sleep(0.1)
@@ -13,128 +15,172 @@ def escape_battle():
         time.sleep(0.1)
     print("Escape sequence complete.")
 
-def walk_to_waypoint(target_x, target_y):
-    print(f"Navigating to waypoint ({target_x}, {target_y})...")
+def solve_path(start, target, blocked_edges, blocked_tiles, max_x, max_y):
+    queue = [[start]]
+    visited = {start}
+    
+    while queue:
+        path = queue.pop(0)
+        curr = path[-1]
+        
+        if curr == target:
+            return path
+            
+        x, y = curr
+        neighbors = [
+            ((x, y-1), "Up"),
+            ((x, y+1), "Down"),
+            ((x-1, y), "Left"),
+            ((x+1, y), "Right")
+        ]
+        
+        for neighbor, direction in neighbors:
+            nx, ny = neighbor
+            if nx < 0 or nx > max_x or ny < 0 or ny > max_y:
+                continue
+            if neighbor in blocked_tiles:
+                continue
+            edge = (curr, neighbor)
+            if edge in blocked_edges:
+                continue
+                
+            if neighbor not in visited:
+                visited.add(neighbor)
+                queue.append(path + [neighbor])
+                
+    return None
+
+def navigate_map_bfs(target_x, target_y, state_file, max_x=39, max_y=35):
+    target = (target_x, target_y)
+    blocked_edges = set()
+    blocked_tiles = set()
+    
+    # Load existing state if file exists
+    if os.path.exists(state_file):
+        try:
+            with open(state_file, "r") as f:
+                data = json.load(f)
+                blocked_edges = set(tuple(tuple(x) for x in edge) for edge in data.get("blocked_edges", []))
+                blocked_tiles = set(tuple(x) for x in data.get("blocked_tiles", []))
+                print(f"Loaded {len(blocked_edges)} blocked edges from {state_file}")
+        except Exception as e:
+            print("Error loading state:", e)
+            
     stuck_count = 0
     last_coords = None
     
     while True:
         curr = bridge.get_coordinates()
         if curr is None:
-            print("Coordinates are None. Waiting...")
             time.sleep(0.5)
             continue
             
-        x, y = curr
-        if x == target_x and y == target_y:
-            print(f"Reached waypoint ({target_x}, {target_y})")
+        curr_tuple = (curr[0], curr[1])
+        if curr_tuple == target:
+            print(f"Reached target {target}!")
             return True
             
-        if curr == last_coords:
+        # Detect if map transition occurred (coordinates shifted drastically away from current path region)
+        # We can handle this by checking if we are far away from target, but simple target check is safer.
+        
+        path = solve_path(curr_tuple, target, blocked_edges, blocked_tiles, max_x, max_y)
+        if path is None or len(path) < 2:
+            print("No path found to target! We might be completely blocked. Backtracking...")
+            # If completely blocked, clear some recent edges to allow retry
+            blocked_edges.clear()
+            continue
+            
+        next_tile = path[1]
+        cx, cy = curr_tuple
+        nx, ny = next_tile
+        if nx > cx:
+            btn = "Right"
+        elif nx < cx:
+            btn = "Left"
+        elif ny > cy:
+            btn = "Down"
+        elif ny < cy:
+            btn = "Up"
+            
+        print(f"At {curr_tuple}, moving {btn} to {next_tile}...")
+        bridge.press_buttons([btn])
+        time.sleep(0.44)
+        
+        after = bridge.get_coordinates()
+        if after is None:
+            continue
+            
+        after_tuple = (after[0], after[1])
+        if after_tuple == curr_tuple:
+            print(f"BUMPED! Transition from {curr_tuple} to {next_tile} is blocked.")
+            blocked_edges.add((curr_tuple, next_tile))
+            blocked_edges.add((next_tile, curr_tuple))
+            
+            # Save state
+            try:
+                data = {
+                    "blocked_edges": [list(list(x) for x in edge) for edge in blocked_edges],
+                    "blocked_tiles": [list(x) for x in blocked_tiles]
+                }
+                with open(state_file, "w") as f:
+                    json.dump(data, f, indent=2)
+            except Exception as e:
+                print("Error saving state:", e)
+                
             stuck_count += 1
             if stuck_count > 4:
-                print(f"Stuck at {curr} trying to reach ({target_x}, {target_y}). Attempting escape...")
+                print("Stuck too many times. Running escape battle...")
                 escape_battle()
                 stuck_count = 0
                 time.sleep(0.5)
-                after_coords = bridge.get_coordinates()
-                if after_coords == curr:
-                    print("Coordinates still unchanged. Retrying movement with A/B mash...")
-                    bridge.press_buttons(["A", "B", "A", "B"])
-                    time.sleep(0.5)
+                # Recover menu if open
+                bridge.press_buttons(["B", "B"])
+                time.sleep(0.5)
         else:
             stuck_count = 0
-            last_coords = curr
-            
-        # Choose direction to move
-        if x < target_x:
-            btn = "Right"
-        elif x > target_x:
-            btn = "Left"
-        elif y < target_y:
-            btn = "Down"
-        elif y > target_y:
-            btn = "Up"
-            
-        bridge.press_buttons([btn])
-        time.sleep(0.44)
-
-# Starting at (9, 5) in Safari Zone Area 2 (North)
-print("Resuming Golden Route from Area 2 (North) at (9, 5)...")
 
 # ----------------------------------------------------
-# NAVIGATE AREA 2 (NORTH) TO AREA 3 (WEST)
+# MAIN EXECUTION FLOW
 # ----------------------------------------------------
-waypoints_area2 = [
-    (9, 9),   # Walk DOWN to open horizontal Row 9
-    (39, 9),  # Walk RIGHT to Column 39
-    (39, 31), # Walk DOWN Column 39 to southern corridor Row 31
-    (22, 31), # Walk LEFT along southern corridor to Column 22
-    (22, 22), # Walk UP to climb Western Southern Plateau stairs
-    (16, 22), # Walk LEFT on the plateau to Column 16
-    (16, 28), # Walk DOWN to descend stairs to ground level
-    (12, 28),
-    (12, 30), # Bypass pond
-    (8, 30),
-    (8, 35)   # Stop adjacent to warp at (8, 36)
-]
+# Get current coordinate to see which map we are on
+curr = bridge.get_coordinates()
+print("Current position:", curr)
 
-success = True
-for wx, wy in waypoints_area2:
-    if not walk_to_waypoint(wx, wy):
-        print(f"Failed waypoint in Area 2: ({wx}, {wy})")
-        success = False
-        break
-
-if success:
-    # Step Down onto the warp to Area 3 (West)
-    print("Transitioning to Area 3 (West)...")
-    bridge.press_buttons(["Down"])
-    time.sleep(1.0)
-
-    # Check coordinates in Area 3 (West)
+if curr is not None:
+    # 1. If we are in Area 2 (North)
+    # Check if we are in the coordinates typical of Area 2
+    # Area 2 has y up to 35, and we are navigating to (8, 35)
+    if curr[1] <= 35 and curr[0] <= 39:
+        # We might be in Area 2 or Area 3, but let's check if we are in Area 2 by verifying x >= 26 is not our target yet
+        # Let's run BFS to (8, 35) for Area 2
+        print("Starting Area 2 (North) Navigation...")
+        if navigate_map_bfs(8, 35, "safari_area2_state.json", max_x=39, max_y=35):
+            # Step Down onto (8, 36) to warp to Area 3
+            print("Warping to Area 3 (West)...")
+            bridge.press_buttons(["Down"])
+            time.sleep(1.0)
+            
+    # Refresh coordinates
     curr = bridge.get_coordinates()
-    print("Emerged in Area 3 (West) at:", curr)
-
-    # ----------------------------------------------------
-    # AREA 3 (WEST) TO GOLD TEETH AT (19, 24)
-    # ----------------------------------------------------
-    print("Navigating Area 3 (West)...")
-    waypoints_area3 = [
-        (26, 2),
-        (25, 2),
-        (25, 18),
-        (21, 18),
-        (21, 23),
-        (19, 23),
-        (19, 24)
-    ]
-
-    for wx, wy in waypoints_area3:
-        if not walk_to_waypoint(wx, wy):
-            print(f"Failed waypoint in Area 3: ({wx}, {wy})")
-            success = False
-            break
-
-if success:
-    # Retrieve Gold Teeth
-    print("Successfully reached (19, 24) directly above Gold Teeth!")
-    print("Facing DOWN...")
-    bridge.press_buttons(["Down"])
-    time.sleep(0.5)
-
-    print("Pressing A to retrieve Gold Teeth...")
-    bridge.press_buttons(["A"])
-    time.sleep(1.0)
-
-    # Clear dialogue
-    print("Clearing dialogue...")
-    bridge.press_buttons(["A"])
-    time.sleep(0.5)
-    bridge.press_buttons(["A"])
-    time.sleep(0.5)
-
-    final_pos = bridge.get_coordinates()
-    print("Retrieval Process Complete! Position:", final_pos)
-else:
-    print("Failed journey. Position:", bridge.get_coordinates())
+    print("Coordinates after potential transition:", curr)
+    
+    # 2. If we are in Area 3 (West)
+    if curr is not None:
+        print("Starting Area 3 (West) Navigation...")
+        if navigate_map_bfs(19, 24, "safari_area3_state.json", max_x=29, max_y=25):
+            print("Reached directly above Gold Teeth at (19, 24)!")
+            print("Facing DOWN...")
+            bridge.press_buttons(["Down"])
+            time.sleep(0.5)
+            
+            print("Pressing A to retrieve Gold Teeth...")
+            bridge.press_buttons(["A"])
+            time.sleep(1.0)
+            
+            print("Clearing dialogue...")
+            bridge.press_buttons(["A"])
+            time.sleep(0.5)
+            bridge.press_buttons(["A"])
+            time.sleep(0.5)
+            
+            print("Successfully retrieved Gold Teeth! Current position:", bridge.get_coordinates())
