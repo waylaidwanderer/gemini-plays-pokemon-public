@@ -2,7 +2,7 @@
 
 ## Active Party
 1. HYDROS (Wartortle) - Lv 32
-   - Stats (Verified at Lv 32): Max HP 92 (HP: 69/92, Healthy), Attack 56, Defense 64, Speed 58, Special 61
+   - Stats (Verified at Lv 32): Max HP 92 (HP: 33/92, Healthy), Attack 56, Defense 64, Speed 58, Special 61
    - Type: Water
    - Moves: Tackle (23/35), Tail Whip (29/30), Bite (14/25), Bubblebeam (12/20)
    - Role: Starter & primary Water special attacker (Active Lead)
@@ -21,10 +21,10 @@
 - Every captured Pok�mon will receive a thoughtful, unique nickname.
 
 ## Inventory & Resources (Verified Turn 2011)
-- Money: �9286 (Verified Turn 2077)
+- Money: �10586 (Verified Turn 2096 after RED: +�1300)
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pok�mon up to Lv 30 obey)
 - Key Items: Town Map, Helix Fossil, S.S. Ticket, Bike Voucher
-- TMs / HMs: TM08 (Body Slam), TM28 (Dig), TM34 (Bide), TM44 (Rest)
+- TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM28 (Dig), TM34 (Bide), TM44 (Rest)
 - Valuables:
   - 1x Nugget (Nugget Bridge completion prize - sellable for �5000)
 - Consumables:
