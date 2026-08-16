@@ -20,4 +20,4 @@
 - Trainer #5 (Hiker): Located at (23, 9) facing Down [Defeated Turn 1690]. Team: Geodude Lv 13, Geodude Lv 13, Machop Lv 13, Geodude Lv 13. Reward: ¥455. Dialogue: "I'm off to see a POKéMON collector at the cape!" Defeat quote: "You got me."
 - Trainer #6 (Jr. Trainer ♂): Located at (24, 4..5) [Defeated Turn 1709]. Team: Rattata Lv 14, Ekans Lv 14. Reward: ¥280. Dialogue: "I'm a cool guy. I've got a girl friend!" Defeat quote: "Aww, darn..."
 - Trainer #7 (Youngster): Located at (32, 3) [Defeated Turn 1719]. Team: Ekans Lv 14, Sandshrew Lv 14. Dialogue: "I knew I had to fight you!" Defeat quote: "I knew I'd lose too!"
-- Trainer #8 (Lass): Located at (37, 4) outside Bill's Sea Cottage [Defeated Turn 1732]. Team: Oddish Lv 13, Pidgey Lv 13, Oddish Lv 13. Dialogue: "cute POKéMON. I'm so jealous!"
+- Trainer #8 (Lass): Located at (37, 4) outside Bill's Sea Cottage [Defeated Turn 1732]. Team: Oddish Lv 13, Pidgey Lv 13, Oddish Lv 13. Reward: ¥195. Dialogue: "cute POKéMON. I'm so jealous!" Defeat quote: "I'm not so jealous!"

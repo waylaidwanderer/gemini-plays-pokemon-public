@@ -29,9 +29,9 @@
 
 ## Active Party
 1. HYDROS (Wartortle) - Lv 28
-   - Stats (Verified at Lv 28): Max HP 81 (HP: 62/81, Healthy), Attack 49, Defense 55, Speed 50, Special 53
+   - Stats (Verified at Lv 28): Max HP 81 (HP: 59/81, Healthy), Attack 49, Defense 55, Speed 50, Special 53
    - Type: Water
-   - Moves: Tackle (35/35), Tail Whip (29/30), Bite (23/25), Bubblebeam (9/20)
+   - Moves: Tackle (35/35), Tail Whip (29/30), Bite (20/25), Bubblebeam (9/20)
    - Role: Starter & primary Water special attacker (Active Lead)
 2. ECHO (Zubat) - Lv 8
    - Stats (Verified at Lv 8): Max HP 26 (HP: 26/26, Healthy)
@@ -48,7 +48,7 @@
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
 ## Inventory & Resources (Verified Turn 1711)
-- Money: ¥5308
+- Money: ¥5503
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pokémon up to Lv 30 obey)
 - Key Items: Town Map, Pokédex, Helix Fossil
 - TMs / HMs: TM34 (Bide), TM11 (Bubblebeam)
@@ -495,7 +495,7 @@
 - Trainer #5 (Hiker): Located at (23, 9) facing Down [Defeated Turn 1690]. Team: Geodude Lv 13, Geodude Lv 13, Machop Lv 13, Geodude Lv 13. Reward: ¥455. Dialogue: "I'm off to see a POKéMON collector at the cape!" Defeat quote: "You got me."
 - Trainer #6 (Jr. Trainer ♂): Located at (24, 4..5) [Defeated Turn 1709]. Team: Rattata Lv 14, Ekans Lv 14. Reward: ¥280. Dialogue: "I'm a cool guy. I've got a girl friend!" Defeat quote: "Aww, darn..."
 - Trainer #7 (Youngster): Located at (32, 3) [Defeated Turn 1719]. Team: Ekans Lv 14, Sandshrew Lv 14. Dialogue: "I knew I had to fight you!" Defeat quote: "I knew I'd lose too!"
-- Trainer #8 (Lass): Located at (37, 4) outside Bill's Sea Cottage [Defeated Turn 1732]. Team: Oddish Lv 13, Pidgey Lv 13, Oddish Lv 13. Dialogue: "cute POKéMON. I'm so jealous!"
+- Trainer #8 (Lass): Located at (37, 4) outside Bill's Sea Cottage [Defeated Turn 1732]. Team: Oddish Lv 13, Pidgey Lv 13, Oddish Lv 13. Reward: ¥195. Dialogue: "cute POKéMON. I'm so jealous!" Defeat quote: "I'm not so jealous!"
 
 
 <hr>
