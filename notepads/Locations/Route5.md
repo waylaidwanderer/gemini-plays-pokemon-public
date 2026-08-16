@@ -6,8 +6,10 @@
 
 ## Layout & Landmarks
 - Northern entry point at (10, 0).
-- Ledges with multiple paths south and tall grass patches.
-- Points of interest to locate: Pokémon Daycare, Underground Path entrance.
+- Ledge 1: Row 3 (cols 6-13) leading into grass patch at rows 4-5.
+- Middle lane: Row 6 (cols 6-12).
+- Ledge 2: Row 7 (cols 6-12) leading into grass patch at rows 8-9.
+- Row 10+: Southern section containing Daycare & Underground Path.
 
 ## Wild Pokémon Encounters
 - TBD
