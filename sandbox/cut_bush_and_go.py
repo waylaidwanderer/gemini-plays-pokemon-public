@@ -41,39 +41,39 @@ def walk_to_waypoint(target_x, target_y):
         mgba.press_buttons([btn])
         time.sleep(0.42)
 
-print("--- ROBUST CUT BUSH AND GO ---")
+print("--- EXECUTING OVERWORLD CUT & NAVIGATION TO GATEHOUSE ---")
 
-# Step 1: Walk to (26, 14) and face UP
+# Step 1: Walk UP to (26, 14) so we face the bush at (26, 13)
 walk_to_waypoint(26, 14)
+# Make sure we face UP
 mgba.press_buttons(["Up"])
 time.sleep(0.5)
 
-# Step 2: Open Start menu and force cursor to POKEDEX (top)
+# Step 2: Open Start menu
 press_and_screenshot("Start", "start_menu_open")
 
-# Press UP 7 times to force cursor to the very top
+# Force cursor to POKEDEX (top)
 for i in range(7):
     mgba.press_buttons(["Up"])
     time.sleep(0.2)
 print("Cursor forced to top (POKEDEX)")
 
-# Press Down once to highlight POKEMON, then A to select
+# Select POKEMON (Down once, then A)
 press_and_screenshot("Down", "highlight_pokemon")
 press_and_screenshot("A", "pokemon_menu")
 
-# Select TRUFFLE in Slot 2 (Down, then A)
+# Highlight TRUFFLE in Slot 2 (Down once, then A)
 press_and_screenshot("Down", "highlight_truffle")
 press_and_screenshot("A", "truffle_submenu")
 
-# Select Option 2 (CUT is Option 2: Down, then A)
-press_and_screenshot("Down", "highlight_cut")
-press_and_screenshot("A", "cut_execution", delay=3.0)
+# Select CUT (Option 1 - cursor is already on it! Press A)
+press_and_screenshot("A", "cut_execution_dialog", delay=3.0)
 
-# Clear dialogue and exit back to overworld
+# Clear "TRUFFLE used CUT!" text boxes and return to overworld
 for i in range(4):
     press_and_screenshot("B", f"clear_text_{i+1}", delay=0.5)
 
-# Step 3: Walk to the Gatehouse
+# Step 3: Now navigate past the cut bush to the Gatehouse
 waypoints = [
     (26, 9),
     (19, 9),
@@ -103,7 +103,7 @@ if success:
     # Walk to (3, 4)
     walk_to_waypoint(3, 4)
     
-    # Face LEFT
+    # Face LEFT to speak to clerk
     print("Facing LEFT to speak to clerk...")
     mgba.press_buttons(["Left"])
     time.sleep(0.5)
