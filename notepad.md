@@ -361,5 +361,6 @@
 - Clefairy Lv 10 [Encountered & Defeated Turn 545 at (32, 7)]
 - Zubat Lv 9 [Encountered Turn 863 at (28, 22)]
 - Geodude Lv 9 [Encountered Turn 867 at (23, 24)]
+- Paras [Encountered Turn 872 at (21, 24)]
 
 <hr>
