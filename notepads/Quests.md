@@ -8,5 +8,6 @@
 - [x] Travel east along Route 3 and reach Mt. Moon [Turn 443]
 - [x] Navigate Mt. Moon towards Route 4 and Cerulean City [Turn 1152]
 - [x] Defeat Gym Leader Misty in Cerulean City (Cascade Badge & TM11 Bubblebeam) [Turn 1348]
-- [x] Defeat Rival RED on Route 24 [Defeated Turn 1524]
-- [ ] Travel north across Nugget Bridge (Route 24 & Route 25) to visit Bill at Sea Cottage
+- [x] Defeat Rival RED on Route 24 [Defeated Turn 1528]
+- [x] Complete Nugget Bridge challenge (Defeat 5 trainers + Rocket recruiter, obtain Nugget) [Turn 1592]
+- [ ] Travel east across Route 25 to visit Bill at Sea Cottage
