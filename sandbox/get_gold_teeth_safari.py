@@ -61,44 +61,10 @@ def walk_to_waypoint(target_x, target_y):
         time.sleep(0.42)
 
 # ==========================================================
-# PHASE 2: Area 1 (East) -> Area 2 (North)
-# ==========================================================
-print("--- PHASE 2 (CONTINUED): Area 1 (East) to Area 2 (North) ---")
-# We start at (20, 24).
-area1_waypoints = [
-    (20, 20), # Climb plateau stairs
-    (12, 20),
-    (12, 22), # Descend plateau stairs
-    (8, 22),
-    (8, 8),
-    (12, 8),  # Climb northern plateau stairs
-    (12, 6),
-    (17, 6),
-    (17, 8),  # Descend stairs to ground
-    (20, 8),
-    (20, 3),
-    (7, 3),
-    (7, 5)    # Stop exactly at (7, 5) before transition
-]
-
-for wp in area1_waypoints:
-    walk_to_waypoint(wp[0], wp[1])
-
-print("Walking LEFT to transition to Area 2 (North)...")
-for _ in range(8):
-    mgba.press_buttons(["Left"])
-    time.sleep(0.5)
-
-# Wait for transition
-time.sleep(1.5)
-coords = mgba.get_coordinates()
-print("Emerged in Area 2 (North) at:", coords)
-
-# ==========================================================
 # PHASE 3: Area 2 (North) -> Area 3 (West)
 # ==========================================================
 print("--- PHASE 3: Area 2 (North) to Area 3 (West) ---")
-# Emerge at (39, 31).
+# Start/Emerge at (39, 31).
 area2_waypoints = [
     (22, 31),
     (22, 22), # Climb stairs
@@ -122,39 +88,3 @@ for _ in range(3):
 time.sleep(1.5)
 coords = mgba.get_coordinates()
 print("Emerged in Area 3 (West) at:", coords)
-
-# ==========================================================
-# PHASE 4: Area 3 (West) -> Retrieve Gold Teeth
-# ==========================================================
-print("--- PHASE 4: Area 3 (West) to Gold Teeth ---")
-# Emerge at (26, 0).
-area3_waypoints = [
-    (26, 2),
-    (25, 2),
-    (25, 18),
-    (21, 18),
-    (21, 26), # Walk down to the Row 26 Highway
-    (19, 26)  # Stand at (19, 26) directly below the teeth!
-]
-
-for wp in area3_waypoints:
-    walk_to_waypoint(wp[0], wp[1])
-
-# Stand at (19, 26) facing UP (North)
-print("Facing UP...")
-mgba.press_buttons(["Up"])
-time.sleep(0.5)
-
-# Press A to pick up the Gold Teeth
-print("Pressing A to pick up the Gold Teeth!")
-mgba.press_buttons(["A"])
-time.sleep(1.5)
-
-# Clear dialogue "ACE picked up the GOLD TEETH!"
-print("Clearing dialogue...")
-mgba.press_buttons(["A"])
-time.sleep(1.0)
-mgba.press_buttons(["A"])
-time.sleep(1.0)
-
-print("Retrieval process fully complete! Current position:", mgba.get_coordinates())
