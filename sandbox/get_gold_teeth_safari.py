@@ -58,16 +58,12 @@ def walk_to_waypoint(target_x, target_y):
         time.sleep(0.44)
 
 # ==========================================================
-# PHASE 0: Fuchsia City to Safari Gatehouse (Bypass via east corridor)
+# PHASE 0: Fuchsia City to Safari Gatehouse (Bypass via east Column 36)
 # ==========================================================
 print("PHASE 0: Navigating Fuchsia City to Safari Gatehouse...")
 
 fuchsia_waypoints = [
-    (36, 30),
-    (34, 30),
-    (34, 24),
-    (37, 24),
-    (37, 2),
+    (36, 2),
     (22, 2),
     (22, 4),
     (18, 4),
