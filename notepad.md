@@ -26,7 +26,7 @@
 
 ## Active Party
 1. TERRA (Geodude) - Lv 13
-   - Stats (Verified at Lv 13): Max HP 36 (HP: 13/36), Attack 29, Defense 32, Speed 14, Special 13
+   - Stats (Verified at Lv 13): Max HP 36 (HP: 11/36), Attack 29, Defense 32, Speed 14, Special 13
    - Type: Rock / Ground
    - Moves: Tackle (0/35), Defense Curl (40/40)
    - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist (Active Lead)
@@ -36,7 +36,7 @@
    - Moves: Leech Life (0/15)
    - Role: Fast Flying/Poison utility & Grass counter
 3. HYDROS (Wartortle) - Lv 20
-   - Stats (Verified at Lv 20): Max HP 60 (HP: 1/60, Healthy)
+   - Stats (Verified at Lv 20): Max HP 60 (HP: 21/60, Healthy)
    - Type: Water
    - Moves: Tackle (26/35), Tail Whip (30/30), Bubble (22/30), Water Gun (13/25)
    - Role: Starter & primary Water special attacker (Bench)
@@ -53,7 +53,7 @@
   - 1x Antidote (Status cure: Poison)
   - 1x Moon Stone (Evolution item found in Mt. Moon 1F)
   - 1x Rare Candy (Found at 35, 31 in Mt. Moon 1F)
-  - 1x Potion (Found at 20, 33 in Mt. Moon 1F)
+  - 0x Potion (Used on Hydros in Lass battle)
   - 0x Poké Ball (Exhausted in Mt. Moon)
 
 <hr>
