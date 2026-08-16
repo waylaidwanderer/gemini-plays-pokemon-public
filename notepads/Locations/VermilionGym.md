@@ -29,4 +29,8 @@
   - Post-battle dialogue: "OK, I'll talk! LT.SURGE said he hid door switches inside something!"
   - Team: Voltorb Lv 20, Magnemite Lv 20, Voltorb Lv 20
   - Reward: ¥500
-- Gentleman Tucker (Trainer #3): Located at (9, 6) facing Left [Pre-battle: "When I was in the Army, LT.SURGE was my strict CO!"].
+- Gentleman Tucker (Trainer #3): Located at (9, 6) [Defeated Turn 2217].
+  - Pre-battle dialogue: "When I was in the Army, LT.SURGE was my strict CO!"
+  - Defeat quote: "Stop! You're very good!"
+  - Team: Pikachu Lv 23
+  - Reward: ¥1610
