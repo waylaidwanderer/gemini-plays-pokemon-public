@@ -19,12 +19,11 @@ def get_textbox_ratio():
             
     return white_pixels / total_pixels
 
-# We are at (6, 2) inside the Safari Zone Gatehouse facing LEFT.
-# The clerk is behind the counter at (8, 2).
-# We turn RIGHT to face the counter at (7, 2) and the clerk at (8, 2).
+# We are at (6, 2) inside the Safari Zone Gatehouse facing RIGHT.
+# Let's walk to (7, 2) facing RIGHT (directly adjacent to the clerk at 8, 2).
 
-print("--- TALKING TO CLERK ---")
-# 1. Turn RIGHT (will bump into counter at 7, 2 but face right)
+print("--- STEPPING TO CLERK ---")
+# 1. Step RIGHT to (7, 2)
 mgba.press_buttons(["Right"])
 time.sleep(0.5)
 
@@ -40,8 +39,8 @@ for i in range(12):
     time.sleep(1.0)
     pos = mgba.get_coordinates()
     print(f"Step {i+1}: position={pos}, TextBox ratio={get_textbox_ratio()}")
-    if pos and (pos['x'] != 6 or pos['y'] != 2):
-        print("Successfully warped into Safari Zone!")
+    if pos and (pos['x'] != 6 and pos['x'] != 7):
+        print("Successfully warped into Safari Zone Center!")
         break
 
 time.sleep(1.5)
