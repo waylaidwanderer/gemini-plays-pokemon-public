@@ -3,8 +3,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon 1F (x=11, y=11)
-- Current Objective: Explore Mt. Moon 1F western corridor, defeat trainers, collect items, and locate the ladder to Route 4
+- Location: Mt. Moon 1F (x=5, y=5)
+- Current Objective: Collect item ball at (2, 2) in northwest chamber, then descend ladder at (5, 5) to Route 4 path
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
