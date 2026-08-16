@@ -356,7 +356,7 @@
 - Rock divider at rows 20-21 (cols 14-19) separates southern entrance room from northern cavern
 - Southern room bypass corridor to eastern corridor at cols 24-33 (rows 24-27)
 - Main progression corridor heading north is at columns 32-33 (rows 18-26+)
-- NW ladder at (21, 17) connects to open corridor (cols 18-22, rows 9-18) leading north along the west side of dividing wall (cols 23-24).
+- NW ladder at (21, 17) connects to open corridor (cols 20-22, rows 5-18) that dead-ends at row 5; cross-passage at row 12-13 connects east across cols 21-26+.
 
 ## Items & Discoveries
 - Item Ball: Located at (29, 5) on the upper ledge [Observed Turn 525]
