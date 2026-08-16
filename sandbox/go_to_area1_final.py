@@ -59,14 +59,16 @@ def walk_to_waypoint(target_x, target_y):
         mgba.press_buttons([btn])
         time.sleep(0.42)
 
-print("--- PHASE 1: Safari Zone Center to Area 1 (East) (Golden speedrun route) ---")
-# Start at (11, 18) on the plateau
+print("--- PHASE 1: Safari Zone Center to Area 1 (East) (Golden Plateau Route) ---")
+# Start at (15, 22)
 waypoints = [
-    (12, 18), # Right 1 step to Column 12
-    (12, 22), # Down Column 12 (descend stairs to ground Row 22)
-    (28, 22), # Right to Column 28
-    (28, 10), # Up Column 28 to Row 10
-    (30, 10)  # Eastern transition
+    (12, 22), # Left to Column 12 on Row 22
+    (12, 20), # Up Column 12 (climb stairs to plateau Row 20)
+    (20, 20), # Right on plateau to Column 20
+    (20, 22), # Down Column 20 (descend stairs to ground Row 22)
+    (26, 22), # Right to Column 26
+    (26, 10), # Up Column 26 to Row 10
+    (30, 10)  # Right to Column 30 (transition warp)
 ]
 
 for wp in waypoints:
