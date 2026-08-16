@@ -1,55 +1,38 @@
 import mgba
 import time
 
-print("--- EXECUTING SAFARI ESCAPE AND GOLD TEETH RETRIEVAL ---")
+print("--- WALK EAST GAP AND RETRIEVE GOLD TEETH ---")
 
 def get_pos():
     return mgba.get_coordinates()
 
-# Current position is (19, 22) inside Area 3 (West) with ITEM bag open.
-# 0. Close the bag and START menu (press B 2 times)
-print("Step 0: Closing menus to return to overworld...")
-mgba.press_buttons(["B"])
-time.sleep(0.5)
-mgba.press_buttons(["B"])
-time.sleep(0.5)
-print("Returned to overworld. Current Position:", get_pos())
-
-# 1. Walk Right along Row 22 to Column 22: (22, 22) (3 steps Right)
-print("Step 1: Walking Right to Column 22")
-for _ in range(10):
-    pos = get_pos()
-    if pos and pos['x'] == 22:
-        print("Arrived at Column 22!")
-        break
+# Current position is (19, 23) facing LEFT.
+# 1. Walk to (21, 23): Right 3 times (1 turn + 2 steps).
+print("Step 1: Walking to (21, 23)")
+mgba.press_buttons(["Right"])
+time.sleep(0.4)
+for _ in range(2):
     mgba.press_buttons(["Right"])
     time.sleep(0.4)
-else:
-    print("Failed to reach Column 22!")
+print("Position after Step 1:", get_pos())
 
-# 2. Walk Down Column 22 to Row 26: (22, 26) (4 steps Down)
-print("Step 2: Walking Down Column 22 to Row 26")
-for _ in range(10):
-    pos = get_pos()
-    if pos and pos['y'] == 26:
-        print("Arrived at Row 26!")
-        break
+# 2. Walk Down to (21, 26): Down 4 times (1 turn + 3 steps).
+print("Step 2: Walking Down Column 21 to Row 26")
+mgba.press_buttons(["Down"])
+time.sleep(0.4)
+for _ in range(3):
     mgba.press_buttons(["Down"])
     time.sleep(0.4)
-else:
-    print("Failed to reach Row 26!")
+print("Position after Step 2:", get_pos())
 
-# 3. Walk Left along Row 26 to Column 19: (19, 26) (3 steps Left)
+# 3. Walk Left to (19, 26): Left 3 times (1 turn + 2 steps).
 print("Step 3: Walking Left along Row 26 to Column 19")
-for _ in range(10):
-    pos = get_pos()
-    if pos and pos['x'] == 19:
-        print("Arrived at Column 19!")
-        break
+mgba.press_buttons(["Left"])
+time.sleep(0.4)
+for _ in range(2):
     mgba.press_buttons(["Left"])
     time.sleep(0.4)
-else:
-    print("Failed to reach Column 19!")
+print("Position after Step 3:", get_pos())
 
 # 4. Face UP and press A to retrieve Gold Teeth
 print("Step 4: Retrieving Gold Teeth")
@@ -76,8 +59,8 @@ for _ in range(7):
 mgba.press_buttons(["Down", "sleep 100", "A"])
 time.sleep(1.0)
 
-# Press Down once to highlight TRUFFLE, and A
-mgba.press_buttons(["Down", "sleep 100", "A"])
+# Select TRUFFLE (first slot, cursor is already on him!)
+mgba.press_buttons(["A"])
 time.sleep(1.0)
 
 # Select DIG (Option 1 in submenu)
