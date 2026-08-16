@@ -2,7 +2,7 @@
 
 ## Current Status
 - Player: BLUE
-- Badges: 1/8 (Boulder Badge)
+- Badges: 2/8 (Boulder Badge, Cascade Badge)
 - Location: Cerulean City - Cerulean Gym (x=5, y=2)
 
 ## Notepads Index
