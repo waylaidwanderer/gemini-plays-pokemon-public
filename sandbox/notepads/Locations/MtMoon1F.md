@@ -66,5 +66,5 @@
 - Zubat Lv 8 [Encountered Turn 773 at (24, 20)]
 - Zubat [Encountered Turn 775 at (14, 18)]
 - Zubat [Encountered Turn 781 at (20, 24)]
-- Trainer #7 (Lass): Located near south corridor at (16, 24). Team: Clefairy Lv 14 (1 Pokémon).
+- Trainer #7 (Lass): Located near south corridor at (16, 24) [Defeated Turn 839]. Team: Clefairy Lv 14 (1 Pokémon).
 - Trainer #8 (Bug Catcher): Located in southwest sector at (7, 24) [Defeated Turn 833]. Team: Weedle Lv 11, Kakuna Lv 11.
