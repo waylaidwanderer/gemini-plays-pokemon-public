@@ -58,37 +58,11 @@ def walk_to_waypoint(target_x, target_y):
         time.sleep(0.44)
 
 # ==========================================================
-# PHASE 0: Fuchsia City to Safari Gatehouse
+# PHASE 0: Fuchsia City to Safari Gatehouse (After CUTting bush)
 # ==========================================================
 print("PHASE 0: Navigating Fuchsia City to Safari Gatehouse...")
 
 fuchsia_waypoints = [
-    (26, 15),
-    (26, 14)
-]
-
-for wx, wy in fuchsia_waypoints:
-    if not walk_to_waypoint(wx, wy):
-        print(f"Failed fuchsia waypoint: ({wx}, {wy})")
-        exit(1)
-
-# Cut the bush at (26, 13)
-print("Cutting bush at (26, 13)...")
-bridge.press_buttons(["Up"]) # Ensure we face UP towards (26, 13)
-time.sleep(0.5)
-bridge.press_buttons(["Start"])
-time.sleep(0.8)
-bridge.press_buttons(["Down", "A"]) # POKEMON menu
-time.sleep(1.0)
-bridge.press_buttons(["Down", "A"]) # Select TRUFFLE
-time.sleep(1.0)
-bridge.press_buttons(["A"]) # Choose CUT
-time.sleep(3.0) # Wait for animation
-bridge.press_buttons(["B", "B"]) # Exit any remaining menu safely
-time.sleep(1.0)
-
-# Continue path to Gatehouse
-fuchsia_gatehouse_waypoints = [
     (26, 9),
     (19, 9),
     (19, 8),
@@ -100,9 +74,9 @@ fuchsia_gatehouse_waypoints = [
     (18, 3) # Emerge in Gatehouse
 ]
 
-for wx, wy in fuchsia_gatehouse_waypoints:
+for wx, wy in fuchsia_waypoints:
     if not walk_to_waypoint(wx, wy):
-        print(f"Failed gatehouse entry waypoint: ({wx}, {wy})")
+        print(f"Failed fuchsia waypoint: ({wx}, {wy})")
         exit(1)
 
 # Wait for map transition to Gatehouse
@@ -255,11 +229,30 @@ bridge.press_buttons(["Start"])
 time.sleep(0.8)
 bridge.press_buttons(["Down", "A"]) # POKEMON menu
 time.sleep(1.0)
-bridge.press_buttons(["Down", "A"]) # Select TRUFFLE
+
+# Since TRUFFLE is 2nd Pokémon, we can use the same Up-reset sequence to select DIG
+print("Resetting POKEMON cursor to first Pokémon...")
+for _ in range(5):
+    bridge.press_buttons(["Up"])
+    time.sleep(0.1)
+
+print("Selecting TRUFFLE...")
+bridge.press_buttons(["Down", "A"])
 time.sleep(1.0)
-bridge.press_buttons(["Down", "A"]) # Choose DIG
-time.sleep(1.0)
-bridge.press_buttons(["A"])
+
+# On TRUFFLE, since it has CUT and DIG:
+# Field moves listed are:
+# 1. CUT
+# 2. DIG
+# Submenu starts at POKEDEX/STATS. So let's reset to first option (CUT)
+print("Resetting submenu cursor to first option...")
+for _ in range(4):
+    bridge.press_buttons(["Up"])
+    time.sleep(0.1)
+
+# Press Down once to go to DIG
+print("Selecting DIG...")
+bridge.press_buttons(["Down", "A"])
 time.sleep(3.0) # Wait for DIG warp animation
 
 final_pos = bridge.get_coordinates()
