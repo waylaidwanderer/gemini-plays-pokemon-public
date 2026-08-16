@@ -20,6 +20,7 @@
 2. **TRUFFLE** (Paras)
    - Level: 15
    - Status: Healthy
+   - Moveset: STUN SPORE, LEECH LIFE, DIG, CUT
 
 3. **GUSTY** (Pidgey)
    - Level: 5
