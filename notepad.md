@@ -896,6 +896,15 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 - **Checkerboard Fence Posts (Rows 19-21, Columns 14-21):** An interlocking grid of solid fence posts (Row 19: odd columns blocked; Row 20: even columns blocked; Row 21: odd columns blocked). Completely prevents crossing between Row 20 and Row 21 across Columns 14-17. Column 18 Row 21 is open, but Row 22 on Columns 18-21 is blocked by the Pokémon Center building. Column 13 is open and bypasses the entire checkerboard!
 - **Row 32 Open Bypass (CORRECTED):** Row 32 is NOT open all the way from Column 25 to Column 19. It is blocked at Column 24/25 (by a solid fence/building and/or Hiker NPC), making it a dead end on the eastern side.
 
+## Verified Overworld Barriers and Routing Realities (Turn 42520)
+- **Gold Teeth Status:** The Gold Teeth are NOT present at (19, 25) in the overworld of Area 3 (West). The tile is a dark green tree and contains no item ball. Since neither the Teeth nor HM04 is in our bag, they must be in our PC item storage!
+- **Row 11 Column 17 Tree:** There is a solid vertical tree barrier on Column 17 on Rows 10-14, completely blocking horizontal traversal between the east and west sides on Row 11-13.
+- **Row 14 Column 19 Tree:** Row 14 is blocked at Column 19 by a solid pine tree.
+- **Column 21 Row 13 Tree:** Column 21 is blocked at Row 13 by a solid tree.
+- **Row 20 Shrub Wall:** Row 20 has solid green bushes on Columns 14-18, blocking vertical traversal on those columns.
+- **Corrected PC Route from Gatehouse:** Since the overworld has several interlocking tree/building walls, to reach the Pokémon Center from (19, 12), we must use the open channels carefully once we exit the menus.
+
+
 <hr>
 
 <h1><code>notepads/Locations/FuchsiaGym.md</code></h1>
