@@ -1,8 +1,8 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. HYDROS (Wartortle) - Lv 18
-   - Stats (Verified at Lv 18): Max HP 54 (HP: 48/54, Healthy - Attack 32, Defense 36, Speed 33, Special 34)
+1. HYDROS (Wartortle) - Lv 19
+   - Stats (Verified at Lv 19): Max HP 57 (HP: 51/57, Healthy - Attack 33, Defense 38, Speed 35, Special 36)
    - Type: Water
    - Moves: Tackle (32/35), Tail Whip (30/30), Bubble (28/30), Water Gun (19/25)
    - Role: Starter & primary Water special attacker
