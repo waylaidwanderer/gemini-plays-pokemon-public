@@ -8,14 +8,8 @@
 - Left Teleporter capsule: Located at (2, 4)
 - PC terminal / control console: Located at (1, 4..5)
 - Right Teleporter capsule: Located at (6, 4)
-- Bill (Pokémon form): Located at (6, 5)
+- Bill's PC Monitor: Displays evolutionary data for Eevee, Flareon, Jolteon, and Vaporeon.
 
-## Empirical Observations & Dialogue Log
-- Spoke with Bill at (6, 5) on Turn 1739: "Hiya! I'm a POKéMON... No I'm not! Call me BILL! I'm a real POKéMANIAC!"
-- Interacted with PC terminal at (1, 4) on Turn 1748: "TELEPORTER's Cell Separator!" activated.
-- Cell Separation completed: Bill emerged in human form at (4, 4).
-- Spoke with human Bill at (4, 4) on Turn 1751:
-  "BILL: Yeehah! Thanks, bud! I owe you one! ... Oh here, maybe this'll do."
-  Received S.S. TICKET!
-  Bill suggests boarding the S.S. Anne in Vermilion City.
-- Interacted with Bill's PC on Turn 1762: Viewed displays for Eevee, Flareon, Jolteon, and Vaporeon on the PC monitor.
+## Verified NPCs & Dialogue
+- Bill (Pokémon Form): Encountered at (6, 5). Dialogue: "Hiya! I'm a POKéMON... No I'm not! Call me BILL! I'm a real POKéMANIAC! ... I screwed up an experiment and got combined with a POKéMON! So, how about it? Help me out?"
+- Bill (Human Form): Appears at (4, 4) after running Cell Separation from PC at (1, 4). Dialogue: "BILL: Yeehah! Thanks, bud! I owe you one! ... Oh here, maybe this'll do." Rewarded player with S.S. Ticket for cruise in Vermilion City.
