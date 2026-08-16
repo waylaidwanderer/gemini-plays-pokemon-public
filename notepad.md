@@ -5,8 +5,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon 1F (x=25, y=15)
-- Current Objective: Descend ladder at (25, 15) to explore Mt. Moon B1F/B2F eastern segment
+- Location: Mt. Moon 1F (x=25, y=16)
+- Current Objective: Step up onto ladder at (25, 15) to descend into Mt. Moon B1F
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -238,7 +238,8 @@
 - South Exit: Warp to Route 3 exterior plaza at (14, 35) / (15, 35) [Entered Turn 465 at (14, 35)]
 - Ladders:
   - Ladder at (5, 5) [Verified Turn 612] - Northwest ladder to B1F (progression route)
-  - Ladder at (25, 15) [Discovered Turn 474] - Unexplored (leads to B1F/B2F)
+  - Ladder at (25, 15) [Verified Turn 654] - East chamber ladder to B1F
+  - Ladder at (21, 17) [Discovered Turn 654] - East chamber southern ladder
   - Ladder at (17, 11) [Discovered Turn 475] - Explored (leads to isolated B2F ledge)
 
 ## Layout & Landmarks
