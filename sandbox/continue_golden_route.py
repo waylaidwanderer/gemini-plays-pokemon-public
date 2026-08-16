@@ -33,7 +33,7 @@ def walk_to_waypoint(target_x, target_y):
         if curr == last_coords:
             stuck_count += 1
             if stuck_count > 4:
-                print(f"Unchanged position at {curr}. Checking if in battle...")
+                print(f"Stuck at {curr} trying to reach ({target_x}, {target_y})")
                 escape_battle()
                 stuck_count = 0
                 time.sleep(0.5)
@@ -59,12 +59,22 @@ def walk_to_waypoint(target_x, target_y):
         bridge.press_buttons([btn])
         time.sleep(0.4)
 
-# Waypoints starting from current position (10, 17) in Area 2 (North)
+# Waypoints starting from current position (18, 6) on the plateau
 waypoints = [
-    (9, 17),   # Walk left to Column 9
-    (9, 35),   # Walk down Column 9 to southern corridor
-    (8, 35),   # Walk left to Column 8
-    (8, 36),   # Transitions to Area 3 (West) at (26, 0)
+    (12, 6),  # Walk left on plateau
+    (12, 8),  # Descend stairs onto ground
+    (12, 5),  # Walk up to Row 5
+    (39, 5),  # Walk right all the way to Column 39
+    (39, 31), # Walk down Column 39 to southern corridor Row 31
+    (22, 31), # Walk left to Column 22
+    (22, 22), # Climb Western Southern Plateau stairs
+    (16, 22), # Walk left on plateau
+    (16, 28), # Descend stairs to ground level
+    (12, 28),
+    (12, 30), # Bypass pond
+    (8, 30),
+    (8, 35),
+    (8, 36),  # Transitions to Area 3 (West) at (26, 0)
     
     # Phase 4: Area 3 (West) to (19, 24)
     (26, 2),
@@ -76,7 +86,7 @@ waypoints = [
     (19, 24)
 ]
 
-print("Continuing golden route from (10, 17)...")
+print("Continuing golden route from (18, 6)...")
 success = True
 for idx, (wx, wy) in enumerate(waypoints):
     print(f"Waypoint {idx+1}/{len(waypoints)}: ({wx}, {wy})")
