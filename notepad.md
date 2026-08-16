@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 2/8 (Boulder Badge, Cascade Badge)
-- Location: S.S. Anne 2F (x=37, y=15)
+- Location: S.S. Anne Upper Hallway (x=10, y=3)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -36,12 +36,12 @@
 
 ## Active Party
 1. HYDROS (Wartortle) - Lv 30
-   - Stats (Verified at Lv 30): Max HP 86 (HP: 80/86, Healthy), Attack 53, Defense 60, Speed 54, Special 57
+   - Stats (Verified at Lv 30): Max HP 86 (HP: 73/86, Healthy), Attack 53, Defense 60, Speed 54, Special 57
    - Type: Water
-   - Moves: Tackle (33/35), Tail Whip (30/30), Bite (23/25), Bubblebeam (17/20)
+   - Moves: Tackle (33/35), Tail Whip (30/30), Bite (18/25), Bubblebeam (17/20)
    - Role: Starter & primary Water special attacker (Active Lead)
 2. ECHO (Zubat) - Lv 8
-   - Stats (Verified at Lv 8): Max HP 26 (HP: 26/26, Healthy)
+   - Stats (Verified at Lv 8): Max HP 26 (HP: 12/26, Healthy)
    - Type: Poison / Flying
    - Moves: Leech Life (15/15), Supersonic (20/20)
    - Role: Fast Flying/Poison utility & Grass counter
@@ -54,11 +54,11 @@
 ## Planned Nicknaming Strategy
 - Every captured Pok�mon will receive a thoughtful, unique nickname.
 
-## Inventory & Resources (Verified Turn 1953)
-- Money: �6531
+## Inventory & Resources (Verified Turn 2011)
+- Money: �7041
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pok�mon up to Lv 30 obey)
 - Key Items: Town Map, Helix Fossil, S.S. Ticket, Bike Voucher
-- TMs / HMs: TM34 (Bide), TM28 (Dig)
+- TMs / HMs: TM08 (Body Slam), TM28 (Dig), TM34 (Bide)
 - Valuables:
   - 1x Nugget (Nugget Bridge completion prize - sellable for �5000)
 - Consumables:
@@ -720,6 +720,12 @@
 - Layout: cols 15-27, rows 4-5.
 - Doorways along north wall at (15, 3), (19, 3), (23, 3).
 - Connection to 2F East Corridor at (27, 5) <-> (37, 15).
+
+## North Cabin 3 (Upper Hallway Entrance at 15, 3)
+- Coordinates: cols 20-23, rows 1-5.
+- Doorway exit at (23, 5).
+- Trainer: Sailor at (22, 3) [Defeated Turn 1993]. Team: Horsea Lv 17, Horsea Lv 17.
+- Item: TM08 (Body Slam) found on floor at (20, 3) [Obtained Turn 1998, Verified Turn 2011].
 
 
 <hr>

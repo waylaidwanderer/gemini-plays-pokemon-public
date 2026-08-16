@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 2/8 (Boulder Badge, Cascade Badge)
-- Location: S.S. Anne 2F (x=37, y=15)
+- Location: S.S. Anne Upper Hallway (x=10, y=3)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory

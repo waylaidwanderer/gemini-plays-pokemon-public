@@ -2,12 +2,12 @@
 
 ## Active Party
 1. HYDROS (Wartortle) - Lv 30
-   - Stats (Verified at Lv 30): Max HP 86 (HP: 80/86, Healthy), Attack 53, Defense 60, Speed 54, Special 57
+   - Stats (Verified at Lv 30): Max HP 86 (HP: 73/86, Healthy), Attack 53, Defense 60, Speed 54, Special 57
    - Type: Water
-   - Moves: Tackle (33/35), Tail Whip (30/30), Bite (23/25), Bubblebeam (17/20)
+   - Moves: Tackle (33/35), Tail Whip (30/30), Bite (18/25), Bubblebeam (17/20)
    - Role: Starter & primary Water special attacker (Active Lead)
 2. ECHO (Zubat) - Lv 8
-   - Stats (Verified at Lv 8): Max HP 26 (HP: 26/26, Healthy)
+   - Stats (Verified at Lv 8): Max HP 26 (HP: 12/26, Healthy)
    - Type: Poison / Flying
    - Moves: Leech Life (15/15), Supersonic (20/20)
    - Role: Fast Flying/Poison utility & Grass counter
@@ -20,11 +20,11 @@
 ## Planned Nicknaming Strategy
 - Every captured Pok�mon will receive a thoughtful, unique nickname.
 
-## Inventory & Resources (Verified Turn 1953)
-- Money: �6531
+## Inventory & Resources (Verified Turn 2011)
+- Money: �7041
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pok�mon up to Lv 30 obey)
 - Key Items: Town Map, Helix Fossil, S.S. Ticket, Bike Voucher
-- TMs / HMs: TM34 (Bide), TM28 (Dig)
+- TMs / HMs: TM08 (Body Slam), TM28 (Dig), TM34 (Bide)
 - Valuables:
   - 1x Nugget (Nugget Bridge completion prize - sellable for �5000)
 - Consumables:
