@@ -29,4 +29,4 @@
   - Post-battle dialogue: "OK, I'll talk! LT.SURGE said he hid door switches inside something!"
   - Team: Voltorb Lv 20, Magnemite Lv 20, Voltorb Lv 20
   - Reward: ¥500
-- Jr. Trainer ♂ (Trainer #3): Located at (9, 6) facing Left (unbattled).
+- Gentleman Tucker (Trainer #3): Located at (9, 6) facing Left [Pre-battle: "When I was in the Army, LT.SURGE was my strict CO!"].
