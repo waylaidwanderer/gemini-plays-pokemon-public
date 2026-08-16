@@ -1,18 +1,6 @@
 import bridge
 import time
 
-def escape_battle():
-    print("Encountered a battle! Attempting to escape...")
-    for _ in range(5):
-        bridge.press_buttons(["B"])
-        time.sleep(0.1)
-    bridge.press_buttons(["Down", "Right", "A"])
-    time.sleep(1.2)
-    for _ in range(5):
-        bridge.press_buttons(["B"])
-        time.sleep(0.1)
-    print("Escape sequence complete.")
-
 def walk_to_waypoint(target_x, target_y):
     print(f"Navigating to waypoint ({target_x}, {target_y})...")
     stuck_count = 0
@@ -33,13 +21,10 @@ def walk_to_waypoint(target_x, target_y):
         if curr == last_coords:
             stuck_count += 1
             if stuck_count > 4:
-                print(f"Stuck at {curr} trying to reach ({target_x}, {target_y}). Attempting escape...")
-                escape_battle()
+                print(f"Stuck at {curr} trying to reach ({target_x}, {target_y}). Retrying...")
+                bridge.press_buttons(["A", "B"])
+                time.sleep(0.5)
                 stuck_count = 0
-                time.sleep(0.5)
-                # Press B to recover any open menus
-                bridge.press_buttons(["B", "B"])
-                time.sleep(0.5)
         else:
             stuck_count = 0
             last_coords = curr
@@ -57,27 +42,40 @@ def walk_to_waypoint(target_x, target_y):
         bridge.press_buttons([btn])
         time.sleep(0.44)
 
-# 1. Open Menu and use DIG on TRUFFLE
-print("Opening Start Menu...")
-bridge.press_buttons(["Start"])
+# Starting outside Fuchsia Pokemon Center at (19, 28)
+print("Starting journey to Warden's House...")
+
+# 1. Walk to Warden's House entrance at (27, 27)
+walk_to_waypoint(27, 28)
+walk_to_waypoint(27, 27)
+
+# Enter the Warden's House (triggers transition)
+print("Entering Warden's House...")
+bridge.press_buttons(["Up"])
 time.sleep(1.0)
 
-# Select POKEMON (usually option 3 from top, but cursor defaults to last selected option which was SAVE)
-# Let's count options:
-# 1. POKEDEX
-# 2. POKEMON
-# 3. ITEM
-# 4. ACE
-# 5. SAVE (cursor should be here by default!)
-# To go from SAVE to POKEMON, we press UP 3 times, then A.
-print("Selecting POKEMON menu...")
-bridge.press_buttons(["Up", "Up", "Up", "A"])
-time.sleep(1.2)
+# Check coordinates inside Warden's House (should emerge at (4, 7) or similar)
+curr_house = bridge.get_coordinates()
+print("Emerged inside Warden's House at:", curr_house)
 
-# Select TRUFFLE (Paras, usually slot 2)
-print("Selecting TRUFFLE (Paras)...")
-bridge.press_buttons(["Down", "A"])
-time.sleep(1.2)
-
-print("Now inside TRUFFLE's sub-menu! Stopping to let the player verify options.")
-
+if curr_house is not None and curr_house[1] <= 8:
+    # 2. Walk to Warden at (2, 3)
+    print("Walking to Warden at (2, 3)...")
+    walk_to_waypoint(2, 4)
+    bridge.press_buttons(["Up"])
+    time.sleep(0.5)
+    
+    # 3. Talk to Warden and get HM04 (Strength)
+    print("Talking to Warden...")
+    bridge.press_buttons(["A"])
+    time.sleep(1.0)
+    
+    # Mash A to clear dialogue until we receive HM04 and dialogue completely closes
+    print("Mashing A to clear dialogue...")
+    for _ in range(12):
+        bridge.press_buttons(["A"])
+        time.sleep(0.8)
+        
+    print("Warden Dialogue Complete! Position:", bridge.get_coordinates())
+else:
+    print("Warp failed or coordinates incorrect.")
