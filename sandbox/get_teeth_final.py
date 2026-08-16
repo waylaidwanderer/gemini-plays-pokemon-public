@@ -2,19 +2,6 @@ import mgba
 import time
 import os
 
-def escape_battle():
-    print("Encountered a battle! Attempting to escape...")
-    for _ in range(6):
-        mgba.press_buttons(["B"])
-        time.sleep(0.1)
-    # Highlight RUN (Down, Right) and select
-    mgba.press_buttons(["Down", "Right", "A"])
-    time.sleep(1.0)
-    for _ in range(6):
-        mgba.press_buttons(["B"])
-        time.sleep(0.1)
-    print("Escape sequence complete.")
-
 def walk_to_waypoint(target_x, target_y):
     print(f"Navigating to waypoint ({target_x}, {target_y})...")
     stuck_count = 0
@@ -36,14 +23,10 @@ def walk_to_waypoint(target_x, target_y):
             stuck_count += 1
             if stuck_count > 4:
                 print(f"Stuck at ({x}, {y}) trying to reach ({target_x}, {target_y})")
-                escape_battle()
-                stuck_count = 0
+                # Fallback dialogue clearing just in case
+                mgba.press_buttons(["A", "B", "A", "B"])
                 time.sleep(0.5)
-                after_coords = mgba.get_coordinates()
-                if after_coords['x'] == x and after_coords['y'] == y:
-                    print("Coordinates still unchanged. Clearing text boxes...")
-                    mgba.press_buttons(["A", "B", "A", "B"])
-                    time.sleep(0.5)
+                stuck_count = 0
         else:
             stuck_count = 0
             last_coords = (x, y)
@@ -61,13 +44,12 @@ def walk_to_waypoint(target_x, target_y):
         mgba.press_buttons([btn])
         time.sleep(0.42)
 
-# ==========================================================
-# PHASE 4 (FINAL FROM (16, 23)): (16, 23) -> Gold Teeth!
-# ==========================================================
-print("--- PHASE 4: FINAL RETRIEVAL FROM (16, 23) ---")
+print("--- RETRIEVING GOLD TEETH VIA COLUMN 16 BYPASS ---")
+# Current position is (21, 24).
 waypoints = [
-    (16, 26), # Walk DOWN to Row 26 (Highway)
-    (19, 26)  # Stand at (19, 26) directly below the teeth!
+    (16, 24), # Walk LEFT to Column 16 on Row 24 (completely open, grass-free!)
+    (16, 26), # Walk DOWN Column 16 to Row 26 (completely open, grass-free!)
+    (19, 26)  # Walk RIGHT to Column 19 directly below the Gold Teeth (completely open!)
 ]
 
 for wp in waypoints:
@@ -99,7 +81,8 @@ obsolete_files = [
     "get_teeth_from_north.py",
     "get_teeth_from_east.py",
     "get_teeth_fast.py",
-    "check_stairs.py"
+    "check_stairs.py",
+    "go_to_gatehouse.py"
 ]
 for f in obsolete_files:
     if os.path.exists(f):
