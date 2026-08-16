@@ -12,3 +12,5 @@
 
 ## Verified Encounters & Battles
 - Rival RED Encounter: Located at (20, 5) [Triggered Turn 1499]. Pre-battle dialogue: "Yo! BLUE! You're still struggling along back here? I'm doing great! I caught a bunch of smart and strong POKéMON! Here, let me see what you caught, BLUE!"
+
+- Battle Log: Defeated RED's Pidgeotto Lv 18 with critical hit Bubblebeam (Turn 1509). Hydros grew to Lv 25.
