@@ -57,18 +57,14 @@ def walk_to_waypoint(target_x, target_y):
         bridge.press_buttons([btn])
         time.sleep(0.44)
 
-# We are currently at (3, 4) in the Gatehouse, with "Hi! Is it your first time here?" (YES/NO) open
-print("Handling Clerk Dialogue from Turn 41059...")
+# We are currently at (3, 4) in the Gatehouse, with "there's room for new POKéMON!" open
+print("Handling Clerk Dialogue from Turn 41061...")
 
-# Press A to select YES to "first time here?"
-bridge.press_buttons(["A"])
-time.sleep(1.0)
-
-# Press A 8 times to clear descriptions, YES/NO to join, payment, and balls receipts
-print("Mashing A to clear descriptions, payment, and ball receipts...")
-for i in range(8):
+# Let's mash A with a safe 1.2s delay 15 times to ensure we completely clear the dialogue
+print("Mashing A with slow delays to clear remaining dialogue...")
+for _ in range(15):
     bridge.press_buttons(["A"])
-    time.sleep(0.8)
+    time.sleep(1.2)
 
 # Dialogue should be completely closed. Let's walk UP to (3, 0) to warp
 print("Walking UP to warp...")
@@ -89,7 +85,7 @@ while True:
         print("Timeout waiting for warp. Forcing A press...")
         start_time = time.time()
     bridge.press_buttons(["A"])
-    time.sleep(0.8)
+    time.sleep(1.0)
 
 # ----------------------------------------------------
 # PHASE 1: Safari Zone Center directly to Area 1 (East)
