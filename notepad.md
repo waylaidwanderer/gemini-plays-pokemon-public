@@ -313,6 +313,8 @@
 - Zubat [Encountered Turn 987 at (5, 6)]
 - Zubat [Encountered Turn 989 at (5, 17)]
 - Geodude [Encountered Turn 1116 at (15, 17)]
+- Ladder at (23, 3): Connects to B2F northern exit at (5, 7) [Discovered Turn 1151]
+- Ladder at (27, 3): Connects to Mt. Moon 1F exit chamber [Discovered Turn 1151]
 
 <hr>
 
