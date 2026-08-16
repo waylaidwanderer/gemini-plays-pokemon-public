@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 2/8 (Boulder Badge, Cascade Badge)
-- Location: Route 24 (x=20, y=6)
+- Location: Route 24 (x=10, y=25)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -20,7 +20,6 @@
 - `Locations/Route4`: Route 4 layout, ledges, wild encounters
 - `Locations/CeruleanCity`: Cerulean City layout, Gym, Mart, Bike Shop, NPCs
 - `Locations/Route24`: Route 24 layout, Nugget Bridge, Rival battle, trainers
-
 
 <hr>
 
