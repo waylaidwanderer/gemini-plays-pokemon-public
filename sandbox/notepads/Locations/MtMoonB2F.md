@@ -23,3 +23,4 @@
 
 - Ladder at (15, 27): Connects to Mt. Moon B1F southern tunnel [Discovered Turn 852]
 - Main B2F Cavern: Open cavern accessed from (15, 27), cols 11-20+ (rows 23-28+).
+- Rocket Grunt #2: Located at (15, 22) facing South [Turn 853]. Dialogue: "We, TEAM ROCKET, are POKéMON gangsters!"
