@@ -5,8 +5,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon 1F (x=5, y=4)
-- Current Objective: Step down into ladder at (5, 5) to descend into Mt. Moon B1F towards Route 4
+- Location: Mt. Moon 1F (x=5, y=5)
+- Current Objective: Explore south along western corridor to explore southwest chamber (rows 20-35) and locate items/ladders
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -237,10 +237,8 @@
 ## Connections
 - South Exit: Warp to Route 3 exterior plaza at (14, 35) / (15, 35) [Entered Turn 465 at (14, 35)]
 - Ladders:
-  - Ladder at (5, 5) [Verified Turn 612] - Northwest ladder to B1F (Main progression route to Route 4)
   - Ladder at (17, 11) [Explored Turns 520-553] - Central ladder to B1F (leads to isolated B2F treasure ledge)
-  - Ladder at (25, 15) [Observed Turn 656] - Eastern chamber ladder to B1F
-  - Ladder in Northeast sector (cols 35-37) - Leads to B2F upper ledge
+  - Ladder in East / Northeast sector - Leads to B1F/B2F upper ledge
 
 ## Layout & Landmarks
 - Entrance threshold at (14, 35) / (15, 35)
@@ -253,7 +251,7 @@
 - Vertical rock wall at columns 12-13 (rows 2-15) dividing north-central corridor (cols 14-17) from western corridor (cols 10-11)
 - Cross passage connecting central hall to western corridor at row 17 (cols 11-14)
 - Western corridor runs along columns 10-11 heading north to northwest sector
-- Northwest chamber: cols 2-10, rows 2-10. Item Ball at (2, 2) [Moon Stone collected Turn 592], NPC at (5, 6). North wall at row 1, East wall at col 11+, West wall at col 1.
+- Northwest chamber: cols 2-10, rows 2-10. Item Ball at (2, 2) [Moon Stone collected Turn 592], NPC at (5, 6) [Hiker #4 defeated Turn 610]. North wall at row 1, East wall at col 11+, West wall at col 1. (No ladder in this room).
 - Horizontal rock wall at row 18 (cols 2-9). Western passage continues south along columns 10-11 (rows 18-20+).
 - Horizontal rock divider at rows 20-21 (cols 10-15). Passage at row 19 connects East to central corridor (cols 14-16).
 - Observed NPC/Trainer at (7, 22) in southwest pocket.

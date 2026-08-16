@@ -3,8 +3,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon 1F (x=5, y=4)
-- Current Objective: Step down into ladder at (5, 5) to descend into Mt. Moon B1F towards Route 4
+- Location: Mt. Moon 1F (x=5, y=5)
+- Current Objective: Explore south along western corridor to explore southwest chamber (rows 20-35) and locate items/ladders
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
