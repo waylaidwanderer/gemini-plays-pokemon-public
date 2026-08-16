@@ -284,19 +284,6 @@
 - Clefairy (Lv 8) [Rare, central corridor at (14, 16)]
 - Paras [Encountered Turn 697 at (26, 17)]
 - Zubat Lv 8 [Encountered & Defeated Turn 729 at (30, 32)]
-- Zubat Lv 6 [Encountered & Defeated Turn 760 at (24, 16)]
-- Zubat Lv 6 [Encountered & Defeated Turn 765 at (25, 33)]
-- Zubat Lv 9 [Encountered Turn 770 at (25, 33)]
-- Zubat Lv 8 [Encountered Turn 773 at (24, 20)]
-- Zubat [Encountered Turn 775 at (14, 18)]
-- Zubat [Encountered Turn 781 at (20, 24)]
-- Zubat [Encountered Turn 890 at (28, 10)]
-- Zubat [Encountered Turn 895 at (14, 5)]
-- Zubat [Encountered Turn 898 at (14, 10)]
-- Zubat [Encountered Turn 903 at (10, 9)]
-- Zubat [Encountered Turn 905 at (9, 5)]
-- Zubat [Encountered Turn 940 at (10, 15)]
-- Geodude [Encountered Turn 945 at (17, 19)]
 
 <hr>
 
