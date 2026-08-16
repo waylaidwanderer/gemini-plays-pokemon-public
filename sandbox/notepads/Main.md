@@ -3,8 +3,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon 1F (x=35, y=32)
-- Current Objective: Verify inventory item collected, then head west along southern corridor towards southwest chamber (2, 20)
+- Location: Mt. Moon 1F (x=30, y=32)
+- Current Objective: Swap TERRA to party lead, then continue west along southern corridor towards southwest chamber (2, 20)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory

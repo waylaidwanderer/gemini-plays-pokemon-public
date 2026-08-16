@@ -5,8 +5,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon 1F (x=35, y=32)
-- Current Objective: Verify inventory item collected, then head west along southern corridor towards southwest chamber (2, 20)
+- Location: Mt. Moon 1F (x=30, y=32)
+- Current Objective: Swap TERRA to party lead, then continue west along southern corridor towards southwest chamber (2, 20)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -26,21 +26,21 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. HYDROS (Wartortle) - Lv 20
-   - Stats (Verified at Lv 20): Max HP 60 (HP: 1/60, Healthy)
-   - Type: Water
-   - Moves: Tackle (26/35), Tail Whip (30/30), Bubble (22/30), Water Gun (13/25)
-   - Role: Starter & primary Water special attacker (Lead)
+1. TERRA (Geodude) - Lv 10
+   - Stats (Verified at Lv 10): Max HP 30 (HP: 19/30)
+   - Type: Rock / Ground
+   - Moves: Tackle, Defense Curl
+   - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist (Active Lead)
 2. ECHO (Zubat) - Lv 8
    - Stats (Verified at Lv 8): Max HP 26 (HP: 22/26)
    - Type: Poison / Flying
    - Moves: Leech Life (0/15)
    - Role: Fast Flying/Poison utility & Grass counter
-3. TERRA (Geodude) - Lv 10
-   - Stats (Verified at Lv 10): Max HP 30 (HP: 19/30)
-   - Type: Rock / Ground
-   - Moves: Tackle, Defense Curl
-   - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist (Active Lead)
+3. HYDROS (Wartortle) - Lv 20
+   - Stats (Verified at Lv 20): Max HP 60 (HP: 1/60, Healthy)
+   - Type: Water
+   - Moves: Tackle (26/35), Tail Whip (30/30), Bubble (22/30), Water Gun (13/25)
+   - Role: Starter & primary Water special attacker (Bench)
 
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname.
