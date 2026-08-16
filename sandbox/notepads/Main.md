@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 2/8 (Boulder Badge, Cascade Badge)
-- Location: Cerulean City - Pok�mon Center (x=3, y=7)
+- Location: Cerulean City (x=27, y=26)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -15,3 +15,5 @@
 - `Locations/MtMoon1F`: Mt. Moon 1F layout, items, wild encounters, trainers
 - `Locations/MtMoonB1F`: Mt. Moon B1F layout, ladders, wild encounters
 - `Locations/MtMoonB2F`: Mt. Moon B2F layout, Rocket Grunts, items, wild encounters
+- `Locations/Route4`: Route 4 layout, ledges, wild encounters
+- `Locations/CeruleanCity`: Cerulean City layout, Gym, Mart, Bike Shop, NPCs
