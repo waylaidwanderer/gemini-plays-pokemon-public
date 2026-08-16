@@ -63,6 +63,8 @@ def walk_to_waypoint(target_x, target_y):
 print("Resuming Golden Route from Area 1 (East) at (5, 22)...")
 
 # Walk down to Row 24 and resume Area 1 waypoints
+walk_to_waypoint(4, 22)
+walk_to_waypoint(4, 24)
 walk_to_waypoint(5, 24)
 
 waypoints_area1 = [
