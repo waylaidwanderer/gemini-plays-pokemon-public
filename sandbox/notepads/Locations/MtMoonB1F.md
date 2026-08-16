@@ -14,3 +14,4 @@
 ## Empirical Wild Encounters
 - Zubat Lv 9 [Encountered & Defeated Turn 523 at (17, 9)]
 - Eastern platform: cols 24-27 (rows 14-21+). Ladder at (25, 15) connects to 1F at (25, 15). Isolated from western ladder at (21, 17).
+- Zubat [Encountered Turn 847 at (25, 17)]
