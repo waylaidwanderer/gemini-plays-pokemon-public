@@ -62,14 +62,12 @@ def walk_to_waypoint(target_x, target_y):
         time.sleep(0.42)
 
 # ==========================================================
-# PHASE 4 (STAIRS RETRIEVAL FROM (15, 24)): (15, 24) -> Gold Teeth!
+# PHASE 4 (FINAL FROM (16, 23)): (16, 23) -> Gold Teeth!
 # ==========================================================
-print("--- PHASE 4: STAIRS RETRIEVAL FROM (15, 24) ---")
+print("--- PHASE 4: FINAL RETRIEVAL FROM (16, 23) ---")
 waypoints = [
-    (15, 23), # Walk UP to Row 23
-    (16, 23), # Walk RIGHT to Column 16 (above stairs)
-    (16, 26), # Walk DOWN to Row 26 (Highway, descending stairs)
-    (19, 26)  # Walk RIGHT to Column 19 (directly below the teeth!)
+    (16, 26), # Walk DOWN to Row 26 (Highway)
+    (19, 26)  # Stand at (19, 26) directly below the teeth!
 ]
 
 for wp in waypoints:
