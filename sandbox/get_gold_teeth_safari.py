@@ -61,14 +61,12 @@ def walk_to_waypoint(target_x, target_y):
         time.sleep(0.42)
 
 # ==========================================================
-# PHASE 3: Area 2 (North) -> Area 3 (West)
+# PHASE 3: Area 2 (North) -> Area 3 (West) (Starting at (20, 22))
 # ==========================================================
-print("--- PHASE 3: Area 2 (North) to Area 3 (West) ---")
-# Start/Emerge at (39, 31).
+print("--- PHASE 3 (CONTINUED): Area 2 (North) to Area 3 (West) ---")
+# Start at (20, 22) on the plateau.
 area2_waypoints = [
-    (22, 31),
-    (22, 22), # Climb stairs
-    (16, 22),
+    (16, 22), # Walk left on plateau
     (16, 28), # Descend stairs
     (12, 28),
     (12, 30), # Bypass pond
@@ -88,3 +86,39 @@ for _ in range(3):
 time.sleep(1.5)
 coords = mgba.get_coordinates()
 print("Emerged in Area 3 (West) at:", coords)
+
+# ==========================================================
+# PHASE 4: Area 3 (West) -> Retrieve Gold Teeth
+# ==========================================================
+print("--- PHASE 4: Area 3 (West) to Gold Teeth ---")
+# Emerge at (26, 0).
+area3_waypoints = [
+    (26, 2),
+    (25, 2),
+    (25, 18),
+    (21, 18),
+    (21, 26), # Walk down to the Row 26 Highway
+    (19, 26)  # Stand at (19, 26) directly below the teeth!
+]
+
+for wp in area3_waypoints:
+    walk_to_waypoint(wp[0], wp[1])
+
+# Stand at (19, 26) facing UP (North)
+print("Facing UP...")
+mgba.press_buttons(["Up"])
+time.sleep(0.5)
+
+# Press A to pick up the Gold Teeth
+print("Pressing A to pick up the Gold Teeth!")
+mgba.press_buttons(["A"])
+time.sleep(1.5)
+
+# Clear dialogue "ACE picked up the GOLD TEETH!"
+print("Clearing dialogue...")
+mgba.press_buttons(["A"])
+time.sleep(1.0)
+mgba.press_buttons(["A"])
+time.sleep(1.0)
+
+print("Retrieval process fully complete! Current position:", mgba.get_coordinates())
