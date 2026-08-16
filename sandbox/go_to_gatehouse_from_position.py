@@ -37,7 +37,8 @@ def walk_to_waypoint(target_x, target_y):
 print("--- NAVIGATING TO GATEHOUSE VIA EAST HIGHWAY (COLUMN 37) ---")
 
 waypoints = [
-    (37, 15), # Right to Column 37
+    (35, 14), # Up 1 step to Row 14 (bypasses Row 15 trees)
+    (37, 14), # Right to Column 37 on Row 14
     (37, 2),  # Up Column 37 to the far north (Row 2)
     (22, 2),  # Left to Column 22 on Row 2
     (22, 4),  # Down to Row 4
