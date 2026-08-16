@@ -536,6 +536,7 @@
 - Trainer #2 (Hiker Franklin): Located at (14, 7) facing West [Defeated Turn 1608]. Team: Onix Lv 17, Geodude Lv 17. Reward: ¥595. Dialogue: "You're going to see BILL? First, we fight!" Defeat quote: "You gave me your best!"
 - Trainer #3 (Lass): Located at (18, 8) facing West [Defeated Turn 1611]. Team: Nidoran♂ Lv 15, Nidoran♀ Lv 15. Reward: ¥225. Dialogue: "Hi! My boy friend is cool!" Defeat quote: "I was in bad condition!"
 - Trainer #3 (Youngster Dan): Located at (18, 4) facing West [Defeated Turn 1614]. Team: Slowpoke Lv 17. Reward: ¥255.
+- Trainer #4 (Lass): Located at (19, 8) facing East [Defeated Turn 1617]. Team: Nidoran♂ Lv 15, Nidoran♀ Lv 15. Reward: ¥225. Dialogue: "Hi! My boy friend is cool!" Defeat quote: "I was in bad condition!"
 
 
 <hr>
