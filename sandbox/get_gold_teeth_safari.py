@@ -85,7 +85,10 @@ print("Selecting TRUFFLE...")
 bridge.press_buttons(["Down", "A"])
 time.sleep(1.0)
 
-# Press Down once to select CUT (since DIG is 1st and CUT is 2nd in the submenu, and the cursor defaults to 1st)
+# In the submenu, the options are:
+# 1. DIG (since DIG is listed before CUT in the moves list)
+# 2. CUT
+# Since the cursor defaults to DIG (Option 1), we press Down once to select CUT (Option 2)
 print("Selecting CUT...")
 bridge.press_buttons(["Down", "A"])
 time.sleep(2.0) # Wait for text/animation
