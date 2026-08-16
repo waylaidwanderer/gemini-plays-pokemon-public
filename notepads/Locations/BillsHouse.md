@@ -13,3 +13,4 @@
 ## Empirical Observations & Dialogue Log
 - Spoke with Bill at (6, 5) on Turn 1739: "Hiya! I'm a POKéMON... No I'm not! Call me BILL! I'm a real POKéMANIAC!"
 - Interacted with PC terminal at (1, 4) on Turn 1748: "TELEPORTER's Cell Separator!" activated.
+- Cell Separation completed: Bill emerged in human form at (4, 4).
