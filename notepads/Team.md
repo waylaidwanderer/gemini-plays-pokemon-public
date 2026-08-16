@@ -29,5 +29,5 @@
   - 1x Antidote (Status cure: Poison)
   - 1x Moon Stone (Evolution item found in Mt. Moon 1F)
   - 1x Rare Candy (Found at 35, 31 in Mt. Moon 1F)
-  - 0x Potion (None remaining)
+  - 1x Potion (Found at 20, 33 in Mt. Moon 1F)
   - 0x Poké Ball (Exhausted in Mt. Moon)

@@ -32,7 +32,7 @@
 - Item Ball: Located at (2, 2) in northwest chamber - Moon Stone [Collected Turn 592]
 - Item Ball: Located at (2, 20) in southwest chamber [Discovered Turn 676]
 - Item Ball: Located at (35, 31) in southeast sector - Rare Candy [Collected Turn 725]
-- Item Ball: Located at (20, 33) in south-central sector [Collected Turn 733]
+- Item Ball: Located at (20, 33) in south-central sector - Potion [Collected Turn 733]
 
 ## Verified Trainers
 - Trainer #1: Located at (16, 23) facing West/North [Observed Turn 469]
