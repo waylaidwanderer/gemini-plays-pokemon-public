@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 2/8 (Boulder Badge, Cascade Badge)
-- Location: Vermilion Gym (x=8, y=7)
+- Location: Vermilion Gym (x=8, y=9)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -797,7 +797,7 @@
 
 ## Trial History
 - Turn 2258: Switch 1 found at Can (5, 11). Tested neighbor (3, 11) -> Failed/Reset on Turn 2260.
-- Current Cycle: Can (1, 7) = Trash [Turn 2283], Can (1, 9) = Trash [Turn 2284], Can (1, 11) = Trash [Turn 2285], Can (3, 11) = Trash [Turn 2286], Can (3, 9) = Trash [Turn 2287], Can (3, 7) = Trash [Turn 2288], Can (5, 7) = Trash [Turn 2289], Can (5, 9) = Trash [Turn 2290], Can (5, 11) = Trash [Turn 2291], Can (7, 11) = Trash [Turn 2292], Can (7, 9) = Trash [Turn 2293], Can (7, 7) = Trash [Turn 2294], Can (9, 7) = Trash [Turn 2295]. Testing Can (9, 9).
+- Current Cycle: Can (1, 7) = Trash [Turn 2283], Can (1, 9) = Trash [Turn 2284], Can (1, 11) = Trash [Turn 2285], Can (3, 11) = Trash [Turn 2286], Can (3, 9) = Trash [Turn 2287], Can (3, 7) = Trash [Turn 2288], Can (5, 7) = Trash [Turn 2289], Can (5, 9) = Trash [Turn 2290], Can (5, 11) = Trash [Turn 2291], Can (7, 11) = Trash [Turn 2292], Can (7, 9) = Trash [Turn 2293], Can (7, 7) = Trash [Turn 2294], Can (9, 7) = Trash [Turn 2295], Can (9, 9) = Trash [Turn 2296]. Testing Can (9, 11).
 
 
 <hr>
