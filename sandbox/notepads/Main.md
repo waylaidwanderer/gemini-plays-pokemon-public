@@ -3,8 +3,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon 1F (x=9, y=17)
-- Current Objective: Flee wild Zubat and walk west along row 17 to (2, 17) to check southwest chamber passage
+- Location: Mt. Moon 1F (x=2, y=17)
+- Current Objective: Discovered item ball at (2, 20); walking east along row 17 towards cross passage (14, 17) to route to south entrance and eastern chamber
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
