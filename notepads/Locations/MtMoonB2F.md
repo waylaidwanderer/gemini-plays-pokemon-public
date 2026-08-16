@@ -38,3 +38,5 @@
 - Zubat [Encountered Turn 958 at (25, 27)]
 - Zubat [Encountered Turn 967 at (17, 27)]
 - Clefairy [Encountered Turn 995 at (20, 17)]
+- Zubat [Encountered Turn 1010 at (29, 9)]
+- Zubat [Encountered Turn 1024 at (35, 8)]
