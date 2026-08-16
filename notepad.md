@@ -5,8 +5,8 @@
 ## Current Status
 - Player: BLUE
 - Badges: 1/8 (Boulder Badge)
-- Location: Mt. Moon 1F (x=16, y=4)
-- Current Objective: Walk south along col 16 to row 17 cross passage, then west and north to northwest ladder at (5, 5)
+- Location: Mt. Moon 1F (x=16, y=17)
+- Current Objective: Walk west through row 17 cross passage to (10, 17) and north to northwest ladder at (5, 5) to descend to B1F towards Route 4
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
