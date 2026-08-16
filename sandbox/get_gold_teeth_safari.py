@@ -63,9 +63,9 @@ def walk_to_waypoint(target_x, target_y):
 print("PHASE 0: Navigating Fuchsia City to Safari Gatehouse...")
 
 fuchsia_waypoints = [
-    (2, 20),
-    (13, 20),
-    (13, 14),
+    (14, 30),
+    (24, 30),
+    (26, 30),
     (26, 14)
 ]
 
@@ -257,7 +257,7 @@ bridge.press_buttons(["Down", "A"]) # POKEMON menu
 time.sleep(1.0)
 bridge.press_buttons(["Down", "A"]) # Select TRUFFLE
 time.sleep(1.0)
-bridge.press_buttons(["Down", "A"]) # Choose DIG (usually second or third option under CUT)
+bridge.press_buttons(["Down", "A"]) # Choose DIG
 time.sleep(1.0)
 bridge.press_buttons(["A"])
 time.sleep(3.0) # Wait for DIG warp animation
