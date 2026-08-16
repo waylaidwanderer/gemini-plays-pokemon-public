@@ -368,5 +368,6 @@
 - Zubat [Encountered Turn 1058 at (35, 12)]
 - Rocket Grunt #4: Located at (11, 16) facing South [Defeated Turn 1072]. Dialogue: "TEAM ROCKET will find the fossils, revive and sell them for cash!" Team: Rattata Lv 13, Zubat Lv 13. Reward: ¥390.
 - Super Nerd Miguel: Located at (12, 8) facing South [Engaged Turn 1074]. Dialogue: "Hey, stop! I found these fossils! They're both mine!" Team: Grimer Lv 12, Voltorb Lv 12, Koffing Lv 12 (3 Pokémon).
+- Vertical blue wall at cols 18-19 (rows 8-16) separates west fossil section from east section. Connection between west and east is the southern corridor at rows 31-32.
 
 <hr>
