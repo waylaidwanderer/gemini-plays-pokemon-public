@@ -59,14 +59,16 @@ def walk_to_waypoint(target_x, target_y):
         mgba.press_buttons([btn])
         time.sleep(0.42)
 
-print("--- PHASE 1: Safari Zone Center to Area 1 (East) (The Great Ground Bypass) ---")
-# Start at (24, 16)
+print("--- PHASE 1: Safari Zone Center to Area 1 (East) ---")
+# First, escape the battle we are in!
+escape_battle()
+
+# Start at (15, 24) after escaping
 waypoints = [
-    (24, 24), # Down to Row 24
-    (13, 24), # Left along Row 24 to Column 13 (bypasses checkerboards and Rhydons)
-    (13, 14), # Up Column 13 to Row 14
-    (21, 14), # Right along Row 14 to Column 21
-    (21, 10), # Up Column 21 to Row 10 (bypasses central pond and tree lines)
+    (17, 24), # Right to Column 17 (bypasses Row 23 trees)
+    (17, 20), # Up Column 17 to Row 20
+    (21, 20), # Right along Row 20 to Column 21 (bypasses checkerboards)
+    (21, 10), # Up Column 21 to Row 10 (bypasses central pond)
     (30, 10)  # Right to Column 30 (transition warp)
 ]
 
