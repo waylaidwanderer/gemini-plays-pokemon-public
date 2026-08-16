@@ -5,7 +5,6 @@ from PIL import Image
 def get_textbox_ratio():
     screenshot_path = mgba.take_screenshot()
     img = Image.open(screenshot_path)
-    gray = img.convert("L")
     
     white_pixels = 0
     total_pixels = 0
@@ -99,42 +98,48 @@ def navigate_to_waypoint(target_x, target_y, blocked_edges):
                     print("Map transition detected!")
                     return True
 
-print("--- PHASE 1: WALKING TO GATEHOUSE ---")
+print("--- PAYING AND ENTERING SAFARI ZONE PERFECT ---")
 blocked_edges = set()
-navigate_to_waypoint(18, 3, blocked_edges)
 
-print("Stepping UP to enter the Gatehouse...")
-mgba.press_buttons(["Up"])
-time.sleep(1.5)
-
-curr = mgba.get_coordinates()
-print("Coordinates inside Gatehouse:", curr)
-
-print("Walking to stand in front of clerk at (3, 4)...")
-blocked_edges = set()
-navigate_to_waypoint(3, 4, blocked_edges)
-
-print("Facing LEFT to speak to clerk...")
-mgba.press_buttons(["Left"])
+# Stand at (3, 3) first and face Right to talk to the clerk
+navigate_to_waypoint(3, 3, blocked_edges)
+mgba.press_buttons(["Right"])
 time.sleep(0.5)
-
-print("Initiating conversation...")
 mgba.press_buttons(["A"])
 time.sleep(1.0)
 
-# Complete the dialogue and purchase (press A 12 times with 1.2s delay to confirm YES)
+# Check if text box appeared
+ratio = get_textbox_ratio()
+print(f"TextBox ratio at (3, 3): {ratio:.3f}")
+
+if ratio < 0.70:
+    print("Could not talk to clerk at (3, 3). Trying (3, 2)...")
+    navigate_to_waypoint(3, 2, blocked_edges)
+    mgba.press_buttons(["Right"])
+    time.sleep(0.5)
+    mgba.press_buttons(["A"])
+    time.sleep(1.0)
+    ratio = get_textbox_ratio()
+    print(f"TextBox ratio at (3, 2): {ratio:.3f}")
+
+# Perform payment dialogue
 print("Completing dialogue...")
 for i in range(12):
     mgba.press_buttons(["A"])
     time.sleep(1.2)
 
-print("Entering Safari Zone Center...")
-for _ in range(4):
-    mgba.press_buttons(["Up"])
-    time.sleep(0.5)
+# Walk to the turnstiles and enter
+print("Navigating to turnstile at (1, 2)...")
+blocked_edges = set()
+navigate_to_waypoint(1, 2, blocked_edges)
+
+print("Walking UP through the turnstile...")
+mgba.press_buttons(["Up"])
+time.sleep(0.5)
+mgba.press_buttons(["Up"])
 time.sleep(1.5)
 
 final_pos = mgba.get_coordinates()
-print("Position after entry:", final_pos)
+print("Position after entry attempt:", final_pos)
 mgba.take_screenshot()
 
