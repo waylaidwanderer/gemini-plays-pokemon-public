@@ -2,7 +2,7 @@
 
 ## Active Party
 1. TERRA (Geodude) - Lv 10
-   - Stats (Verified at Lv 10): Max HP 30 (HP: 19/30)
+   - Stats (Verified at Lv 10): Max HP 30 (HP: 18/30)
    - Type: Rock / Ground
    - Moves: Tackle, Defense Curl
    - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist (Active Lead)
