@@ -323,7 +323,7 @@
 ## Layout & Landmarks
 - Central platform corridor extending from col 25 down to col 17 across rows 8-11.
 - Eastern platform corridor: cols 24-27 (rows 14-27). Connects at south (rows 26-27) to southern cross corridor (cols 13-27) leading west to ladder at (13, 27).
-- Ladder at (21, 17) is visible across the void from eastern platform (isolated platform).
+- Northwest corridor runs from (5, 5) south along col 4-7 to row 17, then east along rows 16-17 to ladder at (21, 17).
 
 ## Items & Discoveries
 - (None discovered yet)
