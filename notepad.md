@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 2/8 (Boulder Badge, Cascade Badge)
-- Location: Cerulean City (x=25, y=11)
+- Location: Cerulean City - Burglarized House (x=2, y=7)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
