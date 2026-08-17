@@ -470,6 +470,12 @@
   - Pre-battle dialogue: "It's not your yard! Huh? Me? I'm an innocent bystander! Don't you believe me?"
   - Defeat quote: "Stop! I give up! I'll leave quietly!"
 
+## Southern Bypass & Route 5 Topology (Verified Turns 2928-2937)
+- Route 5 Entrance connects to southern enclosed corridor at (27, 35).
+- Southern enclosed street runs across row 30 (cols 6-37).
+- East connection runs up columns 36-37 from (37, 30) up to (37, 20) / (36, 15).
+- From (36, 15), walking west to col 33 and north across rows 11-7 enters the Backyard Courtyard behind the Burglarized House at (26..32, 7..9).
+- Broken rear wall at (27, 9) allows entry into the Burglarized House (interior 3, 0), which exits via front door (interior 3, 7) onto Cerulean central avenue at (27, 11).
 
 <hr>
 
