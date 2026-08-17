@@ -14,7 +14,7 @@
 ## Buildings & Points of Interest
 - Pok�mon Center: Located at cols 10-13, rows 0-3 with entrance door at (11, 3).
 - Pok�mart: Located at cols 22-25, rows 10-13 with entrance door at (23, 13).
-  - Catalog: Pok� Ball (�200), Super Potion (�700), Ice Heal (�250), Awakening (�200), Parlyz Heal (�200), Repel (�350).
+  - Catalog: Pok� Ball (��200), Super Potion (��700), Ice Heal (��250), Awakening (��200), Parlyz Heal (��200), Repel (��350).
 - Pok�mon Fan Club: Located at cols 8-11, rows 10-13 with entrance door at (9, 13).
   - Chairman rewarded player with BIKE VOUCHER [Obtained Turn 1902].
 - Trade House: Located at cols 14-17, rows 10-13 with entrance door at (15, 13). Trader NPC at (3, 5) offers in-game trade: SPEAROW for FARFETCH'D (DUXX).

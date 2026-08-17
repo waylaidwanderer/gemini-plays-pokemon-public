@@ -36,7 +36,7 @@
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
 ## Inventory & Resources (Verified Turn 3708)
-- Money: ¥9044 (Post-blackout balance)
+- Money: �9709 (Post-battle balance)
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge
 - Key Items: Bicycle, Town Map, Helix Fossil, S.S. Ticket
 - TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM24 (Thunderbolt), TM34 (Bide), TM44 (Rest)
