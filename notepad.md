@@ -769,7 +769,7 @@
   - (1, 7): [ ]
 - Col 3:
   - (3, 11): [x] Checked Turn 2596 -> Empty
-  - (3, 9): [ ]
+  - (3, 9): [x] Checked Turn 2602 -> Empty
   - (3, 7): [ ]
 - Col 5:
   - (5, 7): [ ]
@@ -785,7 +785,7 @@
   - (9, 11): [ ]
 
 ## Next Action:
-- Inspect (3, 9) from (2, 9) facing Right.
+- Move to (2, 7), face Left, inspect (1, 7).
 
 
 <hr>
