@@ -524,13 +524,12 @@ Do not double-escape the backslashes inside normal python string literals unless
 - **Hotel:** Located in the southeast.
 
 ## Celadon Department Store Floor Layouts
-- **1F (Service Counter):** Floor sign at `(14, 1)` says "1F: SERVICE COUNTER". Exit doormats inside are at `(8, 7)` and `(9, 7)`. Walking DOWN from these tiles warps the player outside to Celadon City at `(10, 14)`.
+- **1F (Service Counter):** Floor sign at `(14, 1)` says "1F: SERVICE COUNTER". Exit doormats inside are at `(2, 7)`, `(3, 7)`, `(16, 7)`, and `(17, 7)`. Walking DOWN from these tiles warps the player outside to Celadon City.
 - **2F (Trainer's Market):** Floor sign at `(14, 1)`. UP escalator at `(17, 1)`. DOWN escalator at `(16, 1)`.
 - **3F (Game Shop):** Floor sign at `(14, 1)`. UP escalator at `(17, 1)`. DOWN escalator at `(16, 1)`.
 - **4F (Wiseman's Gifts):** Floor sign at `(14, 1)`. UP escalator at `(17, 1)`. DOWN escalator at `(16, 1)`.
 - **5F (Drugstore):** Floor sign at `(14, 1)`. DOWN escalator at `(16, 1)`. UP stairs to the Roof are at `(12, 1)`, landing on the Roof at `(15, 3)`.
 - **Roof (Rooftop Square):** Landing at `(15, 3)` facing UP. Vending machines are at Columns 5, 6, 7 on Row 1. To buy drinks, the player must stand at Row 2 facing UP (e.g. standing at `(6, 2)` or `(7, 2)` or `(8, 2)` and facing UP).
-
 
 <hr>
 
