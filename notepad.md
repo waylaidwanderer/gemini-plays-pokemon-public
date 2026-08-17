@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 2/8 (Boulder Badge, Cascade Badge)
-- Location: Vermilion Gym (x=8, y=7)
+- Location: Vermilion Gym (x=6, y=7)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -757,12 +757,18 @@
 
 # Vermilion Gym - Trash Can Switch Matrix & Empirical Sweep Log
 
-## Sweep Run #3 (Active):
+## Working Hypotheses & Mechanics Model
+- 15 trash cans arranged in a 3x5 grid.
+- Switch 1 is assigned to a trash can on map initialization / lock reset.
+- Once Switch 1 is found and flipped, Switch 2 is assigned to an adjacent neighbor in the 3x5 matrix.
+- If Switch 2 check fails, locks reset and a new Switch 1 must be located.
+
+## Sweep Run #3 (Active - Turn-by-Turn Visual Verification):
 - Row 7:
   - [x] (1, 7) - Checked Turn 2480 from (2, 7) facing Left -> Empty
   - [x] (3, 7) - Checked Turn 2481 from (2, 7) facing Right -> Empty
   - [x] (5, 7) - Checked Turn 2489 from (4, 7) facing Right -> Empty
-  - [ ] (7, 7)
+  - [x] (7, 7) - Checked Turn 2491 from (6, 7) facing Right -> Empty
   - [ ] (9, 7)
 - Row 9:
   - [x] (1, 9) - Checked Turn 2482 from (2, 9) facing Left -> Empty
@@ -777,11 +783,11 @@
   - [ ] (7, 11)
   - [ ] (9, 11)
 
-## Current Deduction:
-- Columns 1, 3, and 5 are 100% empty on Run #3 (9/15 checked). Switch 1 is in Columns 7 or 9 (6 candidates remaining).
+## Current Sweep State:
+- 10/15 cans verified empty on this run. Remaining 5 candidates: (7, 9), (7, 11), (9, 7), (9, 9), (9, 11).
 
 ## Next Action:
-- Turn 2490: Inspect (7, 7) from (6, 7) facing Right.
+- Turn 2492: Inspect (7, 9) from (6, 9) facing Right.
 
 
 <hr>
