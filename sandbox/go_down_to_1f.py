@@ -9,32 +9,25 @@ def get_pos():
     pos = mgba.get_coordinates()
     return pos['x'], pos['y']
 
-def read_sign_at_14_2():
-    print("Starting from:", get_pos())
-    # We are at (15, 7)
+def step_by_step_descend():
+    print("Current position:", get_pos())
+    # 1. Close text box
+    print("Closing text box...")
+    press_and_wait("B", 0.5)
     
-    # 1. Walk UP Column 15 to Row 2 (15, 2)
-    for _ in range(5):
-        press_and_wait("Up")
-    print("At:", get_pos())
+    # 2. Walk Right 2 steps to (16, 2)
+    print("Walking to (16, 2)...")
+    press_and_wait("Right")
+    press_and_wait("Right")
+    print("At (16, 2):", get_pos())
     
-    # 2. Walk Left to Column 14 (14, 2)
-    press_and_wait("Left")
-    print("At (14, 2):", get_pos())
+    # 3. Press UP to take DOWN escalator
+    print("Pressing UP to go to 4F...")
+    press_and_wait("Up", 1.0)
+    time.sleep(0.5)
+    print("After warp, position is:", get_pos())
     
-    # 3. Face UP
-    press_and_wait("Up")
-    time.sleep(0.1)
-    
-    # 4. Press A to read the sign
-    print("Pressing A...")
-    press_and_wait("A", 1.0)
-    
-    # Take screenshot of the text box
+    # Take screenshot to inspect visually
     mgba.take_screenshot()
-    
-    # Close text box
-    press_and_wait("B", 0.5)
-    press_and_wait("B", 0.5)
 
-read_sign_at_14_2()
+step_by_step_descend()
