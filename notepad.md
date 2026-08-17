@@ -776,6 +776,6 @@
 - Tall grass patches at rows 8-9 (cols 6-9 and further east).
 
 - Jr. Trainer ♀: Located at (13, 10) facing Up [Defeated Turn 2988]. Team: Bellsprout Lv 18, Oddish Lv 18, Bellsprout Lv 18. Reward: ¥360. Dialogue: "You have POKéMON with you! You're mine!" Defeat quote: "You deceived me!"
-- Hiker: Located at (16, 15) in the southwestern grass area below the ledge [Battle Started Turn 2997]. Dialogue: "Great! I was bored, eh!"
+- Hiker: Located at (16, 15) in the southwestern grass area below the ledge [Defeated Turn 3006]. Team: Machop Lv 20, Onix Lv 20. Reward: ¥700. Dialogue: "Great! I was bored, eh!"
 
 <hr>
