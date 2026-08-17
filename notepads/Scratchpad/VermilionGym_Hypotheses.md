@@ -20,3 +20,4 @@
 - (5, 9): Trash (Turn 2675)
 - (5, 11): Trash (Turn 2676)
 - (7, 11): Checking (Turn 2678)
+- (7, 11): Trash (Turn 2679)
