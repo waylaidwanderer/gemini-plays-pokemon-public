@@ -58,6 +58,12 @@ Use these exact indices in all menu-based macro scripts to ensure correct move s
 - SURF (HM03)
 - STRENGTH (HM04)
 
+## Saffron City Access & Inventory Status (Updated Turn 43891)
+- **Saffron City Access:** Permanently unlocked on Turn 43820 by giving Fresh Water to the West Gatehouse Guard.
+- **Saffron Pokémon Center:** Unlocked as a Fly waypoint on Turn 43875.
+- **Vending Machine Drinks:** Fresh Water and Soda Pop are no longer in our inventory (the Fresh Water was consumed by the Saffron West Gatehouse guard, and no other drinks are in our bag).
+
+
 <hr>
 
 <h1><code>Mechanics/Search_Scripting_Pitfalls</code></h1>
@@ -1639,18 +1645,21 @@ Route 16 Gatehouse physically divides Celadon City (East) from Route 16 Cycling 
 Saffron City is a large 40x40 city in the center of Kanto, connecting Cerulean City (North), Vermilion City (South), Celadon City (West via Route 7), and Lavender Town (East via Route 8).
 
 ## Key Landmarks
-- **Silph Co. HQ:** Located in the center of the city.
-- **Saffron City Gym (Sabrina):** Located in the northeast quadrant.
-- **Fighting Dojo:** Located in the northeast quadrant, next to Saffron Gym.
-- **Pokémon Center:** Located in the southwest quadrant.
-- **Poké Mart:** Located in the south/southwest quadrant.
-- **Copycat's House:** Located in the northwest quadrant.
-- **Mr. Psychic's House:** Located in the southeast quadrant.
+- **Silph Co. HQ (UNVERIFIED):** Located in the center of Saffron City. Entrance around column 18-21, row 19-21.
+- **Saffron City Gym (Sabrina) (UNVERIFIED):** Located in Saffron's northeast quadrant at (34, 3). Currently blocked by a Rocket Grunt standing at (34, 4) until Silph Co. is cleared.
+- **Fighting Dojo (UNVERIFIED):** Located in Saffron's northeast quadrant at (30, 3) or next to the Saffron Gym.
+- **Pokémon Center (VERIFIED):** Located in Saffron's southwest quadrant at columns 8-11, rows 27-29. Entrance door is at (9, 29). Unlocked as a Fly waypoint on Turn 43875.
+- **Poké Mart (UNVERIFIED):** Located in Saffron's southwest/south quadrant.
+- **Copycat's House (UNVERIFIED):** Located in Saffron's northwest quadrant.
+- **Mr. Psychic's House (UNVERIFIED):** Located in Saffron's southeast quadrant.
 
-## West Gatehouse Entry & Western Street
+## West Gatehouse Entry & Western Street (VERIFIED)
 - Exited Saffron West Gatehouse onto Saffron City map at `(0, 18)`.
 - Paved street goes east from `(0, 18)` to column 5.
 - There is a building directly east of the gatehouse, blocking direct eastern passage on row 18 past column 5.
-- Paved street continues north and south along column 4-5.
+- Saffron's western street on columns 3-5 is a dead end going DOWN past row 20 (blocked by a building and barrels at row 21).
+- Paved street continues north on column 3 to Saffron's north side.
+- Saffron's northern horizontal street is fully open at row 7 and row 8, allowing bypass of Saffron's west-side blocks to reach Saffron's northeast quadrant!
+
 
 <hr>
