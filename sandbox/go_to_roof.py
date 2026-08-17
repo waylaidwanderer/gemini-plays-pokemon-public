@@ -39,9 +39,8 @@ def go_to_roof_verified():
     # Start on 2F at (14, 2) with textbox open
     print("Starting from:", get_pos())
     
-    # 1. Close text box
-    print("Closing text box...")
-    press_and_wait("B", 0.5)
+    # 1. Text box already closed
+    print("Text box already closed.")
     
     # 2. 2F -> 3F (UP stairs at 16, 1)
     print("--- 2F to 3F ---")
