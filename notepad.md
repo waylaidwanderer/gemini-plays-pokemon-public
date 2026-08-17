@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Rock Tunnel 1F (x=4, y=13)
+- Location: Rock Tunnel 1F (x=4, y=20)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -864,6 +864,10 @@
    - Rows 6-9 form a wide open 4-tile high corridor spanning cols 2-10.
    - Rock formation at cols 6-7 (rows 10-17) forms a central divider.
    - Western highway spans cols 2-5 continuously through rows 12-17+ heading straight south towards the Route 10 South exit.
+
+8. Southern Exit Thoroughfare (rows 18-21, cols 2-9+):
+   - Western vertical highway reaches solid southern wall at rows 22-23.
+   - Open 4-tile high thoroughfare across rows 18-21 turns east across cols 2-9+ heading toward the southern Route 10 exit.
 
 
 <hr>
