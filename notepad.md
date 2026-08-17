@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 2/8 (Boulder Badge, Cascade Badge)
-- Location: Vermilion Gym (x=4, y=11)
+- Location: Vermilion Gym (x=6, y=11)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -776,7 +776,7 @@
   - (5, 9): [x] Checked Turn 2616 -> Empty
   - (5, 11): [x] Checked Turn 2619 -> Empty
 - Col 7:
-  - (7, 11): [ ]
+  - (7, 11): [x] Checked Turn 2622 -> Empty
   - (7, 9): [ ]
   - (7, 7): [ ]
 - Col 9:
@@ -785,7 +785,7 @@
   - (9, 11): [ ]
 
 ## Active Target:
-- Move to (6, 11), face Right, inspect (7, 11).
+- Move to (6, 9), face Right, inspect (7, 9).
 
 
 <hr>
