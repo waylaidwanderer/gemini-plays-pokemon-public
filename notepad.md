@@ -767,7 +767,7 @@
 - Row 9:
   - [x] (1, 9) - Checked Turn 2482 from (2, 9) facing Left -> Empty
   - [x] (3, 9) - Checked Turn 2483 from (2, 9) facing Right -> Empty
-  - [ ] (5, 9)
+  - [x] (5, 9) - Checked Turn 2488 from (4, 9) facing Right -> Empty
   - [ ] (7, 9)
   - [ ] (9, 9)
 - Row 11:
@@ -778,10 +778,10 @@
   - [ ] (9, 11)
 
 ## Current Deduction:
-- 7/15 cans checked empty. Remaining 8 candidates in Cols 5, 7, 9.
+- 8/15 cans checked empty. Remaining 7 candidates in Cols 5(top), 7, 9.
 
 ## Next Action:
-- Turn 2488: Inspect (5, 9) from (4, 9) facing Right.
+- Turn 2489: Inspect (5, 7) from (4, 7) facing Right.
 
 
 <hr>
