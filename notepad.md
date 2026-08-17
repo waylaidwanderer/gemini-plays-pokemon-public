@@ -773,7 +773,7 @@
 - Row 9:
   - [ ] (1, 9)
   - [ ] (3, 9)
-  - [ ] (5, 9)
+  - [x] (5, 9) - Checked Turn 2470 from (6, 9) facing Left -> Empty
   - [x] (7, 9) - Checked Turn 2465 from (8, 9) facing Left -> Empty
   - [x] (9, 9) - Checked Turn 2466 from (8, 9) facing Right -> Empty
 - Row 11:
@@ -784,7 +784,7 @@
   - [x] (9, 11) - Checked Turn 2467 from (8, 11) facing Right -> Empty
 
 ## Next Action:
-- Turn 2470: Inspect (5, 9) from (6, 9) facing Left.
+- Turn 2471: Inspect (5, 7) from (6, 7) facing Left.
 
 
 <hr>
