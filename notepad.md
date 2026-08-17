@@ -769,7 +769,7 @@
   - [x] (1, 7) - Checked Turn 2424 from (2, 7) facing Left -> Empty
   - [x] (3, 7) - Checked Turn 2425 from (2, 7) facing Right -> Empty
   - [x] (5, 7) - Checked Turn 2435 from (4, 7) facing Right -> Empty
-  - [ ] (7, 7)
+  - [x] (7, 7) - Checked Turn 2436 from (6, 7) facing Right -> Empty
   - [ ] (9, 7)
 - Row 9:
   - [x] (1, 9) - Checked Turn 2426 from (2, 9) facing Left -> Empty
@@ -785,10 +785,10 @@
   - [ ] (9, 11)
 
 ## Current Deduction:
-- 9/15 cans checked empty. Columns 1, 3, and 5 are completely clear. Switch 1 is in Columns 7 or 9 (6 candidates remaining).
+- 10/15 cans checked empty. Remaining 5 candidates: (9, 7), (7, 9), (9, 9), (7, 11), (9, 11).
 
 ## Next Action:
-- Turn 2436: Inspect (7, 7) from (6, 7) facing Right.
+- Turn 2437: Inspect (7, 9) from (6, 9) facing Right.
 
 
 <hr>
