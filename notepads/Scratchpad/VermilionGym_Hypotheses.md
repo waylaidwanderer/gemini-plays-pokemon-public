@@ -8,7 +8,7 @@
 
 ### Matrix Checklist:
 - Col 1:
-  - (1, 11): [ ]
+  - (1, 11): [x] Checked Turn 2593 -> Empty
   - (1, 9): [ ]
   - (1, 7): [ ]
 - Col 3:
@@ -29,4 +29,4 @@
   - (9, 11): [ ]
 
 ## Next Action:
-- Enter Gym -> Move to (2, 11) -> Face Left -> Inspect (1, 11).
+- Inspect (3, 11) from (2, 11) facing Right.
