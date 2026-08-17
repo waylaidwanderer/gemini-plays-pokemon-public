@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Rock Tunnel 1F (x=31, y=4)
+- Location: Rock Tunnel B1F (x=33, y=25)
 
 ## Notepads Index
 - `Team`: Current Pok�mon party, movesets, stats, nicknames, inventory
