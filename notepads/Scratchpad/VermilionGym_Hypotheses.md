@@ -1,40 +1,15 @@
 # Vermilion Gym - Trash Can Switch Matrix & Trial Log
 
-## Puzzle Mechanics (Empirical)
+## Puzzle Mechanics Analysis
 - 15 trash cans arranged in a 3x5 grid:
   - Row 7: (1, 7), (3, 7), (5, 7), (7, 7), (9, 7)
   - Row 9: (1, 9), (3, 9), (5, 9), (7, 9), (9, 9)
   - Row 11: (1, 11), (3, 11), (5, 11), (7, 11), (9, 11)
-- Switch 1 is chosen randomly upon map entry / after failing Switch 2.
-- Once Switch 1 is found and activated, Switch 2 is located in an immediately adjacent trash can (North, South, East, or West).
-- If an incorrect can is inspected while searching for Switch 2, the locks reset and Switch 1 re-randomizes.
+- Observation (Turn 2418): All 15 cans were inspected in sequence and all returned "Nope, there's only trash here."
+- Hypothesis:
+  1. In Gen 1 Pokémon Blue engine, `wFirstTrashCan` is generated via `Random` on map initialization. If the random value rolled index 15 (out of bounds for 0..14), no can matches.
+  2. Re-rolling occurs upon map load (stepping outside to Vermilion City and re-entering).
 
-## Active Run Checklist (Current Attempt: Turn 2400+)
-- Row 7:
-  - [ ] (1, 7) -> **DETERMINED: SWITCH 1 IS HERE!** (14/15 other cans confirmed empty)
-  - [x] (3, 7) - Checked Turn 2417 from (4, 7) facing Left -> Empty ("Nope, there's only trash here.")
-  - [x] (5, 7) - Checked Turn 2416 from (6, 7) facing Left -> Empty ("Nope, there's only trash here.")
-  - [x] (7, 7) - Checked Turn 2415 from (8, 7) facing Left -> Empty ("Nope, there's only trash here.")
-  - [x] (9, 7) - Checked Turn 2414 from (8, 7) facing Right -> Empty ("Nope, there's only trash here.")
-- Row 9:
-  - [x] (1, 9) - Checked Turn 2409 from (2, 9) facing Left -> Empty ("Nope, there's only trash here.")
-  - [x] (3, 9) - Checked Turn 2410 from (2, 9) facing Right -> Empty ("Nope, there's only trash here.")
-  - [x] (5, 9) - Checked Turn 2411 from (4, 9) facing Right -> Empty ("Nope, there's only trash here.")
-  - [x] (7, 9) - Checked Turn 2412 from (6, 9) facing Right -> Empty ("Nope, there's only trash here.")
-  - [x] (9, 9) - Checked Turn 2413 from (8, 9) facing Right -> Empty ("Nope, there's only trash here.")
-- Row 11:
-  - [x] (1, 11) - Checked Turn 2408 from (2, 11) facing Left -> Empty ("Nope, there's only trash here.")
-  - [x] (3, 11) - Checked Turn 2407 from (4, 11) facing Left -> Empty ("Nope, there's only trash here.")
-  - [x] (5, 11) - Checked Turn 2406 from (6, 11) facing Left -> Empty ("Nope, there's only trash here.")
-  - [x] (7, 11) - Checked Turn 2402 from (8, 11) facing Left -> Empty ("Nope, there's only trash here.")
-  - [x] (9, 11) - Checked Turn 2400 from (8, 11) facing Right -> Empty ("Nope, there's only trash here.")
-
-## Switch 2 Candidates (Adjacent to (1, 7)):
-- East neighbor: (3, 7)
-- South neighbor: (1, 9)
-
-## Execution Plan:
-1. Turn 2418: Activate Switch 1 at (1, 7).
-2. Turn 2419: Test Switch 2 candidate 1 at (3, 7) (turn Right from 2, 7 and press A).
-3. If (3, 7) opens the door -> Challenge Lt. Surge!
-4. If (3, 7) resets -> Switch 2 was (1, 9) on this seed. Re-find Switch 1.
+## Test Protocol:
+- Turn 2419: Press B to dismiss, press A on (1, 7) again.
+- If still empty -> Walk south to exit (4, 17), step out to Vermilion City, re-enter Gym to generate fresh `wFirstTrashCan` seed.
