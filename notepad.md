@@ -488,35 +488,27 @@ Do not double-escape the backslashes inside normal python string literals unless
 # Route 7 - Overworld Mapping & Navigation
 
 ## Map Dimensions
-- Dimensions: Width = 10 (visually confirmed columns 1 to 10), Height = To Be Determined.
+- Dimensions: Width = 20 tiles (columns 0 to 19), Height = 18 tiles (rows 0 to 17).
+- Directly connects Saffron City (east) to Celadon City (west).
 
-## Mapped Coordinates & Layout
-- **Underground Path Entrance Building (Verified - Visited on Turn 12729):** Located at columns 4-7, rows 10-13 on Route 7. Entrance door is at (5, 13) facing south. Inside, there is a staircase at (4, 4) leading down to the Underground Path tunnel.
+## Key Landmarks & Buildings
+- **Underground Path Entrance Building (Verified - Visited on Turn 12729):** Located at columns 4-7, rows 10-13 on Route 7. Entrance door is at (5, 13) facing south. Inside, the staircase at (4, 4) leads down to the Underground Path tunnel (connecting to Route 8).
+- **Saffron West Gatehouse (Verified - Visited on Turn 43220):** Located at columns 12-15, rows 8-11. The west-facing entrance door is at (12, 10). Entering it warps the player inside the Gatehouse at (0, 4). The guard inside is thirsty and blocks eastern access to Saffron City unless given a Drink.
 
-### Verified Walkable Coordinates (Physically stepped on in this session):
-- Row 2: (8, 2), (12, 2)
-- Row 3: (8, 3)
-- Row 4: (8, 4)
-- Row 5: (8, 5)
-- Row 6: (8, 6)
-- Row 7: (8, 7)
-- Row 8: (2, 8), (3, 8), (4, 8), (5, 8), (6, 8), (7, 8), (8, 8)
-- Row 9: (2, 9), (3, 9), (4, 9), (5, 9), (6, 9), (7, 9), (8, 9)
-- Row 10: (2, 10), (8, 10)
-- Row 11: (8, 11)
-- Row 12: (2, 12), (3, 12), (8, 12), (9, 12), (10, 12), (11, 12), (12, 12), (13, 12), (14, 12), (15, 12), (16, 12)
-- Row 13: (2, 13), (5, 13), (11, 13), (12, 13), (13, 13)
-- Row 14: (2, 14), (3, 14), (4, 14), (5, 14), (6, 14), (7, 14), (8, 14), (9, 14), (10, 14), (11, 14), (12, 14), (13, 14)
-- Row 15: (2, 15), (3, 15), (4, 15), (5, 15), (6, 15), (7, 15), (8, 15), (9, 15), (10, 15), (11, 15), (12, 15)
+## Ledges, Barriers, & Gaps
+- **Row 11 Ledge:** Horizontal ledge facing South at columns 2-3 and columns 8-11. Walkable gap at column 8 (8, 11) allows the player to bypass the ledge and walk north.
+- **Row 7 Ledge:** Horizontal ledge facing South at columns 2-7. Walkable gaps at Column 8 (8, 7) and Column 4 (4, 7) allow the player to bypass the ledge and walk north.
+- **Column 7 Vertical Wall:** Continuous vertical brick wall/ledge on rows 2-7, separating the eastern tall grass section (Column 8) from the western paved road (Columns 4-7).
+- **Column 1 Tree Wall:** Continuous solid vertical line of trees on Column 1 across rows 8 and 9, which blocks direct horizontal passage.
+- **Celadon City Transition:** Located at rows 2 and 3 on Saffron's West Gatehouse's upper paved road. Columns 0 and 1 are fully open on rows 2-3, allowing direct leftward passage to enter Celadon City at (49, 10).
 
-## Structural Boundaries, Obstacles & Ledges
-- **Row 11 Ledge:** Horizontal ledge facing South at columns 2-3 and columns 8-11. There is a verified walkable gap at column 8 (8, 11) which allows the player to bypass this ledge and walk north!
-- **Row 7 Ledge:** Horizontal ledge facing South at columns 2-7. There are verified walkable gaps at column 8 (8, 7) and column 4 (4, 7) which allow the player to bypass this ledge and walk north!
-- **Column 7 Fence:** Continuous vertical log fence on rows 2-7. However, on rows 8, 9, 10, there is no fence, allowing easy horizontal crossing between the tall grass area (east) and the paved road (west).
-- **Column 1 Tree Barrier:** Continuous forest trees on rows 4 to 17. We have physically verified column 1 is blocked on rows 8, 9, 10, 12, 13, 14, and 15.
-- **Underground Path Building:** Located at columns 4-7, rows 11-13. Door is at (5, 13) facing south.
-- **Saffron West Gatehouse:** Located at columns 12-15, rows 8-11. We have systematically probed and verified that the west-facing entrance door is located at (12, 10) on Route 7. Entering it warps the player inside Saffron West Gatehouse at (0, 4).
-
+## Navigation Route (Underground Path to Celadon City)
+1. Exit Underground Path building at (5, 14).
+2. Walk to Column 8 (8, 14).
+3. Walk UP Column 8 to Row 8 (8, 8) (bypassing row 11 and row 7 ledges).
+4. Walk LEFT along Row 8 to Column 4 (4, 8).
+5. Walk UP Column 4 to Row 2 (4, 2) (bypassing row 7 ledge through the gap at (4, 7)).
+6. Walk LEFT along Row 2 to Column 0 (0, 2) to transition directly into Celadon City.
 
 <hr>
 
