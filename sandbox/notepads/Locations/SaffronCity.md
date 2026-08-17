@@ -5,7 +5,7 @@ Saffron City is a large 40x40 city in the center of Kanto, connecting Cerulean C
 
 ## Key Landmarks
 - **Silph Co. HQ (UNVERIFIED):** Located in the center of Saffron City. Entrance around column 18-21, row 19-21.
-- **Saffron City Gym (Sabrina) (UNVERIFIED):** Located in Saffron's northeast quadrant at (34, 3). Currently blocked by a Rocket Grunt standing at (34, 4) until Silph Co. is cleared.
+- **Saffron City Gym (Sabrina) (VERIFIED - CLEARED):** Located in Saffron's northeast quadrant at (34, 3). Sabrina has been defeated and Marsh Badge acquired!
 - **Fighting Dojo (UNVERIFIED):** Located in Saffron's northeast quadrant at (30, 3) or next to the Saffron Gym.
 - **Pokémon Center (VERIFIED):** Located in Saffron's southwest quadrant at columns 8-11, rows 27-29. Entrance door is at (9, 29). Unlocked as a Fly waypoint on Turn 43875.
 - **Poké Mart (UNVERIFIED):** Located in Saffron's southwest/south quadrant.
