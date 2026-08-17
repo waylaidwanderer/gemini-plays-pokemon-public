@@ -42,7 +42,7 @@
 1. TERRA (Geodude) - Lv 21
    - Stats (Verified at Lv 21): Attack 45, Defense 50, Speed 20, Special 19 [Verified Turn 3244]
    - Type: Rock / Ground
-   - Moves: Tackle, Defense Curl, Dig, Rock Throw [Verified Turn 2897]
+   - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw [Verified Turn 3249]
    - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist (Active Lead)
 2. ECHO (Zubat) - Lv 8
    - Stats (Verified at Lv 8): Max HP 26 (HP: 26/26)
