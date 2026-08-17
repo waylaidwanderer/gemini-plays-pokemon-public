@@ -3,7 +3,7 @@
 # Pokémon Blue - Adventure High-Level Index & Status
 
 ## Active Objectives & Milestones
-- **Primary Goal:** Obtain HM04 (Strength) from the Warden in Fuchsia City.
+- **Primary Goal:** Obtain the Marsh Badge from Saffron City Gym (Sabrina).
 
 - **Last Gym Completed:** Defeated Gym Leader Koga in Fuchsia City Gym on Turn 20797 (Soul Badge).
 
@@ -27,7 +27,6 @@
 
 ## Current Party Status (Blastoise Solo Runner)
 - **SHELLBY** (Blastoise) - Level 55, healthy. Movepool: Hydro Pump, Ice Beam, Bite, Water Gun.
-
 
 <hr>
 
