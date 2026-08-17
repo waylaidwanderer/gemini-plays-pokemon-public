@@ -1678,7 +1678,7 @@ Saffron City is a large 40x40 city in the center of Kanto, connecting Cerulean C
 
 <h1><code>Locations/SilphCo</code></h1>
 
-# Silph Co. HQ - Overworld Layout & Navigation Guide
+# Saffron Silph Co. HQ - Overworld Layout & Navigation Guide
 
 ## Saffron Silph Co. 1F (Lobby) - VERIFIED (Turn 43909-43921)
 - **Entrance Doormat:** Located at `(10, 17)`. Warping south from `(10, 17)` exits to Saffron City overworld at `(18, 21)`.
@@ -1689,20 +1689,31 @@ Saffron City is a large 40x40 city in the center of Kanto, connecting Cerulean C
   - Row 8 is open horizontally from Column 24 to Column 28.
 - **Elevator Doors:** Located at `(18, 10)` and `(19, 10)`. The doors face SOUTH. Walk UP from `(18, 11)` or `(19, 11)` to enter/interact with the elevator.
 
-## Saffron Silph Co. Upper Floors (2F - 5F) - PARTIALLY VERIFIED (Turn 43939-44076)
+## Saffron Silph Co. Upper Floors (2F - 11F) - VERIFIED (Turn 44259-44304)
 - **Staircases:** Located at alternating Columns 24 and 26 on Row 0 (e.g. 5F stairs are at `(26, 0)`).
 - **Saffron Silph Co. 5F Layout:**
   - Stairs: `(26, 0)`.
   - Elevator: `(20, 0)`.
-  - Teleporter 1 (East Room): `(27, 3)`, warps directly to Teleporter 2 (Center Room) at `(21, 15)`.
-  - Teleporter 2 (Center Room): `(21, 15)`, warps back to Teleporter 1 at `(27, 3)`.
-  - Central Isolated Room: Bounded by column 17 (west) and column 25 (east). Bounded by row 12 (north) and row 17 (south). Contains an item ball at `(24, 11)` behind the locked Card Key doors at `(20, 12)-(21, 12)`.
-  - Pokémon Report: Clipboard located on a desk at `(24, 6)` reads: "4 POKéMON evolve only when traded by link-cable."
-  - Card Key: Not yet acquired. It is on the ground on 5F.
+  - Teleporter 1: `(27, 3)` (Warp 4) -> Warps to `SILPH_CO_7F` Warp 6 at `(21, 15)`.
+  - Teleporter 2: `(9, 15)` (Warp 5) -> Warps to `SILPH_CO_9F` Warp 5 at `(17, 15)`.
+  - Teleporter 3: `(11, 5)` (Warp 6) -> Warps to `SILPH_CO_3F` Warp 5 at `(3, 3)`.
+  - Teleporter 4: `(3, 15)` (Warp 7) -> Warps to `SILPH_CO_3F` Warp 6 at `(3, 15)`.
+  - Card Key: Located at `(21, 16)` on the open corridor floor!
+  - Pok�mon Report: Clipboard located on a desk at `(24, 6)` reads: "4 POK�MON evolve only when traded by link-cable."
 
-- **Card Key:** Needed to unlock Saffron Silph Co. electronic gates. (Note: It was verified absent in inventory on Turn 43976).
+## Teleporter & Warp Network Map (Verified Turn 44259)
+- **SILPH_CO_5F:**
+  - Warp 4 `(27, 3)` -> `SILPH_CO_7F` (Warp 6)
+  - Warp 5 `(9, 15)` -> `SILPH_CO_9F` (Warp 5)
+  - Warp 6 `(11, 5)` -> `SILPH_CO_3F` (Warp 5)
+  - Warp 7 `(3, 15)` -> `SILPH_CO_3F` (Warp 6)
+- **SILPH_CO_7F:**
+  - Warp 6 `(21, 15)` -> `SILPH_CO_5F` (Warp 4)
+- **SILPH_CO_9F:**
+  - Warp 5 `(17, 15)` -> `SILPH_CO_5F` (Warp 5)
+- **SILPH_CO_3F:**
+  - Warp 5 `(3, 3)` -> `SILPH_CO_5F` (Warp 6)
+  - Warp 6 `(3, 15)` -> `SILPH_CO_5F` (Warp 7)
 
-## Active Hypotheses to Verify (Card Key Search)
-- **Southwest Room Hypothesis (Turn 44230):** In the southwest room of 5F, walk along the Row 16 corridor to standing at `(13, 16)`. Face **UP** (north) towards `(13, 15)` and press **A** to empirically verify if there is an overworld item ball or if it is a wall. It is highly possible we walked right past the Card Key at `(13, 15)` without interacting with it.
 
 <hr>
