@@ -10,7 +10,7 @@
 ## Active Run Checklist (Run #2):
 - Row 7:
   - [x] (1, 7) - Checked Turn 2424 from (2, 7) facing Left -> Empty ("Nope, there's only trash here.")
-  - [ ] (3, 7)
+  - [x] (3, 7) - Checked Turn 2425 from (2, 7) facing Right -> Empty ("Nope, there's only trash here.")
   - [ ] (5, 7)
   - [ ] (7, 7)
   - [ ] (9, 7)
@@ -28,4 +28,4 @@
   - [ ] (9, 11)
 
 ## Next Action:
-- Turn 2425: Inspect (3, 7) from (2, 7) facing Right.
+- Turn 2426: Inspect (1, 9) from (2, 9) facing Left.
