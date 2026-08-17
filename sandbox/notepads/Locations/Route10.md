@@ -11,4 +11,4 @@
 ## Verified Encounters & Trainers
 - Wild Encounters: Spearow [Encountered Turn 3057].
 
-- Jr. Trainer ♀ Carol: Located at (7, 25) [Defeated Turn 3072]. Team: Pikachu Lv 20, Clefairy Lv 20. Reward: ¥400.
+- Jr. Trainer ♀ Carol: Located at (7, 25) [Defeated Turn 3088]. Team: Pikachu Lv 20, Clefairy Lv 20. Reward: ¥400.
