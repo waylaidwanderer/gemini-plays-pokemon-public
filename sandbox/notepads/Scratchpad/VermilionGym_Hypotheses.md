@@ -12,13 +12,13 @@
   - [x] (3, 7) - Checked Turn 2481 from (2, 7) facing Right -> Empty
   - [x] (5, 7) - Checked Turn 2489 from (4, 7) facing Right -> Empty
   - [x] (7, 7) - Checked Turn 2491 from (6, 7) facing Right -> Empty
-  - [ ] (9, 7)
+  - [ ] (9, 7) -> 100% GUARANTEED SWITCH 1
 - Row 9:
   - [x] (1, 9) - Checked Turn 2482 from (2, 9) facing Left -> Empty
   - [x] (3, 9) - Checked Turn 2483 from (2, 9) facing Right -> Empty
   - [x] (5, 9) - Checked Turn 2488 from (4, 9) facing Right -> Empty
   - [x] (7, 9) - Checked Turn 2493 from (6, 9) facing Right -> Empty
-  - [ ] (9, 9)
+  - [x] (9, 9) - Checked Turn 2507 from (8, 9) facing Right -> Empty
 - Row 11:
   - [x] (1, 11) - Checked Turn 2484 from (2, 11) facing Left -> Empty
   - [x] (3, 11) - Checked Turn 2486 from (2, 11) facing Right -> Empty
@@ -27,7 +27,8 @@
   - [x] (9, 11) - Checked Turn 2504 from (8, 11) facing Right -> Empty
 
 ## Current Sweep State:
-- 13/15 cans verified empty on this run. Remaining 2 candidates: (9, 9), (9, 7) (all in Column 9).
+- 14/15 cans verified empty on this run. Switch 1 MUST be at (9, 7).
 
 ## Next Action:
-- Turn 2504: Inspect (9, 9) from (8, 9) facing Right.
+- Turn 2507: Inspect (9, 7) from (8, 7) to activate Switch 1!
+- Once Switch 1 is active, Switch 2 will be at (9, 9) or (7, 7).
