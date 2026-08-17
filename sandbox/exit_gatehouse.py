@@ -1,32 +1,48 @@
 import mgba
 import time
 
-print("--- EXITING GATEHOUSE AND GOING TO FUCHSIA CITY ---")
-
 def get_pos():
-    return mgba.get_coordinates()
+    pos = mgba.get_coordinates()
+    return pos['x'], pos['y']
 
-# Current position is (4, 0) with "Did you get a / good haul?" on screen.
-# 1. Clear clerk's dialogue
-print("Clearing clerk's dialogue...")
-mgba.press_buttons(["A"])
-time.sleep(1.0)
-mgba.press_buttons(["A"])
-time.sleep(1.0)
-mgba.press_buttons(["A"])
-time.sleep(1.0)
+def press_and_wait(btn):
+    mgba.press_buttons([btn])
+    time.sleep(0.3)
+    return get_pos()
 
-# 2. Walk to the exit at (3, 5):
-# - Walk Down 3 steps to (4, 3)
-# - Walk Left 1 step to (3, 3)
-# - Walk Down 2 steps to (3, 5) (warp)
-print("Walking to exit...")
-mgba.press_buttons(["Down", "sleep 350", "Down", "sleep 350", "Down"])
-time.sleep(1.0)
-mgba.press_buttons(["Left"])
-time.sleep(1.0)
-mgba.press_buttons(["Down", "sleep 350", "Down"])
-time.sleep(2.0) # wait for transition
+# We start at (12, 2) on Saffron East Gatehouse 1F / Route 15/16/18 Gatehouse 1F West Room
+start = get_pos()
+print(f"Starting exit path from {start}...")
 
-print("Position after transition:", get_pos())
-mgba.take_screenshot()
+# 1. Right 2 steps to (14, 2)
+curr = start
+while curr[0] < 14:
+    pos = press_and_wait("Right")
+    if pos == curr:
+        print(f"Blocked Right at {curr}")
+        break
+    curr = pos
+
+# 2. Down 3 steps to (14, 5)
+while curr[1] < 5:
+    pos = press_and_wait("Down")
+    if pos == curr:
+        print(f"Blocked Down at {curr}")
+        break
+    curr = pos
+
+# 3. Left 14 steps along Row 5 to (0, 5)
+while curr[0] > 0:
+    pos = press_and_wait("Left")
+    if pos == curr:
+        print(f"Blocked Left at {curr}")
+        break
+    curr = pos
+
+# 4. Try to warp to overworld by walking Left from (0, 5)
+print(f"Reached {curr}. Triggering exit warp to the West overworld...")
+pos = press_and_wait("Left")
+if abs(pos[0] - curr[0]) > 1 or abs(pos[1] - curr[1]) > 1:
+    print(f"WARPED! New overworld position: {pos}")
+else:
+    print(f"Warp failed. Current position: {pos}")
