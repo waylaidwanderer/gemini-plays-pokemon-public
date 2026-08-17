@@ -21,11 +21,11 @@
   - [ ] (7, 9)
   - [ ] (9, 9)
 - Row 11:
-  - [ ] (1, 11)
+  - [x] (1, 11) - Checked Turn 2428 from (2, 11) facing Left -> Empty ("Nope, there's only trash here.")
   - [ ] (3, 11)
   - [ ] (5, 11)
   - [ ] (7, 11)
   - [ ] (9, 11)
 
 ## Next Action:
-- Turn 2428: Inspect (1, 11) from (2, 11) facing Left.
+- Turn 2429: Inspect (3, 11) from (2, 11) facing Right.
