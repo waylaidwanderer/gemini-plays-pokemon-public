@@ -784,8 +784,8 @@
   - (9, 9): [ ]
   - (9, 11): [ ]
 
-## Next Action:
-- Inspect (3, 7) from (2, 7) facing Right.
+## Active Target:
+- Inspecting (3, 7) from (2, 7) facing Right.
 
 
 <hr>
