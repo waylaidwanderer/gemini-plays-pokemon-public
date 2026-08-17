@@ -9,29 +9,20 @@ def get_pos():
     pos = mgba.get_coordinates()
     return pos['x'], pos['y']
 
-def buy_drink_col8():
+def buy_drink_from_4_6():
     print("Starting at:", get_pos())
     
-    # 1. Walk down to Row 6 (4, 6)
-    press_and_wait("Down")
-    press_and_wait("Down")
-    print("At Row 6:", get_pos())
+    # 1. Walk right 4 steps to Column 8 (8, 6)
+    for _ in range(4):
+        press_and_wait("Right")
+    print("At (8, 6):", get_pos())
     
-    # 2. Walk right to Column 8 (8, 6)
-    press_and_wait("Right")
-    press_and_wait("Right")
-    press_and_wait("Right")
-    press_and_wait("Right")
-    print("At Col 8:", get_pos())
-    
-    # 3. Walk up to Row 2 (8, 2)
-    press_and_wait("Up")
-    press_and_wait("Up")
-    press_and_wait("Up")
-    press_and_wait("Up")
+    # 2. Walk up 4 steps to Row 2 (8, 2)
+    for _ in range(4):
+        press_and_wait("Up")
     print("At (8, 2):", get_pos())
     
-    # 4. Interact with the vending machine at (8, 1)
+    # 3. Interact with the vending machine at (8, 1)
     print("Pressing A...")
     press_and_wait("A", 1.0)
     
@@ -45,22 +36,8 @@ def buy_drink_col8():
     print("Confirming dialogue 2...")
     press_and_wait("A", 1.0)
     
-    # Interacting again to buy Soda Pop (just in case!)
-    print("Interacting again...")
-    press_and_wait("A", 1.0)
-    print("Selecting Soda Pop (Option 2)...")
-    press_and_wait("Down", 0.3)
-    press_and_wait("A", 0.5)
-    print("Confirming Soda Pop dialogue...")
-    press_and_wait("A", 1.0)
-    press_and_wait("A", 1.0)
-    
-    # Exit vending machine
-    print("Exiting...")
-    press_and_wait("B", 0.5)
-    
     # Take screenshot of final state
     mgba.take_screenshot()
-    print("Fresh Water and Soda Pop purchased successfully!")
+    print("Fresh Water purchased successfully!")
 
-buy_drink_col8()
+buy_drink_from_4_6()
