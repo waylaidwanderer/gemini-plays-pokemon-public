@@ -10,3 +10,5 @@
 
 ## Verified Encounters & Trainers
 - Wild Encounters: Spearow [Encountered Turn 3057].
+
+- Trainer: Located at (7, 25) on the western paved road leading to Rock Tunnel.
