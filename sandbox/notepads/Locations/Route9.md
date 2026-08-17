@@ -13,3 +13,4 @@
 - Tall grass patches at rows 8-9 (cols 6-9 and further east).
 
 - Jr. Trainer ♀: Located at (13, 10) facing Up [Defeated Turn 2988]. Team: Bellsprout Lv 18, Oddish Lv 18, Bellsprout Lv 18. Reward: ¥360. Dialogue: "You have POKéMON with you! You're mine!" Defeat quote: "You deceived me!"
+- Trainer #2: Located at (16, 15) in the southwestern grass area below the ledge.
