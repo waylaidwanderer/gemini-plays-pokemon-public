@@ -44,8 +44,8 @@
    - Type: Poison / Flying
    - Moves: Leech Life (15/15), Supersonic (20/20)
    - Role: Fast Flying/Poison utility & Grass counter
-3. HYDROS (Wartortle) - Lv 33
-   - Stats (Verified at Lv 33): Max HP 94 (HP: 94/94), Attack 58, Defense 66, Speed 60, Special 63
+3. HYDROS (Wartortle) - Lv 34
+   - Stats (Verified at Lv 34): Max HP 97 (HP: 20/97), Attack 60, Defense 68, Speed 62, Special 65
    - Type: Water
    - Moves: Tackle (30/35), Tail Whip (27/30), Bite (22/25), Bubblebeam (15/20) [Verified Turn 2318]
    - Role: Starter & primary Water special attacker
