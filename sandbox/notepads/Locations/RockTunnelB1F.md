@@ -18,4 +18,4 @@
 - Wild Pokémon: Zubat, Geodude, Machop, Onix.
 - PokéManiac: Defeated at (26, 31).
 - Jr. Trainer ♀: Defeated at (15, 28).
-- PokéManiac #2: Encountered at (22, 20) facing Down from (22, 21). Dialogue: "Do you know about costume players?" [Turn 3497]
+- PokéManiac #2: Located at (22, 20) facing Down [Defeated Turn 3500]. Team: Charmander Lv 22, Cubone Lv 22. Reward: ¥1100. Dialogue: "Do you know about costume players?" Defeat quote: "Well, that's that."
