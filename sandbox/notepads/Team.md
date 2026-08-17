@@ -1,0 +1,50 @@
+# Current Party & Team Strategy
+
+## Active Party
+1. HYDROS (Blastoise) - Lv 36
+   - Stats (Verified at Lv 36): Max HP 103 (HP: 88/103), Attack 63, Defense 72, Speed 66, Special 69 [Verified Turn 3769]
+   - Type: Water
+   - Moves: Tackle (31/35), Tail Whip (30/30), Bite (25/25), Bubblebeam (17/20)
+   - Role: Starter & primary Water special attacker (Active Lead)
+2. ECHO (Zubat) - Lv 8
+   - Stats (Verified at Lv 8): Max HP 26 (HP: 26/26)
+   - Type: Poison / Flying
+   - Moves: Leech Life (15/15), Supersonic (20/20)
+   - Role: Fast Flying/Poison utility
+3. TERRA (Geodude) - Lv 21
+   - Stats (Verified at Lv 21): Max HP 54 (HP: 52/54), Attack 45, Defense 50, Speed 20, Special 19
+   - Type: Rock / Ground
+   - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
+   - Role: Physical Rock/Ground tank
+4. SPROUT (Bellsprout) - Lv 15
+   - Stats (Verified at Lv 15): Max HP 42 (HP: 42/42), Attack 27, Defense 15, Speed 16, Special 28
+   - Type: Grass / Poison
+   - Moves: Vine Whip, Growth, Wrap, PoisonPowder, Cut
+   - Role: Grass/Poison STAB, status utility & Field Cut user
+5. ATLAS (Machop) - Lv 15
+   - Stats: Max HP 49 (HP: 49/49)
+   - Type: Fighting
+   - Moves: Karate Chop, Low Kick
+   - Role: Physical Fighting STAB attacker [Captured Turn 3345 with Great Ball]
+6. TITAN (Onix) - Lv 13
+   - Stats: Max HP 32 (HP: 32/32)
+   - Type: Rock / Ground
+   - Moves: Tackle, Screech
+   - Role: Physical Rock/Ground tank
+
+## Planned Nicknaming Strategy
+- Every captured Pokmon will receive a thoughtful, unique nickname.
+
+## Inventory & Resources (Verified Turn 3708)
+- Money: 9044 (Post-blackout balance)
+- Badges: Boulder Badge, Cascade Badge, Thunder Badge
+- Key Items: Bicycle, Town Map, Helix Fossil, S.S. Ticket
+- TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM24 (Thunderbolt), TM34 (Bide), TM44 (Rest)
+- Valuables:
+  - 1x Nugget (Nugget Bridge completion prize - sellable for 5000)
+- Consumables:
+  - 0x Pok Ball
+  - 0x Great Ball
+  - 1x Ether (Restores 10 PP to one move)
+  - 1x Moon Stone (Evolution item found in Mt. Moon 1F)
+  - 1x Rare Candy (Found at 35, 31 in Mt. Moon 1F)
