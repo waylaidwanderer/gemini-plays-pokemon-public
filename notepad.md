@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Rock Tunnel B1F (x=35, y=5)
+- Location: Rock Tunnel 1F (x=5, y=3)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -831,6 +831,7 @@
 - Ladders:
   - Ladder 1: Located at (17, 11) on central vertical passage (cols 16-17, rows 10-17) [Discovered Turn 3132].
   - Eastern Ladder to B1F: Located at (37, 3) at the northern end of the eastern corridor (cols 34-37, rows 3-13) [Verified Turn 3459].
+  - Western Ladder from B1F: Located at (5, 3) on western corridor. Connects down to B1F at (27, 3) [Verified Turn 3523].
 
 ## Empirical Layout & Topology (Verified Turns 3120-3332)
 1. Entrance Chamber: Located around (14..17, 3..7).
@@ -857,6 +858,11 @@
 ## Verified Trainers & Encounters
 - Wild Pokémon: Geodude (Lv 16-17), Zubat (Lv 15-18), Onix (Lv 13) [Verified].
 - PokéManiac: Defeated Turn 3148. Positioned at (23, 8) facing West. Blocks (23, 8); use cols 20-22 to bypass south to Upper Highway. Team: Cubone Lv 23, Slowpoke Lv 23. Reward: ¥1150.
+7. Western Corridor & South Passage (rows 2-7+, cols 2-10):
+   - Emerges from B1F ladder at (5, 3).
+   - Solid rock wall at rows 0-1 and cols 8-10 (rows 0-5).
+   - Rows 6-7 form a wide open corridor spanning cols 2-10 leading south toward Route 10 South / Lavender Town exit.
+
 
 <hr>
 
@@ -866,7 +872,7 @@
 
 ## Connections & Warps
 - Ladder North-East: Located at (33, 25). Connects up to Rock Tunnel 1F at (37, 3) [Verified Turn 3460].
-- Ladder North-Central: Located at (27, 3). Connects up to Rock Tunnel 1F [Discovered Turn 3519].
+- Ladder North-Central: Located at (27, 3). Connects up to Rock Tunnel 1F at (5, 3) [Verified Turn 3523].
 
 ## Verified Layout & Corridors
 1. South-East Entry Corridor (rows 25-33, cols 26-35):
