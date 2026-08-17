@@ -758,3 +758,20 @@
 - Verified Switch Solution (Turn 2877): Switch 1 found at can (3, 7), Switch 2 found at adjacent can (3, 9). Motorized doors unlocked!
 
 <hr>
+
+<h1><code>Locations/Route9</code></h1>
+
+# Route 9 - Points of Interest & Notes
+
+## Connections
+- West: Cerulean City at (0, 8..9) / (0, 16..17)
+- East: Route 10 & Rock Tunnel
+
+## Layout & Landmarks
+- Upper and lower pathways divided by ledges and rocky outcrops.
+- Leads east towards Route 10, Rock Tunnel entrance, and the Power Plant waterway.
+
+## Verified Encounters & Trainers
+- None yet.
+
+<hr>
