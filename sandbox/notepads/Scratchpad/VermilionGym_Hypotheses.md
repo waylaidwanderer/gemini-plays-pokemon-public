@@ -21,7 +21,7 @@
   - (5, 11): [x] Checked Turn 2619 -> Empty
 - Col 7:
   - (7, 11): [x] Checked Turn 2622 -> Empty
-  - (7, 9): [ ]
+  - (7, 9): [x] Checked Turn 2625 -> Empty
   - (7, 7): [ ]
 - Col 9:
   - (9, 7): [ ]
@@ -29,4 +29,4 @@
   - (9, 11): [ ]
 
 ## Active Target:
-- Move to (6, 9), face Right, inspect (7, 9).
+- Move to (6, 7), face Right, inspect (7, 7).
