@@ -40,7 +40,7 @@
    - Moves: Tackle (34/35), Defense Curl (40/40) [TM28 Dig in Bag]
    - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist (Active Lead)
 2. ECHO (Zubat) - Lv 8
-   - Stats (Verified at Lv 8): Max HP 26 (HP: 26/26, Healthy)
+   - Stats (Verified at Lv 8): Max HP 26 (HP: 0/26, FNT)
    - Type: Poison / Flying
    - Moves: Leech Life (15/15), Supersonic (20/20)
    - Role: Fast Flying/Poison utility & Grass counter
