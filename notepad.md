@@ -782,13 +782,13 @@
   - [x] (3, 11) - Checked Turn 2429 from (2, 11) facing Right -> Empty
   - [x] (5, 11) - Checked Turn 2433 from (4, 11) facing Right -> Empty
   - [x] (7, 11) - Checked Turn 2439 from (6, 11) facing Right -> Empty
-  - [ ] (9, 11)
+  - [x] (9, 11) - Checked Turn 2440 from (8, 11) facing Right -> Empty
 
 ## Current Deduction:
-- 12/15 cans checked empty. Switch 1 MUST be in Column 9: (9, 7), (9, 9), or (9, 11).
+- 13/15 cans checked empty. Switch 1 is strictly in either (9, 9) or (9, 7).
 
 ## Next Action:
-- Turn 2440: Inspect (9, 11) from (8, 11) facing Right.
+- Turn 2441: Inspect (9, 9) from (8, 9) facing Right.
 
 
 <hr>
