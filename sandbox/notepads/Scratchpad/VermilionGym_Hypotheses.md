@@ -9,7 +9,7 @@
 ## Complete 15-Can Systematic Manual Sweep (Active):
 - Row 7:
   - [ ] (1, 7)
-  - [ ] (3, 7)
+  - [x] (3, 7) - Checked Turn 2472 from (4, 7) facing Left -> Empty
   - [x] (5, 7) - Checked Turn 2471 from (6, 7) facing Left -> Empty
   - [x] (7, 7) - Checked Turn 2464 from (8, 7) facing Left -> Empty
   - [x] (9, 7) - Checked Turn 2463 from (8, 7) facing Right -> Empty
@@ -27,7 +27,7 @@
   - [x] (9, 11) - Checked Turn 2467 from (8, 11) facing Right -> Empty
 
 ## Current Deduction:
-- Columns 5, 7, and 9 are 100% empty (9/15 checked). Switch 1 is in Columns 1 or 3 (6 candidates remaining).
+- 10/15 cans checked empty. Remaining 5 candidates: (1, 7), (1, 9), (1, 11), (3, 9), (3, 11).
 
 ## Next Action:
-- Turn 2472: Inspect (3, 7) from (4, 7) facing Left.
+- Turn 2473: Inspect (1, 7) from (2, 7) facing Left.
