@@ -39,3 +39,5 @@
 - PokéManiac #2: Located at (22, 20) facing Down [Defeated Turn 3500]. Team: Charmander Lv 22, Cubone Lv 22. Reward: ¥1100. Dialogue: "Do you know about costume players?" Defeat quote: "Well, that's that."
 - Hiker #1: Located near (31..34, 5) facing East [Defeated Turn 3516]. Team: Machop Lv 20, Onix Lv 20. Reward: ¥700. Dialogue: "Hit me with your best shot!" Defeat quote: "Fired away!"
 - Hiker #2: Located at (30, 10) [Defeated Turn 3595]. Team: Geodude Lv 25. Reward: ¥875. Dialogue: "My POKéMON techniques will leave you crying!" Defeat quote: "I give! You're a better technician!"
+
+- Ladder North-West Central: Located at (23, 11). Discovered Turn 3943!
