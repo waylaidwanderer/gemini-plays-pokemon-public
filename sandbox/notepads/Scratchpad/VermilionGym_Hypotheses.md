@@ -17,7 +17,7 @@
   - [ ] (7, 7)
   - [ ] (9, 7)
 - Row 9:
-  - [ ] (1, 9)
+  - [x] (1, 9) - Checked Turn 2409 from (2, 9) facing Left -> Empty ("Nope, there's only trash here.")
   - [ ] (3, 9)
   - [ ] (5, 9)
   - [ ] (7, 9)
@@ -30,4 +30,4 @@
   - [x] (9, 11) - Checked Turn 2400 from (8, 11) facing Right -> Empty ("Nope, there's only trash here.")
 
 ## Next Planned Checks:
-- Turn 2409: Inspect (1, 9) from (2, 9) facing Left.
+- Turn 2410: Inspect (3, 9) from (2, 9) facing Right.
