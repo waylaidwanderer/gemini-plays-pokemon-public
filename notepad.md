@@ -853,7 +853,7 @@
    - Dead-end pocket connecting only via row 21.
 
 ## Verified Trainers & Encounters
-- Hiker #2: Located at (6, 10) facing Down [Engaged Turn 4129]. Pre-battle dialogue: "Hahaha! Can you beat my power?" Team: Geodude Lv 21, Geodude Lv 21, Graveler Lv 21.
+- Hiker #2: Located at (6, 10) facing Down [Defeated Turn 4163]. Pre-battle dialogue: "Hahaha! Can you beat my power?" Defeat quote: "Oops! Out-muscled!" Team: Geodude Lv 21, Geodude Lv 21, Graveler Lv 21.
 - PokéManiac Ashton: Located at (23, 8) facing North [Defeated Turn 3145]. Team: Cubone Lv 23, Slowpoke Lv 23. Reward: ¥1150.
 - Hiker at (8, 6) facing Left [Defeated Turn 4036]. Team: Geodude Lv 19, Machop Lv 19, Geodude Lv 19. Reward: �665.
 - Hiker #1: Located at (5, 15) [Defeated Turn 3654]. Team: Onix Lv 20, Geodude Lv 20. Reward: ¥700.
