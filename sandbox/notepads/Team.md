@@ -22,21 +22,21 @@
    - Moves: Vine Whip, Growth, Wrap, PoisonPowder, Cut
    - Role: Grass/Poison STAB, status utility & Field Cut user (Fainted)
 5. ATLAS (Machop) - Lv 15
-   - Stats: Max HP 49 (HP: 49/49) [Verified Turn 3651]
+   - Stats: Max HP 49 (HP: 0/49, Status: FNT) [Verified Turn 3687]
    - Type: Fighting
    - Moves: Karate Chop, Low Kick
-   - Role: Physical Fighting STAB attacker (Active Lead) [Captured Turn 3345 with Great Ball]
+   - Role: Physical Fighting STAB attacker (Fainted)
 6. TITAN (Onix) - Lv 13
    - HP: 14/32 [Verified Turn 3489]
    - Type: Rock / Ground
    - Moves: Tackle, Screech
-   - Role: Physical Rock/Ground tank
+   - Role: Physical Rock/Ground tank (Active Lead)
 
 ## Planned Nicknaming Strategy
 - Every captured Pok�mon will receive a thoughtful, unique nickname.
 
-## Inventory & Resources (Verified Turn 3445)
-- Money: �17389
+## Inventory & Resources (Verified Turn 3691)
+- Money: �18089 (Includes �700 won from Hiker #3)
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge
 - Key Items: Bicycle, Town Map, Helix Fossil, S.S. Ticket
 - TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM24 (Thunderbolt), TM34 (Bide), TM44 (Rest)
