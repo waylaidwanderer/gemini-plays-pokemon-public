@@ -511,8 +511,8 @@ Do not double-escape the backslashes inside normal python string literals unless
 
 <h1><code>Locations/CeladonCity</code></h1>
 
-<!-- WARNING: ALL CELADON DEPARTMENT STORE AND CITY LAYOUT NOTES BELOW ARE UNVERIFIED. -->
-<!-- THE PLAYER HAS NOT YET VISITED CELADON CITY OR SAFFRON CITY IN REALITY. -->
+
+
 
 # Celadon City - Points of Interest & Overworld Layout
 
