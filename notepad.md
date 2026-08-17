@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 2/8 (Boulder Badge, Cascade Badge)
-- Location: Vermilion Gym (x=6, y=7)
+- Location: Vermilion Gym (x=6, y=11)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -780,14 +780,14 @@
   - [x] (1, 11) - Checked Turn 2484 from (2, 11) facing Left -> Empty
   - [x] (3, 11) - Checked Turn 2486 from (2, 11) facing Right -> Empty
   - [x] (5, 11) - Checked Turn 2487 from (4, 11) facing Right -> Empty
-  - [ ] (7, 11)
+  - [x] (7, 11) - Checked Turn 2494 from (6, 11) facing Right -> Empty
   - [ ] (9, 11)
 
 ## Current Sweep State:
-- 11/15 cans verified empty on this run. Remaining 4 candidates: (7, 11), (9, 7), (9, 9), (9, 11).
+- 12/15 cans verified empty on this run. Remaining 3 candidates: (9, 11), (9, 9), (9, 7) (all in Column 9).
 
 ## Next Action:
-- Turn 2494: Inspect (7, 11) from (6, 11) facing Right.
+- Turn 2495: Inspect (9, 11) from (8, 11) facing Right.
 
 
 <hr>
