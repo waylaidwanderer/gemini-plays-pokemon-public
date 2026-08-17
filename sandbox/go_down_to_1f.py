@@ -9,37 +9,102 @@ def get_pos():
     pos = mgba.get_coordinates()
     return pos['x'], pos['y']
 
-def find_left_exit():
-    print("Starting left-side brute force of 1F exit from:", get_pos())
-    # We are currently at (9, 7)
-    
-    test_columns = [7, 6, 5, 4, 3, 2]
-    
-    for col in test_columns:
+def walk_to_target(target_x, target_y):
+    print(f"Walking to ({target_x}, {target_y})...")
+    for step in range(25):
         cx, cy = get_pos()
-        if cy > 7 or cx < 0 or cx > 20:
-            print("Successfully transitioned outside!")
+        if cx == target_x and cy == target_y:
+            print(f"Arrived at ({cx}, {cy})")
             return True
             
-        print(f"Testing Column {col} on Row 7...")
-        # Walk horizontally on Row 7 to 'col'
-        steps = col - cx
-        if steps != 0:
-            btn = "Right" if steps > 0 else "Left"
-            for _ in range(abs(steps)):
-                press_and_wait(btn)
-                
-        # Try to walk DOWN to trigger exit
-        press_and_wait("Down", 1.0)
+        dx = target_x - cx
+        dy = target_y - cy
         
-        # Check if we transitioned
-        nx, ny = get_pos()
-        if ny > 7 or nx != col:
-            print(f"SUCCESS! Transitioned outside at Column {col}! Final position: ({nx}, {ny})")
-            mgba.take_screenshot()
-            return True
+        if dx != 0:
+            btn = "Right" if dx > 0 else "Left"
+            press_and_wait(btn, 0.3)
+        elif dy != 0:
+            btn = "Down" if dy > 0 else "Up"
+            press_and_wait(btn, 0.3)
             
-    print("Failed to find exit warp on left-side columns.")
+        # Verify we moved
+        nx, ny = get_pos()
+        if nx == cx and ny == cy:
+            print(f"BUMPED at ({cx}, {cy}) trying to go to ({target_x}, {target_y})!")
+            return False
+            
     return False
 
-find_left_exit()
+def go_down_verified():
+    print("Starting verified descent from 5F at:", get_pos())
+    
+    # 1. Close text box
+    print("Closing text box...")
+    press_and_wait("B", 0.5)
+    
+    # 2. 5F -> 4F (DOWN escalator at 16, 1)
+    print("--- 5F to 4F ---")
+    if not walk_to_target(16, 2):
+        return False
+    print("Stepping UP into DOWN escalator on 5F...")
+    press_and_wait("Up", 1.0)
+    time.sleep(0.5)
+    print("Arrived on 4F at:", get_pos())
+    
+    # 3. 4F -> 3F (DOWN escalator at 16, 1)
+    print("--- 4F to 3F ---")
+    if not walk_to_target(16, 2):
+        return False
+    print("Stepping UP into DOWN escalator on 4F...")
+    press_and_wait("Up", 1.0)
+    time.sleep(0.5)
+    print("Arrived on 3F at:", get_pos())
+    
+    # 4. 3F -> 2F (DOWN escalator at 16, 1)
+    print("--- 3F to 2F ---")
+    if not walk_to_target(16, 2):
+        return False
+    print("Stepping UP into DOWN escalator on 3F...")
+    press_and_wait("Up", 1.0)
+    time.sleep(0.5)
+    print("Arrived on 2F at:", get_pos())
+    
+    # 5. 2F -> 1F (DOWN escalator at 16, 1)
+    print("--- 2F to 1F ---")
+    if not walk_to_target(16, 2):
+        return False
+    print("Stepping UP into DOWN escalator on 2F...")
+    press_and_wait("Up", 1.0)
+    time.sleep(0.5)
+    print("Arrived on 1F at:", get_pos())
+    
+    # 6. Exit 1F to Celadon City
+    # We are at (16, 2) on 1F
+    print("--- Exiting 1F ---")
+    if not walk_to_target(15, 2):
+        return False
+    if not walk_to_target(15, 5):
+        return False
+    if not walk_to_target(9, 5):
+        return False
+    if not walk_to_target(9, 7):
+        return False
+        
+    print("Stepping DOWN to exit the store...")
+    press_and_wait("Down", 1.5) # Longer wait for map transition
+    
+    # Verify outside
+    final_x, final_y = get_pos()
+    print("Final position:", (final_x, final_y))
+    # Outside is Celadon City, which is a different map.
+    # The entrance door is at (10, 13), so we should land at (10, 14) or (10, 13)
+    if final_y > 7 or final_x == 10:
+        print("SUCCESS! Successfully exited the Department Store!")
+        mgba.take_screenshot()
+        return True
+    else:
+        print("FAILED to exit the store. We are at:", (final_x, final_y))
+        mgba.take_screenshot()
+        return False
+
+go_down_verified()
