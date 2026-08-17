@@ -8,6 +8,8 @@
 - Upper and lower pathways divided by ledges and rocky outcrops.
 - Leads east towards Route 10, Rock Tunnel entrance, and the Power Plant waterway.
 - Western Entrance Cut Bush: Located at (5, 8). Requires HM01 Cut to access the main eastern highway of Route 9 [Cleared Turn 2969].
+- Western Upper Ledge at (12, 11): One-way hop-down ledge from row 10 grass to row 12 highway.
+- Middle Lower Ledge at (19, 13): One-way hop-down ledge from row 12 highway to row 14-15 grass lawn.
 
 ## Verified Encounters & Trainers
 - Tall grass patches at rows 8-9 (cols 6-9 and further east).

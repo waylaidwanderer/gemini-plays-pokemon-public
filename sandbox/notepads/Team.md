@@ -34,7 +34,6 @@
 - Consumables:
   - 13x Poké Ball
   - 1x Great Ball (Found in S.S. Anne Kitchen trash can at 13, 9)
-  - 1x Antidote (Status cure: Poison)
   - 1x Ether (Restores 10 PP to one move)
   - 1x Moon Stone (Evolution item found in Mt. Moon 1F)
   - 1x Rare Candy (Found at 35, 31 in Mt. Moon 1F)
