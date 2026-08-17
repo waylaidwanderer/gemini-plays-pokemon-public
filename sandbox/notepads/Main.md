@@ -3,7 +3,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Rock Tunnel 1F (x=37, y=5)
+- Location: Rock Tunnel B1F (x=28, y=25)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -28,3 +28,4 @@
 - `Locations/Route9`: Route 9 layout, trainers, Cut trees, wild encounters
 - `Locations/Route10`: Route 10 layout, Pokémon Center, Jr. Trainer Carol battle
 - `Locations/RockTunnel1F`: Rock Tunnel 1F layout, ladders, trainers, wild encounters
+- `Locations/RockTunnelB1F`: Rock Tunnel B1F layout, ladders, trainers, wild encounters Rock Tunnel 1F layout, ladders, trainers, wild encounters
