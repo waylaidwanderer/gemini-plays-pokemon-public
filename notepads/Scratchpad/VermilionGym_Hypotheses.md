@@ -9,7 +9,7 @@
 ### Matrix Checklist:
 - Col 1:
   - (1, 11): [x] Checked Turn 2593 -> Empty
-  - (1, 9): [ ]
+  - (1, 9): [x] Checked Turn 2599 -> Empty
   - (1, 7): [ ]
 - Col 3:
   - (3, 11): [x] Checked Turn 2596 -> Empty
@@ -29,4 +29,4 @@
   - (9, 11): [ ]
 
 ## Next Action:
-- Move to (2, 9), face Left, inspect (1, 9).
+- Inspect (3, 9) from (2, 9) facing Right.
