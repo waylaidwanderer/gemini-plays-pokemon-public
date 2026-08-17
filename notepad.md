@@ -888,5 +888,9 @@
    - Rock divider at rows 14-15 spans cols 20-31.
    - Vertical opening at cols 32-33 connects row 16 north to rows 12-13.
    - Open chamber/passage at rows 12-13 across cols 26-33.
+4. North-East Sector & Central Divider (rows 8-13, cols 26-37):
+   - Rows 10-13 form a wide open 4-tile high horizontal highway spanning cols 26-37.
+   - Rock formation located at cols 30-33 across rows 8-9.
+   - Northern passages branch on both sides of the rock formation: Western branch (cols 28-29) and Eastern branch (cols 34-37).
 
 <hr>
