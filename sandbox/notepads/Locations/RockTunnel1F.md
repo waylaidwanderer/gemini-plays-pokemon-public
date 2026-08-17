@@ -32,7 +32,5 @@
 - Jr. Trainer ♀ #1: Located at (10, 15) [Defeated Turn 3879]. Team: Jigglypuff Lv 21, Pidgey Lv 21, Meowth Lv 21. Reward: ¥420.
 - Trainer #4: Located at (23, 11) in Upper East Alcove.
 
-## Navigation Route to Progression (Ladder 3)
-- West half of 1F (cols 2-23) partially explored via central corridors.
-- To reach the Southern Sector (NPC at 22, 24) and Ladder 3, navigate to the North Corridor (cols 15-37) and explore the Eastern Sector (cols 24-37).
+
 - Hiker at (8, 6) facing Left [Defeated Turn 4036]. Team: Geodude Lv 19, Machop Lv 19, Geodude Lv 19. Reward: ��665. Dialogue: 'This tunnel goes a long way, kid!' Defeat quote: 'Doh! You win!'
