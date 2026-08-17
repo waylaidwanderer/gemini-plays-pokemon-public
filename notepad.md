@@ -908,7 +908,6 @@
 - Hiker #1: Located near (31..34, 5) facing East [Defeated Turn 3516]. Team: Machop Lv 20, Onix Lv 20. Reward: ¥700. Dialogue: "Hit me with your best shot!" Defeat quote: "Fired away!"
 - Hiker #2: Located at (30, 10) [Defeated Turn 3595]. Team: Geodude Lv 25. Reward: ¥875. Dialogue: "My POKéMON techniques will leave you crying!" Defeat quote: "I give! You're a better technician!"
 
-- Ladder North-West Central: Located at (23, 11). Discovered Turn 3943!
 ## Empirical Collision Bounds & Corridor Mapping (Verified Turns 3940-3961)
 - Ladder 3 (North-West Central): Located at (23, 11).
 - Solid Northern Boundary: Row 1. Solid Southern Boundary: Row 34.
@@ -916,15 +915,26 @@
 - Lower South Highway (rows 30-33, cols 2-35): Massive open 4-tile horizontal basin. Western end at col 2 is a dead end.
 - Rock Divider (rows 28-29): Spans continuously across cols 2-13 and cols 18-25.
 - Vertical Connector (rows 28-29, cols 14-17): Only open vertical passage connecting Lower South Highway (row 30) to Upper South Corridor (row 26-27).
-- Upper South Corridor (rows 26-27, cols 2-25): Horizontal corridor above the rock divider. Connects west to cols 2-5 (Western Corridor going north) and east to cols 20-25.
+- Upper South Corridor (rows 26-27, cols 2-25): Horizontal corridor above the rock divider. Connects west to cols 2-5 and east to cols 20-25.
 
-## Empirical Dungeon Topology Proof (Verified Turn 4015)
-- Solid Rock Divider (cols 24-25): Extends from row 0 down through row 15. Blocks ALL horizontal movement between East Sector (cols 26-37) and West Sector (cols 2-23) on B1F.
-- Progression Sequence:
-  1. Ladder 1 (1F 37,3 <-> B1F 33,25): Connects 1F North Entrance to B1F East Sector.
-  2. Ladder 2 (B1F 27,3 <-> 1F 5,3): Connects B1F East Sector to 1F West Sector.
-  3. Ladder 3 (1F 23,11 <-> B1F 23,11): Reached from 1F West Sector via row 14 to col 23. Descends to B1F West Sector.
-  4. Ladder 4: Reached through B1F West Sector, ascending to 1F Southern Sector (rows 24-34) and Route 10 exit.
+
+<hr>
+
+<h1><code>Scratchpad/RockTunnelRouting</code></h1>
+
+# Scratchpad - Rock Tunnel Routing & Working Hypotheses
+
+## Current Observations
+- B1F has 3 observed ladders:
+  1. (33, 25) <-> 1F (37, 3) [Verified]
+  2. (27, 3) <-> 1F (5, 3) [Verified]
+  3. (23, 11) [Observed ladder tile on B1F; corresponding 1F tile (23, 11) is a non-warp trainer tile].
+- 1F Western Sector (cols 2-23, rows 3-21) has been explored down to (5, 15) and dead-end at (23, 11).
+- 1F Eastern Sector (cols 24-37, rows 6-21) and Southern Sector (rows 22-34) remain to be systematically explored.
+
+## Working Route Plan
+1. Ascend Ladder 2 from B1F (27, 3) to 1F (5, 3).
+2. Explore 1F North Entrance Corridor (rows 2-5, cols 15-37) southward into the Eastern Sector of 1F (cols 24-37) to locate the path to the southern exit or Ladder 3 connector.
 
 
 <hr>
