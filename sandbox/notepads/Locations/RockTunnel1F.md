@@ -26,6 +26,7 @@
 
 ## Verified Trainers & Encounters
 - PokéManiac Ashton: Located at (23, 8) facing North [Defeated Turn 3145]. Team: Cubone Lv 23, Slowpoke Lv 23. Reward: ¥1150.
+- Hiker at (8, 6) facing Left [Defeated Turn 4036]. Team: Geodude Lv 19, Machop Lv 19, Geodude Lv 19. Reward: �665.
 - Hiker #1: Located at (5, 15) [Defeated Turn 3654]. Team: Onix Lv 20, Geodude Lv 20. Reward: ¥700.
 - Jr. Trainer ♀ #1: Located at (10, 15) [Defeated Turn 3879]. Team: Jigglypuff Lv 21, Pidgey Lv 21, Meowth Lv 21. Reward: ¥420.
 - Trainer #4: Located at (23, 11) in Upper East Alcove.
