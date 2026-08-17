@@ -827,8 +827,8 @@
 - Route 10 North Entrance/Exit: Located at (15, 3). Stepping onto (15, 3) warps out to Route 10 at (8, 18) [Verified Turn 3120, Turn 3232].
 - Route 10 South Exit: Leads to Lavender Town (located on southern section of 1F).
 - Ladders:
-  - Ladder 1: Located at (17, 11) on vertical passage (cols 16-17, rows 10-17) [Discovered Turn 3132].
-  - Ladder 2: Located at (37, 17) at the eastern end of the Southern Corridor (rows 16-17) [Discovered Turn 3165].
+  - Ladder 1: Located at (17, 11) on central vertical passage (cols 16-17, rows 10-17) [Discovered Turn 3132].
+  - Eastern Ladder to B1F: Located at (37, 3) at the northern end of the eastern corridor (cols 34-37, rows 3-13) [Verified Turn 3459].
 
 ## Empirical Layout & Topology (Verified Turns 3120-3332)
 1. Entrance Chamber: Located around (14..17, 3..7).
