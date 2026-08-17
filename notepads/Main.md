@@ -24,4 +24,4 @@
 - `Mechanics/Search_Scripting_Pitfalls` - Tips for robust scripting and tool usage.
 
 ## Current Party Status (Blastoise Solo Runner)
-- **SHELLBY** (Blastoise) - Level 55, healthy. Movepool: Hydro Pump, Ice Beam, Bite, Water Gun.
+- **SHELLBY** (Blastoise) - Level 55, healthy. Movepool: BITE, ICE BEAM, SURF, STRENGTH.
