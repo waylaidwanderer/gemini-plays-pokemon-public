@@ -1,8 +1,8 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. TERRA (Geodude) - Lv 18
-   - Stats (Verified at Lv 18): Attack 39, Defense 43, Speed 18, Special 17
+1. TERRA (Geodude) - Lv 19
+   - Stats (Verified at Lv 19): Max HP 49 (HP: 14/49), Attack 41, Defense 45, Speed 19, Special 18 [Verified Turn 3048]
    - Type: Rock / Ground
    - Moves: Tackle, Defense Curl, Dig, Rock Throw [Verified Turn 2897]
    - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist (Active Lead)
@@ -25,7 +25,7 @@
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
 ## Inventory & Resources (Verified Turn 2943)
-- Money: ¥6767 (Verified Turn 3008)
+- Money: ¥6957 (Verified Turn 3048)
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pokémon up to Lv 30 obey), Thunder Badge (Boosts Speed, enables Fly outside battle)
 - Key Items: Bicycle, Town Map, Helix Fossil, S.S. Ticket
 - TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM24 (Thunderbolt), TM34 (Bide), TM44 (Rest)

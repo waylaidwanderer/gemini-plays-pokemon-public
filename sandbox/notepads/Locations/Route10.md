@@ -9,6 +9,4 @@
 - Route 10 Pokémon Center: Located outside Rock Tunnel entrance.
 
 ## Verified Encounters & Trainers
-- None yet.
-## Verified Encounters & Trainers
 - Wild Encounters: Spearow [Encountered Turn 3057].
