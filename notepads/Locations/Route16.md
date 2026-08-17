@@ -1,16 +1,19 @@
-# Route 16 Verified Location Records (Map 0_27)
-- **Map Connections**:
-  - Seamless connection to Celadon City (Map 0_6) is at the eastern boundary on Row 10/11.
-- **Physical Landmarks & Obstacles**:
-  - Cuttable bush at (34, 9) unlocks access to the northern secret path (Rows 6-9) leading to the Secret House.
-  - Snorlax originally at (26, 10) was awakened using the Poké Flute on Turn 38649 and captured. This main path is now fully clear.
-- **Gatehouse (Map 0_165 / 0_166)**:
-  - Route 16 Gatehouse Back Door (West) is at (18, 5).
-  - Route 16 Gatehouse Back Door (East) is at (23, 5).
-- **Secret House (Map 0_188)**:
-  - Entrance door warp is at (7, 5). Entering warps the player to (2, 7) inside the Secret House (facing Up).
-  - Inside the Secret House, the girl at (2, 3) gives HM02 (FLY) to the player.
-- **Bicycle Path Progression**:
-  - Entering Route 16 West automatically places the player on the Bicycle.
-  - Cue Ball at (11, 10) defeated on Turn 43079 using GEMMY (Blastoise).
-  - Biker at (7, 11) defeated on Turn 43098 using GEMMY (Blastoise).
+# Route 16 Gatehouse - Verified Layout & Coordinates
+
+## Overview
+Route 16 Gatehouse physically divides Celadon City (East) from Route 16 Cycling Road (West) via a split-level layout. The first floor (1F) is divided into two separate, unconnected rooms (West and East), which are only connected via the second floor (2F) room.
+
+## First Floor (1F) - West Room
+- **West Doorway:** Located at Column 0. Connects to Route 16 overworld/Cycling Road. Requires a Bicycle to exit (the warp is disabled/solid if you do not possess a Bicycle in your bag).
+- **Stairs to 2F:** Located at `(12, 1)`. Walking UP onto this tile warps the player to the 2F room at `(12, 1)` (automatic step down to `(12, 2)`).
+- **Walkable Corridor:** Row 5 is completely open horizontally from Column 0 to Column 19. Rows 2-3 are blocked by solid walls at columns 1-9.
+
+## First Floor (1F) - East Room
+- **East Doorway:** Located on Row 7 at columns `(16, 7)` and `(17, 7)` (red carpet/doormat tiles). Walking DOWN (south) on these tiles warps the player directly onto the Celadon City overworld at `(10, 13)` (stepping down to `(10, 14)`).
+- **Stairs to 2F:** Located at `(12, 1)`.
+- **Walkable Corridor:** Row 5 is completely open horizontally. Rows 2-3 are blocked by solid counters.
+
+## Second Floor (2F)
+- **Stairs (To 1F West Room):** Located at `(1, 1)`. Walking UP onto this tile warps the player down to the 1F West Room at `(1, 1)`.
+- **Stairs (To 1F East Room):** Located at `(12, 1)`. Walking UP onto this tile warps the player down to the 1F East Room.
+- **NPC Dialogue:** A girl at `(14, 2)` says: "For long outings, you should buy REVIVE."
