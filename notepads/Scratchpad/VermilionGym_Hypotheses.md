@@ -24,10 +24,10 @@
   - [x] (3, 11) - Checked Turn 2486 from (2, 11) facing Right -> Empty
   - [x] (5, 11) - Checked Turn 2487 from (4, 11) facing Right -> Empty
   - [x] (7, 11) - Checked Turn 2494 from (6, 11) facing Right -> Empty
-  - [ ] (9, 11)
+  - [x] (9, 11) - Checked Turn 2504 from (8, 11) facing Right -> Empty
 
 ## Current Sweep State:
-- 12/15 cans verified empty on this run. Remaining 3 candidates: (9, 11), (9, 9), (9, 7) (all in Column 9).
+- 13/15 cans verified empty on this run. Remaining 2 candidates: (9, 9), (9, 7) (all in Column 9).
 
 ## Next Action:
-- Turn 2495: Inspect (9, 11) from (8, 11) facing Right.
+- Turn 2504: Inspect (9, 9) from (8, 9) facing Right.
