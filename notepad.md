@@ -779,15 +779,12 @@
 - Row 11:
   - [ ] (1, 11)
   - [ ] (3, 11)
-  - [ ] (5, 11)
+  - [x] (5, 11) - Checked Turn 2469 from (6, 11) facing Left -> Empty
   - [x] (7, 11) - Checked Turn 2468 from (8, 11) facing Left -> Empty
   - [x] (9, 11) - Checked Turn 2467 from (8, 11) facing Right -> Empty
 
-## Current Deduction:
-- Columns 7 and 9 are completely empty (6/15 checked). Switch 1 is in Columns 1, 3, or 5.
-
 ## Next Action:
-- Turn 2469: Inspect (5, 11) from (6, 11) facing Left.
+- Turn 2470: Inspect (5, 9) from (6, 9) facing Left.
 
 
 <hr>
