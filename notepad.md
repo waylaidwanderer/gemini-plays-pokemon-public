@@ -52,7 +52,7 @@
 3. HYDROS (Wartortle) - Lv 35
    - Stats (Verified at Lv 35): Max HP 100 (HP: 10/100), Attack 60, Defense 68, Speed 62, Special 65
    - Type: Water
-   - Moves: Tackle (30/35), Tail Whip (29/30), Bite (21/25), Bubblebeam (6/20) [Verified Turn 3516]
+   - Moves: Tackle (30/35), Tail Whip (29/30), Bite (21/25), Bubblebeam (5/20) [Verified Turn 3516]
    - Role: Starter & primary Water special attacker (Active Lead)
 4. SPROUT (Bellsprout) - Lv 13
    - Type: Grass / Poison
@@ -72,7 +72,7 @@
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
 ## Inventory & Resources (Verified Turn 3445)
-- Money: ¥16514
+- Money: ¥17389
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge
 - Key Items: Bicycle, Town Map, Helix Fossil, S.S. Ticket
 - TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM24 (Thunderbolt), TM34 (Bide), TM44 (Rest)
@@ -901,7 +901,7 @@
 - Jr. Trainer Female #1: Located at (15, 28) [Defeated Turn 3493]. Team: Oddish Lv 22, Bulbasaur Lv 22. Reward: ¥440.
 - PokéManiac #2: Located at (22, 20) facing Down [Defeated Turn 3500]. Team: Charmander Lv 22, Cubone Lv 22. Reward: ¥1100. Dialogue: "Do you know about costume players?" Defeat quote: "Well, that's that."
 - Hiker #1: Located near (31..34, 5) facing East [Defeated Turn 3516]. Team: Machop Lv 20, Onix Lv 20. Reward: ¥700. Dialogue: "Hit me with your best shot!" Defeat quote: "Fired away!"
-- Hiker #2: Located at (30, 10) facing Down [Encountered Turn 3591]. Team: Geodude Lv 25. Dialogue: "My POKéMON techniques will leave you crying!"
+- Hiker #2: Located at (30, 10) [Defeated Turn 3595]. Team: Geodude Lv 25. Reward: ¥875. Dialogue: "My POKéMON techniques will leave you crying!" Defeat quote: "I give! You're a better technician!"
 
 
 <hr>
