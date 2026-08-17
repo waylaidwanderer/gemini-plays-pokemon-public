@@ -1,46 +1,24 @@
 import mgba
 import time
 
-def press_and_wait(button, delay=0.15):
+def press_and_wait(button, delay=0.25):
     mgba.press_buttons([button])
     time.sleep(delay)
 
-def walk_through_underground():
-    print("Walking through Saffron Underground Path...")
-    while True:
+def go_to_celadon():
+    print("Walking west along Route 7 into Celadon City...")
+    # Current Position is (5, 14) on Route 7
+    # Walking LEFT 10 steps will ensure we transition to Celadon City
+    for i in range(10):
         pos = mgba.get_coordinates()
-        if not pos:
-            print("Failed to get coordinates, stopping.")
-            break
-        x, y = pos['x'], pos['y']
-        print(f"Current Position: {x}, {y}")
+        if pos:
+            print(f"Current Position: {pos['x']}, {pos['y']}")
+        press_and_wait("Left", 0.25)
         
-        # Stop at Column 2
-        if x <= 2:
-            print("Reached Column 2! Now walking DOWN to the ladder at (2, 5)...")
-            break
-            
-        # Walk Left
-        mgba.press_buttons(["Left"])
-        time.sleep(0.3)
-        
-        new_pos = mgba.get_coordinates()
-        if not new_pos:
-            print("Failed to get coordinates, stopping.")
-            break
-        new_x, new_y = new_pos['x'], new_pos['y']
-        if new_x == x and new_y == y:
-            print(f"Blocked at ({x}, {y})")
-            mgba.take_screenshot()
-            return
-
-    # Once at x=2, walk DOWN to y=5
-    for _ in range(3):
-        press_and_wait("Down", 0.25)
-        
+    # Check new position
     pos = mgba.get_coordinates()
     if pos:
-        print(f"Position after walking down: {pos['x']}, {pos['y']}")
+        print(f"Final Position: {pos['x']}, {pos['y']}")
     mgba.take_screenshot()
 
-walk_through_underground()
+go_to_celadon()
