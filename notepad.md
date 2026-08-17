@@ -50,40 +50,43 @@
    - Moves: Leech Life (15/15), Supersonic (20/20)
    - Role: Fast Flying/Poison utility (Fainted)
 3. HYDROS (Wartortle) - Lv 35
-   - Stats (Verified at Lv 35): Max HP 100 (HP: 10/100), Attack 60, Defense 68, Speed 62, Special 65
+   - Stats (Verified at Lv 35): Max HP 100 (HP: 0/100, Status: FNT), Attack 60, Defense 68, Speed 62, Special 65
    - Type: Water
    - Moves: Tackle (30/35), Tail Whip (29/30), Bite (21/25), Bubblebeam (5/20) [Verified Turn 3516]
-   - Role: Starter & primary Water special attacker (Active Lead)
-4. SPROUT (Bellsprout) - Lv 13
+   - Role: Starter & primary Water special attacker (Fainted)
+4. SPROUT (Bellsprout) - Lv 15
+   - Stats (Verified at Lv 15): Max HP 42 (HP: 0/42, Status: FNT), Attack 27, Defense 15, Speed 16, Special 28 [Verified Turn 3653]
    - Type: Grass / Poison
-   - Moves: Vine Whip, Growth, Wrap, Cut
-   - Role: Grass/Poison STAB, status utility & Field Cut user
+   - Moves: Vine Whip, Growth, Wrap, PoisonPowder, Cut
+   - Role: Grass/Poison STAB, status utility & Field Cut user (Fainted)
 5. ATLAS (Machop) - Lv 15
+   - Stats: Max HP 49 (HP: 49/49) [Verified Turn 3651]
    - Type: Fighting
    - Moves: Karate Chop, Low Kick
-   - Role: Physical Fighting STAB attacker [Captured Turn 3345 with Great Ball]
+   - Role: Physical Fighting STAB attacker (Active Lead) [Captured Turn 3345 with Great Ball]
 6. TITAN (Onix) - Lv 13
    - HP: 14/32 [Verified Turn 3489]
    - Type: Rock / Ground
    - Moves: Tackle, Screech
-   - Role: Physical Rock/Ground tank [Captured Turn 3445 with Poké Ball]
+   - Role: Physical Rock/Ground tank
 
 ## Planned Nicknaming Strategy
-- Every captured Pokémon will receive a thoughtful, unique nickname.
+- Every captured Pok�mon will receive a thoughtful, unique nickname.
 
 ## Inventory & Resources (Verified Turn 3445)
-- Money: ¥17389
+- Money: �17389
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge
 - Key Items: Bicycle, Town Map, Helix Fossil, S.S. Ticket
 - TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM24 (Thunderbolt), TM34 (Bide), TM44 (Rest)
 - Valuables:
-  - 1x Nugget (Nugget Bridge completion prize - sellable for ¥5000)
+  - 1x Nugget (Nugget Bridge completion prize - sellable for �5000)
 - Consumables:
-  - 0x Poké Ball
+  - 0x Pok� Ball
   - 0x Great Ball (Used on ATLAS the Machop)
   - 1x Ether (Restores 10 PP to one move)
   - 1x Moon Stone (Evolution item found in Mt. Moon 1F)
   - 1x Rare Candy (Found at 35, 31 in Mt. Moon 1F)
+
 
 <hr>
 
