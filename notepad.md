@@ -767,7 +767,7 @@
 - Row 7:
   - [ ] (1, 7)
   - [ ] (3, 7)
-  - [ ] (5, 7)
+  - [x] (5, 7) - Checked Turn 2471 from (6, 7) facing Left -> Empty
   - [x] (7, 7) - Checked Turn 2464 from (8, 7) facing Left -> Empty
   - [x] (9, 7) - Checked Turn 2463 from (8, 7) facing Right -> Empty
 - Row 9:
@@ -783,8 +783,11 @@
   - [x] (7, 11) - Checked Turn 2468 from (8, 11) facing Left -> Empty
   - [x] (9, 11) - Checked Turn 2467 from (8, 11) facing Right -> Empty
 
+## Current Deduction:
+- Columns 5, 7, and 9 are 100% empty (9/15 checked). Switch 1 is in Columns 1 or 3 (6 candidates remaining).
+
 ## Next Action:
-- Turn 2471: Inspect (5, 7) from (6, 7) facing Left.
+- Turn 2472: Inspect (3, 7) from (4, 7) facing Left.
 
 
 <hr>
