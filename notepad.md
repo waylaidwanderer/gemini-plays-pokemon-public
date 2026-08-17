@@ -768,8 +768,8 @@
 
 ## Active Run Checklist (Current Attempt: Turn 2400+)
 - Row 7:
-  - [ ] (1, 7)
-  - [ ] (3, 7)
+  - [ ] (1, 7) -> **DETERMINED: SWITCH 1 IS HERE!** (14/15 other cans confirmed empty)
+  - [x] (3, 7) - Checked Turn 2417 from (4, 7) facing Left -> Empty ("Nope, there's only trash here.")
   - [x] (5, 7) - Checked Turn 2416 from (6, 7) facing Left -> Empty ("Nope, there's only trash here.")
   - [x] (7, 7) - Checked Turn 2415 from (8, 7) facing Left -> Empty ("Nope, there's only trash here.")
   - [x] (9, 7) - Checked Turn 2414 from (8, 7) facing Right -> Empty ("Nope, there's only trash here.")
@@ -786,11 +786,15 @@
   - [x] (7, 11) - Checked Turn 2402 from (8, 11) facing Left -> Empty ("Nope, there's only trash here.")
   - [x] (9, 11) - Checked Turn 2400 from (8, 11) facing Right -> Empty ("Nope, there's only trash here.")
 
-## Current Deduction:
-- 13/15 cans confirmed empty! Switch 1 is strictly in either (3, 7) or (1, 7).
+## Switch 2 Candidates (Adjacent to (1, 7)):
+- East neighbor: (3, 7)
+- South neighbor: (1, 9)
 
-## Next Planned Checks:
-- Turn 2417: Inspect (3, 7) from (4, 7) facing Left.
+## Execution Plan:
+1. Turn 2418: Activate Switch 1 at (1, 7).
+2. Turn 2419: Test Switch 2 candidate 1 at (3, 7) (turn Right from 2, 7 and press A).
+3. If (3, 7) opens the door -> Challenge Lt. Surge!
+4. If (3, 7) resets -> Switch 2 was (1, 9) on this seed. Re-find Switch 1.
 
 
 <hr>
