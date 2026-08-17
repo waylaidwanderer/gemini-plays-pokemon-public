@@ -1,6 +1,33 @@
-# Vermilion Gym - Puzzle State & Strategy
+# Vermilion Gym - Trash Can Switch Matrix & Trial Log
 
-## Puzzle Status: SOLVED!
-- Switch 1: Can (1, 7) [Top-Left Corner]
-- Switch 2: Can (3, 7) [East Neighbor]
-- Motorized door opened successfully on Turn 2315!
+## Puzzle Mechanics (Empirical)
+- 15 trash cans arranged in a 3x5 grid:
+  - Row 7: (1, 7), (3, 7), (5, 7), (7, 7), (9, 7)
+  - Row 9: (1, 9), (3, 9), (5, 9), (7, 9), (9, 9)
+  - Row 11: (1, 11), (3, 11), (5, 11), (7, 11), (9, 11)
+- Switch 1 is chosen randomly upon map entry / after failing Switch 2.
+- Once Switch 1 is found and activated, Switch 2 is located in an immediately adjacent trash can (North, South, East, or West).
+- If an incorrect can is inspected while searching for Switch 2, the locks reset and Switch 1 re-randomizes.
+
+## Active Run Checklist (Current Attempt: Turn 2400+)
+- Row 7:
+  - [ ] (1, 7)
+  - [ ] (3, 7)
+  - [ ] (5, 7)
+  - [ ] (7, 7)
+  - [ ] (9, 7)
+- Row 9:
+  - [ ] (1, 9)
+  - [ ] (3, 9)
+  - [ ] (5, 9)
+  - [ ] (7, 9)
+  - [ ] (9, 9)
+- Row 11:
+  - [ ] (1, 11)
+  - [ ] (3, 11)
+  - [ ] (5, 11)
+  - [ ] (7, 11)
+  - [x] (9, 11) - Checked Turn 2400 from (8, 11) facing Right -> Empty ("Nope, there's only trash here.")
+
+## Next Planned Checks:
+- Turn 2401: Inspect (7, 11) from (8, 11) facing Left.
