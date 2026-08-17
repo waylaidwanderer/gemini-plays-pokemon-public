@@ -1,10 +1,10 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. HYDROS (Blastoise) - Lv 36
-   - Stats (Verified at Lv 36): Max HP 103 (HP: 88/103), Attack 63, Defense 72, Speed 66, Special 69 [Verified Turn 3769]
+1. HYDROS (Blastoise) - Lv 37
+   - Stats (Verified at Lv 36): Max HP 121 (HP: 53/121), Attack 80, Defense 90, Speed 83, Special 86 [Verified Turn 3836]
    - Type: Water
-   - Moves: Tackle (31/35), Tail Whip (30/30), Bite (25/25), Bubblebeam (17/20)
+   - Moves: Tackle (1/35), Tail Whip (30/30), Bite (25/25), Bubblebeam (5/20)
    - Role: Starter & primary Water special attacker (Active Lead)
 2. ECHO (Zubat) - Lv 8
    - Stats (Verified at Lv 8): Max HP 26 (HP: 26/26)
@@ -33,17 +33,17 @@
    - Role: Physical Rock/Ground tank
 
 ## Planned Nicknaming Strategy
-- Every captured Pokmon will receive a thoughtful, unique nickname.
+- Every captured Pokémon will receive a thoughtful, unique nickname.
 
 ## Inventory & Resources (Verified Turn 3708)
-- Money: 9044 (Post-blackout balance)
+- Money: ¥9044 (Post-blackout balance)
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge
 - Key Items: Bicycle, Town Map, Helix Fossil, S.S. Ticket
 - TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM24 (Thunderbolt), TM34 (Bide), TM44 (Rest)
 - Valuables:
-  - 1x Nugget (Nugget Bridge completion prize - sellable for 5000)
+  - 1x Nugget (Nugget Bridge completion prize - sellable for ¥5000)
 - Consumables:
-  - 0x Pok Ball
+  - 0x Poké Ball
   - 0x Great Ball
   - 1x Ether (Restores 10 PP to one move)
   - 1x Moon Stone (Evolution item found in Mt. Moon 1F)
