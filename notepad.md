@@ -769,7 +769,8 @@
 2. **Complete 15-Can Sweep Protocol:**
    - Row 7: (1, 7) -> (3, 7) -> (5, 7) -> (7, 7) -> (9, 7)
    - Row 9: (9, 9) -> (7, 9) -> (5, 9) -> (3, 9) -> (1, 9)
-   - Row 11: (1, 11) -> (3, 11) -> (5, 11) -> (7, 11) -> (9, 11)
+   - Can (14, 7,11): NOPE [Verified Turn 2857]
+- Can (15, 9,11): Checking now [Turn 2858]
 3. **Switch 2 Trigger Protocol:**
    - As soon as "Hey! There's a switch under the trash!" appears on can `(sx, sy)`:
    - Dismiss dialogue and immediately inspect adjacent cans: `(sx, sy-2)`, `(sx, sy+2)`, `(sx-2, sy)`, `(sx+2, sy)` and index 0 fallback `(1, 7)`.
