@@ -2,44 +2,42 @@ import mgba
 import time
 
 def run():
-    print("--- CORRECT GATEHOUSE EAST EXIT SCRIPT ---")
+    print("--- DYNAMIC 1F EAST ROOM EXPLORER & EXIT ---")
     pos = mgba.get_coordinates()
-    print("Current position on 2F:", pos)
+    print("Start position on 2F:", pos)
     
-    # 1. Walk to the stairs at (6, 8) on the 2F
-    # Currently at (7, 4)
-    print("Walking to column 5...")
-    mgba.press_buttons(["Left", "sleep 300", "Left"])
-    time.sleep(0.5)
-    
-    print("Walking Down to Row 8...")
-    for _ in range(4):
-        mgba.press_buttons(["Down"])
-        time.sleep(0.3)
-        
+    # 1. Step Right to (7, 8) to trigger warp down to 1F
     print("Stepping onto stairs (Right)...")
     mgba.press_buttons(["Right"])
-    time.sleep(1.8) # Wait for transition to complete
+    time.sleep(2.0) # Wait for transition to complete
     
-    print("Position after warp (should be 7, 7 on 1F):", mgba.get_coordinates())
+    land_pos = mgba.get_coordinates()
+    print("Landed on 1F at:", land_pos)
     
-    # 2. Walk off the warp tile to the Left
-    print("Walking Left to (6, 7)...")
-    mgba.press_buttons(["Left"])
-    time.sleep(0.4)
-    print("Position:", mgba.get_coordinates())
+    # Let's define a safe local BFS to find the exit (x >= 8) on 1F
+    # To prevent double-warp, we must avoid stepping onto (7, 7) or (7, 9) unless we are transitioning out of the map.
+    # Actually, let's just probe coordinates and find a path.
+    # Visually, on 1F, the staircase is on column 7.
+    # If the landing is at (7, 7), the corridor is at Row 9.
+    # Let's try:
+    # 1. Step Left to (6, 7)
+    # 2. Step Down to (6, 8)
+    # 3. Step Down to (6, 9)
+    # 4. Step Right 3 times to transition to Route 15 overworld.
     
-    # 3. Walk Down 2 steps to Row 9
-    print("Walking Down 2 steps to Row 9...")
-    mgba.press_buttons(["Down", "sleep 300", "Down"])
-    time.sleep(0.5)
-    print("Position:", mgba.get_coordinates())
+    # Let's execute this path step-by-step and print the positions!
+    path = ["Left", "Down", "Down", "Right", "Right", "Right"]
     
-    # 4. Walk Right 3 steps to exit to Route 15 overworld
-    print("Walking Right to transition...")
-    mgba.press_buttons(["Right", "sleep 400", "Right", "sleep 400", "Right"])
-    time.sleep(2.0) # Wait for overworld map transition
-    
+    for i, move in enumerate(path):
+        mgba.press_buttons([move])
+        time.sleep(0.4)
+        curr = mgba.get_coordinates()
+        print(f"Step {i+1} ({move}): {curr}")
+        if curr['x'] < land_pos['x'] - 5: # If coordinates reset or became very small, we transitioned!
+            print("Successfully transitioned to Route 15 overworld!")
+            break
+            
+    time.sleep(1.5) # Wait for overworld map transition
     print("Final position:", mgba.get_coordinates())
     mgba.take_screenshot()
 
