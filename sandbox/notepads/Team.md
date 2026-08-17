@@ -2,7 +2,7 @@
 
 ## Active Party
 1. TERRA (Geodude) - Lv 21
-   - Stats (Verified at Lv 21): Max HP 54 (HP: 24/54, Status: OK), Attack 45, Defense 50, Speed 20, Special 19 [Verified Turn 3281]
+   - Stats (Verified at Lv 21): Max HP 54 (HP: 22/54, Status: OK), Attack 45, Defense 50, Speed 20, Special 19 [Verified Turn 3293]
    - Type: Rock / Ground
    - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw [Verified Turn 3249]
    - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist (Active Lead)
