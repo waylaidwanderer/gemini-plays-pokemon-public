@@ -26,8 +26,8 @@
   - [ ] (1, 11)
   - [ ] (3, 11)
   - [ ] (5, 11)
-  - [ ] (7, 11)
+  - [x] (7, 11) - Checked Turn 2402 from (8, 11) facing Left -> Empty ("Nope, there's only trash here.")
   - [x] (9, 11) - Checked Turn 2400 from (8, 11) facing Right -> Empty ("Nope, there's only trash here.")
 
 ## Next Planned Checks:
-- Turn 2401: Inspect (7, 11) from (8, 11) facing Left.
+- Turn 2403: Inspect (5, 11) from (6, 11) facing Left.
