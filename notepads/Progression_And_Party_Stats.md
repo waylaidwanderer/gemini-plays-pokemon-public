@@ -5,4 +5,4 @@ Use these exact indices in all menu-based macro scripts to ensure correct move s
 
 ## SHELLBY (Blastoise) - Level 56 (Withdrawn Turn 42613)
 - Current Location: Active Party (Slot 2)
-- Moveset: Surf (HM03), Hydro Pump, Ice Beam, Bite.
+- Moveset: Surf (HM03), Hydro Pump, Ice Beam, Strength (HM04).
