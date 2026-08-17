@@ -19,3 +19,8 @@
 - PokéManiac: Defeated at (26, 31).
 - Jr. Trainer ♀: Defeated at (15, 28).
 - PokéManiac #2: Located at (22, 20) facing Down [Defeated Turn 3500]. Team: Charmander Lv 22, Cubone Lv 22. Reward: ¥1100. Dialogue: "Do you know about costume players?" Defeat quote: "Well, that's that."
+3. Central-East Corridor & North Passage (rows 12-19, cols 20-33):
+   - East-west corridor spans rows 16-19 across cols 20-33.
+   - Rock divider at rows 14-15 spans cols 20-31.
+   - Vertical opening at cols 32-33 connects row 16 north to rows 12-13.
+   - Open chamber/passage at rows 12-13 across cols 26-33.
