@@ -63,6 +63,7 @@
    - Moves: Karate Chop, Low Kick
    - Role: Physical Fighting STAB attacker [Captured Turn 3345 with Great Ball]
 6. TITAN (Onix) - Lv 13
+   - HP: 14/32 [Verified Turn 3489]
    - Type: Rock / Ground
    - Moves: Tackle, Screech
    - Role: Physical Rock/Ground tank [Captured Turn 3445 with Poké Ball]
