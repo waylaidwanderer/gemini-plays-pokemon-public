@@ -925,19 +925,30 @@
 
 <h1><code>Scratchpad/RockTunnelRouting</code></h1>
 
-# Scratchpad - Rock Tunnel Routing & Working Hypotheses
+# Scratchpad - Rock Tunnel Routing & Verified Dungeon Topology
 
-## Current Observations
-- B1F has 3 observed ladders:
-  1. (33, 25) <-> 1F (37, 3) [Verified]
-  2. (27, 3) <-> 1F (5, 3) [Verified]
-  3. (23, 11) [Observed ladder tile on B1F; corresponding 1F tile (23, 11) is a non-warp trainer tile].
-- 1F Western Sector (cols 2-23, rows 3-21) has been explored down to (5, 15) and dead-end at (23, 11).
-- 1F Eastern Sector (cols 24-37, rows 6-21) and Southern Sector (rows 22-34) remain to be systematically explored.
+## Verified Ladder Network & Dungeon Structure
+- Entrance: Route 10 North -> Rock Tunnel 1F at (15, 3).
+- Ladder 1: 1F (37, 3) <-> B1F (33, 25) [Verified Turn 3460, 3766]
+- Ladder 2: 1F (5, 3) <-> B1F (27, 3) [Verified Turn 3640, 3788, 3978, 4023]
+- Ladder 3: B1F (23, 11) -> leads to southern sector of 1F (NPC at 22, 24 and exit to Route 10 South / Lavender Town).
 
-## Working Route Plan
-1. Ascend Ladder 2 from B1F (27, 3) to 1F (5, 3).
-2. Explore 1F North Entrance Corridor (rows 2-5, cols 15-37) southward into the Eastern Sector of 1F (cols 24-37) to locate the path to the southern exit or Ladder 3 connector.
+## Verified Collision Bounds on 1F
+1. North Entrance Chamber (cols 14-17, rows 2-7):
+   - East connects to col 18-23 (rows 2-5).
+   - West is BLOCKED by solid rock wall at cols 12-13 (rows 2-7). No direct row 3 connection to Ladder 2.
+   - South connects via col 17 (rows 4-14) directly down to Middle Highway at row 14.
+2. Middle Highway (row 14, cols 5-17):
+   - Continuous horizontal passage connecting col 17 all the way west to col 5.
+3. Western Upper Corridor (col 5, rows 3-14):
+   - Continuous vertical passage connecting Middle Highway at (5, 14) north to Ladder 2 at (5, 3).
+
+## Active Navigation Route to Ladder 2 (5, 3) -> B1F (23, 11)
+1. Flee wild Zubat at (17, 3).
+2. Move South 11 steps down col 17: (17, 3) -> (17, 14).
+3. Move West 12 steps along row 14: (17, 14) -> (5, 14).
+4. Move North 11 steps up col 5: (5, 14) -> (5, 3) [Ladder 2].
+5. On B1F from (27, 3), navigate to Ladder 3 at (23, 11) and ascend to the 1F southern sector.
 
 
 <hr>
