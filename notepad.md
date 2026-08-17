@@ -34,10 +34,10 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. TERRA (Geodude) - Lv 15
-   - Stats (Verified at Lv 15): Max HP 41 (HP: 41/41), Attack 33, Defense 37, Speed 15, Special 15
+1. TERRA (Geodude) - Lv 17
+   - Stats (Verified at Lv 17): Max HP 45 (HP: 45/45), Attack 37, Defense 41, Speed 17, Special 16
    - Type: Rock / Ground
-   - Moves: Tackle, Defense Curl, Dig [Verified Turn 2366]
+   - Moves: Tackle, Defense Curl, Dig, Rock Throw [Verified Turn 2897]
    - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist (Active Lead)
 2. ECHO (Zubat) - Lv 8
    - Stats (Verified at Lv 8): Max HP 26 (HP: 26/26)
@@ -57,11 +57,11 @@
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
-## Inventory & Resources (Verified Turn 2212)
-- Money: ¥3331 (Verified Turn 2360 post-blackout)
-- Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pokémon up to Lv 30 obey)
+## Inventory & Resources (Verified Turn 2897)
+- Money: ¥5707 (Verified Turn 2897)
+- Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pokémon up to Lv 30 obey), Thunder Badge (Boosts Speed, enables Fly outside battle)
 - Key Items: Town Map, Helix Fossil, S.S. Ticket, Bike Voucher
-- TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM34 (Bide), TM44 (Rest)
+- TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM24 (Thunderbolt), TM34 (Bide), TM44 (Rest)
 - Valuables:
   - 1x Nugget (Nugget Bridge completion prize - sellable for ¥5000)
 - Consumables:
