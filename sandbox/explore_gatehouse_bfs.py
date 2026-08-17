@@ -6,28 +6,18 @@ def get_pos():
     return pos['x'], pos['y']
 
 def press_and_wait(btn):
-    # Press button
     mgba.press_buttons([btn])
-    time.sleep(0.3) # Increased sleep to 300ms to allow frame emulation to complete fully
+    time.sleep(0.35) # 350ms to be 100% sure the emulator advances and settles
     return get_pos()
 
-# Let's do a safe grid scan of adjacent tiles to find walkable ones.
-# We are currently at (0, 4).
+# Let's perform a complete overworld DFS to discover every walkable tile in this map
+# starting from our current position.
 start = get_pos()
-print(f"Starting reliable BFS from {start}")
+print(f"Starting complete DFS mapping from {start}...")
 
-# We will maintain:
-# - walkable: set of all verified walkable coordinates
-# - parents: mapping from node to parent node to reconstruct backpaths
-walkable = {start}
-queue = [start]
-parent_map = {}
+walkable = set()
+walkable.add(start)
 
-# Standard BFS to explore the room
-# This script will run turn-by-turn inside python, which is safe.
-# Since we have up to 100 presses per run_code, we can do quite a few steps.
-
-# Let's explore neighbors of (0,4)
 directions = {
     "Left": (-1, 0),
     "Right": (1, 0),
@@ -42,18 +32,47 @@ opposites = {
     "Down": "Up"
 }
 
-# We can systematically try to move, and if successful, backtrack immediately.
-# This prevents getting lost.
-x, y = start
-for d, (dx, dy) in directions.items():
-    nx, ny = x + dx, y + dy
-    pos = press_and_wait(d)
-    if pos != (x, y):
-        print(f"Verified walkable neighbor in dir {d}: {pos}")
-        walkable.add(pos)
-        # Backtrack
-        press_and_wait(opposites[d])
-    else:
-        print(f"Blocked in dir {d}")
+# We will keep a stack of (current_node, direction_index) to do DFS without recursion limits
+stack = [(start, 0, [])] # (pos, dir_idx, path_to_here)
 
-print("Local probe complete. Current position:", get_pos())
+# To be safe, we will just find all neighbors first, then move, explore, and backtrack.
+# Since the map is small, DFS is very quick.
+
+visited_states = set()
+visited_states.add(start)
+
+def run_dfs(curr):
+    for d, (dx, dy) in directions.items():
+        nxt = (curr[0] + dx, curr[1] + dy)
+        if nxt in visited_states:
+            continue
+        
+        pos = press_and_wait(d)
+        if pos != curr:
+            # We successfully moved to a new tile!
+            visited_states.add(pos)
+            print(f"Discovered: {pos}")
+            
+            # Check if this tile triggers a map warp!
+            # If our coordinate changed drastically or to another map,
+            # we will notice and we shouldn't backtrack blindly.
+            if abs(pos[0] - curr[0]) > 1 or abs(pos[1] - curr[1]) > 1:
+                print(f"WARPED! Current position: {pos}")
+                # We warped out of the map! Exit script immediately.
+                return True
+            
+            # Recursively explore from the new tile
+            warped = run_dfs(pos)
+            if warped:
+                return True
+            
+            # Backtrack to curr
+            press_and_wait(opposites[d])
+        else:
+            # Blocked, so it's a wall or solid object
+            pass
+    return False
+
+run_dfs(start)
+print("DFS complete. Walkable tiles found:")
+print(sorted(list(visited_states)))
