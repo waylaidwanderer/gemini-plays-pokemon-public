@@ -2,20 +2,20 @@
 
 ## Active Party
 1. HYDROS (Wartortle) - Lv 35
-   - Stats (Verified at Lv 35): Max HP 100 (HP: 100/100), Attack 60, Defense 68, Speed 62, Special 65
+   - Stats (Verified at Lv 35): Max HP 100 (HP: 100/100), Attack 61, Defense 70, Speed 64, Special 67 [Verified Turn 3731]
    - Type: Water
    - Moves: Tackle (35/35), Tail Whip (30/30), Bite (25/25), Bubblebeam (20/20)
    - Role: Starter & primary Water special attacker (Active Lead)
-2. TERRA (Geodude) - Lv 21
-   - Stats (Verified at Lv 21): Max HP 54 (HP: 54/54), Attack 45, Defense 50, Speed 20, Special 19
-   - Type: Rock / Ground
-   - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
-   - Role: Physical Rock/Ground tank
-3. ECHO (Zubat) - Lv 8
+2. ECHO (Zubat) - Lv 8
    - Stats (Verified at Lv 8): Max HP 26 (HP: 26/26)
    - Type: Poison / Flying
    - Moves: Leech Life (15/15), Supersonic (20/20)
    - Role: Fast Flying/Poison utility
+3. TERRA (Geodude) - Lv 21
+   - Stats (Verified at Lv 21): Max HP 54 (HP: 52/54), Attack 45, Defense 50, Speed 20, Special 19
+   - Type: Rock / Ground
+   - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
+   - Role: Physical Rock/Ground tank
 4. SPROUT (Bellsprout) - Lv 15
    - Stats (Verified at Lv 15): Max HP 42 (HP: 42/42), Attack 27, Defense 15, Speed 16, Special 28
    - Type: Grass / Poison
