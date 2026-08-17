@@ -17,3 +17,4 @@
 - Central rock divider: Located across rows 8-9 (cols 14-19).
 - East Corridor: Extends south along col 20 across rows 7-11+.
 - Southern Ladder / Landmark: Visible at (17, 11) south of the rock divider.
+- PokéManiac: Located at (23, 8) [Defeated Turn 3148]. Team: Cubone Lv 23, Slowpoke Lv 23. Reward: ¥1150. Pre-battle: "POKéMON fight! Ready, go!" Defeat: "Game over!".
