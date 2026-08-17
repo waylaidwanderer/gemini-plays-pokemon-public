@@ -18,3 +18,5 @@
 
 ## Inner Sanctum
 - Doorway at (4..5, 5) leading to Lt. Surge at (4..5, 2..3).
+
+- Verified Switch Solution (Turn 2877): Switch 1 found at can (3, 7), Switch 2 found at adjacent can (3, 9). Motorized doors unlocked!
