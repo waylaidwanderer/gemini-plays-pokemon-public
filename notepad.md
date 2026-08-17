@@ -1711,5 +1711,18 @@ Saffron City is a large 40x40 city in the center of Kanto, connecting Cerulean C
   - Card Key: Not yet acquired. It is on the ground on 5F.
 
 - **Card Key:** Needed to unlock Saffron Silph Co. electronic gates. (Note: It was verified absent in inventory on Turn 43976).
+## Saffron Silph Co. 3F Layout & Traversal (Verified Turn 44357-44374)
+- **Elevator entrance:** `(20, 0)` (Warp 3)
+- **Teleporter 1 (Warp 5):** `(3, 3)` -> Warps to `SILPH_CO_5F` Warp 6 at `(11, 5)`.
+- **Teleporter 2 (Warp 6):** `(3, 15)` -> Warps to `SILPH_CO_5F` Warp 7 at `(3, 15)` (Left Compartment - Card Key floor!).
+- **Teleporter 3 (Warp 7):** `(27, 3)` -> Warps to `SILPH_CO_2F` Warp 4 at `(3, 3)`.
+- **Rocket Grunt:** Standing at `(18, 7)` facing RIGHT. Directly blocks Column 19 on Row 7. Must be defeated to clear the direct corridor to Row 16.
+- **On-Foot Traversal to Left Teleporter (Warp 6 at 3,15):**
+  - Walk out of the elevator on 3F at `(20, 1)`.
+  - Go left to Column 19 on Row 6.
+  - Go down Column 19 past the Rocket Grunt at `(18, 7)`.
+  - Continue down Column 19 to Row 16 `(19, 16)`.
+  - Walk left along Row 16 to Column 3 `(3, 16)`.
+  - Walk up Column 3 to `(3, 15)` to warp directly to Saffron Silph Co. 5F Left Compartment, landing directly next to the Card Key!
 
 <hr>
