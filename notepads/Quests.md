@@ -18,4 +18,4 @@
 - [x] Board the S.S. Anne in Vermilion City [Turn 1921]
 - [x] Defeat Rival RED on S.S. Anne 2F [Defeated Turn 2095]
 - [x] Obtain HM01 Cut from S.S. Anne Captain [Turn 2103]
-- [ ] Defeat Gym Leader Lt. Surge in Vermilion Gym
+- [x] Defeat Gym Leader Lt. Surge in Vermilion Gym (Thunder Badge & TM24 Thunderbolt) [Defeated Turn 2897]
