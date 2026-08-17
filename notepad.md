@@ -786,4 +786,7 @@
 - (9, 7): Trash (Turn 2698)
 - (9, 9): Trash (Turn 2699)
 
+## Fresh Map Load Run (Post-Map Reset Turn 2704)
+- (1, 11): Trash (Turn 2707)
+
 <hr>
