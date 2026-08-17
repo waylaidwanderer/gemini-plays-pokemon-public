@@ -32,4 +32,4 @@
 
 ## Navigation Route to Progression (Ladder 3)
 - West half of 1F (cols 2-23) is completely explored and fully mapped.
-- To reach the Southern Sector (NPC at 22, 24) and Ladder 3, navigate to the North Corridor (cols 15-37) and explore the Eastern Sector (cols 24-37).
+- To reach the Southern Sector (NPC at 22, 24) and Ladder 3, navigate to the North Corridor (cols 15-37) and explore the Eastern Sector (cols 24-37).- Hiker / Trainer at (8, 6) facing Left: Discovered Turn 4026. Dialogue: 'This tunnel goes a long way, kid!'
