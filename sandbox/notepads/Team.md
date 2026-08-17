@@ -25,7 +25,7 @@
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
 ## Inventory & Resources (Verified Turn 2212)
-- Money: ¥6663 (Verified Turn 2217 after Gentleman: +¥1610)
+- Money: ¥3331 (Verified Turn 2360 post-blackout)
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pokémon up to Lv 30 obey)
 - Key Items: Town Map, Helix Fossil, S.S. Ticket, Bike Voucher
 - TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM34 (Bide), TM44 (Rest)

@@ -1,15 +1,19 @@
-# Vermilion Gym - Trash Can Switch Matrix & Optimal Corner Strategy
+# Vermilion Gym - Trash Can Switch Matrix & Empirical Trial Log
 
-## True Engine Mechanics (Verified)
-- 15 trash cans arranged in a 3x5 grid.
-- When an empty can is inspected, wFirstTrashCan is re-rolled by Random after each failed check.
-- Therefore, each check on any can is an independent Bernoulli trial with p = 1/15.
-- Once Switch 1 is triggered, Switch 2 is selected from the cardinal neighbors of Switch 1 in the 3x5 matrix.
-- Corner cans (1, 7), (9, 7), (1, 11), (9, 11) have only 2 neighbors, giving a 50% chance for either neighbor to be Switch 2.
+## Empirical Engine Analysis (Reconciled Turn 2461)
+- 80+ repeated trials on a single empty can (9, 7) in place yielded 0 switch triggers.
+- Conclusion: wFirstTrashCan is FIXED upon map entry / lock reset, and is NOT re-rolled by inspecting an empty can.
+- Switch 1 resides in one specific trash can for the duration of the current search cycle.
+- Once Switch 1 is triggered, Switch 2 is assigned to an adjacent can (North, South, East, or West).
+- If Switch 2 fails, locks reset and a new Switch 1 is selected.
 
-## Optimal Strategy:
-- Position: Standing at (8, 7) between (7, 7) and (9, 7).
-- Action 1: Repeatedly check corner can (9, 7) facing Right until Switch 1 triggers.
-- Action 2: As soon as Switch 1 triggers, immediately turn Left and inspect (7, 7).
-- If (7, 7) opens the second lock -> Motorized doors open permanently -> Challenge Lt. Surge!
-- If (7, 7) resets -> Re-check (9, 7) until Switch 1 triggers again, then test (9, 9) or (7, 7).
+## Complete 15-Can Systematic Manual Sweep (Current Seed):
+- Column 1: (1, 7), (1, 9), (1, 11)
+- Column 3: (3, 7), (3, 9), (3, 11)
+- Column 5: (5, 7), (5, 9), (5, 11)
+- Column 7: (7, 7), (7, 9), (7, 11)
+- Column 9: (9, 7), (9, 9), (9, 11)
+
+## Action Plan:
+- Systematically visit and manually interact with each can tile-by-tile.
+- When Switch 1 text appears on screen ("Hey! There's a switch under the trash! Turn it on!"), immediately record its exact coordinate and inspect adjacent neighbor cans for Switch 2.
