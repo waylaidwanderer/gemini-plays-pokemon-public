@@ -17,7 +17,7 @@
 - Row 9:
   - [x] (1, 9) - Checked Turn 2426 from (2, 9) facing Left -> Empty
   - [x] (3, 9) - Checked Turn 2427 from (2, 9) facing Right -> Empty
-  - [ ] (5, 9)
+  - [x] (5, 9) - Checked Turn 2434 from (4, 9) facing Right -> Empty
   - [ ] (7, 9)
   - [ ] (9, 9)
 - Row 11:
@@ -27,5 +27,8 @@
   - [ ] (7, 11)
   - [ ] (9, 11)
 
+## Current Deduction:
+- 8/15 cans checked empty. Middle/Right columns are active.
+
 ## Next Action:
-- Turn 2434: Inspect (5, 9) from (4, 9) facing Right.
+- Turn 2435: Inspect (5, 7) from (4, 7) facing Right.
