@@ -780,15 +780,12 @@
 - Row 11:
   - [x] (1, 11) - Checked Turn 2428 from (2, 11) facing Left -> Empty
   - [x] (3, 11) - Checked Turn 2429 from (2, 11) facing Right -> Empty
-  - [ ] (5, 11)
+  - [x] (5, 11) - Checked Turn 2433 from (4, 11) facing Right -> Empty
   - [ ] (7, 11)
   - [ ] (9, 11)
 
-## Current Deduction:
-- Columns 1 and 3 are 100% empty on this seed (6/15 checked). Switch 1 is in Columns 5, 7, or 9.
-
 ## Next Action:
-- Turn 2432: Inspect (5, 11) from (4, 11) facing Right.
+- Turn 2434: Inspect (5, 9) from (4, 9) facing Right.
 
 
 <hr>
