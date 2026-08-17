@@ -9,114 +9,71 @@ def get_pos():
     pos = mgba.get_coordinates()
     return pos['x'], pos['y']
 
-def walk_to(target_x, target_y):
-    print(f"Walking to ({target_x}, {target_y})...")
-    for attempt in range(40):
-        cx, cy = get_pos()
-        if cx == target_x and cy == target_y:
-            print(f"Arrived at ({cx}, {cy})")
-            return True
-            
-        dx = target_x - cx
-        dy = target_y - cy
-        
-        # Try to move horizontally first
-        if dx != 0:
-            btn = "Right" if dx > 0 else "Left"
-            press_and_wait(btn, 0.3)
-            nx, ny = get_pos()
-            if nx == cx and ny == cy:
-                # We bumped! Try to go vertically to bypass obstacle
-                print(f"Bumped moving horizontally at ({cx}, {cy}). Trying vertical detour.")
-                btn_alt = "Down" if cy < 5 else "Up"
-                press_and_wait(btn_alt, 0.3)
-        elif dy != 0:
-            btn = "Down" if dy > 0 else "Up"
-            press_and_wait(btn, 0.3)
-            nx, ny = get_pos()
-            if nx == cx and ny == cy:
-                # We bumped! Try to go horizontally to bypass obstacle
-                print(f"Bumped moving vertically at ({cx}, {cy}). Trying horizontal detour.")
-                btn_alt = "Right" if cx < 10 else "Left"
-                press_and_wait(btn_alt, 0.3)
-                
-    print("Failed to reach target in 40 steps.")
-    return False
-
-def take_stairs():
-    # To trigger a staircase/warp, we just step into it.
-    # Usually the stairs tile is at y=1, and we step Up into it.
-    cx, cy = get_pos()
-    print(f"At ({cx}, {cy}), stepping UP into stairs...")
-    press_and_wait("Up", 1.0) # Wait longer for map transition
-    nx, ny = get_pos()
-    print(f"After stairs transition, position is: ({nx}, {ny})")
-    return nx != cx or ny != cy
-
-def climb_department_store():
-    # 1. We are currently at (3, 3) on 2F.
-    # We need to go to stairs at (16, 1) to go to 3F.
-    cx, cy = get_pos()
-    print(f"Starting climb from ({cx}, {cy})")
+def buy_drink_roof_perfect():
+    print("Starting from:", get_pos())
     
-    # 2F -> 3F (UP stairs at 16, 1)
-    if cy > 1: # We are still on 2F (or similar)
-        print("--- 2F to 3F ---")
-        walk_to(16, 2)
-        take_stairs()
-        
-    # 3F -> 4F (UP stairs at 12, 1)
-    cx, cy = get_pos()
-    print(f"Current pos: ({cx}, {cy})")
-    print("--- 3F to 4F ---")
-    walk_to(12, 2)
-    take_stairs()
+    # 1. We are currently at (17, 2). Walk left 1 step to (16, 2)
+    press_and_wait("Left")
+    print("At (16, 2):", get_pos())
     
-    # 4F -> 5F (UP stairs at 16, 1)
-    cx, cy = get_pos()
-    print(f"Current pos: ({cx}, {cy})")
-    print("--- 4F to 5F ---")
-    walk_to(16, 2)
-    take_stairs()
+    # 2. Go UP 4 floors to the Roof
+    # Floor UP transition 1 (Even -> Odd)
+    print("Floor UP 1...")
+    press_and_wait("Up", 1.0)
+    print("Current position:", get_pos())
     
-    # 5F -> Roof (UP stairs at 12, 1)
-    cx, cy = get_pos()
-    print(f"Current pos: ({cx}, {cy})")
-    print("--- 5F to Roof ---")
-    walk_to(12, 2)
-    take_stairs()
+    # Floor UP transition 2 (Odd -> Even)
+    print("Floor UP 2...")
+    for _ in range(4):
+        press_and_wait("Left")
+    press_and_wait("Up", 1.0)
+    print("Current position:", get_pos())
+    
+    # Floor UP transition 3 (Even -> Odd)
+    print("Floor UP 3...")
+    for _ in range(4):
+        press_and_wait("Right")
+    press_and_wait("Up", 1.0)
+    print("Current position:", get_pos())
+    
+    # Floor UP transition 4 (Odd -> Roof)
+    print("Floor UP 4...")
+    for _ in range(4):
+        press_and_wait("Left")
+    press_and_wait("Up", 1.0)
+    print("Current position:", get_pos())
     
     # Now we should be on the Roof!
-    cx, cy = get_pos()
-    print(f"Arrived on Roof at ({cx}, {cy})")
-    
-    # From (15, 2) on Roof, walk to vending machine
+    # Let's walk to the vending machine
     print("--- Navigating on Roof ---")
-    # Walk down to row 3 to avoid stairs warp
-    press_and_wait("Down", 0.3)
-    walk_to(9, 3)
-    walk_to(6, 3)
-    # Walk UP to row 2 to face the vending machine
-    walk_to(6, 2)
-    # Vending machine interaction
-    print("Facing vending machine. Pressing A...")
-    press_and_wait("A", 1.0) # Open vending machine menu
+    # Walk DOWN 1 step to Row 3 (just in case we are at 15, 2)
+    press_and_wait("Down")
     
-    # Vending machine menu options:
-    # 1. FRESH WATER (¥200)
-    # 2. SODA POP (¥300)
-    # 3. LEMONADE (¥350)
-    # 4. CANCEL
-    # Let's select Option 1 (Fresh Water)
+    # Walk Left 9 steps to Column 6
+    for _ in range(9):
+        press_and_wait("Left")
+    print("At Column 6 on Row 3:", get_pos())
+    
+    # Walk UP 1 step to Row 2 (to face the vending machine at 6, 1)
+    press_and_wait("Up")
+    print("Facing vending machine at:", get_pos())
+    
+    # Interact with the vending machine
+    print("Pressing A...")
+    press_and_wait("A", 1.0)
+    
+    # Select Option 1 (Fresh Water)
     print("Selecting Fresh Water (Option 1)...")
-    press_and_wait("A", 0.5) # Select option 1
-    # Vending machine dialogue: "A can of FRESH WATER popped out!"
-    print("Confirming dialogue...")
+    press_and_wait("A", 0.5)
+    
+    # Confirm Fresh Water dialogue
+    print("Confirming dialogue 1...")
     press_and_wait("A", 1.0)
+    print("Confirming dialogue 2...")
     press_and_wait("A", 1.0)
     
-    # Let's buy a second Fresh Water or another drink just in case!
-    print("Interacting with vending machine again...")
+    # Interact again to buy Soda Pop (just in case)
+    print("Interacting again...")
     press_and_wait("A", 1.0)
     print("Selecting Soda Pop (Option 2)...")
     press_and_wait("Down", 0.3)
@@ -125,10 +82,12 @@ def climb_department_store():
     press_and_wait("A", 1.0)
     press_and_wait("A", 1.0)
     
-    print("Exiting vending machine...")
+    # Exit vending machine
+    print("Exiting...")
     press_and_wait("B", 0.5)
     
+    # Take screenshot of final state
     mgba.take_screenshot()
-    print("Vending machine purchase completed successfully!")
+    print("Fresh Water and Soda Pop purchased successfully!")
 
-climb_department_store()
+buy_drink_roof_perfect()
