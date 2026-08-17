@@ -39,8 +39,8 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. TERRA (Geodude) - Lv 19
-   - Stats (Verified at Lv 19): Max HP 49 (HP: 49/49), Attack 41, Defense 45, Speed 19, Special 18 [Verified Turn 3048]
+1. TERRA (Geodude) - Lv 20
+   - Stats (Verified at Lv 20): Max HP 51 (HP: 43/51, Status: SLP), Attack 43, Defense 48, Speed 20, Special 18 [Verified Turn 3139]
    - Type: Rock / Ground
    - Moves: Tackle, Defense Curl, Dig, Rock Throw [Verified Turn 2897]
    - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist (Active Lead)
@@ -50,9 +50,9 @@
    - Moves: Leech Life (15/15), Supersonic (20/20)
    - Role: Fast Flying/Poison utility & Grass counter
 3. HYDROS (Wartortle) - Lv 34
-   - Stats (Verified at Lv 34): Max HP 97 (HP: 97/97), Attack 60, Defense 68, Speed 62, Special 65
+   - Stats (Verified at Lv 34): Max HP 97 (HP: 70/97), Attack 60, Defense 68, Speed 62, Special 65
    - Type: Water
-   - Moves: Tackle (30/35), Tail Whip (27/30), Bite (22/25), Bubblebeam (15/20) [Verified Turn 2318]
+   - Moves: Tackle (30/35), Tail Whip (27/30), Bite (22/25), Bubblebeam (17/20) [Verified Turn 3148]
    - Role: Starter & primary Water special attacker
 4. SPROUT (Bellsprout) - Lv 13
    - Type: Grass / Poison
@@ -62,8 +62,8 @@
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
-## Inventory & Resources (Verified Turn 2943)
-- Money: ¥10699 (Verified Turn 3097)
+## Inventory & Resources (Verified Turn 3148)
+- Money: ¥11849 (Verified Turn 3148 - ¥10699 + ¥1150)
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pokémon up to Lv 30 obey), Thunder Badge (Boosts Speed, enables Fly outside battle)
 - Key Items: Bicycle, Town Map, Helix Fossil, S.S. Ticket
 - TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM24 (Thunderbolt), TM34 (Bide), TM44 (Rest)
@@ -75,6 +75,7 @@
   - 1x Ether (Restores 10 PP to one move)
   - 1x Moon Stone (Evolution item found in Mt. Moon 1F)
   - 1x Rare Candy (Found at 35, 31 in Mt. Moon 1F)
+
 
 <hr>
 
