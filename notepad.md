@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Route 10 Pokémon Center (x=3, y=3)
+- Location: Route 10 (x=7, y=26)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -58,7 +58,7 @@
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
 ## Inventory & Resources (Verified Turn 2943)
-- Money: ¥7357 (Verified Turn 3048)
+- Money: ¥7357 (Verified Turn 3088)
 - Badges: Boulder Badge (Enables Flash outside battle, boosts Attack), Cascade Badge (Enables Cut outside battle, Pokémon up to Lv 30 obey), Thunder Badge (Boosts Speed, enables Fly outside battle)
 - Key Items: Bicycle, Town Map, Helix Fossil, S.S. Ticket
 - TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM24 (Thunderbolt), TM34 (Bide), TM44 (Rest)
