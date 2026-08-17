@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 2/8 (Boulder Badge, Cascade Badge)
-- Location: Vermilion Gym (x=5, y=2)
+- Location: Vermilion City (x=15, y=17)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -37,7 +37,7 @@
 1. TERRA (Geodude) - Lv 15
    - Stats (Verified at Lv 15): Max HP 41 (HP: 41/41), Attack 33, Defense 37, Speed 15, Special 15
    - Type: Rock / Ground
-   - Moves: Tackle (34/35), Defense Curl (40/40) [TM28 Dig in Bag]
+   - Moves: Tackle, Defense Curl, Dig [Verified Turn 2366]
    - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist (Active Lead)
 2. ECHO (Zubat) - Lv 8
    - Stats (Verified at Lv 8): Max HP 26 (HP: 26/26)
