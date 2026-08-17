@@ -10,7 +10,7 @@
 - 15 Trash Cans in a 5x3 grid across rows 7, 9, 11 (columns 1, 3, 5, 7, 9).
 - Two sequential switches hidden under trash cans.
 - Switch 1 opens 1st lock; Switch 2 is in an adjacent can in the grid.
-- Puzzle SOLVED on Turn 2315 (Switch 1 at 1, 7; Switch 2 at 3, 7). Doorway open at (4..5, 5).
+- Puzzle Mechanics: Two hidden switches in 15 trash cans. Switch 1 is randomly placed each map reload. Switch 2 is in an immediately adjacent trash can (North/South/East/West). If wrong can is checked, switches reset.
 
 ## Gym Trainers Defeated
 1. Sailor at (2, 10) - Defeated Turn 2199 (Pikachu Lv 21, Pikachu Lv 21, �630)
