@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Route 10 (x=7, y=26)
+- Location: Rock Tunnel 1F (x=15, y=3)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -26,6 +26,11 @@
 - `Locations/Route5`: Route 5 layout, Daycare, Underground Path entrance
 - `Locations/Route6`: Route 6 layout, Underground Path exit, trainers, path to Vermilion City
 - `Locations/VermilionCity`: Vermilion City layout, Pokémon Center, Mart, Fan Club, Gym, Port, S.S. Anne
+- `Locations/VermilionGym`: Vermilion Gym layout, trash can puzzle solution, Lt. Surge battle
+- `Locations/Route9`: Route 9 layout, trainers, Cut trees, wild encounters
+- `Locations/Route10`: Route 10 layout, Pokémon Center, Jr. Trainer Carol battle
+- `Locations/RockTunnel1F`: Rock Tunnel 1F layout, ladders, trainers, wild encounters
+
 
 <hr>
 
