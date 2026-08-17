@@ -764,7 +764,7 @@ Find Switch 1 and immediately check its adjacent neighbor for Switch 2 to unlock
 
 ### Can Checklist:
 - Col 1:
-  - (1, 7): [ ]
+  - (1, 7): [x] Checked Turn 2527 -> Empty
   - (1, 9): [ ]
   - (1, 11): [ ]
 - Col 3:
@@ -785,7 +785,7 @@ Find Switch 1 and immediately check its adjacent neighbor for Switch 2 to unlock
   - (9, 11): [ ]
 
 ## Immediate Action:
-- Start from (1, 7) at (2, 7) facing Left.
+- Check (3, 7) from (2, 7) facing Right.
 
 
 <hr>
