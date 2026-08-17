@@ -43,3 +43,4 @@
 8. Southern Exit Thoroughfare (rows 18-21, cols 2-9+):
    - Western vertical highway reaches solid southern wall at rows 22-23.
    - Open 4-tile high thoroughfare across rows 18-21 turns east across cols 2-9+ heading toward the southern Route 10 exit.
+- Jr. Trainer ♀ #2: Located at (17, 15) facing West [Encountered Turn 3537]. Dialogue: "Outsiders like you need to show me some respect!"
