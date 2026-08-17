@@ -23,3 +23,4 @@
 
 - Eastern Ascent at (29, 13): Connects the eastern lower lawn (row 14) directly up to the main highway (row 12) [Discovered and Verified Turn 3037].
 - Northern Highway (rows 6-7): Wide thoroughfare connecting the northern corridor from col 37 all the way east past col 56 directly into Route 10 [Verified Turn 3038].
+- Eastern Route 9 Exit to Route 10: Located at cols 59-60, rows 6-9 [Verified Turn 3054].
