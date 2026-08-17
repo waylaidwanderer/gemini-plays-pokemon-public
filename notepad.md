@@ -866,7 +866,7 @@
 
 ## Connections & Warps
 - Ladder North-East: Located at (33, 25). Connects up to Rock Tunnel 1F at (37, 3) [Verified Turn 3460].
-- Other Ladders: TBD.
+- Ladder North-Central: Located at (27, 3). Connects up to Rock Tunnel 1F [Discovered Turn 3519].
 
 ## Verified Layout & Corridors
 1. South-East Entry Corridor (rows 25-33, cols 26-35):
