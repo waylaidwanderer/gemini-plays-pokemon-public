@@ -73,7 +73,7 @@
 - Valuables:
   - 1x Nugget (Nugget Bridge completion prize - sellable for ¥5000)
 - Consumables:
-  - 11x Poké Ball
+  - 10x Poké Ball
   - 0x Great Ball (Used on ATLAS the Machop)
   - 1x Ether (Restores 10 PP to one move)
   - 1x Moon Stone (Evolution item found in Mt. Moon 1F)
