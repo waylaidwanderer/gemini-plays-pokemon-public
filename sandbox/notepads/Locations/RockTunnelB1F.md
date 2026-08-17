@@ -49,4 +49,3 @@
 - Rock Divider (rows 28-29): Spans continuously across cols 2-13 and cols 18-25.
 - Vertical Connector (rows 28-29, cols 14-17): Only open vertical passage connecting Lower South Highway (row 30) to Upper South Corridor (row 26-27).
 - Upper South Corridor (rows 26-27, cols 2-25): Horizontal corridor above the rock divider. Connects west to cols 2-5 (Western Corridor going north) and east to cols 20-25.
-- Western Vertical Corridor (cols 2-5): Located at rows 2-27. Connects Upper South Corridor (row 26) north toward North Highway (rows 2-5).
