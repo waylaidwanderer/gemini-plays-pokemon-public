@@ -756,18 +756,14 @@
 
 # Vermilion Gym - Trash Can Empirical Trial Log & Mechanics
 
-## Root Cause Analysis (Verified Turn 2641)
-- Multi-button sequences combining textbox dismissal (`B`) with movement and `A` resulted in dropped inputs (evidenced by consistent system warnings: 'You pressed 3 movement buttons, but visited 2 tiles').
-- As a result, directional turns were misaligned and several cans were never actually interacted with.
+## Puzzle Mechanics (Gen 1 Retail)
+- 15 cans in 5x3 grid at columns (1, 3, 5, 7, 9) and rows (7, 9, 11).
+- Switch 1 is randomly assigned to one of the 15 cans.
+- Once Switch 1 is pressed, Switch 2 is in an orthogonally adjacent can in the grid (North, South, East, West).
+- If Switch 2 check fails, both locks reset and Switch 1 relocates.
 
-## Strict Single-Action Verification Protocol
-1. **Dismiss**: Press `B` alone to close textbox. Verify screen is clear of dialogue.
-2. **Position**: Move to target tile in front of can. Verify coordinates on `<GameState>`.
-3. **Inspect**: Face target can and press `A` alone. Verify resulting textbox text.
-4. **Log**: Record exact outcome with turn number.
-
-## Cumulative Sweep Log - Run #5 Verified Single-Action Checks
-- (Position: (8, 11) facing Right at Turn 2641)
-
+## Sweep Protocol
+- Check each can systematically.
+- As soon as Switch 1 triggers, immediately check adjacent cans (dist 2 in coords).
 
 <hr>
