@@ -14,3 +14,4 @@
 - Southern Highway: Spans rows 30-33 across cols 18-33 as an open 4-tile wide east-west thoroughfare [Verified Turn 3477].
 - Southwest Pocket: Southern Highway dead-ends west at cols 0-1 (rows 30-33).
 - Central Vertical Thoroughfare: Spans cols 14-17 extending north from row 33 through row 25+ into the central/northern chambers [Verified Turn 3483].
+- Trainer at (15, 28): Initiated Turn 3484. Pre-battle: "I don't often come here, but I..."

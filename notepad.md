@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Rock Tunnel B1F (x=12, y=31)
+- Location: Rock Tunnel B1F (x=4, y=31)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -877,5 +877,6 @@
 - Southern Highway: Spans rows 30-33 across cols 18-33 as an open 4-tile wide east-west thoroughfare [Verified Turn 3477].
 - Southwest Pocket: Southern Highway dead-ends west at cols 0-1 (rows 30-33).
 - Central Vertical Thoroughfare: Spans cols 14-17 extending north from row 33 through row 25+ into the central/northern chambers [Verified Turn 3483].
+- Trainer at (15, 28): Initiated Turn 3484. Pre-battle: "I don't often come here, but I..."
 
 <hr>
