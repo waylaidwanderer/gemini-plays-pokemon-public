@@ -11,3 +11,5 @@
 
 ## Verified Encounters & Trainers
 - Tall grass patches at rows 8-9 (cols 6-9 and further east).
+
+- Jr. Trainer ♀: Located at (13, 10) facing Up in the western grass corridor.
