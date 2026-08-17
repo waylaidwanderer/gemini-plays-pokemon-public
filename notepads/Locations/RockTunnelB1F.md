@@ -28,3 +28,7 @@
    - Rows 10-13 form a wide open 4-tile high horizontal highway spanning cols 26-37.
    - Rock formation located at cols 30-33 across rows 8-9.
    - Northern passages branch on both sides of the rock formation: Western branch (cols 28-29) and Eastern branch (cols 34-37).
+5. North Passage & Western Transition (rows 4-5, cols 28-37):
+   - Open 2-tile high horizontal corridor along rows 4-5 loops above the central divider (rows 6-9, cols 30-33).
+   - Connects the eastern sector to the western sector of B1F.
+   - Solid eastern collision boundary wall is at column 38 (rows 4-16).

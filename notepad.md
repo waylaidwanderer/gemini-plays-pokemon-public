@@ -50,9 +50,9 @@
    - Moves: Leech Life (15/15), Supersonic (20/20)
    - Role: Fast Flying/Poison utility (Fainted)
 3. HYDROS (Wartortle) - Lv 34
-   - Stats (Verified at Lv 34): Max HP 97 (HP: 9/97), Attack 60, Defense 68, Speed 62, Special 65
+   - Stats (Verified at Lv 34): Max HP 97 (HP: 7/97), Attack 60, Defense 68, Speed 62, Special 65
    - Type: Water
-   - Moves: Tackle (30/35), Tail Whip (27/30), Bite (22/25), Bubblebeam (17/20) [Verified Turn 3148]
+   - Moves: Tackle (30/35), Tail Whip (29/30), Bite (21/25), Bubblebeam (10/20) [Verified Turn 3504]
    - Role: Starter & primary Water special attacker (Active Lead)
 4. SPROUT (Bellsprout) - Lv 13
    - Type: Grass / Poison
@@ -892,5 +892,9 @@
    - Rows 10-13 form a wide open 4-tile high horizontal highway spanning cols 26-37.
    - Rock formation located at cols 30-33 across rows 8-9.
    - Northern passages branch on both sides of the rock formation: Western branch (cols 28-29) and Eastern branch (cols 34-37).
+5. North Passage & Western Transition (rows 4-5, cols 28-37):
+   - Open 2-tile high horizontal corridor along rows 4-5 loops above the central divider (rows 6-9, cols 30-33).
+   - Connects the eastern sector to the western sector of B1F.
+   - Solid eastern collision boundary wall is at column 38 (rows 4-16).
 
 <hr>
