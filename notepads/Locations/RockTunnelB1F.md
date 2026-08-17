@@ -26,6 +26,12 @@
    - Solid eastern collision boundary wall is at column 38 (rows 2-16).
    - Extends west into the unexplored western sector.
 
+
+6. South-Western Highway (rows 30-33, cols 2-15):
+   - Massive 4-tile high open highway spans continuously west from col 15 all the way to col 2.
+   - Solid southern boundary wall at rows 34-35 across cols 2-15.
+   - Rock divider at rows 28-29 separates southern highway from upper chambers.
+
 ## Verified Trainers & Encounters
 - Wild Pokémon: Zubat (Lv 15-18), Geodude (Lv 16-17), Machop (Lv 15-17), Onix (Lv 13).
 - PokéManiac #1: Located at (26, 31) [Defeated Turn 3474]. Team: Slowpoke Lv 20. Reward: ¥1000.
