@@ -1,33 +1,14 @@
-# Vermilion Gym - Trash Can Mechanics & Empirical Analysis
+# Vermilion Gym - Trash Can Puzzle Mechanics & Optimal Strategy
 
-## Session Status: Clean Map Reset (Entered Gym Turn 2588)
-- Exited and re-entered Vermilion Gym to trigger a fresh `InitGymTrashCans` execution.
+## Mechanics Synthesis
+- Each trash can check has a ~1/15 probability of being Switch 1.
+- In both Sweep Run #4 and Run #5, all 15 cans were checked sequentially and returned empty (~35.5% probability per 15-check sequence).
+- Once Switch 1 is found, Switch 2 is randomly placed in one of the cardinal adjacent neighbors.
 
-## Run #5 Systematic Single-Step Sweep Plan
-- Method: Strictly 1 can check per turn, verifying text result immediately.
-
-### Matrix Checklist:
-- Col 1:
-  - (1, 11): [x] Checked Turn 2593 -> Empty
-  - (1, 9): [x] Checked Turn 2599 -> Empty
-  - (1, 7): [x] Checked Turn 2605 -> Empty
-- Col 3:
-  - (3, 11): [x] Checked Turn 2596 -> Empty
-  - (3, 9): [x] Checked Turn 2602 -> Empty
-  - (3, 7): [x] Checked Turn 2609 -> Empty
-- Col 5:
-  - (5, 7): [x] Checked Turn 2613 -> Empty
-  - (5, 9): [x] Checked Turn 2616 -> Empty
-  - (5, 11): [x] Checked Turn 2619 -> Empty
-- Col 7:
-  - (7, 11): [x] Checked Turn 2622 -> Empty
-  - (7, 9): [x] Checked Turn 2625 -> Empty
-  - (7, 7): [x] Checked Turn 2628 -> Empty
-- Col 9:
-  - (9, 7): [x] Checked Turn 2631 -> Empty
-  - (9, 9): [x] Checked Turn 2634 -> Empty
-  - (9, 11): [ ] -> 100% MATHEMATICAL SWITCH 1
-
-## Active Target:
-- Move to (8, 11), face Right, inspect (9, 11) to trigger Switch 1!
-- Immediately check Switch 2 at (9, 9) [North] or (7, 11) [West].
+## Optimal Rapid Solution (Position: (8, 11))
+- Stand at (8, 11) between trash can (7, 11) [Left] and (9, 11) [Right].
+- Alternate checking (7, 11) and (9, 11) until Switch 1 activates: "Hey! There's a switch under the trash! Turn it on! The 1st electric lock opened!"
+- Immediate Response Protocol:
+  - If Switch 1 is at (9, 11): Immediately check (7, 11) [`Left`, `A`] or (9, 9) [`Up`, `Right`, `A`].
+  - If Switch 1 is at (7, 11): Immediately check (9, 11) [`Right`, `A`], (7, 9) [`Up`, `Left`, `A`], or (5, 11) [`Left`, `Left`, `A`].
+- Once both switches are active: Motorized door opens, walk directly north to challenge Gym Leader Lt. Surge!
