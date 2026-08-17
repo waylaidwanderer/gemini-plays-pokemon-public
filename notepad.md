@@ -1671,6 +1671,9 @@ Saffron City is a large 40x40 city in the center of Kanto, connecting Cerulean C
 
 - **Card Key:** Needed to unlock Saffron Silph Co. electronic gates. (Note: It was verified absent in inventory on Turn 43976).
 
+## Active Hypotheses to Verify (Card Key Search)
+- **Southwest Room Hypothesis (Turn 44230):** In the southwest room of 5F, walk along the Row 16 corridor to standing at `(13, 16)`. Face **UP** (north) towards `(13, 15)` and press **A** to empirically verify if there is an overworld item ball or if it is a wall. It is highly possible we walked right past the Card Key at `(13, 15)` without interacting with it.
+
 <hr>
 
 <h1><code>Locations/SilphCo</code></h1>
