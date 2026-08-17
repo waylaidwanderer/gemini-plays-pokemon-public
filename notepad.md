@@ -849,6 +849,6 @@
 
 ## Verified Trainers & Encounters
 - Wild Pokémon: Geodude (Lv 16-17), Zubat (Lv 15-18), Onix (Lv 13) [Verified].
-- PokéManiac: Defeated Turn 3148 on Row 8 east corridor (initiated from 20, 8). Team: Cubone Lv 23, Slowpoke Lv 23. Reward: ¥1150. Pre-battle: "POKéMON fight! Ready, go!" Defeat: "Game over!".
+- PokéManiac: Defeated Turn 3148. Positioned at (23, 8) facing West. Blocks (23, 8); use cols 20-22 to bypass south to Upper Highway. Team: Cubone Lv 23, Slowpoke Lv 23. Reward: ¥1150.
 
 <hr>
