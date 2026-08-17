@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Rock Tunnel B1F (x=30, y=2)
+- Location: Rock Tunnel B1F (x=26, y=2)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -917,6 +917,14 @@
 - Rock Divider (rows 28-29): Spans continuously across cols 2-13 and cols 18-25.
 - Vertical Connector (rows 28-29, cols 14-17): Only open vertical passage connecting Lower South Highway (row 30) to Upper South Corridor (row 26-27).
 - Upper South Corridor (rows 26-27, cols 2-25): Horizontal corridor above the rock divider. Connects west to cols 2-5 (Western Corridor going north) and east to cols 20-25.
+
+## Empirical Dungeon Topology Proof (Verified Turn 4015)
+- Solid Rock Divider (cols 24-25): Extends from row 0 down through row 15. Blocks ALL horizontal movement between East Sector (cols 26-37) and West Sector (cols 2-23) on B1F.
+- Progression Sequence:
+  1. Ladder 1 (1F 37,3 <-> B1F 33,25): Connects 1F North Entrance to B1F East Sector.
+  2. Ladder 2 (B1F 27,3 <-> 1F 5,3): Connects B1F East Sector to 1F West Sector.
+  3. Ladder 3 (1F 23,11 <-> B1F 23,11): Reached from 1F West Sector via row 14 to col 23. Descends to B1F West Sector.
+  4. Ladder 4: Reached through B1F West Sector, ascending to 1F Southern Sector (rows 24-34) and Route 10 exit.
 
 
 <hr>
