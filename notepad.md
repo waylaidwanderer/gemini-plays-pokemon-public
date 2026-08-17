@@ -49,10 +49,10 @@
    - Type: Poison / Flying
    - Moves: Leech Life (15/15), Supersonic (20/20)
    - Role: Fast Flying/Poison utility (Fainted)
-3. HYDROS (Wartortle) - Lv 34
-   - Stats (Verified at Lv 34): Max HP 97 (HP: 7/97), Attack 60, Defense 68, Speed 62, Special 65
+3. HYDROS (Wartortle) - Lv 35
+   - Stats (Verified at Lv 35): Max HP 100 (HP: 10/100), Attack 60, Defense 68, Speed 62, Special 65
    - Type: Water
-   - Moves: Tackle (30/35), Tail Whip (29/30), Bite (21/25), Bubblebeam (10/20) [Verified Turn 3504]
+   - Moves: Tackle (30/35), Tail Whip (29/30), Bite (21/25), Bubblebeam (8/20) [Verified Turn 3516]
    - Role: Starter & primary Water special attacker (Active Lead)
 4. SPROUT (Bellsprout) - Lv 13
    - Type: Grass / Poison
@@ -884,17 +884,18 @@
    - Rows 10-13 form a wide open 4-tile high horizontal highway spanning cols 26-37.
    - Rock formation located at cols 30-33 across rows 8-9.
    - Northern passages branch on both sides of the rock formation: Western branch (cols 28-29) and Eastern branch (cols 34-37).
-5. North Passage (rows 4-5, cols 34-37):
-   - Open 2-tile high horizontal corridor along rows 4-5 above central divider.
-   - Visually extends west toward unexplored western sector.
-   - Solid eastern collision boundary wall is at column 38 (rows 4-16).
+5. North Highway (rows 2-5, cols 31-37):
+   - Wide open 4-tile high horizontal highway across rows 2-5 above the central divider (rows 6-9, cols 30-33).
+   - Solid northern boundary wall is at row 1 (rows 0-1).
+   - Solid eastern collision boundary wall is at column 38 (rows 2-16).
+   - Extends west into the unexplored western sector.
 
 ## Verified Trainers & Encounters
 - Wild Pokémon: Zubat (Lv 15-18), Geodude (Lv 16-17), Machop (Lv 15-17), Onix (Lv 13).
 - PokéManiac #1: Located at (26, 31) [Defeated Turn 3474]. Team: Slowpoke Lv 20. Reward: ¥1000.
 - Jr. Trainer Female #1: Located at (15, 28) [Defeated Turn 3493]. Team: Oddish Lv 22, Bulbasaur Lv 22. Reward: ¥440.
 - PokéManiac #2: Located at (22, 20) facing Down [Defeated Turn 3500]. Team: Charmander Lv 22, Cubone Lv 22. Reward: ¥1100. Dialogue: "Do you know about costume players?" Defeat quote: "Well, that's that."
-- Hiker #1: Encountered at (35, 5) from the west [Turn 3511]. Dialogue: "Hit me with your best shot!"
+- Hiker #1: Located near (31..34, 5) facing East [Defeated Turn 3516]. Team: Machop Lv 20, Onix Lv 20. Reward: ¥700. Dialogue: "Hit me with your best shot!" Defeat quote: "Fired away!"
 
 
 <hr>

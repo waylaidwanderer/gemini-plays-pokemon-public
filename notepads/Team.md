@@ -11,10 +11,10 @@
    - Type: Poison / Flying
    - Moves: Leech Life (15/15), Supersonic (20/20)
    - Role: Fast Flying/Poison utility (Fainted)
-3. HYDROS (Wartortle) - Lv 34
-   - Stats (Verified at Lv 34): Max HP 97 (HP: 7/97), Attack 60, Defense 68, Speed 62, Special 65
+3. HYDROS (Wartortle) - Lv 35
+   - Stats (Verified at Lv 35): Max HP 100 (HP: 10/100), Attack 60, Defense 68, Speed 62, Special 65
    - Type: Water
-   - Moves: Tackle (30/35), Tail Whip (29/30), Bite (21/25), Bubblebeam (10/20) [Verified Turn 3504]
+   - Moves: Tackle (30/35), Tail Whip (29/30), Bite (21/25), Bubblebeam (8/20) [Verified Turn 3516]
    - Role: Starter & primary Water special attacker (Active Lead)
 4. SPROUT (Bellsprout) - Lv 13
    - Type: Grass / Poison
