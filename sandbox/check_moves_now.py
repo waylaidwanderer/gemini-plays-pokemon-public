@@ -1,50 +1,67 @@
 import mgba
 import time
 
-def press_and_screenshot(btn, label, delay=1.0):
-    print(f"Pressing {btn} for {label}...")
-    mgba.press_buttons([btn])
-    time.sleep(delay)
-    path = mgba.take_screenshot()
-    print(f"Screenshot [{label}]: {path}")
+def run():
+    print("--- CHECKING SHELLBY'S MOVES ---")
+    
+    # 1. Open Start menu
+    mgba.press_buttons(["Start", "sleep 500"])
+    
+    # Reset menu cursor to top
+    for i in range(7):
+        mgba.press_buttons(["Up", "sleep 100"])
+        
+    # 2. Select POKEMON (Down 1 time from POKEDEX)
+    mgba.press_buttons(["Down", "sleep 200", "A", "sleep 600"])
+    
+    # 3. Select SHELLBY (slot 6, press Down 5 times)
+    for i in range(5):
+        mgba.press_buttons(["Down", "sleep 150"])
+        
+    # Press A to select SHELLBY
+    mgba.press_buttons(["A", "sleep 500"])
+    
+    # 4. Select STATS (Down 2 times from top option which is SURF/USE)
+    # Wait, if she knows SURF, the options are:
+    # 1. SURF
+    # 2. STATS
+    # 3. SWITCH
+    # 4. CANCEL
+    # So STATS is Down 1 time!
+    # Let's press Down twice to be safe or press Down once?
+    # Wait, let's look at the check_moves_now.py:
+    # "# 7. Press Down twice to highlight STATS (Option 3)"
+    # Ah! In check_moves_now.py, STATS was option 3 because for TRUFFLE, the options are:
+    # 1. CUT
+    # 2. DIG
+    # 3. STATS
+    # 4. SWITCH
+    # 5. CANCEL
+    # But for SHELLBY, the only overworld move she knows is Surf. So her options are:
+    # 1. SURF
+    # 2. STATS
+    # 3. SWITCH
+    # 4. CANCEL
+    # So STATS is indeed option 2 (Down once)!
+    # Wait, to be safe, let's just press Down once, and if it's STATS, press A.
+    mgba.press_buttons(["Down", "sleep 200", "A", "sleep 1000"])
+    
+    # Take screenshot of page 1 of stats
+    path_s1 = mgba.take_screenshot()
+    print("Stats Page 1:", path_s1)
+    
+    # 5. Press A to go to page 2 (moves)
+    mgba.press_buttons(["A", "sleep 1000"])
+    
+    # Take screenshot of page 2 of stats
+    path_s2 = mgba.take_screenshot()
+    print("Stats Page 2 (Moves):", path_s2)
+    
+    # 6. Exit back to overworld by pressing B multiple times
+    for i in range(5):
+        mgba.press_buttons(["B", "sleep 300"])
+        
+    print("--- SHELLBY MOVES CHECK COMPLETE ---")
 
-print("--- VERIFYING TRUFFLE'S MOVESET ON TURN 41846 ---")
-
-# 1. Open Start menu
-press_and_screenshot("Start", "start_menu")
-
-# 2. Force cursor to POKEDEX (top) by pressing UP 7 times
-for i in range(7):
-    mgba.press_buttons(["Up"])
-    time.sleep(0.2)
-print("Cursor forced to top (POKEDEX)")
-
-# 3. Press Down once to highlight POKEMON (POKEDEX -> POKEMON)
-press_and_screenshot("Down", "pokedex_to_pokemon")
-
-# 4. Press A to select POKEMON
-press_and_screenshot("A", "pokemon_menu")
-
-# 5. Press Down once to highlight TRUFFLE (second slot)
-press_and_screenshot("Down", "highlight_truffle")
-
-# 6. Press A to select TRUFFLE
-press_and_screenshot("A", "truffle_submenu")
-
-# 7. Press Down twice to highlight STATS (Option 3)
-press_and_screenshot("Down", "stats_down_1")
-press_and_screenshot("Down", "stats_down_2")
-
-# 8. Press A to select STATS
-press_and_screenshot("A", "stats_screen_1", delay=2.0)
-
-# 9. Press A to go to page 2 of stats
-press_and_screenshot("A", "stats_screen_2", delay=2.0)
-
-# 10. Press B multiple times to exit to overworld
-press_and_screenshot("B", "exit_1")
-press_and_screenshot("B", "exit_2")
-press_and_screenshot("B", "exit_3")
-press_and_screenshot("B", "exit_4")
-
-print("Moveset check complete!")
+if __name__ == "__main__":
+    run()
