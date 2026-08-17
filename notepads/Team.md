@@ -1,8 +1,8 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. TERRA (Geodude) - Lv 20
-   - Stats (Verified at Lv 20): Max HP 51 (HP: 25/51, Status: OK), Attack 43, Defense 48, Speed 20, Special 18 [Verified Turn 3139]
+1. TERRA (Geodude) - Lv 21
+   - Stats (Verified at Lv 21): Attack 45, Defense 50, Speed 20, Special 19 [Verified Turn 3244]
    - Type: Rock / Ground
    - Moves: Tackle, Defense Curl, Dig, Rock Throw [Verified Turn 2897]
    - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist (Active Lead)
