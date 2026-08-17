@@ -14,7 +14,7 @@ Find Switch 1 and immediately check its adjacent neighbor for Switch 2 to unlock
 - Col 3:
   - (3, 7): [x] Checked Turn 2530 -> Empty
   - (3, 9): [x] Checked Turn 2536 -> Empty
-  - (3, 11): [ ]
+  - (3, 11): [x] Checked Turn 2542 -> Empty
 - Col 5:
   - (5, 7): [ ]
   - (5, 9): [ ]
@@ -29,4 +29,4 @@ Find Switch 1 and immediately check its adjacent neighbor for Switch 2 to unlock
   - (9, 11): [ ]
 
 ## Immediate Action:
-- Inspect (3, 11) from (2, 11) facing Right.
+- Move to (4, 11), face Right, inspect (5, 11).
