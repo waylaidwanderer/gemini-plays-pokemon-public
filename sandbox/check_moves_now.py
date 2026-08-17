@@ -5,7 +5,7 @@ def press_and_wait(button, delay=0.25):
     mgba.press_buttons([button])
     time.sleep(delay)
 
-def check_moves_perfect():
+def check_moves_real():
     print("Opening start menu...")
     press_and_wait("Start", 0.5)
     
@@ -20,15 +20,14 @@ def check_moves_perfect():
     print("Selecting SHELLBY (Slot 1)...")
     press_and_wait("A", 0.5)
     
-    print("Selecting STATS...")
-    press_and_wait("Down", 0.25)
+    print("Selecting STATS (Option 1 since we are not near water)...")
     press_and_wait("A", 0.8)
     
     # Take screenshot of Page 1 of stats
     p1 = mgba.take_screenshot()
     print("Stats Page 1:", p1)
     
-    # Switch to Page 2 of stats
+    # Switch to Page 2 of stats (Moves)
     print("Switching to moves page...")
     press_and_wait("A", 0.8)
     
@@ -42,4 +41,4 @@ def check_moves_perfect():
         press_and_wait("B", 0.3)
     print("Done!")
 
-check_moves_perfect()
+check_moves_real()
