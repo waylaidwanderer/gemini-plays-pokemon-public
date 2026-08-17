@@ -61,11 +61,15 @@
    - Type: Fighting
    - Moves: Karate Chop, Low Kick
    - Role: Physical Fighting STAB attacker [Captured Turn 3345 with Great Ball]
+6. TITAN (Onix) - Lv 13
+   - Type: Rock / Ground
+   - Moves: Tackle, Screech
+   - Role: Physical Rock/Ground tank [Captured Turn 3445 with Poké Ball]
 
 ## Planned Nicknaming Strategy
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
-## Inventory & Resources (Verified Turn 3345)
+## Inventory & Resources (Verified Turn 3445)
 - Money: ¥11849
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge
 - Key Items: Bicycle, Town Map, Helix Fossil, S.S. Ticket
@@ -73,7 +77,7 @@
 - Valuables:
   - 1x Nugget (Nugget Bridge completion prize - sellable for ¥5000)
 - Consumables:
-  - 1x Poké Ball
+  - 0x Poké Ball
   - 0x Great Ball (Used on ATLAS the Machop)
   - 1x Ether (Restores 10 PP to one move)
   - 1x Moon Stone (Evolution item found in Mt. Moon 1F)
