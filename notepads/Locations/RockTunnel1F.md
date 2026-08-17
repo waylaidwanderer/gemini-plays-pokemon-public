@@ -33,7 +33,8 @@
 ## Verified Trainers & Encounters
 - Wild Pokémon: Geodude (Lv 16-17), Zubat (Lv 15-18), Onix (Lv 13) [Verified].
 - PokéManiac: Defeated Turn 3148. Positioned at (23, 8) facing West. Blocks (23, 8); use cols 20-22 to bypass south to Upper Highway. Team: Cubone Lv 23, Slowpoke Lv 23. Reward: ¥1150.
-7. Western Corridor & South Passage (rows 2-7+, cols 2-10):
+7. Western Corridor & South Passage (rows 2-12+, cols 2-10):
    - Emerges from B1F ladder at (5, 3).
    - Solid rock wall at rows 0-1 and cols 8-10 (rows 0-5).
-   - Rows 6-7 form a wide open corridor spanning cols 2-10 leading south toward Route 10 South / Lavender Town exit.
+   - Rows 6-9 form a wide open 4-tile high corridor spanning cols 2-10.
+   - Rock formation at cols 6-7 (rows 10-11) splits the corridor into western branch (cols 2-5) and eastern branch (cols 8-10) leading south toward Route 10 South / Lavender Town exit.
