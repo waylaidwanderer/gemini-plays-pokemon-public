@@ -777,17 +777,19 @@
   - [x] (7, 9) - Checked Turn 2465 from (8, 9) facing Left -> Empty
   - [x] (9, 9) - Checked Turn 2466 from (8, 9) facing Right -> Empty
 - Row 11:
-  - [ ] (1, 11)
-  - [ ] (3, 11)
+  - [x] (1, 11) - Checked Turn 2476 from (2, 11) facing Left -> Empty
+  - [ ] (3, 11) -> **SWITCH 1 IS 100% HERE!** (14/15 other cans confirmed empty)
   - [x] (5, 11) - Checked Turn 2469 from (6, 11) facing Left -> Empty
   - [x] (7, 11) - Checked Turn 2468 from (8, 11) facing Left -> Empty
   - [x] (9, 11) - Checked Turn 2467 from (8, 11) facing Right -> Empty
 
-## Current Deduction:
-- Rows 7 and 9 are 100% empty (13/15 checked). Switch 1 is strictly at either (1, 11) or (3, 11).
+## Switch 2 Candidates (Adjacent to (3, 11)):
+- West neighbor: (1, 11) (turn Left from 2, 11)
+- North neighbor: (3, 9) (step Up 2 to 2, 9 and face Right)
+- East neighbor: (5, 11) (step via row 12 to 4, 11 and face Right)
 
 ## Next Action:
-- Turn 2476: Inspect (1, 11) from (2, 11) facing Left.
+- Turn 2477: Activate Switch 1 at (3, 11) from (2, 11) facing Right.
 
 
 <hr>
