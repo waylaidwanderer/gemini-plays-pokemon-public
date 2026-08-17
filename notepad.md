@@ -52,7 +52,7 @@
 3. HYDROS (Wartortle) - Lv 35
    - Stats (Verified at Lv 35): Max HP 100 (HP: 10/100), Attack 60, Defense 68, Speed 62, Special 65
    - Type: Water
-   - Moves: Tackle (30/35), Tail Whip (29/30), Bite (21/25), Bubblebeam (8/20) [Verified Turn 3516]
+   - Moves: Tackle (30/35), Tail Whip (29/30), Bite (21/25), Bubblebeam (6/20) [Verified Turn 3516]
    - Role: Starter & primary Water special attacker (Active Lead)
 4. SPROUT (Bellsprout) - Lv 13
    - Type: Grass / Poison
@@ -72,7 +72,7 @@
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
 ## Inventory & Resources (Verified Turn 3445)
-- Money: ¥15779
+- Money: ¥16514
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge
 - Key Items: Bicycle, Town Map, Helix Fossil, S.S. Ticket
 - TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM24 (Thunderbolt), TM34 (Bide), TM44 (Rest)
@@ -865,7 +865,7 @@
 ## Verified Trainers & Encounters
 - Wild Pokémon: Geodude (Lv 16-17), Zubat (Lv 15-18), Onix (Lv 13) [Verified].
 - PokéManiac: Located at (23, 8) facing West [Defeated Turn 3148]. Team: Cubone Lv 23, Slowpoke Lv 23. Reward: ¥1150.
-- Hiker #2: Located at (17, 15) facing West [Encountered Turn 3537]. Team: Geodude Lv 21, ... Dialogue: "Outsiders like you need to show me some respect!"
+- Hiker #2: Located at (17, 15) [Defeated Turn 3546]. Team: Geodude Lv 21, Graveler Lv 21. Reward: ¥735. Dialogue: "Outsiders like you need to show me some respect!" Defeat quote: "I give!"
 
 
 <hr>

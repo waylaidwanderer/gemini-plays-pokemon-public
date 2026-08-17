@@ -40,4 +40,4 @@
 ## Verified Trainers & Encounters
 - Wild Pokémon: Geodude (Lv 16-17), Zubat (Lv 15-18), Onix (Lv 13) [Verified].
 - PokéManiac: Located at (23, 8) facing West [Defeated Turn 3148]. Team: Cubone Lv 23, Slowpoke Lv 23. Reward: ¥1150.
-- Hiker #2: Located at (17, 15) facing West [Encountered Turn 3537]. Team: Geodude Lv 21, ... Dialogue: "Outsiders like you need to show me some respect!"
+- Hiker #2: Located at (17, 15) [Defeated Turn 3546]. Team: Geodude Lv 21, Graveler Lv 21. Reward: ¥735. Dialogue: "Outsiders like you need to show me some respect!" Defeat quote: "I give!"
