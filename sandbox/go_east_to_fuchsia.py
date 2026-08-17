@@ -1,51 +1,47 @@
 import mgba
 import time
 
-def handle_potential_battle():
-    # If a battle starts, spam B, then press Down, Right, A to run
-    print("Executing run-from-battle macro...")
-    for _ in range(5):
-        mgba.press_buttons(["B", "sleep 150"])
-    mgba.press_buttons(["Down", "sleep 150", "Right", "sleep 150", "A", "sleep 600"])
-    for _ in range(3):
-        mgba.press_buttons(["B", "sleep 200"])
-
-def walk_step(direction):
-    pos = mgba.get_coordinates()
-    mgba.press_buttons([direction])
-    time.sleep(0.35)
-    new_pos = mgba.get_coordinates()
-    
-    if new_pos == pos:
-        # Position did not change! We might be in a wild battle
-        print("Position unchanged. Checking for battle and fleeing...")
-        handle_potential_battle()
-        # Try moving again after fleeing
-        mgba.press_buttons([direction])
-        time.sleep(0.35)
-        new_pos = mgba.get_coordinates()
-        
-    return new_pos
-
 def run():
-    print("--- WALKING EAST CHUNK 1 ---")
+    print("--- GOING TO EAST EXIT OF FUCHSIA CITY ---")
     pos = mgba.get_coordinates()
     print("Start position:", pos)
     
-    # 1. Walk Right to (1, 17)
-    pos = walk_step("Right")
-    print("Position:", pos)
+    # 1. Walk Right 11 steps to (24, 21)
+    print("Step 1: Right 11 steps to Column 24...")
+    for _ in range(11):
+        mgba.press_buttons(["Right"])
+        time.sleep(0.3)
+    print("Position:", mgba.get_coordinates())
     
-    # 2. Walk Down 4 steps to (1, 21) (tall grass)
-    for i in range(4):
-        pos = walk_step("Down")
-        print(f"Step {i+1} Down: {pos}")
+    # 2. Walk Down 9 steps to (24, 30)
+    print("Step 2: Down 9 steps to Row 30...")
+    for _ in range(9):
+        mgba.press_buttons(["Down"])
+        time.sleep(0.3)
+    print("Position:", mgba.get_coordinates())
+    
+    # 3. Walk Right 11 steps to (35, 30) (through fence gap at 25, 30)
+    print("Step 3: Right 11 steps to Column 35...")
+    for _ in range(11):
+        mgba.press_buttons(["Right"])
+        time.sleep(0.3)
+    print("Position:", mgba.get_coordinates())
+    
+    # 4. Walk Up 13 steps to (35, 17)
+    print("Step 4: Up 13 steps to Row 17...")
+    for _ in range(13):
+        mgba.press_buttons(["Up"])
+        time.sleep(0.3)
+    print("Position:", mgba.get_coordinates())
+    
+    # 5. Walk Right 5 steps to transition to Route 15 (east exit at 39, 17)
+    print("Step 5: Right 5 steps to Route 15...")
+    for _ in range(5):
+        mgba.press_buttons(["Right"])
+        time.sleep(0.3)
         
-    # 3. Walk Right 12 steps to (13, 21)
-    for i in range(12):
-        pos = walk_step("Right")
-        print(f"Step {i+1} Right: {pos}")
-        
+    time.sleep(1.5) # Wait for transition
+    print("Final position:", mgba.get_coordinates())
     mgba.take_screenshot()
 
 if __name__ == "__main__":
