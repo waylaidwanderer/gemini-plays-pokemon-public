@@ -20,3 +20,5 @@
 - Hiker Jeremy: Located at (16, 15) in the southwestern grass area below the ledge [Defeated Turn 3006]. Team: Machop Lv 20, Onix Lv 20. Reward: ¥700. Dialogue: "Great! I was bored, eh!" Defeat quote: "You sure had guts standing up to me there, eh?"
 - Trainer #3: Located at (40, 8) in the northern grass corridor facing Down.
 - Trainer #4: Located at (45, 15) in the eastern lower corridor facing Left.
+
+- Eastern Ascent at (29, 13): Connects the eastern lower lawn (row 14) directly up to the main highway (row 12) [Discovered and Verified Turn 3037].
