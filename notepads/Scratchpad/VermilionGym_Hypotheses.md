@@ -1,14 +1,14 @@
-# Vermilion Gym - Trash Can Puzzle Mechanics & Optimal Strategy
+# Vermilion Gym - Trash Can Empirical Trial Log & Mechanics
 
-## Mechanics Synthesis
-- Each trash can check has a ~1/15 probability of being Switch 1.
-- In both Sweep Run #4 and Run #5, all 15 cans were checked sequentially and returned empty (~35.5% probability per 15-check sequence).
-- Once Switch 1 is found, Switch 2 is randomly placed in one of the cardinal adjacent neighbors.
+## Root Cause Analysis (Verified Turn 2641)
+- Multi-button sequences combining textbox dismissal (`B`) with movement and `A` resulted in dropped inputs (evidenced by consistent system warnings: 'You pressed 3 movement buttons, but visited 2 tiles').
+- As a result, directional turns were misaligned and several cans were never actually interacted with.
 
-## Optimal Rapid Solution (Position: (8, 11))
-- Stand at (8, 11) between trash can (7, 11) [Left] and (9, 11) [Right].
-- Alternate checking (7, 11) and (9, 11) until Switch 1 activates: "Hey! There's a switch under the trash! Turn it on! The 1st electric lock opened!"
-- Immediate Response Protocol:
-  - If Switch 1 is at (9, 11): Immediately check (7, 11) [`Left`, `A`] or (9, 9) [`Up`, `Right`, `A`].
-  - If Switch 1 is at (7, 11): Immediately check (9, 11) [`Right`, `A`], (7, 9) [`Up`, `Left`, `A`], or (5, 11) [`Left`, `Left`, `A`].
-- Once both switches are active: Motorized door opens, walk directly north to challenge Gym Leader Lt. Surge!
+## Strict Single-Action Verification Protocol
+1. **Dismiss**: Press `B` alone to close textbox. Verify screen is clear of dialogue.
+2. **Position**: Move to target tile in front of can. Verify coordinates on `<GameState>`.
+3. **Inspect**: Face target can and press `A` alone. Verify resulting textbox text.
+4. **Log**: Record exact outcome with turn number.
+
+## Cumulative Sweep Log - Run #5 Verified Single-Action Checks
+- (Position: (8, 11) facing Right at Turn 2641)
