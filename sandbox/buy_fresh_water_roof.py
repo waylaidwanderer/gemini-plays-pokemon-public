@@ -9,35 +9,43 @@ def get_pos():
     pos = mgba.get_coordinates()
     return pos['x'], pos['y']
 
-def buy_drink_from_4_6():
-    print("Starting at:", get_pos())
+def find_vending_machine():
+    print("Starting search from:", get_pos())
     
-    # 1. Walk right 4 steps to Column 8 (8, 6)
-    for _ in range(4):
-        press_and_wait("Right")
-    print("At (8, 6):", get_pos())
+    # 1. Walk right to Column 11 (11, 6)
+    press_and_wait("Right")
+    press_and_wait("Right")
+    press_and_wait("Right")
+    print("At (11, 6):", get_pos())
     
-    # 2. Walk up 4 steps to Row 2 (8, 2)
+    # 2. Walk up to Row 2 (11, 2)
     for _ in range(4):
         press_and_wait("Up")
-    print("At (8, 2):", get_pos())
+    print("At (11, 2):", get_pos())
     
-    # 3. Interact with the vending machine at (8, 1)
-    print("Pressing A...")
-    press_and_wait("A", 1.0)
-    
-    # Select Option 1 (Fresh Water)
-    print("Selecting Fresh Water (Option 1)...")
-    press_and_wait("A", 0.5)
-    
-    # Confirm Fresh Water popped out
-    print("Confirming dialogue 1...")
-    press_and_wait("A", 1.0)
-    print("Confirming dialogue 2...")
-    press_and_wait("A", 1.0)
-    
-    # Take screenshot of final state
-    mgba.take_screenshot()
-    print("Fresh Water purchased successfully!")
+    # 3. Walk left along Row 2 and try interacting UP with columns 10, 9, 8, 7
+    # We will try columns 10, 9, 8, 7
+    for target_col in [10, 9, 8, 7]:
+        cx, cy = get_pos()
+        # Walk left to target_col
+        steps = cx - target_col
+        for _ in range(steps):
+            press_and_wait("Left")
+        
+        # Face UP
+        press_and_wait("Up")
+        time.sleep(0.1)
+        cx, cy = get_pos()
+        print(f"Testing Column {cx} on Row 1 (standing at {cx}, {cy} facing UP)...")
+        
+        # Press A
+        press_and_wait("A", 0.6)
+        
+        # Take a screenshot to inspect later
+        scr = mgba.take_screenshot()
+        print(f"Screenshot for col {cx}: {scr}")
+        
+        # Press B to close any potential dialog just in case
+        press_and_wait("B", 0.3)
 
-buy_drink_from_4_6()
+find_vending_machine()
