@@ -635,15 +635,15 @@
 
 ## Layout & Landmarks
 - Northern thoroughfare across rows 0-4 (cols 10-38).
-- Central Plaza Avenue: Open 4-tile wide vertical thoroughfare at cols 18-21 across rows 4-14 (between Trade House and Pok�mart).
+- Central Plaza Avenue: Open 4-tile wide vertical thoroughfare at cols 18-21 across rows 4-14 (between Trade House and Pok��mart).
 - Southern thoroughfare across rows 14-15 (cols 6-30).
 - City Signpost at (27, 3): "VERMILION CITY - The Port of Exquisite Sunsets".
 
 ## Buildings & Points of Interest
-- Pok�mon Center: Located at cols 10-13, rows 0-3 with entrance door at (11, 3).
-- Pok�mart: Located at cols 22-25, rows 10-13 with entrance door at (23, 13).
-  - Catalog: Pok� Ball (��200), Super Potion (��700), Ice Heal (��250), Awakening (��200), Parlyz Heal (��200), Repel (��350).
-- Pok�mon Fan Club: Located at cols 8-11, rows 10-13 with entrance door at (9, 13).
+- Pok��mon Center: Located at cols 10-13, rows 0-3 with entrance door at (11, 3).
+- Pok��mart: Located at cols 22-25, rows 10-13 with entrance door at (23, 13).
+  - Catalog: Pok�� Ball (���200), Super Potion (���700), Ice Heal (���250), Awakening (���200), Parlyz Heal (���200), Repel (��350).
+- Pok��mon Fan Club: Located at cols 8-11, rows 10-13 with entrance door at (9, 13).
   - Chairman rewarded player with BIKE VOUCHER [Obtained Turn 1902].
 - Trade House: Located at cols 14-17, rows 10-13 with entrance door at (15, 13). Trader NPC at (3, 5) offers in-game trade: SPEAROW for FARFETCH'D (DUXX).
 - Vermilion Gym: Located at cols 8-13, rows 16-19 with Cut bush at (15, 18).
@@ -854,6 +854,7 @@
 
 ## Verified Trainers & Encounters
 - PokéManiac Ashton: Located at (23, 8) facing North [Defeated Turn 3145]. Team: Cubone Lv 23, Slowpoke Lv 23. Reward: ¥1150.
+- Hiker at (8, 6) facing Left [Defeated Turn 4036]. Team: Geodude Lv 19, Machop Lv 19, Geodude Lv 19. Reward: �665.
 - Hiker #1: Located at (5, 15) [Defeated Turn 3654]. Team: Onix Lv 20, Geodude Lv 20. Reward: ¥700.
 - Jr. Trainer ♀ #1: Located at (10, 15) [Defeated Turn 3879]. Team: Jigglypuff Lv 21, Pidgey Lv 21, Meowth Lv 21. Reward: ¥420.
 - Trainer #4: Located at (23, 11) in Upper East Alcove.
