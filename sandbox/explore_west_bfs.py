@@ -1,75 +1,115 @@
 import mgba
 import time
 
-def run():
-    print("--- AUTOMATIC PATHFINDER TO WEST FUCHSIA ---")
-    
-    start_pos = mgba.get_coordinates()
-    print("Start position:", start_pos)
-    
-    # We want to find a path from start_pos to any position with x <= 13.
-    # We will use DFS with backtracking.
-    # path is a list of button presses from start_pos.
-    # visited is a set of (x, y) coordinates.
-    visited = { (start_pos['x'], start_pos['y']) }
-    
-    directions = [
-        ("Left", "Right", -1, 0),
-        ("Up", "Down", 0, -1),
-        ("Down", "Up", 0, 1),
-        ("Right", "Left", 1, 0)
-    ]
-    
-    solution_path = []
-    
-    def dfs(x, y, path_so_far):
-        if x <= 13:
-            print(f"FOUND PATH TO x={x}, y={y}!")
-            print("Path length:", len(path_so_far))
-            print("Path:", path_so_far)
-            solution_path.extend(path_so_far)
-            return True
-            
-        for move, reverse_move, dx, dy in directions:
-            nx, ny = x + dx, y + dy
-            if (nx, ny) in visited:
-                continue
-                
-            # Try to make the move
-            mgba.press_buttons([move])
-            time.sleep(0.25)
-            curr = mgba.get_coordinates()
-            
-            if curr['x'] == nx and curr['y'] == ny:
-                # Successfully moved!
-                visited.add((nx, ny))
-                if dfs(nx, ny, path_so_far + [move]):
-                    return True
-                # Backtrack
-                mgba.press_buttons([reverse_move])
-                time.sleep(0.25)
-            else:
-                # Blocked, so mark as visited to avoid trying again
-                visited.add((nx, ny))
-                
-        return False
+def press_and_wait(button, delay=0.25):
+    mgba.press_buttons([button])
+    time.sleep(delay)
 
-    # Run DFS
-    dfs(start_pos['x'], start_pos['y'], [])
+def find_open_west_path():
+    print("Starting BFS to find open western path to Celadon City...")
+    # We are at (2, 8)
+    # Let's explore Row 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 7, 6, 5, 4, 3, 2, 1, 0!
+    # On each row, we walk to Column 2 and try to walk LEFT.
+    # If we successfully step onto Column 1 or Column 0, we found the path!
     
-    # If a path was found, solution_path will contain the sequence.
-    # Since we backtracked all the way to start_pos, let's now execute the solution_path!
-    if solution_path:
-        print("Executing solution path...")
-        # Since the DFS already returned us to the start, we can just execute the moves!
-        # But wait! Did the DFS backtrack to the start?
-        # Yes, because if dfs returns True, it propagates up, but wait:
-        # If dfs returns True, it does NOT execute the backtracks on the recursion stack!
-        # So the player is currently standing at the destination!
-        print("Player should already be at the destination. Verified position:", mgba.get_coordinates())
-        mgba.take_screenshot()
-    else:
-        print("No path found.")
+    # Let's first move to Column 2 (we are already there)
+    # Let's try LEFT at current Row 8:
+    print("Testing Row 8...")
+    press_and_wait("Left", 0.3)
+    pos = mgba.get_coordinates()
+    if pos['x'] < 2:
+        print(f"FOUND OPEN PATH AT Row 8, Col {pos['x']}!")
+        return
 
-if __name__ == "__main__":
-    run()
+    # Let's try Row 9:
+    print("Testing Row 9...")
+    press_and_wait("Down", 0.3)
+    press_and_wait("Left", 0.3)
+    pos = mgba.get_coordinates()
+    if pos['x'] < 2:
+        print(f"FOUND OPEN PATH AT Row 9, Col {pos['x']}!")
+        return
+        
+    # Let's try Row 10:
+    print("Testing Row 10...")
+    press_and_wait("Down", 0.3)
+    press_and_wait("Left", 0.3)
+    pos = mgba.get_coordinates()
+    if pos['x'] < 2:
+        print(f"FOUND OPEN PATH AT Row 10, Col {pos['x']}!")
+        return
+
+    # Let's try other rows! We can go up to Row 2
+    # To reach Row 2, we must go around the ledge via Column 8
+    print("Going around ledge via Column 8 to test upper rows...")
+    press_and_wait("Right", 0.25)
+    press_and_wait("Right", 0.25)
+    press_and_wait("Right", 0.25)
+    press_and_wait("Right", 0.25)
+    press_and_wait("Right", 0.25)
+    press_and_wait("Right", 0.25) # now at column 8 row 10
+    
+    # Walk UP Column 8 to Row 2
+    for _ in range(8):
+        press_and_wait("Up", 0.25) # now at (8, 2)
+        
+    # Test Row 2 Column 2: walk left to Column 2
+    for _ in range(6):
+        press_and_wait("Left", 0.25) # now at (2, 2)
+        
+    print("Testing Row 2...")
+    press_and_wait("Left", 0.3)
+    pos = mgba.get_coordinates()
+    if pos['x'] < 2:
+        print(f"FOUND OPEN PATH AT Row 2, Col {pos['x']}!")
+        return
+        
+    # Test Row 3:
+    print("Testing Row 3...")
+    press_and_wait("Down", 0.3)
+    press_and_wait("Left", 0.3)
+    pos = mgba.get_coordinates()
+    if pos['x'] < 2:
+        print(f"FOUND OPEN PATH AT Row 3, Col {pos['x']}!")
+        return
+
+    # Test Row 4:
+    print("Testing Row 4...")
+    press_and_wait("Down", 0.3)
+    press_and_wait("Left", 0.3)
+    pos = mgba.get_coordinates()
+    if pos['x'] < 2:
+        print(f"FOUND OPEN PATH AT Row 4, Col {pos['x']}!")
+        return
+
+    # Test Row 5:
+    print("Testing Row 5...")
+    press_and_wait("Down", 0.3)
+    press_and_wait("Left", 0.3)
+    pos = mgba.get_coordinates()
+    if pos['x'] < 2:
+        print(f"FOUND OPEN PATH AT Row 5, Col {pos['x']}!")
+        return
+
+    # Test Row 6:
+    print("Testing Row 6...")
+    press_and_wait("Down", 0.3)
+    press_and_wait("Left", 0.3)
+    pos = mgba.get_coordinates()
+    if pos['x'] < 2:
+        print(f"FOUND OPEN PATH AT Row 6, Col {pos['x']}!")
+        return
+
+    # Test Row 7:
+    print("Testing Row 7...")
+    press_and_wait("Down", 0.3)
+    press_and_wait("Left", 0.3)
+    pos = mgba.get_coordinates()
+    if pos['x'] < 2:
+        print(f"FOUND OPEN PATH AT Row 7, Col {pos['x']}!")
+        return
+
+    print("All tests completed. None found open. Taking screenshot.")
+    mgba.take_screenshot()
+
+find_open_west_path()
