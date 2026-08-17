@@ -7,6 +7,7 @@
 ## Layout & Landmarks
 - Upper and lower pathways divided by ledges and rocky outcrops.
 - Leads east towards Route 10, Rock Tunnel entrance, and the Power Plant waterway.
+- Western Entrance Cut Bush: Located at (5, 8). Requires HM01 Cut to access the main eastern highway of Route 9 [Cleared Turn 2969].
 
 ## Verified Encounters & Trainers
-- None yet.
+- Tall grass patches at rows 8-9 (cols 6-9 and further east).
