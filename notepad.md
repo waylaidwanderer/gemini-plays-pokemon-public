@@ -1622,3 +1622,9 @@ Route 16 Gatehouse physically divides Celadon City (East) from Route 16 Cycling 
 - **NPC Dialogue:** A girl at `(14, 2)` says: "For long outings, you should buy REVIVE."
 
 <hr>
+
+<h1><code>Locations/CeladonCity.md</code></h1>
+
+
+
+<hr>
