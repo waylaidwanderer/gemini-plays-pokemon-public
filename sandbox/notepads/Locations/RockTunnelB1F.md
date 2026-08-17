@@ -9,3 +9,4 @@
 
 ## Verified Trainers & Encounters
 - Wild Pokémon: TBD.
+- Southern Bypass: Row 30 is an open horizontal corridor spanning cols 24-33, connecting the Eastern Chamber around the cols 26-27 rock divider into the central/western sector at cols 24-25 [Verified Turn 3467].
