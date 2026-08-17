@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Rock Tunnel 1F (x=21, y=13)
+- Location: Rock Tunnel 1F (x=37, y=5)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -855,5 +855,21 @@
 ## Verified Trainers & Encounters
 - Wild Pokémon: Geodude (Lv 16-17), Zubat (Lv 15-18), Onix (Lv 13) [Verified].
 - PokéManiac: Defeated Turn 3148. Positioned at (23, 8) facing West. Blocks (23, 8); use cols 20-22 to bypass south to Upper Highway. Team: Cubone Lv 23, Slowpoke Lv 23. Reward: ¥1150.
+
+<hr>
+
+<h1><code>Locations/RockTunnelB1F</code></h1>
+
+# Rock Tunnel B1F - Points of Interest & Topology
+
+## Connections & Warps
+- Eastern Ladder to 1F: Located at (33, 25), connects to Rock Tunnel 1F eastern ladder at (37, 3) [Entered Turn 3460].
+
+## Empirical Layout & Topology
+- Eastern Chamber: Spans cols 29-37 across rows 22-29. North ceiling at row 21, East rock wall at col 38.
+- Western passage exits from Eastern Chamber towards the central/western sectors of B1F.
+
+## Verified Trainers & Encounters
+- Wild Pokémon: TBD.
 
 <hr>
