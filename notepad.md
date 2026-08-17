@@ -882,5 +882,6 @@
 - Wild Pokémon: Zubat, Geodude, Machop, Onix.
 - PokéManiac: Defeated at (26, 31).
 - Jr. Trainer ♀: Defeated at (15, 28).
+- PokéManiac #2: Encountered at (22, 20) facing Down from (22, 21). Dialogue: "Do you know about costume players?" [Turn 3497]
 
 <hr>
