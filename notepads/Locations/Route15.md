@@ -1,22 +1,18 @@
-# Route 15 - Overworld Mapping & Navigation
+# Route 15 Gatehouse - Split-Level Layout & Navigation Guide
 
-## Map Transitions & Connections
-- **East Connection (Route 14):** Transition at Route 15 `(59, 12)` connects directly to Route 14 at `(0, 48)` / `(0, 49)`. Player entered Route 15 on Turn 20078.
-- **West Connection (Fuchsia City):** Transition at Route 15 `(0, 9)` connects directly to Fuchsia City at `(39, 17)`. (Player entered Fuchsia City on Turn 20389).
-- **West Gatehouse (Route 15 Gate):** Located at rows 8-9, columns 8-12 on Route 15, with the west exit at `(7, 9)`. Inside the gatehouse, the warp mats are at `(7, 5)` (east) and `(0, 5)` (west).
+## Overview
+The Route 15 Gatehouse physically divides the overworld of Fuchsia City (West) from Route 15 (East) via a split-level layout. The first floor (1F) is divided into two separate, unconnected rooms (West and East), which are only connected via the second floor (2F) room.
 
-## Physical Layout & Navigation
-- A horizontal route extending west towards Fuchsia City.
-- **Northern Ledge:** Rows 10-11 are a ledge structure that can only be jumped from north to south. They cannot be walked on horizontally, and you cannot walk up onto them from row 12.
-- **Rows 12-13 (Walk-Tested):** Empirically verified as tall grass (grey vertical dashes) extending across the route. Walked from column 59 to column 41 on Row 12.
-- **Stone Fence:** Row 14 has an unbroken solid stone fence across the route.
-- **Southern Grass Area:** Rows 15-16 below the stone fence are green checkered (walkability to be determined).
+## First Floor (1F) - West Room
+- **West Exit/Entrance (Fuchsia City):** Connects to Fuchsia City at `(0, 9)`.
+- **Stairs to 2F:** Located at `(7, 9)`. Walking onto this tile immediately warps the player to the 2F West side at `(0, 5)`.
 
-## Defeated Trainers
-- **Beauty:** Standing at `(53, 10)` or `(53, 11)` (challenged from `(53, 12)` on Turn 20081). Defeated on Turn 20101. Roster: Pidgeotto Lv 29, Wigglytuff Lv 29. Prize money: ¥2030.
-- **Biker:** Standing at `(48, 11)` (challenged from `(48, 12)` on Turn 20121). Defeated on Turn 20185. Prize money: ¥500.
-- **Biker:** Standing at `(46, 11)` (challenged from `(46, 12)` on Turn 20202). Defeated on Turn 20227. Roster: Koffing Lv 28, Grimer Lv 28, Weezing Lv 28. Prize money: ¥560.
-- **Jr. Trainer♀:** Standing at `(41, 11)` (challenged from `(41, 12)` on Turn 20232). Defeated on Turn 20262. Roster: Gloom Lv 28, Oddish Lv 28, Oddish Lv 28. Prize money: ¥560.
-- **Bird Keeper:** Standing at `(35, 13)` (challenged from `(35, 12)` on Turn 20266). Defeated on Turn 20294. Roster: Dodrio Lv 28, Doduo Lv 28, Doduo Lv 28. Prize money: ¥700.
-- **Bird Keeper:** Standing at `(31, 13)` (challenged from `(31, 12)` on Turn 20300). Defeated on Turn 20338. Roster: Pidgeotto Lv 26, Doduo Lv 26, Farfetch'd Lv 26, Doduo Lv 26, Pidgey Lv 26. Prize money: ¥624.
-- **Jr. Trainer♀:** Standing at `(18, 13)` (challenged from `(18, 12)` on Turn 20348). Defeated on Turn 20378. Roster: Bellsprout Lv 29, Oddish Lv 29, Tangela Lv 29. Prize money: ¥580.
+## First Floor (1F) - East Room
+- **Stairs Landing (From 2F):** The player lands at `(6, 8)` after going down the stairs from the 2F.
+- **Stairs to 2F:** Located at `(7, 8)`. Walking onto this tile immediately warps the player back to the 2F.
+- **Corridor:** Located at Row 9. To reach it from the landing, walk DOWN to `(6, 9)`.
+- **East Exit/Entrance (Route 15 Overworld):** Walk right along Row 9 to transition to Route 15 overworld at `(8, 9)`.
+
+## Second Floor (2F)
+- **Stairs (To 1F East Room):** Located at `(6, 8)`. Walking onto this tile warps the player down to the 1F East Room landing at `(6, 8)`. Note that if you have just warped onto `(6, 8)`, you must walk off the tile (e.g., Left to `(5, 8)`) and then back onto it to trigger the warp again.
+- **Doormat/Exit (Fuchsia City Side):** Red-checkered doormat tiles are at `(7, 4)` and `(7, 5)` which connect back to the West Room of the gatehouse.
