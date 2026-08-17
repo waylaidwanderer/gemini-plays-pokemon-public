@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Rock Tunnel B1F (x=15, y=28)
+- Location: Rock Tunnel 1F (x=21, y=17)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -865,6 +865,7 @@
 - PokéManiac: Located at (23, 8) facing West [Defeated Turn 3148]. Team: Cubone Lv 23, Slowpoke Lv 23. Reward: ¥1150.
 - Hiker #2: Located at (17, 15) [Defeated Turn 3546]. Team: Geodude Lv 21, Graveler Lv 21. Reward: ¥735. Dialogue: "Outsiders like you need to show me some respect!" Defeat quote: "I give!"
 
+- Hiker #3: Located at (5, 15) [Defeated Turn 3654]. Team: Onix Lv 20, Geodude Lv 20. Reward: �700. Dialogue: "That sleeping POK�MON on ROUTE..."
 
 <hr>
 
