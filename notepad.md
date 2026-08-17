@@ -772,7 +772,7 @@
   - [ ] (3, 7)
   - [ ] (5, 7)
   - [ ] (7, 7)
-  - [ ] (9, 7)
+  - [x] (9, 7) - Checked Turn 2414 from (8, 7) facing Right -> Empty ("Nope, there's only trash here.")
 - Row 9:
   - [x] (1, 9) - Checked Turn 2409 from (2, 9) facing Left -> Empty ("Nope, there's only trash here.")
   - [x] (3, 9) - Checked Turn 2410 from (2, 9) facing Right -> Empty ("Nope, there's only trash here.")
@@ -787,10 +787,10 @@
   - [x] (9, 11) - Checked Turn 2400 from (8, 11) facing Right -> Empty ("Nope, there's only trash here.")
 
 ## Current Deduction:
-- Rows 9 and 11 are 100% empty. Switch 1 MUST be located in Row 7 ((1,7), (3,7), (5,7), (7,7), or (9,7)).
+- Rows 9 and 11 are 100% empty. Can (9, 7) is empty. Switch 1 MUST be in (1, 7), (3, 7), (5, 7), or (7, 7).
 
 ## Next Planned Checks:
-- Turn 2414: Inspect (9, 7) from (8, 7) facing Right.
+- Turn 2415: Inspect (7, 7) from (8, 7) facing Left.
 
 
 <hr>
