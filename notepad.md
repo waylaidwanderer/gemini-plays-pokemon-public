@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 2/8 (Boulder Badge, Cascade Badge)
-- Location: Vermilion Gym (x=6, y=11)
+- Location: Vermilion Gym (x=8, y=11)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -782,10 +782,10 @@ Find Switch 1 and immediately check its adjacent neighbor for Switch 2 to unlock
 - Col 9:
   - (9, 7): [ ]
   - (9, 9): [ ]
-  - (9, 11): [ ]
+  - (9, 11): [x] Checked Turn 2565 -> Empty
 
 ## Immediate Action:
-- Move to (8, 11), face Right, inspect (9, 11).
+- Move to (8, 9), face Right, inspect (9, 9).
 
 
 <hr>
