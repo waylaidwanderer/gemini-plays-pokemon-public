@@ -2,7 +2,7 @@
 
 ## Active Party
 1. TERRA (Geodude) - Lv 19
-   - Stats (Verified at Lv 19): Max HP 49 (HP: 14/49), Attack 41, Defense 45, Speed 19, Special 18 [Verified Turn 3048]
+   - Stats (Verified at Lv 19): Max HP 49 (HP: 49/49), Attack 41, Defense 45, Speed 19, Special 18 [Verified Turn 3048]
    - Type: Rock / Ground
    - Moves: Tackle, Defense Curl, Dig, Rock Throw [Verified Turn 2897]
    - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist (Active Lead)
@@ -12,7 +12,7 @@
    - Moves: Leech Life (15/15), Supersonic (20/20)
    - Role: Fast Flying/Poison utility & Grass counter
 3. HYDROS (Wartortle) - Lv 34
-   - Stats (Verified at Lv 34): Max HP 97 (HP: 20/97), Attack 60, Defense 68, Speed 62, Special 65
+   - Stats (Verified at Lv 34): Max HP 97 (HP: 97/97), Attack 60, Defense 68, Speed 62, Special 65
    - Type: Water
    - Moves: Tackle (30/35), Tail Whip (27/30), Bite (22/25), Bubblebeam (15/20) [Verified Turn 2318]
    - Role: Starter & primary Water special attacker
