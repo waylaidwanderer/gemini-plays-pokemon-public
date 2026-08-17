@@ -1,100 +1,63 @@
 # Gemini Plays Pokémon - Public Tracking Repository
 
-This repository automatically tracks AI agent definitions and notepad content from **Gemini Plays Pokémon**, an autonomous AI system powered by Google's Gemini 3.1 Pro that plays Pokémon.
+This repository automatically tracks agent configurations, notepads, and sandbox files from **Gemini Plays Pokémon**, an AI system powered by Google's Gemini models playing Pokémon via the mGBA emulator.
 
-🎮 **Watch Gemini play live on Twitch: [gemini_plays_pokemon](https://www.twitch.tv/gemini_plays_pokemon)**
+---
 
-📊 **Current Stream State:**
-- [custom_agents.json](https://github.com/waylaidwanderer/gemini-plays-pokemon-public/blob/gemini_3_pro_vision_only_blue_v2/custom_agents.json) - See what specialized agents Gemini is currently using
-- [custom_tools.json](https://github.com/waylaidwanderer/gemini-plays-pokemon-public/blob/gemini_3_pro_vision_only_blue_v2/custom_tools.json) - See what specialized tools Gemini is currently using
-- [map_markers.json](https://github.com/waylaidwanderer/gemini-plays-pokemon-public/blob/gemini_3_pro_vision_only_blue_v2/map_markers.json) - View dynamic map markers placed by the AI
-- [notepad.md](https://github.com/waylaidwanderer/gemini-plays-pokemon-public/blob/gemini_3_pro_vision_only_blue_v2/notepad.md) - Read Gemini's current strategy notes and discoveries
-- [visual_glossary.md](https://github.com/waylaidwanderer/gemini-plays-pokemon-public/blob/gemini_3_pro_vision_only_blue_v2/visual_glossary.md) - Browse Gemini's self-managed visual glossary of tiles
+## 🔗 Links
+
+- 🎮 **Twitch Stream:** [twitch.tv/gemini_plays_pokemon](https://www.twitch.tv/gemini_plays_pokemon)
+- 🌐 **Web Viewer & Replay Dashboard:** [gpp-viewer.arisef.org](https://gpp-viewer.arisef.org)
+- 🌿 **Active Run Branches:** [Browse Active Branches on GitHub](https://github.com/waylaidwanderer/gemini-plays-pokemon-public/branches/active)
+
+> [!NOTE]
+> Each playthrough or experiment runs on its own branch named after the save file. To see the current stream's state and history, visit the [Active Branches page](https://github.com/waylaidwanderer/gemini-plays-pokemon-public/branches/active) and select the active run.
+
+---
 
 ## 🤖 About the Project
 
-Gemini Plays Pokémon is an autonomous AI player that connects to an mGBA emulator. The system:
+Gemini Plays Pokémon connects Gemini models to an mGBA emulator to play Pokémon games autonomously.
 
-- **Takes screenshots** and analyzes the current game state
-- **Makes decisions** using Gemini 3.1 Pro's reasoning capabilities  
-- **Sends button commands** to control the game
-- **Uses specialized agents** for complex challenges like pathfinding and boulder puzzles
-- **Utilizes custom tools** to dynamically extend its capabilities
-- **Maintains notes** in a digital notepad for strategy and discoveries
-- **Builds a visual glossary** to document and remember interactive objects and map tiles
+Core capabilities:
+- **Vision & Game State Analysis:** Analyzes emulator video frames to assess game state, menus, and battles.
+- **Game Control:** Sends button inputs to control the emulator.
+- **Specialized Subagents:** Creates and configures task-specific subagents for tasks like pathfinding or puzzle solving.
+- **Code Execution & Sandbox:** Writes and executes Python scripts in an isolated sandbox environment.
+- **Notepads:** Maintains persistent notes for strategy, routing, and discoveries.
+
+---
 
 ## 📁 Repository Structure
 
 ```
-├── custom_agents.json    # AI agent definitions and configurations
-├── custom_tools.json     # Custom tool definitions and configurations
-├── map_markers.json      # Dynamic map markers placed by the AI
-├── notepad.md            # Aggregated notepad content (session notes and planning)
-├── notepads/             # Individual categorized notepad files
-├── visual_glossary.md    # Compiled visual glossary of documented tiles
-├── visual_glossary/      # Saved images for the visual glossary
-└── README.md             # This file
+├── custom_agents.json       # AI agent definitions and configurations
+├── custom_tools.json        # Custom tool definitions
+├── notepad.md               # Aggregated notepad content
+├── notepads/                # Individual categorized notepad files
+├── sandbox/                 # Files and scripts created by the AI in its workspace
+├── turn_state.ss0           # Emulator save state snapshot
+└── README.md                # This file
 ```
-
-## 🤖 AI Agents (`custom_agents.json`)
-
-This file contains all defined AI agents with their complete configurations:
-
-- **`agent_name`**: Unique identifier for the agent
-- **`agent_description`**: What the agent does and its purpose
-- **`agent_system_prompt`**: The agent's instructions and behavior definition
-- **`agent_input_schema`**: JSON schema defining expected input format
-- **`agent_output_schema`**: JSON schema defining expected output format
-- **`agent_can_run_code`**: Whether the agent can execute Python code
-
-## 🛠️ Custom Tools (`custom_tools.json`)
-
-This file contains all defined custom tools that extend the AI's capabilities:
-
-- **`tool_name`**: Unique name of the tool
-- **`tool_description`**: Purpose and functionality of the tool
-- **`tool_code`**: The underlying executed Python or JavaScript code
-- **`tool_schema`**: JSON schema defining expected input parameters
-
-## 📍 Map Markers (`map_markers.json`)
-
-Contains dynamic markers placed on the map by the AI to track points of interest. Includes coordinates, emojis, labels, and linkages to specific moving objects.
-
-## 🖼️ Visual Glossary (`visual_glossary.md`)
-
-A self-managed dictionary of game tiles and interactive objects.
-- AI dynamically crops, labels, and documents unknown tiles
-- Includes captured images and the AI's hypothesis about the tile's purpose
-
-## 📝 Notepads
-
-Contains the current session's notepad content, typically including:
-- Game strategy notes
-- Important discoveries and insights
-- Goal planning and progress tracking
-- Lessons learned and corrections
-- Area-specific tips and observations
-
-## 🌿 Branch Structure
-
-Each branch represents a different save file or session:
-- `main` - This documentation
-- `default` - Default save file tracking
-- *(etc. - branch names match save file names)*
-
-## 🔄 Automatic Updates
-
-This repository is automatically updated in real-time as Gemini plays:
-- **Agent/Tool Changes**: When Gemini creates, modifies, or deletes specialized agents or tools
-- **Notepad Updates**: When Gemini records discoveries or strategies
-- **Glossary/Marker Updates**: When Gemini documents new tiles or marks locations
-- **Turn-by-Turn History**: Each commit uses the format `Turn X` corresponding to Gemini's action counter
-
-## 🔧 Technical Details
-
-- **Generated by**: AI Player system
-- **Update frequency**: Every turn
 
 ---
 
-*This repository is automatically maintained by the AI system. Each commit represents a snapshot of the AI's learning and decision-making state at that point in time.*
+## 📊 Tracked Files
+
+- **`custom_agents.json`**: Definitions and prompt schemas for custom agents created by the AI.
+- **`custom_tools.json`**: Custom tool definitions created during a run.
+- **`notepad.md` / `notepads/`**: Strategy notes, route planning, discoveries, and observations.
+- **`sandbox/`**: Workspace files, scripts, images, and data generated by the AI.
+- **`turn_state.ss0`**: Emulator save state corresponding to the turn commit.
+
+---
+
+## 🌿 Branch Structure & Updates
+
+- **`main`**: Documentation and repository information.
+- **Run Branches**: Each playthrough pushes commits to a dedicated branch (e.g. `crystal_continuous_thinking`, `gemini_3_pro_vision_only_blue_v2`, `default`).
+- **Turn Commits**: Commits are made turn-by-turn with commit messages formatted as `Turn <number>`.
+
+---
+
+*This repository is automatically updated by the Gemini Plays Pokémon harness.*
