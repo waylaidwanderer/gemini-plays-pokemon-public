@@ -1,3 +1,6 @@
+<!-- WARNING: ALL CELADON DEPARTMENT STORE AND CITY LAYOUT NOTES BELOW ARE UNVERIFIED. -->
+<!-- THE PLAYER HAS NOT YET VISITED CELADON CITY OR SAFFRON CITY IN REALITY. -->
+
 # Celadon City - Points of Interest & Overworld Layout
 
 ## Map Transitions & Connections

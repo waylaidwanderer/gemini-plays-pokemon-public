@@ -4,6 +4,7 @@
 
 ## Active Objectives & Milestones
 - **Primary Goal:** Obtain the Marsh Badge from Saffron City Gym (Sabrina).
+- **Gym Badges Possessed:** 5 (Boulder, Cascade, Thunder, Rainbow, Soul).
 
 - **Last Gym Completed:** Defeated Gym Leader Koga in Fuchsia City Gym on Turn 20797 (Soul Badge).
 
@@ -507,6 +508,9 @@ Do not double-escape the backslashes inside normal python string literals unless
 <hr>
 
 <h1><code>Locations/CeladonCity</code></h1>
+
+<!-- WARNING: ALL CELADON DEPARTMENT STORE AND CITY LAYOUT NOTES BELOW ARE UNVERIFIED. -->
+<!-- THE PLAYER HAS NOT YET VISITED CELADON CITY OR SAFFRON CITY IN REALITY. -->
 
 # Celadon City - Points of Interest & Overworld Layout
 
@@ -1543,5 +1547,30 @@ The Route 15 Gatehouse physically divides the overworld of Fuchsia City (West) f
 ## Second Floor (2F)
 - **Stairs (To 1F East Room):** Located at `(6, 8)`. Walking onto this tile warps the player down to the 1F East Room landing at `(6, 8)`. Note that if you have just warped onto `(6, 8)`, you must walk off the tile (e.g., Left to `(5, 8)`) and then back onto it to trigger the warp again.
 - **Doormat/Exit (Fuchsia City Side):** Red-checkered doormat tiles are at `(7, 4)` and `(7, 5)` which connect back to the West Room of the gatehouse.
+
+<hr>
+
+<h1><code>Locations/Route18</code></h1>
+
+# Route 18 Gatehouse - Spatial Layout & Navigation Guide
+
+## Overview
+Route 18 Gatehouse physically divides Fuchsia City (East) from Route 18 Cycling Road (West) via a split-level layout.
+
+## First Floor (1F) - West Room
+- **West Doorway:** At Column 0. Connects to Route 18 overworld. Requires a Bicycle to exit (the warp is disabled/solid if you have no bicycle).
+- **Stairs to 2F:** Located at `(1, 1)`. Warps the player to 2F `(1, 1)` (automatic step down to `(1, 3)`).
+- **Walkable Corridor:** Rows 2-3 are blocked by solid counter at Column 4. Row 5 is completely open horizontally, but Column 0 is solid without a Bicycle.
+
+## First Floor (1F) - East Room
+- **East Doorway:** Connects to Fuchsia City overworld.
+- **Stairs to 2F:** Leads to 2F.
+
+## Second Floor (2F)
+- **Stairs (To 1F West Room):** Located at `(1, 1)`.
+- **Exit to 1F West Room:** Walk Down to `(1, 3)` or `(2, 3)` (red carpet) and walk DOWN to warp to 1F.
+- **Binoculars Stand:** Located at `(3, 0)`.
+- **NPC Dialogue:** A boy at `(10, 5)` says: "My sister is a trainer, believe it or not. But, she's so immature, she drives me nuts!"
+
 
 <hr>

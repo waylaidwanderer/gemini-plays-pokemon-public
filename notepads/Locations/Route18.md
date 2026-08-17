@@ -1,17 +1,19 @@
-# Route 18 Verified Location Records (Map 0_29)
-- **Cycling Road Traversal Transition**: Entered Route 18 from Route 17 (Map 0_28) on Turn 43190.
-- **Map Connections**:
-  - Seamless northern boundary connection to Route 17 (Map 0_28) on Row 0 (we entered at (6, 0)).
-- **Physical Landmarks & Obstacles**:
-  - The map features water boundaries on the left (Columns 0 to 5) of TYPE_4e8c.
-  - A central pathway of TYPE_3fe2 (light green grass/ground with dashed lines) running southwards.
-  - At columns 8-11, starting around Row 2, there are grassy fields with flowers.
-- **Gatehouse Connection (Map 0_190)**:
-  - Route 18 West is connected to Gatehouse at (33, 5). The West door in Gatehouse 1F is at (0, 5).
-  - Gatehouse 1F East Exit is at (7, 5), warping the player to (40, 9) on Route 18 East (Map 0_29).
-- **Route 18 East Features (Map 0_29)**:
-  - Main pathway of TYPE_3fe2 running eastwards from (40, 9).
-  - Tall grass (TYPE_fed7) located at Columns 36-41, Rows 12-13.
-  - **Trainers**:
-    - Bird Keeper at (38, 11) defeated on Turn 43274 using GEMMY (Blastoise) against Spearow Lv29 and Fearow Lv29.
-    - Bird Keeper at (42, 13) defeated on Turn 43314 using GEMMY (Blastoise) against Spearow Lv26, Spearow Lv26, Fearow Lv26.
+# Route 18 Gatehouse - Spatial Layout & Navigation Guide
+
+## Overview
+Route 18 Gatehouse physically divides Fuchsia City (East) from Route 18 Cycling Road (West) via a split-level layout.
+
+## First Floor (1F) - West Room
+- **West Doorway:** At Column 0. Connects to Route 18 overworld. Requires a Bicycle to exit (the warp is disabled/solid if you have no bicycle).
+- **Stairs to 2F:** Located at `(1, 1)`. Warps the player to 2F `(1, 1)` (automatic step down to `(1, 3)`).
+- **Walkable Corridor:** Rows 2-3 are blocked by solid counter at Column 4. Row 5 is completely open horizontally, but Column 0 is solid without a Bicycle.
+
+## First Floor (1F) - East Room
+- **East Doorway:** Connects to Fuchsia City overworld.
+- **Stairs to 2F:** Leads to 2F.
+
+## Second Floor (2F)
+- **Stairs (To 1F West Room):** Located at `(1, 1)`.
+- **Exit to 1F West Room:** Walk Down to `(1, 3)` or `(2, 3)` (red carpet) and walk DOWN to warp to 1F.
+- **Binoculars Stand:** Located at `(3, 0)`.
+- **NPC Dialogue:** A boy at `(10, 5)` says: "My sister is a trainer, believe it or not. But, she's so immature, she drives me nuts!"

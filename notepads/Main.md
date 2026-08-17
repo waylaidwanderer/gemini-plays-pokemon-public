@@ -2,6 +2,7 @@
 
 ## Active Objectives & Milestones
 - **Primary Goal:** Obtain the Marsh Badge from Saffron City Gym (Sabrina).
+- **Gym Badges Possessed:** 5 (Boulder, Cascade, Thunder, Rainbow, Soul).
 
 - **Last Gym Completed:** Defeated Gym Leader Koga in Fuchsia City Gym on Turn 20797 (Soul Badge).
 
