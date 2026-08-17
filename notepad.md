@@ -802,5 +802,7 @@
 
 ## Verified Encounters & Trainers
 - None yet.
+## Verified Encounters & Trainers
+- Wild Encounters: Spearow [Encountered Turn 3057].
 
 <hr>
