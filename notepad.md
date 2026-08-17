@@ -780,14 +780,14 @@
   - [ ] (7, 9)
   - [ ] (9, 9)
 - Row 11:
-  - [ ] (1, 11)
-  - [ ] (3, 11)
-  - [ ] (5, 11)
+  - [x] (1, 11) - Checked Turn 2408 from (2, 11) facing Left -> Empty ("Nope, there's only trash here.")
+  - [x] (3, 11) - Checked Turn 2407 from (4, 11) facing Left -> Empty ("Nope, there's only trash here.")
+  - [x] (5, 11) - Checked Turn 2406 from (6, 11) facing Left -> Empty ("Nope, there's only trash here.")
   - [x] (7, 11) - Checked Turn 2402 from (8, 11) facing Left -> Empty ("Nope, there's only trash here.")
   - [x] (9, 11) - Checked Turn 2400 from (8, 11) facing Right -> Empty ("Nope, there's only trash here.")
 
 ## Next Planned Checks:
-- Turn 2403: Inspect (5, 11) from (6, 11) facing Left.
+- Turn 2409: Inspect (1, 9) from (2, 9) facing Left.
 
 
 <hr>
