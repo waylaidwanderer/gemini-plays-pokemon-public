@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 2/8 (Boulder Badge, Cascade Badge)
-- Location: Vermilion Gym (x=4, y=11)
+- Location: Vermilion Gym (x=6, y=11)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -765,5 +765,16 @@
 ## Sweep Protocol
 - Check each can systematically.
 - As soon as Switch 1 triggers, immediately check adjacent cans (dist 2 in coords).
+
+## Sweep Trial Log
+- (3, 11): Trash (Turn 2665)
+- (3, 9): Trash (Turn 2666)
+- (1, 9): Trash (Turn 2667)
+- (1, 7): Trash (Turn 2668)
+- (3, 7): Trash (Turn 2669)
+- (5, 7): Trash (Turn 2674)
+- (5, 9): Trash (Turn 2675)
+- (5, 11): Trash (Turn 2676)
+- (7, 11): Checking (Turn 2678)
 
 <hr>
