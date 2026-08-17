@@ -1,103 +1,63 @@
 import mgba
 import time
 
-print("--- EXECUTING PERFECT PATH TO SAFARI ZONE CENTER VIA CUT ---")
+print("--- EXECUTING INTELLIGENT STEP-BY-STEP PATH TO SAFARI ZONE ---")
+
+# Complete path from (25, 26) to entering Gatehouse at (18, 3)
+path = []
+
+# 1. Walk LEFT 1 step to (24, 26)
+path += ["Left"]
+# 2. Walk UP 12 steps to (24, 14)
+path += ["Up"] * 12
+# 3. Walk RIGHT 11 steps to (35, 14)
+path += ["Right"] * 11
+# 4. Walk UP 5 steps to (35, 9)
+path += ["Up"] * 5
+# 5. Walk LEFT 17 steps to (18, 9)
+path += ["Left"] * 17
+# 6. Walk RIGHT 19 steps to Column 37 (Row 7 bypass)
+path += ["Right"] * 19
+# 7. Walk UP 7 steps to Row 2
+path += ["Up"] * 7
+# 8. Walk LEFT 15 steps to Column 22
+path += ["Left"] * 15
+# 9. Walk DOWN 2 steps to Row 4
+path += ["Down"] * 2
+# 10. Walk LEFT 4 steps to Column 18
+path += ["Left"] * 4
+# 11. Enter Gatehouse (UP 2 steps)
+path += ["Up"] * 2
 
 def get_pos():
     return mgba.get_coordinates()
 
-# Current position is (20, 16) in Fuchsia City facing LEFT
-# 1. Walk to (24, 16): RIGHT 4 steps
-print("Step 1: RIGHT 4 steps")
-for _ in range(4):
-    mgba.press_buttons(["Right"])
-    time.sleep(0.3)
+# Execute the path step-by-step
+step_idx = 0
+button_presses = 0
 
-# 2. Walk to (24, 21): DOWN 5 steps
-print("Step 2: DOWN 5 steps")
-for _ in range(5):
-    mgba.press_buttons(["Down"])
-    time.sleep(0.3)
-
-# 3. Walk to (26, 21): RIGHT 2 steps
-print("Step 3: RIGHT 2 steps")
-for _ in range(2):
-    mgba.press_buttons(["Right"])
-    time.sleep(0.3)
-
-# 4. Walk to (26, 14): UP 7 steps
-print("Step 4: UP 7 steps")
-for _ in range(7):
-    mgba.press_buttons(["Up"])
-    time.sleep(0.3)
-
-# Verify position at (26, 14) facing UP
-print("Position before CUT:", get_pos())
-
-# 5. Use CUT on the bush at (26, 13)
-print("Using CUT on the bush...")
-mgba.press_buttons(["Start", "sleep 500"])
-
-# Select POKEMON (second option)
-mgba.press_buttons(["Down", "sleep 100", "A", "sleep 600"])
-
-# Select TRUFFLE (first slot)
-mgba.press_buttons(["A", "sleep 500"])
-
-# Select CUT (second option in submenu: DIG, CUT, STATS, CANCEL)
-mgba.press_buttons(["Down", "sleep 100", "A", "sleep 3000"]) # wait for CUT animation
-
-# Clear dialogue box
-mgba.press_buttons(["A", "sleep 500"])
-
-# 6. Walk to (26, 9): UP 5 steps
-print("Step 6: UP 5 steps")
-for _ in range(5):
-    mgba.press_buttons(["Up"])
-    time.sleep(0.3)
-
-# 7. Walk to (18, 9): LEFT 8 steps
-print("Step 7: LEFT 8 steps")
-for _ in range(8):
-    mgba.press_buttons(["Left"])
-    time.sleep(0.3)
-
-# 8. Walk RIGHT to Column 37 (Row 7 bypass)
-print("Step 8: RIGHT 19 steps to Column 37")
-for _ in range(19):
-    mgba.press_buttons(["Right"])
-    time.sleep(0.3)
-
-# 9. Walk UP to Row 2
-print("Step 9: UP 7 steps to Row 2")
-for _ in range(7):
-    mgba.press_buttons(["Up"])
-    time.sleep(0.3)
-
-# 10. Walk LEFT to Column 22
-print("Step 10: LEFT 15 steps to Column 22")
-for _ in range(15):
-    mgba.press_buttons(["Left"])
-    time.sleep(0.3)
-
-# 11. Walk DOWN to Row 4
-print("Step 11: DOWN 2 steps to Row 4")
-for _ in range(2):
-    mgba.press_buttons(["Down"])
-    time.sleep(0.3)
-
-# 12. Walk LEFT to Column 18
-print("Step 12: LEFT 4 steps to Column 18")
-for _ in range(4):
-    mgba.press_buttons(["Left"])
-    time.sleep(0.3)
-
-# 13. Enter Gatehouse
-print("Step 13: UP 2 steps to enter Gatehouse")
-for _ in range(2):
-    mgba.press_buttons(["Up"])
+while step_idx < len(path):
+    if button_presses >= 95:
+        print("Approaching 100-button limit for single script execution. Stopping to save state.")
+        break
+        
+    dir = path[step_idx]
+    pos_before = get_pos()
+    
+    print(f"Step {step_idx+1}/{len(path)}: Pressing {dir}")
+    mgba.press_buttons([dir])
+    button_presses += 1
     time.sleep(0.4)
+    
+    pos_after = get_pos()
+    
+    # Check if we got blocked (e.g. by a moving NPC)
+    if pos_before == pos_after:
+        print(f"Blocked at {pos_before} when trying to go {dir}! Waiting and retrying...")
+        time.sleep(1.0) # Wait for NPC to move
+    else:
+        # Successfully moved! Advance to the next step
+        step_idx += 1
 
-time.sleep(1.5) # Wait for Gatehouse to load
-print("Position inside Gatehouse:", get_pos())
+print("Navigation paused or completed. Current Position:", get_pos())
 mgba.take_screenshot()
