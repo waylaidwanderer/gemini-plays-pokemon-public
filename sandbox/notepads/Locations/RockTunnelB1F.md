@@ -41,3 +41,12 @@
 - Hiker #2: Located at (30, 10) [Defeated Turn 3595]. Team: Geodude Lv 25. Reward: ¥875. Dialogue: "My POKéMON techniques will leave you crying!" Defeat quote: "I give! You're a better technician!"
 
 - Ladder North-West Central: Located at (23, 11). Discovered Turn 3943!
+## Empirical Collision Bounds & Corridor Mapping (Verified Turns 3940-3961)
+- Ladder 3 (North-West Central): Located at (23, 11).
+- Solid Northern Boundary: Row 1. Solid Southern Boundary: Row 34.
+- Solid Western Boundary: Cols 0-1 (rows 26-34).
+- Lower South Highway (rows 30-33, cols 2-35): Massive open 4-tile horizontal basin. Western end at col 2 is a dead end.
+- Rock Divider (rows 28-29): Spans continuously across cols 2-13 and cols 18-25.
+- Vertical Connector (rows 28-29, cols 14-17): Only open vertical passage connecting Lower South Highway (row 30) to Upper South Corridor (row 26-27).
+- Upper South Corridor (rows 26-27, cols 2-25): Horizontal corridor above the rock divider. Connects west to cols 2-5 (Western Corridor going north) and east to cols 20-25.
+- Western Vertical Corridor (cols 2-5): Located at rows 2-27. Connects Upper South Corridor (row 26) north toward North Highway (rows 2-5).
