@@ -113,6 +113,7 @@
 - [x] Defeat Rival RED on S.S. Anne 2F [Defeated Turn 2095]
 - [x] Obtain HM01 Cut from S.S. Anne Captain [Turn 2103]
 - [x] Defeat Gym Leader Lt. Surge in Vermilion Gym (Thunder Badge & TM24 Thunderbolt) [Defeated Turn 2897]
+- [x] Exchange Bike Voucher for Bicycle in Cerulean Bike Shop [Turn 2944]
 
 <hr>
 
