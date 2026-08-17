@@ -6,41 +6,26 @@ def press_and_wait(button, delay=0.25):
     time.sleep(delay)
 
 def go_to_underground():
-    print("Navigating west on Row 5 towards the Underground Path...")
-    # Current Position is (41, 6)
+    print("Navigating from (23, 12) to the Underground Path Entrance Building...")
     
-    # 1. Walk UP 1 step to Row 5
-    print("Step 1: Walking UP to Row 5...")
-    press_and_wait("Up", 0.25)
+    # 1. Walk LEFT 11 steps to Column 12
+    print("Step 1: Walking LEFT to Column 12...")
+    for _ in range(11):
+        press_and_wait("Left", 0.25)
+        
+    # 2. Walk UP 9 steps to Row 3 (the doorway)
+    print("Step 2: Walking UP towards the door at (12, 3)...")
+    for _ in range(9):
+        press_and_wait("Up", 0.25)
+        
+    # 3. Take 1 more step UP to enter the building!
+    print("Step 3: Entering the building...")
+    press_and_wait("Up", 1.0)
     
-    # 2. Walk LEFT to Column 12
-    print("Step 2: Walking LEFT towards Column 12...")
-    while True:
-        pos = mgba.get_coordinates()
-        if not pos:
-            print("Failed to get coordinates, stopping.")
-            break
-        x, y = pos['x'], pos['y']
-        print(f"Current Position: {x}, {y}")
-        
-        # Stop at Column 12
-        if x <= 12:
-            print("Reached Column 12! Stopping to enter the building.")
-            break
-            
-        # Try to walk Left
-        mgba.press_buttons(["Left"])
-        time.sleep(0.4)
-        
-        new_pos = mgba.get_coordinates()
-        if not new_pos:
-            print("Failed to get coordinates, stopping.")
-            break
-        new_x, new_y = new_pos['x'], new_pos['y']
-        
-        if new_x == x and new_y == y:
-            print(f"Movement failed at ({x}, {y}). Might be blocked by an NPC or obstacle.")
-            mgba.take_screenshot()
-            break
+    # Check new position
+    pos = mgba.get_coordinates()
+    if pos:
+        print(f"New position: {pos['x']}, {pos['y']}")
+    mgba.take_screenshot()
 
 go_to_underground()
