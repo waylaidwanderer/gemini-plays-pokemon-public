@@ -25,3 +25,4 @@
 - (7, 7): Trash (Turn 2681)
 - (9, 7): Checking (Turn 2683)
 - (9, 7): Trash (Turn 2683)
+- (9, 9): Trash (Turn 2684)
