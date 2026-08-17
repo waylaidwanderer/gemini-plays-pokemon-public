@@ -5,22 +5,16 @@ def press_and_wait(button, delay=0.25):
     mgba.press_buttons([button])
     time.sleep(delay)
 
-def bypass_and_walk_west():
-    print("Bypassing the Biker at (46, 13)...")
-    # Current Position is (47, 13)
+def go_to_underground():
+    print("Navigating west on Row 5 towards the Underground Path...")
+    # Current Position is (41, 6)
     
-    # 1. Walk UP to Row 12
+    # 1. Walk UP 1 step to Row 5
+    print("Step 1: Walking UP to Row 5...")
     press_and_wait("Up", 0.25)
     
-    # 2. Walk LEFT 3 steps to Column 44
-    for _ in range(3):
-        press_and_wait("Left", 0.25)
-        
-    # 3. Walk DOWN 1 step to Row 13
-    press_and_wait("Down", 0.25)
-    
-    # 4. Resume walking west until Column 5
-    print("Resuming west-bound path...")
+    # 2. Walk LEFT to Column 12
+    print("Step 2: Walking LEFT towards Column 12...")
     while True:
         pos = mgba.get_coordinates()
         if not pos:
@@ -29,8 +23,9 @@ def bypass_and_walk_west():
         x, y = pos['x'], pos['y']
         print(f"Current Position: {x}, {y}")
         
-        if x <= 5:
-            print("Reached Column 5! Stopping at the Saffron Gatehouse.")
+        # Stop at Column 12
+        if x <= 12:
+            print("Reached Column 12! Stopping to enter the building.")
             break
             
         # Try to walk Left
@@ -44,8 +39,8 @@ def bypass_and_walk_west():
         new_x, new_y = new_pos['x'], new_pos['y']
         
         if new_x == x and new_y == y:
-            print(f"Movement failed at ({x}, {y}). Might be blocked by another obstacle.")
+            print(f"Movement failed at ({x}, {y}). Might be blocked by an NPC or obstacle.")
             mgba.take_screenshot()
             break
 
-bypass_and_walk_west()
+go_to_underground()
