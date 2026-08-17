@@ -26,8 +26,8 @@
 5. Southern Corridor (rows 16-17):
    - Horizontal corridor spanning rows 16-17 connecting Ladder 1 vertical passage (cols 16-17) all the way east to Ladder 2 at (37, 17) [Verified Turn 3253, Turn 3304, Turn 3316].
 6. Western Corridor & Unexplored Section (cols 0-14):
-   - Cols 10-11 is an open vertical passage spanning rows 6-11 [Verified Turn 3283].
-   - Western half (cols 0-12) contains the unexplored passages leading into the rest of the mountain.
+   - Cols 12-13 form the solid outer western collision wall of the Entrance Chamber [Verified Turns 3290, 3354, 3449].
+   - Cols 10-11 visually observed to have dark floor tiles at rows 6-11 from a distance (un-stepped).
 
 ## Verified Trainers & Encounters
 - Wild Pokémon: Geodude (Lv 16-17), Zubat (Lv 15-18), Onix (Lv 13) [Verified].
