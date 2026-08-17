@@ -34,8 +34,8 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. TERRA (Geodude) - Lv 17
-   - Stats (Verified at Lv 17): Max HP 45 (HP: 45/45), Attack 37, Defense 41, Speed 17, Special 16
+1. TERRA (Geodude) - Lv 18
+   - Stats (Verified at Lv 18): Attack 39, Defense 43, Speed 18, Special 17
    - Type: Rock / Ground
    - Moves: Tackle, Defense Curl, Dig, Rock Throw [Verified Turn 2897]
    - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist (Active Lead)
@@ -71,7 +71,6 @@
   - 1x Ether (Restores 10 PP to one move)
   - 1x Moon Stone (Evolution item found in Mt. Moon 1F)
   - 1x Rare Candy (Found at 35, 31 in Mt. Moon 1F)
-
 
 <hr>
 
