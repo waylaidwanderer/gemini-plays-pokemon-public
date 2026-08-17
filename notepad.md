@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Rock Tunnel 1F (x=10, y=7)
+- Location: Rock Tunnel 1F (x=16, y=11)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -74,7 +74,7 @@
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
 ## Inventory & Resources (Verified Turn 3708)
-- Money: ¥9044 (Post-blackout balance)
+- Money: �9709 (Post-battle balance)
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge
 - Key Items: Bicycle, Town Map, Helix Fossil, S.S. Ticket
 - TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM24 (Thunderbolt), TM34 (Bide), TM44 (Rest)
@@ -642,7 +642,7 @@
 ## Buildings & Points of Interest
 - Pok�mon Center: Located at cols 10-13, rows 0-3 with entrance door at (11, 3).
 - Pok�mart: Located at cols 22-25, rows 10-13 with entrance door at (23, 13).
-  - Catalog: Pok� Ball (�200), Super Potion (�700), Ice Heal (�250), Awakening (�200), Parlyz Heal (�200), Repel (�350).
+  - Catalog: Pok� Ball (��200), Super Potion (��700), Ice Heal (��250), Awakening (��200), Parlyz Heal (��200), Repel (��350).
 - Pok�mon Fan Club: Located at cols 8-11, rows 10-13 with entrance door at (9, 13).
   - Chairman rewarded player with BIKE VOUCHER [Obtained Turn 1902].
 - Trade House: Located at cols 14-17, rows 10-13 with entrance door at (15, 13). Trader NPC at (3, 5) offers in-game trade: SPEAROW for FARFETCH'D (DUXX).
@@ -859,8 +859,9 @@
 - Trainer #4: Located at (23, 11) in Upper East Alcove.
 
 ## Navigation Route to Progression (Ladder 3)
-- West half of 1F (cols 2-23) is completely explored and fully mapped.
-- To reach the Southern Sector (NPC at 22, 24) and Ladder 3, navigate to the North Corridor (cols 15-37) and explore the Eastern Sector (cols 24-37).- Hiker at (8, 6) facing Left [Defeated Turn 4036]. Team: Geodude Lv 19, Machop Lv 19, Geodude Lv 19. Reward: �665. Dialogue: 'This tunnel goes a long way, kid!' Defeat quote: 'Doh! You win!'
+- West half of 1F (cols 2-23) partially explored via central corridors.
+- To reach the Southern Sector (NPC at 22, 24) and Ladder 3, navigate to the North Corridor (cols 15-37) and explore the Eastern Sector (cols 24-37).
+- Hiker at (8, 6) facing Left [Defeated Turn 4036]. Team: Geodude Lv 19, Machop Lv 19, Geodude Lv 19. Reward: ��665. Dialogue: 'This tunnel goes a long way, kid!' Defeat quote: 'Doh! You win!'
 
 
 <hr>
