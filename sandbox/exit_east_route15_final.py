@@ -2,26 +2,42 @@ import mgba
 import time
 
 def run():
-    print("--- STEP-BY-STEP GATEHOUSE EAST EXIT ---")
+    print("--- CORRECT GATEHOUSE EAST EXIT SCRIPT ---")
     pos = mgba.get_coordinates()
-    print("Start position on 2F:", pos)
+    print("Current position on 2F:", pos)
     
-    # 1. Step Right to (7, 8) to trigger warp down to 1F
+    # 1. Walk to the stairs at (6, 8) on the 2F
+    # Currently at (7, 4)
+    print("Walking to column 5...")
+    mgba.press_buttons(["Left", "sleep 300", "Left"])
+    time.sleep(0.5)
+    
+    print("Walking Down to Row 8...")
+    for _ in range(4):
+        mgba.press_buttons(["Down"])
+        time.sleep(0.3)
+        
     print("Stepping onto stairs (Right)...")
     mgba.press_buttons(["Right"])
     time.sleep(1.8) # Wait for transition to complete
     
-    print("Position after warp:", mgba.get_coordinates())
+    print("Position after warp (should be 7, 7 on 1F):", mgba.get_coordinates())
     
-    # 2. Walk UP 2 steps to (7, 5) (the exit doormat)
-    print("Walking UP 2 steps to exit doormat...")
-    mgba.press_buttons(["Up", "sleep 300", "Up"])
-    time.sleep(1.0)
-    print("Position on 1F exit doormat:", mgba.get_coordinates())
+    # 2. Walk off the warp tile to the Left
+    print("Walking Left to (6, 7)...")
+    mgba.press_buttons(["Left"])
+    time.sleep(0.4)
+    print("Position:", mgba.get_coordinates())
     
-    # 3. Walk RIGHT 2 steps to transition to Route 15 overworld
-    print("Walking RIGHT 2 steps to transition...")
-    mgba.press_buttons(["Right", "sleep 400", "Right"])
+    # 3. Walk Down 2 steps to Row 9
+    print("Walking Down 2 steps to Row 9...")
+    mgba.press_buttons(["Down", "sleep 300", "Down"])
+    time.sleep(0.5)
+    print("Position:", mgba.get_coordinates())
+    
+    # 4. Walk Right 3 steps to exit to Route 15 overworld
+    print("Walking Right to transition...")
+    mgba.press_buttons(["Right", "sleep 400", "Right", "sleep 400", "Right"])
     time.sleep(2.0) # Wait for overworld map transition
     
     print("Final position:", mgba.get_coordinates())
