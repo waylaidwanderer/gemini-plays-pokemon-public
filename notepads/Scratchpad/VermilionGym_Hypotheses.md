@@ -3,7 +3,7 @@
 ## Sweep Run #3 (Active):
 - Row 7:
   - [x] (1, 7) - Checked Turn 2480 from (2, 7) facing Left -> Empty
-  - [ ] (3, 7)
+  - [x] (3, 7) - Checked Turn 2481 from (2, 7) facing Right -> Empty
   - [ ] (5, 7)
   - [ ] (7, 7)
   - [ ] (9, 7)
@@ -21,4 +21,4 @@
   - [ ] (9, 11)
 
 ## Next Action:
-- Turn 2481: Inspect (3, 7) from (2, 7) facing Right.
+- Turn 2482: Inspect (1, 9) from (2, 9) facing Left.
