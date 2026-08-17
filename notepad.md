@@ -821,6 +821,23 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 - **Bird Keeper:** Standing at `(6, 49)` (challenged on Turn 20058). Defeated on Turn 20076. Roster: Spearow Lv 29, Fearow Lv 29. Prize money: ¥725.
 - **Route 15 Connection Turn:** Transition to Route 15 occurred on Turn 20078.
 
+## Verified Nested Slalom Maze Gaps (Verified Turn 42964)
+Traversing Route 14 from south to north requires navigating a series of nested log fences that create a slalom maze. The walkable gaps in these horizontal barriers are:
+1. **Row 11 Fence:** The ONLY gap is at `(13, 11)` (which was previously thought to be a one-way ledge, but is fully walkable UP and DOWN).
+2. **Row 9 Fence:** The ONLY gap is at `(6, 9)` and `(7, 9)` (open grass).
+3. **Row 5 Fence:** The ONLY gap is at `(4, 5)` and `(5, 5)` (open grass).
+4. **Row 7 Fence:** The ONLY gap is at `(14, 7)` and `(15, 7)`.
+
+### Step-by-Step Slalom Routing (Northbound from Row 16 to Row 4)
+1. From `(14, 16)`, walk left to `(13, 16)`.
+2. Walk UP through the Row 11 gap at `(13, 11)` to `(13, 10)`.
+3. Walk LEFT to columns 6-7 (e.g., `(7, 10)`).
+4. Walk UP through the Row 9 gap at `(7, 9)` to Row 8 (e.g., `(7, 8)`).
+5. Walk RIGHT to Column 14 (e.g., `(14, 8)`).
+6. Walk UP through the Row 7 gap at `(14, 7)` to Row 6 (e.g., `(14, 6)`).
+7. Walk LEFT to columns 4-5 (e.g., `(5, 6)`).
+8. Walk UP through the Row 5 gap at `(5, 5)` to Row 4 (`(5, 4)`).
+9. Walk RIGHT along the Row 4 corridor to transition into Route 13 at `(19, 4)`!
 
 <hr>
 
