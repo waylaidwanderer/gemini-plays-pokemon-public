@@ -14,7 +14,7 @@
 3. HYDROS (Wartortle) - Lv 35
    - Stats (Verified at Lv 35): Max HP 100 (HP: 10/100), Attack 60, Defense 68, Speed 62, Special 65
    - Type: Water
-   - Moves: Tackle (30/35), Tail Whip (29/30), Bite (21/25), Bubblebeam (8/20) [Verified Turn 3516]
+   - Moves: Tackle (30/35), Tail Whip (29/30), Bite (21/25), Bubblebeam (6/20) [Verified Turn 3516]
    - Role: Starter & primary Water special attacker (Active Lead)
 4. SPROUT (Bellsprout) - Lv 13
    - Type: Grass / Poison
@@ -34,7 +34,7 @@
 - Every captured Pokémon will receive a thoughtful, unique nickname.
 
 ## Inventory & Resources (Verified Turn 3445)
-- Money: ¥15779
+- Money: ¥16514
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge
 - Key Items: Bicycle, Town Map, Helix Fossil, S.S. Ticket
 - TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM24 (Thunderbolt), TM34 (Bide), TM44 (Rest)
