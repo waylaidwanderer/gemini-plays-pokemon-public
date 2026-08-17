@@ -2,10 +2,10 @@
 
 ## Active Party
 1. TERRA (Geodude) - Lv 21
-   - Stats (Verified at Lv 21): Max HP 54 (HP: 22/54, Status: OK), Attack 45, Defense 50, Speed 20, Special 19 [Verified Turn 3293]
+   - Stats (Verified at Lv 21): Max HP 54 (HP: 0/54, Status: FNT), Attack 45, Defense 50, Speed 20, Special 19 [Verified Turn 3295]
    - Type: Rock / Ground
    - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw [Verified Turn 3249]
-   - Role: Physical Rock/Ground tank & Normal/Flying/Electric/Poison resist (Active Lead)
+   - Role: Physical Rock/Ground tank (Fainted)
 2. ECHO (Zubat) - Lv 8
    - Stats (Verified at Lv 8): Max HP 26 (HP: 26/26)
    - Type: Poison / Flying
