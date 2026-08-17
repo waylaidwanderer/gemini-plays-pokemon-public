@@ -1,19 +1,19 @@
 <h1><code>Main</code></h1>
 
-# Pok�mon Blue - Main Dashboard
+# Pokémon Blue - Main Dashboard
 
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Rock Tunnel B1F (x=33, y=25)
+- Location: Rock Tunnel 1F (x=2, y=12)
 
 ## Notepads Index
-- `Team`: Current Pok�mon party, movesets, stats, nicknames, inventory
+- `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
 - `Quests`: Story progression and side tasks
 - `Locations/PalletTown`: Points of interest, NPC dialogues, items
 - `Locations/Route1`: Route 1 layout, points of interest, wild encounters
 - `Locations/ViridianCity`: Viridian City buildings, Mart catalog, Old Man
-- `Locations/PewterCity`: Pewter City points of interest, Pok�mon Center, Pewter Gym
+- `Locations/PewterCity`: Pewter City points of interest, Pokémon Center, Pewter Gym
 - `Locations/Route3`: Route 3 layout, trainers, wild encounters
 - `Locations/MtMoon1F`: Mt. Moon 1F layout, items, wild encounters, trainers
 - `Locations/MtMoonB1F`: Mt. Moon B1F layout, ladders, wild encounters
@@ -25,10 +25,10 @@
 - `Locations/BillsHouse`: Bill's Sea Cottage layout, Cell Separator machine, Bill interactions
 - `Locations/Route5`: Route 5 layout, Daycare, Underground Path entrance
 - `Locations/Route6`: Route 6 layout, Underground Path exit, trainers, path to Vermilion City
-- `Locations/VermilionCity`: Vermilion City layout, Pok�mon Center, Mart, Fan Club, Gym, Port, S.S. Anne
+- `Locations/VermilionCity`: Vermilion City layout, Pokémon Center, Mart, Fan Club, Gym, Port, S.S. Anne
 - `Locations/VermilionGym`: Vermilion Gym layout, trash can puzzle solution, Lt. Surge battle
 - `Locations/Route9`: Route 9 layout, trainers, Cut trees, wild encounters
-- `Locations/Route10`: Route 10 layout, Pok�mon Center, Jr. Trainer Carol battle
+- `Locations/Route10`: Route 10 layout, Pokémon Center, Jr. Trainer Carol battle
 - `Locations/RockTunnel1F`: Rock Tunnel 1F layout, ladders, trainers, wild encounters
 - `Locations/RockTunnelB1F`: Rock Tunnel B1F layout, ladders, trainers, wild encounters
 
@@ -39,10 +39,10 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. HYDROS (Blastoise) - Lv 36
-   - Stats (Verified at Lv 36): Max HP 103 (HP: 88/103), Attack 63, Defense 72, Speed 66, Special 69 [Verified Turn 3769]
+1. HYDROS (Blastoise) - Lv 37
+   - Stats (Verified at Lv 36): Max HP 121 (HP: 53/121), Attack 80, Defense 90, Speed 83, Special 86 [Verified Turn 3836]
    - Type: Water
-   - Moves: Tackle (31/35), Tail Whip (30/30), Bite (25/25), Bubblebeam (17/20)
+   - Moves: Tackle (1/35), Tail Whip (30/30), Bite (25/25), Bubblebeam (5/20)
    - Role: Starter & primary Water special attacker (Active Lead)
 2. ECHO (Zubat) - Lv 8
    - Stats (Verified at Lv 8): Max HP 26 (HP: 26/26)
@@ -71,21 +71,22 @@
    - Role: Physical Rock/Ground tank
 
 ## Planned Nicknaming Strategy
-- Every captured Pokmon will receive a thoughtful, unique nickname.
+- Every captured Pokémon will receive a thoughtful, unique nickname.
 
 ## Inventory & Resources (Verified Turn 3708)
-- Money: 9044 (Post-blackout balance)
+- Money: ¥9044 (Post-blackout balance)
 - Badges: Boulder Badge, Cascade Badge, Thunder Badge
 - Key Items: Bicycle, Town Map, Helix Fossil, S.S. Ticket
 - TMs / HMs: HM01 (Cut), TM08 (Body Slam), TM24 (Thunderbolt), TM34 (Bide), TM44 (Rest)
 - Valuables:
-  - 1x Nugget (Nugget Bridge completion prize - sellable for 5000)
+  - 1x Nugget (Nugget Bridge completion prize - sellable for ¥5000)
 - Consumables:
-  - 0x Pok Ball
+  - 0x Poké Ball
   - 0x Great Ball
   - 1x Ether (Restores 10 PP to one move)
   - 1x Moon Stone (Evolution item found in Mt. Moon 1F)
   - 1x Rare Candy (Found at 35, 31 in Mt. Moon 1F)
+
 
 <hr>
 
@@ -827,47 +828,30 @@
 
 # Rock Tunnel 1F - Points of Interest & Topology
 
-## Connections & Warps
-- Route 10 North Entrance/Exit: Located at (15, 3) on Western 1F. Connects to Route 10 North at (8, 18) [Verified Turn 3120, Turn 3232].
-- Route 10 South Exit: Leads to Route 10 South and Lavender Town (located along southern corridor).
-- Ladders:
-  - Eastern Ladder to B1F (Ladder 1): Located at (37, 3) at northern end of eastern corridor [Verified Turn 3459].
-  - Western Ladder from B1F (Ladder 2): Located at (5, 3) on western corridor. Connects down to B1F at (27, 3) [Verified Turn 3523].
+## Verified Connections & Warps
+- North Entrance: Connects to Route 10 (North) at (15, 3).
+- Ladder 1 (North-East): Located at (37, 3). Connects down to Rock Tunnel B1F at (33, 25).
+- Ladder 2 (North-West): Located at (5, 3). Connects down to Rock Tunnel B1F at (27, 3).
 
-## Empirical Layout & Topology (Verified Turns 3120-3752)
-1. Entrance Chamber & Western Thoroughfare: Located around (14..17, 3..7).
-   - North-west vertical pocket at (13, 0..4) is bordered by solid outer rock walls at row -1 and col 12.
-   - Open thoroughfare across rows 2-5 (cols 14-23) connects east to column 23, but is separated from Eastern 1F (cols 26-37) by an unbroken vertical rock pillar at cols 24-25 (rows 10-12).
-2. North-East Chamber (rows 4-7, cols 23-31):
-   - Open room across cols 23-31 (rows 4-7).
-   - East boundary has a 2x4 rock pillar at cols 32-33 (rows 4-7).
-   - South boundary has a solid horizontal rock wall at rows 8-9 across cols 24-33.
-   - Pok�Maniac trainer stands at (23, 8) blocking column 23. Southern passage to Upper Highway (rows 10-13) is via columns 20-22!
-3. Upper Highway (rows 10-13, cols 20-37):
-   - Open horizontal corridor spanning rows 10-13 from col 20 to col 37.
-   - Row 13 spans continuously under the central pillar from col 20 to col 37!
-   - East boundary wall is at col 38.
-   - Eastern vertical corridor (cols 34-37, rows 2-13) leads directly to Ladder 1 at (37, 3).
-4. Central Divider & Corridors (cols 14-19):
-   - Solid rock divider at rows 8-9 across cols 14-19.
-   - Horizontal corridor along row 11 connects central vertical corridor (cols 14-17) east to (23, 11).
-   - Vertical corridor (cols 14-17, rows 10-16) connects south to the Southern Thoroughfare (bypassing Hiker at 17, 15 via col 16).
-5. Southern Thoroughfare (rows 16-21, cols 2-21):
-   - Wide open horizontal thoroughfare across rows 16-21 connecting western sector to central passage.
-   - Solid southern boundary wall at rows 22-23 across cols 0-21.
-6. Western Corridor (rows 2-17, cols 2-10):
-   - Emerges from B1F ladder at (5, 3).
-   - Solid rock wall at rows 0-1 and cols 8-10 (rows 0-5).
-   - Rows 6-9 form a wide open 4-tile high corridor spanning cols 2-10.
-   - Rock formation at cols 6-7 (rows 10-17) forms a central divider.
-   - Western highway spans cols 2-5 continuously through rows 12-17 heading straight south into Southern Thoroughfare.
+## Verified Corridors & Landmarks
+1. North Entrance Corridor (rows 2-5, cols 15-37):
+   - East-west passage connecting entrance (15, 3) to Ladder 1 at (37, 3).
+2. Western Corridor (rows 3-15, cols 4-6):
+   - Vertical passage running south from Ladder 2 (5, 3) down to row 15.
+3. Middle Corridor (row 15, cols 5-12):
+   - East-west passage connecting western corridor across row 15 past (10, 15) and (11, 15) to (12, 15).
+4. Upper East Alcove (rows 10-13, cols 18-23):
+   - Corridor extending east from col 18 to col 23.
+   - Trainer located at (23, 11).
 
 ## Verified Trainers & Encounters
-- Wild Pok�mon: Geodude (Lv 16-17), Zubat (Lv 15-18), Onix (Lv 13), Machop (Lv 15) [Verified].
-- Pok�Maniac: Located at (23, 8) facing West [Defeated Turn 3148]. Team: Cubone Lv 23, Slowpoke Lv 23. Reward: �1150.
-- Hiker #2: Located at (17, 15) [Defeated Turn 3546]. Team: Geodude Lv 21, Graveler Lv 21. Reward: �735. Dialogue: "Outsiders like you need to show me some respect!" Defeat quote: "I give!"
-- Hiker #3: Located at (5, 15) [Defeated Turn 3654]. Team: Onix Lv 20, Geodude Lv 20. Reward: �700. Dialogue: "That sleeping POK�MON on ROUTE..."
+- PokéManiac Ashton: Located at (23, 8) facing North [Defeated Turn 3145]. Team: Cubone Lv 23, Slowpoke Lv 23. Reward: ¥1150.
+- Hiker #1: Located at (5, 15) [Defeated Turn 3654]. Team: Onix Lv 20, Geodude Lv 20. Reward: ¥700.
+- Jr. Trainer ♀ #1: Located at (10, 15) [Defeated Turn 3879]. Team: Jigglypuff Lv 21, Pidgey Lv 21, Meowth Lv 21. Reward: ¥420. Dialogue: "Hikers leave twigs as trail markers."
+- Trainer #4: Located at (23, 11) in Upper East Alcove.
 
+## Pending Verification
+- Path from (12, 15) / (17, 14) to the southern sectors of 1F requires systematic step-by-step probing.
 
 <hr>
 
