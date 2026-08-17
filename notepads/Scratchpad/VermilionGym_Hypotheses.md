@@ -15,7 +15,7 @@
   - [x] (9, 7) - Checked Turn 2463 from (8, 7) facing Right -> Empty
 - Row 9:
   - [x] (1, 9) - Checked Turn 2474 from (2, 9) facing Left -> Empty
-  - [ ] (3, 9)
+  - [x] (3, 9) - Checked Turn 2475 from (2, 9) facing Right -> Empty
   - [x] (5, 9) - Checked Turn 2470 from (6, 9) facing Left -> Empty
   - [x] (7, 9) - Checked Turn 2465 from (8, 9) facing Left -> Empty
   - [x] (9, 9) - Checked Turn 2466 from (8, 9) facing Right -> Empty
@@ -27,7 +27,7 @@
   - [x] (9, 11) - Checked Turn 2467 from (8, 11) facing Right -> Empty
 
 ## Current Deduction:
-- 12/15 cans checked empty. Remaining 3 candidates: (3, 9), (1, 11), (3, 11).
+- Rows 7 and 9 are 100% empty (13/15 checked). Switch 1 is strictly at either (1, 11) or (3, 11).
 
 ## Next Action:
-- Turn 2475: Inspect (3, 9) from (2, 9) facing Right.
+- Turn 2476: Inspect (1, 11) from (2, 11) facing Left.
