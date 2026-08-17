@@ -783,5 +783,6 @@
 - (9, 7): Trash (Turn 2683)
 - (9, 9): Trash (Turn 2684)
 - (9, 11): Trash (Turn 2685)
+- (9, 7): Trash (Turn 2698)
 
 <hr>
