@@ -5,25 +5,34 @@ def press_and_wait(button, delay=0.25):
     mgba.press_buttons([button])
     time.sleep(delay)
 
-def go_to_route8_final():
-    print("Currently at (0, 14) on foot.")
-    
-    # 1. Walk UP to Row 8
-    # Since we are at y=14, walking UP 6 steps gets us to y=8.
-    print("Step 1: Walking UP to Row 8...")
-    for _ in range(6):
-        press_and_wait("Up", 0.25)
+def walk_west_route8():
+    print("Walking west along Route 8...")
+    while True:
+        pos = mgba.get_coordinates()
+        if not pos:
+            print("Failed to get coordinates, stopping.")
+            break
+        x, y = pos['x'], pos['y']
+        print(f"Current Position: {x}, {y}")
         
-    # 2. Walk LEFT to transition to Route 8
-    print("Step 2: Walking LEFT into Route 8...")
-    # 5 steps Left should trigger the transition to Route 8 (59, 8)
-    for _ in range(5):
-        press_and_wait("Left", 0.25)
+        # Saffron Gatehouse is at the far west (around column 2-5)
+        if x <= 5:
+            print("Reached Saffron Gatehouse area! Stopping.")
+            break
+            
+        # Let's try to walk Left
+        mgba.press_buttons(["Left"])
+        time.sleep(0.4) # Wait for movement or battle trigger
         
-    # Verify new position
-    pos = mgba.get_coordinates()
-    if pos:
-        print(f"New position: {pos['x']}, {pos['y']}")
-    mgba.take_screenshot()
+        new_pos = mgba.get_coordinates()
+        if not new_pos:
+            print("Failed to get coordinates after move, stopping.")
+            break
+        new_x, new_y = new_pos['x'], new_pos['y']
+        
+        if new_x == x and new_y == y:
+            print(f"Movement failed at ({x}, {y}). Might be blocked or in battle.")
+            mgba.take_screenshot()
+            break
 
-go_to_route8_final()
+walk_west_route8()
