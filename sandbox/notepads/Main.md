@@ -1,31 +1,29 @@
-# Pok�mon Blue - Main Dashboard
+# Pokémon Blue - Adventure High-Level Index & Status
 
-## Current Status
-- Player: BLUE
-- Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Rock Tunnel B1F (x=33, y=25)
+## Active Objectives & Milestones
+- **Primary Goal:** Clear Silph Co. HQ to unblock Viridian City Gym so we can challenge Giovanni for the final badge.
+- **Gym Badges Possessed:** 7 (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano).
+- **Saffron City Gates:** Permanently unlocked (gave Fresh Water to Saffron West Gatehouse guard on Turn 43820).
+- **Saffron City Gates & Gym:** Permanently unlocked and cleared! Sabrina is defeated and Marsh Badge is possessed.
 
-## Notepads Index
-- `Team`: Current Pok�mon party, movesets, stats, nicknames, inventory
-- `Quests`: Story progression and side tasks
-- `Locations/PalletTown`: Points of interest, NPC dialogues, items
-- `Locations/Route1`: Route 1 layout, points of interest, wild encounters
-- `Locations/ViridianCity`: Viridian City buildings, Mart catalog, Old Man
-- `Locations/PewterCity`: Pewter City points of interest, Pok�mon Center, Pewter Gym
-- `Locations/Route3`: Route 3 layout, trainers, wild encounters
-- `Locations/MtMoon1F`: Mt. Moon 1F layout, items, wild encounters, trainers
-- `Locations/MtMoonB1F`: Mt. Moon B1F layout, ladders, wild encounters
-- `Locations/MtMoonB2F`: Mt. Moon B2F layout, Rocket Grunts, items, wild encounters
-- `Locations/Route4`: Route 4 layout, ledges, wild encounters
-- `Locations/CeruleanCity`: Cerulean City layout, Gym, Mart, Bike Shop, NPCs
-- `Locations/Route24`: Route 24 layout, Nugget Bridge, Rival battle, trainers
-- `Locations/Route25`: Route 25 layout, trainers, Bill interactions
-- `Locations/BillsHouse`: Bill's Sea Cottage layout, Cell Separator machine, Bill interactions
-- `Locations/Route5`: Route 5 layout, Daycare, Underground Path entrance
-- `Locations/Route6`: Route 6 layout, Underground Path exit, trainers, path to Vermilion City
-- `Locations/VermilionCity`: Vermilion City layout, Pok�mon Center, Mart, Fan Club, Gym, Port, S.S. Anne
-- `Locations/VermilionGym`: Vermilion Gym layout, trash can puzzle solution, Lt. Surge battle
-- `Locations/Route9`: Route 9 layout, trainers, Cut trees, wild encounters
-- `Locations/Route10`: Route 10 layout, Pok�mon Center, Jr. Trainer Carol battle
-- `Locations/RockTunnel1F`: Rock Tunnel 1F layout, ladders, trainers, wild encounters
-- `Locations/RockTunnelB1F`: Rock Tunnel B1F layout, ladders, trainers, wild encounters
+
+## Notepads Directory
+### 🌍 Locations & Overworld Mapping
+- `Locations/PalletTown_And_Route1` - Pallet Town, Professor Oak's Lab, Daisy's House.
+- `Locations/ViridianCity` - Viridian City, Pokémon Center, Poké Mart.
+- `Locations/PewterCity` - Pewter City, Gym Leader Brock.
+- `Locations/CeruleanCity` - Cerulean City, Gym Leader Misty, Burgled House.
+- `Locations/VermilionCity` - Vermilion City, Gym Leader Lt. Surge, S.S. Anne.
+- `Locations/LavenderTown` - Lavender Town, Mr. Fuji's House.
+- `Locations/CeladonCity` - Celadon City, Rocket Hideout, Gym Leader Erika.
+- `Locations/FuchsiaCity` - Fuchsia City, Gym, Safari Zone, Warden's House.
+- `Locations/FuchsiaGym` - Fuchsia Gym Invisible Wall Maze, remaining trainers.
+- Routes: `Route2`, `Route3`, `Route4`, `Route5`, `Route6`, `Route7`, `Route8`, `Route9`, `Route10`, `Route12`, `Route13`, `Route14`, `Route15`.
+
+### ⚔️ Progression, Battle, & Mechanics
+- `Progression_And_Party_Stats` - Current Party (SHELLBY Lv 55), Badges, Key Items, Inventory.
+- `Mechanics/UI_And_Border_Rendering` - Tile graphics, coordinate overlays.
+- `Mechanics/Search_Scripting_Pitfalls` - Tips for robust scripting and tool usage.
+
+## Current Party Status (Blastoise Solo Runner)
+- **SHELLBY** (Blastoise) - Level 55, healthy. Movepool: BITE, ICE BEAM, SURF, STRENGTH.
