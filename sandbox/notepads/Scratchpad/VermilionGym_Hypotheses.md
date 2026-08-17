@@ -22,10 +22,13 @@
   - [ ] (9, 9)
 - Row 11:
   - [x] (1, 11) - Checked Turn 2428 from (2, 11) facing Left -> Empty ("Nope, there's only trash here.")
-  - [ ] (3, 11)
+  - [x] (3, 11) - Checked Turn 2429 from (2, 11) facing Right -> Empty ("Nope, there's only trash here.")
   - [ ] (5, 11)
   - [ ] (7, 11)
   - [ ] (9, 11)
 
+## Current Deduction:
+- Columns 1 and 3 are 100% empty on this seed (6/15 checked). Switch 1 is in Columns 5, 7, or 9.
+
 ## Next Action:
-- Turn 2429: Inspect (3, 11) from (2, 11) facing Right.
+- Turn 2430: Inspect (5, 11) from (4, 11) facing Right.
