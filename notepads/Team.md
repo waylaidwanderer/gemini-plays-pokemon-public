@@ -7,10 +7,10 @@
    - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw [Verified Turn 3249]
    - Role: Physical Rock/Ground tank (Fainted)
 2. ECHO (Zubat) - Lv 8
-   - Stats (Verified at Lv 8): Max HP 26 (HP: 26/26)
+   - Stats (Verified at Lv 8): Max HP 26 (HP: 0/26, Status: FNT) [Verified Turn 3298]
    - Type: Poison / Flying
    - Moves: Leech Life (15/15), Supersonic (20/20)
-   - Role: Fast Flying/Poison utility & Grass counter
+   - Role: Fast Flying/Poison utility (Fainted)
 3. HYDROS (Wartortle) - Lv 34
    - Stats (Verified at Lv 34): Max HP 97 (HP: 70/97), Attack 60, Defense 68, Speed 62, Special 65
    - Type: Water
