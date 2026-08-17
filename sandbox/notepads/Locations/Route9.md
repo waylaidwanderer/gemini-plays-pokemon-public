@@ -18,7 +18,7 @@
 - Tall grass patches at rows 8-9, rows 11-12, rows 14-15, and cols 52-53.
 - Jr. Trainer Female (Alicia): Located at (13, 10) facing Up [Defeated Turn 2988]. Team: Bellsprout Lv 18, Oddish Lv 18, Bellsprout Lv 18. Reward: ¥360. Dialogue: "You have POKéMON with you! You're mine!" Defeat quote: "You deceived me!"
 - Hiker Jeremy: Located at (16, 15) in the southwestern grass area below the ledge [Defeated Turn 3006]. Team: Machop Lv 20, Onix Lv 20. Reward: ¥700. Dialogue: "Great! I was bored, eh!" Defeat quote: "You sure had guts standing up to me there, eh?"
-- Bug Catcher Conner: Located at (40, 8) facing Down/Right [Battle Started Turn 3039]. Dialogue: "Go, my super bug POKéMON!"
+- Bug Catcher Conner: Located at (40, 8) [Defeated Turn 3044]. Team: Caterpie Lv 20, Weedle Lv 20, Venonat Lv 20. Reward: ¥190. Dialogue: "Go, my super bug POKéMON!"
 - Trainer #4: Located at (45, 15) in the eastern lower corridor facing Left.
 
 - Eastern Ascent at (29, 13): Connects the eastern lower lawn (row 14) directly up to the main highway (row 12) [Discovered and Verified Turn 3037].
