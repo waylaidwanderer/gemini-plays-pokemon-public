@@ -43,7 +43,7 @@
 1. HYDROS (Wartortle) - Lv 35
    - Stats (Verified at Lv 35): Max HP 100 (HP: 100/100), Attack 61, Defense 70, Speed 64, Special 67 [Verified Turn 3731]
    - Type: Water
-   - Moves: Tackle (35/35), Tail Whip (30/30), Bite (25/25), Bubblebeam (20/20)
+   - Moves: Tackle (35/35), Tail Whip (30/30), Bite (25/25), Bubblebeam (19/20)
    - Role: Starter & primary Water special attacker (Active Lead)
 2. ECHO (Zubat) - Lv 8
    - Stats (Verified at Lv 8): Max HP 26 (HP: 26/26)
@@ -87,7 +87,6 @@
   - 1x Ether (Restores 10 PP to one move)
   - 1x Moon Stone (Evolution item found in Mt. Moon 1F)
   - 1x Rare Candy (Found at 35, 31 in Mt. Moon 1F)
-
 
 <hr>
 
@@ -844,7 +843,7 @@
    - Open room across cols 23-31 (rows 4-7).
    - East boundary has a 2x4 rock pillar at cols 32-33 (rows 4-7).
    - South boundary has a solid horizontal rock wall at rows 8-9 across cols 24-33.
-   - Connects south to row 13 ONLY via column 23!
+   - Pok�Maniac trainer stands at (23, 8) blocking column 23. Southern passage to Upper Highway (rows 10-13) is via columns 20-22!
 3. Upper Highway (rows 10-13, cols 20-37):
    - Open horizontal corridor spanning rows 10-13 from col 20 to col 37.
    - Row 13 spans continuously under the central pillar from col 20 to col 37!
