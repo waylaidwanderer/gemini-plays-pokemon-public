@@ -8,8 +8,9 @@ Use these exact indices in all menu-based macro scripts to ensure correct move s
 - ICE BEAM
 - SURF (HM03)
 - STRENGTH (HM04)
-
-## Saffron City Access & Inventory Status (Updated Turn 43891)
-- **Saffron City Access:** Permanently unlocked on Turn 43820 by giving Fresh Water to the West Gatehouse Guard.
-- **Saffron Pokémon Center:** Unlocked as a Fly waypoint on Turn 43875.
-- **Vending Machine Drinks:** Fresh Water and Soda Pop are no longer in our inventory (the Fresh Water was consumed by the Saffron West Gatehouse guard, and no other drinks are in our bag).
+## Badge Status & Gym Clearances (Updated Turn 43982)
+- **Gym Badges Possessed:** 7 (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano).
+- **Marsh Badge (Saffron Gym):** Already acquired! Sabrina is defeated. Saffron Gym is fully cleared.
+- **Volcano Badge (Cinnabar Gym):** Already acquired! Blaine is defeated. Cinnabar Gym is fully cleared.
+- **Remaining Badge:** 1 (Earth Badge - Giovanni at Viridian Gym).
+- **Silph Co. HQ Goal:** Clear Silph Co. to unlock the Viridian City Gym so we can challenge Giovanni for the final badge.
