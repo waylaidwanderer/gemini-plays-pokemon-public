@@ -1,21 +1,21 @@
 # Current Party & Team Strategy
 
 ## Active Party
-1. HYDROS (Blastoise) - Lv 37
-   - Stats (Verified at Lv 36): Max HP 121 (HP: 5/121), Attack 80, Defense 90, Speed 83, Special 86 [Verified Turn 3836]
-   - Type: Water
-   - Moves: Tackle (1/35), Tail Whip (28/30), Bite (21/25), Bubblebeam (0/20)
-   - Role: Starter & primary Water special attacker (Active Lead)
+1. TERRA (Geodude) - Lv 21
+   - Stats (Verified at Lv 21): Max HP 54 (HP: 52/54), Attack 45, Defense 50, Speed 20, Special 19
+   - Type: Rock / Ground
+   - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
+   - Role: Physical Rock/Ground tank (Active Lead)
 2. ECHO (Zubat) - Lv 8
    - Stats (Verified at Lv 8): Max HP 26 (HP: 26/26)
    - Type: Poison / Flying
    - Moves: Leech Life (15/15), Supersonic (20/20)
    - Role: Fast Flying/Poison utility
-3. TERRA (Geodude) - Lv 21
-   - Stats (Verified at Lv 21): Max HP 54 (HP: 52/54), Attack 45, Defense 50, Speed 20, Special 19
-   - Type: Rock / Ground
-   - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
-   - Role: Physical Rock/Ground tank
+3. HYDROS (Blastoise) - Lv 37
+   - Stats (Verified at Lv 36): Max HP 121 (HP: 5/121), Attack 80, Defense 90, Speed 83, Special 86 [Verified Turn 3836]
+   - Type: Water
+   - Moves: Tackle (1/35), Tail Whip (28/30), Bite (21/25), Bubblebeam (0/20)
+   - Role: Starter & primary Water special attacker (Reserve)
 4. SPROUT (Bellsprout) - Lv 15
    - Stats (Verified at Lv 15): Max HP 42 (HP: 42/42), Attack 27, Defense 15, Speed 16, Special 28
    - Type: Grass / Poison
