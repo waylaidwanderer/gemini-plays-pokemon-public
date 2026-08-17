@@ -803,6 +803,6 @@
 ## Verified Encounters & Trainers
 - Wild Encounters: Spearow [Encountered Turn 3057].
 
-- Trainer: Located at (7, 25) on the western paved road leading to Rock Tunnel.
+- Jr. Trainer ♀ Carol: Located at (7, 25) [Defeated Turn 3072]. Team: Pikachu Lv 20, Clefairy Lv 20. Reward: ¥400.
 
 <hr>
