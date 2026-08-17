@@ -785,6 +785,23 @@ Because of numerous water blocks and obstacles (such as the defeated Fisherman B
 - **Off-Screen Tree Respawning:** CUT-able trees (such as the one at `(34, 4)`) regenerate automatically when they are scrolled off-screen. Plan routing with tree respawns in mind.
 - **Biker:** Standing at `(10, 7)` (challenged from `(10, 6)` on Turn 19988). Defeated on Turn 20011.
 
+## Verified Maze Path & Gaps (Verified Turn 42969)
+Traversing Route 13 from west to east requires navigating around several solid log fence blocks and NPCs:
+1. **West Entrance:** Enter at `(0, 4)` from Route 14 `(19, 4)` on the Row 4 corridor.
+2. **First Slalom Bypass (Columns 11-13):**
+   - Row 4 is blocked at Column 12 by the defeated Beauty NPC at `(12, 4)`.
+   - Row 5 has log fences from Column 5 to Column 11.
+   - To bypass: Walk LEFT to `(10, 4)`. Walk DOWN to `(10, 5)` (open grass!). Walk RIGHT 3 steps to `(13, 5)` (open grass!). Walk UP to `(13, 4)` (paved path). This completely bypasses the Beauty NPC at `(12, 4)`.
+3. **Second Slalom Bypass (Columns 17-26):**
+   - Row 4 is blocked at Column 26 `(26, 4)` by a log fence.
+   - Bypassing requires: Walk DOWN from `(25, 4)` to `(25, 6)`. Walk LEFT 8 steps along Row 6 (which is completely open) to Column 17 `(17, 6)`. Walk DOWN 2 steps through the Row 7 Column 17 gap `(17, 7)` to Row 8 Column 17 `(17, 8)`. Walk RIGHT 10 steps along Row 8 (completely open) to Column 27 `(27, 8)`. This completely bypasses the Column 26 fence!
+4. **Third Slalom Bypass (Columns 27-36):**
+   - From `(27, 8)`, walk LEFT to `(26, 8)`. Walk DOWN 2 steps to Row 10 `(26, 10)` (Row 10 is completely open horizontally).
+   - Walk RIGHT along Row 10 all the way to `(36, 10)` onto the wooden dock.
+5. **Northeast Wooden Highway (Columns 36-51):**
+   - Row 10 is blocked at Column 48 by the defeated Piknicker and Bird Keeper.
+   - To bypass: Walk DOWN 1 step to Row 11 `(47, 11)` (Row 11 is completely open wooden dock). Walk RIGHT 4 steps to Column 51 `(51, 11)`. Walk UP 11 steps along Column 51 to `(51, 0)` on the northeast corner of Route 13, which transitions directly UP into Route 12 at `(11, 107)`.
+
 <hr>
 
 <h1><code>Locations/Route14</code></h1>
