@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 2/8 (Boulder Badge, Cascade Badge)
-- Location: Vermilion Gym (x=8, y=7)
+- Location: Vermilion Gym (x=8, y=9)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -784,5 +784,6 @@
 - (9, 9): Trash (Turn 2684)
 - (9, 11): Trash (Turn 2685)
 - (9, 7): Trash (Turn 2698)
+- (9, 9): Trash (Turn 2699)
 
 <hr>
