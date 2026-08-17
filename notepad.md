@@ -739,8 +739,7 @@
 ## Puzzle Mechanism
 - 15 Trash Cans in a 5x3 grid across rows 7, 9, 11 (columns 1, 3, 5, 7, 9).
 - Two sequential switches hidden under trash cans.
-- Switch 1 opens 1st lock; Switch 2 is in an adjacent can in the grid.
-- Puzzle Mechanics: Two hidden switches in 15 trash cans. Switch 1 is randomly placed each map reload. Switch 2 is in an immediately adjacent trash can (North/South/East/West). If wrong can is checked, switches reset.
+- Switch 1 opens 1st lock; Switch 2 is in an adjacent can in the grid. If wrong can is checked, switches reset.
 
 ## Gym Trainers Defeated
 1. Sailor at (2, 10) - Defeated Turn 2199 (Pikachu Lv 21, Pikachu Lv 21, �630)
@@ -755,18 +754,38 @@
 
 <h1><code>Scratchpad/VermilionGym_Hypotheses</code></h1>
 
-# Vermilion Gym - Trash Can Mechanics & Strategy
+# Vermilion Gym - Trash Can Switch Matrix & Empirical Trial Log
 
-## Verified Mechanics (Retail Pokémon Blue)
-1. **Switch 1**: Whenever an incorrect trash can is checked, Switch 1 is re-randomized to a random can (1/15 chance per check).
-2. **Switch 2**: Once Switch 1 is activated, Switch 2 is randomly placed in one of the cardinal adjacent trash cans (North, South, East, West).
-3. **Reset**: If a non-Switch-2 can is checked after Switch 1 is activated, the locks reset and Switch 1 re-randomizes.
+## Objective
+Find Switch 1 and immediately check its adjacent neighbor for Switch 2 to unlock the motorized doors.
 
-## Rapid Loop Strategy
-- Stand at (8, 7) between trash cans (7, 7) and (9, 7).
-- Alternate checking (7, 7) [facing Left] and (9, 7) [facing Right] until Switch 1 activates.
-- Once Switch 1 activates:
-  - If Switch 1 is at (7, 7): Immediately check neighbors: (5, 7) [West], (7, 9) [South], (9, 7) [East].
-  - If Switch 1 is at (9, 7): Immediately check neighbors: (7, 7) [West], (9, 9) [South].
+## Trial Log - Sweep Run #4 (Single-Step Verified Checks)
+- Method: For each can, verify position in front of can, face direction of can, press A, inspect screen text.
+
+### Can Checklist:
+- Col 1:
+  - (1, 7): [ ]
+  - (1, 9): [ ]
+  - (1, 11): [ ]
+- Col 3:
+  - (3, 7): [ ]
+  - (3, 9): [ ]
+  - (3, 11): [ ]
+- Col 5:
+  - (5, 7): [ ]
+  - (5, 9): [ ]
+  - (5, 11): [ ]
+- Col 7:
+  - (7, 7): [ ]
+  - (7, 9): [ ]
+  - (7, 11): [ ]
+- Col 9:
+  - (9, 7): [ ]
+  - (9, 9): [ ]
+  - (9, 11): [ ]
+
+## Immediate Action:
+- Start from (1, 7) at (2, 7) facing Left.
+
 
 <hr>
