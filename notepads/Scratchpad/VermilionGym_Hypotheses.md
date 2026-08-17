@@ -16,12 +16,12 @@
 - Row 11:
   - [x] (1, 11) - Checked Turn 2484 from (2, 11) facing Left -> Empty
   - [x] (3, 11) - Checked Turn 2486 from (2, 11) facing Right -> Empty
-  - [ ] (5, 11)
+  - [x] (5, 11) - Checked Turn 2487 from (4, 11) facing Right -> Empty
   - [ ] (7, 11)
   - [ ] (9, 11)
 
 ## Current Deduction:
-- Columns 1 and 3 are 100% empty on Run #3 (6/15 checked). Switch 1 is in Columns 5, 7, or 9.
+- 7/15 cans checked empty. Remaining 8 candidates in Cols 5, 7, 9.
 
 ## Next Action:
-- Turn 2487: Inspect (5, 11) from (4, 11) facing Right.
+- Turn 2488: Inspect (5, 9) from (4, 9) facing Right.
