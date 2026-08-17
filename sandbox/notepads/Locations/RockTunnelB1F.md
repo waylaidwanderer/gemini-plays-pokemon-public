@@ -10,4 +10,4 @@
 ## Verified Trainers & Encounters
 - Wild Pokémon: TBD.
 - Southern Bypass: Row 30 is an open horizontal corridor spanning cols 24-33, connecting the Eastern Chamber around the cols 26-27 rock divider into the central/western sector at cols 24-25 [Verified Turn 3467].
-- Trainer at (26, 31): Initiated Turn 3470. Pre-battle: "I draw POKéMON when I'm home."
+- PokéManiac at (26, 31): Defeated Turn 3474. Team: Slowpoke Lv 25. Pre-battle: "I draw POKéMON when I'm home." Defeat quote: "Whew! I'm exhausted!"

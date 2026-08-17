@@ -50,7 +50,7 @@
    - Moves: Leech Life (15/15), Supersonic (20/20)
    - Role: Fast Flying/Poison utility (Fainted)
 3. HYDROS (Wartortle) - Lv 34
-   - Stats (Verified at Lv 34): Max HP 97 (HP: 39/97), Attack 60, Defense 68, Speed 62, Special 65
+   - Stats (Verified at Lv 34): Max HP 97 (HP: 29/97), Attack 60, Defense 68, Speed 62, Special 65
    - Type: Water
    - Moves: Tackle (30/35), Tail Whip (27/30), Bite (22/25), Bubblebeam (17/20) [Verified Turn 3148]
    - Role: Starter & primary Water special attacker (Active Lead)
@@ -873,6 +873,6 @@
 ## Verified Trainers & Encounters
 - Wild Pokémon: TBD.
 - Southern Bypass: Row 30 is an open horizontal corridor spanning cols 24-33, connecting the Eastern Chamber around the cols 26-27 rock divider into the central/western sector at cols 24-25 [Verified Turn 3467].
-- Trainer at (26, 31): Initiated Turn 3470. Pre-battle: "I draw POKéMON when I'm home."
+- PokéManiac at (26, 31): Defeated Turn 3474. Team: Slowpoke Lv 25. Pre-battle: "I draw POKéMON when I'm home." Defeat quote: "Whew! I'm exhausted!"
 
 <hr>
