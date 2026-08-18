@@ -917,6 +917,9 @@
 - Vertical Connector (rows 28-29, cols 14-17): Only open vertical passage connecting Lower South Highway (row 30) to Upper South Corridor (row 26-27).
 - Upper South Corridor (rows 26-27, cols 2-25): Horizontal corridor above the rock divider. Connects west to cols 2-5 and east to cols 20-25.
 
+## Corrected Barrier Topology (Verified Turn 4244)
+- Central Rock Divider (cols 24-25): Solid continuous vertical rock barrier from row 0 down to row 15.
+- The Western corridor (cols 20-23) containing Ladder 3 at (23, 11) connects to the Eastern sector (cols 26-37) ONLY via the southern bypass along row 16 (cols 20-33) through vertical chute at col 33.
 
 <hr>
 
