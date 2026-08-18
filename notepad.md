@@ -828,46 +828,33 @@
 - South Exit: Located at (37, 17). Connects out to Route 10 South (Lavender Town side) [Discovered Turn 4517].
 - Ladder 1 (North-East): Located at (37, 3). Connects down to Rock Tunnel B1F at (33, 25).
 - Ladder 2 (North-West): Located at (3, 3). Connects down to Rock Tunnel B1F at (37, 17) [Verified Turn 4921 & 5082].
-- Ladder 4 (North-Central): Located at (27, 3). Connects down to Rock Tunnel B1F at (5, 3) [Verified Turn 4364].
+- Ladder 4 (North-Central / East of Divider): Located at (27, 3). Connects down to Rock Tunnel B1F at (5, 3) [Verified Turn 4364].
+- Intra-Floor Warp: (17, 11) <-> (23, 11). Two-way tunnel connecting western pocket to central pocket on 1F [Verified Turn 5154].
 
 ## Verified Corridors & Collision Bounds
-1. North Entrance Corridor (rows 2-7, cols 15-31):
-   - East-west passage running from entrance (15, 3) east to Ladder 4 (27, 3) and Ladder 1 (37, 3).
-   - Solid western rock wall at cols 10-13 separates north entrance from western corridor.
-2. Western Upper Corridor (rows 3-15, cols 4-5):
-   - Vertical passage running south from Ladder 2 (5, 3) down to (5, 15).
-3. Middle Highway (row 14, cols 2-17):
-   - Continuous horizontal highway connecting col 2 through col 17.
-4. Western Lower Corridor (col 2, rows 12-21):
-   - Continuous vertical corridor along west map border.
-5. Central Vertical Thoroughfare (cols 8-11, rows 14-21):
-   - 4-tile wide vertical passage connecting row 14 down to row 21.
-6. South-Central Highway (row 21, cols 2-21):
-   - Continuous horizontal corridor from col 2 to col 21.
-7. Eastern Thoroughfare & South Exit Path:
-   - From row 21 (col 24), passage goes north to row 17 (col 24), then east along row 17 straight into the South Exit at (37, 17)!
-8. Central-East Pocket (rows 8-13, cols 20-27):
-   - Pocket south of PokéManiac Ashton (23, 8). Bounded south at row 14 and west at col 19.
+1. North Entrance Corridor (rows 2-7, cols 15-23):
+   - East-west passage running from entrance (15, 3) east to column 23.
+   - Solid vertical rock wall at cols 24-25 (rows 1-14) divides western/central sector from eastern sector.
+2. Western Corridor (cols 2-5, rows 2-13):
+   - Continuous vertical passage south from Ladder 2 at (3, 3) down to row 13.
+3. Crossway (rows 10-13, cols 6-11):
+   - Connects western corridor (col 5) eastward to central vertical thoroughfare (col 8-11).
+4. Central Vertical Thoroughfare (cols 8-11, rows 9-21):
+   - 4-tile wide vertical passage connecting crossway (row 12) down to row 21.
+5. Middle Thoroughfare (rows 14-16, cols 8-16):
+   - Wide open horizontal thoroughfare connecting col 8 across to col 16.
+6. South-Central Thoroughfare (rows 16-25, cols 14-28):
+   - Column 16 connects row 16 south down to row 21 and row 24-25.
+   - Rows 24-25 form a wide horizontal highway across cols 14-28.
+7. Eastern Exit Thoroughfare (col 24, rows 17-25 & row 17, cols 24-37):
+   - From row 21/24 (col 24), vertical corridor goes north to row 17.
+   - Row 17 runs east across cols 24-37 directly into the South Exit at (37, 17)!
 
 ## Verified Trainers & Encounters
-- PokéManiac Ashton: Located at (23, 8) facing North [Defeated Turn 3145]. Team: Cubone Lv 23, Slowpoke Lv 23. Reward: ¥1150.
-- Hiker #1: Located at (5, 15) [Defeated Turn 3654]. Team: Onix Lv 20, Geodude Lv 20. Reward: ¥700.
-- Jr. Trainer Female #1: Located at (10, 15) [Defeated Turn 3879]. Team: Jigglypuff Lv 21, Pidgey Lv 21, Meowth Lv 21. Reward: ¥420.
-- Hiker #2: Located at (6, 10) facing Down [Defeated Turn 4163]. Team: Geodude Lv 21, Geodude Lv 21, Graveler Lv 21. Reward: ¥735.
-## Empirical Collision Bounds & Topology (Verified Turns 5082-5130)
-- Solid Vertical Rock Wall: Columns 24-25 span continuously from row 1 to row 14, dividing the western/central sectors from the eastern sector.
-- Solid Horizontal Rock Walls:
-  - Rows 14-15 across cols 20-28 (separates central pocket from lower highway).
-  - Rows 8-9 across cols 20-23 (separates row 7 from row 10 at col 20-23).
-  - Rows 22-23 across cols 2-7 and cols 12-13.
-- Ladders:
-  - Ladder 1 (North-East): Located at (37, 3). Connects to B1F (33, 25).
-  - Ladder 2 (North-West): Located at (3, 3). Connects to B1F (37, 17) [Verified Turn 4921 & 5082].
-  - Ladder 3 (Central-Pocket): Located at (23, 11). Connects down to B1F central sector.
-  - Ladder 4 (East of Divider): Located at (27, 3). Connects down to B1F (5, 3) [Verified Turn 4364].
-- Connecting Passages:
-  - Western Vertical Passage (cols 16-17, rows 7-13): Connects row 7 upper highway to row 13 central pocket.
-  - Row 13 Horizontal Passage (cols 16-23): Connects western passage to Ladder at (23, 11).
+- Pok�Maniac Ashton: Located at (23, 8) facing North [Defeated Turn 3145]. Team: Cubone Lv 23, Slowpoke Lv 23. Reward: �1150.
+- Hiker #1: Located at (5, 15) [Defeated Turn 3654]. Team: Onix Lv 20, Geodude Lv 20. Reward: �700.
+- Jr. Trainer Female #1: Located at (10, 15) [Defeated Turn 3879]. Team: Jigglypuff Lv 21, Pidgey Lv 21, Meowth Lv 21. Reward: �420.
+- Hiker #2: Located at (6, 10) facing Down [Defeated Turn 4163]. Team: Geodude Lv 21, Geodude Lv 21, Graveler Lv 21. Reward: �735.
 
 
 <hr>
@@ -936,14 +923,16 @@
 
 # Scratchpad - Rock Tunnel 1F Traversal to South Exit
 
-## Active Route from Current Position (23, 5)
-1. From (23, 5), move Left x7 along row 5/7 to column 16 at (16, 7).
-2. Move Down x6 along column 16 to row 13 at (16, 13).
-3. Move Right x7 along row 13 to column 23 at (23, 13).
-4. Move Up x2 to Ladder at (23, 11) and descend to B1F.
-5. On B1F, take the connecting corridor to ascend Ladder 4 at (5, 3) -> 1F (27, 3).
-6. From 1F (27, 3) on the east side of the divider, walk south down columns 26-37 straight to South Exit at (37, 17)!
-7. Exit to Route 10 South and proceed south into Lavender Town to heal at Pok�mon Center.
+## Active Route from Current Position (22, 11)
+1. Conclude/escape wild Zubat battle.
+2. From (22, 11), move Left x2 to (20, 11), then Down x2 to (20, 13).
+3. Move Left x4 to (16, 13).
+4. Move Down x3 to (16, 16).
+5. Move Down x8 along col 16 to row 24 at (16, 24).
+6. Move Right x8 along open row 24/25 highway to col 24 at (24, 24).
+7. Move North up col 24 to row 17 at (24, 17).
+8. Move Right x13 along row 17 straight into South Exit at (37, 17)!
+9. Exit to Route 10 South and proceed south into Lavender Town to heal at Pok�mon Center.
 
 
 <hr>
