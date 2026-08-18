@@ -24,10 +24,11 @@
    - Cols 14-17 (rows 18-21) form a dead-end pocket blocked by solid rock wall at rows 22-23.
    - Central Vertical Thoroughfare (cols 8-11) dead-ends at row 28 south boundary.
    - Vertical rock wall at cols 12-13 and cols 24-25 prevents direct horizontal passage to eastern sector on 1F.
-7. Eastern Exit Sector (cols 24-37, rows 1-17):
+7. Eastern Sector (cols 26-37, rows 1-13):
    - Separated from western/central sector by impassable rock wall at cols 24-25.
-   - Accessed via the B1F ladder route.
-   - South Exit at (37, 17) connects directly out to Route 10 South / Lavender Town.
+   - Rows 14-15 form an impassable solid rock wall across cols 20-37.
+   - Ladder 1 at (37, 3) connects to B1F (33, 25).
+   - Ladder 4 at (27, 3) connects to B1F (5, 3).
 
 ## Verified Trainers & Encounters
 - Pok�Maniac Ashton: Located at (23, 8) facing North [Defeated Turn 3145]. Team: Cubone Lv 23, Slowpoke Lv 23. Reward: �¥1150.
