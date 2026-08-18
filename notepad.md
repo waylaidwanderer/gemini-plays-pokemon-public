@@ -179,6 +179,24 @@ Do not double-escape the backslashes inside normal python string literals unless
 
 <h1><code>Locations/Route2</code></h1>
 
+# Route 2 - Overworld Mapping & Navigation
+
+## Map Connections & Overworld Transitions
+- **Diglett's Cave Entrance Building:**
+  - Located on the eastern strip of Route 2.
+  - Entrance door is at `(12, 9)` on Route 2 overworld.
+  - Entering the building and taking the doormat at `(3, 7)` exits south back to Route 2 overworld at `(12, 10)`.
+  - Standing on the ladder inside at `(4, 4)` warps the player back down to Diglett's Cave main tunnel at `(5, 5)`.
+
+## Eastern Strip Landmarks & Barriers (Verified Turn 45504 - 45512)
+- **South Ledge Barrier (Row 15):**
+  - A horizontal grey brick fence on Row 15 stretches across Columns 8-13, completely blocking direct south passage on those columns.
+  - **Bypass Route:** Walk right from `(12, 14)` to Column 14/15 on Row 14 (into the open green grass area), then walk south past the fence line to Row 16.
+- **Route 2 Gatehouse (Connecting Eastern Strip to Western Main Route 2):**
+  - Located south of the Diglett's Cave building.
+  - Roof spans Rows 17-18, Columns 14-17.
+  - The front door of the gatehouse is at `(15, 19)`, facing SOUTH.
+  - **Access Path to Gatehouse Door:** Walk right from `(15, 16)` on the grass to the paved path on Column 18, walk DOWN along Column 18 to Row 20, then walk LEFT along Row 20 to Column 15, and walk UP 1 step into the door at `(15, 19)`.
 
 
 <hr>
@@ -1833,5 +1851,42 @@ Route 16 Gatehouse physically divides Celadon City (East) from Route 16 Cycling 
   - A wide vertical corridor running north-south on Columns 20-25.
   - Connects to Corridor 1 at `(23, 31)`.
   - Open to the north (Row 27 and above).
+
+<hr>
+
+<h1><code>Locations/DiglettsCave</code></h1>
+
+# Diglett's Cave - Tunnel Mapping & Traversal
+
+## Map Connections & Warps
+- **South Entrance Room:**
+  - South Cave Hole on Route 11 is at `(4, 5)`. Walking into `(4, 5)` warps the player inside the cave at `(2, 7)`.
+  - The doormat at `(2, 7)` and `(3, 7)` inside the cave exits south back to Route 11 at `(4, 6)`.
+  - The ladder at `(4, 4)` in the entrance room warps the player down to the main tunnel map at `(37, 31)`.
+- **Main Tunnel Map (Map ID 59):**
+  - South Ladder is at `(37, 31)`. Standing on `(37, 31)` warps the player back up to the entrance room at `(4, 4)`.
+  - North Ladder is at `(5, 5)`. Standing on `(5, 5)` warps the player back up to the Route 2 entrance room at `(4, 4)`.
+
+## Winding Path & Coordinate Boundaries (Verified Turn 45474 - 45502)
+- **Chamber 1 (South-East, Rows 30-33, Columns 33-37):**
+  - A small 5x4 chamber containing the south ladder at `(37, 31)`.
+  - Completely enclosed except for a horizontal exit corridor on Row 31.
+- **Corridor 1 (Horizontal, Row 31):**
+  - Runs horizontally from `(37, 31)` left to Column 20.
+- **Corridor 2 (Vertical, Columns 20-25):**
+  - Connects to Corridor 1 at `(23, 31)`. Runs north from Row 31 up to Row 27.
+- **Corridor 3 (Horizontal/Winding, Row 27-29):**
+  - Runs left from Column 20 to Column 12 along Rows 27-29.
+- **Corridor 4 (Vertical, Columns 11-13):**
+  - Runs UP from Row 29 to Row 18.
+- **Corridor 5 (Horizontal, Row 18-19):**
+  - Runs left from Column 12 to Column 9.
+- **Corridor 6 (Vertical, Columns 8-10):**
+  - Runs UP from Row 18 to Row 14.
+- **Corridor 7 (Horizontal, Row 14-17):**
+  - Runs left from Column 9 to Column 5.
+- **Corridor 8 (Vertical, Columns 4-5):**
+  - Runs UP from Row 14 to the northern exit ladder at `(5, 5)`.
+
 
 <hr>
