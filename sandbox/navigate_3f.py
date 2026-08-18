@@ -13,14 +13,13 @@ def walk_to(target_x, target_y):
         dx = target_x - curr_x
         dy = target_y - curr_y
         
-        if dx < 0:
-            btn = "Left"
-        elif dx > 0:
-            btn = "Right"
-        elif dy < 0:
-            btn = "Up"
-        elif dy > 0:
-            btn = "Down"
+        # Decide direction based on targeting one axis at a time
+        # If we are not aligned on X, move X first. If we are not aligned on Y, move Y.
+        # But wait, to be safe, we will just prioritize the axis with non-zero difference.
+        if dx != 0:
+            btn = "Left" if dx < 0 else "Right"
+        elif dy != 0:
+            btn = "Up" if dy < 0 else "Down"
         else:
             break
             
@@ -29,12 +28,13 @@ def walk_to(target_x, target_y):
         
         new_pos = mgba.get_coordinates()
         if new_pos['x'] == curr_x and new_pos['y'] == curr_y:
-            print(f"Failed to move {btn} from ({curr_x}, {curr_y}). Aborting.")
+            print(f"Collision detected! Failed to move {btn} from ({curr_x}, {curr_y}). Aborting.")
             break
 
-print("Starting navigation on Saffron Silph Co. 3F...")
-walk_to(19, 1)
-walk_to(19, 16)
-walk_to(11, 16)
-walk_to(11, 11)
-print("Navigation finished!")
+print("Starting precise waypoint navigation on Saffron Silph Co. 3F...")
+# Start from current position (11, 3)
+walk_to(19, 3)   # Align with Column 19
+walk_to(19, 16)  # Walk down Column 19 to Row 16
+walk_to(11, 16)  # Walk left on Row 16 to Column 11
+walk_to(11, 11)  # Walk up Column 11 to the warp at (11, 11)
+print("Precise navigation finished!")
