@@ -18,7 +18,7 @@
 - **3F-to-2F Pit (Fall):** Bypassing gates by falling through a hole at `(22, 6)` on 3F lands on 2F at `(22, 6)`.
 - **2F-to-1F Pit (Fall):** Falling through the hole at `(23, 6)` on 2F lands on 1F at `(22, 6)` (inside the previously inaccessible fenced-in room on 1F).
 - **1F-to-B1F Stairs:** Located in the fenced-in room at `(18, 2)` on 1F, leading to B1F at `(18, 4)`.
-- **Secret Key Location (B1F):** Located on the ground at `(1, 4)` on B1F.
+- **Secret Key Location (B1F):** Located on the ground at `(1, 4)` on B1F. (NOT YET RETRIEVED - BAG WAS FULL!).
 - **Mansion Diary (2F):** Found on a table at `(5, 12)` on 2F, reads: "Diary: Feb. 6. MEW gave birth to MEWTWO. We named the newborn MEWTWO."
 - **Calcium Location (2F):** Located on the ground at `(2, 16)` on 2F.
 - **Burgled Trainer:** Defeated a Burglar trainer at `(5, 11)` on 2F.
