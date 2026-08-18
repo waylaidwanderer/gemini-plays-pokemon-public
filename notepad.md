@@ -62,6 +62,8 @@ Use these exact indices in all menu-based macro scripts to ensure correct move s
 - **Volcano Badge (Cinnabar Gym):** Already acquired! Blaine is defeated. Cinnabar Gym is fully cleared.
 - **Remaining Badge:** 1 (Earth Badge - Giovanni at Viridian Gym).
 - **Silph Co. HQ Goal:** Clear Silph Co. to unlock the Viridian City Gym so we can challenge Giovanni for the final badge.
+- **Silph Co. Card Key acquired:** Retrieved from the ground at `(21, 16)` on Saffron Silph Co 5F on Turn 44655!
+- **Card Key Verification Test (Turn 44613):** Interacting with Saffron Silph Co 5F electronic gate at `(21, 13)` without the Card Key resulted in no access, confirming its absolute absence prior to retrieval.
 
 <hr>
 
@@ -1659,11 +1661,13 @@ Route 16 Gatehouse physically divides Celadon City (East) from Route 16 Cycling 
 - **Saffron Silph Co. 5F Layout:**
   - Stairs: `(26, 0)`.
   - Elevator: `(20, 0)`.
-  - Teleporter 1 (East Room): `(27, 3)`, warps directly to Teleporter 2 (Center Room) at `(21, 15)`.
-  - Teleporter 2 (Center Room): `(21, 15)`, warps back to Teleporter 1 at `(27, 3)`.
-  - Central Isolated Room: Bounded by column 17 (west) and column 25 (east). Bounded by row 12 (north) and row 17 (south). Contains an item ball at `(24, 11)` behind the locked Card Key doors at `(20, 12)-(21, 12)`.
+  - Teleporter 1 (Center Room): `(23, 11)`, warps directly to Teleporter 2 (South-East Corridor) at `(27, 15)`.
+  - Teleporter 2 (South-East Corridor): `(27, 15)`, warps back to Teleporter 1 at `(23, 11)`.
+  - Central Room (Rows 6-12, Columns 21-28): Bounded on the north by Row 4/5 wall, on the left by Column 21 wall. Contains teleporter at `(23, 11)`.
+  - Left Compartment (Rows 11-16, Columns 1-6): Contains teleporter pad at `(3, 11)`, which warps to 3F teleporter `(3, 3)`.
+  - Card Key: Acquired on Turn 44655! Lying on the ground at `(21, 16)` in the southern corridor.
+  - Defeated NPCs: Scientist at `(24, 8)`, Rocket Grunt at `(20, 7)` (Card Key hint), and Rocket Grunt at `(8, 16)` are defeated.
   - Pokémon Report: Clipboard located on a desk at `(24, 6)` reads: "4 POKéMON evolve only when traded by link-cable."
-  - Card Key: Not yet acquired. It is on the ground on 5F.
 
 - **Card Key:** Needed to unlock Saffron Silph Co. electronic gates. (Note: It was verified absent in inventory on Turn 43976).
 ## Saffron Silph Co. 3F Layout & Traversal (Verified Turn 44357-44374)
