@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Rock Tunnel B1F (x=27, y=11)
+- Location: Rock Tunnel 1F (x=5, y=3)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -799,9 +799,7 @@
 - Bug Catcher Conner: Located at (40, 8) [Defeated Turn 3044]. Team: Caterpie Lv 20, Weedle Lv 20, Venonat Lv 20. Reward: ¥190. Dialogue: "Go, my super bug POKéMON!"
 - Trainer #4: Located at (45, 15) in the eastern lower corridor facing Left.
 
-- Eastern Ascent at (29, 13): Connects the eastern lower lawn (row 14) directly up to the main highway (row 12) [Discovered and Verified Turn 3037].
-- Northern Highway (rows 6-7): Wide thoroughfare connecting the northern corridor from col 37 all the way east past col 56 directly into Route 10 [Verified Turn 3038].
-- Eastern Route 9 Exit to Route 10: Located at cols 59-60, rows 6-9 [Verified Turn 3054].
+
 
 <hr>
 
@@ -933,7 +931,7 @@
 
 <h1><code>Scratchpad/RockTunnelRouting</code></h1>
 
-# Scratchpad - Rock Tunnel Routing & Verified Bipartite Traversal
+# Scratchpad - Rock Tunnel Routing & Verified Forward Progression
 
 ## Verified Multi-Floor Ladder Bipartite Graph
 - Ladder 1: 1F (37, 3) <---> B1F (33, 25) [Entrance sector <-> SE B1F]
@@ -942,15 +940,20 @@
 - Ladder 4: 1F (27, 3) <---> B1F (5, 3) [North-Central 1F <-> NW B1F]
 
 ## Outdoor Warps (Floor 1F Only)
-- North Entrance: 1F (15, 3) <---> Route 10 North (Outside)
-- South Exit: 1F (15, 33) <---> Route 10 South (Outside -> Lavender Town)
+- North Entrance: 1F (15, 3) <---> Route 10 North (Outside) [Verified Turn 3120, 3715, 4206]
+- South Exit: 1F South Corridor (rows 33-35) -> Route 10 South (Outside -> Lavender Town) [Target Destination]
 
-## Full Traversal Route (Entrance -> Exit)
-1. 1F (37, 3): Descend Ladder 1 -> B1F (33, 25).
-2. B1F (33, 25): Walk South to row 31, West along row 31 to col 15, North to (27, 3). Ascend Ladder 2 -> 1F (5, 3).
-3. 1F (5, 3): Walk South down cols 4-5 to row 14, East along row 14/21 to (23, 11). Descend Ladder 3 -> B1F (17, 11).
-4. B1F (17, 11): Walk South down cols 14-17 to row 19, West along row 19 to col 3, North to (5, 3). Ascend Ladder 4 -> 1F (27, 3).
-5. 1F (27, 3): Walk South (cols 26-29) -> East to col 32 -> South down Eastern Thoroughfare to row 18 -> West to col 23 -> South to row 27 -> West to col 17 -> South to row 33 -> West to (15, 33) -> Step Down to exit to Route 10 South! (DO NOT step on Ladder 1 at 33, 25).
+## Step-by-Step Forward Progression Plan (Avoiding Macro-Loops)
+1. Current State: At 1F (5, 3) on Ladder 2.
+2. Step 1 (1F NW -> Ladder 3): Walk South down cols 4-5 to row 14, East along row 14 to col 17, North to (23, 11). Descend Ladder 3 to B1F (17, 11).
+3. Step 2 (B1F Central -> Ladder 4): Walk South down cols 14-17 to row 19, West along row 19 to col 3, North to (5, 3). Ascend Ladder 4 to 1F (27, 3).
+4. Step 3 (1F North-Central -> South Exit):
+   - From 1F (27, 3), walk South (cols 26-29) to row 11.
+   - Walk East to col 32, South down Eastern Thoroughfare past row 14 to row 18.
+   - Walk West along row 18 to col 23, South down col 23 to row 27.
+   - Walk West along row 27 to col 17, South down col 17 to row 33.
+   - CRITICAL: DO NOT step on Ladder 1 at (33, 25)!
+   - Walk West along row 33 to test the exit doorway at cols 15-2 to exit into Route 10 South!
 
 
 <hr>
