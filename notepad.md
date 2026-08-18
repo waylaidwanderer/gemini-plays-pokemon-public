@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Rock Tunnel B1F (x=17, y=11)
+- Location: Rock Tunnel 1F (x=27, y=3)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -829,6 +829,7 @@
 # Rock Tunnel 1F - Points of Interest & Topology
 
 ## Verified Connections & Warps
+- Ladder 4 (North-Central): Located at (27, 3). Connects down to Rock Tunnel B1F at (5, 3) [Verified Turn 4364].
 - North Entrance: Connects to Route 10 (North) at (15, 3).
 - Ladder 1 (North-East): Located at (37, 3). Connects down to Rock Tunnel B1F at (33, 25).
 - Ladder 2 (North-West): Located at (5, 3). Connects down to Rock Tunnel B1F at (27, 3).
@@ -873,6 +874,7 @@
 # Rock Tunnel B1F - Points of Interest & Topology
 
 ## Connections & Warps
+- Ladder 4 (North-West): Located at (5, 3). Connects up to Rock Tunnel 1F at (27, 3) [Verified Turn 4364].
 - Ladder North-East: Located at (33, 25). Connects up to Rock Tunnel 1F at (37, 3) [Verified Turn 3460].
 - Ladder North-Central: Located at (27, 3). Connects up to Rock Tunnel 1F at (5, 3) [Verified Turn 3523].
 
