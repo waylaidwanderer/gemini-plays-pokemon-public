@@ -31,10 +31,9 @@
 - PokéManiac Ashton: Located at (23, 8) facing North [Defeated Turn 3145]. Team: Cubone Lv 23, Slowpoke Lv 23. Reward: ¥1150.
 - Hiker #1: Located at (5, 15) [Defeated Turn 3654]. Team: Onix Lv 20, Geodude Lv 20. Reward: ¥700.
 - Jr. Trainer ♀ #1: Located at (10, 15) [Defeated Turn 3879]. Team: Jigglypuff Lv 21, Pidgey Lv 21, Meowth Lv 21. Reward: ¥420.
-- Trainer #4: Located at (23, 11) in Upper East Alcove.
 
 ## Verified 1F Bypass & Eastern Corridors (Turn 4301)
 - Rows 14-15 Rock Wall: Continuous solid barrier across cols 18-26.
 - Column 15-16 Boulevard: Wide open vertical passage across rows 11-21 connecting South-Central Highway (row 21) to row 11.
-- Ladder 3 (Central): Located at (23, 11). Connects down to Rock Tunnel B1F at (23, 11) [Verified Turn 4347].
+- Ladder 3 (Central): Located at (23, 11). Connects down to Rock Tunnel B1F at (17, 11) [Verified Turn 4350].
 - Eastern Thoroughfare (cols 34-37): Open vertical corridor extending south from Ladder 1 at (37, 3).

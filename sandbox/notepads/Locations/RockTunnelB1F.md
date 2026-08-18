@@ -41,7 +41,7 @@
 - Hiker #2: Located at (30, 10) [Defeated Turn 3595]. Team: Geodude Lv 25. Reward: ¥875. Dialogue: "My POKéMON techniques will leave you crying!" Defeat quote: "I give! You're a better technician!"
 
 ## Empirical Collision Bounds & Corridor Mapping (Verified Turns 3940-3961)
-- Ladder 3 (North-West Central): Located at (23, 11).
+- Ladder 3 (Central): Located at (17, 11). Connects up to Rock Tunnel 1F at (23, 11) [Verified Turn 4350].
 - Solid Northern Boundary: Row 1. Solid Southern Boundary: Row 34.
 - Solid Western Boundary: Cols 0-1 (rows 26-34).
 - Lower South Highway (rows 30-33, cols 2-35): Massive open 4-tile horizontal basin. Western end at col 2 is a dead end.
