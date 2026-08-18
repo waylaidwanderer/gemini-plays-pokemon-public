@@ -60,7 +60,7 @@
    - Moves: PoisonPowder, Growth, Wrap, Cut
    - Role: Grass/Poison STAB, status utility & Field Cut user
 5. HYDROS (Blastoise) - Lv 40
-   - Stats (Verified at Lv 40): Max HP 132 (HP: 15/132 PAR), Attack 89, Defense 98, Speed 90, Special 94
+   - Stats (Verified at Lv 40): Max HP 132 (HP: 10/132 PAR), Attack 89, Defense 98, Speed 90, Special 94
    - Type: Water
    - Moves: Tackle (0/35), Tail Whip (27/30), Bite (0/25), Bubblebeam (0/20)
    - Role: Starter & primary Water special attacker (Reserve)
