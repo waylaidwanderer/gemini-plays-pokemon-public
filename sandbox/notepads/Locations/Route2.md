@@ -32,5 +32,4 @@
   - Another horizontal one-way ledge facing south across Columns 14-19. Jumped down on Turn 45532.
 - **Row 43 Ledge:**
   - Horizontal one-way ledge facing south on the main southern road of Route 2. Jumped down on Turn 45537.
-- **Current Position (Turn 45541):**
   - Standing on Route 2 main southern road at `(14, 51)`. Directly south at `(13, 54)` is an item Pok�ball on the ground.
