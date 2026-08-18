@@ -29,10 +29,11 @@ def walk_to(target_x, target_y):
             return False
     return True
 
-print("Navigating via Row 15 -> Column 19 -> Row 12 -> warp...")
+print("Navigating via (18, 8) gate to (11, 11) warp...")
+# We start at (11, 14)
 if walk_to(11, 15):
-    if walk_to(19, 15):
-        if walk_to(19, 12):
-            if walk_to(11, 12):
+    if walk_to(18, 15):
+        if walk_to(18, 8):
+            if walk_to(11, 8):
                 walk_to(11, 11)
 print("Navigation finished!")
