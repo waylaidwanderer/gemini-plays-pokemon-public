@@ -1,6 +1,7 @@
 # Rock Tunnel 1F - Points of Interest & Topology
 
 ## Verified Connections & Warps
+- Ladder 4 (North-Central): Located at (27, 3). Connects down to Rock Tunnel B1F at (5, 3) [Verified Turn 4364].
 - North Entrance: Connects to Route 10 (North) at (15, 3).
 - Ladder 1 (North-East): Located at (37, 3). Connects down to Rock Tunnel B1F at (33, 25).
 - Ladder 2 (North-West): Located at (5, 3). Connects down to Rock Tunnel B1F at (27, 3).
