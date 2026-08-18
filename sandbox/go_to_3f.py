@@ -1,11 +1,18 @@
 import mgba
 import time
 
-# Start at (7, 3): Walk Left 2 steps, Up 2 steps to go onto the stairs at (5, 1)
-mgba.press_buttons(["Left", "Left", "Up", "Up"])
-time.sleep(1.2) # Wait for map transition
+# Step 1: Open Start Menu
+mgba.press_buttons(["Start"])
+time.sleep(0.5)
 
-pos = mgba.get_coordinates()
-print("Position on 3F:", pos)
-img_path = mgba.take_screenshot()
-print("Saved screenshot on 3F:", img_path)
+# Step 2: Go down to POKéMON (2nd option) and select
+mgba.press_buttons(["Down", "sleep 100", "A"])
+time.sleep(0.8)
+
+# Take screenshot of the party list to verify TRUFFLE's index
+party_screenshot = mgba.take_screenshot()
+print("Saved party list screenshot to:", party_screenshot)
+
+# Step 3: Close menu to return to overworld
+mgba.press_buttons(["B", "sleep 200", "B", "sleep 200", "B"])
+time.sleep(0.5)
