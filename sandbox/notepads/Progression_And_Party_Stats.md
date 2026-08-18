@@ -8,11 +8,11 @@ Use these exact indices in all menu-based macro scripts to ensure correct move s
 - ICE BEAM
 - SURF (HM03)
 - STRENGTH (HM04)
-## Badge Status & Gym Clearances (Updated Turn 43982)
-- **Gym Badges Possessed:** 7 (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano).
-- **Marsh Badge (Saffron Gym):** Already acquired! Sabrina is defeated. Saffron Gym is fully cleared.
-- **Volcano Badge (Cinnabar Gym):** Already acquired! Blaine is defeated. Cinnabar Gym is fully cleared.
-- **Remaining Badge:** 1 (Earth Badge - Giovanni at Viridian Gym).
-- **Silph Co. HQ Goal:** Clear Silph Co. to unlock the Viridian City Gym so we can challenge Giovanni for the final badge.
+## Badge Status & Gym Clearances (Corrected Turn 45601)
+- **Gym Badges Possessed:** 4 (Boulder, Cascade, Thunder, Rainbow).
+- **Marsh Badge (Saffron Gym):** NOT YET ACQUIRED. Sabrina remains to be challenged. Saffron City is unlocked.
+- **Soul Badge (Fuchsia Gym):** NOT YET ACQUIRED. Koga remains to be challenged.
+- **Volcano Badge (Cinnabar Gym):** NOT YET ACQUIRED. Blaine remains to be challenged.
+- **Earth Badge (Viridian Gym):** NOT YET ACQUIRED. Giovanni remains to be challenged.
+- **Silph Co. HQ:** Fully cleared (Turn 45203). Saffron City is freed from Team Rocket.
 - **Silph Co. Card Key acquired:** Retrieved from the ground at `(21, 16)` on Saffron Silph Co 5F on Turn 44655!
-- **Card Key Verification Test (Turn 44613):** Interacting with Saffron Silph Co 5F electronic gate at `(21, 13)` without the Card Key resulted in no access, confirming its absolute absence prior to retrieval.
