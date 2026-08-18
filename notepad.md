@@ -914,22 +914,20 @@
 
 ## Current Position & Active Route
 - Current Location: Rock Tunnel 1F (x=17, y=16)
-- Active Plan: Probe north along col 17 past the rows 14-15 rock wall to row 13, then test eastward traversal towards col 24 and the south exit.
+- Active Plan: Probe west along row 16 towards cols 8-11 to find the open vertical connector.
 
 ## Empirically Tested Facts (Verified)
-- (2..7, 22..23) is solid rock. Col 2 is a dead end pocket.
-- (17..23, 22..23) is solid rock wall.
+- (17, 15) is an IMPASSABLE COLLISION WALL (verified Turn 4715 by bumping with 'Up').
+- (18..21, 16) is open and passable (traversed Turn 4704-4705).
+- (2..7, 22..23) and (17..23, 22..23) are solid rock walls.
 - (22..23, 16..22) is a vertical rock pillar dividing cols 17-21 from cols 24-26.
-- (18..26, 14..15) is a horizontal rock wall dividing rows 12-13 from row 16.
-- (17, 16) is open black tile.
-- (17, 12..15) appears visually black on screen, but must be stepped into 1-2 steps at a time to verify passability.
+- (18..26, 14..15) is a horizontal rock wall.
+- Central Vertical Thoroughfare (cols 8-11, rows 14-21) is the verified connector between row 14 and row 21.
 
 ## Step-by-Step Traversal Protocol
-1. Press 'A' to clear EXP battle text and return to overworld at (17, 16).
-2. Step 1-2 steps North along col 17 to probe (17, 15) and (17, 14).
-3. If passable, continue North to row 13 / row 12.
-4. From row 13 / row 12, probe East towards col 24.
-5. Head South along col 24 to row 17.
-6. Head East along row 17 to (37, 17) (South Exit).
+1. Take 1-2 steps Left along row 16 to probe (16, 16) and (15, 16).
+2. Continue West along row 16 to the Central Vertical Thoroughfare at cols 8-11.
+3. At cols 8-11, test heading North to row 14 (Middle Highway).
+4. Follow Middle Highway or discover the exact connection into the Eastern Sector / South Exit.
 
 <hr>
