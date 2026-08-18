@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Rock Tunnel 1F (x=16, y=8)
+- Location: Rock Tunnel 1F (x=9, y=18)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -50,7 +50,7 @@
    - Moves: Leech Life (15/15), Supersonic (20/20)
    - Role: Fast Flying/Poison utility
 3. TERRA (Geodude) - Lv 21
-   - Stats: Max HP 54 (HP: 45/54 SLP), Attack 45, Defense 50, Speed 20, Special 19
+   - Stats: Max HP 54 (HP: 43/54 SLP), Attack 45, Defense 50, Speed 20, Special 19
    - Type: Rock / Ground
    - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
    - Role: Physical Rock/Ground tank (Reserve / Dig Utility)
@@ -843,12 +843,14 @@
    - 4-tile wide vertical passage connecting crossway (row 12) down to row 21.
 5. Middle Thoroughfare (rows 14-16, cols 8-16):
    - Wide open horizontal thoroughfare connecting col 8 across to col 16.
-6. South-Central Thoroughfare (rows 16-25, cols 14-28):
-   - Column 16 connects row 16 south down to row 21 and row 24-25.
-   - Rows 24-25 form a wide horizontal highway across cols 14-28.
-7. Eastern Exit Thoroughfare (col 24, rows 17-25 & row 17, cols 24-37):
-   - From row 21/24 (col 24), vertical corridor goes north to row 17.
-   - Row 17 runs east across cols 24-37 directly into the South Exit at (37, 17)!
+6. South-Central Sector & Collision Boundaries:
+   - Cols 14-17 (rows 18-21) form a dead-end pocket blocked by solid rock wall at rows 22-23.
+   - Central Vertical Thoroughfare (cols 8-11) dead-ends at row 28 south boundary.
+   - Vertical rock wall at cols 12-13 and cols 24-25 prevents direct horizontal passage to eastern sector on 1F.
+7. Eastern Exit Sector (cols 24-37, rows 1-17):
+   - Separated from western/central sector by impassable rock wall at cols 24-25.
+   - Accessed via the B1F ladder route.
+   - South Exit at (37, 17) connects directly out to Route 10 South / Lavender Town.
 
 ## Verified Trainers & Encounters
 - Pok�Maniac Ashton: Located at (23, 8) facing North [Defeated Turn 3145]. Team: Cubone Lv 23, Slowpoke Lv 23. Reward: �1150.
