@@ -16,7 +16,7 @@
    - Type: Water
 
 
-   - Moves: Tackle (13/35), Tail Whip (30/30), Bite (19/25), Bubblebeam (0/20)
+   - Moves: Tackle (13/35), Tail Whip (30/30), Bite (18/25), Bubblebeam (0/20)
 
 
    - Role: Starter & primary Water special attacker (Lead)
@@ -134,5 +134,3 @@
 
 
   - 1x Rare Candy (Found in Mt. Moon 1F)
-
-
