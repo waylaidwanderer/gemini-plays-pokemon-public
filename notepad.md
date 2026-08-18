@@ -40,9 +40,9 @@
 
 ## Active Party
 1. HYDROS (Blastoise) - Lv 40
-   - Stats (Verified at Lv 40): Max HP 132 (HP: 56/132 PAR), Attack 89, Defense 98, Speed 90, Special 94
+   - Stats (Verified at Lv 40): Max HP 132 (HP: 52/132 PAR), Attack 89, Defense 98, Speed 90, Special 94
    - Type: Water
-   - Moves: Tackle (0/35), Tail Whip (27/30), Bite (0/25), Bubblebeam (7/20)
+   - Moves: Tackle (0/35), Tail Whip (27/30), Bite (0/25), Bubblebeam (4/20)
    - Role: Starter & primary Water special attacker (Active Lead)
 2. ECHO (Zubat) - Lv 8
    - Stats (Verified at Lv 8): Max HP 26 (HP: 0/26 FNT)
@@ -50,7 +50,7 @@
    - Moves: Leech Life (15/15), Supersonic (20/20)
    - Role: Fast Flying/Poison utility
 3. TERRA (Geodude) - Lv 21
-   - Stats (Verified at Lv 21): Max HP 54 (HP: 54/54), Attack 45, Defense 50, Speed 20, Special 19
+   - Stats (Verified at Lv 21): Max HP 54 (HP: 54/54 SLP), Attack 45, Defense 50, Speed 20, Special 19
    - Type: Rock / Ground
    - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
    - Role: Physical Rock/Ground tank (Reserve / Dig Utility)
@@ -900,6 +900,13 @@
 - Hiker #2: Located at (30, 10) [Defeated Turn 3595]. Team: Geodude Lv 25. Reward: ¥875. Dialogue: "My POKéMON techniques will leave you crying!" Defeat quote: "I give! You're a better technician!"
 
 ## Empirical Collision Bounds & Corridor Mapping
+- Solid Horizontal Rock Walls:
+  - Rows 14-15 across cols 20-37.
+  - Rows 22-23 across cols 6-23.
+- Solid Vertical Rock Walls:
+  - Cols 30-31 across rows 16-27.
+  - Cols 22-23 across rows 16-23.
+  - Cols 6-8 across rows 28-30.
 - Solid Northern Boundary: Row 1. Solid Southern Boundary: Row 34.
 - Solid Western Boundary: Cols 0-1 (rows 26-34).
 - Lower South Highway (rows 30-33, cols 2-35): Massive open 4-tile horizontal basin.
@@ -912,13 +919,22 @@
 
 # Scratchpad - Rock Tunnel True Complete Route to South Exit
 
-## Active Traversal Plan (Starting at 34, 21)
-1. Defeat trainer at (34, 21) on Rock Tunnel B1F.
-2. Follow open eastern corridor (col 34) north to row 13 at (34, 13).
-3. Walk west across row 13 horizontal highway to col 27 at (27, 13).
-4. Walk north along col 27 to Ladder 2 at (27, 3).
-5. Ascend Ladder 2 at (27, 3) to emerge in 1F Eastern Exit Sector at (27, 3).
-6. Walk south along Eastern Corridor to row 17, then east straight into the South Exit at (37, 17)!
-7. Exit to Route 10 South and proceed south into Lavender Town to heal party.
+## Active Traversal Plan (Starting at 8, 24)
+1. From (8, 24), probe Left across row 24 to western corridor (cols 2-5).
+2. Probe North along western corridor towards Ladder 4 at row 3 (cols 2-5).
+3. Ascend Ladder 4 to Rock Tunnel 1F Eastern Exit Sector at (27, 3).
+4. Walk south down cols 26-28 to row 17, and east straight into the South Exit at (37, 17)!
+5. Exit to Route 10 South and proceed south into Lavender Town to heal at Pok�mon Center.
+
+## Verified Collision Bounds on B1F
+- Solid Northern Boundary: Row 1.
+- Solid Southern Boundary: Row 34-35.
+- Solid Rock Walls:
+  - Rows 14-15 across cols 20-37 (blocks north passage from central/east).
+  - Rows 16-27 at cols 30-31 (divides eastern corridor from central basin).
+  - Rows 16-23 at cols 22-23 (divides col 20 from cols 24-29).
+  - Rows 22-23 across cols 6-15 (divides row 24 from row 20 at cols 6-15).
+  - Rows 28-30 at cols 6-8.
+
 
 <hr>
