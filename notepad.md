@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Rock Tunnel 1F (x=16, y=33)
+- Location: Rock Tunnel 1F (x=25, y=22)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -42,7 +42,7 @@
 1. HYDROS (Blastoise) - Lv 38
    - Stats (Verified at Lv 38): Max HP 124 (HP: 124/124), Attack 83, Defense 92, Speed 85, Special 88
    - Type: Water
-   - Moves: Tackle (35/35), Tail Whip (30/30), Bite (25/25), Bubblebeam (18/20)
+   - Moves: Tackle (35/35), Tail Whip (30/30), Bite (25/25), Bubblebeam (14/20)
    - Role: Starter & primary Water special attacker (Active Lead)
 2. ECHO (Zubat) - Lv 8
    - Stats (Verified at Lv 8): Max HP 26 (HP: 26/26)
