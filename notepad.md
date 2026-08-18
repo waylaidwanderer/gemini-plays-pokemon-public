@@ -912,29 +912,19 @@
 
 # Scratchpad - Rock Tunnel 1F Southern Exit Route
 
-## Current Position & Active Route
-- Current Location: Rock Tunnel 1F (x=13, y=18)
-- Active Plan: Head west along row 18 to Central Thoroughfare (cols 8-11), ascend north to the North Highway (rows 3-7), cross east past Ashton (23, 8) into the Eastern Corridor (col 24), descend to row 17, and exit east to (37, 17).
+## Current Position & Direct Exit Route
+- Current Location: Rock Tunnel 1F (x=8, y=8)
+- Goal: Exit Rock Tunnel via South Exit at (37, 17) into Route 10 South / Lavender Town.
 
-## Empirical Collision Matrix (Physically Verified Coordinates)
-- Passable Walkways (Verified):
-  - (13..21, 16..21) [East-Central Basin]
-  - (8..13, 14..21) [Central Vertical Thoroughfare]
-  - (2..5, 14..18), (2..8, 18..21) [Western Basin & Row 18 Bypass]
-  - (8..11, 8..12), (7..11, 6) [North-Central Approach]
-- Collision Boundaries (Verified):
-  - Row 22 is SOLID ROCK across cols 2-23 (entire southern map boundary).
-  - (22..23, 16..22) is a solid vertical rock pillar.
-  - (18..23, 14..15) is a solid horizontal rock ceiling.
-  - (6..7, 10..17) is a solid rock divider.
-  - (5, 16), (7, 5), (17, 15) are solid rock protrusions.
+## Critical Topology Insight
+- The North Entrance (15, 3), Ashton (23, 8), and Ladder 1 (37, 3) are on the ISOLATED north-eastern plateau.
+- We have already traversed B1F and emerged from Ladder 2 (5, 3) onto the WESTERN / SOUTHERN section of 1F.
+- The South Exit at (37, 17) is reached SOLELY via the Southern Highway (row 21) and Eastern Corridor (col 24, row 17)!
 
-## Step-by-Step Traversal Protocol
-1. Walk West 10 steps along row 18 to (8, 18).
-2. Walk North 10 steps up cols 8-11 to (8, 8) / (11, 8).
-3. Connect north into the North Highway (cols 14-16, rows 3-7) near North Entrance (15, 3).
-4. Walk East along rows 3-7 to Ashton's sector at (23, 8).
-5. Descend South past Ashton down col 24 to row 17.
-6. Walk East along row 17 to (37, 17) (South Exit).
+## Exact Step-by-Step Traversal Protocol to Exit (37, 17)
+1. From (8, 8), walk South 13 steps down Central Thoroughfare (col 8) to (8, 21).
+2. Walk East 16 steps along row 21 from (8, 21) to (24, 21).
+3. Walk North 4 steps along col 24 from (24, 21) to (24, 17).
+4. Walk East 13 steps along row 17 from (24, 17) into South Exit at (37, 17) -> Exits to Route 10 South!
 
 <hr>
