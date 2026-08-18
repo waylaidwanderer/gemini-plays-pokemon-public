@@ -33,4 +33,4 @@
 - Jr. Trainer Female #1: Located at (10, 15) [Defeated Turn 3879]. Team: Jigglypuff Lv 21, Pidgey Lv 21, Meowth Lv 21. Reward: ¥420.
 - Hiker #2: Located at (6, 10) facing Down [Defeated Turn 4163]. Team: Geodude Lv 21, Geodude Lv 21, Graveler Lv 21. Reward: ¥735.
 
-- South Exit: Located at (33, 25). Connects out to Route 10 South (Lavender Town side) [Discovered Turn 4513].
+- South Exit: Located at (37, 17) on Rock Tunnel 1F. Connects out to Route 10 South (Lavender Town side) [Discovered Turn 4517].
