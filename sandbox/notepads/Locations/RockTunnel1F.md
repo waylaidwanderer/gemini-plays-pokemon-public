@@ -6,7 +6,6 @@
 - Ladder 1 (North-East): Located at (37, 3). Connects down to Rock Tunnel B1F at (33, 25).
 - Ladder 2 (North-West): Located at (3, 3). Connects down to Rock Tunnel B1F at (37, 17) [Verified Turn 4921 & 5082].
 - Ladder 4 (North-Central / East of Divider): Located at (27, 3). Connects down to Rock Tunnel B1F at (5, 3) [Verified Turn 4364].
-- Intra-Floor Warp: (17, 11) <-> (23, 11). Two-way tunnel connecting western pocket to central pocket on 1F [Verified Turn 5154].
 
 ## Verified Corridors & Collision Bounds
 1. North Entrance Corridor (rows 2-7, cols 15-23):
@@ -34,3 +33,13 @@
 - Hiker #1: Located at (5, 15) [Defeated Turn 3654]. Team: Onix Lv 20, Geodude Lv 20. Reward: �700.
 - Jr. Trainer Female #1: Located at (10, 15) [Defeated Turn 3879]. Team: Jigglypuff Lv 21, Pidgey Lv 21, Meowth Lv 21. Reward: �420.
 - Hiker #2: Located at (6, 10) facing Down [Defeated Turn 4163]. Team: Geodude Lv 21, Geodude Lv 21, Graveler Lv 21. Reward: �735.
+
+## Empirical Collision Bounds & Corridor Mapping (1F)
+- Solid Horizontal Rock Walls:
+  - Rows 14-15 form a continuous impassable solid rock wall across cols 20-37, blocking any direct south traversal from row 13.
+  - Rows 8-9 rock formations at cols 14-19 and cols 24-26.
+- Open Corridors:
+  - Rows 10-13 form a continuous open horizontal highway across cols 20-37.
+  - Vertical avenue runs along cols 20-23 connecting row 4 down to row 13.
+  - Column 37 runs north-south from Ladder 1 at (37, 3) down to row 13.
+  - Ladder routing via B1F is mandatory to access the South Exit at (37, 17).

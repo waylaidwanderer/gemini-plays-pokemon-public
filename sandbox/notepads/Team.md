@@ -2,7 +2,7 @@
 
 ## Active Party
 1. HYDROS (Blastoise) - Lv 40
-   - Stats (Verified at Lv 40): Max HP 132 (HP: 132/132), Attack 89, Defense 98, Speed 90, Special 94
+   - Stats (Verified at Lv 40): Max HP 132 (HP: 129/132), Attack 89, Defense 98, Speed 90, Special 94
    - Type: Water
    - Moves: Tackle (35/35), Tail Whip (30/30), Bite (25/25), Bubblebeam (20/20)
    - Role: Starter & primary Water special attacker (Lead)
@@ -22,7 +22,7 @@
    - Moves: PoisonPowder, Growth, Wrap, Cut
    - Role: Grass/Poison STAB, status utility & Field Cut user
 5. ATLAS (Machop) - Lv 15
-   - Stats: Max HP 49 (HP: 49/49)
+   - Stats: Max HP 49 (HP: 8/49)
    - Type: Fighting
    - Moves: Karate Chop (25/25), Low Kick
    - Role: Physical Fighting STAB attacker [Captured Turn 3345 with Great Ball]
