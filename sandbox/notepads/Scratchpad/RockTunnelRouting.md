@@ -1,13 +1,16 @@
-# Scratchpad - Rock Tunnel Complete Routing & Dungeon Flow
+# Scratchpad - Rock Tunnel Complete Verified Routing
 
-## Complete Route from North Entrance to Lavender Town
-1. 1F North Corridor: From Entrance (15, 3) / (14, 4), walk East along row 4 to col 31/37 to reach Ladder 1 at (37, 3).
-2. Take Ladder 1 DOWN to B1F at (33, 25).
-3. B1F South Highway: From (33, 25), walk South to row 31 (33, 31), then West along row 31 all the way to (15, 31).
-4. B1F North Ascent: From (15, 31), walk North through vertical connector (15, 28) into Upper South Corridor (15, 27).
-5. B1F Western/Northern Passage: Navigate up through western B1F corridors to Ladder 4 at (5, 3).
-6. Take Ladder 4 UP to 1F at (27, 3).
-7. 1F Southern Route to Exit:
-   - From 1F (27, 3), navigate down western/central corridors to Middle Highway (row 14) and South Highway (row 21).
-   - From (15, 21), walk East to (24, 21), North to (24, 17), and East across row 17 to the South Exit at (37, 17)!
-8. South Exit (37, 17) exits onto Route 10 South -> Lavender Town!
+## Step-by-Step Route to Lavender Town
+1. At 1F (31, 4): Walk Left 4 steps to (27, 4), then Up 1 step to (27, 3).
+2. Take Ladder 4 at (27, 3) DOWN to B1F at (5, 3).
+3. On B1F:
+   - From B1F (5, 3), navigate to B1F Ladder 2 at (27, 3).
+4. Take Ladder 2 at B1F (27, 3) UP to 1F at (5, 3).
+5. On 1F (Western & Southern Sector):
+   - From (5, 3), walk South down col 5 to (5, 14).
+   - From (5, 14), walk East along row 14 to (15, 14).
+   - From (15, 14), walk South down col 15 to (15, 21).
+   - From (15, 21), walk East along row 21 to (24, 21).
+   - From (24, 21), walk North up col 24 to (24, 17).
+   - From (24, 17), walk East along row 17 to (37, 17).
+6. South Exit at (37, 17) exits onto Route 10 South -> Lavender Town!
