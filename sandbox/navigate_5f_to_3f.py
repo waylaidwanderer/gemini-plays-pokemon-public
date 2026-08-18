@@ -34,49 +34,53 @@ def move_to(target_x, target_y):
         
     return True
 
-# 1. Waypoints to the elevator on 5F (updated with Row 3 open path)
-waypoints_5f = [
-    (24, 5),
-    (24, 3),
-    (20, 3),
-    (20, 1)
-]
+print("Re-aligning and navigating from (12, 1) to elevator...")
 
-print("Starting Saffron Silph Co. 5F to 3F Elevator Journey...")
-success = True
-for wp in waypoints_5f:
-    if not move_to(wp[0], wp[1]):
-        success = False
-        break
-
-if success:
-    # 2. Enter elevator
-    print("Entering elevator...")
+# 1. Walk from current position (12, 1) back to elevator entrance at (20, 1)
+if move_to(20, 1):
+    print("Reached elevator entrance. Entering elevator...")
+    # Enter elevator door
     mgba.press_buttons(["Up"])
     time.sleep(0.5)
     
-    # 3. Walk to elevator panel at (3, 1)
-    if move_to(3, 1):
-        print("Interacting with elevator panel...")
-        mgba.press_buttons(["A"])
-        time.sleep(0.5)
+    # Wait for map transition to elevator (x < 5, y < 5)
+    retries = 10
+    while retries > 0:
+        pos = mgba.get_coordinates()
+        if pos['x'] < 5 and pos['y'] < 5:
+            print(f"Transitioned to elevator map successfully at {pos}!")
+            break
+        print(f"Waiting for elevator map transition... current pos: {pos}")
+        time.sleep(0.3)
+        retries -= 1
         
-        # 4. Select 3F on elevator menu
-        print("Selecting 3F...")
-        mgba.press_buttons(["Down", "Down", "A"])
-        time.sleep(1.0) # Wait for animation/warp
-        
-        # 5. Exit elevator on 3F
-        print("Exiting elevator onto 3F...")
-        exit_path = ["Down", "Down", "Left", "Down"]
-        for btn in exit_path:
-            mgba.press_buttons([btn])
-            time.sleep(0.3)
-            
-        final_pos = mgba.get_coordinates()
-        print(f"Exited elevator. Final position on 3F: {final_pos}")
+    if retries == 0:
+        print("ERROR: Elevator map transition timed out!")
         mgba.take_screenshot()
     else:
-        print("ERROR: Failed to navigate inside elevator.")
+        # We are inside the elevator
+        # 2. Walk to elevator panel at (3, 1)
+        if move_to(3, 1):
+            print("Interacting with elevator panel...")
+            mgba.press_buttons(["A"])
+            time.sleep(0.5)
+            
+            # 3. Select 3F on elevator menu
+            print("Selecting 3F...")
+            mgba.press_buttons(["Down", "Down", "A"])
+            time.sleep(1.0) # Wait for animation/warp
+            
+            # 4. Exit elevator on 3F
+            print("Exiting elevator onto 3F...")
+            exit_path = ["Down", "Down", "Left", "Down"]
+            for btn in exit_path:
+                mgba.press_buttons([btn])
+                time.sleep(0.3)
+                
+            final_pos = mgba.get_coordinates()
+            print(f"Exited elevator. Final position on 3F: {final_pos}")
+            mgba.take_screenshot()
+        else:
+            print("ERROR: Failed to navigate inside elevator.")
 else:
-    print("ERROR: Failed 5F overworld navigation.")
+    print("ERROR: Failed to return to elevator entrance.")
