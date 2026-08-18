@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Rock Tunnel 1F (x=11, y=17)
+- Location: Rock Tunnel 1F (x=23, y=5)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -50,7 +50,7 @@
    - Moves: Leech Life (15/15), Supersonic (20/20)
    - Role: Fast Flying/Poison utility
 3. TERRA (Geodude) - Lv 21
-   - Stats: Max HP 54 (HP: 54/54 SLP), Attack 45, Defense 50, Speed 20, Special 19
+   - Stats: Max HP 54 (HP: 51/54 SLP), Attack 45, Defense 50, Speed 20, Special 19
    - Type: Rock / Ground
    - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
    - Role: Physical Rock/Ground tank (Reserve / Dig Utility)
@@ -854,6 +854,21 @@
 - Hiker #1: Located at (5, 15) [Defeated Turn 3654]. Team: Onix Lv 20, Geodude Lv 20. Reward: ¥700.
 - Jr. Trainer Female #1: Located at (10, 15) [Defeated Turn 3879]. Team: Jigglypuff Lv 21, Pidgey Lv 21, Meowth Lv 21. Reward: ¥420.
 - Hiker #2: Located at (6, 10) facing Down [Defeated Turn 4163]. Team: Geodude Lv 21, Geodude Lv 21, Graveler Lv 21. Reward: ¥735.
+## Empirical Collision Bounds & Topology (Verified Turns 5082-5130)
+- Solid Vertical Rock Wall: Columns 24-25 span continuously from row 1 to row 14, dividing the western/central sectors from the eastern sector.
+- Solid Horizontal Rock Walls:
+  - Rows 14-15 across cols 20-28 (separates central pocket from lower highway).
+  - Rows 8-9 across cols 20-23 (separates row 7 from row 10 at col 20-23).
+  - Rows 22-23 across cols 2-7 and cols 12-13.
+- Ladders:
+  - Ladder 1 (North-East): Located at (37, 3). Connects to B1F (33, 25).
+  - Ladder 2 (North-West): Located at (3, 3). Connects to B1F (37, 17) [Verified Turn 4921 & 5082].
+  - Ladder 3 (Central-Pocket): Located at (23, 11). Connects down to B1F central sector.
+  - Ladder 4 (East of Divider): Located at (27, 3). Connects down to B1F (5, 3) [Verified Turn 4364].
+- Connecting Passages:
+  - Western Vertical Passage (cols 16-17, rows 7-13): Connects row 7 upper highway to row 13 central pocket.
+  - Row 13 Horizontal Passage (cols 16-23): Connects western passage to Ladder at (23, 11).
+
 
 <hr>
 
@@ -921,19 +936,14 @@
 
 # Scratchpad - Rock Tunnel 1F Traversal to South Exit
 
-## Active Route from Current Position (11, 17)
-1. Conclude battle with wild Machop.
-2. From (11, 17), empirically test east traversal along row 17 across to col 24-37.
-3. If row 17 is blocked at any column, test row 14-16 middle thoroughfare or row 21 south corridor.
-4. Reach South Exit at (37, 17) on 1F.
-5. Exit to Route 10 South and proceed south into Lavender Town to heal at Pok�mon Center.
-
-## Verified Empirical Bounds on 1F
-- NW Corridor: cols 2-5 (rows 2-13). Ladder at (3, 3) connects to B1F (37, 17).
-- Crossway at rows 10-13: cols 6-11 connecting western corridor to central sector.
-- Central Sector: cols 8-11 across rows 9-21.
-- Middle thoroughfare: rows 14-16 across cols 8-16.
-- South Exit: located at (37, 17).
+## Active Route from Current Position (23, 5)
+1. From (23, 5), move Left x7 along row 5/7 to column 16 at (16, 7).
+2. Move Down x6 along column 16 to row 13 at (16, 13).
+3. Move Right x7 along row 13 to column 23 at (23, 13).
+4. Move Up x2 to Ladder at (23, 11) and descend to B1F.
+5. On B1F, take the connecting corridor to ascend Ladder 4 at (5, 3) -> 1F (27, 3).
+6. From 1F (27, 3) on the east side of the divider, walk south down columns 26-37 straight to South Exit at (37, 17)!
+7. Exit to Route 10 South and proceed south into Lavender Town to heal at Pok�mon Center.
 
 
 <hr>
