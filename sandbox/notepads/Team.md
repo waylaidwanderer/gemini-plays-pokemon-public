@@ -16,7 +16,7 @@
    - Type: Water
 
 
-   - Moves: Tackle (15/35), Tail Whip (30/30), Bite (20/25), Bubblebeam (0/20)
+   - Moves: Tackle (14/35), Tail Whip (30/30), Bite (20/25), Bubblebeam (0/20)
 
 
    - Role: Starter & primary Water special attacker (Lead)
