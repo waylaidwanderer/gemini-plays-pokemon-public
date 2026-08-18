@@ -45,6 +45,5 @@
 - Consumables:
   - 0x Pok� Ball
   - 0x Great Ball
-  - 1x Ether (Restores 10 PP to one move)
-  - 1x Moon Stone (Evolution item)
+  - - 1x Moon Stone (Evolution item)
   - 1x Rare Candy (Found in Mt. Moon 1F)
