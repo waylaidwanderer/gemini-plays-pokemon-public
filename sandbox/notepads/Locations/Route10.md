@@ -9,7 +9,6 @@
 - Upper Courtyard (rows 16-29, cols 9-15):
   - Route 10 Pokémon Center located at cols 10-13, rows 16-19 with entrance door at (11, 19).
   - Open courtyard spanning rows 20-29 across cols 10-14.
-  - Cut Bush at (8, 25): Connects eastern Pokémon Center courtyard to western Route 10 thoroughfare. Requires HM01 Cut.
   - Row 30 Ledge / Cliff: Impassable ledge/cliff across cols 7-12 separating upper courtyard from lower cave path.
 - Western Thoroughfare & Lower Path (cols 0-8, rows 20-33 & rows 31-33, cols 7-15):
   - North-south path along col 7 past Jr. Trainer Carol at (7, 25).
