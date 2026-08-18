@@ -865,9 +865,10 @@
 # Rock Tunnel B1F - Points of Interest & Topology
 
 ## Connections & Warps
+- Ladder 1 (North-East): Located at (33, 25). Connects up to Rock Tunnel 1F at (37, 3) [Verified Turn 3460].
+- Ladder 2 (North-Central): Located at (27, 3). Connects up to Rock Tunnel 1F at (5, 3) [Verified Turn 3523].
+- Ladder 3 (Central): Located at (17, 11). Connects up to Rock Tunnel 1F at (23, 11) [Verified Turn 4350].
 - Ladder 4 (North-West): Located at (5, 3). Connects up to Rock Tunnel 1F at (27, 3) [Verified Turn 4364].
-- Ladder North-East: Located at (33, 25). Connects up to Rock Tunnel 1F at (37, 3) [Verified Turn 3460].
-- Ladder North-Central: Located at (27, 3). Connects up to Rock Tunnel 1F at (5, 3) [Verified Turn 3523].
 
 ## Verified Layout & Corridors
 1. South-East Entry Corridor (rows 25-33, cols 26-35):
@@ -889,8 +890,6 @@
    - Wide open 4-tile high horizontal highway across rows 2-5 above the central divider (rows 6-9, cols 30-33).
    - Solid northern boundary wall is at row 1 (rows 0-1).
    - Solid eastern collision boundary wall is at column 38 (rows 2-16).
-   - Extends west into the unexplored western sector.
-
 
 6. South-Western Highway (rows 30-33, cols 2-15):
    - Massive 4-tile high open highway spans continuously west from col 15 all the way to col 2.
@@ -905,25 +904,12 @@
 - Hiker #1: Located near (31..34, 5) facing East [Defeated Turn 3516]. Team: Machop Lv 20, Onix Lv 20. Reward: ¥700. Dialogue: "Hit me with your best shot!" Defeat quote: "Fired away!"
 - Hiker #2: Located at (30, 10) [Defeated Turn 3595]. Team: Geodude Lv 25. Reward: ¥875. Dialogue: "My POKéMON techniques will leave you crying!" Defeat quote: "I give! You're a better technician!"
 
-## Empirical Collision Bounds & Corridor Mapping (Verified Turns 3940-3961)
-- Ladder 3 (Central): Located at (17, 11). Connects up to Rock Tunnel 1F at (23, 11) [Verified Turn 4350].
+## Empirical Collision Bounds & Corridor Mapping
 - Solid Northern Boundary: Row 1. Solid Southern Boundary: Row 34.
 - Solid Western Boundary: Cols 0-1 (rows 26-34).
-- Lower South Highway (rows 30-33, cols 2-35): Massive open 4-tile horizontal basin. Western end at col 2 is a dead end.
-- Rock Divider (rows 28-29): Spans continuously across cols 2-13 and cols 18-25.
-- Vertical Connector (rows 28-29, cols 14-17): Only open vertical passage connecting Lower South Highway (row 30) to Upper South Corridor (row 26-27).
-- Upper South Corridor (rows 26-27, cols 2-25): Horizontal corridor above the rock divider. Connects west to cols 2-5 and east to cols 20-25.
-
-## Empirical Collision Data & Corridor Routing (Verified Turns 4240-4260)
-- Empirical Collisions Observed:
-  - (25, 11) blocked west (Turn 4240)
-  - (24, 3) blocked west (Turn 4242)
-  - (21, 16) blocked west (Turn 4247)
-  - (22, 15) blocked north (Turn 4247)
-  - (13, 30) blocked west (Turn 4256)
-- Passage Routing:
-  - Row 31 South Highway is completely open and continuous across cols 2-35.
-  - To travel between eastern sector and western sector, use row 31 South Highway (cols 2-35).
+- Lower South Highway (rows 30-33, cols 2-35): Massive open 4-tile horizontal basin.
+- Vertical Connector (rows 28-29, cols 14-17): Open vertical passage connecting Lower South Highway (row 30) to Upper South Corridor (row 26-27).
+- Passage Routing: Row 31 South Highway is completely open and continuous across cols 2-35. To travel between eastern sector and western sector, use row 31 South Highway (cols 2-35).
 
 <hr>
 
