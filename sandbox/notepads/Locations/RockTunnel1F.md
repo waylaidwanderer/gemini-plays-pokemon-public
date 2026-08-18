@@ -1,7 +1,7 @@
 # Rock Tunnel 1F - Points of Interest & Topology
 
 ## Verified Connections & Warps
-- Intra-Floor Warp: (17, 11) <-> (23, 11) [Verified Turn 5¥420: stepping on (17, 11) warps to (23, 11)].
+- Intra-Floor Warp: (17, 11) <-> (23, 11) [Verified Turn 5420: stepping on (17, 11) warps to (23, 11)].
 - North Entrance: Located at (15, 3). Connects to Route 10 (North).
 - South Exit: Located at (37, 17). Connects out to Route 10 South (Lavender Town side) [Discovered Turn 4517].
 - Ladder 1 (North-East): Located at (37, 3). Connects down to Rock Tunnel B1F at (33, 25).
