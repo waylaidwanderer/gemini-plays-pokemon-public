@@ -69,6 +69,10 @@ Use these exact indices in all menu-based macro scripts to ensure correct move s
 - Since our party was full, SELKIE was automatically sent to **PC Box 4**.
 
 
+## Card Key Inventory Verification (Turn 44954)
+- **Card Key verified present in Bag:** Successfully opened the BAG menu on Turn 44954 and verified that the CARD KEY is present in our inventory (listed under TM09). It was NOT lost or deposited.
+
+
 <hr>
 
 <h1><code>Mechanics/Search_Scripting_Pitfalls</code></h1>
