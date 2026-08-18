@@ -50,7 +50,7 @@
    - Moves: Leech Life (15/15), Supersonic (20/20)
    - Role: Fast Flying/Poison utility
 3. TERRA (Geodude) - Lv 21
-   - Stats: Max HP 54 (HP: 48/54 SLP), Attack 45, Defense 50, Speed 20, Special 19
+   - Stats: Max HP 54 (HP: 46/54 SLP), Attack 45, Defense 50, Speed 20, Special 19
    - Type: Rock / Ground
    - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
    - Role: Physical Rock/Ground tank (Reserve / Dig Utility)
