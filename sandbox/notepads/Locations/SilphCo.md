@@ -51,10 +51,14 @@
 - **Warp to 11F:** Located at `(5, 7)` in the bottom-right corner of the left compartment. Can be walked to on foot by walking down Column 3 to `(3, 7)` (row 7) and then walking right to `(5, 7)`. Row 7 is completely open underneath the tables!
 - **Rival JACK:** Met and defeated at `(3, 4)` on Turn 44810.
 
-## Saffron Silph Co. 11F Layout & Traversal (Verified Turn 44847)
+## Saffron Silph Co. 11F Layout & Traversal (Verified Turn 44847)\n
+- **Electronic Gate 4 (President's Office Inner Gate):** Located at `(6, 13)` on 11F. Unlocked with the Card Key on Turn 45117!
+- **Giovanni:** Located further up in the boardroom (beyond Row 10).
+- **President:** Located at `(6, 9)` (beyond Row 10).
+
 - **Warp Landing from 7F (5, 7):** Lands at `(3, 2)` inside a fenced vertical corridor on the left.
 - **Layout & Obstacles:**
-  - Column 4 is a continuous vertical solid grey wall.
+  - Column 4 is a vertical solid grey wall, except at Row 14, which is completely open and serves as the entrance to the President's Office (discovered Turn 45115).
   - Column 3 is a vertical open fenced corridor leading down from the landing warp at `(3, 2)` to Row 9.
   - Giovanni is located at `(7, 5)` inside the boardroom on the right.
   - Saffron Silph Co. President is located at `(6, 9)` inside the boardroom.
