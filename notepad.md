@@ -5,7 +5,7 @@
 ## Current Status
 - Player: BLUE
 - Badges: 3/8 (Boulder Badge, Cascade Badge, Thunder Badge)
-- Location: Rock Tunnel B1F (x=5, y=31)
+- Location: Rock Tunnel B1F (x=5, y=30)
 
 ## Notepads Index
 - `Team`: Current Pokémon party, movesets, stats, nicknames, inventory
@@ -907,7 +907,7 @@
 6. South-Western Highway (rows 30-33, cols 2-15):
    - Massive 4-tile high open highway spans continuously west from col 15 all the way to col 2.
    - Solid southern boundary wall at rows 34-35 across cols 2-15.
-   - Rock divider at rows 28-29 separates southern highway from upper chambers.
+   - Rock divider at rows 28-29 spans cols 2-13, separating southern highway (rows 30-33) from upper south corridor (rows 26-27). The only north-south passage between them is the Vertical Connector at cols 14-17 (rows 28-29).
 
 ## Verified Trainers & Encounters
 - Wild Pokémon: Zubat (Lv 15-18), Geodude (Lv 16-17), Machop (Lv 15-17), Onix (Lv 13).
