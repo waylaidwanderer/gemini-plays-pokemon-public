@@ -850,10 +850,11 @@
    - Cols 14-17 (rows 18-21) form a dead-end pocket blocked by solid rock wall at rows 22-23.
    - Central Vertical Thoroughfare (cols 8-11) dead-ends at row 28 south boundary.
    - Vertical rock wall at cols 12-13 and cols 24-25 prevents direct horizontal passage to eastern sector on 1F.
-7. Eastern Exit Sector (cols 24-37, rows 1-17):
+7. Eastern Sector (cols 26-37, rows 1-13):
    - Separated from western/central sector by impassable rock wall at cols 24-25.
-   - Accessed via the B1F ladder route.
-   - South Exit at (37, 17) connects directly out to Route 10 South / Lavender Town.
+   - Rows 14-15 form an impassable solid rock wall across cols 20-37.
+   - Ladder 1 at (37, 3) connects to B1F (33, 25).
+   - Ladder 4 at (27, 3) connects to B1F (5, 3).
 
 ## Verified Trainers & Encounters
 - Pok�Maniac Ashton: Located at (23, 8) facing North [Defeated Turn 3145]. Team: Cubone Lv 23, Slowpoke Lv 23. Reward: �¥1150.
@@ -943,27 +944,19 @@
 
 <h1><code>Scratchpad/RockTunnelRouting</code></h1>
 
-# Rock Tunnel Routing & Traversal Plan
+# Rock Tunnel Traversal Plan to Lavender Town
 
-## Verified Rock Tunnel Traversal Route to Lavender Town
-1. Start on B1F at (28, 5): Walk to Ladder 2 at (27, 3) and ascend to 1F at (5, 3).
-2. On 1F (5, 3):
-   - Walk Down 5 steps to (5, 8).
-   - Walk Right 5 steps along row 8 to (10, 8).
-   - Walk Down 3 steps to (10, 11).
-   - Walk Right 7 steps to (17, 11).
-   - Stepping on (17, 11) warps across the rock divider to (23, 11) in the Eastern Exit sector!
-3. On 1F Eastern Exit Sector from (23, 11):
-   - Walk Right 14 steps along row 11 to (37, 11).
-   - Walk Down 6 steps along col 37 to the South Exit at (37, 17).
-4. Step onto South Exit at (37, 17) to exit Rock Tunnel into Route 10 South!
-5. Walk south along Route 10 South directly into Lavender Town and heal at the Pok�mon Center!
+## Verified 4-Ladder Traversal Sequence
+1. 1F (North Entrance at 15, 3) -> Ladder 1 at (37, 3) -> Descend to B1F at (33, 25).
+2. B1F (33, 25) -> Walk west & north to Ladder 2 at (27, 3) -> Ascend to 1F at (5, 3).
+3. 1F (5, 3) -> Ladder 3 at (3, 3) -> Descend to B1F at (37, 17).
+4. B1F (37, 17) -> Walk south/west through B1F to the southern exit ladder -> Ascend to 1F (South Exit Sector).
+5. 1F (South Sector) -> Walk south directly out of the cave into Route 10 South -> Lavender Town!
 
-## Battle Menu Rules
-- Lead: HYDROS (Blastoise Lv 41, HP 119/135)
-- Move 1: Tackle (21/35 PP) -> `["A", "A"]`
-- Move 3: Bite (21/25 PP) -> `["A", "Down", "Down", "A"]`
-- Move 4: Bubblebeam (0/20 PP) - Depleted until Pok�mon Center.
+## Current Action:
+- From 1F (23, 11), walk north to row 7, west to col 5, and north to Ladder 3 at (3, 3) / (5, 3).
+- Descend to B1F at (37, 17).
+- Traverse B1F south/west to find the final ascent ladder to the 1F South Exit Sector!
 
 
 <hr>
