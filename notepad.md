@@ -2062,7 +2062,7 @@ To reach Sabrina from the entrance room, follow the exact room-to-room warp tran
 ## Cinnabar Island Overworld Layout
 - **Pokémon Center:** Located in the southeast corner.
 - **Cinnabar Poké Mart:** Located in the south-center.
-- **Cinnabar Gym:** Located in the northeast corner. It is locked by default and requires the **Secret Key** to enter.
+- **Cinnabar Gym:** Located in the northeast corner at `(18, 3)`. Door is at `(18, 3)` facing south (Verified Turn 46287). It is locked by default and requires the **Secret Key** to enter.
 - **Cinnabar Lab (Pokémon Lab):** Located in the southwest corner. Contains three research rooms where you can trade and resurrect fossils (Fossil Pokémon resurrect at Level 30!).
 - **Pokémon Mansion:** Large building located in the northwest quadrant of the island. The Secret Key is found deep inside this building on B1F.
 
