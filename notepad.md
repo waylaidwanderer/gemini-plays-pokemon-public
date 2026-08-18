@@ -1970,10 +1970,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 
 ## Overview
 Saffron City Gym features a 3x3 grid of rooms separated by solid walls, connected via teleporter warp pads in the corners.
-To reach Sabrina from the entrance room, the golden rule is the **TR / BL alternating opposite rule**:
-- If you land on a **Top-Right (TR)** pad, take the **Bottom-Left (BL)** pad in that room.
-- If you land on a **Bottom-Left (BL)** pad, take the **Top-Right (TR)** pad in that room.
-- Alternating this sequence (TR -> BL -> TR -> BL) avoids loops and leads directly to Sabrina in the center room.
+To reach Sabrina from the entrance room, follow the exact room-to-room warp transitions listed below. The simplified "alternating TR/BL" rule is a flawed generalization and does not apply to all rooms in Saffron Gym (as verified on Turns 45684-45741, specific BL/BR transitions are required).
 
 ## Map Layout & Verified Room Warp Matrix
 
@@ -1986,7 +1983,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 ### 2. SE Room (Bottom-Right, Room 1)
 - **Warp Pads:**
   - TL: `(15, 11)`
-  - TR: `(19, 11)` - **Target Warp Pad** (alternating rule step 1)
+  - TR: `(19, 11)` - **Target Warp Pad**
   - BL: `(15, 15)`
   - BR: `(19, 15)`
 - **Trainer:** Psychic at `(17, 14)` (Defeated on Turn 45684. Had Slowpoke Lv33 and Slowbro Lv33).
@@ -1996,7 +1993,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Warp Pads:**
   - TL: `(15, 11)`
   - TR: `(19, 11)`
-  - BL: `(15, 15)` - **Target Warp Pad** (alternating rule step 2)
+  - BL: `(15, 15)` - **Target Warp Pad**
   - BR: `(19, 15)`
 - **Transition:** Stepping on BL `(15, 15)` warps the player to `(19, 3)` inside the NE Room.
 
@@ -2005,7 +2002,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Warp Pads:**
   - TL: `(15, 3)`
   - TR: `(19, 3)`
-  - BL: `(15, 5)` - **Target Warp Pad** (alternating rule step 3)
+  - BL: `(15, 5)` - **Target Warp Pad**
   - BR: `(19, 5)`
 - **Trainer:** Psychic at `(17, 2)` (Currently battling on Turn 45692. Has Kadabra Lv31).
 ### 5. NW Room (Top-Left, Room 4)
@@ -2014,7 +2011,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
   - TL: `(1, 3)`
   - TR: `(5, 3)`
   - BL: `(1, 5)`
-  - BR: `(5, 5)` - **Target Warp Pad** (alternating rule step 4)
+  - BR: `(5, 5)` - **Target Warp Pad**
 - **Trainer:** Psychic at `(3, 3)` (Defeated on Turn 45715. Had Kadabra Lv31, Slowpoke Lv31, Mr. Mime Lv31, and Slowbro Lv38).
 - **Transition:** Stepping on BR `(5, 5)` warps the player to `(1, 11)` inside the W Room.
 
@@ -2022,7 +2019,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Arrival Position:** Landed on BL pad at `(1, 11)`.
 - **Warp Pads:**
   - TL: `(1, 9)`
-  - TR: `(5, 9)` - **Target Warp Pad** (alternating rule step 5)
+  - TR: `(5, 9)` - **Target Warp Pad**
   - BL: `(1, 11)`
   - BR: `(5, 11)`
 - **Trainer:** Channeler at `(3, 7)` (Defeated on Turn 45725. Had Haunter Lv38).
@@ -2032,7 +2029,7 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Arrival Position:** Landed on BL pad at `(9, 5)`.
 - **Warp Pads:**
   - TL: `(9, 3)`
-  - TR: `(11, 3)` - **Target Warp Pad** (alternating rule step 6)
+  - TR: `(11, 3)` - **Target Warp Pad**
   - BL: `(9, 5)`
   - BR: `(11, 5)`
 - **Trainer:** Psychic at `(10, 1)` (Facing DOWN. We are about to challenge him!).
@@ -2042,6 +2039,24 @@ To reach Sabrina from the entrance room, the golden rule is the **TR / BL altern
 - **Warp Pads:**
   - BR: `(11, 11)`
 - **Leader:** Gym Leader Sabrina at `(9, 8)` (Defeated on Turn 45766. Earned Marsh Badge and TM46!).
+
+
+<hr>
+
+<h1><code>Locations/CinnabarIsland</code></h1>
+
+# Cinnabar Island & Pokémon Mansion - Layout & Exploration Guide
+
+## Cinnabar Island Overworld Layout
+- **Pokémon Center:** Located in the southeast corner.
+- **Cinnabar Poké Mart:** Located in the south-center.
+- **Cinnabar Gym:** Located in the northeast corner. It is locked by default and requires the **Secret Key** to enter.
+- **Cinnabar Lab (Pokémon Lab):** Located in the southwest corner. Contains three research rooms where you can trade and resurrect fossils (Fossil Pokémon resurrect at Level 30!).
+- **Pokémon Mansion:** Large building located in the northwest quadrant of the island. The Secret Key is found deep inside this building on B1F.
+
+## Pokémon Mansion Switches & Keys Puzzle
+- **Switches:** Located on various Mewtwo statues throughout the building. Interacting with a statue toggles the state of the electronic gates (opening some doors and closing others).
+- **Goal:** Navigate the switches, escalators, and collapsed floors to reach B1F and retrieve the **Secret Key** to unlock the Cinnabar Gym!
 
 
 <hr>
