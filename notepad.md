@@ -803,7 +803,7 @@
 ## Connections
 - West: Route 9 at (0, 8..9) / (0..14, 5..9)
 - North: Power Plant waterway (accessed via canal at col 16)
-- South: Rock Tunnel North Entrance at (14..15, 31)
+- South/East: Rock Tunnel North Entrance at (8, 17)
 
 ## Layout & Landmarks
 - Upper Courtyard (rows 16-29, cols 9-15):
@@ -820,7 +820,6 @@
 
 ## Verified Trainers & Encounters
 - Jr. Trainer Female Carol: Located at (7, 25) [Defeated Turn 3088]. Team: Pikachu Lv 20, Clefairy Lv 20. Reward: ¥400.
-
 
 <hr>
 
