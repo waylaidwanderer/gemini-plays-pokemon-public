@@ -27,7 +27,7 @@
    - Moves: Tackle (0/35), Tail Whip (27/30), Bite (0/25), Bubblebeam (0/20)
    - Role: Starter & primary Water special attacker (Reserve)
 6. TITAN (Onix) - Lv 13
-   - Stats: Max HP 32 (HP: 32/32)
+   - Stats: Max HP 32 (HP: 10/32)
    - Type: Rock / Ground
    - Moves: Tackle, Screech
    - Role: Physical Rock/Ground tank
