@@ -2,9 +2,9 @@
 
 ## Active Party
 1. HYDROS (Blastoise) - Lv 40
-   - Stats (Verified at Lv 40): Max HP 132 (HP: 106/132), Attack 89, Defense 98, Speed 90, Special 94
+   - Stats (Verified at Lv 40): Max HP 132 (HP: 56/132 PAR), Attack 89, Defense 98, Speed 90, Special 94
    - Type: Water
-   - Moves: Tackle (0/35), Tail Whip (27/30), Bite (0/25), Bubblebeam (10/20)
+   - Moves: Tackle (0/35), Tail Whip (27/30), Bite (0/25), Bubblebeam (7/20)
    - Role: Starter & primary Water special attacker (Active Lead)
 2. ECHO (Zubat) - Lv 8
    - Stats (Verified at Lv 8): Max HP 26 (HP: 0/26 FNT)
@@ -17,7 +17,7 @@
    - Moves: Selfdestruct, Defense Curl, Dig, Rock Throw
    - Role: Physical Rock/Ground tank (Reserve / Dig Utility)
 4. SPROUT (Bellsprout) - Lv 15
-   - Stats (Verified at Lv 15): Max HP 42 (HP: 42/42), Attack 27, Defense 15, Speed 16, Special 28
+   - Stats (Verified at Lv 15): Max HP 42 (HP: 14/42 PAR), Attack 27, Defense 15, Speed 16, Special 28
    - Type: Grass / Poison
    - Moves: Vine Whip, Growth, Wrap, PoisonPowder, Cut
    - Role: Grass/Poison STAB, status utility & Field Cut user
