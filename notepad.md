@@ -1735,11 +1735,21 @@ Route 16 Gatehouse physically divides Celadon City (East) from Route 16 Cycling 
 - **Electronic Gate:** Located at `(17, 8)` on 3F. Unlocked with the Card Key on Turn 44760!
 - **Teleporter (Warp 8):** Located at `(11, 11)` behind the `(17, 8)` gate. Warps the player directly to Saffron Silph Co. 7F at `(5, 3)`!
 
-## Saffron Silph Co. 7F Layout & Traversal (Verified Turn 44766)
-- **Landing Position from 3F Warp:** The player emerges at `(5, 3)` facing DOWN.
-- **Warp Tile (landing pad):** Located at `(5, 7)`.
-- **Rival JACK:** Located at `(3, 7)` facing UP, directly blocking western and southern progression.
-- **Rival Battle Initiation:** Walking left along Row 3 from `(5, 3)` towards Column 3 triggers the Rival JACK battle cutscene on Turn 44769!
+## Saffron Silph Co. 7F Layout & Traversal (Verified Turn 44766-44846)
+- **Warp Landing from 3F (11, 11):** Lands at `(5, 3)` on 7F inside the locked left compartment.
+- **NPCs:**
+  - Silph Co. employee at `(1, 5)` (facing right) gives LAPRAS (SELKIE) on Turn 44831.
+  - SARA is in the room.
+- **Warp to 11F:** Located at `(5, 7)` in the bottom-right corner of the left compartment. Can be walked to on foot by walking down Column 3 to `(3, 7)` (row 7) and then walking right to `(5, 7)`. Row 7 is completely open underneath the tables!
+- **Rival JACK:** Met and defeated at `(3, 4)` on Turn 44810.
+
+## Saffron Silph Co. 11F Layout & Traversal (Verified Turn 44847)
+- **Warp Landing from 7F (5, 7):** Lands at `(3, 2)` inside a fenced vertical corridor on the left.
+- **Layout & Obstacles:**
+  - Column 4 is a continuous vertical solid grey wall.
+  - Column 3 is a vertical open fenced corridor leading down from the landing warp at `(3, 2)` to Row 9.
+  - Giovanni is located at `(7, 5)` inside the boardroom on the right.
+  - Saffron Silph Co. President is located at `(6, 9)` inside the boardroom.
 
 
 <hr>
